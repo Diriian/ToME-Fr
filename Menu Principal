@@ -1848,7 +1848,7 @@ t([[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.
 To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# recommended that you register your steam account.
 Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
 ]], [[Bienvenu sur#GOLD#Tales of Maj'Eyal#LAST#.
-Pour profiter de toutes les fonctionnalités du jeu, il est #{bold}#hautement##{normal}# recommandé d'enregistrer votre compte steam.
+Pour profiter de toutes les fonctionnalités du jeu, il est #{bold}#hautement#{normal}# recommandé d'enregistrer votre compte steam.
 Heureusement, c'est très facile à faire: vous n'avez besoin que d'un nom de profil et éventuellement d'un e-mail (nous envoyons très peu d'e-mails, peut-être deux par an tout au plus).
 ]], "_t")
 t("Username: ", "Nom d'utilisateur: ", "_t")
