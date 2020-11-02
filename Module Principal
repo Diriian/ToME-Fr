@@ -3783,7 +3783,7 @@ t("There is no in-game difference between the two sexes.", "除了外貌性别�
 
 
 ------------------------------------------------
-section "game/modules/tome/data/birth/worlds.lua"
+section "game/modules/tome/data/birth/worlds.lua" -- Traduit et testé par Malga
 
 t("Maj'Eyal: The Age of Ascendancy", "Maj'Eyal: L'Age de l'Ascendance", "_t")
 t("The people of Maj'Eyal: Humans, Halflings, Elves and Dwarves.", "Le peuple de Maj'Eyal: Humains, Halfelins, Elfes et Nains.", "_t")
