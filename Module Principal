@@ -5199,63 +5199,63 @@ t("Thank you.", "Merci beaucoup.", "_t")
 section "game/modules/tome/data/chats/last-hope-lost-merchant.lua"
 
 t([[Ah, my #{italic}#good#{normal}# friend @playername@!
-Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], [[啊, 我 #{italic}#亲爱的#{normal}# 朋友 @playername@!
-多亏了你我安全回到了这个伟大的城市！ 我的精品商店过些日子正打算开张营业。不过既然我欠你个人情，要是你需要一些稀有物品的话也许我可以为你提前开张。]], "_t")
+Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], [[Ah, mon #{italic}#bon#{normal}# ami @playername@!
+Grâce à vous, je suis arrivé sain et sauf dans cette grande ville ! J'ai l'intention d'ouvrir bientôt ma plus excellente boutique, mais comme je vous suis redevable, je pourrais peut-être ouvrir plus tôt pour vous si vous avez besoin de marchandises exotiques.]], "_t")
 t("\
-By the way, ", "顺带一提，", "_t")
-t("during our escape I found the plans for an #YELLOW#Ambush Trap#LAST#", "在逃亡过程中我找到了个好点子—— #YELLOW#伏击陷阱#LAST#", "_t")
+By the way, ", "Au fait, ", "_t")
+t("during our escape I found the plans for an #YELLOW#Ambush Trap#LAST#", "pendant notre fuite, j'ai trouvé les plans d'un #YELLOW#Piège à Embuscade#LAST#", "_t")
 t("\
-You would not happen to be interested, by any chance?", "你应该会对它感兴趣吧？", "_t")
-t(" and while", "，同时在", "_t")
-t(" organizing my inventory, I came across some #YELLOW#Smelly Toxin#LAST# that a colleague claimed could actually turn creatures to stone.  Truly exotic!", " 我整理货物时, 我发现了一些 #YELLOW#石化毒剂#LAST# ，据说能把生物变成石头。 真的很棒！", "_t")
-t("while", "在", "_t")
+You would not happen to be interested, by any chance?", "Vous ne seriez pas intéressé, par hasard ?", "_t")
+t(" and while", " et tandis que", "_t")
+t(" organizing my inventory, I came across some #YELLOW#Smelly Toxin#LAST# that a colleague claimed could actually turn creatures to stone.  Truly exotic!", " en organisant mon inventaire, je suis tombé sur #YELLOW#une Toxine Puante#DERNIÈRE# qui, selon un collègue, pouvait en fait transformer des créatures en pierre.  Vraiment exotique!", "_t")
+t("while", "et", "_t")
 t("\
 I eventually plan to arrange a truly unique service for the most discerning of customers. If you come back later when I'm fully set up I shall be able to order for you something quite marvellous. For a perfectly #{italic}#suitable#{normal}# price, of course.", "\
-我准备为最有眼光的那位顾客提供一件真正独特的服务。如果你过会儿回来，我将做好充分准备后给你一个大大的惊喜。而且价格绝对#{italic}#公道#{normal}#哦！当然！", "_t")
+J'ai l'intention d'organiser un service vraiment unique pour les clients les plus exigeants. Si vous revenez plus tard, lorsque je serai complètement installé, je pourrai commander pour vous quelque chose d'assez merveilleux. Pour un prix parfaitement #{italic}#adapté#{normal}#, bien sûr.", "_t")
 t("\
-Oh my friend, good news! As I told you I can now request a truly #{italic}#unique#{normal}# object to be crafted just for you. For a truly unique price...", "噢我的好朋友，我告诉过你我可以为你打造一件真正的 #{italic}#史诗#{normal}# 物品，专门为你量身定做哦，而且价格非常公道……", "_t")
-t("Yes please, let me see your wares.", "好吧，让我看看你的货物。", "_t")
-t("What about the unique object?", "不如说说那个特殊物品？", "_t")
-t("Ambush Trap?  Sounds useful.", "伏击陷阱？听上去很不错", "_t")
-t("Smelly Toxin?  What kind of smell?", "石化毒素？怎么样？", "_t")
-t("Sorry, I have to go!", "抱歉，我要走了！", "_t")
+Oh my friend, good news! As I told you I can now request a truly #{italic}#unique#{normal}# object to be crafted just for you. For a truly unique price...", "Oh mon ami, bonne nouvelle ! Comme je vous l'ai dit, je peux maintenant demander qu'un objet vraiment #{italic}#unique#{normal}# soit fabriqué juste pour vous. Pour un prix vraiment unique...", "_t")
+t("Yes please, let me see your wares.", "Oui, s'il vous plaît, laissez-moi voir vos marchandises.", "_t")
+t("What about the unique object?", "Qu'en est-il de l'objet unique ?", "_t")
+t("Ambush Trap?  Sounds useful.", "Un Piège à Embuscade? Ca pourrait être utile.", "_t")
+t("Smelly Toxin?  What kind of smell?", "Une Toxine Puante? Quelle sorte de puanteur?", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 t([[You know, I have asked here and there and it happens to be a very rare thing this contraption...
-But since you have saved me, I'm willing to part from it for only 3000 gold pieces, a real bargain!]], [[你要知道，我问遍了每个地方都没发现有相同的东西。
-不过，既然你救了我的命，给我3000金币我就把它转让给你。这可是很划算的！]], "_t")
-t("Expensive, but I will take it.", "虽然很贵，不过我要了。", "_t")
-t("...", "……", "_t")
-t("Nice doing business with you my friend. There you go!", "和你做生意真愉快！", "_t")
+But since you have saved me, I'm willing to part from it for only 3000 gold pieces, a real bargain!]], [[Vous savez, j'ai demandé ici et là et il se trouve que cet engin est très rare...
+Mais puisque vous m'avez sauvé, je suis prêt à m'en séparer pour seulement 3000 pièces d'or, une véritable aubaine!]], "_t")
+t("Expensive, but I will take it.", "C'est cher, mais je vais le prendre.", "_t")
+t("...", "...", "_t")
+t("Nice doing business with you my friend. There you go!", "Ravi de faire des affaires avec toi, mon ami. Et voilà!", "_t")
 t([[Ungrol told me this substance contains some exceedingly rare components.
-"More Toxin than Medicine" he said.  Allas, he had not the funds to buy it.  On the other hand, because of our special relationship, I'm willing to let you have it #{italic}#at cost#{normal}# -- only 1500 gold pieces!]], [[温格勒发现这种物质含有某些稀有成分，
-“比毒药还要毒” ，但他没钱买下来。 基于我们的良好关系，我很愿意卖给你，#{italic}#只需要#{normal}# -- 1500 金币!]], "_t")
-t("Fairly pricey, but seems useful.  We have a deal!", "有点贵，不过应该能派上用场。我要了！", "_t")
-t("That price ... er stuff really stinks ...", "这个价格 ... 还是算了吧...", "_t")
-t("Here you are.  Just be sure not to get any on yourself!", "给你了。别洒在自己身上了", "_t")
-t("Thanks.", "多谢。", "_t")
-t("I normally offer this service only for a truly deserved price, but for you my friend I am willing to offer a 20% discount - #{italic}#only#{normal}# 4000 gold to make an utterly unique item of your choice.  What do you say?", "对于这项服务，只有到了合理的价位我才会愿意提供给别人，不过对你，我的朋友，我准备给你打个20%的折扣—— #{italic}#只要#{normal}# 4000 金币就可以打造一个真真正正你特有的装备哦，怎么样？", "_t")
-t("Why, 'tis a paltry sum - take my order, man, and be quick about it!", "什么？这点小钱无所谓，赶紧给我弄出来吧！", "_t")
-t("Yes, please!", "好的，请吧。", "_t")
-t("HOW MUCH?! Please, excuse me, I- I need some fresh air...", "多少钱？！呃……抱歉，我……我得出去呼吸一下新鲜空气……", "_t")
-t("Not now, thank you.", "现在不用，再见。", "_t")
-t("dragonbone wand", "龙骨魔杖", "_t")
-t("dragonbone totem", "龙骨图腾", "_t")
-t("voratun torque", "沃瑞钽项圈", "_t")
-t("I've changed my mind.", "我决定不买了。", "_t")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#你的时间穿越对这种已经预设好的结局没有任何作用。", "_t")
+"More Toxin than Medicine" he said.  Allas, he had not the funds to buy it.  On the other hand, because of our special relationship, I'm willing to let you have it #{italic}#at cost#{normal}# -- only 1500 gold pieces!]], [[Ungrol m'a dit que cette substance contient des composants extrêmement rares.
+"Plus de toxines que de médicaments", a-t-il dit. Allas, il n'avait pas les fonds pour l'acheter. D'un autre côté, en raison de notre relation spéciale, je suis prêt à vous la laisser #{italic}#au prix coûtant#{normal}# -- seulement 1500 pièces d'or!]], "_t")
+t("Fairly pricey, but seems useful.  We have a deal!", "Assez cher, mais semble utile. Nous avons un accord!", "_t")
+t("That price ... er stuff really stinks ...", "Ce prix... euh, ce truc pue vraiment...", "_t")
+t("Here you are.  Just be sure not to get any on yourself!", "Voilà. Assurez-vous simplement de ne pas vous en mettre dessus!", "_t")
+t("Thanks.", "Merci.", "_t")
+t("I normally offer this service only for a truly deserved price, but for you my friend I am willing to offer a 20% discount - #{italic}#only#{normal}# 4000 gold to make an utterly unique item of your choice.  What do you say?", "Normalement, je n'offre ce service que pour un prix vraiment approprié, mais pour vous, mon ami, je suis prêt à vous offrir une réduction de 20% - #{italic}#seulement#{normal}# 4000 or pour réaliser un objet tout à fait unique de votre choix. Qu'en dites-vous?", "_t")
+t("Why, 'tis a paltry sum - take my order, man, and be quick about it!", "C'est une somme dérisoire - prenez ma commande et faites vite!", "_t")
+t("Yes, please!", "Oui, s'il vous plaît!", "_t")
+t("HOW MUCH?! Please, excuse me, I- I need some fresh air...", "COMBIEN?! S'il vous plaît, excusez-moi, j'ai besoin d'un peu d'air frais...", "_t")
+t("Not now, thank you.", "Pas maintenant, merci.", "_t")
+t("dragonbone wand", "baguette en os de dragon", "_t")
+t("dragonbone totem", "totem en os de dragon", "_t")
+t("voratun torque", "torque en voratun", "_t")
+t("I've changed my mind.", "J'ai changé d'avis.", "_t")
+t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t([[Do you want to name your item?
-%s]], [[你想要命名你的物品吗？
+%s]], [[Vous voulez donner un nom à votre objet?
 %s]], "tformat")
-t("Yes, please.", "是的。", "_t")
-t("Name", "名称", "_t")
-t("Name your item", "给你的装备起名", "_t")
-t("#LIGHT_BLUE#The merchant carefully hands you: %s", "#LIGHT_BLUE#商人小心的交给了你：%s", "log")
-t("No thanks.", "不用了，谢谢。", "_t")
-t("Oh I am sorry, it seems we could not make the item your require.", "啊真抱歉，这东西我们可做不了。", "_t")
-t("Oh, let's try something else then.", "好吧，我们试试别的东西。", "_t")
-t("Oh well, maybe later then.", "好吧，以后再说。", "_t")
-t("Which kind of item would you like ?", "你喜欢什么类型的装备？", "_t")
-t("*This store does not appear to be open yet*", "*这个商店好像还没开张。*", "_t")
-t("[leave]", "[离开]", "_t")
+t("Yes, please.", "Oui, s'il vous plaît.", "_t")
+t("Name", "Nom", "_t")
+t("Name your item", "Nommez votre objet", "_t")
+t("#LIGHT_BLUE#The merchant carefully hands you: %s", "#LIGHT_BLUE#Le commerçant vous remet avec soin: %s", "log")
+t("No thanks.", "Non merci.", "_t")
+t("Oh I am sorry, it seems we could not make the item your require.", "Oh, je suis désolé, il semble que nous n'ayons pas pu répondre à votre demande.", "_t")
+t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
+t("Oh well, maybe later then.", "Eh bien, peut-être plus tard alors.", "_t")
+t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous?", "_t")
+t("*This store does not appear to be open yet*", "*Ce magasin ne semble pas encore ouvert*", "_t")
+t("[leave]", "[partir]", "_t")
 
 
 ------------------------------------------------
