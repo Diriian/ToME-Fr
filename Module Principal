@@ -5126,16 +5126,15 @@ t("I will see if I can find it.", "我看看能不能找到那个地方。", "_t
 section "game/modules/tome/data/chats/keepsake-berethh-encounter.lua"
 
 t([[#VIOLET#*Before you stands Berethh. His face shows no emotion, but his posture is threatening.#LAST#
-]], [[#VIOLET#*在你的面前站着的是贝里斯。他面无表情，只是摆出了攻击的姿势。#LAST#
+]], [[#VIOLET#*Devant vous se tient Berethh. Son visage ne montre aucune émotion, mais sa posture est menaçante.#LAST#
 ]], "_t")
-t("Kyless is dead.", "克里斯死了。", "_t")
-t("I'm not sure if you deserved your fate. Still I cannot let you live.", "我不知道你是否该死。不管怎样，我要杀了你。", "_t")
-t("Then you will die like Kyless. #LIGHT_GREEN#[Attack]#LAST#", "那么你就会像克里斯一样死掉。#LIGHT_GREEN#[攻击]#LAST#", "_t")
-t("I need your help. I want to overcome my curse.", "我需要你的帮助。我想要克服我的诅咒。", "_t")
-t("I do not want to kill you.", "我不想杀你。", "_t")
-t("#VIOLET#*Berethh ignores your comment, unslings his bow and prepares his attack.*#LAST#", "#VIOLET#*贝里斯无视了你的请求，他拉开了弓弦准备攻击。*#LAST#", "_t")
-t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[攻击]", "_t")
-
+t("Kyless is dead.", "Kyless est mort.", "_t")
+t("I'm not sure if you deserved your fate. Still I cannot let you live.", "Je ne suis pas sûr que vous ayez mérité votre sort. Cependant je ne peux pas vous laisser vivre.", "_t")
+t("Then you will die like Kyless. #LIGHT_GREEN#[Attack]#LAST#", "Alors vous mourrez comme Kyless. #LIGHT_GREEN#[Attaque]#LAST#", "_t")
+t("I need your help. I want to overcome my curse.", "J'ai besoin de votre aide. Je veux surmonter ma malédiction.", "_t")
+t("I do not want to kill you.", "Je n'ai pas envie de vous tuer.", "_t")
+t("#VIOLET#*Berethh ignores your comment, unslings his bow and prepares his attack.*#LAST#", "#VIOLET#*Berethh ne tient pas compte de votre commentaire, il tire son arc et prépare son attaque.*#LAST#", "_t")
+t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaque]", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/keepsake-caravan-destroyed.lua"
