@@ -5152,13 +5152,13 @@ t("...", "...", "_t")
 section "game/modules/tome/data/chats/keepsake-kyless-death.lua"
 
 t([[#VIOLET#*Kyless lies dying on the floor. In his hand he holds a book.*#LAST#
-Please! Before I die I have one request. Destroy the book. It wasn't me. The book brought this on us. It must be destoyed!]], [[#VIOLET#*克里斯躺在地板上奄奄一息。他的手里还握着一本书。*#LAST#
-求求你！在我死前我有一个请求！毁掉这本书。其实不是我，是这本书将灾难带给了我们。它必须被毁掉！]], "_t")
-t("I will. #LIGHT_GREEN#[destroy the book]#LAST#", "好的。 #LIGHT_GREEN#[毁掉那本书]#LAST#", "_t")
-t("I'm sorry but I need it. #LIGHT_GREEN#[keep the book]#LAST#", "对不起我需要它。#LIGHT_GREEN#[拿走这本书]#LAST#", "_t")
-t("#VIOLET#*You destroy the book. When you finish you look up and see that Kyless is already dead.*#LAST#", "#VIOLET#*你毁掉了这本书。当你做完这一切后，你发现克里斯已经死了。*#LAST#", "_t")
-t("#VIOLET#*You place the book in your pack. When you finish you look up and see that Kyless is already dead.*#LAST#", "#VIOLET#*你将这本书放到了背包里。当你做完这一切后，你发现克里斯已经死了。*#LAST#", "_t")
-t("Goodbye, Kyless.", "再见，克里斯。", "_t")
+Please! Before I die I have one request. Destroy the book. It wasn't me. The book brought this on us. It must be destoyed!]], [[#VIOLET#*Kyless gît mourante sur le sol. Dans sa main, il tient un livre.*#LAST#
+Je vous en prie ! Avant de mourir, j'ai une demande à formuler. Détruisez ce livre. Ce n'était pas moi. C'est le livre qui nous a fait ça. Il doit être détruit !]], "_t")
+t("I will. #LIGHT_GREEN#[Destroy the book]#LAST#", "Je le ferais. #LIGHT_GREEN#[Détruire le livre]#LAST#", "_t")
+t("I'm sorry but I need it. #LIGHT_GREEN#[Keep the book]#LAST#", "Je suis désolé mais j'en ai besoin#LIGHT_GREEN#[Garder le livre]#LAST#", "_t")
+t("#VIOLET#*You destroy the book. When you finish you look up and see that Kyless is already dead.*#LAST#", "#VIOLET#*Vous détruisez le livre. Quand vous avez fini, vous levez les yeux et vous voyez que Kyless est déjà morte.*#LAST#", "_t")
+t("#VIOLET#*You place the book in your pack. When you finish you look up and see that Kyless is already dead.*#LAST#", "#VIOLET#*Vous mettez le livre dans votre sac. Quand vous avez fini, vous levez les yeux et vous voyez que Kyless est déjà morte.*#LAST#", "_t")
+t("Goodbye, Kyless.", "Adieu, Kyless.", "_t")
 
 
 ------------------------------------------------
