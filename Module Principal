@@ -5140,12 +5140,12 @@ t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaque]", "_t")
 section "game/modules/tome/data/chats/keepsake-caravan-destroyed.lua"
 
 t([[#VIOLET#*As the last member of the caravan lies dying, you look at him and see the hate that fills his eyes.*#LAST#
-We should have finished you off that day. You deserved no mercy!]], [[#VIOLET#*作为商队最后的牺牲者，你看到他的双眼中满是仇恨。*#LAST#
-我们那天应该杀了你。你不应该得到怜悯！]], "_t")
-t("And I will show you no mercy. #LIGHT_GREEN#[Kill him]#LAST#", "那就让我来告诉你什么是无情。 #LIGHT_GREEN#[杀了他]#LAST#", "_t")
-t("I am sorry. #LIGHT_GREEN#[Help him]#LAST#", "对不起。 #LIGHT_GREEN#[帮助他]#LAST#", "_t")
-t("#VIOLET#*Before you can help him, he collapses to the ground and dies.*#LAST#", "#VIOLET#*你刚想扶起他时，发现他已经失去了最后一线生机。*#LAST#", "_t")
-t("...", "……", "_t")
+We should have finished you off that day. You deserved no mercy!]], [[#VIOLET#*Alors que le dernier membre de la caravane gît mourant, vous le regardez et vous voyez la haine qui remplit ses yeux.*#LAST#
+Nous aurions dû vous achever ce jour-là. Vous n'avez pas mérité notre pitié !]], "_t")
+t("And I will show you no mercy. #LIGHT_GREEN#[Kill him]#LAST#", "Et je ne vous montrerai aucune pitié. #LIGHT_GREEN#[Le tuer]#LAST#", "_t")
+t("I am sorry. #LIGHT_GREEN#[Help him]#LAST#", "Je suis désolé. #LIGHT_GREEN#[L'aider]#LAST#", "_t")
+t("#VIOLET#*Before you can help him, he collapses to the ground and dies.*#LAST#", "#VIOLET#*Avant que vous ne puissiez l'aider, il s'effondre sur le sol et meurt.*#LAST#", "_t")
+t("...", "...", "_t")
 
 
 ------------------------------------------------
