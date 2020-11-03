@@ -3773,13 +3773,13 @@ t("#GOLD#Confusion resistance:#LIGHT_BLUE# 35%", "#GOLD#混乱抗性:#LIGHT_BLUE
 
 
 ------------------------------------------------
-section "game/modules/tome/data/birth/sexes.lua"
+section "game/modules/tome/data/birth/sexes.lua" -- Traduit et testé par Malga
 
-t("Female", "女性", "birth descriptor name")
-t("You are a female of the species.", "你是一位女性角色。", "_t")
-t("Male", "男性", "birth descriptor name")
-t("You are a male of the species.", "你是一位男性角色。", "_t")
-t("There is no in-game difference between the two sexes.", "除了外貌性别在实际游戏中没有任何分别。", "_t")
+t("Female", "Femelle", "birth descriptor name")
+t("You are a female of the species.", "Vous êtes une femelle de votre race.", "_t")
+t("Male", "Male", "birth descriptor name")
+t("You are a male of the species.", "Vous êtes un male de votre race.", "_t")
+t("There is no in-game difference between the two sexes.", "Il n'y a aucune différence en jeu entre les deux sexes.", "_t")
 
 
 ------------------------------------------------
