@@ -5123,7 +5123,7 @@ t("I will see if I can find it.", "我看看能不能找到那个地方。", "_t
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/keepsake-berethh-encounter.lua"
+section "game/modules/tome/data/chats/keepsake-berethh-encounter.lua"	-- Traduit et testé par Dirian
 
 t([[#VIOLET#*Before you stands Berethh. His face shows no emotion, but his posture is threatening.#LAST#
 ]], [[#VIOLET#*Devant vous se tient Berethh. Son visage ne montre aucune émotion, mais sa posture est menaçante.#LAST#
@@ -5136,8 +5136,9 @@ t("I do not want to kill you.", "Je n'ai pas envie de vous tuer.", "_t")
 t("#VIOLET#*Berethh ignores your comment, unslings his bow and prepares his attack.*#LAST#", "#VIOLET#*Berethh ne tient pas compte de votre commentaire, il tire son arc et prépare son attaque.*#LAST#", "_t")
 t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaque]", "_t")
 
+
 ------------------------------------------------
-section "game/modules/tome/data/chats/keepsake-caravan-destroyed.lua"
+section "game/modules/tome/data/chats/keepsake-caravan-destroyed.lua"	-- Traduit et testé par Dirian
 
 t([[#VIOLET#*As the last member of the caravan lies dying, you look at him and see the hate that fills his eyes.*#LAST#
 We should have finished you off that day. You deserved no mercy!]], [[#VIOLET#*Alors que le dernier membre de la caravane gît mourant, vous le regardez et vous voyez la haine qui remplit ses yeux.*#LAST#
@@ -5149,7 +5150,7 @@ t("...", "...", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/keepsake-kyless-death.lua"
+section "game/modules/tome/data/chats/keepsake-kyless-death.lua"	-- Traduit et testé par Dirian
 
 t([[#VIOLET#*Kyless lies dying on the floor. In his hand he holds a book.*#LAST#
 Please! Before I die I have one request. Destroy the book. It wasn't me. The book brought this on us. It must be destoyed!]], [[#VIOLET#*Kyless gît mourante sur le sol. Dans sa main, il tient un livre.*#LAST#
@@ -5162,7 +5163,7 @@ t("Goodbye, Kyless.", "Adieu, Kyless.", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/last-hope-elder.lua"
+section "game/modules/tome/data/chats/last-hope-elder.lua"	-- Traduit et testé par Dirian
 
 t("Welcome, @playername@, to Last Hope. Traveler, please be quick as my time is precious.", "Bienvenue, @playername@，à Dernier Espoir. Voyageur, soyez bref car mon temps est précieux.", "_t")
 t("I have found a strange staff in my travels (#LIGHT_GREEN#*describe it in detail*#LAST#) It looked very old and very powerful. I dared not use it.", "J'ai trouvé un bâton étrange au cours de mes voyages. (#LIGHT_GREEN#*le décrire en détail*#LAST#) Il avait l'air aussi vieux que puissant. Je n'ai pas osé l'utiliser.", "_t")
@@ -5196,7 +5197,7 @@ t("Thank you.", "Merci beaucoup.", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/last-hope-lost-merchant.lua"
+section "game/modules/tome/data/chats/last-hope-lost-merchant.lua"	-- Traduit et testé par Dirian
 
 t([[Ah, my #{italic}#good#{normal}# friend @playername@!
 Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], [[Ah, mon #{italic}#bon#{normal}# ami @playername@!
@@ -5259,146 +5260,145 @@ t("[leave]", "[partir]", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/last-hope-melinda-father.lua"
+section "game/modules/tome/data/chats/last-hope-melinda-father.lua"	-- Traduit et testé par Dirian
 
 t([[#LIGHT_GREEN#*A man talks to you from inside, the door half open. His voice is sad.*#WHITE#
-Sorry, the store is closed.]], [[#LIGHT_GREEN#*门半掩着，一个男人的声音传了出来，他的声音听上去很悲伤。*#WHITE#
-抱歉……商店已经关门了……]], "_t")
-t("[leave]", "[离开]", "_t")
-t("@playername@! My daughter's savior!", "@playername@! 我女儿的救命恩人", "_t")
-t("Hi, I was just checking in to see if Melinda is all right.", "你好，我就是来看望一下梅琳达的。", "_t")
-t("Hi, I would like to talk to Melinda please.", "你好，我想和梅琳达谈谈。", "_t")
-t("Sorry, I have to go!", "抱歉，我要走了！", "_t")
-t("Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "请带上这个。没什么比我孩子的生命更重要了。哦，她想亲自表达她对你的谢意。我去叫她出来。", "_t")
-t("Melinda", "米琳达", "_t")
-t("Thank you.", "谢谢。", "_t")
-t("Melinda's father gives you: %s", "梅琳达的父亲交给了你：%s", "logPlayer")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#你的时间穿越对这种已经预设好的结局没有任何作用。", "_t")
-t("@playername@! #LIGHT_GREEN#*She jumps for joy and hugs you while her father returns to his shop.*#WHITE#", "@playername@! #LIGHT_GREEN#*当她父亲返回商店时，她高兴地跳了起来，给了你一个拥抱。*#WHITE#", "_t")
-t("I am glad to see you are fine. It seems your scars are healing quite well.", "看到你一切安好真是太好了。你的伤疤看上去也已经痊愈了。", "_t")
-t("I am glad to see you well. Take care.", "很高兴看到你没事，多保重。", "_t")
+Sorry, the store is closed.]], [[#LIGHT_GREEN#*Un homme vous parle de l'intérieur, la porte à moitié ouverte. Sa voix est triste.*#WHITE#
+Désolé, le magasin est fermé.]], "_t")
+t("[leave]", "[partir]", "_t")
+t("@playername@! My daughter's savior!", "@playername@! Le sauveur de ma fille!", "_t")
+t("Hi, I was just checking in to see if Melinda is all right.", "Bonjour, je venais juste voir si Melinda va bien.", "_t")
+t("Hi, I would like to talk to Melinda please.", "Bonjour, je voudrais parler à Melinda, s'il vous plaît.", "_t")
+t("Sorry, I have to go!", "Désollé, je dois y aller!", "_t")
+t("Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "Veuillez prendre ceci. Ce n'est rien comparé à la vie de mon enfant. Oh, et elle voudrait vous remercier en personne; je vais l'appeller.", "_t")
+t("Melinda", "Melinda", "_t")
+t("Thank you.", "Merci beaucoup.", "_t")
+t("Melinda's father gives you: %s", "Le père de Melinda vous donne: %s", "logPlayer")
+t("@playername@! #LIGHT_GREEN#*She jumps for joy and hugs you while her father returns to his shop.*#WHITE#", "@playername@! #LIGHT_GREEN#*Elle saute de joie et vous embrasse pendant que son père retourne à sa boutique.*#WHITE#", "_t")
+t("I am glad to see you are fine. It seems your scars are healing quite well.", "Je suis heureux de voir que vous allez bien. Il semble que vos cicatrices guérissent assez vite.", "_t")
+t("I am glad to see you well. Take care.", "Je suis heureux de vous voir en bonne santé. Prenez soin de vous.", "_t")
 t([[Yes it has mostly healed, though I still do have nightmares. I feel like something is still lurking.
-Ah well, the bad dreams are still better than the fate you saved me from!]], [[是的，基本上好了，尽管晚上有时我还会做噩梦。我觉得心里总不得安宁。
-不过，这比起你救我之前的处境，确实好多了！]], "_t")
-t("Should I come across a way to help you during my travels, I will try to help.", "如果在我的旅程中能帮到你的话，我会尽力的。", "_t")
-t("Thank you, you are most welcome.", "谢谢，你真是个好人。", "_t")
-t("Most certainly, so what are your plans now?", "那么，你现在有什么计划么？", "_t")
-t("Hi @playername@! I am feeling better now, even starting to grow restless...", "你好 @playername@! 我感觉好多了，现在我甚至觉得精神焕发……", "_t")
-t("So what are your plans now?", "那么，你有什么计划么", "_t")
-t("About that, I was thinking that maybe you'd like to go out with me sometime ...", "呃，我觉得你也许喜欢和我出去走走……", "_t")
+Ah well, the bad dreams are still better than the fate you saved me from!]], [[Oui, elles guérissent rapidement, bien que je fasse encore des cauchemars. J'ai l'impression que quelque chose me guette encore.
+Cependant, les mauvais rêves sont toujours mieux que le sort dont vous m'avez sauvé !]], "_t")
+t("Should I come across a way to help you during my travels, I will try to help.", "Si je trouve un moyen de vous aider au cours de mes voyages, j'essaierai de vous aider.", "_t")
+t("Thank you, you are most welcome.", "Merci, vous êtes le bienvenu.", "_t")
+t("Most certainly, so what are your plans now?", "Très certainement, alors quels sont vos projets maintenant ?", "_t")
+t("Hi @playername@! I am feeling better now, even starting to grow restless...", "Bonjour @playername@! Je me sens mieux maintenant, je commence même à ne plus tenir en place...", "_t")
+t("So what are your plans now?", "Alors, quels sont vos projets maintenant ?", "_t")
+t("About that, I was thinking that maybe you'd like to go out with me sometime ...", "À ce propos, je pensais que tu aimerais peut-être sortir avec moi un jour...", "_t")
 t([[#LIGHT_GREEN#*Melinda appears at the door and kisses you*#WHITE#
-Hi my dear, I'm so happy to see you!]], [[#LIGHT_GREEN#*梅琳达出现在门口，亲吻了你*#WHITE#
-亲爱的，见到你真好！]], "_t")
-t("I am still looking out for an explanation of what happened at the beach.", "我仍在为那天在海滩的事情找个解释。", "_t")
-t("About what happened on the beach, I think I have found something.", "关于海滩那件事，我想我发现了什么。", "_t")
+Hi my dear, I'm so happy to see you!]], [[#LIGHT_GREEN#*Melinda apparaît à la porte et vous embrasse*#WHITE#
+Salut ma chère, je suis si heureux de te voir !]], "_t")
+t("I am still looking out for an explanation of what happened at the beach.", "Je suis toujours à la recherche d'une explication sur ce qui s'est passé à la plage.", "_t")
+t("About what happened on the beach, I think I have found something.", "A propos de ce qui s'est passé sur la plage, je pense avoir trouvé quelque chose.", "_t")
 t([[I do not know yet, my father won't let me out until I'm fully healed. I've always wanted to do so many things.
 That is why I got stuck in that crypt, I want to see the world.
-My father gave me some funds so that I can take my future into my own hands. I have some friends in Derth, maybe I will open my own little shop there. ]], [[我不知道，我的父亲不会让我出门的，除非我痊愈了。但我总想做许多事情。
-这也许是我为什么会被关在地窖的原因吧，我想亲眼看看这个世界。
-我的父亲给了我一些钱，这样我就能掌握自己的未来。我在德斯镇有几个朋友，或许，我能在那里开一家小商店]], "_t")
-t("I have seen how you fought those corruptors, the way you destroyed their magic. I want to learn to do the same, so that such horrors never happen again. To anyone.", "我看到了你是怎样对抗那些堕落法师的，看到了你摧毁他们的邪恶魔法的方法。我也想做同样的事，这样的话，这种噩梦就不会再上演了。", "_t")
+My father gave me some funds so that I can take my future into my own hands. I have some friends in Derth, maybe I will open my own little shop there. ]], [[Je ne sais pas encore, mon père ne me laissera pas sortir avant que je sois complètement guéri. J'ai toujours voulu faire tant de choses.
+C'est pourquoi je suis resté coincé dans cette crypte, je veux voir le monde.
+Mon père m'a donné des fonds pour que je puisse prendre mon avenir en main. J'ai quelques amis à Derth, peut-être que j'y ouvrirai ma propre petite boutique.]], "_t")
+t("I have seen how you fought those corruptors, the way you destroyed their magic. I want to learn to do the same, so that such horrors never happen again. To anyone.", "J'ai vu comment vous avez combattu ces corrupteurs, comment vous avez détruit leur magie. Je veux apprendre à faire de même, afin que de telles horreurs ne se reproduisent plus jamais. A personne.", "_t")
 t([[Or maybe, well I suppose I can trust you with this, I've always secretly dreamed of learning magic. Real magic I mean not alchemist tricks!
-I've learnt about a secret place, Angolwen, where I could learn it.]], [[或许，呃，我可以相信你吧，我一直想学魔法。是真正的魔法，而不是炼金术士的小把戏！
-我听说过一个秘密的地方，叫做安格利文，在那里我就能学习魔法。]], "_t")
-t("Derth has its up and downs but I think they could do with a smart girl yes.", "德斯镇有自己的起起落落，但我相信像你这样的聪明女孩一定能生活下去。", "_t")
-t("Thanks!", "谢谢！", "_t")
-t("You wish to join our noble crusade against magic? Wonderful! I will talk to them for you.", "你希望加入我们高尚的反魔组织么？太好了！我会和他们说的。", "_t")
-t("I happen to be welcome among the people of Angolwen, I could say a word for you.", "我正巧在安格利文还比较受欢迎，我会帮你带话的。", "_t")
-t("That would be very nice!", "那真是太好了！", "_t")
-t("What?!? Just because you rescued me from a moderately-to-extremely gruesome death, you think that entitles you to take liberties?!", "什么？就因为你救了我的命，我就得把自己给你？", "_t")
-t("GIRL", "女孩", "_t")
-t("GUY", "男孩", "_t")
-t("Uhh, sorry I hear my father calling, see you.", "呃，不好意思，我听到我的父亲在喊我，再见。", "_t")
-t("WHY AREN'T WOMEN ATTRACTED TO ME I'M A NICE %s.", "怎么会有女人对我不感兴趣呢？我可是个很好的%s。", "tformat")
-t("Just a minute, I was just...", "等一会，我只是...", "_t")
+I've learnt about a secret place, Angolwen, where I could learn it.]], [[Ou peut-être, et bien je suppose que je peux vous faire confiance, j'ai toujours secrètement rêvé d'apprendre la magie. De la vraie magie, je veux dire, pas des tours d'alchimiste !
+J'ai découvert un endroit secret, Angolwen, où je pourrais l'apprendre.]], "_t")
+t("Derth has its up and downs but I think they could do with a smart girl yes.", "Derth a ses hauts et ses bas, mais je pense qu'ils pourraient avoir besoin d'une fille intelligente, oui.", "_t")
+t("Thanks!", "Merci!", "_t")
+t("You wish to join our noble crusade against magic? Wonderful! I will talk to them for you.", "Vous souhaitez vous joindre à notre noble croisade contre la magie? Merveilleux! Je vais leur parler de vous.", "_t")
+t("I happen to be welcome among the people of Angolwen, I could say a word for you.", "Il se trouve que je suis le bienvenu parmi le peuple d'Angolwen, je pourrais leur parler de vous.", "_t")
+t("That would be very nice!", "Ce serait très aimable!", "_t")
+t("What?!? Just because you rescued me from a moderately-to-extremely gruesome death, you think that entitles you to take liberties?!", "Quoi?!? Ce n'est pas parce que vous m'avez sauvé d'une mort modérément à extrêmement horrible que vous pensez que cela vous donne le droit de prendre des libertés!", "_t")
+t("GIRL", "FILLE", "_t")
+t("GUY", "MEC", "_t")
+t("Uhh, sorry I hear my father calling, see you.", "Uhh, désolé j'ai entendu mon père m'appeler, à plus tard.", "_t")
+t("WHY AREN'T WOMEN ATTRACTED TO ME I'M A NICE %s.", "POURQUOI LES FEMMES NE SONT PAS ATTIRÉES PAR MOI JE SUIS UN %s SYMPA", "tformat")
+t("Just a minute, I was just...", "Juste une minute, j'étais juste...", "_t")
 t([[#LIGHT_GREEN#*She looks at you cheerfully.*#WHITE#
-Just kidding. I would love that!]], [[#LIGHT_GREEN#*她兴奋地看着你*#WHITE#
-开玩笑的，我很喜欢!]], "_t")
-t("#LIGHT_GREEN#[walk away with her]#WHITE#What about a little trip to the south, from the coastline we can see the Charred Scar Volcano, it is a wonderous sight.", "#LIGHT_GREEN#[朝她走了过去]#WHITE#我们去南边旅行吧，从魔法大爆炸之痕的海岸开始，那是一段美好的风景。", "_t")
-t("But... ok goodbye.", "但是……好吧，再见。", "_t")
-t("Joke's on you really, goodbye!", "开什么玩笑，再见了！", "_t")
+Just kidding. I would love that!]], [[#LIGHT_GREEN#*Elle vous regarde avec joie.*#WHITE#
+Je plaisante. J'adorerais ça!]], "_t")
+t("#LIGHT_GREEN#[walk away with her]#WHITE#What about a little trip to the south, from the coastline we can see the Charred Scar Volcano, it is a wonderous sight.", "#LIGHT_GREEN#[s'éloigner avec elle]#WHITE#Que diriez-vous d'un petit voyage vers le sud, depuis la côte on peut voir le volcan de la Plaie craquelée, c'est un spectacle merveilleux.", "_t")
+t("But... ok goodbye.", "Mais... ok au revoir.", "_t")
+t("Joke's on you really, goodbye!", "La plaisanterie est pour toi, vraiment, au revoir!", "_t")
 t([[#LIGHT_GREEN#*You take Melinda in your arms and press her against you. The warmth of the contact lightens your heart.*#WHITE#
-I feel safe in your arms. Please, I know you must leave, but promise to come back soon and hold me again.]], [[#LIGHT_GREEN#*你把梅琳达紧紧拥在怀里，身体的接触使你感受到她的体温照亮了你的内心。*#WHITE#
-在你的怀抱中我觉得很安全，我知道你要走了，求求你，答应我你会尽快回来看我，拥抱我。]], "_t")
-t("I think I would enjoy that very much. #LIGHT_GREEN#[kiss her]#WHITE#", "我想我很乐意这么做。#LIGHT_GREEN#[亲吻她]#WHITE#", "_t")
-t("That thought will carry me in the dark places I shall walk. #LIGHT_GREEN#[kiss her]#WHITE#", "对你的思念会伴随我在黑暗中前行。#LIGHT_GREEN#[亲吻她]]#WHITE#", "_t")
-t("Oh, I am sorry. I think you are mistaken. I was only trying to comfort you.", "噢，抱歉，我想你误会了。我只是想安慰你。", "_t")
-t("Oh, sorry, I was not myself. Goodbye, then. Farewell.", "对不起，我失态了。那么，再见吧。", "_t")
+I feel safe in your arms. Please, I know you must leave, but promise to come back soon and hold me again.]], [[#LIGHT_GREEN#*Vous prenez Melinda dans vos bras et la pressez contre vous. La chaleur du contact soulage votre cœur.*#WHITE#
+Je me sens en sécurité dans vos bras. S'il vous plaît, je sais que vous devez partir, mais promettez-moi de revenir bientôt et de me tenir à nouveau comme cela.]], "_t")
+t("I think I would enjoy that very much. #LIGHT_GREEN#[kiss her]#WHITE#", "Je pense que cela me plairait beaucoup. #LIGHT_GREEN#[l'embrasser]#WHITE#", "_t")
+t("That thought will carry me in the dark places I shall walk. #LIGHT_GREEN#[kiss her]#WHITE#", "Cette pensée me soutiendra dans les lieux sombres où je marcherai. #LIGHT_GREEN#[l'embrasser]]#WHITE#", "_t")
+t("Oh, I am sorry. I think you are mistaken. I was only trying to comfort you.", "Oh, je suis désolé. Je pense que vous vous trompez. J'essayais seulement de vous réconforter.", "_t")
+t("Oh, sorry, I was not myself. Goodbye, then. Farewell.", "Oh, désolé, je n'étais pas moi-même. Au revoir, alors. Adieu.", "_t")
 t([[#LIGHT_GREEN#*Melinda looks worried*#WHITE#
-Please tell me you can help!]], [[#LIGHT_GREEN#*梅琳达面露忧愁*#WHITE#
-请帮帮我!]], "_t")
-t("Yes, I think so. Some time ago I assumed ownership of a very special home... #LIGHT_GREEN#[tell her the Fortress story]#WHITE#", "呃，不久前，我拥有了一座非常特别的房子... #LIGHT_GREEN#[告诉她关于堡垒的事]#WHITE#", "_t")
+Please tell me you can help!]], [[#LIGHT_GREEN#*Melinda semble inquiète*#WHITE#
+S'il vous plaît, dites-moi que vous pouvez nous aider!]], "_t")
+t("Yes, I think so. Some time ago I assumed ownership of a very special home... #LIGHT_GREEN#[tell her the Fortress story]#WHITE#", "Oui, je le pense. Il y a quelque temps, j'ai pris possession d'une maison très spéciale... #LIGHT_GREEN#[lui raconter l'histoire de la Forteresse]#WHITE#", "_t")
 t([[An ancient fortress of a mythical race?! How #{bold}#exciting#{normal}#!
-And you say it could cure me?]], [[一座神秘种族的古代堡垒#{bold}#真不可思议！#{normal}#!
-你觉得那会治疗我么]], "_t")
-t("The Fortress seems to think so. I know this might sound a bit .. inappropriate .. but you would need to come live there, at least for a while.", "堡垒应该是可以的。我知道，这听上去有一点，呃，不太合适。不过，你应该到那里去住上一小段时间。", "_t")
+And you say it could cure me?]], [[Une ancienne forteresse d'une race mythique! Comme c'est #{bold}#excitant#{normal}#!
+Et vous dites que ça pourrait me guérir?]], "_t")
+t("The Fortress seems to think so. I know this might sound a bit .. inappropriate .. but you would need to come live there, at least for a while.", "La Forteresse semble le penser. Je sais que cela peut paraître un peu... inapproprié... mais il faudrait que vous veniez y vivre, au moins pour un temps.", "_t")
 t([[#LIGHT_GREEN#*She looks at you cheerfully*#WHITE#
 Ah the plan to sleep with me is finally revealed!
 Shhh you dummy, I thought we were past such silliness, I will come, both for my health and because I want to be with you.
-#LIGHT_GREEN#*She kisses you tenderly*#WHITE#]], [[#LIGHT_GREEN#*她兴奋地看着你*#WHITE#
-你的计划终于暴露了！
-傻瓜，两个大傻瓜。我当然会去，不仅为了我的健康，也为了和你在一起。
-#LIGHT_GREEN#*她温柔地和你接吻*#WHITE#]], "_t")
-t("Then my lady, if you will follow me. #LIGHT_GREEN#[take her to the Fortress]", "我的女士，如果你愿意，就跟我来吧。#LIGHT_GREEN#[带她去堡垒]", "_t")
+#LIGHT_GREEN#*She kisses you tenderly*#WHITE#]], [[#LIGHT_GREEN#*Elle vous regarde joyeusement*#WHITE#
+Ah le plan pour coucher avec moi est enfin révélé!
+Chut, idiot, je pensais que nous avions dépassé cette bêtise, je viendrai, à la fois pour ma santé et parce que je veux être avec toi.
+#LIGHT_GREEN#*elle vous embrasse tendrement*#WHITE#]], "_t")
+t("Then my lady, if you will follow me. #LIGHT_GREEN#[take her to the Fortress]", "Dans ce cas ma dame, si vous voulez bien me suivre. #LIGHT_GREEN#[l'emmener à la Forteresse]", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/last-hope-weapon-store.lua"
+section "game/modules/tome/data/chats/last-hope-weapon-store.lua"	-- Traduit et testé par Dirian
 
-t("Welcome @playername@ to my shop.", "@playername@，欢迎来到我的商店。", "_t")
-t("Let me see your wares.", "让我看看你的商品吧。", "_t")
-t("I am looking for martial training.", "我在寻求军事训练。", "_t")
-t("Sorry, I have to go!", "抱歉，我要走了！", "_t")
-t("I can indeed offer some martial training (talent category Technique/Combat-training) for a fee of 50 gold pieces; or the basic usage of bows and slings (Shoot talent) for 8 gold pieces.", "我的确可以为你提供军事训练（技巧/战斗训练系），你需要花费50金币，或者可以学习使用弓和投石索（射击天赋），花费8金币。", "_t")
-t("Please train me in generic weapons and armour usage.", "请教我通用武器和护甲的使用方法。", "_t")
-t("The smith spends some time with you, teaching you the basics of armour and weapon usage.", "铁匠花了一些时间，教会了你一些武器和护甲的基础知识。", "logPlayer")
-t("Please train me in the basic usage of bows and slings.", "请教我使用弓和投石索。", "_t")
-t("The smith spends some time with you, teaching you the basics of bows and slings.", "铁匠花了一些时间，教会了你一些弓和投石索的基础知识。", "logPlayer")
-t("No thanks.", "不用了，谢谢。", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/limmir-valley-moon.lua"
-
-t("I do not have time to talk. This ritual is intense, and we are not alone here. Stop them!", "我没时间和你说话。仪式非常紧迫，而且这里并不是只有我们两个，阻止他们！", "_t")
-t("I will not let you down!", "我会保护你的！", "_t")
-t("[leave]", "[离开]", "_t")
+t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
+t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
+t("I am looking for martial training.", "Je suis à la recherche d'un entraînement martial.", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("I can indeed offer some martial training (talent category Technique/Combat-training) for a fee of 50 gold pieces; or the basic usage of bows and slings (Shoot talent) for 8 gold pieces.", "Je peux en effet proposer un entraînement martial (Technique/Formation au Combat) pour un montant de 50 pièces d'or ; ou l'utilisation de base des arcs et frondes (Talent Tirer) for 8 gold pieces.", "_t")
+t("Please train me in generic weapons and armour usage.", "S'il vous plait, formez moi basiquement à l'utilisation des armes et armures.", "_t")
+t("The smith spends some time with you, teaching you the basics of armour and weapon usage.", "Le forgeron passe un certain temps avec vous, vous apprenant les bases de l'utilisation des armes et armures.", "logPlayer")
+t("Please train me in the basic usage of bows and slings.", "S'il vous plait, formez moi à l'utilisation de base des arcs et frondes.", "_t")
+t("The smith spends some time with you, teaching you the basics of bows and slings.", "Le forgeron passe un peu de temps avec vous, vous apprenant les bases des arcs et frondes.", "logPlayer")
+t("No thanks.", "Non merci.", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/lost-merchant.lua"
+section "game/modules/tome/data/chats/limmir-valley-moon.lua"	-- Traduit et testé par Dirian
+
+t("I do not have time to talk. This ritual is intense, and we are not alone here. Stop them!", "Je n'ai pas le temps de parler. Ce rituel est intense, et nous ne sommes pas seuls ici. Arrêtez-les!", "_t")
+t("I will not let you down!", "Je ne vous décevrai pas!", "_t")
+t("[leave]", "[partir]", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome/data/chats/lost-merchant.lua"	-- Traduit et testé par Dirian
 
 t([[Please save me! I will make it worth your whi..
-*#LIGHT_GREEN#The assassin lord hits him in the face.#WHITE#*Shut up!]], [[救救我！我会好好报答你的……
-*#LIGHT_GREEN#强盗头子猛抽了一下他的脸。#WHITE#*闭嘴！]], "_t")
-t("Sorry, I have to go!", "抱歉，我要走了！", "_t")
-t("Please get me out of here!", "请带我离开这儿！", "_t")
-t("Come, there is a way out!", "跟我来，这里有条路可以出去!", "_t")
+*#LIGHT_GREEN#The assassin lord hits him in the face.#WHITE#*Shut up!]], [[S'il vous plaît, sauvez-moi ! Je vais faire en sorte que ça vaille la peine....
+*#LIGHT_GREEN#Le seigneur assassin le frappe au visage.#WHITE#*Tais toi!]], "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Please get me out of here!", "S'il vous plaît, sortez-moi de là!", "_t")
+t("Come, there is a way out!", "Venez, il y a une sortie!", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/lumberjack-quest-done.lua"
+section "game/modules/tome/data/chats/lumberjack-quest-done.lua"	-- Traduit et testé par Dirian
 
 t([[#LIGHT_GREEN#*Ben lies defeated at your feet*#WHITE#
 T...thank you for... *cough*... saving me from the curse.
 I did no... not want for this to...
-#LIGHT_GREEN#*he coughs one last time and dies, a smile on his face as his curse is gone.*#WHITE#]], [[#LIGHT_GREEN#*本恩倒在你的脚下。*#WHITE#
-感谢你把我从诅咒之中解脱出来……“咳咳”
-我并不想……像这样……。
-#LIGHT_GREEN#*他最后咳嗽了一声，死了。他的脸上带着笑容，诅咒终于从他的身上消失了。*#WHITE#]], "_t")
-t("Rest in peace.", "安息吧。", "_t")
+#LIGHT_GREEN#*he coughs one last time and dies, a smile on his face as his curse is gone.*#WHITE#]], [[#LIGHT_GREEN#*Ben gît à vos pieds, vaincu.*#WHITE#
+M...merci pour... *tousse*... m'avoir sauvé de la malédiction.
+Je n'ai pas... pas voulu que cela...
+#LIGHT_GREEN#*il tousse une dernière fois et meurt, un sourire sur son visage alors que sa malédiction a disparu.*#WHITE#]], "_t")
+t("Rest in peace.", "Reste en paix", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/lumberjack-quest.lua"
+section "game/modules/tome/data/chats/lumberjack-quest.lua"	-- Traduit et testé par Dirian
 
 t([[#LIGHT_GREEN#*Before you stands a man covered in dirt and blood. He is out of breath and half mad.*#WHITE#
 PLEASE! You must help! #{bold}#IT#{normal}# is slaughtering everybody in my village! Please!
-#LIGHT_GREEN#*He points his finger at the nearby forest.*#WHITE#]], [[#LIGHT_GREEN#*在你面前站着一个满身是血和污泥的男人。他上气不接下气，失魂落魄。*#WHITE#
-救命！求你救救我们！#{bold}#它#{normal}#正在屠杀所有村子里的人！求求你！
-#LIGHT_GREEN#*他伸手指着附近的树林。*#WHITE#]], "_t")
-t("I will go there and see what I can do.", "我去看看我能做什么。", "_t")
-t("This is not my problem. Go away!", "和我没关系，闪开！", "_t")
+#LIGHT_GREEN#*He points his finger at the nearby forest.*#WHITE#]], [[#LIGHT_GREEN#*Devant vous se tient un homme couvert de saleté et de sang. Il est essoufflé et à moitié fou.*#WHITE#
+S'IL VOUS PLAÎT! Vous devez nous aider!#{bold}#IL#{normal}# massacre tout le monde dans mon village! S'il vous plaît!
+#LIGHT_GREEN#*Il point un doigt vers la forêt proche.*#WHITE#]], "_t")
+t("I will go there and see what I can do.", "Je vais y aller et voir ce que je peux faire.", "_t")
+t("This is not my problem. Go away!", "Ce n'est pas mon problème. Partez!", "_t")
 
 
 ------------------------------------------------
