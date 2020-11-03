@@ -453,7 +453,7 @@ section "game/modules/tome/class/Game.lua"
 
 t("<Scroll mode, press direction keys to scroll, press again to exit>", "<地图滚动模式，按上下左右键滚动地图，再次按键退出>", "_t")
 t("Main character", "主角色", "_t")
-t("Character Creation ( %s unlocked options)", "Création de personnage ( %s options débloquées)", "tformat")
+t("Character Creation ( %s unlocked options)", "Création de personnage ( %s débloqués)", "tformat")          -- Utilisé dans la création de personnage
 t("Welcome to #LIGHT_BLUE#Tales of Maj'Eyal", "欢迎来到#LIGHT_BLUE#马基埃亚尔的传说", "_t")
 t([[%s the level %d %s %s.
 Difficulty: %s / %s
@@ -6687,7 +6687,7 @@ t("#LIGHT_GREY#(%d resilience)#LAST#", "#LIGHT_GREY#(%d 弹性体质吸收)#LAST
 t("#CRIMSON##Source# damages %s through Martyrdom!", "#CRIMSON##Source#通过殉难伤害了 %s !", "delayedLogMessage")
 t("#CRIMSON##Source# reflects damage back to #Target#!", "#CRIMSON##Source#将伤害反射回 #Target#!", "delayedLogMessage")
 t("#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "#Source#因%s%s#LAST#伤害受到了#LIGHT_GREEN#治疗#LAST#！", "tformat")
-t("cosmetic", "外观", "_t")
+t("cosmetic", "cosmétique", "_t")             -- Utilisé dans la création de personnage
 t("cosmeticed", "外观", "_t")
 t("physical", "物理", "_t")
 t("battered", "被猛击", "_t")
@@ -26199,7 +26199,7 @@ t("The basic talents defining a class.", " 一个职业的基础定义。", "_t"
 t("class", "职业", "_t")
 t("The various racial bonuses a character can have.", " 多种多样的种族天赋。", "_t")
 t("base", "基础", "talent category")
-t("race", "种族技能", "_t")
+t("race", "race", "_t")           -- Utilisé dans la création de personnage
 t("Infusions are not class abilities, you must find them or learn them from other people.", " 纹身不是技能，你必须找到它们或从其他人那获得它们。", "_t")
 t("infusions", "纹身", "_t")
 t("Runes are not class abilities, you must find them or learn them from other people.", " 符文不是技能，你必须找到它们或从其他人那获得它们。", "_t")
@@ -31836,7 +31836,7 @@ t("magic", "魔法", "_t")
 t("willpower", "意志", "_t")
 t("cunning", "灵巧", "_t")
 t("Ultimate talents you may only know one.", " 强大的觉醒技，每个人只能习得 1 到 2 个。", "_t")
-t("other", "其他", "_t")
+t("other", "autre", "_t")            -- Utilisé dans la création de personnage
 t("uber", "觉醒技", "talent category")
 
 
@@ -41626,7 +41626,7 @@ t("unknown", "未知", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/dialogs/Birther.lua"       -- Fait et testé par Malga
+section "game/modules/tome/dialogs/Birther.lua"       -- Traduit et testé par Malga
 
 t("Character Creation", "Création de personnage", "_t")
 t("     Play!     ", "     Jouer!     ", "_t")
@@ -41799,8 +41799,8 @@ t("#ORANGE#Magical Status ", "#ORANGE#魔法状态", "_t")
 t("Inventory", "物品栏", "_t")
 t("Online URL: #LIGHT_BLUE##{underline}#%s#{normal}#", "在线网址：#LIGHT_BLUE##{underline}#%s#{normal}#", "tformat")
 t("You can find your character sheet online", "你可以在网上找到你的角色面板。", "_t")
-t("Female", "女性", "_t")
-t("Male", "男性", "_t")
+t("Female", "Femelle", "_t")     -- Utilisé dans la création de personnage
+t("Male", "Male", "_t")          -- Utilisé dans la création de personnage
 t("Sex  : ", "性别：", "_t")
 t("Race : ", "种族：", "_t")
 t("Type : ", "类型：", "_t")
@@ -42359,7 +42359,7 @@ t("You cannot unlearn this category!", "你不能遗忘该技能树！", "_t")
 t("You do not know this category!", "你没有学会该技能树！", "_t")
 t("Impossible", "不可能", "_t")
 t("You cannot unlearn this category because of: %s", "由于以下技能，你无法遗忘该技能树：%s", "tformat")
-t("class", "职业", "_t")
+t("class", "classe", "_t")              -- Utilisé dans la création de personnage
 t("generic", "通用", "_t")
 t("unknown", "未知", "_t")
 t([[Stats points left: #00FF00#%d#LAST#

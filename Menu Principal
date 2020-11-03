@@ -1,8 +1,7 @@
 locale "zh_hans"
 -- locale "fr_FR"
--- COPY
---forceFontPackage("chinese")
-setFlag("break_text_all_character", false)
+forceFontPackage("chinese")                      -- force l'affichage des idéogrammes chinois mais modifie la police de caractère par défaut
+setFlag("break_text_all_character", false)       -- permet d'avoir les mots non coupés
 
 ------------------------------------------------
 section "always_merge"
@@ -224,6 +223,30 @@ t("Fifth Hotkey 9", "Cinquième Raccourci 9", "_t")
 t("Fifth Hotkey 10", "Cinquième Raccourci 10", "_t")
 t("Fifth Hotkey 11", "Cinquième Raccourci 11", "_t")
 t("Fifth Hotkey 12", "Cinquième Raccourci 12", "_t")
+t("Six Hotkey 1", "Sixième Raccourci 1", "_t")
+t("Six Hotkey 2", "Sixième Raccourci 2", "_t")
+t("Six Hotkey 3", "Sixième Raccourci 3", "_t")
+t("Six Hotkey 4", "Sixième Raccourci 4", "_t")
+t("Six Hotkey 5", "Sixième Raccourci 5", "_t")
+t("Six Hotkey 6", "Sixième Raccourci 6", "_t")
+t("Six Hotkey 7", "Sixième Raccourci 7", "_t")
+t("Six Hotkey 8", "Sixième Raccourci 8", "_t")
+t("Six Hotkey 9", "Sixième Raccourci 9", "_t")
+t("Six Hotkey 10", "Sixième Raccourci 10", "_t")
+t("Six Hotkey 11", "Sixième Raccourci 11", "_t")
+t("Six Hotkey 12", "Sixième Raccourci 12", "_t")
+t("Seven Hotkey 1", "Septième Raccourci 1", "_t")
+t("Seven Hotkey 2", "Septième Raccourci 2", "_t")
+t("Seven Hotkey 3", "Septième Raccourci 3", "_t")
+t("Seven Hotkey 4", "Septième Raccourci 4", "_t")
+t("Seven Hotkey 5", "Septième Raccourci 5", "_t")
+t("Seven Hotkey 6", "Septième Raccourci 6", "_t")
+t("Seven Hotkey 7", "Septième Raccourci 7", "_t")
+t("Seven Hotkey 8", "Septième Raccourci 8", "_t")
+t("Seven Hotkey 9", "Septième Raccourci 9", "_t")
+t("Seven Hotkey 10", "Septième Raccourci 10", "_t")
+t("Seven Hotkey 11", "Septième Raccourci 11", "_t")
+t("Seven Hotkey 12", "Septième Raccourci 12", "_t")
 t("Previous Hotkey Page", "Page de Raccourcis précédente", "_t")
 t("Next Hotkey Page", "Page de Raccourcis suivante", "_t")
 t("Quick switch to Hotkey Page 2", "Passer rapidement à la page de raccourcis 2", "_t")
