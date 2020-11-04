@@ -5187,7 +5187,7 @@ t("Goodbye, Kyless.", "Adieu, Kyless.", "_t") --
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/last-hope-elder.lua" -- Trad et Test par Dirian
+section "game/modules/tome//data/chats/last-hope-elder.lua" -- Trad et Test par Dirian
 
 t("Welcome, @playername@, to Last Hope. Traveler, please be quick as my time is precious.", "Bienvenue, @playername@，à Dernier Espoir. Voyageur, soyez bref car mon temps est précieux.", "_t")
 t("I have found a strange staff in my travels (#LIGHT_GREEN#*describe it in detail*#LAST#) It looked very old and very powerful. I dared not use it.", "J'ai trouvé un bâton étrange au cours de mes voyages. (#LIGHT_GREEN#*le décrire en détail*#LAST#) Il avait l'air aussi vieux que puissant. Je n'ai pas osé l'utiliser.", "_t")
@@ -5372,115 +5372,115 @@ t("Then my lady, if you will follow me. #LIGHT_GREEN#[take her to the Fortress]"
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/last-hope-weapon-store.lua"
+section "game/modules/tome//data/chats/last-hope-weapon-store.lua" -- Trad et Test par Dirian
 
-t("Welcome @playername@ to my shop.", "Welcome @playername@ to my shop.", "_t") -- 
-t("Let me see your wares.", "Let me see your wares.", "_t") -- 
-t("I am looking for martial training.", "I am looking for martial training.", "_t") -- 
-t("Sorry, I have to go!", "Sorry, I have to go!", "_t") -- 
-t("I can indeed offer some martial training (talent category Technique/Combat-training) for a fee of 50 gold pieces; or the basic usage of bows and slings (Shoot talent) for 8 gold pieces.", "I can indeed offer some martial training (talent category Technique/Combat-training) for a fee of 50 gold pieces; or the basic usage of bows and slings (Shoot talent) for 8 gold pieces.", "_t") -- 
-t("Please train me in generic weapons and armour usage.", "Please train me in generic weapons and armour usage.", "_t") -- 
-t("The smith spends some time with you, teaching you the basics of armour and weapon usage.", "The smith spends some time with you, teaching you the basics of armour and weapon usage.", "logPlayer") -- 
-t("Please train me in the basic usage of bows and slings.", "Please train me in the basic usage of bows and slings.", "_t") -- 
-t("The smith spends some time with you, teaching you the basics of bows and slings.", "The smith spends some time with you, teaching you the basics of bows and slings.", "logPlayer") -- 
-t("No thanks.", "No thanks.", "_t") -- 
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/limmir-valley-moon.lua"
-
-t("I do not have time to talk. This ritual is intense, and we are not alone here. Stop them!", "I do not have time to talk. This ritual is intense, and we are not alone here. Stop them!", "_t") -- 
-t("I will not let you down!", "I will not let you down!", "_t") -- 
-t("[leave]", "[leave]", "_t") -- 
+t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
+t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
+t("I am looking for martial training.", "Je suis à la recherche d'un entraînement martial.", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("I can indeed offer some martial training (talent category Technique/Combat-training) for a fee of 50 gold pieces; or the basic usage of bows and slings (Shoot talent) for 8 gold pieces.", "Je peux en effet proposer un entraînement martial (Technique/Formation au Combat) pour un montant de 50 pièces d'or ; ou l'utilisation de base des arcs et frondes (Talent Tirer) for 8 gold pieces.", "_t")
+t("Please train me in generic weapons and armour usage.", "S'il vous plait, formez moi basiquement à l'utilisation des armes et armures.", "_t")
+t("The smith spends some time with you, teaching you the basics of armour and weapon usage.", "Le forgeron passe un certain temps avec vous, vous apprenant les bases de l'utilisation des armes et armures.", "logPlayer")
+t("Please train me in the basic usage of bows and slings.", "S'il vous plait, formez moi à l'utilisation de base des arcs et frondes.", "_t")
+t("The smith spends some time with you, teaching you the basics of bows and slings.", "Le forgeron passe un peu de temps avec vous, vous apprenant les bases des arcs et frondes.", "logPlayer")
+t("No thanks.", "Non merci.", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/lost-merchant.lua"
+section "game/modules/tome//data/chats/limmir-valley-moon.lua" -- Trad et Test par Dirian
+
+t("I do not have time to talk. This ritual is intense, and we are not alone here. Stop them!", "Je n'ai pas le temps de parler. Ce rituel est intense, et nous ne sommes pas seuls ici. Arrêtez-les!", "_t")
+t("I will not let you down!", "Je ne vous décevrai pas!", "_t")
+t("[leave]", "[partir]", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome//data/chats/lost-merchant.lua" -- Trad et Test par Dirian
 
 t("Please save me! I will make it worth your whi..\
-*#LIGHT_GREEN#The assassin lord hits him in the face.#WHITE#*Shut up!", "Please save me! I will make it worth your whi..\
-*#LIGHT_GREEN#The assassin lord hits him in the face.#WHITE#*Shut up!", "_t") -- 
-t("Sorry, I have to go!", "Sorry, I have to go!", "_t") -- 
-t("Please get me out of here!", "Please get me out of here!", "_t") -- 
-t("Come, there is a way out!", "Come, there is a way out!", "_t") -- 
+*#LIGHT_GREEN#The assassin lord hits him in the face.#WHITE#*Shut up!", "S'il vous plaît, sauvez-moi ! Je vais faire en sorte que ça vaille la peine....\
+*#LIGHT_GREEN#Le seigneur assassin le frappe au visage.#WHITE#*Tais toi!", "_t") -- 
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Please get me out of here!", "S'il vous plaît, sortez-moi de là!", "_t")
+t("Come, there is a way out!", "Venez, il y a une sortie!", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/lumberjack-quest-done.lua"
+section "game/modules/tome//data/chats/lumberjack-quest-done.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*Ben lies defeated at your feet*#WHITE#\
 T...thank you for... *cough*... saving me from the curse.\
 I did no... not want for this to...\
-#LIGHT_GREEN#*he coughs one last time and dies, a smile on his face as his curse is gone.*#WHITE#", "#LIGHT_GREEN#*Ben lies defeated at your feet*#WHITE#\
-T...thank you for... *cough*... saving me from the curse.\
-I did no... not want for this to...\
-#LIGHT_GREEN#*he coughs one last time and dies, a smile on his face as his curse is gone.*#WHITE#", "_t") -- 
-t("Rest in peace.", "Rest in peace.", "_t") -- 
+#LIGHT_GREEN#*he coughs one last time and dies, a smile on his face as his curse is gone.*#WHITE#", "#LIGHT_GREEN#*Ben gît à vos pieds, vaincu.*#WHITE#\
+M...merci pour... *tousse*... m'avoir sauvé de la malédiction.\
+Je n'ai pas... pas voulu que cela...\
+#LIGHT_GREEN#*il tousse une dernière fois et meurt, un sourire sur son visage alors que sa malédiction a disparu.*#WHITE#", "_t") -- 
+t("Rest in peace.", "Reste en paix.", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/lumberjack-quest.lua"
+section "game/modules/tome//data/chats/lumberjack-quest.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*Before you stands a man covered in dirt and blood. He is out of breath and half mad.*#WHITE#\
 PLEASE! You must help! #{bold}#IT#{normal}# is slaughtering everybody in my village! Please!\
-#LIGHT_GREEN#*He points his finger at the nearby forest.*#WHITE#", "#LIGHT_GREEN#*Before you stands a man covered in dirt and blood. He is out of breath and half mad.*#WHITE#\
-PLEASE! You must help! #{bold}#IT#{normal}# is slaughtering everybody in my village! Please!\
-#LIGHT_GREEN#*He points his finger at the nearby forest.*#WHITE#", "_t") -- 
-t("I will go there and see what I can do.", "I will go there and see what I can do.", "_t") -- 
-t("This is not my problem. Go away!", "This is not my problem. Go away!", "_t") -- 
+#LIGHT_GREEN#*He points his finger at the nearby forest.*#WHITE#", "#LIGHT_GREEN#*Devant vous se tient un homme couvert de saleté et de sang. Il est essoufflé et à moitié fou.*#WHITE#\
+S'IL VOUS PLAÎT! Vous devez nous aider!#{bold}#IL#{normal}# massacre tout le monde dans mon village! S'il vous plaît!\
+#LIGHT_GREEN#*Il point un doigt vers la forêt proche.*#WHITE#", "_t") -- 
+t("I will go there and see what I can do.", "Je vais y aller et voir ce que je peux faire.", "_t") -- 
+t("This is not my problem. Go away!", "Ce n'est pas mon problème. Partez!", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/mage-apprentice-quest.lua"
+section "game/modules/tome//data/chats/mage-apprentice-quest.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*Before you stands a young man, a novice mage by his looks*#WHITE#\
 Good day to yo...#LIGHT_GREEN#*He stares at you and starts to run away fast!*#WHITE#\
-Do not kill me please!", "#LIGHT_GREEN#*Before you stands a young man, a novice mage by his looks*#WHITE#\
-Good day to yo...#LIGHT_GREEN#*He stares at you and starts to run away fast!*#WHITE#\
-Do not kill me please!", "_t") -- 
+Do not kill me please!", "#LIGHT_GREEN#*Devant vous se tient un jeune homme, un mage novice suivant son apparence.*#WHITE#\
+Bonne journée à vous...#LIGHT_GREEN#*Il vous regarde fixement et commence à s'enfuir rapidement !*#WHITE#\
+Ne me tuez pas, s'il vous plaît!", "_t") -- 
 t("...", "...", "_t") -- 
 t("#LIGHT_GREEN#*Before you stands a young man, a novice mage by his looks*#WHITE#\
-Good day to you, fellow traveler!", "#LIGHT_GREEN#*Before you stands a young man, a novice mage by his looks*#WHITE#\
-Good day to you, fellow traveler!", "_t") -- 
-t("What brings an apprentice mage out into the wilds?", "What brings an apprentice mage out into the wilds?", "_t") -- 
-t("I found this artefact; it looks powerful and arcane infused. Maybe it would be enough?", "I found this artefact; it looks powerful and arcane infused. Maybe it would be enough?", "_t") -- 
-t("So you have enough magical items now?", "So you have enough magical items now?", "_t") -- 
-t("Sorry I have to go!", "Sorry I have to go!", "_t") -- 
-t("Ahh, my story is a sad one... I should not trouble you with it, my friend.", "Ahh, my story is a sad one... I should not trouble you with it, my friend.", "_t") -- 
-t("It is no trouble at all! Please tell me!", "It is no trouble at all! Please tell me!", "_t") -- 
-t("Ok, bye then!", "Ok, bye then!", "_t") -- 
+Good day to you, fellow traveler!", "#LIGHT_GREEN#*Devant vous se tient un jeune homme, un mage novice suivant son apparence.*#WHITE#\
+Bonne journée à vous, chère voyageur!", "_t") -- 
+t("What brings an apprentice mage out into the wilds?", "Qu'est-ce qui amène un apprenti mage dans la nature?", "_t") -- 
+t("I found this artefact; it looks powerful and arcane infused. Maybe it would be enough?", "J'ai trouvé cet artefact; il a l'air puissament enchanté par les arcanes. Peut-être que cela suffirait?", "_t")
+t("So you have enough magical items now?", "Vous avez donc assez d'objets magiques maintenant?", "_t")
+t("Sorry I have to go!", "Désolé, je dois y aller!", "_t")
+t("Ahh, my story is a sad one... I should not trouble you with it, my friend.", "Ahh, mon histoire est triste... Je ne devrais pas vous ennuyer avec ça, mon ami.", "_t")
+t("It is no trouble at all! Please tell me!", "Ce n'est pas du tout un problème! Dites moi tout, s'il vous plaît!", "_t")
+t("Ok, bye then!", "Ok, au revoir alors !", "_t")
 t("Well, if you insist...\
-I am a novice mage, as you might have noticed, and my goal is to be accepted by the people of Angolwen and be taught the secrets of the arcane.", "Well, if you insist...\
-I am a novice mage, as you might have noticed, and my goal is to be accepted by the people of Angolwen and be taught the secrets of the arcane.", "_t") -- 
-t("Who are the people of Angolwen?", "Who are the people of Angolwen?", "_t") -- 
-t("Ah yes, Angolwen, I have called it home for many years...", "Ah yes, Angolwen, I have called it home for many years...", "_t") -- 
-t("Well, good luck, bye!", "Well, good luck, bye!", "_t") -- 
+I am a novice mage, as you might have noticed, and my goal is to be accepted by the people of Angolwen and be taught the secrets of the arcane.", "Eh bien, si vous insistez...\
+Je suis un mage novice, comme vous l'avez peut-être remarqué, et mon but est d'être accepté par le peuple d'Angolwen et d'apprendre les secrets des arcanes.", "_t") -- 
+t("Who are the people of Angolwen?", "Qui sont les habitants d'Angolwen?", "_t")
+t("Ah yes, Angolwen, I have called it home for many years...", "Ah oui, Angolwen, c'est ma patrie depuis de nombreuses années...", "_t")
+t("Well, good luck, bye!", "Eh bien, bonne chance, au revoir!", "_t")
 t("The keepers of ar... err, I do not think I am supposed to talk about them... sorry, my friend...\
-In any case, I must collect many items. I have some already but I am still looking for an arcane-infused artefact. You do not happen to have one, I imagine... Well, if you do, tell me please!", "The keepers of ar... err, I do not think I am supposed to talk about them... sorry, my friend...\
-In any case, I must collect many items. I have some already but I am still looking for an arcane-infused artefact. You do not happen to have one, I imagine... Well, if you do, tell me please!", "_t") -- 
+In any case, I must collect many items. I have some already but I am still looking for an arcane-infused artefact. You do not happen to have one, I imagine... Well, if you do, tell me please!", "Les gardiens de l'ar... euh, je ne pense pas que je suis censé en parler... désolé, mon ami...\
+En tout cas, je dois collecter beaucoup d'objets. J'en ai déjà quelques-uns mais je suis toujours à la recherche d'un artefact imprégné d'arcanes. Vous n'en avez pas par hasard, j'imagine... Eh bien, si vous en avez un, dites-le moi s'il vous plaît!", "_t") -- 
 t("I hope I will too...\
-In any case, I must collect many items. I have some already but I am still looking for an arcane-infused artefact. You do not happen to have one, I imagine... Well, if you do, tell me please!", "I hope I will too...\
-In any case, I must collect many items. I have some already but I am still looking for an arcane-infused artefact. You do not happen to have one, I imagine... Well, if you do, tell me please!", "_t") -- 
-t("I will keep that in mind!", "I will keep that in mind!", "_t") -- 
-t("No way, bye!", "No way, bye!", "_t") -- 
+In any case, I must collect many items. I have some already but I am still looking for an arcane-infused artefact. You do not happen to have one, I imagine... Well, if you do, tell me please!", "J'espère que moi aussi...\
+En tout cas, je dois collecter beaucoup d'objets. J'en ai déjà quelques-uns mais je suis toujours à la recherche d'un artefact imprégné d'arcanes. Vous n'en avez pas par hasard, j'imagine... Eh bien, si vous en avez un, dites-le moi s'il vous plaît!", "_t") -- 
+t("I will keep that in mind!", "Je m'en souviendrai!", "_t")
+t("No way, bye!", "Pas question, bye!", "_t")
 t("Let me examine it.\
-Oh yes, my friend, this is indeed a powerful artefact! I think that it should suffice to complete my quest! Many thanks!", "Let me examine it.\
-Oh yes, my friend, this is indeed a powerful artefact! I think that it should suffice to complete my quest! Many thanks!", "_t") -- 
+Oh yes, my friend, this is indeed a powerful artefact! I think that it should suffice to complete my quest! Many thanks!", "Laissez-moi l'examiner.\
+Oh oui, mon ami, c'est en effet un puissant artefact! Je pense qu'il devrait suffire pour compléter ma quête! Merci beaucoup!", "_t") -- 
 t("Well, I cannot use it anyway.", "Well, I cannot use it anyway.", "_t") -- 
 t("Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, I guess I can tell you; you deserve it for helping me.\
 During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kor'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.\
 So she set a secret plan into action and built a secret place where magic would be kept alive.\
 Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#\
-Not many people are accepted there but I will arrange for you to be allowed inside.", "Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, I guess I can tell you; you deserve it for helping me.\
-During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kor'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.\
-So she set a secret plan into action and built a secret place where magic would be kept alive.\
-Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#\
-Not many people are accepted there but I will arrange for you to be allowed inside.", "_t") -- 
-t("Oh! How could such a place be kept secret for so long... This is interesting indeed. Thank you for your trust!", "Oh! How could such a place be kept secret for so long... This is interesting indeed. Thank you for your trust!", "_t") -- 
+Not many people are accepted there but I will arrange for you to be allowed inside.", "Ah oui ! Je suis tellement contente ! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire; vous le méritez pour m'avoir aidé.\
+Pendant les années sombres de la Chasse aux Sorcières, il y a plusieurs milliers d'années, Linaniil, la grande mage du Kor'Krul, s'inquiétait que la magie puisse disparaître avec sa génération et être perdue pour les mortels s'ils en avaient à nouveau besoin.\
+Elle a donc mis en place un plan secret et a construit un lieu secret où la magie serait maintenue en vie.\
+Son plan a fonctionné et le groupe a construit une ville appelée Angolwen dans les montagnes de l'ouest. #LIGHT_GREEN#*Il la marque sur votre carte, ainsi qu'un portail pour y accéder*#WHITE#\
+Peu de gens y sont acceptés, mais je m'arrangerai pour que vous soyez admis à l'intérieur.", "_t") -- 
+t("Oh! How could such a place be kept secret for so long... This is interesting indeed. Thank you for your trust!", "Oh! Comment un tel endroit a-t-il pu être gardé secret si longtemps... C'est vraiment intéressant. Merci pour votre confiance!", "_t") -- 
 t("Ah yes! I am so glad! I will be able to go back to Angolwen now, and perhaps we will meet there.\
-Please take this ring; it has served me well.", "Ah yes! I am so glad! I will be able to go back to Angolwen now, and perhaps we will meet there.\
-Please take this ring; it has served me well.", "_t") -- 
-t("Thanks, and best luck in your studies!", "Thanks, and best luck in your studies!", "_t") -- 
+Please take this ring; it has served me well.", "Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolwen maintenant, et peut-être que nous nous y retrouverons.\
+S'il vous plaît, prenez cette bague, elle m'a bien servi.", "_t") -- 
+t("Thanks, and best luck in your studies!", "Merci, et bonne chance dans vos études!", "_t") -- 
 
 
 ------------------------------------------------
