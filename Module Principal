@@ -5484,39 +5484,39 @@ t("Thanks, and best luck in your studies!", "Merci, et bonne chance dans vos ét
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/magic-store.lua"
+section "game/modules/tome//data/chats/magic-store.lua" -- Trad et Test par Dirian
 
-t("Select the item to recharge", "Select the item to recharge", "_t") -- 
-t("Not enough money", "Not enough money", "_t") -- 
-t("This costs %d gold.", "This costs %d gold.", "tformat") -- 
-t("Recharge?", "Recharge?", "_t") -- 
-t("This will cost you %d gold.", "This will cost you %d gold.", "tformat") -- 
-t("Welcome, @playername@, to my shop.", "Welcome, @playername@, to my shop.", "_t") -- 
-t("Let me see your wares.", "Let me see your wares.", "_t") -- 
-t("I want to recharge some of my equipment.", "I want to recharge some of my equipment.", "_t") -- 
-t("Sorry, I have to go!", "Sorry, I have to go!", "_t") -- 
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/melinda-beach-end.lua"
-
-t("What just happened?!", "What just happened?!", "_t") -- 
-t("I'm sorry I didn't manage to protect you and as you were about to die you... fired a powerful wave of blight.", "I'm sorry I didn't manage to protect you and as you were about to die you... fired a powerful wave of blight.", "_t") -- 
-t("But I have never cast a spell in my life!", "But I have never cast a spell in my life!", "_t") -- 
-t("You are still tainted by that ... foul Demon! The taint is not all gone!", "You are still tainted by that ... foul Demon! The taint is not all gone!", "_t") -- 
-t("There must be some of that demon's taint still inside you.", "There must be some of that demon's taint still inside you.", "_t") -- 
-t("This is terrible! I assure you I had no idea this would happen. You must trust me!", "This is terrible! I assure you I had no idea this would happen. You must trust me!", "_t") -- 
-t("I do. The Ziguranth are not raving zealots, you know. We will look for a way to cure you, as long as you reject the blight.", "I do. The Ziguranth are not raving zealots, you know. We will look for a way to cure you, as long as you reject the blight.", "_t") -- 
-t("This is terrible! What is happening to me?!? You must help me!", "This is terrible! What is happening to me?!? You must help me!", "_t") -- 
-t("I will. We will find a cure for this together.", "I will. We will find a cure for this together.", "_t") -- 
-t("I'm a very lucky girl, am I not... This is the second time I've had you to save me now.", "I'm a very lucky girl, am I not... This is the second time I've had you to save me now.", "_t") -- 
-t("Over the last weeks you've become very important to me, and I am glad to have you. This is certainly not the place to talk, though, let's go.", "Over the last weeks you've become very important to me, and I am glad to have you. This is certainly not the place to talk, though, let's go.", "_t") -- 
-t("You're right, let's get out of here.", "You're right, let's get out of here.", "_t") -- 
-t("#LIGHT_GREEN#[go back to Last Hope]", "#LIGHT_GREEN#[go back to Last Hope]", "_t") -- 
+t("Select the item to recharge", "Sélectionnez l'élément à recharger", "_t")
+t("Not enough money", "Pas assez d'argent", "_t")
+t("This costs %d gold.", "Cela coûte %d d'or", "tformat")
+t("Recharge?", "Recharger?", "_t")
+t("This will cost you %d gold.", "Cela vous coûtera %d d'or.", "tformat")
+t("Welcome, @playername@, to my shop.", "Bienvenue, @playername@, dans mon magasin.", "_t")
+t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
+t("I want to recharge some of my equipment.", "Je veux recharger une partie de mon équipement.", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/melinda-beach.lua"
+section "game/modules/tome//data/chats/melinda-beach-end.lua" -- Trad et Test par Dirian
+
+t("What just happened?!", "Qu'est-ce qui vient de se passer?!", "_t")
+t("I'm sorry I didn't manage to protect you and as you were about to die you... fired a powerful wave of blight.", "Je suis désolé de n'avoir pas réussi à vous protéger et alors que vous étiez sur le point de mourir, vous avez... lancé une puissante vague de fléau.", "_t")
+t("But I have never cast a spell in my life!", "Mais je n'ai jamais jeté de sort dans ma vie !", "_t")
+t("You are still tainted by that ... foul Demon! The taint is not all gone!", "Vous êtes toujours souillé par cet... infâme Démon! La souillure n'a pas disparu!", "_t")
+t("There must be some of that demon's taint still inside you.", "Il doit y avoir une partie de la souillure de ce démon encore en vous.", "_t")
+t("This is terrible! I assure you I had no idea this would happen. You must trust me!", "C'est terrible ! Je vous assure que je n'avais aucune idée que cela arriverait. Vous devez me faire confiance!", "_t")
+t("I do. The Ziguranth are not raving zealots, you know. We will look for a way to cure you, as long as you reject the blight.", "Je le fais. Les Ziguranth ne sont pas des fanatiques enragés, vous savez. Nous chercherons un moyen de vous guérir, à condition que vous rejetiez le fléau.", "_t")
+t("This is terrible! What is happening to me?!? You must help me!", "C'est terrible! Qu'est-ce qui m'arrive?!? Vous devez m'aider!", "_t")
+t("I will. We will find a cure for this together.", "Je le ferai. Nous trouverons ensemble un remède à ce problème.", "_t")
+t("I'm a very lucky girl, am I not... This is the second time I've had you to save me now.", "Je suis une fille très chanceuse, n'est-ce pas... C'est la deuxième fois que je vous ai pour me sauver maintenant.", "_t")
+t("Over the last weeks you've become very important to me, and I am glad to have you. This is certainly not the place to talk, though, let's go.", "Ces dernières semaines, vous êtes devenu très important pour moi, et je suis heureux de vous avoir. Mais ce n'est certainement pas l'endroit pour parler, allons-y.", "_t")
+t("You're right, let's get out of here.", "Vous avez raison, partons d'ici.", "_t")
+t("#LIGHT_GREEN#[go back to Last Hope]", "#LIGHT_GREEN#[retourner à Dernier Espoir]", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome//data/chats/melinda-beach.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*The two of you spend some time relaxing on the beach.\
 The air is fresh, the sand shimmers, and the surf roars softly.*#WHITE#\
@@ -5524,61 +5524,61 @@ The air is fresh, the sand shimmers, and the surf roars softly.*#WHITE#\
 This was such a lovely idea!\
 I have had a wonderful time with you today.\
 \
-#LIGHT_GREEN#*She looks longingly into your eyes.*#WHITE#", "#LIGHT_GREEN#*The two of you spend some time relaxing on the beach.\
-The air is fresh, the sand shimmers, and the surf roars softly.*#WHITE#\
+#LIGHT_GREEN#*She looks longingly into your eyes.*#WHITE#", "#LIGHT_GREEN#*Vous passez tous les deux un moment de détente sur la plage.\
+L'air est frais, le sable miroite et les vagues grondent doucement.*#WHITE#\
 \
-This was such a lovely idea!\
-I have had a wonderful time with you today.\
+C'était une si belle idée !\
+J'ai passé un moment merveilleux avec vous aujourd'hui.\
 \
-#LIGHT_GREEN#*She looks longingly into your eyes.*#WHITE#", "_t") -- 
-t("#LIGHT_GREEN#[Lean closer and kiss her]#WHITE#", "#LIGHT_GREEN#[Lean closer and kiss her]#WHITE#", "_t") -- 
+#LIGHT_GREEN#*Elle vous regarde avec envie dans les yeux.*#WHITE#", "_t") -- 
+t("#LIGHT_GREEN#[Lean closer and kiss her]#WHITE#", "#LIGHT_GREEN#[Approchez-vous et embrassez-la]#WHITE#", "_t") -- 
 t("Just before your lips touch, you sense that something is very wrong.\
-", "Just before your lips touch, you sense that something is very wrong.\
+", "Juste avant que vos lèvres ne se touchent, vous sentez que quelque chose ne va pas du tout.\
 ", "_t") -- 
-t("#LIGHT_GREEN#[Continue...]#WHITE#", "#LIGHT_GREEN#[Continue...]#WHITE#", "_t") -- 
+t("#LIGHT_GREEN#[Continue...]#WHITE#", "#LIGHT_GREEN#[à suivre...]#WHITE#", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/melinda-fortress.lua"
+section "game/modules/tome//data/chats/melinda-fortress.lua" -- Trad et Test par Dirian
 
-t("Hi, sweety!", "Hi, sweety!", "_t") -- 
-t("#LIGHT_GREEN#[kiss her]#WHITE#", "#LIGHT_GREEN#[kiss her]#WHITE#", "_t") -- 
-t("Are you settling in fine?", "Are you settling in fine?", "_t") -- 
-t("I want to open my own little shop in Derth?", "I want to open my own little shop in Derth?", "_t") -- 
-t("I want to study magic at Angolwen?", "I want to study magic at Angolwen?", "_t") -- 
-t("I want to train at Zigur?", "I want to train at Zigur?", "_t") -- 
+t("Hi, sweety!", "Salut, mon sucre!", "_t")
+t("#LIGHT_GREEN#[kiss her]#WHITE#", "#LIGHT_GREEN#[l'embrasser]#WHITE#", "_t")
+t("Are you settling in fine?", "Vous êtes bien installé?", "_t")
+t("I want to open my own little shop in Derth?", "Je veux ouvrir mon propre petit magasin à Derth?", "_t")
+t("I want to study magic at Angolwen?", "Je veux étudier la magie à Angolwen?", "_t")
+t("I want to train at Zigur?", "Je veux m'entraîner à Zigur?", "_t")
 t("Well let me say that tank is #{bold}#dreadful#{normal}#, but that weird butler says it is the only way.\
 I do start to feel better too.\
 However I must say I get bored around here a little.\
-Do you remember, I once told you %s Maybe we could find a way to get me there during the day and return for my treatment during the night?", "Well let me say that tank is #{bold}#dreadful#{normal}#, but that weird butler says it is the only way.\
-I do start to feel better too.\
-However I must say I get bored around here a little.\
-Do you remember, I once told you %s Maybe we could find a way to get me there during the day and return for my treatment during the night?", "tformat") -- 
-t("Oh yes, I think we could arrange that. Shadow, would it be possible to create a portal for her?", "Oh yes, I think we could arrange that. Shadow, would it be possible to create a portal for her?", "_t") -- 
+Do you remember, I once told you %s Maybe we could find a way to get me there during the day and return for my treatment during the night?", "Eh bien, laissez-moi vous dire que cette cuve est épouvantable, mais cet étrange majordome dit que c'est la seule solution.\
+Je commence à me sentir mieux aussi.\
+Cependant, je dois dire que je m'ennuie un peu.\
+Vous vous souvenez, je vous ai dit un jour %s Peut-être pourrions-nous trouver un moyen de m'emmener là-bas pendant la journée et de revenir pour mon traitement pendant la nuit?", "tformat") -- 
+t("Oh yes, I think we could arrange that. Shadow, would it be possible to create a portal for her?", "Oh oui, je pense que nous pouvons arranger cela. Ombre, serait-il possible de créer un portail pour elle?", "_t") -- 
 t("Yes Master. I will arrange for that right now.\
-She will be able to come and go unnoticed.", "Yes Master. I will arrange for that right now.\
-She will be able to come and go unnoticed.", "_t") -- 
-t("That is perfect.", "That is perfect.", "_t") -- 
-t("Oh this is great, thank you! My own secret lair, my own life.", "Oh this is great, thank you! My own secret lair, my own life.", "_t") -- 
-t("I only wish your happiness, I am glad to provide.", "I only wish your happiness, I am glad to provide.", "_t") -- 
+She will be able to come and go unnoticed.", "Oui, Maître. Je vais m'en occuper tout de suite.\
+Elle pourra aller et venir sans se faire remarquer.", "_t") -- 
+t("That is perfect.", "C'est parfait.", "_t") -- 
+t("Oh this is great, thank you! My own secret lair, my own life.", "Oh c'est super, merci ! Mon propre repaire secret, ma propre vie.", "_t") -- 
+t("I only wish your happiness, I am glad to provide.", "Je ne fais que souhaiter votre bonheur, je suis heureux d'y pourvoir.", "_t") -- 
 t("#LIGHT_GREEN#*Looking all glamorous she comes closer*#WHITE#\
-Now my sweet one, where were we the last time?", "#LIGHT_GREEN#*Looking all glamorous she comes closer*#WHITE#\
-Now my sweet one, where were we the last time?", "_t") -- 
-t("My memory fails me, care to help me remember? #LIGHT_GREEN#[smile playfully at her]", "My memory fails me, care to help me remember? #LIGHT_GREEN#[smile playfully at her]", "_t") -- 
+Now my sweet one, where were we the last time?", "#LIGHT_GREEN#*Toute glamour, elle s'approche*#WHITE#\
+Maintenant, trésor, où en étions-nous la dernière fois?", "_t") -- 
+t("My memory fails me, care to help me remember? #LIGHT_GREEN#[smile playfully at her]", "Ma mémoire me fait défaut, voulez-vous m'aider à me souvenir? #LIGHT_GREEN#[faire un sourir espiègle]", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/message-last-hope.lua"
+section "game/modules/tome//data/chats/message-last-hope.lua" -- Trad et Test par Dirian
 
 t("Well met, @playername@. I was sent with a message from King Tolak of Last Hope.\
 I followed the trail of bodies that you left - very impressive! We are lucky to have you on our side.\
 But enough talk; take this message. I must go now.\
-#LIGHT_GREEN#He gives you a sealed scroll and vanishes into the shadows.#LAST#", "Well met, @playername@. I was sent with a message from King Tolak of Last Hope.\
-I followed the trail of bodies that you left - very impressive! We are lucky to have you on our side.\
-But enough talk; take this message. I must go now.\
-#LIGHT_GREEN#He gives you a sealed scroll and vanishes into the shadows.#LAST#", "_t") -- 
-t("Thank you for your courage.", "Thank you for your courage.", "_t") -- 
-t("The herald gives you %s.", "The herald gives you %s.", "logPlayer") -- 
+#LIGHT_GREEN#He gives you a sealed scroll and vanishes into the shadows.#LAST#", "Bien joué, @playername@. J'ai reçu un message du roi Tolak de Dernier Espoir.\
+J'ai suivi la piste des corps que vous avez laissés - très impressionnant! Nous avons de la chance de vous avoir à nos côtés.\
+Mais assez parlé; prenez ce message. Je dois y aller maintenant.\
+#LIGHT_GREEN#Il vous donne un parchemin scellé et disparaît dans l'ombre.#LAST#", "_t") -- 
+t("Thank you for your courage.", "Merci pour vos encouragement.", "_t") -- 
+t("The herald gives you %s.", "Le héraut vous donne %s.", "logPlayer") -- 
 
 
 ------------------------------------------------
