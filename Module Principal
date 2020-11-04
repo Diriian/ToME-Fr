@@ -5288,87 +5288,87 @@ t("[leave]", "[partir]", "_t") --
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/last-hope-melinda-father.lua"
+section "game/modules/tome//data/chats/last-hope-melinda-father.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*A man talks to you from inside, the door half open. His voice is sad.*#WHITE#\
-Sorry, the store is closed.", "#LIGHT_GREEN#*A man talks to you from inside, the door half open. His voice is sad.*#WHITE#\
-Sorry, the store is closed.", "_t") -- 
-t("[leave]", "[leave]", "_t") -- 
-t("@playername@! My daughter's savior!", "@playername@! My daughter's savior!", "_t") -- 
-t("Hi, I was just checking in to see if Melinda is all right.", "Hi, I was just checking in to see if Melinda is all right.", "_t") -- 
-t("Hi, I would like to talk to Melinda please.", "Hi, I would like to talk to Melinda please.", "_t") -- 
-t("Sorry, I have to go!", "Sorry, I have to go!", "_t") -- 
-t("Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "_t") -- 
+Sorry, the store is closed.", "#LIGHT_GREEN#*Un homme vous parle de l'intérieur, la porte à moitié ouverte. Sa voix est triste.*#WHITE#\
+Désolé, le magasin est fermé.", "_t") -- 
+t("[leave]", "[partir]", "_t") -- 
+t("@playername@! My daughter's savior!", "@playername@! Le sauveur de ma fille!", "_t") -- 
+t("Hi, I was just checking in to see if Melinda is all right.", "Bonjour, je venais juste voir si Melinda va bien.", "_t") -- 
+t("Hi, I would like to talk to Melinda please.", "Bonjour, je voudrais parler à Melinda, s'il vous plaît.", "_t") -- 
+t("Sorry, I have to go!", "Désollé, je dois y aller!", "_t") -- 
+t("Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "Veuillez prendre ceci. Ce n'est rien comparé à la vie de mon enfant. Oh, et elle voudrait vous remercier en personne; je vais l'appeller.", "_t") -- 
 t("Melinda", "Melinda", "_t") -- 
-t("Thank you.", "Thank you.", "_t") -- 
-t("Melinda's father gives you: %s", "Melinda's father gives you: %s", "logPlayer") -- 
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "_t") -- 
-t("@playername@! #LIGHT_GREEN#*She jumps for joy and hugs you while her father returns to his shop.*#WHITE#", "@playername@! #LIGHT_GREEN#*She jumps for joy and hugs you while her father returns to his shop.*#WHITE#", "_t") -- 
-t("I am glad to see you are fine. It seems your scars are healing quite well.", "I am glad to see you are fine. It seems your scars are healing quite well.", "_t") -- 
-t("I am glad to see you well. Take care.", "I am glad to see you well. Take care.", "_t") -- 
+t("Thank you.", "Merci beaucoup.", "_t") -- 
+t("Melinda's father gives you: %s", "Le père de Melinda vous donne: %s", "logPlayer") -- 
+t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t") -- 
+t("@playername@! #LIGHT_GREEN#*She jumps for joy and hugs you while her father returns to his shop.*#WHITE#", "@playername@! #LIGHT_GREEN#*Elle saute de joie et vous embrasse pendant que son père retourne à sa boutique.*#WHITE#", "_t") -- 
+t("I am glad to see you are fine. It seems your scars are healing quite well.", "Je suis heureux de voir que vous allez bien. Il semble que vos cicatrices guérissent assez vite.", "_t") -- 
+t("I am glad to see you well. Take care.", "Je suis heureux de vous voir en bonne santé. Prenez soin de vous.", "_t") -- 
 t("Yes it has mostly healed, though I still do have nightmares. I feel like something is still lurking.\
-Ah well, the bad dreams are still better than the fate you saved me from!", "Yes it has mostly healed, though I still do have nightmares. I feel like something is still lurking.\
-Ah well, the bad dreams are still better than the fate you saved me from!", "_t") -- 
-t("Should I come across a way to help you during my travels, I will try to help.", "Should I come across a way to help you during my travels, I will try to help.", "_t") -- 
-t("Thank you, you are most welcome.", "Thank you, you are most welcome.", "_t") -- 
-t("Most certainly, so what are your plans now?", "Most certainly, so what are your plans now?", "_t") -- 
-t("Hi @playername@! I am feeling better now, even starting to grow restless...", "Hi @playername@! I am feeling better now, even starting to grow restless...", "_t") -- 
-t("So what are your plans now?", "So what are your plans now?", "_t") -- 
-t("About that, I was thinking that maybe you'd like to go out with me sometime ...", "About that, I was thinking that maybe you'd like to go out with me sometime ...", "_t") -- 
+Ah well, the bad dreams are still better than the fate you saved me from!", "Oui, elles guérissent rapidement, bien que je fasse encore des cauchemars. J'ai l'impression que quelque chose me guette encore.\
+Cependant, les mauvais rêves sont toujours mieux que le sort dont vous m'avez sauvé !", "_t") -- 
+t("Should I come across a way to help you during my travels, I will try to help.", "Si je trouve un moyen de vous aider au cours de mes voyages, j'essaierai de vous aider.", "_t") -- 
+t("Thank you, you are most welcome.", "Merci, vous êtes le bienvenu.", "_t") -- 
+t("Most certainly, so what are your plans now?", "Très certainement, alors quels sont vos projets maintenant ?", "_t") -- 
+t("Hi @playername@! I am feeling better now, even starting to grow restless...", "Bonjour @playername@! Je me sens mieux maintenant, je commence même à ne plus tenir en place...", "_t") -- 
+t("So what are your plans now?", "Alors, quels sont vos projets maintenant ?", "_t") -- 
+t("About that, I was thinking that maybe you'd like to go out with me sometime ...", "À ce propos, je pensais que tu aimerais peut-être sortir avec moi un jour...", "_t") -- 
 t("#LIGHT_GREEN#*Melinda appears at the door and kisses you*#WHITE#\
-Hi my dear, I'm so happy to see you!", "#LIGHT_GREEN#*Melinda appears at the door and kisses you*#WHITE#\
-Hi my dear, I'm so happy to see you!", "_t") -- 
-t("I am still looking out for an explanation of what happened at the beach.", "I am still looking out for an explanation of what happened at the beach.", "_t") -- 
-t("About what happened on the beach, I think I have found something.", "About what happened on the beach, I think I have found something.", "_t") -- 
+Hi my dear, I'm so happy to see you!", "#LIGHT_GREEN#*Melinda apparaît à la porte et vous embrasse*#WHITE#\
+Salut ma chère, je suis si heureux de te voir !", "_t") -- 
+t("I am still looking out for an explanation of what happened at the beach.", "Je suis toujours à la recherche d'une explication sur ce qui s'est passé à la plage.", "_t") -- 
+t("About what happened on the beach, I think I have found something.", "A propos de ce qui s'est passé sur la plage, je pense avoir trouvé quelque chose.", "_t") -- 
 t("I do not know yet, my father won't let me out until I'm fully healed. I've always wanted to do so many things.\
 That is why I got stuck in that crypt, I want to see the world.\
-My father gave me some funds so that I can take my future into my own hands. I have some friends in Derth, maybe I will open my own little shop there. ", "I do not know yet, my father won't let me out until I'm fully healed. I've always wanted to do so many things.\
-That is why I got stuck in that crypt, I want to see the world.\
-My father gave me some funds so that I can take my future into my own hands. I have some friends in Derth, maybe I will open my own little shop there. ", "_t") -- 
-t("I have seen how you fought those corruptors, the way you destroyed their magic. I want to learn to do the same, so that such horrors never happen again. To anyone.", "I have seen how you fought those corruptors, the way you destroyed their magic. I want to learn to do the same, so that such horrors never happen again. To anyone.", "_t") -- 
+My father gave me some funds so that I can take my future into my own hands. I have some friends in Derth, maybe I will open my own little shop there. ", "Je ne sais pas encore, mon père ne me laissera pas sortir avant que je sois complètement guéri. J'ai toujours voulu faire tant de choses.\
+C'est pourquoi je suis resté coincé dans cette crypte, je veux voir le monde.\
+Mon père m'a donné des fonds pour que je puisse prendre mon avenir en main. J'ai quelques amis à Derth, peut-être que j'y ouvrirai ma propre petite boutique. ", "_t") -- 
+t("I have seen how you fought those corruptors, the way you destroyed their magic. I want to learn to do the same, so that such horrors never happen again. To anyone.", "J'ai vu comment vous avez combattu ces corrupteurs, comment vous avez détruit leur magie. Je veux apprendre à faire de même, afin que de telles horreurs ne se reproduisent plus jamais. A personne.", "_t") -- 
 t("Or maybe, well I suppose I can trust you with this, I've always secretly dreamed of learning magic. Real magic I mean not alchemist tricks!\
-I've learnt about a secret place, Angolwen, where I could learn it.", "Or maybe, well I suppose I can trust you with this, I've always secretly dreamed of learning magic. Real magic I mean not alchemist tricks!\
-I've learnt about a secret place, Angolwen, where I could learn it.", "_t") -- 
-t("Derth has its up and downs but I think they could do with a smart girl yes.", "Derth has its up and downs but I think they could do with a smart girl yes.", "_t") -- 
-t("Thanks!", "Thanks!", "_t") -- 
-t("You wish to join our noble crusade against magic? Wonderful! I will talk to them for you.", "You wish to join our noble crusade against magic? Wonderful! I will talk to them for you.", "_t") -- 
-t("I happen to be welcome among the people of Angolwen, I could say a word for you.", "I happen to be welcome among the people of Angolwen, I could say a word for you.", "_t") -- 
-t("That would be very nice!", "That would be very nice!", "_t") -- 
-t("What?!? Just because you rescued me from a moderately-to-extremely gruesome death, you think that entitles you to take liberties?!", "What?!? Just because you rescued me from a moderately-to-extremely gruesome death, you think that entitles you to take liberties?!", "_t") -- 
-t("GIRL", "GIRL", "_t") -- 
-t("GUY", "GUY", "_t") -- 
-t("Uhh, sorry I hear my father calling, see you.", "Uhh, sorry I hear my father calling, see you.", "_t") -- 
-t("WHY AREN'T WOMEN ATTRACTED TO ME I'M A NICE %s.", "WHY AREN'T WOMEN ATTRACTED TO ME I'M A NICE %s.", "tformat") -- 
-t("Just a minute, I was just...", "Just a minute, I was just...", "_t") -- 
+I've learnt about a secret place, Angolwen, where I could learn it.", "Ou peut-être, et bien je suppose que je peux vous faire confiance, j'ai toujours secrètement rêvé d'apprendre la magie. De la vraie magie, je veux dire, pas des tours d'alchimiste !\
+J'ai découvert un endroit secret, Angolwen, où je pourrais l'apprendre.", "_t") -- 
+t("Derth has its up and downs but I think they could do with a smart girl yes.", "Derth a ses hauts et ses bas, mais je pense qu'ils pourraient avoir besoin d'une fille intelligente, oui.", "_t") -- 
+t("Thanks!", "Merci!", "_t") -- 
+t("You wish to join our noble crusade against magic? Wonderful! I will talk to them for you.", "Vous souhaitez vous joindre à notre noble croisade contre la magie? Merveilleux! Je vais leur parler de vous.", "_t") -- 
+t("I happen to be welcome among the people of Angolwen, I could say a word for you.", "Il se trouve que je suis le bienvenu parmi le peuple d'Angolwen, je pourrais leur parler de vous.", "_t") -- 
+t("That would be very nice!", "Ce serait très aimable!", "_t") -- 
+t("What?!? Just because you rescued me from a moderately-to-extremely gruesome death, you think that entitles you to take liberties?!", "Quoi?!? Ce n'est pas parce que vous m'avez sauvé d'une mort modérément à extrêmement horrible que vous pensez que cela vous donne le droit de prendre des libertés!", "_t") -- 
+t("GIRL", "FILLE", "_t") -- 
+t("GUY", "MEC", "_t") -- 
+t("Uhh, sorry I hear my father calling, see you.", "Uhh, désolé j'ai entendu mon père m'appeler, à plus tard.", "_t") -- 
+t("WHY AREN'T WOMEN ATTRACTED TO ME I'M A NICE %s.", "POURQUOI LES FEMMES NE SONT PAS ATTIRÉES PAR MOI JE SUIS UN %s SYMPA", "tformat") -- 
+t("Just a minute, I was just...", "Juste une minute, j'étais juste...", "_t") -- 
 t("#LIGHT_GREEN#*She looks at you cheerfully.*#WHITE#\
-Just kidding. I would love that!", "#LIGHT_GREEN#*She looks at you cheerfully.*#WHITE#\
-Just kidding. I would love that!", "_t") -- 
-t("#LIGHT_GREEN#[walk away with her]#WHITE#What about a little trip to the south, from the coastline we can see the Charred Scar Volcano, it is a wonderous sight.", "#LIGHT_GREEN#[walk away with her]#WHITE#What about a little trip to the south, from the coastline we can see the Charred Scar Volcano, it is a wonderous sight.", "_t") -- 
-t("But... ok goodbye.", "But... ok goodbye.", "_t") -- 
-t("Joke's on you really, goodbye!", "Joke's on you really, goodbye!", "_t") -- 
+Just kidding. I would love that!", "#LIGHT_GREEN#*Elle vous regarde avec joie.*#WHITE#\
+Je plaisante. J'adorerais ça!", "_t") -- 
+t("#LIGHT_GREEN#[walk away with her]#WHITE#What about a little trip to the south, from the coastline we can see the Charred Scar Volcano, it is a wonderous sight.", "#LIGHT_GREEN#[s'éloigner avec elle]#WHITE#Que diriez-vous d'un petit voyage vers le sud, depuis la côte on peut voir le volcan de la Plaie craquelée, c'est un spectacle merveilleux.", "_t") -- 
+t("But... ok goodbye.", "Mais... ok au revoir.", "_t") -- 
+t("Joke's on you really, goodbye!", "La plaisanterie est pour toi, vraiment, au revoir!", "_t") -- 
 t("#LIGHT_GREEN#*You take Melinda in your arms and press her against you. The warmth of the contact lightens your heart.*#WHITE#\
-I feel safe in your arms. Please, I know you must leave, but promise to come back soon and hold me again.", "#LIGHT_GREEN#*You take Melinda in your arms and press her against you. The warmth of the contact lightens your heart.*#WHITE#\
-I feel safe in your arms. Please, I know you must leave, but promise to come back soon and hold me again.", "_t") -- 
-t("I think I would enjoy that very much. #LIGHT_GREEN#[kiss her]#WHITE#", "I think I would enjoy that very much. #LIGHT_GREEN#[kiss her]#WHITE#", "_t") -- 
-t("That thought will carry me in the dark places I shall walk. #LIGHT_GREEN#[kiss her]#WHITE#", "That thought will carry me in the dark places I shall walk. #LIGHT_GREEN#[kiss her]#WHITE#", "_t") -- 
-t("Oh, I am sorry. I think you are mistaken. I was only trying to comfort you.", "Oh, I am sorry. I think you are mistaken. I was only trying to comfort you.", "_t") -- 
-t("Oh, sorry, I was not myself. Goodbye, then. Farewell.", "Oh, sorry, I was not myself. Goodbye, then. Farewell.", "_t") -- 
+I feel safe in your arms. Please, I know you must leave, but promise to come back soon and hold me again.", "#LIGHT_GREEN#*Vous prenez Melinda dans vos bras et la pressez contre vous. La chaleur du contact soulage votre cœur.*#WHITE#\
+Je me sens en sécurité dans vos bras. S'il vous plaît, je sais que vous devez partir, mais promettez-moi de revenir bientôt et de me tenir à nouveau comme cela.", "_t") -- 
+t("I think I would enjoy that very much. #LIGHT_GREEN#[kiss her]#WHITE#", "Je pense que cela me plairait beaucoup. #LIGHT_GREEN#[l'embrasser]#WHITE#", "_t") -- 
+t("That thought will carry me in the dark places I shall walk. #LIGHT_GREEN#[kiss her]#WHITE#", "Cette pensée me soutiendra dans les lieux sombres où je marcherai. #LIGHT_GREEN#[l'embrasser]]#WHITE#", "_t") -- 
+t("Oh, I am sorry. I think you are mistaken. I was only trying to comfort you.", "Oh, je suis désolé. Je pense que vous vous trompez. J'essayais seulement de vous réconforter.", "_t") -- 
+t("Oh, sorry, I was not myself. Goodbye, then. Farewell.", "Oh, désolé, je n'étais pas moi-même. Au revoir, alors. Adieu.", "_t") -- 
 t("#LIGHT_GREEN#*Melinda looks worried*#WHITE#\
-Please tell me you can help!", "#LIGHT_GREEN#*Melinda looks worried*#WHITE#\
-Please tell me you can help!", "_t") -- 
-t("Yes, I think so. Some time ago I assumed ownership of a very special home... #LIGHT_GREEN#[tell her the Fortress story]#WHITE#", "Yes, I think so. Some time ago I assumed ownership of a very special home... #LIGHT_GREEN#[tell her the Fortress story]#WHITE#", "_t") -- 
+Please tell me you can help!", "#LIGHT_GREEN#*Melinda semble inquiète*#WHITE#\
+S'il vous plaît, dites-moi que vous pouvez nous aider!", "_t") -- 
+t("Yes, I think so. Some time ago I assumed ownership of a very special home... #LIGHT_GREEN#[tell her the Fortress story]#WHITE#", "Oui, je le pense. Il y a quelque temps, j'ai pris possession d'une maison très spéciale... #LIGHT_GREEN#[lui raconter l'histoire de la Forteresse]#WHITE#", "_t") -- 
 t("An ancient fortress of a mythical race?! How #{bold}#exciting#{normal}#!\
-And you say it could cure me?", "An ancient fortress of a mythical race?! How #{bold}#exciting#{normal}#!\
-And you say it could cure me?", "_t") -- 
-t("The Fortress seems to think so. I know this might sound a bit .. inappropriate .. but you would need to come live there, at least for a while.", "The Fortress seems to think so. I know this might sound a bit .. inappropriate .. but you would need to come live there, at least for a while.", "_t") -- 
+And you say it could cure me?", "Une ancienne forteresse d'une race mythique! Comme c'est #{bold}#excitant#{normal}#!\
+Et vous dites que ça pourrait me guérir?", "_t") -- 
+t("The Fortress seems to think so. I know this might sound a bit .. inappropriate .. but you would need to come live there, at least for a while.", "La Forteresse semble le penser. Je sais que cela peut paraître un peu... inapproprié... mais il faudrait que vous veniez y vivre, au moins pour un temps.", "_t") -- 
 t("#LIGHT_GREEN#*She looks at you cheerfully*#WHITE#\
 Ah the plan to sleep with me is finally revealed!\
 Shhh you dummy, I thought we were past such silliness, I will come, both for my health and because I want to be with you.\
-#LIGHT_GREEN#*She kisses you tenderly*#WHITE#", "#LIGHT_GREEN#*She looks at you cheerfully*#WHITE#\
-Ah the plan to sleep with me is finally revealed!\
-Shhh you dummy, I thought we were past such silliness, I will come, both for my health and because I want to be with you.\
-#LIGHT_GREEN#*She kisses you tenderly*#WHITE#", "_t") -- 
-t("Then my lady, if you will follow me. #LIGHT_GREEN#[take her to the Fortress]", "Then my lady, if you will follow me. #LIGHT_GREEN#[take her to the Fortress]", "_t") -- 
+#LIGHT_GREEN#*She kisses you tenderly*#WHITE#", "#LIGHT_GREEN#*Elle vous regarde joyeusement*#WHITE#\
+Ah le plan pour coucher avec moi est enfin révélé!\
+Chut, idiot, je pensais que nous avions dépassé cette bêtise, je viendrai, à la fois pour ma santé et parce que je veux être avec toi.\
+#LIGHT_GREEN#*elle vous embrasse tendrement*#WHITE#", "_t") -- 
+t("Then my lady, if you will follow me. #LIGHT_GREEN#[take her to the Fortress]", "Dans ce cas ma dame, si vous voulez bien me suivre. #LIGHT_GREEN#[l'emmener à la Forteresse]", "_t") -- 
 
 
 ------------------------------------------------
