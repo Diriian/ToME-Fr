@@ -5929,91 +5929,91 @@ t("This is great news! I will tell her at once.", "C'est une excellente nouvelle
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-caldizar.lua"
+section "game/modules/tome//data/chats/shertul-fortress-caldizar.lua" -- Trad et Test par Dirian
 
-t("\"You should not be here. How di-\"#{normal}# It stops abruptly, and its attention seems to turn to the staff in your hands. #{italic}#\"How did you get that?! You fool, you do not know what forces you play with! Get it away from here - BEGONE!\"", "\"You should not be here. How di-\"#{normal}# It stops abruptly, and its attention seems to turn to the staff in your hands. #{italic}#\"How did you get that?! You fool, you do not know what forces you play with! Get it away from here - BEGONE!\"", "_t") -- 
-t("\"You should not be here. How did you get here?! BEGONE!\"", "\"You should not be here. How did you get here?! BEGONE!\"", "_t") -- 
+t("\"You should not be here. How di-\"#{normal}# It stops abruptly, and its attention seems to turn to the staff in your hands. #{italic}#\"How did you get that?! You fool, you do not know what forces you play with! Get it away from here - BEGONE!\"", "\"Vous ne devriez pas être ici. Comment...\"#{normal}# Il s'arrête brusquement, et son attention semble se tourner vers le bâton qui est entre vos mains.#{italic}#\"Comment avez-vous obtenu cela?! Imbécile, vous ne savez pas avec quelles forces vous jouez! Éloignez-le d'ici - PARTIEZ!\"", "_t") -- 
+t("\"You should not be here. How did you get here?! BEGONE!\"", "\"Vous ne devriez pas être ici. Comment êtes-vous arrivé ici?! PARTEZ!\"", "_t") -- 
 t("#{italic}#As you open the door you stare in amazement at what is beyond. A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!\
 \
 But your wonder is cut short as the Sher'Tul notices you, and you feel its intense concentration bear down on you like an unstoppable force. A voice in your head booms, #{normal}#%s#{italic}#\
 \
-A wave of mental and magical power blasts into you with the might of a falling star. You are lifted into the air, and intense pressure bears down on every inch of your skin, threatening to crush you into nothingness. You try to resist for a moment, until--#{normal}#", "#{italic}#As you open the door you stare in amazement at what is beyond. A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!\
+A wave of mental and magical power blasts into you with the might of a falling star. You are lifted into the air, and intense pressure bears down on every inch of your skin, threatening to crush you into nothingness. You try to resist for a moment, until--#{normal}#", "#{italic}#En ouvrant la porte, vous regardez avec étonnement ce qui se trouve au-delà. Une créature se tient devant vous, avec de longs appendices en forme de tentacules et une bosse accroupie à la place de la tête. Une intense aura de puissance émane de cet être, comme vous ne l'avez jamais ressentie auparavant. Ce ne peut être qu'un Sher'Tul. Un Sher'Tul vivant!\
 \
-But your wonder is cut short as the Sher'Tul notices you, and you feel its intense concentration bear down on you like an unstoppable force. A voice in your head booms, #{normal}#%s#{italic}#\
+Mais votre émerveillement est interrompu lorsque le Sher'Tul vous remarque, et vous sentez son intense concentration s'abattre sur vous comme une force imparable. Une voix dans votre tête fait boum, #{normal}#%s#{italique}#\
 \
-A wave of mental and magical power blasts into you with the might of a falling star. You are lifted into the air, and intense pressure bears down on every inch of your skin, threatening to crush you into nothingness. You try to resist for a moment, until--#{normal}#", "tformat") -- 
-t("[continue]", "[continue]", "_t") -- 
-t("#{italic}#You wake up suddenly next to your farportal with a pounding headache. Your cheeks feel wet, and touching them you see your fingers stained red - you have been crying tears of blood. A dark and terrible memory lurks at the back of your mind, but the more you try to remember it the harder it becomes, and slowly it fades completely, like a dream.#{normal}#", "#{italic}#You wake up suddenly next to your farportal with a pounding headache. Your cheeks feel wet, and touching them you see your fingers stained red - you have been crying tears of blood. A dark and terrible memory lurks at the back of your mind, but the more you try to remember it the harder it becomes, and slowly it fades completely, like a dream.#{normal}#", "_t") -- 
-t("[done]", "[done]", "_t") -- 
+Une vague de puissance mentale et magique vous envahit avec la puissance d'une étoile filante. Vous êtes soulevé dans les airs, et une pression intense s'exerce sur chaque centimètre de votre peau, menaçant de vous écraser dans le néant. Vous essayez de résister pendant un moment, jusqu'à ce que--#{normal}#", "tformat") -- 
+t("[continue]", "[suite]", "_t") -- 
+t("#{italic}#You wake up suddenly next to your farportal with a pounding headache. Your cheeks feel wet, and touching them you see your fingers stained red - you have been crying tears of blood. A dark and terrible memory lurks at the back of your mind, but the more you try to remember it the harder it becomes, and slowly it fades completely, like a dream.#{normal}#", "#{italic}#Vous vous réveillez soudainement à côté de votre portail avec un mal de tête intense. Vos joues sont mouillées, et en les touchant vous voyez vos doigts tachés de rouge - vous avez pleuré des larmes de sang. Un souvenir sombre et terrible se cache au fond de votre esprit, mais plus vous essayez de vous en souvenir, plus ça devient difficile, et lentement il s'efface complètement, comme un rêve.#{normal}#", "_t") -- 
+t("[done]", "[terminé]", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-command-orb.lua"
+section "game/modules/tome//data/chats/shertul-fortress-command-orb.lua" -- Trad et Test par Dirian
 
 t("*#LIGHT_GREEN#This orb seems to represent the world of Eyal as a whole. It is also probably used for controlling the fortress.\
-", "*#LIGHT_GREEN#This orb seems to represent the world of Eyal as a whole. It is also probably used for controlling the fortress.\
+", "*#LIGHT_GREEN#Cette orbe semble représenter le monde d'Eyal dans son ensemble. Il est aussi probablement utilisé pour contrôler la forteresse.\
 ", "_t") -- 
 t("You do not understand the inscriptions there.#WHITE#*\
-#{italic}#\"Rokzan krilt copru.\"#{normal}#", "You do not understand the inscriptions there.#WHITE#*\
+#{italic}#\"Rokzan krilt copru.\"#{normal}#", "Vous ne comprenez pas les inscriptions qui s'y trouvent.#WHITE#*\
 #{italic}#\"Rokzan krilt copru.\"#{normal}#", "_t") -- 
-t("#WHITE#*#{italic}#\"Insert control rod.\"#{normal}#", "#WHITE#*#{italic}#\"Insert control rod.\"#{normal}#", "_t") -- 
-t("[Examine the orb]", "[Examine the orb]", "_t") -- 
-t("[Fly the fortress -- #LIGHT_RED#FOR TESTING ONLY#LAST#]", "[Fly the fortress -- #LIGHT_RED#FOR TESTING ONLY#LAST#]", "_t") -- 
-t("[Begin the Lichform ceremory]", "[Begin the Lichform ceremory]", "_t") -- 
+t("#WHITE#*#{italic}#\"Insert control rod.\"#{normal}#", "#WHITE#*#{italic}#\"Insérer le bâton de contrôle.\"#{normal}#", "_t") -- 
+t("[Examine the orb]", "[Examiner l'orbe]", "_t") -- 
+t("[Fly the fortress -- #LIGHT_RED#FOR TESTING ONLY#LAST#]", "[Faire voler la forteresse -- #LIGHT_RED#POUR LES TESTS SEULEMENT#LAST#]", "_t") -- 
+t("[Begin the Lichform ceremory]", "[Commencer la cérémonie de forme de Liche]", "_t") -- 
 t("*#LIGHT_GREEN#The device seems to be made of pure crystal. It projects a very accurate map of the known world - including the forbidden continent of the south.\
-There seems to be a hole about the size and form of your Rod of Recall.#WHITE#*", "*#LIGHT_GREEN#The device seems to be made of pure crystal. It projects a very accurate map of the known world - including the forbidden continent of the south.\
-There seems to be a hole about the size and form of your Rod of Recall.#WHITE#*", "_t") -- 
-t("[Insert the rod]", "[Insert the rod]", "_t") -- 
+There seems to be a hole about the size and form of your Rod of Recall.#WHITE#*", "*#LIGHT_GREEN#L'appareil semble être fait de cristal pur. Il projette une carte très précise du monde connu - y compris le continent interdit du sud.\
+Il semble y avoir un trou de la taille et de la forme de votre bâton de rappel.#WHITE#*", "_t") -- 
+t("[Insert the rod]", "[Inserer le bâton]", "_t") -- 
 t("*#LIGHT_GREEN#As you take the rod close to the orb it seems to vibrate and react.\
 A shadow appears in a corner of the room! You retract the rod immediately but the shadow stays.\
 It looks like the horrors you fought when coming inside, only less degenerated.\
-The thing looks roughly humanoid, but it has no head and its limbs look like tentacles. It does not seem hostile.#WHITE#*", "*#LIGHT_GREEN#As you take the rod close to the orb it seems to vibrate and react.\
-A shadow appears in a corner of the room! You retract the rod immediately but the shadow stays.\
-It looks like the horrors you fought when coming inside, only less degenerated.\
-The thing looks roughly humanoid, but it has no head and its limbs look like tentacles. It does not seem hostile.#WHITE#*", "_t") -- 
-t("[Leave the orb alone]", "[Leave the orb alone]", "_t") -- 
+The thing looks roughly humanoid, but it has no head and its limbs look like tentacles. It does not seem hostile.#WHITE#*", "*#LIGHT_GREEN#Lorsque vous placer le bâton près de l'orbe, elle semble vibrer et réagir.\
+Une ombre apparaît dans un coin de la pièce! Vous reculer le bâton immédiatement mais l'ombre reste.\
+Elle ressemble aux horreurs que vous avez combattues en entrant à l'intérieur, mais en moins dégénéré.\
+La chose a l'air grossièrement humanoïde, mais elle n'a pas de tête et ses membres ressemblent à des tentacules. Elle ne semble pas hostile.#WHITE#*", "_t") -- 
+t("[Leave the orb alone]", "[Laissez l'orbe tranquille]", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-gladium-orb.lua"
+section "game/modules/tome//data/chats/shertul-fortress-gladium-orb.lua" -- Trad et Test par Dirian
 
-t("*#LIGHT_GREEN#This orb is used to control the gladium arena.#WHITE#*", "*#LIGHT_GREEN#This orb is used to control the gladium arena.#WHITE#*", "_t") -- 
-t("[Go back to the Fortress]", "[Go back to the Fortress]", "_t") -- 
-t("[Leave the orb alone]", "[Leave the orb alone]", "_t") -- 
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-shimmer.lua"
-
-t("[Alter the appearance of %s]", "[Alter the appearance of %s]", "tformat") -- 
-t("[Alter the appearance of your body]", "[Alter the appearance of your body]", "_t") -- 
-t("[Alter the appearance of your facial features]", "[Alter the appearance of your facial features]", "_t") -- 
-t("[Alter the appearance of your hair]", "[Alter the appearance of your hair]", "_t") -- 
-t("[Alter the appearance of your cosmetic aura]", "[Alter the appearance of your cosmetic aura]", "_t") -- 
-t("[Load/Save outfit]", "[Load/Save outfit]", "_t") -- 
-t("[Disable the visual effects of your sustains]", "[Disable the visual effects of your sustains]", "_t") -- 
-t("[Leave the mirror alone]", "[Leave the mirror alone]", "_t") -- 
-t("*#LIGHT_GREEN#As you gaze into the mirror you see an infinite number of slightly different reflections of yourself. You feel dizzy.#WHITE#*", "*#LIGHT_GREEN#As you gaze into the mirror you see an infinite number of slightly different reflections of yourself. You feel dizzy.#WHITE#*", "_t") -- 
+t("*#LIGHT_GREEN#This orb is used to control the gladium arena.#WHITE#*", "*#LIGHT_GREEN#Cet orbe est utilisé pour contrôler l'arène de gladiateurs.#WHITE#*", "_t") -- 
+t("[Go back to the Fortress]", "[Retourner à la forteresse]", "_t") -- 
+t("[Leave the orb alone]", "[Laisser l'orbe tranquille]", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-training-orb.lua"
+section "game/modules/tome//data/chats/shertul-fortress-shimmer.lua" -- Trad et Test par Dirian
 
-t("All resistances", "All resistances", "_t") -- 
-t("Armour Hardiness", "Armour Hardiness", "_t") -- 
-t("From 0 to 100", "From 0 to 100", "_t") -- 
-t("Armour", "Armour", "_t") -- 
-t("From 0 to 1000", "From 0 to 1000", "_t") -- 
-t("*#LIGHT_GREEN#This orb is used to control the training facilities.#WHITE#*", "*#LIGHT_GREEN#This orb is used to control the training facilities.#WHITE#*", "_t") -- 
-t("[Create one target dummy]", "[Create one target dummy]", "_t") -- 
-t("[Create two target dummy]", "[Create two target dummy]", "_t") -- 
-t("[Create three target dummy]", "[Create three target dummy]", "_t") -- 
-t("[Create five target dummy]", "[Create five target dummy]", "_t") -- 
-t("[Create ten target dummy]", "[Create ten target dummy]", "_t") -- 
-t("[Change dummies armour]", "[Change dummies armour]", "_t") -- 
-t("[Change dummies resistances]", "[Change dummies resistances]", "_t") -- 
-t("[Reset]", "[Reset]", "_t") -- 
-t("[Leave the orb alone]", "[Leave the orb alone]", "_t") -- 
+t("[Alter the appearance of %s]", "[Modifiez l'apparence de %s]", "tformat") -- 
+t("[Alter the appearance of your body]", "[Modifiez l'apparence de votre corps]", "_t") -- 
+t("[Alter the appearance of your facial features]", "[Modifiez l'apparence de votre visage]", "_t") -- 
+t("[Alter the appearance of your hair]", "[Modifiez l'apparence de vos cheveux]", "_t") -- 
+t("[Alter the appearance of your cosmetic aura]", "[Modifiez l'apparence de votre aura cosmétique]", "_t") -- 
+t("[Load/Save outfit]", "[Charger/Sauvegarder votre tenue]", "_t") -- 
+t("[Disable the visual effects of your sustains]", "[Désactivez les effets visuels de vos effets soutenus]", "_t") -- 
+t("[Leave the mirror alone]", "[Laissez le miroir tranquille]", "_t") -- 
+t("*#LIGHT_GREEN#As you gaze into the mirror you see an infinite number of slightly different reflections of yourself. You feel dizzy.#WHITE#*", "*#LIGHT_GREEN#En vous regardant dans le miroir, vous voyez une infinité de reflets légèrement différents de vous-même. Vous vous sentez étourdi.#WHITE#*", "_t") -- 
+
+
+------------------------------------------------
+section "game/modules/tome//data/chats/shertul-fortress-training-orb.lua" -- Trad et Test par Dirian
+
+t("All resistances", "Toutes les résistances", "_t")
+t("Armour Hardiness", "Robustesse de l'Armure", "_t")
+t("From 0 to 100", "De 0 à 100", "_t")
+t("Armour", "Armure", "_t")
+t("From 0 to 1000", "De 0 à 1000", "_t")
+t("*#LIGHT_GREEN#This orb is used to control the training facilities.#WHITE#*", "*#LIGHT_GREEN#Cet orbe est utilisé pour contrôler le terrain d'entraînement.#WHITE#*", "_t")
+t("[Create one target dummy]", "[Créer un mannequin d'entraînement]", "_t")
+t("[Create two target dummy]", "[Créer deux mannequins d'entraînement]", "_t")
+t("[Create three target dummy]", "[Créer trois mannequins d'entraînement]", "_t")
+t("[Create five target dummy]", "[Créer cinq mannequins d'entraînement]", "_t")
+t("[Create ten target dummy]", "[Créer dix mannequins d'entraînement]", "_t")
+t("[Change dummies armour]", "[Changer l'armure des mannequins]", "_t")
+t("[Change dummies resistances]", "[Changer la résistance des mannequins]", "_t")
+t("[Reset]", "[Réinitialisation]", "_t")
+t("[Leave the orb alone]", "[Laisser l'orbe tranquille]", "_t")
 
 
 ------------------------------------------------
