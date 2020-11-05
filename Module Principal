@@ -5767,78 +5767,78 @@ t("Bring it on!", "Amenez-vous!", "_t") --
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/ring-of-blood-win.lua"
+section "game/modules/tome//data/chats/ring-of-blood-win.lua" -- Trad et Test par Dirian
 
 t("So, you tasted blood? Liked it? I am sure you did; you are just that kind of people.\
 Anyway, I suppose you deserve your reward.\
-You can always participate again for fun, if you've got the gold to spare.", "So, you tasted blood? Liked it? I am sure you did; you are just that kind of people.\
-Anyway, I suppose you deserve your reward.\
-You can always participate again for fun, if you've got the gold to spare.", "_t") -- 
-t("Thanks, it was fun!", "Thanks, it was fun!", "_t") -- 
+You can always participate again for fun, if you've got the gold to spare.", "Alors, vous avez goûté au sang? Vous avez aimé? J'en ai la conviction, vous êtes exactement ce genre de personnage.\
+Quoi qu'il en soit, je suppose que vous méritez votre récompense.\
+Vous pouvez toujours participer à nouveau pour le plaisir, si vous avez de l'or en réserve.", "_t") -- 
+t("Thanks, it was fun!", "Merci, c'était amusant!", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/sage-kitty.lua"
+section "game/modules/tome//data/chats/sage-kitty.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*Before you stands a cute little orange cat. It looks hungry and looks at you.*#WHITE#\
 Meowww?\
-", "#LIGHT_GREEN#*Before you stands a cute little orange cat. It looks hungry and looks at you.*#WHITE#\
-Meowww?\
+", "#LIGHT_GREEN#*Devant vous se tient un mignon petit chat orange. Il a l'air affamé et vous regarde.*#WHITE#\
+Miaouh?\
 ", "_t") -- 
-t("Oh kitty kitty!", "Oh kitty kitty!", "_t") -- 
-t("No time for cats!", "No time for cats!", "_t") -- 
+t("Oh kitty kitty!", "Oh, minou minou!", "_t") -- 
+t("No time for cats!", "Pas de temps pour les chats!", "_t") -- 
 t("#LIGHT_GREEN#*It rubs up against your leg and purrs.*#WHITE#\
 Rrrrrrrrrrrr.\
-", "#LIGHT_GREEN#*It rubs up against your leg and purrs.*#WHITE#\
+", "#LIGHT_GREEN#*Il se frotte contre votre jambe et ronronne.*#WHITE#\
 Rrrrrrrrrrrr.\
 ", "_t") -- 
-t("Hey maybe you would like some of this delicious lookin troll intestines? #LIGHT_GREEN#[Feed him the intestines]#WHITE#", "Hey maybe you would like some of this delicious lookin troll intestines? #LIGHT_GREEN#[Feed him the intestines]#WHITE#", "_t") -- 
-t("Sorry little fellow, I can't help you.", "Sorry little fellow, I can't help you.", "_t") -- 
-t("#LIGHT_GREEN#*It eats it all and looks happy. After a while it strolls away. Somehow you feel you have not seen the last of it.*#WHITE#", "#LIGHT_GREEN#*It eats it all and looks happy. After a while it strolls away. Somehow you feel you have not seen the last of it.*#WHITE#", "_t") -- 
-t("#LIGHT_GREEN#[Leave]", "#LIGHT_GREEN#[Leave]", "_t") -- 
+t("Hey maybe you would like some of this delicious lookin troll intestines? #LIGHT_GREEN#[Feed him the intestines]#WHITE#", "Tu aimerais peut-être un peu de ces délicieux intestins de trolls? #LIGHT_GREEN#[Lui donner les intestins]#WHITE#", "_t") -- 
+t("Sorry little fellow, I can't help you.", "Désolé petite boule de poils, je ne peux pas t'aider.", "_t") -- 
+t("#LIGHT_GREEN#*It eats it all and looks happy. After a while it strolls away. Somehow you feel you have not seen the last of it.*#WHITE#", "#LIGHT_GREEN#*Il mange tout et a l'air heureux. Au bout d'un moment, il s'éloigne. D'une certaine manière, on a l'impression de ne pas l'avoir vu*#WHITE#", "_t") -- 
+t("#LIGHT_GREEN#[Leave]", "#LIGHT_GREEN#[Partir]", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/shadow-crypt-yeek-clone.lua"
+section "game/modules/tome//data/chats/shadow-crypt-yeek-clone.lua" -- Trad et Test par Dirian
 
-t("No time to talk fellow Wayist! ATTACK! FOR THE WAY!", "No time to talk fellow Wayist! ATTACK! FOR THE WAY!", "_t") -- 
-t("[leave]", "[leave]", "_t") -- 
-t("The foolish cultist that created me is no more. What am I to do now...", "The foolish cultist that created me is no more. What am I to do now...", "_t") -- 
-t("You are me, come with me!", "You are me, come with me!", "_t") -- 
-t("You should head back to Irkkk.", "You should head back to Irkkk.", "_t") -- 
-t("I fear that would get confusing very fast. I think I will go back to Irkkk. Farewell my clone!", "I fear that would get confusing very fast. I think I will go back to Irkkk. Farewell my clone!", "_t") -- 
-t("Sure... if you prefer to think about it this way. We are all part of The Way anyway.", "Sure... if you prefer to think about it this way. We are all part of The Way anyway.", "_t") -- 
-t("I think so too, farewell my clone.", "I think so too, farewell my clone.", "_t") -- 
-t("Clone? No you are the clone.", "Clone? No you are the clone.", "_t") -- 
-t("Farewell.", "Farewell.", "_t") -- 
+t("No time to talk fellow Wayist! ATTACK! FOR THE WAY!", "Pas le temps de parler, camarade de la Vvoie! ATTAQUEZ! POUR LA VOIE!", "_t") -- 
+t("[leave]", "[partir]", "_t") -- 
+t("The foolish cultist that created me is no more. What am I to do now...", "Le cultiste fou qui m'a créé n'est plus. Que dois-je faire maintenant...", "_t") -- 
+t("You are me, come with me!", "Tu es moi, viens avec moi!", "_t") -- 
+t("You should head back to Irkkk.", "Vous devriez retourner à Irkkk.", "_t") -- 
+t("I fear that would get confusing very fast. I think I will go back to Irkkk. Farewell my clone!", "Je crains que cela ne devienne très vite confus. Je pense que je vais retourner à Irkkk. Adieu mon clone!", "_t") -- 
+t("Sure... if you prefer to think about it this way. We are all part of The Way anyway.", "Bien sûr... si vous préférez y penser de cette façon. Nous faisons tous partie de le Voie après tout.", "_t") -- 
+t("I think so too, farewell my clone.", "e le pense aussi, adieu mon clone.", "_t") -- 
+t("Clone? No you are the clone.", "Clone? Non, vous êtes le clone.", "_t") -- 
+t("Farewell.", "Adieux.", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-butler.lua"
+section "game/modules/tome//data/chats/shertul-fortress-butler.lua" -- Trad et Test par Dirian
 
 t("*#LIGHT_GREEN#The creature slowly turns to you. You hear its terrible voice directly in your head.#WHITE#*\
-Welcome, master.", "*#LIGHT_GREEN#The creature slowly turns to you. You hear its terrible voice directly in your head.#WHITE#*\
-Welcome, master.", "_t") -- 
-t("What are you, and what is this place?", "What are you, and what is this place?", "_t") -- 
-t("Master? I am not your mas...", "Master? I am not your mas...", "_t") -- 
-t("Why do I understand you? The texts are unreadable to me.", "Why do I understand you? The texts are unreadable to me.", "_t") -- 
-t("What can I do here?", "What can I do here?", "_t") -- 
-t("What else can this place do?", "What else can this place do?", "_t") -- 
-t("Would it be possible to improve my Cloak of Deception so I do not need to wear it to pass as a living being?", "Would it be possible to improve my Cloak of Deception so I do not need to wear it to pass as a living being?", "_t") -- 
-t("You asked me to come, about a farportal?", "You asked me to come, about a farportal?", "_t") -- 
-t("You asked me to come, about the rod of recall?", "You asked me to come, about the rod of recall?", "_t") -- 
-t("Would it be possible for my Transmogrification Chest to automatically extract gems?", "Would it be possible for my Transmogrification Chest to automatically extract gems?", "_t") -- 
-t("Are there any training facilities?", "Are there any training facilities?", "_t") -- 
-t("Can you use your magic to alter the appearance of my gear?", "Can you use your magic to alter the appearance of my gear?", "_t") -- 
-t("I find your appearance unsettling. Any way you can change it?", "I find your appearance unsettling. Any way you can change it?", "_t") -- 
-t("I have come upon a strange thing indeed. #LIGHT_GREEN#[tell him about Melinda]", "I have come upon a strange thing indeed. #LIGHT_GREEN#[tell him about Melinda]", "_t") -- 
-t("[leave]", "[leave]", "_t") -- 
+Welcome, master.", "*#LIGHT_GREEN#La créature se tourne lentement vers vous. Vous entendez sa terrible voix directement dans votre tête.#WHITE#*\
+Bienvenue, maître.", "_t") -- 
+t("What are you, and what is this place?", "Qu'est-ce que vous êtes, et quel est cet endroit ?", "_t") -- 
+t("Master? I am not your mas...", "Maître? Je ne suis pas votre maî...", "_t") -- 
+t("Why do I understand you? The texts are unreadable to me.", "Pourquoi est-ce que je vous comprends? Ces textes sont illisibles pour moi.", "_t") -- 
+t("What can I do here?", "Que puis-je faire ici?", "_t") -- 
+t("What else can this place do?", "Que peut faire de plus cet endroit?", "_t") -- 
+t("Would it be possible to improve my Cloak of Deception so I do not need to wear it to pass as a living being?", "Serait-il possible d'améliorer ma cape de supercherie afin que je n'aie pas besoin de la porter pour passer pour un être vivant?", "_t") -- 
+t("You asked me to come, about a farportal?", "Vous m'avez demandé de venir, à propos d'un portail lointain?", "_t") -- 
+t("You asked me to come, about the rod of recall?", "Vous m'avez demandé de venir, à propos du bâton de rappel?", "_t") -- 
+t("Would it be possible for my Transmogrification Chest to automatically extract gems?", "Serait-il possible pour mon coffre de transmogrification d'extraire automatiquement les pierres précieuses?", "_t") -- 
+t("Are there any training facilities?", "Y a-t-il une salle d'entrainement?", "_t") -- 
+t("Can you use your magic to alter the appearance of my gear?", "Pouvez-vous utiliser votre magie pour modifier l'apparence de mon équipement?", "_t") -- 
+t("I find your appearance unsettling. Any way you can change it?", "Je trouve votre apparence dérangeante. Pouvez-vous la changer?", "_t") -- 
+t("I have come upon a strange thing indeed. #LIGHT_GREEN#[tell him about Melinda]", "Je suis en effet tombé sur une chose étrange. #LIGHT_GREEN#[lui parler de Melinda]", "_t") -- 
+t("[leave]", "[partir]", "_t") -- 
 t("*#LIGHT_GREEN#The creature glares at you.#WHITE#*\
-You possess a control rod. You are the master.", "*#LIGHT_GREEN#The creature glares at you.#WHITE#*\
-You possess a control rod. You are the master.", "_t") -- 
+You possess a control rod. You are the master.", "*#LIGHT_GREEN#La créature vous dévisage.#WHITE#*\
+Vous possédez le bâton de contrôle. Vous êtes le maître.", "_t") -- 
 t("*#LIGHT_GREEN#The creature glares at you.#WHITE#*\
-You are the master; you have the rod. I am created to speak to the master.", "*#LIGHT_GREEN#The creature glares at you.#WHITE#*\
-You are the master; you have the rod. I am created to speak to the master.", "_t") -- 
+You are the master; you have the rod. I am created to speak to the master.", "*#LIGHT_GREEN#La créature vous dévisage.#WHITE#*\
+Vous êtes le maître, vous avez le bâton. J'ai été créé pour parler au maître.", "_t") -- 
 t("Err... ok.", "Err... ok.", "_t") -- 
 t("*#LIGHT_GREEN#The creature glares at you with intensity. You 'see' images in your head.\
 You see titanic wars in an age now forgotten. You see armies of what you suppose are Sher'Tuls since they look like the shadow.\
@@ -5849,83 +5849,83 @@ Then you see darkness; it seems like the shadow does not know what followed thos
 \
 You shake your head as the vision dissipates, and your normal sight comes back slowly.\
 #WHITE#*\
-", "*#LIGHT_GREEN#The creature glares at you with intensity. You 'see' images in your head.\
-You see titanic wars in an age now forgotten. You see armies of what you suppose are Sher'Tuls since they look like the shadow.\
-They fight with weapons, magic and other things. They fight gods. They hunt them down, killing or banishing them.\
-You see great fortresses like this one, flying all over the skies of Eyal - shining bastions of power glittering in the young sun.\
-You see the gods beaten, defeated and dead. All but one.\
-Then you see darkness; it seems like the shadow does not know what followed those events.\
+", "*#LIGHT_GREEN#La créature vous regarde avec intensité. Vous 'voyez' des images dans votre tête.\
+Vous voyez des guerres titanesques d'une époque maintenant oubliée. Vous voyez les armées de ce que vous supposez être des Sher'Tuls puisqu'elles ressemblent à des ombres.\
+Ils se battent avec des armes, de la magie et d'autres choses. Ils combattent des dieux. Ils les traquent, les tuent ou les bannissent.\
+Vous voyez de grandes forteresses comme celle-ci, qui volent dans le ciel d'Eyal - des bastions de pouvoir étincelants qui scintillent dans le jeune soleil.\
+Vous voyez les dieux battus, vaincus et morts. Tous, sauf un.\
+Puis vous voyez les ténèbres; il semble que l'ombre ne sache pas ce qui a suivi ces événements.\
 \
-You shake your head as the vision dissipates, and your normal sight comes back slowly.\
+Vous secouez la tête alors que la vision se dissipe, et votre vue normale revient lentement.\
 #WHITE#*\
 ", "_t") -- 
-t("Those are Sher'Tuls? They fought the gods?!", "Those are Sher'Tuls? They fought the gods?!", "_t") -- 
-t("They had to. They forged terrible weapons of war. They won.", "They had to. They forged terrible weapons of war. They won.", "_t") -- 
-t("But then where are they now if they won?", "But then where are they now if they won?", "_t") -- 
-t("They are gone now. I cannot tell you more.", "They are gone now. I cannot tell you more.", "_t") -- 
-t("But I am the master!", "But I am the master!", "_t") -- 
-t("Fine.", "Fine.", "_t") -- 
+t("Those are Sher'Tuls? They fought the gods?!", "Ce sont des Sher'Tuls? Ils ont combattu les dieux?!", "_t") -- 
+t("They had to. They forged terrible weapons of war. They won.", "Ils le devaient. Ils ont forgé des armes de guerre terribles. Ils ont gagné.", "_t") -- 
+t("But then where are they now if they won?", "Mais alors, où sont-ils maintenant s'ils ont gagné?", "_t") -- 
+t("They are gone now. I cannot tell you more.", "Ils sont partis maintenant. Je ne peux pas vous en dire plus.", "_t") -- 
+t("But I am the master!", "Mais je suis le maître!", "_t") -- 
+t("Fine.", "Bien.", "_t") -- 
 t("*#LIGHT_GREEN#The creature glares at you.#WHITE#*\
 You are the master. You can use this place as you desire. However, most of the energies are depleted and only some rooms are usable.\
-To the south you will find the storage room.", "*#LIGHT_GREEN#The creature glares at you.#WHITE#*\
-You are the master. You can use this place as you desire. However, most of the energies are depleted and only some rooms are usable.\
-To the south you will find the storage room.", "_t") -- 
+To the south you will find the storage room.", "*#LIGHT_GREEN#La créature vous dévisage.#WHITE#*\
+Vous êtes le maître. Vous pouvez utiliser ce lieu comme vous le souhaitez. Toutefois, la quasi-totalité de l'énergie est épuisée et seules quelques pièces sont utilisables.\
+Au sud, vous trouverez la salle de stockage.", "_t") -- 
 t("This Fortress is designed as a mobile base for the Godslayers - it can fly.\
 It is also equiped with various facilities: exploratory farportal, emergency containment field, remote storage, ...\
 However, the Fortress is badly damaged and has lain dormant for too long. Its energies are nearly depleted.\
 Take this Transmogrification Chest. It is linked by a permanent farportal to the Fortress. Any item you put inside will be sent to the power core and dismantled for energy.\
-There are, however, unwanted byproducts to this operation: the generation of a metal known as gold. It is of no use to the Fortress and thus will be sent back to you.", "This Fortress is designed as a mobile base for the Godslayers - it can fly.\
-It is also equiped with various facilities: exploratory farportal, emergency containment field, remote storage, ...\
-However, the Fortress is badly damaged and has lain dormant for too long. Its energies are nearly depleted.\
-Take this Transmogrification Chest. It is linked by a permanent farportal to the Fortress. Any item you put inside will be sent to the power core and dismantled for energy.\
-There are, however, unwanted byproducts to this operation: the generation of a metal known as gold. It is of no use to the Fortress and thus will be sent back to you.", "_t") -- 
-t("I will, thanks.", "I will, thanks.", "_t") -- 
-t("I have already found such a chest in my travel. Will it work?", "I have already found such a chest in my travel. Will it work?", "_t") -- 
+There are, however, unwanted byproducts to this operation: the generation of a metal known as gold. It is of no use to the Fortress and thus will be sent back to you.", "Cette forteresse est conçue comme une base mobile pour les tueurs de dieux - elle peut voler.\
+Elle est également équipée de diverses installations: portail d'exploration, champ de confinement d'urgence, stockage distant, ...\
+Cependant, la Forteresse est très endommagée et est restée trop longtemps en sommeil. Son énergie est presque épuisé.\
+Prenez ce Coffre de Transmogrification. Il est relié à la Forteresse par un portail permanent. Tout objet que vous y placerez sera envoyé au générateur principal et démantelé pour obtenir de l'énergie.\
+Cependant, cette opération a un sous-produit indésirable: la génération d'un métal connu sous le nom d'or. Il n'est d'aucune utilité pour la Forteresse et vous sera donc renvoyé.", "_t") -- 
+t("I will, thanks.", "Je le ferai, merci.", "_t") -- 
+t("I have already found such a chest in my travel. Will it work?", "J'ai déjà trouvé un tel coffre lors de mon voyage. Est-ce que ça va marcher ?", "_t") -- 
 t("Yes, it will. I will attune it to this fortress.\
-Done.", "Yes, it will. I will attune it to this fortress.\
-Done.", "_t") -- 
-t("Thanks.", "Thanks.", "_t") -- 
+Done.", "Oui, il le fera. Je vais l'adapter à cette forteresse.\
+C'est fait.", "_t") -- 
+t("Thanks.", "Merci.", "_t") -- 
 t("Long ago the Sher'tuls used farportals not only for transportation to known locations, but also to explore new parts of the world, or even other worlds.\
 This Fortress is equipped with an exploratory farportal, and now has enough energy to allow one teleportation. Each teleportation will take you to a random part of the universe and use 45 energy.\
 Beware that the return portal may not be nearby your arrival point; you will need to find it. You can use the rod of recall to try to force an emergency recall, but it has high chances of breaking the exploratory farportal forever.\
-You may use the farportal; however, beware - I sense a strange presence in the farportal room.", "Long ago the Sher'tuls used farportals not only for transportation to known locations, but also to explore new parts of the world, or even other worlds.\
-This Fortress is equipped with an exploratory farportal, and now has enough energy to allow one teleportation. Each teleportation will take you to a random part of the universe and use 45 energy.\
-Beware that the return portal may not be nearby your arrival point; you will need to find it. You can use the rod of recall to try to force an emergency recall, but it has high chances of breaking the exploratory farportal forever.\
-You may use the farportal; however, beware - I sense a strange presence in the farportal room.", "_t") -- 
-t("I will check it out, thanks.", "I will check it out, thanks.", "_t") -- 
+You may use the farportal; however, beware - I sense a strange presence in the farportal room.", "Il y a longtemps, les Sher'tuls utilisaient les portails lointain non seulement pour se rendre dans des lieux connus, mais aussi pour explorer de nouvelles parties du monde, voire d'autres mondes.\
+Cette Forteresse est équipée d'un portail d'exploration, et dispose maintenant de suffisamment d'énergie pour permettre une téléportation. Chaque téléportation vous emmènera dans une partie aléatoire de l'univers et utilisera 45 énergies.\
+Attention, le portail de retour peut ne pas être à proximité de votre point d'arrivée ; vous devrez le trouver. Vous pouvez utiliser le bâton de rappel pour tenter de forcer un rappel d'urgence, mais elle a de fortes chances de briser à jamais le portail d'exploration.\
+Vous pouvez utiliser le portail d'exploration; cependant, prenez garde - je sens une présence étrange dans la salle du portail.", "_t") -- 
+t("I will check it out, thanks.", "Je vais aller vérifier, merci.", "_t") -- 
 t("The rod of recall you possess is not a Sher'tul artifact, but it is based on Sher'tul design.\
-The Fortress now has enough energy to upgrade it. It can be changed to recall you to the Fortress.", "The rod of recall you possess is not a Sher'tul artifact, but it is based on Sher'tul design.\
-The Fortress now has enough energy to upgrade it. It can be changed to recall you to the Fortress.", "_t") -- 
-t("I like it the way it is now. Thanks anyway.", "I like it the way it is now. Thanks anyway.", "_t") -- 
+The Fortress now has enough energy to upgrade it. It can be changed to recall you to the Fortress.", "Le bâton de rappel que vous possédez n'est pas un artefact Sher'tul, mais il est basé sur une conception Sher'tul.\
+La Forteresse a maintenant assez d'énergie pour l'améliorer. Il peut être modifié pour vous rappeler à la Forteresse.", "_t") -- 
+t("I like it the way it is now. Thanks anyway.", "Je l'aime comme il est actuellement. Merci quand même.", "_t") -- 
 t("Yes master, a training facility is available to the north, but it is not yet powered on.\
-I will need to use 50 energy to do this.", "Yes master, a training facility is available to the north, but it is not yet powered on.\
-I will need to use 50 energy to do this.", "_t") -- 
+I will need to use 50 energy to do this.", "Oui maître, une salle d'entrainement est disponible au nord, mais n'est pas encore sous tension.\
+Je devrai utiliser 50 énergies pour le faire.", "_t") -- 
 t("Yes master, the Mirror of Reflections is what you need. It is currently dormant but could be re-activated.\
-I will need to use 10 energy to do this.", "Yes master, the Mirror of Reflections is what you need. It is currently dormant but could be re-activated.\
-I will need to use 10 energy to do this.", "_t") -- 
+I will need to use 10 energy to do this.", "Oui maître, le Miroir Réfléchissant est ce dont vous avez besoin. Il est actuellement en sommeil mais pourrait être réactivé.\
+Pour ce faire, je devrai utiliser 10 énergies.", "_t") -- 
 t("\
 #{italic}##CRIMSON#This feature is purely cosmetic is available only to donators/buyers. You can unlock the room and use the preview but you will not be able to validate your choices.#{normal}#", "\
-#{italic}##CRIMSON#This feature is purely cosmetic is available only to donators/buyers. You can unlock the room and use the preview but you will not be able to validate your choices.#{normal}#", "_t") -- 
-t("Maybe later.", "Maybe later.", "_t") -- 
-t("That could be quite nice. Yes, please do it.", "That could be quite nice. Yes, please do it.", "_t") -- 
+#{italic}##CRIMSON#Cette fonction est purement cosmétique et n'est disponible que pour les donateurs/acheteurs. Vous pouvez déverrouiller la salle et utiliser l'aperçu, mais vous ne pourrez pas valider vos choix.#{normal}#", "_t") -- 
+t("Maybe later.", "Peut-être plus tard.", "_t") -- 
+t("That could be quite nice. Yes, please do it.", "Cela pourrait être sympathique. Oui, s'il vous plaît, faites-le.", "_t") -- 
 t("Ah yes, you seem to master the simple art of alchemy. I can change the chest to automatically use your power to extract a gem if the transmogrification of the gem would reward more energy.\
-However, I will need to use 25 energy to do this.", "Ah yes, you seem to master the simple art of alchemy. I can change the chest to automatically use your power to extract a gem if the transmogrification of the gem would reward more energy.\
-However, I will need to use 25 energy to do this.", "_t") -- 
-t("Maybe sometime later.", "Maybe sometime later.", "_t") -- 
-t("I can alter the Fortress holographic projection matrix to accomodate your racial tastes. This will require 60 energy, however.", "I can alter the Fortress holographic projection matrix to accomodate your racial tastes. This will require 60 energy, however.", "_t") -- 
-t("Can you try for a human female appearance please?", "Can you try for a human female appearance please?", "_t") -- 
-t("Can you try for a human male appearance please?", "Can you try for a human male appearance please?", "_t") -- 
-t("Please revert to your default appearance.", "Please revert to your default appearance.", "_t") -- 
-t("Well, you do not look so bad actually. Let it be for now.", "Well, you do not look so bad actually. Let it be for now.", "_t") -- 
+However, I will need to use 25 energy to do this.", "Ah oui, vous semblez maîtriser l'art simple de l'alchimie. Je peux changer le coffre pour utiliser automatiquement votre pouvoir d'extraire une gemme si la transmogrification de la gemme récompenserait plus d'énergie.\
+Cependant, je devrai utiliser 25 énergies pour ce faire.", "_t") -- 
+t("Maybe sometime later.", "Peut-être un peu plus tard.", "_t") -- 
+t("I can alter the Fortress holographic projection matrix to accomodate your racial tastes. This will require 60 energy, however.", "Je peux modifier la matrice de projection holographique de la Forteresse pour l'adapter à vos goûts raciaux. Cela nécessitera cependant 60 énergies.", "_t") -- 
+t("Can you try for a human female appearance please?", "Pouvez-vous essayer d'avoir une apparence humaine féminine s'il vous plaît ?", "_t") -- 
+t("Can you try for a human male appearance please?", "Pouvez-vous essayer d'avoir une apparence humaine masculine, s'il vous plaît ?", "_t") -- 
+t("Please revert to your default appearance.", "Veuillez revenir à votre apparence par défaut.", "_t") -- 
+t("Well, you do not look so bad actually. Let it be for now.", "En fait, vous n'avez pas l'air si mal actuellement. Restez comme cela pour l'instant.", "_t") -- 
 t("Yes Master. I can use 10 energy to infuse your cloak. When you take it off the effect should still persist.\
-However, I suggest you still carry it with you in case something manages to remove it from you.", "Yes Master. I can use 10 energy to infuse your cloak. When you take it off the effect should still persist.\
-However, I suggest you still carry it with you in case something manages to remove it from you.", "_t") -- 
-t("Not now.", "Not now.", "_t") -- 
-t("That could be quite useful. Yes, please do it.", "That could be quite useful. Yes, please do it.", "_t") -- 
+However, I suggest you still carry it with you in case something manages to remove it from you.", "Oui, Maître. Je peux utiliser 10 énergies pour infuser votre cape. Quand vous l'enlèverez, l'effet devrait encore persister.\
+Cependant, je vous suggère de l'emporter avec vous au cas où quelque chose parviendrait à vous l'enlever.", "_t") -- 
+t("Not now.", "Pas maintenant.", "_t") -- 
+t("That could be quite useful. Yes, please do it.", "Cela pourrait être très utile. Oui, faites-le, s'il vous plaît.", "_t") -- 
 t("Demonic taint. Yes I have a way to help in the archives. However this is a long process, the subject will need to live here for a while.\
-She will have to spend 8 hours per day in the regeneration tank.", "Demonic taint. Yes I have a way to help in the archives. However this is a long process, the subject will need to live here for a while.\
-She will have to spend 8 hours per day in the regeneration tank.", "_t") -- 
-t("This is great news! I will tell her at once.", "This is great news! I will tell her at once.", "_t") -- 
+She will have to spend 8 hours per day in the regeneration tank.", "Une souillure démoniaque. Oui, j'ai un moyen d'aider grâce aux archives. Cependant, c'est un long processus, le sujet devra vivre ici pendant un certain temps.\
+Elle devra passer 8 heures par jour dans la cuve de régénération.", "_t") -- 
+t("This is great news! I will tell her at once.", "C'est une excellente nouvelle ! Je vais lui dire tout de suite.", "_t") -- 
 
 
 ------------------------------------------------
