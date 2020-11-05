@@ -5582,104 +5582,104 @@ t("The herald gives you %s.", "Le héraut vous donne %s.", "logPlayer") --
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/myssil.lua"
+section "game/modules/tome//data/chats/myssil.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*A Halfling woman stands before you, clad in dark steel plate.*#WHITE#\
-Take the test, and then we can talk.", "#LIGHT_GREEN#*A Halfling woman stands before you, clad in dark steel plate.*#WHITE#\
-Take the test, and then we can talk.", "_t") -- 
-t("But...", "But...", "_t") -- 
+Take the test, and then we can talk.", "#LIGHT_GREEN#*Une femme Halfelin se tient devant vous, vêtue de tôle d'acier sombre.*#WHITE#\
+Faites le test, et ensuite nous pourrons parler.", "_t") -- 
+t("But...", "Mais...", "_t") -- 
 t("#LIGHT_GREEN#*A Halfling woman stands before you, clad in dark steel plate.*#WHITE#\
-I am Protector Myssil. Welcome to Zigur.", "#LIGHT_GREEN#*A Halfling woman stands before you, clad in dark steel plate.*#WHITE#\
-I am Protector Myssil. Welcome to Zigur.", "_t") -- 
-t("I require all the help I can get, not for my sake but for the town of Derth, to the northwest of here.", "I require all the help I can get, not for my sake but for the town of Derth, to the northwest of here.", "_t") -- 
-t("Protector, I have dispatched the Tempest as you commanded.", "Protector, I have dispatched the Tempest as you commanded.", "_t") -- 
-t("Farewell, Protector.", "Farewell, Protector.", "_t") -- 
+I am Protector Myssil. Welcome to Zigur.", "#LIGHT_GREEN#*Une femme Halfelin se tient devant vous, vêtue de tôle d'acier sombre.*#WHITE#\
+Je suis la protectrice Myssil. Bienvenue à Zigur.", "_t") -- 
+t("I require all the help I can get, not for my sake but for the town of Derth, to the northwest of here.", "J'ai besoin de toute l'aide que je peux obtenir, non pas pour moi mais pour la ville de Derth, au nord-ouest d'ici.", "_t") -- 
+t("Protector, I have dispatched the Tempest as you commanded.", "Protectrice, j'ai dispersé la Tempête comme vous l'avez ordonné.", "_t") -- 
+t("Farewell, Protector.", "Adieux Protectrice.", "_t") -- 
 t("Yes, we have sensed the blight of the eldritch forces there. I have people working to dispel the cloud, but the real threat is not there.\
 We know that a Tempest, a powerful Archmage who can control the storms, is responsible for the damage. Those wretched fools from Angolwen will not act. All corrupted!\
 So you must act, @playername@. I will show you the location of this mage - high in the Daikara mountains.\
-Erase him.", "Yes, we have sensed the blight of the eldritch forces there. I have people working to dispel the cloud, but the real threat is not there.\
-We know that a Tempest, a powerful Archmage who can control the storms, is responsible for the damage. Those wretched fools from Angolwen will not act. All corrupted!\
-So you must act, @playername@. I will show you the location of this mage - high in the Daikara mountains.\
-Erase him.", "_t") -- 
-t("You can count on me, Protector.", "You can count on me, Protector.", "_t") -- 
+Erase him.", "Oui, nous y avons senti le fléau des forces eldritch. J'ai des gens qui travaillent pour dissiper le nuage, mais la vraie menace n'est pas là.\
+Nous savons qu'un Tempêteur, un puissant Archimage qui peut contrôler les orages, est responsable des dégâts. Ces misérables fous d'Angolwen n'agiront pas. Ils sont tous corrompus!\
+Alors vous devez agir, @playername@. Je vais vous montrer l'emplacement de ce mage - en haut des montagnes de Daikara.\
+Supprimez-le.", "_t") -- 
+t("You can count on me, Protector.", "Vous pouvez compter sur moi, Protectrice.", "_t") -- 
 t("So I have heard, @playername@. You prove worthy of your training. Go with the blessing of nature, @playername@ of Zigur.\
 #LIGHT_GREEN#*She touches your skin. You can feel nature infusing your very being.*#WHITE#\
-This shall help you on your travels. Farewell!", "So I have heard, @playername@. You prove worthy of your training. Go with the blessing of nature, @playername@ of Zigur.\
-#LIGHT_GREEN#*She touches your skin. You can feel nature infusing your very being.*#WHITE#\
-This shall help you on your travels. Farewell!", "_t") -- 
-t("Thank you, Protector.", "Thank you, Protector.", "_t") -- 
-t("#00FF00#You gain the fungus talents school and your Mana Clash is enhanced.", "#00FF00#You gain the fungus talents school and your Mana Clash is enhanced.", "logPlayer") -- 
+This shall help you on your travels. Farewell!", "J'ai entendu parler de vous, @playername@. Vous vous montrez digne de votre formation. Allez avec la bénédiction de la nature, @playername@ de Zigur.\
+#LIGHT_GREEN#Elle touche votre peau. Vous pouvez sentir la nature s'imprégner de votre être.*#WHITE#\
+Cela vous aidera dans vos voyages. Adieu!", "_t") -- 
+t("Thank you, Protector.", "Merci, Protectrice.", "_t") -- 
+t("#00FF00#You gain the fungus talents school and your Mana Clash is enhanced.", "#00FF00#Vous gagnez l'école de talents 'Champignons' et votre 'Choc de Mana' est amélioré.", "logPlayer") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/norgan-saved.lua"
+section "game/modules/tome//data/chats/norgan-saved.lua" -- Trad et Test par Dirian
 
 t("Thank you, @playername@! We both survived for the wealth of the Empire. I will bring them the news and then rest.\
 I do not think I want to see death so closely for some time now.\
-Farewell.", "Thank you, @playername@! We both survived for the wealth of the Empire. I will bring them the news and then rest.\
-I do not think I want to see death so closely for some time now.\
-Farewell.", "_t") -- 
-t("For the Empire! Take care.", "For the Empire! Take care.", "_t") -- 
+Farewell.", "Merci @playername@! Nous avons tous deux survécu pour la propérité de l'Empire. Je leur apporterai les nouvelles et ensuite je me reposerai.\
+Je ne pense pas vouloir voir la mort d'aussi près pour un certain temps.\
+Adieu.", "_t") -- 
+t("For the Empire! Take care.", "Pour l'Empire! Prenez soin de vous.", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/orc-breeding-pits.lua"
+section "game/modules/tome//data/chats/orc-breeding-pits.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*A ray of light illuminates the gleam of steal amidst the grass. Investigating, you find a lone sun paladin lying stricken on the ground. Her wounds are minor, but her pallid features bely a poison that is taking its final toll. She whispers to you.*#WHITE#\
 Help, Help me.\
-", "#LIGHT_GREEN#*A ray of light illuminates the gleam of steal amidst the grass. Investigating, you find a lone sun paladin lying stricken on the ground. Her wounds are minor, but her pallid features bely a poison that is taking its final toll. She whispers to you.*#WHITE#\
-Help, Help me.\
+", "#LIGHT_GREEN#*Un rayon de lumière illumine la lueur de l'acier au milieu de l'herbe. En enquêtant, vous trouvez une paladin du soleil solitaire gisant sur le sol. Ses blessures sont insignifiantes, mais ses traits pâles laissent présager un poison qui fait des ravages. Elle vous chuchote.*#WHITE#\
+Au secours, aidez-moi.\
 ", "_t") -- 
-t("What should I do?", "What should I do?", "_t") -- 
+t("What should I do?", "Que dois-je faire ?", "_t") -- 
 t("I found it... the abomination Aeryn sent me to seek out. The breeding pits of the orcs... It is more vile than you can imagine... They have it hidden away from their encampments, out of sight of all their people. Their mothers, their young, all there - all vulnerable!\
 #LIGHT_GREEN#*She pulls out a sketched map, and with some effort puts it in your palm.*#WHITE#\
 \
 This could be the final solution, the end to the war... forever. We must strike soon, before reinforcements...\
 \
-#LIGHT_GREEN#*She looks hard at you, exerting all her effort into a final pleading stare.*#WHITE#", "I found it... the abomination Aeryn sent me to seek out. The breeding pits of the orcs... It is more vile than you can imagine... They have it hidden away from their encampments, out of sight of all their people. Their mothers, their young, all there - all vulnerable!\
-#LIGHT_GREEN#*She pulls out a sketched map, and with some effort puts it in your palm.*#WHITE#\
+#LIGHT_GREEN#*She looks hard at you, exerting all her effort into a final pleading stare.*#WHITE#", "Je l'ai trouvé... l'abomination qu'Aeryn m'a envoyé chercher. Les fosses de reproduction orcs... C'est plus vil que vous ne pourriez l'imaginer... Ils l'ont cachée loin de leurs campements, hors de vue de tout leur peuple. Leurs mères, leurs jeunes, tous là - tous vulnérables !\
+#LIGHT_GREEN#*Elle sort une carte sommaire et, avec un peu d'effort, la met dans votre paume.*#WHITE#\
 \
-This could be the final solution, the end to the war... forever. We must strike soon, before reinforcements...\
+Ce pourrait être la solution finale, la fin de la guerre... pour toujours. Nous devons frapper bientôt, avant que les renforts...\
 \
-#LIGHT_GREEN#*She looks hard at you, exerting all her effort into a final pleading stare.*#WHITE#", "_t") -- 
-t("I cannot do this myself... I will tell Aeryn about it, it is in her hands.", "I cannot do this myself... I will tell Aeryn about it, it is in her hands.", "_t") -- 
-t("I will go myself and ensure this is thoroughly dealt with.", "I will go myself and ensure this is thoroughly dealt with.", "_t") -- 
-t("You want me to kill mothers and children? This is barbaric, I'll have nothing to do with it!", "You want me to kill mothers and children? This is barbaric, I'll have nothing to do with it!", "_t") -- 
+#LIGHT_GREEN#*Elle vous regarde fixement, déployant tous ses efforts dans un dernier regard suppliant.*#WHITE#", "_t") -- 
+t("I cannot do this myself... I will tell Aeryn about it, it is in her hands.", "Je ne peux pas le faire moi-même... Je vais en parler à Aeryn, c'est de sa responsabilité.", "_t") -- 
+t("I will go myself and ensure this is thoroughly dealt with.", "J'irai moi-même et je veillerai à ce que cette question soit traitée de manière adéquate.", "_t") -- 
+t("You want me to kill mothers and children? This is barbaric, I'll have nothing to do with it!", "Vous voulez que je tue des mères et des enfants? C'est de la barbarie, cela ne me concerne pas!", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/paradoxology.lua"
+section "game/modules/tome//data/chats/paradoxology.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*Before you stands... you. You seem to be slightly older, and by the look of it you have been through hell.*#WHITE#\
 NO! YOU CAN'T! NO GOING THERE! YOU... I... YOU MUST NOT GO THERE!\
 THIS CANNOT BE AVOIDED! I MUST STOP IT! PLEASE DON'T!\
 I MUST KILL MYSELF TO PROTECT MYSELF!\
 #LIGHT_GREEN#*Before you can react, you... I... yourself vanishes into a rift hanging in midair.*#WHITE#\
-", "#LIGHT_GREEN#*Before you stands... you. You seem to be slightly older, and by the look of it you have been through hell.*#WHITE#\
-NO! YOU CAN'T! NO GOING THERE! YOU... I... YOU MUST NOT GO THERE!\
-THIS CANNOT BE AVOIDED! I MUST STOP IT! PLEASE DON'T!\
-I MUST KILL MYSELF TO PROTECT MYSELF!\
-#LIGHT_GREEN#*Before you can react, you... I... yourself vanishes into a rift hanging in midair.*#WHITE#\
+", "#LIGHT_GREEN#*Devant vous... vous. Vous semblez être un peu plus âgé, et à première vue, vous avez vécu l'enfer.*#WHITE#\
+NON ! VOUS NE POUVEZ PAS ! PAS Y ALLER ! VOUS... I... VOUS NE DEVEZ PAS Y ALLER !\
+ON NE PEUT PAS L'ÉVITER ! JE DOIS L'ARRÊTER ! S'IL VOUS PLAÎT, NE LE FAITES PAS !\
+JE DOIS ME TUER POUR ME PROTÉGER !\
+#LIGHT_GREEN#*Avant de pouvoir réagir, vous... je... vous-même disparaîssez dans une brèche suspendue en l'air.*#WHITE#\
 ", "_t") -- 
-t("What the...", "What the...", "_t") -- 
+t("What the...", "Qu'est-ce que...", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/player-inscription.lua"
+section "game/modules/tome//data/chats/player-inscription.lua" -- Trad et Test par Dirian
 
 t("#GOLD#%s#LAST#\
 %s", "#GOLD#%s#LAST#\
 %s", "tformat") -- 
-t("Buy a new slot with one #{bold}#talent category point#{normal}#.", "Buy a new slot with one #{bold}#talent category point#{normal}#.", "_t") -- 
-t("Cancel", "Cancel", "_t") -- 
-t("You have too many of this type of inscription. You can only override an existing one. The old inscription will be lost.", "You have too many of this type of inscription. You can only override an existing one. The old inscription will be lost.", "_t") -- 
+t("Buy a new slot with one #{bold}#talent category point#{normal}#.", "Achetez un nouvel emplacement avec #{bold}#point de catégorie de talent#{normal}#..", "_t") -- 
+t("Cancel", "Annuler", "_t") -- 
+t("You have too many of this type of inscription. You can only override an existing one. The old inscription will be lost.", "Vous avez trop de ce type d'inscription. Vous ne pouvez que l'appliquer sur une inscription existante. L'ancienne inscription sera perdue.", "_t") -- 
 t("You have reached your maximum number of inscriptions (infusions/runes).\
 If you have unassigned #{bold}#talent category points#{normal}# you can use one to create a new slot (up to 5).\
 You can replace an existing one or cancel.\
-The old inscription will be lost.", "You have reached your maximum number of inscriptions (infusions/runes).\
-If you have unassigned #{bold}#talent category points#{normal}# you can use one to create a new slot (up to 5).\
-You can replace an existing one or cancel.\
-The old inscription will be lost.", "_t") -- 
+The old inscription will be lost.", "Vous avez atteint votre nombre maximum d'inscriptions (infusions/runes).\
+Si vous avez des points de #{bold}#catégorie de talent#{normal}# non assignés, vous pouvez en utiliser un pour créer un nouvel emplacement (jusqu'à 5).\
+Vous pouvez en remplacer un existant ou l'annuler.\
+L'ancienne inscription sera perdue.", "_t") -- 
 
 
 ------------------------------------------------
