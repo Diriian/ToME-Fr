@@ -5849,7 +5849,7 @@ Then you see darkness; it seems like the shadow does not know what followed thos
 \
 You shake your head as the vision dissipates, and your normal sight comes back slowly.\
 #WHITE#*\
-", "*#LIGHT_GREEN#La créature vous regarde avec intensité. Vous 'voyez' des images dans votre tête.\
+", "*#LIGHT_GREEN#La créature vous regarde avec intensité. Vous \"voyez\" des images dans votre tête.\
 Vous voyez des guerres titanesques d'une époque maintenant oubliée. Vous voyez les armées de ce que vous supposez être des Sher'Tuls puisqu'elles ressemblent à des ombres.\
 Ils se battent avec des armes, de la magie et d'autres choses. Ils combattent des dieux. Ils les traquent, les tuent ou les bannissent.\
 Vous voyez de grandes forteresses comme celle-ci, qui volent dans le ciel d'Eyal - des bastions de pouvoir étincelants qui scintillent dans le jeune soleil.\
@@ -6017,53 +6017,53 @@ t("[Leave the orb alone]", "[Laisser l'orbe tranquille]", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/slasul.lua"
+section "game/modules/tome//data/chats/slasul.lua" -- Trad et Test par Dirian
 
 t("What is this? Why have you entered my temple and slain my followers?\
-Speak or die, for I am Slasul and you shall not disrupt my plans.", "What is this? Why have you entered my temple and slain my followers?\
-Speak or die, for I am Slasul and you shall not disrupt my plans.", "_t") -- 
-t("I was sent by Ukllmswwik to stop your mad schemes to control all underwater life!", "I was sent by Ukllmswwik to stop your mad schemes to control all underwater life!", "_t") -- 
+Speak or die, for I am Slasul and you shall not disrupt my plans.", "Qu'est-ce que cela signifie? Pourquoi êtes-vous entré dans mon temple et avez-vous tué mes fidèles?\
+Parlez ou mourez, car je suis Slasul et vous ne perturberez pas mes plans.", "_t") -- 
+t("I was sent by Ukllmswwik to stop your mad schemes to control all underwater life!", "J'ai été envoyé par Ukllmswwik pour mettre fin à vos plans insensés visant à contrôler toute la vie sous-marine!", "_t") -- 
 t("I see. So the dragon sent you. He told you I am insane, I assume?\
 But which of us is truly evil? Myself, working to better my people, doing no harm to anyone, or you, who comes here to kill me, destroying my friends and planning to do the same to me?\
-Who is the insane one?", "I see. So the dragon sent you. He told you I am insane, I assume?\
-But which of us is truly evil? Myself, working to better my people, doing no harm to anyone, or you, who comes here to kill me, destroying my friends and planning to do the same to me?\
-Who is the insane one?", "_t") -- 
-t("If you refuse to see reason, you leave me no choice!", "If you refuse to see reason, you leave me no choice!", "_t") -- 
-t("Your feeble attempt to sway me from the side of good will not work. Pay for you sins!", "Your feeble attempt to sway me from the side of good will not work. Pay for you sins!", "_t") -- 
-t("Your words are... disturbing. Why should I spare you?", "Your words are... disturbing. Why should I spare you?", "_t") -- 
+Who is the insane one?", "Je vois. Le dragon vous a donc envoyé. Il vous a dit que je suis fou, je suppose?\
+Mais lequel d'entre nous est vraiment mauvais? Moi-même, qui travaille pour le bien mon peuple, qui ne fait de mal à personne, ou vous, qui venez ici pour me tuer, qui détruisez mes amis et qui prévoyez de me faire la même chose?\
+Qui est le fou?", "_t") -- 
+t("If you refuse to see reason, you leave me no choice!", "Si vous refusez de voir la raison, vous ne me laissez pas le choix!", "_t") -- 
+t("Your feeble attempt to sway me from the side of good will not work. Pay for you sins!", "Votre piètre tentative de me faire basculer du côté du bien ne fonctionne pas. Payez pour vos péchés!", "_t") -- 
+t("Your words are... disturbing. Why should I spare you?", "Vos paroles sont... troublantes. Pourquoi devrais-je vous épargner?", "_t") -- 
 t("Spare me?#LIGHT_GREEN#*He laughs.*#WHITE#\
 Do not be so hasty to assume YOU are in a position to offer mercy to ME!\
 Yet I shall tell you my story. You surface dwellers do not know much about nagas, but let me tell you this: our current condition was not our choice.\
 When Nalore sank, many of us died, so we resorted to using the magic of this temple. It worked, it saved us, and yet we are cursed. Cursed in this form by the terrible magic.\
 If you do not believe anything else of what I say, please believe at least this: the Sher'Tul are hiding, not gone, and they are not benevolent entities.\
-Recently, that water dragon that sent you here started sending \"agents\" to secure the temple. I can only imagine his goals, but they are clearly not peaceful.", "Spare me?#LIGHT_GREEN#*He laughs.*#WHITE#\
-Do not be so hasty to assume YOU are in a position to offer mercy to ME!\
-Yet I shall tell you my story. You surface dwellers do not know much about nagas, but let me tell you this: our current condition was not our choice.\
-When Nalore sank, many of us died, so we resorted to using the magic of this temple. It worked, it saved us, and yet we are cursed. Cursed in this form by the terrible magic.\
-If you do not believe anything else of what I say, please believe at least this: the Sher'Tul are hiding, not gone, and they are not benevolent entities.\
-Recently, that water dragon that sent you here started sending \"agents\" to secure the temple. I can only imagine his goals, but they are clearly not peaceful.", "_t") -- 
-t("You do not sound mad to me... could Ukllmswwik have lied?", "You do not sound mad to me... could Ukllmswwik have lied?", "_t") -- 
-t("As you wish. It did not have to come to this...", "As you wish. It did not have to come to this...", "_t") -- 
-t("I will not be deceived by your lies! I will make your pay for your victims!", "I will not be deceived by your lies! I will make your pay for your victims!", "_t") -- 
-t("Use this portal. It will bring you back to his cave; ask him the truth.", "Use this portal. It will bring you back to his cave; ask him the truth.", "_t") -- 
-t("I will make him pay for his treachery.", "I will make him pay for his treachery.", "_t") -- 
-t("Thank you for listening to me.", "Thank you for listening to me.", "_t") -- 
-t("The dragon was lying, I can feel it. I have decided to embrace your cause.", "The dragon was lying, I can feel it. I have decided to embrace your cause.", "_t") -- 
-t("Farewell, Slasul.", "Farewell, Slasul.", "_t") -- 
-t("So be it... Die now!", "So be it... Die now!", "_t") -- 
-t("[attack]", "[attack]", "_t") -- 
+Recently, that water dragon that sent you here started sending \"agents\" to secure the temple. I can only imagine his goals, but they are clearly not peaceful.", "M'épargner?#LIGHT_GREEN#*Il rigole*#WHITE#\
+Ne soyez pas si pressé de supposer que VOUS êtes en mesure de ME faire grâce !\
+Mais je vais vous raconter mon histoire. Vous, les habitants de la surface, ne savez pas grand-chose des nagas, mais laissez-moi vous dire ceci: notre condition actuelle n'est pas le fruit de notre choix.\
+Quand Nalore a coulé, beaucoup d'entre nous sont morts, alors nous avons eu recours à la magie de ce temple. Elle a fonctionné, elle nous a sauvés, et pourtant nous sommes maudits. Maudits sous cette forme par la terrible magie.\
+Si vous ne croyez rien d'autre à ce que je dis, croyez au moins ceci : les Sher'Tul se cachent, ils ne sont pas partis, et ce ne sont pas des entités bienveillantes.\
+Récemment, le dragon d'eau qui vous a envoyé ici a commencé à envoyer des \"agents\" pour sécuriser le temple. Je ne peux qu'imaginer ses objectifs, mais ils ne sont clairement pas pacifiques.", "_t") -- 
+t("You do not sound mad to me... could Ukllmswwik have lied?", "Vous ne me semblez pas fou... Ukllmswwik aurait-il pu mentir?", "_t") -- 
+t("As you wish. It did not have to come to this...", "Comme vous le souhaitez. Il n'était pas nécessaire d'en arriver là...", "_t") -- 
+t("I will not be deceived by your lies! I will make your pay for your victims!", "Je ne me laisserai pas tromper par vos mensonges! Je vous ferai payer pour vos victimes!", "_t") -- 
+t("Use this portal. It will bring you back to his cave; ask him the truth.", "Utilisez ce portail. Il vous ramènera dans sa grotte; demandez-lui la vérité.", "_t") -- 
+t("I will make him pay for his treachery.", "Je lui ferai payer sa trahison.", "_t") -- 
+t("Thank you for listening to me.", "Merci de m'avoir écouté.", "_t") -- 
+t("The dragon was lying, I can feel it. I have decided to embrace your cause.", "Le dragon mentait, je le sens. J'ai décidé de me rallier à votre cause.", "_t") -- 
+t("Farewell, Slasul.", "Adieu, Slasul.", "_t") -- 
+t("So be it... Die now!", "Ainsi soit-il... Mourrez maintenant!", "_t") -- 
+t("[attack]", "[attaquer]", "_t") -- 
 t("I secretly hoped you would.\
 Then let us seal this alliance. Share your lifeforce with me! So long you should live I shall not be killed!\
-In return let me offer you this powerful trident.", "I secretly hoped you would.\
-Then let us seal this alliance. Share your lifeforce with me! So long you should live I shall not be killed!\
-In return let me offer you this powerful trident.", "_t") -- 
-t("I shall accept your offer, my liege.", "I shall accept your offer, my liege.", "_t") -- 
-t("LET US BE BOUND!", "LET US BE BOUND!", "_t") -- 
-t("This sounds strange. I need to think about it.", "This sounds strange. I need to think about it.", "_t") -- 
+In return let me offer you this powerful trident.", "J'espérais secrètement que vous le feriez.\
+Alors scellons cette alliance. Partagez votre force vitale avec moi ! Tant que vous vivrez, je ne serai pas tué !\
+En retour, laissez-moi vous offrir ce puissant trident.", "_t") -- 
+t("I shall accept your offer, my liege.", "J'accepte votre offre, mon seigneur.", "_t") -- 
+t("LET US BE BOUND!", "SOYONS LIÉS!", "_t") -- 
+t("This sounds strange. I need to think about it.", "Cela semble étrange. Je dois y réfléchir.", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/sorcerer-end.lua"
+section "game/modules/tome//data/chats/sorcerer-end.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#\
 #LIGHT_GREEN#*Their bodies vanish in a small cloud of mist, quickly fading away.*#WHITE#\
@@ -6073,147 +6073,147 @@ The energies of those farportals are incredible, using them we could make the Wa
 You must go through the farportal and willingly sacrifice yourself inside. Your mind will embed itself into the farportal network, spreading the Way far and wide!\
 Even though you will die you will bring the world, and the yeeks, ultimate peace.\
 The Way will never forget you. Now go and make history!\
-", "#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#\
-#LIGHT_GREEN#*Their bodies vanish in a small cloud of mist, quickly fading away.*#WHITE#\
-#LIGHT_GREEN#*You feel the Way reaching out to you, the whole yeek race speaks to you.*#WHITE#\
-You have done something incredible %s! You also have created a unique opportunity for the yeek race!\
-The energies of those farportals are incredible, using them we could make the Way radiate all over Eyal, forcing it down on the other races, bringing them the same peace and happiness we feel in the Way.\
-You must go through the farportal and willingly sacrifice yourself inside. Your mind will embed itself into the farportal network, spreading the Way far and wide!\
-Even though you will die you will bring the world, and the yeeks, ultimate peace.\
-The Way will never forget you. Now go and make history!\
+", "#LIGHT_GREEN#*Les deux Sorciers gisent morts devant vous.*#WHITE#\
+#LIGHT_GREEN#*Leurs corps disparaissent dans un petit nuage de brume, s'évanouissant rapidement.*#WHITE#\
+#LIGHT_GREEN#*Vous sentez la Voie qui vous tend la main, toute la race Yeek vous parle.*#WHITE#\
+Vous avez fait quelque chose d'incroyable ! Vous avez également créé une opportunité unique pour la race Yeek !\
+Les énergies de ces portails sont incroyables, en les utilisant nous pourrions faire rayonner la voie sur Eyal, la forçant à s'abattre sur les autres races, leur apportant la même paix et le même bonheur que nous ressentons dans la voie.\
+Vous devez passer par le portail et vous sacrifier volontairement à l'intérieur. Votre esprit s'incrustera dans le réseau de portails, en répandant la voie partout!\
+Même si vous mourrez, vous apporterez au monde, et aux jeunes, la paix ultime.\
+La Voie ne vous oubliera jamais. Maintenant, allez et écrivez l'histoire!\
 ", "tformat") -- 
-t("brother", "brother", "_t") -- 
-t("sister", "sister", "_t") -- 
-t("But... I did so much, I could do so much more for the Way by staying alive!", "But... I did so much, I could do so much more for the Way by staying alive!", "_t") -- 
+t("brother", "frère", "_t") -- 
+t("sister", "soeur", "_t") -- 
+t("But... I did so much, I could do so much more for the Way by staying alive!", "Mais... J'ai fait tellement, je pourrais faire tellement plus pour la Voie en restant en vie!", "_t") -- 
 t("#LIGHT_GREEN#*You feel the Way taking over your mind, your body.*#WHITE#\
 You will do as asked, for the good of all Yeeks! The Way is always right.\
-", "#LIGHT_GREEN#*You feel the Way taking over your mind, your body.*#WHITE#\
-You will do as asked, for the good of all Yeeks! The Way is always right.\
+", "#LIGHT_GREEN#*Vous sentez la Voie prendre le dessus sur votre esprit, votre corps.*#WHITE#\
+Vous ferez ce qui est demandé, pour le bien de tous les Yeeks! La Voie est toujours juste.\
 ", "_t") -- 
-t("#LIGHT_GREEN#[sacrifice yourself to bring the Way to every sentient creature.]", "#LIGHT_GREEN#[sacrifice yourself to bring the Way to every sentient creature.]", "_t") -- 
-t("sacrificing %s to bring the Way to all", "sacrificing %s to bring the Way to all", "tformat") -- 
-t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Way for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[In a last incredible display of willpower you fight the Way for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "_t") -- 
+t("#LIGHT_GREEN#[sacrifice yourself to bring the Way to every sentient creature.]", "#LIGHT_GREEN#[se sacrifier pour apporter la Voie à chaque être sentient.]", "_t") -- 
+t("sacrificing %s to bring the Way to all", "sacrifier %s pour apporter la Voie à tout le monde", "tformat") -- 
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Way for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[Dans une dernière incroyable démonstration de volonté, vous combattez la Voie pendant quelques secondes, vous laissant projeter vos pensées à Aeryn.]#WHITE#  Haute Dame! Tuez-moi #{bold}#MAINTENANT!#{normal}#", "_t") -- 
 t("#LIGHT_GREEN#*Through your mind Aeryn sees what the Way is planning.*#WHITE#\
 You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.\
 #LIGHT_GREEN#*As she says this she pierces your body with a mighty thrust of her sword, ending the plans of the Way.*#WHITE#\
-", "#LIGHT_GREEN#*Through your mind Aeryn sees what the Way is planning.*#WHITE#\
-You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.\
-#LIGHT_GREEN#*As she says this she pierces your body with a mighty thrust of her sword, ending the plans of the Way.*#WHITE#\
+", "#LIGHT_GREEN#*A travers votre esprit, Aeryn voit ce que la Voie prépare.*#WHITE#\
+Vous étiez un allié précieux et un ami. Le monde se souviendra de votre dernier acte désintéressé. Je le jure.\
+#LIGHT_GREEN#*En disant cela, elle transperce votre corps d'une puissante poussée de son épée, mettant ainsi fin aux plans de la Voie.*#WHITE#\
 ", "_t") -- 
-t("#LIGHT_GREEN#[slip peacefully into death.]", "#LIGHT_GREEN#[slip peacefully into death.]", "_t") -- 
-t("sacrificing %s to stop the Way", "sacrificing %s to stop the Way", "tformat") -- 
+t("#LIGHT_GREEN#[slip peacefully into death.]", "#LIGHT_GREEN#[glisser paisiblement dans la mort.]", "_t") -- 
+t("sacrificing %s to stop the Way", "%s se sacrifie pour stopper la Voie", "tformat") -- 
 t("#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#\
 #LIGHT_GREEN#*Their bodies vanish in a small cloud of mist, quickly fading away.*#WHITE#\
 But the portal to the Void is already open. It must be closed before the Creator can come through or all will have been in vain!\
-After searching the remains of the Sorcerers you find a note explaining that the portal can only be closed with a sentient being's sacrifice.", "#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#\
-#LIGHT_GREEN#*Their bodies vanish in a small cloud of mist, quickly fading away.*#WHITE#\
-But the portal to the Void is already open. It must be closed before the Creator can come through or all will have been in vain!\
-After searching the remains of the Sorcerers you find a note explaining that the portal can only be closed with a sentient being's sacrifice.", "_t") -- 
-t("Aeryn, I am sorry but one of us needs to be sacrificed for the world to go on. #LIGHT_GREEN#[sacrifice Aeryn for the sake of the world]", "Aeryn, I am sorry but one of us needs to be sacrificed for the world to go on. #LIGHT_GREEN#[sacrifice Aeryn for the sake of the world]", "_t") -- 
-t("I will close it. #LIGHT_GREEN#[sacrifice yourself for the sake of the world]", "I will close it. #LIGHT_GREEN#[sacrifice yourself for the sake of the world]", "_t") -- 
-t("sacrificing %s for the sake of the world", "sacrificing %s for the sake of the world", "tformat") -- 
+After searching the remains of the Sorcerers you find a note explaining that the portal can only be closed with a sentient being's sacrifice.", "#LIGHT_GREEN#*Les deux sorciers gisent morts devant vous.*#WHITE#\
+#LIGHT_GREEN#*Leurs corps disparaissent dans un petit nuage de brume, s'évanouissant rapidement.*#WHITE#\
+Mais le portail du Néant est déjà ouvert. Il doit être fermé avant que le Créateur puisse le traverser, sinon tout aura été vain !\
+Après avoir fouillé les restes des Sorciers, vous trouverez une note expliquant que le portail ne peut être fermé qu'avec le sacrifice d'un être sentient.", "_t") -- 
+t("Aeryn, I am sorry but one of us needs to be sacrificed for the world to go on. #LIGHT_GREEN#[sacrifice Aeryn for the sake of the world]", "Aeryn, je suis désolé mais l'un de nous doit être sacrifié pour que le monde continue. #LIGHT_GREEN#[sacrifier Aeryn pour le bien du monde]", "_t") -- 
+t("I will close it. #LIGHT_GREEN#[sacrifice yourself for the sake of the world]", "Je vais le fermer. #LIGHT_GREEN#[se sacrifier pour le bien du monde]", "_t") -- 
+t("sacrificing %s for the sake of the world", "sacrifier %s pour le bien du monde", "tformat") -- 
 t("I cannot believe we succeeded. I was prepared to die and it seems I will die, but at least I will do so knowing my sacrifice is not in vain.\
-Please, make sure the world is safe.", "I cannot believe we succeeded. I was prepared to die and it seems I will die, but at least I will do so knowing my sacrifice is not in vain.\
-Please, make sure the world is safe.", "_t") -- 
-t("You will never be forgotten.", "You will never be forgotten.", "_t") -- 
+Please, make sure the world is safe.", "Je n'arrive pas à croire que nous ayons réussi. J'étais prêt à mourir et il semble que je vais mourir, mais au moins je le ferai en sachant que mon sacrifice n'est pas vain.\
+Je vous en prie, assurez-vous que le monde est sûr.", "_t") -- 
+t("You will never be forgotten.", "On ne vous oubliera jamais.", "_t") -- 
 t("#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#\
 #LIGHT_GREEN#*Their bodies vanish in some immaterial mist.*#WHITE#\
 You have won the game!\
-Both Maj'Eyal and the Far East are safe from the dark schemes of the Sorcerers and their God.", "#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#\
-#LIGHT_GREEN#*Their bodies vanish in some immaterial mist.*#WHITE#\
-You have won the game!\
-Both Maj'Eyal and the Far East are safe from the dark schemes of the Sorcerers and their God.", "_t") -- 
-t("Aeryn, are you well?", "Aeryn, are you well?", "_t") -- 
-t("[leave]", "[leave]", "_t") -- 
+Both Maj'Eyal and the Far East are safe from the dark schemes of the Sorcerers and their God.", "#LIGHT_GREEN#*Les deux sorciers gisent morts devant vous.*#WHITE#\
+#LIGHT_GREEN#*Leurs corps disparaissent dans une brume immatérielle.*#WHITE#\
+Vous avez gagné!\
+Le Maj'Eyal et l'Extrême-Orient sont tous deux à l'abri des sombres desseins des Sorciers et de leur Dieu.", "_t") -- 
+t("Aeryn, are you well?", "Aeryn, vous allez bien?", "_t") -- 
+t("[leave]", "[partir]", "_t") -- 
 t("I cannot believe we succeeded. I was prepared to die and yet I live.\
-I might have underestimated you. You did more than we could have hoped for!", "I cannot believe we succeeded. I was prepared to die and yet I live.\
-I might have underestimated you. You did more than we could have hoped for!", "_t") -- 
-t("We both did.", "We both did.", "_t") -- 
+I might have underestimated you. You did more than we could have hoped for!", "Je n'arrive pas à croire que nous ayons réussi. J'étais prêt à mourir et pourtant je vis.\
+Je vous ai peut-être sous-estimé. Vous avez fait plus que ce que nous aurions pu espérer!", "_t") -- 
+t("We both did.", "Nous l'avons fait tous les deux.", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/sorcerer-fight.lua"
+section "game/modules/tome//data/chats/sorcerer-fight.lua" -- Trad et Test par Dirian
 
-t("High Sun Paladin Aeryn appears next to you!", "High Sun Paladin Aeryn appears next to you!", "logPlayer") -- 
+t("High Sun Paladin Aeryn appears next to you!", "Aeryn, le grand Paladin du soleil, apparaît à côté de vous!", "logPlayer") -- 
 t("#LIGHT_GREEN#*The two Sorcerers stands before you, shining like the Sun.*#WHITE#\
-Ah! Our guest is finally here. I take it you found the peak entertaining?", "#LIGHT_GREEN#*The two Sorcerers stands before you, shining like the Sun.*#WHITE#\
-Ah! Our guest is finally here. I take it you found the peak entertaining?", "_t") -- 
-t("Spare me the small talk. I am here to stop you!", "Spare me the small talk. I am here to stop you!", "_t") -- 
-t("Why are you doing all that? You were supposed to help people!", "Why are you doing all that? You were supposed to help people!", "_t") -- 
+Ah! Our guest is finally here. I take it you found the peak entertaining?", "#LIGHT_GREEN#*Les deux Sorciers se tiennent devant vous, brillants comme le Soleil.*#WHITE#\
+Ah ! Notre invité est enfin là. Je suppose que vous avez trouvé le Pic divertissant?", "_t") -- 
+t("Spare me the small talk. I am here to stop you!", "Épargnez-moi les bavardages. Je suis ici pour vous arrêter!", "_t") -- 
+t("Why are you doing all that? You were supposed to help people!", "Pourquoi faites-vous tout cela? Vous étiez censé aider les gens!", "_t") -- 
 t("Oh, but all we want is to help people. We have come to the self-evident conclusion that common people are just unfit to govern themselves, always bickering, arguing...\
-Since the last invasion of the orcs there has been no threat to unite them!", "Oh, but all we want is to help people. We have come to the self-evident conclusion that common people are just unfit to govern themselves, always bickering, arguing...\
-Since the last invasion of the orcs there has been no threat to unite them!", "_t") -- 
-t("So you have decided to become the threat yourselves?", "So you have decided to become the threat yourselves?", "_t") -- 
-t("Us? Ah, no, we are merely instruments for the Master. We have planned for His return.", "Us? Ah, no, we are merely instruments for the Master. We have planned for His return.", "_t") -- 
-t("And 'He' would be...?", "And 'He' would be...?", "_t") -- 
+Since the last invasion of the orcs there has been no threat to unite them!", "Oh, mais tout ce que nous voulons, c'est aider les gens. Nous sommes arrivés à la conclusion évidente que les gens ordinaires sont tout simplement inaptes à se gouverner eux-mêmes, toujours à se chamailler, à se disputer...\
+Depuis la dernière invasion orc, il n'y a pas eu de menace pour les unir!", "_t") -- 
+t("So you have decided to become the threat yourselves?", "Vous avez donc décidé de devenir vous-mêmes la menace?", "_t") -- 
+t("Us? Ah, no, we are merely instruments for the Master. We have planned for His return.", "Nous? Ah, non, nous ne sommes que des instruments pour le Maître. Nous avons prévu son retour.", "_t") -- 
+t("And 'He' would be...?", "Et \"il\" serait... ?", "_t") -- 
 t("The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.\
 He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!\
 The staff has allowed us to drain enough energy from this world to open the portal to the Void and summon Him through!\
-It is already too late. He is coming through as we speak -- it is only a matter of hours!", "The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.\
-He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!\
-The staff has allowed us to drain enough energy from this world to open the portal to the Void and summon Him through!\
-It is already too late. He is coming through as we speak -- it is only a matter of hours!", "_t") -- 
+It is already too late. He is coming through as we speak -- it is only a matter of hours!", "Le créateur. Le Dieu qui a créé ce monde, Celui qui a regardé en silence les races se battre et brûler la terre.\
+Lui qui a ressenti une grande tristesse pour ce monde. Celui qui va maintenant faire voler en éclats les barrières de ce monde pour le refaire, mais en mieux!\
+Le bâton nous a permis de drainer suffisamment d'énergie venant de ce monde pour ouvrir un portail vers le Néant et l'invoquer à travers lui!\
+Il est déjà trop tard. Il est en train de passer au moment où nous parlons - ce n'est qu'une question d'heures!", "_t") -- 
 t("The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.\
 He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!\
 The staff will allow us to drain enough energy from this world to open the portal to the Void and summon Him through!\
-You cannot stop us now!", "The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.\
-He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!\
-The staff will allow us to drain enough energy from this world to open the portal to the Void and summon Him through!\
-You cannot stop us now!", "_t") -- 
-t("High Sun Paladin Aeryn", "High Sun Paladin Aeryn", "_t") -- 
-t("I *WILL* stop you! The world will not end today!", "I *WILL* stop you! The world will not end today!", "_t") -- 
+You cannot stop us now!", "Le créateur. Le Dieu qui a créé ce monde, Celui qui a regardé en silence les races se battre et brûler la terre.\
+Lui qui a ressenti une grande tristesse pour ce monde. Celui qui va maintenant faire voler en éclats les barrières de ce monde pour le refaire, mais en mieux!\
+Le bâton nous permettra de drainer suffisamment d'énergie de ce monde pour ouvrir le portail vers le Néant et l'invoquer à travers lui!\
+Vous ne pouvez pas nous arrêter maintenant!", "_t") -- 
+t("High Sun Paladin Aeryn", "Haut Paladin du soleil Aeryn", "_t") -- 
+t("I *WILL* stop you! The world will not end today!", "Je *VAIS* vous arrêter ! Le monde ne prendra pas fin aujourd'hui!", "_t") -- 
 t("#LIGHT_GREEN#*The air whirls at your side and suddenly High Sun Paladin Aeryn appears!*#WHITE#\
-Then you shall not fight alone! Together we shall stop them, or die trying!", "#LIGHT_GREEN#*The air whirls at your side and suddenly High Sun Paladin Aeryn appears!*#WHITE#\
-Then you shall not fight alone! Together we shall stop them, or die trying!", "_t") -- 
-t("I am glad to have you at my side, my Lady. Let's hunt some wizards!", "I am glad to have you at my side, my Lady. Let's hunt some wizards!", "_t") -- 
+Then you shall not fight alone! Together we shall stop them, or die trying!", "#LIGHT_GREEN#*L'air tourbillonne à vos côtés et soudain le Haut Paladin du Soleil Aeryn apparaît!*#WHITE#\
+Dans ce cas, vous ne devriez pas vous battre seul! Ensemble, nous les arrêterons, ou nous mourrons en essayant!", "_t") -- 
+t("I am glad to have you at my side, my Lady. Let's hunt some wizards!", "Je suis heureux de vous avoir à mes côtés, ma Dame. Allons chasser des sorciers!", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/tannen.lua"
+section "game/modules/tome//data/chats/tannen.lua" -- Trad et Test par Dirian
 
-t("#LIGHT_GREEN#*Nobody answers.*#WHITE#", "#LIGHT_GREEN#*Nobody answers.*#WHITE#", "_t") -- 
-t("#LIGHT_GREEN#*Nobody answers. Tannen is probably still busy studying the orb.*#WHITE#", "#LIGHT_GREEN#*Nobody answers. Tannen is probably still busy studying the orb.*#WHITE#", "_t") -- 
-t("[leave]", "[leave]", "_t") -- 
-t("How may I be of service, good @playerdescriptor.race@?", "How may I be of service, good @playerdescriptor.race@?", "_t") -- 
-t("[Relate to him the story of the staff and the Orb of Many Ways and the portals.]", "[Relate to him the story of the staff and the Orb of Many Ways and the portals.]", "_t") -- 
-t("I have the diamond and the athame. [Hand over the Athame and Diamond]", "I have the diamond and the athame. [Hand over the Athame and Diamond]", "_t") -- 
-t("Thieving, murderous wretch. Prepare to die!", "Thieving, murderous wretch. Prepare to die!", "_t") -- 
-t("How fares your research? Are we ready to create the portal?", "How fares your research? Are we ready to create the portal?", "_t") -- 
-t("Nothing, excuse me. Bye!", "Nothing, excuse me. Bye!", "_t") -- 
-t("Astonishing! I have heard tell of this Orb in ancient texts and legends. Might I see it?", "Astonishing! I have heard tell of this Orb in ancient texts and legends. Might I see it?", "_t") -- 
-t("[Show him the Orb of Many Ways]", "[Show him the Orb of Many Ways]", "_t") -- 
-t("Truly, it is the work of a great master. Perhaps Linaniil herself had a hand in its making. And you say you come bearing instructions in its usage?", "Truly, it is the work of a great master. Perhaps Linaniil herself had a hand in its making. And you say you come bearing instructions in its usage?", "_t") -- 
-t("I do. [Show him Zemekkys's scribbled notes]", "I do. [Show him Zemekkys's scribbled notes]", "_t") -- 
-t("#LIGHT_GREEN#*He spends a few minutes reading*#WHITE# Ah! I see. I did not at first grasp this Zemekkys's methods, but I see now that they are sound, and it is simply his penmanship that needs improvement. We can manage to reproduce his work here, but, as he says, we will need the Blood-Runed Athame and a Resonating Diamond.", "#LIGHT_GREEN#*He spends a few minutes reading*#WHITE# Ah! I see. I did not at first grasp this Zemekkys's methods, but I see now that they are sound, and it is simply his penmanship that needs improvement. We can manage to reproduce his work here, but, as he says, we will need the Blood-Runed Athame and a Resonating Diamond.", "_t") -- 
-t("Have you any idea where they might be found?", "Have you any idea where they might be found?", "_t") -- 
-t("If the orcs created a portal in the depths of Reknor, they must have had access to such items. And if these items cannot pass through the portal they created, then it stands to reason that they must still be in Maj'Eyal. I would search Reknor, starting near the portal itself. Perhaps they did not move the Athame and Diamond far after its creation.", "If the orcs created a portal in the depths of Reknor, they must have had access to such items. And if these items cannot pass through the portal they created, then it stands to reason that they must still be in Maj'Eyal. I would search Reknor, starting near the portal itself. Perhaps they did not move the Athame and Diamond far after its creation.", "_t") -- 
-t("I'll get searching. Thank you.", "I'll get searching. Thank you.", "_t") -- 
-t("One last thing. I will need to hold onto the Orb of Many Ways while you search. I lack the expertise this Chronomancer Zemekkys possesses, and have much learning on the subject to do if I am to follow in his footsteps.", "One last thing. I will need to hold onto the Orb of Many Ways while you search. I lack the expertise this Chronomancer Zemekkys possesses, and have much learning on the subject to do if I am to follow in his footsteps.", "_t") -- 
-t("[Hand him the Orb] ", "[Hand him the Orb] ", "_t") -- 
-t("I still require the Orb for now.", "I still require the Orb for now.", "_t") -- 
-t("Thank you. I will treat it with the utmost care.", "Thank you. I will treat it with the utmost care.", "_t") -- 
-t("Farewell. I'll return with the Athame and Diamond.", "Farewell. I'll return with the Athame and Diamond.", "_t") -- 
-t("Very well. There is no hurry. But I will need to spend a number of days studying it before we can create your portal.", "Very well. There is no hurry. But I will need to spend a number of days studying it before we can create your portal.", "_t") -- 
-t("I understand. I'll return with the Athame and Diamond.", "I understand. I'll return with the Athame and Diamond.", "_t") -- 
-t("Excellent. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields,\" return with it and your odds of surviving our portal attempt will go up drastically.", "Excellent. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields,\" return with it and your odds of surviving our portal attempt will go up drastically.", "_t") -- 
-t("Excellent. Are you yet willing to leave the Orb in my care for a time?", "Excellent. Are you yet willing to leave the Orb in my care for a time?", "_t") -- 
-t("I dare not let it out of my sight. I'm sorry.", "I dare not let it out of my sight. I'm sorry.", "_t") -- 
-t("Here it is. Guard it carefully. I must return to the Far East soon.", "Here it is. Guard it carefully. I must return to the Far East soon.", "_t") -- 
-t("#LIGHT_GREEN#*The old man sighs*#WHITE# Very well. I suppose I must make do with a cursory examination under your supervision.", "#LIGHT_GREEN#*The old man sighs*#WHITE# Very well. I suppose I must make do with a cursory examination under your supervision.", "_t") -- 
-t("[Hand him the orb]", "[Hand him the orb]", "_t") -- 
-t("Thank you. Give me a few minutes. #LIGHT_GREEN#*He begins to pace back and forth absently, staring at the Orb.*#WHITE#", "Thank you. Give me a few minutes. #LIGHT_GREEN#*He begins to pace back and forth absently, staring at the Orb.*#WHITE#", "_t") -- 
-t("[Wait]", "[Wait]", "_t") -- 
-t("#LIGHT_GREEN#*He stops pacing and returns the Orb to you.*#WHITE# I believe I know most of what I need to. But I need a few details cleared up. You'll have to return to this Elven Chronomancer and ask him whether he meant an inverted probabilistic field or a reverted probabilistic field. I dare not guess, as the result could be quite unpleasant for you.", "#LIGHT_GREEN#*He stops pacing and returns the Orb to you.*#WHITE# I believe I know most of what I need to. But I need a few details cleared up. You'll have to return to this Elven Chronomancer and ask him whether he meant an inverted probabilistic field or a reverted probabilistic field. I dare not guess, as the result could be quite unpleasant for you.", "_t") -- 
-t("I'll return with the answer.", "I'll return with the answer.", "_t") -- 
-t("Fear not. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields\", return with it and your odds of surviving our portal attempt will go up drastically.", "Fear not. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields\", return with it and your odds of surviving our portal attempt will go up drastically.", "_t") -- 
-t("Thank you, and farewell.", "Thank you, and farewell.", "_t") -- 
+t("#LIGHT_GREEN#*Nobody answers.*#WHITE#", "#LIGHT_GREEN#*Personne ne répond.*#WHITE#", "_t") -- 
+t("#LIGHT_GREEN#*Nobody answers. Tannen is probably still busy studying the orb.*#WHITE#", "#LIGHT_GREEN#*Personne ne répond. Tannen est probablement encore occupé à étudier l'orbe.*#WHITE#", "_t") -- 
+t("[leave]", "[partir]", "_t") -- 
+t("How may I be of service, good @playerdescriptor.race@?", "En quoi puis-je être utile, bon @playerdescriptor.race@?", "_t") -- 
+t("[Relate to him the story of the staff and the Orb of Many Ways and the portals.]", "[Racontez-lui l'histoire du bâton, de l'orbe des multiples voies, et des portails.]", "_t") -- 
+t("I have the diamond and the athame. [Hand over the Athame and Diamond]", "J'ai le diamant et l'athamé. [Remettre l'athamé et le diamant]", "_t") -- 
+t("Thieving, murderous wretch. Prepare to die!", "Voleur, misérable meurtrier. Prépare-toi à mourir!", "_t") -- 
+t("How fares your research? Are we ready to create the portal?", "Comment se déroule vos recherches? Sommes-nous prêts à créer le portail?", "_t") -- 
+t("Nothing, excuse me. Bye!", "Rien, excusez-moi. Au revoir!", "_t") -- 
+t("Astonishing! I have heard tell of this Orb in ancient texts and legends. Might I see it?", "Etonnant! J'ai entendu parler de cette orbe dans des textes et légendes anciennes. Puis-je la voir?", "_t") -- 
+t("[Show him the Orb of Many Ways]", "[Lui montrer l'orbe des multiples voies]", "_t") -- 
+t("Truly, it is the work of a great master. Perhaps Linaniil herself had a hand in its making. And you say you come bearing instructions in its usage?", "En vérité, c'est l'œuvre d'un grand maître. Peut-être Linaniil elle-même a-t-elle contribué à sa réalisation. Et vous dites que vous venez avec des instructions pour son emploi?", "_t") -- 
+t("I do. [Show him Zemekkys's scribbled notes]", "En effet. [Lui montrer les notes griffonnées de Zemekkys]", "_t") -- 
+t("#LIGHT_GREEN#*He spends a few minutes reading*#WHITE# Ah! I see. I did not at first grasp this Zemekkys's methods, but I see now that they are sound, and it is simply his penmanship that needs improvement. We can manage to reproduce his work here, but, as he says, we will need the Blood-Runed Athame and a Resonating Diamond.", "#LIGHT_GREEN#*Il passe quelques minutes à lire*#WHITE# Ah! je vois. Je n'ai pas saisi au début les méthodes de ce Zemekkys, mais je vois maintenant qu'elles sont solides, et c'est simplement son écriture qui doit être améliorée. Nous pouvons réussir à reproduire son travail ici, mais, comme il le dit, nous aurons besoin de l'Athamé rune de sang et d'un Diamant Résonnant.", "_t") -- 
+t("Have you any idea where they might be found?", "Avez-vous une idée de l'endroit où ils pourraient se trouver?", "_t") -- 
+t("If the orcs created a portal in the depths of Reknor, they must have had access to such items. And if these items cannot pass through the portal they created, then it stands to reason that they must still be in Maj'Eyal. I would search Reknor, starting near the portal itself. Perhaps they did not move the Athame and Diamond far after its creation.", "Si les orcs ont créé un portail dans les profondeurs de Reknor, ils doivent avoir eu accès à de tels objets. Et si ces objets ne peuvent pas passer par le portail qu'ils ont créé, alors il est logique qu'ils soient toujours en Maj'Eyal. Je chercherais dans Reknor, en commençant par le portail lui-même. Peut-être n'ont-ils pas déplacé l'Athamé et le Diamant bien après sa création.", "_t") -- 
+t("I'll get searching. Thank you.", "Je vais faire des recherches. Je vous remercie.", "_t") -- 
+t("One last thing. I will need to hold onto the Orb of Many Ways while you search. I lack the expertise this Chronomancer Zemekkys possesses, and have much learning on the subject to do if I am to follow in his footsteps.", "Une dernière chose. Je devrai garder l'orbe des multiples voies pendant que vous cherchez. Je n'ai pas l'expertise que possède ce Chronomancien Zemekkys, et j'ai beaucoup à apprendre sur le sujet si je veux suivre ses traces.", "_t") -- 
+t("[Hand him the Orb] ", "[Lui remettre l'orbe]  ", "_t") -- 
+t("I still require the Orb for now.", "J'ai encore besoin de l'orbe pour le moment.", "_t") -- 
+t("Thank you. I will treat it with the utmost care.", "Je vous remercie. Je la traiterai avec le plus grand soin.", "_t") -- 
+t("Farewell. I'll return with the Athame and Diamond.", "Adieu. Je reviendrai avec l'Athamé et le Diamant.", "_t") -- 
+t("Very well. There is no hurry. But I will need to spend a number of days studying it before we can create your portal.", "Très bien. Il n'y a pas d'urgence. Mais il me faudra passer plusieurs jours à l'étudier avant de pouvoir créer votre portail.", "_t") -- 
+t("I understand. I'll return with the Athame and Diamond.", "Je comprends. Je reviendrai avec l'Athamé et le Diamant.", "_t") -- 
+t("Excellent. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields,\" return with it and your odds of surviving our portal attempt will go up drastically.", "Excellent. Revenez dans quelques jours, et j'aurai tout préparé. Oh, prenez ça. #LIGHT_GREEN#*Il vous remet une clé*#WHITE#Elle ouvre les ruines de Telmur, que les hommes de Sholtar ont scellées il y a de nombreuses années.Si vous trouvez par hasard un texte dans les ruines intitulé \"Champs de probabilité inversés et renversés\", revenez avec ce texte et vos chances de survivre à notre tentative de portail augmenteront considérablement.", "_t") -- 
+t("Excellent. Are you yet willing to leave the Orb in my care for a time?", "Excellent. Êtes-vous prêt à me confier l'orbe pour un temps?", "_t") -- 
+t("I dare not let it out of my sight. I'm sorry.", "Je n'ose pas le perdre de vue. Je suis désolé.", "_t") -- 
+t("Here it is. Guard it carefully. I must return to the Far East soon.", "Le voici. Gardez-le précieusement. Je dois bientôt retourner en Extrême-Orient.", "_t") -- 
+t("#LIGHT_GREEN#*The old man sighs*#WHITE# Very well. I suppose I must make do with a cursory examination under your supervision.", "#LIGHT_GREEN#*Le vieil homme soupire*#WHITE# Très bien. Je suppose que je dois me contenter d'un examen superficiel sous votre supervision.", "_t") -- 
+t("[Hand him the orb]", "[Lui donner l'orbe]", "_t") -- 
+t("Thank you. Give me a few minutes. #LIGHT_GREEN#*He begins to pace back and forth absently, staring at the Orb.*#WHITE#", "Je vous remercie. Laissez-moi quelques minutes. #LIGHT_GREEN#*Il commence à faire des allers et retours absents, en regardant l'orbe.*#WHITE#", "_t") -- 
+t("[Wait]", "[Attendez]", "_t") -- 
+t("#LIGHT_GREEN#*He stops pacing and returns the Orb to you.*#WHITE# I believe I know most of what I need to. But I need a few details cleared up. You'll have to return to this Elven Chronomancer and ask him whether he meant an inverted probabilistic field or a reverted probabilistic field. I dare not guess, as the result could be quite unpleasant for you.", "#LIGHT_GREEN#*Il arrête de faire les cent pas et vous rend l'orbe.*#WHITE# Je pense que je sais la plupart de ce dont j'ai besoin. Mais j'ai besoin de clarifier quelques détails. Vous devrez retourner voir ce Chronomancien elfe et lui demander s'il voulait dire un champ probabiliste inversé ou un champ probabiliste renversé. Je n'ose pas deviner, car le résultat pourrait être assez désagréable pour vous.", "_t") -- 
+t("I'll return with the answer.", "Je reviendrai avec la réponse.", "_t") -- 
+t("Fear not. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields\", return with it and your odds of surviving our portal attempt will go up drastically.", "N'ayez pas peur. Revenez dans quelques jours, et j'aurai tout préparé. Oh, prenez ça. #LIGHT_GREEN#*Il vous remet une clé*#WHITE# Elle ouvre les ruines de Telmur, que les hommes de Sholtar ont scellées il y a de nombreuses années. Si vous trouvez par hasard un texte dans les ruines intitulé \"Champs de probabilité inversés et renversés\", revenez avec et vos chances de survivre à notre tentative de portail augmenteront considérablement.", "_t") -- 
+t("Thank you, and farewell.", "Merci et adieu.", "_t") -- 
 t("I think not, fool. Look down.\
-#LIGHT_GREEN#*You notice you're standing on an etched portal.*#WHITE#", "I think not, fool. Look down.\
-#LIGHT_GREEN#*You notice you're standing on an etched portal.*#WHITE#", "_t") -- 
+#LIGHT_GREEN#*You notice you're standing on an etched portal.*#WHITE#", "Je ne pense pas, idiot. Regarde vers le bas.\
+#LIGHT_GREEN#*Vous remarquez que vous vous trouvez sur un portail gravé.*#WHITE#", "_t") -- 
 t("I am ready. You are not. Look down.\
-#LIGHT_GREEN#*You notice you're standing on an etched portal.*#WHITE#", "I am ready. You are not. Look down.\
-#LIGHT_GREEN#*You notice you're standing on an etched portal.*#WHITE#", "_t") -- 
-t("What in the...", "What in the...", "_t") -- 
+#LIGHT_GREEN#*You notice you're standing on an etched portal.*#WHITE#", "Je suis prêt. Vous ne l'êtes pas. Regardez vers le bas.\
+#LIGHT_GREEN#*Vous remarquez que vous vous trouvez sur un portail gravé.*#WHITE#", "_t") -- 
+t("What in the...", "Qu'est-ce que...", "_t") -- 
 
 
 ------------------------------------------------
