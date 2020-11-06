@@ -6217,82 +6217,82 @@ t("What in the...", "Qu'est-ce que...", "_t") --
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/tarelion-start-archmage.lua"
+section "game/modules/tome//data/chats/tarelion-start-archmage.lua" -- Trad et Test par Dirian
 
-t("Wait a minute!", "Wait a minute!", "_t") -- 
-t("Archmage Tarelion?", "Archmage Tarelion?", "_t") -- 
+t("Wait a minute!", "Attendez une minute!", "_t") -- 
+t("Archmage Tarelion?", "Archimage Tarelion?", "_t") -- 
 t("Yes @playername@, I have heard you plan on going into the wild world, looking for some adventures of your own.\
 This is good, more of us should get out of here once in a while and actually help people out there.\
-Say, maybe you might want to get an adventure and help Angolwen?", "Yes @playername@, I have heard you plan on going into the wild world, looking for some adventures of your own.\
-This is good, more of us should get out of here once in a while and actually help people out there.\
-Say, maybe you might want to get an adventure and help Angolwen?", "_t") -- 
-t("Perhaps, what do you need?", "Perhaps, what do you need?", "_t") -- 
+Say, maybe you might want to get an adventure and help Angolwen?", "Oui, @playername@, j'ai entendu dire que vous aviez l'intention d'aller dans le monde sauvage, à la recherche de quelques aventures.\
+C'est bien, nous devrions être plus nombreux à sortir d'ici de temps en temps et à aider les gens là-bas.\
+Dites, peut-être voudriez-vous partir à l'aventure et aider Angolwen?", "_t") -- 
+t("Perhaps, what do you need?", "Peut-être, de quoi avez-vous besoin?", "_t") -- 
 t("During the Spellblaze the world was torn apart - literally. A part of it, that we now call the Abashed Expanse, was ripped from the world and thrown into the void between the stars.\
 We managed to stabilize it and it is now orbiting Eyal. Recently we have noticed a disturbance there; if we do nothing it will crash onto Eyal, bringing much destruction in its wake.\
 Because it was once part of a land we know well we can teleport you there. You will need to stabilize three wormholes by firing any attack spells at them.\
 The instability is also to your advantage there, your simple phase door spell will be fully controllable.\
 \
-So, you think you can help us ?", "During the Spellblaze the world was torn apart - literally. A part of it, that we now call the Abashed Expanse, was ripped from the world and thrown into the void between the stars.\
-We managed to stabilize it and it is now orbiting Eyal. Recently we have noticed a disturbance there; if we do nothing it will crash onto Eyal, bringing much destruction in its wake.\
-Because it was once part of a land we know well we can teleport you there. You will need to stabilize three wormholes by firing any attack spells at them.\
-The instability is also to your advantage there, your simple phase door spell will be fully controllable.\
+So, you think you can help us ?", "Pendant la Brûlure magique, le monde a été déchiré - littéralement. Une partie de ce monde, que nous appelons aujourd'hui l'Etendue abasourdie, a été arrachée au monde et jetée dans le vide entre les étoiles.\
+Nous avons réussi à la stabiliser et elle est maintenant en orbite autour d'Eyal. Récemment, nous avons remarqué une perturbation à cet endroit; si nous ne faisons rien, elle s'écrasera sur Eyal, entraînant beaucoup de destruction dans son sillage.\
+Comme elle faisait autrefois partie d'une terre que nous connaissons bien, nous pouvons vous y téléporter. Vous devrez stabiliser trois trous de ver en y lançant des sorts d'attaque.\
+L'instabilité y est également à votre avantage, votre simple sort de porte de phase sera entièrement contrôlable.\
 \
-So, you think you can help us ?", "_t") -- 
-t("Yes Archmage, send me there!", "Yes Archmage, send me there!", "_t") -- 
-t("No sorry, I need to go.", "No sorry, I need to go.", "_t") -- 
-t("Good luck!", "Good luck!", "_t") -- 
-t("[teleport]", "[teleport]", "_t") -- 
-t("Oh well, farewell on your trips. Now I need to find somebody else to go up there.", "Oh well, farewell on your trips. Now I need to find somebody else to go up there.", "_t") -- 
-t("Bye.", "Bye.", "_t") -- 
+Alors, vous pensez pouvoir nous aider?", "_t") -- 
+t("Yes Archmage, send me there!", "Oui Archimage, envoyez-moi là-bas!", "_t") -- 
+t("No sorry, I need to go.", "Non, désolé, je dois y aller.", "_t") -- 
+t("Good luck!", "Bonne chance!", "_t") -- 
+t("[teleport]", "[téléportation]", "_t") -- 
+t("Oh well, farewell on your trips. Now I need to find somebody else to go up there.", "Eh bien, bon voyages. Maintenant, je dois trouver quelqu'un d'autre pour y aller.", "_t") -- 
+t("Bye.", "Au revoir.", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/tarelion.lua"
+section "game/modules/tome//data/chats/tarelion.lua" -- Trad et Test par Dirian
 
 t("I say, you there. Yes, you, young one!\
-You seem like the adventuring fare, up to all sorts of doo-daddle in the outside world, I imagine. Well, don't forget to pay patronage to our good library here in the city. The riches of the world are all well and good, but where would we be without the gift of knowledge? And all proceeds go towards the funding of further research. No greater cause, yes?", "I say, you there. Yes, you, young one!\
-You seem like the adventuring fare, up to all sorts of doo-daddle in the outside world, I imagine. Well, don't forget to pay patronage to our good library here in the city. The riches of the world are all well and good, but where would we be without the gift of knowledge? And all proceeds go towards the funding of further research. No greater cause, yes?", "_t") -- 
-t("Hold on! You... You're that apprentice mage I met in the wilds!", "Hold on! You... You're that apprentice mage I met in the wilds!", "_t") -- 
-t("Why, well-spotted, whippersnapper! Indeed, when the mood takes me I sometimes travel under the guise of an apprentice. It permits me to traverse the land unnoticed in my research, and if I meet any I deem worthy and sympathetic to Angolwen's cause, then so much the better. And it does provide the odd chortle, I tell you!", "Why, well-spotted, whippersnapper! Indeed, when the mood takes me I sometimes travel under the guise of an apprentice. It permits me to traverse the land unnoticed in my research, and if I meet any I deem worthy and sympathetic to Angolwen's cause, then so much the better. And it does provide the odd chortle, I tell you!", "_t") -- 
-t("Uh, yes, of course... I'll be moving on now.", "Uh, yes, of course... I'll be moving on now.", "_t") -- 
+You seem like the adventuring fare, up to all sorts of doo-daddle in the outside world, I imagine. Well, don't forget to pay patronage to our good library here in the city. The riches of the world are all well and good, but where would we be without the gift of knowledge? And all proceeds go towards the funding of further research. No greater cause, yes?", "Je dis, vous là-bas. Oui, vous, le jeune!\
+Vous semblez être un aventurier, capable de faire toutes sortes de choses dans le monde extérieur, j'imagine. N'oubliez pas de payer des droits d'auteur à notre bonne bibliothèque ici en ville. Les richesses du monde sont bien belles, mais où serions-nous sans le don de la connaissance ? Et tous les bénéfices sont destinés au financement de la recherche. Il n'y a pas de plus grande cause, n'est-ce pas ?", "_t") -- 
+t("Hold on! You... You're that apprentice mage I met in the wilds!", "Attendez! Vous... Vous êtes cet apprenti mage que j'ai rencontré dans la nature!", "_t") -- 
+t("Why, well-spotted, whippersnapper! Indeed, when the mood takes me I sometimes travel under the guise of an apprentice. It permits me to traverse the land unnoticed in my research, and if I meet any I deem worthy and sympathetic to Angolwen's cause, then so much the better. And it does provide the odd chortle, I tell you!", "Eh bien, bien vu, le coup de fouet! En effet, quand l'envie me prend, je voyage parfois sous les traits d'un apprenti. Cela me permet de parcourir la terre sans me faire remarquer dans mes recherches, et si je rencontre quelqu'un que je juge digne et sympathique à la cause d'Angolwen, alors tant mieux. Et cela me donne un certain plaisir, je vous le dis!", "_t") -- 
+t("Uh, yes, of course... I'll be moving on now.", "Euh, oui, bien sûr... Je vais poursuivre ma route maintenant.", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/temporal-rift-end.lua"
+section "game/modules/tome//data/chats/temporal-rift-end.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*A tall man, glowing like a star, appears out of nowhere.*#WHITE#\
 You destroyed *it* both? I am sorry for my harsh tone when we first met, but repairing time threads is stressful.\
 I cannot stay. I still have much to do. But take this-- it should help you.\
-#LIGHT_GREEN#*He disappears again before you can even reply. A rift opens, to Maj'Eyal... you hope.*#WHITE#", "#LIGHT_GREEN#*A tall man, glowing like a star, appears out of nowhere.*#WHITE#\
-You destroyed *it* both? I am sorry for my harsh tone when we first met, but repairing time threads is stressful.\
-I cannot stay. I still have much to do. But take this-- it should help you.\
-#LIGHT_GREEN#*He disappears again before you can even reply. A rift opens, to Maj'Eyal... you hope.*#WHITE#", "_t") -- 
+#LIGHT_GREEN#*He disappears again before you can even reply. A rift opens, to Maj'Eyal... you hope.*#WHITE#", "#LIGHT_GREEN#*Un grand homme, brillant comme une étoile, apparaît de nulle part.*#WHITE#\
+Vous les avez détruit tout les deux? Je suis désolé pour le ton sévère que j'ai adopté lors de notre première rencontre, mais réparer les fils du temps est stressant.\
+Je ne peux pas rester. J'ai encore beaucoup à faire. Mais prenez ça... ça devrait vous aider.\
+#LIGHT_GREEN#*Il disparaît à nouveau avant même que vous puissiez répondre. Une brèche s'ouvre, en Maj'Eyal... vous l'espérez.*#WHITE#", "_t") -- 
 t("Ok...", "Ok...", "_t") -- 
-t("The temporal warden gives you: %s.", "The temporal warden gives you: %s.", "log") -- 
+t("The temporal warden gives you: %s.", "Le gardien du temps vous donne: %s.", "log") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/temporal-rift-start.lua"
+section "game/modules/tome//data/chats/temporal-rift-start.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*A tall man, glowing like a star, appears out of nowhere.*#WHITE#\
 Oh no, another *adventurer*! You should not mess with things beyond your comprehension!\
 Do not meddle in the affairs of Time, for it passes swiftly and is easily disrupted!\
 #LIGHT_GREEN#*He looks at you more closely.*#WHITE#\
-You seem capable. Help me, fight the abominations while I repair the timeline. It is your only way out!", "#LIGHT_GREEN#*A tall man, glowing like a star, appears out of nowhere.*#WHITE#\
-Oh no, another *adventurer*! You should not mess with things beyond your comprehension!\
-Do not meddle in the affairs of Time, for it passes swiftly and is easily disrupted!\
-#LIGHT_GREEN#*He looks at you more closely.*#WHITE#\
-You seem capable. Help me, fight the abominations while I repair the timeline. It is your only way out!", "_t") -- 
-t("But what is all th...", "But what is all th...", "_t") -- 
+You seem capable. Help me, fight the abominations while I repair the timeline. It is your only way out!", "#LIGHT_GREEN#*Un grand homme, rayonnant comme une étoile, apparaît de nulle part.*#WHITE#\
+Oh non, un autre *aventurier* ! Vous ne devez pas vous mêler de choses qui dépassent votre compréhension!\
+Ne vous mêlez pas des affaires du Temps, car il passe vite et est facilement perturbé!\
+#LIGHT_GREEN#*Il vous regarde de plus près.*#WHITE#\
+Vous semblez compétent. Aidez-moi, combattez les abominations pendant que je répare la ligne du temps. C'est votre seule issue!", "_t") -- 
+t("But what is all th...", "Mais qu'est-ce que tout cela...", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/the-master-resurrect.lua"
+section "game/modules/tome//data/chats/the-master-resurrect.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*The Master crumbles before you, vanquished. Yet in the blink of an eye you see his form recreating from dust; unharmed and ready to fight again!*#WHITE#\
-Ahah you fool! See how even death has no meaning for me; for I am the Master and you are my toy, now and forever.", "#LIGHT_GREEN#*The Master crumbles before you, vanquished. Yet in the blink of an eye you see his form recreating from dust; unharmed and ready to fight again!*#WHITE#\
-Ahah you fool! See how even death has no meaning for me; for I am the Master and you are my toy, now and forever.", "_t") -- 
-t("Never! Die!", "Never! Die!", "_t") -- 
+Ahah you fool! See how even death has no meaning for me; for I am the Master and you are my toy, now and forever.", "#LIGHT_GREEN#*Le Maître s'effondre devant vous, vaincu. Pourtant, en un clin d'œil, vous voyez sa forme se recréer à partir de la poussière; indemne et prêt à combattre à nouveau!*#WHITE#\
+Ahah, espèce d'idiot! Vois comme même la mort n'a aucune signification pour moi; car je suis le Maître et tu es mon jouet, maintenant et pour toujours.", "_t") -- 
+t("Never! Die!", "Jamais! Meurt!", "_t") -- 
 
 
 ------------------------------------------------
