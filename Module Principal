@@ -6440,110 +6440,110 @@ t("ARRGGggg... You are alone! You will be destroyed!", "ARRGGggg... Vous êtes s
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/unremarkable-cave-bosses.lua"
+section "game/modules/tome//data/chats/unremarkable-cave-bosses.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*A beautiful Elven woman in golden robes stands before you, facing an orc clad in mail.*#WHITE#\
 Fillarel: \"Abandon this fight, orc! You cannot win: I stand with the power of the Sun and the shadows of the Moons.\"\
 Krogar: \"Ha! It's only been one hour and you already look tired, my 'lady'.\"\
 #LIGHT_GREEN#*As you enter the room they notice you.*#WHITE#\
 Fillarel: \"You! @playerdescriptor.race@! Help me defeat this monster or begone!\"\
-Krogar: \"Ah, looking for help? Bah. @playerdescriptor.race@, kill this wench for me and I shall reward you!\"", "#LIGHT_GREEN#*A beautiful Elven woman in golden robes stands before you, facing an orc clad in mail.*#WHITE#\
-Fillarel: \"Abandon this fight, orc! You cannot win: I stand with the power of the Sun and the shadows of the Moons.\"\
-Krogar: \"Ha! It's only been one hour and you already look tired, my 'lady'.\"\
-#LIGHT_GREEN#*As you enter the room they notice you.*#WHITE#\
-Fillarel: \"You! @playerdescriptor.race@! Help me defeat this monster or begone!\"\
-Krogar: \"Ah, looking for help? Bah. @playerdescriptor.race@, kill this wench for me and I shall reward you!\"", "_t") -- 
-t("[attack Krogar]", "[attack Krogar]", "_t") -- 
+Krogar: \"Ah, looking for help? Bah. @playerdescriptor.race@, kill this wench for me and I shall reward you!\"", "#LIGHT_GREEN#*Une belle femme elfe en robe dorée se tient devant vous, face à un orque enveloppé de mailles.*#WHITE#\
+Fillarel : \"Abandonnez ce combat, orc ! Vous ne pouvez pas gagner : Je me bats avec le pouvoir du Soleil et les ombres des Lunes.\"\
+Krogar : \"Ça ne fait qu'une heure et vous avez déjà l'air fatigué, ma 'dame'.\"\
+#LIGHT_GREEN#*Lorsque vous entrez dans la salle, ils vous remarquent.*#WHITE#\
+Fillarel : \"Toi ! @playerdescriptor.race@ ! Aide-moi à vaincre ce monstre ou disparais !\"\
+Krogar : \"Ah, vous cherchez de l'aide ? Bah. @playerdescriptor.race@, tue cette jeune fille pour moi et je te récompenserai !\"", "_t") -- 
+t("[attack Krogar]", "[attaquer Krogar]", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/unremarkable-cave-fillarel.lua"
+section "game/modules/tome//data/chats/unremarkable-cave-fillarel.lua" -- Trad et Test par Dirian
 
-t("Thank you, @playername@. I hate to admit it, but you saved my life.", "Thank you, @playername@. I hate to admit it, but you saved my life.", "_t") -- 
-t("At your service. But may I ask what you were doing in this dark place?", "At your service. But may I ask what you were doing in this dark place?", "_t") -- 
-t("At your service. I have been gone for months, but I can feel it, at last this is my homeland!", "At your service. I have been gone for months, but I can feel it, at last this is my homeland!", "_t") -- 
+t("Thank you, @playername@. I hate to admit it, but you saved my life.", "Merci, @playername@. Je dois avouer que vous m'avez sauvé la vie.", "_t") -- 
+t("At your service. But may I ask what you were doing in this dark place?", "A votre service. Mais puis-je vous demander ce que vous faisiez dans ce lieu obscure ?", "_t") -- 
+t("At your service. I have been gone for months, but I can feel it, at last this is my homeland!", "A votre service. Je suis parti depuis des mois, mais je le sens, enfin c'est ma patrie !", "_t") -- 
 t("I am an Anorithil, a mage of the Sun and Moons; we fight all that is evil. I was with a group of Sun Paladins; we came from the Gates of Morning to the east.\
-My companions were... were slaughtered by orcs, and I nearly died as well. Thank you again for your help.", "I am an Anorithil, a mage of the Sun and Moons; we fight all that is evil. I was with a group of Sun Paladins; we came from the Gates of Morning to the east.\
-My companions were... were slaughtered by orcs, and I nearly died as well. Thank you again for your help.", "_t") -- 
-t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "_t") -- 
+My companions were... were slaughtered by orcs, and I nearly died as well. Thank you again for your help.", "Je suis une Anorithil, une mage du Soleil et des Lunes ; nous combattons tout ce qui est mauvais. J'étais avec un groupe de Paladins du Soleil ; nous sommes venus des Portes du Matin à l'est.\
+Mes compagnons ont été... massacrés par des orcs, et j'ai failli mourir moi aussi. Merci encore pour votre aide.", "_t") -- 
+t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "C'était mon plaisir. Mais puis-je demander une faveur moi-même ? Je ne suis pas de ces terres. J'ai utilisé un prtail lointain gardé par des orcs au plus profond du trône de fer qui m'a amené ici.", "_t") -- 
 t("Yes, I noticed you were not from here. Your only hope is the Gates of Morning, the last bastion of freedom in this orc territory. When you leave the caves, head southeast; you cannot miss it.\
-Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.", "Yes, I noticed you were not from here. Your only hope is the Gates of Morning, the last bastion of freedom in this orc territory. When you leave the caves, head southeast; you cannot miss it.\
-Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.", "_t") -- 
-t("Thank you, I will talk with Aeryn.", "Thank you, I will talk with Aeryn.", "_t") -- 
+Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.", "Oui, j'ai remarqué que vous n'étiez pas d'ici. Votre seul espoir est les portes du matin, le dernier bastion de la liberté dans ce territoire orc. Lorsque vous quitterez les grottes, dirigez-vous vers le sud-est ; vous ne pouvez pas le manquer.\
+Dites au Haut Paladin du Soleil Aeryn que vous m'avez rencontré. J'enverrai un mot pour vous laisser passer.", "_t") -- 
+t("Thank you, I will talk with Aeryn.", "Merci, je parlerai à Aeryn.", "_t") -- 
 t("Gone? Wait, this face.. you are @playername@! We thought you died in the naga portal explosion!\
 Thanks to your courage the Gates of Morning still stand.\
-You should go there at once.", "Gone? Wait, this face.. you are @playername@! We thought you died in the naga portal explosion!\
-Thanks to your courage the Gates of Morning still stand.\
-You should go there at once.", "_t") -- 
-t("Sadly I am the bringer of bad news, the orcs are planning something. Good luck, my lady.", "Sadly I am the bringer of bad news, the orcs are planning something. Good luck, my lady.", "_t") -- 
+You should go there at once.", "Parti ? Attends, ce visage... tu es @playername@ ! On pensait que tu étais mort dans l'explosion du portail naga !\
+Grâce à ton courage, les Portes du Matin sont toujours là.\
+Vous devriez y aller immédiatement.", "_t") -- 
+t("Sadly I am the bringer of bad news, the orcs are planning something. Good luck, my lady.", "Malheureusement, je suis porteur de mauvaises nouvelles, les orcs préparent quelque chose. Bonne chance, ma dame.", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/unremarkable-cave-krogar.lua"
+section "game/modules/tome//data/chats/unremarkable-cave-krogar.lua" -- Trad et Test par Dirian
 
-t("@playerdescriptor.race@, you have helped me kill the Elf-wench. The Orc Pride thanks you... for now", "@playerdescriptor.race@, you have helped me kill the Elf-wench. The Orc Pride thanks you... for now", "_t") -- 
-t("I hate Elves anyway...", "I hate Elves anyway...", "_t") -- 
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/ward.lua"
-
-t("Call forth which ward?", "Call forth which ward?", "_t") -- 
-t("Fire [%d]", "Fire [%d]", "tformat") -- 
-t("Lightning [%d]", "Lightning [%d]", "tformat") -- 
-t("Cold [%d]", "Cold [%d]", "tformat") -- 
-t("Arcane [%d]", "Arcane [%d]", "tformat") -- 
-t("Light [%d]", "Light [%d]", "tformat") -- 
-t("Darkness [%d]", "Darkness [%d]", "tformat") -- 
-t("Temporal [%d]", "Temporal [%d]", "tformat") -- 
-t("Physical [%d]", "Physical [%d]", "tformat") -- 
-t("Nature [%d]", "Nature [%d]", "tformat") -- 
-t("Blight [%d]", "Blight [%d]", "tformat") -- 
-t("Acid [%d]", "Acid [%d]", "tformat") -- 
-t("Mind [%d]", "Mind [%d]", "tformat") -- 
-t("Never mind", "Never mind", "_t") -- 
+t("@playerdescriptor.race@, you have helped me kill the Elf-wench. The Orc Pride thanks you... for now", "@playerdescriptor.race@, vous m'avez aidé à tuer la jeune elfe. Les clans Orcs vous remercie... pour l'instant", "_t") -- 
+t("I hate Elves anyway...", "Je déteste les Elfes de toute façon...", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/worldly-knowledge.lua"
+section "game/modules/tome//data/chats/ward.lua" -- Trad et Test par Dirian
 
-t("[%s (at mastery %0.2f)]", "[%s (at mastery %0.2f)]", "tformat") -- 
+t("Call forth which ward?", "Appeler quel garde ?", "_t")
+t("Fire [%d]", "Feu [%d]", "tformat")
+t("Lightning [%d]", "Foudre [%d]", "tformat")
+t("Cold [%d]", "Froid [%d]", "tformat")
+t("Arcane [%d]", "Arcane [%d]", "tformat")
+t("Light [%d]", "Lumière[%d]", "tformat")
+t("Darkness [%d]", "Obscurité [%d]", "tformat")
+t("Temporal [%d]", "Temporel [%d]", "tformat")
+t("Physical [%d]", "Physique [%d]", "tformat")
+t("Nature [%d]", "Nature [%d]", "tformat")
+t("Blight [%d]", "Maladie [%d]", "tformat")
+t("Acid [%d]", "Acide [%d]", "tformat")
+t("Mind [%d]", "Esprit [%d]", "tformat")
+t("Never mind", "Peu importe", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome//data/chats/worldly-knowledge.lua" -- Trad et Test par Dirian
+
+t("[%s (at mastery %0.2f)]", "[%s( à la maîtrise %0.2f)]", "tformat") -- 
 t("#GOLD#%s / %s#LAST#\
 ", "#GOLD#%s / %s#LAST#\
 ", "tformat") -- 
-t("Learn which category?", "Learn which category?", "_t") -- 
+t("Learn which category?", "Apprendre quelle catégorie ?", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/yeek-wayist.lua"
+section "game/modules/tome//data/chats/yeek-wayist.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*Before you stands a creature about as tall as a Halfling, covered in small white fur and with a disproportionate head.\
 You also notice he does not wield his greatsword. It seems to float in the air, bound to his will.*#WHITE#\
-Why did you save me, stranger? You are not of the Way.", "#LIGHT_GREEN#*Before you stands a creature about as tall as a Halfling, covered in small white fur and with a disproportionate head.\
-You also notice he does not wield his greatsword. It seems to float in the air, bound to his will.*#WHITE#\
-Why did you save me, stranger? You are not of the Way.", "_t") -- 
-t("Well, you seemed to need help.", "Well, you seemed to need help.", "_t") -- 
-t("So I could rip your throat myself!", "So I could rip your throat myself!", "_t") -- 
+Why did you save me, stranger? You are not of the Way.", "#LIGHT_GREEN#*Devant vous se tient une créature à peu près aussi grande qu'un Halfelin, couverte d'une petite fourrure blanche et dotée d'une tête disproportionnée.\
+Vous remarquez également qu'il ne manie pas sa grande épée. Elle semble flotter dans l'air, lié à sa volonté.*#WHITE#\
+Pourquoi m'avez-vous sauvé, étranger ? Vous n'êtes pas de la Voie.", "_t") -- 
+t("Well, you seemed to need help.", "Eh bien, vous sembliez avoir besoin d'aide.", "_t") -- 
+t("So I could rip your throat myself!", "Pour que je puisse te trancher la gorge moi-même !", "_t") -- 
 t("#LIGHT_GREEN#*The greatsword floats to a less aggressive stance. He seems surprised.*#WHITE#\
-Then, on behalf of the Way, I thank you.", "#LIGHT_GREEN#*The greatsword floats to a less aggressive stance. He seems surprised.*#WHITE#\
-Then, on behalf of the Way, I thank you.", "_t") -- 
-t("What is the Way, and what are you?", "What is the Way, and what are you?", "_t") -- 
-t("The Way is enlightenment, peace and protection. I am a Yeek. I came through this tunnel to explore this part of the world that was closed to us for centuries.", "The Way is enlightenment, peace and protection. I am a Yeek. I came through this tunnel to explore this part of the world that was closed to us for centuries.", "_t") -- 
-t("Can you tell me more about the Way?", "Can you tell me more about the Way?", "_t") -- 
-t("Select the party member to receive the mental shield:", "Select the party member to receive the mental shield:", "_t") -- 
-t("The contact with the Wayist mind has improved your mental shields. (+15 mental save, +10%% confusion resistance)", "The contact with the Wayist mind has improved your mental shields. (+15 mental save, +10%% confusion resistance)", "logPlayer") -- 
-t("I am never alone. I have the Way.", "I am never alone. I have the Way.", "_t") -- 
-t("Farewell, then.", "Farewell, then.", "_t") -- 
+Then, on behalf of the Way, I thank you.", "#LIGHT_GREEN#*La grande épée flotte vers une position moins agressive. Il semble surpris.*#WHITE#\
+Alors, au nom de la Voie, je vous remercie.", "_t") -- 
+t("What is the Way, and what are you?", "Qu'est-ce que la Voie, et qu'êtes-vous ?", "_t") -- 
+t("The Way is enlightenment, peace and protection. I am a Yeek. I came through this tunnel to explore this part of the world that was closed to us for centuries.", "La Voie est l'illumination, la paix et la protection. Je suis un Yeek. Je suis venu par ce tunnel pour explorer cette partie du monde qui nous a été fermée pendant des siècles.", "_t") -- 
+t("Can you tell me more about the Way?", "Pouvez-vous m'en dire plus sur la Voie ?", "_t") -- 
+t("Select the party member to receive the mental shield:", "Sélectionnez le membre du groupe qui recevra le bouclier mental :", "_t") -- 
+t("The contact with the Wayist mind has improved your mental shields. (+15 mental save, +10%% confusion resistance)", "Le contact avec l'esprit de la Voie a amélioré vos boucliers mentaux. (+15 boucliers mentaux, +10%% de résistance à la confusion)", "logPlayer") -- 
+t("I am never alone. I have the Way.", "Je ne suis jamais seul. J'ai la Voie.", "_t") -- 
+t("Farewell, then.", "Alors, adieu.", "_t") -- 
 t("I cannot, but I may show you a glimpse.\
 #LIGHT_GREEN#*He leans toward you. Your mind is suddenly filled with feelings of peace and happiness.*#WHITE#\
-This is the Way.", "I cannot, but I may show you a glimpse.\
-#LIGHT_GREEN#*He leans toward you. Your mind is suddenly filled with feelings of peace and happiness.*#WHITE#\
-This is the Way.", "_t") -- 
-t("Thank you for this vision. Farewell, my friend.", "Thank you for this vision. Farewell, my friend.", "_t") -- 
-t("Thank the Way. This... thing... would have killed me.", "Thank the Way. This... thing... would have killed me.", "_t") -- 
-t("The Way sent me to explore this side of the tunnel.", "The Way sent me to explore this side of the tunnel.", "_t") -- 
-t("Yes, me too. We should split up to cover more ground.", "Yes, me too. We should split up to cover more ground.", "_t") -- 
-t("Farewell. We are the Way, always.", "Farewell. We are the Way, always.", "_t") -- 
+This is the Way.", "Je ne peux pas, mais je peux vous en montrer un aperçu.\
+#LIGHT_GREEN#*Il se penche vers vous. Votre esprit est soudain rempli de sentiments de paix et de bonheur.*#WHITE#\
+C'est la Voie.", "_t") -- 
+t("Thank you for this vision. Farewell, my friend.", "Merci pour cette vision. Adieu, mon ami.", "_t")
+t("Thank the Way. This... thing... would have killed me.", "Remerciez la Voie. Cette... chose... m'aurait tué.", "_t")
+t("The Way sent me to explore this side of the tunnel.", "La Voie m'a envoyé pour explorer ce côté du tunnel.", "_t")
+t("Yes, me too. We should split up to cover more ground.", "Oui, moi aussi. Nous devrions nous séparer pour couvrir plus de terrain.", "_t")
+t("Farewell. We are the Way, always.", "Adieu. Nous sommes la Voie, à jamais.", "_t")
 
 
 ------------------------------------------------
