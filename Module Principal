@@ -6296,31 +6296,31 @@ t("Never! Die!", "Jamais! Meurt!", "_t") --
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/trap-priming.lua"
+section "game/modules/tome//data/chats/trap-priming.lua" -- Trad et Test par Dirian
 
-t("[Cancel]", "[Cancel]", "_t") -- 
-t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#You cannot prepare this trap: %s.", "logPlayer") -- 
-t("Not Prepared", "Not Prepared", "_t") -- 
-t("Primed Trigger", "Primed Trigger", "_t") -- 
-t("Not Usable", "Not Usable", "_t") -- 
-t("Normal Trigger", "Normal Trigger", "_t") -- 
+t("[Cancel]", "[Annuler]", "_t") -- 
+t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#Vous ne pouvez pas préparer ce piège: %s.", "logPlayer") -- 
+t("Not Prepared", "Non préparé", "_t") -- 
+t("Primed Trigger", "Déclenchement amorcé", "_t") -- 
+t("Not Usable", "Non utilisable", "_t") -- 
+t("Normal Trigger", "Déclanchement normal", "_t") -- 
 t("%s[%s: %s]#LAST#", "%s[%s: %s]#LAST#", "tformat") -- 
 t("#GOLD#%s#LAST#\
 %s", "#GOLD#%s#LAST#\
 %s", "tformat") -- 
 t("Choose a trap to prepare with a primed (instant) trigger or to dismantle.\
-#YELLOW#Newly prepared traps are placed on cooldown.#LAST#", "Choose a trap to prepare with a primed (instant) trigger or to dismantle.\
-#YELLOW#Newly prepared traps are placed on cooldown.#LAST#", "_t") -- 
+#YELLOW#Newly prepared traps are placed on cooldown.#LAST#", "Choisissez un piège à préparer avec une amorce (instantanée) ou à démanteler.\
+#YELLOW#Les pièges récemment préparés sont placés en rechargement.#LAST#", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/tutorial-start.lua"
+section "game/modules/tome//data/chats/tutorial-start.lua" -- Trad et Test par Dirian
 
-t("Hello there. What subject interests you?", "Hello there. What subject interests you?", "_t") -- 
-t("Basic gameplay", "Basic gameplay", "_t") -- 
-t("Combat stat mechanics", "Combat stat mechanics", "_t") -- 
-t("Never mind.", "Never mind.", "_t") -- 
-t("Is there nothing more for me to learn here?", "Is there nothing more for me to learn here?", "_t") -- 
+t("Hello there. What subject interests you?", "Bonjour à tous. Quel sont les sujets qui vous intéressent?", "_t") -- 
+t("Basic gameplay", "Bases du jeu", "_t") -- 
+t("Combat stat mechanics", "Combat et mécanique de jeu", "_t") -- 
+t("Never mind.", "Aucune importance.", "_t") -- 
+t("Is there nothing more for me to learn here?", "N'y a-t-il rien de plus à apprendre ici?", "_t") -- 
 t("\
 You have completed all the tutorials, and should now know the basics of ToME4. You are ready to step forward into the world to find glory, treasures and be mercilessly slaughtered by hordes of creatures you thought you could handle!\
 \
@@ -6332,27 +6332,27 @@ If this is your first time with the game, you will find the selection of races a
 \
 Now go boldly and remember: #GOLD#have fun!#WHITE#\
 Press #GOLD#Escape#WHITE#, then select #GOLD#Save and Exit#WHITE#, and create a new character!", "\
-You have completed all the tutorials, and should now know the basics of ToME4. You are ready to step forward into the world to find glory, treasures and be mercilessly slaughtered by hordes of creatures you thought you could handle!\
+Vous avez terminé tous les tutoriels, et vous devriez maintenant connaître les bases de ToME4. Vous êtes prêt à vous avancer dans le monde pour trouver la gloire, des trésors et être impitoyablement massacré par des hordes de créatures que vous pensiez pouvoir gérer!\
 \
-During this tutorial some creatures were adjusted according to the needs of the lessons. In the unforgiving world of Eyal, monsters are rarely this nice!\
+Au cours de ce tutoriel, certaines créatures ont été ajustées en fonction des besoins des leçons. Dans le monde impitoyable d'Eyal, les monstres sont rarement aussi gentils!\
 \
-If you need a reminder of which key does what, you can access the game menu by pressing #GOLD#Escape#WHITE# and checking the key binds. You can also adjust them to suit your needs.\
+Si vous avez besoin de vous rappeler quelle touche fait quoi, vous pouvez accéder au menu du jeu en appuyant sur #GOLD#Escape#WHITE# et en vérifiant les raccourcis des touches. Vous pouvez également les ajuster en fonction de vos besoins.\
 \
-If this is your first time with the game, you will find the selection of races and classes limited. Don't worry; many, many more will become available as you unlock them during your adventures. \
+Si c'est la première fois que vous utilisez le jeu, vous trouverez la sélection des races et des classes limitée. Ne vous inquiétez pas, beaucoup, beaucoup d'autres seront disponibles au fur et à mesure que vous les débloquerez au cours de vos aventures.\
 \
-Now go boldly and remember: #GOLD#have fun!#WHITE#\
-Press #GOLD#Escape#WHITE#, then select #GOLD#Save and Exit#WHITE#, and create a new character!", "_t") -- 
-t("Thank you.", "Thank you.", "_t") -- 
+Maintenant, allez-y courageusement et souvenez-vous: #GOLD#Amusez vous!#WHITE#\
+Appuyez sur #GOLD#Escape#WHITE#, puis sélectionnez #GOLD#Save et Exit#WHITE#, et créez un nouveau personnage!", "_t") -- 
+t("Thank you.", "Merci.", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/ukllmswwik.lua"
+section "game/modules/tome//data/chats/ukllmswwik.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*@npcname@'s deep voice booms through the caverns.*#WHITE#\
-This is my domain, and I do not take kindly to intruders. What is your purpose here?", "#LIGHT_GREEN#*@npcname@'s deep voice booms through the caverns.*#WHITE#\
-This is my domain, and I do not take kindly to intruders. What is your purpose here?", "_t") -- 
-t("I am here to kill you and take your treasures! Die, damned fish!", "I am here to kill you and take your treasures! Die, damned fish!", "_t") -- 
-t("I did not mean to intrude. I shall leave now.", "I did not mean to intrude. I shall leave now.", "_t") -- 
+This is my domain, and I do not take kindly to intruders. What is your purpose here?", "#LIGHT_GREEN#*La voix profonde de @npcname@ s'élève à travers les cavernes.*#WHITE#\
+C'est mon domaine, et je n'aime pas les intrus. Quel est votre intention ?", "_t") -- 
+t("I am here to kill you and take your treasures! Die, damned fish!", "Je suis ici pour vous tuer et prendre vos trésors ! Mourrez, satanés poissons !", "_t") -- 
+t("I did not mean to intrude. I shall leave now.", "Je ne voulais pas vous déranger. Je vais partir immédiatement.", "_t") -- 
 t("Wait! You seem to be worthy, so let me tell you a story.\
 During the Age of Pyre the world was sundered by the last effects of the Spellblaze. A part of the continental shelf of Maj'Eyal was torn apart and thrown into the sea.\
 The Naloren Elves perished... or so the world thinks. Some of them survived; using ancient Sher'Tul magic they had kept for themselves, they transformed to live underwater.\
@@ -6361,82 +6361,82 @@ One of them, Slasul, rebelled against his order and decided he wanted the world 
 He believes he can use it to #{italic}#improve#{normal}# nagas.\
 But he has become mad and now looks upon all other intelligent water life as a threat, and that includes myself.\
 I cannot leave this sanctuary, but perhaps you could help me?\
-After all, it would be an act of mercy to end his madness.", "Wait! You seem to be worthy, so let me tell you a story.\
-During the Age of Pyre the world was sundered by the last effects of the Spellblaze. A part of the continental shelf of Maj'Eyal was torn apart and thrown into the sea.\
-The Naloren Elves perished... or so the world thinks. Some of them survived; using ancient Sher'Tul magic they had kept for themselves, they transformed to live underwater.\
-They are now called the nagas. They live deep in the ocean between Maj'Eyal and the Far East.\
-One of them, Slasul, rebelled against his order and decided he wanted the world for himself, both underwater and above. He found an ancient temple, probably a Sher'Tul remain, called the Temple of Creation.\
-He believes he can use it to #{italic}#improve#{normal}# nagas.\
-But he has become mad and now looks upon all other intelligent water life as a threat, and that includes myself.\
-I cannot leave this sanctuary, but perhaps you could help me?\
-After all, it would be an act of mercy to end his madness.", "_t") -- 
-t("DIE!", "DIE!", "_t") -- 
-t("I would still rather kill you and take your treasure!", "I would still rather kill you and take your treasure!", "_t") -- 
-t("I shall do as you say, but how do I find him?", "I shall do as you say, but how do I find him?", "_t") -- 
-t("That seems... unwise. My apologies, but I must refuse.", "That seems... unwise. My apologies, but I must refuse.", "_t") -- 
-t("I can open a portal to his lair, far away in the western sea, but be warned: this is one-way only. I cannot bring you back. You will have to find your own way.", "I can open a portal to his lair, far away in the western sea, but be warned: this is one-way only. I cannot bring you back. You will have to find your own way.", "_t") -- 
-t("I will.", "I will.", "_t") -- 
-t("This is a death trap! Goodbye.", "This is a death trap! Goodbye.", "_t") -- 
-t("Yes?", "Yes?", "_t") -- 
-t("TREACHERY!", "TREACHERY!", "_t") -- 
-t("I want your treasures, water beast!", "I want your treasures, water beast!", "_t") -- 
-t("Oh, is that so? Well, COME GET THEM!", "Oh, is that so? Well, COME GET THEM!", "_t") -- 
-t("I spoke with Slasul, and he did not seem hostile, or mad.", "I spoke with Slasul, and he did not seem hostile, or mad.", "_t") -- 
-t("Farewell, dragon.", "Farewell, dragon.", "_t") -- 
+After all, it would be an act of mercy to end his madness.", "Attendez ! Vous semblez en être digne, alors laissez-moi vous raconter une histoire.\
+Pendant l'ère du bûcher, le monde a été brisé par les derniers effets de la Brûlure magique. Une partie du plateau continental du Maj'Eyal a été déchirée et jetée à la mer.\
+Les Elfes de Naloren ont péri... du moins c'est ce que le monde pense. Certains d'entre eux ont survécu ; grâce à la magie ancienne des Sher'Tul qu'ils avaient gardée pour eux, ils se sont transformés pour vivre sous l'eau.\
+On les appelle maintenant les nagas. Ils vivent dans les profondeurs de l'océan entre Maj'Eyal et l'Extrême-Orient.\
+L'un d'eux, Slasul, s'est rebellé contre son ordre et a décidé qu'il voulait le monde pour lui, sous l'eau et au-dessus. Il a trouvé un ancien temple, probablement un vestige des Sher'Tul, appelé le Temple de la Création.\
+Il croit pouvoir l'utiliser pour #{italic}#améliorer#{normal}# les nagas.\
+Mais il est devenu fou et considère maintenant toutes les autres formes de vie aquatique intelligente comme une menace, et cela m'inclut.\
+Je ne peux pas quitter ce sanctuaire, mais peut-être pourriez-vous m'aider ?\
+Après tout, ce serait un acte de pitié de mettre fin à sa folie.", "_t") -- 
+t("DIE!", "MEURT !", "_t") -- 
+t("I would still rather kill you and take your treasure!", "Je préfère encore vous tuer et prendre votre trésor !", "_t") -- 
+t("I shall do as you say, but how do I find him?", "Je ferai comme vous le dites, mais comment le trouver ?", "_t") -- 
+t("That seems... unwise. My apologies, but I must refuse.", "Cela semble... peu raisonnable. Mes excuses, mais je dois refuser.", "_t") -- 
+t("I can open a portal to his lair, far away in the western sea, but be warned: this is one-way only. I cannot bring you back. You will have to find your own way.", "Je peux ouvrir un portail vers sa tanière, loin dans la mer occidentale, mais attention : c'est à sens unique. Je ne peux pas vous ramener. Vous devrez trouver votre propre chemin.", "_t") -- 
+t("I will.", "Je le ferai.", "_t") -- 
+t("This is a death trap! Goodbye.", "C'est un piège mortel ! Adieu.", "_t") -- 
+t("Yes?", "Oui ?", "_t") -- 
+t("TREACHERY!", "TRAHISON !", "_t") -- 
+t("I want your treasures, water beast!", "Je veux tes trésors, monstre des eaux !!", "_t") -- 
+t("Oh, is that so? Well, COME GET THEM!", "Oh, c'est vrai ? Eh bien, VIENS LES CHERCHER !", "_t") -- 
+t("I spoke with Slasul, and he did not seem hostile, or mad.", "J'ai parlé avec Slasul, et il n'a pas semblé hostile, ni fou.", "_t") -- 
+t("Farewell, dragon.", "Adieu, dragon.", "_t") -- 
 t("#LIGHT_GREEN#*@npcname@ roars!*#WHITE# You listen to the lies of this mad naga!\
-You are corrupted! TAINTED!", "#LIGHT_GREEN#*@npcname@ roars!*#WHITE# You listen to the lies of this mad naga!\
-You are corrupted! TAINTED!", "_t") -- 
-t("DO NOT MEDDLE IN THE AFFAIRS OF DRAGONS!", "DO NOT MEDDLE IN THE AFFAIRS OF DRAGONS!", "_t") -- 
-t("[attack]", "[attack]", "_t") -- 
-t("#LIGHT_GREEN#*Shake your head.*#LAST#He swayed my mind! Please, I am not your enemy.", "#LIGHT_GREEN#*Shake your head.*#LAST#He swayed my mind! Please, I am not your enemy.", "_t") -- 
-t("#LIGHT_GREEN#*@npcname@ calms down!*#WHITE# Very well; he is indeed a trickster.  Now go finish your task, or do not come back!", "#LIGHT_GREEN#*@npcname@ calms down!*#WHITE# Very well; he is indeed a trickster.  Now go finish your task, or do not come back!", "_t") -- 
-t("Thank you, mighty one.", "Thank you, mighty one.", "_t") -- 
+You are corrupted! TAINTED!", "#LIGHT_GREEN#*@npcname@ Rugit !*#WHITE# Vous écoutez les mensonges de ce naga fou !\
+Vous êtes corrompus ! SOUILLE !", "_t") -- 
+t("DO NOT MEDDLE IN THE AFFAIRS OF DRAGONS!", "NE VOUS MÊLEZ PAS DES AFFAIRES DES DRAGONS !", "_t") -- 
+t("[attack]", "[attaquer]", "_t") -- 
+t("#LIGHT_GREEN#*Shake your head.*#LAST#He swayed my mind! Please, I am not your enemy.", "#LIGHT_GREEN#*Secoue la tête.*#LAST#Il a du influencer mon esprit ! Je vous en prie, je ne suis pas votre ennemi.", "_t") -- 
+t("#LIGHT_GREEN#*@npcname@ calms down!*#WHITE# Very well; he is indeed a trickster.  Now go finish your task, or do not come back!", "#LIGHT_GREEN#*@npcname@ se calme*#WHITE# Très bien, c'est effectivement un tricheur.  Maintenant, allez finir votre tâche, ou ne revenez pas !", "_t") -- 
+t("Thank you, mighty one.", "Merci, puissant seigneur.", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/undead-start-game.lua"
+section "game/modules/tome//data/chats/undead-start-game.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*Before you stands a Human clothed in black robes. He seems to be ignoring you.*#WHITE#\
 #LIGHT_GREEN#*You stand inside some kind of summoning circle, which prevents you from moving.*#WHITE#\
-Oh yes! YES, one more for my collection. My collection, yes. A powerful one indeed!", "#LIGHT_GREEN#*Before you stands a Human clothed in black robes. He seems to be ignoring you.*#WHITE#\
-#LIGHT_GREEN#*You stand inside some kind of summoning circle, which prevents you from moving.*#WHITE#\
-Oh yes! YES, one more for my collection. My collection, yes. A powerful one indeed!", "_t") -- 
-t("[listen]", "[listen]", "_t") -- 
+Oh yes! YES, one more for my collection. My collection, yes. A powerful one indeed!", "#LIGHT_GREEN#*Devant vous se tient un Humain vêtu d'une robe noire. Il semble vous ignorer.*#WHITE#\
+#LIGHT_GREEN#*Vous vous tenez à l'intérieur d'une sorte de cercle d'invocation, qui vous empêche de bouger.*#WHITE#\
+Oh oui ! OUI, un de plus pour ma collection. Ma collection, oui. Une collection puissante en effet !", "_t") -- 
+t("[listen]", "[écouter]", "_t") -- 
 t("A powerful tool against my enemies. Yes, yes. They all hate me, but I will show them my power!\
-I will show them! SHOW THEM!", "A powerful tool against my enemies. Yes, yes. They all hate me, but I will show them my power!\
-I will show them! SHOW THEM!", "_t") -- 
-t("I am not a tool! RELEASE ME!", "I am not a tool! RELEASE ME!", "_t") -- 
+I will show them! SHOW THEM!", "Un outil puissant contre mes ennemis. Oui, oui. Ils me haïssent tous, mais je vais leur montrer ma puissance !\
+Je leur montrerai ! MONTREZ-LEUR !", "_t") -- 
+t("I am not a tool! RELEASE ME!", "Je ne suis pas un pantin ! LIBÉREZ-MOI !", "_t") -- 
 t("You cannot talk. You cannot talk! You are a slave, a tool!\
 You are mine! Be quiet!\
 #LIGHT_GREEN#*As his mind drifts off you notice part of the summoning circle is fading. You can probably escape!*#WHITE#\
-", "You cannot talk. You cannot talk! You are a slave, a tool!\
-You are mine! Be quiet!\
-#LIGHT_GREEN#*As his mind drifts off you notice part of the summoning circle is fading. You can probably escape!*#WHITE#\
+", "Vous ne pouvez pas parler. Vous ne pouvez pas parler ! Vous êtes un esclave, un outil !\
+Tu es à moi ! Tais-toi !\
+#LIGHT_GREEN#* Alors que son esprit s'éloigne, vous remarquez qu'une partie du cercle d'invocation s'efface. Vous pouvez probablement vous échapper !*#WHITE#\
 ", "_t") -- 
-t("[attack]", "[attack]", "_t") -- 
+t("[attack]", "[attaquer]", "_t") -- 
 
 
 ------------------------------------------------
-section "game/modules/tome//data/chats/undead-start-kill.lua"
+section "game/modules/tome//data/chats/undead-start-kill.lua" -- Trad et Test par Dirian
 
 t("#LIGHT_GREEN#*He falls to his knees.*#WHITE#\
-Please spare me! I am pitiful. I will not stop you. Let me leave!", "#LIGHT_GREEN#*He falls to his knees.*#WHITE#\
-Please spare me! I am pitiful. I will not stop you. Let me leave!", "_t") -- 
-t("No!", "No!", "_t") -- 
+Please spare me! I am pitiful. I will not stop you. Let me leave!", "#LIGHT_GREEN#*Il tombe à genoux.*#WHITE#\
+S'il vous plaît, épargnez-moi ! Je suis pitoyable. Je ne vous en empêcherai pas. Laissez-moi partir  !", "_t") -- 
+t("No!", "Non !", "_t") -- 
 t("But, but, you were my... you...\
 You need me! What do you think you will do on the surface? Everything you will meet will try to destroy you.\
-You are strong but you cannot resist them all!", "But, but, you were my... you...\
-You need me! What do you think you will do on the surface? Everything you will meet will try to destroy you.\
-You are strong but you cannot resist them all!", "_t") -- 
-t("So what do you propose?", "So what do you propose?", "_t") -- 
-t("[kill him]", "[kill him]", "_t") -- 
+You are strong but you cannot resist them all!", "Mais, mais, tu étais mon... tu...\
+Tu as besoin de moi ! Que pensez-vous faire à la surface ? Tout ce que vous rencontrerez tentera de vous détruire.\
+Vous êtes fort mais vous ne pouvez pas leur résister à tous !", "_t") -- 
+t("So what do you propose?", "Alors, que proposez-vous ?", "_t") -- 
+t("[kill him]", "[le tuer]", "_t") -- 
 t("I can give you a cloak that will conceal your true nature!\
 With it all people will see when they look at you is a normal average Human. You can go about your business.\
-Please!", "I can give you a cloak that will conceal your true nature!\
-With it all people will see when they look at you is a normal average Human. You can go about your business.\
-Please!", "_t") -- 
-t("Thanks for the information. Now you may die. [kill him]", "Thanks for the information. Now you may die. [kill him]", "_t") -- 
-t("ARRGGggg... You are alone! You will be destroyed!", "ARRGGggg... You are alone! You will be destroyed!", "_t") -- 
+Please!", "Je peux vous donner une cape qui dissimulera votre vraie nature !\
+Avec elle, tout le monde verra que vous êtes un être humain normal. Vous pourrez vaquer à vos occupations.\
+Je vous en prie !", "_t") -- 
+t("Thanks for the information. Now you may die. [kill him]", "Merci pour cette information. Maintenant tu peux mourir. [le tuer]", "_t") -- 
+t("ARRGGggg... You are alone! You will be destroyed!", "ARRGGggg... Vous êtes seul ! Vous serez détruits !", "_t") -- 
 
 
 ------------------------------------------------
