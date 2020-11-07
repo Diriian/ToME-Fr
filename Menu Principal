@@ -1,4 +1,5 @@
 locale "fr_FR"
+-- Modification du menu principal... pour le tutoriel "débuter" du discord
 
 ------------------------------------------------
 section "game/engines/default//data/keybinds/actions.lua"
