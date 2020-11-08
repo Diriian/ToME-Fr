@@ -41957,11 +41957,11 @@ t("Thank you, a Patreon page should now open in your browser.", "Thank you, a Pa
 ------------------------------------------------
 section "game/modules/tome//dialogs/GameOptions.lua"
 
-t("Game Options", "Game Options", "_t") -- 
-t("UI", "UI", "_t") -- 
-t("Gameplay", "Gameplay", "_t") -- 
-t("Online", "Online", "_t") -- 
-t("Misc", "Misc", "_t") -- 
+t("Game Options", "Options de jeu", "_t")
+t("UI", "IU", "_t") -- cohérence avec la traduction du fichier des menus
+t("Gameplay", "Gameplay", "_t")
+t("Online", "En ligne", "_t") -- cohérence avec la traduction du fichier des menus
+t("Misc", "Divers", "_t")
 t("Select the graphical mode to display the world.\
 Default is 'Modern'.\
 When you change it, make a new character or it may look strange.", "Select the graphical mode to display the world.\
@@ -42181,7 +42181,7 @@ t("Allow various events that are pushed by the server when playing online\
 #{bold}#Technical help only#{normal}#: Allow administrator to help in case of bugs or weirdness and allows website services (data reset, steam achievements push, ...) to work.\
 #{bold}#Disabled#{normal}#: Disallow all.\
 #WHITE#", "_t") -- 
-t("#GOLD##{bold}#Allow online events#WHITE##{normal}#", "#GOLD##{bold}#Allow online events#WHITE##{normal}#", "_t") -- 
+t("#GOLD##{bold}#Allow online events#WHITE##{normal}#", "#GOLD##{bold}#Permettre les événements en ligne#WHITE##{normal}#", "_t") -- cohérence avec la traduction du fichier des menus
 t("all", "all", "_t") -- 
 t("technical help only", "technical help only", "_t") -- 
 t("Disables all connectivity to the network.\
