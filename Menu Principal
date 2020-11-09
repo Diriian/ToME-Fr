@@ -1086,7 +1086,7 @@ t("- Level %d", "- Niveau %d", "tformat")
 t("- Talent %s (not known)", "- Talent %s (non connu)", "tformat")
 t("- Talent %s (%d)", "- Talent %s (%d)", "tformat")
 t("- Talent %s", "- Talent %s", "tformat")
-t("- Is %s", "- est %s", "tformat")
+t("- Is %s", "- est un(e) %s", "tformat")
 
 
 ------------------------------------------------
