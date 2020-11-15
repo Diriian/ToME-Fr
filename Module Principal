@@ -6,9 +6,9 @@ section "mod-tome/ai/escort.lua"
 
 -- nouveau texte
 --[==[
-t("Help!", "Help!", "_t")
-t(" %s to the %s!", " %s to the %s!", "tformat")
-t("Something", "Something", "_t")
+t("Help!", "Au Secours !", "_t")
+t(" %s to the %s!", " un(e) %s %s !", "tformat")
+t("Something", "Quelque chose", "_t")
 --]==]
 
 
@@ -18,16 +18,16 @@ section "mod-tome/ai/improved_tactical.lua"
 
 -- nouveau texte
 --[==[
-t("#ORCHID#%s wants escape(move) %0.2f (air: %s = %0.2f) on %s (%d, %d, air:%s = %s turns)", "#ORCHID#%s wants escape(move) %0.2f (air: %s = %0.2f) on %s (%d, %d, air:%s = %s turns)", "log")
-t("#ORCHID#%s wants escape(move) %0.2f (heal) in %s at(%d, %d) dam %d vs %d avail life)", "#ORCHID#%s wants escape(move) %0.2f (heal) in %s at(%d, %d) dam %d vs %d avail life)", "log")
-t("#GREY#__%s[%d] tactical AI: NO USEFUL ACTIONS", "#GREY#__%s[%d] tactical AI: NO USEFUL ACTIONS", "log")
-t("#GREY#%3d: %-40s score=%-+4.2f[Lx%-5.2f Sx%5.2f Mx%0.2f] (%s)", "#GREY#%3d: %-40s score=%-+4.2f[Lx%-5.2f Sx%5.2f Mx%0.2f] (%s)", "log")
-t("%s__%s[%d] tactical AI picked action[att:%d, turn %s]: (%s)%s {%-+4.2f [%s]}", "%s__%s[%d] tactical AI picked action[att:%d, turn %s]: (%s)%s {%-+4.2f [%s]}", "log")
-t("#GREY#__[%d]%s ACTION SUCCEEDED:  %s, tacs: %s, FT:%s", "#GREY#__[%d]%s ACTION SUCCEEDED:  %s, tacs: %s, FT:%s", "log")
-t("__[%d]%s #ORANGE# ACTION FAILED:  %s, FT:%s", "__[%d]%s #ORANGE# ACTION FAILED:  %s, FT:%s", "log")
-t("__[%d]%s #SLATE# tactical AI: NO ACTION, best: %s, %s", "__[%d]%s #SLATE# tactical AI: NO ACTION, best: %s, %s", "log")
-t("%s__turn %d: Invoking improved tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__turn %d: Invoking improved tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "log")
-t("#ROYAL_BLUE#---talents disabled---", "#ROYAL_BLUE#---talents disabled---", "log")
+t("#ORCHID#%s wants escape(move) %0.2f (air: %s = %0.2f) on %s (%d, %d, air:%s = %s turns)", "#ORCHID#%s veut s'enfuire(mouvement) %0.2f (air: %s = %0.2f) sur %s (%d, %d, air:%s = %s tours)", "log") -- 
+t("#ORCHID#%s wants escape(move) %0.2f (heal) in %s at(%d, %d) dam %d vs %d avail life)", "#ORCHID#%s veut s'enfuire(mouvement) %0.2f (soin) dans %s à(%d, %d) dommage %d contre %d vie dispo)", "log") -- 
+t("#GREY#__%s[%d] tactical AI: NO USEFUL ACTIONS", "#GREY#__%s[%d] IA tactique: PAS D'ACTION UTILE", "log") -- 
+t("#GREY#%3d: %-40s score=%-+4.2f[Lx%-5.2f Sx%5.2f Mx%0.2f] (%s)", "#GREY#%3d: %-40s score=%-+4.2f[Lx%-5.2f Sx%5.2f Mx%0.2f] (%s)", "log") -- 
+t("%s__%s[%d] tactical AI picked action[att:%d, turn %s]: (%s)%s {%-+4.2f [%s]}", "%s__%s[%d] L'IA tactique a choisi l'action[att:%d, tour %s]: (%s)%s {%-+4.2f [%s]}", "log") -- 
+t("#GREY#__[%d]%s ACTION SUCCEEDED:  %s, tacs: %s, FT:%s", "#GREY#__[%d]%s ACTION REUSSI:  %s, tacs: %s, FT:%s", "log") -- 
+t("__[%d]%s #ORANGE# ACTION FAILED:  %s, FT:%s", "__[%d]%s #ORANGE# ACTION ECHOUE:  %s, FT:%s", "log") -- 
+t("__[%d]%s #SLATE# tactical AI: NO ACTION, best: %s, %s", "__[%d]%s #SLATE# IA tactique: AUCUNE ACTION, battre: %s, %s", "log") -- 
+t("%s__turn %d: Invoking improved tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: Invoquer l'amélioration de l'IA tactique pour [%s]%s(%d,%d) cible:[%s]%s %s", "log") -- 
+t("#ROYAL_BLUE#---talents disabled---", "#ROYAL_BLUE#---talents désactivé---", "log") -- 
 --]==]
 
 
@@ -35,10 +35,10 @@ t("#ROYAL_BLUE#---talents disabled---", "#ROYAL_BLUE#---talents disabled---", "l
 section "mod-tome/ai/improved_talented.lua"
 
 
--- nouveau texte
+-- 'improved_talented_simple' non traduit car fait reference a un fichier ou une fonction
 --[==[
-t("%s__turn %d: Invoking improved_talented_simple AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__turn %d: Invoking improved_talented_simple AI for [%s]%s(%d,%d) target:[%s]%s %s", "log")
---]==]
+t("%s__turn %d: t("%s__turn %d: Invoking improved_talented_simple AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: invoque l'IA improved_talented_simple pour [%s]%s(%d,%d) cible:[%s]%s %s", "log") -- 
+
 
 
 ------------------------------------------------
@@ -47,8 +47,8 @@ section "mod-tome/ai/maintenance.lua"
 
 -- nouveau texte
 --[==[
-t("#ORCHID#__%s[%d]maintenance AI picked action: %s (%s)", "#ORCHID#__%s[%d]maintenance AI picked action: %s (%s)", "log")
-t("__%s[%d] #ORANGE# maintenance ACTION FAILED:  %s", "__%s[%d] #ORANGE# maintenance ACTION FAILED:  %s", "log")
+t("#ORCHID#__%s[%d]maintenance AI picked action: %s (%s)", "#ORCHID#__%s[%d]maintenance IA a choisi l'action: %s (%s)", "log") -- 
+t("__%s[%d] #ORANGE# maintenance ACTION FAILED:  %s", "__%s[%d] #ORANGE# maintenance ACTION ECHOUE:  %s", "log") -- 
 --]==]
 
 
@@ -58,8 +58,8 @@ section "mod-tome/ai/quests.lua"
 
 -- nouveau texte
 --[==[
-t("Protect Limmir from the demons coming from north-east. Hold them off!", "Protect Limmir from the demons coming from north-east. Hold them off!", "_t")
-t("This place is corrupted! I will cleanse it! Protect me while I do it!", "This place is corrupted! I will cleanse it! Protect me while I do it!", "_t")
+t("Protect Limmir from the demons coming from north-east. Hold them off!", "Proteger Limmir des démons venant du Nord Est. Retenez Les !", "_t") -- 
+t("This place is corrupted! I will cleanse it! Protect me while I do it!", "Cet endroit est corrompu ! Je vais le nettoyer ! Protégez-moi pendant que je le fais !", "_t") -- 
 --]==]
 
 
@@ -69,7 +69,7 @@ section "mod-tome/ai/sandworm_tunneler.lua"
 
 -- nouveau texte
 --[==[
-t("#OLIVE_DRAB#The %s burrows into the ground and disappears.", "#OLIVE_DRAB#The %s burrows into the ground and disappears.", "logSeen")
+t("#OLIVE_DRAB#The %s burrows into the ground and disappears.", "#OLIVE_DRAB#Le %s s'enfonce dans le sol et disparaît.", "logSeen") -- 
 --]==]
 
 
@@ -79,7 +79,7 @@ section "mod-tome/ai/shadow.lua"
 
 -- nouveau texte
 --[==[
-t("#PINK#%s returns to the shadows.", "#PINK#%s returns to the shadows.", "logPlayer")
+t("#PINK#%s returns to the shadows.", "#PINK#%s retourne dans les ombres.", "logPlayer") -- 
 --]==]
 
 
@@ -87,12 +87,12 @@ t("#PINK#%s returns to the shadows.", "#PINK#%s returns to the shadows.", "logPl
 section "mod-tome/ai/special_movements.lua"
 
 
--- nouveau texte
+-- 'flee_dmap_keep_los' non traduit car fait reference a un fichier ou une fonction
 --[==[
-t("__%s #GREY# (%d, %d) trying to move to a safe grid", "__%s #GREY# (%d, %d) trying to move to a safe grid", "log")
-t("#GREY#___Trying existing path to (%s, %s)", "#GREY#___Trying existing path to (%s, %s)", "log")
-t("#GREY#___Using new path to (%s, %s)", "#GREY#___Using new path to (%s, %s)", "log")
-t("__%s #GREY# (%d, %d) trying to flee_dmap_keep_los to (%d, %d)", "__%s #GREY# (%d, %d) trying to flee_dmap_keep_los to (%d, %d)", "log")
+t("__%s #GREY# (%d, %d) trying to move to a safe grid", "__%s #GREY# (%d, %d) essaie de bouger vers un emplacement sûr", "log")
+t("#GREY#___Trying existing path to (%s, %s)", "#GREY#___Essaie le chemin existant vers (%s, %s)", "log")
+t("#GREY#___Using new path to (%s, %s)", "#GREY#___Utilise le nouveau chemin vers (%s, %s)", "log")
+t("__%s #GREY# (%d, %d) trying to flee_dmap_keep_los to (%d, %d)", "__%s #GREY# (%d, %d) Fuie de flee_dmap_keep_los vers (%d, %d)", "log")
 --]==]
 
 
@@ -102,7 +102,7 @@ section "mod-tome/ai/tactical.lua"
 
 -- nouveau texte
 --[==[
-t("%s__turn %d: Invoking old tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__turn %d: Invoking old tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "log")
+t("%s__turn %d: Invoking old tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: Invoque la vielle IA tactique pour [%s]%s(%d,%d) cible:[%s]%s %s", "log")
 --]==]
 
 
@@ -112,7 +112,7 @@ section "mod-tome/ai/target.lua"
 
 -- nouveau texte
 --[==[
-t("#RED# [%s]%s #ORANGE#CLEARING OLD TARGET#LAST#: [%s]%s", "#RED# [%s]%s #ORANGE#CLEARING OLD TARGET#LAST#: [%s]%s", "log")
+t("#RED# [%s]%s #ORANGE#CLEARING OLD TARGET#LAST#: [%s]%s", "#RED# [%s]%s #ORANGE#SUPPRIMER LA VIEILLE CIBLE#LAST#: [%s]%s", "log")
 --]==]
 
 
@@ -1129,59 +1129,59 @@ t("Item not found", "Objet non trouvé", "_t")
 t("Pickup", "Ramasser", "_t")
 -- nouveau texte
 --[==[
-t("There is an item here: %s", "There is an item here: %s", "logSeen")
-t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "logPlayer")
-t("Level change (%s)!", "Level change (%s)!", "tformat")
-t("#FF0000#You carry too much--you are encumbered!", "#FF0000#You carry too much--you are encumbered!", "logPlayer")
-t("#FF0000#Drop some of your items.", "#FF0000#Drop some of your items.", "logPlayer")
-t("#PINK#Your summoned %s disappears.", "#PINK#Your summoned %s disappears.", "logPlayer")
-t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#LIFE LOST WARNING!", "say")
+t("There is an item here: %s", "Il y a un objet ici: %s", "logSeen")
+t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#Il y a %s ici (pressez '<', '>' ou clique droit pour l'utiliser).", "logPlayer")
+t("Level change (%s)!", "Changement de niveau (%s)!", "tformat")
+t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- Vous êtes encombré !", "logPlayer")
+t("#FF0000#Drop some of your items.", "#FF0000#Posez quelques uns de vos objets.", "logPlayer")
+t("#PINK#Your summoned %s disappears.", "#PINK#Votre invocation %s diparaît.", "logPlayer")
+t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#ATTENTION VIE PERDU !", "say")
 t("", "", "log")
-t("taken damage", "taken damage", "_t")
-t("LOW HEALTH!", "LOW HEALTH!", "_t")
-t("detrimental status effect", "detrimental status effect", "_t")
-t("died", "died", "_t")
-t("suffocating", "suffocating", "_t")
-t("chat started", "chat started", "_t")
-t("#00ff00#%sTalent %s is ready to use.", "#00ff00#%sTalent %s is ready to use.", "log")
-t("Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", "Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", "logPlayer")
-t("dialog is displayed", "dialog is displayed", "_t")
-t("hostile spotted to the %s (%s%s)", "hostile spotted to the %s (%s%s)", "tformat")
-t(" - offscreen", " - offscreen", "_t")
-t("losing breath!", "losing breath!", "_t")
-t("losing health!", "losing health!", "_t")
-t("all resources and life at maximum", "all resources and life at maximum", "_t")
-t("talent prevented", "talent prevented", "_t")
-t("object seen", "object seen", "_t")
-t("something interesting", "something interesting", "_t")
-t("interesting terrain", "interesting terrain", "_t")
-t("store entrance spotted", "store entrance spotted", "_t")
-t("interesting character", "interesting character", "_t")
-t("You do not have any %s.", "You do not have any %s.", "tformat")
-t("You cannot pick up items from the floor while asleep!", "You cannot pick up items from the floor while asleep!", "delayedLogMessage")
-t("Drop object", "Drop object", "_t")
-t("Wield/wear object", "Wield/wear object", "_t")
-t("Take off object", "Take off object", "_t")
-t("Your antimagic disrupts %s.", "Your antimagic disrupts %s.", "logPlayer")
-t("You have no more %s.", "You have no more %s.", "log")
-t("You have %s.", "You have %s.", "log")
-t("You cannot use items on the world map.", "You cannot use items on the world map.", "logPlayer")
-t("Use object", "Use object", "_t")
-t("You can not use the Orb with foes watching (#Target# to the %s%s)", "You can not use the Orb with foes watching (#Target# to the %s%s)", "logCombat")
-t("This does not seem to have any effect.", "This does not seem to have any effect.", "logPlayer")
-t("You use the %s on the pedestal. There is a distant 'clonk' sound.", "You use the %s on the pedestal. There is a distant 'clonk' sound.", "logPlayer")
-t("#LIGHT_RED#%s briefly catches sight of you!", "#LIGHT_RED#%s briefly catches sight of you!", "logPlayer")
-t("#LIGHT_RED#You sense that Something has taken notice of you ...", "#LIGHT_RED#You sense that Something has taken notice of you ...", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Accepted quest '%s'!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quest '%s' updated!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quest '%s' completed!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quest '%s' done!", "saySimple")
-t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "logPlayer")
-t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quest '%s' failed!", "saySimple")
+t("taken damage", "domages reçus", "_t")
+t("LOW HEALTH!", "VIE BASSE !", "_t")
+t("detrimental status effect", "effet de statut préjudiciable", "_t")
+t("died", "mort", "_t")
+t("suffocating", "s'etouffe", "_t")
+t("chat started", "tchat ouvert", "_t")
+t("#00ff00#%sTalent %s is ready to use.", "#00ff00#%sTalent %s est prêt a être utilisé.", "log")
+t("Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", "Utilisation automatique du talent %s #DARK_RED#ignoré#LAST#: rechargement en cours (%d).", "logPlayer")
+t("dialog is displayed", "Le dialogue est affiché", "_t")
+t("hostile spotted to the %s (%s%s)", "ennemi détecté %s (%s%s)", "tformat")
+t(" - offscreen", " - en dehors de l'écran", "_t")
+t("losing breath!", "perte de souffle !", "_t")
+t("losing health!", "perte de vie !", "_t")
+t("all resources and life at maximum", "Toutes les ressources et la vie sont au maximum", "_t")
+t("talent prevented", "talent empêché", "_t")
+t("object seen", "objet vu", "_t")
+t("something interesting", "quelque chose d'intéressant", "_t")
+t("interesting terrain", "terrain intéressant", "_t")
+t("store entrance spotted", "entrée de boutique détecté", "_t")
+t("interesting character", "personnage interessant", "_t")
+t("You do not have any %s.", "Tu n'as pas de %s.", "tformat")
+t("You cannot pick up items from the floor while asleep!", "Vous ne pouvez pas ramassez un objet pendant que vous êtes endormis !", "delayedLogMessage")
+t("Drop object", "Objet jeté", "_t")
+t("Wield/wear object", "Manier/porter un objet", "_t")
+t("Take off object", "Enlever un objet", "_t")
+t("Your antimagic disrupts %s.", "Votre anti-magie déchire %s.", "logPlayer")
+t("You have no more %s.", "Vous n'avez plus %s.", "log")
+t("You have %s.", "Vous avez %s.", "log")
+t("You cannot use items on the world map.", "Vous ne pouvez pas utiliser d'objet sur la carte de monde.", "logPlayer")
+t("Use object", "Utiliser un objet", "_t")
+t("You can not use the Orb with foes watching (#Target# to the %s%s)", "Vous ne pouvez pas utiliser l'Orbe avec des ennemis vous regardant (#Cible# %s%s)", "logCombat")
+t("This does not seem to have any effect.", "Ceci n'a aucun effet.", "logPlayer")
+t("You use the %s on the pedestal. There is a distant 'clonk' sound.", "Vous utiliser %s sur le piédestal. Vous entendez un distant 'clonk' au loin.", "logPlayer")
+t("#LIGHT_RED#%s briefly catches sight of you!", "#LIGHT_RED#%s vous aperçoit brièvement !", "logPlayer")
+t("#LIGHT_RED#You sense that Something has taken notice of you ...", "#LIGHT_RED#Vous sentez que quelque chose vous a remarqué ...", "logPlayer")
+t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée '%s'! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête accepté '%s'!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' mise à jour ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête '%s' mise à jour!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est terminé ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête '%s' terminé !", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est finie ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête '%s' finie !", "saySimple")
+t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête '%s' a échoué ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête '%s' a échoué !", "saySimple")
 --]==]
 
 
@@ -1547,16 +1547,16 @@ t("learnt lore", "learnt lore", "_t")
 section "mod-tome/class/interface/PlayerExplore.lua"
 
 t("Running...", "Cours...", "_t")
-t("You are exploring, press any key to stop.", "Vous êtes en exploration, appuyez sur une touche pour arrêter.", "_t")
+t("You are exploring, press any key to stop.", "Vous êtes en exploration, pressez une touche pour vous arrêter.", "_t") -- 
 t("at %s", "à %s", "tformat")
 t("the path is blocked", "Le chemin est bloqué", "_t")
 -- nouveau texte
 --[==[
-t("at door", "at door", "_t")
-t("something interesting", "something interesting", "_t")
-t("interesting terrain", "interesting terrain", "_t")
-t("checked door", "checked door", "_t")
-t("at object (diggable)", "at object (diggable)", "_t")
+t("at door", "à une porte", "_t") -- 
+t("something interesting", "quelque chose d'interessant", "_t") -- 
+t("checked door", "porte vérifiée", "_t") -- 
+t("interesting terrain", "terrain intéressant", "_t") -- 
+t("at object (diggable)", "à l'objet (creusable)", "_t") -- 
 --]==]
 
 
