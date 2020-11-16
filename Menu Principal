@@ -1193,7 +1193,7 @@ t("%s can not be used anymore.", "%s ne peut plus être utilisé", "logPlayer")
 section "engine/engine/interface/PlayerExplore.lua"
 
 t("Running...", "Cours...", "_t")
-t("You are exploring, press any key to stop.", "Vous êtes en exploration, appuyez sur une touche pour arrêter.", "_t")
+t("You are exploring, press any key to stop.", "Vous êtes en exploration, appuyez sur une touche pour vous arrêter.", "_t")
 t("the path is blocked", "Le chemin est bloqué", "_t")
 
 ------------------------------------------------
@@ -1227,7 +1227,7 @@ section "engine/engine/interface/PlayerRun.lua"
 t("Running...", "Cours...", "_t")
 t("You are running, press Enter to stop.", "Vous êtes en train de courir, appuyez sur Entrée pour arrêter.", "_t")
 t("You don't see how to get there...", "Vous ne voyez pas comment aller là bas...", "logPlayer")
-t("You are running, press any key to stop.", "Vous êtes en train de courir, appuyez sur une touche pour arrêter.", "_t")
+t("You are running, press any key to stop.", "Vous êtes en train de courir, appuyez sur une touche pour vous arrêter.", "_t")
 t("didn't move", "n'a pas bougé", "_t")
 t("trap spotted", "piège détecté", "_t")
 t("terrain change on the left", "le terrain a changé à gauche", "_t")
