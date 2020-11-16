@@ -4,20 +4,15 @@ locale "fr_FR"
 section "mod-tome/ai/escort.lua"
 
 
--- nouveau texte
---[==[
 t("Help!", "Au Secours !", "_t")
 t(" %s to the %s!", " un(e) %s %s !", "tformat")
 t("Something", "Quelque chose", "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/ai/improved_tactical.lua"
 
 
--- nouveau texte
---[==[
 t("#ORCHID#%s wants escape(move) %0.2f (air: %s = %0.2f) on %s (%d, %d, air:%s = %s turns)", "#ORCHID#%s veut s'enfuire(mouvement) %0.2f (air: %s = %0.2f) sur %s (%d, %d, air:%s = %s tours)", "log") -- 
 t("#ORCHID#%s wants escape(move) %0.2f (heal) in %s at(%d, %d) dam %d vs %d avail life)", "#ORCHID#%s veut s'enfuire(mouvement) %0.2f (soin) dans %s à(%d, %d) dommage %d contre %d vie dispo)", "log") -- 
 t("#GREY#__%s[%d] tactical AI: NO USEFUL ACTIONS", "#GREY#__%s[%d] IA tactique: PAS D'ACTION UTILE", "log") -- 
@@ -28,7 +23,6 @@ t("__[%d]%s #ORANGE# ACTION FAILED:  %s, FT:%s", "__[%d]%s #ORANGE# ACTION ECHOU
 t("__[%d]%s #SLATE# tactical AI: NO ACTION, best: %s, %s", "__[%d]%s #SLATE# IA tactique: AUCUNE ACTION, battre: %s, %s", "log") -- 
 t("%s__turn %d: Invoking improved tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: Invoquer l'amélioration de l'IA tactique pour [%s]%s(%d,%d) cible:[%s]%s %s", "log") -- 
 t("#ROYAL_BLUE#---talents disabled---", "#ROYAL_BLUE#---talents désactivé---", "log") -- 
---]==]
 
 
 ------------------------------------------------
@@ -36,7 +30,6 @@ section "mod-tome/ai/improved_talented.lua"
 
 
 -- 'improved_talented_simple' non traduit car fait reference a un fichier ou une fonction
---[==[
 t("%s__turn %d: Invoking improved_talented_simple AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: invoque l'IA improved_talented_simple pour [%s]%s(%d,%d) cible:[%s]%s %s", "log")
 
 
@@ -44,75 +37,54 @@ t("%s__turn %d: Invoking improved_talented_simple AI for [%s]%s(%d,%d) target:[%
 section "mod-tome/ai/maintenance.lua"
 
 
--- nouveau texte
---[==[
 t("#ORCHID#__%s[%d]maintenance AI picked action: %s (%s)", "#ORCHID#__%s[%d]maintenance IA a choisi l'action: %s (%s)", "log") -- 
 t("__%s[%d] #ORANGE# maintenance ACTION FAILED:  %s", "__%s[%d] #ORANGE# maintenance ACTION ECHOUE:  %s", "log") -- 
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/ai/quests.lua"
 
 
--- nouveau texte
---[==[
 t("Protect Limmir from the demons coming from north-east. Hold them off!", "Proteger Limmir des démons venant du Nord Est. Retenez Les !", "_t") -- 
 t("This place is corrupted! I will cleanse it! Protect me while I do it!", "Cet endroit est corrompu ! Je vais le nettoyer ! Protégez-moi pendant que je le fais !", "_t") -- 
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/ai/sandworm_tunneler.lua"
 
 
--- nouveau texte
---[==[
 t("#OLIVE_DRAB#The %s burrows into the ground and disappears.", "#OLIVE_DRAB#Le %s s'enfonce dans le sol et disparaît.", "logSeen") -- 
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/ai/shadow.lua"
 
 
--- nouveau texte
---[==[
 t("#PINK#%s returns to the shadows.", "#PINK#%s retourne dans les ombres.", "logPlayer") -- 
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/ai/special_movements.lua"
 
-
--- 'flee_dmap_keep_los' non traduit car fait reference a un fichier ou une fonction
---[==[
+--- 'flee_dmap_keep_los' non traduit car fait reference a un fichier ou une fonction
 t("__%s #GREY# (%d, %d) trying to move to a safe grid", "__%s #GREY# (%d, %d) essaie de bouger vers un emplacement sûr", "log")
 t("#GREY#___Trying existing path to (%s, %s)", "#GREY#___Essaie le chemin existant vers (%s, %s)", "log")
 t("#GREY#___Using new path to (%s, %s)", "#GREY#___Utilise le nouveau chemin vers (%s, %s)", "log")
 t("__%s #GREY# (%d, %d) trying to flee_dmap_keep_los to (%d, %d)", "__%s #GREY# (%d, %d) Fuie de flee_dmap_keep_los vers (%d, %d)", "log")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/ai/tactical.lua"
 
 
--- nouveau texte
---[==[
 t("%s__turn %d: Invoking old tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: Invoque la vielle IA tactique pour [%s]%s(%d,%d) cible:[%s]%s %s", "log")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/ai/target.lua"
 
 
--- nouveau texte
---[==[
 t("#RED# [%s]%s #ORANGE#CLEARING OLD TARGET#LAST#: [%s]%s", "#RED# [%s]%s #ORANGE#SUPPRIMER LA VIEILLE CIBLE#LAST#: [%s]%s", "log")
---]==]
 
 
 ------------------------------------------------
@@ -124,8 +96,6 @@ t("activates", "activés", "_t")
 t("Special", "Spécial", "_t")
 t("Cancel", "Annuler", "_t")
 t("%s drops on the floor: %s.", "%s jette: %s au sol.", "logSeen")
--- nouveau texte
---[==[
 t("drowned to death", "s'est noyé", "_t")
 t("%s has been disrupted by #ORCHID#anti-magic forces#LAST#!", "%s a été déchiré par des #ORCHID#forces anti-magie#LAST# !", "logSeen")
 t("%s temporarily fights the paralyzation.", "%s combat temporairement la paralysie.", "logSeen")
@@ -410,7 +380,6 @@ t("This tinker can not be applied to this item.", "Cette bricolle ne peut pas ê
 t("You already have a tinker on this item.", "Vous avez dèjà une bricolle sur cet objet.", "logPlayer")
 t("You attach %s to your %s.", "Vous attachez %s à votre %s.", "logPlayer")
 t("You fail to attach %s to %s.", "Vous n'arrivez pas à attacher %s à %s.", "logPlayer")
---]==]
 
 
 ------------------------------------------------
