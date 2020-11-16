@@ -37,8 +37,7 @@ section "mod-tome/ai/improved_talented.lua"
 
 -- 'improved_talented_simple' non traduit car fait reference a un fichier ou une fonction
 --[==[
-t("%s__turn %d: t("%s__turn %d: Invoking improved_talented_simple AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: invoque l'IA improved_talented_simple pour [%s]%s(%d,%d) cible:[%s]%s %s", "log") -- 
-
+t("%s__turn %d: Invoking improved_talented_simple AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: invoque l'IA improved_talented_simple pour [%s]%s(%d,%d) cible:[%s]%s %s", "log")
 
 
 ------------------------------------------------
@@ -180,7 +179,7 @@ t(" (%d%%)", " (%d%%)", "tformat")
 t("Iceblock: %d", "Bloc de glace: %d", "tformat")
 t("%sVim Value: %d#LAST#", "%sValeur de Vigueur: %d#LAST#", "tformat")
 t("#ffa0ff#Predator: +%d acc, +%d apr#LAST#", "#ffa0ff#Predateur: +%d acc, +%d pen#LAST#", "tformat")
-t("Resists: ", "Résistsances: ", "_t")
+t("Resists: ", "Résistances: ", "_t")
 t("Hardiness/Armour: ", "Robustesse/Armure: ", "_t")
 t("Size: ", "Taille: ", "_t")
 t("#FFD700#Accuracy#FFFFFF#: ", "#FFD700#Précision#FFFFFF#: ", "_t")
@@ -194,7 +193,7 @@ t("#0080FF#M. save#FFFFFF#:  ", "#0080FF#Sauvegarde M.#FFFFFF#:  ", "_t")
 t("Critical Mult: ", "Critique Mult: ", "_t")
 t("Time left: ", "Temps restant: ", "_t")
 t("#LIGHT_BLUE#Main:#LAST#%s", "#LIGHT_BLUE#Main principale:#LAST#%s", "tformat")
-t("#LIGHT_BLUE#Off :#LAST#%s", "#LIGHT_BLUE#Main secondaire :#LAST#%s", "tformat")
+t("#LIGHT_BLUE#Off :#LAST#%s", "#LIGHT_BLUE#Main secondaire:#LAST#%s", "tformat")
 t("#LIGHT_BLUE#Psi :#LAST#%s", "#LIGHT_BLUE#Psi :#LAST#%s", "tformat")
 t("#LIGHT_BLUE#Ammo:#LAST#%s", "#LIGHT_BLUE#munition:#LAST#%s", "tformat")
 t("#LIGHT_BLUE#Unarmed:#LAST#%s", "#LIGHT_BLUE#Main nue:#LAST#%s", "tformat")
@@ -274,8 +273,8 @@ t("%d category point(s)", "%d point(s) de catégorie", "tformat")
 t("#VIOLET#%d prodigies point(s)#WHITE#", "#VIOLET#%d point(s) de prodige#WHITE#", "tformat")
 t("%s has %s to spend. %s", "%s a été %s dépensé. %s", "log")
 t("#AQUAMARINE#You have gained one more life (%d remaining).", "#AQUAMARINE#Vous avez gagné une vie supplémentaire (%d restante).", "logPlayer")
-t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- vous êtes encombré !", "logPlayer")
-t("#FF0000#Drop some of your items.", "#FF0000#Laissez tomber quelques objets.", "logPlayer")
+t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- Vous êtes encombré !", "logPlayer")
+t("#FF0000#Drop some of your items.", "#FF0000#Abandonnez quelques objets.", "logPlayer")
 t("+ENCUMBERED!", "+ENCOMBRE !", "_t")
 t("#00FF00#You are no longer encumbered.", "#00FF00#Vous n'êtes plus encombré.", "logPlayer")
 t("-ENCUMBERED!", "-ENCOMBRE !", "_t")
@@ -1133,7 +1132,7 @@ t("There is an item here: %s", "Il y a un objet ici: %s", "logSeen")
 t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#Il y a %s ici (pressez '<', '>' ou clique droit pour l'utiliser).", "logPlayer")
 t("Level change (%s)!", "Changement de niveau (%s)!", "tformat")
 t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- Vous êtes encombré !", "logPlayer")
-t("#FF0000#Drop some of your items.", "#FF0000#Posez quelques uns de vos objets.", "logPlayer")
+t("#FF0000#Drop some of your items.", "#FF0000#Abandonnez quelques objets.", "logPlayer")
 t("#PINK#Your summoned %s disappears.", "#PINK#Votre invocation %s diparaît.", "logPlayer")
 t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#ATTENTION VIE PERDU !", "say")
 t("", "", "log")
@@ -1553,7 +1552,7 @@ t("the path is blocked", "Le chemin est bloqué", "_t")
 -- nouveau texte
 --[==[
 t("at door", "à une porte", "_t") -- 
-t("something interesting", "quelque chose d'interessant", "_t") -- 
+t("something interesting", "quelque chose d'intéressant", "_t") -- 
 t("checked door", "porte vérifiée", "_t") -- 
 t("interesting terrain", "terrain intéressant", "_t") -- 
 t("at object (diggable)", "à l'objet (creusable)", "_t") -- 
