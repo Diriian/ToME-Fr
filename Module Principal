@@ -66,7 +66,7 @@ t("#PINK#%s returns to the shadows.", "#PINK#%s retourne dans les ombres.", "log
 ------------------------------------------------
 section "mod-tome/ai/special_movements.lua"
 
---- 'flee_dmap_keep_los' non traduit car fait reference a un fichier ou une fonction
+-- 'flee_dmap_keep_los' non traduit car fait reference a un fichier ou une fonction
 t("__%s #GREY# (%d, %d) trying to move to a safe grid", "__%s #GREY# (%d, %d) essaie de bouger vers un emplacement sûr", "log")
 t("#GREY#___Trying existing path to (%s, %s)", "#GREY#___Essaie le chemin existant vers (%s, %s)", "log")
 t("#GREY#___Using new path to (%s, %s)", "#GREY#___Utilise le nouveau chemin vers (%s, %s)", "log")
@@ -132,7 +132,7 @@ t("Rank: ", "Rang: ", "_t")
 t("Level: unknown", "Niveau: inconnu", "_t")
 t("Level: %d", "Niveau: %d", "tformat")
 t("INVULNERABLE!", "INVULNERABLE!", "_t")
-t("HP: %d (%d%%) #GREEN#+%0.2f#LAST#", "VIE: %d (%d%%) #GREEN#+%0.2f#LAST#", "tformat")
+t("HP: %d (%d%%) #GREEN#+%0.2f#LAST#", "PV: %d (%d%%) #GREEN#+%0.2f#LAST#", "tformat")
 t("\
 Mana:  %s%d / %d#LAST#", "\
 Mana:  %s%d / %d#LAST#", "tformat")
@@ -386,64 +386,58 @@ t("You fail to attach %s to %s.", "Vous n'arrivez pas à attacher %s à %s.", "l
 section "mod-tome/class/EscortRewards.lua"
 
 
--- nouveau texte
---[==[
-t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "_t")
-t("%s, the lost warrior", "%s, the lost warrior", "_t")
-t("He looks tired and wounded.", "He looks tired and wounded.", "_t")
-t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "_t")
-t("%s, the injured seer", "%s, the injured seer", "_t")
-t("She looks tired and wounded.", "She looks tired and wounded.", "_t")
-t("%s, the repented thief", "%s, the repented thief", "_t")
-t("%s, the lone alchemist", "%s, the lone alchemist", "_t")
-t("%s, the lost sun paladin", "%s, the lost sun paladin", "_t")
-t("%s, the lost defiler", "%s, the lost defiler", "_t")
-t("temporal portal", "temporal portal", "_t")
+t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Aidez-moi, s'il vous plaît ! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'il y a un portail de rappel laissé par un ami, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider ?", "_t")
+t("%s, the lost warrior", "%s, le guerrier perdu", "_t")
+t("He looks tired and wounded.", "Il a l'air blessé et fatigué.", "_t")
+t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "Aidez-moi, s'il vous plaît ! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail de rappel par ici, mais je ne pourrai pas continuer la route seul. Pourriez-vous m'aider ?", "_t")
+t("%s, the injured seer", "%s, le devin blessé", "_t")
+t("She looks tired and wounded.", "Elle a l'air blessé et fatigué.", "_t")
+t("%s, the repented thief", "%s, le voleur repentie", "_t")
+t("%s, the lone alchemist", "%s, l'alchimist solitaire", "_t")
+t("%s, the lost sun paladin", "%s, le paladin du soleil perdu", "_t")
+t("%s, the lost defiler", "%s, le profanateur perdu", "_t")
+t("temporal portal", "portail temporel", "_t")
 t([[Oh but you are ... are you ?! ME?!
 		So I was right, this is not my original time-thread!
-		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh but you are ... are you ?! ME?!
-		So I was right, this is not my original time-thread!
-		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], "_t")
-t("%s, temporal explorer", "%s, temporal explorer", "_t")
-t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "_t")
-t("%s, the worried loremaster", "%s, the worried loremaster", "_t")
-t("mental", "mental", "_t")
-t("spell", "spell", "_t")
-t("physical", "physical", "_t")
-t("Select the party member to receive the reward:", "Select the party member to receive the reward:", "_t")
-t("improved %s by +%d", "improved %s by +%d", "tformat")
-t("[Improve %s by +%d]", "[Improve %s by +%d]", "tformat")
-t("improved %s save by +%d", "improved %s save by +%d", "tformat")
-t("[Improve %s save by +%d]", "[Improve %s save by +%d]", "tformat")
-t("%s talent %s (+%d level(s))", "%s talent %s (+%d level(s))", "tformat")
-t("improved", "improved", "_t")
-t("learnt", "learnt", "_t")
-t("[%s talent %s (+%d level(s))]", "[%s talent %s (+%d level(s))]", "tformat")
-t("Improve", "Improve", "_t")
-t("Learn", "Learn", "_t")
+		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh mais vous êtes ... êtes-vous ? ! MOI ? !
+		Donc j'avais raison, ce n'est pas mon temps originel !
+		S'il vous plaît, aidez-moi ! J'ai peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail temporel par ici, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider ? Voulez-vous vous aider... vous-même ?]], "_t")
+t("%s, temporal explorer", "%s, explorateur temporel", "_t")
+t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "Elle a l'air blessé et fatigué. Elle vous ressemble tellement et pourtant elle est complètement différente. Bizarre.", "_t")
+t("%s, the worried loremaster", "%s, le Chroniqueur soucieux", "_t")
+t("mental", "mentale", "_t")
+t("spell", "sortilège", "_t")
+t("physical", "physique", "_t")
+t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense:", "_t")
+t("improved %s by +%d", "amélioré %s par +%d", "tformat")
+t("[Improve %s by +%d]", "[Améliore %s par +%d]", "tformat")
+t("improved %s save by +%d", "amélioré %s sauvegarde par +%d", "tformat")
+t("[Improve %s save by +%d]", "[Ameliore %s sauvegarde par +%d]", "tformat")
+t("%s talent %s (+%d level(s))", "%s talent %s (+%d niveau(s))", "tformat")
+t("improved", "amélioré", "_t")
+t("learnt", "appris", "_t")
+t("[%s talent %s (+%d level(s))]", "[%s talent %s (+%d niveau(s))]", "tformat")
+t("Improve", "Améliore", "_t")
+t("Learn", "Appris", "_t")
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
-t("gained talent category %s (at mastery %0.2f)", "gained talent category %s (at mastery %0.2f)", "tformat")
-t("[Allow training of talent category %s (at mastery %0.2f)]", "[Allow training of talent category %s (at mastery %0.2f)]", "tformat")
+t("gained talent category %s (at mastery %0.2f)", "catégorie de talent gagné %s (à la maîtrise %0.2f)", "tformat")
+t("[Allow training of talent category %s (at mastery %0.2f)]", "[Autoriser l'apprentissage de la catégorie de talents %s (à la maîtrise %0.2f)]", "tformat")
 t([[#GOLD#%s / %s#LAST#
 %s]], [[#GOLD#%s / %s#LAST#
 %s]], "tformat")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/class/FortressPC.lua"
 
 
--- nouveau texte
---[==[
-t("Yiilkgur, the Sher'Tul Fortress", "Yiilkgur, the Sher'Tul Fortress", "_t")
-t("You are unable to move!", "You are unable to move!", "logPlayer")
-t("You have found a trap (%s)!", "You have found a trap (%s)!", "logPlayer")
-t("Do you wish to teleport to the fortress?", "Do you wish to teleport to the fortress?", "_t")
-t("The teleport fizzles!", "The teleport fizzles!", "_t")
---]==]
+t("Yiilkgur, the Sher'Tul Fortress", "Yiilkgur, la Forteresse Sher'Tul", "_t")
+t("You are unable to move!", "Vous êtes incapable de bouger!", "logPlayer")
+t("You have found a trap (%s)!", "Vous avez trouvé un piège (%s)!", "logPlayer")
+t("Do you wish to teleport to the fortress?", "Souhaitez vous vous téléporter à la forteresse ?", "_t")
+t("The teleport fizzles!", "La téléportation foire !", "_t")
 
 
 ------------------------------------------------
@@ -540,144 +534,132 @@ t("Save and exit game?", "Sauvegarder et quitter le jeu?", "_t")
 t("saving", "sauvegarde", "_t")
 t("Saving game...", "Sauvegarde du jeu...", "log")
 t("#ANTIQUE_WHITE#Splash screen unlocked: #GOLD#%s", "#ANTIQUE_WHITE#Splash screen débloqué: #GOLD#%s", "log")
--- nouveau texte
---[==[
 t("#TEAL#%s", "#TEAL#%s", "log")
 t("%s", "%s", "log")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/class/GameState.lua"
 
 t("Accept", "Accepter", "_t")
--- nouveau texte
---[==[
-t("#AQUAMARINE#Most stores should have new stock now.", "#AQUAMARINE#Most stores should have new stock now.", "log")
-t("glowing", "glowing", "_t")
-t("scintillating", "scintillating", "_t")
-t("rune-covered", "rune-covered", "_t")
-t("unblemished", "unblemished", "_t")
-t("jewel-encrusted", "jewel-encrusted", "_t")
-t("humming", "humming", "_t")
-t("gleaming", "gleaming", "_t")
-t("immaculate", "immaculate", "_t")
-t("flawless", "flawless", "_t")
-t("crackling", "crackling", "_t")
-t("glistening", "glistening", "_t")
-t("plated", "plated", "_t")
-t("twisted", "twisted", "_t")
-t("silvered", "silvered", "_t")
-t("faceted", "faceted", "_t")
-t("faded", "faded", "_t")
-t("sigiled", "sigiled", "_t")
-t("shadowy", "shadowy", "_t")
-t("laminated", "laminated", "_t")
+t("#AQUAMARINE#Most stores should have new stock now.", "#AQUAMARINE#La plupart des boutiques devraient avoir refait leur stock maintenant.", "log")
+t("glowing", "lumineux", "_t")
+t("scintillating", "scintillant", "_t")
+t("rune-covered", "couvert de runes", "_t")
+t("unblemished", "sans taches", "_t")
+t("jewel-encrusted", "incrusté de joyaux", "_t")
+t("humming", "fredonnant", "_t")
+t("gleaming", "brillante", "_t")
+t("immaculate", "immaculé", "_t")
+t("flawless", "parfait", "_t")
+t("crackling", "crépitant", "_t")
+t("glistening", "brillant", "_t")
+t("plated", "blindé", "_t")
+t("twisted", "tordu", "_t")
+t("silvered", "argenté", "_t")
+t("faceted", "facetté", "_t")
+t("faded", "délavé", "_t")
+t("sigiled", "marqué", "_t")
+t("shadowy", "ombragé", "_t")
+t("laminated", "feuilleté", "_t")
 t("%s '%s'", "%s '%s'", "tformat")
-t("%s the %s", "%s the %s", "tformat")
-t("Ambush!", "Ambush!", "_t")
-t("You have been ambushed!", "You have been ambushed!", "_t")
-t("Infinite Dungeon Challenge (Level %s): %s", "Infinite Dungeon Challenge (Level %s): %s", "tformat")
-t("Pacifist", "Pacifist", "_t")
-t("Leave the level (to the next level) without killing a single creature. You will get #{italic}#two#{normal}# rewards.", "Leave the level (to the next level) without killing a single creature. You will get #{italic}#two#{normal}# rewards.", "_t")
-t("Exterminator", "Exterminator", "_t")
-t("Exterminate every foe on the level.", "Exterminate every foe on the level.", "_t")
-t("Foes left: #LIGHT_RED#%s", "Foes left: #LIGHT_RED#%s", "tformat")
+t("%s the %s", "%s le %s", "tformat")
+t("Ambush!", "Embuscade !", "_t")
+t("You have been ambushed!", "Vous avez été pris en embuscade !", "_t")
+t("Infinite Dungeon Challenge (Level %s): %s", "Défi du donjon infini (Niveau %s): %s", "tformat")
+t("Pacifist", "Pacifiste", "_t")
+t("Leave the level (to the next level) without killing a single creature. You will get #{italic}#two#{normal}# rewards.", "Quittez le niveau (au niveau suivant) sans tuer une seule créature. Vous aurez #{italic}#deux#{normal}# Récompenses.", "_t")
+t("Exterminator", "Extermination", "_t")
+t("Exterminate every foe on the level.", "Exterminez tous les ennemis du niveau.", "_t")
+t("Foes left: #LIGHT_RED#%s", "Ennemis restant: #LIGHT_RED#%s", "tformat")
 t([[#LIGHT_RED#EXTERMINATE THIS FOE#LAST#
-%s]], [[#LIGHT_RED#EXTERMINATE THIS FOE#LAST#
+%s]], [[#LIGHT_RED#EXTERMINEZ CET ENNEMIS#LAST#
 %s]], "tformat")
-t("Rush Hour (%d)", "Rush Hour (%d)", "tformat")
-t("Proceed directly to the next Infinite Dungeon level in less than %d turns (an exit is revealed on your map).", "Proceed directly to the next Infinite Dungeon level in less than %d turns (an exit is revealed on your map).", "tformat")
-t("Turns left: #LIGHT_GREEN#%d", "Turns left: #LIGHT_GREEN#%d", "tformat")
+t("Rush Hour (%d)", "Heure de pointe (%d)", "tformat")
+t("Proceed directly to the next Infinite Dungeon level in less than %d turns (an exit is revealed on your map).", "Passez directement au prochain niveau du Donjon Infini en moins de %d tours (une sortie est révélée sur votre carte).", "tformat")
+t("Turns left: #LIGHT_GREEN#%d", "Tours restant: #LIGHT_GREEN#%d", "tformat")
 t("\
 #ORCHID# Rush Hour: %s turns left!\
 ", "\
-#ORCHID# Rush Hour: %s turns left!\
+#ORCHID# Heure de pointe: %s tours restant!\
 ", "log")
-t("Proceed to the next Infinite Dungeon level! An exit has been marked on your map.", "Proceed to the next Infinite Dungeon level! An exit has been marked on your map.", "_t")
-t("Dream Hunter", "Dream Hunter", "_t")
-t("Wake up and kill the dreaming horror boss '%s'.", "Wake up and kill the dreaming horror boss '%s'.", "tformat")
-t("Mirror Match", "Mirror Match", "_t")
-t("Find, challenge, and kill your mirror clone on the level.", "Find, challenge, and kill your mirror clone on the level.", "_t")
-t("An evil twin of %s%s", "An evil twin of %s%s", "tformat")
-t("Mirror Challenge of %s", "Mirror Challenge of %s", "tformat")
-t("but nobody knew why #sex# suddenly became evil", "but nobody knew why #sex# suddenly became evil", "_t")
-t("#ORCHID#%s does not recognize you.", "#ORCHID#%s does not recognize you.", "logPlayer")
-t("Challenge: #PURPLE#Mirror Match", "Challenge: #PURPLE#Mirror Match", "_t")
-t("Challenge your mirror clone and triumph!", "Challenge your mirror clone and triumph!", "_t")
-t("#CRIMSON#The Fight Is Joined!", "#CRIMSON#The Fight Is Joined!", "say")
-t("Refuse", "Refuse", "_t")
-t("Challenge: #PURPLE#Near Sighted", "Challenge: #PURPLE#Near Sighted", "_t")
-t("Proceed to the next Infinite Dungeon level with -7 sight range for a reward.", "Proceed to the next Infinite Dungeon level with -7 sight range for a reward.", "_t")
-t("Near Sighted", "Near Sighted", "_t")
-t("Proceed to the next Infinite Dungeon level with -7 sight range.", "Proceed to the next Infinite Dungeon level with -7 sight range.", "_t")
-t("Challenge: #PURPLE#Multiplicity", "Challenge: #PURPLE#Multiplicity", "_t")
-t("All foes (including bosses) gain the ability to multiply up to 3 times.  You must survive for at least %d turns before exiting.", "All foes (including bosses) gain the ability to multiply up to 3 times.  You must survive for at least %d turns before exiting.", "tformat")
-t("Multiplicity", "Multiplicity", "_t")
-t("All foes have the multiply talent!", "All foes have the multiply talent!", "_t")
-t("#LIGHT_GREEN#Multiplicity: You have survived so far. Exit for your reward!", "#LIGHT_GREEN#Multiplicity: You have survived so far. Exit for your reward!", "say")
-t("Survive the multiplicative madness!", "Survive the multiplicative madness!", "_t")
-t("#rng# the Spawn of Urh'Rok", "#rng# the Spawn of Urh'Rok", "_t")
-t("Challenge: #PURPLE#Headhunter", "Challenge: #PURPLE#Headhunter", "_t")
-t("Kill %d spawns of Urh'Rok on the level before killing any other elite (or higher rank) creatures, for an uncommon reward.", "Kill %d spawns of Urh'Rok on the level before killing any other elite (or higher rank) creatures, for an uncommon reward.", "tformat")
-t("Headhunter", "Headhunter", "_t")
-t("Kill %d spawns of Urh'Rok on the level before killing any elite creatures.", "Kill %d spawns of Urh'Rok on the level before killing any elite creatures.", "tformat")
-t("%d / %d demon spawn killed.", "%d / %d demon spawn killed.", "tformat")
-t("#ORCHID#You claim the head of %s, giving pause to all foes on the level.", "#ORCHID#You claim the head of %s, giving pause to all foes on the level.", "say")
-t("Random Artifact", "Random Artifact", "_t")
-t("Random Artifact: %s", "Random Artifact: %s", "tformat")
-t("+3 Stat Points", "+3 Stat Points", "_t")
-t("+1 Class Point", "+1 Class Point", "_t")
-t("+1 Generic Point", "+1 Generic Point", "_t")
-t("+1 Category Point", "+1 Category Point", "_t")
-t("+1 Prodigy Point", "+1 Prodigy Point", "_t")
-t(" and ", " and ", "_t")
+t("Proceed to the next Infinite Dungeon level! An exit has been marked on your map.", "Passez au prochain niveau du Donjon Infini! Une sortie a été marquée sur votre carte.", "_t")
+t("Dream Hunter", "Chasseur de rêve", "_t")
+t("Wake up and kill the dreaming horror boss '%s'.", "Réveillez-vous et tuez le boss d'horreur onirique '%s'.", "tformat")
+t("Mirror Match", "Match miroir", "_t")
+t("Find, challenge, and kill your mirror clone on the level.", "Trouvez, défiez et tuez votre clone dans ce niveau.", "_t")
+t("An evil twin of %s%s", "Un double maléfique de %s%s", "tformat")
+t("Mirror Challenge of %s", "Le défie du miroir de %s", "tformat")
+t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pourquoi le #sexe# est devenue soudainement mauvais", "_t")
+t("#ORCHID#%s does not recognize you.", "#ORCHID#%s ne vous reconnaît pas.", "logPlayer")
+t("Challenge: #PURPLE#Mirror Match", "Défi: #PURPLE#Match Miroir", "_t")
+t("Challenge your mirror clone and triumph!", "Défiez votre clone et triomphez !", "_t")
+t("#CRIMSON#The Fight Is Joined!", "#CRIMSON#Le combat est couplé !", "say")
+t("Refuse", "Refuser", "_t")
+t("Challenge: #PURPLE#Near Sighted", "Défi: #PURPLE#Vue diminué", "_t")
+t("Proceed to the next Infinite Dungeon level with -7 sight range for a reward.", "Passez au prochain niveau du Donjon Infini avec une portée de vue -7 pour une récompense.", "_t")
+t("Near Sighted", "Vue diminué", "_t")
+t("Proceed to the next Infinite Dungeon level with -7 sight range.", "Passez au prochain niveau du donjon infini avec une portée de vue -7.", "_t")
+t("Challenge: #PURPLE#Multiplicity", "Défi: #PURPLE#Multiplicité", "_t")
+t("All foes (including bosses) gain the ability to multiply up to 3 times.  You must survive for at least %d turns before exiting.", "Tous les ennemis (y compris les boss) ont la possibilité de se multiplier jusqu'à 3 fois. Vous devez survivre pendant au moins %d tours avant de quitter le niveau.", "tformat")
+t("Multiplicity", "Multiplicité", "_t")
+t("All foes have the multiply talent!", "Tous les ennemis ont le talent multiple !", "_t")
+t("#LIGHT_GREEN#Multiplicity: You have survived so far. Exit for your reward!", "#LIGHT_GREEN#Multiplicité: vous avez survécu jusqu'à présent. Sortez pour votre récompense !", "say")
+t("Survive the multiplicative madness!", "Survivez à la folie multiplicative !", "_t")
+t("#rng# the Spawn of Urh'Rok", "#rng# l'Engeance d'Urh'Rok", "_t")
+t("Challenge: #PURPLE#Headhunter", "Défi: #PURPLE#Chasseur de têtes", "_t")
+t("Kill %d spawns of Urh'Rok on the level before killing any other elite (or higher rank) creatures, for an uncommon reward.", "Tuez %d de engeances d'Urh'Rok dans le niveau avant de tuer toute autre créature d'élite (ou de rang supérieur), pour une récompense inhabituelle.", "tformat")
+t("Headhunter", "Chasseur de têtes", "_t")
+t("Kill %d spawns of Urh'Rok on the level before killing any elite creatures.", "Tuez %d des engeances d'Urh'Rok dans le niveau avant de tuer des créatures d'élite.", "tformat")
+t("%d / %d demon spawn killed.", "%d / %d engeance de démon tués.", "tformat")
+t("#ORCHID#You claim the head of %s, giving pause to all foes on the level.", "#ORCHID#Vous revendiquez la tête de %s, donnant une pause à tous les ennemis du niveau.", "say")
+t("Random Artifact", "Artefact Aléatoire", "_t")
+t("Random Artifact: %s", "Artefact Aléatoire: %s", "tformat")
+t("+3 Stat Points", "+3 Points de Statistiques", "_t")
+t("+1 Class Point", "+1 Point de Classe", "_t")
+t("+1 Generic Point", "+1 Point Générique", "_t")
+t("+1 Category Point", "+1 Point de Catégorie", "_t")
+t("+1 Prodigy Point", "+1 Point de Prodige", "_t")
+t(" and ", " et ", "_t")
 t("#OLIVE_DRAB#%s: %s", "#OLIVE_DRAB#%s: %s", "tformat")
-t("Rewards", "Rewards", "_t")
-t("Reward", "Reward", "_t")
-t("#LIGHT_BLUE#%s has received: %s.", "#LIGHT_BLUE#%s has received: %s.", "log")
+t("Rewards", "Récompenses", "_t")
+t("Reward", "Récompense", "_t")
+t("#LIGHT_BLUE#%s has received: %s.", "#LIGHT_BLUE#%s a reçu: %s.", "log")
 t("#LIGHT_GREEN#%s", "#LIGHT_GREEN#%s", "logPlayer")
-t("You have unlocked a new talent: %s!", "You have unlocked a new talent: %s!", "tformat")
---]==]
+t("You have unlocked a new talent: %s!", "Vous avez débloqué un nouveau talent: %s!", "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/class/Grid.lua"
 
 
--- nouveau texte
---[==[
-t("Open", "Open", "_t")
-t("Leave", "Leave", "_t")
+t("Open", "Ouvrir", "_t")
+t("Leave", "Partir", "_t")
 t("%s", "%s", "logSeen")
-t("spot", "spot", "_t")
-t("%s's %s", "%s's %s", "tformat")
-t(" (range: ", " (range: ", "_t")
-t("Min.level: ", "Min.level: ", "_t")
-t("Never visited yet", "Never visited yet", "_t")
-t("In sight", "In sight", "_t")
-t("Lit", "Lit", "_t")
-t("Blocks sight", "Blocks sight", "_t")
-t("Blocks movement", "Blocks movement", "_t")
-t("Special breathing method required", "Special breathing method required", "_t")
-t("Diggable", "Diggable", "_t")
-t("Cannot teleport to this place", "Cannot teleport to this place", "_t")
+t("spot", "place", "_t")
+t("%s's %s", "%s de %s", "tformat")
+t(" (range: ", " (portée: ", "_t")
+t("Min.level: ", "Niv.Min: ", "_t")
+t("Never visited yet", "Pas encore visité", "_t")
+t("In sight", "En vue", "_t")
+t("Lit", "Eclairage", "_t")
+t("Blocks sight", "Bloque la vue", "_t")
+t("Blocks movement", "Bloque le mouvement", "_t")
+t("Special breathing method required", "Méthode de respiration spéciale requise", "_t")
+t("Diggable", "Creusable", "_t")
+t("Cannot teleport to this place", "Impossible de se téléporter à cet endroit", "_t")
 t("Coords: ", "Coords: ", "_t")
 t("map attrs: ", "map attrs: ", "_t")
-t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#You hear a mechanism clicking.", "log")
---]==]
+t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#Vous entendez un mécanisme cliquant.", "log")
 
 
 ------------------------------------------------
 section "mod-tome/class/MapEffects.lua"
 
 
--- nouveau texte
---[==[
-t(" area effect", " area effect", "_t")
-t("area effect", "area effect", "_t")
-t("%s's %s", "%s's %s", "tformat")
---]==]
+t(" area effect", " air d'effet", "_t")
+t("area effect", "air d'effet", "_t")
+t("%s's %s", "%s de %s", "tformat")
 
 
 ------------------------------------------------
@@ -686,16 +668,13 @@ section "mod-tome/class/NPC.lua"
 t("her", "sa", "_t")
 t("him", "lui", "_t")
 t("Target: ", "Cible: ", "_t")
--- nouveau texte
---[==[
-t("#PINK#Your summoned %s disappears.", "#PINK#Your summoned %s disappears.", "logPlayer")
-t("Killed by you: %s", "Killed by you: %s", "tformat")
-t("none", "none", "_t")
-t(" looking %s", " looking %s", "tformat")
-t(" looking at you.", " looking at you.", "_t")
+t("#PINK#Your summoned %s disappears.", "#PINK#Votre invocation %s disparaît.", "logPlayer")
+t("Killed by you: %s", "Tué par vous: %s", "tformat")
+t("none", "aucun", "_t")
+t(" looking %s", " regardé %s", "tformat")
+t(" looking at you.", " vous regarde.", "_t")
 t("UID: ", "UID: ", "_t")
-t("%s says: '%s'", "%s says: '%s'", "logSeen")
---]==]
+t("%s says: '%s'", "%s dit: '%s'", "logSeen")
 
 
 ------------------------------------------------
@@ -1095,15 +1074,13 @@ t("at %s", "à %s", "tformat")
 t("You cannot do that on the world map.", "Vous ne pouvez pas faire cela sur la carte du monde.", "logPlayer")
 t("Item not found", "Objet non trouvé", "_t")
 t("Pickup", "Ramasser", "_t")
--- nouveau texte
---[==[
 t("There is an item here: %s", "Il y a un objet ici: %s", "logSeen")
 t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#Il y a %s ici (pressez '<', '>' ou clique droit pour l'utiliser).", "logPlayer")
 t("Level change (%s)!", "Changement de niveau (%s)!", "tformat")
 t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- Vous êtes encombré !", "logPlayer")
 t("#FF0000#Drop some of your items.", "#FF0000#Abandonnez quelques objets.", "logPlayer")
 t("#PINK#Your summoned %s disappears.", "#PINK#Votre invocation %s diparaît.", "logPlayer")
-t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#ATTENTION VIE PERDU !", "say")
+t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#ATTENTION TROP DE VIE PERDU !", "say")
 t("", "", "log")
 t("taken damage", "domages reçus", "_t")
 t("LOW HEALTH!", "VIE BASSE !", "_t")
@@ -1150,7 +1127,6 @@ t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#
 t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête '%s' finie !", "saySimple")
 t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête '%s' a échoué ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
 t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête '%s' a échoué !", "saySimple")
---]==]
 
 
 ------------------------------------------------
