@@ -3371,7 +3371,7 @@ section "mod-tome/data/chats/orc-breeding-pits.lua"
 
 t([[#LIGHT_GREEN#*A ray of light illuminates the gleam of steal amidst the grass. Investigating, you find a lone sun paladin lying stricken on the ground. Her wounds are minor, but her pallid features bely a poison that is taking its final toll. She whispers to you.*#WHITE#
 Help, Help me.
-]], [[#LIGHT_GREEN#*Un rayon de lumière illumine la lueur de l'acier au milieu de l'herbe. En enquêtant, vous trouvez une paladin du soleil solitaire gisant sur le sol. Ses blessures sont insignifiantes, mais ses traits pâles laissent présager un poison qui fait des ravages. Elle vous chuchote.*#WHITE#
+]], [[#LIGHT_GREEN#*Un rayon de lumière illumine la lueur de l'acier au milieu de l'herbe. En enquêtant, vous trouvez une paladin solaire solitaire gisant sur le sol. Ses blessures sont insignifiantes, mais ses traits pâles laissent présager un poison qui fait des ravages. Elle vous chuchote.*#WHITE#
 Au secours, aidez-moi.
 ]], "_t")
 t("What should I do?", "Que dois-je faire ?", "_t")
@@ -3459,7 +3459,7 @@ section "mod-tome/data/chats/pre-charred-scar.lua"
 t([[*#LIGHT_GREEN#Suddenly a voice appears in your head.#WHITE#*
 @playername@, this is High Sun Paladin Aeryn of the Sunwall. I am communicating with you by the power of the Anorithil.
 I have some urgent information for you: the staff you were looking for has been located.]], [[*#LIGHT_GREEN#Soudain, une voix se fait entendre dans votre tête.#WHITE#*
-@playername@, ici le Haut Paladin du Soleil Aeryn, du Mur du Soleil. Je communique avec vous par le pouvoir de l'Anorithil.
+@playername@, ici le Haut Paladin solaire Aeryn, du Mur du Soleil. Je communique avec vous par le pouvoir de l'Anorithil.
 J'ai une information urgente à vous communiquer: le bâton que vous recherchez a été localisé.]], "_t")
 t("Where?!", "Où ça?!", "_t")
 t([[One of our patrols noticed some strange orc movements around the southern part of the continent, in the desert of Erúan.
@@ -3867,7 +3867,7 @@ t("We both did.", "Nous l'avons fait tous les deux.", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/sorcerer-fight.lua"
 
-t("High Sun Paladin Aeryn appears next to you!", "Aeryn, le grand Paladin du soleil, apparaît à côté de vous!", "logPlayer")
+t("High Sun Paladin Aeryn appears next to you!", "Aeryn, le grand Paladin solaire, apparaît à côté de vous!", "logPlayer")
 t([[#LIGHT_GREEN#*The two Sorcerers stands before you, shining like the Sun.*#WHITE#
 Ah! Our guest is finally here. I take it you found the peak entertaining?]], [[#LIGHT_GREEN#*Les deux Sorciers se tiennent devant vous, brillants comme le Soleil.*#WHITE#
 Ah ! Notre invité est enfin là. Je suppose que vous avez trouvé le Pic divertissant?]], "_t")
@@ -3887,7 +3887,7 @@ Lui qui a ressenti une grande tristesse pour ce monde. Celui qui va maintenant f
 Le bâton nous a permis de drainer suffisamment d'énergie venant de ce monde pour ouvrir un portail vers le Néant et l'invoquer à travers lui!
 Il est déjà trop tard. Il est en train de passer au moment où nous parlons - ce n'est qu'une question d'heures!]], "_t")
 t("I *WILL* stop you! The world will not end today!", "Je *VAIS* vous arrêter ! Le monde ne prendra pas fin aujourd'hui!", "_t")
-t("High Sun Paladin Aeryn", "Haut Paladin du soleil Aeryn", "_t")
+t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "_t")
 t([[The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.
 He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!
 The staff will allow us to drain enough energy from this world to open the portal to the Void and summon Him through!
@@ -3896,7 +3896,7 @@ Lui qui a ressenti une grande tristesse pour ce monde. Celui qui va maintenant f
 Le bâton nous permettra de drainer suffisamment d'énergie de ce monde pour ouvrir le portail vers le Néant et l'invoquer à travers lui!
 Vous ne pouvez pas nous arrêter maintenant!]], "_t")
 t([[#LIGHT_GREEN#*The air whirls at your side and suddenly High Sun Paladin Aeryn appears!*#WHITE#
-Then you shall not fight alone! Together we shall stop them, or die trying!]], [[#LIGHT_GREEN#*L'air tourbillonne à vos côtés et soudain le Haut Paladin du Soleil Aeryn apparaît!*#WHITE#
+Then you shall not fight alone! Together we shall stop them, or die trying!]], [[#LIGHT_GREEN#*L'air tourbillonne à vos côtés et soudain le Haut Paladin solaire Aeryn apparaît!*#WHITE#
 Dans ce cas, vous ne devriez pas vous battre seul! Ensemble, nous les arrêterons, ou nous mourrons en essayant!]], "_t")
 t("I am glad to have you at my side, my Lady. Let's hunt some wizards!", "Je suis heureux de vous avoir à mes côtés, ma Dame. Allons chasser des sorciers!", "_t")
 
@@ -4196,7 +4196,7 @@ Mes compagnons ont été... massacrés par des orcs, et j'ai failli mourir moi a
 t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "C'était mon plaisir. Mais puis-je demander une faveur moi-même ? Je ne suis pas de ces terres. J'ai utilisé un prtail lointain gardé par des orcs au plus profond du trône de fer qui m'a amené ici.", "_t")
 t([[Yes, I noticed you were not from here. Your only hope is the Gates of Morning, the last bastion of freedom in this orc territory. When you leave the caves, head southeast; you cannot miss it.
 Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.]], [[Oui, j'ai remarqué que vous n'étiez pas d'ici. Votre seul espoir est les portes du matin, le dernier bastion de la liberté dans ce territoire orc. Lorsque vous quitterez les grottes, dirigez-vous vers le sud-est ; vous ne pouvez pas le manquer.
-Dites au Haut Paladin du Soleil Aeryn que vous m'avez rencontré. J'enverrai un mot pour vous laisser passer.]], "_t")
+Dites au Haut Paladin solaire Aeryn que vous m'avez rencontré. J'enverrai un mot pour vous laisser passer.]], "_t")
 t("Thank you, I will talk with Aeryn.", "Merci, je parlerai à Aeryn.", "_t")
 t([[Gone? Wait, this face.. you are @playername@! We thought you died in the naga portal explosion!
 Thanks to your courage the Gates of Morning still stand.
@@ -19624,7 +19624,7 @@ t("This rift in time has been created by the paradox. You dare not enter it; it 
 ------------------------------------------------
 section "mod-tome/data/quests/pre-charred-scar.lua"
 
-t("High Sun Paladin Aeryn", "Haut Paladin du soleil Aeryn", "_t")
+t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "_t")
 -- untranslated text
 --[==[
 t("Important news", "Important news", "_t")
@@ -40015,7 +40015,7 @@ t("next level", "next level", "entity name")
 section "mod-tome/data/zones/high-peak/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
-t("High Sun Paladin Aeryn", "Haut Paladin du soleil Aeryn", "entity name")
+t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
 -- untranslated text
 --[==[
 t("shalore", "shalore", "entity subtype")
@@ -42238,7 +42238,7 @@ t("Way into the Slazish fens", "Way into the Slazish fens", "entity name")
 section "mod-tome/data/zones/town-gates-of-morning/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
-t("High Sun Paladin Aeryn", "Haut Paladin du soleil Aeryn", "entity name")
+t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
 -- untranslated text
 --[==[
 t("human", "human", "entity subtype")
@@ -43486,7 +43486,7 @@ t("You are asleep and unable to move!", "Vous êtes endormis et ne pouvez pas bo
 t("You are unable to move!", "Vous êtes incapable de bouger !", "logPlayer")
 t("#F53CBE#Your movements fuel your rampage! (+1 duration)", "#F53CBE#Vos mouvements alimentent votre déchaînement ! (+1 durée)", "logPlayer")
 t("#LIGHT_RED#Your %s is immune to the teleportation and drops to the floor!", "#LIGHT_RED#Votre %s est immunisé à la téléportation et tombe au sol !", "logPlayer")
-t("teleported", "télépotré", "_t")
+t("teleported", "téléporté", "_t")
 t("#CADET_BLUE#You notice a trap (%s)!", "#CADET_BLUE#Vous remarquez un piège (%s)!", "logPlayer")
 t("critter", "bestiole", "_t")
 t("elite", "élite", "_t")
@@ -43531,7 +43531,7 @@ t("Critical Mult: ", "Critique Mult: ", "_t")
 t("Time left: ", "Temps restant: ", "_t")
 t("#LIGHT_BLUE#Main:#LAST#%s", "#LIGHT_BLUE#Main principale:#LAST#%s", "tformat")
 t("#LIGHT_BLUE#Off :#LAST#%s", "#LIGHT_BLUE#Main secondaire:#LAST#%s", "tformat")
-t("#LIGHT_BLUE#Ammo:#LAST#%s", "#LIGHT_BLUE#munition:#LAST#%s", "tformat")
+t("#LIGHT_BLUE#Ammo:#LAST#%s", "#LIGHT_BLUE#Munition:#LAST#%s", "tformat")
 t("#LIGHT_BLUE#Unarmed:#LAST#%s", "#LIGHT_BLUE#Main nue:#LAST#%s", "tformat")
 t("#LIGHT_BLUE#Unarmed:#LAST#", "#LIGHT_BLUE#Main nue:#LAST#", "_t")
 t("Melee Retaliation: ", "Représailles de mêlée: ", "_t")
@@ -43705,7 +43705,7 @@ t("Automatic use disabled", "Utilisation automatique désactivée", "_t")
 t("%s will not be automatically used.", "%s ne sera pas utilisé automatiquement.", "tformat")
 t("%s resists the dispelling of %s!", "%s résiste à la dissipation de %s!", "logSeen")
 t("#LIGHT_RED#%s starts suffocating to death!", "#LIGHT_RED#%s commence à suffoquer à mort !", "logSeen")
-t("Physical save", "Sauvegarde Physique", "_t")
+t("Physical save", "Sauvegarde physique", "_t")
 t("Mental save", "Sauvegarde Mentale", "_t")
 t("Spell save", "Sauvegarde des Sorts", "_t")
 t("#ORANGE#%s shrugs off %s '%s'!", "#ORANGE#%s ignore %s '%s'!", "logCombat")
@@ -43782,7 +43782,7 @@ t("%s, the injured seer", "%s, le devin blessé", "_t")
 t("She looks tired and wounded.", "Elle a l'air blessé et fatigué.", "_t")
 t("%s, the repented thief", "%s, le voleur repentie", "_t")
 t("%s, the lone alchemist", "%s, l'alchimist solitaire", "_t")
-t("%s, the lost sun paladin", "%s, le paladin du soleil perdu", "_t")
+t("%s, the lost sun paladin", "%s, le paladin solaire perdu", "_t")
 t("%s, the lost defiler", "%s, le profanateur perdu", "_t")
 t("temporal portal", "portail temporel", "_t")
 t([[Oh but you are ... are you ?! ME?!
@@ -44035,7 +44035,7 @@ t(" (range: ", " (portée: ", "_t")
 t("Min.level: ", "Niv.Min: ", "_t")
 t("Never visited yet", "Pas encore visité", "_t")
 t("In sight", "En vue", "_t")
-t("Lit", "Eclairage", "_t")
+t("Lit", "Eclairé", "_t")
 t("Blocks sight", "Bloque la vue", "_t")
 t("Blocks movement", "Bloque le mouvement", "_t")
 t("Special breathing method required", "Méthode de respiration spéciale requise", "_t")
@@ -44053,8 +44053,8 @@ t("map attrs: ", "map attrs: ", "_t")
 ------------------------------------------------
 section "mod-tome/mod/class/MapEffects.lua"
 
-t(" area effect", " air d'effet", "_t")
-t("area effect", "air d'effet", "_t")
+t(" area effect", " aire d'effet", "_t")
+t("area effect", "aire d'effet", "_t")
 t("%s's %s", "%s de %s", "tformat")
 
 ------------------------------------------------
@@ -44124,7 +44124,7 @@ t("stats", "utilise", "_t")
 t("stat", "utilise", "_t")
 t("Damage type: ", "Type de dégâts: ", "_t")
 t("Mastery: ", "Maîtrise: ", "_t")
-t("Accuracy is based on willpower for this weapon.", "Précision de l'arme basé sur la Volonté.", "_t")
+t("Accuracy is based on willpower for this weapon.", "Précision de l'arme basée sur la Volonté.", "_t")
 t("Accuracy: ", "Précision: ", "_t")
 t("Armour Penetration: ", "Pén d'armure: ", "_t")
 t("Crit. chance: ", "Chance de Crit.: ", "_t")
@@ -44134,7 +44134,7 @@ t("Block value: ", "Valeur de blocage: ", "_t")
 t("Firing range: ", "Portée de tir: ", "_t")
 t("Capacity: ", "Capacité: ", "_t")
 t("Reload speed: ", "Temps de rechargement: ", "_t")
-t("Turns elapse between self-loadings: ", "Les tours s'écoulent entre les rechargements manuels ", "_t")
+t("Turns elapse between self-loadings: ", "Les tours s'écoulent entre les rechargements manuels: ", "_t")
 t("When this weapon hits: %s (%d%% chance level %d).", "Quand cette arme touche: %s (%d%% chance niveau %d).", "tformat")
 t("When this weapon crits: %s (%d%% chance level %d).", "Quand cette arme crit: %s (%d%% chance niveau %d).", "tformat")
 t("#YELLOW#On weapon hit:#LAST#", "#YELLOW#Quand l'arme touche:#LAST#", "_t")
@@ -44190,7 +44190,7 @@ t("No left", "Pas de gauche", "log")
 t("No right", "Pas de droite", "log")
 t("#YELLOW#On shield block:#LAST#", "#YELLOW#Sur blocage au bouclier:#LAST#", "_t")
 t("Changes stats: ", "Modif de stats: ", "_t")
-t("Changes resistances: ", "Modif des rés: ", "_t")
+t("Changes resistances: ", "Modif de rés: ", "_t")
 t("all", "tout", "_t")
 t("Changes resistances cap: ", "Modif des caps de rés: ", "_t")
 t("Reduce damage by fixed amount: ", "Réduc de dégâts par montant fixe: ", "_t")
@@ -44216,7 +44216,7 @@ t("Reduces opponents crit chance: ", "Réduc de chances de critique adverses: ",
 t("Trap disarming bonus: ", "Bonus de désarmement des pièges: ", "_t")
 t("Stealth bonus: ", "Bonus de furtivité: ", "_t")
 t("Maximum encumbrance: ", "Encombrement maximum: ", "_t")
-t("Physical save: ", "Sauvegarde Physique: ", "_t")
+t("Physical save: ", "Sauvegarde physique: ", "_t")
 t("Spell save: ", "Sauvegarde contre les Sorts: ", "_t")
 t("Mental save: ", "Sauvegarde Mentale: ", "_t")
 t("Blindness immunity: ", "Immunité à l'Aveuglement: ", "_t")
@@ -44268,12 +44268,12 @@ t("Maximum hate: ", "Haine maximum: ", "_t")
 t("Maximum psi: ", "Psi maximum: ", "_t")
 t("Maximum vim: ", "Maladie maximum: ", "_t")
 t("Maximum pos.energy: ", "Pos.energie maximum: ", "_t")
-t("Maximum neg.energy: ", "Neg.energy maximum: ", "_t")
+t("Maximum neg.energy: ", "Neg.energie maximum: ", "_t")
 t("Maximum air capacity: ", "Capacité d'air maximale: ", "_t")
 t("Spellpower: ", "Puissance des sorts: ", "_t")
 t("Spell crit. chance: ", "Chance de crit. de sort: ", "_t")
 t("Lowers spell cool-downs by: ", "Réduit les temps de récupération des sorts de: ", "_t")
-t("Mindpower: ", "Puissance Mental: ", "_t")
+t("Mindpower: ", "Puissance Mentale: ", "_t")
 t("Mental crit. chance: ", "Crit. chance mental: ", "_t")
 t("Light radius: ", "Portée de vue: ", "_t")
 t("Infravision radius: ", "Portée d'infravision: ", "_t")
@@ -46702,12 +46702,12 @@ section "mod-tome/mod/dialogs/LevelupDialog.lua"
 t("unknown", "inconnu", "_t")
 t("not enough stat", "stat insuffisantes", "_t")
 t("class", "classe", "_t")
-t("Physical save: ", "Sauvegarde Physique: ", "_t")
-t("Mindpower: ", "Puissance Mental: ", "_t")
-t("Mental save: ", "Sauvegarde Mentale: ", "_t")
-t("Spell save: ", "Sauvegarde contre les Sorts: ", "_t")
-t("Physical power: ", "Puissance physical: ", "_t")
-t("Crit. chance: ", "Chance de Crit.: ", "_t")
+t("Physical save: ", "Sauvegarde physique: ", "_t")
+t("Mindpower: ", "Puissance mentale: ", "_t")
+t("Mental save: ", "Sauvegarde mentale: ", "_t")
+t("Spell save: ", "Sauvegarde contre les sorts: ", "_t")
+t("Physical power: ", "Puissance physique: ", "_t")
+t("Crit. chance: ", "Chance de crit.: ", "_t")
 t("Accuracy: ", "Précision: ", "_t")
 t("Spellpower: ", "Puissance des sorts: ", "_t")
 t("Defense: ", "Défense: ", "_t")
