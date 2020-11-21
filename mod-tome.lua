@@ -2908,7 +2908,7 @@ section "mod-tome/data/chats/keepsake-caravan-destroyed.lua"
 
 t([[#VIOLET#*As the last member of the caravan lies dying, you look at him and see the hate that fills his eyes.*#LAST#
 We should have finished you off that day. You deserved no mercy!]], [[#VIOLET#*Alors que le dernier membre de la caravane gît mourant, vous le regardez et vous voyez la haine qui remplit ses yeux.*#LAST#
-Nous aurions dû vous achever ce jour-là. Vous n'avez pas mérité notre pitié !]], "_t")
+Nous aurions dû vous achever ce jour-là. Vous n'avez pas mérité notre pitié!]], "_t")
 t("And I will show you no mercy. #LIGHT_GREEN#[Kill him]#LAST#", "Et je ne vous montrerai aucune pitié. #LIGHT_GREEN#[Le tuer]#LAST#", "_t")
 t("I am sorry. #LIGHT_GREEN#[Help him]#LAST#", "Je suis désolé. #LIGHT_GREEN#[L'aider]#LAST#", "_t")
 t("#VIOLET#*Before you can help him, he collapses to the ground and dies.*#LAST#", "#VIOLET#*Avant que vous ne puissiez l'aider, il s'effondre sur le sol et meurt.*#LAST#", "_t")
@@ -2923,7 +2923,7 @@ section "mod-tome/data/chats/keepsake-kyless-death.lua"
 
 t([[#VIOLET#*Kyless lies dying on the floor. In his hand he holds a book.*#LAST#
 Please! Before I die I have one request. Destroy the book. It wasn't me. The book brought this on us. It must be destoyed!]], [[#VIOLET#*Kyless gît mourante sur le sol. Dans sa main, il tient un livre.*#LAST#
-Je vous en prie ! Avant de mourir, j'ai une demande à formuler. Détruisez ce livre. Ce n'était pas moi. C'est le livre qui nous a fait ça. Il doit être détruit !]], "_t")
+Je vous en prie! Avant de mourir, j'ai une demande à formuler. Détruisez ce livre. Ce n'était pas moi. C'est le livre qui nous a fait ça. Il doit être détruit!]], "_t")
 t("I will. #LIGHT_GREEN#[destroy the book]#LAST#", "Je le ferais. #LIGHT_GREEN#[Détruire le livre]#LAST#", "_t")
 t("I'm sorry but I need it. #LIGHT_GREEN#[keep the book]#LAST#", "Je suis désolé mais j'en ai besoin#LIGHT_GREEN#[Garder le livre]#LAST#", "_t")
 t("#VIOLET#*You destroy the book. When you finish you look up and see that Kyless is already dead.*#LAST#", "#VIOLET#*Vous détruisez le livre. Quand vous avez fini, vous levez les yeux et vous voyez que Kyless est déjà morte.*#LAST#", "_t")
@@ -2945,7 +2945,7 @@ t("I had it briefly but have lost it somehow.  It could have been some orcs I en
 t([[I am truly astonished by your strength; surviving that encounter was an epic feat.
 As for the orcs, it is deeply troubling.  We have not seen any for eighty years... could they have come from the far east?
 Anyway, thank you again, @playername@, for your help.]], [[Je suis vraiment étonné par votre force ; survivre à cette rencontre a été un exploit épique.
-Quant aux orcs, c'est profondément troublant.  Nous n'en avons pas vu depuis quatre-vingts ans... pourraient-ils venir d'Extrême-Orient ?
+Quant aux orcs, c'est profondément troublant.  Nous n'en avons pas vu depuis quatre-vingts ans... pourraient-ils venir d'Extrême-Orient?
 Quoi qu'il en soit, merci encore, @playername@, pour votre aide.]], "_t")
 t("Thank you, my lord.", "Merci, mon seigneur.", "_t")
 t([[Orcs?! In the west?! This is deeply alarming! We have not seen any for nearly eighty years. They must have come from the far east...
@@ -2958,13 +2958,10 @@ t("I will check the mines.", "Je vérifierai les mines.", "_t")
 t("That's extraordinary! I know a number of merchant princes who will salivate at the idea of new trade routes opening. But tell me, how fares your quest for the staff?", "C'est extraordinaire! Je connais un certain nombre de princes marchands qui vont saliver à l'idée de l'ouverture de nouvelles routes commerciales. Mais dites-moi, comment se passe votre quête du bâton?", "_t")
 t("The staff is recovered and the culprits slain. They will trouble us no more. [tell him the whole story]", "Le bâton a été récupéré et les coupables sont morts. Ils ne nous dérangeront plus. [racontez-lui toute l'histoire]", "_t")
 t("The hunt continues. The construction of this portal will be of great assistance in the staff's recovery.", "La chasse se poursuit. La construction de ce portail sera d'une grande utilité pour la récupération du bâton.", "_t")
-t("Excellent! Well then, concerning this fascinating portal, I'm afraid that men have largely forgotten whatever they once knew about the great magics of old. I know of only one man in these lands who might be able to help you, a wise man and recent arrival to Last Hope named Tannen. He claims to hail from Angolwen, a supposed haven for practitioners of magic and mysticism. He arrived just months ago with fabulous wealth and has already constructed his own tower in the northern part of the city. I know little of him, but if he is to be believed, then he is your best hope.", "Excellent ! Eh bien, en ce qui concerne ce portail fascinant, je crains que les hommes aient largement oublié ce qu'ils savaient sur les grandes magies d'autrefois. Je ne connais qu'un seul homme dans ces terres qui pourrait vous aider, un sage et récent arrivé à Dernier Espoir nommé Tannen. Il prétend être originaire d'Angolwen, un prétendu havre pour les adeptes de la magie et du mysticisme. Il est arrivé il y a quelques mois avec une richesse fabuleuse et a déjà construit sa propre tour dans la partie nord de la ville. Je le connais peu, mais s'il faut l'en croire, il est votre meilleur espoir.", "_t")
+t("Excellent! Well then, concerning this fascinating portal, I'm afraid that men have largely forgotten whatever they once knew about the great magics of old. I know of only one man in these lands who might be able to help you, a wise man and recent arrival to Last Hope named Tannen. He claims to hail from Angolwen, a supposed haven for practitioners of magic and mysticism. He arrived just months ago with fabulous wealth and has already constructed his own tower in the northern part of the city. I know little of him, but if he is to be believed, then he is your best hope.", "Excellent! Eh bien, en ce qui concerne ce portail fascinant, je crains que les hommes aient largement oublié ce qu'ils savaient sur les grandes magies d'autrefois. Je ne connais qu'un seul homme dans ces terres qui pourrait vous aider, un sage et récent arrivé à Dernier Espoir nommé Tannen. Il prétend être originaire d'Angolwen, un prétendu havre pour les adeptes de la magie et du mysticisme. Il est arrivé il y a quelques mois avec une richesse fabuleuse et a déjà construit sa propre tour dans la partie nord de la ville. Je le connais peu, mais s'il faut l'en croire, il est votre meilleur espoir.", "_t")
 t("Thank you.", "Merci.", "_t")
 t("In that case, let us proceed as quickly as possible. Now, concerning this fascinating portal. I'm afraid that men have largely forgotten whatever they once knew about the great magics of old. I know of only one man in these lands who might be able to help you, a wise man and recent arrival to Last Hope named Tannen. He claims to hail from Angolwen, a supposed haven for practitioners of magic and mysticism. He arrived just months ago with fabulous wealth and has already constructed his own tower in the northern part of the city. I know little of him, but if he is to be believed, then he is your best hope.", "Dans ce cas, procédons le plus rapidement possible. Maintenant, en ce qui concerne ce portail fascinant. Je crains que les hommes aient largement oublié tout ce qu'ils savaient sur les grandes magies d'autrefois. Je ne connais qu'un seul homme dans ces terres qui pourrait vous aider, un sage et récent arrivé à Dernier Espoir nommé Tannen. Il prétend être originaire d'Angolwen, un prétendu havre pour les adeptes de la magie et du mysticisme. Il est arrivé il y a quelques mois avec une richesse fabuleuse et a déjà construit sa propre tour dans la partie nord de la ville. Je le connais peu, mais s'il faut l'en croire, il est votre meilleur espoir.", "_t")
--- untranslated text
---[==[
-t("I have found a strange staff in my travels (#LIGHT_GREEN#*describe it in detail*#LAST#)  It looked very old and very powerful. I dared not use it.", "I have found a strange staff in my travels (#LIGHT_GREEN#*describe it in detail*#LAST#)  It looked very old and very powerful. I dared not use it.", "_t")
---]==]
+t("I have found a strange staff in my travels (#LIGHT_GREEN#*describe it in detail*#LAST#)  It looked very old and very powerful. I dared not use it.", "J'ai trouvé un bâton étrange au cours de mes voyages. (#LIGHT_GREEN#*le décrire en détail*#LAST#) Il avait l'air aussi vieux que puissant. Je n'ai pas osé l'utiliser.", "_t")
 
 
 ------------------------------------------------
@@ -2972,7 +2969,7 @@ section "mod-tome/data/chats/last-hope-lost-merchant.lua"
 
 t([[Ah, my #{italic}#good#{normal}# friend @playername@!
 Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], [[Ah, mon #{italic}#bon#{normal}# ami @playername@!
-Grâce à vous, je suis arrivé sain et sauf dans cette grande ville ! J'ai l'intention d'ouvrir bientôt ma plus excellente boutique, mais comme je vous suis redevable, je pourrais peut-être ouvrir plus tôt pour vous si vous avez besoin de marchandises exotiques.]], "_t")
+Grâce à vous, je suis arrivé sain et sauf dans cette grande ville! J'ai l'intention d'ouvrir bientôt ma plus excellente boutique, mais comme je vous suis redevable, je pourrais peut-être ouvrir plus tôt pour vous si vous avez besoin de marchandises exotiques.]], "_t")
 t("\
 By the way, ", "\
 Au fait, ", "_t")
@@ -2982,15 +2979,15 @@ t("while", "et", "_t")
 t(" organizing my inventory, I came across some #YELLOW#Smelly Toxin#LAST# that a colleague claimed could actually turn creatures to stone.  Truly exotic!", " en organisant mon inventaire, je suis tombé sur #YELLOW#une Toxine Puante#DERNIÈRE# qui, selon un collègue, pouvait en fait transformer des créatures en pierre.  Vraiment exotique!", "_t")
 t("\
 You would not happen to be interested, by any chance?", "\
-Vous ne seriez pas intéressé, par hasard ?", "_t")
+Vous ne seriez pas intéressé, par hasard?", "_t")
 t("\
 Oh my friend, good news! As I told you I can now request a truly #{italic}#unique#{normal}# object to be crafted just for you. For a truly unique price...", "\
-Oh mon ami, bonne nouvelle ! Comme je vous l'ai dit, je peux maintenant demander qu'un objet vraiment #{italic}#unique#{normal}# soit fabriqué juste pour vous. Pour un prix vraiment unique...", "_t")
+Oh mon ami, bonne nouvelle! Comme je vous l'ai dit, je peux maintenant demander qu'un objet vraiment #{italic}#unique#{normal}# soit fabriqué juste pour vous. Pour un prix vraiment unique...", "_t")
 t("\
 I eventually plan to arrange a truly unique service for the most discerning of customers. If you come back later when I'm fully set up I shall be able to order for you something quite marvellous. For a perfectly #{italic}#suitable#{normal}# price, of course.", "\
 J'ai l'intention d'organiser un service vraiment unique pour les clients les plus exigeants. Si vous revenez plus tard, lorsque je serai complètement installé, je pourrai commander pour vous quelque chose d'assez merveilleux. Pour un prix parfaitement #{italic}#adapté#{normal}#, bien sûr.", "_t")
 t("Yes please, let me see your wares.", "Oui, s'il vous plaît, laissez-moi voir vos marchandises.", "_t")
-t("What about the unique object?", "Qu'en est-il de l'objet unique ?", "_t")
+t("What about the unique object?", "Qu'en est-il de l'objet unique?", "_t")
 t("Ambush Trap?  Sounds useful.", "Un Piège à Embuscade? Ca pourrait être utile.", "_t")
 t("Smelly Toxin?  What kind of smell?", "Une Toxine Puante? Quelle sorte de puanteur?", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
@@ -3057,16 +3054,16 @@ t("I am glad to see you are fine. It seems your scars are healing quite well.", 
 t("I am glad to see you well. Take care.", "Je suis heureux de vous voir en bonne santé. Prenez soin de vous.", "_t")
 t([[Yes it has mostly healed, though I still do have nightmares. I feel like something is still lurking.
 Ah well, the bad dreams are still better than the fate you saved me from!]], [[Oui, elles guérissent rapidement, bien que je fasse encore des cauchemars. J'ai l'impression que quelque chose me guette encore.
-Cependant, les mauvais rêves sont toujours mieux que le sort dont vous m'avez sauvé !]], "_t")
+Cependant, les mauvais rêves sont toujours mieux que le sort dont vous m'avez sauvé!]], "_t")
 t("Should I come across a way to help you during my travels, I will try to help.", "Si je trouve un moyen de vous aider au cours de mes voyages, j'essaierai de vous aider.", "_t")
 t("Thank you, you are most welcome.", "Merci, vous êtes le bienvenu.", "_t")
-t("Most certainly, so what are your plans now?", "Très certainement, alors quels sont vos projets maintenant ?", "_t")
+t("Most certainly, so what are your plans now?", "Très certainement, alors quels sont vos projets maintenant?", "_t")
 t("Hi @playername@! I am feeling better now, even starting to grow restless...", "Bonjour @playername@! Je me sens mieux maintenant, je commence même à ne plus tenir en place...", "_t")
-t("So what are your plans now?", "Alors, quels sont vos projets maintenant ?", "_t")
+t("So what are your plans now?", "Alors, quels sont vos projets maintenant?", "_t")
 t("About that, I was thinking that maybe you'd like to go out with me sometime ...", "À ce propos, je pensais que tu aimerais peut-être sortir avec moi un jour...", "_t")
 t([[#LIGHT_GREEN#*Melinda appears at the door and kisses you*#WHITE#
 Hi my dear, I'm so happy to see you!]], [[#LIGHT_GREEN#*Melinda apparaît à la porte et vous embrasse*#WHITE#
-Salut ma chère, je suis si heureux de te voir !]], "_t")
+Salut ma chère, je suis si heureux de te voir!]], "_t")
 t("I am still looking out for an explanation of what happened at the beach.", "Je suis toujours à la recherche d'une explication sur ce qui s'est passé à la plage.", "_t")
 t("About what happened on the beach, I think I have found something.", "A propos de ce qui s'est passé sur la plage, je pense avoir trouvé quelque chose.", "_t")
 t([[I do not know yet, my father won't let me out until I'm fully healed. I've always wanted to do so many things.
@@ -3076,7 +3073,7 @@ C'est pourquoi je suis resté coincé dans cette crypte, je veux voir le monde.
 Mon père m'a donné des fonds pour que je puisse prendre mon avenir en main. J'ai quelques amis à Derth, peut-être que j'y ouvrirai ma propre petite boutique. ]], "_t")
 t("I have seen how you fought those corruptors, the way you destroyed their magic. I want to learn to do the same, so that such horrors never happen again. To anyone.", "J'ai vu comment vous avez combattu ces corrupteurs, comment vous avez détruit leur magie. Je veux apprendre à faire de même, afin que de telles horreurs ne se reproduisent plus jamais. A personne.", "_t")
 t([[Or maybe, well I suppose I can trust you with this, I've always secretly dreamed of learning magic. Real magic I mean not alchemist tricks!
-I've learnt about a secret place, Angolwen, where I could learn it.]], [[Ou peut-être, et bien je suppose que je peux vous faire confiance, j'ai toujours secrètement rêvé d'apprendre la magie. De la vraie magie, je veux dire, pas des tours d'alchimiste !
+I've learnt about a secret place, Angolwen, where I could learn it.]], [[Ou peut-être, et bien je suppose que je peux vous faire confiance, j'ai toujours secrètement rêvé d'apprendre la magie. De la vraie magie, je veux dire, pas des tours d'alchimiste!
 J'ai découvert un endroit secret, Angolwen, où je pourrais l'apprendre.]], "_t")
 t("Derth has its up and downs but I think they could do with a smart girl yes.", "Derth a ses hauts et ses bas, mais je pense qu'ils pourraient avoir besoin d'une fille intelligente, oui.", "_t")
 t("Thanks!", "Merci!", "_t")
@@ -3149,7 +3146,7 @@ t("[leave]", "[partir]", "_t")
 section "mod-tome/data/chats/lost-merchant.lua"
 
 t([[Please save me! I will make it worth your whi..
-*#LIGHT_GREEN#The assassin lord hits him in the face.#WHITE#*Shut up!]], [[S'il vous plaît, sauvez-moi ! Je vais faire en sorte que ça vaille la peine....
+*#LIGHT_GREEN#The assassin lord hits him in the face.#WHITE#*Shut up!]], [[S'il vous plaît, sauvez-moi! Je vais faire en sorte que ça vaille la peine....
 *#LIGHT_GREEN#Le seigneur assassin le frappe au visage.#WHITE#*Tais toi!]], "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 t("Please get me out of here!", "S'il vous plaît, sortez-moi de là!", "_t")
@@ -3184,7 +3181,7 @@ section "mod-tome/data/chats/mage-apprentice-quest.lua"
 t([[#LIGHT_GREEN#*Before you stands a young man, a novice mage by his looks*#WHITE#
 Good day to yo...#LIGHT_GREEN#*He stares at you and starts to run away fast!*#WHITE#
 Do not kill me please!]], [[#LIGHT_GREEN#*Devant vous se tient un jeune homme, un mage novice suivant son apparence.*#WHITE#
-Bonne journée à vous...#LIGHT_GREEN#*Il vous regarde fixement et commence à s'enfuir rapidement !*#WHITE#
+Bonne journée à vous...#LIGHT_GREEN#*Il vous regarde fixement et commence à s'enfuir rapidement!*#WHITE#
 Ne me tuez pas, s'il vous plaît!]], "_t")
 t([[#LIGHT_GREEN#*Before you stands a young man, a novice mage by his looks*#WHITE#
 Good day to you, fellow traveler!]], [[#LIGHT_GREEN#*Devant vous se tient un jeune homme, un mage novice suivant son apparence.*#WHITE#
@@ -3195,7 +3192,7 @@ t("So you have enough magical items now?", "Vous avez donc assez d'objets magiqu
 t("Sorry I have to go!", "Désolé, je dois y aller!", "_t")
 t("Ahh, my story is a sad one... I should not trouble you with it, my friend.", "Ahh, mon histoire est triste... Je ne devrais pas vous ennuyer avec ça, mon ami.", "_t")
 t("It is no trouble at all! Please tell me!", "Ce n'est pas du tout un problème! Dites moi tout, s'il vous plaît!", "_t")
-t("Ok, bye then!", "Ok, au revoir alors !", "_t")
+t("Ok, bye then!", "Ok, au revoir alors!", "_t")
 t([[Well, if you insist...
 I am a novice mage, as you might have noticed, and my goal is to be accepted by the people of Angolwen and be taught the secrets of the arcane.]], [[Eh bien, si vous insistez...
 Je suis un mage novice, comme vous l'avez peut-être remarqué, et mon but est d'être accepté par le peuple d'Angolwen et d'apprendre les secrets des arcanes.]], "_t")
@@ -3217,7 +3214,7 @@ t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, 
 During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kor'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
 So she set a secret plan into action and built a secret place where magic would be kept alive.
 Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
-Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui ! Je suis tellement contente ! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire; vous le méritez pour m'avoir aidé.
+Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui! Je suis tellement contente! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire; vous le méritez pour m'avoir aidé.
 Pendant les années sombres de la Chasse aux Sorcières, il y a plusieurs milliers d'années, Linaniil, la grande mage du Kor'Krul, s'inquiétait que la magie puisse disparaître avec sa génération et être perdue pour les mortels s'ils en avaient à nouveau besoin.
 Elle a donc mis en place un plan secret et a construit un lieu secret où la magie serait maintenue en vie.
 Son plan a fonctionné et le groupe a construit une ville appelée Angolwen dans les montagnes de l'ouest. #LIGHT_GREEN#*Il la marque sur votre carte, ainsi qu'un portail pour y accéder*#WHITE#
@@ -3252,10 +3249,10 @@ section "mod-tome/data/chats/melinda-beach-end.lua"
 
 t("What just happened?!", "Qu'est-ce qui vient de se passer?!", "_t")
 t("I'm sorry I didn't manage to protect you and as you were about to die you... fired a powerful wave of blight.", "Je suis désolé de n'avoir pas réussi à vous protéger et alors que vous étiez sur le point de mourir, vous avez... lancé une puissante vague de fléau.", "_t")
-t("But I have never cast a spell in my life!", "Mais je n'ai jamais jeté de sort dans ma vie !", "_t")
+t("But I have never cast a spell in my life!", "Mais je n'ai jamais jeté de sort dans ma vie!", "_t")
 t("You are still tainted by that ... foul Demon! The taint is not all gone!", "Vous êtes toujours souillé par cet... infâme Démon! La souillure n'a pas disparu!", "_t")
 t("There must be some of that demon's taint still inside you.", "Il doit y avoir une partie de la souillure de ce démon encore en vous.", "_t")
-t("This is terrible! I assure you I had no idea this would happen. You must trust me!", "C'est terrible ! Je vous assure que je n'avais aucune idée que cela arriverait. Vous devez me faire confiance!", "_t")
+t("This is terrible! I assure you I had no idea this would happen. You must trust me!", "C'est terrible! Je vous assure que je n'avais aucune idée que cela arriverait. Vous devez me faire confiance!", "_t")
 t("I do. The Ziguranth are not raving zealots, you know. We will look for a way to cure you, as long as you reject the blight.", "Je le fais. Les Ziguranth ne sont pas des fanatiques enragés, vous savez. Nous chercherons un moyen de vous guérir, à condition que vous rejetiez le fléau.", "_t")
 t("This is terrible! What is happening to me?!? You must help me!", "C'est terrible! Qu'est-ce qui m'arrive?!? Vous devez m'aider!", "_t")
 t("I will. We will find a cure for this together.", "Je le ferai. Nous trouverons ensemble un remède à ce problème.", "_t")
@@ -3276,7 +3273,7 @@ I have had a wonderful time with you today.
 #LIGHT_GREEN#*She looks longingly into your eyes.*#WHITE#]], [[#LIGHT_GREEN#*Vous passez tous les deux un moment de détente sur la plage.
 L'air est frais, le sable miroite et les vagues grondent doucement.*#WHITE#
 
-C'était une si belle idée !
+C'était une si belle idée!
 J'ai passé un moment merveilleux avec vous aujourd'hui.
 
 #LIGHT_GREEN#*Elle vous regarde avec envie dans les yeux.*#WHITE#]], "_t")
@@ -3307,7 +3304,7 @@ t([[Yes Master. I will arrange for that right now.
 She will be able to come and go unnoticed.]], [[Oui, Maître. Je vais m'en occuper tout de suite.
 Elle pourra aller et venir sans se faire remarquer.]], "_t")
 t("That is perfect.", "C'est parfait.", "_t")
-t("Oh this is great, thank you! My own secret lair, my own life.", "Oh c'est super, merci ! Mon propre repaire secret, ma propre vie.", "_t")
+t("Oh this is great, thank you! My own secret lair, my own life.", "Oh c'est super, merci! Mon propre repaire secret, ma propre vie.", "_t")
 t("I only wish your happiness, I am glad to provide.", "Je ne fais que souhaiter votre bonheur, je suis heureux d'y pourvoir.", "_t")
 t([[#LIGHT_GREEN#*Looking all glamorous she comes closer*#WHITE#
 Now my sweet one, where were we the last time?]], [[#LIGHT_GREEN#*Toute glamour, elle s'approche*#WHITE#
@@ -3374,13 +3371,13 @@ Help, Help me.
 ]], [[#LIGHT_GREEN#*Un rayon de lumière illumine la lueur de l'acier au milieu de l'herbe. En enquêtant, vous trouvez une paladin solaire solitaire gisant sur le sol. Ses blessures sont insignifiantes, mais ses traits pâles laissent présager un poison qui fait des ravages. Elle vous chuchote.*#WHITE#
 Au secours, aidez-moi.
 ]], "_t")
-t("What should I do?", "Que dois-je faire ?", "_t")
+t("What should I do?", "Que dois-je faire?", "_t")
 t([[I found it... the abomination Aeryn sent me to seek out. The breeding pits of the orcs... It is more vile than you can imagine... They have it hidden away from their encampments, out of sight of all their people. Their mothers, their young, all there - all vulnerable!
 #LIGHT_GREEN#*She pulls out a sketched map, and with some effort puts it in your palm.*#WHITE#
 
 This could be the final solution, the end to the war... forever. We must strike soon, before reinforcements...
 
-#LIGHT_GREEN#*She looks hard at you, exerting all her effort into a final pleading stare.*#WHITE#]], [[Je l'ai trouvé... l'abomination qu'Aeryn m'a envoyé chercher. Les fosses de reproduction orcs... C'est plus vil que vous ne pourriez l'imaginer... Ils l'ont cachée loin de leurs campements, hors de vue de tout leur peuple. Leurs mères, leurs jeunes, tous là - tous vulnérables !
+#LIGHT_GREEN#*She looks hard at you, exerting all her effort into a final pleading stare.*#WHITE#]], [[Je l'ai trouvé... l'abomination qu'Aeryn m'a envoyé chercher. Les fosses de reproduction orcs... C'est plus vil que vous ne pourriez l'imaginer... Ils l'ont cachée loin de leurs campements, hors de vue de tout leur peuple. Leurs mères, leurs jeunes, tous là - tous vulnérables!
 #LIGHT_GREEN#*Elle sort une carte sommaire et, avec un peu d'effort, la met dans votre paume.*#WHITE#
 
 Ce pourrait être la solution finale, la fin de la guerre... pour toujours. Nous devons frapper bientôt, avant que les renforts...
@@ -3399,9 +3396,9 @@ THIS CANNOT BE AVOIDED! I MUST STOP IT! PLEASE DON'T!
 I MUST KILL MYSELF TO PROTECT MYSELF!
 #LIGHT_GREEN#*Before you can react, you... I... yourself vanishes into a rift hanging in midair.*#WHITE#
 ]], [[#LIGHT_GREEN#*Devant vous... vous. Vous semblez être un peu plus âgé, et à première vue, vous avez vécu l'enfer.*#WHITE#
-NON ! VOUS NE POUVEZ PAS ! PAS Y ALLER ! VOUS... I... VOUS NE DEVEZ PAS Y ALLER !
-ON NE PEUT PAS L'ÉVITER ! JE DOIS L'ARRÊTER ! S'IL VOUS PLAÎT, NE LE FAITES PAS !
-JE DOIS ME TUER POUR ME PROTÉGER !
+NON! VOUS NE POUVEZ PAS! PAS Y ALLER! VOUS... I... VOUS NE DEVEZ PAS Y ALLER!
+ON NE PEUT PAS L'ÉVITER! JE DOIS L'ARRÊTER! S'IL VOUS PLAÎT, NE LE FAITES PAS!
+JE DOIS ME TUER POUR ME PROTÉGER!
 #LIGHT_GREEN#*Avant de pouvoir réagir, vous... je... vous-même disparaîssez dans une brèche suspendue en l'air.*#WHITE#
 ]], "_t")
 t("What the...", "Qu'est-ce que...", "_t")
@@ -3467,7 +3464,7 @@ A group of orcs were guarding something that looked like the staff you asked abo
 You should go there to investigate. This might be your only chance.]], [[Une de nos patrouilles a remarqué d'étranges mouvements orcs dans la partie sud du continent, dans le désert d'Erúan.
 Un groupe d'orcs gardait quelque chose qui ressemblait au bâton sur lequel vous avez posé des questions.
 Vous devriez vous y rendre pour enquêter. C'est peut-être votre seule chance.]], "_t")
-t("I will, right now!", "Je le ferai, dès maintenant !", "_t")
+t("I will, right now!", "Je le ferai, dès maintenant!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/ring-of-blood-master.lua"
@@ -3482,7 +3479,7 @@ If you feel you cannot take part in a slaver's game, I am afraid you will need t
 Puisque vous ne me semblez pas être de la chair à esclaves, je vous propose de vous laisser payer pour jouer le jeu.
 Si vous pensez que vous ne pouvez pas participer à un jeu d'esclavagiste, j'ai peur que vous deviez... disparaître.]], "_t")
 t("Slavers? This is so wrong! [attack]", "Des esclavagistes? Ce n'est pas acceptable! [attaquer]", "_t")
-t("You think so? Die.", "Vous le croyez ? Meurs.", "_t")
+t("You think so? Die.", "Vous le croyez? Meurs.", "_t")
 t("Game? I like playing, what's this about?", "Un jeu? J'aime jouer, de quoi s'agit-il?", "_t")
 t([[Well, you see, it's quite simple. I will mentally take control of various wild creatures or slaves while you use the orb of command on the other side of this room to take control of a slave.
 Then we fight using our pawns for 10 rounds. If your slave survives you will win the Bloodcaller.]], [[Eh bien, vous voyez, c'est assez simple. Je vais prendre mentalement le contrôle de diverses créatures sauvages ou d'esclaves pendant que vous utilisez l'orbe de commande de l'autre côté de cette pièce pour prendre le contrôle d'un esclave.
@@ -3556,7 +3553,7 @@ section "mod-tome/data/chats/shertul-fortress-butler.lua"
 t([[*#LIGHT_GREEN#The creature slowly turns to you. You hear its terrible voice directly in your head.#WHITE#*
 Welcome, master.]], [[*#LIGHT_GREEN#La créature se tourne lentement vers vous. Vous entendez sa terrible voix directement dans votre tête.#WHITE#*
 Bienvenue, maître.]], "_t")
-t("What are you, and what is this place?", "Qu'est-ce que vous êtes, et quel est cet endroit ?", "_t")
+t("What are you, and what is this place?", "Qu'est-ce que vous êtes, et quel est cet endroit?", "_t")
 t("Master? I am not your mas...", "Maître? Je ne suis pas votre maî...", "_t")
 t("Why do I understand you? The texts are unreadable to me.", "Pourquoi est-ce que je vous comprends? Ces textes sont illisibles pour moi.", "_t")
 t("What can I do here?", "Que puis-je faire ici?", "_t")
@@ -3617,7 +3614,7 @@ Cependant, la Forteresse est très endommagée et est restée trop longtemps en 
 Prenez ce Coffre de Transmogrification. Il est relié à la Forteresse par un portail permanent. Tout objet que vous y placerez sera envoyé au générateur principal et démantelé pour obtenir de l'énergie.
 Cependant, cette opération a un sous-produit indésirable: la génération d'un métal connu sous le nom d'or. Il n'est d'aucune utilité pour la Forteresse et vous sera donc renvoyé.]], "_t")
 t("I will, thanks.", "Je le ferai, merci.", "_t")
-t("I have already found such a chest in my travel. Will it work?", "J'ai déjà trouvé un tel coffre lors de mon voyage. Est-ce que ça va marcher ?", "_t")
+t("I have already found such a chest in my travel. Will it work?", "J'ai déjà trouvé un tel coffre lors de mon voyage. Est-ce que ça va marcher?", "_t")
 t([[Yes, it will. I will attune it to this fortress.
 Done.]], [[Oui, il le fera. Je vais l'adapter à cette forteresse.
 C'est fait.]], "_t")
@@ -3650,8 +3647,8 @@ However, I will need to use 25 energy to do this.]], [[Ah oui, vous semblez maî
 Cependant, je devrai utiliser 25 énergies pour ce faire.]], "_t")
 t("Maybe sometime later.", "Peut-être un peu plus tard.", "_t")
 t("I can alter the Fortress holographic projection matrix to accomodate your racial tastes. This will require 60 energy, however.", "Je peux modifier la matrice de projection holographique de la Forteresse pour l'adapter à vos goûts raciaux. Cela nécessitera cependant 60 énergies.", "_t")
-t("Can you try for a human female appearance please?", "Pouvez-vous essayer d'avoir une apparence humaine féminine s'il vous plaît ?", "_t")
-t("Can you try for a human male appearance please?", "Pouvez-vous essayer d'avoir une apparence humaine masculine, s'il vous plaît ?", "_t")
+t("Can you try for a human female appearance please?", "Pouvez-vous essayer d'avoir une apparence humaine féminine s'il vous plaît?", "_t")
+t("Can you try for a human male appearance please?", "Pouvez-vous essayer d'avoir une apparence humaine masculine, s'il vous plaît?", "_t")
 t("Please revert to your default appearance.", "Veuillez revenir à votre apparence par défaut.", "_t")
 t("Well, you do not look so bad actually. Let it be for now.", "En fait, vous n'avez pas l'air si mal actuellement. Restez comme cela pour l'instant.", "_t")
 t([[Yes Master. I can use 10 energy to infuse your cloak. When you take it off the effect should still persist.
@@ -3661,7 +3658,7 @@ t("Not now.", "Pas maintenant.", "_t")
 t([[Demonic taint. Yes I have a way to help in the archives. However this is a long process, the subject will need to live here for a while.
 She will have to spend 8 hours per day in the regeneration tank.]], [[Une souillure démoniaque. Oui, j'ai un moyen d'aider grâce aux archives. Cependant, c'est un long processus, le sujet devra vivre ici pendant un certain temps.
 Elle devra passer 8 heures par jour dans la cuve de régénération.]], "_t")
-t("This is great news! I will tell her at once.", "C'est une excellente nouvelle ! Je vais lui dire tout de suite.", "_t")
+t("This is great news! I will tell her at once.", "C'est une excellente nouvelle! Je vais lui dire tout de suite.", "_t")
 -- untranslated text
 --[==[
 t("Err... ok.", "Err... ok.", "_t")
@@ -3774,7 +3771,7 @@ Yet I shall tell you my story. You surface dwellers do not know much about nagas
 When Nalore sank, many of us died, so we resorted to using the magic of this temple. It worked, it saved us, and yet we are cursed. Cursed in this form by the terrible magic.
 If you do not believe anything else of what I say, please believe at least this: the Sher'Tul are hiding, not gone, and they are not benevolent entities.
 Recently, that water dragon that sent you here started sending "agents" to secure the temple. I can only imagine his goals, but they are clearly not peaceful.]], [[M'épargner?#LIGHT_GREEN#*Il rigole*#WHITE#
-Ne soyez pas si pressé de supposer que VOUS êtes en mesure de ME faire grâce !
+Ne soyez pas si pressé de supposer que VOUS êtes en mesure de ME faire grâce!
 Mais je vais vous raconter mon histoire. Vous, les habitants de la surface, ne savez pas grand-chose des nagas, mais laissez-moi vous dire ceci: notre condition actuelle n'est pas le fruit de notre choix.
 Quand Nalore a coulé, beaucoup d'entre nous sont morts, alors nous avons eu recours à la magie de ce temple. Elle a fonctionné, elle nous a sauvés, et pourtant nous sommes maudits. Maudits sous cette forme par la terrible magie.
 Si vous ne croyez rien d'autre à ce que je dis, croyez au moins ceci : les Sher'Tul se cachent, ils ne sont pas partis, et ce ne sont pas des entités bienveillantes.
@@ -3790,7 +3787,7 @@ t("Farewell, Slasul.", "Adieu, Slasul.", "_t")
 t([[I secretly hoped you would.
 Then let us seal this alliance. Share your lifeforce with me! So long you should live I shall not be killed!
 In return let me offer you this powerful trident.]], [[J'espérais secrètement que vous le feriez.
-Alors scellons cette alliance. Partagez votre force vitale avec moi ! Tant que vous vivrez, je ne serai pas tué !
+Alors scellons cette alliance. Partagez votre force vitale avec moi! Tant que vous vivrez, je ne serai pas tué!
 En retour, laissez-moi vous offrir ce puissant trident.]], "_t")
 t("I shall accept your offer, my liege.", "J'accepte votre offre, mon seigneur.", "_t")
 t("LET US BE BOUND!", "SOYONS LIÉS!", "_t")
@@ -3810,7 +3807,7 @@ The Way will never forget you. Now go and make history!
 ]], [[#LIGHT_GREEN#*Les deux Sorciers gisent morts devant vous.*#WHITE#
 #LIGHT_GREEN#*Leurs corps disparaissent dans un petit nuage de brume, s'évanouissant rapidement.*#WHITE#
 #LIGHT_GREEN#*Vous sentez la Voie qui vous tend la main, toute la race Yeek vous parle.*#WHITE#
-Vous avez fait quelque chose d'incroyable ! Vous avez également créé une opportunité unique pour la race Yeek !
+Vous avez fait quelque chose d'incroyable! Vous avez également créé une opportunité unique pour la race Yeek!
 Les énergies de ces portails sont incroyables, en les utilisant nous pourrions faire rayonner la voie sur Eyal, la forçant à s'abattre sur les autres races, leur apportant la même paix et le même bonheur que nous ressentons dans la voie.
 Vous devez passer par le portail et vous sacrifier volontairement à l'intérieur. Votre esprit s'incrustera dans le réseau de portails, en répandant la voie partout!
 Même si vous mourrez, vous apporterez au monde, et aux jeunes, la paix ultime.
@@ -3841,7 +3838,7 @@ t([[#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#
 But the portal to the Void is already open. It must be closed before the Creator can come through or all will have been in vain!
 After searching the remains of the Sorcerers you find a note explaining that the portal can only be closed with a sentient being's sacrifice.]], [[#LIGHT_GREEN#*Les deux sorciers gisent morts devant vous.*#WHITE#
 #LIGHT_GREEN#*Leurs corps disparaissent dans un petit nuage de brume, s'évanouissant rapidement.*#WHITE#
-Mais le portail du Néant est déjà ouvert. Il doit être fermé avant que le Créateur puisse le traverser, sinon tout aura été vain !
+Mais le portail du Néant est déjà ouvert. Il doit être fermé avant que le Créateur puisse le traverser, sinon tout aura été vain!
 Après avoir fouillé les restes des Sorciers, vous trouverez une note expliquant que le portail ne peut être fermé qu'avec le sacrifice d'un être sentient.]], "_t")
 t("Aeryn, I am sorry but one of us needs to be sacrificed for the world to go on. #LIGHT_GREEN#[sacrifice Aeryn for the sake of the world]", "Aeryn, je suis désolé mais l'un de nous doit être sacrifié pour que le monde continue. #LIGHT_GREEN#[sacrifier Aeryn pour le bien du monde]", "_t")
 t("I will close it. #LIGHT_GREEN#[sacrifice yourself for the sake of the world]", "Je vais le fermer. #LIGHT_GREEN#[se sacrifier pour le bien du monde]", "_t")
@@ -3870,7 +3867,7 @@ section "mod-tome/data/chats/sorcerer-fight.lua"
 t("High Sun Paladin Aeryn appears next to you!", "Aeryn, le grand Paladin solaire, apparaît à côté de vous!", "logPlayer")
 t([[#LIGHT_GREEN#*The two Sorcerers stands before you, shining like the Sun.*#WHITE#
 Ah! Our guest is finally here. I take it you found the peak entertaining?]], [[#LIGHT_GREEN#*Les deux Sorciers se tiennent devant vous, brillants comme le Soleil.*#WHITE#
-Ah ! Notre invité est enfin là. Je suppose que vous avez trouvé le Pic divertissant?]], "_t")
+Ah! Notre invité est enfin là. Je suppose que vous avez trouvé le Pic divertissant?]], "_t")
 t("Spare me the small talk. I am here to stop you!", "Épargnez-moi les bavardages. Je suis ici pour vous arrêter!", "_t")
 t("Why are you doing all that? You were supposed to help people!", "Pourquoi faites-vous tout cela? Vous étiez censé aider les gens!", "_t")
 t([[Oh, but all we want is to help people. We have come to the self-evident conclusion that common people are just unfit to govern themselves, always bickering, arguing...
@@ -3878,7 +3875,7 @@ Since the last invasion of the orcs there has been no threat to unite them!]], [
 Depuis la dernière invasion orc, il n'y a pas eu de menace pour les unir!]], "_t")
 t("So you have decided to become the threat yourselves?", "Vous avez donc décidé de devenir vous-mêmes la menace?", "_t")
 t("Us? Ah, no, we are merely instruments for the Master. We have planned for His return.", "Nous? Ah, non, nous ne sommes que des instruments pour le Maître. Nous avons prévu son retour.", "_t")
-t("And 'He' would be...?", "Et \"il\" serait... ?", "_t")
+t("And 'He' would be...?", "Et \"il\" serait...?", "_t")
 t([[The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.
 He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!
 The staff has allowed us to drain enough energy from this world to open the portal to the Void and summon Him through!
@@ -3886,7 +3883,7 @@ It is already too late. He is coming through as we speak -- it is only a matter 
 Lui qui a ressenti une grande tristesse pour ce monde. Celui qui va maintenant faire voler en éclats les barrières de ce monde pour le refaire, mais en mieux!
 Le bâton nous a permis de drainer suffisamment d'énergie venant de ce monde pour ouvrir un portail vers le Néant et l'invoquer à travers lui!
 Il est déjà trop tard. Il est en train de passer au moment où nous parlons - ce n'est qu'une question d'heures!]], "_t")
-t("I *WILL* stop you! The world will not end today!", "Je *VAIS* vous arrêter ! Le monde ne prendra pas fin aujourd'hui!", "_t")
+t("I *WILL* stop you! The world will not end today!", "Je *VAIS* vous arrêter! Le monde ne prendra pas fin aujourd'hui!", "_t")
 t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "_t")
 t([[The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.
 He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!
@@ -3981,7 +3978,7 @@ section "mod-tome/data/chats/tarelion.lua"
 
 t([[I say, you there. Yes, you, young one!
 You seem like the adventuring fare, up to all sorts of doo-daddle in the outside world, I imagine. Well, don't forget to pay patronage to our good library here in the city. The riches of the world are all well and good, but where would we be without the gift of knowledge? And all proceeds go towards the funding of further research. No greater cause, yes?]], [[Je dis, vous là-bas. Oui, vous, le jeune!
-Vous semblez être un aventurier, capable de faire toutes sortes de choses dans le monde extérieur, j'imagine. N'oubliez pas de payer des droits d'auteur à notre bonne bibliothèque ici en ville. Les richesses du monde sont bien belles, mais où serions-nous sans le don de la connaissance ? Et tous les bénéfices sont destinés au financement de la recherche. Il n'y a pas de plus grande cause, n'est-ce pas ?]], "_t")
+Vous semblez être un aventurier, capable de faire toutes sortes de choses dans le monde extérieur, j'imagine. N'oubliez pas de payer des droits d'auteur à notre bonne bibliothèque ici en ville. Les richesses du monde sont bien belles, mais où serions-nous sans le don de la connaissance? Et tous les bénéfices sont destinés au financement de la recherche. Il n'y a pas de plus grande cause, n'est-ce pas?]], "_t")
 t("Uh, yes, of course... I'll be moving on now.", "Euh, oui, bien sûr... Je vais poursuivre ma route maintenant.", "_t")
 t("Hold on! You... You're that apprentice mage I met in the wilds!", "Attendez! Vous... Vous êtes cet apprenti mage que j'ai rencontré dans la nature!", "_t")
 t("Why, well-spotted, whippersnapper! Indeed, when the mood takes me I sometimes travel under the guise of an apprentice. It permits me to traverse the land unnoticed in my research, and if I meet any I deem worthy and sympathetic to Angolwen's cause, then so much the better. And it does provide the odd chortle, I tell you!", "Eh bien, bien vu, le coup de fouet! En effet, quand l'envie me prend, je voyage parfois sous les traits d'un apprenti. Cela me permet de parcourir la terre sans me faire remarquer dans mes recherches, et si je rencontre quelqu'un que je juge digne et sympathique à la cause d'Angolwen, alors tant mieux. Et cela me donne un certain plaisir, je vous le dis!", "_t")
@@ -4011,7 +4008,7 @@ Oh no, another *adventurer*! You should not mess with things beyond your compreh
 Do not meddle in the affairs of Time, for it passes swiftly and is easily disrupted!
 #LIGHT_GREEN#*He looks at you more closely.*#WHITE#
 You seem capable. Help me, fight the abominations while I repair the timeline. It is your only way out!]], [[#LIGHT_GREEN#*Un grand homme, rayonnant comme une étoile, apparaît de nulle part.*#WHITE#
-Oh non, un autre *aventurier* ! Vous ne devez pas vous mêler de choses qui dépassent votre compréhension!
+Oh non, un autre *aventurier*! Vous ne devez pas vous mêler de choses qui dépassent votre compréhension!
 Ne vous mêlez pas des affaires du Temps, car il passe vite et est facilement perturbé!
 #LIGHT_GREEN#*Il vous regarde de plus près.*#WHITE#
 Vous semblez compétent. Aidez-moi, combattez les abominations pendant que je répare la ligne du temps. C'est votre seule issue!]], "_t")
@@ -4082,9 +4079,9 @@ section "mod-tome/data/chats/ukllmswwik.lua"
 
 t([[#LIGHT_GREEN#*@npcname@'s deep voice booms through the caverns.*#WHITE#
 This is my domain, and I do not take kindly to intruders. What is your purpose here?]], [[#LIGHT_GREEN#*La voix profonde de @npcname@ s'élève à travers les cavernes.*#WHITE#
-C'est mon domaine, et je n'aime pas les intrus. Quel est votre intention ?]], "_t")
-t("I am here to kill you and take your treasures! Die, damned fish!", "Je suis ici pour vous tuer et prendre vos trésors ! Mourrez, satanés poissons !", "_t")
-t("DIE!", "MEURT !", "_t")
+C'est mon domaine, et je n'aime pas les intrus. Quel est votre intention?]], "_t")
+t("I am here to kill you and take your treasures! Die, damned fish!", "Je suis ici pour vous tuer et prendre vos trésors! Mourrez, satanés poissons!", "_t")
+t("DIE!", "MEURT!", "_t")
 t("I did not mean to intrude. I shall leave now.", "Je ne voulais pas vous déranger. Je vais partir immédiatement.", "_t")
 t([[Wait! You seem to be worthy, so let me tell you a story.
 During the Age of Pyre the world was sundered by the last effects of the Spellblaze. A part of the continental shelf of Maj'Eyal was torn apart and thrown into the sea.
@@ -4094,34 +4091,34 @@ One of them, Slasul, rebelled against his order and decided he wanted the world 
 He believes he can use it to #{italic}#improve#{normal}# nagas.
 But he has become mad and now looks upon all other intelligent water life as a threat, and that includes myself.
 I cannot leave this sanctuary, but perhaps you could help me?
-After all, it would be an act of mercy to end his madness.]], [[Attendez ! Vous semblez en être digne, alors laissez-moi vous raconter une histoire.
+After all, it would be an act of mercy to end his madness.]], [[Attendez! Vous semblez en être digne, alors laissez-moi vous raconter une histoire.
 Pendant l'ère du bûcher, le monde a été brisé par les derniers effets de la Brûlure magique. Une partie du plateau continental du Maj'Eyal a été déchirée et jetée à la mer.
 Les Elfes de Naloren ont péri... du moins c'est ce que le monde pense. Certains d'entre eux ont survécu ; grâce à la magie ancienne des Sher'Tul qu'ils avaient gardée pour eux, ils se sont transformés pour vivre sous l'eau.
 On les appelle maintenant les nagas. Ils vivent dans les profondeurs de l'océan entre Maj'Eyal et l'Extrême-Orient.
 L'un d'eux, Slasul, s'est rebellé contre son ordre et a décidé qu'il voulait le monde pour lui, sous l'eau et au-dessus. Il a trouvé un ancien temple, probablement un vestige des Sher'Tul, appelé le Temple de la Création.
 Il croit pouvoir l'utiliser pour #{italic}#améliorer#{normal}# les nagas.
 Mais il est devenu fou et considère maintenant toutes les autres formes de vie aquatique intelligente comme une menace, et cela m'inclut.
-Je ne peux pas quitter ce sanctuaire, mais peut-être pourriez-vous m'aider ?
+Je ne peux pas quitter ce sanctuaire, mais peut-être pourriez-vous m'aider?
 Après tout, ce serait un acte de pitié de mettre fin à sa folie.]], "_t")
-t("I would still rather kill you and take your treasure!", "Je préfère encore vous tuer et prendre votre trésor !", "_t")
-t("I shall do as you say, but how do I find him?", "Je ferai comme vous le dites, mais comment le trouver ?", "_t")
+t("I would still rather kill you and take your treasure!", "Je préfère encore vous tuer et prendre votre trésor!", "_t")
+t("I shall do as you say, but how do I find him?", "Je ferai comme vous le dites, mais comment le trouver?", "_t")
 t("That seems... unwise. My apologies, but I must refuse.", "Cela semble... peu raisonnable. Mes excuses, mais je dois refuser.", "_t")
 t("I can open a portal to his lair, far away in the western sea, but be warned: this is one-way only. I cannot bring you back. You will have to find your own way.", "Je peux ouvrir un portail vers sa tanière, loin dans la mer occidentale, mais attention : c'est à sens unique. Je ne peux pas vous ramener. Vous devrez trouver votre propre chemin.", "_t")
 t("I will.", "Je le ferai.", "_t")
-t("This is a death trap! Goodbye.", "C'est un piège mortel ! Adieu.", "_t")
-t("Yes?", "Oui ?", "_t")
+t("This is a death trap! Goodbye.", "C'est un piège mortel! Adieu.", "_t")
+t("Yes?", "Oui?", "_t")
 t("[attack]", "[attaquer]", "_t")
-t("TREACHERY!", "TRAHISON !", "_t")
-t("I want your treasures, water beast!", "Je veux tes trésors, monstre des eaux !!", "_t")
-t("Oh, is that so? Well, COME GET THEM!", "Oh, c'est vrai ? Eh bien, VIENS LES CHERCHER !", "_t")
+t("TREACHERY!", "TRAHISON!", "_t")
+t("I want your treasures, water beast!", "Je veux tes trésors, monstre des eaux!!", "_t")
+t("Oh, is that so? Well, COME GET THEM!", "Oh, c'est vrai? Eh bien, VIENS LES CHERCHER!", "_t")
 t("I spoke with Slasul, and he did not seem hostile, or mad.", "J'ai parlé avec Slasul, et il n'a pas semblé hostile, ni fou.", "_t")
 t("Farewell, dragon.", "Adieu, dragon.", "_t")
 t([[#LIGHT_GREEN#*@npcname@ roars!*#WHITE# You listen to the lies of this mad naga!
-You are corrupted! TAINTED!]], [[#LIGHT_GREEN#*@npcname@ Rugit !*#WHITE# Vous écoutez les mensonges de ce naga fou !
-Vous êtes corrompus ! SOUILLE !]], "_t")
-t("DO NOT MEDDLE IN THE AFFAIRS OF DRAGONS!", "NE VOUS MÊLEZ PAS DES AFFAIRES DES DRAGONS !", "_t")
-t("#LIGHT_GREEN#*Shake your head.*#LAST#He swayed my mind! Please, I am not your enemy.", "#LIGHT_GREEN#*Secoue la tête.*#LAST#Il a du influencer mon esprit ! Je vous en prie, je ne suis pas votre ennemi.", "_t")
-t("#LIGHT_GREEN#*@npcname@ calms down!*#WHITE# Very well; he is indeed a trickster.  Now go finish your task, or do not come back!", "#LIGHT_GREEN#*@npcname@ se calme*#WHITE# Très bien, c'est effectivement un tricheur.  Maintenant, allez finir votre tâche, ou ne revenez pas !", "_t")
+You are corrupted! TAINTED!]], [[#LIGHT_GREEN#*@npcname@ Rugit!*#WHITE# Vous écoutez les mensonges de ce naga fou!
+Vous êtes corrompus! SOUILLE!]], "_t")
+t("DO NOT MEDDLE IN THE AFFAIRS OF DRAGONS!", "NE VOUS MÊLEZ PAS DES AFFAIRES DES DRAGONS!", "_t")
+t("#LIGHT_GREEN#*Shake your head.*#LAST#He swayed my mind! Please, I am not your enemy.", "#LIGHT_GREEN#*Secoue la tête.*#LAST#Il a du influencer mon esprit! Je vous en prie, je ne suis pas votre ennemi.", "_t")
+t("#LIGHT_GREEN#*@npcname@ calms down!*#WHITE# Very well; he is indeed a trickster.  Now go finish your task, or do not come back!", "#LIGHT_GREEN#*@npcname@ se calme*#WHITE# Très bien, c'est effectivement un tricheur.  Maintenant, allez finir votre tâche, ou ne revenez pas!", "_t")
 t("Thank you, mighty one.", "Merci, puissant seigneur.", "_t")
 
 ------------------------------------------------
@@ -4131,18 +4128,18 @@ t([[#LIGHT_GREEN#*Before you stands a Human clothed in black robes. He seems to 
 #LIGHT_GREEN#*You stand inside some kind of summoning circle, which prevents you from moving.*#WHITE#
 Oh yes! YES, one more for my collection. My collection, yes. A powerful one indeed!]], [[#LIGHT_GREEN#*Devant vous se tient un Humain vêtu d'une robe noire. Il semble vous ignorer.*#WHITE#
 #LIGHT_GREEN#*Vous vous tenez à l'intérieur d'une sorte de cercle d'invocation, qui vous empêche de bouger.*#WHITE#
-Oh oui ! OUI, un de plus pour ma collection. Ma collection, oui. Une collection puissante en effet !]], "_t")
+Oh oui! OUI, un de plus pour ma collection. Ma collection, oui. Une collection puissante en effet!]], "_t")
 t("[listen]", "[écouter]", "_t")
 t([[A powerful tool against my enemies. Yes, yes. They all hate me, but I will show them my power!
-I will show them! SHOW THEM!]], [[Un outil puissant contre mes ennemis. Oui, oui. Ils me haïssent tous, mais je vais leur montrer ma puissance !
-Je leur montrerai ! MONTREZ-LEUR !]], "_t")
-t("I am not a tool! RELEASE ME!", "Je ne suis pas un pantin ! LIBÉREZ-MOI !", "_t")
+I will show them! SHOW THEM!]], [[Un outil puissant contre mes ennemis. Oui, oui. Ils me haïssent tous, mais je vais leur montrer ma puissance!
+Je leur montrerai! MONTREZ-LEUR!]], "_t")
+t("I am not a tool! RELEASE ME!", "Je ne suis pas un pantin! LIBÉREZ-MOI!", "_t")
 t([[You cannot talk. You cannot talk! You are a slave, a tool!
 You are mine! Be quiet!
 #LIGHT_GREEN#*As his mind drifts off you notice part of the summoning circle is fading. You can probably escape!*#WHITE#
-]], [[Vous ne pouvez pas parler. Vous ne pouvez pas parler ! Vous êtes un esclave, un outil !
-Tu es à moi ! Tais-toi !
-#LIGHT_GREEN#* Alors que son esprit s'éloigne, vous remarquez qu'une partie du cercle d'invocation s'efface. Vous pouvez probablement vous échapper !*#WHITE#
+]], [[Vous ne pouvez pas parler. Vous ne pouvez pas parler! Vous êtes un esclave, un outil!
+Tu es à moi! Tais-toi!
+#LIGHT_GREEN#* Alors que son esprit s'éloigne, vous remarquez qu'une partie du cercle d'invocation s'efface. Vous pouvez probablement vous échapper!*#WHITE#
 ]], "_t")
 t("[attack]", "[attaquer]", "_t")
 
@@ -4151,21 +4148,21 @@ section "mod-tome/data/chats/undead-start-kill.lua"
 
 t([[#LIGHT_GREEN#*He falls to his knees.*#WHITE#
 Please spare me! I am pitiful. I will not stop you. Let me leave!]], [[#LIGHT_GREEN#*Il tombe à genoux.*#WHITE#
-S'il vous plaît, épargnez-moi ! Je suis pitoyable. Je ne vous en empêcherai pas. Laissez-moi partir  !]], "_t")
-t("No!", "Non !", "_t")
+S'il vous plaît, épargnez-moi! Je suis pitoyable. Je ne vous en empêcherai pas. Laissez-moi partir!]], "_t")
+t("No!", "Non!", "_t")
 t([[But, but, you were my... you...
 You need me! What do you think you will do on the surface? Everything you will meet will try to destroy you.
 You are strong but you cannot resist them all!]], [[Mais, mais, tu étais mon... tu...
-Tu as besoin de moi ! Que pensez-vous faire à la surface ? Tout ce que vous rencontrerez tentera de vous détruire.
-Vous êtes fort mais vous ne pouvez pas leur résister à tous !]], "_t")
-t("So what do you propose?", "Alors, que proposez-vous ?", "_t")
+Tu as besoin de moi! Que pensez-vous faire à la surface? Tout ce que vous rencontrerez tentera de vous détruire.
+Vous êtes fort mais vous ne pouvez pas leur résister à tous!]], "_t")
+t("So what do you propose?", "Alors, que proposez-vous?", "_t")
 t("[kill him]", "[le tuer]", "_t")
-t("ARRGGggg... You are alone! You will be destroyed!", "ARRGGggg... Vous êtes seul ! Vous serez détruits !", "_t")
+t("ARRGGggg... You are alone! You will be destroyed!", "ARRGGggg... Vous êtes seul! Vous serez détruits!", "_t")
 t([[I can give you a cloak that will conceal your true nature!
 With it all people will see when they look at you is a normal average Human. You can go about your business.
-Please!]], [[Je peux vous donner une cape qui dissimulera votre vraie nature !
+Please!]], [[Je peux vous donner une cape qui dissimulera votre vraie nature!
 Avec elle, tout le monde verra que vous êtes un être humain normal. Vous pourrez vaquer à vos occupations.
-Je vous en prie !]], "_t")
+Je vous en prie!]], "_t")
 t("Thanks for the information. Now you may die. [kill him]", "Merci pour cette information. Maintenant tu peux mourir. [le tuer]", "_t")
 
 ------------------------------------------------
@@ -4177,30 +4174,30 @@ Krogar: "Ha! It's only been one hour and you already look tired, my 'lady'."
 #LIGHT_GREEN#*As you enter the room they notice you.*#WHITE#
 Fillarel: "You! @playerdescriptor.race@! Help me defeat this monster or begone!"
 Krogar: "Ah, looking for help? Bah. @playerdescriptor.race@, kill this wench for me and I shall reward you!"]], [[#LIGHT_GREEN#*Une belle femme elfe en robe dorée se tient devant vous, face à un orque enveloppé de mailles.*#WHITE#
-Fillarel : "Abandonnez ce combat, orc ! Vous ne pouvez pas gagner : Je me bats avec le pouvoir du Soleil et les ombres des Lunes."
+Fillarel : "Abandonnez ce combat, orc! Vous ne pouvez pas gagner : Je me bats avec le pouvoir du Soleil et les ombres des Lunes."
 Krogar : "Ça ne fait qu'une heure et vous avez déjà l'air fatigué, ma 'dame'."
 #LIGHT_GREEN#*Lorsque vous entrez dans la salle, ils vous remarquent.*#WHITE#
-Fillarel : "Toi ! @playerdescriptor.race@ ! Aide-moi à vaincre ce monstre ou disparais !"
-Krogar : "Ah, vous cherchez de l'aide ? Bah. @playerdescriptor.race@, tue cette jeune fille pour moi et je te récompenserai !"]], "_t")
+Fillarel : "Toi! @playerdescriptor.race@! Aide-moi à vaincre ce monstre ou disparais!"
+Krogar : "Ah, vous cherchez de l'aide? Bah. @playerdescriptor.race@, tue cette jeune fille pour moi et je te récompenserai!"]], "_t")
 t("[attack Krogar]", "[attaquer Krogar]", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/unremarkable-cave-fillarel.lua"
 
 t("Thank you, @playername@. I hate to admit it, but you saved my life.", "Merci, @playername@. Je dois avouer que vous m'avez sauvé la vie.", "_t")
-t("At your service. But may I ask what you were doing in this dark place?", "A votre service. Mais puis-je vous demander ce que vous faisiez dans ce lieu obscure ?", "_t")
-t("At your service. I have been gone for months, but I can feel it, at last this is my homeland!", "A votre service. Je suis parti depuis des mois, mais je le sens, enfin c'est ma patrie !", "_t")
+t("At your service. But may I ask what you were doing in this dark place?", "A votre service. Mais puis-je vous demander ce que vous faisiez dans ce lieu obscure?", "_t")
+t("At your service. I have been gone for months, but I can feel it, at last this is my homeland!", "A votre service. Je suis parti depuis des mois, mais je le sens, enfin c'est ma patrie!", "_t")
 t([[I am an Anorithil, a mage of the Sun and Moons; we fight all that is evil. I was with a group of Sun Paladins; we came from the Gates of Morning to the east.
 My companions were... were slaughtered by orcs, and I nearly died as well. Thank you again for your help.]], [[Je suis une Anorithil, une mage du Soleil et des Lunes ; nous combattons tout ce qui est mauvais. J'étais avec un groupe de Paladins du Soleil ; nous sommes venus des Portes du Matin à l'est.
 Mes compagnons ont été... massacrés par des orcs, et j'ai failli mourir moi aussi. Merci encore pour votre aide.]], "_t")
-t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "C'était mon plaisir. Mais puis-je demander une faveur moi-même ? Je ne suis pas de ces terres. J'ai utilisé un prtail lointain gardé par des orcs au plus profond du trône de fer qui m'a amené ici.", "_t")
+t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "C'était mon plaisir. Mais puis-je demander une faveur moi-même? Je ne suis pas de ces terres. J'ai utilisé un prtail lointain gardé par des orcs au plus profond du trône de fer qui m'a amené ici.", "_t")
 t([[Yes, I noticed you were not from here. Your only hope is the Gates of Morning, the last bastion of freedom in this orc territory. When you leave the caves, head southeast; you cannot miss it.
 Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.]], [[Oui, j'ai remarqué que vous n'étiez pas d'ici. Votre seul espoir est les portes du matin, le dernier bastion de la liberté dans ce territoire orc. Lorsque vous quitterez les grottes, dirigez-vous vers le sud-est ; vous ne pouvez pas le manquer.
 Dites au Haut Paladin solaire Aeryn que vous m'avez rencontré. J'enverrai un mot pour vous laisser passer.]], "_t")
 t("Thank you, I will talk with Aeryn.", "Merci, je parlerai à Aeryn.", "_t")
 t([[Gone? Wait, this face.. you are @playername@! We thought you died in the naga portal explosion!
 Thanks to your courage the Gates of Morning still stand.
-You should go there at once.]], [[Parti ? Attends, ce visage... tu es @playername@ ! On pensait que tu étais mort dans l'explosion du portail naga !
+You should go there at once.]], [[Parti? Attends, ce visage... tu es @playername@! On pensait que tu étais mort dans l'explosion du portail naga!
 Grâce à ton courage, les Portes du Matin sont toujours là.
 Vous devriez y aller immédiatement.]], "_t")
 t("Sadly I am the bringer of bad news, the orcs are planning something. Good luck, my lady.", "Malheureusement, je suis porteur de mauvaises nouvelles, les orcs préparent quelque chose. Bonne chance, ma dame.", "_t")
@@ -4214,7 +4211,7 @@ t("I hate Elves anyway...", "Je déteste les Elfes de toute façon...", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/ward.lua"
 
-t("Call forth which ward?", "Appeler quel garde ?", "_t")
+t("Call forth which ward?", "Appeler quel garde?", "_t")
 t("Fire [%d]", "Feu [%d]", "tformat")
 t("Lightning [%d]", "Foudre [%d]", "tformat")
 t("Cold [%d]", "Froid [%d]", "tformat")
@@ -4237,7 +4234,7 @@ t("Nature [%d]", "Nature [%d]", "tformat")
 section "mod-tome/data/chats/worldly-knowledge.lua"
 
 t("[%s (at mastery %0.2f)]", "[%s( à la maîtrise %0.2f)]", "tformat")
-t("Learn which category?", "Apprendre quelle catégorie ?", "_t")
+t("Learn which category?", "Apprendre quelle catégorie?", "_t")
 -- untranslated text
 --[==[
 t([[#GOLD#%s / %s#LAST#
@@ -4253,15 +4250,15 @@ t([[#LIGHT_GREEN#*Before you stands a creature about as tall as a Halfling, cove
 You also notice he does not wield his greatsword. It seems to float in the air, bound to his will.*#WHITE#
 Why did you save me, stranger? You are not of the Way.]], [[#LIGHT_GREEN#*Devant vous se tient une créature à peu près aussi grande qu'un Halfelin, couverte d'une petite fourrure blanche et dotée d'une tête disproportionnée.
 Vous remarquez également qu'il ne manie pas sa grande épée. Elle semble flotter dans l'air, lié à sa volonté.*#WHITE#
-Pourquoi m'avez-vous sauvé, étranger ? Vous n'êtes pas de la Voie.]], "_t")
+Pourquoi m'avez-vous sauvé, étranger? Vous n'êtes pas de la Voie.]], "_t")
 t("Well, you seemed to need help.", "Eh bien, vous sembliez avoir besoin d'aide.", "_t")
-t("So I could rip your throat myself!", "Pour que je puisse te trancher la gorge moi-même !", "_t")
+t("So I could rip your throat myself!", "Pour que je puisse te trancher la gorge moi-même!", "_t")
 t([[#LIGHT_GREEN#*The greatsword floats to a less aggressive stance. He seems surprised.*#WHITE#
 Then, on behalf of the Way, I thank you.]], [[#LIGHT_GREEN#*La grande épée flotte vers une position moins agressive. Il semble surpris.*#WHITE#
 Alors, au nom de la Voie, je vous remercie.]], "_t")
-t("What is the Way, and what are you?", "Qu'est-ce que la Voie, et qu'êtes-vous ?", "_t")
+t("What is the Way, and what are you?", "Qu'est-ce que la Voie, et qu'êtes-vous?", "_t")
 t("The Way is enlightenment, peace and protection. I am a Yeek. I came through this tunnel to explore this part of the world that was closed to us for centuries.", "La Voie est l'illumination, la paix et la protection. Je suis un Yeek. Je suis venu par ce tunnel pour explorer cette partie du monde qui nous a été fermée pendant des siècles.", "_t")
-t("Can you tell me more about the Way?", "Pouvez-vous m'en dire plus sur la Voie ?", "_t")
+t("Can you tell me more about the Way?", "Pouvez-vous m'en dire plus sur la Voie?", "_t")
 t("Select the party member to receive the mental shield:", "Sélectionnez le membre du groupe qui recevra le bouclier mental :", "_t")
 t("The contact with the Wayist mind has improved your mental shields. (+15 mental save, +10%% confusion resistance)", "Le contact avec l'esprit de la Voie a amélioré vos boucliers mentaux. (+15 boucliers mentaux, +10%% de résistance à la confusion)", "logPlayer")
 t("I am never alone. I have the Way.", "Je ne suis jamais seul. J'ai la Voie.", "_t")
@@ -21623,7 +21620,7 @@ t([[Attempts to pull the target apart at a molecular level, inflicting %0.2f tem
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/spacetime-folding.lua"
 
-t("The teleport fizzles!", "La téléportation foire !", "logSeen")
+t("The teleport fizzles!", "La téléportation foire!", "logSeen")
 -- untranslated text
 --[==[
 t("warp mine: %s", "warp mine: %s", "tformat")
@@ -39474,7 +39471,7 @@ t("A paper scrap, left by Ukruk.", "A paper scrap, left by Ukruk.", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/dreadfell-ambush/zone.lua"
 
-t("Ambush!", "Embuscade !", "_t")
+t("Ambush!", "Embuscade!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreams/grids.lua"
@@ -43406,8 +43403,8 @@ t("Eyal", "Eyal", "_t")
 ------------------------------------------------
 section "mod-tome/mod/ai/escort.lua"
 
-t("Help!", "Au Secours !", "_t")
-t(" %s to the %s!", " un(e) %s %s !", "tformat")
+t("Help!", "Au Secours!", "_t")
+t(" %s to the %s!", " un(e) %s %s!", "tformat")
 t("Something", "Quelque chose", "_t")
 
 ------------------------------------------------
@@ -43442,8 +43439,8 @@ t("__%s[%d] #ORANGE# maintenance ACTION FAILED:  %s", "__%s[%d] #ORANGE# mainten
 ------------------------------------------------
 section "mod-tome/mod/ai/quests.lua"
 
-t("Protect Limmir from the demons coming from north-east. Hold them off!", "Proteger Limmir des démons venant du Nord Est. Retenez Les !", "_t")
-t("This place is corrupted! I will cleanse it! Protect me while I do it!", "Cet endroit est corrompu ! Je vais le nettoyer ! Protégez-moi pendant que je le fais !", "_t")
+t("Protect Limmir from the demons coming from north-east. Hold them off!", "Proteger Limmir des démons venant du Nord Est. Retenez les!", "_t")
+t("This place is corrupted! I will cleanse it! Protect me while I do it!", "Cet endroit est corrompu! Je vais le nettoyer! Protégez-moi pendant que je le fais!", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/ai/sandworm_tunneler.lua"
@@ -43477,15 +43474,15 @@ t("#RED# [%s]%s #ORANGE#CLEARING OLD TARGET#LAST#: [%s]%s", "#RED# [%s]%s #ORANG
 section "mod-tome/mod/class/Actor.lua"
 
 t("drowned to death", "s'est noyé", "_t")
-t("%s has been disrupted by #ORCHID#anti-magic forces#LAST#!", "%s a été déchiré par des #ORCHID#forces anti-magie#LAST# !", "logSeen")
+t("%s has been disrupted by #ORCHID#anti-magic forces#LAST#!", "%s a été déchiré par des #ORCHID#forces anti-magie#LAST#!", "logSeen")
 t("%s temporarily fights the paralyzation.", "%s combat temporairement la paralysie.", "logSeen")
 t("#VIOLET#Following build order %s; increasing %s by 1.", "#VIOLET#L'ordre de construction %s; augmente %s par 1.", "log")
 t("#VIOLET#Following build order %s; learning talent category %s.", "#VIOLET#L'ordre de construction %s; apprendre la catégorie de talent %s.", "log")
 t("#VIOLET#Following build order %s; learning talent %s.", "#VIOLET#L'ordre de construction %s; apprendre le talent %s.", "log")
-t("You are asleep and unable to move!", "Vous êtes endormis et ne pouvez pas bouger !", "logPlayer")
-t("You are unable to move!", "Vous êtes incapable de bouger !", "logPlayer")
-t("#F53CBE#Your movements fuel your rampage! (+1 duration)", "#F53CBE#Vos mouvements alimentent votre déchaînement ! (+1 durée)", "logPlayer")
-t("#LIGHT_RED#Your %s is immune to the teleportation and drops to the floor!", "#LIGHT_RED#Votre %s est immunisé à la téléportation et tombe au sol !", "logPlayer")
+t("You are asleep and unable to move!", "Vous êtes endormis et ne pouvez pas bouger!", "logPlayer")
+t("You are unable to move!", "Vous êtes incapable de bouger!", "logPlayer")
+t("#F53CBE#Your movements fuel your rampage! (+1 duration)", "#F53CBE#Vos mouvements alimentent votre déchaînement! (+1 durée)", "logPlayer")
+t("#LIGHT_RED#Your %s is immune to the teleportation and drops to the floor!", "#LIGHT_RED#Votre %s est immunisé à la téléportation et tombe au sol!", "logPlayer")
 t("teleported", "téléporté", "_t")
 t("#CADET_BLUE#You notice a trap (%s)!", "#CADET_BLUE#Vous remarquez un piège (%s)!", "logPlayer")
 t("critter", "bestiole", "_t")
@@ -43542,32 +43539,32 @@ t("#LIGHT_GREEN#%d healing #LAST##AQUAMARINE#(%d psi heal)#LAST#", "#LIGHT_GREEN
 t("#LIGHT_GREEN#%d healing#LAST#", "#LIGHT_GREEN#%d soins#LAST#", "tformat")
 t("#STEEL_BLUE#(%d shifted)#LAST#", "#STEEL_BLUE#(%d modifié)#LAST#", "tformat")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
-t("%s unleashes the stored damage in retribution!", "%s libère les dégâts stockés en rétribution !", "logSeen")
-t("#DARK_GREEN##Source# shares damage with %s oozes!", "#DARK_GREEN##Source# partage les dommages avec %s limons !", "delayedLogMessage")
-t("#CRIMSON##Source# teleports some damage to #Target#!", "#CRIMSON##Source# téléporte des dégâts à #Target# !", "delayedLogMessage")
+t("%s unleashes the stored damage in retribution!", "%s libère les dégâts stockés en rétribution!", "logSeen")
+t("#DARK_GREEN##Source# shares damage with %s oozes!", "#DARK_GREEN##Source# partage les dommages avec %s limons!", "delayedLogMessage")
+t("#CRIMSON##Source# teleports some damage to #Target#!", "#CRIMSON##Source# téléporte des dégâts à #Target#!", "delayedLogMessage")
 t("#CRIMSON#%d teleported#LAST#", "#CRIMSON#%d s'est téléporté#LAST#", "tformat")
 t("#STEEL_BLUE#(%d to time)#LAST#", "#STEEL_BLUE#(%d à temps)#LAST#", "tformat")
-t("Your time shield crumbles under the damage!", "Votre bouclier temporel s'effondre sous les dégâts !", "logPlayer")
+t("Your time shield crumbles under the damage!", "Votre bouclier temporel s'effondre sous les dégâts!", "logPlayer")
 t("#SLATE#%d reflected#LAST#", "#SLATE#%d reflété#LAST#", "tformat")
-t("#CRIMSON##Source# reflects damage back to #Target#!#LAST#", "#CRIMSON##Source# reflète les dommages sur #Target# !#LAST#", "delayedLogMessage")
-t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts !", "logPlayer")
-t("#CRIMSON##Source# shares some damage with a shadow!", "#CRIMSON##Source# partage quelques dégâts avec une ombre !", "delayedLogMessage")
+t("#CRIMSON##Source# reflects damage back to #Target#!#LAST#", "#CRIMSON##Source# reflète les dommages sur #Target#!#LAST#", "delayedLogMessage")
+t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts!", "logPlayer")
+t("#CRIMSON##Source# shares some damage with a shadow!", "#CRIMSON##Source# partage quelques dégâts avec une ombre!", "delayedLogMessage")
 t("#PINK#(%d linked)#LAST#", "#PINK#(%d lié)#LAST#", "tformat")
 t("#PINK#%d linked#LAST#", "#PINK#%d lié#LAST#", "tformat")
 t("#SLATE#(%d deflected)#LAST#", "#SLATE#(%d dévié)#LAST#", "tformat")
 t("#STEEL_BLUE#(%d to ice)#LAST#", "#STEEL_BLUE#(%d de glace)#LAST#", "tformat")
 t("#SLATE#(%d resonance)#LAST#", "#SLATE#(%d résonance)#LAST#", "tformat")
-t("Your resonance field crumbles under the damage!", "Votre champ de résonance s'effondre sous les dégâts !", "logPlayer")
-t("%s shatters into pieces!", "%s se brise en morceaux !", "logSeen")
-t("#F53CBE#You fight through the pain!", "#F53CBE#Vous vous batez contre la douleur !", "_t")
-t("#F53CBE#Your hatred grows even as your life fades!", "#F53CBE#Votre haine grandit alors que votre vie s'amenuise !", "_t")
+t("Your resonance field crumbles under the damage!", "Votre champ de résonance s'effondre sous les dégâts!", "logPlayer")
+t("%s shatters into pieces!", "%s se brise en morceaux!", "logSeen")
+t("#F53CBE#You fight through the pain!", "#F53CBE#Vous vous batez contre la douleur!", "_t")
+t("#F53CBE#Your hatred grows even as your life fades!", "#F53CBE#Votre haine grandit alors que votre vie s'amenuise!", "_t")
 t("%s (+%d hate)", "%s (+%d haine)", "tformat")
-t("#F53CBE#Your powerful attack feeds your madness!", "#F53CBE#Votre puissante attaque nourrit votre folie !", "_t")
-t("%s splits in two!", "%s se divise en deux !", "logSeen")
+t("#F53CBE#Your powerful attack feeds your madness!", "#F53CBE#Votre puissante attaque nourrit votre folie!", "_t")
+t("%s splits in two!", "%s se divise en deux!", "logSeen")
 t("%s#Source# converts some damage to Psi!", "%s#Source# convertit certains dégats en Psi!", "tformat")
 t("to psi", "en psi", "_t")
-t("#YELLOW#%s has been healed by a blast of positive energy!#LAST#", "#YELLOW#%s a été soigné par une explosion d'énergie positive !#LAST#", "logSeen")
-t("%s fades for a moment and then reforms whole again!", "%s s'estompe pendant un moment puis se reforme à nouveau !", "logSeen")
+t("#YELLOW#%s has been healed by a blast of positive energy!#LAST#", "#YELLOW#%s a été soigné par une explosion d'énergie positive!#LAST#", "logSeen")
+t("%s fades for a moment and then reforms whole again!", "%s s'estompe pendant un moment puis se reforme à nouveau!", "logSeen")
 t("#CRIMSON##Source# leeches life from #Target#!", "#CRIMSON##Source# aspire la vie de #Target#!", "delayedLogMessage")
 t("#CRIMSON##Source# steals life from #Target#!", "#CRIMSON##Source# vole la vie de #Target#!", "delayedLogMessage")
 t("#SLATE#(%d to stone)#LAST#", "#SLATE#(%d en pierre)#LAST#", "tformat")
@@ -43581,20 +43578,20 @@ t("RESURRECT!", "RESSUSCITE!", "_t")
 t("You feel a surge of power as a powerful creature falls nearby.", "Vous ressentez une poussée de pouvoir lorsqu'une créature puissante tombe à proximité.", "logPlayer")
 t("%s feeds you hate from its latest victim. (+%d hate)", "%s nourrit votre haine de sa dernière victime. (+%d haine)", "logPlayer")
 t("#LIGHT_RED#The cease to exist spell fizzles and cancels, leaving the timeline intact.", "#LIGHT_RED#Le sort de cessation d'existance s'effiloche et s'annule, laissant la chronologie intacte.", "logPlayer")
-t("Prodigy!", "Prodige !", "_t")
+t("Prodigy!", "Prodige!", "_t")
 t([[You have achieved #LIGHT_GREEN#level %d#WHITE# and gained a #LIGHT_GREEN#prodigy point#LAST#!
 
-Prodigies are powerful talents with unique requirements that cannot be unlearned.]], [[Vous avez atteind le #LIGHT_GREEN#niveau %d#WHITE# et gagné #LIGHT_GREEN#un point de prodige#LAST# !
+Prodigies are powerful talents with unique requirements that cannot be unlearned.]], [[Vous avez atteind le #LIGHT_GREEN#niveau %d#WHITE# et gagné #LIGHT_GREEN#un point de prodige#LAST#!
 
 Les prodiges sont de puissant talents avec des exigences uniques qui ne peuvent être désappris.]], "tformat")
-t("Level 50!", "Niveau 50 !", "_t")
+t("Level 50!", "Niveau 50!", "_t")
 t([[You have achieved #LIGHT_GREEN#level 50#WHITE#, congratulations!
 
 This level is special, it granted you #LIGHT_GREEN#10#WHITE# more stat points, #LIGHT_GREEN#3#WHITE# more class talent points and #LIGHT_GREEN#3#WHITE# more generic talent points.
-Now go forward boldly and triumph!]], [[Vous avez atteind le #LIGHT_GREEN#niveau 50#WHITE#, félicitations !
+Now go forward boldly and triumph!]], [[Vous avez atteind le #LIGHT_GREEN#niveau 50#WHITE#, félicitations!
 
 C'est un niveau spécial, il vous accorde #LIGHT_GREEN#10#WHITE# points de stats, #LIGHT_GREEN#3#WHITE# points de classe de talents et #LIGHT_GREEN#3#WHITE# points de talents générique.
-Maintenant, avancez audacieusement et triomphez !]], "_t")
+Maintenant, avancez audacieusement et triomphez!]], "_t")
 t("LEVEL UP!", "NIVEAU SUPERIEUR!", "_t")
 t("#00ffff#Welcome to level %d [%s].", "#00ffff#Bienvenu au niveau %d [%s].", "log")
 t("Press p to use them.", "Appuyer sur p pour les utiliser.", "_t")
@@ -43606,11 +43603,11 @@ t("%d category point(s)", "%d point(s) de catégorie", "tformat")
 t("#VIOLET#%d prodigies point(s)#WHITE#", "#VIOLET#%d point(s) de prodige#WHITE#", "tformat")
 t("%s has %s to spend. %s", "%s a été %s dépensé. %s", "log")
 t("#AQUAMARINE#You have gained one more life (%d remaining).", "#AQUAMARINE#Vous avez gagné une vie supplémentaire (%d restante).", "logPlayer")
-t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- Vous êtes encombré !", "logPlayer")
+t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- Vous êtes encombré!", "logPlayer")
 t("#FF0000#Drop some of your items.", "#FF0000#Abandonnez quelques objets.", "logPlayer")
-t("+ENCUMBERED!", "+ENCOMBRE !", "_t")
+t("+ENCUMBERED!", "+ENCOMBRE!", "_t")
 t("#00FF00#You are no longer encumbered.", "#00FF00#Vous n'êtes plus encombré.", "logPlayer")
-t("-ENCUMBERED!", "-ENCOMBRE !", "_t")
+t("-ENCUMBERED!", "-ENCOMBRE!", "_t")
 t("You cannot switch equipment while sleeping!", "Vous ne pouvez pas changer d'équipement en dormant", "logPlayer")
 t("unarmed", "désarmé", "_t")
 t("%s warps space-time to equip: %s.", "%s déforme l'espace temps pour équiper: %s.", "logSeen")
@@ -43621,10 +43618,10 @@ t("%s #LIGHT_STEEL_BLUE#Triggers an Anomaly! (%s).", "%s #LIGHT_STEEL_BLUE#Décl
 t("#STEEL_BLUE#Casting %s.", "#STEEL_BLUE#Lance %s.", "logPlayer")
 t("#STEEL_BLUE#Targeting %s", "#STEEL_BLUE#Cible %s", "saySimple")
 t("#STEEL_BLUE#You've moved to another time thread.", "#STEEL_BLUE#Vous êtes passé à un autre courant temporel.", "logPlayer")
-t("#LIGHT_RED#You lose control and unleash an anomaly!", "#LIGHT_RED#Vous perdez le contrôle et déclenchez une anomalie !", "logPlayer")
-t("#LIGHT_RED#You feel the edges of spacetime begin to ripple and bend!", "#LIGHT_RED#Vous sentez que les frontières de l'espace-temps commencent à onduler et à se courber !", "logPlayer")
+t("#LIGHT_RED#You lose control and unleash an anomaly!", "#LIGHT_RED#Vous perdez le contrôle et déclenchez une anomalie!", "logPlayer")
+t("#LIGHT_RED#You feel the edges of spacetime begin to ripple and bend!", "#LIGHT_RED#Vous sentez que les frontières de l'espace-temps commencent à onduler et à se courber!", "logPlayer")
 t("#LIGHT_BLUE#Spacetime feels more stable.", "#LIGHT_BLUE#L'espace-temps semble plus stable.", "logPlayer")
-t("#LIGHT_RED#Spacetime fights against your control!", "#LIGHT_RED#L'espace-temps lutte contre votre contrôle !", "logPlayer")
+t("#LIGHT_RED#Spacetime fights against your control!", "#LIGHT_RED#L'espace-temps lutte contre votre contrôle!", "logPlayer")
 t("#LIGHT_BLUE#Spacetime has calmed...  somewhat.", "#LIGHT_BLUE#L'espace-temps s'est calmé... quelque peu.", "logPlayer")
 t("You already tried to use %s, an instant use talent, this turn and failed.", "Vous avez essayé d'utilisé %s, un talent instantané, ce tour et avez échoué.", "logPlayer")
 t("%s is too afraid to use %s.", "%s est trop effrayé pour utiliser %s.", "logSeen")
@@ -43642,14 +43639,14 @@ t("You do not have enough feedback to use %s.", "Vous n'avez pas assez de rétro
 t("You do not have enough fortress energy to use %s.", "Vous n'avez pas assez d'énergie de forteresse à utiliser  %s.", "logPlayer")
 t("You have too much %s to use %s.", "Vous avez trop de %s pour utiliser %s.", "logPlayer")
 t("You do not have enough %s to use %s.", "Vous n'avez pas assez de %s pour utiliser %s.", "logPlayer")
-t("You fail to use %s due to your equilibrium!", "Vous avez échouer à utiliser %s a cause de votre équilibre !", "logPlayer")
+t("You fail to use %s due to your equilibrium!", "Vous avez échouer à utiliser %s a cause de votre équilibre!", "logPlayer")
 t("%s's %s has been disrupted by #ORCHID#anti-magic forces#LAST#!", "%s de %s a été déchiré par des #ORCHID#forces anti-magiques#LAST#!", "logSeen")
 t("%s's %s has been disrupted by #ORCHID#anti-nature forces#LAST#!", "%s de %s a été déchiré par des #ORCHID#forces anti-naturelles#LAST#!", "logSeen")
 t("%s's %s has been disrupted by #ORCHID#anti-psionic forces#LAST#!", "%s de %s a été déchiré par des #ORCHID#forces anti-psioniques#LAST#!", "logSeen")
 t("%s is confused and fails to use %s.", "%s est confus et à échoué à utiliser %s.", "logSeen")
 t("%s fails to use %s.", "%s échoue à utiliser %s.", "logSeen")
-t("%s fumbles and fails to use %s, injuring %s!", "%s est maladroit et n'arrive pas à utiliser %s, blessant %s !", "logSeen")
-t("%s's %s is interrupted by the shot!", "%s de %s est interrompus par un tir !", "logSeen")
+t("%s fumbles and fails to use %s, injuring %s!", "%s est maladroit et n'arrive pas à utiliser %s, blessant %s!", "logSeen")
+t("%s's %s is interrupted by the shot!", "%s de %s est interrompus par un tir!", "logSeen")
 t("deactivates", "désactivé", "_t")
 t("activates", "activé", "_t")
 t("%s casts #{bold}#%s%s.#{normal}##LAST#", "%s lance #{bold}#%s%s.#{normal}##LAST#", "logSeen")
@@ -43704,7 +43701,7 @@ t([[%s:
 t("Automatic use disabled", "Utilisation automatique désactivée", "_t")
 t("%s will not be automatically used.", "%s ne sera pas utilisé automatiquement.", "tformat")
 t("%s resists the dispelling of %s!", "%s résiste à la dissipation de %s!", "logSeen")
-t("#LIGHT_RED#%s starts suffocating to death!", "#LIGHT_RED#%s commence à suffoquer à mort !", "logSeen")
+t("#LIGHT_RED#%s starts suffocating to death!", "#LIGHT_RED#%s commence à suffoquer à mort!", "logSeen")
 t("Physical save", "Sauvegarde physique", "_t")
 t("Mental save", "Sauvegarde Mentale", "_t")
 t("Spell save", "Sauvegarde des Sorts", "_t")
@@ -43712,11 +43709,11 @@ t("#ORANGE#%s shrugs off %s '%s'!", "#ORANGE#%s ignore %s '%s'!", "logCombat")
 t("#Target#'s", "#Target# de", "_t")
 t("the effect", "l'effet", "_t")
 t("#LIGHT_UMBER#%s resists %s '%s'!", "#LIGHT_UMBER#%s resiste à %s '%s'!", "logCombat")
-t("but fumbles!", "mais trébuche !", "_t")
-t("to the %s!", "à la %s !", "tformat")
+t("but fumbles!", "mais trébuche!", "_t")
+t("to the %s!", "à la %s!", "tformat")
 t("#Source# deflects the projectile from #Target# %s", "#Source# dévie le projectile de #Target# %s", "logCombat")
-t("%s reflects the spell!", "%s reflète le sortilège !", "logSeen")
-t("%s ignores the spell!", "%s ignore le sortilège !", "logSeen")
+t("%s reflects the spell!", "%s reflète le sortilège!", "logSeen")
+t("%s ignores the spell!", "%s ignore le sortilège!", "logSeen")
 t("You can not drop items while sleeping.", "Vous ne pouvez pas abandonner d'objets en dormant.", "logPlayer")
 t("You can not drop %s (plot item).", "Vous ne pouvez pas abandonner %s (objet de quetes).", "logPlayer")
 t("You can not drop %s (tagged).", "Vous ne pouvez pas abandonner %s (étiqueté).", "logPlayer")
@@ -43727,8 +43724,8 @@ t("You can not destroy %s.", "Vous ne pouvez pas détruire %s.", "logPlayer")
 t("Cancel", "Annuler", "_t")
 t("Destroy", "Détruire", "_t")
 t("%s drops on the floor: %s.", "%s jette: %s au sol.", "logSeen")
-t("You cannot change your equipment while sleeping!", "Vous ne pouvez pas changer votre équipement pendant votre sommeil !", "logPlayer")
-t("You cannot change your equipment!", "Vous ne pouvez pas changer votre équipement !", "logPlayer")
+t("You cannot change your equipment while sleeping!", "Vous ne pouvez pas changer votre équipement pendant votre sommeil!", "logPlayer")
+t("You cannot change your equipment!", "Vous ne pouvez pas changer votre équipement!", "logPlayer")
 t("You had to drop %s due to lack of space.", "Vous devez abandonner %s à cause du manque d'espace.", "logPlayer")
 t("%s - %sEncumbrance %d/%d", "%s - %sEncombrement %d/%d", "tformat")
 t("You extract %s from %s", "Vous extrayez %s de %s", "logPlayer")
@@ -43774,10 +43771,10 @@ t("Description: ", "Description: ", "_t")
 ------------------------------------------------
 section "mod-tome/mod/class/EscortRewards.lua"
 
-t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Aidez-moi, s'il vous plaît ! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'il y a un portail de rappel laissé par un ami, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider ?", "_t")
+t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Aidez-moi, s'il vous plaît! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'il y a un portail de rappel laissé par un ami, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider?", "_t")
 t("%s, the lost warrior", "%s, le guerrier perdu", "_t")
 t("He looks tired and wounded.", "Il a l'air blessé et fatigué.", "_t")
-t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "Aidez-moi, s'il vous plaît ! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail de rappel par ici, mais je ne pourrai pas continuer la route seul. Pourriez-vous m'aider ?", "_t")
+t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "Aidez-moi, s'il vous plaît! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail de rappel par ici, mais je ne pourrai pas continuer la route seul. Pourriez-vous m'aider?", "_t")
 t("%s, the injured seer", "%s, le devin blessé", "_t")
 t("She looks tired and wounded.", "Elle a l'air blessé et fatigué.", "_t")
 t("%s, the repented thief", "%s, le voleur repentie", "_t")
@@ -43787,9 +43784,9 @@ t("%s, the lost defiler", "%s, le profanateur perdu", "_t")
 t("temporal portal", "portail temporel", "_t")
 t([[Oh but you are ... are you ?! ME?!
 		So I was right, this is not my original time-thread!
-		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh mais vous êtes ... êtes-vous ? ! MOI ? !
-		Donc j'avais raison, ce n'est pas mon temps originel !
-		S'il vous plaît, aidez-moi ! J'ai peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail temporel par ici, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider ? Voulez-vous vous aider... vous-même ?]], "_t")
+		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh mais vous êtes ... êtes-vous ?! MOI?!
+		Donc j'avais raison, ce n'est pas mon temps originel!
+		S'il vous plaît, aidez-moi! J'ai peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail temporel par ici, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider? Voulez-vous vous aider... vous-même?]], "_t")
 t("%s, temporal explorer", "%s, explorateur temporel", "_t")
 t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "Elle a l'air blessé et fatigué. Elle vous ressemble tellement et pourtant elle est complètement différente. Bizarre.", "_t")
 t("%s, the worried loremaster", "%s, le Chroniqueur soucieux", "_t")
@@ -43824,10 +43821,10 @@ t([[#GOLD#%s / %s#LAST#
 section "mod-tome/mod/class/FortressPC.lua"
 
 t("Yiilkgur, the Sher'Tul Fortress", "Yiilkgur, la Forteresse Sher'Tul", "_t")
-t("You are unable to move!", "Vous êtes incapable de bouger !", "logPlayer")
+t("You are unable to move!", "Vous êtes incapable de bouger!", "logPlayer")
 t("You have found a trap (%s)!", "Vous avez trouvé un piège (%s)!", "logPlayer")
-t("Do you wish to teleport to the fortress?", "Souhaitez vous vous téléporter à la forteresse ?", "_t")
-t("The teleport fizzles!", "La téléportation foire !", "_t")
+t("Do you wish to teleport to the fortress?", "Souhaitez vous vous téléporter à la forteresse?", "_t")
+t("The teleport fizzles!", "La téléportation foire!", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Game.lua"
@@ -43954,8 +43951,8 @@ t("sigiled", "marqué", "_t")
 t("shadowy", "ombragé", "_t")
 t("laminated", "feuilleté", "_t")
 t("%s the %s", "%s le %s", "tformat")
-t("Ambush!", "Embuscade !", "_t")
-t("You have been ambushed!", "Vous avez été pris en embuscade !", "_t")
+t("Ambush!", "Embuscade!", "_t")
+t("You have been ambushed!", "Vous avez été pris en embuscade!", "_t")
 t("Infinite Dungeon Challenge (Level %s): %s", "Défi du donjon infini (Niveau %s): %s", "tformat")
 t("Pacifist", "Pacifiste", "_t")
 t("Leave the level (to the next level) without killing a single creature. You will get #{italic}#two#{normal}# rewards.", "Quittez le niveau (au niveau suivant) sans tuer une seule créature. Vous aurez #{italic}#deux#{normal}# Récompenses.", "_t")
@@ -43983,8 +43980,8 @@ t("Mirror Challenge of %s", "Le défie du miroir de %s", "tformat")
 t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pourquoi le #sexe# est devenue soudainement mauvais", "_t")
 t("#ORCHID#%s does not recognize you.", "#ORCHID#%s ne vous reconnaît pas.", "logPlayer")
 t("Challenge: #PURPLE#Mirror Match", "Défi: #PURPLE#Match Miroir", "_t")
-t("Challenge your mirror clone and triumph!", "Défiez votre clone et triomphez !", "_t")
-t("#CRIMSON#The Fight Is Joined!", "#CRIMSON#Le combat est couplé !", "say")
+t("Challenge your mirror clone and triumph!", "Défiez votre clone et triomphez!", "_t")
+t("#CRIMSON#The Fight Is Joined!", "#CRIMSON#Le combat est couplé!", "say")
 t("Refuse", "Refuser", "_t")
 t("Accept", "Accepter", "_t")
 t("Challenge: #PURPLE#Near Sighted", "Défi: #PURPLE#Vue diminué", "_t")
@@ -43994,9 +43991,9 @@ t("Proceed to the next Infinite Dungeon level with -7 sight range.", "Passez au 
 t("Challenge: #PURPLE#Multiplicity", "Défi: #PURPLE#Multiplicité", "_t")
 t("All foes (including bosses) gain the ability to multiply up to 3 times.  You must survive for at least %d turns before exiting.", "Tous les ennemis (y compris les boss) ont la possibilité de se multiplier jusqu'à 3 fois. Vous devez survivre pendant au moins %d tours avant de quitter le niveau.", "tformat")
 t("Multiplicity", "Multiplicité", "_t")
-t("All foes have the multiply talent!", "Tous les ennemis ont le talent multiple !", "_t")
-t("#LIGHT_GREEN#Multiplicity: You have survived so far. Exit for your reward!", "#LIGHT_GREEN#Multiplicité: vous avez survécu jusqu'à présent. Sortez pour votre récompense !", "say")
-t("Survive the multiplicative madness!", "Survivez à la folie multiplicative !", "_t")
+t("All foes have the multiply talent!", "Tous les ennemis ont le talent multiple!", "_t")
+t("#LIGHT_GREEN#Multiplicity: You have survived so far. Exit for your reward!", "#LIGHT_GREEN#Multiplicité: vous avez survécu jusqu'à présent. Sortez pour votre récompense!", "say")
+t("Survive the multiplicative madness!", "Survivez à la folie multiplicative!", "_t")
 t("#rng# the Spawn of Urh'Rok", "#rng# l'Engeance d'Urh'Rok", "_t")
 t("Challenge: #PURPLE#Headhunter", "Défi: #PURPLE#Chasseur de têtes", "_t")
 t("Kill %d spawns of Urh'Rok on the level before killing any other elite (or higher rank) creatures, for an uncommon reward.", "Tuez %d de engeances d'Urh'Rok dans le niveau avant de tuer toute autre créature d'élite (ou de rang supérieur), pour une récompense inhabituelle.", "tformat")
@@ -44083,12 +44080,12 @@ t("Heavy armour training", "Entrainement aux armures lourdes", "_t")
 t("Shield usage training", "Entrainement aux boucliers", "_t")
 t("Can not use an item in the transmogrification chest.", "Vous ne pouvez pas utiliser un objet qui est dans le coffre de transmogrification.", "_t")
 t("This object has no usable power.", "Cet objet n'a aucun pouvoir utilisable.", "_t")
-t("You cannot use items now!", "Vous ne pouvez pas utiliser d'objets maintenant !", "_t")
-t("You cannot see!", "Vous êtes aveugle !", "_t")
-t("You are silenced!", "Vous êtes muet !", "_t")
-t("You must wear this object to use it!", "Vous devez porter cet objet pour l'utiliser !", "_t")
-t("You can not use items during a battle frenzy!", "Vous ne pouvez pas utiliser d'objet pendant une frénésie meutrière !", "_t")
-t("You can not use objects while sleeping!", "Vous ne pouvez pas utiliser d'objets en dormant !", "_t")
+t("You cannot use items now!", "Vous ne pouvez pas utiliser d'objets maintenant!", "_t")
+t("You cannot see!", "Vous êtes aveugle!", "_t")
+t("You are silenced!", "Vous êtes muet!", "_t")
+t("You must wear this object to use it!", "Vous devez porter cet objet pour l'utiliser!", "_t")
+t("You can not use items during a battle frenzy!", "Vous ne pouvez pas utiliser d'objet pendant une frénésie meutrière!", "_t")
+t("You can not use objects while sleeping!", "Vous ne pouvez pas utiliser d'objets en dormant!", "_t")
 t("Object can be used.", "L'objet peut être utilisé.", "_t")
 t("%s is still recharging.", "%s est encore en rechagement.", "logPlayer")
 t("%s can not be used anymore.", "%s ne peut plus être utilisé", "logPlayer")
@@ -44127,8 +44124,8 @@ t("Mastery: ", "Maîtrise: ", "_t")
 t("Accuracy is based on willpower for this weapon.", "Précision de l'arme basée sur la Volonté.", "_t")
 t("Accuracy: ", "Précision: ", "_t")
 t("Armour Penetration: ", "Pén d'armure: ", "_t")
-t("Crit. chance: ", "Chance de Crit.: ", "_t")
-t("Crit. power: ", "Puissance Crit.: ", "_t")
+t("Crit. chance: ", "Chance de Crit: ", "_t")
+t("Crit. power: ", "Puissance Crit: ", "_t")
 t("Attack speed: ", "Vitesse d'attaque: ", "_t")
 t("Block value: ", "Valeur de blocage: ", "_t")
 t("Firing range: ", "Portée de tir: ", "_t")
@@ -44175,7 +44172,7 @@ t("#ORANGE#It has an activatable power.#LAST#", "#ORANGE#A un pouvoir activable.
 t("It is part of a set of items.", "Fait partis d'une collection d'objets", "_t")
 t("The set is complete.", "La collection est complete.", "_t")
 t("Armour penetration: ", "Pén d'Armure: ", "_t")
-t("Physical crit. chance: ", "Chance de Crit. Physique: ", "_t")
+t("Physical crit. chance: ", "Chance de Crit Physique: ", "_t")
 t("Physical power: ", "Puissance physical: ", "_t")
 t("Armour: ", "Armure: ", "_t")
 t("Armour Hardiness: ", "Robustesse d'Armure: ", "_t")
@@ -44210,7 +44207,7 @@ t("turns", "tours", "_t")
 t("turn", "tour", "_t")
 t("%s granted: ", "%s accordé: ", "tformat")
 t("Allows you to breathe in: ", "Vous permet de respirer: ", "_t")
-t("Critical mult.: ", "Critique mult.: ", "_t")
+t("Critical mult.: ", "Crit mult: ", "_t")
 t("Reduces incoming crit damage: ", "Réduc de dégâts critiques reçu: ", "_t")
 t("Reduces opponents crit chance: ", "Réduc de chances de critique adverses: ", "_t")
 t("Trap disarming bonus: ", "Bonus de désarmement des pièges: ", "_t")
@@ -44271,10 +44268,10 @@ t("Maximum pos.energy: ", "Pos.energie maximum: ", "_t")
 t("Maximum neg.energy: ", "Neg.energie maximum: ", "_t")
 t("Maximum air capacity: ", "Capacité d'air maximale: ", "_t")
 t("Spellpower: ", "Puissance des sorts: ", "_t")
-t("Spell crit. chance: ", "Chance de crit. de sort: ", "_t")
+t("Spell crit. chance: ", "Chance de crit de sort: ", "_t")
 t("Lowers spell cool-downs by: ", "Réduit les temps de récupération des sorts de: ", "_t")
 t("Mindpower: ", "Puissance Mentale: ", "_t")
-t("Mental crit. chance: ", "Crit. chance mental: ", "_t")
+t("Mental crit. chance: ", "Crit chance mental: ", "_t")
 t("Light radius: ", "Portée de vue: ", "_t")
 t("Infravision radius: ", "Portée d'infravision: ", "_t")
 t("Heightened senses radius: ", "Rayon des sens accru: ", "_t")
@@ -44474,12 +44471,12 @@ section "mod-tome/mod/class/Player.lua"
 t("There is an item here: %s", "Il y a un objet ici: %s", "logSeen")
 t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#Il y a %s ici (pressez '<', '>' ou clique droit pour l'utiliser).", "logPlayer")
 t("Level change (%s)!", "Changement de niveau (%s)!", "tformat")
-t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- Vous êtes encombré !", "logPlayer")
+t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- Vous êtes encombré!", "logPlayer")
 t("#FF0000#Drop some of your items.", "#FF0000#Abandonnez quelques objets.", "logPlayer")
 t("#PINK#Your summoned %s disappears.", "#PINK#Votre invocation %s disparaît.", "logPlayer")
-t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#ATTENTION TROP DE VIE PERDU !", "say")
+t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#ATTENTION TROP DE VIE PERDU!", "say")
 t("taken damage", "domages reçus", "_t")
-t("LOW HEALTH!", "VIE BASSE !", "_t")
+t("LOW HEALTH!", "VIE BASSE!", "_t")
 t("detrimental status effect", "effet de statut préjudiciable", "_t")
 t("died", "mort", "_t")
 t("suffocating", "s'etouffe", "_t")
@@ -44490,8 +44487,8 @@ t("Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", 
 t("dialog is displayed", "Le dialogue est affiché", "_t")
 t("hostile spotted to the %s (%s%s)", "ennemi détecté %s (%s%s)", "tformat")
 t(" - offscreen", " - en dehors de l'écran", "_t")
-t("losing breath!", "perte de souffle !", "_t")
-t("losing health!", "perte de vie !", "_t")
+t("losing breath!", "perte de souffle!", "_t")
+t("losing health!", "perte de vie!", "_t")
 t("all resources and life at maximum", "Toutes les ressources et la vie sont au maximum", "_t")
 t("talent prevented", "talent empêché", "_t")
 t("object seen", "objet vu", "_t")
@@ -44504,7 +44501,7 @@ t("You cannot do that on the world map.", "Vous ne pouvez pas faire cela sur la 
 t("Item not found", "Objet non trouvé", "_t")
 t("You do not have any %s.", "Tu n'as pas de %s.", "tformat")
 t("Pickup", "Ramasser", "_t")
-t("You cannot pick up items from the floor while asleep!", "Vous ne pouvez pas ramassez un objet pendant que vous êtes endormis !", "delayedLogMessage")
+t("You cannot pick up items from the floor while asleep!", "Vous ne pouvez pas ramassez un objet pendant que vous êtes endormis!", "delayedLogMessage")
 t("Drop object", "Objet jeté", "_t")
 t("Wield/wear object", "Manier/porter un objet", "_t")
 t("Take off object", "Enlever un objet", "_t")
@@ -44516,18 +44513,18 @@ t("Use object", "Utiliser un objet", "_t")
 t("You can not use the Orb with foes watching (#Target# to the %s%s)", "Vous ne pouvez pas utiliser l'Orbe avec des ennemis vous regardant (#Cible# %s%s)", "logCombat")
 t("This does not seem to have any effect.", "Ceci n'a aucun effet.", "logPlayer")
 t("You use the %s on the pedestal. There is a distant 'clonk' sound.", "Vous utiliser %s sur le piédestal. Vous entendez un distant 'clonk' au loin.", "logPlayer")
-t("#LIGHT_RED#%s briefly catches sight of you!", "#LIGHT_RED#%s vous aperçoit brièvement !", "logPlayer")
+t("#LIGHT_RED#%s briefly catches sight of you!", "#LIGHT_RED#%s vous aperçoit brièvement!", "logPlayer")
 t("#LIGHT_RED#You sense that Something has taken notice of you ...", "#LIGHT_RED#Vous sentez que quelque chose vous a remarqué ...", "logPlayer")
 t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée '%s'! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
 t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête accepté '%s'!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' mise à jour ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' mise à jour! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
 t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête '%s' mise à jour!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est terminé ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête '%s' terminé !", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est finie ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête '%s' finie !", "saySimple")
-t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête '%s' a échoué ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête '%s' a échoué !", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est terminé! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête '%s' terminé!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est finie! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête '%s' finie!", "saySimple")
+t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête '%s' a échoué! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête '%s' a échoué!", "saySimple")
 -- untranslated text
 --[==[
 t("", "", "log")
@@ -46707,7 +46704,7 @@ t("Mindpower: ", "Puissance mentale: ", "_t")
 t("Mental save: ", "Sauvegarde mentale: ", "_t")
 t("Spell save: ", "Sauvegarde contre les sorts: ", "_t")
 t("Physical power: ", "Puissance physique: ", "_t")
-t("Crit. chance: ", "Chance de crit.: ", "_t")
+t("Crit. chance: ", "Chance de crit: ", "_t")
 t("Accuracy: ", "Précision: ", "_t")
 t("Spellpower: ", "Puissance des sorts: ", "_t")
 t("Defense: ", "Défense: ", "_t")
@@ -47194,7 +47191,7 @@ t("Option unlocked: %s", "Option unlocked: %s", "tformat")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UseItemDialog.lua"
 
-t("You must wear this object to use it!", "Vous devez porter cet objet pour l'utiliser !", "_t")
+t("You must wear this object to use it!", "Vous devez porter cet objet pour l'utiliser!", "_t")
 -- untranslated text
 --[==[
 t("Impossible", "Impossible", "_t")

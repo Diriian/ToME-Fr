@@ -160,7 +160,7 @@ t([[Oops! Either you activated safe mode manually or the game detected it did no
 Safe Mode disabled all graphical options and sets a low FPS. It is not advisable to play this way (as it will be very painful and ugly).
 
 Please go to the Video Options and try enabling/disabling options and then restarting until you do not get this message.
-A usual problem is shaders and thus should be your first target to disable.]], [[Oups ! Soit vous avez activé le mode sans échec manuellement, soit le jeu a détecté qu'il ne démarrait pas correctement la dernière fois et vous êtes donc en #LIGHT_GREEN#mode sans échec#WHITE#.
+A usual problem is shaders and thus should be your first target to disable.]], [[Oups! Soit vous avez activé le mode sans échec manuellement, soit le jeu a détecté qu'il ne démarrait pas correctement la dernière fois et vous êtes donc en #LIGHT_GREEN#mode sans échec#WHITE#.
 Le mode sans échec a désactivé toutes les options graphiques et fixe un taux de rafraichissement réduit. Il n'est pas conseillé de jouer de cette manière (car cela sera très douloureux et très laid).
 
 Veuillez vous rendre dans les options vidéo et essayer d'activer/désactiver les options, puis redémarrer jusqu'à ce que vous ne receviez plus ce message.
@@ -174,7 +174,7 @@ Addon name: #YELLOW#%s#LAST#
 Check out the following folder on your computer:
 %s
 %s
-]], [[Oups ! Il semble que vous ayez le même addon/dlc installé deux fois.
+]], [[Oups! Il semble que vous ayez le même addon/dlc installé deux fois.
 Ce n'est pas supporté et cela va faire planter beaucoup de choses. Veuillez supprimer l'une des copies.
 
 Nom de l'addon: #YELLOW#%s#LAST#

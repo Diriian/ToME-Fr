@@ -599,7 +599,7 @@ section "engine/engine/dialogs/ChatIgnores.lua"
 
 t("Chat ignore list", "Liste des utilisateurs ignorés", "_t")
 t("Stop ignoring", "Vous avez cessé de l'ignorer", "_t")
-t("Really stop ignoring: %s", "Voulez vous vraiment cesser d'ignorer %s ?", "tformat")
+t("Really stop ignoring: %s", "Voulez vous vraiment cesser d'ignorer %s?", "tformat")
 t("Click a user to stop ignoring her/his messages.", "Cliquez sur un utilisateur pour cesser d'ignorer ses messages.", "_t")
 
 ------------------------------------------------
@@ -1079,7 +1079,7 @@ Je suis #{italic}##ANTIQUE_WHITE#DarkGod#LAST##{normal}#, le créateur du jeu et
 
 Avant que vous ne vous enfuyez de terreur, laissez-moi vous expliquer clairement: Je suis très #{bold}#fermement #CRIMSON#contre#LAST# le pay2win#{normal}# alors soyez assuré que je n'ajouterai pas ce genre de choses.
 
-Alors pourquoi intégrer des microtransactions? Tales of Maj'Eyal est un jeu bon marché/gratuit et ne nécessite pas d'abonnement pour y jouer. C'est mon bébé et je l'adore; je compte y travailler pendant encore de nombreuses années (comme je le fais depuis 2009 !) mais pour qu'il soit viable, je dois m'assurer un flux de revenus régulier car c'est malheureusement l'état du monde dans lequel nous vivons.
+Alors pourquoi intégrer des microtransactions? Tales of Maj'Eyal est un jeu bon marché/gratuit et ne nécessite pas d'abonnement pour y jouer. C'est mon bébé et je l'adore; je compte y travailler pendant encore de nombreuses années (comme je le fais depuis 2009!) mais pour qu'il soit viable, je dois m'assurer un flux de revenus régulier car c'est malheureusement l'état du monde dans lequel nous vivons.
 
 Quant à savoir quels types d'achats sont/seront disponibles:
 - #GOLD#Cosmetiques#LAST#: en plus des produits cosmétiques et chatoyants existants dans le jeu, vous pouvez obtenir de nouveaux packs d'articles et de peaux purement cosmétiques pour avoir l'air encore plus élégant!
@@ -1359,9 +1359,9 @@ Gestures movements are color coded to better display which movement to do:
 #d6ed15##{italic}#yellow#{normal}##LAST#: moving right
 
 If you do not wish to see gestures anymore, you can hide them in the UI section of the Game Options.
-]], [[Vous avez commencé à dessiner un geste avec la souris pour la première fois !
+]], [[Vous avez commencé à dessiner un geste avec la souris pour la première fois!
 Les gestes vous permettent d'utiliser des talents ou des actions au clavier par un simple mouvement de souris. Pour en dessiner un, il vous suffit de #{bold}#maintenir le clic droit + déplacer#{normal}#.
-Par défaut, aucun raccourci n'est fait pour les gestes, donc si vous voulez les utiliser, allez dans les Raccourcis et ajoutez-en, c'est facile et amusant !
+Par défaut, aucun raccourci n'est fait pour les gestes, donc si vous voulez les utiliser, allez dans les Raccourcis et ajoutez-en, c'est facile et amusant!
 
 Les mouvements des gestes sont codés par couleur pour mieux afficher le mouvement à faire:
 #15ed2f##{italic}#vert#{normal}##LAST#: déplacement en haut
@@ -1390,7 +1390,7 @@ section "engine/engine/ui/WebView.lua"
 t("Download: ", "Télécharger: ", "tformat")
 t("Cancel", "Annuler", "_t")
 t("Confirm addon install/update", "Confirmer l'installation ou la mise à jour de l'addon", "_t")
-t("Are you sure you want to install this addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "Êtes vous sûr de vouloir installer cet addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "_t")
+t("Are you sure you want to install this addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "Êtes vous sûr de vouloir installer cet addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "_t")
 t("Confirm module install/update", "Confirmer l'installation ou la mise à jour du module", "_t")
 t("Are you sure you want to install this module: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "Êtes vous sûr de vouloir installer ce module: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "tformat")
 t("Addon installed!", "Addon installé!", "_t")
