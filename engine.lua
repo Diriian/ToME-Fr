@@ -104,10 +104,8 @@ t("war hound", "chien de guerre", "nil")
 t("weapons", "armes", "nil")
 t("west", "à l'ouest", "nil")
 t("worried loremaster", "chroniqueur soucieux", "nil")
--- untranslated text
---[==[
 t("Angolwen", "Angolwen", "nil")
-t("Dreadfell", "Dreadfell", "nil")
+t("Dreadfell", "Tombeffroie", "nil")
 t("Rhalore", "Rhalore", "nil")
 t("Shalore", "Shalore", "nil")
 t("Shasshhiy'Kaish", "Shasshhiy'Kaish", "nil")
@@ -118,9 +116,8 @@ t("combat", "combat", "nil")
 t("daikara", "daikara", "nil")
 t("dragon", "dragon", "nil")
 t("image", "image", "nil")
-t("rimebark", "rimebark", "nil")
+t("rimebark", "givrécorce", "nil")
 t("standard", "standard", "nil")
---]==]
 
 
 ------------------------------------------------
@@ -307,10 +304,7 @@ t("Use purchased", "Achats réalisés", "_t")
 section "engine/engine/ActorsSeenDisplay.lua"
 
 
--- untranslated text
---[==[
 t("%s (%d)#WHITE#; distance [%s]", "%s (%d)#WHITE#; distance [%s]", "tformat")
---]==]
 
 
 ------------------------------------------------
@@ -330,10 +324,7 @@ t("Do you want to recreate the same character?", "Voulez-vous recréer le même 
 t("Recreate", "Recréer?", "_t")
 t("New character", "Nouveau personnage", "_t")
 t("Randomly selected %s.", "Choisir au hasard %s.", "log")
--- untranslated text
---[==[
 t("", "", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -386,10 +377,7 @@ t("Message Log", "Historique des messages", "_t")
 section "engine/engine/MicroTxn.lua"
 
 
--- untranslated text
---[==[
 t("Test", "Test", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -401,20 +389,17 @@ t([[This beta version is meant to be tested without addons, as such the followin
 #GREY#]], "_t")
 t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#Les développeurs d'addons peuvent continuer à tester leurs addons en activant le mode développeur.#{normal}#", "_t")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#Profil en ligne désactivé (passage au profil hors ligne) car %s.", "log")
--- new text
---[==[
 t([[Total playtime of all registered players:%s
-]], [[Total playtime of all registered players:%s
+]], [[Temps de jeu total des joueurs enregistré:%s
 ]], "tformat")
-t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "tformat")
-t("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "tformat")
-t("#CRIMSON#%s#WHITE# is one of the top ten killers", "#CRIMSON#%s#WHITE# is one of the top ten killers", "tformat")
-t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "tformat")
-t("There are currently %d people playing online", "There are currently %d people playing online", "tformat")
-t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "tformat")
-t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "tformat")
-t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "tformat")
---]==]
+t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# est l'une des cinq races les plus jouées", "tformat")
+t("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "#LIGHT_BLUE#%s#WHITE# est l'une des cinq classes les plus jouées", "tformat")
+t("#CRIMSON#%s#WHITE# is one of the top ten killers", "#CRIMSON#%s#WHITE# est l'un des dix plus grand tueurs", "tformat")
+t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%s#WHITE# est l'un des dix combo race/classe les plus joué", "tformat")
+t("There are currently %d people playing online", "Il y a acctuellement %d joueurs en ligne", "tformat")
+t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "Le coffre de personnages enregistre un totale de #RED#%d#WHITE# personnages morts", "tformat")
+t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "Le coffre de personnages enregistre un totale de #LIGHT_BLUE#%d#WHITE# gagnant pour la version actuelle", "tformat")
+t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "Le dernier donateur est #LIGHT_GREEN#%s#WHITE#. Un grand merci à tous les donateurs, vous gardez le jeu en vie!", "tformat")
 
 
 ------------------------------------------------
@@ -429,11 +414,7 @@ t("Requires:", "Requis:", "_t")
 t("%s (level %d)", "%s (niveau %d)", "tformat")
 t("Level %d", "Niveau %d", "tformat")
 t("Talent %s (level %d)", "Talent %s (Niveau %d)", "tformat")
--- untranslated text
---[==[
 t("Talent %s", "Talent %s", "tformat")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/PlayerProfile.lua"
@@ -458,11 +439,7 @@ section "engine/engine/Quest.lua"
 t("completed", "terminée", "_t")
 t("done", "réalisée", "_t")
 t("failed", "échouée", "_t")
--- untranslated text
---[==[
-t("active", "active", "_t")
---]==]
-
+t("active", "actif", "_t")
 
 ------------------------------------------------
 section "engine/engine/Savefile.lua"
@@ -511,11 +488,7 @@ section "engine/engine/Trap.lua"
 t("%s fails to disarm a trap (%s).", "%s échoue à désarmer le piège (%s).", "logSeen")
 t("%s disarms a trap (%s).", "%s désarme le piège (%s).", "logSeen")
 t("%s triggers a trap (%s)!", "%s déclenche le piège (%s)!", "logSeen")
--- untranslated text
---[==[
 t("%s", "%s", "logSeen")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/UserChat.lua"
@@ -575,12 +548,8 @@ section "engine/engine/dialogs/ChatChannels.lua"
 
 t("Chat channels", "Canaux de discussion", "_t")
 t("Select which channels to listen to. You can join new channels by typing '/join <channelname>' in the talkbox and leave channels by typing '/part <channelname>'", "Séléctionnez les canaux que vous souhaitez écouter. Vous pouvez rejoindre un canal en tapant '/join <nomducanal>' dans la fenêtre de tchat，et en quitter en tapant '/part <nomducanal>'", "_t")
--- untranslated text
---[==[
 t("Global", "Global", "_t")
-t(" [spoilers]", " [spoilers]", "_t")
---]==]
-
+t(" [spoilers]", " [divulgachis]", "_t")
 
 ------------------------------------------------
 section "engine/engine/dialogs/ChatFilter.lua"
@@ -599,7 +568,7 @@ section "engine/engine/dialogs/ChatIgnores.lua"
 
 t("Chat ignore list", "Liste des utilisateurs ignorés", "_t")
 t("Stop ignoring", "Vous avez cessé de l'ignorer", "_t")
-t("Really stop ignoring: %s", "Voulez vous vraiment cesser d'ignorer %s ?", "tformat")
+t("Really stop ignoring: %s", "Voulez vous vraiment cesser d'ignorer %s?", "tformat")
 t("Click a user to stop ignoring her/his messages.", "Cliquez sur un utilisateur pour cesser d'ignorer ses messages.", "_t")
 
 ------------------------------------------------
@@ -685,11 +654,7 @@ t("Accept", "Accepter", "_t")
 t("Cancel", "Annuler", "_t")
 t("Error", "Erreur", "_t")
 t("Must be between %i and %i characters.", "Doit être entre %i et %i caractères", "tformat")
--- untranslated text
---[==[
 t("", "", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/dialogs/KeyBinder.lua"
@@ -729,12 +694,8 @@ t([[#GOLD#Achieved on:#LAST# %s
 #GOLD#Description:#LAST# %s]], "tformat")
 t("Progress: ", "Progression: ", "_t")
 t("-- Unknown --", "-- Inconnu --", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
 t("???", "???", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowEquipInven.lua"
@@ -744,24 +705,16 @@ t("Category", "Catégorie", "_t")
 t("Equipment", "Équipement", "_t")
 t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
 t("%s assigned to hotkey %s", "%s assigné au raccourci %s", "tformat")
--- untranslated text
---[==[
 t("", "", "_t")
-t("Enc.", "Enc.", "_t")
---]==]
-
+t("Enc.", "Enc", "_t")
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowEquipment.lua"
 
 t("Equipment", "Équipement", "_t")
 t("Category", "Catégorie", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
-t("Enc.", "Enc.", "_t")
---]==]
-
+t("Enc.", "Enc", "_t")
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowErrorStack.lua"
@@ -787,23 +740,15 @@ t("Close All", "Tout fermer", "_t")
 t("Log saved to file (click to copy to clipboard):#LIGHT_BLUE#%s", "Log enregistré dans un fichier (cliquer pour copier dans le presse-papiers):#LIGHT_BLUE#%s", "tformat")
 t("File location copied to clipboard.", "Emplacement du fichier copié dans le presse-papiers.", "log")
 t("#YELLOW#Error report sent, thank you.", "#YELLOW#Rapport d'erreur envoyé, merci.", "log")
--- untranslated text
---[==[
 t("", "", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowInventory.lua"
 
 t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
-t("Enc.", "Enc.", "_t")
---]==]
-
+t("Enc.", "Enc", "_t")
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowPickupFloor.lua"
@@ -812,12 +757,8 @@ t("Pickup", "Ramasser", "_t")
 t("(*) Take all", "(*) Tout prendre", "_t")
 t("Item", "Objet", "_t")
 t("Category", "Catégorie", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
-t("Enc.", "Enc.", "_t")
---]==]
-
+t("Enc.", "Enc", "_t")
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowQuests.lua"
@@ -833,11 +774,7 @@ t("Store", "Magasin", "_t")
 t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
 t("Price", "Prix", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowText.lua"
@@ -863,11 +800,7 @@ t("#GOLD##{bold}#Purge Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#Purger les 
 t("Steam Cloud Purge", "Purge du cloud Steam", "_t")
 t("Confirm purge?", "Confirmer la purge?", "_t")
 t("All data purged from the cloud.", "Toutes les données ont été supprimées du cloud.", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/dialogs/Talkbox.lua"
@@ -879,11 +812,7 @@ t("Target: ", "Cible: ", "_t")
 t("Channel: %s", "Canal: %s", "tformat")
 t("Friend: %s", "Ami: %s", "tformat")
 t("User: %s", "Utilisateur: %s", "tformat")
--- untranslated text
---[==[
 t("", "", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/dialogs/UseTalents.lua"
@@ -897,12 +826,8 @@ Consultez l'écran d'affectation des touches dans le menu du jeu pour lier les r
 t("Status", "Statut", "_t")
 t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
 t("%s assigned to hotkey %s", "%s assigné au raccourci %s", "tformat")
--- untranslated text
---[==[
 t("", "", "_t")
 t("Talent", "Talent", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/dialogs/UserInfo.lua"
@@ -915,11 +840,7 @@ t("Game has been validated by the server", "La partie a été validée par le se
 t("Game is not validated by the server", "La partie n'est pas validée par le serveur", "_t")
 t("Go to online profile", "Aller sur le profil en ligne", "_t")
 t("Go to online charsheet", "Aller sur la feuille de personnage en ligne", "_t")
--- untranslated text
---[==[
 t("Validation: ", "Validation: ", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/dialogs/VideoOptions.lua"
@@ -1041,12 +962,8 @@ t("Position changed.", "Position modifiée", "_t")
 t("Save position?", "Sauvegarde de la position?", "_t")
 t("Accept", "Accepter", "_t")
 t("Revert", "Revenir en arrière", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
-t("#GOLD##{bold}#Framebuffers#WHITE##{normal}#", "#GOLD##{bold}#Framebuffers#WHITE##{normal}#", "_t")
---]==]
-
+t("#GOLD##{bold}#Framebuffers#WHITE##{normal}#", "#GOLD##{bold}#tampon de trame#WHITE##{normal}#", "_t")
 
 ------------------------------------------------
 section "engine/engine/dialogs/ViewHighScores.lua"
@@ -1079,7 +996,7 @@ Je suis #{italic}##ANTIQUE_WHITE#DarkGod#LAST##{normal}#, le créateur du jeu et
 
 Avant que vous ne vous enfuyez de terreur, laissez-moi vous expliquer clairement: Je suis très #{bold}#fermement #CRIMSON#contre#LAST# le pay2win#{normal}# alors soyez assuré que je n'ajouterai pas ce genre de choses.
 
-Alors pourquoi intégrer des microtransactions? Tales of Maj'Eyal est un jeu bon marché/gratuit et ne nécessite pas d'abonnement pour y jouer. C'est mon bébé et je l'adore; je compte y travailler pendant encore de nombreuses années (comme je le fais depuis 2009 !) mais pour qu'il soit viable, je dois m'assurer un flux de revenus régulier car c'est malheureusement l'état du monde dans lequel nous vivons.
+Alors pourquoi intégrer des microtransactions? Tales of Maj'Eyal est un jeu bon marché/gratuit et ne nécessite pas d'abonnement pour y jouer. C'est mon bébé et je l'adore; je compte y travailler pendant encore de nombreuses années (comme je le fais depuis 2009!) mais pour qu'il soit viable, je dois m'assurer un flux de revenus régulier car c'est malheureusement l'état du monde dans lequel nous vivons.
 
 Quant à savoir quels types d'achats sont/seront disponibles:
 - #GOLD#Cosmetiques#LAST#: en plus des produits cosmétiques et chatoyants existants dans le jeu, vous pouvez obtenir de nouveaux packs d'articles et de peaux purement cosmétiques pour avoir l'air encore plus élégant!
@@ -1157,12 +1074,8 @@ t([[#{bold}##GOLD#Shimmer Pack#WHITE##{normal}#: Once purchased the game will au
 #LIGHT_GREEN#Cadeau bonus:#LAST# acheter un pack chatoyant donnera aussi a vos personnages un Miroir Réfléchissant portable et vous permettra de changer votre apparence n'importe où, n'importe quand!]], "_t")
 t("#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "#{bold}##GOLD#Pack IU#WHITE##{normal}#: Une fois acheté le jeu installera automatiquement le pack IU (Interface Utilisateur) à votre jeu.", "_t")
 t("#{bold}##GOLD#Vault Space#WHITE##{normal}#: Once purchased your vault space is permanently increased.", "#{bold}##GOLD#Espace de stockage du coffre-fort#WHITE##{normal}#: Une fois acheté, l'espace de stockage de votre coffre-fort augmente de façon permanente.", "_t")
--- untranslated text
---[==[
 t("%0.2f %s", "%0.2f %s", "tformat")
 t("#{bold}#TOTAL#{normal}#", "#{bold}#TOTAL#{normal}#", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/dialogs/microtxn/UsePurchased.lua"
@@ -1188,11 +1101,7 @@ t("There was an error from the server: %s", "Il y a eu une erreur du serveur: %s
 t("Online Store", "Boutique en ligne", "_t")
 t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#Installé", "_t")
 t("You have not purchased any usable options yet. Would you like to see the store?", "Vous n'avez actuellement acheté aucune option utilisable. Voulez-vous voir la boutique?", "_t")
--- untranslated text
---[==[
 t("#YELLOW#Installable", "#YELLOW#Installable", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/interface/ActorInventory.lua"
@@ -1247,14 +1156,10 @@ t("- Lower talents of the same category: %d", "- Talents inférieur de la même 
 t("- Level %d", "- Niveau %d", "tformat")
 t("- Talent %s (not known)", "- Talent %s (non connu)", "tformat")
 t("- Is %s", "- est %s", "tformat")
--- untranslated text
---[==[
 t("%s", "%s", "logSeen")
 t("%s %s %s.", "%s %s %s.", "logSeen")
 t("- Talent %s (%d)", "- Talent %s (%d)", "tformat")
 t("- Talent %s", "- Talent %s", "tformat")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/interface/GameTargeting.lua"
@@ -1305,11 +1210,7 @@ t("You are %s, press Enter to stop.", "Vous êtes %s, appuyez sur Entrée pour a
 t("%s starts...", "%s commence...", "log")
 t("%s for %d turns (stop reason: %s).", "%s durant %d tours (raison de l'arrêt: %s)", "log")
 t("%s for %d turns.", "%s durant %d tours.", "log")
--- untranslated text
---[==[
 t("%s...", "%s...", "tformat")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/interface/PlayerRun.lua"
@@ -1359,9 +1260,9 @@ Gestures movements are color coded to better display which movement to do:
 #d6ed15##{italic}#yellow#{normal}##LAST#: moving right
 
 If you do not wish to see gestures anymore, you can hide them in the UI section of the Game Options.
-]], [[Vous avez commencé à dessiner un geste avec la souris pour la première fois !
+]], [[Vous avez commencé à dessiner un geste avec la souris pour la première fois!
 Les gestes vous permettent d'utiliser des talents ou des actions au clavier par un simple mouvement de souris. Pour en dessiner un, il vous suffit de #{bold}#maintenir le clic droit + déplacer#{normal}#.
-Par défaut, aucun raccourci n'est fait pour les gestes, donc si vous voulez les utiliser, allez dans les Raccourcis et ajoutez-en, c'est facile et amusant !
+Par défaut, aucun raccourci n'est fait pour les gestes, donc si vous voulez les utiliser, allez dans les Raccourcis et ajoutez-en, c'est facile et amusant!
 
 Les mouvements des gestes sont codés par couleur pour mieux afficher le mouvement à faire:
 #15ed2f##{italic}#vert#{normal}##LAST#: déplacement en haut
@@ -1377,12 +1278,8 @@ section "engine/engine/ui/Inventory.lua"
 
 t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
-t("Enc.", "Enc.", "_t")
---]==]
-
+t("Enc.", "Enc", "_t")
 
 ------------------------------------------------
 section "engine/engine/ui/WebView.lua"
@@ -1390,7 +1287,7 @@ section "engine/engine/ui/WebView.lua"
 t("Download: ", "Télécharger: ", "tformat")
 t("Cancel", "Annuler", "_t")
 t("Confirm addon install/update", "Confirmer l'installation ou la mise à jour de l'addon", "_t")
-t("Are you sure you want to install this addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "Êtes vous sûr de vouloir installer cet addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "_t")
+t("Are you sure you want to install this addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "Êtes vous sûr de vouloir installer cet addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "_t")
 t("Confirm module install/update", "Confirmer l'installation ou la mise à jour du module", "_t")
 t("Are you sure you want to install this module: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "Êtes vous sûr de vouloir installer ce module: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "tformat")
 t("Addon installed!", "Addon installé!", "_t")
