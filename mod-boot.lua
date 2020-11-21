@@ -3,10 +3,7 @@ section "mod-boot/data/birth/descriptors.lua"
 
 t("Destroyer", "Destructeur", "birth descriptor name")
 t("Acid-maniac", "Maniaque de l'acide", "birth descriptor name")
--- untranslated text
---[==[
 t("base", "base", "birth descriptor name")
---]==]
 
 
 ------------------------------------------------
@@ -62,11 +59,8 @@ t("A large and muscled wolf from the northern wastes. Its breath is cold and icy
 t("It is a large wolf with eyes full of cunning.", "C'est un grand loup avec des yeux pleins de ruse.", "_t")
 t("fox", "renard", "entity name")
 t("The quick brown fox jumps over the lazy dog.", "Le rapide renard brun saute par-dessus le chien paresseux.", "_t")
--- untranslated text
---[==[
 t("animal", "animal", "entity type")
-t("warg", "warg", "entity name")
---]==]
+t("warg", "loup géant", "entity name")
 
 
 ------------------------------------------------
@@ -92,10 +86,7 @@ t("This huge troll wields a massive spear and has a disturbingly intelligent loo
 t("mountain troll", "troll des montagnes", "entity name")
 t("A large and athletic troll with an extremely tough and warty hide.", "Un grand troll athlétique à la peau extrêmement dure et verruqueuse.", "_t")
 t("mountain troll thunderer", "troll-tonnerre des montagnes", "entity name")
--- untranslated text
---[==[
 t("troll", "troll", "entity subtype")
---]==]
 
 
 ------------------------------------------------
@@ -229,10 +220,7 @@ t("Profile created!", "Profil créé!", "_t")
 t("Profile creation failed!", "La création de profil a échouée!", "_t")
 t("Creation failed: %s (you may also register on https://te4.org/)", "La création a échouée: %s (vous pouvez aussi vous enregistrer sur https://te4.org/)", "tformat")
 t("Try again in in a few moments, or try online at https://te4.org/", "Essayez de nouveau dans quelques instants, ou essayez en ligne sur https://te4.org/", "_t")
--- untranslated text
---[==[
 t("Message", "Message", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -261,12 +249,9 @@ t("#LIGHT_RED#Manual: Disabled", "#LIGHT_RED#Manuel: Désactivé", "_t")
 t("#LIGHT_GREEN#Auto: Active", "#LIGHT_GREEN#Auto: Activé", "_t")
 t("Addon Version", "Version de l'addon", "_t")
 t("Game Version", "Version du jeu", "_t")
--- untranslated text
---[==[
 t("Version", "Version", "_t")
 t("Addon", "Addon", "_t")
 t("#LIGHT_RED#Auto: Incompatible", "#LIGHT_RED#Auto: Incompatible", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -461,12 +446,9 @@ t("Your password is too short", "Votre mot de passe est trop court", "_t")
 t("Login...", "Connexion...", "_t")
 t("Login in your account, please wait...", "Connexion à votre compte, attendez s'il vous plaît...", "_t")
 t("Steam client not found.", "Client Steam non trouvé", "_t")
--- untranslated text
---[==[
 t("Addons", "Addons", "_t")
 t("Options", "Options", "_t")
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
---]==]
 
 
 ------------------------------------------------
@@ -485,10 +467,7 @@ t("There is already a character with this name, do you want to overwrite it?", "
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
 t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "Ce jeu n'est pas compatible avec votre version du T-Engine, vous pouvez quand même essayer mais ca peut planter.", "_t")
--- untranslated text
---[==[
 t("Version", "Version", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -558,11 +537,8 @@ t("Registering on https://te4.org/, please wait...", "Enregistrement sur https:/
 t("Steam client not found.", "Client Steam non trouvé", "_t")
 t("Error", "Erreur", "_t")
 t("Username or Email already taken, please select an other one.", "Pseudonyme ou Email déjà pris, s'il vous plaît, sélectionnez en un autre", "_t")
--- untranslated text
---[==[
 t("Email: ", "Email: ", "_t")
 t("Email", "Email", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -584,10 +560,7 @@ t([[There was an error while downloading:
 t("Downloading: ", "Téléchergement: ", "_t")
 t("Update", "Mise à jour", "_t")
 t("All updates installed, the game will now restart", "Toutes les mises à jour sont installées, le jeu va maintenant redémarrer", "_t")
--- untranslated text
---[==[
 t("Version", "Version", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -606,10 +579,7 @@ t([[#{bold}##GOLD#%s(%s)#GREEN# High Scores#WHITE##{normal}#
 ]], [[#{bold}##GOLD#%s(%s)#GREEN# Meilleurs Scores#WHITE##{normal}#
 
 ]], "tformat")
--- untranslated text
---[==[
 t("Version", "Version", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -626,11 +596,6 @@ section "mod-boot/mod/load.lua"
 t("Strength", "Force", "stat name")
 t("str", "for", "stat short_name")
 t("Dexterity", "Dextérité", "stat name")
--- untranslated text
---[==[
 t("dex", "dex", "stat short_name")
 t("Constitution", "Constitution", "stat name")
 t("con", "con", "stat short_name")
---]==]
-
-
