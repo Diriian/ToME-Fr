@@ -2629,19 +2629,16 @@ t("Woah, thanks, Elisa. This is really nice!", "Woah, thanks, Elisa. This is rea
 section "mod-tome/data/chats/escort-quest-start.lua"
 
 
--- untranslated text
---[==[
 t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a Ziguranth technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
-Lead on; I will protect you.]], [[#LIGHT_GREEN#[Pretend to help but when it is time you will use a Ziguranth technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
-Lead on; I will protect you.]], "_t")
-t("Escort", "Escort", "_t")
-t("Go away; I do not help filthy arcane users!", "Go away; I do not help filthy arcane users!", "_t")
-t("Lead on; I will protect you.", "Lead on; I will protect you.", "_t")
+Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique Ziguranthe pour saboter le portail. @npcname@ sera envoyé à Zigur pour être \"traité\" comme il se doit.]#WHITE#
+Montrez-moi le chemin; Je vous protégerai.]], "_t")
+t("Escort", "Escorte", "_t")
+t("Go away; I do not help filthy arcane users!", "Dégagez; Je n'aide pas les sales utilisateurs des arcanes!", "_t")
+t("Lead on; I will protect you.", "Montrez-moi le chemin; Je vous protégerai.", "_t")
 t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
-Lead on; I will protect you.]], [[#LIGHT_GREEN#[Pretend to help but when it is time you will use a technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
-Lead on; I will protect you.]], "_t")
-t("Go away; I do not care for the weak.", "Go away; I do not care for the weak.", "_t")
---]==]
+Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique pour saboter le portail. @npcname@ sera envoyé à Zigur pour être \"traité\" comme il se doit.]#WHITE#
+Montrez-moi le chemin; Je vous protégerai.]], "_t")
+t("Go away; I do not care for the weak.", "Dégagez; Je n'ai que faire des faibles.", "_t")
 
 
 ------------------------------------------------
@@ -5036,11 +5033,8 @@ t("%s (fell aura)", "%s (fell aura)", "tformat")
 section "mod-tome/data/general/events/font-life.lua"
 
 
--- untranslated text
---[==[
-t("font of life", "font of life", "_t")
-t("%s (life aura)", "%s (life aura)", "tformat")
---]==]
+t("font of life", "fontaine de vie", "_t")
+t("%s (life aura)", "%s (aura de vie)", "tformat")
 
 
 ------------------------------------------------
@@ -5312,16 +5306,16 @@ section "mod-tome/data/general/grids/autumn_forest.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("old road", "vieille route", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("autumn_grass", "autumn_grass", "entity subtype")
 t("autumn grass", "autumn grass", "entity name")
 t("autumn tree", "autumn tree", "entity name")
 t("tall thick tree", "tall thick tree", "entity name")
-t("old road", "old road", "entity name")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 --]==]
 
 
@@ -5335,13 +5329,13 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
+t("previous level", "niveau précédent", "entity name")
+t("next level", "niveau suivant", "entity name")
 -- untranslated text
 --[==[
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("previous level", "previous level", "entity name")
-t("next level", "next level", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 t("sealed door", "sealed door", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
 t("glass wall", "glass wall", "entity name")
@@ -5366,6 +5360,9 @@ t("wall", "mur", "entity type")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
 t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#Vous entendez un mécanisme cliquant.", "log")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("bone", "bone", "entity subtype")
@@ -5379,9 +5376,6 @@ t("This door seems to have been sealed off. You need to find a way to close it."
 t("#VIOLET#You hear a door closing.", "#VIOLET#You hear a door closing.", "log")
 t("lever", "lever", "entity type")
 t("huge lever", "huge lever", "entity name")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 t("ladder to the next level", "ladder to the next level", "entity name")
 t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
@@ -5393,15 +5387,15 @@ section "mod-tome/data/general/grids/burntland.lua"
 
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity type")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("burnt", "burnt", "entity subtype")
 t("burnt tree", "burnt tree", "entity name")
 t("burnt ground", "burnt ground", "entity name")
 t("corrupted altar", "corrupted altar", "entity name")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 --]==]
 
 
@@ -5463,15 +5457,15 @@ t("grass", "herbe", "entity name")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
 t("flower", "fleur", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("old road", "vieille route", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("tall thick tree", "tall thick tree", "entity name")
 t("huge loose rock", "huge loose rock", "entity name")
 t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("old road", "old road", "entity name")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 --]==]
 
 
@@ -5502,13 +5496,13 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
+t("previous level", "niveau précédent", "entity name")
+t("next level", "niveau suivant", "entity name")
 -- untranslated text
 --[==[
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("previous level", "previous level", "entity name")
-t("next level", "next level", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 t("sealed door", "sealed door", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
 t("This door seems to have been sealed off. You need to find a way to open it.", "This door seems to have been sealed off. You need to find a way to open it.", "_t")
@@ -5560,13 +5554,13 @@ t("grass", "herbe", "entity subtype")
 t("grass", "herbe", "entity name")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("mud", "mud", "entity subtype")
 t("muddy floor", "muddy floor", "entity name")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 --]==]
 
 
@@ -5615,12 +5609,12 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("previous level", "niveau précédent", "entity name")
+t("next level", "niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("rocks", "rocks", "entity subtype")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("previous level", "previous level", "entity name")
-t("next level", "next level", "entity name")
 --]==]
 
 
@@ -5629,6 +5623,9 @@ section "mod-tome/data/general/grids/mountain.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("rock", "rock", "entity subtype")
@@ -5638,9 +5635,6 @@ t("rocky mountain", "rocky mountain", "entity name")
 t("snowy tree", "snowy tree", "entity name")
 t("cliffside", "cliffside", "entity name")
 t("hard rocky mountain", "hard rocky mountain", "entity name")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 --]==]
 
 
@@ -5669,6 +5663,9 @@ section "mod-tome/data/general/grids/sand.lua"
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("sand", "sand", "entity subtype")
@@ -5679,9 +5676,6 @@ t("Loose sand is steadily filling this void, which could collapse suddenly and c
 t("The unstable sand tunnel collapses!", "The unstable sand tunnel collapses!", "logSeen")
 t("You are crushed by the collapsing tunnel! You suffocate!", "You are crushed by the collapsing tunnel! You suffocate!", "logPlayer")
 t("was buried alive", "was buried alive", "_t")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 t("ladder to the next level", "ladder to the next level", "entity name")
 t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
@@ -5694,6 +5688,9 @@ section "mod-tome/data/general/grids/sanddunes.lua"
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("sand", "sand", "entity subtype")
@@ -5701,9 +5698,6 @@ t("sand", "sand", "entity name")
 t("dune", "dune", "entity type")
 t("sand dune", "sand dune", "entity name")
 t("solidified sand dune", "solidified sand dune", "entity name")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 --]==]
 
 
@@ -5712,13 +5706,13 @@ section "mod-tome/data/general/grids/slime.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
+t("previous level", "niveau précédent", "entity name")
+t("next level", "niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("slime", "slime", "entity subtype")
 t("slime floor", "slime floor", "entity name")
 t("slime wall", "slime wall", "entity name")
-t("previous level", "previous level", "entity name")
-t("next level", "next level", "entity name")
 t("slime door", "slime door", "entity name")
 t("open slime door", "open slime door", "entity name")
 --]==]
@@ -5734,13 +5728,13 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
+t("previous level", "niveau précédent", "entity name")
+t("next level", "niveau suivant", "entity name")
 -- untranslated text
 --[==[
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("previous level", "previous level", "entity name")
-t("next level", "next level", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 t("sealed door", "sealed door", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
 t("This door seems to have been sealed off. You need to find a way to open it.", "This door seems to have been sealed off. You need to find a way to open it.", "_t")
@@ -5759,16 +5753,16 @@ section "mod-tome/data/general/grids/snowy_forest.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("old road", "vieille route", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("snowy_grass", "snowy_grass", "entity subtype")
 t("snowy grass", "snowy grass", "entity name")
 t("winter tree", "winter tree", "entity name")
 t("tall thick tree", "tall thick tree", "entity name")
-t("old road", "old road", "entity name")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("way to the previous level", "way to the previous level", "entity name")
-t("way to the next level", "way to the next level", "entity name")
 --]==]
 
 
@@ -5858,6 +5852,9 @@ t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
 t("water", "eau", "entity subtype")
 t("deep water", "eau profonde", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("previous level", "niveau précédent", "entity name")
+t("next level", "niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("underwater", "underwater", "entity subtype")
@@ -5868,9 +5865,6 @@ t("#LIGHT_BLUE#Replenishes air level when standing inside.#LAST#", "#LIGHT_BLUE#
 t("#AQUAMARINE#The air bubbles are depleted!", "#AQUAMARINE#The air bubbles are depleted!", "logSeen")
 t("poisoned deep water", "poisoned deep water", "entity name")
 t("#Source# poisons #Target#!", "#Source# poisons #Target#!", "logCombat")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
-t("previous level", "previous level", "entity name")
-t("next level", "next level", "entity name")
 --]==]
 
 
@@ -18834,10 +18828,10 @@ t("A small scrap of paper written in a mocking tone.", "A small scrap of paper w
 section "mod-tome/data/maps/vaults/bandit-fortress.lua"
 
 
+t("stairs back to %s", "redescendre vers %s", "_t")
 -- untranslated text
 --[==[
 t("bandit fortress", "bandit fortress", "_t")
-t("stairs back to %s", "stairs back to %s", "_t")
 t("#rng# the Guard", "#rng# the Guard", "_t")
 t("scroll", "scroll", "_t")
 t("Guard's Journal", "Guard's Journal", "_t")
@@ -18849,12 +18843,9 @@ t("A messily scrawled pile of loose papers.", "A messily scrawled pile of loose 
 section "mod-tome/data/maps/vaults/collapsed-tower.lua"
 
 
--- untranslated text
---[==[
-t("elemental crystal", "elemental crystal", "_t")
-t("collapsed tower", "collapsed tower", "_t")
-t("stairs back to %s", "stairs back to %s", "_t")
---]==]
+t("stairs back to %s", "redescendre vers %s", "_t")
+t("elemental crystal", "cristal élémentaire", "_t")
+t("collapsed tower", "tour effondrée", "_t")
 
 
 ------------------------------------------------
@@ -19049,10 +19040,10 @@ t("A dark hole in the mountain", "A dark hole in the mountain", "_t")
 section "mod-tome/data/mapscripts/lib/subvault.lua"
 
 
+t("stairs back to %s", "redescendre vers %s", "_t")
 -- untranslated text
 --[==[
 t("Hidden Vault - %s", "Hidden Vault - %s", "tformat")
-t("stairs back to %s", "stairs back to %s", "_t")
 t("hidden vault", "hidden vault", "_t")
 t("Crumbling stairs lead down to something.", "Crumbling stairs lead down to something.", "_t")
 t("collapsing hidden vault", "collapsing hidden vault", "_t")
@@ -25568,7 +25559,7 @@ t([[You breathe acid in a frontal cone of radius %d. Any target caught in the ar
 ------------------------------------------------
 section "mod-tome/data/talents/misc/horrors.lua"
 
-t("spell", "contre les sorts", "talent category")
+t("spell", "sort", "talent category")
 t("other", "autre", "talent category")
 -- untranslated text
 --[==[
@@ -25943,7 +25934,7 @@ t([[Activate the powerful flight engines of the Fortress, propelling it fast int
 section "mod-tome/data/talents/misc/npcs.lua"
 
 t("other", "autre", "_t")
-t("spell", "contre les sorts", "talent category")
+t("spell", "sort", "talent category")
 t("other", "autre", "talent category")
 t("undead", "mort-vivant", "talent category")
 t("misc", "divers", "_t")
@@ -26400,7 +26391,7 @@ t("Reduces the cooldown of all spells by %d%%.", "Reduces the cooldown of all sp
 ------------------------------------------------
 section "mod-tome/data/talents/misc/objects.lua"
 
-t("spell", "contre les sorts", "talent category")
+t("spell", "sort", "talent category")
 t("other", "autre", "talent category")
 t("misc", "divers", "talent category")
 t("None", "Aucune", "_t")
@@ -29529,7 +29520,7 @@ t("On using Ghost Walk - Return, you create a portal that summons %d spirits aro
 ------------------------------------------------
 section "mod-tome/data/talents/spells/spells.lua"
 
-t("spell", "contre les sorts", "talent category")
+t("spell", "sort", "talent category")
 t("water", "eau", "_t")
 -- untranslated text
 --[==[
@@ -39976,6 +39967,7 @@ t("Heart of the Gloom", "Heart of the Gloom", "_t")
 section "mod-tome/data/zones/high-peak/grids.lua"
 
 
+t("next level", "niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("Farportal: the Far East", "Farportal: the Far East", "entity name")
@@ -40004,7 +39996,6 @@ t("This portal seems to connect to another part of this level.", "This portal se
 t("#GOLD#This portal looks like it reacts only to the Orb of Many Ways.", "#GOLD#This portal looks like it reacts only to the Orb of Many Ways.", "say")
 t("#VIOLET#You enter the swirling portal and appear in a large room with other portals and the two wizards.", "#VIOLET#You enter the swirling portal and appear in a large room with other portals and the two wizards.", "_t")
 t("Elandar", "Elandar", "_t")
-t("next level", "next level", "entity name")
 --]==]
 
 
@@ -40089,6 +40080,7 @@ t("underground", "souterrain", "entity subtype")
 t("floor", "sol", "entity type")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("next level", "niveau suivant", "entity name")
 -- untranslated text
 --[==[
 t("huge loose rock", "huge loose rock", "entity name")
@@ -40110,7 +40102,6 @@ t("crack in spacetime", "crack in spacetime", "entity name")
 t("underwater", "underwater", "entity subtype")
 t("underwater", "underwater", "entity name")
 t("coral wall", "coral wall", "entity name")
-t("next level", "next level", "entity name")
 t("lava floor", "lava floor", "entity name")
 t("lava wall", "lava wall", "entity name")
 --]==]
@@ -41638,12 +41629,12 @@ section "mod-tome/data/zones/south-beach/grids.lua"
 
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 -- untranslated text
 --[==[
 t("sand", "sand", "entity subtype")
 t("lovely umbrella", "lovely umbrella", "entity name")
 t("picnic basket", "picnic basket", "entity name")
-t("exit to the worldmap", "exit to the worldmap", "entity name")
 t("You have not finished your romantic time at the beach.", "You have not finished your romantic time at the beach.", "log")
 --]==]
 
@@ -42217,9 +42208,9 @@ section "mod-tome/data/zones/town-gates-of-morning/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("grass", "herbe", "entity subtype")
+t("old road", "vieille route", "entity name")
 -- untranslated text
 --[==[
-t("old road", "old road", "entity name")
 t("Farportal: Last Hope", "Farportal: Last Hope", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go near the town of Last Hope in Maj'Eyal.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
@@ -42401,9 +42392,9 @@ section "mod-tome/data/zones/town-last-hope/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
+t("old road", "vieille route", "entity name")
 -- untranslated text
 --[==[
-t("old road", "old road", "entity name")
 t("Farportal: Gates of Morning", "Farportal: Gates of Morning", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go near the Gates of Morning in the Far East.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
@@ -42727,12 +42718,9 @@ t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
 t("water", "eau", "entity subtype")
 t("tree", "arbre", "entity name")
--- untranslated text
---[==[
-t("dirt road", "dirt road", "entity name")
-t("troll stew", "troll stew", "entity name")
-t("bog water", "bog water", "entity name")
---]==]
+t("dirt road", "route boueuse", "entity name")
+t("troll stew", "ragoût de troll", "entity name")
+t("bog water", "eau de tourbière", "entity name")
 
 
 ------------------------------------------------
@@ -43704,7 +43692,7 @@ t("%s resists the dispelling of %s!", "%s résiste à la dissipation de %s!", "l
 t("#LIGHT_RED#%s starts suffocating to death!", "#LIGHT_RED#%s commence à suffoquer à mort!", "logSeen")
 t("Physical save", "Sauvegarde physique", "_t")
 t("Mental save", "Sauvegarde mentale", "_t")
-t("Spell save", "Sauvegarde des Sorts", "_t")
+t("Spell save", "Sauvegarde des sorts", "_t")
 t("#ORANGE#%s shrugs off %s '%s'!", "#ORANGE#%s ignore %s '%s'!", "logCombat")
 t("#Target#'s", "#Target# de", "_t")
 t("the effect", "l'effet", "_t")
@@ -43777,21 +43765,21 @@ t("He looks tired and wounded.", "Il a l'air blessé et fatigué.", "_t")
 t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "Aidez-moi, s'il vous plaît! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail de rappel par ici, mais je ne pourrai pas continuer la route seul. Pourriez-vous m'aider?", "_t")
 t("%s, the injured seer", "%s, le devin blessé", "_t")
 t("She looks tired and wounded.", "Elle a l'air blessé et fatigué.", "_t")
-t("%s, the repented thief", "%s, le voleur repentie", "_t")
+t("%s, the repented thief", "%s, le voleur repenti", "_t")
 t("%s, the lone alchemist", "%s, l'alchimist solitaire", "_t")
 t("%s, the lost sun paladin", "%s, le paladin solaire perdu", "_t")
 t("%s, the lost defiler", "%s, le profanateur perdu", "_t")
 t("temporal portal", "portail temporel", "_t")
 t([[Oh but you are ... are you ?! ME?!
-		So I was right, this is not my original time-thread!
-		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh mais vous êtes ... êtes-vous ?! MOI?!
-		Donc j'avais raison, ce n'est pas mon temps originel!
-		S'il vous plaît, aidez-moi! J'ai peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail temporel par ici, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider? Voulez-vous vous aider... vous-même?]], "_t")
+So I was right, this is not my original time-thread!
+Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh mais vous êtes ... êtes-vous?! MOI?!
+Donc j'avais raison, ce n'est pas mon temps originel!
+S'il vous plaît, aidez-moi! J'ai peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail temporel par ici, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider? Voulez-vous vous aider... vous-même?]], "_t")
 t("%s, temporal explorer", "%s, explorateur temporel", "_t")
 t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "Elle a l'air blessé et fatigué. Elle vous ressemble tellement et pourtant elle est complètement différente. Bizarre.", "_t")
 t("%s, the worried loremaster", "%s, le Chroniqueur soucieux", "_t")
 t("mental", "mentale", "_t")
-t("spell", "contre les sorts", "_t")
+t("spell", "sort", "_t")
 t("physical", "physique", "_t")
 t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense:", "_t")
 t("improved %s by +%d", "amélioré %s par +%d", "tformat")
@@ -44034,9 +44022,9 @@ t("Never visited yet", "Pas encore visité", "_t")
 t("In sight", "En vue", "_t")
 t("Lit", "Eclairé", "_t")
 t("Blocks sight", "Bloque la vue", "_t")
-t("Blocks movement", "Bloque le mouvement", "_t")
+t("Blocks movement", "Bloque les mouvements", "_t")
 t("Special breathing method required", "Méthode de respiration spéciale requise", "_t")
-t("Diggable", "Creusable", "_t")
+t("Diggable", "Destructible", "_t")
 t("Cannot teleport to this place", "Impossible de se téléporter à cet endroit", "_t")
 t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#Vous entendez un mécanisme cliquant.", "log")
 -- untranslated text
@@ -44123,9 +44111,9 @@ t("Damage type: ", "Type de dégâts: ", "_t")
 t("Mastery: ", "Maîtrise: ", "_t")
 t("Accuracy is based on willpower for this weapon.", "Précision de l'arme basée sur la Volonté.", "_t")
 t("Accuracy: ", "Précision: ", "_t")
-t("Armour Penetration: ", "Pénétration d'armure: ", "_t")
+t("Armour Penetration: ", "Pén d'armure: ", "_t")
 t("Crit. chance: ", "Chance de crit: ", "_t")
-t("Crit. power: ", "Puissance crit: ", "_t")
+t("Crit. power: ", "Puissance Crit: ", "_t")
 t("Attack speed: ", "Vitesse d'attaque: ", "_t")
 t("Block value: ", "Valeur de blocage: ", "_t")
 t("Firing range: ", "Portée de tir: ", "_t")
@@ -44160,8 +44148,8 @@ t("[Godslayer]", "[Tueur de Dieux]", "_t")
 t("[Random Unique]", "[Unique Aléatoire]", "_t")
 t("unknown", "inconnu", "_t")
 t(" ; tier ", " ; palier ", "_t")
-t("It must be held with both hands.", "Doit être tenu à deux mains", "_t")
-t("It can be used as a weapon and offhand.", "Peut être utilisé comme une arme principale ou secondaire", "_t")
+t("It must be held with both hands.", "Doit être tenu à deux mains.", "_t")
+t("It can be used as a weapon and offhand.", "Peut être utilisé comme une arme principale ou secondaire.", "_t")
 t("Weapon Damage: ", "Dégâts d'Arme: ", "_t")
 t("#YELLOW#It can cause special effects when it strikes in combat.#LAST#", "#YELLOW#Peut provoquer des effets spéciaux lors d'une frappe en combat.#LAST#", "_t")
 t("#ORCHID#It can cause special effects when a melee attack is blocked.#LAST#", "#ORCHID#Peut provoquer des effets spéciaux lorsqu'une attaque de mêlée est bloquée.#LAST#", "_t")
@@ -44171,8 +44159,8 @@ t("dims", "assombrissement", "_t")
 t("#ORANGE#It has an activatable power.#LAST#", "#ORANGE#A un pouvoir activable.#LAST#", "_t")
 t("It is part of a set of items.", "Fait partis d'une collection d'objets", "_t")
 t("The set is complete.", "La collection est complete.", "_t")
-t("Armour penetration: ", "Pénétration d'armure: ", "_t")
-t("Physical crit. chance: ", "Chance de crit Physique: ", "_t")
+t("Armour penetration: ", "Pén d'Armure: ", "_t")
+t("Physical crit. chance: ", "Chance de crit physique: ", "_t")
 t("Physical power: ", "Puissance physical: ", "_t")
 t("Armour: ", "Armure: ", "_t")
 t("Armour Hardiness: ", "Robustesse d'Armure: ", "_t")
@@ -44215,7 +44203,7 @@ t("Stealth bonus: ", "Bonus de furtivité: ", "_t")
 t("Maximum encumbrance: ", "Encombrement maximum: ", "_t")
 t("Physical save: ", "Sauvegarde physique: ", "_t")
 t("Spell save: ", "Sauvegarde des sorts: ", "_t")
-t("Mental save: ", "Sauvegarde Mentale: ", "_t")
+t("Mental save: ", "Sauvegarde mentale: ", "_t")
 t("Blindness immunity: ", "Immunité à l'Aveuglement: ", "_t")
 t("Poison immunity: ", "Immunité au Poison: ", "_t")
 t("Disease immunity: ", "Immunité aux Maladies: ", "_t")
@@ -44268,10 +44256,10 @@ t("Maximum pos.energy: ", "Pos.energie maximum: ", "_t")
 t("Maximum neg.energy: ", "Neg.energie maximum: ", "_t")
 t("Maximum air capacity: ", "Capacité d'air maximale: ", "_t")
 t("Spellpower: ", "Puissance des sorts: ", "_t")
-t("Spell crit. chance: ", "Chance de crit de sort: ", "_t")
+t("Spell crit. chance: ", "Chance de crit des sorts: ", "_t")
 t("Lowers spell cool-downs by: ", "Réduit les temps de récupération des sorts de: ", "_t")
 t("Mindpower: ", "Puissance Mentale: ", "_t")
-t("Mental crit. chance: ", "Chance de crit mental: ", "_t")
+t("Mental crit. chance: ", "Crit chance mental: ", "_t")
 t("Light radius: ", "Portée de vue: ", "_t")
 t("Infravision radius: ", "Portée d'infravision: ", "_t")
 t("Heightened senses radius: ", "Rayon des sens accru: ", "_t")
@@ -44384,7 +44372,7 @@ t([[Infused by #ORCHID#arcane disrupting forces#LAST#
 ]], [[Infusé par #ORCHID#une force disruptive d'arcanes#LAST#
 ]], "_t")
 t([[Crafted by #LIGHT_UMBER#a master#LAST#
-]], [[Forgé par #LIGHT_UMBER#un  maître#LAST#
+]], [[Forgé par #LIGHT_UMBER#un maître#LAST#
 ]], "_t")
 t([[Infused by #YELLOW#psionic forces#LAST#
 ]], [[Infusé par #YELLOW#une force psionique#LAST#
@@ -46700,10 +46688,10 @@ t("unknown", "inconnu", "_t")
 t("not enough stat", "stat insuffisantes", "_t")
 t("class", "classe", "_t")
 t("Physical save: ", "Sauvegarde physique: ", "_t")
-t("Mindpower: ", "Puissance Mentale: ", "_t")
-t("Mental save: ", "Sauvegarde Mentale: ", "_t")
+t("Mindpower: ", "Puissance mentale: ", "_t")
+t("Mental save: ", "Sauvegarde mentale: ", "_t")
 t("Spell save: ", "Sauvegarde des sorts: ", "_t")
-t("Physical power: ", "Puissance Physique: ", "_t")
+t("Physical power: ", "Puissance physique: ", "_t")
 t("Crit. chance: ", "Chance de crit: ", "_t")
 t("Accuracy: ", "Précision: ", "_t")
 t("Spellpower: ", "Puissance des sorts: ", "_t")
@@ -47964,9 +47952,7 @@ t("All known spells that can be used with Arcane Combat.", "All known spells tha
 section "mod-tome/mod/init.lua"
 
 
--- untranslated text
---[==[
-t("Tales of Maj'Eyal: Age of Ascendancy", "Tales of Maj'Eyal: Age of Ascendancy", "init.lua long_name")
+t("Tales of Maj'Eyal: Age of Ascendancy", "Tales of Maj'Eyal: L'Ère de l'Ascendance", "init.lua long_name")
 t([[Welcome to Maj'Eyal.
 
 This is the Age of Ascendancy. After over ten thousand years of strife, pain and chaos the known world is at last at relative peace.
@@ -47985,25 +47971,27 @@ While the people of Maj'Eyal know that the mages helped put an end to the terror
 Still, this is a golden age. Civilisations are healing the wounds of thousands of years of conflict, and the Humans and the Halflings have made a lasting peace.
 
 You are an adventurer, set out to discover wonders, explore old places, and venture into the unknown for wealth and glory.
-]], [[Welcome to Maj'Eyal.
+]], [[Bienvenu à Maj'Eyal.
 
-This is the Age of Ascendancy. After over ten thousand years of strife, pain and chaos the known world is at last at relative peace.
-The last effects of the #FF0000#Spellblaze#WHITE# have been tamed. The land slowly heals itself and the civilisations rebuild themselves after the Age of Pyre.
+C'est l'Ère de l'Ascendance. Après plus de dix mille ans de conflit, de souffrance et de chaos le monde connu est enfin en paix relative.
+Les derniers effets de la #FF0000#Brûlure magique#WHITE# ont été maîtrisé. La terre se régénère lentement et les civilisations se sont reconstruites après l'Ère du Bûcher.
 
-It has been one hundred and twenty-two years since the Allied Kingdoms were established under the rule of #14fffc#Toknor#ffffff# and his wife #14fffc#Mirvenia#ffffff#.
-Together they ruled the kingdoms with fairness and brought prosperity to both Halflings and Humans.
-The King died of old age fourteen years ago, and his son #14fffc#Tolak#ffffff# is now King.
+Il s'est passé cent vingt-deux ans depuis que les Royaumes Alliés se sont établis sous le règne de #14fffc#Toknor#ffffff# et sa femme #14fffc#Mirvenia#ffffff#.
+Ensemble ils ont règné sur les royaumes avec équité et ont apporté la prospérité aussi bien aux Halfelins qu'aux Humains.
+Cela fait quarante ans que le Roi est mort de vieillesse, et son fils #14fffc#Tolak#ffffff# est maintenant Roi.
 
-The Elven kingdoms are quiet. The Shaloren Elves in their home of Elvala are trying to make the world forget about their role in the Spellblaze and are living happy lives under the leadership of #14fffc#Aranion Gayaeil#ffffff#.
-The Thaloren Elves keep to their ancient tradition of living in the woods, ruled as always by #14fffc#Nessilla Tantaelen#ffffff# the wise.
+Les royaumes Elfes sont calmes. Les Elfes Shaloréens dans leur foyer de Elvala tentent de faire oublier au monde leur rôle dans la Brûlure magique et vivent heureux sous le commandement de #14fffc#Aranion Gayaeil#ffffff#.
+Les elfes Thaloréens perpétuent leurs anciennes traditions en vivant dans les bois, gouvernés comme toujours par #14fffc#Nessilla Tantaelen#ffffff# la sage.
 
-The Dwarves of the Iron Throne have maintained a careful trade relationship with the Allied Kingdoms for nearly one hundred years, yet not much is known about them, not even their leader's name.
+Les Nains du Trône de Fer ont maintenu une relation commerciale prudente avec les Royaumes Alliés depuis presque cent ans, mais à ce jour nous en savons peu sur eux, pas même le nom de leur leader.
 
-While the people of Maj'Eyal know that the mages helped put an end to the terrors of the Spellblaze, they also did not forget that it was magic that started those events. As such, mages are still shunned from society, if not outright hunted down.
-Still, this is a golden age. Civilisations are healing the wounds of thousands of years of conflict, and the Humans and the Halflings have made a lasting peace.
+Bien que le peuple de Maj'Eyal sache que les mages ont aidé à mettre un point final à la terreur de la Brûlure magique, ils n'ont pas oublié que c'est aussi la magie qui a déclenchée ces évènements. A ce titre, les mages restent marginalisés par la société, si ce n'est purement et simplement pourchassés.
+Malgré tout, c'est un age d'or. Les civilisations soignent les blessures de milliers d'années de conflit, et les Humains et les Halfelins ont créé une paix durable.
 
-You are an adventurer, set out to discover wonders, explore old places, and venture into the unknown for wealth and glory.
+Vous êtes un aventurier, fait pour découvrir des merveilles, explorer d'anciens lieux, et vous aventurez dans l'inconnu pour la richesse et la gloire.
 ]], "init.lua description")
+-- untranslated text
+--[==[
 t("Though magic is still shunned in Maj'Eyal, rumours abound of secret havens of mages.", "Though magic is still shunned in Maj'Eyal, rumours abound of secret havens of mages.", "init.lua load_tips")
 t("The Rush talent lets you close in on an enemy quickly and daze them, disabling them whilst you hack down their friends.", "The Rush talent lets you close in on an enemy quickly and daze them, disabling them whilst you hack down their friends.", "init.lua load_tips")
 t("Stunning an opponent slows down their movement and reduces their damage output, giving you the opportunity to tactically reposition or finish them off at less risk.", "Stunning an opponent slows down their movement and reduces their damage output, giving you the opportunity to tactically reposition or finish them off at less risk.", "init.lua load_tips")
