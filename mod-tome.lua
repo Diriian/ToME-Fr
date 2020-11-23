@@ -2645,16 +2645,13 @@ t("Go away; I do not care for the weak.", "Dégagez; Je n'ai que faire des faibl
 section "mod-tome/data/chats/escort-quest.lua"
 
 t("Thank you.", "Merci.", "_t")
--- untranslated text
---[==[
 t([[At the last moment you invoke the power of nature.  The portal fizzles and transports @npcname@ to Zigur.
-You can feel Nature thanking you.]], [[At the last moment you invoke the power of nature.  The portal fizzles and transports @npcname@ to Zigur.
-You can feel Nature thanking you.]], "_t")
+You can feel Nature thanking you.]], [[Au dernier moment vous invoquez la puissance de la nature. Le portail crépite et téléporte @npcname@ à Zigur.
+Vous sentez la nature vous remercier.]], "_t")
 t([[Thank you, my friend. I do not think I would have survived without you.
-Please let me reward you:]], [[Thank you, my friend. I do not think I would have survived without you.
-Please let me reward you:]], "_t")
-t("There you go. Farewell!", "There you go. Farewell!", "_t")
---]==]
+Please let me reward you:]], [[Merci, mon ami. Je ne pense pas que j'aurais survécu sans vous.
+Laissez moi vous remercier s'il vous plait:]], "_t")
+t("There you go. Farewell!", "Et voila. Adieu!", "_t")
 
 
 ------------------------------------------------
@@ -3182,7 +3179,7 @@ Bonne journée à vous...#LIGHT_GREEN#*Il vous regarde fixement et commence à s
 Ne me tuez pas, s'il vous plaît!]], "_t")
 t([[#LIGHT_GREEN#*Before you stands a young man, a novice mage by his looks*#WHITE#
 Good day to you, fellow traveler!]], [[#LIGHT_GREEN#*Devant vous se tient un jeune homme, un mage novice suivant son apparence.*#WHITE#
-Bonne journée à vous, chère voyageur!]], "_t")
+Bonne journée à vous, cher voyageur!]], "_t")
 t("What brings an apprentice mage out into the wilds?", "Qu'est-ce qui amène un apprenti mage dans la nature?", "_t")
 t("I found this artefact; it looks powerful and arcane infused. Maybe it would be enough?", "J'ai trouvé cet artefact; il a l'air puissament enchanté par les arcanes. Peut-être que cela suffirait?", "_t")
 t("So you have enough magical items now?", "Vous avez donc assez d'objets magiques maintenant?", "_t")
@@ -19229,20 +19226,17 @@ t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back
 section "mod-tome/data/quests/escort-duty.lua"
 
 t("something", "quelque chose", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
-t("You successfully escorted the %s to the recall portal on level %s.", "You successfully escorted the %s to the recall portal on level %s.", "tformat")
-t("As a reward you %s.", "As a reward you %s.", "tformat")
-t("You abandoned %s, to death.", "You abandoned %s, to death.", "tformat")
-t("You failed to protect the %s from death by %s.", "You failed to protect the %s from death by %s.", "tformat")
+t("You successfully escorted the %s to the recall portal on level %s.", "Vous avez escorté avec succès %s jusqu'au portail du niveau %s.", "tformat")
+t("As a reward you %s.", "En récompense vous %s.", "tformat")
+t("You abandoned %s, to death.", "Vous avez abandonné %s à la mort.", "tformat")
+t("You failed to protect the %s from death by %s.", "Vous avez échoué a protéger %s de la mort. Coup fatal: %s.", "tformat")
 t("???", "???", "_t")
-t("Escort the %s to the recall portal on level %s.", "Escort the %s to the recall portal on level %s.", "tformat")
-t("#LIGHT_RED#%s is dead, quest failed!", "#LIGHT_RED#%s is dead, quest failed!", "logPlayer")
-t("Recall Portal", "Recall Portal", "_t")
-t("%s of %s", "%s of %s", "tformat")
-t("Escort: %s (level %s)", "Escort: %s (level %s)", "tformat")
---]==]
+t("Escort the %s to the recall portal on level %s.", "Escortez %s jusqu'au portail de rappel du niveau %s.", "tformat")
+t("#LIGHT_RED#%s is dead, quest failed!", "#LIGHT_RED#%s est mort, quête échouée!", "logPlayer")
+t("Recall Portal", "Portail de rappel", "_t")
+t("%s of %s", "%s de %s", "tformat")
+t("Escort: %s (level %s)", "Escorte: %s (niveau %s)", "tformat")
 
 
 ------------------------------------------------
@@ -20007,12 +20001,12 @@ t("The way to the treasure is to the east. But beware, death probably awaits the
 section "mod-tome/data/quests/tutorial-combat-stats.lua"
 
 
+t("Tutorial Finished", "Tutoriel Terminé", "_t")
 -- untranslated text
 --[==[
 t("Tutorial: combat stats", "Tutorial: combat stats", "_t")
 t("Explore the Dungeon of Adventurer Enlightenment to learn about ToME's combat mechanics.", "Explore the Dungeon of Adventurer Enlightenment to learn about ToME's combat mechanics.", "_t")
 t("#LIGHT_GREEN#You have navigated the Dungeon of Adventurer Enlightenment!#WHITE#", "#LIGHT_GREEN#You have navigated the Dungeon of Adventurer Enlightenment!#WHITE#", "_t")
-t("Tutorial Finished", "Tutorial Finished", "_t")
 --]==]
 
 
@@ -20020,11 +20014,8 @@ t("Tutorial Finished", "Tutorial Finished", "_t")
 section "mod-tome/data/quests/tutorial.lua"
 
 t("Tutorial", "Tutoriel", "_t")
--- untranslated text
---[==[
-t("You must venture in the heart of the forest and kill the Lone Wolf, who randomly attacks villagers.", "You must venture in the heart of the forest and kill the Lone Wolf, who randomly attacks villagers.", "_t")
-t("Tutorial: Movement", "Tutorial: Movement", "_t")
---]==]
+t("You must venture in the heart of the forest and kill the Lone Wolf, who randomly attacks villagers.", "Vous devez vous aventurer dans le coeur de la forêt et tuer le \"Loup solitaire\", qui attaque aléatoirement des villagois.", "_t")
+t("Tutorial: Movement", "Tutoriel: Mouvements", "_t")
 
 
 ------------------------------------------------
@@ -32633,8 +32624,6 @@ The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you ahead!
 section "mod-tome/data/texts/intro-tutorial.lua"
 
 
--- untranslated text
---[==[
 t([[#LIGHT_GREEN#Welcome to Tales of Maj'Eyal!#LAST#
 
 This tutorial will present you with a short quest to familiarise yourself with the game.
@@ -32647,20 +32636,19 @@ During this tutorial you will be guided by dialog boxes such as this one, explai
 Dialog boxes can be dismissed by pressing Escape or clicking outside of their zone (or on the title bar).
 
 Now press #LIGHT_BLUE#escape#LAST# or #LIGHT_BLUE#click outside#LAST# this dialog to close it and proceed.
-]], [[#LIGHT_GREEN#Welcome to Tales of Maj'Eyal!#LAST#
+]], [[#LIGHT_GREEN#Bienvenu dans Tales of Maj'Eyal!#LAST#
 
-This tutorial will present you with a short quest to familiarise yourself with the game.
-You are a Human adventurer sent into the forest by the local village to dispose of the "Lone Wolf".
+Ce tutoriel va vous présenter une quête très courte pour vous familiariser avec le jeu.
+Vous êtes un aventurier humain envoyé dans la forêt par le village local pour vous occuper du "Loup solitaire".
 
-This tutorial character is more powerful than a normal starting character and has infinite lives.
-A normal character has limited lives, and once you run out, you stay dead (unless you found or accomplished things that allow you to resurrect).
+Ce personnage de tutoriel est plus fort qu'un personne débutant normal et a des vies infinies.
+Un personnage normal a un nombre de vies limité, et une fois qu'il n'en a plus, vous restez mort (à moins que vous trouviez ou que vous accomplissiez des choses vous permettant de ressusciter).
 
-During this tutorial you will be guided by dialog boxes such as this one, explaining how things work.
-Dialog boxes can be dismissed by pressing Escape or clicking outside of their zone (or on the title bar).
+Durant ce tutoriel vous serez guidé par des boites de dialogues telles que celle-ci, expliquant comment les choses fonctionnent.
+Les boites de dialogue peuvent être supprimées en pressant sur Esc ou en cliquant en dehors de leur zone (ou sur la barre de titre).
 
-Now press #LIGHT_BLUE#escape#LAST# or #LIGHT_BLUE#click outside#LAST# this dialog to close it and proceed.
+Maintenant appuyez sur #LIGHT_BLUE#Esc#LAST# ou #LIGHT_BLUE#cliquez en dehors#LAST# de ce dialogue pour le clôturer et continuer.
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
@@ -32752,8 +32740,6 @@ t([[Onward! The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you!
 section "mod-tome/data/texts/tutorial/done.lua"
 
 
--- untranslated text
---[==[
 t([[#GOLD#Congratulations !#WHITE#
 
 You have completed this small tutorial, and should now know the basics of ToME4. You are ready to step forward into the world to find glory, treasures and be mercilessly slaughtered by hordes of creatures you thought you could handle!
@@ -32765,27 +32751,24 @@ As this is probably your first time with the game you will find there is a limit
 
 Now go boldly and remember: #GOLD#Have fun!#WHITE#
 Press Escape, save & exit and create a new character!
-]], [[#GOLD#Congratulations !#WHITE#
+]], [[#GOLD#Félicitations !#WHITE#
 
-You have completed this small tutorial, and should now know the basics of ToME4. You are ready to step forward into the world to find glory, treasures and be mercilessly slaughtered by hordes of creatures you thought you could handle!
-During this tutorial some creatures were adjusted to the need of the teachings, beware, in the real world trolls are not usually this nice!
+Vous avez terminé ce petit tutoriel, et vous devriez maintenant connaitre les bases de Tales of Maj'Eyal. Vous êtes prêt pour vous lancer dans le monde pour trouver gloire, trésors et être abattu sans pitié par des hordes de créatures que vous pensiez pouvoir gérer!
+Pendant ce tutoriel certaines créatures ont été ajustées aux besoins de l'apprentissage, attention, dans le vrai monde les trolls ne sont pas aussi gentils!
 
-If you need a reminder of which key does what, you can access the game menu by pressing #GOLD#Escape#WHITE# and checking the key binds (you can also adjust them to your needs).
+Si vous avez besoin d'un rappel pour savoir quelle touche fait quoi, vous pouvez acceder au menu du jeu en appuyant sur #GOLD#Esc#WHITE# et en vérifiant les raccourcis (vous pouvez aussi les ajuster à vos besoins).
 
-As this is probably your first time with the game you will find there is a limited number of races and classes available to play, many many more do exist but you will unlock them while playing.
+Comme c'est probablement votre première fois avec le jeu vous allez trouver qu'il y a un nombre limité de race et de classe à jouer disponibles, il en existe bien plus mais vous les débloquerez en jouant.
 
-Now go boldly and remember: #GOLD#Have fun!#WHITE#
-Press Escape, save & exit and create a new character!
+Maintenant allez-y audacieusement et rappelez vous: #GOLD#Prenez du bon temps!#WHITE#
+Appuyez sur Esc, Menu principal, Sauvegardez puis créez un nouveau personnage!
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/levelup.lua"
 
 
--- untranslated text
---[==[
 t([[In ToME4 a character's power depends on her/his level: players can get up to level 50.
 
 Each level brings more life and resources (like stamina, mana, etc.) and different kinds of points that can improve your character:
@@ -32799,29 +32782,26 @@ Levels are gained when experience reaches 100%. You gain experience from killing
 To open the character levelup screen either press 'p' or right-click on yourself and choose 'Levelup'.
 
 Now open the levelup screen and assign your points.
-]], [[In ToME4 a character's power depends on her/his level: players can get up to level 50.
+]], [[Dans Tales of Maj'Eyal la puissance d'un personnage dépend de son niveau: les joueurs peuvent monter jusqu'au niveau 50.
 
-Each level brings more life and resources (like stamina, mana, etc.) and different kinds of points that can improve your character:
-* #GOLD#Stat points#WHITE#: They allow you to raise the six main stats: Strength, Dexterity, Magic, Willpower, Cunning and Constitution. You get 3 points per level.
-* #GOLD#Class talent points#WHITE#: Class talents define the core functions of your class. You gain 1 point every level, plus 1 extra point on multiples of 5.
-* #GOLD#Generic talent points#WHITE#: Generic talents provide utility and/or more power, but are not always specific to your class. You gain 1 point on levels that aren't multiples of 5.
-* #GOLD#Category talent points#WHITE#: They allow you to improve your mastery of a talent category (increasing the power of all talents inside) or to learn a new talent category.
+Chaque niveau apporte plus de vie et de ressources (comme l'endurance, la mana, etc) et différents types de points qui peuvent améliorer votre personnage:
+* #GOLD#Les points de stat#WHITE#: Ils vous permettent d'augmenter les six principales statistiques: Force, Dextérité, Magie, Volonté, Ruse et Constitution. Vous gagnez 3 points par niveau.
+* #GOLD#Les points de talent de classe#WHITE#: Les talents de classe définissent les fonctions principales de votre classe. Vous gagnez 1 point par niveau, plus 1 point supplémentaire à tous les niveaux multiples de 5.
+* #GOLD#Les points de talent générique#WHITE#: Les talents génériques fournissent des utilitaires et/ou plus de puissance, mais ne sont pas toujours spécifiques à votre classe. Vous gagnez 1 point à tous les niveaux qui ne sont pas multiples de 5.
+* #GOLD#Les points de catégorie de talent#WHITE#: Ils vous permettent d'améliorer la maîtrise d'une catégorie de talent (augmentant tous les talents associés) ou d'apprendre une nouvelle catégorie de talent.
 
-Levels are gained when experience reaches 100%. You gain experience from killing a hostile creature whose level is similar to yours.
+Les niveaux sont gagnés lorsque votre expérience atteint 100%. Vous gagnez de l'expérience en tuant une créature hostile dont le niveau est similaire au votre.
 
-To open the character levelup screen either press 'p' or right-click on yourself and choose 'Levelup'.
+Pour ouvir l'écran de montée de niveau d'un personnage vous pouvez soit appuyer sur "P" soit cliquer-droit sur vous-même et choisir "Niveau supérieur!".
 
-Now open the levelup screen and assign your points.
+Maintenant ouvrez l'écran de montée de niveau et assignez vos points.
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/melee.lua"
 
 
--- untranslated text
---[==[
 t([[Melee attacks work like movement. Just move in your foe's direction, or click it, to attack it.
 If it is not hostile you will talk to it, or switch places with it.
 
@@ -32837,31 +32817,28 @@ Press 'C' or right-click your character and choose 'Inspect Creature' to open th
 
 You have spotted some hostile jellies guarding an item.
 Attack them!
-]], [[Melee attacks work like movement. Just move in your foe's direction, or click it, to attack it.
-If it is not hostile you will talk to it, or switch places with it.
+]], [[Les attaques de mélée fonctionnent comme pour les mouvements. Il suffit de se déplacer dans la direction de l'ennemi, ou de lui cliquer dessus, pour l'attaquer.
+Si il n'est pas hostile vous lui parlerez ou vous échangerez de place avec lui.
 
-Melee combat mainly uses five stats:
-* #GOLD#Accuracy#WHITE#: Your chance to hit.
-* #GOLD#Damage#WHITE#: How much damage you do per blow.
-* #GOLD#Defense#WHITE#: Your chance to avoid attacks.
-* #GOLD#Armour#WHITE#: Flat reduction to damage done.
-* #GOLD#Armour Penetration#WHITE#: How much of the target's armour you can ignore.
+Le combat de melée utilise principalement cinq stats:
+* #GOLD#Précision#WHITE#: Vos chance de toucher.
+* #GOLD#Dommage#WHITE#: Combien de dommage vous infligez par coup.
+* #GOLD#Défense#WHITE#: Vos chances d'éviter les attaques.
+* #GOLD#Armure#WHITE#: Une réduction fixe des dommages reçus.
+* #GOLD#Pénétration d'armure#WHITE#: En quelle mesure vous pouvez ignorer l'armure de la cible.
 
-You can view those stats, and many others, in the character sheet.
-Press 'C' or right-click your character and choose 'Inspect Creature' to open the character sheet.
+Vous pouvez voir ces stats, et beaucoup d'autres, dans la fiche de personnage.
+Appuyez sur "C" ou cliquez-droit sur votre personnage et choisissez "Inspecter la créature" pour ouvrir la fiche de personnage.
 
-You have spotted some hostile jellies guarding an item.
-Attack them!
+Vous avez identifié quelques slimes hostiles gardant un objet.
+Attaquez les!
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/move.lua"
 
 
--- untranslated text
---[==[
 t([[Movement is simple. You can use the keyboard, the mouse, or both.
 
 #GOLD#Keyboard:#WHITE#
@@ -32880,34 +32857,31 @@ t([[Movement is simple. You can use the keyboard, the mouse, or both.
 You can scroll the map by pressing shift and click+dragging with your mouse, or pressing "L" and using shift+the movement keys.
 
 Now close this dialog and go west (left) until you arrive in a bigger area.
-]], [[Movement is simple. You can use the keyboard, the mouse, or both.
+]], [[Il est simple de se déplacer. Vous pouvez utiliser le clavier, la souris, ou les deux.
 
-#GOLD#Keyboard:#WHITE#
-- Press the arrow keys or keypad to move in the given direction.
-- Press shift + the arrow keys or keypad to run in the given direction.
-- Press 5 on the keypad to stay put for a turn (doing nothing).
-- Press z to "auto explore" until you find something dangerous or interesting.
+#GOLD#Clavier:#WHITE#
+- Appuyez sur les touches flèche ou le pavé numérique pour vous déplacer dans la direction associée.
+- Appuyez sur shift + les touches flèche ou le pavé numérique pour courir dans la direction associée.
+- Appuyez sur "5" sur le pavé numérique pour vous reposer durant un tour (ne rien faire).
+- Appuyez sur "W" pour "auto explorer" jusqu'à ce que vous trouviez quelque chose de dangereux ou d'intéressant.
 
-#GOLD#Mouse:#WHITE#
-- Click on a spot on the map to move there.
-- If there are no monsters and the way is known you will run there.
-- If there are unknown or interesting grids along the way you may stop.
-- If there is a hostile creature in sight you will only move one grid per click, to prevent stupid deaths.
-- Clicking on yourself will make you stay put for a turn (doing nothing).
+#GOLD#Souris:#WHITE#
+- Cliquer sur une case de la carte pour vous déplacer dessus.
+- Si il n'y a pas de monstres et que le chemin est connu vous allez courir là-bas.
+- Si il y a des cases inconnues ou intéressantes sur le chemin vous pouvez être interrompu.
+- Si il y a une créature hostile en vue vous bougerez seulement de une case par clic, pour prévenir les morts stupides.
+- Cliquez sur vous-même va vous faire vous reposer durant un tour (ne rien faire).
 
-You can scroll the map by pressing shift and click+dragging with your mouse, or pressing "L" and using shift+the movement keys.
+Vous pouvez faire défiler la carte en pressant shift et en faisant glisser la souris de façon maintenue, ou appuyer sur "L" et utiliser shift+les touches de mouvement. 
 
-Now close this dialog and go west (left) until you arrive in a bigger area.
+Maintenant fermez ce dialogue et partez à l'ouest (gauche) jusqu'à arriver dans un espace plus ouvert.
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/objects.lua"
 
 
--- untranslated text
---[==[
 t([[During your adventures you will find items.
 Each item has a weight. How much you can carry depends on your Strength: this is your maximum encumbrance.
 To pickup an item, press 'g' or right click on yourself and choose 'Pickup item' while standing over it.
@@ -32921,29 +32895,26 @@ Infusions come from the powers of nature while runes use magic and have unlimite
 This infusion inscribes you with the power to regenerate your life at will. You can only have a finite number of inscriptions, but they can easily be replaced.
 
 Now move on to the west.
-]], [[During your adventures you will find items.
-Each item has a weight. How much you can carry depends on your Strength: this is your maximum encumbrance.
-To pickup an item, press 'g' or right click on yourself and choose 'Pickup item' while standing over it.
-To view your inventory, press 'i' or right-click on yourself and choose 'Inventory'.
+]], [[Durant vos aventures vous trouverez des objets.
+Chaque objet a un poids. Votre Force détermine combien vous pouvez porter: c'est l'encombrement maximum.
+Pour prendre un objet, appuyez sur "G" ou cliquez-droit sur vous-même et sélectionnez "Ramasser un objet" tout en étant sur lui.
+Pour voir votre inventaire, appuyez sur "I" ou cliquez-droit sur vous-même et sélectionnez "Inventaire".
 
-Your inventory is split in two panels: your equipped items and your backpack.
-To select an item, use the movement keys and press enter, click it with the mouse, or press the key next to its name.
+Votre inventaire est partagé en deux panneaux: vos objets équippés et votre sac à dos.
+Pour sélectionner un objet, utilisez les touches de mouvement et appuyez sur "Entrée" ou cliquez lui dessus avec la souris.
 
-The item you've found is an infusion. Infusions and runes allow you to bind a power to your body, gaining new abilities.
-Infusions come from the powers of nature while runes use magic and have unlimited uses once inscribed.
-This infusion inscribes you with the power to regenerate your life at will. You can only have a finite number of inscriptions, but they can easily be replaced.
+L'objet que vous avez trouvé est une infusion. Les infusions et les runes vous permettent de lier un pouvoir à votre corps, vous attribuant de nouvelles compétences.
+Les infusions proviennent des pouvoirs de la nature alors que les runes utilisent la magie. Elles ont un nombre d'utilisation illimitées une fois qu'elles sont inscrites.
+Cette infusion vous octroie le pouvoir de régénérer votre vie à volonté. Vous pouvez seulement avoir un nombre déterminé d'inscriptions, mais elles peuvent facilement être remplacées.
 
-Now move on to the west.
+Maintenant continuez vers l'ouest.
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/quests.lua"
 
 
--- untranslated text
---[==[
 t([[During your adventures you will find quests.
 A quest can come from performing an action, finding an item, speaking to somebody, and more.
 
@@ -32953,25 +32924,22 @@ Once a quest is finished or failed it will disappear from the quest log. Most qu
 
 When this tutorial started you were tasked to kill the Lone Wolf, you are nearing its position.
 #GOLD#Beware and fight with honour!#WHITE#
-]], [[During your adventures you will find quests.
-A quest can come from performing an action, finding an item, speaking to somebody, and more.
+]], [[Durant vos aventures vous trouverez des quêtes.
+Une quête peut se déclencher en accomplissant une action, en trouvant un objet, en parlant à quelqu'un, et plus.
 
-You can view your current quests by pressing 'j' or right-clicking yourself.
+Vous pouvez voir vos quêtes actuelles en appuyant sur "J" ou en cliquant-droit sur vous-même.
 
-Once a quest is finished or failed it will disappear from the quest log. Most quests in ToME are optional, if you don't think you can survive one, don't do it.
+La plupart des quêtes de Tales of Maj'Eyal sont optionnelles, si vous pensez ne pas survivre à l'une d'elle, ne la faite pas.
 
-When this tutorial started you were tasked to kill the Lone Wolf, you are nearing its position.
-#GOLD#Beware and fight with honour!#WHITE#
+Quand ce tutoriel a débuté on vous a confié la tâche de tuer le Loup Solitaire, vous vous approchez de sa position.
+#GOLD#Faites attention et combattez avec honneur!#WHITE#
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/ranged.lua"
 
 
--- untranslated text
---[==[
 t([[Ranged combat typically revolves around firing arrows, slinging stones, or casting spells.
 You have been given a bow, which you wield with both hands.
 Arrows are infinite but need reloading from time to time, by waiting, resting or walking around. You can add special arrows to your quiver for extra damage and/or effects.
@@ -32983,19 +32951,18 @@ To equip your bow and arrows:
 * Select your bow and arrows, wield them.
 
 There are trolls to the west. Go use your bow and arrows to kill them!
-]], [[Ranged combat typically revolves around firing arrows, slinging stones, or casting spells.
-You have been given a bow, which you wield with both hands.
-Arrows are infinite but need reloading from time to time, by waiting, resting or walking around. You can add special arrows to your quiver for extra damage and/or effects.
-To fire an arrow, use the Shoot talent. The target interface will pop-up, just like for other talents.
+]], [[Le combat à distance consiste typiquement à tirer des flèches, lancer des pierres, ou lancer des sorts.
+On vous a donné un arc, que vous maniez à deux mains.
+Les flèches sont infinies mais nécessitent d'être rechargées de temps à autre, en attendant, se reposant ou en marchant. Vous pouvez ajouter des flèches spéciales à votre carquois pour ajouter des dommages et/ou des effets.
+Pour lancer une flèche, utilisez le talent Tirer. L'interface de ciblage va apparaitre, comme pour les autres talents.
 
-To equip your bow and arrows:
-* Open your inventory.
-* Click on the Off Set button to switch weapons.
-* Select your bow and arrows, wield them.
+Pour équiper votre arc et vos flèches:
+* Ouvrez votre inventaire.
+* Cliquez sur le bouton d'ensemble secondaire pour changer les armes.
+* Selectionnez votre arc et vos flèches, équipez les.
 
-There are trolls to the west. Go use your bow and arrows to kill them!
+Il y a des trolls à l'ouest. Allez utiliser votre arc et vos flèches pour les tuer!
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
@@ -34128,8 +34095,6 @@ t([[Descend to the final level of the #GOLD#Dungeon of Adventurer Enlightenment#
 section "mod-tome/data/texts/tutorial/tactics1.lua"
 
 
--- untranslated text
---[==[
 t([[You have found a nest of snakes! If you let them surround you, you might be in trouble!
 A basic tactic is to never get surrounded, do not hesitate to backtrack a bit to a safer spot.
 
@@ -34140,48 +34105,42 @@ Either press 'R' or right-click on yourself to rest. You will rest until fully r
 
 Now take a few steps back so you only have to fight one snake at a time, and you should survive.
 Remember to use your talents, infusions and runes to win the fight.
-]], [[You have found a nest of snakes! If you let them surround you, you might be in trouble!
-A basic tactic is to never get surrounded, do not hesitate to backtrack a bit to a safer spot.
+]], [[Vous avez trouvé un nid de serpents! Si vous les laissez vous encercler, vous pourriez avoir des problèmes!
+Une tactique basique consiste à ne jamais être encerclé, n'hésitez jamais à reculer un peu sur un placement plus sûr.
 
-#GOLD#Always control the fight.#WHITE#
+#GOLD#Contrôlez toujours le combat.#WHITE#
 
-After the combat you will probably be low on health, you can rest for a while to regain lost health and resources.
-Either press 'R' or right-click on yourself to rest. You will rest until fully restored or until a creature disturbs you.
+Après le combat vous serez probablement bas en vie, vous pouvez vous reposer un peu pour regagner de la vie et des ressources.
+Vous pouvez soit appuyer sur "R" soit cliquer-droit sur vous-même pour vous reposer. Vous vous reposerez jusqu'à être totalement régénéré ou si une créature hostile vous dérange.
 
-Now take a few steps back so you only have to fight one snake at a time, and you should survive.
-Remember to use your talents, infusions and runes to win the fight.
+Maintenant faites quelques pas de recul pour n'avoir à combattre qu'un serpent à la fois, et vous devriez survivre.
+Rappelez vous d'utiliser vos talents, les infusions et les runes pour gagner le combat.
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/tactics2.lua"
 
 
--- untranslated text
---[==[
 t([[A skeleton mage just fired a spell at you.
 While the fireworks look nice, you don't want to get hit too much.
 When under the fire of archers or spell casters always try to break line of sight with them, they will be forced to come to you (unless they are smart).
 #GOLD#Take cover: Never let them get a clean shot!#WHITE#
 
 Now take cover and wait for the skeleton.
-]], [[A skeleton mage just fired a spell at you.
-While the fireworks look nice, you don't want to get hit too much.
-When under the fire of archers or spell casters always try to break line of sight with them, they will be forced to come to you (unless they are smart).
-#GOLD#Take cover: Never let them get a clean shot!#WHITE#
+]], [[Un mage squelette viens juste de vous lancer un sort.
+Bien que l'effet pyrotechnique ait l'air beau, vous ne voudrez pas être touché trop souvent.
+Quand vous êtes sous le feu d'archers ou de lanceurs de sorts tentez toujours de briser leur ligne de vue, ils seront forcés de venir à vous (à moins d'être intelligent).
+#GOLD#Mettez-vous à couvert: Ne les laissez jamais agir librement!#WHITE#
 
-Now take cover and wait for the skeleton.
+Maintenant mettez-vous à couvert et attendez le squelette.
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/talents.lua"
 
 
--- untranslated text
---[==[
 t([[You now possess the Shield Pummel and Shield Wall talents.
 Talents show up in the lower left part of the screen with their assigned hotkey.
 You can right-click on a talent to remove it from the list, or you can add talents by pressing 'M' to get the talents list and then pressing a hotkey.
@@ -34202,36 +34161,33 @@ Now go forward and try using your talents:
 * #GOLD#Shield Pummel#WHITE#: This talent will attack the target trying to stun it, rendering much slower and less able to harm you for a few turns.
 * #GOLD#Shield Wall#WHITE#: This talent will increase your defense and armour but reduce your damage.
 * #GOLD#Block#WHITE#: This talent is given by your shield, letting you block the next blow and triggering a deadly counterstrike opportunity.
-]], [[You now possess the Shield Pummel and Shield Wall talents.
-Talents show up in the lower left part of the screen with their assigned hotkey.
-You can right-click on a talent to remove it from the list, or you can add talents by pressing 'M' to get the talents list and then pressing a hotkey.
-Hotkeys by default are the 1 to 0 keys, and can also be assigned to items.
+]], [[Vous possedez maintenant les talents Frappe de bouclier et Mur de bouclier.
+Les talents s'affichent en bas à gauche de votre écran avec leurs raccourcis assignés.
+Vous pouvez clic-droit sur un talent pour l'enlever de la liste, ou vous pouvez appuyer sur "M" pour afficher la liste des talents et y associer des raccourcis.
+Les raccourcis par défaut sont les touches 1 à 0, et ils peuvent aussi être assignés aux objets.
 
-You can use a talent by pressing its hotkey, selecting it from the talents list, clicking on it in the lower right corner, or right-clicking on the map.
+Vous pouvez utiliser un talent en appuyant sur son raccourci, en le sélectionant dans la liste des talents, en cliquant dessus dans le coin en bas à gauche, ou en cliquant-droit sur la carte.
 
-Talents come in three types:
-* #GOLD#Active#WHITE#: A talent that is activated when you use it and has an instantaneous effect.
-* #GOLD#Sustained#WHITE#: A talent that must be turned on and lasts until it is turned off. Usually this will reduce your maximum resource available (stamina in this case).
-* #GOLD#Passive#WHITE#: A talent that provides an ever-present benefit.
+Les talents sont de trois types:
+* #GOLD#Actif#WHITE#: Un talent qui est activé quand vous l'utilisez et qui a un effet instantané.
+* #GOLD#Soutenu#WHITE#: Un talent qui doit être activé et qui dure jusqu'à ce qu'il soit désactivé. Habituellement cela va reduire le maximum des ressources disponibles (l'endurance dans ce cas).
+* #GOLD#Passif#WHITE#: Un talent qui fournit un bénéfice toujours présent.
 
-Some talents require a target, when you use them the interface will change to let you select the target:
-* #GOLD#Using the keyboard#WHITE#: Pressing a direction key will shift between possible targets. Pressing shift+direction will move freely to any spot. Enter or space will confirm the target.
-* #GOLD#Using the mouse#WHITE#: Moving your mouse will move the target around. Left-click will confirm it.
+Certains talents requièrent une cible, quand vous les utiliserez l'interface changera pour vous permettre de la sélectionner:
+* #GOLD#En utilisant le clavier#WHITE#: Appuyer sur une touche directionnelle naviguera entre les cibles possibles. Appuyer sur shift+une touche directionnelle sélectionnera librement toutes les cases. Entrée ou Espace confirmera la cible.
+* #GOLD#En utilisant la souris#WHITE#: Bouger votre souris déplacera la cible. Un clic-gauche la confirmera.
 
-Now go forward and try using your talents:
-* #GOLD#Shield Pummel#WHITE#: This talent will attack the target trying to stun it, rendering much slower and less able to harm you for a few turns.
-* #GOLD#Shield Wall#WHITE#: This talent will increase your defense and armour but reduce your damage.
-* #GOLD#Block#WHITE#: This talent is given by your shield, letting you block the next blow and triggering a deadly counterstrike opportunity.
+Maintenant allez plus loin et essayez vos talents:
+* #GOLD#Frappe de bouclier#WHITE#: Ce talent actif va attaquer la cible en essayant de l'étourdir, la rendant plus lente et moins apte à vous blesser pour quelques tours.
+* #GOLD#Mur de bouclier#WHITE#: Ce talent soutenu va augmenter votre valeur de blocage et votre armure.
+* #GOLD#Blocage#WHITE#: Ce talent actif est donné par votre bouclier, vous permettant de bloquer le prochain coup et déclencher une opportunité de contre-attaque mortelle.
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/terrain.lua"
 
 
--- untranslated text
---[==[
 t([[During your adventures you will encounter a variety of terrains you can pass on: grass, sand, water, lava, ...
 
 Some of those terrains have innate penalties or tricks. You will have to learn them and how to deal with them.
@@ -34239,15 +34195,14 @@ Some of those terrains have innate penalties or tricks. You will have to learn t
 You are about to enter a pond of water; you will not be able to breath inside. When you are in an area where you cannot breathe, an "Air" counter will appear on the left side of the screen. Do not let it reach zero or you will die.
 
 Now go to the other side of the pond.
-]], [[During your adventures you will encounter a variety of terrains you can pass on: grass, sand, water, lava, ...
+]], [[Pendant vos aventures vous allez trouver une grande variété de terrains sur lesquels vous pouvez passer: herbe, sable, eau, lave, ...
 
-Some of those terrains have innate penalties or tricks. You will have to learn them and how to deal with them.
+Certains de ces terrains entrainent des pénalités ou des malus. Vous devrez les reconnaître afin de savoir comment les gérer.
 
-You are about to enter a pond of water; you will not be able to breath inside. When you are in an area where you cannot breathe, an "Air" counter will appear on the left side of the screen. Do not let it reach zero or you will die.
+Vous êtes sur le point d'aborder une étendue d'eau; vous n'êtes pas capable de respirer dedans. Quand vous êtes sur une case où vous ne pouvez pas respirer, une jauge "Air" va apparaitre sur le coté gauche de l'écran. Ne la laissez pas descendre à zéro ou vous mourrez.
 
-Now go to the other side of the pond.
+Maintenant allez de l'autre coté de l'étendue d'eau.
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
@@ -42777,6 +42732,7 @@ t("Trollmire", "Trollmire", "_t")
 section "mod-tome/data/zones/tutorial/npcs.lua"
 
 t("skeleton mage", "mage squelette", "entity name")
+t("Tutorial: Finish", "Tutoriel: Terminé", "_t")
 -- untranslated text
 --[==[
 t("half-dead forest troll", "half-dead forest troll", "entity name")
@@ -42785,7 +42741,6 @@ He looks hurt.]], [[Green-skinned and ugly, this massive humanoid glares at you,
 He looks hurt.]], "_t")
 t("Lone Wolf", "Lone Wolf", "entity name")
 t("It is a large wolf with eyes full of cunning, only 3 times bigger than a normal wolf. It looks hungry. You look tasty!", "It is a large wolf with eyes full of cunning, only 3 times bigger than a normal wolf. It looks hungry. You look tasty!", "_t")
-t("Tutorial: Finish", "Tutorial: Finish", "_t")
 --]==]
 
 
@@ -42793,24 +42748,21 @@ t("Tutorial: Finish", "Tutorial: Finish", "_t")
 section "mod-tome/data/zones/tutorial/traps.lua"
 
 
--- untranslated text
---[==[
-t("tutorial", "tutorial", "entity type")
-t("tutorial", "tutorial", "entity subtype")
-t("tutorial", "tutorial", "_t")
-t("A tutorial", "A tutorial", "_t")
-t("Tutorial: %s", "Tutorial: %s", "tformat")
-t("Movement", "Movement", "entity name")
-t("Melee Combat", "Melee Combat", "entity name")
-t("Objects", "Objects", "entity name")
+t("tutorial", "tutoriel", "entity type")
+t("tutorial", "tutoriel", "entity subtype")
+t("tutorial", "tutoriel", "_t")
+t("A tutorial", "Un tutoriel", "_t")
+t("Tutorial: %s", "Tutoriel: %s", "tformat")
+t("Movement", "Mouvement", "entity name")
+t("Melee Combat", "Combat de mélée", "entity name")
+t("Objects", "Objets", "entity name")
 t("Talents", "Talents", "entity name")
-t("Experience and Levels", "Experience and Levels", "entity name")
-t("Different terrains", "Different terrains", "entity name")
-t("Basic tactic: Do not get surrounded", "Basic tactic: Do not get surrounded", "entity name")
-t("Basic tactic: Take cover", "Basic tactic: Take cover", "entity name")
-t("Ranged Combat", "Ranged Combat", "entity name")
-t("Quests", "Quests", "entity name")
---]==]
+t("Experience and Levels", "Expérience et Niveaux", "entity name")
+t("Different terrains", "Les différents terrains", "entity name")
+t("Basic tactic: Do not get surrounded", "Tactique basique: Ne pas se laisser encercler", "entity name")
+t("Basic tactic: Take cover", "Tactique basique: Se mettre à couvert", "entity name")
+t("Ranged Combat", "Combat à distance", "entity name")
+t("Quests", "Quêtes", "entity name")
 
 
 ------------------------------------------------
@@ -43782,18 +43734,18 @@ t("mental", "mentale", "_t")
 t("spell", "sort", "_t")
 t("physical", "physique", "_t")
 t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense:", "_t")
-t("improved %s by +%d", "amélioré %s par +%d", "tformat")
-t("[Improve %s by +%d]", "[Améliore %s par +%d]", "tformat")
-t("improved %s save by +%d", "amélioré sauvegarde %s par +%d", "tformat")
-t("[Improve %s save by +%d]", "[Améliore sauvegarde %s par +%d]", "tformat")
-t("%s talent %s (+%d level(s))", "%s le talent %s (+%d niveau(s))", "tformat")
+t("improved %s by +%d", "amélioré la %s de +%d", "tformat")
+t("[Improve %s by +%d]", "[Améliorer la %s de +%d]", "tformat")
+t("improved %s save by +%d", "amélioré la sauvegarde %s de +%d", "tformat")
+t("[Improve %s save by +%d]", "[Améliorer la sauvegarde %s de +%d]", "tformat")
+t("%s talent %s (+%d level(s))", "%s le talent %s (+%d niveau(x))", "tformat")
 t("improved", "amélioré", "_t")
 t("learnt", "appris", "_t")
-t("[%s talent %s (+%d level(s))]", "[%s le talent %s (+%d niveau(s))]", "tformat")
-t("Improve", "Améliore", "_t")
+t("[%s talent %s (+%d level(s))]", "[%s le talent %s (+%d niveau(x))]", "tformat")
+t("Improve", "Améliorer", "_t")
 t("Learn", "Apprendre", "_t")
-t("gained talent category %s (at mastery %0.2f)", "catégorie de talent gagné %s (à la maîtrise %0.2f)", "tformat")
-t("[Allow training of talent category %s (at mastery %0.2f)]", "[Autoriser l'apprentissage de la catégorie de talents %s (à la maîtrise %0.2f)]", "tformat")
+t("gained talent category %s (at mastery %0.2f)", "a gagné la catégorie de talent %s (au niveau %0.2f de maîtrise)", "tformat")
+t("[Allow training of talent category %s (at mastery %0.2f)]", "[Autoriser l'apprentissage de la catégorie de talents %s (au niveau %0.2f de maîtrise)]", "tformat")
 -- untranslated text
 --[==[
 t([[#GOLD#%s#LAST#
@@ -44457,7 +44409,7 @@ t("Action radius: %d", "Action radius: %d", "tformat")
 section "mod-tome/mod/class/Player.lua"
 
 t("There is an item here: %s", "Il y a un objet ici: %s", "logSeen")
-t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#Il y a %s ici (pressez '<', '>' ou clique droit pour l'utiliser).", "logPlayer")
+t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#Il y a %s ici (appuyez sur '<', '>' ou cliquez-droit pour l'utiliser).", "logPlayer")
 t("Level change (%s)!", "Changement de niveau (%s)!", "tformat")
 t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- Vous êtes encombré!", "logPlayer")
 t("#FF0000#Drop some of your items.", "#FF0000#Abandonnez quelques objets.", "logPlayer")
@@ -44472,19 +44424,19 @@ t("chat started", "tchat ouvert", "_t")
 t("%s available", "%s disponible", "tformat")
 t("#00ff00#%sTalent %s is ready to use.", "#00ff00#%sTalent %s est prêt a être utilisé.", "log")
 t("Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", "Utilisation automatique du talent %s #DARK_RED#ignoré#LAST#: rechargement en cours (%d).", "logPlayer")
-t("dialog is displayed", "Le dialogue est affiché", "_t")
+t("dialog is displayed", "le dialogue est affiché", "_t")
 t("hostile spotted to the %s (%s%s)", "ennemi détecté %s (%s%s)", "tformat")
 t(" - offscreen", " - en dehors de l'écran", "_t")
 t("losing breath!", "perte de souffle!", "_t")
 t("losing health!", "perte de vie!", "_t")
-t("all resources and life at maximum", "Toutes les ressources et la vie sont au maximum", "_t")
+t("all resources and life at maximum", "toutes les ressources et la vie sont au maximum", "_t")
 t("talent prevented", "talent empêché", "_t")
 t("object seen", "objet vu", "_t")
 t("something interesting", "quelque chose d'intéressant", "_t")
 t("at %s", "à %s", "tformat")
 t("interesting terrain", "terrain intéressant", "_t")
-t("store entrance spotted", "entrée de boutique détecté", "_t")
-t("interesting character", "personnage interessant", "_t")
+t("store entrance spotted", "entrée de boutique détectée", "_t")
+t("interesting character", "personnage intéressant", "_t")
 t("You cannot do that on the world map.", "Vous ne pouvez pas faire cela sur la carte du monde.", "logPlayer")
 t("Item not found", "Objet non trouvé", "_t")
 t("You do not have any %s.", "Tu n'as pas de %s.", "tformat")
@@ -44493,26 +44445,26 @@ t("You cannot pick up items from the floor while asleep!", "Vous ne pouvez pas r
 t("Drop object", "Objet jeté", "_t")
 t("Wield/wear object", "Manier/porter un objet", "_t")
 t("Take off object", "Enlever un objet", "_t")
-t("Your antimagic disrupts %s.", "Votre anti-magie déchire %s.", "logPlayer")
+t("Your antimagic disrupts %s.", "Votre anti-magie perturbe %s.", "logPlayer")
 t("You have no more %s.", "Vous n'avez plus %s.", "log")
 t("You have %s.", "Vous avez %s.", "log")
 t("You cannot use items on the world map.", "Vous ne pouvez pas utiliser d'objet sur la carte de monde.", "logPlayer")
 t("Use object", "Utiliser un objet", "_t")
 t("You can not use the Orb with foes watching (#Target# to the %s%s)", "Vous ne pouvez pas utiliser l'Orbe avec des ennemis vous regardant (#Cible# %s%s)", "logCombat")
 t("This does not seem to have any effect.", "Ceci n'a aucun effet.", "logPlayer")
-t("You use the %s on the pedestal. There is a distant 'clonk' sound.", "Vous utiliser %s sur le piédestal. Vous entendez un distant 'clonk' au loin.", "logPlayer")
+t("You use the %s on the pedestal. There is a distant 'clonk' sound.", "Vous utiliser %s sur le piédestal. Vous entendez un distant \"clonk\" au loin.", "logPlayer")
 t("#LIGHT_RED#%s briefly catches sight of you!", "#LIGHT_RED#%s vous aperçoit brièvement!", "logPlayer")
 t("#LIGHT_RED#You sense that Something has taken notice of you ...", "#LIGHT_RED#Vous sentez que quelque chose vous a remarqué ...", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée '%s'! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête accepté '%s'!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' mise à jour! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête '%s' mise à jour!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est terminé! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête '%s' terminé!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est finie! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête '%s' finie!", "saySimple")
-t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête '%s' a échoué! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête '%s' a échoué!", "saySimple")
+t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée \"%s\"! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête acceptée \"%s\"!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" mise à jour! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête \"%s\" mise à jour!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est terminée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête \"%s\" terminée!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est finie! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête \"%s\" finie!", "saySimple")
+t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête \"%s\" a échouée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête \"%s\" a échouée!", "saySimple")
 -- untranslated text
 --[==[
 t("", "", "log")
@@ -46692,10 +46644,10 @@ t("Crit. chance: ", "Chance de crit: ", "_t")
 t("Accuracy: ", "Précision: ", "_t")
 t("Spellpower: ", "Puissance des sorts: ", "_t")
 t("Defense: ", "Défense: ", "_t")
+t("Finish", "Terminé", "_t")
 -- untranslated text
 --[==[
 t("Levelup: %s, level %s", "Levelup: %s, level %s", "tformat")
-t("Finish", "Finish", "_t")
 t("Do you accept changes?", "Do you accept changes?", "_t")
 t("Impossible", "Impossible", "_t")
 t("You cannot learn this talent(s): ", "You cannot learn this talent(s): ", "_t")
@@ -46844,27 +46796,24 @@ section "mod-tome/mod/dialogs/MapMenu.lua"
 t("Show inventory", "Afficher l'inventaire", "_t")
 t("Auto-explore", "Explorer automatiquement", "_t")
 t("Inventory", "Inventaire", "_t")
--- untranslated text
---[==[
 t("Actions", "Actions", "_t")
-t("%s: Inventory", "%s: Inventory", "tformat")
-t("Change level", "Change level", "_t")
-t("Pickup item", "Pickup item", "_t")
-t("Move to", "Move to", "_t")
-t("Control", "Control", "_t")
-t("Give order", "Give order", "_t")
-t("Target player", "Target player", "_t")
-t("Lua inspect [Actor]", "Lua inspect [Actor]", "_t")
+t("%s: Inventory", "%s: Inventaire", "tformat")
+t("Change level", "Changer de niveau", "_t")
+t("Pickup item", "Ramasser un objet", "_t")
+t("Move to", "Bouger vers", "_t")
+t("Control", "Contrôle", "_t")
+t("Give order", "Donner un ordre", "_t")
+t("Target player", "Cible le joueur", "_t")
+t("Lua inspect [Actor]", "Lua inspect [Acteur]", "_t")
 t("Lua inspect [Terrain]", "Lua inspect [Terrain]", "_t")
-t("Lua inspect [Trap]", "Lua inspect [Trap]", "_t")
+t("Lua inspect [Trap]", "Lua inspect [Piège]", "_t")
 t("Lua inspect [Projectile]", "Lua inspect [Projectile]", "_t")
-t("Rest a while", "Rest a while", "_t")
-t("Quest Log", "Quest Log", "_t")
-t("Inspect Creature", "Inspect Creature", "_t")
+t("Rest a while", "Se reposer un peu", "_t")
+t("Quest Log", "Journal de quête", "_t")
+t("Inspect Creature", "Inspecter la créature", "_t")
 t(" ", " ", "_t")
-t("Link creature in chat", "Link creature in chat", "_t")
-t("Levelup!", "Levelup!", "_t")
---]==]
+t("Link creature in chat", "Linker la créature dans le chat", "_t")
+t("Levelup!", "Niveau supérieur!", "_t")
 
 
 ------------------------------------------------
@@ -46921,16 +46870,13 @@ t(" #YELLOW#[NO ROOM]#LAST#", " #YELLOW#[NO ROOM]#LAST#", "_t")
 section "mod-tome/mod/dialogs/QuestPopup.lua"
 
 
--- untranslated text
---[==[
-t("#LIGHT_GREEN#New#LAST# Quest!", "#LIGHT_GREEN#New#LAST# Quest!", "_t")
-t("Quest #AQUAMARINE#Updated!", "Quest #AQUAMARINE#Updated!", "_t")
-t("Quest #LIGHT_GREEN#Completed!", "Quest #LIGHT_GREEN#Completed!", "_t")
-t("Quest #LIGHT_GREEN#Done!", "Quest #LIGHT_GREEN#Done!", "_t")
-t("Quest #CIMSON#Failed!", "Quest #CIMSON#Failed!", "_t")
-t("#ANTIQUE_WHITE#Quest: #AQUAMARINE#%s", "#ANTIQUE_WHITE#Quest: #AQUAMARINE#%s", "tformat")
-t("#ANTIQUE_WHITE#(See your Journal for further details or click here)", "#ANTIQUE_WHITE#(See your Journal for further details or click here)", "_t")
---]==]
+t("#LIGHT_GREEN#New#LAST# Quest!", "#LIGHT_GREEN#Nouvelle#LAST# quête!", "_t")
+t("Quest #AQUAMARINE#Updated!", "Quête #AQUAMARINE#mise à jour!", "_t")
+t("Quest #LIGHT_GREEN#Completed!", "Quête #LIGHT_GREEN#terminée!", "_t")
+t("Quest #LIGHT_GREEN#Done!", "Quête #LIGHT_GREEN#réalisée!", "_t")
+t("Quest #CIMSON#Failed!", "Quête #CIMSON#échouée!", "_t")
+t("#ANTIQUE_WHITE#Quest: #AQUAMARINE#%s", "#ANTIQUE_WHITE#Quête: #AQUAMARINE#%s", "tformat")
+t("#ANTIQUE_WHITE#(See your Journal for further details or click here)", "#ANTIQUE_WHITE#(Regardez votre journal pour plus de détails ou cliquez ici)", "_t")
 
 
 ------------------------------------------------

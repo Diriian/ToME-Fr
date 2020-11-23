@@ -82,7 +82,7 @@ t("southeast", "au sud-est", "nil")
 t("southwest", "au sud-ouest", "nil")
 t("spell", "contre les sorts", "nil")
 t("standby", "en attente", "nil")
-t("starstaff", "bâton des etoiles", "nil")
+t("starstaff", "bâton des étoiles", "nil")
 t("steambot", "robot à vapeur", "nil")
 t("stone golem", "golem de pierre", "nil")
 t("summon", "invocation", "nil")
@@ -763,7 +763,7 @@ t("Enc.", "Enc", "_t")
 ------------------------------------------------
 section "engine/engine/dialogs/ShowQuests.lua"
 
-t("Quest Log for %s", "Journal de quête pour %s", "tformat")
+t("Quest Log for %s", "Journal de quête de %s", "tformat")
 t("Quest", "Quête", "_t")
 t("Status", "Statut", "_t")
 
