@@ -2630,13 +2630,13 @@ section "mod-tome/data/chats/escort-quest-start.lua"
 
 
 t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a Ziguranth technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
-Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique Ziguranthe pour saboter le portail. @npcname@ sera envoyé à Zigur pour être \"traité\" comme il se doit.]#WHITE#
+Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique Ziguranthe pour saboter le portail. @npcname@ sera envoyé à Zigur pour être "traité" comme il se doit.]#WHITE#
 Montrez-moi le chemin; Je vous protégerai.]], "_t")
 t("Escort", "Escorte", "_t")
 t("Go away; I do not help filthy arcane users!", "Dégagez; Je n'aide pas les sales utilisateurs des arcanes!", "_t")
 t("Lead on; I will protect you.", "Montrez-moi le chemin; Je vous protégerai.", "_t")
 t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
-Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique pour saboter le portail. @npcname@ sera envoyé à Zigur pour être \"traité\" comme il se doit.]#WHITE#
+Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique pour saboter le portail. @npcname@ sera envoyé à Zigur pour être "traité" comme il se doit.]#WHITE#
 Montrez-moi le chemin; Je vous protégerai.]], "_t")
 t("Go away; I do not care for the weak.", "Dégagez; Je n'ai que faire des faibles.", "_t")
 
@@ -46196,49 +46196,41 @@ t("Character dump complete", "Feuille de personage sauvegardé", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/CursedAuraSelect.lua"
 
-
--- untranslated text
---[==[
-t("Cursed Aura Selection", "Cursed Aura Selection", "_t")
-t("A malevolent aura begins to form around you. Choose your curse:", "A malevolent aura begins to form around you. Choose your curse:", "_t")
---]==]
-
+t("Cursed Aura Selection", "Sélection d'Aura Maudite", "_t")
+t("A malevolent aura begins to form around you. Choose your curse:", "Une aura malveillante commence à se former autour de vous. Choisissez votre malédiction:", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/DeathDialog.lua"
 
 t("Message Log", "Historique des messages", "_t")
--- untranslated text
---[==[
-t("You have #LIGHT_RED#died#LAST#!", "You have #LIGHT_RED#died#LAST#!", "_t")
+t("You have #LIGHT_RED#died#LAST#!", "Vous êtes #LIGHT_RED#mort#LAST#!", "_t")
 t([[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
 You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
-]], [[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
-You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
+]], [[La mort dans #{bold}#Tales of Maj'Eyal#{normal}# est généralement permanente, mais si vous avez un moyen de résurrection il vous sera proposé dans le menu ci-dessous.
+Vous pouvez copier vos données de personnage dans un fichier pour vous souvenir de lui pour toujours, ou vous pouvez quitter et essayer à nouveau de survivre dans la nature!
 ]], "_t")
 t([[#LIGHT_GREEN#During your game you#WHITE#:
-* %s]], [[#LIGHT_GREEN#During your game you#WHITE#:
+* %s]], [[#LIGHT_GREEN#Durant votre partie#WHITE#:
 * %s]], "tformat")
-t("#LIGHT_RED#You have %d life(s) left.", "#LIGHT_RED#You have %d life(s) left.", "tformat")
-t("#LIGHT_RED#You have no more lives left.", "#LIGHT_RED#You have no more lives left.", "tformat")
-t("#LIGHT_RED#From the brink of death you seem to be yanked to another plane.", "#LIGHT_RED#From the brink of death you seem to be yanked to another plane.", "log")
-t("#LIGHT_BLUE#You resurrect! CHEATER!", "#LIGHT_BLUE#You resurrect! CHEATER!", "logPlayer")
-t("#LIGHT_RED#The Blood of Life rushes through your dead body. You come back to life!", "#LIGHT_RED#The Blood of Life rushes through your dead body. You come back to life!", "logPlayer")
-t("#YELLOW#Your bones magically knit back together. You are once more able to dish out pain to your foes!", "#YELLOW#Your bones magically knit back together. You are once more able to dish out pain to your foes!", "logPlayer")
-t("#YELLOW#Your %s is consumed and disappears! You come back to life!", "#YELLOW#Your %s is consumed and disappears! You come back to life!", "logPlayer")
-t("You managed to die on the eidolon plane! DIE!", "You managed to die on the eidolon plane! DIE!", "logPlayer")
-t("Resurrect by cheating", "Resurrect by cheating", "_t")
-t("Resurrect with the Blood of Life", "Resurrect with the Blood of Life", "_t")
-t("Re-assemble your bones and resurrect (Skeleton ability)", "Re-assemble your bones and resurrect (Skeleton ability)", "_t")
-t("Resurrect by consuming %s", "Resurrect by consuming %s", "tformat")
-t("Resurrect with Adventurer Mode (%d life(s) left)", "Resurrect with Adventurer Mode (%d life(s) left)", "tformat")
-t("Resurrect with Exploration Mode", "Resurrect with Exploration Mode", "_t")
-t("Message/Chat log (allows to talk)", "Message/Chat log (allows to talk)", "_t")
-t("Character dump", "Character dump", "_t")
-t("Restart the same character", "Restart the same character", "_t")
-t("Restart with a new character", "Restart with a new character", "_t")
-t("Exit to main menu", "Exit to main menu", "_t")
---]==]
+t("#LIGHT_RED#You have %d life(s) left.", "#LIGHT_RED#Vous avez %d vie(s) restante(s).", "tformat")
+t("#LIGHT_RED#You have no more lives left.", "#LIGHT_RED#Vous n'avez plus de vies restante.", "tformat")
+t("#LIGHT_RED#From the brink of death you seem to be yanked to another plane.", "#LIGHT_RED#Du bord de la mort, vous semblez être tiré vers un autre plan.", "log")
+t("#LIGHT_BLUE#You resurrect! CHEATER!", "#LIGHT_BLUE#Vous revenez à la vie! TRICHEUR!", "logPlayer")
+t("#LIGHT_RED#The Blood of Life rushes through your dead body. You come back to life!", "#LIGHT_RED#Le Sang de Vie coule dans les veines de votre cadavre. Vous revenez à la vie!", "logPlayer")
+t("#YELLOW#Your bones magically knit back together. You are once more able to dish out pain to your foes!", "#YELLOW#Vos os se remettent en place comme par magie. Vous êtes à nouveau capable de faire souffrir vos ennemis !", "logPlayer")
+t("#YELLOW#Your %s is consumed and disappears! You come back to life!", "#YELLOW#Votre %s est consommé et disparaît! Vous revenez à la vie!", "logPlayer")
+t("You managed to die on the eidolon plane! DIE!", "Vous avez réussi à mourir dans le plan de l'eidolon! MOURREZ!", "logPlayer")
+t("Resurrect by cheating", "Ressusciter en trichant", "_t")
+t("Resurrect with the Blood of Life", "Ressusciter avec le Sang de Vie", "_t")
+t("Re-assemble your bones and resurrect (Skeleton ability)", "Réassemblez vos os et ressuscitez (capacité du Squelette)", "_t")
+t("Resurrect by consuming %s", "Ressusciter en consommant %s", "tformat")
+t("Resurrect with Adventurer Mode (%d life(s) left)", "Ressusciter avec le mode Aventure (%d vie(s) restante(s))", "tformat")
+t("Resurrect with Exploration Mode", "Ressuscitez avec le mode Exploration", "_t")
+t("Message/Chat log (allows to talk)", "Journal des messages/discussions (permet de parler)", "_t")
+t("Character dump", "Copier vos données de personnage", "_t")
+t("Restart the same character", "Recommencez le même personnage", "_t")
+t("Restart with a new character", "Recommencez avec un nouveau personnage", "_t")
+t("Exit to main menu", "Retour au menu principal", "_t")
 
 
 ------------------------------------------------
@@ -46246,38 +46238,35 @@ section "mod-tome/mod/dialogs/Donation.lua"
 
 t(" and ", " et ", "_t")
 t("Cancel", "Annuler", "_t")
--- untranslated text
---[==[
 t("Donations", "Donations", "_t")
-t("#GOLD#Character cosmetic customization and special tiles#WHITE#", "#GOLD#Character cosmetic customization and special tiles#WHITE#", "_t")
-t("#GOLD#Exploration mode (infinite lives)#WHITE#", "#GOLD#Exploration mode (infinite lives)#WHITE#", "_t")
-t("#GOLD#Item's appearance change (Shimmering)#WHITE#", "#GOLD#Item's appearance change (Shimmering)#WHITE#", "_t")
+t("#GOLD#Character cosmetic customization and special tiles#WHITE#", "#GOLD#Personnalisation cosmétique des personnages et apparences spéciales#WHITE#", "_t")
+t("#GOLD#Exploration mode (infinite lives)#WHITE#", "#GOLD#Mode exploration (vies infinies)#WHITE#", "_t")
+t("#GOLD#Item's appearance change (Shimmering)#WHITE#", "#GOLD#Changement d'apparence des objets (Chatoyance)#WHITE#", "_t")
 t([[Hi, I am Nicolas (DarkGod), the maker of this game.
 It is my dearest hope that you find my game enjoyable, and that you will continue to do so for many years to come!
 
 ToME is free and open-source and will stay that way, but that does not mean I can live without money, so I have come to disturb you here and now to ask for your kindness.
 If you feel that the (many) hours you have spent having fun were worth it, please consider making a donation for the future of the game.
 
-Donators are also granted a few special features: %s.]], [[Hi, I am Nicolas (DarkGod), the maker of this game.
-It is my dearest hope that you find my game enjoyable, and that you will continue to do so for many years to come!
+Donators are also granted a few special features: %s.]], [[Salut, je suis Nicolas (DarkGod), le créateur de ce jeu.
+J'espère sincèrement que vous trouverez mon jeu agréable et que vous continuerez à y jouer pendant encore de nombreuses années !
 
-ToME is free and open-source and will stay that way, but that does not mean I can live without money, so I have come to disturb you here and now to ask for your kindness.
-If you feel that the (many) hours you have spent having fun were worth it, please consider making a donation for the future of the game.
+ToME est gratuit et open-source et le restera, mais cela ne veut pas dire que je peux vivre sans argent, alors je suis venu vous déranger ici et maintenant pour vous prier de faire preuve de générosité.
+Si vous pensez que les (nombreuses) heures que vous avez passées à vous amuser en valaient la peine, veuillez envisager s'il vous plait de faire un don pour l'avenir du jeu.
 
-Donators are also granted a few special features: %s.]], "tformat")
+Les donateurs bénéficient également de quelques avantages particuliers: %s.]], "tformat")
 t([[Thank you for supporting ToME, your donation was greatly appreciated.
 If you want to continue supporting ToME you are welcome to make a new donation or even a reccuring one which helps ensure the future of the game.
-Thank you for your kindness!]], [[Thank you for supporting ToME, your donation was greatly appreciated.
-If you want to continue supporting ToME you are welcome to make a new donation or even a reccuring one which helps ensure the future of the game.
-Thank you for your kindness!]], "_t")
-t("Donation amount: ", "Donation amount: ", "_t")
-t("Monthly donation", "Monthly donation", "_t")
+Thank you for your kindness!]], [[Merci de soutenir ToME, votre don a été très apprécié.
+Si vous souhaitez continuer à soutenir ToME, vous pouvez faire un nouveau don ou même un don récurrent qui contribuera à assurer l'avenir du jeu.
+Merci pour votre gentillesse !]], "_t")
+t("Donation amount: ", "Montant du don: ", "_t")
+t("Monthly donation", "Don mensuel", "_t")
 t("euro", "euro", "_t")
-t("You can also make a pledge on Patreon if you prefer.", "You can also make a pledge on Patreon if you prefer.", "_t")
-t("Thank you", "Thank you", "_t")
-t("Thank you, a paypal page should now open in your browser.", "Thank you, a paypal page should now open in your browser.", "_t")
-t("Thank you, a Patreon page should now open in your browser.", "Thank you, a Patreon page should now open in your browser.", "_t")
---]==]
+t("You can also make a pledge on Patreon if you prefer.", "Vous pouvez également payer sur Patreon si vous préférez.", "_t")
+t("Thank you", "Merci beaucoup", "_t")
+t("Thank you, a paypal page should now open in your browser.", "Merci, une page paypal devrait maintenant s'ouvrir dans votre navigateur.", "_t")
+t("Thank you, a Patreon page should now open in your browser.", "Merci, une page Patreon devrait maintenant s'ouvrir dans votre navigateur.", "_t")
 
 
 ------------------------------------------------
