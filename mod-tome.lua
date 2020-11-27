@@ -46060,7 +46060,7 @@ t("Blindness", "Aveuglement", "_t")
 t("Silence", "Silence", "_t")
 t("Disarm", "Désarmement", "_t")
 t("Pinning", "Immobilisation", "_t")
-t("Stun/Freeze", "Gel/Etourd", "_t")
+t("Stun/Freeze", "Gel/Assomant", "_t")
 t("Sleep", "Sommeil", "_t")
 t("Fear", "Peur", "_t")
 t("Knockback", "Repoussage", "_t")
@@ -46281,228 +46281,226 @@ t("enabled", "activé", "_t")
 t("disabled", "désactivé", "_t")
 t("#GOLD##{bold}#Allow online events#WHITE##{normal}#", "#GOLD##{bold}#Permettre les événements en ligne#WHITE##{normal}#", "_t")
 t("all", "tout", "_t")
--- untranslated text
---[==[
-t("Gameplay", "Gameplay", "_t")
+t("Gameplay", "Jouabilité", "_t")
 t([[Select the graphical mode to display the world.
 Default is 'Modern'.
-When you change it, make a new character or it may look strange.]], [[Select the graphical mode to display the world.
-Default is 'Modern'.
-When you change it, make a new character or it may look strange.]], "_t")
+When you change it, make a new character or it may look strange.]], [[Sélectionnez le mode graphique pour afficher le monde.
+La valeur par défaut est "Moderne".
+Lorsque vous le modifiez, créez un nouveau personnage ou cela pourrait vous paraître étrange.]], "_t")
 t([[Make the movement of creatures and projectiles 'smooth'. When set to 0 movement will be instantaneous.
 The higher this value the slower the movements will appear.
 
-Note: This does not affect the turn-based idea of the game. You can move again while your character is still moving, and it will correctly update and compute a new animation.]], [[Make the movement of creatures and projectiles 'smooth'. When set to 0 movement will be instantaneous.
-The higher this value the slower the movements will appear.
+Note: This does not affect the turn-based idea of the game. You can move again while your character is still moving, and it will correctly update and compute a new animation.]], [[Rendre le mouvement des créatures et des projectiles "fluide". Lorsqu'il est réglé sur 0, le mouvement sera instantané.
+Plus cette valeur est élevée, plus les mouvements seront lents.
 
-Note: This does not affect the turn-based idea of the game. You can move again while your character is still moving, and it will correctly update and compute a new animation.]], "_t")
-t("#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "_t")
-t("Enter movement speed(lower is faster)", "Enter movement speed(lower is faster)", "_t")
-t("From 0 to 60", "From 0 to 60", "_t")
+Note : Cela n'affecte le jeu au tour par tour. Vous pouvez vous déplacer à nouveau pendant que votre personnage est encore en mouvement, et il mettra correctement à jour et calculera une nouvelle animation.]], "_t")
+t("#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "#GOLD##{bold}#Mouvement fluide des créatures#WHITE##{normal}#", "_t")
+t("Enter movement speed(lower is faster)", "Entrez la vitesse de déplacement (plus bas = plus rapide)", "_t")
+t("From 0 to 60", "De 0 à 60", "_t")
 t([[Enables or disables 'twitch' movement.
-When enabled creatures will do small bumps when moving and attacking.#WHITE#]], [[Enables or disables 'twitch' movement.
-When enabled creatures will do small bumps when moving and attacking.#WHITE#]], "_t")
-t("#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "_t")
+When enabled creatures will do small bumps when moving and attacking.#WHITE#]], [[Active ou désactive le mouvement "tréssautant".
+Lorsqu'elle est activé, les créatures font de petites sauts lorsqu'elles se déplacent et attaquent.#WHITE#]], "_t")
+t("#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "#GOLD##{bold}#Mouvement et attaque tréssautant des créatures#WHITE##{normal}#", "_t")
 t([[Enables smooth fog-of-war.
-Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], [[Enables smooth fog-of-war.
-Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], "_t")
-t("#GOLD##{bold}#Smooth fog of war#WHITE##{normal}#", "#GOLD##{bold}#Smooth fog of war#WHITE##{normal}#", "_t")
+Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], [[Activer le brouillard de guerre lisse.
+Le désactiver donnera au brouillard de guerre un aspect "en bloc" mais pourrait augmenter légèrement les performances.#WHITE#]], "_t")
+t("#GOLD##{bold}#Smooth fog of war#WHITE##{normal}#", "#GOLD##{bold}#Brouillard de guerre lisse#WHITE##{normal}#", "_t")
 t([[Select the interface look. Metal is the default one. Simple is basic but takes less screen space.
-You must restart the game for the change to take effect.]], [[Select the interface look. Metal is the default one. Simple is basic but takes less screen space.
-You must restart the game for the change to take effect.]], "_t")
-t("#GOLD##{bold}#Interface Style#WHITE##{normal}#", "#GOLD##{bold}#Interface Style#WHITE##{normal}#", "_t")
-t("Dark", "Dark", "_t")
-t("Metal", "Metal", "_t")
-t("Stone", "Stone", "_t")
+You must restart the game for the change to take effect.]], [[Sélectionnez l'aspect de l'interface. "Métal" est l'aspect par défaut. Simple est basique mais prend moins d'espace à l'écran.
+Vous devez redémarrer le jeu pour que le changement soit pris en compte.]], "_t")
+t("#GOLD##{bold}#Interface Style#WHITE##{normal}#", "#GOLD##{bold}#Style d'interface#WHITE##{normal}#", "_t")
+t("Dark", "Sombre", "_t")
+t("Metal", "Métal", "_t")
+t("Stone", "Pierre", "_t")
 t("Simple", "Simple", "_t")
 t("Interface style", "Interface style", "_t")
-t("Select style", "Select style", "_t")
+t("Select style", "Style d'interface", "_t")
 t([[Select the HUD look. 'Minimalist' is the default one.
-#LIGHT_RED#This will take effect on next restart.]], [[Select the HUD look. 'Minimalist' is the default one.
-#LIGHT_RED#This will take effect on next restart.]], "_t")
-t("#GOLD##{bold}#HUD Style#WHITE##{normal}#", "#GOLD##{bold}#HUD Style#WHITE##{normal}#", "_t")
-t("Minimalist", "Minimalist", "_t")
-t("Classic", "Classic", "_t")
-t("HUD style", "HUD style", "_t")
+#LIGHT_RED#This will take effect on next restart.]], [[Sélectionnez le style del'HUD. "Minimaliste" est la valeur par défaut.
+#LIGHT_RED#Cela prendra effet lors du prochain redémarrage.]], "_t")
+t("#GOLD##{bold}#HUD Style#WHITE##{normal}#", "#GOLD##{bold}#Style de l'HUD#WHITE##{normal}#", "_t")
+t("Minimalist", "Minimaliste", "_t")
+t("Classic", "Classique", "_t")
+t("HUD style", "Style de l'HUD", "_t")
 t("The number of lines to display in the combat log (for the Classic HUD).", "The number of lines to display in the combat log (for the Classic HUD).", "_t")
 t("#GOLD##{bold}#Log lines#WHITE##{normal}#", "#GOLD##{bold}#Log lines#WHITE##{normal}#", "_t")
 t("Log lines", "Log lines", "_t")
 t("From 5 to 50", "From 5 to 50", "_t")
-t("Draw faint lines to separate each grid, making visual positioning easier to see.#WHITE#", "Draw faint lines to separate each grid, making visual positioning easier to see.#WHITE#", "_t")
-t("#GOLD##{bold}#Display map grid lines#WHITE##{normal}#", "#GOLD##{bold}#Display map grid lines#WHITE##{normal}#", "_t")
+t("Draw faint lines to separate each grid, making visual positioning easier to see.#WHITE#", "Tracez de fines lignes pour séparer chaque case, ce qui permet un positionnement visuel plus facile à voir.#WHITE#", "_t")
+t("#GOLD##{bold}#Display map grid lines#WHITE##{normal}#", "#GOLD##{bold}#Afficher la grille sur la carte#WHITE##{normal}#", "_t")
 t([[Select the fonts look. Fantasy is the default one. Basic is simplified and smaller.
-You must restart the game for the change to take effect.]], [[Select the fonts look. Fantasy is the default one. Basic is simplified and smaller.
-You must restart the game for the change to take effect.]], "_t")
-t("#GOLD##{bold}#Font Style#WHITE##{normal}#", "#GOLD##{bold}#Font Style#WHITE##{normal}#", "_t")
-t("Font style", "Font style", "_t")
-t("Select font", "Select font", "_t")
+You must restart the game for the change to take effect.]], [[Sélectionnez l'aspect de la police de charactère. "Fantasy" est celle par défaut. Basic est simplifié et plus petite.
+Vous devez redémarrer le jeu pour que le changement soit pris en compte.]], "_t")
+t("#GOLD##{bold}#Font Style#WHITE##{normal}#", "#GOLD##{bold}#Style de la police de caractère#WHITE##{normal}#", "_t")
+t("Font style", "Style de la police", "_t")
+t("Select font", "Séléctionez la police", "_t")
 t([[Select the fonts size.
-You must restart the game for the change to take effect.]], [[Select the fonts size.
-You must restart the game for the change to take effect.]], "_t")
-t("#GOLD##{bold}#Font Size#WHITE##{normal}#", "#GOLD##{bold}#Font Size#WHITE##{normal}#", "_t")
-t("Font size", "Font size", "_t")
+You must restart the game for the change to take effect.]], [[Séléctionnez la taille de la police.
+Vous devez redémarrer le jeu pour que le changement soit pris en compte.]], "_t")
+t("#GOLD##{bold}#Font Size#WHITE##{normal}#", "#GOLD##{bold}#Taille de la police#WHITE##{normal}#", "_t")
+t("Font size", "Taille de la police", "_t")
 t("Normal", "Normal", "_t")
-t("Small", "Small", "_t")
-t("Big", "Big", "_t")
+t("Small", "Petite", "_t")
+t("Big", "Grosse", "_t")
 t([[How many seconds before log and chat lines begin to fade away.
-If set to 0 the logs will never fade away.]], [[How many seconds before log and chat lines begin to fade away.
-If set to 0 the logs will never fade away.]], "_t")
-t("#GOLD##{bold}#Log fade time#WHITE##{normal}#", "#GOLD##{bold}#Log fade time#WHITE##{normal}#", "_t")
-t("Fade time (in seconds)", "Fade time (in seconds)", "_t")
-t("From 0 to 20", "From 0 to 20", "_t")
+If set to 0 the logs will never fade away.]], [[Combien de secondes avant que le journal d'évènement et les lignes de discussion ne commencent à s'effacer.
+Si la valeur est 0, le le journal d'évènement ne s'effacera jamais.]], "_t")
+t("#GOLD##{bold}#Log fade time#WHITE##{normal}#", "#GOLD##{bold}#Temps de fondu du journal#WHITE##{normal}#", "_t")
+t("Fade time (in seconds)", "Temps de fondu (en secondes)", "_t")
+t("From 0 to 20", "De 0 à 20", "_t")
 t([[How long will flying text messages be visible on screen.
-The range is 1 (very short) to 100 (10x slower) than the normal duration, which varies with each individual message.]], [[How long will flying text messages be visible on screen.
-The range is 1 (very short) to 100 (10x slower) than the normal duration, which varies with each individual message.]], "_t")
-t("#GOLD##{bold}#Duration of flying text#WHITE##{normal}#", "#GOLD##{bold}#Duration of flying text#WHITE##{normal}#", "_t")
-t("Relative duration", "Relative duration", "_t")
-t("From 1 to 100", "From 1 to 100", "_t")
-t("Uses the icons for status effects instead of text.#WHITE#", "Uses the icons for status effects instead of text.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons status effects#WHITE##{normal}#", "#GOLD##{bold}#Icons status effects#WHITE##{normal}#", "_t")
-t("Uses the icons hotkeys toolbar or the textual one.#WHITE#", "Uses the icons hotkeys toolbar or the textual one.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons hotkey toolbar#WHITE##{normal}#", "#GOLD##{bold}#Icons hotkey toolbar#WHITE##{normal}#", "_t")
-t("Number of rows to show in the icons hotkeys toolbar.#WHITE#", "Number of rows to show in the icons hotkeys toolbar.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons hotkey toolbar rows#WHITE##{normal}#", "#GOLD##{bold}#Icons hotkey toolbar rows#WHITE##{normal}#", "_t")
-t("Number of icons rows", "Number of icons rows", "_t")
-t("From 1 to 4", "From 1 to 4", "_t")
-t("When you activate a hotkey, either by keyboard or click a visual feedback will appear over it in the hotkeys bar.#WHITE#", "When you activate a hotkey, either by keyboard or click a visual feedback will appear over it in the hotkeys bar.#WHITE#", "_t")
-t("#GOLD##{bold}#Visual hotkeys feedback#WHITE##{normal}#", "#GOLD##{bold}#Visual hotkeys feedback#WHITE##{normal}#", "_t")
-t("When the player or an NPC uses a talent shows a quick popup with the talent's icon and name over its head.#WHITE#", "When the player or an NPC uses a talent shows a quick popup with the talent's icon and name over its head.#WHITE#", "_t")
-t("#GOLD##{bold}#Talents activations map display#WHITE##{normal}#", "#GOLD##{bold}#Talents activations map display#WHITE##{normal}#", "_t")
-t("Size of the icons in the hotkeys toolbar.#WHITE#", "Size of the icons in the hotkeys toolbar.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons hotkey toolbar icon size#WHITE##{normal}#", "#GOLD##{bold}#Icons hotkey toolbar icon size#WHITE##{normal}#", "_t")
-t("Icons size", "Icons size", "_t")
-t("From 32 to 64", "From 32 to 64", "_t")
+The range is 1 (very short) to 100 (10x slower) than the normal duration, which varies with each individual message.]], [[Pendant combien de temps les messages textuels volants seront-ils visibles à l'écran.
+La fourchette va de 1 (très court) à 100 (10x plus lent) que la durée normale, qui varie selon chaque message individuel.]], "_t")
+t("#GOLD##{bold}#Duration of flying text#WHITE##{normal}#", "#GOLD##{bold}#Durée du texte volant#WHITE##{normal}#", "_t")
+t("Relative duration", "Durée relative", "_t")
+t("From 1 to 100", "De 1 à 100", "_t")
+t("Uses the icons for status effects instead of text.#WHITE#", "Utiliser les icônes pour les effets de statut au lieu du texte.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons status effects#WHITE##{normal}#", "#GOLD##{bold}#Effets de statut des icônes#WHITE##{normal}#", "_t")
+t("Uses the icons hotkeys toolbar or the textual one.#WHITE#", "Utiliser la barre des icônes de raccourcis clavier ou la barre textuelle.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons hotkey toolbar#WHITE##{normal}#", "#GOLD##{bold}#Barre des icônes de raccourcis clavier#WHITE##{normal}#", "_t")
+t("Number of rows to show in the icons hotkeys toolbar.#WHITE#", "Nombre de lignes à afficher dans la barre des icônes de raccourcis clavier.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons hotkey toolbar rows#WHITE##{normal}#", "#GOLD##{bold}#Lignes de la barre des icônes de raccourcis clavier#WHITE##{normal}#", "_t")
+t("Number of icons rows", "Nombre de lignes d'icônes", "_t")
+t("From 1 to 4", "De 1 à 4", "_t")
+t("When you activate a hotkey, either by keyboard or click a visual feedback will appear over it in the hotkeys bar.#WHITE#", "Lorsque vous activez un raccourci clavier, soit par le clavier, soit en cliquant, un retour visuel apparaît au-dessus de celui-ci dans la barre des raccourcis clavier.#WHITE#", "_t")
+t("#GOLD##{bold}#Visual hotkeys feedback#WHITE##{normal}#", "#GOLD##{bold}#Retour d'information visuel sur les touches de raccourcis#WHITE##{normal}#", "_t")
+t("When the player or an NPC uses a talent shows a quick popup with the talent's icon and name over its head.#WHITE#", "Lorsque le joueur ou un PNJ utilise un talent, un popup rapide apparaît avec l'icône et le nom du talent au-dessus de sa tête.#WHITE#", "_t")
+t("#GOLD##{bold}#Talents activations map display#WHITE##{normal}#", "#GOLD##{bold}#Affichage de la liste des activations de talents#WHITE##{normal}#", "_t")
+t("Size of the icons in the hotkeys toolbar.#WHITE#", "Taille des icônes dans la barre des raccourcis clavier.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons hotkey toolbar icon size#WHITE##{normal}#", "#GOLD##{bold}#Taille des icônes de la barre des raccourcis clavier#WHITE##{normal}#", "_t")
+t("Icons size", "Taille des icônes", "_t")
+t("From 32 to 64", "De 32 à 64", "_t")
 t([[If disabled lore popups will only appear the first time you see the lore on your profile.
-If enabled it will appear the first time you see it with each character.#WHITE#]], [[If disabled lore popups will only appear the first time you see the lore on your profile.
-If enabled it will appear the first time you see it with each character.#WHITE#]], "_t")
-t("#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "_t")
-t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", "If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", "_t")
-t("#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "_t")
+If enabled it will appear the first time you see it with each character.#WHITE#]], [[Si vous avez désactivé les fenêtres contextuelles sur les chroniques, elles n'apparaîtront que la première fois que vous les verrez sur votre profil.
+Si elles sont activées, elles apparaîtront la première fois que vous les verrez avec chaque personnages.#WHITE#]], "_t")
+t("#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "#GOLD##{bold}#Toujours montrer le popup des chroniques#WHITE##{normal}#", "_t")
+t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", "Si désactivés, les objets activables ne seront pas ajoutés automatiquement à vos raccourcis clavier, vous devrez les faire glisser manuellement depuis l'écran d'inventaire.#WHITE#", "_t")
+t("#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "#GOLD##{bold}#Ajoutez toujours les objets aux touches de raccourcis#WHITE##{normal}#", "_t")
 t([[Toggles between various tactical information display:
 - Combined healthbar and small tactical frame
 - Combined healthbar and big tactical frame
 - Only healthbar
 - No tactical information at all
 
-#{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]], [[Toggles between various tactical information display:
-- Combined healthbar and small tactical frame
-- Combined healthbar and big tactical frame
-- Only healthbar
-- No tactical information at all
+#{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]], [[Basculer entre différents affichages d'informations tactiques:
+- Une barre de santé combinée et petit cadre tactique
+- Une barre de santé combinée à un grand cadre tactique
+- Une barre de santé uniquement
+- Aucune information tactique
 
-#{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]], "_t")
-t("#GOLD##{bold}#Tactical overlay#WHITE##{normal}#", "#GOLD##{bold}#Tactical overlay#WHITE##{normal}#", "_t")
-t("Combined Small", "Combined Small", "_t")
-t("Combined Big", "Combined Big", "_t")
-t("Only Healthbars", "Only Healthbars", "_t")
-t("Nothing", "Nothing", "_t")
-t("Tactical overlay", "Tactical overlay", "_t")
-t("Select overlay mode", "Select overlay mode", "_t")
-t("Toggles between a normal or flagpost tactical bars.#WHITE#", "Toggles between a normal or flagpost tactical bars.#WHITE#", "_t")
-t("#GOLD##{bold}#Flagpost tactical bars#WHITE##{normal}#", "#GOLD##{bold}#Flagpost tactical bars#WHITE##{normal}#", "_t")
-t("Enabled", "Enabled", "_t")
-t("Disabled", "Disabled", "_t")
-t("Toggles between a bottom or side display for tactial healthbars.#WHITE#", "Toggles between a bottom or side display for tactial healthbars.#WHITE#", "_t")
-t("#GOLD##{bold}#Healthbars position#WHITE##{normal}#", "#GOLD##{bold}#Healthbars position#WHITE##{normal}#", "_t")
-t("Sides", "Sides", "_t")
-t("Bottom", "Bottom", "_t")
-t("If disabled you will not get a fullscreen notification of stun/daze effects. Beware.#WHITE#", "If disabled you will not get a fullscreen notification of stun/daze effects. Beware.#WHITE#", "_t")
-t("#GOLD##{bold}#Fullscreen stun/daze notification#WHITE##{normal}#", "#GOLD##{bold}#Fullscreen stun/daze notification#WHITE##{normal}#", "_t")
-t("If disabled you will not get a fullscreen notification of confusion effects. Beware.#WHITE#", "If disabled you will not get a fullscreen notification of confusion effects. Beware.#WHITE#", "_t")
-t("#GOLD##{bold}#Fullscreen confusion notification#WHITE##{normal}#", "#GOLD##{bold}#Fullscreen confusion notification#WHITE##{normal}#", "_t")
-t("Toggles advanced weapon statistics display.#WHITE#", "Toggles advanced weapon statistics display.#WHITE#", "_t")
-t("#GOLD##{bold}#Advanced Weapon Statistics#WHITE##{normal}#", "#GOLD##{bold}#Advanced Weapon Statistics#WHITE##{normal}#", "_t")
-t("Always display the combat properties of gloves even if you don't know unarmed attack talents.#WHITE#", "Always display the combat properties of gloves even if you don't know unarmed attack talents.#WHITE#", "_t")
-t("#GOLD##{bold}#Always show glove combat properties#WHITE##{normal}#", "#GOLD##{bold}#Always show glove combat properties#WHITE##{normal}#", "_t")
-t("Always display combat properties of shields even if you don't know shield attack talents.#WHITE#", "Always display combat properties of shields even if you don't know shield attack talents.#WHITE#", "_t")
-t("#GOLD##{bold}#Always show shield combat properties#WHITE##{normal}#", "#GOLD##{bold}#Always show shield combat properties#WHITE##{normal}#", "_t")
-t("When you do a mouse gesture (right click + drag) a color coded trail is displayed.#WHITE#", "When you do a mouse gesture (right click + drag) a color coded trail is displayed.#WHITE#", "_t")
-t("#GOLD##{bold}#Display mouse gesture trails#WHITE##{normal}#", "#GOLD##{bold}#Display mouse gesture trails#WHITE##{normal}#", "_t")
-t("If enabled new quests and quests updates will display a big popup, if not a simple line of text will fly on the screen.#WHITE#", "If enabled new quests and quests updates will display a big popup, if not a simple line of text will fly on the screen.#WHITE#", "_t")
-t("#GOLD##{bold}#Big Quest Popups#WHITE##{normal}#", "#GOLD##{bold}#Big Quest Popups#WHITE##{normal}#", "_t")
-t("Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "_t")
-t("#GOLD##{bold}#Enable WASD movement keys#WHITE##{normal}#", "#GOLD##{bold}#Enable WASD movement keys#WHITE##{normal}#", "_t")
-t("Sharpen Visuals, set to 0 to disable.#WHITE#", "Sharpen Visuals, set to 0 to disable.#WHITE#", "_t")
-t("#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "_t")
-t("Enter Sharpen Power", "Enter Sharpen Power", "_t")
-t("From 0(disable) to 10", "From 0(disable) to 10", "_t")
-t("Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#", "Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#", "_t")
-t("#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "_t")
-t("Scroll distance", "Scroll distance", "_t")
-t("From 1 to 50", "From 1 to 50", "_t")
-t("If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "_t")
-t("#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "_t")
-t("Life lost percentage (out of max life)", "Life lost percentage (out of max life)", "_t")
-t("From 1 to 99 (100 to disable)", "From 1 to 99 (100 to disable)", "_t")
+#{italic}#Vous pouvez également changer cela directement en jeu en appuyant sur shift+T.#{normal}##WHITE#]], "_t")
+t("#GOLD##{bold}#Tactical overlay#WHITE##{normal}#", "#GOLD##{bold}#Affichage tactique#WHITE##{normal}#", "_t")
+t("Combined Small", "Combiné et Petit", "_t")
+t("Combined Big", "Combiné et Gros", "_t")
+t("Only Healthbars", "Barre de santé uniquement", "_t")
+t("Nothing", "Rien", "_t")
+t("Tactical overlay", "Affichage tactique", "_t")
+t("Select overlay mode", "Séléctionnez le mode d'affichage", "_t")
+t("Toggles between a normal or flagpost tactical bars.#WHITE#", "Permet de basculer entre une barre tactique normale ou une barre tactique en drapeau.#WHITE#", "_t")
+t("#GOLD##{bold}#Flagpost tactical bars#WHITE##{normal}#", "#GOLD##{bold}#Barre tactique en drapeau#WHITE##{normal}#", "_t")
+t("Enabled", "Activé", "_t")
+t("Disabled", "Désactivé", "_t")
+t("Toggles between a bottom or side display for tactial healthbars.#WHITE#", "Permet de basculer entre un affichage en bas ou de côté pour les barres de santé tactiques.#WHITE#", "_t")
+t("#GOLD##{bold}#Healthbars position#WHITE##{normal}#", "#GOLD##{bold}#Position des barres de santé#WHITE##{normal}#", "_t")
+t("Sides", "a coté", "_t")
+t("Bottom", "en bas", "_t")
+t("If disabled you will not get a fullscreen notification of stun/daze effects. Beware.#WHITE#", "Si elle est désactivée, vous n'obtiendrez pas de notification plein écran des effets assomant/étourdissant. Il faut se méfier.#WHITE#", "_t")
+t("#GOLD##{bold}#Fullscreen stun/daze notification#WHITE##{normal}#", "#GOLD##{bold}#Notification plein écran des effets assomant/étourdissant#WHITE##{normal}#", "_t")
+t("If disabled you will not get a fullscreen notification of confusion effects. Beware.#WHITE#", "Si elle est désactivé, vous ne recevrez pas de notification plein écran des effets de confusion. Prenez garde.#WHITE#", "_t")
+t("#GOLD##{bold}#Fullscreen confusion notification#WHITE##{normal}#", "#GOLD##{bold}#Notification plein écran des effets de confusion#WHITE##{normal}#", "_t")
+t("Toggles advanced weapon statistics display.#WHITE#", "Faire basculer l'affichage des statistiques d'armes avancées.#WHITE#", "_t")
+t("#GOLD##{bold}#Advanced Weapon Statistics#WHITE##{normal}#", "#GOLD##{bold}#Statistiques d'armes avancées#WHITE##{normal}#", "_t")
+t("Always display the combat properties of gloves even if you don't know unarmed attack talents.#WHITE#", "Toujours afficher les propriétés de combat des gants même si vous ne connaissez pas les talents d'attaque à mains nues.#WHITE#", "_t")
+t("#GOLD##{bold}#Always show glove combat properties#WHITE##{normal}#", "#GOLD##{bold}#Toujours afficher les propriétés de combat des gants#WHITE##{normal}#", "_t")
+t("Always display combat properties of shields even if you don't know shield attack talents.#WHITE#", "Toujours affichez les propriétés de combat des boucliers même si vous ne connaissez pas les talents d'attaque aux boucliers.#WHITE#", "_t")
+t("#GOLD##{bold}#Always show shield combat properties#WHITE##{normal}#", "#GOLD##{bold}#Toujours affichez les propriétés de combat des boucliers#WHITE##{normal}#", "_t")
+t("When you do a mouse gesture (right click + drag) a color coded trail is displayed.#WHITE#", "Lorsque vous faites un mouvement de souris (clic droit + glisser), une trainée de couleur s'affiche.#WHITE#", "_t")
+t("#GOLD##{bold}#Display mouse gesture trails#WHITE##{normal}#", "#GOLD##{bold}#Afficher les mouvement de souris#WHITE##{normal}#", "_t")
+t("If enabled new quests and quests updates will display a big popup, if not a simple line of text will fly on the screen.#WHITE#", "Si elles sont activées, les nouvelles quêtes et les mises à jour des quêtes afficheront une grande fenêtre contextuelle, sinon une simple ligne de texte s'affichera à l'écran.#WHITE#", "_t")
+t("#GOLD##{bold}#Big Quest Popups#WHITE##{normal}#", "#GOLD##{bold}#Affichage de grande fenêtre contextuelle#WHITE##{normal}#", "_t")
+t("Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "Activez les mouvements avec WASD. Peut être utilisé pour se déplacer en diagonale en appuyant sur deux directions à la fois.#WHITE#", "_t")
+t("#GOLD##{bold}#Enable WASD movement keys#WHITE##{normal}#", "#GOLD##{bold}#Activez les mouvements avec WASD#WHITE##{normal}#", "_t")
+t("Sharpen Visuals, set to 0 to disable.#WHITE#", "Affiner les visuels, mettre à 0 pour les désactiver.#WHITE#", "_t")
+t("#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "#GOLD##{bold}#Affiner les visuels#WHITE##{normal}#", "_t")
+t("Enter Sharpen Power", "Entrez la force de l'affinage", "_t")
+t("From 0(disable) to 10", "De 0(désactivé) à 10", "_t")
+t("Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#", "Définit la distance à partir du bord de l'écran à laquelle le défilement commence. Si elle est suffisamment élevée, le jeu sera toujours centré sur le joueur.#WHITE#", "_t")
+t("#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "#GOLD##{bold}#Distance du scrolling#WHITE##{normal}#", "_t")
+t("Scroll distance", "Distance du scrolling", "_t")
+t("From 1 to 50", "De 1 à 50", "_t")
+t("If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "Si vous perdez plus que ce pourcentage de vie dans un tour, un avertissement s'affiche et toutes les entrées clavier/souris sont ignorées pendant 2 secondes pour éviter les erreurs.#WHITE#", "_t")
+t("#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "#GOLD##{bold}#Avertissement de Santé Perdu#WHITE##{normal}#", "_t")
+t("Life lost percentage (out of max life)", "Pourcentage de santé perdu (sur la santé max)", "_t")
+t("From 1 to 99 (100 to disable)", "De 1 à 99 (100 pour désactiver)", "_t")
 t([[Enables or disables weather effects in some zones.
-Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#]], [[Enables or disables weather effects in some zones.
-Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#]], "_t")
-t("#GOLD##{bold}#Weather effects#WHITE##{normal}#", "#GOLD##{bold}#Weather effects#WHITE##{normal}#", "_t")
-t("Enables or disables day/night light variations effects..#WHITE#", "Enables or disables day/night light variations effects..#WHITE#", "_t")
-t("#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "_t")
-t("Enables easy movement using the mouse by left-clicking on the map.#WHITE#", "Enables easy movement using the mouse by left-clicking on the map.#WHITE#", "_t")
-t("#GOLD##{bold}#Use mouse to move#WHITE##{normal}#", "#GOLD##{bold}#Use mouse to move#WHITE##{normal}#", "_t")
+Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#]], [[Activer ou désactiver les effets météorologiques dans certaines zones.
+Le fait de le désactiver peut permettre d'obtenir un gain de performances. Cela n'affectera pas les zones déjà visitées.#WHITE#]], "_t")
+t("#GOLD##{bold}#Weather effects#WHITE##{normal}#", "#GOLD##{bold}#Effets météorologiques#WHITE##{normal}#", "_t")
+t("Enables or disables day/night light variations effects..#WHITE#", "Activer ou désactiver les effets de variations de lumière jour/nuit.#WHITE#", "_t")
+t("#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "#GOLD##{bold}#Cycle de lumière jour/nuit#WHITE##{normal}#", "_t")
+t("Enables easy movement using the mouse by left-clicking on the map.#WHITE#", "Activer les déplacment faciles à l'aide de la souris en cliquant sur la carte avec le bouton gauche.#WHITE#", "_t")
+t("#GOLD##{bold}#Use mouse to move#WHITE##{normal}#", "#GOLD##{bold}#Utiliser la souris pour se déplacer#WHITE##{normal}#", "_t")
 t([[Enables quick melee targeting.
-Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], [[Enables quick melee targeting.
-Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], "_t")
-t("#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "_t")
+Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], [[Activer le ciblage rapide en mêlée.
+Les talents nécéssitant une cible de mêlée auront un ciblage automatique en appuyant sur une touche de direction au lieu d'exiger une confirmation.#WHITE#]], "_t")
+t("#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "#GOLD##{bold}#Ciblage rapide en mêlée#WHITE##{normal}#", "_t")
 t([[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], [[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], "_t")
-t("#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "_t")
-t("Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "_t")
-t("#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "_t")
+Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], [[Activer l'attaque automatique rapide ciblé en mêlée.
+Les talents qui nécessitent une cible de mêlée cibleront automatiquement et confirmeront s'il n'y a qu'une seule créature hostile dans les environs.#WHITE#]], "_t")
+t("#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "#GOLD##{bold}#Attaque automatique rapide ciblé en mêlée#WHITE##{normal}#", "_t")
+t("Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "Activer le ciblage à la souris. Si les mouvements de la souris sont désactivés, la cible ne changera pas lors de l'incantation d'un sort ou de l'utilisation d'un talent.#WHITE#", "_t")
+t("#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "#GOLD##{bold}#Ciblage à la souris#WHITE##{normal}#", "_t")
 t([[Auto-validate targets. If you fire an arrow/talent/... it will automatically use the default target without asking
 #LIGHT_RED#This is dangerous. Do not enable unless you know exactly what you are doing.#WHITE#
 
 Default target is always either one of:
  - The last creature hovered by the mouse
  - The last attacked creature
- - The closest creature]], [[Auto-validate targets. If you fire an arrow/talent/... it will automatically use the default target without asking
-#LIGHT_RED#This is dangerous. Do not enable unless you know exactly what you are doing.#WHITE#
+ - The closest creature]], [[Auto-validation des cibles. Si vous tirez une flèche/talent... cela utilisera automatiquement la cible par défaut sans rien demander.
+#LIGHT_RED#Ceci est dangereux. Ne l'activez pas si vous ne savez pas exactement ce que vous faites.#WHITE#
 
-Default target is always either one of:
- - The last creature hovered by the mouse
- - The last attacked creature
- - The closest creature]], "_t")
-t("#GOLD##{bold}#Auto-accept target#WHITE##{normal}#", "#GOLD##{bold}#Auto-accept target#WHITE##{normal}#", "_t")
-t("New games begin with some talent points auto-assigned.#WHITE#", "New games begin with some talent points auto-assigned.#WHITE#", "_t")
-t("#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "_t")
-t("Always rest to full before auto-exploring.#WHITE#", "Always rest to full before auto-exploring.#WHITE#", "_t")
-t("#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "_t")
-t("When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "_t")
-t("#GOLD##{bold}#Swap tinkers#WHITE##{normal}#", "#GOLD##{bold}#Swap tinkers#WHITE##{normal}#", "_t")
-t("Configure the chat filters to select what kind of messages to see.#WHITE#", "Configure the chat filters to select what kind of messages to see.#WHITE#", "_t")
-t("#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "_t")
-t("select to configure", "select to configure", "_t")
-t("Deaths", "Deaths", "_t")
-t("Object & Creatures links", "Object & Creatures links", "_t")
-t("Configure the chat ignore filter.#WHITE#", "Configure the chat ignore filter.#WHITE#", "_t")
-t("#GOLD##{bold}#Chat ignore list#WHITE##{normal}#", "#GOLD##{bold}#Chat ignore list#WHITE##{normal}#", "_t")
-t("Configure the chat channels to listen to.#WHITE#", "Configure the chat channels to listen to.#WHITE#", "_t")
-t("#GOLD##{bold}#Chat channels#WHITE##{normal}#", "#GOLD##{bold}#Chat channels#WHITE##{normal}#", "_t")
+La cible par défaut est toujours l'un des cas suivants:
+ - La dernière créature survolée à la souris
+ - La dernière créature attaquée
+ - La créature la plus proche]], "_t")
+t("#GOLD##{bold}#Auto-accept target#WHITE##{normal}#", "#GOLD##{bold}#Auto-validation des cibles#WHITE##{normal}#", "_t")
+t("New games begin with some talent points auto-assigned.#WHITE#", "Les nouvelles parties commencent avec des points de talent auto-attribués.#WHITE#", "_t")
+t("#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "#GOLD##{bold}#Attribution automatique de points de talent à la naissance#WHITE##{normal}#", "_t")
+t("Always rest to full before auto-exploring.#WHITE#", "Toujours se reposer à fond avant d'auto-explorer.#WHITE#", "_t")
+t("#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "#GOLD##{bold}#Se reposer avant d'auto-explorer#WHITE##{normal}#", "_t")
+t("When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "Lorsque vous échangez un objet avec un gadget, le gadget est automatiquement rattachér à l'objet nouvellement porté.#WHITE#", "_t")
+t("#GOLD##{bold}#Swap tinkers#WHITE##{normal}#", "#GOLD##{bold}#Echange de gadgets#WHITE##{normal}#", "_t")
+t("Configure the chat filters to select what kind of messages to see.#WHITE#", "Configurer les filtres des cannaux de discutions pour sélectionner le type de messages que vous souhaitez voir.#WHITE#", "_t")
+t("#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "#GOLD##{bold}#Filtres des cannaux de discutions#WHITE##{normal}#", "_t")
+t("select to configure", "sélectionnez pour configurer", "_t")
+t("Deaths", "Morts", "_t")
+t("Object & Creatures links", "Liens d'objets & créatures", "_t")
+t("Configure the chat ignore filter.#WHITE#", "Configurer le filtre des joueurs ignorés.#WHITE#", "_t")
+t("#GOLD##{bold}#Chat ignore list#WHITE##{normal}#", "#GOLD##{bold}#Liste des joueurs ignorés#WHITE##{normal}#", "_t")
+t("Configure the chat channels to listen to.#WHITE#", "Configurer la liste des cannaux de discutions que vous écoutez.#WHITE#", "_t")
+t("#GOLD##{bold}#Chat channels#WHITE##{normal}#", "#GOLD##{bold}#Cannaux de discutions#WHITE##{normal}#", "_t")
 t([[Open links in external browser instead of the embedded one.
-This does not affect addons browse and installation which always stays ingame.]], [[Open links in external browser instead of the embedded one.
-This does not affect addons browse and installation which always stays ingame.]], "_t")
-t("#GOLD##{bold}#Open links in external browser#WHITE##{normal}#", "#GOLD##{bold}#Open links in external browser#WHITE##{normal}#", "_t")
+This does not affect addons browse and installation which always stays ingame.]], [[Ouvrir les liens dans un navigateur externe à la place de celui qui est intégré.
+Cela n'affecte pas la navigation et l'installation des addons qui restent toujours en jeu.]], "_t")
+t("#GOLD##{bold}#Open links in external browser#WHITE##{normal}#", "#GOLD##{bold}#Ouvrir les liens dans un navigateur externe#WHITE##{normal}#", "_t")
 t([[Enable Discord's Rich Presence integration to show your current character on your currently playing profile on Discord (restart the game to apply).
-#ANTIQUE_WHITE#If you do not use Discord this option doesn't do anything in either state.]], [[Enable Discord's Rich Presence integration to show your current character on your currently playing profile on Discord (restart the game to apply).
-#ANTIQUE_WHITE#If you do not use Discord this option doesn't do anything in either state.]], "_t")
-t("#GOLD##{bold}#Discord's Rich Presence#WHITE##{normal}#", "#GOLD##{bold}#Discord's Rich Presence#WHITE##{normal}#", "_t")
+#ANTIQUE_WHITE#If you do not use Discord this option doesn't do anything in either state.]], [[Activer l'intégration Rich Presence de Discord pour afficher votre personnage actuel sur votre profil de joueur sur Discord (Nécessite un redémarrage pour prendre effet).
+#ANTIQUE_WHITE#Si vous n'utilisez pas Discord, cette option n'a aucun effet.]], "_t")
+t("#GOLD##{bold}#Discord's Rich Presence#WHITE##{normal}#", "#GOLD##{bold}#Rich Presence de Discord#WHITE##{normal}#", "_t")
 t([[Keep a copy of your character sheets (not the whole savefile) on the online vault at te4.org.
-For each character you will be given a link to this online character sheet so that you can brag about your heroic deeds or sad deaths to your friends or the whole community.#WHITE#]], [[Keep a copy of your character sheets (not the whole savefile) on the online vault at te4.org.
-For each character you will be given a link to this online character sheet so that you can brag about your heroic deeds or sad deaths to your friends or the whole community.#WHITE#]], "_t")
-t("#GOLD##{bold}#Upload characters sheets to the online vault#WHITE##{normal}#", "#GOLD##{bold}#Upload characters sheets to the online vault#WHITE##{normal}#", "_t")
+For each character you will be given a link to this online character sheet so that you can brag about your heroic deeds or sad deaths to your friends or the whole community.#WHITE#]], [[Conservez une copie de vos fiches de personnage (et non l'ensemble du fichier de sauvegarde) dans le coffre-fort en ligne de te4.org.
+Pour chaque personnage, vous recevrez un lien vers cette fiche de personnage en ligne afin que vous puissiez vous vanter de vos actes héroïques ou de votre triste mort auprès de vos amis et de toute la communauté.#WHITE#]], "_t")
+t("#GOLD##{bold}#Upload characters sheets to the online vault#WHITE##{normal}#", "#GOLD##{bold}#Transférer les feuilles de personnages dans le coffre-fort en ligne#WHITE##{normal}#", "_t")
 t([[Allow various events that are pushed by the server when playing online
 #{bold}#All#{normal}#: Allow all server events (bonus zones, random events, ...)
 #{bold}#Technical help only#{normal}#: Allow administrator to help in case of bugs or weirdness and allows website services (data reset, steam achievements push, ...) to work.
 #{bold}#Disabled#{normal}#: Disallow all.
-#WHITE#]], [[Allow various events that are pushed by the server when playing online
-#{bold}#All#{normal}#: Allow all server events (bonus zones, random events, ...)
-#{bold}#Technical help only#{normal}#: Allow administrator to help in case of bugs or weirdness and allows website services (data reset, steam achievements push, ...) to work.
-#{bold}#Disabled#{normal}#: Disallow all.
+#WHITE#]], [[Permettre divers événements poussés par le serveur lorsqu'on joue en ligne
+#{bold}#Tous#{normal}#: Autoriser tous les événements du serveur (zones bonus, événements aléatoires, ...)
+#{bold}#Aide technique uniquement#{normal}#: Permet aux administrateurs d'aider en cas de bugs ou de bizarreries et permettre aux services du site web (réinitialisation des données, récupérations des Succès Steam, ...) de fonctionner.
+#{bold}#Désactiver#{normal}#: Tout désactiver.
 #WHITE#]], "_t")
-t("technical help only", "technical help only", "_t")
+t("technical help only", "Aide technique uniquement", "_t")
 t([[Disables all connectivity to the network.
 This includes, but is not limited to:
 - Player profiles: You will not be able to login, register
@@ -46519,81 +46517,77 @@ Note that this setting only affects the game itself. If you use the game launche
 If you do not want that, simply run the game directly: the #{bold}#only#{normal}# use of the launcher is to update the game.
 
 #{bold}##CRIMSON#This is an extremely restrictive setting. It is recommended you only activate it if you have no other choice as it will remove many fun and acclaimed features.
-A full exit and restart of the game is neccessary to apply this setting.#{normal}#]], [[Disables all connectivity to the network.
-This includes, but is not limited to:
-- Player profiles: You will not be able to login, register
-- Characters vault: You will not be able to upload any character to the online vault to show your glory
-- Item's Vault: You will not be able to access the online item's vault, this includes both storing and retrieving items.
-- Ingame chat: The ingame chat requires to connect to the server to talk to other players, this will not be possible.
-- Purchaser / Donator benefits: The base game being free, the only way to give donators their bonuses fairly is to check their online profile. This will thus be disabled.
-- Easy addons downloading & installation: You will not be able to see ingame the list of available addons, nor to one-click install them. You may still do so manually.
-- Version checks: Addons will not be checked for new versions.
-- Discord: If you use Discord Rich Presence integration this will also be disabled by this setting.
-- Ingame game news: The main menu will stop showing you info about new updates to the game.
+A full exit and restart of the game is neccessary to apply this setting.#{normal}#]], [[Désactive toute connectivité au réseau.
+Cela inclut, mais n'est pas limité à:
+- Les profils des joueurs: Vous ne pourrez pas vous connecter, vous inscrire
+- Coffre de personnages: vous ne pourrez pas télécharger de personnage dans le coffre en ligne pour montrer votre gloire
+- Chambre forte: vous ne pourrez pas accéder à la chambre forte des objets en ligne, ce qui inclut le stockage et la récupération des objets.
+- Chat en jeu: Le chat en jeu nécessite de se connecter au serveur pour parler aux autres joueurs, ce qui n'est pas possible.
+- Avantages pour acheteur/donateur: Le jeu de base étant gratuit, la seule façon de donner aux donateurs leurs bonus de manière équitable est de vérifier leur profil en ligne. Celui-ci sera donc désactivé.
+- Téléchargement et installation faciles des addons: Vous ne pourrez pas voir dans le jeu la liste des addons disponibles, ni les installer en un clic. Vous pouvez toujours le faire manuellement.
+- Vérification des versions: Les addons ne seront pas vérifiés pour les nouvelles versions.
+- Discord: Si vous utilisez l'intégration Discord Rich Presence, cette option sera également désactivée par ce paramètre.
+- Nouvelles du jeu en jeu: Le menu principal ne vous donnera plus d'informations sur les nouvelles mises à jour du jeu.
 
-Note that this setting only affects the game itself. If you use the game launcher, whose sole purpose is to make sure the game is up to date, it will still do so.
-If you do not want that, simply run the game directly: the #{bold}#only#{normal}# use of the launcher is to update the game.
+Notez que ce paramètre n'affecte que le jeu lui-même. Si vous utilisez le lanceur de jeu, dont le seul but est de s'assurer que le jeu est à jour, il le fera toujours.
+Si vous ne le souhaitez pas, il vous suffit de lancer directement le jeu: la seule #{bold}#utilité#{normal}# du lanceur est de à mettre à jour le jeu.
 
-#{bold}##CRIMSON#This is an extremely restrictive setting. It is recommended you only activate it if you have no other choice as it will remove many fun and acclaimed features.
-A full exit and restart of the game is neccessary to apply this setting.#{normal}#]], "_t")
-t("#GOLD##{bold}#Disable all connectivity#WHITE##{normal}#", "#GOLD##{bold}#Disable all connectivity#WHITE##{normal}#", "_t")
-t("yes", "yes", "_t")
-t("no", "no", "_t")
+#{bold}##CRIMSON# C'est un réglage extrêmement restrictif. Il est recommandé de ne l'activer que si vous n'avez pas d'autre choix car il supprimera de nombreuses fonctionnalités amusantes et acclamées.
+Une sortie complète et un redémarrage du jeu sont nécessaires pour appliquer ce paramètre.#{normal}#]], "_t")
+t("#GOLD##{bold}#Disable all connectivity#WHITE##{normal}#", "#GOLD##{bold}#Désactiver toute connectivité#WHITE##{normal}#", "_t")
+t("yes", "oui", "_t")
+t("no", "non", "_t")
 t([[Saves in the background, allowing you to continue playing.
-#LIGHT_RED#Disabling it is not recommended.#WHITE#]], [[Saves in the background, allowing you to continue playing.
-#LIGHT_RED#Disabling it is not recommended.#WHITE#]], "_t")
-t("#GOLD##{bold}#Save in the background#WHITE##{normal}#", "#GOLD##{bold}#Save in the background#WHITE##{normal}#", "_t")
+#LIGHT_RED#Disabling it is not recommended.#WHITE#]], [[Sauvegarde en arrière-plan, ce qui vous permet de continuer à jouer.
+#LIGHT_RED#Il n'est pas recommandé de la désactiver.#WHITE#]], "_t")
+t("#GOLD##{bold}#Save in the background#WHITE##{normal}#", "#GOLD##{bold}#Sauvegarde en arrière-plan#WHITE##{normal}#", "_t")
 t([[Forces the game to save each level instead of each zone.
 This makes it save more often but the game will use less memory when deep in a dungeon.
 
 #LIGHT_RED#Changing this option will not affect already visited zones.
 *THIS DOES NOT MAKE A FULL SAVE EACH LEVEL*.
-#LIGHT_RED#Disabling it is not recommended#WHITE#]], [[Forces the game to save each level instead of each zone.
-This makes it save more often but the game will use less memory when deep in a dungeon.
+#LIGHT_RED#Disabling it is not recommended#WHITE#]], [[Force le jeu à sauver chaque niveau au lieu de chaque zone.
+Cela permet de sauvegarder plus souvent, mais le jeu utilisera moins de mémoire lorsqu'il sera au fond d'un donjon.
 
-#LIGHT_RED#Changing this option will not affect already visited zones.
-*THIS DOES NOT MAKE A FULL SAVE EACH LEVEL*.
-#LIGHT_RED#Disabling it is not recommended#WHITE#]], "_t")
-t("#GOLD##{bold}#Zone save per level#WHITE##{normal}#", "#GOLD##{bold}#Zone save per level#WHITE##{normal}#", "_t")
-t("Disallow boot images that could be found 'offensive'.#WHITE#", "Disallow boot images that could be found 'offensive'.#WHITE#", "_t")
-t("#GOLD##{bold}#Censor boot#WHITE##{normal}#", "#GOLD##{bold}#Censor boot#WHITE##{normal}#", "_t")
-t("Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "_t")
-t("#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "_t")
---]==]
+#LIGHT_RED#La modification de cette option n'affectera pas les zones déjà visitées.
+*CELA NE PERMET PAS DE SAUVEGARDER CHAQUE NIVEAU*.
+#LIGHT_RED#La désactiver n'est pas recommandé#WHITE#]], "_t")
+t("#GOLD##{bold}#Zone save per level#WHITE##{normal}#", "#GOLD##{bold}#Sauvegarde de zone par niveau#WHITE##{normal}#", "_t")
+t("Disallow boot images that could be found 'offensive'.#WHITE#", "Désactiver les images de démarrage qui pourraient être jugées offensantes.#WHITE#", "_t")
+t("#GOLD##{bold}#Censor boot#WHITE##{normal}#", "#GOLD##{bold}#Censure au démarrage#WHITE##{normal}#", "_t")
+t("Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "Remplacer les images des couvre-chefs par des capuchons de cape si une cape est portée#WHITE#", "_t")
+t("#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "#GOLD##{bold}#Montrer les capuchons de cape#WHITE##{normal}#", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/GraphicMode.lua"
 
 t("Cancel", "Annuler", "_t")
--- untranslated text
---[==[
-t("Modern", "Modern", "_t")
+t("Modern", "Moderne", "_t")
 t("ASCII", "ASCII", "_t")
-t("ASCII with background", "ASCII with background", "_t")
-t("Custom Tileset", "Custom Tileset", "_t")
+t("ASCII with background", "ASCII avec arrière-plan", "_t")
+t("Custom Tileset", "Tileset personnalisé", "_t")
 t("Altefcat/Gervais", "Altefcat/Gervais", "_t")
-t("Old RPG", "Old RPG", "_t")
-t("Change graphic mode", "Change graphic mode", "_t")
+t("Old RPG", "Vieux RPG", "_t")
+t("Change graphic mode", "Changer de mode graphique", "_t")
 t([[You can configure the game to use a custom tileset.
 You must place all files of your tileset in a subfolder of the modules's data/gfx/ folder, just like the existing tilesets.
-Each tile must be correctly named according to the existing tilesets.]], [[You can configure the game to use a custom tileset.
-You must place all files of your tileset in a subfolder of the modules's data/gfx/ folder, just like the existing tilesets.
-Each tile must be correctly named according to the existing tilesets.]], "_t")
-t("Folder: ", "Folder: ", "_t")
-t("Use moddable tiles (equipment showing on player)", "Use moddable tiles (equipment showing on player)", "_t")
-t("Use advanced tiles (transitions, wide tiles, ...)", "Use advanced tiles (transitions, wide tiles, ...)", "_t")
-t("Use custom tileset", "Use custom tileset", "_t")
-t("Tile size", "Tile size", "_t")
-t("From 10 to 128", "From 10 to 128", "_t")
-t("Select style [current: %s]", "Select style [current: %s]", "tformat")
-t("Select tiles size [current: %s]", "Select tiles size [current: %s]", "tformat")
+Each tile must be correctly named according to the existing tilesets.]], [[Vous pouvez configurer le jeu pour utiliser un tileset personnalisé.
+Vous devez placer tous les fichiers de votre tileset dans un sous-dossier du dossier data/gfx/ de modules, tout comme le tileset existants.
+Chaque tile doit être correctement nommée en fonction des tilesets existants.]], "_t")
+t("Folder: ", "Répertoire: ", "_t")
+t("Use moddable tiles (equipment showing on player)", "Utiliser un tileset modifiable (l'équipement est affiché sur le joueur)", "_t")
+t("Use advanced tiles (transitions, wide tiles, ...)", "Utiliser un tileset avancé (transitions, tileset large, ...)", "_t")
+t("Use custom tileset", "Utiliser un tileset personnalisé", "_t")
+t("Tile size", "Taille", "_t")
+t("From 10 to 128", "De 10 à 128", "_t")
+t("Select style [current: %s]", "Sélection du style [actuel: %s]", "tformat")
+t("Select tiles size [current: %s]", "Taille du tileset [actuel: %s]", "tformat")
 t("64x64", "64x64", "_t")
 t("48x48", "48x48", "_t")
 t("32x32", "32x32", "_t")
 t("16x16", "16x16", "_t")
-t("Custom", "Custom", "_t")
---]==]
+t("Custom", "Personnalisé", "_t")
 
 
 ------------------------------------------------
