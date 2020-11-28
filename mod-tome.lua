@@ -2527,17 +2527,15 @@ section "mod-tome/data/chats/eidolon-plane.lua"
 t("Thanks.", "Merci.", "_t")
 t("her", "sa", "_t")
 t("him", "lui", "_t")
--- untranslated text
---[==[
 t([[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
 I am the Eidolon and you are not welcome here!
 No matter how you came to this plane, #{bold}#DO NOT COME BACK!
 NOW BEGONE!
 #{normal}#
-.]], [[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
-I am the Eidolon and you are not welcome here!
-No matter how you came to this plane, #{bold}#DO NOT COME BACK!
-NOW BEGONE!
+.]], [[#LIGHT_GREEN#*Devant vous se tient une forme humanoïde remplie de "rien". Elle semble vous regarder fixement.*#WHITE#
+Je suis l'Eidolon et vous n'êtes pas les bienvenus ici!
+Peu importe comment vous êtes arrivé dans plan, #{bold}#NE REVENEZ PAS!
+MAINTENANT PARTEZ!
 #{normal}#
 .]], "_t")
 t("...", "...", "_t")
@@ -2546,31 +2544,30 @@ I have brought you here on the instant of your death. I am the Eidolon.
 I have deemed you worthy of my 'interest'. I will watch your future steps with interest.
 You may rest here, and when you are ready I will send you back to the material plane.
 But do not abuse my help. I am not your servant, and someday I might just let you die.
-As for your probable many questions, they will stay unanswered. I may help, but I am not here to explain why.]], [[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
-I have brought you here on the instant of your death. I am the Eidolon.
-I have deemed you worthy of my 'interest'. I will watch your future steps with interest.
-You may rest here, and when you are ready I will send you back to the material plane.
-But do not abuse my help. I am not your servant, and someday I might just let you die.
-As for your probable many questions, they will stay unanswered. I may help, but I am not here to explain why.]], "_t")
-t("Thank you. I will rest for a while.", "Thank you. I will rest for a while.", "_t")
-t("Thank you. I am ready to go back!", "Thank you. I am ready to go back!", "_t")
-t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else please?", "Thank you, but I fear I will not survive anyway, can you send me back somewhere else please?", "_t")
-t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else on the level please?", "Thank you, but I fear I will not survive anyway, can you send me back somewhere else on the level please?", "_t")
-t("Thank you, I am ready to go back!", "Thank you, I am ready to go back!", "_t")
-t("Thank you, but I am weary of this life, I wish no more, please let me go.", "Thank you, but I am weary of this life, I wish no more, please let me go.", "_t")
+As for your probable many questions, they will stay unanswered. I may help, but I am not here to explain why.]], [[#LIGHT_GREEN#*Devant vous se tient une forme humanoïde remplie de 'rien'. Elle semble vous fixer.*#WHITE#
+Je vous ai amené ici à l'instant de votre mort. Je suis l'Eidolon.
+Je vous ai jugé digne de mon 'intérêt'. J'observerai vos futurs pas avec intérêt.
+Tu peux te reposer ici, et quand tu seras prêt, je te renverrai au plan matériel.
+Mais n'abusez pas de mon aide. Je ne suis pas votre serviteur, et un jour, je pourrais vous laisser mourir.
+Quant à vos nombreuses questions, elles resteront probablement sans réponse. Je peux vous aider, mais je ne suis pas là pour vous expliquer pourquoi.]], "_t")
+t("Thank you. I will rest for a while.", "Je vous remercie. Je vais me reposer un peu.", "_t")
+t("Thank you. I am ready to go back!", "Je vous remercie. Je suis prêt à y retourner!", "_t")
+t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else please?", "Merci, mais je crains de ne pas survivre de toute façon. Pouvez-vous me renvoyer ailleurs, s'il vous plaît?", "_t")
+t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else on the level please?", "Merci, mais je crains de ne pas survivre de toute façon, pouvez-vous me renvoyer ailleurs dans le niveau s'il vous plaît ?", "_t")
+t("Thank you, I am ready to go back!", "Merci, je suis prêt à y retourner!", "_t")
+t("Thank you, but I am weary of this life, I wish no more, please let me go.", "Merci, mais je suis fatigué de cette vie, je n'en peut plus, s'il vous plaît laissez-moi partir.", "_t")
 t([[It seems the threads of time and space have been disrupted...
-I will try to send you to safety.]], [[It seems the threads of time and space have been disrupted...
-I will try to send you to safety.]], "_t")
+I will try to send you to safety.]], [[Il semble que les fils du temps et de l'espace aient été rompus...
+Je vais essayer de vous renvoyer en sécurité.]], "_t")
 t([[#LIGHT_GREEN#*It seems to stare at you in weird way.*#WHITE#
 I...had plans for you, but I cannot go against your free will. Know that you had a destiny waiting for you.
-Are you sure?]], [[#LIGHT_GREEN#*It seems to stare at you in weird way.*#WHITE#
-I...had plans for you, but I cannot go against your free will. Know that you had a destiny waiting for you.
-Are you sure?]], "_t")
-t("Just let me go please.", "Just let me go please.", "_t")
-t("asked the Eidolon to let %s die in peace", "asked the Eidolon to let %s die in peace", "tformat")
-t("brought down by Eidolon", "brought down by Eidolon", "_t")
-t("No actually, perhaps life is still worth it!", "No actually, perhaps life is still worth it!", "_t")
---]==]
+Are you sure?]], [[#LIGHT_GREEN#*Il semble vous fixer de façon étrange.*#WHITE#
+Je... J'avais des projets pour vous, mais je ne peux pas aller contre votre libre arbitre. Sachez qu'un destin vous attendait.
+En êtes-vous sûr ?]], "_t")
+t("Just let me go please.", "Laissez-moi partir, s'il vous plaît.", "_t")
+t("asked the Eidolon to let %s die in peace", "demande à l'Eidolon de laisser %s mourir en paix", "tformat")
+t("brought down by Eidolon", "a chuté par l'Eidolon", "_t")
+t("No actually, perhaps life is still worth it!", "Non, en fait, peut-être que la vie en vaut encore la peine !", "_t")
 
 
 ------------------------------------------------
@@ -39529,23 +39526,17 @@ section "mod-tome/data/zones/eidolon-plane/npcs.lua"
 
 t("unknown", "inconnu", "entity type")
 t("unknown", "inconnu", "entity subtype")
--- untranslated text
---[==[
-t("The Eidolon", "The Eidolon", "entity name")
-t("A ripple in the void that somehow seems... alive, this creature stares at you with interest.", "A ripple in the void that somehow seems... alive, this creature stares at you with interest.", "_t")
---]==]
+t("The Eidolon", "L'Eidolon", "entity name")
+t("A ripple in the void that somehow seems... alive, this creature stares at you with interest.", "Une ondulation dans le vide qui semble en quelque sorte ... vivante, cette créature vous regarde avec intérêt.", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/eidolon-plane/zone.lua"
 
 
--- untranslated text
---[==[
-t("Eidolon Plane", "Eidolon Plane", "_t")
-t("The Eidolon Plane seems not to physically exist in the same way the normal world does. You cannot seem to drop anything here. %s comes back into your backpack.", "The Eidolon Plane seems not to physically exist in the same way the normal world does. You cannot seem to drop anything here. %s comes back into your backpack.", "logPlayer")
-t("#LIGHT_RED#You are sent back to the material plane!", "#LIGHT_RED#You are sent back to the material plane!", "logPlayer")
---]==]
+t("Eidolon Plane", "Le plan de l'Eidolon Plane", "_t")
+t("The Eidolon Plane seems not to physically exist in the same way the normal world does. You cannot seem to drop anything here. %s comes back into your backpack.", "Le plan de l'Eidolon ne semble pas exister physiquement de la même manière que le monde normal. Vous ne pouvez pas sembler laisser quoi que ce soit ici. %s revient dans votre sac à dos.", "logPlayer")
+t("#LIGHT_RED#You are sent back to the material plane!", "#LIGHT_RED#Vous êtes renvoyé dans le plan matériel!", "logPlayer")
 
 
 ------------------------------------------------
