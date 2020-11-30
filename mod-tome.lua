@@ -46597,78 +46597,76 @@ t("Accuracy: ", "Précision: ", "_t")
 t("Spellpower: ", "Puissance des sorts: ", "_t")
 t("Defense: ", "Défense: ", "_t")
 t("Finish", "Terminé", "_t")
--- untranslated text
---[==[
-t("Levelup: %s, level %s", "Levelup: %s, level %s", "tformat")
-t("Do you accept changes?", "Do you accept changes?", "_t")
+t("Levelup: %s, level %s", "Niveau supérieur: %s, Niveau %s", "tformat")
+t("Do you accept changes?", "Acceptez vous ces changements?", "_t")
 t("Impossible", "Impossible", "_t")
-t("You cannot learn this talent(s): ", "You cannot learn this talent(s): ", "_t")
+t("You cannot learn this talent(s): ", "Vous ne pouvez pas apprendre ce talent: ", "_t")
 t([[#LIGHT_BLUE#Warning: You have increased some of your statistics or talent. Talent(s) actually sustained: 
- %s If these are dependent on one of the stats you changed, you need to re-use them for the changes to take effect.]], [[#LIGHT_BLUE#Warning: You have increased some of your statistics or talent. Talent(s) actually sustained: 
- %s If these are dependent on one of the stats you changed, you need to re-use them for the changes to take effect.]], "_t")
-t("#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "log")
-t("Not enough stat points", "Not enough stat points", "_t")
-t("You have no stat points left!", "You have no stat points left!", "_t")
-t("Stat is at the maximum for your level", "Stat is at the maximum for your level", "_t")
-t("You cannot increase this stat further until next level!", "You cannot increase this stat further until next level!", "_t")
-t("Stat is at the maximum", "Stat is at the maximum", "_t")
-t("You cannot increase this stat further!", "You cannot increase this stat further!", "_t")
-t("You cannot take out more points!", "You cannot take out more points!", "_t")
-t("generic", "generic", "_t")
-t("Not enough %s talent points", "Not enough %s talent points", "tformat")
-t("You have no %s talent points left!", "You have no %s talent points left!", "tformat")
-t("Cannot learn talent", "Cannot learn talent", "_t")
-t("Prerequisites not met!", "Prerequisites not met!", "_t")
-t("Already known", "Already known", "_t")
-t("You already fully know this talent!", "You already fully know this talent!", "_t")
-t("You do not know this talent!", "You do not know this talent!", "_t")
-t("Impossible here", "Impossible here", "_t")
-t("You must be out of combat or in a quiet place like a #{bold}#town#{normal}# to unlearn this talent.", "You must be out of combat or in a quiet place like a #{bold}#town#{normal}# to unlearn this talent.", "_t")
-t("You cannot unlearn this talent!", "You cannot unlearn this talent!", "_t")
-t("You cannot unlearn this talent because of talent(s): ", "You cannot unlearn this talent because of talent(s): ", "_t")
-t("You can only improve a category mastery once!", "You can only improve a category mastery once!", "_t")
-t("Not enough talent category points", "Not enough talent category points", "_t")
-t("You have no category points left!", "You have no category points left!", "_t")
-t("Too low level", "Too low level", "_t")
-t("This talent tree only provides talents starting at level %d. Learning it now would be useless.", "This talent tree only provides talents starting at level %d. Learning it now would be useless.", "tformat")
-t("You cannot unlearn this category!", "You cannot unlearn this category!", "_t")
-t("You do not know this category!", "You do not know this category!", "_t")
-t("You cannot unlearn this category because of: %s", "You cannot unlearn this category because of: %s", "tformat")
+ %s If these are dependent on one of the stats you changed, you need to re-use them for the changes to take effect.]], [[#LIGHT_BLUE#Attention: vous avez augmenté certaines de vos statistiques ou de vos talents. Talent(s) actuellement soutenu:
+ %s Si ceux-ci dépendent de l'une des statistiques que vous avez modifiées, vous devez les réutiliser pour que les modifications prennent effet.]], "_t")
+t("#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "#LIGHT_RED#Conditions requises pour %s non satisfaites, prodige non appris.", "log")
+t("Not enough stat points", "Pas assez de points de statistiques", "_t")
+t("You have no stat points left!", "Vous n'avez plus de points de statistiques!", "_t")
+t("Stat is at the maximum for your level", "La statistique est au maximum pour votre niveau", "_t")
+t("You cannot increase this stat further until next level!", "Vous ne pouvez pas augmenter cette statistique jusqu'au prochain niveau!", "_t")
+t("Stat is at the maximum", "La stat est au maximum", "_t")
+t("You cannot increase this stat further!", "Vous ne pouvez pas augmenter davantage cette statistique!", "_t")
+t("You cannot take out more points!", "Vous ne pouvez pas retirer plus de points!", "_t")
+t("generic", "générique", "_t")
+t("Not enough %s talent points", "Pas assez de points de talent %s", "tformat")
+t("You have no %s talent points left!", "Vous n'avez plus de points de talent %s!", "tformat")
+t("Cannot learn talent", "Ne peut pas apprendre le talent", "_t")
+t("Prerequisites not met!", "Conditions préalables non remplies!", "_t")
+t("Already known", "Déjà connu", "_t")
+t("You already fully know this talent!", "Vous connaissez déjà parfaitement ce talent!", "_t")
+t("You do not know this talent!", "Vous ne connaissez pas ce talent!", "_t")
+t("Impossible here", "Impossible ici", "_t")
+t("You must be out of combat or in a quiet place like a #{bold}#town#{normal}# to unlearn this talent.", "Vous devez être hors de combat ou dans un endroit calme comme une #{bold}#ville#{normal}# pour désapprendre ce talent.", "_t")
+t("You cannot unlearn this talent!", "Vous ne pouvez pas désapprendre ce talent!", "_t")
+t("You cannot unlearn this talent because of talent(s): ", "Vous ne pouvez pas désapprendre ce talent à cause du talent: ", "_t")
+t("You can only improve a category mastery once!", "Vous ne pouvez améliorer la maîtrise d'une catégorie qu'une seule fois!", "_t")
+t("Not enough talent category points", "Pas assez de points de catégorie de talent", "_t")
+t("You have no category points left!", "Vous n'avez plus de points de catégorie!", "_t")
+t("Too low level", "Niveau trop bas", "_t")
+t("This talent tree only provides talents starting at level %d. Learning it now would be useless.", "Cet arbre de talents ne fournit que les talents commençant au niveau %d. L'apprendre maintenant serait inutile.", "tformat")
+t("You cannot unlearn this category!", "Vous ne pouvez pas désapprendre cette catégorie!", "_t")
+t("You do not know this category!", "Vous ne connaissez pas cette catégorie!", "_t")
+t("You cannot unlearn this category because of: %s", "Vous ne pouvez pas désapprendre cette catégorie à cause de: %s", "tformat")
 t([[Stats points left: #00FF00#%d#LAST#
 Category points left: #00FF00#%d#LAST#
 Class talent points left: #00FF00#%d#LAST#
-Generic talent points left: #00FF00#%d#LAST#]], [[Stats points left: #00FF00#%d#LAST#
-Category points left: #00FF00#%d#LAST#
-Class talent points left: #00FF00#%d#LAST#
-Generic talent points left: #00FF00#%d#LAST#]], "_t")
+Generic talent points left: #00FF00#%d#LAST#]], [[Points de statistiques restant: #00FF00#%d#LAST#
+Points de catégorie restant: #00FF00#%d#LAST#
+Points de talent de classe restants: #00FF00#%d#LAST#
+Points de talent génériques restants: #00FF00#%d#LAST#]], "_t")
 t([[Stat points allow you to increase your core stats.
 Each level you gain 3 new stat points to use.
 
-You may only increase stats to a natural maximum of 60 or lower (relative to your level).]], [[Stat points allow you to increase your core stats.
-Each level you gain 3 new stat points to use.
+You may only increase stats to a natural maximum of 60 or lower (relative to your level).]], [[Les points de statistiques vous permettent d'augmenter vos statistiques de base.
+A chaque niveau vous gagnez 3 nouveaux points de statistiques à utiliser.
 
-You may only increase stats to a natural maximum of 60 or lower (relative to your level).]], "_t")
+Vous ne pouvez augmenter les statistiques que jusqu'à un maximum naturel de 60 ou moins (par rapport à votre niveau).]], "_t")
 t([[Class talent points allow you to learn new class talents or improve them.
 Class talents are core to your class and can not be learnt by training.
 
 Each level you gain 1 new class point to use.
 Each five levels you gain one more.
-]], [[Class talent points allow you to learn new class talents or improve them.
-Class talents are core to your class and can not be learnt by training.
+]], [[Les points de talent de classe vous permettent d'apprendre de nouveaux talents de classe ou de les améliorer.
+Les talents de classe sont le coeur de votre classe et ne peuvent pas être appris par un entrainement.
 
-Each level you gain 1 new class point to use.
-Each five levels you gain one more.
+Chaque niveau que vous gagnez 1 nouveau point de classe à utiliser.
+Tous les cinq niveaux, vous en gagnez un de plus.
 ]], "_t")
 t([[Generic talent points allow you to learn new generic talents or improve them.
 Generic talents comes from your class, your race or various outside training you can get during your adventures.
 
 Each level you gain 1 new generic point to use.
 Each five levels you gain one less.
-]], [[Generic talent points allow you to learn new generic talents or improve them.
-Generic talents comes from your class, your race or various outside training you can get during your adventures.
+]], [[Les points de talent génériques vous permettent d'apprendre de nouveaux talents génériques ou de les améliorer.
+Les talents génériques proviennent de votre classe, de votre race ou de divers entraînements extérieurs que vous pouvez obtenir au cours de vos aventures.
 
-Each level you gain 1 new generic point to use.
-Each five levels you gain one less.
+Chaque niveau que vous gagnez 1 nouveau point générique à utiliser.
+Tous les cinq niveaux, vous en gagnez un de moins.
 ]], "_t")
 t([[Talent category points allow you to either:
 - learn a new talent (class or generic) category
@@ -46676,70 +46674,66 @@ t([[Talent category points allow you to either:
 - learn a new inscription slot (up to a maximum of 5, learning it is automatic when using an inscription)
 
 You gain a new point at level 10, 20 and 34.
-Some races or items may increase them as well.]], [[Talent category points allow you to either:
-- learn a new talent (class or generic) category
-- improve a known talent category efficiency by 0.2
-- learn a new inscription slot (up to a maximum of 5, learning it is automatic when using an inscription)
+Some races or items may increase them as well.]], [[Les points de catégorie de talent vous permettent soit:
+- d'apprendre une nouvelle catégorie de talent (classe ou générique)
+- d'améliorer l'efficacité d'une catégorie de talents connue de 0,2
+- d'apprendre un nouvel emplacement d'inscription (jusqu'à un maximum de 5, l'apprentissage est automatique lors de l'utilisation d'une inscription)
 
-You gain a new point at level 10, 20 and 34.
-Some races or items may increase them as well.]], "_t")
+Vous gagnez un nouveau point aux niveaux 10, 20 et 34.
+Certaines races ou objets peuvent également les augmenter.]], "_t")
 t([[Prodigies are special talents that only the most powerful of characters can attain.
-All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], [[Prodigies are special talents that only the most powerful of characters can attain.
-All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], "_t")
-t("You can use a category point to unlock a new inscription slot (up to 5 slots).", "You can use a category point to unlock a new inscription slot (up to 5 slots).", "_t")
-t("Prodigies", "Prodigies", "_t")
+All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], [[Les prodiges sont des talents spéciaux que seuls les personnages les plus puissants peuvent atteindre.
+Tous nécessitent au moins 50 dans une statistique de base et beaucoup ont également des exigences plus spéciales. Vous pouvez apprendre un nouveau prodige aux niveaux 25 et 42.]], "_t")
+t("You can use a category point to unlock a new inscription slot (up to 5 slots).", "Vous pouvez utiliser un point de catégorie pour débloquer un nouvel emplacement d'inscription (jusqu'à 5 emplacements).", "_t")
+t("Prodigies", "Prodiges", "_t")
 t("Inscriptions", "Inscriptions", "_t")
-t("You have learnt all the inscription slots you could.", "You have learnt all the inscription slots you could.", "_t")
-t("You can learn %d new slot(s). Do you wish to buy one with one category point?", "You can learn %d new slot(s). Do you wish to buy one with one category point?", "tformat")
-t("Category points: %s", "Category points: %s", "tformat")
-t("You can still learn %d new slot(s) but you need a category point.", "You can still learn %d new slot(s) but you need a category point.", "tformat")
+t("You have learnt all the inscription slots you could.", "Vous avez appris tous les emplacements d'inscription possibles.", "_t")
+t("You can learn %d new slot(s). Do you wish to buy one with one category point?", "Vous pouvez débloquer %d nouveau(x) emplacement(s). Souhaitez-vous en acheter un avec un point de catégorie?", "tformat")
+t("Category points: %s", "Points de catégorie: %s", "tformat")
+t("You can still learn %d new slot(s) but you need a category point.", "Vous pouvez toujours débloquer %d nouveau(x) emplacement(s), mais vous avez besoin d'un point de catégorie.", "tformat")
 t("Stats: %s", "Stats: %s", "tformat")
-t("Class points: %s", "Class points: %s", "tformat")
-t("Generic points: %s", "Generic points: %s", "tformat")
-t("Hide unlearnt categories", "Hide unlearnt categories", "_t")
-t("Current value: ", "Current value: ", "_t")
-t("Base value: ", "Base value: ", "_t")
-t("Stat gives:", "Stat gives:", "_t")
-t("Max life: ", "Max life: ", "_t")
-t("Healing mod: ", "Healing mod: ", "_t")
-t("Max mana: ", "Max mana: ", "_t")
-t("Max stamina: ", "Max stamina: ", "_t")
-t("Max psi: ", "Max psi: ", "_t")
-t("Max encumbrance: ", "Max encumbrance: ", "_t")
-t("Ranged defense: ", "Ranged defense: ", "_t")
-t("Shrug off criticals chance: ", "Shrug off criticals chance: ", "_t")
-t("Class powers:", "Class powers:", "_t")
-t("Talent Category", "Talent Category", "_t")
+t("Class points: %s", "Points de classe: %s", "tformat")
+t("Generic points: %s", "Points génériques: %s", "tformat")
+t("Hide unlearnt categories", "Masquer les catégories non apprises", "_t")
+t("Current value: ", "Valeur actuelle: ", "_t")
+t("Base value: ", "Valeur de base: ", "_t")
+t("Stat gives:", "Stat donne:", "_t")
+t("Max life: ", "Vie max: ", "_t")
+t("Healing mod: ", "Modif de soins: ", "_t")
+t("Max mana: ", "Mana max: ", "_t")
+t("Max stamina: ", "Endurance max: ", "_t")
+t("Max psi: ", "Psi max: ", "_t")
+t("Max encumbrance: ", "Encombrement max: ", "_t")
+t("Ranged defense: ", "Défense à distance: ", "_t")
+t("Shrug off criticals chance: ", "Bonus de critique ignoré: ", "_t")
+t("Class powers:", "Pouvoirs de classe:", "_t")
+t("Talent Category", "Catégorie de talent", "_t")
 t([[A talent category contains talents you may learn. You gain a talent category point at level 10, 20 and 34. You may also find trainers or artifacts that allow you to learn more.
-A talent category point can be used either to learn a new category or increase the mastery of a known one.]], [[A talent category contains talents you may learn. You gain a talent category point at level 10, 20 and 34. You may also find trainers or artifacts that allow you to learn more.
-A talent category point can be used either to learn a new category or increase the mastery of a known one.]], "_t")
-t("Generic talent tree", "Generic talent tree", "_t")
-t("A generic talent allows you to perform various utility actions and improve your character. It represents a skill anybody can learn (should you find a trainer for it). You gain one point every level (except every 5th level). You may also find trainers or artifacts that allow you to learn more.", "A generic talent allows you to perform various utility actions and improve your character. It represents a skill anybody can learn (should you find a trainer for it). You gain one point every level (except every 5th level). You may also find trainers or artifacts that allow you to learn more.", "_t")
-t("Class talent tree", "Class talent tree", "_t")
-t("A class talent allows you to perform new combat moves, cast spells, and improve your character. It represents the core function of your class. You gain one point every level and two every 5th level. You may also find trainers or artifacts that allow you to learn more.", "A class talent allows you to perform new combat moves, cast spells, and improve your character. It represents the core function of your class. You gain one point every level and two every 5th level. You may also find trainers or artifacts that allow you to learn more.", "_t")
-t("This talent was recently learnt; you can still unlearn it.", "This talent was recently learnt; you can still unlearn it.", "_t")
-t("The last %d %s talents you learnt are always unlearnable.", "The last %d %s talents you learnt are always unlearnable.", "tformat")
-t(" generic", " generic", "_t")
-t(" class", " class", "_t")
-t("This talent can alter the world in a permanent way; as such, you can never unlearn it once known.", "This talent can alter the world in a permanent way; as such, you can never unlearn it once known.", "_t")
-t("This talent was recently learnt; you can still unlearn it if you are out of combat or in a quiet area like a #{bold}#town#{normal}#.", "This talent was recently learnt; you can still unlearn it if you are out of combat or in a quiet area like a #{bold}#town#{normal}#.", "_t")
-t("Current talent level: ", "Current talent level: ", "_t")
-t(" (%+0.1f bonus level)", " (%+0.1f bonus level)", "tformat")
-t("<Press 'x' to swap to simple display>", "<Press 'x' to swap to simple display>", "_t")
-t("First talent level: ", "First talent level: ", "_t")
-t("Next talent level", "Next talent level", "_t")
-t("<Press 'x' to swap to advanced display>", "<Press 'x' to swap to advanced display>", "_t")
---]==]
+A talent category point can be used either to learn a new category or increase the mastery of a known one.]], [[Une catégorie de talents contient des talents que vous pouvez apprendre. Vous gagnez un point de catégorie de talent aux niveaux 10, 20 et 34. Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettent d'en savoir plus.
+Un point de catégorie de talent peut être utilisé pour apprendre une nouvelle catégorie ou augmenter la maîtrise d'une catégorie connue.]], "_t")
+t("Generic talent tree", "Arbres de talents générique", "_t")
+t("A generic talent allows you to perform various utility actions and improve your character. It represents a skill anybody can learn (should you find a trainer for it). You gain one point every level (except every 5th level). You may also find trainers or artifacts that allow you to learn more.", "Un talent générique vous permet d'effectuer diverses actions utilitaires et d'améliorer votre personnage. Cela représente une compétence que tout le monde peut apprendre (si vous trouvez un formateur pour cela). Vous gagnez un point à chaque niveau (sauf tous les 5 niveaux). Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettront d'en savoir plus.", "_t")
+t("Class talent tree", "Arbres de talents de classe", "_t")
+t("A class talent allows you to perform new combat moves, cast spells, and improve your character. It represents the core function of your class. You gain one point every level and two every 5th level. You may also find trainers or artifacts that allow you to learn more.", "Un talent de classe vous permet d'effectuer de nouveaux mouvements de combat, de lancer des sorts et d'améliorer votre personnage. Il représente la fonction principale de votre classe. Vous gagnez un point à chaque niveau et deux tous les cinq niveaux. Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettront d'en savoir plus.", "_t")
+t("This talent was recently learnt; you can still unlearn it.", "Ce talent a été récemment appris; vous pouvez toujours le désapprendre.", "_t")
+t("The last %d %s talents you learnt are always unlearnable.", "Les derniers talents %d %s que vous avez appris sont toujours désapprenables.", "tformat")
+t(" generic", " générique", "_t")
+t(" class", " classe", "_t")
+t("This talent can alter the world in a permanent way; as such, you can never unlearn it once known.", "Ce talent peut changer le monde de manière permanente; en tant que tel, vous ne pourrez jamais le désapprendre une fois connu.", "_t")
+t("This talent was recently learnt; you can still unlearn it if you are out of combat or in a quiet area like a #{bold}#town#{normal}#.", "Ce talent a été récemment appris; vous pouvez toujours le désapprendre si vous êtes hors combat ou dans un endroit calme comme une #{bold}#ville#{normal}#.", "_t")
+t("Current talent level: ", "Niveau de talent actuel: ", "_t")
+t(" (%+0.1f bonus level)", " (%+0.1f niveau bonus)", "tformat")
+t("<Press 'x' to swap to simple display>", "<Appuyez sur 'x' pour passer à un affichage simple>", "_t")
+t("First talent level: ", "Premier niveau de talent: ", "_t")
+t("Next talent level", "Niveau de talent suivant", "_t")
+t("<Press 'x' to swap to advanced display>", "<Appuyez sur 'x' pour passer à l'affichage avancé>", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/LorePopup.lua"
 
 
--- untranslated text
---[==[
-t("Lore found: #0080FF#%s", "Lore found: #0080FF#%s", "tformat")
---]==]
+t("Lore found: #0080FF#%s", "Chronique trouvé: #0080FF#%s", "tformat")
 
 
 ------------------------------------------------
@@ -46774,48 +46768,35 @@ section "mod-tome/mod/dialogs/PartyOrder.lua"
 t("none", "aucun", "_t")
 t("default", "défaut", "_t")
 t("Dismiss", "Refuser", "_t")
--- new text
---[==[
-t("Pet the hound", "Pet the hound", "_t")
---]==]
-
--- untranslated text
---[==[
-t("Wait a few turns", "Wait a few turns", "_t")
-t("Where is the portal?", "Where is the portal?", "_t")
-t("Set the target [current: %s]", "Set the target [current: %s]", "tformat")
-t("Set behavior [current: %s]", "Set behavior [current: %s]", "tformat")
-t("Set the leash anchor [current: %s]", "Set the leash anchor [current: %s]", "tformat")
-t("Set the leash distance [current: %d]", "Set the leash distance [current: %d]", "tformat")
-t("Define tactical talents usage", "Define tactical talents usage", "_t")
-t("Rename", "Rename", "_t")
-t("Order: %s", "Order: %s", "tformat")
---]==]
+t("Pet the hound", "Caresser le chien", "_t")
+t("Wait a few turns", "Attendre quelques tours", "_t")
+t("Where is the portal?", "Où est le portail?", "_t")
+t("Set the target [current: %s]", "Séléctionner la cible [actuelle: %s]", "tformat")
+t("Set behavior [current: %s]", "Définir le comportement [actuel: %s]", "tformat")
+t("Set the leash anchor [current: %s]", "Définir l'ancre de laisse [actuelle: %s]", "tformat")
+t("Set the leash distance [current: %d]", "Réglez la distance de la laisse [actuelle: %d]", "tformat")
+t("Define tactical talents usage", "Définir l'utilisation des talents tactiques", "_t")
+t("Rename", "Renommer", "_t")
+t("Order: %s", "Ordre: %s", "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/PartySelect.lua"
 
 
--- untranslated text
---[==[
-t("Switch to which character?", "Switch to which character?", "_t")
---]==]
+t("Switch to which character?", "Passer à quel personnage?", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/PartySendItem.lua"
 
 
--- untranslated text
---[==[
-t("Give item to a party member", "Give item to a party member", "_t")
-t("%s cannot receive items while asleep!", "%s cannot receive items while asleep!", "log")
-t("%s cannot transfer items while asleep!", "%s cannot transfer items while asleep!", "log")
-t("You give %s to %s.", "You give %s to %s.", "log")
-t(" #YELLOW#[SLEEPING]#LAST#", " #YELLOW#[SLEEPING]#LAST#", "_t")
-t(" #YELLOW#[NO ROOM]#LAST#", " #YELLOW#[NO ROOM]#LAST#", "_t")
---]==]
+t("Give item to a party member", "Donner un objet à un membre du groupe", "_t")
+t("%s cannot receive items while asleep!", "%s ne peut pas recevoir d'objets pendant son sommeil!", "log")
+t("%s cannot transfer items while asleep!", "%s ne peut pas transférer d'objets pendant son sommeil!", "log")
+t("You give %s to %s.", "Vous donnez %s à %s.", "log")
+t(" #YELLOW#[SLEEPING]#LAST#", " #YELLOW#[ENDORMI]#LAST#", "_t")
+t(" #YELLOW#[NO ROOM]#LAST#", " #YELLOW#[PAS DE PLACE]#LAST#", "_t")
 
 
 ------------------------------------------------
