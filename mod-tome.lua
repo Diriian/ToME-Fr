@@ -46914,27 +46914,21 @@ t("Inventory", "Inventaire", "_t")
 section "mod-tome/mod/dialogs/ShowLore.lua"
 
 t("Category", "Catégorie", "_t")
--- untranslated text
---[==[
-t("Lore", "Lore", "_t")
-t("Search: ", "Search: ", "_t")
+t("Lore", "Chronique", "_t")
+t("Search: ", "Chercher: ", "_t")
 t("", "", "_t")
 t([[#GOLD#Category:#AQUAMARINE# %s
 #GOLD#Found as:#0080FF# %s
-#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Category:#AQUAMARINE# %s
-#GOLD#Found as:#0080FF# %s
-#GOLD#Text:#ANTIQUE_WHITE# %s]], "tformat")
---]==]
+#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Catégorie:#AQUAMARINE# %s
+#GOLD#Trouvé comme:#0080FF# %s
+#GOLD#Texte:#ANTIQUE_WHITE# %s]], "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowMap.lua"
 
 
--- untranslated text
---[==[
-t("Map: #0080FF#%s", "Map: #0080FF#%s", "tformat")
---]==]
+t("Map: #0080FF#%s", "Carte: #0080FF#%s", "tformat")
 
 
 ------------------------------------------------
@@ -46944,38 +46938,29 @@ t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
 t("Price", "Prix", "_t")
 t("Store", "Magasin", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
-t(" (pays up to %0.2f gold, Your Gold: %0.2f)", " (pays up to %0.2f gold, Your Gold: %0.2f)", "tformat")
---]==]
+t(" (pays up to %0.2f gold, Your Gold: %0.2f)", " (payez jusqu'à %0.2f d'or, votre or: %0.2f)", "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/SwiftHands.lua"
 
 t("Inventory", "Inventaire", "_t")
--- untranslated text
---[==[
-t("Managed readied tools", "Managed readied tools", "_t")
+t("Managed readied tools", "Gérer les outils préparés", "_t")
 t("", "", "_t")
-t("Readied tools", "Readied tools", "_t")
---]==]
+t("Readied tools", "Outils préparés", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/SwiftHandsUse.lua"
 
 t("Inventory", "Inventaire", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
-t("Tool", "Tool", "_t")
-t("Cooldown", "Cooldown", "_t")
-t("Ready", "Ready", "_t")
+t("Tool", "Outils", "_t")
+t("Cooldown", "Rechargement", "_t")
+t("Ready", "Prêt", "_t")
 t("%d/%d", "%d/%d", "tformat")
 t("#RED#%d/%d", "#RED#%d/%d", "tformat")
---]==]
 
 
 ------------------------------------------------
