@@ -44101,7 +44101,7 @@ t("It is part of a set of items.", "Fait partis d'une collection d'objets", "_t"
 t("The set is complete.", "La collection est complete.", "_t")
 t("Armour penetration: ", "Pénétration d'Armure: ", "_t")
 t("Physical crit. chance: ", "Chance de crit physique: ", "_t")
-t("Physical power: ", "Puissance physical: ", "_t")
+t("Physical power: ", "Puissance physique: ", "_t")
 t("Armour: ", "Armure: ", "_t")
 t("Armour Hardiness: ", "Robustesse d'Armure: ", "_t")
 t("Defense: ", "Défense: ", "_t")
@@ -46817,30 +46817,27 @@ section "mod-tome/mod/dialogs/SentientWeapon.lua"
 
 t("Strength", "Force", "_t")
 t("Dexterity", "Dextérité", "_t")
--- untranslated text
---[==[
-t("Points left: #00FF00#%d#WHITE#", "Points left: #00FF00#%d#WHITE#", "_t")
+t("Points left: #00FF00#%d#WHITE#", "Points restant: #00FF00#%d#WHITE#", "_t")
 t([[Keyboard: #00FF00#up key/down key#FFFFFF# to select a stat; #00FF00#right key#FFFFFF# to increase stat; #00FF00#left key#FFFFFF# to decrease a stat.
 Mouse: #00FF00#Left click#FFFFFF# to increase a stat; #00FF00#right click#FFFFFF# to decrease a stat.
-]], [[Keyboard: #00FF00#up key/down key#FFFFFF# to select a stat; #00FF00#right key#FFFFFF# to increase stat; #00FF00#left key#FFFFFF# to decrease a stat.
-Mouse: #00FF00#Left click#FFFFFF# to increase a stat; #00FF00#right click#FFFFFF# to decrease a stat.
+]], [[Clavier: #00FF00#touche haut/touche bas#FFFFFF# pour séléctionner une stat; #00FF00#touche droite#FFFFFF# pour augmenter la stat; #00FF00#touche gauche#FFFFFF# pour diminuer la stat.
+Souris: #00FF00#clic gauche#FFFFFF# pour augmenter la stat; #00FF00#clic droit#FFFFFF# pour diminuer la stat.
 ]], "_t")
 t("Stat", "Stat", "_t")
-t("Value", "Value", "_t")
-t("Spellpower", "Spellpower", "_t")
-t("Spellcrit", "Spellcrit", "_t")
-t("Not enough stat points", "Not enough stat points", "_t")
-t("You have no stat points left!", "You have no stat points left!", "_t")
-t("Stat is at the maximum", "Stat is at the maximum", "_t")
-t("You can not increase this stat further!", "You can not increase this stat further!", "_t")
+t("Value", "Valeur", "_t")
+t("Spellpower", "Puissance de sort", "_t")
+t("Spellcrit", "Crit de sort", "_t")
+t("Not enough stat points", "Pas assez de points de stat", "_t")
+t("You have no stat points left!", "Il ne vous reste plus de point de stat!", "_t")
+t("Stat is at the maximum", "La stat est au maximum", "_t")
+t("You can not increase this stat further!", "Vous ne pouvez plus augmenter davantage cette stat!", "_t")
 t("Impossible", "Impossible", "_t")
-t("You cannot take out more points!", "You cannot take out more points!", "_t")
-t("Stats points left: #00FF00#%s", "Stats points left: #00FF00#%s", "tformat")
-t("Magic", "Magic", "_t")
-t("Willpower", "Willpower", "_t")
-t("Cunning", "Cunning", "_t")
+t("You cannot take out more points!", "Vous ne pouvez pas retirer plus de points!", "_t")
+t("Stats points left: #00FF00#%s", "Point de stat restant: #00FF00#%s", "tformat")
+t("Magic", "Magie", "_t")
+t("Willpower", "Volonté", "_t")
+t("Cunning", "Ruse", "_t")
 t("Constitution", "Constitution", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -46852,24 +46849,21 @@ t("-- Unknown --", "-- Inconnu --", "_t")
 section "mod-tome/mod/dialogs/ShowChatLog.lua"
 
 
--- untranslated text
---[==[
-t("Game Log", "Game Log", "_t")
-t("Right click to inspect.", "Right click to inspect.", "_t")
-t("Show infos", "Show infos", "_t")
-t("Whisper", "Whisper", "_t")
-t("Ignore", "Ignore", "_t")
-t("Open profile(in browser)", "Open profile(in browser)", "_t")
-t("Report for bad behavior", "Report for bad behavior", "_t")
-t("Open charsheet(in browser)", "Open charsheet(in browser)", "_t")
-t("User: ", "User: ", "tformat")
+t("Game Log", "Historique du jeu", "_t")
+t("Right click to inspect.", "Clic droit pour inspecter.", "_t")
+t("Show infos", "Afficher les infos", "_t")
+t("Whisper", "Murmure", "_t")
+t("Ignore", "Ignorer", "_t")
+t("Open profile(in browser)", "Ouvrir le profil (dans le navigateur)", "_t")
+t("Report for bad behavior", "Signaler un mauvais comportement", "_t")
+t("Open charsheet(in browser)", "Ouvrir la feuille de caractères (dans le navigateur)", "_t")
+t("User: ", "Utilisateur: ", "tformat")
 t("Action", "Action", "_t")
-t("Ignore user", "Ignore user", "_t")
-t("Really ignore all messages from: %s", "Really ignore all messages from: %s", "tformat")
-t("Reason to report: %s", "Reason to report: %s", "tformat")
-t("Reason", "Reason", "_t")
+t("Ignore user", "Ignorer l'utilisateur", "_t")
+t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de: %s", "tformat")
+t("Reason to report: %s", "Raison du signalement: %s", "tformat")
+t("Reason", "Raison", "_t")
 t("#VIOLET#", "#VIOLET#", "log")
---]==]
 
 
 ------------------------------------------------
@@ -46878,27 +46872,21 @@ section "mod-tome/mod/dialogs/ShowEquipInven.lua"
 t("Inventory", "Inventaire", "_t")
 t("Tooltip %s", "Info-bulle %s", "log")
 t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
--- untranslated text
---[==[
-t("Main Set", "Main Set", "_t")
-t("Off Set", "Off Set", "_t")
-t("locked", "locked", "_t")
-t("unlocked", "unlocked", "_t")
-t("up", "up", "log")
-t("No Inventory", "No Inventory", "_t")
-t("%s Has no defined main inventory", "%s Has no defined main inventory", "tformat")
---]==]
+t("Main Set", "armes 1", "_t")
+t("Off Set", "armes 2", "_t")
+t("locked", "verouillé", "_t")
+t("unlocked", "dévérouillé", "_t")
+t("up", "haut", "log")
+t("No Inventory", "Pas d'inventaire", "_t")
+t("%s Has no defined main inventory", "%s n'a pas défini d'inventaire principal", "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowEquipment.lua"
 
 t("Equipment", "Équipement", "_t")
--- untranslated text
---[==[
-t("Main Set", "Main Set", "_t")
-t("Off Set", "Off Set", "_t")
---]==]
+t("Main Set", "Armes 1", "_t")
+t("Off Set", "Armes 2", "_t")
 
 
 ------------------------------------------------
@@ -46906,18 +46894,15 @@ section "mod-tome/mod/dialogs/ShowIngredients.lua"
 
 t("Category", "Catégorie", "_t")
 t("Quantity", "Quantité", "_t")
--- untranslated text
---[==[
-t("Ingredients collected", "Ingredients collected", "_t")
-t("Ingredient", "Ingredient", "_t")
+t("Ingredients collected", "Ingrédients collectés", "_t")
+t("Ingredient", "Ingrédient", "_t")
 t([[#GOLD#Category:#AQUAMARINE# %s
 #GOLD#Ingredient:#0080FF# %s
 #GOLD#Quantity:#0080FF# %s
-#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Category:#AQUAMARINE# %s
-#GOLD#Ingredient:#0080FF# %s
-#GOLD#Quantity:#0080FF# %s
-#GOLD#Text:#ANTIQUE_WHITE# %s]], "tformat")
---]==]
+#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Catégorie:#AQUAMARINE# %s
+#GOLD#Ingrédient:#0080FF# %s
+#GOLD#Quantité:#0080FF# %s
+#GOLD#Texte:#ANTIQUE_WHITE# %s]], "tformat")
 
 
 ------------------------------------------------
@@ -46929,27 +46914,21 @@ t("Inventory", "Inventaire", "_t")
 section "mod-tome/mod/dialogs/ShowLore.lua"
 
 t("Category", "Catégorie", "_t")
--- untranslated text
---[==[
-t("Lore", "Lore", "_t")
-t("Search: ", "Search: ", "_t")
+t("Lore", "Chronique", "_t")
+t("Search: ", "Chercher: ", "_t")
 t("", "", "_t")
 t([[#GOLD#Category:#AQUAMARINE# %s
 #GOLD#Found as:#0080FF# %s
-#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Category:#AQUAMARINE# %s
-#GOLD#Found as:#0080FF# %s
-#GOLD#Text:#ANTIQUE_WHITE# %s]], "tformat")
---]==]
+#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Catégorie:#AQUAMARINE# %s
+#GOLD#Trouvé comme:#0080FF# %s
+#GOLD#Texte:#ANTIQUE_WHITE# %s]], "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowMap.lua"
 
 
--- untranslated text
---[==[
-t("Map: #0080FF#%s", "Map: #0080FF#%s", "tformat")
---]==]
+t("Map: #0080FF#%s", "Carte: #0080FF#%s", "tformat")
 
 
 ------------------------------------------------
@@ -46959,38 +46938,29 @@ t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
 t("Price", "Prix", "_t")
 t("Store", "Magasin", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
-t(" (pays up to %0.2f gold, Your Gold: %0.2f)", " (pays up to %0.2f gold, Your Gold: %0.2f)", "tformat")
---]==]
+t(" (pays up to %0.2f gold, Your Gold: %0.2f)", " (payez jusqu'à %0.2f d'or, votre or: %0.2f)", "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/SwiftHands.lua"
 
 t("Inventory", "Inventaire", "_t")
--- untranslated text
---[==[
-t("Managed readied tools", "Managed readied tools", "_t")
+t("Managed readied tools", "Gérer les outils préparés", "_t")
 t("", "", "_t")
-t("Readied tools", "Readied tools", "_t")
---]==]
+t("Readied tools", "Outils préparés", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/SwiftHandsUse.lua"
 
 t("Inventory", "Inventaire", "_t")
--- untranslated text
---[==[
 t("", "", "_t")
-t("Tool", "Tool", "_t")
-t("Cooldown", "Cooldown", "_t")
-t("Ready", "Ready", "_t")
+t("Tool", "Outils", "_t")
+t("Cooldown", "Rechargement", "_t")
+t("Ready", "Prêt", "_t")
 t("%d/%d", "%d/%d", "tformat")
 t("#RED#%d/%d", "#RED#%d/%d", "tformat")
---]==]
 
 
 ------------------------------------------------
