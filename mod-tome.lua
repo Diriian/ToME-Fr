@@ -46967,90 +46967,78 @@ t("#RED#%d/%d", "#RED#%d/%d", "tformat")
 section "mod-tome/mod/dialogs/TrapsSelect.lua"
 
 t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#Vous ne pouvez pas préparer ce piège: %s.", "logPlayer")
--- untranslated text
---[==[
-t("Select Traps", "Select Traps", "_t")
-t("Select traps to prepare:", "Select traps to prepare:", "_t")
+t("Select Traps", "Sélection des pièges", "_t")
+t("Select traps to prepare:", "Séléctionnez les pièges à préparer:", "_t")
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
-t("starting trap selection dialog", "starting trap selection dialog", "log")
-t(" (replacing instant trigger)", " (replacing instant trigger)", "_t")
-t(" (primed trigger)", " (primed trigger)", "_t")
-t(" (prepared)", " (prepared)", "_t")
-t(" (preparing)", " (preparing)", "_t")
-t(" (dismantling)", " (dismantling)", "_t")
-t(" (need more skill)", " (need more skill)", "_t")
+t("starting trap selection dialog", "démarrage de la sélection des pièges", "log")
+t(" (replacing instant trigger)", " (remplacement du déclencheur instantané)", "_t")
+t(" (primed trigger)", " (déclencheur amorcé)", "_t")
+t(" (prepared)", " (préparé)", "_t")
+t(" (preparing)", " (préparation)", "_t")
+t(" (dismantling)", " (démantèlement)", "_t")
+t(" (need more skill)", " (besoin de plus de talent)", "_t")
 t(" (%s)", " (%s)", "tformat")
-t("%s) Tier %d: %s%s", "%s) Tier %d: %s%s", "tformat")
-t("#LIGHT_BLUE#You need more skill to prepare this trap.", "#LIGHT_BLUE#You need more skill to prepare this trap.", "logPlayer")
-t("#LIGHT_BLUE#Preparing trap with normal trigger.", "#LIGHT_BLUE#Preparing trap with normal trigger.", "logPlayer")
-t("Accept these selections", "Accept these selections", "_t")
-t("#LIGHT_BLUE#You cannot prepare more than %d traps.", "#LIGHT_BLUE#You cannot prepare more than %d traps.", "logPlayer")
---]==]
+t("%s) Tier %d: %s%s", "%s) Palier %d: %s%s", "tformat")
+t("#LIGHT_BLUE#You need more skill to prepare this trap.", "#LIGHT_BLUE#Vous avez besoin de plus de talent pour préparer ce piège.", "logPlayer")
+t("#LIGHT_BLUE#Preparing trap with normal trigger.", "#LIGHT_BLUE#Préparation du piège avec un déclanchement normale.", "logPlayer")
+t("Accept these selections", "Acceptez ces sélections", "_t")
+t("#LIGHT_BLUE#You cannot prepare more than %d traps.", "#LIGHT_BLUE#Vous ne pouvez pas préparer plus de %d pièges.", "logPlayer")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UberTalent.lua"
 
 
--- untranslated text
---[==[
-t("Prodigies: %s", "Prodigies: %s", "tformat")
+t("Prodigies: %s", "Prodiges: %s", "tformat")
 t([[#LIGHT_GREEN#Number available: %d#LAST#
 Prodigies are special talents that only the most powerful of characters can attain.%s
-All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], [[#LIGHT_GREEN#Number available: %d#LAST#
-Prodigies are special talents that only the most powerful of characters can attain.%s
-All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], "_t")
+All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], [[#LIGHT_GREEN#Nombre disponible: %d#LAST#
+Les prodiges sont des talents spéciaux que seuls les personnages les plus puissants peuvent atteindre.%s
+Tous nécessitent au moins 50 dans une statistique de base et beaucoup ont également des exigences plus spéciales. Vous pouvez apprendre un nouveau prodige aux niveaux 25 et 42.]], "_t")
 t("\
 Evolutions are special prodigies specific to a class or race. Only one evolution can be choosen, if any are available at all.", "\
-Evolutions are special prodigies specific to a class or race. Only one evolution can be choosen, if any are available at all.", "_t")
-t("#{bold}##GOLD#Prodigies#{normal}#", "#{bold}##GOLD#Prodigies#{normal}#", "_t")
+Les évolutions sont des prodiges spéciaux spécifiques à une classe ou à une race. Une seule évolution peut être choisie.", "_t")
+t("#{bold}##GOLD#Prodigies#{normal}#", "#{bold}##GOLD#Prodiges#{normal}#", "_t")
 t("#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", "#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UnlockDialog.lua"
 
 
--- untranslated text
---[==[
-t("#VIOLET#Option unlocked: %s", "#VIOLET#Option unlocked: %s", "logPlayer")
-t("Option unlocked: %s", "Option unlocked: %s", "tformat")
---]==]
+t("#VIOLET#Option unlocked: %s", "#VIOLET#Option déverrouillée: %s", "logPlayer")
+t("Option unlocked: %s", "Option déverrouillée: %s", "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UseItemDialog.lua"
 
 t("You must wear this object to use it!", "Vous devez porter cet objet pour l'utiliser!", "_t")
--- untranslated text
---[==[
 t("Impossible", "Impossible", "_t")
-t("Drop how many?", "Drop how many?", "_t")
-t("1 to %d", "1 to %d", "tformat")
-t("Attach to item", "Attach to item", "_t")
-t("You do not have any equipped items that it can be attached to.", "You do not have any equipped items that it can be attached to.", "_t")
-t("Select which item to attach it to:", "Select which item to attach it to:", "_t")
-t("Really %s %s", "Really %s %s", "tformat")
-t("Tag object (tagged objects can not be destroyed or dropped)", "Tag object (tagged objects can not be destroyed or dropped)", "_t")
-t("Tag:", "Tag:", "_t")
-t("Identify", "Identify", "_t")
-t("Move to normal inventory", "Move to normal inventory", "_t")
-t("Use", "Use", "_t")
-t("Wield/Wear", "Wield/Wear", "_t")
-t("Take off", "Take off", "_t")
-t("Detach from item", "Detach from item", "_t")
-t("Detach tinker", "Detach tinker", "_t")
-t("Drop", "Drop", "_t")
-t("Transfer to party", "Transfer to party", "_t")
-t("%s now", "%s now", "tformat")
-t("Link item in chat", "Link item in chat", "_t")
-t("Lua inspect", "Lua inspect", "_t")
-t("Tag", "Tag", "_t")
-t("Untag", "Untag", "_t")
---]==]
+t("Drop how many?", "En laisser tomber combien?", "_t")
+t("1 to %d", "1 à %d", "tformat")
+t("Attach to item", "Attacher à l'objet", "_t")
+t("You do not have any equipped items that it can be attached to.", "Vous ne disposez d'aucun objet équipé auquel il peut être attaché.", "_t")
+t("Select which item to attach it to:", "Sélectionnez l'objet auquel l'attacher:", "_t")
+t("Really %s %s", "Vraiment %s %s", "tformat")
+t("Tag object (tagged objects can not be destroyed or dropped)", "Objet étiqueté (les objets étiquetés ne peuvent pas être détruits ou abandonnés)", "_t")
+t("Tag:", "Étiquette:", "_t")
+t("Identify", "Identifier", "_t")
+t("Move to normal inventory", "Le passer dans l'inventaire normal", "_t")
+t("Use", "Utiliser", "_t")
+t("Wield/Wear", "Manier/Porter", "_t")
+t("Take off", "enlever", "_t")
+t("Detach from item", "Détacher de l'objet", "_t")
+t("Detach tinker", "Detacher la babiole", "_t")
+t("Drop", "Laissez tomber", "_t")
+t("Transfer to party", "Transferer au groupe", "_t")
+t("%s now", "%s maintenant", "tformat")
+t("Link item in chat", "Afficher l'objet dans le chat", "_t")
+t("Lua inspect", "Inspection Lua", "_t")
+t("Tag", "Étiquette", "_t")
+t("Untag", "Enlever l'étiquette", "_t")
 
 
 ------------------------------------------------
@@ -47060,60 +47048,57 @@ t("Active", "Activé", "_t")
 t("Passive", "Passif", "_t")
 t("Status", "Statut", "_t")
 t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
-t("%s assigned to hotkey %s", "%s assigné au raccourci %s", "tformat")
--- untranslated text
---[==[
-t("%s turns", "%s turns", "tformat")
-t("Unavailable", "Unavailable", "_t")
-t("Object", "Object", "_t")
-t("Sustaining", "Sustaining", "_t")
-t("Sustain", "Sustain", "_t")
-t("Use Talents: %s", "Use Talents: %s", "tformat")
+t("%s assigned to hotkey %s", "%s assigné a la touche %s", "tformat")
+t("%s turns", "%s tours", "tformat")
+t("Unavailable", "Non disponible", "_t")
+t("Object", "Objet", "_t")
+t("Sustaining", "Soutenir", "_t")
+t("Sustain", "Soutenu", "_t")
+t("Use Talents: %s", "Talents Utilisé: %s", "tformat")
 t([[You can bind a non-passive talent to a hotkey by pressing the corresponding hotkey while selecting a talent or by right-clicking on the talent.
 Check out the keybinding screen in the game menu to bind hotkeys to a key (default is 1-0 plus control, shift, or alt).
 Right click or press '~' to configure talent confirmation and automatic use.
-]], [[You can bind a non-passive talent to a hotkey by pressing the corresponding hotkey while selecting a talent or by right-clicking on the talent.
-Check out the keybinding screen in the game menu to bind hotkeys to a key (default is 1-0 plus control, shift, or alt).
-Right click or press '~' to configure talent confirmation and automatic use.
+]], [[Vous pouvez lier un talent non passif à une touche de raccourci en appuyant sur la touche de raccourci correspondante lors de la sélection d'un talent ou en faisant un clic droit sur le talent.
+Consultez l'écran des raccourcis claviers dans le menu pour lier un raccourci clavier à une touche (par défaut, 1-0 plus control, shift ou alt).
+Cliquez avec le bouton droit ou appuyez sur "~" pour configurer la confirmation et l'utilisation automatique du talent.
 ]], "_t")
 t("", "", "_t")
 t("Talent", "Talent", "_t")
-t("Hotkey", "Hotkey", "_t")
-t("Mouse Click", "Mouse Click", "_t")
-t("Unbind", "Unbind", "_t")
-t("Bind to left mouse click (on a target)", "Bind to left mouse click (on a target)", "_t")
-t("Bind to middle mouse click (on a target)", "Bind to middle mouse click (on a target)", "_t")
-t("Link in chat", "Link in chat", "_t")
-t("#YELLOW#Disable talent confirmation", "#YELLOW#Disable talent confirmation", "_t")
-t("%sRequest confirmation before using this talent", "%sRequest confirmation before using this talent", "tformat")
-t("#YELLOW#Disable ", "#YELLOW#Disable ", "_t")
-t("Auto-use when available", "Auto-use when available", "_t")
-t("Auto-use when no enemies are visible", "Auto-use when no enemies are visible", "_t")
-t("Auto-use when enemies are visible", "Auto-use when enemies are visible", "_t")
-t("Auto-use when enemies are visible and adjacent", "Auto-use when enemies are visible and adjacent", "_t")
-t("Auto-use when out of combat", "Auto-use when out of combat", "_t")
-t("Hotkey ", "Hotkey ", "_t")
-t("Bind talent: %s", "Bind talent: %s", "tformat")
-t("How do you want to bind this talent?", "How do you want to bind this talent?", "_t")
-t("Middle mouse click assigned", "Middle mouse click assigned", "_t")
-t("%s assigned to middle mouse click on an hostile target.", "%s assigned to middle mouse click on an hostile target.", "tformat")
-t("Left mouse click assigned", "Left mouse click assigned", "_t")
-t("%s assigned to left mouse click on an hostile target.", "%s assigned to left mouse click on an hostile target.", "tformat")
-t("#{bold}#Activable talents#{normal}#", "#{bold}#Activable talents#{normal}#", "_t")
-t("All activable talents you can currently use.", "All activable talents you can currently use.", "_t")
-t("#{bold}#Object powers#{normal}#", "#{bold}#Object powers#{normal}#", "_t")
-t("Object powers that can be activated automatically.  Most usable objects will appear here unless they are on cooldown or have ai restrictions.", "Object powers that can be activated automatically.  Most usable objects will appear here unless they are on cooldown or have ai restrictions.", "_t")
-t("#{bold}#Sustainable talents#{normal}#", "#{bold}#Sustainable talents#{normal}#", "_t")
-t("All sustainable talents you can currently use.", "All sustainable talents you can currently use.", "_t")
-t("#{bold}#Sustained talents#{normal}#", "#{bold}#Sustained talents#{normal}#", "_t")
-t("All sustainable talents you currently sustain, using them will de-activate them.", "All sustainable talents you currently sustain, using them will de-activate them.", "_t")
-t("#{bold}#Cooling down talents#{normal}#", "#{bold}#Cooling down talents#{normal}#", "_t")
-t("All talents you have used that are still cooling down.", "All talents you have used that are still cooling down.", "_t")
-t("#{bold}#Unavailable talents#{normal}#", "#{bold}#Unavailable talents#{normal}#", "_t")
-t("All talents you have that do not have enough resources, or satisfy other dependencies.", "All talents you have that do not have enough resources, or satisfy other dependencies.", "_t")
-t("#{bold}#Passive talents#{normal}#", "#{bold}#Passive talents#{normal}#", "_t")
-t("All your passive talents, they are always active.", "All your passive talents, they are always active.", "_t")
---]==]
+t("Hotkey", "Raccourci clavier", "_t")
+t("Mouse Click", "Clic de souris", "_t")
+t("Unbind", "Désassigner", "_t")
+t("Bind to left mouse click (on a target)", "Assigner au clic gauche de la souris (sur une cible)", "_t")
+t("Bind to middle mouse click (on a target)", "Assigner au clic central de la souris (sur une cible)", "_t")
+t("Link in chat", "Lien dans le chat", "_t")
+t("#YELLOW#Disable talent confirmation", "#YELLOW#Confirmation de la sésactiver du talent", "_t")
+t("%sRequest confirmation before using this talent", "%sExiger une confirmation avant d'utiliser ce talent", "tformat")
+t("#YELLOW#Disable ", "#YELLOW#Désactiver ", "_t")
+t("Auto-use when available", "Usage auto si disponible", "_t")
+t("Auto-use when no enemies are visible", "Usage auto lorsqu'aucun ennemi n'est visible", "_t")
+t("Auto-use when enemies are visible", "Usage auto lorsque les ennemis sont visibles", "_t")
+t("Auto-use when enemies are visible and adjacent", "Usage auto lorsque les ennemis sont visibles et adjacents", "_t")
+t("Auto-use when out of combat", "Usage auto en dehors du combat", "_t")
+t("Hotkey ", "Raccourci clavier ", "_t")
+t("Bind talent: %s", "Assigner le talent: %s", "tformat")
+t("How do you want to bind this talent?", "Comment voulez-vous assigner ce talent?", "_t")
+t("Middle mouse click assigned", "Clic du milieu de la souris assigné", "_t")
+t("%s assigned to middle mouse click on an hostile target.", "%s assigné au clic central de la souris sur une cible hostile.", "tformat")
+t("Left mouse click assigned", "Clic gauche de la souris assigné", "_t")
+t("%s assigned to left mouse click on an hostile target.", "%s assigné au clic gauche de la souris sur une cible hostile.", "tformat")
+t("#{bold}#Activable talents#{normal}#", "#{bold}#Talents activables#{normal}#", "_t")
+t("All activable talents you can currently use.", "Tous les talents activables que vous pouvez actuellement utiliser.", "_t")
+t("#{bold}#Object powers#{normal}#", "#{bold}#Pouvoirs d'objet#{normal}#", "_t")
+t("Object powers that can be activated automatically.  Most usable objects will appear here unless they are on cooldown or have ai restrictions.", "Pouvoirs d'objets qui peuvent être activés automatiquement. La plupart des objets utilisables apparaîtront ici sauf s'ils sont en temps de recharge ou s'ils ont des restrictions d'IA.", "_t")
+t("#{bold}#Sustainable talents#{normal}#", "#{bold}#Talents soutenables#{normal}#", "_t")
+t("All sustainable talents you can currently use.", "Tous les talents soutenables que vous pouvez actuellement utiliser.", "_t")
+t("#{bold}#Sustained talents#{normal}#", "#{bold}#Talents soutenus#{normal}#", "_t")
+t("All sustainable talents you currently sustain, using them will de-activate them.", "Tous les talents soutenables que vous soutenez actuellement, les utiliser les désactivera.", "_t")
+t("#{bold}#Cooling down talents#{normal}#", "#{bold}#Talents en rechargement#{normal}#", "_t")
+t("All talents you have used that are still cooling down.", "Tous les talents que vous avez utilisés qui sont encore en rechargement.", "_t")
+t("#{bold}#Unavailable talents#{normal}#", "#{bold}#Talents indisponibles#{normal}#", "_t")
+t("All talents you have that do not have enough resources, or satisfy other dependencies.", "Tous les talents dont vous disposez qui ne disposent pas de suffisamment de ressources ou qui satisfont d'autres dépendances.", "_t")
+t("#{bold}#Passive talents#{normal}#", "#{bold}#Talents passifs#{normal}#", "_t")
+t("All your passive talents, they are always active.", "Tous vos talents passifs, ils sont toujours actifs.", "_t")
 
 
 ------------------------------------------------
