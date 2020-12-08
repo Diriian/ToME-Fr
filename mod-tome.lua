@@ -47110,59 +47110,53 @@ t("%d stat point(s)", "%d point(s) de stats", "tformat")
 t("%d class talent point(s)", "%d point(s) de classe de talent", "tformat")
 t("%d generic talent point(s)", "%d point(s) de talent générique", "tformat")
 t("%d category point(s)", "%d point(s) de catégorie", "tformat")
--- untranslated text
---[==[
-t("DEBUG -- Levelup Actor: [%s] %s", "DEBUG -- Levelup Actor: [%s] %s", "tformat")
+t("DEBUG -- Levelup Actor: [%s] %s", "DEBUG -- Augmentez un personnage: [%s] %s", "tformat")
 t([[Levelup an actor.
 Optionally set Stat levels, learn all talents possible, and gain points to spend on Levelup. 
 The actor is backed up before changes are made.  (Use the "Restore" button to recover.)
-]], [[Levelup an actor.
-Optionally set Stat levels, learn all talents possible, and gain points to spend on Levelup. 
-The actor is backed up before changes are made.  (Use the "Restore" button to recover.)
+]], [[Augmentez un personnage.
+Définissez éventuellement des niveaux de statistiques, apprenez tous les talents possibles et gagnez des points à dépenser pour Augmenter votre niveau.
+Le personnage est sauvegardé avant que les modifications ne soient apportées. (Utilisez le bouton "Restaurer" pour le récupérer.)
 ]], "_t")
-t(" Advance to Level: ", " Advance to Level: ", "_t")
-t("Restore: %s (v%d)", "Restore: %s (v%d)", "tformat")
-t("Restore: none", "Restore: none", "_t")
-t("#LIGHT_BLUE#Restoring [%s]%s from backup version %d", "#LIGHT_BLUE#Restoring [%s]%s from backup version %d", "log")
-t("Gain points for stats, talents, and prodigies (unlimited respec)", "Gain points for stats, talents, and prodigies (unlimited respec)", "_t")
-t(" Force all BASE stats to: ", " Force all BASE stats to: ", "_t")
+t(" Advance to Level: ", " Agmentez le niveau: ", "_t")
+t("Restore: %s (v%d)", "Restorer: %s (v%d)", "tformat")
+t("Restore: none", "Restorer: aucun", "_t")
+t("#LIGHT_BLUE#Restoring [%s]%s from backup version %d", "#LIGHT_BLUE#Restoration [%s]%s de la version de sauvegarde %d", "log")
+t("Gain points for stats, talents, and prodigies (unlimited respec)", "Gagnez des points pour les statistiques, les talents et les prodiges (restructuration illimité)", "_t")
+t(" Force all BASE stats to: ", " Forcer toutes les stats de BASE à: ", "_t")
 t("", "", "_t")
-t(" Force all BONUS stats to: ", " Force all BONUS stats to: ", "_t")
-t("Learn Talents ", "Learn Talents ", "_t")
-t("Unlock & Learn all available talents to level: ", "Unlock & Learn all available talents to level: ", "_t")
-t("maximum allowed", "maximum allowed", "_t")
-t("Ignore requirements", "Ignore requirements", "_t")
-t("Force all talent mastery levels to (0.1-5.0): ", "Force all talent mastery levels to (0.1-5.0): ", "_t")
-t("no change", "no change", "_t")
-t("Unlock all talent types (slow)", "Unlock all talent types (slow)", "_t")
-t("#LIGHT_BLUE#AdvanceActor inputs: %s", "#LIGHT_BLUE#AdvanceActor inputs: %s", "log")
-t("%s #GOLD#Forcing all Base Stats to %s", "%s #GOLD#Forcing all Base Stats to %s", "log")
-t("%s #GOLD#Resetting all talents_types_mastery to %s", "%s #GOLD#Resetting all talents_types_mastery to %s", "log")
-t("%s #GOLD#Unlocking All Talent Types", "%s #GOLD#Unlocking All Talent Types", "log")
+t(" Force all BONUS stats to: ", " Forcer toutes les stats BONUS à: ", "_t")
+t("Learn Talents ", "Apprendre les talents ", "_t")
+t("Unlock & Learn all available talents to level: ", "Débloquez et apprenez tous les talents disponibles au niveau: ", "_t")
+t("maximum allowed", "maximum autorisé", "_t")
+t("Ignore requirements", "Ignorer les conditions requises", "_t")
+t("Force all talent mastery levels to (0.1-5.0): ", "Forcer tous les niveaux de maîtrise des talents à (0.1-5.0): ", "_t")
+t("no change", "aucun changement", "_t")
+t("Unlock all talent types (slow)", "Débloquez tous les types de talents (lent)", "_t")
+t("#LIGHT_BLUE#AdvanceActor inputs: %s", "#LIGHT_BLUE#Entrées AdvanceActor: %s", "log")
+t("%s #GOLD#Forcing all Base Stats to %s", "%s #GOLD#Forcer toutes les statistiques de base à %s", "log")
+t("%s #GOLD#Resetting all talents_types_mastery to %s", "%s #GOLD#Réinitialiser tous les talents_types_mastery à %s", "log")
+t("%s #GOLD#Unlocking All Talent Types", "%s #GOLD#Débloquer tous les types de talents", "log")
 t("#LIGHT_BLUE#%s -- %s", "#LIGHT_BLUE#%s -- %s", "log")
-t("#GOLD#Checking %s Talents (%s)", "#GOLD#Checking %s Talents (%s)", "log")
-t("#LIGHT_BLUE#Talent %s learned to level %d", "#LIGHT_BLUE#Talent %s learned to level %d", "log")
-t("%s #GOLD#Forcing all Bonus Stats to %s", "%s #GOLD#Forcing all Bonus Stats to %s", "log")
-t("#ORCHID#%d prodigy point(s)#LAST#", "#ORCHID#%d prodigy point(s)#LAST#", "tformat")
-t("#LIGHT_BLUE#%s has %s to spend", "#LIGHT_BLUE#%s has %s to spend", "log")
-t(", and ", ", and ", "_t")
---]==]
+t("#GOLD#Checking %s Talents (%s)", "#GOLD#Vérification des talents de %s (%s)", "log")
+t("#LIGHT_BLUE#Talent %s learned to level %d", "#LIGHT_BLUE#Talent %s appris au niveau %d", "log")
+t("%s #GOLD#Forcing all Bonus Stats to %s", "%s #GOLD#Forcer toutes les statistiques bonus à %s", "log")
+t("#ORCHID#%d prodigy point(s)#LAST#", "#ORCHID#%d point(s) de prodige#LAST#", "tformat")
+t("#LIGHT_BLUE#%s has %s to spend", "#LIGHT_BLUE#%s a %s à dépenser", "log")
+t(", and ", ", et ", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AdvanceZones.lua"
 
 
--- untranslated text
---[==[
-t("Advance Through Zones", "Advance Through Zones", "_t")
-t("Enter a comma delimited list of zones or zone tiers to clear", "Enter a comma delimited list of zones or zone tiers to clear", "_t")
-t("%s:  Level %0.2f to %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "%s:  Level %0.2f to %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "tformat")
-t("#RED#Low value items have been dropped on the ground.#LAST#", "#RED#Low value items have been dropped on the ground.#LAST#", "log")
-t("Unable to level change to floor 1 of %s", "Unable to level change to floor 1 of %s", "log")
-t("%s is not valid for autoclear", "%s is not valid for autoclear", "log")
-t("Unable to level change to floor %d of %s", "Unable to level change to floor %d of %s", "log")
---]==]
+t("Advance Through Zones", "Avancer à travers les zones", "_t")
+t("Enter a comma delimited list of zones or zone tiers to clear", "Entrez une liste délimitée par des virgules de zones ou de niveaux de zone à effacer", "_t")
+t("%s:  Level %0.2f to %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "%s:  Niveau %0.2f à %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "tformat")
+t("#RED#Low value items have been dropped on the ground.#LAST#", "#RED#Des objets de faible valeur ont été déposés sur le sol.#LAST#", "log")
+t("Unable to level change to floor 1 of %s", "Impossible de changer le niveau à l'étage 1 de %s", "log")
+t("%s is not valid for autoclear", "%s n'est pas valide pour le nettoyage automatique", "log")
+t("Unable to level change to floor %d of %s", "Impossible de modifier le niveau de l'étage %d de %s", "log")
 
 
 ------------------------------------------------
@@ -47170,73 +47164,64 @@ section "mod-tome/mod/dialogs/debug/AlterFaction.lua"
 
 t("friendly", "amicale", "_t")
 t("neutral", "neutre", "_t")
--- untranslated text
---[==[
-t("DEBUG -- Alter Faction", "DEBUG -- Alter Faction", "_t")
-t("Alter: %s", "Alter: %s", "tformat")
-t("Alter to which state:", "Alter to which state:", "_t")
+t("DEBUG -- Alter Faction", "DEBUG -- Modifier la faction", "_t")
+t("Alter: %s", "Modifier: %s", "tformat")
+t("Alter to which state:", "Modifier en quel état:", "_t")
 t("hostile", "hostile", "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/ChangeZone.lua"
 
 
--- untranslated text
---[==[
-t("DEBUG -- Change Zone", "DEBUG -- Change Zone", "_t")
-t("Zone: %s", "Zone: %s", "tformat")
-t("Level %s-%s", "Level %s-%s", "tformat")
---]==]
+t("DEBUG -- Change Zone", "DEBUG -- Changer de Secteur", "_t")
+t("Zone: %s", "Secteur: %s", "tformat")
+t("Level %s-%s", "Niveau %s-%s", "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/CreateItem.lua"
 
 t("Cancel", "Annuler", "tformat")
--- untranslated text
---[==[
-t("DEBUG -- Create Object", "DEBUG -- Create Object", "_t")
-t("Load from other zones ", "Load from other zones ", "_t")
+t("DEBUG -- Create Object", "DEBUG -- Création d'objet", "_t")
+t("Load from other zones ", "Charger à partir d'autres zones ", "_t")
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
- %s]], [[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
+ %s]], [[#ORANGE# Créer un objet: impossible de charger tous les objets du fichier %s:#GREY#
  %s]], "log")
-t("Generate examples (right-click refreshes) ", "Generate examples (right-click refreshes) ", "_t")
-t("#CRIMSON#==Resolved Example==#LAST#", "#CRIMSON#==Resolved Example==#LAST#", "_t")
+t("Generate examples (right-click refreshes) ", "Générer des exemples (actualisations par clic droit) ", "_t")
+t("#CRIMSON#==Resolved Example==#LAST#", "#CRIMSON#==Exemple résolu==#LAST#", "_t")
 t([[#LIGHT_BLUE#Object %s could not be generated or identified. Error:
-%s]], [[#LIGHT_BLUE#Object %s could not be generated or identified. Error:
+%s]], [[#LIGHT_BLUE#L'objet %s n'a pas pu être généré ou identifié. Erreur:
 %s]], "log")
 t("#GOLD#%s#LAST#", "#GOLD#%s#LAST#", "tformat")
-t("Object could not be resolved/identified.", "Object could not be resolved/identified.", "_t")
+t("Object could not be resolved/identified.", "L'objet n'a pas pu être résolu/identifié.", "_t")
 t([[Error:
-%s]], [[Error:
+%s]], [[Erreur:
 %s]], "tformat")
-t("#LIGHT_BLUE#Could not add object to %s at (%d, %d)", "#LIGHT_BLUE#Could not add object to %s at (%d, %d)", "log")
-t("#LIGHT_BLUE#No creature to add object to at (%d, %d)", "#LIGHT_BLUE#No creature to add object to at (%d, %d)", "log")
-t("#LIGHT_BLUE#No object to create", "#LIGHT_BLUE#No object to create", "log")
-t("Place Object", "Place Object", "_t")
-t("Place the object where?", "Place the object where?", "_t")
-t("Inventory of %s%s", "Inventory of %s%s", "tformat")
-t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(player)#LAST#", "_t")
-t("Drop @ (%s, %s)%s", "Drop @ (%s, %s)%s", "tformat")
-t("#LIGHT_BLUE#Dropped %s at (%d, %d)", "#LIGHT_BLUE#Dropped %s at (%d, %d)", "log")
-t("NPC Inventory", "NPC Inventory", "tformat")
-t("#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "log")
-t("Number of items to make", "Number of items to make", "_t")
-t("Enter 1-100%s", "Enter 1-100%s", "tformat")
-t(", or 0 for the example item", ", or 0 for the example item", "_t")
-t("#LIGHT_BLUE# Creating %d items:", "#LIGHT_BLUE# Creating %d items:", "log")
+t("#LIGHT_BLUE#Could not add object to %s at (%d, %d)", "#LIGHT_BLUE#Impossible d'ajouter l'objet à %s à (%d, %d)", "log")
+t("#LIGHT_BLUE#No creature to add object to at (%d, %d)", "#LIGHT_BLUE#Aucune créature à laquelle ajouter un objet à (%d, %d)", "log")
+t("#LIGHT_BLUE#No object to create", "#LIGHT_BLUE#Aucun objet à créer", "log")
+t("Place Object", "Placer un objet", "_t")
+t("Place the object where?", "Où placer l'objet?", "_t")
+t("Inventory of %s%s", "Inventaire de %s%s", "tformat")
+t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(joueur)#LAST#", "_t")
+t("Drop @ (%s, %s)%s", "Lâcher @ (%s, %s)%s", "tformat")
+t("#LIGHT_BLUE#Dropped %s at (%d, %d)", "#LIGHT_BLUE#Lâcher %s à (%d, %d)", "log")
+t("NPC Inventory", "Inventaire du PNJ", "tformat")
+t("#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "#LIGHT_BLUE#OBJET:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, emplacement %s} at (%s, %s)#LAST#", "log")
+t("Number of items to make", "Nombre d'objets à fabriquer", "_t")
+t("Enter 1-100%s", "De 1-100%s", "tformat")
+t(", or 0 for the example item", ", ou 0 pour créer un exemple", "_t")
+t("#LIGHT_BLUE# Creating %d items:", "#LIGHT_BLUE# Créeation de %d objets:", "log")
 t("Ego", "Ego", "_t")
-t("Add an ego enhancement if possible?", "Add an ego enhancement if possible?", "_t")
-t("#LIGHT_BLUE#Created %s", "#LIGHT_BLUE#Created %s", "log")
-t("Greater Ego", "Greater Ego", "_t")
-t("Add a greater ego enhancement if possible?", "Add a greater ego enhancement if possible?", "_t")
-t(" #GOLD#All Artifacts#LAST#", " #GOLD#All Artifacts#LAST#", "_t")
-t("#LIGHT_BLUE#Creating All Artifacts.", "#LIGHT_BLUE#Creating All Artifacts.", "log")
-t("#LIGHT_BLUE#%d artifacts created.", "#LIGHT_BLUE#%d artifacts created.", "log")
-t(" #YELLOW#Random Object#LAST#", " #YELLOW#Random Object#LAST#", "_t")
---]==]
+t("Add an ego enhancement if possible?", "Ajouter un ego si possible?", "_t")
+t("#LIGHT_BLUE#Created %s", "#LIGHT_BLUE#Crée %s", "log")
+t("Greater Ego", "Grand Ego", "_t")
+t("Add a greater ego enhancement if possible?", "Ajouter un grand ego si possible?", "_t")
+t(" #GOLD#All Artifacts#LAST#", " #GOLD#Tous les Artefacts#LAST#", "_t")
+t("#LIGHT_BLUE#Creating All Artifacts.", "#LIGHT_BLUE#Créer tous les artefacts.", "log")
+t("#LIGHT_BLUE#%d artifacts created.", "#LIGHT_BLUE#%d artefacts créés.", "log")
+t(" #YELLOW#Random Object#LAST#", " #YELLOW#Objet aléatoire#LAST#", "_t")
 
 
 ------------------------------------------------
