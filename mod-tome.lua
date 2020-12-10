@@ -47228,91 +47228,76 @@ t(" #YELLOW#Random Object#LAST#", " #YELLOW#Objet aléatoire#LAST#", "_t")
 section "mod-tome/mod/dialogs/debug/CreateTrap.lua"
 
 
--- untranslated text
---[==[
-t("DEBUG -- Create Trap", "DEBUG -- Create Trap", "_t")
-t("#LIGHT_BLUE#Trap [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Trap [%s]%s already occupies (%d, %d)", "log")
-t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "log")
---]==]
+t("DEBUG -- Create Trap", "DEBUG -- Crée un piège", "_t")
+t("#LIGHT_BLUE#Trap [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Piège [%s]%s occupe déjà (%d, %d)", "log")
+t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Ajouté %s[%s]%s at (%d, %d)", "log")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/DebugMain.lua"
 
 t("Cancel", "Annuler", "_t")
--- untranslated text
---[==[
-t("Debug/Cheat! It's BADDDD!", "Debug/Cheat! It's BADDDD!", "_t")
-t("#LIGHT_BLUE#God mode OFF", "#LIGHT_BLUE#God mode OFF", "log")
-t("#LIGHT_BLUE#God mode ON", "#LIGHT_BLUE#God mode ON", "log")
-t("#LIGHT_BLUE#Demi-God mode OFF", "#LIGHT_BLUE#Demi-God mode OFF", "log")
-t("#LIGHT_BLUE#Demi-God mode ON", "#LIGHT_BLUE#Demi-God mode ON", "log")
-t("#LIGHT_BLUE#Revealing Map.", "#LIGHT_BLUE#Revealing Map.", "log")
+t("Debug/Cheat! It's BADDDD!", "Debug/Triche! C'est MAAAAAL!", "_t")
+t("#LIGHT_BLUE#God mode OFF", "#LIGHT_BLUE#Mode Dieu OFF", "log")
+t("#LIGHT_BLUE#God mode ON", "#LIGHT_BLUE#Mode Dieu ON", "log")
+t("#LIGHT_BLUE#Demi-God mode OFF", "#LIGHT_BLUE#Mode Demi-Dieu OFF", "log")
+t("#LIGHT_BLUE#Demi-God mode ON", "#LIGHT_BLUE#Mode Demi-Dieu ON", "log")
+t("#LIGHT_BLUE#Revealing Map.", "#LIGHT_BLUE#Révéler la carte.", "log")
 t("Zone: %s", "Zone: %s", "tformat")
-t("Level 1-%s", "Level 1-%s", "tformat")
-t("Kill or Remove", "Kill or Remove", "_t")
-t("Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "_t")
-t("#GREY#Removing [%s] %s at (%s, %s)", "#GREY#Removing [%s] %s at (%s, %s)", "log")
-t("#GREY#Killing [%s] %s at (%s, %s)", "#GREY#Killing [%s] %s at (%s, %s)", "log")
-t("#LIGHT_BLUE#%s %d creatures.", "#LIGHT_BLUE#%s %d creatures.", "log")
-t("Removed", "Removed", "_t")
-t("Killed", "Killed", "_t")
-t("Remove", "Remove", "_t")
-t("Kill", "Kill", "_t")
-t("Change Zone", "Change Zone", "_t")
-t("Change Level", "Change Level", "_t")
-t("Reveal all map", "Reveal all map", "_t")
-t("Toggle Demi-Godmode", "Toggle Demi-Godmode", "_t")
-t("Toggle Godmode", "Toggle Godmode", "_t")
-t("Alter Faction", "Alter Faction", "_t")
-t("Summon a Creature", "Summon a Creature", "_t")
-t("Create Items", "Create Items", "_t")
-t("Create a Trap", "Create a Trap", "_t")
-t("Grant/Alter Quests", "Grant/Alter Quests", "_t")
-t("Advance Player", "Advance Player", "_t")
-t("Remove or Kill all creatures", "Remove or Kill all creatures", "_t")
-t("Give Sher'tul fortress energy", "Give Sher'tul fortress energy", "_t")
-t("Give all ingredients", "Give all ingredients", "_t")
-t("Weakdamage", "Weakdamage", "_t")
-t("Spawn Event", "Spawn Event", "_t")
-t("Endgamify", "Endgamify", "_t")
-t("Reload/regenerate Zone and level", "Reload/regenerate Zone and level", "_t")
-t("Automatically Clear Zones", "Automatically Clear Zones", "_t")
---]==]
+t("Level 1-%s", "Niveau 1-%s", "tformat")
+t("Kill or Remove", "Tuer ou Enlever", "_t")
+t("Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "Enlever toutes les créatures(n'appartenant pas au groupe), ou les tuer pour le joueur(donne de l'expérience et laisse tomber le butin)?", "_t")
+t("#GREY#Removing [%s] %s at (%s, %s)", "#GREY#Enlever [%s] %s at (%s, %s)", "log")
+t("#GREY#Killing [%s] %s at (%s, %s)", "#GREY#Tuer [%s] %s at (%s, %s)", "log")
+t("#LIGHT_BLUE#%s %d creatures.", "#LIGHT_BLUE#%s %d créatures.", "log")
+t("Removed", "Enlevé", "_t")
+t("Killed", "Tué", "_t")
+t("Remove", "Enlever", "_t")
+t("Kill", "Tuer", "_t")
+t("Change Zone", "Changer de zone", "_t")
+t("Change Level", "Changer de niveau", "_t")
+t("Reveal all map", "Révéler toute la carte", "_t")
+t("Toggle Demi-Godmode", "Basculer en mode Demi-Dieu", "_t")
+t("Toggle Godmode", "Basculer en mode Dieu", "_t")
+t("Alter Faction", "Altération de la faction", "_t")
+t("Summon a Creature", "Invoquer une créature", "_t")
+t("Create Items", "Crée des objets", "_t")
+t("Create a Trap", "Crée un piège", "_t")
+t("Grant/Alter Quests", "Donner/Alterer les quêtes", "_t")
+t("Advance Player", "Avancer le joueur", "_t")
+t("Remove or Kill all creatures", "Enlever ou Tuer toutes les créatures", "_t")
+t("Give Sher'tul fortress energy", "Donner de l'énergie a la forteresse Sher'tul", "_t")
+t("Give all ingredients", "Récupérer tous les ingrédients", "_t")
+t("Weakdamage", "FaibleDégâts", "_t")
+t("Spawn Event", "Faire apparaître un événement", "_t")
+t("Endgamify", "Passer en mode Fin de partie", "_t")
+t("Reload/regenerate Zone and level", "Recharger/Régénérer zone et niveau", "_t")
+t("Automatically Clear Zones", "Automatiquement nettoyer les zones", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/Endgamify.lua"
 
 
--- untranslated text
---[==[
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
- %s]], [[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
+ %s]], [[#ORANGE# Création d'objet: impossible de charger tous les objets à partir du fichier %s:#GREY#
  %s]], "log")
-t("Failed to generate %s", "Failed to generate %s", "log")
---]==]
+t("Failed to generate %s", "Échec de la génération %s", "log")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/GrantQuest.lua"
 
 
--- untranslated text
---[==[
-t("Debug -- Grant/Alter Quest", "Debug -- Grant/Alter Quest", "_t")
---]==]
+t("Debug -- Grant/Alter Quest", "Debug -- Accorder/Modifier une quête", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/PlotTalent.lua"
 
 
--- untranslated text
---[==[
-t("Values plot for: %s (mastery %0.1f)", "Values plot for: %s (mastery %0.1f)", "tformat")
+t("Values plot for: %s (mastery %0.1f)", "GTracé des valeurs pour: %s (maîtrise %0.1f)", "tformat")
 t("TL: ", "TL: ", "_t")
---]==]
 
 
 ------------------------------------------------
