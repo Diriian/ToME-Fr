@@ -47304,10 +47304,8 @@ t("TL: ", "TL: ", "_t")
 section "mod-tome/mod/dialogs/debug/RandomActor.lua"
 
 
--- untranslated text
---[==[
-t("#LIGHT_GREEN#(From %s, line %s):#LAST#", "#LIGHT_GREEN#(From %s, line %s):#LAST#", "tformat")
-t("DEBUG -- Create Random Actor", "DEBUG -- Create Random Actor", "_t")
+t("#LIGHT_GREEN#(From %s, line %s):#LAST#", "#LIGHT_GREEN#(De %s, ligne %s):#LAST#", "tformat")
+t("DEBUG -- Create Random Actor", "DEBUG -- Crée un acteur aléatoire", "_t")
 t([[Randomly generate actors subject to a filter and/or create random bosses according to a data table.
 Filters are interpreted by game.zone:checkFilter.
 #ORANGE#Boss Data:#LAST# is interpreted by game.state:createRandomBoss, game.state:applyRandomClass, and Actor.levelupClass.
@@ -47316,47 +47314,46 @@ Press #GOLD#'F1'#LAST# for help.
 Mouse over controls for an actor preview (which may be further adjusted when placed on to the level).
 (Press #GOLD#'L'#LAST# to lua inspect or #GOLD#'C'#LAST# to open the character sheet.)
 
-The #LIGHT_BLUE#Base Filter#LAST# is used to filter the actor randomly generated.]], [[Randomly generate actors subject to a filter and/or create random bosses according to a data table.
-Filters are interpreted by game.zone:checkFilter.
-#ORANGE#Boss Data:#LAST# is interpreted by game.state:createRandomBoss, game.state:applyRandomClass, and Actor.levelupClass.
-Generation is performed within the _G environment (used by the Lua Console) using the current zone's #LIGHT_GREEN#npc_list#LAST#.
-Press #GOLD#'F1'#LAST# for help.
-Mouse over controls for an actor preview (which may be further adjusted when placed on to the level).
-(Press #GOLD#'L'#LAST# to lua inspect or #GOLD#'C'#LAST# to open the character sheet.)
+The #LIGHT_BLUE#Base Filter#LAST# is used to filter the actor randomly generated.]], [[Générer aléatoirement des acteurs soumis à un filtre et/ou créer des boss aléatoires selon un tableau de données.
+Les filtres sont interprétés par game.zone:checkFilter.
+#ORANGE#Données des boss:#LAST# est interprété par game.state: createRandomBoss, game.state:applyRandomClass et Actor.levelupClass.
+La génération est effectuée dans l'environnement _G (utilisé par la console Lua) en utilisant la zone actuelle #LIGHT_GREEN#npc_list#LAST#.
+Appuyez sur #GOLD#'F1'#LAST# pour l'aide.
+Passez la souris sur les commandes pour un aperçu de l'acteur (qui peut être ajusté davantage lorsqu'il est placé au niveau).
+(Appuyez sur #GOLD#'L'#LAST# pour lua inspecter ou #GOLD#'C'#LAST#pour ouvrir la feuille de personnage.)
 
-The #LIGHT_BLUE#Base Filter#LAST# is used to filter the actor randomly generated.]], "_t")
-t("#GREY#None#LAST#", "#GREY#None#LAST#", "_t")
-t("Current Base Actor: %s", "Current Base Actor: %s", "tformat")
-t("Generate", "Generate", "_t")
-t("#LIGHT_BLUE# Current base actor: %s", "#LIGHT_BLUE# Current base actor: %s", "log")
-t("Place", "Place", "_t")
-t("Default Filter", "Default Filter", "_t")
-t("#LIGHT_BLUE# Reset base filter", "#LIGHT_BLUE# Reset base filter", "log")
-t("Clear", "Clear", "_t")
-t("#LIGHT_BLUE# Clear base actor: %s", "#LIGHT_BLUE# Clear base actor: %s", "log")
-t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Base Filter:#LAST# ", "_t")
-t("The #ORANGE#Boss Data#LAST# is used to transform the base actor into a random boss (which will use a random actor if needed).", "The #ORANGE#Boss Data#LAST# is used to transform the base actor into a random boss (which will use a random actor if needed).", "_t")
-t("Current Boss Actor: %s", "Current Boss Actor: %s", "tformat")
-t("Default Data", "Default Data", "_t")
-t("#LIGHT_BLUE# Reset Randboss Data", "#LIGHT_BLUE# Reset Randboss Data", "log")
-t("#ORANGE#Boss Data:#LAST# ", "#ORANGE#Boss Data:#LAST# ", "_t")
-t("Filter and Data Help", "Filter and Data Help", "_t")
-t("#GREY#No Actor to Display#LAST#", "#GREY#No Actor to Display#LAST#", "_t")
-t("#LIGHT_BLUE#Inspect [%s]%s", "#LIGHT_BLUE#Inspect [%s]%s", "log")
-t("#LIGHT_BLUE#No actor to inspect", "#LIGHT_BLUE#No actor to inspect", "log")
-t("#LIGHT_BLUE#Lua Inspect [%s]%s", "#LIGHT_BLUE#Lua Inspect [%s]%s", "log")
-t("#LIGHT_BLUE#No actor to Lua inspect", "#LIGHT_BLUE#No actor to Lua inspect", "log")
-t("#LIGHT_BLUE#Bad filter for base actor: %s", "#LIGHT_BLUE#Bad filter for base actor: %s", "log")
-t("#LIGHT_BLUE#Could not generate a base actor with filter: %s", "#LIGHT_BLUE#Could not generate a base actor with filter: %s", "log")
+Le #LIGHT_BLUE#Filtre de base#LAST# est utilisé pour filtrer l'acteur généré aléatoirement.]], "_t")
+t("#GREY#None#LAST#", "#GREY#Aucun#LAST#", "_t")
+t("Current Base Actor: %s", "Acteur de base actuel: %s", "tformat")
+t("Generate", "Générer", "_t")
+t("#LIGHT_BLUE# Current base actor: %s", "#LIGHT_BLUE# Acteur de base actuel: %s", "log")
+t("Place", "Placer", "_t")
+t("Default Filter", "Filtre de base", "_t")
+t("#LIGHT_BLUE# Reset base filter", "#LIGHT_BLUE# Réinitialiser le filtre de base", "log")
+t("Clear", "Nettoyer", "_t")
+t("#LIGHT_BLUE# Clear base actor: %s", "#LIGHT_BLUE# Nettoyer la base d'acteur: %s", "log")
+t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base:#LAST# ", "_t")
+t("The #ORANGE#Boss Data#LAST# is used to transform the base actor into a random boss (which will use a random actor if needed).", "Les #ORANGE#Données des boss#LAST# sont utilisées pour transformer l'acteur de base en un boss aléatoire (qui utilisera acteur aléatoire si nécessaire).", "_t")
+t("Current Boss Actor: %s", "Acteur de boss actuel: %s", "tformat")
+t("Default Data", "Données par défaut", "_t")
+t("#LIGHT_BLUE# Reset Randboss Data", "#LIGHT_BLUE# Réinitialiser les données Randboss", "log")
+t("#ORANGE#Boss Data:#LAST# ", "#ORANGE#Données de boss:#LAST# ", "_t")
+t("Filter and Data Help", "Aide sur les filtres et les données", "_t")
+t("#GREY#No Actor to Display#LAST#", "#GREY#Aucun acteur à afficher#LAST#", "_t")
+t("#LIGHT_BLUE#Inspect [%s]%s", "#LIGHT_BLUE#Inspecter [%s]%s", "log")
+t("#LIGHT_BLUE#No actor to inspect", "#LIGHT_BLUE#Aucun acteur à inspecter", "log")
+t("#LIGHT_BLUE#Lua Inspect [%s]%s", "#LIGHT_BLUE#Inspection Lua [%s]%s", "log")
+t("#LIGHT_BLUE#No actor to Lua inspect", "#LIGHT_BLUE#Aucun acteur pour une inspection Lua", "log")
+t("#LIGHT_BLUE#Bad filter for base actor: %s", "#LIGHT_BLUE#Mauvais filtre pour l'acteur de base: %s", "log")
+t("#LIGHT_BLUE#Could not generate a base actor with filter: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec ce filtre: %s", "log")
 t([[#LIGHT_BLUE#Base actor could not be generated with filter [%s].
- Error:%s]], [[#LIGHT_BLUE#Base actor could not be generated with filter [%s].
- Error:%s]], "log")
-t("#LIGHT_BLUE#Bad data for random boss actor: %s", "#LIGHT_BLUE#Bad data for random boss actor: %s", "log")
-t("#LIGHT_BLUE#Could not generate a base actor with data: %s", "#LIGHT_BLUE#Could not generate a base actor with data: %s", "log")
+ Error:%s]], [[#LIGHT_BLUE#L'acteur de base n'a pas pu être généré avec ce filtre [%s].
+ Erreur:%s]], "log")
+t("#LIGHT_BLUE#Bad data for random boss actor: %s", "#LIGHT_BLUE#Mauvaises données pour l'acteur boss aléatoire: %s", "log")
+t("#LIGHT_BLUE#Could not generate a base actor with data: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec ces données: %s", "log")
 t([[#LIGHT_BLUE#ERROR: Random Boss could not be generated with data [%s].
- Error:%s]], [[#LIGHT_BLUE#ERROR: Random Boss could not be generated with data [%s].
- Error:%s]], "log")
---]==]
+ Error:%s]], [[#LIGHT_BLUE#ERREUR: le boss aléatoire n'a pas pu être généré avec ces données [%s].
+ Erreur:%s]], "log")
 
 
 ------------------------------------------------
@@ -47366,21 +47363,19 @@ t("unknown", "inconnu", "_t")
 t("None", "Aucune", "_t")
 t("Equipment", "Équipement", "_t")
 t("Inventory", "Inventaire", "_t")
--- untranslated text
---[==[
-t("#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "tformat")
-t("Don't apply a resolver", "Don't apply a resolver", "_t")
-t("Object will be equipped if possible, otherwise added to main inventory", "Object will be equipped if possible, otherwise added to main inventory", "_t")
-t("Object added to main inventory", "Object added to main inventory", "_t")
-t("Drops", "Drops", "_t")
-t("Object added to main inventory (dropped on death)", "Object added to main inventory (dropped on death)", "_t")
-t("Attach Tinker", "Attach Tinker", "_t")
-t("Tinker will be attached to a worn object", "Tinker will be attached to a worn object", "_t")
-t("Drop Randart (auto data)", "Drop Randart (auto data)", "_t")
-t("Random Artifact (dropped on death) added to main inventory, uses the Base Object or Base Filter plus Randart Data as input", "Random Artifact (dropped on death) added to main inventory, uses the Base Object or Base Filter plus Randart Data as input", "_t")
-t("Drop Randart", "Drop Randart", "_t")
-t("Random Artifact (dropped on death) added to main inventory", "Random Artifact (dropped on death) added to main inventory", "_t")
-t("DEBUG -- Create Random Object", "DEBUG -- Create Random Object", "_t")
+t("#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "#LIGHT_GREEN#(De %-10.60s, ligne: %s):#LAST#", "tformat")
+t("Don't apply a resolver", "N'appliquez pas de résolveur", "_t")
+t("Object will be equipped if possible, otherwise added to main inventory", "L'objet sera équipé si possible, sinon ajouté à l'inventaire principal", "_t")
+t("Object added to main inventory", "Objet ajouté à l'inventaire principal", "_t")
+t("Drops", "Abandonner", "_t")
+t("Object added to main inventory (dropped on death)", "Objet ajouté à l'inventaire principal (abandonné à la mort)", "_t")
+t("Attach Tinker", "Attacher la babiole", "_t")
+t("Tinker will be attached to a worn object", "La babiole sera attaché à un objet porté", "_t")
+t("Drop Randart (auto data)", "Abandonner l'Artéfact aléatoire (données automatiques)", "_t")
+t("Random Artifact (dropped on death) added to main inventory, uses the Base Object or Base Filter plus Randart Data as input", "Artefact aléatoire (abandonné à la mort) ajouté à l'inventaire principal, utilise l'objet de base ou le filtre de base plus les données aléatoires comme entrée", "_t")
+t("Drop Randart", "Abandonner l'Artéfact aléatoire", "_t")
+t("Random Artifact (dropped on death) added to main inventory", "Artefact aléatoire (abandonné à la mort) ajouté à l'inventaire principal", "_t")
+t("DEBUG -- Create Random Object", "DEBUG -- Créer un objet aléatoire", "_t")
 t([[Generate objects randomly subject to filters and create Random Artifacts.
 Use "Generate" to create objects for preview and inspection.
 Use "Add Object" to choose where to put the object and add it to the game.
@@ -47390,82 +47385,78 @@ They use the #LIGHT_GREEN#Random filter#LAST# as input unless noted otherwise an
 Filters are interpreted by ToME and engine entity/object generation functions (game.zone:checkFilter, etc.).
 Interpretation of tables is within the _G environment (used by the Lua Console) using the current zone's #YELLOW_GREEN#object_list#LAST#.
 Hotkeys: #GOLD#'F1'#LAST# :: context sensitive help, #GOLD#'C'#LAST# :: Working Character Sheet, #GOLD#'I'#LAST# :: Working Character Inventory.
-]], [[Generate objects randomly subject to filters and create Random Artifacts.
-Use "Generate" to create objects for preview and inspection.
-Use "Add Object" to choose where to put the object and add it to the game.
-(Mouse over controls for a preview of the generated object/working Actor. (Press #GOLD#'L'#LAST# to lua inspect.)
-#SALMON#Resolvers#LAST# act on the working actor (default: player) to generate a SINGLE object.
-They use the #LIGHT_GREEN#Random filter#LAST# as input unless noted otherwise and control object destination.
-Filters are interpreted by ToME and engine entity/object generation functions (game.zone:checkFilter, etc.).
-Interpretation of tables is within the _G environment (used by the Lua Console) using the current zone's #YELLOW_GREEN#object_list#LAST#.
-Hotkeys: #GOLD#'F1'#LAST# :: context sensitive help, #GOLD#'C'#LAST# :: Working Character Sheet, #GOLD#'I'#LAST# :: Working Character Inventory.
+]], [[Générez des objets au hasard soumis à des filtres et créez des artefacts aléatoires.
+Utilisez "Générer" pour créer des objets pour l'aperçu et l'inspection.
+Utilisez "Ajouter un objet" pour choisir où placer l'objet et l'ajouter au jeu.
+(Passez la souris sur les commandes pour un aperçu de l'objet généré/de l'acteur actif. (Appuyez sur #GOLD#'L'#LAS # pour inspecter.)
+#SALMON#Les résolveurs#LAST# agissent sur l'acteur actif (par défaut: le joueur) pour générer un SEUL objet.
+Sauf indication contraire, ils utilisent le #LIGHT_GREEN#Filtre aléatoire#LAST# et contrôlent la destination de l'objet.
+Les filtres sont interprétés par ToME et les fonctions de génération d'entités/objets du moteur (game.zone:checkFilter, etc.).
+L'interprétation des tables se fait dans l'environnement _G (utilisé par la console Lua) en utilisant la zone courante #YELLOW_GREEN#object_list#LAST#.
+Raccourcis clavier: #GOLD#'F1'#LAST# :: aide contextuelle, #GOLD#'C'#LAST# :: Feuille de personnage de travail, #GOLD#'I'#LAST# :: Inventaire de personnage de travail.
 ]], "_t")
-t("The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "tformat")
-t("#GREY#None#LAST#", "#GREY#None#LAST#", "_t")
+t("The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "Le #LIGHT_GREEN#Filtre aléatoire#LAST# contrôle la génération aléatoire d'un objet normal.", "tformat")
+t("#GREY#None#LAST#", "#GREY#Aucun#LAST#", "_t")
 t("%s: %s", "%s: %s", "tformat")
-t("Object", "Object", "_t")
-t("Generate", "Generate", "_t")
-t("Add Object", "Add Object", "_t")
-t("Default Filter", "Default Filter", "_t")
-t("Clear Object", "Clear Object", "_t")
-t("#LIGHT_GREEN#Random Object#LAST#", "#LIGHT_GREEN#Random Object#LAST#", "_t")
-t("#LIGHT_GREEN#Random Filter:#LAST# ", "#LIGHT_GREEN#Random Filter:#LAST# ", "_t")
-t("The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "tformat")
-t("#LIGHT_BLUE#Base Object#LAST#", "#LIGHT_BLUE#Base Object#LAST#", "_t")
-t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Base Filter:#LAST# ", "_t")
-t("#SALMON#Resolver selected:#LAST# ", "#SALMON#Resolver selected:#LAST# ", "tformat")
-t("An object resolver interprets additional filter fields to generate an object and determine where it will go.", "An object resolver interprets additional filter fields to generate an object and determine where it will go.", "_t")
-t("Dropdown text", "Dropdown text", "_t")
-t("No Tooltip", "No Tooltip", "_t")
-t("Use this selector to choose which resolver to use", "Use this selector to choose which resolver to use", "_t")
+t("Object", "Objet", "_t")
+t("Generate", "Générer", "_t")
+t("Add Object", "Ajouter un objet", "_t")
+t("Default Filter", "Filtre par défaut", "_t")
+t("Clear Object", "Effacer l'objet", "_t")
+t("#LIGHT_GREEN#Random Object#LAST#", "#LIGHT_GREEN#Objet aléatoire#LAST#", "_t")
+t("#LIGHT_GREEN#Random Filter:#LAST# ", "#LIGHT_GREEN#Filtre aléatoire:#LAST# ", "_t")
+t("The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "Le #LIGHT_BLUE#Filtre de base#LAST# génére un objet de base pour construire un artefact aléatoire.", "tformat")
+t("#LIGHT_BLUE#Base Object#LAST#", "#LIGHT_BLUE#Objet de base#LAST#", "_t")
+t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base:#LAST# ", "_t")
+t("#SALMON#Resolver selected:#LAST# ", "#SALMON#Résolveur sélectionné:#LAST# ", "tformat")
+t("An object resolver interprets additional filter fields to generate an object and determine where it will go.", "Un résolveur d'objets interprète des champs de filtre supplémentaires pour générer un objet et déterminer où il ira.", "_t")
+t("Dropdown text", "Texte déroulant", "_t")
+t("No Tooltip", "Aucune info-bulle", "_t")
+t("Use this selector to choose which resolver to use", "Utilisez ce sélecteur pour choisir le résolveur à utiliser", "_t")
 t([[#ORANGE#Randart Data#LAST# contains parameters used to generate a Randart (interpreted by game.state:generateRandart).
-The #LIGHT_BLUE#Base Object#LAST# will be used if possible.]], [[#ORANGE#Randart Data#LAST# contains parameters used to generate a Randart (interpreted by game.state:generateRandart).
-The #LIGHT_BLUE#Base Object#LAST# will be used if possible.]], "tformat")
-t("Default Data", "Default Data", "_t")
-t("#ORANGE#Randart Data:#LAST# ", "#ORANGE#Randart Data:#LAST# ", "_t")
-t("#ORANGE#Randart#LAST#", "#ORANGE#Randart#LAST#", "_t")
-t("Show #GOLD#I#LAST#nventory", "Show #GOLD#I#LAST#nventory", "_t")
-t("Show #GOLD#C#LAST#haracter Sheet", "Show #GOLD#C#LAST#haracter Sheet", "_t")
-t("Set working actor: [%s] %s", "Set working actor: [%s] %s", "tformat")
-t("Set working actor: [%s] %s%s", "Set working actor: [%s] %s%s", "tformat")
-t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(player)#LAST#", "_t")
-t("#GREY#No Tooltip to Display#LAST#", "#GREY#No Tooltip to Display#LAST#", "_t")
-t("Filter/Data/Resolver Reference", "Filter/Data/Resolver Reference", "_t")
-t("#LIGHT_BLUE#Lua Inspect [%s] %s", "#LIGHT_BLUE#Lua Inspect [%s] %s", "log")
-t("#LIGHT_BLUE#Nothing to Lua inspect", "#LIGHT_BLUE#Nothing to Lua inspect", "log")
-t("#LIGHT_BLUE#Bad %s: %s", "#LIGHT_BLUE#Bad %s: %s", "log")
-t("table definition", "table definition", "_t")
-t("#LIGHT_BLUE# Generate Random object using resolver: %s", "#LIGHT_BLUE# Generate Random object using resolver: %s", "log")
-t("#LIGHT_BLUE# New random%s object: %s", "#LIGHT_BLUE# New random%s object: %s", "log")
-t(" (resolver: %s)", " (resolver: %s)", "tformat")
-t("#LIGHT_BLUE#Could not generate a random object with filter: %s", "#LIGHT_BLUE#Could not generate a random object with filter: %s", "log")
+The #LIGHT_BLUE#Base Object#LAST# will be used if possible.]], [[#ORANGE#Les données d'artefact aléatoire#LAST# contiennent les paramètres utilisés pour générer un artefact aléatoire (interprété par game.state:generateRandart).
+L'#LIGHT_BLUE #objet de base#LAST# sera utilisé si possible.]], "tformat")
+t("Default Data", "Données par défaut", "_t")
+t("#ORANGE#Randart Data:#LAST# ", "#ORANGE#Données d'artefact aléatoire:#LAST# ", "_t")
+t("#ORANGE#Randart#LAST#", "#ORANGE#Artefact aléatoire#LAST#", "_t")
+t("Show #GOLD#I#LAST#nventory", "Montrer l'#GOLD#'I'#LAST#nventaire", "_t")
+t("Show #GOLD#C#LAST#haracter Sheet", "Montrer la #GOLD#'C'#LAST# Feuille de personnage", "_t")
+t("Set working actor: [%s] %s", "Définir l'acteur de travail: [%s] %s", "tformat")
+t("Set working actor: [%s] %s%s", "Définir l'acteur de travail:[%s] %s%s", "tformat")
+t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(joueur)#LAST#", "_t")
+t("#GREY#No Tooltip to Display#LAST#", "#GREY#Aucune info-bulle à afficher#LAST#", "_t")
+t("Filter/Data/Resolver Reference", "Référence de filtre/données/résolveur", "_t")
+t("#LIGHT_BLUE#Lua Inspect [%s] %s", "#LIGHT_BLUE#Inspecteur Lua [%s] %s", "log")
+t("#LIGHT_BLUE#Nothing to Lua inspect", "#LIGHT_BLUE#Rien à inspecter par Lua", "log")
+t("#LIGHT_BLUE#Bad %s: %s", "#LIGHT_BLUE#Mauvais %s: %s", "log")
+t("table definition", "définition de table", "_t")
+t("#LIGHT_BLUE# Generate Random object using resolver: %s", "#LIGHT_BLUE# Générez un objet aléatoire à l'aide du résolveur: %s", "log")
+t("#LIGHT_BLUE# New random%s object: %s", "#LIGHT_BLUE# Nouvel objet aléatoire %s: %s", "log")
+t(" (resolver: %s)", " (résolveur: %s)", "tformat")
+t("#LIGHT_BLUE#Could not generate a random object with filter: %s", "#LIGHT_BLUE#Impossible de générer un objet aléatoire avec le filtre: %s", "log")
 t([[#LIGHT_BLUE#ERROR generating random object with filter [%s].
- Error: %s]], [[#LIGHT_BLUE#ERROR generating random object with filter [%s].
- Error: %s]], "log")
-t("#LIGHT_BLUE#Could not generate a base object with filter: %s", "#LIGHT_BLUE#Could not generate a base object with filter: %s", "log")
+ Error: %s]], [[#LIGHT_BLUE#ERREUR génération un objet aléatoire avec le filtre [%s].
+ Erreur: %s]], "log")
+t("#LIGHT_BLUE#Could not generate a base object with filter: %s", "#LIGHT_BLUE#Impossible de générer un objet de base avec le filtre: %s", "log")
 t([[#LIGHT_BLUE#ERROR generating base object with filter [%s].
- Error:%s]], [[#LIGHT_BLUE#ERROR generating base object with filter [%s].
- Error:%s]], "log")
-t("#LIGHT_BLUE#Could not generate a Randart with data: %s", "#LIGHT_BLUE#Could not generate a Randart with data: %s", "log")
+ Error:%s]], [[#LIGHT_BLUE#ERREUR génération d'un objet de base avec le filtre [%s].
+ Erreur:%s]], "log")
+t("#LIGHT_BLUE#Could not generate a Randart with data: %s", "#LIGHT_BLUE#Impossible de générer un artefact aléatoire avec ces données: %s", "log")
 t([[#LIGHT_BLUE#ERROR generating Randart with data [%s].
- Error:%s]], [[#LIGHT_BLUE#ERROR generating Randart with data [%s].
- Error:%s]], "log")
-t("#LIGHT_BLUE#No object to add", "#LIGHT_BLUE#No object to add", "log")
+ Error:%s]], [[#LIGHT_BLUE#ERREUR génération d'un artefact aléatoire avec ces données [%s].
+ Erreur:%s]], "log")
+t("#LIGHT_BLUE#No object to add", "#LIGHT_BLUE#Aucun objet à ajouter", "log")
 t([[#LIGHT_BLUE#ERROR accepting object with resolver %s.
- Error:%s]], [[#LIGHT_BLUE#ERROR accepting object with resolver %s.
- Error:%s]], "log")
-t("#LIGHT_BLUE#Working Actor set to [%s]%s at (%d, %d)", "#LIGHT_BLUE#Working Actor set to [%s]%s at (%d, %d)", "log")
---]==]
+ Error:%s]], [[#LIGHT_BLUE#ERREUR accepter un objet avec le résolveur %s.
+ Erreur:%s]], "log")
+t("#LIGHT_BLUE#Working Actor set to [%s]%s at (%d, %d)", "#LIGHT_BLUE#Acteur de travail défini sur [%s]%s à (%d, %d)", "log")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/SpawnEvent.lua"
 
 
--- untranslated text
---[==[
-t("DEBUG -- Spawn Event", "DEBUG -- Spawn Event", "_t")
---]==]
+t("DEBUG -- Spawn Event", "DEBUG -- Apparaitre d'un événement", "_t")
 
 
 ------------------------------------------------
