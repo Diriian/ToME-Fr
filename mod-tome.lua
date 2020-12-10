@@ -47110,59 +47110,53 @@ t("%d stat point(s)", "%d point(s) de stats", "tformat")
 t("%d class talent point(s)", "%d point(s) de classe de talent", "tformat")
 t("%d generic talent point(s)", "%d point(s) de talent générique", "tformat")
 t("%d category point(s)", "%d point(s) de catégorie", "tformat")
--- untranslated text
---[==[
-t("DEBUG -- Levelup Actor: [%s] %s", "DEBUG -- Levelup Actor: [%s] %s", "tformat")
+t("DEBUG -- Levelup Actor: [%s] %s", "DEBUG -- Augmentez un personnage: [%s] %s", "tformat")
 t([[Levelup an actor.
 Optionally set Stat levels, learn all talents possible, and gain points to spend on Levelup. 
 The actor is backed up before changes are made.  (Use the "Restore" button to recover.)
-]], [[Levelup an actor.
-Optionally set Stat levels, learn all talents possible, and gain points to spend on Levelup. 
-The actor is backed up before changes are made.  (Use the "Restore" button to recover.)
+]], [[Augmentez un personnage.
+Définissez éventuellement des niveaux de statistiques, apprenez tous les talents possibles et gagnez des points à dépenser pour Augmenter votre niveau.
+Le personnage est sauvegardé avant que les modifications ne soient apportées. (Utilisez le bouton "Restaurer" pour le récupérer.)
 ]], "_t")
-t(" Advance to Level: ", " Advance to Level: ", "_t")
-t("Restore: %s (v%d)", "Restore: %s (v%d)", "tformat")
-t("Restore: none", "Restore: none", "_t")
-t("#LIGHT_BLUE#Restoring [%s]%s from backup version %d", "#LIGHT_BLUE#Restoring [%s]%s from backup version %d", "log")
-t("Gain points for stats, talents, and prodigies (unlimited respec)", "Gain points for stats, talents, and prodigies (unlimited respec)", "_t")
-t(" Force all BASE stats to: ", " Force all BASE stats to: ", "_t")
+t(" Advance to Level: ", " Agmentez le niveau: ", "_t")
+t("Restore: %s (v%d)", "Restorer: %s (v%d)", "tformat")
+t("Restore: none", "Restorer: aucun", "_t")
+t("#LIGHT_BLUE#Restoring [%s]%s from backup version %d", "#LIGHT_BLUE#Restoration [%s]%s de la version de sauvegarde %d", "log")
+t("Gain points for stats, talents, and prodigies (unlimited respec)", "Gagnez des points pour les statistiques, les talents et les prodiges (restructuration illimité)", "_t")
+t(" Force all BASE stats to: ", " Forcer toutes les stats de BASE à: ", "_t")
 t("", "", "_t")
-t(" Force all BONUS stats to: ", " Force all BONUS stats to: ", "_t")
-t("Learn Talents ", "Learn Talents ", "_t")
-t("Unlock & Learn all available talents to level: ", "Unlock & Learn all available talents to level: ", "_t")
-t("maximum allowed", "maximum allowed", "_t")
-t("Ignore requirements", "Ignore requirements", "_t")
-t("Force all talent mastery levels to (0.1-5.0): ", "Force all talent mastery levels to (0.1-5.0): ", "_t")
-t("no change", "no change", "_t")
-t("Unlock all talent types (slow)", "Unlock all talent types (slow)", "_t")
-t("#LIGHT_BLUE#AdvanceActor inputs: %s", "#LIGHT_BLUE#AdvanceActor inputs: %s", "log")
-t("%s #GOLD#Forcing all Base Stats to %s", "%s #GOLD#Forcing all Base Stats to %s", "log")
-t("%s #GOLD#Resetting all talents_types_mastery to %s", "%s #GOLD#Resetting all talents_types_mastery to %s", "log")
-t("%s #GOLD#Unlocking All Talent Types", "%s #GOLD#Unlocking All Talent Types", "log")
+t(" Force all BONUS stats to: ", " Forcer toutes les stats BONUS à: ", "_t")
+t("Learn Talents ", "Apprendre les talents ", "_t")
+t("Unlock & Learn all available talents to level: ", "Débloquez et apprenez tous les talents disponibles au niveau: ", "_t")
+t("maximum allowed", "maximum autorisé", "_t")
+t("Ignore requirements", "Ignorer les conditions requises", "_t")
+t("Force all talent mastery levels to (0.1-5.0): ", "Forcer tous les niveaux de maîtrise des talents à (0.1-5.0): ", "_t")
+t("no change", "aucun changement", "_t")
+t("Unlock all talent types (slow)", "Débloquez tous les types de talents (lent)", "_t")
+t("#LIGHT_BLUE#AdvanceActor inputs: %s", "#LIGHT_BLUE#Entrées AdvanceActor: %s", "log")
+t("%s #GOLD#Forcing all Base Stats to %s", "%s #GOLD#Forcer toutes les statistiques de base à %s", "log")
+t("%s #GOLD#Resetting all talents_types_mastery to %s", "%s #GOLD#Réinitialiser tous les talents_types_mastery à %s", "log")
+t("%s #GOLD#Unlocking All Talent Types", "%s #GOLD#Débloquer tous les types de talents", "log")
 t("#LIGHT_BLUE#%s -- %s", "#LIGHT_BLUE#%s -- %s", "log")
-t("#GOLD#Checking %s Talents (%s)", "#GOLD#Checking %s Talents (%s)", "log")
-t("#LIGHT_BLUE#Talent %s learned to level %d", "#LIGHT_BLUE#Talent %s learned to level %d", "log")
-t("%s #GOLD#Forcing all Bonus Stats to %s", "%s #GOLD#Forcing all Bonus Stats to %s", "log")
-t("#ORCHID#%d prodigy point(s)#LAST#", "#ORCHID#%d prodigy point(s)#LAST#", "tformat")
-t("#LIGHT_BLUE#%s has %s to spend", "#LIGHT_BLUE#%s has %s to spend", "log")
-t(", and ", ", and ", "_t")
---]==]
+t("#GOLD#Checking %s Talents (%s)", "#GOLD#Vérification des talents de %s (%s)", "log")
+t("#LIGHT_BLUE#Talent %s learned to level %d", "#LIGHT_BLUE#Talent %s appris au niveau %d", "log")
+t("%s #GOLD#Forcing all Bonus Stats to %s", "%s #GOLD#Forcer toutes les statistiques bonus à %s", "log")
+t("#ORCHID#%d prodigy point(s)#LAST#", "#ORCHID#%d point(s) de prodige#LAST#", "tformat")
+t("#LIGHT_BLUE#%s has %s to spend", "#LIGHT_BLUE#%s a %s à dépenser", "log")
+t(", and ", ", et ", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AdvanceZones.lua"
 
 
--- untranslated text
---[==[
-t("Advance Through Zones", "Advance Through Zones", "_t")
-t("Enter a comma delimited list of zones or zone tiers to clear", "Enter a comma delimited list of zones or zone tiers to clear", "_t")
-t("%s:  Level %0.2f to %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "%s:  Level %0.2f to %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "tformat")
-t("#RED#Low value items have been dropped on the ground.#LAST#", "#RED#Low value items have been dropped on the ground.#LAST#", "log")
-t("Unable to level change to floor 1 of %s", "Unable to level change to floor 1 of %s", "log")
-t("%s is not valid for autoclear", "%s is not valid for autoclear", "log")
-t("Unable to level change to floor %d of %s", "Unable to level change to floor %d of %s", "log")
---]==]
+t("Advance Through Zones", "Avancer à travers les zones", "_t")
+t("Enter a comma delimited list of zones or zone tiers to clear", "Entrez une liste délimitée par des virgules de zones ou de niveaux de zone à effacer", "_t")
+t("%s:  Level %0.2f to %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "%s:  Niveau %0.2f à %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "tformat")
+t("#RED#Low value items have been dropped on the ground.#LAST#", "#RED#Des objets de faible valeur ont été déposés sur le sol.#LAST#", "log")
+t("Unable to level change to floor 1 of %s", "Impossible de changer le niveau à l'étage 1 de %s", "log")
+t("%s is not valid for autoclear", "%s n'est pas valide pour le nettoyage automatique", "log")
+t("Unable to level change to floor %d of %s", "Impossible de modifier le niveau de l'étage %d de %s", "log")
 
 
 ------------------------------------------------
@@ -47170,174 +47164,148 @@ section "mod-tome/mod/dialogs/debug/AlterFaction.lua"
 
 t("friendly", "amicale", "_t")
 t("neutral", "neutre", "_t")
--- untranslated text
---[==[
-t("DEBUG -- Alter Faction", "DEBUG -- Alter Faction", "_t")
-t("Alter: %s", "Alter: %s", "tformat")
-t("Alter to which state:", "Alter to which state:", "_t")
+t("DEBUG -- Alter Faction", "DEBUG -- Modifier la faction", "_t")
+t("Alter: %s", "Modifier: %s", "tformat")
+t("Alter to which state:", "Modifier en quel état:", "_t")
 t("hostile", "hostile", "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/ChangeZone.lua"
 
 
--- untranslated text
---[==[
-t("DEBUG -- Change Zone", "DEBUG -- Change Zone", "_t")
-t("Zone: %s", "Zone: %s", "tformat")
-t("Level %s-%s", "Level %s-%s", "tformat")
---]==]
+t("DEBUG -- Change Zone", "DEBUG -- Changer de Secteur", "_t")
+t("Zone: %s", "Secteur: %s", "tformat")
+t("Level %s-%s", "Niveau %s-%s", "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/CreateItem.lua"
 
 t("Cancel", "Annuler", "tformat")
--- untranslated text
---[==[
-t("DEBUG -- Create Object", "DEBUG -- Create Object", "_t")
-t("Load from other zones ", "Load from other zones ", "_t")
+t("DEBUG -- Create Object", "DEBUG -- Création d'objet", "_t")
+t("Load from other zones ", "Charger à partir d'autres zones ", "_t")
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
- %s]], [[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
+ %s]], [[#ORANGE# Créer un objet: impossible de charger tous les objets du fichier %s:#GREY#
  %s]], "log")
-t("Generate examples (right-click refreshes) ", "Generate examples (right-click refreshes) ", "_t")
-t("#CRIMSON#==Resolved Example==#LAST#", "#CRIMSON#==Resolved Example==#LAST#", "_t")
+t("Generate examples (right-click refreshes) ", "Générer des exemples (actualisations par clic droit) ", "_t")
+t("#CRIMSON#==Resolved Example==#LAST#", "#CRIMSON#==Exemple résolu==#LAST#", "_t")
 t([[#LIGHT_BLUE#Object %s could not be generated or identified. Error:
-%s]], [[#LIGHT_BLUE#Object %s could not be generated or identified. Error:
+%s]], [[#LIGHT_BLUE#L'objet %s n'a pas pu être généré ou identifié. Erreur:
 %s]], "log")
 t("#GOLD#%s#LAST#", "#GOLD#%s#LAST#", "tformat")
-t("Object could not be resolved/identified.", "Object could not be resolved/identified.", "_t")
+t("Object could not be resolved/identified.", "L'objet n'a pas pu être résolu/identifié.", "_t")
 t([[Error:
-%s]], [[Error:
+%s]], [[Erreur:
 %s]], "tformat")
-t("#LIGHT_BLUE#Could not add object to %s at (%d, %d)", "#LIGHT_BLUE#Could not add object to %s at (%d, %d)", "log")
-t("#LIGHT_BLUE#No creature to add object to at (%d, %d)", "#LIGHT_BLUE#No creature to add object to at (%d, %d)", "log")
-t("#LIGHT_BLUE#No object to create", "#LIGHT_BLUE#No object to create", "log")
-t("Place Object", "Place Object", "_t")
-t("Place the object where?", "Place the object where?", "_t")
-t("Inventory of %s%s", "Inventory of %s%s", "tformat")
-t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(player)#LAST#", "_t")
-t("Drop @ (%s, %s)%s", "Drop @ (%s, %s)%s", "tformat")
-t("#LIGHT_BLUE#Dropped %s at (%d, %d)", "#LIGHT_BLUE#Dropped %s at (%d, %d)", "log")
-t("NPC Inventory", "NPC Inventory", "tformat")
-t("#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "log")
-t("Number of items to make", "Number of items to make", "_t")
-t("Enter 1-100%s", "Enter 1-100%s", "tformat")
-t(", or 0 for the example item", ", or 0 for the example item", "_t")
-t("#LIGHT_BLUE# Creating %d items:", "#LIGHT_BLUE# Creating %d items:", "log")
+t("#LIGHT_BLUE#Could not add object to %s at (%d, %d)", "#LIGHT_BLUE#Impossible d'ajouter l'objet à %s à (%d, %d)", "log")
+t("#LIGHT_BLUE#No creature to add object to at (%d, %d)", "#LIGHT_BLUE#Aucune créature à laquelle ajouter un objet à (%d, %d)", "log")
+t("#LIGHT_BLUE#No object to create", "#LIGHT_BLUE#Aucun objet à créer", "log")
+t("Place Object", "Placer un objet", "_t")
+t("Place the object where?", "Où placer l'objet?", "_t")
+t("Inventory of %s%s", "Inventaire de %s%s", "tformat")
+t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(joueur)#LAST#", "_t")
+t("Drop @ (%s, %s)%s", "Lâcher @ (%s, %s)%s", "tformat")
+t("#LIGHT_BLUE#Dropped %s at (%d, %d)", "#LIGHT_BLUE#Lâcher %s à (%d, %d)", "log")
+t("NPC Inventory", "Inventaire du PNJ", "tformat")
+t("#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "#LIGHT_BLUE#OBJET:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, emplacement %s} at (%s, %s)#LAST#", "log")
+t("Number of items to make", "Nombre d'objets à fabriquer", "_t")
+t("Enter 1-100%s", "De 1-100%s", "tformat")
+t(", or 0 for the example item", ", ou 0 pour créer un exemple", "_t")
+t("#LIGHT_BLUE# Creating %d items:", "#LIGHT_BLUE# Créeation de %d objets:", "log")
 t("Ego", "Ego", "_t")
-t("Add an ego enhancement if possible?", "Add an ego enhancement if possible?", "_t")
-t("#LIGHT_BLUE#Created %s", "#LIGHT_BLUE#Created %s", "log")
-t("Greater Ego", "Greater Ego", "_t")
-t("Add a greater ego enhancement if possible?", "Add a greater ego enhancement if possible?", "_t")
-t(" #GOLD#All Artifacts#LAST#", " #GOLD#All Artifacts#LAST#", "_t")
-t("#LIGHT_BLUE#Creating All Artifacts.", "#LIGHT_BLUE#Creating All Artifacts.", "log")
-t("#LIGHT_BLUE#%d artifacts created.", "#LIGHT_BLUE#%d artifacts created.", "log")
-t(" #YELLOW#Random Object#LAST#", " #YELLOW#Random Object#LAST#", "_t")
---]==]
+t("Add an ego enhancement if possible?", "Ajouter un ego si possible?", "_t")
+t("#LIGHT_BLUE#Created %s", "#LIGHT_BLUE#Crée %s", "log")
+t("Greater Ego", "Grand Ego", "_t")
+t("Add a greater ego enhancement if possible?", "Ajouter un grand ego si possible?", "_t")
+t(" #GOLD#All Artifacts#LAST#", " #GOLD#Tous les Artefacts#LAST#", "_t")
+t("#LIGHT_BLUE#Creating All Artifacts.", "#LIGHT_BLUE#Créer tous les artefacts.", "log")
+t("#LIGHT_BLUE#%d artifacts created.", "#LIGHT_BLUE#%d artefacts créés.", "log")
+t(" #YELLOW#Random Object#LAST#", " #YELLOW#Objet aléatoire#LAST#", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/CreateTrap.lua"
 
 
--- untranslated text
---[==[
-t("DEBUG -- Create Trap", "DEBUG -- Create Trap", "_t")
-t("#LIGHT_BLUE#Trap [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Trap [%s]%s already occupies (%d, %d)", "log")
-t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "log")
---]==]
+t("DEBUG -- Create Trap", "DEBUG -- Crée un piège", "_t")
+t("#LIGHT_BLUE#Trap [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Piège [%s]%s occupe déjà (%d, %d)", "log")
+t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Ajouté %s[%s]%s at (%d, %d)", "log")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/DebugMain.lua"
 
 t("Cancel", "Annuler", "_t")
--- untranslated text
---[==[
-t("Debug/Cheat! It's BADDDD!", "Debug/Cheat! It's BADDDD!", "_t")
-t("#LIGHT_BLUE#God mode OFF", "#LIGHT_BLUE#God mode OFF", "log")
-t("#LIGHT_BLUE#God mode ON", "#LIGHT_BLUE#God mode ON", "log")
-t("#LIGHT_BLUE#Demi-God mode OFF", "#LIGHT_BLUE#Demi-God mode OFF", "log")
-t("#LIGHT_BLUE#Demi-God mode ON", "#LIGHT_BLUE#Demi-God mode ON", "log")
-t("#LIGHT_BLUE#Revealing Map.", "#LIGHT_BLUE#Revealing Map.", "log")
+t("Debug/Cheat! It's BADDDD!", "Debug/Triche! C'est MAAAAAL!", "_t")
+t("#LIGHT_BLUE#God mode OFF", "#LIGHT_BLUE#Mode Dieu OFF", "log")
+t("#LIGHT_BLUE#God mode ON", "#LIGHT_BLUE#Mode Dieu ON", "log")
+t("#LIGHT_BLUE#Demi-God mode OFF", "#LIGHT_BLUE#Mode Demi-Dieu OFF", "log")
+t("#LIGHT_BLUE#Demi-God mode ON", "#LIGHT_BLUE#Mode Demi-Dieu ON", "log")
+t("#LIGHT_BLUE#Revealing Map.", "#LIGHT_BLUE#Révéler la carte.", "log")
 t("Zone: %s", "Zone: %s", "tformat")
-t("Level 1-%s", "Level 1-%s", "tformat")
-t("Kill or Remove", "Kill or Remove", "_t")
-t("Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "_t")
-t("#GREY#Removing [%s] %s at (%s, %s)", "#GREY#Removing [%s] %s at (%s, %s)", "log")
-t("#GREY#Killing [%s] %s at (%s, %s)", "#GREY#Killing [%s] %s at (%s, %s)", "log")
-t("#LIGHT_BLUE#%s %d creatures.", "#LIGHT_BLUE#%s %d creatures.", "log")
-t("Removed", "Removed", "_t")
-t("Killed", "Killed", "_t")
-t("Remove", "Remove", "_t")
-t("Kill", "Kill", "_t")
-t("Change Zone", "Change Zone", "_t")
-t("Change Level", "Change Level", "_t")
-t("Reveal all map", "Reveal all map", "_t")
-t("Toggle Demi-Godmode", "Toggle Demi-Godmode", "_t")
-t("Toggle Godmode", "Toggle Godmode", "_t")
-t("Alter Faction", "Alter Faction", "_t")
-t("Summon a Creature", "Summon a Creature", "_t")
-t("Create Items", "Create Items", "_t")
-t("Create a Trap", "Create a Trap", "_t")
-t("Grant/Alter Quests", "Grant/Alter Quests", "_t")
-t("Advance Player", "Advance Player", "_t")
-t("Remove or Kill all creatures", "Remove or Kill all creatures", "_t")
-t("Give Sher'tul fortress energy", "Give Sher'tul fortress energy", "_t")
-t("Give all ingredients", "Give all ingredients", "_t")
-t("Weakdamage", "Weakdamage", "_t")
-t("Spawn Event", "Spawn Event", "_t")
-t("Endgamify", "Endgamify", "_t")
-t("Reload/regenerate Zone and level", "Reload/regenerate Zone and level", "_t")
-t("Automatically Clear Zones", "Automatically Clear Zones", "_t")
---]==]
+t("Level 1-%s", "Niveau 1-%s", "tformat")
+t("Kill or Remove", "Tuer ou Enlever", "_t")
+t("Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "Enlever toutes les créatures(n'appartenant pas au groupe), ou les tuer pour le joueur(donne de l'expérience et laisse tomber le butin)?", "_t")
+t("#GREY#Removing [%s] %s at (%s, %s)", "#GREY#Enlever [%s] %s at (%s, %s)", "log")
+t("#GREY#Killing [%s] %s at (%s, %s)", "#GREY#Tuer [%s] %s at (%s, %s)", "log")
+t("#LIGHT_BLUE#%s %d creatures.", "#LIGHT_BLUE#%s %d créatures.", "log")
+t("Removed", "Enlevé", "_t")
+t("Killed", "Tué", "_t")
+t("Remove", "Enlever", "_t")
+t("Kill", "Tuer", "_t")
+t("Change Zone", "Changer de zone", "_t")
+t("Change Level", "Changer de niveau", "_t")
+t("Reveal all map", "Révéler toute la carte", "_t")
+t("Toggle Demi-Godmode", "Basculer en mode Demi-Dieu", "_t")
+t("Toggle Godmode", "Basculer en mode Dieu", "_t")
+t("Alter Faction", "Altération de la faction", "_t")
+t("Summon a Creature", "Invoquer une créature", "_t")
+t("Create Items", "Crée des objets", "_t")
+t("Create a Trap", "Crée un piège", "_t")
+t("Grant/Alter Quests", "Donner/Alterer les quêtes", "_t")
+t("Advance Player", "Avancer le joueur", "_t")
+t("Remove or Kill all creatures", "Enlever ou Tuer toutes les créatures", "_t")
+t("Give Sher'tul fortress energy", "Donner de l'énergie a la forteresse Sher'tul", "_t")
+t("Give all ingredients", "Récupérer tous les ingrédients", "_t")
+t("Weakdamage", "FaibleDégâts", "_t")
+t("Spawn Event", "Faire apparaître un événement", "_t")
+t("Endgamify", "Passer en mode Fin de partie", "_t")
+t("Reload/regenerate Zone and level", "Recharger/Régénérer zone et niveau", "_t")
+t("Automatically Clear Zones", "Automatiquement nettoyer les zones", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/Endgamify.lua"
 
 
--- untranslated text
---[==[
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
- %s]], [[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
+ %s]], [[#ORANGE# Création d'objet: impossible de charger tous les objets à partir du fichier %s:#GREY#
  %s]], "log")
-t("Failed to generate %s", "Failed to generate %s", "log")
---]==]
+t("Failed to generate %s", "Échec de la génération %s", "log")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/GrantQuest.lua"
 
 
--- untranslated text
---[==[
-t("Debug -- Grant/Alter Quest", "Debug -- Grant/Alter Quest", "_t")
---]==]
+t("Debug -- Grant/Alter Quest", "Debug -- Accorder/Modifier une quête", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/PlotTalent.lua"
 
 
--- untranslated text
---[==[
-t("Values plot for: %s (mastery %0.1f)", "Values plot for: %s (mastery %0.1f)", "tformat")
+t("Values plot for: %s (mastery %0.1f)", "GTracé des valeurs pour: %s (maîtrise %0.1f)", "tformat")
 t("TL: ", "TL: ", "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/RandomActor.lua"
 
 
--- untranslated text
---[==[
-t("#LIGHT_GREEN#(From %s, line %s):#LAST#", "#LIGHT_GREEN#(From %s, line %s):#LAST#", "tformat")
-t("DEBUG -- Create Random Actor", "DEBUG -- Create Random Actor", "_t")
+t("#LIGHT_GREEN#(From %s, line %s):#LAST#", "#LIGHT_GREEN#(De %s, ligne %s):#LAST#", "tformat")
+t("DEBUG -- Create Random Actor", "DEBUG -- Crée un acteur aléatoire", "_t")
 t([[Randomly generate actors subject to a filter and/or create random bosses according to a data table.
 Filters are interpreted by game.zone:checkFilter.
 #ORANGE#Boss Data:#LAST# is interpreted by game.state:createRandomBoss, game.state:applyRandomClass, and Actor.levelupClass.
@@ -47346,47 +47314,46 @@ Press #GOLD#'F1'#LAST# for help.
 Mouse over controls for an actor preview (which may be further adjusted when placed on to the level).
 (Press #GOLD#'L'#LAST# to lua inspect or #GOLD#'C'#LAST# to open the character sheet.)
 
-The #LIGHT_BLUE#Base Filter#LAST# is used to filter the actor randomly generated.]], [[Randomly generate actors subject to a filter and/or create random bosses according to a data table.
-Filters are interpreted by game.zone:checkFilter.
-#ORANGE#Boss Data:#LAST# is interpreted by game.state:createRandomBoss, game.state:applyRandomClass, and Actor.levelupClass.
-Generation is performed within the _G environment (used by the Lua Console) using the current zone's #LIGHT_GREEN#npc_list#LAST#.
-Press #GOLD#'F1'#LAST# for help.
-Mouse over controls for an actor preview (which may be further adjusted when placed on to the level).
-(Press #GOLD#'L'#LAST# to lua inspect or #GOLD#'C'#LAST# to open the character sheet.)
+The #LIGHT_BLUE#Base Filter#LAST# is used to filter the actor randomly generated.]], [[Générer aléatoirement des acteurs soumis à un filtre et/ou créer des boss aléatoires selon un tableau de données.
+Les filtres sont interprétés par game.zone:checkFilter.
+#ORANGE#Données des boss:#LAST# est interprété par game.state: createRandomBoss, game.state:applyRandomClass et Actor.levelupClass.
+La génération est effectuée dans l'environnement _G (utilisé par la console Lua) en utilisant la zone actuelle #LIGHT_GREEN#npc_list#LAST#.
+Appuyez sur #GOLD#'F1'#LAST# pour l'aide.
+Passez la souris sur les commandes pour un aperçu de l'acteur (qui peut être ajusté davantage lorsqu'il est placé au niveau).
+(Appuyez sur #GOLD#'L'#LAST# pour lua inspecter ou #GOLD#'C'#LAST#pour ouvrir la feuille de personnage.)
 
-The #LIGHT_BLUE#Base Filter#LAST# is used to filter the actor randomly generated.]], "_t")
-t("#GREY#None#LAST#", "#GREY#None#LAST#", "_t")
-t("Current Base Actor: %s", "Current Base Actor: %s", "tformat")
-t("Generate", "Generate", "_t")
-t("#LIGHT_BLUE# Current base actor: %s", "#LIGHT_BLUE# Current base actor: %s", "log")
-t("Place", "Place", "_t")
-t("Default Filter", "Default Filter", "_t")
-t("#LIGHT_BLUE# Reset base filter", "#LIGHT_BLUE# Reset base filter", "log")
-t("Clear", "Clear", "_t")
-t("#LIGHT_BLUE# Clear base actor: %s", "#LIGHT_BLUE# Clear base actor: %s", "log")
-t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Base Filter:#LAST# ", "_t")
-t("The #ORANGE#Boss Data#LAST# is used to transform the base actor into a random boss (which will use a random actor if needed).", "The #ORANGE#Boss Data#LAST# is used to transform the base actor into a random boss (which will use a random actor if needed).", "_t")
-t("Current Boss Actor: %s", "Current Boss Actor: %s", "tformat")
-t("Default Data", "Default Data", "_t")
-t("#LIGHT_BLUE# Reset Randboss Data", "#LIGHT_BLUE# Reset Randboss Data", "log")
-t("#ORANGE#Boss Data:#LAST# ", "#ORANGE#Boss Data:#LAST# ", "_t")
-t("Filter and Data Help", "Filter and Data Help", "_t")
-t("#GREY#No Actor to Display#LAST#", "#GREY#No Actor to Display#LAST#", "_t")
-t("#LIGHT_BLUE#Inspect [%s]%s", "#LIGHT_BLUE#Inspect [%s]%s", "log")
-t("#LIGHT_BLUE#No actor to inspect", "#LIGHT_BLUE#No actor to inspect", "log")
-t("#LIGHT_BLUE#Lua Inspect [%s]%s", "#LIGHT_BLUE#Lua Inspect [%s]%s", "log")
-t("#LIGHT_BLUE#No actor to Lua inspect", "#LIGHT_BLUE#No actor to Lua inspect", "log")
-t("#LIGHT_BLUE#Bad filter for base actor: %s", "#LIGHT_BLUE#Bad filter for base actor: %s", "log")
-t("#LIGHT_BLUE#Could not generate a base actor with filter: %s", "#LIGHT_BLUE#Could not generate a base actor with filter: %s", "log")
+Le #LIGHT_BLUE#Filtre de base#LAST# est utilisé pour filtrer l'acteur généré aléatoirement.]], "_t")
+t("#GREY#None#LAST#", "#GREY#Aucun#LAST#", "_t")
+t("Current Base Actor: %s", "Acteur de base actuel: %s", "tformat")
+t("Generate", "Générer", "_t")
+t("#LIGHT_BLUE# Current base actor: %s", "#LIGHT_BLUE# Acteur de base actuel: %s", "log")
+t("Place", "Placer", "_t")
+t("Default Filter", "Filtre de base", "_t")
+t("#LIGHT_BLUE# Reset base filter", "#LIGHT_BLUE# Réinitialiser le filtre de base", "log")
+t("Clear", "Nettoyer", "_t")
+t("#LIGHT_BLUE# Clear base actor: %s", "#LIGHT_BLUE# Nettoyer la base d'acteur: %s", "log")
+t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base:#LAST# ", "_t")
+t("The #ORANGE#Boss Data#LAST# is used to transform the base actor into a random boss (which will use a random actor if needed).", "Les #ORANGE#Données des boss#LAST# sont utilisées pour transformer l'acteur de base en un boss aléatoire (qui utilisera acteur aléatoire si nécessaire).", "_t")
+t("Current Boss Actor: %s", "Acteur de boss actuel: %s", "tformat")
+t("Default Data", "Données par défaut", "_t")
+t("#LIGHT_BLUE# Reset Randboss Data", "#LIGHT_BLUE# Réinitialiser les données Randboss", "log")
+t("#ORANGE#Boss Data:#LAST# ", "#ORANGE#Données de boss:#LAST# ", "_t")
+t("Filter and Data Help", "Aide sur les filtres et les données", "_t")
+t("#GREY#No Actor to Display#LAST#", "#GREY#Aucun acteur à afficher#LAST#", "_t")
+t("#LIGHT_BLUE#Inspect [%s]%s", "#LIGHT_BLUE#Inspecter [%s]%s", "log")
+t("#LIGHT_BLUE#No actor to inspect", "#LIGHT_BLUE#Aucun acteur à inspecter", "log")
+t("#LIGHT_BLUE#Lua Inspect [%s]%s", "#LIGHT_BLUE#Inspection Lua [%s]%s", "log")
+t("#LIGHT_BLUE#No actor to Lua inspect", "#LIGHT_BLUE#Aucun acteur pour une inspection Lua", "log")
+t("#LIGHT_BLUE#Bad filter for base actor: %s", "#LIGHT_BLUE#Mauvais filtre pour l'acteur de base: %s", "log")
+t("#LIGHT_BLUE#Could not generate a base actor with filter: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec ce filtre: %s", "log")
 t([[#LIGHT_BLUE#Base actor could not be generated with filter [%s].
- Error:%s]], [[#LIGHT_BLUE#Base actor could not be generated with filter [%s].
- Error:%s]], "log")
-t("#LIGHT_BLUE#Bad data for random boss actor: %s", "#LIGHT_BLUE#Bad data for random boss actor: %s", "log")
-t("#LIGHT_BLUE#Could not generate a base actor with data: %s", "#LIGHT_BLUE#Could not generate a base actor with data: %s", "log")
+ Error:%s]], [[#LIGHT_BLUE#L'acteur de base n'a pas pu être généré avec ce filtre [%s].
+ Erreur:%s]], "log")
+t("#LIGHT_BLUE#Bad data for random boss actor: %s", "#LIGHT_BLUE#Mauvaises données pour l'acteur boss aléatoire: %s", "log")
+t("#LIGHT_BLUE#Could not generate a base actor with data: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec ces données: %s", "log")
 t([[#LIGHT_BLUE#ERROR: Random Boss could not be generated with data [%s].
- Error:%s]], [[#LIGHT_BLUE#ERROR: Random Boss could not be generated with data [%s].
- Error:%s]], "log")
---]==]
+ Error:%s]], [[#LIGHT_BLUE#ERREUR: le boss aléatoire n'a pas pu être généré avec ces données [%s].
+ Erreur:%s]], "log")
 
 
 ------------------------------------------------
@@ -47396,21 +47363,19 @@ t("unknown", "inconnu", "_t")
 t("None", "Aucune", "_t")
 t("Equipment", "Équipement", "_t")
 t("Inventory", "Inventaire", "_t")
--- untranslated text
---[==[
-t("#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "tformat")
-t("Don't apply a resolver", "Don't apply a resolver", "_t")
-t("Object will be equipped if possible, otherwise added to main inventory", "Object will be equipped if possible, otherwise added to main inventory", "_t")
-t("Object added to main inventory", "Object added to main inventory", "_t")
-t("Drops", "Drops", "_t")
-t("Object added to main inventory (dropped on death)", "Object added to main inventory (dropped on death)", "_t")
-t("Attach Tinker", "Attach Tinker", "_t")
-t("Tinker will be attached to a worn object", "Tinker will be attached to a worn object", "_t")
-t("Drop Randart (auto data)", "Drop Randart (auto data)", "_t")
-t("Random Artifact (dropped on death) added to main inventory, uses the Base Object or Base Filter plus Randart Data as input", "Random Artifact (dropped on death) added to main inventory, uses the Base Object or Base Filter plus Randart Data as input", "_t")
-t("Drop Randart", "Drop Randart", "_t")
-t("Random Artifact (dropped on death) added to main inventory", "Random Artifact (dropped on death) added to main inventory", "_t")
-t("DEBUG -- Create Random Object", "DEBUG -- Create Random Object", "_t")
+t("#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "#LIGHT_GREEN#(De %-10.60s, ligne: %s):#LAST#", "tformat")
+t("Don't apply a resolver", "N'appliquez pas de résolveur", "_t")
+t("Object will be equipped if possible, otherwise added to main inventory", "L'objet sera équipé si possible, sinon ajouté à l'inventaire principal", "_t")
+t("Object added to main inventory", "Objet ajouté à l'inventaire principal", "_t")
+t("Drops", "Abandonner", "_t")
+t("Object added to main inventory (dropped on death)", "Objet ajouté à l'inventaire principal (abandonné à la mort)", "_t")
+t("Attach Tinker", "Attacher la babiole", "_t")
+t("Tinker will be attached to a worn object", "La babiole sera attaché à un objet porté", "_t")
+t("Drop Randart (auto data)", "Abandonner l'Artéfact aléatoire (données automatiques)", "_t")
+t("Random Artifact (dropped on death) added to main inventory, uses the Base Object or Base Filter plus Randart Data as input", "Artefact aléatoire (abandonné à la mort) ajouté à l'inventaire principal, utilise l'objet de base ou le filtre de base plus les données aléatoires comme entrée", "_t")
+t("Drop Randart", "Abandonner l'Artéfact aléatoire", "_t")
+t("Random Artifact (dropped on death) added to main inventory", "Artefact aléatoire (abandonné à la mort) ajouté à l'inventaire principal", "_t")
+t("DEBUG -- Create Random Object", "DEBUG -- Créer un objet aléatoire", "_t")
 t([[Generate objects randomly subject to filters and create Random Artifacts.
 Use "Generate" to create objects for preview and inspection.
 Use "Add Object" to choose where to put the object and add it to the game.
@@ -47420,82 +47385,78 @@ They use the #LIGHT_GREEN#Random filter#LAST# as input unless noted otherwise an
 Filters are interpreted by ToME and engine entity/object generation functions (game.zone:checkFilter, etc.).
 Interpretation of tables is within the _G environment (used by the Lua Console) using the current zone's #YELLOW_GREEN#object_list#LAST#.
 Hotkeys: #GOLD#'F1'#LAST# :: context sensitive help, #GOLD#'C'#LAST# :: Working Character Sheet, #GOLD#'I'#LAST# :: Working Character Inventory.
-]], [[Generate objects randomly subject to filters and create Random Artifacts.
-Use "Generate" to create objects for preview and inspection.
-Use "Add Object" to choose where to put the object and add it to the game.
-(Mouse over controls for a preview of the generated object/working Actor. (Press #GOLD#'L'#LAST# to lua inspect.)
-#SALMON#Resolvers#LAST# act on the working actor (default: player) to generate a SINGLE object.
-They use the #LIGHT_GREEN#Random filter#LAST# as input unless noted otherwise and control object destination.
-Filters are interpreted by ToME and engine entity/object generation functions (game.zone:checkFilter, etc.).
-Interpretation of tables is within the _G environment (used by the Lua Console) using the current zone's #YELLOW_GREEN#object_list#LAST#.
-Hotkeys: #GOLD#'F1'#LAST# :: context sensitive help, #GOLD#'C'#LAST# :: Working Character Sheet, #GOLD#'I'#LAST# :: Working Character Inventory.
+]], [[Générez des objets au hasard soumis à des filtres et créez des artefacts aléatoires.
+Utilisez "Générer" pour créer des objets pour l'aperçu et l'inspection.
+Utilisez "Ajouter un objet" pour choisir où placer l'objet et l'ajouter au jeu.
+(Passez la souris sur les commandes pour un aperçu de l'objet généré/de l'acteur actif. (Appuyez sur #GOLD#'L'#LAS # pour inspecter.)
+#SALMON#Les résolveurs#LAST# agissent sur l'acteur actif (par défaut: le joueur) pour générer un SEUL objet.
+Sauf indication contraire, ils utilisent le #LIGHT_GREEN#Filtre aléatoire#LAST# et contrôlent la destination de l'objet.
+Les filtres sont interprétés par ToME et les fonctions de génération d'entités/objets du moteur (game.zone:checkFilter, etc.).
+L'interprétation des tables se fait dans l'environnement _G (utilisé par la console Lua) en utilisant la zone courante #YELLOW_GREEN#object_list#LAST#.
+Raccourcis clavier: #GOLD#'F1'#LAST# :: aide contextuelle, #GOLD#'C'#LAST# :: Feuille de personnage de travail, #GOLD#'I'#LAST# :: Inventaire de personnage de travail.
 ]], "_t")
-t("The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "tformat")
-t("#GREY#None#LAST#", "#GREY#None#LAST#", "_t")
+t("The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "Le #LIGHT_GREEN#Filtre aléatoire#LAST# contrôle la génération aléatoire d'un objet normal.", "tformat")
+t("#GREY#None#LAST#", "#GREY#Aucun#LAST#", "_t")
 t("%s: %s", "%s: %s", "tformat")
-t("Object", "Object", "_t")
-t("Generate", "Generate", "_t")
-t("Add Object", "Add Object", "_t")
-t("Default Filter", "Default Filter", "_t")
-t("Clear Object", "Clear Object", "_t")
-t("#LIGHT_GREEN#Random Object#LAST#", "#LIGHT_GREEN#Random Object#LAST#", "_t")
-t("#LIGHT_GREEN#Random Filter:#LAST# ", "#LIGHT_GREEN#Random Filter:#LAST# ", "_t")
-t("The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "tformat")
-t("#LIGHT_BLUE#Base Object#LAST#", "#LIGHT_BLUE#Base Object#LAST#", "_t")
-t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Base Filter:#LAST# ", "_t")
-t("#SALMON#Resolver selected:#LAST# ", "#SALMON#Resolver selected:#LAST# ", "tformat")
-t("An object resolver interprets additional filter fields to generate an object and determine where it will go.", "An object resolver interprets additional filter fields to generate an object and determine where it will go.", "_t")
-t("Dropdown text", "Dropdown text", "_t")
-t("No Tooltip", "No Tooltip", "_t")
-t("Use this selector to choose which resolver to use", "Use this selector to choose which resolver to use", "_t")
+t("Object", "Objet", "_t")
+t("Generate", "Générer", "_t")
+t("Add Object", "Ajouter un objet", "_t")
+t("Default Filter", "Filtre par défaut", "_t")
+t("Clear Object", "Effacer l'objet", "_t")
+t("#LIGHT_GREEN#Random Object#LAST#", "#LIGHT_GREEN#Objet aléatoire#LAST#", "_t")
+t("#LIGHT_GREEN#Random Filter:#LAST# ", "#LIGHT_GREEN#Filtre aléatoire:#LAST# ", "_t")
+t("The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "Le #LIGHT_BLUE#Filtre de base#LAST# génére un objet de base pour construire un artefact aléatoire.", "tformat")
+t("#LIGHT_BLUE#Base Object#LAST#", "#LIGHT_BLUE#Objet de base#LAST#", "_t")
+t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base:#LAST# ", "_t")
+t("#SALMON#Resolver selected:#LAST# ", "#SALMON#Résolveur sélectionné:#LAST# ", "tformat")
+t("An object resolver interprets additional filter fields to generate an object and determine where it will go.", "Un résolveur d'objets interprète des champs de filtre supplémentaires pour générer un objet et déterminer où il ira.", "_t")
+t("Dropdown text", "Texte déroulant", "_t")
+t("No Tooltip", "Aucune info-bulle", "_t")
+t("Use this selector to choose which resolver to use", "Utilisez ce sélecteur pour choisir le résolveur à utiliser", "_t")
 t([[#ORANGE#Randart Data#LAST# contains parameters used to generate a Randart (interpreted by game.state:generateRandart).
-The #LIGHT_BLUE#Base Object#LAST# will be used if possible.]], [[#ORANGE#Randart Data#LAST# contains parameters used to generate a Randart (interpreted by game.state:generateRandart).
-The #LIGHT_BLUE#Base Object#LAST# will be used if possible.]], "tformat")
-t("Default Data", "Default Data", "_t")
-t("#ORANGE#Randart Data:#LAST# ", "#ORANGE#Randart Data:#LAST# ", "_t")
-t("#ORANGE#Randart#LAST#", "#ORANGE#Randart#LAST#", "_t")
-t("Show #GOLD#I#LAST#nventory", "Show #GOLD#I#LAST#nventory", "_t")
-t("Show #GOLD#C#LAST#haracter Sheet", "Show #GOLD#C#LAST#haracter Sheet", "_t")
-t("Set working actor: [%s] %s", "Set working actor: [%s] %s", "tformat")
-t("Set working actor: [%s] %s%s", "Set working actor: [%s] %s%s", "tformat")
-t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(player)#LAST#", "_t")
-t("#GREY#No Tooltip to Display#LAST#", "#GREY#No Tooltip to Display#LAST#", "_t")
-t("Filter/Data/Resolver Reference", "Filter/Data/Resolver Reference", "_t")
-t("#LIGHT_BLUE#Lua Inspect [%s] %s", "#LIGHT_BLUE#Lua Inspect [%s] %s", "log")
-t("#LIGHT_BLUE#Nothing to Lua inspect", "#LIGHT_BLUE#Nothing to Lua inspect", "log")
-t("#LIGHT_BLUE#Bad %s: %s", "#LIGHT_BLUE#Bad %s: %s", "log")
-t("table definition", "table definition", "_t")
-t("#LIGHT_BLUE# Generate Random object using resolver: %s", "#LIGHT_BLUE# Generate Random object using resolver: %s", "log")
-t("#LIGHT_BLUE# New random%s object: %s", "#LIGHT_BLUE# New random%s object: %s", "log")
-t(" (resolver: %s)", " (resolver: %s)", "tformat")
-t("#LIGHT_BLUE#Could not generate a random object with filter: %s", "#LIGHT_BLUE#Could not generate a random object with filter: %s", "log")
+The #LIGHT_BLUE#Base Object#LAST# will be used if possible.]], [[#ORANGE#Les données d'artefact aléatoire#LAST# contiennent les paramètres utilisés pour générer un artefact aléatoire (interprété par game.state:generateRandart).
+L'#LIGHT_BLUE #objet de base#LAST# sera utilisé si possible.]], "tformat")
+t("Default Data", "Données par défaut", "_t")
+t("#ORANGE#Randart Data:#LAST# ", "#ORANGE#Données d'artefact aléatoire:#LAST# ", "_t")
+t("#ORANGE#Randart#LAST#", "#ORANGE#Artefact aléatoire#LAST#", "_t")
+t("Show #GOLD#I#LAST#nventory", "Montrer l'#GOLD#'I'#LAST#nventaire", "_t")
+t("Show #GOLD#C#LAST#haracter Sheet", "Montrer la #GOLD#'C'#LAST# Feuille de personnage", "_t")
+t("Set working actor: [%s] %s", "Définir l'acteur de travail: [%s] %s", "tformat")
+t("Set working actor: [%s] %s%s", "Définir l'acteur de travail:[%s] %s%s", "tformat")
+t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(joueur)#LAST#", "_t")
+t("#GREY#No Tooltip to Display#LAST#", "#GREY#Aucune info-bulle à afficher#LAST#", "_t")
+t("Filter/Data/Resolver Reference", "Référence de filtre/données/résolveur", "_t")
+t("#LIGHT_BLUE#Lua Inspect [%s] %s", "#LIGHT_BLUE#Inspecteur Lua [%s] %s", "log")
+t("#LIGHT_BLUE#Nothing to Lua inspect", "#LIGHT_BLUE#Rien à inspecter par Lua", "log")
+t("#LIGHT_BLUE#Bad %s: %s", "#LIGHT_BLUE#Mauvais %s: %s", "log")
+t("table definition", "définition de table", "_t")
+t("#LIGHT_BLUE# Generate Random object using resolver: %s", "#LIGHT_BLUE# Générez un objet aléatoire à l'aide du résolveur: %s", "log")
+t("#LIGHT_BLUE# New random%s object: %s", "#LIGHT_BLUE# Nouvel objet aléatoire %s: %s", "log")
+t(" (resolver: %s)", " (résolveur: %s)", "tformat")
+t("#LIGHT_BLUE#Could not generate a random object with filter: %s", "#LIGHT_BLUE#Impossible de générer un objet aléatoire avec le filtre: %s", "log")
 t([[#LIGHT_BLUE#ERROR generating random object with filter [%s].
- Error: %s]], [[#LIGHT_BLUE#ERROR generating random object with filter [%s].
- Error: %s]], "log")
-t("#LIGHT_BLUE#Could not generate a base object with filter: %s", "#LIGHT_BLUE#Could not generate a base object with filter: %s", "log")
+ Error: %s]], [[#LIGHT_BLUE#ERREUR génération un objet aléatoire avec le filtre [%s].
+ Erreur: %s]], "log")
+t("#LIGHT_BLUE#Could not generate a base object with filter: %s", "#LIGHT_BLUE#Impossible de générer un objet de base avec le filtre: %s", "log")
 t([[#LIGHT_BLUE#ERROR generating base object with filter [%s].
- Error:%s]], [[#LIGHT_BLUE#ERROR generating base object with filter [%s].
- Error:%s]], "log")
-t("#LIGHT_BLUE#Could not generate a Randart with data: %s", "#LIGHT_BLUE#Could not generate a Randart with data: %s", "log")
+ Error:%s]], [[#LIGHT_BLUE#ERREUR génération d'un objet de base avec le filtre [%s].
+ Erreur:%s]], "log")
+t("#LIGHT_BLUE#Could not generate a Randart with data: %s", "#LIGHT_BLUE#Impossible de générer un artefact aléatoire avec ces données: %s", "log")
 t([[#LIGHT_BLUE#ERROR generating Randart with data [%s].
- Error:%s]], [[#LIGHT_BLUE#ERROR generating Randart with data [%s].
- Error:%s]], "log")
-t("#LIGHT_BLUE#No object to add", "#LIGHT_BLUE#No object to add", "log")
+ Error:%s]], [[#LIGHT_BLUE#ERREUR génération d'un artefact aléatoire avec ces données [%s].
+ Erreur:%s]], "log")
+t("#LIGHT_BLUE#No object to add", "#LIGHT_BLUE#Aucun objet à ajouter", "log")
 t([[#LIGHT_BLUE#ERROR accepting object with resolver %s.
- Error:%s]], [[#LIGHT_BLUE#ERROR accepting object with resolver %s.
- Error:%s]], "log")
-t("#LIGHT_BLUE#Working Actor set to [%s]%s at (%d, %d)", "#LIGHT_BLUE#Working Actor set to [%s]%s at (%d, %d)", "log")
---]==]
+ Error:%s]], [[#LIGHT_BLUE#ERREUR accepter un objet avec le résolveur %s.
+ Erreur:%s]], "log")
+t("#LIGHT_BLUE#Working Actor set to [%s]%s at (%d, %d)", "#LIGHT_BLUE#Acteur de travail défini sur [%s]%s à (%d, %d)", "log")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/SpawnEvent.lua"
 
 
--- untranslated text
---[==[
-t("DEBUG -- Spawn Event", "DEBUG -- Spawn Event", "_t")
---]==]
+t("DEBUG -- Spawn Event", "DEBUG -- Apparaitre d'un événement", "_t")
 
 
 ------------------------------------------------
