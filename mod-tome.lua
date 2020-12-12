@@ -43618,7 +43618,7 @@ t("- requires a target, your last hostile one will be automatically used", "- n�
 t("- will only trigger if no enemies are visible", "- ne se déclenchera que si aucun ennemi n'est visible", "_t")
 t("- will automatically target you if a target is required", "- vous ciblera automatiquement si une cible est requise", "_t")
 t("- will only trigger if enemies are visible", "- ne se déclenchera que si les ennemis sont visibles", "_t")
-t("- will only trigger if enemies are visible and adjacent", "- ne se déclenchera que si les ennemis sont visibles et adjacents", "_t")
+t("- will only trigger if enemies are visible and adjacent", "- ne se déclenchera que si un ennemi est visible et adjacent", "_t")
 t("- will only trigger if you are not in combat", "- ne se déclenchera que si vous n'êtes pas en combat", "_t")
 t("Automatic use", "Utilisation automatique", "_t")
 t([[%s:
@@ -47075,8 +47075,8 @@ t("%sRequest confirmation before using this talent", "%sExiger une confirmation 
 t("#YELLOW#Disable ", "#YELLOW#Désactiver ", "_t")
 t("Auto-use when available", "Usage auto si disponible", "_t")
 t("Auto-use when no enemies are visible", "Usage auto lorsqu'aucun ennemi n'est visible", "_t")
-t("Auto-use when enemies are visible", "Usage auto lorsque les ennemis sont visibles", "_t")
-t("Auto-use when enemies are visible and adjacent", "Usage auto lorsque les ennemis sont visibles et adjacents", "_t")
+t("Auto-use when enemies are visible", "Usage auto lorsqu'un ennemi est visible", "_t")
+t("Auto-use when enemies are visible and adjacent", "Usage auto lorsqu'un ennemi est visible et adjacent", "_t")
 t("Auto-use when out of combat", "Usage auto en dehors du combat", "_t")
 t("Hotkey ", "Raccourci clavier ", "_t")
 t("Bind talent: %s", "Assigner le talent: %s", "tformat")
@@ -47463,69 +47463,57 @@ t("DEBUG -- Spawn Event", "DEBUG -- Apparaitre d'un événement", "_t")
 section "mod-tome/mod/dialogs/debug/SummonCreature.lua"
 
 
--- untranslated text
---[==[
-t("DEBUG -- Summon Creature", "DEBUG -- Summon Creature", "_t")
-t("#LIGHT_BLUE# no actor to place.", "#LIGHT_BLUE# no actor to place.", "log")
-t("#LIGHT_BLUE#Actor [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Actor [%s]%s already occupies (%d, %d)", "log")
-t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "log")
-t("#YELLOW#Random Actor#LAST#", "#YELLOW#Random Actor#LAST#", "_t")
-t("#PINK#Test Dummy#LAST#", "#PINK#Test Dummy#LAST#", "_t")
-t("Test Dummy", "Test Dummy", "_t")
-t("Test dummy.", "Test dummy.", "_t")
---]==]
+t("DEBUG -- Summon Creature", "DEBUG -- Invoquer une créature", "_t")
+t("#LIGHT_BLUE# no actor to place.", "#LIGHT_BLUE# Pas d'acteur à placer.", "log")
+t("#LIGHT_BLUE#Actor [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Acteur [%s]%s déjà occupé (%d, %d)", "log")
+t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Ajouté %s[%s]%s à (%d, %d)", "log")
+t("#YELLOW#Random Actor#LAST#", "#YELLOW#Acteur aléatoire#LAST#", "_t")
+t("#PINK#Test Dummy#LAST#", "#PINK#Mannequin de Test#LAST#", "_t")
+t("Test Dummy", "Mannequin de Test", "_t")
+t("Test dummy.", "Mannequin de test.", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/orders/Behavior.lua"
 
 
--- untranslated text
---[==[
-t("Set behavior: %s", "Set behavior: %s", "tformat")
-t("%s behavior set to %s.", "%s behavior set to %s.", "logPlayer")
-t("Default", "Default", "_t")
-t("Melee", "Melee", "_t")
-t("Ranged", "Ranged", "_t")
+t("Set behavior: %s", "Définir le comportement: %s", "tformat")
+t("%s behavior set to %s.", "%s comportement défini sur %s.", "logPlayer")
+t("Default", "Défaut", "_t")
+t("Melee", "Mêlée", "_t")
+t("Ranged", "Distance", "_t")
 t("Tank", "Tank", "_t")
-t("Standby", "Standby", "_t")
---]==]
+t("Standby", "mode veille", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/orders/Talents.lua"
 
 
--- untranslated text
---[==[
-t("Define tactical talents usage", "Define tactical talents usage", "_t")
+t("Define tactical talents usage", "Définir l'utilisation des talents tactiques", "_t")
 t([[%s is listening attentively, and wants to know what talents to use.
 You can modify the tactical weights of various talents to increase or decrease their use.  The weights are multiplicative (zero will turn the talent off) and relative (changing everything to a weight of 2 will not alter how talents are used relative to each other).
 Word travels fast in Maj'Eyal, and if %s is a summon all future summons of the same type will remember your preferences.
-]], [[%s is listening attentively, and wants to know what talents to use.
-You can modify the tactical weights of various talents to increase or decrease their use.  The weights are multiplicative (zero will turn the talent off) and relative (changing everything to a weight of 2 will not alter how talents are used relative to each other).
-Word travels fast in Maj'Eyal, and if %s is a summon all future summons of the same type will remember your preferences.
+]], [[%s écoute attentivement et veut savoir quels talents utiliser.
+Vous pouvez modifier le poids tactiques de divers talents pour augmenter ou diminuer leur utilisation. Les pondérations sont multiplicatives (zéro désactivera le talent) et relatives (tout changer à un poids de 2 ne modifiera pas la façon dont les talents sont utilisés les uns par rapport aux autres).
+Votre parole voyage rapidement dans Maj'Eyal, et si %s est une invocation, toutes les futures invocations du même type se souviendront de vos préférences.
 ]], "tformat")
 t("", "", "_t")
-t("Talent Name", "Talent Name", "_t")
-t("Weight", "Weight", "_t")
-t("Enter the talent weight multiplier", "Enter the talent weight multiplier", "_t")
-t("0 is off, 1 is normal", "0 is off, 1 is normal", "_t")
---]==]
+t("Talent Name", "Nom du talent", "_t")
+t("Weight", "Poids", "_t")
+t("Enter the talent weight multiplier", "Entrez le multiplicateur de poids du talent", "_t")
+t("0 is off, 1 is normal", "0 est désactivé, 1 est normal", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/CommonData.lua"
 
 t("unknown", "inconnu", "_t")
--- untranslated text
---[==[
-t("Character's Skin", "Character's Skin", "_t")
-t("Character's Hair", "Character's Hair", "_t")
-t("Character's Facial Features", "Character's Facial Features", "_t")
-t("Character's Aura", "Character's Aura", "_t")
+t("Character's Skin", "Peau du personnage", "_t")
+t("Character's Hair", "Cheveux du personnage", "_t")
+t("Character's Facial Features", "Caractéristiques faciales du personnage", "_t")
+t("Character's Aura", "Aura du personnage", "_t")
 t("#GREY#Invisible#LAST#", "#GREY#Invisible#LAST#", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -47533,33 +47521,27 @@ section "mod-tome/mod/dialogs/shimmer/Shimmer.lua"
 
 t("Name", "Nom", "_t")
 t("Cancel", "Annuler", "_t")
--- untranslated text
---[==[
-t("Shimmer object: %s", "Shimmer object: %s", "tformat")
-t("Search: ", "Search: ", "_t")
+t("Shimmer object: %s", "Objet chatoyant: %s", "tformat")
+t("Search: ", "Chercher: ", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
-#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "_t")
+#{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les donateurs/acheteurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
 t([[You can alter %s to look like another item of the same type/slot.
-#{bold}#This is a purely cosmetic change.#{normal}#%s]], [[You can alter %s to look like another item of the same type/slot.
-#{bold}#This is a purely cosmetic change.#{normal}#%s]], "tformat")
-t("Donator Cosmetic Feature", "Donator Cosmetic Feature", "_t")
-t("This cosmetic feature is only available to donators/buyers.", "This cosmetic feature is only available to donators/buyers.", "_t")
-t("shimmer ingame", "shimmer ingame", "_t")
-t("Donate", "Donate", "_t")
+#{bold}#This is a purely cosmetic change.#{normal}#%s]], [[Vous pouvez modifier %s pour qu'il ressemble à un autre élément du même type/emplacement.
+#{bold}#C'est un changement purement cosmétique.#{normal}#%s]], "tformat")
+t("Donator Cosmetic Feature", "Caractéristique cosmétique de donateur", "_t")
+t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les donateurs/acheteurs.", "_t")
+t("shimmer ingame", "chatoyance dans le jeu", "_t")
+t("Donate", "Donner", "_t")
 t("#GREY#[Invisible]", "#GREY#[Invisible]", "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/ShimmerDemo.lua"
 
 
--- untranslated text
---[==[
 t("Shimmer Demo", "Shimmer Demo", "_t")
 t("#GREY#[Invisible]", "#GREY#[Invisible]", "_t")
---]==]
 
 
 ------------------------------------------------
@@ -47567,22 +47549,19 @@ section "mod-tome/mod/dialogs/shimmer/ShimmerOther.lua"
 
 t("Name", "Nom", "_t")
 t("Cancel", "Annuler", "_t")
--- untranslated text
---[==[
-t("Shimmer: %s", "Shimmer: %s", "tformat")
-t("Search: ", "Search: ", "_t")
+t("Shimmer: %s", "Chatoyer: %s", "tformat")
+t("Search: ", "Chercher: ", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
-#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "_t")
+#{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les donateurs/acheteurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
 t([[You can alter your look.
-#{bold}#This is a purely cosmetic change.#{normal}#%s]], [[You can alter your look.
-#{bold}#This is a purely cosmetic change.#{normal}#%s]], "tformat")
-t("Donator Cosmetic Feature", "Donator Cosmetic Feature", "_t")
-t("This cosmetic feature is only available to donators/buyers.", "This cosmetic feature is only available to donators/buyers.", "_t")
-t("shimmer ingame", "shimmer ingame", "_t")
-t("Donate", "Donate", "_t")
-t("#GREY#[Default]", "#GREY#[Default]", "_t")
---]==]
+#{bold}#This is a purely cosmetic change.#{normal}#%s]], [[Vous pouvez modifier votre apparence.
+#{bold}#C'est un changement purement cosmétique.#{normal}#%s]], "tformat")
+t("Donator Cosmetic Feature", "Caractéristique cosmétique de donateur", "_t")
+t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les donateurs/acheteurs.", "_t")
+t("shimmer ingame", "chatoyance dans le jeu", "_t")
+t("Donate", "Donner", "_t")
+t("#GREY#[Default]", "#GREY#[Défaut]", "_t")
 
 
 ------------------------------------------------
