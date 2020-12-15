@@ -47654,53 +47654,44 @@ t("All talents that can be used with Extension.", "Tous les talents pouvant êtr
 section "mod-tome/mod/dialogs/talents/ChronomancyMatrix.lua"
 
 
--- untranslated text
---[==[
-t("Matrix", "Matrix", "_t")
+t("Matrix", "Matrice", "_t")
 t([[You may select a chronomancy spell to Matrix, reducing the cooldown of that spell.
-]], [[You may select a chronomancy spell to Matrix, reducing the cooldown of that spell.
+]], [[Vous pouvez sélectionner un sort de chronomancie pour Matrice, réduisant le temps de recharge de ce sort.
 ]], "_t")
 t("", "", "_t")
 t("Talent", "Talent", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
-t("All talents that can be used with Matrix.", "All talents that can be used with Matrix.", "_t")
---]==]
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("All talents that can be used with Matrix.", "Tous les talents pouvant être utilisés avec Matrice.", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/ChronomancyQuicken.lua"
 
 
--- untranslated text
---[==[
-t("Quicken", "Quicken", "_t")
+t("Quicken", "Accélération", "_t")
 t([[You may select a chronomancy spell to Quicken, reducing the time it takes you to cast that spell.
-]], [[You may select a chronomancy spell to Quicken, reducing the time it takes you to cast that spell.
+]], [[Vous pouvez sélectionner un sort de chronomancie pour Accélération, réduisant le temps qu'il vous faut pour lancer ce sort.
 ]], "_t")
 t("", "", "_t")
 t("Talent", "Talent", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
-t("All talents that can be used with Quicken.", "All talents that can be used with Quicken.", "_t")
---]==]
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("All talents that can be used with Quicken.", "Tous les talents pouvant être utilisés avec Accélération.", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/MagicalCombatArcaneCombat.lua"
 
 
--- untranslated text
---[==[
-t("Arcane Combat", "Arcane Combat", "_t")
+t("Arcane Combat", "Combat Arcanique", "_t")
 t([[You may select a spell for Arcane Combat to automatically trigger with melee attacks.  Otherwise, select 'Random spells' to have a spell selected automatically with each attack.
-]], [[You may select a spell for Arcane Combat to automatically trigger with melee attacks.  Otherwise, select 'Random spells' to have a spell selected automatically with each attack.
+]], [[Vous pouvez sélectionner un sort pour Combat Arcanique à déclencher automatiquement avec des attaques de mêlée. Sinon, sélectionnez «Sorts aléatoires» pour qu'un sort soit sélectionné automatiquement à chaque attaque.
 ]], "_t")
 t("", "", "_t")
 t("Talent", "Talent", "_t")
-t("Random spells", "Random spells", "_t")
-t("Each time Arcane Combat is triggered, a random allowed spell will be used.", "Each time Arcane Combat is triggered, a random allowed spell will be used.", "_t")
-t("#{bold}#Choose a spell#{normal}#", "#{bold}#Choose a spell#{normal}#", "_t")
-t("All known spells that can be used with Arcane Combat.", "All known spells that can be used with Arcane Combat.", "_t")
---]==]
+t("Random spells", "Sorts aléatoire", "_t")
+t("Each time Arcane Combat is triggered, a random allowed spell will be used.", "Chaque fois que Combat Arcanique est déclenché, un sort aléatoire autorisé sera utilisé.", "_t")
+t("#{bold}#Choose a spell#{normal}#", "#{bold}#Choisissez un sort#{normal}#", "_t")
+t("All known spells that can be used with Arcane Combat.", "Tous les sorts connus pouvant être utilisés avec Combat Arcanique.", "_t")
 
 
 ------------------------------------------------
