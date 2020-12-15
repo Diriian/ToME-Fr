@@ -47569,21 +47569,18 @@ section "mod-tome/mod/dialogs/shimmer/ShimmerOutfits.lua"
 
 t("Name", "Nom", "_t")
 t("Cancel", "Annuler", "_t")
--- untranslated text
---[==[
-t("Shimmer Sets: %s", "Shimmer Sets: %s", "tformat")
-t("Search: ", "Search: ", "_t")
+t("Shimmer Sets: %s", "Ensembles chatoyant: %s", "tformat")
+t("Search: ", "Chercher: ", "_t")
 t([[You can switch your appearance to a saved set of shimmers.
-#{bold}#This is a purely cosmetic change.#{normal}#]], [[You can switch your appearance to a saved set of shimmers.
-#{bold}#This is a purely cosmetic change.#{normal}#]], "_t")
-t("Save Outfit", "Save Outfit", "_t")
-t("Outfit name?", "Outfit name?", "_t")
-t("Donator Cosmetic Feature", "Donator Cosmetic Feature", "_t")
-t("This cosmetic feature is only available to donators/buyers.", "This cosmetic feature is only available to donators/buyers.", "_t")
-t("shimmer ingame", "shimmer ingame", "_t")
-t("Donate", "Donate", "_t")
-t("#GOLD#[save current outfit]", "#GOLD#[save current outfit]", "_t")
---]==]
+#{bold}#This is a purely cosmetic change.#{normal}#]], [[Vous pouvez changer votre apparence en un ensemble enregistré de chatoiements.
+#{bold}#C'est un changement purement cosmétique.#{normal}#]], "_t")
+t("Save Outfit", "Enregistrer la tenue", "_t")
+t("Outfit name?", "Nom de la tenue?", "_t")
+t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
+t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
+t("shimmer ingame", "chatoyance en jeu", "_t")
+t("Donate", "Donation", "_t")
+t("#GOLD#[save current outfit]", "#GOLD#[enregistrer la tenue actuelle]", "_t")
 
 
 ------------------------------------------------
@@ -47592,77 +47589,65 @@ section "mod-tome/mod/dialogs/shimmer/ShimmerRemoveSustains.lua"
 t("Name", "Nom", "_t")
 t("Active", "Activé", "_t")
 t("Cancel", "Annuler", "_t")
--- untranslated text
---[==[
-t("Shimmer: Remove Sustains Effects", "Shimmer: Remove Sustains Effects", "_t")
+t("Shimmer: Remove Sustains Effects", "Chatoyance: supprimer les effets soutenus", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
-#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "_t")
+#{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
 t([[#{bold}##CRIMSON#WARNING: this is an EXPERIMENTAL feature. It may explode!#LAST##{normal}#
 Sustains auras with name in #YELLOW#yellow#LAST# can not be automatically turned back on if disabled. After turning them on here, you need to unsustain and resustain them manually.
 
-#{bold}#This is a purely cosmetic change.#{normal}#]], [[#{bold}##CRIMSON#WARNING: this is an EXPERIMENTAL feature. It may explode!#LAST##{normal}#
-Sustains auras with name in #YELLOW#yellow#LAST# can not be automatically turned back on if disabled. After turning them on here, you need to unsustain and resustain them manually.
+#{bold}#This is a purely cosmetic change.#{normal}#]], [[#{bold}##CRIMSON#AVERTISSEMENT: il s'agit d'une fonctionnalité EXPÉRIMENTALE. Elle peut exploser!#LAST##{normal}#
+Les auras soutenus dont le nom est #YELLOW#jaune#LAST# ne peut pas être automatiquement réactivé si elles sont désactivées. Après les avoir activés ici, vous devez les annuler et les réactiver manuellement.
 
-#{bold}#This is a purely cosmetic change.#{normal}#]], "_t")
-t("Donator Cosmetic Feature", "Donator Cosmetic Feature", "_t")
-t("This cosmetic feature is only available to donators/buyers.", "This cosmetic feature is only available to donators/buyers.", "_t")
-t("shimmer ingame", "shimmer ingame", "_t")
-t("Donate", "Donate", "_t")
-t("#LIGHT_RED#no", "#LIGHT_RED#no", "_t")
-t("#LIGHT_GREEN#yes", "#LIGHT_GREEN#yes", "_t")
---]==]
+#{bold}#C'est un changement purement cosmétique.#{normal}#]], "_t")
+t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
+t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
+t("shimmer ingame", "chatoyance en jeu", "_t")
+t("Donate", "Donation", "_t")
+t("#LIGHT_RED#no", "#LIGHT_RED#non", "_t")
+t("#LIGHT_GREEN#yes", "#LIGHT_GREEN#oui", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/ChronomancyContingency.lua"
 
 
--- untranslated text
---[==[
-t("Contingency", "Contingency", "_t")
+t("Contingency", "Contingence", "_t")
 t([[You may select a spell for Contingency to automatically use when your life falls below a percentage.  Only active spells that do not require a target may be chosen.
-]], [[You may select a spell for Contingency to automatically use when your life falls below a percentage.  Only active spells that do not require a target may be chosen.
+]], [[Vous pouvez sélectionner un sort pour Contingence à utiliser automatiquement lorsque votre vie tombe en dessous d'un certain pourcentage. Seuls les sorts actifs ne nécessitant pas de cible peuvent être choisis.
 ]], "_t")
 t("", "", "_t")
 t("Talent", "Talent", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
-t("All talents that can be used with Contingency.", "All talents that can be used with Contingency.", "_t")
---]==]
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("All talents that can be used with Contingency.", "Talents pouvant être utilisés avec Contingence.", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/ChronomancyEmpower.lua"
 
 
--- untranslated text
---[==[
-t("Empower", "Empower", "_t")
+t("Empower", "Amélioration", "_t")
 t([[You may select a chronomancy spell to Empower, increasing your effective spellpower when casting that spell.
-]], [[You may select a chronomancy spell to Empower, increasing your effective spellpower when casting that spell.
+]], [[Vous pouvez sélectionner un sort de chronomancie à améliorer, augmentant votre puissance de sort effective lorsque vous le lancez.
 ]], "_t")
 t("", "", "_t")
 t("Talent", "Talent", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
-t("All talents that can be used with Empower.", "All talents that can be used with Empower.", "_t")
---]==]
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("All talents that can be used with Empower.", "Tous les talents pouvant être utilisés avec Amélioration.", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/ChronomancyExtension.lua"
 
 
--- untranslated text
---[==[
-t("Extension", "Extension", "_t")
+t("Extension", "Prolongation", "_t")
 t([[You may select a chronomancy spell to Extend, increasing the duration of that spell.
-]], [[You may select a chronomancy spell to Extend, increasing the duration of that spell.
+]], [[Vous pouvez sélectionner un sort de chronomancie à prolonger, augmentant la durée de ce sort.
 ]], "_t")
 t("", "", "_t")
 t("Talent", "Talent", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
-t("All talents that can be used with Extension.", "All talents that can be used with Extension.", "_t")
---]==]
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("All talents that can be used with Extension.", "Tous les talents pouvant être utilisés avec Prolongation.", "_t")
 
 
 ------------------------------------------------
