@@ -3631,7 +3631,7 @@ I will need to use 10 energy to do this.]], [[Oui maître, le Miroir Réfléchis
 Pour ce faire, je devrai utiliser 10 énergies.]], "_t")
 t("\
 #{italic}##CRIMSON#This feature is purely cosmetic is available only to donators/buyers. You can unlock the room and use the preview but you will not be able to validate your choices.#{normal}#", "\
-#{italic}##CRIMSON#Cette fonction est purement cosmétique et n'est disponible que pour les donateurs/acheteurs. Vous pouvez déverrouiller la salle et utiliser l'aperçu, mais vous ne pourrez pas valider vos choix.#{normal}#", "_t")
+#{italic}##CRIMSON#Cette fonction est purement cosmétique et n'est disponible que pour les acheteurs/donateurs. Vous pouvez déverrouiller la salle et utiliser l'aperçu, mais vous ne pourrez pas valider vos choix.#{normal}#", "_t")
 t("That could be quite nice. Yes, please do it.", "Cela pourrait être sympathique. Oui, s'il vous plaît, faites-le.", "_t")
 t([[Ah yes, you seem to master the simple art of alchemy. I can change the chest to automatically use your power to extract a gem if the transmogrification of the gem would reward more energy.
 However, I will need to use 25 energy to do this.]], [[Ah oui, vous semblez maîtriser l'art simple de l'alchimie. Je peux changer le coffre pour utiliser automatiquement votre pouvoir d'extraire une gemme si la transmogrification de la gemme récompenserait plus d'énergie.
@@ -44198,7 +44198,7 @@ t("Maximum air capacity: ", "Capacité d'air maximale: ", "_t")
 t("Spellpower: ", "Puissance des sorts: ", "_t")
 t("Spell crit. chance: ", "Chance de crit des sorts: ", "_t")
 t("Lowers spell cool-downs by: ", "Réduit les temps de récupération des sorts de: ", "_t")
-t("Mindpower: ", "Puissance Mentale: ", "_t")
+t("Mindpower: ", "Puissance mentale: ", "_t")
 t("Mental crit. chance: ", "Crit chance mental: ", "_t")
 t("Light radius: ", "Portée de vue: ", "_t")
 t("Infravision radius: ", "Portée d'infravision: ", "_t")
@@ -45940,7 +45940,7 @@ Vous aurez besoin d'être connecté à un profil en ligne actif pour activer la 
 
 Les donateurs gagnent également accès à la création d'avatars personnalisés pour leurs personnages.]], "_t")
 t("Later", "Plus tard", "_t")
-t("Donate!", "Donner!", "_t")
+t("Donate!", "Donnez!", "_t")
 t("Custom tiles", "Avatars personnalisés", "_t")
 t([[Custom Tiles have been added as a thank you to everyone that has donated to ToME.
 They are a fun cosmetic feature that allows you to choose a tile for your character from a list of nearly 180 (with more to be added over time), ranging from special humanoid tiles to downright wonky ones!
@@ -46605,8 +46605,8 @@ t([[#LIGHT_BLUE#Warning: You have increased some of your statistics or talent. T
  %s If these are dependent on one of the stats you changed, you need to re-use them for the changes to take effect.]], [[#LIGHT_BLUE#Attention: vous avez augmenté certaines de vos statistiques ou de vos talents. Talent(s) actuellement soutenu:
  %s Si ceux-ci dépendent de l'une des statistiques que vous avez modifiées, vous devez les réutiliser pour que les modifications prennent effet.]], "_t")
 t("#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "#LIGHT_RED#Conditions requises pour %s non satisfaites, prodige non appris.", "log")
-t("Not enough stat points", "Pas assez de points de statistiques", "_t")
-t("You have no stat points left!", "Vous n'avez plus de points de statistiques!", "_t")
+t("Not enough stat points", "Pas assez de points de stats", "_t")
+t("You have no stat points left!", "Vous n'avez plus de points de stats!", "_t")
 t("Stat is at the maximum for your level", "La statistique est au maximum pour votre niveau", "_t")
 t("You cannot increase this stat further until next level!", "Vous ne pouvez pas augmenter cette statistique jusqu'au prochain niveau!", "_t")
 t("Stat is at the maximum", "La stat est au maximum", "_t")
@@ -46827,8 +46827,8 @@ t("Stat", "Stat", "_t")
 t("Value", "Valeur", "_t")
 t("Spellpower", "Puissance de sort", "_t")
 t("Spellcrit", "Crit de sort", "_t")
-t("Not enough stat points", "Pas assez de points de stat", "_t")
-t("You have no stat points left!", "Il ne vous reste plus de point de stat!", "_t")
+t("Not enough stat points", "Pas assez de points de stats", "_t")
+t("You have no stat points left!", "Vous n'avez plus de points de stats!", "_t")
 t("Stat is at the maximum", "La stat est au maximum", "_t")
 t("You can not increase this stat further!", "Vous ne pouvez plus augmenter davantage cette stat!", "_t")
 t("Impossible", "Impossible", "_t")
@@ -46872,8 +46872,8 @@ section "mod-tome/mod/dialogs/ShowEquipInven.lua"
 t("Inventory", "Inventaire", "_t")
 t("Tooltip %s", "Info-bulle %s", "log")
 t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
-t("Main Set", "armes 1", "_t")
-t("Off Set", "armes 2", "_t")
+t("Main Set", "Armes 1", "_t")
+t("Off Set", "Armes 2", "_t")
 t("locked", "verouillé", "_t")
 t("unlocked", "dévérouillé", "_t")
 t("up", "haut", "log")
@@ -47048,7 +47048,7 @@ t("Active", "Activé", "_t")
 t("Passive", "Passif", "_t")
 t("Status", "Statut", "_t")
 t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
-t("%s assigned to hotkey %s", "%s assigné a la touche %s", "tformat")
+t("%s assigned to hotkey %s", "%s assigné au raccourci %s", "tformat")
 t("%s turns", "%s tours", "tformat")
 t("Unavailable", "Non disponible", "_t")
 t("Object", "Objet", "_t")
@@ -47186,7 +47186,7 @@ t("Cancel", "Annuler", "tformat")
 t("DEBUG -- Create Object", "DEBUG -- Création d'objet", "_t")
 t("Load from other zones ", "Charger à partir d'autres zones ", "_t")
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
- %s]], [[#ORANGE# Créer un objet: impossible de charger tous les objets du fichier %s:#GREY#
+ %s]], [[#ORANGE# Création d'objet: impossible de charger tous les objets du fichier %s:#GREY#
  %s]], "log")
 t("Generate examples (right-click refreshes) ", "Générer des exemples (actualisations par clic droit) ", "_t")
 t("#CRIMSON#==Resolved Example==#LAST#", "#CRIMSON#==Exemple résolu==#LAST#", "_t")
@@ -47230,7 +47230,7 @@ section "mod-tome/mod/dialogs/debug/CreateTrap.lua"
 
 t("DEBUG -- Create Trap", "DEBUG -- Crée un piège", "_t")
 t("#LIGHT_BLUE#Trap [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Piège [%s]%s occupe déjà (%d, %d)", "log")
-t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Ajouté %s[%s]%s at (%d, %d)", "log")
+t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Ajouté %s[%s]%s à (%d, %d)", "log")
 
 
 ------------------------------------------------
@@ -47280,7 +47280,7 @@ section "mod-tome/mod/dialogs/debug/Endgamify.lua"
 
 
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
- %s]], [[#ORANGE# Création d'objet: impossible de charger tous les objets à partir du fichier %s:#GREY#
+ %s]], [[#ORANGE# Création d'objet: impossible de charger tous les objets du fichier %s:#GREY#
  %s]], "log")
 t("Failed to generate %s", "Échec de la génération %s", "log")
 
@@ -47401,7 +47401,7 @@ t("%s: %s", "%s: %s", "tformat")
 t("Object", "Objet", "_t")
 t("Generate", "Générer", "_t")
 t("Add Object", "Ajouter un objet", "_t")
-t("Default Filter", "Filtre par défaut", "_t")
+t("Default Filter", "Filtre de base", "_t")
 t("Clear Object", "Effacer l'objet", "_t")
 t("#LIGHT_GREEN#Random Object#LAST#", "#LIGHT_GREEN#Objet aléatoire#LAST#", "_t")
 t("#LIGHT_GREEN#Random Filter:#LAST# ", "#LIGHT_GREEN#Filtre aléatoire:#LAST# ", "_t")
@@ -47525,14 +47525,14 @@ t("Shimmer object: %s", "Objet chatoyant: %s", "tformat")
 t("Search: ", "Chercher: ", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
-#{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les donateurs/acheteurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
+#{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
 t([[You can alter %s to look like another item of the same type/slot.
 #{bold}#This is a purely cosmetic change.#{normal}#%s]], [[Vous pouvez modifier %s pour qu'il ressemble à un autre élément du même type/emplacement.
 #{bold}#C'est un changement purement cosmétique.#{normal}#%s]], "tformat")
-t("Donator Cosmetic Feature", "Caractéristique cosmétique de donateur", "_t")
-t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les donateurs/acheteurs.", "_t")
-t("shimmer ingame", "chatoyance dans le jeu", "_t")
-t("Donate", "Donner", "_t")
+t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
+t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
+t("shimmer ingame", "chatoyance en jeu", "_t")
+t("Donate", "Donation", "_t")
 t("#GREY#[Invisible]", "#GREY#[Invisible]", "_t")
 
 
@@ -47553,14 +47553,14 @@ t("Shimmer: %s", "Chatoyer: %s", "tformat")
 t("Search: ", "Chercher: ", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
-#{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les donateurs/acheteurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
+#{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
 t([[You can alter your look.
 #{bold}#This is a purely cosmetic change.#{normal}#%s]], [[Vous pouvez modifier votre apparence.
 #{bold}#C'est un changement purement cosmétique.#{normal}#%s]], "tformat")
-t("Donator Cosmetic Feature", "Caractéristique cosmétique de donateur", "_t")
-t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les donateurs/acheteurs.", "_t")
-t("shimmer ingame", "chatoyance dans le jeu", "_t")
-t("Donate", "Donner", "_t")
+t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
+t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
+t("shimmer ingame", "chatoyance en jeu", "_t")
+t("Donate", "Donation", "_t")
 t("#GREY#[Default]", "#GREY#[Défaut]", "_t")
 
 
