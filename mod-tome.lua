@@ -46956,7 +46956,7 @@ section "mod-tome/mod/dialogs/SwiftHandsUse.lua"
 
 t("Inventory", "Inventaire", "_t")
 t("", "", "_t")
-t("Tool", "Outils", "_t")
+t("Tool", "Outil", "_t")
 t("Cooldown", "Rechargement", "_t")
 t("Ready", "Prêt", "_t")
 t("%d/%d", "%d/%d", "tformat")
@@ -47805,7 +47805,7 @@ section "mod-tome/mod/load.lua"
 t("Strength", "Force", "stat name")
 t("str", "for", "stat short_name")
 t("Dexterity", "Dextérité", "stat name")
-t("All kinds of weapons", "Toutes sortes d'armes!", "_t")
+t("All kinds of weapons", "Toutes sortes d'armes", "_t")
 t("Transmogrification Chest", "Coffre de Transmogrification", "_t")
 t("All", "Tout", "_t")
 t("In main hand", "En main principale", "_t")
