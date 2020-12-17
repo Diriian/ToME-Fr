@@ -44537,9 +44537,9 @@ t("something on the floor", "quelque chose sur le sol", "_t")
 section "mod-tome/mod/class/UserChatExtension.lua"
 
 
-t("#ANTIQUE_WHITE#has linked an item: #WHITE# %s", "#ANTIQUE_WHITE#a fait un lien avec un objet : #WHITE# %s", "tformat")
-t("#ANTIQUE_WHITE#has linked a creature: #WHITE# %s", "#ANTIQUE_WHITE#a fait un lien avec une créature: #WHITE# %s", "tformat")
-t("#ANTIQUE_WHITE#has linked a talent: #WHITE# %s", "#ANTIQUE_WHITE#a fait un lien avec un talent : #WHITE# %s", "tformat")
+t("#ANTIQUE_WHITE#has linked an item: #WHITE# %s", "#ANTIQUE_WHITE#a partagé un objet : #WHITE# %s", "tformat")
+t("#ANTIQUE_WHITE#has linked a creature: #WHITE# %s", "#ANTIQUE_WHITE#a partagé une créature: #WHITE# %s", "tformat")
+t("#ANTIQUE_WHITE#has linked a talent: #WHITE# %s", "#ANTIQUE_WHITE#a partagé un talent : #WHITE# %s", "tformat")
 t("#CRIMSON#%s#WHITE#", "#CRIMSON#%s#WHITE#", "tformat")
 t("SHAKING", "TREMBLEMENT", "log")
 
