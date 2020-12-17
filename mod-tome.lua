@@ -3215,11 +3215,8 @@ t([[Ah yes! I am so glad! I will be able to go back to Angolwen now, and perhaps
 Please take this ring; it has served me well.]], [[Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolwen maintenant, et peut-être que nous nous y retrouverons.
 S'il vous plaît, prenez cette bague, elle m'a bien servi.]], "_t")
 t("Thanks, and best luck in your studies!", "Merci, et bonne chance dans vos études!", "_t")
--- untranslated text
---[==[
 t("...", "...", "_t")
-t("Well, I cannot use it anyway.", "Well, I cannot use it anyway.", "_t")
---]==]
+t("Well, I cannot use it anyway.", "Hé bien, de toute façon je ne peux pas l'utiliser.", "_t")
 
 
 ------------------------------------------------
@@ -43668,8 +43665,6 @@ t("This tinker can not be applied to this item.", "Cette bricolle ne peut pas ê
 t("You already have a tinker on this item.", "Vous avez dèjà une bricolle sur cet objet.", "logPlayer")
 t("You attach %s to your %s.", "Vous attachez %s à votre %s.", "logPlayer")
 t("You fail to attach %s to %s.", "Vous n'arrivez pas à attacher %s à %s.", "logPlayer")
--- untranslated text
---[==[
 t("normal", "normal", "_t")
 t("rare", "rare", "_t")
 t("unique", "unique", "_t")
@@ -43681,19 +43676,18 @@ Mana:  %s%d / %d#LAST#", "\
 Mana:  %s%d / %d#LAST#", "tformat")
 t("\
 Positive:  %s%d / %d#LAST#", "\
-Positive:  %s%d / %d#LAST#", "tformat")
+Positif:  %s%d / %d#LAST#", "tformat")
 t(" (%d%%)", " (%d%%)", "tformat")
 t("#LIGHT_BLUE#Psi :#LAST#%s", "#LIGHT_BLUE#Psi :#LAST#%s", "tformat")
 t("Classes: ", "Classes: ", "_t")
 t("Faction: ", "Faction: ", "_t")
-t("#CRIMSON#(%d teleported)#LAST#", "#CRIMSON#(%d teleported)#LAST#", "tformat")
+t("#CRIMSON#(%d teleported)#LAST#", "#CRIMSON#(%d teleporté)#LAST#", "tformat")
 t("%s%d %s#LAST#", "%s%d %s#LAST#", "tformat")
 t("%s %s #{bold}##ORANGE#%s#LAST#.#{normal}#", "%s %s #{bold}##ORANGE#%s#LAST#.#{normal}#", "logSeen")
 t("%s %s: ", "%s %s: ", "tformat")
-t("gain", "gain", "_t")
-t("Drains", "Drains", "_t")
+t("gain", "gagne", "_t")
+t("Drains", "Vole", "_t")
 t("Description: ", "Description: ", "_t")
---]==]
 
 
 ------------------------------------------------
