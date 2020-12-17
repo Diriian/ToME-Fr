@@ -44537,25 +44537,19 @@ t("something on the floor", "quelque chose sur le sol", "_t")
 section "mod-tome/mod/class/UserChatExtension.lua"
 
 
--- untranslated text
---[==[
-t("#ANTIQUE_WHITE#has linked an item: #WHITE# %s", "#ANTIQUE_WHITE#has linked an item: #WHITE# %s", "tformat")
-t("#ANTIQUE_WHITE#has linked a creature: #WHITE# %s", "#ANTIQUE_WHITE#has linked a creature: #WHITE# %s", "tformat")
-t("#ANTIQUE_WHITE#has linked a talent: #WHITE# %s", "#ANTIQUE_WHITE#has linked a talent: #WHITE# %s", "tformat")
+t("#ANTIQUE_WHITE#has linked an item: #WHITE# %s", "#ANTIQUE_WHITE#a partagé un objet : #WHITE# %s", "tformat")
+t("#ANTIQUE_WHITE#has linked a creature: #WHITE# %s", "#ANTIQUE_WHITE#a partagé une créature: #WHITE# %s", "tformat")
+t("#ANTIQUE_WHITE#has linked a talent: #WHITE# %s", "#ANTIQUE_WHITE#a partagé un talent : #WHITE# %s", "tformat")
 t("#CRIMSON#%s#WHITE#", "#CRIMSON#%s#WHITE#", "tformat")
-t("SHAKING", "SHAKING", "log")
---]==]
+t("SHAKING", "TREMBLEMENT", "log")
 
 
 ------------------------------------------------
 section "mod-tome/mod/class/World.lua"
 
 
--- untranslated text
---[==[
-t("%s the %s %s level %s", "%s the %s %s level %s", "tformat")
-t("#LIGHT_BLUE#New shimmer option unlocked: #{italic}#%s#{normal}#", "#LIGHT_BLUE#New shimmer option unlocked: #{italic}#%s#{normal}#", "log")
---]==]
+t("%s the %s %s level %s", "%s le %s %s niveau %s", "tformat")
+t("#LIGHT_BLUE#New shimmer option unlocked: #{italic}#%s#{normal}#", "#LIGHT_BLUE#Nouvelle option de chatoiement débloquée : #{italic}#%s#{normal}#", "log")
 
 
 ------------------------------------------------
@@ -44566,14 +44560,11 @@ t("friendly", "amicale", "_t")
 t("Rank: ", "Rang: ", "_t")
 t("Target: ", "Cible: ", "_t")
 t("none", "aucun", "_t")
--- untranslated text
---[==[
-t("#Source# kills #Target#.", "#Source# kills #Target#.", "logCombat")
-t("#Target# kills #Source#.", "#Target# kills #Source#.", "logCombat")
+t("#Source# kills #Target#.", "#Source# tue #Target#.", "logCombat")
+t("#Target# kills #Source#.", "#Target# tue #Source#.", "logCombat")
 t("hostile", "hostile", "_t")
 t("Faction: ", "Faction: ", "_t")
-t("Killed by you: ", "Killed by you: ", "tformat")
---]==]
+t("Killed by you: ", "Tué par vous: ", "tformat")
 
 
 ------------------------------------------------
@@ -44581,60 +44572,51 @@ section "mod-tome/mod/class/generator/actor/Arena.lua"
 
 t("Reaver", "Moissoneur", "_t")
 t("%s the %s", "%s le %s", "tformat")
--- untranslated text
---[==[
-t("giant crystal rat", "giant crystal rat", "_t")
-t("Skeletal rats", "Skeletal rats", "_t")
-t("Gladiators", "Gladiators", "_t")
-t("Golden crystals", "Golden crystals", "_t")
-t("Master slingers", "Master slingers", "_t")
-t("Master Alchemist", "Master Alchemist", "_t")
-t("Multi-hued Wyrmic", "Multi-hued Wyrmic", "_t")
-t("Headless horror", "Headless horror", "_t")
-t("Ryal the Towering", "Ryal the Towering", "_t")
-t("Boss fight!", "Boss fight!", "_t")
-t("Victory!!", "Victory!!", "_t")
-t("Fryjia the Hailstorm", "Fryjia the Hailstorm", "_t")
-t("Riala the Crimson", "Riala the Crimson", "_t")
-t("Valfren the Rampage", "Valfren the Rampage", "_t")
-t(" appear!!", " appear!!", "_t")
-t(" appears!!", " appears!!", "_t")
+t("giant crystal rat", "Rat crystal géant", "_t")
+t("Skeletal rats", "Rats squelette", "_t")
+t("Gladiators", "Gladiateurs", "_t")
+t("Golden crystals", "Crystaux dorés", "_t")
+t("Master slingers", "Maître frondeurs", "_t")
+t("Master Alchemist", "Maître alchimiste", "_t")
+t("Multi-hued Wyrmic", "Draconien multicolor", "_t")
+t("Headless horror", "Horreur sans tête", "_t")
+t("Ryal the Towering", "Ryal l'imposant", "_t")
+t("Boss fight!", "Combat de chef!", "_t")
+t("Victory!!", "Victoire!!", "_t")
+t("Fryjia the Hailstorm", "Fryjia la grêle", "_t")
+t("Riala the Crimson", "Riala la cramoisie", "_t")
+t("Valfren the Rampage", "Valfren le déchaîné", "_t")
+t(" appear!!", " apparaître!!", "_t")
+t(" appears!!", " apparaît!!", "_t")
 t("#LIGHT_RED#%s%s", "#LIGHT_RED#%s%s", "log")
-t("#LIGHT_RED#WARNING! %s appears!!!", "#LIGHT_RED#WARNING! %s appears!!!", "log")
-t("The final fight!", "The final fight!", "_t")
-t("Congratulations!", "Congratulations!", "_t")
-t("Rej the Master of Arena", "Rej the Master of Arena", "_t")
-t("#LIGHT_RED#WARNING! Rej Arkatis, the master of the arena, appears!!!", "#LIGHT_RED#WARNING! Rej Arkatis, the master of the arena, appears!!!", "log")
-t("%s the Master of Arena", "%s the Master of Arena", "tformat")
-t("#LIGHT_RED#WARNING! %s, the master of the arena, appears!!!", "#LIGHT_RED#WARNING! %s, the master of the arena, appears!!!", "log")
-t("OVERKILL", "OVERKILL", "_t")
-t("#LIGHT_GREEN#Your powerful attack completely obliterates #WHITE#%s#LIGHT_GREEN#!", "#LIGHT_GREEN#Your powerful attack completely obliterates #WHITE#%s#LIGHT_GREEN#!", "log")
-t("#LIGHT_GREEN#The audience cheers!", "#LIGHT_GREEN#The audience cheers!", "log")
-t("#LIGHT_GREEN#You destroy #WHITE#%s#LIGHT_GREEN# in a single blow!", "#LIGHT_GREEN#You destroy #WHITE#%s#LIGHT_GREEN# in a single blow!", "log")
-t("#LIGHT_GREEN#Your score multiplier increases by #WHITE#%d#LIGHT_GREEN#!", "#LIGHT_GREEN#Your score multiplier increases by #WHITE#%d#LIGHT_GREEN#!", "log")
-t("#LIGHT_GREEN#Your score multiplier increases by #WHITE#0.1#LIGHT_GREEN#!", "#LIGHT_GREEN#Your score multiplier increases by #WHITE#0.1#LIGHT_GREEN#!", "log")
-t("#YELLOW#You defeat an experienced enemy!", "#YELLOW#You defeat an experienced enemy!", "log")
---]==]
+t("#LIGHT_RED#WARNING! %s appears!!!", "#LIGHT_RED#WARNING! %s apparaît!!!", "log")
+t("The final fight!", "Le combat final!", "_t")
+t("Congratulations!", "Félicitations!!", "_t")
+t("Rej the Master of Arena", "Rej le maître de l'arène", "_t")
+t("#LIGHT_RED#WARNING! Rej Arkatis, the master of the arena, appears!!!", "#LIGHT_RED#WARNING! Rej Arkatis, le maître de l'arène, apparaît!!!", "log")
+t("%s the Master of Arena", "%s le maître de l'arène", "tformat")
+t("#LIGHT_RED#WARNING! %s, the master of the arena, appears!!!", "#LIGHT_RED#WARNING! %s, le maître de l'arène, apparaît!!!", "log")
+t("OVERKILL", "EXCESSIF", "_t")
+t("#LIGHT_GREEN#Your powerful attack completely obliterates #WHITE#%s#LIGHT_GREEN#!", "#LIGHT_GREEN#Votre puissante attaque annihile totalement #WHITE#%s#LIGHT_GREEN#!", "log")
+t("#LIGHT_GREEN#The audience cheers!", "#LIGHT_GREEN#Le public vous acclame!", "log")
+t("#LIGHT_GREEN#You destroy #WHITE#%s#LIGHT_GREEN# in a single blow!", "#LIGHT_GREEN#Vous détruisez #WHITE#%s#LIGHT_GREEN# d'un seul coup!", "log")
+t("#LIGHT_GREEN#Your score multiplier increases by #WHITE#%d#LIGHT_GREEN#!", "#LIGHT_GREEN#Votre multiplicateur de score augmente de #WHITE#%d#LIGHT_GREEN#!", "log")
+t("#LIGHT_GREEN#Your score multiplier increases by #WHITE#0.1#LIGHT_GREEN#!", "#LIGHT_GREEN#Votre multiplicateur de score augmente de #WHITE#0.1#LIGHT_GREEN#!", "log")
+t("#YELLOW#You defeat an experienced enemy!", "#YELLOW#Vous triomphez d'un ennemi expérimenté!", "log")
 
 
 ------------------------------------------------
 section "mod-tome/mod/class/generator/actor/HighPeakFinal.lua"
 
 
--- untranslated text
---[==[
-t("An entity appears through the portal!", "An entity appears through the portal!", "logSeen")
---]==]
+t("An entity appears through the portal!", "Une entité apparaît à travers le portail!", "logSeen")
 
 
 ------------------------------------------------
 section "mod-tome/mod/class/generator/actor/ValleyMoon.lua"
 
 
--- untranslated text
---[==[
-t("Limmir summons a blast of holy light!", "Limmir summons a blast of holy light!", "logSeen")
---]==]
+t("Limmir summons a blast of holy light!", "Limmir invoque une explosion de lumière sacrée!", "logSeen")
 
 
 ------------------------------------------------
