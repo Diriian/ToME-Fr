@@ -2,7 +2,7 @@
 section "tome-items-vault/data/entities/fortress-grids.lua"
 
 
--- new text
+-- nouveau texte
 --[==[
 t("Item's Vault Control Orb", "Item's Vault Control Orb", "entity name")
 --]==]
@@ -12,7 +12,7 @@ t("Item's Vault Control Orb", "Item's Vault Control Orb", "entity name")
 section "tome-items-vault/init.lua"
 
 
--- new text
+-- nouveau texte
 --[==[
 t("Items Vault", "Items Vault", "init.lua long_name")
 t("Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "init.lua description")
@@ -23,7 +23,7 @@ t("Adds access to the items vault (donator feature). The items vault will let yo
 section "tome-items-vault/overload/data/chats/items-vault-command-orb-offline.lua"
 
 t("[Leave the orb alone]", "[Laissez l'orbe tranquille]", "_t")
--- new text
+-- nouveau texte
 --[==[
 t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "Transfering this item will place a level %d requirement on it, since it has no requirements. ", "tformat")
 t("Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ", "Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ", "_t")
@@ -52,7 +52,7 @@ t("[Retrieve an item from the vault]", "[Retrieve an item from the vault]", "_t"
 section "tome-items-vault/overload/data/chats/items-vault-command-orb.lua"
 
 t("[Leave the orb alone]", "[Laissez l'orbe tranquille]", "_t")
--- new text
+-- nouveau texte
 --[==[
 t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "Transfering this item will place a level %d requirement on it, since it has no requirements. ", "tformat")
 t("Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ", "Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ", "_t")
@@ -87,7 +87,7 @@ t("#GOLD#I wish to help the funding of this game and donate#WHITE#", "#GOLD#I wi
 section "tome-items-vault/overload/data/maps/items-vault/fortress.lua"
 
 
--- new text
+-- nouveau texte
 --[==[
 t("Psionic Metarial Retention", "Psionic Metarial Retention", "_t")
 t("Temporal Locked Vault", "Temporal Locked Vault", "_t")
@@ -98,7 +98,7 @@ t("Temporal Locked Vault", "Temporal Locked Vault", "_t")
 section "tome-items-vault/overload/mod/class/ItemsVaultDLC.lua"
 
 
--- new text
+-- nouveau texte
 --[==[
 t("the #GOLD#Item's Vault#WHITE#", "the #GOLD#Item's Vault#WHITE#", "_t")
 t("\
@@ -125,7 +125,8 @@ t("Checking item's vault list, please wait...", "Checking item's vault list, ple
 section "tome-items-vault/overload/mod/dialogs/ItemsVault.lua"
 
 t("Name", "Nom", "_t")
--- new text
+t("Cooldown", "Rechargement", "_t")
+-- nouveau texte
 --[==[
 t("Item's Vault", "Item's Vault", "_t")
 t("Impossible to contact the server, please wait a few minutes and try again.", "Impossible to contact the server, please wait a few minutes and try again.", "_t")
@@ -137,7 +138,6 @@ t("Usable", "Usable", "_t")
 t("#LIGHT_GREEN#Yes", "#LIGHT_GREEN#Yes", "_t")
 t("#LIGHT_RED#In less than one minute", "#LIGHT_RED#In less than one minute", "_t")
 t("#LIGHT_RED#In %d minutes", "#LIGHT_RED#In %d minutes", "tformat")
-t("Cooldown", "Cooldown", "_t")
 t("This item has been placed recently in the vault, you must wait a bit before removing it.", "This item has been placed recently in the vault, you must wait a bit before removing it.", "_t")
 t("#LIGHT_BLUE#You transfer %s from the online item's vault.", "#LIGHT_BLUE#You transfer %s from the online item's vault.", "log")
 t("#LIGHT_RED#Error while transfering from the online item's vault, please retry later.", "#LIGHT_RED#Error while transfering from the online item's vault, please retry later.", "log")
@@ -148,7 +148,8 @@ t("#LIGHT_RED#Error while transfering from the online item's vault, please retry
 section "tome-items-vault/overload/mod/dialogs/ItemsVaultOffline.lua"
 
 t("Name", "Nom", "_t")
--- new text
+t("Cooldown", "Rechargement", "_t")
+-- nouveau texte
 --[==[
 t("Item's Vault", "Item's Vault", "_t")
 t("Impossible to contact the server, please wait a few minutes and try again.", "Impossible to contact the server, please wait a few minutes and try again.", "_t")
@@ -160,7 +161,6 @@ t("Usable", "Usable", "_t")
 t("#LIGHT_GREEN#Yes", "#LIGHT_GREEN#Yes", "_t")
 t("#LIGHT_RED#In less than one minute", "#LIGHT_RED#In less than one minute", "_t")
 t("#LIGHT_RED#In %d minutes", "#LIGHT_RED#In %d minutes", "tformat")
-t("Cooldown", "Cooldown", "_t")
 t("This item has been placed recently in the vault, you must wait a bit before removing it.", "This item has been placed recently in the vault, you must wait a bit before removing it.", "_t")
 t("#LIGHT_BLUE#You transfer %s from the offline item's vault.", "#LIGHT_BLUE#You transfer %s from the offline item's vault.", "log")
 t("#LIGHT_RED#Error while transfering from the offline item's vault, please retry later.", "#LIGHT_RED#Error while transfering from the offline item's vault, please retry later.", "log")
