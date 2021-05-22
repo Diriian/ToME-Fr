@@ -2,7 +2,7 @@
 section "mod-tome/data/achievements/arena.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Arena", "The Arena", "achievement name")
 t("Unlocked Arena mode.", "Unlocked Arena mode.", "_t")
@@ -27,7 +27,7 @@ t("Killed 10 or more enemies in one single attack in the arena.", "Killed 10 or 
 section "mod-tome/data/achievements/donator.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Bronze Donator", "Bronze Donator", "achievement name")
 t("Donated up to 5 euros to Tales of Maj'Eyal.", "Donated up to 5 euros to Tales of Maj'Eyal.", "_t")
@@ -46,7 +46,7 @@ t("Donated more than 60 euros to Tales of Maj'Eyal.", "Donated more than 60 euro
 section "mod-tome/data/achievements/events.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The sky is falling!", "The sky is falling!", "achievement name")
 t("Saw a huge meteor falling from the sky.", "Saw a huge meteor falling from the sky.", "_t")
@@ -81,7 +81,7 @@ t("Have 500 walls on the sludgenest turn into hostile creatures.", "Have 500 wal
 section "mod-tome/data/achievements/infinite-dungeon.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Infinite x10", "Infinite x10", "achievement name")
 t("Got to level 10 of the infinite dungeon.", "Got to level 10 of the infinite dungeon.", "_t")
@@ -120,7 +120,7 @@ t("Got to level 500 of the infinite dungeon.", "Got to level 500 of the infinite
 section "mod-tome/data/achievements/items.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Deus Ex Machina", "Deus Ex Machina", "achievement name")
 t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "_t")
@@ -138,7 +138,7 @@ section "mod-tome/data/achievements/kills.lua"
 
 t("Exterminator", "Extermination", "achievement name")
 t("Reaver", "Moissoneur", "achievement name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("That was close", "That was close", "achievement name")
 t("Killed your target while having only 1 life left.", "Killed your target while having only 1 life left.", "_t")
@@ -199,7 +199,7 @@ t("Avoid death 50 times with a life-saving talent.", "Avoid death 50 times with 
 section "mod-tome/data/achievements/lore.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Tales of the Spellblaze", "Tales of the Spellblaze", "achievement name")
 t("Learned the eight chapters of the Spellblaze Chronicles.", "Learned the eight chapters of the Spellblaze Chronicles.", "_t")
@@ -214,7 +214,7 @@ t("Learned the five chapters of Orc history through loremaster Hadak's tales.", 
 section "mod-tome/data/achievements/player.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Level 10", "Level 10", "achievement name")
 t("Got a character to level 10.", "Got a character to level 10.", "_t")
@@ -247,7 +247,7 @@ t("Survived the Fearscape!", "Survived the Fearscape!", "_t")
 section "mod-tome/data/achievements/quests.lua"
 
 t("Oozemancer", "Slimancien", "achievement name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Baby steps", "Baby steps", "achievement name")
 t("Completed ToME4 tutorial mode.", "Completed ToME4 tutorial mode.", "_t")
@@ -369,7 +369,7 @@ t("Saved Melinda again and invited her to the Fortress to cure her.", "Saved Mel
 section "mod-tome/data/achievements/talents.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Pyromancer", "Pyromancer", "achievement name")
 t("Unlocked Archmage class and did over one million fire damage (with any item/talent/class).", "Unlocked Archmage class and did over one million fire damage (with any item/talent/class).", "_t")
@@ -451,7 +451,7 @@ t("Their most important stats are: Magic and Cunning", "Leurs stats les plus imp
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +6 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +6 Magie, +0 Volonté, +3 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Anorithil", "Anorithil", "birth descriptor name")
 --]==]
@@ -539,7 +539,7 @@ t("The road to necromancy is a macabre path indeed. Walk with the dead, and drin
 t("While most magic is viewed with suspicion since the Spellblaze, the stigma surrounding the black art of Necromancy has been around since time immemorial.", "Bien que la magie soit généralement perçue avec suspicion depuis le Brûlure magique, les stigmates entourant l'art noir de la nécromancie perdurent depuis des temps immémoriaux.", "_t")
 t("These dark spellcasters extinguish life, twist death, and raise armies of undead monsters to sate their lust for power and pursue their ultimate goal: Eternal life.", "Ces mages noirs anéantissent des vies, déforment la mort, et lèvent des armées de monstres mort-vivants pour assouvir leur besoin de puissance et poursuivre leur but ultime: la vie éternelle.", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# -3", "#GOLD#Vie par niveau:#LIGHT_BLUE# -3", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Mage", "Mage", "birth descriptor name")
 t("Golem", "Golem", "birth facial category")
@@ -659,7 +659,7 @@ t("The unarmed fighting styles the Brawler uses rely on maneuverability and havi
 t("Their most important stats are: Strength, Dexterity, and Cunning", "Leurs stats les plus importantes sont: Force, Dextérité, et Ruse", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 Force, +3 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +3 Ruse", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Berserker", "Berserker", "birth descriptor name")
 t("Archer", "Archer", "birth descriptor name")
@@ -780,7 +780,7 @@ t("#GOLD##{bold}#Roguelike mode#WHITE#", "#GOLD##{bold}#Mode roguelike#WHITE#", 
 t("Provides the closer experience to 'classic' roguelike games.", "Vous procure l'expérience la plus proche des jeux de type roguelike.", "_t")
 t("You will only have one life; you *ARE* your character.#{normal}#", "Vous n'aurez qu'une seule vie; vous *ÊTES* votre personnage.#{normal}#", "_t")
 t("Only one life, unless ways to self-resurrect are found in-game.", "Une seule vie, sauf si des moyens de vous auto-ressusciter sont trouvés en jeu.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("base", "base", "birth descriptor name")
 t("Normal", "Normal", "birth descriptor name")
@@ -831,7 +831,7 @@ t("Tatoos 4", "Tatouages 4", "_t")
 t("Tatoos 5", "Tatouages 5", "_t")
 t("Tatoos 6", "Tatouages 6", "_t")
 t("Tatoos 7", "Tatouages 7", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Construct", "Construct", "birth descriptor name")
 t("", "", "_t")
@@ -937,7 +937,7 @@ t("Redhead Mustache", "Moustache rousse", "_t")
 t("Dark Sideburns", "Pattes noires", "_t")
 t("Blond Sideburns", "Pattes blondes", "_t")
 t("Redhead Sideburns", "Pattes rousses", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
 --]==]
@@ -994,7 +994,7 @@ t("#LIGHT_BLUE# * +2 Strength, +3 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +
 t("#LIGHT_BLUE# * -2 Magic, +1 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 Magie, +1 Volonté, +0 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 11", "#GOLD#Vie par niveau:#LIGHT_BLUE# 11", "_t")
 t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 0%", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
 t("Shalore", "Shalore", "birth descriptor name")
@@ -1083,7 +1083,7 @@ t("Body Tatoos 5", "Tatouages corporels 5", "_t")
 t("Body Tatoos 6", "Tatouages corporels 6", "_t")
 t("Body Tatoos 7", "Tatouages corporels 7", "_t")
 t("Body Tatoos 8", "Tatouages corporels 8", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ogre", "Ogre", "birth descriptor name")
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
@@ -1126,7 +1126,7 @@ t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 Magie,
 t("#LIGHT_BLUE# * +5 Luck", "#LIGHT_BLUE# * +5 Chance", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#Vie par niveau:#LIGHT_BLUE# 12", "_t")
 t("#GOLD#Experience penalty:#LIGHT_BLUE# 10%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 10%", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
 --]==]
@@ -1202,16 +1202,22 @@ t("#LIGHT_BLUE# * +1 Magic, +1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +1 Magie,
 t("#GOLD#Life per level:#LIGHT_BLUE# 11", "#GOLD#Vie par niveau:#LIGHT_BLUE# 11", "_t")
 t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 0%", "_t")
 t("Cornacs are Humans from the northern parts of the Allied Kingdoms.", "Les cornacs sont les humains des parties nord des royaumes alliés.", "_t")
-t("Humans are an inherently very adaptable race and as such they gain a #GOLD#talent category point#WHITE# (others only gain one at levels 10, 20 and 34) and both #GOLD#a class and a generic talent point#WHITE# at birth and every 10 levels.", "Les humains sont par essence une race très adaptable et grâce à cela ils gagnent #GOLD#un point de categorie de talent#WHITE# (les autres n'en gagnent seulement qu'aux niveaux 10, 20 et 34) ainsi qu'#GOLD#un point de talent de classe et un point de talent générique#WHITE# à leur naissance et tous les 10 niveaux.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +0 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 10", "#GOLD#Vie par niveau:#LIGHT_BLUE# 10", "_t")
--- untranslated text
+-- nouveau texte
+--[==[
+t("Humans are an inherently very adaptable race and as such they gain a #GOLD#talent category point#WHITE# at birth (others only gain one at levels 10, 20 and 34). They also gain #GOLD#a class and a generic talent point#WHITE# at birth and every 10 levels.", "Humans are an inherently very adaptable race and as such they gain a #GOLD#talent category point#WHITE# at birth (others only gain one at levels 10, 20 and 34). They also gain #GOLD#a class and a generic talent point#WHITE# at birth and every 10 levels.", "_t")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
 t("Cornac", "Cornac", "birth descriptor name")
 --]==]
 
+-- ancien texte traduit
+t("Humans are an inherently very adaptable race and as such they gain a #GOLD#talent category point#WHITE# (others only gain one at levels 10, 20 and 34) and both #GOLD#a class and a generic talent point#WHITE# at birth and every 10 levels.", "Les humains sont par essence une race très adaptable et grâce à cela ils gagnent #GOLD#un point de categorie de talent#WHITE# (les autres n'en gagnent seulement qu'aux niveaux 10, 20 et 34) ainsi qu'#GOLD#un point de talent de classe et un point de talent générique#WHITE# à leur naissance et tous les 10 niveaux.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/races/tutorial.lua"
@@ -1315,7 +1321,7 @@ t("Lich Regalia 7", "Insignes royaux de liche 7", "_t")
 t("Lich Regalia 8", "Insignes royaux de liche 8", "_t")
 t("Lich Regalia 9", "Insignes royaux de liche 9", "_t")
 t("Lich Regalia 10", "Insignes royaux de liche 10", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
 t("Runes 1", "Runes 1", "_t")
@@ -1396,7 +1402,7 @@ t("#LIGHT_BLUE# * +0 Magic, +6 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 Magie,
 t("#GOLD#Life per level:#LIGHT_BLUE# 7", "#GOLD#Vie par niveau:#LIGHT_BLUE# 7", "_t")
 t("#GOLD#Experience penalty:#LIGHT_BLUE# -15%", "#GOLD#Pénalité d'experience:#LIGHT_BLUE# -15%", "_t")
 t("#GOLD#Confusion resistance:#LIGHT_BLUE# 35%", "#GOLD#Résistance à la confusion:#LIGHT_BLUE# 35%", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Yeek", "Yeek", "birth descriptor name")
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
@@ -1410,7 +1416,7 @@ t("Female", "Femelle", "birth descriptor name")
 t("You are a female of the species.", "Vous êtes une femelle de votre race.", "_t")
 t("There is no in-game difference between the two sexes.", "Il n'y a aucune différence en jeu entre les deux sexes.", "_t")
 t("You are a male of the species.", "Vous êtes un male de votre race.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Male", "Male", "birth descriptor name")
 --]==]
@@ -1442,7 +1448,7 @@ t("If so, you will battle your own champion next time!", "Si oui, vous combattre
 section "mod-tome/data/calendar_allied.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Wintertide", "Wintertide", "calendar allied")
 t("Allure", "Allure", "calendar allied")
@@ -1463,7 +1469,7 @@ t("Decay", "Decay", "calendar allied")
 section "mod-tome/data/calendar_dwarf.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Iron", "Iron", "calendar dwarf")
 t("Steel", "Steel", "calendar dwarf")
@@ -1485,7 +1491,7 @@ section "mod-tome/data/chats/alchemist-derth.lua"
 t("[leave]", "[partir]", "_t")
 t("[Leave]", "[Partir]", "_t")
 t("[Wait]", "[Attendez]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Pfaugh. You're too late. %s has already finished. But I suppose it doesn't do any harm to take these and give you your undeserved reward.", "Pfaugh. You're too late. %s has already finished. But I suppose it doesn't do any harm to take these and give you your undeserved reward.", "tformat")
 t("Ah, excellent. Hand them over, if you please. You should know that in your overlong absence, %s has managed to create a %s. I'll be most put out if he steals my rightful spot.", "Ah, excellent. Hand them over, if you please. You should know that in your overlong absence, %s has managed to create a %s. I'll be most put out if he steals my rightful spot.", "tformat")
@@ -1539,7 +1545,7 @@ section "mod-tome/data/chats/alchemist-elvala.lua"
 t("[leave]", "[partir]", "_t")
 t("[Leave]", "[Partir]", "_t")
 t("[Wait]", "[Attendez]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Too late! Argh, too late. %s has already finished. I'll make the elixir and reward you as promised, but only because the Brotherhood breaks the fingers of non-member alchemists who rook people. Members, on the other hand...", "Too late! Argh, too late. %s has already finished. I'll make the elixir and reward you as promised, but only because the Brotherhood breaks the fingers of non-member alchemists who rook people. Members, on the other hand...", "tformat")
 t("Give them here. You took long enough; %s cooked up a %s in your absence. Be quicker about the next one lest I make a 'mistake' in brewing your reward.", "Give them here. You took long enough; %s cooked up a %s in your absence. Be quicker about the next one lest I make a 'mistake' in brewing your reward.", "tformat")
@@ -1594,7 +1600,7 @@ t("Hrmph.", "Hrmph.", "_t")
 section "mod-tome/data/chats/alchemist-golem.lua"
 
 t("Name", "Nom", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Equipment(%s) <=> Inventory(%s)", "Equipment(%s) <=> Inventory(%s)", "tformat")
 t("Change your golem's name", "Change your golem's name", "_t")
@@ -1626,7 +1632,7 @@ section "mod-tome/data/chats/alchemist-hermit.lua"
 t("[leave]", "[partir]", "_t")
 t("[Leave]", "[Partir]", "_t")
 t("[Wait]", "[Attendez]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "_t")
 t([[#LIGHT_GREEN#*The halfling hands you a note that says, 'Heard %s managed to make a %s while you've been loafing. Hurry the hell up next time.*#WHITE#
@@ -1684,7 +1690,7 @@ section "mod-tome/data/chats/alchemist-last-hope.lua"
 t("[leave]", "[partir]", "_t")
 t("[Leave]", "[Partir]", "_t")
 t("[Wait]", "[Attendez]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Damn it all. You're too late. %s has already finished. But I suppose you did your best, so I'll take these and keep my end of the bargian.", "Damn it all. You're too late. %s has already finished. But I suppose you did your best, so I'll take these and keep my end of the bargian.", "tformat")
 t("Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "tformat")
@@ -1755,7 +1761,7 @@ t("He points out the location of the graveyard on your map.", "He points out the
 section "mod-tome/data/chats/angolwen-leader.lua"
 
 t("Thank you.", "Merci.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*A tall woman stands before you. Her fair skin radiates incredible power through her white robe.*#WHITE#
 I am Linaniil of the Kar'Krul. Welcome to our city, @playerdescriptor.subclass@. What may I do for thee?]], [[#LIGHT_GREEN#*A tall woman stands before you. Her fair skin radiates incredible power through her white robe.*#WHITE#
@@ -1787,7 +1793,7 @@ t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 t("No thanks.", "Non merci.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("I am looking for staff training.", "I am looking for staff training.", "_t")
 t("I can teach you staff combat (talent category Spell/Staff combat).  Learning the basics costs 100 gold, while more intensive tutelage to gain proficiency costs 500 gold.  Once you're proficient, I can teach you more refined techniques for an additional 750 gold.", "I can teach you staff combat (talent category Spell/Staff combat).  Learning the basics costs 100 gold, while more intensive tutelage to gain proficiency costs 500 gold.  Once you're proficient, I can teach you more refined techniques for an additional 750 gold.", "_t")
@@ -1807,7 +1813,7 @@ t(", including some esoteric techniques", ", including some esoteric techniques"
 section "mod-tome/data/chats/antimagic-end.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("\
 \
@@ -1827,7 +1833,7 @@ t("Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]
 section "mod-tome/data/chats/ardhungol-end.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*As the monstrous spider falls you see something... moving in her belly until it explodes! A tall black man steps out of the spewed guts, surrounded by a golden light.*#WHITE#
 By the Sun! I thought I would never again see a friendly face!
@@ -1848,7 +1854,7 @@ t("Lead the way!", "Lead the way!", "_t")
 section "mod-tome/data/chats/ardhungol-start.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Good day to you.", "Good day to you.", "_t")
 t("Good day to you too.", "Good day to you too.", "_t")
@@ -1874,7 +1880,7 @@ t("It was nothing.", "It was nothing.", "_t")
 section "mod-tome/data/chats/arena-start.lua"
 
 t("None", "Aucune", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Gladiator's wares", "Gladiator's wares", "_t")
 t([[#LIGHT_GREEN#You take a look at the ranking boards before entering.
@@ -1892,7 +1898,7 @@ t("Enter the arena for 30 rounds", "Enter the arena for 30 rounds", "_t")
 section "mod-tome/data/chats/arena-unlock.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*A tall, hooded man stares at you*#WHITE#
 Yes...yes...you look like a promising warrior indeed...
@@ -2025,7 +2031,43 @@ t("Just a minute. I have to prepare my equipment.", "Just a minute. I have to pr
 section "mod-tome/data/chats/arena.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t([[#LIGHT_GREEN#*The gate opens, revealing a mature human woman in crimson robes.
+#LIGHT_GREEN#She looks at you with a wide smile*
+#WHITE# My, my, what a fine @playerdescriptor.race@ you are. What was your name again, @playername@? I am soo delighted to be your rival today.
+#LIGHT_GREEN#*She speaks quietly as if telling a secret* #WHITE#You know, so few get past the little one as of late, it's such a bore.#LIGHT_GREEN#*She giggles*#WHITE#
+So! I am Riala, the Crimson. I came directly from Angolwen. Despite, you know, the whole thing with the Spellblaze, people still enjoy a few magic tricks!
+#LIGHT_GREEN#*She snaps her fingers, and then flames start dancing around her!*#WHITE#
+Fryjia told me about you, the poor thing, so I will not underestimate such a promising aspirant #LIGHT_GREEN#*She smiles warmly* #WHITE#So, let's make haste my dear!
+There is a battle to fight here!]], [[#LIGHT_GREEN#*The gate opens, revealing a mature human woman in crimson robes.
+#LIGHT_GREEN#She looks at you with a wide smile*
+#WHITE# My, my, what a fine @playerdescriptor.race@ you are. What was your name again, @playername@? I am soo delighted to be your rival today.
+#LIGHT_GREEN#*She speaks quietly as if telling a secret* #WHITE#You know, so few get past the little one as of late, it's such a bore.#LIGHT_GREEN#*She giggles*#WHITE#
+So! I am Riala, the Crimson. I came directly from Angolwen. Despite, you know, the whole thing with the Spellblaze, people still enjoy a few magic tricks!
+#LIGHT_GREEN#*She snaps her fingers, and then flames start dancing around her!*#WHITE#
+Fryjia told me about you, the poor thing, so I will not underestimate such a promising aspirant #LIGHT_GREEN#*She smiles warmly* #WHITE#So, let's make haste my dear!
+There is a battle to fight here!]], "_t")
+t([[#LIGHT_GREEN#*With the final blow, Riala falls...to suddenly burst in flames!!
+#LIGHT_GREEN#You stare at the blazing inferno with understandable confusion,
+#LIGHT_GREEN#until you hear her voice from behind*#WHITE#
+Oh, my dear! That was quite the fight, wasn't it? I concede you the honor of victory.
+#LIGHT_GREEN#*She bows politely*
+Fryjia was right about you: you seem to be a champion in the works!
+Oh, and please forgive her behavior. You will understand when you meet her father.
+And, if you keep fighting like this, it will be really soon.
+So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], [[#LIGHT_GREEN#*With the final blow, Riala falls...to suddenly burst in flames!!
+#LIGHT_GREEN#You stare at the blazing inferno with understandable confusion,
+#LIGHT_GREEN#until you hear her voice from behind*#WHITE#
+Oh, my dear! That was quite the fight, wasn't it? I concede you the honor of victory.
+#LIGHT_GREEN#*She bows politely*
+Fryjia was right about you: you seem to be a champion in the works!
+Oh, and please forgive her behavior. You will understand when you meet her father.
+And, if you keep fighting like this, it will be really soon.
+So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], "_t")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Gladiator's wares", "Gladiator's wares", "_t")
 t([[#LIGHT_GREEN#*A gigantic bone giant walks through the main gate.
@@ -2090,39 +2132,7 @@ t([[#LIGHT_GREEN#*With your final blow, Fryjia falls, unable to continue*
 ]], "_t")
 t("...", "...", "_t")
 t("w...what was that about?", "w...what was that about?", "_t")
-t([[#LIGHT_GREEN#*The gate opens, revealing a mature human woman in crimson robes.
-#LIGHT_GREEN#She looks at you with a wide smile*
-#WHITE# My, my, what a fine @playerdescriptor.race@ you are. What was your name again, @playername@? I am soo delighted to be your rival today.
-#LIGHT_GREEN#*She speaks quietly as if telling a secret* #WHITE#You know, so few get past the little one as of late, it's such a bore.#LIGHT_GREEN#*She giggles*#WHITE#
-So! I am Reala, the Crimson. I came directly from Angolwen. Despite, you know, the whole thing with the Spellblaze, people still enjoy a few magic tricks!
-#LIGHT_GREEN#*She snaps her fingers, and then flames start dancing around her!*#WHITE#
-Fryjia told me about you, the poor thing, so I will not underestimate such a promising aspirant #LIGHT_GREEN#*She smiles warmly* #WHITE#So, let's make haste my dear!
-There is a battle to fight here!]], [[#LIGHT_GREEN#*The gate opens, revealing a mature human woman in crimson robes.
-#LIGHT_GREEN#She looks at you with a wide smile*
-#WHITE# My, my, what a fine @playerdescriptor.race@ you are. What was your name again, @playername@? I am soo delighted to be your rival today.
-#LIGHT_GREEN#*She speaks quietly as if telling a secret* #WHITE#You know, so few get past the little one as of late, it's such a bore.#LIGHT_GREEN#*She giggles*#WHITE#
-So! I am Reala, the Crimson. I came directly from Angolwen. Despite, you know, the whole thing with the Spellblaze, people still enjoy a few magic tricks!
-#LIGHT_GREEN#*She snaps her fingers, and then flames start dancing around her!*#WHITE#
-Fryjia told me about you, the poor thing, so I will not underestimate such a promising aspirant #LIGHT_GREEN#*She smiles warmly* #WHITE#So, let's make haste my dear!
-There is a battle to fight here!]], "_t")
 t("Let's go!", "Let's go!", "_t")
-t([[#LIGHT_GREEN#*With the final blow, Reala falls...to suddenly burst in flames!!
-#LIGHT_GREEN#You stare at the blazing inferno with understandable confusion,
-#LIGHT_GREEN#until you hear her voice from behind*#WHITE#
-Oh, my dear! That was quite the fight, wasn't it? I concede you the honor of victory.
-#LIGHT_GREEN#*She bows politely*
-Fryjia was right about you: you seem to be a champion in the works!
-Oh, and please forgive her behavior. You will understand when you meet her father.
-And, if you keep fighting like this, it will be really soon.
-So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], [[#LIGHT_GREEN#*With the final blow, Reala falls...to suddenly burst in flames!!
-#LIGHT_GREEN#You stare at the blazing inferno with understandable confusion,
-#LIGHT_GREEN#until you hear her voice from behind*#WHITE#
-Oh, my dear! That was quite the fight, wasn't it? I concede you the honor of victory.
-#LIGHT_GREEN#*She bows politely*
-Fryjia was right about you: you seem to be a champion in the works!
-Oh, and please forgive her behavior. You will understand when you meet her father.
-And, if you keep fighting like this, it will be really soon.
-So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], "_t")
 t("I am pumped up! What's next?", "I am pumped up! What's next?", "_t")
 t("Am I the only person with a name that can die here?", "Am I the only person with a name that can die here?", "_t")
 t([[#LIGHT_GREEN#*You suddenly realize everything has turned dark.
@@ -2261,7 +2271,7 @@ t("#LIGHT_GREEN#*dance*", "#LIGHT_GREEN#*dance*", "_t")
 section "mod-tome/data/chats/artifice-mastery.lua"
 
 t("Cancel", "Annuler", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("#CADET_BLUE#%s already mastered.", "#CADET_BLUE#%s already mastered.", "log")
 t("#LIGHT_BLUE# You enhance your preparation of %s.", "#LIGHT_BLUE# You enhance your preparation of %s.", "log")
@@ -2277,7 +2287,7 @@ t("Master which tool?", "Master which tool?", "_t")
 section "mod-tome/data/chats/artifice.lua"
 
 t("[Cancel]", "[Annuler]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("#CADET_BLUE#%s already equipped at level %d.", "#CADET_BLUE#%s already equipped at level %d.", "log")
 t("#CADET_BLUE#Equipping %s with %s (level %d).", "#CADET_BLUE#Equipping %s with %s (level %d).", "log")
@@ -2294,7 +2304,7 @@ t("Equip which tool for #YELLOW#%s#LAST#?", "Equip which tool for #YELLOW#%s#LAS
 section "mod-tome/data/chats/assassin-lord-thieves.lua"
 
 t("[leave]", "[partir]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("I ain't no chatting! Speak to the boss!", "I ain't no chatting! Speak to the boss!", "_t")
 --]==]
@@ -2305,7 +2315,7 @@ section "mod-tome/data/chats/assassin-lord.lua"
 
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 t("[attack]", "[attaquer]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("#LIGHT_GREEN#You and the Lord discuss your new relationship at some length, including the merits of assassination by proxy and some additional trapping techniques.", "#LIGHT_GREEN#You and the Lord discuss your new relationship at some length, including the merits of assassination by proxy and some additional trapping techniques.", "log")
 t("As you depart the assassin lord says: 'And do not forget, I own you now.'", "As you depart the assassin lord says: 'And do not forget, I own you now.'", "log")
@@ -2333,7 +2343,7 @@ t("Just let me and the merchant get out of here and you may live!", "Just let me
 section "mod-tome/data/chats/chronomancy-bias-weave.lua"
 
 t("Never mind", "Peu importe", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("What kind of anomaly do you prefer?", "What kind of anomaly do you prefer?", "_t")
 t("Physical", "Physical", "_t")
@@ -2346,7 +2356,7 @@ t("Temporal", "Temporal", "_t")
 section "mod-tome/data/chats/chronomancy-see-threads.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#PURPLE#A paradox has already destroyed other timelines!", "#PURPLE#A paradox has already destroyed other timelines!", "logPlayer")
 t("#LIGHT_BLUE#You select the timeline and re-arrange the universe to your liking!", "#LIGHT_BLUE#You select the timeline and re-arrange the universe to your liking!", "logPlayer")
@@ -2361,7 +2371,7 @@ t("The third.", "The third.", "_t")
 section "mod-tome/data/chats/command-staff.lua"
 
 t("Never mind.", "Aucune importance.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Greetings. How can I help you?", "Greetings. How can I help you?", "_t")
 t("Hurry up and make with the foe-blasting.", "Hurry up and make with the foe-blasting.", "_t")
@@ -2398,7 +2408,7 @@ t("I see.", "I see.", "_t")
 section "mod-tome/data/chats/conclave-vault-greeting.lua"
 
 t("[attack]", "[attaquer]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
 YOU!  Name, rank, and identification.  NOW.
@@ -2426,7 +2436,7 @@ LIES!  The Conclave could not have lost!  I don't know who you are, but we can't
 section "mod-tome/data/chats/corruptor-quest.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Wait, @playerdescriptor.subclass@!
 I see you are a worthy opponent, powerful indeed. I can see, and feel, your mastery of the eldritch crafts.
@@ -2464,7 +2474,7 @@ t("I am ready!", "I am ready!", "_t")
 section "mod-tome/data/chats/derth-attack-over.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*A Halfling comes forth from his hiding place.*#WHITE#
 You killed them all? Are we safe now? Oh, please tell me this was a bad dream!]], [[#LIGHT_GREEN#*A Halfling comes forth from his hiding place.*#WHITE#
@@ -2490,7 +2500,7 @@ t("I will!", "I will!", "_t")
 section "mod-tome/data/chats/dreadfell-ambush.lua"
 
 t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaque]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#VIOLET#*As you come out of the Dreadfell, you encounter a band of orcs*#LAST#
 You! Give us the staff NOW and we might offer you a quick death!]], [[#VIOLET#*As you come out of the Dreadfell, you encounter a band of orcs*#LAST#
@@ -2506,7 +2516,7 @@ t("That is not your concern! ATTACK!", "That is not your concern! ATTACK!", "_t"
 section "mod-tome/data/chats/east-portal-end.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*A robed Human is waiting for you when you step out of the portal.*#WHITE#
 Well met, @playername@!
@@ -2524,9 +2534,6 @@ t("Yes, Tannen was not exactly friendly. I thank you for your help. Here are the
 ------------------------------------------------
 section "mod-tome/data/chats/eidolon-plane.lua"
 
-t("Thanks.", "Merci.", "_t")
-t("her", "sa", "_t")
-t("him", "lui", "_t")
 t([[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
 I am the Eidolon and you are not welcome here!
 No matter how you came to this plane, #{bold}#DO NOT COME BACK!
@@ -2538,7 +2545,6 @@ Peu importe comment vous êtes arrivé dans plan, #{bold}#NE REVENEZ PAS!
 MAINTENANT PARTEZ!
 #{normal}#
 .]], "_t")
-t("...", "...", "_t")
 t([[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
 I have brought you here on the instant of your death. I am the Eidolon.
 I have deemed you worthy of my 'interest'. I will watch your future steps with interest.
@@ -2559,6 +2565,7 @@ t("Thank you, but I am weary of this life, I wish no more, please let me go.", "
 t([[It seems the threads of time and space have been disrupted...
 I will try to send you to safety.]], [[Il semble que les fils du temps et de l'espace aient été rompus...
 Je vais essayer de vous renvoyer en sécurité.]], "_t")
+t("Thanks.", "Merci.", "_t")
 t([[#LIGHT_GREEN#*It seems to stare at you in weird way.*#WHITE#
 I...had plans for you, but I cannot go against your free will. Know that you had a destiny waiting for you.
 Are you sure?]], [[#LIGHT_GREEN#*Il semble vous fixer de façon étrange.*#WHITE#
@@ -2566,15 +2573,21 @@ Je... J'avais des projets pour vous, mais je ne peux pas aller contre votre libr
 En êtes-vous sûr ?]], "_t")
 t("Just let me go please.", "Laissez-moi partir, s'il vous plaît.", "_t")
 t("asked the Eidolon to let %s die in peace", "demande à l'Eidolon de laisser %s mourir en paix", "tformat")
+t("her", "sa", "_t")
+t("him", "lui", "_t")
 t("brought down by Eidolon", "a chuté par l'Eidolon", "_t")
 t("No actually, perhaps life is still worth it!", "Non, en fait, peut-être que la vie en vaut encore la peine !", "_t")
+-- texte non traduit
+--[==[
+t("...", "...", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/chats/elisa-orb-scrying.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("You immerse your mind in the Way and let knowledge flow in.", "You immerse your mind in the Way and let knowledge flow in.", "_t")
 t("[Images and knowledge flow in.]", "[Images and knowledge flow in.]", "_t")
@@ -2596,7 +2609,7 @@ t("Goodbye, Elisa!", "Goodbye, Elisa!", "_t")
 section "mod-tome/data/chats/elisa-shop.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Let's see what have you got here...
 %s
@@ -2625,7 +2638,6 @@ t("Woah, thanks, Elisa. This is really nice!", "Woah, thanks, Elisa. This is rea
 ------------------------------------------------
 section "mod-tome/data/chats/escort-quest-start.lua"
 
-
 t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a Ziguranth technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
 Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique Ziguranthe pour saboter le portail. @npcname@ sera envoyé à Zigur pour être "traité" comme il se doit.]#WHITE#
 Montrez-moi le chemin; Je vous protégerai.]], "_t")
@@ -2637,11 +2649,9 @@ Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais qu
 Montrez-moi le chemin; Je vous protégerai.]], "_t")
 t("Go away; I do not care for the weak.", "Dégagez; Je n'ai que faire des faibles.", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/chats/escort-quest.lua"
 
-t("Thank you.", "Merci.", "_t")
 t([[At the last moment you invoke the power of nature.  The portal fizzles and transports @npcname@ to Zigur.
 You can feel Nature thanking you.]], [[Au dernier moment vous invoquez la puissance de la nature. Le portail crépite et téléporte @npcname@ à Zigur.
 Vous sentez la nature vous remercier.]], "_t")
@@ -2649,13 +2659,13 @@ t([[Thank you, my friend. I do not think I would have survived without you.
 Please let me reward you:]], [[Merci, mon ami. Je ne pense pas que j'aurais survécu sans vous.
 Laissez moi vous remercier s'il vous plait:]], "_t")
 t("There you go. Farewell!", "Et voila. Adieu!", "_t")
-
+t("Thank you.", "Merci.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/fallen-aeryn.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("%s grabs her amulet and disappears in a whirl of arcane energies.", "%s grabs her amulet and disappears in a whirl of arcane energies.", "logPlayer")
 t([[#LIGHT_GREEN#*She lies nearly dead at your feet*#WHITE#
@@ -2679,7 +2689,7 @@ t("I know my mistakes and I intend to correct them. Please let me pass. I cannot
 section "mod-tome/data/chats/gates-of-morning-main.lua"
 
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("What may I do for you?", "What may I do for you?", "_t")
 t("Lady Aeryn, at last I am back home! [tell her your story]", "Lady Aeryn, at last I am back home! [tell her your story]", "_t")
@@ -2787,7 +2797,7 @@ t("Aeryn gives you: %s", "Aeryn gives you: %s", "logPlayer")
 section "mod-tome/data/chats/gates-of-morning-welcome.lua"
 
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*Before you stands a beautiful woman clad in shining golden armour*#WHITE#
 Stop! You are clearly a stranger! Where do you come from? The Gates of Morning are the last bastion of freedom in these lands, so who are you? A spy?]], [[#LIGHT_GREEN#*Before you stands a beautiful woman clad in shining golden armour*#WHITE#
@@ -2815,7 +2825,7 @@ t("Thank you, my lady.", "Thank you, my lady.", "_t")
 section "mod-tome/data/chats/golbug-explains.lua"
 
 t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaque]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#VIOLET#*As you open the door you notice a huge orc in the distance, covered in both flames and ice.*#LAST#
 @playerdescriptor.race@! You should never have come! Your doom awaits!
@@ -2835,7 +2845,7 @@ t("Not enough money", "Pas assez d'argent", "_t")
 t("Welcome, @playername@, to my shop.", "Bienvenue, @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("Sorry I have to go!", "Désolé, je dois y aller!", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Imbue which ring?", "Imbue which ring?", "_t")
 t("Use which gem?", "Use which gem?", "_t")
@@ -2903,7 +2913,7 @@ Nous aurions dû vous achever ce jour-là. Vous n'avez pas mérité notre pitié
 t("And I will show you no mercy. #LIGHT_GREEN#[Kill him]#LAST#", "Et je ne vous montrerai aucune pitié. #LIGHT_GREEN#[Le tuer]#LAST#", "_t")
 t("I am sorry. #LIGHT_GREEN#[Help him]#LAST#", "Je suis désolé. #LIGHT_GREEN#[L'aider]#LAST#", "_t")
 t("#VIOLET#*Before you can help him, he collapses to the ground and dies.*#LAST#", "#VIOLET#*Avant que vous ne puissiez l'aider, il s'effondre sur le sol et meurt.*#LAST#", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("...", "...", "_t")
 --]==]
@@ -2925,6 +2935,7 @@ t("#VIOLET#*You place the book in your pack. When you finish you look up and see
 section "mod-tome/data/chats/last-hope-elder.lua"
 
 t("Welcome, @playername@, to Last Hope. Traveler, please be quick as my time is precious.", "Bienvenue, @playername@，à Dernier Espoir. Voyageur, soyez bref car mon temps est précieux.", "_t")
+t("I have found a strange staff in my travels (#LIGHT_GREEN#*describe it in detail*#LAST#)  It looked very old and very powerful. I dared not use it.", "J'ai trouvé un bâton étrange au cours de mes voyages. (#LIGHT_GREEN#*le décrire en détail*#LAST#) Il avait l'air aussi vieux que puissant. Je n'ai pas osé l'utiliser.", "_t")
 t("The hunt for the staff took me to a continent far to the east, accessible only by magic portal. I've recently returned by just such a portal, and I come bearing instructions on how to construct a similar portal here in Last Hope to make the return journey possible. I'm sure the Elves there would welcome trade with the west.", "La chasse au bâton m'a conduit sur un continent lointain, à l'est, accessible uniquement par un portail magique. Je suis récemment revenu par un tel portail, et je viens avec des instructions sur la façon d'en construire un similaire ici à Dernier Espoir pour rendre le voyage de retour possible. Je suis sûr que les Elfes de là-bas seraient heureux de faire du commerce avec l'Ouest.", "_t")
 t("Nothing, excuse me. Bye!", "Rien, excusez-moi. Au revoir!", "_t")
 t([[#LIGHT_GREEN#*He remains silent for a while*#WHITE# Indeed you were right to come here.
@@ -2952,8 +2963,6 @@ t("The hunt continues. The construction of this portal will be of great assistan
 t("Excellent! Well then, concerning this fascinating portal, I'm afraid that men have largely forgotten whatever they once knew about the great magics of old. I know of only one man in these lands who might be able to help you, a wise man and recent arrival to Last Hope named Tannen. He claims to hail from Angolwen, a supposed haven for practitioners of magic and mysticism. He arrived just months ago with fabulous wealth and has already constructed his own tower in the northern part of the city. I know little of him, but if he is to be believed, then he is your best hope.", "Excellent! Eh bien, en ce qui concerne ce portail fascinant, je crains que les hommes aient largement oublié ce qu'ils savaient sur les grandes magies d'autrefois. Je ne connais qu'un seul homme dans ces terres qui pourrait vous aider, un sage et récent arrivé à Dernier Espoir nommé Tannen. Il prétend être originaire d'Angolwen, un prétendu havre pour les adeptes de la magie et du mysticisme. Il est arrivé il y a quelques mois avec une richesse fabuleuse et a déjà construit sa propre tour dans la partie nord de la ville. Je le connais peu, mais s'il faut l'en croire, il est votre meilleur espoir.", "_t")
 t("Thank you.", "Merci.", "_t")
 t("In that case, let us proceed as quickly as possible. Now, concerning this fascinating portal. I'm afraid that men have largely forgotten whatever they once knew about the great magics of old. I know of only one man in these lands who might be able to help you, a wise man and recent arrival to Last Hope named Tannen. He claims to hail from Angolwen, a supposed haven for practitioners of magic and mysticism. He arrived just months ago with fabulous wealth and has already constructed his own tower in the northern part of the city. I know little of him, but if he is to be believed, then he is your best hope.", "Dans ce cas, procédons le plus rapidement possible. Maintenant, en ce qui concerne ce portail fascinant. Je crains que les hommes aient largement oublié tout ce qu'ils savaient sur les grandes magies d'autrefois. Je ne connais qu'un seul homme dans ces terres qui pourrait vous aider, un sage et récent arrivé à Dernier Espoir nommé Tannen. Il prétend être originaire d'Angolwen, un prétendu havre pour les adeptes de la magie et du mysticisme. Il est arrivé il y a quelques mois avec une richesse fabuleuse et a déjà construit sa propre tour dans la partie nord de la ville. Je le connais peu, mais s'il faut l'en croire, il est votre meilleur espoir.", "_t")
-t("I have found a strange staff in my travels (#LIGHT_GREEN#*describe it in detail*#LAST#)  It looked very old and very powerful. I dared not use it.", "J'ai trouvé un bâton étrange au cours de mes voyages. (#LIGHT_GREEN#*le décrire en détail*#LAST#) Il avait l'air aussi vieux que puissant. Je n'ai pas osé l'utiliser.", "_t")
-
 
 ------------------------------------------------
 section "mod-tome/data/chats/last-hope-lost-merchant.lua"
@@ -3018,7 +3027,7 @@ t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
 t("Oh well, maybe later then.", "Eh bien, peut-être plus tard alors.", "_t")
 t("*This store does not appear to be open yet*", "*Ce magasin ne semble pas encore ouvert*", "_t")
 t("[leave]", "[partir]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t(".", ".", "_t")
 t("...", "...", "_t")
@@ -3106,7 +3115,7 @@ Ah le plan pour coucher avec moi est enfin révélé!
 Chut, idiot, je pensais que nous avions dépassé cette bêtise, je viendrai, à la fois pour ma santé et parce que je veux être avec toi.
 #LIGHT_GREEN#*elle vous embrasse tendrement*#WHITE#]], "_t")
 t("Then my lady, if you will follow me. #LIGHT_GREEN#[take her to the Fortress]", "Dans ce cas ma dame, si vous voulez bien me suivre. #LIGHT_GREEN#[l'emmener à la Forteresse]", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Melinda", "Melinda", "_t")
 --]==]
@@ -3201,6 +3210,31 @@ En tout cas, je dois collecter beaucoup d'objets. J'en ai déjà quelques-uns ma
 t([[Let me examine it.
 Oh yes, my friend, this is indeed a powerful artefact! I think that it should suffice to complete my quest! Many thanks!]], [[Laissez-moi l'examiner.
 Oh oui, mon ami, c'est en effet un puissant artefact! Je pense qu'il devrait suffire pour compléter ma quête! Merci beaucoup!]], "_t")
+t("Well, I cannot use it anyway.", "Hé bien, de toute façon je ne peux pas l'utiliser.", "_t")
+t("Oh! How could such a place be kept secret for so long... This is interesting indeed. Thank you for your trust!", "Oh! Comment un tel endroit a-t-il pu être gardé secret si longtemps... C'est vraiment intéressant. Merci pour votre confiance!", "_t")
+t([[Ah yes! I am so glad! I will be able to go back to Angolwen now, and perhaps we will meet there.
+Please take this ring; it has served me well.]], [[Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolwen maintenant, et peut-être que nous nous y retrouverons.
+S'il vous plaît, prenez cette bague, elle m'a bien servi.]], "_t")
+t("Thanks, and best luck in your studies!", "Merci, et bonne chance dans vos études!", "_t")
+-- nouveau texte
+--[==[
+t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, I guess I can tell you; you deserve it for helping me.
+During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kar'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
+So she set a secret plan into action and built a secret place where magic would be kept alive.
+Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
+Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, I guess I can tell you; you deserve it for helping me.
+During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kar'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
+So she set a secret plan into action and built a secret place where magic would be kept alive.
+Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
+Not many people are accepted there but I will arrange for you to be allowed inside.]], "_t")
+--]==]
+
+-- texte non traduit
+--[==[
+t("...", "...", "_t")
+--]==]
+
+-- ancien texte traduit
 t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, I guess I can tell you; you deserve it for helping me.
 During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kor'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
 So she set a secret plan into action and built a secret place where magic would be kept alive.
@@ -3210,14 +3244,6 @@ Pendant les années sombres de la Chasse aux Sorcières, il y a plusieurs millie
 Elle a donc mis en place un plan secret et a construit un lieu secret où la magie serait maintenue en vie.
 Son plan a fonctionné et le groupe a construit une ville appelée Angolwen dans les montagnes de l'ouest. #LIGHT_GREEN#*Il la marque sur votre carte, ainsi qu'un portail pour y accéder*#WHITE#
 Peu de gens y sont acceptés, mais je m'arrangerai pour que vous soyez admis à l'intérieur.]], "_t")
-t("Oh! How could such a place be kept secret for so long... This is interesting indeed. Thank you for your trust!", "Oh! Comment un tel endroit a-t-il pu être gardé secret si longtemps... C'est vraiment intéressant. Merci pour votre confiance!", "_t")
-t([[Ah yes! I am so glad! I will be able to go back to Angolwen now, and perhaps we will meet there.
-Please take this ring; it has served me well.]], [[Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolwen maintenant, et peut-être que nous nous y retrouverons.
-S'il vous plaît, prenez cette bague, elle m'a bien servi.]], "_t")
-t("Thanks, and best luck in your studies!", "Merci, et bonne chance dans vos études!", "_t")
-t("...", "...", "_t")
-t("Well, I cannot use it anyway.", "Hé bien, de toute façon je ne peux pas l'utiliser.", "_t")
-
 
 ------------------------------------------------
 section "mod-tome/data/chats/magic-store.lua"
@@ -3404,7 +3430,7 @@ The old inscription will be lost.]], [[Vous avez atteint votre nombre maximum d'
 Si vous avez des points de #{bold}#catégorie de talent#{normal}# non assignés, vous pouvez en utiliser un pour créer un nouvel emplacement (jusqu'à 5).
 Vous pouvez en remplacer un existant ou l'annuler.
 L'ancienne inscription sera perdue.]], "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
@@ -3647,7 +3673,7 @@ t([[Demonic taint. Yes I have a way to help in the archives. However this is a l
 She will have to spend 8 hours per day in the regeneration tank.]], [[Une souillure démoniaque. Oui, j'ai un moyen d'aider grâce aux archives. Cependant, c'est un long processus, le sujet devra vivre ici pendant un certain temps.
 Elle devra passer 8 heures par jour dans la cuve de régénération.]], "_t")
 t("This is great news! I will tell her at once.", "C'est une excellente nouvelle! Je vais lui dire tout de suite.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Err... ok.", "Err... ok.", "_t")
 --]==]
@@ -3982,7 +4008,7 @@ Vous les avez détruit tout les deux? Je suis désolé pour le ton sévère que 
 Je ne peux pas rester. J'ai encore beaucoup à faire. Mais prenez ça... ça devrait vous aider.
 #LIGHT_GREEN#*Il disparaît à nouveau avant même que vous puissiez répondre. Une brèche s'ouvre, en Maj'Eyal... vous l'espérez.*#WHITE#]], "_t")
 t("The temporal warden gives you: %s.", "Le gardien du temps vous donne: %s.", "log")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ok...", "Ok...", "_t")
 --]==]
@@ -4022,7 +4048,7 @@ t("Normal Trigger", "Déclanchement normal", "_t")
 t([[Choose a trap to prepare with a primed (instant) trigger or to dismantle.
 #YELLOW#Newly prepared traps are placed on cooldown.#LAST#]], [[Choisissez un piège à préparer avec une amorce (instantanée) ou à démanteler.
 #YELLOW#Les pièges récemment préparés sont placés en rechargement.#LAST#]], "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("%s[%s: %s]#LAST#", "%s[%s: %s]#LAST#", "tformat")
 t([[#GOLD#%s#LAST#
@@ -4094,7 +4120,7 @@ t("That seems... unwise. My apologies, but I must refuse.", "Cela semble... peu 
 t("I can open a portal to his lair, far away in the western sea, but be warned: this is one-way only. I cannot bring you back. You will have to find your own way.", "Je peux ouvrir un portail vers sa tanière, loin dans la mer occidentale, mais attention : c'est à sens unique. Je ne peux pas vous ramener. Vous devrez trouver votre propre chemin.", "_t")
 t("I will.", "Je le ferai.", "_t")
 t("This is a death trap! Goodbye.", "C'est un piège mortel! Adieu.", "_t")
-t("Yes?", "Oui?", "_t")
+t("Yes?", "Oui ?", "_t")
 t("[attack]", "[attaquer]", "_t")
 t("TREACHERY!", "TRAHISON!", "_t")
 t("I want your treasures, water beast!", "Je veux tes trésors, monstre des eaux!!", "_t")
@@ -4211,7 +4237,7 @@ t("Blight [%d]", "Maladie [%d]", "tformat")
 t("Acid [%d]", "Acide [%d]", "tformat")
 t("Mind [%d]", "Esprit [%d]", "tformat")
 t("Never mind", "Peu importe", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Arcane [%d]", "Arcane [%d]", "tformat")
 t("Nature [%d]", "Nature [%d]", "tformat")
@@ -4223,11 +4249,11 @@ section "mod-tome/data/chats/worldly-knowledge.lua"
 
 t("[%s (at mastery %0.2f)]", "[%s( à la maîtrise %0.2f)]", "tformat")
 t("Learn which category?", "Apprendre quelle catégorie?", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#GOLD#%s / %s#LAST#
-]], [[#GOLD#%s / %s#LAST#
-]], "tformat")
+%s]], [[#GOLD#%s / %s#LAST#
+%s]], "tformat")
 --]==]
 
 
@@ -4266,7 +4292,7 @@ t("Farewell. We are the Way, always.", "Adieu. Nous sommes la Voie, à jamais.",
 section "mod-tome/data/chats/zemekkys-done.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[What? Ah, it is you, @playername@.
 I take it you are satisfied with the portal.]], [[What? Ah, it is you, @playername@.
@@ -4280,7 +4306,7 @@ t("Whatever.", "Whatever.", "_t")
 section "mod-tome/data/chats/zemekkys-start-chronomancers.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[@playername@, you are called to serve. The nearby unhallowed morass inhabitants are growing restless.
 You must go there and find the source.]], [[@playername@, you are called to serve. The nearby unhallowed morass inhabitants are growing restless.
@@ -4295,7 +4321,7 @@ section "mod-tome/data/chats/zemekkys.lua"
 
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 t("Thank you.", "Merci.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*A slot in the door opens and a pair of wild eyes peer out.*#WHITE#
 What do you want, @playerdescriptor.race@?]], [[#LIGHT_GREEN#*A slot in the door opens and a pair of wild eyes peer out.*#WHITE#
@@ -4351,7 +4377,7 @@ t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 t("No thanks.", "Non merci.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("I am looking for mindstar training.", "I am looking for mindstar training.", "_t")
 t("I can teach you mindstar mastery (talent category Wild-gift/Mindstar mastery).  Learning the basics costs 100 gold, while more intensive training to gain proficiency costs 500 gold.  Once you're proficient, I can teach you some additional skills for 750 gold.", "I can teach you mindstar mastery (talent category Wild-gift/Mindstar mastery).  Learning the basics costs 100 gold, while more intensive training to gain proficiency costs 500 gold.  Once you're proficient, I can teach you some additional skills for 750 gold.", "_t")
@@ -4371,7 +4397,7 @@ t(", and teaches you enhanced mental discipline needed to maintain powerful ener
 section "mod-tome/data/chats/zigur-trainer.lua"
 
 t("Farewell.", "Adieux.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Well met, friend.", "Well met, friend.", "_t")
 t("Sister", "Sister", "_t")
@@ -4427,7 +4453,7 @@ t("But wha.. [you notice your first opponent is already there]", "But wha.. [you
 section "mod-tome/data/chats/zoisla.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*A naga steps through the portal, she seems to be a high ranked one.*#WHITE#
 NO! You fool, the portal is breaking down!]], [[#LIGHT_GREEN#*A naga steps through the portal, she seems to be a high ranked one.*#WHITE#
@@ -4447,9 +4473,176 @@ DIE !]], "_t")
 section "mod-tome/data/damage_types.lua"
 
 t("Something", "Quelque chose", "_t")
-t("cosmetic", "cosmétique", "_t")
-t("physical", "physique", "_t")
--- untranslated text
+t("cosmetic", "cosmétique", "damage type")
+t("physical", "physique", "damage type")
+-- nouveau texte
+--[==[
+t("%s(%d abyssal shield)#LAST#", "%s(%d abyssal shield)#LAST#", "tformat")
+t("arcane", "arcane", "damage type")
+t("fire", "fire", "damage type")
+t("cold", "cold", "damage type")
+t("lightning", "lightning", "damage type")
+t("acid", "acid", "damage type")
+t("nature", "nature", "damage type")
+t("blight", "blight", "damage type")
+t("light", "light", "damage type")
+t("darkness", "darkness", "damage type")
+t("mind", "mind", "damage type")
+t("winter", "winter", "damage type")
+t("temporal", "temporal", "damage type")
+t("temporal stun", "temporal stun", "damage type")
+t("lite", "lite", "damage type")
+t("illumination", "illumination", "damage type")
+t("silence", "silence", "damage type")
+t("arcane silence", "arcane silence", "damage type")
+t("blindness", "blindness", "damage type")
+t("blinding ink", "blinding ink", "damage type")
+t("bright light", "bright light", "damage type")
+t("fire burn", "fire burn", "damage type")
+t("stunning fire", "stunning fire", "damage type")
+t("devouring flames", "devouring flames", "damage type")
+t("shadowflame", "shadowflame", "damage type")
+t("stunning darkness", "stunning darkness", "damage type")
+t("flameshock", "flameshock", "damage type")
+t("ice", "ice", "damage type")
+t("slowing ice", "slowing ice", "damage type")
+t("ice storm", "ice storm", "damage type")
+t("glacial vapour", "glacial vapour", "damage type")
+t("pinning cold", "pinning cold", "damage type")
+t("freeze", "freeze", "damage type")
+t("sticky smoke", "sticky smoke", "damage type")
+t("acid blind", "acid blind", "damage type")
+t("blinding darkness", "blinding darkness", "damage type")
+t("blinding light", "blinding light", "damage type")
+t("dazing lightning", "dazing lightning", "damage type")
+t("cold repulsion", "cold repulsion", "damage type")
+t("bloodspring", "bloodspring", "damage type")
+t("fire repulsion", "fire repulsion", "damage type")
+t("burning repulsion", "burning repulsion", "damage type")
+t("darkness repulsion", "darkness repulsion", "damage type")
+t("physical repulsion", "physical repulsion", "damage type")
+t("fear repulsion", "fear repulsion", "damage type")
+t("poison", "poison", "damage type")
+t("cleansing fire", "cleansing fire", "damage type")
+t("spydric poison", "spydric poison", "damage type")
+t("crippling poison", "crippling poison", "damage type")
+t("insidious poison", "insidious poison", "damage type")
+t("bleed", "bleed", "damage type")
+t("physical bleed", "physical bleed", "damage type")
+t("nature slow", "nature slow", "damage type")
+t("dig", "dig", "damage type")
+t("slow", "slow", "damage type")
+t("congeal time", "congeal time", "damage type")
+t("time prison", "time prison", "damage type")
+t("confusion", "confusion", "damage type")
+t("% chance of confusion", "% chance of confusion", "damage type")
+t("% chance of gloom effects", "% chance of gloom effects", "damage type")
+t("item darkness numbing", "item darkness numbing", "damage type")
+t("item expose", "item expose", "damage type")
+t("item temporal energize", "item temporal energize", "damage type")
+t("item acid corrode", "item acid corrode", "damage type")
+t("item blight disease", "item blight disease", "damage type")
+t("item manaburn arcane", "item manaburn arcane", "damage type")
+t("item nature slow", "item nature slow", "damage type")
+t("item antimagic scouring", "item antimagic scouring", "damage type")
+t("item lightning daze", "item lightning daze", "damage type")
+t("item light blind", "item light blind", "damage type")
+t("item mind gloom", "item mind gloom", "damage type")
+t("blinding", "blinding", "damage type")
+t("blinding physical", "blinding physical", "damage type")
+t("physical pinning", "physical pinning", "damage type")
+t("regressive blight", "regressive blight", "damage type")
+t("draining blight", "draining blight", "damage type")
+t("sanguine blight", "sanguine blight", "damage type")
+t("vim draining blight", "vim draining blight", "damage type")
+t("demonfire", "demonfire", "damage type")
+t("purging blight", "purging blight", "damage type")
+t("holy light", "holy light", "damage type")
+t("healing", "healing", "damage type")
+t("healing light", "healing light", "damage type")
+t("judgement", "judgement", "damage type")
+t("healing nature", "healing nature", "damage type")
+t("infective blight", "infective blight", "damage type")
+t("hindering blight", "hindering blight", "damage type")
+t("life leech", "life leech", "damage type")
+t("physical stun", "physical stun", "damage type")
+t("warp", "warp", "damage type")
+t("temporal darkness", "temporal darkness", "damage type")
+t("gravity", "gravity", "damage type")
+t("gravity pin", "gravity pin", "damage type")
+t("grow", "grow", "damage type")
+t("pinning nature", "pinning nature", "damage type")
+t("impeding nature", "impeding nature", "damage type")
+t("confounding nature", "confounding nature", "damage type")
+t("sanctity", "sanctity", "damage type")
+t("defensive darkness", "defensive darkness", "damage type")
+t("blazing light", "blazing light", "damage type")
+t("prismatic repulsion", "prismatic repulsion", "damage type")
+t("mind slow", "mind slow", "damage type")
+t("mind freeze", "mind freeze", "damage type")
+t("implosion", "implosion", "damage type")
+t("regressive temporal", "regressive temporal", "damage type")
+t("wasting temporal", "wasting temporal", "damage type")
+t("stop", "stop", "damage type")
+t("debilitating temporal", "debilitating temporal", "damage type")
+t("draining physical", "draining physical", "damage type")
+t("temporal slow", "temporal slow", "damage type")
+t("molten rock", "molten rock", "damage type")
+t("entangle", "entangle", "damage type")
+t("manaworm arcane", "manaworm arcane", "damage type")
+t("arcane blast", "arcane blast", "damage type")
+t("circle of death", "circle of death", "damage type")
+t("decaying darkness", "decaying darkness", "damage type")
+t("abyssal darkness", "abyssal darkness", "damage type")
+t("% chance to summon an orc spirit", "% chance to summon an orc spirit", "damage type")
+t("nightmare", "nightmare", "damage type")
+t("cursed miasma", "cursed miasma", "damage type")
+t("weakness", "weakness", "damage type")
+t("special effect", "special effect", "damage type")
+t("manaburn arcane", "manaburn arcane", "damage type")
+t("leaves", "leaves", "damage type")
+t("distorting physical", "distorting physical", "damage type")
+t("dreamforge", "dreamforge", "damage type")
+t("natural mucus", "natural mucus", "damage type")
+t("disarming acid", "disarming acid", "damage type")
+t("corrosive acid", "corrosive acid", "damage type")
+t("bouncing slime", "bouncing slime", "damage type")
+t("caustic mire", "caustic mire", "damage type")
+t("sun path", "sun path", "damage type")
+t("telekinetic shove", "telekinetic shove", "damage type")
+t("dimensional anchor", "dimensional anchor", "damage type")
+t("phase pulse", "phase pulse", "damage type")
+t("brain storm", "brain storm", "damage type")
+t("static net", "static net", "damage type")
+t("wormblight", "wormblight", "damage type")
+t("pestilent blight", "pestilent blight", "damage type")
+t("blight poison", "blight poison", "damage type")
+t("terror", "terror", "damage type")
+t("random poison", "random poison", "damage type")
+t("blinding powder", "blinding powder", "damage type")
+t("smokescreen", "smokescreen", "damage type")
+t("flare", "flare", "damage type")
+t("flare light", "flare light", "damage type")
+t("sticky pitch", "sticky pitch", "damage type")
+t("fire sunder", "fire sunder", "damage type")
+t("shadow smoke", "shadow smoke", "damage type")
+t("frozen earth", "frozen earth", "damage type")
+t("void echoes", "void echoes", "damage type")
+t("#YELLOW#Lite Light#LAST# Burst (radius 1)", "#YELLOW#Lite Light#LAST# Burst (radius 1)", "damage type")
+t("dark light", "dark light", "damage type")
+t("meteor", "meteor", "damage type")
+t("fetid", "fetid", "damage type")
+t("frostdusk", "frostdusk", "damage type")
+t("chill of the tomb", "chill of the tomb", "damage type")
+t("putrescent liquefaction", "putrescent liquefaction", "damage type")
+t("boneyard", "boneyard", "damage type")
+t("desolate waste", "desolate waste", "damage type")
+t("thaumic energy", "thaumic energy", "damage type")
+t("black-hole gravity", "black-hole gravity", "damage type")
+t("solar blood", "solar blood", "damage type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("%s(%d warded)#LAST#", "%s(%d warded)#LAST#", "tformat")
 t("#Source# strikes #Target# in the darkness (%+d%%%%%%%% damage).", "#Source# strikes #Target# in the darkness (%+d%%%%%%%% damage).", "delayedLogMessage")
@@ -4495,13 +4688,11 @@ t("minced", "minced", "_t")
 t("punctured", "punctured", "_t")
 t("hacked apart", "hacked apart", "_t")
 t("eviscerated", "eviscerated", "_t")
-t("arcane", "arcane", "_t")
 t("blasted", "blasted", "_t")
 t("energised", "energised", "_t")
 t("mana-torn", "mana-torn", "_t")
 t("dweomered", "dweomered", "_t")
 t("imploded", "imploded", "_t")
-t("fire", "fire", "_t")
 t("burnt", "burnt", "_t")
 t("scorched", "scorched", "_t")
 t("blazed", "blazed", "_t")
@@ -4512,30 +4703,25 @@ t("combusted", "combusted", "_t")
 t("toasted", "toasted", "_t")
 t("slowly cooked", "slowly cooked", "_t")
 t("boiled", "boiled", "_t")
-t("cold", "cold", "_t")
 t("frozen", "frozen", "_t")
 t("chilled", "chilled", "_t")
 t("iced", "iced", "_t")
 t("cooled", "cooled", "_t")
 t("frozen and shattered into a million little shards", "frozen and shattered into a million little shards", "_t")
-t("lightning", "lightning", "_t")
 t("electrocuted", "electrocuted", "_t")
 t("shocked", "shocked", "_t")
 t("bolted", "bolted", "_t")
 t("volted", "volted", "_t")
 t("amped", "amped", "_t")
 t("zapped", "zapped", "_t")
-t("acid", "acid", "_t")
 t("dissolved", "dissolved", "_t")
 t("corroded", "corroded", "_t")
 t("scalded", "scalded", "_t")
 t("melted", "melted", "_t")
-t("nature", "nature", "_t")
 t("slimed", "slimed", "_t")
 t("splurged", "splurged", "_t")
 t("treehugged", "treehugged", "_t")
 t("naturalised", "naturalised", "_t")
-t("blight", "blight", "_t")
 t("diseased", "diseased", "_t")
 t("poxed", "poxed", "_t")
 t("infected", "infected", "_t")
@@ -4543,23 +4729,18 @@ t("plagued", "plagued", "_t")
 t("debilitated by noxious blight before falling", "debilitated by noxious blight before falling", "_t")
 t("fouled", "fouled", "_t")
 t("tainted", "tainted", "_t")
-t("light", "light", "_t")
 t("radiated", "radiated", "_t")
 t("seared", "seared", "_t")
 t("purified", "purified", "_t")
 t("sun baked", "sun baked", "_t")
 t("jerkied", "jerkied", "_t")
 t("tanned", "tanned", "_t")
-t("darkness", "darkness", "_t")
 t("shadowed", "shadowed", "_t")
 t("darkened", "darkened", "_t")
 t("swallowed by the void", "swallowed by the void", "_t")
-t("mind", "mind", "_t")
 t("psyched", "psyched", "_t")
 t("mentally tortured", "mentally tortured", "_t")
 t("mindraped", "mindraped", "_t")
-t("winter", "winter", "_t")
-t("temporal", "temporal", "_t")
 t("timewarped", "timewarped", "_t")
 t("temporally distorted", "temporally distorted", "_t")
 t("spaghettified across the whole of space and time", "spaghettified across the whole of space and time", "_t")
@@ -4567,232 +4748,86 @@ t("paradoxed", "paradoxed", "_t")
 t("replaced by a time clone (and no one ever knew the difference)", "replaced by a time clone (and no one ever knew the difference)", "_t")
 t("grandfathered", "grandfathered", "_t")
 t("time dilated", "time dilated", "_t")
-t("temporal stun", "temporal stun", "_t")
 t("%s resists the stun!", "%s resists the stun!", "logSeen")
-t("lite", "lite", "_t")
-t("illumination", "illumination", "_t")
-t("silence", "silence", "_t")
 t("%s resists the silence!", "%s resists the silence!", "logSeen")
-t("arcane silence", "arcane silence", "_t")
 t("%s resists!", "%s resists!", "logSeen")
-t("blindness", "blindness", "_t")
 t("%s resists the blinding light!", "%s resists the blinding light!", "logSeen")
-t("blinding ink", "blinding ink", "_t")
 t("%s avoids the blinding ink!", "%s avoids the blinding ink!", "logSeen")
-t("bright light", "bright light", "_t")
-t("fire burn", "fire burn", "_t")
-t("stunning fire", "stunning fire", "_t")
-t("devouring flames", "devouring flames", "_t")
 t("#Source# drains life from #Target#!", "#Source# drains life from #Target#!", "logCombat")
-t("shadowflame", "shadowflame", "_t")
-t("stunning darkness", "stunning darkness", "_t")
 t("%s resists the darkness!", "%s resists the darkness!", "logSeen")
-t("flameshock", "flameshock", "_t")
 t("%s resists the searing flame!", "%s resists the searing flame!", "logSeen")
-t("ice", "ice", "_t")
-t("slowing ice", "slowing ice", "_t")
-t("ice storm", "ice storm", "_t")
-t("glacial vapour", "glacial vapour", "_t")
-t("pinning cold", "pinning cold", "_t")
-t("freeze", "freeze", "_t")
 t("Frozen!", "Frozen!", "_t")
 t("Resist!", "Resist!", "_t")
-t("sticky smoke", "sticky smoke", "_t")
-t("acid blind", "acid blind", "_t")
-t("blinding darkness", "blinding darkness", "_t")
-t("blinding light", "blinding light", "_t")
-t("dazing lightning", "dazing lightning", "_t")
-t("cold repulsion", "cold repulsion", "_t")
 t("%s is knocked back!", "%s is knocked back!", "logSeen")
 t("%s resists the wave!", "%s resists the wave!", "logSeen")
-t("bloodspring", "bloodspring", "_t")
 t("%s resists the bloody wave!", "%s resists the bloody wave!", "logSeen")
-t("fire repulsion", "fire repulsion", "_t")
 t("%s resists the punch!", "%s resists the punch!", "logSeen")
-t("burning repulsion", "burning repulsion", "_t")
-t("darkness repulsion", "darkness repulsion", "_t")
-t("physical repulsion", "physical repulsion", "_t")
 t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
-t("fear repulsion", "fear repulsion", "_t")
 t("%s resists the frightening sight!", "%s resists the frightening sight!", "logSeen")
-t("poison", "poison", "_t")
-t("cleansing fire", "cleansing fire", "_t")
-t("spydric poison", "spydric poison", "_t")
-t("crippling poison", "crippling poison", "_t")
-t("insidious poison", "insidious poison", "_t")
-t("bleed", "bleed", "_t")
-t("physical bleed", "physical bleed", "_t")
-t("nature slow", "nature slow", "_t")
-t("dig", "dig", "_t")
 t("%s turns into %s.", "%s turns into %s.", "logSeen")
-t("slow", "slow", "_t")
-t("congeal time", "congeal time", "_t")
-t("time prison", "time prison", "_t")
 t("%s resists the time prison.", "%s resists the time prison.", "logSeen")
-t("confusion", "confusion", "_t")
-t("% chance of confusion", "% chance of confusion", "_t")
-t("% chance of gloom effects", "% chance of gloom effects", "_t")
-t("item darkness numbing", "item darkness numbing", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "tformat")
-t("item expose", "item expose", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "tformat")
-t("item temporal energize", "item temporal energize", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "tformat")
 t("#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "logSeen")
-t("item acid corrode", "item acid corrode", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "tformat")
-t("item blight disease", "item blight disease", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "tformat")
-t("item manaburn arcane", "item manaburn arcane", "_t")
 t("* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "tformat")
-t("item nature slow", "item nature slow", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to slow global speed by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to slow global speed by #YELLOW#%d%%#LAST#%s", "tformat")
-t("item antimagic scouring", "item antimagic scouring", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to #ORCHID#reduce effective powers#LAST# by %d%%%s", "* #LIGHT_GREEN#%d%%#LAST# chance to #ORCHID#reduce effective powers#LAST# by %d%%%s", "tformat")
-t("item lightning daze", "item lightning daze", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to #ROYAL_BLUE#daze#LAST# at end of turn%s", "* #LIGHT_GREEN#%d%%#LAST# chance to #ROYAL_BLUE#daze#LAST# at end of turn%s", "tformat")
-t("item light blind", "item light blind", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to #YELLOW#blind#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to #YELLOW#blind#LAST#%s", "tformat")
-t("item mind gloom", "item mind gloom", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #YELLOW#random gloom#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to cause #YELLOW#random gloom#LAST#%s", "tformat")
+t("confusion", "confusion", "_t")
 t("stun", "stun", "_t")
 t("slow'", "slow'", "_t")
-t("blinding", "blinding", "_t")
 t("%s resists the blind!", "%s resists the blind!", "logSeen")
-t("blinding physical", "blinding physical", "_t")
 t("%s resists the sandstorm!", "%s resists the sandstorm!", "logSeen")
-t("physical pinning", "physical pinning", "_t")
 t("%s resists the pin!", "%s resists the pin!", "logSeen")
-t("regressive blight", "regressive blight", "_t")
 t("#Source# drains experience from #Target#!", "#Source# drains experience from #Target#!", "logCombat")
-t("draining blight", "draining blight", "_t")
-t("sanguine blight", "sanguine blight", "_t")
-t("vim draining blight", "vim draining blight", "_t")
-t("demonfire", "demonfire", "_t")
-t("purging blight", "purging blight", "_t")
-t("holy light", "holy light", "_t")
-t("healing", "healing", "_t")
-t("healing light", "healing light", "_t")
 t("#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "logPlayer")
-t("judgement", "judgement", "_t")
-t("healing nature", "healing nature", "_t")
-t("infective blight", "infective blight", "_t")
-t("hindering blight", "hindering blight", "_t")
-t("life leech", "life leech", "_t")
-t("physical stun", "physical stun", "_t")
-t("warp", "warp", "_t")
-t("temporal darkness", "temporal darkness", "_t")
-t("gravity", "gravity", "_t")
-t("gravity pin", "gravity pin", "_t")
-t("grow", "grow", "_t")
-t("pinning nature", "pinning nature", "_t")
 t("%s resists the pinning!", "%s resists the pinning!", "logSeen")
-t("impeding nature", "impeding nature", "_t")
-t("confounding nature", "confounding nature", "_t")
 t("%s resists the confusion!", "%s resists the confusion!", "logSeen")
-t("sanctity", "sanctity", "_t")
-t("defensive darkness", "defensive darkness", "_t")
-t("blazing light", "blazing light", "_t")
-t("prismatic repulsion", "prismatic repulsion", "_t")
-t("mind slow", "mind slow", "_t")
-t("mind freeze", "mind freeze", "_t")
 t("%s resists the freezing!", "%s resists the freezing!", "logSeen")
-t("implosion", "implosion", "_t")
-t("regressive temporal", "regressive temporal", "_t")
-t("wasting temporal", "wasting temporal", "_t")
-t("stop", "stop", "_t")
 t("%s has not been stopped!", "%s has not been stopped!", "logSeen")
-t("debilitating temporal", "debilitating temporal", "_t")
 t("%s resists the blindness!", "%s resists the blindness!", "logSeen")
-t("draining physical", "draining physical", "_t")
 t("#Source# consumes %d life from #Target#!", "#Source# consumes %d life from #Target#!", "logCombat")
-t("temporal slow", "temporal slow", "_t")
-t("molten rock", "molten rock", "_t")
-t("entangle", "entangle", "_t")
 t("%s resists entanglement!", "%s resists entanglement!", "logSeen")
-t("manaworm arcane", "manaworm arcane", "_t")
 t("%s has no mana to burn.", "%s has no mana to burn.", "logSeen")
-t("arcane blast", "arcane blast", "_t")
-t("circle of death", "circle of death", "_t")
 t("%s resists the baneful energy!", "%s resists the baneful energy!", "logSeen")
-t("decaying darkness", "decaying darkness", "_t")
-t("abyssal darkness", "abyssal darkness", "_t")
-t("% chance to summon an orc spirit", "% chance to summon an orc spirit", "_t")
 t("%s<%d%%%% orc summon chance>#LAST#", "%s<%d%%%% orc summon chance>#LAST#", "tformat")
 t("%s<orc summon>#LAST#", "%s<orc summon>#LAST#", "tformat")
 t("orc spirit", "orc spirit", "_t")
 t("An orc clad in massive armour, wielding a huge axe.", "An orc clad in massive armour, wielding a huge axe.", "_t")
 t("Garkul Spirit", "Garkul Spirit", "_t")
-t("nightmare", "nightmare", "_t")
-t("cursed miasma", "cursed miasma", "_t")
-t("weakness", "weakness", "_t")
-t("special effect", "special effect", "_t")
-t("manaburn arcane", "manaburn arcane", "_t")
-t("leaves", "leaves", "_t")
-t("distorting physical", "distorting physical", "_t")
-t("dreamforge", "dreamforge", "_t")
 t("%s resists the forge bellow!", "%s resists the forge bellow!", "logSeen")
 t("%s resists the dream forge!", "%s resists the dream forge!", "logSeen")
-t("natural mucus", "natural mucus", "_t")
-t("disarming acid", "disarming acid", "_t")
 t("%s resists disarming!", "%s resists disarming!", "logSeen")
-t("corrosive acid", "corrosive acid", "_t")
-t("bouncing slime", "bouncing slime", "_t")
-t("caustic mire", "caustic mire", "_t")
-t("sun path", "sun path", "_t")
-t("telekinetic shove", "telekinetic shove", "_t")
 t("%s resists pinning!", "%s resists pinning!", "logSeen")
 t("%s resists the shove!", "%s resists the shove!", "logSeen")
-t("dimensional anchor", "dimensional anchor", "_t")
-t("phase pulse", "phase pulse", "_t")
-t("brain storm", "brain storm", "_t")
 t("%s resists the mind attack!", "%s resists the mind attack!", "logSeen")
-t("static net", "static net", "_t")
-t("wormblight", "wormblight", "_t")
-t("pestilent blight", "pestilent blight", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "tformat")
-t("blight poison", "blight poison", "_t")
-t("terror", "terror", "_t")
 t("%s<terror chance>#LAST#", "%s<terror chance>#LAST#", "tformat")
-t("random poison", "random poison", "_t")
-t("blinding powder", "blinding powder", "_t")
 t("%s<blinding powder>#LAST#", "%s<blinding powder>#LAST#", "tformat")
-t("smokescreen", "smokescreen", "_t")
 t("%s<smoke>#LAST#", "%s<smoke>#LAST#", "tformat")
-t("flare", "flare", "_t")
 t("%s resists the blinding flare!", "%s resists the blinding flare!", "logSeen")
-t("flare light", "flare light", "_t")
-t("sticky pitch", "sticky pitch", "_t")
-t("fire sunder", "fire sunder", "_t")
-t("shadow smoke", "shadow smoke", "_t")
-t("frozen earth", "frozen earth", "_t")
-t("void echoes", "void echoes", "_t")
 t("%s resists the void!", "%s resists the void!", "logSeen")
-t("#YELLOW#Lite Light#LAST# Burst (radius 1)", "#YELLOW#Lite Light#LAST# Burst (radius 1)", "_t")
-t("dark light", "dark light", "_t")
-t("meteor", "meteor", "_t")
-t("fetid", "fetid", "_t")
-t("frostdusk", "frostdusk", "_t")
-t("chill of the tomb", "chill of the tomb", "_t")
-t("putrescent liquefaction", "putrescent liquefaction", "_t")
-t("boneyard", "boneyard", "_t")
-t("desolate waste", "desolate waste", "_t")
-t("thaumic energy", "thaumic energy", "_t")
 t("utterly vaporized", "utterly vaporized", "_t")
 t("annihilated", "annihilated", "_t")
 t("disintegrated", "disintegrated", "_t")
-t("black-hole gravity", "black-hole gravity", "_t")
 t("%s is pulled in!", "%s is pulled in!", "logSeen")
 t("%s resists the gravity!", "%s resists the gravity!", "logSeen")
-t("solar blood", "solar blood", "_t")
 --]==]
 
+-- ancien texte traduit
+t("cosmetic", "cosmétique", "_t")
+t("physical", "physique", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/factions.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Neutral", "Neutral", "faction name")
 t("Unaligned", "Unaligned", "faction name")
@@ -4806,7 +4841,7 @@ t("Point Zero Guardians", "Point Zero Guardians", "faction name")
 section "mod-tome/data/general/encounters/fareast-npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Sun Paladins patrol", "Sun Paladins patrol", "entity name")
 t("patrol", "patrol", "entity type")
@@ -4821,7 +4856,7 @@ t("orc pride", "orc pride", "entity subtype")
 section "mod-tome/data/general/encounters/fareast.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Underwater Cave", "Underwater Cave", "entity name")
 t("harmless", "harmless", "entity type")
@@ -4838,7 +4873,7 @@ t("Entrance to a dark crypt", "Entrance to a dark crypt", "_t")
 section "mod-tome/data/general/encounters/maj-eyal-npcs.lua"
 
 t("humanoid", "humanoïde", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Allied Kingdoms human patrol", "Allied Kingdoms human patrol", "entity name")
 t("patrol", "patrol", "entity type")
@@ -4855,7 +4890,7 @@ t("You have got nothing to fear if you are not using filthy arcane magic. Otherw
 section "mod-tome/data/general/encounters/maj-eyal.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Novice mage", "Novice mage", "entity name")
 t("harmless", "harmless", "entity type")
@@ -4902,7 +4937,7 @@ t("tranquil meadow", "tranquil meadow", "_t")
 section "mod-tome/data/general/events/antimagic-bush.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("antimagic bush", "antimagic bush", "_t")
 t("%s (antimagic aura)", "%s (antimagic aura)", "tformat")
@@ -4913,7 +4948,7 @@ t("%s (antimagic aura)", "%s (antimagic aura)", "tformat")
 section "mod-tome/data/general/events/bligthed-soil.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("blighted soil", "blighted soil", "_t")
 t("%s (blighted aura)", "%s (blighted aura)", "tformat")
@@ -4924,7 +4959,7 @@ t("%s (blighted aura)", "%s (blighted aura)", "tformat")
 section "mod-tome/data/general/events/conclave-vault.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Director Hompalan", "Director Hompalan", "_t")
 t([[Only crumbling bones are left of what once was the proud Director Hompalan, chief of this facility.
@@ -4937,7 +4972,7 @@ Now those remains look at you with empty eyes but you can not mistake their inte
 section "mod-tome/data/general/events/cultists.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("monolith", "monolith", "_t")
 t("Cultist", "Cultist", "_t")
@@ -4968,7 +5003,7 @@ t("%s pulls a dagger and opens his own chest, piercing his beating heart. The st
 section "mod-tome/data/general/events/damp-cave.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("ladder back to %s", "ladder back to %s", "tformat")
 t("Damp Cave", "Damp Cave", "_t")
@@ -4980,7 +5015,7 @@ t("damp cave", "damp cave", "_t")
 section "mod-tome/data/general/events/drake-cave.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Intimidating Cave", "Intimidating Cave", "_t")
 t("ladder back to %s", "ladder back to %s", "_t")
@@ -4992,7 +5027,7 @@ section "mod-tome/data/general/events/fearscape-portal.lua"
 
 t("Destroy", "Détruire", "_t")
 t("Quit", "Quitter", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("portal back to %s", "portal back to %s", "tformat")
 t("#VIOLET# You escape the Fearscape!", "#VIOLET# You escape the Fearscape!", "log")
@@ -5014,7 +5049,7 @@ t("#VIOLET#A demon steps out of the %s!", "#VIOLET#A demon steps out of the %s!"
 section "mod-tome/data/general/events/fell-aura.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("%s (fell aura)", "%s (fell aura)", "tformat")
 --]==]
@@ -5023,16 +5058,14 @@ t("%s (fell aura)", "%s (fell aura)", "tformat")
 ------------------------------------------------
 section "mod-tome/data/general/events/font-life.lua"
 
-
 t("font of life", "fontaine de vie", "_t")
 t("%s (life aura)", "%s (aura de vie)", "tformat")
-
 
 ------------------------------------------------
 section "mod-tome/data/general/events/glimmerstone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("glimmerstone", "glimmerstone", "_t")
 t("It shimmers and changes the light all around. This is dazling!", "It shimmers and changes the light all around. This is dazling!", "_t")
@@ -5045,7 +5078,7 @@ section "mod-tome/data/general/events/glowing-chest.lua"
 
 t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("glowing chest", "glowing chest", "_t")
 t("Glowing Chest", "Glowing Chest", "_t")
@@ -5060,7 +5093,7 @@ t("glowing chest (opened)", "glowing chest (opened)", "_t")
 section "mod-tome/data/general/events/meteor.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Meteor!", "Meteor!", "_t")
 t("As you walk you notice a huge rock falling from the sky. It crashes right near you!", "As you walk you notice a huge rock falling from the sky. It crashes right near you!", "_t")
@@ -5072,7 +5105,7 @@ section "mod-tome/data/general/events/naga-portal.lua"
 
 t("Destroy", "Détruire", "_t")
 t("Quit", "Quitter", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("coral invasion portal", "coral invasion portal", "_t")
 t("portal back to %s", "portal back to %s", "tformat")
@@ -5094,7 +5127,7 @@ t("#VIOLET#A naga steps out of the %s!", "#VIOLET#A naga steps out of the %s!", 
 section "mod-tome/data/general/events/necrotic-air.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("%s (necrotic air)", "%s (necrotic air)", "tformat")
 --]==]
@@ -5104,7 +5137,7 @@ t("%s (necrotic air)", "%s (necrotic air)", "tformat")
 section "mod-tome/data/general/events/noxious-caldera.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Way into a volcanic caldera", "Way into a volcanic caldera", "_t")
 t("Ground is shaking", "Ground is shaking", "_t")
@@ -5116,7 +5149,7 @@ t("You feel a tremor in the ground for a few seconds and it disappears...", "You
 section "mod-tome/data/general/events/old-battle-field.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("ramp up to %s", "ramp up to %s", "tformat")
 t("#VIOLET# The ramp crumbles as you climb it, followed by the collapse of the cavern.", "#VIOLET# The ramp crumbles as you climb it, followed by the collapse of the cavern.", "log")
@@ -5137,7 +5170,7 @@ t("As you began digging up the grave, the ground collapsed beneath you. You fall
 section "mod-tome/data/general/events/protective-aura.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("%s (protective aura)", "%s (protective aura)", "tformat")
 --]==]
@@ -5147,7 +5180,7 @@ t("%s (protective aura)", "%s (protective aura)", "tformat")
 section "mod-tome/data/general/events/rat-lich.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("way up to %s", "way up to %s", "tformat")
 t("#VIOLET# As you leave the crypt, the stairway collapses in upon itself.", "#VIOLET# As you leave the crypt, the stairway collapses in upon itself.", "log")
@@ -5171,7 +5204,7 @@ t("Stairs lead downwards into rubble.", "Stairs lead downwards into rubble.", "_
 section "mod-tome/data/general/events/slimey-pool.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("slimey pool", "slimey pool", "_t")
 t("%s (slimey)", "%s (slimey)", "tformat")
@@ -5182,7 +5215,7 @@ t("%s (slimey)", "%s (slimey)", "tformat")
 section "mod-tome/data/general/events/sludgenest.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Way into a strange lush forest", "Way into a strange lush forest", "_t")
 t("Lush forest", "Lush forest", "_t")
@@ -5194,7 +5227,7 @@ t("Suddenly it comes back to you. You remember long ago somebody told you about 
 section "mod-tome/data/general/events/snowstorm.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Snowstorm", "Snowstorm", "_t")
 t("As you walk into the area you notice a huge snowstorm over your head. Beware!", "As you walk into the area you notice a huge snowstorm over your head. Beware!", "_t")
@@ -5205,7 +5238,7 @@ t("As you walk into the area you notice a huge snowstorm over your head. Beware!
 section "mod-tome/data/general/events/spellblaze-scar.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("spellblaze scar", "spellblaze scar", "_t")
 t("%s (spellblaze aura)", "%s (spellblaze aura)", "tformat")
@@ -5216,7 +5249,7 @@ t("%s (spellblaze aura)", "%s (spellblaze aura)", "tformat")
 section "mod-tome/data/general/events/sub-vault.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("way up (%s)", "way up (%s)", "tformat")
 t("#VIOLET# The stairway collapses completely as you ascend!", "#VIOLET# The stairway collapses completely as you ascend!", "log")
@@ -5235,7 +5268,7 @@ t("nearly collapsed hidden vault", "nearly collapsed hidden vault", "_t")
 section "mod-tome/data/general/events/thunderstorm.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Thunderstorm", "Thunderstorm", "_t")
 t("As you walk into the area you notice a huge thunderstorm over your head. Beware!", "As you walk into the area you notice a huge thunderstorm over your head. Beware!", "_t")
@@ -5246,7 +5279,7 @@ t("As you walk into the area you notice a huge thunderstorm over your head. Bewa
 section "mod-tome/data/general/events/tombstones.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("grave", "grave", "_t")
 t("Grave", "Grave", "_t")
@@ -5261,7 +5294,7 @@ t("You were not the first here: the corpse was turned into an undead.", "You wer
 section "mod-tome/data/general/events/weird-pedestals.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weird pedestal", "weird pedestal", "_t")
 t("Weird Pedestal", "Weird Pedestal", "_t")
@@ -5286,7 +5319,7 @@ t("You hear a terrible voice saying 'Their lives are mine! I am coming!'", "You 
 section "mod-tome/data/general/events/whistling-vortex.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("%s (whistling vortex)", "%s (whistling vortex)", "tformat")
 --]==]
@@ -5297,11 +5330,11 @@ section "mod-tome/data/general/grids/autumn_forest.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
-t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("old road", "vieille route", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("autumn_grass", "autumn_grass", "entity subtype")
 t("autumn grass", "autumn grass", "entity name")
@@ -5315,17 +5348,17 @@ section "mod-tome/data/general/grids/basic.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("previous level", "niveau précédent", "entity name")
+t("next level", "niveau suivant", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
-t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
-t("way to the previous level", "chemin vers le niveau précédent", "entity name")
-t("way to the next level", "chemin vers le niveau suivant", "entity name")
-t("previous level", "niveau précédent", "entity name")
-t("next level", "niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("sealed door", "sealed door", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
@@ -5354,7 +5387,7 @@ t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#Vous entendez un mécanisme
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("bone", "bone", "entity subtype")
 t("sand", "sand", "entity name")
@@ -5381,7 +5414,7 @@ t("floor", "sol", "entity type")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("burnt", "burnt", "entity subtype")
 t("burnt tree", "burnt tree", "entity name")
@@ -5396,7 +5429,7 @@ section "mod-tome/data/general/grids/cave.lua"
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("cave", "cave", "entity subtype")
 t("cave floor", "cave floor", "entity name")
@@ -5417,7 +5450,7 @@ t("underground", "souterrain", "entity subtype")
 t("crystals", "cristaux", "entity name")
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("ladder to the next level", "ladder to the next level", "entity name")
 t("ladder to the previous level", "ladder to the previous level", "entity name")
@@ -5431,7 +5464,7 @@ section "mod-tome/data/general/grids/elven_forest.lua"
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
 t("tree", "arbre", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("tall thick tree", "tall thick tree", "entity name")
 t("snowy_grass", "snowy_grass", "entity subtype")
@@ -5448,11 +5481,11 @@ t("grass", "herbe", "entity name")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
 t("flower", "fleur", "entity name")
-t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("old road", "vieille route", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("tall thick tree", "tall thick tree", "entity name")
 t("huge loose rock", "huge loose rock", "entity name")
@@ -5470,10 +5503,11 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("sealed door", "sealed door", "entity name")
 t("This door seems to be sealed.", "This door seems to be sealed.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
 --]==]
 
 
@@ -5482,17 +5516,17 @@ section "mod-tome/data/general/grids/gothic.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("previous level", "niveau précédent", "entity name")
+t("next level", "niveau suivant", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
-t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
-t("way to the previous level", "chemin vers le niveau précédent", "entity name")
-t("way to the next level", "chemin vers le niveau suivant", "entity name")
-t("previous level", "niveau précédent", "entity name")
-t("next level", "niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("sealed door", "sealed door", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
@@ -5511,7 +5545,7 @@ t("bool", "bool", "entity subtype")
 section "mod-tome/data/general/grids/ice.lua"
 
 t("floor", "sol", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("ice", "ice", "entity subtype")
 t("icy floor", "icy floor", "entity name")
@@ -5524,7 +5558,7 @@ section "mod-tome/data/general/grids/icecave.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("icecave", "icecave", "entity subtype")
 t("ice cave floor", "ice cave floor", "entity name")
@@ -5548,7 +5582,7 @@ t("tree", "arbre", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("mud", "mud", "entity subtype")
 t("muddy floor", "muddy floor", "entity name")
@@ -5562,7 +5596,7 @@ t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("bamboo floor", "bamboo floor", "entity subtype")
 t("bamboo hut floor", "bamboo hut floor", "entity name")
@@ -5576,7 +5610,7 @@ section "mod-tome/data/general/grids/lava.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("lava", "lava", "entity subtype")
 t("lava floor", "lava floor", "entity name")
@@ -5595,15 +5629,15 @@ t("ladder to worldmap", "ladder to worldmap", "entity name")
 section "mod-tome/data/general/grids/malrok_walls.lua"
 
 t("floor", "sol", "entity type")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("previous level", "niveau précédent", "entity name")
+t("next level", "niveau suivant", "entity name")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
-t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
-t("previous level", "niveau précédent", "entity name")
-t("next level", "niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("rocks", "rocks", "entity subtype")
 --]==]
@@ -5617,7 +5651,7 @@ t("wall", "mur", "entity type")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("rock", "rock", "entity subtype")
 t("rocky ground", "rocky ground", "entity name")
@@ -5634,7 +5668,7 @@ section "mod-tome/data/general/grids/psicave.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("psitech", "psitech", "entity subtype")
 t("psitech floor", "psitech floor", "entity name")
@@ -5657,7 +5691,7 @@ t("tree", "arbre", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("sand", "sand", "entity subtype")
 t("sand", "sand", "entity name")
@@ -5682,7 +5716,7 @@ t("tree", "arbre", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("sand", "sand", "entity subtype")
 t("sand", "sand", "entity name")
@@ -5699,7 +5733,7 @@ t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("slime", "slime", "entity subtype")
 t("slime floor", "slime floor", "entity name")
@@ -5714,17 +5748,17 @@ section "mod-tome/data/general/grids/slimy_walls.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("previous level", "niveau précédent", "entity name")
+t("next level", "niveau suivant", "entity name")
+t("way to the previous level", "chemin vers le niveau précédent", "entity name")
+t("way to the next level", "chemin vers le niveau suivant", "entity name")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
-t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
-t("way to the previous level", "chemin vers le niveau précédent", "entity name")
-t("way to the next level", "chemin vers le niveau suivant", "entity name")
-t("previous level", "niveau précédent", "entity name")
-t("next level", "niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("sealed door", "sealed door", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
@@ -5744,11 +5778,11 @@ section "mod-tome/data/general/grids/snowy_forest.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
-t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("old road", "vieille route", "entity name")
+t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("snowy_grass", "snowy_grass", "entity subtype")
 t("snowy grass", "snowy grass", "entity name")
@@ -5764,7 +5798,7 @@ t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("creep", "creep", "entity subtype")
 t("mushroom creep", "mushroom creep", "entity name")
@@ -5784,7 +5818,7 @@ t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("creep", "creep", "entity subtype")
 t("mushroom creep", "mushroom creep", "entity name")
@@ -5804,7 +5838,7 @@ t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("creep", "creep", "entity subtype")
 t("mushroom creep", "mushroom creep", "entity name")
@@ -5822,7 +5856,7 @@ section "mod-tome/data/general/grids/void.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("void", "void", "entity subtype")
 t("void", "void", "entity name")
@@ -5846,7 +5880,7 @@ t("deep water", "eau profonde", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("underwater", "underwater", "entity subtype")
 t("underwater", "underwater", "entity name")
@@ -5863,7 +5897,7 @@ t("#Source# poisons #Target#!", "#Source# poisons #Target#!", "logCombat")
 section "mod-tome/data/general/npcs/ant.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("insect", "insect", "entity type")
 t("ant", "ant", "entity subtype")
@@ -5902,7 +5936,7 @@ t("Queen of the ants, queen of the biting death!", "Queen of the ants, queen of 
 section "mod-tome/data/general/npcs/aquatic_critter.lua"
 
 t("critter", "bestiole", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("aquatic", "aquatic", "entity type")
 t("giant eel", "giant eel", "entity name")
@@ -5924,7 +5958,7 @@ t("Darting its many tentacles toward you, it tries to blind you with its murky i
 section "mod-tome/data/general/npcs/aquatic_demon.lua"
 
 t("demon", "démon", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("aquatic", "aquatic", "entity type")
 t("water imp", "water imp", "entity name")
@@ -5938,7 +5972,7 @@ t("Walrog, the lord of Water, is fearsome to behold. The water writhes around hi
 section "mod-tome/data/general/npcs/bear.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("animal", "animal", "entity type")
 t("bear", "bear", "entity subtype")
@@ -5961,7 +5995,7 @@ t("This huge white bear has wandered south in search of food.", "This huge white
 section "mod-tome/data/general/npcs/bird.lua"
 
 t("RESURRECT!", "RESSUSCITE!", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("animal", "animal", "entity type")
 t("bird", "bird", "entity subtype")
@@ -5976,7 +6010,7 @@ section "mod-tome/data/general/npcs/bone-giant.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("giant", "géant", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("bone giant", "bone giant", "entity name")
 t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "_t")
@@ -5995,10 +6029,11 @@ t("canine", "canin", "entity subtype")
 t("wolf", "loup", "entity name")
 t("Lean, mean, and shaggy, it stares at you with hungry eyes.", "Maigre, méchant et grincheux, il vous regarde avec des yeux affamés.", "_t")
 t("white wolf", "loup blanc", "entity name")
+t("warg", "loup géant", "entity name")
 t("It is a large wolf with eyes full of cunning.", "C'est un grand loup avec des yeux pleins de ruse.", "_t")
 t("fox", "renard", "entity name")
 t("The quick brown fox jumps over the lazy dog.", "Le rapide renard brun saute par-dessus le chien paresseux.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("animal", "animal", "entity type")
 t("great wolf", "great wolf", "entity name")
@@ -6006,7 +6041,6 @@ t("Larger than a normal wolf, it prowls and snaps at you.", "Larger than a norma
 t("dire wolf", "dire wolf", "entity name")
 t("Easily as big as a horse, this wolf menaces you with its claws and fangs.", "Easily as big as a horse, this wolf menaces you with its claws and fangs.", "_t")
 t("A large and muscled wolf from the northern wastes. Its breath is cold and icy, and its fur coated in frost.", "A large and muscled wolf from the northern wastes. Its breath is cold and icy, and its fur coated in frost.", "_t")
-t("warg", "warg", "entity name")
 t("Rungof the Warg Titan", "Rungof the Warg Titan", "entity name")
 t("It is a large wolf with eyes full of cunning, thrice the size of a normal warg.", "It is a large wolf with eyes full of cunning, thrice the size of a normal warg.", "_t")
 --]==]
@@ -6016,7 +6050,7 @@ t("It is a large wolf with eyes full of cunning, thrice the size of a normal war
 section "mod-tome/data/general/npcs/cold-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("cold", "cold", "entity subtype")
@@ -6033,7 +6067,7 @@ t("An old and powerful cold drake, armed with deadly breath and nasty claws.", "
 section "mod-tome/data/general/npcs/construct.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("construct", "construct", "entity type")
 t("golem", "golem", "entity subtype")
@@ -6049,7 +6083,7 @@ t("alchemist golem", "alchemist golem", "entity name")
 section "mod-tome/data/general/npcs/crystal.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("immovable", "immovable", "entity type")
 t("crystal", "crystal", "entity subtype")
@@ -6079,7 +6113,7 @@ t("A formation of shimmering crystal. Orbs of light circle around it.", "A forma
 section "mod-tome/data/general/npcs/elven-caster.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
 t("elven mage", "elven mage", "entity name")
@@ -6099,7 +6133,7 @@ t("An elven corruptor, drawn to these blighted lands.", "An elven corruptor, dra
 section "mod-tome/data/general/npcs/elven-warrior.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
 t("elven guard", "elven guard", "entity name")
@@ -6116,7 +6150,7 @@ t("elven elite warrior", "elven elite warrior", "entity name")
 section "mod-tome/data/general/npcs/faeros.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
 t("fire", "fire", "entity subtype")
@@ -6131,7 +6165,7 @@ t("ultimate faeros", "ultimate faeros", "entity name")
 section "mod-tome/data/general/npcs/feline.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("animal", "animal", "entity type")
 t("feline", "feline", "entity subtype")
@@ -6150,7 +6184,7 @@ t("This cat is simply enormous, and has fangs with the size and sharpness of sho
 section "mod-tome/data/general/npcs/fire-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("fire", "fire", "entity subtype")
@@ -6167,7 +6201,7 @@ t("An old and powerful fire drake, armed with deadly breath and nasty claws.", "
 section "mod-tome/data/general/npcs/ghost.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("ghost", "ghost", "entity subtype")
 t("dread", "dread", "entity name")
@@ -6185,7 +6219,7 @@ t("A vengeful, screaming soul given form with the breath of Urh'Rok himself. The
 section "mod-tome/data/general/npcs/ghoul.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("ghoul", "ghoul", "entity subtype")
 t("ghoul", "ghoul", "entity name")
@@ -6203,7 +6237,7 @@ t("A body raised through dark magic.", "A body raised through dark magic.", "_t"
 section "mod-tome/data/general/npcs/gwelgoroth.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
 t("air", "air", "entity subtype")
@@ -6218,7 +6252,7 @@ t("ultimate gwelgoroth", "ultimate gwelgoroth", "entity name")
 section "mod-tome/data/general/npcs/horror-corrupted.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("horror", "horror", "entity type")
 t("corrupted", "corrupted", "entity subtype")
@@ -6241,7 +6275,7 @@ t("A large sluglike creature with the face of a man.  Shadows seem to be drawn t
 section "mod-tome/data/general/npcs/horror-undead.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("horror", "horror", "entity subtype")
 t("necrotic mass", "necrotic mass", "entity name")
@@ -6264,7 +6298,7 @@ t("This crimson shape drips ceaselessly, spattering the nearby ground. The dropl
 section "mod-tome/data/general/npcs/horror.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("horror", "horror", "entity type")
 t("eldritch", "eldritch", "entity subtype")
@@ -6343,7 +6377,7 @@ t("#AQUAMARINE#A rift opens and a free floating blade emerges! It looks unstable
 section "mod-tome/data/general/npcs/horror_aquatic.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("horror", "horror", "entity type")
 t("aquatic", "aquatic", "entity subtype")
@@ -6367,7 +6401,7 @@ t("This pitch black form is shrouded in darkness. All you can make out are a pai
 section "mod-tome/data/general/npcs/horror_temporal.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("horror", "horror", "entity type")
 t("temporal", "temporal", "entity subtype")
@@ -6390,7 +6424,7 @@ section "mod-tome/data/general/npcs/humanoid_random_boss.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("giant", "géant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("human", "human", "entity name")
@@ -6410,7 +6444,7 @@ t("ogre", "ogre", "entity subtype")
 section "mod-tome/data/general/npcs/jelly.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("immovable", "immovable", "entity type")
 t("jelly", "jelly", "entity subtype")
@@ -6436,7 +6470,7 @@ t("A strange black blob on the dungeon floor; through it you seem to be able to 
 section "mod-tome/data/general/npcs/lich.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("lich", "lich", "entity subtype")
 t("Only the most powerful spellcasters raised to unlife become liches. Doomed to haunt the world for an eternity, they have grown to hate all that breathes or trespasses on their domain. Unfortunately that includes you.", "Only the most powerful spellcasters raised to unlife become liches. Doomed to haunt the world for an eternity, they have grown to hate all that breathes or trespasses on their domain. Unfortunately that includes you.", "_t")
@@ -6455,7 +6489,7 @@ t("The seething, pumping, disembodied blood of a horrendously powerful necromanc
 section "mod-tome/data/general/npcs/losgoroth.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
 t("void", "void", "entity subtype")
@@ -6470,7 +6504,7 @@ t("Manaworms are losgoroth which feed on the mana of arcane users. If they ever 
 section "mod-tome/data/general/npcs/major-demon.lua"
 
 t("demon", "démon", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("major", "major", "entity subtype")
 t("dolleg", "dolleg", "entity name")
@@ -6500,7 +6534,7 @@ t("This massive form, sheathed in dark flames, stands tall above a legion of les
 section "mod-tome/data/general/npcs/minor-demon.lua"
 
 t("demon", "démon", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("minor", "minor", "entity subtype")
 t("fire imp", "fire imp", "entity name")
@@ -6520,7 +6554,7 @@ t("A small, heavily armoured demon, rushing toward you.", "A small, heavily armo
 section "mod-tome/data/general/npcs/minotaur.lua"
 
 t("giant", "géant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("minotaur", "minotaur", "entity subtype")
 t("minotaur", "minotaur", "entity name")
@@ -6534,7 +6568,7 @@ t("A belligerent minotaur with a destructive magical arsenal, and armed with a h
 section "mod-tome/data/general/npcs/molds.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("immovable", "immovable", "entity type")
 t("molds", "molds", "entity subtype")
@@ -6556,7 +6590,7 @@ t("Steeped in fungal malevolence, this mold refused to die.  How a mold becomes 
 section "mod-tome/data/general/npcs/multihued-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("multihued", "multihued", "entity subtype")
@@ -6576,7 +6610,7 @@ t("#YELLOW#%s's skin turns %s!", "#YELLOW#%s's skin turns %s!", "logSeen")
 section "mod-tome/data/general/npcs/mummy.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("mummy", "mummy", "entity subtype")
 --]==]
@@ -6586,7 +6620,7 @@ t("mummy", "mummy", "entity subtype")
 section "mod-tome/data/general/npcs/naga.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("naga", "naga", "entity subtype")
 t("naga myrmidon", "naga myrmidon", "entity name")
@@ -6602,7 +6636,7 @@ t("Such a mix of enchanting beauty and revolting horror you have never before se
 section "mod-tome/data/general/npcs/ogre.lua"
 
 t("giant", "géant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("ogre", "ogre", "entity subtype")
 t("ogre guard", "ogre guard", "entity name")
@@ -6622,7 +6656,7 @@ t("A towering ogre guard, her skin covered in runes and arcane designs.", "A tow
 section "mod-tome/data/general/npcs/ooze.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("vermin", "vermin", "entity type")
 t("oozes", "oozes", "entity subtype")
@@ -6657,7 +6691,7 @@ t("poison ooze", "poison ooze", "entity name")
 section "mod-tome/data/general/npcs/orc-gorbat.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
 t("orc summoner", "orc summoner", "entity name")
@@ -6674,7 +6708,7 @@ t("An orc clad in massive armour. Magic seems to die down all around him.", "An 
 section "mod-tome/data/general/npcs/orc-grushnak.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
 t("orc fighter", "orc fighter", "entity name")
@@ -6690,7 +6724,7 @@ t("orc elite berserker", "orc elite berserker", "entity name")
 section "mod-tome/data/general/npcs/orc-rak-shor.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
 t("orc necromancer", "orc necromancer", "entity name")
@@ -6706,7 +6740,7 @@ t("An orc dressed in putrid robes. He mumbles in a harsh tongue.", "An orc dress
 section "mod-tome/data/general/npcs/orc-vor.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
 t("orc pyromancer", "orc pyromancer", "entity name")
@@ -6722,7 +6756,7 @@ t("orc high cryomancer", "orc high cryomancer", "entity name")
 section "mod-tome/data/general/npcs/orc.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
 t("orc warrior", "orc warrior", "entity name")
@@ -6746,7 +6780,7 @@ t("A morbidly obese orc with greasy pockmarked skin and oily long black hair.  H
 section "mod-tome/data/general/npcs/plant.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("immovable", "immovable", "entity type")
 t("plants", "plants", "entity subtype")
@@ -6766,7 +6800,7 @@ t("As you approach it, you hear a high-pitched buzzing sound.", "As you approach
 section "mod-tome/data/general/npcs/ritch.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("insect", "insect", "entity type")
 t("ritch", "ritch", "entity subtype")
@@ -6782,8 +6816,8 @@ t("ritch hive mother", "ritch hive mother", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/npcs/rodent.lua"
 
-
--- untranslated text
+t("giant crystal rat", "Rat crystal géant", "entity name")
+-- texte non traduit
 --[==[
 t("vermin", "vermin", "entity type")
 t("rodent", "rodent", "entity subtype")
@@ -6793,7 +6827,6 @@ t("giant white rat", "giant white rat", "entity name")
 t("giant brown rat", "giant brown rat", "entity name")
 t("giant rabbit", "giant rabbit", "entity name")
 t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "_t")
-t("giant crystal rat", "giant crystal rat", "entity name")
 t("Instead of fur, this rat has crystals growing on its back, which provide extra protection.", "Instead of fur, this rat has crystals growing on its back, which provide extra protection.", "_t")
 t("giant grey mouse", "giant grey mouse", "entity name")
 t("giant grey rat", "giant grey rat", "entity name")
@@ -6804,7 +6837,7 @@ t("giant grey rat", "giant grey rat", "entity name")
 section "mod-tome/data/general/npcs/sandworm.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("vermin", "vermin", "entity type")
 t("sandworm", "sandworm", "entity subtype")
@@ -6830,7 +6863,7 @@ t("%s explodes in an acidic cloud.", "%s explodes in an acidic cloud.", "logSeen
 section "mod-tome/data/general/npcs/shade.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("shade", "shade", "entity subtype")
 t("Through some terrible process that remains mysterious, this creature's shadow has been torn from its body and given unlife.", "Through some terrible process that remains mysterious, this creature's shadow has been torn from its body and given unlife.", "_t")
@@ -6841,7 +6874,7 @@ t("Through some terrible process that remains mysterious, this creature's shadow
 section "mod-tome/data/general/npcs/shertul.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("horror", "horror", "entity type")
 t("sher'tul", "sher'tul", "entity subtype")
@@ -6852,7 +6885,7 @@ t("sher'tul", "sher'tul", "entity subtype")
 section "mod-tome/data/general/npcs/shivgoroth.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
 t("ice", "ice", "entity subtype")
@@ -6872,7 +6905,7 @@ t("degenerated skeleton warrior", "guerrier squelette dégénéré", "entity nam
 t("skeleton mage", "mage squelette", "entity name")
 t("skeleton warrior", "guerrier squelette", "entity name")
 t("armoured skeleton warrior", "guerrier squelette en armure", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("A haphazard collection of crumbling bones, with jerky movements that remind you of a child playing with a marionette.  It only has one arm, but that's all it needs to hold a sword.", "A haphazard collection of crumbling bones, with jerky movements that remind you of a child playing with a marionette.  It only has one arm, but that's all it needs to hold a sword.", "_t")
 t("degenerated skeleton archer", "degenerated skeleton archer", "entity name")
@@ -6895,7 +6928,7 @@ t("Most skeletons announce their presence with a chorus of rattling bones; this 
 section "mod-tome/data/general/npcs/snake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("animal", "animal", "entity type")
 t("snake", "snake", "entity subtype")
@@ -6919,7 +6952,7 @@ t("You recoil in fear as you notice this gigantic snake.  It seeks to crush the 
 section "mod-tome/data/general/npcs/snow-giant.lua"
 
 t("giant", "géant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("ice", "ice", "entity subtype")
 t("snow giant", "snow giant", "entity name")
@@ -6937,7 +6970,7 @@ t("A maddened, enraged snow giant that towers over his comrades. You've heard le
 section "mod-tome/data/general/npcs/spider.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("spiderkin", "spiderkin", "entity type")
 t("spider", "spider", "entity subtype")
@@ -6973,7 +7006,7 @@ t("A huge blue and white spiderkin whose form shifts and shimmers in and out of 
 section "mod-tome/data/general/npcs/storm-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("storm", "storm", "entity subtype")
@@ -6990,7 +7023,7 @@ t("An old and powerful storm drake, armed with deadly breath and nasty claws.", 
 section "mod-tome/data/general/npcs/sunwall-town.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("human guard", "human guard", "entity name")
@@ -7008,7 +7041,7 @@ t("An elf dressed in glowing robes.", "An elf dressed in glowing robes.", "_t")
 section "mod-tome/data/general/npcs/swarm.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("insect", "insect", "entity type")
 t("swarms", "swarms", "entity subtype")
@@ -7028,7 +7061,7 @@ t("A giant buzzing wasp, its stinger dripping venom.", "A giant buzzing wasp, it
 section "mod-tome/data/general/npcs/telugoroth.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Reality has shifted.", "Reality has shifted.", "logSeen")
 t("The spell fizzles!", "The spell fizzles!", "logSeen")
@@ -7051,7 +7084,7 @@ t("ultimate teluvorta", "ultimate teluvorta", "entity name")
 section "mod-tome/data/general/npcs/thieve.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("cutpurse", "cutpurse", "entity name")
@@ -7086,7 +7119,7 @@ t("This huge troll wields a massive spear and has a disturbingly intelligent loo
 t("mountain troll", "troll des montagnes", "entity name")
 t("A large and athletic troll with an extremely tough and warty hide.", "Un grand troll athlétique à la peau extrêmement dure et verruqueuse.", "_t")
 t("mountain troll thunderer", "troll-tonnerre des montagnes", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("troll", "troll", "entity subtype")
 t("patchwork troll", "patchwork troll", "entity name")
@@ -7100,7 +7133,7 @@ t("This old-looking troll glares at you with malice. His muscles appear atrophie
 section "mod-tome/data/general/npcs/undead-rat.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("rodent", "rodent", "entity subtype")
 t("skeletal rat", "skeletal rat", "entity name")
@@ -7138,7 +7171,7 @@ t("\"Squeak\" I say, yes .. \"Squeak!\"", "\"Squeak\" I say, yes .. \"Squeak!\""
 section "mod-tome/data/general/npcs/vampire.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("vampire", "vampire", "entity subtype")
 t("These ancient cursed beings often take the form of a bat and attack their prey.", "These ancient cursed beings often take the form of a bat and attack their prey.", "_t")
@@ -7161,7 +7194,7 @@ t("A foul wind chills your bones as this ghastly figure approaches.", "A foul wi
 section "mod-tome/data/general/npcs/venom-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("venom", "venom", "entity subtype")
@@ -7178,7 +7211,7 @@ t("An old and powerful corrosive venom drake, armed with deadly breath and nasty
 section "mod-tome/data/general/npcs/vermin.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("vermin", "vermin", "entity type")
 t("worms", "worms", "entity subtype")
@@ -7193,7 +7226,7 @@ t("%s exudes a corrupted gas as it dies.", "%s exudes a corrupted gas as it dies
 section "mod-tome/data/general/npcs/wight.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("wight", "wight", "entity subtype")
 t("These be white wights.", "These be white wights.", "_t")
@@ -7212,7 +7245,7 @@ t("Your life force is torn from your body as this powerful unearthly being appro
 section "mod-tome/data/general/npcs/wild-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("wild", "wild", "entity subtype")
@@ -7227,7 +7260,7 @@ t("A shifting, writhing, snake-like dragon, blinking in and out of existence, ju
 section "mod-tome/data/general/npcs/xorn.lua"
 
 t("demon", "démon", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
 t("xorn", "xorn", "entity subtype")
@@ -7251,7 +7284,7 @@ t("A gigantic demon composed of elemental Earth, resembling a twisted Xaren but 
 section "mod-tome/data/general/npcs/yaech.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("yaech", "yaech", "entity subtype")
 t("yaech diver", "yaech diver", "entity name")
@@ -7266,7 +7299,7 @@ t("yaech psion", "yaech psion", "entity name")
 section "mod-tome/data/general/npcs/ziguranth.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("and burned on a pyre", "and burned on a pyre", "_t")
@@ -7284,7 +7317,7 @@ t("ziguranth wyrmic", "ziguranth wyrmic", "entity name")
 section "mod-tome/data/general/objects/2haxes.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("battleaxe", "battleaxe", "entity subtype")
@@ -7307,7 +7340,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/2hmaces.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("greatmaul", "greatmaul", "entity subtype")
@@ -7330,7 +7363,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/2hswords.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("greatsword", "greatsword", "entity subtype")
@@ -7353,7 +7386,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/2htridents.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("trident", "trident", "entity subtype")
@@ -7378,7 +7411,7 @@ t("orichalcum", "orichalcum", "entity short_name")
 section "mod-tome/data/general/objects/axes.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("waraxe", "waraxe", "entity subtype")
@@ -7401,7 +7434,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/boss-artifacts-far-east.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Life Drinker", "Life Drinker", "entity name")
 t("blood coated dagger", "blood coated dagger", "_t")
@@ -7464,7 +7497,7 @@ t("ethereal ring", "ethereal ring", "_t")
 section "mod-tome/data/general/objects/boss-artifacts-maj-eyal.lua"
 
 t("None", "Aucune", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Wintertide", "Wintertide", "entity name")
 t("glittering longsword", "glittering longsword", "_t")
@@ -7653,7 +7686,7 @@ t("This ethereal eye stares eternally, as if seeing things that do not truly exi
 section "mod-tome/data/general/objects/boss-artifacts.lua"
 
 t("misc", "divers", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("fang", "fang", "entity subtype")
 t("Rungof's Fang", "Rungof's Fang", "entity name")
@@ -7684,7 +7717,7 @@ t("#DARK_GREEN#You feel like Nature's Wrath incarnate!", "#DARK_GREEN#You feel l
 section "mod-tome/data/general/objects/bows.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("longbow", "longbow", "entity subtype")
@@ -7715,7 +7748,7 @@ t("quiver of dragonbone arrows", "quiver of dragonbone arrows", "entity name")
 section "mod-tome/data/general/objects/brotherhood-artifacts.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("potion", "potion", "entity type")
 t("potion", "potion", "entity subtype")
@@ -7798,7 +7831,7 @@ t("#00FF00#You feel indestructible!", "#00FF00#You feel indestructible!", "logPl
 section "mod-tome/data/general/objects/cloak.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("cloak", "cloak", "entity subtype")
@@ -7816,7 +7849,7 @@ t("e.silk", "e.silk", "entity short_name")
 section "mod-tome/data/general/objects/cloth-armors.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("cloth", "cloth", "entity subtype")
@@ -7838,7 +7871,7 @@ t("e.silk", "e.silk", "entity short_name")
 section "mod-tome/data/general/objects/digger.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("tool", "tool", "entity type")
 t("digger", "digger", "entity subtype")
@@ -7856,7 +7889,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/egos/ammo.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("barbed ", "barbed ", "entity name")
 t("barbed", "barbed", "entity keyword")
@@ -7952,7 +7985,7 @@ t("#LIGHT_GREEN#20%#LAST# chance to stun, blind, pin, confuse, or silence the ta
 section "mod-tome/data/general/objects/egos/amulets.lua"
 
 t("mastery", "maîtrisé", "entity keyword")
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of cunning (#STATBONUS#)", " of cunning (#STATBONUS#)", "entity name")
 t("cunning", "cunning", "entity keyword")
@@ -8024,7 +8057,7 @@ t("perfection", "perfection", "entity keyword")
 section "mod-tome/data/general/objects/egos/armor.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of fire resistance", " of fire resistance", "entity name")
 t("fire res", "fire res", "entity keyword")
@@ -8075,7 +8108,7 @@ t("natural_resilience", "natural_resilience", "entity keyword")
 section "mod-tome/data/general/objects/egos/belt.lua"
 
 t("giant", "géant", "entity keyword")
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of carrying", " of carrying", "entity name")
 t("carrying", "carrying", "entity keyword")
@@ -8139,7 +8172,7 @@ t("noble", "noble", "entity keyword")
 section "mod-tome/data/general/objects/egos/boots.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of tirelessness", " of tirelessness", "entity name")
 t("tireless", "tireless", "entity keyword")
@@ -8204,7 +8237,7 @@ t("strife", "strife", "entity keyword")
 section "mod-tome/data/general/objects/egos/bow.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of dexterity (#STATBONUS#)", " of dexterity (#STATBONUS#)", "entity name")
 t("dex", "dex", "entity keyword")
@@ -8217,7 +8250,7 @@ t("keepers", "keepers", "entity keyword")
 section "mod-tome/data/general/objects/egos/charged-attack.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("charged(#USE_TALENT#) ", "charged(#USE_TALENT#) ", "entity name")
 --]==]
@@ -8227,7 +8260,7 @@ t("charged(#USE_TALENT#) ", "charged(#USE_TALENT#) ", "entity name")
 section "mod-tome/data/general/objects/egos/charged-defensive.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("charged(#USE_TALENT#) ", "charged(#USE_TALENT#) ", "entity name")
 --]==]
@@ -8237,7 +8270,7 @@ t("charged(#USE_TALENT#) ", "charged(#USE_TALENT#) ", "entity name")
 section "mod-tome/data/general/objects/egos/charged-utility.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("charged(#USE_TALENT#) ", "charged(#USE_TALENT#) ", "entity name")
 --]==]
@@ -8247,7 +8280,7 @@ t("charged(#USE_TALENT#) ", "charged(#USE_TALENT#) ", "entity name")
 section "mod-tome/data/general/objects/egos/charms.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("quick ", "quick ", "entity name")
 t("quick", "quick", "entity keyword")
@@ -8286,7 +8319,7 @@ t("reduce fatigue by %d%% for 2 turns", "reduce fatigue by %d%% for 2 turns", "t
 section "mod-tome/data/general/objects/egos/cloak.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("thick ", "thick ", "entity name")
 t("thick", "thick", "entity keyword")
@@ -8347,7 +8380,7 @@ t("backstab", "backstab", "entity keyword")
 section "mod-tome/data/general/objects/egos/digger.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of delving", " of delving", "entity name")
 t("delving", "delving", "entity keyword")
@@ -8392,7 +8425,7 @@ t("wreckage", "wreckage", "entity keyword")
 section "mod-tome/data/general/objects/egos/gloves.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("cinder ", "cinder ", "entity name")
 t("cinder", "cinder", "entity keyword")
@@ -8467,7 +8500,7 @@ t("archer", "archer", "entity keyword")
 section "mod-tome/data/general/objects/egos/heavy-armor.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("impenetrable ", "impenetrable ", "entity name")
 t("impenetrable", "impenetrable", "entity keyword")
@@ -8486,7 +8519,7 @@ t("fortif.", "fortif.", "entity keyword")
 section "mod-tome/data/general/objects/egos/helm.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of strength (#STATBONUS#)", " of strength (#STATBONUS#)", "entity name")
 t("strength", "strength", "entity keyword")
@@ -8555,7 +8588,7 @@ t("bounder", "bounder", "entity keyword")
 section "mod-tome/data/general/objects/egos/infusions.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of the warrior", " of the warrior", "entity name")
 t(" of the duelist", " of the duelist", "entity name")
@@ -8570,7 +8603,7 @@ t(" of the titan", " of the titan", "entity name")
 section "mod-tome/data/general/objects/egos/light-armor.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("troll-hide ", "troll-hide ", "entity name")
 t("troll", "troll", "entity keyword")
@@ -8603,7 +8636,7 @@ t("hero", "hero", "entity keyword")
 section "mod-tome/data/general/objects/egos/light-boots.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("stealthy ", "stealthy ", "entity name")
 t("stealth", "stealth", "entity keyword")
@@ -8614,7 +8647,7 @@ t("stealth", "stealth", "entity keyword")
 section "mod-tome/data/general/objects/egos/lite.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("bright ", "bright ", "entity name")
 t("bright", "bright", "entity keyword")
@@ -8659,7 +8692,7 @@ t("watchleader", "watchleader", "entity keyword")
 section "mod-tome/data/general/objects/egos/massive-armor.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of the dragon", " of the dragon", "entity name")
 t("dragon", "dragon", "entity keyword")
@@ -8680,7 +8713,7 @@ t("fortif.", "fortif.", "entity keyword")
 section "mod-tome/data/general/objects/egos/mindstars.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("blooming ", "blooming ", "entity name")
 t("blooming", "blooming", "entity keyword")
@@ -8770,7 +8803,7 @@ t("nightfall", "nightfall", "entity keyword")
 section "mod-tome/data/general/objects/egos/potions.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("acid-proof ", "acid-proof ", "entity name")
 t("giant ", "giant ", "entity name")
@@ -8781,7 +8814,7 @@ t("giant ", "giant ", "entity name")
 section "mod-tome/data/general/objects/egos/ranged.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("mighty ", "mighty ", "entity name")
 t("mighty", "mighty", "entity keyword")
@@ -8839,7 +8872,7 @@ t("silences the target", "silences the target", "_t")
 section "mod-tome/data/general/objects/egos/rings.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of sensing", " of sensing", "entity name")
 t("sensing", "sensing", "entity keyword")
@@ -8928,7 +8961,7 @@ t("luminosity", "luminosity", "entity keyword")
 section "mod-tome/data/general/objects/egos/robe.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of fire (#RESIST#)", " of fire (#RESIST#)", "entity name")
 t("fire", "fire", "entity keyword")
@@ -9003,7 +9036,7 @@ t("psion", "psion", "entity keyword")
 section "mod-tome/data/general/objects/egos/scrolls.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("fire-proof ", "fire-proof ", "entity name")
 t("long ", "long ", "entity name")
@@ -9016,7 +9049,7 @@ section "mod-tome/data/general/objects/egos/shield.lua"
 t("physical", "physique", "entity keyword")
 t("crackling", "crépitant", "entity keyword")
 t("living", "vivant", "entity keyword")
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of fire resistance (#RESIST#)", " of fire resistance (#RESIST#)", "entity name")
 t("fire", "fire", "entity keyword")
@@ -9096,11 +9129,10 @@ t("Deal physical damage equal to your armor (%d)", "Deal physical damage equal t
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/sling.lua"
 
-
--- untranslated text
+t("cun", "rus", "entity keyword")
+-- texte non traduit
 --[==[
 t(" of cunning (#STATBONUS#)", " of cunning (#STATBONUS#)", "entity name")
-t("cun", "cun", "entity keyword")
 t("halfling ", "halfling ", "entity name")
 t("halfling", "halfling", "entity keyword")
 --]==]
@@ -9110,7 +9142,7 @@ t("halfling", "halfling", "entity keyword")
 section "mod-tome/data/general/objects/egos/staves.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("cruel ", "cruel ", "entity name")
 t("cruel", "cruel", "entity keyword")
@@ -9182,7 +9214,12 @@ t("imbued", "imbued", "entity keyword")
 section "mod-tome/data/general/objects/egos/torques-powers.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t("project a gust of wind in a cone knocking all creatures back %d spaces and dealing %d physical damage", "project a gust of wind in a cone knocking all creatures back %d spaces and dealing %d physical damage", "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t(" of psionic shield", " of psionic shield", "entity name")
 t("psionic shield", "psionic shield", "entity keyword")
@@ -9193,7 +9230,6 @@ t("clearmind", "clearmind", "entity keyword")
 t("remove 1 confusion or silence effect and prevent the application of %d detrimental mental effects for 5 turns", "remove 1 confusion or silence effect and prevent the application of %d detrimental mental effects for 5 turns", "_t")
 t(" of gale force", " of gale force", "entity name")
 t("galeforce", "galeforce", "entity keyword")
-t("project a gust of wind in a cone knocking enemies back %d spaces and dealing %d physical damage", "project a gust of wind in a cone knocking enemies back %d spaces and dealing %d physical damage", "tformat")
 t("%s uses %s %s!", "%s uses %s %s!", "logSeen")
 t(" of mindblast", " of mindblast", "entity name")
 t("mindblast", "mindblast", "entity keyword")
@@ -9206,7 +9242,7 @@ t("%s activates %s %s!", "%s activates %s %s!", "logSeen")
 section "mod-tome/data/general/objects/egos/totems-powers.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of healing", " of healing", "entity name")
 t("healing", "healing", "entity keyword")
@@ -9248,7 +9284,7 @@ t("Summon", "Summon", "_t")
 section "mod-tome/data/general/objects/egos/wands-powers.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of clairvoyance", " of clairvoyance", "entity name")
 t("clairvoyance", "clairvoyance", "entity keyword")
@@ -9272,7 +9308,7 @@ t("create a shield absorbing up to %d damage on yourself and all friendly charac
 section "mod-tome/data/general/objects/egos/wands.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("warded ", "warded ", "entity name")
 t("ward", "ward", "entity keyword")
@@ -9283,7 +9319,7 @@ t("ward", "ward", "entity keyword")
 section "mod-tome/data/general/objects/egos/weapon.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("balanced ", "balanced ", "entity name")
 t("balanced", "balanced", "entity keyword")
@@ -9386,7 +9422,7 @@ t("#LIGHT_GREEN#20%#LAST# chance to stun, blind, pin, confuse, or silence the ta
 section "mod-tome/data/general/objects/egos/wizard-hat.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t(" of balance", " of balance", "entity name")
 t("balance", "balance", "entity keyword")
@@ -9461,7 +9497,7 @@ t("spellwoven", "spellwoven", "entity keyword")
 section "mod-tome/data/general/objects/elixir-ingredients.lua"
 
 t("misc", "divers", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("ingredient", "ingredient", "entity subtype")
 t("length of troll intestine", "length of troll intestine", "entity name")
@@ -9576,7 +9612,7 @@ t("Weightless and glowing; not your usual dust.", "Weightless and glowing; not y
 section "mod-tome/data/general/objects/gauntlets.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("hands", "hands", "entity subtype")
@@ -9594,7 +9630,61 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/gem.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t("diamond", "diamond", "entity name")
+t("alchemist diamond", "alchemist diamond", "entity name")
+t("pearl", "pearl", "entity name")
+t("alchemist pearl", "alchemist pearl", "entity name")
+t("alchemist moonstone", "alchemist moonstone", "entity name")
+t("fire opal", "fire opal", "entity name")
+t("alchemist fire opal", "alchemist fire opal", "entity name")
+t("bloodstone", "bloodstone", "entity name")
+t("alchemist bloodstone", "alchemist bloodstone", "entity name")
+t("ruby", "ruby", "entity name")
+t("alchemist ruby", "alchemist ruby", "entity name")
+t("amber", "amber", "entity name")
+t("alchemist amber", "alchemist amber", "entity name")
+t("yellow", "yellow", "entity subtype")
+t("turquoise", "turquoise", "entity name")
+t("alchemist turquoise", "alchemist turquoise", "entity name")
+t("jade", "jade", "entity name")
+t("alchemist jade", "alchemist jade", "entity name")
+t("sapphire", "sapphire", "entity name")
+t("alchemist sapphire", "alchemist sapphire", "entity name")
+t("quartz", "quartz", "entity name")
+t("alchemist quartz", "alchemist quartz", "entity name")
+t("emerald", "emerald", "entity name")
+t("alchemist emerald", "alchemist emerald", "entity name")
+t("lapis lazuli", "lapis lazuli", "entity name")
+t("alchemist lapis lazuli", "alchemist lapis lazuli", "entity name")
+t("garnet", "garnet", "entity name")
+t("alchemist garnet", "alchemist garnet", "entity name")
+t("onyx", "onyx", "entity name")
+t("alchemist onyx", "alchemist onyx", "entity name")
+t("black", "black", "entity subtype")
+t("amethyst", "amethyst", "entity name")
+t("alchemist amethyst", "alchemist amethyst", "entity name")
+t("violet", "violet", "entity subtype")
+t("opal", "opal", "entity name")
+t("alchemist opal", "alchemist opal", "entity name")
+t("topaz", "topaz", "entity name")
+t("alchemist topaz", "alchemist topaz", "entity name")
+t("aquamarine", "aquamarine", "entity name")
+t("alchemist aquamarine", "alchemist aquamarine", "entity name")
+t("ametrine", "ametrine", "entity name")
+t("alchemist ametrine", "alchemist ametrine", "entity name")
+t("zircon", "zircon", "entity name")
+t("alchemist zircon", "alchemist zircon", "entity name")
+t("spinel", "spinel", "entity name")
+t("alchemist spinel", "alchemist spinel", "entity name")
+t("citrine", "citrine", "entity name")
+t("alchemist citrine", "alchemist citrine", "entity name")
+t("agate", "agate", "entity name")
+t("alchemist agate", "alchemist agate", "entity name")
+--]==]
+
+-- texte non traduit
 --[==[
 t("gem", "gem", "entity type")
 t("white", "white", "entity subtype")
@@ -9602,64 +9692,13 @@ t("Gems can be sold for money or used in arcane rituals.", "Gems can be sold for
 t("color", "color", "entity subtype")
 t("..", "..", "entity name")
 t("alchemist-gem", "alchemist-gem", "entity type")
-t("diamond", "diamond", "gem name")
-t("alchemist diamond", "alchemist diamond", "alchemist gem")
-t("white", "white", "gem subtype")
-t("pearl", "pearl", "gem name")
-t("alchemist pearl", "alchemist pearl", "alchemist gem")
 t("Lights terrain (power 100)", "Lights terrain (power 100)", "_t")
-t("moonstone", "moonstone", "gem name")
-t("alchemist moonstone", "alchemist moonstone", "alchemist gem")
-t("fire opal", "fire opal", "gem name")
-t("alchemist fire opal", "alchemist fire opal", "alchemist gem")
-t("red", "red", "gem subtype")
-t("bloodstone", "bloodstone", "gem name")
-t("alchemist bloodstone", "alchemist bloodstone", "alchemist gem")
-t("ruby", "ruby", "gem name")
-t("alchemist ruby", "alchemist ruby", "alchemist gem")
-t("amber", "amber", "gem name")
-t("alchemist amber", "alchemist amber", "alchemist gem")
-t("yellow", "yellow", "gem subtype")
-t("turquoise", "turquoise", "gem name")
-t("alchemist turquoise", "alchemist turquoise", "alchemist gem")
-t("green", "green", "gem subtype")
-t("jade", "jade", "gem name")
-t("alchemist jade", "alchemist jade", "alchemist gem")
+t("moonstone", "moonstone", "entity name")
+t("red", "red", "entity subtype")
+t("green", "green", "entity subtype")
 t("Slows by 17%", "Slows by 17%", "_t")
-t("sapphire", "sapphire", "gem name")
-t("alchemist sapphire", "alchemist sapphire", "alchemist gem")
-t("blue", "blue", "gem subtype")
-t("quartz", "quartz", "gem name")
-t("alchemist quartz", "alchemist quartz", "alchemist gem")
-t("emerald", "emerald", "gem name")
-t("alchemist emerald", "alchemist emerald", "alchemist gem")
-t("lapis lazuli", "lapis lazuli", "gem name")
-t("alchemist lapis lazuli", "alchemist lapis lazuli", "alchemist gem")
-t("garnet", "garnet", "gem name")
-t("alchemist garnet", "alchemist garnet", "alchemist gem")
-t("onyx", "onyx", "gem name")
-t("alchemist onyx", "alchemist onyx", "alchemist gem")
-t("black", "black", "gem subtype")
-t("amethyst", "amethyst", "gem name")
-t("alchemist amethyst", "alchemist amethyst", "alchemist gem")
-t("violet", "violet", "gem subtype")
-t("opal", "opal", "gem name")
-t("alchemist opal", "alchemist opal", "alchemist gem")
-t("topaz", "topaz", "gem name")
-t("alchemist topaz", "alchemist topaz", "alchemist gem")
-t("aquamarine", "aquamarine", "gem name")
-t("alchemist aquamarine", "alchemist aquamarine", "alchemist gem")
-t("ametrine", "ametrine", "gem name")
-t("alchemist ametrine", "alchemist ametrine", "alchemist gem")
+t("blue", "blue", "entity subtype")
 t("Lights terrain (power 10)", "Lights terrain (power 10)", "_t")
-t("zircon", "zircon", "gem name")
-t("alchemist zircon", "alchemist zircon", "alchemist gem")
-t("spinel", "spinel", "gem name")
-t("alchemist spinel", "alchemist spinel", "alchemist gem")
-t("citrine", "citrine", "gem name")
-t("alchemist citrine", "alchemist citrine", "alchemist gem")
-t("agate", "agate", "gem name")
-t("alchemist agate", "alchemist agate", "alchemist gem")
 --]==]
 
 
@@ -9667,7 +9706,7 @@ t("alchemist agate", "alchemist agate", "alchemist gem")
 section "mod-tome/data/general/objects/gloves.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("hands", "hands", "entity subtype")
@@ -9685,7 +9724,7 @@ t("drakeskin", "drakeskin", "entity short_name")
 section "mod-tome/data/general/objects/heavy-armors.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("heavy", "heavy", "entity subtype")
@@ -9707,7 +9746,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/heavy-boots.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("feet", "feet", "entity subtype")
@@ -9725,7 +9764,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/helms.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("head", "head", "entity subtype")
@@ -9743,7 +9782,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/jewelry.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("jewelry", "jewelry", "entity type")
 t("ring", "ring", "entity subtype")
@@ -9782,7 +9821,7 @@ t("voratun amulet", "voratun amulet", "_t")
 section "mod-tome/data/general/objects/knifes.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("dagger", "dagger", "entity subtype")
@@ -9805,7 +9844,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/leather-belt.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("belt", "belt", "entity subtype")
@@ -9823,7 +9862,7 @@ t("drakeskin", "drakeskin", "entity short_name")
 section "mod-tome/data/general/objects/leather-boots.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("feet", "feet", "entity subtype")
@@ -9841,7 +9880,7 @@ t("drakeskin", "drakeskin", "entity short_name")
 section "mod-tome/data/general/objects/leather-caps.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("head", "head", "entity subtype")
@@ -9859,7 +9898,7 @@ t("drakeskin", "drakeskin", "entity short_name")
 section "mod-tome/data/general/objects/light-armors.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("light", "light", "entity subtype")
@@ -9881,7 +9920,7 @@ t("drakeskin", "drakeskin", "entity short_name")
 section "mod-tome/data/general/objects/lites.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("lite", "lite", "entity type")
 t("lite", "lite", "entity subtype")
@@ -9902,7 +9941,7 @@ t("Made by the Dwarves, this lantern provides light in the darkest recesses of t
 section "mod-tome/data/general/objects/lore/fun.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("trollish poem", "trollish poem", "entity name")
 t("A poem written by a... troll?", "A poem written by a... troll?", "_t")
@@ -9927,7 +9966,7 @@ t("Notes about... Halfling feet??", "Notes about... Halfling feet??", "_t")
 section "mod-tome/data/general/objects/lore/maj-eyal.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("analysis", "analysis", "entity subtype")
 --]==]
@@ -9937,7 +9976,7 @@ t("analysis", "analysis", "entity subtype")
 section "mod-tome/data/general/objects/lore/misc.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The story of my salvation", "The story of my salvation", "entity name")
 t("An old tale about the fear of magic.", "An old tale about the fear of magic.", "_t")
@@ -9958,7 +9997,7 @@ t("The creation of Eyal's moons.", "The creation of Eyal's moons.", "_t")
 section "mod-tome/data/general/objects/lore/spellhunt.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("memories of archmage Varil", "memories of archmage Varil", "entity name")
 t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "_t")
@@ -9973,7 +10012,7 @@ t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Spellhunter's Guide p
 section "mod-tome/data/general/objects/lore/sunwall.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Loremaster Verutir's note", "Loremaster Verutir's note", "entity name")
 t("A paper scrap containing some lore.", "A paper scrap containing some lore.", "_t")
@@ -9984,7 +10023,7 @@ t("A paper scrap containing some lore.", "A paper scrap containing some lore.", 
 section "mod-tome/data/general/objects/maces.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("mace", "mace", "entity subtype")
@@ -10007,7 +10046,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/massive-armors.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("massive", "massive", "entity subtype")
@@ -10029,7 +10068,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/mindstars.lua"
 
 t("living", "vivant", "entity short_name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("mindstar", "mindstar", "entity subtype")
@@ -10053,7 +10092,7 @@ t("living mindstar", "living mindstar", "entity name")
 section "mod-tome/data/general/objects/misc-tools.lua"
 
 t("misc", "divers", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("tool", "tool", "entity type")
 t("A miscellaneous tool.", "A miscellaneous tool.", "_t")
@@ -10064,7 +10103,7 @@ t("A miscellaneous tool.", "A miscellaneous tool.", "_t")
 section "mod-tome/data/general/objects/money.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("money", "money", "entity type")
 t("money", "money", "entity subtype")
@@ -10079,7 +10118,7 @@ t("huge pile of gold pieces", "huge pile of gold pieces", "entity name")
 section "mod-tome/data/general/objects/mounts.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("mount", "mount", "entity type")
 t("A mount.", "A mount.", "_t")
@@ -10092,7 +10131,7 @@ t("alchemist golem mount", "alchemist golem mount", "entity name")
 section "mod-tome/data/general/objects/mummy-wrappings.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("mummy", "mummy", "entity subtype")
@@ -10106,7 +10145,7 @@ t("mummy", "mummy", "entity short_name")
 section "mod-tome/data/general/objects/objects-far-east.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("tome", "tome", "entity subtype")
 t("Ancient Tome titled 'Gems and their uses'", "Ancient Tome titled 'Gems and their uses'", "entity name")
@@ -10118,7 +10157,7 @@ t("ancient tome", "ancient tome", "_t")
 section "mod-tome/data/general/objects/potions.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("potion", "potion", "entity type")
 t("potion", "potion", "entity subtype")
@@ -10133,7 +10172,7 @@ section "mod-tome/data/general/objects/quest-artifacts.lua"
 t("Cancel", "Annuler", "_t")
 t("Transmogrification Chest", "Coffre de Transmogrification", "entity name")
 t("Transmogrification Chest", "Coffre de Transmogrification", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("staff", "staff", "entity subtype")
@@ -10230,7 +10269,7 @@ t([[Revealing, green, fun.
 section "mod-tome/data/general/objects/random-artifacts/ammo.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("ammo reload", "ammo reload", "entity name")
 t("travel speed", "travel speed", "entity name")
@@ -10241,7 +10280,7 @@ t("travel speed", "travel speed", "entity name")
 section "mod-tome/data/general/objects/random-artifacts/generic.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("generic spellpower", "generic spellpower", "entity name")
 t("generic spellcrit", "generic spellcrit", "entity name")
@@ -10361,7 +10400,7 @@ t("generic void", "generic void", "entity name")
 section "mod-tome/data/general/objects/random-artifacts/gloves.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("damage", "damage", "entity name")
 t("apr", "apr", "entity name")
@@ -10419,7 +10458,7 @@ t("temporal burst (crit)", "temporal burst (crit)", "entity name")
 section "mod-tome/data/general/objects/random-artifacts/melee.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("damage", "damage", "entity name")
 t("apr", "apr", "entity name")
@@ -10475,7 +10514,7 @@ t("temporal burst (crit)", "temporal burst (crit)", "entity name")
 section "mod-tome/data/general/objects/random-artifacts/ranged.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("ammo reload", "ammo reload", "entity name")
 t("travel speed", "travel speed", "entity name")
@@ -10486,7 +10525,7 @@ t("travel speed", "travel speed", "entity name")
 section "mod-tome/data/general/objects/random-artifacts/shields.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("shield block", "shield block", "entity name")
 t("shield armor", "shield armor", "entity name")
@@ -10498,7 +10537,7 @@ t("shield increased life", "shield increased life", "entity name")
 section "mod-tome/data/general/objects/random-artifacts/staves.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("stave increased positive/negative energy", "stave increased positive/negative energy", "entity name")
 t("stave paradox reduce anomalies", "stave paradox reduce anomalies", "entity name")
@@ -10534,7 +10573,7 @@ t("stave resists pen temporal", "stave resists pen temporal", "entity name")
 section "mod-tome/data/general/objects/random-artifacts.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("spellpower", "spellpower", "entity name")
 t("spellcrit", "spellcrit", "entity name")
@@ -10623,7 +10662,7 @@ t("demon telepathy", "demon telepathy", "entity name")
 section "mod-tome/data/general/objects/rods.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("charm", "charm", "entity type")
 t("rod", "rod", "entity subtype")
@@ -10636,7 +10675,7 @@ t("", "", "_t")
 section "mod-tome/data/general/objects/scrolls.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("scroll", "scroll", "entity type")
 t("scroll", "scroll", "entity subtype")
@@ -10687,7 +10726,7 @@ t("insidious poison infusion", "insidious poison infusion", "entity name")
 section "mod-tome/data/general/objects/shields.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("shield", "shield", "entity subtype")
@@ -10709,7 +10748,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/slings.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("sling", "sling", "entity subtype")
@@ -10745,7 +10784,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/special-artifacts.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Telos Spire of Power", "Telos Spire of Power", "entity name")
 t("pulsing staff", "pulsing staff", "_t")
@@ -10759,7 +10798,7 @@ t("%s brandishes %s %s, turning into a corrupted losgoroth!", "%s brandishes %s 
 section "mod-tome/data/general/objects/staves.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("staff", "staff", "entity subtype")
@@ -10782,7 +10821,7 @@ t("dragonbone", "dragonbone", "entity short_name")
 section "mod-tome/data/general/objects/swords.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("longsword", "longsword", "entity subtype")
@@ -10805,7 +10844,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/torques.lua"
 
 t("voratun torque", "torque en voratun", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("charm", "charm", "entity type")
 t("torque", "torque", "entity subtype")
@@ -10827,7 +10866,7 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/totems.lua"
 
 t("dragonbone totem", "totem en os de dragon", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("charm", "charm", "entity type")
 t("totem", "totem", "entity subtype")
@@ -10849,7 +10888,7 @@ t("dragonbone", "dragonbone", "entity short_name")
 section "mod-tome/data/general/objects/wands.lua"
 
 t("dragonbone wand", "baguette en os de dragon", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("charm", "charm", "entity type")
 t("wand", "wand", "entity subtype")
@@ -10871,7 +10910,7 @@ t("dragonbone", "dragonbone", "entity short_name")
 section "mod-tome/data/general/objects/whips.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
 t("whip", "whip", "entity subtype")
@@ -10884,7 +10923,7 @@ t("Sharp, long and deadly.", "Sharp, long and deadly.", "_t")
 section "mod-tome/data/general/objects/wizard-hat.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("head", "head", "entity subtype")
@@ -10902,7 +10941,7 @@ t("e.silk", "e.silk", "entity short_name")
 section "mod-tome/data/general/objects/world-artifacts-far-east.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("tome", "tome", "entity subtype")
 t("Scroll of Summoning (Limmir the Jeweler)", "Scroll of Summoning (Limmir the Jeweler)", "entity name")
@@ -10968,7 +11007,7 @@ t("A plain looking ceremonial rod. It has connections with Time that even chrono
 section "mod-tome/data/general/objects/world-artifacts-maj-eyal.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Penitence", "Penitence", "entity name")
 t("glowing staff", "glowing staff", "_t")
@@ -11125,7 +11164,12 @@ t("misc", "divers", "entity type")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("None", "Aucune", "_t")
 t("something", "quelque chose", "_t")
--- untranslated text
+-- nouveau texte
+--[==[
+t("#GOLD#As the helm of Kroltar approaches the scale armour, they begin to fume and emit fire.", "#GOLD#As the helm of Kroltar approaches the scale armour, they begin to fume and emit fire.", "logPlayer")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Windborne Azurite", "Windborne Azurite", "entity name")
 t("blue", "blue", "entity subtype")
@@ -11262,7 +11306,6 @@ t("Dragon-helm of Kroltar", "Dragon-helm of Kroltar", "entity name")
 t("dragon-helm", "dragon-helm", "_t")
 t("A visored steel helm, embossed and embellished with gold, that bears as its crest the head of Kroltar, the greatest of the fire drakes.", "A visored steel helm, embossed and embellished with gold, that bears as its crest the head of Kroltar, the greatest of the fire drakes.", "_t")
 t("Kroltar's power resides in his scales.", "Kroltar's power resides in his scales.", "_t")
-t("#GOLD#As the helm of Kroltar approaches the your scale armour, they begin to fume and emit fire.", "#GOLD#As the helm of Kroltar approaches the your scale armour, they begin to fume and emit fire.", "logPlayer")
 t("#GOLD#The fumes and fire fade away.", "#GOLD#The fumes and fire fade away.", "logPlayer")
 t("Crown of Command", "Crown of Command", "entity name")
 t("unblemished silver crown", "unblemished silver crown", "_t")
@@ -12024,7 +12067,7 @@ The charges decay at a rate of 1 per turn. Max 10 charges.]], "_t")
 section "mod-tome/data/general/stores/basic.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("heavy armour smith", "heavy armour smith", "entity name")
 t("tanner", "tanner", "entity name")
@@ -12057,12 +12100,11 @@ t("staves", "staves", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/traps/alarm.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("annoy", "annoy", "entity type")
 t("alarm", "alarm", "entity subtype")
-t("trap", "trap", "_t")
 t("intruder alarm", "intruder alarm", "entity name")
 t("@Target@ triggers an alarm!", "@Target@ triggers an alarm!", "_t")
 t("pressure plate", "pressure plate", "_t")
@@ -12078,12 +12120,11 @@ t("%s appears out of the thin air!", "%s appears out of the thin air!", "logSeen
 ------------------------------------------------
 section "mod-tome/data/general/traps/annoy.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("annoy", "annoy", "entity type")
 t("annoy", "annoy", "entity subtype")
-t("trap", "trap", "_t")
 t("lethargy trap", "lethargy trap", "entity name")
 t("@Target@ seems less active.", "@Target@ seems less active.", "_t")
 t("pattern of glyphs", "pattern of glyphs", "_t")
@@ -12098,11 +12139,10 @@ t("Afflicts the target with a curse: talents inflict %d fire damage and have inc
 ------------------------------------------------
 section "mod-tome/data/general/traps/complex.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("complex", "complex", "entity type")
-t("trap", "trap", "_t")
 t("boulder", "boulder", "entity subtype")
 t("giant boulder trap", "giant boulder trap", "entity name")
 t("@Target@ walks on a trap, and there is a loud noise.", "@Target@ walks on a trap, and there is a loud noise.", "_t")
@@ -12135,11 +12175,10 @@ t("Cold flames slowly spread from %d spots within radius %d, The flames deal %d 
 ------------------------------------------------
 section "mod-tome/data/general/traps/elemental.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
-t("trap", "trap", "_t")
 t("Deals %s%d#LAST# %s damage", "Deals %s%d#LAST# %s damage", "tformat")
 t("Deals %s%d#LAST# %s damage (radius %d)", "Deals %s%d#LAST# %s damage (radius %d)", "tformat")
 t("acid", "acid", "entity subtype")
@@ -12183,12 +12222,11 @@ t("All within radius %d are dealt %d fire damage, set on fire for %d more fire d
 ------------------------------------------------
 section "mod-tome/data/general/traps/natural_forest.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("natural", "natural", "entity type")
 t("forest", "forest", "entity subtype")
-t("trap", "trap", "_t")
 t("sliding rock", "sliding rock", "entity name")
 t("@Target@ slides on a rock!", "@Target@ slides on a rock!", "_t")
 t("slippery rock", "slippery rock", "_t")
@@ -12205,7 +12243,7 @@ t("A motile vine that strikes out for %s%d#LAST# %s damage.", "A motile vine tha
 section "mod-tome/data/general/traps/store.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("store", "store", "entity type")
 t("store", "store", "entity subtype")
@@ -12215,12 +12253,11 @@ t("store", "store", "entity subtype")
 ------------------------------------------------
 section "mod-tome/data/general/traps/teleport.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("annoy", "annoy", "entity type")
 t("teleport", "teleport", "entity subtype")
-t("trap", "trap", "_t")
 t("teleport trap", "teleport trap", "entity name")
 t("Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "_t")
 t("@Target@ shimmers briefly.", "@Target@ shimmers briefly.", "_t")
@@ -12234,10 +12271,10 @@ t("%s resists being teleported!", "%s resists being teleported!", "logSeen")
 section "mod-tome/data/general/traps/temporal.lua"
 
 t("water", "eau", "entity subtype")
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("temporal", "temporal", "entity type")
-t("trap", "trap", "_t")
 t("disturbed pocket of time", "disturbed pocket of time", "entity name")
 t("@Target@ is caught in a distorted pocket of time!", "@Target@ is caught in a distorted pocket of time!", "_t")
 t("faint distortion", "faint distortion", "_t")
@@ -12253,10 +12290,10 @@ t("Creates a major temporal anomaly when triggered.", "Creates a major temporal 
 section "mod-tome/data/general/traps/water.lua"
 
 t("water", "eau", "entity subtype")
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("natural", "natural", "entity type")
-t("trap", "trap", "_t")
 t("water jet", "water jet", "entity name")
 t("@Target@ triggers a water jet!", "@Target@ triggers a water jet!", "_t")
 t("a nozzle", "a nozzle", "_t")
@@ -12272,115 +12309,119 @@ t("Deals %s%d#LAST# %s damage (radius %d).", "Deals %s%d#LAST# %s damage (radius
 section "mod-tome/data/ingredients.lua"
 
 
--- untranslated text
+-- nouveau texte
 --[==[
-t("organic", "organic", "ingredient type")
-t("length of troll intestine", "length of troll intestine", "ingredient name")
+t("organic", "organic", "entity type")
+t("I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "_t")
+--]==]
+
+-- texte non traduit
+--[==[
+t("length of troll intestine", "length of troll intestine", "entity name")
 t("A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "_t")
 t("Kindly empty it before returning.", "Kindly empty it before returning.", "_t")
-t("skeleton mage skull", "skeleton mage skull", "ingredient name")
+t("skeleton mage skull", "skeleton mage skull", "entity name")
 t("The skull of a skeleton mage. The eyes have stopped glowing... for now.", "The skull of a skeleton mage. The eyes have stopped glowing... for now.", "_t")
 t("If the eyes are still glowing, please bash it around a bit until they fade. I'll not have another one of those coming alive and wreaking havoc in my lab.", "If the eyes are still glowing, please bash it around a bit until they fade. I'll not have another one of those coming alive and wreaking havoc in my lab.", "_t")
-t("ritch stinger", "ritch stinger", "ingredient name")
+t("ritch stinger", "ritch stinger", "entity name")
 t("A ritch stinger, still glistening with venom.", "A ritch stinger, still glistening with venom.", "_t")
 t("Keep as much venom in it as possible.", "Keep as much venom in it as possible.", "_t")
-t("orc heart", "orc heart", "ingredient name")
+t("orc heart", "orc heart", "entity name")
 t("The heart of an orc. Perhaps surprisingly, it isn't green.", "The heart of an orc. Perhaps surprisingly, it isn't green.", "_t")
 t("If you can fetch me a still-beating orc heart, that would be even better. But you don't look like a master necromancer to me.", "If you can fetch me a still-beating orc heart, that would be even better. But you don't look like a master necromancer to me.", "_t")
-t("naga tongue", "naga tongue", "ingredient name")
+t("naga tongue", "naga tongue", "entity name")
 t("A severed naga tongue. It reeks of brine.", "A severed naga tongue. It reeks of brine.", "_t")
 t("Best results occur with tongues never tainted by profanity, so if you happen to know any saintly nagas...", "Best results occur with tongues never tainted by profanity, so if you happen to know any saintly nagas...", "_t")
-t("vial of greater demon bile", "vial of greater demon bile", "ingredient name")
+t("vial of greater demon bile", "vial of greater demon bile", "entity name")
 t("A vial of greater demon bile. It hurts your sinuses even with the vial's stopper firmly in place.", "A vial of greater demon bile. It hurts your sinuses even with the vial's stopper firmly in place.", "_t")
 t("Don't drink it, even if it tells you to.", "Don't drink it, even if it tells you to.", "_t")
-t("pouch of bone giant dust", "pouch of bone giant dust", "ingredient name")
+t("pouch of bone giant dust", "pouch of bone giant dust", "entity name")
 t("Once the magics animating the bone giant fled, its remains crumbled to dust. It might be your imagination, but it looks like the dust occasionally stirs on its own.", "Once the magics animating the bone giant fled, its remains crumbled to dust. It might be your imagination, but it looks like the dust occasionally stirs on its own.", "_t")
 t("Never, ever to be confused with garlic powder. Trust me.", "Never, ever to be confused with garlic powder. Trust me.", "_t")
-t("ice ant stinger", "ice ant stinger", "ingredient name")
+t("ice ant stinger", "ice ant stinger", "entity name")
 t("Wickedly sharp and still freezing cold.", "Wickedly sharp and still freezing cold.", "_t")
 t("If you've the means to eliminate the little venom problem, these make miraculous instant drink-chilling straws.", "If you've the means to eliminate the little venom problem, these make miraculous instant drink-chilling straws.", "_t")
-t("minotaur nose", "minotaur nose", "ingredient name")
+t("minotaur nose", "minotaur nose", "entity name")
 t("The severed front half of a minotaur snout, ring and all.", "The severed front half of a minotaur snout, ring and all.", "_t")
 t("You'll need to find one with a ring, preferably an expensive one.", "You'll need to find one with a ring, preferably an expensive one.", "_t")
-t("vial of elder vampire blood", "vial of elder vampire blood", "ingredient name")
+t("vial of elder vampire blood", "vial of elder vampire blood", "entity name")
 t("Thick, clotted, and foul. The vial is cold to the touch.", "Thick, clotted, and foul. The vial is cold to the touch.", "_t")
 t("Once you've gotten it, cross some moving water on your way back.", "Once you've gotten it, cross some moving water on your way back.", "_t")
-t("multi-hued wyrm scale", "multi-hued wyrm scale", "ingredient name")
+t("multi-hued wyrm scale", "multi-hued wyrm scale", "entity name")
 t("Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "_t")
 t("If you think collecting one of these is hard, try liquefying one.", "If you think collecting one of these is hard, try liquefying one.", "_t")
-t("giant spider spinneret", "giant spider spinneret", "ingredient name")
+t("giant spider spinneret", "giant spider spinneret", "entity name")
 t("An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orifice.", "An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orifice.", "_t")
 t("The spiders in your barn won't do. You'll know a giant spider when you see one, though they're rare in Maj'Eyal.", "The spiders in your barn won't do. You'll know a giant spider when you see one, though they're rare in Maj'Eyal.", "_t")
-t("honey tree root", "honey tree root", "ingredient name")
+t("honey tree root", "honey tree root", "entity name")
 t("The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "_t")
 t("Keep a firm grip on it. These things will dig themselves right back into the ground if you drop them.", "Keep a firm grip on it. These things will dig themselves right back into the ground if you drop them.", "_t")
-t("bloated horror heart", "bloated horror heart", "ingredient name")
+t("bloated horror heart", "bloated horror heart", "entity name")
 t("Diseased-looking and reeking. It seems to be decaying as you watch.", "Diseased-looking and reeking. It seems to be decaying as you watch.", "_t")
 t("Don't worry if it dissolves. Just don't get any on you.", "Don't worry if it dissolves. Just don't get any on you.", "_t")
-t("electric eel tail", "electric eel tail", "ingredient name")
+t("electric eel tail", "electric eel tail", "entity name")
 t("Slimy, wriggling, and crackling with electricity.", "Slimy, wriggling, and crackling with electricity.", "_t")
 t("I know, I know. Where does the eel stop and the tail start? It doesn't much matter. The last ten inches or so should do nicely.", "I know, I know. Where does the eel stop and the tail start? It doesn't much matter. The last ten inches or so should do nicely.", "_t")
-t("vial of squid ink", "vial of squid ink", "ingredient name")
+t("vial of squid ink", "vial of squid ink", "entity name")
 t("Thick, black and opaque.", "Thick, black and opaque.", "_t")
 t("However annoying this will be for you to gather, I promise that the reek it produces in my lab will prove even more annoying.", "However annoying this will be for you to gather, I promise that the reek it produces in my lab will prove even more annoying.", "_t")
-t("bear paw", "bear paw", "ingredient name")
+t("bear paw", "bear paw", "entity name")
 t("Large and hairy with flesh-rending claws. It smells slightly of fish.", "Large and hairy with flesh-rending claws. It smells slightly of fish.", "_t")
 t("You'd think I could get one of these from a local hunter, but they've had no luck. Don't get eaten.", "You'd think I could get one of these from a local hunter, but they've had no luck. Don't get eaten.", "_t")
-t("ice wyrm tooth", "ice wyrm tooth", "ingredient name")
+t("ice wyrm tooth", "ice wyrm tooth", "entity name")
 t("This tooth has been blunted with age, but still looks more than capable of doing its job.", "This tooth has been blunted with age, but still looks more than capable of doing its job.", "_t")
 t("Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "_t")
-t("red crystal shard", "red crystal shard", "ingredient name")
+t("red crystal shard", "red crystal shard", "entity name")
 t("Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "_t")
 t("I hear these can be found in a cave near Elvala. I also hear that they can cause you to spontaneously combust, so no need to explain if you come back hideously scarred.", "I hear these can be found in a cave near Elvala. I also hear that they can cause you to spontaneously combust, so no need to explain if you come back hideously scarred.", "_t")
-t("vial of fire wyrm saliva", "vial of fire wyrm saliva", "ingredient name")
+t("vial of fire wyrm saliva", "vial of fire wyrm saliva", "entity name")
 t("Clear and slightly thicker than water. It froths when shaken.", "Clear and slightly thicker than water. It froths when shaken.", "_t")
 t("Keep this stuff well away from your campfire unless you want me to have to find a new, more alive adventurer.", "Keep this stuff well away from your campfire unless you want me to have to find a new, more alive adventurer.", "_t")
-t("chunk of ghoul flesh", "chunk of ghoul flesh", "ingredient name")
+t("chunk of ghoul flesh", "chunk of ghoul flesh", "entity name")
 t("Rotten and reeking. It still twitches occasionally.", "Rotten and reeking. It still twitches occasionally.", "_t")
 t("Unfortunately for you, the chunks that regularly fall off ghouls won't do. I need one freshly carved off.", "Unfortunately for you, the chunks that regularly fall off ghouls won't do. I need one freshly carved off.", "_t")
-t("mummified bone", "mummified bone", "ingredient name")
+t("mummified bone", "mummified bone", "entity name")
 t("Bits of dry flesh still cling to this ancient bone.", "Bits of dry flesh still cling to this ancient bone.", "_t")
 t("That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "_t")
-t("sandworm tooth", "sandworm tooth", "ingredient name")
+t("sandworm tooth", "sandworm tooth", "entity name")
 t("Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "_t")
 t("Yes, sandworms have teeth. They're just very small and well back from where you're ever likely to see them and live.", "Yes, sandworms have teeth. They're just very small and well back from where you're ever likely to see them and live.", "_t")
-t("black mamba head", "black mamba head", "ingredient name")
+t("black mamba head", "black mamba head", "entity name")
 t("Unlike the rest of the black mamba, the severed head isn't moving.", "Unlike the rest of the black mamba, the severed head isn't moving.", "_t")
 t("If you get bitten, I can save your life if you still manage to bring back the head... and if it happens within about a minute from my door. Good luck.", "If you get bitten, I can save your life if you still manage to bring back the head... and if it happens within about a minute from my door. Good luck.", "_t")
-t("snow giant kidney", "snow giant kidney", "ingredient name")
+t("snow giant kidney", "snow giant kidney", "entity name")
 t("As unpleasant-looking as any exposed organ.", "As unpleasant-looking as any exposed organ.", "_t")
 t("I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "_t")
-t("storm wyrm claw", "storm wyrm claw", "ingredient name")
+t("storm wyrm claw", "storm wyrm claw", "entity name")
 t("Bluish and wickedly sharp. It makes your arm hair stand on end.", "Bluish and wickedly sharp. It makes your arm hair stand on end.", "_t")
-t("I recommend severing one of dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "I recommend severing one of dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "_t")
-t("green worm", "green worm", "ingredient name")
+t("green worm", "green worm", "entity name")
 t("A dead green worm, painstakingly separated from its tangle of companions.", "A dead green worm, painstakingly separated from its tangle of companions.", "_t")
 t("Try to get any knots out before returning. Wear gloves.", "Try to get any knots out before returning. Wear gloves.", "_t")
-t("vial of wight ectoplasm", "vial of wight ectoplasm", "ingredient name")
+t("vial of wight ectoplasm", "vial of wight ectoplasm", "entity name")
 t("Cloudy and thick. Only by bottling it can you prevent it from evaporating within minutes.", "Cloudy and thick. Only by bottling it can you prevent it from evaporating within minutes.", "_t")
 t("If you ingest any of this, never mind coming back here. Please.", "If you ingest any of this, never mind coming back here. Please.", "_t")
-t("xorn fragment", "xorn fragment", "ingredient name")
+t("xorn fragment", "xorn fragment", "entity name")
 t("Looks much like any other rock, though this one was recently sentient and trying to murder you.", "Looks much like any other rock, though this one was recently sentient and trying to murder you.", "_t")
 t("Avoid fragments that contained the xorn's eyes. You've no idea how unpleasant it is being watched by your ingredients.", "Avoid fragments that contained the xorn's eyes. You've no idea how unpleasant it is being watched by your ingredients.", "_t")
-t("warg claw", "warg claw", "ingredient name")
+t("warg claw", "warg claw", "entity name")
 t("Unpleasantly large and sharp for a canine's claw.", "Unpleasantly large and sharp for a canine's claw.", "_t")
 t("My usual ingredient gatherers draw the line at hunting wargs. Feel free to mock them on your way back.", "My usual ingredient gatherers draw the line at hunting wargs. Feel free to mock them on your way back.", "_t")
-t("pouch of faeros ash", "pouch of faeros ash", "ingredient name")
+t("pouch of faeros ash", "pouch of faeros ash", "entity name")
 t("Unremarkable grey ash.", "Unremarkable grey ash.", "_t")
 t("They're creatures of pure flame, and likely of extraplanar origin, but the ash of objects consumed by their fire has remarkable properties.", "They're creatures of pure flame, and likely of extraplanar origin, but the ash of objects consumed by their fire has remarkable properties.", "_t")
-t("wretchling eyeball", "wretchling eyeball", "ingredient name")
+t("wretchling eyeball", "wretchling eyeball", "entity name")
 t("Small and bloodshot. Its dead gaze still burns your skin.", "Small and bloodshot. Its dead gaze still burns your skin.", "_t")
 t("Evil little things, wretchlings. Feel free to kill as many as you can, though I just need the one intact eyeball.", "Evil little things, wretchlings. Feel free to kill as many as you can, though I just need the one intact eyeball.", "_t")
-t("faerlhing fang", "faerlhing fang", "ingredient name")
+t("faerlhing fang", "faerlhing fang", "entity name")
 t("It still drips venom and crackles with magical energy.", "It still drips venom and crackles with magical energy.", "_t")
 t("I've lost a number of adventurers to this one, but I'm sure you'll be fine.", "I've lost a number of adventurers to this one, but I'm sure you'll be fine.", "_t")
-t("vampire lord fang", "vampire lord fang", "ingredient name")
+t("vampire lord fang", "vampire lord fang", "entity name")
 t("Brilliantly white, but surrounded by blackest magic.", "Brilliantly white, but surrounded by blackest magic.", "_t")
 t("You should definitely consider not pricking yourself with it.", "You should definitely consider not pricking yourself with it.", "_t")
-t("hummerhorn wing", "hummerhorn wing", "ingredient name")
+t("hummerhorn wing", "hummerhorn wing", "entity name")
 t("Translucent and delicate-looking, but surprisingly durable.", "Translucent and delicate-looking, but surprisingly durable.", "_t")
 t("If you've not encountered hummerhorns before, they're like wasps, only gigantic and lethal.", "If you've not encountered hummerhorns before, they're like wasps, only gigantic and lethal.", "_t")
-t("pouch of luminous horror dust", "pouch of luminous horror dust", "ingredient name")
+t("pouch of luminous horror dust", "pouch of luminous horror dust", "entity name")
 t("Weightless and glowing; not your usual dust.", "Weightless and glowing; not your usual dust.", "_t")
 t("Not to be confused with radiant horrors. If you encounter the latter, then I suppose there are always more adventurers.", "Not to be confused with radiant horrors. If you encounter the latter, then I suppose there are always more adventurers.", "_t")
 --]==]
@@ -12390,7 +12431,7 @@ t("Not to be confused with radiant horrors. If you encounter the latter, then I 
 section "mod-tome/data/keybinds/tome.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Show character sheet (player)", "Show character sheet (player)", "_t")
 t("Show character sheet (actor @ cursor)", "Show character sheet (actor @ cursor)", "_t")
@@ -12432,7 +12473,7 @@ t("Toggle automatic accept target option", "Toggle automatic accept target optio
 section "mod-tome/data/lore/age-allure.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("age of allure", "age of allure", "newLore category")
 t("research log of halfling mage Hompalan", "research log of halfling mage Hompalan", "_t")
@@ -12872,7 +12913,7 @@ But we won't age sleeping in these ruins#{normal}#
 section "mod-tome/data/lore/age-pyre.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("age of pyre", "age of pyre", "newLore category")
 t("Atamathon, the giant golem", "Atamathon, the giant golem", "_t")
@@ -12888,7 +12929,7 @@ Someone foolish has tried to reconstruct it, but it seems like it misses an eye 
 section "mod-tome/data/lore/angolwen.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("angolwen", "angolwen", "newLore category")
 t("Lecture on Humility by Archmage Linaniil", "Lecture on Humility by Archmage Linaniil", "_t")
@@ -13004,7 +13045,7 @@ GATHER HERE IN PEACE TO DISCOVER AND PERFECT THE KNOWLEDGE OF HOW, AND WHEN, TO 
 section "mod-tome/data/lore/ardhungol.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("ardhungol", "ardhungol", "newLore category")
 t("Rashim Journal (1)", "Rashim Journal (1)", "_t")
@@ -13081,7 +13122,7 @@ t("#{italic}#This pile of tattered paper could theoretically be assembled into s
 section "mod-tome/data/lore/arena.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("arena", "arena", "newLore category")
 t("Arena for dummies", "Arena for dummies", "_t")
@@ -13125,7 +13166,7 @@ Good luck!
 section "mod-tome/data/lore/blighted-ruins.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("blighted ruins", "blighted ruins", "newLore category")
 t("note from the Necromancer", "note from the Necromancer", "_t")
@@ -13140,7 +13181,7 @@ t("My masterpiece walks! It is glorious, beautiful. While it remains unfinished,
 section "mod-tome/data/lore/daikara.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("daikara", "daikara", "newLore category")
 t("expedition journal entry (daikara)", "expedition journal entry (daikara)", "_t")
@@ -13186,7 +13227,7 @@ I might not know a great deal about artifice, but I know how wild animals work, 
 section "mod-tome/data/lore/derth.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("derth", "derth", "newLore category")
 t("Beam Trap", "Beam Trap", "_t")
@@ -13204,7 +13245,7 @@ It's not that I don't trust her, not after you and they - mostly you! - saved us
 section "mod-tome/data/lore/dreadfell.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("dreadfell", "dreadfell", "newLore category")
 t("note from the Master", "note from the Master", "_t")
@@ -13359,7 +13400,7 @@ t("#0080FF#On the back of the letter you can just make out a coarsely scrawled a
 section "mod-tome/data/lore/elvala.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("spellblaze", "spellblaze", "newLore category")
 t("The Spellblaze Chronicles(1): A Fateful Meeting", "The Spellblaze Chronicles(1): A Fateful Meeting", "_t")
@@ -14295,7 +14336,7 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 section "mod-tome/data/lore/fearscape.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("fearscape", "fearscape", "newLore category")
 t("a fearsome sight", "a fearsome sight", "_t")
@@ -14319,7 +14360,7 @@ As they notice you one calls out 'Intruder! Protect the seed of Kryl-Feijan!']],
 section "mod-tome/data/lore/fun.lua"
 
 t("misc", "divers", "newLore category")
--- untranslated text
+-- texte non traduit
 --[==[
 t("trollish poem", "trollish poem", "_t")
 t([[#{bold}#"Me Likes to Club"
@@ -14764,7 +14805,7 @@ As to how to actually destroy one? Well, tell you what. If you manage to defeat 
 section "mod-tome/data/lore/high-peak.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("high peak", "high peak", "newLore category")
 t("closing the void farportal", "closing the void farportal", "_t")
@@ -14860,7 +14901,7 @@ Forgive me, Eyal.]], "_t")
 section "mod-tome/data/lore/infinite-dungeon.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("ruined dungeon", "ruined dungeon", "newLore category")
 t("clue (ruined dungeon)", "clue (ruined dungeon)", "_t")
@@ -14952,7 +14993,7 @@ And so the chase continues. Over centuries beyond count Branzir has never stoppe
 section "mod-tome/data/lore/iron-throne.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("iron throne", "iron throne", "newLore category")
 t("Iron Throne Profits History: Age of Allure", "Iron Throne Profits History: Age of Allure", "_t")
@@ -15116,7 +15157,7 @@ Must stay down here to be close to the dreams, yes yes. Must plant my mouth in t
 section "mod-tome/data/lore/keepsake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("keepsake", "keepsake", "newLore category")
 t("A Tranquil Meadow", "A Tranquil Meadow", "_t")
@@ -15413,7 +15454,7 @@ You rise and prepare to kill again.
 section "mod-tome/data/lore/kor-pul.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("kor'pul", "kor'pul", "newLore category")
 t("journal page (kor'pul)", "journal page (kor'pul)", "_t")
@@ -15471,7 +15512,7 @@ I'm not cut out for this paladin work. Here I am, alone in a horrible dark dunge
 section "mod-tome/data/lore/last-hope.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("last hope", "last hope", "newLore category")
 t("The Diaries of King Toknor the Brave", "The Diaries of King Toknor the Brave", "_t")
@@ -16245,7 +16286,7 @@ The joke was over
 section "mod-tome/data/lore/maze.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("maze", "maze", "newLore category")
 t("diary (the maze)", "diary (the maze)", "_t")
@@ -16310,7 +16351,7 @@ No, NO! I have - I --- acci--- pain, such pa--______
 section "mod-tome/data/lore/misc.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("temple of creation", "temple of creation", "newLore category")
 t("tract of destruction", "tract of destruction", "_t")
@@ -17321,7 +17362,7 @@ that drowned her at last.]], "_t")
 section "mod-tome/data/lore/noxious-caldera.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("dogroth caldera", "dogroth caldera", "newLore category")
 t("tattered paper scrap", "tattered paper scrap", "_t")
@@ -17379,7 +17420,7 @@ And what I think is what is real.]], "_t")
 section "mod-tome/data/lore/old-forest.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("old forest", "old forest", "newLore category")
 t("journal entry (old forest)", "journal entry (old forest)", "_t")
@@ -17468,7 +17509,7 @@ t("As you descend to the next level you traverse a kind of magical barrier keepi
 section "mod-tome/data/lore/orc-prides.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("orc prides", "orc prides", "newLore category")
 t("Grushnak's Note", "Grushnak's Note", "_t")
@@ -17896,7 +17937,7 @@ In time! Bah! This will be my ruin if it comes to that. If there is any appearan
 section "mod-tome/data/lore/rhaloren.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("rhaloren", "rhaloren", "newLore category")
 t("letter (rhaloren camp)", "letter (rhaloren camp)", "_t")
@@ -17985,7 +18026,7 @@ Your dearest love]], "_t")
 section "mod-tome/data/lore/sandworm.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("sandworm lair", "sandworm lair", "newLore category")
 t("song of the sands", "song of the sands", "_t")
@@ -18054,7 +18095,7 @@ Please devour me! Swallow me whole!!]], "_t")
 section "mod-tome/data/lore/scintillating-caves.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("scintillating caves", "scintillating caves", "newLore category")
 t("research journal part 1", "research journal part 1", "_t")
@@ -18138,7 +18179,7 @@ Well... that was certainly unexpected. There may be some truth to the rumours th
 section "mod-tome/data/lore/shertul.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("sher'tul", "sher'tul", "newLore category")
 t("first mural painting", "first mural painting", "_t")
@@ -18204,7 +18245,7 @@ t("%s boldly entering a Sher'Tul farportal.", "%s boldly entering a Sher'Tul far
 section "mod-tome/data/lore/slazish.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("slazish fens", "slazish fens", "newLore category")
 t("conch (1)", "conch (1)", "_t")
@@ -18276,7 +18317,7 @@ t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ea
 section "mod-tome/data/lore/spellblaze.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("spellblaze", "spellblaze", "newLore category")
 t("draft letter (mark of the spellblaze)", "draft letter (mark of the spellblaze)", "_t")
@@ -18314,7 +18355,7 @@ Your disobedient son]], "_t")
 section "mod-tome/data/lore/spellhunt.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("age of dusk", "age of dusk", "newLore category")
 t("memories of archmage Varil", "memories of archmage Varil", "_t")
@@ -18438,7 +18479,7 @@ The best method, if time and situation allows, is to very slowly slice the caste
 section "mod-tome/data/lore/sunwall.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("history of the Sunwall", "history of the Sunwall", "newLore category")
 t("Loremaster Verutir's note", "Loremaster Verutir's note", "_t")
@@ -18465,7 +18506,7 @@ In short: Aethidry was the first Human to map out these shores. EHS has his map 
 section "mod-tome/data/lore/tannen.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("tannen's tower", "tannen's tower", "newLore category")
 t("Welcome to your cell", "Welcome to your cell", "_t")
@@ -18545,7 +18586,7 @@ Your orders are to play along.  Keep giving him what he says he wants - more com
 section "mod-tome/data/lore/trollmire.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("trollmire", "trollmire", "newLore category")
 t("tattered paper scrap (trollmire)", "tattered paper scrap (trollmire)", "_t")
@@ -18585,7 +18626,7 @@ Alongside the note is a part of a plan of the region.]], "_t")
 section "mod-tome/data/lore/zigur.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("zigur", "zigur", "newLore category")
 t("Rules of the Ziguranth", "Rules of the Ziguranth", "_t")
@@ -18695,7 +18736,7 @@ Actually...  You fight in a more subtle way than most, do you not?  It is a poin
 section "mod-tome/data/maps/towns/gates-of-morning.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Limmir the Jeweler", "Limmir the Jeweler", "_t")
 t("Melnela", "Melnela", "_t")
@@ -18706,7 +18747,7 @@ t("Melnela", "Melnela", "_t")
 section "mod-tome/data/maps/towns/last-hope.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Statue of King Tolak the Fair", "Statue of King Tolak the Fair", "_t")
 t("Statue of King Toknor the Brave", "Statue of King Toknor the Brave", "_t")
@@ -18719,7 +18760,7 @@ t("Declaration of the Unification of the Allied Kingdoms", "Declaration of the U
 section "mod-tome/data/maps/towns/shatur.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Moss covered statue", "Moss covered statue", "_t")
 --]==]
@@ -18729,7 +18770,7 @@ t("Moss covered statue", "Moss covered statue", "_t")
 section "mod-tome/data/maps/vaults/auto/greater/greater-checkerboard.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#rng# the Guardian", "#rng# the Guardian", "_t")
 --]==]
@@ -18739,7 +18780,7 @@ t("#rng# the Guardian", "#rng# the Guardian", "_t")
 section "mod-tome/data/maps/vaults/auto/greater/living-weapons.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Poltergeist %s", "Poltergeist %s", "tformat")
 t("Animated %s", "Animated %s", "tformat")
@@ -18752,7 +18793,7 @@ t("Poltergeist's %s", "Poltergeist's %s", "tformat")
 section "mod-tome/data/maps/vaults/auto/greater/orc-hatred.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Something in the floor clicks ominously.", "Something in the floor clicks ominously.", "logPlayer")
 --]==]
@@ -18762,7 +18803,7 @@ t("Something in the floor clicks ominously.", "Something in the floor clicks omi
 section "mod-tome/data/maps/vaults/auto/greater/paladin-vs-vampire.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("corrupted lava floor", "corrupted lava floor", "_t")
 t("#Source# emits dark energies at your feet.", "#Source# emits dark energies at your feet.", "logCombat")
@@ -18776,7 +18817,7 @@ t("A Human in shining plate armour.", "A Human in shining plate armour.", "_t")
 section "mod-tome/data/maps/vaults/auto/greater/portal-vault.lua"
 
 t("Cancel", "Annuler", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("#YELLOW#The Portal repels you briefly before becoming quiescent.  The other side seems to be blocked.", "#YELLOW#The Portal repels you briefly before becoming quiescent.  The other side seems to be blocked.", "logPlayer")
 t("Malevolent Portal", "Malevolent Portal", "_t")
@@ -18794,7 +18835,7 @@ t("A portal out of this place.", "A portal out of this place.", "_t")
 section "mod-tome/data/maps/vaults/auto/greater/sleeping-dragons.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The dragons here are asleep. You may try to steal their treasure... at your own risk.", "The dragons here are asleep. You may try to steal their treasure... at your own risk.", "log")
 t("#CRIMSON#The dragons awaken from their slumber detecting their loot being stolen!", "#CRIMSON#The dragons awaken from their slumber detecting their loot being stolen!", "log")
@@ -18807,7 +18848,7 @@ t("Dozing #rng#", "Dozing #rng#", "_t")
 section "mod-tome/data/maps/vaults/auto/lesser/loot-vault.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("scroll", "scroll", "_t")
 t("Mocking Note", "Mocking Note", "_t")
@@ -18818,9 +18859,8 @@ t("A small scrap of paper written in a mocking tone.", "A small scrap of paper w
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/bandit-fortress.lua"
 
-
 t("stairs back to %s", "redescendre vers %s", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("bandit fortress", "bandit fortress", "_t")
 t("#rng# the Guard", "#rng# the Guard", "_t")
@@ -18833,17 +18873,15 @@ t("A messily scrawled pile of loose papers.", "A messily scrawled pile of loose 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/collapsed-tower.lua"
 
-
-t("stairs back to %s", "redescendre vers %s", "_t")
 t("elemental crystal", "cristal élémentaire", "_t")
 t("collapsed tower", "tour effondrée", "_t")
-
+t("stairs back to %s", "redescendre vers %s", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/greater-crypt.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Something in the floor clicks ominously%s", "Something in the floor clicks ominously%s", "logPlayer")
 t(", and suddenly the world spins around you!", ", and suddenly the world spins around you!", "_t")
@@ -18857,7 +18895,7 @@ t("Something beneath you clicks ominously.", "Something beneath you clicks omino
 section "mod-tome/data/maps/vaults/grushnak-armory.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#rng# the Archer", "#rng# the Archer", "_t")
 t("Warbear #rng#", "Warbear #rng#", "_t")
@@ -18869,7 +18907,7 @@ t("Elite Combat Trainer #rng#", "Elite Combat Trainer #rng#", "_t")
 section "mod-tome/data/maps/vaults/lava_island.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#rng# the Witherer", "#rng# the Witherer", "_t")
 --]==]
@@ -18879,7 +18917,7 @@ t("#rng# the Witherer", "#rng# the Witherer", "_t")
 section "mod-tome/data/maps/vaults/renegade-pyromancers.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("scroll", "scroll", "_t")
 t("How to Summon a Phoenix", "How to Summon a Phoenix", "_t")
@@ -18893,7 +18931,7 @@ t("#rng# the Invoker", "#rng# the Invoker", "_t")
 section "mod-tome/data/maps/vaults/renegade-undead.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Grand Necromancer #rng#", "Grand Necromancer #rng#", "_t")
 t("Inquisitor #rng#", "Inquisitor #rng#", "_t")
@@ -18906,7 +18944,7 @@ t("Tortured Mass #rng#", "Tortured Mass #rng#", "_t")
 section "mod-tome/data/maps/vaults/renegade-wyrmics.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#rng# the Herald", "#rng# the Herald", "_t")
 t("Beastmaster #rng#", "Beastmaster #rng#", "_t")
@@ -18921,7 +18959,7 @@ t("#rng# the Caustic Terror", "#rng# the Caustic Terror", "_t")
 section "mod-tome/data/maps/vaults/test.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#PINK# Test vault onplace function called: zone:%s, level:%s, map:%s", "#PINK# Test vault onplace function called: zone:%s, level:%s, map:%s", "log")
 t("#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "log")
@@ -18932,7 +18970,7 @@ t("#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "#PI
 section "mod-tome/data/maps/vaults/trickvault.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#YELLOW#The world spins around you!", "#YELLOW#The world spins around you!", "logPlayer")
 t("#YELLOW#The air comes alive with terrible magics!", "#YELLOW#The air comes alive with terrible magics!", "logPlayer")
@@ -18943,7 +18981,7 @@ t("#YELLOW#The air comes alive with terrible magics!", "#YELLOW#The air comes al
 section "mod-tome/data/maps/wilderness/eyal.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Maj'Eyal", "Maj'Eyal", "_t")
 t("Island of Rel", "Island of Rel", "_t")
@@ -18957,7 +18995,7 @@ t("Tar'Eyal", "Tar'Eyal", "_t")
 section "mod-tome/data/maps/zones/bandit-fortress.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#rng# the Guard", "#rng# the Guard", "_t")
 t("#rng# the Thug", "#rng# the Thug", "_t")
@@ -18972,7 +19010,7 @@ t("A messily scrawled pile of loose papers.", "A messily scrawled pile of loose 
 section "mod-tome/data/maps/zones/collapsed-tower.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("arcane crystal", "arcane crystal", "_t")
 --]==]
@@ -18982,7 +19020,7 @@ t("arcane crystal", "arcane crystal", "_t")
 section "mod-tome/data/maps/zones/halfling-ruins-last.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Long tunnel to the island of Rel", "Long tunnel to the island of Rel", "_t")
 t("Long tunnel", "Long tunnel", "_t")
@@ -19000,7 +19038,7 @@ t("Exploratory Farportal", "Portail lointain exploratoire", "_t")
 section "mod-tome/data/maps/zones/tannen-tower-1.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("open sky", "open sky", "_t")
 --]==]
@@ -19010,7 +19048,7 @@ t("open sky", "open sky", "_t")
 section "mod-tome/data/maps/zones/tempest-peak-top.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("open sky", "open sky", "_t")
 --]==]
@@ -19020,7 +19058,7 @@ t("open sky", "open sky", "_t")
 section "mod-tome/data/maps/zones/valley-moon.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Passage to the caverns", "Passage to the caverns", "_t")
 t("A dark hole in the mountain", "A dark hole in the mountain", "_t")
@@ -19030,9 +19068,8 @@ t("A dark hole in the mountain", "A dark hole in the mountain", "_t")
 ------------------------------------------------
 section "mod-tome/data/mapscripts/lib/subvault.lua"
 
-
 t("stairs back to %s", "redescendre vers %s", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Hidden Vault - %s", "Hidden Vault - %s", "tformat")
 t("hidden vault", "hidden vault", "_t")
@@ -19050,7 +19087,7 @@ t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET#
 section "mod-tome/data/quests/anti-antimagic.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The fall of Zigur", "The fall of Zigur", "_t")
 t("You decided to side with the Grand Corruptor and joined forces to assault the Ziguranth main base of power.", "You decided to side with the Grand Corruptor and joined forces to assault the Ziguranth main base of power.", "_t")
@@ -19071,7 +19108,7 @@ t("His plans however do not stop there.", "His plans however do not stop there."
 section "mod-tome/data/quests/antimagic.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Curse of Magic", "The Curse of Magic", "_t")
 t("You have been invited to join a group called the Ziguranth, dedicated to opposing magic.", "You have been invited to join a group called the Ziguranth, dedicated to opposing magic.", "_t")
@@ -19085,7 +19122,7 @@ t("#VIOLET#Another foe is summoned to the arena!", "#VIOLET#Another foe is summo
 section "mod-tome/data/quests/arena-unlock.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The agent of the arena", "The agent of the arena", "_t")
 t("You were asked to prove your worth as a fighter by a rogue, in order to participate in the arena", "You were asked to prove your worth as a fighter by a rogue, in order to participate in the arena", "_t")
@@ -19097,7 +19134,7 @@ t("You succesfully defeated your adversaries and gained access to the arena!", "
 section "mod-tome/data/quests/arena.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Arena", "The Arena", "_t")
 t("Seeking wealth, glory, and a great fight, you challenge the Arena!", "Seeking wealth, glory, and a great fight, you challenge the Arena!", "_t")
@@ -19114,7 +19151,7 @@ t("Glory to you, you are now the new master and your future characters will chal
 section "mod-tome/data/quests/brotherhood-of-alchemists.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Brotherhood of Alchemists", "The Brotherhood of Alchemists", "_t")
 t("#LIGHT_GREEN#Thanks to your timely aid, %s is the newest member of the Brotherhood of Alchemists.#WHITE#", "#LIGHT_GREEN#Thanks to your timely aid, %s is the newest member of the Brotherhood of Alchemists.#WHITE#", "tformat")
@@ -19147,7 +19184,7 @@ t("elixir of foundations", "elixir of foundations", "_t")
 section "mod-tome/data/quests/charred-scar.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Doom of the World!", "The Doom of the World!", "_t")
 t("You were sent to the Charred Scar at the heart of which lies a huge volcano. In the Age of Pyre it destroyed the old Sher'Tul ruins that stood there, absorbing much of their latent magic.", "You were sent to the Charred Scar at the heart of which lies a huge volcano. In the Age of Pyre it destroyed the old Sher'Tul ruins that stood there, absorbing much of their latent magic.", "_t")
@@ -19168,7 +19205,7 @@ t("#VIOLET#The Sorcerers flee through a portal. As you prepare to follow them, a
 section "mod-tome/data/quests/deep-bellow.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("From bellow, it devours", "From bellow, it devours", "_t")
 t("Your escape from Reknor got your heart pounding and your desire for wealth and power increased tenfold.", "Your escape from Reknor got your heart pounding and your desire for wealth and power increased tenfold.", "_t")
@@ -19182,7 +19219,7 @@ t("None that you know of has come back yet, but you did survive Reknor. You are 
 section "mod-tome/data/quests/dreadfell.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Island of Dread", "The Island of Dread", "_t")
 t("You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "_t")
@@ -19195,7 +19232,7 @@ t("Perhaps you should explore it and find the truth, and the treasures, for your
 section "mod-tome/data/quests/east-portal.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Back and there again", "Back and there again", "_t")
 t("You have created a portal back to Maj'Eyal. You should try to talk to someone in Last Hope about establishing a link back.", "You have created a portal back to Maj'Eyal. You should try to talk to someone in Last Hope about establishing a link back.", "_t")
@@ -19219,25 +19256,28 @@ t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back
 ------------------------------------------------
 section "mod-tome/data/quests/escort-duty.lua"
 
-t("something", "quelque chose", "_t")
-t("", "", "_t")
 t("You successfully escorted the %s to the recall portal on level %s.", "Vous avez escorté avec succès %s jusqu'au portail du niveau %s.", "tformat")
 t("As a reward you %s.", "En récompense vous %s.", "tformat")
 t("You abandoned %s, to death.", "Vous avez abandonné %s à la mort.", "tformat")
 t("You failed to protect the %s from death by %s.", "Vous avez échoué a protéger %s de la mort. Coup fatal: %s.", "tformat")
-t("???", "???", "_t")
 t("Escort the %s to the recall portal on level %s.", "Escortez %s jusqu'au portail de rappel du niveau %s.", "tformat")
 t("#LIGHT_RED#%s is dead, quest failed!", "#LIGHT_RED#%s est mort, quête échouée!", "logPlayer")
+t("something", "quelque chose", "_t")
 t("Recall Portal", "Portail de rappel", "_t")
 t("%s of %s", "%s de %s", "tformat")
 t("Escort: %s (level %s)", "Escorte: %s (niveau %s)", "tformat")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+t("???", "???", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/quests/grave-necromancer.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("And now for a grave", "And now for a grave", "_t")
 t("Ungrol of Last Hope asked you to look for his wife's friend Celia, who has been reported missing. She frequently visits her late husband's mausoleum, in the graveyard near Last Hope.", "Ungrol of Last Hope asked you to look for his wife's friend Celia, who has been reported missing. She frequently visits her late husband's mausoleum, in the graveyard near Last Hope.", "_t")
@@ -19252,7 +19292,7 @@ t("You have laid Celia to rest, putting an end to her failed experiments. You ha
 section "mod-tome/data/quests/high-peak.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Falling Toward Apotheosis", "Falling Toward Apotheosis", "_t")
 t("You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "_t")
@@ -19295,7 +19335,7 @@ t("You may continue playing and enjoy the rest of the world.", "You may continue
 section "mod-tome/data/quests/infinite-dungeon.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Infinite Dungeon", "The Infinite Dungeon", "_t")
 t("You have entered the Infinite Dungeon. There is no going back now.", "You have entered the Infinite Dungeon. There is no going back now.", "_t")
@@ -19307,7 +19347,12 @@ t("Go deep, fight, win or die in a blaze of glory!", "Go deep, fight, win or die
 section "mod-tome/data/quests/keepsake.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t("You recognize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "You recognize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "_t")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Keepsake", "Keepsake", "_t")
 t("You have begun to look for a way to overcome the curse that afflicts you.", "You have begun to look for a way to overcome the curse that afflicts you.", "_t")
@@ -19335,7 +19380,6 @@ t("#VIOLET#You have found the entrance to Kyless' cave!", "#VIOLET#You have foun
 t("#VIOLET#You have found the entrance to a vault!", "#VIOLET#You have found the entrance to a vault!", "logPlayer")
 t("#VIOLET#The shadows have noticed you!", "#VIOLET#The shadows have noticed you!", "logPlayer")
 t("A Second Vault", "A Second Vault", "_t")
-t("You recoginize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "You recoginize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "_t")
 t("#VIOLET#You have found Kyless. You must destroy him.", "#VIOLET#You have found Kyless. You must destroy him.", "logPlayer")
 t("Death of Kyless", "Death of Kyless", "_t")
 t("#VIOLET#Kyless is dead.", "#VIOLET#Kyless is dead.", "logPlayer")
@@ -19348,7 +19392,7 @@ t("#VIOLET#Berethh lies dead.", "#VIOLET#Berethh lies dead.", "logPlayer")
 section "mod-tome/data/quests/kryl-feijan-escape.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Sect of Kryl-Feijan", "The Sect of Kryl-Feijan", "_t")
 t("You discovered a sect worshipping a demon named Kryl-Feijan in a crypt.", "You discovered a sect worshipping a demon named Kryl-Feijan in a crypt.", "_t")
@@ -19363,7 +19407,7 @@ t("You failed to defeat the acolytes in time - the woman got torn apart by the d
 section "mod-tome/data/quests/lichform.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("From Death, Life", "From Death, Life", "_t")
 t("The affairs of this mortal world are trifling compared to your true goal: To conquer death.", "The affairs of this mortal world are trifling compared to your true goal: To conquer death.", "_t")
@@ -19389,7 +19433,7 @@ t("The secrets of death lay open to you! You are to become a Lich upon your next
 section "mod-tome/data/quests/lightning-overload.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Storming the city", "Storming the city", "_t")
 t("As you approached Derth you saw a huge dark cloud over the small town.", "As you approached Derth you saw a huge dark cloud over the small town.", "_t")
@@ -19421,7 +19465,7 @@ Derth is free of the storm cloud.]], "_t")
 section "mod-tome/data/quests/lost-merchant.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Trapped!", "Trapped!", "_t")
 t("You heard a plea for help and decided to investigate...", "You heard a plea for help and decided to investigate...", "_t")
@@ -19435,7 +19479,13 @@ t("#LIGHT_BLUE#The merchant thanks you for saving his life. He gives you 8 gold 
 section "mod-tome/data/quests/love-melinda.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t("After your victory you came back to Last Hope and reunited with Melinda, who after many years remains free of demonic corruption.", "After your victory you came back to Last Hope and reunited with Melinda, who after many years remains free of demonic corruption.", "_t")
+t("You lived together and led a happy life. Melinda even learned a few adventurer's tricks and you both traveled Eyal, making new legends.", "You lived together and led a happy life. Melinda even learned a few adventurer's tricks and you both traveled Eyal, making new legends.", "_t")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Melinda, lucky girl", "Melinda, lucky girl", "_t")
 t("After rescuing Melinda from Kryl-Feijan and the cultists you met her again in Last Hope.", "After rescuing Melinda from Kryl-Feijan and the cultists you met her again in Last Hope.", "_t")
@@ -19453,7 +19503,7 @@ t("You saved her from the depth of a cultists' lair and fell in love with her. S
 section "mod-tome/data/quests/lumberjack-cursed.lua"
 
 t("all", "tout", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("The beast within", "The beast within", "_t")
 t("You met a half-mad lumberjack fleeing a small village, rambling about an untold horror lurking there, slaughtering people.", "You met a half-mad lumberjack fleeing a small village, rambling about an untold horror lurking there, slaughtering people.", "_t")
@@ -19472,7 +19522,7 @@ t("#LIGHT_RED#A lumberjack falls to the ground, dead.", "#LIGHT_RED#A lumberjack
 section "mod-tome/data/quests/mage-apprentice.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("An apprentice task", "An apprentice task", "_t")
 t("You met a novice mage who was tasked to collect an arcane powered artifact.", "You met a novice mage who was tasked to collect an arcane powered artifact.", "_t")
@@ -19489,7 +19539,7 @@ t("You receive: %s", "You receive: %s", "logPlayer")
 section "mod-tome/data/quests/master-jeweler.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Lost Knowledge", "Lost Knowledge", "_t")
 t("You found an ancient tome about gems.", "You found an ancient tome about gems.", "_t")
@@ -19508,7 +19558,7 @@ t("Limmir the Master Jeweler", "Limmir the Master Jeweler", "_t")
 section "mod-tome/data/quests/orb-command.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Orbs of Command", "The Orbs of Command", "_t")
 t("You have found an orb of command that seems to be used to open the shield protecting the High Peak.", "You have found an orb of command that seems to be used to open the shield protecting the High Peak.", "_t")
@@ -19521,7 +19571,7 @@ t("#LIGHT_BLUE#There is a loud crack. The way is open.", "#LIGHT_BLUE#There is a
 section "mod-tome/data/quests/orc-breeding-pits.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Desperate Measures", "Desperate Measures", "_t")
 t("You have encountered a dying sun paladin that told you about the orcs breeding pit, a true abomination.", "You have encountered a dying sun paladin that told you about the orcs breeding pit, a true abomination.", "_t")
@@ -19537,7 +19587,7 @@ t("Entrance to the orc breeding pit", "Entrance to the orc breeding pit", "_t")
 section "mod-tome/data/quests/orc-hunt.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Let's hunt some Orc", "Let's hunt some Orc", "_t")
 t("The elder in Last Hope sent you to the old Dwarven kingdom of Reknor, deep under the Iron Throne, to investigate the orc presence.", "The elder in Last Hope sent you to the old Dwarven kingdom of Reknor, deep under the Iron Throne, to investigate the orc presence.", "_t")
@@ -19551,7 +19601,7 @@ t("The elder points to Reknor on your map, to the north on the western side of t
 section "mod-tome/data/quests/orc-pride.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The many Prides of the Orcs", "The many Prides of the Orcs", "_t")
 t("Investigate the bastions of the Pride.", "Investigate the bastions of the Pride.", "_t")
@@ -19572,7 +19622,7 @@ t("#LIGHT_GREEN#* All the bastions of the Pride lie in ruins, their masters dest
 section "mod-tome/data/quests/paradoxology.lua"
 
 t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pourquoi le #sexe# est devenue soudainement mauvais", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Way We Weren't", "The Way We Weren't", "_t")
 t([[You have met what seems to be a future version of yourself.
@@ -19601,7 +19651,7 @@ t("This rift in time has been created by the paradox. You dare not enter it; it 
 section "mod-tome/data/quests/pre-charred-scar.lua"
 
 t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Important news", "Important news", "_t")
 t("Orcs were spotted with the staff you seek in an arid waste in the southern desert.", "Orcs were spotted with the staff you seek in an arid waste in the southern desert.", "_t")
@@ -19614,7 +19664,7 @@ t("Aeryn explained where the orcs were spotted.", "Aeryn explained where the orc
 section "mod-tome/data/quests/rel-tunnel.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Light at the end of the tunnel", "Light at the end of the tunnel", "_t")
 t([[You must find a way to Maj'Eyal through the tunnel to the north of the island.
@@ -19627,7 +19677,7 @@ t([[You must find a way to Maj'Eyal through the tunnel to the north of the islan
 section "mod-tome/data/quests/ring-of-blood.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Till the Blood Runs Clear", "Till the Blood Runs Clear", "_t")
 t("You have found a slavers' compound and entered it.", "You have found a slavers' compound and entered it.", "_t")
@@ -19648,7 +19698,7 @@ t("#LIGHT_BLUE#The Blood Master hands you the %s.", "#LIGHT_BLUE#The Blood Maste
 section "mod-tome/data/quests/shertul-fortress.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Sher'Tul Fortress", "Sher'Tul Fortress", "_t")
 t("You found notes from an explorer inside the Old Forest. He spoke about Sher'Tul ruins sunken below the surface of the lake of Nur, at the forest's center.", "You found notes from an explorer inside the Old Forest. He spoke about Sher'Tul ruins sunken below the surface of the lake of Nur, at the forest's center.", "_t")
@@ -19686,7 +19736,7 @@ t("The fortress is not found!", "The fortress is not found!", "log")
 section "mod-tome/data/quests/spydric-infestation.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Eight legs of wonder", "Eight legs of wonder", "_t")
 t("Enter the caverns of Ardhungol and look for Sun Paladin Rashim.", "Enter the caverns of Ardhungol and look for Sun Paladin Rashim.", "_t")
@@ -19702,7 +19752,7 @@ t("A portal appears right under you, and Rashim rushes through.", "A portal appe
 section "mod-tome/data/quests/staff-absorption.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("A mysterious staff", "A mysterious staff", "_t")
 t("Deep in the Dreadfell you fought and destroyed the Master, a powerful vampire.", "Deep in the Dreadfell you fought and destroyed the Master, a powerful vampire.", "_t")
@@ -19732,7 +19782,7 @@ t([[You are surprised to still be alive.
 section "mod-tome/data/quests/start-allied.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Of trolls and damp caves", "Of trolls and damp caves", "_t")
 t([[Explore the caves below the ruins of Kor'Pul and the Trollmire in search of treasure and glory!
@@ -19751,7 +19801,7 @@ t("#SLATE#* You must explore the ruins of Kor'Pul and find out what lurks there 
 section "mod-tome/data/quests/start-archmage.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Spellblaze Fallouts", "Spellblaze Fallouts", "_t")
 t([[The Abashed Expanse is a part of Eyal torn apart by the Spellblaze and thrown into the void between the stars.
@@ -19775,7 +19825,7 @@ t("#SLATE#* You have closed %s wormhole(s).#WHITE#", "#SLATE#* You have closed %
 section "mod-tome/data/quests/start-dwarf.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Reknor is lost!", "Reknor is lost!", "_t")
 t("You were part of a group of dwarves sent to investigate the situation of the kingdom of Reknor.", "You were part of a group of dwarves sent to investigate the situation of the kingdom of Reknor.", "_t")
@@ -19791,7 +19841,7 @@ t("Norgan", "Norgan", "_t")
 section "mod-tome/data/quests/start-point-zero.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Future Echoes", "Future Echoes", "_t")
 t("The unhallowed morass is the name of the 'zone' surrounding Point Zero.", "The unhallowed morass is the name of the 'zone' surrounding Point Zero.", "_t")
@@ -19806,7 +19856,7 @@ t("#LIGHT_GREEN#* You have helped defend Point Zero.#WHITE#", "#LIGHT_GREEN#* Yo
 section "mod-tome/data/quests/start-shaloren.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Echoes of the Spellblaze", "Echoes of the Spellblaze", "_t")
 t([[You have heard that within the scintillating caves lie strange crystals imbued with Spellblaze energies.
@@ -19826,7 +19876,7 @@ t("#SLATE#* You must explore the renegade Shaloren camp.#WHITE#", "#SLATE#* You 
 section "mod-tome/data/quests/start-sunwall.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Serpentine Invaders", "Serpentine Invaders", "_t")
 t([[Nagas are invading the slazish fens. The Sunwall cannot fight on two fronts; you need to stop the invaders before it is too late.
@@ -19843,7 +19893,7 @@ t("#SLATE#* You must stop the nagas.#WHITE#", "#SLATE#* You must stop the nagas.
 section "mod-tome/data/quests/start-thaloren.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Madness of the Ages", "Madness of the Ages", "_t")
 t([[The Thaloren forest is disrupted. Corruption is spreading. Norgos the guardian bear is said to have gone mad.
@@ -19865,7 +19915,7 @@ t("#SLATE#* You must explore the Heart of the Gloom.#WHITE#", "#SLATE#* You must
 section "mod-tome/data/quests/start-undead.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The rotting stench of the dead", "The rotting stench of the dead", "_t")
 t("You have been resurrected as an undead by some dark powers.", "You have been resurrected as an undead by some dark powers.", "_t")
@@ -19878,7 +19928,7 @@ t("You have found a very special cloak that will help you walk among the living 
 section "mod-tome/data/quests/start-yeek.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Following The Way", "Following The Way", "_t")
 t([[You have been tasked to remove at leastg one of the threats to the yeeks.
@@ -19900,7 +19950,7 @@ t("You should head to the tunnel to Maj'Eyal and explore the world. For the Way.
 section "mod-tome/data/quests/starter-zones.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Into the darkness", "Into the darkness", "_t")
 t("It is time to explore some new places -- dark, forgotten and dangerous ones.", "It is time to explore some new places -- dark, forgotten and dangerous ones.", "_t")
@@ -19926,7 +19976,7 @@ t("#SLATE#* You must explore the Daikara and find out what lurks there and what 
 section "mod-tome/data/quests/strange-new-world.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Strange new world", "Strange new world", "_t")
 t("You arrived through the farportal in a cave, probably in the Far East.", "You arrived through the farportal in a cave, probably in the Far East.", "_t")
@@ -19944,7 +19994,7 @@ t("%s go to the southeast, and tell Aeryn what happened to me!", "%s go to the s
 section "mod-tome/data/quests/temple-of-creation.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Temple of Creation", "The Temple of Creation", "_t")
 t("Ukllmswwik asked you to take his portal to the Temple of Creation and kill Slasul who has turned mad.", "Ukllmswwik asked you to take his portal to the Temple of Creation and kill Slasul who has turned mad.", "_t")
@@ -19964,7 +20014,7 @@ t("A portal opens to the flooded cave.", "A portal opens to the flooded cave.", 
 section "mod-tome/data/quests/temporal-rift.lua"
 
 t("Temporal Warden", "Gardien du temps", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Back and Back and Back to the Future", "Back and Back and Back to the Future", "_t")
 t([[After passing through some kind of time anomaly you met a temporal warden who told you to destroy the abominations of this alternate timeline.
@@ -19977,7 +20027,7 @@ t([[After passing through some kind of time anomaly you met a temporal warden wh
 section "mod-tome/data/quests/trollmire-treasure.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Hidden treasure", "Hidden treasure", "_t")
 t("You have found all the clues leading to the hidden treasure. There should be a way on the third level of the Trollmire.", "You have found all the clues leading to the hidden treasure. There should be a way on the third level of the Trollmire.", "_t")
@@ -19994,9 +20044,8 @@ t("The way to the treasure is to the east. But beware, death probably awaits the
 ------------------------------------------------
 section "mod-tome/data/quests/tutorial-combat-stats.lua"
 
-
 t("Tutorial Finished", "Tutoriel Terminé", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Tutorial: combat stats", "Tutorial: combat stats", "_t")
 t("Explore the Dungeon of Adventurer Enlightenment to learn about ToME's combat mechanics.", "Explore the Dungeon of Adventurer Enlightenment to learn about ToME's combat mechanics.", "_t")
@@ -20011,12 +20060,11 @@ t("Tutorial", "Tutoriel", "_t")
 t("You must venture in the heart of the forest and kill the Lone Wolf, who randomly attacks villagers.", "Vous devez vous aventurer dans le coeur de la forêt et tuer le \"Loup solitaire\", qui attaque aléatoirement des villagois.", "_t")
 t("Tutorial: Movement", "Tutoriel: Mouvements", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/quests/void-gerlyk.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("In the void, no one can hear you scream", "In the void, no one can hear you scream", "_t")
 t("You have destroyed the sorcerers. Sadly, the portal to the Void remains open; the Creator is coming.", "You have destroyed the sorcerers. Sadly, the portal to the Void remains open; the Creator is coming.", "_t")
@@ -20029,7 +20077,7 @@ t("You must now finish what the Sher'tuls started. Take the Staff of Absorption 
 section "mod-tome/data/quests/west-portal.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("There and back again", "There and back again", "_t")
 t("Zemekkys in the Gates of Morning can build a portal back to Maj'Eyal for you.", "Zemekkys in the Gates of Morning can build a portal back to Maj'Eyal for you.", "_t")
@@ -20052,7 +20100,7 @@ t("High Chronomancer Zemekkys", "High Chronomancer Zemekkys", "_t")
 section "mod-tome/data/quests/wild-wild-east.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The wild wild east", "The wild wild east", "_t")
 t("There must be a way to go into the far east from the lair of Golbug. Find it and explore the unknown far east, looking for clues.", "There must be a way to go into the far east from the lair of Golbug. Find it and explore the unknown far east, looking for clues.", "_t")
@@ -20062,12 +20110,9 @@ t("There must be a way to go into the far east from the lair of Golbug. Find it 
 ------------------------------------------------
 section "mod-tome/data/resources.lua"
 
-
-t("Air", "Air", "_t")
 t("Air capacity in your lungs. Entities that need not breathe are not affected.", "Capacité d'air dans vos poumons. Les entités qui n'ont pas besoin de respirer ne sont pas affectées.", "_t")
 t("Stamina", "Endu", "_t")
 t("Stamina represents your physical fatigue.  Most physical abilities consume it.", "L'endurance représente la fatigue physique. La plupart des capacités physiques en consomment.", "_t")
-t("Mana", "Mana", "_t")
 t("Mana represents your reserve of magical energies. Most spells cast consume mana and each sustained spell reduces your maximum mana.", "Le mana représente votre réserve d'énergie magique. La plupart des sorts lancés consomment du mana et chaque sort soutenu réduit votre maximum de mana.", "_t")
 t("Equilibrium", "Equilibre", "_t")
 t("Equilibrium represents your standing in the grand balance of nature. The closer it is to 0 the more balanced you are. Being out of equilibrium will adversely affect your ability to use Wild Gifts.", "L'équilibre représente votre position dans le grand équilibre de la nature. Plus il est proche de 0, plus vous êtes équilibré. Être hors d'équilibre affectera négativement votre capacité à utiliser les dons sauvages.", "_t")
@@ -20083,19 +20128,24 @@ t("Hate", "Haine", "_t")
 t("Hate represents your soul's primal antipathy towards others.  It generally decreases whenever you have no outlet for your rage, and increases when you are damaged or destroy others.", "La haine représente l'antipathie primordiale de votre âme envers les autres. Elle diminue généralement lorsque vous n'avez pas d'exutoire pour votre rage et augmente lorsque vous êtes prenez des dégâts ou que vous éliminez les autres.", "_t")
 t("Paradox", "Paradoxe", "_t")
 t("Paradox represents how much damage you've done to the space-time continuum. A high Paradox score makes Chronomancy less reliable and more dangerous to use but also amplifies its effects.", "Le Paradoxe représente les dégâts que vous avez causés au continuum espace-temps. Un score Paradox élevé rend la Chronomancie moins fiable et plus dangereuse à utiliser, mais amplifie également ses effets.", "_t")
-t("%d/%d (%d%%%%)", "%d/%d (%d%%%%)", "tformat")
-t("%d/%d(anom: %s)", "%d/%d(anom: %s)", "tformat")
-t("Psi", "Psi", "_t")
 t("Psi represents your reserve of psychic energy.", "Psi représente votre réserve d'énergie psychique.", "_t")
 t("Souls", "Âmes", "_t")
 t("This is the number of soul fragments you have extracted from your foes for your own use.", "C'est le nombre de fragments d'âme que vous avez extraits de vos ennemis pour votre propre usage.", "_t")
+-- texte non traduit
+--[==[
+t("Air", "Air", "_t")
+t("Mana", "Mana", "_t")
+t("%d/%d (%d%%%%)", "%d/%d (%d%%%%)", "tformat")
+t("%d/%d(anom: %s)", "%d/%d(anom: %s)", "tformat")
+t("Psi", "Psi", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/rooms/greater_vault.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#GOLD#PLACED GREATER VAULT: %s", "#GOLD#PLACED GREATER VAULT: %s", "log")
 --]==]
@@ -20105,7 +20155,7 @@ t("#GOLD#PLACED GREATER VAULT: %s", "#GOLD#PLACED GREATER VAULT: %s", "log")
 section "mod-tome/data/rooms/lesser_vault.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#PLACED LESSER VAULT: %s", "log")
 --]==]
@@ -20114,54 +20164,69 @@ t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#PLACED LESSER VAULT: %s", "log")
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/celestial.lua"
 
-t("other", "autre", "_t")
--- untranslated text
+t("other", "autre", "talent type")
+-- nouveau texte
+--[==[
+t("guardian", "guardian", "talent type")
+t("chants", "chants", "talent type")
+t("light", "light", "talent type")
+t("combat", "combat", "talent type")
+t("radiance", "radiance", "talent type")
+t("crusader", "crusader", "talent type")
+t("sunlight", "sunlight", "talent type")
+t("sun", "sun", "talent type")
+t("glyphs", "glyphs", "talent type")
+t("twilight", "twilight", "talent type")
+t("star fury", "star fury", "talent type")
+t("hymns", "hymns", "talent type")
+t("circles", "circles", "talent type")
+t("eclipse", "eclipse", "talent type")
+t("Dirges", "Dirges", "talent type")
+t("Darkside", "Darkside", "talent type")
+t("Dark Sun", "Dark Sun", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("celestial", "celestial", "talent category")
-t("guardian", "guardian", "_t")
 t("Your devotion grants you additional protection.", "Your devotion grants you additional protection.", "_t")
-t("chants", "chants", "_t")
 t("Chant the glory of the Sun.", "Chant the glory of the Sun.", "_t")
-t("light", "light", "_t")
 t("Invoke the power of the light to heal and mend.", "Invoke the power of the light to heal and mend.", "_t")
-t("combat", "combat", "_t")
 t("Your devotion allows you to combat your foes with indomitable determination.", "Your devotion allows you to combat your foes with indomitable determination.", "_t")
-t("radiance", "radiance", "_t")
 t("You channel the light of the sun through your body.", "You channel the light of the sun through your body.", "_t")
-t("crusader", "crusader", "_t")
 t("Forgo your shield for the chance to crush your foes with a mighty two handed weapon.", "Forgo your shield for the chance to crush your foes with a mighty two handed weapon.", "_t")
-t("sunlight", "sunlight", "_t")
 t("Summon the power of the Sun to burn your foes.", "Summon the power of the Sun to burn your foes.", "_t")
-t("sun", "sun", "_t")
-t("glyphs", "glyphs", "_t")
 t("Bind the brilliant powers into glyphs to trap your foes.", "Bind the brilliant powers into glyphs to trap your foes.", "_t")
-t("twilight", "twilight", "_t")
 t("Stand between the darkness and the light, harnessing both.", "Stand between the darkness and the light, harnessing both.", "_t")
-t("star fury", "star fury", "_t")
 t("Call the fury of the Stars and the Moon to destroy your foes.", "Call the fury of the Stars and the Moon to destroy your foes.", "_t")
-t("hymns", "hymns", "_t")
 t("Chant the glory of the Moon.", "Chant the glory of the Moon.", "_t")
-t("circles", "circles", "_t")
 t("Bind the power of the Moon into circles at your feet.", "Bind the power of the Moon into circles at your feet.", "_t")
-t("eclipse", "eclipse", "_t")
 t("The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "_t")
 t("Other celestial powers.", "Other celestial powers.", "_t")
 t("Various celestial talents.", "Various celestial talents.", "_t")
-t("Dirges", "Dirges", "_t")
 t("The songs the Fallen sing.", "The songs the Fallen sing.", "_t")
-t("Darkside", "Darkside", "_t")
 t("Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "_t")
-t("Dark Sun", "Dark Sun", "_t")
 t("Celestial combat techniques inspired by the dark places that are not empty.", "Celestial combat techniques inspired by the dark places that are not empty.", "_t")
 t("Sing of death and damnation.", "Sing of death and damnation.", "_t")
 --]==]
 
+-- ancien texte traduit
+t("other", "autre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/chants.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t([[Your passion for singing the praises of the Sun reaches its zenith.
+		Your Chanting now increases your light and fire damage by %d%% and, up to %d times per turn when you are hit by a weapon attack, you will gain %0.1f Positive Energy.
+		These values scale with your Spellpower.]], [[Your passion for singing the praises of the Sun reaches its zenith.
+		Your Chanting now increases your light and fire damage by %d%% and, up to %d times per turn when you are hit by a weapon attack, you will gain %0.1f Positive Energy.
+		These values scale with your Spellpower.]], "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Chant of Fortitude", "Chant of Fortitude", "talent name")
 t([[You chant the glory of the Sun, granting you %d Mental Save and increasing your maximum life by %0.1f%% (Currently:  %d).
@@ -20217,11 +20282,6 @@ t([[Your skill at Chanting now extends the cloak of light, increasing your light
 		Chant of Fortress cures physical effects.
 		Chant of Resistance cures magical effects.]], "tformat")
 t("Chant Radiant", "Chant Radiant", "talent name")
-t([[Your passion for singing the praises of the Sun reaches its zenith.
-		Your Chanting now increases your light and fire damage by %d%% and up to %d times per turn, when you are hit by a weapon attack, you will gain %0.1f Positive.
-		These values scale with your Spellpower.]], [[Your passion for singing the praises of the Sun reaches its zenith.
-		Your Chanting now increases your light and fire damage by %d%% and up to %d times per turn, when you are hit by a weapon attack, you will gain %0.1f Positive.
-		These values scale with your Spellpower.]], "tformat")
 --]==]
 
 
@@ -20229,7 +20289,7 @@ t([[Your passion for singing the praises of the Sun reaches its zenith.
 section "mod-tome/data/talents/celestial/circles.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Circle of Shifting Shadows", "Circle of Shifting Shadows", "talent name")
 t([[Creates a circle of radius %d at your feet; the circle increases your defense and all saves by %d while dealing %0.2f darkness damage per turn to everyone else within its radius. The circle lasts %d turns.
@@ -20258,7 +20318,7 @@ t([[Conjure a surge of celestial power through your circles. Any foe standing wi
 section "mod-tome/data/talents/celestial/combat.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Weapon of Light", "Weapon of Light", "talent name")
 t([[Infuse your weapon with the power of the Sun, adding %0.1f light damage on each melee hit.
@@ -20290,7 +20350,7 @@ t("Any attack that would drop you below 1 hit point instead triggers Second Life
 section "mod-tome/data/talents/celestial/crusader.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Absorption Strike", "Absorption Strike", "talent name")
 t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
@@ -20320,7 +20380,7 @@ t([[Infuse your two handed weapon with light while spinning around.
 section "mod-tome/data/talents/celestial/dark-sun.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Collapse", "Collapse", "talent name")
 t([[Open a radius 1 rift in spacetime at the targeted location for %d turns, increasing in radius by 1 each turn to a maximum of %d.
@@ -20349,7 +20409,7 @@ The shield strength will increase with your Spellpower.]], "tformat")
 section "mod-tome/data/talents/celestial/darkside.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Brutalize", "Brutalize", "talent name")
 t("%s resists the brutality!", "%s resists the brutality!", "logSeen")
@@ -20395,7 +20455,7 @@ Every %d points of positive energy increase the radius by 1 (up to 10).]], "tfor
 section "mod-tome/data/talents/celestial/dirge.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dirge of Famine", "Dirge of Famine", "talent name")
 t([[Sing a song of wasting and desolation which sustains you in hard times.
@@ -20450,7 +20510,7 @@ The damage reduction will increase with your Spellpower.]], "tformat")
 section "mod-tome/data/talents/celestial/eclipse.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Blood Red Moon", "Blood Red Moon", "talent name")
 t("Increases your spell critical chance by %d%%.", "Increases your spell critical chance by %d%%.", "tformat")
@@ -20474,24 +20534,16 @@ t("Shroud foes within radius %d in darkest light, dealing %0.2f light and %0.2f 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/glyphs.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- nouveau texte
 --[==[
-t("Glyphs", "Glyphs", "talent name")
-t("glyph of sunlight", "glyph of sunlight", "_t")
-t("trap", "trap", "_t")
-t("Deals %d light damage and heals the summoner for %d", "Deals %d light damage and heals the summoner for %d", "tformat")
-t("glyph of moonlight", "glyph of moonlight", "_t")
-t("Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "tformat")
-t("glyph of twilight", "glyph of twilight", "_t")
-t("Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "tformat")
 t([[When one of your spells goes critical, you bind glyphs in radius 1 centered on a random target in range %d at the cost of 5 positive and 5 negative energy.
 		Glyphs last for %d turns and cause various effects when an enemy enters their grid.
 		Glyphs will only spawn on enemies that aren't adjacent to an existing glyph.
 		This can only happen every %d game turns.
 		Glyph effects will scale with your Spellpower.
 
-		Avalable glyphs are:
+		Available glyphs are:
 		#ffd700#Glyph of Sunlight#LAST#:  Bind sunlight into a glyph. When triggered it will release a brilliant light, dealing %0.2f light damage and healing you for %d.
 		#7f7f7f#Glyph of Moonlight#LAST#:  Bind moonlight into a glyph. When triggered it will release a fatiguing darkness,  dealing %0.2f darkness damage and reducing the foes damage dealt by %d%% for %d turns.
 		#9D9DC9#Glyph of Twilight#LAST#:  Bind twilight into a glyph. When triggered it will release a burst of twilight, dealing %0.2f light and %0.2f darkness damage and knocking the foe back %d tiles.
@@ -20501,11 +20553,22 @@ t([[When one of your spells goes critical, you bind glyphs in radius 1 centered 
 		This can only happen every %d game turns.
 		Glyph effects will scale with your Spellpower.
 
-		Avalable glyphs are:
+		Available glyphs are:
 		#ffd700#Glyph of Sunlight#LAST#:  Bind sunlight into a glyph. When triggered it will release a brilliant light, dealing %0.2f light damage and healing you for %d.
 		#7f7f7f#Glyph of Moonlight#LAST#:  Bind moonlight into a glyph. When triggered it will release a fatiguing darkness,  dealing %0.2f darkness damage and reducing the foes damage dealt by %d%% for %d turns.
 		#9D9DC9#Glyph of Twilight#LAST#:  Bind twilight into a glyph. When triggered it will release a burst of twilight, dealing %0.2f light and %0.2f darkness damage and knocking the foe back %d tiles.
 		]], "tformat")
+--]==]
+
+-- texte non traduit
+--[==[
+t("Glyphs", "Glyphs", "talent name")
+t("glyph of sunlight", "glyph of sunlight", "_t")
+t("Deals %d light damage and heals the summoner for %d", "Deals %d light damage and heals the summoner for %d", "tformat")
+t("glyph of moonlight", "glyph of moonlight", "_t")
+t("Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "tformat")
+t("glyph of twilight", "glyph of twilight", "_t")
+t("Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "tformat")
 t("Glyphs of Fury", "Glyphs of Fury", "talent name")
 t([[Your glyphs are imbued with celestial fury; they last %d turns longer and when triggered they will deal damage.
 		#ffd700#Glyph of Sunlight#LAST#:  Deals %0.2f light damage.
@@ -20533,7 +20596,7 @@ t([[Destabilize your glyphs, triggering every glyph in radius 10 with an enemy s
 section "mod-tome/data/talents/celestial/guardian.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shield of Light", "Shield of Light", "talent name")
 t([[Infuse your shield with light, healing you for %0.2f each time you take damage at the expense of up to 2 positive energy.
@@ -20570,7 +20633,7 @@ t([[You demonstrate your dedication to the light with a measured attack striking
 section "mod-tome/data/talents/celestial/hymns.lua"
 
 t("%s's %s", "%s de %s", "tformat")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Hymn of Shadows", "Hymn of Shadows", "talent name")
 t([[Chant the glory of the Moons, gaining the agility of shadows.
@@ -20651,7 +20714,7 @@ t([[Your passion for singing the praises of the Moons reaches its zenith.
 section "mod-tome/data/talents/celestial/light.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Healing Light", "Healing Light", "talent name")
 t([[An invigorating ray of Sunlight shines upon you, healing your body for %d life.
@@ -20679,13 +20742,12 @@ t("Places you under the protection of a ray of sunlight. For %d turns, the light
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/other.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("Glyph of Explosion", "Glyph of Explosion", "talent name")
 t("You somehow fail to set the corrosive seed.", "You somehow fail to set the corrosive seed.", "logPlayer")
 t("glyph of explosion", "glyph of explosion", "_t")
-t("trap", "trap", "_t")
 t("Explodes (radius 1) for %d light damage.", "Explodes (radius 1) for %d light damage.", "tformat")
 t("test glyph", "test glyph", "tformat")
 t("Glyph of Paralysis", "Glyph of Paralysis", "talent name")
@@ -20715,7 +20777,7 @@ t([[You bind light in a glyph on the floor. All enemies walking over the glyph w
 section "mod-tome/data/talents/celestial/radiance.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Radiance", "Radiance", "talent name")
 t([[You are so infused with sunlight that your body glows permanently in radius %d, even in dark places.
@@ -20751,7 +20813,7 @@ t([[The light of your Radiance allows you to see that which would normally be un
 section "mod-tome/data/talents/celestial/star-fury.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Moonlight Ray", "Moonlight Ray", "talent name")
 t([[Focuses the power of the Moon into a beam of shadows, doing %0.2f damage.
@@ -20776,7 +20838,7 @@ t([[A star falls on a radius %d area, doing %0.2f darkness damage on impact and 
 section "mod-tome/data/talents/celestial/sun.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Sun Ray", "Sun Ray", "talent name")
 t([[Calls forth a ray of light from the Sun, doing %0.1f Light damage to the target.
@@ -20813,7 +20875,7 @@ t([[You wrap yourself in a cloak of sunlight that empowers your magic and protec
 section "mod-tome/data/talents/celestial/sunlight.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Searing Light", "Searing Light", "talent name")
 t([[Calls the power of the Sun into a searing lance, doing %d damage to the target and leaving a radius 1 area of searing light on the ground for 4 turns that does %d light damage to all foes within it.
@@ -20844,7 +20906,7 @@ t("Release a burst of sunlight beams at %d random foes in radius %d, dealing %d 
 section "mod-tome/data/talents/celestial/twilight.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Twilight", "Twilight", "talent name")
 t([[You stand between the darkness and the light, allowing you to convert 15 positive energy into %d negative energy.
@@ -20887,7 +20949,7 @@ t("Instantly travel to your second jumpgate, as long as you are within %d tiles 
 section "mod-tome/data/talents/chronomancy/age-manipulation.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Turn Back the Clock", "Turn Back the Clock", "talent name")
 t([[Projects a bolt of temporal energy that deals %0.2f temporal damage, and reduces the targets three highest stats by %d for 3 turns.
@@ -20909,8 +20971,8 @@ t([[You revert your body to a previous state, healing yourself for %0.2f life an
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/anomalies.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("Anomaly Rearrange", "Anomaly Rearrange", "talent name")
 t("@Source@ causes a spacetime hiccup.", "@Source@ causes a spacetime hiccup.", "_t")
@@ -20930,7 +20992,6 @@ t([[50%% chance that damage the caster takes will be warped to a set target.
 t("Anomaly Wormhole", "Anomaly Wormhole", "talent name")
 t("@Source@ folds the space between two points.", "@Source@ folds the space between two points.", "_t")
 t("wormhole", "wormhole", "_t")
-t("trap", "trap", "_t")
 t("@Target@ moves onto the wormhole.", "@Target@ moves onto the wormhole.", "_t")
 t("%s tries to enter the wormhole but a violent force pushes it back.", "%s tries to enter the wormhole but a violent force pushes it back.", "logSeen")
 t("%s ignores the wormhole.", "%s ignores the wormhole.", "logSeen")
@@ -21056,7 +21117,7 @@ t("Time elementals have been attracted to the timeline.", "Time elementals have 
 section "mod-tome/data/talents/chronomancy/blade-threading.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Warp Blade", "Warp Blade", "talent name")
 t("You require two weapons to use this talent.", "You require two weapons to use this talent.", "logPlayer")
@@ -21087,7 +21148,7 @@ t("While dual-wielding you have a %d%% chance of completely parrying melee attac
 section "mod-tome/data/talents/chronomancy/bow-threading.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Arrow Stitching", "Arrow Stitching", "talent name")
 t([[Fire an arrow for %d%% weapon damage and call up to 2 wardens, depending on available space, that will each fire a single arrow before returning to their timelines.
@@ -21120,68 +21181,75 @@ t("Your arrows now tune your Paradox %0.2f points towards your preferred Paradox
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/chronomancer.lua"
 
-t("Chronomancy", "Chronomancie", "_t")
--- untranslated text
+t("Chronomancy", "Chronomancie", "talent type")
+-- nouveau texte
+--[==[
+t("Blade Threading", "Blade Threading", "talent type")
+t("Bow Threading", "Bow Threading", "talent type")
+t("Temporal Combat", "Temporal Combat", "talent type")
+t("Temporal Guardian", "Temporal Guardian", "talent type")
+t("Threaded Combat", "Threaded Combat", "talent type")
+t("Temporal Hounds", "Temporal Hounds", "talent type")
+t("flux", "flux", "talent type")
+t("gravity", "gravity", "talent type")
+t("matter", "matter", "talent type")
+t("Spacetime Folding", "Spacetime Folding", "talent type")
+t("Speed Control", "Speed Control", "talent type")
+t("stasis", "stasis", "talent type")
+t("Timeline Threading", "Timeline Threading", "talent type")
+t("timetravel", "timetravel", "talent type")
+t("Spellbinding", "Spellbinding", "talent type")
+t("energy", "energy", "talent type")
+t("Fate Weaving", "Fate Weaving", "talent type")
+t("Spacetime Weaving", "Spacetime Weaving", "talent type")
+t("Manifold", "Manifold", "talent type")
+t("Other", "Other", "talent type")
+t("Age Manipulation", "Age Manipulation", "talent type")
+t("Temporal Archery", "Temporal Archery", "talent type")
+t("paradox", "paradox", "talent type")
+t("anomalies", "anomalies", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("chronomancy", "chronomancy", "talent category")
-t("Blade Threading", "Blade Threading", "_t")
 t("A blend of chronomancy and dual-weapon combat.", "A blend of chronomancy and dual-weapon combat.", "_t")
-t("Bow Threading", "Bow Threading", "_t")
 t("A blend of chronomancy and ranged combat.", "A blend of chronomancy and ranged combat.", "_t")
-t("Temporal Combat", "Temporal Combat", "_t")
 t("A blend of chronomancy and physical combat.", "A blend of chronomancy and physical combat.", "_t")
-t("Temporal Guardian", "Temporal Guardian", "_t")
 t("Warden combat training and techniques.", "Warden combat training and techniques.", "_t")
-t("Threaded Combat", "Threaded Combat", "_t")
 t("A blend of ranged and dual-weapon combat.", "A blend of ranged and dual-weapon combat.", "_t")
-t("Temporal Hounds", "Temporal Hounds", "_t")
 t("Call temporal hounds to aid you in combat.", "Call temporal hounds to aid you in combat.", "_t")
-t("flux", "flux", "_t")
 t("Fluctuate spacetime.", "Fluctuate spacetime.", "_t")
-t("gravity", "gravity", "_t")
 t("Call upon the force of gravity to crush, push, and pull your foes.", "Call upon the force of gravity to crush, push, and pull your foes.", "_t")
-t("matter", "matter", "_t")
 t("Change and shape matter itself.", "Change and shape matter itself.", "_t")
-t("Spacetime Folding", "Spacetime Folding", "_t")
 t("Mastery of folding points in space.", "Mastery of folding points in space.", "_t")
-t("Speed Control", "Speed Control", "_t")
 t("Control how fast objects and creatures move through spacetime.", "Control how fast objects and creatures move through spacetime.", "_t")
-t("stasis", "stasis", "_t")
 t("Stabilize spacetime.", "Stabilize spacetime.", "_t")
-t("Timeline Threading", "Timeline Threading", "_t")
 t("Examine and alter the timelines that make up the spacetime continuum.", "Examine and alter the timelines that make up the spacetime continuum.", "_t")
-t("timetravel", "timetravel", "_t")
 t("Directly manipulate the flow of time", "Directly manipulate the flow of time", "_t")
-t("Spellbinding", "Spellbinding", "_t")
 t("Manipulate chronomantic spells.", "Manipulate chronomantic spells.", "_t")
 t("Allows you to glimpse the future, or become more aware of the present.", "Allows you to glimpse the future, or become more aware of the present.", "_t")
-t("energy", "energy", "_t")
 t("Manipulate raw energy by addition or subtraction.", "Manipulate raw energy by addition or subtraction.", "_t")
-t("Fate Weaving", "Fate Weaving", "_t")
 t("Weave the threads of fate.", "Weave the threads of fate.", "_t")
-t("Spacetime Weaving", "Spacetime Weaving", "_t")
 t("Weave the threads of spacetime.", "Weave the threads of spacetime.", "_t")
-t("Manifold", "Manifold", "_t")
 t("Passive effects that Weapon Folding can trigger.", "Passive effects that Weapon Folding can trigger.", "_t")
-t("Other", "Other", "_t")
 t("Miscellaneous Chronomancy effects.", "Miscellaneous Chronomancy effects.", "_t")
-t("Age Manipulation", "Age Manipulation", "_t")
 t("Manipulate the age of creatures you encounter.", "Manipulate the age of creatures you encounter.", "_t")
-t("Temporal Archery", "Temporal Archery", "_t")
-t("paradox", "paradox", "_t")
 t("Break the laws of spacetime.", "Break the laws of spacetime.", "_t")
-t("anomalies", "anomalies", "_t")
 t("Spacetime anomalies that can randomly occur when paradox is to high.", "Spacetime anomalies that can randomly occur when paradox is to high.", "_t")
 t("%s's temporal clone", "%s's temporal clone", "tformat")
 t("A creature from another timeline.", "A creature from another timeline.", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Chronomancy", "Chronomancie", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/chronomancy.lua"
 
+t("Contingency", "Contingence", "talent name")
 t("None", "Aucune", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Precognition", "Precognition", "talent name")
 t([[You peer into the future, sensing creatures and traps in a radius of %d for %d turns.
@@ -21193,7 +21261,6 @@ t([[Gain %d defense and %d%% chance to shrug off critical hits.
 		These bonuses scale with your Magic stat.]], [[Gain %d defense and %d%% chance to shrug off critical hits.
 		If you have Precognition or See the Threads active these bonuses will be added to those effects, granting additional defense and chance to shrug off critical hits.
 		These bonuses scale with your Magic stat.]], "tformat")
-t("Contingency", "Contingency", "talent name")
 t("#LIGHT_RED#Your Contingency has failed to cast %s!", "#LIGHT_RED#Your Contingency has failed to cast %s!", "logPlayer")
 t("#STEEL_BLUE#Your Contingency triggered %s!", "#STEEL_BLUE#Your Contingency triggered %s!", "logPlayer")
 t([[Choose an activatable spell that affects only you, does not require a target, and does not have a fixed cooldown.  When you take damage that reduces your life below %d%% the spell will automatically cast.
@@ -21224,7 +21291,7 @@ t([[You peer into three possible futures, allowing you to explore each for %d tu
 section "mod-tome/data/talents/chronomancy/energy.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Energy Decomposition", "Energy Decomposition", "talent name")
 t("%s(%d dissipated)#LAST#", "%s(%d dissipated)#LAST#", "tformat")
@@ -21250,7 +21317,7 @@ t("Each turn, for the next %d turns, one of the target's sustained talents will 
 section "mod-tome/data/talents/chronomancy/fate-weaving.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Spin Fate", "Spin Fate", "talent name")
 t([[Each time you would take damage from someone else you gain one Spin, increasing your defense and saves by %d for three turns.
@@ -21275,7 +21342,7 @@ t([[For the next %d turns you displace %d%% of any damage you receive onto a ran
 section "mod-tome/data/talents/chronomancy/flux.lua"
 
 t("#STEEL_BLUE#Targeting %s", "#STEEL_BLUE#Cible %s", "saySimple")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Induce Anomaly", "Induce Anomaly", "talent name")
 t([[Create an anomaly, reducing your Paradox by %d.  This spell will never produce a major anomaly.
@@ -21319,7 +21386,7 @@ t([[If Twist Fate is not on cooldown minor anomalies will be held for %d turns, 
 section "mod-tome/data/talents/chronomancy/gravity.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Repulsion Blast", "Repulsion Blast", "talent name")
 t("%s slams into something solid!", "%s slams into something solid!", "logSeen")
@@ -21354,7 +21421,7 @@ t([[Increases local gravity in a radius of %d for %d turns, dealing %0.2f physic
 section "mod-tome/data/talents/chronomancy/guardian.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Strength of Purpose", "Strength of Purpose", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using swords, axes, maces, knives, or bows.
@@ -21390,7 +21457,7 @@ t([[Attack the target with either your ranged or melee weapons for %d%% weapon d
 section "mod-tome/data/talents/chronomancy/induced-phenomena.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Cosmic Cycle", "Cosmic Cycle", "talent name")
 t("#LIGHT_BLUE#Your cosmic cycle expands.", "#LIGHT_BLUE#Your cosmic cycle expands.", "logPlayer")
@@ -21428,7 +21495,7 @@ t([[While your cosmic cycle is expanding, creatures in its radius have a %d%% ch
 section "mod-tome/data/talents/chronomancy/matter.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dust to Dust", "Dust to Dust", "talent name")
 t([[Fires a beam that turns matter into dust, inflicting %0.2f temporal damage and %0.2f physical (warp) damage.
@@ -21460,11 +21527,8 @@ t([[While active your physical and temporal damage has a %d%% chance to remove o
 section "mod-tome/data/talents/chronomancy/other.lua"
 
 
--- untranslated text
+-- nouveau texte
 --[==[
-t("Spacetime Tuning", "Spacetime Tuning", "talent name")
-t("Spacetime Tuning", "Spacetime Tuning", "_t")
-t("What's your preferred paradox level?", "What's your preferred paradox level?", "_t")
 t([[Use to set your preferred Paradox.  While resting or waiting you'll adjust your Paradox towards this number at the rate of %d per turn.
 		Your Paradox modifier is factored into the duration and spellpower of all chronomancy spells.
 
@@ -21473,7 +21537,7 @@ t([[Use to set your preferred Paradox.  While resting or waiting you'll adjust y
 		Spellpower for Chronomancy :  %d
 		Willpower Paradox Modifier : -%d
 		Paradox Sustain Modifier : +%d
-		Total Modifed Paradox :  %d
+		Total Modified Paradox :  %d
 		Current Anomaly Chance :  %d%%]], [[Use to set your preferred Paradox.  While resting or waiting you'll adjust your Paradox towards this number at the rate of %d per turn.
 		Your Paradox modifier is factored into the duration and spellpower of all chronomancy spells.
 
@@ -21482,8 +21546,15 @@ t([[Use to set your preferred Paradox.  While resting or waiting you'll adjust y
 		Spellpower for Chronomancy :  %d
 		Willpower Paradox Modifier : -%d
 		Paradox Sustain Modifier : +%d
-		Total Modifed Paradox :  %d
+		Total Modified Paradox :  %d
 		Current Anomaly Chance :  %d%%]], "tformat")
+--]==]
+
+-- texte non traduit
+--[==[
+t("Spacetime Tuning", "Spacetime Tuning", "talent name")
+t("Spacetime Tuning", "Spacetime Tuning", "_t")
+t("What's your preferred paradox level?", "What's your preferred paradox level?", "_t")
 t("Slow", "Slow", "talent name")
 t([[Creates a time distortion in a radius of %d that lasts for %d turns, decreasing global speed by %d%% for 3 turns and inflicting %0.2f temporal damage each turn to all targets within the area.
 		The slow effect and damage dealt will scale with your Spellpower.]], [[Creates a time distortion in a radius of %d that lasts for %d turns, decreasing global speed by %d%% for 3 turns and inflicting %0.2f temporal damage each turn to all targets within the area.
@@ -21593,13 +21664,13 @@ t([[Attempts to pull the target apart at a molecular level, inflicting %0.2f tem
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/spacetime-folding.lua"
 
+t("trap", "piège", "_t")
 t("The teleport fizzles!", "La téléportation foire!", "logSeen")
--- untranslated text
+-- texte non traduit
 --[==[
 t("warp mine: %s", "warp mine: %s", "tformat")
 t("toward", "toward", "_t")
 t("away", "away", "_t")
-t("trap", "trap", "_t")
 t("%s resists the teleport!", "%s resists the teleport!", "logSeen")
 t("Warp Mine Toward", "Warp Mine Toward", "talent name")
 t([[Lay Warp Mines in a radius of 1 that teleport enemies to you and inflict %0.2f physical and %0.2f temporal (warp) damage.
@@ -21651,8 +21722,8 @@ t([[Create a radius three anti-teleport field for %d turns and daze all enemies 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/spacetime-weaving.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("Dimensional Step", "Dimensional Step", "talent name")
 t("You do not have line of sight.", "You do not have line of sight.", "logPlayer")
@@ -21670,7 +21741,6 @@ t("Wormhole", "Wormhole", "talent name")
 t("You can't place a wormhole entrance here.", "You can't place a wormhole entrance here.", "logPlayer")
 t("You can't place a wormhole exit here.", "You can't place a wormhole exit here.", "logPlayer")
 t("wormhole", "wormhole", "_t")
-t("trap", "trap", "_t")
 t("@Target@ moves onto the wormhole.", "@Target@ moves onto the wormhole.", "_t")
 t("%s tries to enter the wormhole but a violent force pushes it back.", "%s tries to enter the wormhole but a violent force pushes it back.", "logSeen")
 t("%s ignores the wormhole.", "%s ignores the wormhole.", "logSeen")
@@ -21692,7 +21762,7 @@ t([[When you teleport you fire a pulse that jolts enemies out of phase in a radi
 section "mod-tome/data/talents/chronomancy/speed-control.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Celerity", "Celerity", "talent name")
 t("When you move you gain %d%% movement speed for %d turns.  This effect stacks up to three times but can only occur once per turn.", "When you move you gain %d%% movement speed for %d turns.  This effect stacks up to three times but can only occur once per turn.", "tformat")
@@ -21711,10 +21781,13 @@ t("Gain %d turns.  During this time your damage will be reduced by %d%%.", "Gain
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/spellbinding.lua"
 
+t("Empower", "Amélioration", "talent name")
 t("None", "Aucune", "_t")
--- untranslated text
+t("Extension", "Prolongation", "talent name")
+t("Matrix", "Matrice", "talent name")
+t("Quicken", "Accélération", "talent name")
+-- texte non traduit
 --[==[
-t("Empower", "Empower", "talent name")
 t([[Empowers the selected chronomancy spell, increasing spellpower when casting it by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
@@ -21722,7 +21795,6 @@ t([[Empowers the selected chronomancy spell, increasing spellpower when casting 
 		Each spell can only be spellbound in one way at a time.
 		
 		Current Empowered Spell: %s]], "tformat")
-t("Extension", "Extension", "talent name")
 t([[Extends the duration of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
@@ -21730,7 +21802,6 @@ t([[Extends the duration of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
 		Current Extended Spell: %s]], "tformat")
-t("Matrix", "Matrix", "talent name")
 t([[Reduces the cooldown of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
@@ -21738,7 +21809,6 @@ t([[Reduces the cooldown of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
 		Current Matrix Spell: %s]], "tformat")
-t("Quicken", "Quicken", "talent name")
 t([[Reduces the casting speed of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
@@ -21753,7 +21823,7 @@ t([[Reduces the casting speed of the selected chronomancy spell by %d%%.
 section "mod-tome/data/talents/chronomancy/stasis.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Spacetime Stability", "Spacetime Stability", "talent name")
 t([[You automatically adjust your Paradox %0.2f points towards your preferred Paradox each turn.
@@ -21784,7 +21854,7 @@ t([[For the next %d turns you may not create minor anomalies.  You do not regain
 section "mod-tome/data/talents/chronomancy/temporal-archery.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Phase Shot", "Phase Shot", "talent name")
 t("You fire a shot that phases out of time and space allowing it to virtually ignore armor.  The shot will deal %d%% weapon damage as temporal damage to its target.", "You fire a shot that phases out of time and space allowing it to virtually ignore armor.  The shot will deal %d%% weapon damage as temporal damage to its target.", "tformat")
@@ -21805,7 +21875,7 @@ t([[You pause time around you long enough to fire a single shot, doing %d%% dama
 section "mod-tome/data/talents/chronomancy/temporal-combat.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Fold Fate", "Fold Fate", "talent name")
 t([[When you hit with Weapon Folding you have a %d%% chance of dealing an additional %0.2f temporal damage to enemies in a radius of %d.
@@ -21863,7 +21933,7 @@ t([[Attack the target with either your ranged or melee weapons for %d%% damage.
 section "mod-tome/data/talents/chronomancy/temporal-hounds.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("A trained hound that appears to be all at once a little puppy and a toothless old dog.", "A trained hound that appears to be all at once a little puppy and a toothless old dog.", "_t")
 t("temporal-hound", "temporal-hound", "_t")
@@ -21906,7 +21976,7 @@ t([[Command your Temporal Hounds to breathe time, dealing %0.2f temporal damage 
 section "mod-tome/data/talents/chronomancy/threaded-combat.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Thread Walk", "Thread Walk", "talent name")
 t("You require a weapon to use this talent.", "You require a weapon to use this talent.", "logPlayer")
@@ -21943,7 +22013,7 @@ t([[When you hit with a melee or arrow attack, there is a %d%% chance that a war
 section "mod-tome/data/talents/chronomancy/timeline-threading.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Rethread", "Rethread", "talent name")
 t([[Rethread the timeline, dealing %0.2f temporal damage to the target before moving on to a second target.
@@ -21984,7 +22054,7 @@ t([[Over the next %d turns, you attempt to remove the target from the timeline, 
 section "mod-tome/data/talents/chronomancy/timetravel.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Temporal Bolt", "Temporal Bolt", "talent name")
 t("Temporal Bolt", "Temporal Bolt", "_t")
@@ -22021,7 +22091,7 @@ t([[Creates a temporal echo in a radius of %d around you.  Affected targets take
 section "mod-tome/data/talents/corruptions/blight.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dark Ritual", "Dark Ritual", "talent name")
 t([[Increases your spell critical damage multiplier by %d%%.
@@ -22060,7 +22130,7 @@ t([[A furious storm of blighted poison rages around the caster in a radius of %d
 section "mod-tome/data/talents/corruptions/blood.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Blood Spray", "Blood Spray", "talent name")
 t([[You extract corrupted blood from your own body, hitting everything in a frontal cone of radius %d for %0.2f blight damage.
@@ -22093,7 +22163,7 @@ t([[Concentrate on the corruption you bring, increasing your spell critical chan
 section "mod-tome/data/talents/corruptions/bone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Bone Spear", "Bone Spear", "talent name")
 t([[Conjures up a spear of bones, doing %0.2f physical damage to all targets in a line.  Each target takes an additional %d%% damage for each magical debuff they are afflicted with up to a max of %d%% (%d).
@@ -22127,36 +22197,40 @@ t([[Bone shields start circling around you. They will each fully absorb one inst
 section "mod-tome/data/talents/corruptions/corruptions.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t("sanguisuge", "sanguisuge", "talent type")
+t("torment", "torment", "talent type")
+t("vim", "vim", "talent type")
+t("bone", "bone", "talent type")
+t("hexes", "hexes", "talent type")
+t("curses", "curses", "talent type")
+t("vile life", "vile life", "talent type")
+t("plague", "plague", "talent type")
+t("scourge", "scourge", "talent type")
+t("reaving combat", "reaving combat", "talent type")
+t("blood", "blood", "talent type")
+t("blight", "blight", "talent type")
+t("Shadowflame", "Shadowflame", "talent type")
+t("rot", "rot", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("corruption", "corruption", "talent category")
-t("sanguisuge", "sanguisuge", "_t")
 t("Manipulate life force to feed your own dark powers.", "Manipulate life force to feed your own dark powers.", "_t")
-t("torment", "torment", "_t")
 t("All the tools to torment your foes.", "All the tools to torment your foes.", "_t")
-t("vim", "vim", "_t")
 t("Touch the very essence of your victims.", "Touch the very essence of your victims.", "_t")
-t("bone", "bone", "_t")
 t("Harness the power of bones.", "Harness the power of bones.", "_t")
-t("hexes", "hexes", "_t")
 t("Hex your foes, hindering and crippling them.", "Hex your foes, hindering and crippling them.", "_t")
-t("curses", "curses", "_t")
 t("Curse your foes, hindering and crippling them.", "Curse your foes, hindering and crippling them.", "_t")
-t("vile life", "vile life", "_t")
 t("Manipulate life for your vile needs.", "Manipulate life for your vile needs.", "_t")
-t("plague", "plague", "_t")
 t("Spread diseases to your foes.", "Spread diseases to your foes.", "_t")
-t("scourge", "scourge", "_t")
 t("Bring pain and destruction to the world.", "Bring pain and destruction to the world.", "_t")
-t("reaving combat", "reaving combat", "_t")
 t("Enhanced melee combat through the dark arts.", "Enhanced melee combat through the dark arts.", "_t")
-t("blood", "blood", "_t")
 t("Harness the power of blood, both your own and your foes'.", "Harness the power of blood, both your own and your foes'.", "_t")
-t("blight", "blight", "_t")
 t("Bring corruption and decay to all who oppose you.", "Bring corruption and decay to all who oppose you.", "_t")
-t("Shadowflame", "Shadowflame", "_t")
 t("Harness the power of the demonic shadowflame.", "Harness the power of the demonic shadowflame.", "_t")
-t("rot", "rot", "_t")
 t("Become one with rot and decay.", "Become one with rot and decay.", "_t")
 --]==]
 
@@ -22165,7 +22239,7 @@ t("Become one with rot and decay.", "Become one with rot and decay.", "_t")
 section "mod-tome/data/talents/corruptions/curses.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Curse of Defenselessness", "Curse of Defenselessness", "talent name")
 t([[Curses your target, decreasing its Defense and all saves by %d for 5 turns.  This cannot be saved against.
@@ -22190,7 +22264,7 @@ t([[Curses your target, decreasing all its resistances by %d%% for 7 turns.
 section "mod-tome/data/talents/corruptions/hexes.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Pacification Hex", "Pacification Hex", "talent name")
 t([[Hexes your target, dazing it and everything in a 2 radius ball around it for 3 turns and giving a %d%% chance to daze affected targets again each turn for 20 turns.
@@ -22217,7 +22291,7 @@ t([[Hexes your target, forcing it to be your thrall for %d turns.
 section "mod-tome/data/talents/corruptions/plague.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Virulent Disease", "Virulent Disease", "talent name")
 t("%s resists the disease!", "%s resists the disease!", "logSeen")
@@ -22258,7 +22332,7 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 section "mod-tome/data/talents/corruptions/reaving-combat.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Corrupted Strength", "Corrupted Strength", "talent name")
 t([[Allows you to dual wield any type of one handed weapons, and increases the damage of the off-hand weapon to %d%%.
@@ -22289,7 +22363,7 @@ t([[Your blood turns into an acidic mixture. When you get hit, the attacker is s
 section "mod-tome/data/talents/corruptions/rot.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Infectious Bite", "Infectious Bite", "talent name")
 t("@Source@ bites blight poison into @target@.", "@Source@ bites blight poison into @target@.", "_t")
@@ -22341,7 +22415,7 @@ The damage dealt will increase with your Spellpower.]], "tformat")
 section "mod-tome/data/talents/corruptions/sanguisuge.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Drain", "Drain", "talent name")
 t([[Fires a bolt of blight, doing %0.2f blight damage and replenishing 20%% of it as vim energy.
@@ -22368,7 +22442,7 @@ t([[Feed on the pain you cause your foes.
 section "mod-tome/data/talents/corruptions/scourge.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Virulent Strike", "Virulent Strike", "talent name")
 t("You cannot use Virulent Strike without two weapons!", "You cannot use Virulent Strike without two weapons!", "logPlayer")
@@ -22394,7 +22468,7 @@ t("Corrupt the target reducing disease immunity by 100%% for 2 turns and strippi
 section "mod-tome/data/talents/corruptions/shadowflame.lua"
 
 t("Fearscape", "Plan de la peur", "talent name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Wraithform", "Wraithform", "talent name")
 t([[Turn into a wraith, allowing you to walk through walls and removing the need to breath for %d turns.
@@ -22441,7 +22515,7 @@ t([[Summon a part of the Fearscape to intersect with the current level.
 section "mod-tome/data/talents/corruptions/torment.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Willful Tormenter", "Willful Tormenter", "talent name")
 t([[You set your mind toward a single goal: the destruction of all your foes.
@@ -22467,7 +22541,7 @@ t([[When you are dealt a blow that reduces your life by at least %d%%, you have 
 section "mod-tome/data/talents/corruptions/vile-life.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Blood Splash", "Blood Splash", "talent name")
 t([[Inflicting pain and death invigorates you.
@@ -22511,7 +22585,7 @@ t([[You transfer up to %d physical or magical detrimental effects currently affe
 section "mod-tome/data/talents/corruptions/vim.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Soul Rot", "Soul Rot", "talent name")
 t([[Projects a bolt of pure blight, doing %0.2f blight damage.
@@ -22540,7 +22614,7 @@ t("Each time a creature affected by vimsense hurts you, you regain %0.2f vim and
 section "mod-tome/data/talents/cunning/ambush.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shadowguard", "Shadowguard", "talent name")
 t([[Your Soothing Darkness talent effect now grants 25%% all damage resistance on exiting stealth.
@@ -22582,7 +22656,7 @@ t([[You veil yourself in shadows and let them control you.
 section "mod-tome/data/talents/cunning/artifice.lua"
 
 t("none", "aucun", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#YELLOW#%s (prepared, level %s)#LAST#:
 ]], [[#YELLOW#%s (prepared, level %s)#LAST#:
@@ -22714,7 +22788,7 @@ t("Your grappling hook is tipped with vicious, venomous barbs. Creatures struck 
 section "mod-tome/data/talents/cunning/called-shots.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Kneecapper", "Kneecapper", "talent name")
 t("%s resists being knocked down.", "%s resists being knocked down.", "logSeen")
@@ -22750,35 +22824,39 @@ t("Your mastery of called shots is unparalleled. and you gain %d%% bonus critica
 section "mod-tome/data/talents/cunning/cunning.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t("stealth", "stealth", "talent type")
+t("trapping", "trapping", "talent type")
+t("traps", "traps", "talent type")
+t("poisons", "poisons", "talent type")
+t("dirty fighting", "dirty fighting", "talent type")
+t("lethality", "lethality", "talent type")
+t("shadow magic", "shadow magic", "talent type")
+t("ambush", "ambush", "talent type")
+t("survival", "survival", "talent type")
+t("tactical", "tactical", "talent type")
+t("scoundrel", "scoundrel", "talent type")
+t("artifice", "artifice", "talent type")
+t("tools", "tools", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("cunning", "cunning", "talent category")
-t("stealth", "stealth", "_t")
 t("Allows the user to enter stealth.", "Allows the user to enter stealth.", "_t")
-t("trapping", "trapping", "_t")
 t("The knowledge of trap laying and assorted trickeries.", "The knowledge of trap laying and assorted trickeries.", "_t")
-t("traps", "traps", "_t")
 t("Collection of known traps.", "Collection of known traps.", "_t")
-t("poisons", "poisons", "_t")
 t("The knowledge of poisons and how to apply them to 'good' effects.", "The knowledge of poisons and how to apply them to 'good' effects.", "_t")
 t("Collection of known poisons.", "Collection of known poisons.", "_t")
-t("dirty fighting", "dirty fighting", "_t")
 t("Teaches various talents to cripple your foes.", "Teaches various talents to cripple your foes.", "_t")
-t("lethality", "lethality", "_t")
 t("How to make your foes feel the pain.", "How to make your foes feel the pain.", "_t")
-t("shadow magic", "shadow magic", "_t")
 t("Blending magic and shadows.", "Blending magic and shadows.", "_t")
-t("ambush", "ambush", "_t")
 t("Using darkness and a bit of magic, you manipulate the shadows.", "Using darkness and a bit of magic, you manipulate the shadows.", "_t")
-t("survival", "survival", "_t")
 t("The knowledge of the dangers of the world, and how to best avoid them.", "The knowledge of the dangers of the world, and how to best avoid them.", "_t")
-t("tactical", "tactical", "_t")
 t("Tactical combat abilities.", "Tactical combat abilities.", "_t")
-t("scoundrel", "scoundrel", "_t")
 t("The use of ungentlemanly techniques.", "The use of ungentlemanly techniques.", "_t")
-t("artifice", "artifice", "_t")
 t("Create and use cunning tools.", "Create and use cunning tools.", "_t")
-t("tools", "tools", "_t")
 t("Artificer's tools.", "Artificer's tools.", "_t")
 t("Called Shots", "Called Shots", "_t")
 t("Inflict maximum pain to specific places on your enemies.", "Inflict maximum pain to specific places on your enemies.", "_t")
@@ -22790,7 +22868,7 @@ t("Talent not unlocked", "Talent not unlocked", "_t")
 section "mod-tome/data/talents/cunning/dirty.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dirty Fighting", "Dirty Fighting", "talent name")
 t([[You make a low blow against a sensitive point on the target, dealing %d%% unarmed damage. If your attack hits, the target is left reeling and vulnerable, reducing their physical save by %d and their stun, blind, confusion and pin immunities to 50%% of normal for %d turns.
@@ -22820,7 +22898,7 @@ t("Make a painful strike dealing %d%% weapon damage that increases the duration 
 section "mod-tome/data/talents/cunning/lethality.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Lethality", "Lethality", "talent name")
 t([[You have learned to find and hit weak spots. All your strikes have a %0.1f%% greater chance to be critical hits, and your critical hits do %0.1f%% more damage.
@@ -22847,7 +22925,7 @@ t("Your quick wits allow you to reset the cooldown of up to %d of your combat ta
 section "mod-tome/data/talents/cunning/poisons.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Apply Poison", "Apply Poison", "talent name")
 t("%s resists the vile poison!", "%s resists the vile poison!", "logSeen")
@@ -22924,7 +23002,7 @@ t([[Enhance your Deadly Poison with a stoning agent.  Whenever you apply Deadly 
 section "mod-tome/data/talents/cunning/scoundrel.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Lacerating Strikes", "Lacerating Strikes", "talent name")
 t("Your melee and ranged attacks have a %d%% chance to shred enemies inflicting an additional 100%% of the damage dealt as a bleed over 4 turns.", "Your melee and ranged attacks have a %d%% chance to shred enemies inflicting an additional 100%% of the damage dealt as a bleed over 4 turns.", "tformat")
@@ -22959,7 +23037,7 @@ t([[Your melee and ranged attacks leave your foes unable to focus on any complex
 section "mod-tome/data/talents/cunning/shadow-magic.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shadow Combat", "Shadow Combat", "talent name")
 t([[Channel raw magical energy into your melee attacks; each blow you land will do an additional %.2f darkness damage.
@@ -22989,7 +23067,7 @@ t([[Step through the shadows to your target, dazing it for %d turns and hitting 
 section "mod-tome/data/talents/cunning/stealth.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Stealth", "Stealth", "talent name")
 t("You cannot be stealthy with such heavy armour on!", "You cannot be stealthy with such heavy armour on!", "logPlayer")
@@ -23035,7 +23113,7 @@ t([[Your mastery of stealth allows you to vanish from sight at any time.
 section "mod-tome/data/talents/cunning/survival.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Heightened Senses", "Heightened Senses", "talent name")
 t([[You notice the small things others do not notice, allowing you to "see" creatures in a %d radius even outside of light radius.
@@ -23080,7 +23158,7 @@ t([[You search a nearby grid for a hidden trap (%d detection 'power') and disarm
 section "mod-tome/data/talents/cunning/tactical.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Tactical Expert", "Tactical Expert", "talent name")
 t([[Your Defense is increased by %d for every adjacent visible foe, up to a maximum of +%d Defense.
@@ -23109,14 +23187,13 @@ t([[Systematically find the weaknesses in your opponents' physical resists, at t
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/traps.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("#CADET_BLUE#Placing %s...", "#CADET_BLUE#Placing %s...", "logPlayer")
 t("You cannot place a trap there.", "You cannot place a trap there.", "logPlayer")
 t("There is already a trap there.", "There is already a trap there.", "_t")
 t("You somehow fail to set the trap.", "You somehow fail to set the trap.", "_t")
-t("trap", "trap", "_t")
 t("#CADET_BLUE#Your %s has expired.", "#CADET_BLUE#Your %s has expired.", "logPlayer")
 t("@Source@ activates a prepared device.", "@Source@ activates a prepared device.", "_t")
 t("shadowy assassin", "shadowy assassin", "_t")
@@ -23324,25 +23401,13 @@ t("Lay a trap armed with potent venom.  A creature passing over it will be dealt
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/advanced-shadowmancy.lua"
 
-
--- new text
---[==[
-t([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
-		Each successive shadow deal 40%% less damage.
-		For the purpose of this talent, you force your shadows through any walls in their way.
-		Damage increases with your Mindpower.]], [[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
-		Each successive shadow deal 40%% less damage.
-		For the purpose of this talent, you force your shadows through any walls in their way.
-		Damage increases with your Mindpower.]], "tformat")
---]==]
-
--- untranslated text
+t("Stone", "Pierre", "talent name")
+-- texte non traduit
 --[==[
 t("Merge", "Merge", "talent name")
 t([[Target a nearby shadow, and command it to merge into a nearby enemy, reducing their damage by %d%% for 5 turns.
 		Killing your shadow releases some of your inner hatred, restoring 8 Hate to yourself.]], [[Target a nearby shadow, and command it to merge into a nearby enemy, reducing their damage by %d%% for 5 turns.
 		Killing your shadow releases some of your inner hatred, restoring 8 Hate to yourself.]], "tformat")
-t("Stone", "Stone", "talent name")
 t([[Target a nearby shadow, and force it to slam into a nearby enemy, dealing %0.1f Physical damage.
 		Your shadow will then set them as their target, and they will target your shadow.
 		Damage increases with your Mindpower.]], [[Target a nearby shadow, and force it to slam into a nearby enemy, dealing %0.1f Physical damage.
@@ -23350,6 +23415,13 @@ t([[Target a nearby shadow, and force it to slam into a nearby enemy, dealing %0
 		Damage increases with your Mindpower.]], "tformat")
 t("Shadow's Path", "Shadow's Path", "talent name")
 t("You need a shadow in sight range!", "You need a shadow in sight range!", "logPlayer")
+t([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
+		Each successive shadow deal 40%% less damage.
+		For the purpose of this talent, you force your shadows through any walls in their way.
+		Damage increases with your Mindpower.]], [[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
+		Each successive shadow deal 40%% less damage.
+		For the purpose of this talent, you force your shadows through any walls in their way.
+		Damage increases with your Mindpower.]], "tformat")
 t("Cursed Bolt", "Cursed Bolt", "talent name")
 t([[Share your hatred with all shadows within sight range, gaining temporary full control. You then fire a blast of pure hatred from all affected shadows, dealing %0.1f Mind damage per blast.
 		You cannot cancel this talent once the first bolt is cast.
@@ -23363,7 +23435,7 @@ t([[Share your hatred with all shadows within sight range, gaining temporary ful
 section "mod-tome/data/talents/cursed/bloodstained.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Blood Clot", "Blood Clot", "talent name")
 t("Reduces the damage you take from bleeds by %d%%", "Reduces the damage you take from bleeds by %d%%", "tformat")
@@ -23404,7 +23476,7 @@ Each point in Bloodstained talents reduces the amount of damage you take from bl
 section "mod-tome/data/talents/cursed/crimson-templar.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shared Agony", "Shared Agony", "talent name")
 t("%s(%d shared agony)#LAST#", "%s(%d shared agony)#LAST#", "tformat")
@@ -23450,7 +23522,7 @@ t([[Draw on the wounds of enemies within range 10, healing yourself and putting 
 section "mod-tome/data/talents/cursed/cursed-aura.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Defiling Touch", "Defiling Touch", "talent name")
 t("curse", "curse", "_t")
@@ -23519,7 +23591,7 @@ t([[Instill a part of your living curse into a weapon in your inventory, and tos
 section "mod-tome/data/talents/cursed/cursed-form.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Unnatural Body", "Unnatural Body", "talent name")
 t([[Your body's strength is fed by your hatred. This causes most forms of healing to be between 50%% effective (at 0 Hate) to 100%% effective (at 100+ Hate). In addition, after each kill, you store the waning life force to invigorate yourself, restoring %d life (limited by the foe's maximum life, up to a maximum of %d at any time).  You can heal no more than %0.1f life per turn this way, and it is not affected by your hatred level or other effects.
@@ -23537,61 +23609,67 @@ t("You rise to meet the pain that others would inflict on you. Every turn you ta
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/cursed.lua"
 
-t("Cursed", "Maudit", "_t")
--- untranslated text
+t("Cursed", "Maudit", "talent type")
+-- nouveau texte
+--[==[
+t("slaughter", "slaughter", "talent type")
+t("endless hunt", "endless hunt", "talent type")
+t("strife", "strife", "talent type")
+t("gloom", "gloom", "talent type")
+t("rampage", "rampage", "talent type")
+t("predator", "predator", "talent type")
+t("dark sustenance", "dark sustenance", "talent type")
+t("force of will", "force of will", "talent type")
+t("darkness", "darkness", "talent type")
+t("shadows", "shadows", "talent type")
+t("punishments", "punishments", "talent type")
+t("one with shadows", "one with shadows", "talent type")
+t("advanced shadowmancy", "advanced shadowmancy", "talent type")
+t("gestures", "gestures", "talent type")
+t("cursed form", "cursed form", "talent type")
+t("cursed aura", "cursed aura", "talent type")
+t("curses", "curses", "talent type")
+t("fears", "fears", "talent type")
+t("Bloodstained", "Bloodstained", "talent type")
+t("Crimson Templar", "Crimson Templar", "talent type")
+t("Hatred", "Hatred", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("cursed", "cursed", "talent category")
-t("slaughter", "slaughter", "_t")
 t("Your weapon yearns for its next victim.", "Your weapon yearns for its next victim.", "_t")
-t("endless hunt", "endless hunt", "_t")
 t("Each day, you lift your weary body and begin the unending hunt.", "Each day, you lift your weary body and begin the unending hunt.", "_t")
-t("strife", "strife", "_t")
 t("The battlefield is your home; death and confusion, your comfort.", "The battlefield is your home; death and confusion, your comfort.", "_t")
-t("gloom", "gloom", "_t")
 t("All those in your sight must share your despair.", "All those in your sight must share your despair.", "_t")
-t("rampage", "rampage", "_t")
 t("Let loose the hate that has grown within.", "Let loose the hate that has grown within.", "_t")
-t("predator", "predator", "_t")
 t("Track and kill your prey with single-minded focus.", "Track and kill your prey with single-minded focus.", "_t")
-t("dark sustenance", "dark sustenance", "_t")
 t("The powers of your foes feed your dark will.", "The powers of your foes feed your dark will.", "_t")
-t("force of will", "force of will", "_t")
 t("Invoke the powerful force of your will.", "Invoke the powerful force of your will.", "_t")
-t("darkness", "darkness", "_t")
 t("Harness the power of darkness to envelop your foes.", "Harness the power of darkness to envelop your foes.", "_t")
-t("shadows", "shadows", "_t")
 t("Summon shadows from the darkness to aid you.", "Summon shadows from the darkness to aid you.", "_t")
-t("punishments", "punishments", "_t")
 t("Your hate becomes punishment in the minds of your foes.", "Your hate becomes punishment in the minds of your foes.", "_t")
-t("one with shadows", "one with shadows", "_t")
 t("Harness your shadows to their full potential.", "Harness your shadows to their full potential.", "_t")
-t("advanced shadowmancy", "advanced shadowmancy", "_t")
 t("Gain more direct control over your shadows with physical damage talents.", "Gain more direct control over your shadows with physical damage talents.", "_t")
-t("gestures", "gestures", "_t")
 t("Enhance the power of your mind with gestures.", "Enhance the power of your mind with gestures.", "_t")
-t("cursed form", "cursed form", "_t")
 t("You are wracked with the dark energies of the curse.", "You are wracked with the dark energies of the curse.", "_t")
-t("cursed aura", "cursed aura", "_t")
 t("The things you surround yourself with soon wither away.", "The things you surround yourself with soon wither away.", "_t")
-t("curses", "curses", "_t")
 t("The effects of cursed objects.", "The effects of cursed objects.", "_t")
-t("fears", "fears", "_t")
 t("Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "_t")
-t("Bloodstained", "Bloodstained", "_t")
 t("You, like your weapons, are tainted forever.", "You, like your weapons, are tainted forever.", "_t")
-t("Crimson Templar", "Crimson Templar", "_t")
 t("Blood is power. Let the rivers run red.", "Blood is power. Let the rivers run red.", "_t")
-t("Hatred", "Hatred", "_t")
 t("All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "_t")
 t("Hate-powered abilities that don't belong anywhere else.", "Hate-powered abilities that don't belong anywhere else.", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Cursed", "Maudit", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/dark-figure.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Radiant Fear", "Radiant Fear", "talent name")
 t("You are too far to from the target!", "You are too far to from the target!", "logPlayer")
@@ -23609,7 +23687,7 @@ t("You hide your terrible nature behind a pitiful figure. Those that see you fro
 section "mod-tome/data/talents/cursed/dark-sustenance.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Feed", "Feed", "talent name")
 t("You can only gain sustenance from your foes!", "You can only gain sustenance from your foes!", "logPlayer")
@@ -23637,28 +23715,34 @@ t([[Enhances your feeding by reducing your targeted foe's resistances, multiplyi
 section "mod-tome/data/talents/cursed/darkness.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t([[Creeping dark slowly spreads from the target location and %d spots in a radius of %d around the targeted location. The dark deals %0.2f darkness damage each turn to anything in its area, and blocks the sight of any who do not possess Dark Vision or some other magical means of seeing. The darkness seeps into adjacent tiles at random and slowly dissipates over time.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Creeping dark slowly spreads from the target location and %d spots in a radius of %d around the targeted location. The dark deals %0.2f darkness damage each turn to anything in its area, and blocks the sight of any who do not possess Dark Vision or some other magical means of seeing. The darkness seeps into adjacent tiles at random and slowly dissipates over time.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
+t([[Sends a torrent of searing darkness through your foes, doing %d darkness damage. There is a 25%% chance the rushing darkness will blind them for 3 turns and cause them to lose track of their target.
+		If you know the Creeping Darkness talent, a short-lived trail of darkness is left in the beam's wake. Its damage is identical to that of Creeping Darkness's.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Sends a torrent of searing darkness through your foes, doing %d darkness damage. There is a 25%% chance the rushing darkness will blind them for 3 turns and cause them to lose track of their target.
+		If you know the Creeping Darkness talent, a short-lived trail of darkness is left in the beam's wake. Its damage is identical to that of Creeping Darkness's.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
+t([[Spawn tendrils of darkness to pursue a single target for up to 12 turns, leaving behind a trail of creeping darkness as they move. Targets seized by the tendrils are pinned for %d turns and shrouded in darkness. The darkness deals %0.2f damage per turn to those within.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Spawn tendrils of darkness to pursue a single target for up to 12 turns, leaving behind a trail of creeping darkness as they move. Targets seized by the tendrils are pinned for %d turns and shrouded in darkness. The darkness deals %0.2f damage per turn to those within.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("dark tendril", "dark tendril", "_t")
 t("The dark tendrils dissipate.", "The dark tendrils dissipate.", "logSeen")
 t("The dark tendrils lash at %s.", "The dark tendrils lash at %s.", "logSeen")
 t("Creeping Darkness", "Creeping Darkness", "talent name")
 t("%s's creeping dark", "%s's creeping dark", "tformat")
-t([[Creeping dark slowly spreads from the target location and %d spots in a radius of %d around the targeted location. The dark deals %0.2f darkness damage each turn to anything in its area, and blocks the sight of any who do not possess Dark Vision or some other magical means of seeing.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Creeping dark slowly spreads from the target location and %d spots in a radius of %d around the targeted location. The dark deals %0.2f darkness damage each turn to anything in its area, and blocks the sight of any who do not possess Dark Vision or some other magical means of seeing.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
 t("Dark Vision", "Dark Vision", "talent name")
 t([[Your eyes penetrate the darkness to find anyone that may be hiding there. This allows you to see through creeping darkness out to a radius of %d. You can also find your way through the darkness with greater speed (+%d%% movement into creeping darkness).
 		You do +%d%% damage to anything that has entered your creeping dark.]], [[Your eyes penetrate the darkness to find anyone that may be hiding there. This allows you to see through creeping darkness out to a radius of %d. You can also find your way through the darkness with greater speed (+%d%% movement into creeping darkness).
 		You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
 t("Dark Torrent", "Dark Torrent", "talent name")
-t([[Sends a torrent of searing darkness through your foes, doing %d damage. There is a 25%% chance the rushing darkness will blind them for 3 turns, and cause them to forget their target.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Sends a torrent of searing darkness through your foes, doing %d damage. There is a 25%% chance the rushing darkness will blind them for 3 turns, and cause them to forget their target.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
 t("Dark Tendrils", "Dark Tendrils", "talent name")
-t([[Send tendrils of creeping dark out to attack your target, and pin them in the darkness for %d turns. Creeping dark will trail behind the tendrils as they move. The darkness does %d damage per turn.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Send tendrils of creeping dark out to attack your target, and pin them in the darkness for %d turns. Creeping dark will trail behind the tendrils as they move. The darkness does %d damage per turn.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
 --]==]
 
 
@@ -23666,7 +23750,16 @@ t([[Send tendrils of creeping dark out to attack your target, and pin them in th
 section "mod-tome/data/talents/cursed/endless-hunt.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t([[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
+
+		This talent will also attack with your shield, if you have one equipped.]], [[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
+
+		This talent will also attack with your shield, if you have one equipped.]], "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Stalk", "Stalk", "talent name")
 t("#F53CBE#You are having trouble focusing on your prey!", "#F53CBE#You are having trouble focusing on your prey!", "logPlayer")
@@ -23681,13 +23774,6 @@ t([[When you focus your attacks on a single foe and strike them in melee for two
 		The accuracy bonus improves with your Willpower, and the melee damage bonus with your Strength.]], "tformat")
 t("Harass Prey", "Harass Prey", "talent name")
 t("#F53CBE#%s's %s is disrupted!", "#F53CBE#%s's %s is disrupted!", "logSeen")
-t([[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
-		Damage reduction increases with the Willpower stat.
-
-		This talent will also attack with your shield, if you have one equipped.]], [[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
-		Damage reduction increases with the Willpower stat.
-
-		This talent will also attack with your shield, if you have one equipped.]], "tformat")
 t("Beckon", "Beckon", "talent name")
 t([[The connection between predator and prey allows you to speak to the mind of your target and beckon them closer. For %d turns, they will try to come to you, even pushing others aside to do so. They will move towards you instead of acting %d%% of the time, but can save verses Mindpower to slow the effect. If they take significant damage, the beckoning may be overcome altogether. The effect makes concentration difficult for your target, reducing Spellpower and Mindpower by %d until they reach you.
 		The Spellpower and Mindpower reduction increases with your Willpower.]], [[The connection between predator and prey allows you to speak to the mind of your target and beckon them closer. For %d turns, they will try to come to you, even pushing others aside to do so. They will move towards you instead of acting %d%% of the time, but can save verses Mindpower to slow the effect. If they take significant damage, the beckoning may be overcome altogether. The effect makes concentration difficult for your target, reducing Spellpower and Mindpower by %d until they reach you.
@@ -23707,7 +23793,7 @@ t([[Let hate fuel your movements. While active, you gain %d%% movement speed. Th
 section "mod-tome/data/talents/cursed/fears.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Instill Fear", "Instill Fear", "talent name")
 t("%s resists the fear!", "%s resists the fear!", "logSeen")
@@ -23750,7 +23836,7 @@ t("Panic your enemies within a range of %d for %d turns. Anyone who fails to mak
 section "mod-tome/data/talents/cursed/force-of-will.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Willful Strike", "Willful Strike", "talent name")
 t("#Source# was blasted %d spaces into #Target#!", "#Source# was blasted %d spaces into #Target#!", "logCombat")
@@ -23790,7 +23876,7 @@ t([[Your fury becomes an unseen force that randomly lashes out at foes around yo
 section "mod-tome/data/talents/cursed/gestures.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Gesture of Pain", "Gesture of Pain", "talent name")
 t("You require two free or mindstar-equipped hands to use Gesture of Pain.", "You require two free or mindstar-equipped hands to use Gesture of Pain.", "logPlayer")
@@ -23825,7 +23911,7 @@ t([[You guard against melee damage with a sweep of your hand. So long as you can
 section "mod-tome/data/talents/cursed/gloom.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Gloom", "Gloom", "talent name")
 t("#F53CBE#Your heart hardens as a powerful foe enters your gloom! (+%d hate)", "#F53CBE#Your heart hardens as a powerful foe enters your gloom! (+%d hate)", "logPlayer")
@@ -23861,7 +23947,7 @@ t([[Your gloom has become a sanctuary from the outside world. Damage from any at
 section "mod-tome/data/talents/cursed/one-with-shadows.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shadow Senses", "Shadow Senses", "talent name")
 t([[Your awareness extends to your shadows.
@@ -23894,7 +23980,7 @@ t([[Your shadows guard you with their lives.
 section "mod-tome/data/talents/cursed/predator.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Predator", "Predator", "talent name")
 t("Improve your predation by learning from past hunts. You gain %0.2f accuracy and %0.2f armor penetration against foes for each foe of that type you have previously slain, to a maximum of %d accuracy and %d apr.", "Improve your predation by learning from past hunts. You gain %0.2f accuracy and %0.2f armor penetration against foes for each foe of that type you have previously slain, to a maximum of %d accuracy and %d apr.", "tformat")
@@ -23920,7 +24006,7 @@ t("Focus your predation on the most worthy prey. Upon entering a level for the f
 section "mod-tome/data/talents/cursed/primal-magic.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Arcane Bolts", "Arcane Bolts", "talent name")
 t([[Each turn for 4 turns you fire a bolt of arcane energy at your nearest enemy inflicting %d damage.
@@ -23945,21 +24031,35 @@ t([[Bathes the target in raw magic inflicting %d damage. Such wild magic is diff
 section "mod-tome/data/talents/cursed/punishments.lua"
 
 t("Madness", "Folie", "talent name")
--- untranslated text
+-- nouveau texte
+--[==[
+t([[Utter a terrible curse against any who dare approach you, inflicting %d mind damage to targets in radius %d. Each affected target (ordered at random) takes %d%% less damage than the last, and has a 25%% chance of suffering Brainlock.
+
+The damage increases with your Mindpower.]], [[Utter a terrible curse against any who dare approach you, inflicting %d mind damage to targets in radius %d. Each affected target (ordered at random) takes %d%% less damage than the last, and has a 25%% chance of suffering Brainlock.
+
+The damage increases with your Mindpower.]], "tformat")
+t([[Infect a target's mind with a virulent whisper that deals %d Mind damage and spreads amongst your foes, dealing damage and feeding you %0.1f Hate for each new victim. Each turn for %d turns, the initial victim will spread the whisper to a new target within %d tiles if one is available; beyond this, all affected targets have a %d%% chance of spreading the effect each turn for 4 turns.
+
+Targets damaged by this ability have a 25%% chance of suffering Brainlock.
+
+The damage increases with your Mindpower.]], [[Infect a target's mind with a virulent whisper that deals %d Mind damage and spreads amongst your foes, dealing damage and feeding you %0.1f Hate for each new victim. Each turn for %d turns, the initial victim will spread the whisper to a new target within %d tiles if one is available; beyond this, all affected targets have a %d%% chance of spreading the effect each turn for 4 turns.
+
+Targets damaged by this ability have a 25%% chance of suffering Brainlock.
+
+The damage increases with your Mindpower.]], "tformat")
+t([[Sear your hatred into the mind of a target, dealing escalating Mind damage each turn over %d turns. The victim will suffer %0.1f damage on the first turn, slowly increasing up to %0.1f damage on the last, dealing %d Mind damage in total. Re-applying the effect resets the damage escalation. The victim has a 25%% chance of suffering Brainlock each turn from the unbearable pain.
+
+The damage increases with your Mindpower.]], [[Sear your hatred into the mind of a target, dealing escalating Mind damage each turn over %d turns. The victim will suffer %0.1f damage on the first turn, slowly increasing up to %0.1f damage on the last, dealing %d Mind damage in total. Re-applying the effect resets the damage escalation. The victim has a 25%% chance of suffering Brainlock each turn from the unbearable pain.
+
+The damage increases with your Mindpower.]], "tformat")
+t("Your hateful will splinters into the minds of those you torture, breaking them down. Each time you inflict Mind damage, the victim has a %0.1f%% chance of going mad for 3 turns unless they save against your Mindpower. The madness will lower the victim's Mind resistance by %0.1f%% and cause them to become confused (50%% power), slowed (30%% power), or stunned for the duration.", "Your hateful will splinters into the minds of those you torture, breaking them down. Each time you inflict Mind damage, the victim has a %0.1f%% chance of going mad for 3 turns unless they save against your Mindpower. The madness will lower the victim's Mind resistance by %0.1f%% and cause them to become confused (50%% power), slowed (30%% power), or stunned for the duration.", "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Reproach", "Reproach", "talent name")
-t([[You unleash your hateful mind on any who dare approach you, inflicing %d mind damage. The attack will hit multiple targets, but each additional target will further reduce damage by %d%%.
-		25%% chance to brainlock. The damage increases with your Mindpower.]], [[You unleash your hateful mind on any who dare approach you, inflicing %d mind damage. The attack will hit multiple targets, but each additional target will further reduce damage by %d%%.
-		25%% chance to brainlock. The damage increases with your Mindpower.]], "tformat")
 t("Hateful Whisper", "Hateful Whisper", "talent name")
-t([[Send a whisper filled with hate to spread throughout your foes. When the whisper is first heard, they will suffer %d mind damage and feed you %d hate. For the first %d turns, the whisper will travel from the original victim to a new one within a range of %0.1f. Every victim of the whisper has a %d%% chance of spreading it to another victim every turn.
-		25%% chance to brainlock. The damage increases with your Mindpower.]], [[Send a whisper filled with hate to spread throughout your foes. When the whisper is first heard, they will suffer %d mind damage and feed you %d hate. For the first %d turns, the whisper will travel from the original victim to a new one within a range of %0.1f. Every victim of the whisper has a %d%% chance of spreading it to another victim every turn.
-		25%% chance to brainlock. The damage increases with your Mindpower.]], "tformat")
 t("Agony", "Agony", "talent name")
-t([[Unleash agony upon your target. The pain will grow over the course of %d turns. The first turn will inflict %d damage, and slowly increase to %d on the last turn (%d total).
-		25%% chance of brainlock. The damage will increase with your Mindpower.]], [[Unleash agony upon your target. The pain will grow over the course of %d turns. The first turn will inflict %d damage, and slowly increase to %d on the last turn (%d total).
-		25%% chance of brainlock. The damage will increase with your Mindpower.]], "tformat")
-t("Every time you inflict mind damage, there is a %d%% chance that your foe must save against your Mindpower or go mad. Madness can cause them to become confused, slowed or stunned for 3 turns, and lowers resistance to mind damage by %d%%.", "Every time you inflict mind damage, there is a %d%% chance that your foe must save against your Mindpower or go mad. Madness can cause them to become confused, slowed or stunned for 3 turns, and lowers resistance to mind damage by %d%%.", "tformat")
 --]==]
 
 
@@ -23967,7 +24067,7 @@ t("Every time you inflict mind damage, there is a %d%% chance that your foe must
 section "mod-tome/data/talents/cursed/rampage.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Rampage", "Rampage", "talent name")
 t("You are already rampaging!", "You are already rampaging!", "logPlayer")
@@ -24007,7 +24107,7 @@ t([[While rampaging, you slam up to %d adjacent opponents, stunning them for %d 
 section "mod-tome/data/talents/cursed/self-hatred.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Self-Sacrifice", "Self-Sacrifice", "talent name")
 t("You can only use this while in combat", "You can only use this while in combat", "logPlayer")
@@ -24040,6 +24140,8 @@ This strength comes at a cost: you lose %d%% of your maximum life every turn.  T
 #{italic}#If you're lucky, this will take everything you've got.#{normal}#]], "tformat")
 t("Self-Judgement", "Self-Judgement", "talent name")
 t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "logCombat")
+t("an attack", "an attack", "_t")
+t("damage", "damage", "_t")
 t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d bled out#LAST#%s)#LAST#", "tformat")
 t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
 
@@ -24053,7 +24155,7 @@ t([[Any direct damage that exceeds %d%% of your maximum life has the excess dama
 section "mod-tome/data/talents/cursed/shadows.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Fade", "Fade", "talent name")
 t("You fade from sight, making you invulnerable until the beginning of your next turn.", "You fade from sight, making you invulnerable until the beginning of your next turn.", "tformat")
@@ -24103,8 +24205,14 @@ t([[Focus your shadows on a single target. Friendly targets will be defended for
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/slaughter.lua"
 
+t("Big", "Grosse", "_t")
+t("Small", "Petite", "_t")
+-- nouveau texte
+--[==[
+t("Medium-sized", "Medium-sized", "_t")
+--]==]
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Slash", "Slash", "talent name")
 t("You require a mainhand weapon to use this talent.", "You require a mainhand weapon to use this talent.", "logPlayer")
@@ -24147,7 +24255,7 @@ t([[While active, every swing of your weapon strikes strikes other adjacent enem
 section "mod-tome/data/talents/cursed/strife.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dominate", "Dominate", "talent name")
 t([[Turn your attention to a nearby foe, and dominate them with your overwhelming presence. If the target fails to save versus your Mindpower, it will be unable to move for %d turns and vulnerable to attacks. They will lose %d Armour, %d Defense and your attacks will gain %d%% resistance penetration. If the target is adjacent to you, your domination will include a melee attack.
@@ -24181,7 +24289,7 @@ t([[Rather than hide from the onslaught, you face down every threat. While activ
 section "mod-tome/data/talents/cursed/traveler.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Hardened", "Hardened", "talent name")
 t("Your travels have hardened you. You gain +%d armor.", "Your travels have hardened you. You gain +%d armor.", "tformat")
@@ -24198,7 +24306,7 @@ t("You have become a keen observer in your travels. Each kill gives you %d%% mor
 section "mod-tome/data/talents/gifts/antimagic.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Resolve", "Resolve", "talent name")
 t([[You stand in the way of magical damage. That which does not kill you will make you stronger.
@@ -24250,7 +24358,7 @@ t("Your Mana Clash talent also removes 4 magical sustains from the target.", "Yo
 section "mod-tome/data/talents/gifts/call.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Meditation", "Meditation", "talent name")
 t("@Source@ interrupts @hisher@ #GREEN#meditation#LAST#.", "@Source@ interrupts @hisher@ #GREEN#meditation#LAST#.", "_t")
@@ -24281,7 +24389,7 @@ t("Your deep link with Nature allows you to reset the cooldown of %d of your wil
 section "mod-tome/data/talents/gifts/cold-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ice Claw", "Ice Claw", "talent name")
 t([[You call upon the mighty claw of a cold drake and rake a wave of freezing cold in front of you, doing %d%% weapon damage as Ice damage in a cone of radius %d. Ice damage gives a chance of freezing the target.
@@ -24323,8 +24431,8 @@ t([[You breathe ice in a frontal cone of radius %d. Any target caught in the are
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/corrosive-blades.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("Acidbeam", "Acidbeam", "talent name")
 t([[Channel acid through your psiblades, extending their reach to create a beam doing %0.1f Acid damage (which can disarm them).
@@ -24338,7 +24446,6 @@ t([[You gain %d%% Acid resistance.
 		When you deal Nature damage to a creature, you gain a %0.1f%% bonus to Acid damage for %d turns.
 		This damage bonus will improve up to 4 times (no more than once each turn) with later Nature damage you do, up to a maximum of %0.1f%%.
 		The resistance and damage increase improve with your Mindpower.]], "tformat")
-t("trap", "trap", "_t")
 t("Corrosive Seeds", "Corrosive Seeds", "talent name")
 t("You somehow fail to set the corrosive seed.", "You somehow fail to set the corrosive seed.", "logPlayer")
 t([[You focus on a target zone of radius 2 to make up to %d corrosive seeds appear.
@@ -24359,7 +24466,7 @@ t([[Surround yourself with natural forces, ignoring %d%% acid resistance of your
 section "mod-tome/data/talents/gifts/dwarven-nature.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Earthen Missiles", "Earthen Missiles", "talent name")
 t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
@@ -24416,7 +24523,7 @@ t([[Fires spikes all around you, making your foes within radius %d bleed for %0.
 section "mod-tome/data/talents/gifts/earthen-power.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Stoneshield", "Stoneshield", "talent name")
 t([[The first time you take damage each turn, you regenerate %d%% of the damage dealt as mana (up to a maximum of %0.2f) and %d%% as equilibrium (up to %0.2f).
@@ -24455,7 +24562,7 @@ t([[Creates a shield of impenetrable stone around you for %d turns, absorbing up
 section "mod-tome/data/talents/gifts/earthen-vines.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Stone Vines", "Stone Vines", "talent name")
 t(" and %0.1f Arcane", " and %0.1f Arcane", "tformat")
@@ -24491,7 +24598,7 @@ t([[Merge your target (within range %d) with one of your stone vines that has se
 section "mod-tome/data/talents/gifts/eyals-fury.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Reclaim", "Reclaim", "talent name")
 t([[You focus the inexorable pull of nature against a single creature, eroding it and allowing it to be reclaimed by the cycle of life.
@@ -24531,7 +24638,7 @@ t([[You draw deeply from your connection with nature to create a radius %d storm
 section "mod-tome/data/talents/gifts/fire-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Wing Buffet", "Wing Buffet", "talent name")
 t([[You summon a powerful gust of wind, knocking back your foes within a radius of %d up to 3 tiles away and hitting them for %d%% weapon damage.
@@ -24574,7 +24681,7 @@ t([[You breathe fire in a frontal cone of radius %d. Any target caught in the ar
 section "mod-tome/data/talents/gifts/fungus.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Wild Growth", "Wild Growth", "talent name")
 t([[Surround yourself with a myriad of tiny, nearly invisible, reinforcing fungi.
@@ -24605,73 +24712,79 @@ t("A wave of energy passes through your fungus, making it release immediate heal
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/gifts.lua"
 
-t("antimagic", "anti-magie", "_t")
--- untranslated text
+t("antimagic", "anti-magie", "talent type")
+-- nouveau texte
+--[==[
+t("call of the wild", "call of the wild", "talent type")
+t("harmony", "harmony", "talent type")
+t("summoning (melee)", "summoning (melee)", "talent type")
+t("summoning (distance)", "summoning (distance)", "talent type")
+t("summoning (utility)", "summoning (utility)", "talent type")
+t("summoning (augmentation)", "summoning (augmentation)", "talent type")
+t("summoning (advanced)", "summoning (advanced)", "talent type")
+t("slime", "slime", "talent type")
+t("fungus", "fungus", "talent type")
+t("sand drake aspect", "sand drake aspect", "talent type")
+t("fire drake aspect", "fire drake aspect", "talent type")
+t("cold drake aspect", "cold drake aspect", "talent type")
+t("storm drake aspect", "storm drake aspect", "talent type")
+t("venom drake aspect", "venom drake aspect", "talent type")
+t("higher draconic abilities", "higher draconic abilities", "talent type")
+t("mindstar mastery", "mindstar mastery", "talent type")
+t("mucus", "mucus", "talent type")
+t("ooze", "ooze", "talent type")
+t("moss", "moss", "talent type")
+t("malleable body", "malleable body", "talent type")
+t("oozing blades", "oozing blades", "talent type")
+t("corrosive blades", "corrosive blades", "talent type")
+t("eyal's fury", "eyal's fury", "talent type")
+t("earthen power", "earthen power", "talent type")
+t("earthen vines", "earthen vines", "talent type")
+t("dwarven nature", "dwarven nature", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("wild-gift", "wild-gift", "talent category")
-t("call of the wild", "call of the wild", "_t")
 t("Be at one with nature.", "Be at one with nature.", "_t")
-t("harmony", "harmony", "_t")
 t("Nature heals and cleans you.", "Nature heals and cleans you.", "_t")
 t("The way to combat magic, or even nullify it.", "The way to combat magic, or even nullify it.", "_t")
-t("summoning (melee)", "summoning (melee)", "_t")
 t("The art of calling creatures adept in melee combat to your aid.", "The art of calling creatures adept in melee combat to your aid.", "_t")
-t("summoning (distance)", "summoning (distance)", "_t")
 t("The art of calling creatures adept in elemental destruction to your aid.", "The art of calling creatures adept in elemental destruction to your aid.", "_t")
-t("summoning (utility)", "summoning (utility)", "_t")
 t("The art of calling versatile creatures to your aid.", "The art of calling versatile creatures to your aid.", "_t")
-t("summoning (augmentation)", "summoning (augmentation)", "_t")
 t("The art of manipulating the lifespan and location of your summons.", "The art of manipulating the lifespan and location of your summons.", "_t")
-t("summoning (advanced)", "summoning (advanced)", "_t")
 t("The art of improving the quality of your summons.", "The art of improving the quality of your summons.", "_t")
-t("slime", "slime", "_t")
 t("Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "_t")
-t("fungus", "fungus", "_t")
 t("By covering yourself in fungus, you better your healing.", "By covering yourself in fungus, you better your healing.", "_t")
-t("sand drake aspect", "sand drake aspect", "_t")
 t("Take on the defining aspects of a Sand Drake.", "Take on the defining aspects of a Sand Drake.", "_t")
-t("fire drake aspect", "fire drake aspect", "_t")
 t("Take on the defining aspects of a Fire Drake.", "Take on the defining aspects of a Fire Drake.", "_t")
-t("cold drake aspect", "cold drake aspect", "_t")
 t("Take on the defining aspects of a Cold Drake.", "Take on the defining aspects of a Cold Drake.", "_t")
-t("storm drake aspect", "storm drake aspect", "_t")
 t("Take on the defining aspects of a Storm Drake.", "Take on the defining aspects of a Storm Drake.", "_t")
-t("venom drake aspect", "venom drake aspect", "_t")
 t("Take on the defining aspects of a Venom Drake.", "Take on the defining aspects of a Venom Drake.", "_t")
-t("higher draconic abilities", "higher draconic abilities", "_t")
 t("Take on the aspects of aged and powerful dragons.", "Take on the aspects of aged and powerful dragons.", "_t")
-t("mindstar mastery", "mindstar mastery", "_t")
 t("Learn to channel your mental power through mindstars, forming powerful psionic blades.", "Learn to channel your mental power through mindstars, forming powerful psionic blades.", "_t")
-t("mucus", "mucus", "_t")
 t("Cover the floor with natural mucus.", "Cover the floor with natural mucus.", "_t")
-t("ooze", "ooze", "_t")
 t("Your body and internal organs are becoming more ooze-like in nature, allowing you to spawn more of you.", "Your body and internal organs are becoming more ooze-like in nature, allowing you to spawn more of you.", "_t")
-t("moss", "moss", "_t")
 t("You learn to control moss, making it grow at will to help you on the battlefield.", "You learn to control moss, making it grow at will to help you on the battlefield.", "_t")
-t("malleable body", "malleable body", "_t")
 t("Your body's anatomy is starting to blur.", "Your body's anatomy is starting to blur.", "_t")
-t("oozing blades", "oozing blades", "_t")
 t("You channel ooze through your psiblades.", "You channel ooze through your psiblades.", "_t")
-t("corrosive blades", "corrosive blades", "_t")
 t("You channel acid through your psiblades.", "You channel acid through your psiblades.", "_t")
-t("eyal's fury", "eyal's fury", "_t")
 t("Unleash nature's fury against foes around you.", "Unleash nature's fury against foes around you.", "_t")
-t("earthen power", "earthen power", "_t")
 t("Dwarves have learned to imbue their shields with the power of stone itself.", "Dwarves have learned to imbue their shields with the power of stone itself.", "_t")
-t("earthen vines", "earthen vines", "_t")
 t("Control the stone itself and bring it alive in the form of dreadful vines.", "Control the stone itself and bring it alive in the form of dreadful vines.", "_t")
-t("dwarven nature", "dwarven nature", "_t")
 t("Learn to harness the innate power of your race.", "Learn to harness the innate power of your race.", "_t")
 t("#PINK#You can manage a maximum of %d summons at any time. You need %d Cunning to increase your limit.", "#PINK#You can manage a maximum of %d summons at any time. You need %d Cunning to increase your limit.", "logPlayer")
 t("Summon", "Summon", "_t")
 --]==]
 
+-- ancien texte traduit
+t("antimagic", "anti-magie", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/harmony.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Waters of Life", "Waters of Life", "talent name")
 t([[The waters of life flow through you, purifying any poisons or diseases currently affecting you.
@@ -24710,7 +24823,7 @@ t([[A wave of natural energies flow around you in a radius of %d.  All creatures
 section "mod-tome/data/talents/gifts/higher-draconic.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Prismatic Slash", "Prismatic Slash", "talent name")
 t([[Unleash raw, chaotic elemental damage upon your enemy.
@@ -24752,7 +24865,7 @@ t([[You have gained the full power of the various drakes throughout the world, a
 section "mod-tome/data/talents/gifts/malleable-body.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("azdadazdazdazd", "azdadazdazdazd", "talent name")
 t([[Your body is more like that of an ooze, you can split into two for %d turns.
@@ -24789,7 +24902,7 @@ t([[Your body's internal organs are melted together, making it much harder to su
 section "mod-tome/data/talents/gifts/mindstar-mastery.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Psiblades", "Psiblades", "talent name")
 t([[Channel your mental power through your wielded mindstars, generating psionic blades.
@@ -24826,7 +24939,7 @@ t([[You hit a foe with your mainhand psiblade doing %d%% weapon damage, channeli
 section "mod-tome/data/talents/gifts/moss.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Grasping Moss", "Grasping Moss", "talent name")
 t([[Instantly grow a moss circle of radius %d at your feet.
@@ -24883,7 +24996,7 @@ t([[Instantly grow a moss circle of radius %d at your feet.
 section "mod-tome/data/talents/gifts/mucus.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Mucus", "Mucus", "talent name")
 t([[For %d turns, you lay down mucus where you walk or stand.
@@ -24935,7 +25048,7 @@ t([[You temporarily merge with your mucus, cleansing yourself of %d physical or 
 section "mod-tome/data/talents/gifts/ooze.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Mitosis", "Mitosis", "talent name")
 t("You try to split, but there is no free space close enough to summon!", "You try to split, but there is no free space close enough to summon!", "logPlayer")
@@ -24986,7 +25099,7 @@ t([[Your body's internal organs are indistinct, disguising your vital areas.
 section "mod-tome/data/talents/gifts/oozing-blades.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Oozebeam", "Oozebeam", "talent name")
 t([[Channel slime through your psiblades, extending their reach to create a beam doing %0.1f Slime damage.
@@ -25019,7 +25132,7 @@ t([[Surround yourself with natural forces, ignoring %d%% nature resistance of yo
 section "mod-tome/data/talents/gifts/sand-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Swallow", "Swallow", "talent name")
 t("#Source# tries to swallow #Target#!", "#Source# tries to swallow #Target#!", "logCombat")
@@ -25082,7 +25195,7 @@ t([[You breathe sand in a frontal cone of radius %d. Any target caught in the ar
 section "mod-tome/data/talents/gifts/slime.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Slime Spit", "Slime Spit", "talent name")
 t([[Spit slime at your target doing %0.1f nature damage and slowing it down by 30%% for 3 turns.
@@ -25115,7 +25228,7 @@ t([[You extend slimy roots into the ground, follow them, and re-appear somewhere
 section "mod-tome/data/talents/gifts/storm-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Lightning Speed", "Lightning Speed", "talent name")
 t([[You transform into pure lightning, moving %d%% faster for %d game turns.
@@ -25170,7 +25283,7 @@ t([[You breathe lightning in a frontal cone of radius %d. Any target caught in t
 section "mod-tome/data/talents/gifts/summon-advanced.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Master Summoner", "Master Summoner", "talent name")
 t("Reduces the cooldown of all summons by %d%%.", "Reduces the cooldown of all summons by %d%%.", "tformat")
@@ -25241,7 +25354,7 @@ t([[For %d turn(s), you have 100%% chance that your summons appear as a wild ver
 section "mod-tome/data/talents/gifts/summon-augmentation.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Rage", "Rage", "talent name")
 t([[Induces a killing rage in all your summons within a radius of 5 when a summon is killed, increasing all their stats by %d for 5 turns. 
@@ -25286,7 +25399,7 @@ t("Switches places with one of your summons. This disorients your foes, granting
 section "mod-tome/data/talents/gifts/summon-distance.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Flamespit", "Flamespit", "talent name")
 t("@Source@ spits flames!", "@Source@ spits flames!", "_t")
@@ -25389,7 +25502,7 @@ t([[Summon a Fire Drake for %d turns to burn and crush your foes to death. Fire 
 section "mod-tome/data/talents/gifts/summon-melee.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Jelly Spread", "Jelly Spread", "talent name")
 t("@source@ oozes over the ground!!", "@source@ oozes over the ground!!", "_t")
@@ -25447,7 +25560,7 @@ t([[Summon a Stone Golem for %d turns to attack your foes. Stone golems are form
 section "mod-tome/data/talents/gifts/summon-utility.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Taunt", "Taunt", "talent name")
 t("Forces all hostile foes in radius %d to attack you.", "Forces all hostile foes in radius %d to attack you.", "tformat")
@@ -25493,7 +25606,7 @@ t([[Mark a creature with pheromones, signalling to all of your summons within %d
 section "mod-tome/data/talents/gifts/venom-drake.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Acidic Spray", "Acidic Spray", "talent name")
 t("@Source@ spits acid!", "@Source@ spits acid!", "_t")
@@ -25541,20 +25654,24 @@ t([[You breathe acid in a frontal cone of radius %d. Any target caught in the ar
 ------------------------------------------------
 section "mod-tome/data/talents/misc/horrors.lua"
 
-t("spell", "sort", "talent category")
+t("spell", "contre les sorts", "talent category")
 t("other", "autre", "talent category")
--- untranslated text
+-- nouveau texte
+--[==[
+t("horror techniques", "horror techniques", "talent type")
+t("horror spells", "horror spells", "talent type")
+t("horror powers", "horror powers", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
-t("horror techniques", "horror techniques", "_t")
 t("Physical talents of the various horrors of the world.", "Physical talents of the various horrors of the world.", "_t")
 t("psionic", "psionic", "talent category")
 t("Psionic talents of the various horrors of the world.", "Psionic talents of the various horrors of the world.", "_t")
 t("wild-gift", "wild-gift", "talent category")
-t("horror spells", "horror spells", "_t")
 t("Spell talents of the various horrors of the world.", "Spell talents of the various horrors of the world.", "_t")
 t("corruption", "corruption", "talent category")
-t("horror powers", "horror powers", "_t")
 t("Unclassified talents of the various horrors of the world.", "Unclassified talents of the various horrors of the world.", "_t")
 t("Frenzied Bite", "Frenzied Bite", "talent name")
 t("In a frenzy @Source@ bites at @Target@!", "In a frenzy @Source@ bites at @Target@!", "_t")
@@ -25639,7 +25756,7 @@ t([[Latch on to the target and suck their blood, doing %0.2f physical and %0.2f 
 section "mod-tome/data/talents/misc/inscriptions.lua"
 
 t(" and ", " et ", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("- will only auto use when no saturation effect exists", "- will only auto use when no saturation effect exists", "_t")
 t("\
@@ -25831,19 +25948,23 @@ t("power %d for %d turns", "power %d for %d turns", "tformat")
 ------------------------------------------------
 section "mod-tome/data/talents/misc/misc.lua"
 
-t("class", "classe", "_t")
--- untranslated text
+t("class", "classe", "talent type")
+-- nouveau texte
+--[==[
+t("race", "race", "talent type")
+t("infusions", "infusions", "talent type")
+t("runes", "runes", "talent type")
+t("taints", "taints", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("base", "base", "talent category")
 t("The basic talents defining a class.", "The basic talents defining a class.", "_t")
-t("race", "race", "_t")
 t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
 t("inscriptions", "inscriptions", "talent category")
-t("infusions", "infusions", "_t")
 t("Infusions are not class abilities, you must find them or learn them from other people.", "Infusions are not class abilities, you must find them or learn them from other people.", "_t")
-t("runes", "runes", "_t")
 t("Runes are not class abilities, you must find them or learn them from other people.", "Runes are not class abilities, you must find them or learn them from other people.", "_t")
-t("taints", "taints", "_t")
 t("Taints are not class abilities, you must find them or learn them from other people.", "Taints are not class abilities, you must find them or learn them from other people.", "_t")
 t("Attack", "Attack", "talent name")
 t("#Source# attacks empty space.", "#Source# attacks empty space.", "logCombat")
@@ -25911,17 +26032,26 @@ t([[Activate the powerful flight engines of the Fortress, propelling it fast int
 	Requires being in flight above the ground of a planet.]], "_t")
 --]==]
 
+-- ancien texte traduit
+t("class", "classe", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/misc/npcs.lua"
 
-t("other", "autre", "_t")
-t("spell", "sort", "talent category")
+t("other", "autre", "talent type")
+t("spell", "contre les sorts", "talent category")
 t("other", "autre", "talent category")
 t("undead", "mort-vivant", "talent category")
-t("misc", "divers", "_t")
+t("misc", "divers", "talent type")
+t("Disarm", "Désarmement", "talent name")
+t("Knockback", "Repoussage", "talent name")
 t("something", "quelque chose", "_t")
--- untranslated text
+-- nouveau texte
+--[==[
+t("keepsake shadow", "keepsake shadow", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
 t("Talents of the various entities of the world.", "Talents of the various entities of the world.", "_t")
@@ -25929,7 +26059,6 @@ t("chronomancy", "chronomancy", "talent category")
 t("corruption", "corruption", "talent category")
 t("wild-gift", "wild-gift", "talent category")
 t("psionic", "psionic", "talent category")
-t("keepsake shadow", "keepsake shadow", "_t")
 t("Keepsake shadows's innate abilities.", "Keepsake shadows's innate abilities.", "_t")
 t("cursed", "cursed", "talent category")
 t("Multiply", "Multiply", "talent name")
@@ -25953,7 +26082,6 @@ t("%s resists the stunning blow!", "%s resists the stunning blow!", "logSeen")
 t([[Hits the target doing %d%% damage. If the attack hits, the target is stunned for %d turns.
 		The chance to stun improves with your Physical Power.]], [[Hits the target doing %d%% damage. If the attack hits, the target is stunned for %d turns.
 		The chance to stun improves with your Physical Power.]], "tformat")
-t("Disarm", "Disarm", "talent name")
 t("%s resists the blow!", "%s resists the blow!", "logSeen")
 t("Hits the target doing %d%% damage and trying to disarm the target for %d turns. The chance improves with your Physical Power.", "Hits the target doing %d%% damage and trying to disarm the target for %d turns. The chance improves with your Physical Power.", "tformat")
 t("Constrict", "Constrict", "talent name")
@@ -25961,7 +26089,6 @@ t("%s resists the constriction!", "%s resists the constriction!", "logSeen")
 t([[Hits the target doing %d%% damage. If the attack hits, the target is constricted for %d turns.
 		The constriction power improves with your Physical Power.]], [[Hits the target doing %d%% damage. If the attack hits, the target is constricted for %d turns.
 		The constriction power improves with your Physical Power.]], "tformat")
-t("Knockback", "Knockback", "talent name")
 t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t("Hits the target with your weapon doing %d%% damage. If the attack hits, the target is knocked back up to 4 grids.  The chance improves with your Physical Power.", "Hits the target with your weapon doing %d%% damage. If the attack hits, the target is knocked back up to 4 grids.  The chance improves with your Physical Power.", "tformat")
 t("Poisonous Bite", "Poisonous Bite", "talent name")
@@ -26369,26 +26496,33 @@ t("Quicken Spells", "Quicken Spells", "talent name")
 t("Reduces the cooldown of all spells by %d%%.", "Reduces the cooldown of all spells by %d%%.", "tformat")
 --]==]
 
+-- ancien texte traduit
+t("misc", "divers", "_t")
+t("other", "autre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/misc/objects.lua"
 
-t("spell", "sort", "talent category")
+t("spell", "contre les sorts", "talent category")
 t("other", "autre", "talent category")
 t("misc", "divers", "talent category")
 t("None", "Aucune", "_t")
 t(" and ", " et ", "_t")
--- untranslated text
+-- nouveau texte
+--[==[
+t("fortress", "fortress", "talent type")
+t("object spells", "object spells", "talent type")
+t("object powers", "object powers", "talent type")
+t("object techniques", "object techniques", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("sher'tul", "sher'tul", "talent category")
-t("fortress", "fortress", "_t")
 t("Yiilkgur abilities.", "Yiilkgur abilities.", "_t")
-t("object spells", "object spells", "_t")
 t("Spell abilities of the various objects of the world.", "Spell abilities of the various objects of the world.", "_t")
-t("object powers", "object powers", "_t")
 t("Abilities of the various objects of the world.", "Abilities of the various objects of the world.", "_t")
 t("technique", "technique", "talent category")
-t("object techniques", "object techniques", "_t")
 t("Techniques of the various objects of the world.", "Techniques of the various objects of the world.", "_t")
 t("wild-gift", "wild-gift", "talent category")
 t("Wild gifts of the various objects of the world.", "Wild gifts of the various objects of the world.", "_t")
@@ -26405,7 +26539,6 @@ t("Command Staff", "Command Staff", "talent name")
 t("@Source@ refocuses the energies of %s staff.", "@Source@ refocuses the energies of %s staff.", "tformat")
 t("You need a staff.", "You need a staff.", "logPlayer")
 t("You must be holding a staff.", "You must be holding a staff.", "logPlayer")
-t("Command Staff: ", "Command Staff: ", "_t")
 t("Alter the flow of energies through a staff.", "Alter the flow of energies through a staff.", "tformat")
 t("Ward", "Ward", "talent name")
 t("Ward", "Ward", "_t")
@@ -26479,10 +26612,21 @@ t("Intermediary for melee retaliation.", "Intermediary for melee retaliation.", 
 section "mod-tome/data/talents/misc/races.lua"
 
 t("Skirmisher", "Tirailleur", "talent name")
--- untranslated text
+-- nouveau texte
+--[==[
+t("higher", "higher", "talent type")
+t("shalore", "shalore", "talent type")
+t("thalore", "thalore", "talent type")
+t("dwarf", "dwarf", "talent type")
+t("halfling", "halfling", "talent type")
+t("orc", "orc", "talent type")
+t("yeek", "yeek", "talent type")
+t("ogre", "ogre", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("race", "race", "talent category")
-t("higher", "higher", "_t")
 t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
 t("Wrath of the Highborn", "Wrath of the Highborn", "talent name")
 t([[Call upon the power of the Highborn, increasing all damage by %d%% and reducing all damage taken by %d%% for 5 turns.
@@ -26508,7 +26652,6 @@ t([[Activate some of your inner magic, using it to power your abilities.  For th
 		]], [[Activate some of your inner magic, using it to power your abilities.  For the next %d turns all active talents will be used without resource cost.
 		Your resources must still be high enough to initially power the talent and failure rates (etc.) still apply.
 		]], "tformat")
-t("shalore", "shalore", "_t")
 t("Grace of the Eternals", "Grace of the Eternals", "talent name")
 t([[Call upon the grace of the Eternals to increase your global speed by %d%% for 5 turns.
 		The speed bonus will increase with your Dexterity or Magic (whichever is higher).]], [[Call upon the grace of the Eternals to increase your global speed by %d%% for 5 turns.
@@ -26525,7 +26668,6 @@ t("Timeless", "Timeless", "talent name")
 t([[The world grows old as you stand through the ages. To you, time is different.
 		Reduces the time remaining on detrimental effects by %d, most cooling down talents by %d, and increases the time remaining on beneficial effects by %d (up to 2 times the current duration).]], [[The world grows old as you stand through the ages. To you, time is different.
 		Reduces the time remaining on detrimental effects by %d, most cooling down talents by %d, and increases the time remaining on beneficial effects by %d (up to 2 times the current duration).]], "tformat")
-t("thalore", "thalore", "_t")
 t("Gift of the Woods", "Gift of the Woods", "talent name")
 t([[Call upon nature to regenerate your body for %d life every turn and increase healing mod by %d%% for 8 turns.
 		The life healed will increase with your Willpower or Constitution (whichever is higher).]], [[Call upon nature to regenerate your body for %d life every turn and increase healing mod by %d%% for 8 turns.
@@ -26551,7 +26693,6 @@ t([[Nature is with the Thaloren; they can always feel the call of the woods.
 		The treants have a global resistance equal to your blight resistance and can stun, knockback, and taunt foes.
 		Your Willpower (%d) will be added to all of their non-Magic primary stats and their talent levels will increase with your Nature's Pride talent level.
 		Your increased damage, damage penetration, and many other stats will be inherited.]], "tformat")
-t("dwarf", "dwarf", "_t")
 t("Resilience of the Dwarves", "Resilience of the Dwarves", "talent name")
 t([[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
 		The bonuses will increase with your Constitution.]], [[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
@@ -26574,7 +26715,6 @@ t([[While the origins of the dwarves remain clouded in mystery to the other race
 		This can pass through up to %d tiles (increases with Constitution and talent level).]], [[While the origins of the dwarves remain clouded in mystery to the other races, it is obvious that they share strong ties to the stone.
 		You can target any wall and immediately enter it, appearing on the other side.
 		This can pass through up to %d tiles (increases with Constitution and talent level).]], "tformat")
-t("halfling", "halfling", "_t")
 t("Luck of the Little Folk", "Luck of the Little Folk", "talent name")
 t([[Call upon the luck and cunning of the Little Folk to increase your critical strike chance by %d%% and your saves by %d for 5 turns.
 		The bonus will increase with your Cunning.]], [[Call upon the luck and cunning of the Little Folk to increase your critical strike chance by %d%% and your saves by %d for 5 turns.
@@ -26591,7 +26731,6 @@ t("Indomitable", "Indomitable", "talent name")
 t([[Halflings have one of the most powerful military forces in the known world and have been at war with most other races for thousands of years.
 		Removes %d stun, daze, or pin effects and grants immunity to stuns, dazes and pins for %d turns.]], [[Halflings have one of the most powerful military forces in the known world and have been at war with most other races for thousands of years.
 		Removes %d stun, daze, or pin effects and grants immunity to stuns, dazes and pins for %d turns.]], "tformat")
-t("orc", "orc", "_t")
 t("Orcish Fury", "Orcish Fury", "talent name")
 t([[Summons your lust for blood and destruction; especially when the odds are against you.  
 		You increase your damage by 10%% + %0.1f%% per enemy you can see in line of sight of you (maximum 5 enemies, %0.1f%% bonus) for 3 turns.
@@ -26618,7 +26757,6 @@ t([[Call upon the will of all of the Orc Prides to survive this battle.
 		The healing will increase with talent level and your Willpower.]], [[Call upon the will of all of the Orc Prides to survive this battle.
 		You remove up to %d detrimental effect(s) then heal for %d life.
 		The healing will increase with talent level and your Willpower.]], "tformat")
-t("yeek", "yeek", "_t")
 t("Dominant Will", "Dominant Will", "talent name")
 t("%s is immune to instakill and mind control effects!", "%s is immune to instakill and mind control effects!", "logSeen")
 t("%s must be below 80%% of their max life to be controlled!", "%s must be below 80%% of their max life to be controlled!", "logSeen")
@@ -26655,7 +26793,6 @@ t("Knowledge of the Way", "Knowledge of the Way", "talent name")
 t([[You merge your mind with the rest of the Way for a brief moment; the sum of all yeek knowledge gathers in your mind
 		and allows you to identify any item you could not recognize yourself.]], [[You merge your mind with the rest of the Way for a brief moment; the sum of all yeek knowledge gathers in your mind
 		and allows you to identify any item you could not recognize yourself.]], "tformat")
-t("ogre", "ogre", "_t")
 t("Ogric Wrath", "Ogric Wrath", "talent name")
 t([[You enter an ogric wrath for %d turns, increasing your stun and pinning resistances by 20%% and all damage done by 10%%.
 		In addition, whenever you use an infusion or rune, miss a melee attack, or any damage you deal is reduced by a damage shield (or similar effect) you gain a charge of Ogre Fury (up to 5 charges total, each lasting 7 turns).
@@ -26691,11 +26828,12 @@ t([[Instantly removes runic and infusion saturations.
 ------------------------------------------------
 section "mod-tome/data/talents/misc/tutorial.lua"
 
-
--- untranslated text
+t("tutorial", "tutoriel", "talent category")
+t("tutorial", "tutoriel", "talent type")
+t("Fear", "Peur", "talent name")
+t("Bleed", "Saignement", "talent name")
+-- texte non traduit
 --[==[
-t("tutorial", "tutorial", "talent category")
-t("tutorial", "tutorial", "_t")
 t("Tutorial-specific talents.", "Tutorial-specific talents.", "_t")
 t("Shove", "Shove", "talent name")
 t("%s resists the shove!", "%s resists the shove!", "logSeen")
@@ -26712,22 +26850,22 @@ t("Blink", "Blink", "talent name")
 t("%s is teleported a short distance!", "%s is teleported a short distance!", "logSeen")
 t("%s resists the teleportation!", "%s resists the teleportation!", "logSeen")
 t("Attempts to magically teleport a target slightly farther from you.", "Attempts to magically teleport a target slightly farther from you.", "tformat")
-t("Fear", "Fear", "talent name")
 t("%s retreats in terror!", "%s retreats in terror!", "logSeen")
 t("%s shakes off the fear!", "%s shakes off the fear!", "logSeen")
 t("Attempts to briefly terrify a target into retreating.", "Attempts to briefly terrify a target into retreating.", "tformat")
-t("Bleed", "Bleed", "talent name")
 t("Inflicts a 10-turn bleed effect.", "Inflicts a 10-turn bleed effect.", "tformat")
 t("Confusion", "Confusion", "talent name")
 t("Use your mental powers to confuse the target for five turns.", "Use your mental powers to confuse the target for five turns.", "tformat")
 --]==]
 
+-- ancien texte traduit
+t("tutorial", "tutoriel", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/absorption.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Kinetic Shield", "Kinetic Shield", "talent name")
 t("You may only sustain two shields at once. Shield activation cancelled.", "You may only sustain two shields at once. Shield activation cancelled.", "logSeen")
@@ -26773,7 +26911,16 @@ t([[Surround yourself with a forcefield, reducing all incoming damage by %d%%.
 section "mod-tome/data/talents/psionic/augmented-mobility.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t([[Briefly extend your telekinetic reach to grab an enemy, haul them towards you and daze them for 1 turn.
+		Works on enemies up to %d squares away.
+		The cooldown decreases, and the range increases, with additional talent points spent.]], [[Briefly extend your telekinetic reach to grab an enemy, haul them towards you and daze them for 1 turn.
+		Works on enemies up to %d squares away.
+		The cooldown decreases, and the range increases, with additional talent points spent.]], "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Skate", "Skate", "talent name")
 t([[You telekinetically float just off the ground.
@@ -26789,11 +26936,6 @@ t([[Encase your body in a sheath of thought-quick forces, allowing you to contro
 		The duration improves with your Mindpower.]], "tformat")
 t("Mindhook", "Mindhook", "talent name")
 t("The target is out of range", "The target is out of range", "logPlayer")
-t([[Briefly extend your telekinetic reach to grab an enemy and haul them towards you.
-		Works on enemies up to %d squares away.
-		The cooldown decreases, and the range increases, with additional talent points spent.]], [[Briefly extend your telekinetic reach to grab an enemy and haul them towards you.
-		Works on enemies up to %d squares away.
-		The cooldown decreases, and the range increases, with additional talent points spent.]], "tformat")
 t("Telekinetic Leap", "Telekinetic Leap", "talent name")
 t("@Source@ performs a telekinetically enhanced leap!", "@Source@ performs a telekinetically enhanced leap!", "_t")
 t("You can not jump onto a creature.", "You can not jump onto a creature.", "logPlayer")
@@ -26805,7 +26947,7 @@ t("You perform a precise, telekinetically-enhanced leap, landing up to %d square
 section "mod-tome/data/talents/psionic/augmented-striking.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Kinetic Strike", "Kinetic Strike", "talent name")
 t("You cannot do that without a weapon in your hands.", "You cannot do that without a weapon in your hands.", "logPlayer")
@@ -26846,7 +26988,7 @@ t("Wrap a psionic energy field around your weapons, increasing their armour pene
 section "mod-tome/data/talents/psionic/charged-mastery.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Transcendent Electrokinesis", "Transcendent Electrokinesis", "talent name")
 t([[For %d turns your electrokinesis transcends your normal limits, increasing your Lightning damage by %d%% and your Lightning resistance penetration by %d%%.
@@ -26895,7 +27037,7 @@ t([[Store an electric charge for saving your life at a later time.
 section "mod-tome/data/talents/psionic/discharge.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Mind Storm", "Mind Storm", "talent name")
 t([[Unleash your subconscious on the world around you.  While active, you fire up to %d bolts each turn (one per hostile target) that deal %0.2f mind damage.  Each bolt consumes 5 Feedback.
@@ -26933,7 +27075,7 @@ t([[Focus your mind on a single target, diverting all offensive Discharge talent
 section "mod-tome/data/talents/psionic/distortion.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Distortion Bolt", "Distortion Bolt", "talent name")
 t([[Fire a bolt of distortion that ignores resistance and inflicts %0.2f physical damage.  This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
@@ -26982,7 +27124,7 @@ t([[Create a powerful maelstorm for %d turns.  Each turn, the maelstrom will pul
 section "mod-tome/data/talents/psionic/dream-forge.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Forge Shield", "Forge Shield", "talent name")
 t("#ORANGE#%s forges a dream shield to block the attack!", "#ORANGE#%s forges a dream shield to block the attack!", "logSeen")
@@ -27027,7 +27169,7 @@ t([[The pounding forge of thought in your mind is released upon your surrounding
 section "mod-tome/data/talents/psionic/dream-smith.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dream Smith's Hammer", "Dream Smith's Hammer", "talent name")
 t([[Craft a hammer from the dream forge and strike an adjacent foe, inflicting %d%% weapon damage. If the attack hits, it will bring one random Dream Smith talent off cooldown.
@@ -27065,10 +27207,9 @@ t([[Strike an adjacent target with a mighty blow from the forge, inflicting %d%%
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/dreaming.lua"
 
-
--- untranslated text
+t("Sleep", "Sommeil", "talent name")
+-- texte non traduit
 --[==[
-t("Sleep", "Sleep", "talent name")
 t("%s resists the sleep!", "%s resists the sleep!", "logSeen")
 t([[Puts targets in a radius of %d to sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
 		When Sleep ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
@@ -27102,7 +27243,7 @@ t([[Imprisons all sleeping targets within range in their dream state, effectivel
 section "mod-tome/data/talents/psionic/feedback.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Biofeedback", "Biofeedback", "talent name")
 t([[Your Feedback decay now heals you for %0.1f times the loss, and the decay rate is reduced to %d%% of the normal rate (up to %0.1f%% per turn).  As a result, you are healed for %0.2f%% of your feedback pool each turn.
@@ -27130,7 +27271,7 @@ t([[Use Feedback to replenish yourself.  This heals you for %d life, and restore
 section "mod-tome/data/talents/psionic/finer-energy-manipulations.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Realign", "Realign", "talent name")
 t("%s is cured!", "%s is cured!", "logSeen")
@@ -27167,7 +27308,7 @@ t([[By carefully synchronizing your mind to the resonant frequencies of your psi
 section "mod-tome/data/talents/psionic/focus.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Mindlash", "Mindlash", "talent name")
 t([[Focus energies into a beam to lash all creatures in a line with physical force, doing %d Physical damage and knocking them off balance (-15%% damage penalty) for 2 turns.
@@ -27193,7 +27334,7 @@ t("Your Iron Will improves your stun immunity by %d%% and gives you a %d%% chanc
 section "mod-tome/data/talents/psionic/grip.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Bind", "Bind", "talent name")
 t([[Bind the target in crushing bands of telekinetic force, immobilizing it for %d turns. 
@@ -27216,7 +27357,7 @@ t([[Use finely controlled forces to augment both your flesh-and-blood grip, and 
 section "mod-tome/data/talents/psionic/kinetic-mastery.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Transcendent Telekinesis", "Transcendent Telekinesis", "talent name")
 t([[For %d turns your telekinesis transcends your normal limits, increasing your Physical damage by %d%% and your Physical resistance penetration by %d%%.
@@ -27279,7 +27420,7 @@ t([[Bind the target mercilessly with constant, bone-shattering pressure, pinning
 section "mod-tome/data/talents/psionic/mental-discipline.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Aura Discipline", "Aura Discipline", "talent name")
 t([[Your expertise in the art of energy projection grows.
@@ -27300,7 +27441,7 @@ t([[A life of the mind has had predictably good effects on your Willpower and Cu
 section "mod-tome/data/talents/psionic/mentalism.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Psychometry", "Psychometry", "talent name")
 t([[Resonate with psionic, nature, and anti-magic powered objects you wear, increasing your physical and mind power by %0.1f or %d%% of the object's material level (whichever is lower).
@@ -27333,16 +27474,20 @@ t([[Link minds with the target.  While your minds are linked, you'll inflict %d%
 section "mod-tome/data/talents/psionic/nightmare.lua"
 
 t("Nightmare", "Cauchemar", "talent name")
--- untranslated text
+-- nouveau texte
 --[==[
-t("%s resists the nightmare!", "%s resists the nightmare!", "logSeen")
 t([[Puts targets in a radius %d cone into a nightmarish sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
 		Each turn, they'll suffer %0.2f darkness damage.  This damage will not reduce the duration of the effect.
 		When Nightmare ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
-		The damage threshold and mind damage will scale with your Mindpower.]], [[Puts targets in a radius %d cone into a nightmarish sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
+		The damage threshold and darkness damage will scale with your Mindpower.]], [[Puts targets in a radius %d cone into a nightmarish sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
 		Each turn, they'll suffer %0.2f darkness damage.  This damage will not reduce the duration of the effect.
 		When Nightmare ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
-		The damage threshold and mind damage will scale with your Mindpower.]], "tformat")
+		The damage threshold and darkness damage will scale with your Mindpower.]], "tformat")
+--]==]
+
+-- texte non traduit
+--[==[
+t("%s resists the nightmare!", "%s resists the nightmare!", "logSeen")
 t("Inner Demons", "Inner Demons", "talent name")
 t("%s's Inner Demon", "%s's Inner Demon", "tformat")
 t("A hideous, demonic entity that resembles the creature it came from.", "A hideous, demonic entity that resembles the creature it came from.", "_t")
@@ -27376,7 +27521,7 @@ t([[Increases your damage and resistance penetration on sleeping targets by %d%%
 section "mod-tome/data/talents/psionic/other.lua"
 
 t("%s's %s", "%s de %s", "tformat")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Telekinetic Grasp", "Telekinetic Grasp", "talent name")
 t("Telekinetically grasp which item?", "Telekinetically grasp which item?", "_t")
@@ -27440,7 +27585,7 @@ t([[The telekinetically-wielded weapon uses Willpower in place of Strength, and 
 section "mod-tome/data/talents/psionic/projection.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Kinetic Aura", "Kinetic Aura", "talent name")
 t("You may only sustain two auras at once. Aura activation cancelled.", "You may only sustain two auras at once. Aura activation cancelled.", "logSeen")
@@ -27501,7 +27646,7 @@ t([[Overcharge your psionic focus with energy for %d turns, producing a differen
 section "mod-tome/data/talents/psionic/psi-archery.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Guided Shot", "Guided Shot", "talent name")
 t("Fire and guide an arrow to its target with precise telekinetic nudges. Does normal damage, but accuracy and crit chance are increased by %d.", "Fire and guide an arrow to its target with precise telekinetic nudges. Does normal damage, but accuracy and crit chance are increased by %d.", "tformat")
@@ -27538,7 +27683,7 @@ t([[You temporarily set aside a part of you mind to direct your telekinetically-
 section "mod-tome/data/talents/psionic/psi-fighting.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Telekinetic Smash", "Telekinetic Smash", "talent name")
 t("You cannot do that without a weapon in your hands.", "You cannot do that without a weapon in your hands.", "logPlayer")
@@ -27581,67 +27726,73 @@ t([[Focus your will into a powerful thrust of your telekinetically-wielded weapo
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/psionic.lua"
 
-t("other", "autre", "_t")
--- untranslated text
+t("other", "autre", "talent type")
+-- nouveau texte
+--[==[
+t("absorption", "absorption", "talent type")
+t("projection", "projection", "talent type")
+t("psi-fighting", "psi-fighting", "talent type")
+t("focus", "focus", "talent type")
+t("augmented mobility", "augmented mobility", "talent type")
+t("augmented striking", "augmented striking", "talent type")
+t("voracity", "voracity", "talent type")
+t("finer energy manipulations", "finer energy manipulations", "talent type")
+t("kinetic mastery", "kinetic mastery", "talent type")
+t("thermal mastery", "thermal mastery", "talent type")
+t("charged mastery", "charged mastery", "talent type")
+t("discharge", "discharge", "talent type")
+t("distortion", "distortion", "talent type")
+t("Dream Smith", "Dream Smith", "talent type")
+t("nightmare", "nightmare", "talent type")
+t("Psychic Assault", "Psychic Assault", "talent type")
+t("slumber", "slumber", "talent type")
+t("solipsism", "solipsism", "talent type")
+t("Thought-Forms", "Thought-Forms", "talent type")
+t("Dream Forge", "Dream Forge", "talent type")
+t("dreaming", "dreaming", "talent type")
+t("mentalism", "mentalism", "talent type")
+t("feedback", "feedback", "talent type")
+t("trance", "trance", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("psionic", "psionic", "talent category")
-t("absorption", "absorption", "_t")
 t("Absorb damage and gain energy.", "Absorb damage and gain energy.", "_t")
-t("projection", "projection", "_t")
 t("Project energy to damage foes.", "Project energy to damage foes.", "_t")
-t("psi-fighting", "psi-fighting", "_t")
 t("Wield melee weapons with mentally-manipulated forces.", "Wield melee weapons with mentally-manipulated forces.", "_t")
-t("focus", "focus", "_t")
 t("Use gems to focus your energies.", "Use gems to focus your energies.", "_t")
-t("augmented mobility", "augmented mobility", "_t")
 t("Use energy to move yourself and others.", "Use energy to move yourself and others.", "_t")
-t("augmented striking", "augmented striking", "_t")
 t("Augment melee attacks with psionic enegies.", "Augment melee attacks with psionic enegies.", "_t")
-t("voracity", "voracity", "_t")
 t("Pull energy from your surroundings.", "Pull energy from your surroundings.", "_t")
-t("finer energy manipulations", "finer energy manipulations", "_t")
 t("Subtle applications of the psionic arts.", "Subtle applications of the psionic arts.", "_t")
 t("Various psionic talents.", "Various psionic talents.", "_t")
-t("kinetic mastery", "kinetic mastery", "_t")
 t("Mastery of telekinetic forces.", "Mastery of telekinetic forces.", "_t")
-t("thermal mastery", "thermal mastery", "_t")
 t("Mastery of pyrokinetic forces.", "Mastery of pyrokinetic forces.", "_t")
-t("charged mastery", "charged mastery", "_t")
 t("Mastery of electrokinetic forces.", "Mastery of electrokinetic forces.", "_t")
-t("discharge", "discharge", "_t")
 t("Project feedback on the world around you.", "Project feedback on the world around you.", "_t")
-t("distortion", "distortion", "_t")
 t("Distort reality with your mental energy.", "Distort reality with your mental energy.", "_t")
-t("Dream Smith", "Dream Smith", "_t")
 t("Call the dream-forge hammer to smite your foes.", "Call the dream-forge hammer to smite your foes.", "_t")
-t("nightmare", "nightmare", "_t")
 t("Manifest your enemies nightmares.", "Manifest your enemies nightmares.", "_t")
-t("Psychic Assault", "Psychic Assault", "_t")
 t("Directly attack your opponents minds.", "Directly attack your opponents minds.", "_t")
-t("slumber", "slumber", "_t")
 t("Force enemies into a deep sleep.", "Force enemies into a deep sleep.", "_t")
-t("solipsism", "solipsism", "_t")
 t("Nothing exists outside the minds ability to perceive it.", "Nothing exists outside the minds ability to perceive it.", "_t")
-t("Thought-Forms", "Thought-Forms", "_t")
 t("Manifest your thoughts as psionic summons.", "Manifest your thoughts as psionic summons.", "_t")
-t("Dream Forge", "Dream Forge", "_t")
 t("Master the dream forge to create powerful armor and effects.", "Master the dream forge to create powerful armor and effects.", "_t")
-t("dreaming", "dreaming", "_t")
 t("Manipulate the sleep cycles of yourself and your enemies.", "Manipulate the sleep cycles of yourself and your enemies.", "_t")
-t("mentalism", "mentalism", "_t")
 t("Various mind based effects.", "Various mind based effects.", "_t")
-t("feedback", "feedback", "_t")
 t("Store feedback as you get damaged and use it to protect and heal your body.", "Store feedback as you get damaged and use it to protect and heal your body.", "_t")
-t("trance", "trance", "_t")
 t("Put your mind into a deep trance.", "Put your mind into a deep trance.", "_t")
 --]==]
 
+-- ancien texte traduit
+t("other", "autre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/psychic-assault.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Mind Sear", "Mind Sear", "talent name")
 t([[Sends a telepathic attack, trying to destroy the brains of any target in the beam, doing %0.2f mind damage.
@@ -27669,7 +27820,7 @@ t([[Cripples the target's mind, inflicting %0.2f mind damage and reducing its Me
 section "mod-tome/data/talents/psionic/slumber.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Slumber", "Slumber", "talent name")
 t("%s resists the sleep!", "%s resists the sleep!", "logSeen")
@@ -27712,7 +27863,7 @@ t([[Enter a sleeping target's dreams for %d turns.  While in the Dreamscape, you
 section "mod-tome/data/talents/psionic/solipsism.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Solipsism", "Solipsism", "talent name")
 t([[You believe that your mind is the center of everything.  Permanently increases the amount of psi you gain per level by 5 and reduces your life rating (affects life at level up) by 50%% (one time only adjustment).
@@ -27749,7 +27900,7 @@ t([[Each time you take damage, you roll %d%% of your mental save against it.  A 
 section "mod-tome/data/talents/psionic/telekinetic-combat.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Telekinetic Assault", "Telekinetic Assault", "talent name")
 t("You cannot do that without a weapon in your hands.", "You cannot do that without a weapon in your hands.", "logPlayer")
@@ -27765,7 +27916,7 @@ t([[Assault your target with all weapons, dealing two strikes with your telekine
 section "mod-tome/data/talents/psionic/thermal-mastery.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Transcendent Pyrokinesis", "Transcendent Pyrokinesis", "talent name")
 t([[For %d turns your pyrokinesis transcends your normal limits, increasing your Fire and Cold damage by %d%% and your Fire and Cold resistance penetration by %d%%.
@@ -27816,7 +27967,7 @@ t([[You seek balance between fire and cold based on your current Psi level.
 section "mod-tome/data/talents/psionic/thought-forms.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("thought-form", "thought-form", "_t")
 t("Thought-Form: Bowman", "Thought-Form: Bowman", "talent name")
@@ -27874,7 +28025,7 @@ t([[You now gain %d%% mind speed while Thought-Form: Bowman is active, %d Mindpo
 section "mod-tome/data/talents/psionic/trance.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Trance of Purity", "Trance of Purity", "talent name")
 t([[Activate to purge negative status effects (100%% chance for the first effect, -%d%% less chance for each subsequent effect).  While this talent is sustained all your saving throws are increased by %d.
@@ -27905,7 +28056,7 @@ t([[When you wield or wear an item infused by psionic, nature, or arcane-disrupt
 section "mod-tome/data/talents/psionic/voracity.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Kinetic Leech", "Kinetic Leech", "talent name")
 t("%s resists the sleep!", "%s resists the sleep!", "logSeen")
@@ -27941,7 +28092,7 @@ t("Increases your maximum energy by %d. You also gain %0.1f Psi for each kill an
 section "mod-tome/data/talents/spells/acid-alchemy.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Acid Infusion", "Acid Infusion", "talent name")
 t([[When you throw your alchemist bombs, you infuse them with explosive acid that can blind.
@@ -27974,7 +28125,7 @@ t([[Acid erupts all around your target, dealing %0.1f acid damage.
 section "mod-tome/data/talents/spells/advanced-golemancy.lua"
 
 t("Runic Golem", "Golem runique", "talent name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Life Tap", "Life Tap", "talent name")
 t("Having an Alchemist Golem", "Having an Alchemist Golem", "_t")
@@ -28005,7 +28156,7 @@ t([[Increases your golem's life, mana and stamina regeneration rates by %0.2f.
 section "mod-tome/data/talents/spells/aegis.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Arcane Reconstruction", "Arcane Reconstruction", "talent name")
 t([[Imbues your body with arcane forces, reconstructing it to a default state, healing for %d life.
@@ -28043,10 +28194,9 @@ t([[Release arcane energies into most magical shields currently protecting you.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/aether.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
-t("trap", "trap", "_t")
 t("Aether Beam", "Aether Beam", "talent name")
 t("You somehow fail to set the aether beam.", "You somehow fail to set the aether beam.", "logPlayer")
 t("aether beam", "aether beam", "_t")
@@ -28091,7 +28241,7 @@ t([[Surround yourself with Pure Aether, increasing all your arcane damage by %0.
 section "mod-tome/data/talents/spells/age-of-dusk.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dire Plague", "Dire Plague", "talent name")
 t([[You unleash the glorious vision of the past when the continent was filled with death and plagues.
@@ -28135,7 +28285,7 @@ t([[You recall the age long gone where necromancers had free reign over the worl
 section "mod-tome/data/talents/spells/air.lua"
 
 t("Lightning", "Foudre", "talent name")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Conjures up mana into a powerful beam of lightning, doing %0.2f to %0.2f damage (%0.2f average)
 		The damage will increase with your Spellpower.]], [[Conjures up mana into a powerful beam of lightning, doing %0.2f to %0.2f damage (%0.2f average)
@@ -28167,7 +28317,7 @@ t([[Conjures a furious, raging lightning storm with a radius of 6 that follows y
 section "mod-tome/data/talents/spells/animus.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Soul Leech", "Soul Leech", "talent name")
 t([[Each time you or your undead minions deal damage to a creature you apply Soul Leech to them.
@@ -28217,7 +28367,7 @@ section "mod-tome/data/talents/spells/arcane.lua"
 
 t("Manathrust", "Poussée de mana", "talent name")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Conjures up mana into a powerful bolt doing %0.2f arcane damage.
 		At level 3, it becomes a beam.
@@ -28265,7 +28415,7 @@ t([[Surround yourself with arcane forces, disrupting any attempts to harm you by
 section "mod-tome/data/talents/spells/conveyance.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Phase Door", "Phase Door", "talent name")
 t("Select a target to teleport...", "Select a target to teleport...", "logPlayer")
@@ -28317,7 +28467,7 @@ t([[When you hit a solid surface, this spell tears down the laws of probability 
 section "mod-tome/data/talents/spells/death.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Rigor Mortis", "Rigor Mortis", "talent name")
 t("%s resists the Rigor Mortis!", "%s resists the Rigor Mortis!", "logSeen")
@@ -28366,7 +28516,7 @@ t([[Whenever a creature is killed by yourself or a minion you feast on its essen
 section "mod-tome/data/talents/spells/deeprock.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Deeprock Form", "Deeprock Form", "talent name")
 t(", Arcane damage by %0.1f%% and Arcane damage penetration by %0.1f%%", ", Arcane damage by %0.1f%% and Arcane damage penetration by %0.1f%%", "tformat")
@@ -28401,7 +28551,7 @@ t([[While in deeprock form, you become indomitable, granting you %d%% resistance
 section "mod-tome/data/talents/spells/divination.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Arcane Eye", "Arcane Eye", "talent name")
 t([[Summons an ethereal magical eye at the designated location that lasts for %d turns.
@@ -28441,7 +28591,7 @@ t([[Echoes of the future flash before your eyes, allowing you to sense some inco
 section "mod-tome/data/talents/spells/dreadmaster.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dread", "Dread", "talent name")
 t([[Summon a Dread of level %d that will annoyingly blink around, hexing your foes.
@@ -28481,7 +28631,7 @@ t([[You now summon a Dreadmaster instead of a Dread.
 section "mod-tome/data/talents/spells/earth.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Pulverizing Auger", "Pulverizing Auger", "talent name")
 t([[Fire a powerful beam of stone-shattering force, digging out any walls in its path up to %d range.
@@ -28518,7 +28668,7 @@ t([[Entomb yourself in a wall of stone for %d turns.
 section "mod-tome/data/talents/spells/eldritch-shield.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Eldritch Blow", "Eldritch Blow", "talent name")
 t("You cannot use Eldritch Blow without a shield!", "You cannot use Eldritch Blow without a shield!", "logPlayer")
@@ -28563,7 +28713,7 @@ t([[Slam your shield on the ground creating a shockwave.
 section "mod-tome/data/talents/spells/eldritch-stone.lua"
 
 t(" and ", " et ", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Stone Spikes", "Stone Spikes", "talent name")
 t("poisoned for %0.1f Nature damage over 6 turns (%d%% healing reduction)", "poisoned for %0.1f Nature damage over 6 turns (%d%% healing reduction)", "tformat")
@@ -28593,7 +28743,7 @@ t([[Your stone spikes grow in length, instantly dealing %0.1f Physical damage an
 section "mod-tome/data/talents/spells/energy-alchemy.lua"
 
 t("%s's %s", "%s de %s", "tformat")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Lightning Infusion", "Lightning Infusion", "talent name")
 t([[When you throw your alchemist bombs, you infuse them with lightning damage that can daze your foes.
@@ -28631,7 +28781,7 @@ t([[Infuse your body with lightning energy, bolstering your movement speed by +%
 section "mod-tome/data/talents/spells/enhancement.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Arcane Strike", "Arcane Strike", "talent name")
 t("You require a weapon to use this talent.", "You require a weapon to use this talent.", "logPlayer")
@@ -28665,7 +28815,16 @@ t([[You concentrate on your inner self, increasing your Strength, Dexterity, Mag
 section "mod-tome/data/talents/spells/eradication.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and it will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
+		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
+		The damage will increase with your Spellpower.]], [[Your target's doom draws near. Its healing factor is reduced by 80%%, and it will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
+		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
+		The damage will increase with your Spellpower.]], "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Boneyard", "Boneyard", "talent name")
 t("#GREY#%s is resurrected by the boneyard!", "#GREY#%s is resurrected by the boneyard!", "logSeen")
@@ -28686,11 +28845,6 @@ t([[Teleport all foes in radius %d to your boneyard, as close to its center as p
 		Up to %d ghouls or skeletons are created around them by the boneyard, without any additional soul cost, but they only last 5 turns.
 		]], "tformat")
 t("Impending Doom", "Impending Doom", "talent name")
-t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
-		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
-		The damage will increase with your Spellpower.]], [[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
-		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
-		The damage will increase with your Spellpower.]], "tformat")
 t("Eternal Night", "Eternal Night", "talent name")
 t([[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
 		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], [[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
@@ -28702,7 +28856,7 @@ t([[Surround yourself with Frostdusk, increasing all your darkness and cold dama
 section "mod-tome/data/talents/spells/explosives.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Throw Bomb", "Throw Bomb", "talent name")
 t("You need to ready alchemist gems in your quiver.", "You need to ready alchemist gems in your quiver.", "logPlayer")
@@ -28737,7 +28891,7 @@ t([[Crush together two alchemist gems, making them extremely unstable.
 section "mod-tome/data/talents/spells/fire-alchemy.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Flame Infusion", "Flame Infusion", "talent name")
 t([[When you throw your alchemist bombs, you infuse them with flames that burn for a few turns.
@@ -28775,7 +28929,7 @@ section "mod-tome/data/talents/spells/fire.lua"
 t("Flame", "Flamme", "talent name")
 t("Flameshock", "Choc de flammes", "talent name")
 t("Fireflash", "Eclat de feu", "talent name")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Conjures up a bolt of fire, setting the target ablaze and doing %0.2f fire damage over 3 turns.
 		At level 5, it will create a beam of flames.
@@ -28799,7 +28953,7 @@ t([[Raging flames burn foes and allies alike, doing %0.2f fire damage in a radiu
 section "mod-tome/data/talents/spells/frost-alchemy.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Frost Infusion", "Frost Infusion", "talent name")
 t([[When you throw your alchemist bombs, you infuse them with cold damage that can freeze your foes.
@@ -28832,7 +28986,7 @@ t([[Turn your body into pure ice, increasing your Cold damage affinity by %d%% a
 section "mod-tome/data/talents/spells/glacial-waste.lua"
 
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Hiemal Shield", "Hiemal Shield", "talent name")
 t("#GREY#Your hiemal shield does not have enough resources!", "#GREY#Your hiemal shield does not have enough resources!", "logPlayer")
@@ -28872,10 +29026,9 @@ t([[Your hiemal shield is stronger, taking %d%% less damage from all attacks.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/golem.lua"
 
-
--- untranslated text
+t("Knockback", "Repoussage", "talent name")
+-- texte non traduit
 --[==[
-t("Knockback", "Knockback", "talent name")
 t("Your golem cannot do that currently.", "Your golem cannot do that currently.", "logPlayer")
 t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t([[Your golem rushes to the target, dealing %d%% damage and knocking it back.
@@ -28949,7 +29102,7 @@ t([[Breathe poison on your foes, doing %d damage over a few turns.
 section "mod-tome/data/talents/spells/golemancy.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Golem has no master", "Golem has no master", "_t")
 t("Master must know the Gem Golem talent", "Master must know the Gem Golem talent", "_t")
@@ -28999,22 +29152,7 @@ t("Teleport to your golem, while your golem teleports to your location. Your foe
 section "mod-tome/data/talents/spells/grave.lua"
 
 
--- new text
---[==[
-t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
-		Every turn all foes inside take %0.2f cold damage.
-		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
-		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
-		If cast while under 1 life it spawns with 3 stacks.
-		The damage will increase with your Spellpower.]], [[You summon a corpselight that radiates cold for 7 turns in radius %d.
-		Every turn all foes inside take %0.2f cold damage.
-		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
-		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
-		If cast while under 1 life it spawns with 3 stacks.
-		The damage will increase with your Spellpower.]], "tformat")
---]==]
-
--- untranslated text
+-- texte non traduit
 --[==[
 t("Black Ice", "Black Ice", "talent name")
 t([[Summon an icy spike directly on a foe, impaling it for %0.2f cold damage.
@@ -29031,6 +29169,17 @@ t([[Conjures up a bolt of cold that moves toward the target and explodes into a 
 		Necrotic minions caught in the blast do not take damage but are instead coated with a thin layer of ice, reducing all damage they take by %d for 4 turns.
 		The damage will increase with your Spellpower.]], "tformat")
 t("Corpselight", "Corpselight", "talent name")
+t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
+		Every turn all foes inside take %0.2f cold damage.
+		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
+		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
+		If cast while under 1 life it spawns with 3 stacks.
+		The damage will increase with your Spellpower.]], [[You summon a corpselight that radiates cold for 7 turns in radius %d.
+		Every turn all foes inside take %0.2f cold damage.
+		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
+		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
+		If cast while under 1 life it spawns with 3 stacks.
+		The damage will increase with your Spellpower.]], "tformat")
 t("Grave Mistake", "Grave Mistake", "talent name")
 t("#STEEL_BLUE#The corpselight implodes!", "#STEEL_BLUE#The corpselight implodes!", "logSeen")
 t([[Upon expiring the corpselight implodes, pulling in all foes towards its center and dealing %0.2f cold damage.
@@ -29049,7 +29198,7 @@ t([[Upon expiring the corpselight implodes, pulling in all foes towards its cent
 section "mod-tome/data/talents/spells/ice.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Freeze", "Freeze", "talent name")
 t([[Condenses ambient water on a target, freezing it for %d turns and damaging it for %0.2f.
@@ -29095,8 +29244,17 @@ t([[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%%
 section "mod-tome/data/talents/spells/master-necromancer.lua"
 
 
--- new text
+-- texte non traduit
 --[==[
+t("Aura of Undeath", "Aura of Undeath", "talent name")
+t([[Your mastery of necromancy becomes so total that an aura of undeath radiates around you in radius %d.
+		Any undead minion standing inside of it is protected, increasing all their resistances by %d%%.
+		In addition when you create new minions they inherit %d%% of your spellpower (applied to any powers), spell crit chance (applied to any crit chances), saves, resists and damage increases (applied to all elements).
+		]], [[Your mastery of necromancy becomes so total that an aura of undeath radiates around you in radius %d.
+		Any undead minion standing inside of it is protected, increasing all their resistances by %d%%.
+		In addition when you create new minions they inherit %d%% of your spellpower (applied to any powers), spell crit chance (applied to any crit chances), saves, resists and damage increases (applied to all elements).
+		]], "tformat")
+t("Surge of Undeath", "Surge of Undeath", "talent name")
 t([[Sends out a surge of undeath energies into your aura.
 		All minions inside gain 25%% speed for %d turns
 		All non-ghoul minions are healed by %d%%.
@@ -29110,6 +29268,14 @@ t([[Sends out a surge of undeath energies into your aura.
 		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
 		All non-undead foes caught inside are dazed for %d turns.
 		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], "tformat")
+t("Recall Minions", "Recall Minions", "talent name")
+t([[Tighten the ethereal leash to some of your minions currently within your aura of undeath, pulling them to you and swapping place with any eventual foes in the way.
+		Up to %d minions are affected.
+		When recalling a minion the spell tries to prioritize a spot where there is already a foe, to push it away.]], [[Tighten the ethereal leash to some of your minions currently within your aura of undeath, pulling them to you and swapping place with any eventual foes in the way.
+		Up to %d minions are affected.
+		When recalling a minion the spell tries to prioritize a spot where there is already a foe, to push it away.]], "tformat")
+t("Suffer For Me", "Suffer For Me", "talent name")
+t("#GREY#(%d to minion: %s)#LAST#", "#GREY#(%d to minion: %s)#LAST#", "tformat")
 t([[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
 		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
 		The minion takes 300%% damage from that effect.
@@ -29119,33 +29285,12 @@ t([[By creating an arcane link with your minion army you are able to redirect pa
 		The damage redirected percent depends on your Spellpower.]], "tformat")
 --]==]
 
--- untranslated text
---[==[
-t("Aura of Undeath", "Aura of Undeath", "talent name")
-t([[Your mastery of necromancy becomes so total that an aura of undeath radiates around you in radius %d.
-		Any undead minion standing inside of it is protected, increasing all their resistances by %d%%.
-		In addition when you create new minions they inherit %d%% of your spellpower (applied to any powers), spell crit chance (applied to any crit chances), saves, resists and damage increases (applied to all elements).
-		]], [[Your mastery of necromancy becomes so total that an aura of undeath radiates around you in radius %d.
-		Any undead minion standing inside of it is protected, increasing all their resistances by %d%%.
-		In addition when you create new minions they inherit %d%% of your spellpower (applied to any powers), spell crit chance (applied to any crit chances), saves, resists and damage increases (applied to all elements).
-		]], "tformat")
-t("Surge of Undeath", "Surge of Undeath", "talent name")
-t("Recall Minions", "Recall Minions", "talent name")
-t([[Tighten the ethereal leash to some of your minions currently within your aura of undeath, pulling them to you and swapping place with any eventual foes in the way.
-		Up to %d minions are affected.
-		When recalling a minion the spell tries to prioritize a spot where there is already a foe, to push it away.]], [[Tighten the ethereal leash to some of your minions currently within your aura of undeath, pulling them to you and swapping place with any eventual foes in the way.
-		Up to %d minions are affected.
-		When recalling a minion the spell tries to prioritize a spot where there is already a foe, to push it away.]], "tformat")
-t("Suffer For Me", "Suffer For Me", "talent name")
-t("#GREY#(%d to minion: %s)#LAST#", "#GREY#(%d to minion: %s)#LAST#", "tformat")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/master-of-bones.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Call of the Crypt", "Call of the Crypt", "talent name")
 t([[Call upon the battlefields of old, collecting bones, fusing them with souls, and forging them into skeletal minions.
@@ -29209,7 +29354,7 @@ t([[Consume a soul to empower one of your skeleton, making it into a Lord of Sku
 section "mod-tome/data/talents/spells/master-of-flesh.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Call of the Mausoleum", "Call of the Mausoleum", "talent name")
 t("\
@@ -29273,7 +29418,7 @@ t([[Whenever you would be affected by a detrimental physical effect you instead 
 section "mod-tome/data/talents/spells/meta.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Disperse Magic", "Disperse Magic", "talent name")
 t([[Removes up to %d magical effects (good effects from foes, and bad effects from friends) from the target.
@@ -29304,7 +29449,7 @@ t([[Your mastery of arcane flows allow you to reset the cooldown of up to %d of 
 section "mod-tome/data/talents/spells/necrosis.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Blurred Mortality", "Blurred Mortality", "talent name")
 t([[The line between life and death blurs for you.
@@ -29349,7 +29494,7 @@ t([[Each turn you unleash dark powers through your runeskin.
 section "mod-tome/data/talents/spells/nightfall.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Invoke Darkness", "Invoke Darkness", "talent name")
 t([[Conjures up a beam of darkness, doing %0.2f darkness damage.
@@ -29386,7 +29531,23 @@ t([[You summon a river of tortured souls to launch an onslaught of darkness agai
 section "mod-tome/data/talents/spells/phantasm.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t("#YELLOW#(%d ignored)#LAST#", "#YELLOW#(%d ignored)#LAST#", "tformat")
+t([[Create a perfect lookalike of your own form made out of pure light near a creature.
+		This image has %d life and can never take more than 1 damage per creature per turn and is immune to any non direct damage (ground effects, damage over time, ...).
+		Whenever you cast a spell your mirror image will try to duplicate it at the same target for 66%% less damage, if possible. If it can, it will lose 1 life, if not it will instead taunt a creature to focus its attention on itself.
+		While the image exists you receive the damage bonus from the Invisibility spell as if you were invisible.
+		This spell can not be cast while a Mirror Image already exists and only in combat. It will disappear after a few turn when outside of combat.
+		]], [[Create a perfect lookalike of your own form made out of pure light near a creature.
+		This image has %d life and can never take more than 1 damage per creature per turn and is immune to any non direct damage (ground effects, damage over time, ...).
+		Whenever you cast a spell your mirror image will try to duplicate it at the same target for 66%% less damage, if possible. If it can, it will lose 1 life, if not it will instead taunt a creature to focus its attention on itself.
+		While the image exists you receive the damage bonus from the Invisibility spell as if you were invisible.
+		This spell can not be cast while a Mirror Image already exists and only in combat. It will disappear after a few turn when outside of combat.
+		]], "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Illuminate", "Illuminate", "talent name")
 t([[Creates a globe of pure light within a radius of %d that illuminates the area and deals %0.2f damage to all creatures.
@@ -29411,17 +29572,6 @@ t("You cannot summon; you are suppressed!", "You cannot summon; you are suppress
 t("Mirror Image (%s)", "Mirror Image (%s)", "tformat")
 t("A blurred image.", "A blurred image.", "_t")
 t("Summon", "Summon", "_t")
-t([[Create a perfect lookalike of your own form made out of pure light near a creature.
-		This image has %d life and can never take more than 1 damage per creature per turn and is immune to any non direct damage (ground effects, damage over time, ...).
-		Whenever you cast a spell your mirror image will try to duplicate it at the same target for 66%% less damage, if possible. If it can it will loose 1 life, if not it will instead taunt a creature to focus its attention on itself.
-		While the image exists you receive the damage bonus from the Invisibility spell as if you were invisible.
-		This spell can not be cast while a Mirror Image already exists and only in combat. It will disappear after a few turn when outside of combat.
-		]], [[Create a perfect lookalike of your own form made out of pure light near a creature.
-		This image has %d life and can never take more than 1 damage per creature per turn and is immune to any non direct damage (ground effects, damage over time, ...).
-		Whenever you cast a spell your mirror image will try to duplicate it at the same target for 66%% less damage, if possible. If it can it will loose 1 life, if not it will instead taunt a creature to focus its attention on itself.
-		While the image exists you receive the damage bonus from the Invisibility spell as if you were invisible.
-		This spell can not be cast while a Mirror Image already exists and only in combat. It will disappear after a few turn when outside of combat.
-		]], "tformat")
 --]==]
 
 
@@ -29429,7 +29579,7 @@ t([[Create a perfect lookalike of your own form made out of pure light near a cr
 section "mod-tome/data/talents/spells/rime-wraith.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Rime Wraith", "Rime Wraith", "talent name")
 t([[You summon a Rime Wraith inside of you, an intangible creature, that haunts both foes and allies for %d turns.
@@ -29478,7 +29628,7 @@ t([[Hoarfrost now has additional effects:
 section "mod-tome/data/talents/spells/spectre.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ghost Walk", "Ghost Walk", "talent name")
 t("You do not have line of sight.", "You do not have line of sight.", "logPlayer")
@@ -29502,119 +29652,125 @@ t("On using Ghost Walk - Return, you create a portal that summons %d spirits aro
 ------------------------------------------------
 section "mod-tome/data/talents/spells/spells.lua"
 
-t("spell", "sort", "talent category")
-t("water", "eau", "_t")
--- untranslated text
+t("spell", "contre les sorts", "talent category")
+t("water", "eau", "talent type")
+-- nouveau texte
 --[==[
-t("arcane", "arcane", "_t")
+t("arcane", "arcane", "talent type")
+t("aether", "aether", "talent type")
+t("fire", "fire", "talent type")
+t("wildfire", "wildfire", "talent type")
+t("earth", "earth", "talent type")
+t("stone", "stone", "talent type")
+t("ice", "ice", "talent type")
+t("air", "air", "talent type")
+t("storm", "storm", "talent type")
+t("meta", "meta", "talent type")
+t("temporal", "temporal", "talent type")
+t("phantasm", "phantasm", "talent type")
+t("enhancement", "enhancement", "talent type")
+t("thaumaturgy", "thaumaturgy", "talent type")
+t("conveyance", "conveyance", "talent type")
+t("divination", "divination", "talent type")
+t("aegis", "aegis", "talent type")
+t("explosive admixtures", "explosive admixtures", "talent type")
+t("infusion", "infusion", "talent type")
+t("golemancy", "golemancy", "talent type")
+t("advanced-golemancy", "advanced-golemancy", "talent type")
+t("fire alchemy", "fire alchemy", "talent type")
+t("acid alchemy", "acid alchemy", "talent type")
+t("frost alchemy", "frost alchemy", "talent type")
+t("energy alchemy", "energy alchemy", "talent type")
+t("stone alchemy", "stone alchemy", "talent type")
+t("staff combat", "staff combat", "talent type")
+t("fighting", "fighting", "talent type")
+t("golem", "golem", "talent type")
+t("drolem", "drolem", "talent type")
+t("master of bones", "master of bones", "talent type")
+t("master of flesh", "master of flesh", "talent type")
+t("master necromancer", "master necromancer", "talent type")
+t("nightfall", "nightfall", "talent type")
+t("dreadmaster", "dreadmaster", "talent type")
+t("age of dusk", "age of dusk", "talent type")
+t("grave", "grave", "talent type")
+t("glacial waste", "glacial waste", "talent type")
+t("rime wraith", "rime wraith", "talent type")
+t("animus", "animus", "talent type")
+t("death", "death", "talent type")
+t("eradication", "eradication", "talent type")
+t("necrosis", "necrosis", "talent type")
+t("spectre", "spectre", "talent type")
+t("eldritch shield", "eldritch shield", "talent type")
+t("eldritch stone", "eldritch stone", "talent type")
+t("deeprock", "deeprock", "talent type")
+--]==]
+
+-- texte non traduit
+--[==[
 t("Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "_t")
-t("aether", "aether", "_t")
 t("Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "_t")
-t("fire", "fire", "_t")
 t("Harness the power of fire to burn your foes to ashes.", "Harness the power of fire to burn your foes to ashes.", "_t")
-t("wildfire", "wildfire", "_t")
 t("Harness the power of wildfire to burn your foes to ashes.", "Harness the power of wildfire to burn your foes to ashes.", "_t")
-t("earth", "earth", "_t")
 t("Harness the power of the earth to protect and destroy.", "Harness the power of the earth to protect and destroy.", "_t")
-t("stone", "stone", "_t")
 t("Harness the power of the stone to protect and destroy.", "Harness the power of the stone to protect and destroy.", "_t")
 t("Harness the power of water to drown your foes.", "Harness the power of water to drown your foes.", "_t")
-t("ice", "ice", "_t")
 t("Harness the power of ice to freeze and shatter your foes.", "Harness the power of ice to freeze and shatter your foes.", "_t")
-t("air", "air", "_t")
 t("Harness the power of the air to fry your foes.", "Harness the power of the air to fry your foes.", "_t")
-t("storm", "storm", "_t")
 t("Harness the power of the storm to incinerate your foes.", "Harness the power of the storm to incinerate your foes.", "_t")
-t("meta", "meta", "_t")
 t("Meta spells alter the working of magic itself.", "Meta spells alter the working of magic itself.", "_t")
-t("temporal", "temporal", "_t")
 t("The school of time manipulation.", "The school of time manipulation.", "_t")
-t("phantasm", "phantasm", "_t")
 t("Control the power of tricks and illusions.", "Control the power of tricks and illusions.", "_t")
-t("enhancement", "enhancement", "_t")
 t("Magical enhancement of your body.", "Magical enhancement of your body.", "_t")
-t("thaumaturgy", "thaumaturgy", "_t")
 t("The pinacle of spellcasting.", "The pinacle of spellcasting.", "_t")
-t("conveyance", "conveyance", "_t")
 t("Conveyance is the school of travel. It allows you to travel faster and to track others.", "Conveyance is the school of travel. It allows you to travel faster and to track others.", "_t")
-t("divination", "divination", "_t")
 t("Divination allows the caster to sense its surroundings, and find hidden things.", "Divination allows the caster to sense its surroundings, and find hidden things.", "_t")
-t("aegis", "aegis", "_t")
 t("Command the arcane forces into healing and protection.", "Command the arcane forces into healing and protection.", "_t")
-t("explosive admixtures", "explosive admixtures", "_t")
 t("Manipulate gems to turn them into explosive magical bombs.", "Manipulate gems to turn them into explosive magical bombs.", "_t")
-t("infusion", "infusion", "_t")
 t("Infusion your gem bombs with the powers of the elements.", "Infusion your gem bombs with the powers of the elements.", "_t")
-t("golemancy", "golemancy", "_t")
 t("Learn to craft and upgrade your golem.", "Learn to craft and upgrade your golem.", "_t")
-t("advanced-golemancy", "advanced-golemancy", "_t")
 t("Advanced golem operations.", "Advanced golem operations.", "_t")
-t("fire alchemy", "fire alchemy", "_t")
 t("Alchemical spells designed to wage war.", "Alchemical spells designed to wage war.", "_t")
 t("Alchemical control over fire.", "Alchemical control over fire.", "_t")
-t("acid alchemy", "acid alchemy", "_t")
 t("Alchemical control over acid.", "Alchemical control over acid.", "_t")
-t("frost alchemy", "frost alchemy", "_t")
 t("Alchemical control over frost.", "Alchemical control over frost.", "_t")
-t("energy alchemy", "energy alchemy", "_t")
 t("Alchemical control over lightning energies.", "Alchemical control over lightning energies.", "_t")
-t("stone alchemy", "stone alchemy", "_t")
 t("Manipulate gems, and imbue their powers into other objects.", "Manipulate gems, and imbue their powers into other objects.", "_t")
 t("Alchemical control over stone and gems.", "Alchemical control over stone and gems.", "_t")
-t("staff combat", "staff combat", "_t")
 t("Harness the power of magical staves.", "Harness the power of magical staves.", "_t")
 t("golem", "golem", "talent category")
-t("fighting", "fighting", "_t")
 t("Golem melee capacity.", "Golem melee capacity.", "_t")
 t("Golem arcane capacity.", "Golem arcane capacity.", "_t")
-t("golem", "golem", "_t")
 t("Golem basic capacity.", "Golem basic capacity.", "_t")
-t("drolem", "drolem", "_t")
 t("Drolem basic capacity.", "Drolem basic capacity.", "_t")
-t("master of bones", "master of bones", "_t")
 t("Become of the master of bones, creating skeletal minions to do your bidding.", "Become of the master of bones, creating skeletal minions to do your bidding.", "_t")
-t("master of flesh", "master of flesh", "_t")
 t("Become of the master of flesh, creating ghoul minions to do your bidding", "Become of the master of flesh, creating ghoul minions to do your bidding", "_t")
-t("master necromancer", "master necromancer", "_t")
 t("Full and total control over your undead army.", "Full and total control over your undead army.", "_t")
-t("nightfall", "nightfall", "_t")
 t("Manipulate darkness itself to slaughter your foes.", "Manipulate darkness itself to slaughter your foes.", "_t")
-t("dreadmaster", "dreadmaster", "_t")
 t("Summon an undead minion of pure darkness to harass your foes.", "Summon an undead minion of pure darkness to harass your foes.", "_t")
-t("age of dusk", "age of dusk", "_t")
 t("Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "_t")
-t("grave", "grave", "_t")
 t("Use the rotting cold doom of the tomb to fell your foes.", "Use the rotting cold doom of the tomb to fell your foes.", "_t")
-t("glacial waste", "glacial waste", "_t")
 t("Wither the land into a cold, dead ground to protect yourself.", "Wither the land into a cold, dead ground to protect yourself.", "_t")
-t("rime wraith", "rime wraith", "_t")
 t("Summon an undead minion of pure cold to harass your foes.", "Summon an undead minion of pure cold to harass your foes.", "_t")
-t("animus", "animus", "_t")
 t("Crush the souls of your foes to improve yourself.", "Crush the souls of your foes to improve yourself.", "_t")
-t("death", "death", "_t")
 t("Learn to fasten your foes way into the grave.", "Learn to fasten your foes way into the grave.", "_t")
-t("eradication", "eradication", "_t")
 t("Doom to all your foes. Crush them.", "Doom to all your foes. Crush them.", "_t")
-t("necrosis", "necrosis", "_t")
 t("Gain control over death, by unnaturally expanding your life.", "Gain control over death, by unnaturally expanding your life.", "_t")
-t("spectre", "spectre", "_t")
 t("Turn into a spectre to move around the battlefield.", "Turn into a spectre to move around the battlefield.", "_t")
-t("eldritch shield", "eldritch shield", "_t")
 t("Infuse arcane forces into your shield.", "Infuse arcane forces into your shield.", "_t")
-t("eldritch stone", "eldritch stone", "_t")
 t("Summon stony spikes imbued with various powers.", "Summon stony spikes imbued with various powers.", "_t")
-t("deeprock", "deeprock", "_t")
 t("Harness the power of the world to turn into a Deeprock Form.", "Harness the power of the world to turn into a Deeprock Form.", "_t")
 t("#GREY#%s can not be healed this way!", "#GREY#%s can not be healed this way!", "logSeen")
 t("Necrotic Minion", "Necrotic Minion", "_t")
 --]==]
 
+-- ancien texte traduit
+t("water", "eau", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/staff-combat.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Channel Staff", "Channel Staff", "talent name")
 t("You need a staff to use this spell.", "You need a staff to use this spell.", "logPlayer")
@@ -29644,7 +29800,7 @@ t([[Hit a target for %d%% melee damage and stun it for %d turns.
 section "mod-tome/data/talents/spells/stone-alchemy.lua"
 
 t("You extract %s from %s", "Vous extrayez %s de %s", "logPlayer")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Create Alchemist Gems", "Create Alchemist Gems", "talent name")
 t("Use which gem?", "Use which gem?", "_t")
@@ -29686,7 +29842,7 @@ t([[Touch your foe and turn it to stone for %d turns.
 section "mod-tome/data/talents/spells/stone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Earthen Missiles", "Earthen Missiles", "talent name")
 t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
@@ -29719,7 +29875,7 @@ t([[Concentrate on maintaining a Crystalline Focus, increasing all your physical
 section "mod-tome/data/talents/spells/storm.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Nova", "Nova", "talent name")
 t([[Lightning emanates from you in a circular wave with radius %d, doing %0.2f to %0.2f lightning damage (%0.2f average) and possibly dazing anyone affected (75%% chance).
@@ -29748,7 +29904,7 @@ t([[Surround yourself with a Tempest, increasing all your lightning damage by %d
 section "mod-tome/data/talents/spells/temporal.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Congeal Time", "Congeal Time", "talent name")
 t("Project a bolt of time distortion, decreasing the target's global speed by %d%% and all projectiles it fires by %d%% for 7 turns.", "Project a bolt of time distortion, decreasing the target's global speed by %d%% and all projectiles it fires by %d%% for 7 turns.", "tformat")
@@ -29775,7 +29931,7 @@ t("Increases the caster's global speed by %d%%.", "Increases the caster's global
 section "mod-tome/data/talents/spells/thaumaturgy.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Orb of Thaumaturgy", "Orb of Thaumaturgy", "talent name")
 t([[You create an orb attuned to thaumaturgy for %d turns.
@@ -29836,7 +29992,7 @@ t("Thaumaturgy Unlock Checker", "Thaumaturgy Unlock Checker", "talent name")
 section "mod-tome/data/talents/spells/war-alchemy.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Heat", "Heat", "talent name")
 t([[Turn part of your target into fire, burning the rest for %0.2f fire damage over 8 turns.
@@ -29849,7 +30005,7 @@ t([[Turn part of your target into fire, burning the rest for %0.2f fire damage o
 section "mod-tome/data/talents/spells/water.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ice Shards", "Ice Shards", "talent name")
 t([[Hurl ice shards at the targets in the selected area. Each shard travels slowly and does %0.2f ice damage, hitting all adjacent targets on impact with 25%% chance to freeze them.
@@ -29904,7 +30060,7 @@ t([[A furious ice storm rages around the caster, doing %0.2f cold damage in a ra
 section "mod-tome/data/talents/spells/wildfire.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Blastwave", "Blastwave", "talent name")
 t([[A wave of fire emanates from you with a radius of %d, knocking back anything caught inside and setting them ablaze, doing %0.2f fire damage over 3 turns.
@@ -29933,7 +30089,7 @@ t("Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, 
 section "mod-tome/data/talents/techniques/2h-assault.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Stunning Blow", "Stunning Blow", "talent name")
 t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
@@ -29962,7 +30118,7 @@ t([[Takes advantage of a wounded foe to perform a killing strike.  This attack i
 section "mod-tome/data/talents/techniques/2hweapon.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Death Dance", "Death Dance", "talent name")
 t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
@@ -30020,7 +30176,7 @@ t([[Enter a blood frenzy, draining stamina quickly (-2 stamina/turn). Each time 
 section "mod-tome/data/talents/techniques/acrobatics.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Vault", "Vault", "talent name")
 t("You cannot move!", "You cannot move!", "logPlayer")
@@ -30059,7 +30215,7 @@ t([[You gain greater facility with your acrobatic moves, lowering the cooldowns 
 section "mod-tome/data/talents/techniques/agility.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Agile Defense", "Agile Defense", "talent name")
 t("%s(%d deflected)#LAST#", "%s(%d deflected)#LAST#", "tformat")
@@ -30097,7 +30253,7 @@ Requires a sling to use.]], "tformat")
 section "mod-tome/data/talents/techniques/archery.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shoot", "Shoot", "talent name")
 t("@Source@ shoots!", "@Source@ shoots!", "_t")
@@ -30164,7 +30320,7 @@ t([[You fire a pinning shot, doing %d%% damage and pinning your target to the gr
 section "mod-tome/data/talents/techniques/assassination.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Coup de Grace", "Coup de Grace", "talent name")
 t("You require two weapons to use this talent.", "You require two weapons to use this talent.", "logPlayer")
@@ -30203,7 +30359,7 @@ t([[You mark a target for death for 4 turns, causing them to take %d%% increased
 section "mod-tome/data/talents/techniques/battle-tactics.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Greater Weapon Focus", "Greater Weapon Focus", "talent name")
 t([[Concentrate on your blows; for %d turns, each strike you land on your target in melee range has a %d%% chance to trigger another, similar strike.
@@ -30240,7 +30396,7 @@ t([[Take a defensive stance to resist the onslaught of your foes.
 section "mod-tome/data/talents/techniques/bloodthirst.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Mortal Terror", "Mortal Terror", "talent name")
 t("%s resists the terror!", "%s resists the terror!", "logSeen")
@@ -30272,7 +30428,7 @@ t([[You enter a battle frenzy for %d turns. During that time, you can not use it
 section "mod-tome/data/talents/techniques/bow.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Bow Mastery", "Bow Mastery", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using bows.
@@ -30294,7 +30450,7 @@ t("You fire multiple arrows at an area of %d radius, doing %d%% damage with each
 section "mod-tome/data/talents/techniques/buckler-training.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Buckler Expertise", "Buckler Expertise", "talent name")
 t([[Allows shields to be equipped, using Cunning instead of strength as a requirement.
@@ -30324,7 +30480,7 @@ t([[Any time you block an attack with Buckler Expertise or Buckler Mastery you i
 section "mod-tome/data/talents/techniques/combat-techniques.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Rush", "Rush", "talent name")
 t("@Source@ rushes out!", "@Source@ rushes out!", "_t")
@@ -30358,7 +30514,7 @@ t("You revel in the death of your foes, regaining %0.1f stamina with each death 
 section "mod-tome/data/talents/techniques/combat-training.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Thick Skin", "Thick Skin", "talent name")
 t("Your skin becomes more resilient to damage. Increases resistance to all damage by %0.1f%%.", "Your skin becomes more resilient to damage. Increases resistance to all damage by %0.1f%%.", "tformat")
@@ -30398,7 +30554,7 @@ t("Increases weapon damage by %d%% and physical power by 30 when using exotic we
 section "mod-tome/data/talents/techniques/conditioning.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Vitality", "Vitality", "talent name")
 t([[You recover faster from poisons, diseases and wounds, reducing the duration of all such effects by %d%%.  
@@ -30436,7 +30592,7 @@ t([[You release a surge of adrenaline that increases your Physical Power by %d f
 section "mod-tome/data/talents/techniques/dualweapon.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dual Weapon Training", "Dual Weapon Training", "talent name")
 t("Increases the damage of your off-hand weapon to %d%%.", "Increases the damage of your off-hand weapon to %d%%.", "tformat")
@@ -30490,7 +30646,7 @@ t("You quickly move up to %d tiles to arrive adjacent to a target location you c
 section "mod-tome/data/talents/techniques/duelist.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dual Weapon Mastery", "Dual Weapon Mastery", "talent name")
 t([[Your offhand weapon damage penalty is reduced to %d%%.
@@ -30531,7 +30687,7 @@ t([[Exploiting a gap in your target's defenses, you make a lethal strike with yo
 section "mod-tome/data/talents/techniques/excellence.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shoot Down", "Shoot Down", "talent name")
 t("#Source# shoots down '#Target#'!", "#Source# shoots down '#Target#'!", "logCombat")
@@ -30562,7 +30718,7 @@ t([[You fire a shot at your target's throat, mouth, or equivalent body part, doi
 section "mod-tome/data/talents/techniques/field-control.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Heave", "Heave", "talent name")
 t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
@@ -30580,7 +30736,7 @@ t("Your great dexterity allows you to see incoming projectiles (spells, arrows, 
 section "mod-tome/data/talents/techniques/finishing-moves.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Uppercut", "Uppercut", "talent name")
 t("@Source@ throws a finishing uppercut.", "@Source@ throws a finishing uppercut.", "_t")
@@ -30617,7 +30773,7 @@ t([[A vicious finishing strike that deals %d%% damage increased by 20%% per comb
 section "mod-tome/data/talents/techniques/grappling.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Grappling Stance", "Grappling Stance", "talent name")
 t([[Increases your Physical Save by %d and your Physical Power by %d.
@@ -30656,10 +30812,9 @@ t([[In a mighty show of strength you whirl your grappled victim around and throw
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/magical-combat.lua"
 
-
--- untranslated text
+t("Arcane Combat", "Combat Arcanique", "talent name")
+-- texte non traduit
 --[==[
-t("Arcane Combat", "Arcane Combat", "talent name")
 t([[				
 				Currently selected spell: %s]], [[				
 				Currently selected spell: %s]], "tformat")
@@ -30704,7 +30859,7 @@ t([[Raw magical damage channels through the caster's weapon, increasing raw Phys
 section "mod-tome/data/talents/techniques/marksmanship.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Master Marksman", "Master Marksman", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using bows or slings, as well as your reload rate by %d.
@@ -30729,7 +30884,7 @@ t("Enter a state of heightened focus for %d turns. While in this state your rang
 section "mod-tome/data/talents/techniques/mobility.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("You must be able to move to use %s!", "You must be able to move to use %s!", "logPlayer")
 t("%s is not usable while wearing heavy armour.", "%s is not usable while wearing heavy armour.", "logPlayer")
@@ -30776,7 +30931,7 @@ t([[You have trained to be very light on your feet and have conditioned your ref
 section "mod-tome/data/talents/techniques/munitions.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Exotic Munitions", "Exotic Munitions", "talent name")
 t([[You have learned to create and equip specialist ammunition:
@@ -30844,7 +30999,7 @@ The physical damage dealt, armor penetration and save reduction will increase wi
 section "mod-tome/data/talents/techniques/pugilism.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Striking Stance", "Striking Stance", "talent name")
 t([[Increases your Accuracy by %d, the damage multiplier of your striking talents (Pugilism and Finishing Moves) by %d%%, and reduces all damage taken by %d.
@@ -30877,7 +31032,7 @@ t([[Lashes out at the target with three quick punches that each deal %d%% damage
 section "mod-tome/data/talents/techniques/reflexes.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shoot Down", "Shoot Down", "talent name")
 t("#Source# shoots down '#Target#'!", "#Source# shoots down '#Target#'!", "logCombat")
@@ -30906,7 +31061,7 @@ Any action other than movement will cancel this effect.]], "tformat")
 section "mod-tome/data/talents/techniques/skirmisher-slings.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Sling Supremacy", "Sling Supremacy", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using slings.
@@ -30928,7 +31083,7 @@ t("Your Shoot talent now costs %d stamina but fires %d times for %d%% damage per
 section "mod-tome/data/talents/techniques/sling.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Sling Mastery", "Sling Mastery", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using slings.
@@ -30955,7 +31110,7 @@ t("You fire an average of %0.1f shots at your target, doing %d%% damage with eac
 section "mod-tome/data/talents/techniques/sniper.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Concealment", "Concealment", "talent name")
 t("You are being observed too closely to enter Concealment!", "You are being observed too closely to enter Concealment!", "logPlayer")
@@ -30990,7 +31145,7 @@ t("Fire a lethal shot. This shot will bypass other enemies between you and your 
 section "mod-tome/data/talents/techniques/strength-of-the-berserker.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Warshout", "Warshout", "talent name")
 t("@Source@ uses Warsqueak.", "@Source@ uses Warsqueak.", "_t")
@@ -31031,7 +31186,7 @@ t([[Search your inner strength for a surge of power.
 section "mod-tome/data/talents/techniques/superiority.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Juggernaut", "Juggernaut", "talent name")
 t([[Concentrate on the battle, ignoring some of the damage you take.
@@ -31055,91 +31210,95 @@ t([[Put all of your strength into your weapon blows, creating shockwaves that de
 section "mod-tome/data/talents/techniques/techniques.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t("two-handed assault", "two-handed assault", "talent type")
+t("berserker's strength", "berserker's strength", "talent type")
+t("two-handed weapons", "two-handed weapons", "talent type")
+t("two-handed maiming", "two-handed maiming", "talent type")
+t("shield offense", "shield offense", "talent type")
+t("shield defense", "shield defense", "talent type")
+t("dual weapons", "dual weapons", "talent type")
+t("dual techniques", "dual techniques", "talent type")
+t("archery - base", "archery - base", "talent type")
+t("archery - bows", "archery - bows", "talent type")
+t("archery - slings", "archery - slings", "talent type")
+t("archery training", "archery training", "talent type")
+t("archery prowess", "archery prowess", "talent type")
+t("archery excellence", "archery excellence", "talent type")
+t("superiority", "superiority", "talent type")
+t("battle tactics", "battle tactics", "talent type")
+t("warcries", "warcries", "talent type")
+t("bloodthirst", "bloodthirst", "talent type")
+t("field control", "field control", "talent type")
+t("combat techniques", "combat techniques", "talent type")
+t("combat veteran", "combat veteran", "talent type")
+t("combat training", "combat training", "talent type")
+t("magical combat", "magical combat", "talent type")
+t("mobility", "mobility", "talent type")
+t("thuggery", "thuggery", "talent type")
+t("assassination", "assassination", "talent type")
+t("throwing knives", "throwing knives", "talent type")
+t("duelist", "duelist", "talent type")
+t("marksmanship", "marksmanship", "talent type")
+t("reflexes", "reflexes", "talent type")
+t("munitions", "munitions", "talent type")
+t("agility", "agility", "talent type")
+t("sniper", "sniper", "talent type")
+t("Acrobatics", "Acrobatics", "talent type")
+t("Buckler Training", "Buckler Training", "talent type")
+t("Skirmisher - Slings", "Skirmisher - Slings", "talent type")
+t("Tireless Combatant", "Tireless Combatant", "talent type")
+t("pugilism", "pugilism", "talent type")
+t("finishing moves", "finishing moves", "talent type")
+t("grappling", "grappling", "talent type")
+t("unarmed discipline", "unarmed discipline", "talent type")
+t("unarmed training", "unarmed training", "talent type")
+t("conditioning", "conditioning", "talent type")
+t("unarmed other", "unarmed other", "talent type")
+--]==]
+
+-- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
-t("two-handed assault", "two-handed assault", "_t")
 t("Specialized two-handed techniques.", "Specialized two-handed techniques.", "_t")
-t("berserker's strength", "berserker's strength", "_t")
 t("Fear nothing!", "Fear nothing!", "_t")
-t("two-handed weapons", "two-handed weapons", "_t")
-t("two-handed maiming", "two-handed maiming", "_t")
-t("shield offense", "shield offense", "_t")
 t("Specialized weapon and shield techniques.", "Specialized weapon and shield techniques.", "_t")
-t("shield defense", "shield defense", "_t")
-t("dual weapons", "dual weapons", "_t")
 t("Specialized dual wielding techniques.", "Specialized dual wielding techniques.", "_t")
-t("dual techniques", "dual techniques", "_t")
-t("archery - base", "archery - base", "_t")
 t("Ability to shoot.", "Ability to shoot.", "_t")
-t("archery - bows", "archery - bows", "_t")
 t("Specialized bow techniques.", "Specialized bow techniques.", "_t")
-t("archery - slings", "archery - slings", "_t")
 t("Specialized sling techniques.", "Specialized sling techniques.", "_t")
-t("archery training", "archery training", "_t")
 t("Generic archery techniques.", "Generic archery techniques.", "_t")
-t("archery prowess", "archery prowess", "_t")
 t("Specialized archery techniques to maim your targets.", "Specialized archery techniques to maim your targets.", "_t")
-t("archery excellence", "archery excellence", "_t")
 t("Specialized archery techniques that result from honed training.", "Specialized archery techniques that result from honed training.", "_t")
-t("superiority", "superiority", "_t")
 t("Advanced combat techniques.", "Advanced combat techniques.", "_t")
-t("battle tactics", "battle tactics", "_t")
 t("Advanced combat tactics.", "Advanced combat tactics.", "_t")
-t("warcries", "warcries", "_t")
 t("Master the warcries to improve yourself and weaken others.", "Master the warcries to improve yourself and weaken others.", "_t")
-t("bloodthirst", "bloodthirst", "_t")
 t("Delight in the act of battle and the spilling of blood.", "Delight in the act of battle and the spilling of blood.", "_t")
-t("field control", "field control", "_t")
 t("Control the battlefield using various techniques.", "Control the battlefield using various techniques.", "_t")
-t("combat techniques", "combat techniques", "_t")
 t("Generic combat oriented techniques.", "Generic combat oriented techniques.", "_t")
-t("combat veteran", "combat veteran", "_t")
-t("combat training", "combat training", "_t")
 t("Teaches to use various armours, weapons and improves health.", "Teaches to use various armours, weapons and improves health.", "_t")
-t("magical combat", "magical combat", "_t")
 t("The blending together of magic and melee prowess.", "The blending together of magic and melee prowess.", "_t")
-t("mobility", "mobility", "_t")
 t("Training and techniques to improve mobility and evade your enemies.  On the battlefield, positioning is paramount.", "Training and techniques to improve mobility and evade your enemies.  On the battlefield, positioning is paramount.", "_t")
-t("thuggery", "thuggery", "_t")
 t("Whatever wins the day, wins the day.", "Whatever wins the day, wins the day.", "_t")
-t("assassination", "assassination", "_t")
 t("Bring death from the shadows.", "Bring death from the shadows.", "_t")
-t("throwing knives", "throwing knives", "_t")
 t("Master the art of throwing knives to fight from a distance.", "Master the art of throwing knives to fight from a distance.", "_t")
-t("duelist", "duelist", "_t")
 t("Use your dual weapons to parry and counter.", "Use your dual weapons to parry and counter.", "_t")
-t("marksmanship", "marksmanship", "_t")
 t("Training in the use of bows and slings.", "Training in the use of bows and slings.", "_t")
-t("reflexes", "reflexes", "_t")
 t("Use your reflexes to evade and counter.", "Use your reflexes to evade and counter.", "_t")
-t("munitions", "munitions", "_t")
 t("Equip specialised ammunition.", "Equip specialised ammunition.", "_t")
-t("agility", "agility", "_t")
 t("Take advantage of speed and shield to fight in close quarters.", "Take advantage of speed and shield to fight in close quarters.", "_t")
-t("sniper", "sniper", "_t")
 t("Stealth and specialised long range archery techniques.", "Stealth and specialised long range archery techniques.", "_t")
-t("Acrobatics", "Acrobatics", "_t")
 t("For light footed Rogues who prefer flight to fighting fair!", "For light footed Rogues who prefer flight to fighting fair!", "_t")
-t("Buckler Training", "Buckler Training", "_t")
 t("Mastery over their shields separates Skirmishers from Archers, and gives them an edge.", "Mastery over their shields separates Skirmishers from Archers, and gives them an edge.", "_t")
-t("Skirmisher - Slings", "Skirmisher - Slings", "_t")
 t("Slings! Pow Pow!", "Slings! Pow Pow!", "_t")
-t("Tireless Combatant", "Tireless Combatant", "_t")
 t("Your will carries you through the most difficult struggles, allowing you to fight on when others would have collapsed from exhaustion.", "Your will carries you through the most difficult struggles, allowing you to fight on when others would have collapsed from exhaustion.", "_t")
-t("pugilism", "pugilism", "_t")
 t("Unarmed Boxing techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "Unarmed Boxing techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "_t")
-t("finishing moves", "finishing moves", "_t")
 t("Finishing moves that use combo points and may not be practiced in massive armor or while a weapon or shield is equipped.", "Finishing moves that use combo points and may not be practiced in massive armor or while a weapon or shield is equipped.", "_t")
-t("grappling", "grappling", "_t")
 t("Grappling techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "Grappling techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "_t")
-t("unarmed discipline", "unarmed discipline", "_t")
 t("Advanced unarmed techniques including kicks and blocks that may not be practiced in massive armor or while a weapon or shield is equipped.", "Advanced unarmed techniques including kicks and blocks that may not be practiced in massive armor or while a weapon or shield is equipped.", "_t")
-t("unarmed training", "unarmed training", "_t")
 t("Teaches various martial arts techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "Teaches various martial arts techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "_t")
-t("conditioning", "conditioning", "_t")
 t("Physical conditioning.", "Physical conditioning.", "_t")
-t("unarmed other", "unarmed other", "_t")
 t("Base martial arts attack and stances.", "Base martial arts attack and stances.", "_t")
 t("You are currently disarmed and cannot use this talent.", "You are currently disarmed and cannot use this talent.", "_t")
 t("You require a %s to use this talent.", "You require a %s to use this talent.", "tformat")
@@ -31157,7 +31316,22 @@ t("You do not have enough ammo left!", "You do not have enough ammo left!", "log
 section "mod-tome/data/talents/techniques/throwing-knives.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t([[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
+		The base power, Armour penetration, and critical strike chance of your knives increase with talent level, accuracy increase with your accuracy, and damage is improved with Dagger Mastery.
+		Throwing Knives count as melee attacks for the purpose of on-hit effects.
+		Effective Throwing Knife Stats:
+
+%s]], [[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
+		The base power, Armour penetration, and critical strike chance of your knives increase with talent level, accuracy increase with your accuracy, and damage is improved with Dagger Mastery.
+		Throwing Knives count as melee attacks for the purpose of on-hit effects.
+		Effective Throwing Knife Stats:
+
+%s]], "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Throwing Knives", "Throwing Knives", "talent name")
 t("Throwing Knife", "Throwing Knife", "_t")
@@ -31177,17 +31351,6 @@ Crit Chance: %+d%%
 Crit mult: %d%%
 Uses Stats: %s
 ]], "tformat")
-t([[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
-		The base power, Accuracy, Armour penetration, and critical strike chance of your knives increase with talent level, and damage is improved with Dagger Mastery.
-		Throwing Knives count as melee attacks for the purpose of on-hit effects.
-		Effective Throwing Knife Stats:
-
-%s]], [[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
-		The base power, Accuracy, Armour penetration, and critical strike chance of your knives increase with talent level, and damage is improved with Dagger Mastery.
-		Throwing Knives count as melee attacks for the purpose of on-hit effects.
-		Effective Throwing Knife Stats:
-
-%s]], "tformat")
 t("Fan of Knives", "Fan of Knives", "talent name")
 t("Fan of Knives", "Fan of Knives", "_t")
 t([[You keep a special stash of %d throwing knives in your bandolier, which you can throw all at once at enemies within a radius %d cone, for %d%% damage each.
@@ -31218,7 +31381,7 @@ t([[Throw a knife coated with venom, doing %d%% damage as nature and inflicting 
 section "mod-tome/data/talents/techniques/thuggery.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Skullcracker", "Skullcracker", "talent name")
 t("%s resists the headblow!", "%s resists the headblow!", "logSeen")
@@ -31248,18 +31411,10 @@ t([[You go all out, trying to burn down your foes as fast as possible.
 section "mod-tome/data/talents/techniques/tireless-combatant.lua"
 
 
--- new text
---[==[
-t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "tformat")
-t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "tformat")
-t([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
-		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
-		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], "tformat")
---]==]
-
--- untranslated text
+-- texte non traduit
 --[==[
 t("Breathing Room", "Breathing Room", "talent name")
+t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "tformat")
 t("Pace Yourself", "Pace Yourself", "talent name")
 t([[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
 		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
@@ -31269,7 +31424,11 @@ t([[Control your movements to increase your defenses. This allows you to shrug o
 		If you have a shield equipped and Block is not on cooldown, any blockable damage that is greater than 25%% of your block value (before resistances) will have a %d%% chance to instantly activate Block.
 		The flat damage reduction will increase with your defense.]], "tformat")
 t("Dauntless Challenger", "Dauntless Challenger", "talent name")
+t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "tformat")
 t("The Eternal Warrior", "The Eternal Warrior", "talent name")
+t([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
+		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
+		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], "tformat")
 --]==]
 
 
@@ -31277,7 +31436,7 @@ t("The Eternal Warrior", "The Eternal Warrior", "talent name")
 section "mod-tome/data/talents/techniques/unarmed-discipline.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Combination Kick", "Combination Kick", "talent name")
 t("@Source@ unleashes a flurry of disrupting kicks.", "@Source@ unleashes a flurry of disrupting kicks.", "_t")
@@ -31314,7 +31473,7 @@ t([[Using your deep knowledge of anatomy, you strike a target in a vital pressur
 section "mod-tome/data/talents/techniques/unarmed-training.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Empty Hand", "Empty Hand", "talent name")
 t([[Grants %d Physical Power when fighting unarmed (or with gloves or gauntlets).
@@ -31337,7 +31496,7 @@ t("Your understanding of physiology allows you to apply your reflexes in new way
 section "mod-tome/data/talents/techniques/warcries.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shattering Shout", "Shattering Shout", "talent name")
 t("#Source# shatters '#Target#'.", "#Source# shatters '#Target#'.", "logCombat")
@@ -31366,7 +31525,7 @@ section "mod-tome/data/talents/techniques/weaponshield.lua"
 
 t("turns", "tours", "_t")
 t("turn", "tour", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shield Pummel", "Shield Pummel", "talent name")
 t("You require a weapon and a shield to use this talent.", "You require a weapon and a shield to use this talent.", "logPlayer")
@@ -31428,7 +31587,7 @@ t([[You brace yourself for the final stand, increasing Defense and Armor by %d, 
 section "mod-tome/data/talents/uber/const.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Draconic Body", "Draconic Body", "talent name")
 t("Be close to the draconic world", "Be close to the draconic world", "_t")
@@ -31479,7 +31638,27 @@ t([[Thanks to your newfound knowledge of corruption, you've learned some tricks 
 section "mod-tome/data/talents/uber/cun.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t([[- %s
+]], [[- %s
+]], "tformat")
+t([[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are not available to magic users, and Group 3 are not available to antimagic characters.
+		GROUP 1:
+%s
+		GROUP 2:
+%s
+		GROUP 3:
+%s]], [[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are not available to magic users, and Group 3 are not available to antimagic characters.
+		GROUP 1:
+%s
+		GROUP 2:
+%s
+		GROUP 3:
+%s]], "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Fast As Lightning", "Fast As Lightning", "talent name")
 t("#LIGHT_BLUE#%s slows from critical velocity!", "#LIGHT_BLUE#%s slows from critical velocity!", "logSeen")
@@ -31577,45 +31756,6 @@ t([[%s
 		This can only happen once per turn per type, and cannot affect the talent that triggers it.]], "tformat")
 t("Worldly Knowledge", "Worldly Knowledge", "talent name")
 t("Worldly Knowledge", "Worldly Knowledge", "_t")
-t([[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are available only to characters that know antimagic, and Group 3 are not available to antimagic characters.
-		GROUP 1:
-		- Technique / Conditioning
-		- Cunning / Survival
-		- Wild Gift / Harmony
-		GROUP 2:
-		- Wild Gift / Call of the Wild
-		- Wild Gift / Mindstar Mastery
-		- Psionic / Dreaming
-		- Psionic / Augmented Mobility
-		- Psionic / Feedback
-		GROUP 3:
-		- Spell / Divination
-		- Spell / Staff Combat
-		- Spell / Stone Alchemy
-		- Corruption / Vile Life
-		- Corruption / Hexes
-		- Corruption / Curses
-		- Celestial / Chants
-		- Chronomancy / Chronomancy]], [[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are available only to characters that know antimagic, and Group 3 are not available to antimagic characters.
-		GROUP 1:
-		- Technique / Conditioning
-		- Cunning / Survival
-		- Wild Gift / Harmony
-		GROUP 2:
-		- Wild Gift / Call of the Wild
-		- Wild Gift / Mindstar Mastery
-		- Psionic / Dreaming
-		- Psionic / Augmented Mobility
-		- Psionic / Feedback
-		GROUP 3:
-		- Spell / Divination
-		- Spell / Staff Combat
-		- Spell / Stone Alchemy
-		- Corruption / Vile Life
-		- Corruption / Hexes
-		- Corruption / Curses
-		- Celestial / Chants
-		- Chronomancy / Chronomancy]], "tformat")
 t("Adept", "Adept", "talent name")
 t([[You are adept at many different skills, granting you +1.5 to all known talent levels.
 		This works on already known talents and those that you will learn afterwards.]], [[You are adept at many different skills, granting you +1.5 to all known talent levels.
@@ -31633,8 +31773,8 @@ t([[You have friends in low places and have learned some underhanded tricks.
 ------------------------------------------------
 section "mod-tome/data/talents/uber/dex.lua"
 
-
--- untranslated text
+t("Swift Hands", "Mains rapides", "talent name")
+-- texte non traduit
 --[==[
 t("Flexible Combat", "Flexible Combat", "talent name")
 t("Each time that you make a melee attack you have a 50%% chance to execute an additional unarmed strike.", "Each time that you make a melee attack you have a 50%% chance to execute an additional unarmed strike.", "tformat")
@@ -31652,7 +31792,6 @@ t([[You are used to a crowded party:
 t("Manage Swift Hands", "Manage Swift Hands", "talent name")
 t("You can only prepare your swift hands tools outside of combat.", "You can only prepare your swift hands tools outside of combat.", "logPlayer")
 t("Manage your swift hands readied tools.", "Manage your swift hands readied tools.", "_t")
-t("Swift Hands", "Swift Hands", "talent name")
 t("Use tool", "Use tool", "_t")
 t([[You like to keep your most precious tools always at hand. This talent lets you prepare up to 4 items in advance (outside of combat).
 		Then at a moment's notice you can use any of them as if they were worn.
@@ -31693,7 +31832,7 @@ t([[You fire a shot straight at your enemy's vital areas, wounding them terribly
 section "mod-tome/data/talents/uber/mag.lua"
 
 t("Lich", "Liche", "talent name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Spectral Shield", "Spectral Shield", "talent name")
 t("Know the Block talent, have cast 100 spells, and have a block value over 200", "Know the Block talent, have cast 100 spells, and have a block value over 200", "_t")
@@ -31873,7 +32012,7 @@ t([[Thaumaturgists have unlocked a deeper understanding of their spells, allowin
 section "mod-tome/data/talents/uber/str.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Giant Leap", "Giant Leap", "talent name")
 t("Have dealt over 50000 damage with any weapon or unarmed", "Have dealt over 50000 damage with any weapon or unarmed", "_t")
@@ -31932,25 +32071,31 @@ t([[A strong body is key to a strong mind, and a strong mind can be powerful eno
 ------------------------------------------------
 section "mod-tome/data/talents/uber/uber.lua"
 
-t("other", "autre", "_t")
--- untranslated text
+t("other", "autre", "talent type")
+-- nouveau texte
 --[==[
-t("uber", "uber", "talent category")
-t("strength", "strength", "_t")
-t("Ultimate talents you may only know one.", "Ultimate talents you may only know one.", "_t")
-t("dexterity", "dexterity", "_t")
-t("constitution", "constitution", "_t")
-t("magic", "magic", "_t")
-t("willpower", "willpower", "_t")
-t("cunning", "cunning", "_t")
+t("strength", "strength", "talent type")
+t("dexterity", "dexterity", "talent type")
+t("constitution", "constitution", "talent type")
+t("magic", "magic", "talent type")
+t("willpower", "willpower", "talent type")
+t("cunning", "cunning", "talent type")
 --]==]
 
+-- texte non traduit
+--[==[
+t("uber", "uber", "talent category")
+t("Ultimate talents you may only know one.", "Ultimate talents you may only know one.", "_t")
+--]==]
+
+-- ancien texte traduit
+t("other", "autre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/uber/wil.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Draconic Will", "Draconic Will", "talent name")
 t("Be close to the draconic world", "Be close to the draconic world", "_t")
@@ -32059,7 +32204,7 @@ t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to le
 section "mod-tome/data/talents/undeads/ghoul.lua"
 
 t("Ghoul", "Goule", "talent name")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Improves your ghoulish body, increasing Strength and Constitution by %d.
 		Your body also becomes incredibly resilient to damage; you can never take a blow that deals more than %d%% of your maximum life.]], [[Improves your ghoulish body, increasing Strength and Constitution by %d.
@@ -32099,7 +32244,22 @@ t([[Gnaw your target for %d%% damage.  If your attack hits, the target may be in
 section "mod-tome/data/talents/undeads/lich.lua"
 
 
--- untranslated text
+-- nouveau texte
+--[==[
+t([[Your mere presence is terrying to any foes that dare stand against you.
+		Every turn all foes in radius %d must make a mental save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
+		If they successfully resist, they are immune for %d turns.]], [[Your mere presence is terrying to any foes that dare stand against you.
+		Every turn all foes in radius %d must make a mental save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
+		If they successfully resist, they are immune for %d turns.]], "tformat")
+t([[Blast the target with darkness doing %0.2f damage
+		The damage will increase with Spellpower]], [[Blast the target with darkness doing %0.2f damage
+		The damage will increase with Spellpower]], "tformat")
+t([[Bathes the target in frost doing %0.2f damage
+		The damage will increase with Spellpower]], [[Bathes the target in frost doing %0.2f damage
+		The damage will increase with Spellpower]], "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Neverending Unlife", "Neverending Unlife", "talent name")
 t("Lich Regeneration (%d turns)", "Lich Regeneration (%d turns)", "tformat")
@@ -32115,15 +32275,7 @@ t([[A Lich's body is extremely hard to fully destroy. You only die with your lif
 		If you have not killed one when the duration expires or if you are killed again in this duration, you die permanently.
 		If this happens this power can never re-activate, even if you managed to resurrect by other means.]], "tformat")
 t("Frightening Presence", "Frightening Presence", "talent name")
-t([[Your mere presence is terrying to any foes that dare stand against you.
-		Every turn all foes in radius %d must make a metal save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
-		If they successfully resist, they are immune for %d turns.]], [[Your mere presence is terrying to any foes that dare stand against you.
-		Every turn all foes in radius %d must make a metal save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
-		If they successfully resist, they are immune for %d turns.]], "tformat")
 t("Shadow Invoke Darkness", "Shadow Invoke Darkness", "talent name")
-t([[Bathes the target in flames doing %0.2f damage
-		The damage will increase with the Magic stat]], [[Bathes the target in flames doing %0.2f damage
-		The damage will increase with the Magic stat]], "tformat")
 t("Shadow Cold Touch", "Shadow Cold Touch", "talent name")
 t("Doomed For Eternity", "Doomed For Eternity", "talent name")
 t([[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
@@ -32140,7 +32292,7 @@ t([[You are so full with power that it overflows out of you whenever you cast a 
 section "mod-tome/data/talents/undeads/skeleton.lua"
 
 t("Skeleton", "Squelette", "talent name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Improves your skeletal condition, increasing Strength and Dexterity by %d.", "Improves your skeletal condition, increasing Strength and Dexterity by %d.", "tformat")
 t("Bone Armour", "Bone Armour", "talent name")
@@ -32160,28 +32312,34 @@ t([[Reposition some of your bones, healing yourself for %d.
 section "mod-tome/data/talents/undeads/undeads.lua"
 
 t("undead", "mort-vivant", "talent category")
-t("skeleton", "squelette", "_t")
--- untranslated text
+t("skeleton", "squelette", "talent type")
+-- nouveau texte
 --[==[
-t("base", "base", "_t")
+t("base", "base", "talent type")
+t("ghoul", "ghoul", "talent type")
+t("vampire", "vampire", "talent type")
+t("lich", "lich", "talent type")
+--]==]
+
+-- texte non traduit
+--[==[
 t("Undead's innate abilities.", "Undead's innate abilities.", "_t")
-t("ghoul", "ghoul", "_t")
 t("Ghoul's innate abilities.", "Ghoul's innate abilities.", "_t")
 t("Skeleton's innate abilities.", "Skeleton's innate abilities.", "_t")
-t("vampire", "vampire", "_t")
 t("Vampire's innate abilities.", "Vampire's innate abilities.", "_t")
-t("lich", "lich", "_t")
 t("Liches innate abilities.", "Liches innate abilities.", "_t")
 t("Knowledge of the Past", "Knowledge of the Past", "talent name")
 t("You concentrate for a moment to recall some of your memories as a living being and look for knowledge to identify rare objects.", "You concentrate for a moment to recall some of your memories as a living being and look for knowledge to identify rare objects.", "tformat")
 --]==]
 
+-- ancien texte traduit
+t("skeleton", "squelette", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#LIGHT_STEEL_BLUE#%s (Class Evolution)", "#LIGHT_STEEL_BLUE#%s (Class Evolution)", "tformat")
 t("#SANDY_BROWN#%s (Race Evolution)", "#SANDY_BROWN#%s (Race Evolution)", "tformat")
@@ -32199,7 +32357,7 @@ t("usable during Aether Avatar", "usable during Aether Avatar", "_t")
 section "mod-tome/data/texts/intro-archmage.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are an archmage in a world that still fears magic. The people of Angolwen have been trying to mend the world for well over two thousand years now, but they do so in secret.
@@ -32225,7 +32383,7 @@ You have been tasked to investigate and fix the problem.
 section "mod-tome/data/texts/intro-arena.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 As you walk forward, you hear the increasingly loud cheers coming from outside.
@@ -32251,7 +32409,7 @@ The public roars in anticipation....
 section "mod-tome/data/texts/intro-chronomancer.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a chronomancer, a Keeper of Reality.
@@ -32279,7 +32437,7 @@ However, Grand Keeper of Reality Zemekkys has requested to see you.
 section "mod-tome/data/texts/intro-cornac.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a native of the northern region of the Allied Kingdoms, a peaceful land that both Humans and Halflings call home. You hail from the small town called Derth.
@@ -32305,7 +32463,7 @@ After days of travel, you have found the forest and entered it. What will you fi
 section "mod-tome/data/texts/intro-dwarf.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a member of the proud, but secretive, race of the Dwarves.
@@ -32333,7 +32491,7 @@ Away from all those orcs....
 section "mod-tome/data/texts/intro-ghoul.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You died ages ago, but that did not stop you. You were raised as an undead ghoul.
@@ -32357,7 +32515,7 @@ You have been raised in a place called the Blighted Scar, on the northern border
 section "mod-tome/data/texts/intro-halfling.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a Halfling of Derth. Most people take Halflings for peaceful crop-growers that never leave the borders of their gardens.
@@ -32389,7 +32547,7 @@ After days of travel, you have found the forest and entered it. What will you fi
 section "mod-tome/data/texts/intro-higher.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are one of the Higher, the most powerful and respected lineage of men. Many of your kind serve as high counsellors in various Allied Kingdoms cities.
@@ -32413,7 +32571,7 @@ To the west lies another dangerous place: the old ruins of Kor'Pul. You heard th
 section "mod-tome/data/texts/intro-infinite-dungeon.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You have arrived in the Infinite Dungeon.
@@ -32435,7 +32593,7 @@ Go forth, venture into the depths of the dungeon and see how far you can get bef
 section "mod-tome/data/texts/intro-ogre.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are an Ogre, hailing from Elvala.
@@ -32467,7 +32625,7 @@ After days of travel, you have found the caves and entered it. What will you fin
 section "mod-tome/data/texts/intro-orc.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a member of the feared race of the Orcs.
@@ -32491,7 +32649,7 @@ A little to the south lies the outpost. Your task: destroy it and bathe in the b
 section "mod-tome/data/texts/intro-shalore.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are of the Shaloren, the Elven race with the closest ties to magic, and you are despised.
@@ -32521,7 +32679,7 @@ After days of travel, you have found the caves and entered it. What will you fin
 section "mod-tome/data/texts/intro-skeleton.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You died ages ago, but that did not stop you. You were raised as an undead skeleton.
@@ -32545,7 +32703,7 @@ You have been raised in a place called the Blighted Scar, on the northern border
 section "mod-tome/data/texts/intro-sunwall.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a citizen of the Sunwall, and like many of your age you have been trained in combat and magic. It can be a harsh life, and though you dream at times of venturing to distant lands you know your duty is to help defend the outpost against the vicious onslaught from the Orc Prides. But now High Sun Paladin Aeryn has advised you of a new threat.
@@ -32567,7 +32725,7 @@ By the power of the Sun and the blessings of the Moons you step forth to find yo
 section "mod-tome/data/texts/intro-thalore.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are of the Thaloren, the Elven race closest to nature. Your people have lived for thousands of years in their forest, rarely taking part in the events of the outside world.
@@ -32599,7 +32757,7 @@ After days of travel, you have found Norgos' Lair and entered it. What will you 
 section "mod-tome/data/texts/intro-tutorial-combat-stats.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#Welcome to ToME 4#LAST#
 
@@ -32613,7 +32771,6 @@ The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you ahead!
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-tutorial.lua"
-
 
 t([[#LIGHT_GREEN#Welcome to Tales of Maj'Eyal!#LAST#
 
@@ -32641,12 +32798,11 @@ Les boites de dialogue peuvent être supprimées en pressant sur Esc ou en cliqu
 Maintenant appuyez sur #LIGHT_BLUE#Esc#LAST# ou #LIGHT_BLUE#cliquez en dehors#LAST# de ce dialogue pour le clôturer et continuer.
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/intro-yeek.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a Yeek Wayist of Irkkk.
@@ -32668,7 +32824,7 @@ You have been tasked to vanquish Murgol, an abomination from the deeps, and to c
 section "mod-tome/data/texts/message-last-hope.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[@playername@, this message is of utmost importance.
 
@@ -32719,7 +32875,7 @@ This calls for urgency; should you find this Golbug or the portal, please invest
 section "mod-tome/data/texts/tutorial/combat-stats-intro.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Onward! The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you!
 ]], [[Onward! The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you!
@@ -32729,7 +32885,6 @@ t([[Onward! The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you!
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/done.lua"
-
 
 t([[#GOLD#Congratulations !#WHITE#
 
@@ -32755,10 +32910,8 @@ Maintenant allez-y audacieusement et rappelez vous: #GOLD#Prenez du bon temps!#W
 Appuyez sur Esc, Menu principal, Sauvegardez puis créez un nouveau personnage!
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/levelup.lua"
-
 
 t([[In ToME4 a character's power depends on her/his level: players can get up to level 50.
 
@@ -32788,10 +32941,8 @@ Pour ouvir l'écran de montée de niveau d'un personnage vous pouvez soit appuye
 Maintenant ouvrez l'écran de montée de niveau et assignez vos points.
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/melee.lua"
-
 
 t([[Melee attacks work like movement. Just move in your foe's direction, or click it, to attack it.
 If it is not hostile you will talk to it, or switch places with it.
@@ -32825,10 +32976,8 @@ Vous avez identifié quelques slimes hostiles gardant un objet.
 Attaquez les!
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/move.lua"
-
 
 t([[Movement is simple. You can use the keyboard, the mouse, or both.
 
@@ -32868,10 +33017,8 @@ Vous pouvez faire défiler la carte en pressant shift et en faisant glisser la s
 Maintenant fermez ce dialogue et partez à l'ouest (gauche) jusqu'à arriver dans un espace plus ouvert.
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/objects.lua"
-
 
 t([[During your adventures you will find items.
 Each item has a weight. How much you can carry depends on your Strength: this is your maximum encumbrance.
@@ -32901,10 +33048,8 @@ Cette infusion vous octroie le pouvoir de régénérer votre vie à volonté. Vo
 Maintenant continuez vers l'ouest.
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/quests.lua"
-
 
 t([[During your adventures you will find quests.
 A quest can come from performing an action, finding an item, speaking to somebody, and more.
@@ -32926,10 +33071,8 @@ Quand ce tutoriel a débuté on vous a confié la tâche de tuer le Loup Solitai
 #GOLD#Faites attention et combattez avec honneur!#WHITE#
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/ranged.lua"
-
 
 t([[Ranged combat typically revolves around firing arrows, slinging stones, or casting spells.
 You have been given a bow, which you wield with both hands.
@@ -32955,12 +33098,11 @@ Pour équiper votre arc et vos flèches:
 Il y a des trolls à l'ouest. Allez utiliser votre arc et vos flèches pour les tuer!
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/mechintro.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[ToME 4 is a large, complex game. Despite this, the most important mechanics-- the ones that directly influence the decisions you need to make as a player-- are governed by relatively simple rules. This mechanics guide will provide a brief introduction to these rules.
 ]], [[ToME 4 is a large, complex game. Despite this, the most important mechanics-- the ones that directly influence the decisions you need to make as a player-- are governed by relatively simple rules. This mechanics guide will provide a brief introduction to these rules.
@@ -32972,7 +33114,7 @@ t([[ToME 4 is a large, complex game. Despite this, the most important mechanics-
 section "mod-tome/data/texts/tutorial/stats/stats1.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Basic character attributes such as strength and willpower are important, but their importance lies in how they affect your #GOLD#combat stats#WHITE#, the subject of this entire tutorial.
 The first two of these #GOLD#combat stats#WHITE# are:
@@ -32998,7 +33140,7 @@ When you try to stab somebody, your #LIGHT_GREEN#Accuracy#WHITE# score is measur
 section "mod-tome/data/texts/tutorial/stats/stats2.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[The next three important #GOLD#combat stats#WHITE#:
 
@@ -33020,7 +33162,7 @@ t([[The next three important #GOLD#combat stats#WHITE#:
 section "mod-tome/data/texts/tutorial/stats/stats3.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[The final three important #GOLD#combat stats#WHITE# of your character are these:
 
@@ -33042,7 +33184,7 @@ t([[The final three important #GOLD#combat stats#WHITE# of your character are th
 section "mod-tome/data/texts/tutorial/stats/stats4.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[To summarize the information thus far:
 
@@ -33082,7 +33224,7 @@ Four of them are offensive...
 section "mod-tome/data/texts/tutorial/stats/stats5.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Many times when you perform an attack, or suffer one, the success of the attack is determined by comparing #GOLD#combat stat#WHITE# scores of the attacker and defender. We saw already that physical attacks, such as melee blows or an archer's loosed arrow, involve comparing the attacker's #LIGHT_GREEN#Accuracy#WHITE# and the defender's #LIGHT_GREEN#Defense#WHITE#.
 
@@ -33102,7 +33244,7 @@ They're a little harder to pin down. #LIGHT_GREEN#Physical save#WHITE#,  #LIGHT_
 section "mod-tome/data/texts/tutorial/stats/stats6.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Suppose you're a berserker, and you attempt to stun an enemy. If you're to succeed, two things must happen:
 
@@ -33128,7 +33270,7 @@ It seems quite natural to always compare #LIGHT_GREEN#Physical power#WHITE# with
 section "mod-tome/data/texts/tutorial/stats/stats7.1.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Finally, suppose you're a rogue, and you use Dual Strike to attempt to knock somebody senseless. 
 
@@ -33148,7 +33290,7 @@ We can guess now that the target will use their #LIGHT_GREEN#Physical save#WHITE
 section "mod-tome/data/texts/tutorial/stats/stats7.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Suppose you're an archmage, and you blast somebody with the Flameshock spell. 
 
@@ -33168,7 +33310,7 @@ The spell will also attempt to stun the target. Stunning, you recall, is a physi
 section "mod-tome/data/texts/tutorial/stats/stats8.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[It looks like there are quite a few ways to match up the offensive #GOLD#combat stats#WHITE#...
 #LIGHT_GREEN#Accuracy#WHITE#
@@ -33212,7 +33354,7 @@ But don't worry. It's usually easy to know what will get used for two reasons:
 section "mod-tome/data/texts/tutorial/stats/stats9.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Now you know the basics: what these eight #GOLD#combat stats#WHITE# mean and when they're used. It's time to look at some numbers.
 
@@ -33228,7 +33370,7 @@ Head north to the stairs, and descend into the #GOLD#Dungeon of Adventurer Enlig
 section "mod-tome/data/texts/tutorial/stats-calc/calc0.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[It's finally time to stab something.
 
@@ -33244,7 +33386,7 @@ There's an orc up ahead; make sure you're wearing your #GOLD#Helmet of Accuracy 
 section "mod-tome/data/texts/tutorial/stats-calc/calc1.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Sucker can dodge some.
 
@@ -33264,7 +33406,7 @@ What is your #LIGHT_GREEN#Accuracy#WHITE#, and what is his #LIGHT_GREEN#Defense#
 section "mod-tome/data/texts/tutorial/stats-calc/calc10.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Congratulations! Hopefully this series of obstacles has led you to some conclusions:
 
@@ -33292,7 +33434,7 @@ You might also have concluded that this simple "win by ten points for best resul
 section "mod-tome/data/texts/tutorial/stats-calc/calc11.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Descend to the penultimate level of the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to learn all about detrimental #GOLD#timed effects.#WHITE#
 ]], [[Descend to the penultimate level of the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to learn all about detrimental #GOLD#timed effects.#WHITE#
@@ -33304,7 +33446,7 @@ t([[Descend to the penultimate level of the #GOLD#Dungeon of Adventurer Enlighte
 section "mod-tome/data/texts/tutorial/stats-calc/calc2.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[If you were wearing your #GOLD#Helmet of Accuracy (+6)#WHITE#, then you should have #LIGHT_GREEN#38 Accuracy#WHITE#, while the orc has #LIGHT_GREEN#48 Defense#WHITE#. The difference is ten in the orc's favor, which is apparently too much for you to be able to hit him.
 
@@ -33320,7 +33462,7 @@ There's another orc ahead with slightly lower defense. Go get him!
 section "mod-tome/data/texts/tutorial/stats-calc/calc3.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[That one you should have been able to occasionally hit, and-- if you were persistent-- kill. 
 
@@ -33340,7 +33482,7 @@ I hope you took note of its #LIGHT_GREEN#Defense#WHITE# score before it died.
 section "mod-tome/data/texts/tutorial/stats-calc/calc4.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[They were more successful at hitting you, though their damage wasn't enough to be threatening. 
 
@@ -33360,7 +33502,7 @@ Does it seem reasonable that they were hitting you (or missing you) as much as t
 section "mod-tome/data/texts/tutorial/stats-calc/calc5.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[There's an orc ahead with some prodigous health regeneration.
 
@@ -33384,7 +33526,7 @@ Do you expect it to be successful attacking you?
 section "mod-tome/data/texts/tutorial/stats-calc/calc6.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[You've learned Shove, a weak knockback effect.
 
@@ -33404,7 +33546,7 @@ Try to push your way into the next room!
 section "mod-tome/data/texts/tutorial/stats-calc/calc7.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Did you try shoving both the enemies blocking passage into this room? 
 
@@ -33424,7 +33566,7 @@ Can you say now which #GOLD#combat stats#WHITE# get compared when you Shove some
 section "mod-tome/data/texts/tutorial/stats-calc/calc8.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[There's another pesky orc plugging the tunnel to the west, and some new tools in the cave to the north.
 
@@ -33442,7 +33584,7 @@ Find a means to push that orc out of the way!
 section "mod-tome/data/texts/tutorial/stats-calc/calc9.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Once again, the route ahead is blocked. Find a way through!
 
@@ -33456,7 +33598,7 @@ t([[Once again, the route ahead is blocked. Find a way through!
 section "mod-tome/data/texts/tutorial/stats-scale/informed1.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Armed with the knowledge of how important #GOLD#combat stats#WHITE# are, we now go in search of them. Yours are displayed in your character sheet. Once you've closed this window, you can open it and move your mouse cursor over them to see a brief description of what they do. The tooltip mentions some stuff we haven't covered yet, but we'll get there.
 
@@ -33472,7 +33614,7 @@ So what about seeing a monster's #GOLD#combat stats#WHITE#? This would hardly be
 section "mod-tome/data/texts/tutorial/stats-scale/scale1.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[As you can see, the #GOLD#combat stat#WHITE# scores are displayed in two columns with offensive #GOLD#combat stats#WHITE# to the left and defensive #GOLD#combat stats#WHITE# to the right. 
 
@@ -33488,7 +33630,7 @@ The displayed numbers are color coded according to their value.
 section "mod-tome/data/texts/tutorial/stats-scale/scale10.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[How did you do this time? Your #LIGHT_GREEN#Mental Save#WHITE# score is #00FF80#tier 3#WHITE#, and an item that granted you +6 #LIGHT_GREEN#Mental Save#WHITE# only increased this score by 2.
 
@@ -33504,7 +33646,7 @@ Can you explain what's going on?
 section "mod-tome/data/texts/tutorial/stats-scale/scale11.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[It simply costs more to increase scores that are in higher tiers.
 
@@ -33532,7 +33674,7 @@ For each tier, here's the cost of increasing your score by one:
 section "mod-tome/data/texts/tutorial/stats-scale/scale12.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[This gets expensive! It's entirely possible-- even likely-- for a game-winning character to never have any #8d55ff#Tier 5#WHITE# scores.
 
@@ -33548,7 +33690,7 @@ There are stairs ahead. Descend further into the #GOLD#Dungeon of Adventurer Enl
 section "mod-tome/data/texts/tutorial/stats-scale/scale2.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Some clues:
 
@@ -33572,7 +33714,7 @@ t([[Some clues:
 section "mod-tome/data/texts/tutorial/stats-scale/scale3.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#GOLD#Combat stat#WHITE# scores are between one and one-hundred, with special color coding applied for each interval of twenty. The colors are the same hues as those used in inventory text to indicate gear quality.
 
@@ -33588,7 +33730,7 @@ These subintervals of twenty we'll call #GOLD#tiers#WHITE# from now on.
 section "mod-tome/data/texts/tutorial/stats-scale/scale4.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[A summary of the #GOLD#combat stat#WHITE# tiers:
 
@@ -33612,7 +33754,7 @@ t([[A summary of the #GOLD#combat stat#WHITE# tiers:
 section "mod-tome/data/texts/tutorial/stats-scale/scale5.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[These tiers are not just for show. 
 
@@ -33628,7 +33770,7 @@ Let's see if you can discover a way in which they're NOT purely cosmetic. Go plu
 section "mod-tome/data/texts/tutorial/stats-scale/scale6.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[By how much did the amulet increase your #B4B4B4#tier 1#WHITE# #LIGHT_GREEN#Mindpower#WHITE# score?
 
@@ -33648,7 +33790,7 @@ Take them off and put them back on if you didn't see their effects. One of the r
 section "mod-tome/data/texts/tutorial/stats-scale/scale7.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Those boots appear to have only increased your #LIGHT_GREEN#Physical save#WHITE# by 5.
 
@@ -33664,7 +33806,7 @@ What do you suppose would be the effects of putting on a helmet with +6 #LIGHT_G
 section "mod-tome/data/texts/tutorial/stats-scale/scale8.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Test your hypothesis!
 ]], [[Test your hypothesis!
@@ -33676,7 +33818,7 @@ t([[Test your hypothesis!
 section "mod-tome/data/texts/tutorial/stats-scale/scale9.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Did you accurately predict that +6 to a #FFFFFF#tier 2#WHITE# #GOLD#combat stat#WHITE# score would result in an increase of only 3?
 
@@ -33692,7 +33834,7 @@ Let's try again in the next room. What do you suppose will happen when you put o
 section "mod-tome/data/texts/tutorial/stats-tier/tier0.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Until now, a certain game mechanic has been disabled. Go learn a new talent at the nearby Rune of Enlightenment and use it to blast each of the enemies in the next room. 
 
@@ -33708,7 +33850,7 @@ Can you identify the new mechanic?
 section "mod-tome/data/texts/tutorial/stats-tier/tier1.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[If you don't notice anything, try examining each monster's tooltip immediately after using Mana Gale on it.
 ]], [[If you don't notice anything, try examining each monster's tooltip immediately after using Mana Gale on it.
@@ -33720,7 +33862,7 @@ t([[If you don't notice anything, try examining each monster's tooltip immediate
 section "mod-tome/data/texts/tutorial/stats-tier/tier10.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Basic attacks, ones that compare #LIGHT_GREEN#Accuracy#WHITE# to #LIGHT_GREEN#Defense#WHITE#, only apply #GOLD#cross-tier afflictions#WHITE# on critical hits.
 
@@ -33736,7 +33878,7 @@ Still, it's a good reason to not neglect your #LIGHT_GREEN#Defense#WHITE# stat, 
 section "mod-tome/data/texts/tutorial/stats-tier/tier11.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#GOLD#Congratulations!#WHITE# You have completed the combat stats tutorial. Hopefully it has been of some use to you.
 
@@ -33750,7 +33892,7 @@ t([[#GOLD#Congratulations!#WHITE# You have completed the combat stats tutorial. 
 section "mod-tome/data/texts/tutorial/stats-tier/tier12.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#For those who want to join the discussion on these new mechanics, please first read the document "Transparency.rtf" found here:#WHITE#
 
@@ -33770,7 +33912,7 @@ This is an essay, not code. Open it with something appropriate to avoid being ov
 section "mod-tome/data/texts/tutorial/stats-tier/tier2.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Can you explain the difference in the durations for that "Off-balance" timed effect you're inflicting?
 
@@ -33790,7 +33932,7 @@ Go learn the Blink spell just to the south, then go back and try it on the spide
 section "mod-tome/data/texts/tutorial/stats-tier/tier3.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Have you determined what's causing those new timed effects?
 
@@ -33818,7 +33960,7 @@ Feel free to go batter those spiders some more if you need further experimentati
 section "mod-tome/data/texts/tutorial/stats-tier/tier4.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Let's take a closer look at these new timed effects. The easiest way to do that is to have them inflicted on you.
 
@@ -33836,7 +33978,7 @@ Ahead are a series of bored elves who will happily blast you with whatever spell
 section "mod-tome/data/texts/tutorial/stats-tier/tier5.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Note that all three elves were casting using a #8d55ff#Tier 5#WHITE# #GOLD#combat stat#WHITE#, though they produced effects that varied in duration.
 
@@ -33852,7 +33994,7 @@ If you hadn't already deduced the rules governing these new status effects, hope
 section "mod-tome/data/texts/tutorial/stats-tier/tier6.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[These new effects are #GOLD#cross-tier effects#WHITE#. They occur when a talent calls for comparing #GOLD#combat stats#WHITE# that aren't in the same tier. 
 
@@ -33882,7 +34024,7 @@ The effects last one turn per tier difference in the attacker's and defender's #
 section "mod-tome/data/texts/tutorial/stats-tier/tier7.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Be very careful about neglecting your defensive #GOLD#combat stats#WHITE#. A long-lasting #GOLD#cross-tier effect#WHITE# is dangerous!
 
@@ -33898,7 +34040,7 @@ At the same time, be on the lookout for enemies a very low defensive #GOLD#comba
 section "mod-tome/data/texts/tutorial/stats-tier/tier8.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[What about #LIGHT_GREEN#Defense?#WHITE# Is it safe to neglect that?
 
@@ -33914,7 +34056,7 @@ Go see how your #B4B4B4#Tier 1#WHITE# #LIGHT_GREEN#Defense#WHITE# holds up again
 section "mod-tome/data/texts/tutorial/stats-tier/tier9.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Their melee attacks seem to sometimes apply the "Off-balance" effect, but not always.
 
@@ -33930,7 +34072,7 @@ Can you figure out when it gets applied and when it doesn't?
 section "mod-tome/data/texts/tutorial/stats-timed/timed0.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Detrimental #GOLD#timed effects#WHITE# are conditions which cause various short-term problems, such as blindness, confusion, stunning, poisoning, slowing, and much more. Much of what we've seen so far applies to them; the type of effect determines what defensive #GOLD#combat stat#WHITE# the defender uses, and the source of the effect determines what offensive #GOLD#combat stat#WHITE# the attacker uses.
 
@@ -33946,7 +34088,7 @@ Let's experiment to find out more. Move on to learn a new talent. Be sure to rea
 section "mod-tome/data/texts/tutorial/stats-timed/timed1.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Try the new spell on each of the enemies in the next room. Note that it's a spell, so it uses your #LIGHT_GREEN#Spellpower#WHITE#, and it causes a physical effect (bleeding), so the target will defend with its #LIGHT_GREEN#Physical save#WHITE#.
 
@@ -33964,7 +34106,7 @@ Note in particular the duration of the effect on each enemy. You can check their
 section "mod-tome/data/texts/tutorial/stats-timed/timed2.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Under what circumstances do you appear to inflict the full-duration bleed effect?
 
@@ -33982,7 +34124,7 @@ For those targets that didn't receive the full duration, how did their applicabl
 section "mod-tome/data/texts/tutorial/stats-timed/timed3.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[If you think you can predict how #GOLD#combat stats#WHITE# affect timed effect durations, test your hypothesis on the enemies in the next room.
 
@@ -34000,7 +34142,7 @@ If you don't know yet, see if this sequence of enemies gets you any closer.
 section "mod-tome/data/texts/tutorial/stats-timed/timed4.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[See what the rune in the next room has to teach you! Hopefully you can use it to get past the troublesome elves ahead.
 ]], [[See what the rune in the next room has to teach you! Hopefully you can use it to get past the troublesome elves ahead.
@@ -34012,7 +34154,7 @@ t([[See what the rune in the next room has to teach you! Hopefully you can use i
 section "mod-tome/data/texts/tutorial/stats-timed/timed5.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Ideally, you thought your way through that challenge instead of just using trial-and-error.
 
@@ -34034,7 +34176,7 @@ This is opposed by the attacker's corresponding offensive #GOLD#combat stat#WHIT
 section "mod-tome/data/texts/tutorial/stats-timed/timed6.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[This is fairly close to saying that you knock a turn off the duration of timed effects for every five points that your defensive #GOLD#combat stat#WHITE# score beats the attacker's offensive #GOLD#combat stat#WHITE#.
 
@@ -34054,7 +34196,7 @@ As you may have noticed earlier, your #LIGHT_GREEN#Spellpower#WHITE# of 56 again
 section "mod-tome/data/texts/tutorial/stats-timed/timed7.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[In general, greatly reducing the durations of timed effects requires rather high defensive #GOLD#combat stat#WHITE# scores. The all-important #GOLD#combat stat#WHITE# score difference of ten that we saw earlier usually results in a mere two-turn reduction of timed effect durations. 
 
@@ -34074,7 +34216,7 @@ If you want to negate timed effects completely, you're going to have to work har
 section "mod-tome/data/texts/tutorial/stats-timed/timed8.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Descend to the final level of the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to discover more about #GOLD#combat stat#WHITE# tiers, and how they're not just cosmetic.
 ]], [[Descend to the final level of the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to discover more about #GOLD#combat stat#WHITE# tiers, and how they're not just cosmetic.
@@ -34084,7 +34226,6 @@ t([[Descend to the final level of the #GOLD#Dungeon of Adventurer Enlightenment#
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/tactics1.lua"
-
 
 t([[You have found a nest of snakes! If you let them surround you, you might be in trouble!
 A basic tactic is to never get surrounded, do not hesitate to backtrack a bit to a safer spot.
@@ -34108,10 +34249,8 @@ Maintenant faites quelques pas de recul pour n'avoir à combattre qu'un serpent 
 Rappelez vous d'utiliser vos talents, les infusions et les runes pour gagner le combat.
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/tactics2.lua"
-
 
 t([[A skeleton mage just fired a spell at you.
 While the fireworks look nice, you don't want to get hit too much.
@@ -34127,10 +34266,8 @@ Quand vous êtes sous le feu d'archers ou de lanceurs de sorts tentez toujours d
 Maintenant mettez-vous à couvert et attendez le squelette.
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/talents.lua"
-
 
 t([[You now possess the Shield Pummel and Shield Wall talents.
 Talents show up in the lower left part of the screen with their assigned hotkey.
@@ -34174,10 +34311,8 @@ Maintenant allez plus loin et essayez vos talents:
 * #GOLD#Blocage#WHITE#: Ce talent actif est donné par votre bouclier, vous permettant de bloquer le prochain coup et déclencher une opportunité de contre-attaque mortelle.
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/terrain.lua"
-
 
 t([[During your adventures you will encounter a variety of terrains you can pass on: grass, sand, water, lava, ...
 
@@ -34195,12 +34330,11 @@ Vous êtes sur le point d'aborder une étendue d'eau; vous n'êtes pas capable d
 Maintenant allez de l'autre coté de l'étendue d'eau.
 ]], "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-adventurer.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Adventurer", "New Class: #LIGHT_GREEN#Adventurer", "_t")
 t([[Congratulations, you have won the game!
@@ -34221,7 +34355,7 @@ Use at your own risk, and have fun.]], "_t")
 section "mod-tome/data/texts/unlock-afflicted_cursed.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Cursed (Afflicted)", "New Class: #LIGHT_GREEN#Cursed (Afflicted)", "_t")
 t([[Through ignorance, greed or folly, the Cursed served some dark design and are now doomed to pay for their sins.
@@ -34264,7 +34398,7 @@ Most of their talents are more effective with high hate.
 section "mod-tome/data/texts/unlock-afflicted_doomed.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Doomed (Afflicted)", "New Class: #LIGHT_GREEN#Doomed (Afflicted)", "_t")
 t([[Through ignorance, greed or folly, the Doomed served some dark design and must now pay for their sins.
@@ -34309,7 +34443,7 @@ Most of their talents are more effective with high hate.
 section "mod-tome/data/texts/unlock-birth_transmo_chest.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New birth equipment: #LIGHT_GREEN#Transmogrification Chest", "New birth equipment: #LIGHT_GREEN#Transmogrification Chest", "_t")
 t([[You have discovered an old Fortress belonging to the mysterious Sher'tul race.
@@ -34328,7 +34462,7 @@ All your new characters will now start with a transmogrification chest at birth.
 section "mod-tome/data/texts/unlock-birth_zigur_sacrifice.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New birth power: #LIGHT_GREEN#Ziguranth Sacrifice", "New birth power: #LIGHT_GREEN#Ziguranth Sacrifice", "_t")
 t([[You have discovered Zigur, the bastion of Nature fighting against all arcane magics.
@@ -34347,7 +34481,7 @@ All your new characters will now be able to betray arcane escort quests to send 
 section "mod-tome/data/texts/unlock-campaign_arena.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New game campaign: #LIGHT_GREEN#The Arena: Challenge of the Master", "New game campaign: #LIGHT_GREEN#The Arena: Challenge of the Master", "_t")
 t([[The arena, a way of violent entertainment. 
@@ -34382,7 +34516,7 @@ Campaign features:#YELLOW#
 section "mod-tome/data/texts/unlock-campaign_infinite_dungeon.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New game campaign: #LIGHT_GREEN#Infinite Dungeon: The Neverending Descent", "New game campaign: #LIGHT_GREEN#Infinite Dungeon: The Neverending Descent", "_t")
 t([[During the Age of Haze, the nine Godslayers set out to destroy the gods.
@@ -34417,7 +34551,7 @@ Campaign features:#YELLOW#
 section "mod-tome/data/texts/unlock-chronomancer_paradox_mage.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Paradox Mage (Chronomancer)", "New Class: #LIGHT_GREEN#Paradox Mage (Chronomancer)", "_t")
 t([[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
@@ -34456,7 +34590,7 @@ The higher their paradox the greater the effect of their powers but the harder t
 section "mod-tome/data/texts/unlock-chronomancer_temporal_warden.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Temporal Warden (Chronomancer)", "New Class: #LIGHT_GREEN#Temporal Warden (Chronomancer)", "_t")
 t([[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
@@ -34495,7 +34629,7 @@ The higher their paradox the greater the effect of their powers but the harder t
 section "mod-tome/data/texts/unlock-corrupter_corruptor.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Corruptor (Defiler)", "New Class: #LIGHT_GREEN#Corruptor (Defiler)", "_t")
 t([[Every power has a dark side, including the arcane forces.
@@ -34536,7 +34670,7 @@ Vim is the life force of all beings. It does not regenerate, and can only be sto
 section "mod-tome/data/texts/unlock-corrupter_reaver.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Reaver (Defiler)", "New Class: #LIGHT_GREEN#Reaver (Defiler)", "_t")
 t([[Under a veil of darkness and blight come the Reavers.
@@ -34577,7 +34711,7 @@ Vim is the life force of all beings. It does not regenerate, and can only be sto
 section "mod-tome/data/texts/unlock-cosmetic_bikini.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Cosmetic Option: #LIGHT_GREEN#Bikini and Mankini", "New Cosmetic Option: #LIGHT_GREEN#Bikini and Mankini", "_t")
 t([[You have saved Melinda again at the beach.
@@ -34604,7 +34738,7 @@ This has no effect on gameplay at all but it is fun!
 section "mod-tome/data/texts/unlock-cosmetic_class_alchemist_drolem.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class Option: #LIGHT_GREEN#Drolem", "New Class Option: #LIGHT_GREEN#Drolem", "_t")
 t([[You have defeated Tannen with your Alchemist and took some time to figure how he built a mighty Drolem.
@@ -34629,7 +34763,7 @@ Drolems look awesome and can eventually learn to breathe poison.
 section "mod-tome/data/texts/unlock-cosmetic_race_dwarf_female_beard.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Cosmetic Race Option: #LIGHT_GREEN#Facial Pilosity for Female Dwarves", "New Cosmetic Race Option: #LIGHT_GREEN#Facial Pilosity for Female Dwarves", "_t")
 t([[You have saved the Iron Council from untold horrors from the deep.
@@ -34652,7 +34786,7 @@ This has no effect on gameplay at all but it is fun!
 section "mod-tome/data/texts/unlock-cosmetic_race_human_redhead.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Cosmetic Race Option: #LIGHT_GREEN#Redhead Characters", "New Cosmetic Race Option: #LIGHT_GREEN#Redhead Characters", "_t")
 t([[You have saved Melinda from untold horrors and torments.
@@ -34675,7 +34809,7 @@ This has no effect on gameplay at all but it is fun!
 section "mod-tome/data/texts/unlock-difficulty_insane.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New game difficulty mode: #LIGHT_GREEN#Insane", "New game difficulty mode: #LIGHT_GREEN#Insane", "_t")
 t([[You won the game on Nightmare mode.  You are a big tough player!
@@ -34714,7 +34848,7 @@ Insane features:#YELLOW#
 section "mod-tome/data/texts/unlock-difficulty_madness.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New game difficulty mode: #LIGHT_GREEN#Madness", "New game difficulty mode: #LIGHT_GREEN#Madness", "_t")
 t([[You won the game on Insane mode.  You are one of the best players!
@@ -34753,7 +34887,7 @@ Madness features:#YELLOW#
 section "mod-tome/data/texts/unlock-divine_anorithil.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Anorithil (Celestial)", "New Class: #LIGHT_GREEN#Anorithil (Celestial)", "_t")
 t([[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
@@ -34798,7 +34932,7 @@ These are filled by some of their spells and depleted by others, making them alt
 section "mod-tome/data/texts/unlock-divine_sun_paladin.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Sun Paladin (Celestial)", "New Class: #LIGHT_GREEN#Sun Paladin (Celestial)", "_t")
 t([[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
@@ -34843,7 +34977,7 @@ It is filled by some of their spells and depleted by others, making them alterna
 section "mod-tome/data/texts/unlock-mage.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Archmage", "New Class: #LIGHT_GREEN#Archmage", "_t")
 t([[Magic has not disappeared from Maj'Eyal with the end of the Spellhunt.
@@ -34886,7 +35020,7 @@ It slowly replenishes over time.
 section "mod-tome/data/texts/unlock-mage_cryomancer.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Talent Category: #LIGHT_GREEN#Ice", "New Talent Category: #LIGHT_GREEN#Ice", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
@@ -34919,7 +35053,7 @@ Talents:
 section "mod-tome/data/texts/unlock-mage_geomancer.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Talent Category: #LIGHT_GREEN#Stone", "New Talent Category: #LIGHT_GREEN#Stone", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
@@ -34952,7 +35086,7 @@ Talents:
 section "mod-tome/data/texts/unlock-mage_necromancer.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Necromancer", "New Class: #LIGHT_GREEN#Necromancer", "_t")
 t([[Necromancy, the forbidden art.
@@ -35001,7 +35135,7 @@ It slowly replenishes over time.
 section "mod-tome/data/texts/unlock-mage_pyromancer.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Talent Category: #LIGHT_GREEN#Wildfire", "New Talent Category: #LIGHT_GREEN#Wildfire", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
@@ -35034,7 +35168,7 @@ Talents:
 section "mod-tome/data/texts/unlock-mage_tempest.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Talent Category: #LIGHT_GREEN#Storm", "New Talent Category: #LIGHT_GREEN#Storm", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
@@ -35067,7 +35201,7 @@ Talents:
 section "mod-tome/data/texts/unlock-mage_thaumaturgist.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class Evolution: #LIGHT_GREEN#High Thaumaturgist (Archmage)", "New Class Evolution: #LIGHT_GREEN#High Thaumaturgist (Archmage)", "_t")
 t([[You have killed a boss by only using beam spells and nothing else, showing a deeper understanding of this type of spells.
@@ -35106,7 +35240,7 @@ Class evolutions are selected as prodigies and grant new ways to build and expan
 section "mod-tome/data/texts/unlock-paladin_fallen.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class Evolution: #LIGHT_GREEN#Fallen (Sun Paladin)", "New Class Evolution: #LIGHT_GREEN#Fallen (Sun Paladin)", "_t")
 t([[#{bold}##GOLD#You aren't so different...#LAST##{normal}#
@@ -35155,7 +35289,7 @@ Class evolutions are selected as prodigies and grant new ways to build and expan
 section "mod-tome/data/texts/unlock-psionic_mindslayer.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Mindslayer (Psionic)", "New Class: #LIGHT_GREEN#Mindslayer (Psionic)", "_t")
 t([[Mindslayers are the frontline fighters of the Yeeks' Way. Absolutely devoted to serving the Way, and thus all Yeeks, they dive into battle with nothing but their own mind.
@@ -35196,7 +35330,7 @@ While their shields are up incoming damage will be partly absorbed and the energ
 section "mod-tome/data/texts/unlock-psionic_solipsist.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Solipsist (Psionic)", "New Class: #LIGHT_GREEN#Solipsist (Psionic)", "_t")
 t([[Solipsists are powerful psionicists that believe that the world is made up of nothing more than the thoughts and dreams of those that live in it.
@@ -35237,7 +35371,7 @@ They require energy to do so, which they recover naturally over time, and throug
 section "mod-tome/data/texts/unlock-race_ogre.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Race: #LIGHT_GREEN#Ogre", "New Race: #LIGHT_GREEN#Ogre", "_t")
 t([[Ogres are magically-altered Humans, taking refuge in Elvala among the Shalore. 
@@ -35272,7 +35406,7 @@ Race features:#YELLOW#
 section "mod-tome/data/texts/unlock-rogue_marauder.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Marauder (Rogue)", "New Class: #LIGHT_GREEN#Marauder (Rogue)", "_t")
 t([[Some rogues live by strength rather than cunning, relying on vicious attacks instead of stealth and subterfuge. These bandits maraud the land, lightly armoured and wielding dual weapons, taking what they can by force.
@@ -35303,7 +35437,7 @@ Marauders use stamina to fuel their techniques, which replenishes slowly over ti
 section "mod-tome/data/texts/unlock-rogue_poisons.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Talent Category: #LIGHT_GREEN#Poisons", "New Talent Category: #LIGHT_GREEN#Poisons", "_t")
 t([[Extracted from plants, wildlife or more exotic locations, poisons have always existed.
@@ -35334,7 +35468,7 @@ Talents:
 section "mod-tome/data/texts/unlock-rogue_skirmisher.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "_t")
 t([[In Maj'Eyal threats are everywhere when you walk the wildlands, some rogues prefer to forgo the use of stealth instead using their cunning skills to kill silently from afar with a sling well protected with a buckler.
@@ -35371,7 +35505,7 @@ Skirmisher use stamina to fuel their techniques, which replenishes slowly over t
 section "mod-tome/data/texts/unlock-undead_ghoul.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Race: #LIGHT_GREEN#Ghoul (Undead)", "New Race: #LIGHT_GREEN#Ghoul (Undead)", "_t")
 t([[Ghouls are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
@@ -35400,7 +35534,7 @@ Race features:#YELLOW#
 section "mod-tome/data/texts/unlock-undead_skeleton.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Race: #LIGHT_GREEN#Skeleton (Undead)", "New Race: #LIGHT_GREEN#Skeleton (Undead)", "_t")
 t([[Skeletons are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
@@ -35429,7 +35563,7 @@ Race features:#YELLOW#
 section "mod-tome/data/texts/unlock-warrior_brawler.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Brawler (Warrior)", "New Class: #LIGHT_GREEN#Brawler (Warrior)", "_t")
 t([[The ravages of the Spellblaze stretched armies thin and left many unprotected. Not everyone could afford the luxury of a weapon.
@@ -35468,7 +35602,7 @@ Brawlers use stamina and must remain at least semi-mobile.  As such they cannot 
 section "mod-tome/data/texts/unlock-wilder_oozemancer.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "_t")
 t([[The long Nature's hatred of all arcane forces has managed to create Oozemancers as the ultimate answer to archmagi.
@@ -35503,7 +35637,7 @@ The higher it gets the more off-balance they are with it. A high Equilibrium mak
 section "mod-tome/data/texts/unlock-wilder_stone_warden.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Stone Warden (Wilder)", "New Class: #LIGHT_GREEN#Stone Warden (Wilder)", "_t")
 t([[While most races of Eyal firmly believe that arcane and nature forces are opposites, Dwarves have found a way to bind them together and meld them into a power to be reckoned with.
@@ -35544,7 +35678,7 @@ Stone Wardens also use Mana.
 section "mod-tome/data/texts/unlock-wilder_summoner.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Summoner (Wilder)", "New Class: #LIGHT_GREEN#Summoner (Wilder)", "_t")
 t([[In the wilds, some people and creatures are able, by the sole force of their will, to call upon allies to help them in combat.
@@ -35577,7 +35711,7 @@ The higher it gets the more off-balance they are with it. A high Equilibrium mak
 section "mod-tome/data/texts/unlock-wilder_wyrmic.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Class: #LIGHT_GREEN#Wyrmic (Wilder)", "New Class: #LIGHT_GREEN#Wyrmic (Wilder)", "_t")
 t([[Some people, either through training or magic, can take on the defining aspects of the dragon-kin themselves.
@@ -35612,7 +35746,7 @@ Wyrmics are also trained in the martial arts and use stamina for some techniques
 section "mod-tome/data/texts/unlock-yeek.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("New Race: #LIGHT_GREEN#Yeek", "New Race: #LIGHT_GREEN#Yeek", "_t")
 t([[Yeeks are a mysterious race of small humanoids native to the tropical island of Rel.
@@ -35647,7 +35781,7 @@ Race features:#YELLOW#
 section "mod-tome/data/timed_effects/floor.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Icy Floor", "Icy Floor", "floorEffect desc")
 t("The target is walking on an icy floor. Increasing movement speed by 20%, providing +20% cold damage piercing and -30% stun immunity.", "The target is walking on an icy floor. Increasing movement speed by 20%, providing +20% cold damage piercing and -30% stun immunity.", "_t")
@@ -35684,7 +35818,7 @@ t("undead", "mort-vivant", "effect subtype")
 t("physical", "physique", "effect subtype")
 t("skeleton", "squelette", "effect subtype")
 t("movement", "mouvement", "effect subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("disease", "disease", "effect subtype")
 t("blight", "blight", "effect subtype")
@@ -36626,9 +36760,18 @@ section "mod-tome/data/timed_effects/mental.lua"
 
 t("summon", "invocation", "effect subtype")
 t("all", "tout", "_t")
+t("Sleep", "Sommeil", "_t")
 t("Nightmare", "Cauchemar", "_t")
 t("physical", "physique", "effect subtype")
--- untranslated text
+-- nouveau texte
+--[==[
+t("Your tyranny is increasing your Mindpower and Physicalpower by 2 for each fear applied, for a total of %d", "Your tyranny is increasing your Mindpower and Physicalpower by 2 for each fear applied, for a total of %d", "tformat")
+t("The target is lost in a nightmare that deals %0.2f darkness damage each turn and has a %d%% chance to cause a random detrimental effect.", "The target is lost in a nightmare that deals %0.2f darkness damage each turn and has a %d%% chance to cause a random detrimental effect.", "tformat")
+t("#RED#(%d rampage shugs off#LAST#)", "#RED#(%d rampage shugs off#LAST#)", "tformat")
+t("The target is in a nightmarish sleep, suffering %0.2f darkness damage each turn and unable to to perform most actions.  Every %d damage it takes will reduce the duration of the effect by one turn.", "The target is in a nightmarish sleep, suffering %0.2f darkness damage each turn and unable to to perform most actions.  Every %d damage it takes will reduce the duration of the effect by one turn.", "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Exposed", "Exposed", "_t")
 t("Mind and body exposed to effects and attacks, reducing all saves and defense by %d.", "Mind and body exposed to effects and attacks, reducing all saves and defense by %d.", "tformat")
@@ -36895,7 +37038,6 @@ t("#Target# has survived the void madness.", "#Target# has survived the void mad
 t("-Void Echoes", "-Void Echoes", "_t")
 t("nightmare", "nightmare", "effect subtype")
 t("Waking Nightmare", "Waking Nightmare", "_t")
-t("The target is lost in a nightmare that deals %0.2f mind damage each turn and has a %d%% chance to cause a random detrimental effect.", "The target is lost in a nightmare that deals %0.2f mind damage each turn and has a %d%% chance to cause a random detrimental effect.", "tformat")
 t("#F53CBE##Target# is lost in a nightmare.", "#F53CBE##Target# is lost in a nightmare.", "_t")
 t("+Night Terrors", "+Night Terrors", "_t")
 t("#Target# is free from the nightmare.", "#Target# is free from the nightmare.", "_t")
@@ -37023,7 +37165,6 @@ t("+Focused Wrath", "+Focused Wrath", "_t")
 t("#Target#'s subconscious has returned to normal.", "#Target#'s subconscious has returned to normal.", "_t")
 t("-Focused Wrath", "-Focused Wrath", "_t")
 t("sleep", "sleep", "effect subtype")
-t("Sleep", "Sleep", "_t")
 t("The target is asleep and unable to perform most actions.  Every %d damage it takes will reduce the duration of the effect by one turn.", "The target is asleep and unable to perform most actions.  Every %d damage it takes will reduce the duration of the effect by one turn.", "tformat")
 t("#Target# has been put to sleep.", "#Target# has been put to sleep.", "_t")
 t("+Sleep", "+Sleep", "_t")
@@ -37034,7 +37175,6 @@ t("The target is in a deep sleep and unable to perform most actions.  Every %d d
 t("#Target# is in a deep sleep.", "#Target# is in a deep sleep.", "_t")
 t("+Slumber", "+Slumber", "_t")
 t("-Slumber", "-Slumber", "_t")
-t("The target is in a nightmarish sleep, suffering %0.2f mind damage each turn and unable to to perform most actions.  Every %d damage it takes will reduce the duration of the effect by one turn.", "The target is in a nightmarish sleep, suffering %0.2f mind damage each turn and unable to to perform most actions.  Every %d damage it takes will reduce the duration of the effect by one turn.", "tformat")
 t("+Nightmare", "+Nightmare", "_t")
 t("-Nightmare", "-Nightmare", "_t")
 t("Restless Night", "Restless Night", "_t")
@@ -37147,8 +37287,20 @@ t("Something", "Quelque chose", "_t")
 t("undead", "mort-vivant", "effect subtype")
 t("suffocating", "s'etouffe", "effect subtype")
 t("antimagic", "anti-magie", "effect subtype")
+t("Swift Hands", "Mains rapides", "_t")
 t("unknown", "inconnu", "effect subtype")
--- untranslated text
+-- nouveau texte
+--[==[
+t([[Currently Twisted Anomaly: %s
+
+		%s]], [[Currently Twisted Anomaly: %s
+
+		%s]], "tformat")
+t("Weakdamage Mode", "Weakdamage Mode", "_t")
+t("All damage reduced to -90%%.", "All damage reduced to -90%%.", "tformat")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Ethereal Form", "Ethereal Form", "_t")
 t("Ethereal Form bonuses reduced by %d%%", "Ethereal Form bonuses reduced by %d%%", "tformat")
@@ -37167,6 +37319,7 @@ t("Elemental Surge: Lightning", "Elemental Surge: Lightning", "_t")
 t("Movement speed increased by %d%%.", "Movement speed increased by %d%%.", "tformat")
 t("Elemental Surge: Light", "Elemental Surge: Light", "_t")
 t("All talent cooldowns reduced by %d%%.", "All talent cooldowns reduced by %d%%.", "tformat")
+t("circle", "circle", "effect subtype")
 t("Circle Surge", "Circle Surge", "_t")
 t([[Residual power from the surge is emanating from the circles.
 		Shifting Shadows: +1 negative.
@@ -37245,10 +37398,6 @@ t("Shadow out of sight", "Shadow out of sight", "_t")
 t("The shadow is out of sight of its host; direct control will be lost!", "The shadow is out of sight of its host; direct control will be lost!", "_t")
 t("#LIGHT_RED#You lost sight of your shadow for too long; it dissipates!", "#LIGHT_RED#You lost sight of your shadow for too long; it dissipates!", "logPlayer")
 t("shadow out of sight", "shadow out of sight", "_t")
-t("Husk out of sight", "Husk out of sight", "_t")
-t("The husk is out of sight of its host; direct control will be lost!", "The husk is out of sight of its host; direct control will be lost!", "_t")
-t("#LIGHT_RED#You lost sight of your husk for too long; it disintegrates!", "#LIGHT_RED#You lost sight of your husk for too long; it disintegrates!", "logPlayer")
-t("husk out of sight", "husk out of sight", "_t")
 t("Continuum Destabilization", "Continuum Destabilization", "_t")
 t("The target has been affected by space or time manipulations and is becoming more resistant to them (+%d).", "The target has been affected by space or time manipulations and is becoming more resistant to them (+%d).", "tformat")
 t("#Target# looks a little pale around the edges.", "#Target# looks a little pale around the edges.", "_t")
@@ -37493,7 +37642,6 @@ t("suffocated to death", "suffocated to death", "_t")
 t("Antimagic Disruption", "Antimagic Disruption", "_t")
 t("Your arcane powers are disrupted by your antimagic equipment.  Arcane talents fail %d%% of the time and arcane sustains have a %0.1f%% chance to deactivate each turn.", "Your arcane powers are disrupted by your antimagic equipment.  Arcane talents fail %d%% of the time and arcane sustains have a %0.1f%% chance to deactivate each turn.", "tformat")
 t("prodigy", "prodigy", "effect subtype")
-t("Swift Hands", "Swift Hands", "_t")
 t("You swaped an item without taking time this turn.", "You swaped an item without taking time this turn.", "_t")
 t("madness", "madness", "effect subtype")
 t("Hunter!", "Hunter!", "_t")
@@ -37545,11 +37693,6 @@ t("penalty", "penalty", "effect subtype")
 t("Hit Penalty", "Hit Penalty", "_t")
 t("The target is using a two handed weapon in a single hand, reducing accuracy, physical power, spellpower and mindpower by %d%% (based on size); also all damage procs from your offhand are reduced by 50%%.", "The target is using a two handed weapon in a single hand, reducing accuracy, physical power, spellpower and mindpower by %d%% (based on size); also all damage procs from your offhand are reduced by 50%%.", "tformat")
 t("Twist Fate", "Twist Fate", "_t")
-t([[Currently Twisted Anomlay: %s
-
-		%s]], [[Currently Twisted Anomlay: %s
-
-		%s]], "tformat")
 t("+Twist Fate", "+Twist Fate", "_t")
 t("-Twist Fate", "-Twist Fate", "_t")
 t("tactic", "tactic", "effect subtype")
@@ -37692,7 +37835,15 @@ t(" and ", " et ", "_t")
 t("something", "quelque chose", "_t")
 t("Something", "Quelque chose", "_t")
 t("physical", "physique", "effect subtype")
--- untranslated text
+-- nouveau texte
+--[==[
+t("pinned by a bone spike", "pinned by a bone spike", "_t")
+t("The target is pinned by a bone spike, unable to move.", "The target is pinned by a bone spike, unable to move.", "_t")
+t("#Target# is pinned by a bone spike.", "#Target# is pinned by a bone spike.", "_t")
+t("Open Palm Block", "Open Palm Block", "_t")
+--]==]
+
+-- texte non traduit
 --[==[
 t("acid", "acid", "effect subtype")
 t("Scoured", "Scoured", "_t")
@@ -38505,7 +38656,7 @@ t("-Brutalized", "-Brutalized", "_t")
 section "mod-tome/data/timed_effects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("%s from %s", "%s from %s", "tformat")
 --]==]
@@ -38515,7 +38666,7 @@ t("%s from %s", "%s from %s", "tformat")
 section "mod-tome/data/wda/eyal.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Maj'Eyal", "Maj'Eyal", "_t")
 t("Far East", "Far East", "_t")
@@ -38526,7 +38677,7 @@ t("Far East", "Far East", "_t")
 section "mod-tome/data/zones/abashed-expanse/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("unstable wormhole", "unstable wormhole", "entity name")
 t("stable wormhole", "stable wormhole", "_t")
@@ -38538,7 +38689,7 @@ t("#VIOLET#The wormhole absorbs energies and stabilizes. You can now use it to t
 section "mod-tome/data/zones/abashed-expanse/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Spacial Disturbance", "Spacial Disturbance", "entity name")
 t("A hole in the fabric of space, it seems to be the source of the expanse instability.", "A hole in the fabric of space, it seems to be the source of the expanse instability.", "_t")
@@ -38550,7 +38701,7 @@ t("and folded out of existence", "and folded out of existence", "_t")
 section "mod-tome/data/zones/abashed-expanse/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Void Star", "Void Star", "entity name")
 t("tiny black star", "tiny black star", "_t")
@@ -38562,7 +38713,7 @@ t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", 
 section "mod-tome/data/zones/abashed-expanse/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Abashed Expanse", "Abashed Expanse", "_t")
 --]==]
@@ -38572,7 +38723,7 @@ t("Abashed Expanse", "Abashed Expanse", "_t")
 section "mod-tome/data/zones/ancient-elven-ruins/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("teleporting circle to the surface", "teleporting circle to the surface", "entity name")
 --]==]
@@ -38582,7 +38733,7 @@ t("teleporting circle to the surface", "teleporting circle to the surface", "ent
 section "mod-tome/data/zones/ancient-elven-ruins/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("mummy", "mummy", "entity subtype")
 t("Greater Mummy Lord", "Greater Mummy Lord", "entity name")
@@ -38603,7 +38754,7 @@ t("An animated corpse in mummy wrappings, both very well preserved.", "An animat
 section "mod-tome/data/zones/ancient-elven-ruins/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("ancient papyrus scroll", "ancient papyrus scroll", "entity name")
 t("This seems to be an account of the last days of a great Shaloren mage.", "This seems to be an account of the last days of a great Shaloren mage.", "_t")
@@ -38624,7 +38775,7 @@ t("#ANTIQUE_WHITE#The powerful darkness aura you felt wanes away.", "#ANTIQUE_WH
 section "mod-tome/data/zones/ancient-elven-ruins/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Elven Ruins", "Elven Ruins", "_t")
 --]==]
@@ -38634,7 +38785,7 @@ t("Elven Ruins", "Elven Ruins", "_t")
 section "mod-tome/data/zones/ardhungol/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("unstable wormhole", "unstable wormhole", "entity name")
 t("#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "logSeen")
@@ -38646,7 +38797,7 @@ t("#VIOLET#The wormhole absorbs the energy of the spell and explodes in a burst 
 section "mod-tome/data/zones/ardhungol/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ungolë", "Ungolë", "entity name")
 t("A huge spider, shrouded in darkness, her red glowing eyes darting to fix on you. She looks hungry.", "A huge spider, shrouded in darkness, her red glowing eyes darting to fix on you. She looks hungry.", "_t")
@@ -38665,7 +38816,7 @@ t("A strange looking humanoid, covered in black chitinous skin. He dual wields s
 section "mod-tome/data/zones/ardhungol/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("diary page", "diary page", "entity name")
 t("A page of a diary.", "A page of a diary.", "_t")
@@ -38683,7 +38834,7 @@ t("%s activates %s %s!", "%s activates %s %s!", "logSeen")
 section "mod-tome/data/zones/ardhungol/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ardhungol", "Ardhungol", "_t")
 --]==]
@@ -38695,7 +38846,7 @@ section "mod-tome/data/zones/arena/grids.lua"
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
 t("wall", "mur", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("closed gate", "closed gate", "entity name")
 t("open gate", "open gate", "entity name")
@@ -38707,7 +38858,7 @@ section "mod-tome/data/zones/arena/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("skeletal rat", "skeletal rat", "entity name")
@@ -38780,7 +38931,7 @@ t("Warriors from afar. They wield the power of light, and a mean sword. Darkness
 section "mod-tome/data/zones/arena/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Arena for dummies", "Arena for dummies", "entity name")
 t("A note explaining the arena's scoring rules. Someone must have dropped it.", "A note explaining the arena's scoring rules. Someone must have dropped it.", "_t")
@@ -38801,7 +38952,7 @@ t("rough leather sling of flare", "rough leather sling of flare", "entity name")
 section "mod-tome/data/zones/arena/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Arena", "The Arena", "_t")
 t("#GOLD#Miniboss round starts!!", "#GOLD#Miniboss round starts!!", "log")
@@ -38830,7 +38981,7 @@ t("Arena mode", "Arena mode", "_t")
 section "mod-tome/data/zones/arena-unlock/grids.lua"
 
 t("wall", "mur", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("closed gate", "closed gate", "entity name")
 --]==]
@@ -38840,7 +38991,7 @@ t("closed gate", "closed gate", "entity name")
 section "mod-tome/data/zones/arena-unlock/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("gladiator", "gladiator", "entity name")
 t("human", "human", "entity subtype")
@@ -38858,7 +39009,7 @@ t("Cornac rogue", "Cornac rogue", "_t")
 section "mod-tome/data/zones/arena-unlock/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Derth (Southeast)", "Derth (Southeast)", "_t")
 --]==]
@@ -38868,7 +39019,7 @@ t("Derth (Southeast)", "Derth (Southeast)", "_t")
 section "mod-tome/data/zones/blighted-ruins/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("unholy circle", "unholy circle", "entity name")
 t("broken unholy circle", "broken unholy circle", "entity name")
@@ -38880,7 +39031,7 @@ section "mod-tome/data/zones/blighted-ruins/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("Necromancer", "Nécromancien", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("A Human dressed in black robes. He mumbles in a harsh tongue. He seems to think you are his slave.", "A Human dressed in black robes. He mumbles in a harsh tongue. He seems to think you are his slave.", "_t")
@@ -38901,7 +39052,7 @@ t("It looks like a giant blood clot. Is that what its creator intended?", "It lo
 section "mod-tome/data/zones/blighted-ruins/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
 t("cloak", "cloak", "entity subtype")
@@ -38917,7 +39068,7 @@ t("A paper scrap, left by the Necromancer.", "A paper scrap, left by the Necroma
 section "mod-tome/data/zones/blighted-ruins/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Blighted Ruins", "Blighted Ruins", "_t")
 --]==]
@@ -38927,7 +39078,7 @@ t("Blighted Ruins", "Blighted Ruins", "_t")
 section "mod-tome/data/zones/briagh-lair/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("sand", "sand", "entity subtype")
@@ -38940,7 +39091,7 @@ t("A towering sand drake stands before you. This wingless worm is mighty and cou
 section "mod-tome/data/zones/briagh-lair/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Resonating Diamond", "Resonating Diamond", "entity name")
 --]==]
@@ -38950,7 +39101,7 @@ t("Resonating Diamond", "Resonating Diamond", "entity name")
 section "mod-tome/data/zones/briagh-lair/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Briagh's Lair", "Briagh's Lair", "_t")
 --]==]
@@ -38960,7 +39111,7 @@ t("Briagh's Lair", "Briagh's Lair", "_t")
 section "mod-tome/data/zones/charred-scar/grids.lua"
 
 t("floor", "sol", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("lava", "lava", "entity subtype")
 t("Farportal: the Far East", "Farportal: the Far East", "entity name")
@@ -38973,7 +39124,7 @@ t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back
 section "mod-tome/data/zones/charred-scar/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("human sun-paladin", "human sun-paladin", "entity name")
@@ -39000,7 +39151,7 @@ t("and a sole piece of char was sent to his masters as a totem", "and a sole pie
 section "mod-tome/data/zones/charred-scar/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Charred Scar", "Charred Scar", "_t")
 t("Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "_t")
@@ -39013,7 +39164,7 @@ section "mod-tome/data/zones/conclave-vault/grids.lua"
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
 t("wall", "mur", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("body remains", "body remains", "entity name")
 t("bone pile", "bone pile", "entity name")
@@ -39027,7 +39178,7 @@ t("broken vat", "broken vat", "entity name")
 section "mod-tome/data/zones/conclave-vault/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("old vats", "old vats", "entity name")
 t("structure", "structure", "entity type")
@@ -39048,7 +39199,7 @@ t("and spliced for experiments", "and spliced for experiments", "_t")
 section "mod-tome/data/zones/conclave-vault/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("log of healer Astelrid", "log of healer Astelrid", "entity name")
 t("A very faded note, nearly unreadable.", "A very faded note, nearly unreadable.", "_t")
@@ -39064,7 +39215,7 @@ t("Improves the contribution of primary stats on infusions and runes by 15%", "I
 section "mod-tome/data/zones/conclave-vault/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Old Conclave Vault", "Old Conclave Vault", "_t")
 --]==]
@@ -39075,7 +39226,7 @@ section "mod-tome/data/zones/crypt-kryl-feijan/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("sealed door", "sealed door", "entity name")
 t("demonic symbol", "demonic symbol", "entity name")
@@ -39087,7 +39238,7 @@ t("altar", "altar", "entity name")
 section "mod-tome/data/zones/crypt-kryl-feijan/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Kryl-Feijan", "Kryl-Feijan", "entity name")
 t("This huge demon is covered in darkness. The ripped flesh of its \"mother\" still hangs from its sharp claws.", "This huge demon is covered in darkness. The ripped flesh of its \"mother\" still hangs from its sharp claws.", "_t")
@@ -39109,7 +39260,7 @@ She stumbles on her feet, her naked body still dripping in blood. 'Please get me
 section "mod-tome/data/zones/crypt-kryl-feijan/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Writhing Essence of Nightmares", "Writhing Essence of Nightmares", "entity name")
 t("Whispers seem to ceaselessly emanate from this writhing mass of black tentacles, murmuring unspeakable horrors into the ears of any unfortunate enough to hear them.", "Whispers seem to ceaselessly emanate from this writhing mass of black tentacles, murmuring unspeakable horrors into the ears of any unfortunate enough to hear them.", "_t")
@@ -39121,7 +39272,7 @@ t("writhing mindstar", "writhing mindstar", "_t")
 section "mod-tome/data/zones/crypt-kryl-feijan/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dark crypt", "Dark crypt", "_t")
 t("Crypt", "Crypt", "_t")
@@ -39137,7 +39288,7 @@ t("You cannot abandon Melinda here!", "You cannot abandon Melinda here!", "_t")
 section "mod-tome/data/zones/daikara/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Temporal Rift", "Temporal Rift", "entity name")
 t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
@@ -39151,7 +39302,7 @@ t("The rift is too unstable to cross it.", "The rift is too unstable to cross it
 section "mod-tome/data/zones/daikara/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("ice", "ice", "entity subtype")
@@ -39171,7 +39322,7 @@ t("A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned f
 section "mod-tome/data/zones/daikara/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("daikara expedition note", "daikara expedition note", "entity name")
 t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
@@ -39183,7 +39334,7 @@ t("Rune of the Rift", "Rune of the Rift", "entity name")
 section "mod-tome/data/zones/daikara/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Daikara", "Daikara", "_t")
 t("BOOM!", "BOOM!", "_t")
@@ -39197,7 +39348,7 @@ You see pyroclasts ejected from the heart of the volcano, they look relatively h
 section "mod-tome/data/zones/deep-bellow/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Iron Council (Dwarven empire main city)", "The Iron Council (Dwarven empire main city)", "entity name")
 --]==]
@@ -39207,7 +39358,7 @@ t("The Iron Council (Dwarven empire main city)", "The Iron Council (Dwarven empi
 section "mod-tome/data/zones/deep-bellow/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Mouth", "The Mouth", "entity name")
 t("\"From bellow, it devours.\"", "\"From bellow, it devours.\"", "_t")
@@ -39230,7 +39381,7 @@ t("A parchment falls to the floor near The Abomination.", "A parchment falls to 
 section "mod-tome/data/zones/deep-bellow/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Deep Bellow excavation report %d", "Deep Bellow excavation report %d", "tformat")
 t("A paper scrap.", "A paper scrap.", "_t")
@@ -39244,7 +39395,7 @@ t("Last Will of Rolf", "Last Will of Rolf", "entity name")
 section "mod-tome/data/zones/deep-bellow/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Deep Bellow", "The Deep Bellow", "_t")
 --]==]
@@ -39254,7 +39405,7 @@ t("The Deep Bellow", "The Deep Bellow", "_t")
 section "mod-tome/data/zones/demon-plane/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Demonic Portal", "Demonic Portal", "entity name")
 t("This portal seems to be connected with Maj'Eyal; you could probably use it to go back.", "This portal seems to be connected with Maj'Eyal; you could probably use it to go back.", "_t")
@@ -39270,7 +39421,7 @@ t("Enter", "Enter", "_t")
 section "mod-tome/data/zones/demon-plane/npcs.lua"
 
 t("demon", "démon", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("minor", "minor", "entity subtype")
 t("Draebor, the Imp", "Draebor, the Imp", "entity name")
@@ -39284,7 +39435,7 @@ t("As the annoying imp falls a portal appears under its corpse.", "As the annoyi
 section "mod-tome/data/zones/demon-plane/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shifting Boots", "Shifting Boots", "entity name")
 t("pair of shifting boots", "pair of shifting boots", "_t")
@@ -39303,7 +39454,7 @@ t("Fearscape", "Plan de la peur", "_t")
 section "mod-tome/data/zones/demon-plane-spell/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#Source# burns #Target#!", "#Source# burns #Target#!", "logCombat")
 t("#Source# heals #Target#!", "#Source# heals #Target#!", "logCombat")
@@ -39319,7 +39470,7 @@ t("Fearscape", "Plan de la peur", "_t")
 section "mod-tome/data/zones/dreadfell/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("sign post with a note", "sign post with a note", "entity name")
 --]==]
@@ -39330,7 +39481,7 @@ section "mod-tome/data/zones/dreadfell/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("skeleton", "squelette", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("vampire", "vampire", "entity subtype")
 t("The Master", "The Master", "entity name")
@@ -39362,7 +39513,7 @@ There is a cunning air to his hollow skull, and his empty sockets reveal nothing
 section "mod-tome/data/zones/dreadfell/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("paper scrap", "paper scrap", "entity name")
 t("A smudged poem chalked on a dark piece of slate", "A smudged poem chalked on a dark piece of slate", "_t")
@@ -39376,18 +39527,13 @@ t("A letter written in a bold, commanding script", "A letter written in a bold, 
 ------------------------------------------------
 section "mod-tome/data/zones/dreadfell/zone.lua"
 
-
--- untranslated text
---[==[
-t("Dreadfell", "Dreadfell", "_t")
---]==]
-
+t("Dreadfell", "Tombeffroie", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreadfell-ambush/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ukruk the Fierce", "Ukruk the Fierce", "entity name")
 t("This ugly orc looks really nasty and vicious. He is obviously looking for something and bears an unknown symbol on his shield.", "This ugly orc looks really nasty and vicious. He is obviously looking for something and bears an unknown symbol on his shield.", "_t")
@@ -39398,7 +39544,7 @@ t("This ugly orc looks really nasty and vicious. He is obviously looking for som
 section "mod-tome/data/zones/dreadfell-ambush/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("hastily written log", "hastily written log", "entity name")
 t("A paper scrap, left by Ukruk.", "A paper scrap, left by Ukruk.", "_t")
@@ -39419,7 +39565,7 @@ t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dream Portal", "Dream Portal", "entity name")
 t("mouse hole", "mouse hole", "entity name")
@@ -39436,7 +39582,7 @@ t("bamboo wall", "bamboo wall", "entity name")
 section "mod-tome/data/zones/dreams/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("yeek", "yeek", "entity subtype")
 t("yeek illusion", "yeek illusion", "entity name")
@@ -39457,7 +39603,7 @@ t("Your wife has been turned into a giant, bloated form that towers above you. M
 section "mod-tome/data/zones/dreams/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dreams", "Dreams", "_t")
 t("Dream of vulnerability", "Dream of vulnerability", "_t")
@@ -39502,7 +39648,7 @@ section "mod-tome/data/zones/dreamscape-talent/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("cloud", "cloud", "entity subtype")
 --]==]
@@ -39512,7 +39658,7 @@ t("cloud", "cloud", "entity subtype")
 section "mod-tome/data/zones/dreamscape-talent/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Dreamscape", "Dreamscape", "_t")
 --]==]
@@ -39526,21 +39672,18 @@ t("unknown", "inconnu", "entity subtype")
 t("The Eidolon", "L'Eidolon", "entity name")
 t("A ripple in the void that somehow seems... alive, this creature stares at you with interest.", "Une ondulation dans le vide qui semble en quelque sorte ... vivante, cette créature vous regarde avec intérêt.", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/zones/eidolon-plane/zone.lua"
-
 
 t("Eidolon Plane", "Le plan de l'Eidolon Plane", "_t")
 t("The Eidolon Plane seems not to physically exist in the same way the normal world does. You cannot seem to drop anything here. %s comes back into your backpack.", "Le plan de l'Eidolon ne semble pas exister physiquement de la même manière que le monde normal. Vous ne pouvez pas sembler laisser quoi que ce soit ici. %s revient dans votre sac à dos.", "logPlayer")
 t("#LIGHT_RED#You are sent back to the material plane!", "#LIGHT_RED#Vous êtes renvoyé dans le plan matériel!", "logPlayer")
 
-
 ------------------------------------------------
 section "mod-tome/data/zones/eruan/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Farportal: Charred Scar", "Farportal: Charred Scar", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
@@ -39554,7 +39697,7 @@ t("#VIOLET#You enter the swirling portal while it fades away and in the blink of
 section "mod-tome/data/zones/eruan/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Sun Paladin Guren", "Sun Paladin Guren", "entity name")
@@ -39566,7 +39709,7 @@ t("A Human warrior, clad in shining plate armour. Power radiates from him.", "A 
 section "mod-tome/data/zones/eruan/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Erúan", "Erúan", "_t")
 --]==]
@@ -39576,7 +39719,7 @@ t("Erúan", "Erúan", "_t")
 section "mod-tome/data/zones/flooded-cave/npcs.lua"
 
 t("water", "eau", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("Ukllmswwik the Wise", "Ukllmswwik the Wise", "entity name")
@@ -39588,7 +39731,7 @@ t("It looks like a cross between a shark and a dragon, only nastier.", "It looks
 section "mod-tome/data/zones/flooded-cave/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Flooded Cave", "Flooded Cave", "_t")
 --]==]
@@ -39599,7 +39742,7 @@ section "mod-tome/data/zones/gladium/grids.lua"
 
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Gladium Control Orb", "Gladium Control Orb", "entity name")
 t("glass wall", "glass wall", "entity name")
@@ -39610,7 +39753,7 @@ t("glass wall", "glass wall", "entity name")
 section "mod-tome/data/zones/gladium/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Fortress Gladium", "Fortress Gladium", "_t")
 --]==]
@@ -39620,7 +39763,7 @@ t("Fortress Gladium", "Fortress Gladium", "_t")
 section "mod-tome/data/zones/golem-graveyard/grids.lua"
 
 t("Cancel", "Annuler", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("the remains of Atamathon", "the remains of Atamathon", "entity name")
 t([[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
@@ -39642,7 +39785,7 @@ t("Insert", "Insert", "_t")
 section "mod-tome/data/zones/golem-graveyard/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Atamathon the Giant Golem", "Atamathon the Giant Golem", "entity name")
 t("This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer. Someone foolish has tried to reconstruct it, but has lost control of it, and now it rampages in search of its original creators, who are long dead. Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. At over 40 feet tall, it towers above you, and its crimson orbs seem to glow with rage.", "This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer. Someone foolish has tried to reconstruct it, but has lost control of it, and now it rampages in search of its original creators, who are long dead. Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. At over 40 feet tall, it towers above you, and its crimson orbs seem to glow with rage.", "_t")
@@ -39662,7 +39805,7 @@ t("EXECUTE PHASE COMMENCING!", "EXECUTE PHASE COMMENCING!", "_t")
 section "mod-tome/data/zones/golem-graveyard/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("red", "red", "entity subtype")
 t("Atamathon's Ruby Eye", "Atamathon's Ruby Eye", "entity name")
@@ -39676,7 +39819,7 @@ It is said it was made by the halflings during the Age of Pyre as a weapon again
 section "mod-tome/data/zones/golem-graveyard/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Golem Graveyard", "Golem Graveyard", "_t")
 --]==]
@@ -39692,7 +39835,7 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("roost", "roost", "entity subtype")
 t("sand", "sand", "entity subtype")
@@ -39706,7 +39849,7 @@ t("#VIOLET#You hear a rock crumbling opening.", "#VIOLET#You hear a rock crumbli
 section "mod-tome/data/zones/gorbat-pride/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Gorbat, Supreme Wyrmic of the Pride", "Gorbat, Supreme Wyrmic of the Pride", "entity name")
 t("An orc with scaly skin, claws and a pair of small wings on his back.", "An orc with scaly skin, claws and a pair of small wings on his back.", "_t")
@@ -39718,7 +39861,7 @@ t("and fed to the hatchlings", "and fed to the hatchlings", "_t")
 section "mod-tome/data/zones/gorbat-pride/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("draft note", "draft note", "entity name")
 t("A note.", "A note.", "_t")
@@ -39729,7 +39872,7 @@ t("A note.", "A note.", "_t")
 section "mod-tome/data/zones/gorbat-pride/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Gorbat Pride", "Gorbat Pride", "_t")
 --]==]
@@ -39739,7 +39882,7 @@ t("Gorbat Pride", "Gorbat Pride", "_t")
 section "mod-tome/data/zones/grushnak-pride/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("entrance to a slimy pit", "entrance to a slimy pit", "entity name")
 t("training dummy", "training dummy", "entity name")
@@ -39752,7 +39895,7 @@ t("dummy", "dummy", "entity subtype")
 section "mod-tome/data/zones/grushnak-pride/mapscripts/last.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Combat Trainer #rng#", "Combat Trainer #rng#", "_t")
 --]==]
@@ -39762,7 +39905,7 @@ t("Combat Trainer #rng#", "Combat Trainer #rng#", "_t")
 section "mod-tome/data/zones/grushnak-pride/mapscripts/main.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Combat Trainer #rng#", "Combat Trainer #rng#", "_t")
 --]==]
@@ -39772,7 +39915,7 @@ t("Combat Trainer #rng#", "Combat Trainer #rng#", "_t")
 section "mod-tome/data/zones/grushnak-pride/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Grushnak, Battlemaster of the Pride", "Grushnak, Battlemaster of the Pride", "entity name")
 t("An old orc, covered in battle scars, he looks fierce and very, very, dangerous.", "An old orc, covered in battle scars, he looks fierce and very, very, dangerous.", "_t")
@@ -39784,7 +39927,7 @@ t("and mounted on the barracks wall", "and mounted on the barracks wall", "_t")
 section "mod-tome/data/zones/grushnak-pride/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("draft note", "draft note", "entity name")
 t("A note.", "A note.", "_t")
@@ -39797,7 +39940,7 @@ t("The Legend of Garkul the Devourer, mightiest of all orcs.", "The Legend of Ga
 section "mod-tome/data/zones/grushnak-pride/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Grushnak Pride", "Grushnak Pride", "_t")
 --]==]
@@ -39807,7 +39950,7 @@ t("Grushnak Pride", "Grushnak Pride", "_t")
 section "mod-tome/data/zones/halfling-ruins/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Subject Z", "Subject Z", "entity name")
 t("human", "human", "entity subtype")
@@ -39835,7 +39978,7 @@ t("This creature is about as tall as a halfling. It is covered in white silky fu
 section "mod-tome/data/zones/halfling-ruins/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("research log of halfling mage Hompalan", "research log of halfling mage Hompalan", "entity name")
 t("A very faded research note, nearly unreadable.", "A very faded research note, nearly unreadable.", "_t")
@@ -39853,7 +39996,7 @@ t("#LIGHT_BLUE#You feel this robe was made for you!", "#LIGHT_BLUE#You feel this
 section "mod-tome/data/zones/halfling-ruins/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ruined halfling complex", "Ruined halfling complex", "_t")
 --]==]
@@ -39864,7 +40007,7 @@ section "mod-tome/data/zones/heart-gloom/grids.lua"
 
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("dark_grass", "dark_grass", "entity subtype")
 --]==]
@@ -39874,7 +40017,7 @@ t("dark_grass", "dark_grass", "entity subtype")
 section "mod-tome/data/zones/heart-gloom/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("gloomy ", "gloomy ", "_t")
 t("deformed ", "deformed ", "_t")
@@ -39897,7 +40040,7 @@ t("and absorbed into nightmares forever", "and absorbed into nightmares forever"
 section "mod-tome/data/zones/heart-gloom/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Heart of the Gloom", "Heart of the Gloom", "_t")
 --]==]
@@ -39906,9 +40049,8 @@ t("Heart of the Gloom", "Heart of the Gloom", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/high-peak/grids.lua"
 
-
 t("next level", "niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Farportal: the Far East", "Farportal: the Far East", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
@@ -39944,7 +40086,7 @@ section "mod-tome/data/zones/high-peak/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
 t("Elandar", "Elandar", "entity name")
@@ -39960,7 +40102,7 @@ t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "
 section "mod-tome/data/zones/high-peak/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("bloodsoaked diamond", "bloodsoaked diamond", "entity name")
 t("A strangely wet diamond.", "A strangely wet diamond.", "_t")
@@ -39993,7 +40135,7 @@ t("A pearl, three times the size of a normal pearl, that glitters in infinite co
 section "mod-tome/data/zones/high-peak/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("High Peak", "High Peak", "_t")
 t("High Peak: The Sanctum", "High Peak: The Sanctum", "_t")
@@ -40005,7 +40147,7 @@ t("High Peak (%d)", "High Peak (%d)", "tformat")
 section "mod-tome/data/zones/illusory-castle/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Illusory Castle", "Illusory Castle", "_t")
 --]==]
@@ -40021,7 +40163,7 @@ t("floor", "sol", "entity type")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
 t("next level", "niveau suivant", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("huge loose rock", "huge loose rock", "entity name")
 t("crystal", "crystal", "entity subtype")
@@ -40051,7 +40193,7 @@ t("lava wall", "lava wall", "entity name")
 section "mod-tome/data/zones/infinite-dungeon/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Hunter and the Hunted", "The Hunter and the Hunted", "entity name")
 t("The infinite hunt.", "The infinite hunt.", "_t")
@@ -40079,7 +40221,7 @@ t("You cannot use your %s anymore; it is tainted by magic.", "You cannot use you
 section "mod-tome/data/zones/infinite-dungeon/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Infinite Dungeon", "Infinite Dungeon", "_t")
 t(", carefully excavated area", ", carefully excavated area", "_t")
@@ -40122,14 +40264,14 @@ section "mod-tome/data/zones/keepsake-meadow/grids.lua"
 
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
+t("troll stew", "ragoût de troll", "entity name")
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity name")
 t("floor", "sol", "entity subtype")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
-t("troll stew", "troll stew", "entity name")
 t("dirt", "dirt", "entity subtype")
 t("cave floor", "cave floor", "entity name")
 t("cave marker", "cave marker", "entity name")
@@ -40141,7 +40283,7 @@ section "mod-tome/data/zones/keepsake-meadow/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("To arms!", "To arms!", "_t")
@@ -40183,7 +40325,7 @@ t("and quickly burned in a pyre", "and quickly burned in a pyre", "_t")
 section "mod-tome/data/zones/keepsake-meadow/objects.lua"
 
 t("misc", "divers", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("folded up piece of paper", "folded up piece of paper", "entity name")
 t("A folded up piece of paper with a few notes written on it.", "A folded up piece of paper with a few notes written on it.", "_t")
@@ -40204,13 +40346,12 @@ t("This was the book that gave power to Kyless and eventually led to his doom. T
 ------------------------------------------------
 section "mod-tome/data/zones/keepsake-meadow/traps.lua"
 
-
--- untranslated text
+t("trap", "piège", "_t")
+-- texte non traduit
 --[==[
 t("event", "event", "entity type")
 t("event", "event", "entity subtype")
 t("creeping darkness", "creeping darkness", "entity name")
-t("trap", "trap", "_t")
 t("A creeping darkness spreads through the air!", "A creeping darkness spreads through the air!", "_t")
 t("summon shadow", "summon shadow", "entity name")
 t("A shadow traces across the floor.", "A shadow traces across the floor.", "_t")
@@ -40221,7 +40362,7 @@ t("A shadow traces across the floor.", "A shadow traces across the floor.", "_t"
 section "mod-tome/data/zones/keepsake-meadow/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Tranquil Meadow", "Tranquil Meadow", "_t")
 --]==]
@@ -40231,7 +40372,7 @@ t("Tranquil Meadow", "Tranquil Meadow", "_t")
 section "mod-tome/data/zones/lake-nur/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("way to the old forest", "way to the old forest", "entity name")
 t("entrance to the Sher'Tul ruins", "entrance to the Sher'Tul ruins", "entity name")
@@ -40244,7 +40385,7 @@ t("#ANTIQUE_WHITE#The way seems closed, maybe you need a key.", "#ANTIQUE_WHITE#
 section "mod-tome/data/zones/lake-nur/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("journal page", "journal page", "entity name")
 t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
@@ -40255,7 +40396,7 @@ t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer
 section "mod-tome/data/zones/lake-nur/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Lake of Nur", "Lake of Nur", "_t")
 t("You descend into the submerged ruins. The walls look extremely ancient, yet you feel power within this place.", "You descend into the submerged ruins. The walls look extremely ancient, yet you feel power within this place.", "_t")
@@ -40271,7 +40412,7 @@ t("grass", "herbe", "entity subtype")
 t("tree", "arbre", "entity name")
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("road", "road", "entity subtype")
 t("cobblestone road", "cobblestone road", "entity name")
@@ -40287,7 +40428,7 @@ t("ritualistic symbol", "ritualistic symbol", "entity name")
 section "mod-tome/data/zones/last-hope-graveyard/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Celia", "Celia", "entity name")
 t("human", "human", "entity subtype")
@@ -40304,7 +40445,7 @@ Carefully weaving magic around it to keep it beating.]], "_t")
 section "mod-tome/data/zones/last-hope-graveyard/objects.lua"
 
 t("misc", "divers", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("creased letter", "creased letter", "entity name")
 t("A letter.", "A letter.", "_t")
@@ -40321,7 +40462,7 @@ t("You squeeze Celia's heart in your hand, absorbing part of her soul into your 
 section "mod-tome/data/zones/last-hope-graveyard/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Last Hope Graveyard", "Last Hope Graveyard", "_t")
 t("Mausoleum", "Mausoleum", "_t")
@@ -40347,7 +40488,7 @@ You hear the sound of a woman sobbing, and every now and then it turns into a fi
 section "mod-tome/data/zones/mark-spellblaze/grids.lua"
 
 t("Cancel", "Annuler", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Heart of the Sandworm Queen", "Heart of the Sandworm Queen", "_t")
 t("The altar seems to react to the heart. You feel you could corrupt it here.", "The altar seems to react to the heart. You feel you could corrupt it here.", "_t")
@@ -40360,7 +40501,7 @@ t("Corrupt", "Corrupt", "_t")
 section "mod-tome/data/zones/mark-spellblaze/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Grand Corruptor", "Grand Corruptor", "entity name")
 t("An Elven corruptor, drawn to these blighted lands.", "An Elven corruptor, drawn to these blighted lands.", "_t")
@@ -40371,7 +40512,7 @@ t("An Elven corruptor, drawn to these blighted lands.", "An Elven corruptor, dra
 section "mod-tome/data/zones/mark-spellblaze/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("draft letter", "draft letter", "entity name")
 t("A letter.", "A letter.", "_t")
@@ -40394,7 +40535,7 @@ t("#00FF00#You gain an affinity for blight. You can now learn new Vile Life tale
 section "mod-tome/data/zones/mark-spellblaze/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Mark of the Spellblaze", "Mark of the Spellblaze", "_t")
 --]==]
@@ -40404,7 +40545,7 @@ t("Mark of the Spellblaze", "Mark of the Spellblaze", "_t")
 section "mod-tome/data/zones/maze/grids.lua"
 
 t("wall", "mur", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("teleporting circle to the surface", "teleporting circle to the surface", "entity name")
 t("cracks", "cracks", "entity subtype")
@@ -40422,7 +40563,7 @@ t("Stay", "Stay", "_t")
 section "mod-tome/data/zones/maze/npcs.lua"
 
 t("giant", "géant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("horror", "horror", "entity type")
 t("corrupted", "corrupted", "entity subtype")
@@ -40443,7 +40584,7 @@ t("Covered by eerie luminescent growths and protuberances, this spider now haunt
 section "mod-tome/data/zones/maze/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("torn diary page", "torn diary page", "entity name")
 t("A diary, left by an adventurer.", "A diary, left by an adventurer.", "_t")
@@ -40456,7 +40597,7 @@ t("Some notes describing how to create poison gas traps, left by an unfortunate 
 section "mod-tome/data/zones/maze/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Maze", "The Maze", "_t")
 --]==]
@@ -40466,7 +40607,7 @@ t("The Maze", "The Maze", "_t")
 section "mod-tome/data/zones/murgol-lair/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Murgol, the Yaech Lord", "Murgol, the Yaech Lord", "entity name")
 t("You can feel the psionic waves of power come from this yaech.", "You can feel the psionic waves of power come from this yaech.", "_t")
@@ -40487,7 +40628,7 @@ t("and brought back to Vargh for experimentations", "and brought back to Vargh f
 section "mod-tome/data/zones/murgol-lair/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Murgol Lair", "Murgol Lair", "_t")
 t("As you enter the lair you can hear the distorted sound of fighting. Somebody is already invading the lair.", "As you enter the lair you can hear the distorted sound of fighting. Somebody is already invading the lair.", "_t")
@@ -40498,7 +40639,7 @@ t("As you enter the lair you can hear the distorted sound of fighting. Somebody 
 section "mod-tome/data/zones/norgos-lair/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Norgos, the Frozen", "Norgos, the Frozen", "entity name")
 t([[This ancient bear long guarded the western side of the forest, but as of late he started growing mad, attacking even the Thaloren.
@@ -40515,7 +40656,7 @@ t("and was feasted upon by wolves", "and was feasted upon by wolves", "_t")
 section "mod-tome/data/zones/norgos-lair/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Norgos Lair", "Norgos Lair", "_t")
 --]==]
@@ -40526,7 +40667,7 @@ section "mod-tome/data/zones/noxious-caldera/grids.lua"
 
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("altar of dreams", "altar of dreams", "entity name")
 t("Altar of Dreams", "Altar of Dreams", "_t")
@@ -40538,7 +40679,7 @@ t("Looking into the altar will let you experience a dream. Without the influence
 section "mod-tome/data/zones/noxious-caldera/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("thalore", "thalore", "entity subtype")
 t("Mindworm", "Mindworm", "entity name")
@@ -40553,7 +40694,7 @@ t("As Mindworm dies you can feel the fumes getting less poisonous for your mind.
 section "mod-tome/data/zones/noxious-caldera/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("tattered paper scrap", "tattered paper scrap", "entity name")
 t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
@@ -40564,7 +40705,7 @@ t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer
 section "mod-tome/data/zones/noxious-caldera/zone.lua"
 
 t("dream", "rêve", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Noxious Caldera", "Noxious Caldera", "_t")
 t("Dogroth Caldera", "Dogroth Caldera", "_t")
@@ -40580,7 +40721,7 @@ t("grass", "herbe", "entity name")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
 t("grass", "herbe", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("dark_grass", "dark_grass", "entity subtype")
 t("tall thick tree", "tall thick tree", "entity name")
@@ -40592,7 +40733,7 @@ t("way to the lake of Nur", "way to the lake of Nur", "entity name")
 section "mod-tome/data/zones/old-forest/npcs.lua"
 
 t("giant", "géant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("crystal", "crystal", "entity subtype")
 t("Shardskin", "Shardskin", "entity name")
@@ -40615,7 +40756,7 @@ t("This ancient Treant's bark is scorched almost black. It sees humanity as a sc
 section "mod-tome/data/zones/old-forest/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("journal page", "journal page", "entity name")
 t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
@@ -40626,7 +40767,7 @@ t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer
 section "mod-tome/data/zones/old-forest/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Old Forest", "Old Forest", "_t")
 --]==]
@@ -40636,7 +40777,7 @@ t("Old Forest", "Old Forest", "_t")
 section "mod-tome/data/zones/orc-breeding-pit/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
 t("orc baby", "orc baby", "entity name")
@@ -40659,7 +40800,7 @@ t("#PURPLE#As the orc greatmother falls you realize you have dealt a crippling b
 section "mod-tome/data/zones/orc-breeding-pit/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("draft note", "draft note", "entity name")
 t("A note.", "A note.", "_t")
@@ -40673,7 +40814,7 @@ t("Captain Gumlarat's report", "Captain Gumlarat's report", "entity name")
 section "mod-tome/data/zones/orc-breeding-pit/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Orc breeding pits", "Orc breeding pits", "_t")
 t("Orc Breeding Pit", "Orc Breeding Pit", "_t")
@@ -40685,7 +40826,7 @@ t("You arrive in a small underground structure. There are orcs there and as soon
 section "mod-tome/data/zones/paradox-plane/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Temporal Rift", "Temporal Rift", "entity name")
 t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
@@ -40696,7 +40837,7 @@ t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
 section "mod-tome/data/zones/paradox-plane/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
 t("temporal", "temporal", "entity subtype")
@@ -40709,7 +40850,7 @@ t("A huge being composed of sparking blue and yellow energy stands before you.  
 section "mod-tome/data/zones/paradox-plane/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Epoch's Curve", "Epoch's Curve", "entity name")
 t("white ash longbow", "white ash longbow", "_t")
@@ -40723,7 +40864,7 @@ According to legend it was made from the first ash sapling to sprout after the S
 section "mod-tome/data/zones/paradox-plane/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Paradox Plane", "Paradox Plane", "_t")
 --]==]
@@ -40733,7 +40874,7 @@ t("Paradox Plane", "Paradox Plane", "_t")
 section "mod-tome/data/zones/rak-shor-pride/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Rak'shor, Grand Necromancer of the Pride", "Rak'shor, Grand Necromancer of the Pride", "entity name")
 t("An old orc, wearing black robes. He commands his undead armies to destroy you.", "An old orc, wearing black robes. He commands his undead armies to destroy you.", "_t")
@@ -40756,7 +40897,7 @@ t("Intense Arcane energy whirls in the air around this ethereal form.", "Intense
 section "mod-tome/data/zones/rak-shor-pride/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("draft note", "draft note", "entity name")
 t("A note.", "A note.", "_t")
@@ -40767,7 +40908,7 @@ t("A note.", "A note.", "_t")
 section "mod-tome/data/zones/rak-shor-pride/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Rak'shor Pride", "Rak'shor Pride", "_t")
 --]==]
@@ -40777,7 +40918,7 @@ t("Rak'shor Pride", "Rak'shor Pride", "_t")
 section "mod-tome/data/zones/reknor/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Farportal: the Far East", "Farportal: the Far East", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
@@ -40794,7 +40935,7 @@ section "mod-tome/data/zones/reknor/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("demon", "démon", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
 t("Golbug the Destroyer", "Golbug the Destroyer", "entity name")
@@ -40819,7 +40960,7 @@ section "mod-tome/data/zones/reknor/objects.lua"
 
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Sealed Scroll of Last Hope", "Sealed Scroll of Last Hope", "entity name")
 t("open the seal and read the message", "open the seal and read the message", "_t")
@@ -40841,7 +40982,7 @@ t("Last words of a dwarven expedition to secure Reknor.", "Last words of a dwarv
 section "mod-tome/data/zones/reknor/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Lost Dwarven Kingdom of Reknor", "Lost Dwarven Kingdom of Reknor", "_t")
 --]==]
@@ -40851,7 +40992,7 @@ t("Lost Dwarven Kingdom of Reknor", "Lost Dwarven Kingdom of Reknor", "_t")
 section "mod-tome/data/zones/reknor-escape/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Iron Council (Dwarven empire main city)", "The Iron Council (Dwarven empire main city)", "entity name")
 --]==]
@@ -40861,7 +41002,7 @@ t("The Iron Council (Dwarven empire main city)", "The Iron Council (Dwarven empi
 section "mod-tome/data/zones/reknor-escape/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
 t("Brotoq the Reaver", "Brotoq the Reaver", "entity name")
@@ -40877,7 +41018,7 @@ t("Norgan and you are the sole survivors of the Reknor expedition; your duty is 
 section "mod-tome/data/zones/reknor-escape/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Fake Skullcleaver", "Fake Skullcleaver", "entity name")
 t("fake crimson waraxe", "fake crimson waraxe", "_t")
@@ -40889,7 +41030,7 @@ t("A small but sharp axe, with a handle made of polished bone.  The blade has ch
 section "mod-tome/data/zones/reknor-escape/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Escape from Reknor", "Escape from Reknor", "_t")
 --]==]
@@ -40899,7 +41040,7 @@ t("Escape from Reknor", "Escape from Reknor", "_t")
 section "mod-tome/data/zones/rhaloren-camp/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
 t("Rhaloren Inquisitor", "Rhaloren Inquisitor", "entity name")
@@ -40912,7 +41053,7 @@ t("and hung from the rafters", "and hung from the rafters", "_t")
 section "mod-tome/data/zones/rhaloren-camp/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("letter", "letter", "entity name")
 t("A letter.", "A letter.", "_t")
@@ -40924,7 +41065,7 @@ t("a carefully preserved letter", "a carefully preserved letter", "entity name")
 section "mod-tome/data/zones/rhaloren-camp/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Rhaloren Camp", "Rhaloren Camp", "_t")
 --]==]
@@ -40934,7 +41075,7 @@ t("Rhaloren Camp", "Rhaloren Camp", "_t")
 section "mod-tome/data/zones/ring-of-blood/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("lava pit", "lava pit", "entity name")
 t("Slave Control Orb", "Slave Control Orb", "entity name")
@@ -40945,7 +41086,7 @@ t("Slave Control Orb", "Slave Control Orb", "entity name")
 section "mod-tome/data/zones/ring-of-blood/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("yaech", "yaech", "entity subtype")
 t("Blood Master", "Blood Master", "entity name")
@@ -40976,7 +41117,7 @@ t("A slave.", "A slave.", "_t")
 section "mod-tome/data/zones/ring-of-blood/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Bloodcaller", "Bloodcaller", "entity name")
 t("You won the Ring of Blood trial, and this is your reward.", "You won the Ring of Blood trial, and this is your reward.", "_t")
@@ -40991,7 +41132,7 @@ Healing during current combat:  #GREEN#%0.2f#LAST#]], "tformat")
 section "mod-tome/data/zones/ring-of-blood/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ring of Blood", "Ring of Blood", "_t")
 t("Slavers Compound (%d)", "Slavers Compound (%d)", "tformat")
@@ -41002,7 +41143,7 @@ t("Slavers Compound (%d)", "Slavers Compound (%d)", "tformat")
 section "mod-tome/data/zones/ritch-tunnels/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("insect", "insect", "entity type")
 t("ritch", "ritch", "entity subtype")
@@ -41022,7 +41163,7 @@ t("This huge ritch seems to be the mother of all those here. Her sharp, fiery, c
 section "mod-tome/data/zones/ritch-tunnels/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ritches Tunnels", "Ritches Tunnels", "_t")
 --]==]
@@ -41032,7 +41173,7 @@ t("Ritches Tunnels", "Ritches Tunnels", "_t")
 section "mod-tome/data/zones/ruined-dungeon/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("inscription", "inscription", "entity name")
 t("way into the infinite dungeon", "way into the infinite dungeon", "entity name")
@@ -41065,7 +41206,7 @@ Do you touch it?", "_t")
 section "mod-tome/data/zones/ruined-dungeon/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ruined Dungeon", "Ruined Dungeon", "_t")
 t("#rng# the Guardian", "#rng# the Guardian", "_t")
@@ -41086,7 +41227,7 @@ section "mod-tome/data/zones/ruins-kor-pul/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("skeleton", "squelette", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("The Shade", "The Shade", "entity name")
 t("This skeleton looks nasty. There are red flames in its empty eye sockets. It wields a nasty sword and strides toward you, throwing spells.", "This skeleton looks nasty. There are red flames in its empty eye sockets. It wields a nasty sword and strides toward you, throwing spells.", "_t")
@@ -41105,7 +41246,7 @@ t("The Shade's colossal will keeps it anchored to this world, now as a vengeful,
 section "mod-tome/data/zones/ruins-kor-pul/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("journal page", "journal page", "entity name")
 t("A journal page, left by an adventurer.", "A journal page, left by an adventurer.", "_t")
@@ -41116,7 +41257,7 @@ t("A journal page, left by an adventurer.", "A journal page, left by an adventur
 section "mod-tome/data/zones/ruins-kor-pul/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ruins of Kor'Pul", "Ruins of Kor'Pul", "_t")
 --]==]
@@ -41126,7 +41267,7 @@ t("Ruins of Kor'Pul", "Ruins of Kor'Pul", "_t")
 section "mod-tome/data/zones/sandworm-lair/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("vermin", "vermin", "entity type")
 t("sandworm", "sandworm", "entity subtype")
@@ -41154,7 +41295,7 @@ t("The sandworms are gone, devoured by this shrieking, warped horror.", "The san
 section "mod-tome/data/zones/sandworm-lair/objects.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Song of the Sands", "Song of the Sands", "entity name")
 t("Some people get the weirdest ideas!", "Some people get the weirdest ideas!", "_t")
@@ -41192,7 +41333,7 @@ It is said it was made by the halflings during the Age of Pyre as a weapon again
 section "mod-tome/data/zones/sandworm-lair/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Sandworm lair", "Sandworm lair", "_t")
 t("#OLIVE_DRAB#You feel the ground shaking from the west.", "#OLIVE_DRAB#You feel the ground shaking from the west.", "log")
@@ -41203,7 +41344,7 @@ t("#OLIVE_DRAB#You feel the ground shaking from the west.", "#OLIVE_DRAB#You fee
 section "mod-tome/data/zones/scintillating-caves/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Spellblaze Crystal", "Spellblaze Crystal", "entity name")
 t("A formation of purple crystal. It seems strangely aware.", "A formation of purple crystal. It seems strangely aware.", "_t")
@@ -41218,7 +41359,7 @@ t("A formation of purple crystal, but where the others could only be described a
 section "mod-tome/data/zones/scintillating-caves/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("research log", "research log", "entity name")
 t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
@@ -41230,7 +41371,7 @@ t("exploration log", "exploration log", "entity name")
 section "mod-tome/data/zones/scintillating-caves/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Scintillating Caves", "Scintillating Caves", "_t")
 t("Caves...", "Caves...", "_t")
@@ -41242,7 +41383,7 @@ t("As you enter the caves you notice the magic here has distorted the land, maki
 section "mod-tome/data/zones/shadow-crypt/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("teleporting circle to the surface", "teleporting circle to the surface", "entity name")
 --]==]
@@ -41251,8 +41392,13 @@ t("teleporting circle to the surface", "teleporting circle to the surface", "ent
 ------------------------------------------------
 section "mod-tome/data/zones/shadow-crypt/npcs.lua"
 
-t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pourquoi le #sexe# est devenue soudainement mauvais", "_t")
--- untranslated text
+
+-- nouveau texte
+--[==[
+t("but nobody knew why they suddenly became evil", "but nobody knew why they suddenly became evil", "_t")
+--]==]
+
+-- texte non traduit
 --[==[
 t("Rak'Shor Cultist", "Rak'Shor Cultist", "entity name")
 t("An old orc, wearing black robes. He seems to be responsible for the creation of the shades.", "An old orc, wearing black robes. He seems to be responsible for the creation of the shades.", "_t")
@@ -41263,12 +41409,14 @@ t("FOR THE WAY! Die cultist!", "FOR THE WAY! Die cultist!", "_t")
 t("#PURPLE#The #Source# looks afraid, he did not plan on his creation turning against him!", "#PURPLE#The #Source# looks afraid, he did not plan on his creation turning against him!", "logCombat")
 --]==]
 
+-- ancien texte traduit
+t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pourquoi le #sexe# est devenue soudainement mauvais", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/shadow-crypt/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shadow Crypt", "Shadow Crypt", "_t")
 --]==]
@@ -41281,7 +41429,7 @@ t("Exploratory Farportal", "Portail lointain exploratoire", "entity name")
 t("Exploratory Farportal", "Portail lointain exploratoire", "_t")
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("%0.2f Energy Stored", "%0.2f Energy Stored", "tformat")
 t("stair back to the lake of Nur", "stair back to the lake of Nur", "entity name")
@@ -41322,7 +41470,7 @@ t("Mirror of Reflection", "Mirror of Reflection", "entity name")
 section "mod-tome/data/zones/shertul-fortress/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Weirdling Beast", "Weirdling Beast", "entity name")
 t("A roughly humanoid creature, with tentacle-like appendages in the place of arms and legs. You gasp in horror as you notice it has no head. Putrid warts form quickly on its skin and explode as quickly.", "A roughly humanoid creature, with tentacle-like appendages in the place of arms and legs. You gasp in horror as you notice it has no head. Putrid warts form quickly on its skin and explode as quickly.", "_t")
@@ -41345,7 +41493,7 @@ t("An orange kitty with a white star blaze on his chest. Has a strange affinity 
 section "mod-tome/data/zones/shertul-fortress/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("simple gown", "simple gown", "entity name")
 --]==]
@@ -41355,7 +41503,7 @@ t("simple gown", "simple gown", "entity name")
 section "mod-tome/data/zones/shertul-fortress/zone.lua"
 
 t("Yiilkgur, the Sher'Tul Fortress", "Yiilkgur, la Forteresse Sher'Tul", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("%s (Yiilkgur, the Sher'Tul Fortress)", "%s (Yiilkgur, the Sher'Tul Fortress)", "tformat")
 t("Yiilkgur", "Yiilkgur", "_t")
@@ -41373,7 +41521,7 @@ t("It seems the room has no more space to sort your %s.", "It seems the room has
 section "mod-tome/data/zones/shertul-fortress-caldizar/grids.lua"
 
 t("Exploratory Farportal", "Portail lointain exploratoire", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Sher'Tul Control Orb", "Sher'Tul Control Orb", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They were left behind by the powerful Sher'tul race.
@@ -41390,7 +41538,7 @@ t("The farportal seems to be inactive", "The farportal seems to be inactive", "_
 section "mod-tome/data/zones/shertul-fortress-caldizar/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Caldizar", "Caldizar", "entity name")
 t("A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "_t")
@@ -41401,7 +41549,7 @@ t("A creature stands before you, with long tentacle-like appendages and a squat 
 section "mod-tome/data/zones/shertul-fortress-caldizar/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Unknown Sher'Tul Fortress", "Unknown Sher'Tul Fortress", "_t")
 t("Unknown Sher'Tul Fortress (%s)", "Unknown Sher'Tul Fortress (%s)", "tformat")
@@ -41416,9 +41564,9 @@ section "mod-tome/data/zones/slazish-fen/grids.lua"
 t("wall", "mur", "entity type")
 t("water", "eau", "entity subtype")
 t("tree", "arbre", "entity name")
--- untranslated text
+t("bog water", "eau de tourbière", "entity name")
+-- texte non traduit
 --[==[
-t("bog water", "bog water", "entity name")
 t("coral portal", "coral portal", "entity name")
 t("#VIOLET#The portal is already broken!", "#VIOLET#The portal is already broken!", "log")
 t("destroying the portal", "destroying the portal", "_t")
@@ -41431,7 +41579,7 @@ t("#VIOLET#The portal starts to break down, run!", "#VIOLET#The portal starts to
 section "mod-tome/data/zones/slazish-fen/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("naga", "naga", "entity subtype")
 t("naga tidewarden", "naga tidewarden", "entity name")
@@ -41450,7 +41598,7 @@ t("and brought back to Vargh for experimentation", "and brought back to Vargh fo
 section "mod-tome/data/zones/slazish-fen/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("weird conch", "weird conch", "entity name")
 t("A conch; it seems the naga was using it as a communication tool.", "A conch; it seems the naga was using it as a communication tool.", "_t")
@@ -41464,7 +41612,7 @@ t("This set of robes seems to shine with metallic colors.", "This set of robes s
 section "mod-tome/data/zones/slazish-fen/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Slazish Fens", "Slazish Fens", "_t")
 --]==]
@@ -41474,7 +41622,7 @@ t("Slazish Fens", "Slazish Fens", "_t")
 section "mod-tome/data/zones/slime-tunnels/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Strange Pedestal", "Strange Pedestal", "_t")
 t("This pedestal looks old, you can see the shape of an orb carved on it.", "This pedestal looks old, you can see the shape of an orb carved on it.", "_t")
@@ -41504,7 +41652,7 @@ Enter?]], "_t")
 section "mod-tome/data/zones/slime-tunnels/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Slime Tunnels", "Slime Tunnels", "_t")
 --]==]
@@ -41514,7 +41662,7 @@ t("Slime Tunnels", "Slime Tunnels", "_t")
 section "mod-tome/data/zones/sludgenest/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Strange Pedestal", "Strange Pedestal", "_t")
 t("This pedestal looks old, you can see the shape of an orb carved on it.", "This pedestal looks old, you can see the shape of an orb carved on it.", "_t")
@@ -41543,7 +41691,7 @@ t("exit to Grushnak Pride", "exit to Grushnak Pride", "entity name")
 section "mod-tome/data/zones/sludgenest/npcs.lua"
 
 t("giant", "géant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("troll", "troll", "entity subtype")
 t("Corrupted Oozemancer", "Corrupted Oozemancer", "entity name")
@@ -41556,7 +41704,7 @@ t("and dissolved into acidic ooze", "and dissolved into acidic ooze", "_t")
 section "mod-tome/data/zones/sludgenest/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Sludgenest", "Sludgenest", "_t")
 t("It seems the slimes coming from the walls become stronger with time.", "It seems the slimes coming from the walls become stronger with time.", "_t")
@@ -41570,7 +41718,7 @@ section "mod-tome/data/zones/south-beach/grids.lua"
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("sand", "sand", "entity subtype")
 t("lovely umbrella", "lovely umbrella", "entity name")
@@ -41583,7 +41731,7 @@ t("You have not finished your romantic time at the beach.", "You have not finish
 section "mod-tome/data/zones/south-beach/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Melinda", "Melinda", "entity name")
 t("human", "human", "entity subtype")
@@ -41597,7 +41745,7 @@ t("#DARK_GREEN#As Melinda is about to die a powerful wave of blight emanates fro
 section "mod-tome/data/zones/south-beach/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("beach bikini", "beach bikini", "entity name")
 --]==]
@@ -41607,7 +41755,7 @@ t("beach bikini", "beach bikini", "entity name")
 section "mod-tome/data/zones/south-beach/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Southern Beach", "Southern Beach", "_t")
 t("Look over there!", "Look over there!", "_t")
@@ -41619,7 +41767,7 @@ t("#DARK_GREEN#Melinda begins to glow with an eerie aura!", "#DARK_GREEN#Melinda
 section "mod-tome/data/zones/stellar-system-shandral/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shandral (Sun)", "Shandral (Sun)", "entity name")
 t("The sun of the Shandral star system.", "The sun of the Shandral star system.", "_t")
@@ -41638,7 +41786,7 @@ t("Ponx (Gaz Planet)", "Ponx (Gaz Planet)", "entity name")
 section "mod-tome/data/zones/stellar-system-shandral/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Stellar System: Shandral", "Stellar System: Shandral", "_t")
 --]==]
@@ -41648,7 +41796,7 @@ t("Stellar System: Shandral", "Stellar System: Shandral", "_t")
 section "mod-tome/data/zones/tannen-tower/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Portal to Last Hope", "Portal to Last Hope", "entity name")
 t("This portal seems to be connected with Last Hope; you could probably use it to go back.", "This portal seems to be connected with Last Hope; you could probably use it to go back.", "_t")
@@ -41663,7 +41811,7 @@ t("Enter", "Enter", "_t")
 section "mod-tome/data/zones/tannen-tower/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Tannen", "Tannen", "entity name")
@@ -41683,7 +41831,7 @@ section "mod-tome/data/zones/tannen-tower/objects.lua"
 
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Resonating Diamond", "Resonating Diamond", "entity name")
 t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
@@ -41708,7 +41856,7 @@ t("A paper scrap, left by Tannen.", "A paper scrap, left by Tannen.", "_t")
 section "mod-tome/data/zones/tannen-tower/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Tannen's Tower", "Tannen's Tower", "_t")
 t("The portal brought you to what seems to be a cell in the basement of the tower. You must escape!", "The portal brought you to what seems to be a cell in the basement of the tower. You must escape!", "_t")
@@ -41720,7 +41868,7 @@ t("As you climb up the steps, you see Tannen standing with his drolem, reading a
 section "mod-tome/data/zones/telmur/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("ghost", "ghost", "entity subtype")
 t("The Shade of Telos", "The Shade of Telos", "entity name")
@@ -41735,7 +41883,7 @@ t("As the shade dissipates, you see no sign of the text entitled \"Inverted and 
 section "mod-tome/data/zones/telmur/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Telos's Staff (Bottom Half)", "Telos's Staff (Bottom Half)", "entity name")
 t("broken staff", "broken staff", "_t")
@@ -41747,7 +41895,7 @@ t("The bottom part of Telos' broken staff.", "The bottom part of Telos' broken s
 section "mod-tome/data/zones/telmur/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ruins of Telmur", "Ruins of Telmur", "_t")
 t("Telmur", "Telmur", "_t")
@@ -41759,7 +41907,7 @@ t("As you approach the tower you notice it is utterly destroyed, only the baseme
 section "mod-tome/data/zones/tempest-peak/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Urkis, the High Tempest", "Urkis, the High Tempest", "entity name")
@@ -41772,7 +41920,7 @@ t("and used in mad electrical reanimation experiments", "and used in mad electri
 section "mod-tome/data/zones/tempest-peak/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Tempest Peak", "Tempest Peak", "_t")
 --]==]
@@ -41782,7 +41930,7 @@ t("Tempest Peak", "Tempest Peak", "_t")
 section "mod-tome/data/zones/temple-of-creation/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("naga", "naga", "entity subtype")
 t("Slasul", "Slasul", "entity name")
@@ -41795,7 +41943,7 @@ t("and perverted into a monstrous aberration as a warning to the surface", "and 
 section "mod-tome/data/zones/temple-of-creation/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Eldritch Pearl", "Eldritch Pearl", "entity name")
 t("bright pearl", "bright pearl", "_t")
@@ -41818,7 +41966,7 @@ Slasul gave it to you as a sign of his faith in you. It is a sign of hope for al
 section "mod-tome/data/zones/temple-of-creation/zone.lua"
 
 t("Temple of Creation", "Temple de la création", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("#AQUAMARINE#You arrive deep under water, at the sea floor, as you look upwards you only see a glimpse of light coming through.", "#AQUAMARINE#You arrive deep under water, at the sea floor, as you look upwards you only see a glimpse of light coming through.", "logPlayer")
 t("#AQUAMARINE#You should be crushed by the pressure, but strangely you feel no discomfort.", "#AQUAMARINE#You should be crushed by the pressure, but strangely you feel no discomfort.", "logPlayer")
@@ -41830,7 +41978,7 @@ t("#AQUAMARINE#All around you there is only water as far as you can see, except 
 section "mod-tome/data/zones/temporal-reprieve-talent/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Temporal Reprieve", "Temporal Reprieve", "_t")
 --]==]
@@ -41840,7 +41988,7 @@ t("Temporal Reprieve", "Temporal Reprieve", "_t")
 section "mod-tome/data/zones/temporal-rift/grids.lua"
 
 t("Temporal Warden", "Gardien du temps", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Temporal Rift", "Temporal Rift", "entity name")
 t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
@@ -41851,7 +41999,7 @@ t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
 section "mod-tome/data/zones/temporal-rift/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("temporal", "temporal", "entity subtype")
 t("Ben Cruthdar, the Abomination", "Ben Cruthdar, the Abomination", "entity name")
@@ -41869,7 +42017,7 @@ t("Chronolith Clone", "Chronolith Clone", "entity name")
 section "mod-tome/data/zones/temporal-rift/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Rune of the Rift", "Rune of the Rift", "entity name")
 --]==]
@@ -41879,7 +42027,7 @@ t("Rune of the Rift", "Rune of the Rift", "entity name")
 section "mod-tome/data/zones/temporal-rift/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Temporal Rift", "Temporal Rift", "_t")
 t("Temporal Rift: Lumberjack village", "Temporal Rift: Lumberjack village", "_t")
@@ -41896,7 +42044,7 @@ t("The peace of this place has been disturbed.", "The peace of this place has be
 section "mod-tome/data/zones/test/mapscripts/rooms_test.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("!!! %d", "!!! %d", "log")
 --]==]
@@ -41906,7 +42054,7 @@ t("!!! %d", "!!! %d", "log")
 section "mod-tome/data/zones/test/mapscripts/rooms_test2.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("!!! %d + %d", "!!! %d + %d", "log")
 --]==]
@@ -41916,7 +42064,7 @@ t("!!! %d + %d", "!!! %d + %d", "log")
 section "mod-tome/data/zones/test/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("TestZone!", "TestZone!", "_t")
 --]==]
@@ -41926,7 +42074,7 @@ t("TestZone!", "TestZone!", "_t")
 section "mod-tome/data/zones/thieves-tunnels/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Assassin Lord", "Assassin Lord", "entity name")
@@ -41941,7 +42089,7 @@ t("Lost Merchant", "Lost Merchant", "entity name")
 section "mod-tome/data/zones/thieves-tunnels/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Unknown tunnels", "Unknown tunnels", "_t")
 --]==]
@@ -41951,7 +42099,7 @@ t("Unknown tunnels", "Unknown tunnels", "_t")
 section "mod-tome/data/zones/town-angolwen/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("cultivated fields", "cultivated fields", "entity name")
 t("cobblestone road", "cobblestone road", "entity name")
@@ -41964,7 +42112,7 @@ t("fountain", "fountain", "entity name")
 section "mod-tome/data/zones/town-angolwen/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Linaniil, Supreme Archmage of Angolwen", "Linaniil, Supreme Archmage of Angolwen", "entity name")
@@ -41992,7 +42140,7 @@ t("An archmage specializing in lightning magic.", "An archmage specializing in l
 section "mod-tome/data/zones/town-angolwen/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("lecture on humility", "lecture on humility", "entity subtype")
 t("Lecture on Humility by Archmage Linaniil", "Lecture on Humility by Archmage Linaniil", "entity name")
@@ -42008,7 +42156,7 @@ t("Rune of Dissipation", "Rune of Dissipation", "entity name")
 section "mod-tome/data/zones/town-angolwen/traps.lua"
 
 t("Alchemist", "Alchimiste", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shining Jewel", "Shining Jewel", "entity name")
 t("Library", "Library", "entity name")
@@ -42020,7 +42168,7 @@ t("Tools of the Art", "Tools of the Art", "entity name")
 section "mod-tome/data/zones/town-angolwen/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Angolwen", "Angolwen", "_t")
 --]==]
@@ -42030,7 +42178,7 @@ t("Angolwen", "Angolwen", "_t")
 section "mod-tome/data/zones/town-derth/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("cultivated fields", "cultivated fields", "entity name")
 t("cobblestone road", "cobblestone road", "entity name")
@@ -42041,7 +42189,7 @@ t("cobblestone road", "cobblestone road", "entity name")
 section "mod-tome/data/zones/town-derth/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Catch @himher@!", "Catch @himher@!", "_t")
@@ -42063,7 +42211,7 @@ t("Hey you. Come here.", "Hey you. Come here.", "_t")
 section "mod-tome/data/zones/town-derth/traps.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Armoury", "Armoury", "entity name")
 t("Tanner", "Tanner", "entity name")
@@ -42081,7 +42229,7 @@ t("Home of Stire the Alchemist", "Home of Stire the Alchemist", "entity name")
 section "mod-tome/data/zones/town-derth/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Derth", "Derth", "_t")
 --]==]
@@ -42092,7 +42240,7 @@ section "mod-tome/data/zones/town-elvala/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("giant", "géant", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
 t("Catch @himher@!", "Catch @himher@!", "_t")
@@ -42110,7 +42258,7 @@ t("A towering ogre guard, her skin covered in runes.", "A towering ogre guard, h
 section "mod-tome/data/zones/town-elvala/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("spellblaze", "spellblaze", "entity subtype")
 --]==]
@@ -42120,7 +42268,7 @@ t("spellblaze", "spellblaze", "entity subtype")
 section "mod-tome/data/zones/town-elvala/traps.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Tailor", "Tailor", "entity name")
 t("Tanner", "Tanner", "entity name")
@@ -42136,7 +42284,7 @@ t("Shady Library", "Shady Library", "entity name")
 section "mod-tome/data/zones/town-elvala/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Elvala", "Elvala", "_t")
 --]==]
@@ -42147,9 +42295,9 @@ section "mod-tome/data/zones/town-gates-of-morning/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
-t("grass", "herbe", "entity subtype")
 t("old road", "vieille route", "entity name")
--- untranslated text
+t("grass", "herbe", "entity subtype")
+-- texte non traduit
 --[==[
 t("Farportal: Last Hope", "Farportal: Last Hope", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
@@ -42167,7 +42315,7 @@ section "mod-tome/data/zones/town-gates-of-morning/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "A beautiful woman, clad in shining plate armour. Power radiates from her.", "_t")
@@ -42179,7 +42327,7 @@ t("You find a note containing the location of the Orc Prides on Aeryn's body.", 
 section "mod-tome/data/zones/town-gates-of-morning/traps.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Impenetrable Plates", "Impenetrable Plates", "entity name")
 t("Quality Leather", "Quality Leather", "entity name")
@@ -42200,7 +42348,7 @@ t("Zemekkys Home", "Zemekkys Home", "entity name")
 section "mod-tome/data/zones/town-gates-of-morning/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Gates of Morning", "Gates of Morning", "_t")
 --]==]
@@ -42210,7 +42358,7 @@ t("Gates of Morning", "Gates of Morning", "_t")
 section "mod-tome/data/zones/town-irkkk/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("cooking pit", "cooking pit", "entity name")
 --]==]
@@ -42220,7 +42368,7 @@ t("cooking pit", "cooking pit", "entity name")
 section "mod-tome/data/zones/town-irkkk/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("yeek", "yeek", "entity subtype")
 t("Catch @himher@!", "Catch @himher@!", "_t")
@@ -42247,7 +42395,7 @@ t("This yeek has all sorts of infusions to sell.", "This yeek has all sorts of i
 section "mod-tome/data/zones/town-irkkk/traps.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Tailor", "Tailor", "entity name")
 t("Tanner", "Tanner", "entity name")
@@ -42262,7 +42410,7 @@ t("Home of Marus the Alchemist", "Home of Marus the Alchemist", "entity name")
 section "mod-tome/data/zones/town-irkkk/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Irkkk", "Irkkk", "_t")
 --]==]
@@ -42274,7 +42422,7 @@ section "mod-tome/data/zones/town-iron-council/grids.lua"
 t("wall", "mur", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("crystals", "cristaux", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Escape route from Reknor", "Escape route from Reknor", "entity name")
 t("The Deep Bellow", "The Deep Bellow", "entity name")
@@ -42289,7 +42437,7 @@ t("Defender of the Empire", "Defender of the Empire", "entity name")
 section "mod-tome/data/zones/town-iron-council/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("dwarf", "dwarf", "entity subtype")
 t("Catch @himher@!", "Catch @himher@!", "_t")
@@ -42303,7 +42451,7 @@ t("dwarven earthwarden", "dwarven earthwarden", "entity name")
 section "mod-tome/data/zones/town-iron-council/traps.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Armoury", "Armoury", "entity name")
 t("Tanner", "Tanner", "entity name")
@@ -42321,7 +42469,7 @@ t("Delver's Delights", "Delver's Delights", "entity name")
 section "mod-tome/data/zones/town-iron-council/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Iron Council", "Iron Council", "_t")
 --]==]
@@ -42333,7 +42481,7 @@ section "mod-tome/data/zones/town-last-hope/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("old road", "vieille route", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Farportal: Gates of Morning", "Farportal: Gates of Morning", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
@@ -42347,7 +42495,7 @@ t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot
 section "mod-tome/data/zones/town-last-hope/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Catch @himher@!", "Catch @himher@!", "_t")
@@ -42367,7 +42515,7 @@ t("A clean-looking Halfling resident of Last Hope.", "A clean-looking Halfling r
 section "mod-tome/data/zones/town-last-hope/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("last hope foundation", "last hope foundation", "entity subtype")
 t("The Diaries of King Toknor the Brave (%d)", "The Diaries of King Toknor the Brave (%d)", "tformat")
@@ -42388,7 +42536,7 @@ t("Thoughts about the impossibility of sea travel.", "Thoughts about the impossi
 section "mod-tome/data/zones/town-last-hope/traps.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Hormond & Son Plates", "Hormond & Son Plates", "entity name")
 t("Rila's Leather", "Rila's Leather", "entity name")
@@ -42413,7 +42561,7 @@ t("Urthol's Wondrous Emporium", "Urthol's Wondrous Emporium", "entity name")
 section "mod-tome/data/zones/town-last-hope/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Last Hope", "Last Hope", "_t")
 --]==]
@@ -42423,7 +42571,7 @@ t("Last Hope", "Last Hope", "_t")
 section "mod-tome/data/zones/town-lumberjack-village/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Ben Cruthdar, the Cursed", "Ben Cruthdar, the Cursed", "entity name")
@@ -42439,7 +42587,7 @@ t("A lumberjack. Cutting wood is his job, dream and passion.", "A lumberjack. Cu
 section "mod-tome/data/zones/town-lumberjack-village/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Small lumberjack village", "Small lumberjack village", "_t")
 t("Screams", "Screams", "_t")
@@ -42452,7 +42600,7 @@ section "mod-tome/data/zones/town-point-zero/grids.lua"
 
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Temporal Rift to Maj'Eyal", "Temporal Rift to Maj'Eyal", "entity name")
 t("The rift leads to Maj'Eyal.", "The rift leads to Maj'Eyal.", "_t")
@@ -42466,7 +42614,7 @@ t("polar cap", "polar cap", "entity name")
 section "mod-tome/data/zones/town-point-zero/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Catch @himher@!", "Catch @himher@!", "_t")
@@ -42490,7 +42638,7 @@ t("A huge, slender, metallic monstrosity with long claws in place of fingers, an
 section "mod-tome/data/zones/town-point-zero/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shard of Crystalized Time", "Shard of Crystalized Time", "entity name")
 t("An iridescent shard of violet crystal.  Its light ebbs and flows, sometimes fast and sometimes slow, keeping pace with the chaotic streams of time itself.  It makes you feel both old and young, a newborn child and an ancient being, your flesh simply one instance in a thousand refractions of a single timeless and eternal soul.", "An iridescent shard of violet crystal.  Its light ebbs and flows, sometimes fast and sometimes slow, keeping pace with the chaotic streams of time itself.  It makes you feel both old and young, a newborn child and an ancient being, your flesh simply one instance in a thousand refractions of a single timeless and eternal soul.", "_t")
@@ -42502,7 +42650,7 @@ t("glowing shard", "glowing shard", "_t")
 section "mod-tome/data/zones/town-point-zero/traps.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Tailor", "Tailor", "entity name")
 t("Tanner", "Tanner", "entity name")
@@ -42519,7 +42667,7 @@ t("Jewelry", "Jewelry", "entity name")
 section "mod-tome/data/zones/town-point-zero/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Point Zero", "Point Zero", "_t")
 t("temporal beam endpoint", "temporal beam endpoint", "_t")
@@ -42530,7 +42678,7 @@ t("temporal beam endpoint", "temporal beam endpoint", "_t")
 section "mod-tome/data/zones/town-shatur/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("cobblestone road", "cobblestone road", "entity name")
 --]==]
@@ -42540,7 +42688,7 @@ t("cobblestone road", "cobblestone road", "entity name")
 section "mod-tome/data/zones/town-shatur/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("thalore", "thalore", "entity subtype")
 t("Catch @himher@!", "Catch @himher@!", "_t")
@@ -42555,7 +42703,7 @@ t("A tall elf, his skin covered in green moss.", "A tall elf, his skin covered i
 section "mod-tome/data/zones/town-shatur/traps.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Armoury", "Armoury", "entity name")
 t("Tanner", "Tanner", "entity name")
@@ -42571,7 +42719,7 @@ t("Night's Star", "Night's Star", "entity name")
 section "mod-tome/data/zones/town-shatur/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Shatur", "Shatur", "_t")
 --]==]
@@ -42582,7 +42730,7 @@ section "mod-tome/data/zones/town-zigur/grids.lua"
 
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Zigur Postsign", "Zigur Postsign", "entity name")
 t("The laws of the Ziguranth", "The laws of the Ziguranth", "_t")
@@ -42599,7 +42747,7 @@ t("open gate", "open gate", "entity name")
 section "mod-tome/data/zones/town-zigur/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Grand Corruptor", "Grand Corruptor", "entity name")
 t("An Elven corruptor, drawn to these blighted lands.", "An Elven corruptor, drawn to these blighted lands.", "_t")
@@ -42613,7 +42761,7 @@ t("A Halfling Ziguranth, clad in dark steel plates. She is the current leader of
 section "mod-tome/data/zones/town-zigur/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("the great evil", "the great evil", "entity subtype")
 t("The Great Evil", "The Great Evil", "entity name")
@@ -42625,7 +42773,7 @@ t("History of the horrors of magic.", "History of the horrors of magic.", "_t")
 section "mod-tome/data/zones/town-zigur/traps.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Horman's Plates", "Horman's Plates", "entity name")
 t("Infused Leather", "Infused Leather", "entity name")
@@ -42645,7 +42793,7 @@ t("Nature's Emporium", "Nature's Emporium", "entity name")
 section "mod-tome/data/zones/town-zigur/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Zigur", "Zigur", "_t")
 --]==]
@@ -42654,21 +42802,20 @@ t("Zigur", "Zigur", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/trollmire/grids.lua"
 
+t("dirt road", "route boueuse", "entity name")
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
+t("troll stew", "ragoût de troll", "entity name")
 t("water", "eau", "entity subtype")
 t("tree", "arbre", "entity name")
-t("dirt road", "route boueuse", "entity name")
-t("troll stew", "ragoût de troll", "entity name")
 t("bog water", "eau de tourbière", "entity name")
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/trollmire/npcs.lua"
 
 t("giant", "géant", "entity type")
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("troll", "troll", "entity subtype")
 t("Prox the Mighty", "Prox the Mighty", "entity name")
@@ -42696,7 +42843,7 @@ t("His once-shining armour now dull and bloodstained, this Sun Paladin has given
 section "mod-tome/data/zones/trollmire/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("tattered paper scrap", "tattered paper scrap", "entity name")
 t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
@@ -42707,7 +42854,7 @@ t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer
 section "mod-tome/data/zones/trollmire/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Trollmire", "Trollmire", "_t")
 --]==]
@@ -42718,7 +42865,7 @@ section "mod-tome/data/zones/tutorial/npcs.lua"
 
 t("skeleton mage", "mage squelette", "entity name")
 t("Tutorial: Finish", "Tutoriel: Terminé", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("half-dead forest troll", "half-dead forest troll", "entity name")
 t([[Green-skinned and ugly, this massive humanoid glares at you, clenching wart-covered green fists.
@@ -42732,7 +42879,6 @@ t("It is a large wolf with eyes full of cunning, only 3 times bigger than a norm
 ------------------------------------------------
 section "mod-tome/data/zones/tutorial/traps.lua"
 
-
 t("tutorial", "tutoriel", "entity type")
 t("tutorial", "tutoriel", "entity subtype")
 t("tutorial", "tutoriel", "_t")
@@ -42741,13 +42887,16 @@ t("Tutorial: %s", "Tutoriel: %s", "tformat")
 t("Movement", "Mouvement", "entity name")
 t("Melee Combat", "Combat de mélée", "entity name")
 t("Objects", "Objets", "entity name")
-t("Talents", "Talents", "entity name")
 t("Experience and Levels", "Expérience et Niveaux", "entity name")
 t("Different terrains", "Les différents terrains", "entity name")
 t("Basic tactic: Do not get surrounded", "Tactique basique: Ne pas se laisser encercler", "entity name")
 t("Basic tactic: Take cover", "Tactique basique: Se mettre à couvert", "entity name")
 t("Ranged Combat", "Combat à distance", "entity name")
 t("Quests", "Quêtes", "entity name")
+-- texte non traduit
+--[==[
+t("Talents", "Talents", "entity name")
+--]==]
 
 
 ------------------------------------------------
@@ -42763,7 +42912,7 @@ t("grass", "herbe", "entity subtype")
 t("grass", "herbe", "entity name")
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Lobby Portal", "Lobby Portal", "entity name")
 t("This portal will bring you back to the Tutorial Lobby.", "This portal will bring you back to the Tutorial Lobby.", "_t")
@@ -42810,7 +42959,7 @@ section "mod-tome/data/zones/tutorial-combat-stats/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("skeleton mage", "mage squelette", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Nain the Guide", "Nain the Guide", "entity name")
@@ -42858,7 +43007,7 @@ t("Keen-eyed orc", "Keen-eyed orc", "entity name")
 section "mod-tome/data/zones/tutorial-combat-stats/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Boots of Physical Save (+10)", "Boots of Physical Save (+10)", "entity name")
 t("Dried-up old boots.", "Dried-up old boots.", "_t")
@@ -42878,29 +43027,28 @@ t("A ruby-studded ring.", "A ruby-studded ring.", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/tutorial-combat-stats/traps.lua"
 
-
--- untranslated text
+t("tutorial", "tutoriel", "entity type")
+t("tutorial", "tutoriel", "entity subtype")
+t("tutorial", "tutoriel", "_t")
+t("A tutorial", "Un tutoriel", "_t")
+t("Tutorial: %s", "Tutoriel: %s", "tformat")
+t("Movement", "Mouvement", "entity name")
+t("Melee Combat", "Combat de mélée", "entity name")
+t("Objects", "Objets", "entity name")
+t("Experience and Levels", "Expérience et Niveaux", "entity name")
+t("Different terrains", "Les différents terrains", "entity name")
+t("Basic tactic: Do not get surrounded", "Tactique basique: Ne pas se laisser encercler", "entity name")
+t("Basic tactic: Take cover", "Tactique basique: Se mettre à couvert", "entity name")
+t("Ranged Combat", "Combat à distance", "entity name")
+t("Quests", "Quêtes", "entity name")
+-- texte non traduit
 --[==[
-t("tutorial", "tutorial", "entity type")
-t("tutorial", "tutorial", "entity subtype")
-t("tutorial", "tutorial", "_t")
-t("A tutorial", "A tutorial", "_t")
-t("Tutorial: %s", "Tutorial: %s", "tformat")
 t("tutorial2", "tutorial2", "entity subtype")
 t("tutorial3", "tutorial3", "entity subtype")
 t("tutorial4", "tutorial4", "entity subtype")
 t("tutorial5", "tutorial5", "entity subtype")
 t("tutorial6", "tutorial6", "entity subtype")
-t("Movement", "Movement", "entity name")
-t("Melee Combat", "Melee Combat", "entity name")
-t("Objects", "Objects", "entity name")
 t("Talents", "Talents", "entity name")
-t("Experience and Levels", "Experience and Levels", "entity name")
-t("Different terrains", "Different terrains", "entity name")
-t("Basic tactic: Do not get surrounded", "Basic tactic: Do not get surrounded", "entity name")
-t("Basic tactic: Take cover", "Basic tactic: Take cover", "entity name")
-t("Ranged Combat", "Ranged Combat", "entity name")
-t("Quests", "Quests", "entity name")
 t("Mechanics tutorial", "Mechanics tutorial", "entity name")
 t("Mechanics Tutorial", "Mechanics Tutorial", "entity name")
 t("Combat Stats", "Combat Stats", "entity name")
@@ -42922,7 +43070,7 @@ t("Tutorial", "Tutoriel", "_t")
 section "mod-tome/data/zones/unhallowed-morass/grids.lua"
 
 t("wall", "mur", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Temporal Rift", "Temporal Rift", "entity name")
 t("The rift leads to another part of the morass.", "The rift leads to another part of the morass.", "_t")
@@ -42939,7 +43087,7 @@ t("crack in spacetime", "crack in spacetime", "entity name")
 section "mod-tome/data/zones/unhallowed-morass/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("spiderkin", "spiderkin", "entity type")
 t("spider", "spider", "entity subtype")
@@ -42964,7 +43112,7 @@ t("As you vanquish the queen you notice a temporal thread that seems to have bee
 section "mod-tome/data/zones/unhallowed-morass/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Void Star", "Void Star", "entity name")
 t("tiny black star", "tiny black star", "_t")
@@ -42976,7 +43124,7 @@ t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", 
 section "mod-tome/data/zones/unhallowed-morass/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Unhallowed Morass", "Unhallowed Morass", "_t")
 --]==]
@@ -42986,7 +43134,7 @@ t("Unhallowed Morass", "Unhallowed Morass", "_t")
 section "mod-tome/data/zones/unremarkable-cave/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("elf", "elf", "entity subtype")
 t("Fillarel Aldaren", "Fillarel Aldaren", "entity name")
@@ -43001,7 +43149,7 @@ t("An orc clad in mail armour, he wields a staff and looks menacing.", "An orc c
 section "mod-tome/data/zones/unremarkable-cave/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Unremarkable Cave", "Unremarkable Cave", "_t")
 --]==]
@@ -43012,7 +43160,7 @@ section "mod-tome/data/zones/valley-moon/grids.lua"
 
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("moonstone", "moonstone", "entity name")
 t("Fearscape Portal", "Fearscape Portal", "entity name")
@@ -43025,7 +43173,7 @@ section "mod-tome/data/zones/valley-moon/npcs.lua"
 
 t("demon", "démon", "entity type")
 t("humanoid", "humanoïde", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("major", "major", "entity subtype")
 t("Corrupted Daelach", "Corrupted Daelach", "entity name")
@@ -43041,7 +43189,7 @@ t("#VIOLET#Limmir is attacked! Defend him!", "#VIOLET#Limmir is attacked! Defend
 section "mod-tome/data/zones/valley-moon/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Ithilthum, Valley of the Moon", "Ithilthum, Valley of the Moon", "_t")
 --]==]
@@ -43051,7 +43199,7 @@ t("Ithilthum, Valley of the Moon", "Ithilthum, Valley of the Moon", "_t")
 section "mod-tome/data/zones/valley-moon-caverns/grids.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("exit to the lost valley", "exit to the lost valley", "entity name")
 --]==]
@@ -43061,7 +43209,7 @@ t("exit to the lost valley", "exit to the lost valley", "entity name")
 section "mod-tome/data/zones/valley-moon-caverns/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("tattered paper scrap", "tattered paper scrap", "entity name")
 t("A paper scrap, left by somebody named Rassir.", "A paper scrap, left by somebody named Rassir.", "_t")
@@ -43072,7 +43220,7 @@ t("A paper scrap, left by somebody named Rassir.", "A paper scrap, left by someb
 section "mod-tome/data/zones/valley-moon-caverns/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Caverns to the hidden valley", "Caverns to the hidden valley", "_t")
 --]==]
@@ -43082,7 +43230,7 @@ t("Caverns to the hidden valley", "Caverns to the hidden valley", "_t")
 section "mod-tome/data/zones/void/grids.lua"
 
 t("Temporal Warden", "Gardien du temps", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Temporal Rift", "Temporal Rift", "entity name")
 t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
@@ -43093,7 +43241,7 @@ t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
 section "mod-tome/data/zones/void/npcs.lua"
 
 t("god", "dieu", "entity type")
--- untranslated text
+-- texte non traduit
 --[==[
 t("eyal", "eyal", "entity subtype")
 t("Gerlyk, the Creator", "Gerlyk, the Creator", "entity name")
@@ -43111,7 +43259,7 @@ Now you have come to finish what the Sher'tul began. Become a Godslayer yourself
 section "mod-tome/data/zones/void/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Void between worlds", "Void between worlds", "_t")
 --]==]
@@ -43121,7 +43269,7 @@ t("Void between worlds", "Void between worlds", "_t")
 section "mod-tome/data/zones/vor-armoury/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Warmaster Gnarg", "Warmaster Gnarg", "entity name")
 t("This ugly orc looks really nasty and vicious. He wields a huge two-handed sword and means to use it.", "This ugly orc looks really nasty and vicious. He wields a huge two-handed sword and means to use it.", "_t")
@@ -43134,7 +43282,7 @@ section "mod-tome/data/zones/vor-armoury/objects.lua"
 
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Blood-Runed Athame", "Blood-Runed Athame", "entity name")
 t("athame", "athame", "_t")
@@ -43146,7 +43294,7 @@ t("An athame, covered in blood runes. It radiates power.", "An athame, covered i
 section "mod-tome/data/zones/vor-armoury/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Vor Armoury", "Vor Armoury", "_t")
 --]==]
@@ -43157,7 +43305,7 @@ section "mod-tome/data/zones/vor-pride/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
--- untranslated text
+-- texte non traduit
 --[==[
 t("book", "book", "entity name")
 t("reading candle", "reading candle", "entity name")
@@ -43168,7 +43316,7 @@ t("reading candle", "reading candle", "entity name")
 section "mod-tome/data/zones/vor-pride/npcs.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Vor, Grand Geomancer of the Pride", "Vor, Grand Geomancer of the Pride", "entity name")
 t("An old orc, wearing multi-colored robes. Ice shards fly around him, leaving a trail of fire and lightning bursts.", "An old orc, wearing multi-colored robes. Ice shards fly around him, leaving a trail of fire and lightning bursts.", "_t")
@@ -43180,7 +43328,7 @@ t("and used as target practice for initiate mages", "and used as target practice
 section "mod-tome/data/zones/vor-pride/objects.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("tome", "tome", "entity subtype")
 t("Tome of Wildfire", "Tome of Wildfire", "entity name")
@@ -43205,7 +43353,7 @@ t("Part of the long history of the Orc race.", "Part of the long history of the 
 section "mod-tome/data/zones/vor-pride/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Vor Pride", "Vor Pride", "_t")
 --]==]
@@ -43219,7 +43367,7 @@ t("grass", "herbe", "entity subtype")
 t("wall", "mur", "entity type")
 t("water", "eau", "entity subtype")
 t("deep water", "eau profonde", "entity name")
--- untranslated text
+-- texte non traduit
 --[==[
 t("plains", "plains", "entity name")
 t("cultivated fields", "cultivated fields", "entity name")
@@ -43318,7 +43466,7 @@ t("The arid wastes of Erúan", "The arid wastes of Erúan", "entity name")
 section "mod-tome/data/zones/wilderness/zone.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("World of Eyal", "World of Eyal", "_t")
 t("Eyal", "Eyal", "_t")
@@ -43328,7 +43476,7 @@ t("Eyal", "Eyal", "_t")
 ------------------------------------------------
 section "mod-tome/mod/ai/escort.lua"
 
-t("Help!", "Au Secours!", "_t")
+t("Help!", "Au Secours !", "_t")
 t(" %s to the %s!", " un(e) %s %s!", "tformat")
 t("Something", "Quelque chose", "_t")
 
@@ -43344,7 +43492,7 @@ t("__[%d]%s #ORANGE# ACTION FAILED:  %s, FT:%s", "__[%d]%s #ORANGE# ACTION ECHOU
 t("__[%d]%s #SLATE# tactical AI: NO ACTION, best: %s, %s", "__[%d]%s #SLATE# IA tactique: AUCUNE ACTION, battre: %s, %s", "log")
 t("%s__turn %d: Invoking improved tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: Invoquer l'amélioration de l'IA tactique pour [%s]%s(%d,%d) cible:[%s]%s %s", "log")
 t("#ROYAL_BLUE#---talents disabled---", "#ROYAL_BLUE#---talents désactivé---", "log")
--- untranslated text
+-- texte non traduit
 --[==[
 t("#GREY#%3d: %-40s score=%-+4.2f[Lx%-5.2f Sx%5.2f Mx%0.2f] (%s)", "#GREY#%3d: %-40s score=%-+4.2f[Lx%-5.2f Sx%5.2f Mx%0.2f] (%s)", "log")
 --]==]
@@ -43433,6 +43581,9 @@ t("\
 Vim:  %s%d / %d#LAST#", "\
 Vigueur:  %s%d / %d#LAST#", "tformat")
 t("\
+Positive:  %s%d / %d#LAST#", "\
+Positif:  %s%d / %d#LAST#", "tformat")
+t("\
 Negative:  %s%d / %d#LAST#", "\
 Négative:  %s%d / %d#LAST#", "tformat")
 t("Iceblock: %d", "Bloc de glace: %d", "tformat")
@@ -43467,12 +43618,13 @@ t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
 t("%s unleashes the stored damage in retribution!", "%s libère les dégâts stockés en rétribution!", "logSeen")
 t("#DARK_GREEN##Source# shares damage with %s oozes!", "#DARK_GREEN##Source# partage les dommages avec %s limons!", "delayedLogMessage")
 t("#CRIMSON##Source# teleports some damage to #Target#!", "#CRIMSON##Source# téléporte des dégâts à #Target#!", "delayedLogMessage")
+t("#CRIMSON#(%d teleported)#LAST#", "#CRIMSON#(%d teleporté)#LAST#", "tformat")
 t("#CRIMSON#%d teleported#LAST#", "#CRIMSON#%d s'est téléporté#LAST#", "tformat")
 t("#STEEL_BLUE#(%d to time)#LAST#", "#STEEL_BLUE#(%d à temps)#LAST#", "tformat")
 t("Your time shield crumbles under the damage!", "Votre bouclier temporel s'effondre sous les dégâts!", "logPlayer")
 t("#SLATE#%d reflected#LAST#", "#SLATE#%d reflété#LAST#", "tformat")
 t("#CRIMSON##Source# reflects damage back to #Target#!#LAST#", "#CRIMSON##Source# reflète les dommages sur #Target#!#LAST#", "delayedLogMessage")
-t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts!", "logPlayer")
+t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts !", "logPlayer")
 t("#CRIMSON##Source# shares some damage with a shadow!", "#CRIMSON##Source# partage quelques dégâts avec une ombre!", "delayedLogMessage")
 t("#PINK#(%d linked)#LAST#", "#PINK#(%d lié)#LAST#", "tformat")
 t("#PINK#%d linked#LAST#", "#PINK#%d lié#LAST#", "tformat")
@@ -43586,9 +43738,11 @@ t("Feedback cost: ", "Coût de Rétroaction: ", "_t")
 t("Fortress Energy cost: ", "Coût d'Energie de Forteresse: ", "_t")
 t("Sustain feedback cost: ", "Coût de rétroaction soutenu: ", "_t")
 t("cost", "coût", "_t")
+t("gain", "gagne", "_t")
 t("Sustain %s cost: ", "Coût %s soutenu: ", "tformat")
 t("Generates", "Produits", "_t")
 t("Removes", "Supprime", "_t")
+t("Drains", "Vole", "_t")
 t("Replenishes", "Remplis", "_t")
 t("Range: ", "Portée: ", "_t")
 t("melee/personal", "melée/personel", "_t")
@@ -43665,6 +43819,8 @@ t("This tinker can not be applied to this item.", "Cette bricolle ne peut pas ê
 t("You already have a tinker on this item.", "Vous avez dèjà une bricolle sur cet objet.", "logPlayer")
 t("You attach %s to your %s.", "Vous attachez %s à votre %s.", "logPlayer")
 t("You fail to attach %s to %s.", "Vous n'arrivez pas à attacher %s à %s.", "logPlayer")
+-- texte non traduit
+--[==[
 t("normal", "normal", "_t")
 t("rare", "rare", "_t")
 t("unique", "unique", "_t")
@@ -43674,20 +43830,15 @@ t("INVULNERABLE!", "INVULNERABLE!", "_t")
 t("\
 Mana:  %s%d / %d#LAST#", "\
 Mana:  %s%d / %d#LAST#", "tformat")
-t("\
-Positive:  %s%d / %d#LAST#", "\
-Positif:  %s%d / %d#LAST#", "tformat")
 t(" (%d%%)", " (%d%%)", "tformat")
 t("#LIGHT_BLUE#Psi :#LAST#%s", "#LIGHT_BLUE#Psi :#LAST#%s", "tformat")
 t("Classes: ", "Classes: ", "_t")
 t("Faction: ", "Faction: ", "_t")
-t("#CRIMSON#(%d teleported)#LAST#", "#CRIMSON#(%d teleporté)#LAST#", "tformat")
 t("%s%d %s#LAST#", "%s%d %s#LAST#", "tformat")
 t("%s %s #{bold}##ORANGE#%s#LAST#.#{normal}#", "%s %s #{bold}##ORANGE#%s#LAST#.#{normal}#", "logSeen")
 t("%s %s: ", "%s %s: ", "tformat")
-t("gain", "gagne", "_t")
-t("Drains", "Vole", "_t")
 t("Description: ", "Description: ", "_t")
+--]==]
 
 
 ------------------------------------------------
@@ -43704,11 +43855,6 @@ t("%s, the lone alchemist", "%s, l'alchimist solitaire", "_t")
 t("%s, the lost sun paladin", "%s, le paladin solaire perdu", "_t")
 t("%s, the lost defiler", "%s, le profanateur perdu", "_t")
 t("temporal portal", "portail temporel", "_t")
-t([[Oh but you are ... are you ?! ME?!
-So I was right, this is not my original time-thread!
-Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh mais vous êtes ... êtes-vous?! MOI?!
-Donc j'avais raison, ce n'est pas mon temps originel!
-S'il vous plaît, aidez-moi! J'ai peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail temporel par ici, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider? Voulez-vous vous aider... vous-même?]], "_t")
 t("%s, temporal explorer", "%s, explorateur temporel", "_t")
 t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "Elle a l'air blessé et fatigué. Elle vous ressemble tellement et pourtant elle est complètement différente. Bizarre.", "_t")
 t("%s, the worried loremaster", "%s, le Chroniqueur soucieux", "_t")
@@ -43717,19 +43863,24 @@ t("spell", "sort", "_t")
 t("physical", "physique", "_t")
 t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense:", "_t")
 t("improved %s by +%d", "amélioré la %s de +%d", "tformat")
-t("[Improve %s by +%d]", "[Améliorer la %s de +%d]", "tformat")
+t("[Improve %s by +%d]", "[Améliore %s par +%d]", "tformat")
 t("improved %s save by +%d", "amélioré la sauvegarde %s de +%d", "tformat")
 t("[Improve %s save by +%d]", "[Améliorer la sauvegarde %s de +%d]", "tformat")
 t("%s talent %s (+%d level(s))", "%s le talent %s (+%d niveau(x))", "tformat")
 t("improved", "amélioré", "_t")
 t("learnt", "appris", "_t")
-t("[%s talent %s (+%d level(s))]", "[%s le talent %s (+%d niveau(x))]", "tformat")
-t("Improve", "Améliorer", "_t")
+t("[%s talent %s (+%d level(s))]", "[%s le talent %s (+%d niveau(s))]", "tformat")
+t("Improve", "Améliore", "_t")
 t("Learn", "Apprendre", "_t")
 t("gained talent category %s (at mastery %0.2f)", "a gagné la catégorie de talent %s (au niveau %0.2f de maîtrise)", "tformat")
-t("[Allow training of talent category %s (at mastery %0.2f)]", "[Autoriser l'apprentissage de la catégorie de talents %s (au niveau %0.2f de maîtrise)]", "tformat")
--- untranslated text
+t("[Allow training of talent category %s (at mastery %0.2f)]", "[Autoriser l'apprentissage de la catégorie de talents %s (à la maîtrise %0.2f)]", "tformat")
+-- texte non traduit
 --[==[
+t([[Oh but you are ... are you ?! ME?!
+		So I was right, this is not my original time-thread!
+		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh but you are ... are you ?! ME?!
+		So I was right, this is not my original time-thread!
+		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], "_t")
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
@@ -43738,6 +43889,12 @@ t([[#GOLD#%s / %s#LAST#
 %s]], "tformat")
 --]==]
 
+-- ancien texte traduit
+t([[Oh but you are ... are you ?! ME?!
+So I was right, this is not my original time-thread!
+Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh mais vous êtes ... êtes-vous?! MOI?!
+Donc j'avais raison, ce n'est pas mon temps originel!
+S'il vous plaît, aidez-moi! J'ai peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail temporel par ici, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider? Voulez-vous vous aider... vous-même?]], "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/FortressPC.lua"
@@ -43842,7 +43999,12 @@ t("Save and exit game?", "Sauvegarder et quitter le jeu?", "_t")
 t("saving", "sauvegarde", "_t")
 t("Saving game...", "Sauvegarde du jeu...", "log")
 t("#ANTIQUE_WHITE#Splash screen unlocked: #GOLD#%s", "#ANTIQUE_WHITE#Splash screen débloqué: #GOLD#%s", "log")
--- untranslated text
+-- nouveau texte
+--[==[
+t("Imperium courrier", "Imperium courrier", "_t")
+--]==]
+
+-- texte non traduit
 --[==[
 t("#TEAL#%s", "#TEAL#%s", "log")
 t("%s", "%s", "log")
@@ -43899,7 +44061,6 @@ t("Mirror Match", "Match miroir", "_t")
 t("Find, challenge, and kill your mirror clone on the level.", "Trouvez, défiez et tuez votre clone dans ce niveau.", "_t")
 t("An evil twin of %s%s", "Un double maléfique de %s%s", "tformat")
 t("Mirror Challenge of %s", "Le défie du miroir de %s", "tformat")
-t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pourquoi le #sexe# est devenue soudainement mauvais", "_t")
 t("#ORCHID#%s does not recognize you.", "#ORCHID#%s ne vous reconnaît pas.", "logPlayer")
 t("Challenge: #PURPLE#Mirror Match", "Défi: #PURPLE#Match Miroir", "_t")
 t("Challenge your mirror clone and triumph!", "Défiez votre clone et triomphez!", "_t")
@@ -43935,13 +44096,20 @@ t("Rewards", "Récompenses", "_t")
 t("Reward", "Récompense", "_t")
 t("#LIGHT_BLUE#%s has received: %s.", "#LIGHT_BLUE#%s a reçu: %s.", "log")
 t("You have unlocked a new talent: %s!", "Vous avez débloqué un nouveau talent: %s!", "tformat")
--- untranslated text
+-- nouveau texte
+--[==[
+t("but nobody knew why they suddenly became evil", "but nobody knew why they suddenly became evil", "_t")
+--]==]
+
+-- texte non traduit
 --[==[
 t("%s '%s'", "%s '%s'", "tformat")
 t("#OLIVE_DRAB#%s: %s", "#OLIVE_DRAB#%s: %s", "tformat")
 t("#LIGHT_GREEN#%s", "#LIGHT_GREEN#%s", "logPlayer")
 --]==]
 
+-- ancien texte traduit
+t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pourquoi le #sexe# est devenue soudainement mauvais", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Grid.lua"
@@ -43961,7 +44129,7 @@ t("Special breathing method required", "Méthode de respiration spéciale requis
 t("Diggable", "Destructible", "_t")
 t("Cannot teleport to this place", "Impossible de se téléporter à cet endroit", "_t")
 t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#Vous entendez un mécanisme cliquant.", "log")
--- untranslated text
+-- texte non traduit
 --[==[
 t("%s", "%s", "logSeen")
 t("Coords: ", "Coords: ", "_t")
@@ -43988,7 +44156,7 @@ t("none", "aucun", "_t")
 t(" looking %s", " regardé %s", "tformat")
 t(" looking at you.", " vous regarde.", "_t")
 t("%s says: '%s'", "%s dit: '%s'", "logSeen")
--- untranslated text
+-- texte non traduit
 --[==[
 t("UID: ", "UID: ", "_t")
 --]==]
@@ -44027,6 +44195,7 @@ t("%s accuracy, %s apr, %s power", "%s précision, %s pén, %s puissance", "tfor
 t("worth %0.2f", "vaut %0.2f", "tformat")
 t("dig speed %d turns", "vitesse d'excavation %d tours", "tformat")
 t(" [power %d]", " [puissance %d]", "tformat")
+t(" (%d/%d cooldown)", " (%d/%d en rechargement)", "tformat")
 t(" (%d cooldown)", " (%d rechargement)", "tformat")
 t("object", "objet", "_t")
 t("%s, %sspecial#LAST#", "%s, %sspécial#LAST#", "tformat")
@@ -44306,7 +44475,7 @@ t([[Infused by #ORCHID#arcane disrupting forces#LAST#
 ]], [[Infusé par #ORCHID#une force disruptive d'arcanes#LAST#
 ]], "_t")
 t([[Crafted by #LIGHT_UMBER#a master#LAST#
-]], [[Forgé par #LIGHT_UMBER#un maître#LAST#
+]], [[Forgé par #LIGHT_UMBER#un  maître#LAST#
 ]], "_t")
 t([[Infused by #YELLOW#psionic forces#LAST#
 ]], [[Infusé par #YELLOW#une force psionique#LAST#
@@ -44317,8 +44486,7 @@ t([[Powered by #CRIMSON#unknown forces#LAST#
 t("%0.2f Encumbrance.", "Encombrement: %0.2f", "tformat")
 t("This object's appearance was changed to %s", "L'apparence de cet objet a été modifiée en %s", "tformat")
 t("Press <control> to compare", "Appuyez sur <control> pour comparer", "_t")
-t(" (%d/%d cooldown)", " (%d/%d en rechargement)", "tformat")
--- untranslated text
+-- texte non traduit
 --[==[
 t(" / ", " / ", "_t")
 t("%0.2f %s", "%0.2f %s", "tformat")
@@ -44346,8 +44514,6 @@ t(".", ".", "_t")
 ------------------------------------------------
 section "mod-tome/mod/class/Party.lua"
 
-t("Name", "Nom", "_t")
-t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "#LIGHT_GREEN#Vous caressez votre chien! Il remue joyeusement sa queue d'avant en arrière dans le temps!", "log")
 t("Party member", "Membre du groupe", "_t")
 t("Can not switch control to this creature.", "Impossible de contrôler cette créature.", "logPlayer")
 t("Switching control", "Prendre le contrôle", "_t")
@@ -44360,7 +44526,9 @@ t("that location", "cet endroit", "_t")
 t("%s will stay near %s.", "%s restera près de %s.", "logPlayer")
 t("%s targets #Target#.", "%s cibles #Target#.", "logCombat")
 t("Change name of: %s", "Changer le nom de: %s", "tformat")
+t("Name", "Nom", "_t")
 t("%s is dismissed!", "%s est viré!", "log")
+t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "#LIGHT_GREEN#Vous caressez votre chien! Il remue joyeusement sa queue d'avant en arrière dans le temps!", "log")
 t("No, we must hurry!", "Non, il faut se dépêcher!", "_t")
 t("Ok, but not for long.", "Ok, mais pas pour longtemps.", "_t")
 t("very close", "très proche", "_t")
@@ -44368,14 +44536,12 @@ t("close", "proche", "_t")
 t("still far away", "encore loin", "_t")
 t("The portal is %s, to the %s.", "Le portail est %s, %s.", "tformat")
 
-
 ------------------------------------------------
 section "mod-tome/mod/class/PartyMember.lua"
 
-t("default", "défaut", "_t")
 t("Behavior: %s", "Comportement: %s", "tformat")
+t("default", "défaut", "_t")
 t("Action radius: %d", "Rayon d'action: %d", "tformat")
-
 
 ------------------------------------------------
 section "mod-tome/mod/class/Player.lua"
@@ -44427,50 +44593,59 @@ t("This does not seem to have any effect.", "Ceci n'a aucun effet.", "logPlayer"
 t("You use the %s on the pedestal. There is a distant 'clonk' sound.", "Vous utiliser %s sur le piédestal. Vous entendez un distant \"clonk\" au loin.", "logPlayer")
 t("#LIGHT_RED#%s briefly catches sight of you!", "#LIGHT_RED#%s vous aperçoit brièvement!", "logPlayer")
 t("#LIGHT_RED#You sense that Something has taken notice of you ...", "#LIGHT_RED#Vous sentez que quelque chose vous a remarqué ...", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée \"%s\"! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête acceptée \"%s\"!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" mise à jour! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête \"%s\" mise à jour!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est terminée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête \"%s\" terminée!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est finie! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête \"%s\" finie!", "saySimple")
-t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête \"%s\" a échouée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête \"%s\" a échouée!", "saySimple")
--- untranslated text
+-- nouveau texte
+--[==[
+t("Game Turn %d", "Game Turn %d", "log")
+--]==]
+
+-- texte non traduit
 --[==[
 t("", "", "log")
 --]==]
 
+-- ancien texte traduit
+t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée \"%s\"! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête acceptée \"%s\"!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête \"%s\" mise à jour!", "saySimple")
+t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête \"%s\" a échouée!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est finie! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête \"%s\" finie!", "saySimple")
+t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête \"%s\" a échouée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête \"%s\" terminée!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" mise à jour! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est terminée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Projectile.lua"
 
-t("%s's %s", "%s de %s", "tformat")
-t("Projectile: ", "Projectile: ", "_t")
 t("Origin: ", "Origine: ", "_t")
 t("Speed: %d%% %s", "Vitesse: %d%% %s", "tformat")
 t("Affect origin chance: ", "Affecter la chance de départ: ", "_t")
 t("Affect origin's friends chance: ", "Affecter la chance des amis de départ: ", "_t")
-t("UID: ", "UID: ", "_t")
-t("Coords: ", "Coords: ", "_t")
 t(" homing: %s(%s, %s)", " cherche: %s(%s, %s)", "tformat")
 t(" range: ", " portée: ", "_t")
+t("%s's %s", "%s de %s", "tformat")
+-- texte non traduit
+--[==[
+t("Projectile: ", "Projectile: ", "_t")
+t("UID: ", "UID: ", "_t")
+t("Coords: ", "Coords: ", "_t")
 t("projectile", "projectile", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/class/Store.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
-t("Buy", "Acheter", "_t")
-t("Cancel", "Annuler", "_t")
-t("Sell", "Vendre", "_t")
 t("Not enough gold", "Pas assez d'or", "_t")
 t("You do not have the %0.2f gold needed!", "Vous n'avez pas les %0.2f d'or dont vous avez besoin!", "tformat")
 t(" (%0.2f each)", " (%0.2f chacun)", "tformat")
+t("Buy", "Acheter", "_t")
 t("Buy %d %s for %0.2f gold%s?", "Acheter %d %s pour %0.2f or%s?", "tformat")
 t("Bought: %s %s for %0.2f gold.", "Acheté: %s %s pour %0.2f d'or.", "log")
+t("Cancel", "Annuler", "_t")
+t("Sell", "Vendre", "_t")
 t("Sell %d %s for %0.2f gold%s?", "Vendre %d %s pour %0.2f d'or%s?", "tformat")
 t("Sold: %s %s for %0.2f gold.", "Vendu: %s %s pour %0.2f d'or.", "log")
 t("Buy for: %0.2f gold (You have %0.2f gold)", "Acheter pour: %0.2f d'or (Vous avez %0.2f d'or)", "tformat")
@@ -44478,29 +44653,24 @@ t("Sell for: %0.2f gold (You have %0.2f gold)", "Vendre pour: %0.2f d'or (Vous a
 t("This entity can not access inventories.", "Cette entité ne peut pas accéder aux inventaires.", "logPlayer")
 t("You must be level %d to access this shop.", "Vous devez être niveau %d pour accéder à cette boutique.", "logPlayer")
 
-
 ------------------------------------------------
 section "mod-tome/mod/class/Trap.lua"
 
-t("%s's %s", "%s de %s", "tformat")
-t("neutral", "neutre", "_t")
-t("friendly", "amicale", "_t")
 t("trap", "piège", "_t")
+t("%s's %s", "%s de %s", "tformat")
 t("#LIGHT_GREEN#%d turns #WHITE#", "#LIGHT_GREEN#%d tours #WHITE#", "tformat")
 t("<Store>", "<Boutique>", "_t")
-t("hostile", "hostile", "_t")
-t("Faction: ", "Faction: ", "_t")
+t("neutral", "neutre", "_t")
+t("friendly", "amicale", "_t")
 t("(beneficial)", "(bénéfique)", "_t")
 t("(beneficial to enemies)", "(bénéfique aux ennemis)", "_t")
 t("(safe)", "(sûr)", "_t")
-t("pressure_trigger", "pressure_trigger", "_t")
 t("#YELLOW#Detect: %d#WHITE#", "#YELLOW#Détecté: %d#WHITE#", "tformat")
 t("#YELLOW# Disarm: %d#WHITE#", "#YELLOW# Désarmé: %d#WHITE#", "tformat")
 t("Dismantling", "Démantèlement", "_t")
 t("dismantled", "démantelé", "_t")
 t("Your level of skill was not enough to understand the workings of this trap.", "Votre niveau de compétence n'était pas suffisant pour comprendre le fonctionnement de ce piège.", "_t")
 t("You quit dismantling the trap.", "Vous avez arrêté de démanteler le piège.", "_t")
-t("#LIGHT_BLUE#%s: %s#LAST#", "#LIGHT_BLUE#%s: %s#LAST#", "logPlayer")
 t("Success", "Succès", "_t")
 t("Failure", "Échec", "_t")
 t("\
@@ -44528,50 +44698,58 @@ t("carefully avoid", "éviter soigneusement", "_t")
 t("somehow avoid", "éviter d'une manière ou d'une autre", "_t")
 t("dodge", "esquiver", "_t")
 t("#CADET_BLUE#You %s a trap (%s).", "#CADET_BLUE#You %s un piège (%s).", "log")
-t("#CADET_BLUE#%s %ss %s.", "#CADET_BLUE#%s %ss %s.", "logSeen")
 t("a trap (%s)", "un piège (%s)", "tformat")
 t("something on the floor", "quelque chose sur le sol", "_t")
+-- texte non traduit
+--[==[
+t("hostile", "hostile", "_t")
+t("Faction: ", "Faction: ", "_t")
+t("pressure_trigger", "pressure_trigger", "_t")
+t("#LIGHT_BLUE#%s: %s#LAST#", "#LIGHT_BLUE#%s: %s#LAST#", "logPlayer")
+t("#CADET_BLUE#%s %ss %s.", "#CADET_BLUE#%s %ss %s.", "logSeen")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/class/UserChatExtension.lua"
 
-
-t("#ANTIQUE_WHITE#has linked an item: #WHITE# %s", "#ANTIQUE_WHITE#a partagé un objet : #WHITE# %s", "tformat")
-t("#ANTIQUE_WHITE#has linked a creature: #WHITE# %s", "#ANTIQUE_WHITE#a partagé une créature: #WHITE# %s", "tformat")
-t("#ANTIQUE_WHITE#has linked a talent: #WHITE# %s", "#ANTIQUE_WHITE#a partagé un talent : #WHITE# %s", "tformat")
-t("#CRIMSON#%s#WHITE#", "#CRIMSON#%s#WHITE#", "tformat")
+t("#ANTIQUE_WHITE#has linked an item: #WHITE# %s", "#ANTIQUE_WHITE#a fait un lien avec un objet : #WHITE# %s", "tformat")
+t("#ANTIQUE_WHITE#has linked a creature: #WHITE# %s", "#ANTIQUE_WHITE#a fait un lien avec une créature: #WHITE# %s", "tformat")
+t("#ANTIQUE_WHITE#has linked a talent: #WHITE# %s", "#ANTIQUE_WHITE#a fait un lien avec un talent : #WHITE# %s", "tformat")
 t("SHAKING", "TREMBLEMENT", "log")
+-- texte non traduit
+--[==[
+t("#CRIMSON#%s#WHITE#", "#CRIMSON#%s#WHITE#", "tformat")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/class/World.lua"
 
-
 t("%s the %s %s level %s", "%s le %s %s niveau %s", "tformat")
 t("#LIGHT_BLUE#New shimmer option unlocked: #{italic}#%s#{normal}#", "#LIGHT_BLUE#Nouvelle option de chatoiement débloquée : #{italic}#%s#{normal}#", "log")
-
 
 ------------------------------------------------
 section "mod-tome/mod/class/WorldNPC.lua"
 
+t("#Source# kills #Target#.", "#Source# tue #Target#.", "logCombat")
+t("#Target# kills #Source#.", "#Target# tue #Source#.", "logCombat")
 t("neutral", "neutre", "_t")
 t("friendly", "amicale", "_t")
 t("Rank: ", "Rang: ", "_t")
+t("Killed by you: ", "Tué par vous: ", "tformat")
 t("Target: ", "Cible: ", "_t")
 t("none", "aucun", "_t")
-t("#Source# kills #Target#.", "#Source# tue #Target#.", "logCombat")
-t("#Target# kills #Source#.", "#Target# tue #Source#.", "logCombat")
+-- texte non traduit
+--[==[
 t("hostile", "hostile", "_t")
 t("Faction: ", "Faction: ", "_t")
-t("Killed by you: ", "Tué par vous: ", "tformat")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/class/generator/actor/Arena.lua"
 
-t("Reaver", "Moissoneur", "_t")
-t("%s the %s", "%s le %s", "tformat")
 t("giant crystal rat", "Rat crystal géant", "_t")
 t("Skeletal rats", "Rats squelette", "_t")
 t("Gladiators", "Gladiateurs", "_t")
@@ -44579,6 +44757,7 @@ t("Golden crystals", "Crystaux dorés", "_t")
 t("Master slingers", "Maître frondeurs", "_t")
 t("Master Alchemist", "Maître alchimiste", "_t")
 t("Multi-hued Wyrmic", "Draconien multicolor", "_t")
+t("Reaver", "Moissoneur", "_t")
 t("Headless horror", "Horreur sans tête", "_t")
 t("Ryal the Towering", "Ryal l'imposant", "_t")
 t("Boss fight!", "Combat de chef!", "_t")
@@ -44586,9 +44765,9 @@ t("Victory!!", "Victoire!!", "_t")
 t("Fryjia the Hailstorm", "Fryjia la grêle", "_t")
 t("Riala the Crimson", "Riala la cramoisie", "_t")
 t("Valfren the Rampage", "Valfren le déchaîné", "_t")
+t("%s the %s", "%s le %s", "tformat")
 t(" appear!!", " apparaître!!", "_t")
 t(" appears!!", " apparaît!!", "_t")
-t("#LIGHT_RED#%s%s", "#LIGHT_RED#%s%s", "log")
 t("#LIGHT_RED#WARNING! %s appears!!!", "#LIGHT_RED#WARNING! %s apparaît!!!", "log")
 t("The final fight!", "Le combat final!", "_t")
 t("Congratulations!", "Félicitations!!", "_t")
@@ -44603,27 +44782,27 @@ t("#LIGHT_GREEN#You destroy #WHITE#%s#LIGHT_GREEN# in a single blow!", "#LIGHT_G
 t("#LIGHT_GREEN#Your score multiplier increases by #WHITE#%d#LIGHT_GREEN#!", "#LIGHT_GREEN#Votre multiplicateur de score augmente de #WHITE#%d#LIGHT_GREEN#!", "log")
 t("#LIGHT_GREEN#Your score multiplier increases by #WHITE#0.1#LIGHT_GREEN#!", "#LIGHT_GREEN#Votre multiplicateur de score augmente de #WHITE#0.1#LIGHT_GREEN#!", "log")
 t("#YELLOW#You defeat an experienced enemy!", "#YELLOW#Vous triomphez d'un ennemi expérimenté!", "log")
+-- texte non traduit
+--[==[
+t("#LIGHT_RED#%s%s", "#LIGHT_RED#%s%s", "log")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/class/generator/actor/HighPeakFinal.lua"
 
-
 t("An entity appears through the portal!", "Une entité apparaît à travers le portail!", "logSeen")
-
 
 ------------------------------------------------
 section "mod-tome/mod/class/generator/actor/ValleyMoon.lua"
 
-
 t("Limmir summons a blast of holy light!", "Limmir invoque une explosion de lumière sacrée!", "logSeen")
-
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/ActorAI.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("#Source# shoves #Target# aside.", "#Source# shoves #Target# aside.", "logCombat")
 t("%s #PINK#searching for safer grids [radius %s from (%s, %s), val = %s], dam_wt=%s, air_wt=%s, dist_weight=%s, want_closer=%s", "%s #PINK#searching for safer grids [radius %s from (%s, %s), val = %s], dam_wt=%s, air_wt=%s, dist_weight=%s, want_closer=%s", "log")
@@ -44639,7 +44818,7 @@ t("#YELLOW_GREEN#__Computed tactics: %s", "#YELLOW_GREEN#__Computed tactics: %s"
 section "mod-tome/mod/class/interface/ActorInscriptions.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("You are unable to use this kind of inscription.", "You are unable to use this kind of inscription.", "logPlayer")
 t("You already have too many of this inscription.", "You already have too many of this inscription.", "logPlayer")
@@ -44653,7 +44832,7 @@ t("Your %s is depleted!", "Your %s is depleted!", "logPlayer")
 section "mod-tome/mod/class/interface/ActorObjectUse.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Activate an object", "Activate an object", "_t")
 t("Activate: %s", "Activate: %s", "tformat")
@@ -44675,7 +44854,7 @@ t("nothing", "nothing", "_t")
 section "mod-tome/mod/class/interface/Archery.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("You need a missile launcher (%s)!", "You need a missile launcher (%s)!", "logPlayer")
 t("You do not have enough ammo left!", "You do not have enough ammo left!", "logPlayer")
@@ -44696,7 +44875,7 @@ t("You must wield a ranged weapon (%s)!", "You must wield a ranged weapon (%s)!"
 section "mod-tome/mod/class/interface/Combat.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("%s is too afraid to attack.", "%s is too afraid to attack.", "logSeen")
 t("%s is too terrified to attack.", "%s is too terrified to attack.", "logSeen")
@@ -44729,10 +44908,16 @@ t("her", "sa", "_t")
 t("him", "lui", "_t")
 t("herself", "elle-même", "_t")
 t("himself", "lui-même", "_t")
--- untranslated text
+-- nouveau texte
 --[==[
-t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "_t")
-t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) was %s to death by %s%s on %s %s.", "_t")
+t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "tformat")
+t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) was %s to death by %s%s on %s %s.", "tformat")
+t("%s the level %d %s %s %s on level %s of %s.", "%s the level %d %s %s %s on level %s of %s.", "tformat")
+t("%s(%d %s %s) %s on %s %s.", "%s(%d %s %s) %s on %s %s.", "tformat")
+--]==]
+
+-- texte non traduit
+--[==[
 t(" (the fool)", " (the fool)", "_t")
 t(" in an act of extreme incompetence", " in an act of extreme incompetence", "_t")
 t(" out of supreme humility", " out of supreme humility", "_t")
@@ -44742,8 +44927,6 @@ t(", providing a free meal to the wildlife", ", providing a free meal to the wil
 t(" (how embarrassing)", " (how embarrassing)", "_t")
 t("battered", "battered", "_t")
 t(" (yet again)", " (yet again)", "_t")
-t("%s the level %d %s %s %s on level %s of %s.", "%s the level %d %s %s %s on level %s of %s.", "_t")
-t("%s(%d %s %s) %s on %s %s.", "%s(%d %s %s) %s on %s %s.", "_t")
 t("#{bold}#", "#{bold}#", "_t")
 --]==]
 
@@ -44752,7 +44935,7 @@ t("#{bold}#", "#{bold}#", "_t")
 section "mod-tome/mod/class/interface/PartyIngredients.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("You collect a new ingredient: #LIGHT_GREEN#%s%s#WHITE#.", "You collect a new ingredient: #LIGHT_GREEN#%s%s#WHITE#.", "log")
 t("You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "log")
@@ -44762,10 +44945,9 @@ t("You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "You collect a
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PartyLore.lua"
 
-
--- untranslated text
+t("Lore found: #0080FF#%s", "Chronique trouvé: #0080FF#%s", "logPlayer")
+-- texte non traduit
 --[==[
-t("Lore found: #0080FF#%s", "Lore found: #0080FF#%s", "logPlayer")
 t("You can read all your collected lore in the game menu, by pressing Escape.", "You can read all your collected lore in the game menu, by pressing Escape.", "logPlayer")
 t("learnt lore", "learnt lore", "_t")
 --]==]
@@ -44780,7 +44962,7 @@ t("Running...", "Cours...", "_t")
 t("You are exploring, press any key to stop.", "Vous êtes en exploration, appuyez sur une touche pour vous arrêter.", "_t")
 t("at %s", "à %s", "tformat")
 t("the path is blocked", "Le chemin est bloqué", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("at door", "at door", "_t")
 t("checked door", "checked door", "_t")
@@ -44789,10 +44971,24 @@ t("at object (diggable)", "at object (diggable)", "_t")
 
 
 ------------------------------------------------
+section "mod-tome/mod/class/interface/PlayerQuestPopup.lua"
+
+t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée \"%s\"! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête acceptée \"%s\"!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" mise à jour! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête \"%s\" mise à jour!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est terminée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête \"%s\" terminée!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est finie! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête \"%s\" finie!", "saySimple")
+t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête \"%s\" a échouée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête \"%s\" a échouée!", "saySimple")
+
+------------------------------------------------
 section "mod-tome/mod/class/interface/TooltipsData.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#GOLD#Gold#LAST#
 Money!
@@ -45582,7 +45778,7 @@ The use of spells or arcane-powered equipment is impossible.
 section "mod-tome/mod/class/interface/WorldAchievements.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t("Maj'Eyal", "Maj'Eyal", "_t")
 t("%s (Roguelike)", "%s (Roguelike)", "tformat")
@@ -45600,7 +45796,7 @@ t("%s (Madness (Roguelike) difficulty)", "%s (Madness (Roguelike) difficulty)", 
 section "mod-tome/mod/class/uiset/Classic.lua"
 
 t("Game: ", "Partie: ", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t([[Displaying talents (#{bold}##GOLD#%s#LAST##{normal}#)
 Toggle for creature display]], [[Displaying talents (#{bold}##GOLD#%s#LAST##{normal}#)
@@ -45640,7 +45836,7 @@ t("Show chat user", "Show chat user", "_t")
 section "mod-tome/mod/class/uiset/ClassicPlayerDisplay.lua"
 
 
--- untranslated text
+-- texte non traduit
 --[==[
 t([[#GOLD##{bold}#%s
 #WHITE##{normal}#Life: %d%%
@@ -45716,10 +45912,17 @@ t("Rank: %s", "Rank: %s", "tformat")
 ------------------------------------------------
 section "mod-tome/mod/class/uiset/Minimalist.lua"
 
+t("Game Log", "Historique du jeu", "_t")
 t("Rank: ", "Rang: ", "_t")
 t("Tales of Maj'Eyal Lore", "Lore de Tales of Maj'Eyal", "_t")
 t("Game: ", "Partie: ", "_t")
--- untranslated text
+t("Whisper", "Murmure", "_t")
+t("Ignore", "Ignorer", "_t")
+t("Ignore user", "Ignorer l'utilisateur", "_t")
+t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de: %s", "tformat")
+t("Reason to report: %s", "Raison du signalement: %s", "tformat")
+t("Reason", "Raison", "_t")
+-- texte non traduit
 --[==[
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
@@ -45730,7 +45933,6 @@ t("Resources", "Resources", "_t")
 t("Minimap", "Minimap", "_t")
 t("Current Effects", "Current Effects", "_t")
 t("Party Members", "Party Members", "_t")
-t("Game Log", "Game Log", "_t")
 t("Online Chat Log", "Online Chat Log", "_t")
 t("Hotkeys", "Hotkeys", "_t")
 t("Game Actions", "Game Actions", "_t")
@@ -45825,13 +46027,7 @@ t("Recurring Donator", "Recurring Donator", "_t")
 t("Playing: ", "Playing: ", "_t")
 t("Clicking will open ", "Clicking will open ", "_t")
 t("Show chat user", "Show chat user", "_t")
-t("Whisper", "Whisper", "_t")
-t("Ignore", "Ignore", "_t")
-t("Ignore user", "Ignore user", "_t")
-t("Really ignore all messages from: %s", "Really ignore all messages from: %s", "tformat")
 t("Report user for bad behavior", "Report user for bad behavior", "_t")
-t("Reason to report: %s", "Reason to report: %s", "tformat")
-t("Reason", "Reason", "_t")
 t("#VIOLET#", "#VIOLET#", "log")
 t("Remove Friend", "Remove Friend", "_t")
 t("Really remove %s from your friends?", "Really remove %s from your friends?", "tformat")
@@ -45844,7 +46040,7 @@ t("Really add %s to your friends?", "Really add %s to your friends?", "tformat")
 section "mod-tome/mod/dialogs/ArenaFinish.lua"
 
 t("unknown", "inconnu", "_t")
--- untranslated text
+-- texte non traduit
 --[==[
 t("#LIGHT_GREEN#No high scores. This should not happen.", "#LIGHT_GREEN#No high scores. This should not happen.", "_t")
 t([[%s (%s %s %s)
@@ -45959,7 +46155,7 @@ t("Dismiss", "Refuser", "_t")
 t("Birth Options", "Options de naissance", "_t")
 t("Confirm", "Confirmer", "_t")
 t("Apply the selected cosmetics to %s?", "Appliquer le cosmétique sélectionné à %s?", "tformat")
--- untranslated text
+-- texte non traduit
 --[==[
 t("Male", "Male", "_t")
 --]==]
@@ -45968,27 +46164,16 @@ t("Male", "Male", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/CharacterSheet.lua"
 
-t("Name", "Nom", "_t")
-t("Inventory", "Inventaire", "_t")
-t("Female", "Femelle", "_t")
-t("All", "Tout", "_t")
-t("Activated", "Activé", "_t")
-t("Sustained", "Soutenu", "_t")
-t("Passive", "Passif", "_t")
-t("File: %s", "Fichier: %s", "tformat")
 t("Character Sheet: %s", "Fiche de Personnage: %s", "tformat")
 t("[G]eneral", "[G]énéral", "_t")
 t("[A]ttack", "[A]ttaque", "_t")
 t("[D]efense", "[D]éfense", "_t")
-t("[T]alents", "[T]alents", "_t")
 t("off", "secondaire", "_t")
 t("main", "principale", "_t")
 t("[E]quipment: %s set", "[E]quipement: %s ensemble", "tformat")
 t("#RED#Displaying %s set for %s (equipment NOT switched)", "#RED#Affiche %s l'ensemble pour %s (équipment NON changé)", "logPlayer")
-t("Sort: %s", "Sort: %s", "tformat")
 t("Groups", "Groupes", "_t")
-t("Type", "Type", "_t")
-t("Sort:  %s", "Sort:  %s", "tformat")
+t("Name", "Nom", "_t")
 t("Manage [I]nventory", "Gérer l'[I]nventaire", "_t")
 t("[L]evelup", "[L]Niveau Supplémentaire", "_t")
 t([[Values #00FF00#in brackets ( )#LAST# show changes made from last character sheet checking.
@@ -45998,18 +46183,12 @@ Mouse: Hover over stat for info
 Clavier: #00FF00#'u'#LAST# pour générer un fichier du personnage. #00FF00#TAB#LAST# pour naviguer entre les onglets.
 Souris: Passez sur les stats pour avoir des infos
 ]], "_t")
-t("%i %s %i %s %i %s %s %s", "%i %s %i %s %i %s %s %s", "tformat")
 t("days", "jours", "_t")
 t("day", "jour", "_t")
 t("hours", "heures", "_t")
 t("hour", "heure", "_t")
-t("minutes", "minutes", "_t")
-t("minute", "minute", "_t")
 t("seconds", "secondes", "_t")
 t("second", "seconde", "_t")
-t("%i %s %i %s %s %s", "%i %s %i %s %s %s", "tformat")
-t("%i %s %s %s", "%i %s %s %s", "tformat")
-t("%s %s", "%s %s", "tformat")
 t([[#GOLD#Days adventuring / current month:#LAST# %d / %s
 #GOLD#Time playing:#LAST# %s
 #GOLD#Creatures killed:           #ANTIQUE_WHITE#%d
@@ -46019,12 +46198,9 @@ t([[#GOLD#Days adventuring / current month:#LAST# %d / %s
 #GOLD#Créatures tuées:           #ANTIQUE_WHITE#%d
 #GOLD#Elites/Rares/Boss tués: #YELLOW#%d/#SALMON#%d/#ORANGE#%d
 ]], "tformat")
-t("Poison", "Poison", "_t")
 t("Disease", "Maladie", "_t")
 t("Bleed", "Saignement", "_t")
-t("Confusion", "Confusion", "_t")
 t("Blindness", "Aveuglement", "_t")
-t("Silence", "Silence", "_t")
 t("Disarm", "Désarmement", "_t")
 t("Pinning", "Immobilisation", "_t")
 t("Stun/Freeze", "Gel/Assomant", "_t")
@@ -46038,10 +46214,11 @@ t("#GOLD#All Status     ", "#GOLD#Tous les Status  ", "_t")
 t("#ORANGE#Mental Status  ", "#ORANGE#Statue Mental  ", "_t")
 t("#ORANGE#Physical Status", "#ORANGE#Statue Physique", "_t")
 t("#ORANGE#Magical Status ", "#ORANGE#Statue Magique ", "_t")
+t("Inventory", "Inventaire", "_t")
 t("Online URL: #LIGHT_BLUE##{underline}#%s#{normal}#", "URL en ligne: #LIGHT_BLUE##{underline}#%s#{normal}#", "tformat")
 t("You can find your character sheet online", "Vous pouvez trouver votre fiche de personnage en ligne", "_t")
 t("Sex  : ", "Sexe   : ", "_t")
-t("Male", "Male", "_t")
+t("Female", "Femelle", "_t")
 t("Race : ", "Race   : ", "_t")
 t("Type : ", "Type   : ", "_t")
 t("Class: ", "Classe : ", "_t")
@@ -46053,13 +46230,9 @@ t("Level: #00ff00#%d", "Niveau: #00ff00#%d", "tformat")
 t("Exp  : #00ff00#%2d%%", "Exp   : #00ff00#%2d%%", "tformat")
 t("Gold : #00ff00#%0.2f", "Or    : #00ff00#%0.2f", "tformat")
 t("#LIGHT_BLUE#Resources:", "#LIGHT_BLUE#Ressources:", "_t")
-t("%+.0f max", "%+.0f max", "_t")
 t("die:%+d", "mort:%+d", "_t")
 t("#c00000#Life    : #00ff00#%d/%s", "#c00000#Vie     : #00ff00#%d/%s", "tformat")
-t("min", "min", "_t")
-t("max", "max", "_t")
 t("No Description", "Aucune Description", "_t")
-t("%s%-8.8s: #00ff00#%s ", "%s%-8.8s: #00ff00#%s ", "tformat")
 t([[#GOLD#%s Recovery/Depletion#LAST#
 The amount of %s automatically gained or lost each turn.]], [[#GOLD#%s Récupération/Déperdition#LAST#
 Cette valeur de %s est automatiquement gagné ou perdu chaque tour.]], "tformat")
@@ -46077,7 +46250,6 @@ t("Lives left     : #00ff00#%s", "Vies Restantes     : #00ff00#%s", "tformat")
 t("Healing mod.   : #00ff00#%s", "Mod de soins       : #00ff00#%s", "tformat")
 t("Life regen     : #00ff00#%s", "Regen de vie       : #00ff00#%s", "tformat")
 t("(with heal mod): #00ff00#%s", "(avec mod de soins): #00ff00#%s", "tformat")
-t("#LIGHT_BLUE#Vision:", "#LIGHT_BLUE#Vision:", "_t")
 t("Light radius   : #00ff00#%s", "Lumière            : #00ff00#%s", "tformat")
 t("Vision range   : #00ff00#%s", "Portée de vue      : #00ff00#%s", "tformat")
 t("Heighten Senses: #00ff00#%s", "Sens augmentés     : #00ff00#%s", "tformat")
@@ -46088,7 +46260,6 @@ t("Invisibility   : #00ff00#%s", "Invisibilité       : #00ff00#%s", "tformat")
 t("See invisible  : #00ff00#%s", "Voir les invisibles: #00ff00#%s", "tformat")
 t("Telepathy range: #00ff00#%s", "Portée Telepathique: #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Stats:        Base/Current", "#LIGHT_BLUE#Stats:        Base/Actuelle", "_t")
-t("#AQUAMARINE#Inscriptions (%d/%d)", "#AQUAMARINE#Inscriptions (%d/%d)", "tformat")
 t("Telepathy of: ", "Télépathie: ", "_t")
 t("%sAll ", "%sTout ", "tformat")
 t("#LIGHT_BLUE#Current effects:", "#LIGHT_BLUE#Effets actuels:", "_t")
@@ -46112,12 +46283,11 @@ t("#LIGHT_BLUE#Offhand-Dual Weapon%s", "#LIGHT_BLUE#Main secondaire-Deux armes%s
 t("#LIGHT_BLUE#Psionic Focus", "#LIGHT_BLUE#Concentration Psionique", "_t")
 t("#LIGHT_BLUE#Physical:", "#LIGHT_BLUE#Physique:", "_t")
 t("Phys. Power: #00ff00#%s", "Puissance physique  : #00ff00#%s", "tformat")
-t("Crit. chance: #00ff00#%s", "Chance de crit      : #00ff00#%s", "tformat")
+t("Crit. chance: #00ff00#%s", "Chance de crit: #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Magical:", "#LIGHT_BLUE#Magique:", "_t")
 t("Spellpower  : #00ff00#%s", "Puissance de sort   : #00ff00#%s", "tformat")
 t("Spell speed : #00ff00#%s", "Vitesse de sort     : #00ff00#%s", "tformat")
 t("Spell cooldown: #00ff00#%s", "Rechargement de sort: #00ff00#%s", "tformat")
-t("#LIGHT_BLUE#Mental:", "#LIGHT_BLUE#Mental:", "_t")
 t("Mindpower: #00ff00#%s", "Puissance mentale   : #00ff00#%s", "tformat")
 t("Mind speed : #00ff00#%s", "Vitesse mentale     : #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Damage Modifiers:", "#LIGHT_BLUE#Modificateurs de dégâts:", "_t")
@@ -46145,6 +46315,7 @@ t("Physical: #00ff00#%s", "Physique: #00ff00#%s", "tformat")
 t("Spell   : #00ff00#%s", "Sorts   : #00ff00#%s", "tformat")
 t("Mental  : #00ff00#%s", "Mentale : #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Resistances   : base / cap:", "#LIGHT_BLUE#Résistances   : base / cap:", "_t")
+t("All", "Tout", "_t")
 t("Absolute", "Absolu", "_t")
 t("Speed Res", "Vitesse de Res", "_t")
 t("#ORANGE#vs %-11s#LAST#: #00ff00#%3s %s", "#ORANGE#contre %-11s#LAST#: #00ff00#%3s %s", "tformat")
@@ -46152,13 +46323,42 @@ t("#LIGHT_BLUE#Damage affinities:", "#LIGHT_BLUE#Affinités aux dégâts:", "_t"
 t("#LIGHT_BLUE#Flat resistances:", "#LIGHT_BLUE#Résistances fixe:", "_t")
 t("#LIGHT_BLUE#Effect resistances:", "#LIGHT_BLUE#Effets des résistances:", "_t")
 t("#LIGHT_BLUE#Damage when hit:", "#LIGHT_BLUE#Dégâts quand touché:", "_t")
+t("Prodigies", "Prodiges", "_t")
+t("Instant", "Instantané", "_t")
+t("Activated", "Activé", "_t")
+t("Sustained", "Soutenu", "_t")
+t("Passive", "Passif", "_t")
+t("Character dump complete", "Feuille de personage sauvegardé", "_t")
+t("File: %s", "Fichier: %s", "tformat")
+-- texte non traduit
+--[==[
+t("[T]alents", "[T]alents", "_t")
+t("Sort: %s", "Sort: %s", "tformat")
+t("Type", "Type", "_t")
+t("Sort:  %s", "Sort:  %s", "tformat")
+t("%i %s %i %s %i %s %s %s", "%i %s %i %s %i %s %s %s", "tformat")
+t("minutes", "minutes", "_t")
+t("minute", "minute", "_t")
+t("%i %s %i %s %s %s", "%i %s %i %s %s %s", "tformat")
+t("%i %s %s %s", "%i %s %s %s", "tformat")
+t("%s %s", "%s %s", "tformat")
+t("Poison", "Poison", "_t")
+t("Confusion", "Confusion", "_t")
+t("Silence", "Silence", "_t")
+t("Male", "Male", "_t")
+t("%+.0f max", "%+.0f max", "_t")
+t("min", "min", "_t")
+t("max", "max", "_t")
+t("%s%-8.8s: #00ff00#%s ", "%s%-8.8s: #00ff00#%s ", "tformat")
+t("#LIGHT_BLUE#Vision:", "#LIGHT_BLUE#Vision:", "_t")
+t("#AQUAMARINE#Inscriptions (%d/%d)", "#AQUAMARINE#Inscriptions (%d/%d)", "tformat")
+t("#LIGHT_BLUE#Mental:", "#LIGHT_BLUE#Mental:", "_t")
 t("race/.*", "race/.*", "_t")
 t("Inscriptions", "Inscriptions", "_t")
-t("Prodigies", "Prodiges", "_t")
 t("Item_Talents", "Item_Talents", "_t")
 t("Talents", "Talents", "_t")
-t("Instant", "Instantané", "_t")
-t("Character dump complete", "Feuille de personage sauvegardé", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/CursedAuraSelect.lua"
@@ -46169,7 +46369,6 @@ t("A malevolent aura begins to form around you. Choose your curse:", "Une aura m
 ------------------------------------------------
 section "mod-tome/mod/dialogs/DeathDialog.lua"
 
-t("Message Log", "Historique des messages", "_t")
 t("You have #LIGHT_RED#died#LAST#!", "Vous êtes #LIGHT_RED#mort#LAST#!", "_t")
 t([[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
 You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
@@ -46182,6 +46381,7 @@ t([[#LIGHT_GREEN#During your game you#WHITE#:
 t("#LIGHT_RED#You have %d life(s) left.", "#LIGHT_RED#Vous avez %d vie(s) restante(s).", "tformat")
 t("#LIGHT_RED#You have no more lives left.", "#LIGHT_RED#Vous n'avez plus de vies restante.", "tformat")
 t("#LIGHT_RED#From the brink of death you seem to be yanked to another plane.", "#LIGHT_RED#Du bord de la mort, vous semblez être tiré vers un autre plan.", "log")
+t("Message Log", "Historique des messages", "_t")
 t("#LIGHT_BLUE#You resurrect! CHEATER!", "#LIGHT_BLUE#Vous revenez à la vie! TRICHEUR!", "logPlayer")
 t("#LIGHT_RED#The Blood of Life rushes through your dead body. You come back to life!", "#LIGHT_RED#Le Sang de Vie coule dans les veines de votre cadavre. Vous revenez à la vie!", "logPlayer")
 t("#YELLOW#Your bones magically knit back together. You are once more able to dish out pain to your foes!", "#YELLOW#Vos os se remettent en place comme par magie. Vous êtes à nouveau capable de faire souffrir vos ennemis !", "logPlayer")
@@ -46199,13 +46399,9 @@ t("Restart the same character", "Recommencez le même personnage", "_t")
 t("Restart with a new character", "Recommencez avec un nouveau personnage", "_t")
 t("Exit to main menu", "Retour au menu principal", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/mod/dialogs/Donation.lua"
 
-t(" and ", " et ", "_t")
-t("Cancel", "Annuler", "_t")
-t("Donations", "Donations", "_t")
 t("#GOLD#Character cosmetic customization and special tiles#WHITE#", "#GOLD#Personnalisation cosmétique des personnages et apparences spéciales#WHITE#", "_t")
 t("#GOLD#Exploration mode (infinite lives)#WHITE#", "#GOLD#Mode exploration (vies infinies)#WHITE#", "_t")
 t("#GOLD#Item's appearance change (Shimmering)#WHITE#", "#GOLD#Changement d'apparence des objets (Chatoyance)#WHITE#", "_t")
@@ -46222,6 +46418,7 @@ ToME est gratuit et open-source et le restera, mais cela ne veut pas dire que je
 Si vous pensez que les (nombreuses) heures que vous avez passées à vous amuser en valaient la peine, veuillez envisager s'il vous plait de faire un don pour l'avenir du jeu.
 
 Les donateurs bénéficient également de quelques avantages particuliers: %s.]], "tformat")
+t(" and ", " et ", "_t")
 t([[Thank you for supporting ToME, your donation was greatly appreciated.
 If you want to continue supporting ToME you are welcome to make a new donation or even a reccuring one which helps ensure the future of the game.
 Thank you for your kindness!]], [[Merci de soutenir ToME, votre don a été très apprécié.
@@ -46229,11 +46426,16 @@ Si vous souhaitez continuer à soutenir ToME, vous pouvez faire un nouveau don o
 Merci pour votre gentillesse !]], "_t")
 t("Donation amount: ", "Montant du don: ", "_t")
 t("Monthly donation", "Don mensuel", "_t")
-t("euro", "euro", "_t")
+t("Cancel", "Annuler", "_t")
 t("You can also make a pledge on Patreon if you prefer.", "Vous pouvez également payer sur Patreon si vous préférez.", "_t")
 t("Thank you", "Merci beaucoup", "_t")
 t("Thank you, a paypal page should now open in your browser.", "Merci, une page paypal devrait maintenant s'ouvrir dans votre navigateur.", "_t")
 t("Thank you, a Patreon page should now open in your browser.", "Merci, une page Patreon devrait maintenant s'ouvrir dans votre navigateur.", "_t")
+-- texte non traduit
+--[==[
+t("Donations", "Donations", "_t")
+t("euro", "euro", "_t")
+--]==]
 
 
 ------------------------------------------------
@@ -46241,19 +46443,15 @@ section "mod-tome/mod/dialogs/GameOptions.lua"
 
 t("Game Options", "Options de jeu", "_t")
 t("UI", "IU", "_t")
+t("Gameplay", "Jouabilité", "_t")
 t("Online", "En ligne", "_t")
 t("Misc", "Divers", "_t")
-t("#GOLD##{bold}#Graphic Mode#WHITE##{normal}#", "#GOLD##{bold}#Mode graphique#WHITE##{normal}#", "_t")
-t("enabled", "activé", "_t")
-t("disabled", "désactivé", "_t")
-t("#GOLD##{bold}#Allow online events#WHITE##{normal}#", "#GOLD##{bold}#Permettre les événements en ligne#WHITE##{normal}#", "_t")
-t("all", "tout", "_t")
-t("Gameplay", "Jouabilité", "_t")
 t([[Select the graphical mode to display the world.
 Default is 'Modern'.
 When you change it, make a new character or it may look strange.]], [[Sélectionnez le mode graphique pour afficher le monde.
 La valeur par défaut est "Moderne".
 Lorsque vous le modifiez, créez un nouveau personnage ou cela pourrait vous paraître étrange.]], "_t")
+t("#GOLD##{bold}#Graphic Mode#WHITE##{normal}#", "#GOLD##{bold}#Mode graphique#WHITE##{normal}#", "_t")
 t([[Make the movement of creatures and projectiles 'smooth'. When set to 0 movement will be instantaneous.
 The higher this value the slower the movements will appear.
 
@@ -46268,6 +46466,8 @@ t([[Enables or disables 'twitch' movement.
 When enabled creatures will do small bumps when moving and attacking.#WHITE#]], [[Active ou désactive le mouvement "tréssautant".
 Lorsqu'elle est activé, les créatures font de petites sauts lorsqu'elles se déplacent et attaquent.#WHITE#]], "_t")
 t("#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "#GOLD##{bold}#Mouvement et attaque tréssautant des créatures#WHITE##{normal}#", "_t")
+t("enabled", "activé", "_t")
+t("disabled", "désactivé", "_t")
 t([[Enables smooth fog-of-war.
 Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], [[Activer le brouillard de guerre lisse.
 Le désactiver donnera au brouillard de guerre un aspect "en bloc" mais pourrait augmenter légèrement les performances.#WHITE#]], "_t")
@@ -46279,8 +46479,6 @@ t("#GOLD##{bold}#Interface Style#WHITE##{normal}#", "#GOLD##{bold}#Style d'inter
 t("Dark", "Sombre", "_t")
 t("Metal", "Métal", "_t")
 t("Stone", "Pierre", "_t")
-t("Simple", "Simple", "_t")
-t("Interface style", "Interface style", "_t")
 t("Select style", "Style d'interface", "_t")
 t([[Select the HUD look. 'Minimalist' is the default one.
 #LIGHT_RED#This will take effect on next restart.]], [[Sélectionnez le style del'HUD. "Minimaliste" est la valeur par défaut.
@@ -46289,10 +46487,6 @@ t("#GOLD##{bold}#HUD Style#WHITE##{normal}#", "#GOLD##{bold}#Style de l'HUD#WHIT
 t("Minimalist", "Minimaliste", "_t")
 t("Classic", "Classique", "_t")
 t("HUD style", "Style de l'HUD", "_t")
-t("The number of lines to display in the combat log (for the Classic HUD).", "The number of lines to display in the combat log (for the Classic HUD).", "_t")
-t("#GOLD##{bold}#Log lines#WHITE##{normal}#", "#GOLD##{bold}#Log lines#WHITE##{normal}#", "_t")
-t("Log lines", "Log lines", "_t")
-t("From 5 to 50", "From 5 to 50", "_t")
 t("Draw faint lines to separate each grid, making visual positioning easier to see.#WHITE#", "Tracez de fines lignes pour séparer chaque case, ce qui permet un positionnement visuel plus facile à voir.#WHITE#", "_t")
 t("#GOLD##{bold}#Display map grid lines#WHITE##{normal}#", "#GOLD##{bold}#Afficher la grille sur la carte#WHITE##{normal}#", "_t")
 t([[Select the fonts look. Fantasy is the default one. Basic is simplified and smaller.
@@ -46306,7 +46500,6 @@ You must restart the game for the change to take effect.]], [[Séléctionnez la 
 Vous devez redémarrer le jeu pour que le changement soit pris en compte.]], "_t")
 t("#GOLD##{bold}#Font Size#WHITE##{normal}#", "#GOLD##{bold}#Taille de la police#WHITE##{normal}#", "_t")
 t("Font size", "Taille de la police", "_t")
-t("Normal", "Normal", "_t")
 t("Small", "Petite", "_t")
 t("Big", "Grosse", "_t")
 t([[How many seconds before log and chat lines begin to fade away.
@@ -46341,7 +46534,6 @@ t([[If disabled lore popups will only appear the first time you see the lore on 
 If enabled it will appear the first time you see it with each character.#WHITE#]], [[Si vous avez désactivé les fenêtres contextuelles sur les chroniques, elles n'apparaîtront que la première fois que vous les verrez sur votre profil.
 Si elles sont activées, elles apparaîtront la première fois que vous les verrez avec chaque personnages.#WHITE#]], "_t")
 t("#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "#GOLD##{bold}#Toujours montrer le popup des chroniques#WHITE##{normal}#", "_t")
-t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", "Si désactivés, les objets activables ne seront pas ajoutés automatiquement à vos raccourcis clavier, vous devrez les faire glisser manuellement depuis l'écran d'inventaire.#WHITE#", "_t")
 t("#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "#GOLD##{bold}#Ajoutez toujours les objets aux touches de raccourcis#WHITE##{normal}#", "_t")
 t([[Toggles between various tactical information display:
 - Combined healthbar and small tactical frame
@@ -46395,7 +46587,6 @@ t("Defines the distance from the screen edge at which scrolling will start. If s
 t("#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "#GOLD##{bold}#Distance du scrolling#WHITE##{normal}#", "_t")
 t("Scroll distance", "Distance du scrolling", "_t")
 t("From 1 to 50", "De 1 à 50", "_t")
-t("If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "Si vous perdez plus que ce pourcentage de vie dans un tour, un avertissement s'affiche et toutes les entrées clavier/souris sont ignorées pendant 2 secondes pour éviter les erreurs.#WHITE#", "_t")
 t("#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "#GOLD##{bold}#Avertissement de Santé Perdu#WHITE##{normal}#", "_t")
 t("Life lost percentage (out of max life)", "Pourcentage de santé perdu (sur la santé max)", "_t")
 t("From 1 to 99 (100 to disable)", "De 1 à 99 (100 pour désactiver)", "_t")
@@ -46411,9 +46602,6 @@ t([[Enables quick melee targeting.
 Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], [[Activer le ciblage rapide en mêlée.
 Les talents nécéssitant une cible de mêlée auront un ciblage automatique en appuyant sur une touche de direction au lieu d'exiger une confirmation.#WHITE#]], "_t")
 t("#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "#GOLD##{bold}#Ciblage rapide en mêlée#WHITE##{normal}#", "_t")
-t([[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], [[Activer l'attaque automatique rapide ciblé en mêlée.
-Les talents qui nécessitent une cible de mêlée cibleront automatiquement et confirmeront s'il n'y a qu'une seule créature hostile dans les environs.#WHITE#]], "_t")
 t("#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "#GOLD##{bold}#Attaque automatique rapide ciblé en mêlée#WHITE##{normal}#", "_t")
 t("Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "Activer le ciblage à la souris. Si les mouvements de la souris sont désactivés, la cible ne changera pas lors de l'incantation d'un sort ou de l'utilisation d'un talent.#WHITE#", "_t")
 t("#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "#GOLD##{bold}#Ciblage à la souris#WHITE##{normal}#", "_t")
@@ -46435,7 +46623,6 @@ t("New games begin with some talent points auto-assigned.#WHITE#", "Les nouvelle
 t("#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "#GOLD##{bold}#Attribution automatique de points de talent à la naissance#WHITE##{normal}#", "_t")
 t("Always rest to full before auto-exploring.#WHITE#", "Toujours se reposer à fond avant d'auto-explorer.#WHITE#", "_t")
 t("#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "#GOLD##{bold}#Se reposer avant d'auto-explorer#WHITE##{normal}#", "_t")
-t("When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "Lorsque vous échangez un objet avec un gadget, le gadget est automatiquement rattachér à l'objet nouvellement porté.#WHITE#", "_t")
 t("#GOLD##{bold}#Swap tinkers#WHITE##{normal}#", "#GOLD##{bold}#Echange de gadgets#WHITE##{normal}#", "_t")
 t("Configure the chat filters to select what kind of messages to see.#WHITE#", "Configurer les filtres des cannaux de discutions pour sélectionner le type de messages que vous souhaitez voir.#WHITE#", "_t")
 t("#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "#GOLD##{bold}#Filtres des cannaux de discutions#WHITE##{normal}#", "_t")
@@ -46467,6 +46654,8 @@ t([[Allow various events that are pushed by the server when playing online
 #{bold}#Aide technique uniquement#{normal}#: Permet aux administrateurs d'aider en cas de bugs ou de bizarreries et permettre aux services du site web (réinitialisation des données, récupérations des Succès Steam, ...) de fonctionner.
 #{bold}#Désactiver#{normal}#: Tout désactiver.
 #WHITE#]], "_t")
+t("#GOLD##{bold}#Allow online events#WHITE##{normal}#", "#GOLD##{bold}#Permettre les événements en ligne#WHITE##{normal}#", "_t")
+t("all", "tout", "_t")
 t("technical help only", "Aide technique uniquement", "_t")
 t([[Disables all connectivity to the network.
 This includes, but is not limited to:
@@ -46524,17 +46713,41 @@ t("Disallow boot images that could be found 'offensive'.#WHITE#", "Désactiver l
 t("#GOLD##{bold}#Censor boot#WHITE##{normal}#", "#GOLD##{bold}#Censure au démarrage#WHITE##{normal}#", "_t")
 t("Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "Remplacer les images des couvre-chefs par des capuchons de cape si une cape est portée#WHITE#", "_t")
 t("#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "#GOLD##{bold}#Montrer les capuchons de cape#WHITE##{normal}#", "_t")
+-- nouveau texte
+--[==[
+t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "_t")
+t("If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "_t")
+t([[Enables quick melee targeting auto attacking.
+Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], [[Enables quick melee targeting auto attacking.
+Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], "_t")
+t("When swapping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "When swapping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "_t")
+--]==]
 
+-- texte non traduit
+--[==[
+t("Simple", "Simple", "_t")
+t("Interface style", "Interface style", "_t")
+t("The number of lines to display in the combat log (for the Classic HUD).", "The number of lines to display in the combat log (for the Classic HUD).", "_t")
+t("#GOLD##{bold}#Log lines#WHITE##{normal}#", "#GOLD##{bold}#Log lines#WHITE##{normal}#", "_t")
+t("Log lines", "Log lines", "_t")
+t("From 5 to 50", "From 5 to 50", "_t")
+t("Normal", "Normal", "_t")
+--]==]
+
+-- ancien texte traduit
+t("If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "Si vous perdez plus que ce pourcentage de vie dans un tour, un avertissement s'affiche et toutes les entrées clavier/souris sont ignorées pendant 2 secondes pour éviter les erreurs.#WHITE#", "_t")
+t([[Enables quick melee targeting auto attacking.
+Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], [[Activer l'attaque automatique rapide ciblé en mêlée.
+Les talents qui nécessitent une cible de mêlée cibleront automatiquement et confirmeront s'il n'y a qu'une seule créature hostile dans les environs.#WHITE#]], "_t")
+t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", "Si désactivés, les objets activables ne seront pas ajoutés automatiquement à vos raccourcis clavier, vous devrez les faire glisser manuellement depuis l'écran d'inventaire.#WHITE#", "_t")
+t("When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "Lorsque vous échangez un objet avec un gadget, le gadget est automatiquement rattachér à l'objet nouvellement porté.#WHITE#", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/GraphicMode.lua"
 
-t("Cancel", "Annuler", "_t")
 t("Modern", "Moderne", "_t")
-t("ASCII", "ASCII", "_t")
 t("ASCII with background", "ASCII avec arrière-plan", "_t")
 t("Custom Tileset", "Tileset personnalisé", "_t")
-t("Altefcat/Gervais", "Altefcat/Gervais", "_t")
 t("Old RPG", "Vieux RPG", "_t")
 t("Change graphic mode", "Changer de mode graphique", "_t")
 t([[You can configure the game to use a custom tileset.
@@ -46546,36 +46759,29 @@ t("Folder: ", "Répertoire: ", "_t")
 t("Use moddable tiles (equipment showing on player)", "Utiliser un tileset modifiable (l'équipement est affiché sur le joueur)", "_t")
 t("Use advanced tiles (transitions, wide tiles, ...)", "Utiliser un tileset avancé (transitions, tileset large, ...)", "_t")
 t("Use custom tileset", "Utiliser un tileset personnalisé", "_t")
+t("Cancel", "Annuler", "_t")
 t("Tile size", "Taille", "_t")
 t("From 10 to 128", "De 10 à 128", "_t")
 t("Select style [current: %s]", "Sélection du style [actuel: %s]", "tformat")
 t("Select tiles size [current: %s]", "Taille du tileset [actuel: %s]", "tformat")
+t("Custom", "Personnalisé", "_t")
+-- texte non traduit
+--[==[
+t("ASCII", "ASCII", "_t")
+t("Altefcat/Gervais", "Altefcat/Gervais", "_t")
 t("64x64", "64x64", "_t")
 t("48x48", "48x48", "_t")
 t("32x32", "32x32", "_t")
 t("16x16", "16x16", "_t")
-t("Custom", "Personnalisé", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/LevelupDialog.lua"
 
-t("unknown", "inconnu", "_t")
-t("not enough stat", "stat insuffisantes", "_t")
-t("class", "classe", "_t")
-t("Physical save: ", "Sauvegarde physique: ", "_t")
-t("Mindpower: ", "Puissance mentale: ", "_t")
-t("Mental save: ", "Sauvegarde mentale: ", "_t")
-t("Spell save: ", "Sauvegarde des sorts: ", "_t")
-t("Physical power: ", "Puissance physique: ", "_t")
-t("Crit. chance: ", "Chance de crit: ", "_t")
-t("Accuracy: ", "Précision: ", "_t")
-t("Spellpower: ", "Puissance des sorts: ", "_t")
-t("Defense: ", "Défense: ", "_t")
-t("Finish", "Terminé", "_t")
 t("Levelup: %s, level %s", "Niveau supérieur: %s, Niveau %s", "tformat")
+t("Finish", "Terminé", "_t")
 t("Do you accept changes?", "Acceptez vous ces changements?", "_t")
-t("Impossible", "Impossible", "_t")
 t("You cannot learn this talent(s): ", "Vous ne pouvez pas apprendre ce talent: ", "_t")
 t([[#LIGHT_BLUE#Warning: You have increased some of your statistics or talent. Talent(s) actually sustained: 
  %s If these are dependent on one of the stats you changed, you need to re-use them for the changes to take effect.]], [[#LIGHT_BLUE#Attention: vous avez augmenté certaines de vos statistiques ou de vos talents. Talent(s) actuellement soutenu:
@@ -46588,6 +46794,9 @@ t("You cannot increase this stat further until next level!", "Vous ne pouvez pas
 t("Stat is at the maximum", "La stat est au maximum", "_t")
 t("You cannot increase this stat further!", "Vous ne pouvez pas augmenter davantage cette statistique!", "_t")
 t("You cannot take out more points!", "Vous ne pouvez pas retirer plus de points!", "_t")
+t("unknown", "inconnu", "_t")
+t("not enough stat", "stat insuffisantes", "_t")
+t("class", "classe", "_t")
 t("generic", "générique", "_t")
 t("Not enough %s talent points", "Pas assez de points de talent %s", "tformat")
 t("You have no %s talent points left!", "Vous n'avez plus de points de talent %s!", "tformat")
@@ -46662,12 +46871,10 @@ All of them require at least 50 in a core stat and many also have more special d
 Tous nécessitent au moins 50 dans une statistique de base et beaucoup ont également des exigences plus spéciales. Vous pouvez apprendre un nouveau prodige aux niveaux 25 et 42.]], "_t")
 t("You can use a category point to unlock a new inscription slot (up to 5 slots).", "Vous pouvez utiliser un point de catégorie pour débloquer un nouvel emplacement d'inscription (jusqu'à 5 emplacements).", "_t")
 t("Prodigies", "Prodiges", "_t")
-t("Inscriptions", "Inscriptions", "_t")
 t("You have learnt all the inscription slots you could.", "Vous avez appris tous les emplacements d'inscription possibles.", "_t")
 t("You can learn %d new slot(s). Do you wish to buy one with one category point?", "Vous pouvez débloquer %d nouveau(x) emplacement(s). Souhaitez-vous en acheter un avec un point de catégorie?", "tformat")
 t("Category points: %s", "Points de catégorie: %s", "tformat")
 t("You can still learn %d new slot(s) but you need a category point.", "Vous pouvez toujours débloquer %d nouveau(x) emplacement(s), mais vous avez besoin d'un point de catégorie.", "tformat")
-t("Stats: %s", "Stats: %s", "tformat")
 t("Class points: %s", "Points de classe: %s", "tformat")
 t("Generic points: %s", "Points génériques: %s", "tformat")
 t("Hide unlearnt categories", "Masquer les catégories non apprises", "_t")
@@ -46675,11 +46882,20 @@ t("Current value: ", "Valeur actuelle: ", "_t")
 t("Base value: ", "Valeur de base: ", "_t")
 t("Stat gives:", "Stat donne:", "_t")
 t("Max life: ", "Vie max: ", "_t")
+t("Physical save: ", "Sauvegarde physique: ", "_t")
 t("Healing mod: ", "Modif de soins: ", "_t")
 t("Max mana: ", "Mana max: ", "_t")
 t("Max stamina: ", "Endurance max: ", "_t")
 t("Max psi: ", "Psi max: ", "_t")
+t("Mindpower: ", "Puissance mentale: ", "_t")
+t("Mental save: ", "Sauvegarde mentale: ", "_t")
+t("Spell save: ", "Sauvegarde des sorts: ", "_t")
+t("Physical power: ", "Puissance physique: ", "_t")
 t("Max encumbrance: ", "Encombrement max: ", "_t")
+t("Crit. chance: ", "Chance de crit: ", "_t")
+t("Accuracy: ", "Précision: ", "_t")
+t("Spellpower: ", "Puissance des sorts: ", "_t")
+t("Defense: ", "Défense: ", "_t")
 t("Ranged defense: ", "Défense à distance: ", "_t")
 t("Shrug off criticals chance: ", "Bonus de critique ignoré: ", "_t")
 t("Class powers:", "Pouvoirs de classe:", "_t")
@@ -46703,22 +46919,22 @@ t("<Press 'x' to swap to simple display>", "<Appuyez sur 'x' pour passer à un a
 t("First talent level: ", "Premier niveau de talent: ", "_t")
 t("Next talent level", "Niveau de talent suivant", "_t")
 t("<Press 'x' to swap to advanced display>", "<Appuyez sur 'x' pour passer à l'affichage avancé>", "_t")
+-- texte non traduit
+--[==[
+t("Impossible", "Impossible", "_t")
+t("Inscriptions", "Inscriptions", "_t")
+t("Stats: %s", "Stats: %s", "tformat")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/LorePopup.lua"
 
-
 t("Lore found: #0080FF#%s", "Chronique trouvé: #0080FF#%s", "tformat")
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/MapMenu.lua"
 
-t("Show inventory", "Afficher l'inventaire", "_t")
-t("Auto-explore", "Explorer automatiquement", "_t")
-t("Inventory", "Inventaire", "_t")
-t("Actions", "Actions", "_t")
 t("%s: Inventory", "%s: Inventaire", "tformat")
 t("Change level", "Changer de niveau", "_t")
 t("Pickup item", "Ramasser un objet", "_t")
@@ -46727,45 +46943,48 @@ t("Control", "Contrôle", "_t")
 t("Give order", "Donner un ordre", "_t")
 t("Target player", "Cible le joueur", "_t")
 t("Lua inspect [Actor]", "Lua inspect [Acteur]", "_t")
-t("Lua inspect [Terrain]", "Lua inspect [Terrain]", "_t")
 t("Lua inspect [Trap]", "Lua inspect [Piège]", "_t")
-t("Lua inspect [Projectile]", "Lua inspect [Projectile]", "_t")
+t("Show inventory", "Afficher l'inventaire", "_t")
 t("Rest a while", "Se reposer un peu", "_t")
+t("Auto-explore", "Explorer automatiquement", "_t")
+t("Inventory", "Inventaire", "_t")
 t("Quest Log", "Journal de quête", "_t")
 t("Inspect Creature", "Inspecter la créature", "_t")
-t(" ", " ", "_t")
 t("Link creature in chat", "Linker la créature dans le chat", "_t")
 t("Levelup!", "Niveau supérieur!", "_t")
+-- texte non traduit
+--[==[
+t("Actions", "Actions", "_t")
+t("Lua inspect [Terrain]", "Lua inspect [Terrain]", "_t")
+t("Lua inspect [Projectile]", "Lua inspect [Projectile]", "_t")
+t(" ", " ", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/PartyOrder.lua"
 
-t("none", "aucun", "_t")
-t("default", "défaut", "_t")
-t("Dismiss", "Refuser", "_t")
-t("Pet the hound", "Caresser le chien", "_t")
 t("Wait a few turns", "Attendre quelques tours", "_t")
 t("Where is the portal?", "Où est le portail?", "_t")
 t("Set the target [current: %s]", "Séléctionner la cible [actuelle: %s]", "tformat")
+t("none", "aucun", "_t")
 t("Set behavior [current: %s]", "Définir le comportement [actuel: %s]", "tformat")
+t("default", "défaut", "_t")
 t("Set the leash anchor [current: %s]", "Définir l'ancre de laisse [actuelle: %s]", "tformat")
 t("Set the leash distance [current: %d]", "Réglez la distance de la laisse [actuelle: %d]", "tformat")
 t("Define tactical talents usage", "Définir l'utilisation des talents tactiques", "_t")
 t("Rename", "Renommer", "_t")
+t("Dismiss", "Refuser", "_t")
+t("Pet the hound", "Caresser le chien", "_t")
 t("Order: %s", "Ordre: %s", "tformat")
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/PartySelect.lua"
 
-
 t("Switch to which character?", "Passer à quel personnage?", "_t")
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/PartySendItem.lua"
-
 
 t("Give item to a party member", "Donner un objet à un membre du groupe", "_t")
 t("%s cannot receive items while asleep!", "%s ne peut pas recevoir d'objets pendant son sommeil!", "log")
@@ -46774,10 +46993,8 @@ t("You give %s to %s.", "Vous donnez %s à %s.", "log")
 t(" #YELLOW#[SLEEPING]#LAST#", " #YELLOW#[ENDORMI]#LAST#", "_t")
 t(" #YELLOW#[NO ROOM]#LAST#", " #YELLOW#[PAS DE PLACE]#LAST#", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/mod/dialogs/QuestPopup.lua"
-
 
 t("#LIGHT_GREEN#New#LAST# Quest!", "#LIGHT_GREEN#Nouvelle#LAST# quête!", "_t")
 t("Quest #AQUAMARINE#Updated!", "Quête #AQUAMARINE#mise à jour!", "_t")
@@ -46787,19 +47004,15 @@ t("Quest #CIMSON#Failed!", "Quête #CIMSON#échouée!", "_t")
 t("#ANTIQUE_WHITE#Quest: #AQUAMARINE#%s", "#ANTIQUE_WHITE#Quête: #AQUAMARINE#%s", "tformat")
 t("#ANTIQUE_WHITE#(See your Journal for further details or click here)", "#ANTIQUE_WHITE#(Regardez votre journal pour plus de détails ou cliquez ici)", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/mod/dialogs/SentientWeapon.lua"
 
-t("Strength", "Force", "_t")
-t("Dexterity", "Dextérité", "_t")
 t("Points left: #00FF00#%d#WHITE#", "Points restant: #00FF00#%d#WHITE#", "_t")
 t([[Keyboard: #00FF00#up key/down key#FFFFFF# to select a stat; #00FF00#right key#FFFFFF# to increase stat; #00FF00#left key#FFFFFF# to decrease a stat.
 Mouse: #00FF00#Left click#FFFFFF# to increase a stat; #00FF00#right click#FFFFFF# to decrease a stat.
 ]], [[Clavier: #00FF00#touche haut/touche bas#FFFFFF# pour séléctionner une stat; #00FF00#touche droite#FFFFFF# pour augmenter la stat; #00FF00#touche gauche#FFFFFF# pour diminuer la stat.
 Souris: #00FF00#clic gauche#FFFFFF# pour augmenter la stat; #00FF00#clic droit#FFFFFF# pour diminuer la stat.
 ]], "_t")
-t("Stat", "Stat", "_t")
 t("Value", "Valeur", "_t")
 t("Spellpower", "Puissance de sort", "_t")
 t("Spellcrit", "Crit de sort", "_t")
@@ -46807,13 +47020,19 @@ t("Not enough stat points", "Pas assez de points de stats", "_t")
 t("You have no stat points left!", "Vous n'avez plus de points de stats!", "_t")
 t("Stat is at the maximum", "La stat est au maximum", "_t")
 t("You can not increase this stat further!", "Vous ne pouvez plus augmenter davantage cette stat!", "_t")
-t("Impossible", "Impossible", "_t")
 t("You cannot take out more points!", "Vous ne pouvez pas retirer plus de points!", "_t")
 t("Stats points left: #00FF00#%s", "Point de stat restant: #00FF00#%s", "tformat")
+t("Strength", "Force", "_t")
+t("Dexterity", "Dextérité", "_t")
 t("Magic", "Magie", "_t")
 t("Willpower", "Volonté", "_t")
 t("Cunning", "Ruse", "_t")
+-- texte non traduit
+--[==[
+t("Stat", "Stat", "_t")
+t("Impossible", "Impossible", "_t")
 t("Constitution", "Constitution", "_t")
+--]==]
 
 
 ------------------------------------------------
@@ -46824,7 +47043,6 @@ t("-- Unknown --", "-- Inconnu --", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowChatLog.lua"
 
-
 t("Game Log", "Historique du jeu", "_t")
 t("Right click to inspect.", "Clic droit pour inspecter.", "_t")
 t("Show infos", "Afficher les infos", "_t")
@@ -46834,28 +47052,30 @@ t("Open profile(in browser)", "Ouvrir le profil (dans le navigateur)", "_t")
 t("Report for bad behavior", "Signaler un mauvais comportement", "_t")
 t("Open charsheet(in browser)", "Ouvrir la feuille de caractères (dans le navigateur)", "_t")
 t("User: ", "Utilisateur: ", "tformat")
-t("Action", "Action", "_t")
 t("Ignore user", "Ignorer l'utilisateur", "_t")
 t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de: %s", "tformat")
 t("Reason to report: %s", "Raison du signalement: %s", "tformat")
 t("Reason", "Raison", "_t")
+-- texte non traduit
+--[==[
+t("Action", "Action", "_t")
 t("#VIOLET#", "#VIOLET#", "log")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowEquipInven.lua"
 
 t("Inventory", "Inventaire", "_t")
-t("Tooltip %s", "Info-bulle %s", "log")
-t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
 t("Main Set", "Armes 1", "_t")
 t("Off Set", "Armes 2", "_t")
+t("Tooltip %s", "Info-bulle %s", "log")
 t("locked", "verouillé", "_t")
 t("unlocked", "dévérouillé", "_t")
 t("up", "haut", "log")
 t("No Inventory", "Pas d'inventaire", "_t")
 t("%s Has no defined main inventory", "%s n'a pas défini d'inventaire principal", "tformat")
-
+t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowEquipment.lua"
@@ -46864,14 +47084,13 @@ t("Equipment", "Équipement", "_t")
 t("Main Set", "Armes 1", "_t")
 t("Off Set", "Armes 2", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowIngredients.lua"
 
-t("Category", "Catégorie", "_t")
-t("Quantity", "Quantité", "_t")
 t("Ingredients collected", "Ingrédients collectés", "_t")
 t("Ingredient", "Ingrédient", "_t")
+t("Category", "Catégorie", "_t")
+t("Quantity", "Quantité", "_t")
 t([[#GOLD#Category:#AQUAMARINE# %s
 #GOLD#Ingredient:#0080FF# %s
 #GOLD#Quantity:#0080FF# %s
@@ -46879,7 +47098,6 @@ t([[#GOLD#Category:#AQUAMARINE# %s
 #GOLD#Ingrédient:#0080FF# %s
 #GOLD#Quantité:#0080FF# %s
 #GOLD#Texte:#ANTIQUE_WHITE# %s]], "tformat")
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowInventory.lua"
@@ -46889,23 +47107,24 @@ t("Inventory", "Inventaire", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowLore.lua"
 
-t("Category", "Catégorie", "_t")
 t("Lore", "Chronique", "_t")
 t("Search: ", "Chercher: ", "_t")
-t("", "", "_t")
+t("Category", "Catégorie", "_t")
 t([[#GOLD#Category:#AQUAMARINE# %s
 #GOLD#Found as:#0080FF# %s
 #GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Catégorie:#AQUAMARINE# %s
 #GOLD#Trouvé comme:#0080FF# %s
 #GOLD#Texte:#ANTIQUE_WHITE# %s]], "tformat")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowMap.lua"
 
-
 t("Map: #0080FF#%s", "Carte: #0080FF#%s", "tformat")
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowStore.lua"
@@ -46914,40 +47133,45 @@ t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
 t("Price", "Prix", "_t")
 t("Store", "Magasin", "_t")
-t("", "", "_t")
 t(" (pays up to %0.2f gold, Your Gold: %0.2f)", " (payez jusqu'à %0.2f d'or, votre or: %0.2f)", "tformat")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/SwiftHands.lua"
 
-t("Inventory", "Inventaire", "_t")
 t("Managed readied tools", "Gérer les outils préparés", "_t")
-t("", "", "_t")
 t("Readied tools", "Outils préparés", "_t")
+t("Inventory", "Inventaire", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/SwiftHandsUse.lua"
 
 t("Inventory", "Inventaire", "_t")
-t("", "", "_t")
 t("Tool", "Outil", "_t")
 t("Cooldown", "Rechargement", "_t")
 t("Ready", "Prêt", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
 t("%d/%d", "%d/%d", "tformat")
 t("#RED#%d/%d", "#RED#%d/%d", "tformat")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/TrapsSelect.lua"
 
-t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#Vous ne pouvez pas préparer ce piège: %s.", "logPlayer")
 t("Select Traps", "Sélection des pièges", "_t")
 t("Select traps to prepare:", "Séléctionnez les pièges à préparer:", "_t")
-t([[#GOLD#%s#LAST#
-%s]], [[#GOLD#%s#LAST#
-%s]], "tformat")
 t("starting trap selection dialog", "démarrage de la sélection des pièges", "log")
 t(" (replacing instant trigger)", " (remplacement du déclencheur instantané)", "_t")
 t(" (primed trigger)", " (déclencheur amorcé)", "_t")
@@ -46955,17 +47179,23 @@ t(" (prepared)", " (préparé)", "_t")
 t(" (preparing)", " (préparation)", "_t")
 t(" (dismantling)", " (démantèlement)", "_t")
 t(" (need more skill)", " (besoin de plus de talent)", "_t")
-t(" (%s)", " (%s)", "tformat")
 t("%s) Tier %d: %s%s", "%s) Palier %d: %s%s", "tformat")
+t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#Vous ne pouvez pas préparer ce piège: %s.", "logPlayer")
 t("#LIGHT_BLUE#You need more skill to prepare this trap.", "#LIGHT_BLUE#Vous avez besoin de plus de talent pour préparer ce piège.", "logPlayer")
 t("#LIGHT_BLUE#Preparing trap with normal trigger.", "#LIGHT_BLUE#Préparation du piège avec un déclanchement normale.", "logPlayer")
 t("Accept these selections", "Acceptez ces sélections", "_t")
 t("#LIGHT_BLUE#You cannot prepare more than %d traps.", "#LIGHT_BLUE#Vous ne pouvez pas préparer plus de %d pièges.", "logPlayer")
+-- texte non traduit
+--[==[
+t([[#GOLD#%s#LAST#
+%s]], [[#GOLD#%s#LAST#
+%s]], "tformat")
+t(" (%s)", " (%s)", "tformat")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UberTalent.lua"
-
 
 t("Prodigies: %s", "Prodiges: %s", "tformat")
 t([[#LIGHT_GREEN#Number available: %d#LAST#
@@ -46977,22 +47207,22 @@ t("\
 Evolutions are special prodigies specific to a class or race. Only one evolution can be choosen, if any are available at all.", "\
 Les évolutions sont des prodiges spéciaux spécifiques à une classe ou à une race. Une seule évolution peut être choisie.", "_t")
 t("#{bold}##GOLD#Prodigies#{normal}#", "#{bold}##GOLD#Prodiges#{normal}#", "_t")
+-- texte non traduit
+--[==[
 t("#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", "#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UnlockDialog.lua"
 
-
 t("#VIOLET#Option unlocked: %s", "#VIOLET#Option déverrouillée: %s", "logPlayer")
 t("Option unlocked: %s", "Option déverrouillée: %s", "tformat")
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UseItemDialog.lua"
 
 t("You must wear this object to use it!", "Vous devez porter cet objet pour l'utiliser!", "_t")
-t("Impossible", "Impossible", "_t")
 t("Drop how many?", "En laisser tomber combien?", "_t")
 t("1 to %d", "1 à %d", "tformat")
 t("Attach to item", "Attacher à l'objet", "_t")
@@ -47015,21 +47245,22 @@ t("Link item in chat", "Afficher l'objet dans le chat", "_t")
 t("Lua inspect", "Inspection Lua", "_t")
 t("Tag", "Étiquette", "_t")
 t("Untag", "Enlever l'étiquette", "_t")
+-- texte non traduit
+--[==[
+t("Impossible", "Impossible", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UseTalents.lua"
 
 t("Active", "Activé", "_t")
-t("Passive", "Passif", "_t")
-t("Status", "Statut", "_t")
-t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
-t("%s assigned to hotkey %s", "%s assigné au raccourci %s", "tformat")
 t("%s turns", "%s tours", "tformat")
 t("Unavailable", "Non disponible", "_t")
 t("Object", "Objet", "_t")
 t("Sustaining", "Soutenir", "_t")
 t("Sustain", "Soutenu", "_t")
+t("Passive", "Passif", "_t")
 t("Use Talents: %s", "Talents Utilisé: %s", "tformat")
 t([[You can bind a non-passive talent to a hotkey by pressing the corresponding hotkey while selecting a talent or by right-clicking on the talent.
 Check out the keybinding screen in the game menu to bind hotkeys to a key (default is 1-0 plus control, shift, or alt).
@@ -47038,10 +47269,11 @@ Right click or press '~' to configure talent confirmation and automatic use.
 Consultez l'écran des raccourcis claviers dans le menu pour lier un raccourci clavier à une touche (par défaut, 1-0 plus control, shift ou alt).
 Cliquez avec le bouton droit ou appuyez sur "~" pour configurer la confirmation et l'utilisation automatique du talent.
 ]], "_t")
-t("", "", "_t")
-t("Talent", "Talent", "_t")
+t("Status", "Statut", "_t")
 t("Hotkey", "Raccourci clavier", "_t")
 t("Mouse Click", "Clic de souris", "_t")
+t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
+t("%s assigned to hotkey %s", "%s assigné au raccourci %s", "tformat")
 t("Unbind", "Désassigner", "_t")
 t("Bind to left mouse click (on a target)", "Assigner au clic gauche de la souris (sur une cible)", "_t")
 t("Bind to middle mouse click (on a target)", "Assigner au clic central de la souris (sur une cible)", "_t")
@@ -47075,17 +47307,16 @@ t("#{bold}#Unavailable talents#{normal}#", "#{bold}#Talents indisponibles#{norma
 t("All talents you have that do not have enough resources, or satisfy other dependencies.", "Tous les talents dont vous disposez qui ne disposent pas de suffisamment de ressources ou qui satisfont d'autres dépendances.", "_t")
 t("#{bold}#Passive talents#{normal}#", "#{bold}#Talents passifs#{normal}#", "_t")
 t("All your passive talents, they are always active.", "Tous vos talents passifs, ils sont toujours actifs.", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+t("Talent", "Talent", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AdvanceActor.lua"
 
-t("Accept", "Accepter", "_t")
-t("Cancel", "Annuler", "_t")
-t("%d stat point(s)", "%d point(s) de stats", "tformat")
-t("%d class talent point(s)", "%d point(s) de classe de talent", "tformat")
-t("%d generic talent point(s)", "%d point(s) de talent générique", "tformat")
-t("%d category point(s)", "%d point(s) de catégorie", "tformat")
 t("DEBUG -- Levelup Actor: [%s] %s", "DEBUG -- Augmentez un personnage: [%s] %s", "tformat")
 t([[Levelup an actor.
 Optionally set Stat levels, learn all talents possible, and gain points to spend on Levelup. 
@@ -47100,7 +47331,6 @@ t("Restore: none", "Restorer: aucun", "_t")
 t("#LIGHT_BLUE#Restoring [%s]%s from backup version %d", "#LIGHT_BLUE#Restoration [%s]%s de la version de sauvegarde %d", "log")
 t("Gain points for stats, talents, and prodigies (unlimited respec)", "Gagnez des points pour les statistiques, les talents et les prodiges (restructuration illimité)", "_t")
 t(" Force all BASE stats to: ", " Forcer toutes les stats de BASE à: ", "_t")
-t("", "", "_t")
 t(" Force all BONUS stats to: ", " Forcer toutes les stats BONUS à: ", "_t")
 t("Learn Talents ", "Apprendre les talents ", "_t")
 t("Unlock & Learn all available talents to level: ", "Débloquez et apprenez tous les talents disponibles au niveau: ", "_t")
@@ -47109,22 +47339,31 @@ t("Ignore requirements", "Ignorer les conditions requises", "_t")
 t("Force all talent mastery levels to (0.1-5.0): ", "Forcer tous les niveaux de maîtrise des talents à (0.1-5.0): ", "_t")
 t("no change", "aucun changement", "_t")
 t("Unlock all talent types (slow)", "Débloquez tous les types de talents (lent)", "_t")
+t("Accept", "Accepter", "_t")
+t("Cancel", "Annuler", "_t")
 t("#LIGHT_BLUE#AdvanceActor inputs: %s", "#LIGHT_BLUE#Entrées AdvanceActor: %s", "log")
 t("%s #GOLD#Forcing all Base Stats to %s", "%s #GOLD#Forcer toutes les statistiques de base à %s", "log")
 t("%s #GOLD#Resetting all talents_types_mastery to %s", "%s #GOLD#Réinitialiser tous les talents_types_mastery à %s", "log")
 t("%s #GOLD#Unlocking All Talent Types", "%s #GOLD#Débloquer tous les types de talents", "log")
-t("#LIGHT_BLUE#%s -- %s", "#LIGHT_BLUE#%s -- %s", "log")
 t("#GOLD#Checking %s Talents (%s)", "#GOLD#Vérification des talents de %s (%s)", "log")
 t("#LIGHT_BLUE#Talent %s learned to level %d", "#LIGHT_BLUE#Talent %s appris au niveau %d", "log")
 t("%s #GOLD#Forcing all Bonus Stats to %s", "%s #GOLD#Forcer toutes les statistiques bonus à %s", "log")
+t("%d stat point(s)", "%d point(s) de stats", "tformat")
+t("%d class talent point(s)", "%d point(s) de classe de talent", "tformat")
+t("%d generic talent point(s)", "%d point(s) de talent générique", "tformat")
+t("%d category point(s)", "%d point(s) de catégorie", "tformat")
 t("#ORCHID#%d prodigy point(s)#LAST#", "#ORCHID#%d point(s) de prodige#LAST#", "tformat")
 t("#LIGHT_BLUE#%s has %s to spend", "#LIGHT_BLUE#%s a %s à dépenser", "log")
 t(", and ", ", et ", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+t("#LIGHT_BLUE#%s -- %s", "#LIGHT_BLUE#%s -- %s", "log")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AdvanceZones.lua"
-
 
 t("Advance Through Zones", "Avancer à travers les zones", "_t")
 t("Enter a comma delimited list of zones or zone tiers to clear", "Entrez une liste délimitée par des virgules de zones ou de niveaux de zone à effacer", "_t")
@@ -47134,31 +47373,30 @@ t("Unable to level change to floor 1 of %s", "Impossible de changer le niveau à
 t("%s is not valid for autoclear", "%s n'est pas valide pour le nettoyage automatique", "log")
 t("Unable to level change to floor %d of %s", "Impossible de modifier le niveau de l'étage %d de %s", "log")
 
-
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AlterFaction.lua"
 
-t("friendly", "amicale", "_t")
-t("neutral", "neutre", "_t")
 t("DEBUG -- Alter Faction", "DEBUG -- Modifier la faction", "_t")
 t("Alter: %s", "Modifier: %s", "tformat")
 t("Alter to which state:", "Modifier en quel état:", "_t")
+t("friendly", "amicale", "_t")
+t("neutral", "neutre", "_t")
+-- texte non traduit
+--[==[
 t("hostile", "hostile", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/ChangeZone.lua"
 
-
 t("DEBUG -- Change Zone", "DEBUG -- Changer de Secteur", "_t")
 t("Zone: %s", "Secteur: %s", "tformat")
 t("Level %s-%s", "Niveau %s-%s", "tformat")
 
-
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/CreateItem.lua"
 
-t("Cancel", "Annuler", "tformat")
 t("DEBUG -- Create Object", "DEBUG -- Création d'objet", "_t")
 t("Load from other zones ", "Charger à partir d'autres zones ", "_t")
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
@@ -47169,7 +47407,6 @@ t("#CRIMSON#==Resolved Example==#LAST#", "#CRIMSON#==Exemple résolu==#LAST#", "
 t([[#LIGHT_BLUE#Object %s could not be generated or identified. Error:
 %s]], [[#LIGHT_BLUE#L'objet %s n'a pas pu être généré ou identifié. Erreur:
 %s]], "log")
-t("#GOLD#%s#LAST#", "#GOLD#%s#LAST#", "tformat")
 t("Object could not be resolved/identified.", "L'objet n'a pas pu être résolu/identifié.", "_t")
 t([[Error:
 %s]], [[Erreur:
@@ -47184,12 +47421,12 @@ t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(joueur)#LAST#", "_t")
 t("Drop @ (%s, %s)%s", "Lâcher @ (%s, %s)%s", "tformat")
 t("#LIGHT_BLUE#Dropped %s at (%d, %d)", "#LIGHT_BLUE#Lâcher %s à (%d, %d)", "log")
 t("NPC Inventory", "Inventaire du PNJ", "tformat")
+t("Cancel", "Annuler", "tformat")
 t("#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "#LIGHT_BLUE#OBJET:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, emplacement %s} at (%s, %s)#LAST#", "log")
 t("Number of items to make", "Nombre d'objets à fabriquer", "_t")
 t("Enter 1-100%s", "De 1-100%s", "tformat")
 t(", or 0 for the example item", ", ou 0 pour créer un exemple", "_t")
 t("#LIGHT_BLUE# Creating %d items:", "#LIGHT_BLUE# Créeation de %d objets:", "log")
-t("Ego", "Ego", "_t")
 t("Add an ego enhancement if possible?", "Ajouter un ego si possible?", "_t")
 t("#LIGHT_BLUE#Created %s", "#LIGHT_BLUE#Crée %s", "log")
 t("Greater Ego", "Grand Ego", "_t")
@@ -47198,28 +47435,30 @@ t(" #GOLD#All Artifacts#LAST#", " #GOLD#Tous les Artefacts#LAST#", "_t")
 t("#LIGHT_BLUE#Creating All Artifacts.", "#LIGHT_BLUE#Créer tous les artefacts.", "log")
 t("#LIGHT_BLUE#%d artifacts created.", "#LIGHT_BLUE#%d artefacts créés.", "log")
 t(" #YELLOW#Random Object#LAST#", " #YELLOW#Objet aléatoire#LAST#", "_t")
+-- texte non traduit
+--[==[
+t("#GOLD#%s#LAST#", "#GOLD#%s#LAST#", "tformat")
+t("Ego", "Ego", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/CreateTrap.lua"
 
-
 t("DEBUG -- Create Trap", "DEBUG -- Crée un piège", "_t")
 t("#LIGHT_BLUE#Trap [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Piège [%s]%s occupe déjà (%d, %d)", "log")
 t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Ajouté %s[%s]%s à (%d, %d)", "log")
 
-
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/DebugMain.lua"
 
-t("Cancel", "Annuler", "_t")
 t("Debug/Cheat! It's BADDDD!", "Debug/Triche! C'est MAAAAAL!", "_t")
 t("#LIGHT_BLUE#God mode OFF", "#LIGHT_BLUE#Mode Dieu OFF", "log")
 t("#LIGHT_BLUE#God mode ON", "#LIGHT_BLUE#Mode Dieu ON", "log")
 t("#LIGHT_BLUE#Demi-God mode OFF", "#LIGHT_BLUE#Mode Demi-Dieu OFF", "log")
 t("#LIGHT_BLUE#Demi-God mode ON", "#LIGHT_BLUE#Mode Demi-Dieu ON", "log")
 t("#LIGHT_BLUE#Revealing Map.", "#LIGHT_BLUE#Révéler la carte.", "log")
-t("Zone: %s", "Zone: %s", "tformat")
+t("Zone: %s", "Secteur: %s", "tformat")
 t("Level 1-%s", "Niveau 1-%s", "tformat")
 t("Kill or Remove", "Tuer ou Enlever", "_t")
 t("Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "Enlever toutes les créatures(n'appartenant pas au groupe), ou les tuer pour le joueur(donne de l'expérience et laisse tomber le butin)?", "_t")
@@ -47230,6 +47469,7 @@ t("Removed", "Enlevé", "_t")
 t("Killed", "Tué", "_t")
 t("Remove", "Enlever", "_t")
 t("Kill", "Tuer", "_t")
+t("Cancel", "Annuler", "_t")
 t("Change Zone", "Changer de zone", "_t")
 t("Change Level", "Changer de niveau", "_t")
 t("Reveal all map", "Révéler toute la carte", "_t")
@@ -47249,36 +47489,38 @@ t("Spawn Event", "Faire apparaître un événement", "_t")
 t("Endgamify", "Passer en mode Fin de partie", "_t")
 t("Reload/regenerate Zone and level", "Recharger/Régénérer zone et niveau", "_t")
 t("Automatically Clear Zones", "Automatiquement nettoyer les zones", "_t")
+-- nouveau texte
+--[==[
+t("#LIGHT_BLUE#Weakdamage mode OFF", "#LIGHT_BLUE#Weakdamage mode OFF", "log")
+t("#LIGHT_BLUE#Weakdamage mode ON", "#LIGHT_BLUE#Weakdamage mode ON", "log")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/Endgamify.lua"
-
 
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
  %s]], [[#ORANGE# Création d'objet: impossible de charger tous les objets du fichier %s:#GREY#
  %s]], "log")
 t("Failed to generate %s", "Échec de la génération %s", "log")
 
-
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/GrantQuest.lua"
 
-
 t("Debug -- Grant/Alter Quest", "Debug -- Accorder/Modifier une quête", "_t")
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/PlotTalent.lua"
 
-
 t("Values plot for: %s (mastery %0.1f)", "GTracé des valeurs pour: %s (maîtrise %0.1f)", "tformat")
+-- texte non traduit
+--[==[
 t("TL: ", "TL: ", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/RandomActor.lua"
-
 
 t("#LIGHT_GREEN#(From %s, line %s):#LAST#", "#LIGHT_GREEN#(De %s, ligne %s):#LAST#", "tformat")
 t("DEBUG -- Create Random Actor", "DEBUG -- Crée un acteur aléatoire", "_t")
@@ -47331,17 +47573,16 @@ t([[#LIGHT_BLUE#ERROR: Random Boss could not be generated with data [%s].
  Error:%s]], [[#LIGHT_BLUE#ERREUR: le boss aléatoire n'a pas pu être généré avec ces données [%s].
  Erreur:%s]], "log")
 
-
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/RandomObject.lua"
 
+t("#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "#LIGHT_GREEN#(De %-10.60s, ligne: %s):#LAST#", "tformat")
 t("unknown", "inconnu", "_t")
 t("None", "Aucune", "_t")
-t("Equipment", "Équipement", "_t")
-t("Inventory", "Inventaire", "_t")
-t("#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "#LIGHT_GREEN#(De %-10.60s, ligne: %s):#LAST#", "tformat")
 t("Don't apply a resolver", "N'appliquez pas de résolveur", "_t")
+t("Equipment", "Équipement", "_t")
 t("Object will be equipped if possible, otherwise added to main inventory", "L'objet sera équipé si possible, sinon ajouté à l'inventaire principal", "_t")
+t("Inventory", "Inventaire", "_t")
 t("Object added to main inventory", "Objet ajouté à l'inventaire principal", "_t")
 t("Drops", "Abandonner", "_t")
 t("Object added to main inventory (dropped on death)", "Objet ajouté à l'inventaire principal (abandonné à la mort)", "_t")
@@ -47373,7 +47614,6 @@ Raccourcis clavier: #GOLD#'F1'#LAST# :: aide contextuelle, #GOLD#'C'#LAST# :: Fe
 ]], "_t")
 t("The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "Le #LIGHT_GREEN#Filtre aléatoire#LAST# contrôle la génération aléatoire d'un objet normal.", "tformat")
 t("#GREY#None#LAST#", "#GREY#Aucun#LAST#", "_t")
-t("%s: %s", "%s: %s", "tformat")
 t("Object", "Objet", "_t")
 t("Generate", "Générer", "_t")
 t("Add Object", "Ajouter un objet", "_t")
@@ -47426,18 +47666,19 @@ t([[#LIGHT_BLUE#ERROR accepting object with resolver %s.
  Error:%s]], [[#LIGHT_BLUE#ERREUR accepter un objet avec le résolveur %s.
  Erreur:%s]], "log")
 t("#LIGHT_BLUE#Working Actor set to [%s]%s at (%d, %d)", "#LIGHT_BLUE#Acteur de travail défini sur [%s]%s à (%d, %d)", "log")
+-- texte non traduit
+--[==[
+t("%s: %s", "%s: %s", "tformat")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/SpawnEvent.lua"
 
-
 t("DEBUG -- Spawn Event", "DEBUG -- Apparaitre d'un événement", "_t")
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/SummonCreature.lua"
-
 
 t("DEBUG -- Summon Creature", "DEBUG -- Invoquer une créature", "_t")
 t("#LIGHT_BLUE# no actor to place.", "#LIGHT_BLUE# Pas d'acteur à placer.", "log")
@@ -47448,23 +47689,33 @@ t("#PINK#Test Dummy#LAST#", "#PINK#Mannequin de Test#LAST#", "_t")
 t("Test Dummy", "Mannequin de Test", "_t")
 t("Test dummy.", "Mannequin de test.", "_t")
 
+------------------------------------------------
+section "mod-tome/mod/dialogs/elements/ChatPortrait.lua"
+
+
+-- texte non traduit
+--[==[
+t("???", "???", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/orders/Behavior.lua"
-
 
 t("Set behavior: %s", "Définir le comportement: %s", "tformat")
 t("%s behavior set to %s.", "%s comportement défini sur %s.", "logPlayer")
 t("Default", "Défaut", "_t")
 t("Melee", "Mêlée", "_t")
 t("Ranged", "Distance", "_t")
-t("Tank", "Tank", "_t")
 t("Standby", "mode veille", "_t")
+-- texte non traduit
+--[==[
+t("Tank", "Tank", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/orders/Talents.lua"
-
 
 t("Define tactical talents usage", "Définir l'utilisation des talents tactiques", "_t")
 t([[%s is listening attentively, and wants to know what talents to use.
@@ -47474,31 +47725,36 @@ Word travels fast in Maj'Eyal, and if %s is a summon all future summons of the s
 Vous pouvez modifier le poids tactiques de divers talents pour augmenter ou diminuer leur utilisation. Les pondérations sont multiplicatives (zéro désactivera le talent) et relatives (tout changer à un poids de 2 ne modifiera pas la façon dont les talents sont utilisés les uns par rapport aux autres).
 Votre parole voyage rapidement dans Maj'Eyal, et si %s est une invocation, toutes les futures invocations du même type se souviendront de vos préférences.
 ]], "tformat")
-t("", "", "_t")
 t("Talent Name", "Nom du talent", "_t")
 t("Weight", "Poids", "_t")
 t("Enter the talent weight multiplier", "Entrez le multiplicateur de poids du talent", "_t")
 t("0 is off, 1 is normal", "0 est désactivé, 1 est normal", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/CommonData.lua"
 
-t("unknown", "inconnu", "_t")
 t("Character's Skin", "Peau du personnage", "_t")
 t("Character's Hair", "Cheveux du personnage", "_t")
 t("Character's Facial Features", "Caractéristiques faciales du personnage", "_t")
 t("Character's Aura", "Aura du personnage", "_t")
+t("unknown", "inconnu", "_t")
+-- texte non traduit
+--[==[
 t("#GREY#Invisible#LAST#", "#GREY#Invisible#LAST#", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/Shimmer.lua"
 
-t("Name", "Nom", "_t")
-t("Cancel", "Annuler", "_t")
 t("Shimmer object: %s", "Objet chatoyant: %s", "tformat")
 t("Search: ", "Chercher: ", "_t")
+t("Name", "Nom", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
 #{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
@@ -47509,24 +47765,30 @@ t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
 t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
 t("shimmer ingame", "chatoyance en jeu", "_t")
 t("Donate", "Donation", "_t")
+t("Cancel", "Annuler", "_t")
+-- texte non traduit
+--[==[
 t("#GREY#[Invisible]", "#GREY#[Invisible]", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/ShimmerDemo.lua"
 
 
+-- texte non traduit
+--[==[
 t("Shimmer Demo", "Shimmer Demo", "_t")
 t("#GREY#[Invisible]", "#GREY#[Invisible]", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/ShimmerOther.lua"
 
-t("Name", "Nom", "_t")
-t("Cancel", "Annuler", "_t")
 t("Shimmer: %s", "Chatoyer: %s", "tformat")
 t("Search: ", "Chercher: ", "_t")
+t("Name", "Nom", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
 #{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
@@ -47537,16 +47799,15 @@ t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
 t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
 t("shimmer ingame", "chatoyance en jeu", "_t")
 t("Donate", "Donation", "_t")
+t("Cancel", "Annuler", "_t")
 t("#GREY#[Default]", "#GREY#[Défaut]", "_t")
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/ShimmerOutfits.lua"
 
-t("Name", "Nom", "_t")
-t("Cancel", "Annuler", "_t")
 t("Shimmer Sets: %s", "Ensembles chatoyant: %s", "tformat")
 t("Search: ", "Chercher: ", "_t")
+t("Name", "Nom", "_t")
 t([[You can switch your appearance to a saved set of shimmers.
 #{bold}#This is a purely cosmetic change.#{normal}#]], [[Vous pouvez changer votre apparence en un ensemble enregistré de chatoiements.
 #{bold}#C'est un changement purement cosmétique.#{normal}#]], "_t")
@@ -47556,16 +47817,15 @@ t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
 t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
 t("shimmer ingame", "chatoyance en jeu", "_t")
 t("Donate", "Donation", "_t")
+t("Cancel", "Annuler", "_t")
 t("#GOLD#[save current outfit]", "#GOLD#[enregistrer la tenue actuelle]", "_t")
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/ShimmerRemoveSustains.lua"
 
+t("Shimmer: Remove Sustains Effects", "Chatoyance: supprimer les effets soutenus", "_t")
 t("Name", "Nom", "_t")
 t("Active", "Activé", "_t")
-t("Cancel", "Annuler", "_t")
-t("Shimmer: Remove Sustains Effects", "Chatoyance: supprimer les effets soutenus", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
 #{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
@@ -47580,99 +47840,110 @@ t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
 t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
 t("shimmer ingame", "chatoyance en jeu", "_t")
 t("Donate", "Donation", "_t")
+t("Cancel", "Annuler", "_t")
 t("#LIGHT_RED#no", "#LIGHT_RED#non", "_t")
 t("#LIGHT_GREEN#yes", "#LIGHT_GREEN#oui", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/ChronomancyContingency.lua"
-
 
 t("Contingency", "Contingence", "_t")
 t([[You may select a spell for Contingency to automatically use when your life falls below a percentage.  Only active spells that do not require a target may be chosen.
 ]], [[Vous pouvez sélectionner un sort pour Contingence à utiliser automatiquement lorsque votre vie tombe en dessous d'un certain pourcentage. Seuls les sorts actifs ne nécessitant pas de cible peuvent être choisis.
 ]], "_t")
-t("", "", "_t")
-t("Talent", "Talent", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
 t("All talents that can be used with Contingency.", "Talents pouvant être utilisés avec Contingence.", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+t("Talent", "Talent", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/ChronomancyEmpower.lua"
 
-
 t("Empower", "Amélioration", "_t")
 t([[You may select a chronomancy spell to Empower, increasing your effective spellpower when casting that spell.
 ]], [[Vous pouvez sélectionner un sort de chronomancie à améliorer, augmentant votre puissance de sort effective lorsque vous le lancez.
 ]], "_t")
-t("", "", "_t")
-t("Talent", "Talent", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
 t("All talents that can be used with Empower.", "Tous les talents pouvant être utilisés avec Amélioration.", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+t("Talent", "Talent", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/ChronomancyExtension.lua"
 
-
 t("Extension", "Prolongation", "_t")
 t([[You may select a chronomancy spell to Extend, increasing the duration of that spell.
 ]], [[Vous pouvez sélectionner un sort de chronomancie à prolonger, augmentant la durée de ce sort.
 ]], "_t")
-t("", "", "_t")
-t("Talent", "Talent", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
 t("All talents that can be used with Extension.", "Tous les talents pouvant être utilisés avec Prolongation.", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+t("Talent", "Talent", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/ChronomancyMatrix.lua"
 
-
 t("Matrix", "Matrice", "_t")
 t([[You may select a chronomancy spell to Matrix, reducing the cooldown of that spell.
 ]], [[Vous pouvez sélectionner un sort de chronomancie pour Matrice, réduisant le temps de recharge de ce sort.
 ]], "_t")
-t("", "", "_t")
-t("Talent", "Talent", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
 t("All talents that can be used with Matrix.", "Tous les talents pouvant être utilisés avec Matrice.", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+t("Talent", "Talent", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/ChronomancyQuicken.lua"
 
-
 t("Quicken", "Accélération", "_t")
 t([[You may select a chronomancy spell to Quicken, reducing the time it takes you to cast that spell.
 ]], [[Vous pouvez sélectionner un sort de chronomancie pour Accélération, réduisant le temps qu'il vous faut pour lancer ce sort.
 ]], "_t")
-t("", "", "_t")
-t("Talent", "Talent", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
 t("All talents that can be used with Quicken.", "Tous les talents pouvant être utilisés avec Accélération.", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+t("Talent", "Talent", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/MagicalCombatArcaneCombat.lua"
 
-
 t("Arcane Combat", "Combat Arcanique", "_t")
 t([[You may select a spell for Arcane Combat to automatically trigger with melee attacks.  Otherwise, select 'Random spells' to have a spell selected automatically with each attack.
 ]], [[Vous pouvez sélectionner un sort pour Combat Arcanique à déclencher automatiquement avec des attaques de mêlée. Sinon, sélectionnez «Sorts aléatoires» pour qu'un sort soit sélectionné automatiquement à chaque attaque.
 ]], "_t")
-t("", "", "_t")
-t("Talent", "Talent", "_t")
 t("Random spells", "Sorts aléatoire", "_t")
 t("Each time Arcane Combat is triggered, a random allowed spell will be used.", "Chaque fois que Combat Arcanique est déclenché, un sort aléatoire autorisé sera utilisé.", "_t")
 t("#{bold}#Choose a spell#{normal}#", "#{bold}#Choisissez un sort#{normal}#", "_t")
 t("All known spells that can be used with Arcane Combat.", "Tous les sorts connus pouvant être utilisés avec Combat Arcanique.", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+t("Talent", "Talent", "_t")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/init.lua"
-
 
 t("Tales of Maj'Eyal: Age of Ascendancy", "Tales of Maj'Eyal: L'Ère de l'Ascendance", "init.lua long_name")
 t([[Welcome to Maj'Eyal.
@@ -47774,16 +48045,9 @@ t("Bulwarks are defensive fighters that can take hits more readily than other wa
 t("Brawlers are trained in the use of their fists and mastery of their bodies. They can be as dangerous in combat as any swordsman.", "Les Lutteurs sont formés à l'utilisation de leurs poings et à la maîtrise de leur corps. Ils peuvent être aussi dangereux au combat que n'importe quel épéiste.", "init.lua load_tips")
 t("Lightning is a chaotic element that is hard to control. It is said that those most attuned to it are eventually driven insane.", "La foudre est un élément chaotique et difficile à contrôler. On dit que ceux qui y sont le plus sensibles finissent par devenir fous.", "init.lua load_tips")
 
-
 ------------------------------------------------
 section "mod-tome/mod/load.lua"
 
-t("Strength", "Force", "stat name")
-t("str", "for", "stat short_name")
-t("Dexterity", "Dextérité", "stat name")
-t("All kinds of weapons", "Toutes sortes d'armes", "_t")
-t("Transmogrification Chest", "Coffre de Transmogrification", "_t")
-t("All", "Tout", "_t")
 t("In main hand", "En main principale", "_t")
 t("Most weapons are wielded in the main hand.", "La plupart des amres sont porté dans la main principale.", "_t")
 t("In off hand", "En la main secondaire", "_t")
@@ -47824,11 +48088,12 @@ t("Second weapon set: Quiver", "Deuxième ensemble d'armes: Carquois", "_t")
 t("Weapon Set 2: Your readied ammo.", "Set d'armes 2: vos munitions préparées.", "_t")
 t("Swift Hands", "Mains rapides", "_t")
 t("List of items that can be instantly used by swift hands.", "Liste des articles qui peuvent être utilisés instantanément par des mains rapides.", "_t")
+t("Strength", "Force", "stat name")
+t("str", "for", "stat short_name")
 t("Strength defines your character's ability to apply physical force. It increases your melee damage, damage done with heavy weapons, your chance to resist physical effects, and carrying capacity.", "La force définit la capacité de votre personnage à appliquer une force physique. Elle augmente vos dégâts en mêlée, les dégâts faits avec des armes lourdes, vos chances de résister aux effets physiques et votre capacité de transport.", "_t")
-t("dex", "dex", "stat short_name")
+t("Dexterity", "Dextérité", "stat name")
 t("Dexterity defines your character's ability to be agile and alert. It increases your chance to hit, your ability to avoid attacks, and your damage with light or ranged weapons.", "La dextérité définit la capacité de votre personnage à être agile et alerte. Elle augmente vos chances de toucher, votre capacité à éviter les attaques et vos dégâts avec des armes légères ou à distance.", "_t")
 t("Magic", "Magie", "stat name")
-t("mag", "mag", "stat short_name")
 t("Magic defines your character's ability to manipulate the magical energy of the world. It increases your spell power, and the effect of spells and other magic items.", "La magie définit la capacité de votre personnage à manipuler l'énergie magique du monde. Elle augmente la puissance de vos sorts, ainsi que l'effet des sorts et autres objets magiques.", "_t")
 t("Willpower", "Volonté", "stat name")
 t("wil", "vol", "stat short_name")
@@ -47836,18 +48101,26 @@ t("Willpower defines your character's ability to concentrate. It increases your 
 t("Cunning", "Ruse", "stat name")
 t("cun", "rus", "stat short_name")
 t("Cunning defines your character's ability to learn, think, and react. It allows you to learn many worldly abilities, and increases your mental capabilities and chance of critical hits.", "La ruse définit la capacité de votre personnage à apprendre, à penser et à réagir. Elle vous permet d'apprendre de nombreuses capacités utiles dans le monde, et augmente vos capacités mentales et vos chances de réussir des coups critiques.", "_t")
-t("Constitution", "Constitution", "stat name")
-t("con", "con", "stat short_name")
 t("Constitution defines your character's ability to withstand and resist damage. It increases your maximum life and physical resistance.", "La constitution définit la capacité de votre personnage à résister et à supporter les dégâts. Elle augmente votre durée de vie maximale et votre résistance physique.", "_t")
 t("Luck", "Chance", "stat name")
 t("lck", "cha", "stat short_name")
 t("Luck defines your character's fortune when dealing with unknown events. It increases your critical strike chance, your chance of random encounters, ...", "La chance définit la fortune de votre personnage lorsqu'il doit faire face à des événements inconnus. Elle augmente vos chances de coup critique, vos chances de rencontres aléatoires, ...", "_t")
+t("All kinds of weapons", "Toutes sortes d'armes", "_t")
 t("All kinds of armours", "Toutes sortes d'armures", "_t")
 t("Rings and Amulets", "Anneaux et amulettes", "_t")
 t("Gems", "Pierres précieuses", "_t")
-t("Infusions, Runes, ...", "Infusions, Runes, ...", "_t")
 t("Tinkers", "Babioles", "_t")
 t("Miscellaneous", "Divers", "_t")
 t("Quest and plot related items", "Articles liés aux quêtes et aux intrigues", "_t")
+t("Transmogrification Chest", "Coffre de Transmogrification", "_t")
+t("All", "Tout", "_t")
+-- texte non traduit
+--[==[
+t("dex", "dex", "stat short_name")
+t("mag", "mag", "stat short_name")
+t("Constitution", "Constitution", "stat name")
+t("con", "con", "stat short_name")
+t("Infusions, Runes, ...", "Infusions, Runes, ...", "_t")
+--]==]
 
 

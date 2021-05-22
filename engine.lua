@@ -8,6 +8,7 @@ t("Allied Kingdoms", "Royaumes alliés", "nil")
 t("Assassin lair", "Repaire des assassins", "nil")
 t("Control Room", "Salle de contrôle", "nil")
 t("Cosmic Fauna", "Faune cosmique", "nil")
+t("Dreadfell", "Tombeffroie", "nil")
 t("Enemies", "Ennemis", "nil")
 t("Experimentation Room", "Salle d'expérimentation", "nil")
 t("Exploratory Farportal", "Portail lointain exploratoire", "nil")
@@ -76,11 +77,12 @@ t("portal", "portail", "nil")
 t("portal back", "portail de retour", "nil")
 t("ranged", "distance", "nil")
 t("repented thief", "voleur repentie", "nil")
+t("rimebark", "givrécorce", "nil")
 t("seed", "graine", "nil")
 t("south", "au sud", "nil")
 t("southeast", "au sud-est", "nil")
 t("southwest", "au sud-ouest", "nil")
-t("spell", "contre les sorts", "nil")
+t("spell", "sort", "nil")
 t("standby", "en attente", "nil")
 t("starstaff", "bâton des étoiles", "nil")
 t("steambot", "robot à vapeur", "nil")
@@ -104,8 +106,9 @@ t("war hound", "chien de guerre", "nil")
 t("weapons", "armes", "nil")
 t("west", "à l'ouest", "nil")
 t("worried loremaster", "chroniqueur soucieux", "nil")
+-- texte non traduit
+--[==[
 t("Angolwen", "Angolwen", "nil")
-t("Dreadfell", "Tombeffroie", "nil")
 t("Rhalore", "Rhalore", "nil")
 t("Shalore", "Shalore", "nil")
 t("Shasshhiy'Kaish", "Shasshhiy'Kaish", "nil")
@@ -116,8 +119,8 @@ t("combat", "combat", "nil")
 t("daikara", "daikara", "nil")
 t("dragon", "dragon", "nil")
 t("image", "image", "nil")
-t("rimebark", "givrécorce", "nil")
 t("standard", "standard", "nil")
+--]==]
 
 
 ------------------------------------------------
@@ -304,7 +307,10 @@ t("Use purchased", "Achats réalisés", "_t")
 section "engine/engine/ActorsSeenDisplay.lua"
 
 
+-- texte non traduit
+--[==[
 t("%s (%d)#WHITE#; distance [%s]", "%s (%d)#WHITE#; distance [%s]", "tformat")
+--]==]
 
 
 ------------------------------------------------
@@ -324,7 +330,20 @@ t("Do you want to recreate the same character?", "Voulez-vous recréer le même 
 t("Recreate", "Recréer?", "_t")
 t("New character", "Nouveau personnage", "_t")
 t("Randomly selected %s.", "Choisir au hasard %s.", "log")
+-- texte non traduit
+--[==[
 t("", "", "_t")
+--]==]
+
+
+------------------------------------------------
+section "engine/engine/Chat.lua"
+
+
+-- texte non traduit
+--[==[
+t("???", "???", "_t")
+--]==]
 
 
 ------------------------------------------------
@@ -377,7 +396,10 @@ t("Message Log", "Historique des messages", "_t")
 section "engine/engine/MicroTxn.lua"
 
 
+-- texte non traduit
+--[==[
 t("Test", "Test", "_t")
+--]==]
 
 
 ------------------------------------------------
@@ -388,7 +410,6 @@ t([[This beta version is meant to be tested without addons, as such the followin
 #GREY#]], [[Cette version beta a vocation à être testée sans addons, c'est pourquoi les addons sont pour l'instant désactivés
 #GREY#]], "_t")
 t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#Les développeurs d'addons peuvent continuer à tester leurs addons en activant le mode développeur.#{normal}#", "_t")
-t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#Profil en ligne désactivé (passage au profil hors ligne) car %s.", "log")
 t([[Total playtime of all registered players:%s
 ]], [[Temps de jeu total des joueurs enregistré:%s
 ]], "tformat")
@@ -400,7 +421,7 @@ t("There are currently %d people playing online", "Il y a acctuellement %d joueu
 t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "Le coffre de personnages enregistre un totale de #RED#%d#WHITE# personnages morts", "tformat")
 t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "Le coffre de personnages enregistre un totale de #LIGHT_BLUE#%d#WHITE# gagnant pour la version actuelle", "tformat")
 t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "Le dernier donateur est #LIGHT_GREEN#%s#WHITE#. Un grand merci à tous les donateurs, vous gardez le jeu en vie!", "tformat")
-
+t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#Profil en ligne désactivé (passage au profil hors ligne) car %s.", "log")
 
 ------------------------------------------------
 section "engine/engine/Mouse.lua"
@@ -414,7 +435,11 @@ t("Requires:", "Requis:", "_t")
 t("%s (level %d)", "%s (niveau %d)", "tformat")
 t("Level %d", "Niveau %d", "tformat")
 t("Talent %s (level %d)", "Talent %s (Niveau %d)", "tformat")
+-- texte non traduit
+--[==[
 t("Talent %s", "Talent %s", "tformat")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/PlayerProfile.lua"
@@ -436,10 +461,10 @@ t("Retrieving...", "Récupération...", "_t")
 ------------------------------------------------
 section "engine/engine/Quest.lua"
 
+t("active", "actif", "_t")
 t("completed", "terminée", "_t")
 t("done", "réalisée", "_t")
 t("failed", "échouée", "_t")
-t("active", "actif", "_t")
 
 ------------------------------------------------
 section "engine/engine/Savefile.lua"
@@ -488,7 +513,11 @@ section "engine/engine/Trap.lua"
 t("%s fails to disarm a trap (%s).", "%s échoue à désarmer le piège (%s).", "logSeen")
 t("%s disarms a trap (%s).", "%s désarme le piège (%s).", "logSeen")
 t("%s triggers a trap (%s)!", "%s déclenche le piège (%s)!", "logSeen")
+-- texte non traduit
+--[==[
 t("%s", "%s", "logSeen")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/UserChat.lua"
@@ -547,9 +576,13 @@ t("Effects: ", "Effets: ", "_t")
 section "engine/engine/dialogs/ChatChannels.lua"
 
 t("Chat channels", "Canaux de discussion", "_t")
-t("Select which channels to listen to. You can join new channels by typing '/join <channelname>' in the talkbox and leave channels by typing '/part <channelname>'", "Séléctionnez les canaux que vous souhaitez écouter. Vous pouvez rejoindre un canal en tapant '/join <nomducanal>' dans la fenêtre de tchat，et en quitter en tapant '/part <nomducanal>'", "_t")
-t("Global", "Global", "_t")
 t(" [spoilers]", " [divulgachis]", "_t")
+t("Select which channels to listen to. You can join new channels by typing '/join <channelname>' in the talkbox and leave channels by typing '/part <channelname>'", "Séléctionnez les canaux que vous souhaitez écouter. Vous pouvez rejoindre un canal en tapant '/join <nomducanal>' dans la fenêtre de tchat，et en quitter en tapant '/part <nomducanal>'", "_t")
+-- texte non traduit
+--[==[
+t("Global", "Global", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/ChatFilter.lua"
@@ -654,7 +687,11 @@ t("Accept", "Accepter", "_t")
 t("Cancel", "Annuler", "_t")
 t("Error", "Erreur", "_t")
 t("Must be between %i and %i characters.", "Doit être entre %i et %i caractères", "tformat")
+-- texte non traduit
+--[==[
 t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/KeyBinder.lua"
@@ -694,27 +731,39 @@ t([[#GOLD#Achieved on:#LAST# %s
 #GOLD#Description:#LAST# %s]], "tformat")
 t("Progress: ", "Progression: ", "_t")
 t("-- Unknown --", "-- Inconnu --", "_t")
+-- texte non traduit
+--[==[
 t("", "", "_t")
 t("???", "???", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowEquipInven.lua"
 
 t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
+t("Enc.", "Enc", "_t")
 t("Equipment", "Équipement", "_t")
 t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
 t("%s assigned to hotkey %s", "%s assigné au raccourci %s", "tformat")
+-- texte non traduit
+--[==[
 t("", "", "_t")
-t("Enc.", "Enc", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowEquipment.lua"
 
 t("Equipment", "Équipement", "_t")
 t("Category", "Catégorie", "_t")
-t("", "", "_t")
 t("Enc.", "Enc", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowErrorStack.lua"
@@ -740,15 +789,23 @@ t("Close All", "Tout fermer", "_t")
 t("Log saved to file (click to copy to clipboard):#LIGHT_BLUE#%s", "Log enregistré dans un fichier (cliquer pour copier dans le presse-papiers):#LIGHT_BLUE#%s", "tformat")
 t("File location copied to clipboard.", "Emplacement du fichier copié dans le presse-papiers.", "log")
 t("#YELLOW#Error report sent, thank you.", "#YELLOW#Rapport d'erreur envoyé, merci.", "log")
+-- texte non traduit
+--[==[
 t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowInventory.lua"
 
 t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
-t("", "", "_t")
 t("Enc.", "Enc", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowPickupFloor.lua"
@@ -757,8 +814,12 @@ t("Pickup", "Ramasser", "_t")
 t("(*) Take all", "(*) Tout prendre", "_t")
 t("Item", "Objet", "_t")
 t("Category", "Catégorie", "_t")
-t("", "", "_t")
 t("Enc.", "Enc", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowQuests.lua"
@@ -774,7 +835,11 @@ t("Store", "Magasin", "_t")
 t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
 t("Price", "Prix", "_t")
+-- texte non traduit
+--[==[
 t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/ShowText.lua"
@@ -800,7 +865,11 @@ t("#GOLD##{bold}#Purge Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#Purger les 
 t("Steam Cloud Purge", "Purge du cloud Steam", "_t")
 t("Confirm purge?", "Confirmer la purge?", "_t")
 t("All data purged from the cloud.", "Toutes les données ont été supprimées du cloud.", "_t")
+-- texte non traduit
+--[==[
 t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/Talkbox.lua"
@@ -812,7 +881,11 @@ t("Target: ", "Cible: ", "_t")
 t("Channel: %s", "Canal: %s", "tformat")
 t("Friend: %s", "Ami: %s", "tformat")
 t("User: %s", "Utilisateur: %s", "tformat")
+-- texte non traduit
+--[==[
 t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/UseTalents.lua"
@@ -826,8 +899,12 @@ Consultez l'écran d'affectation des touches dans le menu du jeu pour lier les r
 t("Status", "Statut", "_t")
 t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
 t("%s assigned to hotkey %s", "%s assigné au raccourci %s", "tformat")
+-- texte non traduit
+--[==[
 t("", "", "_t")
 t("Talent", "Talent", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/UserInfo.lua"
@@ -840,7 +917,11 @@ t("Game has been validated by the server", "La partie a été validée par le se
 t("Game is not validated by the server", "La partie n'est pas validée par le serveur", "_t")
 t("Go to online profile", "Aller sur le profil en ligne", "_t")
 t("Go to online charsheet", "Aller sur la feuille de personnage en ligne", "_t")
+-- texte non traduit
+--[==[
 t("Validation: ", "Validation: ", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/VideoOptions.lua"
@@ -893,6 +974,7 @@ Cette option permet d'obtenir certains effets graphiques spéciaux.
 Si vous rencontrez des problèmes graphiques, essayez de les désactiver.
 
 #LIGHT_RED#Nécessite un redémarrage pour prendre effet.#WHITE#]], "_t")
+t("#GOLD##{bold}#Framebuffers#WHITE##{normal}#", "#GOLD##{bold}#tampon de trame#WHITE##{normal}#", "_t")
 t([[Activates OpenGL Shaders.
 This option allows for some special graphical effects.
 If you encounter weird graphical glitches try to disable it.
@@ -962,8 +1044,11 @@ t("Position changed.", "Position modifiée", "_t")
 t("Save position?", "Sauvegarde de la position?", "_t")
 t("Accept", "Accepter", "_t")
 t("Revert", "Revenir en arrière", "_t")
+-- texte non traduit
+--[==[
 t("", "", "_t")
-t("#GOLD##{bold}#Framebuffers#WHITE##{normal}#", "#GOLD##{bold}#tampon de trame#WHITE##{normal}#", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/ViewHighScores.lua"
@@ -1074,8 +1159,12 @@ t([[#{bold}##GOLD#Shimmer Pack#WHITE##{normal}#: Once purchased the game will au
 #LIGHT_GREEN#Cadeau bonus:#LAST# acheter un pack chatoyant donnera aussi a vos personnages un Miroir Réfléchissant portable et vous permettra de changer votre apparence n'importe où, n'importe quand!]], "_t")
 t("#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "#{bold}##GOLD#Pack IU#WHITE##{normal}#: Une fois acheté le jeu installera automatiquement le pack IU (Interface Utilisateur) à votre jeu.", "_t")
 t("#{bold}##GOLD#Vault Space#WHITE##{normal}#: Once purchased your vault space is permanently increased.", "#{bold}##GOLD#Espace de stockage du coffre-fort#WHITE##{normal}#: Une fois acheté, l'espace de stockage de votre coffre-fort augmente de façon permanente.", "_t")
+-- texte non traduit
+--[==[
 t("%0.2f %s", "%0.2f %s", "tformat")
 t("#{bold}#TOTAL#{normal}#", "#{bold}#TOTAL#{normal}#", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/dialogs/microtxn/UsePurchased.lua"
@@ -1101,7 +1190,11 @@ t("There was an error from the server: %s", "Il y a eu une erreur du serveur: %s
 t("Online Store", "Boutique en ligne", "_t")
 t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#Installé", "_t")
 t("You have not purchased any usable options yet. Would you like to see the store?", "Vous n'avez actuellement acheté aucune option utilisable. Voulez-vous voir la boutique?", "_t")
+-- texte non traduit
+--[==[
 t("#YELLOW#Installable", "#YELLOW#Installable", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/interface/ActorInventory.lua"
@@ -1156,10 +1249,14 @@ t("- Lower talents of the same category: %d", "- Talents inférieur de la même 
 t("- Level %d", "- Niveau %d", "tformat")
 t("- Talent %s (not known)", "- Talent %s (non connu)", "tformat")
 t("- Is %s", "- est %s", "tformat")
+-- texte non traduit
+--[==[
 t("%s", "%s", "logSeen")
 t("%s %s %s.", "%s %s %s.", "logSeen")
 t("- Talent %s (%d)", "- Talent %s (%d)", "tformat")
 t("- Talent %s", "- Talent %s", "tformat")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/interface/GameTargeting.lua"
@@ -1210,7 +1307,11 @@ t("You are %s, press Enter to stop.", "Vous êtes %s, appuyez sur Entrée pour a
 t("%s starts...", "%s commence...", "log")
 t("%s for %d turns (stop reason: %s).", "%s durant %d tours (raison de l'arrêt: %s)", "log")
 t("%s for %d turns.", "%s durant %d tours.", "log")
+-- texte non traduit
+--[==[
 t("%s...", "%s...", "tformat")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/interface/PlayerRun.lua"
@@ -1278,8 +1379,12 @@ section "engine/engine/ui/Inventory.lua"
 
 t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
-t("", "", "_t")
 t("Enc.", "Enc", "_t")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "engine/engine/ui/WebView.lua"
