@@ -1,386 +1,358 @@
 ------------------------------------------------
 section "mod-tome/data/achievements/arena.lua"
 
-
--- texte non traduit
---[==[
-t("The Arena", "The Arena", "achievement name")
-t("Unlocked Arena mode.", "Unlocked Arena mode.", "_t")
-t("Arena Battler 20", "Arena Battler 20", "achievement name")
-t("Got to wave 20 in the arena.", "Got to wave 20 in the arena.", "_t")
-t("Arena Battler 50", "Arena Battler 50", "achievement name")
-t("Got to wave 50 in the arena.", "Got to wave 50 in the arena.", "_t")
-t("Almost Master of Arena", "Almost Master of Arena", "achievement name")
-t("Became the new master of the arena in 30-wave mode.", "Became the new master of the arena in 30-wave mode.", "_t")
-t("Master of Arena", "Master of Arena", "achievement name")
-t("Became the new master of the arena in 60-wave mode.", "Became the new master of the arena in 60-wave mode.", "_t")
-t("XXX the Destroyer", "XXX the Destroyer", "achievement name")
-t("Earned the rank of Destroyer in the arena.", "Earned the rank of Destroyer in the arena.", "_t")
-t("Grand Master", "Grand Master", "achievement name")
-t("Earned the rank of Grand Master in the arena.", "Earned the rank of Grand Master in the arena.", "_t")
-t("Ten at one blow", "Ten at one blow", "achievement name")
-t("Killed 10 or more enemies in one single attack in the arena.", "Killed 10 or more enemies in one single attack in the arena.", "_t")
---]==]
-
+t("The Arena", "L'Arène", "achievement name")
+t("Unlocked Arena mode.", "Mode Arène Débloqué.", "_t")
+t("Arena Battler 20", "Combattant d'Arène 20", "achievement name")
+t("Got to wave 20 in the arena.", "Aller jusqu'au round 20 de l'arène.", "_t")
+t("Arena Battler 50", "Combattant d'Arène 50", "achievement name")
+t("Got to wave 50 in the arena.", "Aller jusqu'au round 50 de l'arène.", "_t")
+t("Almost Master of Arena", "Presque Maître de l'Arène", "achievement name")
+t("Became the new master of the arena in 30-wave mode.", "Est devenu le nouveau maître de l'arène en mode 30 round.", "_t")
+t("Master of Arena", "Maître de l'Arène", "achievement name")
+t("Became the new master of the arena in 60-wave mode.", "Est devenu le nouveau maître de l'arène en mode 60 round.", "_t")
+t("XXX the Destroyer", "XXX le Destructeur", "achievement name")
+t("Earned the rank of Destroyer in the arena.", "A obtenu le rang de Destructeur de l'arène.", "_t")
+t("Grand Master", "Grand Maître", "achievement name")
+t("Earned the rank of Grand Master in the arena.", "A obtenu le rang de Grand Maître de l'arène.", "_t")
+t("Ten at one blow", "Dix à un coup", "achievement name")
+t("Killed 10 or more enemies in one single attack in the arena.", "Avoir tué 10 ennemis ou plus en une seule attaque dans l'arène.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/achievements/donator.lua"
 
-
--- texte non traduit
---[==[
-t("Bronze Donator", "Bronze Donator", "achievement name")
-t("Donated up to 5 euros to Tales of Maj'Eyal.", "Donated up to 5 euros to Tales of Maj'Eyal.", "_t")
-t("Silver Donator", "Silver Donator", "achievement name")
-t("Donated at least 6 euros to Tales of Maj'Eyal.", "Donated at least 6 euros to Tales of Maj'Eyal.", "_t")
-t("Gold Donator", "Gold Donator", "achievement name")
-t("Donated at least 16 euros to Tales of Maj'Eyal.", "Donated at least 16 euros to Tales of Maj'Eyal.", "_t")
-t("Stralite Donator", "Stralite Donator", "achievement name")
-t("Donated at least 31 euros to Tales of Maj'Eyal.", "Donated at least 31 euros to Tales of Maj'Eyal.", "_t")
-t("Voratun Donator", "Voratun Donator", "achievement name")
-t("Donated more than 60 euros to Tales of Maj'Eyal.", "Donated more than 60 euros to Tales of Maj'Eyal.", "_t")
---]==]
-
+t("Bronze Donator", "Donateur Bronze", "achievement name")
+t("Donated up to 5 euros to Tales of Maj'Eyal.", "Donner jusqu'à 5 euros à Tales of Maj'Eyal.", "_t")
+t("Silver Donator", "Donateur Argent", "achievement name")
+t("Donated at least 6 euros to Tales of Maj'Eyal.", "Donner au moins 6 euros à Tales of Maj'Eyal.", "_t")
+t("Gold Donator", "Donateur Or", "achievement name")
+t("Donated at least 16 euros to Tales of Maj'Eyal.", "Donner au moins 16 euros à Tales of Maj'Eyal.", "_t")
+t("Stralite Donator", "Donateur Stralite", "achievement name")
+t("Donated at least 31 euros to Tales of Maj'Eyal.", "Donner au moins 31 euros à Tales of Maj'Eyal.", "_t")
+t("Voratun Donator", "Donateur Voratun", "achievement name")
+t("Donated more than 60 euros to Tales of Maj'Eyal.", "Donner plus de 60 euros à Tales of Maj'Eyal.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/achievements/events.lua"
 
-
+t("The sky is falling!", "Le ciel est tombé!", "achievement name")
+t("Saw a huge meteor falling from the sky.", "Avoir vu une grosse météorite tomber du ciel.", "_t")
+t("Demonic Invasion", "Invasion Démoniaque", "achievement name")
+t("Stopped a demonic invasion by closing their portal.", "Avoir stoppé une invasion démoniaque en fermant leur portail.", "_t")
+t("Invasion from the Depths", "Invasion des profondeurs", "achievement name")
+t("Stopped a naga invasion by closing their portal.", "Avoir stoppé une invasion de nagas en fermant leur portail.", "_t")
+t("The Restless Dead", "Les Morts Sans Repos", "achievement name")
+t("Disturbed an old battlefield and survived the consequences.", "Avoir perturbé un ancien champ de bataille et survivre aux conséquences.", "_t")
+t("The Rat Lich", "Le Rat Liche", "achievement name")
+t("Killed the terrible Rat Lich.", "Tuer cet horrible Rat Liche.", "_t")
+t("Killed Shasshhiy'Kaish after letting her grow as powerful as possible.", "Tuer Shasshhiy'Kaish après l'avoir laissée devenir aussi puissante que possible.", "_t")
+t("Bringer of Doom", "Avatar de la Ruine", "achievement name")
+t("Killed a Bringer of Doom.", "Tuer un Avatar de la Ruine.", "_t")
+t("A living one!", "Un vivant!", "achievement name")
+t("Was teleported into Caldizar's Fortress, far into the void between the stars.", "A été téléporté dans la forteresse de Caldizar, loin dans le vide entre les étoiles.", "_t")
+t("Have 100 walls on the sludgenest turn into hostile creatures.", "Avoir 100 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
+t("Slime killer party", "Foire au massacre de vaseux", "achievement name")
+t("Have 200 walls on the sludgenest turn into hostile creatures.", "Avoir 200 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
+t("Mad slime dash", "Anéantissement dingue de vaseux", "achievement name")
+t("Have 300 walls on the sludgenest turn into hostile creatures.", "Avoir 300 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
+t("Don't mind the slimy smell", "Ne faites pas attention a l'odeur de vase", "achievement name")
+t("Have 400 walls on the sludgenest turn into hostile creatures.", "Avoir 400 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
+t("In the company of slimes", "En compagnie des vaseux", "achievement name")
+t("Have 500 walls on the sludgenest turn into hostile creatures.", "Avoir 500 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
 -- texte non traduit
 --[==[
-t("The sky is falling!", "The sky is falling!", "achievement name")
-t("Saw a huge meteor falling from the sky.", "Saw a huge meteor falling from the sky.", "_t")
-t("Demonic Invasion", "Demonic Invasion", "achievement name")
-t("Stopped a demonic invasion by closing their portal.", "Stopped a demonic invasion by closing their portal.", "_t")
-t("Invasion from the Depths", "Invasion from the Depths", "achievement name")
-t("Stopped a naga invasion by closing their portal.", "Stopped a naga invasion by closing their portal.", "_t")
-t("The Restless Dead", "The Restless Dead", "achievement name")
-t("Disturbed an old battlefield and survived the consequences.", "Disturbed an old battlefield and survived the consequences.", "_t")
-t("The Rat Lich", "The Rat Lich", "achievement name")
-t("Killed the terrible Rat Lich.", "Killed the terrible Rat Lich.", "_t")
 t("Shasshhiy'Kaish", "Shasshhiy'Kaish", "achievement name")
-t("Killed Shasshhiy'Kaish after letting her grow as powerful as possible.", "Killed Shasshhiy'Kaish after letting her grow as powerful as possible.", "_t")
-t("Bringer of Doom", "Bringer of Doom", "achievement name")
-t("Killed a Bringer of Doom.", "Killed a Bringer of Doom.", "_t")
-t("A living one!", "A living one!", "achievement name")
-t("Was teleported into Caldizar's Fortress, far into the void between the stars.", "Was teleported into Caldizar's Fortress, far into the void between the stars.", "_t")
 t("Slimefest", "Slimefest", "achievement name")
-t("Have 100 walls on the sludgenest turn into hostile creatures.", "Have 100 walls on the sludgenest turn into hostile creatures.", "_t")
-t("Slime killer party", "Slime killer party", "achievement name")
-t("Have 200 walls on the sludgenest turn into hostile creatures.", "Have 200 walls on the sludgenest turn into hostile creatures.", "_t")
-t("Mad slime dash", "Mad slime dash", "achievement name")
-t("Have 300 walls on the sludgenest turn into hostile creatures.", "Have 300 walls on the sludgenest turn into hostile creatures.", "_t")
-t("Don't mind the slimy smell", "Don't mind the slimy smell", "achievement name")
-t("Have 400 walls on the sludgenest turn into hostile creatures.", "Have 400 walls on the sludgenest turn into hostile creatures.", "_t")
-t("In the company of slimes", "In the company of slimes", "achievement name")
-t("Have 500 walls on the sludgenest turn into hostile creatures.", "Have 500 walls on the sludgenest turn into hostile creatures.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/achievements/infinite-dungeon.lua"
 
-
--- texte non traduit
---[==[
-t("Infinite x10", "Infinite x10", "achievement name")
-t("Got to level 10 of the infinite dungeon.", "Got to level 10 of the infinite dungeon.", "_t")
-t("Infinite x20", "Infinite x20", "achievement name")
-t("Got to level 20 of the infinite dungeon.", "Got to level 20 of the infinite dungeon.", "_t")
-t("Infinite x30", "Infinite x30", "achievement name")
-t("Got to level 30 of the infinite dungeon.", "Got to level 30 of the infinite dungeon.", "_t")
-t("Infinite x40", "Infinite x40", "achievement name")
-t("Got to level 40 of the infinite dungeon.", "Got to level 40 of the infinite dungeon.", "_t")
-t("Infinite x50", "Infinite x50", "achievement name")
-t("Got to level 50 of the infinite dungeon.", "Got to level 50 of the infinite dungeon.", "_t")
-t("Infinite x60", "Infinite x60", "achievement name")
-t("Got to level 60 of the infinite dungeon.", "Got to level 60 of the infinite dungeon.", "_t")
-t("Infinite x70", "Infinite x70", "achievement name")
-t("Got to level 70 of the infinite dungeon.", "Got to level 70 of the infinite dungeon.", "_t")
-t("Infinite x80", "Infinite x80", "achievement name")
-t("Got to level 80 of the infinite dungeon.", "Got to level 80 of the infinite dungeon.", "_t")
-t("Infinite x90", "Infinite x90", "achievement name")
-t("Got to level 90 of the infinite dungeon.", "Got to level 90 of the infinite dungeon.", "_t")
-t("Infinite x100", "Infinite x100", "achievement name")
-t("Got to level 100 of the infinite dungeon.", "Got to level 100 of the infinite dungeon.", "_t")
-t("Infinite x150", "Infinite x150", "achievement name")
-t("Got to level 150 of the infinite dungeon.", "Got to level 150 of the infinite dungeon.", "_t")
-t("Infinite x200", "Infinite x200", "achievement name")
-t("Got to level 200 of the infinite dungeon.", "Got to level 200 of the infinite dungeon.", "_t")
-t("Infinite x300", "Infinite x300", "achievement name")
-t("Got to level 300 of the infinite dungeon.", "Got to level 300 of the infinite dungeon.", "_t")
-t("Infinite x400", "Infinite x400", "achievement name")
-t("Got to level 400 of the infinite dungeon.", "Got to level 400 of the infinite dungeon.", "_t")
-t("Infinite x500", "Infinite x500", "achievement name")
-t("Got to level 500 of the infinite dungeon.", "Got to level 500 of the infinite dungeon.", "_t")
---]==]
-
+t("Infinite x10", "Infini x10", "achievement name")
+t("Got to level 10 of the infinite dungeon.", "Aller au niveau 10 du donjon infini.", "_t")
+t("Infinite x20", "Infini x20", "achievement name")
+t("Got to level 20 of the infinite dungeon.", "Aller au niveau 20 du donjon infini.", "_t")
+t("Infinite x30", "Infini x30", "achievement name")
+t("Got to level 30 of the infinite dungeon.", "Aller au niveau 30 du donjon infini.", "_t")
+t("Infinite x40", "Infini x40", "achievement name")
+t("Got to level 40 of the infinite dungeon.", "Aller au niveau 40 du donjon infini.", "_t")
+t("Infinite x50", "Infini x50", "achievement name")
+t("Got to level 50 of the infinite dungeon.", "Aller au niveau 50 du donjon infini.", "_t")
+t("Infinite x60", "Infini x60", "achievement name")
+t("Got to level 60 of the infinite dungeon.", "Aller au niveau 60 du donjon infini.", "_t")
+t("Infinite x70", "Infini x70", "achievement name")
+t("Got to level 70 of the infinite dungeon.", "Aller au niveau 70 du donjon infini.", "_t")
+t("Infinite x80", "Infini x80", "achievement name")
+t("Got to level 80 of the infinite dungeon.", "Aller au niveau 80 du donjon infini.", "_t")
+t("Infinite x90", "Infini x90", "achievement name")
+t("Got to level 90 of the infinite dungeon.", "Aller au niveau 90 du donjon infini.", "_t")
+t("Infinite x100", "Infini x100", "achievement name")
+t("Got to level 100 of the infinite dungeon.", "Aller au niveau 100 du donjon infini.", "_t")
+t("Infinite x150", "Infini x150", "achievement name")
+t("Got to level 150 of the infinite dungeon.", "Aller au niveau 150 du donjon infini.", "_t")
+t("Infinite x200", "Infini x200", "achievement name")
+t("Got to level 200 of the infinite dungeon.", "Aller au niveau 200 du donjon infini.", "_t")
+t("Infinite x300", "Infini x300", "achievement name")
+t("Got to level 300 of the infinite dungeon.", "Aller au niveau 300 du donjon infini.", "_t")
+t("Infinite x400", "Infini x400", "achievement name")
+t("Got to level 400 of the infinite dungeon.", "Aller au niveau 400 du donjon infini.", "_t")
+t("Infinite x500", "Infini x500", "achievement name")
+t("Got to level 500 of the infinite dungeon.", "Aller au niveau 500 du donjon infini.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/achievements/items.lua"
 
-
+t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "Trouver le Sang de Vie et les quatre inscriptions uniques: l'Infusion Primale, l'Infusion de Croissance Sauvage, la Rune de Réflexion et la Rune de la Faille.", "_t")
+t("Treasure Hunter", "Chasseur de trésors", "achievement name")
+t("Amassed 1000 gold pieces.", "Amasser 1000 pièces d'or.", "_t")
+t("Treasure Hoarder", "Accapareurs de trésors", "achievement name")
+t("Amassed 3000 gold pieces.", "Amasser 3000 pièces d'or.", "_t")
+t("Dragon's Greed", "Avarice du Dragon", "achievement name")
+t("Amassed 8000 gold pieces.", "Amasser 8000 pièces d'or.", "_t")
 -- texte non traduit
 --[==[
 t("Deus Ex Machina", "Deus Ex Machina", "achievement name")
-t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "_t")
-t("Treasure Hunter", "Treasure Hunter", "achievement name")
-t("Amassed 1000 gold pieces.", "Amassed 1000 gold pieces.", "_t")
-t("Treasure Hoarder", "Treasure Hoarder", "achievement name")
-t("Amassed 3000 gold pieces.", "Amassed 3000 gold pieces.", "_t")
-t("Dragon's Greed", "Dragon's Greed", "achievement name")
-t("Amassed 8000 gold pieces.", "Amassed 8000 gold pieces.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/achievements/kills.lua"
 
+t("That was close", "C'était proche", "achievement name")
+t("Killed your target while having only 1 life left.", "Tuer votre cible en ayant 1 point de vie restant.", "_t")
+t("Size matters", "La taille compte", "achievement name")
+t("Did over 600 damage in one attack.", "Faire plus de 600 dégats en une attaque.", "_t")
+t("Size is everything", "La taille est tout", "achievement name")
+t("Did over 1500 damage in one attack.", "Faire plus de 1500 dégats en une attaque.", "_t")
+t("The bigger the better!", "Plus c'est gros, mieux c'est!", "achievement name")
+t("Did over 3000 damage in one attack.", "Faire plus de 3000 dégats en une attaque.", "_t")
+t("Overpowered!", "Surpuissant!", "achievement name")
+t("Did over 6000 damage in one attack.", "Faire plus de 6000 dégats en une attaque.", "_t")
 t("Exterminator", "Extermination", "achievement name")
+t("Killed 1000 creatures.", "Tuer plus de 1000 créatures.", "_t")
+t("Pest Control", "Antiparasitaire", "achievement name")
+t("Killed 1000 reproducing vermin.", "Tuer 1000 vermine reproductrice.", "_t")
 t("Reaver", "Moissoneur", "achievement name")
+t("Killed 1000 humanoids.", "Tuer 1000 humanoïde.", "_t")
+t("Backstabbing Traitor", "Trahir le traître", "achievement name")
+t("Killed 6 escorted adventurers while you were supposed to save them.", "Tuer 6 aventuriers escortés alors que vous deviez les sauver.", "_t")
+t("Bad Driver", "Mauvais conducteur", "achievement name")
+t("Failed to save any escorted adventurers.", "Échec du sauvetage d'un aventurier escorté.", "_t")
+t("Guiding Hand", "La main qui guide", "achievement name")
+t("Saved all escorted adventurers.", "Sauver tous les aventuriers escortés.", "_t")
+t("Earth Master", "Maître de la terre", "achievement name")
+t("Killed Harkor'Zun.", "Tuer Harkor'Zun.", "_t")
+t("Kill Bill!", "Tuer Bill!", "achievement name")
+t("Killed Bill in the Trollmire without leveling beyond your starting level.", "Tuer Bill dans le Trollmire sans aller au-delà de votre niveau de départ.", "_t")
+t("Killed the giant golem Atamathon after foolishly reactivating it.", "Vous avez tué le golem géant Atamathon après l'avoir stupidement réactivé.", "_t")
+t("Huge Appetite", "Énorme appétit", "achievement name")
+t("Ate 20 bosses.", "Manger 20 boss.", "_t")
+t("Headbanged 20 bosses to death.", "Headbanged 20 boss à  mort.", "_t")
+t("Are you out of your mind?!", "t'as perdu la tête?!", "achievement name")
+t("Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "Attirer l'attention de grands vers multicolores surpuissants dans l'armurerie Vor. Peut-être que fuir est de mise.", "_t")
+t("I cleared the room of death and all I got was this lousy achievement!", "J'ai vidé la salle de la mort et tout ce que j'ai obtenu, c'est ce succès moche!", "achievement name")
+t("Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.", "Vous avez tué les sept vers surpuissants dans la \"salle de la mort\" de l'armurerie Vor.", "_t")
+t("I'm a cool hero", "Je suis un héros cool", "achievement name")
+t("Saved Derth without a single inhabitant dying.", "Sauver Derth sans qu'un seul habitant ne meure.", "_t")
+t("Kickin' it old-school", "Coup de pied à l'ancienne", "achievement name")
+t("Killed Urkis, the Tempest, causing him to drop the Rod of Recall.", "Tuer Urkis la Tempête, lui faisant lâcher le Bâton de Rappel.", "_t")
+t("Leave the big boys alone", "Laisse les grands garçons tranquilles", "achievement name")
+t("Killed The Master, causing him to drop the Rod of Recall.", "Tuer le Maître, lui faisant lâcher le bâton de rappel.", "_t")
+t("You know who's to blame", "Tu sais qui est à blâmer", "achievement name")
+t("Killed the Grand Corruptor, causing him to drop the Rod of Recall.", "Tuer le Grand Corrupteur, lui faisant lâcher le Bâton de Rappel.", "_t")
+t("You know who's to blame (reprise)", "Tu sais qui est à blâmer (reprise)", "achievement name")
+t("Killed Myssil, causing her to drop the Rod of Recall.", "Tuer Myssil, lui faisant lâcher le bâton de rappel.", "_t")
+t("Now, this is impressive!", "Maintenant, c'est impressionnant !", "achievement name")
+t("Killed Linaniil, the Supreme Archmage of Angolwen.", "Tuer Linaniil, l'archimage suprême d'Angolwen.", "_t")
+t("Fear of Fours", "Peur des quatre", "achievement name")
+t("Killed all four bosses of the Slime Tunnels.", "Tuer les quatre boss des tunnels de Slime.", "_t")
+t("Well trained", "Bien entraîné", "achievement name")
+t("Deal one million damage to training dummies in a single training session.", "Infligez un million de dégâts aux mannequins d'entraînement en une seule séance d'entraînement.", "_t")
+t("I meant to do that...", "Je voulais faire ça...", "achievement name")
+t("Avoid death 50 times with a life-saving talent.", "Évitez la mort 50 fois avec un talent qui sauve la vie.", "_t")
 -- texte non traduit
 --[==[
-t("That was close", "That was close", "achievement name")
-t("Killed your target while having only 1 life left.", "Killed your target while having only 1 life left.", "_t")
-t("Size matters", "Size matters", "achievement name")
-t("Did over 600 damage in one attack.", "Did over 600 damage in one attack.", "_t")
-t("Size is everything", "Size is everything", "achievement name")
-t("Did over 1500 damage in one attack.", "Did over 1500 damage in one attack.", "_t")
-t("The bigger the better!", "The bigger the better!", "achievement name")
-t("Did over 3000 damage in one attack.", "Did over 3000 damage in one attack.", "_t")
-t("Overpowered!", "Overpowered!", "achievement name")
-t("Did over 6000 damage in one attack.", "Did over 6000 damage in one attack.", "_t")
-t("Killed 1000 creatures.", "Killed 1000 creatures.", "_t")
-t("Pest Control", "Pest Control", "achievement name")
-t("Killed 1000 reproducing vermin.", "Killed 1000 reproducing vermin.", "_t")
-t("Killed 1000 humanoids.", "Killed 1000 humanoids.", "_t")
-t("Backstabbing Traitor", "Backstabbing Traitor", "achievement name")
-t("Killed 6 escorted adventurers while you were supposed to save them.", "Killed 6 escorted adventurers while you were supposed to save them.", "_t")
-t("Bad Driver", "Bad Driver", "achievement name")
-t("Failed to save any escorted adventurers.", "Failed to save any escorted adventurers.", "_t")
-t("Guiding Hand", "Guiding Hand", "achievement name")
-t("Saved all escorted adventurers.", "Saved all escorted adventurers.", "_t")
-t("Earth Master", "Earth Master", "achievement name")
-t("Killed Harkor'Zun.", "Killed Harkor'Zun.", "_t")
-t("Kill Bill!", "Kill Bill!", "achievement name")
-t("Killed Bill in the Trollmire without leveling beyond your starting level.", "Killed Bill in the Trollmire without leveling beyond your starting level.", "_t")
 t("Atamathoned!", "Atamathoned!", "achievement name")
-t("Killed the giant golem Atamathon after foolishly reactivating it.", "Killed the giant golem Atamathon after foolishly reactivating it.", "_t")
-t("Huge Appetite", "Huge Appetite", "achievement name")
-t("Ate 20 bosses.", "Ate 20 bosses.", "_t")
 t("Headbanger", "Headbanger", "achievement name")
-t("Headbanged 20 bosses to death.", "Headbanged 20 bosses to death.", "_t")
-t("Are you out of your mind?!", "Are you out of your mind?!", "achievement name")
-t("Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "_t")
-t("I cleared the room of death and all I got was this lousy achievement!", "I cleared the room of death and all I got was this lousy achievement!", "achievement name")
-t("Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.", "Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.", "_t")
-t("I'm a cool hero", "I'm a cool hero", "achievement name")
-t("Saved Derth without a single inhabitant dying.", "Saved Derth without a single inhabitant dying.", "_t")
-t("Kickin' it old-school", "Kickin' it old-school", "achievement name")
-t("Killed Urkis, the Tempest, causing him to drop the Rod of Recall.", "Killed Urkis, the Tempest, causing him to drop the Rod of Recall.", "_t")
-t("Leave the big boys alone", "Leave the big boys alone", "achievement name")
-t("Killed The Master, causing him to drop the Rod of Recall.", "Killed The Master, causing him to drop the Rod of Recall.", "_t")
-t("You know who's to blame", "You know who's to blame", "achievement name")
-t("Killed the Grand Corruptor, causing him to drop the Rod of Recall.", "Killed the Grand Corruptor, causing him to drop the Rod of Recall.", "_t")
-t("You know who's to blame (reprise)", "You know who's to blame (reprise)", "achievement name")
-t("Killed Myssil, causing her to drop the Rod of Recall.", "Killed Myssil, causing her to drop the Rod of Recall.", "_t")
-t("Now, this is impressive!", "Now, this is impressive!", "achievement name")
-t("Killed Linaniil, the Supreme Archmage of Angolwen.", "Killed Linaniil, the Supreme Archmage of Angolwen.", "_t")
-t("Fear of Fours", "Fear of Fours", "achievement name")
-t("Killed all four bosses of the Slime Tunnels.", "Killed all four bosses of the Slime Tunnels.", "_t")
-t("Well trained", "Well trained", "achievement name")
-t("Deal one million damage to training dummies in a single training session.", "Deal one million damage to training dummies in a single training session.", "_t")
-t("I meant to do that...", "I meant to do that...", "achievement name")
-t("Avoid death 50 times with a life-saving talent.", "Avoid death 50 times with a life-saving talent.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/achievements/lore.lua"
 
-
--- texte non traduit
---[==[
-t("Tales of the Spellblaze", "Tales of the Spellblaze", "achievement name")
-t("Learned the eight chapters of the Spellblaze Chronicles.", "Learned the eight chapters of the Spellblaze Chronicles.", "_t")
-t("The Legend of Garkul", "The Legend of Garkul", "achievement name")
-t("Learned the five chapters of the Legend of Garkul.", "Learned the five chapters of the Legend of Garkul.", "_t")
-t("A different point of view", "A different point of view", "achievement name")
-t("Learned the five chapters of Orc history through loremaster Hadak's tales.", "Learned the five chapters of Orc history through loremaster Hadak's tales.", "_t")
---]==]
-
+t("Tales of the Spellblaze", "Contes de la Brûlure magique", "achievement name")
+t("Learned the eight chapters of the Spellblaze Chronicles.", "Apprendre les huit chapitres des Chroniques de la Brûlure magique.", "_t")
+t("The Legend of Garkul", "La Légende de Garkul", "achievement name")
+t("Learned the five chapters of the Legend of Garkul.", "Apprendre les cinq chapitres de la Légende de Garkul.", "_t")
+t("A different point of view", "Un point de vue différent", "achievement name")
+t("Learned the five chapters of Orc history through loremaster Hadak's tales.", "Apprendre les cinq chapitres de l'histoire des Orcs à travers les récits du maître du savoir Hadak.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/achievements/player.lua"
 
-
+t("Level 10", "Niveau 10", "achievement name")
+t("Got a character to level 10.", "Avoir un personnage au niveau 10.", "_t")
+t("Level 20", "Niveau 20", "achievement name")
+t("Got a character to level 20.", "Avoir un personnage au niveau 20.", "_t")
+t("Level 30", "Niveau 30", "achievement name")
+t("Got a character to level 30.", "Avoir un personnage au niveau 30.", "_t")
+t("Level 40", "Niveau 40", "achievement name")
+t("Got a character to level 40.", "Avoir un personnage au niveau 40.", "_t")
+t("Level 50", "Niveau 50", "achievement name")
+t("Got a character to level 50.", "Avoir un personnage au niveau 50.", "_t")
+t("Unstoppable", "Inarrêtable", "achievement name")
+t("Returned from the dead.", "Revenir d'entre les morts.", "_t")
+t("Utterly Destroyed", "Complètement détruit", "achievement name")
+t("Died on the Eidolon Plane.", "Mourir dans le plan de l'Eidolon.", "_t")
+t("Fool of a Took!", "Espèce de crétin!", "achievement name")
+t("Killed oneself as a halfling.", "Se suicider en tant que halfelin.", "_t")
+t("Had the golem kill a boss while its master was already dead.", "Le golem doit tuer un boss alors que son maître est déjà mort.", "_t")
+t("Take you with me", "T'emmener avec moi", "achievement name")
+t("Killed a boss while already dead.", "Tuer un boss alors qu'il était déjà mort.", "_t")
+t("Look at me, I'm playing a roguelike!", "Regardez-moi, je joue à un roguelike!", "achievement name")
+t("Linked yourself in the in-game chat.", "Se connecter dans le chat du jeu.", "_t")
+t("Fear me not!", "Ne me craignez pas !", "achievement name")
+t("Survived the Fearscape!", "J'ai survécu au Plan de la peur !", "_t")
 -- texte non traduit
 --[==[
-t("Level 10", "Level 10", "achievement name")
-t("Got a character to level 10.", "Got a character to level 10.", "_t")
-t("Level 20", "Level 20", "achievement name")
-t("Got a character to level 20.", "Got a character to level 20.", "_t")
-t("Level 30", "Level 30", "achievement name")
-t("Got a character to level 30.", "Got a character to level 30.", "_t")
-t("Level 40", "Level 40", "achievement name")
-t("Got a character to level 40.", "Got a character to level 40.", "_t")
-t("Level 50", "Level 50", "achievement name")
-t("Got a character to level 50.", "Got a character to level 50.", "_t")
-t("Unstoppable", "Unstoppable", "achievement name")
-t("Returned from the dead.", "Returned from the dead.", "_t")
-t("Utterly Destroyed", "Utterly Destroyed", "achievement name")
-t("Died on the Eidolon Plane.", "Died on the Eidolon Plane.", "_t")
-t("Fool of a Took!", "Fool of a Took!", "achievement name")
-t("Killed oneself as a halfling.", "Killed oneself as a halfling.", "_t")
 t("Emancipation", "Emancipation", "achievement name")
-t("Had the golem kill a boss while its master was already dead.", "Had the golem kill a boss while its master was already dead.", "_t")
-t("Take you with me", "Take you with me", "achievement name")
-t("Killed a boss while already dead.", "Killed a boss while already dead.", "_t")
-t("Look at me, I'm playing a roguelike!", "Look at me, I'm playing a roguelike!", "achievement name")
-t("Linked yourself in the in-game chat.", "Linked yourself in the in-game chat.", "_t")
-t("Fear me not!", "Fear me not!", "achievement name")
-t("Survived the Fearscape!", "Survived the Fearscape!", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/achievements/quests.lua"
 
+t("Baby steps", "Pas de bébé", "achievement name")
+t("Completed ToME4 tutorial mode.", "Finir le Mode didacticiel de ToME4.", "_t")
+t("Vampire crusher", "Broyeur de vampires", "achievement name")
+t("Destroyed the Master in its lair of the Dreadfell.", "Détruit le Maître dans son antre de Tombeffroid.", "_t")
+t("A dangerous secret", "Un secret dangereux", "achievement name")
+t("Found the mysterious staff and told Last Hope about it.", "Trouver un mystérieux bâton et en parler à Dernier Espoir.", "_t")
+t("The secret city", "La ville secrète", "achievement name")
+t("Discovered the truth about mages.", "Découvrir la vérité sur les mages.", "_t")
+t("Burnt to the ground", "Brûlé jusqu'au sol", "achievement name")
+t("Gave the staff of absorption to the apprentice mage and watched the fireworks.", "Donner le bâton d'absorption à l'apprenti mage et regarder les feux d'artifice.", "_t")
+t("Against all odds", "Contre toute attente", "achievement name")
+t("Killed Ukruk in the ambush.", "Tuer Ukruk dans l'embuscade.", "_t")
+t("Sliders", "Glisseurs", "achievement name")
+t("Activated a portal using the Orb of Many Ways.", "Activer un portail à l'aide de l'Orbe des multiples voies.", "_t")
+t("Destroyer's bane", "Fléau du Destructeur", "achievement name")
+t("Killed Golbug the Destroyer.", "Tuer Golbug le Destructeur.", "_t")
+t("Brave new world", "Le meilleur des mondes", "achievement name")
+t("Went to the Far East and took part in the war.", "Aller en Extrême-Orient et prendre part à la guerre.", "_t")
+t("Race through fire", "Course à travers le feu", "achievement name")
+t("Raced through the fires of the Charred Scar to stop the Sorcerers.", "Courrir à travers les feux de la Plaie craquelée pour arrêter les sorciers.", "_t")
+t("Killed the leaders of the Orc Pride.", "Tuer les chefs des Clans Orc.", "_t")
+t("Evil denied", "Le Mal est refusé", "achievement name")
+t("Won ToME by preventing the Void portal from opening.", "Gagner ToME en empêchant l'ouverture du portail du Vide.", "_t")
+t("The High Lady's destiny", "Le destin de la Haute Dame", "achievement name")
+t("Won ToME by closing the Void portal using Aeryn as a sacrifice.", "Gagner ToME en fermant le portail du Vide en utilisant Aeryn comme sacrifice.", "_t")
+t("The Sun Still Shines", "Le soleil brille toujours", "achievement name")
+t("Aeryn survived the last battle.", "Aeryn a survécu à la dernière bataille.", "_t")
+t("Selfless", "Désintéressé", "achievement name")
+t("Won ToME by closing the Void portal using yourself as a sacrifice.", "Gagner ToME en fermant le portail du Vide en vous sacrifiant.", "_t")
+t("Triumph of the Way", "Triomphe de la Voie", "achievement name")
+t("Won ToME by sacrificing yourself to forcefully spread the Way to every other sentient being on Eyal.", "Gagner ToME en vous sacrifiant pour diffuser avec force la Voie à tous les autres êtres conscient sur Eyal.", "_t")
+t("No Way!", "Certainement pas!", "achievement name")
+t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the Way to enslave every sentient being on Eyal.", "Gagner ToME en fermant le portail du Vide et en vous laissant tuer par Aeryn pour empêcher la Voie d'asservir chaque être conscient sur Eyal.", "_t")
+t("Tactical master", "Maître tactique", "achievement name")
+t("Fought the two Sorcerers without closing any invocation portals.", "Combattre les deux sorciers sans fermer aucun portail d'invocation.", "_t")
+t("Portal destroyer", "Destructeur de portails", "achievement name")
+t("Fought the two Sorcerers and closed one invocation portal.", "Combattre les deux sorciers et fermez un portail d'invocation.", "_t")
+t("Portal reaver", "Saccageur de portails", "achievement name")
+t("Fought the two Sorcerers and closed two invocation portals.", "Combattre les deux sorciers et fermez deux portails d'invocation.", "_t")
+t("Portal ender", "Terminateur de portails", "achievement name")
+t("Fought the two Sorcerers and closed three invocation portals.", "Combattre les deux sorciers et fermez trois portails d'invocation.", "_t")
+t("Portal master", "Maître des portails", "achievement name")
+t("Fought the two Sorcerers and closed four invocation portals.", "Combattre les deux sorciers et fermez quatre portails d'invocation.", "_t")
+t("Never Look Back And There Again", "Ne jamais regarder en arrière et encore là", "achievement name")
+t("Win the game without ever setting foot on Maj'Eyal.", "Gagner la partie sans jamais mettre les pieds sur Maj'Eyal.", "_t")
+t("Bikining along!", "En bikini!", "achievement name")
+t("Won the game without ever taking off her bikini.", "A gagner la partie sans jamais enlever son bikini.", "_t")
+t("Mankining it happen!", "Le mankini, ça arrive!", "achievement name")
+t("Won the game without ever taking off his mankini.", "Gagner la partie sans jamais enlever son mankini.", "_t")
+t("Rescuer of the lost", "Sauveteur des perdus", "achievement name")
+t("Rescued the merchant from the assassin lord.", "Sauver le marchand du seigneur assassin.", "_t")
+t("Poisonous", "Venimeux", "achievement name")
+t("Sided with the assassin lord.", "Du côté du seigneur assassin.", "_t")
+t("Destroyer of the creation", "Destructeur de la création", "achievement name")
+t("Killed Slasul.", "Tuer Slasul.", "_t")
+t("Treacherous Bastard", "Bâtard de traître", "achievement name")
+t("Killed Slasul even though you sided with him to learn the Legacy of the Naloren prodigy.", "Tuer Slasul même si vous vous êtes rangé de son côté pour apprendre le prodige de l'Héritage de Naloren.", "_t")
+t("Flooder", "Inondateur", "achievement name")
+t("Defeated Ukllmswwik while doing his own quest.", "Vaincre Ukllmswwik en faisant sa propre quête.", "_t")
+t("Gem of the Moon", "Gemme de la Lune", "achievement name")
+t("Completed the Master Jeweler quest with Limmir.", "Terminer la quête du Maître joaillier avec Limmir.", "_t")
+t("Curse Lifter", "Lève-malédiction", "achievement name")
+t("Killed Ben Cruthdar the Cursed.", "Tuer Ben Cruthdar le Maudit.", "_t")
+t("Fast Curse Dispel", "Dissipation rapide de la malédiction", "achievement name")
+t("Killed Ben Cruthdar the Cursed while saving all the lumberjacks.", "Tuer Ben Cruthdar le Maudit en sauvant tous les bûcherons.", "_t")
+t("Eye of the storm", "L'œil du cyclone", "achievement name")
+t("Freed Derth from the onslaught of the mad Tempest, Urkis.", "Libérer Derth de l'assaut du tempêtier fou, Urkis.", "_t")
+t("Antimagic!", "Antimagie!", "achievement name")
+t("Completed antimagic training in the Ziguranth camp.", "Terminer l'entraînement antimagique dans le camp de Ziguranth.", "_t")
+t("Anti-Antimagic!", "Anti-Antimagie!", "achievement name")
+t("Destroyed the Ziguranth camp with your Rhaloren allies.", "Détruire le camp de Ziguranth avec vos alliés de Rhaloren.", "_t")
+t("There and back again", "A nouveau de retour", "achievement name")
+t("Opened a portal to Maj'Eyal from the Far East.", "Ouvrir un portail vers Maj'Eyal depuis l'Extrême Orient.", "_t")
+t("Arachnophobia", "Arachnophobie", "achievement name")
+t("Destroyed the spydric menace.", "Détruit la menace spydrique.", "_t")
+t("Clone War", "Guerre de clone", "achievement name")
+t("Destroyed your own Shade.", "Détruire votre propre ombre.", "_t")
+t("Home sweet home", "Mon doux foyer", "achievement name")
+t("Dispatched the Weirdling Beast and took possession of Yiilkgur, the Sher'Tul Fortress for your own usage.", "Envoyer la bête étrange et pris possession de Yiilkgur, la forteresse des Sher'Tul pour votre propre usage.", "_t")
+t("Squadmate", "Coéquipier", "achievement name")
+t("Escaped from Reknor alive with your squadmate Norgan.", "S'échapper de Reknor vivant avec votre coéquipier Norgan.", "_t")
+t("Genocide", "Génocide", "achievement name")
+t("Killed the Orc Greatmother in the breeding pits, thus dealing a terrible blow to the orc race.", "Tuer la Grand mère orc dans les fosses d'élevage, portant ainsi un coup terrible à la race orc.", "_t")
+t("Savior of the damsels in distress", "Sauveur de demoiselle en détresse", "achievement name")
+t("Saved Melinda from her terrible fate in the Crypt of Kryl-Feijan.", "Sauver Melinda de son terrible sort dans la crypte de Kryl-Feijan.", "_t")
+t("Impossible Death", "Mort impossible", "achievement name")
+t("Got killed by your future self.", "Etre tuer par son futur moi.", "_t")
+t("Self-killer", "Autotueur", "achievement name")
+t("Killed your future self.", "Tuer ton futur moi.", "_t")
+t("Paradoxology", "Paradoxologie", "achievement name")
+t("Both killed your future self and got killed by your future self.", "A la fois tuer votre futur moi et être tuer par votre futur moi.", "_t")
+t("Explorer", "Explorateur", "achievement name")
+t("Used the Sher'Tul fortress exploratory farportal at least 7 times with the same character.", "Utiliser le Portail lointain d'exploration de la forteresse Sher'Tul au moins 7 fois avec le même personnage.", "_t")
+t("Orbituary", "Nécrologie", "achievement name")
+t("Stabilized the Abashed Expanse to maintain it in orbit.", "Stabiliser l'Etendu Ebranlée pour la maintenir en orbite.", "_t")
+t("Killed the weaver queen and the temporal defiler.", "Tuer la reine tisserande et le profanateur temporel.", "_t")
+t("Matrix style!", "Style Matrix!", "achievement name")
+t("Finished the whole Abashed Expanse zone without being hit by a single void blast or manaworm. Dodging's fun!", "Terminer toute la zone de l'Étendue Ebranlée sans être touché par une seule explosion du Vide ou un ver de mana. Esquiver est amusant!", "_t")
+t("The Right thing to do", "La bonne chose à faire", "achievement name")
+t("Did the righteous thing in the ring of blood and disposed of the Blood Master.", "Faire la chose juste dans l'anneau de sang et éliminer le Maître du Sang.", "_t")
+t("Thralless", "Sans esclave", "achievement name")
+t("Freed at least 30 enthralled slaves in the slavers' compound.", "Libérer au moins 30 esclaves envoutés dans l'enceinte des esclavagistes.", "_t")
+t("Lost in translation", "Perdu dans le transfert", "achievement name")
+t("Destroyed the naga portal in the slazish fens and got caught in the after-effect.", "Détruire le portail naga dans le marais de Slazish et s'est fait prendre dans la répercussion.", "_t")
+t("Dreaming my dreams", "Rêver mes rêves", "achievement name")
+t("Experienced and completed all the dreams in the Dogroth Caldera.", "Expérimenter et réaliser tous les rêves de la Caldera de Dogroth.", "_t")
 t("Oozemancer", "Slimancien", "achievement name")
+t("Destroyed the corrupted oozemancer.", "Vous avez détruit l'oozemancien corrompu.", "_t")
+t("Lucky Girl", "Femme chanceuse", "achievement name")
+t("Saved Melinda again and invited her to the Fortress to cure her.", "Sauver encore Melinda et l'inviter à la Forteresse pour la guérir.", "_t")
 -- texte non traduit
 --[==[
-t("Baby steps", "Baby steps", "achievement name")
-t("Completed ToME4 tutorial mode.", "Completed ToME4 tutorial mode.", "_t")
-t("Vampire crusher", "Vampire crusher", "achievement name")
-t("Destroyed the Master in its lair of the Dreadfell.", "Destroyed the Master in its lair of the Dreadfell.", "_t")
-t("A dangerous secret", "A dangerous secret", "achievement name")
-t("Found the mysterious staff and told Last Hope about it.", "Found the mysterious staff and told Last Hope about it.", "_t")
-t("The secret city", "The secret city", "achievement name")
-t("Discovered the truth about mages.", "Discovered the truth about mages.", "_t")
-t("Burnt to the ground", "Burnt to the ground", "achievement name")
-t("Gave the staff of absorption to the apprentice mage and watched the fireworks.", "Gave the staff of absorption to the apprentice mage and watched the fireworks.", "_t")
-t("Against all odds", "Against all odds", "achievement name")
-t("Killed Ukruk in the ambush.", "Killed Ukruk in the ambush.", "_t")
-t("Sliders", "Sliders", "achievement name")
-t("Activated a portal using the Orb of Many Ways.", "Activated a portal using the Orb of Many Ways.", "_t")
-t("Destroyer's bane", "Destroyer's bane", "achievement name")
-t("Killed Golbug the Destroyer.", "Killed Golbug the Destroyer.", "_t")
-t("Brave new world", "Brave new world", "achievement name")
-t("Went to the Far East and took part in the war.", "Went to the Far East and took part in the war.", "_t")
-t("Race through fire", "Race through fire", "achievement name")
-t("Raced through the fires of the Charred Scar to stop the Sorcerers.", "Raced through the fires of the Charred Scar to stop the Sorcerers.", "_t")
 t("Orcrist", "Orcrist", "achievement name")
-t("Killed the leaders of the Orc Pride.", "Killed the leaders of the Orc Pride.", "_t")
-t("Evil denied", "Evil denied", "achievement name")
-t("Won ToME by preventing the Void portal from opening.", "Won ToME by preventing the Void portal from opening.", "_t")
-t("The High Lady's destiny", "The High Lady's destiny", "achievement name")
-t("Won ToME by closing the Void portal using Aeryn as a sacrifice.", "Won ToME by closing the Void portal using Aeryn as a sacrifice.", "_t")
-t("The Sun Still Shines", "The Sun Still Shines", "achievement name")
-t("Aeryn survived the last battle.", "Aeryn survived the last battle.", "_t")
-t("Selfless", "Selfless", "achievement name")
-t("Won ToME by closing the Void portal using yourself as a sacrifice.", "Won ToME by closing the Void portal using yourself as a sacrifice.", "_t")
-t("Triumph of the Way", "Triumph of the Way", "achievement name")
-t("Won ToME by sacrificing yourself to forcefully spread the Way to every other sentient being on Eyal.", "Won ToME by sacrificing yourself to forcefully spread the Way to every other sentient being on Eyal.", "_t")
-t("No Way!", "No Way!", "achievement name")
-t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the Way to enslave every sentient being on Eyal.", "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the Way to enslave every sentient being on Eyal.", "_t")
-t("Tactical master", "Tactical master", "achievement name")
-t("Fought the two Sorcerers without closing any invocation portals.", "Fought the two Sorcerers without closing any invocation portals.", "_t")
-t("Portal destroyer", "Portal destroyer", "achievement name")
-t("Fought the two Sorcerers and closed one invocation portal.", "Fought the two Sorcerers and closed one invocation portal.", "_t")
-t("Portal reaver", "Portal reaver", "achievement name")
-t("Fought the two Sorcerers and closed two invocation portals.", "Fought the two Sorcerers and closed two invocation portals.", "_t")
-t("Portal ender", "Portal ender", "achievement name")
-t("Fought the two Sorcerers and closed three invocation portals.", "Fought the two Sorcerers and closed three invocation portals.", "_t")
-t("Portal master", "Portal master", "achievement name")
-t("Fought the two Sorcerers and closed four invocation portals.", "Fought the two Sorcerers and closed four invocation portals.", "_t")
-t("Never Look Back And There Again", "Never Look Back And There Again", "achievement name")
-t("Win the game without ever setting foot on Maj'Eyal.", "Win the game without ever setting foot on Maj'Eyal.", "_t")
-t("Bikining along!", "Bikining along!", "achievement name")
-t("Won the game without ever taking off her bikini.", "Won the game without ever taking off her bikini.", "_t")
-t("Mankining it happen!", "Mankining it happen!", "achievement name")
-t("Won the game without ever taking off his mankini.", "Won the game without ever taking off his mankini.", "_t")
-t("Rescuer of the lost", "Rescuer of the lost", "achievement name")
-t("Rescued the merchant from the assassin lord.", "Rescued the merchant from the assassin lord.", "_t")
-t("Poisonous", "Poisonous", "achievement name")
-t("Sided with the assassin lord.", "Sided with the assassin lord.", "_t")
-t("Destroyer of the creation", "Destroyer of the creation", "achievement name")
-t("Killed Slasul.", "Killed Slasul.", "_t")
-t("Treacherous Bastard", "Treacherous Bastard", "achievement name")
-t("Killed Slasul even though you sided with him to learn the Legacy of the Naloren prodigy.", "Killed Slasul even though you sided with him to learn the Legacy of the Naloren prodigy.", "_t")
-t("Flooder", "Flooder", "achievement name")
-t("Defeated Ukllmswwik while doing his own quest.", "Defeated Ukllmswwik while doing his own quest.", "_t")
-t("Gem of the Moon", "Gem of the Moon", "achievement name")
-t("Completed the Master Jeweler quest with Limmir.", "Completed the Master Jeweler quest with Limmir.", "_t")
-t("Curse Lifter", "Curse Lifter", "achievement name")
-t("Killed Ben Cruthdar the Cursed.", "Killed Ben Cruthdar the Cursed.", "_t")
-t("Fast Curse Dispel", "Fast Curse Dispel", "achievement name")
-t("Killed Ben Cruthdar the Cursed while saving all the lumberjacks.", "Killed Ben Cruthdar the Cursed while saving all the lumberjacks.", "_t")
-t("Eye of the storm", "Eye of the storm", "achievement name")
-t("Freed Derth from the onslaught of the mad Tempest, Urkis.", "Freed Derth from the onslaught of the mad Tempest, Urkis.", "_t")
-t("Antimagic!", "Antimagic!", "achievement name")
-t("Completed antimagic training in the Ziguranth camp.", "Completed antimagic training in the Ziguranth camp.", "_t")
-t("Anti-Antimagic!", "Anti-Antimagic!", "achievement name")
-t("Destroyed the Ziguranth camp with your Rhaloren allies.", "Destroyed the Ziguranth camp with your Rhaloren allies.", "_t")
-t("There and back again", "There and back again", "achievement name")
-t("Opened a portal to Maj'Eyal from the Far East.", "Opened a portal to Maj'Eyal from the Far East.", "_t")
 t("Back and there again", "Back and there again", "achievement name")
 t("Opened a portal to the Far East from Maj'Eyal.", "Opened a portal to the Far East from Maj'Eyal.", "_t")
-t("Arachnophobia", "Arachnophobia", "achievement name")
-t("Destroyed the spydric menace.", "Destroyed the spydric menace.", "_t")
-t("Clone War", "Clone War", "achievement name")
-t("Destroyed your own Shade.", "Destroyed your own Shade.", "_t")
-t("Home sweet home", "Home sweet home", "achievement name")
-t("Dispatched the Weirdling Beast and took possession of Yiilkgur, the Sher'Tul Fortress for your own usage.", "Dispatched the Weirdling Beast and took possession of Yiilkgur, the Sher'Tul Fortress for your own usage.", "_t")
-t("Squadmate", "Squadmate", "achievement name")
-t("Escaped from Reknor alive with your squadmate Norgan.", "Escaped from Reknor alive with your squadmate Norgan.", "_t")
-t("Genocide", "Genocide", "achievement name")
-t("Killed the Orc Greatmother in the breeding pits, thus dealing a terrible blow to the orc race.", "Killed the Orc Greatmother in the breeding pits, thus dealing a terrible blow to the orc race.", "_t")
-t("Savior of the damsels in distress", "Savior of the damsels in distress", "achievement name")
-t("Saved Melinda from her terrible fate in the Crypt of Kryl-Feijan.", "Saved Melinda from her terrible fate in the Crypt of Kryl-Feijan.", "_t")
-t("Impossible Death", "Impossible Death", "achievement name")
-t("Got killed by your future self.", "Got killed by your future self.", "_t")
-t("Self-killer", "Self-killer", "achievement name")
-t("Killed your future self.", "Killed your future self.", "_t")
-t("Paradoxology", "Paradoxology", "achievement name")
-t("Both killed your future self and got killed by your future self.", "Both killed your future self and got killed by your future self.", "_t")
-t("Explorer", "Explorer", "achievement name")
-t("Used the Sher'Tul fortress exploratory farportal at least 7 times with the same character.", "Used the Sher'Tul fortress exploratory farportal at least 7 times with the same character.", "_t")
-t("Orbituary", "Orbituary", "achievement name")
-t("Stabilized the Abashed Expanse to maintain it in orbit.", "Stabilized the Abashed Expanse to maintain it in orbit.", "_t")
 t("Wibbly Wobbly Timey Wimey Stuff", "Wibbly Wobbly Timey Wimey Stuff", "achievement name")
-t("Killed the weaver queen and the temporal defiler.", "Killed the weaver queen and the temporal defiler.", "_t")
-t("Matrix style!", "Matrix style!", "achievement name")
-t("Finished the whole Abashed Expanse zone without being hit by a single void blast or manaworm. Dodging's fun!", "Finished the whole Abashed Expanse zone without being hit by a single void blast or manaworm. Dodging's fun!", "_t")
-t("The Right thing to do", "The Right thing to do", "achievement name")
-t("Did the righteous thing in the ring of blood and disposed of the Blood Master.", "Did the righteous thing in the ring of blood and disposed of the Blood Master.", "_t")
-t("Thralless", "Thralless", "achievement name")
-t("Freed at least 30 enthralled slaves in the slavers' compound.", "Freed at least 30 enthralled slaves in the slavers' compound.", "_t")
-t("Lost in translation", "Lost in translation", "achievement name")
-t("Destroyed the naga portal in the slazish fens and got caught in the after-effect.", "Destroyed the naga portal in the slazish fens and got caught in the after-effect.", "_t")
-t("Dreaming my dreams", "Dreaming my dreams", "achievement name")
-t("Experienced and completed all the dreams in the Dogroth Caldera.", "Experienced and completed all the dreams in the Dogroth Caldera.", "_t")
-t("Destroyed the corrupted oozemancer.", "Destroyed the corrupted oozemancer.", "_t")
-t("Lucky Girl", "Lucky Girl", "achievement name")
-t("Saved Melinda again and invited her to the Fortress to cure her.", "Saved Melinda again and invited her to the Fortress to cure her.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/achievements/talents.lua"
 
-
--- texte non traduit
---[==[
-t("Pyromancer", "Pyromancer", "achievement name")
-t("Unlocked Archmage class and did over one million fire damage (with any item/talent/class).", "Unlocked Archmage class and did over one million fire damage (with any item/talent/class).", "_t")
-t("Cryomancer", "Cryomancer", "achievement name")
-t("Unlocked Archmage class and did over one million cold damage (with any item/talent/class).", "Unlocked Archmage class and did over one million cold damage (with any item/talent/class).", "_t")
-t("Lichform", "Lichform", "achievement name")
-t("Achieved your wild dreams of power and eternal life: you turned into a Lich!", "Achieved your wild dreams of power and eternal life: you turned into a Lich!", "_t")
-t("Best album ever!", "Best album ever!", "achievement name")
-t("Removed 89 beneficial effects from enemies via Disintegration.", "Removed 89 beneficial effects from enemies via Disintegration.", "_t")
---]==]
-
+t("Pyromancer", "Pyromancien", "achievement name")
+t("Unlocked Archmage class and did over one million fire damage (with any item/talent/class).", "Débloquez la classe Archimage et infligez plus d'un million de dégâts de feu (avec n'importe quel objet/talent/classe).", "_t")
+t("Cryomancer", "Cryomancien", "achievement name")
+t("Unlocked Archmage class and did over one million cold damage (with any item/talent/class).", "Débloquez la classe Archimage et infligez plus d'un million de dégâts de froid (avec n'importe quel objet/talent/classe).", "_t")
+t("Lichform", "Forme de Liche", "achievement name")
+t("Achieved your wild dreams of power and eternal life: you turned into a Lich!", "Réaliser ses rêves fous de pouvoir et de vie éternelle: tu es devenu une Liche!", "_t")
+t("Best album ever!", "Meilleur album de tous les temps!", "achievement name")
+t("Removed 89 beneficial effects from enemies via Disintegration.", "Supprimmer 89 effets bénéfiques des ennemis via la désintégration.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/classes/adventurer.lua"
@@ -3710,7 +3682,7 @@ t("#WHITE#*#{italic}#\"Insert control rod.\"#{normal}#", "#WHITE#*#{italic}#\"In
 t("[Examine the orb]", "[Examiner l'orbe]", "_t")
 t("[Fly the fortress -- #LIGHT_RED#FOR TESTING ONLY#LAST#]", "[Faire voler la forteresse -- #LIGHT_RED#POUR LES TESTS SEULEMENT#LAST#]", "_t")
 t("[Begin the Lichform ceremory]", "[Commencer la cérémonie de forme de Liche]", "_t")
-t("[Leave the orb alone]", "[Laissez l'orbe tranquille]", "_t")
+t("[Leave the orb alone]", "[Laisser l'orbe tranquille]", "_t")
 t([[*#LIGHT_GREEN#The device seems to be made of pure crystal. It projects a very accurate map of the known world - including the forbidden continent of the south.
 There seems to be a hole about the size and form of your Rod of Recall.#WHITE#*]], [[*#LIGHT_GREEN#L'appareil semble être fait de cristal pur. Il projette une carte très précise du monde connu - y compris le continent interdit du sud.
 Il semble y avoir un trou de la taille et de la forme de votre bâton de rappel.#WHITE#*]], "_t")
@@ -3728,7 +3700,7 @@ section "mod-tome/data/chats/shertul-fortress-gladium-orb.lua"
 
 t("*#LIGHT_GREEN#This orb is used to control the gladium arena.#WHITE#*", "*#LIGHT_GREEN#Cet orbe est utilisé pour contrôler l'arène de gladiateurs.#WHITE#*", "_t")
 t("[Go back to the Fortress]", "[Retourner à la forteresse]", "_t")
-t("[Leave the orb alone]", "[Laissez l'orbe tranquille]", "_t")
+t("[Leave the orb alone]", "[Laisser l'orbe tranquille]", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/shertul-fortress-shimmer.lua"
@@ -3760,7 +3732,7 @@ t("[Create ten target dummy]", "[Créer dix mannequins d'entraînement]", "_t")
 t("[Change dummies armour]", "[Changer l'armure des mannequins]", "_t")
 t("[Change dummies resistances]", "[Changer la résistance des mannequins]", "_t")
 t("[Reset]", "[Réinitialisation]", "_t")
-t("[Leave the orb alone]", "[Laissez l'orbe tranquille]", "_t")
+t("[Leave the orb alone]", "[Laisser l'orbe tranquille]", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/slasul.lua"
@@ -7686,6 +7658,7 @@ t("This ethereal eye stares eternally, as if seeing things that do not truly exi
 section "mod-tome/data/general/objects/boss-artifacts.lua"
 
 t("misc", "divers", "entity type")
+t("Rune of Reflection", "Rune de Réflexion", "entity name")
 -- texte non traduit
 --[==[
 t("fang", "fang", "entity subtype")
@@ -7702,7 +7675,6 @@ t("Blade of Distorted Time", "Blade of Distorted Time", "entity name")
 t("time-warped sword", "time-warped sword", "_t")
 t("The remnants of a damaged timeline, this blade shifts and fades at random.", "The remnants of a damaged timeline, this blade shifts and fades at random.", "_t")
 t("deals %d temporal damage and slows enemies in radius 6 of the target by %d%% based on Magic", "deals %d temporal damage and slows enemies in radius 6 of the target by %d%% based on Magic", "tformat")
-t("Rune of Reflection", "Rune of Reflection", "entity name")
 t("You can see your own image mirrored in the surface of this silvery rune.", "You can see your own image mirrored in the surface of this silvery rune.", "_t")
 t("shiny rune", "shiny rune", "_t")
 t("The Gaping Maw", "The Gaping Maw", "entity name")
@@ -7747,7 +7719,7 @@ t("quiver of dragonbone arrows", "quiver of dragonbone arrows", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/brotherhood-artifacts.lua"
 
-
+t("Infusion of Wild Growth", "Infusion de Croissance Sauvage", "entity name")
 -- texte non traduit
 --[==[
 t("potion", "potion", "entity type")
@@ -7814,7 +7786,6 @@ t("vial of white fluid", "vial of white fluid", "_t")
 t("A vial of murky white fluid.", "A vial of murky white fluid.", "_t")
 t("grant you two additional generic talent points", "grant you two additional generic talent points", "_t")
 t("Taint of Purging", "Taint of Purging", "entity name")
-t("Infusion of Wild Growth", "Infusion of Wild Growth", "entity name")
 t("Lifebinding Emerald", "Lifebinding Emerald", "entity name")
 t("green", "green", "entity subtype")
 t("cloudy, heavy emerald", "cloudy, heavy emerald", "_t")
@@ -11006,7 +10977,7 @@ t("A plain looking ceremonial rod. It has connections with Time that even chrono
 ------------------------------------------------
 section "mod-tome/data/general/objects/world-artifacts-maj-eyal.lua"
 
-
+t("Genocide", "Génocide", "entity name")
 -- texte non traduit
 --[==[
 t("Penitence", "Penitence", "entity name")
@@ -11038,7 +11009,6 @@ t("#DARK_BLUE#You feel a kindred spirit in this bow...", "#DARK_BLUE#You feel a 
 t("Spellblade", "Spellblade", "entity name")
 t("glowing long sword", "glowing long sword", "_t")
 t("Mages sometimes have funny ideas. Archmage Varil once learned how to handle a sword and found he preferred wielding it instead of his staff.", "Mages sometimes have funny ideas. Archmage Varil once learned how to handle a sword and found he preferred wielding it instead of his staff.", "_t")
-t("Genocide", "Genocide", "entity name")
 t("pitch black blade", "pitch black blade", "_t")
 t("Farian was King Toknor's captain, and fought by his side in the great Battle of Last Hope.  However, when he returned after the battle to find his hometown burnt in an orcish pyre, a madness overtook him.  The desire for vengeance made him quit the army and strike out on his own, lightly armoured and carrying nought but his sword.  Most thought him dead until the reports came back of a fell figure tearing through the orcish encampments, slaughtering all before him and mercilessly butchering the corpses after.  It is said his blade drank the blood of 100 orcs each day until finally all of Maj'Eyal was cleared of their presence.  When the final orc was slain and no more were to be found, Farian at the last turned the blade on himself and stuck it through his chest.  Those nearby said his body shook with convulsions as he did so, though they could not tell whether he was laughing or crying.", "Farian was King Toknor's captain, and fought by his side in the great Battle of Last Hope.  However, when he returned after the battle to find his hometown burnt in an orcish pyre, a madness overtook him.  The desire for vengeance made him quit the army and strike out on his own, lightly armoured and carrying nought but his sword.  Most thought him dead until the reports came back of a fell figure tearing through the orcish encampments, slaughtering all before him and mercilessly butchering the corpses after.  It is said his blade drank the blood of 100 orcs each day until finally all of Maj'Eyal was cleared of their presence.  When the final orc was slain and no more were to be found, Farian at the last turned the blade on himself and stuck it through his chest.  Those nearby said his body shook with convulsions as he did so, though they could not tell whether he was laughing or crying.", "_t")
 t("Bolbum's Big Knocker", "Bolbum's Big Knocker", "entity name")
@@ -11160,6 +11130,8 @@ t("#DARK_GREEN#The armor molds comfortably to one of its caretakers.", "#DARK_GR
 ------------------------------------------------
 section "mod-tome/data/general/objects/world-artifacts.lua"
 
+t("Primal Infusion", "Infusion Primale", "entity name")
+t("Blood of Life", "Sang de Vie", "entity name")
 t("misc", "divers", "entity type")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("None", "Aucune", "_t")
@@ -11175,7 +11147,6 @@ t("Windborne Azurite", "Windborne Azurite", "entity name")
 t("blue", "blue", "entity subtype")
 t("windy gem", "windy gem", "_t")
 t("Air currents swirl around this bright blue jewel.", "Air currents swirl around this bright blue jewel.", "_t")
-t("Primal Infusion", "Primal Infusion", "entity name")
 t("This wild infusion has evolved.", "This wild infusion has evolved.", "_t")
 t("pulsing infusion", "pulsing infusion", "_t")
 t("Prismatic Rune", "Prismatic Rune", "entity name")
@@ -11228,7 +11199,6 @@ t("This dark red heart still beats despite being separated from its owner.  It a
 t("The heart seems to absorb light when you deal darkness damage. Standing on unlit tiles, you feel stronger.", "The heart seems to absorb light when you deal darkness damage. Standing on unlit tiles, you feel stronger.", "_t")
 t("potion", "potion", "entity type")
 t("potion", "potion", "entity subtype")
-t("Blood of Life", "Blood of Life", "entity name")
 t("bloody phial", "bloody phial", "_t")
 t("This vial of blood was drawn from an ancient race in the Age of Haze. Some of the power and vitality of those early days of the world still flows through it. \"Drink me, mortal,\" the red liquid seems to whisper in your thoughts. \"I will bring you light beyond darkness. Those who taste my essence fear not the death of flesh. Drink me, mortal, if you value your life...\"", "This vial of blood was drawn from an ancient race in the Age of Haze. Some of the power and vitality of those early days of the world still flows through it. \"Drink me, mortal,\" the red liquid seems to whisper in your thoughts. \"I will bring you light beyond darkness. Those who taste my essence fear not the death of flesh. Drink me, mortal, if you value your life...\"", "_t")
 t("quaff the Blood of Life to grant an extra life", "quaff the Blood of Life to grant an extra life", "_t")
@@ -17508,7 +17478,7 @@ t("As you descend to the next level you traverse a kind of magical barrier keepi
 ------------------------------------------------
 section "mod-tome/data/lore/orc-prides.lua"
 
-
+t("The Legend of Garkul", "La Légende de Garkul", "_t")
 -- texte non traduit
 --[==[
 t("orc prides", "orc prides", "newLore category")
@@ -17594,7 +17564,6 @@ What forces we could muster we sent east, leaving behind token troops who bravel
 But what was left of our people in the east was a broken picture. Gone were the majority of our women and children, gone were our centres of culture, gone was all softness that ever lived in us. Our military forces were all that were left, consolidated in the Prides. By arcane experimentation we found ways to breed again, but we are left a hollow people. Until we are free from the threats of the other races we can focus on only one thing - revenge.
 
 We still have a secret presence in the west, in our rightful lands across which we have spilled rivers of our own blood. We are building up our military force at an accelerating rate, and when the time comes we shall sweep across Maj'Eyal with a vengeance that cannot be held back. The other races will suffer as they have made us suffer, and all that they have built will be brought to ruin.]], "_t")
-t("The Legend of Garkul", "The Legend of Garkul", "_t")
 t([[#{bold}#Chapter One: A Young Warrior#{normal}#
 
 #{italic}#"Without hardship you cannot have strength. Only through pain do we truly learn. Our race has lived through war and fire and pestilence, and each one has made us stronger. Each trial we overcome brings us to greater strength."
@@ -19133,10 +19102,9 @@ t("You succesfully defeated your adversaries and gained access to the arena!", "
 ------------------------------------------------
 section "mod-tome/data/quests/arena.lua"
 
-
+t("The Arena", "L'Arène", "_t")
 -- texte non traduit
 --[==[
-t("The Arena", "The Arena", "_t")
 t("Seeking wealth, glory, and a great fight, you challenge the Arena!", "Seeking wealth, glory, and a great fight, you challenge the Arena!", "_t")
 t("Can you defeat your foes and become Master of Arena?", "Can you defeat your foes and become Master of Arena?", "_t")
 t("Winner", "Winner", "_t")
@@ -19406,7 +19374,7 @@ t("You failed to defeat the acolytes in time - the woman got torn apart by the d
 ------------------------------------------------
 section "mod-tome/data/quests/lichform.lua"
 
-
+t("Lichform", "Forme de Liche", "_t")
 -- texte non traduit
 --[==[
 t("From Death, Life", "From Death, Life", "_t")
@@ -19424,7 +19392,6 @@ t("#SLATE#* Use the control orb of Yiilkgur to begin the ceremony.#WHITE#", "#SL
 t("#SLATE#* Your lair must amass enough energy to use in your rebirth (40 energy).#WHITE#", "#SLATE#* Your lair must amass enough energy to use in your rebirth (40 energy).#WHITE#", "_t")
 t("#SLATE#* The ceremony will require a suitable location, secluded and given to the channelling of energy#WHITE#", "#SLATE#* The ceremony will require a suitable location, secluded and given to the channelling of energy#WHITE#", "_t")
 t("#CRIMSON#* You have ascended to Lichdom!#WHITE#", "#CRIMSON#* You have ascended to Lichdom!#WHITE#", "_t")
-t("Lichform", "Lichform", "_t")
 t("The secrets of death lay open to you! You are to become a Lich upon your next death!", "The secrets of death lay open to you! You are to become a Lich upon your next death!", "_t")
 --]==]
 
@@ -20076,10 +20043,9 @@ t("You must now finish what the Sher'tuls started. Take the Staff of Absorption 
 ------------------------------------------------
 section "mod-tome/data/quests/west-portal.lua"
 
-
+t("There and back again", "A nouveau de retour", "_t")
 -- texte non traduit
 --[==[
-t("There and back again", "There and back again", "_t")
 t("Zemekkys in the Gates of Morning can build a portal back to Maj'Eyal for you.", "Zemekkys in the Gates of Morning can build a portal back to Maj'Eyal for you.", "_t")
 t("#LIGHT_GREEN#* You have found a Blood-Runed Athame.#WHITE#", "#LIGHT_GREEN#* You have found a Blood-Runed Athame.#WHITE#", "_t")
 t("#SLATE#* Find a Blood-Runed Athame.#WHITE#", "#SLATE#* Find a Blood-Runed Athame.#WHITE#", "_t")
@@ -25756,6 +25722,7 @@ t([[Latch on to the target and suck their blood, doing %0.2f physical and %0.2f 
 section "mod-tome/data/talents/misc/inscriptions.lua"
 
 t(" and ", " et ", "_t")
+t("Rune of the Rift", "Rune de la Faille", "talent name")
 -- texte non traduit
 --[==[
 t("- will only auto use when no saturation effect exists", "- will only auto use when no saturation effect exists", "_t")
@@ -25829,7 +25796,6 @@ t([[Activate the rune to unleash a manasurge upon yourself, increasing mana rege
 			Also when resting your mana will regenerate at 0.5 per turn.]], [[Activate the rune to unleash a manasurge upon yourself, increasing mana regeneration by %d%% for %d turns (%d total) and instantly restoring %d mana.
 			Also when resting your mana will regenerate at 0.5 per turn.]], "tformat")
 t("regen %d%% over %d turns; mana %d; cd %d", "regen %d%% over %d turns; mana %d; cd %d", "tformat")
-t("Rune of the Rift", "Rune of the Rift", "talent name")
 t("%s is immune!", "%s is immune!", "logSeen")
 t("%s resists!", "%s resists!", "logSeen")
 t("Something has prevented the timetravel.", "Something has prevented the timetravel.", "logPlayer")
@@ -28466,7 +28432,7 @@ t([[When you hit a solid surface, this spell tears down the laws of probability 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/death.lua"
 
-
+t("Utterly Destroyed", "Complètement détruit", "talent name")
 -- texte non traduit
 --[==[
 t("Rigor Mortis", "Rigor Mortis", "talent name")
@@ -28505,7 +28471,6 @@ t([[Your body starts to radiate shadows, increasing your darkness resistance by 
 		Any time you absorb a soul the shadows pulse outward, dealing %0.2f frostdusk damage to all foes in range %d and knocking them back 3 tiles.
 		This can only happen once per turn.
 		The damage increases with your Spellpower.]], "tformat")
-t("Utterly Destroyed", "Utterly Destroyed", "talent name")
 t([[Whenever a creature is killed by yourself or a minion you feast on its essence, gaining %0.1f mana.
 		At level 3 the thrill of the death invigorates you, granting a movement speed bonus of 50%% for %d turns.]], [[Whenever a creature is killed by yourself or a minion you feast on its essence, gaining %0.1f mana.
 		At level 3 the thrill of the death invigorates you, granting a movement speed bonus of 50%% for %d turns.]], "tformat")
@@ -30395,7 +30360,7 @@ t([[Take a defensive stance to resist the onslaught of your foes.
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/bloodthirst.lua"
 
-
+t("Unstoppable", "Inarrêtable", "talent name")
 -- texte non traduit
 --[==[
 t("Mortal Terror", "Mortal Terror", "talent name")
@@ -30415,7 +30380,6 @@ t([[You delight in the inflicting of wounds, providing %d physical power.
 		Physical power depends on your Strength stat.]], [[You delight in the inflicting of wounds, providing %d physical power.
 		In addition when you make a creature bleed its physical damage resistance is reduced by %d%% (but never below 0%%).
 		Physical power depends on your Strength stat.]], "tformat")
-t("Unstoppable", "Unstoppable", "talent name")
 t([[You enter a battle frenzy for %d turns. During that time, you can not use items, healing has no effect, and your health cannot drop below 1.
 		At the end of the frenzy, you regain %d%% of your health per foe slain during the frenzy.
 		While Unstoppable is active, Berserker Rage critical bonus is disabled as you lose the thrill of the risk of death.]], [[You enter a battle frenzy for %d turns. During that time, you can not use items, healing has no effect, and your health cannot drop below 1.
@@ -31832,6 +31796,7 @@ t([[You fire a shot straight at your enemy's vital areas, wounding them terribly
 section "mod-tome/data/talents/uber/mag.lua"
 
 t("Lich", "Liche", "talent name")
+t("Lichform", "Forme de Liche", "_t")
 -- texte non traduit
 --[==[
 t("Spectral Shield", "Spectral Shield", "talent name")
@@ -31955,7 +31920,6 @@ t([[Your inner flame is strong. Each time that you receive a blow that would kil
 t("Is a living creature that knows necromancy", "Is a living creature that knows necromancy", "_t")
 t("Have completed the ritual", "Have completed the ritual", "_t")
 t("#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.", "#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.", "log")
-t("Lichform", "Lichform", "_t")
 t([[#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!
 
 #{italic}#You may now choose to customize the appearance of your Lich, this can not be changed afterwards.]], [[#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!
@@ -37288,6 +37252,7 @@ t("undead", "mort-vivant", "effect subtype")
 t("suffocating", "s'etouffe", "effect subtype")
 t("antimagic", "anti-magie", "effect subtype")
 t("Swift Hands", "Mains rapides", "_t")
+t("Unstoppable", "Inarrêtable", "_t")
 t("unknown", "inconnu", "effect subtype")
 -- nouveau texte
 --[==[
@@ -37686,7 +37651,6 @@ t("The target is in temporal stasis.", "The target is in temporal stasis.", "_t"
 t("#Target#'s is back to the normal timeflow.", "#Target#'s is back to the normal timeflow.", "_t")
 t("-Aeons Stasis", "-Aeons Stasis", "_t")
 t("frenzy", "frenzy", "effect subtype")
-t("Unstoppable", "Unstoppable", "_t")
 t("The target is unstoppable! It refuses to die and cannot heal.  When the effect ends, it will heal %d Life (%d%% of maximum life per foe slain during the frenzy).", "The target is unstoppable! It refuses to die and cannot heal.  When the effect ends, it will heal %d Life (%d%% of maximum life per foe slain during the frenzy).", "tformat")
 t("combat", "combat", "effect subtype")
 t("penalty", "penalty", "effect subtype")
@@ -38951,10 +38915,9 @@ t("rough leather sling of flare", "rough leather sling of flare", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/arena/zone.lua"
 
-
+t("The Arena", "L'Arène", "_t")
 -- texte non traduit
 --[==[
-t("The Arena", "The Arena", "_t")
 t("#GOLD#Miniboss round starts!!", "#GOLD#Miniboss round starts!!", "log")
 t("#VIOLET#Boss round starts!!!", "#VIOLET#Boss round starts!!!", "log")
 t("#LIGHT_RED#Final round starts!!!!", "#LIGHT_RED#Final round starts!!!!", "log")
@@ -39321,12 +39284,11 @@ t("A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned f
 ------------------------------------------------
 section "mod-tome/data/zones/daikara/objects.lua"
 
-
+t("Rune of the Rift", "Rune de la Faille", "entity name")
 -- texte non traduit
 --[==[
 t("daikara expedition note", "daikara expedition note", "entity name")
 t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
-t("Rune of the Rift", "Rune of the Rift", "entity name")
 --]==]
 
 
@@ -39926,12 +39888,11 @@ t("and mounted on the barracks wall", "and mounted on the barracks wall", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/grushnak-pride/objects.lua"
 
-
+t("The Legend of Garkul", "La Légende de Garkul", "entity name")
 -- texte non traduit
 --[==[
 t("draft note", "draft note", "entity name")
 t("A note.", "A note.", "_t")
-t("The Legend of Garkul", "The Legend of Garkul", "entity name")
 t("The Legend of Garkul the Devourer, mightiest of all orcs.", "The Legend of Garkul the Devourer, mightiest of all orcs.", "_t")
 --]==]
 
@@ -42016,12 +41977,7 @@ t("Chronolith Clone", "Chronolith Clone", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/temporal-rift/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Rune of the Rift", "Rune of the Rift", "entity name")
---]==]
-
+t("Rune of the Rift", "Rune de la Faille", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/temporal-rift/zone.lua"
@@ -43486,7 +43442,6 @@ section "mod-tome/mod/ai/improved_tactical.lua"
 t("#ORCHID#%s wants escape(move) %0.2f (air: %s = %0.2f) on %s (%d, %d, air:%s = %s turns)", "#ORCHID#%s veut s'enfuire(mouvement) %0.2f (air: %s = %0.2f) sur %s (%d, %d, air:%s = %s tours)", "log")
 t("#ORCHID#%s wants escape(move) %0.2f (heal) in %s at(%d, %d) dam %d vs %d avail life)", "#ORCHID#%s veut s'enfuire(mouvement) %0.2f (soin) dans %s à(%d, %d) dommage %d contre %d vie dispo)", "log")
 t("#GREY#__%s[%d] tactical AI: NO USEFUL ACTIONS", "#GREY#__%s[%d] IA tactique: PAS D'ACTION UTILE", "log")
-t("%s__%s[%d] tactical AI picked action[att:%d, turn %s]: (%s)%s {%-+4.2f [%s]}", "%s__%s[%d] L'IA tactique a choisi l'action[att:%d, tour %s]: (%s)%s {%-+4.2f [%s]}", "log")
 t("#GREY#__[%d]%s ACTION SUCCEEDED:  %s, tacs: %s, FT:%s", "#GREY#__[%d]%s ACTION REUSSI:  %s, tacs: %s, FT:%s", "log")
 t("__[%d]%s #ORANGE# ACTION FAILED:  %s, FT:%s", "__[%d]%s #ORANGE# ACTION ECHOUE:  %s, FT:%s", "log")
 t("__[%d]%s #SLATE# tactical AI: NO ACTION, best: %s, %s", "__[%d]%s #SLATE# IA tactique: AUCUNE ACTION, battre: %s, %s", "log")
@@ -43495,6 +43450,7 @@ t("#ROYAL_BLUE#---talents disabled---", "#ROYAL_BLUE#---talents désactivé---",
 -- texte non traduit
 --[==[
 t("#GREY#%3d: %-40s score=%-+4.2f[Lx%-5.2f Sx%5.2f Mx%0.2f] (%s)", "#GREY#%3d: %-40s score=%-+4.2f[Lx%-5.2f Sx%5.2f Mx%0.2f] (%s)", "log")
+t("%s__%s[%d] tactical AI picked action[att:%d, turn %s]: (%s)%s {%-+4.2f [%s]}", "%s__%s[%d] tactical AI picked action[att:%d, turn %s]: (%s)%s {%-+4.2f [%s]}", "log")
 --]==]
 
 

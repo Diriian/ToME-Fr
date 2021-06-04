@@ -22,7 +22,7 @@ t("Adds access to the items vault (donator feature). The items vault will let yo
 ------------------------------------------------
 section "tome-items-vault/overload/data/chats/items-vault-command-orb-offline.lua"
 
-t("[Leave the orb alone]", "[Laissez l'orbe tranquille]", "_t")
+t("[Leave the orb alone]", "[Laisser l'orbe tranquille]", "_t")
 -- nouveau texte
 --[==[
 t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "Transfering this item will place a level %d requirement on it, since it has no requirements. ", "tformat")
@@ -51,7 +51,7 @@ t("[Retrieve an item from the vault]", "[Retrieve an item from the vault]", "_t"
 ------------------------------------------------
 section "tome-items-vault/overload/data/chats/items-vault-command-orb.lua"
 
-t("[Leave the orb alone]", "[Laissez l'orbe tranquille]", "_t")
+t("[Leave the orb alone]", "[Laisser l'orbe tranquille]", "_t")
 -- nouveau texte
 --[==[
 t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "Transfering this item will place a level %d requirement on it, since it has no requirements. ", "tformat")
@@ -98,6 +98,7 @@ t("Temporal Locked Vault", "Temporal Locked Vault", "_t")
 section "tome-items-vault/overload/mod/class/ItemsVaultDLC.lua"
 
 
+t("unknown reason", "Raison inconnue", "_t")
 -- nouveau texte
 --[==[
 t("the #GOLD#Item's Vault#WHITE#", "the #GOLD#Item's Vault#WHITE#", "_t")
@@ -106,7 +107,6 @@ t("\
 #CRIMSON#This item has been sent to the Item's Vault.", "_t")
 t("Transfering...", "Transfering...", "_t")
 t("Teleporting object to the vault, please wait...", "Teleporting object to the vault, please wait...", "_t")
-t("unknown reason", "unknown reason", "_t")
 t("#LIGHT_BLUE#You transfer %s to the online item's vault.", "#LIGHT_BLUE#You transfer %s to the online item's vault.", "logPlayer")
 t("#LIGHT_RED#Error while transfering %s to the online item's vault, please retry later.", "#LIGHT_RED#Error while transfering %s to the online item's vault, please retry later.", "logPlayer")
 t("#CRIMSON#Server said: %s", "#CRIMSON#Server said: %s", "logPlayer")
