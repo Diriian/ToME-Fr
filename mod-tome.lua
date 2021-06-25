@@ -1457,11 +1457,11 @@ t("That sounds promising. And ominous.", "Cela semble prometteur. Et sinistre.",
 t("[leave]", "[partir]", "_t")
 t("Indeed, it is both promising and ominous. I can reward you handsomely for your efforts, but they will lead you into deadly peril to which, I assume, the previous three fellows who went off on my errand never to return can attest.", "En effet, c'est à la fois prometteur et inquiétant. Je peux vous récompenser généreusement pour vos efforts, mais ils vous conduiront à un péril mortel dont, je suppose, les trois précédents gars qui sont partis en mission pour ne jamais revenir peuvent en témoigner.", "_t")
 t("What do you propose?", "Que proposez vous?", "_t")
-t("Good adventurer, I am an alchemist, and quite a good one. This year, for the first time, the great Brotherhood of Alchemists has invited my application to their number. I'll not try your patience with the details of the application process, but suffice to say that it is grueling. Fortunately, a mere three tasks now stand between me and acceptance.", "Bon aventurier, je suis un alchimiste, et un très bon. Cette année, pour la première fois, la grande confrérie des alchimistes m'a invité à poser ma candidature. Je ne vais pas mettre votre patience à l'épreuve avec les détails du processus de candidature, mais il suffit de dire qu'il est éreintant. Heureusement, trois tâches seulement me séparent de l'acceptation.", "_t")
+t("Good adventurer, I am an alchemist, and quite a good one. This year, for the first time, the great Brotherhood of Alchemists has invited my application to their number. I'll not try your patience with the details of the application process, but suffice to say that it is grueling. Fortunately, a mere three tasks now stand between me and acceptance.", "Bon aventurier, je suis un alchimiste, et un très bon. Cette année, pour la première fois, la grande Confrérie des Alchimistes m'a invité à poser ma candidature. Je ne vais pas mettre votre patience à l'épreuve avec les détails du processus de candidature, mais il suffit de dire qu'il est éreintant. Heureusement, trois tâches seulement me séparent de l'acceptation.", "_t")
 t("How can I help?", "Comment puis-je aider?", "_t")
 t("I require ingredients for three potent mixtures. Obviously, since I seek your aid, none of them is to be found by simply strolling to the local herbalist's. No, they will need to be forcibly parted from their owners who will, just as obviously, put up a fight. I've yet to encounter a naga who would be persuaded to hand over his tongue! Ha! Oh, I am droll at times.", "J'ai besoin d'ingrédients pour trois puissant mélanges. Évidemment, puisque je sollicite votre aide, aucun d'entre eux ne se trouve en se promenant simplement chez l'herboriste local. Non, ils devront être séparés de force de leurs propriétaires qui, tout aussi évidemment, savent se battent. Je n'ai pas encore rencontré de naga qui pourrait être persuadé de remettre sa langue! Ha! Oh, je suis drôle parfois.", "_t")
 t("I specialize in separating vital body parts from monsters. What do you offer in return?", "Je me spécialise dans la séparation des parties vitales du corps des monstres. Que proposez-vous en retour ?", "_t")
-t("Why, I will let you share in the fruits of my labors! Each of the three mixtures I shall produce in a quantity sufficient to create three doses: one for me, one for the Brotherhood and their confounded trial... and one for you. I must tell you that time is of the essence. I am not the only one who the Brotherhood invited this year, yet they will accept only one applicant-- the first to complete their trials. I know of at least three others laboring furiously to take my rightful place. Should your aid see me through, then I will reward you beyond even the remarkable elixirs. I've an ancient Lifebinding Emerald that grants great powers of health and healing when used properly. What say you?", "Pourquoi, je vous laisserai partager les fruits de mon travail! Je produirai chacun des trois mélanges en quantité suffisante pour créer trois doses: une pour moi, une pour la Confrérie et son concours confus... et une pour vous. Je dois vous dire que le temps est compté. Je ne suis pas le seul que la Confrérie a invité cette année, mais ils n'accepteront qu'un seul candidat - le premier à terminer ses essais. Je connais au moins trois autres personnes qui travaillent d'arrache-pied pour prendre ma place. Si votre aide me permet de m'en sortir, alors je vous récompenserai au-delà des élixirs remarquables. J'ai une ancienne émeraude qui donne de grands pouvoirs de santé et de guérison lorsqu'elle est utilisée correctement. Qu'en dites-vous?", "_t")
+t("Why, I will let you share in the fruits of my labors! Each of the three mixtures I shall produce in a quantity sufficient to create three doses: one for me, one for the Brotherhood and their confounded trial... and one for you. I must tell you that time is of the essence. I am not the only one who the Brotherhood invited this year, yet they will accept only one applicant-- the first to complete their trials. I know of at least three others laboring furiously to take my rightful place. Should your aid see me through, then I will reward you beyond even the remarkable elixirs. I've an ancient Lifebinding Emerald that grants great powers of health and healing when used properly. What say you?", "Eh bien, je vous laisserai partager les fruits de mon travail! Je produirai chacun des trois mélanges en quantité suffisante pour créer trois doses: une pour moi, une pour la Confrérie et son concours confus... et une pour vous. Je dois vous dire que le temps est compté. Je ne suis pas le seul que la Confrérie a invité cette année, mais ils n'accepteront qu'un seul candidat - le premier à terminer ses essais. Je connais au moins trois autres personnes qui travaillent d'arrache-pied pour prendre ma place. Si votre aide me permet de m'en sortir, alors je vous récompenserai au-delà des élixirs remarquables. J'ai une ancienne émeraude qui donne de grands pouvoirs de santé et de guérison lorsqu'elle est utilisée correctement. Qu'en dites-vous?", "_t")
 t("I accept.", "J'accepte.", "_t")
 t("I cannot aid you at this time.", "Je ne peux pas vous aider en ce moment.", "_t")
 t("Excellent. Now then, I've three elixirs I'm working on. I'll burden you with only one at a time, since I've learned the hard way about the hazards of overloading an adventurer's brain. Here are your options: the elixir of the fox, which makes you as nimble and cunning as a fox; the elixir of avoidance, which sharpens your natural inclinations to get out of the way of incoming harm; or the elixir of precision, which grants intuitive understanding of an enemy's most sensitive spots. Which would you like to aid me with?", "Excellent. Maintenant, j'ai trois élixirs sur lesquels je travaille. Je ne vous en donnerai qu'un à la fois, car j'ai appris à mes dépens les dangers de surcharger le cerveau d'un aventurier. Voici vos options: l'élixir du renard, qui vous rend aussi agile et rusé qu'un renard; l'élixir de l'évitement, qui aiguise vos tendances naturelles à vous écarter du danger; ou l'élixir de la précision, qui accorde une compréhension intuitive des points les plus sensibles d'un ennemi. Avec lequel voulez-vous m'aider?", "_t")
@@ -1502,56 +1502,56 @@ t("Hrmph.", "Hrmph.", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/alchemist-elvala.lua"
 
+t("Too late! Argh, too late. %s has already finished. I'll make the elixir and reward you as promised, but only because the Brotherhood breaks the fingers of non-member alchemists who rook people. Members, on the other hand...", "Trop tard ! Argh, trop tard. %s a déjà terminé. Je vais fabriquer l'élixir et vous récompenser comme promis, mais seulement parce que la Confrérie brise les doigts des alchimistes non membres qui escroquent les gens. Les membres, d'un autre côté...", "tformat")
+t("Give them here. You took long enough; %s cooked up a %s in your absence. Be quicker about the next one lest I make a 'mistake' in brewing your reward.", "Pose les ici. Tu en as mis du temps, %s a préparé un %s en ton absence. Soyez plus rapide pour le prochain, sinon je ferai une \"erreur\" en préparant votre récompense.", "tformat")
+t([[#LIGHT_GREEN#*A shabbily-dressed elf opens the door, scratching his head in apparent puzzlement.*#WHITE#
+Another adventurer? Or have we met? I can't tell people apart unless they wear brightly-colored headbands. You need to help me.]], [[#LIGHT_GREEN#*Un elfe mal habillé ouvre la porte, se grattant la tête avec une apparente perplexité*#WHITE#
+Un autre aventurier? Ou nous sommes-nous déjà rencontrés? Je ne peux pas distinguer les gens à moins qu'ils ne portent des bandeaux de couleurs vives. Vous devez m'aider.]], "_t")
+t("I am indeed an adventurer. Go on.", "Je suis en effet un aventurier. Continuez.", "_t")
 t("[leave]", "[partir]", "_t")
+t("Three elixirs stand between me and acceptance into the Brotherhood of Alchemists, unless I've been through that already. I'm never quite sure. But I think that's the case. Bring me the ingredients.", "Trois élixirs se dressent entre moi et l'acceptation dans la confrérie des alchimistes, à moins que je ne sois déjà passé par là. Je ne suis jamais tout à fait sûr. Mais je pense que c'est le cas. Apporte-moi les ingrédients.", "_t")
+t("What elixirs? What ingredients?", "Quels élixirs? Quels ingrédients?", "_t")
+t("The ones that I need to get before the other alchemists get them. Can't have some lesser hack sneaking into the Brotherhood.", "Ceux que je dois obtenir avant que les autres alchimistes ne les obtiennent. Je ne peux pas laisser un simple passionné se faufiler dans la Confrérie.", "_t")
+t("You're making little sense.", "Ca n'as pas beaucoup de sens.", "_t")
+t([[#LIGHT_GREEN#*He raises his voice and gestures exaggeratedly, seemingly taking you for an idiot.*#WHITE#
+Me need pieces of scary monsters for happy-making drink. You get me pieces. You probably get eaten by monsters, me have this conversation yet again with other bonehead.]], [[#LIGHT_GREEN#*Il élève la voix et fait des gestes exagérés, semblant vous prendre pour un idiot.*#WHITE#
+Moi besoin morceaux monstres effrayant pour boisson qui rend heureux. Toi me donner morceaux. Toi probablement être mangé par monstres, et Moi avoir encore conversation avec autre crétin.]], "_t")
+t("I've been known to kill the occasional monster. Is there a reward in it for me?", "Je suis connu pour tuer des occasionnellement des monstres. Y a-t-il une récompense pour moi?", "_t")
+t("It finally understands! You get a dose of every elixir you help me make. And if your help gets me into the Brotherhood, I've got half an Elixir of Invulnerability lying around that I'll give you. Don't try anything; I've already downed the other half.", "Il comprend enfin! Tu auras une dose de chaque élixir que tu m'aideras à fabriquer. Et si ton aide me fait entrer dans la Confrérie, j'ai la moitié d'un Elixir d'invulnérabilité qui traîne et je te le donne. Ne tente rien, j'ai déjà descendu l'autre moitié.", "_t")
 t("I accept.", "J'accepte.", "_t")
 t("I cannot aid you at this time.", "Je ne peux pas vous aider en ce moment.", "_t")
+t("Three elixirs I need. I'll show you the ingredients to one at a time. Are you interested in the Elixir of Mysticism, the Elixir of the Savior, or the Elixir of Mastery?", "Trois élixirs dont j'ai besoin. Je vais te montrer les ingrédients un par un. Es-tu intéressé par l'Elixir de Mysticisme, l'Elixir du Sauveur, ou l'Elixir de Maîtrise?", "_t")
 t("The %s.", "L'%s.", "tformat")
+t("Here's a list of the monster bits I need. I've already got a bunch of idiots out looking for these, by the way, so you best hurry up; they've got a head start on you and I'm not getting any saner here.", "Voici une liste des pièces monstrueuses dont j'ai besoin. J'ai déjà une bande d'idiots qui les cherchent, alors dépêchez-vous, ils ont une longueur d'avance sur vous et je ne vais pas devenir plus sain d'esprit ici.", "_t")
+t("So I see. I'll be off.", "Ok je vois. Je m'en vais.", "_t")
 t("#LIGHT_GREEN#*The door is locked and nobody responds to your knocks*#WHITE#", "#LIGHT_GREEN#*La porte est verrouillée et personne ne répond à vos coups*#WHITE#", "_t")
 t("[Leave]", "[Partir]", "_t")
+t([[#LIGHT_GREEN#*The shabby elf opens his door.*#WHITE#
+Do I know you?]], [[#LIGHT_GREEN#*L'elfe miteux ouvre sa porte.*#WHITE#
+Je vous connais?]], "_t")
 t("I've returned with the ingredients for the %s.", "Je suis de retour avec les ingrédients pour l'%s.", "tformat")
 t("I've come to offer more aid.", "Je suis venu offrir plus d'aide.", "_t")
 t("[Give him the monster bits.]", "[Lui Donner les morceaux de monstre.]", "_t")
+t([[#LIGHT_GREEN#*The elf claps his scarred hands together.*#WHITE#
+Exceptional work, lackey! The final elixir awaits! Oh, yes. Membership will be mine. And revenge. Ohhhh yes.]], [[#LIGHT_GREEN#*L'elfe frappe ses mains balafrées l'une contre l'autre.*#WHITE#
+Un travail exceptionnel, larbin ! L'élixir final attend! Oh, oui. L'adhésion sera mienne. Et la vengeance. Ohhhh oui.]], "_t")
 t("[Give him the monster bits]", "[Lui Donner les morceaux de monstre.]", "_t")
+t("Contain your impatience while I prepare these. I'll have the elixir within the hour.", "Contenez votre impatience pendant que je les prépare. J'aurai l'élixir dans l'heure.", "_t")
 t("[Wait]", "[Attendre]", "_t")
+t("Perfection. Wait here.", "La perfection. Attendez ici.", "_t")
+t([[#LIGHT_GREEN#*The elf finally returns and tosses you a small vial of fine glass.*#WHITE#
+Side effects may include some slight mental imbalances.]], [[#LIGHT_GREEN#*L'elfe revient enfin et vous lance une petite fiole de verre fin.*#WHITE#
+Les effets secondaires peuvent inclure de légers déséquilibres mentaux.]], "_t")
 t("Thank you. I'll be off.", "Merci. Je vais m'en aller.", "_t")
+t([[#LIGHT_GREEN#*The alchemist finally returns with two vials.*#WHITE#
+I have no idea who you are, but I'm pretty sure that I'm supposed to give these to somebody as a reward. If some adventurer kills you and takes them, then apparently you're not the fellow I'm looking for.]], [[#LIGHT_GREEN#*L'alchimiste revient enfin avec deux fioles.*#WHITE#
+Je n'ai aucune idée de qui vous êtes, mais je suis presque sûr que je suis censé les donner à quelqu'un comme récompense. Si un aventurier vous tue et les prend, alors apparemment vous n'êtes pas celui que je recherche.]], "_t")
+t("Which of the remaining elixirs interests you?", "Lequel des élixirs restants vous intéresse ?", "_t")
+t("Here's a list of the ingredients I'm missing. Please follow the directions carefully, or the resulting elixir could be more fatal than either of us would hope.", "Voici une liste des ingrédients qu'il me manque. Veuillez suivre attentivement les instructions, ou l'élixir qui en résultera pourrait être plus fatal qu'aucun de nous ne l'espère.", "_t")
 t("I'll be off.", "Je m'en vais.", "_t")
+t("Already made it. Best pick up the pace next time, adventurer.", "Déjà fait. Tu devrais accélérer le rythme la prochaine fois, aventurier.", "_t")
 -- texte non traduit
 --[==[
-t("Too late! Argh, too late. %s has already finished. I'll make the elixir and reward you as promised, but only because the Brotherhood breaks the fingers of non-member alchemists who rook people. Members, on the other hand...", "Too late! Argh, too late. %s has already finished. I'll make the elixir and reward you as promised, but only because the Brotherhood breaks the fingers of non-member alchemists who rook people. Members, on the other hand...", "tformat")
-t("Give them here. You took long enough; %s cooked up a %s in your absence. Be quicker about the next one lest I make a 'mistake' in brewing your reward.", "Give them here. You took long enough; %s cooked up a %s in your absence. Be quicker about the next one lest I make a 'mistake' in brewing your reward.", "tformat")
-t([[#LIGHT_GREEN#*A shabbily-dressed elf opens the door, scratching his head in apparent puzzlement.*#WHITE#
-Another adventurer? Or have we met? I can't tell people apart unless they wear brightly-colored headbands. You need to help me.]], [[#LIGHT_GREEN#*A shabbily-dressed elf opens the door, scratching his head in apparent puzzlement.*#WHITE#
-Another adventurer? Or have we met? I can't tell people apart unless they wear brightly-colored headbands. You need to help me.]], "_t")
-t("I am indeed an adventurer. Go on.", "I am indeed an adventurer. Go on.", "_t")
-t("Three elixirs stand between me and acceptance into the Brotherhood of Alchemists, unless I've been through that already. I'm never quite sure. But I think that's the case. Bring me the ingredients.", "Three elixirs stand between me and acceptance into the Brotherhood of Alchemists, unless I've been through that already. I'm never quite sure. But I think that's the case. Bring me the ingredients.", "_t")
-t("What elixirs? What ingredients?", "What elixirs? What ingredients?", "_t")
-t("The ones that I need to get before the other alchemists get them. Can't have some lesser hack sneaking into the Brotherhood.", "The ones that I need to get before the other alchemists get them. Can't have some lesser hack sneaking into the Brotherhood.", "_t")
-t("You're making little sense.", "You're making little sense.", "_t")
-t([[#LIGHT_GREEN#*He raises his voice and gestures exaggeratedly, seemingly taking you for an idiot.*#WHITE#
-Me need pieces of scary monsters for happy-making drink. You get me pieces. You probably get eaten by monsters, me have this conversation yet again with other bonehead.]], [[#LIGHT_GREEN#*He raises his voice and gestures exaggeratedly, seemingly taking you for an idiot.*#WHITE#
-Me need pieces of scary monsters for happy-making drink. You get me pieces. You probably get eaten by monsters, me have this conversation yet again with other bonehead.]], "_t")
-t("I've been known to kill the occasional monster. Is there a reward in it for me?", "I've been known to kill the occasional monster. Is there a reward in it for me?", "_t")
-t("It finally understands! You get a dose of every elixir you help me make. And if your help gets me into the Brotherhood, I've got half an Elixir of Invulnerability lying around that I'll give you. Don't try anything; I've already downed the other half.", "It finally understands! You get a dose of every elixir you help me make. And if your help gets me into the Brotherhood, I've got half an Elixir of Invulnerability lying around that I'll give you. Don't try anything; I've already downed the other half.", "_t")
-t("Three elixirs I need. I'll show you the ingredients to one at a time. Are you interested in the Elixir of Mysticism, the Elixir of the Savior, or the Elixir of Mastery?", "Three elixirs I need. I'll show you the ingredients to one at a time. Are you interested in the Elixir of Mysticism, the Elixir of the Savior, or the Elixir of Mastery?", "_t")
-t("Here's a list of the monster bits I need. I've already got a bunch of idiots out looking for these, by the way, so you best hurry up; they've got a head start on you and I'm not getting any saner here.", "Here's a list of the monster bits I need. I've already got a bunch of idiots out looking for these, by the way, so you best hurry up; they've got a head start on you and I'm not getting any saner here.", "_t")
-t("So I see. I'll be off.", "So I see. I'll be off.", "_t")
-t([[#LIGHT_GREEN#*The shabby elf opens his door.*#WHITE#
-Do I know you?]], [[#LIGHT_GREEN#*The shabby elf opens his door.*#WHITE#
-Do I know you?]], "_t")
-t([[#LIGHT_GREEN#*The elf claps his scarred hands together.*#WHITE#
-Exceptional work, lackey! The final elixir awaits! Oh, yes. Membership will be mine. And revenge. Ohhhh yes.]], [[#LIGHT_GREEN#*The elf claps his scarred hands together.*#WHITE#
-Exceptional work, lackey! The final elixir awaits! Oh, yes. Membership will be mine. And revenge. Ohhhh yes.]], "_t")
-t("Contain your impatience while I prepare these. I'll have the elixir within the hour.", "Contain your impatience while I prepare these. I'll have the elixir within the hour.", "_t")
-t("Perfection. Wait here.", "Perfection. Wait here.", "_t")
-t([[#LIGHT_GREEN#*The elf finally returns and tosses you a small vial of fine glass.*#WHITE#
-Side effects may include some slight mental imbalances.]], [[#LIGHT_GREEN#*The elf finally returns and tosses you a small vial of fine glass.*#WHITE#
-Side effects may include some slight mental imbalances.]], "_t")
-t([[#LIGHT_GREEN#*The alchemist finally returns with two vials.*#WHITE#
-I have no idea who you are, but I'm pretty sure that I'm supposed to give these to somebody as a reward. If some adventurer kills you and takes them, then apparently you're not the fellow I'm looking for.]], [[#LIGHT_GREEN#*The alchemist finally returns with two vials.*#WHITE#
-I have no idea who you are, but I'm pretty sure that I'm supposed to give these to somebody as a reward. If some adventurer kills you and takes them, then apparently you're not the fellow I'm looking for.]], "_t")
-t("Which of the remaining elixirs interests you?", "Which of the remaining elixirs interests you?", "_t")
-t("Here's a list of the ingredients I'm missing. Please follow the directions carefully, or the resulting elixir could be more fatal than either of us would hope.", "Here's a list of the ingredients I'm missing. Please follow the directions carefully, or the resulting elixir could be more fatal than either of us would hope.", "_t")
-t("Already made it. Best pick up the pace next time, adventurer.", "Already made it. Best pick up the pace next time, adventurer.", "_t")
 t("Hrmph.", "Hrmph.", "_t")
 --]==]
 
@@ -1559,87 +1559,83 @@ t("Hrmph.", "Hrmph.", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/alchemist-golem.lua"
 
+t("Equipment(%s) <=> Inventory(%s)", "Equipement(%s) <=> Inventaire(%s)", "tformat")
+t("Change your golem's name", "Changer le nom du golem", "_t")
 t("Name", "Nom", "_t")
--- texte non traduit
---[==[
-t("Equipment(%s) <=> Inventory(%s)", "Equipment(%s) <=> Inventory(%s)", "tformat")
-t("Change your golem's name", "Change your golem's name", "_t")
-t("%s (servant of %s)", "%s (servant of %s)", "tformat")
-t("I want to change your equipment.", "I want to change your equipment.", "_t")
-t("I want to change your talents.", "I want to change your talents.", "_t")
-t("I want to change your tactics.", "I want to change your tactics.", "_t")
-t("I want to take direct control.", "I want to take direct control.", "_t")
-t("I want to change your name.", "I want to change your name.", "_t")
-t("Telos the Great and Powerful (reluctant follower of %s)", "Telos the Great and Powerful (reluctant follower of %s)", "tformat")
-t("#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "log")
-t("How is it that you speak?", "How is it that you speak?", "_t")
-t("I want to change your appearance (one-time only).", "I want to change your appearance (one-time only).", "_t")
-t("Nothing, let's go.", "Nothing, let's go.", "_t")
-t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Though I guess you are making up for it with your golem crafting skills.", "What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Though I guess you are making up for it with your golem crafting skills.", "_t")
-t("Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "_t")
+t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
+t("I want to change your equipment.", "Je veux changer ton équipement.", "_t")
+t("I want to change your talents.", "Je veux changer tes talents.", "_t")
+t("I want to change your tactics.", "Je veux changer ta tactique.", "_t")
+t("I want to take direct control.", "Je veux prendre ton contrôle.", "_t")
+t("I want to change your name.", "Je veux changer ton nom.", "_t")
+t("Telos the Great and Powerful (reluctant follower of %s)", "Telos le Grand et Puissant (suis à contrecoeur %s)", "tformat")
+t("#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "#ROYAL_BLUE#Le golem décide de prendre le nom de#{bold}#%s#{normal}#.", "log")
+t("How is it that you speak?", "Comment faites vous pour parler?", "_t")
+t("I want to change your appearance (one-time only).", "Je veux changer son apparence (une seule fois).", "_t")
+t("Nothing, let's go.", "Rien, allons y.", "_t")
+t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Though I guess you are making up for it with your golem crafting skills.", "A quoi bon l'immortalité si tu ne peux même pas parler? Aucun archimage digne de ce nom ne concoctera un plan immoral de vie après la mort sans inclure une sorte de capacité pour faire connaître ses opinions. Et, soit dit en passant, vos techniques de manipulation de l'énergie sont au même niveau que celles de ma paire de chaussures moyenne. Bien que je suppose que vous vous rattrapez avec vos compétences en fabrication de golems.", "_t")
+t("Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "Changer mon nom? Je suis assez content d'être 'Telos' merci. Même si cela ne me dérangerait pas d'être \"Telos le Grand et Puissant\" ». Faites ça en fait. Oui!", "_t")
 t([[I'm a golem. How droll!
-Oh, did you want something?]], [[I'm a golem. How droll!
-Oh, did you want something?]], "_t")
+Oh, did you want something?]], [[Je suis un golem. Comme c'est drôle!
+Ah, tu voulais quelque chose?]], "_t")
 t([[#LIGHT_GREEN#*The golem talks in a monotonous voice*#WHITE#
-Yes master.]], [[#LIGHT_GREEN#*The golem talks in a monotonous voice*#WHITE#
-Yes master.]], "_t")
---]==]
-
+Yes master.]], [[#LIGHT_GREEN#*Le golem parle d'une voix monotone*#WHITE#
+Oui maître.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/alchemist-hermit.lua"
 
+t("SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "FILS DE PUTE! VOUS VOUS MONTREZ DIX MINUTES APRÈS QUE J'AI REÇU LA NOUVELLE QUE CERTAINS CONNARDS ONT DÉJÀ TERMINÉ LEURS ÉLIXIRS ET SONT ACCEPTÉ PAR LA FRATERNITÉ. QU'EST-CE QUI VOUS A PRIS SI LONGTEMPS BORDEL? PAR LES SEINS DE MIRVENIA, JE VAIS LES PRENDRE ET VOUS FAIRE VOTRE RÉCOMPENSE, MAIS SEULEMENT PARCE QU'UNE MALÉDICTION ME TUERA SI JE NE LE FAIS PAS. ET SI ÇA A GOUT DE PISSE, C'EST VOTRE IMAGINATION, J'EN SUIS SUR.", "_t")
+t([[#LIGHT_GREEN#*The halfling hands you a note that says, 'Heard %s managed to make a %s while you've been loafing. Hurry the hell up next time.*#WHITE#
+		I STILL CAN'T HEAR A DAMNED THING. FORTUNATELY, YOU DON'T LOOK LIKE THE SORT THAT MAKES INTERESTING CONVERSATION.]], [[#LIGHT_GREEN#*Le halfelin vous remet une note qui dit: J'ai \"entendu\" que %s a réussi à faire un %s pendant que vous traîniez. Dépêchez-vous la prochaine fois.*#WHITE#
+		JE NE PEUX TOUJOURS PAS ENTENDRE UNE PUTAIN DE CHOSE. HEUREUSEMENT, VOUS N'AVEZ PAS L'AIR DU GENRE A AVOIR UNE CONVERSATION INTÉRESSANTE.]], "tformat")
+t([[#LIGHT_GREEN#*After a great deal of pounding, a halfling wrapped in charred, smoking robes opens the door. He looks irritated.*#WHITE#
+IT'S NOT ENOUGH THAT I WORK ALL MORNING TO MAKE A POTION THAT ENDS UP NEARLY BLOWING MY ASS OFF, BUT NOW I'VE GOT IDIOTS BEATING DOWN MY DAMNED FRONT DOOR WITH WHAT SOUNDS LIKE A BATTERING RAM, AND YES, I HEARD IT, THOUGH I CAN HARDLY MAKE OUT A BLEEDING THING WITH THESE BLEEDING, CONCUSSED EARS. WHAT DO YOU WANT?]], [[#LIGHT_GREEN#*Après beaucoup de coups, un halfelin enveloppé dans des robes fumantes et carbonisées ouvre la porte. Il a l'air irrité.*#WHITE#
+IL NE SUFFIT PAS QUE JE TRAVAILLE TOUTE LA MATINNE POUR FAIRE UNE POTION QUI FINIT PRESQUE DE ME TUER EN EXPLOSANT, MAIS MAINTENANT J'AI DES IDIOTS QUI ENFONCENT MA MAUDITE PORTE D'ENTREE AVEC CE QUI REDDEMBLE A UN BELIER, ET OUI, J'AI ENTENDU, BIEN QUE JE PUISSE DIFFICILEMENT DISTINGUER UNE PUTAIN DE CHOSE CES OREILLES EN SANG ET COMMOTIONNÉES. QU'EST-CE QUE VOUS VOULEZ?]], "_t")
+t("Perhaps there's something that I can help you with.", "Je peux peut-être vous aider.", "_t")
 t("[leave]", "[partir]", "_t")
+t("SPEAK UP, HAMBRAIN. I'VE JUST GOTTEN MY EARDRUMS BLOWN OUT BY YET ANOTHER BY-THE-PYRE POTION GONE SOUTH, REMEMBER? THRICE-DAMNED THING WAS GOING PERFECTLY, TOO. TOKNOR'S TACKLE!", "PARLEZ PLUS FORT CERVELLE DE MOINEAU. JE VIENS JUSTE DE ME FAIRE EXPLOSER LES TYMPANS PAR UNE AUTRE POTION DU PYRUS QUI A MAL TOURNÉ, VOUS VOUS SOUVENEZ? CE TRIPLE TRUC MARCHAIT PARFAITEMENT, AUSSI. PAR LE TACLE DE TOKNOR!", "_t")
+t("I SAID, MAYBE THERE'S SOMETHING THAT I CAN HELP YOU WITH!", "J'AI DIT, PEUT-ÊTRE QU'IL Y A QUELQUE CHOSE POUR LAQUELLE JE PEUX VOUS AIDER!", "_t")
+t("STILL CAN'T HEAR YOU, BUT LISTEN UP. THE BROTHERHOOD OF ALCHEMISTS IS ACCEPTING THE FIRST NEW APPLICANT TO DEMONSTRATE, AMONG OTHER THINGS, THREE VERY COMPLICATED ELIXIRS. I WOULDN'T BOTHER TRYING TO JOIN SUCH A BUNCH OF ADDLE-BRAINED DEGENERATES, BUT IT SO HAPPENS THAT THE BROTHERHOOD OF ALCHEMISTS HOLDS THE SECRET CURE FOR THE COMMON BLOWN-OFF ASS, WHICH IT SO HAPPENS IS OF SOME INTEREST TO ME.", "JE NE PEUX TOUJOURS PAS VOUS ENTENDRE, MAIS ÉCOUTEZ BIEN. LA CONFRÉRIE DES ALCHIMISTES ACCEPTE LE PREMIER NOUVEAU CANDIDAT QUI PRÉSENTERA, ENTRE AUTRES, TROIS ÉLIXIRS TRÈS COMPLIQUÉS. JE NE ME DONNERAIS PAS LA PEINE D'ESSAYER DE REJOINDRE UNE TELLE BANDE DE DÉGÉNÉRÉS ÉCERVELÉS, MAIS IL SE TROUVE QUE LA CONFRÉRIE DES ALCHIMISTES DÉTIENT UN REMÈDE SECRET CONTRE LES CULS BÉNIS, CE QUI SE TROUVE ÊTRE D'UN CERTAIN INTÉRÊT POUR MOI.", "_t")
+t("HOW CAN I HELP?", "COMMENT PUIS JE VOUS AIDER?", "_t")
+t("THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "LA CONFRÉRIE SAIT TRÈS BIEN CE QUE DES AVANCÉES DANS LE DOMAINE DE L'ALCHIMIE FERAIENT POUR TOUTES LES CIVILISATIONS EXISTANTES, MAIS ILS GARDENT LEURS QUELQUES SECRETS VALABLES COMME UN GRAND VER BRUN ASSIS SUR SON TAS DE MERDE. VOUS SAVEZ QUOI? JE NE VEUX MÊME PAS DE LEUR REMÈDE CONTRE LES CULS BÉNIS POUR MOI. JE VAIS VOLER TOUS LEURS SECRETS, LES ÉCRIRE, EN FAIRE UNE CENTAINE DE COPIES, ET EN CLOUER UNE SUR UN ARBRE DANS CHAQUE VILLAGE DE MAJ'EYAL.", "_t")
+t("THAT'S NOT A VERY HERMIT-LIKE ATTITUDE.", "CE N'EST PAS VRAIMENT UNE ATTITUDE D'ERMITE.", "_t")
+t("AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "ET ENSUITE, QUE FERONT-ILS ? UNE FOIS QUE LEURS PRÉCIEUX SECRETS - QUI, SELON TOUTE PROBABILITÉ, SOIT N'EXISTENT PAS, SOIT SONT DES RECETTES POUR DES ÉLIXIRS D'ON-NE-SAIT-QUOI - SERONT RÉVÉLÉS AU GRAND JOUR, LA CONFRÉRIE DES LÈCHE-BOTTES N'AURA RIEN D'AUTRE POUR SE MAINTENIR QUE LES ÉLIXIRS DE LEURS LARMES ET LE MÉPRIS GÉNÉRALISÉ DU RESTE DU MONDE. PARLEZ, ALORS. VOUS EN ÊTES OU PAS?", "_t")
+t("I'M IN.", "J'EN SUIS.", "_t")
+t("I CANNOT AID YOU AT THIS TIME.", "JE NE PEUX PAS VOUS AIDER POUR L'INSTANT.", "_t")
+t([[#LIGHT_GREEN#*He hands you a slip of paper with the names and properties of some elixirs on it.*#WHITE#
+THE INGREDIENTS TO THESE SUCKERS ARE SORT OF A TRADE SECRET, SO I'LL TELL YOU ABOUT ONE AND WE'LL SEE HOW THAT GOES. OH, AND I'LL MAKE ENOUGH FOR YOU TO HAVE A SWIG WHEN I'M DONE, SO GOOD FOR YOU. WHICH ONE WILL IT BE? JUST POINT AT THE DAMNED LIST. I HAVEN'T HEARD A THING YOU'VE SAID YET. I HOPE TO HELL YOU'RE NOT STANDING THERE TRYING TO SELL ME SOMETHING.]], [[#LIGHT_GREEN#*Il vous remet un bout de papier avec les noms et les propriétés de certains élixirs dessus.*#WHITE#
+LES INGRÉDIENTS DE CES SALOPERIES SONT UNE SORTE DE SECRET COMMERCIAL, DONC JE VAIS VOUS EN PARLER ET ON VERRA COMMENT ÇA SE PASSE. OH, ET J'EN FERAI ASSEZ POUR QUE TU PUISSES EN BOIRE UNE GORGÉE QUAND J'AURAI FINI, DONC C'EST BIEN POUR TOI. CE SERA LEQUEL ? POINTE JUSTE CETTE SATANÉE LISTE. JE N'AI ENCORE RIEN ENTENDU DE CE QUE VOUS AVEZ DIT. J'ESPÈRE QUE VOUS N'ÊTES PAS LÀ À ESSAYER DE ME VENDRE QUELQUE CHOSE.]], "_t")
+t("[Indicate the %s.]", "[Indiquer l'%s.]", "tformat")
+t("HERE'S A LIST OF THE STUFF I NEED. MOST OF IT WILL TRY TO KILL YOU, SO I HOPE YOU'RE NOT INCOMPETENT. I'VE GOT PLENTY OF INCOMPETENT HELP ALREADY. I HOPE FOR YOUR SAKE THAT YOU'RE SMARTER AND FASTER THAN THEM.", "VOICI UNE LISTE DE CE DONT J'AI BESOIN. LA PLUPART VONT ESSAYER DE VOUS TUER, ALORS J'ESPÈRE QUE VOUS N'ÊTES PAS INCOMPÉTENT. J'AI DÉJÀ BEAUCOUP D'AIDE INCOMPÉTENTE. J'ESPÈRE POUR VOUS QUE VOUS ÊTES PLUS INTELLIGENT ET PLUS RAPIDE QU'EUX.", "_t")
+t("I'LL BE OFF.", "JE M'EN VAIS.", "_t")
 t("#LIGHT_GREEN#*The door is locked and nobody responds to your knocks*#WHITE#", "#LIGHT_GREEN#*La porte est verrouillée et personne ne répond à vos coups*#WHITE#", "_t")
 t("[Leave]", "[Partir]", "_t")
+t([[#LIGHT_GREEN#*The halfling, still smoking, opens his door.*#WHITE#
+I LIVE WAY THE HELL OUT HERE FOR A REASON, YOU PIECE OF... OH. IT'S YOU.]], [[#LIGHT_GREEN#*Le halfelin, toujours fumant, ouvre sa porte.*#WHITE#
+JE VIS LOIN DE TOUT POUR UNE RAISON, ESPÈCE DE... OH. C'EST VOUS.]], "_t")
+t("I'VE RETURNED WITH THE INGREDIENTS FOR THE %s.", "JE SUIS REVENU AVEC LES INGREDIENTS POUR L'%s", "tformat")
+t("I'VE COME TO OFFER MORE AID.", "JE SUIS VENU OFFRIR PLUS D'AIDE.", "_t")
 t("[Give him the monster bits.]", "[Lui Donner les morceaux de monstre.]", "_t")
+t([[#LIGHT_GREEN#*For the first time you've seen, genuine pleasure lights up the halfling's soot-smeared face.*#WHITE#
+GOOD WORK, WHOEVER YOU ARE. ALL OF MAJ'EYAL OWES YOU THEIR THANKS, EXCEPT FOR MEMBERS OF THE BROTHERHOOD OF ALCHEMISTS, WHO MIGHT TRY TO DO YOU BODILY HARM. FORTUNATELY FOR YOU, THEY'RE MOSTLY HARMLESS.]], [[#LIGHT_GREEN#*Pour la première fois que vous l'avez vu, un plaisir authentique illumine le visage couvert de suie du halfelin.*#WHITE#
+BON TRAVAIL, QUI QUE VOUS SOYEZ. TOUT MAJ'EYAL VOUS DOIT DES REMERCIEMENTS, SAUF LES MEMBRES DE LA CONFRÉRIE DES ALCHIMISTES, QUI POURRAIENT ESSAYER DE VOUS FAIRE DU MAL. HEUREUSEMENT POUR VOUS, ILS SONT PLUTÔT INOFFENSIFS.]], "_t")
 t("[Give him the monster bits]", "[Lui Donner les morceaux de monstre.]", "_t")
+t("WAIT HERE. THERE'S A GOOD CHANCE YOU'LL GET BLOWN INTO ADVENTURER KIBBLE IF YOU STEP INSIDE THIS BUILDING. MY ROBE OF MAD ALCHEMIST PROTECTION IS THE ONLY REASON I'M NOT VAPOUR.", "ATTENDEZ ICI. IL Y A DE FORTES CHANCES QUE VOUS SOYEZ TRANSFORMÉ EN CROQUETTE D'AVENTURIER SI VOUS ENTREZ DANS CE BÂTIMENT. MA ROBE DE PROTECTION D'ALCHIMISTE FOU EST LA SEULE RAISON POUR LAQUELLE JE NE SUIS PAS DE LA POUSSIERE.", "_t")
 t("[Wait]", "[Attendre]", "_t")
+t("GIVE ME AN HOUR, AND THINK UNPLEASANT THOUGHTS ABOUT THE BROTHERHOOD. IF ANYTHING EXPLODES, COME RESCUE ME, EVEN IF IT LOOKS LIKE THE BUILDING IS AN INFERNO OF POISONOUS SMOKE AND POLKA-DOT FLAMES.", "DONNEZ-MOI UNE HEURE, ET AYEZ DES PENSÉES DÉSAGRÉABLES SUR LA CONFRÉRIE. SI QUELQUE CHOSE EXPLOSE, VIENS ME SAUVER, MÊME SI LE BÂTIMENT SEMBLE ÊTRE UN ENFER DE FUMÉE TOXIQUE ET DE FLAMMES À POIS.", "_t")
+t([[#LIGHT_GREEN#*Disaster fails to occur. The halfling finally returns and hands you a small vial of sooty glass.*#WHITE#
+ENJOY, AND COME BACK ANY TIME IF YOU'RE INTERESTED IN SIMILAR WORK. I HAVEN'T WON YET. THE LONGER YOU WAIT, THE MORE LIKELY IT IS THAT YOU'LL RETURN TO A SMOKING CRATER AND ONE TRULY IRATE HALFLING.]], [[#LIGHT_GREEN#*La catastrophe ne se produit pas. Le halfelin revient enfin et vous tend une petite fiole de verre couverte de suie.*#WHITE#
+PROFITEZ-EN, ET REVENEZ QUAND VOUS VOULEZ SI VOUS ÊTES INTÉRESSÉ PAR UN TRAVAIL SIMILAIRE. JE N'AI PAS ENCORE GAGNÉ. PLUS VOUS ATTENDEZ, PLUS IL EST PROBABLE QUE VOUS RETROUVEREZ UN CRATÈRE FUMANT ET UN HALFLING VRAIMENT FURIEUX.]], "_t")
+t("THANK YOU. I'LL BE OFF.", "MERCI. JE VAIS M'EN ALLER.", "_t")
+t([[#LIGHT_GREEN#*The halfling finally returns with a vial and a small pouch.*#WHITE#
+YOUR DOSE OF THE ELIXIR, AS WELL AS SOMETHING ELSE. THIS INFUSION IS RARE AS HELL, SO DON'T GO WASTING IT.]], [[#LIGHT_GREEN#*Le halfling revient finalement avec une fiole et une petite pochette.*#WHITE#
+TA DOSE D'ÉLIXIR, AINSI QUE QUELQUE CHOSE D'AUTRE. CETTE INFUSION EST TRES RARE, DONC NE LA GASPILLEZ PAS.]], "_t")
+t("WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "POUR QUEL ÉLIXIR VOULEZ-VOUS M'AIDER? VOUS ÊTES ICI POUR CELA, N'EST-CE PAS? VOUS N'ÊTES PAS UN IMBÉCILE À LA RECHERCHE D'UN PHILTRE D'AMOUR?", "_t")
+t("TAKE THIS LIST OF INGREDIENTS, AND HURRY THE HELL UP.", "PRENEZ CETTE LISTE D'INGRÉDIENTS, ET DÉPÊCHEZ-VOUS.", "_t")
+t("TOO SLOW, HAMBRAIN. ELIXIR'S MADE ALREADY, AND SOMEBODY ELSE WALKED OFF WITH THE REWARD. IF YOU'RE FEELING SORRY FOR YOURSELF, ASK WHETHER THIS IS MORE OR LESS PLEASANT THAN GETTING APPRECIABLE CHUNKS OF YOUR ANATOMY BLASTED CLEAN OFF YOUR BODY THIS MORNING. THAT'S RIGHT. BYE.", "TROP LENT, CERVELLE DE MOINEAU. L'ÉLIXIR EST DÉJÀ FAIT, ET QUELQU'UN D'AUTRE EST PARTI AVEC LA RÉCOMPENSE. SI VOUS VOUS SENTEZ DÉSOLÉ POUR VOUS-MÊME, DEMANDEZ VOUS SI C'EST PLUS OU MOINS AGRÉABLE QUE DE SE FAIRE EXPLOSER DES MORCEAUX APPRÉCIABLES DE VOTRE ANATOMIE LE MATIN. C'EST ÇA. AU REVOIR.", "_t")
 -- texte non traduit
 --[==[
-t("SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "_t")
-t([[#LIGHT_GREEN#*The halfling hands you a note that says, 'Heard %s managed to make a %s while you've been loafing. Hurry the hell up next time.*#WHITE#
-		I STILL CAN'T HEAR A DAMNED THING. FORTUNATELY, YOU DON'T LOOK LIKE THE SORT THAT MAKES INTERESTING CONVERSATION.]], [[#LIGHT_GREEN#*The halfling hands you a note that says, 'Heard %s managed to make a %s while you've been loafing. Hurry the hell up next time.*#WHITE#
-		I STILL CAN'T HEAR A DAMNED THING. FORTUNATELY, YOU DON'T LOOK LIKE THE SORT THAT MAKES INTERESTING CONVERSATION.]], "tformat")
-t([[#LIGHT_GREEN#*After a great deal of pounding, a halfling wrapped in charred, smoking robes opens the door. He looks irritated.*#WHITE#
-IT'S NOT ENOUGH THAT I WORK ALL MORNING TO MAKE A POTION THAT ENDS UP NEARLY BLOWING MY ASS OFF, BUT NOW I'VE GOT IDIOTS BEATING DOWN MY DAMNED FRONT DOOR WITH WHAT SOUNDS LIKE A BATTERING RAM, AND YES, I HEARD IT, THOUGH I CAN HARDLY MAKE OUT A BLEEDING THING WITH THESE BLEEDING, CONCUSSED EARS. WHAT DO YOU WANT?]], [[#LIGHT_GREEN#*After a great deal of pounding, a halfling wrapped in charred, smoking robes opens the door. He looks irritated.*#WHITE#
-IT'S NOT ENOUGH THAT I WORK ALL MORNING TO MAKE A POTION THAT ENDS UP NEARLY BLOWING MY ASS OFF, BUT NOW I'VE GOT IDIOTS BEATING DOWN MY DAMNED FRONT DOOR WITH WHAT SOUNDS LIKE A BATTERING RAM, AND YES, I HEARD IT, THOUGH I CAN HARDLY MAKE OUT A BLEEDING THING WITH THESE BLEEDING, CONCUSSED EARS. WHAT DO YOU WANT?]], "_t")
-t("Perhaps there's something that I can help you with.", "Perhaps there's something that I can help you with.", "_t")
-t("SPEAK UP, HAMBRAIN. I'VE JUST GOTTEN MY EARDRUMS BLOWN OUT BY YET ANOTHER BY-THE-PYRE POTION GONE SOUTH, REMEMBER? THRICE-DAMNED THING WAS GOING PERFECTLY, TOO. TOKNOR'S TACKLE!", "SPEAK UP, HAMBRAIN. I'VE JUST GOTTEN MY EARDRUMS BLOWN OUT BY YET ANOTHER BY-THE-PYRE POTION GONE SOUTH, REMEMBER? THRICE-DAMNED THING WAS GOING PERFECTLY, TOO. TOKNOR'S TACKLE!", "_t")
-t("I SAID, MAYBE THERE'S SOMETHING THAT I CAN HELP YOU WITH!", "I SAID, MAYBE THERE'S SOMETHING THAT I CAN HELP YOU WITH!", "_t")
-t("STILL CAN'T HEAR YOU, BUT LISTEN UP. THE BROTHERHOOD OF ALCHEMISTS IS ACCEPTING THE FIRST NEW APPLICANT TO DEMONSTRATE, AMONG OTHER THINGS, THREE VERY COMPLICATED ELIXIRS. I WOULDN'T BOTHER TRYING TO JOIN SUCH A BUNCH OF ADDLE-BRAINED DEGENERATES, BUT IT SO HAPPENS THAT THE BROTHERHOOD OF ALCHEMISTS HOLDS THE SECRET CURE FOR THE COMMON BLOWN-OFF ASS, WHICH IT SO HAPPENS IS OF SOME INTEREST TO ME.", "STILL CAN'T HEAR YOU, BUT LISTEN UP. THE BROTHERHOOD OF ALCHEMISTS IS ACCEPTING THE FIRST NEW APPLICANT TO DEMONSTRATE, AMONG OTHER THINGS, THREE VERY COMPLICATED ELIXIRS. I WOULDN'T BOTHER TRYING TO JOIN SUCH A BUNCH OF ADDLE-BRAINED DEGENERATES, BUT IT SO HAPPENS THAT THE BROTHERHOOD OF ALCHEMISTS HOLDS THE SECRET CURE FOR THE COMMON BLOWN-OFF ASS, WHICH IT SO HAPPENS IS OF SOME INTEREST TO ME.", "_t")
-t("HOW CAN I HELP?", "HOW CAN I HELP?", "_t")
-t("THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "_t")
-t("THAT'S NOT A VERY HERMIT-LIKE ATTITUDE.", "THAT'S NOT A VERY HERMIT-LIKE ATTITUDE.", "_t")
-t("AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "_t")
-t("I'M IN.", "I'M IN.", "_t")
-t("I CANNOT AID YOU AT THIS TIME.", "I CANNOT AID YOU AT THIS TIME.", "_t")
-t([[#LIGHT_GREEN#*He hands you a slip of paper with the names and properties of some elixirs on it.*#WHITE#
-THE INGREDIENTS TO THESE SUCKERS ARE SORT OF A TRADE SECRET, SO I'LL TELL YOU ABOUT ONE AND WE'LL SEE HOW THAT GOES. OH, AND I'LL MAKE ENOUGH FOR YOU TO HAVE A SWIG WHEN I'M DONE, SO GOOD FOR YOU. WHICH ONE WILL IT BE? JUST POINT AT THE DAMNED LIST. I HAVEN'T HEARD A THING YOU'VE SAID YET. I HOPE TO HELL YOU'RE NOT STANDING THERE TRYING TO SELL ME SOMETHING.]], [[#LIGHT_GREEN#*He hands you a slip of paper with the names and properties of some elixirs on it.*#WHITE#
-THE INGREDIENTS TO THESE SUCKERS ARE SORT OF A TRADE SECRET, SO I'LL TELL YOU ABOUT ONE AND WE'LL SEE HOW THAT GOES. OH, AND I'LL MAKE ENOUGH FOR YOU TO HAVE A SWIG WHEN I'M DONE, SO GOOD FOR YOU. WHICH ONE WILL IT BE? JUST POINT AT THE DAMNED LIST. I HAVEN'T HEARD A THING YOU'VE SAID YET. I HOPE TO HELL YOU'RE NOT STANDING THERE TRYING TO SELL ME SOMETHING.]], "_t")
-t("[Indicate the %s.]", "[Indicate the %s.]", "tformat")
-t("HERE'S A LIST OF THE STUFF I NEED. MOST OF IT WILL TRY TO KILL YOU, SO I HOPE YOU'RE NOT INCOMPETENT. I'VE GOT PLENTY OF INCOMPETENT HELP ALREADY. I HOPE FOR YOUR SAKE THAT YOU'RE SMARTER AND FASTER THAN THEM.", "HERE'S A LIST OF THE STUFF I NEED. MOST OF IT WILL TRY TO KILL YOU, SO I HOPE YOU'RE NOT INCOMPETENT. I'VE GOT PLENTY OF INCOMPETENT HELP ALREADY. I HOPE FOR YOUR SAKE THAT YOU'RE SMARTER AND FASTER THAN THEM.", "_t")
-t("I'LL BE OFF.", "I'LL BE OFF.", "_t")
-t([[#LIGHT_GREEN#*The halfling, still smoking, opens his door.*#WHITE#
-I LIVE WAY THE HELL OUT HERE FOR A REASON, YOU PIECE OF... OH. IT'S YOU.]], [[#LIGHT_GREEN#*The halfling, still smoking, opens his door.*#WHITE#
-I LIVE WAY THE HELL OUT HERE FOR A REASON, YOU PIECE OF... OH. IT'S YOU.]], "_t")
-t("I'VE RETURNED WITH THE INGREDIENTS FOR THE %s.", "I'VE RETURNED WITH THE INGREDIENTS FOR THE %s.", "tformat")
-t("I'VE COME TO OFFER MORE AID.", "I'VE COME TO OFFER MORE AID.", "_t")
-t([[#LIGHT_GREEN#*For the first time you've seen, genuine pleasure lights up the halfling's soot-smeared face.*#WHITE#
-GOOD WORK, WHOEVER YOU ARE. ALL OF MAJ'EYAL OWES YOU THEIR THANKS, EXCEPT FOR MEMBERS OF THE BROTHERHOOD OF ALCHEMISTS, WHO MIGHT TRY TO DO YOU BODILY HARM. FORTUNATELY FOR YOU, THEY'RE MOSTLY HARMLESS.]], [[#LIGHT_GREEN#*For the first time you've seen, genuine pleasure lights up the halfling's soot-smeared face.*#WHITE#
-GOOD WORK, WHOEVER YOU ARE. ALL OF MAJ'EYAL OWES YOU THEIR THANKS, EXCEPT FOR MEMBERS OF THE BROTHERHOOD OF ALCHEMISTS, WHO MIGHT TRY TO DO YOU BODILY HARM. FORTUNATELY FOR YOU, THEY'RE MOSTLY HARMLESS.]], "_t")
-t("WAIT HERE. THERE'S A GOOD CHANCE YOU'LL GET BLOWN INTO ADVENTURER KIBBLE IF YOU STEP INSIDE THIS BUILDING. MY ROBE OF MAD ALCHEMIST PROTECTION IS THE ONLY REASON I'M NOT VAPOUR.", "WAIT HERE. THERE'S A GOOD CHANCE YOU'LL GET BLOWN INTO ADVENTURER KIBBLE IF YOU STEP INSIDE THIS BUILDING. MY ROBE OF MAD ALCHEMIST PROTECTION IS THE ONLY REASON I'M NOT VAPOUR.", "_t")
-t("GIVE ME AN HOUR, AND THINK UNPLEASANT THOUGHTS ABOUT THE BROTHERHOOD. IF ANYTHING EXPLODES, COME RESCUE ME, EVEN IF IT LOOKS LIKE THE BUILDING IS AN INFERNO OF POISONOUS SMOKE AND POLKA-DOT FLAMES.", "GIVE ME AN HOUR, AND THINK UNPLEASANT THOUGHTS ABOUT THE BROTHERHOOD. IF ANYTHING EXPLODES, COME RESCUE ME, EVEN IF IT LOOKS LIKE THE BUILDING IS AN INFERNO OF POISONOUS SMOKE AND POLKA-DOT FLAMES.", "_t")
-t([[#LIGHT_GREEN#*Disaster fails to occur. The halfling finally returns and hands you a small vial of sooty glass.*#WHITE#
-ENJOY, AND COME BACK ANY TIME IF YOU'RE INTERESTED IN SIMILAR WORK. I HAVEN'T WON YET. THE LONGER YOU WAIT, THE MORE LIKELY IT IS THAT YOU'LL RETURN TO A SMOKING CRATER AND ONE TRULY IRATE HALFLING.]], [[#LIGHT_GREEN#*Disaster fails to occur. The halfling finally returns and hands you a small vial of sooty glass.*#WHITE#
-ENJOY, AND COME BACK ANY TIME IF YOU'RE INTERESTED IN SIMILAR WORK. I HAVEN'T WON YET. THE LONGER YOU WAIT, THE MORE LIKELY IT IS THAT YOU'LL RETURN TO A SMOKING CRATER AND ONE TRULY IRATE HALFLING.]], "_t")
-t("THANK YOU. I'LL BE OFF.", "THANK YOU. I'LL BE OFF.", "_t")
-t([[#LIGHT_GREEN#*The halfling finally returns with a vial and a small pouch.*#WHITE#
-YOUR DOSE OF THE ELIXIR, AS WELL AS SOMETHING ELSE. THIS INFUSION IS RARE AS HELL, SO DON'T GO WASTING IT.]], [[#LIGHT_GREEN#*The halfling finally returns with a vial and a small pouch.*#WHITE#
-YOUR DOSE OF THE ELIXIR, AS WELL AS SOMETHING ELSE. THIS INFUSION IS RARE AS HELL, SO DON'T GO WASTING IT.]], "_t")
-t("WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "_t")
-t("TAKE THIS LIST OF INGREDIENTS, AND HURRY THE HELL UP.", "TAKE THIS LIST OF INGREDIENTS, AND HURRY THE HELL UP.", "_t")
-t("TOO SLOW, HAMBRAIN. ELIXIR'S MADE ALREADY, AND SOMEBODY ELSE WALKED OFF WITH THE REWARD. IF YOU'RE FEELING SORRY FOR YOURSELF, ASK WHETHER THIS IS MORE OR LESS PLEASANT THAN GETTING APPRECIABLE CHUNKS OF YOUR ANATOMY BLASTED CLEAN OFF YOUR BODY THIS MORNING. THAT'S RIGHT. BYE.", "TOO SLOW, HAMBRAIN. ELIXIR'S MADE ALREADY, AND SOMEBODY ELSE WALKED OFF WITH THE REWARD. IF YOU'RE FEELING SORRY FOR YOURSELF, ASK WHETHER THIS IS MORE OR LESS PLEASANT THAN GETTING APPRECIABLE CHUNKS OF YOUR ANATOMY BLASTED CLEAN OFF YOUR BODY THIS MORNING. THAT'S RIGHT. BYE.", "_t")
 t("Hrmph.", "Hrmph.", "_t")
 --]==]
 
@@ -1647,73 +1643,73 @@ t("Hrmph.", "Hrmph.", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/alchemist-last-hope.lua"
 
+t("Damn it all. You're too late. %s has already finished. But I suppose you did your best, so I'll take these and keep my end of the bargian.", "Maudit soit-tu. C'est trop tard. %s a déjà terminé. Mais je suppose que vous avez fait de votre mieux, alors je vais prendre ça et tenir ma part du marché.", "tformat")
+t("Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "Beau travail! Et vous êtes toujours en un seul morceau, je vois. C'est toujours agréable. Je ressens la même chose après avoir réussi à préparer un mélange particulièrement délicat. J'ai failli m'exploser le visage plusieurs fois. Pendant votre absence, un petit oiseau m'a dit que %s a réussi à créer un %s. Ne le laisse pas finir avant moi !", "tformat")
+t([[#LIGHT_GREEN#*A dwarf in stained, battered mail armor opens the door.*#WHITE#
+Say, you interested in dismembering stuff and getting paid?]], [[#LIGHT_GREEN#*Un nain en armure de mailles tachées et abîmées ouvre la porte.*#WHITE#
+Dis, ça t'intéresse de démembrer des trucs et d'être payé?]], "_t")
+t("Always.", "Toujours.", "_t")
 t("[leave]", "[partir]", "_t")
+t("By the corpses of the gods, I love adventurers. Was about to become one myself when it suddenly hit me. And by \"it\" I mean \"my wife.\" Har!", "Par les cadavres des dieux, j'aime les aventuriers. J'étais sur le point d'en devenir un moi-même quand ça m'a frappé. Et par \"ça\", je veux dire \"ma femme\". Har !", "_t")
 t("What do you propose?", "Que proposez vous?", "_t")
+t("I propose that I give you a list of monster parts to fetch, then you go and fetch them, then I make some blindingly amazing brews with said monster parts, then I get accepted into the Brotherhood of Alchemists.", "Je propose de te donner une liste de parties de monstre à récupérer, tu vas les récupérer, je fais des décoctions incroyables avec ces parties de monstre, et je suis accepté dans la confrérie des alchimistes.", "_t")
+t("Sounds like a plan.", "Ça ma l'air bon.", "_t")
+t("I make excellent plans. And brews, which the Brotherhood will no doubt make me call 'elixirs' once I'm in. And I'll obey, because they have ways of getting what they want. Now, where were we?", "Je fais d'excellents plans. Et des décoctions, que la Confrérie me fera sans doute appeler \"élixirs\" une fois que je serai dedans. Et j'obéirai, car ils ont les moyens d'obtenir ce qu'ils veulent. Bon, où en étions-nous?", "_t")
+t("Aiding you with getting into some Brotherhood. What's in it for me?", "Vous aider à entrer dans la Fraternité. Qu'est-ce que j'y gagne?", "_t")
+t("Oh, easy. You get a swig of each brew, of course. They'll put hair on your chest, and possibly your eyelids and fingernails. And, if your aid proves the deciding factor, then I've got a real treat for you: perhaps the last Taint of Purging left in Maj'Eyal.", "Oh, facile. Tu as droit à une gorgée de chaque breuvage, bien sûr. Ils vous mettront des poils sur la poitrine, et peut-être sur les paupières et les ongles. Et, si votre aide s'avère être le facteur décisif, alors j'ai un vrai cadeau pour vous: peut-être la derniere Purge d'Infections restante en Maj'Eyal.", "_t")
 t("I accept.", "J'accepte.", "_t")
 t("I cannot aid you at this time.", "Je ne peux pas vous aider en ce moment.", "_t")
+t("One last thing. There's a few other fellows angling for the same slot in the Brotherhood that I am. They're not going to be sitting on their hands while we're at work here, so best move quick-like. Now, which of these do you want to help me with first: the Brew of Brawn, the Brew of Stoneskin, or the Brew of Foundations? Or Elixirs, rather. Not Brews. Best get in the habit now, I suppose.", "Une dernière chose. Il y a quelques autres gars qui veulent le même poste que moi dans la Confrérie. Ils ne vont pas rester les bras croisés pendant que nous travaillons ici, alors mieux vaut agir vite. Maintenant, avec laquelle de ces choses voulez-vous m'aider en premier: la décoction de muscles, la décoction de peau de pierre, ou la décoction de fondations ? Ou plutôt des Elixirs. Pas des infusions. Il vaut mieux en prendre l'habitude maintenant, je suppose.", "_t")
 t("The %s.", "L'%s.", "tformat")
+t("Right, here's the list. Oh, one more thing. Got me some fellas already out hunting for this stuff, and I'll not play favorites. One of them brings me those ingredients before you do, and you're out of luck. Hurry back.", "Bien, voici la liste. Oh, encore une chose. J'ai déjà quelques gars qui chassent pour ce genre de choses, et je ne vais pas faire de favoritisme. Si l'un d'eux m'apporte ces ingrédients avant toi, tu n'as pas de chance. Dépêche toi de revenir.", "_t")
 t("I'll be off.", "Je m'en vais.", "_t")
+t([[Right, here's the list. Oh, one more thing. Got me some fellas already out hunting for this stuff, and I'll not play favorites. One of them brings me those ingredients before you do, and you're out of luck. Hurry back.
+
+Oh, and one other last thing... if you have the time for another errand, though I've got no reward on this one.]], [[Bien, voici la liste. Oh, encore une chose. J'ai déjà quelques gars qui chassent pour ce genre de choses, et je ne vais pas faire de favoritisme. Si l'un d'eux m'apporte ces ingrédients avant toi, tu n'as pas de chance. Dépêche toi de revenir.
+
+Oh, et une dernière chose... si vous avez le temps pour une autre course, bien que je n'aie pas de récompense pour celle-là.]], "_t")
+t("Well, I'll see if I can help.", "Hé bien, je verrai si je peux aider.", "_t")
+t("I'm here for profit, not errands - I have the list and will work on it; sort your own sidejobs out.", "Je suis ici pour le profit, pas pour les courses - j'ai la liste et je vais travailler dessus; occupez-vous de vos propres petits boulots.", "_t")
 t("#LIGHT_GREEN#*The door is locked and nobody responds to your knocks*#WHITE#", "#LIGHT_GREEN#*La porte est verrouillée et personne ne répond à vos coups*#WHITE#", "_t")
 t("[Leave]", "[Partir]", "_t")
+t([[#LIGHT_GREEN#*The mailed dwarf opens his door.*#WHITE#
+Aha, my favorite adventurer.]], [[#LIGHT_GREEN#*Le nain enmaillé ouvre sa porte.*#WHITE#
+Aha, mon aventurier préféré.]], "_t")
 t("I've returned with the ingredients for the %s.", "Je suis de retour avec les ingrédients pour l'%s.", "tformat")
 t("I've come to offer more aid.", "Je suis venu offrir plus d'aide.", "_t")
 t("[Give him the monster bits.]", "[Lui Donner les morceaux de monstre.]", "_t")
-t("[Give him the monster bits]", "[Lui Donner les morceaux de monstre.]", "_t")
-t("[Wait]", "[Attendre]", "_t")
-t("Thank you. I'll be off.", "Merci. Je vais m'en aller.", "_t")
--- texte non traduit
---[==[
-t("Damn it all. You're too late. %s has already finished. But I suppose you did your best, so I'll take these and keep my end of the bargian.", "Damn it all. You're too late. %s has already finished. But I suppose you did your best, so I'll take these and keep my end of the bargian.", "tformat")
-t("Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "tformat")
-t([[#LIGHT_GREEN#*A dwarf in stained, battered mail armor opens the door.*#WHITE#
-Say, you interested in dismembering stuff and getting paid?]], [[#LIGHT_GREEN#*A dwarf in stained, battered mail armor opens the door.*#WHITE#
-Say, you interested in dismembering stuff and getting paid?]], "_t")
-t("Always.", "Always.", "_t")
-t("By the corpses of the gods, I love adventurers. Was about to become one myself when it suddenly hit me. And by \"it\" I mean \"my wife.\" Har!", "By the corpses of the gods, I love adventurers. Was about to become one myself when it suddenly hit me. And by \"it\" I mean \"my wife.\" Har!", "_t")
-t("I propose that I give you a list of monster parts to fetch, then you go and fetch them, then I make some blindingly amazing brews with said monster parts, then I get accepted into the Brotherhood of Alchemists.", "I propose that I give you a list of monster parts to fetch, then you go and fetch them, then I make some blindingly amazing brews with said monster parts, then I get accepted into the Brotherhood of Alchemists.", "_t")
-t("Sounds like a plan.", "Sounds like a plan.", "_t")
-t("I make excellent plans. And brews, which the Brotherhood will no doubt make me call 'elixirs' once I'm in. And I'll obey, because they have ways of getting what they want. Now, where were we?", "I make excellent plans. And brews, which the Brotherhood will no doubt make me call 'elixirs' once I'm in. And I'll obey, because they have ways of getting what they want. Now, where were we?", "_t")
-t("Aiding you with getting into some Brotherhood. What's in it for me?", "Aiding you with getting into some Brotherhood. What's in it for me?", "_t")
-t("Oh, easy. You get a swig of each brew, of course. They'll put hair on your chest, and possibly your eyelids and fingernails. And, if your aid proves the deciding factor, then I've got a real treat for you: perhaps the last Taint of Purging left in Maj'Eyal.", "Oh, easy. You get a swig of each brew, of course. They'll put hair on your chest, and possibly your eyelids and fingernails. And, if your aid proves the deciding factor, then I've got a real treat for you: perhaps the last Taint of Purging left in Maj'Eyal.", "_t")
-t("One last thing. There's a few other fellows angling for the same slot in the Brotherhood that I am. They're not going to be sitting on their hands while we're at work here, so best move quick-like. Now, which of these do you want to help me with first: the Brew of Brawn, the Brew of Stoneskin, or the Brew of Foundations? Or Elixirs, rather. Not Brews. Best get in the habit now, I suppose.", "One last thing. There's a few other fellows angling for the same slot in the Brotherhood that I am. They're not going to be sitting on their hands while we're at work here, so best move quick-like. Now, which of these do you want to help me with first: the Brew of Brawn, the Brew of Stoneskin, or the Brew of Foundations? Or Elixirs, rather. Not Brews. Best get in the habit now, I suppose.", "_t")
-t("Right, here's the list. Oh, one more thing. Got me some fellas already out hunting for this stuff, and I'll not play favorites. One of them brings me those ingredients before you do, and you're out of luck. Hurry back.", "Right, here's the list. Oh, one more thing. Got me some fellas already out hunting for this stuff, and I'll not play favorites. One of them brings me those ingredients before you do, and you're out of luck. Hurry back.", "_t")
-t([[Right, here's the list. Oh, one more thing. Got me some fellas already out hunting for this stuff, and I'll not play favorites. One of them brings me those ingredients before you do, and you're out of luck. Hurry back.
-
-Oh, and one other last thing... if you have the time for another errand, though I've got no reward on this one.]], [[Right, here's the list. Oh, one more thing. Got me some fellas already out hunting for this stuff, and I'll not play favorites. One of them brings me those ingredients before you do, and you're out of luck. Hurry back.
-
-Oh, and one other last thing... if you have the time for another errand, though I've got no reward on this one.]], "_t")
-t("Well, I'll see if I can help.", "Well, I'll see if I can help.", "_t")
-t("I'm here for profit, not errands - I have the list and will work on it; sort your own sidejobs out.", "I'm here for profit, not errands - I have the list and will work on it; sort your own sidejobs out.", "_t")
-t([[#LIGHT_GREEN#*The mailed dwarf opens his door.*#WHITE#
-Aha, my favorite adventurer.]], [[#LIGHT_GREEN#*The mailed dwarf opens his door.*#WHITE#
-Aha, my favorite adventurer.]], "_t")
 t([[#LIGHT_GREEN#*He gleefully claps you on the shoulder.*#WHITE#
-Ha ha! This is the last one! Stire and Marus and that damned hermit can suck on my beard! And so can my wife! YES, I KNOW YOU CAN HEAR ME. Good work, friend. Let's have them.]], [[#LIGHT_GREEN#*He gleefully claps you on the shoulder.*#WHITE#
-Ha ha! This is the last one! Stire and Marus and that damned hermit can suck on my beard! And so can my wife! YES, I KNOW YOU CAN HEAR ME. Good work, friend. Let's have them.]], "_t")
-t("Give me an hour or so to make with the alchemy. Don't go anywhere.", "Give me an hour or so to make with the alchemy. Don't go anywhere.", "_t")
-t("I'd invite you inside while you wait, but the she-dwarf's in there, and I've grown fond of you.", "I'd invite you inside while you wait, but the she-dwarf's in there, and I've grown fond of you.", "_t")
+Ha ha! This is the last one! Stire and Marus and that damned hermit can suck on my beard! And so can my wife! YES, I KNOW YOU CAN HEAR ME. Good work, friend. Let's have them.]], [[#LIGHT_GREEN#*Il vous tape joyeusement sur l'épaule.*#WHITE#
+Ha ha! C'est le dernier! Stire, Marus, et ce maudit ermite peuvent sucer ma barbe! Et ma femme aussi! OUI, JE SAIS QUE TU PEUX M'ENTENDRE. Bon travail, mon ami. Allons les récupérer.]], "_t")
+t("[Give him the monster bits]", "[Lui Donner les morceaux de monstre.]", "_t")
+t("Give me an hour or so to make with the alchemy. Don't go anywhere.", "Donnez-moi une heure ou deux pour réaliser l'alchimie. Ne va pas n'importe où.", "_t")
+t("[Wait]", "[Attendre]", "_t")
+t("I'd invite you inside while you wait, but the she-dwarf's in there, and I've grown fond of you.", "Je vous inviterais bien à l'intérieur pendant que vous attendez, mais la naine est là, et je me suis pris d'affection pour vous.", "_t")
 t([[#LIGHT_GREEN#*The dwarf finally returns with a vial.*#WHITE#
-Tastes like Urh'Rok's own piss, but it gets the job done.]], [[#LIGHT_GREEN#*The dwarf finally returns with a vial.*#WHITE#
-Tastes like Urh'Rok's own piss, but it gets the job done.]], "_t")
+Tastes like Urh'Rok's own piss, but it gets the job done.]], [[#LIGHT_GREEN#*Le nain revient enfin avec une fiole.*#WHITE#
+Ça a le goût de la pisse d'Urh'Rok, mais ça fait l'affaire.]], "_t")
+t("Thank you. I'll be off.", "Merci. Je vais m'en aller.", "_t")
 t([[#LIGHT_GREEN#*The dwarf finally returns with a vial and a small pouch.*#WHITE#
-I put a bit of the good stuff in this one, though it won't do you any favors tomorrow morning. And careful with that Taint of Purging, especially if the wife answers the door the next time you knock. Har!]], [[#LIGHT_GREEN#*The dwarf finally returns with a vial and a small pouch.*#WHITE#
-I put a bit of the good stuff in this one, though it won't do you any favors tomorrow morning. And careful with that Taint of Purging, especially if the wife answers the door the next time you knock. Har!]], "_t")
-t("Bless you adventurers. Which will it be?", "Bless you adventurers. Which will it be?", "_t")
-t("Here's a list of the creature bits I need. Good luck with the murdering!", "Here's a list of the creature bits I need. Good luck with the murdering!", "_t")
+I put a bit of the good stuff in this one, though it won't do you any favors tomorrow morning. And careful with that Taint of Purging, especially if the wife answers the door the next time you knock. Har!]], [[#LIGHT_GREEN#*Le nain revient enfin avec une fiole et une petite pochette.*#WHITE#
+J'ai mis un peu de bonnes choses dans celui-là, mais ça ne te fera pas de bien demain matin. Et attention avec cette Purge d'Infections, surtout si la femme répond à la porte la prochaine fois que vous frappez. Har !]], "_t")
+t("Bless you adventurers. Which will it be?", "Sois béni, aventurier. Lequel ce sera ?", "_t")
+t("Here's a list of the creature bits I need. Good luck with the murdering!", "Voici une liste des morceaux de créatures dont j'ai besoin. Bonne chance pour le massacre!", "_t")
 t([[Here's a list of the creature bits I need. Good luck with the murdering!
 
-Oh, and one other last thing... if you have the time for another errand, though I've got no reward on this one.]], [[Here's a list of the creature bits I need. Good luck with the murdering!
+Oh, and one other last thing... if you have the time for another errand, though I've got no reward on this one.]], [[Voici une liste des morceaux de créatures dont j'ai besoin. Bonne chance pour le massacre !
 
-Oh, and one other last thing... if you have the time for another errand, though I've got no reward on this one.]], "_t")
-t("Er, it seems that while you were out, somebody else managed to bring me the ingredients. I've got no reward for you! Sorry about that, but when time is of the essence, 'first come, first served' is the only sensible policy.", "Er, it seems that while you were out, somebody else managed to bring me the ingredients. I've got no reward for you! Sorry about that, but when time is of the essence, 'first come, first served' is the only sensible policy.", "_t")
-t("Hrmph.", "Hrmph.", "_t")
+Oh, et une dernière chose... si vous avez le temps pour une autre course, bien que je n'aie pas de récompense pour celle-ci.]], "_t")
+t("Er, it seems that while you were out, somebody else managed to bring me the ingredients. I've got no reward for you! Sorry about that, but when time is of the essence, 'first come, first served' is the only sensible policy.", "Euh, il semble que pendant que tu étais sorti, quelqu'un d'autre a réussi à m'apporter les ingrédients. Je n'ai pas de récompense pour toi! Désolé, mais quand le temps est compté, \"premier arrivé, premier servi\" est la seule politique raisonnable.", "_t")
 t([[Well, it's like this, one of my wife's friends has gone missing. A young alchemist in training, called Celia. Thing is, her husband died recently, and the grief done drove her mad. She used to go out to his grave every day, until one day she didn't come back. Personally I don't think she was able to live without him; the two were inseparable. If you get a chance on your travels, could you pass by the mausoleum to the east and check... well, you get the idea.
 
-It's strange what death can do to people, how it can take over their minds. Sometimes they forget it's the living that matter... See she gets a proper burial - treated respectfully, eh?]], [[Well, it's like this, one of my wife's friends has gone missing. A young alchemist in training, called Celia. Thing is, her husband died recently, and the grief done drove her mad. She used to go out to his grave every day, until one day she didn't come back. Personally I don't think she was able to live without him; the two were inseparable. If you get a chance on your travels, could you pass by the mausoleum to the east and check... well, you get the idea.
+It's strange what death can do to people, how it can take over their minds. Sometimes they forget it's the living that matter... See she gets a proper burial - treated respectfully, eh?]], [[Eh bien, c'est comme ça, une des amies de ma femme a disparu. Une jeune alchimiste en formation, appelée Celia. Le problème est que son mari est mort récemment, et le chagrin l'a rendue folle. Elle avait l'habitude d'aller sur sa tombe tous les jours, jusqu'au jour où elle n'est pas revenue. Personnellement, je ne pense pas qu'elle ait été capable de vivre sans lui; les deux étaient inséparables. Si vous en avez l'occasion lors de vos voyages, pourriez-vous passer par le mausolée à l'est et vérifier... enfin, vous voyez l'idée.
 
-It's strange what death can do to people, how it can take over their minds. Sometimes they forget it's the living that matter... See she gets a proper burial - treated respectfully, eh?]], "_t")
-t("I'll do what I can.", "I'll do what I can.", "_t")
-t("He points out the location of the graveyard on your map.", "He points out the location of the graveyard on your map.", "log")
+C'est étrange ce que la mort peut faire aux gens, comment elle peut prendre le dessus sur leur esprit. Parfois, ils oublient que ce sont les vivants qui comptent... Je vois qu'elle a eu un enterrement correct - traitée avec respect, hein ?]], "_t")
+t("I'll do what I can.", "Je ferai ce que je peux.", "_t")
+t("He points out the location of the graveyard on your map.", "Il indique l'emplacement du cimetière sur votre carte.", "log")
+-- texte non traduit
+--[==[
+t("Hrmph.", "Hrmph.", "_t")
 --]==]
 
 
@@ -2331,6 +2327,7 @@ t("The third.", "The third.", "_t")
 section "mod-tome/data/chats/command-staff.lua"
 
 t("Never mind.", "Aucune importance.", "_t")
+t("How is it that you speak?", "Comment faites vous pour parler?", "_t")
 -- texte non traduit
 --[==[
 t("Greetings. How can I help you?", "Greetings. How can I help you?", "_t")
@@ -2357,7 +2354,6 @@ t("Fine, as long as it leads to blasting something soon. What do you want me to 
 t("Choose different aspect", "Choose different aspect", "_t")
 t("Call forth which element?", "Call forth which element?", "_t")
 t("staff", "staff", "_t")
-t("How is it that you speak?", "How is it that you speak?", "_t")
 t("I'd like you to bring forth a different aspect.", "I'd like you to bring forth a different aspect.", "_t")
 t("I'd like to alter your basic properties.", "I'd like to alter your basic properties.", "_t")
 t("I see.", "I see.", "_t")
@@ -7707,6 +7703,10 @@ t("quiver of dragonbone arrows", "quiver of dragonbone arrows", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/brotherhood-artifacts.lua"
 
+t("Elixir of Brawn", "Elixir de Muscles", "entity name")
+t("Elixir of Stoneskin", "Elixir de Peau de Pierre", "entity name")
+t("Elixir of Foundations", "Elixir de Fondations", "entity name")
+t("Taint of Purging", "Purge d'Infections", "entity name")
 t("Infusion of Wild Growth", "Infusion de Croissance Sauvage", "entity name")
 -- texte non traduit
 --[==[
@@ -7759,21 +7759,17 @@ t("vial of clear fluid", "vial of clear fluid", "_t")
 t("A vial of clear, steaming fluid.", "A vial of clear, steaming fluid.", "_t")
 t("grant you two additional class talent points", "grant you two additional class talent points", "_t")
 t("#00FF00#The elixir has improved your capacity for exercising your core talents.", "#00FF00#The elixir has improved your capacity for exercising your core talents.", "logPlayer")
-t("Elixir of Brawn", "Elixir of Brawn", "entity name")
 t("vial of tan fluid", "vial of tan fluid", "_t")
 t("A vial of sluggish tan fluid.", "A vial of sluggish tan fluid.", "_t")
 t("permanently increase your strength and constitution by three", "permanently increase your strength and constitution by three", "_t")
 t("#00FF00#The elixir has augmented your physical might and resilience!", "#00FF00#The elixir has augmented your physical might and resilience!", "logPlayer")
-t("Elixir of Stoneskin", "Elixir of Stoneskin", "entity name")
 t("vial of iron-colored fluid", "vial of iron-colored fluid", "_t")
 t("A vial of grainy, iron-colored fluid.", "A vial of grainy, iron-colored fluid.", "_t")
 t("permanently increase your armor by four", "permanently increase your armor by four", "_t")
 t("#00FF00#The elixir has reinforced your entire body!", "#00FF00#The elixir has reinforced your entire body!", "logPlayer")
-t("Elixir of Foundations", "Elixir of Foundations", "entity name")
 t("vial of white fluid", "vial of white fluid", "_t")
 t("A vial of murky white fluid.", "A vial of murky white fluid.", "_t")
 t("grant you two additional generic talent points", "grant you two additional generic talent points", "_t")
-t("Taint of Purging", "Taint of Purging", "entity name")
 t("Lifebinding Emerald", "Lifebinding Emerald", "entity name")
 t("green", "green", "entity subtype")
 t("cloudy, heavy emerald", "cloudy, heavy emerald", "_t")
@@ -10966,6 +10962,7 @@ t("A plain looking ceremonial rod. It has connections with Time that even chrono
 section "mod-tome/data/general/objects/world-artifacts-maj-eyal.lua"
 
 t("Genocide", "Génocide", "entity name")
+t("#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "#ROYAL_BLUE#Le golem décide de prendre le nom de#{bold}#%s#{normal}#.", "log")
 -- texte non traduit
 --[==[
 t("Penitence", "Penitence", "entity name")
@@ -11052,7 +11049,6 @@ t("The fusing fails!", "The fusing fails!", "logPlayer")
 t("#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "logSeen")
 t("#CRIMSON#The unearthly glow fades away.", "#CRIMSON#The unearthly glow fades away.", "logPlayer")
 t("Telos Golem (reluctant follower of %s)", "Telos Golem (reluctant follower of %s)", "tformat")
-t("#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "log")
 t("I feel lost!", "I feel lost!", "_t")
 t("Voice of Telos", "Voice of Telos", "entity name")
 t("scintillating white staff", "scintillating white staff", "_t")
@@ -19107,6 +19103,9 @@ t("Glory to you, you are now the new master and your future characters will chal
 section "mod-tome/data/quests/brotherhood-of-alchemists.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
+t("elixir of brawn", "elixir de muscles", "_t")
+t("elixir of stoneskin", "elixir de peau de pierre", "_t")
+t("elixir of foundations", "elixir de foundations", "_t")
 -- texte non traduit
 --[==[
 t("The Brotherhood of Alchemists", "The Brotherhood of Alchemists", "_t")
@@ -19130,9 +19129,6 @@ t("elixir of mastery", "elixir of mastery", "_t")
 t("elixir of explosive force", "elixir of explosive force", "_t")
 t("elixir of serendipity", "elixir of serendipity", "_t")
 t("elixir of focus", "elixir of focus", "_t")
-t("elixir of brawn", "elixir of brawn", "_t")
-t("elixir of stoneskin", "elixir of stoneskin", "_t")
-t("elixir of foundations", "elixir of foundations", "_t")
 --]==]
 
 
@@ -29053,7 +29049,7 @@ t([[Breathe poison on your foes, doing %d damage over a few turns.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/golemancy.lua"
 
-
+t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
 -- texte non traduit
 --[==[
 t("Golem has no master", "Golem has no master", "_t")
@@ -29068,7 +29064,6 @@ t([[Interact with your golem to check its inventory, talents, ...
 		Note: You can also do that while taking direct control of the golem.]], "tformat")
 t("Refit Golem", "Refit Golem", "talent name")
 t("Golem", "Golem", "_t")
-t("%s (servant of %s)", "%s (servant of %s)", "tformat")
 t("Not enough space to refit!", "Not enough space to refit!", "logPlayer")
 t("refitting", "refitting", "_t")
 t("refitted", "refitted", "_t")
