@@ -1716,30 +1716,27 @@ t("Hrmph.", "Hrmph.", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/angolwen-leader.lua"
 
-t("Thank you.", "Merci.", "_t")
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*A tall woman stands before you. Her fair skin radiates incredible power through her white robe.*#WHITE#
-I am Linaniil of the Kar'Krul. Welcome to our city, @playerdescriptor.subclass@. What may I do for thee?]], [[#LIGHT_GREEN#*A tall woman stands before you. Her fair skin radiates incredible power through her white robe.*#WHITE#
-I am Linaniil of the Kar'Krul. Welcome to our city, @playerdescriptor.subclass@. What may I do for thee?]], "_t")
-t("I require all the help I can get, not for my sake but for the town of Derth, to the northeast of here.", "I require all the help I can get, not for my sake but for the town of Derth, to the northeast of here.", "_t")
-t("I am ready! Send me to Urkis!", "I am ready! Send me to Urkis!", "_t")
-t("Urkis has been slain.", "Urkis has been slain.", "_t")
-t("Nothing for now. Sorry to have taken your time. Farewell, my lady.", "Nothing for now. Sorry to have taken your time. Farewell, my lady.", "_t")
+I am Linaniil of the Kar'Krul. Welcome to our city, @playerdescriptor.subclass@. What may I do for thee?]], [[#LIGHT_GREEN#*Une grande femme se tient devant vous. Sa peau claire dégage une puissance incroyable à travers sa robe blanche.*#WHITE#
+Je suis Linaniil des Kar'Krul. Bienvenue dans notre ville, @playerdescriptor.subclass@. Que puis-je faire pour vous?]], "_t")
+t("I require all the help I can get, not for my sake but for the town of Derth, to the northeast of here.", "J'ai besoin de toute l'aide possible, pas pour moi mais pour la ville de Derth, au nord-est d'ici.", "_t")
+t("I am ready! Send me to Urkis!", "Je suis prêt! Envoyez-moi à Urkis!", "_t")
+t("Urkis has been slain.", "Urkis a été tué.", "_t")
+t("Nothing for now. Sorry to have taken your time. Farewell, my lady.", "Rien pour l'instant. Désolé d'avoir abusé de votre temps. Adieu, ma dame.", "_t")
 t([[Yes, we have noticed the devastation that happened there. I have sent some friends thence to disperse the cloud, but the true threat lies not there.
 He who created this abomination is Urkis. He is a Tempest, a powerful Archmage who channels the storms.
 Years ago he went rogue, severing himself from Angolwen. At first he remained quiet, and thus we withheld action, but it seems we have no choice now.
 Cleansing the skies will take much time. In the meanwhile, if thou art willing, we can send thee to Urkis' lair to face him.
-I will not lie to thee: we can send thee thence, but this could be a death trap, and we have no means for thou to depart his lair, as he lives atop a tall peak in the Daikara mountains.]], [[Yes, we have noticed the devastation that happened there. I have sent some friends thence to disperse the cloud, but the true threat lies not there.
-He who created this abomination is Urkis. He is a Tempest, a powerful Archmage who channels the storms.
-Years ago he went rogue, severing himself from Angolwen. At first he remained quiet, and thus we withheld action, but it seems we have no choice now.
-Cleansing the skies will take much time. In the meanwhile, if thou art willing, we can send thee to Urkis' lair to face him.
-I will not lie to thee: we can send thee thence, but this could be a death trap, and we have no means for thou to depart his lair, as he lives atop a tall peak in the Daikara mountains.]], "_t")
-t("I need to prepare myself. I will be back soon.", "I need to prepare myself. I will be back soon.", "_t")
-t("I am ready. Send me. I will not let the good people of Derth down.", "I am ready. Send me. I will not let the good people of Derth down.", "_t")
-t("Good luck to thee. Thou hast the blessings of Angolwen.", "Good luck to thee. Thou hast the blessings of Angolwen.", "_t")
-t("I see the storm is calmed.  Take this rune as a token of my appreciation.", "I see the storm is calmed.  Take this rune as a token of my appreciation.", "_t")
---]==]
+I will not lie to thee: we can send thee thence, but this could be a death trap, and we have no means for thou to depart his lair, as he lives atop a tall peak in the Daikara mountains.]], [[Oui, nous avons remarqué la dévastation qui s'y est produite. J'y ai envoyé quelques amis pour disperser le nuage, mais la vraie menace n'est pas là.
+Celui qui a créé cette abomination est Urkis. C'est un Tempétueux, un puissant Archimage qui canalise les tempêtes.
+Il y a des années il s'est rebellé et a quitté d'Angolwen. Au début, il est resté silencieux, nous n'avons donc pas agi, mais il semble que nous n'ayons plus le choix.
+Nettoyer les cieux prendra beaucoup de temps. En attendant si tu le souhaites, nous pouvons t'envoyer dans la tanière d'Urkis pour l'affronter.
+Je ne vais pas te mentir: nous pouvons t'y envoyer, mais cela pourrait être un piège mortel, et nous n'avons aucun moyen de te ramener car il vit au sommet d'un grand pic dans les montagnes de Daikara.]], "_t")
+t("I need to prepare myself. I will be back soon.", "Je dois me préparer. Je serai bientôt de retour.", "_t")
+t("I am ready. Send me. I will not let the good people of Derth down.", "Je suis prêt. Envoyez-moi. Je ne laisserai pas tomber le bon peuple de Derth.", "_t")
+t("Good luck to thee. Thou hast the blessings of Angolwen.", "Bonne chance. Les bénédictions d'Angolwen sont sur toi.", "_t")
+t("Thank you.", "Merci.", "_t")
+t("I see the storm is calmed.  Take this rune as a token of my appreciation.", "Je vois que la tempête s'est calmée.  Prenez cette rune en gage de ma reconnaissance.", "_t")
 
 
 ------------------------------------------------
@@ -1747,22 +1744,19 @@ section "mod-tome/data/chats/angolwen-staves-store.lua"
 
 t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
+t("I am looking for staff training.", "Je cherche une formation au bâton.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("I can teach you staff combat (talent category Spell/Staff combat).  Learning the basics costs 100 gold, while more intensive tutelage to gain proficiency costs 500 gold.  Once you're proficient, I can teach you more refined techniques for an additional 750 gold.", "Je peux vous enseigner le Combat au Bâton (catégorie de talent Magie/Combat au Bâton).  L'apprentissage des bases coûte 100 pièces d'or, tandis qu'un enseignement plus intensif pour acquérir les compétences nécessaires coûte 500 pièces d'or.  Une fois que vous êtes compétent, je peux vous enseigner des techniques plus raffinées pour encore 750 pièces d'or.", "_t")
+t("Just give me the basics (reveals locked talent category) - 100 gold.", "Donnez-moi juste les bases (révèle la catégorie de talent verrouillée) - 100 pièces d'or.", "_t")
+t("The staff carver spends some time with you, teaching you the basics of staff combat.", "Le sculpteur de bâton passe un certain temps avec vous, vous enseignant les bases du combat au bâton.", "logPlayer")
+t("He is surprised at how quickly you are able to follow his tutelage.", "Il est surpris de la rapidité avec laquelle vous êtes capable de suivre son enseignement.", "logPlayer")
+t("Please teach me what I need to know (unlocks talent category) - %d gold.", "S'il vous plaît, apprenez-moi ce que je dois savoir (débloque la catégorie de talent) - %d pièces d'or.", "tformat")
+t("The staff carver spends a substantial amount of time teaching you all of the techniques of staff combat.", "Le sculpteur de bâton passe un temps considérable à vous enseigner toutes les techniques de combat au bâton.", "logPlayer")
+t("He is impressed with your mastery and shows you a few extra techniques.", "Il est impressionné par votre maîtrise et vous montre quelques techniques supplémentaires.", "logPlayer")
+t("I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "Je suis déjà compétent, mais je veux devenir un expert (améliore la maîtrise des talents de 0.2) - 750 pièces d'or.", "_t")
+t("The staff carver spends a great deal of time going over the finer details of staff combat with you%s.", "Le sculpteur de bâton passe beaucoup de temps à étudier les détails du combat avec le bâton avec vous%s.", "tformat")
+t(", including some esoteric techniques", ", y compris certaines techniques ésotériques", "_t")
 t("No thanks.", "Non merci.", "_t")
--- texte non traduit
---[==[
-t("I am looking for staff training.", "I am looking for staff training.", "_t")
-t("I can teach you staff combat (talent category Spell/Staff combat).  Learning the basics costs 100 gold, while more intensive tutelage to gain proficiency costs 500 gold.  Once you're proficient, I can teach you more refined techniques for an additional 750 gold.", "I can teach you staff combat (talent category Spell/Staff combat).  Learning the basics costs 100 gold, while more intensive tutelage to gain proficiency costs 500 gold.  Once you're proficient, I can teach you more refined techniques for an additional 750 gold.", "_t")
-t("Just give me the basics (reveals locked talent category) - 100 gold.", "Just give me the basics (reveals locked talent category) - 100 gold.", "_t")
-t("The staff carver spends some time with you, teaching you the basics of staff combat.", "The staff carver spends some time with you, teaching you the basics of staff combat.", "logPlayer")
-t("He is surprised at how quickly you are able to follow his tutelage.", "He is surprised at how quickly you are able to follow his tutelage.", "logPlayer")
-t("Please teach me what I need to know (unlocks talent category) - %d gold.", "Please teach me what I need to know (unlocks talent category) - %d gold.", "tformat")
-t("The staff carver spends a substantial amount of time teaching you all of the techniques of staff combat.", "The staff carver spends a substantial amount of time teaching you all of the techniques of staff combat.", "logPlayer")
-t("He is impressed with your mastery and shows you a few extra techniques.", "He is impressed with your mastery and shows you a few extra techniques.", "logPlayer")
-t("I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "_t")
-t("The staff carver spends a great deal of time going over the finer details of staff combat with you%s.", "The staff carver spends a great deal of time going over the finer details of staff combat with you%s.", "tformat")
-t(", including some esoteric techniques", ", including some esoteric techniques", "_t")
---]==]
 
 
 ------------------------------------------------
