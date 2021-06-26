@@ -1754,7 +1754,7 @@ t("Please teach me what I need to know (unlocks talent category) - %d gold.", "S
 t("The staff carver spends a substantial amount of time teaching you all of the techniques of staff combat.", "Le sculpteur de bâton passe un temps considérable à vous enseigner toutes les techniques de combat au bâton.", "logPlayer")
 t("He is impressed with your mastery and shows you a few extra techniques.", "Il est impressionné par votre maîtrise et vous montre quelques techniques supplémentaires.", "logPlayer")
 t("I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "Je suis déjà compétent, mais je veux devenir un expert (améliore la maîtrise des talents de 0.2) - 750 pièces d'or.", "_t")
-t("The staff carver spends a great deal of time going over the finer details of staff combat with you%s.", "Le sculpteur de bâton passe beaucoup de temps à étudier les détails du combat avec le bâton avec vous%s.", "tformat")
+t("The staff carver spends a great deal of time going over the finer details of staff combat with you%s.", "Le sculpteur de bâton passe beaucoup de temps à étudier les détails du combat avec le bâton avec vous %s.", "tformat")
 t(", including some esoteric techniques", ", y compris certaines techniques ésotériques", "_t")
 t("No thanks.", "Non merci.", "_t")
 
@@ -1762,68 +1762,56 @@ t("No thanks.", "Non merci.", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/antimagic-end.lua"
 
-
--- texte non traduit
---[==[
 t("\
 \
 #{italic}##LIGHT_GREEN#*As you drink the potion, your runes start to burn as they fade away, and a terrible agony seems to sink through your skin to your bones, muscles, and heart.  You black out from the pain, and come to a bit later, the runes gone forever.  You feel very ill, and yet...  cleansed.*#{normal}##WHITE#", "\
 \
-#{italic}##LIGHT_GREEN#*As you drink the potion, your runes start to burn as they fade away, and a terrible agony seems to sink through your skin to your bones, muscles, and heart.  You black out from the pain, and come to a bit later, the runes gone forever.  You feel very ill, and yet...  cleansed.*#{normal}##WHITE#", "_t")
+#{italic}##LIGHT_GREEN#*Lorsque vous buvez la potion, vos runes commencent à brûler en s'effaçant, et une terrible agonie semble traverser votre peau jusqu'à vos os, vos muscles et votre cœur.  Vous vous évanouissez à cause de la douleur, et vous revenez à vous un peu plus tard, les runes ayant disparu à jamais.  Vous vous sentez très mal, et pourtant... purifié.*#{normal}##WHITE#", "_t")
 t([[Excellent! You truly prove that no mage-wrought flame or storm can stand against blade and arrow! Come, learn our ways. You are ready.
 #LIGHT_GREEN#*he gives you a potion.*#WHITE#
-Drink this. We extract it from a very rare kind of drake. It will grant you powers to fight and cancel magic, but never again will you be able to use magic.%s]], [[Excellent! You truly prove that no mage-wrought flame or storm can stand against blade and arrow! Come, learn our ways. You are ready.
-#LIGHT_GREEN#*he gives you a potion.*#WHITE#
-Drink this. We extract it from a very rare kind of drake. It will grant you powers to fight and cancel magic, but never again will you be able to use magic.%s]], "tformat")
-t("Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]", "Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]", "_t")
---]==]
+Drink this. We extract it from a very rare kind of drake. It will grant you powers to fight and cancel magic, but never again will you be able to use magic.%s]], [[Excellent! Tu prouves vraiment qu'aucune flamme ou tempête magique ne peut résister à une lame et une flèche! Viens, apprends nos méthodes. Tu es prêt.
+#LIGHT_GREEN#*il vous donne une potion.*#WHITE#
+Buvez ça. Nous l'avons extrait d'une espèce de lézard très rare. Ca vous donnera des pouvoirs pour combattre et annuler la magie, mais vous ne pourrez plus jamais l'utiliser.%s]], "tformat")
+t("Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]", "Merci. Je ne laisserai pas la magie triompher! #LIGHT_GREEN#[vous buvez la potion]", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/data/chats/ardhungol-end.lua"
 
-
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*As the monstrous spider falls you see something... moving in her belly until it explodes! A tall black man steps out of the spewed guts, surrounded by a golden light.*#WHITE#
 By the Sun! I thought I would never again see a friendly face!
 Thank you. I am Rashim, and I am in your debt.
-]], [[#LIGHT_GREEN#*As the monstrous spider falls you see something... moving in her belly until it explodes! A tall black man steps out of the spewed guts, surrounded by a golden light.*#WHITE#
-By the Sun! I thought I would never again see a friendly face!
-Thank you. I am Rashim, and I am in your debt.
+]], [[#LIGHT_GREEN#*Alors que la monstrueuse araignée tombe, vous voyez quelque chose... bouger dans son ventre jusqu'à ce qu'il explose! Un grand homme noir sort des entrailles déchiquetés, entouré d'une lumière dorée.*#WHITE#
+Par le soleil! Je pensais ne plus jamais revoir un visage amical!
+Merci. Je suis Rashim, et je vous suis redevable.
 ]], "_t")
-t("I have been sent by your wife. She was worried for you.", "I have been sent by your wife. She was worried for you.", "_t")
+t("I have been sent by your wife. She was worried for you.", "J'ai été envoyé par votre femme. Elle était inquiète pour vous.", "_t")
 t([[Ah, my dear heart!
-Well, now that I am free I will create a portal to the Gates of Morning. I think I've seen enough spiders for the rest of my life.]], [[Ah, my dear heart!
-Well, now that I am free I will create a portal to the Gates of Morning. I think I've seen enough spiders for the rest of my life.]], "_t")
-t("Lead the way!", "Lead the way!", "_t")
---]==]
+Well, now that I am free I will create a portal to the Gates of Morning. I think I've seen enough spiders for the rest of my life.]], [[Ah, ma douce!
+Bien, maintenant que je suis libre, je vais créer un portail vers les Portes du Matin. Je pense que j'ai vu assez d'araignées pour le reste de ma vie.]], "_t")
+t("Lead the way!", "Ouvrez la voie!", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/data/chats/ardhungol-start.lua"
 
-
--- texte non traduit
---[==[
-t("Good day to you.", "Good day to you.", "_t")
-t("Good day to you too.", "Good day to you too.", "_t")
-t("I have heard you are a great hero of the west. Could you help me, please?", "I have heard you are a great hero of the west. Could you help me, please?", "_t")
-t("Maybe, what is it about?", "Maybe, what is it about?", "_t")
-t("I have got enough problems sorry.", "I have got enough problems sorry.", "_t")
-t("Welcome back, @playername@.", "Welcome back, @playername@.", "_t")
-t("I have found your husband. I take it he made it home safely?", "I have found your husband. I take it he made it home safely?", "_t")
-t("I've got to go. Bye.", "I've got to go. Bye.", "_t")
+t("Good day to you.", "Bonjour à vous.", "_t")
+t("Good day to you too.", "Bonjour à vous aussi.", "_t")
+t("I have heard you are a great hero of the west. Could you help me, please?", "J'ai entendu dire que vous étiez un grand héros de l'Ouest. Pouvez-vous m'aider, s'il vous plaît?", "_t")
+t("Maybe, what is it about?", "Peut-être, de quoi s'agit-il ?", "_t")
+t("I have got enough problems sorry.", "J'ai assez de problèmes, désolé.", "_t")
+t("Welcome back, @playername@.", "Re bonjour, @playername@.", "_t")
+t("I have found your husband. I take it he made it home safely?", "J'ai trouvé votre mari. Je suppose qu'il est bien rentré chez lui?", "_t")
+t("I've got to go. Bye.", "Je dois y aller. Au revoir.", "_t")
 t([[My husband, Rashim, is a Sun Paladin. He was sent to clear the spider lair of Ardhungol to the north of this town.
 It has been three days now. He should be back by now. I have a feeling something terrible has happened to him. Please find him!
-He should have a magical stone given by the Anorithil to create a portal back here, yet he did not use it!]], [[My husband, Rashim, is a Sun Paladin. He was sent to clear the spider lair of Ardhungol to the north of this town.
-It has been three days now. He should be back by now. I have a feeling something terrible has happened to him. Please find him!
-He should have a magical stone given by the Anorithil to create a portal back here, yet he did not use it!]], "_t")
-t("I will see if I can find him.", "I will see if I can find him.", "_t")
-t("Spiders? Eww, sorry, but he is probably dead now.", "Spiders? Eww, sorry, but he is probably dead now.", "_t")
-t("Yes, yes he did! He said he would have died if not for you.", "Yes, yes he did! He said he would have died if not for you.", "_t")
-t("It was nothing.", "It was nothing.", "_t")
---]==]
+He should have a magical stone given by the Anorithil to create a portal back here, yet he did not use it!]], [[Mon mari, Rashim, est un paladin du soleil. Il a été envoyé pour nettoyer le repaire des araignées d'Ardhungol au nord de cette ville.
+Cela fait trois jours maintenant. Il devrait être de retour. J'ai le sentiment que quelque chose de terrible lui est arrivé. Trouvez-le!
+Il devait avoir une pierre magique donnée par l'Anorithil pour créer un portail de retour, mais ne l'a pas utilisée!]], "_t")
+t("I will see if I can find him.", "Je vais voir si je peux le trouver.", "_t")
+t("Spiders? Eww, sorry, but he is probably dead now.", "Des araignées ? Err, désolé, mais il est probablement mort maintenant.", "_t")
+t("Yes, yes he did! He said he would have died if not for you.", "Oui, oui, il l'a fait! Il a dit qu'il serait mort si vous n'aviez pas été là.", "_t")
+t("It was nothing.", "Ce n'était rien.", "_t")
 
 
 ------------------------------------------------
@@ -4326,18 +4314,18 @@ section "mod-tome/data/chats/zigur-mindstar-store.lua"
 t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Just give me the basics (reveals locked talent category) - 100 gold.", "Donnez-moi juste les bases (révèle la catégorie de talent verrouillée) - 100 pièces d'or.", "_t")
+t("I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "Je suis déjà compétent, mais je veux devenir un expert (améliore la maîtrise des talents de 0.2) - 750 pièces d'or.", "_t")
 t("No thanks.", "Non merci.", "_t")
 -- texte non traduit
 --[==[
 t("I am looking for mindstar training.", "I am looking for mindstar training.", "_t")
 t("I can teach you mindstar mastery (talent category Wild-gift/Mindstar mastery).  Learning the basics costs 100 gold, while more intensive training to gain proficiency costs 500 gold.  Once you're proficient, I can teach you some additional skills for 750 gold.", "I can teach you mindstar mastery (talent category Wild-gift/Mindstar mastery).  Learning the basics costs 100 gold, while more intensive training to gain proficiency costs 500 gold.  Once you're proficient, I can teach you some additional skills for 750 gold.", "_t")
-t("Just give me the basics (reveals locked talent category) - 100 gold.", "Just give me the basics (reveals locked talent category) - 100 gold.", "_t")
 t("The shopkeeper spends some time with you, teaching you the basics of channeling energy through mindstars.", "The shopkeeper spends some time with you, teaching you the basics of channeling energy through mindstars.", "logPlayer")
 t("He is impressed with your affinity for natural forces.", "He is impressed with your affinity for natural forces.", "logPlayer")
 t("Please teach me what I need to know (unlocks talent category) - 500 gold.", "Please teach me what I need to know (unlocks talent category) - 500 gold.", "_t")
 t("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you.", "The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you.", "logPlayer")
 t("He is impressed with your mastery and shows you a few tricks to handle stronger energy flows.", "He is impressed with your mastery and shows you a few tricks to handle stronger energy flows.", "logPlayer")
-t("I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "_t")
 t("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you%s.", "The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you%s.", "tformat")
 t(", and teaches you enhanced mental discipline needed to maintain powerful energy fields", ", and teaches you enhanced mental discipline needed to maintain powerful energy fields", "_t")
 --]==]
