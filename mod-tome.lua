@@ -1818,26 +1818,21 @@ t("It was nothing.", "Ce n'était rien.", "_t")
 section "mod-tome/data/chats/arena-start.lua"
 
 t("None", "Aucune", "_t")
--- texte non traduit
---[==[
-t("Gladiator's wares", "Gladiator's wares", "_t")
+t("Gladiator's wares", "Articles de gladiateurs", "_t")
 t([[#LIGHT_GREEN#You take a look at the ranking boards before entering.
-%s]], [[#LIGHT_GREEN#You take a look at the ranking boards before entering.
+%s]], [[#LIGHT_GREEN#Vous jetez un coup d'oeil aux tableaux de classement avant d'entrer.
 %s]], "tformat")
-t("Enter the arena (60 waves)", "Enter the arena (60 waves)", "_t")
-t("Enter the arena (shorter mode, 30 rounds)", "Enter the arena (shorter mode, 30 rounds)", "_t")
-t("#LIGHT_RED#[Reset all arena save data]", "#LIGHT_RED#[Reset all arena save data]", "_t")
-t("Enter the arena for 60 rounds", "Enter the arena for 60 rounds", "_t")
-t("Enter the arena for 30 rounds", "Enter the arena for 30 rounds", "_t")
---]==]
+t("Enter the arena (60 waves)", "Entrez dans l'arène (60 tours).", "_t")
+t("Enter the arena (shorter mode, 30 rounds)", "Entrez dans l'arène (mode abrégé, 30 tours)", "_t")
+t("#LIGHT_RED#[Reset all arena save data]", "#LIGHT_RED#[Réinitialiser les données de sauvegarde de l'arène]", "_t")
+t("Enter the arena for 60 rounds", "Entrez dans l'arène pour 60 tours", "_t")
+t("Enter the arena for 30 rounds", "Entrez dans l'arène pour 30 tours", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/data/chats/arena-unlock.lua"
 
 
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*A tall, hooded man stares at you*#WHITE#
 Yes...yes...you look like a promising warrior indeed...
 I have an offer, @playerdescriptor.race@.
@@ -1845,28 +1840,28 @@ You see...I am an agent for the Arena. I look for promising warriors that
 can provide a good show for our audience. Perhaps you are strong enough to join.
 All you need to do is beat three of my men in battle, and you shall be rewarded.
 #LIGHT_GREEN#*You consider the offer of the mysterious hooded man for a moment*
-]], [[#LIGHT_GREEN#*A tall, hooded man stares at you*#WHITE#
-Yes...yes...you look like a promising warrior indeed...
-I have an offer, @playerdescriptor.race@.
-You see...I am an agent for the Arena. I look for promising warriors that
-can provide a good show for our audience. Perhaps you are strong enough to join.
-All you need to do is beat three of my men in battle, and you shall be rewarded.
-#LIGHT_GREEN#*You consider the offer of the mysterious hooded man for a moment*
+]], [[#LIGHT_GREEN#*Un homme grand et encapuchonné vous regarde fixement.*#WHITE#
+Oui...oui...vous avez l'air d'un guerrier prometteur en effet...
+J'ai une offre, @playerdescriptor.race@.
+Vous voyez... je suis un agent de l'Arène. Je recherche de guerriers prometteurs qui
+peuvent offrir un bon spectacle à notre public. Peut-être êtes-vous assez fort pour vous joindre à nous.
+Tout ce que vous avez à faire est de battre trois de mes hommes au combat, et vous serez récompensé.
+#LIGHT_GREEN#*Vous considérez l'offre de cet homme mystérieux pendant un moment.*
 ]], "_t")
-t("Interesting. Tell me more about that Arena.", "Interesting. Tell me more about that Arena.", "_t")
-t("I am strong! What do you have to offer?", "I am strong! What do you have to offer?", "_t")
-t("I don't accept deals from shady hooded men.", "I don't accept deals from shady hooded men.", "_t")
+t("Interesting. Tell me more about that Arena.", "Intéréssant. Dites m'en plus sur cette Arène.", "_t")
+t("I am strong! What do you have to offer?", "Je suis fort! Qu'avez vous à m'offrir?", "_t")
+t("I don't accept deals from shady hooded men.", "Je n'accepte pas de marché de la part d'hommes louches encapuchonnés.", "_t")
 t([[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
 I have wealth and glory to offer, and some very useful
 #YELLOW#combat experience#WHITE# from fighting our men...
 So, what do you think? Are you up to it?
-]], [[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
-I have wealth and glory to offer, and some very useful
-#YELLOW#combat experience#WHITE# from fighting our men...
-So, what do you think? Are you up to it?
+]], [[#LIGHT_GREEN#*Vous pouvez sentir l'homme sourire de l'intérieur de sa capuche.*#WHITE#
+J'ai la richesse et la gloire à offrir, et quelques très utiles
+#YELLOW#expériences du combat#WHITE# pour combattre nos hommes...
+Alors, qu'en pensez-vous? Êtes-vous prêt?
 ]], "_t")
-t("I am ready for battle. Let's go!", "I am ready for battle. Let's go!", "_t")
-t("I don't have time for games, Cornac.", "I don't have time for games, Cornac.", "_t")
+t("I am ready for battle. Let's go!", "Je suis prêt à me battre. Allons-y!", "_t")
+t("I don't have time for games, Cornac.", "Je n'ai pas le temps de jouer, Cornac.", "_t")
 t([[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
 The Arena is where the brave come to fight against all odds.
 We are still growing up, and we lack challengers...
@@ -1877,16 +1872,16 @@ If you can pass my little test...I will #LIGHT_RED#allow you to join the Arena w
 you are done with your adventures.#WHITE#
 You also shall gather some much needed #LIGHT_RED#combat experience#WHITE# from fighting
 our men...so, what do you think? Are you up to it?
-]], [[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
-The Arena is where the brave come to fight against all odds.
-We are still growing up, and we lack challengers...
-It's like a gamble, but you use your fighting instead of money to play, you see?
-We in the Arena work hard to make a good show, and in return...you can get enough
-wealth and glory to last for centuries!
-If you can pass my little test...I will #LIGHT_RED#allow you to join the Arena when
-you are done with your adventures.#WHITE#
-You also shall gather some much needed #LIGHT_RED#combat experience#WHITE# from fighting
-our men...so, what do you think? Are you up to it?
+]], [[#LIGHT_GREEN#*Vous pouvez sentir l'homme sourire de l'intérieur de sa capuche.*#WHITE#
+L'arène est l'endroit où les plus courageux viennent se battre contre vents et marées.
+Nous sommes encore en pleine croissance, et nous manquons de challengers...
+C'est comme un pari, mais vous vous battez au lieu de jouer de l'argent, vous voyez?
+Nous, dans l'arène, nous travaillons dur pour faire de bon spectacles, et en retour... vous pouvez obtenir assez de
+de richesse et de gloire pour des siècles!
+Si vous pouvez passer mon petit test... je vous #LIGHT_RED#permettrai de rejoindre l'arène quand
+vous aurez terminé vos aventures.#WHITE#
+Vous pourrez également acquérir #LIGHT_RED#de l'éxpérience de combat#WHITE# en combattant
+nos hommes... Alors, qu'en pensez-vous? Intéressé?
 ]], "_t")
 t([[#LIGHT_GREEN#*The man lets out a disappointed sigh*#WHITE#
 That's unfortunate. We could have used someone like you.
@@ -1895,30 +1890,29 @@ Alas, if you stand by your choice, we shall never meet again.
 However, if you change your mind...I will #YELLOW#stay in Derth just a little
 longer.#WHITE#
 If I am still around, we can have a deal. Think about it, @playerdescriptor.race@.
-]], [[#LIGHT_GREEN#*The man lets out a disappointed sigh*#WHITE#
-That's unfortunate. We could have used someone like you.
-You are just the type the audience likes. You could have been a champion.
-Alas, if you stand by your choice, we shall never meet again.
-However, if you change your mind...I will #YELLOW#stay in Derth just a little
-longer.#WHITE#
-If I am still around, we can have a deal. Think about it, @playerdescriptor.race@.
+]], [[#LIGHT_GREEN#*L'homme laisse échapper un soupir déçu*#WHITE#
+C'est malheureux. Nous aurions pu utiliser quelqu'un comme vous.
+Vous êtes exactement le type de personne qui attire le public. Vous auriez pu être un champion.
+Hélas, si vous restez sur votre choix, nous ne nous reverrons plus jamais.
+Cependant, si tu changes d'avis... #YELLOW#je resterai à Derth un peu plus longtemps.#WHITE#
+Si je suis toujours là, on pourra faire un marché. Pensez y, @playerdescriptor.race@.
 ]], "_t")
-t("We'll see. [Leave]", "We'll see. [Leave]", "_t")
+t("We'll see. [Leave]", "Nous verrons bien. [Partir]", "_t")
 t([[#LIGHT_GREEN#*The man smiles in approval*#WHITE#
 Excellent! A great fighter is always willing to head into battle.
 You certainly won't regret meeting us, indeed...
 So, are you ready to fight?
-]], [[#LIGHT_GREEN#*The man smiles in approval*#WHITE#
-Excellent! A great fighter is always willing to head into battle.
-You certainly won't regret meeting us, indeed...
-So, are you ready to fight?
+]], [[#LIGHT_GREEN#*L'homme sourit en signe d'approbation*#WHITE#
+Excellent! Un grand combattant est toujours prêt à aller au combat.
+Vous ne regretterez certainement pas de nous avoir rencontrés, en effet...
+Alors, êtes-vous prêt à vous battre?
 ]], "_t")
-t("Sounds like fun. I'm ready!", "Sounds like fun. I'm ready!", "_t")
-t("Wait. I am not ready yet.", "Wait. I am not ready yet.", "_t")
-t("#LIGHT_GREEN#*The man quietly walks away, after making you a gesture to follow him*", "#LIGHT_GREEN#*The man quietly walks away, after making you a gesture to follow him*", "_t")
-t("[Follow him]", "[Follow him]", "_t")
-t("Get ready!", "Get ready!", "_t")
-t("Defeat all three enemies!", "Defeat all three enemies!", "_t")
+t("Sounds like fun. I'm ready!", "Ça a l'air amusant. Je suis prêt!", "_t")
+t("Wait. I am not ready yet.", "Attendez. Je ne suis pas encore prêt.", "_t")
+t("#LIGHT_GREEN#*The man quietly walks away, after making you a gesture to follow him*", "#LIGHT_GREEN#*L'homme s'éloigne tranquillement, après vous avoir fait signe de le suivre.*", "_t")
+t("[Follow him]", "[Le suivre]", "_t")
+t("Get ready!", "Préparez-vous!", "_t")
+t("Defeat all three enemies!", "Battez les trois ennemis!", "_t")
 t([[#LIGHT_GREEN#*The Cornac rogue comes back from the shadows*#WHITE#
 Well done, @playerdescriptor.race@! I knew you had potential.
 #LIGHT_GREEN#*The rogue takes off his hood, showing a fairly young, but unmistakably
@@ -1932,45 +1926,42 @@ But we can make you a true champion, beloved by many and bathing in diamonds.
 #LIGHT_GREEN#battles in the forest. He provides you with great insight on your combat technique (#WHITE#+2 generic talent points#LIGHT_GREEN#)*
 #WHITE#Very well, @playername@. I must go now.
 Good luck in your adventures, and come visit us when you are done!
-]], [[#LIGHT_GREEN#*The Cornac rogue comes back from the shadows*#WHITE#
-Well done, @playerdescriptor.race@! I knew you had potential.
-#LIGHT_GREEN#*The rogue takes off his hood, showing a fairly young, but unmistakably
-#LIGHT_GREEN#battle-hardened man.#WHITE#
-The name's Rej. I work for the arena to recruit great fighters who can give a
-good show... and not die in two blows. You are one of those, indeed!
-I won't keep you away from your adventures. I was there too, long ago.
-But we can make you a true champion, beloved by many and bathing in diamonds.
+]], [[#LIGHT_GREEN#*Le brigant Cornac sort de l'ombre.*#WHITE#
+Bien joué, @playerdescriptor.race@! Je savais que vous aviez un bon potentiel.
+#LIGHT_GREEN#*Le brigand enlève sa capuche, montrant un visage assez jeune, mais indubitablement
+#LIGHT_GREEN#endurci par le combat.#WHITE#
+Je m'appelle Rej. Je travaille pour l'arène pour recruter de grands combattants qui peuvent donner un
+un bon spectacle... et ne pas mourir en deux coups. Tu es l'un d'entre eux, en effet!
+Je ne te retiendrai pas loin de tes aventures. J'y étais un aussi, il y a longtemps.
+Mais nous pouvons faire de toi un vrai champion, aimé de tous et baignant dans les diamants.
 
-#LIGHT_GREEN#*As you travel back to Derth in company of the rogue, you discuss your
-#LIGHT_GREEN#battles in the forest. He provides you with great insight on your combat technique (#WHITE#+2 generic talent points#LIGHT_GREEN#)*
-#WHITE#Very well, @playername@. I must go now.
-Good luck in your adventures, and come visit us when you are done!
+#LIGHT_GREEN#*En retournant à Derth en compagnie du brigand, vous discutez de votre...
+#LIGHT_GREEN#combat dans la forêt. Il vous donne de bons conseils pour votre technique de combat. (#WHITE#+2 points de talent générique#LIGHT_GREEN#)*
+#WHITE#Très bien, @playername@. Je dois y aller.
+Bonne chance dans vos aventures, et venez nous rendre visite lorsque vous aurez terminé!
 ]], "_t")
-t("I will. Farewell for now.", "I will. Farewell for now.", "_t")
-t("exit to Derth", "exit to Derth", "_t")
-t("Select the party member to receive the +2 generic talent points:", "Select the party member to receive the +2 generic talent points:", "_t")
-t("#WHITE#I see. I will be waiting... #YELLOW#But not for long.", "#WHITE#I see. I will be waiting... #YELLOW#But not for long.", "_t")
+t("I will. Farewell for now.", "Je le ferai. Adieu pour l'instant.", "_t")
+t("exit to Derth", "partir pour Derth", "_t")
+t("Select the party member to receive the +2 generic talent points:", "Sélectionnez le membre du groupe qui recevra les +2 points de talent générique:", "_t")
+t("#WHITE#I see. I will be waiting... #YELLOW#But not for long.", "#WHITE#Je vois. Je vous attendrais... #YELLOW#Mais pas très longtemps.", "_t")
 t([[#LIGHT_GREEN#*The Cornac rogue displays a welcoming smile*#WHITE#
 Welcome back, @playerdescriptor.race@. Have you reconsidered my generous offer?
-]], [[#LIGHT_GREEN#*The Cornac rogue displays a welcoming smile*#WHITE#
-Welcome back, @playerdescriptor.race@. Have you reconsidered my generous offer?
+]], [[#LIGHT_GREEN#*Le brigand cornac affiche un sourire accueillant*#WHITE#
+Rebonjour, @playerdescriptor.race@. Avez-vous reconsidéré mon offre généreuse?
 ]], "_t")
-t("Yes, tell me more.", "Yes, tell me more.", "_t")
-t("No, see you.", "No, see you.", "_t")
+t("Yes, tell me more.", "Oui, dites m'en plus.", "_t")
+t("No, see you.", "Non, au revoir.", "_t")
 t([[Welcome back, @playerdescriptor.race@. Are you ready to go?
-]], [[Welcome back, @playerdescriptor.race@. Are you ready to go?
+]], [[Rebonjour, @playerdescriptor.race@. Etes vous prêt à y aller?
 ]], "_t")
-t("Let's go, Cornac.", "Let's go, Cornac.", "_t")
-t("Just a minute. I have to prepare my equipment.", "Just a minute. I have to prepare my equipment.", "_t")
---]==]
+t("Let's go, Cornac.", "Allons y, Cornac.", "_t")
+t("Just a minute. I have to prepare my equipment.", "Une minute. Je dois préparer mon équipement.", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/data/chats/arena.lua"
 
 
--- nouveau texte
---[==[
 t([[#LIGHT_GREEN#*The gate opens, revealing a mature human woman in crimson robes.
 #LIGHT_GREEN#She looks at you with a wide smile*
 #WHITE# My, my, what a fine @playerdescriptor.race@ you are. What was your name again, @playername@? I am soo delighted to be your rival today.
@@ -1978,14 +1969,14 @@ t([[#LIGHT_GREEN#*The gate opens, revealing a mature human woman in crimson robe
 So! I am Riala, the Crimson. I came directly from Angolwen. Despite, you know, the whole thing with the Spellblaze, people still enjoy a few magic tricks!
 #LIGHT_GREEN#*She snaps her fingers, and then flames start dancing around her!*#WHITE#
 Fryjia told me about you, the poor thing, so I will not underestimate such a promising aspirant #LIGHT_GREEN#*She smiles warmly* #WHITE#So, let's make haste my dear!
-There is a battle to fight here!]], [[#LIGHT_GREEN#*The gate opens, revealing a mature human woman in crimson robes.
-#LIGHT_GREEN#She looks at you with a wide smile*
-#WHITE# My, my, what a fine @playerdescriptor.race@ you are. What was your name again, @playername@? I am soo delighted to be your rival today.
-#LIGHT_GREEN#*She speaks quietly as if telling a secret* #WHITE#You know, so few get past the little one as of late, it's such a bore.#LIGHT_GREEN#*She giggles*#WHITE#
-So! I am Riala, the Crimson. I came directly from Angolwen. Despite, you know, the whole thing with the Spellblaze, people still enjoy a few magic tricks!
-#LIGHT_GREEN#*She snaps her fingers, and then flames start dancing around her!*#WHITE#
-Fryjia told me about you, the poor thing, so I will not underestimate such a promising aspirant #LIGHT_GREEN#*She smiles warmly* #WHITE#So, let's make haste my dear!
-There is a battle to fight here!]], "_t")
+There is a battle to fight here!]], [[#LIGHT_GREEN#*La porte s'ouvre, révélant une femme mature en robe écarlate.
+#LIGHT_GREEN#Elle vous regarde avec un large sourire*
+#WHITE# Mon dieu, mon dieu, quel beau @playerdescriptor.race@ vous êtes. Quel était votre nom déjà, @playername@? Je suis si heureuse d'être votre rival aujourd'hui.
+#LIGHT_GREEN#*Elle parle doucement comme si elle confiait un secret* #WHITE#Vous savez, il y en a si peu qui passent le cap de la première année, c'est tellement ennuyeux.#LIGHT_GREEN#*Elle glousse.*#WHITE#
+Donc! Je suis Riala, la Cramoisie. Je viens directement d'Angolwen. Malgré, vous savez, toute l'affaire de la Brûlure magique, les gens apprécient toujours quelques tours de magie!
+#LIGHT_GREEN#*Elle claque des doigts, et des flammes se mettent à danser autour d'elle!*#WHITE#
+Fryjia m'a parlé de vous, pauvre petite chose, alors je ne sous-estimerai pas quelqu'un d'aussi prometteur. #LIGHT_GREEN#*Elle sourit chaleureusement* #WHITE#Donc, hâtons-nous brave petite chose!
+Il y a un combat à mener ici!]], "_t")
 t([[#LIGHT_GREEN#*With the final blow, Riala falls...to suddenly burst in flames!!
 #LIGHT_GREEN#You stare at the blazing inferno with understandable confusion,
 #LIGHT_GREEN#until you hear her voice from behind*#WHITE#
@@ -1994,16 +1985,15 @@ Oh, my dear! That was quite the fight, wasn't it? I concede you the honor of vic
 Fryjia was right about you: you seem to be a champion in the works!
 Oh, and please forgive her behavior. You will understand when you meet her father.
 And, if you keep fighting like this, it will be really soon.
-So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], [[#LIGHT_GREEN#*With the final blow, Riala falls...to suddenly burst in flames!!
-#LIGHT_GREEN#You stare at the blazing inferno with understandable confusion,
-#LIGHT_GREEN#until you hear her voice from behind*#WHITE#
-Oh, my dear! That was quite the fight, wasn't it? I concede you the honor of victory.
-#LIGHT_GREEN#*She bows politely*
-Fryjia was right about you: you seem to be a champion in the works!
-Oh, and please forgive her behavior. You will understand when you meet her father.
-And, if you keep fighting like this, it will be really soon.
-So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], "_t")
---]==]
+So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], [[#LIGHT_GREEN#*Avec le coup final, Riala tombe... pour soudainement se consumer en flammèches!!
+#LIGHT_GREEN#Vous fixez le brasier avec une confusion compréhensible,
+#LIGHT_GREEN#jusqu'à ce que vous entendiez sa voix par derrière*#WHITE#
+Oh, mon petit! C'était un sacré combat, n'est-ce pas? Je vous concède l'honneur de la victoire.
+#LIGHT_GREEN#*Elle s'incline poliment*
+Fryjia avait raison à votre sujet, vous semblez être un champion en devenir!
+Oh, et s'il vous plaît, pardonnez son comportement. Vous comprendrez quand vous rencontrerez son père.
+Et, si vous continuez à vous battre comme ça, ce sera très bientôt.
+Alors, çe fut un plaisir, @playername@. #LIGHT_GREEN#*Elle disparaît dans une spirale de flammes*]], "_t")
 
 -- texte non traduit
 --[==[
