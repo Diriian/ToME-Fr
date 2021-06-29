@@ -216,7 +216,6 @@ Il s'agit d'un #{bold}#jeu solo#{normal}# mais il comporte également de nombreu
 
 Vous aurez également une page utilisateur sur #LIGHT_BLUE#https://te4.org/#LAST# pour frimer devant vos amis.
 Tout cela est facultatif, vous n'êtes pas du tout obligé d'utiliser cette fonctionnalité, mais le développeur vous en remerciera car cela facilitera l'équilibrage.]], "_t")
-t("Login in...", "Connexion...", "_t")
 t("Please wait...", "Attendez s'il vous plait...", "_t")
 t("Profile logged in!", "Profil connecté!", "_t")
 t("Your online profile is now active. Have fun!", "Votre profil en ligne est maintenant activé. Amusez vous bien!", "_t")
@@ -229,11 +228,18 @@ t("Profile created!", "Profil créé!", "_t")
 t("Profile creation failed!", "La création de profil a échouée!", "_t")
 t("Creation failed: %s (you may also register on https://te4.org/)", "La création a échouée: %s (vous pouvez aussi vous enregistrer sur https://te4.org/)", "tformat")
 t("Try again in in a few moments, or try online at https://te4.org/", "Essayez de nouveau dans quelques instants, ou essayez en ligne sur https://te4.org/", "_t")
+-- nouveau texte
+--[==[
+t("Logging in...", "Logging in...", "_t")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Message", "Message", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Login in...", "Connexion...", "_t")
 
 ------------------------------------------------
 section "mod-boot/mod/class/Player.lua"
@@ -284,7 +290,7 @@ t("Community Managers", "Community manager", "_t")
 t("Text Editors", "Editeurs de texte", "_t")
 t("The Community", "La Communauté", "_t")
 t("Others", "Autres", "_t")
--- nouveau texte
+-- texte non traduit
 --[==[
 t("Code Heroes", "Code Heroes", "_t")
 t("Chinese Translation Lead", "Chinese Translation Lead", "_t")
@@ -469,8 +475,12 @@ t("Your username is too short", "Votre pseudonyme est trop court", "_t")
 t("Password", "Mot de passe", "_t")
 t("Your password is too short", "Votre mot de passe est trop court", "_t")
 t("Login...", "Connexion...", "_t")
-t("Login in your account, please wait...", "Connexion à votre compte, attendez s'il vous plaît...", "_t")
 t("Steam client not found.", "Client Steam non trouvé", "_t")
+-- nouveau texte
+--[==[
+t("Logging in your account, please wait...", "Logging in your account, please wait...", "_t")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Addons", "Addons", "_t")
@@ -478,6 +488,8 @@ t("Options", "Options", "_t")
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
 --]==]
 
+-- ancien texte traduit
+t("Login in your account, please wait...", "Connexion à votre compte, attendez s'il vous plaît...", "_t")
 
 ------------------------------------------------
 section "mod-boot/mod/dialogs/NewGame.lua"

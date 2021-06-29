@@ -1234,7 +1234,7 @@ t("Talent Use Confirmation", "Confirmation d'utilisation d'un Talent", "_t")
 t("Use %s?", "Utiliser %s?", "tformat")
 t("Cancel", "Annuler", "_t")
 t("Continue", "Continuer", "_t")
-t("unknown", "inconnu", "_t")
+t("unknown", "inconnu", "entity name")
 t("deactivates", "désactivé", "_t")
 t("activates", "activé", "_t")
 t("%s uses %s.", "%s utilise %s.", "logSeen")
@@ -1257,6 +1257,8 @@ t("- Talent %s (%d)", "- Talent %s (%d)", "tformat")
 t("- Talent %s", "- Talent %s", "tformat")
 --]==]
 
+-- ancien texte traduit
+t("unknown", "inconnu", "_t")
 
 ------------------------------------------------
 section "engine/engine/interface/GameTargeting.lua"
