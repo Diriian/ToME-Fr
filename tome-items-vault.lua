@@ -97,7 +97,6 @@ t("Temporal Locked Vault", "Temporal Locked Vault", "_t")
 ------------------------------------------------
 section "tome-items-vault/overload/mod/class/ItemsVaultDLC.lua"
 
-
 t("unknown reason", "Raison inconnue", "_t")
 -- nouveau texte
 --[==[

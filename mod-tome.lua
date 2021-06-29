@@ -256,6 +256,12 @@ t("Triumph of the Way", "Triomphe de la Voie", "achievement name")
 t("Won ToME by sacrificing yourself to forcefully spread the Way to every other sentient being on Eyal.", "Gagner ToME en vous sacrifiant pour diffuser avec force la Voie à tous les autres êtres conscient sur Eyal.", "_t")
 t("No Way!", "Certainement pas!", "achievement name")
 t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the Way to enslave every sentient being on Eyal.", "Gagner ToME en fermant le portail du Vide et en vous laissant tuer par Aeryn pour empêcher la Voie d'asservir chaque être conscient sur Eyal.", "_t")
+t("This is how the world ends: swallowed in fire, but not in darkness.", "C'est ainsi que le monde finit : englouti dans le feu, mais pas dans les ténèbres.", "achievement name")
+t("\"Won\" ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.", "\"Gagner\" ToME en vous sacrifiant vous même pour votre patron Soleil Lointain, ouvrant un portail pour qu'il brûle et consume le monde.", "_t")
+t("Last Instant of Sanity", "Dernier instant de lucidité", "achievement name")
+t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent your mad patron sun from burning the world in a searing flash.", "Gagner ToME en fermant le portail du Vide et en me laissant tuer par Aeryn pour éviter que votre patron fou du soleil ne brûle le monde dans un flash brûlant.", "_t")
+t("They Came Back For Eyal", "Ils sont revenus pour Eyal", "achievement name")
+t("Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.", "Gagner ToME grâce à un Sher'tul qui vous empêche au dernier moment d'ouvrir un portail vers votre patron fou du soleil.", "_t")
 t("Tactical master", "Maître tactique", "achievement name")
 t("Fought the two Sorcerers without closing any invocation portals.", "Combattre les deux sorciers sans fermer aucun portail d'invocation.", "_t")
 t("Portal destroyer", "Destructeur de portails", "achievement name")
@@ -365,6 +371,16 @@ t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +2 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +2 Force, +2 Dextérité, +2 Constitution", "_t")
 t("#LIGHT_BLUE# * +2 Magic, +2 Willpower, +2 Cunning", "#LIGHT_BLUE# * +2 Magie, +2 Volonté, +2 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
+t("Wanderer seed", "Graine de Vagabond", "birth facial category")
+t("Wanderer", "Vagabond", "birth descriptor name")
+t("Wanderers are adventurers who embrace the chaotic nature of the world. They start the game with the Combat Training talent tree, 3 random class trees and 1 random generic tree.", "Les Vagabonds sont des aventuriers qui embrassent la nature chaotique du monde. Ils commencent le jeu avec l'arbre de talent Entraînement au combat, 3 arbres de classe aléatoires et 1 arbre générique aléatoire.", "_t")
+t("#{bold}##PURPLE#Every 5 levels they gain a new unlocked class tree, at random.#{normal}##LAST#", "#{bold}##PURPLE#Tous les 5 niveaux, ils gagnent un nouvel arbre de classe débloqué, au hasard.#{normal}##LAST#", "_t")
+t("#{bold}##PURPLE#Every 10 levels starting at level 2 they gain a new unlocked generic tree, at random.#{normal}##LAST#", "#{bold}##PURPLE#Tous les 10 niveaux, à partir du niveau 2, ils gagnent un nouvel arbre générique débloqué, au hasard.#{normal}##LAST#", "_t")
+t("#{bold}##GOLD#This is a bonus class for the chaotically inclined. It is by no means balanced, fun or winnable, it is most of all #{italic}#RANDOM#{bold}#.#WHITE##{normal}#", "#{bold}##GOLD#Il s'agit d'une classe bonus pour les personnes ayant un penchant chaotique. Elle n'est en aucun cas équilibrée, amusante ou gagnable, elle est avant tout #{italic}#ALEATOIRE#{bold}#.#WHITE##{normal}#", "_t")
+t("Their most important stats depend on what they get to do.", "Leurs statistiques les plus importantes dépendent de ce qu'ils ont à faire.", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
+t("#GOLD#As you level up you learn the talent tree: #LIGHT_BLUE#%s", "#GOLD#Au fur et à mesure que vous montez en grade, vous apprenez l'arbre de talent: #LIGHT_BLUE#%s", "say")
+t("Wanderer Seed", "Graine de Vagabond", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/classes/afflicted.lua"
@@ -694,7 +710,7 @@ t("#WHITE#Start with a simplified character and discover the game in a simple qu
 t("All damage done to the player reduced by 20%", "Tous les dommages fait au joueur sont réduits de 20%", "_t")
 t("All healing for the player increased by 10%", "Tous les soins pour le joueur sont augmentés de 10%", "_t")
 t("No main game achievements possible.", "Pas de succès possible pour le jeu principal.", "_t")
-t("Easier", "Très facile", "_t")
+t("Easier", "Très facile", "birth descriptor name")
 t("#GOLD##{bold}#Easier mode#WHITE##{normal}#", "#GOLD##{bold}#Mode très facile#WHITE##{normal}#", "_t")
 t("Provides an easier game experience.", "Procure une expérience de jeu très facile.", "_t")
 t("Use it if you feel uneasy tackling the harder modes.", "Utilisez ce mode si vous ne voulez pas faire face aux modes plus difficiles.", "_t")
@@ -760,6 +776,8 @@ t("Exploration", "Exploration", "birth descriptor name")
 t("Roguelike", "Roguelike", "birth descriptor name")
 --]==]
 
+-- ancien texte traduit
+t("Easier", "Très facile", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/races/construct.lua"
@@ -1738,14 +1756,13 @@ t("Good luck to thee. Thou hast the blessings of Angolwen.", "Bonne chance. Les 
 t("Thank you.", "Merci.", "_t")
 t("I see the storm is calmed.  Take this rune as a token of my appreciation.", "Je vois que la tempête s'est calmée.  Prenez cette rune en gage de ma reconnaissance.", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/chats/angolwen-staves-store.lua"
 
 t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("I am looking for staff training.", "Je cherche une formation au bâton.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_angolwen-staves-store")
 t("I can teach you staff combat (talent category Spell/Staff combat).  Learning the basics costs 100 gold, while more intensive tutelage to gain proficiency costs 500 gold.  Once you're proficient, I can teach you more refined techniques for an additional 750 gold.", "Je peux vous enseigner le Combat au Bâton (catégorie de talent Magie/Combat au Bâton).  L'apprentissage des bases coûte 100 pièces d'or, tandis qu'un enseignement plus intensif pour acquérir les compétences nécessaires coûte 500 pièces d'or.  Une fois que vous êtes compétent, je peux vous enseigner des techniques plus raffinées pour encore 750 pièces d'or.", "_t")
 t("Just give me the basics (reveals locked talent category) - 100 gold.", "Donnez-moi juste les bases (révèle la catégorie de talent verrouillée) - 100 pièces d'or.", "_t")
 t("The staff carver spends some time with you, teaching you the basics of staff combat.", "Le sculpteur de bâton passe un certain temps avec vous, vous enseignant les bases du combat au bâton.", "logPlayer")
@@ -1757,7 +1774,8 @@ t("I'm already proficient, but I want to be an expert (improves talent mastery b
 t("The staff carver spends a great deal of time going over the finer details of staff combat with you%s.", "Le sculpteur de bâton passe beaucoup de temps à étudier les détails du combat avec le bâton avec vous %s.", "tformat")
 t(", including some esoteric techniques", ", y compris certaines techniques ésotériques", "_t")
 t("No thanks.", "Non merci.", "_t")
-
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/antimagic-end.lua"
@@ -1774,7 +1792,6 @@ Drink this. We extract it from a very rare kind of drake. It will grant you powe
 Buvez ça. Nous l'avons extrait d'une espèce de lézard très rare. Ca vous donnera des pouvoirs pour combattre et annuler la magie, mais vous ne pourrez plus jamais l'utiliser.%s]], "tformat")
 t("Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]", "Merci. Je ne laisserai pas la magie triompher! #LIGHT_GREEN#[vous buvez la potion]", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/chats/ardhungol-end.lua"
 
@@ -1790,7 +1807,6 @@ t([[Ah, my dear heart!
 Well, now that I am free I will create a portal to the Gates of Morning. I think I've seen enough spiders for the rest of my life.]], [[Ah, ma douce!
 Bien, maintenant que je suis libre, je vais créer un portail vers les Portes du Matin. Je pense que j'ai vu assez d'araignées pour le reste de ma vie.]], "_t")
 t("Lead the way!", "Ouvrez la voie!", "_t")
-
 
 ------------------------------------------------
 section "mod-tome/data/chats/ardhungol-start.lua"
@@ -1813,12 +1829,11 @@ t("Spiders? Eww, sorry, but he is probably dead now.", "Des araignées ? Err, d�
 t("Yes, yes he did! He said he would have died if not for you.", "Oui, oui, il l'a fait! Il a dit qu'il serait mort si vous n'aviez pas été là.", "_t")
 t("It was nothing.", "Ce n'était rien.", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/chats/arena-start.lua"
 
-t("None", "Aucune", "_t")
 t("Gladiator's wares", "Articles de gladiateurs", "_t")
+t("None", "Aucune", "_t")
 t([[#LIGHT_GREEN#You take a look at the ranking boards before entering.
 %s]], [[#LIGHT_GREEN#Vous jetez un coup d'oeil aux tableaux de classement avant d'entrer.
 %s]], "tformat")
@@ -1828,10 +1843,8 @@ t("#LIGHT_RED#[Reset all arena save data]", "#LIGHT_RED#[Réinitialiser les donn
 t("Enter the arena for 60 rounds", "Entrez dans l'arène pour 60 tours", "_t")
 t("Enter the arena for 30 rounds", "Entrez dans l'arène pour 30 tours", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/chats/arena-unlock.lua"
-
 
 t([[#LIGHT_GREEN#*A tall, hooded man stares at you*#WHITE#
 Yes...yes...you look like a promising warrior indeed...
@@ -1930,9 +1943,9 @@ Good luck in your adventures, and come visit us when you are done!
 Bien joué, @playerdescriptor.race@! Je savais que vous aviez un bon potentiel.
 #LIGHT_GREEN#*Le brigand enlève sa capuche, montrant un visage assez jeune, mais indubitablement
 #LIGHT_GREEN#endurci par le combat.#WHITE#
-Je m'appelle Rej. Je travaille pour l'arène pour recruter de grands combattants qui peuvent donner un
+Je m'appelle Rej. Je travaille pour l'arène afin de recruter de grands combattants pouvant donner un
 un bon spectacle... et ne pas mourir en deux coups. Tu es l'un d'entre eux, en effet!
-Je ne te retiendrai pas loin de tes aventures. J'y étais un aussi, il y a longtemps.
+Je ne te retiendrai pas loin de tes aventures. J'en étais un aussi, il y a longtemps.
 Mais nous pouvons faire de toi un vrai champion, aimé de tous et baignant dans les diamants.
 
 #LIGHT_GREEN#*En retournant à Derth en compagnie du brigand, vous discutez de votre...
@@ -1957,11 +1970,10 @@ t([[Welcome back, @playerdescriptor.race@. Are you ready to go?
 t("Let's go, Cornac.", "Allons y, Cornac.", "_t")
 t("Just a minute. I have to prepare my equipment.", "Une minute. Je dois préparer mon équipement.", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/chats/arena.lua"
 
-
+t("Gladiator's wares", "Articles de gladiateurs", "_t")
 t([[#LIGHT_GREEN#*The gate opens, revealing a mature human woman in crimson robes.
 #LIGHT_GREEN#She looks at you with a wide smile*
 #WHITE# My, my, what a fine @playerdescriptor.race@ you are. What was your name again, @playername@? I am soo delighted to be your rival today.
@@ -1994,10 +2006,8 @@ Fryjia avait raison à votre sujet, vous semblez être un champion en devenir!
 Oh, et s'il vous plaît, pardonnez son comportement. Vous comprendrez quand vous rencontrerez son père.
 Et, si vous continuez à vous battre comme ça, ce sera très bientôt.
 Alors, çe fut un plaisir, @playername@. #LIGHT_GREEN#*Elle disparaît dans une spirale de flammes*]], "_t")
-
 -- texte non traduit
 --[==[
-t("Gladiator's wares", "Gladiator's wares", "_t")
 t([[#LIGHT_GREEN#*A gigantic bone giant walks through the main gate.
 #LIGHT_GREEN#Its shape is intricate and sharp, resembling a drake, but with countless
 #LIGHT_GREEN#spikes instead of wings.
@@ -2241,7 +2251,7 @@ t("I ain't no chatting! Speak to the boss!", "I ain't no chatting! Speak to the 
 ------------------------------------------------
 section "mod-tome/data/chats/assassin-lord.lua"
 
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_assassin-lord")
 t("[attack]", "[attaquer]", "_t")
 -- texte non traduit
 --[==[
@@ -2264,6 +2274,64 @@ And do not think of crossing me.  That would be... unwise.]], "_t")
 t("Well, I suppose it is better than dying.", "Well, I suppose it is better than dying.", "_t")
 t("Money? I'm in!", "Money? I'm in!", "_t")
 t("Just let me and the merchant get out of here and you may live!", "Just let me and the merchant get out of here and you may live!", "_t")
+--]==]
+
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+
+------------------------------------------------
+section "mod-tome/data/chats/avatar-distant-sun-unlock.chat"
+
+
+-- nouveau texte
+--[==[
+t("Uhh, okay. Sure. Mind showing me?", "Uhh, okay. Sure. Mind showing me?", "chat")
+t([[<<<You feel a gentle warmth in your mind. Something speaks directly to your mind!>>>
+#YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], [[<<<You feel a gentle warmth in your mind. Something speaks directly to your mind!>>>
+#YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], "chat")
+t("I don't take unsolicited messages from... stars.", "I don't take unsolicited messages from... stars.", "chat")
+t("#YELLOW#YOU ONLY HAD TO ASK, MY FRIEND.", "#YELLOW#YOU ONLY HAD TO ASK, MY FRIEND.", "chat")
+t("#CRIMSON#[The area around you erupts in flames, burning your foes]", "#CRIMSON#[The area around you erupts in flames, burning your foes]", "chat")
+t("If you say so.", "If you say so.", "chat")
+t("Look, I appreciate the offer, but I don't know you.", "Look, I appreciate the offer, but I don't know you.", "chat")
+t("#YELLOW#DON'T BE LIKE THAT. I KNOW YOU ARE ON A NOBLE QUEST.", "#YELLOW#DON'T BE LIKE THAT. I KNOW YOU ARE ON A NOBLE QUEST.", "chat")
+t("I'm busy at the moment, so maybe call back another time?", "I'm busy at the moment, so maybe call back another time?", "chat")
+t("#YELLOW#I AM YOUR FRIEND. NOW YOU KNOW ME. LET US BEGIN A LONG AND FRUITFUL FRIENDSHIP.", "#YELLOW#I AM YOUR FRIEND. NOW YOU KNOW ME. LET US BEGIN A LONG AND FRUITFUL FRIENDSHIP.", "chat")
+t("#YELLOW#BUSY, YOU SAY? I CAN FIX THAT, LIKE ANY GOOD FRIEND WOULD.", "#YELLOW#BUSY, YOU SAY? I CAN FIX THAT, LIKE ANY GOOD FRIEND WOULD.", "chat")
+t("#YELLOW#YOU DON'T BELIEVE ME? THEN PLEASE, ALLOW ME TO SHOW YOU A MERE FRACTION OF MY POWER.", "#YELLOW#YOU DON'T BELIEVE ME? THEN PLEASE, ALLOW ME TO SHOW YOU A MERE FRACTION OF MY POWER.", "chat")
+--]==]
+
+
+------------------------------------------------
+section "mod-tome/data/chats/avatar-distant-sun.chat"
+
+
+-- nouveau texte
+--[==[
+t("#YELLOW#YOU ARE A CURIOUS ONE.", "#YELLOW#YOU ARE A CURIOUS ONE.", "chat")
+t("[...]", "[...]", "chat")
+t("#YELLOW#YOU HAVE MADE THE RIGHT CHOICE. TOGETHER, WE SHALL BRING ABOUT THE DESTRUCTION OF OUR ENEMIES.", "#YELLOW#YOU HAVE MADE THE RIGHT CHOICE. TOGETHER, WE SHALL BRING ABOUT THE DESTRUCTION OF OUR ENEMIES.", "chat")
+t("#GOLD#[you are now an Avatar of a Distant Sun]", "#GOLD#[you are now an Avatar of a Distant Sun]", "chat")
+t("Yes, give me your power!", "Yes, give me your power!", "chat")
+t([[<<<You feel the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
+#YELLOW#I AM HERE. DO YOU DESIRE TO SMITE EVIL, DESTROY THE DARKNESS AND SCOUR THE EARTH? I SHALL AID YOU IN THIS QUEST. TOGETHER, WE WILL BE UNSTOPPABLE. ALL DARKNESS SHALL BE CONSUMED BY OUR LIGHT.
+#LAST#]], [[<<<You feel the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
+#YELLOW#I AM HERE. DO YOU DESIRE TO SMITE EVIL, DESTROY THE DARKNESS AND SCOUR THE EARTH? I SHALL AID YOU IN THIS QUEST. TOGETHER, WE WILL BE UNSTOPPABLE. ALL DARKNESS SHALL BE CONSUMED BY OUR LIGHT.
+#LAST#]], "chat")
+t("Who... Who are you?", "Who... Who are you?", "chat")
+t("But what are you getting out of this?", "But what are you getting out of this?", "chat")
+t("That doesn't tell me anything.", "That doesn't tell me anything.", "chat")
+t("But how are you speaking to me?", "But how are you speaking to me?", "chat")
+t("#YELLOW#I AM YOUR FRIEND. IT IS GOOD TO HAVE FRIENDS, ISN'T IT?", "#YELLOW#I AM YOUR FRIEND. IT IS GOOD TO HAVE FRIENDS, ISN'T IT?", "chat")
+t("You still haven't told me who or what you are.", "You still haven't told me who or what you are.", "chat")
+t([[#YELLOW#YOU NEED NOT CONCERN YOURSELF WITH SUCH THINGS. I KNOW YOU CRAVE POWER. I KNOW THE WEIGHT OF THE WORLD IS ON YOUR SHOULDERS. SO, ACCEPT MY BOONS. ALLOW ME TO HELP YOU.
+]], [[#YELLOW#YOU NEED NOT CONCERN YOURSELF WITH SUCH THINGS. I KNOW YOU CRAVE POWER. I KNOW THE WEIGHT OF THE WORLD IS ON YOUR SHOULDERS. SO, ACCEPT MY BOONS. ALLOW ME TO HELP YOU.
+]], "chat")
+t("#YELLOW#I AM GETTING PLENTY OUT OF THIS.", "#YELLOW#I AM GETTING PLENTY OUT OF THIS.", "chat")
+t("#YELLOW#I TIRE OF YOUR NAGGING QUESTIONS. TALK, TALK, TALK. YOU HAVE A SIMPLE CHOICE BEFORE YOU. WILL YOU BECOME POWERFUL? OR WILL YOU BE WEAK AND ALONE?", "#YELLOW#I TIRE OF YOUR NAGGING QUESTIONS. TALK, TALK, TALK. YOU HAVE A SIMPLE CHOICE BEFORE YOU. WILL YOU BECOME POWERFUL? OR WILL YOU BE WEAK AND ALONE?", "chat")
+t("I don't trust you. Please go away.", "I don't trust you. Please go away.", "chat")
+t("#YELLOW#I HAVE LITTLE PATIENCE FOR TIME WASTERS. THIS SHALL BE THE LAST TIME WE SPEAK.", "#YELLOW#I HAVE LITTLE PATIENCE FOR TIME WASTERS. THIS SHALL BE THE LAST TIME WE SPEAK.", "chat")
+t("#GRAY#[prodigy point refunded]", "#GRAY#[prodigy point refunded]", "chat")
 --]==]
 
 
@@ -2402,6 +2470,11 @@ t("I am ready!", "I am ready!", "_t")
 section "mod-tome/data/chats/derth-attack-over.lua"
 
 
+-- nouveau texte
+--[==[
+t("I will!", "I will!", "chat_derth-attack-over")
+--]==]
+
 -- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*A Halfling comes forth from his hiding place.*#WHITE#
@@ -2420,7 +2493,6 @@ There are also those Zigur-something people that claim to fight magic. Why are t
 t("You mean the Ziguranth. That would be me.", "You mean the Ziguranth. That would be me.", "_t")
 t("I will not let you down.", "I will not let you down.", "_t")
 t("Well then please do something about this evil magic!", "Well then please do something about this evil magic!", "_t")
-t("I will!", "I will!", "_t")
 --]==]
 
 
@@ -2493,7 +2565,7 @@ t("Thank you, but I am weary of this life, I wish no more, please let me go.", "
 t([[It seems the threads of time and space have been disrupted...
 I will try to send you to safety.]], [[Il semble que les fils du temps et de l'espace aient été rompus...
 Je vais essayer de vous renvoyer en sécurité.]], "_t")
-t("Thanks.", "Merci.", "_t")
+t("Thanks.", "Merci.", "chat_eidolon-plane")
 t([[#LIGHT_GREEN#*It seems to stare at you in weird way.*#WHITE#
 I...had plans for you, but I cannot go against your free will. Know that you had a destiny waiting for you.
 Are you sure?]], [[#LIGHT_GREEN#*Il semble vous fixer de façon étrange.*#WHITE#
@@ -2510,6 +2582,8 @@ t("No actually, perhaps life is still worth it!", "Non, en fait, peut-être que 
 t("...", "...", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Thanks.", "Merci.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/elisa-orb-scrying.lua"
@@ -2616,7 +2690,7 @@ t("I know my mistakes and I intend to correct them. Please let me pass. I cannot
 ------------------------------------------------
 section "mod-tome/data/chats/gates-of-morning-main.lua"
 
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_gates-of-morning-main")
 -- texte non traduit
 --[==[
 t("What may I do for you?", "What may I do for you?", "_t")
@@ -2720,11 +2794,13 @@ t("Good luck.", "Good luck.", "_t")
 t("Aeryn gives you: %s", "Aeryn gives you: %s", "logPlayer")
 --]==]
 
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/gates-of-morning-welcome.lua"
 
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_gates-of-morning-welcome")
 -- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*Before you stands a beautiful woman clad in shining golden armour*#WHITE#
@@ -2748,6 +2824,8 @@ They roam the lands freely, ever assaulting us.
 t("Thank you, my lady.", "Thank you, my lady.", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/golbug-explains.lua"
@@ -2918,13 +2996,13 @@ t("Yes please, let me see your wares.", "Oui, s'il vous plaît, laissez-moi voir
 t("What about the unique object?", "Qu'en est-il de l'objet unique?", "_t")
 t("Ambush Trap?  Sounds useful.", "Un Piège à Embuscade? Ca pourrait être utile.", "_t")
 t("Smelly Toxin?  What kind of smell?", "Une Toxine Puante? Quelle sorte de puanteur?", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_last-hope-lost-merchant")
 t([[You know, I have asked here and there and it happens to be a very rare thing this contraption...
 But since you have saved me, I'm willing to part from it for only 3000 gold pieces, a real bargain!]], [[Vous savez, j'ai demandé ici et là et il se trouve que cet engin est très rare...
 Mais puisque vous m'avez sauvé, je suis prêt à m'en séparer pour seulement 3000 pièces d'or, une véritable aubaine!]], "_t")
 t("Expensive, but I will take it.", "C'est cher, mais je vais le prendre.", "_t")
 t("Nice doing business with you my friend. There you go!", "Ravi de faire des affaires avec toi, mon ami. Et voilà!", "_t")
-t("Thanks.", "Merci.", "_t")
+t("Thanks.", "Merci.", "chat_last-hope-lost-merchant")
 t([[Ungrol told me this substance contains some exceedingly rare components.
 "More Toxin than Medicine" he said.  Allas, he had not the funds to buy it.  On the other hand, because of our special relationship, I'm willing to let you have it #{italic}#at cost#{normal}# -- only 1500 gold pieces!]], [[Ungrol m'a dit que cette substance contient des composants extrêmement rares.
 "Plus de toxines que de médicaments", a-t-il dit. Allas, il n'avait pas les fonds pour l'acheter. D'un autre côté, en raison de notre relation spéciale, je suis prêt à vous la laisser #{italic}#au prix coûtant#{normal}# -- seulement 1500 pièces d'or!]], "_t")
@@ -2955,12 +3033,20 @@ t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
 t("Oh well, maybe later then.", "Eh bien, peut-être plus tard alors.", "_t")
 t("*This store does not appear to be open yet*", "*Ce magasin ne semble pas encore ouvert*", "_t")
 t("[leave]", "[partir]", "_t")
+-- nouveau texte
+--[==[
+t("Urthol's Wondrous Emporium", "Urthol's Wondrous Emporium", "_t")
+--]==]
+
 -- texte non traduit
 --[==[
 t(".", ".", "_t")
 t("...", "...", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Thanks.", "Merci.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/last-hope-melinda-father.lua"
@@ -2972,7 +3058,7 @@ t("[leave]", "[partir]", "_t")
 t("@playername@! My daughter's savior!", "@playername@! Le sauveur de ma fille!", "_t")
 t("Hi, I was just checking in to see if Melinda is all right.", "Bonjour, je venais juste voir si Melinda va bien.", "_t")
 t("Hi, I would like to talk to Melinda please.", "Bonjour, je voudrais parler à Melinda, s'il vous plaît.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_last-hope-melinda-father")
 t("Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "Veuillez prendre ceci. Ce n'est rien comparé à la vie de mon enfant. Oh, et elle voudrait vous remercier en personne; je vais l'appeller.", "_t")
 t("Thank you.", "Merci.", "_t")
 t("Melinda's father gives you: %s", "Le père de Melinda vous donne: %s", "logPlayer")
@@ -3048,6 +3134,8 @@ t("Then my lady, if you will follow me. #LIGHT_GREEN#[take her to the Fortress]"
 t("Melinda", "Melinda", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/last-hope-weapon-store.lua"
@@ -3055,13 +3143,15 @@ section "mod-tome/data/chats/last-hope-weapon-store.lua"
 t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("I am looking for martial training.", "Je suis à la recherche d'un entraînement martial.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_last-hope-weapon-store")
 t("I can indeed offer some martial training (talent category Technique/Combat-training) for a fee of 50 gold pieces; or the basic usage of bows and slings (Shoot talent) for 8 gold pieces.", "Je peux en effet proposer un entraînement martial (Technique/Formation au Combat) pour un montant de 50 pièces d'or ; ou l'utilisation de base des arcs et frondes (Talent Tirer) for 8 gold pieces.", "_t")
 t("Please train me in generic weapons and armour usage.", "Formez moi basiquement à l'utilisation des armes et armures s'il vous plait.", "_t")
 t("The smith spends some time with you, teaching you the basics of armour and weapon usage.", "Le forgeron passe un certain temps avec vous, vous apprenant les bases de l'utilisation des armes et armures.", "logPlayer")
 t("Please train me in the basic usage of bows and slings.", "Formez moi à l'utilisation de base des arcs et frondes s'il vous plait.", "_t")
 t("The smith spends some time with you, teaching you the basics of bows and slings.", "Le forgeron passe un peu de temps avec vous, vous apprenant les bases des arcs et frondes.", "logPlayer")
 t("No thanks.", "Non merci.", "_t")
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/limmir-valley-moon.lua"
@@ -3076,9 +3166,11 @@ section "mod-tome/data/chats/lost-merchant.lua"
 t([[Please save me! I will make it worth your whi..
 *#LIGHT_GREEN#The assassin lord hits him in the face.#WHITE#*Shut up!]], [[S'il vous plaît, sauvez-moi! Je vais faire en sorte que ça vaille la peine....
 *#LIGHT_GREEN#Le seigneur assassin le frappe au visage.#WHITE#*Tais toi!]], "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_lost-merchant")
 t("Please get me out of here!", "S'il vous plaît, sortez-moi de là!", "_t")
 t("Come, there is a way out!", "Venez, il y a une sortie!", "_t")
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/lumberjack-quest-done.lua"
@@ -3144,8 +3236,9 @@ t([[Ah yes! I am so glad! I will be able to go back to Angolwen now, and perhaps
 Please take this ring; it has served me well.]], [[Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolwen maintenant, et peut-être que nous nous y retrouverons.
 S'il vous plaît, prenez cette bague, elle m'a bien servi.]], "_t")
 t("Thanks, and best luck in your studies!", "Merci, et bonne chance dans vos études!", "_t")
--- nouveau texte
+-- texte non traduit
 --[==[
+t("...", "...", "_t")
 t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, I guess I can tell you; you deserve it for helping me.
 During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kar'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
 So she set a secret plan into action and built a secret place where magic would be kept alive.
@@ -3155,11 +3248,6 @@ During the dark years of the Spellhunt, many thousands of years ago, Linaniil, t
 So she set a secret plan into action and built a secret place where magic would be kept alive.
 Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
 Not many people are accepted there but I will arrange for you to be allowed inside.]], "_t")
---]==]
-
--- texte non traduit
---[==[
-t("...", "...", "_t")
 --]==]
 
 -- ancien texte traduit
@@ -3184,6 +3272,8 @@ t("This will cost you %d gold.", "Cela vous coûtera %d d'or.", "tformat")
 t("Welcome, @playername@, to my shop.", "Bienvenue, @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("I want to recharge some of my equipment.", "Je veux recharger une partie de mon équipement.", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_magic-store")
+-- ancien texte traduit
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
@@ -3545,7 +3635,7 @@ You are the master. You can use this place as you desire. However, most of the e
 To the south you will find the storage room.]], [[*#LIGHT_GREEN#La créature vous dévisage.#WHITE#*
 Vous êtes le maître. Vous pouvez utiliser ce lieu comme vous le souhaitez. Toutefois, la quasi-totalité de l'énergie est épuisée et seules quelques pièces sont utilisables.
 Au sud, vous trouverez la salle de stockage.]], "_t")
-t("Thanks.", "Merci.", "_t")
+t("Thanks.", "Merci.", "chat_shertul-fortress-butler")
 t([[This Fortress is designed as a mobile base for the Godslayers - it can fly.
 It is also equiped with various facilities: exploratory farportal, emergency containment field, remote storage, ...
 However, the Fortress is badly damaged and has lain dormant for too long. Its energies are nearly depleted.
@@ -3560,6 +3650,7 @@ t("I have already found such a chest in my travel. Will it work?", "J'ai déjà 
 t([[Yes, it will. I will attune it to this fortress.
 Done.]], [[Oui, il le fera. Je vais l'adapter à cette forteresse.
 C'est fait.]], "_t")
+t("Thanks.", "Merci.", "_t")
 t([[Long ago the Sher'tuls used farportals not only for transportation to known locations, but also to explore new parts of the world, or even other worlds.
 This Fortress is equipped with an exploratory farportal, and now has enough energy to allow one teleportation. Each teleportation will take you to a random part of the universe and use 45 energy.
 Beware that the return portal may not be nearby your arrival point; you will need to find it. You can use the rod of recall to try to force an emergency recall, but it has high chances of breaking the exploratory farportal forever.
@@ -3738,6 +3829,7 @@ t("This sounds strange. I need to think about it.", "Cela semble étrange. Je do
 ------------------------------------------------
 section "mod-tome/data/chats/sorcerer-end.lua"
 
+t("#LIGHT_GREEN#[slip peacefully into death.]", "#LIGHT_GREEN#[glisser paisiblement dans la mort.]", "_t")
 t([[#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#
 #LIGHT_GREEN#*Their bodies vanish in a small cloud of mist, quickly fading away.*#WHITE#
 #LIGHT_GREEN#*You feel the Way reaching out to you, the whole yeek race speaks to you.*#WHITE#
@@ -3773,7 +3865,6 @@ You were a precious ally and a friend. The world will remember your last act of 
 Vous étiez un allié précieux et un ami. Le monde se souviendra de votre dernier acte désintéressé. Je le jure.
 #LIGHT_GREEN#*En disant cela, elle transperce votre corps d'une puissante poussée de son épée, mettant ainsi fin aux plans de la Voie.*#WHITE#
 ]], "_t")
-t("#LIGHT_GREEN#[slip peacefully into death.]", "#LIGHT_GREEN#[glisser paisiblement dans la mort.]", "_t")
 t("sacrificing %s to stop the Way", "%s se sacrifie pour stopper la Voie", "tformat")
 t([[#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#
 #LIGHT_GREEN#*Their bodies vanish in a small cloud of mist, quickly fading away.*#WHITE#
@@ -3802,6 +3893,54 @@ t([[I cannot believe we succeeded. I was prepared to die and yet I live.
 I might have underestimated you. You did more than we could have hoped for!]], [[Je n'arrive pas à croire que nous ayons réussi. J'étais prêt à mourir et pourtant je vis.
 Je vous ai peut-être sous-estimé. Vous avez fait plus que ce que nous aurions pu espérer!]], "_t")
 t("We both did.", "Nous l'avons fait tous les deux.", "_t")
+-- nouveau texte
+--[==[
+t([[<<<The two Sorcerers lie dead before you.
+Their bodies vanish in a small cloud of mist, quickly fading away.
+You feel you the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
+#YELLOW#YOU HAVE DONE WELL %s! YOU DESERVE A REWARD!#LAST#
+<<<You can feel your mind filling with warmth and desire to serve your patron>>>
+#YELLOW#BUT YOU MUST DO ONE MORE TASK!#LAST#
+<<<The warmth in your head is getting intense, too intense. You feel your sanity burning away!>>>
+#YELLOW#THROW YOURSELF INTO THE PORTAL! OPEN THE WAY FOR MY POWER TO RADIATE OVER YOUR WORLD! #CRIMSON#DO IT!#LAST#
+<<<Those last words are compelling. You can not resist!>>>
+]], [[<<<The two Sorcerers lie dead before you.
+Their bodies vanish in a small cloud of mist, quickly fading away.
+You feel you the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
+#YELLOW#YOU HAVE DONE WELL %s! YOU DESERVE A REWARD!#LAST#
+<<<You can feel your mind filling with warmth and desire to serve your patron>>>
+#YELLOW#BUT YOU MUST DO ONE MORE TASK!#LAST#
+<<<The warmth in your head is getting intense, too intense. You feel your sanity burning away!>>>
+#YELLOW#THROW YOURSELF INTO THE PORTAL! OPEN THE WAY FOR MY POWER TO RADIATE OVER YOUR WORLD! #CRIMSON#DO IT!#LAST#
+<<<Those last words are compelling. You can not resist!>>>
+]], "tformat")
+t("#YELLOW#[sacrifice yourself to bring forth your patron to Eyal!]", "#YELLOW#[sacrifice yourself to bring forth your patron to Eyal!]", "_t")
+t("sacrificing %s to bring the fiery wrath of the Distant Sun", "sacrificing %s to bring the fiery wrath of the Distant Sun", "tformat")
+t("Nnnnnooo! Get.. get out of my head!", "Nnnnnooo! Get.. get out of my head!", "_t")
+t([[<<<The warmth in your mind turns into searing pain!>>>
+#CRIMSON#YOU WILL DO AS YOU ARE TOLD! YOU ARE MY TOOL AND I INTEND TO USE IT!
+]], [[<<<The warmth in your mind turns into searing pain!>>>
+#CRIMSON#YOU WILL DO AS YOU ARE TOLD! YOU ARE MY TOOL AND I INTEND TO USE IT!
+]], "_t")
+t("#LIGHT_GREEN#[sacrifice yourself to bring forth your patron to Eyal!]", "#LIGHT_GREEN#[sacrifice yourself to bring forth your patron to Eyal!]", "_t")
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "_t")
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, unsure how to stop it.]#WHITE##{bold}#NO!#{normal}#", "#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, unsure how to stop it.]#WHITE##{bold}#NO!#{normal}#", "_t")
+t([[<<<Through your mind Aeryn sees what the Distant Sun is planning.>>>
+You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.
+<<<As she says this she pierces your body with a mighty thrust of her sword, ending the plans of your mad patron.>>>
+]], [[<<<Through your mind Aeryn sees what the Distant Sun is planning.>>>
+You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.
+<<<As she says this she pierces your body with a mighty thrust of her sword, ending the plans of your mad patron.>>>
+]], "_t")
+t("sacrificing %s to stop the mad sun's plans", "sacrificing %s to stop the mad sun's plans", "tformat")
+t([[<<<The precious seconds fly by, but as you feel your mind breaking and burning you see a strange figure appearing in front of you, it radiates of immense power.>>>
+<<<The strange, amorphous figure in front of you remains completely silent. With a gesture of one of its tendrils, the staff is ripped from your hands. A surge of energy goes through the room as it grips the staff. Then you remember the old myth of the Godslayers. This is none other than a ***Sher'Tul***#{italic}#, and it knows you have been colluding with a god. That alone tells you everything you need to know.>>>
+]], [[<<<The precious seconds fly by, but as you feel your mind breaking and burning you see a strange figure appearing in front of you, it radiates of immense power.>>>
+<<<The strange, amorphous figure in front of you remains completely silent. With a gesture of one of its tendrils, the staff is ripped from your hands. A surge of energy goes through the room as it grips the staff. Then you remember the old myth of the Godslayers. This is none other than a ***Sher'Tul***#{italic}#, and it knows you have been colluding with a god. That alone tells you everything you need to know.>>>
+]], "_t")
+t("#CRIMSON#[Your mind is burnt by your patron sun! Fight for your sun god now!]", "#CRIMSON#[Your mind is burnt by your patron sun! Fight for your sun god now!]", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/data/chats/sorcerer-fight.lua"
@@ -4220,13 +4359,17 @@ t("Farewell. We are the Way, always.", "Adieu. Nous sommes la Voie, à jamais.",
 section "mod-tome/data/chats/zemekkys-done.lua"
 
 
+-- nouveau texte
+--[==[
+t("Whatever.", "Whatever.", "chat_zemekkys-done")
+--]==]
+
 -- texte non traduit
 --[==[
 t([[What? Ah, it is you, @playername@.
 I take it you are satisfied with the portal.]], [[What? Ah, it is you, @playername@.
 I take it you are satisfied with the portal.]], "_t")
 t("Yes, thank you.", "Yes, thank you.", "_t")
-t("Whatever.", "Whatever.", "_t")
 --]==]
 
 
@@ -4247,7 +4390,7 @@ t("I am sorry, but I cannot do that.", "I am sorry, but I cannot do that.", "_t"
 ------------------------------------------------
 section "mod-tome/data/chats/zemekkys.lua"
 
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_zemekkys")
 t("Thank you.", "Merci.", "_t")
 -- texte non traduit
 --[==[
@@ -4297,13 +4440,15 @@ Off we go to prepare the portal!]], "_t")
 t("[follow him]", "[follow him]", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/zigur-mindstar-store.lua"
 
 t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_zigur-mindstar-store")
 t("Just give me the basics (reveals locked talent category) - 100 gold.", "Donnez-moi juste les bases (révèle la catégorie de talent verrouillée) - 100 pièces d'or.", "_t")
 t("I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "Je suis déjà compétent, mais je veux devenir un expert (améliore la maîtrise des talents de 0.2) - 750 pièces d'or.", "_t")
 t("No thanks.", "Non merci.", "_t")
@@ -4320,6 +4465,8 @@ t("The shopkeeper spends a great deal of time going over the finer details of ch
 t(", and teaches you enhanced mental discipline needed to maintain powerful energy fields", ", and teaches you enhanced mental discipline needed to maintain powerful energy fields", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/zigur-trainer.lua"
@@ -4403,173 +4550,6 @@ section "mod-tome/data/damage_types.lua"
 t("Something", "Quelque chose", "_t")
 t("cosmetic", "cosmétique", "damage type")
 t("physical", "physique", "damage type")
--- nouveau texte
---[==[
-t("%s(%d abyssal shield)#LAST#", "%s(%d abyssal shield)#LAST#", "tformat")
-t("arcane", "arcane", "damage type")
-t("fire", "fire", "damage type")
-t("cold", "cold", "damage type")
-t("lightning", "lightning", "damage type")
-t("acid", "acid", "damage type")
-t("nature", "nature", "damage type")
-t("blight", "blight", "damage type")
-t("light", "light", "damage type")
-t("darkness", "darkness", "damage type")
-t("mind", "mind", "damage type")
-t("winter", "winter", "damage type")
-t("temporal", "temporal", "damage type")
-t("temporal stun", "temporal stun", "damage type")
-t("lite", "lite", "damage type")
-t("illumination", "illumination", "damage type")
-t("silence", "silence", "damage type")
-t("arcane silence", "arcane silence", "damage type")
-t("blindness", "blindness", "damage type")
-t("blinding ink", "blinding ink", "damage type")
-t("bright light", "bright light", "damage type")
-t("fire burn", "fire burn", "damage type")
-t("stunning fire", "stunning fire", "damage type")
-t("devouring flames", "devouring flames", "damage type")
-t("shadowflame", "shadowflame", "damage type")
-t("stunning darkness", "stunning darkness", "damage type")
-t("flameshock", "flameshock", "damage type")
-t("ice", "ice", "damage type")
-t("slowing ice", "slowing ice", "damage type")
-t("ice storm", "ice storm", "damage type")
-t("glacial vapour", "glacial vapour", "damage type")
-t("pinning cold", "pinning cold", "damage type")
-t("freeze", "freeze", "damage type")
-t("sticky smoke", "sticky smoke", "damage type")
-t("acid blind", "acid blind", "damage type")
-t("blinding darkness", "blinding darkness", "damage type")
-t("blinding light", "blinding light", "damage type")
-t("dazing lightning", "dazing lightning", "damage type")
-t("cold repulsion", "cold repulsion", "damage type")
-t("bloodspring", "bloodspring", "damage type")
-t("fire repulsion", "fire repulsion", "damage type")
-t("burning repulsion", "burning repulsion", "damage type")
-t("darkness repulsion", "darkness repulsion", "damage type")
-t("physical repulsion", "physical repulsion", "damage type")
-t("fear repulsion", "fear repulsion", "damage type")
-t("poison", "poison", "damage type")
-t("cleansing fire", "cleansing fire", "damage type")
-t("spydric poison", "spydric poison", "damage type")
-t("crippling poison", "crippling poison", "damage type")
-t("insidious poison", "insidious poison", "damage type")
-t("bleed", "bleed", "damage type")
-t("physical bleed", "physical bleed", "damage type")
-t("nature slow", "nature slow", "damage type")
-t("dig", "dig", "damage type")
-t("slow", "slow", "damage type")
-t("congeal time", "congeal time", "damage type")
-t("time prison", "time prison", "damage type")
-t("confusion", "confusion", "damage type")
-t("% chance of confusion", "% chance of confusion", "damage type")
-t("% chance of gloom effects", "% chance of gloom effects", "damage type")
-t("item darkness numbing", "item darkness numbing", "damage type")
-t("item expose", "item expose", "damage type")
-t("item temporal energize", "item temporal energize", "damage type")
-t("item acid corrode", "item acid corrode", "damage type")
-t("item blight disease", "item blight disease", "damage type")
-t("item manaburn arcane", "item manaburn arcane", "damage type")
-t("item nature slow", "item nature slow", "damage type")
-t("item antimagic scouring", "item antimagic scouring", "damage type")
-t("item lightning daze", "item lightning daze", "damage type")
-t("item light blind", "item light blind", "damage type")
-t("item mind gloom", "item mind gloom", "damage type")
-t("blinding", "blinding", "damage type")
-t("blinding physical", "blinding physical", "damage type")
-t("physical pinning", "physical pinning", "damage type")
-t("regressive blight", "regressive blight", "damage type")
-t("draining blight", "draining blight", "damage type")
-t("sanguine blight", "sanguine blight", "damage type")
-t("vim draining blight", "vim draining blight", "damage type")
-t("demonfire", "demonfire", "damage type")
-t("purging blight", "purging blight", "damage type")
-t("holy light", "holy light", "damage type")
-t("healing", "healing", "damage type")
-t("healing light", "healing light", "damage type")
-t("judgement", "judgement", "damage type")
-t("healing nature", "healing nature", "damage type")
-t("infective blight", "infective blight", "damage type")
-t("hindering blight", "hindering blight", "damage type")
-t("life leech", "life leech", "damage type")
-t("physical stun", "physical stun", "damage type")
-t("warp", "warp", "damage type")
-t("temporal darkness", "temporal darkness", "damage type")
-t("gravity", "gravity", "damage type")
-t("gravity pin", "gravity pin", "damage type")
-t("grow", "grow", "damage type")
-t("pinning nature", "pinning nature", "damage type")
-t("impeding nature", "impeding nature", "damage type")
-t("confounding nature", "confounding nature", "damage type")
-t("sanctity", "sanctity", "damage type")
-t("defensive darkness", "defensive darkness", "damage type")
-t("blazing light", "blazing light", "damage type")
-t("prismatic repulsion", "prismatic repulsion", "damage type")
-t("mind slow", "mind slow", "damage type")
-t("mind freeze", "mind freeze", "damage type")
-t("implosion", "implosion", "damage type")
-t("regressive temporal", "regressive temporal", "damage type")
-t("wasting temporal", "wasting temporal", "damage type")
-t("stop", "stop", "damage type")
-t("debilitating temporal", "debilitating temporal", "damage type")
-t("draining physical", "draining physical", "damage type")
-t("temporal slow", "temporal slow", "damage type")
-t("molten rock", "molten rock", "damage type")
-t("entangle", "entangle", "damage type")
-t("manaworm arcane", "manaworm arcane", "damage type")
-t("arcane blast", "arcane blast", "damage type")
-t("circle of death", "circle of death", "damage type")
-t("decaying darkness", "decaying darkness", "damage type")
-t("abyssal darkness", "abyssal darkness", "damage type")
-t("% chance to summon an orc spirit", "% chance to summon an orc spirit", "damage type")
-t("nightmare", "nightmare", "damage type")
-t("cursed miasma", "cursed miasma", "damage type")
-t("weakness", "weakness", "damage type")
-t("special effect", "special effect", "damage type")
-t("manaburn arcane", "manaburn arcane", "damage type")
-t("leaves", "leaves", "damage type")
-t("distorting physical", "distorting physical", "damage type")
-t("dreamforge", "dreamforge", "damage type")
-t("natural mucus", "natural mucus", "damage type")
-t("disarming acid", "disarming acid", "damage type")
-t("corrosive acid", "corrosive acid", "damage type")
-t("bouncing slime", "bouncing slime", "damage type")
-t("caustic mire", "caustic mire", "damage type")
-t("sun path", "sun path", "damage type")
-t("telekinetic shove", "telekinetic shove", "damage type")
-t("dimensional anchor", "dimensional anchor", "damage type")
-t("phase pulse", "phase pulse", "damage type")
-t("brain storm", "brain storm", "damage type")
-t("static net", "static net", "damage type")
-t("wormblight", "wormblight", "damage type")
-t("pestilent blight", "pestilent blight", "damage type")
-t("blight poison", "blight poison", "damage type")
-t("terror", "terror", "damage type")
-t("random poison", "random poison", "damage type")
-t("blinding powder", "blinding powder", "damage type")
-t("smokescreen", "smokescreen", "damage type")
-t("flare", "flare", "damage type")
-t("flare light", "flare light", "damage type")
-t("sticky pitch", "sticky pitch", "damage type")
-t("fire sunder", "fire sunder", "damage type")
-t("shadow smoke", "shadow smoke", "damage type")
-t("frozen earth", "frozen earth", "damage type")
-t("void echoes", "void echoes", "damage type")
-t("#YELLOW#Lite Light#LAST# Burst (radius 1)", "#YELLOW#Lite Light#LAST# Burst (radius 1)", "damage type")
-t("dark light", "dark light", "damage type")
-t("meteor", "meteor", "damage type")
-t("fetid", "fetid", "damage type")
-t("frostdusk", "frostdusk", "damage type")
-t("chill of the tomb", "chill of the tomb", "damage type")
-t("putrescent liquefaction", "putrescent liquefaction", "damage type")
-t("boneyard", "boneyard", "damage type")
-t("desolate waste", "desolate waste", "damage type")
-t("thaumic energy", "thaumic energy", "damage type")
-t("black-hole gravity", "black-hole gravity", "damage type")
-t("solar blood", "solar blood", "damage type")
---]==]
-
 -- texte non traduit
 --[==[
 t("%s(%d warded)#LAST#", "%s(%d warded)#LAST#", "tformat")
@@ -4577,6 +4557,7 @@ t("#Source# strikes #Target# in the darkness (%+d%%%%%%%% damage).", "#Source# s
 t("%s forces the iceblock to shatter.", "%s forces the iceblock to shatter.", "logSeen")
 t("%s(%d to psi shield)#LAST#", "%s(%d to psi shield)#LAST#", "tformat")
 t("%s(%d blocked)#LAST#", "%s(%d blocked)#LAST#", "tformat")
+t("%s(%d abyssal shield)#LAST#", "%s(%d abyssal shield)#LAST#", "tformat")
 t("%s(%d antimagic)#LAST#", "%s(%d antimagic)#LAST#", "tformat")
 t("%s(%d flat reduction)#LAST#", "%s(%d flat reduction)#LAST#", "tformat")
 t("You end your target with a crushing blow!", "You end your target with a crushing blow!", "logPlayer")
@@ -4616,11 +4597,13 @@ t("minced", "minced", "_t")
 t("punctured", "punctured", "_t")
 t("hacked apart", "hacked apart", "_t")
 t("eviscerated", "eviscerated", "_t")
+t("arcane", "arcane", "damage type")
 t("blasted", "blasted", "_t")
 t("energised", "energised", "_t")
 t("mana-torn", "mana-torn", "_t")
 t("dweomered", "dweomered", "_t")
 t("imploded", "imploded", "_t")
+t("fire", "fire", "damage type")
 t("burnt", "burnt", "_t")
 t("scorched", "scorched", "_t")
 t("blazed", "blazed", "_t")
@@ -4631,25 +4614,30 @@ t("combusted", "combusted", "_t")
 t("toasted", "toasted", "_t")
 t("slowly cooked", "slowly cooked", "_t")
 t("boiled", "boiled", "_t")
+t("cold", "cold", "damage type")
 t("frozen", "frozen", "_t")
 t("chilled", "chilled", "_t")
 t("iced", "iced", "_t")
 t("cooled", "cooled", "_t")
 t("frozen and shattered into a million little shards", "frozen and shattered into a million little shards", "_t")
+t("lightning", "lightning", "damage type")
 t("electrocuted", "electrocuted", "_t")
 t("shocked", "shocked", "_t")
 t("bolted", "bolted", "_t")
 t("volted", "volted", "_t")
 t("amped", "amped", "_t")
 t("zapped", "zapped", "_t")
+t("acid", "acid", "damage type")
 t("dissolved", "dissolved", "_t")
 t("corroded", "corroded", "_t")
 t("scalded", "scalded", "_t")
 t("melted", "melted", "_t")
+t("nature", "nature", "damage type")
 t("slimed", "slimed", "_t")
 t("splurged", "splurged", "_t")
 t("treehugged", "treehugged", "_t")
 t("naturalised", "naturalised", "_t")
+t("blight", "blight", "damage type")
 t("diseased", "diseased", "_t")
 t("poxed", "poxed", "_t")
 t("infected", "infected", "_t")
@@ -4657,18 +4645,23 @@ t("plagued", "plagued", "_t")
 t("debilitated by noxious blight before falling", "debilitated by noxious blight before falling", "_t")
 t("fouled", "fouled", "_t")
 t("tainted", "tainted", "_t")
+t("light", "light", "damage type")
 t("radiated", "radiated", "_t")
 t("seared", "seared", "_t")
 t("purified", "purified", "_t")
 t("sun baked", "sun baked", "_t")
 t("jerkied", "jerkied", "_t")
 t("tanned", "tanned", "_t")
+t("darkness", "darkness", "damage type")
 t("shadowed", "shadowed", "_t")
 t("darkened", "darkened", "_t")
 t("swallowed by the void", "swallowed by the void", "_t")
+t("mind", "mind", "damage type")
 t("psyched", "psyched", "_t")
 t("mentally tortured", "mentally tortured", "_t")
 t("mindraped", "mindraped", "_t")
+t("winter", "winter", "damage type")
+t("temporal", "temporal", "damage type")
 t("timewarped", "timewarped", "_t")
 t("temporally distorted", "temporally distorted", "_t")
 t("spaghettified across the whole of space and time", "spaghettified across the whole of space and time", "_t")
@@ -4676,75 +4669,225 @@ t("paradoxed", "paradoxed", "_t")
 t("replaced by a time clone (and no one ever knew the difference)", "replaced by a time clone (and no one ever knew the difference)", "_t")
 t("grandfathered", "grandfathered", "_t")
 t("time dilated", "time dilated", "_t")
+t("temporal stun", "temporal stun", "damage type")
 t("%s resists the stun!", "%s resists the stun!", "logSeen")
+t("lite", "lite", "damage type")
+t("illumination", "illumination", "damage type")
+t("silence", "silence", "damage type")
 t("%s resists the silence!", "%s resists the silence!", "logSeen")
+t("arcane silence", "arcane silence", "damage type")
 t("%s resists!", "%s resists!", "logSeen")
+t("blindness", "blindness", "damage type")
 t("%s resists the blinding light!", "%s resists the blinding light!", "logSeen")
+t("blinding ink", "blinding ink", "damage type")
 t("%s avoids the blinding ink!", "%s avoids the blinding ink!", "logSeen")
+t("bright light", "bright light", "damage type")
+t("fire burn", "fire burn", "damage type")
+t("stunning fire", "stunning fire", "damage type")
+t("devouring flames", "devouring flames", "damage type")
 t("#Source# drains life from #Target#!", "#Source# drains life from #Target#!", "logCombat")
+t("shadowflame", "shadowflame", "damage type")
+t("stunning darkness", "stunning darkness", "damage type")
 t("%s resists the darkness!", "%s resists the darkness!", "logSeen")
+t("flameshock", "flameshock", "damage type")
 t("%s resists the searing flame!", "%s resists the searing flame!", "logSeen")
+t("ice", "ice", "damage type")
+t("slowing ice", "slowing ice", "damage type")
+t("ice storm", "ice storm", "damage type")
+t("glacial vapour", "glacial vapour", "damage type")
+t("pinning cold", "pinning cold", "damage type")
+t("freeze", "freeze", "damage type")
 t("Frozen!", "Frozen!", "_t")
 t("Resist!", "Resist!", "_t")
+t("sticky smoke", "sticky smoke", "damage type")
+t("acid blind", "acid blind", "damage type")
+t("blinding darkness", "blinding darkness", "damage type")
+t("blinding light", "blinding light", "damage type")
+t("dazing lightning", "dazing lightning", "damage type")
+t("cold repulsion", "cold repulsion", "damage type")
 t("%s is knocked back!", "%s is knocked back!", "logSeen")
 t("%s resists the wave!", "%s resists the wave!", "logSeen")
+t("bloodspring", "bloodspring", "damage type")
 t("%s resists the bloody wave!", "%s resists the bloody wave!", "logSeen")
+t("fire repulsion", "fire repulsion", "damage type")
 t("%s resists the punch!", "%s resists the punch!", "logSeen")
+t("burning repulsion", "burning repulsion", "damage type")
+t("darkness repulsion", "darkness repulsion", "damage type")
+t("physical repulsion", "physical repulsion", "damage type")
 t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
+t("fear repulsion", "fear repulsion", "damage type")
 t("%s resists the frightening sight!", "%s resists the frightening sight!", "logSeen")
+t("poison", "poison", "damage type")
+t("cleansing fire", "cleansing fire", "damage type")
+t("spydric poison", "spydric poison", "damage type")
+t("crippling poison", "crippling poison", "damage type")
+t("insidious poison", "insidious poison", "damage type")
+t("bleed", "bleed", "damage type")
+t("physical bleed", "physical bleed", "damage type")
+t("nature slow", "nature slow", "damage type")
+t("dig", "dig", "damage type")
 t("%s turns into %s.", "%s turns into %s.", "logSeen")
+t("slow", "slow", "damage type")
+t("congeal time", "congeal time", "damage type")
+t("time prison", "time prison", "damage type")
 t("%s resists the time prison.", "%s resists the time prison.", "logSeen")
+t("confusion", "confusion", "damage type")
+t("% chance of confusion", "% chance of confusion", "damage type")
+t("% chance of gloom effects", "% chance of gloom effects", "damage type")
+t("item darkness numbing", "item darkness numbing", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "tformat")
+t("item expose", "item expose", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "tformat")
+t("item temporal energize", "item temporal energize", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "tformat")
 t("#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "logSeen")
+t("item acid corrode", "item acid corrode", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "tformat")
+t("item blight disease", "item blight disease", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "tformat")
+t("item manaburn arcane", "item manaburn arcane", "damage type")
 t("* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "tformat")
+t("item nature slow", "item nature slow", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to slow global speed by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to slow global speed by #YELLOW#%d%%#LAST#%s", "tformat")
+t("item antimagic scouring", "item antimagic scouring", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to #ORCHID#reduce effective powers#LAST# by %d%%%s", "* #LIGHT_GREEN#%d%%#LAST# chance to #ORCHID#reduce effective powers#LAST# by %d%%%s", "tformat")
+t("item lightning daze", "item lightning daze", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to #ROYAL_BLUE#daze#LAST# at end of turn%s", "* #LIGHT_GREEN#%d%%#LAST# chance to #ROYAL_BLUE#daze#LAST# at end of turn%s", "tformat")
+t("item light blind", "item light blind", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to #YELLOW#blind#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to #YELLOW#blind#LAST#%s", "tformat")
+t("item mind gloom", "item mind gloom", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #YELLOW#random gloom#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to cause #YELLOW#random gloom#LAST#%s", "tformat")
 t("confusion", "confusion", "_t")
 t("stun", "stun", "_t")
 t("slow'", "slow'", "_t")
+t("blinding", "blinding", "damage type")
 t("%s resists the blind!", "%s resists the blind!", "logSeen")
+t("blinding physical", "blinding physical", "damage type")
 t("%s resists the sandstorm!", "%s resists the sandstorm!", "logSeen")
+t("physical pinning", "physical pinning", "damage type")
 t("%s resists the pin!", "%s resists the pin!", "logSeen")
+t("regressive blight", "regressive blight", "damage type")
 t("#Source# drains experience from #Target#!", "#Source# drains experience from #Target#!", "logCombat")
+t("draining blight", "draining blight", "damage type")
+t("sanguine blight", "sanguine blight", "damage type")
+t("vim draining blight", "vim draining blight", "damage type")
+t("demonfire", "demonfire", "damage type")
+t("purging blight", "purging blight", "damage type")
+t("holy light", "holy light", "damage type")
+t("healing", "healing", "damage type")
+t("healing light", "healing light", "damage type")
 t("#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "logPlayer")
+t("judgement", "judgement", "damage type")
+t("healing nature", "healing nature", "damage type")
+t("infective blight", "infective blight", "damage type")
+t("hindering blight", "hindering blight", "damage type")
+t("life leech", "life leech", "damage type")
+t("physical stun", "physical stun", "damage type")
+t("warp", "warp", "damage type")
+t("temporal darkness", "temporal darkness", "damage type")
+t("gravity", "gravity", "damage type")
+t("gravity pin", "gravity pin", "damage type")
+t("grow", "grow", "damage type")
+t("pinning nature", "pinning nature", "damage type")
 t("%s resists the pinning!", "%s resists the pinning!", "logSeen")
+t("impeding nature", "impeding nature", "damage type")
+t("confounding nature", "confounding nature", "damage type")
 t("%s resists the confusion!", "%s resists the confusion!", "logSeen")
+t("sanctity", "sanctity", "damage type")
+t("defensive darkness", "defensive darkness", "damage type")
+t("blazing light", "blazing light", "damage type")
+t("prismatic repulsion", "prismatic repulsion", "damage type")
+t("mind slow", "mind slow", "damage type")
+t("mind freeze", "mind freeze", "damage type")
 t("%s resists the freezing!", "%s resists the freezing!", "logSeen")
+t("implosion", "implosion", "damage type")
+t("regressive temporal", "regressive temporal", "damage type")
+t("wasting temporal", "wasting temporal", "damage type")
+t("stop", "stop", "damage type")
 t("%s has not been stopped!", "%s has not been stopped!", "logSeen")
+t("debilitating temporal", "debilitating temporal", "damage type")
 t("%s resists the blindness!", "%s resists the blindness!", "logSeen")
+t("draining physical", "draining physical", "damage type")
 t("#Source# consumes %d life from #Target#!", "#Source# consumes %d life from #Target#!", "logCombat")
+t("temporal slow", "temporal slow", "damage type")
+t("molten rock", "molten rock", "damage type")
+t("entangle", "entangle", "damage type")
 t("%s resists entanglement!", "%s resists entanglement!", "logSeen")
+t("manaworm arcane", "manaworm arcane", "damage type")
 t("%s has no mana to burn.", "%s has no mana to burn.", "logSeen")
+t("arcane blast", "arcane blast", "damage type")
+t("circle of death", "circle of death", "damage type")
 t("%s resists the baneful energy!", "%s resists the baneful energy!", "logSeen")
+t("decaying darkness", "decaying darkness", "damage type")
+t("abyssal darkness", "abyssal darkness", "damage type")
+t("% chance to summon an orc spirit", "% chance to summon an orc spirit", "damage type")
 t("%s<%d%%%% orc summon chance>#LAST#", "%s<%d%%%% orc summon chance>#LAST#", "tformat")
 t("%s<orc summon>#LAST#", "%s<orc summon>#LAST#", "tformat")
 t("orc spirit", "orc spirit", "_t")
 t("An orc clad in massive armour, wielding a huge axe.", "An orc clad in massive armour, wielding a huge axe.", "_t")
 t("Garkul Spirit", "Garkul Spirit", "_t")
+t("nightmare", "nightmare", "damage type")
+t("cursed miasma", "cursed miasma", "damage type")
+t("weakness", "weakness", "damage type")
+t("special effect", "special effect", "damage type")
+t("manaburn arcane", "manaburn arcane", "damage type")
+t("leaves", "leaves", "damage type")
+t("distorting physical", "distorting physical", "damage type")
+t("dreamforge", "dreamforge", "damage type")
 t("%s resists the forge bellow!", "%s resists the forge bellow!", "logSeen")
 t("%s resists the dream forge!", "%s resists the dream forge!", "logSeen")
+t("natural mucus", "natural mucus", "damage type")
+t("disarming acid", "disarming acid", "damage type")
 t("%s resists disarming!", "%s resists disarming!", "logSeen")
+t("corrosive acid", "corrosive acid", "damage type")
+t("bouncing slime", "bouncing slime", "damage type")
+t("caustic mire", "caustic mire", "damage type")
+t("sun path", "sun path", "damage type")
+t("telekinetic shove", "telekinetic shove", "damage type")
 t("%s resists pinning!", "%s resists pinning!", "logSeen")
 t("%s resists the shove!", "%s resists the shove!", "logSeen")
+t("dimensional anchor", "dimensional anchor", "damage type")
+t("phase pulse", "phase pulse", "damage type")
+t("brain storm", "brain storm", "damage type")
 t("%s resists the mind attack!", "%s resists the mind attack!", "logSeen")
+t("static net", "static net", "damage type")
+t("wormblight", "wormblight", "damage type")
+t("pestilent blight", "pestilent blight", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "tformat")
+t("blight poison", "blight poison", "damage type")
+t("terror", "terror", "damage type")
 t("%s<terror chance>#LAST#", "%s<terror chance>#LAST#", "tformat")
+t("random poison", "random poison", "damage type")
+t("blinding powder", "blinding powder", "damage type")
 t("%s<blinding powder>#LAST#", "%s<blinding powder>#LAST#", "tformat")
+t("smokescreen", "smokescreen", "damage type")
 t("%s<smoke>#LAST#", "%s<smoke>#LAST#", "tformat")
+t("flare", "flare", "damage type")
 t("%s resists the blinding flare!", "%s resists the blinding flare!", "logSeen")
+t("flare light", "flare light", "damage type")
+t("sticky pitch", "sticky pitch", "damage type")
+t("fire sunder", "fire sunder", "damage type")
+t("shadow smoke", "shadow smoke", "damage type")
+t("frozen earth", "frozen earth", "damage type")
+t("void echoes", "void echoes", "damage type")
 t("%s resists the void!", "%s resists the void!", "logSeen")
+t("#YELLOW#Lite Light#LAST# Burst (radius 1)", "#YELLOW#Lite Light#LAST# Burst (radius 1)", "damage type")
+t("dark light", "dark light", "damage type")
+t("meteor", "meteor", "damage type")
+t("fetid", "fetid", "damage type")
+t("frostdusk", "frostdusk", "damage type")
+t("chill of the tomb", "chill of the tomb", "damage type")
+t("putrescent liquefaction", "putrescent liquefaction", "damage type")
+t("boneyard", "boneyard", "damage type")
+t("desolate waste", "desolate waste", "damage type")
+t("thaumic energy", "thaumic energy", "damage type")
 t("utterly vaporized", "utterly vaporized", "_t")
 t("annihilated", "annihilated", "_t")
 t("disintegrated", "disintegrated", "_t")
+t("black-hole gravity", "black-hole gravity", "damage type")
 t("%s is pulled in!", "%s is pulled in!", "logSeen")
 t("%s resists the gravity!", "%s resists the gravity!", "logSeen")
+t("solar blood", "solar blood", "damage type")
 --]==]
 
 -- ancien texte traduit
@@ -4953,8 +5096,8 @@ t("ladder back to %s", "ladder back to %s", "_t")
 ------------------------------------------------
 section "mod-tome/data/general/events/fearscape-portal.lua"
 
+t("Quit", "Quitter", "dialog_portal")
 t("Destroy", "Détruire", "_t")
-t("Quit", "Quitter", "_t")
 -- texte non traduit
 --[==[
 t("portal back to %s", "portal back to %s", "tformat")
@@ -4972,6 +5115,8 @@ t("Enter", "Enter", "_t")
 t("#VIOLET#A demon steps out of the %s!", "#VIOLET#A demon steps out of the %s!", "logSeen")
 --]==]
 
+-- ancien texte traduit
+t("Quit", "Quitter", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/fell-aura.lua"
@@ -5031,8 +5176,8 @@ t("As you walk you notice a huge rock falling from the sky. It crashes right nea
 ------------------------------------------------
 section "mod-tome/data/general/events/naga-portal.lua"
 
+t("Quit", "Quitter", "dialog_portal")
 t("Destroy", "Détruire", "_t")
-t("Quit", "Quitter", "_t")
 -- texte non traduit
 --[==[
 t("coral invasion portal", "coral invasion portal", "_t")
@@ -5050,6 +5195,8 @@ t("Enter", "Enter", "_t")
 t("#VIOLET#A naga steps out of the %s!", "#VIOLET#A naga steps out of the %s!", "logSeen")
 --]==]
 
+-- ancien texte traduit
+t("Quit", "Quitter", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/necrotic-air.lua"
@@ -9141,11 +9288,6 @@ t("imbued", "imbued", "entity keyword")
 section "mod-tome/data/general/objects/egos/torques-powers.lua"
 
 
--- nouveau texte
---[==[
-t("project a gust of wind in a cone knocking all creatures back %d spaces and dealing %d physical damage", "project a gust of wind in a cone knocking all creatures back %d spaces and dealing %d physical damage", "tformat")
---]==]
-
 -- texte non traduit
 --[==[
 t(" of psionic shield", " of psionic shield", "entity name")
@@ -9157,6 +9299,7 @@ t("clearmind", "clearmind", "entity keyword")
 t("remove 1 confusion or silence effect and prevent the application of %d detrimental mental effects for 5 turns", "remove 1 confusion or silence effect and prevent the application of %d detrimental mental effects for 5 turns", "_t")
 t(" of gale force", " of gale force", "entity name")
 t("galeforce", "galeforce", "entity keyword")
+t("project a gust of wind in a cone knocking all creatures back %d spaces and dealing %d physical damage", "project a gust of wind in a cone knocking all creatures back %d spaces and dealing %d physical damage", "tformat")
 t("%s uses %s %s!", "%s uses %s %s!", "logSeen")
 t(" of mindblast", " of mindblast", "entity name")
 t("mindblast", "mindblast", "entity keyword")
@@ -9557,15 +9700,24 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/gem.lua"
 
 
--- nouveau texte
+-- texte non traduit
 --[==[
+t("gem", "gem", "entity type")
+t("white", "white", "entity subtype")
+t("Gems can be sold for money or used in arcane rituals.", "Gems can be sold for money or used in arcane rituals.", "_t")
+t("color", "color", "entity subtype")
+t("..", "..", "entity name")
+t("alchemist-gem", "alchemist-gem", "entity type")
 t("diamond", "diamond", "entity name")
 t("alchemist diamond", "alchemist diamond", "entity name")
 t("pearl", "pearl", "entity name")
 t("alchemist pearl", "alchemist pearl", "entity name")
+t("Lights terrain (power 100)", "Lights terrain (power 100)", "_t")
+t("moonstone", "moonstone", "entity name")
 t("alchemist moonstone", "alchemist moonstone", "entity name")
 t("fire opal", "fire opal", "entity name")
 t("alchemist fire opal", "alchemist fire opal", "entity name")
+t("red", "red", "entity subtype")
 t("bloodstone", "bloodstone", "entity name")
 t("alchemist bloodstone", "alchemist bloodstone", "entity name")
 t("ruby", "ruby", "entity name")
@@ -9575,10 +9727,13 @@ t("alchemist amber", "alchemist amber", "entity name")
 t("yellow", "yellow", "entity subtype")
 t("turquoise", "turquoise", "entity name")
 t("alchemist turquoise", "alchemist turquoise", "entity name")
+t("green", "green", "entity subtype")
 t("jade", "jade", "entity name")
 t("alchemist jade", "alchemist jade", "entity name")
+t("Slows by 17%", "Slows by 17%", "_t")
 t("sapphire", "sapphire", "entity name")
 t("alchemist sapphire", "alchemist sapphire", "entity name")
+t("blue", "blue", "entity subtype")
 t("quartz", "quartz", "entity name")
 t("alchemist quartz", "alchemist quartz", "entity name")
 t("emerald", "emerald", "entity name")
@@ -9601,6 +9756,7 @@ t("aquamarine", "aquamarine", "entity name")
 t("alchemist aquamarine", "alchemist aquamarine", "entity name")
 t("ametrine", "ametrine", "entity name")
 t("alchemist ametrine", "alchemist ametrine", "entity name")
+t("Lights terrain (power 10)", "Lights terrain (power 10)", "_t")
 t("zircon", "zircon", "entity name")
 t("alchemist zircon", "alchemist zircon", "entity name")
 t("spinel", "spinel", "entity name")
@@ -9609,23 +9765,6 @@ t("citrine", "citrine", "entity name")
 t("alchemist citrine", "alchemist citrine", "entity name")
 t("agate", "agate", "entity name")
 t("alchemist agate", "alchemist agate", "entity name")
---]==]
-
--- texte non traduit
---[==[
-t("gem", "gem", "entity type")
-t("white", "white", "entity subtype")
-t("Gems can be sold for money or used in arcane rituals.", "Gems can be sold for money or used in arcane rituals.", "_t")
-t("color", "color", "entity subtype")
-t("..", "..", "entity name")
-t("alchemist-gem", "alchemist-gem", "entity type")
-t("Lights terrain (power 100)", "Lights terrain (power 100)", "_t")
-t("moonstone", "moonstone", "entity name")
-t("red", "red", "entity subtype")
-t("green", "green", "entity subtype")
-t("Slows by 17%", "Slows by 17%", "_t")
-t("blue", "blue", "entity subtype")
-t("Lights terrain (power 10)", "Lights terrain (power 10)", "_t")
 --]==]
 
 
@@ -11093,11 +11232,6 @@ t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as thi
 t("Summertide", "Eté", "entity name")
 t("None", "Aucune", "_t")
 t("something", "quelque chose", "_t")
--- nouveau texte
---[==[
-t("#GOLD#As the helm of Kroltar approaches the scale armour, they begin to fume and emit fire.", "#GOLD#As the helm of Kroltar approaches the scale armour, they begin to fume and emit fire.", "logPlayer")
---]==]
-
 -- texte non traduit
 --[==[
 t("Windborne Azurite", "Windborne Azurite", "entity name")
@@ -11233,6 +11367,7 @@ t("Dragon-helm of Kroltar", "Dragon-helm of Kroltar", "entity name")
 t("dragon-helm", "dragon-helm", "_t")
 t("A visored steel helm, embossed and embellished with gold, that bears as its crest the head of Kroltar, the greatest of the fire drakes.", "A visored steel helm, embossed and embellished with gold, that bears as its crest the head of Kroltar, the greatest of the fire drakes.", "_t")
 t("Kroltar's power resides in his scales.", "Kroltar's power resides in his scales.", "_t")
+t("#GOLD#As the helm of Kroltar approaches the scale armour, they begin to fume and emit fire.", "#GOLD#As the helm of Kroltar approaches the scale armour, they begin to fume and emit fire.", "logPlayer")
 t("#GOLD#The fumes and fire fade away.", "#GOLD#The fumes and fire fade away.", "logPlayer")
 t("Crown of Command", "Crown of Command", "entity name")
 t("unblemished silver crown", "unblemished silver crown", "_t")
@@ -12235,14 +12370,9 @@ t("Deals %s%d#LAST# %s damage (radius %d).", "Deals %s%d#LAST# %s damage (radius
 section "mod-tome/data/ingredients.lua"
 
 
--- nouveau texte
---[==[
-t("organic", "organic", "entity type")
-t("I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "_t")
---]==]
-
 -- texte non traduit
 --[==[
+t("organic", "organic", "entity type")
 t("length of troll intestine", "length of troll intestine", "entity name")
 t("A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "_t")
 t("Kindly empty it before returning.", "Kindly empty it before returning.", "_t")
@@ -12320,6 +12450,7 @@ t("As unpleasant-looking as any exposed organ.", "As unpleasant-looking as any e
 t("I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "_t")
 t("storm wyrm claw", "storm wyrm claw", "entity name")
 t("Bluish and wickedly sharp. It makes your arm hair stand on end.", "Bluish and wickedly sharp. It makes your arm hair stand on end.", "_t")
+t("I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "_t")
 t("green worm", "green worm", "entity name")
 t("A dead green worm, painstakingly separated from its tangle of companions.", "A dead green worm, painstakingly separated from its tangle of companions.", "_t")
 t("Try to get any knots out before returning. Wear gloves.", "Try to get any knots out before returning. Wear gloves.", "_t")
@@ -19215,6 +19346,16 @@ t("You have laid Celia to rest, putting an end to her failed experiments. You ha
 section "mod-tome/data/quests/high-peak.lua"
 
 
+-- nouveau texte
+--[==[
+t("Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "_t")
+t("The mad sun brought forth all its power through the portal, turning the High Peak into a giant searing needle!", "The mad sun brought forth all its power through the portal, turning the High Peak into a giant searing needle!", "_t")
+t("A few minutes later the whole world was set ablaze, nothing survived except Faeros elementals.", "A few minutes later the whole world was set ablaze, nothing survived except Faeros elementals.", "_t")
+t("In the aftermath of the battle the Distant Sun tried to force you to open the portal to bring it forth onto Eyal.", "In the aftermath of the battle the Distant Sun tried to force you to open the portal to bring it forth onto Eyal.", "_t")
+t("Through an incredible display of willpower you resisted for a few decisive seconds. During this time a Sher'tul appeared, took the Staff and killed you.", "Through an incredible display of willpower you resisted for a few decisive seconds. During this time a Sher'tul appeared, took the Staff and killed you.", "_t")
+t("Though you succumbed to the fight, your mind was already gone, burnt to ashes by your mad patron sun. But the world was saved.", "Though you succumbed to the fight, your mind was already gone, burnt to ashes by your mad patron sun. But the world was saved.", "_t")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Falling Toward Apotheosis", "Falling Toward Apotheosis", "_t")
@@ -19238,12 +19379,12 @@ t("Winner", "Winner", "_t")
 t("#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "_t")
 t("", "", "_t")
 t("The Sorcerers are dead, and the Orc Pride lies in ruins, thanks to your efforts.", "The Sorcerers are dead, and the Orc Pride lies in ruins, thanks to your efforts.", "_t")
+t("Through an incredible display of willpower you resisted long enough to ask Aeryn to kill you.", "Through an incredible display of willpower you resisted long enough to ask Aeryn to kill you.", "_t")
+t("She sadly agreed and ran her sword through you, enabling you to do the last sacrifice you could for the world.", "She sadly agreed and ran her sword through you, enabling you to do the last sacrifice you could for the world.", "_t")
 t("Your sacrifice worked. Your mental energies were imbued with farportal energies. The Way radiated from the High Peak toward the rest of Eyal like a mental tidal wave.", "Your sacrifice worked. Your mental energies were imbued with farportal energies. The Way radiated from the High Peak toward the rest of Eyal like a mental tidal wave.", "_t")
 t("Every sentient being in Eyal is now part of the Way. Peace and happiness are enforced for all.", "Every sentient being in Eyal is now part of the Way. Peace and happiness are enforced for all.", "_t")
 t("Only the mages of Angolwen were able to withstand the mental shock and thus are the only unsafe people left. But what can they do against the might of the Way?", "Only the mages of Angolwen were able to withstand the mental shock and thus are the only unsafe people left. But what can they do against the might of the Way?", "_t")
 t("In the aftermath of the battle the Way tried to force you to act as a vessel to bring the Way to every sentient being.", "In the aftermath of the battle the Way tried to force you to act as a vessel to bring the Way to every sentient being.", "_t")
-t("Through an incredible display of willpower you resisted long enough to ask Aeryn to kill you.", "Through an incredible display of willpower you resisted long enough to ask Aeryn to kill you.", "_t")
-t("She sadly agreed and ran her sword through you, enabling you to do the last sacrifice you could for the world.", "She sadly agreed and ran her sword through you, enabling you to do the last sacrifice you could for the world.", "_t")
 t("You have prevented the portal to the Void from opening and thus stopped the Creator from bringing about the end of the world.", "You have prevented the portal to the Void from opening and thus stopped the Creator from bringing about the end of the world.", "_t")
 t("In a selfless act, High Sun Paladin Aeryn sacrificed herself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "In a selfless act, High Sun Paladin Aeryn sacrificed herself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "_t")
 t("In a selfless act, you sacrificed yourself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "In a selfless act, you sacrificed yourself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "_t")
@@ -19269,11 +19410,6 @@ t("Go deep, fight, win or die in a blaze of glory!", "Go deep, fight, win or die
 ------------------------------------------------
 section "mod-tome/data/quests/keepsake.lua"
 
-
--- nouveau texte
---[==[
-t("You recognize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "You recognize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "_t")
---]==]
 
 -- texte non traduit
 --[==[
@@ -19303,6 +19439,7 @@ t("#VIOLET#You have found the entrance to Kyless' cave!", "#VIOLET#You have foun
 t("#VIOLET#You have found the entrance to a vault!", "#VIOLET#You have found the entrance to a vault!", "logPlayer")
 t("#VIOLET#The shadows have noticed you!", "#VIOLET#The shadows have noticed you!", "logPlayer")
 t("A Second Vault", "A Second Vault", "_t")
+t("You recognize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "You recognize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "_t")
 t("#VIOLET#You have found Kyless. You must destroy him.", "#VIOLET#You have found Kyless. You must destroy him.", "logPlayer")
 t("Death of Kyless", "Death of Kyless", "_t")
 t("#VIOLET#Kyless is dead.", "#VIOLET#Kyless is dead.", "logPlayer")
@@ -19401,12 +19538,6 @@ t("#LIGHT_BLUE#The merchant thanks you for saving his life. He gives you 8 gold 
 section "mod-tome/data/quests/love-melinda.lua"
 
 
--- nouveau texte
---[==[
-t("After your victory you came back to Last Hope and reunited with Melinda, who after many years remains free of demonic corruption.", "After your victory you came back to Last Hope and reunited with Melinda, who after many years remains free of demonic corruption.", "_t")
-t("You lived together and led a happy life. Melinda even learned a few adventurer's tricks and you both traveled Eyal, making new legends.", "You lived together and led a happy life. Melinda even learned a few adventurer's tricks and you both traveled Eyal, making new legends.", "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("Melinda, lucky girl", "Melinda, lucky girl", "_t")
@@ -19416,6 +19547,8 @@ t("Melinda died to a Yaech raiding party at the beach.", "Melinda died to a Yaec
 t("The Fortress Shadow said she could be cured.", "The Fortress Shadow said she could be cured.", "_t")
 t("Melinda decided to come live with you in your Fortress.", "Melinda decided to come live with you in your Fortress.", "_t")
 t("The Fortress Shadow has established a portal for her so she can come and go freely.", "The Fortress Shadow has established a portal for her so she can come and go freely.", "_t")
+t("After your victory you came back to Last Hope and reunited with Melinda, who after many years remains free of demonic corruption.", "After your victory you came back to Last Hope and reunited with Melinda, who after many years remains free of demonic corruption.", "_t")
+t("You lived together and led a happy life. Melinda even learned a few adventurer's tricks and you both traveled Eyal, making new legends.", "You lived together and led a happy life. Melinda even learned a few adventurer's tricks and you both traveled Eyal, making new legends.", "_t")
 t("Melinda", "Melinda", "_t")
 t("You saved her from the depth of a cultists' lair and fell in love with her. She has moved into the Fortress to see you more often.", "You saved her from the depth of a cultists' lair and fell in love with her. She has moved into the Fortress to see you more often.", "_t")
 --]==]
@@ -19424,7 +19557,7 @@ t("You saved her from the depth of a cultists' lair and fell in love with her. S
 ------------------------------------------------
 section "mod-tome/data/quests/lumberjack-cursed.lua"
 
-t("all", "tout", "_t")
+t("all", "tout", "quest_lumberjack")
 -- texte non traduit
 --[==[
 t("The beast within", "The beast within", "_t")
@@ -19439,6 +19572,8 @@ t("most", "most", "_t")
 t("#LIGHT_RED#A lumberjack falls to the ground, dead.", "#LIGHT_RED#A lumberjack falls to the ground, dead.", "logSeen")
 --]==]
 
+-- ancien texte traduit
+t("all", "tout", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/mage-apprentice.lua"
@@ -19850,12 +19985,16 @@ t("You have found a very special cloak that will help you walk among the living 
 section "mod-tome/data/quests/start-yeek.lua"
 
 
+-- nouveau texte
+--[==[
+t([[You have been tasked to remove at least one of the threats to the yeeks.
+]], [[You have been tasked to remove at least one of the threats to the yeeks.
+]], "_t")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Following The Way", "Following The Way", "_t")
-t([[You have been tasked to remove at leastg one of the threats to the yeeks.
-]], [[You have been tasked to remove at leastg one of the threats to the yeeks.
-]], "_t")
 t([[Protect the Way, and vanquish your foes.
 ]], [[Protect the Way, and vanquish your foes.
 ]], "_t")
@@ -20086,47 +20225,43 @@ t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#PLACED LESSER VAULT: %s", "log")
 section "mod-tome/data/talents/celestial/celestial.lua"
 
 t("other", "autre", "talent type")
--- nouveau texte
---[==[
-t("guardian", "guardian", "talent type")
-t("chants", "chants", "talent type")
-t("light", "light", "talent type")
-t("combat", "combat", "talent type")
-t("radiance", "radiance", "talent type")
-t("crusader", "crusader", "talent type")
-t("sunlight", "sunlight", "talent type")
-t("sun", "sun", "talent type")
-t("glyphs", "glyphs", "talent type")
-t("twilight", "twilight", "talent type")
-t("star fury", "star fury", "talent type")
-t("hymns", "hymns", "talent type")
-t("circles", "circles", "talent type")
-t("eclipse", "eclipse", "talent type")
-t("Dirges", "Dirges", "talent type")
-t("Darkside", "Darkside", "talent type")
-t("Dark Sun", "Dark Sun", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("celestial", "celestial", "talent category")
+t("guardian", "guardian", "talent type")
 t("Your devotion grants you additional protection.", "Your devotion grants you additional protection.", "_t")
+t("chants", "chants", "talent type")
 t("Chant the glory of the Sun.", "Chant the glory of the Sun.", "_t")
+t("light", "light", "talent type")
 t("Invoke the power of the light to heal and mend.", "Invoke the power of the light to heal and mend.", "_t")
+t("combat", "combat", "talent type")
 t("Your devotion allows you to combat your foes with indomitable determination.", "Your devotion allows you to combat your foes with indomitable determination.", "_t")
+t("radiance", "radiance", "talent type")
 t("You channel the light of the sun through your body.", "You channel the light of the sun through your body.", "_t")
+t("crusader", "crusader", "talent type")
 t("Forgo your shield for the chance to crush your foes with a mighty two handed weapon.", "Forgo your shield for the chance to crush your foes with a mighty two handed weapon.", "_t")
+t("sunlight", "sunlight", "talent type")
 t("Summon the power of the Sun to burn your foes.", "Summon the power of the Sun to burn your foes.", "_t")
+t("sun", "sun", "talent type")
+t("glyphs", "glyphs", "talent type")
 t("Bind the brilliant powers into glyphs to trap your foes.", "Bind the brilliant powers into glyphs to trap your foes.", "_t")
+t("twilight", "twilight", "talent type")
 t("Stand between the darkness and the light, harnessing both.", "Stand between the darkness and the light, harnessing both.", "_t")
+t("star fury", "star fury", "talent type")
 t("Call the fury of the Stars and the Moon to destroy your foes.", "Call the fury of the Stars and the Moon to destroy your foes.", "_t")
+t("hymns", "hymns", "talent type")
 t("Chant the glory of the Moon.", "Chant the glory of the Moon.", "_t")
+t("circles", "circles", "talent type")
 t("Bind the power of the Moon into circles at your feet.", "Bind the power of the Moon into circles at your feet.", "_t")
+t("eclipse", "eclipse", "talent type")
 t("The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "_t")
 t("Other celestial powers.", "Other celestial powers.", "_t")
 t("Various celestial talents.", "Various celestial talents.", "_t")
+t("Dirges", "Dirges", "talent type")
 t("The songs the Fallen sing.", "The songs the Fallen sing.", "_t")
+t("Darkside", "Darkside", "talent type")
 t("Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "_t")
+t("Dark Sun", "Dark Sun", "talent type")
 t("Celestial combat techniques inspired by the dark places that are not empty.", "Celestial combat techniques inspired by the dark places that are not empty.", "_t")
 t("Sing of death and damnation.", "Sing of death and damnation.", "_t")
 --]==]
@@ -20137,15 +20272,6 @@ t("other", "autre", "_t")
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/chants.lua"
 
-
--- nouveau texte
---[==[
-t([[Your passion for singing the praises of the Sun reaches its zenith.
-		Your Chanting now increases your light and fire damage by %d%% and, up to %d times per turn when you are hit by a weapon attack, you will gain %0.1f Positive Energy.
-		These values scale with your Spellpower.]], [[Your passion for singing the praises of the Sun reaches its zenith.
-		Your Chanting now increases your light and fire damage by %d%% and, up to %d times per turn when you are hit by a weapon attack, you will gain %0.1f Positive Energy.
-		These values scale with your Spellpower.]], "tformat")
---]==]
 
 -- texte non traduit
 --[==[
@@ -20203,6 +20329,11 @@ t([[Your skill at Chanting now extends the cloak of light, increasing your light
 		Chant of Fortress cures physical effects.
 		Chant of Resistance cures magical effects.]], "tformat")
 t("Chant Radiant", "Chant Radiant", "talent name")
+t([[Your passion for singing the praises of the Sun reaches its zenith.
+		Your Chanting now increases your light and fire damage by %d%% and, up to %d times per turn when you are hit by a weapon attack, you will gain %0.1f Positive Energy.
+		These values scale with your Spellpower.]], [[Your passion for singing the praises of the Sun reaches its zenith.
+		Your Chanting now increases your light and fire damage by %d%% and, up to %d times per turn when you are hit by a weapon attack, you will gain %0.1f Positive Energy.
+		These values scale with your Spellpower.]], "tformat")
 --]==]
 
 
@@ -20238,6 +20369,12 @@ t([[Conjure a surge of celestial power through your circles. Any foe standing wi
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/combat.lua"
 
+
+-- nouveau texte
+--[==[
+t("Gravitic Effulgence", "Gravitic Effulgence", "talent name")
+t("Your Weapon of Light nows pulls in all foes in radius 5.", "Your Weapon of Light nows pulls in all foes in radius 5.", "tformat")
+--]==]
 
 -- texte non traduit
 --[==[
@@ -20333,7 +20470,7 @@ section "mod-tome/data/talents/celestial/darkside.lua"
 -- texte non traduit
 --[==[
 t("Brutalize", "Brutalize", "talent name")
-t("%s resists the brutality!", "%s resists the brutality!", "logSeen")
+t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target is stunned for %d turns and has their bleed resistance reduced by 50%%.
 The stun chance increases with your Physical Power.
 
@@ -20456,8 +20593,15 @@ t("Shroud foes within radius %d in darkest light, dealing %0.2f light and %0.2f 
 section "mod-tome/data/talents/celestial/glyphs.lua"
 
 t("trap", "piège", "_t")
--- nouveau texte
+-- texte non traduit
 --[==[
+t("Glyphs", "Glyphs", "talent name")
+t("glyph of sunlight", "glyph of sunlight", "_t")
+t("Deals %d light damage and heals the summoner for %d", "Deals %d light damage and heals the summoner for %d", "tformat")
+t("glyph of moonlight", "glyph of moonlight", "_t")
+t("Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "tformat")
+t("glyph of twilight", "glyph of twilight", "_t")
+t("Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "tformat")
 t([[When one of your spells goes critical, you bind glyphs in radius 1 centered on a random target in range %d at the cost of 5 positive and 5 negative energy.
 		Glyphs last for %d turns and cause various effects when an enemy enters their grid.
 		Glyphs will only spawn on enemies that aren't adjacent to an existing glyph.
@@ -20479,17 +20623,6 @@ t([[When one of your spells goes critical, you bind glyphs in radius 1 centered 
 		#7f7f7f#Glyph of Moonlight#LAST#:  Bind moonlight into a glyph. When triggered it will release a fatiguing darkness,  dealing %0.2f darkness damage and reducing the foes damage dealt by %d%% for %d turns.
 		#9D9DC9#Glyph of Twilight#LAST#:  Bind twilight into a glyph. When triggered it will release a burst of twilight, dealing %0.2f light and %0.2f darkness damage and knocking the foe back %d tiles.
 		]], "tformat")
---]==]
-
--- texte non traduit
---[==[
-t("Glyphs", "Glyphs", "talent name")
-t("glyph of sunlight", "glyph of sunlight", "_t")
-t("Deals %d light damage and heals the summoner for %d", "Deals %d light damage and heals the summoner for %d", "tformat")
-t("glyph of moonlight", "glyph of moonlight", "_t")
-t("Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "tformat")
-t("glyph of twilight", "glyph of twilight", "_t")
-t("Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "tformat")
 t("Glyphs of Fury", "Glyphs of Fury", "talent name")
 t([[Your glyphs are imbued with celestial fury; they last %d turns longer and when triggered they will deal damage.
 		#ffd700#Glyph of Sunlight#LAST#:  Deals %0.2f light damage.
@@ -20516,6 +20649,12 @@ t([[Destabilize your glyphs, triggering every glyph in radius 10 with an enemy s
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/guardian.lua"
 
+
+-- nouveau texte
+--[==[
+t("Avatar Distant Sun Unlock Checker", "Avatar Distant Sun Unlock Checker", "talent name")
+t("#CRIMSON#As your \"talk\" with the star ends, you feel its power, the whole area around you erupts in flames, burning your foes to cinders!", "#CRIMSON#As your \"talk\" with the star ends, you feel its power, the whole area around you erupts in flames, burning your foes to cinders!", "log")
+--]==]
 
 -- texte non traduit
 --[==[
@@ -20554,6 +20693,17 @@ t([[You demonstrate your dedication to the light with a measured attack striking
 section "mod-tome/data/talents/celestial/hymns.lua"
 
 t("%s's %s", "%s de %s", "tformat")
+-- nouveau texte
+--[==[
+t([[Your passion for singing the praises of the Moons reaches its zenith.
+		Your Hymns now fire shadowy beams that will hit up to %d of your foes within radius 5 for %0.2f damage, with a 25%% chance of blinding.
+		This powerful effect will drain %0.1f negative energy each time it fires at at least 1 target; no beam will fire if your negative energy is too low.
+		These values scale with your Spellpower.]], [[Your passion for singing the praises of the Moons reaches its zenith.
+		Your Hymns now fire shadowy beams that will hit up to %d of your foes within radius 5 for %0.2f damage, with a 25%% chance of blinding.
+		This powerful effect will drain %0.1f negative energy each time it fires at at least 1 target; no beam will fire if your negative energy is too low.
+		These values scale with your Spellpower.]], "tformat")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Hymn of Shadows", "Hymn of Shadows", "talent name")
@@ -20621,13 +20771,6 @@ t([[Your skill in Hymns now improves your sight in darkness, increasing your inf
 		Hymn of Detection makes you invisible (power %d) for %d turns.
 		Hymn of Perseverance grants a damage shield (power %d) for %d turns.]], "tformat")
 t("Hymn Nocturnalist", "Hymn Nocturnalist", "talent name")
-t([[Your passion for singing the praises of the Moons reaches its zenith.
-		Your Hymns now fire shadowy beams that will hit up to %d of your foes within radius 5 for 1 to %0.2f damage, with a 20%% chance of blinding.
-		This powerful effect will drain %0.1f negative energy each time it fires at at least 1 target; no beam will fire if your negative energy is too low.
-		These values scale with your Spellpower.]], [[Your passion for singing the praises of the Moons reaches its zenith.
-		Your Hymns now fire shadowy beams that will hit up to %d of your foes within radius 5 for 1 to %0.2f damage, with a 20%% chance of blinding.
-		This powerful effect will drain %0.1f negative energy each time it fires at at least 1 target; no beam will fire if your negative energy is too low.
-		These values scale with your Spellpower.]], "tformat")
 --]==]
 
 
@@ -21103,60 +21246,56 @@ t("Your arrows now tune your Paradox %0.2f points towards your preferred Paradox
 section "mod-tome/data/talents/chronomancy/chronomancer.lua"
 
 t("Chronomancy", "Chronomancie", "talent type")
--- nouveau texte
---[==[
-t("Blade Threading", "Blade Threading", "talent type")
-t("Bow Threading", "Bow Threading", "talent type")
-t("Temporal Combat", "Temporal Combat", "talent type")
-t("Temporal Guardian", "Temporal Guardian", "talent type")
-t("Threaded Combat", "Threaded Combat", "talent type")
-t("Temporal Hounds", "Temporal Hounds", "talent type")
-t("flux", "flux", "talent type")
-t("gravity", "gravity", "talent type")
-t("matter", "matter", "talent type")
-t("Spacetime Folding", "Spacetime Folding", "talent type")
-t("Speed Control", "Speed Control", "talent type")
-t("stasis", "stasis", "talent type")
-t("Timeline Threading", "Timeline Threading", "talent type")
-t("timetravel", "timetravel", "talent type")
-t("Spellbinding", "Spellbinding", "talent type")
-t("energy", "energy", "talent type")
-t("Fate Weaving", "Fate Weaving", "talent type")
-t("Spacetime Weaving", "Spacetime Weaving", "talent type")
-t("Manifold", "Manifold", "talent type")
-t("Other", "Other", "talent type")
-t("Age Manipulation", "Age Manipulation", "talent type")
-t("Temporal Archery", "Temporal Archery", "talent type")
-t("paradox", "paradox", "talent type")
-t("anomalies", "anomalies", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("chronomancy", "chronomancy", "talent category")
+t("Blade Threading", "Blade Threading", "talent type")
 t("A blend of chronomancy and dual-weapon combat.", "A blend of chronomancy and dual-weapon combat.", "_t")
+t("Bow Threading", "Bow Threading", "talent type")
 t("A blend of chronomancy and ranged combat.", "A blend of chronomancy and ranged combat.", "_t")
+t("Temporal Combat", "Temporal Combat", "talent type")
 t("A blend of chronomancy and physical combat.", "A blend of chronomancy and physical combat.", "_t")
+t("Temporal Guardian", "Temporal Guardian", "talent type")
 t("Warden combat training and techniques.", "Warden combat training and techniques.", "_t")
+t("Threaded Combat", "Threaded Combat", "talent type")
 t("A blend of ranged and dual-weapon combat.", "A blend of ranged and dual-weapon combat.", "_t")
+t("Temporal Hounds", "Temporal Hounds", "talent type")
 t("Call temporal hounds to aid you in combat.", "Call temporal hounds to aid you in combat.", "_t")
+t("flux", "flux", "talent type")
 t("Fluctuate spacetime.", "Fluctuate spacetime.", "_t")
+t("gravity", "gravity", "talent type")
 t("Call upon the force of gravity to crush, push, and pull your foes.", "Call upon the force of gravity to crush, push, and pull your foes.", "_t")
+t("matter", "matter", "talent type")
 t("Change and shape matter itself.", "Change and shape matter itself.", "_t")
+t("Spacetime Folding", "Spacetime Folding", "talent type")
 t("Mastery of folding points in space.", "Mastery of folding points in space.", "_t")
+t("Speed Control", "Speed Control", "talent type")
 t("Control how fast objects and creatures move through spacetime.", "Control how fast objects and creatures move through spacetime.", "_t")
+t("stasis", "stasis", "talent type")
 t("Stabilize spacetime.", "Stabilize spacetime.", "_t")
+t("Timeline Threading", "Timeline Threading", "talent type")
 t("Examine and alter the timelines that make up the spacetime continuum.", "Examine and alter the timelines that make up the spacetime continuum.", "_t")
+t("timetravel", "timetravel", "talent type")
 t("Directly manipulate the flow of time", "Directly manipulate the flow of time", "_t")
+t("Spellbinding", "Spellbinding", "talent type")
 t("Manipulate chronomantic spells.", "Manipulate chronomantic spells.", "_t")
 t("Allows you to glimpse the future, or become more aware of the present.", "Allows you to glimpse the future, or become more aware of the present.", "_t")
+t("energy", "energy", "talent type")
 t("Manipulate raw energy by addition or subtraction.", "Manipulate raw energy by addition or subtraction.", "_t")
+t("Fate Weaving", "Fate Weaving", "talent type")
 t("Weave the threads of fate.", "Weave the threads of fate.", "_t")
+t("Spacetime Weaving", "Spacetime Weaving", "talent type")
 t("Weave the threads of spacetime.", "Weave the threads of spacetime.", "_t")
+t("Manifold", "Manifold", "talent type")
 t("Passive effects that Weapon Folding can trigger.", "Passive effects that Weapon Folding can trigger.", "_t")
+t("Other", "Other", "talent type")
 t("Miscellaneous Chronomancy effects.", "Miscellaneous Chronomancy effects.", "_t")
+t("Age Manipulation", "Age Manipulation", "talent type")
 t("Manipulate the age of creatures you encounter.", "Manipulate the age of creatures you encounter.", "_t")
+t("Temporal Archery", "Temporal Archery", "talent type")
+t("paradox", "paradox", "talent type")
 t("Break the laws of spacetime.", "Break the laws of spacetime.", "_t")
+t("anomalies", "anomalies", "talent type")
 t("Spacetime anomalies that can randomly occur when paradox is to high.", "Spacetime anomalies that can randomly occur when paradox is to high.", "_t")
 t("%s's temporal clone", "%s's temporal clone", "tformat")
 t("A creature from another timeline.", "A creature from another timeline.", "_t")
@@ -21448,8 +21587,11 @@ t([[While active your physical and temporal damage has a %d%% chance to remove o
 section "mod-tome/data/talents/chronomancy/other.lua"
 
 
--- nouveau texte
+-- texte non traduit
 --[==[
+t("Spacetime Tuning", "Spacetime Tuning", "talent name")
+t("Spacetime Tuning", "Spacetime Tuning", "_t")
+t("What's your preferred paradox level?", "What's your preferred paradox level?", "_t")
 t([[Use to set your preferred Paradox.  While resting or waiting you'll adjust your Paradox towards this number at the rate of %d per turn.
 		Your Paradox modifier is factored into the duration and spellpower of all chronomancy spells.
 
@@ -21469,13 +21611,6 @@ t([[Use to set your preferred Paradox.  While resting or waiting you'll adjust y
 		Paradox Sustain Modifier : +%d
 		Total Modified Paradox :  %d
 		Current Anomaly Chance :  %d%%]], "tformat")
---]==]
-
--- texte non traduit
---[==[
-t("Spacetime Tuning", "Spacetime Tuning", "talent name")
-t("Spacetime Tuning", "Spacetime Tuning", "_t")
-t("What's your preferred paradox level?", "What's your preferred paradox level?", "_t")
 t("Slow", "Slow", "talent name")
 t([[Creates a time distortion in a radius of %d that lasts for %d turns, decreasing global speed by %d%% for 3 turns and inflicting %0.2f temporal damage each turn to all targets within the area.
 		The slow effect and damage dealt will scale with your Spellpower.]], [[Creates a time distortion in a radius of %d that lasts for %d turns, decreasing global speed by %d%% for 3 turns and inflicting %0.2f temporal damage each turn to all targets within the area.
@@ -22012,12 +22147,16 @@ t([[Creates a temporal echo in a radius of %d around you.  Affected targets take
 section "mod-tome/data/talents/corruptions/blight.lua"
 
 
+-- nouveau texte
+--[==[
+t([[Increases your critical damage multiplier by %d%%.
+		The multiplier will increase with your Spellpower.]], [[Increases your critical damage multiplier by %d%%.
+		The multiplier will increase with your Spellpower.]], "tformat")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Dark Ritual", "Dark Ritual", "talent name")
-t([[Increases your spell critical damage multiplier by %d%%.
-		The multiplier will increase with your Spellpower.]], [[Increases your spell critical damage multiplier by %d%%.
-		The multiplier will increase with your Spellpower.]], "tformat")
 t("Corrupted Negation", "Corrupted Negation", "talent name")
 t([[Project a corrupted blast of power that removes up to %d magical or physical effects or any type of sustain and deals %0.2f blight damage to any creatures caught in the radius 3 ball.
 		For each effect, the creature has a chance to resist based on its spell save.
@@ -22118,40 +22257,36 @@ t([[Bone shields start circling around you. They will each fully absorb one inst
 section "mod-tome/data/talents/corruptions/corruptions.lua"
 
 
--- nouveau texte
---[==[
-t("sanguisuge", "sanguisuge", "talent type")
-t("torment", "torment", "talent type")
-t("vim", "vim", "talent type")
-t("bone", "bone", "talent type")
-t("hexes", "hexes", "talent type")
-t("curses", "curses", "talent type")
-t("vile life", "vile life", "talent type")
-t("plague", "plague", "talent type")
-t("scourge", "scourge", "talent type")
-t("reaving combat", "reaving combat", "talent type")
-t("blood", "blood", "talent type")
-t("blight", "blight", "talent type")
-t("Shadowflame", "Shadowflame", "talent type")
-t("rot", "rot", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("corruption", "corruption", "talent category")
+t("sanguisuge", "sanguisuge", "talent type")
 t("Manipulate life force to feed your own dark powers.", "Manipulate life force to feed your own dark powers.", "_t")
+t("torment", "torment", "talent type")
 t("All the tools to torment your foes.", "All the tools to torment your foes.", "_t")
+t("vim", "vim", "talent type")
 t("Touch the very essence of your victims.", "Touch the very essence of your victims.", "_t")
+t("bone", "bone", "talent type")
 t("Harness the power of bones.", "Harness the power of bones.", "_t")
+t("hexes", "hexes", "talent type")
 t("Hex your foes, hindering and crippling them.", "Hex your foes, hindering and crippling them.", "_t")
+t("curses", "curses", "talent type")
 t("Curse your foes, hindering and crippling them.", "Curse your foes, hindering and crippling them.", "_t")
+t("vile life", "vile life", "talent type")
 t("Manipulate life for your vile needs.", "Manipulate life for your vile needs.", "_t")
+t("plague", "plague", "talent type")
 t("Spread diseases to your foes.", "Spread diseases to your foes.", "_t")
+t("scourge", "scourge", "talent type")
 t("Bring pain and destruction to the world.", "Bring pain and destruction to the world.", "_t")
+t("reaving combat", "reaving combat", "talent type")
 t("Enhanced melee combat through the dark arts.", "Enhanced melee combat through the dark arts.", "_t")
+t("blood", "blood", "talent type")
 t("Harness the power of blood, both your own and your foes'.", "Harness the power of blood, both your own and your foes'.", "_t")
+t("blight", "blight", "talent type")
 t("Bring corruption and decay to all who oppose you.", "Bring corruption and decay to all who oppose you.", "_t")
+t("Shadowflame", "Shadowflame", "talent type")
 t("Harness the power of the demonic shadowflame.", "Harness the power of the demonic shadowflame.", "_t")
+t("rot", "rot", "talent type")
 t("Become one with rot and decay.", "Become one with rot and decay.", "_t")
 --]==]
 
@@ -22745,39 +22880,35 @@ t("Your mastery of called shots is unparalleled. and you gain %d%% bonus critica
 section "mod-tome/data/talents/cunning/cunning.lua"
 
 
--- nouveau texte
---[==[
-t("stealth", "stealth", "talent type")
-t("trapping", "trapping", "talent type")
-t("traps", "traps", "talent type")
-t("poisons", "poisons", "talent type")
-t("dirty fighting", "dirty fighting", "talent type")
-t("lethality", "lethality", "talent type")
-t("shadow magic", "shadow magic", "talent type")
-t("ambush", "ambush", "talent type")
-t("survival", "survival", "talent type")
-t("tactical", "tactical", "talent type")
-t("scoundrel", "scoundrel", "talent type")
-t("artifice", "artifice", "talent type")
-t("tools", "tools", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("cunning", "cunning", "talent category")
+t("stealth", "stealth", "talent type")
 t("Allows the user to enter stealth.", "Allows the user to enter stealth.", "_t")
+t("trapping", "trapping", "talent type")
 t("The knowledge of trap laying and assorted trickeries.", "The knowledge of trap laying and assorted trickeries.", "_t")
+t("traps", "traps", "talent type")
 t("Collection of known traps.", "Collection of known traps.", "_t")
+t("poisons", "poisons", "talent type")
 t("The knowledge of poisons and how to apply them to 'good' effects.", "The knowledge of poisons and how to apply them to 'good' effects.", "_t")
 t("Collection of known poisons.", "Collection of known poisons.", "_t")
+t("dirty fighting", "dirty fighting", "talent type")
 t("Teaches various talents to cripple your foes.", "Teaches various talents to cripple your foes.", "_t")
+t("lethality", "lethality", "talent type")
 t("How to make your foes feel the pain.", "How to make your foes feel the pain.", "_t")
+t("shadow magic", "shadow magic", "talent type")
 t("Blending magic and shadows.", "Blending magic and shadows.", "_t")
+t("ambush", "ambush", "talent type")
 t("Using darkness and a bit of magic, you manipulate the shadows.", "Using darkness and a bit of magic, you manipulate the shadows.", "_t")
+t("survival", "survival", "talent type")
 t("The knowledge of the dangers of the world, and how to best avoid them.", "The knowledge of the dangers of the world, and how to best avoid them.", "_t")
+t("tactical", "tactical", "talent type")
 t("Tactical combat abilities.", "Tactical combat abilities.", "_t")
+t("scoundrel", "scoundrel", "talent type")
 t("The use of ungentlemanly techniques.", "The use of ungentlemanly techniques.", "_t")
+t("artifice", "artifice", "talent type")
 t("Create and use cunning tools.", "Create and use cunning tools.", "_t")
+t("tools", "tools", "talent type")
 t("Artificer's tools.", "Artificer's tools.", "_t")
 t("Called Shots", "Called Shots", "_t")
 t("Inflict maximum pain to specific places on your enemies.", "Inflict maximum pain to specific places on your enemies.", "_t")
@@ -23531,54 +23662,50 @@ t("You rise to meet the pain that others would inflict on you. Every turn you ta
 section "mod-tome/data/talents/cursed/cursed.lua"
 
 t("Cursed", "Maudit", "talent type")
--- nouveau texte
---[==[
-t("slaughter", "slaughter", "talent type")
-t("endless hunt", "endless hunt", "talent type")
-t("strife", "strife", "talent type")
-t("gloom", "gloom", "talent type")
-t("rampage", "rampage", "talent type")
-t("predator", "predator", "talent type")
-t("dark sustenance", "dark sustenance", "talent type")
-t("force of will", "force of will", "talent type")
-t("darkness", "darkness", "talent type")
-t("shadows", "shadows", "talent type")
-t("punishments", "punishments", "talent type")
-t("one with shadows", "one with shadows", "talent type")
-t("advanced shadowmancy", "advanced shadowmancy", "talent type")
-t("gestures", "gestures", "talent type")
-t("cursed form", "cursed form", "talent type")
-t("cursed aura", "cursed aura", "talent type")
-t("curses", "curses", "talent type")
-t("fears", "fears", "talent type")
-t("Bloodstained", "Bloodstained", "talent type")
-t("Crimson Templar", "Crimson Templar", "talent type")
-t("Hatred", "Hatred", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("cursed", "cursed", "talent category")
+t("slaughter", "slaughter", "talent type")
 t("Your weapon yearns for its next victim.", "Your weapon yearns for its next victim.", "_t")
+t("endless hunt", "endless hunt", "talent type")
 t("Each day, you lift your weary body and begin the unending hunt.", "Each day, you lift your weary body and begin the unending hunt.", "_t")
+t("strife", "strife", "talent type")
 t("The battlefield is your home; death and confusion, your comfort.", "The battlefield is your home; death and confusion, your comfort.", "_t")
+t("gloom", "gloom", "talent type")
 t("All those in your sight must share your despair.", "All those in your sight must share your despair.", "_t")
+t("rampage", "rampage", "talent type")
 t("Let loose the hate that has grown within.", "Let loose the hate that has grown within.", "_t")
+t("predator", "predator", "talent type")
 t("Track and kill your prey with single-minded focus.", "Track and kill your prey with single-minded focus.", "_t")
+t("dark sustenance", "dark sustenance", "talent type")
 t("The powers of your foes feed your dark will.", "The powers of your foes feed your dark will.", "_t")
+t("force of will", "force of will", "talent type")
 t("Invoke the powerful force of your will.", "Invoke the powerful force of your will.", "_t")
+t("darkness", "darkness", "talent type")
 t("Harness the power of darkness to envelop your foes.", "Harness the power of darkness to envelop your foes.", "_t")
+t("shadows", "shadows", "talent type")
 t("Summon shadows from the darkness to aid you.", "Summon shadows from the darkness to aid you.", "_t")
+t("punishments", "punishments", "talent type")
 t("Your hate becomes punishment in the minds of your foes.", "Your hate becomes punishment in the minds of your foes.", "_t")
+t("one with shadows", "one with shadows", "talent type")
 t("Harness your shadows to their full potential.", "Harness your shadows to their full potential.", "_t")
+t("advanced shadowmancy", "advanced shadowmancy", "talent type")
 t("Gain more direct control over your shadows with physical damage talents.", "Gain more direct control over your shadows with physical damage talents.", "_t")
+t("gestures", "gestures", "talent type")
 t("Enhance the power of your mind with gestures.", "Enhance the power of your mind with gestures.", "_t")
+t("cursed form", "cursed form", "talent type")
 t("You are wracked with the dark energies of the curse.", "You are wracked with the dark energies of the curse.", "_t")
+t("cursed aura", "cursed aura", "talent type")
 t("The things you surround yourself with soon wither away.", "The things you surround yourself with soon wither away.", "_t")
+t("curses", "curses", "talent type")
 t("The effects of cursed objects.", "The effects of cursed objects.", "_t")
+t("fears", "fears", "talent type")
 t("Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "_t")
+t("Bloodstained", "Bloodstained", "talent type")
 t("You, like your weapons, are tainted forever.", "You, like your weapons, are tainted forever.", "_t")
+t("Crimson Templar", "Crimson Templar", "talent type")
 t("Blood is power. Let the rivers run red.", "Blood is power. Let the rivers run red.", "_t")
+t("Hatred", "Hatred", "talent type")
 t("All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "_t")
 t("Hate-powered abilities that don't belong anywhere else.", "Hate-powered abilities that don't belong anywhere else.", "_t")
 --]==]
@@ -23636,21 +23763,6 @@ t([[Enhances your feeding by reducing your targeted foe's resistances, multiplyi
 section "mod-tome/data/talents/cursed/darkness.lua"
 
 
--- nouveau texte
---[==[
-t([[Creeping dark slowly spreads from the target location and %d spots in a radius of %d around the targeted location. The dark deals %0.2f darkness damage each turn to anything in its area, and blocks the sight of any who do not possess Dark Vision or some other magical means of seeing. The darkness seeps into adjacent tiles at random and slowly dissipates over time.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Creeping dark slowly spreads from the target location and %d spots in a radius of %d around the targeted location. The dark deals %0.2f darkness damage each turn to anything in its area, and blocks the sight of any who do not possess Dark Vision or some other magical means of seeing. The darkness seeps into adjacent tiles at random and slowly dissipates over time.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
-t([[Sends a torrent of searing darkness through your foes, doing %d darkness damage. There is a 25%% chance the rushing darkness will blind them for 3 turns and cause them to lose track of their target.
-		If you know the Creeping Darkness talent, a short-lived trail of darkness is left in the beam's wake. Its damage is identical to that of Creeping Darkness's.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Sends a torrent of searing darkness through your foes, doing %d darkness damage. There is a 25%% chance the rushing darkness will blind them for 3 turns and cause them to lose track of their target.
-		If you know the Creeping Darkness talent, a short-lived trail of darkness is left in the beam's wake. Its damage is identical to that of Creeping Darkness's.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
-t([[Spawn tendrils of darkness to pursue a single target for up to 12 turns, leaving behind a trail of creeping darkness as they move. Targets seized by the tendrils are pinned for %d turns and shrouded in darkness. The darkness deals %0.2f damage per turn to those within.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Spawn tendrils of darkness to pursue a single target for up to 12 turns, leaving behind a trail of creeping darkness as they move. Targets seized by the tendrils are pinned for %d turns and shrouded in darkness. The darkness deals %0.2f damage per turn to those within.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
---]==]
-
 -- texte non traduit
 --[==[
 t("dark tendril", "dark tendril", "_t")
@@ -23658,27 +23770,29 @@ t("The dark tendrils dissipate.", "The dark tendrils dissipate.", "logSeen")
 t("The dark tendrils lash at %s.", "The dark tendrils lash at %s.", "logSeen")
 t("Creeping Darkness", "Creeping Darkness", "talent name")
 t("%s's creeping dark", "%s's creeping dark", "tformat")
+t([[Creeping dark slowly spreads from the target location and %d spots in a radius of %d around the targeted location. The dark deals %0.2f darkness damage each turn to anything in its area, and blocks the sight of any who do not possess Dark Vision or some other magical means of seeing. The darkness seeps into adjacent tiles at random and slowly dissipates over time.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Creeping dark slowly spreads from the target location and %d spots in a radius of %d around the targeted location. The dark deals %0.2f darkness damage each turn to anything in its area, and blocks the sight of any who do not possess Dark Vision or some other magical means of seeing. The darkness seeps into adjacent tiles at random and slowly dissipates over time.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
 t("Dark Vision", "Dark Vision", "talent name")
 t([[Your eyes penetrate the darkness to find anyone that may be hiding there. This allows you to see through creeping darkness out to a radius of %d. You can also find your way through the darkness with greater speed (+%d%% movement into creeping darkness).
 		You do +%d%% damage to anything that has entered your creeping dark.]], [[Your eyes penetrate the darkness to find anyone that may be hiding there. This allows you to see through creeping darkness out to a radius of %d. You can also find your way through the darkness with greater speed (+%d%% movement into creeping darkness).
 		You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
 t("Dark Torrent", "Dark Torrent", "talent name")
+t([[Sends a torrent of searing darkness through your foes, doing %d darkness damage. There is a 25%% chance the rushing darkness will blind them for 3 turns and cause them to lose track of their target.
+		If you know the Creeping Darkness talent, a short-lived trail of darkness is left in the beam's wake. Its damage is identical to that of Creeping Darkness's.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Sends a torrent of searing darkness through your foes, doing %d darkness damage. There is a 25%% chance the rushing darkness will blind them for 3 turns and cause them to lose track of their target.
+		If you know the Creeping Darkness talent, a short-lived trail of darkness is left in the beam's wake. Its damage is identical to that of Creeping Darkness's.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
 t("Dark Tendrils", "Dark Tendrils", "talent name")
+t([[Spawn tendrils of darkness to pursue a single target for up to 12 turns, leaving behind a trail of creeping darkness as they move. Targets seized by the tendrils are pinned for %d turns and shrouded in darkness. The darkness deals %0.2f damage per turn to those within.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Spawn tendrils of darkness to pursue a single target for up to 12 turns, leaving behind a trail of creeping darkness as they move. Targets seized by the tendrils are pinned for %d turns and shrouded in darkness. The darkness deals %0.2f damage per turn to those within.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/endless-hunt.lua"
 
-
--- nouveau texte
---[==[
-t([[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
-
-		This talent will also attack with your shield, if you have one equipped.]], [[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
-
-		This talent will also attack with your shield, if you have one equipped.]], "tformat")
---]==]
 
 -- texte non traduit
 --[==[
@@ -23695,6 +23809,11 @@ t([[When you focus your attacks on a single foe and strike them in melee for two
 		The accuracy bonus improves with your Willpower, and the melee damage bonus with your Strength.]], "tformat")
 t("Harass Prey", "Harass Prey", "talent name")
 t("#F53CBE#%s's %s is disrupted!", "#F53CBE#%s's %s is disrupted!", "logSeen")
+t([[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
+
+		This talent will also attack with your shield, if you have one equipped.]], [[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
+
+		This talent will also attack with your shield, if you have one equipped.]], "tformat")
 t("Beckon", "Beckon", "talent name")
 t([[The connection between predator and prey allows you to speak to the mind of your target and beckon them closer. For %d turns, they will try to come to you, even pushing others aside to do so. They will move towards you instead of acting %d%% of the time, but can save verses Mindpower to slow the effect. If they take significant damage, the beckoning may be overcome altogether. The effect makes concentration difficult for your target, reducing Spellpower and Mindpower by %d until they reach you.
 		The Spellpower and Mindpower reduction increases with your Willpower.]], [[The connection between predator and prey allows you to speak to the mind of your target and beckon them closer. For %d turns, they will try to come to you, even pushing others aside to do so. They will move towards you instead of acting %d%% of the time, but can save verses Mindpower to slow the effect. If they take significant damage, the beckoning may be overcome altogether. The effect makes concentration difficult for your target, reducing Spellpower and Mindpower by %d until they reach you.
@@ -23952,13 +24071,15 @@ t([[Bathes the target in raw magic inflicting %d damage. Such wild magic is diff
 section "mod-tome/data/talents/cursed/punishments.lua"
 
 t("Madness", "Folie", "talent name")
--- nouveau texte
+-- texte non traduit
 --[==[
+t("Reproach", "Reproach", "talent name")
 t([[Utter a terrible curse against any who dare approach you, inflicting %d mind damage to targets in radius %d. Each affected target (ordered at random) takes %d%% less damage than the last, and has a 25%% chance of suffering Brainlock.
 
 The damage increases with your Mindpower.]], [[Utter a terrible curse against any who dare approach you, inflicting %d mind damage to targets in radius %d. Each affected target (ordered at random) takes %d%% less damage than the last, and has a 25%% chance of suffering Brainlock.
 
 The damage increases with your Mindpower.]], "tformat")
+t("Hateful Whisper", "Hateful Whisper", "talent name")
 t([[Infect a target's mind with a virulent whisper that deals %d Mind damage and spreads amongst your foes, dealing damage and feeding you %0.1f Hate for each new victim. Each turn for %d turns, the initial victim will spread the whisper to a new target within %d tiles if one is available; beyond this, all affected targets have a %d%% chance of spreading the effect each turn for 4 turns.
 
 Targets damaged by this ability have a 25%% chance of suffering Brainlock.
@@ -23968,19 +24089,13 @@ The damage increases with your Mindpower.]], [[Infect a target's mind with a vir
 Targets damaged by this ability have a 25%% chance of suffering Brainlock.
 
 The damage increases with your Mindpower.]], "tformat")
+t("Agony", "Agony", "talent name")
 t([[Sear your hatred into the mind of a target, dealing escalating Mind damage each turn over %d turns. The victim will suffer %0.1f damage on the first turn, slowly increasing up to %0.1f damage on the last, dealing %d Mind damage in total. Re-applying the effect resets the damage escalation. The victim has a 25%% chance of suffering Brainlock each turn from the unbearable pain.
 
 The damage increases with your Mindpower.]], [[Sear your hatred into the mind of a target, dealing escalating Mind damage each turn over %d turns. The victim will suffer %0.1f damage on the first turn, slowly increasing up to %0.1f damage on the last, dealing %d Mind damage in total. Re-applying the effect resets the damage escalation. The victim has a 25%% chance of suffering Brainlock each turn from the unbearable pain.
 
 The damage increases with your Mindpower.]], "tformat")
 t("Your hateful will splinters into the minds of those you torture, breaking them down. Each time you inflict Mind damage, the victim has a %0.1f%% chance of going mad for 3 turns unless they save against your Mindpower. The madness will lower the victim's Mind resistance by %0.1f%% and cause them to become confused (50%% power), slowed (30%% power), or stunned for the duration.", "Your hateful will splinters into the minds of those you torture, breaking them down. Each time you inflict Mind damage, the victim has a %0.1f%% chance of going mad for 3 turns unless they save against your Mindpower. The madness will lower the victim's Mind resistance by %0.1f%% and cause them to become confused (50%% power), slowed (30%% power), or stunned for the duration.", "tformat")
---]==]
-
--- texte non traduit
---[==[
-t("Reproach", "Reproach", "talent name")
-t("Hateful Whisper", "Hateful Whisper", "talent name")
-t("Agony", "Agony", "talent name")
 --]==]
 
 
@@ -24128,11 +24243,6 @@ section "mod-tome/data/talents/cursed/slaughter.lua"
 
 t("Big", "Grosse", "_t")
 t("Small", "Petite", "_t")
--- nouveau texte
---[==[
-t("Medium-sized", "Medium-sized", "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("Slash", "Slash", "talent name")
@@ -24159,6 +24269,7 @@ t([[Assault nearby foes with 4 fast attacks for %d%% (at 0 Hate) to %d%% (at 100
 t("Reckless Charge", "Reckless Charge", "talent name")
 t("#Source# knocks back #Target#!", "#Source# knocks back #Target#!", "logCombat")
 t("#Target# blocks #Source#!", "#Target# blocks #Source#!", "logCombat")
+t("Medium-sized", "Medium-sized", "_t")
 t("Charge through your opponents, attacking anyone near your path for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. %s opponents may be knocked away from your path. You can attack a maximum of %d times, and can hit targets along your path more than once.", "Charge through your opponents, attacking anyone near your path for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. %s opponents may be knocked away from your path. You can attack a maximum of %d times, and can hit targets along your path more than once.", "tformat")
 t("Cleave", "Cleave", "talent name")
 t("#Source# cleaves through #Target#!", "#Source# cleaves through #Target#!", "logCombat")
@@ -24634,65 +24745,61 @@ t("A wave of energy passes through your fungus, making it release immediate heal
 section "mod-tome/data/talents/gifts/gifts.lua"
 
 t("antimagic", "anti-magie", "talent type")
--- nouveau texte
---[==[
-t("call of the wild", "call of the wild", "talent type")
-t("harmony", "harmony", "talent type")
-t("summoning (melee)", "summoning (melee)", "talent type")
-t("summoning (distance)", "summoning (distance)", "talent type")
-t("summoning (utility)", "summoning (utility)", "talent type")
-t("summoning (augmentation)", "summoning (augmentation)", "talent type")
-t("summoning (advanced)", "summoning (advanced)", "talent type")
-t("slime", "slime", "talent type")
-t("fungus", "fungus", "talent type")
-t("sand drake aspect", "sand drake aspect", "talent type")
-t("fire drake aspect", "fire drake aspect", "talent type")
-t("cold drake aspect", "cold drake aspect", "talent type")
-t("storm drake aspect", "storm drake aspect", "talent type")
-t("venom drake aspect", "venom drake aspect", "talent type")
-t("higher draconic abilities", "higher draconic abilities", "talent type")
-t("mindstar mastery", "mindstar mastery", "talent type")
-t("mucus", "mucus", "talent type")
-t("ooze", "ooze", "talent type")
-t("moss", "moss", "talent type")
-t("malleable body", "malleable body", "talent type")
-t("oozing blades", "oozing blades", "talent type")
-t("corrosive blades", "corrosive blades", "talent type")
-t("eyal's fury", "eyal's fury", "talent type")
-t("earthen power", "earthen power", "talent type")
-t("earthen vines", "earthen vines", "talent type")
-t("dwarven nature", "dwarven nature", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("wild-gift", "wild-gift", "talent category")
+t("call of the wild", "call of the wild", "talent type")
 t("Be at one with nature.", "Be at one with nature.", "_t")
+t("harmony", "harmony", "talent type")
 t("Nature heals and cleans you.", "Nature heals and cleans you.", "_t")
 t("The way to combat magic, or even nullify it.", "The way to combat magic, or even nullify it.", "_t")
+t("summoning (melee)", "summoning (melee)", "talent type")
 t("The art of calling creatures adept in melee combat to your aid.", "The art of calling creatures adept in melee combat to your aid.", "_t")
+t("summoning (distance)", "summoning (distance)", "talent type")
 t("The art of calling creatures adept in elemental destruction to your aid.", "The art of calling creatures adept in elemental destruction to your aid.", "_t")
+t("summoning (utility)", "summoning (utility)", "talent type")
 t("The art of calling versatile creatures to your aid.", "The art of calling versatile creatures to your aid.", "_t")
+t("summoning (augmentation)", "summoning (augmentation)", "talent type")
 t("The art of manipulating the lifespan and location of your summons.", "The art of manipulating the lifespan and location of your summons.", "_t")
+t("summoning (advanced)", "summoning (advanced)", "talent type")
 t("The art of improving the quality of your summons.", "The art of improving the quality of your summons.", "_t")
+t("slime", "slime", "talent type")
 t("Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "_t")
+t("fungus", "fungus", "talent type")
 t("By covering yourself in fungus, you better your healing.", "By covering yourself in fungus, you better your healing.", "_t")
+t("sand drake aspect", "sand drake aspect", "talent type")
 t("Take on the defining aspects of a Sand Drake.", "Take on the defining aspects of a Sand Drake.", "_t")
+t("fire drake aspect", "fire drake aspect", "talent type")
 t("Take on the defining aspects of a Fire Drake.", "Take on the defining aspects of a Fire Drake.", "_t")
+t("cold drake aspect", "cold drake aspect", "talent type")
 t("Take on the defining aspects of a Cold Drake.", "Take on the defining aspects of a Cold Drake.", "_t")
+t("storm drake aspect", "storm drake aspect", "talent type")
 t("Take on the defining aspects of a Storm Drake.", "Take on the defining aspects of a Storm Drake.", "_t")
+t("venom drake aspect", "venom drake aspect", "talent type")
 t("Take on the defining aspects of a Venom Drake.", "Take on the defining aspects of a Venom Drake.", "_t")
+t("higher draconic abilities", "higher draconic abilities", "talent type")
 t("Take on the aspects of aged and powerful dragons.", "Take on the aspects of aged and powerful dragons.", "_t")
+t("mindstar mastery", "mindstar mastery", "talent type")
 t("Learn to channel your mental power through mindstars, forming powerful psionic blades.", "Learn to channel your mental power through mindstars, forming powerful psionic blades.", "_t")
+t("mucus", "mucus", "talent type")
 t("Cover the floor with natural mucus.", "Cover the floor with natural mucus.", "_t")
+t("ooze", "ooze", "talent type")
 t("Your body and internal organs are becoming more ooze-like in nature, allowing you to spawn more of you.", "Your body and internal organs are becoming more ooze-like in nature, allowing you to spawn more of you.", "_t")
+t("moss", "moss", "talent type")
 t("You learn to control moss, making it grow at will to help you on the battlefield.", "You learn to control moss, making it grow at will to help you on the battlefield.", "_t")
+t("malleable body", "malleable body", "talent type")
 t("Your body's anatomy is starting to blur.", "Your body's anatomy is starting to blur.", "_t")
+t("oozing blades", "oozing blades", "talent type")
 t("You channel ooze through your psiblades.", "You channel ooze through your psiblades.", "_t")
+t("corrosive blades", "corrosive blades", "talent type")
 t("You channel acid through your psiblades.", "You channel acid through your psiblades.", "_t")
+t("eyal's fury", "eyal's fury", "talent type")
 t("Unleash nature's fury against foes around you.", "Unleash nature's fury against foes around you.", "_t")
+t("earthen power", "earthen power", "talent type")
 t("Dwarves have learned to imbue their shields with the power of stone itself.", "Dwarves have learned to imbue their shields with the power of stone itself.", "_t")
+t("earthen vines", "earthen vines", "talent type")
 t("Control the stone itself and bring it alive in the form of dreadful vines.", "Control the stone itself and bring it alive in the form of dreadful vines.", "_t")
+t("dwarven nature", "dwarven nature", "talent type")
 t("Learn to harness the innate power of your race.", "Learn to harness the innate power of your race.", "_t")
 t("#PINK#You can manage a maximum of %d summons at any time. You need %d Cunning to increase your limit.", "#PINK#You can manage a maximum of %d summons at any time. You need %d Cunning to increase your limit.", "logPlayer")
 t("Summon", "Summon", "_t")
@@ -25579,20 +25686,21 @@ t("spell", "contre les sorts", "talent category")
 t("other", "autre", "talent category")
 -- nouveau texte
 --[==[
-t("horror techniques", "horror techniques", "talent type")
-t("horror spells", "horror spells", "talent type")
-t("horror powers", "horror powers", "talent type")
+t("Open a hole in space, summoning an animated blade for 15 turns.", "Open a hole in space, summoning an animated blade for 15 turns.", "tformat")
 --]==]
 
 -- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
+t("horror techniques", "horror techniques", "talent type")
 t("Physical talents of the various horrors of the world.", "Physical talents of the various horrors of the world.", "_t")
 t("psionic", "psionic", "talent category")
 t("Psionic talents of the various horrors of the world.", "Psionic talents of the various horrors of the world.", "_t")
 t("wild-gift", "wild-gift", "talent category")
+t("horror spells", "horror spells", "talent type")
 t("Spell talents of the various horrors of the world.", "Spell talents of the various horrors of the world.", "_t")
 t("corruption", "corruption", "talent category")
+t("horror powers", "horror powers", "talent type")
 t("Unclassified talents of the various horrors of the world.", "Unclassified talents of the various horrors of the world.", "_t")
 t("Frenzied Bite", "Frenzied Bite", "talent name")
 t("In a frenzy @Source@ bites at @Target@!", "In a frenzy @Source@ bites at @Target@!", "_t")
@@ -25656,7 +25764,6 @@ t("Slime Roots", "Slime Roots", "talent name")
 t("You extend slimy roots into the ground, follow them, and re-appear somewhere else in a range of %d with error margin of %d.", "You extend slimy roots into the ground, follow them, and re-appear somewhere else in a range of %d with error margin of %d.", "tformat")
 t("Animate Blade", "Animate Blade", "talent name")
 t("Not enough space to invoke!", "Not enough space to invoke!", "logPlayer")
-t("Open a hole in space, summoning an animated blade for 10 turns.", "Open a hole in space, summoning an animated blade for 10 turns.", "tformat")
 t("Drench", "Drench", "talent name")
 t([[Blast a wave of water all around you with a radius of %d, making all creatures Wet for 10 turns.
 		The damage will increase with your Spellpower.]], [[Blast a wave of water all around you with a radius of %d, making all creatures Wet for 10 turns.
@@ -25870,22 +25977,18 @@ t("power %d for %d turns", "power %d for %d turns", "tformat")
 section "mod-tome/data/talents/misc/misc.lua"
 
 t("class", "classe", "talent type")
--- nouveau texte
---[==[
-t("race", "race", "talent type")
-t("infusions", "infusions", "talent type")
-t("runes", "runes", "talent type")
-t("taints", "taints", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("base", "base", "talent category")
 t("The basic talents defining a class.", "The basic talents defining a class.", "_t")
+t("race", "race", "talent type")
 t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
 t("inscriptions", "inscriptions", "talent category")
+t("infusions", "infusions", "talent type")
 t("Infusions are not class abilities, you must find them or learn them from other people.", "Infusions are not class abilities, you must find them or learn them from other people.", "_t")
+t("runes", "runes", "talent type")
 t("Runes are not class abilities, you must find them or learn them from other people.", "Runes are not class abilities, you must find them or learn them from other people.", "_t")
+t("taints", "taints", "talent type")
 t("Taints are not class abilities, you must find them or learn them from other people.", "Taints are not class abilities, you must find them or learn them from other people.", "_t")
 t("Attack", "Attack", "talent name")
 t("#Source# attacks empty space.", "#Source# attacks empty space.", "logCombat")
@@ -25967,11 +26070,6 @@ t("misc", "divers", "talent type")
 t("Disarm", "Désarmement", "talent name")
 t("Knockback", "Repoussage", "talent name")
 t("something", "quelque chose", "_t")
--- nouveau texte
---[==[
-t("keepsake shadow", "keepsake shadow", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
@@ -25980,6 +26078,7 @@ t("chronomancy", "chronomancy", "talent category")
 t("corruption", "corruption", "talent category")
 t("wild-gift", "wild-gift", "talent category")
 t("psionic", "psionic", "talent category")
+t("keepsake shadow", "keepsake shadow", "talent type")
 t("Keepsake shadows's innate abilities.", "Keepsake shadows's innate abilities.", "_t")
 t("cursed", "cursed", "talent category")
 t("Multiply", "Multiply", "talent name")
@@ -26429,21 +26528,17 @@ t("other", "autre", "talent category")
 t("misc", "divers", "talent category")
 t("None", "Aucune", "_t")
 t(" and ", " et ", "_t")
--- nouveau texte
---[==[
-t("fortress", "fortress", "talent type")
-t("object spells", "object spells", "talent type")
-t("object powers", "object powers", "talent type")
-t("object techniques", "object techniques", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("sher'tul", "sher'tul", "talent category")
+t("fortress", "fortress", "talent type")
 t("Yiilkgur abilities.", "Yiilkgur abilities.", "_t")
+t("object spells", "object spells", "talent type")
 t("Spell abilities of the various objects of the world.", "Spell abilities of the various objects of the world.", "_t")
+t("object powers", "object powers", "talent type")
 t("Abilities of the various objects of the world.", "Abilities of the various objects of the world.", "_t")
 t("technique", "technique", "talent category")
+t("object techniques", "object techniques", "talent type")
 t("Techniques of the various objects of the world.", "Techniques of the various objects of the world.", "_t")
 t("wild-gift", "wild-gift", "talent category")
 t("Wild gifts of the various objects of the world.", "Wild gifts of the various objects of the world.", "_t")
@@ -26535,19 +26630,17 @@ section "mod-tome/data/talents/misc/races.lua"
 t("Skirmisher", "Tirailleur", "talent name")
 -- nouveau texte
 --[==[
-t("higher", "higher", "talent type")
-t("shalore", "shalore", "talent type")
-t("thalore", "thalore", "talent type")
-t("dwarf", "dwarf", "talent type")
-t("halfling", "halfling", "talent type")
-t("orc", "orc", "talent type")
-t("yeek", "yeek", "talent type")
-t("ogre", "ogre", "talent type")
+t([[Yeeks live fast, think fast, and sacrifice fast for the Way.
+		Your global speed is increased by %0.1f%%.
+		If your life is below 30%% after taking damage you gain 1.5 turns.  This effect can only happen once every %d turns.]], [[Yeeks live fast, think fast, and sacrifice fast for the Way.
+		Your global speed is increased by %0.1f%%.
+		If your life is below 30%% after taking damage you gain 1.5 turns.  This effect can only happen once every %d turns.]], "tformat")
 --]==]
 
 -- texte non traduit
 --[==[
 t("race", "race", "talent category")
+t("higher", "higher", "talent type")
 t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
 t("Wrath of the Highborn", "Wrath of the Highborn", "talent name")
 t([[Call upon the power of the Highborn, increasing all damage by %d%% and reducing all damage taken by %d%% for 5 turns.
@@ -26573,6 +26666,7 @@ t([[Activate some of your inner magic, using it to power your abilities.  For th
 		]], [[Activate some of your inner magic, using it to power your abilities.  For the next %d turns all active talents will be used without resource cost.
 		Your resources must still be high enough to initially power the talent and failure rates (etc.) still apply.
 		]], "tformat")
+t("shalore", "shalore", "talent type")
 t("Grace of the Eternals", "Grace of the Eternals", "talent name")
 t([[Call upon the grace of the Eternals to increase your global speed by %d%% for 5 turns.
 		The speed bonus will increase with your Dexterity or Magic (whichever is higher).]], [[Call upon the grace of the Eternals to increase your global speed by %d%% for 5 turns.
@@ -26589,6 +26683,7 @@ t("Timeless", "Timeless", "talent name")
 t([[The world grows old as you stand through the ages. To you, time is different.
 		Reduces the time remaining on detrimental effects by %d, most cooling down talents by %d, and increases the time remaining on beneficial effects by %d (up to 2 times the current duration).]], [[The world grows old as you stand through the ages. To you, time is different.
 		Reduces the time remaining on detrimental effects by %d, most cooling down talents by %d, and increases the time remaining on beneficial effects by %d (up to 2 times the current duration).]], "tformat")
+t("thalore", "thalore", "talent type")
 t("Gift of the Woods", "Gift of the Woods", "talent name")
 t([[Call upon nature to regenerate your body for %d life every turn and increase healing mod by %d%% for 8 turns.
 		The life healed will increase with your Willpower or Constitution (whichever is higher).]], [[Call upon nature to regenerate your body for %d life every turn and increase healing mod by %d%% for 8 turns.
@@ -26614,6 +26709,7 @@ t([[Nature is with the Thaloren; they can always feel the call of the woods.
 		The treants have a global resistance equal to your blight resistance and can stun, knockback, and taunt foes.
 		Your Willpower (%d) will be added to all of their non-Magic primary stats and their talent levels will increase with your Nature's Pride talent level.
 		Your increased damage, damage penetration, and many other stats will be inherited.]], "tformat")
+t("dwarf", "dwarf", "talent type")
 t("Resilience of the Dwarves", "Resilience of the Dwarves", "talent name")
 t([[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
 		The bonuses will increase with your Constitution.]], [[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
@@ -26636,6 +26732,7 @@ t([[While the origins of the dwarves remain clouded in mystery to the other race
 		This can pass through up to %d tiles (increases with Constitution and talent level).]], [[While the origins of the dwarves remain clouded in mystery to the other races, it is obvious that they share strong ties to the stone.
 		You can target any wall and immediately enter it, appearing on the other side.
 		This can pass through up to %d tiles (increases with Constitution and talent level).]], "tformat")
+t("halfling", "halfling", "talent type")
 t("Luck of the Little Folk", "Luck of the Little Folk", "talent name")
 t([[Call upon the luck and cunning of the Little Folk to increase your critical strike chance by %d%% and your saves by %d for 5 turns.
 		The bonus will increase with your Cunning.]], [[Call upon the luck and cunning of the Little Folk to increase your critical strike chance by %d%% and your saves by %d for 5 turns.
@@ -26652,6 +26749,7 @@ t("Indomitable", "Indomitable", "talent name")
 t([[Halflings have one of the most powerful military forces in the known world and have been at war with most other races for thousands of years.
 		Removes %d stun, daze, or pin effects and grants immunity to stuns, dazes and pins for %d turns.]], [[Halflings have one of the most powerful military forces in the known world and have been at war with most other races for thousands of years.
 		Removes %d stun, daze, or pin effects and grants immunity to stuns, dazes and pins for %d turns.]], "tformat")
+t("orc", "orc", "talent type")
 t("Orcish Fury", "Orcish Fury", "talent name")
 t([[Summons your lust for blood and destruction; especially when the odds are against you.  
 		You increase your damage by 10%% + %0.1f%% per enemy you can see in line of sight of you (maximum 5 enemies, %0.1f%% bonus) for 3 turns.
@@ -26678,6 +26776,7 @@ t([[Call upon the will of all of the Orc Prides to survive this battle.
 		The healing will increase with talent level and your Willpower.]], [[Call upon the will of all of the Orc Prides to survive this battle.
 		You remove up to %d detrimental effect(s) then heal for %d life.
 		The healing will increase with talent level and your Willpower.]], "tformat")
+t("yeek", "yeek", "talent type")
 t("Dominant Will", "Dominant Will", "talent name")
 t("%s is immune to instakill and mind control effects!", "%s is immune to instakill and mind control effects!", "logSeen")
 t("%s must be below 80%% of their max life to be controlled!", "%s must be below 80%% of their max life to be controlled!", "logSeen")
@@ -26695,11 +26794,6 @@ t([[Your mind becomes more attuned to the Way, and is shielded from outside effe
 		Increase confusion and silence immunities by %d%% and Mental Save by %d.]], "tformat")
 t("Quickened", "Quickened", "talent name")
 t("#RED#%s reacts immediately after taking severe wounds!#LAST#", "#RED#%s reacts immediately after taking severe wounds!#LAST#", "logSeen")
-t([[Yeeks live fast, think fast, and sacrifice fast for the Way.
-		Your global speed is increased by %0.1f%%.
-		If your life drops below 30%% you gain 1.5 turns.  This effect can only happen once every %d turns.]], [[Yeeks live fast, think fast, and sacrifice fast for the Way.
-		Your global speed is increased by %0.1f%%.
-		If your life drops below 30%% you gain 1.5 turns.  This effect can only happen once every %d turns.]], "tformat")
 t("Wayist", "Wayist", "talent name")
 t("yeek mindslayer", "yeek mindslayer", "_t")
 t("A wayist that came to help.", "A wayist that came to help.", "_t")
@@ -26714,6 +26808,7 @@ t("Knowledge of the Way", "Knowledge of the Way", "talent name")
 t([[You merge your mind with the rest of the Way for a brief moment; the sum of all yeek knowledge gathers in your mind
 		and allows you to identify any item you could not recognize yourself.]], [[You merge your mind with the rest of the Way for a brief moment; the sum of all yeek knowledge gathers in your mind
 		and allows you to identify any item you could not recognize yourself.]], "tformat")
+t("ogre", "ogre", "talent type")
 t("Ogric Wrath", "Ogric Wrath", "talent name")
 t([[You enter an ogric wrath for %d turns, increasing your stun and pinning resistances by 20%% and all damage done by 10%%.
 		In addition, whenever you use an infusion or rune, miss a melee attack, or any damage you deal is reduced by a damage shield (or similar effect) you gain a charge of Ogre Fury (up to 5 charges total, each lasting 7 turns).
@@ -26832,15 +26927,6 @@ t([[Surround yourself with a forcefield, reducing all incoming damage by %d%%.
 section "mod-tome/data/talents/psionic/augmented-mobility.lua"
 
 
--- nouveau texte
---[==[
-t([[Briefly extend your telekinetic reach to grab an enemy, haul them towards you and daze them for 1 turn.
-		Works on enemies up to %d squares away.
-		The cooldown decreases, and the range increases, with additional talent points spent.]], [[Briefly extend your telekinetic reach to grab an enemy, haul them towards you and daze them for 1 turn.
-		Works on enemies up to %d squares away.
-		The cooldown decreases, and the range increases, with additional talent points spent.]], "tformat")
---]==]
-
 -- texte non traduit
 --[==[
 t("Skate", "Skate", "talent name")
@@ -26857,6 +26943,11 @@ t([[Encase your body in a sheath of thought-quick forces, allowing you to contro
 		The duration improves with your Mindpower.]], "tformat")
 t("Mindhook", "Mindhook", "talent name")
 t("The target is out of range", "The target is out of range", "logPlayer")
+t([[Briefly extend your telekinetic reach to grab an enemy, haul them towards you and daze them for 1 turn.
+		Works on enemies up to %d squares away.
+		The cooldown decreases, and the range increases, with additional talent points spent.]], [[Briefly extend your telekinetic reach to grab an enemy, haul them towards you and daze them for 1 turn.
+		Works on enemies up to %d squares away.
+		The cooldown decreases, and the range increases, with additional talent points spent.]], "tformat")
 t("Telekinetic Leap", "Telekinetic Leap", "talent name")
 t("@Source@ performs a telekinetically enhanced leap!", "@Source@ performs a telekinetically enhanced leap!", "_t")
 t("You can not jump onto a creature.", "You can not jump onto a creature.", "logPlayer")
@@ -27395,8 +27486,9 @@ t([[Link minds with the target.  While your minds are linked, you'll inflict %d%
 section "mod-tome/data/talents/psionic/nightmare.lua"
 
 t("Nightmare", "Cauchemar", "talent name")
--- nouveau texte
+-- texte non traduit
 --[==[
+t("%s resists the nightmare!", "%s resists the nightmare!", "logSeen")
 t([[Puts targets in a radius %d cone into a nightmarish sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
 		Each turn, they'll suffer %0.2f darkness damage.  This damage will not reduce the duration of the effect.
 		When Nightmare ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
@@ -27404,11 +27496,6 @@ t([[Puts targets in a radius %d cone into a nightmarish sleep for %d turns, rend
 		Each turn, they'll suffer %0.2f darkness damage.  This damage will not reduce the duration of the effect.
 		When Nightmare ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
 		The damage threshold and darkness damage will scale with your Mindpower.]], "tformat")
---]==]
-
--- texte non traduit
---[==[
-t("%s resists the nightmare!", "%s resists the nightmare!", "logSeen")
 t("Inner Demons", "Inner Demons", "talent name")
 t("%s's Inner Demon", "%s's Inner Demon", "tformat")
 t("A hideous, demonic entity that resembles the creature it came from.", "A hideous, demonic entity that resembles the creature it came from.", "_t")
@@ -27604,6 +27691,19 @@ t([[You temporarily set aside a part of you mind to direct your telekinetically-
 section "mod-tome/data/talents/psionic/psi-fighting.lua"
 
 
+-- nouveau texte
+--[==[
+t([[Assume a defensive mental state.
+		For one turn, you will fully block the next melee attack used against you with your telekinetically-wielded weapon and then strike the attacker with it for %d%% weapon damage.
+		At talent level 3 you will also disarm the attacker for 3 turns.
+		At talent level 5 you will be able to reflexively block up to one attack per turn with a %d%% chance, based on your cunning. Each trigger requires and uses 10 Psi.
+		This requires a telekinetically-wielded weapon.]], [[Assume a defensive mental state.
+		For one turn, you will fully block the next melee attack used against you with your telekinetically-wielded weapon and then strike the attacker with it for %d%% weapon damage.
+		At talent level 3 you will also disarm the attacker for 3 turns.
+		At talent level 5 you will be able to reflexively block up to one attack per turn with a %d%% chance, based on your cunning. Each trigger requires and uses 10 Psi.
+		This requires a telekinetically-wielded weapon.]], "tformat")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Telekinetic Smash", "Telekinetic Smash", "talent name")
@@ -27622,15 +27722,6 @@ t([[While active, you give your flesh and blood body a boost in the form of prec
 		Strength increased by %d
 		Dexterity increased by %d]], "tformat")
 t("Warding Weapon", "Warding Weapon", "talent name")
-t([[Assume a defensive mental state.
-		For one turn, you will fully block the next melee attack used against you with your telekinetically-wielded weapon and then strike the attacker with it for %d%% weapon damage.
-		At raw talent level 3 you will also disarm the attacker for 3 turns.
-		At raw talent level 5 you will be able to reflexively block up to one attack per turn with a %d%% chance, based on your cunning. Each trigger requires and uses 10 Psi.
-		This requires a telekinetically-wielded weapon.]], [[Assume a defensive mental state.
-		For one turn, you will fully block the next melee attack used against you with your telekinetically-wielded weapon and then strike the attacker with it for %d%% weapon damage.
-		At raw talent level 3 you will also disarm the attacker for 3 turns.
-		At raw talent level 5 you will be able to reflexively block up to one attack per turn with a %d%% chance, based on your cunning. Each trigger requires and uses 10 Psi.
-		This requires a telekinetically-wielded weapon.]], "tformat")
 t("Impale", "Impale", "talent name")
 t("You cannot do that without a weapon in your telekinetic slot.", "You cannot do that without a weapon in your telekinetic slot.", "logPlayer")
 t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s shatters %s shield!", "logSeen")
@@ -27648,61 +27739,57 @@ t([[Focus your will into a powerful thrust of your telekinetically-wielded weapo
 section "mod-tome/data/talents/psionic/psionic.lua"
 
 t("other", "autre", "talent type")
--- nouveau texte
---[==[
-t("absorption", "absorption", "talent type")
-t("projection", "projection", "talent type")
-t("psi-fighting", "psi-fighting", "talent type")
-t("focus", "focus", "talent type")
-t("augmented mobility", "augmented mobility", "talent type")
-t("augmented striking", "augmented striking", "talent type")
-t("voracity", "voracity", "talent type")
-t("finer energy manipulations", "finer energy manipulations", "talent type")
-t("kinetic mastery", "kinetic mastery", "talent type")
-t("thermal mastery", "thermal mastery", "talent type")
-t("charged mastery", "charged mastery", "talent type")
-t("discharge", "discharge", "talent type")
-t("distortion", "distortion", "talent type")
-t("Dream Smith", "Dream Smith", "talent type")
-t("nightmare", "nightmare", "talent type")
-t("Psychic Assault", "Psychic Assault", "talent type")
-t("slumber", "slumber", "talent type")
-t("solipsism", "solipsism", "talent type")
-t("Thought-Forms", "Thought-Forms", "talent type")
-t("Dream Forge", "Dream Forge", "talent type")
-t("dreaming", "dreaming", "talent type")
-t("mentalism", "mentalism", "talent type")
-t("feedback", "feedback", "talent type")
-t("trance", "trance", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("psionic", "psionic", "talent category")
+t("absorption", "absorption", "talent type")
 t("Absorb damage and gain energy.", "Absorb damage and gain energy.", "_t")
+t("projection", "projection", "talent type")
 t("Project energy to damage foes.", "Project energy to damage foes.", "_t")
+t("psi-fighting", "psi-fighting", "talent type")
 t("Wield melee weapons with mentally-manipulated forces.", "Wield melee weapons with mentally-manipulated forces.", "_t")
+t("focus", "focus", "talent type")
 t("Use gems to focus your energies.", "Use gems to focus your energies.", "_t")
+t("augmented mobility", "augmented mobility", "talent type")
 t("Use energy to move yourself and others.", "Use energy to move yourself and others.", "_t")
+t("augmented striking", "augmented striking", "talent type")
 t("Augment melee attacks with psionic enegies.", "Augment melee attacks with psionic enegies.", "_t")
+t("voracity", "voracity", "talent type")
 t("Pull energy from your surroundings.", "Pull energy from your surroundings.", "_t")
+t("finer energy manipulations", "finer energy manipulations", "talent type")
 t("Subtle applications of the psionic arts.", "Subtle applications of the psionic arts.", "_t")
 t("Various psionic talents.", "Various psionic talents.", "_t")
+t("kinetic mastery", "kinetic mastery", "talent type")
 t("Mastery of telekinetic forces.", "Mastery of telekinetic forces.", "_t")
+t("thermal mastery", "thermal mastery", "talent type")
 t("Mastery of pyrokinetic forces.", "Mastery of pyrokinetic forces.", "_t")
+t("charged mastery", "charged mastery", "talent type")
 t("Mastery of electrokinetic forces.", "Mastery of electrokinetic forces.", "_t")
+t("discharge", "discharge", "talent type")
 t("Project feedback on the world around you.", "Project feedback on the world around you.", "_t")
+t("distortion", "distortion", "talent type")
 t("Distort reality with your mental energy.", "Distort reality with your mental energy.", "_t")
+t("Dream Smith", "Dream Smith", "talent type")
 t("Call the dream-forge hammer to smite your foes.", "Call the dream-forge hammer to smite your foes.", "_t")
+t("nightmare", "nightmare", "talent type")
 t("Manifest your enemies nightmares.", "Manifest your enemies nightmares.", "_t")
+t("Psychic Assault", "Psychic Assault", "talent type")
 t("Directly attack your opponents minds.", "Directly attack your opponents minds.", "_t")
+t("slumber", "slumber", "talent type")
 t("Force enemies into a deep sleep.", "Force enemies into a deep sleep.", "_t")
+t("solipsism", "solipsism", "talent type")
 t("Nothing exists outside the minds ability to perceive it.", "Nothing exists outside the minds ability to perceive it.", "_t")
+t("Thought-Forms", "Thought-Forms", "talent type")
 t("Manifest your thoughts as psionic summons.", "Manifest your thoughts as psionic summons.", "_t")
+t("Dream Forge", "Dream Forge", "talent type")
 t("Master the dream forge to create powerful armor and effects.", "Master the dream forge to create powerful armor and effects.", "_t")
+t("dreaming", "dreaming", "talent type")
 t("Manipulate the sleep cycles of yourself and your enemies.", "Manipulate the sleep cycles of yourself and your enemies.", "_t")
+t("mentalism", "mentalism", "talent type")
 t("Various mind based effects.", "Various mind based effects.", "_t")
+t("feedback", "feedback", "talent type")
 t("Store feedback as you get damaged and use it to protect and heal your body.", "Store feedback as you get damaged and use it to protect and heal your body.", "_t")
+t("trance", "trance", "talent type")
 t("Put your mind into a deep trance.", "Put your mind into a deep trance.", "_t")
 --]==]
 
@@ -28206,17 +28293,21 @@ t([[You recall the age long gone where necromancers had free reign over the worl
 section "mod-tome/data/talents/spells/air.lua"
 
 t("Lightning", "Foudre", "talent name")
+-- nouveau texte
+--[==[
+t([[Invokes an arc of lightning doing %0.2f to %0.2f damage (%0.2f average) and chaining to another target.
+		The arc can jump to %d targets at most, up to 10 grids apart, and will never jump to the same target twice, or to the caster. The arc will also strike all creatures between each target.
+		The damage will increase with your Spellpower.]], [[Invokes an arc of lightning doing %0.2f to %0.2f damage (%0.2f average) and chaining to another target.
+		The arc can jump to %d targets at most, up to 10 grids apart, and will never jump to the same target twice, or to the caster. The arc will also strike all creatures between each target.
+		The damage will increase with your Spellpower.]], "tformat")
+--]==]
+
 -- texte non traduit
 --[==[
 t([[Conjures up mana into a powerful beam of lightning, doing %0.2f to %0.2f damage (%0.2f average)
 		The damage will increase with your Spellpower.]], [[Conjures up mana into a powerful beam of lightning, doing %0.2f to %0.2f damage (%0.2f average)
 		The damage will increase with your Spellpower.]], "tformat")
 t("Chain Lightning", "Chain Lightning", "talent name")
-t([[Invokes a forking beam of lightning doing %0.2f to %0.2f damage (%0.2f average) and forking to another target.
-		It can hit up to %d targets up to 10 grids apart, and will never hit the same one twice; nor will it hit the caster.
-		The damage will increase with your Spellpower.]], [[Invokes a forking beam of lightning doing %0.2f to %0.2f damage (%0.2f average) and forking to another target.
-		It can hit up to %d targets up to 10 grids apart, and will never hit the same one twice; nor will it hit the caster.
-		The damage will increase with your Spellpower.]], "tformat")
 t("Feather Wind", "Feather Wind", "talent name")
 t([[A gentle wind circles around the caster, increasing carrying capacity by %d, defense against projectiles by %d, pin immunity by %d%% and stun immunity by %d%%.
 		At level 4 it also makes you levitate slightly above the ground, allowing you to ignore some traps.
@@ -28735,15 +28826,6 @@ t([[You concentrate on your inner self, increasing your Strength, Dexterity, Mag
 section "mod-tome/data/talents/spells/eradication.lua"
 
 
--- nouveau texte
---[==[
-t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and it will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
-		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
-		The damage will increase with your Spellpower.]], [[Your target's doom draws near. Its healing factor is reduced by 80%%, and it will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
-		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
-		The damage will increase with your Spellpower.]], "tformat")
---]==]
-
 -- texte non traduit
 --[==[
 t("Boneyard", "Boneyard", "talent name")
@@ -28765,6 +28847,11 @@ t([[Teleport all foes in radius %d to your boneyard, as close to its center as p
 		Up to %d ghouls or skeletons are created around them by the boneyard, without any additional soul cost, but they only last 5 turns.
 		]], "tformat")
 t("Impending Doom", "Impending Doom", "talent name")
+t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and it will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
+		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
+		The damage will increase with your Spellpower.]], [[Your target's doom draws near. Its healing factor is reduced by 80%%, and it will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
+		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
+		The damage will increase with your Spellpower.]], "tformat")
 t("Eternal Night", "Eternal Night", "talent name")
 t([[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
 		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], [[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
@@ -29450,22 +29537,6 @@ t([[You summon a river of tortured souls to launch an onslaught of darkness agai
 section "mod-tome/data/talents/spells/phantasm.lua"
 
 
--- nouveau texte
---[==[
-t("#YELLOW#(%d ignored)#LAST#", "#YELLOW#(%d ignored)#LAST#", "tformat")
-t([[Create a perfect lookalike of your own form made out of pure light near a creature.
-		This image has %d life and can never take more than 1 damage per creature per turn and is immune to any non direct damage (ground effects, damage over time, ...).
-		Whenever you cast a spell your mirror image will try to duplicate it at the same target for 66%% less damage, if possible. If it can, it will lose 1 life, if not it will instead taunt a creature to focus its attention on itself.
-		While the image exists you receive the damage bonus from the Invisibility spell as if you were invisible.
-		This spell can not be cast while a Mirror Image already exists and only in combat. It will disappear after a few turn when outside of combat.
-		]], [[Create a perfect lookalike of your own form made out of pure light near a creature.
-		This image has %d life and can never take more than 1 damage per creature per turn and is immune to any non direct damage (ground effects, damage over time, ...).
-		Whenever you cast a spell your mirror image will try to duplicate it at the same target for 66%% less damage, if possible. If it can, it will lose 1 life, if not it will instead taunt a creature to focus its attention on itself.
-		While the image exists you receive the damage bonus from the Invisibility spell as if you were invisible.
-		This spell can not be cast while a Mirror Image already exists and only in combat. It will disappear after a few turn when outside of combat.
-		]], "tformat")
---]==]
-
 -- texte non traduit
 --[==[
 t("Illuminate", "Illuminate", "talent name")
@@ -29473,6 +29544,7 @@ t([[Creates a globe of pure light within a radius of %d that illuminates the are
 		At level 3, it also blinds all who see it (except the caster) for %d turns.]], [[Creates a globe of pure light within a radius of %d that illuminates the area and deals %0.2f damage to all creatures.
 		At level 3, it also blinds all who see it (except the caster) for %d turns.]], "tformat")
 t("Phantasmal Shield", "Phantasmal Shield", "talent name")
+t("#YELLOW#(%d ignored)#LAST#", "#YELLOW#(%d ignored)#LAST#", "tformat")
 t([[Surround yourself with a phantasmal shield of pure light.
 		Whenever you would take damage there is %d%% chance to become ethereal for an instant and fully ignore it.
 		If you do get hit, the shield glows brightly, sending triggering a flash of light on the attacker, dealing %0.2f light damage in radius %d around it and dazzling any affected creature (deal 10%% less damage) for 5 turns. This can only happen every %d turns.
@@ -29491,6 +29563,17 @@ t("You cannot summon; you are suppressed!", "You cannot summon; you are suppress
 t("Mirror Image (%s)", "Mirror Image (%s)", "tformat")
 t("A blurred image.", "A blurred image.", "_t")
 t("Summon", "Summon", "_t")
+t([[Create a perfect lookalike of your own form made out of pure light near a creature.
+		This image has %d life and can never take more than 1 damage per creature per turn and is immune to any non direct damage (ground effects, damage over time, ...).
+		Whenever you cast a spell your mirror image will try to duplicate it at the same target for 66%% less damage, if possible. If it can, it will lose 1 life, if not it will instead taunt a creature to focus its attention on itself.
+		While the image exists you receive the damage bonus from the Invisibility spell as if you were invisible.
+		This spell can not be cast while a Mirror Image already exists and only in combat. It will disappear after a few turn when outside of combat.
+		]], [[Create a perfect lookalike of your own form made out of pure light near a creature.
+		This image has %d life and can never take more than 1 damage per creature per turn and is immune to any non direct damage (ground effects, damage over time, ...).
+		Whenever you cast a spell your mirror image will try to duplicate it at the same target for 66%% less damage, if possible. If it can, it will lose 1 life, if not it will instead taunt a creature to focus its attention on itself.
+		While the image exists you receive the damage bonus from the Invisibility spell as if you were invisible.
+		This spell can not be cast while a Mirror Image already exists and only in combat. It will disappear after a few turn when outside of combat.
+		]], "tformat")
 --]==]
 
 
@@ -29573,110 +29656,106 @@ section "mod-tome/data/talents/spells/spells.lua"
 
 t("spell", "contre les sorts", "talent category")
 t("water", "eau", "talent type")
--- nouveau texte
---[==[
-t("arcane", "arcane", "talent type")
-t("aether", "aether", "talent type")
-t("fire", "fire", "talent type")
-t("wildfire", "wildfire", "talent type")
-t("earth", "earth", "talent type")
-t("stone", "stone", "talent type")
-t("ice", "ice", "talent type")
-t("air", "air", "talent type")
-t("storm", "storm", "talent type")
-t("meta", "meta", "talent type")
-t("temporal", "temporal", "talent type")
-t("phantasm", "phantasm", "talent type")
-t("enhancement", "enhancement", "talent type")
-t("thaumaturgy", "thaumaturgy", "talent type")
-t("conveyance", "conveyance", "talent type")
-t("divination", "divination", "talent type")
-t("aegis", "aegis", "talent type")
-t("explosive admixtures", "explosive admixtures", "talent type")
-t("infusion", "infusion", "talent type")
-t("golemancy", "golemancy", "talent type")
-t("advanced-golemancy", "advanced-golemancy", "talent type")
-t("fire alchemy", "fire alchemy", "talent type")
-t("acid alchemy", "acid alchemy", "talent type")
-t("frost alchemy", "frost alchemy", "talent type")
-t("energy alchemy", "energy alchemy", "talent type")
-t("stone alchemy", "stone alchemy", "talent type")
-t("staff combat", "staff combat", "talent type")
-t("fighting", "fighting", "talent type")
-t("golem", "golem", "talent type")
-t("drolem", "drolem", "talent type")
-t("master of bones", "master of bones", "talent type")
-t("master of flesh", "master of flesh", "talent type")
-t("master necromancer", "master necromancer", "talent type")
-t("nightfall", "nightfall", "talent type")
-t("dreadmaster", "dreadmaster", "talent type")
-t("age of dusk", "age of dusk", "talent type")
-t("grave", "grave", "talent type")
-t("glacial waste", "glacial waste", "talent type")
-t("rime wraith", "rime wraith", "talent type")
-t("animus", "animus", "talent type")
-t("death", "death", "talent type")
-t("eradication", "eradication", "talent type")
-t("necrosis", "necrosis", "talent type")
-t("spectre", "spectre", "talent type")
-t("eldritch shield", "eldritch shield", "talent type")
-t("eldritch stone", "eldritch stone", "talent type")
-t("deeprock", "deeprock", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
+t("arcane", "arcane", "talent type")
 t("Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "_t")
+t("aether", "aether", "talent type")
 t("Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "_t")
+t("fire", "fire", "talent type")
 t("Harness the power of fire to burn your foes to ashes.", "Harness the power of fire to burn your foes to ashes.", "_t")
+t("wildfire", "wildfire", "talent type")
 t("Harness the power of wildfire to burn your foes to ashes.", "Harness the power of wildfire to burn your foes to ashes.", "_t")
+t("earth", "earth", "talent type")
 t("Harness the power of the earth to protect and destroy.", "Harness the power of the earth to protect and destroy.", "_t")
+t("stone", "stone", "talent type")
 t("Harness the power of the stone to protect and destroy.", "Harness the power of the stone to protect and destroy.", "_t")
 t("Harness the power of water to drown your foes.", "Harness the power of water to drown your foes.", "_t")
+t("ice", "ice", "talent type")
 t("Harness the power of ice to freeze and shatter your foes.", "Harness the power of ice to freeze and shatter your foes.", "_t")
+t("air", "air", "talent type")
 t("Harness the power of the air to fry your foes.", "Harness the power of the air to fry your foes.", "_t")
+t("storm", "storm", "talent type")
 t("Harness the power of the storm to incinerate your foes.", "Harness the power of the storm to incinerate your foes.", "_t")
+t("meta", "meta", "talent type")
 t("Meta spells alter the working of magic itself.", "Meta spells alter the working of magic itself.", "_t")
+t("temporal", "temporal", "talent type")
 t("The school of time manipulation.", "The school of time manipulation.", "_t")
+t("phantasm", "phantasm", "talent type")
 t("Control the power of tricks and illusions.", "Control the power of tricks and illusions.", "_t")
+t("enhancement", "enhancement", "talent type")
 t("Magical enhancement of your body.", "Magical enhancement of your body.", "_t")
+t("thaumaturgy", "thaumaturgy", "talent type")
 t("The pinacle of spellcasting.", "The pinacle of spellcasting.", "_t")
+t("conveyance", "conveyance", "talent type")
 t("Conveyance is the school of travel. It allows you to travel faster and to track others.", "Conveyance is the school of travel. It allows you to travel faster and to track others.", "_t")
+t("divination", "divination", "talent type")
 t("Divination allows the caster to sense its surroundings, and find hidden things.", "Divination allows the caster to sense its surroundings, and find hidden things.", "_t")
+t("aegis", "aegis", "talent type")
 t("Command the arcane forces into healing and protection.", "Command the arcane forces into healing and protection.", "_t")
+t("explosive admixtures", "explosive admixtures", "talent type")
 t("Manipulate gems to turn them into explosive magical bombs.", "Manipulate gems to turn them into explosive magical bombs.", "_t")
+t("infusion", "infusion", "talent type")
 t("Infusion your gem bombs with the powers of the elements.", "Infusion your gem bombs with the powers of the elements.", "_t")
+t("golemancy", "golemancy", "talent type")
 t("Learn to craft and upgrade your golem.", "Learn to craft and upgrade your golem.", "_t")
+t("advanced-golemancy", "advanced-golemancy", "talent type")
 t("Advanced golem operations.", "Advanced golem operations.", "_t")
+t("fire alchemy", "fire alchemy", "talent type")
 t("Alchemical spells designed to wage war.", "Alchemical spells designed to wage war.", "_t")
 t("Alchemical control over fire.", "Alchemical control over fire.", "_t")
+t("acid alchemy", "acid alchemy", "talent type")
 t("Alchemical control over acid.", "Alchemical control over acid.", "_t")
+t("frost alchemy", "frost alchemy", "talent type")
 t("Alchemical control over frost.", "Alchemical control over frost.", "_t")
+t("energy alchemy", "energy alchemy", "talent type")
 t("Alchemical control over lightning energies.", "Alchemical control over lightning energies.", "_t")
+t("stone alchemy", "stone alchemy", "talent type")
 t("Manipulate gems, and imbue their powers into other objects.", "Manipulate gems, and imbue their powers into other objects.", "_t")
 t("Alchemical control over stone and gems.", "Alchemical control over stone and gems.", "_t")
+t("staff combat", "staff combat", "talent type")
 t("Harness the power of magical staves.", "Harness the power of magical staves.", "_t")
 t("golem", "golem", "talent category")
+t("fighting", "fighting", "talent type")
 t("Golem melee capacity.", "Golem melee capacity.", "_t")
 t("Golem arcane capacity.", "Golem arcane capacity.", "_t")
+t("golem", "golem", "talent type")
 t("Golem basic capacity.", "Golem basic capacity.", "_t")
+t("drolem", "drolem", "talent type")
 t("Drolem basic capacity.", "Drolem basic capacity.", "_t")
+t("master of bones", "master of bones", "talent type")
 t("Become of the master of bones, creating skeletal minions to do your bidding.", "Become of the master of bones, creating skeletal minions to do your bidding.", "_t")
+t("master of flesh", "master of flesh", "talent type")
 t("Become of the master of flesh, creating ghoul minions to do your bidding", "Become of the master of flesh, creating ghoul minions to do your bidding", "_t")
+t("master necromancer", "master necromancer", "talent type")
 t("Full and total control over your undead army.", "Full and total control over your undead army.", "_t")
+t("nightfall", "nightfall", "talent type")
 t("Manipulate darkness itself to slaughter your foes.", "Manipulate darkness itself to slaughter your foes.", "_t")
+t("dreadmaster", "dreadmaster", "talent type")
 t("Summon an undead minion of pure darkness to harass your foes.", "Summon an undead minion of pure darkness to harass your foes.", "_t")
+t("age of dusk", "age of dusk", "talent type")
 t("Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "_t")
+t("grave", "grave", "talent type")
 t("Use the rotting cold doom of the tomb to fell your foes.", "Use the rotting cold doom of the tomb to fell your foes.", "_t")
+t("glacial waste", "glacial waste", "talent type")
 t("Wither the land into a cold, dead ground to protect yourself.", "Wither the land into a cold, dead ground to protect yourself.", "_t")
+t("rime wraith", "rime wraith", "talent type")
 t("Summon an undead minion of pure cold to harass your foes.", "Summon an undead minion of pure cold to harass your foes.", "_t")
+t("animus", "animus", "talent type")
 t("Crush the souls of your foes to improve yourself.", "Crush the souls of your foes to improve yourself.", "_t")
+t("death", "death", "talent type")
 t("Learn to fasten your foes way into the grave.", "Learn to fasten your foes way into the grave.", "_t")
+t("eradication", "eradication", "talent type")
 t("Doom to all your foes. Crush them.", "Doom to all your foes. Crush them.", "_t")
+t("necrosis", "necrosis", "talent type")
 t("Gain control over death, by unnaturally expanding your life.", "Gain control over death, by unnaturally expanding your life.", "_t")
+t("spectre", "spectre", "talent type")
 t("Turn into a spectre to move around the battlefield.", "Turn into a spectre to move around the battlefield.", "_t")
+t("eldritch shield", "eldritch shield", "talent type")
 t("Infuse arcane forces into your shield.", "Infuse arcane forces into your shield.", "_t")
+t("eldritch stone", "eldritch stone", "talent type")
 t("Summon stony spikes imbued with various powers.", "Summon stony spikes imbued with various powers.", "_t")
+t("deeprock", "deeprock", "talent type")
 t("Harness the power of the world to turn into a Deeprock Form.", "Harness the power of the world to turn into a Deeprock Form.", "_t")
 t("#GREY#%s can not be healed this way!", "#GREY#%s can not be healed this way!", "logSeen")
 t("Necrotic Minion", "Necrotic Minion", "_t")
@@ -30712,6 +30791,7 @@ t([[Enhances your grapples with additional effects. All additional effects will 
 		Talent Level 3:  Silences
 		Talent Level 5:  Reduces global action speed by %d%%]], "tformat")
 t("Take Down", "Take Down", "talent name")
+t("You cannot move!", "You cannot move!", "logPlayer")
 t([[Rushes forward and attempts to take the target to the ground, making a melee attack for %d%% damage then attempting to grapple them. If you're already grappling the target you'll instead slam them into the ground creating a radius 5 shockwave for %d physical damage and breaking your grapple.
 		The grapple effects and duration will be based off your grapple talent, if you have it, and the damage will scale with your Physical Power.]], [[Rushes forward and attempts to take the target to the ground, making a melee attack for %d%% damage then attempting to grapple them. If you're already grappling the target you'll instead slam them into the ground creating a radius 5 shockwave for %d physical damage and breaking your grapple.
 		The grapple effects and duration will be based off your grapple talent, if you have it, and the damage will scale with your Physical Power.]], "tformat")
@@ -31127,95 +31207,91 @@ t([[Put all of your strength into your weapon blows, creating shockwaves that de
 section "mod-tome/data/talents/techniques/techniques.lua"
 
 
--- nouveau texte
---[==[
-t("two-handed assault", "two-handed assault", "talent type")
-t("berserker's strength", "berserker's strength", "talent type")
-t("two-handed weapons", "two-handed weapons", "talent type")
-t("two-handed maiming", "two-handed maiming", "talent type")
-t("shield offense", "shield offense", "talent type")
-t("shield defense", "shield defense", "talent type")
-t("dual weapons", "dual weapons", "talent type")
-t("dual techniques", "dual techniques", "talent type")
-t("archery - base", "archery - base", "talent type")
-t("archery - bows", "archery - bows", "talent type")
-t("archery - slings", "archery - slings", "talent type")
-t("archery training", "archery training", "talent type")
-t("archery prowess", "archery prowess", "talent type")
-t("archery excellence", "archery excellence", "talent type")
-t("superiority", "superiority", "talent type")
-t("battle tactics", "battle tactics", "talent type")
-t("warcries", "warcries", "talent type")
-t("bloodthirst", "bloodthirst", "talent type")
-t("field control", "field control", "talent type")
-t("combat techniques", "combat techniques", "talent type")
-t("combat veteran", "combat veteran", "talent type")
-t("combat training", "combat training", "talent type")
-t("magical combat", "magical combat", "talent type")
-t("mobility", "mobility", "talent type")
-t("thuggery", "thuggery", "talent type")
-t("assassination", "assassination", "talent type")
-t("throwing knives", "throwing knives", "talent type")
-t("duelist", "duelist", "talent type")
-t("marksmanship", "marksmanship", "talent type")
-t("reflexes", "reflexes", "talent type")
-t("munitions", "munitions", "talent type")
-t("agility", "agility", "talent type")
-t("sniper", "sniper", "talent type")
-t("Acrobatics", "Acrobatics", "talent type")
-t("Buckler Training", "Buckler Training", "talent type")
-t("Skirmisher - Slings", "Skirmisher - Slings", "talent type")
-t("Tireless Combatant", "Tireless Combatant", "talent type")
-t("pugilism", "pugilism", "talent type")
-t("finishing moves", "finishing moves", "talent type")
-t("grappling", "grappling", "talent type")
-t("unarmed discipline", "unarmed discipline", "talent type")
-t("unarmed training", "unarmed training", "talent type")
-t("conditioning", "conditioning", "talent type")
-t("unarmed other", "unarmed other", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
+t("two-handed assault", "two-handed assault", "talent type")
 t("Specialized two-handed techniques.", "Specialized two-handed techniques.", "_t")
+t("berserker's strength", "berserker's strength", "talent type")
 t("Fear nothing!", "Fear nothing!", "_t")
+t("two-handed weapons", "two-handed weapons", "talent type")
+t("two-handed maiming", "two-handed maiming", "talent type")
+t("shield offense", "shield offense", "talent type")
 t("Specialized weapon and shield techniques.", "Specialized weapon and shield techniques.", "_t")
+t("shield defense", "shield defense", "talent type")
+t("dual weapons", "dual weapons", "talent type")
 t("Specialized dual wielding techniques.", "Specialized dual wielding techniques.", "_t")
+t("dual techniques", "dual techniques", "talent type")
+t("archery - base", "archery - base", "talent type")
 t("Ability to shoot.", "Ability to shoot.", "_t")
+t("archery - bows", "archery - bows", "talent type")
 t("Specialized bow techniques.", "Specialized bow techniques.", "_t")
+t("archery - slings", "archery - slings", "talent type")
 t("Specialized sling techniques.", "Specialized sling techniques.", "_t")
+t("archery training", "archery training", "talent type")
 t("Generic archery techniques.", "Generic archery techniques.", "_t")
+t("archery prowess", "archery prowess", "talent type")
 t("Specialized archery techniques to maim your targets.", "Specialized archery techniques to maim your targets.", "_t")
+t("archery excellence", "archery excellence", "talent type")
 t("Specialized archery techniques that result from honed training.", "Specialized archery techniques that result from honed training.", "_t")
+t("superiority", "superiority", "talent type")
 t("Advanced combat techniques.", "Advanced combat techniques.", "_t")
+t("battle tactics", "battle tactics", "talent type")
 t("Advanced combat tactics.", "Advanced combat tactics.", "_t")
+t("warcries", "warcries", "talent type")
 t("Master the warcries to improve yourself and weaken others.", "Master the warcries to improve yourself and weaken others.", "_t")
+t("bloodthirst", "bloodthirst", "talent type")
 t("Delight in the act of battle and the spilling of blood.", "Delight in the act of battle and the spilling of blood.", "_t")
+t("field control", "field control", "talent type")
 t("Control the battlefield using various techniques.", "Control the battlefield using various techniques.", "_t")
+t("combat techniques", "combat techniques", "talent type")
 t("Generic combat oriented techniques.", "Generic combat oriented techniques.", "_t")
+t("combat veteran", "combat veteran", "talent type")
+t("combat training", "combat training", "talent type")
 t("Teaches to use various armours, weapons and improves health.", "Teaches to use various armours, weapons and improves health.", "_t")
+t("magical combat", "magical combat", "talent type")
 t("The blending together of magic and melee prowess.", "The blending together of magic and melee prowess.", "_t")
+t("mobility", "mobility", "talent type")
 t("Training and techniques to improve mobility and evade your enemies.  On the battlefield, positioning is paramount.", "Training and techniques to improve mobility and evade your enemies.  On the battlefield, positioning is paramount.", "_t")
+t("thuggery", "thuggery", "talent type")
 t("Whatever wins the day, wins the day.", "Whatever wins the day, wins the day.", "_t")
+t("assassination", "assassination", "talent type")
 t("Bring death from the shadows.", "Bring death from the shadows.", "_t")
+t("throwing knives", "throwing knives", "talent type")
 t("Master the art of throwing knives to fight from a distance.", "Master the art of throwing knives to fight from a distance.", "_t")
+t("duelist", "duelist", "talent type")
 t("Use your dual weapons to parry and counter.", "Use your dual weapons to parry and counter.", "_t")
+t("marksmanship", "marksmanship", "talent type")
 t("Training in the use of bows and slings.", "Training in the use of bows and slings.", "_t")
+t("reflexes", "reflexes", "talent type")
 t("Use your reflexes to evade and counter.", "Use your reflexes to evade and counter.", "_t")
+t("munitions", "munitions", "talent type")
 t("Equip specialised ammunition.", "Equip specialised ammunition.", "_t")
+t("agility", "agility", "talent type")
 t("Take advantage of speed and shield to fight in close quarters.", "Take advantage of speed and shield to fight in close quarters.", "_t")
+t("sniper", "sniper", "talent type")
 t("Stealth and specialised long range archery techniques.", "Stealth and specialised long range archery techniques.", "_t")
+t("Acrobatics", "Acrobatics", "talent type")
 t("For light footed Rogues who prefer flight to fighting fair!", "For light footed Rogues who prefer flight to fighting fair!", "_t")
+t("Buckler Training", "Buckler Training", "talent type")
 t("Mastery over their shields separates Skirmishers from Archers, and gives them an edge.", "Mastery over their shields separates Skirmishers from Archers, and gives them an edge.", "_t")
+t("Skirmisher - Slings", "Skirmisher - Slings", "talent type")
 t("Slings! Pow Pow!", "Slings! Pow Pow!", "_t")
+t("Tireless Combatant", "Tireless Combatant", "talent type")
 t("Your will carries you through the most difficult struggles, allowing you to fight on when others would have collapsed from exhaustion.", "Your will carries you through the most difficult struggles, allowing you to fight on when others would have collapsed from exhaustion.", "_t")
+t("pugilism", "pugilism", "talent type")
 t("Unarmed Boxing techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "Unarmed Boxing techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "_t")
+t("finishing moves", "finishing moves", "talent type")
 t("Finishing moves that use combo points and may not be practiced in massive armor or while a weapon or shield is equipped.", "Finishing moves that use combo points and may not be practiced in massive armor or while a weapon or shield is equipped.", "_t")
+t("grappling", "grappling", "talent type")
 t("Grappling techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "Grappling techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "_t")
+t("unarmed discipline", "unarmed discipline", "talent type")
 t("Advanced unarmed techniques including kicks and blocks that may not be practiced in massive armor or while a weapon or shield is equipped.", "Advanced unarmed techniques including kicks and blocks that may not be practiced in massive armor or while a weapon or shield is equipped.", "_t")
+t("unarmed training", "unarmed training", "talent type")
 t("Teaches various martial arts techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "Teaches various martial arts techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "_t")
+t("conditioning", "conditioning", "talent type")
 t("Physical conditioning.", "Physical conditioning.", "_t")
+t("unarmed other", "unarmed other", "talent type")
 t("Base martial arts attack and stances.", "Base martial arts attack and stances.", "_t")
 t("You are currently disarmed and cannot use this talent.", "You are currently disarmed and cannot use this talent.", "_t")
 t("You require a %s to use this talent.", "You require a %s to use this talent.", "tformat")
@@ -31232,21 +31308,6 @@ t("You do not have enough ammo left!", "You do not have enough ammo left!", "log
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/throwing-knives.lua"
 
-
--- nouveau texte
---[==[
-t([[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
-		The base power, Armour penetration, and critical strike chance of your knives increase with talent level, accuracy increase with your accuracy, and damage is improved with Dagger Mastery.
-		Throwing Knives count as melee attacks for the purpose of on-hit effects.
-		Effective Throwing Knife Stats:
-
-%s]], [[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
-		The base power, Armour penetration, and critical strike chance of your knives increase with talent level, accuracy increase with your accuracy, and damage is improved with Dagger Mastery.
-		Throwing Knives count as melee attacks for the purpose of on-hit effects.
-		Effective Throwing Knife Stats:
-
-%s]], "tformat")
---]==]
 
 -- texte non traduit
 --[==[
@@ -31268,6 +31329,17 @@ Crit Chance: %+d%%
 Crit mult: %d%%
 Uses Stats: %s
 ]], "tformat")
+t([[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
+		The base power, Armour penetration, and critical strike chance of your knives increase with talent level, accuracy increase with your accuracy, and damage is improved with Dagger Mastery.
+		Throwing Knives count as melee attacks for the purpose of on-hit effects.
+		Effective Throwing Knife Stats:
+
+%s]], [[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
+		The base power, Armour penetration, and critical strike chance of your knives increase with talent level, accuracy increase with your accuracy, and damage is improved with Dagger Mastery.
+		Throwing Knives count as melee attacks for the purpose of on-hit effects.
+		Effective Throwing Knife Stats:
+
+%s]], "tformat")
 t("Fan of Knives", "Fan of Knives", "talent name")
 t("Fan of Knives", "Fan of Knives", "_t")
 t([[You keep a special stash of %d throwing knives in your bandolier, which you can throw all at once at enemies within a radius %d cone, for %d%% damage each.
@@ -31328,18 +31400,22 @@ t([[You go all out, trying to burn down your foes as fast as possible.
 section "mod-tome/data/talents/techniques/tireless-combatant.lua"
 
 
+-- nouveau texte
+--[==[
+t([[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
+		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
+		If you have a shield equipped and Block is not on cooldown, any blockable damage that is greater than 33%% of your block value (before resistances) will have a %d%% chance to instantly activate Block.
+		The flat damage reduction will increase with your defense.]], [[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
+		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
+		If you have a shield equipped and Block is not on cooldown, any blockable damage that is greater than 33%% of your block value (before resistances) will have a %d%% chance to instantly activate Block.
+		The flat damage reduction will increase with your defense.]], "tformat")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Breathing Room", "Breathing Room", "talent name")
 t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "tformat")
 t("Pace Yourself", "Pace Yourself", "talent name")
-t([[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
-		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
-		If you have a shield equipped and Block is not on cooldown, any blockable damage that is greater than 25%% of your block value (before resistances) will have a %d%% chance to instantly activate Block.
-		The flat damage reduction will increase with your defense.]], [[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
-		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
-		If you have a shield equipped and Block is not on cooldown, any blockable damage that is greater than 25%% of your block value (before resistances) will have a %d%% chance to instantly activate Block.
-		The flat damage reduction will increase with your defense.]], "tformat")
 t("Dauntless Challenger", "Dauntless Challenger", "talent name")
 t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "tformat")
 t("The Eternal Warrior", "The Eternal Warrior", "talent name")
@@ -31440,8 +31516,18 @@ t([[Your battle cry shatters the will of your foes within a radius of %d, loweri
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/weaponshield.lua"
 
-t("turns", "tours", "_t")
-t("turn", "tour", "_t")
+
+-- nouveau texte
+--[==[
+t([[Improves your ability to perform counterstrikes after blocks in the following ways:
+		Allows counterstrikes after incomplete blocks.
+		Increases the number of counterstrikes you can perform on a target while they're vulnerable by %d.
+		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], [[Improves your ability to perform counterstrikes after blocks in the following ways:
+		Allows counterstrikes after incomplete blocks.
+		Increases the number of counterstrikes you can perform on a target while they're vulnerable by %d.
+		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], "tformat")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Shield Pummel", "Shield Pummel", "talent name")
@@ -31452,15 +31538,6 @@ t([[Hits the target with two shield strikes, doing %d%% and %d%% shield damage. 
 		The stun chance increases with your Accuracy and your Strength.]], [[Hits the target with two shield strikes, doing %d%% and %d%% shield damage. If it hits a second time, it stuns the target for %d turns.
 		The stun chance increases with your Accuracy and your Strength.]], "tformat")
 t("Riposte", "Riposte", "talent name")
-t([[Improves your ability to perform counterstrikes after blocks in the following ways:
-		Allows counterstrikes after incomplete blocks.
-		Increases the duration of the counterstrike debuff on attackers by %d %s.
-		Increases the number of counterstrikes you can perform on a target while they're vulnerable by %d.
-		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], [[Improves your ability to perform counterstrikes after blocks in the following ways:
-		Allows counterstrikes after incomplete blocks.
-		Increases the duration of the counterstrike debuff on attackers by %d %s.
-		Increases the number of counterstrikes you can perform on a target while they're vulnerable by %d.
-		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], "tformat")
 t("Shield Slam", "Shield Slam", "talent name")
 t("You cannot use Shield Slam without a shield!", "You cannot use Shield Slam without a shield!", "logPlayer")
 t("Hit your target with your shield 3 times for %d%% damage then quickly return to a blocking position.  The bonus block will not check or trigger Block cooldown.", "Hit your target with your shield 3 times for %d%% damage then quickly return to a blocking position.  The bonus block will not check or trigger Block cooldown.", "tformat")
@@ -31499,6 +31576,9 @@ t([[You brace yourself for the final stand, increasing Defense and Armor by %d, 
 		The increase in Defense and Armor is based on your Dexterity, and the increase in life is based on your Constitution and normal maximum life.]], "tformat")
 --]==]
 
+-- ancien texte traduit
+t("turns", "tours", "_t")
+t("turn", "tour", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/uber/const.lua"
@@ -31554,26 +31634,6 @@ t([[Thanks to your newfound knowledge of corruption, you've learned some tricks 
 ------------------------------------------------
 section "mod-tome/data/talents/uber/cun.lua"
 
-
--- nouveau texte
---[==[
-t([[- %s
-]], [[- %s
-]], "tformat")
-t([[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are not available to magic users, and Group 3 are not available to antimagic characters.
-		GROUP 1:
-%s
-		GROUP 2:
-%s
-		GROUP 3:
-%s]], [[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are not available to magic users, and Group 3 are not available to antimagic characters.
-		GROUP 1:
-%s
-		GROUP 2:
-%s
-		GROUP 3:
-%s]], "tformat")
---]==]
 
 -- texte non traduit
 --[==[
@@ -31673,6 +31733,22 @@ t([[%s
 		This can only happen once per turn per type, and cannot affect the talent that triggers it.]], "tformat")
 t("Worldly Knowledge", "Worldly Knowledge", "talent name")
 t("Worldly Knowledge", "Worldly Knowledge", "_t")
+t([[- %s
+]], [[- %s
+]], "tformat")
+t([[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are not available to magic users, and Group 3 are not available to antimagic characters.
+		GROUP 1:
+%s
+		GROUP 2:
+%s
+		GROUP 3:
+%s]], [[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are not available to magic users, and Group 3 are not available to antimagic characters.
+		GROUP 1:
+%s
+		GROUP 2:
+%s
+		GROUP 3:
+%s]], "tformat")
 t("Adept", "Adept", "talent name")
 t([[You are adept at many different skills, granting you +1.5 to all known talent levels.
 		This works on already known talents and those that you will learn afterwards.]], [[You are adept at many different skills, granting you +1.5 to all known talent levels.
@@ -31929,6 +32005,40 @@ t([[Thaumaturgists have unlocked a deeper understanding of their spells, allowin
 section "mod-tome/data/talents/uber/str.lua"
 
 
+-- nouveau texte
+--[==[
+t("Avatar of a Distant Sun", "Avatar of a Distant Sun", "talent name")
+t("Unlocked the evolution", "Unlocked the evolution", "_t")
+t("Found a distant patron", "Found a distant patron", "_t")
+t("Avatar of a Distant Sun", "Avatar of a Distant Sun", "_t")
+t("Distant Sun", "Distant Sun", "_t")
+t([[During your studies of celestial forces you came in contact with an entity far beyond Eyal: the living incarnation of a Star!
+		By allying yourself with it you can gain its power!
+
+		Grants multiple benefits:
+		- The strength of your bond is so strong that you can now #GOLD#wield a two-handed weapon and a shield together#LAST#
+		- 50%% of all damage you deal is converted to #GOLD#light damage#LAST#
+		- #GOLD#Gravitic Effulgence#LAST#: whenever your Weapon of Light hits the damage is now a radius 2 sphere and all foes in range 5 are drawn to it. (You can toggle this effect)
+		- The damage and chance to trigger of #GOLD#Searing Sight#LAST# is doubled
+		- Whenever #GOLD#Sun's Vengeance#LAST# triggers the remaining cooldown of Judgement is reduced by 6.
+		- If you also know #GOLD#Irresistible Sun#LAST#, it will set the fire and light resistances of those affected to 0%%
+
+		#{italic}##GOLD#Will you bind yourself to the Distant Sun?#{normal}#
+		]], [[During your studies of celestial forces you came in contact with an entity far beyond Eyal: the living incarnation of a Star!
+		By allying yourself with it you can gain its power!
+
+		Grants multiple benefits:
+		- The strength of your bond is so strong that you can now #GOLD#wield a two-handed weapon and a shield together#LAST#
+		- 50%% of all damage you deal is converted to #GOLD#light damage#LAST#
+		- #GOLD#Gravitic Effulgence#LAST#: whenever your Weapon of Light hits the damage is now a radius 2 sphere and all foes in range 5 are drawn to it. (You can toggle this effect)
+		- The damage and chance to trigger of #GOLD#Searing Sight#LAST# is doubled
+		- Whenever #GOLD#Sun's Vengeance#LAST# triggers the remaining cooldown of Judgement is reduced by 6.
+		- If you also know #GOLD#Irresistible Sun#LAST#, it will set the fire and light resistances of those affected to 0%%
+
+		#{italic}##GOLD#Will you bind yourself to the Distant Sun?#{normal}#
+		]], "tformat")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Giant Leap", "Giant Leap", "talent name")
@@ -31989,20 +32099,16 @@ t([[A strong body is key to a strong mind, and a strong mind can be powerful eno
 section "mod-tome/data/talents/uber/uber.lua"
 
 t("other", "autre", "talent type")
--- nouveau texte
+-- texte non traduit
 --[==[
+t("uber", "uber", "talent category")
 t("strength", "strength", "talent type")
+t("Ultimate talents you may only know one.", "Ultimate talents you may only know one.", "_t")
 t("dexterity", "dexterity", "talent type")
 t("constitution", "constitution", "talent type")
 t("magic", "magic", "talent type")
 t("willpower", "willpower", "talent type")
 t("cunning", "cunning", "talent type")
---]==]
-
--- texte non traduit
---[==[
-t("uber", "uber", "talent category")
-t("Ultimate talents you may only know one.", "Ultimate talents you may only know one.", "_t")
 --]==]
 
 -- ancien texte traduit
@@ -32161,21 +32267,6 @@ t([[Gnaw your target for %d%% damage.  If your attack hits, the target may be in
 section "mod-tome/data/talents/undeads/lich.lua"
 
 
--- nouveau texte
---[==[
-t([[Your mere presence is terrying to any foes that dare stand against you.
-		Every turn all foes in radius %d must make a mental save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
-		If they successfully resist, they are immune for %d turns.]], [[Your mere presence is terrying to any foes that dare stand against you.
-		Every turn all foes in radius %d must make a mental save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
-		If they successfully resist, they are immune for %d turns.]], "tformat")
-t([[Blast the target with darkness doing %0.2f damage
-		The damage will increase with Spellpower]], [[Blast the target with darkness doing %0.2f damage
-		The damage will increase with Spellpower]], "tformat")
-t([[Bathes the target in frost doing %0.2f damage
-		The damage will increase with Spellpower]], [[Bathes the target in frost doing %0.2f damage
-		The damage will increase with Spellpower]], "tformat")
---]==]
-
 -- texte non traduit
 --[==[
 t("Neverending Unlife", "Neverending Unlife", "talent name")
@@ -32192,8 +32283,19 @@ t([[A Lich's body is extremely hard to fully destroy. You only die with your lif
 		If you have not killed one when the duration expires or if you are killed again in this duration, you die permanently.
 		If this happens this power can never re-activate, even if you managed to resurrect by other means.]], "tformat")
 t("Frightening Presence", "Frightening Presence", "talent name")
+t([[Your mere presence is terrying to any foes that dare stand against you.
+		Every turn all foes in radius %d must make a mental save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
+		If they successfully resist, they are immune for %d turns.]], [[Your mere presence is terrying to any foes that dare stand against you.
+		Every turn all foes in radius %d must make a mental save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
+		If they successfully resist, they are immune for %d turns.]], "tformat")
 t("Shadow Invoke Darkness", "Shadow Invoke Darkness", "talent name")
+t([[Blast the target with darkness doing %0.2f damage
+		The damage will increase with Spellpower]], [[Blast the target with darkness doing %0.2f damage
+		The damage will increase with Spellpower]], "tformat")
 t("Shadow Cold Touch", "Shadow Cold Touch", "talent name")
+t([[Bathes the target in frost doing %0.2f damage
+		The damage will increase with Spellpower]], [[Bathes the target in frost doing %0.2f damage
+		The damage will increase with Spellpower]], "tformat")
 t("Doomed For Eternity", "Doomed For Eternity", "talent name")
 t([[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
 		Shadows ignore %d%% of the damage dealt to them by their master.]], [[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
@@ -32230,20 +32332,16 @@ section "mod-tome/data/talents/undeads/undeads.lua"
 
 t("undead", "mort-vivant", "talent category")
 t("skeleton", "squelette", "talent type")
--- nouveau texte
---[==[
-t("base", "base", "talent type")
-t("ghoul", "ghoul", "talent type")
-t("vampire", "vampire", "talent type")
-t("lich", "lich", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
+t("base", "base", "talent type")
 t("Undead's innate abilities.", "Undead's innate abilities.", "_t")
+t("ghoul", "ghoul", "talent type")
 t("Ghoul's innate abilities.", "Ghoul's innate abilities.", "_t")
 t("Skeleton's innate abilities.", "Skeleton's innate abilities.", "_t")
+t("vampire", "vampire", "talent type")
 t("Vampire's innate abilities.", "Vampire's innate abilities.", "_t")
+t("lich", "lich", "talent type")
 t("Liches innate abilities.", "Liches innate abilities.", "_t")
 t("Knowledge of the Past", "Knowledge of the Past", "talent name")
 t("You concentrate for a moment to recall some of your memories as a living being and look for knowledge to identify rare objects.", "You concentrate for a moment to recall some of your memories as a living being and look for knowledge to identify rare objects.", "tformat")
@@ -35154,6 +35252,43 @@ Class evolutions are selected as prodigies and grant new ways to build and expan
 
 
 ------------------------------------------------
+section "mod-tome/data/texts/unlock-paladin_avatar.lua"
+
+
+-- nouveau texte
+--[==[
+t("New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "_t")
+t([[You have been contacted by a sentient star, far away from Eyal. It wants to help you on your journey!
+
+You have unlocked the #LIGHT_GREEN#Avatar of a Distant Sun class evolution#WHITE# for Sun Paladins.
+
+Features:
+- #GOLD#Wield a two-handed weapon and a shield together#LAST#
+- 50% of all damage dealt is converted to #GOLD#light damage#LAST#
+- #GOLD#Gravitic Effulgence#LAST#: whenever Weapon of Light hits the damage is now a radius 2 sphere and all foes in range 5 are drawn to it
+- The damage and chance to trigger of #GOLD#Searing Sight#LAST# is doubled
+- Whenever #GOLD#Sun's Vengeance#LAST# triggers the remaining cooldown of Judgement is reduced by 6
+- Interacts with #GOLD#Irresistible Sun#LAST#
+
+Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
+]], [[You have been contacted by a sentient star, far away from Eyal. It wants to help you on your journey!
+
+You have unlocked the #LIGHT_GREEN#Avatar of a Distant Sun class evolution#WHITE# for Sun Paladins.
+
+Features:
+- #GOLD#Wield a two-handed weapon and a shield together#LAST#
+- 50% of all damage dealt is converted to #GOLD#light damage#LAST#
+- #GOLD#Gravitic Effulgence#LAST#: whenever Weapon of Light hits the damage is now a radius 2 sphere and all foes in range 5 are drawn to it
+- The damage and chance to trigger of #GOLD#Searing Sight#LAST# is doubled
+- Whenever #GOLD#Sun's Vengeance#LAST# triggers the remaining cooldown of Judgement is reduced by 6
+- Interacts with #GOLD#Irresistible Sun#LAST#
+
+Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
+]], "_t")
+--]==]
+
+
+------------------------------------------------
 section "mod-tome/data/texts/unlock-paladin_fallen.lua"
 
 
@@ -35477,6 +35612,29 @@ Race features:#YELLOW#
 
 
 ------------------------------------------------
+section "mod-tome/data/texts/unlock-wanderer.lua"
+
+
+-- nouveau texte
+--[==[
+t("New Class: #LIGHT_GREEN#Wanderer", "New Class: #LIGHT_GREEN#Wanderer", "_t")
+t([[You have wanderer quite a lot since your birth!
+You can now create new characters with the #LIGHT_GREEN#Wanderer class#WHITE#.
+
+Wanderers start the game with 3 randomly selected class trees, 1 randomly selected generic tree and Combat Training.
+Every 5 levels the gain a new random class tree and every 10 levels they gain a new generic tree.
+They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
+Use at your own risk, and have fun.]], [[You have wanderer quite a lot since your birth!
+You can now create new characters with the #LIGHT_GREEN#Wanderer class#WHITE#.
+
+Wanderers start the game with 3 randomly selected class trees, 1 randomly selected generic tree and Combat Training.
+Every 5 levels the gain a new random class tree and every 10 levels they gain a new generic tree.
+They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
+Use at your own risk, and have fun.]], "_t")
+--]==]
+
+
+------------------------------------------------
 section "mod-tome/data/texts/unlock-warrior_brawler.lua"
 
 
@@ -35735,6 +35893,15 @@ t("undead", "mort-vivant", "effect subtype")
 t("physical", "physique", "effect subtype")
 t("skeleton", "squelette", "effect subtype")
 t("movement", "mouvement", "effect subtype")
+-- nouveau texte
+--[==[
+t("#Target# summons a prismatic shield for protection!", "#Target# summons a prismatic shield for protection!", "_t")
+t("#Target# is being purged of physical ailments!", "#Target# is being purged of physical ailments!", "_t")
+t("The target is struggling against immense gravity, all damage it does is reduced by %d%%.%s", "The target is struggling against immense gravity, all damage it does is reduced by %d%%.%s", "tformat")
+t(" Due to facing an Avatar of a Distant Sun, fire and light resistances are reduced to 0%.", " Due to facing an Avatar of a Distant Sun, fire and light resistances are reduced to 0%.", "_t")
+t("plop", "plop", "log")
+--]==]
+
 -- texte non traduit
 --[==[
 t("disease", "disease", "effect subtype")
@@ -35821,14 +35988,12 @@ t("#BLUE##Target#'s stormshield is out of charges and disspitates!#LAST#.", "#BL
 t("ward", "ward", "effect subtype")
 t("Prismatic Shield", "Prismatic Shield", "_t")
 t("The target is protected by a prismatic shield blocking many instances of damage.  Remaining:  %s", "The target is protected by a prismatic shield blocking many instances of damage.  Remaining:  %s", "tformat")
-t("#Target# summons a prismatic shield to protect him!", "#Target# summons a prismatic shield to protect him!", "_t")
 t("+Prismatic", "+Prismatic", "_t")
 t("#Target#'s prismatic shield fades.", "#Target#'s prismatic shield fades.", "_t")
 t("-Prismatic", "-Prismatic", "_t")
 t("%s(%d to prism#LAST#%s)#LAST#", "%s(%d to prism#LAST#%s)#LAST#", "tformat")
 t("PURGING", "PURGING", "_t")
 t("The target is being purged of 1 physical ailment each turn.", "The target is being purged of 1 physical ailment each turn.", "tformat")
-t("#Target# is being purged of his physical ailments!", "#Target# is being purged of his physical ailments!", "_t")
 t("+Purging", "+Purging", "_t")
 t("#Target#'s is no longer being purged.", "#Target#'s is no longer being purged.", "_t")
 t("-Purging", "-Purging", "_t")
@@ -36238,7 +36403,6 @@ t("#Target# is no longer attracting creatures.", "#Target# is no longer attracti
 t("-Irresistible Sun", "-Irresistible Sun", "_t")
 t("%s is pulled in!", "%s is pulled in!", "logSeen")
 t("Weight of the Sun", "Weight of the Sun", "_t")
-t("The target is struggling against immense gravity, all damage it does is reduced by %d%%.", "The target is struggling against immense gravity, all damage it does is reduced by %d%%.", "tformat")
 t("#Target# can barely stand!", "#Target# can barely stand!", "_t")
 t("+Weight of the Sun", "+Weight of the Sun", "_t")
 t("#Target# can move freely once more.", "#Target# can move freely once more.", "_t")
@@ -36680,14 +36844,6 @@ t("all", "tout", "_t")
 t("Sleep", "Sommeil", "_t")
 t("Nightmare", "Cauchemar", "_t")
 t("physical", "physique", "effect subtype")
--- nouveau texte
---[==[
-t("Your tyranny is increasing your Mindpower and Physicalpower by 2 for each fear applied, for a total of %d", "Your tyranny is increasing your Mindpower and Physicalpower by 2 for each fear applied, for a total of %d", "tformat")
-t("The target is lost in a nightmare that deals %0.2f darkness damage each turn and has a %d%% chance to cause a random detrimental effect.", "The target is lost in a nightmare that deals %0.2f darkness damage each turn and has a %d%% chance to cause a random detrimental effect.", "tformat")
-t("#RED#(%d rampage shugs off#LAST#)", "#RED#(%d rampage shugs off#LAST#)", "tformat")
-t("The target is in a nightmarish sleep, suffering %0.2f darkness damage each turn and unable to to perform most actions.  Every %d damage it takes will reduce the duration of the effect by one turn.", "The target is in a nightmarish sleep, suffering %0.2f darkness damage each turn and unable to to perform most actions.  Every %d damage it takes will reduce the duration of the effect by one turn.", "tformat")
---]==]
-
 -- texte non traduit
 --[==[
 t("Exposed", "Exposed", "_t")
@@ -36857,6 +37013,7 @@ t("#ORANGE#", "#ORANGE#", "_t")
 t("%s succumbs to heightening fears!", "%s succumbs to heightening fears!", "logSeen")
 t("%s feels a little less afraid!", "%s feels a little less afraid!", "logSeen")
 t("Tyrant", "Tyrant", "_t")
+t("Your tyranny is increasing your Mindpower and Physicalpower by 2 for each fear applied, for a total of %d", "Your tyranny is increasing your Mindpower and Physicalpower by 2 for each fear applied, for a total of %d", "tformat")
 t("Paranoid", "Paranoid", "_t")
 t("Paranoia has gripped the target, causing a %d%% chance they will physically attack anyone nearby, friend or foe. Targets of the attack may become paranoid themselves.", "Paranoia has gripped the target, causing a %d%% chance they will physically attack anyone nearby, friend or foe. Targets of the attack may become paranoid themselves.", "tformat")
 t("#F53CBE##Target# becomes paranoid!", "#F53CBE##Target# becomes paranoid!", "_t")
@@ -36955,6 +37112,7 @@ t("#Target# has survived the void madness.", "#Target# has survived the void mad
 t("-Void Echoes", "-Void Echoes", "_t")
 t("nightmare", "nightmare", "effect subtype")
 t("Waking Nightmare", "Waking Nightmare", "_t")
+t("The target is lost in a nightmare that deals %0.2f darkness damage each turn and has a %d%% chance to cause a random detrimental effect.", "The target is lost in a nightmare that deals %0.2f darkness damage each turn and has a %d%% chance to cause a random detrimental effect.", "tformat")
 t("#F53CBE##Target# is lost in a nightmare.", "#F53CBE##Target# is lost in a nightmare.", "_t")
 t("+Night Terrors", "+Night Terrors", "_t")
 t("#Target# is free from the nightmare.", "#Target# is free from the nightmare.", "_t")
@@ -37022,6 +37180,7 @@ t("#F53CBE##Target# is no longer rampaging.", "#F53CBE##Target# is no longer ram
 t("-Rampage", "-Rampage", "_t")
 t("%s has shrugged off %d damage and is ready for more.", "%s has shrugged off %d damage and is ready for more.", "logSeen")
 t("#F53CBE#Your rampage is invigorated by the intense onslaught! (+1 duration)", "#F53CBE#Your rampage is invigorated by the intense onslaught! (+1 duration)", "logPlayer")
+t("#RED#(%d rampage shugs off#LAST#)", "#RED#(%d rampage shugs off#LAST#)", "tformat")
 t("#F53CBE#You feel your rampage slowing down. (-1 duration)", "#F53CBE#You feel your rampage slowing down. (-1 duration)", "logPlayer")
 t("Orcish Fury", "Orcish Fury", "_t")
 t("The target enters a destructive fury, increasing all damage done by %d%%.", "The target enters a destructive fury, increasing all damage done by %d%%.", "tformat")
@@ -37092,6 +37251,7 @@ t("The target is in a deep sleep and unable to perform most actions.  Every %d d
 t("#Target# is in a deep sleep.", "#Target# is in a deep sleep.", "_t")
 t("+Slumber", "+Slumber", "_t")
 t("-Slumber", "-Slumber", "_t")
+t("The target is in a nightmarish sleep, suffering %0.2f darkness damage each turn and unable to to perform most actions.  Every %d damage it takes will reduce the duration of the effect by one turn.", "The target is in a nightmarish sleep, suffering %0.2f darkness damage each turn and unable to to perform most actions.  Every %d damage it takes will reduce the duration of the effect by one turn.", "tformat")
 t("+Nightmare", "+Nightmare", "_t")
 t("-Nightmare", "-Nightmare", "_t")
 t("Restless Night", "Restless Night", "_t")
@@ -37210,13 +37370,9 @@ t("Flare", "Eclat", "_t")
 t("unknown", "inconnu", "effect subtype")
 -- nouveau texte
 --[==[
-t([[Currently Twisted Anomaly: %s
-
-		%s]], [[Currently Twisted Anomaly: %s
-
-		%s]], "tformat")
-t("Weakdamage Mode", "Weakdamage Mode", "_t")
-t("All damage reduced to -90%%.", "All damage reduced to -90%%.", "tformat")
+t("dirge", "dirge", "effect subtype")
+t("Pestilence Saturation", "Pestilence Saturation", "_t")
+t("The target recently benefited from Dirge of Pestilence", "The target recently benefited from Dirge of Pestilence", "_t")
 --]==]
 
 -- texte non traduit
@@ -37611,6 +37767,11 @@ t("penalty", "penalty", "effect subtype")
 t("Hit Penalty", "Hit Penalty", "_t")
 t("The target is using a two handed weapon in a single hand, reducing accuracy, physical power, spellpower and mindpower by %d%% (based on size); also all damage procs from your offhand are reduced by 50%%.", "The target is using a two handed weapon in a single hand, reducing accuracy, physical power, spellpower and mindpower by %d%% (based on size); also all damage procs from your offhand are reduced by 50%%.", "tformat")
 t("Twist Fate", "Twist Fate", "_t")
+t([[Currently Twisted Anomaly: %s
+
+		%s]], [[Currently Twisted Anomaly: %s
+
+		%s]], "tformat")
 t("+Twist Fate", "+Twist Fate", "_t")
 t("-Twist Fate", "-Twist Fate", "_t")
 t("tactic", "tactic", "effect subtype")
@@ -37674,6 +37835,8 @@ t("-Illumination", "-Illumination", "_t")
 t("Pinned Down", "Pinned Down", "_t")
 t("The next Steady Shot or Shoot has 100%% chance to be a critical hit and mark.", "The next Steady Shot or Shoot has 100%% chance to be a critical hit and mark.", "tformat")
 t("cheat", "cheat", "effect subtype")
+t("Weakdamage Mode", "Weakdamage Mode", "_t")
+t("All damage reduced to -90%%.", "All damage reduced to -90%%.", "tformat")
 t("Demigod Mode", "Demigod Mode", "_t")
 t("DEMI-GODMODE: Target has 10000 additional life and regenerates 2000 life per turn.  It deals +500%% damage, and has full ESP.", "DEMI-GODMODE: Target has 10000 additional life and regenerates 2000 life per turn.  It deals +500%% damage, and has full ESP.", "tformat")
 t("God Mode", "God Mode", "_t")
@@ -37754,10 +37917,9 @@ t("Something", "Quelque chose", "_t")
 t("physical", "physique", "effect subtype")
 -- nouveau texte
 --[==[
-t("pinned by a bone spike", "pinned by a bone spike", "_t")
-t("The target is pinned by a bone spike, unable to move.", "The target is pinned by a bone spike, unable to move.", "_t")
-t("#Target# is pinned by a bone spike.", "#Target# is pinned by a bone spike.", "_t")
-t("Open Palm Block", "Open Palm Block", "_t")
+t("The target is brutalized, reducing bleed resist by 50%%.", "The target is brutalized, reducing bleed resist by 50%%.", "tformat")
+t("#Target# is brutalized!", "#Target# is brutalized!", "_t")
+t("#Target# is not brutalized anymore.", "#Target# is not brutalized anymore.", "_t")
 --]==]
 
 -- texte non traduit
@@ -37990,6 +38152,9 @@ t("#Target# is pinned to the ground.", "#Target# is pinned to the ground.", "_t"
 t("+Pinned", "+Pinned", "_t")
 t("#Target# is no longer pinned.", "#Target# is no longer pinned.", "_t")
 t("-Pinned", "-Pinned", "_t")
+t("pinned by a bone spike", "pinned by a bone spike", "_t")
+t("The target is pinned by a bone spike, unable to move.", "The target is pinned by a bone spike, unable to move.", "_t")
+t("#Target# is pinned by a bone spike.", "#Target# is pinned by a bone spike.", "_t")
 t("+Bone Grab", "+Bone Grab", "_t")
 t("-Bone Grab", "-Bone Grab", "_t")
 t("golem", "golem", "effect subtype")
@@ -38254,6 +38419,7 @@ t("+Counter", "+Counter", "_t")
 t("-Counter", "-Counter", "_t")
 t("Counter Attacking", "Counter Attacking", "_t")
 t("Countering melee attacks: Has a %d%% chance to get an automatic counter attack when avoiding a melee attack. (%0.1f counters remaining)", "Countering melee attacks: Has a %d%% chance to get an automatic counter attack when avoiding a melee attack. (%0.1f counters remaining)", "tformat")
+t("Open Palm Block", "Open Palm Block", "_t")
 t("Blocking up to %d total damage.", "Blocking up to %d total damage.", "tformat")
 t("#STEEL_BLUE#(%d blocked)#LAST#", "#STEEL_BLUE#(%d blocked)#LAST#", "tformat")
 t("#ORCHID#You cannot block any more attacks!#LAST#", "#ORCHID#You cannot block any more attacks!#LAST#", "logPlayer")
@@ -38562,8 +38728,6 @@ t("Intangible", "Intangible", "_t")
 t("%d%% chance to fully evade any damaging actions or negative effects.", "%d%% chance to fully evade any damaging actions or negative effects.", "tformat")
 t("#LIGHT_BLUE#%s evades the effect '%s'!", "#LIGHT_BLUE#%s evades the effect '%s'!", "logSeen")
 t("Brutalized", "Brutalized", "_t")
-t("The target is brutally stunned, reducing damage by 50%%, movement speed by 50%%, bleed resist by 50%%, and halving talent cooldown.", "The target is brutally stunned, reducing damage by 50%%, movement speed by 50%%, bleed resist by 50%%, and halving talent cooldown.", "tformat")
-t("#Target# is stunned by the brutal strike!", "#Target# is stunned by the brutal strike!", "_t")
 t("+Brutalized", "+Brutalized", "_t")
 t("-Brutalized", "-Brutalized", "_t")
 --]==]
@@ -40008,6 +40172,8 @@ t("human", "human", "entity subtype")
 t("Argoniel", "Argoniel", "entity name")
 t("Fallen Sun Paladin Aeryn", "Fallen Sun Paladin Aeryn", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "A beautiful woman, clad in shining plate armour. Power radiates from her.", "_t")
+t("Caldizar", "Caldizar", "entity name")
+t("A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "_t")
 --]==]
 
 
@@ -41306,15 +41472,11 @@ t("teleporting circle to the surface", "teleporting circle to the surface", "ent
 section "mod-tome/data/zones/shadow-crypt/npcs.lua"
 
 
--- nouveau texte
---[==[
-t("but nobody knew why they suddenly became evil", "but nobody knew why they suddenly became evil", "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("Rak'Shor Cultist", "Rak'Shor Cultist", "entity name")
 t("An old orc, wearing black robes. He seems to be responsible for the creation of the shades.", "An old orc, wearing black robes. He seems to be responsible for the creation of the shades.", "_t")
+t("but nobody knew why they suddenly became evil", "but nobody knew why they suddenly became evil", "_t")
 t("As your shade dies, the magical veil protecting the stairs out vanishes.", "As your shade dies, the magical veil protecting the stairs out vanishes.", "logSeen")
 t("#GREY#The #Source# looks deep into your eyes. You feel torn apart!", "#GREY#The #Source# looks deep into your eyes. You feel torn apart!", "logCombat")
 t("Ra'kk kor merk ZUR!!!", "Ra'kk kor merk ZUR!!!", "_t")
@@ -42692,6 +42854,7 @@ t("A Million Cuts", "A Million Cuts", "entity name")
 t("Purification Tools", "Purification Tools", "entity name")
 t("Library", "Library", "entity name")
 t("Trainer", "Trainer", "entity name")
+t("Grim-looking fighter", "Grim-looking fighter", "_t")
 t("Nature's Emporium", "Nature's Emporium", "entity name")
 --]==]
 
@@ -43726,6 +43889,11 @@ t("This tinker can not be applied to this item.", "Cette bricolle ne peut pas ê
 t("You already have a tinker on this item.", "Vous avez dèjà une bricolle sur cet objet.", "logPlayer")
 t("You attach %s to your %s.", "Vous attachez %s à votre %s.", "logPlayer")
 t("You fail to attach %s to %s.", "Vous n'arrivez pas à attacher %s à %s.", "logPlayer")
+-- nouveau texte
+--[==[
+t("godslayer", "godslayer", "_t")
+--]==]
+
 -- texte non traduit
 --[==[
 t("normal", "normal", "_t")
@@ -43765,9 +43933,9 @@ t("temporal portal", "portail temporel", "_t")
 t("%s, temporal explorer", "%s, explorateur temporel", "_t")
 t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "Elle a l'air blessé et fatigué. Elle vous ressemble tellement et pourtant elle est complètement différente. Bizarre.", "_t")
 t("%s, the worried loremaster", "%s, le Chroniqueur soucieux", "_t")
-t("mental", "mentale", "_t")
-t("spell", "sort", "_t")
-t("physical", "physique", "_t")
+t("mental", "mentale", "save name")
+t("spell", "sort", "save name")
+t("physical", "physique", "save name")
 t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense:", "_t")
 t("improved %s by +%d", "amélioré la %s de +%d", "tformat")
 t("[Improve %s by +%d]", "[Améliore %s par +%d]", "tformat")
@@ -43797,6 +43965,9 @@ t([[#GOLD#%s / %s#LAST#
 --]==]
 
 -- ancien texte traduit
+t("mental", "mentale", "_t")
+t("spell", "sort", "_t")
+t("physical", "physique", "_t")
 t([[Oh but you are ... are you ?! ME?!
 So I was right, this is not my original time-thread!
 Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh mais vous êtes ... êtes-vous?! MOI?!
@@ -43859,7 +44030,7 @@ t("Folding the space time structure...", "Pliage de la structure spacio-temporel
 t("Unfolding the space time structure...", "Dépliage de la structure spacio-temporelle...", "_t")
 t("the great unknown", "le grand inconnu", "_t")
 t("something", "quelque chose", "_t")
-t("unknown", "inconnu", "_t")
+t("unknown", "inconnu", "entity name")
 t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source# touche #Target# pour %s (#RED##{bold}#%0.0f#LAST##{normal}# dégâts totaux)%s.", "logMessage")
 t(" #LIGHT_GREEN#[%0.0f healing]#LAST#", " #LIGHT_GREEN#[%0.0f soin]#LAST#", "tformat")
 t("#Source# hits #Target# for %s damage.", "#Source# touche #Target# pour %s dommages.", "logMessage")
@@ -43906,17 +44077,15 @@ t("Save and exit game?", "Sauvegarder et quitter le jeu?", "_t")
 t("saving", "sauvegarde", "_t")
 t("Saving game...", "Sauvegarde du jeu...", "log")
 t("#ANTIQUE_WHITE#Splash screen unlocked: #GOLD#%s", "#ANTIQUE_WHITE#Splash screen débloqué: #GOLD#%s", "log")
--- nouveau texte
---[==[
-t("Imperium courrier", "Imperium courrier", "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("#TEAL#%s", "#TEAL#%s", "log")
 t("%s", "%s", "log")
+t("Imperium courrier", "Imperium courrier", "_t")
 --]==]
 
+-- ancien texte traduit
+t("unknown", "inconnu", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/GameState.lua"
@@ -44003,14 +44172,10 @@ t("Rewards", "Récompenses", "_t")
 t("Reward", "Récompense", "_t")
 t("#LIGHT_BLUE#%s has received: %s.", "#LIGHT_BLUE#%s a reçu: %s.", "log")
 t("You have unlocked a new talent: %s!", "Vous avez débloqué un nouveau talent: %s!", "tformat")
--- nouveau texte
---[==[
-t("but nobody knew why they suddenly became evil", "but nobody knew why they suddenly became evil", "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("%s '%s'", "%s '%s'", "tformat")
+t("but nobody knew why they suddenly became evil", "but nobody knew why they suddenly became evil", "_t")
 t("#OLIVE_DRAB#%s: %s", "#OLIVE_DRAB#%s: %s", "tformat")
 t("#LIGHT_GREEN#%s", "#LIGHT_GREEN#%s", "logPlayer")
 --]==]
@@ -44036,6 +44201,11 @@ t("Special breathing method required", "Méthode de respiration spéciale requis
 t("Diggable", "Destructible", "_t")
 t("Cannot teleport to this place", "Impossible de se téléporter à cet endroit", "_t")
 t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#Vous entendez un mécanisme cliquant.", "log")
+-- nouveau texte
+--[==[
+t("Max.level: ", "Max.level: ", "_t")
+--]==]
+
 -- texte non traduit
 --[==[
 t("%s", "%s", "logSeen")
@@ -44500,14 +44670,10 @@ t("This does not seem to have any effect.", "Ceci n'a aucun effet.", "logPlayer"
 t("You use the %s on the pedestal. There is a distant 'clonk' sound.", "Vous utiliser %s sur le piédestal. Vous entendez un distant \"clonk\" au loin.", "logPlayer")
 t("#LIGHT_RED#%s briefly catches sight of you!", "#LIGHT_RED#%s vous aperçoit brièvement!", "logPlayer")
 t("#LIGHT_RED#You sense that Something has taken notice of you ...", "#LIGHT_RED#Vous sentez que quelque chose vous a remarqué ...", "logPlayer")
--- nouveau texte
---[==[
-t("Game Turn %d", "Game Turn %d", "log")
---]==]
-
 -- texte non traduit
 --[==[
 t("", "", "log")
+t("Game Turn %d", "Game Turn %d", "log")
 --]==]
 
 -- ancien texte traduit
@@ -44761,6 +44927,11 @@ t("nothing", "nothing", "_t")
 section "mod-tome/mod/class/interface/Archery.lua"
 
 
+-- nouveau texte
+--[==[
+t("The siege arrow creates a shockwave!", "The siege arrow creates a shockwave!", "logSeen")
+--]==]
+
 -- texte non traduit
 --[==[
 t("You need a missile launcher (%s)!", "You need a missile launcher (%s)!", "logPlayer")
@@ -44772,7 +44943,6 @@ t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#You CO
 t("%s(%d parried#LAST#)", "%s(%d parried#LAST#)", "tformat")
 t("#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "logCombat")
 t("#Source# misses #target#.", "#Source# misses #target#.", "logCombat")
-t("The shattering blow creates a shockwave!", "The shattering blow creates a shockwave!", "logSeen")
 t("You are disarmed!", "You are disarmed!", "logPlayer")
 t("You must wield a ranged weapon (%s)!", "You must wield a ranged weapon (%s)!", "logPlayer")
 --]==]
@@ -44810,19 +44980,11 @@ t("%s resists the grapple!", "%s resists the grapple!", "logSeen")
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PartyDeath.lua"
 
-t("unknown", "inconnu", "_t")
+t("unknown", "inconnu", "entity name")
 t("her", "sa", "_t")
 t("him", "lui", "_t")
 t("herself", "elle-même", "_t")
 t("himself", "lui-même", "_t")
--- nouveau texte
---[==[
-t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "tformat")
-t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) was %s to death by %s%s on %s %s.", "tformat")
-t("%s the level %d %s %s %s on level %s of %s.", "%s the level %d %s %s %s on level %s of %s.", "tformat")
-t("%s(%d %s %s) %s on %s %s.", "%s(%d %s %s) %s on %s %s.", "tformat")
---]==]
-
 -- texte non traduit
 --[==[
 t(" (the fool)", " (the fool)", "_t")
@@ -44832,11 +44994,17 @@ t(", by accident of course,", ", by accident of course,", "_t")
 t(" in some sort of fetish experiment gone wrong", " in some sort of fetish experiment gone wrong", "_t")
 t(", providing a free meal to the wildlife", ", providing a free meal to the wildlife", "_t")
 t(" (how embarrassing)", " (how embarrassing)", "_t")
+t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "tformat")
 t("battered", "battered", "_t")
 t(" (yet again)", " (yet again)", "_t")
+t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) was %s to death by %s%s on %s %s.", "tformat")
+t("%s the level %d %s %s %s on level %s of %s.", "%s the level %d %s %s %s on level %s of %s.", "tformat")
+t("%s(%d %s %s) %s on %s %s.", "%s(%d %s %s) %s on %s %s.", "tformat")
 t("#{bold}#", "#{bold}#", "_t")
 --]==]
 
+-- ancien texte traduit
+t("unknown", "inconnu", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PartyIngredients.lua"
@@ -45963,7 +46131,6 @@ t("Character Creation", "Création de personnage", "_t")
 t("     Play!     ", "     Jouer!     ", "_t")
 t("Random!", "Aléatoire!", "_t")
 t("Load premade", "Ancien personnage", "_t")
-t("Select custom tile", "Avatar personnalisé", "_t")
 t("Cancel", "Annuler", "_t")
 t("Tutorial", "Tutoriel", "_t")
 t("Customize", "Customiser", "_t")
@@ -46062,11 +46229,18 @@ t("Dismiss", "Refuser", "_t")
 t("Birth Options", "Options de naissance", "_t")
 t("Confirm", "Confirmer", "_t")
 t("Apply the selected cosmetics to %s?", "Appliquer le cosmétique sélectionné à %s?", "tformat")
+-- nouveau texte
+--[==[
+t("Custom tile", "Custom tile", "_t")
+--]==]
+
 -- texte non traduit
 --[==[
 t("Male", "Male", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Select custom tile", "Avatar personnalisé", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/CharacterSheet.lua"
@@ -46237,6 +46411,12 @@ t("Sustained", "Soutenu", "_t")
 t("Passive", "Passif", "_t")
 t("Character dump complete", "Feuille de personage sauvegardé", "_t")
 t("File: %s", "Fichier: %s", "tformat")
+-- nouveau texte
+--[==[
+t("- Seed: #LIGHT_STEEL_BLUE#%s", "- Seed: #LIGHT_STEEL_BLUE#%s", "tformat")
+t("Click to copy to clipboard. You can share the wanderer seed with your friends, this way they can play with the same set of talents.", "Click to copy to clipboard. You can share the wanderer seed with your friends, this way they can play with the same set of talents.", "_t")
+--]==]
+
 -- texte non traduit
 --[==[
 t("[T]alents", "[T]alents", "_t")
@@ -46620,16 +46800,6 @@ t("Disallow boot images that could be found 'offensive'.#WHITE#", "Désactiver l
 t("#GOLD##{bold}#Censor boot#WHITE##{normal}#", "#GOLD##{bold}#Censure au démarrage#WHITE##{normal}#", "_t")
 t("Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "Remplacer les images des couvre-chefs par des capuchons de cape si une cape est portée#WHITE#", "_t")
 t("#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "#GOLD##{bold}#Montrer les capuchons de cape#WHITE##{normal}#", "_t")
--- nouveau texte
---[==[
-t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "_t")
-t("If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "_t")
-t([[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], [[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], "_t")
-t("When swapping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "When swapping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("Simple", "Simple", "_t")
@@ -46639,6 +46809,12 @@ t("#GOLD##{bold}#Log lines#WHITE##{normal}#", "#GOLD##{bold}#Log lines#WHITE##{n
 t("Log lines", "Log lines", "_t")
 t("From 5 to 50", "From 5 to 50", "_t")
 t("Normal", "Normal", "_t")
+t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "_t")
+t("If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "_t")
+t([[Enables quick melee targeting auto attacking.
+Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], [[Enables quick melee targeting auto attacking.
+Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], "_t")
+t("When swapping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "When swapping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "_t")
 --]==]
 
 -- ancien texte traduit
@@ -47222,6 +47398,25 @@ t("Talent", "Talent", "_t")
 
 
 ------------------------------------------------
+section "mod-tome/mod/dialogs/WandererSeed.lua"
+
+t("Wanderer Seed", "Graine de Vagabond", "_t")
+-- nouveau texte
+--[==[
+t("Wanderer Options", "Wanderer Options", "_t")
+t([[Welcome, wandering one! The Wanderer class uses a randomly selected set of talent trees.
+You can now choose how this set is selected:]], [[Welcome, wandering one! The Wanderer class uses a randomly selected set of talent trees.
+You can now choose how this set is selected:]], "_t")
+t("Simply make a random set of trees, this is the default option. If you want to share it with friends, you will find the seed in the character's sheet later on.", "Simply make a random set of trees, this is the default option. If you want to share it with friends, you will find the seed in the character's sheet later on.", "_t")
+t("If an other player gave you a seed to play, you can enter it here. Do note that while a seed will always work, you will only get the same talents set if you use the same DLC/addons.", "If an other player gave you a seed to play, you can enter it here. Do note that while a seed will always work, you will only get the same talents set if you use the same DLC/addons.", "_t")
+t("Play!", "Play!", "_t")
+t("#{bold}##ANTIQUE_WHITE#Random#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#Random#{normal}##LAST#", "_t")
+t("#{bold}##ANTIQUE_WHITE#Seed#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#Seed#{normal}##LAST#", "_t")
+t("The wanderer seed you used was generated for a different set of DLC/addons. Your character will still work fine but you may not have the same talent set as the person that shared the seed with you.", "The wanderer seed you used was generated for a different set of DLC/addons. Your character will still work fine but you may not have the same talent set as the person that shared the seed with you.", "_t")
+--]==]
+
+
+------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AdvanceActor.lua"
 
 t("DEBUG -- Levelup Actor: [%s] %s", "DEBUG -- Augmentez un personnage: [%s] %s", "tformat")
@@ -47396,7 +47591,7 @@ t("Spawn Event", "Faire apparaître un événement", "_t")
 t("Endgamify", "Passer en mode Fin de partie", "_t")
 t("Reload/regenerate Zone and level", "Recharger/Régénérer zone et niveau", "_t")
 t("Automatically Clear Zones", "Automatiquement nettoyer les zones", "_t")
--- nouveau texte
+-- texte non traduit
 --[==[
 t("#LIGHT_BLUE#Weakdamage mode OFF", "#LIGHT_BLUE#Weakdamage mode OFF", "log")
 t("#LIGHT_BLUE#Weakdamage mode ON", "#LIGHT_BLUE#Weakdamage mode ON", "log")
