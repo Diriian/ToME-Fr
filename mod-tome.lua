@@ -2209,15 +2209,15 @@ t("...", "...", "_t")
 section "mod-tome/data/chats/artifice-mastery.lua"
 
 t("Cancel", "Annuler", "_t")
+t("#CADET_BLUE#%s already mastered.", "#CADET_BLUE#%s déjà maîtrisé.", "log")
+t("#LIGHT_BLUE# You enhance your preparation of %s.", "#LIGHT_BLUE# Vous améliorez votre préparation de %s.", "log")
+t("%s[%s -- mastery: %s]#LAST#", "%s[%s -- maîtrisé: %s]#LAST#", "tformat")
+t("Master which tool?", "Maîtriser quel outil?", "_t")
 -- texte non traduit
 --[==[
-t("#CADET_BLUE#%s already mastered.", "#CADET_BLUE#%s already mastered.", "log")
-t("#LIGHT_BLUE# You enhance your preparation of %s.", "#LIGHT_BLUE# You enhance your preparation of %s.", "log")
-t("%s[%s -- mastery: %s]#LAST#", "%s[%s -- mastery: %s]#LAST#", "tformat")
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
-t("Master which tool?", "Master which tool?", "_t")
 --]==]
 
 
@@ -2225,113 +2225,100 @@ t("Master which tool?", "Master which tool?", "_t")
 section "mod-tome/data/chats/artifice.lua"
 
 t("[Cancel]", "[Annuler]", "_t")
+t("#CADET_BLUE#%s already equipped at level %d.", "#CADET_BLUE#%s déjà équipé au niveau %d.", "log")
+t("#CADET_BLUE#Equipping %s with %s (level %d).", "#CADET_BLUE#Equippe %s avec %s (niveau %d).", "log")
+t("[%sEquip %s%s#LAST#]", "[%sEquippe %s%s#LAST#]", "tformat")
+t("[Equip %s]", "[Equippe %s]", "tformat")
+t("Equip which tool for #YELLOW#%s#LAST#?", "Equipper quel outil pour #YELLOW#%s#LAST#?", "tformat")
 -- texte non traduit
 --[==[
-t("#CADET_BLUE#%s already equipped at level %d.", "#CADET_BLUE#%s already equipped at level %d.", "log")
-t("#CADET_BLUE#Equipping %s with %s (level %d).", "#CADET_BLUE#Equipping %s with %s (level %d).", "log")
-t("[%sEquip %s%s#LAST#]", "[%sEquip %s%s#LAST#]", "tformat")
-t("[Equip %s]", "[Equip %s]", "tformat")
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
-t("Equip which tool for #YELLOW#%s#LAST#?", "Equip which tool for #YELLOW#%s#LAST#?", "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/chats/assassin-lord-thieves.lua"
 
+t("I ain't no chatting! Speak to the boss!", "Je ne suis pas un bavard! Parlez au patron!", "_t")
 t("[leave]", "[partir]", "_t")
--- texte non traduit
---[==[
-t("I ain't no chatting! Speak to the boss!", "I ain't no chatting! Speak to the boss!", "_t")
---]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/chats/assassin-lord.lua"
 
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_assassin-lord")
-t("[attack]", "[attaquer]", "_t")
--- texte non traduit
---[==[
-t("#LIGHT_GREEN#You and the Lord discuss your new relationship at some length, including the merits of assassination by proxy and some additional trapping techniques.", "#LIGHT_GREEN#You and the Lord discuss your new relationship at some length, including the merits of assassination by proxy and some additional trapping techniques.", "log")
-t("As you depart the assassin lord says: 'And do not forget, I own you now.'", "As you depart the assassin lord says: 'And do not forget, I own you now.'", "log")
+t("#LIGHT_GREEN#You and the Lord discuss your new relationship at some length, including the merits of assassination by proxy and some additional trapping techniques.", "#LIGHT_GREEN#Vous et le Maître discutez longuement de votre nouvelle relation, notamment des mérites de l'assassinat par procuration et de certaines techniques de pièges supplémentaires.", "log")
+t("As you depart the assassin lord says: 'And do not forget, I own you now.'", "En partant, le maître assassin dit : \"Et n'oublie pas, tu m'appartiens maintenant.\"", "log")
 t([[#LIGHT_GREEN#*Before you stands a menacing man clothed in black.*#WHITE#
-Ahh, the intruder at last... And what shall we do with you? Why did you kill my men?]], [[#LIGHT_GREEN#*Before you stands a menacing man clothed in black.*#WHITE#
-Ahh, the intruder at last... And what shall we do with you? Why did you kill my men?]], "_t")
-t("I heard some cries, and your men... they were in my way. What's going on here?", "I heard some cries, and your men... they were in my way. What's going on here?", "_t")
-t("I thought there might be some treasure to be had around here.", "I thought there might be some treasure to be had around here.", "_t")
-t("Oh, you are not going anywhere, I'm afraid! KILL!", "Oh, you are not going anywhere, I'm afraid! KILL!", "_t")
-t("Wait! Maybe we could work out some kind of arrangement; you seem to be a practical man.", "Wait! Maybe we could work out some kind of arrangement; you seem to be a practical man.", "_t")
-t("Oh, so this is the part where I tell you my plan before you attack me? GET THIS INTRUDER!", "Oh, so this is the part where I tell you my plan before you attack me? GET THIS INTRUDER!", "_t")
-t("I am afraid this is not your lucky day then. The merchant is ours... and so are you! GET THIS INTRUDER!!", "I am afraid this is not your lucky day then. The merchant is ours... and so are you! GET THIS INTRUDER!!", "_t")
+Ahh, the intruder at last... And what shall we do with you? Why did you kill my men?]], [[#LIGHT_GREEN#*Devant vous se tient un homme menaçant vêtu de noir.*#WHITE#
+Ahh, enfin l'intrus... Et qu'allons-nous faire de toi? Pourquoi avez-vous tué mes hommes?]], "_t")
+t("I heard some cries, and your men... they were in my way. What's going on here?", "J'ai entendu des cris, et vos hommes... ils étaient sur mon chemin. Qu'est-ce qui se passe ici?", "_t")
+t("I thought there might be some treasure to be had around here.", "Je pensais qu'il y avait peut-être un trésor à trouver par ici.", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_assassin-lord")
+t("Oh, you are not going anywhere, I'm afraid! KILL!", "Oh, vous n'allez nulle part, j'en ai peur! TUER LE!", "_t")
+t("[attack]", "[attaquer]", "_t")
+t("Wait! Maybe we could work out some kind of arrangement; you seem to be a practical man.", "Attendez! Peut-être que nous pourrions trouver un arrangement, vous semblez être un homme pragmatique.", "_t")
+t("Oh, so this is the part where I tell you my plan before you attack me? GET THIS INTRUDER!", "Oh, donc c'est la partie où je vous dis mon plan avant que vous m'attaquiez? ATTRAPEZ CET INTRUS!", "_t")
+t("I am afraid this is not your lucky day then. The merchant is ours... and so are you! GET THIS INTRUDER!!", "Je crains que ce ne soit pas votre jour de chance alors. Le marchand est à nous... et vous aussi! ATTRAPEZ CET INTRUS!", "_t")
 t([[Well, I need somebody to replace the men you killed. You look sturdy; maybe you could work for me.
 You will have to do some dirty work for me, though, and you will be bound to me.  Nevertheless, you may make quite a profit from this venture, if you are as good as you seem to be.
-And do not think of crossing me.  That would be... unwise.]], [[Well, I need somebody to replace the men you killed. You look sturdy; maybe you could work for me.
-You will have to do some dirty work for me, though, and you will be bound to me.  Nevertheless, you may make quite a profit from this venture, if you are as good as you seem to be.
-And do not think of crossing me.  That would be... unwise.]], "_t")
-t("Well, I suppose it is better than dying.", "Well, I suppose it is better than dying.", "_t")
-t("Money? I'm in!", "Money? I'm in!", "_t")
-t("Just let me and the merchant get out of here and you may live!", "Just let me and the merchant get out of here and you may live!", "_t")
---]==]
-
+And do not think of crossing me.  That would be... unwise.]], [[Et bien, j'ai besoin de quelqu'un pour remplacer les hommes que vous avez tués. Vous avez l'air robuste, vous pourriez peut-être travailler pour moi.
+Vous devrez faire du sale boulot, cependant, et vous serez lié à moi.  Néanmoins, vous pourriez faire un bon profit de cette entreprise, si vous êtes aussi bon que vous semblez l'être.
+Et ne pensez pas à me doubler.  Ce serait... imprudent.]], "_t")
+t("Well, I suppose it is better than dying.", "Eh bien, je suppose que c'est mieux que de mourir.", "_t")
+t("Money? I'm in!", "De l'argent? J'en suis!", "_t")
+t("Just let me and the merchant get out of here and you may live!", "Laissez-moi sortir d'ici avec le marchand et vous pourrez vivre!", "_t")
 -- ancien texte traduit
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/avatar-distant-sun-unlock.chat"
 
-
--- nouveau texte
---[==[
-t("Uhh, okay. Sure. Mind showing me?", "Uhh, okay. Sure. Mind showing me?", "chat")
+t("Uhh, okay. Sure. Mind showing me?", "Uhh, okay. Bien sûr. Vous pouvez me montrer?", "chat")
 t([[<<<You feel a gentle warmth in your mind. Something speaks directly to your mind!>>>
-#YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], [[<<<You feel a gentle warmth in your mind. Something speaks directly to your mind!>>>
-#YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], "chat")
-t("I don't take unsolicited messages from... stars.", "I don't take unsolicited messages from... stars.", "chat")
-t("#YELLOW#YOU ONLY HAD TO ASK, MY FRIEND.", "#YELLOW#YOU ONLY HAD TO ASK, MY FRIEND.", "chat")
-t("#CRIMSON#[The area around you erupts in flames, burning your foes]", "#CRIMSON#[The area around you erupts in flames, burning your foes]", "chat")
-t("If you say so.", "If you say so.", "chat")
-t("Look, I appreciate the offer, but I don't know you.", "Look, I appreciate the offer, but I don't know you.", "chat")
-t("#YELLOW#DON'T BE LIKE THAT. I KNOW YOU ARE ON A NOBLE QUEST.", "#YELLOW#DON'T BE LIKE THAT. I KNOW YOU ARE ON A NOBLE QUEST.", "chat")
-t("I'm busy at the moment, so maybe call back another time?", "I'm busy at the moment, so maybe call back another time?", "chat")
-t("#YELLOW#I AM YOUR FRIEND. NOW YOU KNOW ME. LET US BEGIN A LONG AND FRUITFUL FRIENDSHIP.", "#YELLOW#I AM YOUR FRIEND. NOW YOU KNOW ME. LET US BEGIN A LONG AND FRUITFUL FRIENDSHIP.", "chat")
-t("#YELLOW#BUSY, YOU SAY? I CAN FIX THAT, LIKE ANY GOOD FRIEND WOULD.", "#YELLOW#BUSY, YOU SAY? I CAN FIX THAT, LIKE ANY GOOD FRIEND WOULD.", "chat")
-t("#YELLOW#YOU DON'T BELIEVE ME? THEN PLEASE, ALLOW ME TO SHOW YOU A MERE FRACTION OF MY POWER.", "#YELLOW#YOU DON'T BELIEVE ME? THEN PLEASE, ALLOW ME TO SHOW YOU A MERE FRACTION OF MY POWER.", "chat")
---]==]
-
+#YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], [[<<<Vous ressentez une douce chaleur dans votre esprit. Quelque chose s'y adresse directement à votre esprit!>>>
+#YELLOW#BONJOUR, AMI. JE SUIS UNE ÉTOILE VENUE DE TRÈS LOIN. JE T'AI ENTENDU FAIRE L'ÉLOGE DE TON SOLEIL. POURQUOI NE PAS ME LOUER À LA PLACE ? JE SUIS UN BIEN MEILLEUR SOLEIL QUE CET ORBE GAZEUX TERNE ET SANS VIE DANS VOTRE VOISINAGE. S'IL VOUS PLAÎT, PERMETTEZ-MOI DE VOUS DÉMONTRER MES BONNES INTENTIONS.]], "chat")
+t("I don't take unsolicited messages from... stars.", "Je ne prends pas de messages non sollicités... d'étoiles.", "chat")
+t("#YELLOW#YOU ONLY HAD TO ASK, MY FRIEND.", "#YELLOW#VOUS N'AVIEZ QU'À DEMANDER, MON AMI.", "chat")
+t("#CRIMSON#[The area around you erupts in flames, burning your foes]", "#CRIMSON#[La zone autour de vous s'enflamme, brûlant vos ennemis.]", "chat")
+t("If you say so.", "Si vous le dites.", "chat")
+t("Look, I appreciate the offer, but I don't know you.", "Ecoutez, j'apprécie l'offre, mais je ne vous connais pas.", "chat")
+t("#YELLOW#DON'T BE LIKE THAT. I KNOW YOU ARE ON A NOBLE QUEST.", "#YELLOW#NE SOYEZ PAS COMME ÇA. JE SAIS QUE VOUS ÊTES DANS UNE NOBLE QUÊTE.", "chat")
+t("I'm busy at the moment, so maybe call back another time?", "Je suis occupée pour le moment, alors vous pourriez peut-être rappeler une autre fois ?", "chat")
+t("#YELLOW#I AM YOUR FRIEND. NOW YOU KNOW ME. LET US BEGIN A LONG AND FRUITFUL FRIENDSHIP.", "#YELLOW#JE SUIS TON AMI. MAINTENANT, TU ME CONNAIS. COMMENÇONS UNE LONGUE ET FRUCTUEUSE AMITIÉ.", "chat")
+t("#YELLOW#BUSY, YOU SAY? I CAN FIX THAT, LIKE ANY GOOD FRIEND WOULD.", "#YELLOW#OCCUPÉ, VOUS DITES ? JE PEUX ARRANGER ÇA, COMME TOUT BON AMI LE FERAIT.", "chat")
+t("#YELLOW#YOU DON'T BELIEVE ME? THEN PLEASE, ALLOW ME TO SHOW YOU A MERE FRACTION OF MY POWER.", "#YELLOW#VOUS NE ME CROYEZ PAS ? ALORS S'IL VOUS PLAÎT, PERMETTEZ-MOI DE VOUS MONTRER UNE SIMPLE FRACTION DE MON POUVOIR.", "chat")
 
 ------------------------------------------------
 section "mod-tome/data/chats/avatar-distant-sun.chat"
 
-
--- nouveau texte
---[==[
-t("#YELLOW#YOU ARE A CURIOUS ONE.", "#YELLOW#YOU ARE A CURIOUS ONE.", "chat")
-t("[...]", "[...]", "chat")
-t("#YELLOW#YOU HAVE MADE THE RIGHT CHOICE. TOGETHER, WE SHALL BRING ABOUT THE DESTRUCTION OF OUR ENEMIES.", "#YELLOW#YOU HAVE MADE THE RIGHT CHOICE. TOGETHER, WE SHALL BRING ABOUT THE DESTRUCTION OF OUR ENEMIES.", "chat")
-t("#GOLD#[you are now an Avatar of a Distant Sun]", "#GOLD#[you are now an Avatar of a Distant Sun]", "chat")
-t("Yes, give me your power!", "Yes, give me your power!", "chat")
+t("#YELLOW#YOU ARE A CURIOUS ONE.", "#YELLOW#VOUS ÊTES UN CURIEUX.", "chat")
+t("#YELLOW#YOU HAVE MADE THE RIGHT CHOICE. TOGETHER, WE SHALL BRING ABOUT THE DESTRUCTION OF OUR ENEMIES.", "#YELLOW#VOUS AVEZ FAIT LE BON CHOIX. ENSEMBLE, NOUS ALLONS PROVOQUER LA DESTRUCTION DE NOS ENNEMIS.", "chat")
+t("#GOLD#[you are now an Avatar of a Distant Sun]", "#GOLD#[Vous êtes maintenant un Avatar d'un Soleil Lointain.]", "chat")
+t("Yes, give me your power!", "Oui, donnez-moi votre pouvoir !", "chat")
 t([[<<<You feel the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
 #YELLOW#I AM HERE. DO YOU DESIRE TO SMITE EVIL, DESTROY THE DARKNESS AND SCOUR THE EARTH? I SHALL AID YOU IN THIS QUEST. TOGETHER, WE WILL BE UNSTOPPABLE. ALL DARKNESS SHALL BE CONSUMED BY OUR LIGHT.
-#LAST#]], [[<<<You feel the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
-#YELLOW#I AM HERE. DO YOU DESIRE TO SMITE EVIL, DESTROY THE DARKNESS AND SCOUR THE EARTH? I SHALL AID YOU IN THIS QUEST. TOGETHER, WE WILL BE UNSTOPPABLE. ALL DARKNESS SHALL BE CONSUMED BY OUR LIGHT.
+#LAST#]], [[<<<Vous ressentez une douce chaleur dans votre esprit. Quelque chose s'y adresse directement à votre esprit!>>>
+#YELLOW#JE SUIS ICI. DÉSIREZ-VOUS FRAPPER LE MAL, DÉTRUIRE LES TÉNÈBRES ET PARCOURIR LA TERRE? JE VOUS AIDERAI DANS CETTE QUÊTE. ENSEMBLE, NOUS SERONS INARRÊTABLES. TOUTES LES TÉNÈBRES SERONT CONSUMÉES PAR NOTRE LUMIÈRE.
 #LAST#]], "chat")
-t("Who... Who are you?", "Who... Who are you?", "chat")
-t("But what are you getting out of this?", "But what are you getting out of this?", "chat")
-t("That doesn't tell me anything.", "That doesn't tell me anything.", "chat")
-t("But how are you speaking to me?", "But how are you speaking to me?", "chat")
-t("#YELLOW#I AM YOUR FRIEND. IT IS GOOD TO HAVE FRIENDS, ISN'T IT?", "#YELLOW#I AM YOUR FRIEND. IT IS GOOD TO HAVE FRIENDS, ISN'T IT?", "chat")
-t("You still haven't told me who or what you are.", "You still haven't told me who or what you are.", "chat")
+t("Who... Who are you?", "Qui... Qui êtes-vous ?", "chat")
+t("But what are you getting out of this?", "Mais qu'est-ce que vous en retirez?", "chat")
+t("That doesn't tell me anything.", "Cela ne me dit rien du tout.", "chat")
+t("But how are you speaking to me?", "Mais comment me parlez-vous?", "chat")
+t("#YELLOW#I AM YOUR FRIEND. IT IS GOOD TO HAVE FRIENDS, ISN'T IT?", "#YELLOW#JE SUIS VOTRE AMI. C'EST BIEN D'AVOIR DES AMIS, N'EST-CE PAS?", "chat")
+t("You still haven't told me who or what you are.", "Vous ne m'avez toujours pas dit qui ou ce que vous êtes.", "chat")
 t([[#YELLOW#YOU NEED NOT CONCERN YOURSELF WITH SUCH THINGS. I KNOW YOU CRAVE POWER. I KNOW THE WEIGHT OF THE WORLD IS ON YOUR SHOULDERS. SO, ACCEPT MY BOONS. ALLOW ME TO HELP YOU.
-]], [[#YELLOW#YOU NEED NOT CONCERN YOURSELF WITH SUCH THINGS. I KNOW YOU CRAVE POWER. I KNOW THE WEIGHT OF THE WORLD IS ON YOUR SHOULDERS. SO, ACCEPT MY BOONS. ALLOW ME TO HELP YOU.
+]], [[#YELLOW#VOUS NE DEVEZ PAS VOUS PRÉOCCUPER DE TELLES CHOSES. JE SAIS QUE VOUS AVEZ SOIF DE POUVOIR. JE SAIS QUE LE POIDS DU MONDE REPOSE SUR VOS ÉPAULES. ALORS, ACCEPTEZ MES BIENFAITS. PERMETTEZ-MOI DE VOUS AIDER.
 ]], "chat")
-t("#YELLOW#I AM GETTING PLENTY OUT OF THIS.", "#YELLOW#I AM GETTING PLENTY OUT OF THIS.", "chat")
-t("#YELLOW#I TIRE OF YOUR NAGGING QUESTIONS. TALK, TALK, TALK. YOU HAVE A SIMPLE CHOICE BEFORE YOU. WILL YOU BECOME POWERFUL? OR WILL YOU BE WEAK AND ALONE?", "#YELLOW#I TIRE OF YOUR NAGGING QUESTIONS. TALK, TALK, TALK. YOU HAVE A SIMPLE CHOICE BEFORE YOU. WILL YOU BECOME POWERFUL? OR WILL YOU BE WEAK AND ALONE?", "chat")
-t("I don't trust you. Please go away.", "I don't trust you. Please go away.", "chat")
-t("#YELLOW#I HAVE LITTLE PATIENCE FOR TIME WASTERS. THIS SHALL BE THE LAST TIME WE SPEAK.", "#YELLOW#I HAVE LITTLE PATIENCE FOR TIME WASTERS. THIS SHALL BE THE LAST TIME WE SPEAK.", "chat")
-t("#GRAY#[prodigy point refunded]", "#GRAY#[prodigy point refunded]", "chat")
+t("#YELLOW#I AM GETTING PLENTY OUT OF THIS.", "#YELLOW#J'EN RETIRE BEAUCOUP.", "chat")
+t("#YELLOW#I TIRE OF YOUR NAGGING QUESTIONS. TALK, TALK, TALK. YOU HAVE A SIMPLE CHOICE BEFORE YOU. WILL YOU BECOME POWERFUL? OR WILL YOU BE WEAK AND ALONE?", "#YELLOW#JE SUIS FATIGUÉ DE TES QUESTIONS LANCINANTES. PARLEZ, PARLEZ, PARLEZ. VOUS AVEZ UN CHOIX SIMPLE À FAIRE. DEVIENDREZ-VOUS PUISSANTS? OU RESTERAS-TU FAIBLE ET SEUL?", "chat")
+t("I don't trust you. Please go away.", "Je n'ai pas confiance en vous. S'il vous plaît, partez.", "chat")
+t("#YELLOW#I HAVE LITTLE PATIENCE FOR TIME WASTERS. THIS SHALL BE THE LAST TIME WE SPEAK.", "#YELLOW#JE NE SUPPORTE PAS LES PERTES DE TEMPS. C'EST LA DERNIÈRE FOIS QUE NOUS NOUS PARLONS.", "chat")
+t("#GRAY#[prodigy point refunded]", "#GRAY#[point de prodige remboursé]", "chat")
+-- nouveau texte
+--[==[
+t("[...]", "[...]", "chat")
 --]==]
 
 
