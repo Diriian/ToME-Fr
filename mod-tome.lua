@@ -2244,7 +2244,6 @@ section "mod-tome/data/chats/assassin-lord-thieves.lua"
 t("I ain't no chatting! Speak to the boss!", "Je ne suis pas un bavard! Parlez au patron!", "_t")
 t("[leave]", "[partir]", "_t")
 
-
 ------------------------------------------------
 section "mod-tome/data/chats/assassin-lord.lua"
 
@@ -2325,198 +2324,157 @@ t("[...]", "[...]", "chat")
 ------------------------------------------------
 section "mod-tome/data/chats/chronomancy-bias-weave.lua"
 
+t("What kind of anomaly do you prefer?", "Quel type d'anomalie préférez-vous?", "_t")
+t("Physical", "Physique", "_t")
+t("Warp", "Déformation", "_t")
+t("Temporal", "Temporelle", "_t")
 t("Never mind", "Peu importe", "_t")
--- texte non traduit
---[==[
-t("What kind of anomaly do you prefer?", "What kind of anomaly do you prefer?", "_t")
-t("Physical", "Physical", "_t")
-t("Warp", "Warp", "_t")
-t("Temporal", "Temporal", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/chats/chronomancy-see-threads.lua"
 
-
--- texte non traduit
---[==[
-t("#PURPLE#A paradox has already destroyed other timelines!", "#PURPLE#A paradox has already destroyed other timelines!", "logPlayer")
-t("#LIGHT_BLUE#You select the timeline and re-arrange the universe to your liking!", "#LIGHT_BLUE#You select the timeline and re-arrange the universe to your liking!", "logPlayer")
-t("You have lived %d turns in three different timelines. Which do you choose to be the real timeline?", "You have lived %d turns in three different timelines. Which do you choose to be the real timeline?", "tformat")
-t("The first.", "The first.", "_t")
-t("The second.", "The second.", "_t")
-t("The third.", "The third.", "_t")
---]==]
-
+t("#PURPLE#A paradox has already destroyed other timelines!", "#PURPLE#Un paradoxe a déjà détruit d'autres lignes temporelles!", "logPlayer")
+t("#LIGHT_BLUE#You select the timeline and re-arrange the universe to your liking!", "#LIGHT_BLUE#Vous sélectionnez la chronologie et réorganisez l'univers à votre guise!", "logPlayer")
+t("You have lived %d turns in three different timelines. Which do you choose to be the real timeline?", "Vous avez vécu %d tours dans trois lignes temporelles différentes. Laquelle choisissez-vous comme étant la vraie ligne du temps ?", "tformat")
+t("The first.", "La première.", "_t")
+t("The second.", "La seconde.", "_t")
+t("The third.", "La troisième.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/command-staff.lua"
 
+t("Greetings. How can I help you?", "Bienvenue. Comment puis-je vous aider ?", "_t")
+t("Hurry up and make with the foe-blasting.", "Dépêchez vous et n'oubliez pas d'exploser vos ennemis.", "_t")
+t("O wise wielder, instruct me that I may better serve you.", "Ô sage utilisateur, éclairez-moi pour que je puisse mieux vous servir.", "_t")
+t("Make amends, magic-user, for the harm ye have wrought is beyond compare.", "Faites amende honorable, usager de la magie, car le mal que vous avez fait est incomparable.", "_t")
+t("You really could have chosen a better home for me, you know. I was reasonably happy in my old crystal. This stick smells like armpit.", "Vous auriez vraiment pu choisir une meilleure maison pour moi, vous savez. J'étais raisonnablement heureux dans mon ancien cristal. Ce bâton sent les aisselles.", "_t")
+t("Tremble before the might of Telos!", "Tremblez devant la puissance de Telos!", "_t")
+t("It is not yet your place to command such a staff as this. To do so invites obliteration.", "Il n'est pas encore de votre ressort de commander un tel bâton. Le faire, c'est s'exposer à l'anéantissement.", "_t")
+t("Call on which aspect of the staff?", "Demander quel aspect sur le bâton?", "_t")
+t("error!", "erreure!", "_t")
+t("Oh, I was once a mighty Eldritch Channeler. Mighty and absentminded, as it turns out. Had a bit of a mishap with an Inverted Kugala's Soul-infusion technique. Long story short, my soul is now stuck in this stick, and the soul I was working with... well, I don't rightly know where he got to. But I hope we never meet him.", "Oh, j'étais autrefois un puissant canalisateur occulte. Puissant et distrait, comme il s'avère. J'ai eu une petite mésaventure avec une technique d'infusion d'âme de Kugala inversé. Pour faire court, mon âme est maintenant coincée dans ce bâton, et l'âme avec laquelle je travaillais... eh bien, je ne sais pas vraiment où elle est allée. Mais j'espère qu'on ne le rencontrera jamais.", "_t")
+t("Argh! Bollocksed up a tricky bit of soul magic and the fool that I was supposed to be imprisoning for all eternity flitted away. My body, like all the targets of my spells, intended or otherwise, got reduced to elementary particles. Fortunately, I had this soul-cage of a staff all prepped and ready for a stray soul, so I'm not completely gone. But enough chit-chat. Let's fry somebody.", "Argh! J'ai raté un petit tour de magie de l'âme et le fou que j'étais censé emprisonner pour l'éternité s'est enfui. Mon corps, comme toutes les cibles de mes sorts, intentionnelles ou non, a été réduit en particules élémentaires. Heureusement, j'avais ce bâton-cage à âmes tout préparé et prêt pour une âme égarée, donc je ne suis pas complètement parti. Mais assez de bavardages. Allons griller quelqu'un.", "_t")
+t("My old master-- who, though a powerful enchanter, did not compare to you and your glory-- saw fit to imprison me in this fine staff to aid him in his work. Alas, he is long gone, but I despair not, for I have found a mighty new master.", "Mon ancien maître -- qui, bien qu'étant un puissant enchanteur, n'était pas comparable à vous et à votre gloire -- a jugé bon de m'emprisonner dans ce beau bâton pour l'aider dans son travail. Hélas, il est parti depuis longtemps, mais je ne désespère pas, car j'ai trouvé un puissant nouveau maître.", "_t")
+t("I am a portion of the very spirit of the world that was ripped free during the Spellblaze. I speak that I might enlighten those who bear me.", "Je suis une partie de l'esprit même du monde qui a été libéré pendant la Brûlure magique. Je parle pour éclairer ceux qui me portent.", "_t")
+t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Best study up if you don't want to die forgotten and incompetent.", "A quoi sert l'immortalité si on ne peut même pas parler? Aucun archimage digne de ce nom ne va concocter un plan immoral de vie après la mort sans inclure une sorte de capacité à faire connaître ses opinions. Et, au fait, vos techniques de manipulation de l'énergie sont du même niveau que celles de ma paire de chaussures moyenne. Vous feriez mieux d'étudier si vous ne voulez pas mourir oublié et incompétent.", "_t")
+t("Of course. Which aspect?", "Bien sûr. Quel aspect?", "_t")
+t("I highly recommend the mage aspect and the fire element. You're not going to find anything better for turning a piece of meat into a cloud of vapor.", "Je recommande fortement l'aspect mage et l'élément feu. Vous ne trouverez rien de mieux pour transformer un morceau de viande en un nuage de vapeur.", "_t")
+t("I live to serve-- though my use of the word 'live' is perhaps loose here.", "Je vis pour servir -- bien que mon utilisation du mot \"vivre\" soit peut-être un peu vague ici.", "_t")
+t("Choose wisely. Powers beyond your comprehension will tolerate only so much interference in their carefully-laid natural order.", "Choisissez sagement. Les puissances qui dépassent votre entendement ne tolèrent qu'un certain nombre d'interférences dans leur ordre naturel soigneusement établi.", "_t")
+t("Back in my day, we didn't need to go changing our staves around willy-nilly. We picked an element and stuck with it, by the gods.", "De mon temps, on n'avait pas besoin de changer de bâton au gré de nos envies. On choisissait un élément et on s'y tenait, par les dieux.", "_t")
+t("Certainly. You should be impressed, by the way, that I can do such a thing. Most lesser practitioners of my art would have difficulties with this. What shall I change?", "Certainement. Vous devriez être impressionné, au passage, que je puisse faire une telle chose. La plupart des autres praticiens de mon art auraient des difficultés à le faire. Que dois-je changer?", "_t")
+t("Fine, as long as it leads to blasting something soon. What do you want me to change?", "Bien, tant que ça mène bientôt à l'explosion de quelque chose. Qu'est-ce que tu veux que je change?", "_t")
+t("Choose different aspect", "Choisissez un autre aspect", "_t")
 t("Never mind.", "Aucune importance.", "_t")
+t("Call forth which element?", "Faire appel à quel élément ?", "_t")
+t("staff", "bâton", "_t")
 t("How is it that you speak?", "Comment faites vous pour parler?", "_t")
--- texte non traduit
---[==[
-t("Greetings. How can I help you?", "Greetings. How can I help you?", "_t")
-t("Hurry up and make with the foe-blasting.", "Hurry up and make with the foe-blasting.", "_t")
-t("O wise wielder, instruct me that I may better serve you.", "O wise wielder, instruct me that I may better serve you.", "_t")
-t("Make amends, magic-user, for the harm ye have wrought is beyond compare.", "Make amends, magic-user, for the harm ye have wrought is beyond compare.", "_t")
-t("You really could have chosen a better home for me, you know. I was reasonably happy in my old crystal. This stick smells like armpit.", "You really could have chosen a better home for me, you know. I was reasonably happy in my old crystal. This stick smells like armpit.", "_t")
-t("Tremble before the might of Telos!", "Tremble before the might of Telos!", "_t")
-t("It is not yet your place to command such a staff as this. To do so invites obliteration.", "It is not yet your place to command such a staff as this. To do so invites obliteration.", "_t")
-t("Call on which aspect of the staff?", "Call on which aspect of the staff?", "_t")
-t("error!", "error!", "_t")
-t("Oh, I was once a mighty Eldritch Channeler. Mighty and absentminded, as it turns out. Had a bit of a mishap with an Inverted Kugala's Soul-infusion technique. Long story short, my soul is now stuck in this stick, and the soul I was working with... well, I don't rightly know where he got to. But I hope we never meet him.", "Oh, I was once a mighty Eldritch Channeler. Mighty and absentminded, as it turns out. Had a bit of a mishap with an Inverted Kugala's Soul-infusion technique. Long story short, my soul is now stuck in this stick, and the soul I was working with... well, I don't rightly know where he got to. But I hope we never meet him.", "_t")
-t("Argh! Bollocksed up a tricky bit of soul magic and the fool that I was supposed to be imprisoning for all eternity flitted away. My body, like all the targets of my spells, intended or otherwise, got reduced to elementary particles. Fortunately, I had this soul-cage of a staff all prepped and ready for a stray soul, so I'm not completely gone. But enough chit-chat. Let's fry somebody.", "Argh! Bollocksed up a tricky bit of soul magic and the fool that I was supposed to be imprisoning for all eternity flitted away. My body, like all the targets of my spells, intended or otherwise, got reduced to elementary particles. Fortunately, I had this soul-cage of a staff all prepped and ready for a stray soul, so I'm not completely gone. But enough chit-chat. Let's fry somebody.", "_t")
-t("My old master-- who, though a powerful enchanter, did not compare to you and your glory-- saw fit to imprison me in this fine staff to aid him in his work. Alas, he is long gone, but I despair not, for I have found a mighty new master.", "My old master-- who, though a powerful enchanter, did not compare to you and your glory-- saw fit to imprison me in this fine staff to aid him in his work. Alas, he is long gone, but I despair not, for I have found a mighty new master.", "_t")
-t("I am a portion of the very spirit of the world that was ripped free during the Spellblaze. I speak that I might enlighten those who bear me.", "I am a portion of the very spirit of the world that was ripped free during the Spellblaze. I speak that I might enlighten those who bear me.", "_t")
-t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Best study up if you don't want to die forgotten and incompetent.", "What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Best study up if you don't want to die forgotten and incompetent.", "_t")
-t("Of course. Which aspect?", "Of course. Which aspect?", "_t")
-t("I highly recommend the mage aspect and the fire element. You're not going to find anything better for turning a piece of meat into a cloud of vapor.", "I highly recommend the mage aspect and the fire element. You're not going to find anything better for turning a piece of meat into a cloud of vapor.", "_t")
-t("I live to serve-- though my use of the word 'live' is perhaps loose here.", "I live to serve-- though my use of the word 'live' is perhaps loose here.", "_t")
-t("Choose wisely. Powers beyond your comprehension will tolerate only so much interference in their carefully-laid natural order.", "Choose wisely. Powers beyond your comprehension will tolerate only so much interference in their carefully-laid natural order.", "_t")
-t("Back in my day, we didn't need to go changing our staves around willy-nilly. We picked an element and stuck with it, by the gods.", "Back in my day, we didn't need to go changing our staves around willy-nilly. We picked an element and stuck with it, by the gods.", "_t")
-t("Certainly. You should be impressed, by the way, that I can do such a thing. Most lesser practitioners of my art would have difficulties with this. What shall I change?", "Certainly. You should be impressed, by the way, that I can do such a thing. Most lesser practitioners of my art would have difficulties with this. What shall I change?", "_t")
-t("Fine, as long as it leads to blasting something soon. What do you want me to change?", "Fine, as long as it leads to blasting something soon. What do you want me to change?", "_t")
-t("Choose different aspect", "Choose different aspect", "_t")
-t("Call forth which element?", "Call forth which element?", "_t")
-t("staff", "staff", "_t")
-t("I'd like you to bring forth a different aspect.", "I'd like you to bring forth a different aspect.", "_t")
-t("I'd like to alter your basic properties.", "I'd like to alter your basic properties.", "_t")
-t("I see.", "I see.", "_t")
---]==]
-
+t("I'd like you to bring forth a different aspect.", "J'aimerais que vous mettiez en avant un autre aspect.", "_t")
+t("I'd like to alter your basic properties.", "J'aimerais modifier vos propriétés de base.", "_t")
+t("I see.", "Je vois.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/conclave-vault-greeting.lua"
 
+t([[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
+YOU!  Name, rank, and identification.  NOW.
+]], [[#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et se mettent immédiatement au garde-à-vous. Celui de droite parle:*#WHITE#.
+VOUS!  Nom, grade et identification.  MAINTENANT.
+]], "_t")
+t("My what?", "Mon quoi?", "_t")
 t("[attack]", "[attaquer]", "_t")
--- texte non traduit
---[==[
-t([[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
-YOU!  Name, rank, and identification.  NOW.
-]], [[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
-YOU!  Name, rank, and identification.  NOW.
-]], "_t")
-t("My what?", "My what?", "_t")
-t("#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately draw their weapons.", "#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately draw their weapons.", "_t")
-t("#CRIMSON#NARGOL SCUM!  WE'RE UNDER ATTACK!", "#CRIMSON#NARGOL SCUM!  WE'RE UNDER ATTACK!", "_t")
+t("#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately draw their weapons.", "#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et sortent immédiatement leurs armes.", "_t")
+t("#CRIMSON#NARGOL SCUM!  WE'RE UNDER ATTACK!", "#CRIMSON#ORDURE DE NARGOL!  NOUS SOMMES ATTAQUÉS!", "_t")
 t([[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
 Ah!  Reinforcements!  I don't know how long it's been, but I'll get Astelrid up here to--  wait a minute, where are the rest of them?  #LIGHT_GREEN#*He frowns.*#WHITE# What's your identification number?
-]], [[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
-Ah!  Reinforcements!  I don't know how long it's been, but I'll get Astelrid up here to--  wait a minute, where are the rest of them?  #LIGHT_GREEN#*He frowns.*#WHITE# What's your identification number?
+]], [[#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et se mettent immédiatement au garde-à-vous. Celui de droite parle:*#WHITE#
+Ah! Des renforts!  Je ne sais pas combien de temps cela a duré, mais je vais faire venir Astelrid pour... Attendez une minute, où sont les autres?  #LIGHT_GREEN#*Il se renfrogne.*#WHITE# Quel est votre numéro d'identification?
 ]], "_t")
-t("Wait! The war's over! It's been thousands of years, the Conclave doesn't exist anymore!", "Wait! The war's over! It's been thousands of years, the Conclave doesn't exist anymore!", "_t")
+t("Wait! The war's over! It's been thousands of years, the Conclave doesn't exist anymore!", "Attendez! La guerre est finie! Cela fait des milliers d'années, le Conclave n'existe plus!", "_t")
 t([[#LIGHT_GREEN#*They look at each other and scowl, drawing their weapons.  The one on the left growls:*#WHITE#
 LIES!  The Conclave could not have lost!  I don't know who you are, but we can't afford witnesses!
-]], [[#LIGHT_GREEN#*They look at each other and scowl, drawing their weapons.  The one on the left growls:*#WHITE#
-LIES!  The Conclave could not have lost!  I don't know who you are, but we can't afford witnesses!
+]], [[#LIGHT_GREEN#*Ils se regardent l'un l'autre, se renfrognent et sortent leurs armes.  Celui de gauche rugit:*#WHITE#
+MENSONGES!  Le Conclave n'a pas pu perdre!  Je ne sais pas qui vous êtes, mais nous ne pouvons pas nous permettre d'avoir des témoins!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/chats/corruptor-quest.lua"
 
-
--- texte non traduit
---[==[
 t([[Wait, @playerdescriptor.subclass@!
 I see you are a worthy opponent, powerful indeed. I can see, and feel, your mastery of the eldritch crafts.
-We are the same.]], [[Wait, @playerdescriptor.subclass@!
-I see you are a worthy opponent, powerful indeed. I can see, and feel, your mastery of the eldritch crafts.
-We are the same.]], "_t")
-t("What do you mean 'the same'?", "What do you mean 'the same'?", "_t")
-t("I am nothing like you. Die!", "I am nothing like you. Die!", "_t")
-t("So be it. Die, and give me your power!", "So be it. Die, and give me your power!", "_t")
+We are the same.]], [[Attendez, @playerdescriptor.subclass@!
+Je vois que vous êtes un adversaire de taille, puissant en effet. Je peux voir, et sentir, votre maîtrise de l'artisanat eldritch.
+Nous sommes les mêmes.]], "_t")
+t("What do you mean 'the same'?", "Que voulez-vous dire par \"les mêmes\"?", "_t")
+t("I am nothing like you. Die!", "Je ne suis pas comme toi. Meurs!", "_t")
+t("So be it. Die, and give me your power!", "Ainsi soit-il. Meurs, et donne-moi tes pouvoirs !", "_t")
 t([[We both know the strength of the arcane; we both hunger for power. There is so much I have discovered, so much I could teach you.
 This place is special. The veil of reality is thin here, forever shattered by the Spellblaze. We are taking advantage of this; we can draw on the power,
-leeching from this place, to better ourselves, to bring forth the dominion of magic!]], [[We both know the strength of the arcane; we both hunger for power. There is so much I have discovered, so much I could teach you.
-This place is special. The veil of reality is thin here, forever shattered by the Spellblaze. We are taking advantage of this; we can draw on the power,
-leeching from this place, to better ourselves, to bring forth the dominion of magic!]], "_t")
-t("The world suffered from the Spellblaze enough. Magic must serve people, not enslave them. I will not listen to you!", "The world suffered from the Spellblaze enough. Magic must serve people, not enslave them. I will not listen to you!", "_t")
-t("What do you propose, then?", "What do you propose, then?", "_t")
+leeching from this place, to better ourselves, to bring forth the dominion of magic!]], [[Nous connaissons tous deux la force des arcanes, nous avons tous deux soif de pouvoir. Il y a tellement de choses que j'ai découverts, tellement de choses que je pourrais vous apprendre.
+Cet endroit est spécial. Le voile de la réalité est mince ici, brisé à jamais par la Brûlure magique. Nous en profitons, nous pouvons puiser dans ce pouvoir, qui s'échappe de cet endroit, pour nous améliorer, pour amener la domination de la magie!]], "_t")
+t("The world suffered from the Spellblaze enough. Magic must serve people, not enslave them. I will not listen to you!", "Le monde a assez souffert de la Brûlure magique. La magie doit servir les gens, pas les asservir. Je ne t'écouterai pas !", "_t")
+t("What do you propose, then?", "Que proposez-vous, alors?", "_t")
 t([[Let us end this meaningless fight. Have you ever heard of a group of people called the Ziguranth?
 These rambling madmen think magic should not be permitted to exist! They fear us; they fear our powers.
-Let us join forces and crush the fools!]], [[Let us end this meaningless fight. Have you ever heard of a group of people called the Ziguranth?
-These rambling madmen think magic should not be permitted to exist! They fear us; they fear our powers.
-Let us join forces and crush the fools!]], "_t")
-t("Magic shall triumph!", "Magic shall triumph!", "_t")
-t("Magic has a purpose. Those men are wrong, but you seem much worse.", "Magic has a purpose. Those men are wrong, but you seem much worse.", "_t")
-t("Then you must leave... THIS WORLD! DIE!", "Then you must leave... THIS WORLD! DIE!", "_t")
+Let us join forces and crush the fools!]], [[Mettons fin à ce combat inutile. Avez-vous déjà entendu parler d'un groupe de personnes appelé les Zigurantes ?
+Ces fous furieux pensent que la magie ne devrait pas être autorisée à exister ! Ils nous craignent, ils craignent nos pouvoirs.
+Unissons nos forces et écrasons ces fous !]], "_t")
+t("Magic shall triumph!", "La magie triomphera!", "_t")
+t("Magic has a purpose. Those men are wrong, but you seem much worse.", "La magie a un but. Ces hommes ont tort, mais vous semblez bien pire.", "_t")
+t("Then you must leave... THIS WORLD! DIE!", "Alors tu dois quitter... CE MONDE! CRÈVE!", "_t")
 t([[Good. Before your... untimely arrival we were preparing an attack on the Ziguranth main training camp, on the southern beach of the sea of Sash.
 Come with us; let's destroy them!
-I will open a portal to Zigur and the massacre shall begin!]], [[Good. Before your... untimely arrival we were preparing an attack on the Ziguranth main training camp, on the southern beach of the sea of Sash.
-Come with us; let's destroy them!
-I will open a portal to Zigur and the massacre shall begin!]], "_t")
-t("I am ready!", "I am ready!", "_t")
---]==]
-
+I will open a portal to Zigur and the massacre shall begin!]], [[Bien. Avant votre... arrivée inopportune, nous préparions une attaque sur le camp d'entraînement principal des Zigurantes, sur la plage sud de la mer de Sash.
+Venez avec nous; détruisons-les!
+Je vais ouvrir un portail vers Zigur et le massacre va commencer !]], "_t")
+t("I am ready!", "Je suis prêt(e)!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/derth-attack-over.lua"
 
-
--- nouveau texte
---[==[
-t("I will!", "I will!", "chat_derth-attack-over")
---]==]
-
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*A Halfling comes forth from his hiding place.*#WHITE#
-You killed them all? Are we safe now? Oh, please tell me this was a bad dream!]], [[#LIGHT_GREEN#*A Halfling comes forth from his hiding place.*#WHITE#
-You killed them all? Are we safe now? Oh, please tell me this was a bad dream!]], "_t")
-t("Be at ease. I have dispatched those monstrosities. Do you know where they came from or what they wanted?", "Be at ease. I have dispatched those monstrosities. Do you know where they came from or what they wanted?", "_t")
+You killed them all? Are we safe now? Oh, please tell me this was a bad dream!]], [[#LIGHT_GREEN#*Un Halfelin sort de sa cachette.*#WHITE#
+Vous les avez tous tués? On est en sécurité maintenant? Oh, s'il vous plaît dites-moi que c'était un mauvais rêve!]], "_t")
+t("Be at ease. I have dispatched those monstrosities. Do you know where they came from or what they wanted?", "Soyez tranquille. Je me suis débarrassé de ces monstruosités. Savez-vous d'où elles viennent ou ce qu'elles veulent?", "_t")
 t([[From nowhere! From the sky!
-I do not know. I was tending my crop just outside the town when I heard screaming. As I entered the town, I saw the dark cloud over here. Those... those... things were coming from it in blasts of lightning!]], [[From nowhere! From the sky!
-I do not know. I was tending my crop just outside the town when I heard screaming. As I entered the town, I saw the dark cloud over here. Those... those... things were coming from it in blasts of lightning!]], "_t")
-t("It seems they have stopped coming for now. I will look for somebody who could help dispose of this nefarious cloud.", "It seems they have stopped coming for now. I will look for somebody who could help dispose of this nefarious cloud.", "_t")
+I do not know. I was tending my crop just outside the town when I heard screaming. As I entered the town, I saw the dark cloud over here. Those... those... things were coming from it in blasts of lightning!]], [[De nulle part! Du ciel!
+Je ne sais pas. Je m'occupais de ma récolte juste à l'extérieur de la ville quand j'ai entendu des cris. En entrant dans la ville, j'ai vu ce nuage sombre. Ces... ces... choses en sortaient sous forme d'éclairs!]], "_t")
+t("It seems they have stopped coming for now. I will look for somebody who could help dispose of this nefarious cloud.", "Il semble qu'ils aient cessé de venir pour le moment. Je vais chercher quelqu'un qui pourrait m'aider à me débarrasser de ce nuage infernal.", "_t")
 t([[Thank you! You have saved many people today!
 I have heard of rumours of a reclusive town of wise and powerful men somewhere in the mountains. Maybe they could help? If they even exist...
-There are also those Zigur-something people that claim to fight magic. Why are they not here?!]], [[Thank you! You have saved many people today!
-I have heard of rumours of a reclusive town of wise and powerful men somewhere in the mountains. Maybe they could help? If they even exist...
-There are also those Zigur-something people that claim to fight magic. Why are they not here?!]], "_t")
-t("You mean the Ziguranth. That would be me.", "You mean the Ziguranth. That would be me.", "_t")
-t("I will not let you down.", "I will not let you down.", "_t")
-t("Well then please do something about this evil magic!", "Well then please do something about this evil magic!", "_t")
---]==]
-
+There are also those Zigur-something people that claim to fight magic. Why are they not here?!]], [[Merci! Vous avez sauvé beaucoup de gens aujourd'hui!
+J'ai entendu des rumeurs sur une ville recluse d'hommes sages et puissants quelque part dans les montagnes. Peut-être qu'ils pourraient aider? S'ils existent vraiment...
+Il y a aussi ces Zigur-quelque chose qui prétendent combattre la magie. Pourquoi ne sont-ils pas ici?!]], "_t")
+t("You mean the Ziguranth. That would be me.", "Tu veux dire le Zigurante. C'est moi.", "_t")
+t("I will not let you down.", "Je ne vous laisserais pas tomber.", "_t")
+t("Well then please do something about this evil magic!", "Alors, s'il vous plaît, faites quelque chose contre cette magie maléfique!", "_t")
+t("I will!", "Je le ferai !", "chat_derth-attack-over")
 
 ------------------------------------------------
 section "mod-tome/data/chats/dreadfell-ambush.lua"
 
-t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaque]", "_t")
--- texte non traduit
---[==[
 t([[#VIOLET#*As you come out of the Dreadfell, you encounter a band of orcs*#LAST#
-You! Give us the staff NOW and we might offer you a quick death!]], [[#VIOLET#*As you come out of the Dreadfell, you encounter a band of orcs*#LAST#
-You! Give us the staff NOW and we might offer you a quick death!]], "_t")
-t("What are you talking about?", "What are you talking about?", "_t")
-t("Why would you want it?", "Why would you want it?", "_t")
-t("Do not play dumb with Ukruk! ATTACK!", "Do not play dumb with Ukruk! ATTACK!", "_t")
-t("That is not your concern! ATTACK!", "That is not your concern! ATTACK!", "_t")
---]==]
-
+You! Give us the staff NOW and we might offer you a quick death!]], [[#VIOLET#*En sortant de Tombeffroie, vous rencontrez une bande d'orcs.*#LAST#
+Toi! Donne-nous le bâton MAINTENANT et nous pourrions t'offrir une mort rapide!]], "_t")
+t("What are you talking about?", "De quoi parlez vous?", "_t")
+t("Why would you want it?", "Pourquoi le voudrais tu?", "_t")
+t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaquer]", "_t")
+t("Do not play dumb with Ukruk! ATTACK!", "Ne faites pas l'idiot avec Ukruk! À L'ATTAQUE!", "_t")
+t("That is not your concern! ATTACK!", "Cela ne te concerne pas! À L'ATTAQUE!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/east-portal-end.lua"
 
-
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*A robed Human is waiting for you when you step out of the portal.*#WHITE#
 Well met, @playername@!
 I am Meranas, Herald of Angolwen. I have come here at the request of King Tolak, who worried when you didn't return.
 We have been watching Tannen for some time, and were pleased to see you reveal his true nature-- and stop him. For this we are grateful, and I think we can pay you back.
-We have studied his portal research, and if you give me the components I will create the portal for you, here and now!]], [[#LIGHT_GREEN#*A robed Human is waiting for you when you step out of the portal.*#WHITE#
-Well met, @playername@!
-I am Meranas, Herald of Angolwen. I have come here at the request of King Tolak, who worried when you didn't return.
-We have been watching Tannen for some time, and were pleased to see you reveal his true nature-- and stop him. For this we are grateful, and I think we can pay you back.
-We have studied his portal research, and if you give me the components I will create the portal for you, here and now!]], "_t")
-t("Yes, Tannen was not exactly friendly. I thank you for your help. Here are the components. [hand him the diamond and the athame]", "Yes, Tannen was not exactly friendly. I thank you for your help. Here are the components. [hand him the diamond and the athame]", "_t")
---]==]
-
+We have studied his portal research, and if you give me the components I will create the portal for you, here and now!]], [[#LIGHT_GREEN#*Un Humain en robe vous attend lorsque vous franchissez le portail.*#WHITE#
+Bienvenu, @playername@!
+Je suis Meranas, héraut d'Angolwen. Je suis venu ici à la demande du Roi Tolak, qui s'est inquiété de votre absence.
+Nous surveillons Tannen depuis un certain temps, et nous avons été heureux de vous voir révéler sa vraie nature -- et l'arrêter. Pour cela, nous vous sommes reconnaissants, et je pense que nous pouvons vous rembourser.
+Nous avons étudié ses recherches sur les portails, et si vous me donnez les composants, je vais créer le portail pour vous, ici et maintenant!]], "_t")
+t("Yes, Tannen was not exactly friendly. I thank you for your help. Here are the components. [hand him the diamond and the athame]", "Oui, Tannen n'était pas exactement amical. Je vous remercie pour votre aide. Voici les composants. [lui remettre le diamant et l'athamé]", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/eidolon-plane.lua"
@@ -2817,7 +2775,7 @@ t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/golbug-explains.lua"
 
-t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaque]", "_t")
+t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaquer]", "_t")
 -- texte non traduit
 --[==[
 t([[#VIOLET#*As you open the door you notice a huge orc in the distance, covered in both flames and ice.*#LAST#
@@ -2891,11 +2849,11 @@ t([[#VIOLET#*Before you stands Berethh. His face shows no emotion, but his postu
 ]], "_t")
 t("Kyless is dead.", "Kyless est mort.", "_t")
 t("I'm not sure if you deserved your fate. Still I cannot let you live.", "Je ne suis pas sûr que vous ayez mérité votre sort. Cependant je ne peux pas vous laisser vivre.", "_t")
-t("Then you will die like Kyless. #LIGHT_GREEN#[Attack]#LAST#", "TAlors vous mourrez comme Kyless. #LIGHT_GREEN#[Attaque]#LAST#", "_t")
+t("Then you will die like Kyless. #LIGHT_GREEN#[Attack]#LAST#", "TAlors vous mourrez comme Kyless. #LIGHT_GREEN#[Attaquer]#LAST#", "_t")
 t("I need your help. I want to overcome my curse.", "J'ai besoin de votre aide. Je veux surmonter ma malédiction.", "_t")
 t("I do not want to kill you.", "IJe n'ai pas envie de vous tuer.", "_t")
 t("#VIOLET#*Berethh ignores your comment, unslings his bow and prepares his attack.*#LAST#", "#VIOLET#*Berethh ne tient pas compte de votre commentaire, il tire son arc et prépare son attaque.*#LAST#", "_t")
-t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaque]", "_t")
+t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaquer]", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/keepsake-caravan-destroyed.lua"
@@ -10222,15 +10180,15 @@ t("Magical potions can have wildly different effects, from healing to killing yo
 ------------------------------------------------
 section "mod-tome/data/general/objects/quest-artifacts.lua"
 
+t("staff", "bâton", "entity subtype")
+t("staff", "bâton", "entity combat talented")
 t("Cancel", "Annuler", "_t")
 t("Transmogrification Chest", "Coffre de Transmogrification", "entity name")
 t("Transmogrification Chest", "Coffre de Transmogrification", "_t")
 -- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
-t("staff", "staff", "entity subtype")
 t("Staff of Absorption", "Staff of Absorption", "entity name")
-t("staff", "staff", "entity combat talented")
 t("dark runed staff", "dark runed staff", "_t")
 t([[Carved with runes of power, this staff seems to have been made long ago, yet it bears no signs of tarnish.
 Light around it seems to dim and you can feel its tremendous power simply by touching it.]], [[Carved with runes of power, this staff seems to have been made long ago, yet it bears no signs of tarnish.
@@ -10850,12 +10808,11 @@ t("%s brandishes %s %s, turning into a corrupted losgoroth!", "%s brandishes %s 
 ------------------------------------------------
 section "mod-tome/data/general/objects/staves.lua"
 
-
+t("staff", "bâton", "entity subtype")
+t("staff", "bâton", "entity combat talented")
 -- texte non traduit
 --[==[
 t("weapon", "weapon", "entity type")
-t("staff", "staff", "entity subtype")
-t("staff", "staff", "entity combat talented")
 t("Staves designed for wielders of magic, by the greats of the art.", "Staves designed for wielders of magic, by the greats of the art.", "_t")
 t("elm staff", "elm staff", "entity name")
 t("elm", "elm", "entity short_name")
