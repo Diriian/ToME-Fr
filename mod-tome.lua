@@ -1431,13 +1431,13 @@ t("If so, you will battle your own champion next time!", "Si oui, vous combattre
 ------------------------------------------------
 section "mod-tome/data/calendar_allied.lua"
 
-t("Wintertide", "Hiver", "calendar allied")
+t("Wintertide", "Frimas", "calendar allied")
 t("Allure", "Séduction", "calendar allied")
 t("Regrowth", "Repousse", "calendar allied")
 t("Time of Balance", "Temps de l'Objectivité", "calendar allied")
 t("Pyre", "Bûcher", "calendar allied")
 t("Mirth", "Gaieté", "calendar allied")
-t("Summertide", "Eté", "calendar allied")
+t("Summertide", "Estival", "calendar allied")
 t("Flare", "Eclat", "calendar allied")
 t("Dusk", "Crépuscule", "calendar allied")
 t("Time of Equilibrium", "Temps de l'Equilibre", "calendar allied")
@@ -2533,54 +2533,44 @@ t("Thanks.", "Merci.", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/elisa-orb-scrying.lua"
 
-
--- texte non traduit
---[==[
-t("You immerse your mind in the Way and let knowledge flow in.", "You immerse your mind in the Way and let knowledge flow in.", "_t")
-t("[Images and knowledge flow in.]", "[Images and knowledge flow in.]", "_t")
-t("[You do not gain any knowledge.]", "[You do not gain any knowledge.]", "_t")
-t("You pause and recall past memories.", "You pause and recall past memories.", "_t")
-t("[You do not recognize anything new.]", "[You do not recognize anything new.]", "_t")
-t("Oh, hi @playername@, have you got something new to show me?", "Oh, hi @playername@, have you got something new to show me?", "_t")
-t("Yes, Elisa, could you have a look at these objects please? [show her the items the orb could not identify]", "Yes, Elisa, could you have a look at these objects please? [show her the items the orb could not identify]", "_t")
-t("Err, no... sorry, I just wanted to hear a friendly voice.", "Err, no... sorry, I just wanted to hear a friendly voice.", "_t")
-t("Not yet sorry!", "Not yet sorry!", "_t")
+t("You immerse your mind in the Way and let knowledge flow in.", "Vous plongez votre esprit dans La Voie et laissez la connaissance affluer.", "_t")
+t("[Images and knowledge flow in.]", "[Les images et le savoir affluent.]", "_t")
+t("[You do not gain any knowledge.]", "[Vous ne gagnez aucune compétence.]", "_t")
+t("You pause and recall past memories.", "Vous faites une pause et vous vous rappelez des événements passés.", "_t")
+t("[You do not recognize anything new.]", "[Vous ne reconnaissez rien de nouveau.]", "_t")
+t("Oh, hi @playername@, have you got something new to show me?", "Oh, salut @playername@, tu as quelque chose de nouveau à me montrer?", "_t")
+t("Yes, Elisa, could you have a look at these objects please? [show her the items the orb could not identify]", "Oui Elisa, pourriez-vous jeter un coup d'oeil à ces objets s'il vous plaît? [Lui montrer les objets que l'orbe n'a pas pu identifier]", "_t")
+t("Err, no... sorry, I just wanted to hear a friendly voice.", "Err, non... désolé, je voulais juste entendre une voix amicale.", "_t")
+t("Not yet sorry!", "Pas encore, malheureusement!", "_t")
 t([[#LIGHT_GREEN#*You hear something akin to a muffled giggle*#WHITE#
-Oh, you are #{bold}#SOOOO#{normal}# cute!]], [[#LIGHT_GREEN#*You hear something akin to a muffled giggle*#WHITE#
-Oh, you are #{bold}#SOOOO#{normal}# cute!]], "_t")
-t("Goodbye, Elisa!", "Goodbye, Elisa!", "_t")
---]==]
-
+Oh, you are #{bold}#SOOOO#{normal}# cute!]], [[#LIGHT_GREEN#*Vous entendez quelque chose qui ressemble à un ricanement étouffé.*#WHITE#
+Oh, vous êtes #{bold}#TELLEMENT#{normal}# adorable!]], "_t")
+t("Goodbye, Elisa!", "Au revoir, Elisa!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/elisa-shop.lua"
 
-
--- texte non traduit
---[==[
 t([[Let's see what have you got here...
 %s
 
-That is very nice, @playername@!]], [[Let's see what have you got here...
+That is very nice, @playername@!]], [[Voyons voir ce que vous avez là...
 %s
 
-That is very nice, @playername@!]], "tformat")
-t("Thank you, Elisa!", "Thank you, Elisa!", "_t")
-t("Hello friend, what can I do for you?", "Hello friend, what can I do for you?", "_t")
-t("Could you have a look at these objects, please? [show her your unidentified items]", "Could you have a look at these objects, please? [show her your unidentified items]", "_t")
-t("Nothing, goodbye.", "Nothing, goodbye.", "_t")
+C'est très beau, @playername@!]], "tformat")
+t("Thank you, Elisa!", "Merci, Elisa!", "_t")
+t("Hello friend, what can I do for you?", "Bonjour, que puis-je faire pour vous?", "_t")
+t("Could you have a look at these objects, please? [show her your unidentified items]", "Pourriez-vous jeter un coup d'œil à ces objets, s'il vous plaît? [montrez-lui vos objets non identifiés]", "_t")
+t("Nothing, goodbye.", "Rien, au revoir.", "_t")
 t([[Wait, @playername@, you seem to be quite the adventurer. Maybe we can help one another.
 You see, I #{bold}#LOOOVVVEEEE#{normal}# learning new lore and finding old artifacts of power, but I am not exactly an adventurer and I would surely get killed out there.
 So take this orb (#LIGHT_GREEN#*she gives you an orb of scrying*#WHITE#). You can use it to talk to me from anywhere in the world! This way you can show me your new shiny findings!
 I get to see many interesting things, and you get to know what your items do. We both win! Isn't it sweet?
-Oh yes, the orb will also identify mundane items for you, as long as you carry it.]], [[Wait, @playername@, you seem to be quite the adventurer. Maybe we can help one another.
-You see, I #{bold}#LOOOVVVEEEE#{normal}# learning new lore and finding old artifacts of power, but I am not exactly an adventurer and I would surely get killed out there.
-So take this orb (#LIGHT_GREEN#*she gives you an orb of scrying*#WHITE#). You can use it to talk to me from anywhere in the world! This way you can show me your new shiny findings!
-I get to see many interesting things, and you get to know what your items do. We both win! Isn't it sweet?
-Oh yes, the orb will also identify mundane items for you, as long as you carry it.]], "_t")
-t("Woah, thanks, Elisa. This is really nice!", "Woah, thanks, Elisa. This is really nice!", "_t")
---]==]
-
+Oh yes, the orb will also identify mundane items for you, as long as you carry it.]], [[Attends, @playername@, tu sembles être un grand aventurier. Peut-être pouvons-nous nous entraider.
+Tu vois, j' #{bold}#ADORERAIS#{normal}# apprendre de nouvelles choses et trouver de vieux artefacts de pouvoir, mais je ne suis pas exactement une aventurière et je me ferais sûrement tuer là-bas.
+Prenez donc cet orbe (#LIGHT_GREEN#*elle vous donne un orbe de scrutation*#WHITE#). Tu peux l'utiliser pour me parler de n'importe où dans le monde! Ainsi, tu pourras me montrer tes nouvelles découvertes!
+Je verrai des choses intéressantes et tu sauras ce que font tes objets. Nous serons tous les deux gagnants! N'est-ce pas génial?
+Ah oui, l'orbe peut aussi identifier les objets ordinaires, tant que vous la portez.]], "_t")
+t("Woah, thanks, Elisa. This is really nice!", "Woah, merci Elisa. C'est vraiment sympa!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/escort-quest-start.lua"
@@ -2611,91 +2601,84 @@ t("Thank you.", "Merci.", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/fallen-aeryn.lua"
 
-
--- texte non traduit
---[==[
-t("%s grabs her amulet and disappears in a whirl of arcane energies.", "%s grabs her amulet and disappears in a whirl of arcane energies.", "logPlayer")
+t("%s grabs her amulet and disappears in a whirl of arcane energies.", "%s saisit son amulette et disparaît dans un tourbillon d'énergies arcaniques.", "logPlayer")
 t([[#LIGHT_GREEN#*She lies nearly dead at your feet*#WHITE#
-So, now you will kill me and complete the cycle of destruction?]], [[#LIGHT_GREEN#*She lies nearly dead at your feet*#WHITE#
-So, now you will kill me and complete the cycle of destruction?]], "_t")
-t("What are you talking about? Why did you attack me?", "What are you talking about? Why did you attack me?", "_t")
-t("Speak and I might spare you. Why did you attack me?", "Speak and I might spare you. Why did you attack me?", "_t")
-t("[kill her]", "[kill her]", "_t")
+So, now you will kill me and complete the cycle of destruction?]], [[#LIGHT_GREEN#*Elle gît presque morte à vos pieds*#WHITE#
+Donc, maintenant vous allez me tuer et compléter le cycle de destruction?]], "_t")
+t("What are you talking about? Why did you attack me?", "De quoi parlez-vous? Pourquoi m'avez-vous attaqué?", "_t")
+t("Speak and I might spare you. Why did you attack me?", "Parle et je t'épargnerai peut-être. Pourquoi m'avez-vous attaqué?", "_t")
+t("[kill her]", "[la tuer]", "_t")
 t([[You.. you do not know?
 A few hours after you entered this place a raid of orcs fell upon us. They were not alone -- demons walked among them. We were overwhelmed! Utterly destroyed!
 My land is no more! All because you could not stop them at the Charred Scar! You failed us! People died to protect you, and you failed!
-#LIGHT_GREEN#*She starts to weep...*#WHITE#]], [[You.. you do not know?
-A few hours after you entered this place a raid of orcs fell upon us. They were not alone -- demons walked among them. We were overwhelmed! Utterly destroyed!
-My land is no more! All because you could not stop them at the Charred Scar! You failed us! People died to protect you, and you failed!
-#LIGHT_GREEN#*She starts to weep...*#WHITE#]], "_t")
-t("I know my mistakes and I intend to correct them. Please let me pass. I cannot save your people, but I can make their deaths mean something!", "I know my mistakes and I intend to correct them. Please let me pass. I cannot save your people, but I can make their deaths mean something!", "_t")
---]==]
-
+#LIGHT_GREEN#*She starts to weep...*#WHITE#]], [[Vous... vous ne savez pas?
+Quelques heures après que vous soyez entrés dans cet endroit, un raid Orc nous est tombé dessus. Ils n'étaient pas seuls... des démons marchaient parmi eux. Nous avons été submergés! Complètement anéantis!
+Ma terre n'est plus! Tout ça parce que vous n'avez pas pu les arrêter à la Plaie craquelée! Vous avez échoué! Des gens sont morts pour vous protéger, et vous avez échoué!
+#LIGHT_GREEN#*Elle commence à pleurer...*#WHITE#]], "_t")
+t("I know my mistakes and I intend to correct them. Please let me pass. I cannot save your people, but I can make their deaths mean something!", "Je reconnais mes erreurs et j'ai l'intention de les corriger. S'il vous plaît, laissez-moi passer. Je ne peux pas sauver votre peuple, mais je peux faire en sorte que leur mort signifie quelque chose!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/gates-of-morning-main.lua"
 
+t("What may I do for you?", "Que puis-je faire pour vous?", "_t")
+t("Lady Aeryn, at last I am back home! [tell her your story]", "Lady Aeryn, enfin, je suis de retour chez moi! [lui raconter votre histoire]", "_t")
+t("Tell me more about the Gates of Morning.", "Dites-m'en plus sur les Portes du Matin.", "_t")
+t("Before I came here, I happened upon members of the Sunwall in Maj'Eyal. Do you know of this?.", "Avant de venir ici, j'ai rencontré par hasard des membres du Mur Solaire en Maj'Eyal. Vous êtes au courant?", "_t")
+t("I need help in my hunt for clues about the staff.", "J'ai besoin d'aide dans ma chasse aux informations sur le bâton.", "_t")
+t("I have destroyed the leaders of all the Orc Prides.", "J'ai anéanti les chefs de tous les Clans Orcs.", "_t")
+t("I am back from the Charred Scar, where the orcs took the staff.", "Je suis de retour de la Plaie Craquelée, où les orcs ont pris le bâton.", "_t")
+t("A dying paladin gave me this map; something about orc breeding pits. [tell her the story]", "Un paladin mourant m'a donné cette carte, quelque chose sur les fosses de reproduction Orcs. [lui raconter l'histoire]", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_gates-of-morning-main")
--- texte non traduit
---[==[
-t("What may I do for you?", "What may I do for you?", "_t")
-t("Lady Aeryn, at last I am back home! [tell her your story]", "Lady Aeryn, at last I am back home! [tell her your story]", "_t")
-t("Tell me more about the Gates of Morning.", "Tell me more about the Gates of Morning.", "_t")
-t("Before I came here, I happened upon members of the Sunwall in Maj'Eyal. Do you know of this?.", "Before I came here, I happened upon members of the Sunwall in Maj'Eyal. Do you know of this?.", "_t")
-t("I need help in my hunt for clues about the staff.", "I need help in my hunt for clues about the staff.", "_t")
-t("I have destroyed the leaders of all the Orc Prides.", "I have destroyed the leaders of all the Orc Prides.", "_t")
-t("I am back from the Charred Scar, where the orcs took the staff.", "I am back from the Charred Scar, where the orcs took the staff.", "_t")
-t("A dying paladin gave me this map; something about orc breeding pits. [tell her the story]", "A dying paladin gave me this map; something about orc breeding pits. [tell her the story]", "_t")
 t([[@playername@! We thought you had died in the portal explosion. I am glad we were wrong. You saved the Sunwall.
-The news about the staff is troubling. Ah well, please at least take time to rest for a while.]], [[@playername@! We thought you had died in the portal explosion. I am glad we were wrong. You saved the Sunwall.
-The news about the staff is troubling. Ah well, please at least take time to rest for a while.]], "_t")
-t("I shall, thank you, my lady.", "I shall, thank you, my lady.", "_t")
+The news about the staff is troubling. Ah well, please at least take time to rest for a while.]], [[@playername@! Nous pensions que vous étiez mort dans l'explosion du portail. Je suis heureux que nous ayons eu tort. Tu as sauvé le Mur Solaire.
+Les nouvelles concernant le bâton sont troublantes. Ah bien, s'il vous plaît prenez au moins le temps de vous reposer pendant un certain temps.]], "_t")
+t("I shall, thank you, my lady.", "Je le ferai, merci Madame.", "_t")
 t([[There are two main groups in the population here, Humans and Elves.
 Humans came here in the Age of Pyre. Our ancestors were part of a Mardrop expedition to find what had happened to the Naloren lands that sunk under the sea. Their ship was wrecked and the survivors landed on this continent.
 They came across a group of elves, seemingly native to those lands, and befriended them - founding the Sunwall and the Gates of Morning.
-Then the orc pride came and we have been fighting for our survival ever since.]], [[There are two main groups in the population here, Humans and Elves.
-Humans came here in the Age of Pyre. Our ancestors were part of a Mardrop expedition to find what had happened to the Naloren lands that sunk under the sea. Their ship was wrecked and the survivors landed on this continent.
-They came across a group of elves, seemingly native to those lands, and befriended them - founding the Sunwall and the Gates of Morning.
-Then the orc pride came and we have been fighting for our survival ever since.]], "_t")
-t("Thank you, my lady.", "Thank you, my lady.", "_t")
-t("Ahh, so they survived? That is good news...", "Ahh, so they survived? That is good news...", "_t")
-t("Go on.", "Go on.", "_t")
-t("Well, actually...", "Well, actually...", "_t")
+Then the orc pride came and we have been fighting for our survival ever since.]], [[Il y a deux groupes principaux dans la population ici, les Elfes et les Humains.
+Les Humains sont arrivés ici à l'Ère du Bûcher. Nos ancêtres faisaient partie d'une expédition Mardrop pour trouver ce qui était arrivé aux terres de Nalore qui avaient sombré sous la mer. Leur navire a fait naufrage et les survivants ont atterri sur ce continent.
+Ils ont rencontré un groupe d'elfes, apparemment originaires de ces terres, et se sont liés d'amitié avec eux - fondant le Mur Solaire et les Portes du Matin.
+Puis les Clans Orcs sont arrivés et nous nous sommes battus pour notre survie depuis lors.]], "_t")
+t("Thank you, my lady.", "Merci, ma dame.", "_t")
+t("Ahh, so they survived? That is good news...", "Ahh, donc ils ont survécu? C'est une bonne nouvelle...", "_t")
+t("Go on.", "Continuez.", "_t")
+t("Well, actually...", "Eh bien, en fait...", "_t")
 t([[The people you saw are likely the volunteers of Zemekkys' early experiments regarding the farportals.
 He is a mage who resides here in the Sunwall, eccentric but skilled, who believes that creation of a new farportal to Maj'Eyal is possible.
 Aside from a few early attempts with questionable results, he hasn't had much luck. Still, it's gladdening to hear that the volunteers for his experiments live, regardless of their location. We are all still under the same Sun, after all.
 
-Actually... maybe it would benefit you if you meet Zemekkys. He would surely be intrigued by that Orb of Many Ways you possess. He lives in a small house just to the north.]], [[The people you saw are likely the volunteers of Zemekkys' early experiments regarding the farportals.
-He is a mage who resides here in the Sunwall, eccentric but skilled, who believes that creation of a new farportal to Maj'Eyal is possible.
-Aside from a few early attempts with questionable results, he hasn't had much luck. Still, it's gladdening to hear that the volunteers for his experiments live, regardless of their location. We are all still under the same Sun, after all.
+Actually... maybe it would benefit you if you meet Zemekkys. He would surely be intrigued by that Orb of Many Ways you possess. He lives in a small house just to the north.]], [[Les personnes que vous avez vues sont probablement les volontaires des premières expériences de Zemekkys concernant les portails lointains.
+Il s'agit d'un mage qui réside ici dans le Mur Solaire, excentrique mais compétent, qui croit que la création d'un nouveau portail vers Maj'Eyal est possible.
+En dehors de quelques tentatives précoces aux résultats douteux, il n'a pas eu beaucoup de chance. Néanmoins, il est réconfortant d'entendre que des volontaires de ses expériences sont en vie, quel que soit leur emplacement. Nous sommes tous sous le même soleil, après tout.
 
-Actually... maybe it would benefit you if you meet Zemekkys. He would surely be intrigued by that Orb of Many Ways you possess. He lives in a small house just to the north.]], "_t")
-t("Maybe I'll visit him. Thank you.", "Maybe I'll visit him. Thank you.", "_t")
+En fait... peut-être qu'il serait bénéfique pour vous de rencontrer Zemekkys. Il serait sûrement intrigué par l'Orbe des multiples voies que vous possédez. Il vit dans une petite maison juste au nord.]], "_t")
+t("Maybe I'll visit him. Thank you.", "Je vais peut-être lui rendre visite. Merci.", "_t")
 t([[The news has indeed reached me. I could scarce believe it, so long have we been at war with the Pride.
 Now they are dead? At the hands of just one @playerdescriptor.race@? Truly I am amazed by your power.
 While you were busy bringing an end to the orcs, we managed to discover some parts of the truth from a captive orc.
 He talked about the shield protecting the High Peak. It seems to be controlled by "orbs of command" which the masters of the Prides had in their possession.
 He also said the only way to enter the peak and de-activate the shield is through the "slime tunnels", located somewhere in one of the Prides, probably Grushnak.
-]], [[The news has indeed reached me. I could scarce believe it, so long have we been at war with the Pride.
-Now they are dead? At the hands of just one @playerdescriptor.race@? Truly I am amazed by your power.
-While you were busy bringing an end to the orcs, we managed to discover some parts of the truth from a captive orc.
-He talked about the shield protecting the High Peak. It seems to be controlled by "orbs of command" which the masters of the Prides had in their possession.
-He also said the only way to enter the peak and de-activate the shield is through the "slime tunnels", located somewhere in one of the Prides, probably Grushnak.
+]], [[La nouvelle m'est en effet parvenue. Je ne pouvais pas le croire, cela fait si longtemps que nous sommes en guerre contre les Clans.
+Et maintenant ils sont morts? Par la main d'un seul @playerdescriptor.race@? Je suis vraiment étonné par ta puissance.
+Pendant que vous étiez occupés à mettre fin aux activités des orcs, nous avons réussi à découvrir une partie de la vérité grâce à un orc captif.
+Il a parlé du bouclier qui protège le Haut Pic. Il semble être contrôlé par des "orbes de commandes" que les maîtres des Pics avaient en leur possession.
+Il a également dit que le seul moyen d'accéder au pic et de désactiver le bouclier est de passer par les "tunnels de vases", situés quelque part dans l'un des Clans, probablement Grushnak.
 ]], "_t")
-t("Thanks, my lady. I have not been able to find all of the orbs of command in my travels; could you have some of your men search for me?", "Thanks, my lady. I have not been able to find all of the orbs of command in my travels; could you have some of your men search for me?", "_t")
-t("Thanks, my lady. I will look for the tunnel and venture inside the Peak.", "Thanks, my lady. I will look for the tunnel and venture inside the Peak.", "_t")
+t("Thanks, my lady. I have not been able to find all of the orbs of command in my travels; could you have some of your men search for me?", "Merci, ma dame. Je n'ai pas été en mesure de trouver toutes les orbes de commandes dans mes voyages; pourriez-vous demander à certains de vos hommes de chercher pour moi?", "_t")
+t("Thanks, my lady. I will look for the tunnel and venture inside the Peak.", "Merci, ma dame. Je vais chercher le tunnel et m'aventurer à l'intérieur du Pic.", "_t")
 t([[I have already sent parties to clear out the remainder of the prides as you progressed, and have instructed to keep a sharp eye out for any orbs of command you may have missed.
-	Which do you not have? I can check with the parties if they found any. Our sources indicate that you should have four: one of Undeath, one of Destruction, one of Dragons, and one of Elemental might.]], [[I have already sent parties to clear out the remainder of the prides as you progressed, and have instructed to keep a sharp eye out for any orbs of command you may have missed.
-	Which do you not have? I can check with the parties if they found any. Our sources indicate that you should have four: one of Undeath, one of Destruction, one of Dragons, and one of Elemental might.]], "_t")
-t("The orb of Undeath.", "The orb of Undeath.", "_t")
-t("The orb of Destruction.", "The orb of Destruction.", "_t")
-t("The orb of Dragons.", "The orb of Dragons.", "_t")
-t("The orb of Elements.", "The orb of Elements.", "_t")
-t("Thanks, my lady, that is all of them. I will look for the tunnel and venture inside the Peak.", "Thanks, my lady, that is all of them. I will look for the tunnel and venture inside the Peak.", "_t")
-t("Ah yes, my men have found that in Rak'Shor Pride. Here: ", "Ah yes, my men have found that in Rak'Shor Pride. Here: ", "_t")
-t("Ah yes, my men have found that in Vor Pride. Here: ", "Ah yes, my men have found that in Vor Pride. Here: ", "_t")
-t("Ah yes, my men have found that in Grushnak Pride. Here: ", "Ah yes, my men have found that in Grushnak Pride. Here: ", "_t")
-t("Ah yes, my men have found that in Gorbat Pride. Here: ", "Ah yes, my men have found that in Gorbat Pride. Here: ", "_t")
+	Which do you not have? I can check with the parties if they found any. Our sources indicate that you should have four: one of Undeath, one of Destruction, one of Dragons, and one of Elemental might.]], [[J'ai déjà envoyé des équipes pour éliminer le reste des Clans au fur et à mesure de votre progression, et ai demandé de garder un œil attentif sur les orbes de commandes que vous auriez pu manquer.
+	Lesquels n'avez-vous pas? Je peux vérifier avec les groupes s'ils en ont trouvé. Nos sources indiquent que vous devriez en avoir quatre: une de Non-Vie, une de Destruction, une Draconique, et une de Puissance Elémentaire.]], "_t")
+t("The orb of Undeath.", "L'orbe de Non-Vie.", "_t")
+t("The orb of Destruction.", "L'orbe de Destruction.", "_t")
+t("The orb of Dragons.", "L'orbe Draconique.", "_t")
+t("The orb of Elements.", "L'orbe de Puissance Elementaire.", "_t")
+t("Thanks, my lady, that is all of them. I will look for the tunnel and venture inside the Peak.", "Merci, ma dame, je els ai toutes. Je vais chercher le tunnel et m'aventurer à l'intérieur du Pic.", "_t")
+t("Ah yes, my men have found that in Rak'Shor Pride. Here: ", "Ah oui, mes hommes ont trouvé ça au Clan Rak'Shor. Voici: ", "_t")
+t("Ah yes, my men have found that in Vor Pride. Here: ", "Ah oui, mes hommes ont rouvé ça au Clan Vor. Voici: ", "_t")
+t("Ah yes, my men have found that in Grushnak Pride. Here: ", "Ah oui, mes hommes ont trouvé ça au Clan Grushnak. Voici: ", "_t")
+t("Ah yes, my men have found that in Gorbat Pride. Here: ", "Ah oui, mes hommes ont trouvé ça au Clan Gorbat. Voici: ", "_t")
 t([[As much as I would like to help, our forces are already spread too thin; we cannot provide you with direct assistance.
 But I might be able to help you by explaining how the Pride is organised.
 Recently we have heard the Pride speaking about a new master, or masters. They might be the ones behind that mysterious staff of yours.
@@ -2705,141 +2688,127 @@ The known bastions of the Pride are:
 - Rak'shor Pride, in the west of the southern desert
 - Gorbat Pride, in a mountain range in the southern desert
 - Vor Pride, in the northeast
-- Grushnak Pride, on the eastern slope of the High Peak]], [[As much as I would like to help, our forces are already spread too thin; we cannot provide you with direct assistance.
-But I might be able to help you by explaining how the Pride is organised.
-Recently we have heard the Pride speaking about a new master, or masters. They might be the ones behind that mysterious staff of yours.
-We believe that the heart of their power is the High Peak, in the center of the continent. But it is inaccessible and covered by some kind of shield.
-You must investigate the bastions of the Pride. Perhaps you will find more information about the High Peak, and any orc you kill is one less that will attack us.
-The known bastions of the Pride are:
-- Rak'shor Pride, in the west of the southern desert
-- Gorbat Pride, in a mountain range in the southern desert
-- Vor Pride, in the northeast
-- Grushnak Pride, on the eastern slope of the High Peak]], "_t")
-t("I will investigate them.", "I will investigate them.", "_t")
-t("Aeryn points to the known locations on your map.", "Aeryn points to the known locations on your map.", "logPlayer")
+- Grushnak Pride, on the eastern slope of the High Peak]], [[Bien que j'aimerais vous aider, nos forces sont déjà trop dispersées; nous ne pouvons pas vous fournir une assistance directe.
+Mais je peux peut-être vous aider en vous expliquant comment les Clans sont organisé.
+Récemment, nous avons entendu les Clans parler d'un nouveau maître, ou de nouveaux maîtres. Ils pourraient être ceux qui se cachent derrière votre mystérieux bâton.
+Nous pensons que le cœur de leur pouvoir est le Haut Pic, au centre du continent. Mais il est inaccessible et couvert par une sorte de bouclier.
+Vous devez enquêter sur les bastions des Clans. Vous trouverez peut-être plus d'informations sur le Haut Pic, et chaque orc que vous tuerez sera un de moins pour nous attaquer.
+Les bastions connus des Clans sont:
+- Le clan Rak'shor, à l'ouest du désert du sud.
+- Le clan Gorbat, dans une chaîne de montagnes du désert du sud.
+- Le clan Vor, au nord-est
+- Le clan Grushnak, sur le versant est du Haut Pic.]], "_t")
+t("I will investigate them.", "Je vais enquêter sur eux.", "_t")
+t("Aeryn points to the known locations on your map.", "Aeryn indique les endroits connus sur ta carte.", "logPlayer")
 t([[One more bit of aid I might give you before you go. Your tale has moved me, and the very stars shine with approval of your relentless pursuit. Take their blessing, and let nothing stop you in your quest.
 	#LIGHT_GREEN#*She touches your forehead with one cool hand, and you feel a surge of power*
-	]], [[One more bit of aid I might give you before you go. Your tale has moved me, and the very stars shine with approval of your relentless pursuit. Take their blessing, and let nothing stop you in your quest.
-	#LIGHT_GREEN#*She touches your forehead with one cool hand, and you feel a surge of power*
+	]], [[Un dernier petit coup de pouce que je pourrais vous donner avant que vous ne partiez. Votre histoire m'a ému, et les étoiles elles-mêmes brillent en approuvant votre poursuite acharnée. Prends leur bénédiction, et ne laisse rien t'arrêter dans ta quête.
+	#LIGHT_GREEN#*Elle touche votre front d'une main froide, et vous ressentez une vague de pouvoir*.
 	]], "_t")
-t("I'll leave not a single orc standing.", "I'll leave not a single orc standing.", "_t")
-t("#VIOLET#You have learned the talent Relentless Pursuit.", "#VIOLET#You have learned the talent Relentless Pursuit.", "logPlayer")
-t("I have heard about that; good men lost their lives for this. I hope it was worth it.", "I have heard about that; good men lost their lives for this. I hope it was worth it.", "_t")
-t("Yes, my lady, they delayed the orcs so that I could get to the heart of the volcano. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "Yes, my lady, they delayed the orcs so that I could get to the heart of the volcano. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "_t")
-t("I am afraid I was too late, but I still have some valuable information. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "I am afraid I was too late, but I still have some valuable information. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "_t")
+t("I'll leave not a single orc standing.", "Je ne laisserai pas un seul orc debout.", "_t")
+t("#VIOLET#You have learned the talent Relentless Pursuit.", "#VIOLET#Vous avez appris le talent Poursuite Sans Relâche.", "logPlayer")
+t("I have heard about that; good men lost their lives for this. I hope it was worth it.", "J'ai entendu parler de cela; de bons hommes ont perdu leur vie pour ça. J'espère que cela en valait la peine.", "_t")
+t("Yes, my lady, they delayed the orcs so that I could get to the heart of the volcano. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "Oui, ma dame, ils ont retardé les orcs pour que je puisse atteindre le coeur du volcan. *#LIGHT_GREEN#lui dire ce qui s'est passé#WHITE#*", "_t")
+t("I am afraid I was too late, but I still have some valuable information. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "Je crains d'être arrivé trop tard, mais j'ai tout de même quelques précieuses informations. *#LIGHT_GREEN#lui dire ce qui s'est passé#WHITE#*", "_t")
 t([[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
-Thank you for everything. You must continue your hunt now that you know what to look for.]], [[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
-Thank you for everything. You must continue your hunt now that you know what to look for.]], "_t")
-t("I will avenge your men.", "I will avenge your men.", "_t")
+Thank you for everything. You must continue your hunt now that you know what to look for.]], [[Des sorciers? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Clans, mais il semble qu'ils en aient deux.
+Merci pour tout. Vous devez continuer votre chasse maintenant que vous savez quoi chercher.]], "_t")
+t("I will avenge your men.", "Je vengerai vos hommes.", "_t")
 t([[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
-I am afraid with the power they gained today they will be even harder to stop, but we do not have a choice.]], [[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
-I am afraid with the power they gained today they will be even harder to stop, but we do not have a choice.]], "_t")
-t("Ah! This is wonderful! Finally a ray of hope amidst the darkness. I will assign my best troops to this. Thank you, @playername@ - take this as a token of gratitude.", "Ah! This is wonderful! Finally a ray of hope amidst the darkness. I will assign my best troops to this. Thank you, @playername@ - take this as a token of gratitude.", "_t")
-t("Good luck.", "Good luck.", "_t")
-t("Aeryn gives you: %s", "Aeryn gives you: %s", "logPlayer")
---]==]
-
+I am afraid with the power they gained today they will be even harder to stop, but we do not have a choice.]], [[Des sorciers? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Clans, mais il semble qu'ils en aient deux.
+Je crains qu'avec le pouvoir qu'ils ont acquis aujourd'hui, ils seront encore plus difficiles à arrêter, mais nous n'avons pas le choix.]], "_t")
+t("Ah! This is wonderful! Finally a ray of hope amidst the darkness. I will assign my best troops to this. Thank you, @playername@ - take this as a token of gratitude.", "Ah! C'est merveilleux! Enfin un rayon d'espoir au milieu de ces ténèbres. Je vais affecter mes meilleures troupes à cette tâche. Merci, @playername@, prenez ceci en gage de gratitude.", "_t")
+t("Good luck.", "Bonne chance.", "_t")
+t("Aeryn gives you: %s", "Aeryn vous donne: %s", "logPlayer")
 -- ancien texte traduit
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/gates-of-morning-welcome.lua"
 
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_gates-of-morning-welcome")
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*Before you stands a beautiful woman clad in shining golden armour*#WHITE#
-Stop! You are clearly a stranger! Where do you come from? The Gates of Morning are the last bastion of freedom in these lands, so who are you? A spy?]], [[#LIGHT_GREEN#*Before you stands a beautiful woman clad in shining golden armour*#WHITE#
-Stop! You are clearly a stranger! Where do you come from? The Gates of Morning are the last bastion of freedom in these lands, so who are you? A spy?]], "_t")
-t("My lady, I am indeed a stranger in these lands. I come from the west, from Maj'Eyal.", "My lady, I am indeed a stranger in these lands. I come from the west, from Maj'Eyal.", "_t")
+Stop! You are clearly a stranger! Where do you come from? The Gates of Morning are the last bastion of freedom in these lands, so who are you? A spy?]], [[#LIGHT_GREEN#*Devant vous se tient une femme magnifique, vêtue d'une splendide armure d'or.*#WHITE#
+Stop! Vous êtes clairement un étranger! D'où venez-vous? Les Portes du Matin sont le dernier bastion de liberté dans ces terres, alors qui êtes-vous? Un espion?]], "_t")
+t("My lady, I am indeed a stranger in these lands. I come from the west, from Maj'Eyal.", "Ma dame, je suis en effet un étranger sur ces terres. Je viens de l'ouest, de Maj'Eyal.", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_gates-of-morning-welcome")
 t([[Maj'Eyal! For many years have we tried to contact your people. We always failed.
-In any event, what is your purpose here?]], [[Maj'Eyal! For many years have we tried to contact your people. We always failed.
-In any event, what is your purpose here?]], "_t")
-t("It seems that I am stranded in these unfamiliar lands. #LIGHT_GREEN#*Tell her about your hunt for orcs and your encounter with Fillarel.*#WHITE#", "It seems that I am stranded in these unfamiliar lands. #LIGHT_GREEN#*Tell her about your hunt for orcs and your encounter with Fillarel.*#WHITE#", "_t")
-t("Sun Paladins? What do you mean? We know of no such thing where I come from.", "Sun Paladins? What do you mean? We know of no such thing where I come from.", "_t")
+In any event, what is your purpose here?]], [[Maj'Eyal! Pendant de nombreuses années, nous avons essayé de contacter votre peuple. Nous avons toujours échoué.
+Quoi qu'il en soit, quel sont vos intentions ici?]], "_t")
+t("It seems that I am stranded in these unfamiliar lands. #LIGHT_GREEN#*Tell her about your hunt for orcs and your encounter with Fillarel.*#WHITE#", "Il semblerait que je sois bloqué dans ces terres inconnues. #LIGHT_GREEN#*Lui raconter ta chasse aux orcs et ta rencontre avec Fillarel.*#WHITE#", "_t")
+t("Sun Paladins? What do you mean? We know of no such thing where I come from.", "Les Paladins du Soleil? Que voulez-vous dire? Nous ne connaissons rien de tel d'où je viens.", "_t")
 t([[We are the mighty warriors of the Sunwall, channeling the power of the Sun and merging it with martial training.
-For hundreds of years, we stood between the Orc Pride and the free people. Our numbers are diminishing, but we will stand firm until our last breath.]], [[We are the mighty warriors of the Sunwall, channeling the power of the Sun and merging it with martial training.
-For hundreds of years, we stood between the Orc Pride and the free people. Our numbers are diminishing, but we will stand firm until our last breath.]], "_t")
-t("You have a noble spirit, my lady.", "You have a noble spirit, my lady.", "_t")
+For hundreds of years, we stood between the Orc Pride and the free people. Our numbers are diminishing, but we will stand firm until our last breath.]], [[Nous sommes les puissants guerriers du Mur Solaire, canalisant le pouvoir du soleil et le fusionnant avec l'entraînement martial.
+Pendant des centaines d'années, nous nous sommes dressés entre le Clan Orc et le peuple libre. Nous sommes de moins en moins nombreux, mais nous resterons fermes jusqu'à notre dernier souffle.]], "_t")
+t("You have a noble spirit, my lady.", "Vous avez un esprit noble, ma dame.", "_t")
 t([[Orcs! Ah! Well then this is your lucky day. This whole continent is swarming with Orcs. They have united as the Orc Pride and, according to rumour, their masters are powerful.
 They roam the lands freely, ever assaulting us.
-@playername@, you have helped one of ours. I grant you access to the Gates of Morning and name you friend of the Sunwall.]], [[Orcs! Ah! Well then this is your lucky day. This whole continent is swarming with Orcs. They have united as the Orc Pride and, according to rumour, their masters are powerful.
-They roam the lands freely, ever assaulting us.
-@playername@, you have helped one of ours. I grant you access to the Gates of Morning and name you friend of the Sunwall.]], "_t")
-t("Thank you, my lady.", "Thank you, my lady.", "_t")
---]==]
-
+@playername@, you have helped one of ours. I grant you access to the Gates of Morning and name you friend of the Sunwall.]], [[Des orcs! Ah! Eh bien c'est votre jour de chance. Ce continent entier grouille d'Orcs. Ils se sont unis sous le nom de Clan Orc et, selon la rumeur, leurs maîtres sont puissants.
+Ils parcourent les terres librement, sans jamais nous attaquer.
+@playername@, tu as aidé l'un des nôtres. Je t'accorde l'accès aux Portes du Matin et te nomme ami du Mur Solaire.]], "_t")
+t("Thank you, my lady.", "Merci, ma dame.", "_t")
 -- ancien texte traduit
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/golbug-explains.lua"
 
-t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaquer]", "_t")
--- texte non traduit
---[==[
 t([[#VIOLET#*As you open the door you notice a huge orc in the distance, covered in both flames and ice.*#LAST#
 @playerdescriptor.race@! You should never have come! Your doom awaits!
-The Orc Pride will never yield to anybody! They have their precious and there is nothing you can do.]], [[#VIOLET#*As you open the door you notice a huge orc in the distance, covered in both flames and ice.*#LAST#
-@playerdescriptor.race@! You should never have come! Your doom awaits!
-The Orc Pride will never yield to anybody! They have their precious and there is nothing you can do.]], "_t")
-t("The Orc Pride obeys a master? I see... 'pride' indeed!", "The Orc Pride obeys a master? I see... 'pride' indeed!", "_t")
-t("The Pride chooses its allies. It has no master! ATTACK!", "The Pride chooses its allies. It has no master! ATTACK!", "_t")
---]==]
-
+The Orc Pride will never yield to anybody! They have their precious and there is nothing you can do.]], [[#VIOLET#*En ouvrant la porte, vous remarquez un orc immense au loin, couvert à la fois de flammes et de glace.*#LAST#
+@playerdescriptor.race@! Vous n'auriez jamais dû venir! Votre perdition vous attend!
+Le Clan Orc ne cédera jamais à personne! Ils ont leur précieux et il n'y a rien que vous puissiez faire.]], "_t")
+t("The Orc Pride obeys a master? I see... 'pride' indeed!", "Le Clan Orc obéit à un maître? Je vois... de la fierté, en effet!", "_t")
+t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaquer]", "_t")
+t("The Pride chooses its allies. It has no master! ATTACK!", "Le Clan choisit ses alliés. Il n'a pas de maître! À L'ATTAQUE!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/jewelry-store.lua"
 
+t("Imbue which ring?", "Imprégner quelle anneau?", "_t")
+t("Use which gem?", "Utiliser quelle gemme?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
+t("%s failed to craft with %s and %s!", "%s a échoue dans son travail avec %s and %s!", "logPlayer")
 t("Not enough money", "Pas assez d'argent", "_t")
+t("This costs %d gold, you need more gold.", "Cela coûte %d pièces d'or, vous avez besoin de plus d'or.", "tformat")
+t("Imbue cost", "Coût d'iprégnation", "_t")
+t("This will cost you %s gold, do you accept?", "Cela vous coûtera %s pièce d'or, accepter vous?", "tformat")
+t("%s %s ring", "%s %s anneau", "tformat")
+t("weird", "étrange", "_t")
+t("%s creates: %s", "%s créé: %s", "logPlayer")
+t("Imbue which amulet?", "Imprégner quelle amulette?", "_t")
+t("Use which first gem?", "Utiliser quelle gemme en premier?", "_t")
+t("Use which second gem?", "Utiliser quelle gemme en second?", "_t")
+t("Limmir needs more gold for the magical plating.", "Limmir a besoin de plus d'or pour le revêtement magique.", "_t")
+t("You need to use %s gold for the plating, do you accept?", "Vous devez utiliser %s d'or pour le revêtement, acceptez-vous?", "tformat")
+t("Limmir's Amulet of the Moon", "Amulette de la Lune de Limmir", "_t")
 t("Welcome, @playername@, to my shop.", "Bienvenue, @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
+t("I am looking for special jewelry.", "Je suis à la recherche de bijoux spéciaux.", "_t")
+t("So you can infuse amulets in this place?", "Donc vous pouvez infuser des amulettes dans cet endroit?", "_t")
+t("I have found this tome; it looked important.", "J'ai trouvé ce recueil, il semblait important.", "_t")
 t("Sorry I have to go!", "Désolé, je dois y aller!", "_t")
--- texte non traduit
---[==[
-t("Imbue which ring?", "Imbue which ring?", "_t")
-t("Use which gem?", "Use which gem?", "_t")
-t("%s failed to craft with %s and %s!", "%s failed to craft with %s and %s!", "logPlayer")
-t("This costs %d gold, you need more gold.", "This costs %d gold, you need more gold.", "tformat")
-t("Imbue cost", "Imbue cost", "_t")
-t("This will cost you %s gold, do you accept?", "This will cost you %s gold, do you accept?", "tformat")
-t("%s %s ring", "%s %s ring", "tformat")
-t("weird", "weird", "_t")
-t("%s creates: %s", "%s creates: %s", "logPlayer")
-t("Imbue which amulet?", "Imbue which amulet?", "_t")
-t("Use which first gem?", "Use which first gem?", "_t")
-t("Use which second gem?", "Use which second gem?", "_t")
-t("Limmir needs more gold for the magical plating.", "Limmir needs more gold for the magical plating.", "_t")
-t("You need to use %s gold for the plating, do you accept?", "You need to use %s gold for the plating, do you accept?", "tformat")
-t("Limmir's Amulet of the Moon", "Limmir's Amulet of the Moon", "_t")
-t("I am looking for special jewelry.", "I am looking for special jewelry.", "_t")
-t("So you can infuse amulets in this place?", "So you can infuse amulets in this place?", "_t")
-t("I have found this tome; it looked important.", "I have found this tome; it looked important.", "_t")
 t([[Then you are at the right place, for I am an expert jeweler.
 If you bring me a gem and a ring, I can create a new ring imbued with the properties of the gem.  The original traits of the ring will be lost in the process but new ones of similar quality will be generated.
-There is a small fee dependent on the level of the ring, and you need a quality ring to use a quality gem.]], [[Then you are at the right place, for I am an expert jeweler.
-If you bring me a gem and a ring, I can create a new ring imbued with the properties of the gem.  The original traits of the ring will be lost in the process but new ones of similar quality will be generated.
-There is a small fee dependent on the level of the ring, and you need a quality ring to use a quality gem.]], "_t")
-t("I need your services.", "I need your services.", "_t")
-t("Not now, thanks.", "Not now, thanks.", "_t")
+There is a small fee dependent on the level of the ring, and you need a quality ring to use a quality gem.]], [[Alors vous êtes au bon endroit, car je suis un maître bijoutier.
+Si vous m'apportez une gemme et une bague, je peux créer une nouvelle bague imprégnée des propriétés de la gemme.  Les caractéristiques originales de l'anneau seront perdues dans le processus, mais de nouvelles caractéristiques de qualité similaire seront générées.
+Il y a un petit prix qui dépend du niveau de l'anneau, et vous avez besoin d'un anneau de qualité pour utiliser une gemme de qualité.]], "_t")
+t("I need your services.", "J'ai besoin de vos services.", "_t")
+t("Not now, thanks.", "Pas maintenant, merci.", "_t")
 t([[Yes! Thanks to you this place is now free from the corruption. I will stay on this island to study the magical aura, and as promised I can make you powerful amulets.
 Bring me a an amulet and two different gems and I will turn them into a powerful amulet, though the original properties of the amulet will be lost.
-I will not make you pay a fee for it since you helped me so much, but I am afraid the ritual requires a gold plating. This should be equal to about 1000 gold pieces.]], [[Yes! Thanks to you this place is now free from the corruption. I will stay on this island to study the magical aura, and as promised I can make you powerful amulets.
-Bring me a an amulet and two different gems and I will turn them into a powerful amulet, though the original properties of the amulet will be lost.
-I will not make you pay a fee for it since you helped me so much, but I am afraid the ritual requires a gold plating. This should be equal to about 1000 gold pieces.]], "_t")
+I will not make you pay a fee for it since you helped me so much, but I am afraid the ritual requires a gold plating. This should be equal to about 1000 gold pieces.]], [[Oui! Grâce à vous, cet endroit est maintenant libéré de la corruption. Je vais rester sur cette île pour étudier son aura magique, et comme promis, je peux vous fabriquer de puissantes amulettes.
+Apportez-moi une amulette et deux gemmes différentes et je les transformerai en une puissante amulette, bien que ses propriétés originales soient perdues.
+Je ne vous ferai pas payer de frais pour cela puisque vous m'avez beaucoup aidé, mais je crains que le rituel ne nécessite un revêtement en or. Cela devrait être égal à environ 1000 pièces d'or.]], "_t")
 t([[#LIGHT_GREEN#*He quickly looks at the tome and looks amazed.*#WHITE# This is an amazing find! Truly amazing!
 With this knowledge I could create potent amulets. However, it requires a special place of power to craft such items.
 There are rumours about a site of power in the southern mountains. Old legends tell about a place where a part of the Wintertide Moon melted when it got too close to the Sun and fell from the sky.
 A lake formed in the crater of the crash. The water of this lake, soaked in intense Moonlight for eons, should be sufficient to forge powerful artifacts!
-Go to the lake and then summon me with this scroll. I will retire to study the tome, awaiting your summon.]], [[#LIGHT_GREEN#*He quickly looks at the tome and looks amazed.*#WHITE# This is an amazing find! Truly amazing!
-With this knowledge I could create potent amulets. However, it requires a special place of power to craft such items.
-There are rumours about a site of power in the southern mountains. Old legends tell about a place where a part of the Wintertide Moon melted when it got too close to the Sun and fell from the sky.
-A lake formed in the crater of the crash. The water of this lake, soaked in intense Moonlight for eons, should be sufficient to forge powerful artifacts!
-Go to the lake and then summon me with this scroll. I will retire to study the tome, awaiting your summon.]], "_t")
-t("I will see if I can find it.", "I will see if I can find it.", "_t")
---]==]
-
+Go to the lake and then summon me with this scroll. I will retire to study the tome, awaiting your summon.]], [[#LIGHT_GREEN#*Il regarde rapidement le recueil et semble stupéfait.*#WHITE# C'est une découverte incroyable! Vraiment incroyable!
+Avec ces connaissances, je pourrais créer de puissantes amulettes. Cependant, il faut un lieu de pouvoir spécial pour fabriquer de tels objets.
+Il y a des rumeurs sur un lieu de pouvoir dans les montagnes du sud. De vieilles légendes parlent d'un endroit où une partie de la Lune de Frimas a fondu lorsqu'elle s'est trop approchée du Soleil et est tombée du ciel.
+Un lac s'est formé dans le cratère de la chute. L'eau de ce lac, trempée dans une intense lumière lunaire pendant des éons, devrait être suffisante pour forger de puissants artefacts!
+Allez au lac, puis convoquez-moi avec ce parchemin. Je me retirerai pour étudier le tome, en attendant votre convocation.]], "_t")
+t("I will see if I can find it.", "Je vais voir si je peux le trouver.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/keepsake-berethh-encounter.lua"
@@ -2918,6 +2887,7 @@ t("In that case, let us proceed as quickly as possible. Now, concerning this fas
 ------------------------------------------------
 section "mod-tome/data/chats/last-hope-lost-merchant.lua"
 
+t("Urthol's Wondrous Emporium", "L'échoppe merveilleuse d'Urthol", "_t")
 t([[Ah, my #{italic}#good#{normal}# friend @playername@!
 Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], [[Ah, mon #{italic}#bon#{normal}# ami @playername@!
 Grâce à vous, je suis arrivé sain et sauf dans cette grande ville! J'ai l'intention d'ouvrir bientôt ma plus excellente boutique, mais comme je vous suis redevable, je pourrais peut-être ouvrir plus tôt pour vous si vous avez besoin de marchandises exotiques.]], "_t")
@@ -2978,11 +2948,6 @@ t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
 t("Oh well, maybe later then.", "Eh bien, peut-être plus tard alors.", "_t")
 t("*This store does not appear to be open yet*", "*Ce magasin ne semble pas encore ouvert*", "_t")
 t("[leave]", "[partir]", "_t")
--- nouveau texte
---[==[
-t("Urthol's Wondrous Emporium", "Urthol's Wondrous Emporium", "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t(".", ".", "_t")
@@ -3176,6 +3141,15 @@ t([[Let me examine it.
 Oh yes, my friend, this is indeed a powerful artefact! I think that it should suffice to complete my quest! Many thanks!]], [[Laissez-moi l'examiner.
 Oh oui, mon ami, c'est en effet un puissant artefact! Je pense qu'il devrait suffire pour compléter ma quête! Merci beaucoup!]], "_t")
 t("Well, I cannot use it anyway.", "Hé bien, de toute façon je ne peux pas l'utiliser.", "_t")
+t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, I guess I can tell you; you deserve it for helping me.
+During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kar'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
+So she set a secret plan into action and built a secret place where magic would be kept alive.
+Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
+Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire; vous le méritez pour m'avoir aidé.
+Pendant les années sombres de la Chasse aux Sorcières, il y a plusieurs milliers d'années, Linaniil, la grande mage du Kor'Krul, s'inquiétait que la magie puisse disparaître avec sa génération et être perdue pour les mortels s'ils en avaient à nouveau besoin.
+Elle a donc mis en place un plan secret et a construit un lieu secret où la magie serait maintenue en vie.
+Son plan a fonctionné et le groupe a construit une ville appelée Angolwen dans les montagnes de l'ouest. #LIGHT_GREEN#*Il la marque sur votre carte, ainsi qu'un portail pour y accéder*#WHITE#
+Peu de gens y sont acceptés, mais je m'arrangerai pour que vous soyez admis à l'intérieur.]], "_t")
 t("Oh! How could such a place be kept secret for so long... This is interesting indeed. Thank you for your trust!", "Oh! Comment un tel endroit a-t-il pu être gardé secret si longtemps... C'est vraiment intéressant. Merci pour votre confiance!", "_t")
 t([[Ah yes! I am so glad! I will be able to go back to Angolwen now, and perhaps we will meet there.
 Please take this ring; it has served me well.]], [[Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolwen maintenant, et peut-être que nous nous y retrouverons.
@@ -3184,15 +3158,6 @@ t("Thanks, and best luck in your studies!", "Merci, et bonne chance dans vos ét
 -- texte non traduit
 --[==[
 t("...", "...", "_t")
-t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, I guess I can tell you; you deserve it for helping me.
-During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kar'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
-So she set a secret plan into action and built a secret place where magic would be kept alive.
-Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
-Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, I guess I can tell you; you deserve it for helping me.
-During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kar'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
-So she set a secret plan into action and built a secret place where magic would be kept alive.
-Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
-Not many people are accepted there but I will arrange for you to be allowed inside.]], "_t")
 --]==]
 
 -- ancien texte traduit
@@ -3200,7 +3165,7 @@ t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, 
 During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kor'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
 So she set a secret plan into action and built a secret place where magic would be kept alive.
 Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
-Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui! Je suis tellement contente! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire; vous le méritez pour m'avoir aidé.
+Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire; vous le méritez pour m'avoir aidé.
 Pendant les années sombres de la Chasse aux Sorcières, il y a plusieurs milliers d'années, Linaniil, la grande mage du Kor'Krul, s'inquiétait que la magie puisse disparaître avec sa génération et être perdue pour les mortels s'ils en avaient à nouveau besoin.
 Elle a donc mis en place un plan secret et a construit un lieu secret où la magie serait maintenue en vie.
 Son plan a fonctionné et le groupe a construit une ville appelée Angolwen dans les montagnes de l'ouest. #LIGHT_GREEN#*Il la marque sur votre carte, ainsi qu'un portail pour y accéder*#WHITE#
@@ -3433,7 +3398,7 @@ section "mod-tome/data/chats/pre-charred-scar.lua"
 t([[*#LIGHT_GREEN#Suddenly a voice appears in your head.#WHITE#*
 @playername@, this is High Sun Paladin Aeryn of the Sunwall. I am communicating with you by the power of the Anorithil.
 I have some urgent information for you: the staff you were looking for has been located.]], [[*#LIGHT_GREEN#Soudain, une voix se fait entendre dans votre tête.#WHITE#*
-@playername@, ici le Haut Paladin solaire Aeryn, du Mur du Soleil. Je communique avec vous par le pouvoir de l'Anorithil.
+@playername@, ici le Haut Paladin solaire Aeryn, du Mur Solaire. Je communique avec vous par le pouvoir de l'Anorithil.
 J'ai une information urgente à vous communiquer: le bâton que vous recherchez a été localisé.]], "_t")
 t("Where?!", "Où ça?!", "_t")
 t([[One of our patrols noticed some strange orc movements around the southern part of the continent, in the desert of Erúan.
@@ -11175,6 +11140,7 @@ t("misc", "divers", "entity type")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("Summertide", "Eté", "entity name")
 t("None", "Aucune", "_t")
+t("Use which gem?", "Utiliser quelle gemme?", "_t")
 t("something", "quelque chose", "_t")
 -- texte non traduit
 --[==[
@@ -11931,7 +11897,6 @@ t("%s: %s", "%s: %s", "tformat")
 t("Write a description for this gem's properties!", "Write a description for this gem's properties!", "_t")
 t("Demonic", "Demonic", "_t")
 t("imbue the hammer with a gem of your choice", "imbue the hammer with a gem of your choice", "_t")
-t("Use which gem?", "Use which gem?", "_t")
 t("You remove your %s.", "You remove your %s.", "logPlayer")
 t("something has gone wrong", "something has gone wrong", "_t")
 t("Unique", "Unique", "_t")
@@ -27226,7 +27191,7 @@ t([[Use Feedback to replenish yourself.  This heals you for %d life, and restore
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/finer-energy-manipulations.lua"
 
-
+t("Use which gem?", "Utiliser quelle gemme?", "_t")
 -- texte non traduit
 --[==[
 t("Realign", "Realign", "talent name")
@@ -27243,7 +27208,6 @@ t([[Manipulate forces on the molecular level to realign, rebalance, and synergiz
 		Your total armour will increase by %d and your fatigue will decrease by %d for each body armour and shield worn.
 		The effects increase with your Mindpower.]], "tformat")
 t("Matter is Energy", "Matter is Energy", "talent name")
-t("Use which gem?", "Use which gem?", "_t")
 t([[Matter is energy, as any good Mindslayer knows. Unfortunately, the various bonds and particles involved are just too numerous and complex to make the conversion feasible in most cases. The ordered, crystalline structure of a gem, however, make it possible to transform a small percentage of its matter into usable energy.
 		This talent consumes one gem and grants %d psi per turn for between 5 and 13 turns, depending on the quality of the gem used.
 		This process also creates a resonance field that provides the (imbued) effects of the gem to you while this effect lasts.]], [[Matter is energy, as any good Mindslayer knows. Unfortunately, the various bonds and particles involved are just too numerous and complex to make the conversion feasible in most cases. The ordered, crystalline structure of a gem, however, make it possible to transform a small percentage of its matter into usable energy.
@@ -29741,11 +29705,11 @@ t([[Hit a target for %d%% melee damage and stun it for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/stone-alchemy.lua"
 
+t("Use which gem?", "Utiliser quelle gemme?", "_t")
 t("You extract %s from %s", "Vous extrayez %s de %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("Create Alchemist Gems", "Create Alchemist Gems", "talent name")
-t("Use which gem?", "Use which gem?", "_t")
 t("You create: %s", "You create: %s", "logPlayer")
 t([[Carve 40 to 80 alchemist gems out of a natural gemstone.
 		Alchemist gems are used for many other spells, and each gem type creates a different effect.]], [[Carve 40 to 80 alchemist gems out of a natural gemstone.
@@ -42548,7 +42512,7 @@ t("Thoughts about the impossibility of sea travel.", "Thoughts about the impossi
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/traps.lua"
 
-
+t("Urthol's Wondrous Emporium", "L'échoppe merveilleuse d'Urthol", "entity name")
 -- texte non traduit
 --[==[
 t("Hormond & Son Plates", "Hormond & Son Plates", "entity name")
@@ -42566,7 +42530,6 @@ t("The Elder", "The Elder", "entity name")
 t("Tannen's Door", "Tannen's Door", "entity name")
 t("Home of Ungrol the Alchemist", "Home of Ungrol the Alchemist", "entity name")
 t("Rich merchant", "Rich merchant", "entity name")
-t("Urthol's Wondrous Emporium", "Urthol's Wondrous Emporium", "entity name")
 --]==]
 
 
