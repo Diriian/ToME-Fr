@@ -3739,7 +3739,51 @@ t("This sounds strange. I need to think about it.", "Cela semble étrange. Je do
 ------------------------------------------------
 section "mod-tome/data/chats/sorcerer-end.lua"
 
+t([[<<<The two Sorcerers lie dead before you.
+Their bodies vanish in a small cloud of mist, quickly fading away.
+You feel you the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
+#YELLOW#YOU HAVE DONE WELL %s! YOU DESERVE A REWARD!#LAST#
+<<<You can feel your mind filling with warmth and desire to serve your patron>>>
+#YELLOW#BUT YOU MUST DO ONE MORE TASK!#LAST#
+<<<The warmth in your head is getting intense, too intense. You feel your sanity burning away!>>>
+#YELLOW#THROW YOURSELF INTO THE PORTAL! OPEN THE WAY FOR MY POWER TO RADIATE OVER YOUR WORLD! #CRIMSON#DO IT!#LAST#
+<<<Those last words are compelling. You can not resist!>>>
+]], [[<<<Les deux sorciers gisent morts devant vous.
+Leurs corps disparaissent dans un petit nuage de brume, s'effaçant rapidement.
+Tu ressens la douce chaleur de ton patron Soleil lointain. Il parle directement dans ton esprit!>>>
+#YELLOW#VOUS AVEZ FAIT DU BON TRAVAILLE %s! VOUS MÉRITEZ UNE RÉCOMPENSE!#LAST#
+<<<Vous pouvez sentir votre esprit se remplir de chaleur et de désir de servir votre patron.>>>
+#YELLOW#MAIS VOUS DEVEZ FAIRE UNE DERNIÈRE CHOSE!#LAST#
+<<<La chaleur dans votre tête devient intense, trop intense. Vous sentez votre santé mentale se consumer!>>>
+#YELLOW#JETTE-TOI DANS LE PORTAIL! OUVRE LA VOIE À MON RAYONNEMENT SUR TON MONDE! #CRIMSON#FAIS LE!#LAST#
+<<<Ces derniers mots sont impérieux. Vous ne pouvez pas y résister!>>>
+]], "tformat")
+t("#YELLOW#[sacrifice yourself to bring forth your patron to Eyal!]", "#YELLOW#[se sacrifier pour amener ton patron à Eyal!]", "_t")
+t("sacrificing %s to bring the fiery wrath of the Distant Sun", "sacrifier %s pour amener la colère ardente de Soleil Lointain", "tformat")
+t("Nnnnnooo! Get.. get out of my head!", "Nnnnnooon! Sortez... sortez de ma tête!", "_t")
+t([[<<<The warmth in your mind turns into searing pain!>>>
+#CRIMSON#YOU WILL DO AS YOU ARE TOLD! YOU ARE MY TOOL AND I INTEND TO USE IT!
+]], [[<<<La chaleur dans votre esprit se transforme en une douleur brûlante!>>>
+#CRIMSON#TU FERAS CE QU'ON TE DIT! TU ES MON OUTIL ET J'AI DÉCIDÉ DE T'UTILISER!
+]], "_t")
+t("#LIGHT_GREEN#[sacrifice yourself to bring forth your patron to Eyal!]", "#LIGHT_GREEN#[se sacrifier pour amener ton patron à Eyal!]", "_t")
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[Dans une dernière démonstration incroyable de volonté, tu luttes contre Soleil Lointain pendant quelques secondes, te permettant de projeter tes pensées vers Aeryn.]#WHITE# Haute Dame! Tuez-moi #{bold}#NOW#{normal}#", "_t")
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, unsure how to stop it.]#WHITE##{bold}#NO!#{normal}#", "#LIGHT_GREEN#[Dans une dernière démonstration incroyable de volonté, vous combattez Soleil Lointain pendant quelques secondes, sans savoir comment l'arrêter.]#WHITE##{bold}#NON!#{normal}#", "_t")
+t([[<<<Through your mind Aeryn sees what the Distant Sun is planning.>>>
+You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.
+<<<As she says this she pierces your body with a mighty thrust of her sword, ending the plans of your mad patron.>>>
+]], [[<<<A travers ton esprit, Aeryn voit ce que Soleil Lointain prépare.>>>
+Tu étais un allié précieux et un ami. Le monde se souviendra de ton dernier acte de sacrifice désintéressé. Je le jure.
+<<<En disant cela, elle transperce votre corps d'un puissant coup d'épée, mettant fin aux plans de votre patron fou.>>>
+]], "_t")
 t("#LIGHT_GREEN#[slip peacefully into death.]", "#LIGHT_GREEN#[glisser paisiblement dans la mort.]", "_t")
+t("sacrificing %s to stop the mad sun's plans", "sacrifier %s pour arrêter les plans du soleil fou", "tformat")
+t([[<<<The precious seconds fly by, but as you feel your mind breaking and burning you see a strange figure appearing in front of you, it radiates of immense power.>>>
+<<<The strange, amorphous figure in front of you remains completely silent. With a gesture of one of its tendrils, the staff is ripped from your hands. A surge of energy goes through the room as it grips the staff. Then you remember the old myth of the Godslayers. This is none other than a ***Sher'Tul***#{italic}#, and it knows you have been colluding with a god. That alone tells you everything you need to know.>>>
+]], [[<<<Les précieuses secondes passent, mais alors que vous sentez votre esprit se briser et brûler, vous voyez une étrange silhouette apparaître devant vous, elle dégage une immense puissance.>>>
+<<<La silhouette étrange et amorphe qui se trouve devant vous reste totalement silencieuse. D'un geste de l'une de ses vrilles, le bâton vous est arraché des mains. Une vague d'énergie traverse la pièce alors qu'elle s'empare du bâton. Vous vous souvenez alors du vieux mythe des chasseurs de dieux. Ce n'est rien d'autre qu'un ***Sher'Tul***#{italic}#, et il sait que vous avez été de connivence avec un dieu. Rien que cela vous dit tout ce que vous devez savoir.>>>
+]], "_t")
+t("#CRIMSON#[Your mind is burnt by your patron sun! Fight for your sun god now!]", "#CRIMSON#[Votre esprit est brûlé par votre patron Soleil Lointain! Combattez pour votre dieu du soleil maintenant!]", "_t")
 t([[#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#
 #LIGHT_GREEN#*Their bodies vanish in a small cloud of mist, quickly fading away.*#WHITE#
 #LIGHT_GREEN#*You feel the Way reaching out to you, the whole yeek race speaks to you.*#WHITE#
@@ -3802,55 +3846,7 @@ t("[leave]", "[partir]", "_t")
 t([[I cannot believe we succeeded. I was prepared to die and yet I live.
 I might have underestimated you. You did more than we could have hoped for!]], [[Je n'arrive pas à croire que nous ayons réussi. J'étais prêt à mourir et pourtant je vis.
 Je vous ai peut-être sous-estimé. Vous avez fait plus que ce que nous aurions pu espérer!]], "_t")
-t("We both did.", "Nous l'avons fait tous les deux.", "_t")
--- nouveau texte
---[==[
-t([[<<<The two Sorcerers lie dead before you.
-Their bodies vanish in a small cloud of mist, quickly fading away.
-You feel you the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
-#YELLOW#YOU HAVE DONE WELL %s! YOU DESERVE A REWARD!#LAST#
-<<<You can feel your mind filling with warmth and desire to serve your patron>>>
-#YELLOW#BUT YOU MUST DO ONE MORE TASK!#LAST#
-<<<The warmth in your head is getting intense, too intense. You feel your sanity burning away!>>>
-#YELLOW#THROW YOURSELF INTO THE PORTAL! OPEN THE WAY FOR MY POWER TO RADIATE OVER YOUR WORLD! #CRIMSON#DO IT!#LAST#
-<<<Those last words are compelling. You can not resist!>>>
-]], [[<<<The two Sorcerers lie dead before you.
-Their bodies vanish in a small cloud of mist, quickly fading away.
-You feel you the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
-#YELLOW#YOU HAVE DONE WELL %s! YOU DESERVE A REWARD!#LAST#
-<<<You can feel your mind filling with warmth and desire to serve your patron>>>
-#YELLOW#BUT YOU MUST DO ONE MORE TASK!#LAST#
-<<<The warmth in your head is getting intense, too intense. You feel your sanity burning away!>>>
-#YELLOW#THROW YOURSELF INTO THE PORTAL! OPEN THE WAY FOR MY POWER TO RADIATE OVER YOUR WORLD! #CRIMSON#DO IT!#LAST#
-<<<Those last words are compelling. You can not resist!>>>
-]], "tformat")
-t("#YELLOW#[sacrifice yourself to bring forth your patron to Eyal!]", "#YELLOW#[sacrifice yourself to bring forth your patron to Eyal!]", "_t")
-t("sacrificing %s to bring the fiery wrath of the Distant Sun", "sacrificing %s to bring the fiery wrath of the Distant Sun", "tformat")
-t("Nnnnnooo! Get.. get out of my head!", "Nnnnnooo! Get.. get out of my head!", "_t")
-t([[<<<The warmth in your mind turns into searing pain!>>>
-#CRIMSON#YOU WILL DO AS YOU ARE TOLD! YOU ARE MY TOOL AND I INTEND TO USE IT!
-]], [[<<<The warmth in your mind turns into searing pain!>>>
-#CRIMSON#YOU WILL DO AS YOU ARE TOLD! YOU ARE MY TOOL AND I INTEND TO USE IT!
-]], "_t")
-t("#LIGHT_GREEN#[sacrifice yourself to bring forth your patron to Eyal!]", "#LIGHT_GREEN#[sacrifice yourself to bring forth your patron to Eyal!]", "_t")
-t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "_t")
-t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, unsure how to stop it.]#WHITE##{bold}#NO!#{normal}#", "#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, unsure how to stop it.]#WHITE##{bold}#NO!#{normal}#", "_t")
-t([[<<<Through your mind Aeryn sees what the Distant Sun is planning.>>>
-You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.
-<<<As she says this she pierces your body with a mighty thrust of her sword, ending the plans of your mad patron.>>>
-]], [[<<<Through your mind Aeryn sees what the Distant Sun is planning.>>>
-You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.
-<<<As she says this she pierces your body with a mighty thrust of her sword, ending the plans of your mad patron.>>>
-]], "_t")
-t("sacrificing %s to stop the mad sun's plans", "sacrificing %s to stop the mad sun's plans", "tformat")
-t([[<<<The precious seconds fly by, but as you feel your mind breaking and burning you see a strange figure appearing in front of you, it radiates of immense power.>>>
-<<<The strange, amorphous figure in front of you remains completely silent. With a gesture of one of its tendrils, the staff is ripped from your hands. A surge of energy goes through the room as it grips the staff. Then you remember the old myth of the Godslayers. This is none other than a ***Sher'Tul***#{italic}#, and it knows you have been colluding with a god. That alone tells you everything you need to know.>>>
-]], [[<<<The precious seconds fly by, but as you feel your mind breaking and burning you see a strange figure appearing in front of you, it radiates of immense power.>>>
-<<<The strange, amorphous figure in front of you remains completely silent. With a gesture of one of its tendrils, the staff is ripped from your hands. A surge of energy goes through the room as it grips the staff. Then you remember the old myth of the Godslayers. This is none other than a ***Sher'Tul***#{italic}#, and it knows you have been colluding with a god. That alone tells you everything you need to know.>>>
-]], "_t")
-t("#CRIMSON#[Your mind is burnt by your patron sun! Fight for your sun god now!]", "#CRIMSON#[Your mind is burnt by your patron sun! Fight for your sun god now!]", "_t")
---]==]
-
+t("We both did.", "Nous l'avons fait ensemble.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/sorcerer-fight.lua"
@@ -4268,86 +4264,72 @@ t("Farewell. We are the Way, always.", "Adieu. Nous sommes la Voie, à jamais.",
 ------------------------------------------------
 section "mod-tome/data/chats/zemekkys-done.lua"
 
-
--- nouveau texte
---[==[
-t("Whatever.", "Whatever.", "chat_zemekkys-done")
---]==]
-
--- texte non traduit
---[==[
 t([[What? Ah, it is you, @playername@.
-I take it you are satisfied with the portal.]], [[What? Ah, it is you, @playername@.
-I take it you are satisfied with the portal.]], "_t")
-t("Yes, thank you.", "Yes, thank you.", "_t")
---]==]
-
+I take it you are satisfied with the portal.]], [[Quoi? Ah, c'est vous, @playername@.
+Je suppose que vous êtes satisfait du portail.]], "_t")
+t("Yes, thank you.", "Oui, merci.", "_t")
+t("Whatever.", "Peu importe.", "chat_zemekkys-done")
 
 ------------------------------------------------
 section "mod-tome/data/chats/zemekkys-start-chronomancers.lua"
 
-
--- texte non traduit
---[==[
 t([[@playername@, you are called to serve. The nearby unhallowed morass inhabitants are growing restless.
-You must go there and find the source.]], [[@playername@, you are called to serve. The nearby unhallowed morass inhabitants are growing restless.
-You must go there and find the source.]], "_t")
-t("I will, Grand Keeper.", "I will, Grand Keeper.", "_t")
-t("I am sorry, but I cannot do that.", "I am sorry, but I cannot do that.", "_t")
---]==]
-
+You must go there and find the source.]], [[@playername@, vous êtes appelés à servir. Les habitants voisins du marais impie s'agitent de plus en plus.
+Vous devez y aller et trouver la source.]], "_t")
+t("I will, Grand Keeper.", "Je le ferai, Grand Gardien.", "_t")
+t("I am sorry, but I cannot do that.", "Je suis désolé, mais je ne peux pas faire ça.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/zemekkys.lua"
 
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_zemekkys")
-t("Thank you.", "Merci.", "_t")
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*A slot in the door opens and a pair of wild eyes peer out.*#WHITE#
-What do you want, @playerdescriptor.race@?]], [[#LIGHT_GREEN#*A slot in the door opens and a pair of wild eyes peer out.*#WHITE#
-What do you want, @playerdescriptor.race@?]], "_t")
-t("Paladin Aeryn told me that you could help me. I need to get to Maj'Eyal.", "Paladin Aeryn told me that you could help me. I need to get to Maj'Eyal.", "_t")
-t("I found the Blood-Runed Athame, but there was no Resonating Diamond.", "I found the Blood-Runed Athame, but there was no Resonating Diamond.", "_t")
-t("I have a Resonating Diamond.", "I have a Resonating Diamond.", "_t")
+What do you want, @playerdescriptor.race@?]], [[#LIGHT_GREEN#*Une fente dans la porte s'ouvre et une paire d'yeux sauvages apparaissent.*#WHITE#
+Qu'est ce que vous voulez, @playerdescriptor.race@?]], "_t")
+t("Paladin Aeryn told me that you could help me. I need to get to Maj'Eyal.", "La paladine Aeryn m'a dit que vous pourriez m'aider. Je dois retourner en Maj'Eyal.", "_t")
+t("I found the Blood-Runed Athame, but there was no Resonating Diamond.", "J'ai trouvé l'Athamé rune de sang, mais il n'y avait pas de Diamant Résonnant.", "_t")
+t("I have a Resonating Diamond.", "J'ai le Diamant Résonnant.", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_zemekkys")
 t([[Pfaugh! Her goal in life is to waste my time! Maj'Eyal? Why not Narnia or Chicago? Just as easy to send you someplace entirely fictional as Maj'Eyal. Go away.
-#LIGHT_GREEN#*Slot slams shut.*#WHITE#]], [[Pfaugh! Her goal in life is to waste my time! Maj'Eyal? Why not Narnia or Chicago? Just as easy to send you someplace entirely fictional as Maj'Eyal. Go away.
-#LIGHT_GREEN#*Slot slams shut.*#WHITE#]], "_t")
-t("I got here from Maj'Eyal, didn't I? I have this magic Orb I looted from a dead orc, see, and...", "I got here from Maj'Eyal, didn't I? I have this magic Orb I looted from a dead orc, see, and...", "_t")
+#LIGHT_GREEN#*Slot slams shut.*#WHITE#]], [[Pfeuht§ Son but dans la vie est de me faire perdre mon temps! Maj'Eyal? Pourquoi pas Narnia ou Chicago? C'est aussi facile de t'envoyer dans un endroit complètement fictif qu'en Maj'Eyal. Va-t'en.
+#LIGHT_GREEN#*La fente se claque.*#WHITE#]], "_t")
+t("I got here from Maj'Eyal, didn't I? I have this magic Orb I looted from a dead orc, see, and...", "Je suis venu de Maj'Eyal, n'est-ce pas? J'ai cette Orbe magique que j'ai volée à un orc mort, vous voyez, et...", "_t")
 t([[#LIGHT_GREEN#*Slot opens.*#WHITE#
-Orb, you say? That you used to travel here from Maj'Eyal? Surely you don't possess the Orb of Many Ways! It's been lost for ages!]], [[#LIGHT_GREEN#*Slot opens.*#WHITE#
-Orb, you say? That you used to travel here from Maj'Eyal? Surely you don't possess the Orb of Many Ways! It's been lost for ages!]], "_t")
-t("[Hold up the orb]", "[Hold up the orb]", "_t")
+Orb, you say? That you used to travel here from Maj'Eyal? Surely you don't possess the Orb of Many Ways! It's been lost for ages!]], [[#LIGHT_GREEN#*La fente s'ouvre.*#WHITE#
+Une orbe, vous dites? Que tu as utilisé pour voyager ici depuis Maj'Eyal? Vous ne possédez sûrement pas l'Orbe des multiples voies! Elle est perdue depuis des lustres!]], "_t")
+t("[Hold up the orb]", "[Lever l'orbe]", "_t")
 t([[#LIGHT_GREEN#*His eyes widen.*#WHITE#
-Great Socks of Aeryn! It IS the Orb! Maybe we can get you home after all. Or maybe we can get you embedded in magma a thousand leagues straight down.]], [[#LIGHT_GREEN#*His eyes widen.*#WHITE#
-Great Socks of Aeryn! It IS the Orb! Maybe we can get you home after all. Or maybe we can get you embedded in magma a thousand leagues straight down.]], "_t")
-t("May I come in?", "May I come in?", "_t")
+Great Socks of Aeryn! It IS the Orb! Maybe we can get you home after all. Or maybe we can get you embedded in magma a thousand leagues straight down.]], [[#LIGHT_GREEN#*Ses yeux s'écarquillent.*#WHITE#
+Par les Grandes chaussettes d'Aeryn! C'est bien l'Orbe! Peut-être qu'on peut te ramener chez toi après tout. Ou peut-être qu'on peut te noyer dans le magma à des milliers de lieues d'ici.]], "_t")
+t("May I come in?", "Puis-je entrer?", "_t")
 t([[You think I'm letting some filthy @playerdescriptor.race@ in my house with the Orb of Many Ways?
 I blow myself up quite enough already without that thing in the house, thank you.
 Besides, I still can't help you unless you have a Blood-Runed Athame to etch a portal.
 Err, and that portal must be etched on a piece of prepared Resonating Marble.
 The Gates of the Morning has a slab of Marble that once could have served, but a number of, um, incidents have taken their toll.
-It'll require a Resonating Diamond to get it properly prepared. Oh, and I want 100 gold.]], [[You think I'm letting some filthy @playerdescriptor.race@ in my house with the Orb of Many Ways?
-I blow myself up quite enough already without that thing in the house, thank you.
-Besides, I still can't help you unless you have a Blood-Runed Athame to etch a portal.
-Err, and that portal must be etched on a piece of prepared Resonating Marble.
-The Gates of the Morning has a slab of Marble that once could have served, but a number of, um, incidents have taken their toll.
-It'll require a Resonating Diamond to get it properly prepared. Oh, and I want 100 gold.]], "_t")
-t("Where can I find all that?", "Where can I find all that?", "_t")
-t("Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I assume the orcs have some if they're cooking up portals to use that Orb on. Try the Vor Armory. It so happens that I know a back way in. Never mind why.", "Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I assume the orcs have some if they're cooking up portals to use that Orb on. Try the Vor Armory. It so happens that I know a back way in. Never mind why.", "_t")
-t("Of course there was no Resonating Diamond. What makes you think Briagh would let one loose for even a second?", "Of course there was no Resonating Diamond. What makes you think Briagh would let one loose for even a second?", "_t")
-t("Briagh?", "Briagh?", "_t")
-t("Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "_t")
-t("Where might I find Briagh's lair??", "Where might I find Briagh's lair??", "_t")
-t("Well south of the Sunwall. I'll mark it for you on your map.", "Well south of the Sunwall. I'll mark it for you on your map.", "_t")
-t("I'll be back with a Resonating Diamond.", "I'll be back with a Resonating Diamond.", "_t")
-t("Yes? You got the Athame, the gem and 100 gold?", "Yes? You got the Athame, the gem and 100 gold?", "_t")
-t("[Give him the gem, the athame and 100 gold]", "[Give him the gem, the athame and 100 gold]", "_t")
-t("Sorry, it seems I lack some stuff. I will be back.", "Sorry, it seems I lack some stuff. I will be back.", "_t")
+It'll require a Resonating Diamond to get it properly prepared. Oh, and I want 100 gold.]], [[Vous pensez que je vais laisser quelques sales @playerdescriptor.race@ entrer chez moi avec l'Orbe des multiples voies?
+Je me fais déjà assez exploser sans cette chose dans la maison, merci.
+De plus, je ne peux toujours pas t'aider à moins que tu n'aies une Athamé rune de sang pour graver un portail.
+Err, et ce portail doit être gravé sur un morceau de marbre résonnant préparé.
+Les Portes du Matin ont une dalle de marbre qui aurait pu servir autrefois, mais un certain nombre d'incidents ont eu raison d'elle.
+Il faudra un Diamant Résonnant pour le préparer correctement. Oh, et je veux 100 pièces d'or.]], "_t")
+t("Where can I find all that?", "Où puis-je trouver tout cela?", "_t")
+t("Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I assume the orcs have some if they're cooking up portals to use that Orb on. Try the Vor Armory. It so happens that I know a back way in. Never mind why.", "Essayez votre porte-monnaie pour les 100 pièces d'or. Pour ce qui est de l'Athamé et du Diamant, je suppose que les orcs en ont s'ils préparent des portails pour utiliser l'Orbe. Essayez l'armurerie Vor. Il se trouve que je connais un moyen détourné d'y entrer. Peu importe pourquoi.", "_t")
+t("Thank you.", "Merci.", "_t")
+t("Of course there was no Resonating Diamond. What makes you think Briagh would let one loose for even a second?", "Bien sûr, il n'y avait pas de Diamant Résonnant. Qu'est-ce qui vous fait croire que Briagh en laisserait échapper un, même une seconde?", "_t")
+t("Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "Briagh, le grand Ver des sables. D'où pensez-vous que viennent les diamants résonnants? Ce sont des diamants ordinaires jusqu'à ce qu'ils restent coincés entre les écailles de Briagh pendant quelques siècles et s'imprègnent de son cycle de vie. Il dort sur un trésor de pierres et de métaux précieux, vous voyez.", "_t")
+t("Where might I find Briagh's lair??", "Où puis-je trouver le repaire de Briagh??", "_t")
+t("Well south of the Sunwall. I'll mark it for you on your map.", "Bien au sud du Mur Solaire. Je vais le marquer sur votre carte.", "_t")
+t("I'll be back with a Resonating Diamond.", "Je reviendrai avec un Diamant Résonnant.", "_t")
+t("Yes? You got the Athame, the gem and 100 gold?", "Oui? Vous avez l'Athamé, la gemme et les 200 pièces d'or?", "_t")
+t("[Give him the gem, the athame and 100 gold]", "[Donnez-lui la gemme, l'athamé et 100 pièces d'or.]", "_t")
+t("Sorry, it seems I lack some stuff. I will be back.", "Désolé, il semble qu'il me manque des choses. Je reviendrai.", "_t")
 t([[#LIGHT_GREEN#*The door opens and a shabby Elf emerges.*#WHITE#
-Off we go to prepare the portal!]], [[#LIGHT_GREEN#*The door opens and a shabby Elf emerges.*#WHITE#
-Off we go to prepare the portal!]], "_t")
-t("[follow him]", "[follow him]", "_t")
+Off we go to prepare the portal!]], [[#LIGHT_GREEN#*La porte s'ouvre et un Elfe miteux en sort.*#WHITE#
+On va préparer le portail!]], "_t")
+t("[follow him]", "[le suivre]", "_t")
+-- texte non traduit
+--[==[
+t("Briagh?", "Briagh?", "_t")
 --]==]
 
 -- ancien texte traduit
@@ -4358,99 +4340,90 @@ section "mod-tome/data/chats/zigur-mindstar-store.lua"
 
 t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
+t("I am looking for mindstar training.", "Je suis à la recherche d'un entrainement à l'étoile d'âme.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_zigur-mindstar-store")
+t("I can teach you mindstar mastery (talent category Wild-gift/Mindstar mastery).  Learning the basics costs 100 gold, while more intensive training to gain proficiency costs 500 gold.  Once you're proficient, I can teach you some additional skills for 750 gold.", "Je peux vous enseigner la maîtrise des étoiles d'âme (catégorie de talent Don sauvage/Maîtrise des Etoiles d'Ame).  L'apprentissage des bases coûte 100 pièces d'or, tandis qu'un entraînement plus intensif pour gagner en compétence coûte 500 pièces d'or.  Une fois que vous êtes compétent, je peux vous enseigner des compétences supplémentaires pour 750 pièces d'or.", "_t")
 t("Just give me the basics (reveals locked talent category) - 100 gold.", "Donnez-moi juste les bases (révèle la catégorie de talent verrouillée) - 100 pièces d'or.", "_t")
+t("The shopkeeper spends some time with you, teaching you the basics of channeling energy through mindstars.", "Le commerçant passe un peu de temps avec vous, vous apprenant les bases de la canalisation de l'énergie par les étoiles d'âme.", "logPlayer")
+t("He is impressed with your affinity for natural forces.", "Il est impressionné par votre affinité avec les forces naturelles.", "logPlayer")
+t("Please teach me what I need to know (unlocks talent category) - 500 gold.", "Apprenez-moi ce que je dois savoir (débloque la catégorie des talents) - 500 pièces d'or.", "_t")
+t("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you.", "Le commerçant passe beaucoup de temps à examiner avec vous les détails les plus subtils de la canalisation de l'énergie par les étoiles d'âme.", "logPlayer")
+t("He is impressed with your mastery and shows you a few tricks to handle stronger energy flows.", "Il est impressionné par votre maîtrise et vous montre quelques astuces pour gérer des flux d'énergie plus forts.", "logPlayer")
 t("I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "Je suis déjà compétent, mais je veux devenir un expert (améliore la maîtrise des talents de 0.2) - 750 pièces d'or.", "_t")
+t("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you%s.", "Le commerçant passe beaucoup de temps à examiner avec vous les détails les plus fins de la canalisation de l'énergie par les étoiles d'âme%s.", "tformat")
+t(", and teaches you enhanced mental discipline needed to maintain powerful energy fields", ", et vous enseigne une discipline mentale accrue, nécessaire pour maintenir de puissants champs d'énergie", "_t")
 t("No thanks.", "Non merci.", "_t")
--- texte non traduit
---[==[
-t("I am looking for mindstar training.", "I am looking for mindstar training.", "_t")
-t("I can teach you mindstar mastery (talent category Wild-gift/Mindstar mastery).  Learning the basics costs 100 gold, while more intensive training to gain proficiency costs 500 gold.  Once you're proficient, I can teach you some additional skills for 750 gold.", "I can teach you mindstar mastery (talent category Wild-gift/Mindstar mastery).  Learning the basics costs 100 gold, while more intensive training to gain proficiency costs 500 gold.  Once you're proficient, I can teach you some additional skills for 750 gold.", "_t")
-t("The shopkeeper spends some time with you, teaching you the basics of channeling energy through mindstars.", "The shopkeeper spends some time with you, teaching you the basics of channeling energy through mindstars.", "logPlayer")
-t("He is impressed with your affinity for natural forces.", "He is impressed with your affinity for natural forces.", "logPlayer")
-t("Please teach me what I need to know (unlocks talent category) - 500 gold.", "Please teach me what I need to know (unlocks talent category) - 500 gold.", "_t")
-t("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you.", "The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you.", "logPlayer")
-t("He is impressed with your mastery and shows you a few tricks to handle stronger energy flows.", "He is impressed with your mastery and shows you a few tricks to handle stronger energy flows.", "logPlayer")
-t("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you%s.", "The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you%s.", "tformat")
-t(", and teaches you enhanced mental discipline needed to maintain powerful energy fields", ", and teaches you enhanced mental discipline needed to maintain powerful energy fields", "_t")
---]==]
-
 -- ancien texte traduit
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/zigur-trainer.lua"
 
+t("Well met, friend.", "Bravo, mon ami.", "_t")
 t("Farewell.", "Adieux.", "_t")
--- texte non traduit
---[==[
-t("Well met, friend.", "Well met, friend.", "_t")
-t("Sister", "Sister", "_t")
-t("Brother", "Brother", "_t")
-t("You cannot use your %s anymore; it is tainted by magic.", "You cannot use your %s anymore; it is tainted by magic.", "logPlayer")
+t("Sister", "Soeur", "_t")
+t("Brother", "Frère", "_t")
+t("You cannot use your %s anymore; it is tainted by magic.", "Vous ne pouvez plus utiliser votre %s, la magie l'a contaminé.", "logPlayer")
 t([[#LIGHT_GREEN#*A grim-looking Fighter stands there, clad in mail armour and a large olive cloak. He doesn't appear hostile - his sword is sheathed.*#WHITE#
 %s, our guild has been watching you and we believe that you have potential.
 We see that the hermetic arts have always been at the root of each and every trial this land has endured, and we also see that one day they will bring about our destruction. So we have decided to take action by calling upon Nature to help us combat those who wield the arcane.
 We can train you, but you need to prove you are pure, untouched by the eldritch forces, and ready to fight them to the end.
 You will be challenged against magical foes. Should you defeat them, we will teach you our ways, and never again will you be able to be tainted by magic, or use it.
 
-#LIGHT_RED#Note:  Completing this quest will forever prevent this character from using spells or items powered by arcane forces.  In exchange you'll be given access to a mindpower based generic talent tree, Anti-magic, and be able to unlock hidden properties in many arcane-disrupting items.]], [[#LIGHT_GREEN#*A grim-looking Fighter stands there, clad in mail armour and a large olive cloak. He doesn't appear hostile - his sword is sheathed.*#WHITE#
-%s, our guild has been watching you and we believe that you have potential.
-We see that the hermetic arts have always been at the root of each and every trial this land has endured, and we also see that one day they will bring about our destruction. So we have decided to take action by calling upon Nature to help us combat those who wield the arcane.
-We can train you, but you need to prove you are pure, untouched by the eldritch forces, and ready to fight them to the end.
-You will be challenged against magical foes. Should you defeat them, we will teach you our ways, and never again will you be able to be tainted by magic, or use it.
+#LIGHT_RED#Note:  Completing this quest will forever prevent this character from using spells or items powered by arcane forces.  In exchange you'll be given access to a mindpower based generic talent tree, Anti-magic, and be able to unlock hidden properties in many arcane-disrupting items.]], [[#LIGHT_GREEN#*Un combattant à l'air sinistre se tient là, vêtu d'une armure de mailles et d'une grande cape olive. Il ne semble pas hostile - son épée est au fourreau.*#WHITE#
+%s, notre guilde vous a observé et nous pensons que vous avez du potentiel.
+Nous voyons que les arts hermétiques ont toujours été à l'origine de chaque épreuve que cette terre a endurée, et nous voyons aussi qu'un jour ils provoqueront notre destruction. Nous avons donc décidé d'agir en faisant appel à la Nature pour nous aider à combattre ceux qui manient les arcanes.
+Nous pouvons vous former, mais vous devez prouver que vous êtes purs, non touchés par les forces occultes, et prêts à les combattre jusqu'au bout.
+Vous serez mis au défi contre des ennemis magiques. Si tu les vaincs, nous t'enseignerons nos méthodes, et plus jamais tu ne pourras être contaminé par la magie, ou l'utiliser.
 
-#LIGHT_RED#Note:  Completing this quest will forever prevent this character from using spells or items powered by arcane forces.  In exchange you'll be given access to a mindpower based generic talent tree, Anti-magic, and be able to unlock hidden properties in many arcane-disrupting items.]], "tformat")
-t("I will face your challenge!", "I will face your challenge!", "_t")
-t("I'm not interested.", "I'm not interested.", "_t")
-t("Very well. I will say that this is disappointing, but it is your choice. Farewell.", "Very well. I will say that this is disappointing, but it is your choice. Farewell.", "_t")
-t("Ah, you seem eager, but maybe still too young. Come back when you have grown a bit.", "Ah, you seem eager, but maybe still too young. Come back when you have grown a bit.", "_t")
-t("I shall.", "I shall.", "_t")
+#LIGHT_RED#Remarque : l'accomplissement de cette quête empêchera à jamais ce personnage d'utiliser des sorts ou des objets alimentés par des forces arcaniques.  En échange, vous aurez accès à un arbre de talent générique basé sur la puissance de l'esprit, l'Anti-magie, et pourrez déverrouiller les propriétés cachées de nombreux objets perturbant les arcanes.]], "tformat")
+t("I will face your challenge!", "Je vais relever votre défi!", "_t")
+t("I'm not interested.", "Je ne suis pas interessé.", "_t")
+t("Very well. I will say that this is disappointing, but it is your choice. Farewell.", "Très bien. Je dois dire que c'est décevant, mais c'est votre choix. Adieu.", "_t")
+t("Ah, you seem eager, but maybe still too young. Come back when you have grown a bit.", "Ah, vous semblez enthousiaste, mais peut-être encore trop jeune. Revenez quand vous aurez grandi un peu.", "_t")
+t("I shall.", "je le ferais.", "_t")
 t("\
 Worry not, though, Ogre - we can replace your unclean runes with a newly-discovered mixture of infusions, eliminating your dependence on them.  The process will feel...  unpleasant, and will dramatically shorten your lifespan, but you will finally be free from the addictive grip of the arcane!\
 ", "\
-Worry not, though, Ogre - we can replace your unclean runes with a newly-discovered mixture of infusions, eliminating your dependence on them.  The process will feel...  unpleasant, and will dramatically shorten your lifespan, but you will finally be free from the addictive grip of the arcane!\
+Ne t'inquiète pas, cependant, Ogre - nous pouvons remplacer vos runes impures par un mélange d'infusions récemment découvert, éliminant votre dépendance à leur égard.  Le processus sera... désagréable, et raccourcira considérablement votre durée de vie, mais vous serez enfin libéré de l'emprise addictive de l'arcane!\
 ", "_t")
 t([[We'll also reinforce the infusions you've been granted to replace your runes - the newest mixture should give you about five years of your life that the initial mixture took from you.
-]], [[We'll also reinforce the infusions you've been granted to replace your runes - the newest mixture should give you about five years of your life that the initial mixture took from you.
+]], [[Nous renforcerons également les infusions qui vous ont été accordés pour remplacer vos runes - le mélange le plus récent devrait vous rendre environ cinq années de votre vie que le mélange initial vous a fait perdre.
 ]], "_t")
 t([[Very well. Before you start, we will make sure no magic can help you:
 - You will not be able to use any spells or magical devices
 - Any worn objects that are powered by the arcane will be unequipped
 %s
-Are you ready, or do you wish to prepare first?]], [[Very well. Before you start, we will make sure no magic can help you:
-- You will not be able to use any spells or magical devices
-- Any worn objects that are powered by the arcane will be unequipped
+Are you ready, or do you wish to prepare first?]], [[Très bien. Avant de commencer, nous allons nous assurer qu'aucune magie ne peut vous aider:
+- Vous ne pourrez pas utiliser de sorts ou d'appareils magiques.
+- Tous les objets portés qui sont alimentés par l'arcane seront déséquipés.
 %s
-Are you ready, or do you wish to prepare first?]], "tformat")
-t("I am ready", "I am ready", "_t")
-t("I need to prepare.", "I need to prepare.", "_t")
+Êtes-vous prêt, ou souhaitez-vous vous préparer d'abord?]], "tformat")
+t("I am ready", "je suis prêt", "_t")
+t("I need to prepare.", "J'ai besoin de me préparer.", "_t")
 t([[#VIOLET#*You are grabbed by two olive-clad warriors and thrown into a crude arena!*
 #LIGHT_GREEN#*You hear the voice of the Fighter ring above you.*#WHITE#
-%s! Your training begins! I want to see you prove your superiority over the works of magic! Fight!]], [[#VIOLET#*You are grabbed by two olive-clad warriors and thrown into a crude arena!*
-#LIGHT_GREEN#*You hear the voice of the Fighter ring above you.*#WHITE#
-%s! Your training begins! I want to see you prove your superiority over the works of magic! Fight!]], "tformat")
-t("But wha.. [you notice your first opponent is already there]", "But wha.. [you notice your first opponent is already there]", "_t")
---]==]
-
+%s! Your training begins! I want to see you prove your superiority over the works of magic! Fight!]], [[#VIOLET#*Deux guerriers vêtus de tissu olive vous attrapent et vous jettent dans une arène grossière!*
+#LIGHT_GREEN#*Vous entendez la voix du combattant résonner au-dessus de vous.*#WHITE#
+%s! Votre entraînement commence! Je veux vous voir prouver votre supériorité sur les oeuvres de la magie! Combattez!]], "tformat")
+t("But wha.. [you notice your first opponent is already there]", "Mais que... [vous remarquez que votre premier adversaire est déjà là]", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/zoisla.lua"
 
-
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*A naga steps through the portal, she seems to be a high ranked one.*#WHITE#
-NO! You fool, the portal is breaking down!]], [[#LIGHT_GREEN#*A naga steps through the portal, she seems to be a high ranked one.*#WHITE#
-NO! You fool, the portal is breaking down!]], "_t")
-t("And thus my task is done, serpent!", "And thus my task is done, serpent!", "_t")
-t("You do not understand: it will explode!", "You do not understand: it will explode!", "_t")
-t("...", "...", "_t")
+NO! You fool, the portal is breaking down!]], [[#LIGHT_GREEN#*Une naga traverse le portail, elle semble être de haut rang.*#WHITE#
+NON! Espèce d'idiot, le portail est en train de céder!]], "_t")
+t("And thus my task is done, serpent!", "Et ainsi ma tâche est accomplie, serpent!", "_t")
+t("You do not understand: it will explode!", "Vous ne comprenez pas : ça va exploser!", "_t")
 t([[The portal randomly teleported us before exploding.
 You fool! You have doomed us, we could be #{bold}#anywhere!#{normal}#
-DIE !]], [[The portal randomly teleported us before exploding.
-You fool! You have doomed us, we could be #{bold}#anywhere!#{normal}#
-DIE !]], "_t")
+DIE !]], [[Le portail nous a téléportés au hasard avant d'exploser.
+Espèce d'idiot! Tu nous as condamnés, nous pouvons être... #{bold}#n'importe où!#{normal}#
+MEURT!]], "_t")
+-- texte non traduit
+--[==[
+t("...", "...", "_t")
 --]==]
 
 
@@ -40179,7 +40152,7 @@ t("lava wall", "lava wall", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/infinite-dungeon/objects.lua"
 
-
+t("You cannot use your %s anymore; it is tainted by magic.", "Vous ne pouvez plus utiliser votre %s, la magie l'a contaminé.", "logPlayer")
 -- texte non traduit
 --[==[
 t("The Hunter and the Hunted", "The Hunter and the Hunted", "entity name")
@@ -40200,7 +40173,6 @@ t("phial filled with slimy liquid", "phial filled with slimy liquid", "_t")
 t("This potent elixir extracted from a powerful wyrm can grant the power to repel arcane forces.", "This potent elixir extracted from a powerful wyrm can grant the power to repel arcane forces.", "_t")
 t("Antimagic", "Antimagic", "_t")
 t("Quaffing this potion will grant you access to the antimagic talents but at the cost of all access to runes, arcane items and spells.", "Quaffing this potion will grant you access to the antimagic talents but at the cost of all access to runes, arcane items and spells.", "_t")
-t("You cannot use your %s anymore; it is tainted by magic.", "You cannot use your %s anymore; it is tainted by magic.", "logPlayer")
 --]==]
 
 
