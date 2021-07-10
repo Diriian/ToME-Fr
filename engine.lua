@@ -470,32 +470,32 @@ t("failed", "échouée", "_t")
 section "engine/engine/Savefile.lua"
 
 t("Saving world", "Sauvegarde du monde", "_t")
-t("Please wait while saving the world...", "Attendez pendant la sauvegarde du monde s'il vous plait...", "_t")
+t("Please wait while saving the world...", "Patientez pendant la sauvegarde du monde s'il vous plait...", "_t")
 t("Saving game", "Sauvegarde du jeu", "_t")
-t("Please wait while saving the game...", "Attendez pendant la sauvegarde du jeu s'il vous plait...", "_t")
+t("Please wait while saving the game...", "Patientez pendant la sauvegarde du jeu s'il vous plait...", "_t")
 t("Saving zone", "Sauvegarde de la zone", "_t")
-t("Please wait while saving the zone...", "Attendez pendant la sauvegarde de la zone s'il vous plait...", "_t")
+t("Please wait while saving the zone...", "Patientez pendant la sauvegarde de la zone s'il vous plait...", "_t")
 t("Saving level", "Sauvegarde du niveau", "_t")
-t("Please wait while saving the level...", "Attendez pendant la sauvegarde du niveau s'il vous plait...", "_t")
+t("Please wait while saving the level...", "Patientez pendant la sauvegarde du niveau s'il vous plait...", "_t")
 t("Saving entity", "Sauvegarde de l'entité", "_t")
-t("Please wait while saving the entity...", "Attendez pendant la sauvegarde de l'entité s'il vous plait...", "_t")
+t("Please wait while saving the entity...", "Patientez pendant la sauvegarde de l'entité s'il vous plait...", "_t")
 t("Loading world", "Chargement du monde", "_t")
-t("Please wait while loading the world...", "Attendez pendant le chargement du monde s'il vous plait...", "_t")
+t("Please wait while loading the world...", "Patientez pendant le chargement du monde s'il vous plait...", "_t")
 t("Loading game", "Chargement du jeu", "_t")
-t("Please wait while loading the game...", "Attendez pendant le chargement du jeu s'il vous plait...", "_t")
+t("Please wait while loading the game...", "Patientez pendant le chargement du jeu s'il vous plait...", "_t")
 t("Loading zone", "Chargement de la zone", "_t")
-t("Please wait while loading the zone...", "Attendez pendant le chargement de la zone s'il vous plait...", "_t")
+t("Please wait while loading the zone...", "Patientez pendant le chargement de la zone s'il vous plait...", "_t")
 t("Loading level", "Chargement du niveau", "_t")
-t("Please wait while loading the level...", "Attendez pendant le chargement du niveau s'il vous plait...", "_t")
+t("Please wait while loading the level...", "Patientez pendant le chargement du niveau s'il vous plait...", "_t")
 t("Loading entity", "Chargement de l'entité", "_t")
-t("Please wait while loading the entity...", "Attendez pendant le chargement de l'entité s'il vous plait...", "_t")
+t("Please wait while loading the entity...", "Patientez pendant le chargement de l'entité s'il vous plait...", "_t")
 
 ------------------------------------------------
 section "engine/engine/SavefilePipe.lua"
 
 t("Saving done.", "Sauvegarde réalisée.", "log")
 t("Saving...", "Sauvegarde en cours...", "_t")
-t("Please wait while saving...", "Attendez pendant la sauvegarde s'il vous plait...", "_t")
+t("Please wait while saving...", "Patientez pendant la sauvegarde s'il vous plait...", "_t")
 
 ------------------------------------------------
 section "engine/engine/Store.lua"
@@ -553,9 +553,9 @@ t("The server does not know about this player.", "Le serveur ne sait rien sur ce
 section "engine/engine/Zone.lua"
 
 t("Loading level", "Chargement du niveau", "_t")
-t("Please wait while loading the level... ", "Attendez pendant le chargement du niveau s'il vous plait... ", "_t")
+t("Please wait while loading the level... ", "Patientez pendant le chargement du niveau s'il vous plait... ", "_t")
 t("Generating level", "Génération du niveau", "_t")
-t("Please wait while generating the level... ", "Attendez pendant la génération du niveau s'il vous plait... ", "_t")
+t("Please wait while generating the level... ", "Patientez pendant la génération du niveau s'il vous plait... ", "_t")
 
 ------------------------------------------------
 section "engine/engine/ai/talented.lua"
@@ -1140,7 +1140,7 @@ t("Steam Overlay should appear, if it does not please make sure it you have not 
 t("Finalizing transaction with Steam servers...", "Finalisation de la transaction avec les serveurs Steam...", "_t")
 t("Payment refused, you have not been billed.", "Paiement refusé, vous n'avez pas été facturé.", "_t")
 t("Connecting to server", "Connexion au serveur", "_t")
-t("Please wait...", "Attendez s'il vous plait...", "_t")
+t("Please wait...", "Patientez s'il vous plait...", "_t")
 t("You have enough coins to instantly purchase those options. Confirm?", "Vous avez suffisamment de pièces pour acheter instantanément ces options. Confirmer?", "_t")
 t("Cancel", "Annuler", "_t")
 t("You need %s more coins to purchase those options. Do you want to go to the donation page now?", "Vous avez besoin de %s pièces supplémentaires pour acheter ces options. Voulez vous aller sur la page de donations maintenant?", "tformat")
@@ -1184,7 +1184,7 @@ Assurez-vous d'avoir #GOLD##{bold}#Permettre les événements en ligne#WHITE##{n
 ]], "_t")
 t("This pack is already installed and in use for your character.", "Ce pack est déjà installé et actif pour votre personnage.", "_t")
 t("You are about to use a charge of this option. You currently have %d charges remaining.", "Vous êtes sur le point d'utiliser une charge de cette option. Vous avez actuellement %d charges restantes.", "tformat")
-t("Please wait while contacting the server...", "S'il vous plaît, attendez pendant que nous contactons le serveur...", "_t")
+t("Please wait while contacting the server...", "S'il vous plaît, patientez pendant que nous contactons le serveur...", "_t")
 t("The option has been activated.", "Cette option a été activée", "_t")
 t("There was an error from the server: %s", "Il y a eu une erreur du serveur: %s", "tformat")
 t("Online Store", "Boutique en ligne", "_t")
