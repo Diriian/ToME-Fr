@@ -4430,347 +4430,347 @@ t("...", "...", "_t")
 ------------------------------------------------
 section "mod-tome/data/damage_types.lua"
 
+t("%s(%d warded)#LAST#", "%s(%d repoussé)#LAST#", "tformat")
+t("#Source# strikes #Target# in the darkness (%+d%%%%%%%% damage).", "#Source# frappe #Target# dans les ténèbres (%+d%%%%%%%% dégats).", "delayedLogMessage")
 t("Something", "Quelque chose", "_t")
+t("%s forces the iceblock to shatter.", "%s force le block de glace a se briser.", "logSeen")
+t("%s(%d to psi shield)#LAST#", "%s(%d bouclier psi)#LAST#", "tformat")
+t("%s(%d blocked)#LAST#", "%s(%d bloqué)#LAST#", "tformat")
+t("%s(%d abyssal shield)#LAST#", "%s(%d bouclier abyssal)#LAST#", "tformat")
+t("%s(%d antimagic)#LAST#", "%s(%d antimagique)#LAST#", "tformat")
+t("%s(%d flat reduction)#LAST#", "%s(%d réduction fixe)#LAST#", "tformat")
+t("You end your target with a crushing blow!", "Vous achevez votre cible avec un coup dévastateur!", "logPlayer")
+t("#LIGHT_GREY#(%d resilience)#LAST#", "#LIGHT_GREY#(%d résistance)#LAST#", "tformat")
+t("#CRIMSON##Source# damages %s through Martyrdom!", "#CRIMSON##Source# dégats %s par le biais de Martyrdom!", "delayedLogMessage")
+t("#CRIMSON##Source# reflects damage back to #Target#!", "#CRIMSON##Source# renvoie des dommages vers #Target#!", "delayedLogMessage")
+t("#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "#Source##LIGHT_GREEN# SOIGNE#LAST# de %s %s #LAST# dégats!", "tformat")
 t("cosmetic", "cosmétique", "damage type")
+t("cosmeticed", "cosmétisé", "_t")
 t("physical", "physique", "damage type")
+t("battered", "malmené", "_t")
+t("bludgeoned", "matraqué", "_t")
+t("sliced", "émincé", "_t")
+t("maimed", "mutilé", "_t")
+t("raked", "râtelé", "_t")
+t("bled", "saigné", "_t")
+t("impaled", "empalé", "_t")
+t("dissected", "disséqué", "_t")
+t("disembowelled", "éventré", "_t")
+t("decapitated", "décapité", "_t")
+t("stabbed", "poignardé", "_t")
+t("pierced", "percé", "_t")
+t("torn limb from limb", "déchiré membre par membre", "_t")
+t("crushed", "écrasé", "_t")
+t("shattered", "brisé", "_t")
+t("smashed", "fracassé", "_t")
+t("cleaved", "coupé", "_t")
+t("swiped", "balayé", "_t")
+t("struck", "heurté", "_t")
+t("mutilated", "mutilé", "_t")
+t("tortured", "torturé", "_t")
+t("skewered", "embroché", "_t")
+t("squished", "écrasé", "_t")
+t("mauled", "maltraité", "_t")
+t("chopped into tiny pieces", "coupé en petits morceaux", "_t")
+t("splattered", "éclaboussé", "_t")
+t("ground", "sol", "_t")
+t("minced", "haché", "_t")
+t("punctured", "troué", "_t")
+t("hacked apart", "dépecé", "_t")
+t("eviscerated", "éviscéré", "_t")
+t("blasted", "soufflé", "_t")
+t("energised", "stimulé", "_t")
+t("mana-torn", "déchiré par le mana", "_t")
+t("dweomered", "enchanté", "_t")
+t("imploded", "implosé", "_t")
+t("fire", "feu", "damage type")
+t("burnt", "consumé", "_t")
+t("scorched", "roussi", "_t")
+t("blazed", "flambé", "_t")
+t("roasted", "rôti", "_t")
+t("flamed", "enflammé", "_t")
+t("fried", "frit", "_t")
+t("combusted", "brûlé", "_t")
+t("toasted", "grillé", "_t")
+t("slowly cooked", "mijoté", "_t")
+t("boiled", "bouilli", "_t")
+t("cold", "froid", "damage type")
+t("frozen", "gelé", "_t")
+t("chilled", "glacé", "_t")
+t("iced", "refroidi", "_t")
+t("cooled", "rafraichi", "_t")
+t("frozen and shattered into a million little shards", "gelé et brisé en millions de petits morceaux.", "_t")
+t("lightning", "foudre", "damage type")
+t("electrocuted", "electrocuté", "_t")
+t("shocked", "choqué", "_t")
+t("bolted", "foudroyé", "_t")
+t("volted", "survolté", "_t")
+t("amped", "electrisé", "_t")
+t("zapped", "zappé", "_t")
+t("dissolved", "dissous", "_t")
+t("corroded", "corrodé", "_t")
+t("scalded", "ébouillanté", "_t")
+t("melted", "fondu", "_t")
+t("slimed", "engluanté", "_t")
+t("splurged", "enfeuillé", "_t")
+t("treehugged", "branchu", "_t")
+t("naturalised", "naturalisé", "_t")
+t("blight", "maladie", "damage type")
+t("diseased", "malade", "_t")
+t("poxed", "vérole", "_t")
+t("infected", "infecté", "_t")
+t("plagued", "peste", "_t")
+t("debilitated by noxious blight before falling", "affaibli par une maladie nocive avant de succomber.", "_t")
+t("fouled", "infecté", "_t")
+t("tainted", "corrompu", "_t")
+t("light", "lumière", "damage type")
+t("radiated", "irradié", "_t")
+t("seared", "brûlé", "_t")
+t("purified", "purifié", "_t")
+t("sun baked", "cuit au soleil", "_t")
+t("jerkied", "séché", "_t")
+t("tanned", "tanné", "_t")
+t("darkness", "obscurité", "damage type")
+t("shadowed", "ombré", "_t")
+t("darkened", "obscurci", "_t")
+t("swallowed by the void", "englouti par le vide", "_t")
+t("mind", "esprit", "damage type")
+t("psyched", "surexité", "_t")
+t("mentally tortured", "mentallement torturé", "_t")
+t("mindraped", "esprit violé", "_t")
+t("winter", "hiver", "damage type")
+t("temporal", "temporel", "damage type")
+t("timewarped", "chronophage", "_t")
+t("temporally distorted", "déformé temporellement", "_t")
+t("spaghettified across the whole of space and time", "transformé en spaghettis dans l'ensemble de l'espace et du temps.", "_t")
+t("paradoxed", "paradoxalisé", "_t")
+t("replaced by a time clone (and no one ever knew the difference)", "remplacé par un clone temporel (et personne n'a jamais su faire la différence)", "_t")
+t("grandfathered", "tranformé en personne agé", "_t")
+t("time dilated", "dilaté par le temps", "_t")
+t("temporal stun", "étourdit temporellement", "damage type")
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("lite", "lampe", "damage type")
+t("illumination", "éclairage", "damage type")
+t("%s resists the silence!", "%s resiste au silence!", "logSeen")
+t("arcane silence", "silence arcanique", "damage type")
+t("%s resists!", "%s résiste!", "logSeen")
+t("blindness", "aveuglement", "damage type")
+t("%s resists the blinding light!", "%s résiste à la lumière éblouissante!", "logSeen")
+t("blinding ink", "encre aveuglante", "damage type")
+t("%s avoids the blinding ink!", "%s évite l'encre aveuglante!", "logSeen")
+t("bright light", "lumière vive", "damage type")
+t("fire burn", "feu brûlant", "damage type")
+t("stunning fire", "feu étourdissant", "damage type")
+t("devouring flames", "flammes dévorantes", "damage type")
+t("#Source# drains life from #Target#!", "#Source# draine la vie de #Target#!", "logCombat")
+t("shadowflame", "flamme d'ombre", "damage type")
+t("stunning darkness", "obscurité totale", "damage type")
+t("%s resists the darkness!", "%s résiste à l'obscurité !", "logSeen")
+t("flameshock", "Choc de flammes", "damage type")
+t("%s resists the searing flame!", "%s résiste à la flamme ardente!", "logSeen")
+t("ice", "glace", "damage type")
+t("slowing ice", "glace ralentissante", "damage type")
+t("ice storm", "tempête de glace", "damage type")
+t("glacial vapour", "vapeur glaciale", "damage type")
+t("pinning cold", "Immobilisation à froid", "damage type")
+t("freeze", "gelé", "damage type")
+t("Frozen!", "Congelé!", "_t")
+t("Resist!", "Résisté!", "_t")
+t("sticky smoke", "fumée poisseuse", "damage type")
+t("acid blind", "aveuglement à l'acide", "damage type")
+t("blinding darkness", "ténèbres aveuglantes", "damage type")
+t("blinding light", "lumière aveuglante", "damage type")
+t("dazing lightning", "éclair étourdissant", "damage type")
+t("cold repulsion", "répulsion du froid", "damage type")
+t("%s is knocked back!", "%s est repoussé!", "logSeen")
+t("%s resists the wave!", "%s résiste à la vague!", "logSeen")
+t("bloodspring", "source de sang", "damage type")
+t("%s resists the bloody wave!", "%s résiste à la vague sanglante!", "logSeen")
+t("fire repulsion", "répulsion du feu", "damage type")
+t("%s resists the punch!", "%s résiste au coup de poing!", "logSeen")
+t("burning repulsion", "répulsion de la brûlure", "damage type")
+t("darkness repulsion", "répulsion des ténèbres", "damage type")
+t("physical repulsion", "répulsion physique", "damage type")
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
+t("fear repulsion", "répulsion de la peur", "damage type")
+t("%s resists the frightening sight!", "%s résiste à la vision effrayante!", "logSeen")
+t("cleansing fire", "feu purificateur", "damage type")
+t("spydric poison", "poison spydrique", "damage type")
+t("crippling poison", "poison invalidant", "damage type")
+t("insidious poison", "poison insidieux", "damage type")
+t("bleed", "saignement", "damage type")
+t("physical bleed", "saignement physique", "damage type")
+t("nature slow", "nature lente", "damage type")
+t("dig", "creuser", "damage type")
+t("%s turns into %s.", "%s se transforme en %s.", "logSeen")
+t("slow", "ralentissement", "damage type")
+t("congeal time", "temps de congélation", "damage type")
+t("time prison", "prison temporelle", "damage type")
+t("%s resists the time prison.", "%s résiste à la proison temporelle.", "logSeen")
+t("confusion", "confus", "damage type")
+t("% chance of confusion", "% chance de confusion", "damage type")
+t("% chance of gloom effects", "% chance d'effets de morosité", "damage type")
+t("item darkness numbing", "objet insensible à l'obscurité", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de réduire les dégâts infligés par #YELLOW#%d%%#LAST#%s", "tformat")
+t("item expose", "exposition de l'objet", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de réduire tous les jets de sauvegardes et de défenses de #YELLOW#%d#LAST#%s", "tformat")
+t("item temporal energize", "objet temporel énergisé", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "* #LIGHT_GREEN#%d%%#LAST# chance de gagner 10%% d'un tour (limité à 3/tours)%s", "tformat")
+t("#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "#LIGHT_STEEL_BLUE#%s ne peut plus gagner d'énergie ce tour ci! ", "logSeen")
+t("item acid corrode", "objet corrodé à l'acide", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de réduire l'armure par #VIOLET#%d%%#LAST#%s", "tformat")
+t("item blight disease", "objet porteur de maladie", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de réduire force, déxtérité, et constitution par #VIOLET#%d#LAST#%s", "tformat")
+t("item manaburn arcane", "objet brûleur de mana arcanique", "damage type")
+t("* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "* #DARK_ORCHID#%d ressource arcanique#LAST# brulé%s", "tformat")
+t("item nature slow", "objet naturellement ralantissant", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to slow global speed by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de ralentir la vitesse globale par #YELLOW#%d%%#LAST#%s", "tformat")
+t("item antimagic scouring", "objet récurant anti-magique", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to #ORCHID#reduce effective powers#LAST# by %d%%%s", "* #LIGHT_GREEN#%d%%#LAST# chance de #ORCHID#réduire les pouvoirs effectifs#LAST# de %d%%%s", "tformat")
+t("item lightning daze", "objet d'étourdissement par la foudre", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to #ROYAL_BLUE#daze#LAST# at end of turn%s", "* #LIGHT_GREEN#%d%%#LAST# chance d'#ROYAL_BLUE#étourdissement#LAST# à la fin du tour%s", "tformat")
+t("item light blind", "objet de lumière aveuglant", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to #YELLOW#blind#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance d'#YELLOW#aveuglement#LAST#%s", "tformat")
+t("item mind gloom", "objet de morosité mentale", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #YELLOW#random gloom#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de causer une #YELLOW#morosité aléatoire#LAST#%s", "tformat")
+t("confusion", "confus", "_t")
+t("stun", "assommé", "_t")
+t("slow'", "ralentis'", "_t")
+t("blinding", "aveuglement", "damage type")
+t("%s resists the blind!", "%s résiste à l'aveuglement!", "logSeen")
+t("blinding physical", "aveuglement physique", "damage type")
+t("%s resists the sandstorm!", "%s résiste à la tempête de sable!", "logSeen")
+t("physical pinning", "immobilisation physique", "damage type")
+t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
+t("regressive blight", "maladie régressive", "damage type")
+t("#Source# drains experience from #Target#!", "#Source# draine l'expérience de #Target#!", "logCombat")
+t("draining blight", "maladie drainante", "damage type")
+t("sanguine blight", "maladie sanguine", "damage type")
+t("vim draining blight", "maladie drainant la vigueur", "damage type")
+t("demonfire", "feu démoniaque", "damage type")
+t("purging blight", "purge de maladie", "damage type")
+t("holy light", "lumiére sacrée", "damage type")
+t("healing", "soin", "damage type")
+t("healing light", "lumière soignante", "damage type")
+t("#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "#DARK_ORCHID#Votre bouclier magique ne peut plus être prolongé et a explosé.", "logPlayer")
+t("judgement", "jugement", "damage type")
+t("healing nature", "soin naturel", "damage type")
+t("infective blight", "maladie infectieuse", "damage type")
+t("hindering blight", "maladie gênante", "damage type")
+t("life leech", "drain de vie", "damage type")
+t("physical stun", "assommage physique", "damage type")
+t("warp", "déformation", "damage type")
+t("temporal darkness", "obscurité temporelle", "damage type")
+t("gravity", "gravité", "damage type")
+t("gravity pin", "immobilisation gavitique", "damage type")
+t("grow", "croissance", "damage type")
+t("pinning nature", "immobilisation naturelle", "damage type")
+t("%s resists the pinning!", "%s résiste a l'immobilisation!", "logSeen")
+t("impeding nature", "nature gênante", "damage type")
+t("confounding nature", "nature contradictoire", "damage type")
+t("%s resists the confusion!", "%s résiste à la confusion!", "logSeen")
+t("sanctity", "sainteté", "damage type")
+t("defensive darkness", "obscurité défensive", "damage type")
+t("blazing light", "lumière brûlante", "damage type")
+t("prismatic repulsion", "répulsion prismatique", "damage type")
+t("mind slow", "esprit lent", "damage type")
+t("mind freeze", "gel de l'esprit", "damage type")
+t("%s resists the freezing!", "%s résiste au gel!", "logSeen")
+t("regressive temporal", "régression temporelle", "damage type")
+t("wasting temporal", "Déperdition temporelle", "damage type")
+t("%s has not been stopped!", "%s n'a pas été stoppé!", "logSeen")
+t("debilitating temporal", "débilitation temporelle", "damage type")
+t("%s resists the blindness!", "%s résiste à l'aveuglement!", "logSeen")
+t("draining physical", "drain physique", "damage type")
+t("#Source# consumes %d life from #Target#!", "#Source# absorbe %d point de vie de #Target#!", "logCombat")
+t("temporal slow", "ralentissement temporel", "damage type")
+t("molten rock", "roche en fusion", "damage type")
+t("entangle", "enchevêtrement", "damage type")
+t("%s resists entanglement!", "%s résiste à l'enchevêtrement!", "logSeen")
+t("manaworm arcane", "ver de mana arcanique", "damage type")
+t("%s has no mana to burn.", "%s n'a plus de mana à brûler.", "logSeen")
+t("arcane blast", "souffle arcanique", "damage type")
+t("circle of death", "cercle de mort", "damage type")
+t("%s resists the baneful energy!", "%s résiste à l'énergie maléfique!", "logSeen")
+t("decaying darkness", "ténèbres en décomposition", "damage type")
+t("abyssal darkness", "obscurité abyssale", "damage type")
+t("% chance to summon an orc spirit", "% chance d'invoquer un esprit orc", "damage type")
+t("%s<%d%%%% orc summon chance>#LAST#", "%s<%d%%%% chance d'invocation d'orc>#LAST#", "tformat")
+t("%s<orc summon>#LAST#", "%s<orc invoquén>#LAST#", "tformat")
+t("orc spirit", "esprit orc", "_t")
+t("An orc clad in massive armour, wielding a huge axe.", "Un orc vêtu d'une armure massive, brandissant une énorme hache.", "_t")
+t("Garkul Spirit", "Esprit de Garkul", "_t")
+t("nightmare", "cauchemard", "damage type")
+t("cursed miasma", "miasme maudit", "damage type")
+t("weakness", "faiblesse", "damage type")
+t("special effect", "effet spécial", "damage type")
+t("manaburn arcane", "brûlure de mana arcanique", "damage type")
+t("leaves", "départ", "damage type")
+t("distorting physical", "distortion physique", "damage type")
+t("dreamforge", "forge de rêvee", "damage type")
+t("%s resists the forge bellow!", "%s résiste au soufflet de la forge!", "logSeen")
+t("%s resists the dream forge!", "%s résiste à la forge du rêve!", "logSeen")
+t("natural mucus", "mucus naturel", "damage type")
+t("disarming acid", "acide désarmant", "damage type")
+t("%s resists disarming!", "%s résiste au désarmement!", "logSeen")
+t("corrosive acid", "acide corrosif", "damage type")
+t("bouncing slime", "vase rebondissante", "damage type")
+t("caustic mire", "bourbier caustique", "damage type")
+t("sun path", "chemin solaire", "damage type")
+t("telekinetic shove", "poussée télékinétique", "damage type")
+t("%s resists pinning!", "%s résiste à l'immobilisation!", "logSeen")
+t("%s resists the shove!", "%s résiste à la poussé!", "logSeen")
+t("dimensional anchor", "ancrage dimensionnel", "damage type")
+t("phase pulse", "impulsion phasique", "damage type")
+t("brain storm", "tempête intellectuelle", "damage type")
+t("%s resists the mind attack!", "%s résiste à l'attaque mentale!", "logSeen")
+t("static net", "filet statique", "damage type")
+t("wormblight", "ver de maladie", "damage type")
+t("pestilent blight", "fléau pestilentiel", "damage type")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de causer une #GREEN#maladie au hasard#LAST#%s", "tformat")
+t("blight poison", "poison de maladie", "damage type")
+t("terror", "terreur", "damage type")
+t("%s<terror chance>#LAST#", "%s<chance de terreur>#LAST#", "tformat")
+t("random poison", "poison au hasard", "damage type")
+t("blinding powder", "poudre aveuglante", "damage type")
+t("%s<blinding powder>#LAST#", "%s<poudre aveuglante>#LAST#", "tformat")
+t("smokescreen", "écran de fumée", "damage type")
+t("%s<smoke>#LAST#", "%s<fumée>#LAST#", "tformat")
+t("flare", "lueur vive", "damage type")
+t("%s resists the blinding flare!", "%s résiste à l'éclat aveuglant!", "logSeen")
+t("flare light", "éclat lumineux", "damage type")
+t("sticky pitch", "terrain glissant", "damage type")
+t("fire sunder", "déchirement de feu", "damage type")
+t("shadow smoke", "fumée d'ombre", "damage type")
+t("frozen earth", "terre gelée", "damage type")
+t("void echoes", "échos du vide", "damage type")
+t("%s resists the void!", "%s résiste au vide!", "logSeen")
+t("#YELLOW#Lite Light#LAST# Burst (radius 1)", "#YELLOW#Lampe lumineuse#LAST# explosion (rayon 1)", "damage type")
+t("dark light", "lumière sombre", "damage type")
+t("meteor", "météore", "damage type")
+t("fetid", "fétide", "damage type")
+t("frostdusk", "crépuscule givré", "damage type")
+t("chill of the tomb", "froid de la tombe", "damage type")
+t("putrescent liquefaction", "liquéfaction putrescente", "damage type")
+t("boneyard", "cimetière", "damage type")
+t("desolate waste", "friche désolée", "damage type")
+t("thaumic energy", "énergie thaumique", "damage type")
+t("utterly vaporized", "complètement vaporisé", "_t")
+t("annihilated", "anéantie", "_t")
+t("disintegrated", "désintégré", "_t")
+t("black-hole gravity", "gravité du trou noir", "damage type")
+t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
+t("%s resists the gravity!", "%s résiste à la gravité!", "logSeen")
+t("solar blood", "soleil sanglant", "damage type")
 -- texte non traduit
 --[==[
-t("%s(%d warded)#LAST#", "%s(%d warded)#LAST#", "tformat")
-t("#Source# strikes #Target# in the darkness (%+d%%%%%%%% damage).", "#Source# strikes #Target# in the darkness (%+d%%%%%%%% damage).", "delayedLogMessage")
-t("%s forces the iceblock to shatter.", "%s forces the iceblock to shatter.", "logSeen")
-t("%s(%d to psi shield)#LAST#", "%s(%d to psi shield)#LAST#", "tformat")
-t("%s(%d blocked)#LAST#", "%s(%d blocked)#LAST#", "tformat")
-t("%s(%d abyssal shield)#LAST#", "%s(%d abyssal shield)#LAST#", "tformat")
-t("%s(%d antimagic)#LAST#", "%s(%d antimagic)#LAST#", "tformat")
-t("%s(%d flat reduction)#LAST#", "%s(%d flat reduction)#LAST#", "tformat")
-t("You end your target with a crushing blow!", "You end your target with a crushing blow!", "logPlayer")
-t("#LIGHT_GREY#(%d resilience)#LAST#", "#LIGHT_GREY#(%d resilience)#LAST#", "tformat")
-t("#CRIMSON##Source# damages %s through Martyrdom!", "#CRIMSON##Source# damages %s through Martyrdom!", "delayedLogMessage")
-t("#CRIMSON##Source# reflects damage back to #Target#!", "#CRIMSON##Source# reflects damage back to #Target#!", "delayedLogMessage")
-t("#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "tformat")
-t("cosmeticed", "cosmeticed", "_t")
-t("battered", "battered", "_t")
-t("bludgeoned", "bludgeoned", "_t")
-t("sliced", "sliced", "_t")
-t("maimed", "maimed", "_t")
-t("raked", "raked", "_t")
-t("bled", "bled", "_t")
-t("impaled", "impaled", "_t")
-t("dissected", "dissected", "_t")
-t("disembowelled", "disembowelled", "_t")
-t("decapitated", "decapitated", "_t")
-t("stabbed", "stabbed", "_t")
-t("pierced", "pierced", "_t")
-t("torn limb from limb", "torn limb from limb", "_t")
-t("crushed", "crushed", "_t")
-t("shattered", "shattered", "_t")
-t("smashed", "smashed", "_t")
-t("cleaved", "cleaved", "_t")
-t("swiped", "swiped", "_t")
-t("struck", "struck", "_t")
-t("mutilated", "mutilated", "_t")
-t("tortured", "tortured", "_t")
-t("skewered", "skewered", "_t")
-t("squished", "squished", "_t")
-t("mauled", "mauled", "_t")
-t("chopped into tiny pieces", "chopped into tiny pieces", "_t")
-t("splattered", "splattered", "_t")
-t("ground", "ground", "_t")
-t("minced", "minced", "_t")
-t("punctured", "punctured", "_t")
-t("hacked apart", "hacked apart", "_t")
-t("eviscerated", "eviscerated", "_t")
 t("arcane", "arcane", "damage type")
-t("blasted", "blasted", "_t")
-t("energised", "energised", "_t")
-t("mana-torn", "mana-torn", "_t")
-t("dweomered", "dweomered", "_t")
-t("imploded", "imploded", "_t")
-t("fire", "fire", "damage type")
-t("burnt", "burnt", "_t")
-t("scorched", "scorched", "_t")
-t("blazed", "blazed", "_t")
-t("roasted", "roasted", "_t")
-t("flamed", "flamed", "_t")
-t("fried", "fried", "_t")
-t("combusted", "combusted", "_t")
-t("toasted", "toasted", "_t")
-t("slowly cooked", "slowly cooked", "_t")
-t("boiled", "boiled", "_t")
-t("cold", "cold", "damage type")
-t("frozen", "frozen", "_t")
-t("chilled", "chilled", "_t")
-t("iced", "iced", "_t")
-t("cooled", "cooled", "_t")
-t("frozen and shattered into a million little shards", "frozen and shattered into a million little shards", "_t")
-t("lightning", "lightning", "damage type")
-t("electrocuted", "electrocuted", "_t")
-t("shocked", "shocked", "_t")
-t("bolted", "bolted", "_t")
-t("volted", "volted", "_t")
-t("amped", "amped", "_t")
-t("zapped", "zapped", "_t")
 t("acid", "acid", "damage type")
-t("dissolved", "dissolved", "_t")
-t("corroded", "corroded", "_t")
-t("scalded", "scalded", "_t")
-t("melted", "melted", "_t")
 t("nature", "nature", "damage type")
-t("slimed", "slimed", "_t")
-t("splurged", "splurged", "_t")
-t("treehugged", "treehugged", "_t")
-t("naturalised", "naturalised", "_t")
-t("blight", "blight", "damage type")
-t("diseased", "diseased", "_t")
-t("poxed", "poxed", "_t")
-t("infected", "infected", "_t")
-t("plagued", "plagued", "_t")
-t("debilitated by noxious blight before falling", "debilitated by noxious blight before falling", "_t")
-t("fouled", "fouled", "_t")
-t("tainted", "tainted", "_t")
-t("light", "light", "damage type")
-t("radiated", "radiated", "_t")
-t("seared", "seared", "_t")
-t("purified", "purified", "_t")
-t("sun baked", "sun baked", "_t")
-t("jerkied", "jerkied", "_t")
-t("tanned", "tanned", "_t")
-t("darkness", "darkness", "damage type")
-t("shadowed", "shadowed", "_t")
-t("darkened", "darkened", "_t")
-t("swallowed by the void", "swallowed by the void", "_t")
-t("mind", "mind", "damage type")
-t("psyched", "psyched", "_t")
-t("mentally tortured", "mentally tortured", "_t")
-t("mindraped", "mindraped", "_t")
-t("winter", "winter", "damage type")
-t("temporal", "temporal", "damage type")
-t("timewarped", "timewarped", "_t")
-t("temporally distorted", "temporally distorted", "_t")
-t("spaghettified across the whole of space and time", "spaghettified across the whole of space and time", "_t")
-t("paradoxed", "paradoxed", "_t")
-t("replaced by a time clone (and no one ever knew the difference)", "replaced by a time clone (and no one ever knew the difference)", "_t")
-t("grandfathered", "grandfathered", "_t")
-t("time dilated", "time dilated", "_t")
-t("temporal stun", "temporal stun", "damage type")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
-t("lite", "lite", "damage type")
-t("illumination", "illumination", "damage type")
 t("silence", "silence", "damage type")
-t("%s resists the silence!", "%s resists the silence!", "logSeen")
-t("arcane silence", "arcane silence", "damage type")
-t("%s resists!", "%s resists!", "logSeen")
-t("blindness", "blindness", "damage type")
-t("%s resists the blinding light!", "%s resists the blinding light!", "logSeen")
-t("blinding ink", "blinding ink", "damage type")
-t("%s avoids the blinding ink!", "%s avoids the blinding ink!", "logSeen")
-t("bright light", "bright light", "damage type")
-t("fire burn", "fire burn", "damage type")
-t("stunning fire", "stunning fire", "damage type")
-t("devouring flames", "devouring flames", "damage type")
-t("#Source# drains life from #Target#!", "#Source# drains life from #Target#!", "logCombat")
-t("shadowflame", "shadowflame", "damage type")
-t("stunning darkness", "stunning darkness", "damage type")
-t("%s resists the darkness!", "%s resists the darkness!", "logSeen")
-t("flameshock", "flameshock", "damage type")
-t("%s resists the searing flame!", "%s resists the searing flame!", "logSeen")
-t("ice", "ice", "damage type")
-t("slowing ice", "slowing ice", "damage type")
-t("ice storm", "ice storm", "damage type")
-t("glacial vapour", "glacial vapour", "damage type")
-t("pinning cold", "pinning cold", "damage type")
-t("freeze", "freeze", "damage type")
-t("Frozen!", "Frozen!", "_t")
-t("Resist!", "Resist!", "_t")
-t("sticky smoke", "sticky smoke", "damage type")
-t("acid blind", "acid blind", "damage type")
-t("blinding darkness", "blinding darkness", "damage type")
-t("blinding light", "blinding light", "damage type")
-t("dazing lightning", "dazing lightning", "damage type")
-t("cold repulsion", "cold repulsion", "damage type")
-t("%s is knocked back!", "%s is knocked back!", "logSeen")
-t("%s resists the wave!", "%s resists the wave!", "logSeen")
-t("bloodspring", "bloodspring", "damage type")
-t("%s resists the bloody wave!", "%s resists the bloody wave!", "logSeen")
-t("fire repulsion", "fire repulsion", "damage type")
-t("%s resists the punch!", "%s resists the punch!", "logSeen")
-t("burning repulsion", "burning repulsion", "damage type")
-t("darkness repulsion", "darkness repulsion", "damage type")
-t("physical repulsion", "physical repulsion", "damage type")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
-t("fear repulsion", "fear repulsion", "damage type")
-t("%s resists the frightening sight!", "%s resists the frightening sight!", "logSeen")
 t("poison", "poison", "damage type")
-t("cleansing fire", "cleansing fire", "damage type")
-t("spydric poison", "spydric poison", "damage type")
-t("crippling poison", "crippling poison", "damage type")
-t("insidious poison", "insidious poison", "damage type")
-t("bleed", "bleed", "damage type")
-t("physical bleed", "physical bleed", "damage type")
-t("nature slow", "nature slow", "damage type")
-t("dig", "dig", "damage type")
-t("%s turns into %s.", "%s turns into %s.", "logSeen")
-t("slow", "slow", "damage type")
-t("congeal time", "congeal time", "damage type")
-t("time prison", "time prison", "damage type")
-t("%s resists the time prison.", "%s resists the time prison.", "logSeen")
-t("confusion", "confusion", "damage type")
-t("% chance of confusion", "% chance of confusion", "damage type")
-t("% chance of gloom effects", "% chance of gloom effects", "damage type")
-t("item darkness numbing", "item darkness numbing", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "tformat")
-t("item expose", "item expose", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "tformat")
-t("item temporal energize", "item temporal energize", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "tformat")
-t("#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "logSeen")
-t("item acid corrode", "item acid corrode", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "tformat")
-t("item blight disease", "item blight disease", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "tformat")
-t("item manaburn arcane", "item manaburn arcane", "damage type")
-t("* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "tformat")
-t("item nature slow", "item nature slow", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to slow global speed by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to slow global speed by #YELLOW#%d%%#LAST#%s", "tformat")
-t("item antimagic scouring", "item antimagic scouring", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to #ORCHID#reduce effective powers#LAST# by %d%%%s", "* #LIGHT_GREEN#%d%%#LAST# chance to #ORCHID#reduce effective powers#LAST# by %d%%%s", "tformat")
-t("item lightning daze", "item lightning daze", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to #ROYAL_BLUE#daze#LAST# at end of turn%s", "* #LIGHT_GREEN#%d%%#LAST# chance to #ROYAL_BLUE#daze#LAST# at end of turn%s", "tformat")
-t("item light blind", "item light blind", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to #YELLOW#blind#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to #YELLOW#blind#LAST#%s", "tformat")
-t("item mind gloom", "item mind gloom", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #YELLOW#random gloom#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to cause #YELLOW#random gloom#LAST#%s", "tformat")
-t("confusion", "confusion", "_t")
-t("stun", "stun", "_t")
-t("slow'", "slow'", "_t")
-t("blinding", "blinding", "damage type")
-t("%s resists the blind!", "%s resists the blind!", "logSeen")
-t("blinding physical", "blinding physical", "damage type")
-t("%s resists the sandstorm!", "%s resists the sandstorm!", "logSeen")
-t("physical pinning", "physical pinning", "damage type")
-t("%s resists the pin!", "%s resists the pin!", "logSeen")
-t("regressive blight", "regressive blight", "damage type")
-t("#Source# drains experience from #Target#!", "#Source# drains experience from #Target#!", "logCombat")
-t("draining blight", "draining blight", "damage type")
-t("sanguine blight", "sanguine blight", "damage type")
-t("vim draining blight", "vim draining blight", "damage type")
-t("demonfire", "demonfire", "damage type")
-t("purging blight", "purging blight", "damage type")
-t("holy light", "holy light", "damage type")
-t("healing", "healing", "damage type")
-t("healing light", "healing light", "damage type")
-t("#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "logPlayer")
-t("judgement", "judgement", "damage type")
-t("healing nature", "healing nature", "damage type")
-t("infective blight", "infective blight", "damage type")
-t("hindering blight", "hindering blight", "damage type")
-t("life leech", "life leech", "damage type")
-t("physical stun", "physical stun", "damage type")
-t("warp", "warp", "damage type")
-t("temporal darkness", "temporal darkness", "damage type")
-t("gravity", "gravity", "damage type")
-t("gravity pin", "gravity pin", "damage type")
-t("grow", "grow", "damage type")
-t("pinning nature", "pinning nature", "damage type")
-t("%s resists the pinning!", "%s resists the pinning!", "logSeen")
-t("impeding nature", "impeding nature", "damage type")
-t("confounding nature", "confounding nature", "damage type")
-t("%s resists the confusion!", "%s resists the confusion!", "logSeen")
-t("sanctity", "sanctity", "damage type")
-t("defensive darkness", "defensive darkness", "damage type")
-t("blazing light", "blazing light", "damage type")
-t("prismatic repulsion", "prismatic repulsion", "damage type")
-t("mind slow", "mind slow", "damage type")
-t("mind freeze", "mind freeze", "damage type")
-t("%s resists the freezing!", "%s resists the freezing!", "logSeen")
 t("implosion", "implosion", "damage type")
-t("regressive temporal", "regressive temporal", "damage type")
-t("wasting temporal", "wasting temporal", "damage type")
 t("stop", "stop", "damage type")
-t("%s has not been stopped!", "%s has not been stopped!", "logSeen")
-t("debilitating temporal", "debilitating temporal", "damage type")
-t("%s resists the blindness!", "%s resists the blindness!", "logSeen")
-t("draining physical", "draining physical", "damage type")
-t("#Source# consumes %d life from #Target#!", "#Source# consumes %d life from #Target#!", "logCombat")
-t("temporal slow", "temporal slow", "damage type")
-t("molten rock", "molten rock", "damage type")
-t("entangle", "entangle", "damage type")
-t("%s resists entanglement!", "%s resists entanglement!", "logSeen")
-t("manaworm arcane", "manaworm arcane", "damage type")
-t("%s has no mana to burn.", "%s has no mana to burn.", "logSeen")
-t("arcane blast", "arcane blast", "damage type")
-t("circle of death", "circle of death", "damage type")
-t("%s resists the baneful energy!", "%s resists the baneful energy!", "logSeen")
-t("decaying darkness", "decaying darkness", "damage type")
-t("abyssal darkness", "abyssal darkness", "damage type")
-t("% chance to summon an orc spirit", "% chance to summon an orc spirit", "damage type")
-t("%s<%d%%%% orc summon chance>#LAST#", "%s<%d%%%% orc summon chance>#LAST#", "tformat")
-t("%s<orc summon>#LAST#", "%s<orc summon>#LAST#", "tformat")
-t("orc spirit", "orc spirit", "_t")
-t("An orc clad in massive armour, wielding a huge axe.", "An orc clad in massive armour, wielding a huge axe.", "_t")
-t("Garkul Spirit", "Garkul Spirit", "_t")
-t("nightmare", "nightmare", "damage type")
-t("cursed miasma", "cursed miasma", "damage type")
-t("weakness", "weakness", "damage type")
-t("special effect", "special effect", "damage type")
-t("manaburn arcane", "manaburn arcane", "damage type")
-t("leaves", "leaves", "damage type")
-t("distorting physical", "distorting physical", "damage type")
-t("dreamforge", "dreamforge", "damage type")
-t("%s resists the forge bellow!", "%s resists the forge bellow!", "logSeen")
-t("%s resists the dream forge!", "%s resists the dream forge!", "logSeen")
-t("natural mucus", "natural mucus", "damage type")
-t("disarming acid", "disarming acid", "damage type")
-t("%s resists disarming!", "%s resists disarming!", "logSeen")
-t("corrosive acid", "corrosive acid", "damage type")
-t("bouncing slime", "bouncing slime", "damage type")
-t("caustic mire", "caustic mire", "damage type")
-t("sun path", "sun path", "damage type")
-t("telekinetic shove", "telekinetic shove", "damage type")
-t("%s resists pinning!", "%s resists pinning!", "logSeen")
-t("%s resists the shove!", "%s resists the shove!", "logSeen")
-t("dimensional anchor", "dimensional anchor", "damage type")
-t("phase pulse", "phase pulse", "damage type")
-t("brain storm", "brain storm", "damage type")
-t("%s resists the mind attack!", "%s resists the mind attack!", "logSeen")
-t("static net", "static net", "damage type")
-t("wormblight", "wormblight", "damage type")
-t("pestilent blight", "pestilent blight", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "tformat")
-t("blight poison", "blight poison", "damage type")
-t("terror", "terror", "damage type")
-t("%s<terror chance>#LAST#", "%s<terror chance>#LAST#", "tformat")
-t("random poison", "random poison", "damage type")
-t("blinding powder", "blinding powder", "damage type")
-t("%s<blinding powder>#LAST#", "%s<blinding powder>#LAST#", "tformat")
-t("smokescreen", "smokescreen", "damage type")
-t("%s<smoke>#LAST#", "%s<smoke>#LAST#", "tformat")
-t("flare", "flare", "damage type")
-t("%s resists the blinding flare!", "%s resists the blinding flare!", "logSeen")
-t("flare light", "flare light", "damage type")
-t("sticky pitch", "sticky pitch", "damage type")
-t("fire sunder", "fire sunder", "damage type")
-t("shadow smoke", "shadow smoke", "damage type")
-t("frozen earth", "frozen earth", "damage type")
-t("void echoes", "void echoes", "damage type")
-t("%s resists the void!", "%s resists the void!", "logSeen")
-t("#YELLOW#Lite Light#LAST# Burst (radius 1)", "#YELLOW#Lite Light#LAST# Burst (radius 1)", "damage type")
-t("dark light", "dark light", "damage type")
-t("meteor", "meteor", "damage type")
-t("fetid", "fetid", "damage type")
-t("frostdusk", "frostdusk", "damage type")
-t("chill of the tomb", "chill of the tomb", "damage type")
-t("putrescent liquefaction", "putrescent liquefaction", "damage type")
-t("boneyard", "boneyard", "damage type")
-t("desolate waste", "desolate waste", "damage type")
-t("thaumic energy", "thaumic energy", "damage type")
-t("utterly vaporized", "utterly vaporized", "_t")
-t("annihilated", "annihilated", "_t")
-t("disintegrated", "disintegrated", "_t")
-t("black-hole gravity", "black-hole gravity", "damage type")
-t("%s is pulled in!", "%s is pulled in!", "logSeen")
-t("%s resists the gravity!", "%s resists the gravity!", "logSeen")
-t("solar blood", "solar blood", "damage type")
 --]==]
 
 -- ancien texte traduit
@@ -5368,13 +5368,13 @@ t("ladder to worldmap", "ladder to worldmap", "entity name")
 section "mod-tome/data/general/grids/burntland.lua"
 
 t("wall", "mur", "entity type")
+t("burnt", "consumé", "entity subtype")
 t("floor", "sol", "entity type")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- texte non traduit
 --[==[
-t("burnt", "burnt", "entity subtype")
 t("burnt tree", "burnt tree", "entity name")
 t("burnt ground", "burnt ground", "entity name")
 t("corrupted altar", "corrupted altar", "entity name")
@@ -5503,9 +5503,9 @@ t("bool", "bool", "entity subtype")
 section "mod-tome/data/general/grids/ice.lua"
 
 t("floor", "sol", "entity type")
+t("ice", "glace", "entity subtype")
 -- texte non traduit
 --[==[
-t("ice", "ice", "entity subtype")
 t("icy floor", "icy floor", "entity name")
 t("frozen water", "frozen water", "entity name")
 --]==]
@@ -6007,11 +6007,10 @@ t("It is a large wolf with eyes full of cunning, thrice the size of a normal war
 ------------------------------------------------
 section "mod-tome/data/general/npcs/cold-drake.lua"
 
-
+t("cold", "froid", "entity subtype")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("cold", "cold", "entity subtype")
 t("cold drake hatchling", "cold drake hatchling", "entity name")
 t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "_t")
 t("cold drake", "cold drake", "entity name")
@@ -6040,7 +6039,7 @@ t("alchemist golem", "alchemist golem", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/npcs/crystal.lua"
 
-
+t("light", "lumière", "entity subtype")
 -- texte non traduit
 --[==[
 t("immovable", "immovable", "entity type")
@@ -6048,7 +6047,6 @@ t("crystal", "crystal", "entity subtype")
 t("A shining crystal formation charged with magical energies.", "A shining crystal formation charged with magical energies.", "_t")
 t("wisp", "wisp", "entity name")
 t("elemental", "elemental", "entity type")
-t("light", "light", "entity subtype")
 t("A floating orb of magical energy. It shines with a radiant light. They explode upon contact.", "A floating orb of magical energy. It shines with a radiant light. They explode upon contact.", "_t")
 t("red crystal", "red crystal", "entity name")
 t("A formation of red crystal. It emits bright red, scorching light.", "A formation of red crystal. It emits bright red, scorching light.", "_t")
@@ -6107,11 +6105,10 @@ t("elven elite warrior", "elven elite warrior", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/npcs/faeros.lua"
 
-
+t("fire", "feu", "entity subtype")
 -- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
-t("fire", "fire", "entity subtype")
 t("faeros", "faeros", "entity name")
 t("Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.", "Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.", "_t")
 t("greater faeros", "greater faeros", "entity name")
@@ -6141,11 +6138,10 @@ t("This cat is simply enormous, and has fangs with the size and sharpness of sho
 ------------------------------------------------
 section "mod-tome/data/general/npcs/fire-drake.lua"
 
-
+t("fire", "feu", "entity subtype")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("fire", "fire", "entity subtype")
 t("fire drake hatchling", "fire drake hatchling", "entity name")
 t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "_t")
 t("fire drake", "fire drake", "entity name")
@@ -6358,11 +6354,10 @@ t("This pitch black form is shrouded in darkness. All you can make out are a pai
 ------------------------------------------------
 section "mod-tome/data/general/npcs/horror_temporal.lua"
 
-
+t("temporal", "temporel", "entity subtype")
 -- texte non traduit
 --[==[
 t("horror", "horror", "entity type")
-t("temporal", "temporal", "entity subtype")
 t("dredgling", "dredgling", "entity name")
 t("A small pink-skinned humanoid with large bulbous eyes.", "A small pink-skinned humanoid with large bulbous eyes.", "_t")
 t("dredge", "dredge", "entity name")
@@ -6666,6 +6661,7 @@ t("An orc clad in massive armour. Magic seems to die down all around him.", "An 
 section "mod-tome/data/general/npcs/orc-grushnak.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("An orc clad in massive armour, wielding a huge axe.", "Un orc vêtu d'une armure massive, brandissant une énorme hache.", "_t")
 -- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
@@ -6673,7 +6669,6 @@ t("orc fighter", "orc fighter", "entity name")
 t("An orc clad in massive armour, wielding a shield and a deadly axe.", "An orc clad in massive armour, wielding a shield and a deadly axe.", "_t")
 t("orc elite fighter", "orc elite fighter", "entity name")
 t("orc berserker", "orc berserker", "entity name")
-t("An orc clad in massive armour, wielding a huge axe.", "An orc clad in massive armour, wielding a huge axe.", "_t")
 t("orc elite berserker", "orc elite berserker", "entity name")
 --]==]
 
@@ -6842,11 +6837,10 @@ t("sher'tul", "sher'tul", "entity subtype")
 ------------------------------------------------
 section "mod-tome/data/general/npcs/shivgoroth.lua"
 
-
+t("ice", "glace", "entity subtype")
 -- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
-t("ice", "ice", "entity subtype")
 t("shivgoroth", "shivgoroth", "entity name")
 t("Shivgoroth are mighty ice elementals, torn away from their home world by a powerful magic.", "Shivgoroth are mighty ice elementals, torn away from their home world by a powerful magic.", "_t")
 t("greater shivgoroth", "greater shivgoroth", "entity name")
@@ -6910,9 +6904,9 @@ t("You recoil in fear as you notice this gigantic snake.  It seeks to crush the 
 section "mod-tome/data/general/npcs/snow-giant.lua"
 
 t("giant", "géant", "entity type")
+t("ice", "glace", "entity subtype")
 -- texte non traduit
 --[==[
-t("ice", "ice", "entity subtype")
 t("snow giant", "snow giant", "entity name")
 t("A towering creature, humanoid but huge. It wields a giant maul and does not look friendly.", "A towering creature, humanoid but huge. It wields a giant maul and does not look friendly.", "_t")
 t("snow giant thunderer", "snow giant thunderer", "entity name")
@@ -7018,14 +7012,13 @@ t("A giant buzzing wasp, its stinger dripping venom.", "A giant buzzing wasp, it
 ------------------------------------------------
 section "mod-tome/data/general/npcs/telugoroth.lua"
 
-
+t("temporal", "temporel", "entity subtype")
 -- texte non traduit
 --[==[
 t("Reality has shifted.", "Reality has shifted.", "logSeen")
 t("The spell fizzles!", "The spell fizzles!", "logSeen")
 t("%s resists the swap!", "%s resists the swap!", "logSeen")
 t("elemental", "elemental", "entity type")
-t("temporal", "temporal", "entity subtype")
 t("and lost outside time", "and lost outside time", "_t")
 t("telugoroth", "telugoroth", "entity name")
 t("A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "_t")
@@ -7845,7 +7838,9 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/ammo.lua"
 
-
+t("fire", "feu", "_t")
+t("cold", "froid", "_t")
+t("lightning", "foudre", "_t")
 -- texte non traduit
 --[==[
 t("barbed ", "barbed ", "entity name")
@@ -7882,9 +7877,6 @@ t(" of paradox", " of paradox", "entity name")
 t("paradox", "paradox", "entity keyword")
 t("elemental ", "elemental ", "entity name")
 t("elemental", "elemental", "entity keyword")
-t("fire", "fire", "_t")
-t("cold", "cold", "_t")
-t("lightning", "lightning", "_t")
 t("acid", "acid", "_t")
 t("Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "tformat")
 t("plaguebringer's ", "plaguebringer's ", "entity name")
@@ -7942,6 +7934,7 @@ t("#LIGHT_GREEN#20%#LAST# chance to stun, blind, pin, confuse, or silence the ta
 section "mod-tome/data/general/objects/egos/amulets.lua"
 
 t("mastery", "maîtrisé", "entity keyword")
+t("healing", "soin", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of cunning (#STATBONUS#)", " of cunning (#STATBONUS#)", "entity name")
@@ -7980,7 +7973,6 @@ t("murder", "murder", "entity keyword")
 t(" of vision", " of vision", "entity name")
 t("vision", "vision", "entity keyword")
 t(" of healing", " of healing", "entity name")
-t("healing", "healing", "entity keyword")
 t("protective ", "protective ", "entity name")
 t("protect", "protect", "entity keyword")
 t("enraging ", "enraging ", "entity name")
@@ -8128,7 +8120,7 @@ t("noble", "noble", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/boots.lua"
 
-
+t("blight", "maladie", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of tirelessness", " of tirelessness", "entity name")
@@ -8160,7 +8152,6 @@ t("restorative", "restorative", "entity keyword")
 t("invigorating ", "invigorating ", "entity name")
 t("invigor.", "invigor.", "entity keyword")
 t("blightbringer's ", "blightbringer's ", "entity name")
-t("blight", "blight", "entity keyword")
 t("wanderer's ", "wanderer's ", "entity name")
 t("wanderer", "wanderer", "entity keyword")
 t("undeterred ", "undeterred ", "entity name")
@@ -8381,7 +8372,7 @@ t("wreckage", "wreckage", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/gloves.lua"
 
-
+t("temporal", "temporel", "entity keyword")
 -- texte non traduit
 --[==[
 t("cinder ", "cinder ", "entity name")
@@ -8405,7 +8396,6 @@ t("umbral", "umbral", "entity keyword")
 t("radiant ", "radiant ", "entity name")
 t("radiant", "radiant", "entity keyword")
 t("temporal ", "temporal ", "entity name")
-t("temporal", "temporal", "entity keyword")
 t(" of dexterity (#STATBONUS#)", " of dexterity (#STATBONUS#)", "entity name")
 t("dex", "dex", "entity keyword")
 t(" of magic (#STATBONUS#)", " of magic (#STATBONUS#)", "entity name")
@@ -8475,7 +8465,8 @@ t("fortif.", "fortif.", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/helm.lua"
 
-
+t("ground", "sol", "entity keyword")
+t("sanctity", "sainteté", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of strength (#STATBONUS#)", " of strength (#STATBONUS#)", "entity name")
@@ -8499,7 +8490,6 @@ t("miner", "miner", "entity keyword")
 t("insulating ", "insulating ", "entity name")
 t("insulate", "insulate", "entity keyword")
 t("grounding ", "grounding ", "entity name")
-t("ground", "ground", "entity keyword")
 t("stabilizing ", "stabilizing ", "entity name")
 t("stabilize", "stabilize", "entity keyword")
 t("cleansing ", "cleansing ", "entity name")
@@ -8531,7 +8521,6 @@ t("blood", "blood", "entity keyword")
 t(" of fortune", " of fortune", "entity name")
 t("fortune", "fortune", "entity keyword")
 t(" of sanctity", " of sanctity", "entity name")
-t("sanctity", "sanctity", "entity keyword")
 t(" of ire", " of ire", "entity name")
 t("ire", "ire", "entity keyword")
 t("bladed ", "bladed ", "entity name")
@@ -8669,7 +8658,7 @@ t("fortif.", "fortif.", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/mindstars.lua"
 
-
+t("%s resists the mind attack!", "%s résiste à l'attaque mentale!", "logSeen")
 -- texte non traduit
 --[==[
 t("blooming ", "blooming ", "entity name")
@@ -8744,7 +8733,6 @@ t("hungering ", "hungering ", "entity name")
 t("hungering", "hungering", "entity keyword")
 t("inflict %0.2f mind damage (range 10), gaining psi and hate equal to 10%%%% of the damage done", "inflict %0.2f mind damage (range 10), gaining psi and hate equal to 10%%%% of the damage done", "tformat")
 t("%s feeds %s %s with psychic energy from %s!", "%s feeds %s %s with psychic energy from %s!", "logSeen")
-t("%s resists the mind attack!", "%s resists the mind attack!", "logSeen")
 t("projecting ", "projecting ", "entity name")
 t("projecting", "projecting", "entity keyword")
 t("resonating ", "resonating ", "entity name")
@@ -8770,7 +8758,9 @@ t("giant ", "giant ", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/ranged.lua"
 
-
+t("fire", "feu", "entity keyword")
+t("cold", "froid", "entity keyword")
+t("lightning", "foudre", "entity keyword")
 -- texte non traduit
 --[==[
 t("mighty ", "mighty ", "entity name")
@@ -8786,13 +8776,10 @@ t("flight", "flight", "entity keyword")
 t(" of piercing", " of piercing", "entity name")
 t("piercing", "piercing", "entity keyword")
 t(" of fire", " of fire", "entity name")
-t("fire", "fire", "entity keyword")
 t(" of cold", " of cold", "entity name")
-t("cold", "cold", "entity keyword")
 t(" of acid", " of acid", "entity name")
 t("acid", "acid", "entity keyword")
 t(" of lightning", " of lightning", "entity name")
-t("lightning", "lightning", "entity keyword")
 t("penetrating ", "penetrating ", "entity name")
 t("penetrating", "penetrating", "entity keyword")
 t("runic ", "runic ", "entity name")
@@ -8828,7 +8815,12 @@ t("silences the target", "silences the target", "_t")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/rings.lua"
 
-
+t("fire", "feu", "entity keyword")
+t("lightning", "foudre", "entity keyword")
+t("light", "lumière", "entity keyword")
+t("darkness", "obscurité", "entity keyword")
+t("blight", "maladie", "entity keyword")
+t("mind", "esprit", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of sensing", " of sensing", "entity name")
@@ -8842,27 +8834,21 @@ t("perseverance", "perseverance", "entity keyword")
 t(" of arcana (#REGEN#)", " of arcana (#REGEN#)", "entity name")
 t("arcana", "arcana", "entity keyword")
 t(" of fire (#RESIST#)", " of fire (#RESIST#)", "entity name")
-t("fire", "fire", "entity keyword")
 t(" of frost (#RESIST#)", " of frost (#RESIST#)", "entity name")
 t("frost", "frost", "entity keyword")
 t(" of nature (#RESIST#)", " of nature (#RESIST#)", "entity name")
 t("nature", "nature", "entity keyword")
 t(" of lightning (#RESIST#)", " of lightning (#RESIST#)", "entity name")
-t("lightning", "lightning", "entity keyword")
 t(" of light (#RESIST#)", " of light (#RESIST#)", "entity name")
-t("light", "light", "entity keyword")
 t(" of darkness (#RESIST#)", " of darkness (#RESIST#)", "entity name")
-t("darkness", "darkness", "entity keyword")
 t(" of corrosion (#RESIST#)", " of corrosion (#RESIST#)", "entity name")
 t("corrosion", "corrosion", "entity keyword")
 t(" of aether (#RESIST#)", " of aether (#RESIST#)", "entity name")
 t("aether", "aether", "entity keyword")
 t(" of blight (#RESIST#)", " of blight (#RESIST#)", "entity name")
-t("blight", "blight", "entity keyword")
 t(" of the mountain (#RESIST#)", " of the mountain (#RESIST#)", "entity name")
 t("mountain", "mountain", "entity keyword")
 t(" of the mind (#RESIST#)", " of the mind (#RESIST#)", "entity name")
-t("mind", "mind", "entity keyword")
 t(" of time (#RESIST#)", " of time (#RESIST#)", "entity name")
 t("time", "time", "entity keyword")
 t("warrior's ", "warrior's ", "entity name")
@@ -8917,29 +8903,28 @@ t("luminosity", "luminosity", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/robe.lua"
 
-
+t("fire", "feu", "entity keyword")
+t("lightning", "foudre", "entity keyword")
+t("light", "lumière", "entity keyword")
+t("darkness", "obscurité", "entity keyword")
+t("blight", "maladie", "entity keyword")
+t("mind", "esprit", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of fire (#RESIST#)", " of fire (#RESIST#)", "entity name")
-t("fire", "fire", "entity keyword")
 t(" of frost (#RESIST#)", " of frost (#RESIST#)", "entity name")
 t("frost", "frost", "entity keyword")
 t(" of nature (#RESIST#)", " of nature (#RESIST#)", "entity name")
 t("nature", "nature", "entity keyword")
 t(" of lightning (#RESIST#)", " of lightning (#RESIST#)", "entity name")
-t("lightning", "lightning", "entity keyword")
 t(" of light (#RESIST#)", " of light (#RESIST#)", "entity name")
-t("light", "light", "entity keyword")
 t(" of darkness (#RESIST#)", " of darkness (#RESIST#)", "entity name")
-t("darkness", "darkness", "entity keyword")
 t(" of corrosion (#RESIST#)", " of corrosion (#RESIST#)", "entity name")
 t("corrosion", "corrosion", "entity keyword")
 t(" of blight (#RESIST#)", " of blight (#RESIST#)", "entity name")
-t("blight", "blight", "entity keyword")
 t(" of the mountain (#RESIST#)", " of the mountain (#RESIST#)", "entity name")
 t("mountain", "mountain", "entity keyword")
 t(" of the mind (#RESIST#)", " of the mind (#RESIST#)", "entity name")
-t("mind", "mind", "entity keyword")
 t(" of time (#RESIST#)", " of time (#RESIST#)", "entity name")
 t("time", "time", "entity keyword")
 t("shimmering ", "shimmering ", "entity name")
@@ -9003,30 +8988,30 @@ t("long ", "long ", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/shield.lua"
 
+t("fire", "feu", "entity keyword")
+t("cold", "froid", "entity keyword")
+t("lightning", "foudre", "entity keyword")
+t("mind", "esprit", "entity keyword")
 t("physical", "physique", "entity keyword")
+t("temporal", "temporel", "entity keyword")
 t("crackling", "crépitant", "entity keyword")
 t("living", "vivant", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of fire resistance (#RESIST#)", " of fire resistance (#RESIST#)", "entity name")
-t("fire", "fire", "entity keyword")
 t(" of cold resistance (#RESIST#)", " of cold resistance (#RESIST#)", "entity name")
-t("cold", "cold", "entity keyword")
 t(" of lightning resistance (#RESIST#)", " of lightning resistance (#RESIST#)", "entity name")
-t("lightning", "lightning", "entity keyword")
 t(" of acid resistance (#RESIST#)", " of acid resistance (#RESIST#)", "entity name")
 t("acid", "acid", "entity keyword")
 t(" of arcane resistance (#RESIST#)", " of arcane resistance (#RESIST#)", "entity name")
 t("arcane", "arcane", "entity keyword")
 t(" of mind resistance (#RESIST#)", " of mind resistance (#RESIST#)", "entity name")
-t("mind", "mind", "entity keyword")
 t(" of physical resistance (#RESIST#)", " of physical resistance (#RESIST#)", "entity name")
 t(" of purity", " of purity", "entity name")
 t("purity", "purity", "entity keyword")
 t(" of reflection", " of reflection", "entity name")
 t("reflection", "reflection", "entity keyword")
 t(" of temporal resistance (#RESIST#)", " of temporal resistance (#RESIST#)", "entity name")
-t("temporal", "temporal", "entity keyword")
 t("flaming ", "flaming ", "entity name")
 t("flaming", "flaming", "entity keyword")
 t("icy ", "icy ", "entity name")
@@ -9098,7 +9083,8 @@ t("halfling", "halfling", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/staves.lua"
 
-
+t("blight", "maladie", "entity keyword")
+t("illumination", "éclairage", "entity keyword")
 -- texte non traduit
 --[==[
 t("cruel ", "cruel ", "entity name")
@@ -9112,7 +9098,6 @@ t("shimmering", "shimmering", "entity keyword")
 t("surging ", "surging ", "entity name")
 t("surging", "surging", "entity keyword")
 t("blighted ", "blighted ", "entity name")
-t("blight", "blight", "entity keyword")
 t("ethereal ", "ethereal ", "entity name")
 t("ethereal", "ethereal", "entity keyword")
 t("greater ", "greater ", "entity name")
@@ -9122,7 +9107,6 @@ t("v. walkers", "v. walkers", "entity keyword")
 t(" of fate", " of fate", "entity name")
 t("fate", "fate", "entity keyword")
 t(" of illumination", " of illumination", "entity name")
-t("illumination", "illumination", "entity keyword")
 t(" of might", " of might", "entity name")
 t("might", "might", "entity keyword")
 t(" of power", " of power", "entity name")
@@ -9194,11 +9178,10 @@ t("%s activates %s %s!", "%s activates %s %s!", "logSeen")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/totems-powers.lua"
 
-
+t("healing", "soin", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of healing", " of healing", "entity name")
-t("healing", "healing", "entity keyword")
 t("heal yourself and all friendly characters within 10 spaces for %d", "heal yourself and all friendly characters within 10 spaces for %d", "tformat")
 t("%s activates %s %s!", "%s activates %s %s!", "logSeen")
 t(" of stinging", " of stinging", "entity name")
@@ -9271,7 +9254,9 @@ t("ward", "ward", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/weapon.lua"
 
-
+t("fire", "feu", "_t")
+t("cold", "froid", "_t")
+t("lightning", "foudre", "_t")
 -- texte non traduit
 --[==[
 t("balanced ", "balanced ", "entity name")
@@ -9316,9 +9301,6 @@ t(" of paradox", " of paradox", "entity name")
 t("paradox", "paradox", "entity keyword")
 t("elemental ", "elemental ", "entity name")
 t("elemental", "elemental", "entity keyword")
-t("fire", "fire", "_t")
-t("cold", "cold", "_t")
-t("lightning", "lightning", "_t")
 t("acid", "acid", "_t")
 t("Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "tformat")
 t("plaguebringer's ", "plaguebringer's ", "entity name")
@@ -9374,7 +9356,12 @@ t("#LIGHT_GREEN#20%#LAST# chance to stun, blind, pin, confuse, or silence the ta
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/wizard-hat.lua"
 
-
+t("fire", "feu", "entity keyword")
+t("lightning", "foudre", "entity keyword")
+t("light", "lumière", "entity keyword")
+t("darkness", "obscurité", "entity keyword")
+t("blight", "maladie", "entity keyword")
+t("mind", "esprit", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of balance", " of balance", "entity name")
@@ -9410,25 +9397,19 @@ t("shield", "shield", "entity keyword")
 t(" of decomposition", " of decomposition", "entity name")
 t("decomp", "decomp", "entity keyword")
 t(" of fire (#RESIST#)", " of fire (#RESIST#)", "entity name")
-t("fire", "fire", "entity keyword")
 t(" of frost (#RESIST#)", " of frost (#RESIST#)", "entity name")
 t("frost", "frost", "entity keyword")
 t(" of nature (#RESIST#)", " of nature (#RESIST#)", "entity name")
 t("nature", "nature", "entity keyword")
 t(" of lightning (#RESIST#)", " of lightning (#RESIST#)", "entity name")
-t("lightning", "lightning", "entity keyword")
 t(" of light (#RESIST#)", " of light (#RESIST#)", "entity name")
-t("light", "light", "entity keyword")
 t(" of darkness (#RESIST#)", " of darkness (#RESIST#)", "entity name")
-t("darkness", "darkness", "entity keyword")
 t(" of corrosion (#RESIST#)", " of corrosion (#RESIST#)", "entity name")
 t("corrosion", "corrosion", "entity keyword")
 t(" of blight (#RESIST#)", " of blight (#RESIST#)", "entity name")
-t("blight", "blight", "entity keyword")
 t(" of the mountain (#RESIST#)", " of the mountain (#RESIST#)", "entity name")
 t("mountain", "mountain", "entity keyword")
 t(" of the mind (#RESIST#)", " of the mind (#RESIST#)", "entity name")
-t("mind", "mind", "entity keyword")
 t(" of time (#RESIST#)", " of time (#RESIST#)", "entity name")
 t("time", "time", "entity keyword")
 t("shimmering ", "shimmering ", "entity name")
@@ -9846,11 +9827,10 @@ t("drakeskin", "drakeskin", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/light-armors.lua"
 
-
+t("light", "lumière", "entity subtype")
 -- texte non traduit
 --[==[
 t("armor", "armor", "entity type")
-t("light", "light", "entity subtype")
 t("A suit of armour made of leather.", "A suit of armour made of leather.", "_t")
 t("rough leather armour", "rough leather armour", "entity name")
 t("rough", "rough", "entity short_name")
@@ -9868,11 +9848,10 @@ t("drakeskin", "drakeskin", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/lites.lua"
 
-
+t("lite", "lampe", "entity type")
+t("lite", "lampe", "entity subtype")
 -- texte non traduit
 --[==[
-t("lite", "lite", "entity type")
-t("lite", "lite", "entity subtype")
 t("Light up the dark places of the world!", "Light up the dark places of the world!", "_t")
 t("brass lantern", "brass lantern", "entity name")
 t("brass", "brass", "entity short_name")
@@ -12119,6 +12098,9 @@ t("Cold flames slowly spread from %d spots within radius %d, The flames deal %d 
 section "mod-tome/data/general/traps/elemental.lua"
 
 t("trap", "piège", "_t")
+t("fire", "feu", "entity subtype")
+t("cold", "froid", "entity subtype")
+t("lightning", "foudre", "entity subtype")
 -- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
@@ -12128,15 +12110,12 @@ t("acid", "acid", "entity subtype")
 t("acid trap", "acid trap", "entity name")
 t("A stream of acid gushes onto @target@!", "A stream of acid gushes onto @target@!", "_t")
 t("corroded spot", "corroded spot", "_t")
-t("fire", "fire", "entity subtype")
 t("fire trap", "fire trap", "entity name")
 t("A bolt of fire blasts onto @target@!", "A bolt of fire blasts onto @target@!", "_t")
 t("burnt spot", "burnt spot", "_t")
-t("cold", "cold", "entity subtype")
 t("ice trap", "ice trap", "entity name")
 t("A bolt of ice blasts onto @target@!", "A bolt of ice blasts onto @target@!", "_t")
 t("frozen spot", "frozen spot", "_t")
-t("lightning", "lightning", "entity subtype")
 t("lightning trap", "lightning trap", "entity name")
 t("A bolt of lightning fires onto @target@!", "A bolt of lightning fires onto @target@!", "_t")
 t("crackling spot", "crackling spot", "_t")
@@ -12166,6 +12145,7 @@ t("All within radius %d are dealt %d fire damage, set on fire for %d more fire d
 section "mod-tome/data/general/traps/natural_forest.lua"
 
 t("trap", "piège", "_t")
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("natural", "natural", "entity type")
@@ -12174,7 +12154,6 @@ t("sliding rock", "sliding rock", "entity name")
 t("@Target@ slides on a rock!", "@Target@ slides on a rock!", "_t")
 t("slippery rock", "slippery rock", "_t")
 t("Stuns for 4 turns.", "Stuns for 4 turns.", "_t")
-t("%s resists!", "%s resists!", "logSeen")
 t("poison vine", "poison vine", "entity name")
 t("A poisonous vine strikes at @Target@!", "A poisonous vine strikes at @Target@!", "_t")
 t("venomous vine", "venomous vine", "_t")
@@ -12213,11 +12192,11 @@ t("%s resists being teleported!", "%s resists being teleported!", "logSeen")
 ------------------------------------------------
 section "mod-tome/data/general/traps/temporal.lua"
 
+t("temporal", "temporel", "entity type")
 t("water", "eau", "entity subtype")
 t("trap", "piège", "_t")
 -- texte non traduit
 --[==[
-t("temporal", "temporal", "entity type")
 t("disturbed pocket of time", "disturbed pocket of time", "entity name")
 t("@Target@ is caught in a distorted pocket of time!", "@Target@ is caught in a distorted pocket of time!", "_t")
 t("faint distortion", "faint distortion", "_t")
@@ -20106,6 +20085,7 @@ t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#PLACED LESSER VAULT: %s", "log")
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/celestial.lua"
 
+t("light", "lumière", "talent type")
 t("other", "autre", "talent type")
 -- texte non traduit
 --[==[
@@ -20114,7 +20094,6 @@ t("guardian", "guardian", "talent type")
 t("Your devotion grants you additional protection.", "Your devotion grants you additional protection.", "_t")
 t("chants", "chants", "talent type")
 t("Chant the glory of the Sun.", "Chant the glory of the Sun.", "_t")
-t("light", "light", "talent type")
 t("Invoke the power of the light to heal and mend.", "Invoke the power of the light to heal and mend.", "_t")
 t("combat", "combat", "talent type")
 t("Your devotion allows you to combat your foes with indomitable determination.", "Your devotion allows you to combat your foes with indomitable determination.", "_t")
@@ -20348,11 +20327,10 @@ The shield strength will increase with your Spellpower.]], "tformat")
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/darkside.lua"
 
-
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Brutalize", "Brutalize", "talent name")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target is stunned for %d turns and has their bleed resistance reduced by 50%%.
 The stun chance increases with your Physical Power.
 
@@ -20918,6 +20896,7 @@ t([[You revert your body to a previous state, healing yourself for %0.2f life an
 section "mod-tome/data/talents/chronomancy/anomalies.lua"
 
 t("trap", "piège", "_t")
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Anomaly Rearrange", "Anomaly Rearrange", "talent name")
@@ -21046,7 +21025,6 @@ t("%s resists the tornado!", "%s resists the tornado!", "logSeen")
 t("Summons three to six tornados.", "Summons three to six tornados.", "tformat")
 t("Anomaly Meteor", "Anomaly Meteor", "talent name")
 t("@Source@ causes a meteor to fall from the sky.", "@Source@ causes a meteor to fall from the sky.", "_t")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t("Causes a meteor to fall from the sky.", "Causes a meteor to fall from the sky.", "tformat")
 t("Anomaly Spacetime Tear", "Anomaly Spacetime Tear", "talent name")
 t("@Source@ tears a hole in the fabric of spacetime.", "@Source@ tears a hole in the fabric of spacetime.", "_t")
@@ -21093,7 +21071,7 @@ t("While dual-wielding you have a %d%% chance of completely parrying melee attac
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/bow-threading.lua"
 
-
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Arrow Stitching", "Arrow Stitching", "talent name")
@@ -21105,7 +21083,6 @@ t([[Fire an arrow for %d%% weapon damage and call up to 2 wardens, depending on 
 		
 		Bow Threading talents will freely swap to your bow when activated if you have one in your secondary slot. You may use the Shoot talent in a similar manner.]], "tformat")
 t("Singularity Arrow", "Singularity Arrow", "talent name")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t("%s is drawn in by the singularity!", "%s is drawn in by the singularity!", "logSeen")
 t([[Fire an arrow for %d%% weapon damage. When the arrow reaches its destination or hits a target it will draw in all other targets in a radius of %d and inflict %0.2f physical damage.
 		Each target moved beyond the first increases the damage %0.2f (up to %0.2f bonus damage).
@@ -21127,6 +21104,7 @@ t("Your arrows now tune your Paradox %0.2f points towards your preferred Paradox
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/chronomancer.lua"
 
+t("gravity", "gravité", "talent type")
 t("Chronomancy", "Chronomancie", "talent type")
 -- texte non traduit
 --[==[
@@ -21145,7 +21123,6 @@ t("Temporal Hounds", "Temporal Hounds", "talent type")
 t("Call temporal hounds to aid you in combat.", "Call temporal hounds to aid you in combat.", "_t")
 t("flux", "flux", "talent type")
 t("Fluctuate spacetime.", "Fluctuate spacetime.", "_t")
-t("gravity", "gravity", "talent type")
 t("Call upon the force of gravity to crush, push, and pull your foes.", "Call upon the force of gravity to crush, push, and pull your foes.", "_t")
 t("matter", "matter", "talent type")
 t("Change and shape matter itself.", "Change and shape matter itself.", "_t")
@@ -21232,7 +21209,7 @@ t([[You peer into three possible futures, allowing you to explore each for %d tu
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/energy.lua"
 
-
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("Energy Decomposition", "Energy Decomposition", "talent name")
@@ -21241,7 +21218,6 @@ t([[Partially dissipates all incoming damage, reducing it by 30%%, up to a maxim
 		The maximum damage reduction will scale with your Spellpower.]], [[Partially dissipates all incoming damage, reducing it by 30%%, up to a maximum of %d.
 		The maximum damage reduction will scale with your Spellpower.]], "tformat")
 t("Energy Absorption", "Energy Absorption", "talent name")
-t("%s resists!", "%s resists!", "logSeen")
 t("%s's %s is disrupted by the Energy Absorption!", "%s's %s is disrupted by the Energy Absorption!", "logSeen")
 t([[You sap the target's energy and add it to your own, placing up to %d random talents on cooldown for %d turns.
 		For each talent put on cooldown, you reduce the cooldown of one of your talents currently on cooldown by %d turns.]], [[You sap the target's energy and add it to your own, placing up to %d random talents on cooldown for %d turns.
@@ -21327,13 +21303,12 @@ t([[If Twist Fate is not on cooldown minor anomalies will be held for %d turns, 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/gravity.lua"
 
-
+t("%s is knocked back!", "%s est repoussé!", "logSeen")
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Repulsion Blast", "Repulsion Blast", "talent name")
 t("%s slams into something solid!", "%s slams into something solid!", "logSeen")
-t("%s is knocked back!", "%s is knocked back!", "logSeen")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t([[Sends out a blast wave of gravity in a radius %d cone, dealing %0.2f base physical (gravity) damage and knocking back targets caught in the area.
 		Targets knocked into walls or other targets take 25%% additional damage and deal 25%% damage to targets they're knocked into.
 		Closer targets will be knocked back further and the damage will scale with your Spellpower.]], [[Sends out a blast wave of gravity in a radius %d cone, dealing %0.2f base physical (gravity) damage and knocking back targets caught in the area.
@@ -21398,7 +21373,9 @@ t([[Attack the target with either your ranged or melee weapons for %d%% weapon d
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/induced-phenomena.lua"
 
-
+t("%s resists the blindness!", "%s résiste à l'aveuglement!", "logSeen")
+t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
+t("%s resists the confusion!", "%s résiste à la confusion!", "logSeen")
 -- texte non traduit
 --[==[
 t("Cosmic Cycle", "Cosmic Cycle", "talent name")
@@ -21422,9 +21399,6 @@ t([[When a creature enters your expanding Cosmic Cycle, you heal %d life at the 
 		When a creature leaves your contracting Cosmic Cycle, you reduce the duration of one detrimental effect on you by %d at the start of your next turn.
 		The healing will scale with your Spellpower.]], "tformat")
 t("Epoch", "Epoch", "talent name")
-t("%s resists the blindness!", "%s resists the blindness!", "logSeen")
-t("%s resists the pin!", "%s resists the pin!", "logSeen")
-t("%s resists the confusion!", "%s resists the confusion!", "logSeen")
 t([[While your cosmic cycle is expanding, creatures in its radius have a %d%% chance to suffer the effects of aging; pinning, blinding, or confusing them for 3 turns.
 		While your cosmic cycle is contracting, creatures in its radius suffer from age regression; reducing their three highest stats by %d.
 		The chance and stat reduction will scale with your Spellpower.]], [[While your cosmic cycle is expanding, creatures in its radius have a %d%% chance to suffer the effects of aging; pinning, blinding, or confusing them for 3 turns.
@@ -21468,7 +21442,7 @@ t([[While active your physical and temporal damage has a %d%% chance to remove o
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/other.lua"
 
-
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Spacetime Tuning", "Spacetime Tuning", "talent name")
@@ -21570,7 +21544,6 @@ t([[You manipulate the spacetime continuum in such a way that you switch places 
 		The spell's hit chance will increase with your Spellpower.]], "tformat")
 t("Temporal Wake", "Temporal Wake", "talent name")
 t("You do not have line of sight.", "You do not have line of sight.", "logSeen")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t([[Violently fold the space between yourself and another point within range.
 		You teleport to the target location, and leave a temporal wake behind that stuns for %d turns and deals %0.2f temporal and %0.2f physical warp damage to targets in the path.
 		The damage will scale with your Spellpower.]], [[Violently fold the space between yourself and another point within range.
@@ -21950,7 +21923,7 @@ t([[When you hit with a melee or arrow attack, there is a %d%% chance that a war
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/timeline-threading.lua"
 
-
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("Rethread", "Rethread", "talent name")
@@ -21977,7 +21950,6 @@ t("Cease to Exist", "Cease to Exist", "talent name")
 t("The timeline is too fractured to do this now.", "The timeline is too fractured to do this now.", "logPlayer")
 t("#LIGHT_BLUE#%s never existed, this never happened!", "#LIGHT_BLUE#%s never existed, this never happened!", "logSeen")
 t("#LIGHT_STEEL_BLUE#%s tries to remove %sself from existance!", "#LIGHT_STEEL_BLUE#%s tries to remove %sself from existance!", "logSeen")
-t("%s resists!", "%s resists!", "logSeen")
 t([[Over the next %d turns, you attempt to remove the target from the timeline, lowering its resistance to physical and temporal damage by %d%%.
 		If you manage to kill the target while the spell is in effect, you'll be returned to the point in time you cast this spell and the target will be slain.
 		This spell splits the timeline.  Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.
@@ -21991,7 +21963,7 @@ t([[Over the next %d turns, you attempt to remove the target from the timeline, 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/timetravel.lua"
 
-
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("Temporal Bolt", "Temporal Bolt", "talent name")
@@ -22003,7 +21975,6 @@ t([[Pull a bolt of temporal energy back through time.  The bolt will home in on 
 		At talent level five cooldowns are reduced by two.]], "tformat")
 t("Time Skip", "Time Skip", "talent name")
 t("%s is immune!", "%s is immune!", "logSeen")
-t("%s resists!", "%s resists!", "logSeen")
 t("Something has prevented the timetravel.", "Something has prevented the timetravel.", "logPlayer")
 t("temporal instability", "temporal instability", "_t")
 t("%s has moved forward in time!", "%s has moved forward in time!", "logSeen")
@@ -22104,7 +22075,7 @@ t([[Concentrate on the corruption you bring, increasing your spell critical chan
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/bone.lua"
 
-
+t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
 -- texte non traduit
 --[==[
 t("Bone Spear", "Bone Spear", "talent name")
@@ -22112,7 +22083,6 @@ t([[Conjures up a spear of bones, doing %0.2f physical damage to all targets in 
 		The damage will increase with your Spellpower.]], [[Conjures up a spear of bones, doing %0.2f physical damage to all targets in a line.  Each target takes an additional %d%% damage for each magical debuff they are afflicted with up to a max of %d%% (%d).
 		The damage will increase with your Spellpower.]], "tformat")
 t("Bone Grab", "Bone Grab", "talent name")
-t("%s resists the pin!", "%s resists the pin!", "logSeen")
 t("%s resists being teleported by Bone Grab!", "%s resists being teleported by Bone Grab!", "logSeen")
 t([[Grab a target and teleport it to your side or if adjacent up to 6 spaces away from you, pinning it there with a bone rising from the ground for %d turns.
 		The bone will also deal %0.2f physical damage.
@@ -22138,7 +22108,7 @@ t([[Bone shields start circling around you. They will each fully absorb one inst
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/corruptions.lua"
 
-
+t("blight", "maladie", "talent type")
 -- texte non traduit
 --[==[
 t("corruption", "corruption", "talent category")
@@ -22164,7 +22134,6 @@ t("reaving combat", "reaving combat", "talent type")
 t("Enhanced melee combat through the dark arts.", "Enhanced melee combat through the dark arts.", "_t")
 t("blood", "blood", "talent type")
 t("Harness the power of blood, both your own and your foes'.", "Harness the power of blood, both your own and your foes'.", "_t")
-t("blight", "blight", "talent type")
 t("Bring corruption and decay to all who oppose you.", "Bring corruption and decay to all who oppose you.", "_t")
 t("Shadowflame", "Shadowflame", "talent type")
 t("Harness the power of the demonic shadowflame.", "Harness the power of the demonic shadowflame.", "_t")
@@ -22228,7 +22197,7 @@ t([[Hexes your target, forcing it to be your thrall for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/plague.lua"
 
-
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Virulent Disease", "Virulent Disease", "talent name")
@@ -22248,7 +22217,6 @@ t([[Make your target's diseases burst, doing %0.2f blight damage for each diseas
 		The damage will increase with your Spellpower.]], "tformat")
 t("Catalepsy", "Catalepsy", "talent name")
 t("Diseases #DARK_GREEN#BURN THROUGH#LAST# %s!", "Diseases #DARK_GREEN#BURN THROUGH#LAST# %s!", "logSeen")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t("All your foes within a radius %d ball infected with a disease enter a cataleptic state, stunning them for %d turns and dealing %d%% of all remaining disease damage instantly.", "All your foes within a radius %d ball infected with a disease enter a cataleptic state, stunning them for %d turns and dealing %d%% of all remaining disease damage instantly.", "tformat")
 t("Epidemic", "Epidemic", "talent name")
 t("The diseases of %s spread!", "The diseases of %s spread!", "logSeen")
@@ -22551,7 +22519,7 @@ t("Each time a creature affected by vimsense hurts you, you regain %0.2f vim and
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/ambush.lua"
 
-
+t("%s resists the silence!", "%s resiste au silence!", "logSeen")
 -- texte non traduit
 --[==[
 t("Shadowguard", "Shadowguard", "talent name")
@@ -22559,7 +22527,6 @@ t([[Your Soothing Darkness talent effect now grants 25%% all damage resistance o
 		When your life drops below 50%% you become immune to negative detrimental effects for %d turns and gain %d defense and %d spellpower for %d turns.]], [[Your Soothing Darkness talent effect now grants 25%% all damage resistance on exiting stealth.
 		When your life drops below 50%% you become immune to negative detrimental effects for %d turns and gain %d defense and %d spellpower for %d turns.]], "tformat")
 t("Shadow Grasp", "Shadow Grasp", "talent name")
-t("%s resists the silence!", "%s resists the silence!", "logSeen")
 t("%s resists the disarm!", "%s resists the disarm!", "logSeen")
 t([[You reach out with the shadows silencing and disarming your target for %d turns.
 		The shadows will deal %d darkness damage to the target and pull it to you.
@@ -22594,6 +22561,7 @@ t([[You veil yourself in shadows and let them control you.
 section "mod-tome/data/talents/cunning/artifice.lua"
 
 t("none", "aucun", "_t")
+t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
 -- texte non traduit
 --[==[
 t([[#YELLOW#%s (prepared, level %s)#LAST#:
@@ -22706,7 +22674,6 @@ t("#Source# throws a grappling hook at #target#!", "#Source# throws a grappling 
 t("#Source#'s grappling hook latches onto #target#!", "#Source#'s grappling hook latches onto #target#!", "logCombat")
 t("#Source# is dragged towards #target#!", "#Source# is dragged towards #target#!", "logCombat")
 t("#Target# is dragged towards #source#!", "#Target# is dragged towards #source#!", "logCombat")
-t("%s resists the pin!", "%s resists the pin!", "logSeen")
 t("You need more room to swing your hook effectively.", "You need more room to swing your hook effectively.", "logPlayer")
 t("%s uses a grappling hook to pull %s %s!", "%s uses a grappling hook to pull %s %s!", "logSeen")
 t("You must anchor the hook to something solid.", "You must anchor the hook to something solid.", "logPlayer")
@@ -23122,6 +23089,7 @@ t([[Systematically find the weaknesses in your opponents' physical resists, at t
 section "mod-tome/data/talents/cunning/traps.lua"
 
 t("trap", "piège", "_t")
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("#CADET_BLUE#Placing %s...", "#CADET_BLUE#Placing %s...", "logPlayer")
@@ -23214,7 +23182,6 @@ t("Deals %0.2f physical damage and pins, slows (30%%), and wounds for an additio
 t("Lay a pressure triggered bear trap that snaps onto the first creature passing over it.  Victims are dealt %0.2f physical damage and become snared (pinned and slowed 30%%) and wounded for %0.2f bleeding damage over 5 turns.  Creatures that avoid being snared still suffer bleeding damage.%s", "Lay a pressure triggered bear trap that snaps onto the first creature passing over it.  Victims are dealt %0.2f physical damage and become snared (pinned and slowed 30%%) and wounded for %0.2f bleeding damage over 5 turns.  Creatures that avoid being snared still suffer bleeding damage.%s", "tformat")
 t("Disarming Trap", "Disarming Trap", "talent name")
 t("disarming trap", "disarming trap", "_t")
-t("%s resists!", "%s resists!", "logSeen")
 t("Deals %0.2f acid damage, disarms for %d turns.", "Deals %0.2f acid damage, disarms for %d turns.", "tformat")
 t("Lay a tricky trap that maims creatures passing by with acid doing %0.2f damage and disarming them for %d turns.", "Lay a tricky trap that maims creatures passing by with acid doing %0.2f damage and disarming them for %d turns.", "tformat")
 t("Pitfall Trap", "Pitfall Trap", "talent name")
@@ -23543,6 +23510,7 @@ t("You rise to meet the pain that others would inflict on you. Every turn you ta
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/cursed.lua"
 
+t("darkness", "obscurité", "talent type")
 t("Cursed", "Maudit", "talent type")
 -- texte non traduit
 --[==[
@@ -23563,7 +23531,6 @@ t("dark sustenance", "dark sustenance", "talent type")
 t("The powers of your foes feed your dark will.", "The powers of your foes feed your dark will.", "_t")
 t("force of will", "force of will", "talent type")
 t("Invoke the powerful force of your will.", "Invoke the powerful force of your will.", "_t")
-t("darkness", "darkness", "talent type")
 t("Harness the power of darkness to envelop your foes.", "Harness the power of darkness to envelop your foes.", "_t")
 t("shadows", "shadows", "talent type")
 t("Summon shadows from the darkness to aid you.", "Summon shadows from the darkness to aid you.", "_t")
@@ -24219,7 +24186,7 @@ t("You have become a keen observer in your travels. Each kill gives you %d%% mor
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/antimagic.lua"
 
-
+t("%s resists the silence!", "%s resiste au silence!", "logSeen")
 -- texte non traduit
 --[==[
 t("Resolve", "Resolve", "talent name")
@@ -24233,7 +24200,6 @@ t([[You stand in the way of magical damage. That which does not kill you will ma
 		Additionally, each time you take non-physical, non-mind damage, your equilibrium will decrease and stamina increase by %0.2f.
 		The effects will increase with the greater of your Mindpower or Physical power and the bonus resistance can be a mental crit.]], "tformat")
 t("Antimagic Zone", "Antimagic Zone", "talent name")
-t("%s resists the silence!", "%s resists the silence!", "logSeen")
 t([[Let out a burst of sound that silences for %d turns all those affected in a radius of %d.
 		Each turn for %d turns the effected area will cause %0.2f manaburn damage to all creatures inside.
 		For each creature silenced your equilibrium is reduced by %d (up to 5 times).
@@ -25041,12 +25007,11 @@ t([[Surround yourself with natural forces, ignoring %d%% nature resistance of yo
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/sand-drake.lua"
 
-
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("Swallow", "Swallow", "talent name")
 t("#Source# tries to swallow #Target#!", "#Source# tries to swallow #Target#!", "logCombat")
-t("%s resists!", "%s resists!", "logSeen")
 t([[Attack the target for %d%% Nature weapon damage.
 		If the attack brings your target below a percent of its max life (based on talent level and relative size) or kills it, you attempt to swallow it, killing it automatically and regaining life and equilibrium depending on its level.
 		The target may save against your physical power to prevent this attempt.
@@ -25137,7 +25102,9 @@ t([[You extend slimy roots into the ground, follow them, and re-appear somewhere
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/storm-drake.lua"
 
-
+t("%s is knocked back!", "%s est repoussé!", "logSeen")
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Lightning Speed", "Lightning Speed", "talent name")
@@ -25165,8 +25132,6 @@ t([[Generate an electrical field around you in a radius of %d. Any creature caug
 		Each point in storm drake talents also increases your lightning resistance by 1%%.]], "tformat")
 t("Tornado", "Tornado", "talent name")
 t("Tornado", "Tornado", "_t")
-t("%s is knocked back!", "%s is knocked back!", "logSeen")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t([[Summon a tornado that moves very slowly towards the target, following it if it changes position.
 		Each time it moves every foes within radius 2 takes %0.2f lightning damage and is knocked back 2 spaces.
 		When it reaches the target it explodes in a radius of %d, knocking back targets and dealing %0.2f lightning and %0.2f physical damage.
@@ -25180,7 +25145,6 @@ t([[Summon a tornado that moves very slowly towards the target, following it if 
 		Each point in storm drake talents also increases your lightning resistance by 1%%.]], "tformat")
 t("Lightning Breath", "Lightning Breath", "talent name")
 t("@Source@ breathes lightning!", "@Source@ breathes lightning!", "_t")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t([[You breathe lightning in a frontal cone of radius %d. Any target caught in the area will take %0.2f to %0.2f lightning damage (%0.2f average) and be stunned for 3 turns.
 		The damage will increase with your Strength, and the critical chance is based on your Mental crit rate, and the Stun apply power is based on your Mindpower.
 		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[You breathe lightning in a frontal cone of radius %d. Any target caught in the area will take %0.2f to %0.2f lightning damage (%0.2f average) and be stunned for 3 turns.
@@ -25566,6 +25530,7 @@ section "mod-tome/data/talents/misc/horrors.lua"
 
 t("spell", "contre les sorts", "talent category")
 t("other", "autre", "talent category")
+t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
 -- nouveau texte
 --[==[
 t("Open a hole in space, summoning an animated blade for 15 turns.", "Open a hole in space, summoning an animated blade for 15 turns.", "tformat")
@@ -25619,7 +25584,6 @@ t([[Summon a storm of swirling blades to slice your foes, inflicting %d physical
 		The damage and duration will increase with your Mindpower.]], [[Summon a storm of swirling blades to slice your foes, inflicting %d physical damage and bleeding to anyone who approaches for %d turns.
 		The damage and duration will increase with your Mindpower.]], "tformat")
 t("Psionic Pull", "Psionic Pull", "talent name")
-t("%s is pulled in!", "%s is pulled in!", "logSeen")
 t([[Pull all foes toward you in radius 5 while dealing %d physical damage.
 The damage will increase with your mindpower.]], [[Pull all foes toward you in radius 5 while dealing %d physical damage.
 The damage will increase with your mindpower.]], "tformat")
@@ -25667,6 +25631,7 @@ section "mod-tome/data/talents/misc/inscriptions.lua"
 
 t(" and ", " et ", "_t")
 t("Rune of the Rift", "Rune de la Faille", "talent name")
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("- will only auto use when no saturation effect exists", "- will only auto use when no saturation effect exists", "_t")
@@ -25741,7 +25706,6 @@ t([[Activate the rune to unleash a manasurge upon yourself, increasing mana rege
 			Also when resting your mana will regenerate at 0.5 per turn.]], "tformat")
 t("regen %d%% over %d turns; mana %d; cd %d", "regen %d%% over %d turns; mana %d; cd %d", "tformat")
 t("%s is immune!", "%s is immune!", "logSeen")
-t("%s resists!", "%s resists!", "logSeen")
 t("Something has prevented the timetravel.", "Something has prevented the timetravel.", "logPlayer")
 t("temporal instability", "temporal instability", "_t")
 t("%s has moved forward in time!", "%s has moved forward in time!", "logSeen")
@@ -25951,7 +25915,11 @@ t("undead", "mort-vivant", "talent category")
 t("misc", "divers", "talent type")
 t("Disarm", "Désarmement", "talent name")
 t("Knockback", "Repoussage", "talent name")
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
+t("%s resists!", "%s résiste!", "logSeen")
 t("something", "quelque chose", "_t")
+t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
@@ -25991,7 +25959,6 @@ t("%s resists the constriction!", "%s resists the constriction!", "logSeen")
 t([[Hits the target doing %d%% damage. If the attack hits, the target is constricted for %d turns.
 		The constriction power improves with your Physical Power.]], [[Hits the target doing %d%% damage. If the attack hits, the target is constricted for %d turns.
 		The constriction power improves with your Physical Power.]], "tformat")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t("Hits the target with your weapon doing %d%% damage. If the attack hits, the target is knocked back up to 4 grids.  The chance improves with your Physical Power.", "Hits the target with your weapon doing %d%% damage. If the attack hits, the target is knocked back up to 4 grids.  The chance improves with your Physical Power.", "tformat")
 t("Poisonous Bite", "Poisonous Bite", "talent name")
 t("@Source@ bites poison into @target@.", "@Source@ bites poison into @target@.", "_t")
@@ -26076,7 +26043,6 @@ t("@Source@ seems to search the ground...", "@Source@ seems to search the ground
 t("sticky web", "sticky web", "_t")
 t("@Target@ is caught in a web!", "@Target@ is caught in a web!", "_t")
 t("Pins non spiderkin for %d turns. Decays over time.", "Pins non spiderkin for %d turns. Decays over time.", "tformat")
-t("%s resists!", "%s resists!", "logSeen")
 t("Lay a concealed web (%d detect 'power', %d disarm 'power') under yourself that lasts %d turns and pins all non-spiderkin that pass through it for %d turns.  The web weakens over time.", "Lay a concealed web (%d detect 'power', %d disarm 'power') under yourself that lasts %d turns and pins all non-spiderkin that pass through it for %d turns.  The web weakens over time.", "tformat")
 t("Darkness", "Darkness", "talent name")
 t("Weave darkness (power %d) in a radius of %d, blocking all light but the most powerful and teleporting you a short range.", "Weave darkness (power %d) in a radius of %d, blocking all light but the most powerful and teleporting you a short range.", "tformat")
@@ -26138,7 +26104,6 @@ t([[Sends Dredges in a radius of %d into a frenzy for %d turns.
 t("Sever Lifeline", "Sever Lifeline", "talent name")
 t("Start to sever the lifeline of the target. After 4 turns, if the target is still in line of sight of you, its existance will be ended (%d temporal damage).", "Start to sever the lifeline of the target. After 4 turns, if the target is still in line of sight of you, its existance will be ended (%d temporal damage).", "tformat")
 t("Call of Amakthel", "Call of Amakthel", "talent name")
-t("%s is pulled in!", "%s is pulled in!", "logSeen")
 t("Pull all foes within radius 10 1 grid towards you.", "Pull all foes within radius 10 1 grid towards you.", "tformat")
 t("Gift of Amakthel", "Gift of Amakthel", "talent name")
 t("%s spawns a slimy crawler!", "%s spawns a slimy crawler!", "logSeen")
@@ -26233,7 +26198,6 @@ t([[You expend massive amounts of energy to launch yourself across %d squares at
 		At talent level 5, you can batter through solid walls.]], [[You expend massive amounts of energy to launch yourself across %d squares at incredible speed. All enemies in your path will be knocked flying and dealt between %d and %d Physical damage.
 		At talent level 5, you can batter through solid walls.]], "tformat")
 t("Telekinetic Throw", "Telekinetic Throw", "talent name")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t("#YELLOW##Source# resists #Target#'s throw!", "#YELLOW##Source# resists #Target#'s throw!", "logCombat")
 t([[Use your telekinetic power to enhance your strength, allowing you to pick up an adjacent enemy and hurl it anywhere within radius %d.
 		Upon landing, your target takes %0.1f Physical damage and is stunned for 4 turns.  All other creatures within radius 2 of the landing point take %0.1f Physical damage and are knocked away from you.
@@ -26728,13 +26692,13 @@ section "mod-tome/data/talents/misc/tutorial.lua"
 
 t("tutorial", "tutoriel", "talent category")
 t("tutorial", "tutoriel", "talent type")
+t("%s resists the shove!", "%s résiste à la poussé!", "logSeen")
 t("Fear", "Peur", "talent name")
 t("Bleed", "Saignement", "talent name")
 -- texte non traduit
 --[==[
 t("Tutorial-specific talents.", "Tutorial-specific talents.", "_t")
 t("Shove", "Shove", "talent name")
-t("%s resists the shove!", "%s resists the shove!", "logSeen")
 t("Give the target a good old-fashioned shove, knocking it back a square.", "Give the target a good old-fashioned shove, knocking it back a square.", "tformat")
 t("Mana Gale", "Mana Gale", "talent name")
 t("%s is knocked back by the gale!", "%s is knocked back by the gale!", "logSeen")
@@ -26840,12 +26804,11 @@ t("You perform a precise, telekinetically-enhanced leap, landing up to %d square
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/augmented-striking.lua"
 
-
+t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
 -- texte non traduit
 --[==[
 t("Kinetic Strike", "Kinetic Strike", "talent name")
 t("You cannot do that without a weapon in your hands.", "You cannot do that without a weapon in your hands.", "logPlayer")
-t("%s resists the pin!", "%s resists the pin!", "logSeen")
 t([[Focus kinetic energy and strike an enemy for %d%% weapon damage as physical.
 		They will be pinned to the ground for %d turns by the force of this attack.
 		Any frozen creature hit by this attack will take an extra %0.2f physical damage.
@@ -27249,7 +27212,7 @@ t([[Use finely controlled forces to augment both your flesh-and-blood grip, and 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/kinetic-mastery.lua"
 
-
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Transcendent Telekinesis", "Transcendent Telekinesis", "talent name")
@@ -27273,7 +27236,6 @@ t([[For %d turns your telekinesis transcends your normal limits, increasing your
 		The damage bonus and resistance penetration scale with your Mindpower.
 		Only one Transcendent talent may be in effect at a time.]], "tformat")
 t("Kinetic Surge", "Kinetic Surge", "talent name")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t("#YELLOW##Source# resists #Target#'s throw!", "#YELLOW##Source# resists #Target#'s throw!", "logCombat")
 t([[Build telekinetic power and dump it into an adjacent creature or yourself.
 		This will launch them to a targeted location in radius %d.
@@ -27367,6 +27329,7 @@ t([[Link minds with the target.  While your minds are linked, you'll inflict %d%
 section "mod-tome/data/talents/psionic/nightmare.lua"
 
 t("Nightmare", "Cauchemar", "talent name")
+t("terror", "terreur", "_t")
 -- texte non traduit
 --[==[
 t("%s resists the nightmare!", "%s resists the nightmare!", "logSeen")
@@ -27397,7 +27360,6 @@ t([[Inflicts %0.2f darkness damage each turn for %d turns, and has a %d%% chance
 		If the target is sleeping, the chance of avoiding a negative effect will be halved and fear immunity will be ignored.
 		The damage will scale with your Mindpower.]], "tformat")
 t("Night Terror", "Night Terror", "talent name")
-t("terror", "terror", "_t")
 t("A formless terror that seems to cut through the air, and its victims, like a knife.", "A formless terror that seems to cut through the air, and its victims, like a knife.", "_t")
 t("Night Terror", "Night Terror", "_t")
 t([[Increases your damage and resistance penetration on sleeping targets by %d%%.  Additionally, every time you slay a sleeping target, a Night Terror will be summoned for %d turns.
@@ -27620,6 +27582,7 @@ t([[Focus your will into a powerful thrust of your telekinetically-wielded weapo
 section "mod-tome/data/talents/psionic/psionic.lua"
 
 t("other", "autre", "talent type")
+t("nightmare", "cauchemard", "talent type")
 -- texte non traduit
 --[==[
 t("psionic", "psionic", "talent category")
@@ -27652,7 +27615,6 @@ t("distortion", "distortion", "talent type")
 t("Distort reality with your mental energy.", "Distort reality with your mental energy.", "_t")
 t("Dream Smith", "Dream Smith", "talent type")
 t("Call the dream-forge hammer to smite your foes.", "Call the dream-forge hammer to smite your foes.", "_t")
-t("nightmare", "nightmare", "talent type")
 t("Manifest your enemies nightmares.", "Manifest your enemies nightmares.", "_t")
 t("Psychic Assault", "Psychic Assault", "talent type")
 t("Directly attack your opponents minds.", "Directly attack your opponents minds.", "_t")
@@ -28559,12 +28521,11 @@ t([[Entomb yourself in a wall of stone for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/eldritch-shield.lua"
 
-
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Eldritch Blow", "Eldritch Blow", "talent name")
 t("You cannot use Eldritch Blow without a shield!", "You cannot use Eldritch Blow without a shield!", "logPlayer")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t([[Channel eldritch forces into a melee attack, hitting the target with your weapon and shield for %d%% arcane damage.
 		If either attack hits, the target will be stunned for %d turns and you automatically Block.
 		The chance for the attack to stun increases with your Physical Power, but it is considered a magical attack and thus is resisted with spell save, rather than physical save.
@@ -28915,10 +28876,10 @@ t([[Your hiemal shield is stronger, taking %d%% less damage from all attacks.
 section "mod-tome/data/talents/spells/golem.lua"
 
 t("Knockback", "Repoussage", "talent name")
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Your golem cannot do that currently.", "Your golem cannot do that currently.", "logPlayer")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t([[Your golem rushes to the target, dealing %d%% damage and knocking it back.
 		Knockback chance will increase with talent level.
 		While rushing the golem becomes ethereal, passing harmlessly through creatures on the path to its target.]], [[Your golem rushes to the target, dealing %d%% damage and knocking it back.
@@ -29536,14 +29497,16 @@ t("On using Ghost Walk - Return, you create a portal that summons %d spirits aro
 section "mod-tome/data/talents/spells/spells.lua"
 
 t("spell", "contre les sorts", "talent category")
+t("fire", "feu", "talent type")
 t("water", "eau", "talent type")
+t("ice", "glace", "talent type")
+t("temporal", "temporel", "talent type")
 -- texte non traduit
 --[==[
 t("arcane", "arcane", "talent type")
 t("Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "_t")
 t("aether", "aether", "talent type")
 t("Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "_t")
-t("fire", "fire", "talent type")
 t("Harness the power of fire to burn your foes to ashes.", "Harness the power of fire to burn your foes to ashes.", "_t")
 t("wildfire", "wildfire", "talent type")
 t("Harness the power of wildfire to burn your foes to ashes.", "Harness the power of wildfire to burn your foes to ashes.", "_t")
@@ -29552,7 +29515,6 @@ t("Harness the power of the earth to protect and destroy.", "Harness the power o
 t("stone", "stone", "talent type")
 t("Harness the power of the stone to protect and destroy.", "Harness the power of the stone to protect and destroy.", "_t")
 t("Harness the power of water to drown your foes.", "Harness the power of water to drown your foes.", "_t")
-t("ice", "ice", "talent type")
 t("Harness the power of ice to freeze and shatter your foes.", "Harness the power of ice to freeze and shatter your foes.", "_t")
 t("air", "air", "talent type")
 t("Harness the power of the air to fry your foes.", "Harness the power of the air to fry your foes.", "_t")
@@ -29560,7 +29522,6 @@ t("storm", "storm", "talent type")
 t("Harness the power of the storm to incinerate your foes.", "Harness the power of the storm to incinerate your foes.", "_t")
 t("meta", "meta", "talent type")
 t("Meta spells alter the working of magic itself.", "Meta spells alter the working of magic itself.", "_t")
-t("temporal", "temporal", "talent type")
 t("The school of time manipulation.", "The school of time manipulation.", "_t")
 t("phantasm", "phantasm", "talent type")
 t("Control the power of tricks and illusions.", "Control the power of tricks and illusions.", "_t")
@@ -30131,7 +30092,8 @@ Requires a sling to use.]], "tformat")
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/archery.lua"
 
-
+t("%s resists the silence!", "%s resiste au silence!", "logSeen")
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("Shoot", "Shoot", "talent name")
@@ -30169,7 +30131,6 @@ t([[You fire countless shots into the sky to rain down around your target, infli
 If the primary target is marked, you consume the mark to fire a second volley of arrows for %d%% damage at no ammo cost.]], [[You fire countless shots into the sky to rain down around your target, inflicting %d%% weapon damage to all within radius %d.
 If the primary target is marked, you consume the mark to fire a second volley of arrows for %d%% damage at no ammo cost.]], "tformat")
 t("Called Shots", "Called Shots", "talent name")
-t("%s resists the silence!", "%s resists the silence!", "logSeen")
 t("%s resists the disarm!", "%s resists the disarm!", "logSeen")
 t("%s resists the slow!", "%s resists the slow!", "logSeen")
 t([[You fire a disabling shot at a target's throat (or equivalent), dealing %d%% weapon damage and silencing them for %d turns.
@@ -30188,7 +30149,6 @@ t([[You fire a crippling shot, doing %d%% damage and reducing your target's spee
 		The status power and status hit chance improve with your Accuracy.]], [[You fire a crippling shot, doing %d%% damage and reducing your target's speed by %d%% for 7 turns.
 		The status power and status hit chance improve with your Accuracy.]], "tformat")
 t("Pinning Shot", "Pinning Shot", "talent name")
-t("%s resists!", "%s resists!", "logSeen")
 t([[You fire a pinning shot, doing %d%% damage and pinning your target to the ground for %d turns.
 		The pinning chance increases with your Dexterity.]], [[You fire a pinning shot, doing %d%% damage and pinning your target to the ground for %d turns.
 		The pinning chance increases with your Dexterity.]], "tformat")
@@ -30327,7 +30287,7 @@ t("You fire multiple arrows at an area of %d radius, doing %d%% damage with each
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/buckler-training.lua"
 
-
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Buckler Expertise", "Buckler Expertise", "talent name")
@@ -30340,7 +30300,6 @@ t([[Allows shields to be equipped, using Cunning instead of strength as a requir
 			The chance to deflect increases with your Cunning.]], "tformat")
 t("Bash and Smash", "Bash and Smash", "talent name")
 t("You require a ranged weapon and a shield to use this talent.", "You require a ranged weapon and a shield to use this talent.", "logPlayer")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t("Bash an enemy in melee range with your shield (twice for talent level 5 or more), doing %d%% damage and knocking them back %d squares. You may then follow with a deadly short-range sling attack, dealing %d%% damage. The shield bash will use Dexterity instead of Strength for the shield's bonus damage.", "Bash an enemy in melee range with your shield (twice for talent level 5 or more), doing %d%% damage and knocking them back %d squares. You may then follow with a deadly short-range sling attack, dealing %d%% damage. The shield bash will use Dexterity instead of Strength for the shield's bonus damage.", "tformat")
 t("Buckler Mastery", "Buckler Mastery", "talent name")
 t(" At talent level 5, your Bash and Smash shield hits are guaranteed criticals.", " At talent level 5, your Bash and Smash shield hits are guaranteed criticals.", "_t")
@@ -30595,11 +30554,10 @@ t([[You fire a shot at your target's throat, mouth, or equivalent body part, doi
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/field-control.lua"
 
-
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Heave", "Heave", "talent name")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t([[A mighty kick that pushes your target away %d grids.
 		If another creature is in the way, it will also be pushed away.
 		The Knockback chance increases with your Accuracy or your Physical Power, whichever is greater.]], [[A mighty kick that pushes your target away %d grids.
@@ -30613,12 +30571,11 @@ t("Your great dexterity allows you to see incoming projectiles (spells, arrows, 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/finishing-moves.lua"
 
-
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Uppercut", "Uppercut", "talent name")
 t("@Source@ throws a finishing uppercut.", "@Source@ throws a finishing uppercut.", "_t")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t([[A finishing uppercut that deals %d%% damage, and attempts to stun your target for %d to %d turns, depending on the amount of combo points you've accumulated.
 		The stun chance will improve with your Physical Power.
 		Using this talent removes your combo points.]], [[A finishing uppercut that deals %d%% damage, and attempts to stun your target for %d to %d turns, depending on the amount of combo points you've accumulated.
@@ -30960,7 +30917,8 @@ t("Your Shoot talent now costs %d stamina but fires %d times for %d%% damage per
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/sling.lua"
 
-
+t("%s resists!", "%s résiste!", "logSeen")
+t("%s is knocked back!", "%s est repoussé!", "logSeen")
 -- texte non traduit
 --[==[
 t("Sling Mastery", "Sling Mastery", "talent name")
@@ -30968,13 +30926,11 @@ t([[Increases weapon damage by %d%% and physical power by 30 when using slings.
 		Also, increases your reload rate by %d.]], [[Increases weapon damage by %d%% and physical power by 30 when using slings.
 		Also, increases your reload rate by %d.]], "tformat")
 t("Eye Shot", "Eye Shot", "talent name")
-t("%s resists!", "%s resists!", "logSeen")
 t("You must wield a sling!", "You must wield a sling!", "logPlayer")
 t([[You fire a shot into your target's eyes, blinding it for %d turns and doing %d%% damage.
 		The blind chance increases with your Accuracy.]], [[You fire a shot into your target's eyes, blinding it for %d turns and doing %d%% damage.
 		The blind chance increases with your Accuracy.]], "tformat")
 t("Inertial Shot", "Inertial Shot", "talent name")
-t("%s is knocked back!", "%s is knocked back!", "logSeen")
 t("%s stands firm!", "%s stands firm!", "logSeen")
 t([[You fire a mighty shot at your target, doing %d%% damage and knocking it back.
 		The knockback chance increases with your Accuracy.]], [[You fire a mighty shot at your target, doing %d%% damage and knocking it back.
@@ -31397,7 +31353,7 @@ t([[Your battle cry shatters the will of your foes within a radius of %d, loweri
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/weaponshield.lua"
 
-
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
 -- nouveau texte
 --[==[
 t([[Improves your ability to perform counterstrikes after blocks in the following ways:
@@ -31436,7 +31392,6 @@ t([[Enter a protective battle stance allowing you to defend yourself more profic
 		The Armor and Block bonuses increase equally with your Dexterity and Strength.]], "tformat")
 t("Repulsion", "Repulsion", "talent name")
 t("You cannot use Repulsion without a shield!", "You cannot use Repulsion without a shield!", "logPlayer")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t([[Smash your shield into the face of all adjacent foes dealing %d%% shield damage and knocking them back %d grids.
 		In addition, all creatures knocked back will also be dazed for %d turns.
 		If known, activating this talent will refresh your Rush cooldown if the attack hits.
@@ -31998,7 +31953,7 @@ t("other", "autre", "_t")
 ------------------------------------------------
 section "mod-tome/data/talents/uber/wil.lua"
 
-
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Draconic Will", "Draconic Will", "talent name")
@@ -32008,7 +31963,6 @@ t([[Your body is like that of a drake, easily resisting detrimental effects.
 		For 5 turns, no detrimental effects may target you.]], "tformat")
 t("Meteoric Crash", "Meteoric Crash", "talent name")
 t("Have witnessed a meteoric crash", "Have witnessed a meteoric crash", "_t")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t([[When casting damaging spells or mind attacks, the release of your willpower can call forth a meteor to crash down near your foes.
 		The meteor deals %0.2f fire and %0.2f physical damage in radius 2 and stuns enemies for 3 turns.
 		Lava is created in radius 3 around the impact dealing %0.2f fire damage per turn for 8 turns.  This will overwrite tiles that already have modified terrain.
@@ -35767,13 +35721,27 @@ t("The target is walking on slime. Decreasing movement speed by 20% and dealing 
 ------------------------------------------------
 section "mod-tome/data/timed_effects/magical.lua"
 
+t("blight", "maladie", "effect subtype")
+t("stun", "assommé", "effect subtype")
+t("fire", "feu", "effect subtype")
+t("lightning", "foudre", "effect subtype")
+t("confusion", "confus", "effect subtype")
+t("light", "lumière", "effect subtype")
+t("darkness", "obscurité", "effect subtype")
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide!", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
+t("temporal", "temporel", "effect subtype")
+t("slow", "ralentissement", "effect subtype")
+t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
+t("ice", "glace", "effect subtype")
+t("cold", "froid", "effect subtype")
 t("water", "eau", "effect subtype")
 t("undead", "mort-vivant", "effect subtype")
+t("bleed", "saignement", "effect subtype")
 t("physical", "physique", "effect subtype")
 t("skeleton", "squelette", "effect subtype")
 t("movement", "mouvement", "effect subtype")
+t("gravity", "gravité", "effect subtype")
 -- nouveau texte
 --[==[
 t("#Target# summons a prismatic shield for protection!", "#Target# summons a prismatic shield for protection!", "_t")
@@ -35786,7 +35754,6 @@ t("plop", "plop", "log")
 -- texte non traduit
 --[==[
 t("disease", "disease", "effect subtype")
-t("blight", "blight", "effect subtype")
 t("Illness", "Illness", "_t")
 t("The target is infected by a disease, reducing its dexterity, strength, and constitution by %d.", "The target is infected by a disease, reducing its dexterity, strength, and constitution by %d.", "tformat")
 t("#Target# is afflicted by a crippling illness!", "#Target# is afflicted by a crippling illness!", "_t")
@@ -35812,7 +35779,6 @@ t("#Target# stops overflowing mana.", "#Target# stops overflowing mana.", "_t")
 t("-Mana Overflow", "-Mana Overflow", "_t")
 t("earth", "earth", "effect subtype")
 t("stone", "stone", "effect subtype")
-t("stun", "stun", "effect subtype")
 t("Stoned", "Stoned", "_t")
 t("The target has been turned to stone: it is rooted in place, unable to act, and may be shattered by a single blow dealing more than 30% of its maximum life.  It's new form makes it immune to being poisoned or cut, and grants improved physical(+20%), fire(+80%) and lightning(+50%) resistances.", "The target has been turned to stone: it is rooted in place, unable to act, and may be shattered by a single blow dealing more than 30% of its maximum life.  It's new form makes it immune to being poisoned or cut, and grants improved physical(+20%), fire(+80%) and lightning(+50%) resistances.", "_t")
 t("#Target# turns to #GREY#STONE#LAST#!", "#Target# turns to #GREY#STONE#LAST#!", "_t")
@@ -35827,7 +35793,6 @@ t("#Target# hardens its skin.", "#Target# hardens its skin.", "_t")
 t("+Earthen barrier", "+Earthen barrier", "_t")
 t("#Target#'s skin returns to normal.", "#Target#'s skin returns to normal.", "_t")
 t("-Earthen barrier", "-Earthen barrier", "_t")
-t("fire", "fire", "effect subtype")
 t("Molten Skin", "Molten Skin", "_t")
 t("Reduces fire damage received by %d%%.", "Reduces fire damage received by %d%%.", "tformat")
 t("#Target#'s skin turns into molten lava.", "#Target#'s skin turns into molten lava.", "_t")
@@ -35856,7 +35821,6 @@ t("#Target# becomes ethereal.", "#Target# becomes ethereal.", "_t")
 t("+Ethereal", "+Ethereal", "_t")
 t("#Target# is no longer ethereal.", "#Target# is no longer ethereal.", "_t")
 t("-Ethereal", "-Ethereal", "_t")
-t("lightning", "lightning", "effect subtype")
 t("shield", "shield", "effect subtype")
 t("Stormshield", "Stormshield", "_t")
 t("The target is protected a raging storm deflecting up to %d instances of damage over %d.", "The target is protected a raging storm deflecting up to %d instances of damage over %d.", "tformat")
@@ -35894,7 +35858,6 @@ t("#Target# loses sight!", "#Target# loses sight!", "_t")
 t("+Blind", "+Blind", "_t")
 t("#Target# recovers sight.", "#Target# recovers sight.", "_t")
 t("-Blind", "-Blind", "_t")
-t("confusion", "confusion", "effect subtype")
 t("Bane of Confusion", "Bane of Confusion", "_t")
 t("The target is confused, acting randomly (chance %d%%), unable to perform complex actions and takes %0.2f darkness damage per turn.", "The target is confused, acting randomly (chance %d%%), unable to perform complex actions and takes %0.2f darkness damage per turn.", "tformat")
 t("#Target# wanders around!", "#Target# wanders around!", "_t")
@@ -35937,7 +35900,6 @@ t("A shield forms around #target#.", "A shield forms around #target#.", "_t")
 t("+Shield", "+Shield", "_t")
 t("The shield around #target# crumbles.", "The shield around #target# crumbles.", "_t")
 t("-Shield", "-Shield", "_t")
-t("light", "light", "effect subtype")
 t("Martyrdom", "Martyrdom", "_t")
 t("All damage done by the target will also hurt it for %d%%.", "All damage done by the target will also hurt it for %d%%.", "tformat")
 t("#Target# is a martyr.", "#Target# is a martyr.", "_t")
@@ -35962,7 +35924,6 @@ t("Curse of Impotence", "Curse of Impotence", "_t")
 t("The target is cursed, reducing all damage done by %d%%.", "The target is cursed, reducing all damage done by %d%%.", "tformat")
 t("Curse of Defenselessness", "Curse of Defenselessness", "_t")
 t("The target is cursed, reducing defence and all saves by %d.", "The target is cursed, reducing defence and all saves by %d.", "tformat")
-t("darkness", "darkness", "effect subtype")
 t("Curse of Death", "Curse of Death", "_t")
 t("The target is cursed, taking %0.2f darkness damage per turn and preventing natural life regeneration.", "The target is cursed, taking %0.2f darkness damage per turn and preventing natural life regeneration.", "tformat")
 t("Curse of Hate", "Curse of Hate", "_t")
@@ -36044,7 +36005,6 @@ t("Blazing Light", "Blazing Light", "_t")
 t("The target is gaining %d positive energy each turn.", "The target is gaining %d positive energy each turn.", "tformat")
 t("Warding", "Warding", "_t")
 t("Projectiles aimed at the target are slowed by %d%%.", "Projectiles aimed at the target are slowed by %d%%.", "tformat")
-t("temporal", "temporal", "effect subtype")
 t("Turn Back the Clock", "Turn Back the Clock", "_t")
 t("The target has been returned to a much younger state, reducing all its stats by %d.", "The target has been returned to a much younger state, reducing all its stats by %d.", "tformat")
 t("#Target# is returned to a much younger state!", "#Target# is returned to a much younger state!", "_t")
@@ -36186,7 +36146,6 @@ t("#Target# looks more determined.", "#Target# looks more determined.", "_t")
 t("-Woeful Darkness", "-Woeful Darkness", "_t")
 t("Woeful Corrosion", "Woeful Corrosion", "_t")
 t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "The target has been splashed with acid, taking %0.2f acid damage per turn.", "tformat")
-t("slow", "slow", "effect subtype")
 t("Woeful Cripple", "Woeful Cripple", "_t")
 t("The target is crippled, reducing melee, spellcasting and mind speed by %d%%.", "The target is crippled, reducing melee, spellcasting and mind speed by %d%%.", "tformat")
 t("#Target# is crippled.", "#Target# is crippled.", "_t")
@@ -36282,7 +36241,6 @@ t("#Target# starts to attract all creatures around!", "#Target# starts to attrac
 t("+Irresistible Sun", "+Irresistible Sun", "_t")
 t("#Target# is no longer attracting creatures.", "#Target# is no longer attracting creatures.", "_t")
 t("-Irresistible Sun", "-Irresistible Sun", "_t")
-t("%s is pulled in!", "%s is pulled in!", "logSeen")
 t("Weight of the Sun", "Weight of the Sun", "_t")
 t("#Target# can barely stand!", "#Target# can barely stand!", "_t")
 t("+Weight of the Sun", "+Weight of the Sun", "_t")
@@ -36300,7 +36258,6 @@ t("#Target# turns into a losgoroth!", "#Target# turns into a losgoroth!", "_t")
 t("+Corrupted Losgoroth Form", "+Corrupted Losgoroth Form", "_t")
 t("#Target# is no longer transformed.", "#Target# is no longer transformed.", "_t")
 t("-Corrupted Losgoroth Form", "-Corrupted Losgoroth Form", "_t")
-t("ice", "ice", "effect subtype")
 t("Shivgoroth Form", "Shivgoroth Form", "_t")
 t("The target assumes the form of a shivgoroth.", "The target assumes the form of a shivgoroth.", "tformat")
 t("#Target# turns into a shivgoroth!", "#Target# turns into a shivgoroth!", "_t")
@@ -36316,7 +36273,6 @@ t("Born into Magic", "Born into Magic", "_t")
 t("%s damage increased by 20%%.", "%s damage increased by 20%%.", "tformat")
 t("Essence of the Dead", "Essence of the Dead", "_t")
 t("The target consumed souls to gain new powers. %d spells affected.", "The target consumed souls to gain new powers. %d spells affected.", "tformat")
-t("cold", "cold", "effect subtype")
 t("armour", "armour", "effect subtype")
 t("Ice Armour", "Ice Armour", "_t")
 t("The target is covered in a layer of ice. Its armour is increased by %d, it deals %0.1f Cold damage to attackers that hit in melee, and 50%% of its damage is converted to cold.", "The target is covered in a layer of ice. Its armour is increased by %d, it deals %0.1f Cold damage to attackers that hit in melee, and 50%% of its damage is converted to cold.", "tformat")
@@ -36587,7 +36543,6 @@ t("#Target# speeds down outside of the retch.", "#Target# speeds down outside of
 t("-Retched", "-Retched", "_t")
 t("wound", "wound", "effect subtype")
 t("cut", "cut", "effect subtype")
-t("bleed", "bleed", "effect subtype")
 t("Shadow Cut", "Shadow Cut", "_t")
 t("Huge shadow cut that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "Huge shadow cut that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "tformat")
 t("#Target# starts to bleed darkness.", "#Target# starts to bleed darkness.", "_t")
@@ -36710,7 +36665,6 @@ t("Dirge of Pestilence", "Dirge of Pestilence", "_t")
 t("The target will gain a shield upon suffering a detrimental effect", "The target will gain a shield upon suffering a detrimental effect", "tformat")
 t("Blinding Light", "Blinding Light", "_t")
 t("The target is blinded by a magical light and unable to see anything.", "The target is blinded by a magical light and unable to see anything.", "tformat")
-t("gravity", "gravity", "effect subtype")
 t("Devourer Stance", "Devourer Stance", "_t")
 t("The target is storing up healing energy, currently %d", "The target is storing up healing energy, currently %d", "tformat")
 t("The target is redirecting energy, adding %d gravity damage to their attacks.%s", "The target is redirecting energy, adding %d gravity damage to their attacks.%s", "tformat")
@@ -36720,18 +36674,26 @@ t("The target is redirecting energy, adding %d gravity damage to their attacks.%
 ------------------------------------------------
 section "mod-tome/data/timed_effects/mental.lua"
 
+t("darkness", "obscurité", "effect subtype")
+t("confusion", "confus", "effect subtype")
+t("slow", "ralentissement", "effect subtype")
+t("stun", "assommé", "effect subtype")
+t("nightmare", "cauchemard", "effect subtype")
 t("summon", "invocation", "effect subtype")
 t("all", "tout", "_t")
 t("Sleep", "Sommeil", "_t")
 t("Nightmare", "Cauchemar", "_t")
+t("mind", "esprit", "effect subtype")
+t("lightning", "foudre", "effect subtype")
 t("physical", "physique", "effect subtype")
+t("fire", "feu", "effect subtype")
+t("cold", "froid", "effect subtype")
 -- texte non traduit
 --[==[
 t("Exposed", "Exposed", "_t")
 t("Mind and body exposed to effects and attacks, reducing all saves and defense by %d.", "Mind and body exposed to effects and attacks, reducing all saves and defense by %d.", "tformat")
 t("#Target#'s is vulnerable to attacks and effects!", "#Target#'s is vulnerable to attacks and effects!", "_t")
 t("#Target# is less vulnerable.", "#Target# is less vulnerable.", "_t")
-t("darkness", "darkness", "effect subtype")
 t("Numbing Darkness", "Numbing Darkness", "_t")
 t("The target is losing hope, all damage it does is reduced by %d%%.", "The target is losing hope, all damage it does is reduced by %d%%.", "tformat")
 t("#Target# is weakened by the darkness!", "#Target# is weakened by the darkness!", "_t")
@@ -36750,7 +36712,6 @@ t("Pheromones", "Pheromones", "_t")
 t("The target has been marked as the focus for all nature summons within %d radius, receiving %d%% increased damage from nature summons.", "The target has been marked as the focus for all nature summons within %d radius, receiving %d%% increased damage from nature summons.", "tformat")
 t("Summons flock towards #Target#.", "Summons flock towards #Target#.", "_t")
 t("#Target# is no longer being targeted by summons.", "#Target# is no longer being targeted by summons.", "_t")
-t("confusion", "confusion", "effect subtype")
 t("Confused", "Confused", "_t")
 t("The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "tformat")
 t("#Target# wanders around!", "#Target# wanders around!", "_t")
@@ -36786,14 +36747,12 @@ t("Gloom Weakness", "Gloom Weakness", "_t")
 t("The gloom reduces damage the target inflicts by %d%%.", "The gloom reduces damage the target inflicts by %d%%.", "tformat")
 t("#F53CBE##Target# is weakened by the gloom.", "#F53CBE##Target# is weakened by the gloom.", "_t")
 t("#F53CBE##Target# is no longer weakened.", "#F53CBE##Target# is no longer weakened.", "_t")
-t("slow", "slow", "effect subtype")
 t("Slowed by the gloom", "Slowed by the gloom", "_t")
 t("The gloom reduces the target's global speed by %d%%.", "The gloom reduces the target's global speed by %d%%.", "tformat")
 t("#F53CBE##Target# moves reluctantly!", "#F53CBE##Target# moves reluctantly!", "_t")
 t("+Slow", "+Slow", "_t")
 t("#Target# overcomes the gloom.", "#Target# overcomes the gloom.", "_t")
 t("-Slow", "-Slow", "_t")
-t("stun", "stun", "effect subtype")
 t("Stunned by the gloom", "Stunned by the gloom", "_t")
 t("The gloom has stunned the target, reducing damage by 50%%, putting 4 random talents on cooldown and reducing movement speed by 50%%.  While stunned talents cooldown twice as slow.", "The gloom has stunned the target, reducing damage by 50%%, putting 4 random talents on cooldown and reducing movement speed by 50%%.  While stunned talents cooldown twice as slow.", "tformat")
 t("#F53CBE##Target# is stunned with fear!", "#F53CBE##Target# is stunned with fear!", "_t")
@@ -36991,7 +36950,6 @@ t("#Target# is being driven mad by the void.", "#Target# is being driven mad by 
 t("+Void Echoes", "+Void Echoes", "_t")
 t("#Target# has survived the void madness.", "#Target# has survived the void madness.", "_t")
 t("-Void Echoes", "-Void Echoes", "_t")
-t("nightmare", "nightmare", "effect subtype")
 t("Waking Nightmare", "Waking Nightmare", "_t")
 t("The target is lost in a nightmare that deals %0.2f darkness damage each turn and has a %d%% chance to cause a random detrimental effect.", "The target is lost in a nightmare that deals %0.2f darkness damage each turn and has a %d%% chance to cause a random detrimental effect.", "tformat")
 t("#F53CBE##Target# is lost in a nightmare.", "#F53CBE##Target# is lost in a nightmare.", "_t")
@@ -37175,7 +37133,6 @@ t("#Target# is surrounded by antimagic forces.", "#Target# is surrounded by anti
 t("+Spell Feedback", "+Spell Feedback", "_t")
 t("#Target#'s antimagic forces vanishes.", "#Target#'s antimagic forces vanishes.", "_t")
 t("-Spell Feedback", "-Spell Feedback", "_t")
-t("mind", "mind", "effect subtype")
 t("Mind Parasite", "Mind Parasite", "_t")
 t("The target is infected with a mind parasite. Each time it uses a talent it has a %d%% chance to have %d random talent(s) put on cooldown for %d turns.", "The target is infected with a mind parasite. Each time it uses a talent it has a %d%% chance to have %d random talent(s) put on cooldown for %d turns.", "tformat")
 t("#Target# is infected with a mind parasite.", "#Target# is infected with a mind parasite.", "_t")
@@ -37200,15 +37157,12 @@ t("Target is using %s telekinetically wielded weapon defensively and will block 
 t("#CRIMSON##Source# blocks #Target#'s attack and retaliates with %s telekinetically wielded weapon!#LAST#", "#CRIMSON##Source# blocks #Target#'s attack and retaliates with %s telekinetically wielded weapon!#LAST#", "logCombat")
 t("Thought Sense", "Thought Sense", "_t")
 t("Detect nearby thoughts, revealing creature locations in a radius of %d and boosting defense by %d.", "Detect nearby thoughts, revealing creature locations in a radius of %d and boosting defense by %d.", "tformat")
-t("lightning", "lightning", "effect subtype")
 t("Static Charge", "Static Charge", "_t")
 t("You have accumulated an electric charge. Your next melee hit does %d extra lightning damage.", "You have accumulated an electric charge. Your next melee hit does %d extra lightning damage.", "tformat")
 t("Heart Started", "Heart Started", "_t")
 t("A psionic charge is keeping your heart pumping, allowing you to survive to %+d health.", "A psionic charge is keeping your heart pumping, allowing you to survive to %+d health.", "tformat")
 t("Transcendent Telekinesis", "Transcendent Telekinesis", "_t")
 t("Your telekinesis transcends normal limits. +%d Physical damage and +%d%% Physical damage penetration, and improved kinetic effects.", "Your telekinesis transcends normal limits. +%d Physical damage and +%d%% Physical damage penetration, and improved kinetic effects.", "tformat")
-t("fire", "fire", "effect subtype")
-t("cold", "cold", "effect subtype")
 t("Transcendent Pyrokinesis", "Transcendent Pyrokinesis", "_t")
 t("Your pyrokinesis transcends normal limits. +%d%% Fire/Cold damage and +%d%% Fire/Cold damage penetration, and improved thermal effects.", "Your pyrokinesis transcends normal limits. +%d%% Fire/Cold damage and +%d%% Fire/Cold damage penetration, and improved thermal effects.", "tformat")
 t("Transcendent Electrokinesis", "Transcendent Electrokinesis", "_t")
@@ -37239,16 +37193,21 @@ t("-Vampire Mark", "-Vampire Mark", "_t")
 ------------------------------------------------
 section "mod-tome/data/timed_effects/other.lua"
 
+t("darkness", "obscurité", "effect subtype")
 t("Madness", "Folie", "_t")
 t("Nightmare", "Cauchemar", "_t")
+t("fire", "feu", "effect subtype")
 t("Something", "Quelque chose", "_t")
 t("undead", "mort-vivant", "effect subtype")
 t("suffocating", "s'etouffe", "effect subtype")
 t("antimagic", "anti-magie", "effect subtype")
 t("Swift Hands", "Mains rapides", "_t")
+t("temporal", "temporel", "effect subtype")
 t("Unstoppable", "Inarrêtable", "_t")
+t("mind", "esprit", "effect subtype")
 t("Flare", "Eclat", "_t")
 t("unknown", "inconnu", "effect subtype")
+t("bleed", "saignement", "effect subtype")
 -- nouveau texte
 --[==[
 t("dirge", "dirge", "effect subtype")
@@ -37393,7 +37352,6 @@ t("#Target# has partially removed itself from the timeline.", "#Target# has part
 t("+Fade From Time", "+Fade From Time", "_t")
 t("#Target# has returned fully to the timeline.", "#Target# has returned fully to the timeline.", "_t")
 t("-Fade From Time", "-Fade From Time", "_t")
-t("darkness", "darkness", "effect subtype")
 t("Shadow Veil", "Shadow Veil", "_t")
 t("You veil yourself in shadows and let them control you. While in the veil you become immune to status effects, and gain %d%% all damage reduction. Each turn you blink to a nearby foe within range %d, hitting it for %d%% darkness weapon damage. While this goes on you cannot be stopped unless you are killed, and you cannot control your character.", "You veil yourself in shadows and let them control you. While in the veil you become immune to status effects, and gain %d%% all damage reduction. Each turn you blink to a nearby foe within range %d, hitting it for %d%% darkness weapon damage. While this goes on you cannot be stopped unless you are killed, and you cannot control your character.", "tformat")
 t("#Target# is covered in a veil of shadows!", "#Target# is covered in a veil of shadows!", "_t")
@@ -37571,7 +37529,6 @@ t("Zone-wide effect: +10% nature damage, -10% nature resistance, -10% ranged def
 t("vault", "vault", "effect subtype")
 t("In Vault", "In Vault", "_t")
 t("The target is part of a vault and cannot act until it has been openend.", "The target is part of a vault and cannot act until it has been openend.", "_t")
-t("fire", "fire", "effect subtype")
 t("Cauterize", "Cauterize", "_t")
 t("Your body is cauterizing, burning for %0.2f damage each turn.", "Your body is cauterizing, burning for %0.2f damage each turn.", "tformat")
 t("#CRIMSON##Target# is wreathed in flames on the brink of death!", "#CRIMSON##Target# is wreathed in flames on the brink of death!", "_t")
@@ -37636,7 +37593,6 @@ t("Reality smears around #Target#.", "Reality smears around #Target#.", "_t")
 t("+Smearing", "+Smearing", "_t")
 t("Reality around #Target# is coherent again.", "Reality around #Target# is coherent again.", "_t")
 t("-Smearing", "-Smearing", "_t")
-t("temporal", "temporal", "effect subtype")
 t("Aeons Stasis", "Aeons Stasis", "_t")
 t("The target is in temporal stasis.", "The target is in temporal stasis.", "_t")
 t("#Target#'s is back to the normal timeflow.", "#Target#'s is back to the normal timeflow.", "_t")
@@ -37660,7 +37616,6 @@ t("Warden's Focus Target", "Warden's Focus Target", "_t")
 t("%s is focusing on this target.", "%s is focusing on this target.", "tformat")
 t("+Warden's Focus", "+Warden's Focus", "_t")
 t("-Warden's Focus", "-Warden's Focus", "_t")
-t("mind", "mind", "effect subtype")
 t("Death in a Dream", "Death in a Dream", "_t")
 t("The target had breathed in noxious sleep-induced fumes and is losing %d life per turn.", "The target had breathed in noxious sleep-induced fumes and is losing %d life per turn.", "tformat")
 t("killed in a dream", "killed in a dream", "_t")
@@ -37776,7 +37731,6 @@ t("Reduces Blood Rush cooldown if killed", "Reduces Blood Rush cooldown if kille
 t("magic", "magic", "effect subtype")
 t("Lights Out", "Lights Out", "_t")
 t("The target is cut off from the sun", "The target is cut off from the sun", "_t")
-t("bleed", "bleed", "effect subtype")
 t("Self-Judgement", "Self-Judgement", "_t")
 t("Your body is bleeding, losing %0.2f life each turn.", "Your body is bleeding, losing %0.2f life each turn.", "tformat")
 t("#CRIMSON##Target# is torn open by the powerful blow!", "#CRIMSON##Target# is torn open by the powerful blow!", "_t")
@@ -37791,11 +37745,20 @@ t("#CRIMSON#%d Bleed #LAST#", "#CRIMSON#%d Bleed #LAST#", "tformat")
 ------------------------------------------------
 section "mod-tome/data/timed_effects/physical.lua"
 
+t("bleed", "saignement", "effect subtype")
+t("healing", "soin", "effect subtype")
+t("fire", "feu", "effect subtype")
+t("stun", "assommé", "effect subtype")
+t("slow", "ralentissement", "effect subtype")
+t("cold", "froid", "effect subtype")
 t("antimagic", "anti-magie", "effect subtype")
 t(" and ", " et ", "_t")
+t("lightning", "foudre", "effect subtype")
+t("light", "lumière", "effect subtype")
 t("something", "quelque chose", "_t")
 t("Something", "Quelque chose", "_t")
 t("physical", "physique", "effect subtype")
+t("darkness", "obscurité", "effect subtype")
 -- nouveau texte
 --[==[
 t("The target is brutalized, reducing bleed resist by 50%%.", "The target is brutalized, reducing bleed resist by 50%%.", "tformat")
@@ -37835,7 +37798,6 @@ t("#Target# regains their concentration.", "#Target# regains their concentration
 t("-Concussion", "-Concussion", "_t")
 t("wound", "wound", "effect subtype")
 t("cut", "cut", "effect subtype")
-t("bleed", "bleed", "effect subtype")
 t("Bleeding", "Bleeding", "_t")
 t("Huge cut that bleeds, doing %0.2f physical damage per turn.", "Huge cut that bleeds, doing %0.2f physical damage per turn.", "tformat")
 t("#Target# starts to bleed.", "#Target# starts to bleed.", "_t")
@@ -37849,7 +37811,6 @@ t("+Deep Wounds", "+Deep Wounds", "_t")
 t("#Target#'s deep wound closes.", "#Target#'s deep wound closes.", "_t")
 t("-Deep Wounds", "-Deep Wounds", "_t")
 t("nature", "nature", "effect subtype")
-t("healing", "healing", "effect subtype")
 t("regeneration", "regeneration", "effect subtype")
 t("Regeneration", "Regeneration", "_t")
 t("A flow of life spins around the target, regenerating %0.2f life per turn.", "A flow of life spins around the target, regenerating %0.2f life per turn.", "tformat")
@@ -37891,14 +37852,12 @@ t("+Stoning Poison", "+Stoning Poison", "_t")
 t("#Target# is free of the stone poison!", "#Target# is free of the stone poison!", "_t")
 t("-Stoning Poison", "-Stoning Poison", "_t")
 t("#GREY#%s looks stony for a moment, but resists the transformation.", "#GREY#%s looks stony for a moment, but resists the transformation.", "logSeen")
-t("fire", "fire", "effect subtype")
 t("Burning", "Burning", "_t")
 t("The target is on fire, taking %0.2f fire damage per turn.", "The target is on fire, taking %0.2f fire damage per turn.", "tformat")
 t("#Target# is on fire!", "#Target# is on fire!", "_t")
 t("+Burn", "+Burn", "_t")
 t("#Target# stops burning.", "#Target# stops burning.", "_t")
 t("-Burn", "-Burn", "_t")
-t("stun", "stun", "effect subtype")
 t("Burning Shock", "Burning Shock", "_t")
 t("The target is on fire, taking %0.2f fire damage per turn, reducing damage by 50%%, putting 4 random talents on cooldown and reducing movement speed by 50%%. While flameshocked talents cooldown twice as slow.", "The target is on fire, taking %0.2f fire damage per turn, reducing damage by 50%%, putting 4 random talents on cooldown and reducing movement speed by 50%%. While flameshocked talents cooldown twice as slow.", "tformat")
 t("#Target# is stunned by the burning flame!", "#Target# is stunned by the burning flame!", "_t")
@@ -37946,7 +37905,6 @@ t("#Target# speeds up.", "#Target# speeds up.", "_t")
 t("+Fast", "+Fast", "_t")
 t("#Target# slows down.", "#Target# slows down.", "_t")
 t("-Fast", "-Fast", "_t")
-t("slow", "slow", "effect subtype")
 t("Slow", "Slow", "_t")
 t("Reduces global action speed by %d%%.", "Reduces global action speed by %d%%.", "tformat")
 t("+Slow", "+Slow", "_t")
@@ -37966,7 +37924,6 @@ t("#Target#'s skin looks a bit thorny.", "#Target#'s skin looks a bit thorny.", 
 t("+Thorny Skin", "+Thorny Skin", "_t")
 t("#Target# is less thorny now.", "#Target# is less thorny now.", "_t")
 t("-Thorny Skin", "-Thorny Skin", "_t")
-t("cold", "cold", "effect subtype")
 t("Frozen Feet", "Frozen Feet", "_t")
 t("The target is frozen on the ground, able to act freely but not move.", "The target is frozen on the ground, able to act freely but not move.", "_t")
 t("#Target# is frozen to the ground!", "#Target# is frozen to the ground!", "_t")
@@ -38080,7 +38037,6 @@ t("Movement is %d%% faster.", "Movement is %d%% faster.", "tformat")
 t("#Target# prepares for the next kill!", "#Target# prepares for the next kill!", "_t")
 t("+Step Up", "+Step Up", "_t")
 t("-Step Up", "-Step Up", "_t")
-t("lightning", "lightning", "effect subtype")
 t("Lightning Speed", "Lightning Speed", "_t")
 t("Turn into pure lightning, moving %d%% faster. It also increases your lightning resistance by 100%% and your physical resistance by 30%%.", "Turn into pure lightning, moving %d%% faster. It also increases your lightning resistance by 100%% and your physical resistance by 30%%.", "tformat")
 t("#Target# turns into pure lightning!", "#Target# turns into pure lightning!", "_t")
@@ -38261,7 +38217,6 @@ t("+Cursed Wound", "+Cursed Wound", "_t")
 t("#Target# no longer has a cursed wound.", "#Target# no longer has a cursed wound.", "_t")
 t("-Cursed Wound", "-Cursed Wound", "_t")
 t("%s has re-opened a cursed wound!", "%s has re-opened a cursed wound!", "logSeen")
-t("light", "light", "effect subtype")
 t("Luminescence ", "Luminescence ", "_t")
 t("The target has been revealed, reducing its stealth power by %d.", "The target has been revealed, reducing its stealth power by %d.", "tformat")
 t("#Target# has been illuminated.", "#Target# has been illuminated.", "_t")
@@ -38468,7 +38423,6 @@ t("Dirty Fighting", "Dirty Fighting", "_t")
 t("The target is reeling in pain. Stun, pin, blindness, and confusion immunity are halved and physical save is reduced by %d.", "The target is reeling in pain. Stun, pin, blindness, and confusion immunity are halved and physical save is reduced by %d.", "tformat")
 t("+Dirty Fighting", "+Dirty Fighting", "_t")
 t("-Dirty Fighting", "-Dirty Fighting", "_t")
-t("darkness", "darkness", "effect subtype")
 t("Soothing Darkness", "Soothing Darkness", "_t")
 t("The target is wreathed in shadows, increasing life regeneration by %0.1f", "The target is wreathed in shadows, increasing life regeneration by %0.1f", "tformat")
 t(", stamina regeneration by %0.1f and all damage resistance by %d%%.", ", stamina regeneration by %0.1f and all damage resistance by %d%%.", "tformat")
@@ -39262,16 +39216,15 @@ t("The rift is too unstable to cross it.", "The rift is too unstable to cross it
 ------------------------------------------------
 section "mod-tome/data/zones/daikara/npcs.lua"
 
-
+t("ice", "glace", "entity subtype")
+t("fire", "feu", "entity subtype")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("ice", "ice", "entity subtype")
 t("Rantha the Worm", "Rantha the Worm", "entity name")
 t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...", "Claws and teeth. Ice and death. Dragons are not all extinct it seems...", "_t")
 t("and fed to the hatchlings", "and fed to the hatchlings", "_t")
 t("I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "_t")
-t("fire", "fire", "entity subtype")
 t("Varsha the Writhing", "Varsha the Writhing", "entity name")
 t("Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "_t")
 t("Massok the Dragonslayer", "Massok the Dragonslayer", "entity name")
@@ -40119,6 +40072,7 @@ section "mod-tome/data/zones/infinite-dungeon/grids.lua"
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
 t("underground", "souterrain", "entity subtype")
+t("burnt", "consumé", "entity subtype")
 t("floor", "sol", "entity type")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
@@ -40130,7 +40084,6 @@ t("crystal", "crystal", "entity subtype")
 t("sand", "sand", "entity subtype")
 t("autumn_grass", "autumn_grass", "entity subtype")
 t("lava", "lava", "entity subtype")
-t("burnt", "burnt", "entity subtype")
 t("burnt passage", "burnt passage", "entity name")
 t("snowy_grass", "snowy_grass", "entity subtype")
 t("snowy grass", "snowy grass", "entity name")
@@ -40795,11 +40748,10 @@ t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/paradox-plane/npcs.lua"
 
-
+t("temporal", "temporel", "entity subtype")
 -- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
-t("temporal", "temporal", "entity subtype")
 t("Epoch", "Epoch", "entity name")
 t("A huge being composed of sparking blue and yellow energy stands before you.  It shifts and flows as it moves, at once erratic and graceful.", "A huge being composed of sparking blue and yellow energy stands before you.  It shifts and flows as it moves, at once erratic and graceful.", "_t")
 --]==]
@@ -41953,9 +41905,9 @@ t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
 section "mod-tome/data/zones/temporal-rift/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("temporal", "temporel", "entity subtype")
 -- texte non traduit
 --[==[
-t("temporal", "temporal", "entity subtype")
 t("Ben Cruthdar, the Abomination", "Ben Cruthdar, the Abomination", "entity name")
 t("This crazed madman seems twisted and corrupted by temporal energy, his body shifting and phasing in and out of reality.", "This crazed madman seems twisted and corrupted by temporal energy, his body shifting and phasing in and out of reality.", "_t")
 t("dragon", "dragon", "entity type")
@@ -42547,12 +42499,12 @@ t("You hear screaming not too far from you.", "You hear screaming not too far fr
 section "mod-tome/data/zones/town-point-zero/grids.lua"
 
 t("wall", "mur", "entity type")
+t("ice", "glace", "entity subtype")
 t("floor", "sol", "entity type")
 -- texte non traduit
 --[==[
 t("Temporal Rift to Maj'Eyal", "Temporal Rift to Maj'Eyal", "entity name")
 t("The rift leads to Maj'Eyal.", "The rift leads to Maj'Eyal.", "_t")
-t("ice", "ice", "entity subtype")
 t("cold forest", "cold forest", "entity name")
 t("polar cap", "polar cap", "entity name")
 --]==]
@@ -42562,6 +42514,7 @@ t("polar cap", "polar cap", "entity name")
 section "mod-tome/data/zones/town-point-zero/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("temporal", "temporel", "entity subtype")
 -- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
@@ -42576,7 +42529,6 @@ t("Zemekkys, Grand Keeper of Reality", "Zemekkys, Grand Keeper of Reality", "ent
 t("shalore", "shalore", "entity subtype")
 t("A timeless elf stands before you. Even though his age is impossible to determine, you feel he has seen many things.", "A timeless elf stands before you. Even though his age is impossible to determine, you feel he has seen many things.", "_t")
 t("horror", "horror", "entity type")
-t("temporal", "temporal", "entity subtype")
 t("Temporal Defiler", "Temporal Defiler", "entity name")
 t("A huge, slender, metallic monstrosity with long claws in place of fingers, and razor-sharp teeth. It seems to seek something here.", "A huge, slender, metallic monstrosity with long claws in place of fingers, and razor-sharp teeth. It seems to seek something here.", "_t")
 --]==]
@@ -43314,6 +43266,7 @@ section "mod-tome/data/zones/wilderness/grids.lua"
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("wall", "mur", "entity type")
+t("ice", "glace", "entity subtype")
 t("water", "eau", "entity subtype")
 t("deep water", "eau profonde", "entity name")
 -- texte non traduit
@@ -43327,7 +43280,6 @@ t("Old forest", "Old forest", "entity name")
 t("lava", "lava", "entity subtype")
 t("Charred Scar", "Charred Scar", "entity name")
 t("burnt forest", "burnt forest", "entity name")
-t("ice", "ice", "entity subtype")
 t("polar cap", "polar cap", "entity name")
 t("frozen sea", "frozen sea", "entity name")
 t("cold forest", "cold forest", "entity name")
@@ -43895,7 +43847,7 @@ t("Information on the failed zone and level dumped to the log file.", "Les infor
 t("The game could not generate level %s of %s after %s attempts. What do you want to do?", "Le jeu ne peux pas générer le niveau %s de %s après %s tentatives. Que voulez-vous faire?", "tformat")
 t("Level Generation Failure", "Échec de la génération du niveau", "_t")
 t("Loading level", "Chargement du niveau", "_t")
-t("Please wait while loading the level...", "Attendez pendant le chargement du niveau s'il vous plait...", "_t")
+t("Please wait while loading the level...", "Patientez pendant le chargement du niveau s'il vous plait...", "_t")
 t("Easy!", "Facile!", "_t")
 t("This zone is so easy for you that you can stroll to the last area with ease.", "Cette zone est si facile pour vous que vous pouvez aller directement au dernier niveau sans souci.", "_t")
 t("Stroll", "Aller au dernier niveau", "_t")
@@ -44864,6 +44816,7 @@ t("her", "sa", "_t")
 t("him", "lui", "_t")
 t("herself", "elle-même", "_t")
 t("himself", "lui-même", "_t")
+t("battered", "malmené", "_t")
 -- texte non traduit
 --[==[
 t(" (the fool)", " (the fool)", "_t")
@@ -44874,7 +44827,6 @@ t(" in some sort of fetish experiment gone wrong", " in some sort of fetish expe
 t(", providing a free meal to the wildlife", ", providing a free meal to the wildlife", "_t")
 t(" (how embarrassing)", " (how embarrassing)", "_t")
 t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "tformat")
-t("battered", "battered", "_t")
 t(" (yet again)", " (yet again)", "_t")
 t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) was %s to death by %s%s on %s %s.", "tformat")
 t("%s the level %d %s %s %s on level %s of %s.", "%s the level %d %s %s %s on level %s of %s.", "tformat")
