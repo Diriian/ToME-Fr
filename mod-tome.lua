@@ -4776,17 +4776,14 @@ t("physical", "physique", "_t")
 ------------------------------------------------
 section "mod-tome/data/factions.lua"
 
-
 t("Neutral", "Neute", "faction name")
 t("Unaligned", "Non Aligné", "faction name")
 t("Merchant Caravan", "Caravane Marchande", "faction name")
 t("Point Zero Onslaught", "L'offensive du Point Zéro", "faction name")
 t("Point Zero Guardians", "Les guardiens du Point Zéro", "faction name")
 
-
 ------------------------------------------------
 section "mod-tome/data/general/encounters/fareast-npcs.lua"
-
 
 t("Sun Paladins patrol", "Patrouille de Paladins du Soleil", "entity name")
 t("patrol", "patrouille", "entity type")
@@ -4795,10 +4792,8 @@ t("Anorithil patrol", "Patrouille d'Anorithil", "entity name")
 t("Orcs patrol", "Patrouille d'Orcs", "entity name")
 t("orc pride", "clan orc", "entity subtype")
 
-
 ------------------------------------------------
 section "mod-tome/data/general/encounters/fareast.lua"
-
 
 t("Underwater Cave", "Grotte sous-marine", "entity name")
 t("harmless", "inoffensif", "entity type")
@@ -4806,194 +4801,148 @@ t("special", "spécial", "entity subtype")
 t("Entrance to an underwater cave", "Entrée vers une grotte sous-marine", "_t")
 t("#LIGHT_BLUE#You notice an entrance to an underwater cave.", "#LIGHT_BLUE#Vous remarquez l'entrée d'une grotte sous-marine.", "logPlayer")
 t("Shadow Crypt", "Crypte sombre", "entity name")
-t("hostile", "hostile", "entity type")
+t("hostile", "hostil", "entity type")
 t("Entrance to a dark crypt", "Entrée d'une crypte sombre", "_t")
-
 
 ------------------------------------------------
 section "mod-tome/data/general/encounters/maj-eyal-npcs.lua"
 
-t("humanoid", "humanoïde", "entity subtype")
 t("Allied Kingdoms human patrol", "Patrouille humaine des Royaumes Alliés", "entity name")
 t("patrol", "patrouille", "entity type")
 t("allied kingdoms", "royaumes alliés", "entity subtype")
 t("Allied Kingdoms halfling patrol", "Patrouille halfelin des Royaumes Alliés", "entity name")
 t("adventurers party", "groupe d'aventuriers", "entity name")
-t("hostile", "hostile", "entity type")
+t("hostile", "hostil", "entity type")
+t("humanoid", "humanoïde", "entity subtype")
 t("ziguranth patrol", "patrouille du ziguranth", "entity name")
 t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "Tu n'as rien à craindre si tu n'utilise pas de la sale magie arcanique. Sinon: CRÈVE!", "_t")
-
 
 ------------------------------------------------
 section "mod-tome/data/general/encounters/maj-eyal.lua"
 
-
--- texte non traduit
---[==[
-t("Novice mage", "Novice mage", "entity name")
-t("harmless", "harmless", "entity type")
-t("special", "special", "entity subtype")
-t("Novice mage", "Novice mage", "_t")
-t("Lost merchant", "Lost merchant", "entity name")
-t("hostile", "hostile", "entity type")
-t("Encounter", "Encounter", "_t")
-t("You find a hidden trap door, and hear cries for help from within...", "You find a hidden trap door, and hear cries for help from within...", "_t")
-t("#LIGHT_BLUE#You carefully get away without making a sound.", "#LIGHT_BLUE#You carefully get away without making a sound.", "logPlayer")
-t("#LIGHT_RED#You carefully open the trap door and enter the underground tunnels...", "#LIGHT_RED#You carefully open the trap door and enter the underground tunnels...", "logPlayer")
-t("#LIGHT_RED#As you enter you notice the trap door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#As you enter you notice the trap door has no visible handle on the inside. You are stuck here!", "logPlayer")
-t("Enter the tunnels", "Enter the tunnels", "_t")
-t("Leave carefully", "Leave carefully", "_t")
-t("Sect of Kryl-Faijan", "Sect of Kryl-Faijan", "entity name")
+t("Novice mage", "Mage débutant", "entity name")
+t("harmless", "inoffensif", "entity type")
+t("special", "spécial", "entity subtype")
+t("Novice mage", "Mage débutant", "_t")
+t("Lost merchant", "Marchant perdu", "entity name")
+t("hostile", "hostil", "entity type")
+t("Encounter", "Rencontre", "_t")
+t("You find a hidden trap door, and hear cries for help from within...", "Vous trouvez une trappe cachée, et entendez de l'intérieur des appels à l'aide...", "_t")
+t("#LIGHT_BLUE#You carefully get away without making a sound.", "#LIGHT_BLUE#Vous partez prudemment sans faire de bruit.", "logPlayer")
+t("#LIGHT_RED#You carefully open the trap door and enter the underground tunnels...", "#LIGHT_RED#Vous ouvrez délicatement la trappe et entrez dans les tunnels souterrains...", "logPlayer")
+t("#LIGHT_RED#As you enter you notice the trap door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#Une fois entré, vous remarquez que la trappe n'a pas de poignée visible à l'intérieur. Vous êtes coincé ici!", "logPlayer")
+t("Enter the tunnels", "Entrez dans les tunnels", "_t")
+t("Leave carefully", "Partez prudemment", "_t")
+t("Sect of Kryl-Faijan", "Secte de Kryl-Faijan", "entity name")
 t([[You find an entrance to an old crypt. An aura of terrible evil emanates from this place. You feel threatened just standing there.
-You hear the muffled cries of a woman coming from inside.]], [[You find an entrance to an old crypt. An aura of terrible evil emanates from this place. You feel threatened just standing there.
-You hear the muffled cries of a woman coming from inside.]], "_t")
-t("#LIGHT_RED#You carefully open the door and enter the underground crypt...", "#LIGHT_RED#You carefully open the door and enter the underground crypt...", "logPlayer")
-t("#LIGHT_RED#As you enter you notice the door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#As you enter you notice the door has no visible handle on the inside. You are stuck here!", "logPlayer")
-t("Enter the crypt", "Enter the crypt", "_t")
-t("Lost kitten", "Lost kitten", "entity name")
-t("Lost Kitty", "Lost Kitty", "_t")
-t("Ancient Elven Ruins", "Ancient Elven Ruins", "entity name")
-t("Entrance to some ancient elven ruins", "Entrance to some ancient elven ruins", "_t")
-t("Cursed Village", "Cursed Village", "entity name")
-t("Half-dead lumberjack", "Half-dead lumberjack", "_t")
-t("Ruined Dungeon", "Ruined Dungeon", "entity name")
-t("Entrance to a ruined dungeon", "Entrance to a ruined dungeon", "_t")
-t("Mark of the Spellblaze", "Mark of the Spellblaze", "entity name")
-t("Mark of the Spellblaze", "Mark of the Spellblaze", "_t")
-t("Golem Graveyard", "Golem Graveyard", "entity name")
-t("Golem Graveyard", "Golem Graveyard", "_t")
-t("Agrimley the Hermit", "Agrimley the Hermit", "entity name")
-t("Agrimley the Hermit", "Agrimley the Hermit", "_t")
-t("Ring of Blood", "Ring of Blood", "entity name")
-t("Hidden compound", "Hidden compound", "_t")
-t("Tranquil Meadow", "Tranquil Meadow", "entity name")
-t("tranquil meadow", "tranquil meadow", "_t")
---]==]
-
+You hear the muffled cries of a woman coming from inside.]], [[Vous trouvez l'entrée d'une vieille crypte. Une terrible aura maléfique émane de cet endroit. Vous vous sentez menacé rien qu'en vous tenant là.
+Vous entendez les cris étouffés d'une femme venant de l'intérieur.]], "_t")
+t("#LIGHT_RED#You carefully open the door and enter the underground crypt...", "#LIGHT_RED#Vous ouvrez soigneusement la porte et entrez dans la crypte souterraine...", "logPlayer")
+t("#LIGHT_RED#As you enter you notice the door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#Une fois entré, vous remarquez que la porte n'a pas de poignée visible à l'intérieur. Vous êtes coincé ici!", "logPlayer")
+t("Enter the crypt", "Entrez dans la crypte", "_t")
+t("Lost kitten", "Chaton égaré", "entity name")
+t("Lost Kitty", "Chatte égarée", "_t")
+t("Ancient Elven Ruins", "Anciennes Ruines Elfiques", "entity name")
+t("Entrance to some ancient elven ruins", "Entrée d'anciennes ruines elfiques", "_t")
+t("Cursed Village", "Le village maudit", "entity name")
+t("Half-dead lumberjack", "Bûcheron à moitié mort", "_t")
+t("Ruined Dungeon", "Donjon en ruines", "entity name")
+t("Entrance to a ruined dungeon", "Entrée du donjon en ruines", "_t")
+t("Mark of the Spellblaze", "Marque de la Brûlure Magique", "entity name")
+t("Mark of the Spellblaze", "Marque de la Brûlure Magique", "_t")
+t("Golem Graveyard", "Cimetière de Golems", "entity name")
+t("Golem Graveyard", "Cimetière de Golems", "_t")
+t("Agrimley the Hermit", "Agrimley l'Hermite", "entity name")
+t("Agrimley the Hermit", "Agrimley l'Hermite", "_t")
+t("Ring of Blood", "Cercle de sang", "entity name")
+t("Hidden compound", "L'Enceinte Cachée", "_t")
+t("Tranquil Meadow", "Pré Paisible", "entity name")
+t("tranquil meadow", "pré paisible", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/antimagic-bush.lua"
 
-
--- texte non traduit
---[==[
-t("antimagic bush", "antimagic bush", "_t")
-t("%s (antimagic aura)", "%s (antimagic aura)", "tformat")
---]==]
-
+t("antimagic bush", "buisson anti-magie", "_t")
+t("%s (antimagic aura)", "%s (aura anti-magie)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/bligthed-soil.lua"
 
-
--- texte non traduit
---[==[
-t("blighted soil", "blighted soil", "_t")
-t("%s (blighted aura)", "%s (blighted aura)", "tformat")
---]==]
-
+t("blighted soil", "terre viciée", "_t")
+t("%s (blighted aura)", "%s (aura viciée)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/conclave-vault.lua"
 
-
--- texte non traduit
---[==[
-t("Director Hompalan", "Director Hompalan", "_t")
+t("Director Hompalan", "Directeur Hompalan", "_t")
 t([[Only crumbling bones are left of what once was the proud Director Hompalan, chief of this facility.
-Now those remains look at you with empty eyes but you can not mistake their intent.]], [[Only crumbling bones are left of what once was the proud Director Hompalan, chief of this facility.
-Now those remains look at you with empty eyes but you can not mistake their intent.]], "_t")
---]==]
-
+Now those remains look at you with empty eyes but you can not mistake their intent.]], [[Il ne reste que des ossements réduits en miettes de ce qui était autrefois le fier directeur Hompalan, chef de cette installation.
+Ces restes vous regardent maintenant avec des yeux vides, mais vous ne pouvez pas vous méprendre sur leurs intentions.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/cultists.lua"
 
-
--- texte non traduit
---[==[
-t("monolith", "monolith", "_t")
-t("Cultist", "Cultist", "_t")
-t("An elven cultist. He doesn't seem to mind you.", "An elven cultist. He doesn't seem to mind you.", "_t")
-t("My soul for her!", "My soul for her!", "_t")
-t("The Dark Queen shall reign!", "The Dark Queen shall reign!", "_t")
-t("Take me! Take me!", "Take me! Take me!", "_t")
-t("From death comes life!", "From death comes life!", "_t")
-t("corrupted monolith", "corrupted monolith", "_t")
-t("This is too soon!", "This is too soon!", "_t")
-t("No the ritual will weaken!", "No the ritual will weaken!", "_t")
-t("disrupted monolith", "disrupted monolith", "_t")
-t("Something the cultists are doing is coming. Beware.", "Something the cultists are doing is coming. Beware.", "_t")
-t("The cultist's soul seems to be absorbed by the strange stone he was guarding. You feel like something is about to happen...", "The cultist's soul seems to be absorbed by the strange stone he was guarding. You feel like something is about to happen...", "_t")
-t("This demon would be very attractive if not for the hovering crown of flames, the three tails and sharp claws. As you watch her you can almost feel pain digging in your flesh. She wants you to suffer.", "This demon would be very attractive if not for the hovering crown of flames, the three tails and sharp claws. As you watch her you can almost feel pain digging in your flesh. She wants you to suffer.", "_t")
-t("and used for her perverted desires", "and used for her perverted desires", "_t")
-t("Crown of Burning Pain", "Crown of Burning Pain", "_t")
-t("burning crown", "burning crown", "_t")
-t("This crown of pure flames possesses a myriad of small molten rocks floating wildly above it. Each can be removed to throw as a true meteor.", "This crown of pure flames possesses a myriad of small molten rocks floating wildly above it. Each can be removed to throw as a true meteor.", "_t")
+t("monolith", "monolithe", "_t")
+t("Cultist", "Adepte", "_t")
+t("An elven cultist. He doesn't seem to mind you.", "Un adepte elfique. Il n'a pas l'air de se soucier de vous.", "_t")
+t("My soul for her!", "Mon âme est à elle!", "_t")
+t("The Dark Queen shall reign!", "La Reine des Ténèbres doit régner!", "_t")
+t("Take me! Take me!", "Prends-moi! Prends-moi!", "_t")
+t("From death comes life!", "De la mort vient la vie!", "_t")
+t("corrupted monolith", "monolithe corrompu", "_t")
+t("This is too soon!", "C'est trop tôt!", "_t")
+t("No the ritual will weaken!", "Non, le rituel s'affaiblira!", "_t")
+t("disrupted monolith", "monolithe perturbé", "_t")
+t("Something the cultists are doing is coming. Beware.", "Ce que font les adeptes du culte va arriver. Attention.", "_t")
+t("The cultist's soul seems to be absorbed by the strange stone he was guarding. You feel like something is about to happen...", "L'âme de l'adepte semble être absorbée par l'étrange pierre qu'il gardait. Vous sentez que quelque chose est sur le point de se produire...", "_t")
+t("This demon would be very attractive if not for the hovering crown of flames, the three tails and sharp claws. As you watch her you can almost feel pain digging in your flesh. She wants you to suffer.", "Cette démone serait très séduisante si elle n'avait pas sa couronne de flammes, ses trois queues et ses griffes acérées. En la regardant, vous pouvez presque sentir la douleur s'enfoncer dans vos chairs. Elle veut vous voir souffrir.", "_t")
+t("and used for her perverted desires", "et être utilisé pour ses désirs pervers", "_t")
+t("Crown of Burning Pain", "Couronne de Douleur Ardente.", "_t")
+t("burning crown", "couronne ardente", "_t")
+t("This crown of pure flames possesses a myriad of small molten rocks floating wildly above it. Each can be removed to throw as a true meteor.", "Cette couronne de flammes pures possède une myriade de petits rochers en fusion flottant sauvagement au-dessus d'elle. chacun peut être retiré pour être lancé comme un véritable météore.", "_t")
 t([[A terrible shout thunders across the level: 'Come my darling, come, I will be ssssooo *nice* to you!'
-You should flee from this level!]], [[A terrible shout thunders across the level: 'Come my darling, come, I will be ssssooo *nice* to you!'
-You should flee from this level!]], "_t")
-t("%s pulls a dagger and opens his own chest, piercing his beating heart. The stone glows with malevolent colors.", "%s pulls a dagger and opens his own chest, piercing his beating heart. The stone glows with malevolent colors.", "logSeen")
---]==]
-
+You should flee from this level!]], [[Un cri terrible retentit à travers tout le niveau: "Viens mon coeur, viens, je vais être tellement *gentille* avec toi!".
+Vous devez fuir ce niveau!]], "_t")
+t("%s pulls a dagger and opens his own chest, piercing his beating heart. The stone glows with malevolent colors.", "%s tire une dague et ouvre sa propre poitrine, perçant son cœur qui bat. La pierre brille de couleurs maléfiques.", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/damp-cave.lua"
 
-
--- texte non traduit
---[==[
-t("ladder back to %s", "ladder back to %s", "tformat")
-t("Damp Cave", "Damp Cave", "_t")
-t("damp cave", "damp cave", "_t")
---]==]
-
+t("ladder back to %s", "échelle pour revenir vers %s", "tformat")
+t("Damp Cave", "Caverne Humide", "_t")
+t("damp cave", "caverne humide", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/drake-cave.lua"
 
-
--- texte non traduit
---[==[
-t("Intimidating Cave", "Intimidating Cave", "_t")
-t("ladder back to %s", "ladder back to %s", "_t")
---]==]
-
+t("Intimidating Cave", "Caverne Intimidante", "_t")
+t("ladder back to %s", "échelle pour revenir vers %s", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/fearscape-portal.lua"
 
+t("portal back to %s", "pourtail pour revenir vers %s", "tformat")
+t("#VIOLET# You escape the Fearscape!", "#VIOLET# Tu t'es échappé du Plan de la Peur!", "log")
+t("orbital fearscape platform", "plate-forme orbitale du plan de la peur", "_t")
+t("#rng# the Invader", "#rng# l'Envahisseur", "_t")
+t("fearscape invasion portal", "portail d'invasion du plan de la peur", "_t")
+t("#VIOLET#The portal is broken!", "#VIOLET#Le portail est cassé!", "log")
+t("broken fearscape invasion portal", "portail cassé d'invasion du plan de la peur", "_t")
+t("#VIOLET#The portal is already broken!", "#VIOLET#Le portail est déjà cassé!", "log")
+t("Fearscape Portal", "Portail du Plan de la Peur", "_t")
+t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "Souhaitez-vous entrer dans le portail, le détruire, ou l'ignorer (appuyez sur Echap)?", "_t")
 t("Quit", "Quitter", "dialog_portal")
+t("#VIOLET#Ignoring the portal...", "#VIOLET#Ignorer le portail...", "log")
 t("Destroy", "Détruire", "_t")
--- texte non traduit
---[==[
-t("portal back to %s", "portal back to %s", "tformat")
-t("#VIOLET# You escape the Fearscape!", "#VIOLET# You escape the Fearscape!", "log")
-t("orbital fearscape platform", "orbital fearscape platform", "_t")
-t("#rng# the Invader", "#rng# the Invader", "_t")
-t("fearscape invasion portal", "fearscape invasion portal", "_t")
-t("#VIOLET#The portal is broken!", "#VIOLET#The portal is broken!", "log")
-t("broken fearscape invasion portal", "broken fearscape invasion portal", "_t")
-t("#VIOLET#The portal is already broken!", "#VIOLET#The portal is already broken!", "log")
-t("Fearscape Portal", "Fearscape Portal", "_t")
-t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "_t")
-t("#VIOLET#Ignoring the portal...", "#VIOLET#Ignoring the portal...", "log")
-t("Enter", "Enter", "_t")
-t("#VIOLET#A demon steps out of the %s!", "#VIOLET#A demon steps out of the %s!", "logSeen")
---]==]
-
+t("Enter", "Entrer", "_t")
+t("#VIOLET#A demon steps out of the %s!", "#VIOLET#Un démon sors du %s!", "logSeen")
 -- ancien texte traduit
 t("Quit", "Quitter", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/fell-aura.lua"
 
-
--- texte non traduit
---[==[
-t("%s (fell aura)", "%s (fell aura)", "tformat")
---]==]
-
+t("%s (fell aura)", "%s (aura perdue)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/font-life.lua"
@@ -5004,61 +4953,47 @@ t("%s (life aura)", "%s (aura de vie)", "tformat")
 ------------------------------------------------
 section "mod-tome/data/general/events/glimmerstone.lua"
 
-
--- texte non traduit
---[==[
-t("glimmerstone", "glimmerstone", "_t")
-t("It shimmers and changes the light all around. This is dazling!", "It shimmers and changes the light all around. This is dazling!", "_t")
-t("%s is affected by the glimmerstone!", "%s is affected by the glimmerstone!", "logSeen")
---]==]
-
+t("glimmerstone", "pierre de verre", "_t")
+t("It shimmers and changes the light all around. This is dazling!", "Elle brille et change la lumière tout autour. C'est étourdissant!", "_t")
+t("%s is affected by the glimmerstone!", "%s est affecté par la pierre de verre!", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/glowing-chest.lua"
 
+t("glowing chest", "coffre rayonnant.", "_t")
+t("Glowing Chest", "Coffre Rayonnant", "_t")
+t("Open the chest?", "Ouvrir le coffre?", "_t")
+t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet tombe du coffre!", "logSeen")
+t("#GOLD#But the chest was guarded!", "#GOLD#Mais le coffre était gardé!", "logSeen")
+t("glowing chest (opened)", "coffre rayonnant (ouvert)", "_t")
 t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
--- texte non traduit
---[==[
-t("glowing chest", "glowing chest", "_t")
-t("Glowing Chest", "Glowing Chest", "_t")
-t("Open the chest?", "Open the chest?", "_t")
-t("#GOLD#An object rolls from the chest!", "#GOLD#An object rolls from the chest!", "logSeen")
-t("#GOLD#But the chest was guarded!", "#GOLD#But the chest was guarded!", "logSeen")
-t("glowing chest (opened)", "glowing chest (opened)", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/events/meteor.lua"
 
-
--- texte non traduit
---[==[
-t("Meteor!", "Meteor!", "_t")
-t("As you walk you notice a huge rock falling from the sky. It crashes right near you!", "As you walk you notice a huge rock falling from the sky. It crashes right near you!", "_t")
---]==]
-
+t("Meteor!", "Météorite!", "_t")
+t("As you walk you notice a huge rock falling from the sky. It crashes right near you!", "En marchant, vous remarquez un énorme rocher qui tombe du ciel. Il s'écrase juste à côté de vous!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/naga-portal.lua"
 
+t("portal back to %s", "pourtail pour revenir vers %s", "tformat")
+t("#VIOLET#The portal is broken!", "#VIOLET#Le portail est cassé!", "log")
+t("#VIOLET#The portal is already broken!", "#VIOLET#Le portail est déjà cassé!", "log")
+t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "Souhaitez-vous entrer dans le portail, le détruire, ou l'ignorer (appuyez sur Echap)?", "_t")
 t("Quit", "Quitter", "dialog_portal")
+t("#VIOLET#Ignoring the portal...", "#VIOLET#Ignorer le portail...", "log")
 t("Destroy", "Détruire", "_t")
+t("Enter", "Entrer", "_t")
 -- texte non traduit
 --[==[
 t("coral invasion portal", "coral invasion portal", "_t")
-t("portal back to %s", "portal back to %s", "tformat")
 t("water cavern", "water cavern", "_t")
 t("#rng# the Tidebender", "#rng# the Tidebender", "_t")
 t("naga invasion coral portal", "naga invasion coral portal", "_t")
-t("#VIOLET#The portal is broken!", "#VIOLET#The portal is broken!", "log")
 t("broken naga invasion coral portal", "broken naga invasion coral portal", "_t")
-t("#VIOLET#The portal is already broken!", "#VIOLET#The portal is already broken!", "log")
 t("Coral Portal", "Coral Portal", "_t")
-t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "_t")
-t("#VIOLET#Ignoring the portal...", "#VIOLET#Ignoring the portal...", "log")
-t("Enter", "Enter", "_t")
 t("#VIOLET#A naga steps out of the %s!", "#VIOLET#A naga steps out of the %s!", "logSeen")
 --]==]
 
@@ -35674,7 +35609,8 @@ Race features:#YELLOW#
 ------------------------------------------------
 section "mod-tome/data/timed_effects/floor.lua"
 
-
+t("Glimmerstone", "Pierre de Verre", "floorEffect desc")
+t("The target is affected by a glimmerstone, its next attack will try to daze.", "La cible est affectée par une pierre de verre, sa prochaine attaque cherchera à étourdir.", "_t")
 -- texte non traduit
 --[==[
 t("Icy Floor", "Icy Floor", "floorEffect desc")
@@ -35685,8 +35621,6 @@ t("Spellblaze Scar", "Spellblaze Scar", "floorEffect desc")
 t("The target is near a spellblaze scar, granting +25% spell critical chance, +10% fire and blight damage but critical spells will drain arcane forces.", "The target is near a spellblaze scar, granting +25% spell critical chance, +10% fire and blight damage but critical spells will drain arcane forces.", "_t")
 t("Blighted Soil", "Blighted Soil", "floorEffect desc")
 t("The target is walking on blighted soil, reducing diseases resistance by 60% and giving all attacks a 40% chance to infect the target with a random disease (can only happen once per turn).", "The target is walking on blighted soil, reducing diseases resistance by 60% and giving all attacks a 40% chance to infect the target with a random disease (can only happen once per turn).", "_t")
-t("Glimmerstone", "Glimmerstone", "floorEffect desc")
-t("The target is affected by a glimmerstone, its next attack will try to daze.", "The target is affected by a glimmerstone, its next attack will try to daze.", "_t")
 t("Protective Aura", "Protective Aura", "floorEffect desc")
 t("The target is near a protective aura, granting +%d armour and +%d physical save.", "The target is near a protective aura, granting +%d armour and +%d physical save.", "tformat")
 t("Antimagic Bush", "Antimagic Bush", "floorEffect desc")
@@ -39302,6 +39236,7 @@ t("The Deep Bellow", "The Deep Bellow", "_t")
 section "mod-tome/data/zones/demon-plane/grids.lua"
 
 t("Back and there again", "Retourner et revenir", "_t")
+t("Enter", "Entrer", "_t")
 -- texte non traduit
 --[==[
 t("Demonic Portal", "Demonic Portal", "entity name")
@@ -39309,7 +39244,6 @@ t("This portal seems to be connected with Maj'Eyal; you could probably use it to
 t("Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "logPlayer")
 t("Stay", "Stay", "_t")
-t("Enter", "Enter", "_t")
 --]==]
 
 
@@ -39714,12 +39648,7 @@ It is said it was made by the halflings during the Age of Pyre as a weapon again
 ------------------------------------------------
 section "mod-tome/data/zones/golem-graveyard/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Golem Graveyard", "Golem Graveyard", "_t")
---]==]
-
+t("Golem Graveyard", "Cimetière de Golems", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/gorbat-pride/grids.lua"
@@ -40257,12 +40186,7 @@ t("A shadow traces across the floor.", "A shadow traces across the floor.", "_t"
 ------------------------------------------------
 section "mod-tome/data/zones/keepsake-meadow/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Tranquil Meadow", "Tranquil Meadow", "_t")
---]==]
-
+t("Tranquil Meadow", "Pré Paisible", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/lake-nur/grids.lua"
@@ -40430,12 +40354,7 @@ t("#00FF00#You gain an affinity for blight. You can now learn new Vile Life tale
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Mark of the Spellblaze", "Mark of the Spellblaze", "_t")
---]==]
-
+t("Mark of the Spellblaze", "Marque de la Brûlure Magique", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/maze/grids.lua"
@@ -41026,10 +40945,9 @@ Healing during current combat:  #GREEN#%0.2f#LAST#]], "tformat")
 ------------------------------------------------
 section "mod-tome/data/zones/ring-of-blood/zone.lua"
 
-
+t("Ring of Blood", "Cercle de sang", "_t")
 -- texte non traduit
 --[==[
-t("Ring of Blood", "Ring of Blood", "_t")
 t("Slavers Compound (%d)", "Slavers Compound (%d)", "tformat")
 --]==]
 
@@ -41100,10 +41018,9 @@ Do you touch it?", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/ruined-dungeon/zone.lua"
 
-
+t("Ruined Dungeon", "Donjon en ruines", "_t")
 -- texte non traduit
 --[==[
-t("Ruined Dungeon", "Ruined Dungeon", "_t")
 t("#rng# the Guardian", "#rng# the Guardian", "_t")
 t("Guardian", "Guardian", "_t")
 t("You can hear a magical trigger firing off.", "You can hear a magical trigger firing off.", "_t")
@@ -41306,12 +41223,7 @@ t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pou
 ------------------------------------------------
 section "mod-tome/data/zones/shadow-crypt/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Shadow Crypt", "Shadow Crypt", "_t")
---]==]
-
+t("Shadow Crypt", "Crypte sombre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/shertul-fortress/grids.lua"
@@ -41456,10 +41368,10 @@ t("wall", "mur", "entity type")
 t("water", "eau", "entity subtype")
 t("tree", "arbre", "entity name")
 t("bog water", "eau de tourbière", "entity name")
+t("#VIOLET#The portal is already broken!", "#VIOLET#Le portail est déjà cassé!", "log")
 -- texte non traduit
 --[==[
 t("coral portal", "coral portal", "entity name")
-t("#VIOLET#The portal is already broken!", "#VIOLET#The portal is already broken!", "log")
 t("destroying the portal", "destroying the portal", "_t")
 t("destroyed the portal", "destroyed the portal", "_t")
 t("#VIOLET#The portal starts to break down, run!", "#VIOLET#The portal starts to break down, run!", "log")
@@ -41687,13 +41599,13 @@ t("Stellar System: Shandral", "Stellar System: Shandral", "_t")
 section "mod-tome/data/zones/tannen-tower/grids.lua"
 
 t("Back and there again", "Retourner et revenir", "_t")
+t("Enter", "Entrer", "_t")
 -- texte non traduit
 --[==[
 t("Portal to Last Hope", "Portal to Last Hope", "entity name")
 t("This portal seems to be connected with Last Hope; you could probably use it to go back.", "This portal seems to be connected with Last Hope; you could probably use it to go back.", "_t")
 t("Enter the portal back to Last Hope?", "Enter the portal back to Last Hope?", "_t")
 t("Stay", "Stay", "_t")
-t("Enter", "Enter", "_t")
 --]==]
 
 
@@ -42792,6 +42704,7 @@ t("Tutorial", "Tutoriel", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/tutorial-combat-stats/grids.lua"
 
+t("Enter", "Entrer", "_t")
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("grass", "herbe", "entity name")
@@ -42805,7 +42718,6 @@ t("Tutorial Lobby Portal", "Tutorial Lobby Portal", "_t")
 t("Enter the portal back to the lobby?", "Enter the portal back to the lobby?", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back in the lobby.", "#VIOLET#You enter the swirling portal and in the blink of an eye you are back in the lobby.", "logPlayer")
 t("Stay", "Stay", "_t")
-t("Enter", "Enter", "_t")
 t("Sign", "Sign", "entity name")
 t("Contains a snippet of ToME wisdom.", "Contains a snippet of ToME wisdom.", "_t")
 t("Rune of Enlightenment: Summer Vacation", "Rune of Enlightenment: Summer Vacation", "entity name")
@@ -43045,10 +42957,10 @@ section "mod-tome/data/zones/valley-moon/grids.lua"
 
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
+t("Fearscape Portal", "Portail du Plan de la Peur", "entity name")
 -- texte non traduit
 --[==[
 t("moonstone", "moonstone", "entity name")
-t("Fearscape Portal", "Fearscape Portal", "entity name")
 t("An invocation portal, perpetually summoning beings through it.", "An invocation portal, perpetually summoning beings through it.", "_t")
 --]==]
 
@@ -43455,6 +43367,7 @@ t("huge", "énorme", "_t")
 t("gargantuan", "gargantuesque", "_t")
 t("actor", "acteur", "_t")
 t("neutral", "neutre", "_t")
+t("hostile", "hostil", "_t")
 t("friendly", "amicale", "_t")
 t("female", "femme", "_t")
 t("male", "homme", "_t")
@@ -43715,7 +43628,6 @@ t("normal", "normal", "_t")
 t("rare", "rare", "_t")
 t("unique", "unique", "_t")
 t("boss", "boss", "_t")
-t("hostile", "hostile", "_t")
 t("INVULNERABLE!", "INVULNERABLE!", "_t")
 t("\
 Mana:  %s%d / %d#LAST#", "\
@@ -44549,6 +44461,7 @@ t("%s's %s", "%s de %s", "tformat")
 t("#LIGHT_GREEN#%d turns #WHITE#", "#LIGHT_GREEN#%d tours #WHITE#", "tformat")
 t("<Store>", "<Boutique>", "_t")
 t("neutral", "neutre", "_t")
+t("hostile", "hostil", "_t")
 t("friendly", "amicale", "_t")
 t("(beneficial)", "(bénéfique)", "_t")
 t("(beneficial to enemies)", "(bénéfique aux ennemis)", "_t")
@@ -44590,7 +44503,6 @@ t("a trap (%s)", "un piège (%s)", "tformat")
 t("something on the floor", "quelque chose sur le sol", "_t")
 -- texte non traduit
 --[==[
-t("hostile", "hostile", "_t")
 t("Faction: ", "Faction: ", "_t")
 t("pressure_trigger", "pressure_trigger", "_t")
 t("#LIGHT_BLUE#%s: %s#LAST#", "#LIGHT_BLUE#%s: %s#LAST#", "logPlayer")
@@ -44623,6 +44535,7 @@ section "mod-tome/mod/class/WorldNPC.lua"
 t("#Source# kills #Target#.", "#Source# tue #Target#.", "logCombat")
 t("#Target# kills #Source#.", "#Target# tue #Source#.", "logCombat")
 t("neutral", "neutre", "_t")
+t("hostile", "hostil", "_t")
 t("friendly", "amicale", "_t")
 t("Rank: ", "Rang: ", "_t")
 t("Killed by you: ", "Tué par vous: ", "tformat")
@@ -44630,7 +44543,6 @@ t("Target: ", "Cible: ", "_t")
 t("none", "aucun", "_t")
 -- texte non traduit
 --[==[
-t("hostile", "hostile", "_t")
 t("Faction: ", "Faction: ", "_t")
 --]==]
 
@@ -47298,11 +47210,7 @@ t("Alter: %s", "Modifier: %s", "tformat")
 t("Alter to which state:", "Modifier en quel état:", "_t")
 t("friendly", "amicale", "_t")
 t("neutral", "neutre", "_t")
--- texte non traduit
---[==[
-t("hostile", "hostile", "_t")
---]==]
-
+t("hostile", "hostil", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/ChangeZone.lua"
