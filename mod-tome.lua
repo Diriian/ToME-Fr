@@ -4978,229 +4978,157 @@ t("As you walk you notice a huge rock falling from the sky. It crashes right nea
 ------------------------------------------------
 section "mod-tome/data/general/events/naga-portal.lua"
 
+t("coral invasion portal", "Portail d'invasion en corail", "_t")
 t("portal back to %s", "pourtail pour revenir vers %s", "tformat")
+t("water cavern", "Grotte innondé", "_t")
+t("#rng# the Tidebender", "#rng# le Maître des Marées", "_t")
+t("naga invasion coral portal", "portail d'invasion Naga en corail", "_t")
 t("#VIOLET#The portal is broken!", "#VIOLET#Le portail est cassé!", "log")
+t("broken naga invasion coral portal", "portail d'invasion Naga cassé en corail", "_t")
 t("#VIOLET#The portal is already broken!", "#VIOLET#Le portail est déjà cassé!", "log")
+t("Coral Portal", "Portail en Corail", "_t")
 t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "Souhaitez-vous entrer dans le portail, le détruire, ou l'ignorer (appuyez sur Echap)?", "_t")
 t("Quit", "Quitter", "dialog_portal")
 t("#VIOLET#Ignoring the portal...", "#VIOLET#Ignorer le portail...", "log")
 t("Destroy", "Détruire", "_t")
 t("Enter", "Entrer", "_t")
--- texte non traduit
---[==[
-t("coral invasion portal", "coral invasion portal", "_t")
-t("water cavern", "water cavern", "_t")
-t("#rng# the Tidebender", "#rng# the Tidebender", "_t")
-t("naga invasion coral portal", "naga invasion coral portal", "_t")
-t("broken naga invasion coral portal", "broken naga invasion coral portal", "_t")
-t("Coral Portal", "Coral Portal", "_t")
-t("#VIOLET#A naga steps out of the %s!", "#VIOLET#A naga steps out of the %s!", "logSeen")
---]==]
-
+t("#VIOLET#A naga steps out of the %s!", "#VIOLET#Un Naga fait un pas en dehors du %s!", "logSeen")
 -- ancien texte traduit
 t("Quit", "Quitter", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/necrotic-air.lua"
 
-
--- texte non traduit
---[==[
-t("%s (necrotic air)", "%s (necrotic air)", "tformat")
---]==]
-
+t("%s (necrotic air)", "%s (air nécrotique)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/noxious-caldera.lua"
 
-
--- texte non traduit
---[==[
-t("Way into a volcanic caldera", "Way into a volcanic caldera", "_t")
-t("Ground is shaking", "Ground is shaking", "_t")
-t("You feel a tremor in the ground for a few seconds and it disappears...", "You feel a tremor in the ground for a few seconds and it disappears...", "_t")
---]==]
-
+t("Way into a volcanic caldera", "Chemin dans une caldeira volcanique", "_t")
+t("Ground is shaking", "La terre tremble", "_t")
+t("You feel a tremor in the ground for a few seconds and it disappears...", "Vous ressentez une secousse dans le sol pendant quelques secondes et elle disparaît...", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/old-battle-field.lua"
 
+t("ramp up to %s", "s'apprête à %s", "tformat")
+t("#VIOLET# The ramp crumbles as you climb it, followed by the collapse of the cavern.", "#VIOLET# La rampe se désintègre lorsque vous l'escaladez, suivie par l'effondrement de la caverne.", "log")
+t("Cavern beneath tombstones", "Caverne sous les tombes", "_t")
+t("Undead are rising from the ground! You must hold on!", "Les morts-vivants sortent du sol! Vous devez tenir bon!", "_t")
+t("Onslaught", "Assaut", "_t")
+t("You have survived the onslaught of undead. You notice a way to climb up you had not seen before in a wall nearby.", "Vous avez survécu à l'assaut des morts-vivants.  Dans un mur proche vous remarquez un moyen d'escalade que vous n'aviez pas vu auparavant.", "_t")
+t("grave", "tombe", "_t")
+t("Grave", "Tombe", "_t")
+t("Do you wish to disturb the grave?", "Voulez-vous déranger la tombe?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
--- texte non traduit
---[==[
-t("ramp up to %s", "ramp up to %s", "tformat")
-t("#VIOLET# The ramp crumbles as you climb it, followed by the collapse of the cavern.", "#VIOLET# The ramp crumbles as you climb it, followed by the collapse of the cavern.", "log")
-t("Cavern beneath tombstones", "Cavern beneath tombstones", "_t")
-t("Undead are rising from the ground! You must hold on!", "Undead are rising from the ground! You must hold on!", "_t")
-t("Onslaught", "Onslaught", "_t")
-t("You have survived the onslaught of undead. You notice a way to climb up you had not seen before in a wall nearby.", "You have survived the onslaught of undead. You notice a way to climb up you had not seen before in a wall nearby.", "_t")
-t("grave", "grave", "_t")
-t("Grave", "Grave", "_t")
-t("Do you wish to disturb the grave?", "Do you wish to disturb the grave?", "_t")
-t("opened grave", "opened grave", "_t")
-t("Fall...", "Fall...", "_t")
-t("As you began digging up the grave, the ground collapsed beneath you. You fall into an eerily lit cavern.", "As you began digging up the grave, the ground collapsed beneath you. You fall into an eerily lit cavern.", "_t")
---]==]
-
+t("opened grave", "tombe ouverte", "_t")
+t("Fall...", "La chute...", "_t")
+t("As you began digging up the grave, the ground collapsed beneath you. You fall into an eerily lit cavern.", "Lorsque vous avez commencé à creuser la tombe, le sol s'est effondré sous vos pieds. Vous tombez dans une caverne sinistrement éclairée.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/protective-aura.lua"
 
-
--- texte non traduit
---[==[
-t("%s (protective aura)", "%s (protective aura)", "tformat")
---]==]
-
+t("%s (protective aura)", "%s (aura protectrice)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/rat-lich.lua"
 
-
--- texte non traduit
---[==[
-t("way up to %s", "way up to %s", "tformat")
-t("#VIOLET# As you leave the crypt, the stairway collapses in upon itself.", "#VIOLET# As you leave the crypt, the stairway collapses in upon itself.", "log")
-t("dusty rat skull", "dusty rat skull", "_t")
-t("Skull of the Rat Lich", "Skull of the Rat Lich", "_t")
-t("This ancient skull is all that remains of the Rat Lich. Some fragments of its power remain and a faint red light still glows within its eye sockets.", "This ancient skull is all that remains of the Rat Lich. Some fragments of its power remain and a faint red light still glows within its eye sockets.", "_t")
-t("raise one or two undead rats to fight beside you", "raise one or two undead rats to fight beside you", "_t")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
-t("%s raises %s %s, and a red light flashes from it's eye sockets!", "%s raises %s %s, and a red light flashes from it's eye sockets!", "logSeen")
-t("From the dust of decay a %s forms!", "From the dust of decay a %s forms!", "logSeen")
-t("Forsaken Crypt", "Forsaken Crypt", "_t")
-t("stairway leading downwards", "stairway leading downwards", "_t")
-t("Stairs seem to lead into some kind of crypt.", "Stairs seem to lead into some kind of crypt.", "_t")
-t("You hear squeaks and the sounds of clicking bone echo around you... Pure death awaits. Flee!", "You hear squeaks and the sounds of clicking bone echo around you... Pure death awaits. Flee!", "_t")
-t("collapsed forsaken crypt", "collapsed forsaken crypt", "_t")
-t("Stairs lead downwards into rubble.", "Stairs lead downwards into rubble.", "_t")
---]==]
-
+t("way up to %s", "vers le haut de %s", "tformat")
+t("#VIOLET# As you leave the crypt, the stairway collapses in upon itself.", "#VIOLET# En sortant de la crypte, l'escalier s'effondre sur lui-même.", "log")
+t("dusty rat skull", "crâne de rat poussiéreux", "_t")
+t("Skull of the Rat Lich", "Crâne de la Liche-Rat", "_t")
+t("This ancient skull is all that remains of the Rat Lich. Some fragments of its power remain and a faint red light still glows within its eye sockets.", "Cet ancien crâne est tout ce qui reste de la Liche-Rat. Quelques fragments de son pouvoir subsistent et une faible lumière rouge brille encore dans ses orbites.", "_t")
+t("raise one or two undead rats to fight beside you", "lever un ou deux rats morts-vivants pour combattre à vos côtés", "_t")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("%s raises %s %s, and a red light flashes from it's eye sockets!", "%s se lève %s %s, et une lumière rouge jaillit de ses orbites!", "logSeen")
+t("From the dust of decay a %s forms!", "De la poussière et de la décomposition se forme un %s !", "logSeen")
+t("Forsaken Crypt", "Crypte Abandonnée", "_t")
+t("stairway leading downwards", "escalier descendant", "_t")
+t("Stairs seem to lead into some kind of crypt.", "Les escaliers semblent mener à une sorte de crypte.", "_t")
+t("You hear squeaks and the sounds of clicking bone echo around you... Pure death awaits. Flee!", "Vous entendez des grincements et le bruit des os qui cliquettent résonne autour de vous... La mort pure et simple vous attend. Fuyez!", "_t")
+t("collapsed forsaken crypt", "crypte abandonnée effondrée", "_t")
+t("Stairs lead downwards into rubble.", "Les escaliers mènent plus bas dans des décombres.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/slimey-pool.lua"
 
-
--- texte non traduit
---[==[
-t("slimey pool", "slimey pool", "_t")
-t("%s (slimey)", "%s (slimey)", "tformat")
---]==]
-
+t("slimey pool", "piscine de vase", "_t")
+t("%s (slimey)", "%s (vaseux)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/sludgenest.lua"
 
-
--- texte non traduit
---[==[
-t("Way into a strange lush forest", "Way into a strange lush forest", "_t")
-t("Lush forest", "Lush forest", "_t")
-t("Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest in the cold icy wastes of the northland.", "Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest in the cold icy wastes of the northland.", "_t")
---]==]
-
+t("Way into a strange lush forest", "Un chemin vers une étrange forêt luxuriante", "_t")
+t("Lush forest", "Forêt Luxuriante", "_t")
+t("Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest in the cold icy wastes of the northland.", "Soudain, ça vous revient. Vous vous rappelez qu'il y a longtemps, quelqu'un vous a parlé d'une étrange forêt luxuriante dans les étendues froides et glacées au nord du pays.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/snowstorm.lua"
 
-
--- texte non traduit
---[==[
-t("Snowstorm", "Snowstorm", "_t")
-t("As you walk into the area you notice a huge snowstorm over your head. Beware!", "As you walk into the area you notice a huge snowstorm over your head. Beware!", "_t")
---]==]
-
+t("Snowstorm", "Tempête de neige", "_t")
+t("As you walk into the area you notice a huge snowstorm over your head. Beware!", "En entrant dans la zone, vous remarquez une énorme tempête de neige qui surgit. Attention!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/spellblaze-scar.lua"
 
-
--- texte non traduit
---[==[
-t("spellblaze scar", "spellblaze scar", "_t")
-t("%s (spellblaze aura)", "%s (spellblaze aura)", "tformat")
---]==]
-
+t("spellblaze scar", "cicatrice de la brûlure magique", "_t")
+t("%s (spellblaze aura)", "%s (aura de la brûlure magique)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/sub-vault.lua"
 
-
--- texte non traduit
---[==[
-t("way up (%s)", "way up (%s)", "tformat")
-t("#VIOLET# The stairway collapses completely as you ascend!", "#VIOLET# The stairway collapses completely as you ascend!", "log")
-t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET# The decrepit stairs crumble some more as you climb them.", "log")
-t("Hidden Vault - %s", "Hidden Vault - %s", "tformat")
-t("hidden vault", "hidden vault", "_t")
-t("Crumbling stairs lead down to something.", "Crumbling stairs lead down to something.", "_t")
-t("collapsing hidden vault", "collapsing hidden vault", "_t")
-t("collapsed hidden vault", "collapsed hidden vault", "_t")
-t("A collapsed stairway, leading down", "A collapsed stairway, leading down", "_t")
-t("nearly collapsed hidden vault", "nearly collapsed hidden vault", "_t")
---]==]
-
+t("way up (%s)", "vers le haut (%s)", "tformat")
+t("#VIOLET# The stairway collapses completely as you ascend!", "#VIOLET# L'escalier s'effondre complètement lorsque vous montez!", "log")
+t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET# Les escaliers décrépis se délabrent un peu plus à mesure que vous les montez.", "log")
+t("Hidden Vault - %s", "Chambre Forte Cachée - %s", "tformat")
+t("hidden vault", "chambre forte cachée", "_t")
+t("Crumbling stairs lead down to something.", "Ces escaliers en ruine mènent à quelque chose.", "_t")
+t("collapsing hidden vault", "chambre forte cachée qui séeffondre.", "_t")
+t("collapsed hidden vault", "chambre forte cachée effondrée.", "_t")
+t("A collapsed stairway, leading down", "Un escalier effondré, menant vers le bas", "_t")
+t("nearly collapsed hidden vault", "chambre forte cachée quasiment effondrée", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/thunderstorm.lua"
 
-
--- texte non traduit
---[==[
-t("Thunderstorm", "Thunderstorm", "_t")
-t("As you walk into the area you notice a huge thunderstorm over your head. Beware!", "As you walk into the area you notice a huge thunderstorm over your head. Beware!", "_t")
---]==]
-
+t("Thunderstorm", "Orage", "_t")
+t("As you walk into the area you notice a huge thunderstorm over your head. Beware!", "En entrant dans la zone, vous remarquez un énorme orage au-dessus de vous. Attention!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/tombstones.lua"
 
+t("grave", "tombe", "_t")
+t("Grave", "Tombe", "_t")
+t("Do you wish to disturb the grave?", "Voulez-vous déranger la tombe?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
--- texte non traduit
---[==[
-t("grave", "grave", "_t")
-t("Grave", "Grave", "_t")
-t("Do you wish to disturb the grave?", "Do you wish to disturb the grave?", "_t")
-t("grave (opened)", "grave (opened)", "_t")
-t("There is nothing there.", "There is nothing there.", "log")
-t("You were not the first here: the corpse was turned into an undead.", "You were not the first here: the corpse was turned into an undead.", "log")
---]==]
-
+t("grave (opened)", "tombe (ouverte)", "_t")
+t("There is nothing there.", "Il n'y a rien ici.", "log")
+t("You were not the first here: the corpse was turned into an undead.", "Vous n'étiez pas le premier à venir ici: le cadavre a été transformé en mort-vivant.", "log")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/weird-pedestals.lua"
 
-
--- texte non traduit
---[==[
-t("weird pedestal", "weird pedestal", "_t")
-t("Weird Pedestal", "Weird Pedestal", "_t")
-t("Do you wish to inspect the pedestal?", "Do you wish to inspect the pedestal?", "_t")
-t("inspecting", "inspecting", "_t")
-t("inspected", "inspected", "_t")
-t("As you inspect it a shadow materializes near you, and suddenly it is no more a shadow!", "As you inspect it a shadow materializes near you, and suddenly it is no more a shadow!", "_t")
-t("#rng# the Invoker", "#rng# the Invoker", "_t")
-t("He shall come!", "He shall come!", "_t")
-t("You are dooooommmed!!", "You are dooooommmed!!", "_t")
-t("He will consume all!", "He will consume all!", "_t")
-t("My life for His!", "My life for His!", "_t")
-t("Die intruder!", "Die intruder!", "_t")
-t("weird pedestal (glowing)", "weird pedestal (glowing)", "_t")
-t("%s's soul is absorbed by the pedestal. A glowing orb appears.", "%s's soul is absorbed by the pedestal. A glowing orb appears.", "logSeen")
-t("#rng# the Bringer of Doom", "#rng# the Bringer of Doom", "_t")
-t("You hear a terrible voice saying 'Their lives are mine! I am coming!'", "You hear a terrible voice saying 'Their lives are mine! I am coming!'", "_t")
---]==]
-
+t("weird pedestal", "piédestal étrange", "_t")
+t("Weird Pedestal", "Piédestal Etrange", "_t")
+t("Do you wish to inspect the pedestal?", "Voulez-vous inspecter le piédestal ?", "_t")
+t("inspecting", "inspection", "_t")
+t("inspected", "inspecté", "_t")
+t("As you inspect it a shadow materializes near you, and suddenly it is no more a shadow!", "Alors que vous l'inspectez, une ombre se matérialise près de vous, et soudain, ce n'est plus une ombre!", "_t")
+t("#rng# the Invoker", "#rng# l'Invocateur", "_t")
+t("He shall come!", "Il va venir!", "_t")
+t("You are dooooommmed!!", "Vous êtes damnéééééééééééééé!!", "_t")
+t("He will consume all!", "Il consumera tout!!", "_t")
+t("My life for His!", "Ma vie pour la sienne!", "_t")
+t("Die intruder!", "Crève l'intrus!", "_t")
+t("weird pedestal (glowing)", "piédestal étrange (brillant)", "_t")
+t("%s's soul is absorbed by the pedestal. A glowing orb appears.", "L'âme de %s est absorbée par le piédestal. Un orbe phosphorescent apparaît.", "logSeen")
+t("#rng# the Bringer of Doom", "#rng# le Messager du Désastre.", "_t")
+t("You hear a terrible voice saying 'Their lives are mine! I am coming!'", "Vous entendez une voix terrible disant: \"Leurs vies sont miennes! Me voilà!\"", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/whistling-vortex.lua"
 
-
--- texte non traduit
---[==[
-t("%s (whistling vortex)", "%s (whistling vortex)", "tformat")
---]==]
-
+t("%s (whistling vortex)", "%s (vortex sifflant)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/autumn_forest.lua"
@@ -7368,6 +7296,7 @@ section "mod-tome/data/general/objects/boss-artifacts-maj-eyal.lua"
 
 t("Wintertide", "Hiver", "entity name")
 t("None", "Aucune", "_t")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 -- texte non traduit
 --[==[
 t("glittering longsword", "glittering longsword", "_t")
@@ -7420,7 +7349,6 @@ t("Crystal Shard", "Crystal Shard", "entity name")
 t("crystalline tree branch", "crystalline tree branch", "_t")
 t("This crystalline tree branch is remarkably rigid, and refracts light in myriad colors. Gazing at it entrances you, and you worry where its power may have come from.", "This crystalline tree branch is remarkably rigid, and refracts light in myriad colors. Gazing at it entrances you, and you worry where its power may have come from.", "_t")
 t("create 2 living shards of crystal to serve you for 10 turns", "create 2 living shards of crystal to serve you for 10 turns", "_t")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
 t("Crystals splinter off of %s's %s and animate!", "Crystals splinter off of %s's %s and animate!", "logSeen")
 t("Malediction", "Malediction", "entity name")
 t("pestilent waraxe", "pestilent waraxe", "_t")
@@ -9098,6 +9026,7 @@ t("%s activates %s %s!", "%s activates %s %s!", "logSeen")
 section "mod-tome/data/general/objects/egos/totems-powers.lua"
 
 t("healing", "soin", "entity keyword")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 -- texte non traduit
 --[==[
 t(" of healing", " of healing", "entity name")
@@ -9125,7 +9054,6 @@ t([[summon a resilient tentacle up to %d spaces away for %d turns.  Each turn th
 %s]], [[summon a resilient tentacle up to %d spaces away for %d turns.  Each turn the tentacle will strike a random enemy in range 3 dealing physical damage and attempting to pin them.
 
 %s]], "tformat")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
 t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("Lashing Tentacle", "Lashing Tentacle", "_t")
 t("A lashing tentacle.", "A lashing tentacle.", "_t")
@@ -11008,6 +10936,7 @@ section "mod-tome/data/general/objects/world-artifacts.lua"
 t("Primal Infusion", "Infusion Primale", "entity name")
 t("Blood of Life", "Sang de Vie", "entity name")
 t("misc", "divers", "entity type")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("Summertide", "Eté", "entity name")
 t("None", "Aucune", "_t")
@@ -11106,7 +11035,6 @@ t("Mummified Egg-sac of Ungolë", "Mummified Egg-sac of Ungolë", "entity name")
 t("dark egg", "dark egg", "_t")
 t("Dry and dusty to the touch, it still seems to retain some shadow of life.", "Dry and dusty to the touch, it still seems to retain some shadow of life.", "_t")
 t("summon up to 2 spiders", "summon up to 2 spiders", "_t")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
 t("Helm of the Dwarven Emperors", "Helm of the Dwarven Emperors", "entity name")
 t("shining helm", "shining helm", "_t")
 t("A Dwarven helm embedded with a single diamond that can banish all underground shadows.", "A Dwarven helm embedded with a single diamond that can banish all underground shadows.", "_t")
@@ -18752,14 +18680,13 @@ t("#rng# the Witherer", "#rng# the Witherer", "_t")
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/renegade-pyromancers.lua"
 
-
+t("#rng# the Invoker", "#rng# l'Invocateur", "_t")
 -- texte non traduit
 --[==[
 t("scroll", "scroll", "_t")
 t("How to Summon a Phoenix", "How to Summon a Phoenix", "_t")
 t("An old and singed scroll, the bottom half burnt off.", "An old and singed scroll, the bottom half burnt off.", "_t")
 t("#rng# the Flamebringer", "#rng# the Flamebringer", "_t")
-t("#rng# the Invoker", "#rng# the Invoker", "_t")
 --]==]
 
 
@@ -18904,18 +18831,18 @@ t("A dark hole in the mountain", "A dark hole in the mountain", "_t")
 ------------------------------------------------
 section "mod-tome/data/mapscripts/lib/subvault.lua"
 
+t("Hidden Vault - %s", "Chambre Forte Cachée - %s", "tformat")
 t("stairs back to %s", "redescendre vers %s", "_t")
+t("hidden vault", "chambre forte cachée", "_t")
+t("Crumbling stairs lead down to something.", "Ces escaliers en ruine mènent à quelque chose.", "_t")
+t("collapsing hidden vault", "chambre forte cachée qui séeffondre.", "_t")
+t("collapsed hidden vault", "chambre forte cachée effondrée.", "_t")
+t("nearly collapsed hidden vault", "chambre forte cachée quasiment effondrée", "_t")
+t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET# Les escaliers décrépis se délabrent un peu plus à mesure que vous les montez.", "log")
 -- texte non traduit
 --[==[
-t("Hidden Vault - %s", "Hidden Vault - %s", "tformat")
-t("hidden vault", "hidden vault", "_t")
-t("Crumbling stairs lead down to something.", "Crumbling stairs lead down to something.", "_t")
-t("collapsing hidden vault", "collapsing hidden vault", "_t")
-t("collapsed hidden vault", "collapsed hidden vault", "_t")
 t("It is fully collapsed, no way down.", "It is fully collapsed, no way down.", "_t")
 t("#VIOLET# The stairway is about to collapses completely, you may still go back but it will be the last time!", "#VIOLET# The stairway is about to collapses completely, you may still go back but it will be the last time!", "log")
-t("nearly collapsed hidden vault", "nearly collapsed hidden vault", "_t")
-t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET# The decrepit stairs crumble some more as you climb them.", "log")
 --]==]
 
 
@@ -25191,7 +25118,7 @@ t("Switches places with one of your summons. This disorients your foes, granting
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-distance.lua"
 
-
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Flamespit", "Flamespit", "talent name")
@@ -25247,7 +25174,6 @@ t([[Grab a target and pull it next to you, covering it with frost while reducing
 		The damage and chance to slow will increase with your Mindpower.]], "tformat")
 t("Ritch Flamespitter", "Ritch Flamespitter", "talent name")
 t("@Source@ summons a Ritch Flamespitter!", "@Source@ summons a Ritch Flamespitter!", "_t")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
 t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("", "", "_t")
 t("%s (wild summon)", "%s (wild summon)", "tformat")
@@ -25294,7 +25220,7 @@ t([[Summon a Fire Drake for %d turns to burn and crush your foes to death. Fire 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-melee.lua"
 
-
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Jelly Spread", "Jelly Spread", "talent name")
@@ -25304,7 +25230,6 @@ t("Mitotic Split", "Mitotic Split", "talent name")
 t("%d%% chance to split upon taking a single hit dealing at least %d%% of your maximum life.", "%d%% chance to split upon taking a single hit dealing at least %d%% of your maximum life.", "tformat")
 t("War Hound", "War Hound", "talent name")
 t("@Source@ summons a War Hound!", "@Source@ summons a War Hound!", "_t")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
 t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("", "", "_t")
 t("%s (wild summon)", "%s (wild summon)", "tformat")
@@ -25352,7 +25277,7 @@ t([[Summon a Stone Golem for %d turns to attack your foes. Stone golems are form
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-utility.lua"
 
-
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Taunt", "Taunt", "talent name")
@@ -25363,7 +25288,6 @@ t("Web", "Web", "talent name")
 t("Spread a web and throw it toward your target. If caught, it won't be able to move for %d turns.", "Spread a web and throw it toward your target. If caught, it won't be able to move for %d turns.", "tformat")
 t("Turtle", "Turtle", "talent name")
 t("@Source@ summons a Turtle!", "@Source@ summons a Turtle!", "_t")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
 t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("%s (wild summon)", "%s (wild summon)", "tformat")
 t([[Summon a Turtle for %d turns to distract your foes. Turtles are resilient, but not very powerful. However, they will periodically force any foes to attack them, and can protect themselves with their shell.
@@ -25551,6 +25475,7 @@ section "mod-tome/data/talents/misc/inscriptions.lua"
 t(" and ", " et ", "_t")
 t("Rune of the Rift", "Rune de la Faille", "talent name")
 t("%s resists!", "%s résiste!", "logSeen")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 -- texte non traduit
 --[==[
 t("- will only auto use when no saturation effect exists", "- will only auto use when no saturation effect exists", "_t")
@@ -25651,7 +25576,6 @@ t("Rune: Prismatic", "Rune: Prismatic", "talent name")
 t("Activate the rune to create a shield for %d turns blocking several instances of damage of the following types:%s", "Activate the rune to create a shield for %d turns blocking several instances of damage of the following types:%s", "tformat")
 t("%d turns; %s", "%d turns; %s", "tformat")
 t("Rune: Mirror Image", "Rune: Mirror Image", "talent name")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
 t("Mirror Image", "Mirror Image", "_t")
 t("A blurred image.", "A blurred image.", "_t")
 t("Summon", "Summon", "_t")
@@ -25835,6 +25759,7 @@ t("misc", "divers", "talent type")
 t("Disarm", "Désarmement", "talent name")
 t("Knockback", "Repoussage", "talent name")
 t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 t("%s resists!", "%s résiste!", "logSeen")
 t("something", "quelque chose", "_t")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
@@ -25883,7 +25808,6 @@ t("Poisonous Bite", "Poisonous Bite", "talent name")
 t("@Source@ bites poison into @target@.", "@Source@ bites poison into @target@.", "_t")
 t("Bites the target (an unarmed attack), doing %d%% damage and injecting it with poison.", "Bites the target (an unarmed attack), doing %d%% damage and injecting it with poison.", "tformat")
 t("Summon", "Summon", "talent name")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
 t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("#Source# summons #Target#!", "#Source# summons #Target#!", "logCombat")
 t("Summon allies.", "Summon allies.", "tformat")
@@ -28055,6 +27979,7 @@ t([[You recall the age long gone where necromancers had free reign over the worl
 section "mod-tome/data/talents/spells/air.lua"
 
 t("Lightning", "Foudre", "talent name")
+t("Thunderstorm", "Orage", "talent name")
 -- nouveau texte
 --[==[
 t([[Invokes an arc of lightning doing %0.2f to %0.2f damage (%0.2f average) and chaining to another target.
@@ -28076,7 +28001,6 @@ t([[A gentle wind circles around the caster, increasing carrying capacity by %d,
 		At level 5 it also grants %d%% movement speed and removes %d fatigue.]], [[A gentle wind circles around the caster, increasing carrying capacity by %d, defense against projectiles by %d, pin immunity by %d%% and stun immunity by %d%%.
 		At level 4 it also makes you levitate slightly above the ground, allowing you to ignore some traps.
 		At level 5 it also grants %d%% movement speed and removes %d fatigue.]], "tformat")
-t("Thunderstorm", "Thunderstorm", "talent name")
 t("#0080FF#A furious lightning storm forms around %s!", "#0080FF#A furious lightning storm forms around %s!", "logSeen")
 t("#0080FF#The furious lightning storm around %s calms down and disappears.", "#0080FF#The furious lightning storm around %s calms down and disappears.", "logSeen")
 t([[Conjures a furious, raging lightning storm with a radius of 6 that follows you as long as this spell is active.
@@ -29297,7 +29221,7 @@ t([[You summon a river of tortured souls to launch an onslaught of darkness agai
 ------------------------------------------------
 section "mod-tome/data/talents/spells/phantasm.lua"
 
-
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Illuminate", "Illuminate", "talent name")
@@ -29320,7 +29244,6 @@ t([[Weave a net of arcane disturbances around your body, removing yourself from 
 		While invisible all damage you deal against blinded or dazzled foes is increased by %d%% (additive with other damage increases).
 		The invisibility bonus will increase with your Spellpower.]], "tformat")
 t("Mirror Image", "Mirror Image", "talent name")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
 t("Mirror Image (%s)", "Mirror Image (%s)", "tformat")
 t("A blurred image.", "A blurred image.", "_t")
 t("Summon", "Summon", "_t")
@@ -29421,6 +29344,7 @@ t("fire", "feu", "talent type")
 t("water", "eau", "talent type")
 t("ice", "glace", "talent type")
 t("temporal", "temporel", "talent type")
+t("grave", "tombe", "talent type")
 -- texte non traduit
 --[==[
 t("Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "_t")
@@ -29496,7 +29420,6 @@ t("dreadmaster", "dreadmaster", "talent type")
 t("Summon an undead minion of pure darkness to harass your foes.", "Summon an undead minion of pure darkness to harass your foes.", "_t")
 t("age of dusk", "age of dusk", "talent type")
 t("Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "_t")
-t("grave", "grave", "talent type")
 t("Use the rotting cold doom of the tomb to fell your foes.", "Use the rotting cold doom of the tomb to fell your foes.", "_t")
 t("glacial waste", "glacial waste", "talent type")
 t("Wither the land into a cold, dead ground to protect yourself.", "Wither the land into a cold, dead ground to protect yourself.", "_t")
@@ -30938,14 +30861,13 @@ t([[Search your inner strength for a surge of power.
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/superiority.lua"
 
-
+t("Onslaught", "Assaut", "talent name")
 -- texte non traduit
 --[==[
 t("Juggernaut", "Juggernaut", "talent name")
 t([[Concentrate on the battle, ignoring some of the damage you take.
 		Improves physical damage reduction by %d%% and provides a %d%% chance to shrug off critical damage for 20 turns.]], [[Concentrate on the battle, ignoring some of the damage you take.
 		Improves physical damage reduction by %d%% and provides a %d%% chance to shrug off critical damage for 20 turns.]], "tformat")
-t("Onslaught", "Onslaught", "talent name")
 t([[Take an offensive stance. As you attack your foes, you knock your target and foes adjacent to them in a frontal arc back (up to %d grids).
 		This consumes stamina rapidly (-1 stamina/turn).]], [[Take an offensive stance. As you attack your foes, you knock your target and foes adjacent to them in a frontal arc back (up to %d grids).
 		This consumes stamina rapidly (-1 stamina/turn).]], "tformat")
@@ -37125,6 +37047,7 @@ t("Swift Hands", "Mains rapides", "_t")
 t("temporal", "temporel", "effect subtype")
 t("Unstoppable", "Inarrêtable", "_t")
 t("mind", "esprit", "effect subtype")
+t("Thunderstorm", "Orage", "_t")
 t("Flare", "Eclat", "_t")
 t("unknown", "inconnu", "effect subtype")
 t("bleed", "saignement", "effect subtype")
@@ -37555,7 +37478,6 @@ t("Spellblaze Aura", "Spellblaze Aura", "_t")
 t("Zone-wide effect: The power of the Spellblaze still burns here. -10% resistance to fire, arcane and blight damage, but +10% cold resistance. WARNING: The powerful magic here reflects teleportation magic!", "Zone-wide effect: The power of the Spellblaze still burns here. -10% resistance to fire, arcane and blight damage, but +10% cold resistance. WARNING: The powerful magic here reflects teleportation magic!", "_t")
 t("Heady Scent", "Heady Scent", "_t")
 t("Zone-wide effect: Strong scents fill the air and make you feel drowsy. If the timer reaches 0 you will fall into a dreaming sleep state. -10% mind resistance, -20% sleep resistance, +10% nature damage.", "Zone-wide effect: Strong scents fill the air and make you feel drowsy. If the timer reaches 0 you will fall into a dreaming sleep state. -10% mind resistance, -20% sleep resistance, +10% nature damage.", "_t")
-t("Thunderstorm", "Thunderstorm", "_t")
 t("Zone-wide effect: A huge thunderstorm rages above you. +10 lightning damage, -10% stun resistance.", "Zone-wide effect: A huge thunderstorm rages above you. +10 lightning damage, -10% stun resistance.", "_t")
 t("Abashed Expanse", "Abashed Expanse", "_t")
 t("Zone-wide effect: Your Phase Door spell is super easy to use here, allowing you to target it regardless of level. Any projectiles is slowed down by 80%.", "Zone-wide effect: Your Phase Door spell is super easy to use here, allowing you to target it regardless of level. Any projectiles is slowed down by 80%.", "_t")
@@ -40231,12 +40153,12 @@ t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
 t("tree", "arbre", "entity name")
 t("floor", "sol", "entity type")
+t("grave", "tombe", "entity name")
 t("floor", "sol", "entity subtype")
 -- texte non traduit
 --[==[
 t("road", "road", "entity subtype")
 t("cobblestone road", "cobblestone road", "entity name")
-t("grave", "grave", "entity name")
 t("coffin", "coffin", "entity name")
 t("open coffin", "open coffin", "entity name")
 t("open mausoleum", "open mausoleum", "entity name")
@@ -40281,13 +40203,12 @@ t("You squeeze Celia's heart in your hand, absorbing part of her soul into your 
 ------------------------------------------------
 section "mod-tome/data/zones/last-hope-graveyard/zone.lua"
 
-
+t("You were not the first here: the corpse was turned into an undead.", "Vous n'étiez pas le premier à venir ici: le cadavre a été transformé en mort-vivant.", "log")
+t("There is nothing there.", "Il n'y a rien ici.", "log")
 -- texte non traduit
 --[==[
 t("Last Hope Graveyard", "Last Hope Graveyard", "_t")
 t("Mausoleum", "Mausoleum", "_t")
-t("You were not the first here: the corpse was turned into an undead.", "You were not the first here: the corpse was turned into an undead.", "log")
-t("There is nothing there.", "There is nothing there.", "log")
 t("The corpse had a treasure!", "The corpse had a treasure!", "log")
 t("Open the coffin", "Open the coffin", "_t")
 t("In rich families the dead are sometimes put to rest with some treasures. However they also sometime protect the coffins with powerful curses. Open?", "In rich families the dead are sometimes put to rest with some treasures. However they also sometime protect the coffins with powerful curses. Open?", "_t")
@@ -43522,7 +43443,7 @@ t("%s is confused and fails to use %s.", "%s est confus et à échoué à utilis
 t("%s fails to use %s.", "%s échoue à utiliser %s.", "logSeen")
 t("%s fumbles and fails to use %s, injuring %s!", "%s est maladroit et n'arrive pas à utiliser %s, blessant %s!", "logSeen")
 t("%s's %s is interrupted by the shot!", "%s de %s est interrompus par un tir!", "logSeen")
-t("deactivates", "désactivé", "_t")
+t("deactivates", "désactive", "_t")
 t("activates", "activé", "_t")
 t("%s casts #{bold}#%s%s.#{normal}##LAST#", "%s lance #{bold}#%s%s.#{normal}##LAST#", "logSeen")
 t("%s uses #{bold}#%s%s.#{normal}##LAST#", "%s utilise #{bold}#%s%s.#{normal}##LAST#", "logSeen")
