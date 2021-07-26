@@ -5134,19 +5134,15 @@ t("%s (whistling vortex)", "%s (vortex sifflant)", "tformat")
 section "mod-tome/data/general/grids/autumn_forest.lua"
 
 t("floor", "sol", "entity type")
+t("autumn_grass", "herbe_d'automne", "entity subtype")
+t("autumn grass", "herbe_d'automne", "entity name")
 t("wall", "mur", "entity type")
+t("autumn tree", "arbre d'automne", "entity name")
+t("tall thick tree", "grand arbre touffu", "entity name")
 t("old road", "vieille route", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- texte non traduit
---[==[
-t("autumn_grass", "autumn_grass", "entity subtype")
-t("autumn grass", "autumn grass", "entity name")
-t("autumn tree", "autumn tree", "entity name")
-t("tall thick tree", "tall thick tree", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/basic.lua"
@@ -5163,20 +5159,20 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("sealed door", "porte scellée", "entity name")
+t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
+t("glass wall", "mur en verre", "entity name")
+t("glass door", "porte en verre", "entity name")
+t("open glass door", "porte en verre ouverte", "entity name")
+t("This door seems to have been sealed off. You need to find a way to open it.", "Cette porte semble avoir été scellée. Vous devez trouver un moyen de l'ouvrir.", "_t")
+t("#VIOLET#You hear a door opening.", "#VIOLET#Vous entendez une porte s'ouvrir.", "log")
+t("This door seems to have been sealed off. You need to find a way to close it.", "Cette porte semble avoir été scellée. Vous devez trouver un moyen de la fermer.", "_t")
+t("#VIOLET#You hear a door closing.", "#VIOLET#Vous entendez une porte se fermer.", "log")
+t("lever", "levier", "entity type")
+t("huge lever", "gros levier", "entity name")
+t("trigger", "déclencher", "entity type")
 -- texte non traduit
 --[==[
-t("sealed door", "sealed door", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
-t("glass wall", "glass wall", "entity name")
-t("glass door", "glass door", "entity name")
-t("open glass door", "open glass door", "entity name")
-t("This door seems to have been sealed off. You need to find a way to open it.", "This door seems to have been sealed off. You need to find a way to open it.", "_t")
-t("#VIOLET#You hear a door opening.", "#VIOLET#You hear a door opening.", "log")
-t("This door seems to have been sealed off. You need to find a way to close it.", "This door seems to have been sealed off. You need to find a way to close it.", "_t")
-t("#VIOLET#You hear a door closing.", "#VIOLET#You hear a door closing.", "log")
-t("lever", "lever", "entity type")
-t("huge lever", "huge lever", "entity name")
-t("trigger", "trigger", "entity type")
 t("bool", "bool", "entity subtype")
 --]==]
 
@@ -5185,67 +5181,55 @@ t("bool", "bool", "entity subtype")
 section "mod-tome/data/general/grids/bone.lua"
 
 t("floor", "sol", "entity type")
+t("bone", "os", "entity subtype")
+t("sand", "sable", "entity name")
 t("wall", "mur", "entity type")
+t("bone walls", "murs d'os", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
+t("sealed door", "porte scellée", "entity name")
+t("This door seems to have been sealed off. You need to find a way to open it.", "Cette porte semble avoir été scellée. Vous devez trouver un moyen de l'ouvrir.", "_t")
+t("#VIOLET#You hear a door opening.", "#VIOLET#Vous entendez une porte s'ouvrir.", "log")
+t("This door seems to have been sealed off. You need to find a way to close it.", "Cette porte semble avoir été scellée. Vous devez trouver un moyen de la fermer.", "_t")
+t("#VIOLET#You hear a door closing.", "#VIOLET#Vous entendez une porte se fermer.", "log")
+t("lever", "levier", "entity type")
+t("huge lever", "gros levier", "entity name")
 t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#Vous entendez un mécanisme cliquant.", "log")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- texte non traduit
---[==[
-t("bone", "bone", "entity subtype")
-t("sand", "sand", "entity name")
-t("bone walls", "bone walls", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
-t("sealed door", "sealed door", "entity name")
-t("This door seems to have been sealed off. You need to find a way to open it.", "This door seems to have been sealed off. You need to find a way to open it.", "_t")
-t("#VIOLET#You hear a door opening.", "#VIOLET#You hear a door opening.", "log")
-t("This door seems to have been sealed off. You need to find a way to close it.", "This door seems to have been sealed off. You need to find a way to close it.", "_t")
-t("#VIOLET#You hear a door closing.", "#VIOLET#You hear a door closing.", "log")
-t("lever", "lever", "entity type")
-t("huge lever", "huge lever", "entity name")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/burntland.lua"
 
 t("wall", "mur", "entity type")
 t("burnt", "consumé", "entity subtype")
+t("burnt tree", "arbre brûlé", "entity name")
 t("floor", "sol", "entity type")
+t("burnt ground", "sol brûlé", "entity name")
+t("corrupted altar", "autel corrompu", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- texte non traduit
---[==[
-t("burnt tree", "burnt tree", "entity name")
-t("burnt ground", "burnt ground", "entity name")
-t("corrupted altar", "corrupted altar", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/cave.lua"
 
 t("floor", "sol", "entity type")
+t("cave", "grotte", "entity subtype")
+t("cave floor", "sol de la grotte", "entity name")
 t("wall", "mur", "entity type")
+t("cave walls", "parois de la grotte", "entity name")
 t("grass", "herbe", "entity subtype")
--- texte non traduit
---[==[
-t("cave", "cave", "entity subtype")
-t("cave floor", "cave floor", "entity name")
-t("cave walls", "cave walls", "entity name")
-t("huge loose rock", "huge loose rock", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("huge loose rock", "énorme rocher instable", "entity name")
+t("This rock is loose, you think you can move it away.", "Ce rocher est instable, vous pensez pouvoir le déplacer.", "_t")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/crystal.lua"
@@ -5255,13 +5239,9 @@ t("underground", "souterrain", "entity subtype")
 t("crystals", "cristaux", "entity name")
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity name")
--- texte non traduit
---[==[
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/elven_forest.lua"
@@ -5269,13 +5249,9 @@ section "mod-tome/data/general/grids/elven_forest.lua"
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
 t("tree", "arbre", "entity name")
--- texte non traduit
---[==[
-t("tall thick tree", "tall thick tree", "entity name")
-t("snowy_grass", "snowy_grass", "entity subtype")
-t("autumn_grass", "autumn_grass", "entity subtype")
---]==]
-
+t("tall thick tree", "grand arbre touffu", "entity name")
+t("snowy_grass", "herbe_neigeuse", "entity subtype")
+t("autumn_grass", "herbe_d'automne", "entity subtype")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/forest.lua"
@@ -5285,18 +5261,14 @@ t("grass", "herbe", "entity subtype")
 t("grass", "herbe", "entity name")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
+t("tall thick tree", "grand arbre touffu", "entity name")
 t("flower", "fleur", "entity name")
+t("huge loose rock", "énorme rocher instable", "entity name")
+t("This rock is loose, you think you can move it away.", "Ce rocher est instable, vous pensez pouvoir le déplacer.", "_t")
 t("old road", "vieille route", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- texte non traduit
---[==[
-t("tall thick tree", "tall thick tree", "entity name")
-t("huge loose rock", "huge loose rock", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/fortress.lua"
@@ -5308,13 +5280,9 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- texte non traduit
---[==[
-t("sealed door", "sealed door", "entity name")
-t("This door seems to be sealed.", "This door seems to be sealed.", "_t")
-t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
---]==]
-
+t("sealed door", "porte scellée", "entity name")
+t("This door seems to be sealed.", "Cette porte semble avoir été scellée.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/gothic.lua"
@@ -5331,17 +5299,17 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("sealed door", "porte scellée", "entity name")
+t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
+t("This door seems to have been sealed off. You need to find a way to open it.", "Cette porte semble avoir été scellée. Vous devez trouver un moyen de l'ouvrir.", "_t")
+t("#VIOLET#You hear a door opening.", "#VIOLET#Vous entendez une porte s'ouvrir.", "log")
+t("This door seems to have been sealed off. You need to find a way to close it.", "Cette porte semble avoir été scellée. Vous devez trouver un moyen de la fermer.", "_t")
+t("#VIOLET#You hear a door closing.", "#VIOLET#Vous entendez une porte se fermer.", "log")
+t("lever", "levier", "entity type")
+t("huge lever", "gros levier", "entity name")
+t("trigger", "déclencher", "entity type")
 -- texte non traduit
 --[==[
-t("sealed door", "sealed door", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
-t("This door seems to have been sealed off. You need to find a way to open it.", "This door seems to have been sealed off. You need to find a way to open it.", "_t")
-t("#VIOLET#You hear a door opening.", "#VIOLET#You hear a door opening.", "log")
-t("This door seems to have been sealed off. You need to find a way to close it.", "This door seems to have been sealed off. You need to find a way to close it.", "_t")
-t("#VIOLET#You hear a door closing.", "#VIOLET#You hear a door closing.", "log")
-t("lever", "lever", "entity type")
-t("huge lever", "huge lever", "entity name")
-t("trigger", "trigger", "entity type")
 t("bool", "bool", "entity subtype")
 --]==]
 
@@ -5351,30 +5319,22 @@ section "mod-tome/data/general/grids/ice.lua"
 
 t("floor", "sol", "entity type")
 t("ice", "glace", "entity subtype")
--- texte non traduit
---[==[
-t("icy floor", "icy floor", "entity name")
-t("frozen water", "frozen water", "entity name")
---]==]
-
+t("icy floor", "sol glacé", "entity name")
+t("frozen water", "eau gelée", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/icecave.lua"
 
 t("floor", "sol", "entity type")
+t("icecave", "grotte de glace", "entity subtype")
+t("ice cave floor", "sol de grotte de glace", "entity name")
 t("wall", "mur", "entity type")
--- texte non traduit
---[==[
-t("icecave", "icecave", "entity subtype")
-t("ice cave floor", "ice cave floor", "entity name")
-t("ice cave walls", "ice cave walls", "entity name")
-t("breakable ice wall", "breakable ice wall", "entity name")
-t("broken ice wall", "broken ice wall", "entity name")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("ice cave walls", "parois de grottes de glace", "entity name")
+t("breakable ice wall", "paroi de glace cassable", "entity name")
+t("broken ice wall", "paroi de glace cassée", "entity name")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/jungle.lua"
@@ -5382,58 +5342,47 @@ section "mod-tome/data/general/grids/jungle.lua"
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("grass", "herbe", "entity name")
+t("mud", "boue", "entity subtype")
+t("muddy floor", "sol boueux", "entity name")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- texte non traduit
---[==[
-t("mud", "mud", "entity subtype")
-t("muddy floor", "muddy floor", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/jungle_hut.lua"
 
 t("floor", "sol", "entity type")
+t("bamboo floor", "plancher en bambou", "entity subtype")
+t("bamboo hut floor", "plancher de hutte en bambou", "entity name")
 t("wall", "mur", "entity type")
+t("bamboo hut", "hutte en bambou", "entity subtype")
+t("bamboo wall", "mur en bambou", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- texte non traduit
---[==[
-t("bamboo floor", "bamboo floor", "entity subtype")
-t("bamboo hut floor", "bamboo hut floor", "entity name")
-t("bamboo hut", "bamboo hut", "entity subtype")
-t("bamboo wall", "bamboo wall", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/lava.lua"
 
 t("floor", "sol", "entity type")
+t("lava", "lave", "entity subtype")
+t("lava floor", "sol de lave", "entity name")
+t("#Source# burns #Target#!", "#Source# brûle #Target#!", "logCombat")
 t("wall", "mur", "entity type")
--- texte non traduit
---[==[
-t("lava", "lava", "entity subtype")
-t("lava floor", "lava floor", "entity name")
-t("#Source# burns #Target#!", "#Source# burns #Target#!", "logCombat")
-t("lava wall", "lava wall", "entity name")
-t("molten_lava", "molten_lava", "entity subtype")
-t("molten lava", "molten lava", "entity name")
-t("cave", "cave", "entity subtype")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("lava wall", "mur de lave", "entity name")
+t("molten_lava", "lave_en_fusion", "entity subtype")
+t("molten lava", "lave en fusion", "entity name")
+t("cave", "grotte", "entity subtype")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/malrok_walls.lua"
 
 t("floor", "sol", "entity type")
+t("rocks", "rochers", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
@@ -5442,80 +5391,67 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- texte non traduit
---[==[
-t("rocks", "rocks", "entity subtype")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/mountain.lua"
 
 t("floor", "sol", "entity type")
+t("rock", "rocher", "entity subtype")
+t("rocky ground", "sol rocailleux", "entity name")
+t("rockwall", "mur de roche", "entity type")
+t("rocky mountain", "montagne rocheuse", "entity name")
 t("wall", "mur", "entity type")
+t("snowy tree", "arbre enneigé", "entity name")
+t("cliffside", "falaise", "entity name")
+t("hard rocky mountain", "montagne de roche dure", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- texte non traduit
---[==[
-t("rock", "rock", "entity subtype")
-t("rocky ground", "rocky ground", "entity name")
-t("rockwall", "rockwall", "entity type")
-t("rocky mountain", "rocky mountain", "entity name")
-t("snowy tree", "snowy tree", "entity name")
-t("cliffside", "cliffside", "entity name")
-t("hard rocky mountain", "hard rocky mountain", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/psicave.lua"
 
 t("floor", "sol", "entity type")
+t("psitech", "techpsi", "entity subtype")
+t("psitech floor", "sol en techpsi", "entity name")
 t("wall", "mur", "entity type")
--- texte non traduit
---[==[
-t("psitech", "psitech", "entity subtype")
-t("psitech floor", "psitech floor", "entity name")
-t("psitech walls", "psitech walls", "entity name")
-t("psitech door", "psitech door", "entity name")
-t("psitech door (open)", "psitech door (open)", "entity name")
-t("This door seems to be sealed.", "This door seems to be sealed.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("psitech walls", "mur en techpsi", "entity name")
+t("psitech door", "porte en techpsi", "entity name")
+t("psitech door (open)", "porte en techpsi (ouverte)", "entity name")
+t("This door seems to be sealed.", "Cette porte semble avoir été scellée.", "_t")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/sand.lua"
 
 t("floor", "sol", "entity type")
+t("sand", "sable", "entity subtype")
+t("sand", "sable", "entity name")
 t("wall", "mur", "entity type")
+t("sandwall", "mur de sable", "entity name")
+t("unstable sand tunnel", "tunnel de sable instable", "_t")
+t("Loose sand is steadily filling this void, which could collapse suddenly and completely.", "Un filet de sable remplit régulièrement ce vide, qui pourrait s'effondrer soudainement et complètement.", "_t")
+t("The unstable sand tunnel collapses!", "Le tunnel de sable instable s'effondre!", "logSeen")
+t("You are crushed by the collapsing tunnel! You suffocate!", "Vous êtes écrasé par le tunnel qui s'effondre! Vous suffoquez!", "logPlayer")
+t("was buried alive", "est enterré vivant", "_t")
 t("tree", "arbre", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- texte non traduit
---[==[
-t("sand", "sand", "entity subtype")
-t("sand", "sand", "entity name")
-t("sandwall", "sandwall", "entity name")
-t("unstable sand tunnel", "unstable sand tunnel", "_t")
-t("Loose sand is steadily filling this void, which could collapse suddenly and completely.", "Loose sand is steadily filling this void, which could collapse suddenly and completely.", "_t")
-t("The unstable sand tunnel collapses!", "The unstable sand tunnel collapses!", "logSeen")
-t("You are crushed by the collapsing tunnel! You suffocate!", "You are crushed by the collapsing tunnel! You suffocate!", "logPlayer")
-t("was buried alive", "was buried alive", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/sanddunes.lua"
 
 t("floor", "sol", "entity type")
+t("sand", "sable", "entity subtype")
+t("sand", "sable", "entity name")
+t("sand dune", "dune de sable", "entity name")
+t("solidified sand dune", "dune de sable solidifié", "entity name")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
@@ -5523,11 +5459,7 @@ t("way to the previous level", "chemin vers le niveau précédent", "entity name
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- texte non traduit
 --[==[
-t("sand", "sand", "entity subtype")
-t("sand", "sand", "entity name")
 t("dune", "dune", "entity type")
-t("sand dune", "sand dune", "entity name")
-t("solidified sand dune", "solidified sand dune", "entity name")
 --]==]
 
 
@@ -5535,18 +5467,14 @@ t("solidified sand dune", "solidified sand dune", "entity name")
 section "mod-tome/data/general/grids/slime.lua"
 
 t("floor", "sol", "entity type")
+t("slime", "vase", "entity subtype")
+t("slime floor", "sol de vase", "entity name")
 t("wall", "mur", "entity type")
+t("slime wall", "mur de vase", "entity name")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
--- texte non traduit
---[==[
-t("slime", "slime", "entity subtype")
-t("slime floor", "slime floor", "entity name")
-t("slime wall", "slime wall", "entity name")
-t("slime door", "slime door", "entity name")
-t("open slime door", "open slime door", "entity name")
---]==]
-
+t("slime door", "porte en vase", "entity name")
+t("open slime door", "porte en vase ouverte", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/slimy_walls.lua"
@@ -5563,17 +5491,17 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("sealed door", "porte scellée", "entity name")
+t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
+t("This door seems to have been sealed off. You need to find a way to open it.", "Cette porte semble avoir été scellée. Vous devez trouver un moyen de l'ouvrir.", "_t")
+t("#VIOLET#You hear a door opening.", "#VIOLET#Vous entendez une porte s'ouvrir.", "log")
+t("This door seems to have been sealed off. You need to find a way to close it.", "Cette porte semble avoir été scellée. Vous devez trouver un moyen de la fermer.", "_t")
+t("#VIOLET#You hear a door closing.", "#VIOLET#Vous entendez une porte se fermer.", "log")
+t("lever", "levier", "entity type")
+t("huge lever", "gros levier", "entity name")
+t("trigger", "déclencher", "entity type")
 -- texte non traduit
 --[==[
-t("sealed door", "sealed door", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
-t("This door seems to have been sealed off. You need to find a way to open it.", "This door seems to have been sealed off. You need to find a way to open it.", "_t")
-t("#VIOLET#You hear a door opening.", "#VIOLET#You hear a door opening.", "log")
-t("This door seems to have been sealed off. You need to find a way to close it.", "This door seems to have been sealed off. You need to find a way to close it.", "_t")
-t("#VIOLET#You hear a door closing.", "#VIOLET#You hear a door closing.", "log")
-t("lever", "lever", "entity type")
-t("huge lever", "huge lever", "entity name")
-t("trigger", "trigger", "entity type")
 t("bool", "bool", "entity subtype")
 --]==]
 
@@ -5582,19 +5510,15 @@ t("bool", "bool", "entity subtype")
 section "mod-tome/data/general/grids/snowy_forest.lua"
 
 t("floor", "sol", "entity type")
+t("snowy_grass", "herbe_neigeuse", "entity subtype")
+t("snowy grass", "herbe enneigée", "entity name")
 t("wall", "mur", "entity type")
+t("winter tree", "arbre hivernal", "entity name")
+t("tall thick tree", "grand arbre touffu", "entity name")
 t("old road", "vieille route", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
--- texte non traduit
---[==[
-t("snowy_grass", "snowy_grass", "entity subtype")
-t("snowy grass", "snowy grass", "entity name")
-t("winter tree", "winter tree", "entity name")
-t("tall thick tree", "tall thick tree", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/underground_dreamy.lua"
@@ -5602,19 +5526,15 @@ section "mod-tome/data/general/grids/underground_dreamy.lua"
 t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("floor", "sol", "entity name")
+t("creep", "rampant", "entity subtype")
+t("mushroom creep", "champignon rampant", "entity name")
 t("wall", "mur", "entity type")
--- texte non traduit
---[==[
-t("creep", "creep", "entity subtype")
-t("mushroom creep", "mushroom creep", "entity name")
-t("underground thick vegetation", "underground thick vegetation", "entity name")
-t("huge loose rock", "huge loose rock", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("underground thick vegetation", "végétation souterraine épaisse", "entity name")
+t("huge loose rock", "énorme rocher instable", "entity name")
+t("This rock is loose, you think you can move it away.", "Ce rocher est instable, vous pensez pouvoir le déplacer.", "_t")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/underground_gloomy.lua"
@@ -5622,19 +5542,15 @@ section "mod-tome/data/general/grids/underground_gloomy.lua"
 t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("floor", "sol", "entity name")
+t("creep", "rampant", "entity subtype")
+t("mushroom creep", "champignon rampant", "entity name")
 t("wall", "mur", "entity type")
--- texte non traduit
---[==[
-t("creep", "creep", "entity subtype")
-t("mushroom creep", "mushroom creep", "entity name")
-t("underground thick vegetation", "underground thick vegetation", "entity name")
-t("huge loose rock", "huge loose rock", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("underground thick vegetation", "végétation souterraine épaisse", "entity name")
+t("huge loose rock", "énorme rocher instable", "entity name")
+t("This rock is loose, you think you can move it away.", "Ce rocher est instable, vous pensez pouvoir le déplacer.", "_t")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/underground_slimy.lua"
@@ -5642,61 +5558,49 @@ section "mod-tome/data/general/grids/underground_slimy.lua"
 t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("floor", "sol", "entity name")
+t("creep", "rampant", "entity subtype")
+t("mushroom creep", "champignon rampant", "entity name")
 t("wall", "mur", "entity type")
--- texte non traduit
---[==[
-t("creep", "creep", "entity subtype")
-t("mushroom creep", "mushroom creep", "entity name")
-t("underground thick vegetation", "underground thick vegetation", "entity name")
-t("huge loose rock", "huge loose rock", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("underground thick vegetation", "végétation souterraine épaisse", "entity name")
+t("huge loose rock", "énorme rocher instable", "entity name")
+t("This rock is loose, you think you can move it away.", "Ce rocher est instable, vous pensez pouvoir le déplacer.", "_t")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/void.lua"
 
 t("floor", "sol", "entity type")
+t("void", "vide", "entity subtype")
+t("void", "vide", "entity name")
+t("void", "vide", "entity type")
 t("wall", "mur", "entity type")
--- texte non traduit
---[==[
-t("void", "void", "entity subtype")
-t("void", "void", "entity name")
-t("void", "void", "entity type")
-t("rift", "rift", "entity subtype")
-t("crack in spacetime", "crack in spacetime", "entity name")
-t("rocks", "rocks", "entity subtype")
-t("floating rocks", "floating rocks", "entity name")
---]==]
-
+t("rift", "fissure", "entity subtype")
+t("crack in spacetime", "fissure dans l'espace temps", "entity name")
+t("rocks", "rochers", "entity subtype")
+t("floating rocks", "rochers flottants", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/water.lua"
 
 t("floor", "sol", "entity type")
+t("underwater", "sous_l'eau", "entity subtype")
+t("underwater", "sous l'eau", "entity name")
 t("wall", "mur", "entity type")
+t("coral wall", "mur de corail", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
 t("water", "eau", "entity subtype")
+t("underwater air bubble", "bulle d'air sous-marine", "entity name")
+t("#LIGHT_BLUE#Replenishes air level when standing inside.#LAST#", "#LIGHT_BLUE#Réalimente le niveau d'air lorsqu'on se tient à l'intérieur.#LAST#", "_t")
+t("#AQUAMARINE#The air bubbles are depleted!", "#AQUAMARINE#Les bulles d'air sont vidées!", "logSeen")
 t("deep water", "eau profonde", "entity name")
+t("poisoned deep water", "eau profonde empoisonnée", "entity name")
+t("#Source# poisons #Target#!", "#Source# empoisonne #Target#!", "logCombat")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
--- texte non traduit
---[==[
-t("underwater", "underwater", "entity subtype")
-t("underwater", "underwater", "entity name")
-t("coral wall", "coral wall", "entity name")
-t("underwater air bubble", "underwater air bubble", "entity name")
-t("#LIGHT_BLUE#Replenishes air level when standing inside.#LAST#", "#LIGHT_BLUE#Replenishes air level when standing inside.#LAST#", "_t")
-t("#AQUAMARINE#The air bubbles are depleted!", "#AQUAMARINE#The air bubbles are depleted!", "logSeen")
-t("poisoned deep water", "poisoned deep water", "entity name")
-t("#Source# poisons #Target#!", "#Source# poisons #Target#!", "logCombat")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/ant.lua"
@@ -6288,11 +6192,10 @@ t("The seething, pumping, disembodied blood of a horrendously powerful necromanc
 ------------------------------------------------
 section "mod-tome/data/general/npcs/losgoroth.lua"
 
-
+t("void", "vide", "entity subtype")
 -- texte non traduit
 --[==[
 t("elemental", "elemental", "entity type")
-t("void", "void", "entity subtype")
 t("Losgoroth are mighty void elementals, native to the void between the stars. They are rarely seen on a planet's surface.", "Losgoroth are mighty void elementals, native to the void between the stars. They are rarely seen on a planet's surface.", "_t")
 t("losgoroth", "losgoroth", "entity name")
 t("manaworm", "manaworm", "entity name")
@@ -6636,7 +6539,7 @@ t("giant grey rat", "giant grey rat", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/npcs/sandworm.lua"
 
-
+t("sand", "sable", "entity subtype")
 -- texte non traduit
 --[==[
 t("vermin", "vermin", "entity type")
@@ -6647,7 +6550,6 @@ t("sandworm destroyer", "sandworm destroyer", "entity name")
 t("A huge worm coloured as the sand it inhabits. This particular sandworm seems to have been bred for one purpose only: the eradication of everything that is non-sandworm, such as... you.", "A huge worm coloured as the sand it inhabits. This particular sandworm seems to have been bred for one purpose only: the eradication of everything that is non-sandworm, such as... you.", "_t")
 t("sand-drake", "sand-drake", "entity name")
 t("dragon", "dragon", "entity type")
-t("sand", "sand", "entity subtype")
 t("This unholy creature looks like a wingless dragon in shape, but it is sand-colored, making it all the more dangerous for its prey.", "This unholy creature looks like a wingless dragon in shape, but it is sand-colored, making it all the more dangerous for its prey.", "_t")
 t("gigantic sandworm tunneler", "gigantic sandworm tunneler", "entity name")
 t("The ground shakes as this huge worm burrows towards you, its gigantic mouth just as capable of devouring flesh as stone.", "The ground shakes as this huge worm burrows towards you, its gigantic mouth just as capable of devouring flesh as stone.", "_t")
@@ -7689,6 +7591,7 @@ t("fire", "feu", "_t")
 t("cold", "froid", "_t")
 t("lightning", "foudre", "_t")
 t("acid", "dégâts d'acid", "_t")
+t("slime", "vase", "entity keyword")
 -- texte non traduit
 --[==[
 t("barbed ", "barbed ", "entity name")
@@ -7750,7 +7653,6 @@ t("%s resists the grasping vines!", "%s resists the grasping vines!", "logSeen")
 t("manaburning ", "manaburning ", "entity name")
 t("manaburning", "manaburning", "entity keyword")
 t("slimey ", "slimey ", "entity name")
-t("slime", "slime", "entity keyword")
 t(" of persecution", " of persecution", "entity name")
 t("persecution", "persecution", "entity keyword")
 t("inquisitor's ", "inquisitor's ", "entity name")
@@ -7967,6 +7869,7 @@ t("noble", "noble", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/boots.lua"
 
+t("void", "vide", "entity keyword")
 t("blight", "maladie", "entity keyword")
 -- texte non traduit
 --[==[
@@ -7989,7 +7892,6 @@ t("speed", "speed", "entity keyword")
 t(" of rushing", " of rushing", "entity name")
 t("rushing", "rushing", "entity keyword")
 t(" of void walking", " of void walking", "entity name")
-t("void", "void", "entity keyword")
 t(" of disengagement", " of disengagement", "entity name")
 t("disengage", "disengage", "entity keyword")
 t("blood-soaked ", "blood-soaked ", "entity name")
@@ -8219,6 +8121,7 @@ t("wreckage", "wreckage", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/gloves.lua"
 
+t("sand", "sable", "entity keyword")
 t("temporal", "temporel", "entity keyword")
 -- texte non traduit
 --[==[
@@ -8233,7 +8136,6 @@ t("polar", "polar", "entity keyword")
 t("psychic's ", "psychic's ", "entity name")
 t("psychic", "psychic", "entity keyword")
 t("sand ", "sand ", "entity name")
-t("sand", "sand", "entity keyword")
 t("storm ", "storm ", "entity name")
 t("storm", "storm", "entity keyword")
 t("blighted ", "blighted ", "entity name")
@@ -8395,7 +8297,7 @@ t(" of the titan", " of the titan", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/light-armor.lua"
 
-
+t("void", "vide", "entity keyword")
 -- texte non traduit
 --[==[
 t("troll-hide ", "troll-hide ", "entity name")
@@ -8409,7 +8311,6 @@ t("duelist", "duelist", "entity keyword")
 t("volcanic ", "volcanic ", "entity name")
 t("volcanic", "volcanic", "entity keyword")
 t(" of the void", " of the void", "entity name")
-t("void", "void", "entity keyword")
 t("blink to a nearby random location (rad %d)", "blink to a nearby random location (rad %d)", "_t")
 t("%s uses %s %s!", "%s uses %s %s!", "logSeen")
 t(" of Toknor", " of Toknor", "entity name")
@@ -8439,7 +8340,7 @@ t("stealth", "stealth", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/lite.lua"
 
-
+t("void", "vide", "entity keyword")
 -- texte non traduit
 --[==[
 t("bright ", "bright ", "entity name")
@@ -8463,7 +8364,6 @@ t("piercing", "piercing", "entity keyword")
 t("dreamer's ", "dreamer's ", "entity name")
 t("guide", "guide", "entity keyword")
 t("void-walker's ", "void-walker's ", "entity name")
-t("void", "void", "entity keyword")
 t("nightwalker's ", "nightwalker's ", "entity name")
 t("nightwalker", "nightwalker", "entity keyword")
 t(" of illusion", " of illusion", "entity name")
@@ -8506,6 +8406,7 @@ t("fortif.", "fortif.", "entity keyword")
 section "mod-tome/data/general/objects/egos/mindstars.lua"
 
 t("nature", "dégâts de nature", "entity keyword")
+t("sand", "sable", "entity keyword")
 t("%s resists the mind attack!", "%s résiste à l'attaque mentale!", "logSeen")
 -- texte non traduit
 --[==[
@@ -8542,7 +8443,6 @@ t("frost", "frost", "entity keyword")
 t(" of gales", " of gales", "entity name")
 t("gales", "gales", "entity keyword")
 t(" of sand", " of sand", "entity name")
-t("sand", "sand", "entity keyword")
 t(" of storms", " of storms", "entity name")
 t("storms", "storms", "entity keyword")
 t(" of venom", " of venom", "entity name")
@@ -9105,6 +9005,7 @@ t("fire", "feu", "_t")
 t("cold", "froid", "_t")
 t("lightning", "foudre", "_t")
 t("acid", "dégâts d'acid", "_t")
+t("slime", "vase", "entity keyword")
 -- texte non traduit
 --[==[
 t("balanced ", "balanced ", "entity name")
@@ -9171,7 +9072,6 @@ t("enduring", "enduring", "entity keyword")
 t("manaburning ", "manaburning ", "entity name")
 t("manaburning", "manaburning", "entity keyword")
 t("slime-covered ", "slime-covered ", "entity name")
-t("slime", "slime", "entity keyword")
 t(" of persecution", " of persecution", "entity name")
 t("persecution", "persecution", "entity keyword")
 t("inquisitor's ", "inquisitor's ", "entity name")
@@ -21954,6 +21854,7 @@ t([[Bone shields start circling around you. They will each fully absorb one inst
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/corruptions.lua"
 
+t("bone", "os", "talent type")
 t("blight", "maladie", "talent type")
 -- texte non traduit
 --[==[
@@ -21964,7 +21865,6 @@ t("torment", "torment", "talent type")
 t("All the tools to torment your foes.", "All the tools to torment your foes.", "_t")
 t("vim", "vim", "talent type")
 t("Touch the very essence of your victims.", "Touch the very essence of your victims.", "_t")
-t("bone", "bone", "talent type")
 t("Harness the power of bones.", "Harness the power of bones.", "_t")
 t("hexes", "hexes", "talent type")
 t("Hex your foes, hindering and crippling them.", "Hex your foes, hindering and crippling them.", "_t")
@@ -24439,6 +24339,7 @@ t("A wave of energy passes through your fungus, making it release immediate heal
 section "mod-tome/data/talents/gifts/gifts.lua"
 
 t("antimagic", "anti-magie", "talent type")
+t("slime", "vase", "talent type")
 -- texte non traduit
 --[==[
 t("wild-gift", "wild-gift", "talent category")
@@ -24457,7 +24358,6 @@ t("summoning (augmentation)", "summoning (augmentation)", "talent type")
 t("The art of manipulating the lifespan and location of your summons.", "The art of manipulating the lifespan and location of your summons.", "_t")
 t("summoning (advanced)", "summoning (advanced)", "talent type")
 t("The art of improving the quality of your summons.", "The art of improving the quality of your summons.", "_t")
-t("slime", "slime", "talent type")
 t("Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "_t")
 t("fungus", "fungus", "talent type")
 t("By covering yourself in fungus, you better your healing.", "By covering yourself in fungus, you better your healing.", "_t")
@@ -35583,6 +35483,7 @@ t("undead", "mort-vivant", "effect subtype")
 t("bleed", "saignement", "effect subtype")
 t("physical", "physique", "effect subtype")
 t("skeleton", "squelette", "effect subtype")
+t("bone", "os", "effect subtype")
 t("movement", "mouvement", "effect subtype")
 t("gravity", "gravité", "effect subtype")
 -- nouveau texte
@@ -36463,7 +36364,6 @@ t("#Target# starts to bleed ice.", "#Target# starts to bleed ice.", "_t")
 t("+Frost Cut", "+Frost Cut", "_t")
 t("#Target# stops bleeding ice.", "#Target# stops bleeding ice.", "_t")
 t("-Frost Cut", "-Frost Cut", "_t")
-t("bone", "bone", "effect subtype")
 t("Shattered Remains", "Shattered Remains", "_t")
 t("health increased by %d, armour by %d and melee retaliation by %d.", "health increased by %d, armour by %d and melee retaliation by %d.", "tformat")
 t("#Target# picks up the remains of its fallen comrade.", "#Target# picks up the remains of its fallen comrade.", "_t")
@@ -38832,11 +38732,10 @@ t("Blighted Ruins", "Blighted Ruins", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/briagh-lair/npcs.lua"
 
-
+t("sand", "sable", "entity subtype")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("sand", "sand", "entity subtype")
 t("Briagh, Great Sand Wyrm", "Briagh, Great Sand Wyrm", "entity name")
 t("A towering sand drake stands before you. This wingless worm is mighty and could easily crush you.", "A towering sand drake stands before you. This wingless worm is mighty and could easily crush you.", "_t")
 --]==]
@@ -38866,9 +38765,9 @@ t("Briagh's Lair", "Briagh's Lair", "_t")
 section "mod-tome/data/zones/charred-scar/grids.lua"
 
 t("floor", "sol", "entity type")
+t("lava", "lave", "entity subtype")
 -- texte non traduit
 --[==[
-t("lava", "lava", "entity subtype")
 t("Farportal: the Far East", "Farportal: the Far East", "entity name")
 t("A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to the far east.", "#VIOLET#You enter the swirling portal and in the blink of an eye you are back to the far east.", "_t")
@@ -38981,9 +38880,9 @@ section "mod-tome/data/zones/crypt-kryl-feijan/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
+t("sealed door", "porte scellée", "entity name")
 -- texte non traduit
 --[==[
-t("sealed door", "sealed door", "entity name")
 t("demonic symbol", "demonic symbol", "entity name")
 t("altar", "altar", "entity name")
 --]==]
@@ -39205,10 +39104,9 @@ t("Fearscape", "Plan de la peur", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane-spell/grids.lua"
 
-
+t("#Source# burns #Target#!", "#Source# brûle #Target#!", "logCombat")
 -- texte non traduit
 --[==[
-t("#Source# burns #Target#!", "#Source# burns #Target#!", "logCombat")
 t("#Source# heals #Target#!", "#Source# heals #Target#!", "logCombat")
 --]==]
 
@@ -39314,6 +39212,8 @@ section "mod-tome/data/zones/dreams/grids.lua"
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("wall", "mur", "entity type")
+t("bamboo hut", "hutte en bambou", "entity subtype")
+t("bamboo wall", "mur en bambou", "entity name")
 t("floor", "sol", "entity subtype")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
@@ -39324,9 +39224,7 @@ t("mouse hole", "mouse hole", "entity name")
 t("A hole small enough that only you can go through.", "A hole small enough that only you can go through.", "_t")
 t("Dreamstone", "Dreamstone", "entity name")
 t("You touch the dreamstone and it disappears. You feel better.", "You touch the dreamstone and it disappears. You feel better.", "logPlayer")
-t("bamboo hut", "bamboo hut", "entity subtype")
 t("weird floor", "weird floor", "entity name")
-t("bamboo wall", "bamboo wall", "entity name")
 --]==]
 
 
@@ -39494,10 +39392,10 @@ section "mod-tome/data/zones/gladium/grids.lua"
 
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
+t("glass wall", "mur en verre", "entity name")
 -- texte non traduit
 --[==[
 t("Gladium Control Orb", "Gladium Control Orb", "entity name")
-t("glass wall", "glass wall", "entity name")
 --]==]
 
 
@@ -39582,11 +39480,11 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("sand", "sable", "entity subtype")
+t("huge loose rock", "énorme rocher instable", "entity name")
 -- texte non traduit
 --[==[
 t("roost", "roost", "entity subtype")
-t("sand", "sand", "entity subtype")
-t("huge loose rock", "huge loose rock", "entity name")
 t("This rock seems to have been sealed off. You need to find a way to open it.", "This rock seems to have been sealed off. You need to find a way to open it.", "_t")
 t("#VIOLET#You hear a rock crumbling opening.", "#VIOLET#You hear a rock crumbling opening.", "log")
 --]==]
@@ -39906,34 +39804,34 @@ section "mod-tome/data/zones/infinite-dungeon/grids.lua"
 
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
+t("huge loose rock", "énorme rocher instable", "entity name")
 t("underground", "souterrain", "entity subtype")
+t("sand", "sable", "entity subtype")
+t("autumn_grass", "herbe_d'automne", "entity subtype")
+t("lava", "lave", "entity subtype")
 t("burnt", "consumé", "entity subtype")
 t("floor", "sol", "entity type")
+t("snowy_grass", "herbe_neigeuse", "entity subtype")
+t("snowy grass", "herbe enneigée", "entity name")
+t("winter tree", "arbre hivernal", "entity name")
+t("rock", "rocher", "entity subtype")
+t("rift", "fissure", "entity subtype")
+t("crack in spacetime", "fissure dans l'espace temps", "entity name")
+t("underwater", "sous_l'eau", "entity subtype")
+t("underwater", "sous l'eau", "entity name")
+t("coral wall", "mur de corail", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
 t("next level", "niveau suivant", "entity name")
+t("lava floor", "sol de lave", "entity name")
+t("lava wall", "mur de lave", "entity name")
 -- texte non traduit
 --[==[
-t("huge loose rock", "huge loose rock", "entity name")
 t("crystal", "crystal", "entity subtype")
-t("sand", "sand", "entity subtype")
-t("autumn_grass", "autumn_grass", "entity subtype")
-t("lava", "lava", "entity subtype")
 t("burnt passage", "burnt passage", "entity name")
-t("snowy_grass", "snowy_grass", "entity subtype")
-t("snowy grass", "snowy grass", "entity name")
-t("winter tree", "winter tree", "entity name")
-t("rock", "rock", "entity subtype")
 t("snowy passage", "snowy passage", "entity name")
 t("Temporal Rift", "Temporal Rift", "entity name")
 t("The rift leads to another floor of the dungeon.", "The rift leads to another floor of the dungeon.", "_t")
-t("rift", "rift", "entity subtype")
-t("crack in spacetime", "crack in spacetime", "entity name")
-t("underwater", "underwater", "entity subtype")
-t("underwater", "underwater", "entity name")
-t("coral wall", "coral wall", "entity name")
-t("lava floor", "lava floor", "entity name")
-t("lava wall", "lava wall", "entity name")
 --]==]
 
 
@@ -40014,13 +39912,13 @@ t("grass", "herbe", "entity subtype")
 t("troll stew", "ragoût de troll", "entity name")
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity name")
+t("cave floor", "sol de la grotte", "entity name")
 t("floor", "sol", "entity subtype")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
 -- texte non traduit
 --[==[
 t("dirt", "dirt", "entity subtype")
-t("cave floor", "cave floor", "entity name")
 t("cave marker", "cave marker", "entity name")
 --]==]
 
@@ -40456,11 +40354,11 @@ t("floor", "sol", "entity type")
 t("grass", "herbe", "entity name")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
+t("tall thick tree", "grand arbre touffu", "entity name")
 t("grass", "herbe", "entity subtype")
 -- texte non traduit
 --[==[
 t("dark_grass", "dark_grass", "entity subtype")
-t("tall thick tree", "tall thick tree", "entity name")
 t("way to the lake of Nur", "way to the lake of Nur", "entity name")
 --]==]
 
@@ -40906,7 +40804,7 @@ t("Ritches Tunnels", "Ritches Tunnels", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/ruined-dungeon/grids.lua"
 
-
+t("sealed door", "porte scellée", "entity name")
 -- texte non traduit
 --[==[
 t("inscription", "inscription", "entity name")
@@ -40914,7 +40812,6 @@ t("way into the infinite dungeon", "way into the infinite dungeon", "entity name
 t("Infinite Dungeon", "Infinite Dungeon", "_t")
 t("You have accomplished great deads, but if you enter the infinite dungeon there will be no way back you will go on and on until you meet your glorious death.", "You have accomplished great deads, but if you enter the infinite dungeon there will be no way back you will go on and on until you meet your glorious death.", "_t")
 t("You should not go there. There is no way back. Ever. Maybe later when you have done all you must do.", "You should not go there. There is no way back. Ever. Maybe later when you have done all you must do.", "_t")
-t("sealed door", "sealed door", "entity name")
 t("orb", "orb", "entity name")
 t("Strange Orb", "Strange Orb", "_t")
 t("The orb looks inactive.", "The orb looks inactive.", "_t")
@@ -40999,7 +40896,7 @@ t("Ruins of Kor'Pul", "Ruins of Kor'Pul", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/sandworm-lair/npcs.lua"
 
-
+t("sand", "sable", "entity subtype")
 -- texte non traduit
 --[==[
 t("vermin", "vermin", "entity type")
@@ -41018,7 +40915,6 @@ t("Rumbling...", "Rumbling...", "_t")
 t("The ground shakes.  Something very large is stirring in the distance.", "The ground shakes.  Something very large is stirring in the distance.", "_t")
 t("Did you hear? Something seems to have devoured all the last sandworms!", "Did you hear? Something seems to have devoured all the last sandworms!", "_t")
 t("dragon", "dragon", "entity type")
-t("sand", "sand", "entity subtype")
 t("Corrupted Sand Wyrm", "Corrupted Sand Wyrm", "entity name")
 t("The sandworms are gone, devoured by this shrieking, warped horror.", "The sandworms are gone, devoured by this shrieking, warped horror.", "_t")
 --]==]
@@ -41345,7 +41241,7 @@ t("Slazish Fens", "Slazish Fens", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/slime-tunnels/grids.lua"
 
-
+t("sealed door", "porte scellée", "entity name")
 -- texte non traduit
 --[==[
 t("Strange Pedestal", "Strange Pedestal", "_t")
@@ -41361,7 +41257,6 @@ t("orb pedestal (elements)", "orb pedestal (elements)", "entity name")
 t("#rng# the Silent Death", "#rng# the Silent Death", "_t")
 t("orb pedestal (destruction)", "orb pedestal (destruction)", "entity name")
 t("#rng# the Crusher", "#rng# the Crusher", "_t")
-t("sealed door", "sealed door", "entity name")
 t("exit to Grushnak Pride", "exit to Grushnak Pride", "entity name")
 t("Entrance to the High Peak", "Entrance to the High Peak", "entity name")
 t("High Peak", "High Peak", "_t")
@@ -41385,7 +41280,7 @@ t("Slime Tunnels", "Slime Tunnels", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/sludgenest/grids.lua"
 
-
+t("sealed door", "porte scellée", "entity name")
 -- texte non traduit
 --[==[
 t("Strange Pedestal", "Strange Pedestal", "_t")
@@ -41401,7 +41296,6 @@ t("orb pedestal (elements)", "orb pedestal (elements)", "entity name")
 t("#rng# the Silent Death", "#rng# the Silent Death", "_t")
 t("orb pedestal (destruction)", "orb pedestal (destruction)", "entity name")
 t("#rng# the Crusher", "#rng# the Crusher", "_t")
-t("sealed door", "sealed door", "entity name")
 t("Entrance to the High Peak", "Entrance to the High Peak", "entity name")
 t("High Peak", "High Peak", "_t")
 t([[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
@@ -41440,11 +41334,11 @@ t("#YELLOW_GREEN#One of the wall shakes for a moment and then turns into %s!", "
 section "mod-tome/data/zones/south-beach/grids.lua"
 
 t("floor", "sol", "entity type")
+t("sand", "sable", "entity subtype")
 t("grass", "herbe", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 -- texte non traduit
 --[==[
-t("sand", "sand", "entity subtype")
 t("lovely umbrella", "lovely umbrella", "entity name")
 t("picnic basket", "picnic basket", "entity name")
 t("You have not finished your romantic time at the beach.", "You have not finished your romantic time at the beach.", "log")
@@ -42014,6 +41908,7 @@ section "mod-tome/data/zones/town-gates-of-morning/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("old road", "vieille route", "entity name")
+t("rockwall", "mur de roche", "entity type")
 t("grass", "herbe", "entity subtype")
 -- texte non traduit
 --[==[
@@ -42022,7 +41917,6 @@ t([[A farportal is a way to travel incredible distances in the blink of an eye. 
 This one seems to go near the town of Last Hope in Maj'Eyal.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go near the town of Last Hope in Maj'Eyal.]], "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the outskirts of Last Hope, with no trace of the portal...", "#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the outskirts of Last Hope, with no trace of the portal...", "_t")
-t("rockwall", "rockwall", "entity type")
 t("Sunwall mountain", "Sunwall mountain", "entity name")
 t("Way into the Slazish fens", "Way into the Slazish fens", "entity name")
 --]==]
@@ -42331,6 +42225,7 @@ t("polar cap", "polar cap", "entity name")
 section "mod-tome/data/zones/town-point-zero/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("void", "vide", "entity subtype")
 t("temporal", "temporel", "entity subtype")
 -- texte non traduit
 --[==[
@@ -42339,7 +42234,6 @@ t("Catch @himher@!", "Catch @himher@!", "_t")
 t("guardian of reality", "guardian of reality", "entity name")
 t("A stern-looking guardian, ever vigilant against the threats of the paradox.", "A stern-looking guardian, ever vigilant against the threats of the paradox.", "_t")
 t("elemental", "elemental", "entity type")
-t("void", "void", "entity subtype")
 t("Losgoroth are mighty void elementals, native to the void between the stars; they are rarely seen on the planet's surface.", "Losgoroth are mighty void elementals, native to the void between the stars; they are rarely seen on the planet's surface.", "_t")
 t("monstrous losgoroth", "monstrous losgoroth", "entity name")
 t("Zemekkys, Grand Keeper of Reality", "Zemekkys, Grand Keeper of Reality", "entity name")
@@ -42631,6 +42525,7 @@ t("grass", "herbe", "entity subtype")
 t("grass", "herbe", "entity name")
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
+t("sealed door", "porte scellée", "entity name")
 -- texte non traduit
 --[==[
 t("Lobby Portal", "Lobby Portal", "entity name")
@@ -42668,7 +42563,6 @@ t("Teaches the player 'Confusion'.", "Teaches the player 'Confusion'.", "_t")
 t("#VIOLET#You have learned the talent Confusion.", "#VIOLET#You have learned the talent Confusion.", "logPlayer")
 t("glowing door", "glowing door", "entity name")
 t("#VIOLET#You must achieve Enlightenment before you can pass. Seek ye to the west to discover the ancient art of Shoving Stuff.", "#VIOLET#You must achieve Enlightenment before you can pass. Seek ye to the west to discover the ancient art of Shoving Stuff.", "logPlayer")
-t("sealed door", "sealed door", "entity name")
 --]==]
 
 
@@ -42788,6 +42682,8 @@ t("Tutorial", "Tutoriel", "_t")
 section "mod-tome/data/zones/unhallowed-morass/grids.lua"
 
 t("wall", "mur", "entity type")
+t("rift", "fissure", "entity subtype")
+t("crack in spacetime", "fissure dans l'espace temps", "entity name")
 -- texte non traduit
 --[==[
 t("Temporal Rift", "Temporal Rift", "entity name")
@@ -42796,8 +42692,6 @@ t("Point Zero", "Point Zero", "_t")
 t([[The rift has brought you back to Point Zero, and the source of the disturbances.
 A temporal defiler is attacking the town, all the Keepers in range are attacking it!]], [[The rift has brought you back to Point Zero, and the source of the disturbances.
 A temporal defiler is attacking the town, all the Keepers in range are attacking it!]], "_t")
-t("rift", "rift", "entity subtype")
-t("crack in spacetime", "crack in spacetime", "entity name")
 --]==]
 
 
@@ -43083,9 +42977,12 @@ section "mod-tome/data/zones/wilderness/grids.lua"
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("wall", "mur", "entity type")
+t("lava", "lave", "entity subtype")
 t("ice", "glace", "entity subtype")
 t("water", "eau", "entity subtype")
 t("deep water", "eau profonde", "entity name")
+t("rockwall", "mur de roche", "entity type")
+t("sand", "sable", "entity subtype")
 -- texte non traduit
 --[==[
 t("plains", "plains", "entity name")
@@ -43094,7 +42991,6 @@ t("low hills", "low hills", "entity name")
 t("forest", "forest", "entity name")
 t("pine forest", "pine forest", "entity name")
 t("Old forest", "Old forest", "entity name")
-t("lava", "lava", "entity subtype")
 t("Charred Scar", "Charred Scar", "entity name")
 t("burnt forest", "burnt forest", "entity name")
 t("polar cap", "polar cap", "entity name")
@@ -43110,11 +43006,9 @@ t("lake", "lake", "entity name")
 t("Westreach lake", "Westreach lake", "entity name")
 t("Irondeep lake", "Irondeep lake", "entity name")
 t("Spellmurk lake", "Spellmurk lake", "entity name")
-t("rockwall", "rockwall", "entity type")
 t("name", "name", "entity name")
 t("Sunwall mountain", "Sunwall mountain", "entity name")
 t("jungle", "jungle", "entity name")
-t("sand", "sand", "entity subtype")
 t("desert", "desert", "entity name")
 t("oasis", "oasis", "entity name")
 t("Derth (Town)", "Derth (Town)", "entity name")
