@@ -150,7 +150,7 @@ t("Huge Appetite", "Énorme appétit", "achievement name")
 t("Ate 20 bosses.", "Manger 20 boss.", "_t")
 t("Headbanged 20 bosses to death.", "Headbanged 20 boss à  mort.", "_t")
 t("Are you out of your mind?!", "t'as perdu la tête?!", "achievement name")
-t("Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "Attirer l'attention de grands vers multicolores surpuissants dans l'armurerie Vor. Peut-être que fuir est de mise.", "_t")
+t("Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "Attirer l'attention de vieux vers multicolores surpuissants dans l'armurerie Vor. Peut-être que fuir est de mise.", "_t")
 t("I cleared the room of death and all I got was this lousy achievement!", "J'ai vidé la salle de la mort et tout ce que j'ai obtenu, c'est ce succès moche!", "achievement name")
 t("Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.", "Vous avez tué les sept vers surpuissants dans la \"salle de la mort\" de l'armurerie Vor.", "_t")
 t("I'm a cool hero", "Je suis un héros cool", "achievement name")
@@ -664,7 +664,7 @@ t("They can take on the aspects of creatures, summon creatures to them, feel the
 t("Summoner", "Invocateur", "birth descriptor name")
 t("Not all might comes from within. Hear the invocations of nature, hear its calling power. See that from without we can find our true strengths.", "Tout ne peut pas venir de l'intérieur. Entendez l'appel de la nature, entendez sa puissante attraction. Réalisez que notre vrai force se trouve dans ce qui nous entoure.", "_t")
 t("Summoners never fight alone. They are always ready to summon one of their many minions to fight at their side.", "Les invocateurs ne combattent jamais seul. Ils sont toujours prêts à invoquer l'un de leurs serviteurs pour combattre à leur coté.", "_t")
-t("Summons can range from a combat hound to a fire drake.", "Les invocations peuvent aller du chien de combat au dragon de feu.", "_t")
+t("Summons can range from a combat hound to a fire drake.", "Les invocations peuvent aller du chien de combat au dragonnet de feu.", "_t")
 t("Their most important stats are: Willpower and Cunning", "Leurs stats les plus importantes sont: Volonté et Ruse", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +1 Dextérité, +0 Constitution", "_t")
@@ -674,7 +674,7 @@ t("Max summons: %d", "Invocations max: %d", "tformat")
 t("Wyrmic", "Draconien", "birth descriptor name")
 t("Sleek, majestic, powerful... In the path of dragons we walk, and their breath is our breath. See their beating hearts with your eyes and taste their majesty between your teeth.", "Élégants, majestueux, puissants... Sur la voie des dragons nous marchons, et leur souffle est notre souffle. Regardez leurs coeurs battant avec vos yeux et goutez à leur grandeur entre vos dents.", "_t")
 t("Wyrmics are fighters who have learnt how to mimic some of the aspects of the dragons.", "Les draconiens sont des guerriers qui ont appris comment immiter certains aspects des dragons.", "_t")
-t("They have access to talents normally belonging to the various kind of drakes.", "Ils ont accès à certains talents appartenant normalement à l'espèce très variée des dragons.", "_t")
+t("They have access to talents normally belonging to the various kind of drakes.", "Ils ont accès à certains talents appartenant normalement à l'espèce très variée de dragonnets.", "_t")
 t("Their most important stats are: Strength and Willpower", "Leurs stats les plus importantes sont: Force et Volonté", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +5 Force, +0 Dextérité, +1 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 Magie, +3 Volonté, +0 Ruse", "_t")
@@ -782,8 +782,9 @@ t("Easier", "Très facile", "_t")
 ------------------------------------------------
 section "mod-tome/data/birth/races/construct.lua"
 
-t("Constructs are not natural creatures.", "Les constructs ne sont pas des créatures naturelles.", "_t")
-t("The most usual contructs are golems, but they can vary in shape, form and abilities.", "Les constructs les plus communs sont les golems, mais ils peuvent varier sous bien des aspects et capacités.", "_t")
+t("Construct", "Créature artificielle", "birth descriptor name")
+t("Constructs are not natural creatures.", "Les créatures artificielle ne sont pas des créatures naturelles.", "_t")
+t("The most usual contructs are golems, but they can vary in shape, form and abilities.", "Les Créatures artificielle les plus communnes sont les golems, mais ils peuvent varier sous bien des aspects et capacités.", "_t")
 t("Skin", "Peau", "birth facial category")
 t("Hairs", "Cheveux", "birth facial category")
 t("Facial features", "Modifications faciales", "birth facial category")
@@ -823,7 +824,6 @@ t("Tatoos 6", "Tatouages 6", "_t")
 t("Tatoos 7", "Tatouages 7", "_t")
 -- texte non traduit
 --[==[
-t("Construct", "Construct", "birth descriptor name")
 t("", "", "_t")
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
 --]==]
@@ -1789,7 +1789,7 @@ t([[Excellent! You truly prove that no mage-wrought flame or storm can stand aga
 #LIGHT_GREEN#*he gives you a potion.*#WHITE#
 Drink this. We extract it from a very rare kind of drake. It will grant you powers to fight and cancel magic, but never again will you be able to use magic.%s]], [[Excellent! Tu prouves vraiment qu'aucune flamme ou tempête magique ne peut résister à une lame et une flèche! Viens, apprends nos méthodes. Tu es prêt.
 #LIGHT_GREEN#*il vous donne une potion.*#WHITE#
-Buvez ça. Nous l'avons extrait d'une espèce de lézard très rare. Ca vous donnera des pouvoirs pour combattre et annuler la magie, mais vous ne pourrez plus jamais l'utiliser.%s]], "tformat")
+Buvez ça. Nous l'avons extrait d'une espèce de dragonnet très rare. Ca vous donnera des pouvoirs pour combattre et annuler la magie, mais vous ne pourrez plus jamais l'utiliser.%s]], "tformat")
 t("Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]", "Merci. Je ne laisserai pas la magie triompher! #LIGHT_GREEN#[vous buvez la potion]", "_t")
 
 ------------------------------------------------
@@ -1982,7 +1982,7 @@ t([[#LIGHT_GREEN#*A gigantic bone giant walks through the main gate.
 #LIGHT_GREEN#As an eerie blue glow fills where its eyes should be, the undead giant
 #LIGHT_GREEN#roars and multiple bones fly in your general direction!*
 ]], [[#LIGHT_GREEN#*Un gigantesque géant d'os traverse la porte principale.
-#LIGHT_GREEN#Sa forme est complexe et pointue, ressemblant à un drake, mais avec d'innombrables...
+#LIGHT_GREEN#Sa forme est complexe et pointue, ressemblant à un dragonnet, mais avec d'innombrables...
 #LIGHT_GREEN#piques à la place des ailes.
 #LIGHT_GREEN#L'énorme mort-vivant vous regarde avec une... intelligence inhabituelle.
 #LIGHT_GREEN#Vous avez entendu parler de lui. Ryal le Terrible, votre premier obstacle!
@@ -4316,7 +4316,7 @@ t("Where can I find all that?", "Où puis-je trouver tout cela?", "_t")
 t("Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I assume the orcs have some if they're cooking up portals to use that Orb on. Try the Vor Armory. It so happens that I know a back way in. Never mind why.", "Essayez votre porte-monnaie pour les 100 pièces d'or. Pour ce qui est de l'Athamé et du Diamant, je suppose que les orcs en ont s'ils préparent des portails pour utiliser l'Orbe. Essayez l'armurerie Vor. Il se trouve que je connais un moyen détourné d'y entrer. Peu importe pourquoi.", "_t")
 t("Thank you.", "Merci.", "_t")
 t("Of course there was no Resonating Diamond. What makes you think Briagh would let one loose for even a second?", "Bien sûr, il n'y avait pas de Diamant Résonnant. Qu'est-ce qui vous fait croire que Briagh en laisserait échapper un, même une seconde?", "_t")
-t("Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "Briagh, le grand Ver des sables. D'où pensez-vous que viennent les diamants résonnants? Ce sont des diamants ordinaires jusqu'à ce qu'ils restent coincés entre les écailles de Briagh pendant quelques siècles et s'imprègnent de son cycle de vie. Il dort sur un trésor de pierres et de métaux précieux, vous voyez.", "_t")
+t("Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "Briagh, le Grand Ver des sables. D'où pensez-vous que viennent les diamants résonnants? Ce sont des diamants ordinaires jusqu'à ce qu'ils restent coincés entre les écailles de Briagh pendant quelques siècles et s'imprègnent de son cycle de vie. Il dort sur un trésor de pierres et de métaux précieux, vous voyez.", "_t")
 t("Where might I find Briagh's lair??", "Où puis-je trouver le repaire de Briagh??", "_t")
 t("Well south of the Sunwall. I'll mark it for you on your map.", "Bien au sud du Mur Solaire. Je vais le marquer sur votre carte.", "_t")
 t("I'll be back with a Resonating Diamond.", "Je reviendrai avec un Diamant Résonnant.", "_t")
@@ -5605,112 +5605,102 @@ t("next level", "niveau suivant", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/npcs/ant.lua"
 
-
--- texte non traduit
---[==[
-t("insect", "insect", "entity type")
-t("ant", "ant", "entity subtype")
-t("giant white ant", "giant white ant", "entity name")
-t("It's a large white ant.", "It's a large white ant.", "_t")
-t("giant brown ant", "giant brown ant", "entity name")
-t("It's a large brown ant.", "It's a large brown ant.", "_t")
-t("giant carpenter ant", "giant carpenter ant", "entity name")
-t("It's a large black ant with huge mandibles.", "It's a large black ant with huge mandibles.", "_t")
-t("giant green ant", "giant green ant", "entity name")
-t("It's a large green ant.", "It's a large green ant.", "_t")
-t("giant red ant", "giant red ant", "entity name")
-t("It's a large red ant.", "It's a large red ant.", "_t")
-t("giant blue ant", "giant blue ant", "entity name")
-t("It's a large blue ant.", "It's a large blue ant.", "_t")
-t("giant yellow ant", "giant yellow ant", "entity name")
-t("It's a large yellow ant.", "It's a large yellow ant.", "_t")
-t("giant black ant", "giant black ant", "entity name")
-t("It's a large black ant.", "It's a large black ant.", "_t")
-t("giant fire ant", "giant fire ant", "entity name")
-t("It's a large red ant, wreathed in flames.", "It's a large red ant, wreathed in flames.", "_t")
-t("giant ice ant", "giant ice ant", "entity name")
-t("It's a large white ant. The air is frigid around it.", "It's a large white ant. The air is frigid around it.", "_t")
-t("giant lightning ant", "giant lightning ant", "entity name")
-t("It's a large yellow ant with sparks arcing across its body.", "It's a large yellow ant with sparks arcing across its body.", "_t")
-t("giant acid ant", "giant acid ant", "entity name")
-t("It's a large black ant.  Its porous skin oozes acid.", "It's a large black ant.  Its porous skin oozes acid.", "_t")
-t("giant army ant", "giant army ant", "entity name")
-t("It's a large ant with a heavy exoskeleton, geared for war.", "It's a large ant with a heavy exoskeleton, geared for war.", "_t")
-t("Queen Ant", "Queen Ant", "entity name")
-t("Queen of the ants, queen of the biting death!", "Queen of the ants, queen of the biting death!", "_t")
---]==]
-
+t("insect", "insecte", "entity type")
+t("ant", "fourmis", "entity subtype")
+t("giant white ant", "fourmi blanche géante", "entity name")
+t("It's a large white ant.", "Une grosse fourmi blanche.", "_t")
+t("giant brown ant", "fourmi brune géante", "entity name")
+t("It's a large brown ant.", "C'est une grosse fourmi brune.", "_t")
+t("giant carpenter ant", "fourmi charpentière géante", "entity name")
+t("It's a large black ant with huge mandibles.", "C'est une grosse fourmi noire avec d'énormes mandibules.", "_t")
+t("giant green ant", "fourmi verte géante", "entity name")
+t("It's a large green ant.", "Une grosse fourmi verte.", "_t")
+t("giant red ant", "fourmi rouge géante", "entity name")
+t("It's a large red ant.", "C'est une grosse fourmi rouge.", "_t")
+t("giant blue ant", "fourmi bleu géante", "entity name")
+t("It's a large blue ant.", "C'est une grosse fourmi bleu.", "_t")
+t("giant yellow ant", "fourmi jaune géante", "entity name")
+t("It's a large yellow ant.", "C'est une grosse fourmi jaune.", "_t")
+t("giant black ant", "fourmi noir géante", "entity name")
+t("It's a large black ant.", "C'est une grosse fourmi noir.", "_t")
+t("giant fire ant", "fourmi de feu géante", "entity name")
+t("It's a large red ant, wreathed in flames.", "C'est une grosse fourmi rouge, enveloppée de flammes.", "_t")
+t("giant ice ant", "fourmi de glace géante", "entity name")
+t("It's a large white ant. The air is frigid around it.", "C'est une grosse fourmi blanche. L'air est glacial autour d'elle.", "_t")
+t("giant lightning ant", "fourmi géante de foudre", "entity name")
+t("It's a large yellow ant with sparks arcing across its body.", "C'est une grosse fourmi jaune avec des étincelles sur le corps.", "_t")
+t("giant acid ant", "fourmi acide géante", "entity name")
+t("It's a large black ant.  Its porous skin oozes acid.", "C'est une grosse fourmi noire.  Sa peau poreuse suinte de l'acide.", "_t")
+t("giant army ant", "fourmi soldat géante", "entity name")
+t("It's a large ant with a heavy exoskeleton, geared for war.", "C'est une grosse fourmi avec un lourd exosquelette, préparée pour la guerre.", "_t")
+t("Queen Ant", "Fourmi Reine", "entity name")
+t("Queen of the ants, queen of the biting death!", "Reine des fourmis, reine de la mort par morsure!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/aquatic_critter.lua"
 
+t("aquatic", "aquatique", "entity type")
 t("critter", "bestiole", "entity subtype")
--- texte non traduit
---[==[
-t("aquatic", "aquatic", "entity type")
-t("giant eel", "giant eel", "entity name")
-t("A snake-like being, moving toward you.", "A snake-like being, moving toward you.", "_t")
-t("electric eel", "electric eel", "entity name")
-t("A snake-like being, radiating electricity.", "A snake-like being, radiating electricity.", "_t")
-t("dragon turtle", "dragon turtle", "entity name")
-t("A huge, elongated sea-green reptile.", "A huge, elongated sea-green reptile.", "_t")
-t("ancient dragon turtle", "ancient dragon turtle", "entity name")
-t("A huge, elongated sea-green reptile, it looks old and impenetrable.", "A huge, elongated sea-green reptile, it looks old and impenetrable.", "_t")
-t("squid", "squid", "entity name")
-t("Darting its many tentacles toward you, it tries to lock you down.", "Darting its many tentacles toward you, it tries to lock you down.", "_t")
-t("ink squid", "ink squid", "entity name")
-t("Darting its many tentacles toward you, it tries to blind you with its murky ink.", "Darting its many tentacles toward you, it tries to blind you with its murky ink.", "_t")
---]==]
-
+t("giant eel", "anguille géante", "entity name")
+t("A snake-like being, moving toward you.", "Une créature ressemblant à un serpent, se déplaçant vers vous.", "_t")
+t("electric eel", "anguille électrique", "entity name")
+t("A snake-like being, radiating electricity.", "Une créature ressemblant à un serpent, irradiant d'électricité.", "_t")
+t("dragon turtle", "tortue dragon", "entity name")
+t("A huge, elongated sea-green reptile.", "Un énorme reptile de couleur vert marin de forme allongée.", "_t")
+t("ancient dragon turtle", "ancienne tortue dragon", "entity name")
+t("A huge, elongated sea-green reptile, it looks old and impenetrable.", "Un énorme reptile de couleur vert marin de forme allongée, il semble vieux et impénétrable.", "_t")
+t("squid", "calmar", "entity name")
+t("Darting its many tentacles toward you, it tries to lock you down.", "Il envoie ses nombreux tentacules vers vous, pour essayer de vous immobiliser.", "_t")
+t("ink squid", "calmar à encre", "entity name")
+t("Darting its many tentacles toward you, it tries to blind you with its murky ink.", "Il envoie ses nombreux tentacules vers vous et essaie de vous aveugler avec son encre visqueuse.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/aquatic_demon.lua"
 
+t("aquatic", "aquatique", "entity type")
 t("demon", "démon", "entity subtype")
+t("water imp", "diablotin aquatique", "entity name")
+t("A small water demon, lobbing spells at you.", "Un petit démon des eaux, qui vous lance des sorts.", "_t")
+t("Walrog, the lord of Water, is fearsome to behold. The water writhes around him as if trying to escape, making his form indistinct. He does not seem surprised to see you.", "Walrog, le seigneur de l'eau, est redoutable à voir. L'eau se tortille autour de lui comme si elle essayait de s'échapper, rendant sa forme indistincte. Il ne semble pas surpris de vous voir.", "_t")
 -- texte non traduit
 --[==[
-t("aquatic", "aquatic", "entity type")
-t("water imp", "water imp", "entity name")
-t("A small water demon, lobbing spells at you.", "A small water demon, lobbing spells at you.", "_t")
 t("Walrog", "Walrog", "entity name")
-t("Walrog, the lord of Water, is fearsome to behold. The water writhes around him as if trying to escape, making his form indistinct. He does not seem surprised to see you.", "Walrog, the lord of Water, is fearsome to behold. The water writhes around him as if trying to escape, making his form indistinct. He does not seem surprised to see you.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/bear.lua"
 
-
+t("bear", "ours", "entity subtype")
+t("brown bear", "ours brun", "entity name")
+t("The weakest of bears, covered in brown shaggy fur.", "Le plus faible des ours, couvert d'une fourrure brune et hirsute.", "_t")
+t("black bear", "ours noir", "entity name")
+t("Do you smell like honey? 'Cause this bear wants honey.", "Est-ce que tu sens le miel ? Parce que cet ours veut du miel.", "_t")
+t("cave bear", "ours des cavernes", "entity name")
+t("It has come down from its cave foraging for food. Unfortunately, it found you.", "Il est descendu de sa grotte pour chercher de la nourriture. Malheureusement, il vous a trouvé.", "_t")
+t("war bear", "ours de guerre", "entity name")
+t("Bears with tusks, trained to kill.", "Des ours avec des défenses, entraînés à tuer.", "_t")
+t("grizzly bear", "ours grizzly", "entity name")
+t("A huge, beastly bear, more savage than most of its kind.", "Un ours énorme, bestial, plus sauvage que la plupart de ses congénères.", "_t")
+t("polar bear", "ours polaire", "entity name")
+t("This huge white bear has wandered south in search of food.", "Cet énorme ours blanc a erré vers le sud à la recherche de nourriture.", "_t")
 -- texte non traduit
 --[==[
 t("animal", "animal", "entity type")
-t("bear", "bear", "entity subtype")
-t("brown bear", "brown bear", "entity name")
-t("The weakest of bears, covered in brown shaggy fur.", "The weakest of bears, covered in brown shaggy fur.", "_t")
-t("black bear", "black bear", "entity name")
-t("Do you smell like honey? 'Cause this bear wants honey.", "Do you smell like honey? 'Cause this bear wants honey.", "_t")
-t("cave bear", "cave bear", "entity name")
-t("It has come down from its cave foraging for food. Unfortunately, it found you.", "It has come down from its cave foraging for food. Unfortunately, it found you.", "_t")
-t("war bear", "war bear", "entity name")
-t("Bears with tusks, trained to kill.", "Bears with tusks, trained to kill.", "_t")
-t("grizzly bear", "grizzly bear", "entity name")
-t("A huge, beastly bear, more savage than most of its kind.", "A huge, beastly bear, more savage than most of its kind.", "_t")
-t("polar bear", "polar bear", "entity name")
-t("This huge white bear has wandered south in search of food.", "This huge white bear has wandered south in search of food.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/bird.lua"
 
+t("bird", "oiseau", "entity subtype")
+t("Ever burning, ever dying, ever reviving, the Phoenix swoops down upon you, seeking to share its fiery fate with you.", "Toujours en train de brûler, de mourir et de revivre, le phénix se jette sur vous, cherchant à partager son destin ardent avec vous.", "_t")
+t("#LIGHT_RED#%s raises from the dead!", "#LIGHT_RED#%s ressuscite d'entre les morts!", "logSeen")
 t("RESURRECT!", "RESSUSCITE!", "_t")
 -- texte non traduit
 --[==[
 t("animal", "animal", "entity type")
-t("bird", "bird", "entity subtype")
 t("Phoenix", "Phoenix", "entity name")
-t("Ever burning, ever dying, ever reviving, the Phoenix swoops down upon you, seeking to share its fiery fate with you.", "Ever burning, ever dying, ever reviving, the Phoenix swoops down upon you, seeking to share its fiery fate with you.", "_t")
-t("#LIGHT_RED#%s raises from the dead!", "#LIGHT_RED#%s raises from the dead!", "logSeen")
 --]==]
 
 
@@ -5719,17 +5709,13 @@ section "mod-tome/data/general/npcs/bone-giant.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("giant", "géant", "entity subtype")
--- texte non traduit
---[==[
-t("bone giant", "bone giant", "entity name")
-t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "_t")
-t("eternal bone giant", "eternal bone giant", "entity name")
-t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "_t")
-t("heavy bone giant", "heavy bone giant", "entity name")
-t("runed bone giant", "runed bone giant", "entity name")
-t("A towering creature, made from the bones of hundreds of dead bodies, rune-etched and infused with hateful sorceries.", "A towering creature, made from the bones of hundreds of dead bodies, rune-etched and infused with hateful sorceries.", "_t")
---]==]
-
+t("bone giant", "géant osseux", "entity name")
+t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "Une créature imposante, faite d'ossements de dizaines de cadavres. Elle est entourée d'une aura impie.", "_t")
+t("eternal bone giant", "géant osseux éternel", "entity name")
+t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "Une créature imposante, faite des os de centaines de cadavres. Elle est entourée d'une aura impie.", "_t")
+t("heavy bone giant", "géant osseux massif", "entity name")
+t("runed bone giant", "géant osseux runique", "entity name")
+t("A towering creature, made from the bones of hundreds of dead bodies, rune-etched and infused with hateful sorceries.", "Une créature imposante, faite des os de centaines de cadavres, gravée de runes et imprégnée de détestables sortilèges.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/canine.lua"
@@ -5737,21 +5723,21 @@ section "mod-tome/data/general/npcs/canine.lua"
 t("canine", "canin", "entity subtype")
 t("wolf", "loup", "entity name")
 t("Lean, mean, and shaggy, it stares at you with hungry eyes.", "Maigre, méchant et grincheux, il vous regarde avec des yeux affamés.", "_t")
+t("great wolf", "grand loup", "entity name")
+t("Larger than a normal wolf, it prowls and snaps at you.", "Plus grand qu'un loup normal, il rôde et se jette sur vous.", "_t")
+t("dire wolf", "loup sinistre", "entity name")
+t("Easily as big as a horse, this wolf menaces you with its claws and fangs.", "Facilement aussi grand qu'un cheval, ce loup vous menace avec ses griffes et ses crocs.", "_t")
 t("white wolf", "loup blanc", "entity name")
+t("A large and muscled wolf from the northern wastes. Its breath is cold and icy, and its fur coated in frost.", "Un loup grand et musclé des forêts du nord. Son souffle est froid et glacé, et sa fourrure recouverte de givre.", "_t")
 t("warg", "loup géant", "entity name")
 t("It is a large wolf with eyes full of cunning.", "C'est un grand loup avec des yeux pleins de ruse.", "_t")
 t("fox", "renard", "entity name")
 t("The quick brown fox jumps over the lazy dog.", "Le rapide renard brun saute par-dessus le chien paresseux.", "_t")
+t("Rungof the Warg Titan", "Rungof le Loup Géant Monstrueux", "entity name")
+t("It is a large wolf with eyes full of cunning, thrice the size of a normal warg.", "C'est un grand loup aux yeux pleins de ruse, trois fois plus grand qu'un loup géant normal.", "_t")
 -- texte non traduit
 --[==[
 t("animal", "animal", "entity type")
-t("great wolf", "great wolf", "entity name")
-t("Larger than a normal wolf, it prowls and snaps at you.", "Larger than a normal wolf, it prowls and snaps at you.", "_t")
-t("dire wolf", "dire wolf", "entity name")
-t("Easily as big as a horse, this wolf menaces you with its claws and fangs.", "Easily as big as a horse, this wolf menaces you with its claws and fangs.", "_t")
-t("A large and muscled wolf from the northern wastes. Its breath is cold and icy, and its fur coated in frost.", "A large and muscled wolf from the northern wastes. Its breath is cold and icy, and its fur coated in frost.", "_t")
-t("Rungof the Warg Titan", "Rungof the Warg Titan", "entity name")
-t("It is a large wolf with eyes full of cunning, thrice the size of a normal warg.", "It is a large wolf with eyes full of cunning, thrice the size of a normal warg.", "_t")
 --]==]
 
 
@@ -5759,80 +5745,75 @@ t("It is a large wolf with eyes full of cunning, thrice the size of a normal war
 section "mod-tome/data/general/npcs/cold-drake.lua"
 
 t("cold", "froid", "entity subtype")
+t("cold drake hatchling", "jeune dragonnet de froid", "entity name")
+t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
+t("cold drake", "dragonnet de froid", "entity name")
+t("A mature cold drake, armed with deadly breath and nasty claws.", "Un dragonnet de froid mature, armé d'un souffle mortel et de griffes redoutables.", "_t")
+t("ice wyrm", "ver des glaces", "entity name")
+t("An old and powerful cold drake, armed with deadly breath and nasty claws.", "Un vieux et puissant dragon de froid, armé d'un souffle mortel et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("cold drake hatchling", "cold drake hatchling", "entity name")
-t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "_t")
-t("cold drake", "cold drake", "entity name")
-t("A mature cold drake, armed with deadly breath and nasty claws.", "A mature cold drake, armed with deadly breath and nasty claws.", "_t")
-t("ice wyrm", "ice wyrm", "entity name")
-t("An old and powerful cold drake, armed with deadly breath and nasty claws.", "An old and powerful cold drake, armed with deadly breath and nasty claws.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/construct.lua"
 
-
+t("construct", "créature artificielle", "entity type")
+t("broken golem", "golem cassé", "entity name")
+t("This golem is badly damaged.", "Ce golem est très endommagé.", "_t")
+t("This golem's eyes glow with magical energies.", "Les yeux de ce golem brillent d'énergies magiques.", "_t")
+t("alchemist golem", "golem d'alchimiste", "entity name")
 -- texte non traduit
 --[==[
-t("construct", "construct", "entity type")
 t("golem", "golem", "entity subtype")
-t("broken golem", "broken golem", "entity name")
-t("This golem is badly damaged.", "This golem is badly damaged.", "_t")
 t("golem", "golem", "entity name")
-t("This golem's eyes glow with magical energies.", "This golem's eyes glow with magical energies.", "_t")
-t("alchemist golem", "alchemist golem", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/crystal.lua"
 
+t("immovable", "inamovible", "entity type")
+t("crystal", "cristal", "entity subtype")
+t("A shining crystal formation charged with magical energies.", "Une formation cristalline brillante chargée d'énergies magiques.", "_t")
+t("wisp", "volute", "entity name")
+t("elemental", "élémentaire", "entity type")
 t("light", "lumière", "entity subtype")
--- texte non traduit
---[==[
-t("immovable", "immovable", "entity type")
-t("crystal", "crystal", "entity subtype")
-t("A shining crystal formation charged with magical energies.", "A shining crystal formation charged with magical energies.", "_t")
-t("wisp", "wisp", "entity name")
-t("elemental", "elemental", "entity type")
-t("A floating orb of magical energy. It shines with a radiant light. They explode upon contact.", "A floating orb of magical energy. It shines with a radiant light. They explode upon contact.", "_t")
-t("red crystal", "red crystal", "entity name")
-t("A formation of red crystal. It emits bright red, scorching light.", "A formation of red crystal. It emits bright red, scorching light.", "_t")
-t("white crystal", "white crystal", "entity name")
-t("A formation of white crystal. It emits bright white, chilling light.", "A formation of white crystal. It emits bright white, chilling light.", "_t")
-t("black crystal", "black crystal", "entity name")
-t("A formation of black crystal. It absorbs all light around it.", "A formation of black crystal. It absorbs all light around it.", "_t")
-t("crimson crystal", "crimson crystal", "entity name")
-t("A formation of crimson crystal. It emits a crimson light reminiscent of blood.", "A formation of crimson crystal. It emits a crimson light reminiscent of blood.", "_t")
-t("blue crystal", "blue crystal", "entity name")
-t("A formation of blue crystal. Its light shines like the ocean's waves.", "A formation of blue crystal. Its light shines like the ocean's waves.", "_t")
-t("multi-hued crystal", "multi-hued crystal", "entity name")
-t("A formation of multi-hued crystal. It shines with all the colors of the rainbow.", "A formation of multi-hued crystal. It shines with all the colors of the rainbow.", "_t")
-t("shimmering crystal", "shimmering crystal", "entity name")
-t("A formation of shimmering crystal. Orbs of light circle around it.", "A formation of shimmering crystal. Orbs of light circle around it.", "_t")
---]==]
-
+t("A floating orb of magical energy. It shines with a radiant light. They explode upon contact.", "Une orbe flottante faite d'énergie magique. Elle brille d'une lumière radieuse. Elles explosent au contact.", "_t")
+t("red crystal", "cristal rouge", "entity name")
+t("A formation of red crystal. It emits bright red, scorching light.", "Une formation de cristal rouge. Il émet une lumière rouge vif, brûlante.", "_t")
+t("white crystal", "cristal blanc", "entity name")
+t("A formation of white crystal. It emits bright white, chilling light.", "Une formation de cristal blanc. Il émet une lumière blanche, brillante et glaçante.", "_t")
+t("black crystal", "cristal noir", "entity name")
+t("A formation of black crystal. It absorbs all light around it.", "Une formation de cristal noir. Il absorbe toute la lumière qui l'entoure.", "_t")
+t("crimson crystal", "cristal cramoisie", "entity name")
+t("A formation of crimson crystal. It emits a crimson light reminiscent of blood.", "Une formation de cristal cramoisie. Il émet une lumière cramoisie qui rappelle celle du sang.", "_t")
+t("blue crystal", "cristal bleu", "entity name")
+t("A formation of blue crystal. Its light shines like the ocean's waves.", "Une formation de cristal bleu. Sa lumière brille comme les vagues de l'océan.", "_t")
+t("multi-hued crystal", "cristal multicolore", "entity name")
+t("A formation of multi-hued crystal. It shines with all the colors of the rainbow.", "Une formation de cristal multicolore. Il brille de toutes les couleurs de l'arc-en-ciel.", "_t")
+t("shimmering crystal", "cristal chatoyant", "entity name")
+t("A formation of shimmering crystal. Orbs of light circle around it.", "Une formation de cristal chatoyant. Des orbes de lumière l'entourent.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/elven-caster.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("elven mage", "mage elfe", "entity name")
+t("An elven mage, dressed in dark robes.", "Un mage elfe, habillé de robes sombres.", "_t")
+t("elven tempest", "tempête elfe", "entity name")
+t("An elven mage, dressed in crackling blue robes, and smelling of ozone.", "Un mage elfe, vêtu de robes bleues crépitantes, et sentant l'ozone.", "_t")
+t("elven cultist", "culturiste elfe", "entity name")
+t("An elven cultist, dressed in sickening green robes.", "Un cultiste elfe, habillé de robes vertes écoeurantes.", "_t")
+t("elven blood mage", "mage de sang elfe", "entity name")
+t("An elven blood mage, dressing in dark, bloodied robes.", "Un mage de sang elfe, vêtu de robes sombres et ensanglantées.", "_t")
+t("elven corruptor", "corrupteur elfe", "entity name")
+t("An elven corruptor, drawn to these blighted lands.", "Un corrupteur elfe, attiré par ces terres maudites.", "_t")
 -- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
-t("elven mage", "elven mage", "entity name")
-t("An elven mage, dressed in dark robes.", "An elven mage, dressed in dark robes.", "_t")
-t("elven tempest", "elven tempest", "entity name")
-t("An elven mage, dressed in crackling blue robes, and smelling of ozone.", "An elven mage, dressed in crackling blue robes, and smelling of ozone.", "_t")
-t("elven cultist", "elven cultist", "entity name")
-t("An elven cultist, dressed in sickening green robes.", "An elven cultist, dressed in sickening green robes.", "_t")
-t("elven blood mage", "elven blood mage", "entity name")
-t("An elven blood mage, dressing in dark, bloodied robes.", "An elven blood mage, dressing in dark, bloodied robes.", "_t")
-t("elven corruptor", "elven corruptor", "entity name")
-t("An elven corruptor, drawn to these blighted lands.", "An elven corruptor, drawn to these blighted lands.", "_t")
 --]==]
 
 
@@ -5840,49 +5821,44 @@ t("An elven corruptor, drawn to these blighted lands.", "An elven corruptor, dra
 section "mod-tome/data/general/npcs/elven-warrior.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("elven guard", "garde elfe", "entity name")
+t("An elven guard.", "Un garde elfe.", "_t")
+t("mean looking elven guard", "garde elfe à l'air méchant", "entity name")
+t("An elven guard, scarred and sullen.", "Un garde elfe, balafré et renfrogné.", "_t")
+t("elven warrior", "guerrier elfe", "entity name")
+t("An elven warrior, clad in heavy armour.", "Un guerrier elfe, vêtu d'une armure lourde.", "_t")
+t("elven elite warrior", "guerrier d'élite elfe", "entity name")
 -- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
-t("elven guard", "elven guard", "entity name")
-t("An elven guard.", "An elven guard.", "_t")
-t("mean looking elven guard", "mean looking elven guard", "entity name")
-t("An elven guard, scarred and sullen.", "An elven guard, scarred and sullen.", "_t")
-t("elven warrior", "elven warrior", "entity name")
-t("An elven warrior, clad in heavy armour.", "An elven warrior, clad in heavy armour.", "_t")
-t("elven elite warrior", "elven elite warrior", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/faeros.lua"
 
+t("elemental", "élémentaire", "entity type")
 t("fire", "feu", "entity subtype")
--- texte non traduit
---[==[
-t("elemental", "elemental", "entity type")
-t("faeros", "faeros", "entity name")
-t("Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.", "Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.", "_t")
-t("greater faeros", "greater faeros", "entity name")
-t("ultimate faeros", "ultimate faeros", "entity name")
---]==]
-
+t("faeros", "feuros", "entity name")
+t("Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.", "Les Feuros sont des élémentaires de feu très intelligents, rarement vus en dehors des volcans. Ils ne sont probablement pas originaires de ce monde.", "_t")
+t("greater faeros", "grand feuros", "entity name")
+t("ultimate faeros", "feuros ultime", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/feline.lua"
 
-
+t("feline", "felin", "entity subtype")
+t("snow cat", "chat des neiges", "entity name")
+t("A large cat with a grey fur matted with black.", "Un grand chat avec une fourrure grise mouchetée de noir.", "_t")
+t("panther", "panthère", "entity name")
+t("A large black cat, slender and muscular.", "Un grand chat noir, svelte et musclé.", "_t")
+t("tiger", "tigre", "entity name")
+t("A truly magnificent beast, with fur striped black and yellow.", "Une bête vraiment magnifique, à la fourrure rayée de noir et de jaune.", "_t")
+t("sabertooth tiger", "tigre à dents de sabre", "entity name")
+t("This cat is simply enormous, and has fangs with the size and sharpness of short swords.", "Ce chat est tout simplement énorme, et possède des crocs de la taille et du tranchant d'une épée courte.", "_t")
 -- texte non traduit
 --[==[
 t("animal", "animal", "entity type")
-t("feline", "feline", "entity subtype")
-t("snow cat", "snow cat", "entity name")
-t("A large cat with a grey fur matted with black.", "A large cat with a grey fur matted with black.", "_t")
-t("panther", "panther", "entity name")
-t("A large black cat, slender and muscular.", "A large black cat, slender and muscular.", "_t")
-t("tiger", "tiger", "entity name")
-t("A truly magnificent beast, with fur striped black and yellow.", "A truly magnificent beast, with fur striped black and yellow.", "_t")
-t("sabertooth tiger", "sabertooth tiger", "entity name")
-t("This cat is simply enormous, and has fangs with the size and sharpness of short swords.", "This cat is simply enormous, and has fangs with the size and sharpness of short swords.", "_t")
 --]==]
 
 
@@ -5890,15 +5866,15 @@ t("This cat is simply enormous, and has fangs with the size and sharpness of sho
 section "mod-tome/data/general/npcs/fire-drake.lua"
 
 t("fire", "feu", "entity subtype")
+t("fire drake hatchling", "jeune dragonnet de feu", "entity name")
+t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
+t("fire drake", "dragonnet de feu", "entity name")
+t("A mature fire drake, armed with deadly breath and nasty claws.", "Un dragonnet de feu mature, armé d'un souffle mortel et de griffes redoutables.", "_t")
+t("fire wyrm", "ver de feu", "entity name")
+t("An old and powerful fire drake, armed with deadly breath and nasty claws.", "Un vieux et puissant dragon de feu, armé d'un souffle mortel et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("fire drake hatchling", "fire drake hatchling", "entity name")
-t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "_t")
-t("fire drake", "fire drake", "entity name")
-t("A mature fire drake, armed with deadly breath and nasty claws.", "A mature fire drake, armed with deadly breath and nasty claws.", "_t")
-t("fire wyrm", "fire wyrm", "entity name")
-t("An old and powerful fire drake, armed with deadly breath and nasty claws.", "An old and powerful fire drake, armed with deadly breath and nasty claws.", "_t")
 --]==]
 
 
@@ -5906,17 +5882,17 @@ t("An old and powerful fire drake, armed with deadly breath and nasty claws.", "
 section "mod-tome/data/general/npcs/ghost.lua"
 
 t("undead", "mort-vivant", "entity type")
+t("ghost", "fantôme", "entity subtype")
+t("dread", "hanteur", "entity name")
+t("It is a form that screams its presence against the eye. Death incarnate, its hideous black body seems to struggle against reality as the universe itself strives to banish it.", "C'est une forme qui crie sa présence à l'œil nu. La mort incarnée, son hideux corps noir semble lutter contre la réalité alors que l'univers lui-même s'efforce de le bannir.", "_t")
+t("dreadmaster", "maître hanteur", "entity name")
+t("It is an unlife of power almost unequaled. An affront to existence, its very touch abuses and disrupts the flow of life, and its unearthly limbs, of purest black, crumble rock and wither flesh with ease.", "C'est une vie sans vie dont la puissance est presque inégalée. Un affront à l'existence, son seul contact abuse et perturbe le flux de la vie, et ses membres surnaturels, d'un noir pur, effritent la roche et flétrissent la chair avec facilité.", "_t")
+t("It is a ghostly woman's form that wails mournfully.", "C'est la forme d'une femme fantôme qui gémit de façon lugubre.", "_t")
+t("ruin banshee", "banshee de la ruine", "entity name")
+t("A vengeful, screaming soul given form with the breath of Urh'Rok himself. The vapors of the Fearscape seep from its dimension-bending form, withering and searing.", "Une âme vengeresse et hurlante qui a pris forme avec le souffle d'Urh'Rok lui-même. Les vapeurs du Plan de la Peur s'échappent de sa forme, flétrissante et brûlante.", "_t")
 -- texte non traduit
 --[==[
-t("ghost", "ghost", "entity subtype")
-t("dread", "dread", "entity name")
-t("It is a form that screams its presence against the eye. Death incarnate, its hideous black body seems to struggle against reality as the universe itself strives to banish it.", "It is a form that screams its presence against the eye. Death incarnate, its hideous black body seems to struggle against reality as the universe itself strives to banish it.", "_t")
-t("dreadmaster", "dreadmaster", "entity name")
-t("It is an unlife of power almost unequaled. An affront to existence, its very touch abuses and disrupts the flow of life, and its unearthly limbs, of purest black, crumble rock and wither flesh with ease.", "It is an unlife of power almost unequaled. An affront to existence, its very touch abuses and disrupts the flow of life, and its unearthly limbs, of purest black, crumble rock and wither flesh with ease.", "_t")
 t("banshee", "banshee", "entity name")
-t("It is a ghostly woman's form that wails mournfully.", "It is a ghostly woman's form that wails mournfully.", "_t")
-t("ruin banshee", "ruin banshee", "entity name")
-t("A vengeful, screaming soul given form with the breath of Urh'Rok himself. The vapors of the Fearscape seep from its dimension-bending form, withering and searing.", "A vengeful, screaming soul given form with the breath of Urh'Rok himself. The vapors of the Fearscape seep from its dimension-bending form, withering and searing.", "_t")
 --]==]
 
 
@@ -5941,10 +5917,9 @@ t("A body raised through dark magic.", "A body raised through dark magic.", "_t"
 ------------------------------------------------
 section "mod-tome/data/general/npcs/gwelgoroth.lua"
 
-
+t("elemental", "élémentaire", "entity type")
 -- texte non traduit
 --[==[
-t("elemental", "elemental", "entity type")
 t("air", "air", "entity subtype")
 t("gwelgoroth", "gwelgoroth", "entity name")
 t("Gwelgoroth are mighty air elementals, a pure incarnation of lightning and thunder.", "Gwelgoroth are mighty air elementals, a pure incarnation of lightning and thunder.", "_t")
@@ -6002,7 +5977,7 @@ t("This crimson shape drips ceaselessly, spattering the nearby ground. The dropl
 ------------------------------------------------
 section "mod-tome/data/general/npcs/horror.lua"
 
-
+t("construct", "créature artificielle", "entity type")
 -- texte non traduit
 --[==[
 t("horror", "horror", "entity type")
@@ -6066,7 +6041,6 @@ t("#AQUAMARINE#With Grgglck's death its tentacle also falls lifeless on the grou
 t("#AQUAMARINE#As #Source# falls you notice that #Target# seems to shudder in pain!", "#AQUAMARINE#As #Source# falls you notice that #Target# seems to shudder in pain!", "logCombat")
 t("Ak'Gishil", "Ak'Gishil", "entity name")
 t("This Blade Horror has been infused with intense temporal magic, causing its power to increase dramatically. Rifts in space open around it constantly, summoning and banishing blades before vanishing as quickly as they appear.", "This Blade Horror has been infused with intense temporal magic, causing its power to increase dramatically. Rifts in space open around it constantly, summoning and banishing blades before vanishing as quickly as they appear.", "_t")
-t("construct", "construct", "entity type")
 t("weapon", "weapon", "entity subtype")
 t("Animated Sword", "Animated Sword", "entity name")
 t("Time seems to warp and bend around this floating weapon.", "Time seems to warp and bend around this floating weapon.", "_t")
@@ -6081,11 +6055,10 @@ t("#AQUAMARINE#A rift opens and a free floating blade emerges! It looks unstable
 ------------------------------------------------
 section "mod-tome/data/general/npcs/horror_aquatic.lua"
 
-
+t("aquatic", "aquatique", "entity subtype")
 -- texte non traduit
 --[==[
 t("horror", "horror", "entity type")
-t("aquatic", "aquatic", "entity subtype")
 t("#LIGHT_BLUE#%s explodes into a huge bubble of air!", "#LIGHT_BLUE#%s explodes into a huge bubble of air!", "logSeen")
 t("entrenched horror", "entrenched horror", "entity name")
 t("This massive stony structure shifts and pulsates, its many long, thin tentacles probing the nearby water for food.", "This massive stony structure shifts and pulsates, its many long, thin tentacles probing the nearby water for food.", "_t")
@@ -6147,10 +6120,9 @@ t("ogre", "ogre", "entity subtype")
 ------------------------------------------------
 section "mod-tome/data/general/npcs/jelly.lua"
 
-
+t("immovable", "inamovible", "entity type")
 -- texte non traduit
 --[==[
-t("immovable", "immovable", "entity type")
 t("jelly", "jelly", "entity subtype")
 t("A strange blob on the dungeon floor.", "A strange blob on the dungeon floor.", "_t")
 t("green jelly", "green jelly", "entity name")
@@ -6192,10 +6164,10 @@ t("The seething, pumping, disembodied blood of a horrendously powerful necromanc
 ------------------------------------------------
 section "mod-tome/data/general/npcs/losgoroth.lua"
 
+t("elemental", "élémentaire", "entity type")
 t("void", "vide", "entity subtype")
 -- texte non traduit
 --[==[
-t("elemental", "elemental", "entity type")
 t("Losgoroth are mighty void elementals, native to the void between the stars. They are rarely seen on a planet's surface.", "Losgoroth are mighty void elementals, native to the void between the stars. They are rarely seen on a planet's surface.", "_t")
 t("losgoroth", "losgoroth", "entity name")
 t("manaworm", "manaworm", "entity name")
@@ -6270,10 +6242,10 @@ t("A belligerent minotaur with a destructive magical arsenal, and armed with a h
 ------------------------------------------------
 section "mod-tome/data/general/npcs/molds.lua"
 
+t("immovable", "inamovible", "entity type")
 t("undead", "mort-vivant", "entity type")
 -- texte non traduit
 --[==[
-t("immovable", "immovable", "entity type")
 t("molds", "molds", "entity subtype")
 t("A strange growth on the dungeon floor.", "A strange growth on the dungeon floor.", "_t")
 t("grey mold", "grey mold", "entity name")
@@ -6292,13 +6264,12 @@ t("Steeped in fungal malevolence, this mold refused to die.  How a mold becomes 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/multihued-drake.lua"
 
-
+t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("multihued", "multihued", "entity subtype")
 t("multi-hued drake hatchling", "multi-hued drake hatchling", "entity name")
-t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "_t")
 t("multi-hued drake", "multi-hued drake", "entity name")
 t("A mature multi-hued drake, armed with many deadly breath weapons and nasty claws.", "A mature multi-hued drake, armed with many deadly breath weapons and nasty claws.", "_t")
 t("greater multi-hued wyrm", "greater multi-hued wyrm", "entity name")
@@ -6482,10 +6453,9 @@ t("A morbidly obese orc with greasy pockmarked skin and oily long black hair.  H
 ------------------------------------------------
 section "mod-tome/data/general/npcs/plant.lua"
 
-
+t("immovable", "inamovible", "entity type")
 -- texte non traduit
 --[==[
-t("immovable", "immovable", "entity type")
 t("plants", "plants", "entity subtype")
 t("A not-so-strange growth on the dungeon floor.", "A not-so-strange growth on the dungeon floor.", "_t")
 t("giant venus flytrap", "giant venus flytrap", "entity name")
@@ -6502,10 +6472,9 @@ t("As you approach it, you hear a high-pitched buzzing sound.", "As you approach
 ------------------------------------------------
 section "mod-tome/data/general/npcs/ritch.lua"
 
-
+t("insect", "insecte", "entity type")
 -- texte non traduit
 --[==[
-t("insect", "insect", "entity type")
 t("ritch", "ritch", "entity subtype")
 t([[Ritches are giant insects native to the arid wastes of the southern parts of the Far East.
 Vicious predators, they inject corrupting diseases into their foes, and their sharp claws cut through most armours.]], [[Ritches are giant insects native to the arid wastes of the southern parts of the Far East.
@@ -6586,10 +6555,10 @@ t("sher'tul", "sher'tul", "entity subtype")
 ------------------------------------------------
 section "mod-tome/data/general/npcs/shivgoroth.lua"
 
+t("elemental", "élémentaire", "entity type")
 t("ice", "glace", "entity subtype")
 -- texte non traduit
 --[==[
-t("elemental", "elemental", "entity type")
 t("shivgoroth", "shivgoroth", "entity name")
 t("Shivgoroth are mighty ice elementals, torn away from their home world by a powerful magic.", "Shivgoroth are mighty ice elementals, torn away from their home world by a powerful magic.", "_t")
 t("greater shivgoroth", "greater shivgoroth", "entity name")
@@ -6706,13 +6675,12 @@ t("A huge blue and white spiderkin whose form shifts and shimmers in and out of 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/storm-drake.lua"
 
-
+t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("storm", "storm", "entity subtype")
 t("storm drake hatchling", "storm drake hatchling", "entity name")
-t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "_t")
 t("storm drake", "storm drake", "entity name")
 t("A mature storm drake, armed with deadly breath and nasty claws.", "A mature storm drake, armed with deadly breath and nasty claws.", "_t")
 t("storm wyrm", "storm wyrm", "entity name")
@@ -6741,10 +6709,9 @@ t("An elf dressed in glowing robes.", "An elf dressed in glowing robes.", "_t")
 ------------------------------------------------
 section "mod-tome/data/general/npcs/swarm.lua"
 
-
+t("insect", "insecte", "entity type")
 -- texte non traduit
 --[==[
-t("insect", "insect", "entity type")
 t("swarms", "swarms", "entity subtype")
 t("Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "_t")
 t("midge swarm", "midge swarm", "entity name")
@@ -6761,13 +6728,13 @@ t("A giant buzzing wasp, its stinger dripping venom.", "A giant buzzing wasp, it
 ------------------------------------------------
 section "mod-tome/data/general/npcs/telugoroth.lua"
 
+t("elemental", "élémentaire", "entity type")
 t("temporal", "temporel", "entity subtype")
 -- texte non traduit
 --[==[
 t("Reality has shifted.", "Reality has shifted.", "logSeen")
 t("The spell fizzles!", "The spell fizzles!", "logSeen")
 t("%s resists the swap!", "%s resists the swap!", "logSeen")
-t("elemental", "elemental", "entity type")
 t("and lost outside time", "and lost outside time", "_t")
 t("telugoroth", "telugoroth", "entity name")
 t("A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "_t")
@@ -6959,10 +6926,10 @@ t("A shifting, writhing, snake-like dragon, blinking in and out of existence, ju
 ------------------------------------------------
 section "mod-tome/data/general/npcs/xorn.lua"
 
+t("elemental", "élémentaire", "entity type")
 t("demon", "démon", "entity type")
 -- texte non traduit
 --[==[
-t("elemental", "elemental", "entity type")
 t("xorn", "xorn", "entity subtype")
 t("umber hulk", "umber hulk", "entity name")
 t("This bizarre creature has glaring eyes and large mandibles capable of slicing through rock.", "This bizarre creature has glaring eyes and large mandibles capable of slicing through rock.", "_t")
@@ -7587,6 +7554,7 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/ammo.lua"
 
+t("elemental", "élémentaire", "entity keyword")
 t("fire", "feu", "_t")
 t("cold", "froid", "_t")
 t("lightning", "foudre", "_t")
@@ -7627,7 +7595,6 @@ t("vile", "vile", "entity keyword")
 t(" of paradox", " of paradox", "entity name")
 t("paradox", "paradox", "entity keyword")
 t("elemental ", "elemental ", "entity name")
-t("elemental", "elemental", "entity keyword")
 t("Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "tformat")
 t("plaguebringer's ", "plaguebringer's ", "entity name")
 t("plague", "plague", "entity keyword")
@@ -8076,7 +8043,7 @@ t("backstab", "backstab", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/digger.lua"
 
-
+t("crystal", "cristal", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of delving", " of delving", "entity name")
@@ -8100,7 +8067,6 @@ t("soldier", "soldier", "entity keyword")
 t("bloodhexed ", "bloodhexed ", "entity name")
 t("bloodhexed", "bloodhexed", "entity keyword")
 t("crystalomancer's ", "crystalomancer's ", "entity name")
-t("crystal", "crystal", "entity keyword")
 t("shattering ", "shattering ", "entity name")
 t("shattering", "shattering", "entity keyword")
 t("sapper's ", "sapper's ", "entity name")
@@ -9001,6 +8967,7 @@ t("ward", "ward", "entity keyword")
 ------------------------------------------------
 section "mod-tome/data/general/objects/egos/weapon.lua"
 
+t("elemental", "élémentaire", "entity keyword")
 t("fire", "feu", "_t")
 t("cold", "froid", "_t")
 t("lightning", "foudre", "_t")
@@ -9049,7 +9016,6 @@ t("vile", "vile", "entity keyword")
 t(" of paradox", " of paradox", "entity name")
 t("paradox", "paradox", "entity keyword")
 t("elemental ", "elemental ", "entity name")
-t("elemental", "elemental", "entity keyword")
 t("Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "tformat")
 t("plaguebringer's ", "plaguebringer's ", "entity name")
 t("plague", "plague", "entity keyword")
@@ -11844,6 +11810,7 @@ t("Cold flames slowly spread from %d spots within radius %d, The flames deal %d 
 ------------------------------------------------
 section "mod-tome/data/general/traps/elemental.lua"
 
+t("elemental", "élémentaire", "entity type")
 t("trap", "piège", "_t")
 t("acid", "dégâts d'acid", "entity subtype")
 t("fire", "feu", "entity subtype")
@@ -11853,7 +11820,6 @@ t("poison", "dégâts de poison", "entity subtype")
 t("nature", "dégâts de nature", "entity subtype")
 -- texte non traduit
 --[==[
-t("elemental", "elemental", "entity type")
 t("Deals %s%d#LAST# %s damage", "Deals %s%d#LAST# %s damage", "tformat")
 t("Deals %s%d#LAST# %s damage (radius %d)", "Deals %s%d#LAST# %s damage (radius %d)", "tformat")
 t("acid trap", "acid trap", "entity name")
@@ -28880,7 +28846,8 @@ t([[By creating an arcane link with your minion army you are able to redirect pa
 ------------------------------------------------
 section "mod-tome/data/talents/spells/master-of-bones.lua"
 
-
+t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "Une créature imposante, faite d'ossements de dizaines de cadavres. Elle est entourée d'une aura impie.", "_t")
+t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "Une créature imposante, faite des os de centaines de cadavres. Elle est entourée d'une aura impie.", "_t")
 -- texte non traduit
 --[==[
 t("Call of the Crypt", "Call of the Crypt", "talent name")
@@ -28907,8 +28874,6 @@ t([[Any time one of your skeleton or bone giant dies, it shatters in radius %d, 
 		This talent never works when you kill your own minions.
 		]], "tformat")
 t("Assemble", "Assemble", "talent name")
-t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "_t")
-t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "_t")
 t([[Every army of undead minions needs its spearhead. To that end you combine 3 skeleton minions into a bone giant of level %d.
 		The minions used are selected from the weakest first, and a Lord of Skulls will never be used. 
 		At level 3 an eternal bone giant is created instead.
@@ -29244,6 +29209,7 @@ t("fire", "feu", "talent type")
 t("water", "eau", "talent type")
 t("ice", "glace", "talent type")
 t("temporal", "temporel", "talent type")
+t("dreadmaster", "maître hanteur", "talent type")
 t("grave", "tombe", "talent type")
 -- texte non traduit
 --[==[
@@ -29316,7 +29282,6 @@ t("master necromancer", "master necromancer", "talent type")
 t("Full and total control over your undead army.", "Full and total control over your undead army.", "_t")
 t("nightfall", "nightfall", "talent type")
 t("Manipulate darkness itself to slaughter your foes.", "Manipulate darkness itself to slaughter your foes.", "_t")
-t("dreadmaster", "dreadmaster", "talent type")
 t("Summon an undead minion of pure darkness to harass your foes.", "Summon an undead minion of pure darkness to harass your foes.", "_t")
 t("age of dusk", "age of dusk", "talent type")
 t("Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "_t")
@@ -35479,6 +35444,7 @@ t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
 t("ice", "glace", "effect subtype")
 t("cold", "froid", "effect subtype")
 t("water", "eau", "effect subtype")
+t("elemental", "élémentaire", "effect subtype")
 t("undead", "mort-vivant", "effect subtype")
 t("bleed", "saignement", "effect subtype")
 t("physical", "physique", "effect subtype")
@@ -36225,7 +36191,6 @@ t("#Target# is encased in a stone shield.", "#Target# is encased in a stone shie
 t("The stone shield around #Target# %s", "The stone shield around #Target# %s", "tformat")
 t("explodes!", "explodes!", "_t")
 t("crumbles.", "crumbles.", "_t")
-t("elemental", "elemental", "effect subtype")
 t("Deeprock Form", "Deeprock Form", "_t")
 t(", +%d%% Arcane damage and +%d%% Arcane damage penetration,", ", +%d%% Arcane damage and +%d%% Arcane damage penetration,", "tformat")
 t(", +%d%% Nature damage and +%d%% Nature damage penetration", ", +%d%% Nature damage and +%d%% Nature damage penetration", "tformat")
@@ -36933,6 +36898,7 @@ t("-Vampire Mark", "-Vampire Mark", "_t")
 ------------------------------------------------
 section "mod-tome/data/timed_effects/other.lua"
 
+t("elemental", "élémentaire", "effect subtype")
 t("nature", "dégâts de nature", "effect subtype")
 t("darkness", "obscurité", "effect subtype")
 t("Madness", "Folie", "_t")
@@ -36962,7 +36928,6 @@ t("The target recently benefited from Dirge of Pestilence", "The target recently
 --[==[
 t("Ethereal Form", "Ethereal Form", "_t")
 t("Ethereal Form bonuses reduced by %d%%", "Ethereal Form bonuses reduced by %d%%", "tformat")
-t("elemental", "elemental", "effect subtype")
 t("Elemental Surge: Arcane", "Elemental Surge: Arcane", "_t")
 t("Spell and mind speed increased by 30%", "Spell and mind speed increased by 30%", "_t")
 t("Elemental Surge: Physical", "Elemental Surge: Physical", "_t")
@@ -39131,6 +39096,7 @@ section "mod-tome/data/zones/dreadfell/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("skeleton", "squelette", "entity subtype")
+t("ghost", "fantôme", "entity subtype")
 -- texte non traduit
 --[==[
 t("vampire", "vampire", "entity subtype")
@@ -39146,7 +39112,6 @@ t([[Thick skin hangs loosely from this short, shambling form. Tufts of hair stic
 What proud hero of renown was this before he was condemned to such a terrible fate?]], [[Thick skin hangs loosely from this short, shambling form. Tufts of hair sticking out from its chin give evidence of a once magnificent dwarven beard. Half its face seems to have been seared in acid at some point, the flesh melted away from the skull and an eyeball drooping low from its socket. There is a unique sadness to its eyes, and a slump of resignation to its gait.
 What proud hero of renown was this before he was condemned to such a terrible fate?]], "_t")
 t("and offered to his dark Master", "and offered to his dark Master", "_t")
-t("ghost", "ghost", "entity subtype")
 t("Aletta Soultorn", "Aletta Soultorn", "entity name")
 t([[What once must have been an enchantingly beautiful Higher woman now looks to be a ghost of utter despair. Her thin, elegant form ripples gently in the air, whilst her tattered robes seem oddly still. The ghost's face looks jittery and pained whilst her wild, glowing eyes move rapidly back and forth in their sockets.
 Now and then she seems to see something and her jaw pulls back, her whole face splitting apart as she shrieks an unholy cry of pain and torment.]], [[What once must have been an enchantingly beautiful Higher woman now looks to be a ghost of utter despair. Her thin, elegant form ripples gently in the air, whilst her tattered robes seem oddly still. The ghost's face looks jittery and pained whilst her wild, glowing eyes move rapidly back and forth in their sockets.
@@ -39806,6 +39771,7 @@ t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
 t("huge loose rock", "énorme rocher instable", "entity name")
 t("underground", "souterrain", "entity subtype")
+t("crystal", "cristal", "entity subtype")
 t("sand", "sable", "entity subtype")
 t("autumn_grass", "herbe_d'automne", "entity subtype")
 t("lava", "lave", "entity subtype")
@@ -39827,7 +39793,6 @@ t("lava floor", "sol de lave", "entity name")
 t("lava wall", "mur de lave", "entity name")
 -- texte non traduit
 --[==[
-t("crystal", "crystal", "entity subtype")
 t("burnt passage", "burnt passage", "entity name")
 t("snowy passage", "snowy passage", "entity name")
 t("Temporal Rift", "Temporal Rift", "entity name")
@@ -40367,9 +40332,9 @@ t("way to the lake of Nur", "way to the lake of Nur", "entity name")
 section "mod-tome/data/zones/old-forest/npcs.lua"
 
 t("giant", "géant", "entity type")
+t("crystal", "cristal", "entity subtype")
 -- texte non traduit
 --[==[
-t("crystal", "crystal", "entity subtype")
 t("Shardskin", "Shardskin", "entity name")
 t("This crystalline structure seems to be filled with a malevolent aura. Through the crystal surface you can still see the remains of what once was a huge tree.", "This crystalline structure seems to be filled with a malevolent aura. Through the crystal surface you can still see the remains of what once was a huge tree.", "_t")
 t("and integrated into the crystaline structure", "and integrated into the crystaline structure", "_t")
@@ -40470,10 +40435,10 @@ t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/paradox-plane/npcs.lua"
 
+t("elemental", "élémentaire", "entity type")
 t("temporal", "temporel", "entity subtype")
 -- texte non traduit
 --[==[
-t("elemental", "elemental", "entity type")
 t("Epoch", "Epoch", "entity name")
 t("A huge being composed of sparking blue and yellow energy stands before you.  It shifts and flows as it moves, at once erratic and graceful.", "A huge being composed of sparking blue and yellow energy stands before you.  It shifts and flows as it moves, at once erratic and graceful.", "_t")
 --]==]
@@ -40774,10 +40739,9 @@ t("Slavers Compound (%d)", "Slavers Compound (%d)", "tformat")
 ------------------------------------------------
 section "mod-tome/data/zones/ritch-tunnels/npcs.lua"
 
-
+t("insect", "insecte", "entity type")
 -- texte non traduit
 --[==[
-t("insect", "insect", "entity type")
 t("ritch", "ritch", "entity subtype")
 t([[Ritches are giant insects native to the arid wastes of the southern parts of the Far East.
 Vicious predators, they inject corrupting diseases into their foes, and their sharp claws cut through most armours.]], [[Ritches are giant insects native to the arid wastes of the southern parts of the Far East.
@@ -40857,6 +40821,7 @@ section "mod-tome/data/zones/ruins-kor-pul/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("skeleton", "squelette", "entity subtype")
+t("ghost", "fantôme", "entity subtype")
 -- texte non traduit
 --[==[
 t("The Shade", "The Shade", "entity name")
@@ -40866,7 +40831,6 @@ t(".. yes I tell you! The old ruins of Kor'Pul are still haunted!", ".. yes I te
 t("The Possessed", "The Possessed", "entity name")
 t("He is the leader of a gang of bandits that killed the Shade of Kor'Pul, however it is obvious the Shade was merely displaced. It is now possessing the corpse of his killer.", "He is the leader of a gang of bandits that killed the Shade of Kor'Pul, however it is obvious the Shade was merely displaced. It is now possessing the corpse of his killer.", "_t")
 t("and used as a new host", "and used as a new host", "_t")
-t("ghost", "ghost", "entity subtype")
 t("Kor's Fury", "Kor's Fury", "entity name")
 t("The Shade's colossal will keeps it anchored to this world, now as a vengeful, insane spirit.", "The Shade's colossal will keeps it anchored to this world, now as a vengeful, insane spirit.", "_t")
 --]==]
@@ -41428,13 +41392,13 @@ t("Stay", "Stay", "_t")
 section "mod-tome/data/zones/tannen-tower/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("construct", "créature artificielle", "entity type")
 -- texte non traduit
 --[==[
 t("human", "human", "entity subtype")
 t("Tannen", "Tannen", "entity name")
 t("The traitor has been revealed, and he does not intend to let you escape to tell the tale.", "The traitor has been revealed, and he does not intend to let you escape to tell the tale.", "_t")
 t("and was neither found nor heard from again", "and was neither found nor heard from again", "_t")
-t("construct", "construct", "entity type")
 t("golem", "golem", "entity subtype")
 t("Drolem", "Drolem", "entity name")
 t([[This is Tannen's construct, a HUGE golem in the rough shape of a dragon.
@@ -41485,10 +41449,10 @@ t("As you climb up the steps, you see Tannen standing with his drolem, reading a
 section "mod-tome/data/zones/telmur/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
+t("ghost", "fantôme", "entity subtype")
 t("Back and there again", "Retourner et revenir", "_t")
 -- texte non traduit
 --[==[
-t("ghost", "ghost", "entity subtype")
 t("The Shade of Telos", "The Shade of Telos", "entity name")
 t("Everybody thought Telos dead and his spirit destroyed, but it seems he still lingers in his old place of power.", "Everybody thought Telos dead and his spirit destroyed, but it seems he still lingers in his old place of power.", "_t")
 t("and was savagely mutilated, a show of his rage towards all living things", "and was savagely mutilated, a show of his rage towards all living things", "_t")
@@ -42225,6 +42189,7 @@ t("polar cap", "polar cap", "entity name")
 section "mod-tome/data/zones/town-point-zero/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("elemental", "élémentaire", "entity type")
 t("void", "vide", "entity subtype")
 t("temporal", "temporel", "entity subtype")
 -- texte non traduit
@@ -42233,7 +42198,6 @@ t("human", "human", "entity subtype")
 t("Catch @himher@!", "Catch @himher@!", "_t")
 t("guardian of reality", "guardian of reality", "entity name")
 t("A stern-looking guardian, ever vigilant against the threats of the paradox.", "A stern-looking guardian, ever vigilant against the threats of the paradox.", "_t")
-t("elemental", "elemental", "entity type")
 t("Losgoroth are mighty void elementals, native to the void between the stars; they are rarely seen on the planet's surface.", "Losgoroth are mighty void elementals, native to the void between the stars; they are rarely seen on the planet's surface.", "_t")
 t("monstrous losgoroth", "monstrous losgoroth", "entity name")
 t("Zemekkys, Grand Keeper of Reality", "Zemekkys, Grand Keeper of Reality", "entity name")
