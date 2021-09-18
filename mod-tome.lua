@@ -6610,16 +6610,16 @@ t("losselhing", "losselhing", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/npcs/storm-drake.lua"
 
+t("storm", "orage", "entity subtype")
+t("storm drake hatchling", "jeune dragonnet de l'orage", "entity name")
 t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
+t("storm drake", "dragonnet de l'orage", "entity name")
+t("A mature storm drake, armed with deadly breath and nasty claws.", "Un dragonnet de l'orage mature, armé d'un souffle mortel et de griffes redoutables.", "_t")
+t("storm wyrm", "ver de l'orage", "entity name")
+t("An old and powerful storm drake, armed with deadly breath and nasty claws.", "Un vieux et puissant dragon de l'orage, armé d'un souffle mortel et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("storm", "storm", "entity subtype")
-t("storm drake hatchling", "storm drake hatchling", "entity name")
-t("storm drake", "storm drake", "entity name")
-t("A mature storm drake, armed with deadly breath and nasty claws.", "A mature storm drake, armed with deadly breath and nasty claws.", "_t")
-t("storm wyrm", "storm wyrm", "entity name")
-t("An old and powerful storm drake, armed with deadly breath and nasty claws.", "An old and powerful storm drake, armed with deadly breath and nasty claws.", "_t")
 --]==]
 
 
@@ -6628,57 +6628,49 @@ section "mod-tome/data/general/npcs/sunwall-town.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
--- texte non traduit
---[==[
-t("human guard", "human guard", "entity name")
-t("A stern-looking guard, he will not let you disturb the town.", "A stern-looking guard, he will not let you disturb the town.", "_t")
-t("elven archer", "elven archer", "entity name")
-t("elf", "elf", "entity subtype")
-t("human sun-paladin", "human sun-paladin", "entity name")
-t("A human in shiny plate armour.", "A human in shiny plate armour.", "_t")
-t("elven sun-mage", "elven sun-mage", "entity name")
-t("An elf dressed in glowing robes.", "An elf dressed in glowing robes.", "_t")
---]==]
-
+t("human guard", "guarde humain", "entity name")
+t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
+t("elven archer", "archer elfe", "entity name")
+t("elf", "elfe", "entity subtype")
+t("human sun-paladin", "paladin solaire humain", "entity name")
+t("A human in shiny plate armour.", "Un humain en armure de plates brillantes.", "_t")
+t("elven sun-mage", "mage du soleil elfe", "entity name")
+t("An elf dressed in glowing robes.", "Un elfe habillé de robes lumineuses.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/swarm.lua"
 
 t("insect", "insecte", "entity type")
--- texte non traduit
---[==[
-t("swarms", "swarms", "entity subtype")
-t("Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "_t")
-t("midge swarm", "midge swarm", "entity name")
-t("A swarm of midges; they want blood.", "A swarm of midges; they want blood.", "_t")
-t("bee swarm", "bee swarm", "entity name")
-t("They buzz at you threateningly, as you have gotten too close to their hive.", "They buzz at you threateningly, as you have gotten too close to their hive.", "_t")
-t("hornet swarm", "hornet swarm", "entity name")
-t("You have intruded on their ground, and they will defend it at all costs.", "You have intruded on their ground, and they will defend it at all costs.", "_t")
-t("hummerhorn", "hummerhorn", "entity name")
-t("A giant buzzing wasp, its stinger dripping venom.", "A giant buzzing wasp, its stinger dripping venom.", "_t")
---]==]
-
+t("swarms", "essaims", "entity subtype")
+t("Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "Bizzzzzzzzzzzzzzzzzzzzzzzzzzz.", "_t")
+t("midge swarm", "essaim de moucherons", "entity name")
+t("A swarm of midges; they want blood.", "Un essaim de moucherons. Elles veulent du sang.", "_t")
+t("bee swarm", "essaim d'abeilles", "entity name")
+t("They buzz at you threateningly, as you have gotten too close to their hive.", "Elles bourdonnent de façon menaçante, car vous vous êtes approché trop près de la ruche.", "_t")
+t("hornet swarm", "essaim de frelons", "entity name")
+t("You have intruded on their ground, and they will defend it at all costs.", "Vous avez empiété sur leur terrain, et ils le défendront à tout prix.", "_t")
+t("hummerhorn", "guêpe géante", "entity name")
+t("A giant buzzing wasp, its stinger dripping venom.", "Une guêpe géante bourdonnante, son dard dégoulinant de venin.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/telugoroth.lua"
 
+t("Reality has shifted.", "La réalité a changé.", "logSeen")
+t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
+t("%s resists the swap!", "%s résiste à la permutation!", "logSeen")
 t("elemental", "élémentaire", "entity type")
 t("temporal", "temporel", "entity subtype")
+t("and lost outside time", "et s'est perdu hors du temps", "_t")
+t("A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "Un élémentaire temporel, rarement rencontré sauf par ceux qui voyagent dans le temps lui-même.  Sa forme floue se déplace constamment devant vos yeux.", "_t")
+t("greater telugoroth", "grand telugoroth", "entity name")
+t("ultimate telugoroth", "ultime telugoroth", "entity name")
+t("Time and space collapse in upon this erratically-moving time elemental.", "Le temps et l'espace s'effondrent sur cet élémentaire temporel aux mouvements erratiques.", "_t")
+t("greater teluvorta", "grand teluvorta", "entity name")
+t("ultimate teluvorta", "ultime teluvorta", "entity name")
 -- texte non traduit
 --[==[
-t("Reality has shifted.", "Reality has shifted.", "logSeen")
-t("The spell fizzles!", "The spell fizzles!", "logSeen")
-t("%s resists the swap!", "%s resists the swap!", "logSeen")
-t("and lost outside time", "and lost outside time", "_t")
 t("telugoroth", "telugoroth", "entity name")
-t("A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "_t")
-t("greater telugoroth", "greater telugoroth", "entity name")
-t("ultimate telugoroth", "ultimate telugoroth", "entity name")
 t("teluvorta", "teluvorta", "entity name")
-t("Time and space collapse in upon this erratically-moving time elemental.", "Time and space collapse in upon this erratically-moving time elemental.", "_t")
-t("greater teluvorta", "greater teluvorta", "entity name")
-t("ultimate teluvorta", "ultimate teluvorta", "entity name")
 --]==]
 
 
@@ -6687,24 +6679,24 @@ section "mod-tome/data/general/npcs/thieve.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("cutpurse", "fripouille", "entity name")
+t("The lowest of the thieves, this cutpurse is just learning the tricks of the trade.", "Le plus petit des voleurs, cette fripouille est en train d'apprendre les ficelles du métier.", "_t")
+t("rogue", "voyou", "entity name")
+t("Stronger than a cutpurse, this thief has been promoted.", "Plus fort qu'une fripouille, ce voleur a été promu.", "_t")
+t("thief", "voleur", "entity name")
+t("He eyes you and your belongings, then suddenly vanishes... strange, why is your pack lighter?", "Il vous regarde, vous et vos affaires, puis disparaît soudainement... étrange, pourquoi votre sac est-il plus lége?", "_t")
+t("These ruffians often employ brute force over thievery, but they are capable of stealing as well.", "Ces ruffians utilisent souvent la force brute plutôt que le vol, mais ils sont également capables de voler.", "_t")
+t("bandit lord", "seigneur bandit", "entity name")
+t("He is the leader of a gang of bandits. Watch out for his underlings.", "Il est le chef d'une bande de bandits. Méfiez-vous de ses sous-fifres.", "_t")
+t("Before you looms a pair of eyes... a glint of steel... death.", "Devant vous se profile une paire d'yeux... une lueur d'acier... la mort.", "_t")
+t("shadowblade", "lame ténébreuse", "entity name")
+t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "Des combattants furtifs qui tentent de remporter la victoire par la ruse. Faites attention ou ils vous voleront votre vie!", "_t")
+t("rogue sapper", "sapeur voyou", "entity name")
+t("Stealthy tricksters that leave a wake of deadfalls and other hazards.  They really just make a mess of things.", "Des filous furtifs qui laissent un sillage de pièges et autres dangers.  Ils font vraiment n'importe quoi.", "_t")
 -- texte non traduit
 --[==[
-t("cutpurse", "cutpurse", "entity name")
-t("The lowest of the thieves, this cutpurse is just learning the tricks of the trade.", "The lowest of the thieves, this cutpurse is just learning the tricks of the trade.", "_t")
-t("rogue", "rogue", "entity name")
-t("Stronger than a cutpurse, this thief has been promoted.", "Stronger than a cutpurse, this thief has been promoted.", "_t")
-t("thief", "thief", "entity name")
-t("He eyes you and your belongings, then suddenly vanishes... strange, why is your pack lighter?", "He eyes you and your belongings, then suddenly vanishes... strange, why is your pack lighter?", "_t")
 t("bandit", "bandit", "entity name")
-t("These ruffians often employ brute force over thievery, but they are capable of stealing as well.", "These ruffians often employ brute force over thievery, but they are capable of stealing as well.", "_t")
-t("bandit lord", "bandit lord", "entity name")
-t("He is the leader of a gang of bandits. Watch out for his underlings.", "He is the leader of a gang of bandits. Watch out for his underlings.", "_t")
 t("assassin", "assassin", "entity name")
-t("Before you looms a pair of eyes... a glint of steel... death.", "Before you looms a pair of eyes... a glint of steel... death.", "_t")
-t("shadowblade", "shadowblade", "entity name")
-t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "_t")
-t("rogue sapper", "rogue sapper", "entity name")
-t("Stealthy tricksters that leave a wake of deadfalls and other hazards.  They really just make a mess of things.", "Stealthy tricksters that leave a wake of deadfalls and other hazards.  They really just make a mess of things.", "_t")
 --]==]
 
 
@@ -6721,13 +6713,13 @@ t("This huge troll wields a massive spear and has a disturbingly intelligent loo
 t("mountain troll", "troll des montagnes", "entity name")
 t("A large and athletic troll with an extremely tough and warty hide.", "Un grand troll athlétique à la peau extrêmement dure et verruqueuse.", "_t")
 t("mountain troll thunderer", "troll-tonnerre des montagnes", "entity name")
+t("patchwork troll", "troll en patchwork", "entity name")
+t("A disgusting and mismatched construct of necromantically-enhanced troll bits and shattered weapons. Confused and furious, it rends and shatters its surroundings with impossible strength, moving with speed found nowhere in nature.", "Une construction dégoûtante et mal assortie de morceaux de trolls améliorés par la nécromancie et des armes brisées. Confus et furieux, il déchire et brise ce qui l'entoure avec une force incroyable, se déplaçant à une vitesse que l'on ne trouve nulle part dans la nature.", "_t")
+t("Forest Troll Hedge-Wizard", "Troll des Forêts, Sorcier des Haies", "entity name")
+t("This old-looking troll glares at you with malice. His muscles appear atrophied, but a certain power surrounds him nonetheless.", "Ce troll à l'allure vieillissante vous regarde avec malice. Ses muscles semblent atrophiés, mais une certaine puissance l'entoure néanmoins.", "_t")
 -- texte non traduit
 --[==[
 t("troll", "troll", "entity subtype")
-t("patchwork troll", "patchwork troll", "entity name")
-t("A disgusting and mismatched construct of necromantically-enhanced troll bits and shattered weapons. Confused and furious, it rends and shatters its surroundings with impossible strength, moving with speed found nowhere in nature.", "A disgusting and mismatched construct of necromantically-enhanced troll bits and shattered weapons. Confused and furious, it rends and shatters its surroundings with impossible strength, moving with speed found nowhere in nature.", "_t")
-t("Forest Troll Hedge-Wizard", "Forest Troll Hedge-Wizard", "entity name")
-t("This old-looking troll glares at you with malice. His muscles appear atrophied, but a certain power surrounds him nonetheless.", "This old-looking troll glares at you with malice. His muscles appear atrophied, but a certain power surrounds him nonetheless.", "_t")
 --]==]
 
 
@@ -6736,36 +6728,36 @@ section "mod-tome/data/general/npcs/undead-rat.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("rodent", "rongeur", "entity subtype")
+t("skeletal rat", "rat squelettique", "entity name")
+t("A skeletal rat, teeth and claws ground to a sharp point. It glares at you menacingly.", "Un rat squelettique, aux dents et aux griffes aiguisées. Il vous regarde d'un air menaçant.", "_t")
+t("ghoulish rat", "rat goule", "entity name")
+t("Layers of rotting skin are peeling off of this rat. One of the eye sockets appears empty.", "Des couches de peau pourrie se détachent de ce rat. Une des cavités oculaires semble vide.", "_t")
+t("spectral rat", "rat spectral", "entity name")
+t("An eerie haze surrounds this translucent rat.", "Une brume sinistre entoure ce rat translucide.", "_t")
+t("Eerie Squeak!", "Squeak Etrange!", "_t")
+t("Frightening Squeak??", "Squeak effrayant??", "_t")
+t("vampire rat", "rat vampire", "entity name")
+t("Looks much like a normal rat. That is, other than the very large fangs.", "Il ressemble beaucoup à un rat normal. Enfin, à part les très grands crocs.", "_t")
+t("Squeak! Blood!", "Squeak! Sang!", "_t")
+t("gigantic bone rat", "gigantesque rat d'os", "entity name")
+t("This massive beast appears to be a rat composed of countless bones fused together.", "Cette bête massive semble être un rat composé d'innombrables os fusionnés ensemble.", "_t")
+t("Rat Lich", "Rat Liche", "entity name")
+t("The master of the pit is before you. It squeaks with menace as it and a horde of minions approach you.", "Le maître de la fosse est devant vous. Il grince avec menace alors qu'il s'approche de vous avec une horde de serviteurs.", "_t")
+t("#RED#Rising again, the Rat Lich's eyes glow with renewed energy!", "#RED#Se levant à nouveau, les yeux de la liche des rats brillent d'une énergie renouvelée!", "logSeen")
+t("\
+The Rat Lich's true power has been unveiled! Swirling with arcane energy, it stalks towards you uttering warsqueaks at its minions!", "\
+La véritable puissance du Rat Liche a été dévoilée ! Tourbillonnant d'énergie arcanique, elle se dirige vers vous en lançant des cris de guerre à ses serviteurs!", "_t")
+t("\"Squeak\" I say, yes .. \"Squeak!\"", "\"Squeak\" en vérité, oui .. \"Squeak!\"", "_t")
 -- texte non traduit
 --[==[
-t("skeletal rat", "skeletal rat", "entity name")
-t("A skeletal rat, teeth and claws ground to a sharp point. It glares at you menacingly.", "A skeletal rat, teeth and claws ground to a sharp point. It glares at you menacingly.", "_t")
 t("*squeak*", "*squeak*", "_t")
 t("Squeak!", "Squeak!", "_t")
 t("Squeak??", "Squeak??", "_t")
 t("SQUEAK!!!!!", "SQUEAK!!!!!", "_t")
-t("ghoulish rat", "ghoulish rat", "entity name")
-t("Layers of rotting skin are peeling off of this rat. One of the eye sockets appears empty.", "Layers of rotting skin are peeling off of this rat. One of the eye sockets appears empty.", "_t")
 t("*s.q.u.e.a.k*", "*s.q.u.e.a.k*", "_t")
 t("Squeeeeeeak!", "Squeeeeeeak!", "_t")
 t("Squeakkkkkkk??", "Squeakkkkkkk??", "_t")
-t("spectral rat", "spectral rat", "entity name")
-t("An eerie haze surrounds this translucent rat.", "An eerie haze surrounds this translucent rat.", "_t")
-t("Eerie Squeak!", "Eerie Squeak!", "_t")
-t("Frightening Squeak??", "Frightening Squeak??", "_t")
-t("vampire rat", "vampire rat", "entity name")
-t("Looks much like a normal rat. That is, other than the very large fangs.", "Looks much like a normal rat. That is, other than the very large fangs.", "_t")
-t("Squeak! Blood!", "Squeak! Blood!", "_t")
-t("gigantic bone rat", "gigantic bone rat", "entity name")
-t("This massive beast appears to be a rat composed of countless bones fused together.", "This massive beast appears to be a rat composed of countless bones fused together.", "_t")
 t("*SQUEAK*", "*SQUEAK*", "_t")
-t("Rat Lich", "Rat Lich", "entity name")
-t("The master of the pit is before you. It squeaks with menace as it and a horde of minions approach you.", "The master of the pit is before you. It squeaks with menace as it and a horde of minions approach you.", "_t")
-t("#RED#Rising again, the Rat Lich's eyes glow with renewed energy!", "#RED#Rising again, the Rat Lich's eyes glow with renewed energy!", "logSeen")
-t("\
-The Rat Lich's true power has been unveiled! Swirling with arcane energy, it stalks towards you uttering warsqueaks at its minions!", "\
-The Rat Lich's true power has been unveiled! Swirling with arcane energy, it stalks towards you uttering warsqueaks at its minions!", "_t")
-t("\"Squeak\" I say, yes .. \"Squeak!\"", "\"Squeak\" I say, yes .. \"Squeak!\"", "_t")
 --]==]
 
 
@@ -6773,39 +6765,38 @@ t("\"Squeak\" I say, yes .. \"Squeak!\"", "\"Squeak\" I say, yes .. \"Squeak!\""
 section "mod-tome/data/general/npcs/vampire.lua"
 
 t("undead", "mort-vivant", "entity type")
+t("These ancient cursed beings often take the form of a bat and attack their prey.", "Ces anciens êtres maudits prennent souvent la forme d'une chauve-souris et attaquent leurs proies.", "_t")
+t("lesser vampire", "vampire inférieur", "entity name")
+t("This vampire has only just begun its new life. It has not yet fathomed its newfound power, yet it still has a thirst for blood.", "Ce vampire vient juste de commencer sa nouvelle vie. Il n'a pas encore pris conscience de sa toute nouvelle puissance, mais il a toujours soif de sang.", "_t")
+t("It is a humanoid with an aura of power. You notice a sharp set of front teeth.", "C'est un humanoïde avec une aura de puissance. Vous remarquez une série de dents de devant pointues.", "_t")
+t("master vampire", "maître vampire", "entity name")
+t("It is a humanoid form dressed in robes. Power emanates from its chilling frame.", "C'est une forme humanoïde vêtue d'une robe. Un pouvoir émane de son corps glacial.", "_t")
+t("elder vampire", "ancien vampire", "entity name")
+t([[A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others.
+It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.]], [[Terrible personnage mort-vivant, vetu de robes, cette créature existe dans sa non-vie depuis de nombreux siècles en volant la vie des autres.
+Elle peut invoquer les ombres mêmes de ses victimes d'outre-tombe pour qu'elles lui viennent en aide.]], "_t")
+t("vampire lord", "seigneur vampire", "entity name")
+t("A foul wind chills your bones as this ghastly figure approaches.", "Un vent glacial vous glace les os alors que cette horrible silhouette s'approche.", "_t")
 -- texte non traduit
 --[==[
 t("vampire", "vampire", "entity subtype")
-t("These ancient cursed beings often take the form of a bat and attack their prey.", "These ancient cursed beings often take the form of a bat and attack their prey.", "_t")
-t("lesser vampire", "lesser vampire", "entity name")
-t("This vampire has only just begun its new life. It has not yet fathomed its newfound power, yet it still has a thirst for blood.", "This vampire has only just begun its new life. It has not yet fathomed its newfound power, yet it still has a thirst for blood.", "_t")
 t("vampire", "vampire", "entity name")
-t("It is a humanoid with an aura of power. You notice a sharp set of front teeth.", "It is a humanoid with an aura of power. You notice a sharp set of front teeth.", "_t")
-t("master vampire", "master vampire", "entity name")
-t("It is a humanoid form dressed in robes. Power emanates from its chilling frame.", "It is a humanoid form dressed in robes. Power emanates from its chilling frame.", "_t")
-t("elder vampire", "elder vampire", "entity name")
-t([[A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others.
-It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.]], [[A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others.
-It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.]], "_t")
-t("vampire lord", "vampire lord", "entity name")
-t("A foul wind chills your bones as this ghastly figure approaches.", "A foul wind chills your bones as this ghastly figure approaches.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/venom-drake.lua"
 
-
+t("venom", "venimeux", "entity subtype")
+t("venom drake hatchling", "petit dragonnet venimeux", "entity name")
+t("A corrosive venom drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet corrosif. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
+t("venom drake", "dragonnet venimeux", "entity name")
+t("A mature corrosive venom drake, armed with deadly breath and nasty claws.", "Un dragonnet corrosif mature, armé d'un souffle mortel et de griffes redoutables.", "_t")
+t("venom wyrm", "ver corrosif", "entity name")
+t("An old and powerful corrosive venom drake, armed with deadly breath and nasty claws.", "Un vieux et puissant dragon corrosif, armé d'un souffle mortel et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("venom", "venom", "entity subtype")
-t("venom drake hatchling", "venom drake hatchling", "entity name")
-t("A corrosive venom drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "A corrosive venom drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "_t")
-t("venom drake", "venom drake", "entity name")
-t("A mature corrosive venom drake, armed with deadly breath and nasty claws.", "A mature corrosive venom drake, armed with deadly breath and nasty claws.", "_t")
-t("venom wyrm", "venom wyrm", "entity name")
-t("An old and powerful corrosive venom drake, armed with deadly breath and nasty claws.", "An old and powerful corrosive venom drake, armed with deadly breath and nasty claws.", "_t")
 --]==]
 
 
@@ -6813,47 +6804,38 @@ t("An old and powerful corrosive venom drake, armed with deadly breath and nasty
 section "mod-tome/data/general/npcs/vermin.lua"
 
 t("vermin", "vermine", "entity type")
--- texte non traduit
---[==[
-t("worms", "worms", "entity subtype")
-t("white worm mass", "white worm mass", "entity name")
-t("green worm mass", "green worm mass", "entity name")
-t("carrion worm mass", "carrion worm mass", "entity name")
-t("%s exudes a corrupted gas as it dies.", "%s exudes a corrupted gas as it dies.", "logSeen")
---]==]
-
+t("worms", "vers", "entity subtype")
+t("white worm mass", "masse de vers blancs", "entity name")
+t("green worm mass", "masse de vers verts", "entity name")
+t("carrion worm mass", "masse de vers charognards", "entity name")
+t("%s exudes a corrupted gas as it dies.", "la %s dégage un gaz corrompu lorsqu'elle meurt.", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/wight.lua"
 
 t("undead", "mort-vivant", "entity type")
--- texte non traduit
---[==[
-t("wight", "wight", "entity subtype")
-t("These be white wights.", "These be white wights.", "_t")
-t("forest wight", "forest wight", "entity name")
-t("It is a ghostly apparition with a humanoid form.", "It is a ghostly apparition with a humanoid form.", "_t")
-t("grave wight", "grave wight", "entity name")
-t("It is a ghostly form with eyes that haunt you.", "It is a ghostly form with eyes that haunt you.", "_t")
-t("barrow wight", "barrow wight", "entity name")
-t("It is a ghostly nightmare of an entity.", "It is a ghostly nightmare of an entity.", "_t")
-t("emperor wight", "emperor wight", "entity name")
-t("Your life force is torn from your body as this powerful unearthly being approaches.", "Your life force is torn from your body as this powerful unearthly being approaches.", "_t")
---]==]
-
+t("wight", "nécrophage", "entity subtype")
+t("These be white wights.", "Ce sont des nécrophages blancs.", "_t")
+t("forest wight", "nécrophage des forêts", "entity name")
+t("It is a ghostly apparition with a humanoid form.", "C'est une apparition fantomatique avec une forme humanoïde.", "_t")
+t("grave wight", "nécrophage des tombes", "entity name")
+t("It is a ghostly form with eyes that haunt you.", "C'est une forme fantomatique avec des yeux qui vous hantent.", "_t")
+t("barrow wight", "nécrophage des brouillards", "entity name")
+t("It is a ghostly nightmare of an entity.", "C'est un cauchemar fantomatique de cette entité.", "_t")
+t("emperor wight", "nécrophage empreur", "entity name")
+t("Your life force is torn from your body as this powerful unearthly being approaches.", "Votre force vitale s'arrache de votre corps lorsque ce puissant être surnaturel s'approche.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/wild-drake.lua"
 
-
+t("wild", "sauvage", "entity subtype")
+t("spire dragon", "dragon à flèches", "entity name")
+t("A monstrous, coiled wyrm, patient and hateful. Its hide, studded with spikes and crests and blades, turns aside steel and sorcery with equal ease.", "Un ver monstrueux, enroulé, patient et détestable. Sa peau, constellée de pointes, de crêtes et de lames, écarte l'acier et la sorcellerie avec la même facilité.", "_t")
+t("blinkwyrm", "ver clignant", "entity name")
+t("A shifting, writhing, snake-like dragon, blinking in and out of existence, just waiting for you to turn your back.", "Un dragon qui se déplace, se tortille, ressemble à un serpent, qui clignote et disparaît, attendant juste que vous lui tourniez le dos.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("wild", "wild", "entity subtype")
-t("spire dragon", "spire dragon", "entity name")
-t("A monstrous, coiled wyrm, patient and hateful. Its hide, studded with spikes and crests and blades, turns aside steel and sorcery with equal ease.", "A monstrous, coiled wyrm, patient and hateful. Its hide, studded with spikes and crests and blades, turns aside steel and sorcery with equal ease.", "_t")
-t("blinkwyrm", "blinkwyrm", "entity name")
-t("A shifting, writhing, snake-like dragon, blinking in and out of existence, just waiting for you to turn your back.", "A shifting, writhing, snake-like dragon, blinking in and out of existence, just waiting for you to turn your back.", "_t")
 --]==]
 
 
@@ -6861,23 +6843,23 @@ t("A shifting, writhing, snake-like dragon, blinking in and out of existence, ju
 section "mod-tome/data/general/npcs/xorn.lua"
 
 t("elemental", "élémentaire", "entity type")
+t("umber hulk", "Mastodonte des ombres", "entity name")
+t("This bizarre creature has glaring eyes and large mandibles capable of slicing through rock.", "Cette créature bizarre a des yeux éblouissants et de grandes mandibules capables de trancher la roche.", "_t")
+t("A huge creature of the element Earth. Able to merge with its element, it has four huge arms protruding from its enormous torso.", "Une énorme créature de la Terre. Capable de fusionner avec son élément, elle possède quatre énormes bras qui dépassent de son énorme torse.", "_t")
+t("It is a tougher relative of the Xorn. Its hide glitters with metal ores.", "C'est un parent plus robuste du Xorn. Sa peau brille de minerais métalliques.", "_t")
+t("The Fragmented Essence of Harkor'Zun", "L'essence fragmentée d'Harkor'Zun", "entity name")
+t("Fragmented essence... maybe it'd be best if it stayed fragmented.", "Essence fragmentée... peut-être que ce serait mieux si elle restait fragmentée.", "_t")
+t("#AQUAMARINE#%s absorbs the energy of the destroyed fragment!", "#AQUAMARINE#%s absorbe l'énergie du fragment détruit!", "logSeen")
+t("#AQUAMARINE#%s is infused with all the energies of the fragments. The real Harkor'Zun is reconstituted!", "#AQUAMARINE#%s est imprégné de toutes les énergies des fragments. Le véritable Harkor'Zun est reconstitué !", "logSeen")
 t("demon", "démon", "entity type")
 t("major", "majeur", "entity subtype")
+t("A gigantic demon composed of elemental Earth, resembling a twisted Xaren but much, much larger.  It doesn't seem pleased with your presence.", "Un démon gigantesque composé de Terre élémentaire, ressemblant à un Xaren tordu mais beaucoup, beaucoup plus grand.  Il ne semble pas enchanté par votre présence.", "_t")
 -- texte non traduit
 --[==[
 t("xorn", "xorn", "entity subtype")
-t("umber hulk", "umber hulk", "entity name")
-t("This bizarre creature has glaring eyes and large mandibles capable of slicing through rock.", "This bizarre creature has glaring eyes and large mandibles capable of slicing through rock.", "_t")
 t("xorn", "xorn", "entity name")
-t("A huge creature of the element Earth. Able to merge with its element, it has four huge arms protruding from its enormous torso.", "A huge creature of the element Earth. Able to merge with its element, it has four huge arms protruding from its enormous torso.", "_t")
 t("xaren", "xaren", "entity name")
-t("It is a tougher relative of the Xorn. Its hide glitters with metal ores.", "It is a tougher relative of the Xorn. Its hide glitters with metal ores.", "_t")
-t("The Fragmented Essence of Harkor'Zun", "The Fragmented Essence of Harkor'Zun", "entity name")
-t("Fragmented essence... maybe it'd be best if it stayed fragmented.", "Fragmented essence... maybe it'd be best if it stayed fragmented.", "_t")
-t("#AQUAMARINE#%s absorbs the energy of the destroyed fragment!", "#AQUAMARINE#%s absorbs the energy of the destroyed fragment!", "logSeen")
-t("#AQUAMARINE#%s is infused with all the energies of the fragments. The real Harkor'Zun is reconstituted!", "#AQUAMARINE#%s is infused with all the energies of the fragments. The real Harkor'Zun is reconstituted!", "logSeen")
 t("Harkor'Zun", "Harkor'Zun", "entity name")
-t("A gigantic demon composed of elemental Earth, resembling a twisted Xaren but much, much larger.  It doesn't seem pleased with your presence.", "A gigantic demon composed of elemental Earth, resembling a twisted Xaren but much, much larger.  It doesn't seem pleased with your presence.", "_t")
 --]==]
 
 
@@ -6885,14 +6867,14 @@ t("A gigantic demon composed of elemental Earth, resembling a twisted Xaren but 
 section "mod-tome/data/general/npcs/yaech.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("yaech diver", "yaech plongeur", "entity name")
+t("Yaeches are an aquatic subspecies of yeeks. They share the same psionic powers, but they refuse to take part in the Way.", "Les yaeches sont une sous-espèce aquatique des yeeks. Ils partagent les mêmes pouvoirs psioniques, mais refusent de prendre part à la Voie.", "_t")
+t("yaech hunter", "yaech chasseur", "entity name")
+t("yaech mindslayer", "yaech guerrier psionique", "entity name")
+t("yaech psion", "yaech psionique", "entity name")
 -- texte non traduit
 --[==[
 t("yaech", "yaech", "entity subtype")
-t("yaech diver", "yaech diver", "entity name")
-t("Yaeches are an aquatic subspecies of yeeks. They share the same psionic powers, but they refuse to take part in the Way.", "Yaeches are an aquatic subspecies of yeeks. They share the same psionic powers, but they refuse to take part in the Way.", "_t")
-t("yaech hunter", "yaech hunter", "entity name")
-t("yaech mindslayer", "yaech mindslayer", "entity name")
-t("yaech psion", "yaech psion", "entity name")
 --]==]
 
 
@@ -6901,16 +6883,16 @@ section "mod-tome/data/general/npcs/ziguranth.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("and burned on a pyre", "et brûlé sur un bûcher", "_t")
+t("ziguranth warrior", "guerrier zigurante", "entity name")
 t("dwarf", "nain", "entity subtype")
+t("A Ziguranth warrior, clad in heavy armour.", "Un guerrier Zigurante, vêtu d'une armure lourde.", "_t")
+t("ziguranth summoner", "ziguranth invocateur", "entity name")
+t("A Ziguranth wilder, attuned to nature.", "Un Zigurante plus sauvage, en accord avec la nature.", "_t")
+t("ziguranth wyrmic", "ziguranth draconien", "entity name")
 -- texte non traduit
 --[==[
-t("and burned on a pyre", "and burned on a pyre", "_t")
-t("ziguranth warrior", "ziguranth warrior", "entity name")
-t("A Ziguranth warrior, clad in heavy armour.", "A Ziguranth warrior, clad in heavy armour.", "_t")
-t("ziguranth summoner", "ziguranth summoner", "entity name")
 t("thalore", "thalore", "entity subtype")
-t("A Ziguranth wilder, attuned to nature.", "A Ziguranth wilder, attuned to nature.", "_t")
-t("ziguranth wyrmic", "ziguranth wyrmic", "entity name")
 --]==]
 
 
@@ -7095,6 +7077,7 @@ section "mod-tome/data/general/objects/boss-artifacts-maj-eyal.lua"
 t("Wintertide", "Hiver", "entity name")
 t("None", "Aucune", "_t")
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("elder vampire", "ancien vampire", "_t")
 -- texte non traduit
 --[==[
 t("glittering longsword", "glittering longsword", "_t")
@@ -7167,7 +7150,6 @@ t("summon an elder vampire with Taunt to your side for 15 turns", "summon an eld
 t("You need an enemy nearby to summon!", "You need an enemy nearby to summon!", "logPlayer")
 t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("%s taps %s %s, summoning a vampire thrall!", "%s taps %s %s, summoning a vampire thrall!", "logSeen")
-t("elder vampire", "elder vampire", "_t")
 t("A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others. It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.", "A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others. It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.", "_t")
 t("Vampire", "Vampire", "_t")
 t("gem", "gem", "entity type")
@@ -7487,6 +7469,7 @@ t("fire", "feu", "_t")
 t("cold", "froid", "_t")
 t("lightning", "foudre", "_t")
 t("acid", "dégâts d'acid", "_t")
+t("storm", "orage", "entity keyword")
 t("slime", "vase", "entity keyword")
 -- texte non traduit
 --[==[
@@ -7533,7 +7516,6 @@ t("corruption", "corruption", "entity keyword")
 t("blazing ", "blazing ", "entity name")
 t("fiery", "fiery", "entity keyword")
 t("storming ", "storming ", "entity name")
-t("storm", "storm", "entity keyword")
 t("tundral ", "tundral ", "entity name")
 t("tundral", "tundral", "entity keyword")
 t(" of erosion", " of erosion", "entity name")
@@ -8016,6 +7998,7 @@ t("wreckage", "wreckage", "entity keyword")
 section "mod-tome/data/general/objects/egos/gloves.lua"
 
 t("sand", "sable", "entity keyword")
+t("storm", "orage", "entity keyword")
 t("temporal", "temporel", "entity keyword")
 -- texte non traduit
 --[==[
@@ -8031,7 +8014,6 @@ t("psychic's ", "psychic's ", "entity name")
 t("psychic", "psychic", "entity keyword")
 t("sand ", "sand ", "entity name")
 t("storm ", "storm ", "entity name")
-t("storm", "storm", "entity keyword")
 t("blighted ", "blighted ", "entity name")
 t("blighted", "blighted", "entity keyword")
 t("umbral ", "umbral ", "entity name")
@@ -8301,6 +8283,7 @@ section "mod-tome/data/general/objects/egos/mindstars.lua"
 
 t("nature", "dégâts de nature", "entity keyword")
 t("sand", "sable", "entity keyword")
+t("venom", "venimeux", "entity keyword")
 t("%s resists the mind attack!", "%s résiste à l'attaque mentale!", "logSeen")
 -- texte non traduit
 --[==[
@@ -8340,7 +8323,6 @@ t(" of sand", " of sand", "entity name")
 t(" of storms", " of storms", "entity name")
 t("storms", "storms", "entity keyword")
 t(" of venom", " of venom", "entity name")
-t("venom", "venom", "entity keyword")
 t("manaburning ", "manaburning ", "entity name")
 t("manaburning", "manaburning", "entity keyword")
 t("inquisitor's ", "inquisitor's ", "entity name")
@@ -8463,6 +8445,7 @@ t("light", "lumière", "entity keyword")
 t("darkness", "obscurité", "entity keyword")
 t("blight", "maladie", "entity keyword")
 t("mind", "esprit", "entity keyword")
+t("rogue", "voyou", "entity keyword")
 t("treant", "tréant", "entity keyword")
 -- texte non traduit
 --[==[
@@ -8496,7 +8479,6 @@ t("time", "time", "entity keyword")
 t("warrior's ", "warrior's ", "entity name")
 t("warrior", "warrior", "entity keyword")
 t("rogue's ", "rogue's ", "entity name")
-t("rogue", "rogue", "entity keyword")
 t("marksman's ", "marksman's ", "entity name")
 t("marksman", "marksman", "entity keyword")
 t("titan's ", "titan's ", "entity name")
@@ -8551,6 +8533,7 @@ t("light", "lumière", "entity keyword")
 t("darkness", "obscurité", "entity keyword")
 t("blight", "maladie", "entity keyword")
 t("mind", "esprit", "entity keyword")
+t("storm", "orage", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of fire (#RESIST#)", " of fire (#RESIST#)", "entity name")
@@ -8599,7 +8582,6 @@ t("life", "life", "entity keyword")
 t("slimy ", "slimy ", "entity name")
 t("slimy", "slimy", "entity keyword")
 t("stormwoven ", "stormwoven ", "entity name")
-t("storm", "storm", "entity keyword")
 t("verdant ", "verdant ", "entity name")
 t("verdant", "verdant", "entity keyword")
 t("mindwoven ", "mindwoven ", "entity name")
@@ -18353,13 +18335,12 @@ t("Something in the floor clicks ominously.", "Something in the floor clicks omi
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/auto/greater/paladin-vs-vampire.lua"
 
-
+t("human sun-paladin", "paladin solaire humain", "_t")
 -- texte non traduit
 --[==[
 t("corrupted lava floor", "corrupted lava floor", "_t")
 t("#Source# emits dark energies at your feet.", "#Source# emits dark energies at your feet.", "logCombat")
 t("The corrupted lava reanimates %s's corpse!", "The corrupted lava reanimates %s's corpse!", "logSeen")
-t("human sun-paladin", "human sun-paladin", "_t")
 t("A Human in shining plate armour.", "A Human in shining plate armour.", "_t")
 --]==]
 
@@ -20528,6 +20509,7 @@ t([[You revert your body to a previous state, healing yourself for %0.2f life an
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/anomalies.lua"
 
+t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 t("trap", "piège", "_t")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
@@ -20540,7 +20522,6 @@ t("@Source@ shifts reality.", "@Source@ shifts reality.", "_t")
 t("Teleports up to five targets in a radius of %d up to %d tiles away.", "Teleports up to five targets in a radius of %d up to %d tiles away.", "tformat")
 t("Anomaly Swap", "Anomaly Swap", "talent name")
 t("@Source@ swaps places with a nearby target.", "@Source@ swaps places with a nearby target.", "_t")
-t("The spell fizzles!", "The spell fizzles!", "logSeen")
 t("You swap locations with a random target.", "You swap locations with a random target.", "tformat")
 t("Anomaly Displacement Shield", "Anomaly Displacement Shield", "talent name")
 t("@Source@ transfers damage to a nearby target.", "@Source@ transfers damage to a nearby target.", "_t")
@@ -20673,7 +20654,7 @@ t("Time elementals have been attracted to the timeline.", "Time elementals have 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/blade-threading.lua"
 
-
+t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 -- texte non traduit
 --[==[
 t("Warp Blade", "Warp Blade", "talent name")
@@ -20684,7 +20665,6 @@ t([[Attack with your melee weapons for %d%% weapon damage as physical and tempor
 		
 		Blade Threading talents will freely swap to your dual-weapons when activated if you have them in your secondary slots.  Additionally you may use the Attack talent in a similar manner.]], "tformat")
 t("Blink Blade", "Blink Blade", "talent name")
-t("The spell fizzles!", "The spell fizzles!", "logSeen")
 t([[Teleport to the target and attack with your melee weapons for %d%% damage.  Then teleport next to a second random enemy, attacking for %d%% damage.
 		Blink Blade can hit the same target multiple times.]], [[Teleport to the target and attack with your melee weapons for %d%% damage.  Then teleport next to a second random enemy, attacking for %d%% damage.
 		Blink Blade can hit the same target multiple times.]], "tformat")
@@ -21075,6 +21055,8 @@ t([[While active your physical and temporal damage has a %d%% chance to remove o
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/other.lua"
 
+t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
+t("%s resists the swap!", "%s résiste à la permutation!", "logSeen")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
@@ -21170,8 +21152,6 @@ t([[You convert %d%% of all non-temporal damage you receive into temporal damage
 t("Phase Shift", "Phase Shift", "talent name")
 t("Phase shift yourself for %d turns; any damage greater than 10%% of your maximum life will teleport you to an adjacent tile and be reduced by 50%% (can only happen once per turn).", "Phase shift yourself for %d turns; any damage greater than 10%% of your maximum life will teleport you to an adjacent tile and be reduced by 50%% (can only happen once per turn).", "tformat")
 t("Swap", "Swap", "talent name")
-t("The spell fizzles!", "The spell fizzles!", "logSeen")
-t("%s resists the swap!", "%s resists the swap!", "logSeen")
 t([[You manipulate the spacetime continuum in such a way that you switch places with another creature with in a range of %d.  The targeted creature will be confused (power %d%%) for %d turns.
 		The spell's hit chance will increase with your Spellpower.]], [[You manipulate the spacetime continuum in such a way that you switch places with another creature with in a range of %d.  The targeted creature will be confused (power %d%%) for %d turns.
 		The spell's hit chance will increase with your Spellpower.]], "tformat")
@@ -21476,7 +21456,7 @@ t([[Attack the target with either your ranged or melee weapons for %d%% damage.
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/temporal-hounds.lua"
 
-
+t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 -- texte non traduit
 --[==[
 t("A trained hound that appears to be all at once a little puppy and a toothless old dog.", "A trained hound that appears to be all at once a little puppy and a toothless old dog.", "_t")
@@ -21490,7 +21470,6 @@ t([[Upon activation summon a Temporal Hound.  Every %d turns another hound will 
 t("Command Hounds: Blink", "Command Hounds: Blink", "talent name")
 t("Temporal Hounds must be sustained to cast this spell.", "Temporal Hounds must be sustained to cast this spell.", "logPlayer")
 t("You do not have line of sight.", "You do not have line of sight.", "logPlayer")
-t("The spell fizzles!", "The spell fizzles!", "logSeen")
 t([[Command your Temporal Hounds to teleport to the targeted location.  If you target an enemy your hounds will set that enemy as their target.
 		When you learn this talent, your hounds gain %d defense and %d%% resist all after any teleport.
 		At talent level five, if you're not at your maximum number of hounds when you cast this spell a new one will be summoned.
@@ -21519,12 +21498,11 @@ t([[Command your Temporal Hounds to breathe time, dealing %0.2f temporal damage 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/threaded-combat.lua"
 
-
+t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 -- texte non traduit
 --[==[
 t("Thread Walk", "Thread Walk", "talent name")
 t("You require a weapon to use this talent.", "You require a weapon to use this talent.", "logPlayer")
-t("The spell fizzles!", "The spell fizzles!", "logSeen")
 t("range %d", "range %d", "logPlayer")
 t("You cannot use Thread Walk without an appropriate weapon!", "You cannot use Thread Walk without an appropriate weapon!", "logPlayer")
 t([[Attack with your bow or dual-weapons for %d%% damage.  If you shoot an arrow you'll teleport near the target location.  If you use your dual-weapons you'll teleport up to your bow's range away.
@@ -21901,7 +21879,7 @@ t([[Your blood turns into an acidic mixture. When you get hit, the attacker is s
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/rot.lua"
 
-
+t("%s exudes a corrupted gas as it dies.", "la %s dégage un gaz corrompu lorsqu'elle meurt.", "logSeen")
 -- texte non traduit
 --[==[
 t("Infectious Bite", "Infectious Bite", "talent name")
@@ -21912,7 +21890,6 @@ t([[Bite the target, dealing %d%% melee damage
 		If the attack hits you'll inject blight poison into the target, dealing %0.2f blight damage and a further %0.2f blight damage over 4 turns.
 		The bonus damage improves with your Spellpower.]], "tformat")
 t("A worm spawned from a damaged horror.  Destroying it may have consequences.", "A worm spawned from a damaged horror.  Destroying it may have consequences.", "_t")
-t("%s exudes a corrupted gas as it dies.", "%s exudes a corrupted gas as it dies.", "logSeen")
 t("Summon", "Summon", "_t")
 t("Infestation", "Infestation", "talent name")
 t([[Your body has become a mass of living corruption, increasing your blight and acid resistance by %d%% and blight affinity by %d%%.
@@ -22570,7 +22547,7 @@ t([[Your melee and ranged attacks leave your foes unable to focus on any complex
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/shadow-magic.lua"
 
-
+t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 -- texte non traduit
 --[==[
 t("Shadow Combat", "Shadow Combat", "talent name")
@@ -22587,7 +22564,6 @@ t("Shadowstep", "Shadowstep", "talent name")
 t("You require to be able to move to use this talent.", "You require to be able to move to use this talent.", "logPlayer")
 t("You cannot do that currently.", "You cannot do that currently.", "logPlayer")
 t("You do not have line of sight.", "You do not have line of sight.", "logSeen")
-t("The spell fizzles!", "The spell fizzles!", "logSeen")
 t("%s is not dazed!", "%s is not dazed!", "logSeen")
 t([[Step through the shadows to your target, dazing it for %d turns and hitting it with all your weapons for %d%% darkness weapon damage.
 		Dazed targets are significantly impaired, but any damage will free them.
@@ -27899,12 +27875,11 @@ t([[Surround yourself with arcane forces, disrupting any attempts to harm you by
 ------------------------------------------------
 section "mod-tome/data/talents/spells/conveyance.lua"
 
-
+t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 -- texte non traduit
 --[==[
 t("Phase Door", "Phase Door", "talent name")
 t("Select a target to teleport...", "Select a target to teleport...", "logPlayer")
-t("The spell fizzles!", "The spell fizzles!", "logSeen")
 t("Select a teleport location...", "Select a teleport location...", "logPlayer")
 t("The targeted phase door fizzles and works randomly!", "The targeted phase door fizzles and works randomly!", "logPlayer")
 t([[Teleports you randomly within a small range of up to %d grids.
@@ -29129,6 +29104,7 @@ t("arcane", "dégâts d'arcane", "talent type")
 t("fire", "feu", "talent type")
 t("water", "eau", "talent type")
 t("ice", "glace", "talent type")
+t("storm", "orage", "talent type")
 t("temporal", "temporel", "talent type")
 t("dreadmaster", "maître hanteur", "talent type")
 t("grave", "tombe", "talent type")
@@ -29148,7 +29124,6 @@ t("Harness the power of water to drown your foes.", "Harness the power of water 
 t("Harness the power of ice to freeze and shatter your foes.", "Harness the power of ice to freeze and shatter your foes.", "_t")
 t("air", "air", "talent type")
 t("Harness the power of the air to fry your foes.", "Harness the power of the air to fry your foes.", "_t")
-t("storm", "storm", "talent type")
 t("Harness the power of the storm to incinerate your foes.", "Harness the power of the storm to incinerate your foes.", "_t")
 t("meta", "meta", "talent type")
 t("Meta spells alter the working of magic itself.", "Meta spells alter the working of magic itself.", "_t")
@@ -38400,13 +38375,17 @@ section "mod-tome/data/zones/arena/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("skeletal rat", "rat squelettique", "entity name")
 t("undead", "mort-vivant", "entity type")
 t("halfling", "halfelin", "entity subtype")
 t("headless horror", "horreur sans tête", "entity name")
 t("#AQUAMARINE#As %s falls all its eyes fall to the ground!", "#AQUAMARINE#Lorsque %s tombe, tous ses yeux tombent au sol !", "logSeen")
+t("rogue", "voyou", "entity name")
+t("shadowblade", "lame ténébreuse", "entity name")
+t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "Des combattants furtifs qui tentent de remporter la victoire par la ruse. Faites attention ou ils vous voleront votre vie!", "_t")
+t("elf", "elfe", "entity subtype")
 -- texte non traduit
 --[==[
-t("skeletal rat", "skeletal rat", "entity name")
 t("The diminutive skeleton of a giant rat, charged with evil energies. Nobody understands the usefulness of undead rodents until several of them come after you.", "The diminutive skeleton of a giant rat, charged with evil energies. Nobody understands the usefulness of undead rodents until several of them come after you.", "_t")
 t("homeless fighter", "homeless fighter", "entity name")
 t("Will fight for a meal.", "Will fight for a meal.", "_t")
@@ -38441,12 +38420,9 @@ t("blood mage", "blood mage", "entity name")
 t("A man dressed in black robes. You feel weak as you hear his ominous chanting.", "A man dressed in black robes. You feel weak as you hear his ominous chanting.", "_t")
 t("hexer", "hexer", "entity name")
 t("A man dressed in black robes. You feel a thousand curses being put on you.", "A man dressed in black robes. You feel a thousand curses being put on you.", "_t")
-t("rogue", "rogue", "entity name")
 t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your sight!", "Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your sight!", "_t")
 t("trickster", "trickster", "entity name")
 t("Stealthy ranged fighters trying to achieve victory with trickery. Be careful or they will shoot your heart!", "Stealthy ranged fighters trying to achieve victory with trickery. Be careful or they will shoot your heart!", "_t")
-t("shadowblade", "shadowblade", "entity name")
-t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "_t")
 t("fire wyrmic", "fire wyrmic", "entity name")
 t("A fire wyrmic aspiring to win the tournament. He comes paired with an ice wyrmic.", "A fire wyrmic aspiring to win the tournament. He comes paired with an ice wyrmic.", "_t")
 t("ice wyrmic", "ice wyrmic", "entity name")
@@ -38460,7 +38436,6 @@ t("great gladiator", "great gladiator", "entity name")
 t("martyr", "martyr", "entity name")
 t("A devout soldier.", "A devout soldier.", "_t")
 t("anorithil", "anorithil", "entity name")
-t("elf", "elf", "entity subtype")
 t("Warriors from afar. They use the power of light and darkness against you!", "Warriors from afar. They use the power of light and darkness against you!", "_t")
 t("sun paladin", "sun paladin", "entity name")
 t("Warriors from afar. They wield the power of light, and a mean sword.", "Warriors from afar. They wield the power of light, and a mean sword.", "_t")
@@ -38665,11 +38640,11 @@ section "mod-tome/data/zones/charred-scar/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("human sun-paladin", "paladin solaire humain", "entity name")
 t("orc warrior", "guerrier orc", "entity name")
 t("A fierce soldier-orc.", "Un féroce soldat-orc.", "_t")
 -- texte non traduit
 --[==[
-t("human sun-paladin", "human sun-paladin", "entity name")
 t("A Human in shiny plate armour.", "A Human in shiny plate armour.", "_t")
 t("High Sun-Paladin Rodmour", "High Sun-Paladin Rodmour", "entity name")
 t("Go %s! We will hold the line!", "Go %s! We will hold the line!", "tformat")
@@ -38779,6 +38754,7 @@ section "mod-tome/data/zones/crypt-kryl-feijan/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("elf", "elfe", "entity subtype")
 -- texte non traduit
 --[==[
 t("Kryl-Feijan", "Kryl-Feijan", "entity name")
@@ -38787,7 +38763,6 @@ t("and devoured as a demonic breakfast", "and devoured as a demonic breakfast", 
 t("Melinda", "Melinda", "entity name")
 t("A female Human with twisted sigils scored into her naked flesh. Her wrists and ankles are sore and hurt by ropes and chains. You can discern great beauty beyond the stains of blood covering her skin.", "A female Human with twisted sigils scored into her naked flesh. Her wrists and ankles are sore and hurt by ropes and chains. You can discern great beauty beyond the stains of blood covering her skin.", "_t")
 t("Acolyte of the Sect of Kryl-Feijan", "Acolyte of the Sect of Kryl-Feijan", "entity name")
-t("elf", "elf", "entity subtype")
 t("Black-robed Elves with a mad look in their eyes.", "Black-robed Elves with a mad look in their eyes.", "_t")
 t("Melinda", "Melinda", "_t")
 t([[The woman seems to be freed from her bonds.
@@ -41685,12 +41660,12 @@ section "mod-tome/data/zones/town-derth/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
 t("halfling", "halfelin", "entity subtype")
 -- texte non traduit
 --[==[
 t("Catch @himher@!", "Catch @himher@!", "_t")
 t("derth guard", "derth guard", "entity name")
-t("A stern-looking guard, he will not let you disturb the town.", "A stern-looking guard, he will not let you disturb the town.", "_t")
 t("halfling slinger", "halfling slinger", "entity name")
 t("A Halfling, with a sling. Beware.", "A Halfling, with a sling. Beware.", "_t")
 t("human farmer", "human farmer", "entity name")
@@ -41734,6 +41709,7 @@ t("Derth", "Derth", "_t")
 section "mod-tome/data/zones/town-elvala/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
 t("giant", "géant", "entity type")
 t("ogre rune-spinner", "tisseur de rune ogre", "entity name")
 -- texte non traduit
@@ -41741,7 +41717,6 @@ t("ogre rune-spinner", "tisseur de rune ogre", "entity name")
 t("shalore", "shalore", "entity subtype")
 t("Catch @himher@!", "Catch @himher@!", "_t")
 t("elvala guard", "elvala guard", "entity name")
-t("A stern-looking guard, he will not let you disturb the town.", "A stern-looking guard, he will not let you disturb the town.", "_t")
 t("shalore rune master", "shalore rune master", "entity name")
 t("A tall Elf, his skin covered in runes.", "A tall Elf, his skin covered in runes.", "_t")
 t("ogre", "ogre", "entity subtype")
@@ -41991,12 +41966,12 @@ section "mod-tome/data/zones/town-last-hope/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
 t("halfling", "halfelin", "entity subtype")
 -- texte non traduit
 --[==[
 t("Catch @himher@!", "Catch @himher@!", "_t")
 t("last hope guard", "last hope guard", "entity name")
-t("A stern-looking guard, he will not let you disturb the town.", "A stern-looking guard, he will not let you disturb the town.", "_t")
 t("halfling guard", "halfling guard", "entity name")
 t("A Halfling, with a sling. Beware.", "A Halfling, with a sling. Beware.", "_t")
 t("human citizen", "human citizen", "entity name")
@@ -42182,12 +42157,12 @@ t("cobblestone road", "cobblestone road", "entity name")
 section "mod-tome/data/zones/town-shatur/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
 -- texte non traduit
 --[==[
 t("thalore", "thalore", "entity subtype")
 t("Catch @himher@!", "Catch @himher@!", "_t")
 t("thalore hunter", "thalore hunter", "entity name")
-t("A stern-looking guard, he will not let you disturb the town.", "A stern-looking guard, he will not let you disturb the town.", "_t")
 t("thalore wilder", "thalore wilder", "entity name")
 t("A tall elf, his skin covered in green moss.", "A tall elf, his skin covered in green moss.", "_t")
 --]==]
@@ -42627,9 +42602,9 @@ t("Unhallowed Morass", "Unhallowed Morass", "_t")
 section "mod-tome/data/zones/unremarkable-cave/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("elf", "elfe", "entity subtype")
 -- texte non traduit
 --[==[
-t("elf", "elf", "entity subtype")
 t("Fillarel Aldaren", "Fillarel Aldaren", "entity name")
 t("An Elven woman. She wears a tight robe decorated with symbols of the Sun and the Moon and wields a staff.", "An Elven woman. She wears a tight robe decorated with symbols of the Sun and the Moon and wields a staff.", "_t")
 t("orc", "orc", "entity subtype")
@@ -42667,11 +42642,11 @@ section "mod-tome/data/zones/valley-moon/npcs.lua"
 t("demon", "démon", "entity type")
 t("major", "majeur", "entity subtype")
 t("humanoid", "humanoïde", "entity type")
+t("elf", "elfe", "entity subtype")
 -- texte non traduit
 --[==[
 t("Corrupted Daelach", "Corrupted Daelach", "entity name")
 t("Shadow and flames. The huge beast of fire moves speedily toward you, its huge shadowy wings deployed.", "Shadow and flames. The huge beast of fire moves speedily toward you, its huge shadowy wings deployed.", "_t")
-t("elf", "elf", "entity subtype")
 t("Limmir the Jeweler", "Limmir the Jeweler", "entity name")
 t("An Elven Anorithil, specializing in the art of jewelry.", "An Elven Anorithil, specializing in the art of jewelry.", "_t")
 t("#VIOLET#Limmir is attacked! Defend him!", "#VIOLET#Limmir is attacked! Defend him!", "say")
