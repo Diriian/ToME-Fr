@@ -6900,20 +6900,20 @@ t("thalore", "thalore", "entity subtype")
 section "mod-tome/data/general/objects/2haxes.lua"
 
 t("weapon", "arme", "entity type")
+t("battleaxe", "hache de guerre", "entity subtype")
+t("axe", "hache", "entity combat talented")
+t("Massive two-handed battleaxes.", "Haches de guerre massives à deux mains.", "_t")
+t("iron battleaxe", "hache de guerre en fer", "entity name")
+t("iron", "fer", "entity short_name")
+t("steel battleaxe", "hache de guerre en acier", "entity name")
+t("steel", "acier", "entity short_name")
+t("dwarven-steel battleaxe", "hache de guerre en acier nain", "entity name")
+t("d.steel", "acier.n", "entity short_name")
+t("stralite battleaxe", "hache de guerre en stralite", "entity name")
+t("voratun battleaxe", "hache de guerre en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("battleaxe", "battleaxe", "entity subtype")
-t("axe", "axe", "entity combat talented")
-t("Massive two-handed battleaxes.", "Massive two-handed battleaxes.", "_t")
-t("iron battleaxe", "iron battleaxe", "entity name")
-t("iron", "iron", "entity short_name")
-t("steel battleaxe", "steel battleaxe", "entity name")
-t("steel", "steel", "entity short_name")
-t("dwarven-steel battleaxe", "dwarven-steel battleaxe", "entity name")
-t("d.steel", "d.steel", "entity short_name")
-t("stralite battleaxe", "stralite battleaxe", "entity name")
 t("stralite", "stralite", "entity short_name")
-t("voratun battleaxe", "voratun battleaxe", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -6922,20 +6922,20 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/2hmaces.lua"
 
 t("weapon", "arme", "entity type")
+t("greatmaul", "grande masse", "entity subtype")
+t("mace", "masse", "entity combat talented")
+t("Massive two-handed mauls.", "Masse massives à deux mains.", "_t")
+t("iron greatmaul", "grande masse en fer", "entity name")
+t("iron", "fer", "entity short_name")
+t("steel greatmaul", "grande masse en acier", "entity name")
+t("steel", "acier", "entity short_name")
+t("dwarven-steel greatmaul", "grande masse en acier nain", "entity name")
+t("d.steel", "acier.n", "entity short_name")
+t("stralite greatmaul", "grande masse en stralite", "entity name")
+t("voratun greatmaul", "grande masse en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("greatmaul", "greatmaul", "entity subtype")
-t("mace", "mace", "entity combat talented")
-t("Massive two-handed mauls.", "Massive two-handed mauls.", "_t")
-t("iron greatmaul", "iron greatmaul", "entity name")
-t("iron", "iron", "entity short_name")
-t("steel greatmaul", "steel greatmaul", "entity name")
-t("steel", "steel", "entity short_name")
-t("dwarven-steel greatmaul", "dwarven-steel greatmaul", "entity name")
-t("d.steel", "d.steel", "entity short_name")
-t("stralite greatmaul", "stralite greatmaul", "entity name")
 t("stralite", "stralite", "entity short_name")
-t("voratun greatmaul", "voratun greatmaul", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -6944,20 +6944,20 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/2hswords.lua"
 
 t("weapon", "arme", "entity type")
+t("greatsword", "espadon", "entity subtype")
+t("sword", "épée", "entity combat talented")
+t("Massive two-handed swords.", "Épée massive à deux mains.", "_t")
+t("iron greatsword", "espadon en fer", "entity name")
+t("iron", "fer", "entity short_name")
+t("steel greatsword", "espadon en acier", "entity name")
+t("steel", "acier", "entity short_name")
+t("dwarven-steel greatsword", "espadon en acier nain", "entity name")
+t("d.steel", "acier.n", "entity short_name")
+t("stralite greatsword", "espadon en stralite", "entity name")
+t("voratun greatsword", "espadon en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("greatsword", "greatsword", "entity subtype")
-t("sword", "sword", "entity combat talented")
-t("Massive two-handed swords.", "Massive two-handed swords.", "_t")
-t("iron greatsword", "iron greatsword", "entity name")
-t("iron", "iron", "entity short_name")
-t("steel greatsword", "steel greatsword", "entity name")
-t("steel", "steel", "entity short_name")
-t("dwarven-steel greatsword", "dwarven-steel greatsword", "entity name")
-t("d.steel", "d.steel", "entity short_name")
-t("stralite greatsword", "stralite greatsword", "entity name")
 t("stralite", "stralite", "entity short_name")
-t("voratun greatsword", "voratun greatsword", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -6966,23 +6966,23 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/2htridents.lua"
 
 t("weapon", "arme", "entity type")
+t([[A two-handed massive trident.
+Tridents require the exotic weapons mastery talent to use correctly.]], [[Un trident massif à deux mains.
+Les tridents nécessitent le talent de maîtrise armes exotiques pour être utilisés correctement.]], "_t")
+t("coral trident", "trident en corail", "entity name")
+t("coral", "corail", "entity short_name")
+t("blue-steel trident", "trident en acier bleu", "entity name")
+t("b.steel", "acier.b", "entity short_name")
+t("deep-steel trident", "trident en acier profond", "entity name")
+t("d.steel", "acier.n", "entity short_name")
+t("orite trident", "trident en orite", "entity name")
+t("orichalcum trident", "trident en orichalque", "entity name")
+t("orichalcum", "orichalque", "entity short_name")
 -- texte non traduit
 --[==[
 t("trident", "trident", "entity subtype")
 t("trident", "trident", "entity combat talented")
-t([[A two-handed massive trident.
-Tridents require the exotic weapons mastery talent to use correctly.]], [[A two-handed massive trident.
-Tridents require the exotic weapons mastery talent to use correctly.]], "_t")
-t("coral trident", "coral trident", "entity name")
-t("coral", "coral", "entity short_name")
-t("blue-steel trident", "blue-steel trident", "entity name")
-t("b.steel", "b.steel", "entity short_name")
-t("deep-steel trident", "deep-steel trident", "entity name")
-t("d.steel", "d.steel", "entity short_name")
-t("orite trident", "orite trident", "entity name")
 t("orite", "orite", "entity short_name")
-t("orichalcum trident", "orichalcum trident", "entity name")
-t("orichalcum", "orichalcum", "entity short_name")
 --]==]
 
 
@@ -6990,20 +6990,20 @@ t("orichalcum", "orichalcum", "entity short_name")
 section "mod-tome/data/general/objects/axes.lua"
 
 t("weapon", "arme", "entity type")
+t("waraxe", "hache de guerre", "entity subtype")
+t("axe", "hache", "entity combat talented")
+t("One-handed war axes.", "Hache de guerre a une main.", "_t")
+t("iron waraxe", "hache de guerre en fer", "entity name")
+t("iron", "fer", "entity short_name")
+t("steel waraxe", "hache de guerre en acier", "entity name")
+t("steel", "acier", "entity short_name")
+t("dwarven-steel waraxe", "hache de guerre en acier nain", "entity name")
+t("d.steel", "acier.n", "entity short_name")
+t("stralite waraxe", "hache de guerre en stralite", "entity name")
+t("voratun waraxe", "hache de guerre en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("waraxe", "waraxe", "entity subtype")
-t("axe", "axe", "entity combat talented")
-t("One-handed war axes.", "One-handed war axes.", "_t")
-t("iron waraxe", "iron waraxe", "entity name")
-t("iron", "iron", "entity short_name")
-t("steel waraxe", "steel waraxe", "entity name")
-t("steel", "steel", "entity short_name")
-t("dwarven-steel waraxe", "dwarven-steel waraxe", "entity name")
-t("d.steel", "d.steel", "entity short_name")
-t("stralite waraxe", "stralite waraxe", "entity name")
 t("stralite", "stralite", "entity short_name")
-t("voratun waraxe", "voratun waraxe", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -7011,252 +7011,247 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/boss-artifacts-far-east.lua"
 
-
--- texte non traduit
---[==[
-t("Life Drinker", "Life Drinker", "entity name")
-t("blood coated dagger", "blood coated dagger", "_t")
-t("Black blood for foul deeds. This dagger serves evil.", "Black blood for foul deeds. This dagger serves evil.", "_t")
-t("Trident of the Tides", "Trident of the Tides", "entity name")
-t("ever-dripping trident", "ever-dripping trident", "_t")
+t("Life Drinker", "Buveuse de Vie", "entity name")
+t("blood coated dagger", "dague couverte de sang", "_t")
+t("Black blood for foul deeds. This dagger serves evil.", "Du sang noir pour des actes immondes. Cette dague sert le diable.", "_t")
+t("Trident of the Tides", "Trident des Vagues", "entity name")
+t("ever-dripping trident", "un trident qui ne cesse de déborder.", "_t")
 t([[The power of the tides rush through this trident.
-Tridents require the exotic weapons mastery talent to use correctly.]], [[The power of the tides rush through this trident.
-Tridents require the exotic weapons mastery talent to use correctly.]], "_t")
-t("Fiery Choker", "Fiery Choker", "entity name")
-t("flame-wrought amulet", "flame-wrought amulet", "_t")
-t("A choker made of pure flame, casting forever shifting patterns around the neck of its wearer. Its fire seems to not harm the wearer.", "A choker made of pure flame, casting forever shifting patterns around the neck of its wearer. Its fire seems to not harm the wearer.", "_t")
-t("Chromatic Harness", "Chromatic Harness", "entity name")
-t("multi-hued scale-mail armour", "multi-hued scale-mail armour", "_t")
-t("This dragon scale harness shines with multiple colors, quickly shifting through them in a seemingly chaotic manner.", "This dragon scale harness shines with multiple colors, quickly shifting through them in a seemingly chaotic manner.", "_t")
-t("Glory of the Pride", "Glory of the Pride", "entity name")
-t("The most prized treasure of the Battlemaster of the Pride, Grushnak. This gold ring is inscribed in the now lost orc tongue.", "The most prized treasure of the Battlemaster of the Pride, Grushnak. This gold ring is inscribed in the now lost orc tongue.", "_t")
-t("deep black ring", "deep black ring", "_t")
-t("Black Robe", "Black Robe", "entity name")
-t("black robe", "black robe", "_t")
-t("A silk robe, darker than the darkest night sky, it radiates power.", "A silk robe, darker than the darkest night sky, it radiates power.", "_t")
-t("Crown of the Elements", "Crown of the Elements", "entity name")
-t("jeweled crown", "jeweled crown", "_t")
-t("This jeweled crown shimmers with colors.", "This jeweled crown shimmers with colors.", "_t")
-t("Warmaster Gnarg's Murderblade", "Warmaster Gnarg's Murderblade", "entity name")
-t("blood-etched greatsword", "blood-etched greatsword", "_t")
-t("A blood-etched greatsword, it has seen many foes. From the inside.", "A blood-etched greatsword, it has seen many foes. From the inside.", "_t")
-t("10% chance to send the wielder into a killing frenzy", "10% chance to send the wielder into a killing frenzy", "_t")
-t("Whip of Urh'Rok", "Whip of Urh'Rok", "entity name")
-t("fiery whip", "fiery whip", "_t")
-t("With this unbearably bright whip of flame, the demon master Urh'Rok has become known for never having lost in combat.", "With this unbearably bright whip of flame, the demon master Urh'Rok has become known for never having lost in combat.", "_t")
-t("Storm Fury", "Storm Fury", "entity name")
-t("crackling longbow", "crackling longbow", "_t")
-t("This dragonbone longbow is enhanced with bands of steel, which arc with intense lightning. Bolts travel up and down the string, ignorant of you.", "This dragonbone longbow is enhanced with bands of steel, which arc with intense lightning. Bolts travel up and down the string, ignorant of you.", "_t")
-t("Automatically fires lightning bolts every game turn at nearby enemies dealing %d to %d lightning damage based on Magic with a chance to inflict Daze.", "Automatically fires lightning bolts every game turn at nearby enemies dealing %d to %d lightning damage based on Magic with a chance to inflict Daze.", "tformat")
-t("#GOLD#A bolt of lightning fires from #Source#'s bow, striking #Target#!", "#GOLD#A bolt of lightning fires from #Source#'s bow, striking #Target#!", "logCombat")
-t("Frozen Shroud", "Frozen Shroud", "entity name")
-t("chilling cloak", "chilling cloak", "_t")
-t("All that remains of the Glacial Legion. This cloak seems to exude an icy cold vapor that freezes all it touches.", "All that remains of the Glacial Legion. This cloak seems to exude an icy cold vapor that freezes all it touches.", "_t")
-t("release a radius %d chilling blast, instantly dealing %0.2f cold damage and condensing the air into freezing vapors that deal %0.2f cold damage (based on Magic) each turn for %d turns", "release a radius %d chilling blast, instantly dealing %0.2f cold damage and condensing the air into freezing vapors that deal %0.2f cold damage (based on Magic) each turn for %d turns", "tformat")
-t("%s releases an icy blast from %s %s!", "%s releases an icy blast from %s %s!", "logSeen")
-t("icy vapors", "icy vapors", "_t")
-t("Blighted Maul", "Blighted Maul", "entity name")
-t("rotten stone limb", "rotten stone limb", "_t")
-t("The massive stone limb of the Rotting Titan, a mass of stone and rotting flesh. You think you can lift it, but it is very heavy.", "The massive stone limb of the Rotting Titan, a mass of stone and rotting flesh. You think you can lift it, but it is very heavy.", "_t")
-t("Blasts creatures in a radius 1 shockwave around your target for %0.2f to %0.2f physical damage (based on Strength).", "Blasts creatures in a radius 1 shockwave around your target for %0.2f to %0.2f physical damage (based on Strength).", "tformat")
-t("%s's %s shakes the ground with its impact!", "%s's %s shakes the ground with its impact!", "logSeen")
-t("knock away other creatures within radius %d), dealing %0.2f to %0.2f physical damage (based on Strength) to each", "knock away other creatures within radius %d), dealing %0.2f to %0.2f physical damage (based on Strength) to each", "tformat")
-t("%s slams %s %s into the ground, sending out a shockwave!", "%s slams %s %s into the ground, sending out a shockwave!", "logSeen")
-t("Molten Skin", "Molten Skin", "entity name")
-t("melting bony armour", "melting bony armour", "_t")
-t("This mass of fused molten bone from the Heavy Sentinel radiates intense power. It still glows red with the heat of the Sentinel's core, and yet seems to do you no harm.", "This mass of fused molten bone from the Heavy Sentinel radiates intense power. It still glows red with the heat of the Sentinel's core, and yet seems to do you no harm.", "_t")
-t("Void Orb", "Void Orb", "entity name")
-t("This thin grey ring is adorned with a deep black orb. Tiny white dots swirl slowly within it, and a faint purple light glows from its core.", "This thin grey ring is adorned with a deep black orb. Tiny white dots swirl slowly within it, and a faint purple light glows from its core.", "_t")
-t("ethereal ring", "ethereal ring", "_t")
---]==]
-
+Tridents require the exotic weapons mastery talent to use correctly.]], [[La puissance des marées s'engouffre dans ce trident.
+Les tridents nécessitent le talent maîtrise des armes exotiques pour être utilisés correctement.]], "_t")
+t("Fiery Choker", "Collier Ardent", "entity name")
+t("flame-wrought amulet", "amulette en forme de flamme", "_t")
+t("A choker made of pure flame, casting forever shifting patterns around the neck of its wearer. Its fire seems to not harm the wearer.", "Un collier fait de flammes brutes, créant des motifs changeants autour du cou de celui qui le porte. Son feu semble ne pas nuire à son porteur.", "_t")
+t("Chromatic Harness", "Harnais Chromatique", "entity name")
+t("multi-hued scale-mail armour", "armure en cotte de mailles multicolore", "_t")
+t("This dragon scale harness shines with multiple colors, quickly shifting through them in a seemingly chaotic manner.", "Ce harnais en écailles de dragon brille de multiples couleurs, passant rapidement de l'une à l'autre d'une manière apparemment chaotique.", "_t")
+t("Glory of the Pride", "Gloire des Clans", "entity name")
+t("The most prized treasure of the Battlemaster of the Pride, Grushnak. This gold ring is inscribed in the now lost orc tongue.", "Le trésor le plus précieux du maître de guerre des Clans, Grushnak. Cet anneau d'or est inscrit dans la langue orque aujourd'hui perdue.", "_t")
+t("deep black ring", "anneau d'un noir profond", "_t")
+t("Black Robe", "Robe Noir", "entity name")
+t("black robe", "robe noir", "_t")
+t("A silk robe, darker than the darkest night sky, it radiates power.", "Une robe en soie, plus sombre que le ciel nocturne le plus noir, elle rayonne de puissance.", "_t")
+t("Crown of the Elements", "Couronne des Eléments", "entity name")
+t("jeweled crown", "couronne de pierres précieuses", "_t")
+t("This jeweled crown shimmers with colors.", "Cette couronne de joyaux brille de mille couleurs.", "_t")
+t("Warmaster Gnarg's Murderblade", "Lame meurtrière du Maître de guerre Gnarg", "entity name")
+t("blood-etched greatsword", "espadon forgé dans le sang", "_t")
+t("A blood-etched greatsword, it has seen many foes. From the inside.", "Un espadon forgé dans le sang, il a vu beaucoup d'ennemis. De l'intérieur.", "_t")
+t("10% chance to send the wielder into a killing frenzy", "10% de possibilité de mettre le porteur de l'arme dans une frénésie meurtrière.", "_t")
+t("Whip of Urh'Rok", "Fouet d'Urh'Rok", "entity name")
+t("fiery whip", "fouet de feu", "_t")
+t("With this unbearably bright whip of flame, the demon master Urh'Rok has become known for never having lost in combat.", "Avec ce fouet de flammes d'une luminosité insupportable, le maître démon Urh'Rok est connu pour n'avoir jamais perdu au combat.", "_t")
+t("Storm Fury", "Fureur des Tempêtes", "entity name")
+t("crackling longbow", "arc long crépitant", "_t")
+t("This dragonbone longbow is enhanced with bands of steel, which arc with intense lightning. Bolts travel up and down the string, ignorant of you.", "Cet arc long en os de dragon est renforcé par des bandes d'acier produisant des éclairs intenses. Les éclairs voyagent de haut en bas de la corde, sans tenir compte de vous.", "_t")
+t("Automatically fires lightning bolts every game turn at nearby enemies dealing %d to %d lightning damage based on Magic with a chance to inflict Daze.", "Tire automatiquement des éclairs à chaque tour de jeu sur les ennemis proches, infligeant %d à %d de dégâts d'éclairs basés sur la magie, avec une chance d'infliger un étourdissement.", "tformat")
+t("#GOLD#A bolt of lightning fires from #Source#'s bow, striking #Target#!", "#GOLD#Un éclair jaillit de l'arc de #Source#, frappant #Target#!", "logCombat")
+t("Frozen Shroud", "Linceul Givré", "entity name")
+t("chilling cloak", "cape glaciale", "_t")
+t("All that remains of the Glacial Legion. This cloak seems to exude an icy cold vapor that freezes all it touches.", "Tout ce qui reste de la Légion Glaciale. Cette cape semble dégager une vapeur glacée qui gèle tout ce qu'elle touche.", "_t")
+t("release a radius %d chilling blast, instantly dealing %0.2f cold damage and condensing the air into freezing vapors that deal %0.2f cold damage (based on Magic) each turn for %d turns", "libère un souffle glacial dans un rayon de %d, infligeant instantanément %0.2f de dégâts de froid et condensant l'air en vapeurs glaciales qui infligent %0.2f de dégâts de froid (basé sur la Magie) à chaque tour pendant %d de tours.", "tformat")
+t("%s releases an icy blast from %s %s!", "%s libère un souffle glacé de %s %s!", "logSeen")
+t("icy vapors", "vapeurs glaciales", "_t")
+t("Blighted Maul", "Massue du Malaise", "entity name")
+t("rotten stone limb", "membre en pierre pourrie", "_t")
+t("The massive stone limb of the Rotting Titan, a mass of stone and rotting flesh. You think you can lift it, but it is very heavy.", "L'énorme membre de pierre et de chair en décomposition du Titan Pourri. Vous pensez pouvoir le soulever, mais il est très lourd.", "_t")
+t("Blasts creatures in a radius 1 shockwave around your target for %0.2f to %0.2f physical damage (based on Strength).", "Provoque une onde de choc de rayon 1 autour de votre cible pour %0.2f à %0.2f de dégâts physiques (basés sur la Force).", "tformat")
+t("%s's %s shakes the ground with its impact!", "%s de %s fait trembler le sol par son impact!", "logSeen")
+t("knock away other creatures within radius %d), dealing %0.2f to %0.2f physical damage (based on Strength) to each", "assommer les autres créatures dans un rayon de %d, infligeant %0.2f à %0.2f de dégâts physiques (basés sur la Force) à chacune d'elles.", "tformat")
+t("%s slams %s %s into the ground, sending out a shockwave!", "%s écrase %s %s dans le sol en envoyant une onde de choc!", "logSeen")
+t("Molten Skin", "Peau Fondue", "entity name")
+t("melting bony armour", "armure osseuse en fusion", "_t")
+t("This mass of fused molten bone from the Heavy Sentinel radiates intense power. It still glows red with the heat of the Sentinel's core, and yet seems to do you no harm.", "Cette masse d'os en fusion provenant de la Sentinelle Lourde dégage une puissance intense. Elle brille encore de la chaleur du noyau de la Sentinelle, mais ne semble pas vous faire de mal.", "_t")
+t("Void Orb", "Orbe du vide", "entity name")
+t("This thin grey ring is adorned with a deep black orb. Tiny white dots swirl slowly within it, and a faint purple light glows from its core.", "Ce fin anneau gris est orné d'une orbe d'un noir profond. De minuscules points blancs y tourbillonnent lentement, et une faible lumière violette brille en son centre.", "_t")
+t("ethereal ring", "anneau éthéré", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/boss-artifacts-maj-eyal.lua"
 
 t("Wintertide", "Hiver", "entity name")
+t("glittering longsword", "épée longue étincelante", "_t")
+t([[The air seems to freeze around the blade of this sword, draining all heat from the area.
+It is said the Conclave created this weapon for their warmaster during the dark times of the first allure war.]], [[L'air semble givrer autour de la lame de cette épée, drainant toute la chaleur de la zone.
+On dit que le Conclave a créé cette arme pour son maître de guerre pendant les temps sombres de la première guerre de la Séduction.]], "_t")
+t("No Winter Storm Active", "Pas de tempête hivernale active", "_t")
+t("Winter Storm: ", "Tempête Hivernale: ", "_t")
+t("radius %d (%d turns remaining)", "rayon %d (%d tours restants)", "tformat")
 t("None", "Aucune", "_t")
+t("Create a Winter Storm that gradually expands (from radius %d to radius %d), dealing %0.2f cold damage (based on Strength) to your enemies each turn and slowing their ability to act by 20%%.  Subsequent melee strikes will relocate the storm on top of your target and increase its duration.", "Crée une Tempête Hivernale qui s'étend progressivement ( de rayon %d à rayon %d), infligeant %0.2f de dégâts de froid (basés sur la Force) à vos ennemis à chaque tour et ralentissant leur capacité d'action de 20%%.  Les frappes de mêlée suivantes déplacent la tempête sur votre cible et augmentent sa durée.", "tformat")
+t("#LIGHT_BLUE#A Winter Storm forms around %s.", "#LIGHT_BLUE#Une Tempête Hivernale se forme autour de %s.", "logSeen")
+t("precipitate ice walls (lasting 10 turns) within your Winter Storm's area", "précipite des murs de glace (pendant 10 tours) dans la zone de votre Tempête Hivernale.", "_t")
+t("#LIGHT_BLUE#%s brandishes %s %s, releasing a wave of Winter cold!", "#LIGHT_BLUE#%s brandit %s %s, libérant une vague de froid Hivernal!", "logSeen")
+t("winter wall", "mur d'hiver", "_t")
+t("a summoned wall of ice", "un mur de glace invoqué", "_t")
+t("#LIGHT_BLUE#Ice and snow form a barrier!", "#LIGHT_BLUE#La glace et la neige forment une barrière !", "log")
+t("Wintertide Phial", "Fiole de Frimas", "entity name")
+t("phial filled with darkness", "fiole remplie de ténèbres", "_t")
+t("This phial seems filled with darkness, yet it cleanses your thoughts.", "Cette fiole semble remplie de ténèbres, mais elle purifie vos pensées.", "_t")
+t("cleanse your mind of up to %d (based on Magic) detrimental mental effects", "nettoie votre esprit jusqu'à %d (basé sur la Magie) effets mentaux néfastes", "tformat")
+t("%s uses %s %s to cleanse %s mind!", "%s utilise %s %s pour nettoyer %s esprit!", "logSeen")
+t("Frost Treads", "Marches de Gelée", "entity name")
+t("ice-covered boots", "bottes recouvertes de glace", "_t")
+t("A pair of leather boots. Cold to the touch, they radiate a cold blue light.", "Une paire de bottes en cuir. Froides au toucher, elles irradient une lumière bleue froide.", "_t")
+t("Each step taken casts a ground frost effect in a radius of 1 around you for 5 turns, giving you a 20% cold damage bonus for 3 turns. Additionally, any enemy standing in the frost has a 20% chance of talent failure for 3 turns.", "Chaque pas effectué jette un effet de givre au sol dans un rayon de 1 autour de vous pendant 5 tours, ce qui vous confère un bonus de 20% aux dégâts de froid pendant 3 tours. De plus, tout ennemi se trouvant dans le givre a 20% de chances de rater ses talents pendant 3 tours.", "_t")
+t("Dragonskull Helm", "Casque en Crâne de Dragon", "entity name")
+t("skull helm", "casque en crâne", "_t")
+t("Traces of a dragon's power still remain in this bleached and cracked skull.", "Des traces du pouvoir d'un dragon subsistent encore dans ce crâne blanchi et fissuré.", "_t")
+t("Eel-skin armour", "Armure en peau d'anguille", "entity name")
+t("slippery armour", "armure glissante", "_t")
+t("This armour seems to have been patched together from many eels. Yuck.", "Cette armure semble avoir été rapiécée à partir de nombreuses anguilles. Beurk.", "_t")
+t("Nightsong", "Chant de la Nuit", "entity name")
+t("A pitch black ring, unadorned. It seems as though tendrils of darkness creep upon it.", "Une bague noire, sans ornement. On dirait que des vrilles de ténèbres s'y glissent.", "_t")
+t("obsidian ring", "anneau d'obsidienne", "_t")
+t("Steel Helm of Garkul", "Casque d'Acier de Garkul", "entity name")
+t("tribal helm", "casque tribal", "_t")
+t("A great helm that belonged to Garkul the Devourer, one of the greatest orcs ever to live.", "Un grand casque ayant appartenu à Garkul le Dévoreur, l'un des plus grands orcs ayant jamais vécu.", "_t")
+t("Another of Garkul's heirlooms would bring out his spirit.", "Un autre des héritages de Garkul ferait ressortir son esprit.", "_t")
+t("Lunar Shield", "Bouclier Lunaire", "entity name")
+t("chitinous shield", "bouclier chitineux", "_t")
+t("A large section of chitin removed from Nimisil. It continues to give off a strange white glow.", "Une grande section de chitine retirée de Nimisil. Elle continue à émettre une étrange lueur blanche.", "_t")
+t("Wrathroot's Barkwood", "Bois d'écorce de Racine Courroucée", "entity name")
+t("large chunk of wood", "un gros morceau de bois", "_t")
+t("The barkwood of Wrathroot, made into roughly the shape of a shield.", "L'écorce de Racine Courroucée, façonnée en forme de bouclier.", "_t")
+t("Petrified Wood", "Bois Pétrifié", "entity name")
+t("red", "rouge", "entity subtype")
+t("burned piece of wood", "morceau de bois brûlé", "_t")
+t("A piece of the scorched wood taken from the remains of Snaproot.", "Un morceau de bois brûlé pris sur les restes de Racine Cassante.", "_t")
+t("Crystal Shard", "Éclat de Cristal", "entity name")
+t("crystalline tree branch", "branche d'arbre cristallin", "_t")
+t("This crystalline tree branch is remarkably rigid, and refracts light in myriad colors. Gazing at it entrances you, and you worry where its power may have come from.", "Cette branche d'arbre cristallisé est remarquablement rigide et réfracte la lumière dans une myriade de couleurs. En la regardant, vous êtes fasciné et vous vous demandez d'où peut provenir son pouvoir.", "_t")
+t("create 2 living shards of crystal to serve you for 10 turns", "créer 2 éclats de cristal vivants pour vous servir pendant 10 tours.", "_t")
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("Crystals splinter off of %s's %s and animate!", "Des cristaux se détachent du %s de %s et s'animent!", "logSeen")
+t("Malediction", "Malédiction", "entity name")
+t("pestilent waraxe", "hache de guerre pestilentielle", "_t")
+t("The land withers and crumbles wherever this cursed axe rests.", "La terre se fane et s'effondre partout où repose cette hache maudite.", "_t")
+t("Kor's Fall", "Chute de Kor", "entity name")
+t("dark staff", "bâton sombre", "_t")
+t("Made from the bones of many creatures, this staff glows with power. You can feel its evil presence even from a distance.", "Fabriqué à partir des os de nombreuses créatures, ce bâton brille de puissance. Vous pouvez sentir sa présence maléfique même à distance.", "_t")
+t("ringing amulet", "amulette sonnante", "_t")
+t("No force can hope to silence the wearer of this amulet.", "Aucune force ne peut espérer faire taire le porteur de cette amulette.", "_t")
+t("Telos's Staff (Top Half)", "Bâton de Telos (moitié supérieure)", "entity name")
+t("broken staff", "Bâton cassé", "_t")
+t("The top part of Telos' broken staff.", "La partie supérieure du bâton brisé de Telos.", "_t")
+t("Choker of Dread", "Collier de l'Epouvante", "entity name")
+t("dark amulet", "sombre amulette", "_t")
+t("The evilness of undeath radiates from this amulet.", "La malveillance de la mort irradie de cette amulette.", "_t")
+t("summon an elder vampire with Taunt to your side for 15 turns", "invoque un ancien vampire avec Aggro à vos côtés pendant 15 tours.", "_t")
+t("You need an enemy nearby to summon!", "Vous devez avoir un ennemi à proximité pour invoquer!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
+t("%s taps %s %s, summoning a vampire thrall!", "%s tapote %s %s, invoquant un esclave vampire!", "logSeen")
 t("elder vampire", "ancien vampire", "_t")
+t("A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others. It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.", "Terrible personnage mort-vivant, cette créature existe dans sa non-vie depuis de nombreux siècles en volant la vie des autres. Elle peut invoquer les ombres mêmes de ses victimes pour qu'elles lui viennent en aide.", "_t")
+t("gem", "gemme", "entity type")
+t("Runed Skull", "Crâne Runique", "entity name")
+t("human skull", "crâne humain", "_t")
+t("Dull red runes are etched all over this blackened skull.", "Des runes rouge terne sont gravées sur tout ce crâne noirci.", "_t")
+t("Bill's Tree Trunk", "Tronc d'arbre de Bill", "entity name")
+t("tree trunk", "tronc d'arbre", "_t")
+t("This is a big, nasty-looking tree trunk that Bill the Troll used as a weapon. It could still serve this purpose, should you be strong enough to wield it!", "C'est un gros tronc d'arbre déplaisant que Bill le Troll utilisait comme arme. Il peut encore servir à cette fin, si vous êtes assez fort pour le manier!", "_t")
+t("Sanguine Shield", "Bouclier Sanguin", "entity name")
+t("bloody shield", "bouclier sanglant", "_t")
+t("Though tarnished and spattered with blood, the emblem of the Sun still manages to shine through on this shield.", "Bien que terni et éclaboussé de sang, l'emblème du Soleil parvient encore à briller sur ce bouclier.", "_t")
+t("Flamewrought", "Flamme Forgée", "entity name")
+t("chitinous gloves", "gants chitineux", "_t")
+t("These gloves seems to be made out of the exoskeletons of ritches. They are hot to the touch.", "Ces gants semblent être faits à partir d'exosquelettes de ritches. Ils sont chauds au toucher.", "_t")
+t("Crystal Focus", "Cristal de Focalisation", "entity name")
+t("multi-hued", "multi-teintes", "entity subtype")
+t("scintillating crystal", "cristal scintillant", "_t")
+t("This crystal radiates the power of the Spellblaze itself.", "Ce cristal irradie du pouvoir de la Brûlure Magique elle-même.", "_t")
+t("(The created item can be activated to recover the Focus.)", "(L'élément créé peut être activé pour rétablir le Focus.)", "_t")
+t("combine with a weapon (makes a non enchanted weapon into an artifact)", "combiner avec une arme (transforme une arme non enchantée en un artefact)", "_t")
+t("Fuse with which weapon?", "Fusionner avec quelle arme?", "_t")
+t("crystalline weapon", "arme cristalline", "_t")
+t("#GOLD#As the crystalline weapon and armour are brought together, they begin to emit a constant humming.", "#GOLD#Lorsque l'arme et l'armure cristallines sont réunies, elles commencent à émettre un bourdonnement constant.", "logPlayer")
+t("#GOLD#The humming from the crystalline artifacts fades as they are separated.", "#GOLD#Le bourdonnement des artefacts cristallins s'estompe lorsqu'ils sont séparés.", "logPlayer")
+t("Crystalline %s", "Cristallin %s", "tformat")
+t(" Transformed with the power of the Spellblaze.", " Transformé par le pouvoir de la Brûlure Magique.", "_t")
+t("recover the Crystal Focus (destroys this weapon)", "récupérer le Cristal de Focalisation (détruit cette arme)", "_t")
+t("You created: %s", "Vous avez crée: %s", "logPlayer")
+t("You fix the crystal on the %s and create the %s.", "Vous fixez le cristal sur %s et créez %s.", "logPlayer")
+t("Crystal Heart", "Coeur de Cristal", "entity name")
+t("coruscating crystal", "cristal coruscant", "_t")
+t("This crystal is huge, easily the size of your head. It sparkles brilliantly almost of its own accord.", "Ce cristal est énorme, facilement de la taille de votre tête. Il brille brillamment presque de lui-même.", "_t")
+t("(The created item can be activated to recover the Heart.)", "(L'objet créé peut être activé pour récupérer le cœur.)", "_t")
+t("combine with a suit of body armor (makes a non enchanted armour into an artifact)", "se combine avec une armure (transforme une armure non enchantée en artefact)", "_t")
+t("Fuse with which armor?", "Fusionner avec quelle armure?", "_t")
+t("crystalline armour", "armure cristalline", "_t")
+t("recover the Crystal Heart (destroys this armour)", "récupérer le Coeur de Cristal (détruit cette armure)", "_t")
+t("Rod of Annulment", "Bâtonnet d'annulation", "entity name")
+t("dark rod", "bâtonnet sombre", "_t")
+t("You can feel magic draining out around this rod. Even nature itself seems affected.", "On peut sentir la magie disparaître autour de ce bâtonnet. Même la nature semble affectée.", "_t")
+t("put up to 3 of the target's runes, infusions or talents on cooldown for 3-5 turns (range %d)", "met jusqu'à 3 runes, infusions ou talents de la cible en rechargement pendant 3-5 tours (portée %d)", "tformat")
+t("#Source# aims %s %s at #target#!", "#Source# cilbe %s %s à #target#!", "logCombat")
+t("%s's %s is disrupted!", "%s's %s est perturbé!", "logSeen")
+t("Skullcleaver", "Fendeur de crânes", "entity name")
+t("crimson waraxe", "hache de guerre cramoisie", "_t")
+t("A small but sharp axe, with a handle made of polished bone.  The blade has chopped through the skulls of many, and has been stained a deep crimson.", "Une hache petite mais tranchante, avec un manche en os poli.  La lame a tranché le crâne de nombreuses personnes et est colorée d'un profond cramoisi.", "_t")
+t("Tooth of the Mouth", "Dent de la Bouche", "entity name")
+t("a tooth", "une dent", "_t")
+t("A huge tooth taken from the Mouth, in the Deep Bellow.", "Une énorme dent prise dans la Bouche, dans le Souffle Profond.", "_t")
+t("The Warped Boots", "Les Bottes de la Distorsion.", "entity name")
+t("pair of painful-looking boots", "une paire de bottes à l'aspect pénible.", "_t")
+t("These blackened boots have lost all vestiges of any former glory they might have had. Now, they are a testament to the corruption of the Deep Bellow, and its power.", "Ces bottes noircies ont perdu tout vestige de la gloire qu'elles ont pu avoir. Maintenant, elles témoignent de la corruption du Souffle Profond et de son pouvoir.", "_t")
+t("Withering Orbs", "Orbes Flétrissantes", "entity name")
+t("shadow-strung orbs", "orbes à ombres portées", "_t")
+t([[These opalescent orbs stare at you with deathly knowledge, undeceived by your vanities and pretences.  They have lived and died through horrors you could never imagine, and now they lie strung in black chords watching every twitch of the shadows.
+If you close your eyes a moment, you can almost imagine what dread sights they see...]], [[Ces orbes opalescentes vous fixent avec une profonde connaissance de la mort, sans se laisser tromper par vos vanités et vos faux-semblants.  Elles ont vécu et sont mortes à travers des horreurs que vous ne pourriez jamais imaginer, et maintenant elles sont étendues sur des cordes noires, observant chaque mouvement des ombres.
+Si vous fermez les yeux un instant, vous pouvez presque imaginer les scènes terribles qu'elles voient...]], "_t")
+t("Borfast's Cage", "Cage de Borfast", "entity name")
+t("a suit of pitted and pocked plate-mail", "un ensemble de plaques de métal piquées et tailladées", "_t")
+t([[Inch-thick stralite plates lock together with voratun joints. The whole suit looks impenetrable, but has clearly been subjected to terrible treatment - great dents and misshaping warps, and caustic fissures bored across the surface.
+Though clearly a powerful piece, it must once have been much greater.]], [[Des plaques de stralite d'un pouce d'épaisseur s'assemblent grâce à des joints voratun. L'ensemble de la combinaison semble impénétrable, mais a clairement été soumis à un traitement terrible. De grandes bosses et déformations, et des fissures caustiques percées à travers la surface.
+Bien qu'il s'agisse d'une pièce particulièrement robuste, elle a dû être beaucoup plus imposante par le passé.]], "_t")
+t("Aletta's Diadem", "Diadème d'Aletta", "entity name")
+t("jeweled diadem", "diadème orné de joyaux.", "_t")
+t([[A filigree of silver set with many small jewels, this diadem seems radiant - ethereal almost. But its touch seems to freeze your skin and brings wild thoughts to your mind. You want to drop it, throw it away, and yet you cannot resist thinking of what powers it might bring you.
+Is this temptation a weak will on your part, or some domination from the artifact itself...?]], [[Filigrane d'argent serti de nombreux petits bijoux, ce diadème semble rayonnant, presque éthéré. Mais son contact semble vous glacer la peau et fait naître en vous de folles pensées. Vous avez envie de le laisser tomber, de le jeter, et pourtant vous ne pouvez vous empêcher de penser aux pouvoirs qu'il pourrait vous apporter.
+Cette tentation est-elle une faiblesse de votre part, ou une domination de l'artefact lui-même...?]], "_t")
+t("Hare-Skin Sling", "Fronde en Peau de Lièvre", "entity name")
+t("hare-skin sling", "fronde en peau de lièvre", "_t")
+t([[This well-tended sling is made from the leather and sinews of a large hare. It feels smooth to the touch, yet very durable. Some say that the skin of a hare brings luck and fortune.
+Hard to tell if that really helped its former owner, but it's clear that the skin is at least also strong and reliable.]], [[Cette fronde bien entretenue est fabriquée à partir du cuir et des tendons d'un grand lièvre. Elle est douce au toucher, mais très résistante. Certains disent que la peau d'un lièvre apporte chance et fortune.
+Difficile de dire si cela a vraiment aidé son ancien propriétaire, mais il est clair que la peau est au moins aussi solide que fiable.]], "_t")
+t("Prox's Lucky Halfling Foot", "Pied chanceux du Halfelin Prox.", "entity name")
+t("a mummified halfling foot", "un pied de halfelin momifié", "_t")
+t([[A large hairy foot, very recognizably a halfling's, is strung on a piece of thick twine. In its decomposed state it's hard to tell how long ago it parted with its owner, but from what look like teeth marks around the ankle you get the impression that it wasn't given willingly.
+It has been kept somewhat intact with layers of salt and clay, but in spite of this it's clear that nature is beginning to take its toll on the dead flesh. Some say the foot of a halfling brings luck to its bearer - right now the only thing you can be sure of is that it stinks.]], [[Un grand pied poilu, reconnaissable entre tous, celui d'un halfelin, est accroché à un morceau de ficelle épaisse. Dans son état de décomposition, il est difficile de dire depuis combien de temps il s'est séparé de son propriétaire, mais d'après ce qui ressemble à des marques de dents autour de la cheville, on a l'impression qu'il n'a pas été donné de son plein gré.
+Il a été conservé intact grâce à des couches de sel et d'argile, mais malgré cela, il est clair que la nature commence à faire des ravages sur la chair morte. Certains disent que le pied d'un halfelin porte chance à son porteur. Pour l'instant, la seule chose dont on peut être sûr, c'est qu'il pue.]], "_t")
+t([[Detects traps.
+Removes (25%% chance) up to three stuns, pins, or dazes each turn%s]], [[Détecte les pièges.
+Supprime (25%% de chances) jusqu'à trois assomements, immobilisation, ou étourdissements à chaque tour%s.]], "tformat")
+t(" (cooling down: %d turns)", " (rechargement: %d tours)", "tformat")
+t("#CRIMSON#%s twitches, alerting %s that a hidden trap is nearby.", "#CRIMSON#%s s'agite, avertissant %s qu'un piège caché est à proximité.", "logSeen")
+t("%s shrugs off some effects!", "%s atténue certains effets!", "logSeen")
+t("#LIGHT_RED#You feel uneasy carrying %s.", "#LIGHT_RED#Vous ne vous sentez pas à l'aise en portant %s.", "logPlayer")
+t("Psionic Fury", "Furie Psionique", "entity name")
+t("vibrating mindstar", "étoile d'âme vibrante", "_t")
+t("This mindstar constantly shakes and vibrates, as if a powerful force is desperately trying to escape.", "Cette étoile d'âme tremble et vibre constamment, comme si une force puissante tentait désespérément de s'échapper.", "_t")
+t("release a wave of psionic power, dealing %0.2f mind damage (based on Willpower) to all within radius %d", "libère une vague de puissance psionique, infligeant %0.2f de dégâts d'esprit (basés sur la Volonté) à tous ceux qui se trouvent dans un rayon de %d.", "tformat")
+t("%s's %s sends out a blast of psionic energy!", "%s de %s émet un souffle d'énergie psionique!", "logSeen")
+t("Storm Bringer's Gauntlets", "Gantelets de l'Orage", "entity name")
+t("fine-mesh gauntlets", "gantelets à mailles fines", "_t")
+t("This pair of fine mesh voratun gauntlets is covered with glyphs of power that spark with azure energy.  The metal is supple and light so as not to interfere with spell-casting.  When and where these gauntlets were forged is a mystery, but odds are the crafter knew a thing or two about magic.", "Cette paire de gantelets voratun à mailles fines est couverte de glyphes de pouvoir qui étincellent d'énergie azur.  Le métal est souple et léger afin de ne pas gêner le lancement des sorts.  La date et le lieu où ces gantelets ont été forgés restent un mystère, mais il y a fort à parier que le créateur s'y connaissait en magie.", "_t")
+t("+1 to all lightning damage spells", "+1 à tous les sorts de dégâts de foudre", "_t")
+t("River's Fury", "Fureur de la Rivière", "entity name")
+t("ornate trident", "trident décoré", "_t")
+t("This gorgeous and ornate trident was wielded by Lady Nashva, and when you hold it, you can faintly hear the roar of a rushing river.", "Ce trident magnifique et décoré était brandi par Lady Nashva, et lorsque vous le tenez, vous pouvez entendre faiblement le rugissement d'une rivière qui se déchaîne.", "_t")
+t("Unerring Scalpel", "Scalpel infaillible", "entity name")
+t("long sharp scalpel", "scalpel long et tranchant", "_t")
+t("This scalpel was used by the dread sorcerer Kor'Pul when he began learning the necromantic arts in the Age of Dusk.  Many were the bodies, living and dead, that became unwilling victims of his terrible experiments.", "Ce scalpel a été utilisé par le terrible sorcier Kor'Pul lorsqu'il a commencé à apprendre les arts nécromantiques à l'Ere du Crépuscule.  Nombreux furent les corps, vivants ou morts, qui devinrent les victimes involontaires de ses terribles expériences.", "_t")
+t("Wyrmbreath", "Respiration du Ver", "entity name")
+t("clawed dragon-scale gloves", "gants griffus en écailles de dragon", "_t")
+t("These dragon scale gloves are tipped with the claws and teeth of a vicious Wyrm. The gloves are warm to the touch.", "Ces gants en écailles de dragon sont dotés des griffes et des dents d'un Ver vicieux. Les gants sont chauds au toucher.", "_t")
+t("Eye of the Dreaming One", "Oeil du rêveur", "entity name")
+t("translucent sphere", "sphère translucide", "_t")
+t("This ethereal eye stares eternally, as if seeing things that do not truly exist.", "Cet oeil éthéré fixe éternellement, comme s'il voyait des choses qui n'existent pas vraiment.", "_t")
 -- texte non traduit
 --[==[
-t("glittering longsword", "glittering longsword", "_t")
-t([[The air seems to freeze around the blade of this sword, draining all heat from the area.
-It is said the Conclave created this weapon for their warmaster during the dark times of the first allure war.]], [[The air seems to freeze around the blade of this sword, draining all heat from the area.
-It is said the Conclave created this weapon for their warmaster during the dark times of the first allure war.]], "_t")
-t("No Winter Storm Active", "No Winter Storm Active", "_t")
-t("Winter Storm: ", "Winter Storm: ", "_t")
-t("radius %d (%d turns remaining)", "radius %d (%d turns remaining)", "tformat")
-t("Create a Winter Storm that gradually expands (from radius %d to radius %d), dealing %0.2f cold damage (based on Strength) to your enemies each turn and slowing their ability to act by 20%%.  Subsequent melee strikes will relocate the storm on top of your target and increase its duration.", "Create a Winter Storm that gradually expands (from radius %d to radius %d), dealing %0.2f cold damage (based on Strength) to your enemies each turn and slowing their ability to act by 20%%.  Subsequent melee strikes will relocate the storm on top of your target and increase its duration.", "tformat")
-t("#LIGHT_BLUE#A Winter Storm forms around %s.", "#LIGHT_BLUE#A Winter Storm forms around %s.", "logSeen")
-t("precipitate ice walls (lasting 10 turns) within your Winter Storm's area", "precipitate ice walls (lasting 10 turns) within your Winter Storm's area", "_t")
-t("#LIGHT_BLUE#%s brandishes %s %s, releasing a wave of Winter cold!", "#LIGHT_BLUE#%s brandishes %s %s, releasing a wave of Winter cold!", "logSeen")
-t("winter wall", "winter wall", "_t")
-t("a summoned wall of ice", "a summoned wall of ice", "_t")
-t("#LIGHT_BLUE#Ice and snow form a barrier!", "#LIGHT_BLUE#Ice and snow form a barrier!", "log")
-t("Wintertide Phial", "Wintertide Phial", "entity name")
-t("phial filled with darkness", "phial filled with darkness", "_t")
-t("This phial seems filled with darkness, yet it cleanses your thoughts.", "This phial seems filled with darkness, yet it cleanses your thoughts.", "_t")
-t("cleanse your mind of up to %d (based on Magic) detrimental mental effects", "cleanse your mind of up to %d (based on Magic) detrimental mental effects", "tformat")
-t("%s uses %s %s to cleanse %s mind!", "%s uses %s %s to cleanse %s mind!", "logSeen")
-t("Frost Treads", "Frost Treads", "entity name")
-t("ice-covered boots", "ice-covered boots", "_t")
-t("A pair of leather boots. Cold to the touch, they radiate a cold blue light.", "A pair of leather boots. Cold to the touch, they radiate a cold blue light.", "_t")
-t("Each step taken casts a ground frost effect in a radius of 1 around you for 5 turns, giving you a 20% cold damage bonus for 3 turns. Additionally, any enemy standing in the frost has a 20% chance of talent failure for 3 turns.", "Each step taken casts a ground frost effect in a radius of 1 around you for 5 turns, giving you a 20% cold damage bonus for 3 turns. Additionally, any enemy standing in the frost has a 20% chance of talent failure for 3 turns.", "_t")
-t("Dragonskull Helm", "Dragonskull Helm", "entity name")
-t("skull helm", "skull helm", "_t")
-t("Traces of a dragon's power still remain in this bleached and cracked skull.", "Traces of a dragon's power still remain in this bleached and cracked skull.", "_t")
-t("Eel-skin armour", "Eel-skin armour", "entity name")
-t("slippery armour", "slippery armour", "_t")
-t("This armour seems to have been patched together from many eels. Yuck.", "This armour seems to have been patched together from many eels. Yuck.", "_t")
-t("Nightsong", "Nightsong", "entity name")
-t("A pitch black ring, unadorned. It seems as though tendrils of darkness creep upon it.", "A pitch black ring, unadorned. It seems as though tendrils of darkness creep upon it.", "_t")
-t("obsidian ring", "obsidian ring", "_t")
-t("Steel Helm of Garkul", "Steel Helm of Garkul", "entity name")
-t("tribal helm", "tribal helm", "_t")
-t("A great helm that belonged to Garkul the Devourer, one of the greatest orcs ever to live.", "A great helm that belonged to Garkul the Devourer, one of the greatest orcs ever to live.", "_t")
-t("Another of Garkul's heirlooms would bring out his spirit.", "Another of Garkul's heirlooms would bring out his spirit.", "_t")
-t("Lunar Shield", "Lunar Shield", "entity name")
-t("chitinous shield", "chitinous shield", "_t")
-t("A large section of chitin removed from Nimisil. It continues to give off a strange white glow.", "A large section of chitin removed from Nimisil. It continues to give off a strange white glow.", "_t")
-t("Wrathroot's Barkwood", "Wrathroot's Barkwood", "entity name")
-t("large chunk of wood", "large chunk of wood", "_t")
-t("The barkwood of Wrathroot, made into roughly the shape of a shield.", "The barkwood of Wrathroot, made into roughly the shape of a shield.", "_t")
-t("Petrified Wood", "Petrified Wood", "entity name")
-t("red", "red", "entity subtype")
-t("burned piece of wood", "burned piece of wood", "_t")
-t("A piece of the scorched wood taken from the remains of Snaproot.", "A piece of the scorched wood taken from the remains of Snaproot.", "_t")
-t("Crystal Shard", "Crystal Shard", "entity name")
-t("crystalline tree branch", "crystalline tree branch", "_t")
-t("This crystalline tree branch is remarkably rigid, and refracts light in myriad colors. Gazing at it entrances you, and you worry where its power may have come from.", "This crystalline tree branch is remarkably rigid, and refracts light in myriad colors. Gazing at it entrances you, and you worry where its power may have come from.", "_t")
-t("create 2 living shards of crystal to serve you for 10 turns", "create 2 living shards of crystal to serve you for 10 turns", "_t")
-t("Crystals splinter off of %s's %s and animate!", "Crystals splinter off of %s's %s and animate!", "logSeen")
-t("Malediction", "Malediction", "entity name")
-t("pestilent waraxe", "pestilent waraxe", "_t")
-t("The land withers and crumbles wherever this cursed axe rests.", "The land withers and crumbles wherever this cursed axe rests.", "_t")
-t("Kor's Fall", "Kor's Fall", "entity name")
-t("dark staff", "dark staff", "_t")
-t("Made from the bones of many creatures, this staff glows with power. You can feel its evil presence even from a distance.", "Made from the bones of many creatures, this staff glows with power. You can feel its evil presence even from a distance.", "_t")
 t("Vox", "Vox", "entity name")
-t("ringing amulet", "ringing amulet", "_t")
-t("No force can hope to silence the wearer of this amulet.", "No force can hope to silence the wearer of this amulet.", "_t")
-t("Telos's Staff (Top Half)", "Telos's Staff (Top Half)", "entity name")
-t("broken staff", "broken staff", "_t")
-t("The top part of Telos' broken staff.", "The top part of Telos' broken staff.", "_t")
-t("Choker of Dread", "Choker of Dread", "entity name")
-t("dark amulet", "dark amulet", "_t")
-t("The evilness of undeath radiates from this amulet.", "The evilness of undeath radiates from this amulet.", "_t")
-t("summon an elder vampire with Taunt to your side for 15 turns", "summon an elder vampire with Taunt to your side for 15 turns", "_t")
-t("You need an enemy nearby to summon!", "You need an enemy nearby to summon!", "logPlayer")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
-t("%s taps %s %s, summoning a vampire thrall!", "%s taps %s %s, summoning a vampire thrall!", "logSeen")
-t("A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others. It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.", "A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others. It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.", "_t")
 t("Vampire", "Vampire", "_t")
-t("gem", "gem", "entity type")
-t("Runed Skull", "Runed Skull", "entity name")
-t("human skull", "human skull", "_t")
-t("Dull red runes are etched all over this blackened skull.", "Dull red runes are etched all over this blackened skull.", "_t")
-t("Bill's Tree Trunk", "Bill's Tree Trunk", "entity name")
-t("tree trunk", "tree trunk", "_t")
-t("This is a big, nasty-looking tree trunk that Bill the Troll used as a weapon. It could still serve this purpose, should you be strong enough to wield it!", "This is a big, nasty-looking tree trunk that Bill the Troll used as a weapon. It could still serve this purpose, should you be strong enough to wield it!", "_t")
-t("Sanguine Shield", "Sanguine Shield", "entity name")
-t("bloody shield", "bloody shield", "_t")
-t("Though tarnished and spattered with blood, the emblem of the Sun still manages to shine through on this shield.", "Though tarnished and spattered with blood, the emblem of the Sun still manages to shine through on this shield.", "_t")
-t("Flamewrought", "Flamewrought", "entity name")
-t("chitinous gloves", "chitinous gloves", "_t")
-t("These gloves seems to be made out of the exoskeletons of ritches. They are hot to the touch.", "These gloves seems to be made out of the exoskeletons of ritches. They are hot to the touch.", "_t")
-t("Crystal Focus", "Crystal Focus", "entity name")
-t("multi-hued", "multi-hued", "entity subtype")
-t("scintillating crystal", "scintillating crystal", "_t")
-t("This crystal radiates the power of the Spellblaze itself.", "This crystal radiates the power of the Spellblaze itself.", "_t")
-t("(The created item can be activated to recover the Focus.)", "(The created item can be activated to recover the Focus.)", "_t")
-t("combine with a weapon (makes a non enchanted weapon into an artifact)", "combine with a weapon (makes a non enchanted weapon into an artifact)", "_t")
-t("Fuse with which weapon?", "Fuse with which weapon?", "_t")
-t("crystalline weapon", "crystalline weapon", "_t")
-t("#GOLD#As the crystalline weapon and armour are brought together, they begin to emit a constant humming.", "#GOLD#As the crystalline weapon and armour are brought together, they begin to emit a constant humming.", "logPlayer")
-t("#GOLD#The humming from the crystalline artifacts fades as they are separated.", "#GOLD#The humming from the crystalline artifacts fades as they are separated.", "logPlayer")
-t("Crystalline %s", "Crystalline %s", "tformat")
-t(" Transformed with the power of the Spellblaze.", " Transformed with the power of the Spellblaze.", "_t")
-t("recover the Crystal Focus (destroys this weapon)", "recover the Crystal Focus (destroys this weapon)", "_t")
-t("You created: %s", "You created: %s", "logPlayer")
-t("You fix the crystal on the %s and create the %s.", "You fix the crystal on the %s and create the %s.", "logPlayer")
-t("Crystal Heart", "Crystal Heart", "entity name")
-t("coruscating crystal", "coruscating crystal", "_t")
-t("This crystal is huge, easily the size of your head. It sparkles brilliantly almost of its own accord.", "This crystal is huge, easily the size of your head. It sparkles brilliantly almost of its own accord.", "_t")
-t("(The created item can be activated to recover the Heart.)", "(The created item can be activated to recover the Heart.)", "_t")
-t("combine with a suit of body armor (makes a non enchanted armour into an artifact)", "combine with a suit of body armor (makes a non enchanted armour into an artifact)", "_t")
-t("Fuse with which armor?", "Fuse with which armor?", "_t")
-t("crystalline armour", "crystalline armour", "_t")
-t("recover the Crystal Heart (destroys this armour)", "recover the Crystal Heart (destroys this armour)", "_t")
-t("Rod of Annulment", "Rod of Annulment", "entity name")
-t("dark rod", "dark rod", "_t")
-t("You can feel magic draining out around this rod. Even nature itself seems affected.", "You can feel magic draining out around this rod. Even nature itself seems affected.", "_t")
-t("put up to 3 of the target's runes, infusions or talents on cooldown for 3-5 turns (range %d)", "put up to 3 of the target's runes, infusions or talents on cooldown for 3-5 turns (range %d)", "tformat")
-t("#Source# aims %s %s at #target#!", "#Source# aims %s %s at #target#!", "logCombat")
-t("%s's %s is disrupted!", "%s's %s is disrupted!", "logSeen")
-t("Skullcleaver", "Skullcleaver", "entity name")
-t("crimson waraxe", "crimson waraxe", "_t")
-t("A small but sharp axe, with a handle made of polished bone.  The blade has chopped through the skulls of many, and has been stained a deep crimson.", "A small but sharp axe, with a handle made of polished bone.  The blade has chopped through the skulls of many, and has been stained a deep crimson.", "_t")
-t("Tooth of the Mouth", "Tooth of the Mouth", "entity name")
-t("a tooth", "a tooth", "_t")
-t("A huge tooth taken from the Mouth, in the Deep Bellow.", "A huge tooth taken from the Mouth, in the Deep Bellow.", "_t")
-t("The Warped Boots", "The Warped Boots", "entity name")
-t("pair of painful-looking boots", "pair of painful-looking boots", "_t")
-t("These blackened boots have lost all vestiges of any former glory they might have had. Now, they are a testament to the corruption of the Deep Bellow, and its power.", "These blackened boots have lost all vestiges of any former glory they might have had. Now, they are a testament to the corruption of the Deep Bellow, and its power.", "_t")
-t("Withering Orbs", "Withering Orbs", "entity name")
-t("shadow-strung orbs", "shadow-strung orbs", "_t")
-t([[These opalescent orbs stare at you with deathly knowledge, undeceived by your vanities and pretences.  They have lived and died through horrors you could never imagine, and now they lie strung in black chords watching every twitch of the shadows.
-If you close your eyes a moment, you can almost imagine what dread sights they see...]], [[These opalescent orbs stare at you with deathly knowledge, undeceived by your vanities and pretences.  They have lived and died through horrors you could never imagine, and now they lie strung in black chords watching every twitch of the shadows.
-If you close your eyes a moment, you can almost imagine what dread sights they see...]], "_t")
-t("Borfast's Cage", "Borfast's Cage", "entity name")
-t("a suit of pitted and pocked plate-mail", "a suit of pitted and pocked plate-mail", "_t")
-t([[Inch-thick stralite plates lock together with voratun joints. The whole suit looks impenetrable, but has clearly been subjected to terrible treatment - great dents and misshaping warps, and caustic fissures bored across the surface.
-Though clearly a powerful piece, it must once have been much greater.]], [[Inch-thick stralite plates lock together with voratun joints. The whole suit looks impenetrable, but has clearly been subjected to terrible treatment - great dents and misshaping warps, and caustic fissures bored across the surface.
-Though clearly a powerful piece, it must once have been much greater.]], "_t")
-t("Aletta's Diadem", "Aletta's Diadem", "entity name")
-t("jeweled diadem", "jeweled diadem", "_t")
-t([[A filigree of silver set with many small jewels, this diadem seems radiant - ethereal almost. But its touch seems to freeze your skin and brings wild thoughts to your mind. You want to drop it, throw it away, and yet you cannot resist thinking of what powers it might bring you.
-Is this temptation a weak will on your part, or some domination from the artifact itself...?]], [[A filigree of silver set with many small jewels, this diadem seems radiant - ethereal almost. But its touch seems to freeze your skin and brings wild thoughts to your mind. You want to drop it, throw it away, and yet you cannot resist thinking of what powers it might bring you.
-Is this temptation a weak will on your part, or some domination from the artifact itself...?]], "_t")
-t("Hare-Skin Sling", "Hare-Skin Sling", "entity name")
-t("hare-skin sling", "hare-skin sling", "_t")
-t([[This well-tended sling is made from the leather and sinews of a large hare. It feels smooth to the touch, yet very durable. Some say that the skin of a hare brings luck and fortune.
-Hard to tell if that really helped its former owner, but it's clear that the skin is at least also strong and reliable.]], [[This well-tended sling is made from the leather and sinews of a large hare. It feels smooth to the touch, yet very durable. Some say that the skin of a hare brings luck and fortune.
-Hard to tell if that really helped its former owner, but it's clear that the skin is at least also strong and reliable.]], "_t")
-t("Prox's Lucky Halfling Foot", "Prox's Lucky Halfling Foot", "entity name")
-t("a mummified halfling foot", "a mummified halfling foot", "_t")
-t([[A large hairy foot, very recognizably a halfling's, is strung on a piece of thick twine. In its decomposed state it's hard to tell how long ago it parted with its owner, but from what look like teeth marks around the ankle you get the impression that it wasn't given willingly.
-It has been kept somewhat intact with layers of salt and clay, but in spite of this it's clear that nature is beginning to take its toll on the dead flesh. Some say the foot of a halfling brings luck to its bearer - right now the only thing you can be sure of is that it stinks.]], [[A large hairy foot, very recognizably a halfling's, is strung on a piece of thick twine. In its decomposed state it's hard to tell how long ago it parted with its owner, but from what look like teeth marks around the ankle you get the impression that it wasn't given willingly.
-It has been kept somewhat intact with layers of salt and clay, but in spite of this it's clear that nature is beginning to take its toll on the dead flesh. Some say the foot of a halfling brings luck to its bearer - right now the only thing you can be sure of is that it stinks.]], "_t")
-t([[Detects traps.
-Removes (25%% chance) up to three stuns, pins, or dazes each turn%s]], [[Detects traps.
-Removes (25%% chance) up to three stuns, pins, or dazes each turn%s]], "tformat")
-t(" (cooling down: %d turns)", " (cooling down: %d turns)", "tformat")
 t("", "", "_t")
-t("#CRIMSON#%s twitches, alerting %s that a hidden trap is nearby.", "#CRIMSON#%s twitches, alerting %s that a hidden trap is nearby.", "logSeen")
-t("%s shrugs off some effects!", "%s shrugs off some effects!", "logSeen")
-t("#LIGHT_RED#You feel uneasy carrying %s.", "#LIGHT_RED#You feel uneasy carrying %s.", "logPlayer")
-t("Psionic Fury", "Psionic Fury", "entity name")
-t("vibrating mindstar", "vibrating mindstar", "_t")
-t("This mindstar constantly shakes and vibrates, as if a powerful force is desperately trying to escape.", "This mindstar constantly shakes and vibrates, as if a powerful force is desperately trying to escape.", "_t")
-t("release a wave of psionic power, dealing %0.2f mind damage (based on Willpower) to all within radius %d", "release a wave of psionic power, dealing %0.2f mind damage (based on Willpower) to all within radius %d", "tformat")
-t("%s's %s sends out a blast of psionic energy!", "%s's %s sends out a blast of psionic energy!", "logSeen")
-t("Storm Bringer's Gauntlets", "Storm Bringer's Gauntlets", "entity name")
-t("fine-mesh gauntlets", "fine-mesh gauntlets", "_t")
-t("This pair of fine mesh voratun gauntlets is covered with glyphs of power that spark with azure energy.  The metal is supple and light so as not to interfere with spell-casting.  When and where these gauntlets were forged is a mystery, but odds are the crafter knew a thing or two about magic.", "This pair of fine mesh voratun gauntlets is covered with glyphs of power that spark with azure energy.  The metal is supple and light so as not to interfere with spell-casting.  When and where these gauntlets were forged is a mystery, but odds are the crafter knew a thing or two about magic.", "_t")
-t("+1 to all lightning damage spells", "+1 to all lightning damage spells", "_t")
-t("River's Fury", "River's Fury", "entity name")
-t("ornate trident", "ornate trident", "_t")
-t("This gorgeous and ornate trident was wielded by Lady Nashva, and when you hold it, you can faintly hear the roar of a rushing river.", "This gorgeous and ornate trident was wielded by Lady Nashva, and when you hold it, you can faintly hear the roar of a rushing river.", "_t")
-t("Unerring Scalpel", "Unerring Scalpel", "entity name")
-t("long sharp scalpel", "long sharp scalpel", "_t")
-t("This scalpel was used by the dread sorcerer Kor'Pul when he began learning the necromantic arts in the Age of Dusk.  Many were the bodies, living and dead, that became unwilling victims of his terrible experiments.", "This scalpel was used by the dread sorcerer Kor'Pul when he began learning the necromantic arts in the Age of Dusk.  Many were the bodies, living and dead, that became unwilling victims of his terrible experiments.", "_t")
-t("Wyrmbreath", "Wyrmbreath", "entity name")
-t("clawed dragon-scale gloves", "clawed dragon-scale gloves", "_t")
-t("These dragon scale gloves are tipped with the claws and teeth of a vicious Wyrm. The gloves are warm to the touch.", "These dragon scale gloves are tipped with the claws and teeth of a vicious Wyrm. The gloves are warm to the touch.", "_t")
-t("Eye of the Dreaming One", "Eye of the Dreaming One", "entity name")
-t("translucent sphere", "translucent sphere", "_t")
-t("This ethereal eye stares eternally, as if seeing things that do not truly exist.", "This ethereal eye stares eternally, as if seeing things that do not truly exist.", "_t")
 --]==]
 
 
@@ -7264,199 +7259,180 @@ t("This ethereal eye stares eternally, as if seeing things that do not truly exi
 section "mod-tome/data/general/objects/boss-artifacts.lua"
 
 t("misc", "divers", "entity type")
+t("fang", "croc", "entity subtype")
+t("Rungof's Fang", "Croc de Rungof", "entity name")
+t("bloodied fang", "croc ensanglanté", "_t")
+t("A fang from the great warg, Rungof, still covered in blood.", "Un croc du grand loup géant, Rungof, encore couvert de sang.", "_t")
+t("Khulmanar's Wrath", "Colère de Khulmanar", "entity name")
+t("firey blackened battleaxe", "hache de guerre noircie et enflammée", "_t")
+t("Blackened with soot and covered in spikes, this battleaxe roars with the flames of the Fearscape. Given by Urh'Rok himself to his general, this powerful weapon can burn even the most resilient of foes.", "Noircie par la suie et couverte de pointes, cette hache de guerre rugit des flammes du Plan de la Peur. Offerte par Urh'Rok lui-même à son général, cette arme puissante peut brûler même les ennemis les plus résistants.", "_t")
+t("Bladed Rift", "Brèche Lameuse", "entity name")
+t("hole in space", "trou dans l'espace", "_t")
+t("Upon defeat, Ak'Gishil collapsed into this tiny rift. How it remains stable, you are unsure. If you focus, you think you can call forth a sword from it.", "Après sa défaite, Ak'Gishil s'est effondré dans cette petite brèche. Vous ne savez pas comment elle est restée stable. Si vous vous concentrez, vous pensez pouvoir en faire sortir une épée.", "_t")
+t("Blade of Distorted Time", "Lame du Temps Distordu", "entity name")
+t("time-warped sword", "épée temporelle", "_t")
+t("The remnants of a damaged timeline, this blade shifts and fades at random.", "Les vestiges d'une ligne de temps endommagée, cette lame se déplace et s'estompe au hasard.", "_t")
+t("deals %d temporal damage and slows enemies in radius 6 of the target by %d%% based on Magic", "inflige %d de dégâts temporels et ralentit les ennemis dans un rayon de 6 de la cible de %d%% basé sur la Magie.", "tformat")
 t("Rune of Reflection", "Rune de Réflexion", "entity name")
--- texte non traduit
---[==[
-t("fang", "fang", "entity subtype")
-t("Rungof's Fang", "Rungof's Fang", "entity name")
-t("bloodied fang", "bloodied fang", "_t")
-t("A fang from the great warg, Rungof, still covered in blood.", "A fang from the great warg, Rungof, still covered in blood.", "_t")
-t("Khulmanar's Wrath", "Khulmanar's Wrath", "entity name")
-t("firey blackened battleaxe", "firey blackened battleaxe", "_t")
-t("Blackened with soot and covered in spikes, this battleaxe roars with the flames of the Fearscape. Given by Urh'Rok himself to his general, this powerful weapon can burn even the most resilient of foes.", "Blackened with soot and covered in spikes, this battleaxe roars with the flames of the Fearscape. Given by Urh'Rok himself to his general, this powerful weapon can burn even the most resilient of foes.", "_t")
-t("Bladed Rift", "Bladed Rift", "entity name")
-t("hole in space", "hole in space", "_t")
-t("Upon defeat, Ak'Gishil collapsed into this tiny rift. How it remains stable, you are unsure. If you focus, you think you can call forth a sword from it.", "Upon defeat, Ak'Gishil collapsed into this tiny rift. How it remains stable, you are unsure. If you focus, you think you can call forth a sword from it.", "_t")
-t("Blade of Distorted Time", "Blade of Distorted Time", "entity name")
-t("time-warped sword", "time-warped sword", "_t")
-t("The remnants of a damaged timeline, this blade shifts and fades at random.", "The remnants of a damaged timeline, this blade shifts and fades at random.", "_t")
-t("deals %d temporal damage and slows enemies in radius 6 of the target by %d%% based on Magic", "deals %d temporal damage and slows enemies in radius 6 of the target by %d%% based on Magic", "tformat")
-t("You can see your own image mirrored in the surface of this silvery rune.", "You can see your own image mirrored in the surface of this silvery rune.", "_t")
-t("shiny rune", "shiny rune", "_t")
-t("The Gaping Maw", "The Gaping Maw", "entity name")
-t("huge granite battleaxe", "huge granite battleaxe", "_t")
-t("This huge granite battleaxe is as much mace as it is axe.  The shaft is made of blackened wood tightly bound in drakeskin leather and the sharpened granite head glistens with a viscous green fluid.", "This huge granite battleaxe is as much mace as it is axe.  The shaft is made of blackened wood tightly bound in drakeskin leather and the sharpened granite head glistens with a viscous green fluid.", "_t")
-t("deal manaburn damage equal to your mindpower in a radius 3 cone", "deal manaburn damage equal to your mindpower in a radius 3 cone", "_t")
-t("#DARK_GREEN#You feel like Nature's Wrath incarnate!", "#DARK_GREEN#You feel like Nature's Wrath incarnate!", "logPlayer")
---]==]
-
+t("You can see your own image mirrored in the surface of this silvery rune.", "Vous pouvez voir votre propre image reflétée dans la surface de cette rune argentée.", "_t")
+t("shiny rune", "rune brillante", "_t")
+t("The Gaping Maw", "La Gueule Béante", "entity name")
+t("huge granite battleaxe", "énorme hache de bataille en granit", "_t")
+t("This huge granite battleaxe is as much mace as it is axe.  The shaft is made of blackened wood tightly bound in drakeskin leather and the sharpened granite head glistens with a viscous green fluid.", "Cette énorme hache de bataille en granit est autant une masse qu'une hache.  Le manche est fait de bois noirci étroitement lié à du cuir de daim et la tête de granit aiguisée brille d'un fluide vert visqueux.", "_t")
+t("deal manaburn damage equal to your mindpower in a radius 3 cone", "inflige des dégâts de brûlure de mana égal à votre puissance mentale dans un cône de rayon 3.", "_t")
+t("#DARK_GREEN#You feel like Nature's Wrath incarnate!", "#DARK_GREEN#Vous vous sentez comme étant l'incarnation de la colère de la nature!", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/bows.lua"
 
 t("weapon", "arme", "entity type")
--- texte non traduit
---[==[
-t("longbow", "longbow", "entity subtype")
-t("bow", "bow", "entity combat talented")
-t("Longbows are used to shoot arrows at your foes.", "Longbows are used to shoot arrows at your foes.", "_t")
-t("elm longbow", "elm longbow", "entity name")
-t("elm", "elm", "entity short_name")
-t("ash longbow", "ash longbow", "entity name")
-t("ash", "ash", "entity short_name")
-t("yew longbow", "yew longbow", "entity name")
-t("yew", "yew", "entity short_name")
-t("elven-wood longbow", "elven-wood longbow", "entity name")
-t("e.wood", "e.wood", "entity short_name")
-t("dragonbone longbow", "dragonbone longbow", "entity name")
-t("dragonbone", "dragonbone", "entity short_name")
-t("ammo", "ammo", "entity type")
-t("arrow", "arrow", "entity subtype")
-t("Arrows are used with bows to pierce your foes to death.", "Arrows are used with bows to pierce your foes to death.", "_t")
-t("quiver of elm arrows", "quiver of elm arrows", "entity name")
-t("quiver of ash arrows", "quiver of ash arrows", "entity name")
-t("quiver of yew arrows", "quiver of yew arrows", "entity name")
-t("quiver of elven-wood arrows", "quiver of elven-wood arrows", "entity name")
-t("quiver of dragonbone arrows", "quiver of dragonbone arrows", "entity name")
---]==]
-
+t("longbow", "arc long", "entity subtype")
+t("bow", "arc", "entity combat talented")
+t("Longbows are used to shoot arrows at your foes.", "Les arcs longs sont utilisés pour tirer des flèches sur vos ennemis.", "_t")
+t("elm longbow", "arc long en orme", "entity name")
+t("elm", "orme", "entity short_name")
+t("ash longbow", "arc long en frêne", "entity name")
+t("ash", "frêne", "entity short_name")
+t("yew longbow", "arc long en if", "entity name")
+t("yew", "if", "entity short_name")
+t("elven-wood longbow", "arc long en bois elfique", "entity name")
+t("e.wood", "bois.e", "entity short_name")
+t("dragonbone longbow", "arc long en os de dragon", "entity name")
+t("dragonbone", "os de dragon", "entity short_name")
+t("ammo", "munition", "entity type")
+t("arrow", "flèche", "entity subtype")
+t("Arrows are used with bows to pierce your foes to death.", "Les flèches sont utilisées avec les arcs pour transpercer vos ennemis jusqu'à leur mort.", "_t")
+t("quiver of elm arrows", "carquois de flèches en orme", "entity name")
+t("quiver of ash arrows", "carquois de flèches en frêne", "entity name")
+t("quiver of yew arrows", "carquois de flèches en if", "entity name")
+t("quiver of elven-wood arrows", "carquois de flèches en bois elfique", "entity name")
+t("quiver of dragonbone arrows", "carquois de flèches en os de dragon", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/brotherhood-artifacts.lua"
 
+t("Elixir of the Fox", "Élixir du Renard", "entity name")
+t("vial of pink fluid", "fiole de liquide rose", "_t")
+t("A vial of pink, airy fluid.", "Une fiole de fluide rose et aéré.", "_t")
+t("permanently increase your dexterity and cunning by three", "augmente de façon permanente votre dextérité et votre ruse de trois points.", "_t")
+t("#00FFFF#You drink the elixir and feel forever transformed!", "#00FFFF#Vous buvez l'élixir et vous vous sentez transformé à jamais!", "logPlayer")
+t("#00FF00#The elixir has given you foxlike physical and mental agility!", "#00FF00#L'élixir t'a donné une agilité physique et mentale de renard!", "logPlayer")
+t("Elixir of Avoidance", "Elixir d'Evitement", "entity name")
+t("vial of green fluid", "fiole de liquide vert", "_t")
+t("A vial of opaque green fluid.", "Une fiole de liquide vert opaque.", "_t")
+t("permanently increase your defense and ranged defense by six", "Augmente de façon permanente votre défense et votre défense à distance de six points.", "_t")
+t("#00FF00#The elixir has improved your defensive instincts!", "#00FF00#L'élixir a amélioré vos instincts défensifs!", "logPlayer")
+t("Elixir of Precision", "Elixir de Précision", "entity name")
+t("vial of red fluid", "fiole de liquide rouge", "_t")
+t("A vial of chunky red fluid.", "Un flacon de liquide rouge et épais.", "_t")
+t("permanently increase your physical critical strike chance by 4%", "augmente de façon permanente vos chances de coup critique physique de 4%.", "_t")
+t("#00FF00#The elixir has improved your eye for an enemy's weak points!", "#00FF00#L'élixir a amélioré votre perception des points faibles de l'ennemi!", "logPlayer")
+t("Elixir of Mysticism", "Elixir de Mysticisme", "entity name")
+t("vial of cyan fluid", "fiole de liquide cyan", "_t")
+t("A vial of glowing cyan fluid.", "Une fiole de fluide cyan lumineux.", "_t")
+t("permanently increase your magic and willpower by three", "augmente de façon permanente votre magie et votre volonté de trois points", "_t")
+t("#00FF00#The elixir has augmented your magical and mental capacity!", "#00FF00#L'élixir a augmenté vos capacités magiques et mentales.!", "logPlayer")
+t("Elixir of the Savior", "Elixir du Sauveur", "entity name")
+t("vial of grey fluid", "fiole de liquide gris", "_t")
+t("A vial of bubbling, slate-colored fluid.", "Une fiole de liquide bouillonnant, de couleur ardoise.", "_t")
+t("permanently increase all your saving throws by 4", "augmente de façon permanente tous vos jets de sauvegarde de 4 points", "_t")
+t("#00FF00#The elixir has improved your resistance to unpleasant effects!", "#00FF00#L'élixir a amélioré votre résistance aux effets néfastes!", "logPlayer")
+t("Elixir of Mastery", "Elixir de Maîtrise", "entity name")
+t("vial of maroon fluid", "fiole de liquide marron", "_t")
+t("A vial of thick maroon fluid.", "Une fiole de liquide marron épais.", "_t")
+t("grant you four additional stat points", "vous accorde quatre points de stat supplémentaires", "_t")
+t("#00FF00#The elixir has greatly expanded your capacity for improving your mind and body.", "#00FF00#L'élixir a considérablement augmenté votre capacité à améliorer votre esprit et votre corps.", "logPlayer")
+t("You have %d stat point(s) to spend. Press G to use them.", "Vous avez %d point(s) de stat à dépenser. Appuyez sur G pour les utiliser.", "logPlayer")
+t("Elixir of Explosive Force", "Elixir de Force Explosive", "entity name")
+t("vial of orange fluid", "fiole de liquide orange", "_t")
+t("A vial of churning orange fluid.", "Une fiole de liquide orange agité.", "_t")
+t("permanently increase your chance to critically strike with spells by 4%", "Augmente de façon permanente vos chances d'obtenir un coup critique avec vos sorts de 4%.", "_t")
+t("#00FF00#The elixir has improved your eye for an enemy's magical weak points!", "#00FF00#L'élixir a amélioré votre capacité à détecter les points faibles magiques de l'ennemi!", "logPlayer")
+t("Elixir of Serendipity", "Elixir de Sérendipité", "entity name")
+t("vial of yellow fluid", "fiole de liquide jaune", "_t")
+t("A vial of lively yellow fluid.", "Une fiole de liquide jaune vif.", "_t")
+t("permanently increase your luck by 5", "augmente de façon permanente votre chance de 5 points", "_t")
+t("#00FF00#The elixir seems to have subtly repositioned your entire being within the fabric of reality!", "#00FF00#L'élixir semble avoir subtilement repositionné votre être dans le tissu de la réalité!", "logPlayer")
+t("Elixir of Focus", "Elixir de Concentration", "entity name")
+t("vial of clear fluid", "flacon de liquide transparent", "_t")
+t("A vial of clear, steaming fluid.", "Une fiole de fluide clair et fumant.", "_t")
+t("grant you two additional class talent points", "vous accorde deux points de talent de classe supplémentaires", "_t")
+t("#00FF00#The elixir has improved your capacity for exercising your core talents.", "#00FF00#L'élixir a amélioré votre capacité à exercer vos talents fondamentaux.", "logPlayer")
 t("Elixir of Brawn", "Elixir de Muscles", "entity name")
+t("vial of tan fluid", "fiole de liquide de brun", "_t")
+t("A vial of sluggish tan fluid.", "Une fiole de fluide brunâtre léthargique.", "_t")
+t("permanently increase your strength and constitution by three", "augmenter de façon permanente votre force et votre constitution de trois points", "_t")
+t("#00FF00#The elixir has augmented your physical might and resilience!", "#00FF00#L'élixir a augmenté votre force physique et votre résistance!", "logPlayer")
 t("Elixir of Stoneskin", "Elixir de Peau de Pierre", "entity name")
+t("vial of iron-colored fluid", "fiole de liquide couleur fer", "_t")
+t("A vial of grainy, iron-colored fluid.", "Une fiole de fluide granuleux, couleur fer.", "_t")
+t("permanently increase your armor by four", "augmente de façon permanente votre armure de quatre points", "_t")
+t("#00FF00#The elixir has reinforced your entire body!", "#00FF00#L'élixir a renforcé votre corps tout entier!", "logPlayer")
 t("Elixir of Foundations", "Elixir de Fondations", "entity name")
+t("vial of white fluid", "fiole de liquide blanc", "_t")
+t("A vial of murky white fluid.", "Une fiole de liquide blanc trouble.", "_t")
+t("grant you two additional generic talent points", "vous accorde deux points de talent générique supplémentaires", "_t")
 t("Taint of Purging", "Purge d'Infections", "entity name")
 t("Infusion of Wild Growth", "Infusion de Croissance Sauvage", "entity name")
+t("Lifebinding Emerald", "Emeraude de la Vie", "entity name")
+t("green", "vert", "entity subtype")
+t("cloudy, heavy emerald", "Lourde émeraude nuageuse", "_t")
+t("A lopsided, heavy emerald with murky green clouds shifting sluggishly under the surface.", "Une émeraude lourde et asymétrique, avec des nuages d'un vert sombre qui se déplacent lentement sous sa surface.", "_t")
+t("Elixir of Invulnerability", "Elixir d'Invulnérabilité", "entity name")
+t("vial of black fluid", "fiole de liquide noir", "_t")
+t("A vial of thick fluid, metallic and reflective. It's incredibly heavy.", "Une fiole de fluide épais, métallique et réfléchissant. C'est incroyablement lourd.", "_t")
+t("grant you complete invulnerability for five turns", "vous accorde une invulnérabilité totale pendant cinq tours", "_t")
+t("#00FF00#You feel indestructible!", "#00FF00#Vous vous sentez indestructible!", "logPlayer")
 -- texte non traduit
 --[==[
 t("potion", "potion", "entity type")
 t("potion", "potion", "entity subtype")
-t("Elixir of the Fox", "Elixir of the Fox", "entity name")
-t("vial of pink fluid", "vial of pink fluid", "_t")
-t("A vial of pink, airy fluid.", "A vial of pink, airy fluid.", "_t")
-t("permanently increase your dexterity and cunning by three", "permanently increase your dexterity and cunning by three", "_t")
-t("#00FFFF#You drink the elixir and feel forever transformed!", "#00FFFF#You drink the elixir and feel forever transformed!", "logPlayer")
-t("#00FF00#The elixir has given you foxlike physical and mental agility!", "#00FF00#The elixir has given you foxlike physical and mental agility!", "logPlayer")
-t("Elixir of Avoidance", "Elixir of Avoidance", "entity name")
-t("vial of green fluid", "vial of green fluid", "_t")
-t("A vial of opaque green fluid.", "A vial of opaque green fluid.", "_t")
-t("permanently increase your defense and ranged defense by six", "permanently increase your defense and ranged defense by six", "_t")
-t("#00FF00#The elixir has improved your defensive instincts!", "#00FF00#The elixir has improved your defensive instincts!", "logPlayer")
-t("Elixir of Precision", "Elixir of Precision", "entity name")
-t("vial of red fluid", "vial of red fluid", "_t")
-t("A vial of chunky red fluid.", "A vial of chunky red fluid.", "_t")
-t("permanently increase your physical critical strike chance by 4%", "permanently increase your physical critical strike chance by 4%", "_t")
-t("#00FF00#The elixir has improved your eye for an enemy's weak points!", "#00FF00#The elixir has improved your eye for an enemy's weak points!", "logPlayer")
-t("Elixir of Mysticism", "Elixir of Mysticism", "entity name")
-t("vial of cyan fluid", "vial of cyan fluid", "_t")
-t("A vial of glowing cyan fluid.", "A vial of glowing cyan fluid.", "_t")
-t("permanently increase your magic and willpower by three", "permanently increase your magic and willpower by three", "_t")
-t("#00FF00#The elixir has augmented your magical and mental capacity!", "#00FF00#The elixir has augmented your magical and mental capacity!", "logPlayer")
-t("Elixir of the Savior", "Elixir of the Savior", "entity name")
-t("vial of grey fluid", "vial of grey fluid", "_t")
-t("A vial of bubbling, slate-colored fluid.", "A vial of bubbling, slate-colored fluid.", "_t")
-t("permanently increase all your saving throws by 4", "permanently increase all your saving throws by 4", "_t")
-t("#00FF00#The elixir has improved your resistance to unpleasant effects!", "#00FF00#The elixir has improved your resistance to unpleasant effects!", "logPlayer")
-t("Elixir of Mastery", "Elixir of Mastery", "entity name")
-t("vial of maroon fluid", "vial of maroon fluid", "_t")
-t("A vial of thick maroon fluid.", "A vial of thick maroon fluid.", "_t")
-t("grant you four additional stat points", "grant you four additional stat points", "_t")
-t("#00FF00#The elixir has greatly expanded your capacity for improving your mind and body.", "#00FF00#The elixir has greatly expanded your capacity for improving your mind and body.", "logPlayer")
-t("You have %d stat point(s) to spend. Press G to use them.", "You have %d stat point(s) to spend. Press G to use them.", "logPlayer")
-t("Elixir of Explosive Force", "Elixir of Explosive Force", "entity name")
-t("vial of orange fluid", "vial of orange fluid", "_t")
-t("A vial of churning orange fluid.", "A vial of churning orange fluid.", "_t")
-t("permanently increase your chance to critically strike with spells by 4%", "permanently increase your chance to critically strike with spells by 4%", "_t")
-t("#00FF00#The elixir has improved your eye for an enemy's magical weak points!", "#00FF00#The elixir has improved your eye for an enemy's magical weak points!", "logPlayer")
-t("Elixir of Serendipity", "Elixir of Serendipity", "entity name")
-t("vial of yellow fluid", "vial of yellow fluid", "_t")
-t("A vial of lively yellow fluid.", "A vial of lively yellow fluid.", "_t")
-t("permanently increase your luck by 5", "permanently increase your luck by 5", "_t")
-t("#00FF00#The elixir seems to have subtly repositioned your entire being within the fabric of reality!", "#00FF00#The elixir seems to have subtly repositioned your entire being within the fabric of reality!", "logPlayer")
-t("Elixir of Focus", "Elixir of Focus", "entity name")
-t("vial of clear fluid", "vial of clear fluid", "_t")
-t("A vial of clear, steaming fluid.", "A vial of clear, steaming fluid.", "_t")
-t("grant you two additional class talent points", "grant you two additional class talent points", "_t")
-t("#00FF00#The elixir has improved your capacity for exercising your core talents.", "#00FF00#The elixir has improved your capacity for exercising your core talents.", "logPlayer")
-t("vial of tan fluid", "vial of tan fluid", "_t")
-t("A vial of sluggish tan fluid.", "A vial of sluggish tan fluid.", "_t")
-t("permanently increase your strength and constitution by three", "permanently increase your strength and constitution by three", "_t")
-t("#00FF00#The elixir has augmented your physical might and resilience!", "#00FF00#The elixir has augmented your physical might and resilience!", "logPlayer")
-t("vial of iron-colored fluid", "vial of iron-colored fluid", "_t")
-t("A vial of grainy, iron-colored fluid.", "A vial of grainy, iron-colored fluid.", "_t")
-t("permanently increase your armor by four", "permanently increase your armor by four", "_t")
-t("#00FF00#The elixir has reinforced your entire body!", "#00FF00#The elixir has reinforced your entire body!", "logPlayer")
-t("vial of white fluid", "vial of white fluid", "_t")
-t("A vial of murky white fluid.", "A vial of murky white fluid.", "_t")
-t("grant you two additional generic talent points", "grant you two additional generic talent points", "_t")
-t("Lifebinding Emerald", "Lifebinding Emerald", "entity name")
-t("green", "green", "entity subtype")
-t("cloudy, heavy emerald", "cloudy, heavy emerald", "_t")
-t("A lopsided, heavy emerald with murky green clouds shifting sluggishly under the surface.", "A lopsided, heavy emerald with murky green clouds shifting sluggishly under the surface.", "_t")
-t("Elixir of Invulnerability", "Elixir of Invulnerability", "entity name")
-t("vial of black fluid", "vial of black fluid", "_t")
-t("A vial of thick fluid, metallic and reflective. It's incredibly heavy.", "A vial of thick fluid, metallic and reflective. It's incredibly heavy.", "_t")
-t("grant you complete invulnerability for five turns", "grant you complete invulnerability for five turns", "_t")
-t("#00FF00#You feel indestructible!", "#00FF00#You feel indestructible!", "logPlayer")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/cloak.lua"
 
-
--- texte non traduit
---[==[
-t("armor", "armor", "entity type")
-t("cloak", "cloak", "entity subtype")
-t("A cloth coat typically worn as a loose outer garment. It is spacious enough to be worn even over bulky metal armour.", "A cloth coat typically worn as a loose outer garment. It is spacious enough to be worn even over bulky metal armour.", "_t")
-t("linen cloak", "linen cloak", "entity name")
-t("linen", "linen", "entity short_name")
-t("cashmere cloak", "cashmere cloak", "entity name")
-t("cashmere", "cashmere", "entity short_name")
-t("elven-silk cloak", "elven-silk cloak", "entity name")
-t("e.silk", "e.silk", "entity short_name")
---]==]
-
+t("armor", "armure", "entity type")
+t("cloak", "cape", "entity subtype")
+t("A cloth coat typically worn as a loose outer garment. It is spacious enough to be worn even over bulky metal armour.", "Un manteau de tissu généralement porté comme un vêtement extérieur ample. Il est suffisamment spacieux pour être porté même par-dessus une armure métallique volumineuse.", "_t")
+t("linen cloak", "cape en lin", "entity name")
+t("linen", "lin", "entity short_name")
+t("cashmere cloak", "cape en cachemire", "entity name")
+t("cashmere", "cachemire", "entity short_name")
+t("elven-silk cloak", "cape en soie elfique", "entity name")
+t("e.silk", "soie.e", "entity short_name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/cloth-armors.lua"
 
-
--- texte non traduit
---[==[
-t("armor", "armor", "entity type")
-t("cloth", "cloth", "entity subtype")
-t("A cloth vestment. It offers no intrinsic protection but can be enchanted.", "A cloth vestment. It offers no intrinsic protection but can be enchanted.", "_t")
-t("linen robe", "linen robe", "entity name")
-t("linen", "linen", "entity short_name")
-t("woollen robe", "woollen robe", "entity name")
-t("woollen", "woollen", "entity short_name")
-t("cashmere robe", "cashmere robe", "entity name")
-t("cashmere", "cashmere", "entity short_name")
-t("silk robe", "silk robe", "entity name")
-t("silk", "silk", "entity short_name")
-t("elven-silk robe", "elven-silk robe", "entity name")
-t("e.silk", "e.silk", "entity short_name")
---]==]
-
+t("armor", "armure", "entity type")
+t("cloth", "tissu", "entity subtype")
+t("A cloth vestment. It offers no intrinsic protection but can be enchanted.", "Un vêtement en tissu. Il n'offre aucune protection intrinsèque mais peut être enchanté.", "_t")
+t("linen robe", "robe en lin", "entity name")
+t("linen", "lin", "entity short_name")
+t("woollen robe", "robe en laine", "entity name")
+t("woollen", "laine", "entity short_name")
+t("cashmere robe", "robe en cachemire", "entity name")
+t("cashmere", "cachemire", "entity short_name")
+t("silk robe", "robe en soie", "entity name")
+t("silk", "soir", "entity short_name")
+t("elven-silk robe", "robe en soie elfique", "entity name")
+t("e.silk", "soie.e", "entity short_name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/digger.lua"
 
-
+t("tool", "outil", "entity type")
+t("digger", "minage", "entity subtype")
+t("Allows you to dig a wall, remove a tree, create ways.", "Permet de creuser un mur, d'enlever un arbre, de créer des chemins.", "_t")
+t("iron pickaxe", "pioche en fer", "entity name")
+t("iron", "fer", "entity short_name")
+t("dwarven-steel pickaxe", "pioche en acier nain", "entity name")
+t("d.steel", "acier.n", "entity short_name")
+t("voratun pickaxe", "pioche en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("tool", "tool", "entity type")
-t("digger", "digger", "entity subtype")
-t("Allows you to dig a wall, remove a tree, create ways.", "Allows you to dig a wall, remove a tree, create ways.", "_t")
-t("iron pickaxe", "iron pickaxe", "entity name")
-t("iron", "iron", "entity short_name")
-t("dwarven-steel pickaxe", "dwarven-steel pickaxe", "entity name")
-t("d.steel", "d.steel", "entity short_name")
-t("voratun pickaxe", "voratun pickaxe", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -8000,6 +7976,7 @@ section "mod-tome/data/general/objects/egos/gloves.lua"
 t("sand", "sable", "entity keyword")
 t("storm", "orage", "entity keyword")
 t("temporal", "temporel", "entity keyword")
+t("iron", "fer", "entity keyword")
 -- texte non traduit
 --[==[
 t("cinder ", "cinder ", "entity name")
@@ -8034,7 +8011,6 @@ t("steady", "steady", "entity keyword")
 t(" of war-making", " of war-making", "entity name")
 t("war", "war", "entity keyword")
 t(" of the iron hand", " of the iron hand", "entity name")
-t("iron", "iron", "entity keyword")
 t("alchemist's ", "alchemist's ", "entity name")
 t("alchemist", "alchemist", "entity keyword")
 t("brawler's ", "brawler's ", "entity name")
@@ -8803,6 +8779,7 @@ section "mod-tome/data/general/objects/egos/totems-powers.lua"
 
 t("healing", "soin", "entity keyword")
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 -- texte non traduit
 --[==[
 t(" of healing", " of healing", "entity name")
@@ -8830,7 +8807,6 @@ t([[summon a resilient tentacle up to %d spaces away for %d turns.  Each turn th
 %s]], [[summon a resilient tentacle up to %d spaces away for %d turns.  Each turn the tentacle will strike a random enemy in range 3 dealing physical damage and attempting to pin them.
 
 %s]], "tformat")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("Lashing Tentacle", "Lashing Tentacle", "_t")
 t("A lashing tentacle.", "A lashing tentacle.", "_t")
 t("#Source# points %s %s at #target#, releasing a writhing tentacle!", "#Source# points %s %s at #target#, releasing a writhing tentacle!", "logCombat")
@@ -9054,6 +9030,8 @@ t("spellwoven", "spellwoven", "entity keyword")
 section "mod-tome/data/general/objects/elixir-ingredients.lua"
 
 t("misc", "divers", "entity type")
+t("ash", "frêne", "_t")
+t("fang", "croc", "_t")
 -- texte non traduit
 --[==[
 t("ingredient", "ingredient", "entity subtype")
@@ -9146,13 +9124,11 @@ t("Looks much like any other rock, though this one was recently sentient and try
 t("warg claw", "warg claw", "entity name")
 t("Unpleasantly large and sharp for a canine's claw.", "Unpleasantly large and sharp for a canine's claw.", "_t")
 t("pouch of faeros ash", "pouch of faeros ash", "entity name")
-t("ash", "ash", "_t")
 t("Unremarkable grey ash.", "Unremarkable grey ash.", "_t")
 t("wretchling eyeball", "wretchling eyeball", "entity name")
 t("eyeball", "eyeball", "_t")
 t("Small and bloodshot. Its dead gaze still burns your skin.", "Small and bloodshot. Its dead gaze still burns your skin.", "_t")
 t("faerlhing fang", "faerlhing fang", "entity name")
-t("fang", "fang", "_t")
 t("It still drips venom and crackles with magical energy.", "It still drips venom and crackles with magical energy.", "_t")
 t("vampire lord fang", "vampire lord fang", "entity name")
 t("Brilliantly white, but surrounded by blackest magic.", "Brilliantly white, but surrounded by blackest magic.", "_t")
@@ -9168,16 +9144,15 @@ t("Weightless and glowing; not your usual dust.", "Weightless and glowing; not y
 ------------------------------------------------
 section "mod-tome/data/general/objects/gauntlets.lua"
 
-
+t("armor", "armure", "entity type")
+t("iron", "fer", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("hands", "hands", "entity subtype")
 t("Metal gloves protecting the hands up to the middle of the lower arm.", "Metal gloves protecting the hands up to the middle of the lower arm.", "_t")
 t("iron gauntlets", "iron gauntlets", "entity name")
-t("iron", "iron", "entity short_name")
 t("dwarven-steel gauntlets", "dwarven-steel gauntlets", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("voratun gauntlets", "voratun gauntlets", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
@@ -9186,10 +9161,11 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/gem.lua"
 
-
+t("gem", "gemme", "entity type")
+t("red", "rouge", "entity subtype")
+t("green", "vert", "entity subtype")
 -- texte non traduit
 --[==[
-t("gem", "gem", "entity type")
 t("white", "white", "entity subtype")
 t("Gems can be sold for money or used in arcane rituals.", "Gems can be sold for money or used in arcane rituals.", "_t")
 t("color", "color", "entity subtype")
@@ -9204,7 +9180,6 @@ t("moonstone", "moonstone", "entity name")
 t("alchemist moonstone", "alchemist moonstone", "entity name")
 t("fire opal", "fire opal", "entity name")
 t("alchemist fire opal", "alchemist fire opal", "entity name")
-t("red", "red", "entity subtype")
 t("bloodstone", "bloodstone", "entity name")
 t("alchemist bloodstone", "alchemist bloodstone", "entity name")
 t("ruby", "ruby", "entity name")
@@ -9214,7 +9189,6 @@ t("alchemist amber", "alchemist amber", "entity name")
 t("yellow", "yellow", "entity subtype")
 t("turquoise", "turquoise", "entity name")
 t("alchemist turquoise", "alchemist turquoise", "entity name")
-t("green", "green", "entity subtype")
 t("jade", "jade", "entity name")
 t("alchemist jade", "alchemist jade", "entity name")
 t("Slows by 17%", "Slows by 17%", "_t")
@@ -9258,10 +9232,9 @@ t("alchemist agate", "alchemist agate", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/gloves.lua"
 
-
+t("armor", "armure", "entity type")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("hands", "hands", "entity subtype")
 t("Light gloves which do not seriously hinder finger movements, while still protecting the hands somewhat.", "Light gloves which do not seriously hinder finger movements, while still protecting the hands somewhat.", "_t")
 t("rough leather gloves", "rough leather gloves", "entity name")
@@ -9276,18 +9249,17 @@ t("drakeskin", "drakeskin", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/heavy-armors.lua"
 
-
+t("armor", "armure", "entity type")
+t("iron", "fer", "entity short_name")
+t("steel", "acier", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("heavy", "heavy", "entity subtype")
 t("A suit of armour made of mail.", "A suit of armour made of mail.", "_t")
 t("iron mail armour", "iron mail armour", "entity name")
-t("iron", "iron", "entity short_name")
 t("steel mail armour", "steel mail armour", "entity name")
-t("steel", "steel", "entity short_name")
 t("dwarven-steel mail armour", "dwarven-steel mail armour", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("stralite mail armour", "stralite mail armour", "entity name")
 t("stralite", "stralite", "entity short_name")
 t("voratun mail armour", "voratun mail armour", "entity name")
@@ -9298,16 +9270,15 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/heavy-boots.lua"
 
-
+t("armor", "armure", "entity type")
+t("iron", "fer", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("feet", "feet", "entity subtype")
 t("Heavy boots, with metal strips at the toes, heels and other vulnerable parts, to better protect the wearer's feet from harm.", "Heavy boots, with metal strips at the toes, heels and other vulnerable parts, to better protect the wearer's feet from harm.", "_t")
 t("pair of iron boots", "pair of iron boots", "entity name")
-t("iron", "iron", "entity short_name")
 t("pair of dwarven-steel boots", "pair of dwarven-steel boots", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("pair of voratun boots", "pair of voratun boots", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
@@ -9316,16 +9287,15 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/helms.lua"
 
-
+t("armor", "armure", "entity type")
+t("iron", "fer", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("head", "head", "entity subtype")
 t("A large helmet that can protect the entire head. Ventilation and bad vision can be a problem, however.", "A large helmet that can protect the entire head. Ventilation and bad vision can be a problem, however.", "_t")
 t("iron helm", "iron helm", "entity name")
-t("iron", "iron", "entity short_name")
 t("dwarven-steel helm", "dwarven-steel helm", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("voratun helm", "voratun helm", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
@@ -9334,7 +9304,7 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/jewelry.lua"
 
-
+t("steel", "acier", "entity short_name")
 -- texte non traduit
 --[==[
 t("jewelry", "jewelry", "entity type")
@@ -9346,7 +9316,6 @@ t("copper ring", "copper ring", "entity name")
 t("copper", "copper", "entity short_name")
 t("copper ring", "copper ring", "_t")
 t("steel ring", "steel ring", "entity name")
-t("steel", "steel", "entity short_name")
 t("steel ring", "steel ring", "_t")
 t("gold ring", "gold ring", "entity name")
 t("gold", "gold", "entity short_name")
@@ -9374,17 +9343,17 @@ t("voratun amulet", "voratun amulet", "_t")
 section "mod-tome/data/general/objects/knifes.lua"
 
 t("weapon", "arme", "entity type")
+t("iron", "fer", "entity short_name")
+t("steel", "acier", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
 t("dagger", "dagger", "entity subtype")
 t("knife", "knife", "entity combat talented")
 t("Sharp, short and deadly.", "Sharp, short and deadly.", "_t")
 t("iron dagger", "iron dagger", "entity name")
-t("iron", "iron", "entity short_name")
 t("steel dagger", "steel dagger", "entity name")
-t("steel", "steel", "entity short_name")
 t("dwarven-steel dagger", "dwarven-steel dagger", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("stralite dagger", "stralite dagger", "entity name")
 t("stralite", "stralite", "entity short_name")
 t("voratun dagger", "voratun dagger", "entity name")
@@ -9395,10 +9364,9 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/leather-belt.lua"
 
-
+t("armor", "armure", "entity type")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("belt", "belt", "entity subtype")
 t("A belt that goes around your waist.", "A belt that goes around your waist.", "_t")
 t("rough leather belt", "rough leather belt", "entity name")
@@ -9413,10 +9381,9 @@ t("drakeskin", "drakeskin", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/leather-boots.lua"
 
-
+t("armor", "armure", "entity type")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("feet", "feet", "entity subtype")
 t("A pair of boots made of leather.", "A pair of boots made of leather.", "_t")
 t("pair of rough leather boots", "pair of rough leather boots", "entity name")
@@ -9431,10 +9398,9 @@ t("drakeskin", "drakeskin", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/leather-caps.lua"
 
-
+t("armor", "armure", "entity type")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("head", "head", "entity subtype")
 t("A cap made of leather.", "A cap made of leather.", "_t")
 t("rough leather cap", "rough leather cap", "entity name")
@@ -9449,10 +9415,10 @@ t("drakeskin", "drakeskin", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/light-armors.lua"
 
+t("armor", "armure", "entity type")
 t("light", "lumière", "entity subtype")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("A suit of armour made of leather.", "A suit of armour made of leather.", "_t")
 t("rough leather armour", "rough leather armour", "entity name")
 t("rough", "rough", "entity short_name")
@@ -9573,17 +9539,17 @@ t("A paper scrap containing some lore.", "A paper scrap containing some lore.", 
 section "mod-tome/data/general/objects/maces.lua"
 
 t("weapon", "arme", "entity type")
+t("mace", "masse", "entity subtype")
+t("mace", "masse", "entity combat talented")
+t("iron", "fer", "entity short_name")
+t("steel", "acier", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
-t("mace", "mace", "entity subtype")
-t("mace", "mace", "entity combat talented")
 t("Blunt and deadly.", "Blunt and deadly.", "_t")
 t("iron mace", "iron mace", "entity name")
-t("iron", "iron", "entity short_name")
 t("steel mace", "steel mace", "entity name")
-t("steel", "steel", "entity short_name")
 t("dwarven-steel mace", "dwarven-steel mace", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("stralite mace", "stralite mace", "entity name")
 t("stralite", "stralite", "entity short_name")
 t("voratun mace", "voratun mace", "entity name")
@@ -9594,18 +9560,17 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/massive-armors.lua"
 
-
+t("armor", "armure", "entity type")
+t("iron", "fer", "entity short_name")
+t("steel", "acier", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("massive", "massive", "entity subtype")
 t("A suit of armour made of metal plates.", "A suit of armour made of metal plates.", "_t")
 t("iron plate armour", "iron plate armour", "entity name")
-t("iron", "iron", "entity short_name")
 t("steel plate armour", "steel plate armour", "entity name")
-t("steel", "steel", "entity short_name")
 t("dwarven-steel plate armour", "dwarven-steel plate armour", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("stralite plate armour", "stralite plate armour", "entity name")
 t("stralite", "stralite", "entity short_name")
 t("voratun plate armour", "voratun plate armour", "entity name")
@@ -9640,10 +9605,10 @@ t("living mindstar", "living mindstar", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/misc-tools.lua"
 
+t("tool", "outil", "entity type")
 t("misc", "divers", "entity subtype")
 -- texte non traduit
 --[==[
-t("tool", "tool", "entity type")
 t("A miscellaneous tool.", "A miscellaneous tool.", "_t")
 --]==]
 
@@ -9679,11 +9644,11 @@ t("alchemist golem mount", "alchemist golem mount", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/mummy-wrappings.lua"
 
+t("armor", "armure", "entity type")
 t("mummy", "momie", "entity subtype")
 t("mummy", "momie", "entity short_name")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("Decaying mummy wrappings.", "Decaying mummy wrappings.", "_t")
 t("mummy wrappings", "mummy wrappings", "entity name")
 --]==]
@@ -10120,7 +10085,7 @@ t("stave resists pen temporal", "stave resists pen temporal", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts.lua"
 
-
+t("armor", "armure", "entity name")
 -- texte non traduit
 --[==[
 t("spellpower", "spellpower", "entity name")
@@ -10146,7 +10111,6 @@ t("arcane melee", "arcane melee", "entity name")
 t("poison melee", "poison melee", "entity name")
 t("def", "def", "entity name")
 t("rdef", "rdef", "entity name")
-t("armor", "armor", "entity name")
 t("stat str", "stat str", "entity name")
 t("stat dex", "stat dex", "entity name")
 t("stat mag", "stat mag", "entity name")
@@ -10273,18 +10237,17 @@ t("insidious poison infusion", "insidious poison infusion", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/shields.lua"
 
-
+t("armor", "armure", "entity type")
+t("iron", "fer", "entity short_name")
+t("steel", "acier", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("shield", "shield", "entity subtype")
 t("Handheld deflection devices.", "Handheld deflection devices.", "_t")
 t("iron shield", "iron shield", "entity name")
-t("iron", "iron", "entity short_name")
 t("steel shield", "steel shield", "entity name")
-t("steel", "steel", "entity short_name")
 t("dwarven-steel shield", "dwarven-steel shield", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("stralite shield", "stralite shield", "entity name")
 t("stralite", "stralite", "entity short_name")
 t("voratun shield", "voratun shield", "entity name")
@@ -10296,6 +10259,10 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/slings.lua"
 
 t("weapon", "arme", "entity type")
+t("ammo", "munition", "entity type")
+t("iron", "fer", "entity short_name")
+t("steel", "acier", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
 t("sling", "sling", "entity subtype")
@@ -10311,15 +10278,11 @@ t("reinforced leather sling", "reinforced leather sling", "entity name")
 t("reinforced", "reinforced", "entity short_name")
 t("drakeskin leather sling", "drakeskin leather sling", "entity name")
 t("drakeskin", "drakeskin", "entity short_name")
-t("ammo", "ammo", "entity type")
 t("shot", "shot", "entity subtype")
 t("Shots are used with slings to pummel your foes to death.", "Shots are used with slings to pummel your foes to death.", "_t")
 t("pouch of iron shots", "pouch of iron shots", "entity name")
-t("iron", "iron", "entity short_name")
 t("pouch of steel shots", "pouch of steel shots", "entity name")
-t("steel", "steel", "entity short_name")
 t("pouch of dwarven-steel shots", "pouch of dwarven-steel shots", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("pouch of stralite shots", "pouch of stralite shots", "entity name")
 t("stralite", "stralite", "entity short_name")
 t("pouch of voratun shots", "pouch of voratun shots", "entity name")
@@ -10347,19 +10310,19 @@ section "mod-tome/data/general/objects/staves.lua"
 t("weapon", "arme", "entity type")
 t("staff", "bâton", "entity subtype")
 t("staff", "bâton", "entity combat talented")
+t("elm", "orme", "entity short_name")
+t("ash", "frêne", "entity short_name")
+t("yew", "if", "entity short_name")
+t("e.wood", "bois.e", "entity short_name")
+t("dragonbone", "os de dragon", "entity short_name")
 -- texte non traduit
 --[==[
 t("Staves designed for wielders of magic, by the greats of the art.", "Staves designed for wielders of magic, by the greats of the art.", "_t")
 t("elm staff", "elm staff", "entity name")
-t("elm", "elm", "entity short_name")
 t("ash staff", "ash staff", "entity name")
-t("ash", "ash", "entity short_name")
 t("yew staff", "yew staff", "entity name")
-t("yew", "yew", "entity short_name")
 t("elven-wood staff", "elven-wood staff", "entity name")
-t("e.wood", "e.wood", "entity short_name")
 t("dragonbone staff", "dragonbone staff", "entity name")
-t("dragonbone", "dragonbone", "entity short_name")
 --]==]
 
 
@@ -10367,17 +10330,17 @@ t("dragonbone", "dragonbone", "entity short_name")
 section "mod-tome/data/general/objects/swords.lua"
 
 t("weapon", "arme", "entity type")
+t("sword", "épée", "entity combat talented")
+t("iron", "fer", "entity short_name")
+t("steel", "acier", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
 t("longsword", "longsword", "entity subtype")
-t("sword", "sword", "entity combat talented")
 t("Sharp, long, and deadly.", "Sharp, long, and deadly.", "_t")
 t("iron longsword", "iron longsword", "entity name")
-t("iron", "iron", "entity short_name")
 t("steel longsword", "steel longsword", "entity name")
-t("steel", "steel", "entity short_name")
 t("dwarven-steel longsword", "dwarven-steel longsword", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("stralite longsword", "stralite longsword", "entity name")
 t("stralite", "stralite", "entity short_name")
 t("voratun longsword", "voratun longsword", "entity name")
@@ -10388,6 +10351,9 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/torques.lua"
 
+t("iron", "fer", "entity short_name")
+t("steel", "acier", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 t("voratun torque", "torque en voratun", "entity name")
 -- texte non traduit
 --[==[
@@ -10396,11 +10362,8 @@ t("torque", "torque", "entity subtype")
 t("torque", "torque", "_t")
 t("Torques are made by powerful psionics to store psionic powers.", "Torques are made by powerful psionics to store psionic powers.", "_t")
 t("iron torque", "iron torque", "entity name")
-t("iron", "iron", "entity short_name")
 t("steel torque", "steel torque", "entity name")
-t("steel", "steel", "entity short_name")
 t("dwarven-steel torque", "dwarven-steel torque", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("stralite torque", "stralite torque", "entity name")
 t("stralite", "stralite", "entity short_name")
 t("voratun", "voratun", "entity short_name")
@@ -10410,7 +10373,12 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/totems.lua"
 
+t("elm", "orme", "entity short_name")
+t("ash", "frêne", "entity short_name")
+t("yew", "if", "entity short_name")
+t("e.wood", "bois.e", "entity short_name")
 t("dragonbone totem", "totem en os de dragon", "entity name")
+t("dragonbone", "os de dragon", "entity short_name")
 -- texte non traduit
 --[==[
 t("charm", "charm", "entity type")
@@ -10418,21 +10386,21 @@ t("totem", "totem", "entity subtype")
 t("totem", "totem", "_t")
 t("Natural totems are made by powerful wilders to store nature power.", "Natural totems are made by powerful wilders to store nature power.", "_t")
 t("elm totem", "elm totem", "entity name")
-t("elm", "elm", "entity short_name")
 t("ash totem", "ash totem", "entity name")
-t("ash", "ash", "entity short_name")
 t("yew totem", "yew totem", "entity name")
-t("yew", "yew", "entity short_name")
 t("elven-wood totem", "elven-wood totem", "entity name")
-t("e.wood", "e.wood", "entity short_name")
-t("dragonbone", "dragonbone", "entity short_name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/wands.lua"
 
+t("elm", "orme", "entity short_name")
+t("ash", "frêne", "entity short_name")
+t("yew", "if", "entity short_name")
+t("e.wood", "bois.e", "entity short_name")
 t("dragonbone wand", "baguette en os de dragon", "entity name")
+t("dragonbone", "os de dragon", "entity short_name")
 -- texte non traduit
 --[==[
 t("charm", "charm", "entity type")
@@ -10440,14 +10408,9 @@ t("wand", "wand", "entity subtype")
 t("wand", "wand", "_t")
 t("Magical wands are made by powerful Alchemists and Archmagi to store spells. Anybody can use them to release the spells.", "Magical wands are made by powerful Alchemists and Archmagi to store spells. Anybody can use them to release the spells.", "_t")
 t("elm wand", "elm wand", "entity name")
-t("elm", "elm", "entity short_name")
 t("ash wand", "ash wand", "entity name")
-t("ash", "ash", "entity short_name")
 t("yew wand", "yew wand", "entity name")
-t("yew", "yew", "entity short_name")
 t("elven-wood wand", "elven-wood wand", "entity name")
-t("e.wood", "e.wood", "entity short_name")
-t("dragonbone", "dragonbone", "entity short_name")
 --]==]
 
 
@@ -10466,18 +10429,17 @@ t("Sharp, long and deadly.", "Sharp, long and deadly.", "_t")
 ------------------------------------------------
 section "mod-tome/data/general/objects/wizard-hat.lua"
 
-
+t("armor", "armure", "entity type")
+t("linen", "lin", "entity short_name")
+t("cashmere", "cachemire", "entity short_name")
+t("e.silk", "soie.e", "entity short_name")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
 t("head", "head", "entity subtype")
 t("A pointy cloth hat, very wizardly...", "A pointy cloth hat, very wizardly...", "_t")
 t("linen wizard hat", "linen wizard hat", "entity name")
-t("linen", "linen", "entity short_name")
 t("cashmere wizard hat", "cashmere wizard hat", "entity name")
-t("cashmere", "cashmere", "entity short_name")
 t("elven-silk wizard hat", "elven-silk wizard hat", "entity name")
-t("e.silk", "e.silk", "entity short_name")
 --]==]
 
 
@@ -10550,6 +10512,8 @@ t("A plain looking ceremonial rod. It has connections with Time that even chrono
 section "mod-tome/data/general/objects/world-artifacts-maj-eyal.lua"
 
 t("Genocide", "Génocide", "entity name")
+t("multi-hued", "multi-teintes", "entity subtype")
+t("You fix the crystal on the %s and create the %s.", "Vous fixez le cristal sur %s et créez %s.", "logPlayer")
 t("#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "#ROYAL_BLUE#Le golem décide de prendre le nom de#{bold}#%s#{normal}#.", "log")
 -- texte non traduit
 --[==[
@@ -10627,12 +10591,10 @@ t("Blood-Letter", "Blood-Letter", "entity name")
 t("glacial hatchet", "glacial hatchet", "_t")
 t("A hand axe carved out of the most frozen parts of the northern wasteland.", "A hand axe carved out of the most frozen parts of the northern wasteland.", "_t")
 t("Telos's Staff Crystal", "Telos's Staff Crystal", "entity name")
-t("multi-hued", "multi-hued", "entity subtype")
 t("scintillating white crystal", "scintillating white crystal", "_t")
 t("A closer look at this pure white crystal reveals that it is really a plethora of colors swirling and scintillating.", "A closer look at this pure white crystal reveals that it is really a plethora of colors swirling and scintillating.", "_t")
 t("combine with a staff", "combine with a staff", "_t")
 t("Fuse with which staff?", "Fuse with which staff?", "_t")
-t("You fix the crystal on the %s and create the %s.", "You fix the crystal on the %s and create the %s.", "logPlayer")
 t("The fusing fails!", "The fusing fails!", "logPlayer")
 t("#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "logSeen")
 t("#CRIMSON#The unearthly glow fades away.", "#CRIMSON#The unearthly glow fades away.", "logPlayer")
@@ -10703,11 +10665,15 @@ t("#DARK_GREEN#The armor molds comfortably to one of its caretakers.", "#DARK_GR
 section "mod-tome/data/general/objects/world-artifacts.lua"
 
 t("Primal Infusion", "Infusion Primale", "entity name")
+t("Another of Garkul's heirlooms would bring out his spirit.", "Un autre des héritages de Garkul ferait ressortir son esprit.", "_t")
 t("Blood of Life", "Sang de Vie", "entity name")
 t("misc", "divers", "entity type")
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("Summertide", "Eté", "entity name")
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
+t("multi-hued", "multi-teintes", "entity subtype")
+t(" (cooling down: %d turns)", " (rechargement: %d tours)", "tformat")
 t("None", "Aucune", "_t")
 t("Use which gem?", "Utiliser quelle gemme?", "_t")
 t("something", "quelque chose", "_t")
@@ -10747,7 +10713,6 @@ t("You can feel this strange metallic hand wriggling around, it feels as if spac
 t("Garkul's Teeth", "Garkul's Teeth", "entity name")
 t("a necklace made of teeth", "a necklace made of teeth", "_t")
 t("Hundreds of humanoid teeth have been strung together on multiple strands of thin leather, creating this tribal necklace.  One would have to assume that these are not the teeth of Garkul the Devourer but rather the teeth of Garkul's many meals.", "Hundreds of humanoid teeth have been strung together on multiple strands of thin leather, creating this tribal necklace.  One would have to assume that these are not the teeth of Garkul the Devourer but rather the teeth of Garkul's many meals.", "_t")
-t("Another of Garkul's heirlooms would bring out his spirit.", "Another of Garkul's heirlooms would bring out his spirit.", "_t")
 t("#CRIMSON#As you wear both Garkul's heirlooms you can feel the mighty warrior's spirit flowing through you.", "#CRIMSON#As you wear both Garkul's heirlooms you can feel the mighty warrior's spirit flowing through you.", "logSeen")
 t("#CRIMSON#The spirit of Garkul fades away.", "#CRIMSON#The spirit of Garkul fades away.", "logPlayer")
 t("Summertide Phial", "Summertide Phial", "entity name")
@@ -11176,7 +11141,6 @@ t("Spectral Cage", "Spectral Cage", "entity name")
 t("ethereal blue lantern", "ethereal blue lantern", "_t")
 t("This ancient, weathered lantern glows with a pale blue light emanating from several ghostly forms trapped within.  The metal is icy cold to the touch.", "This ancient, weathered lantern glows with a pale blue light emanating from several ghostly forms trapped within.  The metal is icy cold to the touch.", "_t")
 t("release a will o' the wisp that will explode against your foes for %d cold damage (based on your Magic)", "release a will o' the wisp that will explode against your foes for %d cold damage (based on your Magic)", "tformat")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("will o' the wisp", "will o' the wisp", "_t")
 t("A chilling, ghostly form that floats in the air.", "A chilling, ghostly form that floats in the air.", "_t")
 t("#Source# releases an icy whisp from %s %s!", "#Source# releases an icy whisp from %s %s!", "logCombat")
@@ -11232,7 +11196,6 @@ t("Crystle's Astral Bindings", "Crystle's Astral Bindings", "entity name")
 t("crystalline gloves", "crystalline gloves", "_t")
 t("Said to have belonged to a lost Anorithil, stars are reflected in the myriad surfaces of these otherworldly bindings.", "Said to have belonged to a lost Anorithil, stars are reflected in the myriad surfaces of these otherworldly bindings.", "_t")
 t("Prothotipe's Prismatic Eye", "Prothotipe's Prismatic Eye", "entity name")
-t("multi-hued", "multi-hued", "entity subtype")
 t("cracked golem eye", "cracked golem eye", "_t")
 t("This cracked gemstone looks faded with age. It appears to have once been the eye of a golem.", "This cracked gemstone looks faded with age. It appears to have once been the eye of a golem.", "_t")
 t("Casts lasers on spellcast when worn or imbued.", "Casts lasers on spellcast when worn or imbued.", "_t")
@@ -11386,7 +11349,6 @@ t("Butcher", "Butcher", "entity name")
 t("blood drenched shortsword", "blood drenched shortsword", "_t")
 t("Be it corruption, madness or eccentric boredom, the halfling butcher by the name of Caleb once took to eating his kin instead of cattle. His spree was never ended and nobody knows where he disappeared to. Only the blade remained, stuck fast in a bloodied block. Beneath, a carving said \"This was fun, let's do it again some time.\"", "Be it corruption, madness or eccentric boredom, the halfling butcher by the name of Caleb once took to eating his kin instead of cattle. His spree was never ended and nobody knows where he disappeared to. Only the blade remained, stuck fast in a bloodied block. Beneath, a carving said \"This was fun, let's do it again some time.\"", "_t")
 t("Enter Rampage if health falls below 20%%%s", "Enter Rampage if health falls below 20%%%s", "tformat")
-t(" (cooling down: %d turns)", " (cooling down: %d turns)", "tformat")
 t("Attempt to devour a low HP enemy, striking again and possibly killing it instantly.", "Attempt to devour a low HP enemy, striking again and possibly killing it instantly.", "_t")
 t("Enter a Rampage (Shared cooldown).", "Enter a Rampage (Shared cooldown).", "_t")
 t("Ethereal Embrace", "Ethereal Embrace", "entity name")
@@ -20443,7 +20405,7 @@ t("Release a burst of sunlight beams at %d random foes in radius %d, dealing %d 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/twilight.lua"
 
-
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Twilight", "Twilight", "talent name")
@@ -20465,7 +20427,6 @@ t([[Let out a mental cry that shatters the will of your targets within radius %d
 		The damage will improve with your spellpower and the duration will improve with your Cunning.]], [[Let out a mental cry that shatters the will of your targets within radius %d, dealing %0.2f darkness damage and confusing (%d%% to act randomly) them for %d turns.
 		The damage will improve with your spellpower and the duration will improve with your Cunning.]], "tformat")
 t("Shadow Simulacrum", "Shadow Simulacrum", "talent name")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("You can't target summons!", "You can't target summons!", "logSeen")
 t("You can't target allies!", "You can't target allies!", "logSeen")
 t("%s's shadow simulacrum", "%s's shadow simulacrum", "tformat")
@@ -20511,6 +20472,8 @@ section "mod-tome/data/talents/chronomancy/anomalies.lua"
 
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 t("trap", "piège", "_t")
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
+t("%s's %s is disrupted!", "%s's %s est perturbé!", "logSeen")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
@@ -20544,7 +20507,6 @@ t("@Source@ makes several targets blink uncontrollably.", "@Source@ makes severa
 t("Up to five targets in a radius of %d are teleporting %d tiles every turn.", "Up to five targets in a radius of %d are teleporting %d tiles every turn.", "tformat")
 t("Anomaly Summon Townsfolk", "Anomaly Summon Townsfolk", "talent name")
 t("Some innocent bystanders have been teleported into the fight.", "Some innocent bystanders have been teleported into the fight.", "_t")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("human farmer", "human farmer", "_t")
 t("A weather-worn Human farmer, looking at a loss as to what's going on.", "A weather-worn Human farmer, looking at a loss as to what's going on.", "_t")
 t("halfling gardener", "halfling gardener", "_t")
@@ -20592,7 +20554,6 @@ t("a summoned wall of stone", "a summoned wall of stone", "_t")
 t("Entombs a single target in a wall of stone.", "Entombs a single target in a wall of stone.", "tformat")
 t("Anomaly Entropy", "Anomaly Entropy", "talent name")
 t("@Source@ increases local entropy.", "@Source@ increases local entropy.", "_t")
-t("%s's %s is disrupted!", "%s's %s is disrupted!", "logSeen")
 t("Places between three and six talents of up to 5 targets in a radius %d ball on cooldown for up to %d turns.", "Places between three and six talents of up to 5 targets in a radius %d ball on cooldown for up to %d turns.", "tformat")
 t("Anomaly Gravity Well", "Anomaly Gravity Well", "talent name")
 t("Creates a gravity well in a radius %d ball, pinning up to five targets.", "Creates a gravity well in a radius %d ball, pinning up to five targets.", "tformat")
@@ -21055,6 +21016,7 @@ t([[While active your physical and temporal damage has a %d%% chance to remove o
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/other.lua"
 
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 t("%s resists the swap!", "%s résiste à la permutation!", "logSeen")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
@@ -21119,7 +21081,6 @@ t([[You partially remove yourself from the timeline for 10 turns.
 		The resistance bonus, effect reduction, and damage penalty will gradually lose power over the duration of the spell.
 		The effects scale with your Spellpower.]], "tformat")
 t("Paradox Clone", "Paradox Clone", "talent name")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("%s's Paradox Clone", "%s's Paradox Clone", "tformat")
 t("The real %s... or so %s says.", "The real %s... or so %s says.", "tformat")
 t("Paradox Clone", "Paradox Clone", "_t")
@@ -21534,6 +21495,7 @@ t([[When you hit with a melee or arrow attack, there is a %d%% chance that a war
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/timeline-threading.lua"
 
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
@@ -21547,7 +21509,6 @@ t("Temporal Fugue", "Temporal Fugue", "talent name")
 t("%s's Fugue Clone", "%s's Fugue Clone", "tformat")
 t("The real %s... or so %s says.", "The real %s... or so %s says.", "tformat")
 t("Fugue Clone", "Fugue Clone", "_t")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t([[For the next %d turns two alternate versions of you enter your timeline.  While the effect is active all damage done by you or your copies is reduced by two thirds and all damage received is split between the three of you.
 		Temporal Fugue does not normally cooldown while active.  You may take direct control of your clones, give them orders, and set their talent usage.
 		Damage you deal to Fugue Clones or that they deal to you or each other is reduced to zero.]], [[For the next %d turns two alternate versions of you enter your timeline.  While the effect is active all damage done by you or your copies is reduced by two thirds and all damage received is split between the three of you.
@@ -22698,6 +22659,7 @@ t([[Systematically find the weaknesses in your opponents' physical resists, at t
 section "mod-tome/data/talents/cunning/traps.lua"
 
 t("trap", "piège", "_t")
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
@@ -22745,7 +22707,6 @@ t([[This talent allows you to prepare up to %d different trap(s) of tier %d or l
 		Most traps last %d turns if not triggered, and refund 80%% of their stamina cost on expiration.
 		More designs may be discovered via disarming or learned from special instructors in the world.]], "tformat")
 t("Lure", "Lure", "talent name")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("lure", "lure", "_t")
 t("A noisy lure.", "A noisy lure.", "_t")
 t([[Deploy a noisy lure that attracts all creatures within radius %d to it for %d turns.
@@ -24882,6 +24843,7 @@ t("Switches places with one of your summons. This disorients your foes, granting
 section "mod-tome/data/talents/gifts/summon-distance.lua"
 
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Flamespit", "Flamespit", "talent name")
@@ -24937,7 +24899,6 @@ t([[Grab a target and pull it next to you, covering it with frost while reducing
 		The damage and chance to slow will increase with your Mindpower.]], "tformat")
 t("Ritch Flamespitter", "Ritch Flamespitter", "talent name")
 t("@Source@ summons a Ritch Flamespitter!", "@Source@ summons a Ritch Flamespitter!", "_t")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("", "", "_t")
 t("%s (wild summon)", "%s (wild summon)", "tformat")
 t([[Summon a Ritch Flamespitter for %d turns to burn your foes to death. Flamespitters are weak in melee and die easily, but they can burn your foes from afar.
@@ -24984,6 +24945,7 @@ t([[Summon a Fire Drake for %d turns to burn and crush your foes to death. Fire 
 section "mod-tome/data/talents/gifts/summon-melee.lua"
 
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 t("A strange blob on the dungeon floor.", "Un étrange blob sur le sol du donjon.", "_t")
 t("It is a cross between a human and a bull.", "C'est un croisement entre un humain et un taureau.", "_t")
 -- texte non traduit
@@ -24995,7 +24957,6 @@ t("Mitotic Split", "Mitotic Split", "talent name")
 t("%d%% chance to split upon taking a single hit dealing at least %d%% of your maximum life.", "%d%% chance to split upon taking a single hit dealing at least %d%% of your maximum life.", "tformat")
 t("War Hound", "War Hound", "talent name")
 t("@Source@ summons a War Hound!", "@Source@ summons a War Hound!", "_t")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("", "", "_t")
 t("%s (wild summon)", "%s (wild summon)", "tformat")
 t([[Summon a War Hound for %d turns to attack your foes. War hounds are good basic melee attackers.
@@ -25041,6 +25002,7 @@ t([[Summon a Stone Golem for %d turns to attack your foes. Stone golems are form
 section "mod-tome/data/talents/gifts/summon-utility.lua"
 
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Taunt", "Taunt", "talent name")
@@ -25051,7 +25013,6 @@ t("Web", "Web", "talent name")
 t("Spread a web and throw it toward your target. If caught, it won't be able to move for %d turns.", "Spread a web and throw it toward your target. If caught, it won't be able to move for %d turns.", "tformat")
 t("Turtle", "Turtle", "talent name")
 t("@Source@ summons a Turtle!", "@Source@ summons a Turtle!", "_t")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("%s (wild summon)", "%s (wild summon)", "tformat")
 t([[Summon a Turtle for %d turns to distract your foes. Turtles are resilient, but not very powerful. However, they will periodically force any foes to attack them, and can protect themselves with their shell.
 		It will get %d Constitution, %d Dexterity and 18 willpower.
@@ -25136,6 +25097,7 @@ section "mod-tome/data/talents/misc/horrors.lua"
 
 t("spell", "contre les sorts", "talent category")
 t("other", "autre", "talent category")
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
 -- nouveau texte
 --[==[
@@ -25181,7 +25143,6 @@ t("@Source@ shows @Target@ the madness of the void.", "@Source@ shows @Target@ t
 t("Shows the target the madness of the void.  Each turn for 6 turns the target must make a mental save or suffer %0.2f mind damage as well as resource damage (based off the mind damage and nature of the resource).", "Shows the target the madness of the void.  Each turn for 6 turns the target must make a mental save or suffer %0.2f mind damage as well as resource damage (based off the mind damage and nature of the resource).", "tformat")
 t("Void Shards", "Void Shards", "talent name")
 t("@Source@ summons void shards.", "@Source@ summons void shards.", "_t")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("void shard", "void shard", "_t")
 t("It looks like a small hole in the fabric of spacetime.", "It looks like a small hole in the fabric of spacetime.", "_t")
 t("Summons %d void shards.  The void shards come into being destabilized and will suffer %0.2f temporal damage each turn for five turns.  If they die while destabilized they'll explode for %0.2f temporal and %0.2f physical damage in a radius of 4.", "Summons %d void shards.  The void shards come into being destabilized and will suffer %0.2f temporal damage each turn for five turns.  If they die while destabilized they'll explode for %0.2f temporal and %0.2f physical damage in a radius of 4.", "tformat")
@@ -25523,6 +25484,7 @@ t("Disarm", "Désarmement", "talent name")
 t("Knockback", "Repoussage", "talent name")
 t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 t("%s resists!", "%s résiste!", "logSeen")
 t("something", "quelque chose", "_t")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
@@ -25571,7 +25533,6 @@ t("Poisonous Bite", "Poisonous Bite", "talent name")
 t("@Source@ bites poison into @target@.", "@Source@ bites poison into @target@.", "_t")
 t("Bites the target (an unarmed attack), doing %d%% damage and injecting it with poison.", "Bites the target (an unarmed attack), doing %d%% damage and injecting it with poison.", "tformat")
 t("Summon", "Summon", "talent name")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("#Source# summons #Target#!", "#Source# summons #Target#!", "logCombat")
 t("Summon allies.", "Summon allies.", "tformat")
 t("Rotting Disease", "Rotting Disease", "talent name")
@@ -26079,6 +26040,7 @@ t("Intermediary for melee retaliation.", "Intermediary for melee retaliation.", 
 ------------------------------------------------
 section "mod-tome/data/talents/misc/races.lua"
 
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 t("treant", "tréant", "_t")
 t("dwarf", "nain", "talent type")
 t("halfling", "halfelin", "talent type")
@@ -26152,7 +26114,6 @@ t([[Thaloren are part of the wood; it shields them from corruption.
 		Increase disease immunity by %d%%, blight resistance by %0.1f%%, and all resistances by %0.1f%%.]], [[Thaloren are part of the wood; it shields them from corruption.
 		Increase disease immunity by %d%%, blight resistance by %0.1f%%, and all resistances by %0.1f%%.]], "tformat")
 t("Nature's Pride", "Nature's Pride", "talent name")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("A very strong near-sentient tree.", "A very strong near-sentient tree.", "_t")
 t([[Nature is with the Thaloren; they can always feel the call of the woods.
 		Summons two elite Treants to your side for 8 turns.
@@ -27423,12 +27384,11 @@ t([[You seek balance between fire and cold based on your current Psi level.
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/thought-forms.lua"
 
-
+t("Not enough space to summon!", "Pas assez d'espace pour invoquer!", "logPlayer")
 -- texte non traduit
 --[==[
 t("thought-form", "thought-form", "_t")
 t("Thought-Form: Bowman", "Thought-Form: Bowman", "talent name")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("thought-forged bowman", "thought-forged bowman", "_t")
 t("A thought-forged bowman.  It appears ready for battle.", "A thought-forged bowman.  It appears ready for battle.", "_t")
 t([[Forge a bowman, clad in leather armor, from your thoughts.  The bowman learns Bow Mastery, Combat Accuracy, Steady Shot, Crippling Shot, and Rapid Shot as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
@@ -28482,6 +28442,7 @@ section "mod-tome/data/talents/spells/golem.lua"
 
 t("Knockback", "Repoussage", "talent name")
 t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
+t("Molten Skin", "Peau Fondue", "talent name")
 -- texte non traduit
 --[==[
 t("Your golem cannot do that currently.", "Your golem cannot do that currently.", "logPlayer")
@@ -28524,7 +28485,6 @@ t([[Your golem's skin shimmers with eldritch energies.
 t("Arcane Pull", "Arcane Pull", "talent name")
 t("#Target# is pulled toward #Source#!", "#Target# is pulled toward #Source#!", "logCombat")
 t("Your golem pulls all foes within radius %d toward itself while dealing %0.2f arcane damage.", "Your golem pulls all foes within radius %d toward itself while dealing %0.2f arcane damage.", "tformat")
-t("Molten Skin", "Molten Skin", "talent name")
 t([[Turns the golem's skin into molten rock. The heat generated sets ablaze everything inside a radius of 3, doing %0.2f fire damage in 3 turns for %d turns.
 		Burning is cumulative; the longer they stay within range, they higher the fire damage they take.
 		In addition the golem gains %d%% fire resistance.
@@ -30645,7 +30605,7 @@ t([[Put all of your strength into your weapon blows, creating shockwaves that de
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/techniques.lua"
 
-
+t("bow", "arc", "_t")
 -- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
@@ -30738,7 +30698,6 @@ t("missile launcher", "missile launcher", "_t")
 t("You require ammo to use this talent.", "You require ammo to use this talent.", "_t")
 t("Your ammo cannot be used.", "Your ammo cannot be used.", "_t")
 t("Your ammo is incompatible with your missile launcher.", "Your ammo is incompatible with your missile launcher.", "_t")
-t("bow", "bow", "_t")
 t("You require a missile launcher and ammo for this talent.", "You require a missile launcher and ammo for this talent.", "_t")
 t("You do not have enough ammo left!", "You do not have enough ammo left!", "logPlayer")
 --]==]
@@ -35327,6 +35286,7 @@ t("acid", "dégâts d'acid", "effect subtype")
 t("arcane", "dégâts d'arcane", "effect subtype")
 t("stun", "assommé", "effect subtype")
 t("fire", "feu", "effect subtype")
+t("Molten Skin", "Peau Fondue", "_t")
 t("lightning", "foudre", "effect subtype")
 t("+Blind", "+Aveuglé", "_t")
 t("confusion", "confus", "effect subtype")
@@ -35401,7 +35361,6 @@ t("#Target# hardens its skin.", "#Target# hardens its skin.", "_t")
 t("+Earthen barrier", "+Earthen barrier", "_t")
 t("#Target#'s skin returns to normal.", "#Target#'s skin returns to normal.", "_t")
 t("-Earthen barrier", "-Earthen barrier", "_t")
-t("Molten Skin", "Molten Skin", "_t")
 t("Reduces fire damage received by %d%%.", "Reduces fire damage received by %d%%.", "tformat")
 t("#Target#'s skin turns into molten lava.", "#Target#'s skin turns into molten lava.", "_t")
 t("+Molten Skin", "+Molten Skin", "_t")
@@ -38447,13 +38406,12 @@ t("Warriors from afar. They wield the power of light, and a mean sword. Darkness
 ------------------------------------------------
 section "mod-tome/data/zones/arena/objects.lua"
 
-
+t("armor", "armure", "entity type")
 -- texte non traduit
 --[==[
 t("Arena for dummies", "Arena for dummies", "entity name")
 t("A note explaining the arena's scoring rules. Someone must have dropped it.", "A note explaining the arena's scoring rules. Someone must have dropped it.", "_t")
 t("a pair of leather boots of disengagement", "a pair of leather boots of disengagement", "entity name")
-t("armor", "armor", "entity type")
 t("feet", "feet", "entity subtype")
 t("A pair of boots made of leather. They seem to be of exceptional quality.", "A pair of boots made of leather. They seem to be of exceptional quality.", "_t")
 t("a pair of leather boots of phasing", "a pair of leather boots of phasing", "entity name")
@@ -38567,11 +38525,10 @@ t("It looks like a giant blood clot. Is that what its creator intended?", "It lo
 ------------------------------------------------
 section "mod-tome/data/zones/blighted-ruins/objects.lua"
 
-
+t("armor", "armure", "entity type")
+t("cloak", "cape", "entity subtype")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
-t("cloak", "cloak", "entity subtype")
 t("Cloak of Deception", "Cloak of Deception", "entity name")
 t("black cloak", "black cloak", "_t")
 t("A black cloak, with subtle illusion enchantments woven into its very fabric.", "A black cloak, with subtle illusion enchantments woven into its very fabric.", "_t")
@@ -39314,10 +39271,9 @@ t("EXECUTE PHASE COMMENCING!", "EXECUTE PHASE COMMENCING!", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/golem-graveyard/objects.lua"
 
-
+t("red", "rouge", "entity subtype")
 -- texte non traduit
 --[==[
-t("red", "red", "entity subtype")
 t("Atamathon's Ruby Eye", "Atamathon's Ruby Eye", "entity name")
 t([[One of the ruby eyes of the legendary giant golem Atamathon.
 It is said it was made by the halflings during the Age of Pyre as a weapon against the orcs. Even though it was destroyed, it managed to deal a crippling blow by killing their leader, Garkul the Devourer.]], [[One of the ruby eyes of the legendary giant golem Atamathon.
@@ -39606,7 +39562,7 @@ t("A creature stands before you, with long tentacle-like appendages and a squat 
 ------------------------------------------------
 section "mod-tome/data/zones/high-peak/objects.lua"
 
-
+t("gem", "gemme", "entity type")
 -- texte non traduit
 --[==[
 t("bloodsoaked diamond", "bloodsoaked diamond", "entity name")
@@ -39628,7 +39584,6 @@ t("absorb the essence (ignoring resistance and bypassing most defenses) of a tar
 t("was absorbed by the %s held by %s", "was absorbed by the %s held by %s", "tformat")
 t("#Source# brandishes %s %s, absorbing the essence of #target#!", "#Source# brandishes %s %s, absorbing the essence of #target#!", "logCombat")
 t("#ORCHID# %d essence drain#LAST#", "#ORCHID# %d essence drain#LAST#", "tformat")
-t("gem", "gem", "entity type")
 t("white", "white", "entity subtype")
 t("Pearl of Life and Death", "Pearl of Life and Death", "entity name")
 t("shining pearl", "shining pearl", "_t")
@@ -40228,19 +40183,19 @@ section "mod-tome/data/zones/old-forest/npcs.lua"
 t("giant", "géant", "entity type")
 t("crystal", "cristal", "entity subtype")
 t("treant", "tréant", "entity subtype")
+t("Wrathroot", "Racine Courroucée", "entity name")
+t("Snaproot", "Racine Cassante", "entity name")
 -- texte non traduit
 --[==[
 t("Shardskin", "Shardskin", "entity name")
 t("This crystalline structure seems to be filled with a malevolent aura. Through the crystal surface you can still see the remains of what once was a huge tree.", "This crystalline structure seems to be filled with a malevolent aura. Through the crystal surface you can still see the remains of what once was a huge tree.", "_t")
 t("and integrated into the crystaline structure", "and integrated into the crystaline structure", "_t")
 t("Have you heard, the old forest seems to have been claimed by a new evil!", "Have you heard, the old forest seems to have been claimed by a new evil!", "_t")
-t("Wrathroot", "Wrathroot", "entity name")
 t("The ancient grey willow tree, ruler of the Old Forest. He despises trespassers in his territory.", "The ancient grey willow tree, ruler of the Old Forest. He despises trespassers in his territory.", "_t")
 t("and digested by treants", "and digested by treants", "_t")
 t("cute little bunny", "cute little bunny", "entity name")
 t("It looks at you with cute little eyes before jumping at you with razor sharp teeth.", "It looks at you with cute little eyes before jumping at you with razor sharp teeth.", "_t")
 t("(how pathetic)", "(how pathetic)", "_t")
-t("Snaproot", "Snaproot", "entity name")
 t("This ancient Treant's bark is scorched almost black. It sees humanity as a scourge, to be purged.", "This ancient Treant's bark is scorched almost black. It sees humanity as a scourge, to be purged.", "_t")
 --]==]
 
@@ -40509,12 +40464,11 @@ t("Norgan and you are the sole survivors of the Reknor expedition; your duty is 
 ------------------------------------------------
 section "mod-tome/data/zones/reknor-escape/objects.lua"
 
-
+t("A small but sharp axe, with a handle made of polished bone.  The blade has chopped through the skulls of many, and has been stained a deep crimson.", "Une hache petite mais tranchante, avec un manche en os poli.  La lame a tranché le crâne de nombreuses personnes et est colorée d'un profond cramoisi.", "_t")
 -- texte non traduit
 --[==[
 t("Fake Skullcleaver", "Fake Skullcleaver", "entity name")
 t("fake crimson waraxe", "fake crimson waraxe", "_t")
-t("A small but sharp axe, with a handle made of polished bone.  The blade has chopped through the skulls of many, and has been stained a deep crimson.", "A small but sharp axe, with a handle made of polished bone.  The blade has chopped through the skulls of many, and has been stained a deep crimson.", "_t")
 --]==]
 
 
@@ -40783,6 +40737,7 @@ section "mod-tome/data/zones/sandworm-lair/objects.lua"
 
 t("blood", "sang", "entity subtype")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
+t("red", "rouge", "entity subtype")
 -- texte non traduit
 --[==[
 t("Song of the Sands", "Song of the Sands", "entity name")
@@ -40808,7 +40763,6 @@ t("drink the vile fluid", "drink the vile fluid", "_t")
 t("#00FFFF#You drink the wyrm bile and feel forever transformed!", "#00FFFF#You drink the wyrm bile and feel forever transformed!", "logPlayer")
 t("You have %d category point(s) to spend. Press p to use them.", "You have %d category point(s) to spend. Press p to use them.", "log")
 t("#00FF00#Your stats have changed! (Str %s, Dex %s, Mag %s, Wil %s, Cun %s, Con %s)", "#00FF00#Your stats have changed! (Str %s, Dex %s, Mag %s, Wil %s, Cun %s, Con %s)", "logPlayer")
-t("red", "red", "entity subtype")
 t("Atamathon's Lost Ruby Eye", "Atamathon's Lost Ruby Eye", "entity name")
 t([[One of the ruby eyes of the legendary giant golem Atamathon.
 It is said it was made by the halflings during the Age of Pyre as a weapon against the orcs. Even though it was destroyed it managed to deal a crippling blow by killing their leader, Garkul the Devourer.]], [[One of the ruby eyes of the legendary giant golem Atamathon.
@@ -41357,11 +41311,10 @@ t("As the shade dissipates, you see no sign of the text entitled \"Inverted and 
 ------------------------------------------------
 section "mod-tome/data/zones/telmur/objects.lua"
 
-
+t("broken staff", "Bâton cassé", "_t")
 -- texte non traduit
 --[==[
 t("Telos's Staff (Bottom Half)", "Telos's Staff (Bottom Half)", "entity name")
-t("broken staff", "broken staff", "_t")
 t("The bottom part of Telos' broken staff.", "The bottom part of Telos' broken staff.", "_t")
 --]==]
 
