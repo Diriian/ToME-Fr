@@ -1981,7 +1981,7 @@ t([[#LIGHT_GREEN#*A gigantic bone giant walks through the main gate.
 #LIGHT_GREEN#You have heard of him. Ryal the Towering, your first obstacle!
 #LIGHT_GREEN#As an eerie blue glow fills where its eyes should be, the undead giant
 #LIGHT_GREEN#roars and multiple bones fly in your general direction!*
-]], [[#LIGHT_GREEN#*Un gigantesque géant d'os traverse la porte principale.
+]], [[#LIGHT_GREEN#*Un gigantesque géant osseux traverse la porte principale.
 #LIGHT_GREEN#Sa forme est complexe et pointue, ressemblant à un dragonnet, mais avec d'innombrables...
 #LIGHT_GREEN#piques à la place des ailes.
 #LIGHT_GREEN#L'énorme mort-vivant vous regarde avec une... intelligence inhabituelle.
@@ -2005,7 +2005,7 @@ t([[#LIGHT_GREEN#*After taking several hits, the undead giant finally succumbs
 #WHITE#Hehehe... bien joué, @playerdescriptor.race@.
 #LIGHT_GREEN#*Ryal se tourne tranquillement vers la porte et part, apparemment indemne*
 ]], "_t")
-t("It was fun, bone giant!", "C'était fun, géant d'os!", "_t")
+t("It was fun, bone giant!", "C'était fun, géant osseux!", "_t")
 t("...what? unharmed?", "...quoi? indemne?", "_t")
 t([[#LIGHT_GREEN#*The wind chills as a young girl walks calmly through the gate.
 #LIGHT_GREEN#She looks surprisingly young, with extremely pale skin and contrasting
@@ -2294,7 +2294,7 @@ section "mod-tome/data/chats/avatar-distant-sun.chat"
 
 t("#YELLOW#YOU ARE A CURIOUS ONE.", "#YELLOW#VOUS ÊTES UN CURIEUX.", "chat")
 t("#YELLOW#YOU HAVE MADE THE RIGHT CHOICE. TOGETHER, WE SHALL BRING ABOUT THE DESTRUCTION OF OUR ENEMIES.", "#YELLOW#VOUS AVEZ FAIT LE BON CHOIX. ENSEMBLE, NOUS ALLONS PROVOQUER LA DESTRUCTION DE NOS ENNEMIS.", "chat")
-t("#GOLD#[you are now an Avatar of a Distant Sun]", "#GOLD#[Vous êtes maintenant un Avatar d'un Soleil Lointain.]", "chat")
+t("#GOLD#[you are now an Avatar of a Distant Sun]", "#GOLD#[Vous êtes maintenant l'Avatar d'un Soleil Lointain.]", "chat")
 t("Yes, give me your power!", "Oui, donnez-moi votre pouvoir !", "chat")
 t([[<<<You feel the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
 #YELLOW#I AM HERE. DO YOU DESIRE TO SMITE EVIL, DESTROY THE DARKNESS AND SCOUR THE EARTH? I SHALL AID YOU IN THIS QUEST. TOGETHER, WE WILL BE UNSTOPPABLE. ALL DARKNESS SHALL BE CONSUMED BY OUR LIGHT.
@@ -7278,7 +7278,7 @@ t("You can see your own image mirrored in the surface of this silvery rune.", "V
 t("shiny rune", "rune brillante", "_t")
 t("The Gaping Maw", "La Gueule Béante", "entity name")
 t("huge granite battleaxe", "énorme hache de bataille en granit", "_t")
-t("This huge granite battleaxe is as much mace as it is axe.  The shaft is made of blackened wood tightly bound in drakeskin leather and the sharpened granite head glistens with a viscous green fluid.", "Cette énorme hache de bataille en granit est autant une masse qu'une hache.  Le manche est fait de bois noirci étroitement lié à du cuir de daim et la tête de granit aiguisée brille d'un fluide vert visqueux.", "_t")
+t("This huge granite battleaxe is as much mace as it is axe.  The shaft is made of blackened wood tightly bound in drakeskin leather and the sharpened granite head glistens with a viscous green fluid.", "Cette énorme hache de bataille en granit est autant une masse qu'une hache.  Le manche est fait de bois noirci étroitement lié à du cuir de dragonnet et la tête de granit aiguisée brille d'un fluide vert visqueux.", "_t")
 t("deal manaburn damage equal to your mindpower in a radius 3 cone", "inflige des dégâts de brûlure de mana égal à votre puissance mentale dans un cône de rayon 3.", "_t")
 t("#DARK_GREEN#You feel like Nature's Wrath incarnate!", "#DARK_GREEN#Vous vous sentez comme étant l'incarnation de la colère de la nature!", "logPlayer")
 
@@ -8958,130 +8958,126 @@ t("corrosion", "corrosion", "entity keyword")
 section "mod-tome/data/general/objects/elixir-ingredients.lua"
 
 t("misc", "divers", "entity type")
+t("ingredient", "ingrédient", "entity subtype")
+t("length of troll intestine", "une longueur d'intestin troll", "entity name")
+t("troll guts", "boyaux de troll", "_t")
+t("A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "Une longueur d'intestins de troll. Heureusement, le troll semble n'avoir rien mangé depuis un certain temps.", "_t")
+t("skeleton mage skull", "crâne de mage squelette", "entity name")
+t("battered skull", "crâne défoncé", "_t")
+t("The skull of a skeleton mage. The eyes have stopped glowing... for now.", "Le crâne d'un mage squelette. Les yeux ont cessé de briller... pour l'instant.", "_t")
+t("ritch stinger", "Dard de ritch", "entity name")
+t("giant stinger", "dard géant", "_t")
+t("A ritch stinger, still glistening with venom.", "Un dard de ritch, toujours scintillant de venin.", "_t")
+t("orc heart", "coeur d'orc", "entity name")
+t("heart", "coeur", "_t")
+t("The heart of an orc. Perhaps surprisingly, it isn't green.", "Le cœur d'un orc. De façon surprenante, il n'est pas vert.", "_t")
+t("naga tongue", "langue de naga", "entity name")
+t("naga tongue", "langue de naga", "_t")
+t("A severed naga tongue. It reeks of brine.", "Une langue de naga coupée. Ça pue la saumure.", "_t")
+t("vial of greater demon bile", "fiole de bile de démon supérieure", "entity name")
+t("demon bile", "bile de démon", "_t")
+t("A vial of greater demon bile. It hurts your sinuses even with the vial's stopper firmly in place.", "Une fiole de bile de démon supérieur. Ça fait mal aux sinus même si le bouchon de la fiole est bien en place.", "_t")
+t("pouch of bone giant dust", "sachet de poussière de géant osseux", "entity name")
+t("bone giant dust", "poussière de géant osseux", "_t")
+t("Once the magics animating the bone giant fled, its remains crumbled to dust. It might be your imagination, but it looks like the dust occasionally stirs on its own.", "Une fois que la magie qui animait le géant osseux a disparu, ses restes se sont réduits en poussière. C'est peut-être votre imagination, mais on dirait que la poussière s'agite de temps en temps toute seule.", "_t")
+t("ice ant stinger", "dard de fourmi de glace", "entity name")
+t("stinger", "dard", "_t")
+t("Wickedly sharp and still freezing cold.", "Très pointu et toujours aussi glacial.", "_t")
+t("minotaur nose", "nez de minotaure", "entity name")
+t("minotaur nose", "nez de minotaure", "_t")
+t("The severed front half of a minotaur snout, ring and all.", "La moitié avant coupée du museau d'un minotaure, l'anneau et tout.", "_t")
+t("vial of elder vampire blood", "flacon de sang d'ancien vampire", "entity name")
+t("black blood", "sang noir", "_t")
+t("Thick, clotted, and foul. The vial is cold to the touch.", "Épais, coagulé et fétide. La fiole est froide au toucher.", "_t")
+t("multi-hued wyrm scale", "écaille de ver multicolor", "entity name")
+t("shimmering scale", "écaille chatoyante", "_t")
+t("Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "Magnifique et presque impénétrable. La séparer du dragon a dû être un travail difficile.", "_t")
+t("giant spider spinneret", "filière d'araignée géante", "entity name")
+t("spinneret", "filière", "_t")
+t("An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orifice.", "Un horrible morceau déchiré d'araignée géante. Des bouts de soie sortent d'un orifice.", "_t")
+t("honey tree root", "racine d'arbre à miel", "entity name")
+t("dirty root", "racine sale", "_t")
+t("The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "L'extrémité coupée d'une des racines d'un arbre à miel. Elle se tortille de temps en temps, ne semblant pas vouloir admettre qu'elle est morte... et qu'elle est une *plante*.", "_t")
+t("bloated horror heart", "coeur d'horreur bouffie", "entity name")
+t("Diseased-looking and reeking. It seems to be decaying as you watch.", "L'air malade et puant. Il semble se décomposer pendant que vous le regardez.", "_t")
+t("electric eel tail", "queue d'anguille électrique", "entity name")
+t("eel tail", "queue d'anguille", "_t")
+t("Slimy, wriggling, and crackling with electricity.", "Frétillante, visqueuse, et crépitante d'électricité.", "_t")
+t("vial of squid ink", "fiole d'encre de calmar", "entity name")
+t("black liquid", "liquide noir", "_t")
+t("Thick, black and opaque.", "Épais, noir et opaque.", "_t")
+t("bear paw", "patte d'ours", "entity name")
+t("large, clawed paw", "grande patte griffue", "_t")
+t("Large and hairy with flesh-rending claws. It smells slightly of fish.", "Grand et poilu avec des griffes déchirant la chair. Elle sent légèrement le poisson.", "_t")
+t("ice wyrm tooth", "dent de ver de glace", "entity name")
+t("tooth", "dent", "_t")
+t("This tooth has been blunted with age, but still looks more than capable of doing its job.", "Cette dent a été émoussée par l'âge, mais elle semble toujours plus que capable de faire son travail.", "_t")
+t("red crystal shard", "éclat de cristal rouge", "entity name")
+t("red crystal shard", "éclat de cristal rouge", "_t")
+t("Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "De minuscules flammes dansent encore de manière éthérée à l'intérieur de ce cristal transparent, bien que sa chaleur semble s'être évanouie... vous l'espérez.", "_t")
+t("vial of fire wyrm saliva", "flacon de salive de ver de feu", "entity name")
+t("wyrm saliva", "salive de ver", "_t")
+t("Clear and slightly thicker than water. It froths when shaken.", "Transparent et légèrement plus épais que l'eau. Elle mousse lorsqu'on la secoue.", "_t")
+t("chunk of ghoul flesh", "morceau de chair de goule", "entity name")
+t("chunk of rotten flesh", "morceau de chair pourrie", "_t")
+t("Rotten and reeking. It still twitches occasionally.", "Pourri et puant. Ça bouge encore de temps en temps.", "_t")
+t("mummified bone", "os momifié", "entity name")
+t("dry, flesh-encrusted bone", "os sec, incrusté de chair", "_t")
+t("Bits of dry flesh still cling to this ancient bone.", "Des morceaux de chair sèche s'accrochent encore à cet ancien os.", "_t")
+t("sandworm tooth", "dent de ver de sable", "entity name")
+t("small, pointed tooth", "dent petite et pointue", "_t")
+t("Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "Minuscule, gris foncé, et méchamment pointu. Ça ressemble plus à de la roche qu'à de l'os.", "_t")
+t("black mamba head", "tête de mamba noir", "entity name")
+t("snake head", "tête de serpent", "_t")
+t("Unlike the rest of the black mamba, the severed head isn't moving.", "Contrairement au reste du mamba noir, la tête coupée ne bouge pas.", "_t")
+t("snow giant kidney", "rein de géant des neiges", "entity name")
+t("kidney", "rein", "_t")
+t("As unpleasant-looking as any exposed organ.", "Aussi désagréable à regarder que n'importe quel organe à découvert.", "_t")
+t("storm wyrm claw", "griffe de ver de l'orage", "entity name")
+t("claw", "griffe", "_t")
+t("Bluish and wickedly sharp. It makes your arm hair stand on end.", "Bleuâtre et méchamment pointu. Ça fait dresser les poils de vos bras.", "_t")
+t("green worm", "ver vert", "entity name")
+t("dead green worm", "ver vert mort", "_t")
+t("A dead green worm, painstakingly separated from its tangle of companions.", "Un ver vert mort, minutieusement séparé de son enchevêtrement de compagnons.", "_t")
+t("vial of wight ectoplasm", "fiole d'ectoplasme de nécrophage", "entity name")
+t("viscous slime", "bave visqueuse", "_t")
+t("Cloudy and thick. Only by bottling it can you prevent it from evaporating within minutes.", "Nuageux et épais. Ce n'est qu'en le mettant en bouteille que vous pouvez l'empêcher de s'évaporer en quelques minutes.", "_t")
+t("xorn fragment", "fragment de xorn", "entity name")
+t("chunk of stone", "morceau de pierre", "_t")
+t("Looks much like any other rock, though this one was recently sentient and trying to murder you.", "Il ressemble à n'importe quel autre rocher, bien que celui-ci ait été récemment doué de conscience et ait essayé de vous tuer.", "_t")
+t("warg claw", "griffe de loup géant", "entity name")
+t("Unpleasantly large and sharp for a canine's claw.", "Désagréablement grande et pointue pour une griffe de canidé.", "_t")
+t("pouch of faeros ash", "sachet de cendres de feuros", "entity name")
 t("ash", "frêne", "_t")
+t("Unremarkable grey ash.", "Cendre grise banale.", "_t")
+t("wretchling eyeball", "globe oculaire maléfique", "entity name")
+t("eyeball", "globe oculaire", "_t")
+t("Small and bloodshot. Its dead gaze still burns your skin.", "Petit et injecté de sang. Son regard mortel brûle encore votre peau.", "_t")
+t("faerlhing fang", "croc de faerlhing", "entity name")
 t("fang", "croc", "_t")
--- texte non traduit
---[==[
-t("ingredient", "ingredient", "entity subtype")
-t("length of troll intestine", "length of troll intestine", "entity name")
-t("troll guts", "troll guts", "_t")
-t("A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "_t")
-t("skeleton mage skull", "skeleton mage skull", "entity name")
-t("battered skull", "battered skull", "_t")
-t("The skull of a skeleton mage. The eyes have stopped glowing... for now.", "The skull of a skeleton mage. The eyes have stopped glowing... for now.", "_t")
-t("ritch stinger", "ritch stinger", "entity name")
-t("giant stinger", "giant stinger", "_t")
-t("A ritch stinger, still glistening with venom.", "A ritch stinger, still glistening with venom.", "_t")
-t("orc heart", "orc heart", "entity name")
-t("heart", "heart", "_t")
-t("The heart of an orc. Perhaps surprisingly, it isn't green.", "The heart of an orc. Perhaps surprisingly, it isn't green.", "_t")
-t("naga tongue", "naga tongue", "entity name")
-t("naga tongue", "naga tongue", "_t")
-t("A severed naga tongue. It reeks of brine.", "A severed naga tongue. It reeks of brine.", "_t")
-t("vial of greater demon bile", "vial of greater demon bile", "entity name")
-t("demon bile", "demon bile", "_t")
-t("A vial of greater demon bile. It hurts your sinuses even with the vial's stopper firmly in place.", "A vial of greater demon bile. It hurts your sinuses even with the vial's stopper firmly in place.", "_t")
-t("pouch of bone giant dust", "pouch of bone giant dust", "entity name")
-t("bone giant dust", "bone giant dust", "_t")
-t("Once the magics animating the bone giant fled, its remains crumbled to dust. It might be your imagination, but it looks like the dust occasionally stirs on its own.", "Once the magics animating the bone giant fled, its remains crumbled to dust. It might be your imagination, but it looks like the dust occasionally stirs on its own.", "_t")
-t("ice ant stinger", "ice ant stinger", "entity name")
-t("stinger", "stinger", "_t")
-t("Wickedly sharp and still freezing cold.", "Wickedly sharp and still freezing cold.", "_t")
-t("minotaur nose", "minotaur nose", "entity name")
-t("minotaur nose", "minotaur nose", "_t")
-t("The severed front half of a minotaur snout, ring and all.", "The severed front half of a minotaur snout, ring and all.", "_t")
-t("vial of elder vampire blood", "vial of elder vampire blood", "entity name")
-t("black blood", "black blood", "_t")
-t("Thick, clotted, and foul. The vial is cold to the touch.", "Thick, clotted, and foul. The vial is cold to the touch.", "_t")
-t("multi-hued wyrm scale", "multi-hued wyrm scale", "entity name")
-t("shimmering scale", "shimmering scale", "_t")
-t("Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "_t")
-t("giant spider spinneret", "giant spider spinneret", "entity name")
-t("spinneret", "spinneret", "_t")
-t("An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orifice.", "An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orifice.", "_t")
-t("honey tree root", "honey tree root", "entity name")
-t("dirty root", "dirty root", "_t")
-t("The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "_t")
-t("bloated horror heart", "bloated horror heart", "entity name")
-t("Diseased-looking and reeking. It seems to be decaying as you watch.", "Diseased-looking and reeking. It seems to be decaying as you watch.", "_t")
-t("electric eel tail", "electric eel tail", "entity name")
-t("eel tail", "eel tail", "_t")
-t("Slimy, wriggling, and crackling with electricity.", "Slimy, wriggling, and crackling with electricity.", "_t")
-t("vial of squid ink", "vial of squid ink", "entity name")
-t("black liquid", "black liquid", "_t")
-t("Thick, black and opaque.", "Thick, black and opaque.", "_t")
-t("bear paw", "bear paw", "entity name")
-t("large, clawed paw", "large, clawed paw", "_t")
-t("Large and hairy with flesh-rending claws. It smells slightly of fish.", "Large and hairy with flesh-rending claws. It smells slightly of fish.", "_t")
-t("ice wyrm tooth", "ice wyrm tooth", "entity name")
-t("tooth", "tooth", "_t")
-t("This tooth has been blunted with age, but still looks more than capable of doing its job.", "This tooth has been blunted with age, but still looks more than capable of doing its job.", "_t")
-t("red crystal shard", "red crystal shard", "entity name")
-t("red crystal shard", "red crystal shard", "_t")
-t("Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "_t")
-t("vial of fire wyrm saliva", "vial of fire wyrm saliva", "entity name")
-t("wyrm saliva", "wyrm saliva", "_t")
-t("Clear and slightly thicker than water. It froths when shaken.", "Clear and slightly thicker than water. It froths when shaken.", "_t")
-t("chunk of ghoul flesh", "chunk of ghoul flesh", "entity name")
-t("chunk of rotten flesh", "chunk of rotten flesh", "_t")
-t("Rotten and reeking. It still twitches occasionally.", "Rotten and reeking. It still twitches occasionally.", "_t")
-t("mummified bone", "mummified bone", "entity name")
-t("dry, flesh-encrusted bone", "dry, flesh-encrusted bone", "_t")
-t("Bits of dry flesh still cling to this ancient bone.", "Bits of dry flesh still cling to this ancient bone.", "_t")
-t("sandworm tooth", "sandworm tooth", "entity name")
-t("small, pointed tooth", "small, pointed tooth", "_t")
-t("Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "_t")
-t("black mamba head", "black mamba head", "entity name")
-t("snake head", "snake head", "_t")
-t("Unlike the rest of the black mamba, the severed head isn't moving.", "Unlike the rest of the black mamba, the severed head isn't moving.", "_t")
-t("snow giant kidney", "snow giant kidney", "entity name")
-t("kidney", "kidney", "_t")
-t("As unpleasant-looking as any exposed organ.", "As unpleasant-looking as any exposed organ.", "_t")
-t("storm wyrm claw", "storm wyrm claw", "entity name")
-t("claw", "claw", "_t")
-t("Bluish and wickedly sharp. It makes your arm hair stand on end.", "Bluish and wickedly sharp. It makes your arm hair stand on end.", "_t")
-t("green worm", "green worm", "entity name")
-t("dead green worm", "dead green worm", "_t")
-t("A dead green worm, painstakingly separated from its tangle of companions.", "A dead green worm, painstakingly separated from its tangle of companions.", "_t")
-t("vial of wight ectoplasm", "vial of wight ectoplasm", "entity name")
-t("viscous slime", "viscous slime", "_t")
-t("Cloudy and thick. Only by bottling it can you prevent it from evaporating within minutes.", "Cloudy and thick. Only by bottling it can you prevent it from evaporating within minutes.", "_t")
-t("xorn fragment", "xorn fragment", "entity name")
-t("chunk of stone", "chunk of stone", "_t")
-t("Looks much like any other rock, though this one was recently sentient and trying to murder you.", "Looks much like any other rock, though this one was recently sentient and trying to murder you.", "_t")
-t("warg claw", "warg claw", "entity name")
-t("Unpleasantly large and sharp for a canine's claw.", "Unpleasantly large and sharp for a canine's claw.", "_t")
-t("pouch of faeros ash", "pouch of faeros ash", "entity name")
-t("Unremarkable grey ash.", "Unremarkable grey ash.", "_t")
-t("wretchling eyeball", "wretchling eyeball", "entity name")
-t("eyeball", "eyeball", "_t")
-t("Small and bloodshot. Its dead gaze still burns your skin.", "Small and bloodshot. Its dead gaze still burns your skin.", "_t")
-t("faerlhing fang", "faerlhing fang", "entity name")
-t("It still drips venom and crackles with magical energy.", "It still drips venom and crackles with magical energy.", "_t")
-t("vampire lord fang", "vampire lord fang", "entity name")
-t("Brilliantly white, but surrounded by blackest magic.", "Brilliantly white, but surrounded by blackest magic.", "_t")
-t("hummerhorn wing", "hummerhorn wing", "entity name")
-t("translucent insect wing", "translucent insect wing", "_t")
-t("Translucent and delicate-looking, but surprisingly durable.", "Translucent and delicate-looking, but surprisingly durable.", "_t")
-t("pouch of luminous horror dust", "pouch of luminous horror dust", "entity name")
-t("glowing dust", "glowing dust", "_t")
-t("Weightless and glowing; not your usual dust.", "Weightless and glowing; not your usual dust.", "_t")
---]==]
-
+t("It still drips venom and crackles with magical energy.", "Il dégouline toujours de venin et crépite d'énergie magique.", "_t")
+t("vampire lord fang", "croc de seigneur vampire", "entity name")
+t("Brilliantly white, but surrounded by blackest magic.", "D'un blanc éclatant, mais entouré de la magie la plus noire.", "_t")
+t("hummerhorn wing", "ailes de guêpe géante", "entity name")
+t("translucent insect wing", "aile d'insecte translucide", "_t")
+t("Translucent and delicate-looking, but surprisingly durable.", "Translucide et d'apparence délicate, mais étonnamment durable.", "_t")
+t("pouch of luminous horror dust", "pochette de poussière d'horreur lumineuse", "entity name")
+t("glowing dust", "poussière lumineuse", "_t")
+t("Weightless and glowing; not your usual dust.", "Légère et lumineuse, pas votre poussière habituelle.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/gauntlets.lua"
 
 t("armor", "armure", "entity type")
+t("hands", "mains", "entity subtype")
+t("Metal gloves protecting the hands up to the middle of the lower arm.", "Gants en métal protégeant les mains jusqu'au milieu de l'avant-bras.", "_t")
+t("iron gauntlets", "gantelets en fer", "entity name")
 t("iron", "fer", "entity short_name")
+t("dwarven-steel gauntlets", "gantelets en acier nain", "entity name")
 t("d.steel", "acier.n", "entity short_name")
+t("voratun gauntlets", "gantelets en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("hands", "hands", "entity subtype")
-t("Metal gloves protecting the hands up to the middle of the lower arm.", "Metal gloves protecting the hands up to the middle of the lower arm.", "_t")
-t("iron gauntlets", "iron gauntlets", "entity name")
-t("dwarven-steel gauntlets", "dwarven-steel gauntlets", "entity name")
-t("voratun gauntlets", "voratun gauntlets", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -9090,70 +9086,70 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/gem.lua"
 
 t("gem", "gemme", "entity type")
+t("white", "blanc", "entity subtype")
+t("Gems can be sold for money or used in arcane rituals.", "Les gemmes peuvent être vendues pour de l'argent ou utilisées dans des rituels arcaniques.", "_t")
+t("color", "couleur", "entity subtype")
+t("alchemist-gem", "gemme d'alchimiste", "entity type")
+t("diamond", "diamant", "entity name")
+t("alchemist diamond", "diamant d'alchimiste", "entity name")
+t("pearl", "perle", "entity name")
+t("alchemist pearl", "perle d'alchimiste", "entity name")
+t("Lights terrain (power 100)", "Terrain éclairé (puissance 100)", "_t")
+t("moonstone", "pierre de lune", "entity name")
+t("alchemist moonstone", "pierre de lune d'alchimiste", "entity name")
+t("fire opal", "opale de feu", "entity name")
+t("alchemist fire opal", "opale de feu d'alchimiste", "entity name")
 t("red", "rouge", "entity subtype")
+t("bloodstone", "pierre de sang", "entity name")
+t("alchemist bloodstone", "pierre de sang d'alchimiste", "entity name")
+t("ruby", "rubis", "entity name")
+t("alchemist ruby", "rubis d'alchimiste", "entity name")
+t("amber", "ambre", "entity name")
+t("alchemist amber", "ambre d'alchimiste", "entity name")
+t("yellow", "jaune", "entity subtype")
+t("alchemist turquoise", "turquoise d'alchimiste", "entity name")
 t("green", "vert", "entity subtype")
+t("alchemist jade", "jade d'alchimiste", "entity name")
+t("Slows by 17%", "Ralentissement de 17 %.", "_t")
+t("sapphire", "saphir", "entity name")
+t("alchemist sapphire", "saphir d'alchimiste", "entity name")
+t("blue", "bleu", "entity subtype")
+t("alchemist quartz", "quartz d'alchimiste", "entity name")
+t("emerald", "émeraude", "entity name")
+t("alchemist emerald", "émeraude d'alchimiste", "entity name")
+t("lapis lazuli", "lapis-lazuli", "entity name")
+t("alchemist lapis lazuli", "lapis-lazuli d'alchimiste", "entity name")
+t("garnet", "grenat", "entity name")
+t("alchemist garnet", "grenat d'alchimiste", "entity name")
+t("alchemist onyx", "onyx d'alchimiste", "entity name")
+t("black", "noir", "entity subtype")
+t("amethyst", "améthyste", "entity name")
+t("alchemist amethyst", "améthyste d'alchimiste", "entity name")
+t("opal", "opale", "entity name")
+t("alchemist opal", "opale d'alchimiste", "entity name")
+t("topaz", "topaze", "entity name")
+t("alchemist topaz", "topaze d'alchimiste", "entity name")
+t("aquamarine", "aigue-marine", "entity name")
+t("alchemist aquamarine", "aigue-marine d'alchimiste", "entity name")
+t("ametrine", "amétrine", "entity name")
+t("alchemist ametrine", "amétrine d'alchimiste", "entity name")
+t("Lights terrain (power 10)", "Terrain éclairé (puissance 10)", "_t")
+t("alchemist zircon", "zircon d'alchimiste", "entity name")
+t("spinel", "spinelle", "entity name")
+t("alchemist spinel", "spinelle d'alchimiste", "entity name")
+t("alchemist citrine", "citrine d'alchimiste", "entity name")
+t("alchemist agate", "agate d'alchimiste", "entity name")
 -- texte non traduit
 --[==[
-t("white", "white", "entity subtype")
-t("Gems can be sold for money or used in arcane rituals.", "Gems can be sold for money or used in arcane rituals.", "_t")
-t("color", "color", "entity subtype")
 t("..", "..", "entity name")
-t("alchemist-gem", "alchemist-gem", "entity type")
-t("diamond", "diamond", "entity name")
-t("alchemist diamond", "alchemist diamond", "entity name")
-t("pearl", "pearl", "entity name")
-t("alchemist pearl", "alchemist pearl", "entity name")
-t("Lights terrain (power 100)", "Lights terrain (power 100)", "_t")
-t("moonstone", "moonstone", "entity name")
-t("alchemist moonstone", "alchemist moonstone", "entity name")
-t("fire opal", "fire opal", "entity name")
-t("alchemist fire opal", "alchemist fire opal", "entity name")
-t("bloodstone", "bloodstone", "entity name")
-t("alchemist bloodstone", "alchemist bloodstone", "entity name")
-t("ruby", "ruby", "entity name")
-t("alchemist ruby", "alchemist ruby", "entity name")
-t("amber", "amber", "entity name")
-t("alchemist amber", "alchemist amber", "entity name")
-t("yellow", "yellow", "entity subtype")
 t("turquoise", "turquoise", "entity name")
-t("alchemist turquoise", "alchemist turquoise", "entity name")
 t("jade", "jade", "entity name")
-t("alchemist jade", "alchemist jade", "entity name")
-t("Slows by 17%", "Slows by 17%", "_t")
-t("sapphire", "sapphire", "entity name")
-t("alchemist sapphire", "alchemist sapphire", "entity name")
-t("blue", "blue", "entity subtype")
 t("quartz", "quartz", "entity name")
-t("alchemist quartz", "alchemist quartz", "entity name")
-t("emerald", "emerald", "entity name")
-t("alchemist emerald", "alchemist emerald", "entity name")
-t("lapis lazuli", "lapis lazuli", "entity name")
-t("alchemist lapis lazuli", "alchemist lapis lazuli", "entity name")
-t("garnet", "garnet", "entity name")
-t("alchemist garnet", "alchemist garnet", "entity name")
 t("onyx", "onyx", "entity name")
-t("alchemist onyx", "alchemist onyx", "entity name")
-t("black", "black", "entity subtype")
-t("amethyst", "amethyst", "entity name")
-t("alchemist amethyst", "alchemist amethyst", "entity name")
 t("violet", "violet", "entity subtype")
-t("opal", "opal", "entity name")
-t("alchemist opal", "alchemist opal", "entity name")
-t("topaz", "topaz", "entity name")
-t("alchemist topaz", "alchemist topaz", "entity name")
-t("aquamarine", "aquamarine", "entity name")
-t("alchemist aquamarine", "alchemist aquamarine", "entity name")
-t("ametrine", "ametrine", "entity name")
-t("alchemist ametrine", "alchemist ametrine", "entity name")
-t("Lights terrain (power 10)", "Lights terrain (power 10)", "_t")
 t("zircon", "zircon", "entity name")
-t("alchemist zircon", "alchemist zircon", "entity name")
-t("spinel", "spinel", "entity name")
-t("alchemist spinel", "alchemist spinel", "entity name")
 t("citrine", "citrine", "entity name")
-t("alchemist citrine", "alchemist citrine", "entity name")
 t("agate", "agate", "entity name")
-t("alchemist agate", "alchemist agate", "entity name")
 --]==]
 
 
@@ -9161,36 +9157,32 @@ t("alchemist agate", "alchemist agate", "entity name")
 section "mod-tome/data/general/objects/gloves.lua"
 
 t("armor", "armure", "entity type")
+t("hands", "mains", "entity subtype")
+t("Light gloves which do not seriously hinder finger movements, while still protecting the hands somewhat.", "Des gants légers qui n'entravent pas sérieusement les mouvements des doigts, tout en protégeant un peu les mains.", "_t")
+t("rough leather gloves", "gants en cuir brut", "entity name")
+t("rough", "brut", "entity short_name")
+t("hardened leather gloves", "gants en cuir durci", "entity name")
 t("hardened", "endurci", "entity short_name")
--- texte non traduit
---[==[
-t("hands", "hands", "entity subtype")
-t("Light gloves which do not seriously hinder finger movements, while still protecting the hands somewhat.", "Light gloves which do not seriously hinder finger movements, while still protecting the hands somewhat.", "_t")
-t("rough leather gloves", "rough leather gloves", "entity name")
-t("rough", "rough", "entity short_name")
-t("hardened leather gloves", "hardened leather gloves", "entity name")
-t("drakeskin leather gloves", "drakeskin leather gloves", "entity name")
-t("drakeskin", "drakeskin", "entity short_name")
---]==]
-
+t("drakeskin leather gloves", "gants en cuir de dragonnet", "entity name")
+t("drakeskin", "cuir de dragonnet", "entity short_name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/heavy-armors.lua"
 
 t("armor", "armure", "entity type")
+t("heavy", "lourde", "entity subtype")
+t("A suit of armour made of mail.", "Une armure composée de mailles.", "_t")
+t("iron mail armour", "cotte de mailles en fer", "entity name")
 t("iron", "fer", "entity short_name")
+t("steel mail armour", "cotte de mailles en acier", "entity name")
 t("steel", "acier", "entity short_name")
+t("dwarven-steel mail armour", "cotte de mailles en acier nain", "entity name")
 t("d.steel", "acier.n", "entity short_name")
+t("stralite mail armour", "cotte de mailles en stralite", "entity name")
+t("voratun mail armour", "cotte de mailles en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("heavy", "heavy", "entity subtype")
-t("A suit of armour made of mail.", "A suit of armour made of mail.", "_t")
-t("iron mail armour", "iron mail armour", "entity name")
-t("steel mail armour", "steel mail armour", "entity name")
-t("dwarven-steel mail armour", "dwarven-steel mail armour", "entity name")
-t("stralite mail armour", "stralite mail armour", "entity name")
 t("stralite", "stralite", "entity short_name")
-t("voratun mail armour", "voratun mail armour", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -9199,15 +9191,15 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/heavy-boots.lua"
 
 t("armor", "armure", "entity type")
+t("feet", "pieds", "entity subtype")
+t("Heavy boots, with metal strips at the toes, heels and other vulnerable parts, to better protect the wearer's feet from harm.", "Des bottes lourdes, avec des bandes métalliques au niveau des orteils, des talons et d'autres parties vulnérables, pour mieux protéger les pieds du porteur.", "_t")
+t("pair of iron boots", "paire de bottes en fer", "entity name")
 t("iron", "fer", "entity short_name")
+t("pair of dwarven-steel boots", "paire de bottes en acier nain", "entity name")
 t("d.steel", "acier.n", "entity short_name")
+t("pair of voratun boots", "paire de bottes en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("feet", "feet", "entity subtype")
-t("Heavy boots, with metal strips at the toes, heels and other vulnerable parts, to better protect the wearer's feet from harm.", "Heavy boots, with metal strips at the toes, heels and other vulnerable parts, to better protect the wearer's feet from harm.", "_t")
-t("pair of iron boots", "pair of iron boots", "entity name")
-t("pair of dwarven-steel boots", "pair of dwarven-steel boots", "entity name")
-t("pair of voratun boots", "pair of voratun boots", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -9216,15 +9208,15 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/helms.lua"
 
 t("armor", "armure", "entity type")
+t("head", "tête", "entity subtype")
+t("A large helmet that can protect the entire head. Ventilation and bad vision can be a problem, however.", "Un casque de grande taille qui peut protéger toute la tête. La ventilation et la mauvaise vision peuvent toutefois poser problème.", "_t")
+t("iron helm", "casque en fer", "entity name")
 t("iron", "fer", "entity short_name")
+t("dwarven-steel helm", "casque en acier nain", "entity name")
 t("d.steel", "acier.n", "entity short_name")
+t("voratun helm", "casque en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("head", "head", "entity subtype")
-t("A large helmet that can protect the entire head. Ventilation and bad vision can be a problem, however.", "A large helmet that can protect the entire head. Ventilation and bad vision can be a problem, however.", "_t")
-t("iron helm", "iron helm", "entity name")
-t("dwarven-steel helm", "dwarven-steel helm", "entity name")
-t("voratun helm", "voratun helm", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -9232,38 +9224,38 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/jewelry.lua"
 
+t("jewelry", "bijoux", "entity type")
+t("ring", "anneau", "entity subtype")
+t("Rings make your fingers look great!", "Les anneaux donnent de l'allure à vos doigts!", "_t")
+t("amulet", "amulette", "entity subtype")
+t("Amulets make your neck look great!", "Les amulettes donnent de l'allure à votre cou!", "_t")
+t("copper ring", "anneau en cuivre", "entity name")
+t("copper", "cuivre", "entity short_name")
+t("copper ring", "anneau en cuivre", "_t")
+t("steel ring", "anneau en acier", "entity name")
 t("steel", "acier", "entity short_name")
+t("steel ring", "anneau en acier", "_t")
+t("gold ring", "anneau en or", "entity name")
+t("gold", "or", "entity short_name")
+t("gold ring", "anneau en or", "_t")
+t("stralite ring", "anneau en stralite", "entity name")
+t("stralite ring", "anneau en stralite", "_t")
+t("voratun ring", "anneau en voratun", "entity name")
+t("voratun ring", "anneau en voratun", "_t")
+t("copper amulet", "amulette en cuivre", "entity name")
+t("copper amulet", "amulette en cuivre", "_t")
+t("steel amulet", "amulette en acier", "entity name")
+t("steel amulet", "amulette en acier", "_t")
+t("gold amulet", "amulette en or", "entity name")
+t("gold amulet", "amulette en or", "_t")
+t("stralite amulet", "amulette en stralite", "entity name")
+t("stralite amulet", "amulette en stralite", "_t")
+t("voratun amulet", "amulette en voratun", "entity name")
+t("voratun amulet", "amulette en voratun", "_t")
 -- texte non traduit
 --[==[
-t("jewelry", "jewelry", "entity type")
-t("ring", "ring", "entity subtype")
-t("Rings make your fingers look great!", "Rings make your fingers look great!", "_t")
-t("amulet", "amulet", "entity subtype")
-t("Amulets make your neck look great!", "Amulets make your neck look great!", "_t")
-t("copper ring", "copper ring", "entity name")
-t("copper", "copper", "entity short_name")
-t("copper ring", "copper ring", "_t")
-t("steel ring", "steel ring", "entity name")
-t("steel ring", "steel ring", "_t")
-t("gold ring", "gold ring", "entity name")
-t("gold", "gold", "entity short_name")
-t("gold ring", "gold ring", "_t")
-t("stralite ring", "stralite ring", "entity name")
 t("stralite", "stralite", "entity short_name")
-t("stralite ring", "stralite ring", "_t")
-t("voratun ring", "voratun ring", "entity name")
 t("voratun", "voratun", "entity short_name")
-t("voratun ring", "voratun ring", "_t")
-t("copper amulet", "copper amulet", "entity name")
-t("copper amulet", "copper amulet", "_t")
-t("steel amulet", "steel amulet", "entity name")
-t("steel amulet", "steel amulet", "_t")
-t("gold amulet", "gold amulet", "entity name")
-t("gold amulet", "gold amulet", "_t")
-t("stralite amulet", "stralite amulet", "entity name")
-t("stralite amulet", "stralite amulet", "_t")
-t("voratun amulet", "voratun amulet", "entity name")
-t("voratun amulet", "voratun amulet", "_t")
 --]==]
 
 
@@ -9271,20 +9263,20 @@ t("voratun amulet", "voratun amulet", "_t")
 section "mod-tome/data/general/objects/knifes.lua"
 
 t("weapon", "arme", "entity type")
+t("dagger", "dague", "entity subtype")
+t("knife", "couteau", "entity combat talented")
+t("Sharp, short and deadly.", "Tranchant, court et mortel.", "_t")
+t("iron dagger", "dague en fer", "entity name")
 t("iron", "fer", "entity short_name")
+t("steel dagger", "dague en acier", "entity name")
 t("steel", "acier", "entity short_name")
+t("dwarven-steel dagger", "dague en acier nain", "entity name")
 t("d.steel", "acier.n", "entity short_name")
+t("stralite dagger", "dague en stralite", "entity name")
+t("voratun dagger", "dague en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("dagger", "dagger", "entity subtype")
-t("knife", "knife", "entity combat talented")
-t("Sharp, short and deadly.", "Sharp, short and deadly.", "_t")
-t("iron dagger", "iron dagger", "entity name")
-t("steel dagger", "steel dagger", "entity name")
-t("dwarven-steel dagger", "dwarven-steel dagger", "entity name")
-t("stralite dagger", "stralite dagger", "entity name")
 t("stralite", "stralite", "entity short_name")
-t("voratun dagger", "voratun dagger", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -9293,175 +9285,134 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/leather-belt.lua"
 
 t("armor", "armure", "entity type")
+t("belt", "ceinture", "entity subtype")
+t("A belt that goes around your waist.", "Une ceinture qui fait le tour de votre taille.", "_t")
+t("rough leather belt", "ceinture en cuir brut", "entity name")
+t("rough", "brut", "entity short_name")
+t("hardened leather belt", "ceinture en cuir durci", "entity name")
 t("hardened", "endurci", "entity short_name")
--- texte non traduit
---[==[
-t("belt", "belt", "entity subtype")
-t("A belt that goes around your waist.", "A belt that goes around your waist.", "_t")
-t("rough leather belt", "rough leather belt", "entity name")
-t("rough", "rough", "entity short_name")
-t("hardened leather belt", "hardened leather belt", "entity name")
-t("drakeskin leather belt", "drakeskin leather belt", "entity name")
-t("drakeskin", "drakeskin", "entity short_name")
---]==]
-
+t("drakeskin leather belt", "ceinture en cuir de dragonnet", "entity name")
+t("drakeskin", "cuir de dragonnet", "entity short_name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/leather-boots.lua"
 
 t("armor", "armure", "entity type")
+t("feet", "pieds", "entity subtype")
+t("A pair of boots made of leather.", "Paire de bottes en cuir.", "_t")
+t("pair of rough leather boots", "paire de bottes en cuir brut", "entity name")
+t("rough", "brut", "entity short_name")
+t("pair of hardened leather boots", "paire de bottes en cuir durci", "entity name")
 t("hardened", "endurci", "entity short_name")
--- texte non traduit
---[==[
-t("feet", "feet", "entity subtype")
-t("A pair of boots made of leather.", "A pair of boots made of leather.", "_t")
-t("pair of rough leather boots", "pair of rough leather boots", "entity name")
-t("rough", "rough", "entity short_name")
-t("pair of hardened leather boots", "pair of hardened leather boots", "entity name")
-t("pair of drakeskin leather boots", "pair of drakeskin leather boots", "entity name")
-t("drakeskin", "drakeskin", "entity short_name")
---]==]
-
+t("pair of drakeskin leather boots", "paire de bottes en cuir de dragonnet", "entity name")
+t("drakeskin", "cuir de dragonnet", "entity short_name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/leather-caps.lua"
 
 t("armor", "armure", "entity type")
+t("head", "tête", "entity subtype")
+t("A cap made of leather.", "Un chapeau en cuir.", "_t")
+t("rough leather cap", "chapeau en cuir brut", "entity name")
+t("rough", "brut", "entity short_name")
+t("hardened leather cap", "chapeau en cuir durci", "entity name")
 t("hardened", "endurci", "entity short_name")
--- texte non traduit
---[==[
-t("head", "head", "entity subtype")
-t("A cap made of leather.", "A cap made of leather.", "_t")
-t("rough leather cap", "rough leather cap", "entity name")
-t("rough", "rough", "entity short_name")
-t("hardened leather cap", "hardened leather cap", "entity name")
-t("drakeskin leather cap", "drakeskin leather cap", "entity name")
-t("drakeskin", "drakeskin", "entity short_name")
---]==]
-
+t("drakeskin leather cap", "chapeau en cuir de dragonnet", "entity name")
+t("drakeskin", "cuir de dragonnet", "entity short_name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/light-armors.lua"
 
 t("armor", "armure", "entity type")
 t("light", "lumière", "entity subtype")
+t("A suit of armour made of leather.", "Une armure faite de cuir.", "_t")
+t("rough leather armour", "armure en cuir brut", "entity name")
+t("rough", "brut", "entity short_name")
+t("cured leather armour", "armure en cuir traité", "entity name")
+t("cured", "traité", "entity short_name")
+t("hardened leather armour", "armure en cuir durci", "entity name")
 t("hardened", "endurci", "entity short_name")
+t("reinforced leather armour", "armure en cuir renforcé", "entity name")
 t("reinforced", "renforcé", "entity short_name")
--- texte non traduit
---[==[
-t("A suit of armour made of leather.", "A suit of armour made of leather.", "_t")
-t("rough leather armour", "rough leather armour", "entity name")
-t("rough", "rough", "entity short_name")
-t("cured leather armour", "cured leather armour", "entity name")
-t("cured", "cured", "entity short_name")
-t("hardened leather armour", "hardened leather armour", "entity name")
-t("reinforced leather armour", "reinforced leather armour", "entity name")
-t("drakeskin leather armour", "drakeskin leather armour", "entity name")
-t("drakeskin", "drakeskin", "entity short_name")
---]==]
-
+t("drakeskin leather armour", "armure en cuir de dragonnet", "entity name")
+t("drakeskin", "cuir de dragonnet", "entity short_name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lites.lua"
 
 t("lite", "lampe", "entity type")
 t("lite", "lampe", "entity subtype")
+t("Light up the dark places of the world!", "Illuminez les endroits sombres de ce monde!", "_t")
+t("brass lantern", "lampe en laiton", "entity name")
+t("brass", "laiton", "entity short_name")
+t("A brass container with a wick emerging from it, protected from draughts by a sheet of greased paper. It can be carried by a handle.", "Récipient en laiton d'où sort une mèche, protégé des courants d'air par une feuille de papier graissé. Il peut être porté par une poignée.", "_t")
+t("alchemist's lamp", "lampe d'alchimiste", "entity name")
 t("alchemist", "alchimiste", "entity short_name")
+t("A normal brass lantern, enhanced by alchemy to make it brighter.", "Une lanterne normale en laiton, améliorée par alchimie pour la rendre plus lumineuse.", "_t")
+t("dwarven lantern", "lampe naine", "entity name")
 t("dwarven", "naine", "entity short_name")
--- texte non traduit
---[==[
-t("Light up the dark places of the world!", "Light up the dark places of the world!", "_t")
-t("brass lantern", "brass lantern", "entity name")
-t("brass", "brass", "entity short_name")
-t("A brass container with a wick emerging from it, protected from draughts by a sheet of greased paper. It can be carried by a handle.", "A brass container with a wick emerging from it, protected from draughts by a sheet of greased paper. It can be carried by a handle.", "_t")
-t("alchemist's lamp", "alchemist's lamp", "entity name")
-t("A normal brass lantern, enhanced by alchemy to make it brighter.", "A normal brass lantern, enhanced by alchemy to make it brighter.", "_t")
-t("dwarven lantern", "dwarven lantern", "entity name")
-t("Made by the Dwarves, this lantern provides light in the darkest recesses of the earth.", "Made by the Dwarves, this lantern provides light in the darkest recesses of the earth.", "_t")
---]==]
-
+t("Made by the Dwarves, this lantern provides light in the darkest recesses of the earth.", "Fabriquée par les Nains, cette lanterne permet de s'éclairer dans les recoins les plus sombres de la terre.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/fun.lua"
 
-
+t("trollish poem", "poème troll", "entity name")
+t("A poem written by a... troll?", "Un poème écrit par un... troll?", "_t")
+t("necromancer poem", "poème de nécromancien", "entity name")
+t("A poem written by a... Necromancer?", "Un poème écrit par un... Nécromancien?", "_t")
+t("rogues do it from behind", "les bandits le font par derrière", "entity name")
+t("A poem written for a rogue?", "Un poème écrit pour un bandit?", "_t")
+t("how to become a necromancer, part %d", "comment devenir un nécromancien, partie %d", "tformat")
+t("How to become a powerful Necromancer!", "Comment devenir un puissant Nécromancien!", "_t")
+t("\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "\"De la poussière à la poussière\", un guide du chasseur de morts-vivants, par Aslabor Borys", "entity name")
+t("An undead hunter's guide, by Aslabor Borys.", "Un guide du chasseur de morts-vivants, par Aslabor Borys.", "_t")
+t("letter to %s (%d)", "lettre pour %s (%d)", "tformat")
+t("A part of the correspondence between two adventurers.", "Une partie de la correspondance entre deux aventuriers.", "_t")
+t("of halfling feet", "des pieds d'halfelin", "entity name")
+t("Notes about... Halfling feet??", "Des notes sur... les pieds des Halfelins??", "_t")
 -- texte non traduit
 --[==[
-t("trollish poem", "trollish poem", "entity name")
-t("A poem written by a... troll?", "A poem written by a... troll?", "_t")
-t("necromancer poem", "necromancer poem", "entity name")
-t("A poem written by a... Necromancer?", "A poem written by a... Necromancer?", "_t")
-t("rogues do it from behind", "rogues do it from behind", "entity name")
-t("A poem written for a rogue?", "A poem written for a rogue?", "_t")
-t("how to become a necromancer, part %d", "how to become a necromancer, part %d", "tformat")
-t("How to become a powerful Necromancer!", "How to become a powerful Necromancer!", "_t")
-t("\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "entity name")
-t("An undead hunter's guide, by Aslabor Borys.", "An undead hunter's guide, by Aslabor Borys.", "_t")
 t("Rolf", "Rolf", "_t")
 t("Weisman", "Weisman", "_t")
-t("letter to %s (%d)", "letter to %s (%d)", "tformat")
-t("A part of the correspondence between two adventurers.", "A part of the correspondence between two adventurers.", "_t")
-t("of halfling feet", "of halfling feet", "entity name")
-t("Notes about... Halfling feet??", "Notes about... Halfling feet??", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/maj-eyal.lua"
 
-
--- texte non traduit
---[==[
-t("analysis", "analysis", "entity subtype")
---]==]
-
+t("analysis", "analyse", "entity subtype")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/misc.lua"
 
-
--- texte non traduit
---[==[
-t("The story of my salvation", "The story of my salvation", "entity name")
-t("An old tale about the fear of magic.", "An old tale about the fear of magic.", "_t")
-t("On Adventuring", "On Adventuring", "entity name")
-t("Fragments of a fabled traveler.", "Fragments of a fabled traveler.", "_t")
-t("memories of Artelia Firstborn", "memories of Artelia Firstborn", "entity name")
-t("The memories of the first elf ever to awaken.", "The memories of the first elf ever to awaken.", "_t")
-t("human myth of creation", "human myth of creation", "entity name")
-t("Myth of creation of the humans.", "Myth of creation of the humans.", "_t")
-t("a logical analysis of creation, by philosopher Smythen", "a logical analysis of creation, by philosopher Smythen", "entity name")
-t("Myth of creation of the halflings.", "Myth of creation of the halflings.", "_t")
-t("Tale of the Moonsisters", "Tale of the Moonsisters", "entity name")
-t("The creation of Eyal's moons.", "The creation of Eyal's moons.", "_t")
---]==]
-
+t("The story of my salvation", "L'histoire de mon salut", "entity name")
+t("An old tale about the fear of magic.", "Un vieux conte sur la peur de la magie.", "_t")
+t("On Adventuring", "A l'aventure", "entity name")
+t("Fragments of a fabled traveler.", "Fragments d'un voyageur légendaire.", "_t")
+t("memories of Artelia Firstborn", "mémoires d'Artelia Firstborn", "entity name")
+t("The memories of the first elf ever to awaken.", "Les souvenirs du premier elfe à s'être réveillé.", "_t")
+t("human myth of creation", "mythe de la création humaine", "entity name")
+t("Myth of creation of the humans.", "Mythe de la création des humains.", "_t")
+t("a logical analysis of creation, by philosopher Smythen", "une analyse logique de la création, par le philosophe Smythen", "entity name")
+t("Myth of creation of the halflings.", "Mythe de la création des halfelins.", "_t")
+t("Tale of the Moonsisters", "L'histoire des Soeurs Lunes", "entity name")
+t("The creation of Eyal's moons.", "La création des lunes d'Eyal.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/spellhunt.lua"
 
-
--- texte non traduit
---[==[
-t("memories of archmage Varil", "memories of archmage Varil", "entity name")
-t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "_t")
-t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Spellhunter's Guide part 1: How to Detect a Spellweaver", "entity name")
-t("The definitive guide to hunting magic users.", "The definitive guide to hunting magic users.", "_t")
-t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Spellhunter's Guide part 2: How to Battle a Magic-User", "entity name")
-t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Spellhunter's Guide part 3: How to Kill a Magic-User", "entity name")
---]==]
-
+t("memories of archmage Varil", "mémoires de l'archimage Varil", "entity name")
+t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "Une collection de pensées et de souvenirs de l'archimage Varil, pendant l'Ere du Crépuscule.", "_t")
+t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du chasseur de sorciers partie 1 : Comment détecter un lanceur de sorts?", "entity name")
+t("The definitive guide to hunting magic users.", "Le guide définitif de la chasse aux utilisateurs de magie.", "_t")
+t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du chasseur de sorciers - Partie 2 : Comment combattre un utilisateur de magie?", "entity name")
+t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du chasseur de sorciers partie 3 : Comment tuer un utilisateur de magie?", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/sunwall.lua"
 
-
--- texte non traduit
---[==[
-t("Loremaster Verutir's note", "Loremaster Verutir's note", "entity name")
-t("A paper scrap containing some lore.", "A paper scrap containing some lore.", "_t")
---]==]
-
+t("Loremaster Verutir's note", "Note du Chroniqueur Verutir", "entity name")
+t("A paper scrap containing some lore.", "Un bout de papier contenant des traditions.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/maces.lua"
@@ -9469,18 +9420,18 @@ section "mod-tome/data/general/objects/maces.lua"
 t("weapon", "arme", "entity type")
 t("mace", "masse", "entity subtype")
 t("mace", "masse", "entity combat talented")
+t("Blunt and deadly.", "Contondant et mortel.", "_t")
+t("iron mace", "masse en fer", "entity name")
 t("iron", "fer", "entity short_name")
+t("steel mace", "masse en acier", "entity name")
 t("steel", "acier", "entity short_name")
+t("dwarven-steel mace", "masse en acier nain", "entity name")
 t("d.steel", "acier.n", "entity short_name")
+t("stralite mace", "masse en stralite", "entity name")
+t("voratun mace", "masse en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("Blunt and deadly.", "Blunt and deadly.", "_t")
-t("iron mace", "iron mace", "entity name")
-t("steel mace", "steel mace", "entity name")
-t("dwarven-steel mace", "dwarven-steel mace", "entity name")
-t("stralite mace", "stralite mace", "entity name")
 t("stralite", "stralite", "entity short_name")
-t("voratun mace", "voratun mace", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -9490,18 +9441,18 @@ section "mod-tome/data/general/objects/massive-armors.lua"
 
 t("armor", "armure", "entity type")
 t("massive", "énormité", "entity subtype")
+t("A suit of armour made of metal plates.", "Une armure faite de plaques de métal.", "_t")
+t("iron plate armour", "armure de plates en fer", "entity name")
 t("iron", "fer", "entity short_name")
+t("steel plate armour", "armure de plates en acier", "entity name")
 t("steel", "acier", "entity short_name")
+t("dwarven-steel plate armour", "armure de plates en acier nain", "entity name")
 t("d.steel", "acier.n", "entity short_name")
+t("stralite plate armour", "armure de plates en stralite", "entity name")
+t("voratun plate armour", "armure de plates en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("A suit of armour made of metal plates.", "A suit of armour made of metal plates.", "_t")
-t("iron plate armour", "iron plate armour", "entity name")
-t("steel plate armour", "steel plate armour", "entity name")
-t("dwarven-steel plate armour", "dwarven-steel plate armour", "entity name")
-t("stralite plate armour", "stralite plate armour", "entity name")
 t("stralite", "stralite", "entity short_name")
-t("voratun plate armour", "voratun plate armour", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -9510,62 +9461,48 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/mindstars.lua"
 
 t("weapon", "arme", "entity type")
-t("thorny", "épineuse", "entity short_name")
-t("living", "vivant", "entity short_name")
--- texte non traduit
---[==[
-t("mindstar", "mindstar", "entity subtype")
-t("mindstar", "mindstar", "entity combat talented")
+t("mindstar", "étoile d'âme", "entity subtype")
+t("mindstar", "étoile d'âme", "entity combat talented")
 t([[Mindstars are natural products. Natural gems covered in living matter, they are used to focus the mental powers of all nature defenders and psionics.
-Using mindstars in the offhand does not incur the normal offhand damage penalty.]], [[Mindstars are natural products. Natural gems covered in living matter, they are used to focus the mental powers of all nature defenders and psionics.
-Using mindstars in the offhand does not incur the normal offhand damage penalty.]], "_t")
-t("mossy mindstar", "mossy mindstar", "entity name")
-t("mossy", "mossy", "entity short_name")
-t("vined mindstar", "vined mindstar", "entity name")
-t("vined", "vined", "entity short_name")
-t("thorny mindstar", "thorny mindstar", "entity name")
-t("pulsing mindstar", "pulsing mindstar", "entity name")
-t("pulsing", "pulsing", "entity short_name")
-t("living mindstar", "living mindstar", "entity name")
---]==]
-
+Using mindstars in the offhand does not incur the normal offhand damage penalty.]], [[Les Etoiles d'âme sont des produits naturels. Gemmes naturelles recouvertes de matière vivante, elles sont utilisées pour concentrer les pouvoirs mentaux de tous les défenseurs de la nature et des psioniques.
+L'utilisation des étoiles d'âme en main gauche n'entraîne pas la pénalité normale de dégâts en main gauche.]], "_t")
+t("mossy mindstar", "étoile d'âme moussue", "entity name")
+t("mossy", "moussue", "entity short_name")
+t("vined mindstar", "étoile d'âme vinée", "entity name")
+t("vined", "vinée", "entity short_name")
+t("thorny mindstar", "étoile d'âme épineuse", "entity name")
+t("thorny", "épineuse", "entity short_name")
+t("pulsing mindstar", "étoile d'âme pulsante", "entity name")
+t("pulsing", "pulsante", "entity short_name")
+t("living mindstar", "étoile d'âme vivante", "entity name")
+t("living", "vivante", "entity short_name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/misc-tools.lua"
 
 t("tool", "outil", "entity type")
 t("misc", "divers", "entity subtype")
--- texte non traduit
---[==[
-t("A miscellaneous tool.", "A miscellaneous tool.", "_t")
---]==]
-
+t("A miscellaneous tool.", "Un outil quelconque.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/money.lua"
 
-
--- texte non traduit
---[==[
-t("money", "money", "entity type")
-t("money", "money", "entity subtype")
-t("All that glitters is not gold; all that is gold does not glitter.", "All that glitters is not gold; all that is gold does not glitter.", "_t")
-t("You pickup %0.2f gold pieces.", "You pickup %0.2f gold pieces.", "logPlayer")
-t("gold pieces", "gold pieces", "entity name")
-t("huge pile of gold pieces", "huge pile of gold pieces", "entity name")
---]==]
-
+t("money", "monnaie", "entity type")
+t("money", "monnaie", "entity subtype")
+t("All that glitters is not gold; all that is gold does not glitter.", "Tout ce qui brille n'est pas or; tout ce qui est en or ne brille pas.", "_t")
+t("You pickup %0.2f gold pieces.", "Vous ramassez %0.2f pièces d'or.", "logPlayer")
+t("gold pieces", "pièces d'or", "entity name")
+t("huge pile of gold pieces", "un gros tas de pièces d'or", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/mounts.lua"
 
-
+t("mount", "monter", "entity type")
+t("A mount.", "Une monture.", "_t")
+t("alchemist golem mount", "golem d'alchimist monté", "entity name")
 -- texte non traduit
 --[==[
-t("mount", "mount", "entity type")
-t("A mount.", "A mount.", "_t")
 t("golem", "golem", "entity subtype")
-t("alchemist golem mount", "alchemist golem mount", "entity name")
 --]==]
 
 
@@ -9574,36 +9511,26 @@ section "mod-tome/data/general/objects/mummy-wrappings.lua"
 
 t("armor", "armure", "entity type")
 t("mummy", "momie", "entity subtype")
+t("Decaying mummy wrappings.", "Des bandelettes de momie en décomposition.", "_t")
+t("mummy wrappings", "bandelettes de momie", "entity name")
 t("mummy", "momie", "entity short_name")
--- texte non traduit
---[==[
-t("Decaying mummy wrappings.", "Decaying mummy wrappings.", "_t")
-t("mummy wrappings", "mummy wrappings", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/objects-far-east.lua"
 
-
--- texte non traduit
---[==[
-t("tome", "tome", "entity subtype")
-t("Ancient Tome titled 'Gems and their uses'", "Ancient Tome titled 'Gems and their uses'", "entity name")
-t("ancient tome", "ancient tome", "_t")
---]==]
-
+t("tome", "volume", "entity subtype")
+t("Ancient Tome titled 'Gems and their uses'", "Ancien volume intitulé \"Les pierres précieuses et leurs usages\".", "entity name")
+t("ancient tome", "volume ancien", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/potions.lua"
 
-
+t("Magical potions can have wildly different effects, from healing to killing you -- beware! Most of them function better with a high Magic score.", "Les potions magiques peuvent avoir des effets très différents, allant de la guérison à la mort. Attention! La plupart d'entre elles fonctionnent mieux avec un score de magie élevé.", "_t")
 -- texte non traduit
 --[==[
 t("potion", "potion", "entity type")
 t("potion", "potion", "entity subtype")
 t("potion", "potion", "_t")
-t("Magical potions can have wildly different effects, from healing to killing you -- beware! Most of them function better with a high Magic score.", "Magical potions can have wildly different effects, from healing to killing you -- beware! Most of them function better with a high Magic score.", "_t")
 --]==]
 
 
@@ -10185,8 +10112,11 @@ t("voratun", "voratun", "entity short_name")
 section "mod-tome/data/general/objects/slings.lua"
 
 t("weapon", "arme", "entity type")
+t("rough", "brut", "entity short_name")
+t("cured", "traité", "entity short_name")
 t("hardened", "endurci", "entity short_name")
 t("reinforced", "renforcé", "entity short_name")
+t("drakeskin", "cuir de dragonnet", "entity short_name")
 t("ammo", "munition", "entity type")
 t("iron", "fer", "entity short_name")
 t("steel", "acier", "entity short_name")
@@ -10197,13 +10127,10 @@ t("sling", "sling", "entity subtype")
 t("sling", "sling", "entity combat talented")
 t("Slings are used to hurl stones or metal shots at your foes.", "Slings are used to hurl stones or metal shots at your foes.", "_t")
 t("rough leather sling", "rough leather sling", "entity name")
-t("rough", "rough", "entity short_name")
 t("cured leather sling", "cured leather sling", "entity name")
-t("cured", "cured", "entity short_name")
 t("hardened leather sling", "hardened leather sling", "entity name")
 t("reinforced leather sling", "reinforced leather sling", "entity name")
 t("drakeskin leather sling", "drakeskin leather sling", "entity name")
-t("drakeskin", "drakeskin", "entity short_name")
 t("shot", "shot", "entity subtype")
 t("Shots are used with slings to pummel your foes to death.", "Shots are used with slings to pummel your foes to death.", "_t")
 t("pouch of iron shots", "pouch of iron shots", "entity name")
@@ -10356,12 +10283,12 @@ t("Sharp, long and deadly.", "Sharp, long and deadly.", "_t")
 section "mod-tome/data/general/objects/wizard-hat.lua"
 
 t("armor", "armure", "entity type")
+t("head", "tête", "entity subtype")
 t("linen", "lin", "entity short_name")
 t("cashmere", "cachemire", "entity short_name")
 t("e.silk", "soie.e", "entity short_name")
 -- texte non traduit
 --[==[
-t("head", "head", "entity subtype")
 t("A pointy cloth hat, very wizardly...", "A pointy cloth hat, very wizardly...", "_t")
 t("linen wizard hat", "linen wizard hat", "entity name")
 t("cashmere wizard hat", "cashmere wizard hat", "entity name")
@@ -10372,11 +10299,11 @@ t("elven-silk wizard hat", "elven-silk wizard hat", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/world-artifacts-far-east.lua"
 
+t("tome", "volume", "entity subtype")
 t("animated blood", "sang vivant", "_t")
 t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
-t("tome", "tome", "entity subtype")
 t("Scroll of Summoning (Limmir the Jeweler)", "Scroll of Summoning (Limmir the Jeweler)", "entity name")
 t("summon Limmir the jeweler at the center of the lake of the moon", "summon Limmir the jeweler at the center of the lake of the moon", "_t")
 t("Pendant of the Sun and Moons", "Pendant of the Sun and Moons", "entity name")
@@ -10590,6 +10517,7 @@ t("#DARK_GREEN#The armor molds comfortably to one of its caretakers.", "#DARK_GR
 ------------------------------------------------
 section "mod-tome/data/general/objects/world-artifacts.lua"
 
+t("blue", "bleu", "entity subtype")
 t("Primal Infusion", "Infusion Primale", "entity name")
 t("Another of Garkul's heirlooms would bring out his spirit.", "Un autre des héritages de Garkul ferait ressortir son esprit.", "_t")
 t("Blood of Life", "Sang de Vie", "entity name")
@@ -10608,7 +10536,6 @@ t("something", "quelque chose", "_t")
 -- texte non traduit
 --[==[
 t("Windborne Azurite", "Windborne Azurite", "entity name")
-t("blue", "blue", "entity subtype")
 t("windy gem", "windy gem", "_t")
 t("Air currents swirl around this bright blue jewel.", "Air currents swirl around this bright blue jewel.", "_t")
 t("This wild infusion has evolved.", "This wild infusion has evolved.", "_t")
@@ -11734,117 +11661,116 @@ t("Deals %s%d#LAST# %s damage (radius %d).", "Deals %s%d#LAST# %s damage (radius
 ------------------------------------------------
 section "mod-tome/data/ingredients.lua"
 
-
+t("length of troll intestine", "une longueur d'intestin troll", "entity name")
+t("A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "Une longueur d'intestins de troll. Heureusement, le troll semble n'avoir rien mangé depuis un certain temps.", "_t")
+t("skeleton mage skull", "crâne de mage squelette", "entity name")
+t("The skull of a skeleton mage. The eyes have stopped glowing... for now.", "Le crâne d'un mage squelette. Les yeux ont cessé de briller... pour l'instant.", "_t")
+t("ritch stinger", "Dard de ritch", "entity name")
+t("A ritch stinger, still glistening with venom.", "Un dard de ritch, toujours scintillant de venin.", "_t")
+t("orc heart", "coeur d'orc", "entity name")
+t("The heart of an orc. Perhaps surprisingly, it isn't green.", "Le cœur d'un orc. De façon surprenante, il n'est pas vert.", "_t")
+t("naga tongue", "langue de naga", "entity name")
+t("A severed naga tongue. It reeks of brine.", "Une langue de naga coupée. Ça pue la saumure.", "_t")
+t("vial of greater demon bile", "fiole de bile de démon supérieure", "entity name")
+t("A vial of greater demon bile. It hurts your sinuses even with the vial's stopper firmly in place.", "Une fiole de bile de démon supérieur. Ça fait mal aux sinus même si le bouchon de la fiole est bien en place.", "_t")
+t("pouch of bone giant dust", "sachet de poussière de géant osseux", "entity name")
+t("Once the magics animating the bone giant fled, its remains crumbled to dust. It might be your imagination, but it looks like the dust occasionally stirs on its own.", "Une fois que la magie qui animait le géant osseux a disparu, ses restes se sont réduits en poussière. C'est peut-être votre imagination, mais on dirait que la poussière s'agite de temps en temps toute seule.", "_t")
+t("ice ant stinger", "dard de fourmi de glace", "entity name")
+t("Wickedly sharp and still freezing cold.", "Très pointu et toujours aussi glacial.", "_t")
+t("minotaur nose", "nez de minotaure", "entity name")
+t("The severed front half of a minotaur snout, ring and all.", "La moitié avant coupée du museau d'un minotaure, l'anneau et tout.", "_t")
+t("vial of elder vampire blood", "flacon de sang d'ancien vampire", "entity name")
+t("Thick, clotted, and foul. The vial is cold to the touch.", "Épais, coagulé et fétide. La fiole est froide au toucher.", "_t")
+t("multi-hued wyrm scale", "écaille de ver multicolor", "entity name")
+t("Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "Magnifique et presque impénétrable. La séparer du dragon a dû être un travail difficile.", "_t")
+t("giant spider spinneret", "filière d'araignée géante", "entity name")
+t("An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orifice.", "Un horrible morceau déchiré d'araignée géante. Des bouts de soie sortent d'un orifice.", "_t")
+t("honey tree root", "racine d'arbre à miel", "entity name")
+t("The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "L'extrémité coupée d'une des racines d'un arbre à miel. Elle se tortille de temps en temps, ne semblant pas vouloir admettre qu'elle est morte... et qu'elle est une *plante*.", "_t")
+t("bloated horror heart", "coeur d'horreur bouffie", "entity name")
+t("Diseased-looking and reeking. It seems to be decaying as you watch.", "L'air malade et puant. Il semble se décomposer pendant que vous le regardez.", "_t")
+t("electric eel tail", "queue d'anguille électrique", "entity name")
+t("Slimy, wriggling, and crackling with electricity.", "Frétillante, visqueuse, et crépitante d'électricité.", "_t")
+t("vial of squid ink", "fiole d'encre de calmar", "entity name")
+t("Thick, black and opaque.", "Épais, noir et opaque.", "_t")
+t("bear paw", "patte d'ours", "entity name")
+t("Large and hairy with flesh-rending claws. It smells slightly of fish.", "Grand et poilu avec des griffes déchirant la chair. Elle sent légèrement le poisson.", "_t")
+t("ice wyrm tooth", "dent de ver de glace", "entity name")
+t("This tooth has been blunted with age, but still looks more than capable of doing its job.", "Cette dent a été émoussée par l'âge, mais elle semble toujours plus que capable de faire son travail.", "_t")
+t("red crystal shard", "éclat de cristal rouge", "entity name")
+t("Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "De minuscules flammes dansent encore de manière éthérée à l'intérieur de ce cristal transparent, bien que sa chaleur semble s'être évanouie... vous l'espérez.", "_t")
+t("vial of fire wyrm saliva", "flacon de salive de ver de feu", "entity name")
+t("Clear and slightly thicker than water. It froths when shaken.", "Transparent et légèrement plus épais que l'eau. Elle mousse lorsqu'on la secoue.", "_t")
+t("chunk of ghoul flesh", "morceau de chair de goule", "entity name")
+t("Rotten and reeking. It still twitches occasionally.", "Pourri et puant. Ça bouge encore de temps en temps.", "_t")
+t("mummified bone", "os momifié", "entity name")
+t("Bits of dry flesh still cling to this ancient bone.", "Des morceaux de chair sèche s'accrochent encore à cet ancien os.", "_t")
+t("sandworm tooth", "dent de ver de sable", "entity name")
+t("Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "Minuscule, gris foncé, et méchamment pointu. Ça ressemble plus à de la roche qu'à de l'os.", "_t")
+t("black mamba head", "tête de mamba noir", "entity name")
+t("Unlike the rest of the black mamba, the severed head isn't moving.", "Contrairement au reste du mamba noir, la tête coupée ne bouge pas.", "_t")
+t("snow giant kidney", "rein de géant des neiges", "entity name")
+t("As unpleasant-looking as any exposed organ.", "Aussi désagréable à regarder que n'importe quel organe à découvert.", "_t")
+t("storm wyrm claw", "griffe de ver de l'orage", "entity name")
+t("Bluish and wickedly sharp. It makes your arm hair stand on end.", "Bleuâtre et méchamment pointu. Ça fait dresser les poils de vos bras.", "_t")
+t("green worm", "ver vert", "entity name")
+t("A dead green worm, painstakingly separated from its tangle of companions.", "Un ver vert mort, minutieusement séparé de son enchevêtrement de compagnons.", "_t")
+t("vial of wight ectoplasm", "fiole d'ectoplasme de nécrophage", "entity name")
+t("Cloudy and thick. Only by bottling it can you prevent it from evaporating within minutes.", "Nuageux et épais. Ce n'est qu'en le mettant en bouteille que vous pouvez l'empêcher de s'évaporer en quelques minutes.", "_t")
+t("xorn fragment", "fragment de xorn", "entity name")
+t("Looks much like any other rock, though this one was recently sentient and trying to murder you.", "Il ressemble à n'importe quel autre rocher, bien que celui-ci ait été récemment doué de conscience et ait essayé de vous tuer.", "_t")
+t("warg claw", "griffe de loup géant", "entity name")
+t("Unpleasantly large and sharp for a canine's claw.", "Désagréablement grande et pointue pour une griffe de canidé.", "_t")
+t("pouch of faeros ash", "sachet de cendres de feuros", "entity name")
+t("Unremarkable grey ash.", "Cendre grise banale.", "_t")
+t("wretchling eyeball", "globe oculaire maléfique", "entity name")
+t("Small and bloodshot. Its dead gaze still burns your skin.", "Petit et injecté de sang. Son regard mortel brûle encore votre peau.", "_t")
+t("faerlhing fang", "croc de faerlhing", "entity name")
+t("It still drips venom and crackles with magical energy.", "Il dégouline toujours de venin et crépite d'énergie magique.", "_t")
+t("vampire lord fang", "croc de seigneur vampire", "entity name")
+t("Brilliantly white, but surrounded by blackest magic.", "D'un blanc éclatant, mais entouré de la magie la plus noire.", "_t")
+t("hummerhorn wing", "ailes de guêpe géante", "entity name")
+t("Translucent and delicate-looking, but surprisingly durable.", "Translucide et d'apparence délicate, mais étonnamment durable.", "_t")
+t("pouch of luminous horror dust", "pochette de poussière d'horreur lumineuse", "entity name")
+t("Weightless and glowing; not your usual dust.", "Légère et lumineuse, pas votre poussière habituelle.", "_t")
 -- texte non traduit
 --[==[
 t("organic", "organic", "entity type")
-t("length of troll intestine", "length of troll intestine", "entity name")
-t("A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "_t")
 t("Kindly empty it before returning.", "Kindly empty it before returning.", "_t")
-t("skeleton mage skull", "skeleton mage skull", "entity name")
-t("The skull of a skeleton mage. The eyes have stopped glowing... for now.", "The skull of a skeleton mage. The eyes have stopped glowing... for now.", "_t")
 t("If the eyes are still glowing, please bash it around a bit until they fade. I'll not have another one of those coming alive and wreaking havoc in my lab.", "If the eyes are still glowing, please bash it around a bit until they fade. I'll not have another one of those coming alive and wreaking havoc in my lab.", "_t")
-t("ritch stinger", "ritch stinger", "entity name")
-t("A ritch stinger, still glistening with venom.", "A ritch stinger, still glistening with venom.", "_t")
 t("Keep as much venom in it as possible.", "Keep as much venom in it as possible.", "_t")
-t("orc heart", "orc heart", "entity name")
-t("The heart of an orc. Perhaps surprisingly, it isn't green.", "The heart of an orc. Perhaps surprisingly, it isn't green.", "_t")
 t("If you can fetch me a still-beating orc heart, that would be even better. But you don't look like a master necromancer to me.", "If you can fetch me a still-beating orc heart, that would be even better. But you don't look like a master necromancer to me.", "_t")
-t("naga tongue", "naga tongue", "entity name")
-t("A severed naga tongue. It reeks of brine.", "A severed naga tongue. It reeks of brine.", "_t")
 t("Best results occur with tongues never tainted by profanity, so if you happen to know any saintly nagas...", "Best results occur with tongues never tainted by profanity, so if you happen to know any saintly nagas...", "_t")
-t("vial of greater demon bile", "vial of greater demon bile", "entity name")
-t("A vial of greater demon bile. It hurts your sinuses even with the vial's stopper firmly in place.", "A vial of greater demon bile. It hurts your sinuses even with the vial's stopper firmly in place.", "_t")
 t("Don't drink it, even if it tells you to.", "Don't drink it, even if it tells you to.", "_t")
-t("pouch of bone giant dust", "pouch of bone giant dust", "entity name")
-t("Once the magics animating the bone giant fled, its remains crumbled to dust. It might be your imagination, but it looks like the dust occasionally stirs on its own.", "Once the magics animating the bone giant fled, its remains crumbled to dust. It might be your imagination, but it looks like the dust occasionally stirs on its own.", "_t")
 t("Never, ever to be confused with garlic powder. Trust me.", "Never, ever to be confused with garlic powder. Trust me.", "_t")
-t("ice ant stinger", "ice ant stinger", "entity name")
-t("Wickedly sharp and still freezing cold.", "Wickedly sharp and still freezing cold.", "_t")
 t("If you've the means to eliminate the little venom problem, these make miraculous instant drink-chilling straws.", "If you've the means to eliminate the little venom problem, these make miraculous instant drink-chilling straws.", "_t")
-t("minotaur nose", "minotaur nose", "entity name")
-t("The severed front half of a minotaur snout, ring and all.", "The severed front half of a minotaur snout, ring and all.", "_t")
 t("You'll need to find one with a ring, preferably an expensive one.", "You'll need to find one with a ring, preferably an expensive one.", "_t")
-t("vial of elder vampire blood", "vial of elder vampire blood", "entity name")
-t("Thick, clotted, and foul. The vial is cold to the touch.", "Thick, clotted, and foul. The vial is cold to the touch.", "_t")
 t("Once you've gotten it, cross some moving water on your way back.", "Once you've gotten it, cross some moving water on your way back.", "_t")
-t("multi-hued wyrm scale", "multi-hued wyrm scale", "entity name")
-t("Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "_t")
 t("If you think collecting one of these is hard, try liquefying one.", "If you think collecting one of these is hard, try liquefying one.", "_t")
-t("giant spider spinneret", "giant spider spinneret", "entity name")
-t("An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orifice.", "An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orifice.", "_t")
 t("The spiders in your barn won't do. You'll know a giant spider when you see one, though they're rare in Maj'Eyal.", "The spiders in your barn won't do. You'll know a giant spider when you see one, though they're rare in Maj'Eyal.", "_t")
-t("honey tree root", "honey tree root", "entity name")
-t("The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "_t")
 t("Keep a firm grip on it. These things will dig themselves right back into the ground if you drop them.", "Keep a firm grip on it. These things will dig themselves right back into the ground if you drop them.", "_t")
-t("bloated horror heart", "bloated horror heart", "entity name")
-t("Diseased-looking and reeking. It seems to be decaying as you watch.", "Diseased-looking and reeking. It seems to be decaying as you watch.", "_t")
 t("Don't worry if it dissolves. Just don't get any on you.", "Don't worry if it dissolves. Just don't get any on you.", "_t")
-t("electric eel tail", "electric eel tail", "entity name")
-t("Slimy, wriggling, and crackling with electricity.", "Slimy, wriggling, and crackling with electricity.", "_t")
 t("I know, I know. Where does the eel stop and the tail start? It doesn't much matter. The last ten inches or so should do nicely.", "I know, I know. Where does the eel stop and the tail start? It doesn't much matter. The last ten inches or so should do nicely.", "_t")
-t("vial of squid ink", "vial of squid ink", "entity name")
-t("Thick, black and opaque.", "Thick, black and opaque.", "_t")
 t("However annoying this will be for you to gather, I promise that the reek it produces in my lab will prove even more annoying.", "However annoying this will be for you to gather, I promise that the reek it produces in my lab will prove even more annoying.", "_t")
-t("bear paw", "bear paw", "entity name")
-t("Large and hairy with flesh-rending claws. It smells slightly of fish.", "Large and hairy with flesh-rending claws. It smells slightly of fish.", "_t")
 t("You'd think I could get one of these from a local hunter, but they've had no luck. Don't get eaten.", "You'd think I could get one of these from a local hunter, but they've had no luck. Don't get eaten.", "_t")
-t("ice wyrm tooth", "ice wyrm tooth", "entity name")
-t("This tooth has been blunted with age, but still looks more than capable of doing its job.", "This tooth has been blunted with age, but still looks more than capable of doing its job.", "_t")
 t("Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "_t")
-t("red crystal shard", "red crystal shard", "entity name")
-t("Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "_t")
 t("I hear these can be found in a cave near Elvala. I also hear that they can cause you to spontaneously combust, so no need to explain if you come back hideously scarred.", "I hear these can be found in a cave near Elvala. I also hear that they can cause you to spontaneously combust, so no need to explain if you come back hideously scarred.", "_t")
-t("vial of fire wyrm saliva", "vial of fire wyrm saliva", "entity name")
-t("Clear and slightly thicker than water. It froths when shaken.", "Clear and slightly thicker than water. It froths when shaken.", "_t")
 t("Keep this stuff well away from your campfire unless you want me to have to find a new, more alive adventurer.", "Keep this stuff well away from your campfire unless you want me to have to find a new, more alive adventurer.", "_t")
-t("chunk of ghoul flesh", "chunk of ghoul flesh", "entity name")
-t("Rotten and reeking. It still twitches occasionally.", "Rotten and reeking. It still twitches occasionally.", "_t")
 t("Unfortunately for you, the chunks that regularly fall off ghouls won't do. I need one freshly carved off.", "Unfortunately for you, the chunks that regularly fall off ghouls won't do. I need one freshly carved off.", "_t")
-t("mummified bone", "mummified bone", "entity name")
-t("Bits of dry flesh still cling to this ancient bone.", "Bits of dry flesh still cling to this ancient bone.", "_t")
 t("That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "_t")
-t("sandworm tooth", "sandworm tooth", "entity name")
-t("Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "_t")
 t("Yes, sandworms have teeth. They're just very small and well back from where you're ever likely to see them and live.", "Yes, sandworms have teeth. They're just very small and well back from where you're ever likely to see them and live.", "_t")
-t("black mamba head", "black mamba head", "entity name")
-t("Unlike the rest of the black mamba, the severed head isn't moving.", "Unlike the rest of the black mamba, the severed head isn't moving.", "_t")
 t("If you get bitten, I can save your life if you still manage to bring back the head... and if it happens within about a minute from my door. Good luck.", "If you get bitten, I can save your life if you still manage to bring back the head... and if it happens within about a minute from my door. Good luck.", "_t")
-t("snow giant kidney", "snow giant kidney", "entity name")
-t("As unpleasant-looking as any exposed organ.", "As unpleasant-looking as any exposed organ.", "_t")
 t("I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "_t")
-t("storm wyrm claw", "storm wyrm claw", "entity name")
-t("Bluish and wickedly sharp. It makes your arm hair stand on end.", "Bluish and wickedly sharp. It makes your arm hair stand on end.", "_t")
 t("I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "_t")
-t("green worm", "green worm", "entity name")
-t("A dead green worm, painstakingly separated from its tangle of companions.", "A dead green worm, painstakingly separated from its tangle of companions.", "_t")
 t("Try to get any knots out before returning. Wear gloves.", "Try to get any knots out before returning. Wear gloves.", "_t")
-t("vial of wight ectoplasm", "vial of wight ectoplasm", "entity name")
-t("Cloudy and thick. Only by bottling it can you prevent it from evaporating within minutes.", "Cloudy and thick. Only by bottling it can you prevent it from evaporating within minutes.", "_t")
 t("If you ingest any of this, never mind coming back here. Please.", "If you ingest any of this, never mind coming back here. Please.", "_t")
-t("xorn fragment", "xorn fragment", "entity name")
-t("Looks much like any other rock, though this one was recently sentient and trying to murder you.", "Looks much like any other rock, though this one was recently sentient and trying to murder you.", "_t")
 t("Avoid fragments that contained the xorn's eyes. You've no idea how unpleasant it is being watched by your ingredients.", "Avoid fragments that contained the xorn's eyes. You've no idea how unpleasant it is being watched by your ingredients.", "_t")
-t("warg claw", "warg claw", "entity name")
-t("Unpleasantly large and sharp for a canine's claw.", "Unpleasantly large and sharp for a canine's claw.", "_t")
 t("My usual ingredient gatherers draw the line at hunting wargs. Feel free to mock them on your way back.", "My usual ingredient gatherers draw the line at hunting wargs. Feel free to mock them on your way back.", "_t")
-t("pouch of faeros ash", "pouch of faeros ash", "entity name")
-t("Unremarkable grey ash.", "Unremarkable grey ash.", "_t")
 t("They're creatures of pure flame, and likely of extraplanar origin, but the ash of objects consumed by their fire has remarkable properties.", "They're creatures of pure flame, and likely of extraplanar origin, but the ash of objects consumed by their fire has remarkable properties.", "_t")
-t("wretchling eyeball", "wretchling eyeball", "entity name")
-t("Small and bloodshot. Its dead gaze still burns your skin.", "Small and bloodshot. Its dead gaze still burns your skin.", "_t")
 t("Evil little things, wretchlings. Feel free to kill as many as you can, though I just need the one intact eyeball.", "Evil little things, wretchlings. Feel free to kill as many as you can, though I just need the one intact eyeball.", "_t")
-t("faerlhing fang", "faerlhing fang", "entity name")
-t("It still drips venom and crackles with magical energy.", "It still drips venom and crackles with magical energy.", "_t")
 t("I've lost a number of adventurers to this one, but I'm sure you'll be fine.", "I've lost a number of adventurers to this one, but I'm sure you'll be fine.", "_t")
-t("vampire lord fang", "vampire lord fang", "entity name")
-t("Brilliantly white, but surrounded by blackest magic.", "Brilliantly white, but surrounded by blackest magic.", "_t")
 t("You should definitely consider not pricking yourself with it.", "You should definitely consider not pricking yourself with it.", "_t")
-t("hummerhorn wing", "hummerhorn wing", "entity name")
-t("Translucent and delicate-looking, but surprisingly durable.", "Translucent and delicate-looking, but surprisingly durable.", "_t")
 t("If you've not encountered hummerhorns before, they're like wasps, only gigantic and lethal.", "If you've not encountered hummerhorns before, they're like wasps, only gigantic and lethal.", "_t")
-t("pouch of luminous horror dust", "pouch of luminous horror dust", "entity name")
-t("Weightless and glowing; not your usual dust.", "Weightless and glowing; not your usual dust.", "_t")
 t("Not to be confused with radiant horrors. If you encounter the latter, then I suppose there are always more adventurers.", "Not to be confused with radiant horrors. If you encounter the latter, then I suppose there are always more adventurers.", "_t")
 --]==]
 
@@ -13782,9 +13708,11 @@ As they notice you one calls out 'Intruder! Protect the seed of Kryl-Feijan!']],
 section "mod-tome/data/lore/fun.lua"
 
 t("misc", "divers", "newLore category")
+t("trollish poem", "poème troll", "_t")
+t("necromancer poem", "poème de nécromancien", "_t")
+t("of halfling feet", "des pieds d'halfelin", "_t")
 -- texte non traduit
 --[==[
-t("trollish poem", "trollish poem", "_t")
 t([[#{bold}#"Me Likes to Club"
 
 #{italic}#Club club club,
@@ -13846,7 +13774,6 @@ Club club club,
 Grab some grub!
 When hunger hits,
 Me likes to club!#{normal}#]], "_t")
-t("necromancer poem", "necromancer poem", "_t")
 t([[#{bold}#"The Necromancer's Canticle"
 
 #{italic}#Saved from coffin, casket, urn
@@ -13976,7 +13903,6 @@ The greatest enemy of the necromancer is other necromancers. Well, apart from th
 #{italic}#Zigur#{normal}#: The enemy of our enemy is not our friend in this case. What passes for "normal" magic is enough to send the cult residing here into a frothing, psychotic frenzy - the presence of a necromancer would be enough to instigate a second Age of Pyre!
 
 No further aid awaits you, for we do not tolerate the dependent. All that remains is for you to prove yourself worthy of practising this glorious art...]], "_t")
-t("of halfling feet", "of halfling feet", "_t")
 t([[Some men have said that the feet of halflings can nay be harmed, not by fire, blade nor magic. And they do say that this is a truly astounding thing. And some men consider the foot of a halfling to be an item of great luck and protection, and many have one hung above their door or mantle. Though these days 'tis frowned upon to go hunt for one, so 'tis considered a prized heirloom to be passed from father to son.
 
 But women do look upon men and declare them fools. "For how," say they, "Can the foot of a halfling be a lucky thing, when with their large uncomely feet they are not able to wear shoes and footwear of elegant crafts and beauteous materials? And especially 'tis a great misfortune unto them, as with their short stature they could really do with a decent pair of heels..."
@@ -15772,8 +15698,13 @@ No, NO! I have - I --- acci--- pain, such pa--______
 ------------------------------------------------
 section "mod-tome/data/lore/misc.lua"
 
+t("memories of Artelia Firstborn", "mémoires d'Artelia Firstborn", "_t")
+t("human myth of creation", "mythe de la création humaine", "_t")
+t("a logical analysis of creation, by philosopher Smythen", "une analyse logique de la création, par le philosophe Smythen", "_t")
 t("eyal", "Eyal", "newLore category")
+t("Tale of the Moonsisters", "L'histoire des Soeurs Lunes", "_t")
 t("magic", "magie", "newLore category")
+t("On Adventuring", "A l'aventure", "_t")
 -- texte non traduit
 --[==[
 t("temple of creation", "temple of creation", "newLore category")
@@ -15951,7 +15882,6 @@ I have failed. Oh by the great wyrm's maw, I have failed! The beast Weisman set 
 I have failed. Oh by the great wyrm's maw, I have failed! The beast Weisman set out to slay was dead already by another's hand, but its corruption remained still. When I arrived in its chamber, Weisman was already half-gone; he was hacking away at foes only he could see. When I tried to stop him, he turned his axe on me... I am beaten and broken, hiding in some crevasse away from... from my own friend, who through the corruption in this place has been perverted into a monstrosity my axes were unable to fell. I hold no doubt that this is the last time I shall put quill to parchment, as even now I can hear my old friend's perverted voice.. calling to me. I bequeathe my belongings to any who slay ...
 #{italic}#(the ink blotch seems to indicate Weisman had caught up to his old friend, one-half of that abomination)#{normal}#]], "_t")
 t("myths of creation", "myths of creation", "newLore category")
-t("memories of Artelia Firstborn", "memories of Artelia Firstborn", "_t")
 t([[#{italic}#This scroll looks ancient, possibly going back millennia, but has been incredibly well-preserved.#{normal}#
 
 I remember when I first woke, and I drew my first breath, and the fresh young air of the world filled me with vitality. I opened my eyes, and above me stood a figure of outstanding radiance. She was tall and slim, crowned in silver hair that fell to the ground in silken tresses. Her skin was pale to the point of luminance, and her eyes were brighter than the stars.
@@ -15977,7 +15907,6 @@ As she finished speaking I instantly fell into a trance, and when I awoke I saw 
 Times passed and changed, and other creatures were found, and oft they were fell and vile and we did war with them. Then we found the Sher'Tul, and they delighted in our beauty, and taught us the ways of the Arts. And then the War came, and some of us helped them in their battles, but soon we saw we had no place beside such masters, and we retreated to the woods as the War raged to its catastrophic conclusion.
 
 In all those centuries I still searched for the woman and found no trace. I know that the gods were all hunted down, and I remember the thorough searches of the Sher'Tul in their holy war. I grow old now, and some of those who first woke with me have passed away, and each passing night seem ever colder and lonelier. But still at times when I lie asleep I see her face or I hear her voice, and I know that one day, somehow, I will see her again.]], "_t")
-t("human myth of creation", "human myth of creation", "_t")
 t([[At the start of time Sun was born, and Moons, and Eyal raised from the Darkness.
 And Gerlyk walked Eyal with his three brothers.
 But one day Gerlyk walked alone and realised he was alone, and he desired company.
@@ -16005,7 +15934,6 @@ But Gerlyk's brothers grew jealous of each others creatures, and they fought, an
 And Gerlyk was sad, and looked at Human and said, "I am sorry, but this is not a time for creators any more. I must go."
 And Gerlyk walked into the Darkness.
 But Human did not cry, for the coal in his heart burned hot, and he knew he was not truly alone.]], "_t")
-t("a logical analysis of creation, by philosopher Smythen", "a logical analysis of creation, by philosopher Smythen", "_t")
 t([[Many are the tales of how our world was made, from the absurd to the romantic to the horrific. But they are all mere myths, with no more than seeds of truth to even the most reliable. The history of our race goes back far, but it is tantalisingly scant in details from before we met the other races. Indeed, it is only through our battles with the others that we halflings have any ancient records at all.
 
 The elves one would suspect of having the greatest knowledge of elder times, but they are aloof and silent. One must judge from this that either they do not know, or that the truth ashames them. The latter would certainly not surprise me.
@@ -16039,7 +15967,6 @@ Now that this has been clearly analysed in logical terms, one must consider the 
 However there remains the matter of the Sher'Tul. Clearly these were of greater power than us, and yet they disappeared. One must presume that our god made this race before us, but was somehow unhappy with them, and so removed them and made us instead. We are not as powerful as the Sher'Tul - not yet at least - but we have our own gifts that evidently give us a greater place in our creator's heart. This would explain why we were the first race to unlock the powers of the Sher'Tul farportals. We had a natural affinity to the works of our elder brethren.
 
 So what happened to these gods after they had made the races which we see today? One must presume strife between them, and that they killed themselves, or took their battle away from the world. Our creator, seeing the other gods killed or left, must have then entrusted the world to us halflings, knowing that we would rule over it in his stead. This is why at every point in history we have played a pivotal role in the shaping of our world. It is our rightful inheritance, and it is our duty to rule it well.]], "_t")
-t("Tale of the Moonsisters", "Tale of the Moonsisters", "_t")
 t([[Eyal was raised from Darkness,
 And One came who made a blinding light called Sun,
 But Eyal flinched and said, "It is too bright!"
@@ -16631,7 +16558,6 @@ Eyal is a torn world, and the forces of nature can react strongly to the arcane 
 
 Eyal is a torn world, and the forces of nature can react strongly to the arcane energies that seek to manipulate them. Some items and areas are imbued with anti-magic, a natural energy that disrupts magical abilities and effects. There are even those who have learned to harness anti-magic into their own wild abilities, and who use them to hunt down and destroy those who practise magic. So beware, caster! It is a hostile world ye wander in.]], "_t")
 t("highfin", "highfin", "newLore category")
-t("On Adventuring", "On Adventuring", "_t")
 t([[I must say, as time grows, I feel so do I grow more and more inclined to distance myself from the calling of an 'adventurer', like so many you can find roaming the countryside. I feel like the myth of a wandering hero has blinded too many with promise of easy fame and riches, with no eye for the other kind of fortune.
 
 Hear me out on this.
@@ -17774,11 +17700,13 @@ Your disobedient son]], "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/spellhunt.lua"
 
-
+t("memories of archmage Varil", "mémoires de l'archimage Varil", "_t")
+t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du chasseur de sorciers partie 1 : Comment détecter un lanceur de sorts?", "_t")
+t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du chasseur de sorciers - Partie 2 : Comment combattre un utilisateur de magie?", "_t")
+t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du chasseur de sorciers partie 3 : Comment tuer un utilisateur de magie?", "_t")
 -- texte non traduit
 --[==[
 t("age of dusk", "age of dusk", "newLore category")
-t("memories of archmage Varil", "memories of archmage Varil", "_t")
 t([[From an objective viewpoint, you would think the Spellhunt futile, but it was not so. You couldn't imagine the barbarism of the magehunting mobs; they would abuse and persecute any they saw as eccentric, many of whom had no connection to magic at all.
 ...
 True mages would sometimes speak up in an act of altruism, just to stop the suffering of the innocent, but this only fuelled the horde's anger...
@@ -17796,7 +17724,6 @@ Other mages, those less forgiving and more given to action, would attack the rov
 Ones I saw were set upon by dozens, their conjured flames and bolts of energy failing against the maddened crowds... they would often literally rip the mage limb from limb. It was horrific.
 ...
 Angolwen, Linaniil calls it. I have known Linaniil for many years, and I know she has lost many loved ones to the Spellhunt, but she still holds true to her belief that one day we will be accepted once again. If this is the course of action she desires, I will follow her without question.]], "_t")
-t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Spellhunter's Guide part 1: How to Detect a Spellweaver", "_t")
 t([[Those who partake in the profane sorcery can oft be marked by their appearance, their mannerisms, their personal keeping and their effect on the environment around them. Keep close watch on all you meet, for they are deceptive creatures that can take on many guises. Even women, children and cripples may be clever disguises of demon-communers and necromancers.
 
 In their appearance you should be wary of the following:
@@ -17848,7 +17775,6 @@ In their effect on their environment you should be wary of the following:
 * Apparitions and unexplained events occur in their surroundings
 
 Note that a spellweaver will doubtless deny any accusation against them, and will show great emotion when evidence is laid before them. But one should not delay in bringing swift judgement, lest they try to cast a hex or escape by arcane means.]], "_t")
-t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Spellhunter's Guide part 2: How to Battle a Magic-User", "_t")
 t([[Those who rape the forces of nature with their malign wills doubtless unlock great powers to their advantage. We of noble cause, with our abilities aligned to nature's threads, can struggle to equal the terrible might of these unholy mages. But we must persist, for our cause is just, and the threat to this world from the terrors of the arcane evils cannot be under-stated. Too long has Eyal suffered the torture of their presence, and so we must fight with all the powers that nature can give us.
 
 Mobility is key against spell-slinging warlocks and witches. One must rush with full speed towards them and hack them down, not giving them time to utter a spell of attack or defence. Against multiple opponents this could be difficult, and retreat to less open space is often vital. Do not consider this cowardice, for you play the weaker hand and must take all advantage you can acquire. Get into a tighter environment, and keep behind a concealed corner until they are right upon you, before unleashing all of your strength against them without warning.
@@ -17866,7 +17792,6 @@ Necromancers and fell conjurers can present a great threat when they summon thei
 Hexes and curses can wreak terror upon you, and you would do well to have an infusion that removes these and other blighted magic effects when facing dread occultists. Infusions to augment your natural healing are also a must for difficult battles.
 
 Remember to show no mercy, for they will give you none.]], "_t")
-t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Spellhunter's Guide part 3: How to Kill a Magic-User", "_t")
 t([[When a magic-user is captured, they must be slain, and slain fast. Captivity is too great a risk. Preferably they should be killed in a way that utterly removes any means for the body to recover through arcane force. Remember that coming back from the dead is no alien feat to these abominations.
 
 Beheading is simple and effective, especially in a hurry, but ideally their other limbs should be removed too and sealed in separate metal cases wrapped in willow-bark.
@@ -17898,11 +17823,10 @@ The best method, if time and situation allows, is to very slowly slice the caste
 ------------------------------------------------
 section "mod-tome/data/lore/sunwall.lua"
 
-
+t("Loremaster Verutir's note", "Note du Chroniqueur Verutir", "_t")
 -- texte non traduit
 --[==[
 t("history of the Sunwall", "history of the Sunwall", "newLore category")
-t("Loremaster Verutir's note", "Loremaster Verutir's note", "_t")
 t([[Loremaster Verutir here. I have been assigned to write an official chronicle of the history of the Sunwall. This will be my notebook as I interview people and travel from place to place. If you are reading this, you are either my patron (thanks again, sir!), a sneak (get out of my journal!), or the finder of my corpse. If the last, please take this to Lord Forosyth of the town of the Sunwall for a reward, tell my wife how I died, and tell the kids that I love them.
 With that said I shall be starting this project by investigating the Elves and their connection to the Sunwall. They should be one of the easier races to interview considering their life expectancy and their penchant for remembering their own history. Of course, there aren't as many of them around as there used to be.
 ...
@@ -18045,7 +17969,7 @@ Alongside the note is a part of a plan of the region.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/zigur.lua"
 
-
+t("The story of my salvation", "L'histoire de mon salut", "_t")
 -- texte non traduit
 --[==[
 t("zigur", "zigur", "newLore category")
@@ -18107,7 +18031,6 @@ But we are not clear of danger yet. Magic still exists, though oft it lies secre
 We must never forget the terrors of the Great Evil, and the suffering brought upon us by those who choose to corrupt nature with arcane powers. Be wary in your travels, and be thorough in your duties. Our fight is difficult, but it is just and true, and not until all Maj'Eyal is cleansed of the impurities of magic can we ever know peace. We are the protectors of the world, and by our strength and our union with nature we shall be its saviours.
 
 -- Protector Myssil]], "_t")
-t("The story of my salvation", "The story of my salvation", "_t")
 t([[I used to be a potion merchant in Derth. I brewed alchemical tonics and elixirs for locals and travellers. My trade was good, and I lived very happily from the gold I earned. For a young woman to have such a business I was very proud.
 
 One day however several people in the town fell ill from a mystery disease. Rumours spread that my potions were to blame, and people stopped coming to my shop. My business was in ruins, and I soon ran the risk of becoming destitute. Then one of the elders died, and though he had been ill for some time, I was blamed for his death. People said I had laid a hex on him, and murmurs arose of witchcraft.
@@ -38329,13 +38252,13 @@ t("Warriors from afar. They wield the power of light, and a mean sword. Darkness
 section "mod-tome/data/zones/arena/objects.lua"
 
 t("armor", "armure", "entity type")
+t("feet", "pieds", "entity subtype")
 t("%s uses %s!", "%s utilise %s!", "logSeen")
 -- texte non traduit
 --[==[
 t("Arena for dummies", "Arena for dummies", "entity name")
 t("A note explaining the arena's scoring rules. Someone must have dropped it.", "A note explaining the arena's scoring rules. Someone must have dropped it.", "_t")
 t("a pair of leather boots of disengagement", "a pair of leather boots of disengagement", "entity name")
-t("feet", "feet", "entity subtype")
 t("A pair of boots made of leather. They seem to be of exceptional quality.", "A pair of boots made of leather. They seem to be of exceptional quality.", "_t")
 t("a pair of leather boots of phasing", "a pair of leather boots of phasing", "entity name")
 t("blink to a nearby random location within range %d (based on Magic)", "blink to a nearby random location within range %d (based on Magic)", "tformat")
@@ -39485,6 +39408,7 @@ t("A creature stands before you, with long tentacle-like appendages and a squat 
 section "mod-tome/data/zones/high-peak/objects.lua"
 
 t("gem", "gemme", "entity type")
+t("white", "blanc", "entity subtype")
 -- texte non traduit
 --[==[
 t("bloodsoaked diamond", "bloodsoaked diamond", "entity name")
@@ -39506,7 +39430,6 @@ t("absorb the essence (ignoring resistance and bypassing most defenses) of a tar
 t("was absorbed by the %s held by %s", "was absorbed by the %s held by %s", "tformat")
 t("#Source# brandishes %s %s, absorbing the essence of #target#!", "#Source# brandishes %s %s, absorbing the essence of #target#!", "logCombat")
 t("#ORCHID# %d essence drain#LAST#", "#ORCHID# %d essence drain#LAST#", "tformat")
-t("white", "white", "entity subtype")
 t("Pearl of Life and Death", "Pearl of Life and Death", "entity name")
 t("shining pearl", "shining pearl", "_t")
 t("A pearl, three times the size of a normal pearl, that glitters in infinite colours, with slight patterns ever shifting away.", "A pearl, three times the size of a normal pearl, that glitters in infinite colours, with slight patterns ever shifting away.", "_t")
@@ -39821,11 +39744,11 @@ Carefully weaving magic around it to keep it beating.]], "_t")
 section "mod-tome/data/zones/last-hope-graveyard/objects.lua"
 
 t("misc", "divers", "entity type")
+t("heart", "coeur", "entity subtype")
 -- texte non traduit
 --[==[
 t("creased letter", "creased letter", "entity name")
 t("A letter.", "A letter.", "_t")
-t("heart", "heart", "entity subtype")
 t("Celia's Still Beating Heart", "Celia's Still Beating Heart", "entity name")
 t("bloody heart", "bloody heart", "_t")
 t("The living heart of the necromancer Celia, carved out of her chest and preserved with magic.", "The living heart of the necromancer Celia, carved out of her chest and preserved with magic.", "_t")
@@ -39886,13 +39809,12 @@ t("An Elven corruptor, drawn to these blighted lands.", "An Elven corruptor, dra
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/objects.lua"
 
-
+t("heart", "coeur", "entity subtype")
 -- texte non traduit
 --[==[
 t("draft letter", "draft letter", "entity name")
 t("A letter.", "A letter.", "_t")
 t("corpse", "corpse", "entity type")
-t("heart", "heart", "entity subtype")
 t("Corrupted heart of the Sandworm Queen", "Corrupted heart of the Sandworm Queen", "entity name")
 t("pulsing organ", "pulsing organ", "_t")
 t("The heart of the Sandworm Queen, ripped from her dead body and corrupted in the mark of the spellblaze altar. You could ... consume it, should you feel mad enough.", "The heart of the Sandworm Queen, ripped from her dead body and corrupted in the mark of the spellblaze altar. You could ... consume it, should you feel mad enough.", "_t")
@@ -40657,6 +40579,7 @@ t("The sandworms are gone, devoured by this shrieking, warped horror.", "The san
 ------------------------------------------------
 section "mod-tome/data/zones/sandworm-lair/objects.lua"
 
+t("heart", "coeur", "entity subtype")
 t("blood", "sang", "entity subtype")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("red", "rouge", "entity subtype")
@@ -40665,7 +40588,6 @@ t("red", "rouge", "entity subtype")
 t("Song of the Sands", "Song of the Sands", "entity name")
 t("Some people get the weirdest ideas!", "Some people get the weirdest ideas!", "_t")
 t("corpse", "corpse", "entity type")
-t("heart", "heart", "entity subtype")
 t("Heart of the Sandworm Queen", "Heart of the Sandworm Queen", "entity name")
 t("pulsing organ", "pulsing organ", "_t")
 t([[The heart of the Sandworm Queen, ripped from her dead body.
@@ -41182,6 +41104,7 @@ section "mod-tome/data/zones/tannen-tower/objects.lua"
 
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
+t("jewelry", "bijoux", "entity type")
 -- texte non traduit
 --[==[
 t("Resonating Diamond", "Resonating Diamond", "entity name")
@@ -41189,7 +41112,6 @@ t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop
 t("Blood-Runed Athame", "Blood-Runed Athame", "entity name")
 t("athame", "athame", "_t")
 t("An athame, covered in blood runes. It radiates power.", "An athame, covered in blood runes. It radiates power.", "_t")
-t("jewelry", "jewelry", "entity type")
 t("orb", "orb", "entity subtype")
 t("Orb of Many Ways", "Orb of Many Ways", "entity name")
 t("swirling orb", "swirling orb", "_t")
@@ -41859,13 +41781,12 @@ t("A clean-looking Halfling resident of Last Hope.", "A clean-looking Halfling r
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/objects.lua"
 
-
+t("analysis", "analyse", "entity subtype")
 -- texte non traduit
 --[==[
 t("last hope foundation", "last hope foundation", "entity subtype")
 t("The Diaries of King Toknor the Brave (%d)", "The Diaries of King Toknor the Brave (%d)", "tformat")
 t("A part of the history of Last Hope, and King Toknor the Brave.", "A part of the history of Last Hope, and King Toknor the Brave.", "_t")
-t("analysis", "analysis", "entity subtype")
 t("southspar", "southspar", "entity subtype")
 t("the Pale King part %s", "the Pale King part %s", "tformat")
 t("one", "one", "_t")
@@ -42501,12 +42422,12 @@ t("Unremarkable Cave", "Unremarkable Cave", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/valley-moon/grids.lua"
 
+t("moonstone", "pierre de lune", "entity name")
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("Fearscape Portal", "Portail du Plan de la Peur", "entity name")
 -- texte non traduit
 --[==[
-t("moonstone", "moonstone", "entity name")
 t("An invocation portal, perpetually summoning beings through it.", "An invocation portal, perpetually summoning beings through it.", "_t")
 --]==]
 
@@ -42670,10 +42591,9 @@ t("and used as target practice for initiate mages", "and used as target practice
 ------------------------------------------------
 section "mod-tome/data/zones/vor-pride/objects.lua"
 
-
+t("tome", "volume", "entity subtype")
 -- texte non traduit
 --[==[
-t("tome", "tome", "entity subtype")
 t("Tome of Wildfire", "Tome of Wildfire", "entity name")
 t("burning book", "burning book", "_t")
 t("This huge book is covered in searing flames. Yet they do not harm you.", "This huge book is covered in searing flames. Yet they do not harm you.", "_t")
