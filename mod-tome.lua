@@ -156,13 +156,13 @@ t("Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.",
 t("I'm a cool hero", "Je suis un héros cool", "achievement name")
 t("Saved Derth without a single inhabitant dying.", "Sauver Derth sans qu'un seul habitant ne meure.", "_t")
 t("Kickin' it old-school", "Coup de pied à l'ancienne", "achievement name")
-t("Killed Urkis, the Tempest, causing him to drop the Rod of Recall.", "Tuer Urkis la Tempête, lui faisant lâcher le Bâton de Rappel.", "_t")
+t("Killed Urkis, the Tempest, causing him to drop the Rod of Recall.", "Tuer Urkis la Tempête, lui faisant lâcher le Bâtonnet de Rappel.", "_t")
 t("Leave the big boys alone", "Laisse les grands garçons tranquilles", "achievement name")
-t("Killed The Master, causing him to drop the Rod of Recall.", "Tuer le Maître, lui faisant lâcher le bâton de rappel.", "_t")
+t("Killed The Master, causing him to drop the Rod of Recall.", "Tuer le Maître, lui faisant lâcher le bâtonnet de rappel.", "_t")
 t("You know who's to blame", "Tu sais qui est à blâmer", "achievement name")
-t("Killed the Grand Corruptor, causing him to drop the Rod of Recall.", "Tuer le Grand Corrupteur, lui faisant lâcher le Bâton de Rappel.", "_t")
+t("Killed the Grand Corruptor, causing him to drop the Rod of Recall.", "Tuer le Grand Corrupteur, lui faisant lâcher le bâtonnet de Rappel.", "_t")
 t("You know who's to blame (reprise)", "Tu sais qui est à blâmer (reprise)", "achievement name")
-t("Killed Myssil, causing her to drop the Rod of Recall.", "Tuer Myssil, lui faisant lâcher le bâton de rappel.", "_t")
+t("Killed Myssil, causing her to drop the Rod of Recall.", "Tuer Myssil, lui faisant lâcher le bâtonnet de rappel.", "_t")
 t("Now, this is impressive!", "Maintenant, c'est impressionnant !", "achievement name")
 t("Killed Linaniil, the Supreme Archmage of Angolwen.", "Tuer Linaniil, l'archimage suprême d'Angolwen.", "_t")
 t("Fear of Fours", "Peur des quatre", "achievement name")
@@ -3502,7 +3502,7 @@ t("What can I do here?", "Que puis-je faire ici?", "_t")
 t("What else can this place do?", "Que peut faire de plus cet endroit?", "_t")
 t("Would it be possible to improve my Cloak of Deception so I do not need to wear it to pass as a living being?", "Serait-il possible d'améliorer ma cape de supercherie afin que je n'aie pas besoin de la porter pour passer pour un être vivant?", "_t")
 t("You asked me to come, about a farportal?", "Vous m'avez demandé de venir, à propos d'un portail lointain?", "_t")
-t("You asked me to come, about the rod of recall?", "Vous m'avez demandé de venir, à propos du bâton de rappel?", "_t")
+t("You asked me to come, about the rod of recall?", "Vous m'avez demandé de venir, à propos du bâtonnet de rappel?", "_t")
 t("Would it be possible for my Transmogrification Chest to automatically extract gems?", "Serait-il possible pour mon coffre de transmogrification d'extraire automatiquement les pierres précieuses?", "_t")
 t("Are there any training facilities?", "Y a-t-il une salle d'entrainement?", "_t")
 t("Can you use your magic to alter the appearance of my gear?", "Pouvez-vous utiliser votre magie pour modifier l'apparence de mon équipement?", "_t")
@@ -3511,10 +3511,10 @@ t("I have come upon a strange thing indeed. #LIGHT_GREEN#[tell him about Melinda
 t("[leave]", "[partir]", "_t")
 t([[*#LIGHT_GREEN#The creature glares at you.#WHITE#*
 You possess a control rod. You are the master.]], [[*#LIGHT_GREEN#La créature vous dévisage.#WHITE#*
-Vous possédez le bâton de contrôle. Vous êtes le maître.]], "_t")
+Vous possédez le bâtonnet de contrôle. Vous êtes le maître.]], "_t")
 t([[*#LIGHT_GREEN#The creature glares at you.#WHITE#*
 You are the master; you have the rod. I am created to speak to the master.]], [[*#LIGHT_GREEN#La créature vous dévisage.#WHITE#*
-Vous êtes le maître, vous avez le bâton. J'ai été créé pour parler au maître.]], "_t")
+Vous êtes le maître, vous avez le bâtonnet. J'ai été créé pour parler au maître.]], "_t")
 t([[*#LIGHT_GREEN#The creature glares at you with intensity. You 'see' images in your head.
 You see titanic wars in an age now forgotten. You see armies of what you suppose are Sher'Tuls since they look like the shadow.
 They fight with weapons, magic and other things. They fight gods. They hunt them down, killing or banishing them.
@@ -3566,11 +3566,11 @@ This Fortress is equipped with an exploratory farportal, and now has enough ener
 Beware that the return portal may not be nearby your arrival point; you will need to find it. You can use the rod of recall to try to force an emergency recall, but it has high chances of breaking the exploratory farportal forever.
 You may use the farportal; however, beware - I sense a strange presence in the farportal room.]], [[Il y a longtemps, les Sher'tuls utilisaient les portails lointain non seulement pour se rendre dans des lieux connus, mais aussi pour explorer de nouvelles parties du monde, voire d'autres mondes.
 Cette Forteresse est équipée d'un portail d'exploration, et dispose maintenant de suffisamment d'énergie pour permettre une téléportation. Chaque téléportation vous emmènera dans une partie aléatoire de l'univers et utilisera 45 énergies.
-Attention, le portail de retour peut ne pas être à proximité de votre point d'arrivée ; vous devrez le trouver. Vous pouvez utiliser le bâton de rappel pour tenter de forcer un rappel d'urgence, mais elle a de fortes chances de briser à jamais le portail d'exploration.
+Attention, le portail de retour peut ne pas être à proximité de votre point d'arrivée ; vous devrez le trouver. Vous pouvez utiliser le bâtonnet de rappel pour tenter de forcer un rappel d'urgence, mais elle a de fortes chances de briser à jamais le portail d'exploration.
 Vous pouvez utiliser le portail d'exploration; cependant, prenez garde - je sens une présence étrange dans la salle du portail.]], "_t")
 t("I will check it out, thanks.", "Je vais aller vérifier, merci.", "_t")
 t([[The rod of recall you possess is not a Sher'tul artifact, but it is based on Sher'tul design.
-The Fortress now has enough energy to upgrade it. It can be changed to recall you to the Fortress.]], [[Le bâton de rappel que vous possédez n'est pas un artefact Sher'tul, mais il est basé sur une conception Sher'tul.
+The Fortress now has enough energy to upgrade it. It can be changed to recall you to the Fortress.]], [[Le bâtonnet de rappel que vous possédez n'est pas un artefact Sher'tul, mais il est basé sur une conception Sher'tul.
 La Forteresse a maintenant assez d'énergie pour l'améliorer. Il peut être modifié pour vous rappeler à la Forteresse.]], "_t")
 t("I like it the way it is now. Thanks anyway.", "Je l'aime comme il est actuellement. Merci quand même.", "_t")
 t("That could be quite useful. Yes, please do it.", "Cela pourrait être très utile. Oui, faites-le, s'il vous plaît.", "_t")
@@ -3635,20 +3635,20 @@ t([[*#LIGHT_GREEN#This orb seems to represent the world of Eyal as a whole. It i
 t([[You do not understand the inscriptions there.#WHITE#*
 #{italic}#"Rokzan krilt copru."#{normal}#]], [[Vous ne comprenez pas les inscriptions qui s'y trouvent.#WHITE#*
 #{italic}#"Rokzan krilt copru."#{normal}#]], "_t")
-t("#WHITE#*#{italic}#\"Insert control rod.\"#{normal}#", "#WHITE#*#{italic}#\"Insérer le bâton de contrôle.\"#{normal}#", "_t")
+t("#WHITE#*#{italic}#\"Insert control rod.\"#{normal}#", "#WHITE#*#{italic}#\"Insérer le bâtonnet de contrôle.\"#{normal}#", "_t")
 t("[Examine the orb]", "[Examiner l'orbe]", "_t")
 t("[Fly the fortress -- #LIGHT_RED#FOR TESTING ONLY#LAST#]", "[Faire voler la forteresse -- #LIGHT_RED#POUR LES TESTS SEULEMENT#LAST#]", "_t")
 t("[Begin the Lichform ceremory]", "[Commencer la cérémonie de forme de Liche]", "_t")
 t("[Leave the orb alone]", "[Laisser l'orbe tranquille]", "_t")
 t([[*#LIGHT_GREEN#The device seems to be made of pure crystal. It projects a very accurate map of the known world - including the forbidden continent of the south.
 There seems to be a hole about the size and form of your Rod of Recall.#WHITE#*]], [[*#LIGHT_GREEN#L'appareil semble être fait de cristal pur. Il projette une carte très précise du monde connu - y compris le continent interdit du sud.
-Il semble y avoir un trou de la taille et de la forme de votre bâton de rappel.#WHITE#*]], "_t")
-t("[Insert the rod]", "[Inserer le bâton]", "_t")
+Il semble y avoir un trou de la taille et de la forme de votre bâtonnet de rappel.#WHITE#*]], "_t")
+t("[Insert the rod]", "[Inserer le bâtonnet]", "_t")
 t([[*#LIGHT_GREEN#As you take the rod close to the orb it seems to vibrate and react.
 A shadow appears in a corner of the room! You retract the rod immediately but the shadow stays.
 It looks like the horrors you fought when coming inside, only less degenerated.
-The thing looks roughly humanoid, but it has no head and its limbs look like tentacles. It does not seem hostile.#WHITE#*]], [[*#LIGHT_GREEN#Lorsque vous placer le bâton près de l'orbe, elle semble vibrer et réagir.
-Une ombre apparaît dans un coin de la pièce! Vous reculer le bâton immédiatement mais l'ombre reste.
+The thing looks roughly humanoid, but it has no head and its limbs look like tentacles. It does not seem hostile.#WHITE#*]], [[*#LIGHT_GREEN#Lorsque vous placer le bâtonnet près de l'orbe, elle semble vibrer et réagir.
+Une ombre apparaît dans un coin de la pièce! Vous reculer le bâtonnet immédiatement mais l'ombre reste.
 Elle ressemble aux horreurs que vous avez combattues en entrant à l'intérieur, mais en moins dégénéré.
 La chose a l'air grossièrement humanoïde, mais elle n'a pas de tête et ses membres ressemblent à des tentacules. Elle ne semble pas hostile.#WHITE#*]], "_t")
 
@@ -9539,499 +9539,473 @@ section "mod-tome/data/general/objects/quest-artifacts.lua"
 
 t("weapon", "arme", "entity type")
 t("staff", "bâton", "entity subtype")
+t("Staff of Absorption", "Bâton d'absorption", "entity name")
 t("staff", "bâton", "entity combat talented")
-t("Cancel", "Annuler", "_t")
-t("Transmogrification Chest", "Coffre de Transmogrification", "entity name")
-t("Transmogrification Chest", "Coffre de Transmogrification", "_t")
--- texte non traduit
---[==[
-t("Staff of Absorption", "Staff of Absorption", "entity name")
-t("dark runed staff", "dark runed staff", "_t")
+t("dark runed staff", "sombre bâton runique", "_t")
 t([[Carved with runes of power, this staff seems to have been made long ago, yet it bears no signs of tarnish.
-Light around it seems to dim and you can feel its tremendous power simply by touching it.]], [[Carved with runes of power, this staff seems to have been made long ago, yet it bears no signs of tarnish.
-Light around it seems to dim and you can feel its tremendous power simply by touching it.]], "_t")
-t("absorb energies", "absorb energies", "_t")
-t("This power seems too much to wield; you fear it might absorb YOU.", "This power seems too much to wield; you fear it might absorb YOU.", "logPlayer")
-t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
-t("orb", "orb", "entity type")
-t("orb", "orb", "entity subtype")
-t("Orb of Many Ways", "Orb of Many Ways", "entity name")
-t("swirling orb", "swirling orb", "_t")
+Light around it seems to dim and you can feel its tremendous power simply by touching it.]], [[Sculpté de runes de pouvoir, ce bâton semble avoir été fabriqué il y a longtemps, mais il ne porte aucun signe de ternissement.
+La lumière qui l'entoure semble s'atténuer et vous pouvez ressentir son immense pouvoir simplement en le touchant.]], "_t")
+t("absorb energies", "absorbe les énergies", "_t")
+t("This power seems too much to wield; you fear it might absorb YOU.", "Ce pouvoir semble trop lourd à gérer; vous craignez qu'il ne VOUS absorbe.", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("orb", "orbe", "entity type")
+t("orb", "orbe", "entity subtype")
+t("Orb of Many Ways", "Orbe des Multiples Voies", "entity name")
+t("swirling orb", "orbe tourbillonnant", "_t")
 t([[The orb projects images of distant places, some that seem to be not of this world, switching rapidly.
-If used near a portal it could probably activate it.]], [[The orb projects images of distant places, some that seem to be not of this world, switching rapidly.
-If used near a portal it could probably activate it.]], "_t")
-t("activate a portal", "activate a portal", "_t")
-t("There is no portal to activate here.", "There is no portal to activate here.", "logPlayer")
-t("#VIOLET#The world twists sickeningly around you and you find yourself someplace unexpected! It felt nothing like your previous uses of the Orb of Many Ways. Tannen must have switched the Orb out for a fake!", "#VIOLET#The world twists sickeningly around you and you find yourself someplace unexpected! It felt nothing like your previous uses of the Orb of Many Ways. Tannen must have switched the Orb out for a fake!", "_t")
-t("Demonic Orb of Many Ways", "Demonic Orb of Many Ways", "_t")
-t("It felt nothing like your previous uses of the Orb of Many Ways. Tannen must have switched the Orb out for a fake!", "It felt nothing like your previous uses of the Orb of Many Ways. Tannen must have switched the Orb out for a fake!", "_t")
-t("Orb of Undeath (Orb of Command)", "Orb of Undeath (Orb of Command)", "entity name")
-t("orb of command", "orb of command", "_t")
-t("Dark visions fill your mind as you lift the orb. It is cold to the touch.", "Dark visions fill your mind as you lift the orb. It is cold to the touch.", "_t")
-t("use the orb", "use the orb", "_t")
-t("Dragon Orb (Orb of Command)", "Dragon Orb (Orb of Command)", "entity name")
-t("This orb is warm to the touch.", "This orb is warm to the touch.", "_t")
-t("Elemental Orb (Orb of Command)", "Elemental Orb (Orb of Command)", "entity name")
-t("Flames swirl on the icy surface of this orb.", "Flames swirl on the icy surface of this orb.", "_t")
-t("Orb of Destruction (Orb of Command)", "Orb of Destruction (Orb of Command)", "entity name")
-t("Visions of death and destruction fill your mind as you lift this orb.", "Visions of death and destruction fill your mind as you lift this orb.", "_t")
-t("Scrying Orb", "Scrying Orb", "entity name")
-t("orb of scrying", "orb of scrying", "_t")
-t("This orb will automatically identify items you find.", "This orb will automatically identify items you find.", "_t")
-t("Rod of Recall", "Rod of Recall", "entity name")
-t("unstable rod", "unstable rod", "_t")
+If used near a portal it could probably activate it.]], [[L'orbe projette des images de lieux lointains, dont certains ne semblent pas être de ce monde, et changent rapidement.
+Si elle est utilisée près d'un portail, elle pourrait probablement l'activer.]], "_t")
+t("activate a portal", "activer un portail", "_t")
+t("There is no portal to activate here.", "Il n'y a pas de portail à activer ici.", "logPlayer")
+t("#VIOLET#The world twists sickeningly around you and you find yourself someplace unexpected! It felt nothing like your previous uses of the Orb of Many Ways. Tannen must have switched the Orb out for a fake!", "#VIOLET#Le monde se tord maladivement autour de vous et vous vous retrouvez dans un endroit inattendu! Cela ne ressemble en rien à vos précédentes utilisations de l'Orbe des Multiples Voies. Tannen a dû échanger l'orbe contre une fausse!", "_t")
+t("Demonic Orb of Many Ways", "Orbe des Multiples Voies Démoniaque", "_t")
+t("It felt nothing like your previous uses of the Orb of Many Ways. Tannen must have switched the Orb out for a fake!", "Cela ne ressemble en rien à vos précédentes utilisations de l'Orbe des Multiples Voies. Tannen a dû échanger l'orbe contre une fausse!", "_t")
+t("Orb of Undeath (Orb of Command)", "Orbe de Non-Vie (Orbe de Commandement)", "entity name")
+t("orb of command", "orbe de commandement", "_t")
+t("Dark visions fill your mind as you lift the orb. It is cold to the touch.", "De sombres visions envahissent votre esprit lorsque vous soulevez l'orbe. Elle est froide au toucher.", "_t")
+t("use the orb", "utiliser l'orbe", "_t")
+t("Dragon Orb (Orb of Command)", "Orbe Draconique (Orbe de Commandement)", "entity name")
+t("This orb is warm to the touch.", "Cette orbe est chaude au toucher.", "_t")
+t("Elemental Orb (Orb of Command)", "Orbe Elémentaire (Orbe de Commandement)", "entity name")
+t("Flames swirl on the icy surface of this orb.", "Les flammes tourbillonnent sur la surface glacée de cet orbe.", "_t")
+t("Orb of Destruction (Orb of Command)", "Orbe de Destruction (Orbe de Commandement)", "entity name")
+t("Visions of death and destruction fill your mind as you lift this orb.", "Des visions de mort et de destruction emplissent votre esprit lorsque vous soulevez cet orbe.", "_t")
+t("Scrying Orb", "Orbe de Scrutation", "entity name")
+t("orb of scrying", "orbe de scrutation", "_t")
+t("This orb will automatically identify items you find.", "Cet orbe identifiera automatiquement les objets que vous trouverez.", "_t")
+t("Rod of Recall", "Bâtonnet de Rappel", "entity name")
+t("unstable rod", "bâtonnet instable", "_t")
 t([[This rod is made entirely of voratun, infused with raw magical energies that can bend space itself.
-You have heard of such items before. They are very useful to adventurers, allowing faster travel.]], [[This rod is made entirely of voratun, infused with raw magical energies that can bend space itself.
-You have heard of such items before. They are very useful to adventurers, allowing faster travel.]], "_t")
-t("recall the user to the worldmap after 40 turns", "recall the user to the worldmap after 40 turns", "_t")
-t("The rod emits a strange noise, glows briefly and returns to normal.", "The rod emits a strange noise, glows briefly and returns to normal.", "logPlayer")
-t("Space around you starts to dissolve...", "Space around you starts to dissolve...", "logPlayer")
-t("Force a recall", "Force a recall", "_t")
-t("The Fortress Shadow warned you that trying to force a recall without finding the portal back could break the exploratory farportal forever.", "The Fortress Shadow warned you that trying to force a recall without finding the portal back could break the exploratory farportal forever.", "_t")
-t("Recall", "Recall", "_t")
-t("Rod of Recall", "Rod of Recall", "_t")
-t("You found a Rod of Recall. You can use it to quickly get out of your current zone and return to the worldmap.", "You found a Rod of Recall. You can use it to quickly get out of your current zone and return to the worldmap.", "_t")
-t("chest", "chest", "entity type")
-t("sher'tul", "sher'tul", "entity subtype")
+You have heard of such items before. They are very useful to adventurers, allowing faster travel.]], [[Ce bâtonnet est entièrement fait de voratun, infusé d'énergies magiques brutes qui peuvent plier l'espace lui-même.
+Vous avez déjà entendu parler de tels objets. Ils sont très utiles aux aventuriers, permettant de voyager plus rapidement.]], "_t")
+t("recall the user to the worldmap after 40 turns", "rappelle l'utilisateur sur la carte du monde après 40 tours", "_t")
+t("The rod emits a strange noise, glows briefly and returns to normal.", "Le bâtonnet émet un bruit étrange, brille brièvement et revient à la normale.", "logPlayer")
+t("Space around you starts to dissolve...", "L'espace autour de vous commence à se dissoudre...", "logPlayer")
+t("Force a recall", "Forcer un rappel", "_t")
+t("The Fortress Shadow warned you that trying to force a recall without finding the portal back could break the exploratory farportal forever.", "L'Ombre de la Forteresse vous a prévenu qu'en essayant de forcer un rappel sans trouver le portail de retour vous risquiez de briser le portail lointain d'exploration pour toujours.", "_t")
+t("Cancel", "Annuler", "_t")
+t("Recall", "Rappel", "_t")
+t("Rod of Recall", "Bâtonnet de Rappel", "_t")
+t("You found a Rod of Recall. You can use it to quickly get out of your current zone and return to the worldmap.", "Vous avez trouvé un bâtonnet de rappel. Vous pouvez l'utiliser pour sortir rapidement de votre zone actuelle et revenir à la carte du monde.", "_t")
+t("chest", "coffre", "entity type")
+t("Transmogrification Chest", "Coffre de Transmogrification", "entity name")
 t([[This chest is an extension of old Sher'tul places of power. Any items dropped inside are transported to an other place, processed and destroyed to extract energy.
 The byproduct of this effect is the creation of gold, which is useless to process, so it is sent back to you.
 
 When you possess the chest all items you walk upon will automatically be put inside and transmogrified when you leave the level.
 Simply go to your inventory to move them out of the chest if you wish to keep them.
-Items in the chest will not encumber you.]], [[This chest is an extension of old Sher'tul places of power. Any items dropped inside are transported to an other place, processed and destroyed to extract energy.
-The byproduct of this effect is the creation of gold, which is useless to process, so it is sent back to you.
+Items in the chest will not encumber you.]], [[Ce coffre est une extension des anciens lieux de pouvoir Sher'tul. Tout objet déposé à l'intérieur est transporté vers un autre lieu, traité et détruit pour en extraire de l'énergie.
+Le sous-produit de cet effet est la création d'or, qui est inutile à traiter, donc il vous est renvoyé.
 
-When you possess the chest all items you walk upon will automatically be put inside and transmogrified when you leave the level.
-Simply go to your inventory to move them out of the chest if you wish to keep them.
-Items in the chest will not encumber you.]], "_t")
-t("transmogrify all the items in your chest at once (also done automatically when you change level)", "transmogrify all the items in your chest at once (also done automatically when you change level)", "_t")
-t("Make the Transmogrification Chest the default item's destroyer?", "Make the Transmogrification Chest the default item's destroyer?", "_t")
-t("You do not have any items to transmogrify in your chest or on the floor.", "You do not have any items to transmogrify in your chest or on the floor.", "_t")
-t("Transmogrify all %s item(s) on the floor?", "Transmogrify all %s item(s) on the floor?", "tformat")
-t("Transmogrify all %s item(s) in your chest?", "Transmogrify all %s item(s) in your chest?", "tformat")
+Lorsque vous possédez le coffre, tous les objets sur lesquels vous marchez seront automatiquement placés à l'intérieur et transmogrifiés lorsque vous quitterez le niveau.
+Il suffit d'aller dans votre inventaire pour les déplacer hors du coffre si vous souhaitez les garder.
+Les objets dans le coffre ne vous encombreront pas.]], "_t")
+t("transmogrify all the items in your chest at once (also done automatically when you change level)", "transmogrifier tous les objets de votre coffre en une seule fois (se fait aussi automatiquement lorsque vous changez de niveau)", "_t")
+t("Transmogrification Chest", "Coffre de Transmogrification", "_t")
+t("Make the Transmogrification Chest the default item's destroyer?", "Faire du Coffre de Transmogrification le destructeur d'objets par défaut ?", "_t")
+t("You do not have any items to transmogrify in your chest or on the floor.", "Vous n'avez pas d'objets à transmogrifier dans votre coffre ou sur le sol.", "_t")
+t("Transmogrify all %s item(s) on the floor?", "Transmogrifier tous les %s objets au sol?", "tformat")
+t("Transmogrify all %s item(s) in your chest?", "Transmogrifier tous les %s objets de votre coffre?", "tformat")
 t([[This chest is an extension of old Sher'Tul places of power. Any items dropped inside is transported to an other place, processed and destroyed to extract energy.
 The byproduct of this effect is the creation of gold, which is useless to process, so it is sent back to you.
 
 When you possess the chest all items you walk upon will automatically be put inside and transmogrified when you leave the level.
 To take an item out, simply go to your inventory to move them out of the chest.
-Items in the chest will not encumber you.]], [[This chest is an extension of old Sher'Tul places of power. Any items dropped inside is transported to an other place, processed and destroyed to extract energy.
-The byproduct of this effect is the creation of gold, which is useless to process, so it is sent back to you.
+Items in the chest will not encumber you.]], [[Ce coffre est une extension des anciens lieux de pouvoir Sher'tul. Tout objet déposé à l'intérieur est transporté vers un autre lieu, traité et détruit pour en extraire de l'énergie.
+Le sous-produit de cet effet est la création d'or, qui est inutile à traiter, donc il vous est renvoyé.
 
-When you possess the chest all items you walk upon will automatically be put inside and transmogrified when you leave the level.
-To take an item out, simply go to your inventory to move them out of the chest.
-Items in the chest will not encumber you.]], "_t")
-t("Bikini", "Bikini", "entity name")
-t("tiny piece of cloth", "tiny piece of cloth", "_t")
+Lorsque vous possédez le coffre, tous les objets sur lesquels vous marchez seront automatiquement placés à l'intérieur et transmogrifiés lorsque vous quitterez le niveau.
+Pour sortir un objet, il suffit d'aller dans votre inventaire pour le déplacer hors du coffre.
+Les objets dans le coffre ne vous encombreront pas.]], "_t")
+t("tiny piece of cloth", "petit bout de tissu", "_t")
 t([[Revealing, pink, fun.
-#{bold}#If you never take it off and win you will gain a neat achievement and bragging rights!#{normal}#]], [[Revealing, pink, fun.
-#{bold}#If you never take it off and win you will gain a neat achievement and bragging rights!#{normal}#]], "_t")
-t("You have never taken it off.", "You have never taken it off.", "_t")
-t("Mankini", "Mankini", "entity name")
+#{bold}#If you never take it off and win you will gain a neat achievement and bragging rights!#{normal}#]], [[Révélateur, rose, amusant.
+#{bold}#Si vous ne l'enlevez jamais et que vous gagnez, vous obtiendrez un bel exploit et le droit de vous vanter!#{normal}#]], "_t")
+t("You have never taken it off.", "Vous ne l'avez jamais enlevé.", "_t")
 t([[Revealing, green, fun.
-#{bold}#If you never take it off and win you will gain a neat achievement and bragging rights!#{normal}#]], [[Revealing, green, fun.
-#{bold}#If you never take it off and win you will gain a neat achievement and bragging rights!#{normal}#]], "_t")
+#{bold}#If you never take it off and win you will gain a neat achievement and bragging rights!#{normal}#]], [[Révélateur, vert, amusant.
+#{bold}#Si vous ne l'enlevez jamais et que vous gagnez, vous obtiendrez un bel exploit et le droit de vous vanter!#{normal}#]], "_t")
+-- texte non traduit
+--[==[
+t("sher'tul", "sher'tul", "entity subtype")
+t("Bikini", "Bikini", "entity name")
+t("Mankini", "Mankini", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/ammo.lua"
 
-
--- texte non traduit
---[==[
-t("ammo reload", "ammo reload", "entity name")
-t("travel speed", "travel speed", "entity name")
---]==]
-
+t("ammo reload", "rechargement des munitions", "entity name")
+t("travel speed", "vitesse de déplacement", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/generic.lua"
 
-
--- texte non traduit
---[==[
-t("generic spellpower", "generic spellpower", "entity name")
-t("generic spellcrit", "generic spellcrit", "entity name")
-t("generic spell crit magnitude", "generic spell crit magnitude", "entity name")
-t("generic spellsurge", "generic spellsurge", "entity name")
-t("generic mana regeneration", "generic mana regeneration", "entity name")
-t("generic increased mana", "generic increased mana", "entity name")
-t("generic mana on crit", "generic mana on crit", "entity name")
-t("generic increased vim", "generic increased vim", "entity name")
-t("generic vim on crit", "generic vim on crit", "entity name")
-t("generic phasing", "generic phasing", "entity name")
-t("generic mindpower", "generic mindpower", "entity name")
-t("generic mindcrit", "generic mindcrit", "entity name")
-t("generic mind crit magnitude", "generic mind crit magnitude", "entity name")
-t("generic equilibrium on hit", "generic equilibrium on hit", "entity name")
-t("generic max hate", "generic max hate", "entity name")
-t("generic hate on crit", "generic hate on crit", "entity name")
-t("generic max psi", "generic max psi", "entity name")
-t("generic psi on hit", "generic psi on hit", "entity name")
-t("generic phys dam", "generic phys dam", "entity name")
-t("generic phys apr", "generic phys apr", "entity name")
-t("generic phys crit", "generic phys crit", "entity name")
-t("generic phys atk", "generic phys atk", "entity name")
-t("generic phys crit magnitude", "generic phys crit magnitude", "entity name")
-t("generic stamina regeneration", "generic stamina regeneration", "entity name")
-t("generic increased stamina", "generic increased stamina", "entity name")
-t("generic def", "generic def", "entity name")
-t("generic armor", "generic armor", "entity name")
-t("generic life regeneration", "generic life regeneration", "entity name")
-t("generic increased life", "generic increased life", "entity name")
-t("generic improve heal", "generic improve heal", "entity name")
-t("generic save physical", "generic save physical", "entity name")
-t("generic save spell", "generic save spell", "entity name")
-t("generic save mental", "generic save mental", "entity name")
-t("generic immune stun", "generic immune stun", "entity name")
-t("generic immune knockback", "generic immune knockback", "entity name")
-t("generic immune blind", "generic immune blind", "entity name")
-t("generic immune confusion", "generic immune confusion", "entity name")
-t("generic immune pin", "generic immune pin", "entity name")
-t("generic immune poison", "generic immune poison", "entity name")
-t("generic immune disease", "generic immune disease", "entity name")
-t("generic immune silence", "generic immune silence", "entity name")
-t("generic immune disarm", "generic immune disarm", "entity name")
-t("generic immune cut", "generic immune cut", "entity name")
-t("generic immune teleport", "generic immune teleport", "entity name")
-t("generic resist physical", "generic resist physical", "entity name")
-t("generic resist mind", "generic resist mind", "entity name")
-t("generic resist fire", "generic resist fire", "entity name")
-t("generic resist cold", "generic resist cold", "entity name")
-t("generic resist acid", "generic resist acid", "entity name")
-t("generic resist lightning", "generic resist lightning", "entity name")
-t("generic resist arcane", "generic resist arcane", "entity name")
-t("generic resist nature", "generic resist nature", "entity name")
-t("generic resist blight", "generic resist blight", "entity name")
-t("generic resist light", "generic resist light", "entity name")
-t("generic resist darkness", "generic resist darkness", "entity name")
-t("generic resist temporal", "generic resist temporal", "entity name")
-t("generic physical retribution", "generic physical retribution", "entity name")
-t("generic mind retribution", "generic mind retribution", "entity name")
-t("generic acid retribution", "generic acid retribution", "entity name")
-t("generic lightning retribution", "generic lightning retribution", "entity name")
-t("generic fire retribution", "generic fire retribution", "entity name")
-t("generic cold retribution", "generic cold retribution", "entity name")
-t("generic light retribution", "generic light retribution", "entity name")
-t("generic dark retribution", "generic dark retribution", "entity name")
-t("generic blight retribution", "generic blight retribution", "entity name")
-t("generic nature retribution", "generic nature retribution", "entity name")
-t("generic arcane retribution", "generic arcane retribution", "entity name")
-t("generic temporal retribution", "generic temporal retribution", "entity name")
-t("generic inc damage physical", "generic inc damage physical", "entity name")
-t("generic inc damage mind", "generic inc damage mind", "entity name")
-t("generic inc damage fire", "generic inc damage fire", "entity name")
-t("generic inc damage cold", "generic inc damage cold", "entity name")
-t("generic inc damage acid", "generic inc damage acid", "entity name")
-t("generic inc damage lightning", "generic inc damage lightning", "entity name")
-t("generic inc damage arcane", "generic inc damage arcane", "entity name")
-t("generic inc damage nature", "generic inc damage nature", "entity name")
-t("generic inc damage blight", "generic inc damage blight", "entity name")
-t("generic inc damage light", "generic inc damage light", "entity name")
-t("generic inc damage darkness", "generic inc damage darkness", "entity name")
-t("generic inc damage temporal", "generic inc damage temporal", "entity name")
-t("generic resists pen physical", "generic resists pen physical", "entity name")
-t("generic resists pen mind", "generic resists pen mind", "entity name")
-t("generic resists pen fire", "generic resists pen fire", "entity name")
-t("generic resists pen cold", "generic resists pen cold", "entity name")
-t("generic resists pen acid", "generic resists pen acid", "entity name")
-t("generic resists pen lightning", "generic resists pen lightning", "entity name")
-t("generic resists pen arcane", "generic resists pen arcane", "entity name")
-t("generic resists pen nature", "generic resists pen nature", "entity name")
-t("generic resists pen blight", "generic resists pen blight", "entity name")
-t("generic resists pen light", "generic resists pen light", "entity name")
-t("generic resists pen darkness", "generic resists pen darkness", "entity name")
-t("generic resists pen temporal", "generic resists pen temporal", "entity name")
-t("generic stat str", "generic stat str", "entity name")
-t("generic stat dex", "generic stat dex", "entity name")
-t("generic stat mag", "generic stat mag", "entity name")
-t("generic stat wil", "generic stat wil", "entity name")
-t("generic stat cun", "generic stat cun", "entity name")
-t("generic stat con", "generic stat con", "entity name")
-t("generic see invisible", "generic see invisible", "entity name")
-t("generic infravision radius", "generic infravision radius", "entity name")
-t("generic lite radius", "generic lite radius", "entity name")
-t("generic corrupted blood melee", "generic corrupted blood melee", "entity name")
-t("generic acid corrode melee", "generic acid corrode melee", "entity name")
-t("generic mind expose melee", "generic mind expose melee", "entity name")
-t("generic manaburn melee", "generic manaburn melee", "entity name")
-t("generic temporal energize melee", "generic temporal energize melee", "entity name")
-t("generic slime melee", "generic slime melee", "entity name")
-t("generic dark numbing melee", "generic dark numbing melee", "entity name")
-t("generic die at", "generic die at", "entity name")
-t("generic ignore crit", "generic ignore crit", "entity name")
-t("generic void", "generic void", "entity name")
---]==]
-
+t("generic spellpower", "puissance des sorts générique", "entity name")
+t("generic spellcrit", "crit de sort générique", "entity name")
+t("generic spell crit magnitude", "magnitude de chance de crit des sorts générique", "entity name")
+t("generic spellsurge", "surcharge de sort générique", "entity name")
+t("generic mana regeneration", "régéneration de mana générique", "entity name")
+t("generic increased mana", "augmentation de mana générique", "entity name")
+t("generic mana on crit", "mana sur crit générique", "entity name")
+t("generic increased vim", "augmentation de vigueur générique", "entity name")
+t("generic vim on crit", "vigueur sur crit générique", "entity name")
+t("generic phasing", "phase générique", "entity name")
+t("generic mindpower", "puissance mentale générique", "entity name")
+t("generic mindcrit", "crit mental générique", "entity name")
+t("generic mind crit magnitude", "magnitude de chance de crit mental générique", "entity name")
+t("generic equilibrium on hit", "équilibre sur touche générique", "entity name")
+t("generic max hate", "haine maximum générique", "entity name")
+t("generic hate on crit", "haine sur crit générique", "entity name")
+t("generic max psi", "psi max générique", "entity name")
+t("generic psi on hit", "psi sur touche générique", "entity name")
+t("generic phys dam", "dam phys générique", "entity name")
+t("generic phys apr", "pén phys générique", "entity name")
+t("generic phys crit", "crit phys générique", "entity name")
+t("generic phys atk", "atk phys générique", "entity name")
+t("generic phys crit magnitude", "magnitude de crit phys générique", "entity name")
+t("generic stamina regeneration", "régénération d'endurance générique", "entity name")
+t("generic increased stamina", "augmentation d'endurance générique", "entity name")
+t("generic def", "def générique", "entity name")
+t("generic armor", "armure générique", "entity name")
+t("generic life regeneration", "régénération vie générique", "entity name")
+t("generic increased life", "augmentation vie générique", "entity name")
+t("generic improve heal", "amélioration soin générique", "entity name")
+t("generic save physical", "sauvegarde physique générique", "entity name")
+t("generic save spell", "sauvegarde des sorts générique", "entity name")
+t("generic save mental", "sauvegarde mentale générique", "entity name")
+t("generic immune stun", "immunité à l'assomement générique", "entity name")
+t("generic immune knockback", "imunité au repoussage générique", "entity name")
+t("generic immune blind", "immunité à l'aveuglement générique", "entity name")
+t("generic immune confusion", "immunité à la confusion générique", "entity name")
+t("generic immune pin", "immunité à l'immobilisation générique", "entity name")
+t("generic immune poison", "immunité au poison générique", "entity name")
+t("generic immune disease", "immunité à la maladie générique", "entity name")
+t("generic immune silence", "immunité au silence générique", "entity name")
+t("generic immune disarm", "immunité au désarmement générique", "entity name")
+t("generic immune cut", "immunité à l'entaillage générique", "entity name")
+t("generic immune teleport", "immunité à la téléportation générique", "entity name")
+t("generic resist physical", "résist physique générique", "entity name")
+t("generic resist mind", "résist mentale générique", "entity name")
+t("generic resist fire", "résist feu générique", "entity name")
+t("generic resist cold", "résist froid générique", "entity name")
+t("generic resist acid", "résist acide générique", "entity name")
+t("generic resist lightning", "résist foudre générique", "entity name")
+t("generic resist arcane", "résist arcane générique", "entity name")
+t("generic resist nature", "résist nature générique", "entity name")
+t("generic resist blight", "résist maladie générique", "entity name")
+t("generic resist light", "résist lumière générique", "entity name")
+t("generic resist darkness", "résist obscurité générique", "entity name")
+t("generic resist temporal", "résist temporel générique", "entity name")
+t("generic physical retribution", "représaille physique générique", "entity name")
+t("generic mind retribution", "représaille mentale générique", "entity name")
+t("generic acid retribution", "représaille acide générique", "entity name")
+t("generic lightning retribution", "représaille de foudre générique", "entity name")
+t("generic fire retribution", "représaille de feu générique", "entity name")
+t("generic cold retribution", "représaille de froid générique", "entity name")
+t("generic light retribution", "représaille de lumière générique", "entity name")
+t("generic dark retribution", "représaille d'obscurité générique", "entity name")
+t("generic blight retribution", "représaille de maladie générique", "entity name")
+t("generic nature retribution", "représaille de nature générique", "entity name")
+t("generic arcane retribution", "représaille d'arcane générique", "entity name")
+t("generic temporal retribution", "représaille temporelle générique", "entity name")
+t("generic inc damage physical", "aug dégât physique générique", "entity name")
+t("generic inc damage mind", "aug dégât mentaux générique", "entity name")
+t("generic inc damage fire", "aug dégât feu générique", "entity name")
+t("generic inc damage cold", "aug dégât froid générique", "entity name")
+t("generic inc damage acid", "aug dégât acide générique", "entity name")
+t("generic inc damage lightning", "aug dégât foudre générique", "entity name")
+t("generic inc damage arcane", "aug dégât arcane générique", "entity name")
+t("generic inc damage nature", "aug dégât nature générique", "entity name")
+t("generic inc damage blight", "aug dégât maladie générique", "entity name")
+t("generic inc damage light", "aug dégât lumière générique", "entity name")
+t("generic inc damage darkness", "aug dégât obscurité générique", "entity name")
+t("generic inc damage temporal", "aug dégât temporel générique", "entity name")
+t("generic resists pen physical", "résist pén physique générique", "entity name")
+t("generic resists pen mind", "résist pén mentale générique", "entity name")
+t("generic resists pen fire", "résist pén feu générique", "entity name")
+t("generic resists pen cold", "résist pén froid générique", "entity name")
+t("generic resists pen acid", "résist pén acide générique", "entity name")
+t("generic resists pen lightning", "résist pén foudre générique", "entity name")
+t("generic resists pen arcane", "résist pén arcane générique", "entity name")
+t("generic resists pen nature", "résist pén nature générique", "entity name")
+t("generic resists pen blight", "résist pén maladie générique", "entity name")
+t("generic resists pen light", "résist pén lumière générique", "entity name")
+t("generic resists pen darkness", "résist pén obscurité générique", "entity name")
+t("generic resists pen temporal", "résist pén temporel générique", "entity name")
+t("generic stat str", "stat for générique", "entity name")
+t("generic stat dex", "stat dex générique", "entity name")
+t("generic stat mag", "stat mag générique", "entity name")
+t("generic stat wil", "stat vol générique", "entity name")
+t("generic stat cun", "stat rus générique", "entity name")
+t("generic stat con", "stat con générique", "entity name")
+t("generic see invisible", "vision de l'invisible générique", "entity name")
+t("generic infravision radius", "rayon d'infravision générique", "entity name")
+t("generic lite radius", "rayon de lanterne générique", "entity name")
+t("generic corrupted blood melee", "mêlée de sang corrompu générique", "entity name")
+t("generic acid corrode melee", "mêlée de corrosion d'acide générique", "entity name")
+t("generic mind expose melee", "mêlée d'exposition mentale générique", "entity name")
+t("generic manaburn melee", "mêlée de brûlure de mana générique", "entity name")
+t("generic temporal energize melee", "mêlée d'énergie temporelle générique", "entity name")
+t("generic slime melee", "mêlée vaseuse générique", "entity name")
+t("generic dark numbing melee", "mêlée sombre et abrutissante générique", "entity name")
+t("generic die at", "mort générique à", "entity name")
+t("generic ignore crit", "ignorer crit générique", "entity name")
+t("generic void", "vide générique", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/gloves.lua"
 
+t("damage", "dégât", "entity name")
+t("apr", "pén", "entity name")
 t("phasing", "phasante", "entity name")
+t("physical melee", "mêlée physique", "entity name")
+t("mind melee", "mêlée mentale", "entity name")
+t("acid melee", "mêlée acide", "entity name")
+t("lightning melee", "mêlée de foudre", "entity name")
+t("fire melee", "mêlée de feu", "entity name")
+t("cold melee", "mêlée de froid", "entity name")
+t("light melee", "mêlée de lumière", "entity name")
+t("dark melee", "mêlée d'obscurité", "entity name")
+t("blight melee", "mêlée de maladie", "entity name")
+t("nature melee", "mêlée de nature", "entity name")
+t("arcane melee", "mêlée arcanique", "entity name")
+t("temporal melee", "mêlée temporelle", "entity name")
+t("corrupted blood melee", "mêlée de sang corrompu", "entity name")
+t("temporal energize melee", "mêlée d'énergie temporelle", "entity name")
+t("gloom mind melee", "mêlée de morosité mentale", "entity name")
+t("acid corrode melee", "mêlée d'acide corrosif", "entity name")
+t("light blind melee", "mêlée de lumière aveuglante", "entity name")
+t("lightning daze melee", "mêlée de foudre étourdissante", "entity name")
+t("manaburn melee", "mêlée de brûlure de mana", "entity name")
+t("slime melee", "mêlée de vase", "entity name")
+t("dark numbing melee", "mêlée sombre et engourdissante", "entity name")
+t("physical burst", "explosion physique", "entity name")
+t("mind burst", "explosion mentale", "entity name")
+t("acid burst", "explosion acide", "entity name")
+t("lightning burst", "explosion de foudre", "entity name")
+t("fire burst", "explosion de feu", "entity name")
+t("cold burst", "explosion de froid", "entity name")
+t("light burst", "explosion de lumière", "entity name")
+t("dark burst", "explosion d'obscurité", "entity name")
+t("blight burst", "explosion de maladie", "entity name")
+t("nature burst", "explosion de nature", "entity name")
+t("arcane burst", "explosion arcanique", "entity name")
+t("temporal burst", "explosion temporelle", "entity name")
+t("physical burst (crit)", "explosion physique (crit)", "entity name")
+t("mind burst (crit)", "explosion mentale (crit)", "entity name")
+t("acid burst (crit)", "explosion acide (crit)", "entity name")
+t("lightning burst (crit)", "explosion de foudre (crit)", "entity name")
+t("fire burst (crit)", "explosion de feu (crit)", "entity name")
+t("cold burst (crit)", "explosion de froid (crit)", "entity name")
+t("light burst (crit)", "explosion de lumière (crit)", "entity name")
+t("dark burst (crit)", "explosion d'obscurité (crit)", "entity name")
+t("blight burst (crit)", "explosion de maladie (crit)", "entity name")
+t("nature burst (crit)", "explosion de nature (crit)", "entity name")
+t("arcane burst (crit)", "explosion arcanique (crit)", "entity name")
+t("temporal burst (crit)", "explosion temporelle (crit)", "entity name")
 -- texte non traduit
 --[==[
-t("damage", "damage", "entity name")
-t("apr", "apr", "entity name")
 t("crit", "crit", "entity name")
-t("physical melee", "physical melee", "entity name")
-t("mind melee", "mind melee", "entity name")
-t("acid melee", "acid melee", "entity name")
-t("lightning melee", "lightning melee", "entity name")
-t("fire melee", "fire melee", "entity name")
-t("cold melee", "cold melee", "entity name")
-t("light melee", "light melee", "entity name")
-t("dark melee", "dark melee", "entity name")
-t("blight melee", "blight melee", "entity name")
-t("nature melee", "nature melee", "entity name")
-t("arcane melee", "arcane melee", "entity name")
-t("temporal melee", "temporal melee", "entity name")
-t("corrupted blood melee", "corrupted blood melee", "entity name")
-t("temporal energize melee", "temporal energize melee", "entity name")
-t("gloom mind melee", "gloom mind melee", "entity name")
-t("acid corrode melee", "acid corrode melee", "entity name")
-t("light blind melee", "light blind melee", "entity name")
-t("lightning daze melee", "lightning daze melee", "entity name")
-t("manaburn melee", "manaburn melee", "entity name")
-t("slime melee", "slime melee", "entity name")
-t("dark numbing melee", "dark numbing melee", "entity name")
-t("physical burst", "physical burst", "entity name")
-t("mind burst", "mind burst", "entity name")
-t("acid burst", "acid burst", "entity name")
-t("lightning burst", "lightning burst", "entity name")
-t("fire burst", "fire burst", "entity name")
-t("cold burst", "cold burst", "entity name")
-t("light burst", "light burst", "entity name")
-t("dark burst", "dark burst", "entity name")
-t("blight burst", "blight burst", "entity name")
-t("nature burst", "nature burst", "entity name")
-t("arcane burst", "arcane burst", "entity name")
-t("temporal burst", "temporal burst", "entity name")
-t("physical burst (crit)", "physical burst (crit)", "entity name")
-t("mind burst (crit)", "mind burst (crit)", "entity name")
-t("acid burst (crit)", "acid burst (crit)", "entity name")
-t("lightning burst (crit)", "lightning burst (crit)", "entity name")
-t("fire burst (crit)", "fire burst (crit)", "entity name")
-t("cold burst (crit)", "cold burst (crit)", "entity name")
-t("light burst (crit)", "light burst (crit)", "entity name")
-t("dark burst (crit)", "dark burst (crit)", "entity name")
-t("blight burst (crit)", "blight burst (crit)", "entity name")
-t("nature burst (crit)", "nature burst (crit)", "entity name")
-t("arcane burst (crit)", "arcane burst (crit)", "entity name")
-t("temporal burst (crit)", "temporal burst (crit)", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/melee.lua"
 
+t("damage", "dégât", "entity name")
+t("apr", "pén", "entity name")
 t("phasing", "phasante", "entity name")
+t("physical melee", "mêlée physique", "entity name")
+t("mind melee", "mêlée mentale", "entity name")
+t("acid melee", "mêlée acide", "entity name")
+t("lightning melee", "mêlée de foudre", "entity name")
+t("fire melee", "mêlée de feu", "entity name")
+t("cold melee", "mêlée de froid", "entity name")
+t("light melee", "mêlée de lumière", "entity name")
+t("dark melee", "mêlée d'obscurité", "entity name")
+t("blight melee", "mêlée de maladie", "entity name")
+t("nature melee", "mêlée de nature", "entity name")
+t("arcane melee", "mêlée arcanique", "entity name")
+t("temporal melee", "mêlée temporelle", "entity name")
+t("corrupted blood melee", "mêlée de sang corrompu", "entity name")
+t("temporal energize melee", "mêlée d'énergie temporelle", "entity name")
+t("expose mind melee", "mêlée d'exposition mentale", "entity name")
+t("acid corrode melee", "mêlée d'acide corrosif", "entity name")
+t("manaburn melee", "mêlée de brûlure de mana", "entity name")
+t("slime melee", "mêlée de vase", "entity name")
+t("dark numbing melee", "mêlée sombre et engourdissante", "entity name")
+t("physical burst", "explosion physique", "entity name")
+t("mind burst", "explosion mentale", "entity name")
+t("acid burst", "explosion acide", "entity name")
+t("lightning burst", "explosion de foudre", "entity name")
+t("fire burst", "explosion de feu", "entity name")
+t("cold burst", "explosion de froid", "entity name")
+t("light burst", "explosion de lumière", "entity name")
+t("dark burst", "explosion d'obscurité", "entity name")
+t("blight burst", "explosion de maladie", "entity name")
+t("nature burst", "explosion de nature", "entity name")
+t("arcane burst", "explosion arcanique", "entity name")
+t("temporal burst", "explosion temporelle", "entity name")
+t("physical burst (crit)", "explosion physique (crit)", "entity name")
+t("mind burst (crit)", "explosion mentale (crit)", "entity name")
+t("acid burst (crit)", "explosion acide (crit)", "entity name")
+t("lightning burst (crit)", "explosion de foudre (crit)", "entity name")
+t("fire burst (crit)", "explosion de feu (crit)", "entity name")
+t("cold burst (crit)", "explosion de froid (crit)", "entity name")
+t("light burst (crit)", "explosion de lumière (crit)", "entity name")
+t("dark burst (crit)", "explosion d'obscurité (crit)", "entity name")
+t("blight burst (crit)", "explosion de maladie (crit)", "entity name")
+t("nature burst (crit)", "explosion de nature (crit)", "entity name")
+t("arcane burst (crit)", "explosion arcanique (crit)", "entity name")
+t("temporal burst (crit)", "explosion temporelle (crit)", "entity name")
 -- texte non traduit
 --[==[
-t("damage", "damage", "entity name")
-t("apr", "apr", "entity name")
 t("crit", "crit", "entity name")
-t("physical melee", "physical melee", "entity name")
-t("mind melee", "mind melee", "entity name")
-t("acid melee", "acid melee", "entity name")
-t("lightning melee", "lightning melee", "entity name")
-t("fire melee", "fire melee", "entity name")
-t("cold melee", "cold melee", "entity name")
-t("light melee", "light melee", "entity name")
-t("dark melee", "dark melee", "entity name")
-t("blight melee", "blight melee", "entity name")
-t("nature melee", "nature melee", "entity name")
-t("arcane melee", "arcane melee", "entity name")
-t("temporal melee", "temporal melee", "entity name")
-t("corrupted blood melee", "corrupted blood melee", "entity name")
-t("temporal energize melee", "temporal energize melee", "entity name")
-t("expose mind melee", "expose mind melee", "entity name")
-t("acid corrode melee", "acid corrode melee", "entity name")
-t("manaburn melee", "manaburn melee", "entity name")
-t("slime melee", "slime melee", "entity name")
-t("dark numbing melee", "dark numbing melee", "entity name")
-t("physical burst", "physical burst", "entity name")
-t("mind burst", "mind burst", "entity name")
-t("acid burst", "acid burst", "entity name")
-t("lightning burst", "lightning burst", "entity name")
-t("fire burst", "fire burst", "entity name")
-t("cold burst", "cold burst", "entity name")
-t("light burst", "light burst", "entity name")
-t("dark burst", "dark burst", "entity name")
-t("blight burst", "blight burst", "entity name")
-t("nature burst", "nature burst", "entity name")
-t("arcane burst", "arcane burst", "entity name")
-t("temporal burst", "temporal burst", "entity name")
-t("physical burst (crit)", "physical burst (crit)", "entity name")
-t("mind burst (crit)", "mind burst (crit)", "entity name")
-t("acid burst (crit)", "acid burst (crit)", "entity name")
-t("lightning burst (crit)", "lightning burst (crit)", "entity name")
-t("fire burst (crit)", "fire burst (crit)", "entity name")
-t("cold burst (crit)", "cold burst (crit)", "entity name")
-t("light burst (crit)", "light burst (crit)", "entity name")
-t("dark burst (crit)", "dark burst (crit)", "entity name")
-t("blight burst (crit)", "blight burst (crit)", "entity name")
-t("nature burst (crit)", "nature burst (crit)", "entity name")
-t("arcane burst (crit)", "arcane burst (crit)", "entity name")
-t("temporal burst (crit)", "temporal burst (crit)", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/ranged.lua"
 
-
--- texte non traduit
---[==[
-t("ammo reload", "ammo reload", "entity name")
-t("travel speed", "travel speed", "entity name")
---]==]
-
+t("ammo reload", "rechargement des munitions", "entity name")
+t("travel speed", "vitesse de déplacement", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/shields.lua"
 
-
--- texte non traduit
---[==[
-t("shield block", "shield block", "entity name")
-t("shield armor", "shield armor", "entity name")
-t("shield increased life", "shield increased life", "entity name")
---]==]
-
+t("shield block", "blocage du bouclier", "entity name")
+t("shield armor", "armure du bouclier", "entity name")
+t("shield increased life", "augmentation de vie du bouclier", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/staves.lua"
 
-
--- texte non traduit
---[==[
-t("stave increased positive/negative energy", "stave increased positive/negative energy", "entity name")
-t("stave paradox reduce anomalies", "stave paradox reduce anomalies", "entity name")
-t("stave spellpower", "stave spellpower", "entity name")
-t("stave inc damage physical", "stave inc damage physical", "entity name")
-t("stave inc damage mind", "stave inc damage mind", "entity name")
-t("stave inc damage fire", "stave inc damage fire", "entity name")
-t("stave inc damage cold", "stave inc damage cold", "entity name")
-t("stave inc damage acid", "stave inc damage acid", "entity name")
-t("stave inc damage lightning", "stave inc damage lightning", "entity name")
-t("stave inc damage arcane", "stave inc damage arcane", "entity name")
-t("stave inc damage nature", "stave inc damage nature", "entity name")
-t("stave inc damage blight", "stave inc damage blight", "entity name")
-t("stave inc damage light", "stave inc damage light", "entity name")
-t("stave inc damage darkness", "stave inc damage darkness", "entity name")
-t("stave inc damage temporal", "stave inc damage temporal", "entity name")
-t("stave resists pen physical", "stave resists pen physical", "entity name")
-t("stave resists pen mind", "stave resists pen mind", "entity name")
-t("stave resists pen fire", "stave resists pen fire", "entity name")
-t("stave resists pen cold", "stave resists pen cold", "entity name")
-t("stave resists pen acid", "stave resists pen acid", "entity name")
-t("stave resists pen lightning", "stave resists pen lightning", "entity name")
-t("stave resists pen arcane", "stave resists pen arcane", "entity name")
-t("stave resists pen nature", "stave resists pen nature", "entity name")
-t("stave resists pen blight", "stave resists pen blight", "entity name")
-t("stave resists pen light", "stave resists pen light", "entity name")
-t("stave resists pen darkness", "stave resists pen darkness", "entity name")
-t("stave resists pen temporal", "stave resists pen temporal", "entity name")
---]==]
-
+t("stave increased positive/negative energy", "bâton augmentation positive/négative énergie", "entity name")
+t("stave paradox reduce anomalies", "bâton paradoxe réduit les anomalies", "entity name")
+t("stave spellpower", "bâton puissance des sorts", "entity name")
+t("stave inc damage physical", "bâton aug dégâts physiques", "entity name")
+t("stave inc damage mind", "bâton aug dégâts mentaux", "entity name")
+t("stave inc damage fire", "bâton aug dégâts feu", "entity name")
+t("stave inc damage cold", "bâton aug dégâts froid", "entity name")
+t("stave inc damage acid", "bâton aug dégâts acide", "entity name")
+t("stave inc damage lightning", "bâton aug dégâts foudre", "entity name")
+t("stave inc damage arcane", "bâton aug dégâts arcane", "entity name")
+t("stave inc damage nature", "bâton aug dégâts nature", "entity name")
+t("stave inc damage blight", "bâton aug dégâts maladie", "entity name")
+t("stave inc damage light", "bâton aug dégâts lumière", "entity name")
+t("stave inc damage darkness", "bâton aug dégâts obscurité", "entity name")
+t("stave inc damage temporal", "bâton aug dégâts temporel", "entity name")
+t("stave resists pen physical", "bâton pén résist physique", "entity name")
+t("stave resists pen mind", "bâton pén résist mental", "entity name")
+t("stave resists pen fire", "bâton pén résist feu", "entity name")
+t("stave resists pen cold", "bâton pén résist froid", "entity name")
+t("stave resists pen acid", "bâton pén résist acide", "entity name")
+t("stave resists pen lightning", "bâton pén résist foudre", "entity name")
+t("stave resists pen arcane", "bâton pén résist arcane", "entity name")
+t("stave resists pen nature", "bâton pén résist nature", "entity name")
+t("stave resists pen blight", "bâton pén résist maladie", "entity name")
+t("stave resists pen light", "bâton pén résist lumière", "entity name")
+t("stave resists pen darkness", "bâton pén résist obscurité", "entity name")
+t("stave resists pen temporal", "bâton pén résist temporel", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts.lua"
 
+t("spellpower", "puissance des sorts", "entity name")
+t("spellcrit", "crit de sort", "entity name")
+t("spell crit magnitude", "crit de sort magnitude", "entity name")
+t("mindpower", "puissance mentale", "entity name")
+t("mindcrit", "crit mental", "entity name")
+t("mind crit magnitude", "crit mental magnitude", "entity name")
+t("phys dam", "dégât phys", "entity name")
+t("phys apr", "pén phys", "entity name")
+t("phys crit", "pén crit", "entity name")
+t("phys atk", "atk phys", "entity name")
+t("phys crit magnitude", "crit phys magnitude", "entity name")
+t("acid melee", "mêlée acide", "entity name")
+t("lightning melee", "mêlée de foudre", "entity name")
+t("fire melee", "mêlée de feu", "entity name")
+t("cold melee", "mêlée de froid", "entity name")
+t("light melee", "mêlée de lumière", "entity name")
+t("dark melee", "mêlée d'obscurité", "entity name")
+t("blight melee", "mêlée de maladie", "entity name")
+t("nature melee", "mêlée de nature", "entity name")
+t("arcane melee", "mêlée arcanique", "entity name")
+t("poison melee", "mêlée poison", "entity name")
 t("armor", "armure", "entity name")
+t("stat str", "stat for", "entity name")
+t("stat wil", "stat vol", "entity name")
+t("stat cun", "stat rus", "entity name")
+t("inc damage physical", "aug dégâts physique", "entity name")
+t("inc damage fire", "aug dégâts feu", "entity name")
+t("inc damage cold", "aug dégâts froid", "entity name")
+t("inc damage acid", "aug dégâts acide", "entity name")
+t("inc damage lightning", "aug dégâts foudre", "entity name")
+t("inc damage arcane", "aug dégâts arcane", "entity name")
+t("inc damage nature", "aug dégâts nature", "entity name")
+t("inc damage blight", "aug dégâts maladie", "entity name")
+t("inc damage light", "aug dégâts lumière", "entity name")
+t("inc damage darkness", "aug dégâts obcurité", "entity name")
+t("inc damage mind", "aug dégâts mental", "entity name")
+t("immune stun", "immunité à l'assomement", "entity name")
+t("immune knockback", "immunité au repoussement", "entity name")
+t("immune blind", "immunité à l'aveuglement", "entity name")
+t("immune confusion", "immunité à la confusion", "entity name")
+t("immune pin", "immunité à l'immobilisation", "entity name")
+t("immune poison", "immunité aux poisons", "entity name")
+t("immune disease", "immunité aux maladies", "entity name")
+t("immune silence", "immunité au silence", "entity name")
+t("immune disarm", "immunité au désarmement", "entity name")
+t("immune cut", "immunité aux entailles", "entity name")
+t("resist physical", "résist phys", "entity name")
+t("resist fire", "résist feu", "entity name")
+t("resist cold", "résist froid", "entity name")
+t("resist acid", "résist acide", "entity name")
+t("resist lightning", "résist foudre", "entity name")
+t("resist arcane", "résist arcane", "entity name")
+t("resist nature", "résist nature", "entity name")
+t("resist blight", "résist maladie", "entity name")
+t("resist light", "résist lumière", "entity name")
+t("resist darkness", "résist obscurité", "entity name")
+t("resist mind", "résist mental", "entity name")
+t("save physical", "sauvegarde physical", "entity name")
+t("save spell", "sauvegarde contre les sorts", "entity name")
+t("save mental", "sauvegarde mentale", "entity name")
+t("mana regeneration", "régénération du mana", "entity name")
+t("stamina regeneration", "régénération de l'endurance", "entity name")
+t("life regeneration", "régénération de la vie", "entity name")
+t("increased mana", "augmentation du mana", "entity name")
+t("increased stamina", "augmentation de l'endurance", "entity name")
+t("increased life", "augmentation de la vie", "entity name")
+t("see invisible", "voir l'invisible", "entity name")
+t("decreased fatigue", "réduction de la fatigue", "entity name")
+t("greater max encumbrance", "encombrement maximal accru", "entity name")
+t("improve heal", "amélioration des soins", "entity name")
+t("lite radius", "rayon de la lumière", "entity name")
+t("water breathing", "respiration aquatique", "entity name")
+t("orc telepathy", "télépathie avec les orcs", "entity name")
+t("dragon telepathy", "télépathie avec les dragons", "entity name")
+t("demon telepathy", "télépathie avec les demons", "entity name")
 -- texte non traduit
 --[==[
-t("spellpower", "spellpower", "entity name")
-t("spellcrit", "spellcrit", "entity name")
-t("spell crit magnitude", "spell crit magnitude", "entity name")
-t("mindpower", "mindpower", "entity name")
-t("mindcrit", "mindcrit", "entity name")
-t("mind crit magnitude", "mind crit magnitude", "entity name")
-t("phys dam", "phys dam", "entity name")
-t("phys apr", "phys apr", "entity name")
-t("phys crit", "phys crit", "entity name")
-t("phys atk", "phys atk", "entity name")
-t("phys crit magnitude", "phys crit magnitude", "entity name")
-t("acid melee", "acid melee", "entity name")
-t("lightning melee", "lightning melee", "entity name")
-t("fire melee", "fire melee", "entity name")
-t("cold melee", "cold melee", "entity name")
-t("light melee", "light melee", "entity name")
-t("dark melee", "dark melee", "entity name")
-t("blight melee", "blight melee", "entity name")
-t("nature melee", "nature melee", "entity name")
-t("arcane melee", "arcane melee", "entity name")
-t("poison melee", "poison melee", "entity name")
 t("def", "def", "entity name")
 t("rdef", "rdef", "entity name")
-t("stat str", "stat str", "entity name")
 t("stat dex", "stat dex", "entity name")
 t("stat mag", "stat mag", "entity name")
-t("stat wil", "stat wil", "entity name")
-t("stat cun", "stat cun", "entity name")
 t("stat con", "stat con", "entity name")
-t("inc damage physical", "inc damage physical", "entity name")
-t("inc damage fire", "inc damage fire", "entity name")
-t("inc damage cold", "inc damage cold", "entity name")
-t("inc damage acid", "inc damage acid", "entity name")
-t("inc damage lightning", "inc damage lightning", "entity name")
-t("inc damage arcane", "inc damage arcane", "entity name")
-t("inc damage nature", "inc damage nature", "entity name")
-t("inc damage blight", "inc damage blight", "entity name")
-t("inc damage light", "inc damage light", "entity name")
-t("inc damage darkness", "inc damage darkness", "entity name")
-t("inc damage mind", "inc damage mind", "entity name")
-t("immune stun", "immune stun", "entity name")
-t("immune knockback", "immune knockback", "entity name")
-t("immune blind", "immune blind", "entity name")
-t("immune confusion", "immune confusion", "entity name")
-t("immune pin", "immune pin", "entity name")
-t("immune poison", "immune poison", "entity name")
-t("immune disease", "immune disease", "entity name")
-t("immune silence", "immune silence", "entity name")
-t("immune disarm", "immune disarm", "entity name")
-t("immune cut", "immune cut", "entity name")
-t("resist physical", "resist physical", "entity name")
-t("resist fire", "resist fire", "entity name")
-t("resist cold", "resist cold", "entity name")
-t("resist acid", "resist acid", "entity name")
-t("resist lightning", "resist lightning", "entity name")
-t("resist arcane", "resist arcane", "entity name")
-t("resist nature", "resist nature", "entity name")
-t("resist blight", "resist blight", "entity name")
-t("resist light", "resist light", "entity name")
-t("resist darkness", "resist darkness", "entity name")
-t("resist mind", "resist mind", "entity name")
-t("save physical", "save physical", "entity name")
-t("save spell", "save spell", "entity name")
-t("save mental", "save mental", "entity name")
-t("mana regeneration", "mana regeneration", "entity name")
-t("stamina regeneration", "stamina regeneration", "entity name")
-t("life regeneration", "life regeneration", "entity name")
-t("increased mana", "increased mana", "entity name")
-t("increased stamina", "increased stamina", "entity name")
-t("increased life", "increased life", "entity name")
-t("see invisible", "see invisible", "entity name")
-t("decreased fatigue", "decreased fatigue", "entity name")
-t("greater max encumbrance", "greater max encumbrance", "entity name")
-t("improve heal", "improve heal", "entity name")
-t("lite radius", "lite radius", "entity name")
-t("water breathing", "water breathing", "entity name")
-t("orc telepathy", "orc telepathy", "entity name")
-t("dragon telepathy", "dragon telepathy", "entity name")
-t("demon telepathy", "demon telepathy", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/rods.lua"
 
-
+t("charm", "breloque", "entity type")
+t("rod", "bâtonnet", "entity subtype")
+t("rod", "bâtonnet", "_t")
 -- texte non traduit
 --[==[
-t("charm", "charm", "entity type")
-t("rod", "rod", "entity subtype")
-t("rod", "rod", "_t")
 t("", "", "_t")
 --]==]
 
@@ -10039,51 +10013,50 @@ t("", "", "_t")
 ------------------------------------------------
 section "mod-tome/data/general/objects/scrolls.lua"
 
-
+t("scroll", "parchemin", "entity type")
+t("scroll", "parchemin", "entity subtype")
+t("scroll", "parchemin", "_t")
+t("Magical scrolls can have wildly different effects!", "Les parchemins magiques peuvent avoir des effets très différents!", "_t")
+t("Natural infusions may be grafted onto your body, granting you an on-demand nature talent.", "Des infusions naturelles peuvent être greffées sur votre corps, vous accordant un talent naturel à la demande.", "_t")
+t("inscribe your skin with the infusion", "gravez l'infusion sur votre peau", "_t")
+t("Magical runes may be inscribed onto your body, granting you an on-demand spell talent.", "Des runes magiques peuvent être inscrites sur votre corps, vous accordant un talent de sort à la demande.", "_t")
+t("inscribe your skin with the rune", "gravez la rune sur votre peau", "_t")
+t("Corrupted taints may be inscribed onto your body, granting you an on-demand ability.", "Des taches corrompues peuvent être inscrites sur votre corps, vous accordant une capacité sur demande.", "_t")
+t("inscribe your skin with the taint", "gravez la tache sur votre peau", "_t")
+t("lore", "histoire", "entity type")
+t("lore", "histoire", "entity subtype")
+t("This parchment contains some lore.", "Ce parchemin contient des histoires.", "_t")
+t("read it", "le lire", "_t")
+t("healing infusion", "infusion de soin", "entity name")
+t("regeneration infusion", "infusion de régénération", "entity name")
+t("wild infusion", "infusion sauvage", "entity name")
+t("movement infusion", "infusion de mouvement", "entity name")
+t("heroism infusion", "infusion d'héroïsme", "entity name")
+t("teleportation rune", "rune de téléportation", "entity name")
+t("shielding rune", "rune de bouclier magique", "entity name")
+t("biting gale rune", "rune de coup de vent", "entity name")
+t("acid wave rune", "rune de vague acide", "entity name")
+t("manasurge rune", "rune de déferlement de mana", "entity name")
+t("blink rune", "rune de passage", "entity name")
+t("stormshield rune", "rune de bouclier tempête", "entity name")
+t("shatter afflictions rune", "rune de destruction d'afflictions", "entity name")
+t("ethereal rune", "rune éthérée", "entity name")
+t("lightning rune", "rune de foudre", "entity name")
+t("invisibility rune", "rune d'invisibilité", "entity name")
+t("vision rune", "rune de vision", "entity name")
+t("heat beam rune", "rune de faisceau de chaleur", "entity name")
+t("phase door rune", "rune de porte de phase", "entity name")
+t("controlled phase door rune", "rune de porte de phase contrôlée", "entity name")
+t("sun infusion", "infusion solaire", "entity name")
+t("insidious poison infusion", "infusion de poison insidieux", "entity name")
 -- texte non traduit
 --[==[
-t("scroll", "scroll", "entity type")
-t("scroll", "scroll", "entity subtype")
-t("scroll", "scroll", "_t")
-t("Magical scrolls can have wildly different effects!", "Magical scrolls can have wildly different effects!", "_t")
 t("infusion", "infusion", "entity subtype")
 t("infusion", "infusion", "_t")
-t("Natural infusions may be grafted onto your body, granting you an on-demand nature talent.", "Natural infusions may be grafted onto your body, granting you an on-demand nature talent.", "_t")
-t("inscribe your skin with the infusion", "inscribe your skin with the infusion", "_t")
 t("rune", "rune", "entity subtype")
 t("rune", "rune", "_t")
-t("Magical runes may be inscribed onto your body, granting you an on-demand spell talent.", "Magical runes may be inscribed onto your body, granting you an on-demand spell talent.", "_t")
-t("inscribe your skin with the rune", "inscribe your skin with the rune", "_t")
 t("taint", "taint", "entity subtype")
 t("taint", "taint", "_t")
-t("Corrupted taints may be inscribed onto your body, granting you an on-demand ability.", "Corrupted taints may be inscribed onto your body, granting you an on-demand ability.", "_t")
-t("inscribe your skin with the taint", "inscribe your skin with the taint", "_t")
-t("lore", "lore", "entity type")
-t("lore", "lore", "entity subtype")
-t("This parchment contains some lore.", "This parchment contains some lore.", "_t")
-t("read it", "read it", "_t")
-t("healing infusion", "healing infusion", "entity name")
-t("regeneration infusion", "regeneration infusion", "entity name")
-t("wild infusion", "wild infusion", "entity name")
-t("movement infusion", "movement infusion", "entity name")
-t("heroism infusion", "heroism infusion", "entity name")
-t("teleportation rune", "teleportation rune", "entity name")
-t("shielding rune", "shielding rune", "entity name")
-t("biting gale rune", "biting gale rune", "entity name")
-t("acid wave rune", "acid wave rune", "entity name")
-t("manasurge rune", "manasurge rune", "entity name")
-t("blink rune", "blink rune", "entity name")
-t("stormshield rune", "stormshield rune", "entity name")
-t("shatter afflictions rune", "shatter afflictions rune", "entity name")
-t("ethereal rune", "ethereal rune", "entity name")
-t("lightning rune", "lightning rune", "entity name")
-t("invisibility rune", "invisibility rune", "entity name")
-t("vision rune", "vision rune", "entity name")
-t("heat beam rune", "heat beam rune", "entity name")
-t("phase door rune", "phase door rune", "entity name")
-t("controlled phase door rune", "controlled phase door rune", "entity name")
-t("sun infusion", "sun infusion", "entity name")
-t("insidious poison infusion", "insidious poison infusion", "entity name")
 --]==]
 
 
@@ -10204,13 +10177,13 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/torques.lua"
 
+t("charm", "breloque", "entity type")
 t("iron", "fer", "entity short_name")
 t("steel", "acier", "entity short_name")
 t("d.steel", "acier.n", "entity short_name")
 t("voratun torque", "torque en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("charm", "charm", "entity type")
 t("torque", "torque", "entity subtype")
 t("torque", "torque", "_t")
 t("Torques are made by powerful psionics to store psionic powers.", "Torques are made by powerful psionics to store psionic powers.", "_t")
@@ -10226,6 +10199,7 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/totems.lua"
 
+t("charm", "breloque", "entity type")
 t("elm", "orme", "entity short_name")
 t("ash", "frêne", "entity short_name")
 t("yew", "if", "entity short_name")
@@ -10234,7 +10208,6 @@ t("dragonbone totem", "totem en os de dragon", "entity name")
 t("dragonbone", "os de dragon", "entity short_name")
 -- texte non traduit
 --[==[
-t("charm", "charm", "entity type")
 t("totem", "totem", "entity subtype")
 t("totem", "totem", "_t")
 t("Natural totems are made by powerful wilders to store nature power.", "Natural totems are made by powerful wilders to store nature power.", "_t")
@@ -10248,6 +10221,7 @@ t("elven-wood totem", "elven-wood totem", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/wands.lua"
 
+t("charm", "breloque", "entity type")
 t("elm", "orme", "entity short_name")
 t("ash", "frêne", "entity short_name")
 t("yew", "if", "entity short_name")
@@ -10256,7 +10230,6 @@ t("dragonbone wand", "baguette en os de dragon", "entity name")
 t("dragonbone", "os de dragon", "entity short_name")
 -- texte non traduit
 --[==[
-t("charm", "charm", "entity type")
 t("wand", "wand", "entity subtype")
 t("wand", "wand", "_t")
 t("Magical wands are made by powerful Alchemists and Archmagi to store spells. Anybody can use them to release the spells.", "Magical wands are made by powerful Alchemists and Archmagi to store spells. Anybody can use them to release the spells.", "_t")
@@ -10527,6 +10500,7 @@ t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as thi
 t("Summertide", "Eté", "entity name")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 t("Summon", "Invocation", "_t")
+t("charm", "breloque", "entity type")
 t("multi-hued", "multi-teintes", "entity subtype")
 t(" (cooling down: %d turns)", " (rechargement: %d tours)", "tformat")
 t("a spot nearby", "une place à proximité", "_t")
@@ -10999,7 +10973,6 @@ t("release a will o' the wisp that will explode against your foes for %d cold da
 t("will o' the wisp", "will o' the wisp", "_t")
 t("A chilling, ghostly form that floats in the air.", "A chilling, ghostly form that floats in the air.", "_t")
 t("#Source# releases an icy whisp from %s %s!", "#Source# releases an icy whisp from %s %s!", "logCombat")
-t("charm", "charm", "entity type")
 t("totem", "totem", "entity subtype")
 t("The Guardian's Totem", "The Guardian's Totem", "entity name")
 t("a cracked stone totem", "a cracked stone totem", "_t")
@@ -18189,10 +18162,9 @@ t("Dozing #rng#", "Dozing #rng#", "_t")
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/auto/lesser/loot-vault.lua"
 
-
+t("scroll", "parchemin", "_t")
 -- texte non traduit
 --[==[
-t("scroll", "scroll", "_t")
 t("Mocking Note", "Mocking Note", "_t")
 t("A small scrap of paper written in a mocking tone.", "A small scrap of paper written in a mocking tone.", "_t")
 --]==]
@@ -18202,11 +18174,11 @@ t("A small scrap of paper written in a mocking tone.", "A small scrap of paper w
 section "mod-tome/data/maps/vaults/bandit-fortress.lua"
 
 t("stairs back to %s", "redescendre vers %s", "_t")
+t("scroll", "parchemin", "_t")
 -- texte non traduit
 --[==[
 t("bandit fortress", "bandit fortress", "_t")
 t("#rng# the Guard", "#rng# the Guard", "_t")
-t("scroll", "scroll", "_t")
 t("Guard's Journal", "Guard's Journal", "_t")
 t("A messily scrawled pile of loose papers.", "A messily scrawled pile of loose papers.", "_t")
 --]==]
@@ -18258,10 +18230,10 @@ t("#rng# the Witherer", "#rng# the Witherer", "_t")
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/renegade-pyromancers.lua"
 
+t("scroll", "parchemin", "_t")
 t("#rng# the Invoker", "#rng# l'Invocateur", "_t")
 -- texte non traduit
 --[==[
-t("scroll", "scroll", "_t")
 t("How to Summon a Phoenix", "How to Summon a Phoenix", "_t")
 t("An old and singed scroll, the bottom half burnt off.", "An old and singed scroll, the bottom half burnt off.", "_t")
 t("#rng# the Flamebringer", "#rng# the Flamebringer", "_t")
@@ -18335,13 +18307,12 @@ t("Tar'Eyal", "Tar'Eyal", "_t")
 ------------------------------------------------
 section "mod-tome/data/maps/zones/bandit-fortress.lua"
 
-
+t("scroll", "parchemin", "_t")
 -- texte non traduit
 --[==[
 t("#rng# the Guard", "#rng# the Guard", "_t")
 t("#rng# the Thug", "#rng# the Thug", "_t")
 t("Bandit Leader #rng#", "Bandit Leader #rng#", "_t")
-t("scroll", "scroll", "_t")
 t("Boss's Journal", "Boss's Journal", "_t")
 t("A messily scrawled pile of loose papers.", "A messily scrawled pile of loose papers.", "_t")
 --]==]
@@ -23408,7 +23379,7 @@ t([[While rampaging, you slam up to %d adjacent opponents, stunning them for %d 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/self-hatred.lua"
 
-
+t("damage", "dégât", "_t")
 -- texte non traduit
 --[==[
 t("Self-Sacrifice", "Self-Sacrifice", "talent name")
@@ -23443,7 +23414,6 @@ This strength comes at a cost: you lose %d%% of your maximum life every turn.  T
 t("Self-Judgement", "Self-Judgement", "talent name")
 t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "logCombat")
 t("an attack", "an attack", "_t")
-t("damage", "damage", "_t")
 t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d bled out#LAST#%s)#LAST#", "tformat")
 t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
 
@@ -30127,7 +30097,7 @@ t("Enter a state of heightened focus for %d turns. While in this state your rang
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/mobility.lua"
 
-
+t("damage", "dégât", "_t")
 -- texte non traduit
 --[==[
 t("You must be able to move to use %s!", "You must be able to move to use %s!", "logPlayer")
@@ -30156,7 +30126,6 @@ t([[In an extreme feat of agility, you move to a spot you can see within range, 
 t("Trained Reactions", "Trained Reactions", "talent name")
 t("#FIREBRICK##Target# reacts to %s from #Source#, mitigating the blow!#LAST#.", "#FIREBRICK##Target# reacts to %s from #Source#, mitigating the blow!#LAST#.", "logCombat")
 t("an attack", "an attack", "_t")
-t("damage", "damage", "_t")
 t(" #ffcc80#, -%d stam#LAST#", " #ffcc80#, -%d stam#LAST#", "tformat")
 t("%s(%d reacted#LAST#%s%s)#LAST#", "%s(%d reacted#LAST#%s%s)#LAST#", "tformat")
 t([[You have trained to be very light on your feet and have conditioned your reflexes to react faster than thought to damage you take.
@@ -39256,6 +39225,7 @@ section "mod-tome/data/zones/halfling-ruins/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("Space around you starts to dissolve...", "L'espace autour de vous commence à se dissoudre...", "logPlayer")
 -- texte non traduit
 --[==[
 t("Subject Z", "Subject Z", "entity name")
@@ -39267,7 +39237,6 @@ t([[As you approach you come upon an other Wayist and receive a very clear menta
 #{italic}##UMBER#RUN AWAY! I am done for but you can save yourself still!#{normal}#]], [[As you approach you come upon an other Wayist and receive a very clear mental message:
 #{italic}##UMBER#RUN AWAY! I am done for but you can save yourself still!#{normal}#]], "_t")
 t("#GOLD#You hastily activate your Rod of Recall, vowing to come back later!", "#GOLD#You hastily activate your Rod of Recall, vowing to come back later!", "say")
-t("Space around you starts to dissolve...", "Space around you starts to dissolve...", "logPlayer")
 t("Emergency recall", "Emergency recall", "_t")
 t("Stay and fight!", "Stay and fight!", "_t")
 t("Halfling?! DIE!!!!!", "Halfling?! DIE!!!!!", "_t")
@@ -39629,6 +39598,7 @@ t("and quickly burned in a pyre", "and quickly burned in a pyre", "_t")
 section "mod-tome/data/zones/keepsake-meadow/objects.lua"
 
 t("misc", "divers", "entity type")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("folded up piece of paper", "folded up piece of paper", "entity name")
@@ -39636,7 +39606,6 @@ t("A folded up piece of paper with a few notes written on it.", "A folded up pie
 t("Iron Acorn", "Iron Acorn", "entity name")
 t("trinket", "trinket", "entity subtype")
 t("A small acorn, crafted crudely out of iron.", "A small acorn, crafted crudely out of iron.", "_t")
-t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
 t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. You find having the acorn helps to anchor your mind and prepare you for the trials ahead.", "A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. You find having the acorn helps to anchor your mind and prepare you for the trials ahead.", "_t")
 t("Cold Iron Acorn", "Cold Iron Acorn", "entity name")
 t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. The acorn serves as a reminder of who and what you are.", "A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. The acorn serves as a reminder of who and what you are.", "_t")
@@ -40249,6 +40218,7 @@ t("A careful examination of the demon's body turns up a Blood-Runed Athame and a
 ------------------------------------------------
 section "mod-tome/data/zones/reknor/objects.lua"
 
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
 -- texte non traduit
@@ -40256,7 +40226,6 @@ t("misc", "divers", "entity subtype")
 t("Sealed Scroll of Last Hope", "Sealed Scroll of Last Hope", "entity name")
 t("open the seal and read the message", "open the seal and read the message", "_t")
 t("Resonating Diamond", "Resonating Diamond", "entity name")
-t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
 t("Blood-Runed Athame", "Blood-Runed Athame", "entity name")
 t("athame", "athame", "_t")
 t("An athame, covered in blood runes. It radiates power.", "An athame, covered in blood runes. It radiates power.", "_t")
@@ -40461,6 +40430,7 @@ t("Ritches Tunnels", "Ritches Tunnels", "_t")
 section "mod-tome/data/zones/ruined-dungeon/grids.lua"
 
 t("sealed door", "porte scellée", "entity name")
+t("orb", "orbe", "entity name")
 -- texte non traduit
 --[==[
 t("inscription", "inscription", "entity name")
@@ -40468,7 +40438,6 @@ t("way into the infinite dungeon", "way into the infinite dungeon", "entity name
 t("Infinite Dungeon", "Infinite Dungeon", "_t")
 t("You have accomplished great deads, but if you enter the infinite dungeon there will be no way back you will go on and on until you meet your glorious death.", "You have accomplished great deads, but if you enter the infinite dungeon there will be no way back you will go on and on until you meet your glorious death.", "_t")
 t("You should not go there. There is no way back. Ever. Maybe later when you have done all you must do.", "You should not go there. There is no way back. Ever. Maybe later when you have done all you must do.", "_t")
-t("orb", "orb", "entity name")
 t("Strange Orb", "Strange Orb", "_t")
 t("The orb looks inactive.", "The orb looks inactive.", "_t")
 t("The orb seems to drip water.", "The orb seems to drip water.", "_t")
@@ -41102,24 +41071,24 @@ It is so huge that it blocks sight beyond it.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/tannen-tower/objects.lua"
 
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
 t("jewelry", "bijoux", "entity type")
+t("orb", "orbe", "entity subtype")
+t("Orb of Many Ways", "Orbe des Multiples Voies", "entity name")
+t("swirling orb", "orbe tourbillonnant", "_t")
+t("activate a portal", "activer un portail", "_t")
+t("There is no portal to activate here.", "Il n'y a pas de portail à activer ici.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Resonating Diamond", "Resonating Diamond", "entity name")
-t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
 t("Blood-Runed Athame", "Blood-Runed Athame", "entity name")
 t("athame", "athame", "_t")
 t("An athame, covered in blood runes. It radiates power.", "An athame, covered in blood runes. It radiates power.", "_t")
-t("orb", "orb", "entity subtype")
-t("Orb of Many Ways", "Orb of Many Ways", "entity name")
-t("swirling orb", "swirling orb", "_t")
 t([[The orb projects images of distant places, some that seem not to be of this world, switching rapidly.
 If used near a portal, it could probably activate it.]], [[The orb projects images of distant places, some that seem not to be of this world, switching rapidly.
 If used near a portal, it could probably activate it.]], "_t")
-t("activate a portal", "activate a portal", "_t")
-t("There is no portal to activate here.", "There is no portal to activate here.", "logPlayer")
 t("tattered paper scrap", "tattered paper scrap", "entity name")
 t("A paper scrap, left by Tannen.", "A paper scrap, left by Tannen.", "_t")
 --]==]
@@ -45569,7 +45538,7 @@ t("All damage    : #00ff00#%s", "Tous         : #00ff00#%s", "tformat")
 t("vs ", "contre ", "_t")
 t([[#GOLD#Restance Penetration#LAST#
 Ability to reduce opponent resistances to your damage]], [[#GOLD#Pén des résistances#LAST#
-Abilité à réduire les résistances ennemis à vos dégâts]], "_t")
+Capacité à réduire les résistances ennemis à vos dégâts]], "_t")
 t("#LIGHT_BLUE#Damage penetration:", "#LIGHT_BLUE#Pén des résistances:", "_t")
 t("#LIGHT_BLUE#Additional Melee Damage:", "#LIGHT_BLUE#Dégâts de mélée en plus:", "_t")
 t("#LIGHT_BLUE#Additional Ranged Damage:", "#LIGHT_BLUE#Dégâts à distance en plus:", "_t")
