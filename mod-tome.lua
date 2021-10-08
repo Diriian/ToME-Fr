@@ -294,7 +294,7 @@ t("Curse Lifter", "Lève-malédiction", "achievement name")
 t("Killed Ben Cruthdar the Cursed.", "Tuer Ben Cruthdar le Maudit.", "_t")
 t("Fast Curse Dispel", "Dissipation rapide de la malédiction", "achievement name")
 t("Killed Ben Cruthdar the Cursed while saving all the lumberjacks.", "Tuer Ben Cruthdar le Maudit en sauvant tous les bûcherons.", "_t")
-t("Eye of the storm", "L'œil du cyclone", "achievement name")
+t("Eye of the storm", "L'oeil du cyclone", "achievement name")
 t("Freed Derth from the onslaught of the mad Tempest, Urkis.", "Libérer Derth de l'assaut du tempêtier fou, Urkis.", "_t")
 t("Antimagic!", "Antimagie!", "achievement name")
 t("Completed antimagic training in the Ziguranth camp.", "Terminer l'entraînement antimagique dans le camp de Ziguranth.", "_t")
@@ -1784,7 +1784,7 @@ t("\
 \
 #{italic}##LIGHT_GREEN#*As you drink the potion, your runes start to burn as they fade away, and a terrible agony seems to sink through your skin to your bones, muscles, and heart.  You black out from the pain, and come to a bit later, the runes gone forever.  You feel very ill, and yet...  cleansed.*#{normal}##WHITE#", "\
 \
-#{italic}##LIGHT_GREEN#*Lorsque vous buvez la potion, vos runes commencent à brûler en s'effaçant, et une terrible agonie semble traverser votre peau jusqu'à vos os, vos muscles et votre cœur.  Vous vous évanouissez à cause de la douleur, et vous revenez à vous un peu plus tard, les runes ayant disparu à jamais.  Vous vous sentez très mal, et pourtant... purifié.*#{normal}##WHITE#", "_t")
+#{italic}##LIGHT_GREEN#*Lorsque vous buvez la potion, vos runes commencent à brûler en s'effaçant, et une terrible agonie semble traverser votre peau jusqu'à vos os, vos muscles et votre coeur.  Vous vous évanouissez à cause de la douleur, et vous revenez à vous un peu plus tard, les runes ayant disparu à jamais.  Vous vous sentez très mal, et pourtant... purifié.*#{normal}##WHITE#", "_t")
 t([[Excellent! You truly prove that no mage-wrought flame or storm can stand against blade and arrow! Come, learn our ways. You are ready.
 #LIGHT_GREEN#*he gives you a potion.*#WHITE#
 Drink this. We extract it from a very rare kind of drake. It will grant you powers to fight and cancel magic, but never again will you be able to use magic.%s]], [[Excellent! Tu prouves vraiment qu'aucune flamme ou tempête magique ne peut résister à une lame et une flèche! Viens, apprends nos méthodes. Tu es prêt.
@@ -2559,7 +2559,7 @@ That is very nice, @playername@!]], [[Voyons voir ce que vous avez là...
 C'est très beau, @playername@!]], "tformat")
 t("Thank you, Elisa!", "Merci, Elisa!", "_t")
 t("Hello friend, what can I do for you?", "Bonjour, que puis-je faire pour vous?", "_t")
-t("Could you have a look at these objects, please? [show her your unidentified items]", "Pourriez-vous jeter un coup d'œil à ces objets, s'il vous plaît? [montrez-lui vos objets non identifiés]", "_t")
+t("Could you have a look at these objects, please? [show her your unidentified items]", "Pourriez-vous jeter un coup d'oeil à ces objets, s'il vous plaît? [montrez-lui vos objets non identifiés]", "_t")
 t("Nothing, goodbye.", "Rien, au revoir.", "_t")
 t([[Wait, @playername@, you seem to be quite the adventurer. Maybe we can help one another.
 You see, I #{bold}#LOOOVVVEEEE#{normal}# learning new lore and finding old artifacts of power, but I am not exactly an adventurer and I would surely get killed out there.
@@ -2668,7 +2668,7 @@ Il a également dit que le seul moyen d'accéder au pic et de désactiver le bou
 t("Thanks, my lady. I have not been able to find all of the orbs of command in my travels; could you have some of your men search for me?", "Merci, ma dame. Je n'ai pas été en mesure de trouver toutes les orbes de commandes dans mes voyages; pourriez-vous demander à certains de vos hommes de chercher pour moi?", "_t")
 t("Thanks, my lady. I will look for the tunnel and venture inside the Peak.", "Merci, ma dame. Je vais chercher le tunnel et m'aventurer à l'intérieur du Pic.", "_t")
 t([[I have already sent parties to clear out the remainder of the prides as you progressed, and have instructed to keep a sharp eye out for any orbs of command you may have missed.
-	Which do you not have? I can check with the parties if they found any. Our sources indicate that you should have four: one of Undeath, one of Destruction, one of Dragons, and one of Elemental might.]], [[J'ai déjà envoyé des équipes pour éliminer le reste des Clans au fur et à mesure de votre progression, et ai demandé de garder un œil attentif sur les orbes de commandes que vous auriez pu manquer.
+	Which do you not have? I can check with the parties if they found any. Our sources indicate that you should have four: one of Undeath, one of Destruction, one of Dragons, and one of Elemental might.]], [[J'ai déjà envoyé des équipes pour éliminer le reste des Clans au fur et à mesure de votre progression, et ai demandé de garder un oeil attentif sur les orbes de commandes que vous auriez pu manquer.
 	Lesquels n'avez-vous pas? Je peux vérifier avec les groupes s'ils en ont trouvé. Nos sources indiquent que vous devriez en avoir quatre: une de Non-Vie, une de Destruction, une Draconique, et une de Puissance Elémentaire.]], "_t")
 t("The orb of Undeath.", "L'orbe de Non-Vie.", "_t")
 t("The orb of Destruction.", "L'orbe de Destruction.", "_t")
@@ -2691,7 +2691,7 @@ The known bastions of the Pride are:
 - Grushnak Pride, on the eastern slope of the High Peak]], [[Bien que j'aimerais vous aider, nos forces sont déjà trop dispersées; nous ne pouvons pas vous fournir une assistance directe.
 Mais je peux peut-être vous aider en vous expliquant comment les Clans sont organisé.
 Récemment, nous avons entendu les Clans parler d'un nouveau maître, ou de nouveaux maîtres. Ils pourraient être ceux qui se cachent derrière votre mystérieux bâton.
-Nous pensons que le cœur de leur pouvoir est le Haut Pic, au centre du continent. Mais il est inaccessible et couvert par une sorte de bouclier.
+Nous pensons que le coeur de leur pouvoir est le Haut Pic, au centre du continent. Mais il est inaccessible et couvert par une sorte de bouclier.
 Vous devez enquêter sur les bastions des Clans. Vous trouverez peut-être plus d'informations sur le Haut Pic, et chaque orc que vous tuerez sera un de moins pour nous attaquer.
 Les bastions connus des Clans sont:
 - Le clan Rak'shor, à l'ouest du désert du sud.
@@ -3017,7 +3017,7 @@ t("#LIGHT_GREEN#[walk away with her]#WHITE#What about a little trip to the south
 t("Joke's on you really, goodbye!", "La plaisanterie est pour toi, vraiment, au revoir!", "_t")
 t("But... ok goodbye.", "Mais... ok au revoir.", "_t")
 t([[#LIGHT_GREEN#*You take Melinda in your arms and press her against you. The warmth of the contact lightens your heart.*#WHITE#
-I feel safe in your arms. Please, I know you must leave, but promise to come back soon and hold me again.]], [[#LIGHT_GREEN#*Vous prenez Melinda dans vos bras et la pressez contre vous. La chaleur du contact soulage votre cœur.*#WHITE#
+I feel safe in your arms. Please, I know you must leave, but promise to come back soon and hold me again.]], [[#LIGHT_GREEN#*Vous prenez Melinda dans vos bras et la pressez contre vous. La chaleur du contact soulage votre coeur.*#WHITE#
 Je me sens en sécurité dans vos bras. S'il vous plaît, je sais que vous devez partir, mais promettez-moi de revenir bientôt et de me tenir à nouveau comme cela.]], "_t")
 t("I think I would enjoy that very much. #LIGHT_GREEN#[kiss her]#WHITE#", "Je pense que cela me plairait beaucoup. #LIGHT_GREEN#[l'embrasser]#WHITE#", "_t")
 t("That thought will carry me in the dark places I shall walk. #LIGHT_GREEN#[kiss her]#WHITE#", "Cette pensée me soutiendra dans les lieux sombres où je marcherai. #LIGHT_GREEN#[l'embrasser]]#WHITE#", "_t")
@@ -3898,7 +3898,7 @@ t("How fares your research? Are we ready to create the portal?", "Comment se dé
 t("Nothing, excuse me. Bye!", "Rien, excusez-moi. Au revoir!", "_t")
 t("Astonishing! I have heard tell of this Orb in ancient texts and legends. Might I see it?", "Etonnant! J'ai entendu parler de cette orbe dans des textes et légendes anciennes. Puis-je la voir?", "_t")
 t("[Show him the Orb of Many Ways]", "[Lui montrer l'orbe des multiples voies]", "_t")
-t("Truly, it is the work of a great master. Perhaps Linaniil herself had a hand in its making. And you say you come bearing instructions in its usage?", "En vérité, c'est l'œuvre d'un grand maître. Peut-être Linaniil elle-même a-t-elle contribué à sa réalisation. Et vous dites que vous venez avec des instructions pour son emploi?", "_t")
+t("Truly, it is the work of a great master. Perhaps Linaniil herself had a hand in its making. And you say you come bearing instructions in its usage?", "En vérité, c'est l'oeuvre d'un grand maître. Peut-être Linaniil elle-même a-t-elle contribué à sa réalisation. Et vous dites que vous venez avec des instructions pour son emploi?", "_t")
 t("I do. [Show him Zemekkys's scribbled notes]", "En effet. [Lui montrer les notes griffonnées de Zemekkys]", "_t")
 t("#LIGHT_GREEN#*He spends a few minutes reading*#WHITE# Ah! I see. I did not at first grasp this Zemekkys's methods, but I see now that they are sound, and it is simply his penmanship that needs improvement. We can manage to reproduce his work here, but, as he says, we will need the Blood-Runed Athame and a Resonating Diamond.", "#LIGHT_GREEN#*Il passe quelques minutes à lire*#WHITE# Ah! je vois. Je n'ai pas saisi au début les méthodes de ce Zemekkys, mais je vois maintenant qu'elles sont solides, et c'est simplement son écriture qui doit être améliorée. Nous pouvons réussir à reproduire son travail ici, mais, comme il le dit, nous aurons besoin de l'Athamé rune de sang et d'un Diamant Résonnant.", "_t")
 t("Have you any idea where they might be found?", "Avez-vous une idée de l'endroit où ils pourraient se trouver?", "_t")
@@ -4005,7 +4005,7 @@ t("But what is all th...", "Mais qu'est-ce que tout cela...", "_t")
 section "mod-tome/data/chats/the-master-resurrect.lua"
 
 t([[#LIGHT_GREEN#*The Master crumbles before you, vanquished. Yet in the blink of an eye you see his form recreating from dust; unharmed and ready to fight again!*#WHITE#
-Ahah you fool! See how even death has no meaning for me; for I am the Master and you are my toy, now and forever.]], [[#LIGHT_GREEN#*Le Maître s'effondre devant vous, vaincu. Pourtant, en un clin d'œil, vous voyez sa forme se recréer à partir de la poussière; indemne et prêt à combattre à nouveau!*#WHITE#
+Ahah you fool! See how even death has no meaning for me; for I am the Master and you are my toy, now and forever.]], [[#LIGHT_GREEN#*Le Maître s'effondre devant vous, vaincu. Pourtant, en un clin d'oeil, vous voyez sa forme se recréer à partir de la poussière; indemne et prêt à combattre à nouveau!*#WHITE#
 Ahah, espèce d'idiot! Vois comme même la mort n'a aucune signification pour moi; car je suis le Maître et tu es mon jouet, maintenant et pour toujours.]], "_t")
 t("Never! Die!", "Jamais! Meurt!", "_t")
 
@@ -4903,7 +4903,7 @@ t("This crown of pure flames possesses a myriad of small molten rocks floating w
 t([[A terrible shout thunders across the level: 'Come my darling, come, I will be ssssooo *nice* to you!'
 You should flee from this level!]], [[Un cri terrible retentit à travers tout le niveau: "Viens mon coeur, viens, je vais être tellement *gentille* avec toi!".
 Vous devez fuir ce niveau!]], "_t")
-t("%s pulls a dagger and opens his own chest, piercing his beating heart. The stone glows with malevolent colors.", "%s tire une dague et ouvre sa propre poitrine, perçant son cœur qui bat. La pierre brille de couleurs maléfiques.", "logSeen")
+t("%s pulls a dagger and opens his own chest, piercing his beating heart. The stone glows with malevolent colors.", "%s tire une dague et ouvre sa propre poitrine, perçant son coeur qui bat. La pierre brille de couleurs maléfiques.", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/damp-cave.lua"
@@ -5884,7 +5884,7 @@ section "mod-tome/data/general/npcs/ghost.lua"
 t("undead", "mort-vivant", "entity type")
 t("ghost", "fantôme", "entity subtype")
 t("dread", "hanteur", "entity name")
-t("It is a form that screams its presence against the eye. Death incarnate, its hideous black body seems to struggle against reality as the universe itself strives to banish it.", "C'est une forme qui crie sa présence à l'œil nu. La mort incarnée, son hideux corps noir semble lutter contre la réalité alors que l'univers lui-même s'efforce de le bannir.", "_t")
+t("It is a form that screams its presence against the eye. Death incarnate, its hideous black body seems to struggle against reality as the universe itself strives to banish it.", "C'est une forme qui crie sa présence à l'oeil nu. La mort incarnée, son hideux corps noir semble lutter contre la réalité alors que l'univers lui-même s'efforce de le bannir.", "_t")
 t("dreadmaster", "maître hanteur", "entity name")
 t("It is an unlife of power almost unequaled. An affront to existence, its very touch abuses and disrupts the flow of life, and its unearthly limbs, of purest black, crumble rock and wither flesh with ease.", "C'est une vie sans vie dont la puissance est presque inégalée. Un affront à l'existence, son seul contact abuse et perturbe le flux de la vie, et ses membres surnaturels, d'un noir pur, effritent la roche et flétrissent la chair avec facilité.", "_t")
 t("It is a ghostly woman's form that wails mournfully.", "C'est la forme d'une femme fantôme qui gémit de façon lugubre.", "_t")
@@ -6533,7 +6533,7 @@ t("It feels no pain.  It moves with fluidity and strength that would tear natura
 t("skeleton master archer", "maître archer squelette", "entity name")
 t("This skeleton can fire arrows and nock new ones with blinding speed.  Arcane forces pull its bones with unnatural precision - its arms will never tremble or get tired.", "Ce squelette peut tirer des flèches et en encocher de nouvelles à une vitesse aveuglante.  Les forces arcaniques tiennent ses os avec une précision surnaturelle, ses bras ne trembleront jamais et ne se fatigueront pas.", "_t")
 t("skeleton assassin", "assassin squelette", "entity name")
-t("Most skeletons announce their presence with a chorus of rattling bones; this one's been charred black and has enough cartilage between its joints to muffle its approach.  The first you'll see of it will be the flash of its blade.", "La plupart des squelettes annoncent leur présence par un chœur de cliquetis d'os; celui-ci a été carbonisé en noir et a suffisamment de cartilage entre ses articulations pour assourdir son approche.  La première chose que vous verrez de lui sera l'éclair de sa lame.", "_t")
+t("Most skeletons announce their presence with a chorus of rattling bones; this one's been charred black and has enough cartilage between its joints to muffle its approach.  The first you'll see of it will be the flash of its blade.", "La plupart des squelettes annoncent leur présence par un choeur de cliquetis d'os; celui-ci a été carbonisé en noir et a suffisamment de cartilage entre ses articulations pour assourdir son approche.  La première chose que vous verrez de lui sera l'éclair de sa lame.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/snake.lua"
@@ -7044,20 +7044,20 @@ t("With this unbearably bright whip of flame, the demon master Urh'Rok has becom
 t("Storm Fury", "Fureur des Tempêtes", "entity name")
 t("crackling longbow", "arc long crépitant", "_t")
 t("This dragonbone longbow is enhanced with bands of steel, which arc with intense lightning. Bolts travel up and down the string, ignorant of you.", "Cet arc long en os de dragon est renforcé par des bandes d'acier produisant des éclairs intenses. Les éclairs voyagent de haut en bas de la corde, sans tenir compte de vous.", "_t")
-t("Automatically fires lightning bolts every game turn at nearby enemies dealing %d to %d lightning damage based on Magic with a chance to inflict Daze.", "Tire automatiquement des éclairs à chaque tour de jeu sur les ennemis proches, infligeant %d à %d de dégâts d'éclairs basés sur la magie, avec une chance d'infliger un étourdissement.", "tformat")
+t("Automatically fires lightning bolts every game turn at nearby enemies dealing %d to %d lightning damage based on Magic with a chance to inflict Daze.", "Tire automatiquement des éclairs à chaque tour de jeu sur les ennemis proches, infligeant %d à %d dégâts d'éclairs basés sur la magie, avec une chance d'infliger un étourdissement.", "tformat")
 t("#GOLD#A bolt of lightning fires from #Source#'s bow, striking #Target#!", "#GOLD#Un éclair jaillit de l'arc de #Source#, frappant #Target#!", "logCombat")
 t("Frozen Shroud", "Linceul Givré", "entity name")
 t("chilling cloak", "cape glaciale", "_t")
 t("All that remains of the Glacial Legion. This cloak seems to exude an icy cold vapor that freezes all it touches.", "Tout ce qui reste de la Légion Glaciale. Cette cape semble dégager une vapeur glacée qui gèle tout ce qu'elle touche.", "_t")
-t("release a radius %d chilling blast, instantly dealing %0.2f cold damage and condensing the air into freezing vapors that deal %0.2f cold damage (based on Magic) each turn for %d turns", "libère un souffle glacial dans un rayon de %d, infligeant instantanément %0.2f de dégâts de froid et condensant l'air en vapeurs glaciales qui infligent %0.2f de dégâts de froid (basé sur la Magie) à chaque tour pendant %d de tours.", "tformat")
+t("release a radius %d chilling blast, instantly dealing %0.2f cold damage and condensing the air into freezing vapors that deal %0.2f cold damage (based on Magic) each turn for %d turns", "libère un souffle glacial dans un rayon de %d, infligeant instantanément %0.2f dégâts de froid et condensant l'air en vapeurs glaciales qui infligent %0.2f dégâts de froid (basé sur la Magie) à chaque tour pendant %d de tours.", "tformat")
 t("%s releases an icy blast from %s %s!", "%s libère un souffle glacé de %s %s!", "logSeen")
 t("icy vapors", "vapeurs glaciales", "_t")
 t("Blighted Maul", "Massue du Malaise", "entity name")
 t("rotten stone limb", "membre en pierre pourrie", "_t")
 t("The massive stone limb of the Rotting Titan, a mass of stone and rotting flesh. You think you can lift it, but it is very heavy.", "L'énorme membre de pierre et de chair en décomposition du Titan Pourri. Vous pensez pouvoir le soulever, mais il est très lourd.", "_t")
-t("Blasts creatures in a radius 1 shockwave around your target for %0.2f to %0.2f physical damage (based on Strength).", "Provoque une onde de choc de rayon 1 autour de votre cible pour %0.2f à %0.2f de dégâts physiques (basés sur la Force).", "tformat")
+t("Blasts creatures in a radius 1 shockwave around your target for %0.2f to %0.2f physical damage (based on Strength).", "Provoque une onde de choc de rayon 1 autour de votre cible pour %0.2f à %0.2f dégâts physiques (basés sur la Force).", "tformat")
 t("%s's %s shakes the ground with its impact!", "%s de %s fait trembler le sol par son impact!", "logSeen")
-t("knock away other creatures within radius %d), dealing %0.2f to %0.2f physical damage (based on Strength) to each", "assommer les autres créatures dans un rayon de %d, infligeant %0.2f à %0.2f de dégâts physiques (basés sur la Force) à chacune d'elles.", "tformat")
+t("knock away other creatures within radius %d), dealing %0.2f to %0.2f physical damage (based on Strength) to each", "assommer les autres créatures dans un rayon de %d, infligeant %0.2f à %0.2f dégâts physiques (basés sur la Force) à chacune d'elles.", "tformat")
 t("%s slams %s %s into the ground, sending out a shockwave!", "%s écrase %s %s dans le sol en envoyant une onde de choc!", "logSeen")
 t("Molten Skin", "Peau Fondue", "entity name")
 t("melting bony armour", "armure osseuse en fusion", "_t")
@@ -7078,7 +7078,7 @@ t("No Winter Storm Active", "Pas de tempête hivernale active", "_t")
 t("Winter Storm: ", "Tempête Hivernale: ", "_t")
 t("radius %d (%d turns remaining)", "rayon %d (%d tours restants)", "tformat")
 t("None", "Aucune", "_t")
-t("Create a Winter Storm that gradually expands (from radius %d to radius %d), dealing %0.2f cold damage (based on Strength) to your enemies each turn and slowing their ability to act by 20%%.  Subsequent melee strikes will relocate the storm on top of your target and increase its duration.", "Crée une Tempête Hivernale qui s'étend progressivement ( de rayon %d à rayon %d), infligeant %0.2f de dégâts de froid (basés sur la Force) à vos ennemis à chaque tour et ralentissant leur capacité d'action de 20%%.  Les frappes de mêlée suivantes déplacent la tempête sur votre cible et augmentent sa durée.", "tformat")
+t("Create a Winter Storm that gradually expands (from radius %d to radius %d), dealing %0.2f cold damage (based on Strength) to your enemies each turn and slowing their ability to act by 20%%.  Subsequent melee strikes will relocate the storm on top of your target and increase its duration.", "Crée une Tempête Hivernale qui s'étend progressivement ( de rayon %d à rayon %d), infligeant %0.2f dégâts de froid (basés sur la Force) à vos ennemis à chaque tour et ralentissant leur capacité d'action de 20%%.  Les frappes de mêlée suivantes déplacent la tempête sur votre cible et augmentent sa durée.", "tformat")
 t("#LIGHT_BLUE#A Winter Storm forms around %s.", "#LIGHT_BLUE#Une Tempête Hivernale se forme autour de %s.", "logSeen")
 t("precipitate ice walls (lasting 10 turns) within your Winter Storm's area", "précipite des murs de glace (pendant 10 tours) dans la zone de votre Tempête Hivernale.", "_t")
 t("#LIGHT_BLUE#%s brandishes %s %s, releasing a wave of Winter cold!", "#LIGHT_BLUE#%s brandit %s %s, libérant une vague de froid Hivernal!", "logSeen")
@@ -7174,7 +7174,7 @@ t("You fix the crystal on the %s and create the %s.", "Vous fixez le cristal sur
 t("Crystal Heart", "Coeur de Cristal", "entity name")
 t("coruscating crystal", "cristal coruscant", "_t")
 t("This crystal is huge, easily the size of your head. It sparkles brilliantly almost of its own accord.", "Ce cristal est énorme, facilement de la taille de votre tête. Il brille brillamment presque de lui-même.", "_t")
-t("(The created item can be activated to recover the Heart.)", "(L'objet créé peut être activé pour récupérer le cœur.)", "_t")
+t("(The created item can be activated to recover the Heart.)", "(L'objet créé peut être activé pour récupérer le coeur.)", "_t")
 t("combine with a suit of body armor (makes a non enchanted armour into an artifact)", "se combine avec une armure (transforme une armure non enchantée en artefact)", "_t")
 t("Fuse with which armor?", "Fusionner avec quelle armure?", "_t")
 t("crystalline armour", "armure cristalline", "_t")
@@ -7229,7 +7229,7 @@ t("#LIGHT_RED#You feel uneasy carrying %s.", "#LIGHT_RED#Vous ne vous sentez pas
 t("Psionic Fury", "Furie Psionique", "entity name")
 t("vibrating mindstar", "étoile d'âme vibrante", "_t")
 t("This mindstar constantly shakes and vibrates, as if a powerful force is desperately trying to escape.", "Cette étoile d'âme tremble et vibre constamment, comme si une force puissante tentait désespérément de s'échapper.", "_t")
-t("release a wave of psionic power, dealing %0.2f mind damage (based on Willpower) to all within radius %d", "libère une vague de puissance psionique, infligeant %0.2f de dégâts d'esprit (basés sur la Volonté) à tous ceux qui se trouvent dans un rayon de %d.", "tformat")
+t("release a wave of psionic power, dealing %0.2f mind damage (based on Willpower) to all within radius %d", "libère une vague de puissance psionique, infligeant %0.2f dégâts d'esprit (basés sur la Volonté) à tous ceux qui se trouvent dans un rayon de %d.", "tformat")
 t("%s's %s sends out a blast of psionic energy!", "%s de %s émet un souffle d'énergie psionique!", "logSeen")
 t("Storm Bringer's Gauntlets", "Gantelets de l'Orage", "entity name")
 t("fine-mesh gauntlets", "gantelets à mailles fines", "_t")
@@ -7272,7 +7272,7 @@ t("Upon defeat, Ak'Gishil collapsed into this tiny rift. How it remains stable, 
 t("Blade of Distorted Time", "Lame du Temps Distordu", "entity name")
 t("time-warped sword", "épée temporelle", "_t")
 t("The remnants of a damaged timeline, this blade shifts and fades at random.", "Les vestiges d'une ligne de temps endommagée, cette lame se déplace et s'estompe au hasard.", "_t")
-t("deals %d temporal damage and slows enemies in radius 6 of the target by %d%% based on Magic", "inflige %d de dégâts temporels et ralentit les ennemis dans un rayon de 6 de la cible de %d%% basé sur la Magie.", "tformat")
+t("deals %d temporal damage and slows enemies in radius 6 of the target by %d%% based on Magic", "inflige %d dégâts temporels et ralentit les ennemis dans un rayon de 6 de la cible de %d%% basé sur la Magie.", "tformat")
 t("Rune of Reflection", "Rune de Réflexion", "entity name")
 t("You can see your own image mirrored in the surface of this silvery rune.", "Vous pouvez voir votre propre image reflétée dans la surface de cette rune argentée.", "_t")
 t("shiny rune", "rune brillante", "_t")
@@ -8663,7 +8663,7 @@ t("Your nonexistant mana regeneration rate is unaffected by the staff.", "Votre 
 t(" of greater warding", " de grande protection", "entity name")
 t("g. warding", "grande protection", "entity keyword")
 t(" of invocation", " d'invocation", "entity name")
-t("conjure elemental energy in a radius %d cone, dealing %0.2f to %0.2f %s damage", "conjure de l'énergie élémentaire dans un cône de %d de rayon, infligeant %0.2f à %0.2f %s de dégâts", "tformat")
+t("conjure elemental energy in a radius %d cone, dealing %0.2f to %0.2f %s damage", "conjure de l'énergie élémentaire dans un cône de %d de rayon, infligeant %0.2f à %0.2f %s dégâts", "tformat")
 t("%s channels a cone of %s%s#LAST# energy through %s %s!", "%s canalise un cône d'énergie %s%s#LAST# à travers %s %s!", "logSeen")
 t(" of protection", " de protection", "entity name")
 t(" of wizardry", " de magie", "entity name")
@@ -8709,7 +8709,7 @@ t("project a gust of wind in a cone knocking all creatures back %d spaces and de
 t("%s uses %s %s!", "%s utilise %s %s!", "logSeen")
 t(" of mindblast", " de choc spirituel", "entity name")
 t("mindblast", "choc spi", "entity keyword")
-t("blast the opponent's mind dealing %d mind damage and silencing them for 4 turns", "frappe l'esprit de l'adversaire en lui infligeant %d de dégâts mentaux et en le réduisant au silence pendant 4 tours.", "tformat")
+t("blast the opponent's mind dealing %d mind damage and silencing them for 4 turns", "frappe l'esprit de l'adversaire en lui infligeant %d dégâts mentaux et en le réduisant au silence pendant 4 tours.", "tformat")
 t("%s activates %s %s!", "%s active %s %s!", "logSeen")
 
 ------------------------------------------------
@@ -8721,7 +8721,7 @@ t("heal yourself and all friendly characters within 10 spaces for %d", "soignez 
 t("%s activates %s %s!", "%s active %s %s!", "logSeen")
 t(" of stinging", " de douleur", "entity name")
 t("stinging", "douleur", "entity keyword")
-t("sting an enemy dealing %d nature damage over 7 turns and reducing their healing by 50%%%%", "piquer un ennemi en lui infligeant %d de dégâts de nature sur 7 tours et en réduisant ses soins de 50%%%%.", "tformat")
+t("sting an enemy dealing %d nature damage over 7 turns and reducing their healing by 50%%%%", "piquer un ennemi en lui infligeant %d dégâts naturel sur 7 tours et en réduisant ses soins de 50%%%%.", "tformat")
 t(" of thorny skin", " de peau épineuse", "entity name")
 t("thorny", "épineuse", "entity keyword")
 t("harden the skin for 7 turns increasing armour by %d and armour hardiness by %d%%%%", "durcit la peau pendant 7 tours augmentant l'armure de %d et la robustesse de %d%%%%", "tformat")
@@ -8757,7 +8757,7 @@ t("reveal the area around you, dispelling darkness (radius %d, power %d based on
 t("%s uses %s %s!", "%s utilise %s %s!", "logSeen")
 t(" of lightning storm", " d'orage", "entity name")
 t("lightning storm", "orage", "entity keyword")
-t("create a radius %d storm for %d turns. Each turn, creatures within take %d lightning damage and will be dazed for 1 turn (%d total damage)", "crée une tempête dans de rayon %d pendant %d tours. À chaque tour, les créatures situées dans ce rayon subissent %d dégâts de foudre et sont étourdies pendant 1 tour (%d de dégâts totaux).", "tformat")
+t("create a radius %d storm for %d turns. Each turn, creatures within take %d lightning damage and will be dazed for 1 turn (%d total damage)", "crée une tempête dans de rayon %d pendant %d tours. À chaque tour, les créatures situées dans ce rayon subissent %d dégâts de foudre et sont étourdies pendant 1 tour (%d dégâts totaux).", "tformat")
 t("%s conjures a lightning storm from %s %s!", "%s conjure une tempête de foudre à partir de %s %s!", "logSeen")
 t(" of conjuration", " de conjuration", "entity name")
 t("conjure", "évoquer", "entity keyword")
@@ -8765,7 +8765,7 @@ t("fire a magical bolt dealing %d %s damage", "tire un trait magique infligeant 
 t("%s activates %s %s!", "%s active %s %s!", "logSeen")
 t(" of shielding", " du pavois", "entity name")
 t("shielding", "pavois", "entity keyword")
-t("create a shield absorbing up to %d damage on yourself and all friendly characters within 10 spaces for %d turns", "créer un bouclier absorbant jusqu'à %d de dégâts sur vous-même et tous les personnages amis dans un rayon de 10 pendant %d tours", "tformat")
+t("create a shield absorbing up to %d damage on yourself and all friendly characters within 10 spaces for %d turns", "créer un bouclier absorbant jusqu'à %d dégâts sur vous-même et tous les personnages amis dans un rayon de 10 pendant %d tours", "tformat")
 -- texte non traduit
 --[==[
 t("clairvoyance", "clairvoyance", "entity keyword")
@@ -8859,7 +8859,7 @@ t("dampening", "humide", "entity keyword")
 t("hateful ", "du détestable ", "entity name")
 t("hateful", "détestable", "entity keyword")
 t(" of projection", " de projection", "entity name")
-t("Projects up to %d attacks dealing 30%% weapon damage to other random targets in range 7 as mind damage (1/turn)", "Projette jusqu'à %d attaques infligeant 30%% de dégâts d'arme à d'autres cibles aléatoires à portée 7 sous forme de dégâts d'esprit (1/tour).", "tformat")
+t("Projects up to %d attacks dealing 30%% weapon damage to other random targets in range 7 as mind damage (1/turn)", "Projette jusqu'à %d attaques infligeant 30%% dégâts d'arme à d'autres cibles aléatoires à portée 7 sous forme de dégâts mentaux (1/tour).", "tformat")
 t("thought-forged ", "d'intention ", "entity name")
 t("thought", "intention", "entity keyword")
 t(" of amnesia", " d'amnésia", "entity name")
@@ -8970,7 +8970,7 @@ t("giant stinger", "dard géant", "_t")
 t("A ritch stinger, still glistening with venom.", "Un dard de ritch, toujours scintillant de venin.", "_t")
 t("orc heart", "coeur d'orc", "entity name")
 t("heart", "coeur", "_t")
-t("The heart of an orc. Perhaps surprisingly, it isn't green.", "Le cœur d'un orc. De façon surprenante, il n'est pas vert.", "_t")
+t("The heart of an orc. Perhaps surprisingly, it isn't green.", "Le coeur d'un orc. De façon surprenante, il n'est pas vert.", "_t")
 t("naga tongue", "langue de naga", "entity name")
 t("naga tongue", "langue de naga", "_t")
 t("A severed naga tongue. It reeks of brine.", "Une langue de naga coupée. Ça pue la saumure.", "_t")
@@ -10287,7 +10287,7 @@ t("#GOLD#%s draws power from the spilt blood!", "#GOLD#%s tire son pouvoir du sa
 t("Dawn's Blade", "Lame de l'Aube", "entity name")
 t("shining longsword", "épée longue rayonnante", "_t")
 t("Said to have been forged in the earliest days of the Sunwall, this longsword shines with the light of daybreak, capable of banishing all shadows.", "Forgée, dit-on, aux premiers jours du Mur Solaire, cette épée longue brille de la lumière du jour, capable de bannir toutes les ombres.", "_t")
-t("invoke dawn, inflicting %0.2f light damage in radius %d (based on Magic) and lighting the area within radius %d", "invoque l'aube, infligeant %0.2f de dégâts de lumière dans un rayon de %d (basé sur la magie) et éclairant la zone dans un rayon de %d.", "tformat")
+t("invoke dawn, inflicting %0.2f light damage in radius %d (based on Magic) and lighting the area within radius %d", "invoque l'aube, infligeant %0.2f dégâts de lumière dans un rayon de %d (basé sur la magie) et éclairant la zone dans un rayon de %d.", "tformat")
 t("%s raises %s and sends out a burst of light!", "%s lève %s et envoie un éclat de lumière!", "logSeen")
 t("#GOLD#You feel a swell of positive energy!", "#GOLD#Vous ressentez une vague d'énergie positive!", "logPlayer")
 t("If the sun doesn't set, dawn's power lasts forever.", "Si le soleil ne se couche pas, le pouvoir de l'aube est éternel.", "_t")
@@ -10324,7 +10324,7 @@ t("Archmage Tarelion travelled the world in his youth. But the world is not a ni
 t("Spellblaze Echoes", "Échos de la Brûlre Magique", "entity name")
 t("deep black amulet", "amulette d'un noir profond", "_t")
 t("This ancient charm still retains a distant echo of the destruction wrought by the Spellblaze", "Ce charme ancien conserve encore un écho lointain de la destruction causée par la Brûlure Magique.", "_t")
-t("unleash a destructive wail, destroying terrain and dealing %0.2f physical damage (based on Magic) in a radius of %d", "Déclenche un hurlement destructeur, détruisant le terrain et infligeant %0.2f de dégâts physiques (basés sur la magie) dans un rayon de %d.", "tformat")
+t("unleash a destructive wail, destroying terrain and dealing %0.2f physical damage (based on Magic) in a radius of %d", "Déclenche un hurlement destructeur, détruisant le terrain et infligeant %0.2f dégâts physiques (basés sur la magie) dans un rayon de %d.", "tformat")
 t("%s uses the %s!", "%s utilise %s!", "logSeen")
 t("Daneth's Neckguard", "Garde-Cou de Daneth", "entity name")
 t("a thick steel gorget", "un épais gorget en acier", "_t")
@@ -10377,7 +10377,7 @@ t("When the enchanter Razeen was cornered by Spellhunters near the Daikara mount
 t("Gwai's Burninator", "Le brûleur de Gwai", "entity name")
 t("glowing rod", "bâtonnet lumineux", "_t")
 t("Gwai, a Pyromanceress that lived during the Spellhunt, was cornered by group of mage hunters. She fought to her last breath and is said to have killed at least ten people with this wand before she fell.", "Gwai, une Pyromancienne qui vivait pendant la Chasse Anti-Magique, a été coincée par un groupe de chasseurs de mages. Elle s'est battue jusqu'à son dernier souffle et on dit qu'elle a tué au moins dix personnes avec ce bâtonnet avant de tomber.", "_t")
-t("shoot a cone of flames (radius %d) for %0.2f fire damage (based on Magic)", "tire un cône de flammes (rayon %d) pour %0.2f de dégâts de feu (basé sur la magie)", "tformat")
+t("shoot a cone of flames (radius %d) for %0.2f fire damage (based on Magic)", "tire un cône de flammes (rayon %d) pour %0.2f dégâts de feu (basé sur la magie)", "tformat")
 t("%s activates %s %s!", "%s active %s %s!", "logSeen")
 t("Drake's Bane", "Le Fléau du Dragon", "entity name")
 t("viciously sharp battle axe", "hache de combat vicieusement aiguisée", "_t")
@@ -10416,7 +10416,7 @@ t("Worn by Protector Ardon, who first formed the Ziguranth during the mage wars 
 t("#DARK_GREEN#You feel especially blessed.", "#DARK_GREEN#Vous vous sentez particulièrement béni.", "logPlayer")
 t("Plate Armor of the King", "Armure de Plaque du Roi", "entity name")
 t("suit of gleaming voratun plate", "combinaison de plaques en voratun brillantes", "_t")
-t("Beautifully detailed with images of King Toknor's defence of Last Hope. Despair fills the hearts of even the blackest villains at the sight of it.", "Magnifiquement détaillé avec des images de la défense de Dernier Espoir par le roi Toknor. Le désespoir remplit le cœur de tous les scélérats, même les plus noirs, à sa vue.", "_t")
+t("Beautifully detailed with images of King Toknor's defence of Last Hope. Despair fills the hearts of even the blackest villains at the sight of it.", "Magnifiquement détaillé avec des images de la défense de Dernier Espoir par le roi Toknor. Le désespoir remplit le coeur de tous les scélérats, même les plus noirs, à sa vue.", "_t")
 t("Witch-Bane", "Fléau des Sorcières", "entity name")
 t("an ivory handled voratun longsword", "une épée longue en voratun à manche d'ivoire", "_t")
 t([[A thin voratun blade with an ivory handle wrapped in purple cloth.  The weapon is nearly as legendary as its former owner, Marcus Dunn, and was thought to have been destroyed after Marcus was slain near the end of the Spellhunt.
@@ -10480,7 +10480,7 @@ t("This unique-looking staff is carved with runes of destruction.", "Ce bâton �
 t("Vargh Redemption", "Rédemption de Vargh", "entity name")
 t("sea-blue ring", "bague bleu marine", "_t")
 t("This azure ring seems to be always moist to the touch.", "Cet anneau d'azur semble être toujours humide au toucher.", "_t")
-t("summon a radius %d tidal wave that expands slowly over %d turns, dealing %0.2f cold and %0.2f physical damage (based on Willpower) each turn, knocking opponents back, and lowering their stun resistance", "invoque un raz-de-marée de rayon %d qui s'étend lentement sur %d tours, infligeant %0.2f de dégâts de froid et %0.2f de dégâts physiques (basés sur la Volonté) à chaque tour, faisant reculer les adversaires et diminuant leur résistance à l'assomement.", "tformat")
+t("summon a radius %d tidal wave that expands slowly over %d turns, dealing %0.2f cold and %0.2f physical damage (based on Willpower) each turn, knocking opponents back, and lowering their stun resistance", "invoque un raz-de-marée de rayon %d qui s'étend lentement sur %d tours, infligeant %0.2f dégâts de froid et %0.2f dégâts physiques (basés sur la Volonté) à chaque tour, faisant reculer les adversaires et diminuant leur résistance à l'assomement.", "tformat")
 t("tidal wave", "raz de marée", "_t")
 t("%s brandishes %s, calling forth the might of the oceans!", "%s brandit %s, invoquant la puissance des océans!", "logSeen")
 t("Ring of the Dead", "Anneau des morts", "entity name")
@@ -10778,7 +10778,7 @@ t("heavy staff", "Bâton épais", "_t")
 t("Time and Space seem to warp and bend around the massive tip of this stave.", "Le temps et l'espace semblent se déformer et se plier autour de la pointe massive de ce bâton.", "_t")
 t("Eye of the Wyrm", "Oeil du Ver", "entity name")
 t("multi-colored mindstar", "étoile d'âme multicolore", "_t")
-t("A black iris cuts through the core of this mindstar, which shifts with myriad colours. It darts around, as if searching for something.", "Un iris noir traverse le cœur de cette étoile d'âme, qui se décline en une myriade de couleurs. Il s'agite autour, comme s'il cherchait quelque chose.", "_t")
+t("A black iris cuts through the core of this mindstar, which shifts with myriad colours. It darts around, as if searching for something.", "Un iris noir traverse le coeur de cette étoile d'âme, qui se décline en une myriade de couleurs. Il s'agite autour, comme s'il cherchait quelque chose.", "_t")
 t("The breath attack has a chance to shift randomly between Fire, Ice, Lightning, Acid, and Sand each turn.", "Cette attaque de souffle a une chance de passer aléatoirement du feu, du froid, de la foudre, de l'acide ou du sable à chaque tour.", "_t")
 t("Great Caller", "Excellent Appeau", "entity name")
 t("humming mindstar", "étoile d'âme fredonnante", "_t")
@@ -10807,7 +10807,7 @@ t("This steel plated whip arcs with intense electricity. The force feels uncontr
 t("Focus the lightning forces on an enemy", "Concentrer les forces de la foudre sur un ennemi", "_t")
 t("The storm is on your side !", "La tempête est de votre côté!", "logPlayer")
 t("The storm betrayed you...", "La tempête vous a trahi...", "logPlayer")
-t("strike an enemy within range %d (for 100%% weapon damage as lightning) and release a radius %d burst of electricity dealing %0.2f to %0.2f lightning damage (based on Magic and Dexterity)", "Frappez un ennemi dans un rayon de %d (pour 100%% des dégâts d'arme convertie en foudre) et libérez une rafale d'électricité dans un rayon de %d infligeant %0.2f à %0.2f de dégâts d'éclairs (basé sur la Magie et la Dextérité).", "tformat")
+t("strike an enemy within range %d (for 100%% weapon damage as lightning) and release a radius %d burst of electricity dealing %0.2f to %0.2f lightning damage (based on Magic and Dexterity)", "Frappez un ennemi dans un rayon de %d (pour 100%% des dégâts d'arme convertie en foudre) et libérez une rafale d'électricité dans un rayon de %d infligeant %0.2f à %0.2f dégâts d'éclairs (basé sur la Magie et la Dextérité).", "tformat")
 t("#Source# strikes #Target# with %s %s, sending out an arc of lightning!", "#Source# frappe #Target# avec %s %s, en envoyant un arc de foudre!", "logCombat")
 t("Focus Whip", "Fouet de Focalisation", "entity name")
 t("gemmed whip handle", "manche de fouet gemmé", "_t")
@@ -10822,7 +10822,7 @@ t("%s's %s lashes out in a flaming arc, intensifying the burning of %s enemies!"
 t("Robe of Force", "Robe de Force", "entity name")
 t("rippling cloth robe", "robe en tissu ondulé", "_t")
 t("This thin cloth robe is surrounded by a pulsating shroud of telekinetic force.", "Cette robe en tissu fin est entourée d'un linceul pulsant de force télékinétique.", "_t")
-t("send out a range %d beam of kinetic energy, dealing %0.2f to %0.2f physical damage (based on Willpower and Cunning) with knockback", "envoie un rayon d'énergie cinétique d'une portée de %d, infligeant %0.2f à %0.2f de dégâts physiques (basés sur la Volonté et la Ruse) avec un effet de choc.", "tformat")
+t("send out a range %d beam of kinetic energy, dealing %0.2f to %0.2f physical damage (based on Willpower and Cunning) with knockback", "envoie un rayon d'énergie cinétique d'une portée de %d, infligeant %0.2f à %0.2f dégâts physiques (basés sur la Volonté et la Ruse) avec un effet de choc.", "tformat")
 t("%s focuses a beam of force from %s %s!", "%s concentre un rayon de force de %s %s!", "logSeen")
 t("Serpent's Glare", "Regard du Serpent", "entity name")
 t("venomous gemstone", "pierre précieuse venimeuse", "_t")
@@ -10844,7 +10844,7 @@ t("#CRIMSON#As you tear the tentacles from your arm, horrible images enter your 
 t("#CRIMSON#As you wield the sword, the tentacles on its hilt wrap around your arm. You feel the sword's will invading your mind!", "#CRIMSON#Lorsque vous maniez l'épée, les tentacules de sa poignée s'enroulent autour de votre bras. Vous sentez la volonté de l'épée envahir votre esprit!", "logPlayer")
 t("jagged, segmented, sword", "dentelée, segmentée, épée", "_t")
 t("This heavy, ridged blade emanates magical power, yet as you grasp the handle an icy chill runs its course through your spine. You feel the disembodied presence of all those slain by it. In unison, they demand company.", "Cette lame lourde et striée émet un pouvoir magique, mais lorsque vous saisissez la poignée, un frisson glacé parcourt votre colonne vertébrale. Vous ressentez la présence désincarnée de tous ceux qui ont été tués par elle. A l'unisson, ils réclament de la compagnie.", "_t")
-t("deal %0.2f arcane and %0.2f darkness damage (based on Magic) in a radius 1 around the target", "inflige %0.2f de dégâts d'arcane et %0.2f de dégâts d'obscurité (basés sur la magie) dans un rayon de 1 autour de la cible.", "tformat")
+t("deal %0.2f arcane and %0.2f darkness damage (based on Magic) in a radius 1 around the target", "inflige %0.2f dégâts arcanique et %0.2f dégâts d'obscurité (basés sur la magie) dans un rayon de 1 autour de la cible.", "tformat")
 t("swallows the victim's soul, gaining a new power", "avale l'âme de la victime et acquiert un nouveau pouvoir.", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("@Source@ taps the #SALMON#trapped soul#LAST# of %s, xmanifesting %s!", "@Source@ tappe #SALMON#l'âme piégé#LAST# de %s, manifestant %s!", "tformat")
@@ -10869,7 +10869,7 @@ t("slightly tarnished voratun gauntlets", "gantelets en voratun légèrement ter
 t("These voratun gauntlets shine brightly beneath a thin layer of wear. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "Ces gantelets en voratun brillent de mille feux sous une fine couche d'usure. Utilisés à l'origine durant la chasse aux sorts, ils étaient souvent utilisés pour détruire les artefacts arcaniques, débarrassant le monde de leur influence.", "_t")
 t("gleaming voratun gauntlets", "gantelets en voratun brillants", "_t")
 t("These brilliant voratun gauntlets shine with an almost otherworldly glow. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence. Pride in the fulfillment of this ancient duty practically radiates from them.", "Ces brillants gantelets en voratun brillent d'un éclat presque surnaturel. Utilisés à l'origine durant la chasse aux sorts, ils étaient souvent utilisés pour détruire les artefacts arcaniques et débarrasser le monde de leur influence. La fierté d'avoir accompli ce devoir ancien rayonne pratiquement d'eux.", "_t")
-t("attempt to destroy all magic effects and sustains on creatures in a radius %d cone (unnatural creatures are additionally dealt %0.2f arcane damage and stunned)", "Tente de détruire tous les effets magiques et les soutiens des créatures dans un cône de %d de rayon (les créatures non naturelles subissent en plus %0.2f de dégâts d'arcanes et sont assomé).", "tformat")
+t("attempt to destroy all magic effects and sustains on creatures in a radius %d cone (unnatural creatures are additionally dealt %0.2f arcane damage and stunned)", "Tente de détruire tous les effets magiques et les soutiens des créatures dans un cône de %d de rayon (les créatures non naturelles subissent en plus %0.2f dégâts arcanique et sont assomé).", "tformat")
 t("%s unleashes antimagic forces from %s %s!", "%s libère les forces antimagiques de %s %s!", "logSeen")
 t("%s's animating magic is disrupted by the burst of power!", "la magie animée est perturbée par l'explosion de puissance de %s!", "logSeen")
 t("destroy an arcane item (of a higher tier than the gauntlets)", "détruire un objet arcanique (d'un niveau supérieur à celui des gantelets)", "_t")
@@ -10883,7 +10883,7 @@ t("Summertide", "Eté", "entity name")
 t("shining gold shield", "bouclier en or brillant", "_t")
 t("A bright light shines from the center of this shield. Holding it clears your mind.", "Une lumière vive brille au centre de ce bouclier. En le tenant, vous purifiez votre esprit.", "_t")
 t("releases a burst of light", "émet un éclat de lumière", "_t")
-t("send out a range %d beam, lighting its path and dealing %0.2f to %0.2f light damage (based on Willpower and Cunning)", "envoie un rayon (portée %d), éclairant son chemin et infligeant %0.2f à %0.2f de dégâts de lumière (basé sur la Volonté et de la Ruse).", "tformat")
+t("send out a range %d beam, lighting its path and dealing %0.2f to %0.2f light damage (based on Willpower and Cunning)", "envoie un rayon (portée %d), éclairant son chemin et infligeant %0.2f à %0.2f dégâts de lumière (basé sur la Volonté et de la Ruse).", "tformat")
 t("%s's %s flashes!", "%s de %s flashs!", "logSeen")
 t("Wanderer's Rest", "Repos du Vagabond", "entity name")
 t("weightless boots", "bottes sans poids", "_t")
@@ -10917,7 +10917,7 @@ t("deep black lantern", "lanterne d'un noir profond", "_t")
 t("This lantern of pale white crystal holds a sphere of darkness, that yet emanates light. Everywhere it shines, darkness vanishes entirely.", "Cette lanterne en cristal blanc pâle contient une sphère d'obscurité qui émet pourtant de la lumière. Partout où elle brille, l'obscurité disparaît entièrement.", "_t")
 t("Absorbs all darkness (power %d, based on Willpower and Cunning) within its light radius, increasing its own brightness. (current charge %d).", "Absorbe toutes les ténèbres (puissance %d, basée sur la Volonté et la Ruse) dans son rayon lumineux, augmentant sa propre luminosité. (charge actuelle %d).", "tformat")
 t("#ORCHID#Umbraphage is fully powered!", "#ORCHID#Umbraphage est pleinement alimenté!", "logPlayer")
-t("release absorbed darkness in a %d radius cone with a %d%% chance to blind (based on lite radius), dealing %0.2f darkness damage (based on Mindpower and charge)", "libère les ténèbres absorbées dans un cône de rayon %d avec %d%% de chances d'aveugler (basé sur le rayon lumineux), infligeant %0.2f de dégâts d'obscurité (basé sur la puissance mentale et la charge).", "tformat")
+t("release absorbed darkness in a %d radius cone with a %d%% chance to blind (based on lite radius), dealing %0.2f darkness damage (based on Mindpower and charge)", "libère les ténèbres absorbées dans un cône de rayon %d avec %d%% de chances d'aveugler (basé sur le rayon lumineux), infligeant %0.2f dégâts d'obscurité (basé sur la puissance mentale et la charge).", "tformat")
 t("%s unshutters %s %s, unleashing a torrent of shadows!", "%s libère %s %s, libérant un torrent d'ombres!", "logSeen")
 t("Spectral Cage", "Cage Spectrale", "entity name")
 t("ethereal blue lantern", "lanterne bleue éthérée", "_t")
@@ -10943,7 +10943,7 @@ t("wand", "baguette", "entity subtype")
 t("Void Shard", "Eclat du vide", "entity name")
 t("strange jagged shape", "forme étrange en dents de scie", "_t")
 t("This jagged shape looks like a hole in space, yet it is solid, though light in weight.", "Cette forme déchiquetée ressemble à un trou dans l'espace, mais elle est solide, bien que légère.", "_t")
-t("release a radius %d burst of void energy at up to range %d, dealing %0.2f temporal and %0.2f darkness damage (based on Magic)", "libère une rafale d'énergie du vide dans un rayon de %d jusqu'à une portée de %d, infligeant %0.2f de dégâts temporels et %0.2f de dégâts d'obscurité (basés sur la magie).", "tformat")
+t("release a radius %d burst of void energy at up to range %d, dealing %0.2f temporal and %0.2f darkness damage (based on Magic)", "libère une rafale d'énergie du vide dans un rayon de %d jusqu'à une portée de %d, infligeant %0.2f dégâts temporels et %0.2f dégâts d'obscurité (basés sur la magie).", "tformat")
 t("%s siphons space and time into %s %s!", "%s siphonne l'espace et le temps en %s %s!", "logSeen")
 t("Coral Spray", "Spray Corallien", "entity name")
 t("thick coral plate", "plaque de corail épaisse", "_t")
@@ -11030,7 +11030,7 @@ His last known words were "Somehow this feels like an ending, yet I know there i
 Ses derniers mots connus étaient : "D'une certaine manière, cela ressemble à une fin, mais je sais qu'il y a tellement plus à découvrir."]], "_t")
 t("Eye of the Forest", "Oeil de la forêt", "entity name")
 t("overgrown leather cap", "chapeau de cuir envahissant", "_t")
-t("This leather cap is overgrown with a thick moss, except for around the very front, where an eye, carved of wood, rests. A thick green slime slowly pours from the corners of the eye, like tears.", "Ce chapeau en cuir est recouverte d'une épaisse mousse, à l'exception de la partie avant, où repose un œil sculpté dans le bois. Une épaisse bave verte s'écoule lentement des coins de l'œil, comme des larmes.", "_t")
+t("This leather cap is overgrown with a thick moss, except for around the very front, where an eye, carved of wood, rests. A thick green slime slowly pours from the corners of the eye, like tears.", "Ce chapeau en cuir est recouverte d'une épaisse mousse, à l'exception de la partie avant, où repose un oeil sculpté dans le bois. Une épaisse bave verte s'écoule lentement des coins de l'oeil, comme des larmes.", "_t")
 t("Eyal's Will", "Volonté d'Eyal", "entity name")
 t("pale green mindstar", "étoile d'âme verte pâle", "_t")
 t("This smooth green crystal flows with a light green slime in its core. Droplets occasionally form on its surface, tufts of grass growing quickly on the ground where they fall.", "Ce cristal vert lisse se répend en une bave vert clair en son coeur. Des gouttelettes se forment occasionnellement à sa surface, des touffes d'herbe poussant rapidement sur le sol où elles tombent.", "_t")
@@ -11179,11 +11179,11 @@ t([[The chronomancer known as Solith was renowned across all of Eyal. He always 
 In the case of opponents who weren't alone, he had to improvise.]], [[Le chronomancien connu sous le nom de Solith était renommé dans tout Eyal. Il semblait toujours attraper ses ennemis seuls.
 Dans le cas d'adversaires qui n'étaient pas seuls, il devait improviser.]], "_t")
 t("insignia ring", "anneau à insigne", "_t")
-t("attempt to inflict %0.2f temporal damage (based on Spellpower and Paradox, if any) on foes in a radius %d ball out to range %d (chance depends on rank, summons are always affected), removing any that survive from time for up to %d turn(s)", "tente d'infliger %0.2f de dégâts temporels (basés sur la puissance des sorts et le Paradoxe, le cas échéant) aux ennemis dans un rayon de %d de la boule jusqu'à la portée %d (les chances dépendent du rang, les invocations sont toujours affectées), retirant ceux qui survivent du temps pour un maximum de %d tour(s).", "tformat")
+t("attempt to inflict %0.2f temporal damage (based on Spellpower and Paradox, if any) on foes in a radius %d ball out to range %d (chance depends on rank, summons are always affected), removing any that survive from time for up to %d turn(s)", "tente d'infliger %0.2f dégâts temporels (basés sur la puissance des sorts et le Paradoxe, le cas échéant) aux ennemis dans un rayon de %d de la boule jusqu'à la portée %d (les chances dépendent du rang, les invocations sont toujours affectées), retirant ceux qui survivent du temps pour un maximum de %d tour(s).", "tformat")
 t("%s focuses time flows through %s %s!", "%s concentre les flux de temps à travers %s %s!", "logSeen")
 t("Piercing Gaze", "Regard Pénétrant", "entity name")
 t("stone-eyed shield", "bouclier aux yeux de pierre", "_t")
-t("This gigantic shield has a stone eye embedded in it.", "Ce gigantesque bouclier comporte un œil en pierre.", "_t")
+t("This gigantic shield has a stone eye embedded in it.", "Ce gigantesque bouclier comporte un oeil en pierre.", "_t")
 t("30% chance of petrifying the attacker.", "30% de chance de pétrifier l'attaquant.", "_t")
 t("The eye locks onto %s, freezing it in place!", "L'oeil se verrouille sur %s, le figeant sur place!", "logSeen")
 t("Shantiz the Stormblade", "Shantiz la Lame Tempête", "entity name")
@@ -11236,7 +11236,7 @@ t("With a better grip it would be the destroyer of your enemies.", "Avec une mei
 t("Obliterator", "Oblitérateur", "entity name")
 t("titanic maul", "masse titanesque", "_t")
 t("This massive hammer strikes with deadly force. Bones crunch, splinter and grind to dust under its impact.", "Cette masse massive frappe avec une force mortelle. Les os se brisent, se fendent et se réduisent en poussière sous son impact.", "_t")
-t("Sends a tremor through the ground which causes jagged rocks to erupt in a beam of length 5, dealing %d Physical damage (equal to your Strength, up to 150) and causing targets hit to bleed for an additional 50 damage over 5 turns. Bleeding can stack.", "Envoie une secousse dans le sol qui fait jaillir des rochers déchiquetés en un faisceau de longueur 5, infligeant %d de dégâts physiques (égal à votre Force, jusqu'à 150) et faisant saigner les cibles touchées pour 50 dégâts supplémentaires sur 5 tours. Les saignements peuvent s'empiler.", "tformat")
+t("Sends a tremor through the ground which causes jagged rocks to erupt in a beam of length 5, dealing %d Physical damage (equal to your Strength, up to 150) and causing targets hit to bleed for an additional 50 damage over 5 turns. Bleeding can stack.", "Envoie une secousse dans le sol qui fait jaillir des rochers déchiquetés en un faisceau de longueur 5, infligeant %d dégâts physiques (égal à votre Force, jusqu'à 150) et faisant saigner les cibles touchées pour 50 dégâts supplémentaires sur 5 tours. Les saignements peuvent s'empiler.", "tformat")
 t("obscuring helm", "casque obscurcissant", "_t")
 t("The golden bascinet crown, affiliated with Veluca of Yaldan. King of the mythical city of Yaldan, that was struck from the face of Eyal by the arrogance of its people. Lone survivor of his kin, he spent his last years wandering the early world, teaching man to stand against the darkness. With his dying words, \"Fear no evil\", the crown was passed onto his successor.", "La couronne en or, affiliée à Veluca de Yaldan. Roi de la cité mythique de Yaldan, qui fut rayée de la surface d'Eyal par l'arrogance de son peuple. Seul survivant de sa famille, il a passé ses dernières années à errer dans le monde primitif, apprenant aux hommes à résister aux ténèbres. Avec ses derniers mots, \"Ne craignez aucun mal\", la couronne a été transmise à son successeur.", "_t")
 t("lower the helmet's visor, blinding yourself (and protecting from other blinds) for 6 turns. If the helmet is taken off, the effect will end early.", "abaissez la visière du casque, vous aveuglant(et vous protégeant des autres aveuglements) pendant 6 tours. Si le casque est enlevé, l'effet se termine prématurément.", "tformat")
@@ -11245,7 +11245,7 @@ t("Champion's Will", "Volonté du Champion", "entity name")
 t("blindingly bright sword", "épée d'une clarté aveuglante", "_t")
 t("This impressive looking sword features a golden engraving of a sun in its hilt. Etched into its blade are a series of runes claiming that only one who has mastered both their body and mind may wield this sword effectively.", "Cette épée impressionnante présente la gravure dorée d'un soleil sur sa poignée. Une série de runes est gravée sur la lame, affirmant que seul celui qui maîtrise à la fois son corps et son esprit peut la manier efficacement.", "_t")
 t("Increases the damage of Sun Beam by 15%.", "Augmente les dégâts du Rayon du Soleil de 15%.", "_t")
-t("releases a burst of light, dealing %d light damage (based on Spellpower) in a radius 3 cone.", "libère une rafale de lumière, infligeant %d de dégâts de lumière (basé sur la puissance de sort) dans un cône de rayon 3.", "tformat")
+t("releases a burst of light, dealing %d light damage (based on Spellpower) in a radius 3 cone.", "libère une rafale de lumière, infligeant %d dégâts de lumière (basé sur la puissance de sort) dans un cône de rayon 3.", "tformat")
 t("attack everything in a line out to range %d, dealing 100%% weapon damage (as light), and healing for 50%% of the damage dealt", "attaque tout ce qui se trouve sur une ligne jusqu'à la distance %d, infligeant 100%% des dégâts de l'arme (convertis en lumière) et soignant de 50%% des dégâts infligés.", "tformat")
 t("#Source# strikes out at #target# with %s %s!", "#Source# fait une frappe à #target# avec %s %s!", "logCombat")
 t("something", "quelque chose", "_t")
@@ -11262,12 +11262,12 @@ t("This mask appears to be carved out of the skull of a creature that never shou
 t("Cinderfeet", "Pieds de Cendre", "entity name")
 t("flame coated sandals", "sandales enduites de flammes", "_t")
 t("A cautionary tale tells of the ancient warlock by the name of Caim, who fancied himself daily walks through Goedalath, both to test himself and the harsh demonic wastes. He was careful to never bring anything back with him, lest it provide a beacon for the demons to find him. Unfortunately, over time, his sandals drenched in the soot and ashes of the fearscape and the fire followed his footsteps outside, drawing in the conclusion of his grim fate.", "Un récit édifiant raconte l'histoire d'un ancien sorcier du nom de Caim, qui s'imaginait faire des promenades quotidiennes à travers Goedalath, à la fois pour se mettre à l'épreuve et pour tester les dures terres démoniaques. Il prenait soin de ne jamais rien ramener avec lui, de peur que cela ne serve de balise aux démons pour le retrouver. Malheureusement, avec le temps, ses sandales se sont imprégnées de la suie et des cendres du paysage de la peur et le feu a suivi ses pas à l'extérieur, entraînant la conclusion de son sinistre destin.", "_t")
-t("Each step you take leaves a burning trail behind you lasting 5 turns that deals %d fire damage (based on Spellpower) to foes who enter it.", "Chaque pas que vous faites laisse derrière vous une traînée brûlante durant 5 tours qui inflige %d de dégâts de feu (en fonction de la puissance des sorts) aux ennemis qui s'y engagent.", "tformat")
+t("Each step you take leaves a burning trail behind you lasting 5 turns that deals %d fire damage (based on Spellpower) to foes who enter it.", "Chaque pas que vous faites laisse derrière vous une traînée brûlante durant 5 tours qui inflige %d dégâts de feu (en fonction de la puissance des sorts) aux ennemis qui s'y engagent.", "tformat")
 t("fire trail", "sentier de feu", "_t")
 t("Cuirass of the Dark Lord", "Cuirasse du Seigneur des Ténèbres", "entity name")
 t("black, spiked armor", "armure noire, à pointes", "_t")
 t("Worn by a villain long forgotten, this armor was powered by the blood of thousands of innocents. Decrepit and old, the dark lord died in solitude, his dominion crumbled, his subjects gone. Only this cuirass remained, dying to finally taste fresh blood again.", "Portée par un méchant oublié depuis longtemps, cette armure a été alimentée par le sang de milliers d'innocents. Décrépit et vieux, le seigneur des ténèbres est mort dans la solitude, sa domination s'est effondrée, ses sujets ont disparu. Seule cette cuirasse est restée, mourant d'envie de goûter à nouveau à du sang frais.", "_t")
-t("drain blood from all creatures within range 5, causing them to bleed for %0.2f physical damage over 4 turns (based on your Physicalpower). For each creature drained (up to 10), the armor gains strength, which fades over 10 turns if it is not fed", "draine le sang de toutes les créatures situées dans un rayon de 5, les faisant saigner pour %0.2f de dégâts physiques sur 4 tours (basé sur votre puissance physique). Pour chaque créature drainée (jusqu'à 10), l'armure gagne en force, qui s'estompe en 10 tours si elle n'est pas nourrie.", "tformat")
+t("drain blood from all creatures within range 5, causing them to bleed for %0.2f physical damage over 4 turns (based on your Physicalpower). For each creature drained (up to 10), the armor gains strength, which fades over 10 turns if it is not fed", "draine le sang de toutes les créatures situées dans un rayon de 5, les faisant saigner pour %0.2f dégâts physiques sur 4 tours (basé sur votre puissance physique). Pour chaque créature drainée (jusqu'à 10), l'armure gagne en force, qui s'estompe en 10 tours si elle n'est pas nourrie.", "tformat")
 t("%s revels in the bloodlust of %s %s!", "%s se délecte dans la soif de sang de %s %s!", "logSeen")
 t("Blood Charges: %d", "Charge de Sang: %d", "tformat")
 t("Decayed Visage", "Visage Décomposé", "entity name")
@@ -11314,7 +11314,7 @@ t([[As any scryer knows, the link between the murderer and the murdered is the m
 One rather cold blooded killer thought of a way around this. By carving blades out of ice, they could kill as they wished and the link would just melt away.
 Their killing spree ended when one of the victims got lucky and managed to stab the murderer in the heart with the icey blade. After being united with the cold heart that created it, the final ice blade has never melted.]], [[Comme le sait tout devin, le lien entre le meurtrier et le tué est l'arme du crime, et un devin peut suivre ce lien du tué à l'arme jusqu'au meurtrier.
 Un tueur au sang froid a trouvé un moyen de contourner ce problème. En taillant des lames dans la glace, il pouvait tuer comme il le souhaitait et le lien fondait.
-Leur folie meurtrière a pris fin lorsque l'une des victimes a eu de la chance et a réussi à poignarder le meurtrier en plein cœur avec la lame de glace. Après avoir été unie avec le coeur froid qui l'a créée, la dernière lame de glace n'a jamais fondu.]], "_t")
+Leur folie meurtrière a pris fin lorsque l'une des victimes a eu de la chance et a réussi à poignarder le meurtrier en plein coeur avec la lame de glace. Après avoir été unie avec le coeur froid qui l'a créée, la dernière lame de glace n'a jamais fondu.]], "_t")
 t("freezes the target", "gèle la cible", "_t")
 t("explodes a frozen creature (damage scales with willpower)", "fait exploser une créature gelée (les dégâts sont proportionnels à la Volonté).", "_t")
 t("Thunderfall", "Tonnerre", "entity name")
@@ -11367,206 +11367,172 @@ t("Tarrasca", "Tarrasca", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/stores/basic.lua"
 
-
--- texte non traduit
---[==[
-t("heavy armour smith", "heavy armour smith", "entity name")
-t("tanner", "tanner", "entity name")
-t("tailor", "tailor", "entity name")
-t("sword smith", "sword smith", "entity name")
-t("axe smith", "axe smith", "entity name")
-t("mindstar collector", "mindstar collector", "entity name")
-t("mace smith", "mace smith", "entity name")
-t("two handed weapons", "two handed weapons", "entity name")
-t("one handed weapons", "one handed weapons", "entity name")
-t("archery", "archery", "entity name")
-t("knife smith", "knife smith", "entity name")
-t("staff carver", "staff carver", "entity name")
-t("infusion store", "infusion store", "entity name")
-t("rune store", "rune store", "entity name")
-t("gem store", "gem store", "entity name")
-t("tool store", "tool store", "entity name")
-t("staves and wands store", "staves and wands store", "entity name")
-t("jewelry store", "jewelry store", "entity name")
-t("rune store and library", "rune store and library", "entity name")
-t("rare goods", "rare goods", "entity name")
-t("library", "library", "entity name")
-t("armour smith", "armour smith", "entity name")
-t("shady library", "shady library", "entity name")
-t("gladiator's wares", "gladiator's wares", "entity name")
-t("staves", "staves", "entity name")
---]==]
-
+t("heavy armour smith", "fabricant d'armure lourde", "entity name")
+t("tanner", "tanneur", "entity name")
+t("tailor", "tailleur", "entity name")
+t("sword smith", "fabricant d'épées", "entity name")
+t("axe smith", "fabricant de haches", "entity name")
+t("mindstar collector", "collectionneur d'étoile d'âme", "entity name")
+t("mace smith", "fabricant de masses", "entity name")
+t("two handed weapons", "armes à deux mains", "entity name")
+t("one handed weapons", "armes à une main", "entity name")
+t("archery", "archerie", "entity name")
+t("knife smith", "fabricant de couteaux", "entity name")
+t("staff carver", "sculpteur de bâton", "entity name")
+t("infusion store", "magasin d'infusions", "entity name")
+t("rune store", "magasin de runes", "entity name")
+t("gem store", "magasin de gemmes", "entity name")
+t("tool store", "magasin d'outils", "entity name")
+t("staves and wands store", "magasin de bâtons et baguettes", "entity name")
+t("jewelry store", "bijouterie", "entity name")
+t("rune store and library", "magasin de runes et librairie", "entity name")
+t("rare goods", "marchandises rares", "entity name")
+t("library", "librairie", "entity name")
+t("armour smith", "armurerie", "entity name")
+t("shady library", "bibliothèque louche", "entity name")
+t("gladiator's wares", "marchandises de gladiateur", "entity name")
+t("staves", "bâtons", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/alarm.lua"
 
+t("annoy", "gênant", "entity type")
+t("alarm", "alarme", "entity subtype")
 t("trap", "piège", "_t")
--- texte non traduit
---[==[
-t("annoy", "annoy", "entity type")
-t("alarm", "alarm", "entity subtype")
-t("intruder alarm", "intruder alarm", "entity name")
-t("@Target@ triggers an alarm!", "@Target@ triggers an alarm!", "_t")
-t("pressure plate", "pressure plate", "_t")
-t("Makes noise, alerting others.", "Makes noise, alerting others.", "_t")
-t("summoning alarm", "summoning alarm", "entity name")
-t("An alarm rings!", "An alarm rings!", "_t")
-t("ring of faded sigils", "ring of faded sigils", "_t")
-t("Summons creatures.", "Summons creatures.", "_t")
-t("%s appears out of the thin air!", "%s appears out of the thin air!", "logSeen")
---]==]
-
+t("intruder alarm", "alarme anti-intrusion", "entity name")
+t("@Target@ triggers an alarm!", "@Target@ déclenche une alarme!", "_t")
+t("pressure plate", "plaque de pression", "_t")
+t("Makes noise, alerting others.", "Fait du bruit, alertant les autres.", "_t")
+t("summoning alarm", "alarme d'invocation", "entity name")
+t("An alarm rings!", "Une alarme se déclenche!", "_t")
+t("ring of faded sigils", "cercle de sceaux effacés", "_t")
+t("Summons creatures.", "Invoque des créatures.", "_t")
+t("%s appears out of the thin air!", "%s surgit de nulle part!", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/annoy.lua"
 
+t("annoy", "gênant", "entity type")
+t("annoy", "gênant", "entity subtype")
 t("trap", "piège", "_t")
--- texte non traduit
---[==[
-t("annoy", "annoy", "entity type")
-t("annoy", "annoy", "entity subtype")
-t("lethargy trap", "lethargy trap", "entity name")
-t("@Target@ seems less active.", "@Target@ seems less active.", "_t")
-t("pattern of glyphs", "pattern of glyphs", "_t")
-t("Disrupts activated talents.", "Disrupts activated talents.", "_t")
-t("burning curse trap", "burning curse trap", "entity name")
-t("@Target@ triggers a burning curse!", "@Target@ triggers a burning curse!", "_t")
-t("dark pentagram", "dark pentagram", "_t")
-t("Afflicts the target with a curse: talents inflict %d fire damage and have increased cooldowns.", "Afflicts the target with a curse: talents inflict %d fire damage and have increased cooldowns.", "_t")
---]==]
-
+t("lethargy trap", "piège léthargique", "entity name")
+t("@Target@ seems less active.", "@Target@ semble être moins dynamique.", "_t")
+t("pattern of glyphs", "motif de glyphes", "_t")
+t("Disrupts activated talents.", "Perturbe les talents activés.", "_t")
+t("burning curse trap", "piège de malédiction brûlante", "entity name")
+t("@Target@ triggers a burning curse!", "@Target@ déclenche une malédiction brûlante !", "_t")
+t("dark pentagram", "pentagramme obscur", "_t")
+t("Afflicts the target with a curse: talents inflict %d fire damage and have increased cooldowns.", "Afflige la cible d'une malédiction: les talents infligent %d dégâts de feu et ont des temps de recharge augmentés.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/complex.lua"
 
+t("complex", "complexe", "entity type")
 t("trap", "piège", "_t")
+t("boulder", "rocher", "entity subtype")
+t("giant boulder trap", "piège à rochers géant", "entity name")
+t("@Target@ walks on a trap, and there is a loud noise.", "@Target@ marche sur un piège, et il y a un grand bruit.", "_t")
+t("large pressure plate", "grande plaque de pression", "_t")
+t(" (from %s)", " (de %s)", "tformat")
+t("Releases a large boulder%s that smashes into the target for %d physical damage and knocks it back.", "Libère un gros rocher%s qui percute la cible pour %d dégâts physiques et la repousse.", "tformat")
+t("huge boulder", "gros rocher", "_t")
 t("arcane", "dégâts d'arcane", "entity subtype")
+t("spinning beam trap", "piège à faisceau tournant", "entity name")
+t("@Target@ activates a trap, and its magical energies change.", "@Target@ active un piège, et ses énergies magiques changent.", "_t")
+t("magical emitter", "émetteur magique", "_t")
+t("Projects a rapidly spinning beam of magical energies (range %d), dealing %d damage (%s%s#WHITE#) to those struck.", "Projette un rayon d'énergies magiques tournant rapidement (portée %d), infligeant %d dégâts (%s%s#WHITE#) à ceux qui sont touchés.", "tformat")
 t("nature", "dégâts de nature", "entity subtype")
--- texte non traduit
---[==[
-t("complex", "complex", "entity type")
-t("boulder", "boulder", "entity subtype")
-t("giant boulder trap", "giant boulder trap", "entity name")
-t("@Target@ walks on a trap, and there is a loud noise.", "@Target@ walks on a trap, and there is a loud noise.", "_t")
-t("large pressure plate", "large pressure plate", "_t")
-t(" (from %s)", " (from %s)", "tformat")
-t("Releases a large boulder%s that smashes into the target for %d physical damage and knocks it back.", "Releases a large boulder%s that smashes into the target for %d physical damage and knocks it back.", "tformat")
-t("huge boulder", "huge boulder", "_t")
-t("spinning beam trap", "spinning beam trap", "entity name")
-t("@Target@ activates a trap, and its magical energies change.", "@Target@ activates a trap, and its magical energies change.", "_t")
-t("magical emitter", "magical emitter", "_t")
-t("Projects a rapidly spinning beam of magical energies (range %d), dealing %d damage (%s%s#WHITE#) to those struck.", "Projects a rapidly spinning beam of magical energies (range %d), dealing %d damage (%s%s#WHITE#) to those struck.", "tformat")
-t("poison spore", "poison spore", "entity name")
-t("@Target@ walks on a poison spore.", "@Target@ walks on a poison spore.", "_t")
-t("spore colony", "spore colony", "_t")
-t("Releases a cloud of poison spores (radius %d), poisoning for #LIGHT_GREEN#%d#LAST# damage over 5 turns.", "Releases a cloud of poison spores (radius %d), poisoning for #LIGHT_GREEN#%d#LAST# damage over 5 turns.", "tformat")
-t("The poison spore looks somewhat drained.", "The poison spore looks somewhat drained.", "logSeen")
-t("delayed explosion trap", "delayed explosion trap", "entity name")
-t("Flames start to appear around @target@.", "Flames start to appear around @target@.", "_t")
-t("hot spot", "hot spot", "_t")
-t("Releases up to 4 delayed fuse fireballs within range %d that each explode for #LIGHT_RED#%d#LAST# fire damage after %d turns.", "Releases up to 4 delayed fuse fireballs within range %d that each explode for #LIGHT_RED#%d#LAST# fire damage after %d turns.", "tformat")
-t("cold flames trap", "cold flames trap", "entity name")
-t("Cold flames start to appear around @target@.", "Cold flames start to appear around @target@.", "_t")
-t("cold spot", "cold spot", "_t")
-t("Cold flames slowly spread from %d spots within radius %d, The flames deal %d cold damage with a chance to freeze.", "Cold flames slowly spread from %d spots within radius %d, The flames deal %d cold damage with a chance to freeze.", "tformat")
---]==]
-
+t("poison spore", "spore toxique", "entity name")
+t("@Target@ walks on a poison spore.", "@Target@ marche sur un spore toxique.", "_t")
+t("spore colony", "colonie de spores", "_t")
+t("Releases a cloud of poison spores (radius %d), poisoning for #LIGHT_GREEN#%d#LAST# damage over 5 turns.", "Libère un nuage de spores de poison (rayon %d), empoisonnant pour #LIGHT_GREEN#%d#LAST# dégâts sur 5 tours.", "tformat")
+t("The poison spore looks somewhat drained.", "La spore de poison a l'air quelque peu vidée.", "logSeen")
+t("delayed explosion trap", "piège à explosion retardée", "entity name")
+t("Flames start to appear around @target@.", "Des flammes commencent à apparaître autour de @target@.", "_t")
+t("hot spot", "point chaud", "_t")
+t("Releases up to 4 delayed fuse fireballs within range %d that each explode for #LIGHT_RED#%d#LAST# fire damage after %d turns.", "Lance jusqu'à 4 boules de feu à retardement dans un rayon de %d qui explosent chacune pour causer des dégâts de feu #LIGHT_RED#%d#LAST# après %d tours.", "tformat")
+t("cold flames trap", "piège à flammes froides", "entity name")
+t("Cold flames start to appear around @target@.", "Des flammes froides commencent à apparaître autour de @target@.", "_t")
+t("cold spot", "point froid", "_t")
+t("Cold flames slowly spread from %d spots within radius %d, The flames deal %d cold damage with a chance to freeze.", "Des flammes froides se propagent lentement à partir de %d points dans un rayon de %d. Les flammes infligent %d dégâts de froid avec une chance de geler.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/elemental.lua"
 
 t("elemental", "élémentaire", "entity type")
 t("trap", "piège", "_t")
+t("Deals %s%d#LAST# %s damage", "inflige %s%d#LAST# %s dégâts", "tformat")
+t("Deals %s%d#LAST# %s damage (radius %d)", "inflige %s%d#LAST# %s dégâts (rayon %d)", "tformat")
 t("acid", "dégâts d'acid", "entity subtype")
+t("acid trap", "piège d'acide", "entity name")
+t("A stream of acid gushes onto @target@!", "Un jet d'acide jaillit sur @target@!", "_t")
+t("corroded spot", "endroit corrodé", "_t")
 t("fire", "feu", "entity subtype")
+t("fire trap", "piège de feu", "entity name")
+t("A bolt of fire blasts onto @target@!", "Un éclair de feu jaillit sur @target@!", "_t")
+t("burnt spot", "tache brûlée", "_t")
 t("cold", "froid", "entity subtype")
+t("ice trap", "piège de froid", "entity name")
+t("A bolt of ice blasts onto @target@!", "Un éclair de glace souffle sur @target@!", "_t")
+t("frozen spot", "endroit gelé", "_t")
 t("lightning", "foudre", "entity subtype")
+t("lightning trap", "piège de foudre", "entity name")
+t("A bolt of lightning fires onto @target@!", "Un éclair s'abat sur @target@!", "_t")
+t("crackling spot", "endroit crépitant", "_t")
 t("poison", "dégâts de poison", "entity subtype")
+t("poison trap", "piège de poison", "entity name")
+t("A stream of poison gushes onto @target@!", "Un flot de poison jaillit sur @target@!", "_t")
+t("acid blast trap", "piège d'acide", "entity name")
+t("fire blast trap", "piège de flammes", "entity name")
+t("A bolt of fire fires onto @target@!", "Un éclair de feu tire sur @target@!", "_t")
+t("ice blast trap", "piège à glaçons", "entity name")
+t("lightning blast trap", "piège d'éclairs", "entity name")
+t("arcing spot", "point d'arc", "_t")
+t("poison blast trap", "piège à poisons", "entity name")
 t("nature", "dégâts de nature", "entity subtype")
--- texte non traduit
---[==[
-t("Deals %s%d#LAST# %s damage", "Deals %s%d#LAST# %s damage", "tformat")
-t("Deals %s%d#LAST# %s damage (radius %d)", "Deals %s%d#LAST# %s damage (radius %d)", "tformat")
-t("acid trap", "acid trap", "entity name")
-t("A stream of acid gushes onto @target@!", "A stream of acid gushes onto @target@!", "_t")
-t("corroded spot", "corroded spot", "_t")
-t("fire trap", "fire trap", "entity name")
-t("A bolt of fire blasts onto @target@!", "A bolt of fire blasts onto @target@!", "_t")
-t("burnt spot", "burnt spot", "_t")
-t("ice trap", "ice trap", "entity name")
-t("A bolt of ice blasts onto @target@!", "A bolt of ice blasts onto @target@!", "_t")
-t("frozen spot", "frozen spot", "_t")
-t("lightning trap", "lightning trap", "entity name")
-t("A bolt of lightning fires onto @target@!", "A bolt of lightning fires onto @target@!", "_t")
-t("crackling spot", "crackling spot", "_t")
-t("poison trap", "poison trap", "entity name")
-t("A stream of poison gushes onto @target@!", "A stream of poison gushes onto @target@!", "_t")
-t("acid blast trap", "acid blast trap", "entity name")
-t("fire blast trap", "fire blast trap", "entity name")
-t("A bolt of fire fires onto @target@!", "A bolt of fire fires onto @target@!", "_t")
-t("ice blast trap", "ice blast trap", "entity name")
-t("lightning blast trap", "lightning blast trap", "entity name")
-t("arcing spot", "arcing spot", "_t")
-t("poison blast trap", "poison blast trap", "entity name")
-t("anti-magic trap", "anti-magic trap", "entity name")
-t("@Target@ is blasted with anti-magic forces!", "@Target@ is blasted with anti-magic forces!", "_t")
-t("dull area", "dull area", "_t")
-t("Deals up to %d manaburn damage, draining mana, vim, and positive and negative energies within radius %d.", "Deals up to %d manaburn damage, draining mana, vim, and positive and negative energies within radius %d.", "tformat")
-t("dragon fire trap", "dragon fire trap", "entity name")
-t("A powerful blast of fire impacts @target@!", "A powerful blast of fire impacts @target@!", "_t")
-t("burned area", "burned area", "_t")
-t("All within radius %d are dealt %d fire damage, set on fire for %d more fire damage over 3 turns, and may be stunned.", "All within radius %d are dealt %d fire damage, set on fire for %d more fire damage over 3 turns, and may be stunned.", "tformat")
---]==]
-
+t("anti-magic trap", "piège anti-magie", "entity name")
+t("@Target@ is blasted with anti-magic forces!", "@Target@ est frappé par des forces anti-magiques!", "_t")
+t("dull area", "endroit terne", "_t")
+t("Deals up to %d manaburn damage, draining mana, vim, and positive and negative energies within radius %d.", "Inflige jusqu'à %d dégâts de brûlure de mana, drainant le mana, la vigueur et les énergies positives et négatives dans un rayon de %d.", "tformat")
+t("dragon fire trap", "piège de feu de dragon", "entity name")
+t("A powerful blast of fire impacts @target@!", "Une puissante explosion de feu frappe @target@!", "_t")
+t("burned area", "zone calcinée", "_t")
+t("All within radius %d are dealt %d fire damage, set on fire for %d more fire damage over 3 turns, and may be stunned.", "Tous ceux se trouvant dans un rayon de %d subissent %d dégâts de feu, s'enflamment pour %d dégâts de feu supplémentaires sur 3 tours, et peuvent être assommés.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/natural_forest.lua"
 
 t("natural", "naturaliste", "entity type")
+t("forest", "forêt", "entity subtype")
 t("trap", "piège", "_t")
+t("sliding rock", "roche glissante", "entity name")
+t("@Target@ slides on a rock!", "@Target@ glisse sur un rocher!", "_t")
+t("slippery rock", "rocher glissant", "_t")
+t("Stuns for 4 turns.", "Assommé pendant 4 tours.", "_t")
 t("%s resists!", "%s résiste!", "logSeen")
--- texte non traduit
---[==[
-t("forest", "forest", "entity subtype")
-t("sliding rock", "sliding rock", "entity name")
-t("@Target@ slides on a rock!", "@Target@ slides on a rock!", "_t")
-t("slippery rock", "slippery rock", "_t")
-t("Stuns for 4 turns.", "Stuns for 4 turns.", "_t")
-t("poison vine", "poison vine", "entity name")
-t("A poisonous vine strikes at @Target@!", "A poisonous vine strikes at @Target@!", "_t")
-t("venomous vine", "venomous vine", "_t")
-t("A motile vine that strikes out for %s%d#LAST# %s damage.", "A motile vine that strikes out for %s%d#LAST# %s damage.", "tformat")
---]==]
-
+t("poison vine", "vigne vénéneuse", "entity name")
+t("A poisonous vine strikes at @Target@!", "Une vigne vénéneuse frappe @Target@!", "_t")
+t("venomous vine", "vigne venimeuse", "_t")
+t("A motile vine that strikes out for %s%d#LAST# %s damage.", "Une vigne mobile qui inflige %s%d#LAST# %s dégâts.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/store.lua"
 
-
--- texte non traduit
---[==[
-t("store", "store", "entity type")
-t("store", "store", "entity subtype")
---]==]
-
+t("store", "magasin", "entity type")
+t("store", "magasin", "entity subtype")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/teleport.lua"
 
+t("annoy", "gênant", "entity type")
+t("teleport", "téléportation", "entity subtype")
 t("trap", "piège", "_t")
--- texte non traduit
---[==[
-t("annoy", "annoy", "entity type")
-t("teleport", "teleport", "entity subtype")
-t("teleport trap", "teleport trap", "entity name")
-t("Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "_t")
-t("@Target@ shimmers briefly.", "@Target@ shimmers briefly.", "_t")
-t("shimmering floor switch", "shimmering floor switch", "_t")
-t("%s is teleported away!", "%s is teleported away!", "logSeen")
-t("%s resists being teleported!", "%s resists being teleported!", "logSeen")
---]==]
-
+t("teleport trap", "piège de téléportation", "entity name")
+t("Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "Téléporte la victime au loin.  Comment quelqu'un peut-il s'approcher assez près pour désarmer ce piège...?", "_t")
+t("@Target@ shimmers briefly.", "@Target@ brille brièvement.", "_t")
+t("shimmering floor switch", "interrupteur de sol miroitant", "_t")
+t("%s is teleported away!", "%s est téléporté au loin!", "logSeen")
+t("%s resists being teleported!", "%s résiste à la téléportation!", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/temporal.lua"
@@ -11574,18 +11540,14 @@ section "mod-tome/data/general/traps/temporal.lua"
 t("temporal", "temporel", "entity type")
 t("water", "eau", "entity subtype")
 t("trap", "piège", "_t")
--- texte non traduit
---[==[
-t("disturbed pocket of time", "disturbed pocket of time", "entity name")
-t("@Target@ is caught in a distorted pocket of time!", "@Target@ is caught in a distorted pocket of time!", "_t")
-t("faint distortion", "faint distortion", "_t")
-t("Creates a temporal anomaly when triggered.", "Creates a temporal anomaly when triggered.", "_t")
-t("extremely disturbed pocket of time", "extremely disturbed pocket of time", "entity name")
-t("@Target@ is caught in an extremely distorted pocket of time!", "@Target@ is caught in an extremely distorted pocket of time!", "_t")
-t("distortion", "distortion", "_t")
-t("Creates a major temporal anomaly when triggered.", "Creates a major temporal anomaly when triggered.", "_t")
---]==]
-
+t("disturbed pocket of time", "poche de temps perturbée", "entity name")
+t("@Target@ is caught in a distorted pocket of time!", "@Target@ est pris dans une poche de temps distordue!", "_t")
+t("faint distortion", "faible distorsion", "_t")
+t("Creates a temporal anomaly when triggered.", "Crée une anomalie temporelle quand il est déclenché.", "_t")
+t("extremely disturbed pocket of time", "Poche de temps extrêmement perturbée", "entity name")
+t("@Target@ is caught in an extremely distorted pocket of time!", "@Target@ est pris dans une poche de temps extrêmement perturbée!", "_t")
+t("distortion", "distorsion", "_t")
+t("Creates a major temporal anomaly when triggered.", "Crée une anomalie temporelle majeure quand il est déclenché.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/water.lua"
@@ -11593,177 +11555,164 @@ section "mod-tome/data/general/traps/water.lua"
 t("natural", "naturaliste", "entity type")
 t("water", "eau", "entity subtype")
 t("trap", "piège", "_t")
--- texte non traduit
---[==[
-t("water jet", "water jet", "entity name")
-t("@Target@ triggers a water jet!", "@Target@ triggers a water jet!", "_t")
-t("a nozzle", "a nozzle", "_t")
-t("Deals %s%d#LAST# %s damage.", "Deals %s%d#LAST# %s damage.", "tformat")
-t("water siphon", "water siphon", "entity name")
-t("@Target@ is caught by a water siphon!", "@Target@ is caught by a water siphon!", "_t")
-t("a drain", "a drain", "_t")
-t("Deals %s%d#LAST# %s damage (radius %d).", "Deals %s%d#LAST# %s damage (radius %d).", "tformat")
---]==]
-
+t("water jet", "jet d'eau", "entity name")
+t("@Target@ triggers a water jet!", "@Target@ déclenche un jet d'eau!", "_t")
+t("a nozzle", "une buse", "_t")
+t("Deals %s%d#LAST# %s damage.", "inflige %s%d#LAST# %s dégâts.", "tformat")
+t("water siphon", "siphon d'eau", "entity name")
+t("@Target@ is caught by a water siphon!", "@Target@ est attrapé par un siphon d'eau!", "_t")
+t("a drain", "une évacuation", "_t")
+t("Deals %s%d#LAST# %s damage (radius %d).", "Inflige %s%d#LAST# %s dégâts (rayon %d).", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/ingredients.lua"
 
+t("organic", "biologique", "entity type")
 t("length of troll intestine", "une longueur d'intestin troll", "entity name")
 t("A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "Une longueur d'intestins de troll. Heureusement, le troll semble n'avoir rien mangé depuis un certain temps.", "_t")
+t("Kindly empty it before returning.", "Veuillez le vider avant de le renvoyer.", "_t")
 t("skeleton mage skull", "crâne de mage squelette", "entity name")
 t("The skull of a skeleton mage. The eyes have stopped glowing... for now.", "Le crâne d'un mage squelette. Les yeux ont cessé de briller... pour l'instant.", "_t")
+t("If the eyes are still glowing, please bash it around a bit until they fade. I'll not have another one of those coming alive and wreaking havoc in my lab.", "Si les yeux brillent encore, tapez un peu dessus jusqu'à ce qu'ils ne brillent plus. Je ne veux pas que l'un d'entre eux prenne vie et fasse des ravages dans mon laboratoire.", "_t")
 t("ritch stinger", "Dard de ritch", "entity name")
 t("A ritch stinger, still glistening with venom.", "Un dard de ritch, toujours scintillant de venin.", "_t")
+t("Keep as much venom in it as possible.", "Gardez autant de venin que possible.", "_t")
 t("orc heart", "coeur d'orc", "entity name")
-t("The heart of an orc. Perhaps surprisingly, it isn't green.", "Le cœur d'un orc. De façon surprenante, il n'est pas vert.", "_t")
+t("The heart of an orc. Perhaps surprisingly, it isn't green.", "Le coeur d'un orc. De façon surprenante, il n'est pas vert.", "_t")
+t("If you can fetch me a still-beating orc heart, that would be even better. But you don't look like a master necromancer to me.", "Si vous pouvez me rapporter un coeur d'orc encore vivant, ce serait encore mieux. Mais pour moi, vous n'avez pas l'air d'un maître nécromancien.", "_t")
 t("naga tongue", "langue de naga", "entity name")
 t("A severed naga tongue. It reeks of brine.", "Une langue de naga coupée. Ça pue la saumure.", "_t")
+t("Best results occur with tongues never tainted by profanity, so if you happen to know any saintly nagas...", "Les meilleurs résultats sont obtenus avec des langues qui n'ont jamais été souillées par des blasphèmes, donc si vous connaissez des saints nagas...", "_t")
 t("vial of greater demon bile", "fiole de bile de démon supérieure", "entity name")
 t("A vial of greater demon bile. It hurts your sinuses even with the vial's stopper firmly in place.", "Une fiole de bile de démon supérieur. Ça fait mal aux sinus même si le bouchon de la fiole est bien en place.", "_t")
+t("Don't drink it, even if it tells you to.", "Ne le buvez pas, même s'il vous dit de le faire.", "_t")
 t("pouch of bone giant dust", "sachet de poussière de géant osseux", "entity name")
 t("Once the magics animating the bone giant fled, its remains crumbled to dust. It might be your imagination, but it looks like the dust occasionally stirs on its own.", "Une fois que la magie qui animait le géant osseux a disparu, ses restes se sont réduits en poussière. C'est peut-être votre imagination, mais on dirait que la poussière s'agite de temps en temps toute seule.", "_t")
+t("Never, ever to be confused with garlic powder. Trust me.", "Ne jamais, jamais mélanger avec la poudre d'ail. Faites-moi confiance.", "_t")
 t("ice ant stinger", "dard de fourmi de glace", "entity name")
 t("Wickedly sharp and still freezing cold.", "Très pointu et toujours aussi glacial.", "_t")
+t("If you've the means to eliminate the little venom problem, these make miraculous instant drink-chilling straws.", "Si vous avez le moyens d'éliminer les petit problèmes de venins, ces derniers font des pailles miraculeuses pour refroidir instantanément les boissons.", "_t")
 t("minotaur nose", "nez de minotaure", "entity name")
 t("The severed front half of a minotaur snout, ring and all.", "La moitié avant coupée du museau d'un minotaure, l'anneau et tout.", "_t")
+t("You'll need to find one with a ring, preferably an expensive one.", "Vous devez en trouver un avec une bague, de préférence une bague onéreuse.", "_t")
 t("vial of elder vampire blood", "flacon de sang d'ancien vampire", "entity name")
 t("Thick, clotted, and foul. The vial is cold to the touch.", "Épais, coagulé et fétide. La fiole est froide au toucher.", "_t")
+t("Once you've gotten it, cross some moving water on your way back.", "Une fois que vous l'avez, traversez des eaux vives sur le chemin du retour.", "_t")
 t("multi-hued wyrm scale", "écaille de ver multicolor", "entity name")
 t("Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "Magnifique et presque impénétrable. La séparer du dragon a dû être un travail difficile.", "_t")
+t("If you think collecting one of these is hard, try liquefying one.", "Si vous pensez que collectionner un de ces objets est difficile, essayez d'en liquéfier un.", "_t")
 t("giant spider spinneret", "filière d'araignée géante", "entity name")
 t("An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orifice.", "Un horrible morceau déchiré d'araignée géante. Des bouts de soie sortent d'un orifice.", "_t")
+t("The spiders in your barn won't do. You'll know a giant spider when you see one, though they're rare in Maj'Eyal.", "Les araignées de votre grange ne feront pas l'affaire. Vous reconnaîtrez une araignée géante quand vous en verrez une, bien qu'elles soient rares en Maj'Eyal.", "_t")
 t("honey tree root", "racine d'arbre à miel", "entity name")
 t("The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "L'extrémité coupée d'une des racines d'un arbre à miel. Elle se tortille de temps en temps, ne semblant pas vouloir admettre qu'elle est morte... et qu'elle est une *plante*.", "_t")
+t("Keep a firm grip on it. These things will dig themselves right back into the ground if you drop them.", "Gardez une prise ferme sur elle. Ces choses vont s'enfoncer dans le sol si vous les laissez tomber.", "_t")
 t("bloated horror heart", "coeur d'horreur bouffie", "entity name")
 t("Diseased-looking and reeking. It seems to be decaying as you watch.", "L'air malade et puant. Il semble se décomposer pendant que vous le regardez.", "_t")
+t("Don't worry if it dissolves. Just don't get any on you.", "Ne vous inquiétez pas si ça se dissout. Mais n'en mettez pas sur vous.", "_t")
 t("electric eel tail", "queue d'anguille électrique", "entity name")
 t("Slimy, wriggling, and crackling with electricity.", "Frétillante, visqueuse, et crépitante d'électricité.", "_t")
+t("I know, I know. Where does the eel stop and the tail start? It doesn't much matter. The last ten inches or so should do nicely.", "Je sais, je sais. Où s'arrête l'anguille et où commence la queue? Ca n'a pas beaucoup d'importance. Les derniers 25 cm devraient faire l'affaire.", "_t")
 t("vial of squid ink", "fiole d'encre de calmar", "entity name")
 t("Thick, black and opaque.", "Épais, noir et opaque.", "_t")
+t("However annoying this will be for you to gather, I promise that the reek it produces in my lab will prove even more annoying.", "Aussi ennuyeux que cela puisse être pour vous de le recueillir, je vous promets que la puanteur qu'il produit dans mon laboratoire sera encore plus ennuyeuse.", "_t")
 t("bear paw", "patte d'ours", "entity name")
 t("Large and hairy with flesh-rending claws. It smells slightly of fish.", "Grand et poilu avec des griffes déchirant la chair. Elle sent légèrement le poisson.", "_t")
+t("You'd think I could get one of these from a local hunter, but they've had no luck. Don't get eaten.", "On pourrait penser que je pourrais en obtenir un d'un chasseur local, mais ils n'ont pas eu de chance. Ne te fais pas manger.", "_t")
 t("ice wyrm tooth", "dent de ver de glace", "entity name")
 t("This tooth has been blunted with age, but still looks more than capable of doing its job.", "Cette dent a été émoussée par l'âge, mais elle semble toujours plus que capable de faire son travail.", "_t")
+t("Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "Les dragonnets de glace perdent leurs dents assez souvent, donc vous pourriez être chanceux et ne pas avoir à vous battre avec l'un d'eux. Mais habillez-vous chaudement, au cas où.", "_t")
 t("red crystal shard", "éclat de cristal rouge", "entity name")
 t("Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "De minuscules flammes dansent encore de manière éthérée à l'intérieur de ce cristal transparent, bien que sa chaleur semble s'être évanouie... vous l'espérez.", "_t")
+t("I hear these can be found in a cave near Elvala. I also hear that they can cause you to spontaneously combust, so no need to explain if you come back hideously scarred.", "J'ai entendu dire qu'on pouvait les trouver dans une grotte près d'Elvala. J'ai aussi entendu dire qu'ils peuvent provoquer une combustion spontanée, donc pas besoin d'expliquer si vous revenez avec une vilaine cicatrice.", "_t")
 t("vial of fire wyrm saliva", "flacon de salive de ver de feu", "entity name")
 t("Clear and slightly thicker than water. It froths when shaken.", "Transparent et légèrement plus épais que l'eau. Elle mousse lorsqu'on la secoue.", "_t")
+t("Keep this stuff well away from your campfire unless you want me to have to find a new, more alive adventurer.", "Gardez ce truc bien loin de votre feu de camp, à moins que vous ne vouliez que je doive trouver un nouvel aventurier plus vivant.", "_t")
 t("chunk of ghoul flesh", "morceau de chair de goule", "entity name")
 t("Rotten and reeking. It still twitches occasionally.", "Pourri et puant. Ça bouge encore de temps en temps.", "_t")
+t("Unfortunately for you, the chunks that regularly fall off ghouls won't do. I need one freshly carved off.", "Malheureusement pour toi, les morceaux qui tombent régulièrement des goules ne feront pas l'affaire. J'ai besoin d'un morceau fraîchement découpé.", "_t")
 t("mummified bone", "os momifié", "entity name")
 t("Bits of dry flesh still cling to this ancient bone.", "Des morceaux de chair sèche s'accrochent encore à cet ancien os.", "_t")
+t("That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "C'est-à-dire un os provenant d'un cadavre qui a subi une momification. En fait, n'importe quelle partie du corps peut faire l'affaire, mais les os sont les seules parties que vous êtes sûr de trouver lorsque vous démontez une momie. Je vous recommande d'en trouver une qui ne lance pas de malédiction.", "_t")
 t("sandworm tooth", "dent de ver de sable", "entity name")
 t("Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "Minuscule, gris foncé, et méchamment pointu. Ça ressemble plus à de la roche qu'à de l'os.", "_t")
+t("Yes, sandworms have teeth. They're just very small and well back from where you're ever likely to see them and live.", "Oui, les vers de sable ont des dents. Ils sont juste très petits et très éloignés de l'endroit où vous avez le plus de chances de les voir et de vivre.", "_t")
 t("black mamba head", "tête de mamba noir", "entity name")
 t("Unlike the rest of the black mamba, the severed head isn't moving.", "Contrairement au reste du mamba noir, la tête coupée ne bouge pas.", "_t")
+t("If you get bitten, I can save your life if you still manage to bring back the head... and if it happens within about a minute from my door. Good luck.", "Si vous vous faites mordre, je peux vous sauver la vie si vous parvenez à ramener la tête... et si cela se produit à moins d'une minute de ma porte. Bonne chance.", "_t")
 t("snow giant kidney", "rein de géant des neiges", "entity name")
 t("As unpleasant-looking as any exposed organ.", "Aussi désagréable à regarder que n'importe quel organe à découvert.", "_t")
+t("I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "Je suggère de ne pas tuer le géant des neiges en l'empalant dans les reins. Vous devrez juste en trouver un autre.", "_t")
 t("storm wyrm claw", "griffe de ver de l'orage", "entity name")
 t("Bluish and wickedly sharp. It makes your arm hair stand on end.", "Bleuâtre et méchamment pointu. Ça fait dresser les poils de vos bras.", "_t")
+t("I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "Je recommande de couper un de leurs ergots. Ils sont plus petits et plus faciles à enlever, mais ils n'ont jamais été émoussés par l'usage, alors faites attention à ne pas vous piquer. Oh oui, et ne vous faites pas manger.", "_t")
 t("green worm", "ver vert", "entity name")
 t("A dead green worm, painstakingly separated from its tangle of companions.", "Un ver vert mort, minutieusement séparé de son enchevêtrement de compagnons.", "_t")
+t("Try to get any knots out before returning. Wear gloves.", "Essayez d'enlever les noeuds avant de revenir. Portez des gants.", "_t")
 t("vial of wight ectoplasm", "fiole d'ectoplasme de nécrophage", "entity name")
 t("Cloudy and thick. Only by bottling it can you prevent it from evaporating within minutes.", "Nuageux et épais. Ce n'est qu'en le mettant en bouteille que vous pouvez l'empêcher de s'évaporer en quelques minutes.", "_t")
+t("If you ingest any of this, never mind coming back here. Please.", "Si tu ingères quelque chose de tout ça, ne pense même pas à revenir ici. S'il vous plaît.", "_t")
 t("xorn fragment", "fragment de xorn", "entity name")
 t("Looks much like any other rock, though this one was recently sentient and trying to murder you.", "Il ressemble à n'importe quel autre rocher, bien que celui-ci ait été récemment doué de conscience et ait essayé de vous tuer.", "_t")
+t("Avoid fragments that contained the xorn's eyes. You've no idea how unpleasant it is being watched by your ingredients.", "Évitez les fragments qui contiennent les yeux du xorn. Tu n'as pas idée à quel point c'est désagréable d'être observé par tes ingrédients.", "_t")
 t("warg claw", "griffe de loup géant", "entity name")
 t("Unpleasantly large and sharp for a canine's claw.", "Désagréablement grande et pointue pour une griffe de canidé.", "_t")
+t("My usual ingredient gatherers draw the line at hunting wargs. Feel free to mock them on your way back.", "Mes collecteurs d'ingrédients habituels s'arrêtent à la chasse aux wargs. N'hésitez pas à vous moquer d'eux sur le chemin du retour.", "_t")
 t("pouch of faeros ash", "sachet de cendres de feuros", "entity name")
 t("Unremarkable grey ash.", "Cendre grise banale.", "_t")
+t("They're creatures of pure flame, and likely of extraplanar origin, but the ash of objects consumed by their fire has remarkable properties.", "Ce sont des créatures de flamme pure, et probablement d'origine extraplanaire, mais la cendre des objets consumés par leur feu a des propriétés remarquables.", "_t")
 t("wretchling eyeball", "globe oculaire maléfique", "entity name")
 t("Small and bloodshot. Its dead gaze still burns your skin.", "Petit et injecté de sang. Son regard mortel brûle encore votre peau.", "_t")
+t("Evil little things, wretchlings. Feel free to kill as many as you can, though I just need the one intact eyeball.", "Petites choses maléfiques, misérables. N'hésitez pas à en tuer autant que vous le pouvez, mais je n'ai besoin que d'un seul globe oculaire intact.", "_t")
 t("faerlhing fang", "croc de faerlhing", "entity name")
 t("It still drips venom and crackles with magical energy.", "Il dégouline toujours de venin et crépite d'énergie magique.", "_t")
+t("I've lost a number of adventurers to this one, but I'm sure you'll be fine.", "J'ai perdu un certain nombre d'aventuriers à cause de celle-ci, mais je suis sûr que vous vous en sortirez.", "_t")
 t("vampire lord fang", "croc de seigneur vampire", "entity name")
 t("Brilliantly white, but surrounded by blackest magic.", "D'un blanc éclatant, mais entouré de la magie la plus noire.", "_t")
+t("You should definitely consider not pricking yourself with it.", "Vous devez absolument envisager de ne pas vous piquer avec.", "_t")
 t("hummerhorn wing", "ailes de guêpe géante", "entity name")
 t("Translucent and delicate-looking, but surprisingly durable.", "Translucide et d'apparence délicate, mais étonnamment durable.", "_t")
+t("If you've not encountered hummerhorns before, they're like wasps, only gigantic and lethal.", "Si vous n'avez jamais rencontré de guêpes géante, elles sont comme des guêpes, mais gigantesques et mortels.", "_t")
 t("pouch of luminous horror dust", "pochette de poussière d'horreur lumineuse", "entity name")
 t("Weightless and glowing; not your usual dust.", "Légère et lumineuse, pas votre poussière habituelle.", "_t")
--- texte non traduit
---[==[
-t("organic", "organic", "entity type")
-t("Kindly empty it before returning.", "Kindly empty it before returning.", "_t")
-t("If the eyes are still glowing, please bash it around a bit until they fade. I'll not have another one of those coming alive and wreaking havoc in my lab.", "If the eyes are still glowing, please bash it around a bit until they fade. I'll not have another one of those coming alive and wreaking havoc in my lab.", "_t")
-t("Keep as much venom in it as possible.", "Keep as much venom in it as possible.", "_t")
-t("If you can fetch me a still-beating orc heart, that would be even better. But you don't look like a master necromancer to me.", "If you can fetch me a still-beating orc heart, that would be even better. But you don't look like a master necromancer to me.", "_t")
-t("Best results occur with tongues never tainted by profanity, so if you happen to know any saintly nagas...", "Best results occur with tongues never tainted by profanity, so if you happen to know any saintly nagas...", "_t")
-t("Don't drink it, even if it tells you to.", "Don't drink it, even if it tells you to.", "_t")
-t("Never, ever to be confused with garlic powder. Trust me.", "Never, ever to be confused with garlic powder. Trust me.", "_t")
-t("If you've the means to eliminate the little venom problem, these make miraculous instant drink-chilling straws.", "If you've the means to eliminate the little venom problem, these make miraculous instant drink-chilling straws.", "_t")
-t("You'll need to find one with a ring, preferably an expensive one.", "You'll need to find one with a ring, preferably an expensive one.", "_t")
-t("Once you've gotten it, cross some moving water on your way back.", "Once you've gotten it, cross some moving water on your way back.", "_t")
-t("If you think collecting one of these is hard, try liquefying one.", "If you think collecting one of these is hard, try liquefying one.", "_t")
-t("The spiders in your barn won't do. You'll know a giant spider when you see one, though they're rare in Maj'Eyal.", "The spiders in your barn won't do. You'll know a giant spider when you see one, though they're rare in Maj'Eyal.", "_t")
-t("Keep a firm grip on it. These things will dig themselves right back into the ground if you drop them.", "Keep a firm grip on it. These things will dig themselves right back into the ground if you drop them.", "_t")
-t("Don't worry if it dissolves. Just don't get any on you.", "Don't worry if it dissolves. Just don't get any on you.", "_t")
-t("I know, I know. Where does the eel stop and the tail start? It doesn't much matter. The last ten inches or so should do nicely.", "I know, I know. Where does the eel stop and the tail start? It doesn't much matter. The last ten inches or so should do nicely.", "_t")
-t("However annoying this will be for you to gather, I promise that the reek it produces in my lab will prove even more annoying.", "However annoying this will be for you to gather, I promise that the reek it produces in my lab will prove even more annoying.", "_t")
-t("You'd think I could get one of these from a local hunter, but they've had no luck. Don't get eaten.", "You'd think I could get one of these from a local hunter, but they've had no luck. Don't get eaten.", "_t")
-t("Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "_t")
-t("I hear these can be found in a cave near Elvala. I also hear that they can cause you to spontaneously combust, so no need to explain if you come back hideously scarred.", "I hear these can be found in a cave near Elvala. I also hear that they can cause you to spontaneously combust, so no need to explain if you come back hideously scarred.", "_t")
-t("Keep this stuff well away from your campfire unless you want me to have to find a new, more alive adventurer.", "Keep this stuff well away from your campfire unless you want me to have to find a new, more alive adventurer.", "_t")
-t("Unfortunately for you, the chunks that regularly fall off ghouls won't do. I need one freshly carved off.", "Unfortunately for you, the chunks that regularly fall off ghouls won't do. I need one freshly carved off.", "_t")
-t("That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "_t")
-t("Yes, sandworms have teeth. They're just very small and well back from where you're ever likely to see them and live.", "Yes, sandworms have teeth. They're just very small and well back from where you're ever likely to see them and live.", "_t")
-t("If you get bitten, I can save your life if you still manage to bring back the head... and if it happens within about a minute from my door. Good luck.", "If you get bitten, I can save your life if you still manage to bring back the head... and if it happens within about a minute from my door. Good luck.", "_t")
-t("I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "_t")
-t("I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "_t")
-t("Try to get any knots out before returning. Wear gloves.", "Try to get any knots out before returning. Wear gloves.", "_t")
-t("If you ingest any of this, never mind coming back here. Please.", "If you ingest any of this, never mind coming back here. Please.", "_t")
-t("Avoid fragments that contained the xorn's eyes. You've no idea how unpleasant it is being watched by your ingredients.", "Avoid fragments that contained the xorn's eyes. You've no idea how unpleasant it is being watched by your ingredients.", "_t")
-t("My usual ingredient gatherers draw the line at hunting wargs. Feel free to mock them on your way back.", "My usual ingredient gatherers draw the line at hunting wargs. Feel free to mock them on your way back.", "_t")
-t("They're creatures of pure flame, and likely of extraplanar origin, but the ash of objects consumed by their fire has remarkable properties.", "They're creatures of pure flame, and likely of extraplanar origin, but the ash of objects consumed by their fire has remarkable properties.", "_t")
-t("Evil little things, wretchlings. Feel free to kill as many as you can, though I just need the one intact eyeball.", "Evil little things, wretchlings. Feel free to kill as many as you can, though I just need the one intact eyeball.", "_t")
-t("I've lost a number of adventurers to this one, but I'm sure you'll be fine.", "I've lost a number of adventurers to this one, but I'm sure you'll be fine.", "_t")
-t("You should definitely consider not pricking yourself with it.", "You should definitely consider not pricking yourself with it.", "_t")
-t("If you've not encountered hummerhorns before, they're like wasps, only gigantic and lethal.", "If you've not encountered hummerhorns before, they're like wasps, only gigantic and lethal.", "_t")
-t("Not to be confused with radiant horrors. If you encounter the latter, then I suppose there are always more adventurers.", "Not to be confused with radiant horrors. If you encounter the latter, then I suppose there are always more adventurers.", "_t")
---]==]
-
+t("Not to be confused with radiant horrors. If you encounter the latter, then I suppose there are always more adventurers.", "A ne pas confondre avec les horreurs rayonnantes. Si vous rencontrez ces dernières, je suppose qu'il y a toujours plus d'aventuriers.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/keybinds/tome.lua"
 
-
--- texte non traduit
---[==[
-t("Show character sheet (player)", "Show character sheet (player)", "_t")
-t("Show character sheet (actor @ cursor)", "Show character sheet (actor @ cursor)", "_t")
-t("Select controlled character", "Select controlled character", "_t")
-t("Switch control to character 1", "Switch control to character 1", "_t")
-t("Switch control to character 2", "Switch control to character 2", "_t")
-t("Switch control to character 3", "Switch control to character 3", "_t")
-t("Switch control to character 4", "Switch control to character 4", "_t")
-t("Switch control to character 5", "Switch control to character 5", "_t")
-t("Switch control to character 6", "Switch control to character 6", "_t")
-t("Switch control to character 7", "Switch control to character 7", "_t")
-t("Switch control to character 8", "Switch control to character 8", "_t")
-t("Give order to character 1", "Give order to character 1", "_t")
-t("Give order to character 2", "Give order to character 2", "_t")
-t("Give order to character 3", "Give order to character 3", "_t")
-t("Give order to character 4", "Give order to character 4", "_t")
-t("Give order to character 5", "Give order to character 5", "_t")
-t("Give order to character 6", "Give order to character 6", "_t")
-t("Give order to character 7", "Give order to character 7", "_t")
-t("Give order to character 8", "Give order to character 8", "_t")
-t("Toggle movement mode", "Toggle movement mode", "_t")
-t("Attack left", "Attack left", "_t")
-t("Attack right", "Attack right", "_t")
-t("Attack up", "Attack up", "_t")
-t("Attack down", "Attack down", "_t")
-t("Attack diagonally left and up", "Attack diagonally left and up", "_t")
-t("Attack diagonally right and up", "Attack diagonally right and up", "_t")
-t("Attack diagonally left and down", "Attack diagonally left and down", "_t")
-t("Attack diagonally right and down", "Attack diagonally right and down", "_t")
-t("Toggle UI display", "Toggle UI display", "_t")
-t("Locks tooltip in place", "Locks tooltip in place", "_t")
-t("Locks tooltip in place while comparing items", "Locks tooltip in place while comparing items", "_t")
-t("Toggle automatic talent usage", "Toggle automatic talent usage", "_t")
-t("Toggle automatic accept target option", "Toggle automatic accept target option", "_t")
---]==]
-
+t("Show character sheet (player)", "Afficher la feuille de personnage (joueur)", "_t")
+t("Show character sheet (actor @ cursor)", "Afficher la feuille de personnage (acteur @ curseur)", "_t")
+t("Select controlled character", "Séléctionner le personnage à contrôler", "_t")
+t("Switch control to character 1", "Passer au personnage 1", "_t")
+t("Switch control to character 2", "Passer au personnage 2", "_t")
+t("Switch control to character 3", "Passer au personnage 3", "_t")
+t("Switch control to character 4", "Passer au personnage 4", "_t")
+t("Switch control to character 5", "Passer au personnage 5", "_t")
+t("Switch control to character 6", "Passer au personnage 6", "_t")
+t("Switch control to character 7", "Passer au personnage 7", "_t")
+t("Switch control to character 8", "Passer au personnage 8", "_t")
+t("Give order to character 1", "Donner un ordre au personnage 1", "_t")
+t("Give order to character 2", "Donner un ordre au personnage 2", "_t")
+t("Give order to character 3", "Donner un ordre au personnage 3", "_t")
+t("Give order to character 4", "Donner un ordre au personnage 4", "_t")
+t("Give order to character 5", "Donner un ordre au personnage 5", "_t")
+t("Give order to character 6", "Donner un ordre au personnage 6", "_t")
+t("Give order to character 7", "Donner un ordre au personnage 7", "_t")
+t("Give order to character 8", "Donner un ordre au personnage 8", "_t")
+t("Toggle movement mode", "Basculer le mode de mouvement", "_t")
+t("Attack left", "Attaquer vers la gauche", "_t")
+t("Attack right", "Attaquer vers la droite", "_t")
+t("Attack up", "Attaquer vers le haut", "_t")
+t("Attack down", "Attaquer ver sle bas", "_t")
+t("Attack diagonally left and up", "Attaque en diagonale haut/gauche", "_t")
+t("Attack diagonally right and up", "Attaque en diagonale haut/droite", "_t")
+t("Attack diagonally left and down", "Attaque en diagonale bas/gauche", "_t")
+t("Attack diagonally right and down", "Attaque en diagonale bas/droite", "_t")
+t("Toggle UI display", "Basculer l'affichage de l'IU", "_t")
+t("Locks tooltip in place", "Verrouille l'IU en place", "_t")
+t("Locks tooltip in place while comparing items", "Verrouillage en place de l'IU lors de la comparaison d'éléments", "_t")
+t("Toggle automatic talent usage", "Basculer l'utilisation automatique des talents", "_t")
+t("Toggle automatic accept target option", "Basculer l'option d'acceptation automatique de la cible", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/age-allure.lua"
@@ -14807,7 +14756,7 @@ I'm not cut out for this paladin work. Here I am, alone in a horrible dark dunge
 ------------------------------------------------
 section "mod-tome/data/lore/last-hope.lua"
 
-
+t("Declaration of the Unification of the Allied Kingdoms", "Déclaration d'Unification des Royaumes Alliés", "_t")
 -- texte non traduit
 --[==[
 t("last hope", "last hope", "newLore category")
@@ -15035,7 +14984,6 @@ Here, sadly, definitive facts on Southspar and Drake's fate vanish. Some say tha
 I leave you with a copy of one of the last pieces of Southspar's history, a partially destroyed scrap of parchment, supposedly written moments before the Cataclysm and Southspar's destruction, falling beneath the waves along with the rest of Tar'Eyal.
 
 "Time grows pressi... ... ome in the boat... ... found. The binding w... a success. Now, to the sea, to l... ... ew, and Dreadfe... ... oble king. Rot in my new du... as you will!"]], "_t")
-t("Declaration of the Unification of the Allied Kingdoms", "Declaration of the Unification of the Allied Kingdoms", "_t")
 t([[Herewith is set the constitutional declaration of the Allied Kingdoms under the rule of King Toknor and Queen Mirvenia. Any who defy or seek to undermine the laws here set shall suffer torment and death.
 
 As of the 1st of Allure, Age of Pyre year 714, henceforth to be known as the Age of Ascendancy year 1, all human and halfling kingdoms shall be united under the banner of the Allied Kingdoms. This shall include all towns, villages, serfdoms and farmsteads with over 50% human or halfling populace in the whole expanse of Maj'Eyal.
@@ -15651,6 +15599,8 @@ t("human myth of creation", "mythe de la création humaine", "_t")
 t("a logical analysis of creation, by philosopher Smythen", "une analyse logique de la création, par le philosophe Smythen", "_t")
 t("eyal", "Eyal", "newLore category")
 t("Tale of the Moonsisters", "L'histoire des Soeurs Lunes", "_t")
+t("Mocking Note", "Note Moqueuse", "_t")
+t("Guard's Journal", "Journal d'un garde", "_t")
 t("magic", "magie", "newLore category")
 t("On Adventuring", "A l'aventure", "_t")
 -- texte non traduit
@@ -16435,7 +16385,6 @@ They all seem to be focused on something in particular, but what? Just as soon a
 Somehow, your foe has invaded your very subconcious and is attacking you in your dreams. Still unable to move, your lucid mind races on how to handle such an insane and horrible situation. On a whim you concentrate on one of your projections and you find that you can control it. 
 Free now to face this nightmare, you turn to find your foe. While you have a sense that having one of your dreamselves destroyed may not by itself be catastrophic, what would happen if several or many are cut down? Unwilling to find out, you resolve yourself to end this offensive intrustion into your mind.]], "_t")
 t("vault", "vault", "newLore category")
-t("Mocking Note", "Mocking Note", "_t")
 t([[Dear graverobber,
 
 Try to be a little faster next time.
@@ -16445,7 +16394,6 @@ Love, #{italic}#Eden#{normal}#]], [[Dear graverobber,
 Try to be a little faster next time.
 
 Love, #{italic}#Eden#{normal}#]], "_t")
-t("Guard's Journal", "Guard's Journal", "_t")
 t([[Sixth time this week stuck guarding at the stash. And for what? Just a little fun! 
 
 Almost miss being at the farm sometimes. At least there I wasn't able to screw anything up. Wonder if they would take me back knowing what I've been doing with my life...]], [[Sixth time this week stuck guarding at the stash. And for what? Just a little fun! 
@@ -18026,10 +17974,9 @@ Actually...  You fight in a more subtle way than most, do you not?  It is a poin
 ------------------------------------------------
 section "mod-tome/data/maps/towns/gates-of-morning.lua"
 
-
+t("Limmir the Jeweler", "Limmir le joaillier", "_t")
 -- texte non traduit
 --[==[
-t("Limmir the Jeweler", "Limmir the Jeweler", "_t")
 t("Melnela", "Melnela", "_t")
 --]==]
 
@@ -18037,127 +17984,85 @@ t("Melnela", "Melnela", "_t")
 ------------------------------------------------
 section "mod-tome/data/maps/towns/last-hope.lua"
 
-
--- texte non traduit
---[==[
-t("Statue of King Tolak the Fair", "Statue of King Tolak the Fair", "_t")
-t("Statue of King Toknor the Brave", "Statue of King Toknor the Brave", "_t")
-t("Statue of Queen Mirvenia the Inspirer", "Statue of Queen Mirvenia the Inspirer", "_t")
-t("Declaration of the Unification of the Allied Kingdoms", "Declaration of the Unification of the Allied Kingdoms", "_t")
---]==]
-
+t("Statue of King Tolak the Fair", "Statue du Roi Tolak le Juste", "_t")
+t("Statue of King Toknor the Brave", "Statue du Roi Toknor le Courageux", "_t")
+t("Statue of Queen Mirvenia the Inspirer", "Statue de la Reine Mirvenia l'Inspiratrice", "_t")
+t("Declaration of the Unification of the Allied Kingdoms", "Déclaration d'Unification des Royaumes Alliés", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/towns/shatur.lua"
 
-
--- texte non traduit
---[==[
-t("Moss covered statue", "Moss covered statue", "_t")
---]==]
-
+t("Moss covered statue", "Statue recouverte de mousse", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/auto/greater/greater-checkerboard.lua"
 
-
--- texte non traduit
---[==[
-t("#rng# the Guardian", "#rng# the Guardian", "_t")
---]==]
-
+t("#rng# the Guardian", "#rng# le Gardien", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/auto/greater/living-weapons.lua"
 
-
+t("Animated %s", "Animé %s", "tformat")
+t("Moving %s", "Déplacement %s", "tformat")
+t("Poltergeist's %s", "Poltergeist de %s", "tformat")
 -- texte non traduit
 --[==[
 t("Poltergeist %s", "Poltergeist %s", "tformat")
-t("Animated %s", "Animated %s", "tformat")
-t("Moving %s", "Moving %s", "tformat")
-t("Poltergeist's %s", "Poltergeist's %s", "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/auto/greater/orc-hatred.lua"
 
-
--- texte non traduit
---[==[
-t("Something in the floor clicks ominously.", "Something in the floor clicks ominously.", "logPlayer")
---]==]
-
+t("Something in the floor clicks ominously.", "Quelque chose dans le sol clique sinistrement.", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/auto/greater/paladin-vs-vampire.lua"
 
+t("corrupted lava floor", "sol de lave corrompue", "_t")
+t("#Source# emits dark energies at your feet.", "#Source# émet de sombres énergies à vos pieds.", "logCombat")
+t("The corrupted lava reanimates %s's corpse!", "La lave corrompue réanime le cadavre de %s!", "logSeen")
 t("human sun-paladin", "paladin solaire humain", "_t")
--- texte non traduit
---[==[
-t("corrupted lava floor", "corrupted lava floor", "_t")
-t("#Source# emits dark energies at your feet.", "#Source# emits dark energies at your feet.", "logCombat")
-t("The corrupted lava reanimates %s's corpse!", "The corrupted lava reanimates %s's corpse!", "logSeen")
-t("A Human in shining plate armour.", "A Human in shining plate armour.", "_t")
---]==]
-
+t("A Human in shining plate armour.", "Un humain en armure de plates brillantes.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/auto/greater/portal-vault.lua"
 
+t("#YELLOW#The Portal repels you briefly before becoming quiescent.  The other side seems to be blocked.", "#YELLOW#Le Portail vous repousse brièvement avant de se calmer. L'autre côté semble être bloqué.", "logPlayer")
+t("Malevolent Portal", "Portail Malveillant", "_t")
+t("An ominous aura emanates from this portal. Are you sure you want to go through?", "Une aura inquiétante émane de ce portail. Vous êtes sûr de vouloir le franchir?", "_t")
+t("#YELLOW#You overcome intense #LIGHT_BLUE#REPULSIVE FORCES#LAST# as you traverse the Portal.", "#YELLOW#Vous surmontez d'intenses #LIGHT_BLUE#forces repulsives#LAST# en traversant le portail.", "logPlayer")
+t("Teleport", "Téléportation", "_t")
 t("Cancel", "Annuler", "_t")
--- texte non traduit
---[==[
-t("#YELLOW#The Portal repels you briefly before becoming quiescent.  The other side seems to be blocked.", "#YELLOW#The Portal repels you briefly before becoming quiescent.  The other side seems to be blocked.", "logPlayer")
-t("Malevolent Portal", "Malevolent Portal", "_t")
-t("An ominous aura emanates from this portal. Are you sure you want to go through?", "An ominous aura emanates from this portal. Are you sure you want to go through?", "_t")
-t("#YELLOW#You overcome intense #LIGHT_BLUE#REPULSIVE FORCES#LAST# as you traverse the Portal.", "#YELLOW#You overcome intense #LIGHT_BLUE#REPULSIVE FORCES#LAST# as you traverse the Portal.", "logPlayer")
-t("Teleport", "Teleport", "_t")
-t("#YELLOW#Nothing happens when you use the Portal.", "#YELLOW#Nothing happens when you use the Portal.", "logPlayer")
-t("Portal", "Portal", "_t")
-t("A strange portal to some place else.", "A strange portal to some place else.", "_t")
-t("A portal out of this place.", "A portal out of this place.", "_t")
---]==]
-
+t("#YELLOW#Nothing happens when you use the Portal.", "#YELLOW#Rien ne se passe lorsque vous utilisez le portail.", "logPlayer")
+t("Portal", "Portail", "_t")
+t("A strange portal to some place else.", "Un étrange portail vers un autre endroit.", "_t")
+t("A portal out of this place.", "Un portail pour sortir d'ici.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/auto/greater/sleeping-dragons.lua"
 
-
--- texte non traduit
---[==[
-t("The dragons here are asleep. You may try to steal their treasure... at your own risk.", "The dragons here are asleep. You may try to steal their treasure... at your own risk.", "log")
-t("#CRIMSON#The dragons awaken from their slumber detecting their loot being stolen!", "#CRIMSON#The dragons awaken from their slumber detecting their loot being stolen!", "log")
-t("Sleeping #rng#", "Sleeping #rng#", "_t")
-t("Dozing #rng#", "Dozing #rng#", "_t")
---]==]
-
+t("The dragons here are asleep. You may try to steal their treasure... at your own risk.", "Les dragons qui se trouvent ici sont endormis. Vous pouvez essayer de voler leur trésor... à vos risques et périls.", "log")
+t("#CRIMSON#The dragons awaken from their slumber detecting their loot being stolen!", "#CRIMSON#Les dragons se réveillent de leur sommeil en détectant le vol de leur butin !", "log")
+t("Sleeping #rng#", "Dormant #rng#", "_t")
+t("Dozing #rng#", "Somnolant #rng#", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/auto/lesser/loot-vault.lua"
 
 t("scroll", "parchemin", "_t")
--- texte non traduit
---[==[
-t("Mocking Note", "Mocking Note", "_t")
-t("A small scrap of paper written in a mocking tone.", "A small scrap of paper written in a mocking tone.", "_t")
---]==]
-
+t("Mocking Note", "Note Moqueuse", "_t")
+t("A small scrap of paper written in a mocking tone.", "Un petit bout de papier écrit d'un ton moqueur.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/bandit-fortress.lua"
 
+t("bandit fortress", "forteresse de bandits", "_t")
 t("stairs back to %s", "redescendre vers %s", "_t")
+t("#rng# the Guard", "#rng# le Garde", "_t")
 t("scroll", "parchemin", "_t")
--- texte non traduit
---[==[
-t("bandit fortress", "bandit fortress", "_t")
-t("#rng# the Guard", "#rng# the Guard", "_t")
-t("Guard's Journal", "Guard's Journal", "_t")
-t("A messily scrawled pile of loose papers.", "A messily scrawled pile of loose papers.", "_t")
---]==]
-
+t("Guard's Journal", "Journal d'un garde", "_t")
+t("A messily scrawled pile of loose papers.", "Un tas de papiers gribouillés en désordre.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/collapsed-tower.lua"
@@ -18169,16 +18074,11 @@ t("stairs back to %s", "redescendre vers %s", "_t")
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/greater-crypt.lua"
 
-
--- texte non traduit
---[==[
-t("Something in the floor clicks ominously%s", "Something in the floor clicks ominously%s", "logPlayer")
-t(", and suddenly the world spins around you!", ", and suddenly the world spins around you!", "_t")
-t(", and the crypt rearranges itself around you!", ", and the crypt rearranges itself around you!", "_t")
-t("Something in the floor clicks ominously.", "Something in the floor clicks ominously.", "logPlayer")
-t("Something beneath you clicks ominously.", "Something beneath you clicks ominously.", "logPlayer")
---]==]
-
+t("Something in the floor clicks ominously%s", "Quelque chose dans le sol fait un bruit inquiétant%s", "logPlayer")
+t(", and suddenly the world spins around you!", ", et soudain le monde tourne autour de vous!", "_t")
+t(", and the crypt rearranges itself around you!", ", et la crypte se réorganise autour de vous!", "_t")
+t("Something in the floor clicks ominously.", "Quelque chose dans le sol clique sinistrement.", "logPlayer")
+t("Something beneath you clicks ominously.", "Quelque chose en dessous de vous clique sinistrement.", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/grushnak-armory.lua"
@@ -18282,14 +18182,14 @@ t("Tar'Eyal", "Tar'Eyal", "_t")
 ------------------------------------------------
 section "mod-tome/data/maps/zones/bandit-fortress.lua"
 
+t("#rng# the Guard", "#rng# le Garde", "_t")
 t("scroll", "parchemin", "_t")
+t("A messily scrawled pile of loose papers.", "Un tas de papiers gribouillés en désordre.", "_t")
 -- texte non traduit
 --[==[
-t("#rng# the Guard", "#rng# the Guard", "_t")
 t("#rng# the Thug", "#rng# the Thug", "_t")
 t("Bandit Leader #rng#", "Bandit Leader #rng#", "_t")
 t("Boss's Journal", "Boss's Journal", "_t")
-t("A messily scrawled pile of loose papers.", "A messily scrawled pile of loose papers.", "_t")
 --]==]
 
 
@@ -26940,6 +26840,7 @@ section "mod-tome/data/talents/psionic/psionic.lua"
 t("psionic", "psyché", "talent category")
 t("focus", "cencentration", "talent type")
 t("other", "autre", "talent type")
+t("distortion", "distorsion", "talent type")
 t("nightmare", "cauchemard", "talent type")
 -- texte non traduit
 --[==[
@@ -26967,7 +26868,6 @@ t("charged mastery", "charged mastery", "talent type")
 t("Mastery of electrokinetic forces.", "Mastery of electrokinetic forces.", "_t")
 t("discharge", "discharge", "talent type")
 t("Project feedback on the world around you.", "Project feedback on the world around you.", "_t")
-t("distortion", "distortion", "talent type")
 t("Distort reality with your mental energy.", "Distort reality with your mental energy.", "_t")
 t("Dream Smith", "Dream Smith", "talent type")
 t("Call the dream-forge hammer to smite your foes.", "Call the dream-forge hammer to smite your foes.", "_t")
@@ -27625,6 +27525,7 @@ t([[Surround yourself with arcane forces, disrupting any attempts to harm you by
 section "mod-tome/data/talents/spells/conveyance.lua"
 
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
+t("Teleport", "Téléportation", "talent name")
 -- texte non traduit
 --[==[
 t("Phase Door", "Phase Door", "talent name")
@@ -27640,7 +27541,6 @@ t([[Teleports you randomly within a small range of up to %d grids.
 		At level 5, it allows you to choose the target area (radius %d).
 		If the target area is not in line of sight, there is a chance the spell will partially fail and teleport the target randomly.
 		The range will increase with your Spellpower.]], "tformat")
-t("Teleport", "Teleport", "talent name")
 t("The targetted teleport fizzles and works randomly!", "The targetted teleport fizzles and works randomly!", "logPlayer")
 t([[Teleports you randomly within a large range (%d).
 		At level 4, it allows you to specify which creature to teleport.
@@ -35082,6 +34982,7 @@ t("shield", "bouclier", "effect subtype")
 t("ward", "asile", "effect subtype")
 t("+Blind", "+Aveuglé", "_t")
 t("confusion", "confus", "effect subtype")
+t("teleport", "téléportation", "effect subtype")
 t("light", "lumière", "effect subtype")
 t("darkness", "obscurité", "effect subtype")
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide!", "_t")
@@ -35104,7 +35005,7 @@ t("shadow", "ombre", "effect subtype")
 t("undead", "mort-vivant", "effect subtype")
 t("bleed", "saignement", "effect subtype")
 t("Shadow Cut", "Coupure d'Ombre", "_t")
-t("Huge shadow cut that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "Une énorme coupure d'ombre qui saigne, infligeant %0.2f de dégâts d'ombre par tour. Chaque fois que vous la touchez, vous êtes soigné pour %d.", "tformat")
+t("Huge shadow cut that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "Une énorme coupure d'ombre qui saigne, infligeant %0.2f dégâts d'ombre par tour. Chaque fois que vous la touchez, vous êtes soigné pour %d.", "tformat")
 t("#Target# starts to bleed darkness.", "#Target# commence a saigner des ombres.", "_t")
 t("+Shadow Cut", "+Coupure d'Ombre", "_t")
 t("#Target# stops bleeding darkness.", "#Target# cesse de saigner des ombres.", "_t")
@@ -35256,7 +35157,6 @@ t("Seen by Arcane Eye", "Seen by Arcane Eye", "_t")
 t("An Arcane Eye has seen this creature.", "An Arcane Eye has seen this creature.", "_t")
 t("All stats increase", "All stats increase", "_t")
 t("All primary stats of the target are increased by %d.", "All primary stats of the target are increased by %d.", "tformat")
-t("teleport", "teleport", "effect subtype")
 t("Displacement Shield", "Displacement Shield", "_t")
 t("The target is surrounded by a space distortion that randomly sends (%d%% chance) incoming damage to another target (%s). Absorbs %d/%d damage before it crumbles.", "The target is surrounded by a space distortion that randomly sends (%d%% chance) incoming damage to another target (%s). Absorbs %d/%d damage before it crumbles.", "tformat")
 t("The very fabric of space alters around #target#.", "The very fabric of space alters around #target#.", "_t")
@@ -37111,6 +37011,7 @@ t(" and ", " et ", "_t")
 t("lightning", "foudre", "effect subtype")
 t("silence", "dégâts de silence", "effect subtype")
 t("light", "lumière", "effect subtype")
+t("distortion", "distorsion", "effect subtype")
 t("something", "quelque chose", "_t")
 t("Something", "Quelque chose", "_t")
 t("physical", "physique", "effect subtype")
@@ -37610,7 +37511,6 @@ t("#STEEL_BLUE#(%d blocked)#LAST#", "#STEEL_BLUE#(%d blocked)#LAST#", "tformat")
 t("#ORCHID#You cannot block any more attacks!#LAST#", "#ORCHID#You cannot block any more attacks!#LAST#", "logPlayer")
 t("Grappling Defensively", "Grappling Defensively", "_t")
 t("Has a %d%% chance to counter attack with a defensive throw when avoiding a melee attack, possibly throwing the target to the ground and stunning it. (%0.1f throws remaining)", "Has a %d%% chance to counter attack with a defensive throw when avoiding a melee attack, possibly throwing the target to the ground and stunning it. (%0.1f throws remaining)", "tformat")
-t("distortion", "distortion", "effect subtype")
 t("Ravage", "Ravage", "_t")
 t("each turn.", "each turn.", "_t")
 t("and is losing one physical effect turn.", "and is losing one physical effect turn.", "_t")
@@ -40433,16 +40333,16 @@ Do you touch it?", "_t")
 section "mod-tome/data/zones/ruined-dungeon/zone.lua"
 
 t("Ruined Dungeon", "Donjon en ruines", "_t")
+t("#rng# the Guardian", "#rng# le Gardien", "_t")
+t("%s appears out of the thin air!", "%s surgit de nulle part!", "logSeen")
 -- texte non traduit
 --[==[
-t("#rng# the Guardian", "#rng# the Guardian", "_t")
 t("Guardian", "Guardian", "_t")
 t("You can hear a magical trigger firing off.", "You can hear a magical trigger firing off.", "_t")
 t("Strange Orb", "Strange Orb", "_t")
 t("The orb seems to react badly to your touch; there is a high shriek!", "The orb seems to react badly to your touch; there is a high shriek!", "_t")
 t("The orb burns to your touch and a loud shout screams out!", "The orb burns to your touch and a loud shout screams out!", "_t")
 t("The orb reacts violently to your touch and the walls begin to rumble!", "The orb reacts violently to your touch and the walls begin to rumble!", "_t")
-t("%s appears out of the thin air!", "%s appears out of the thin air!", "logSeen")
 t("The orb glows brightly. There is a loud crack coming from the northern central chamber.", "The orb glows brightly. There is a loud crack coming from the northern central chamber.", "_t")
 t("The orb glows brightly.", "The orb glows brightly.", "_t")
 --]==]
@@ -41574,6 +41474,8 @@ t("cooking pit", "cooking pit", "entity name")
 section "mod-tome/data/zones/town-irkkk/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("tailor", "tailleur", "entity name")
+t("tanner", "tanneur", "entity name")
 -- texte non traduit
 --[==[
 t("yeek", "yeek", "entity subtype")
@@ -41588,9 +41490,7 @@ t("two hander weapons crafter", "two hander weapons crafter", "entity name")
 t("This yeek has all sorts of two handed weapons to sell.", "This yeek has all sorts of two handed weapons to sell.", "_t")
 t("one hander weapons crafter", "one hander weapons crafter", "entity name")
 t("This yeek has all sorts of one handed weapons to sell.", "This yeek has all sorts of one handed weapons to sell.", "_t")
-t("tailor", "tailor", "entity name")
 t("This yeek has all sorts of cloth to sell.", "This yeek has all sorts of cloth to sell.", "_t")
-t("tanner", "tanner", "entity name")
 t("This yeek has all sorts of leathers to sell.", "This yeek has all sorts of leathers to sell.", "_t")
 t("natural infusions", "natural infusions", "entity name")
 t("This yeek has all sorts of infusions to sell.", "This yeek has all sorts of infusions to sell.", "_t")
@@ -42378,11 +42278,11 @@ t("demon", "démon", "entity type")
 t("major", "majeur", "entity subtype")
 t("humanoid", "humanoïde", "entity type")
 t("elf", "elfe", "entity subtype")
+t("Limmir the Jeweler", "Limmir le joaillier", "entity name")
 -- texte non traduit
 --[==[
 t("Corrupted Daelach", "Corrupted Daelach", "entity name")
 t("Shadow and flames. The huge beast of fire moves speedily toward you, its huge shadowy wings deployed.", "Shadow and flames. The huge beast of fire moves speedily toward you, its huge shadowy wings deployed.", "_t")
-t("Limmir the Jeweler", "Limmir the Jeweler", "entity name")
 t("An Elven Anorithil, specializing in the art of jewelry.", "An Elven Anorithil, specializing in the art of jewelry.", "_t")
 t("#VIOLET#Limmir is attacked! Defend him!", "#VIOLET#Limmir is attacked! Defend him!", "say")
 --]==]
@@ -42567,6 +42467,7 @@ section "mod-tome/data/zones/wilderness/grids.lua"
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("wall", "mur", "entity type")
+t("forest", "forêt", "entity name")
 t("lava", "lave", "entity subtype")
 t("ice", "glace", "entity subtype")
 t("water", "eau", "entity subtype")
@@ -42578,7 +42479,6 @@ t("sand", "sable", "entity subtype")
 t("plains", "plains", "entity name")
 t("cultivated fields", "cultivated fields", "entity name")
 t("low hills", "low hills", "entity name")
-t("forest", "forest", "entity name")
 t("pine forest", "pine forest", "entity name")
 t("Old forest", "Old forest", "entity name")
 t("Charred Scar", "Charred Scar", "entity name")
