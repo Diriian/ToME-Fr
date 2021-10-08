@@ -15601,6 +15601,8 @@ t("eyal", "Eyal", "newLore category")
 t("Tale of the Moonsisters", "L'histoire des Soeurs Lunes", "_t")
 t("Mocking Note", "Note Moqueuse", "_t")
 t("Guard's Journal", "Journal d'un garde", "_t")
+t("Boss's Journal", "Journal du Chef", "_t")
+t("How to Summon a Phoenix", "Comment Invoquer un Phénix", "_t")
 t("magic", "magie", "newLore category")
 t("On Adventuring", "A l'aventure", "_t")
 -- texte non traduit
@@ -16399,7 +16401,6 @@ t([[Sixth time this week stuck guarding at the stash. And for what? Just a littl
 Almost miss being at the farm sometimes. At least there I wasn't able to screw anything up. Wonder if they would take me back knowing what I've been doing with my life...]], [[Sixth time this week stuck guarding at the stash. And for what? Just a little fun! 
 
 Almost miss being at the farm sometimes. At least there I wasn't able to screw anything up. Wonder if they would take me back knowing what I've been doing with my life...]], "_t")
-t("Boss's Journal", "Boss's Journal", "_t")
 t([[The best haul we ever got, gone. We could have been set for life, the most legendary outlaws in all the lands! Villages would tremble at the thought of us roaming the woods.
 
 Only a matter of time until that nobleman catches wind and comes after us. We were about to get more gold than we could count for his lassie back, and that dirt farmer set her on fire. Of all the skullbrained things to do for fun!
@@ -16413,7 +16414,6 @@ Only a matter of time until that nobleman catches wind and comes after us. We we
 Ordered my men to kill any who pass by and been running triple guard. We need all the time we can get before they come for us, can't let any word out. Once we find somewhere new, I'll leave that idiot burnt on a stake as tribute and hope we don't catch chase. 
 
 I'm going to enjoy hearing his screams, a log on the pyre a gold he cost us. Nice and slow, need to make sure he doesn't die easy.]], "_t")
-t("How to Summon a Phoenix", "How to Summon a Phoenix", "_t")
 t([[#{bold}#How to Summon a Phoenix#{normal}#
 	  10 pouches faeros ash
 	  5 vials fire wyrm saliva
@@ -18083,65 +18083,41 @@ t("Something beneath you clicks ominously.", "Quelque chose en dessous de vous c
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/grushnak-armory.lua"
 
-
--- texte non traduit
---[==[
-t("#rng# the Archer", "#rng# the Archer", "_t")
-t("Warbear #rng#", "Warbear #rng#", "_t")
-t("Elite Combat Trainer #rng#", "Elite Combat Trainer #rng#", "_t")
---]==]
-
+t("#rng# the Archer", "#rng# l'Archer", "_t")
+t("Warbear #rng#", "L'Ours de Guerre #rng#", "_t")
+t("Elite Combat Trainer #rng#", "Entraîneur de Combat d'Elite #rng#", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/lava_island.lua"
 
-
--- texte non traduit
---[==[
-t("#rng# the Witherer", "#rng# the Witherer", "_t")
---]==]
-
+t("#rng# the Witherer", "#rng# le Faucheur", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/renegade-pyromancers.lua"
 
 t("scroll", "parchemin", "_t")
+t("How to Summon a Phoenix", "Comment Invoquer un Phénix", "_t")
+t("An old and singed scroll, the bottom half burnt off.", "Un vieux parchemin roussi, dont la moitié inférieure a été brûlée.", "_t")
+t("#rng# the Flamebringer", "#rng# le Flambeur", "_t")
 t("#rng# the Invoker", "#rng# l'Invocateur", "_t")
--- texte non traduit
---[==[
-t("How to Summon a Phoenix", "How to Summon a Phoenix", "_t")
-t("An old and singed scroll, the bottom half burnt off.", "An old and singed scroll, the bottom half burnt off.", "_t")
-t("#rng# the Flamebringer", "#rng# the Flamebringer", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/renegade-undead.lua"
 
-
--- texte non traduit
---[==[
-t("Grand Necromancer #rng#", "Grand Necromancer #rng#", "_t")
-t("Inquisitor #rng#", "Inquisitor #rng#", "_t")
-t("#rng# the Tortured Mass", "#rng# the Tortured Mass", "_t")
-t("Tortured Mass #rng#", "Tortured Mass #rng#", "_t")
---]==]
-
+t("Grand Necromancer #rng#", "Grand Nécromancien #rng#", "_t")
+t("Inquisitor #rng#", "Inquisiteur #rng#", "_t")
+t("#rng# the Tortured Mass", "#rng# la Masse Torturée", "_t")
+t("Tortured Mass #rng#", "La Masse Torturée #rng#", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/renegade-wyrmics.lua"
 
-
--- texte non traduit
---[==[
-t("#rng# the Herald", "#rng# the Herald", "_t")
-t("Beastmaster #rng#", "Beastmaster #rng#", "_t")
-t("#rng# the Flame Terror", "#rng# the Flame Terror", "_t")
-t("#rng# the Storm Terror", "#rng# the Storm Terror", "_t")
-t("#rng# the Frozen Terror", "#rng# the Frozen Terror", "_t")
-t("#rng# the Caustic Terror", "#rng# the Caustic Terror", "_t")
---]==]
-
+t("#rng# the Herald", "#rng# le Héraut", "_t")
+t("Beastmaster #rng#", "Maître des Bêtes  #rng#", "_t")
+t("#rng# the Flame Terror", "#rng# la Terreur des Flammes", "_t")
+t("#rng# the Storm Terror", "#rng# la Terreur des Tempêtes", "_t")
+t("#rng# the Frozen Terror", "#rng# la Terreur Glacée", "_t")
+t("#rng# the Caustic Terror", "#rng# la Terreur Caustique", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/test.lua"
@@ -18157,24 +18133,18 @@ t("#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "#PI
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/trickvault.lua"
 
-
--- texte non traduit
---[==[
-t("#YELLOW#The world spins around you!", "#YELLOW#The world spins around you!", "logPlayer")
-t("#YELLOW#The air comes alive with terrible magics!", "#YELLOW#The air comes alive with terrible magics!", "logPlayer")
---]==]
-
+t("#YELLOW#The world spins around you!", "#YELLOW#Le monde tourne autour de vous!", "logPlayer")
+t("#YELLOW#The air comes alive with terrible magics!", "#YELLOW#L'air s'anime de terribles magies!", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/maps/wilderness/eyal.lua"
 
-
+t("Island of Rel", "Ile de Rel", "_t")
+t("Charred Scar", "Plaie Craquelée", "_t")
+t("Far East", "Extrême-Orient", "_t")
 -- texte non traduit
 --[==[
 t("Maj'Eyal", "Maj'Eyal", "_t")
-t("Island of Rel", "Island of Rel", "_t")
-t("Charred Scar", "Charred Scar", "_t")
-t("Far East", "Far East", "_t")
 t("Tar'Eyal", "Tar'Eyal", "_t")
 --]==]
 
@@ -18183,35 +18153,25 @@ t("Tar'Eyal", "Tar'Eyal", "_t")
 section "mod-tome/data/maps/zones/bandit-fortress.lua"
 
 t("#rng# the Guard", "#rng# le Garde", "_t")
+t("#rng# the Thug", "#rng# le Voyou", "_t")
+t("Bandit Leader #rng#", "Chef de Bande #rng#", "_t")
 t("scroll", "parchemin", "_t")
+t("Boss's Journal", "Journal du Chef", "_t")
 t("A messily scrawled pile of loose papers.", "Un tas de papiers gribouillés en désordre.", "_t")
--- texte non traduit
---[==[
-t("#rng# the Thug", "#rng# the Thug", "_t")
-t("Bandit Leader #rng#", "Bandit Leader #rng#", "_t")
-t("Boss's Journal", "Boss's Journal", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/maps/zones/collapsed-tower.lua"
 
-
--- texte non traduit
---[==[
-t("arcane crystal", "arcane crystal", "_t")
---]==]
-
+t("arcane crystal", "cristal arcanique", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/zones/halfling-ruins-last.lua"
 
-
+t("Long tunnel to the island of Rel", "Long tunnel vers l'île de Rel", "_t")
+t("As you enter the tunnel you feel a strange compulsion to go backward.", "En entrant dans le tunnel, vous ressentez une étrange envie de reculer.", "_t")
 -- texte non traduit
 --[==[
-t("Long tunnel to the island of Rel", "Long tunnel to the island of Rel", "_t")
 t("Long tunnel", "Long tunnel", "_t")
-t("As you enter the tunnel you feel a strange compulsion to go backward.", "As you enter the tunnel you feel a strange compulsion to go backward.", "_t")
 --]==]
 
 
@@ -18224,33 +18184,18 @@ t("Exploratory Farportal", "Portail lointain exploratoire", "_t")
 ------------------------------------------------
 section "mod-tome/data/maps/zones/tannen-tower-1.lua"
 
-
--- texte non traduit
---[==[
-t("open sky", "open sky", "_t")
---]==]
-
+t("open sky", "ciel ouvert", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/zones/tempest-peak-top.lua"
 
-
--- texte non traduit
---[==[
-t("open sky", "open sky", "_t")
---]==]
-
+t("open sky", "ciel ouvert", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/zones/valley-moon.lua"
 
-
--- texte non traduit
---[==[
-t("Passage to the caverns", "Passage to the caverns", "_t")
-t("A dark hole in the mountain", "A dark hole in the mountain", "_t")
---]==]
-
+t("Passage to the caverns", "Passage vers les cavernes", "_t")
+t("A dark hole in the mountain", "Un trou sombre dans la montagne", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/mapscripts/lib/subvault.lua"
@@ -18261,180 +18206,146 @@ t("hidden vault", "chambre forte cachée", "_t")
 t("Crumbling stairs lead down to something.", "Ces escaliers en ruine mènent à quelque chose.", "_t")
 t("collapsing hidden vault", "chambre forte cachée qui séeffondre.", "_t")
 t("collapsed hidden vault", "chambre forte cachée effondrée.", "_t")
+t("It is fully collapsed, no way down.", "Il est complètement effondré, sans possibilité de descente.", "_t")
+t("#VIOLET# The stairway is about to collapses completely, you may still go back but it will be the last time!", "#VIOLET# L'escalier est sur le point de s'effondrer complètement, vous pouvez encore y retourner mais ce sera la dernière fois!", "log")
 t("nearly collapsed hidden vault", "chambre forte cachée quasiment effondrée", "_t")
 t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET# Les escaliers décrépis se délabrent un peu plus à mesure que vous les montez.", "log")
--- texte non traduit
---[==[
-t("It is fully collapsed, no way down.", "It is fully collapsed, no way down.", "_t")
-t("#VIOLET# The stairway is about to collapses completely, you may still go back but it will be the last time!", "#VIOLET# The stairway is about to collapses completely, you may still go back but it will be the last time!", "log")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/quests/anti-antimagic.lua"
 
-
--- texte non traduit
---[==[
-t("The fall of Zigur", "The fall of Zigur", "_t")
-t("You decided to side with the Grand Corruptor and joined forces to assault the Ziguranth main base of power.", "You decided to side with the Grand Corruptor and joined forces to assault the Ziguranth main base of power.", "_t")
-t("The Grand Corruptor died during the attack before he had time to teach you his ways.", "The Grand Corruptor died during the attack before he had time to teach you his ways.", "_t")
-t("The defenders of Zigur were crushed, the Ziguranth scattered and weakened.", "The defenders of Zigur were crushed, the Ziguranth scattered and weakened.", "_t")
-t("In the aftermath you turned against the Grand Corruptor and dispatched him.", "In the aftermath you turned against the Grand Corruptor and dispatched him.", "_t")
-t("Select the party member to receive the hexes generic talent tree:", "Select the party member to receive the hexes generic talent tree:", "_t")
-t("Grand Corruptor", "Grand Corruptor", "_t")
-t("#LIGHT_GREEN#The Grand Corruptor gazes upon you. You feel knowledge flowing in your mind. You can now train some corruption powers.", "#LIGHT_GREEN#The Grand Corruptor gazes upon you. You feel knowledge flowing in your mind. You can now train some corruption powers.", "_t")
-t("Victory is mine!", "Victory is mine!", "_t")
-t("While you were in the Far East, the Grand Corruptor was busy in Maj'Eyal.", "While you were in the Far East, the Grand Corruptor was busy in Maj'Eyal.", "_t")
-t("With the fall of Zigur he was able to attack and take control of Elvala, the Shaloren capital city.", "With the fall of Zigur he was able to attack and take control of Elvala, the Shaloren capital city.", "_t")
-t("His plans however do not stop there.", "His plans however do not stop there.", "_t")
---]==]
-
+t("The fall of Zigur", "La chute de Zigur", "_t")
+t("You decided to side with the Grand Corruptor and joined forces to assault the Ziguranth main base of power.", "Vous avez décidé de vous ranger du côté du Grand Corrupteur et avez joint leurs forces pour attaquer la principale base de pouvoir des Ziguranth.", "_t")
+t("The Grand Corruptor died during the attack before he had time to teach you his ways.", "Le Grand Corrupteur est mort pendant l'attaque avant d'avoir eu le temps de t'enseigner ses méthodes.", "_t")
+t("The defenders of Zigur were crushed, the Ziguranth scattered and weakened.", "Les défenseurs de Zigur ont été écrasés, les Ziguranth dispersés et affaiblis.", "_t")
+t("In the aftermath you turned against the Grand Corruptor and dispatched him.", "Par la suite, vous vous êtes retourné contre le Grand Corrupteur et l'avez éliminé.", "_t")
+t("Select the party member to receive the hexes generic talent tree:", "Sélectionnez le membre du groupe qui recevra l'arbre de Talents Générique des Malédictions:", "_t")
+t("Grand Corruptor", "Grand Corrupteur", "_t")
+t("#LIGHT_GREEN#The Grand Corruptor gazes upon you. You feel knowledge flowing in your mind. You can now train some corruption powers.", "#LIGHT_GREEN#Le Grand Corrupteur vous regarde. Tu sens la connaissance couler dans ton esprit. Tu peux maintenant exercer des pouvoirs de corruption.", "_t")
+t("Victory is mine!", "La victoire est mienne!", "_t")
+t("While you were in the Far East, the Grand Corruptor was busy in Maj'Eyal.", "Pendant que vous étiez en Extrême-Orient, le Grand Corrupteur était occupé à Maj'Eyal.", "_t")
+t("With the fall of Zigur he was able to attack and take control of Elvala, the Shaloren capital city.", "Avec la chute de Zigur, il a pu attaquer et prendre le contrôle d'Elvala, la capitale des Shalorens.", "_t")
+t("His plans however do not stop there.", "Ses projets ne s'arrêtent toutefois pas là.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/antimagic.lua"
 
-
--- texte non traduit
---[==[
-t("The Curse of Magic", "The Curse of Magic", "_t")
-t("You have been invited to join a group called the Ziguranth, dedicated to opposing magic.", "You have been invited to join a group called the Ziguranth, dedicated to opposing magic.", "_t")
-t("Grim-looking fighter", "Grim-looking fighter", "_t")
-t("#VIOLET#A foe is summoned to the arena!", "#VIOLET#A foe is summoned to the arena!", "logSeen")
-t("#VIOLET#Another foe is summoned to the arena!", "#VIOLET#Another foe is summoned to the arena!", "logSeen")
---]==]
-
+t("The Curse of Magic", "La Malédiction de la Magie", "_t")
+t("You have been invited to join a group called the Ziguranth, dedicated to opposing magic.", "Vous avez été invité à rejoindre un groupe appelé le Ziguranth, qui s'oppose à la magie.", "_t")
+t("Grim-looking fighter", "Combattant à l'air sombre", "_t")
+t("#VIOLET#A foe is summoned to the arena!", "#VIOLET#Un ennemi est convoqué dans l'arène!", "logSeen")
+t("#VIOLET#Another foe is summoned to the arena!", "#VIOLET#Un autre ennemi est convoqué dans l'arène!", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/quests/arena-unlock.lua"
 
-
--- texte non traduit
---[==[
-t("The agent of the arena", "The agent of the arena", "_t")
-t("You were asked to prove your worth as a fighter by a rogue, in order to participate in the arena", "You were asked to prove your worth as a fighter by a rogue, in order to participate in the arena", "_t")
-t("You succesfully defeated your adversaries and gained access to the arena!", "You succesfully defeated your adversaries and gained access to the arena!", "_t")
---]==]
-
+t("The agent of the arena", "L'agent de l'arène", "_t")
+t("You were asked to prove your worth as a fighter by a rogue, in order to participate in the arena", "Un malfrat vous a demandé de prouver votre valeur en tant que combattant, afin de pouvoir participer à l'arène.", "_t")
+t("You succesfully defeated your adversaries and gained access to the arena!", "Vous avez réussi à vaincre vos adversaires et à avoir accès à l'arène!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/arena.lua"
 
 t("The Arena", "L'Arène", "_t")
+t("Seeking wealth, glory, and a great fight, you challenge the Arena!", "En quête de richesse, de gloire et d'un grand combat, vous défiez l'arène!", "_t")
+t("Can you defeat your foes and become Master of Arena?", "Pourrez-vous vaincre vos ennemis et devenir le maître de l'arène?", "_t")
+t("Winner", "Gagnant", "_t")
+t("#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "#GOLD#Bravo ! Vous avez gagné l'Arène: Le défi du maître#WHITE#", "_t")
+t("You valiantly fought every creature the arena could throw at you and you emerged victorious!", "Tu as vaillamment combattu toutes les créatures que l'arène pouvait t'envoyer et tu en es sorti victorieux!", "_t")
+t("Glory to you, you are now the new master and your future characters will challenge you.", "Gloire à vous, vous êtes maintenant le nouveau maître et vos futurs personnages vous mettront au défi.", "_t")
 -- texte non traduit
 --[==[
-t("Seeking wealth, glory, and a great fight, you challenge the Arena!", "Seeking wealth, glory, and a great fight, you challenge the Arena!", "_t")
-t("Can you defeat your foes and become Master of Arena?", "Can you defeat your foes and become Master of Arena?", "_t")
-t("Winner", "Winner", "_t")
-t("#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "_t")
 t("", "", "_t")
-t("You valiantly fought every creature the arena could throw at you and you emerged victorious!", "You valiantly fought every creature the arena could throw at you and you emerged victorious!", "_t")
-t("Glory to you, you are now the new master and your future characters will challenge you.", "Glory to you, you are now the new master and your future characters will challenge you.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/quests/brotherhood-of-alchemists.lua"
 
+t("The Brotherhood of Alchemists", "La Confrérie des Alchimistes", "_t")
+t("#LIGHT_GREEN#Thanks to your timely aid, %s is the newest member of the Brotherhood of Alchemists.#WHITE#", "#LIGHT_GREEN#Grâce à votre aide opportune, %s est le nouveau membre de la Confrérie des Alchimistes.#WHITE#", "tformat")
+t("#RED#You aided various denizens of Maj'Eyal in their attempts to join the Brotherhood of Alchemists, though you did not prove the deciding factor for any. This year's new member is %s.#WHITE#", "#RED#Vous avez aidé plusieurs habitants de Maj'Eyal à tenter de rejoindre la Confrérie des Alchimistes, mais vous n'avez été le facteur décisif pour aucun d'entre eux. Le nouveau membre de cette année est %s.#WHITE#", "tformat")
+t("#LIGHT_BLUE#Various alchemists around Maj'Eyal are competing to gain entry into the great Brotherhood of Alchemists, and one or more have enlisted your aid.#WHITE#", "#LIGHT_BLUE#Plusieurs alchimistes de Maj'Eyal sont en compétition pour entrer dans la grande Confrérie des Alchimistes, et un ou plusieurs d'entre eux vous ont demandé votre aide.#WHITE#", "_t")
+t("#GREEN#You have aided %s in creating an %s.#WHITE#", "#GREEN#Vous avez aidé %s à créer un %s.#WHITE#", "tformat")
+t("#RED#%s has completed an %s without your aid.#WHITE#", "#RED#%s a terminé un %s sans votre aide.#WHITE#", "tformat")
+t("#SLATE#Having failed to gain admittance to the Brotherhood of the Alchemists, %s no longer needs your help making the %s.", "#SLATE#N'ayant pas réussi à se faire admettre dans la confrérie des alchimistes, %s n'a plus besoin de votre aide pour fabriquer un %s.", "tformat")
+t("%s needs your help making an %s. He has given you some notes on the ingredients:", "%s a besoin de votre aide pour préparer un %s. Il vous a donné quelques notes sur les ingrédients:", "tformat")
+t("#SLATE#  * 'Needed: one %s. %s'#WHITE#", "#SLATE#  * 'Besoin de: un %s. %s'#WHITE#", "tformat")
+t("#LIGHT_GREEN#  * You've found the needed %s.#WHITE#", "#LIGHT_GREEN#  * Vous avez trouvé le %s nécessaire.#WHITE#", "tformat")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
+t("#VIOLET#You can check the ingredients you possess by pressing Escape and selecting 'Show ingredients'.", "#VIOLET#Vous pouvez vérifier les ingrédients que vous possédez en appuyant sur la touche Echap et en sélectionnant \"Afficher les ingrédients\".", "log")
+t("You receive: %s", "Vous recevez: %s", "logPlayer")
+t("elixir of the fox", "élixir du renard", "_t")
+t("elixir of avoidance", "élixir d'évitement", "_t")
+t("elixir of precision", "élixir de précision", "_t")
+t("elixir of mysticism", "élixir de mysticisme", "_t")
+t("elixir of the savior", "élixir du sauveur", "_t")
+t("elixir of mastery", "élixir de maîtrise", "_t")
+t("elixir of explosive force", "élixir de force explosive", "_t")
+t("elixir of serendipity", "élixir de sérendipité", "_t")
+t("elixir of focus", "élixir de concentration", "_t")
 t("elixir of brawn", "elixir de muscles", "_t")
 t("elixir of stoneskin", "elixir de peau de pierre", "_t")
 t("elixir of foundations", "elixir de foundations", "_t")
--- texte non traduit
---[==[
-t("The Brotherhood of Alchemists", "The Brotherhood of Alchemists", "_t")
-t("#LIGHT_GREEN#Thanks to your timely aid, %s is the newest member of the Brotherhood of Alchemists.#WHITE#", "#LIGHT_GREEN#Thanks to your timely aid, %s is the newest member of the Brotherhood of Alchemists.#WHITE#", "tformat")
-t("#RED#You aided various denizens of Maj'Eyal in their attempts to join the Brotherhood of Alchemists, though you did not prove the deciding factor for any. This year's new member is %s.#WHITE#", "#RED#You aided various denizens of Maj'Eyal in their attempts to join the Brotherhood of Alchemists, though you did not prove the deciding factor for any. This year's new member is %s.#WHITE#", "tformat")
-t("#LIGHT_BLUE#Various alchemists around Maj'Eyal are competing to gain entry into the great Brotherhood of Alchemists, and one or more have enlisted your aid.#WHITE#", "#LIGHT_BLUE#Various alchemists around Maj'Eyal are competing to gain entry into the great Brotherhood of Alchemists, and one or more have enlisted your aid.#WHITE#", "_t")
-t("#GREEN#You have aided %s in creating an %s.#WHITE#", "#GREEN#You have aided %s in creating an %s.#WHITE#", "tformat")
-t("#RED#%s has completed an %s without your aid.#WHITE#", "#RED#%s has completed an %s without your aid.#WHITE#", "tformat")
-t("#SLATE#Having failed to gain admittance to the Brotherhood of the Alchemists, %s no longer needs your help making the %s.", "#SLATE#Having failed to gain admittance to the Brotherhood of the Alchemists, %s no longer needs your help making the %s.", "tformat")
-t("%s needs your help making an %s. He has given you some notes on the ingredients:", "%s needs your help making an %s. He has given you some notes on the ingredients:", "tformat")
-t("#SLATE#  * 'Needed: one %s. %s'#WHITE#", "#SLATE#  * 'Needed: one %s. %s'#WHITE#", "tformat")
-t("#LIGHT_GREEN#  * You've found the needed %s.#WHITE#", "#LIGHT_GREEN#  * You've found the needed %s.#WHITE#", "tformat")
-t("#VIOLET#You can check the ingredients you possess by pressing Escape and selecting 'Show ingredients'.", "#VIOLET#You can check the ingredients you possess by pressing Escape and selecting 'Show ingredients'.", "log")
-t("You receive: %s", "You receive: %s", "logPlayer")
-t("elixir of the fox", "elixir of the fox", "_t")
-t("elixir of avoidance", "elixir of avoidance", "_t")
-t("elixir of precision", "elixir of precision", "_t")
-t("elixir of mysticism", "elixir of mysticism", "_t")
-t("elixir of the savior", "elixir of the savior", "_t")
-t("elixir of mastery", "elixir of mastery", "_t")
-t("elixir of explosive force", "elixir of explosive force", "_t")
-t("elixir of serendipity", "elixir of serendipity", "_t")
-t("elixir of focus", "elixir of focus", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/quests/charred-scar.lua"
 
-
+t("The Doom of the World!", "Le Jugement du Monde!", "_t")
+t("You were sent to the Charred Scar at the heart of which lies a huge volcano. In the Age of Pyre it destroyed the old Sher'Tul ruins that stood there, absorbing much of their latent magic.", "Vous avez été envoyé dans la Plaie Craquelée au cœur de laquelle se trouve un énorme volcan. Durant l'Ere du Bûcher, il a détruit les anciennes ruines Sher'Tul qui s'y trouvaient, absorbant une grande partie de leur magie latente.", "_t")
+t("This place is still full of that power and the orcs intend to absorb this power using the Staff of Absorption!", "Cet endroit est encore plein de ce pouvoir et les orcs ont l'intention d'absorber ce pouvoir en utilisant le Bâton d'Absorption!", "_t")
+t("Whatever their plan may be, they must be stopped at all cost.", "Quel que soit leur plan, ils doivent être arrêtés à tout prix.", "_t")
+t("The volcano is attacked by orcs. A few Sun Paladins made it there with you. They will hold the line at the cost of their lives to buy you some time.", "Le volcan est attaqué par des orcs. Quelques paladins du soleil sont arrivés avec vous. Ils vont tenir la ligne au prix de leur vie pour vous faire gagner du temps.", "_t")
+t("Honor their sacrifice; do not let the orcs finish their work!", "Honorez leur sacrifice! Ne laissez pas les orcs finir leur travail!", "_t")
+t("You arrived too late. The place has been drained of its power and the sorcerers have left.", "Vous êtes arrivé trop tard. L'endroit a été vidé de son pouvoir et les sorciers sont partis.", "_t")
+t("Use the portal to go back to the Far East. You *MUST* stop them, no matter the cost.", "Utilisez le portail pour retourner en Extrême-Orient. Vous *DEVEZ* les arrêter, quel qu'en soit le prix.", "_t")
+t("You arrived in time and interrupted the ritual. The sorcerers have departed.", "Tu es arrivé à temps et tu as interrompu le rituel. Les sorciers sont partis.", "_t")
+t("#VIOLET#A portal activates in the distance. You hear the orcs shout, 'The Sorcerers have departed! Follow them!'", "#VIOLET#Un portail s'active au loin. Tu entends les orcs crier: \"Les sorciers sont partis! Suivez-les!\"", "logPlayer")
+t("#VIOLET#The Sorcerers flee through a portal. As you prepare to follow them, a huge faeros appears to block the way.", "#VIOLET#Les Sorciers s'enfuient par un portail. Alors que vous vous apprêtez à les suivre, un énorme feuros apparaît pour bloquer le passage.", "logPlayer")
 -- texte non traduit
 --[==[
-t("The Doom of the World!", "The Doom of the World!", "_t")
-t("You were sent to the Charred Scar at the heart of which lies a huge volcano. In the Age of Pyre it destroyed the old Sher'Tul ruins that stood there, absorbing much of their latent magic.", "You were sent to the Charred Scar at the heart of which lies a huge volcano. In the Age of Pyre it destroyed the old Sher'Tul ruins that stood there, absorbing much of their latent magic.", "_t")
-t("This place is still full of that power and the orcs intend to absorb this power using the Staff of Absorption!", "This place is still full of that power and the orcs intend to absorb this power using the Staff of Absorption!", "_t")
-t("Whatever their plan may be, they must be stopped at all cost.", "Whatever their plan may be, they must be stopped at all cost.", "_t")
-t("The volcano is attacked by orcs. A few Sun Paladins made it there with you. They will hold the line at the cost of their lives to buy you some time.", "The volcano is attacked by orcs. A few Sun Paladins made it there with you. They will hold the line at the cost of their lives to buy you some time.", "_t")
-t("Honor their sacrifice; do not let the orcs finish their work!", "Honor their sacrifice; do not let the orcs finish their work!", "_t")
 t("", "", "_t")
-t("You arrived too late. The place has been drained of its power and the sorcerers have left.", "You arrived too late. The place has been drained of its power and the sorcerers have left.", "_t")
-t("Use the portal to go back to the Far East. You *MUST* stop them, no matter the cost.", "Use the portal to go back to the Far East. You *MUST* stop them, no matter the cost.", "_t")
-t("You arrived in time and interrupted the ritual. The sorcerers have departed.", "You arrived in time and interrupted the ritual. The sorcerers have departed.", "_t")
-t("#VIOLET#A portal activates in the distance. You hear the orcs shout, 'The Sorcerers have departed! Follow them!'", "#VIOLET#A portal activates in the distance. You hear the orcs shout, 'The Sorcerers have departed! Follow them!'", "logPlayer")
-t("#VIOLET#The Sorcerers flee through a portal. As you prepare to follow them, a huge faeros appears to block the way.", "#VIOLET#The Sorcerers flee through a portal. As you prepare to follow them, a huge faeros appears to block the way.", "logPlayer")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/quests/deep-bellow.lua"
 
-
--- texte non traduit
---[==[
-t("From bellow, it devours", "From bellow, it devours", "_t")
-t("Your escape from Reknor got your heart pounding and your desire for wealth and power increased tenfold.", "Your escape from Reknor got your heart pounding and your desire for wealth and power increased tenfold.", "_t")
-t("Maybe it is time for you to start an adventurer's career. Deep below the Iron Throne mountains lies the Deep Bellow.", "Maybe it is time for you to start an adventurer's career. Deep below the Iron Throne mountains lies the Deep Bellow.", "_t")
-t("It has been long sealed away but still, from time to time adventurers go there looking for wealth.", "It has been long sealed away but still, from time to time adventurers go there looking for wealth.", "_t")
-t("None that you know of has come back yet, but you did survive Reknor. You are great.", "None that you know of has come back yet, but you did survive Reknor. You are great.", "_t")
---]==]
-
+t("From bellow, it devours", "Du souffle, il dévore", "_t")
+t("Your escape from Reknor got your heart pounding and your desire for wealth and power increased tenfold.", "Votre évasion de Reknor a fait battre votre cœur et votre désir de richesse et de pouvoir s'est décuplé.", "_t")
+t("Maybe it is time for you to start an adventurer's career. Deep below the Iron Throne mountains lies the Deep Bellow.", "Il est peut-être temps pour vous de commencer une carrière d'aventurier. Sous les montagnes du Trône de Fer se trouve le Souffle Profond.", "_t")
+t("It has been long sealed away but still, from time to time adventurers go there looking for wealth.", "Il a été scellé il y a longtemps mais pourtant, de temps en temps, des aventuriers s'y rendent à la recherche de richesses.", "_t")
+t("None that you know of has come back yet, but you did survive Reknor. You are great.", "Personne à votre connaissance n'est encore revenu, mais vous avez survécu à Reknor. Vous êtes formidable.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/dreadfell.lua"
 
-
--- texte non traduit
---[==[
-t("The Island of Dread", "The Island of Dread", "_t")
-t("You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "_t")
-t("There are disturbing rumors of greater undead, and nobody who reached it ever returned.", "There are disturbing rumors of greater undead, and nobody who reached it ever returned.", "_t")
-t("Perhaps you should explore it and find the truth, and the treasures, for yourself!", "Perhaps you should explore it and find the truth, and the treasures, for yourself!", "_t")
---]==]
-
+t("The Island of Dread", "L'île de la Terreur", "_t")
+t("You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "Vous avez entendu dire que près de la plaie craquelée, au sud, se trouve une tour en ruine connue sous le nom de Tombeffroie.", "_t")
+t("There are disturbing rumors of greater undead, and nobody who reached it ever returned.", "Il y a des rumeurs inquiétantes de grands morts-vivants, et aucun de ceux qui y ont été ne sont jamais revenu.", "_t")
+t("Perhaps you should explore it and find the truth, and the treasures, for yourself!", "Peut-être devriez-vous l'explorer et trouver la vérité, ainsi que ses trésors, par vous-même!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/east-portal.lua"
 
 t("Back and there again", "Retourner et revenir", "_t")
+t("You have created a portal back to Maj'Eyal. You should try to talk to someone in Last Hope about establishing a link back.", "Vous avez créé un portail de retour vers Maj'Eyal. Vous devriez essayer de parler à quelqu'un à Dernier Espoir pour établir un lien de retour.", "_t")
+t("You talked to the Elder in Last Hope who in turn told you to talk to Tannen, who lives in the north of the city.", "Vous avez parlé à l'Ancien de Dernier Espoir qui vous a dit de parler à Tannen, qui vit au nord de la ville.", "_t")
+t("You gave the Orb of Many Ways to Tannen to study while you look for the athame and diamond in Reknor.", "Vous avez donné l'Orbe des multiples voies à Tannen pour qu'il l'étudie pendant que vous cherchez l'athamé et le diamant à Reknor.", "_t")
+t("You kept the Orb of Many Ways despite Tannen's request to study it. You must now look for the athame and diamond in Reknor.", "Tu as gardé l'Orbe des multiples voies malgré la demande de Tannen de l'étudier. Tu dois maintenant chercher l'athamé et le diamant à Reknor.", "_t")
+t("You brought back the diamond and athame to Tannen who asked you to check the tower of Telmur, looking for a text of portals, although he is not sure it is even there. He told you to come back in a few days.", "Vous avez rapporté le diamant et l'athamé à Tannen qui vous a demandé de vérifier la tour de Telmur, à la recherche d'un texte de portails, bien qu'il ne soit pas sûr qu'il s'y trouve. Il vous a dit de revenir dans quelques jours.", "_t")
+t("You brought back the diamond and athame to Tannen who asked you to contact Zemekkys to ask some delicate questions.", "Vous avez rapporté le diamant et l'athamé à Tannen qui vous a demandé de contacter Zemekkys pour lui poser quelques questions délicates.", "_t")
+t("You brought back the diamond and athame to Tannen who asked you to come back in a few days.", "Vous avez rapporté le diamant et l'athamé à Tannen qui vous a demandé de revenir dans quelques jours.", "_t")
+t("Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "Tannen vous a trompé ! Il a échangé l'orbe contre une fausse qui vous a amené dans un plan démoniaque. Trouvez la sortie, et prenez votre revanche!", "_t")
+t("Tannen revealed himself as the vile scum he really is and trapped you in his tower.", "Tannen s'est révélé être une ordure et vous a piégé dans sa tour.", "_t")
+t("#LIGHT_GREEN#* The portal to the Far East is now functional and can be used to go back.#WHITE#", "#LIGHT_GREEN#* Le portail vers l'Extrême-Orient est maintenant fonctionnel et peut être utilisé pour y retourner.#WHITE#", "_t")
+t("Tannen points to the location of Telmur on your map.", "Tannen indique l'emplacement de Telmur sur votre carte.", "logPlayer")
+t("A portal appears in the center of the tower!", "Un portail apparaît au centre de la tour!", "_t")
+t("Meranas, Herald of Angolwen", "Meranas, Héraut d'Angolwen", "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back in Last Hope.", "#VIOLET#Vous entrez dans le portail tourbillonnant et en un clin d'oeil vous êtes de retour à Dernier Espoir.", "logPlayer")
 -- texte non traduit
 --[==[
-t("You have created a portal back to Maj'Eyal. You should try to talk to someone in Last Hope about establishing a link back.", "You have created a portal back to Maj'Eyal. You should try to talk to someone in Last Hope about establishing a link back.", "_t")
-t("You talked to the Elder in Last Hope who in turn told you to talk to Tannen, who lives in the north of the city.", "You talked to the Elder in Last Hope who in turn told you to talk to Tannen, who lives in the north of the city.", "_t")
-t("You gave the Orb of Many Ways to Tannen to study while you look for the athame and diamond in Reknor.", "You gave the Orb of Many Ways to Tannen to study while you look for the athame and diamond in Reknor.", "_t")
-t("You kept the Orb of Many Ways despite Tannen's request to study it. You must now look for the athame and diamond in Reknor.", "You kept the Orb of Many Ways despite Tannen's request to study it. You must now look for the athame and diamond in Reknor.", "_t")
-t("You brought back the diamond and athame to Tannen who asked you to check the tower of Telmur, looking for a text of portals, although he is not sure it is even there. He told you to come back in a few days.", "You brought back the diamond and athame to Tannen who asked you to check the tower of Telmur, looking for a text of portals, although he is not sure it is even there. He told you to come back in a few days.", "_t")
-t("You brought back the diamond and athame to Tannen who asked you to contact Zemekkys to ask some delicate questions.", "You brought back the diamond and athame to Tannen who asked you to contact Zemekkys to ask some delicate questions.", "_t")
-t("You brought back the diamond and athame to Tannen who asked you to come back in a few days.", "You brought back the diamond and athame to Tannen who asked you to come back in a few days.", "_t")
-t("Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "_t")
-t("Tannen revealed himself as the vile scum he really is and trapped you in his tower.", "Tannen revealed himself as the vile scum he really is and trapped you in his tower.", "_t")
 t("", "", "_t")
-t("#LIGHT_GREEN#* The portal to the Far East is now functional and can be used to go back.#WHITE#", "#LIGHT_GREEN#* The portal to the Far East is now functional and can be used to go back.#WHITE#", "_t")
-t("Tannen points to the location of Telmur on your map.", "Tannen points to the location of Telmur on your map.", "logPlayer")
-t("A portal appears in the center of the tower!", "A portal appears in the center of the tower!", "_t")
-t("Meranas, Herald of Angolwen", "Meranas, Herald of Angolwen", "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back in Last Hope.", "#VIOLET#You enter the swirling portal and in the blink of an eye you are back in Last Hope.", "logPlayer")
 --]==]
 
 
@@ -18476,7 +18387,7 @@ t("You have laid Celia to rest, putting an end to her failed experiments. You ha
 ------------------------------------------------
 section "mod-tome/data/quests/high-peak.lua"
 
-
+t("Winner", "Gagnant", "_t")
 -- nouveau texte
 --[==[
 t("Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "_t")
@@ -18506,7 +18417,6 @@ t("#LIGHT_RED#As you enter the level you hear a familiar voice.", "#LIGHT_RED#As
 t("#LIGHT_RED#Fallen Sun Paladin Aeryn: '%s YOU BROUGHT ONLY DESTRUCTION TO THE SUNWALL! YOU WILL PAY!'", "#LIGHT_RED#Fallen Sun Paladin Aeryn: '%s YOU BROUGHT ONLY DESTRUCTION TO THE SUNWALL! YOU WILL PAY!'", "logPlayer")
 t("Ruins of the Gates of Morning", "Ruins of the Gates of Morning", "_t")
 t("The Sunwall was destroyed while you were trapped in the High Peak.", "The Sunwall was destroyed while you were trapped in the High Peak.", "_t")
-t("Winner", "Winner", "_t")
 t("#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "_t")
 t("", "", "_t")
 t("The Sorcerers are dead, and the Orc Pride lies in ruins, thanks to your efforts.", "The Sorcerers are dead, and the Orc Pride lies in ruins, thanks to your efforts.", "_t")
@@ -18709,7 +18619,7 @@ t("all", "tout", "_t")
 ------------------------------------------------
 section "mod-tome/data/quests/mage-apprentice.lua"
 
-
+t("You receive: %s", "Vous recevez: %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("An apprentice task", "An apprentice task", "_t")
@@ -18719,7 +18629,6 @@ t("#SLATE#* Collect an artifact arcane powered item.#WHITE#", "#SLATE#* Collect 
 t("Offer which item?", "Offer which item?", "_t")
 t("#LIGHT_RED#As the apprentice touches the staff he begins to scream, flames bursting out of his mouth. Life seems to be drained away from him, and in an instant he collapses in a lifeless husk.", "#LIGHT_RED#As the apprentice touches the staff he begins to scream, flames bursting out of his mouth. Life seems to be drained away from him, and in an instant he collapses in a lifeless husk.", "logPlayer")
 t("You have no more %s", "You have no more %s", "log")
-t("You receive: %s", "You receive: %s", "logPlayer")
 --]==]
 
 
@@ -37829,11 +37738,10 @@ t("%s from %s", "%s from %s", "tformat")
 ------------------------------------------------
 section "mod-tome/data/wda/eyal.lua"
 
-
+t("Far East", "Extrême-Orient", "_t")
 -- texte non traduit
 --[==[
 t("Maj'Eyal", "Maj'Eyal", "_t")
-t("Far East", "Far East", "_t")
 --]==]
 
 
@@ -38309,10 +38217,9 @@ t("and a sole piece of char was sent to his masters as a totem", "and a sole pie
 ------------------------------------------------
 section "mod-tome/data/zones/charred-scar/zone.lua"
 
-
+t("Charred Scar", "Plaie Craquelée", "_t")
 -- texte non traduit
 --[==[
-t("Charred Scar", "Charred Scar", "_t")
 t("Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "_t")
 --]==]
 
@@ -39639,10 +39546,9 @@ t("Corrupt", "Corrupt", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/npcs.lua"
 
-
+t("Grand Corruptor", "Grand Corrupteur", "entity name")
 -- texte non traduit
 --[==[
-t("Grand Corruptor", "Grand Corruptor", "entity name")
 t("An Elven corruptor, drawn to these blighted lands.", "An Elven corruptor, drawn to these blighted lands.", "_t")
 --]==]
 
@@ -41850,10 +41756,10 @@ t("open gate", "open gate", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/npcs.lua"
 
+t("Grand Corruptor", "Grand Corrupteur", "entity name")
 t("halfling", "halfelin", "entity subtype")
 -- texte non traduit
 --[==[
-t("Grand Corruptor", "Grand Corruptor", "entity name")
 t("An Elven corruptor, drawn to these blighted lands.", "An Elven corruptor, drawn to these blighted lands.", "_t")
 t("Protector Myssil", "Protector Myssil", "entity name")
 t("A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "_t")
@@ -41875,7 +41781,7 @@ t("History of the horrors of magic.", "History of the horrors of magic.", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/traps.lua"
 
-
+t("Grim-looking fighter", "Combattant à l'air sombre", "_t")
 -- texte non traduit
 --[==[
 t("Horman's Plates", "Horman's Plates", "entity name")
@@ -41888,7 +41794,6 @@ t("A Million Cuts", "A Million Cuts", "entity name")
 t("Purification Tools", "Purification Tools", "entity name")
 t("Library", "Library", "entity name")
 t("Trainer", "Trainer", "entity name")
-t("Grim-looking fighter", "Grim-looking fighter", "_t")
 t("Nature's Emporium", "Nature's Emporium", "entity name")
 --]==]
 
@@ -42469,6 +42374,7 @@ t("grass", "herbe", "entity subtype")
 t("wall", "mur", "entity type")
 t("forest", "forêt", "entity name")
 t("lava", "lave", "entity subtype")
+t("Charred Scar", "Plaie Craquelée", "entity name")
 t("ice", "glace", "entity subtype")
 t("water", "eau", "entity subtype")
 t("deep water", "eau profonde", "entity name")
@@ -42481,7 +42387,6 @@ t("cultivated fields", "cultivated fields", "entity name")
 t("low hills", "low hills", "entity name")
 t("pine forest", "pine forest", "entity name")
 t("Old forest", "Old forest", "entity name")
-t("Charred Scar", "Charred Scar", "entity name")
 t("burnt forest", "burnt forest", "entity name")
 t("polar cap", "polar cap", "entity name")
 t("frozen sea", "frozen sea", "entity name")
