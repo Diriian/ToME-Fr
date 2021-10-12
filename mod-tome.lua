@@ -31185,9 +31185,6 @@ t("usable during Aether Avatar", "usable during Aether Avatar", "_t")
 ------------------------------------------------
 section "mod-tome/data/texts/intro-archmage.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are an archmage in a world that still fears magic. The people of Angolwen have been trying to mend the world for well over two thousand years now, but they do so in secret.
 
@@ -31196,24 +31193,19 @@ You want to see the world, maybe even help in what ways you can.
 
 But for now Angolwen still needs you. The Abashed Expanse, a part of Eyal that was torn apart and thrown into the void during the Spellblaze, is quickly becoming unstable.
 You have been tasked to investigate and fix the problem.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are an archmage in a world that still fears magic. The people of Angolwen have been trying to mend the world for well over two thousand years now, but they do so in secret.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes un archimage dans un monde qui craint toujours la magie. Le peuple d'Angolwen essaie de réparer le monde depuis plus de deux mille ans maintenant, mais il le fait en secret.
 
-You have lived and trained most of your life in Angolwen, calling many people there your friends, but you have grown restless as of late.
-You want to see the world, maybe even help in what ways you can.
+Vous avez vécu et vous êtes entraîné toute votre vie à Angolwen, et vous considérez beaucoup de gens comme vos amis, mais vous êtes devenu nerveux ces derniers temps.
+Vous voulez voir le monde, peut-être même aider de quelque façon que ce soit.
 
-But for now Angolwen still needs you. The Abashed Expanse, a part of Eyal that was torn apart and thrown into the void during the Spellblaze, is quickly becoming unstable.
-You have been tasked to investigate and fix the problem.
+Mais pour l'instant, Angolwen a toujours besoin de vous. L'Etendue Ebranlée, une partie d'Eyal qui a été déchirée et jetée dans le vide pendant la Brûlure Magique, devient rapidement instable.
+Vous avez été chargé d'enquêter et de résoudre le problème.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-arena.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 As you walk forward, you hear the increasingly loud cheers coming from outside.
 As you step into the arena, the scorching sun blinds your eyes temporarily.
@@ -31222,24 +31214,19 @@ the newcomer. He smirks, and starts looking at the other fighters with interest.
 Whoever defeats the Master of Arena will achieve utmost glory. 
 Determined to win, you draw your weapons and advance defiantly. 
 The public roars in anticipation....
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-As you walk forward, you hear the increasingly loud cheers coming from outside.
-As you step into the arena, the scorching sun blinds your eyes temporarily.
-You look up, and meet your target eye to eye: The Master of the Arena, carefully examining
-the newcomer. He smirks, and starts looking at the other fighters with interest.
-Whoever defeats the Master of Arena will achieve utmost glory. 
-Determined to win, you draw your weapons and advance defiantly. 
-The public roars in anticipation....
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+En avançant, vous entendez les acclamations de plus en plus fortes venant de l'extérieur.
+Lorsque vous entrez dans l'arène, le soleil brûlant vous aveugle temporairement.
+Vous levez les yeux, et rencontrez votre cible les yeux dans les yeux: Le Maître de l'Arène, examinant attentivement
+le nouvel arrivant. Il sourit, et commence à regarder les autres combattants avec intérêt.
+Celui qui vaincra le Maître de l'Arène obtiendra la plus grande gloire. 
+Déterminé à gagner, vous dégainez vos armes et avancez avec défi. 
+Le public rugit par anticipation....
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-chronomancer.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a chronomancer, a Keeper of Reality.
 The Keepers of Reality are a group of chronomancers who took upon the self-assigned task of preserving the timelines around Eyal.
@@ -31249,25 +31236,20 @@ Point Zero keepers must constantly stay vigilant against the monstrous horrors o
 
 You have heard about temporal disruptions in Maj'Eyal and want to investigate.
 However, Grand Keeper of Reality Zemekkys has requested to see you.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are a chronomancer, a Keeper of Reality.
-The Keepers of Reality are a group of chronomancers who took upon the self-assigned task of preserving the timelines around Eyal.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes un chronomancien, un Gardien de la Réalité.
+Les Gardiens de la Réalité sont un groupe de chronomanciens qui se sont donné pour mission de préserver les lignes temporelles autour d'Eyal.
 
-You have trained for most of your life in the 'town' of Point Zero, the stronghold of the Keepers, placed at the very center of all time threads since the Spellblaze disrupted the temporal streams and permitted chronomancy to exist.
-Point Zero keepers must constantly stay vigilant against the monstrous horrors of the unreality outside.
+Vous vous êtes entraîné la majeure partie de votre vie dans la "ville" de Point Zéro, la forteresse des Gardiens, placée au centre même de tous les fils du temps depuis que la Brûlure Magique a perturbé les flux temporels et permis à la chronomancie d'exister.
+Les gardiens de Point Zéro doivent constamment rester vigilants face aux horreurs monstrueuses de l'irréalité extérieure.
 
-You have heard about temporal disruptions in Maj'Eyal and want to investigate.
-However, Grand Keeper of Reality Zemekkys has requested to see you.
+Vous avez entendu parler de perturbations temporelles à Maj'Eyal et vous voulez enquêter.
+Cependant, le Grand Gardien de la Réalité Zemekkys a demandé à vous voir.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-cornac.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a native of the northern region of the Allied Kingdoms, a peaceful land that both Humans and Halflings call home. You hail from the small town called Derth.
 Humans are the most common race of the land, and you are one of them. In an attempt to prove your worth, you have decided to venture into the old and wild places of the world, looking for ancient treasures and glory.
@@ -31276,24 +31258,19 @@ You have come to a land called the Derthfields on the western border of the Thal
 To the west lies another dangerous place: the old ruins of Kor'Pul. You heard the caves below it were infested by vermin and undead.
 
 After days of travel, you have found the forest and entered it. What will you find there...?
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are a native of the northern region of the Allied Kingdoms, a peaceful land that both Humans and Halflings call home. You hail from the small town called Derth.
-Humans are the most common race of the land, and you are one of them. In an attempt to prove your worth, you have decided to venture into the old and wild places of the world, looking for ancient treasures and glory.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes originaire de la région nord des royaumes alliés, une terre paisible où les humains et les halfelins ont élu domicile. Vous êtes originaire de la petite ville de Derth.
+Les humains sont la race la plus répandue dans ce pays, et vous êtes l'un d'entre eux. Afin de prouver votre valeur, vous avez décidé de vous aventurer dans les lieux anciens et sauvages du monde, à la recherche de trésors anciens et de gloire.
 
-You have come to a land called the Derthfields on the western border of the Thaloren forest, in search of the Trollmire. It is an old forest infested with trolls and all kinds of wild animals.
-To the west lies another dangerous place: the old ruins of Kor'Pul. You heard the caves below it were infested by vermin and undead.
+Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thaloren, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
+À l'ouest se trouve un autre endroit dangereux, les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
 
-After days of travel, you have found the forest and entered it. What will you find there...?
+Après des jours de voyage, vous avez trouvé la forêt et y êtes entré. Qu'allez-vous y trouver...?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-dwarf.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a member of the proud, but secretive, race of the Dwarves.
 Hailing from the Dwarven Empire of the Iron Throne, you have been sent to investigate the old fortress of Reknor which has been overrun by orcs.
@@ -31303,25 +31280,20 @@ Only you and Norgan, a fellow Dwarf berserker, have survived, but the orcs will 
 
 You have sworn that once you reach the Iron Council safely you will take on a life of adventure, looking for fame and treasures of old.
 Away from all those orcs....
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are a member of the proud, but secretive, race of the Dwarves.
-Hailing from the Dwarven Empire of the Iron Throne, you have been sent to investigate the old fortress of Reknor which has been overrun by orcs.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes un membre de la race fière, mais secrète, des Nains.
+Originaire de l'Empire nain du Trône de Fer, vous avez été envoyé pour enquêter sur l'ancienne forteresse de Reknor qui a été envahie par les orcs.
 
-Upon arriving most of your team got killed and now you must crawl back to the Iron Council and report what you saw there.
-Only you and Norgan, a fellow Dwarf berserker, have survived, but the orcs will not let you go easily.
+En arrivant, la plupart des membres de votre équipe ont été tués et vous devez maintenant ramper jusqu'au Conseil de fer et rapporter ce que vous avez vu.
+Seuls Norgan et toi, un autre berserker Nain, avez survécu, mais les orcs ne vous laisseront pas partir facilement.
 
-You have sworn that once you reach the Iron Council safely you will take on a life of adventure, looking for fame and treasures of old.
-Away from all those orcs....
+Vous vous êtes juré qu'une fois le Conseil de fer en sécurité, vous partirez à l'aventure, en quête de gloire et de trésors anciens.
+Loin de tous ces orcs....
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-ghoul.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You died ages ago, but that did not stop you. You were raised as an undead ghoul.
 
@@ -31329,23 +31301,18 @@ Your Necromancer master has plans for you, but something is wrong: you seem to h
 Get rid of this evil mage and try to find a place in the world.
 
 You have been raised in a place called the Blighted Scar, on the northern border of the Shaloren lands. Escape this forsaken pit and try your luck in old forgotten places.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You died ages ago, but that did not stop you. You were raised as an undead ghoul.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes mort il y a longtemps, mais ça ne vous a pas arrêté. Vous êtes devenu une ghoule, un mort-vivant.
 
-Your Necromancer master has plans for you, but something is wrong: you seem to have kept your free will.
-Get rid of this evil mage and try to find a place in the world.
+Votre maître Nécromancien a des projets pour vous, mais quelque chose ne va pas: vous semblez avoir gardé votre libre arbitre.
+Débarrasse-toi de ce mage maléfique et essaie de trouver une place dans le monde.
 
-You have been raised in a place called the Blighted Scar, on the northern border of the Shaloren lands. Escape this forsaken pit and try your luck in old forgotten places.
+Vous êtes devenue une ghoule dans un endroit appelé la Cicatrice Flétrie, à la frontière nord des terres Shaloren. Fuyez cette fosse abandonnée et tentez votre chance dans de vieux lieux oubliés.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-halfling.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a Halfling of Derth. Most people take Halflings for peaceful crop-growers that never leave the borders of their gardens.
 Yet history has taught that Halflings are a force to be reckoned with. They still maintain a powerful army.
@@ -31357,27 +31324,22 @@ You have come to a land called the Derthfields on the western border of the Thal
 To the west lies another dangerous place: the old ruins of Kor'Pul. You heard the caves below it were infested by vermin and undead.
 
 After days of travel, you have found the forest and entered it. What will you find there...?
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are a Halfling of Derth. Most people take Halflings for peaceful crop-growers that never leave the borders of their gardens.
-Yet history has taught that Halflings are a force to be reckoned with. They still maintain a powerful army.
-You have chosen a rare path for yourself: the path of adventuring, whose loneliness does not usually fit your people.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Tu es un Halfelin de Derth. La plupart des gens prennent les Halfelins pour de paisibles cultivateurs qui ne quittent jamais les limites de leurs jardins.
+Pourtant, l'histoire a montré que les Halfelins sont une force avec laquelle il faut compter. Ils maintiennent toujours une puissante armée.
+Vous avez choisi une voie rare pour vous: la voie de l'aventure, dont la solitude ne convient généralement pas à votre peuple.
 
-Inspired by the stories of dragons, gold, and the treasures to be found in ancient ruins, you have decided to venture into the old and wild places of the world, looking for fame and glory.
+Inspiré par les histoires de dragons d'or et de trésors à trouver dans les ruines anciennes, vous avez décidé de vous aventurer dans les lieux anciens et sauvages du monde à la recherche de gloire et de célébrité.
 
-You have come to a land called the Derthfields on the western border of the Thaloren forest, in search of the Trollmire. It is an old forest infested with trolls and all kinds of wild animals.
-To the west lies another dangerous place: the old ruins of Kor'Pul. You heard the caves below it were infested by vermin and undead.
+Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thaloren, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
+À l'ouest se trouve un autre endroit dangereux: les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
 
-After days of travel, you have found the forest and entered it. What will you find there...?
+Après des jours de voyage, vous avez trouvé la forêt et y êtes entré. Qu'allez-vous y trouver...?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-higher.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are one of the Higher, the most powerful and respected lineage of men. Many of your kind serve as high counsellors in various Allied Kingdoms cities.
 Not you. You want more; you need to prove your worth and make your own place in the world. You have decided to venture into the old and wild places of the world, looking for ancient treasures and glory.
@@ -31385,45 +31347,35 @@ Not you. You want more; you need to prove your worth and make your own place in 
 You have come to a land called the Derthfields on the western border of the Thaloren forest, in search of the Trollmire. It is an old forest infested with trolls and all kinds of wild animals.
 To the west lies another dangerous place: the old ruins of Kor'Pul. You heard the caves below it were infested by vermin and undead.
 
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are one of the Higher, the most powerful and respected lineage of men. Many of your kind serve as high counsellors in various Allied Kingdoms cities.
-Not you. You want more; you need to prove your worth and make your own place in the world. You have decided to venture into the old and wild places of the world, looking for ancient treasures and glory.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous faites partie des Nobles, la lignée humaine la plus puissante et la plus respectée. Beaucoup d'entre vous servent comme hauts conseillers dans les villes des royaumes alliés.
+Pas vous. Vous voulez plus. Vous voulez prouver votre valeur et vous faire votre propre place dans le monde. Vous avez décidé de vous aventurer dans les lieux anciens et sauvages du monde, à la recherche de trésors anciens et de gloire.
 
-You have come to a land called the Derthfields on the western border of the Thaloren forest, in search of the Trollmire. It is an old forest infested with trolls and all kinds of wild animals.
-To the west lies another dangerous place: the old ruins of Kor'Pul. You heard the caves below it were infested by vermin and undead.
+Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thaloren, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
+À l'ouest se trouve un autre endroit dangereux: les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-infinite-dungeon.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You have arrived in the Infinite Dungeon.
 Your life outside did not satisfy you, so you came here looking for adventure.
 While you know this is a one way trip, you hope to go in a blaze of glory!
 
 Go forth, venture into the depths of the dungeon and see how far you can get before the end.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You have arrived in the Infinite Dungeon.
-Your life outside did not satisfy you, so you came here looking for adventure.
-While you know this is a one way trip, you hope to go in a blaze of glory!
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes arrivé dans le Donjon Infini.
+Votre vie à l'extérieur ne vous satisfaisait pas, alors vous êtes venu ici en quête d'aventure.
+Vous savez que c'est un voyage sans retour, mais vous espérez partir en pleine gloire!
 
-Go forth, venture into the depths of the dungeon and see how far you can get before the end.
+Allez-y, aventurez-vous dans les profondeurs du donjon et voyez jusqu'où vous pouvez aller avant la fin.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-ogre.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are an Ogre, hailing from Elvala.
 
@@ -31435,27 +31387,22 @@ You have come to the north of the Shaloren capital city of Elvala, in search of 
 To the west lies another dangerous place: a camp of Rhaloren. They are renegade Shaloren who do not wish to restrict their magic usage. Stopping them would be good for the world in general, but especially for your Shaloren benefactors.
 
 After days of travel, you have found the caves and entered it. What will you find there...?
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are an Ogre, hailing from Elvala.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes un Ogre, originaire d'Elvala.
 
-You face contempt and fear from a world your kind have never wronged, and the Spellhunt would have eradicated your race entirely, had the Shalore not shown sympathy and granted your ancestors refuge in Elvala.
-Nowadays, your people are beginning to shake their old image, but that's not why you've set out for adventure; you've learned of countless problems facing your world, and you intend to fix them yourself.
-Your kind were made for combat and hard work, and Maj'Eyal needs a lot of both.  
+Vous devez faire face au mépris et à la peur d'un monde où votre espèce n'a jamais fait de mal, et la Chasse Anti-Magique aurait éradiqué votre race entièrement si le Shalore n'avait pas montré de la sympathie et accordé à vos ancêtres un refuge à Elvala.
+Aujourd'hui, votre peuple commence à se défaire de sa vieille image, mais ce n'est pas pour cela que vous êtes partis à l'aventure. Vous avez appris les innombrables problèmes auxquels votre monde est confronté, et vous avez l'intention de les résoudre vous-même.
+Votre espèce est faite pour le combat et le travail, et Maj'Eyal a besoin de beaucoup des deux.  
 
-You have come to the north of the Shaloren capital city of Elvala, in search of the Scintillating Caves. It is infested with vermin and seemingly alive crystals.
-To the west lies another dangerous place: a camp of Rhaloren. They are renegade Shaloren who do not wish to restrict their magic usage. Stopping them would be good for the world in general, but especially for your Shaloren benefactors.
+Tu es venu au nord d'Elvala, la capitale des Shalorens, à la recherche des Grottes scintillantes. Elle est infestée de vermine et de cristaux apparemment vivants.
+A l'ouest se trouve un autre endroit dangereux: un camp de Rhalorens. Ce sont des Shalorens renégats qui ne veulent pas restreindre leur utilisation de la magie. Les arrêter serait bon pour le monde en général, mais surtout pour vos bienfaiteurs shalorens.
 
-After days of travel, you have found the caves and entered it. What will you find there...?
+Après des jours de voyage, vous avez trouvé les grottes et y êtes entré. Qu'allez-vous y trouver... ?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-orc.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a member of the feared race of the Orcs.
 BLAH BLAH BLAH
@@ -31463,23 +31410,18 @@ BLAH BLAH BLAH
 You have been sent to a remote island on the southwest coast of the Far East to crush an outpost of the Sunwall, the last remaining bastion of men, elves and dwarves on this continent.
 
 A little to the south lies the outpost. Your task: destroy it and bathe in the blood of its people!
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are a member of the feared race of the Orcs.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes un membre de la race redoutée des Orcs.
 BLAH BLAH BLAH
 
-You have been sent to a remote island on the southwest coast of the Far East to crush an outpost of the Sunwall, the last remaining bastion of men, elves and dwarves on this continent.
+Vous avez été envoyé sur une île isolée de la côte sud-ouest de l'Extrême-Orient pour écraser un avant-poste du Mur Solaire, le dernier bastion d'hommes, d'elfes, et de nains sur ce continent.
 
-A little to the south lies the outpost. Your task: destroy it and bathe in the blood of its people!
+Un peu plus au sud se trouve l'avant-poste. Votre tâche: le détruire et vous baigner dans le sang de ses habitants!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-shalore.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are of the Shaloren, the Elven race with the closest ties to magic, and you are despised.
 While your people are at peace with the other kingdoms, many have not forgotten it was your race that created the terrible Spellblaze, thousands of years ago.
@@ -31490,26 +31432,21 @@ You have come to the north of the Shaloren capital city of Elvala, in search of 
 To the west lies another dangerous place: a camp of Rhaloren. They are renegade Shaloren who do not wish to restrict their magic usage. Stopping them is good for both your race and your treasure hunt.
 
 After days of travel, you have found the caves and entered it. What will you find there...?
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are of the Shaloren, the Elven race with the closest ties to magic, and you are despised.
-While your people are at peace with the other kingdoms, many have not forgotten it was your race that created the terrible Spellblaze, thousands of years ago.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes un Shaloren, la race elfique la plus étroitement liée à la magie, et vous êtes méprisé.
+Bien que votre peuple soit en paix avec les autres royaumes, beaucoup n'ont pas oublié que c'est votre race qui a créé la terrible Brûlure Magique, il y a des milliers d'années.
 
-You have decided to venture into the old and wild places looking for ancient treasures and glory.
+Vous avez décidé de vous aventurer dans les lieux anciens et sauvages à la recherche de trésors anciens et de gloire.
 
-You have come to the north of the Shaloren capital city of Elvala, in search of the Scintillating Caves. It is infested with vermin and seemingly alive crystals.
-To the west lies another dangerous place: a camp of Rhaloren. They are renegade Shaloren who do not wish to restrict their magic usage. Stopping them is good for both your race and your treasure hunt.
+Tu es venu au nord d'Elvala, la capitale des Shalorens, à la recherche des Grottes scintillantes. Elle est infestée de vermine et de cristaux apparemment vivants.
+A l'ouest se trouve un autre endroit dangereux: un camp de Rhalorens. Ce sont des Shalorens renégats qui ne veulent pas restreindre leur utilisation de la magie. Les arrêter serait bon pour votre race et votre chasse au trésor.
 
-After days of travel, you have found the caves and entered it. What will you find there...?
+Après des jours de voyage, vous avez trouvé les grottes et y êtes entré. Qu'allez-vous y trouver...?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-skeleton.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You died ages ago, but that did not stop you. You were raised as an undead skeleton.
 
@@ -31517,45 +31454,35 @@ Your Necromancer master has plans for you, but something is wrong: you seem to h
 Get rid of this evil mage and try to find a place in the world.
 
 You have been raised in a place called the Blighted Scar, on the northern border of the Shaloren lands. Escape this forsaken pit and try your luck in old forgotten places.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You died ages ago, but that did not stop you. You were raised as an undead skeleton.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Tu es mort il y a longtemps, mais ça ne t'a pas arrêté. Vous êtes devenu un squelette mort-vivant.
 
-Your Necromancer master has plans for you, but something is wrong: you seem to have kept your free will.
-Get rid of this evil mage and try to find a place in the world.
+Votre maître nécromancien a des projets pour vous, mais quelque chose ne va pas: vous semblez avoir conservé votre libre arbitre.
+Débarrasse-toi de ce mage maléfique et essaie de te trouver une place dans le monde.
 
-You have been raised in a place called the Blighted Scar, on the northern border of the Shaloren lands. Escape this forsaken pit and try your luck in old forgotten places.
+Vous êtes devenue un squelette dans un endroit appelé la Cicatrice Flétrie, à la frontière nord des terres Shaloren. Fuyez cette fosse abandonnée et tentez votre chance dans de vieux lieux oubliés.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-sunwall.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a citizen of the Sunwall, and like many of your age you have been trained in combat and magic. It can be a harsh life, and though you dream at times of venturing to distant lands you know your duty is to help defend the outpost against the vicious onslaught from the Orc Prides. But now High Sun Paladin Aeryn has advised you of a new threat.
 
 Nagas have been sighted in the Slazish Fens on the other side of the Sunwall Mountains. Their objective is unclear, but an assault from both sides would be truly devastating at such a pivotal time for your people. Though there are few forces to spare on the front line against the Prides, you have volunteered to investigate the naga threat and stop them if need be.
 
 By the power of the Sun and the blessings of the Moons you step forth to find your fate.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are a citizen of the Sunwall, and like many of your age you have been trained in combat and magic. It can be a harsh life, and though you dream at times of venturing to distant lands you know your duty is to help defend the outpost against the vicious onslaught from the Orc Prides. But now High Sun Paladin Aeryn has advised you of a new threat.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes un citoyen du Mur Solaire, et comme beaucoup de gens de votre âge, vous avez été formé au combat et à la magie. La vie peut être rude, et bien que vous rêviez parfois de vous aventurer dans des contrées lointaines, vous savez que votre devoir est d'aider à défendre l'avant-poste contre les vicieux assauts des Clans Orcs. Mais aujourd'hui, la Paladine Solaire Aeryn vous informe d'une nouvelle menace.
 
-Nagas have been sighted in the Slazish Fens on the other side of the Sunwall Mountains. Their objective is unclear, but an assault from both sides would be truly devastating at such a pivotal time for your people. Though there are few forces to spare on the front line against the Prides, you have volunteered to investigate the naga threat and stop them if need be.
+Des Nagas ont été aperçus dans les marais de Slazish, de l'autre côté des montagnes du Mur Solaire. Leur objectif n'est pas clair, mais un assaut des deux côtés serait vraiment dévastateur à un moment aussi crucial pour votre peuple. Bien qu'il y ait peu de forces disponibles sur la ligne de front contre les Clans, vous vous êtes portés volontaires pour enquêter sur la menace naga et les arrêter si nécessaire.
 
-By the power of the Sun and the blessings of the Moons you step forth to find your fate.
+Par le pouvoir du Soleil et les bénédictions des Lunes, vous vous avancez pour trouver votre destin.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-thalore.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are of the Thaloren, the Elven race closest to nature. Your people have lived for thousands of years in their forest, rarely taking part in the events of the outside world.
 Yet when their home is threatened, the Thaloren Elves can prove to be fearsome combatants.
@@ -31567,36 +31494,29 @@ You have come to the western side of the Thaloren forest, to the lair of Norgos.
 To the east of Shatur, the Thaloren Capital, lies a dark part of the woods. Ever since the Spellblaze this area has been corrupted. The wildlife there has been transformed.
 
 After days of travel, you have found Norgos' Lair and entered it. What will you find there...?
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are of the Thaloren, the Elven race closest to nature. Your people have lived for thousands of years in their forest, rarely taking part in the events of the outside world.
-Yet when their home is threatened, the Thaloren Elves can prove to be fearsome combatants.
-You lived a peaceful life deep in the forest for many years, but lately you have grown restless and have decided to step into the world.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Tu es un Thaloren, la race elfique la plus proche de la nature. Votre peuple vit depuis des milliers d'années dans sa forêt, prenant rarement part aux événements du monde extérieur.
+Pourtant, lorsque leur foyer est menacé, les Elfes Thaloren peuvent se révéler de redoutables combattants.
+Vous avez vécu une vie paisible au fond de la forêt pendant de nombreuses années, mais dernièrement, vous êtes devenu agité et vous avez décidé d'entrer dans le monde.
 
-You have decided to venture into the old and wild places looking for ancient treasures and glory.
+Vous avez décidé de vous aventurer dans des lieux anciens et sauvages à la recherche de trésors anciens et de gloire.
 
-You have come to the western side of the Thaloren forest, to the lair of Norgos. Norgos was a steadfast ally of the Thaloren, protecting the western border. But lately he has grown corrupt, even attacking the Thaloren.
-To the east of Shatur, the Thaloren Capital, lies a dark part of the woods. Ever since the Spellblaze this area has been corrupted. The wildlife there has been transformed.
+Tu es arrivé à l'ouest de la forêt de Thaloren, dans le repaire de Norgos. Norgos était un allié fidèle des Thaloren, protégeant la frontière occidentale. Mais dernièrement, il est devenu corrompu et a même attaqué les Thaloren.
+A l'est de Shatur, la capitale des Thaloren, se trouve une partie sombre des bois. Depuis la Brûlure Magique, cette zone a été corrompue. La faune et la flore y ont été transformées.
 
-After days of travel, you have found Norgos' Lair and entered it. What will you find there...?
+Après des jours de voyage, vous avez trouvé la tanière de Norgos et y êtes entré. Qu'allez-vous y trouver...?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-tutorial-combat-stats.lua"
 
-
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#Welcome to ToME 4#LAST#
 
 The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you ahead!
-]], [[#LIGHT_GREEN#Welcome to ToME 4#LAST#
+]], [[#LIGHT_GREEN#Bienvenue sur ToME 4#LAST#
 
-The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you ahead!
+Le #GOLD#Donjon de l'Eveil des Aventuriers#WHITE# vous attend!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-tutorial.lua"
@@ -31630,31 +31550,23 @@ Maintenant appuyez sur #LIGHT_BLUE#Esc#LAST# ou #LIGHT_BLUE#cliquez en dehors#LA
 ------------------------------------------------
 section "mod-tome/data/texts/intro-yeek.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a Yeek Wayist of Irkkk.
 All Yeeks follow the Way, which is both a global psionic link that unifies the whole Yeek race, and a way of life.
 Your whole life is dedicated to serving the Yeek race. You feel compelled by the Way to protect your race at all costs - even your own life.
 
 You have been tasked to vanquish Murgol, an abomination from the deeps, and to clear the ritch tunnels before their blight spreads to the whole island.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are a Yeek Wayist of Irkkk.
-All Yeeks follow the Way, which is both a global psionic link that unifies the whole Yeek race, and a way of life.
-Your whole life is dedicated to serving the Yeek race. You feel compelled by the Way to protect your race at all costs - even your own life.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes un Yeek adepte de la Voie d'Irkkk.
+Tous les Yeeks suivent la Voie, qui est à la fois un lien psionique global qui unifie toute la race Yeek, et un mode de vie.
+Votre vie entière est dédiée au service de la race Yeek. Vous vous sentez obligé par la Voie de protéger votre race à tout prix - même votre propre vie.
 
-You have been tasked to vanquish Murgol, an abomination from the deeps, and to clear the ritch tunnels before their blight spreads to the whole island.
+Vous avez été chargé de vaincre Murgol, une abomination venue des profondeurs, et de nettoyer les tunnels ritchs avant que leur fléau ne s'étende à toute l'île.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/message-last-hope.lua"
 
-
--- texte non traduit
---[==[
 t([[@playername@, this message is of utmost importance.
 
 The staff you left at Last Hope is gone. A raid of orcs ambushed the guards that were transporting it to a secret vault.
@@ -31664,16 +31576,16 @@ He spoke about Golbug -- this seems to be a warmaster in Reknor -- leading a rai
 
 This calls for urgency; should you find this Golbug or the portal, please investigate.
 
-               #GOLD#-- Tolak, King of the Allied Kingdoms]], [[@playername@, this message is of utmost importance.
+               #GOLD#-- Tolak, King of the Allied Kingdoms]], [[@playername@, ce message est de la plus haute importance.
 
-The staff you left at Last Hope is gone. A raid of orcs ambushed the guards that were transporting it to a secret vault.
-Our troops managed to capture one of the orcs and made him talk.
-He did not know much, but he did speak about "masters" in the Far East.
-He spoke about Golbug -- this seems to be a warmaster in Reknor -- leading a raid to send a "package" through a portal.
+Le bâton que vous avez laissé à Dernier Espoir a disparu. Un raid d'orcs a tendu une embuscade aux gardes qui le transportaient dans une chambre forte secrète.
+Nos troupes ont réussi à capturer l'un des orcs et à le faire parler.
+Il ne savait pas grand chose, mais il a parlé de "maîtres" en Extrême-Orient.
+Il a parlé de Golbug - qui semble être un maître de guerre de Reknor - menant un raid pour envoyer un "paquet" à travers un portail.
 
-This calls for urgency; should you find this Golbug or the portal, please investigate.
+Il y a urgence. Si vous trouvez ce Golbug ou le portail, veuillez enquêter.
 
-               #GOLD#-- Tolak, King of the Allied Kingdoms]], "_t")
+               #GOLD#-- Tolak, Roi des Royaumes Alliés]], "_t")
 t([[@playername@, this message is of utmost importance.
 
 Our elders searched the old texts looking for clues about the staff of which you spoke.
@@ -31685,32 +31597,25 @@ He spoke about meeting with Golbug -- this seems to be a warmaster in Reknor -- 
 
 This calls for urgency; should you find this Golbug or the portal, please investigate.
 
-               #GOLD#-- Tolak, King of the Allied Kingdoms]], [[@playername@, this message is of utmost importance.
+               #GOLD#-- Tolak, King of the Allied Kingdoms]], [[@playername@, ce message est de la plus haute importance.
 
-Our elders searched the old texts looking for clues about the staff of which you spoke.
-It turns out to be a powerful object indeed, able to absorb the power of places, and beings.
-This must not fall in the wrong hands, which certainly include orcish hands.
-While you were gone, one of our patrols met a group of orcs led by Ukruk. We could not stop them, but we managed to capture one of them.
-He did not know much, but he did speak about "masters" in the Far East.
-He spoke about meeting with Golbug -- this seems to be a warmaster in Reknor -- to send a "package" through a portal.
+Nos anciens ont fouillé les vieux textes à la recherche d'indices sur le bâton dont vous avez parlé.
+Il s'avère que c'est un objet puissant, capable d'absorber le pouvoir des lieux et des êtres.
+Il ne doit pas tomber dans de mauvaises mains, ce qui inclut certainement des mains orcs.
+Pendant votre absence, une de nos patrouilles a rencontré un groupe d'orcs mené par Ukruk. Nous n'avons pas pu les arrêter, mais nous avons réussi à capturer l'un d'entre eux.
+Il ne savait pas grand chose, mais il a parlé de "maîtres" en Extrême-Orient.
+Il a parlé d'une rencontre avec Golbug - qui semble être un maître de guerre de Reknor - pour envoyer un "paquet" à travers un portail.
 
-This calls for urgency; should you find this Golbug or the portal, please investigate.
+Il y a urgence ; si vous trouvez ce Golbug ou le portail, veuillez enquêter.
 
-               #GOLD#-- Tolak, King of the Allied Kingdoms]], "_t")
---]==]
-
+               #GOLD#-- Tolak, Roi des Royaumes Alliés]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/combat-stats-intro.lua"
 
-
--- texte non traduit
---[==[
 t([[Onward! The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you!
-]], [[Onward! The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you!
+]], [[En avant! The #GOLD#Donjon de l'Eveil des Aventuriers#WHITE# vous attend!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/done.lua"
