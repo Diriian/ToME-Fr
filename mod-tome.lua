@@ -25679,6 +25679,7 @@ section "mod-tome/data/talents/misc/tutorial.lua"
 t("tutorial", "tutoriel", "talent category")
 t("tutorial", "tutoriel", "talent type")
 t("%s resists the shove!", "%s résiste à la poussé!", "logSeen")
+t("Mana Gale", "Coup de vent de Mana", "talent name")
 t("Fear", "Peur", "talent name")
 t("Bleed", "Saignement", "talent name")
 -- texte non traduit
@@ -25686,7 +25687,6 @@ t("Bleed", "Saignement", "talent name")
 t("Tutorial-specific talents.", "Tutorial-specific talents.", "_t")
 t("Shove", "Shove", "talent name")
 t("Give the target a good old-fashioned shove, knocking it back a square.", "Give the target a good old-fashioned shove, knocking it back a square.", "tformat")
-t("Mana Gale", "Mana Gale", "talent name")
 t("%s is knocked back by the gale!", "%s is knocked back by the gale!", "logSeen")
 t("%s remains firmly planted in the face of the gale!", "%s remains firmly planted in the face of the gale!", "logSeen")
 t("Conjure up a powerful magical wind, pushing the target back a distance of %d.", "Conjure up a powerful magical wind, pushing the target back a distance of %d.", "tformat")
@@ -29410,7 +29410,7 @@ t([[You release a surge of adrenaline that increases your Physical Power by %d f
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/dualweapon.lua"
 
-
+t("Dual Strike", "Frappe Double", "talent name")
 -- texte non traduit
 --[==[
 t("Dual Weapon Training", "Dual Weapon Training", "talent name")
@@ -29442,7 +29442,6 @@ t([[With a quick shift of your momentum, you execute a surprise unarmed strike i
 		The chance to confuse increases with your Accuracy.]], [[With a quick shift of your momentum, you execute a surprise unarmed strike in place of your normal offhand attack.
 		This allows you to attack with your mainhand weapon for %d%% damage and unarmed for %d%% damage.  If the unarmed attack hits, the target is confused (%d%% power) for %d turns.
 		The chance to confuse increases with your Accuracy.]], "tformat")
-t("Dual Strike", "Dual Strike", "talent name")
 t("You cannot use Dual Strike without dual wielding!", "You cannot use Dual Strike without dual wielding!", "logPlayer")
 t("%s resists the stunning strike!", "%s resists the stunning strike!", "logSeen")
 t([[Attack with your offhand weapon for %d%% damage. If the attack hits, the target is stunned for %d turns, and you hit it with your mainhand weapon doing %d%% damage.
@@ -31835,21 +31834,13 @@ Il y a des trolls à l'ouest. Allez utiliser votre arc et vos flèches pour les 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/mechintro.lua"
 
-
--- texte non traduit
---[==[
 t([[ToME 4 is a large, complex game. Despite this, the most important mechanics-- the ones that directly influence the decisions you need to make as a player-- are governed by relatively simple rules. This mechanics guide will provide a brief introduction to these rules.
-]], [[ToME 4 is a large, complex game. Despite this, the most important mechanics-- the ones that directly influence the decisions you need to make as a player-- are governed by relatively simple rules. This mechanics guide will provide a brief introduction to these rules.
+]], [[ToME 4 est un jeu vaste et complexe. Malgré cela, les mécanismes les plus importants - ceux qui influencent directement les décisions que vous devez prendre en tant que joueur - sont régis par des règles relativement simples. Ce guide des mécanismes vous fournira une brève introduction à ces règles.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/stats1.lua"
 
-
--- texte non traduit
---[==[
 t([[Basic character attributes such as strength and willpower are important, but their importance lies in how they affect your #GOLD#combat stats#WHITE#, the subject of this entire tutorial.
 The first two of these #GOLD#combat stats#WHITE# are:
 
@@ -31858,68 +31849,53 @@ The first two of these #GOLD#combat stats#WHITE# are:
 
 When you try to stab somebody, your #LIGHT_GREEN#Accuracy#WHITE# score is measured against your target's #LIGHT_GREEN#Defense#WHITE# score, and a percentage chance of success is determined. We'll look at the exact calculation later.
 
-]], [[Basic character attributes such as strength and willpower are important, but their importance lies in how they affect your #GOLD#combat stats#WHITE#, the subject of this entire tutorial.
-The first two of these #GOLD#combat stats#WHITE# are:
+]], [[Les attributs de base d'un personnage tels que la force et la volonté sont importants, mais leur importance réside dans la façon dont ils affectent vos #GOLD#statistiques de combat#WHITE#, le sujet de ce tutoriel.
+Les deux premières de ces #GOLD#statistiques de combat#WHITE# sont :
 
-#LIGHT_GREEN#Accuracy: #WHITE#Determines whether your physical attacks hit your target.  
-#LIGHT_GREEN#Defense: #WHITE#Your ability to avoid attacks.
+#LIGHT_GREEN#La Précision: #WHITE#Détermine si vos attaques physiques touchent votre cible.  
+#LIGHT_GREEN#La Défense: #WHITE#Votre capacité à éviter les attaques.
 
-When you try to stab somebody, your #LIGHT_GREEN#Accuracy#WHITE# score is measured against your target's #LIGHT_GREEN#Defense#WHITE# score, and a percentage chance of success is determined. We'll look at the exact calculation later.
+Lorsque vous essayez de poignarder quelqu'un, votre score de #LIGHT_GREEN#Précision#WHITE# est mesuré par rapport au score de #LIGHT_GREEN#Défense#WHITE# de votre cible, et un pourcentage de chance de réussite est déterminé. Nous verrons le calcul exact plus tard.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/stats2.lua"
 
-
--- texte non traduit
---[==[
 t([[The next three important #GOLD#combat stats#WHITE#:
 
 #LIGHT_GREEN#Physical save: #WHITE#Your ability to shrug off physical effects.
 #LIGHT_GREEN#Spell save: #WHITE#Your ability to shrug off magical effects.
 #LIGHT_GREEN#Mental save: #WHITE#Your ability to shrug off mental effects.
 
-]], [[The next three important #GOLD#combat stats#WHITE#:
+]], [[Les trois prochaines #GOLD#statistiques de combat#WHITE# importantes:
 
-#LIGHT_GREEN#Physical save: #WHITE#Your ability to shrug off physical effects.
-#LIGHT_GREEN#Spell save: #WHITE#Your ability to shrug off magical effects.
-#LIGHT_GREEN#Mental save: #WHITE#Your ability to shrug off mental effects.
+#LIGHT_GREEN#Sauvegarde physique: #WHITE#Votre capacité à résister aux effets physiques.
+#LIGHT_GREEN#Sauvegarde des sorts: #WHITE#Votre capacité à résister aux effets magiques.
+#LIGHT_GREEN#Sauvegarde mentale: #WHITE#Votre capacité à résister aux effets mentaux.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/stats3.lua"
 
-
--- texte non traduit
---[==[
 t([[The final three important #GOLD#combat stats#WHITE# of your character are these:
 
 #LIGHT_GREEN#Physical power: #WHITE#Your ability to inflict damage and effects with weapons (including fists).
 #LIGHT_GREEN#Spellpower: #WHITE#Your ability to inflict damage and effects with spells.
 #LIGHT_GREEN#Mindpower: #WHITE#Your ability to inflict damage and effects with your mind.
 
-]], [[The final three important #GOLD#combat stats#WHITE# of your character are these:
+]], [[Les trois dernières #GOLD#statistiques de combat#WHITE# importantes de votre personnage sont les suivantes:
 
-#LIGHT_GREEN#Physical power: #WHITE#Your ability to inflict damage and effects with weapons (including fists).
-#LIGHT_GREEN#Spellpower: #WHITE#Your ability to inflict damage and effects with spells.
-#LIGHT_GREEN#Mindpower: #WHITE#Your ability to inflict damage and effects with your mind.
+#LIGHT_GREEN#Puissance physique: #WHITE#Votre capacité à infliger des dégâts et des effets avec des armes (y compris les poings).
+#LIGHT_GREEN#Puissance des sorts: #WHITE#Votre capacité à infliger des dégâts et des effets avec des sorts.
+#LIGHT_GREEN#Puissance mentale: #WHITE#Votre capacité à infliger des dégâts et des effets avec votre esprit.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/stats4.lua"
 
-
--- texte non traduit
---[==[
 t([[To summarize the information thus far:
 
 Every being in ToME has eight important #GOLD#combat stats#WHITE# that determine combat success.
@@ -31935,51 +31911,41 @@ Four of them are offensive...
 #LIGHT_GREEN#Spell save#WHITE#
 #LIGHT_GREEN#Mental save#WHITE#
 
-]], [[To summarize the information thus far:
+]], [[Pour résumer les informations jusqu'à présent :
 
-Every being in ToME has eight important #GOLD#combat stats#WHITE# that determine combat success.
-Four of them are offensive...
-#LIGHT_GREEN#Accuracy#WHITE#
-#LIGHT_GREEN#Physical power#WHITE#
-#LIGHT_GREEN#Spellpower#WHITE#
-#LIGHT_GREEN#Mindpower#WHITE#
+Chaque être dans ToME a huit importantes #GOLD#statistiques de combat#WHITE# qui déterminent le succès du combat.
+Quatre d'entre elles sont offensives...
+#LIGHT_GREEN#Précision#WHITE#
+#LIGHT_GREEN#Puissance physique#WHITE#
+#LIGHT_GREEN#Puissance des sorts#WHITE#
+#LIGHT_GREEN#Puissance mentale#WHITE#
 
-...and four of them are defensive.
-#LIGHT_GREEN#Defense#WHITE#
-#LIGHT_GREEN#Physical save#WHITE#
-#LIGHT_GREEN#Spell save#WHITE#
-#LIGHT_GREEN#Mental save#WHITE#
+...et les quatre autres sont défensives.
+#LIGHT_GREEN#Défense#WHITE#
+#LIGHT_GREEN#Sauvegarde physique#WHITE#
+#LIGHT_GREEN#Sauvegarde des sorts#WHITE#
+#LIGHT_GREEN#Sauvegarde mentale#WHITE#
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/stats5.lua"
 
-
--- texte non traduit
---[==[
 t([[Many times when you perform an attack, or suffer one, the success of the attack is determined by comparing #GOLD#combat stat#WHITE# scores of the attacker and defender. We saw already that physical attacks, such as melee blows or an archer's loosed arrow, involve comparing the attacker's #LIGHT_GREEN#Accuracy#WHITE# and the defender's #LIGHT_GREEN#Defense#WHITE#.
 
 What about the other #GOLD#combat stats#WHITE#?
 
 They're a little harder to pin down. #LIGHT_GREEN#Physical save#WHITE#,  #LIGHT_GREEN#Spell save#WHITE#,  and #LIGHT_GREEN#Mental save#WHITE# are generally used by a defender when there's some sort of unpleasant effect at stake-- say, getting pinned to the ground or blinded or knocked flying. The #GOLD#combat stat#WHITE# used by the attacker in such cases depends on the source of the attack. Let's consider a few examples...
-]], [[Many times when you perform an attack, or suffer one, the success of the attack is determined by comparing #GOLD#combat stat#WHITE# scores of the attacker and defender. We saw already that physical attacks, such as melee blows or an archer's loosed arrow, involve comparing the attacker's #LIGHT_GREEN#Accuracy#WHITE# and the defender's #LIGHT_GREEN#Defense#WHITE#.
+]], [[Souvent, lorsque vous effectuez une attaque, ou que vous en subissez une, le succès de l'attaque est déterminé en comparant les scores de #GOLD#statistiques de combat#WHITE# de l'attaquant et du défenseur. Nous avons déjà vu que les attaques physiques, comme les coups de mêlée ou la flèche décochée d'un archer, impliquent de comparer la #LIGHT_GREEN#précision#WHITE# de l'attaquant et la #LIGHT_GREEN#défense#WHITE# du défenseur.
 
-What about the other #GOLD#combat stats#WHITE#?
+Qu'en est-il des autres #GOLD#statistiques de combat#WHITE#?
 
-They're a little harder to pin down. #LIGHT_GREEN#Physical save#WHITE#,  #LIGHT_GREEN#Spell save#WHITE#,  and #LIGHT_GREEN#Mental save#WHITE# are generally used by a defender when there's some sort of unpleasant effect at stake-- say, getting pinned to the ground or blinded or knocked flying. The #GOLD#combat stat#WHITE# used by the attacker in such cases depends on the source of the attack. Let's consider a few examples...
+Elles sont un peu plus difficiles à cerner. La #LIGHT_GREEN#Sauvegarde physique#WHITE#, la #LIGHT_GREEN#Sauvegarde des sorts#WHITE# et la #LIGHT_GREEN#Sauvegarde mentale#WHITE# sont généralement utilisées par le défenseur lorsqu'il y a un effet désagréable en jeu - par exemple, être immobilisé, aveuglé ou repoussé. La #GOLD#statistique de combat#WHITE# utilisée par l'attaquant dans de tels cas dépend de la source de l'attaque. Prenons quelques exemples...
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/stats6.lua"
 
-
--- texte non traduit
---[==[
 t([[Suppose you're a berserker, and you attempt to stun an enemy. If you're to succeed, two things must happen:
 
 First, your attack needs to hit! That means comparing your #LIGHT_GREEN#Accuracy#WHITE# to the target's #LIGHT_GREEN#Defense#WHITE#.
@@ -31988,64 +31954,49 @@ Second, the stun must take effect. The source of the stun is you, a rampaging be
 A stun is a physical effect, so we use the target's #LIGHT_GREEN#Physical save#WHITE#. Thus we'll be comparing your #LIGHT_GREEN#Physical power#WHITE# to the target's #LIGHT_GREEN#Physical save#WHITE#.
 
 It seems quite natural to always compare #LIGHT_GREEN#Physical power#WHITE# with #LIGHT_GREEN#Physical save#WHITE#, but let's consider another example. 
-]], [[Suppose you're a berserker, and you attempt to stun an enemy. If you're to succeed, two things must happen:
+]], [[Supposons que vous êtes un berserker, et que vous tentez d'assomer un ennemi. Pour que vous réussissiez, deux choses doivent se produire:
 
-First, your attack needs to hit! That means comparing your #LIGHT_GREEN#Accuracy#WHITE# to the target's #LIGHT_GREEN#Defense#WHITE#.
+Tout d'abord, votre attaque doit faire mouche ! Cela signifie que vous devez comparer votre #LIGHT_GREEN#Précision#WHITE# à la #LIGHT_GREEN#Défense#WHITE# de la cible.
 
-Second, the stun must take effect. The source of the stun is you, a rampaging berserker, so we use your #LIGHT_GREEN#Physical power#WHITE#.
-A stun is a physical effect, so we use the target's #LIGHT_GREEN#Physical save#WHITE#. Thus we'll be comparing your #LIGHT_GREEN#Physical power#WHITE# to the target's #LIGHT_GREEN#Physical save#WHITE#.
+Ensuite, l'assommement doit prendre effet. La source de l'assommement est vous, un berserker déchaîné, donc nous utilisons votre #LIGHT_GREEN#puissance physique#WHITE#.
+Un assommement est un effet physique, nous utilisons donc la #LIGHT_GREEN#sauvegarde physique#WHITE# de la cible. Ainsi, nous comparerons votre #LIGHT_GREEN#puissance physique#WHITE# à la #LIGHT_GREEN#sauvegarde physique#WHITE# de la cible.
 
-It seems quite natural to always compare #LIGHT_GREEN#Physical power#WHITE# with #LIGHT_GREEN#Physical save#WHITE#, but let's consider another example. 
+Il semble tout à fait naturel de toujours comparer la #LIGHT_GREEN#puissance physique#WHITE# avec la #LIGHT_GREEN#sauvegarde physique#WHITE#, mais prenons un autre exemple. 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/stats7.1.lua"
 
-
--- texte non traduit
---[==[
 t([[Finally, suppose you're a rogue, and you use Dual Strike to attempt to knock somebody senseless. 
 
 As with the berserker example, first you must hit, so you compare your #LIGHT_GREEN#Accuracy#WHITE# to the target's #LIGHT_GREEN#Defense#WHITE#.
 
 We can guess now that the target will use their #LIGHT_GREEN#Physical save#WHITE# to attempt to shrug off the stun. But what will you use? You're not getting the job done with raw muscle, like a berserker. You're doing this with finesse, so we'll use your #LIGHT_GREEN#Accuracy#WHITE#.
-]], [[Finally, suppose you're a rogue, and you use Dual Strike to attempt to knock somebody senseless. 
+]], [[Enfin, supposons que vous soyez un voleur et que vous utilisiez Frappe double pour tenter d'assommer quelqu'un. 
 
-As with the berserker example, first you must hit, so you compare your #LIGHT_GREEN#Accuracy#WHITE# to the target's #LIGHT_GREEN#Defense#WHITE#.
+Comme dans l'exemple du berserker, vous devez d'abord toucher, donc vous comparez votre #LIGHT_GREEN#Précision#WHITE# à la #LIGHT_GREEN#Défense#WHITE# de la cible.
 
-We can guess now that the target will use their #LIGHT_GREEN#Physical save#WHITE# to attempt to shrug off the stun. But what will you use? You're not getting the job done with raw muscle, like a berserker. You're doing this with finesse, so we'll use your #LIGHT_GREEN#Accuracy#WHITE#.
+Nous pouvons maintenant deviner que la cible utilisera sa #LIGHT_GREEN#Sauvegarde physique#WHITE# pour tenter d'éviter l'assommement. Mais qu'allez-vous utiliser? Vous n'allez pas faire le travail avec vos gros muscles, comme un berserker. Vous le faites avec finesse, donc nous allons utiliser votre #LIGHT_GREEN#Précision#WHITE#.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/stats7.lua"
 
-
--- texte non traduit
---[==[
 t([[Suppose you're an archmage, and you blast somebody with the Flameshock spell. 
 
 This spell does fire damage, which is determined by your #LIGHT_GREEN#Spellpower#WHITE#. #GOLD#Combat stats#WHITE# are not used to mitigate damage, so the defender is going to take the full force of the spell, barring fire resistance (which is a subject for another tutorial).
 
 The spell will also attempt to stun the target. Stunning, you recall, is a physical effect, so the target defends with their #LIGHT_GREEN#Physical save#WHITE#. However, unlike the previous example, the source of this stun is a spell. You will thus compare your #LIGHT_GREEN#Spellpower#WHITE# to the target's #LIGHT_GREEN#Physical save#WHITE# to determine the success of the stun.
-]], [[Suppose you're an archmage, and you blast somebody with the Flameshock spell. 
+]], [[Supposons que vous êtes un archimage et que vous attaquiez quelqu'un avec le sort Choc de flammes. 
 
-This spell does fire damage, which is determined by your #LIGHT_GREEN#Spellpower#WHITE#. #GOLD#Combat stats#WHITE# are not used to mitigate damage, so the defender is going to take the full force of the spell, barring fire resistance (which is a subject for another tutorial).
+Ce sort inflige des dégâts de feu, qui sont déterminés par votre #LIGHT_GREEN#Puissance des sort#WHITE#. Les statistiques de combat ne sont pas utilisées pour atténuer les dégâts, donc le défenseur va subir toute la force du sort, sauf résistance au feu (qui est un sujet pour un autre tutoriel).
 
-The spell will also attempt to stun the target. Stunning, you recall, is a physical effect, so the target defends with their #LIGHT_GREEN#Physical save#WHITE#. However, unlike the previous example, the source of this stun is a spell. You will thus compare your #LIGHT_GREEN#Spellpower#WHITE# to the target's #LIGHT_GREEN#Physical save#WHITE# to determine the success of the stun.
+Le sort va également tenter d'assomer la cible. L'assommement, vous vous en souvenez, est un effet physique, donc la cible se défend avec sa #LIGHT_GREEN#Sauvegarde physique#WHITE#. Cependant, contrairement à l'exemple précédent, la source de cet assommement est un sort. Vous comparerez donc votre #LIGHT_GREEN#Puissance de sort#WHITE# à la #LIGHT_GREEN#Sauvegarde physique#WHITE# de la cible pour déterminer le succès de l'assommement.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/stats8.lua"
 
-
--- texte non traduit
---[==[
 t([[It looks like there are quite a few ways to match up the offensive #GOLD#combat stats#WHITE#...
 #LIGHT_GREEN#Accuracy#WHITE#
 #LIGHT_GREEN#Physical power#WHITE#
@@ -32063,85 +32014,65 @@ But don't worry. It's usually easy to know what will get used for two reasons:
 #GOLD#1)#WHITE#  Defensive #GOLD#combat stats#WHITE# are used quite consistently; physical effects use #LIGHT_GREEN#Physical save#WHITE#, no matter their source. Magical effects use #LIGHT_GREEN#Spell save#WHITE#, no matter their source. Mental effects use #LIGHT_GREEN#Mental save#WHITE#, no matter their source.
 
 #GOLD#2)#WHITE#  For the most part, any given class uses a single offensive #GOLD#combat stat#WHITE#, so there's not much potential for confusion. A berserker will only be using #LIGHT_GREEN#Physical power#WHITE# to apply effects. Similarly, an archmage will only use #LIGHT_GREEN#Spellpower#WHITE#. 
-]], [[It looks like there are quite a few ways to match up the offensive #GOLD#combat stats#WHITE#...
-#LIGHT_GREEN#Accuracy#WHITE#
-#LIGHT_GREEN#Physical power#WHITE#
-#LIGHT_GREEN#Spellpower#WHITE#
-#LIGHT_GREEN#Mindpower#WHITE#
+]], [[Il semble qu'il y ait plusieurs façons de faire correspondre les #GOLD#statistiques de combat#WHITE# offensives...
+#LIGHT_GREEN#Précision#WHITE#
+#LIGHT_GREEN#Puissance physique#WHITE#
+#LIGHT_GREEN#Puissance des sorts#WHITE#
+#LIGHT_GREEN#Puissance mentale#WHITE#
 
-...with the defensive #GOLD#combat stats#WHITE#.
-#LIGHT_GREEN#Defense#WHITE#
-#LIGHT_GREEN#Physical save#WHITE#
-#LIGHT_GREEN#Spell save#WHITE#
-#LIGHT_GREEN#Mental save#WHITE#
+...avec les #GOLD#statistiques de combat#WHITE# défensives.
+#LIGHT_GREEN#Défense#WHITE#
+#LIGHT_GREEN#Sauvegarde physique#WHITE#
+#LIGHT_GREEN#Sauvegarde des sorts#WHITE#
+#LIGHT_GREEN#Sauvegarde mentale#WHITE#
 
-But don't worry. It's usually easy to know what will get used for two reasons:
+Mais ne vous inquiétez pas. Il est généralement facile de savoir ce qui sera utilisé pour deux raisons:
 
-#GOLD#1)#WHITE#  Defensive #GOLD#combat stats#WHITE# are used quite consistently; physical effects use #LIGHT_GREEN#Physical save#WHITE#, no matter their source. Magical effects use #LIGHT_GREEN#Spell save#WHITE#, no matter their source. Mental effects use #LIGHT_GREEN#Mental save#WHITE#, no matter their source.
+#GOLD#1)#WHITE# Les #GOLD#statistiques#WHITE# de combat défensives sont utilisées de manière assez cohérente; les effets physiques utilisent la #LIGHT_GREEN#Sauvegarde physique#WHITE#, quelle que soit leur source. Les effets magiques utilisent la #LIGHT_GREEN#Sauvegarde des sorts#WHITE#, quelle que soit leur source. Les effets mentaux utilisent la #LIGHT_GREEN#Sauvegarde mentale#WHITE#, quelle que soit leur source.
 
-#GOLD#2)#WHITE#  For the most part, any given class uses a single offensive #GOLD#combat stat#WHITE#, so there's not much potential for confusion. A berserker will only be using #LIGHT_GREEN#Physical power#WHITE# to apply effects. Similarly, an archmage will only use #LIGHT_GREEN#Spellpower#WHITE#. 
+#GOLD#2)#WHITE# La plupart du temps, une classe donnée utilise une seule #GOLD#statistique de combat#WHITE# offensif, il n'y a donc pas beaucoup de risque de confusion. Un berserker n'utilisera que la #LIGHT_GREEN#Puissance physique#WHITE# pour appliquer des effets. De même, un archimage n'utilisera que la #LIGHT_GREEN#Puissance des sorts#WHITE#. 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats/stats9.lua"
 
-
--- texte non traduit
---[==[
 t([[Now you know the basics: what these eight #GOLD#combat stats#WHITE# mean and when they're used. It's time to look at some numbers.
 
 Head north to the stairs, and descend into the #GOLD#Dungeon of Adventurer Enlightenment.#WHITE#
-]], [[Now you know the basics: what these eight #GOLD#combat stats#WHITE# mean and when they're used. It's time to look at some numbers.
+]], [[Vous connaissez maintenant les bases, ce que signifient ces huit #GOLD#statistiques de combat#WHITE# et quand elles sont utilisées. Il est temps de regarder quelques chiffres.
 
-Head north to the stairs, and descend into the #GOLD#Dungeon of Adventurer Enlightenment.#WHITE#
+Dirigez-vous vers le nord vers les escaliers, et descendez dans le #GOLD#Donjon de l'Eveil des Aventuriers.#WHITE#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc0.lua"
 
-
--- texte non traduit
---[==[
 t([[It's finally time to stab something.
 
 There's an orc up ahead; make sure you're wearing your #GOLD#Helmet of Accuracy (+6)#WHITE# from earlier, and go attack him!
-]], [[It's finally time to stab something.
+]], [[Il est enfin temps de poignarder quelque chose.
 
-There's an orc up ahead; make sure you're wearing your #GOLD#Helmet of Accuracy (+6)#WHITE# from earlier, and go attack him!
+Il y a un orc devant. Assurez-vous que vous portez votre #GOLD#Casque de Précision (+6)#WHITE# de tout à l'heure, et allez l'attaquer!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc1.lua"
 
-
--- texte non traduit
---[==[
 t([[Sucker can dodge some.
 
 As you know by now, the game was comparing your #LIGHT_GREEN#Accuracy#WHITE# to the orc's #LIGHT_GREEN#Defense#WHITE# to determine whether your blows landed. Evidently, the comparison did not go well for you.
 
 What is your #LIGHT_GREEN#Accuracy#WHITE#, and what is his #LIGHT_GREEN#Defense#WHITE#?
-]], [[Sucker can dodge some.
+]], [[Ce crétin peut en esquiver quelques-uns.
 
-As you know by now, the game was comparing your #LIGHT_GREEN#Accuracy#WHITE# to the orc's #LIGHT_GREEN#Defense#WHITE# to determine whether your blows landed. Evidently, the comparison did not go well for you.
+Comme vous le savez maintenant, le jeu comparait votre #LIGHT_GREEN#Précision#WHITE# à la #LIGHT_GREEN#Défense#WHITE# de l'orc pour déterminer si vos coups portaient. De toute évidence, la comparaison ne vous a pas réussi.
 
-What is your #LIGHT_GREEN#Accuracy#WHITE#, and what is his #LIGHT_GREEN#Defense#WHITE#?
+Quelle est votre #LIGHT_GREEN#Précision#WHITE#, et quelle est sa #LIGHT_GREEN#Défense#WHITE#?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc10.lua"
 
-
--- texte non traduit
---[==[
 t([[Congratulations! Hopefully this series of obstacles has led you to some conclusions:
 
 1) When comparing #GOLD#combat stat#WHITE# scores, a difference of ten is the magic number that maximizes success.
@@ -32151,93 +32082,68 @@ t([[Congratulations! Hopefully this series of obstacles has led you to some conc
 For the purposes of this tutorial, the maximum success chance is 100%, which will mostly not be the case in the proper game-- but a difference of ten points is still what you're shooting for in order to hit the max, whatever it happens to be.
 
 You might also have concluded that this simple "win by ten points for best results" rule means that maximizing success becomes harder and harder when comparing higher-tier #GOLD#combat stat#WHITE# scores. True enough!
-]], [[Congratulations! Hopefully this series of obstacles has led you to some conclusions:
+]], [[Félicitations! Nous espérons que cette série d'obstacles vous a permis d'arriver à quelques conclusions:
 
-1) When comparing #GOLD#combat stat#WHITE# scores, a difference of ten is the magic number that maximizes success.
+1) Lorsque vous comparez des scores de #GOLD#statistiques de comba#WHITE#t, une différence de dix est le chiffre magique qui maximise le succès.
 
-2) Comparing roughly equal #GOLD#combat stat#WHITE# scores results in a success about half the time.
+2) En comparant des scores de #GOLD#statistiques de combat#WHITE# à peu près égaux, on obtient un succès dans la moitié des cas.
 
-For the purposes of this tutorial, the maximum success chance is 100%, which will mostly not be the case in the proper game-- but a difference of ten points is still what you're shooting for in order to hit the max, whatever it happens to be.
+Dans le cadre de ce tutoriel, la probabilité de réussite maximale est de 100 %, ce qui ne sera généralement pas le cas dans le jeu proprement dit, mais une différence de dix points est toujours ce que vous devez viser pour atteindre le maximum, quel qu'il soit.
 
-You might also have concluded that this simple "win by ten points for best results" rule means that maximizing success becomes harder and harder when comparing higher-tier #GOLD#combat stat#WHITE# scores. True enough!
+Vous avez peut-être aussi conclu que cette règle simple "gagner de dix points pour obtenir les meilleurs résultats" signifie que la maximisation du succès devient de plus en plus difficile lorsque l'on compare des scores de #GOLD#statistiques de combat#WHITE# de palier supérieur. C'est vrai!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc11.lua"
 
-
--- texte non traduit
---[==[
 t([[Descend to the penultimate level of the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to learn all about detrimental #GOLD#timed effects.#WHITE#
-]], [[Descend to the penultimate level of the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to learn all about detrimental #GOLD#timed effects.#WHITE#
+]], [[Descendez à l'avant-dernier niveau du #GOLD#Donjon de l'Eveil des Aventuriers#WHITE# pour tout apprendre sur les #GOLD#effets temporaires#WHITE# néfastes.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc2.lua"
 
-
--- texte non traduit
---[==[
 t([[If you were wearing your #GOLD#Helmet of Accuracy (+6)#WHITE#, then you should have #LIGHT_GREEN#38 Accuracy#WHITE#, while the orc has #LIGHT_GREEN#48 Defense#WHITE#. The difference is ten in the orc's favor, which is apparently too much for you to be able to hit him.
 
 There's another orc ahead with slightly lower defense. Go get him!
-]], [[If you were wearing your #GOLD#Helmet of Accuracy (+6)#WHITE#, then you should have #LIGHT_GREEN#38 Accuracy#WHITE#, while the orc has #LIGHT_GREEN#48 Defense#WHITE#. The difference is ten in the orc's favor, which is apparently too much for you to be able to hit him.
+]], [[Si vous portiez votre #GOLD#Casque de Précision (+6)#WHITE#, vous devriez avoir #LIGHT_GREEN#38 de précision#WHITE#, alors que l'orc a #LIGHT_GREEN#48 de défense#WHITE#. La différence est de dix en faveur de l'orc, ce qui est apparemment trop pour que vous puissiez le frapper.
 
-There's another orc ahead with slightly lower defense. Go get him!
+Il y a un autre orc devant avec une défense légèrement inférieure. Allez le chercher!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc3.lua"
 
-
--- texte non traduit
---[==[
 t([[That one you should have been able to occasionally hit, and-- if you were persistent-- kill. 
 
 I hope you took note of its #LIGHT_GREEN#Defense#WHITE# score before it died.
 
 (If not, it was 47, which is nine more than your #LIGHT_GREEN#38 Accuracy#WHITE#)
-]], [[That one you should have been able to occasionally hit, and-- if you were persistent-- kill. 
+]], [[Celui-là, vous auriez dû pouvoir le toucher occasionnellement, et - si vous étiez persévérant - le tuer. 
 
-I hope you took note of its #LIGHT_GREEN#Defense#WHITE# score before it died.
+J'espère que vous avez pris note de son score de #LIGHT_GREEN#défense#WHITE# avant qu'il ne meure.
 
-(If not, it was 47, which is nine more than your #LIGHT_GREEN#38 Accuracy#WHITE#)
+(Si ce n'est pas le cas, il était de 47, ce qui est neuf de plus que votre #LIGHT_GREEN#précision de 38#WHITE#).
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc4.lua"
 
-
--- texte non traduit
---[==[
 t([[They were more successful at hitting you, though their damage wasn't enough to be threatening. 
 
 Compare their #LIGHT_GREEN#Accuracy#WHITE#, 14, to your #LIGHT_GREEN#Defense#WHITE#.
 
 Does it seem reasonable that they were hitting you (or missing you) as much as they did?
-]], [[They were more successful at hitting you, though their damage wasn't enough to be threatening. 
+]], [[Ils ont mieux réussi à vous toucher, mais leurs dégâts n'étaient pas suffisants pour être menaçants. 
 
-Compare their #LIGHT_GREEN#Accuracy#WHITE#, 14, to your #LIGHT_GREEN#Defense#WHITE#.
+Comparez leur #LIGHT_GREEN#Précision#WHITE#, 14, à votre #LIGHT_GREEN#Défense#WHITE#.
 
-Does it seem reasonable that they were hitting you (or missing you) as much as they did?
+Vous semble-t-il raisonnable qu'ils vous touchent (ou vous manquent) autant qu'ils l'ont fait?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc5.lua"
 
-
--- texte non traduit
---[==[
 t([[There's an orc ahead with some prodigous health regeneration.
 
 Compare your #LIGHT_GREEN#Accuracy#WHITE# and #LIGHT_GREEN#Defense#WHITE# to its #LIGHT_GREEN#Defense#WHITE# and #LIGHT_GREEN#Accuracy#WHITE#.
@@ -32245,143 +32151,102 @@ Compare your #LIGHT_GREEN#Accuracy#WHITE# and #LIGHT_GREEN#Defense#WHITE# to its
 Do you expect to be successful attacking it? 
 
 Do you expect it to be successful attacking you?
-]], [[There's an orc ahead with some prodigous health regeneration.
+]], [[Il y a un orc devant vous avec une régénération de santé prodigieuse.
+Comparez votre #LIGHT_GREEN#Précision#WHITE# et votre #LIGHT_GREEN#Défense#WHITE# à sa #LIGHT_GREEN#Défense#WHITE# et à sa #LIGHT_GREEN#Précision#WHITE#.
 
-Compare your #LIGHT_GREEN#Accuracy#WHITE# and #LIGHT_GREEN#Defense#WHITE# to its #LIGHT_GREEN#Defense#WHITE# and #LIGHT_GREEN#Accuracy#WHITE#.
+Vous attendez-vous à ce que vous arriviez à l'attaquer?
 
-Do you expect to be successful attacking it? 
-
-Do you expect it to be successful attacking you?
+Vous attendez-vous à ce qu'il réussisse à vous attaquer?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc6.lua"
 
-
--- texte non traduit
---[==[
 t([[You've learned Shove, a weak knockback effect.
 
 Which #GOLD#combat stats#WHITE# will get compared when you attempt to Shove somebody?
 
 Try to push your way into the next room!
-]], [[You've learned Shove, a weak knockback effect.
+]], [[Vous avez appris Poussé, un effet de repoussement faible.
 
-Which #GOLD#combat stats#WHITE# will get compared when you attempt to Shove somebody?
+Quelles #GOLD#statistiques de combat#WHITE# seront comparées lorsque vous tenterez de pousser quelqu'un?
 
-Try to push your way into the next room!
+Essayez de vous frayer un chemin jusqu'à la prochaine pièce!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc7.lua"
 
-
--- texte non traduit
---[==[
 t([[Did you try shoving both the enemies blocking passage into this room? 
 
 Can you say now which #GOLD#combat stats#WHITE# get compared when you Shove somebody?
 
 
-]], [[Did you try shoving both the enemies blocking passage into this room? 
+]], [[Avez-vous essayé de pousser les deux ennemis qui bloquent le passage dans cette pièce? 
 
-Can you say now which #GOLD#combat stats#WHITE# get compared when you Shove somebody?
+Pouvez-vous dire maintenant quelles #GOLD#statistiques de combat#WHITE# sont comparées lorsque vous poussez quelqu'un?
 
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc8.lua"
 
-
--- texte non traduit
---[==[
 t([[There's another pesky orc plugging the tunnel to the west, and some new tools in the cave to the north.
 
 Find a means to push that orc out of the way!  
 
-]], [[There's another pesky orc plugging the tunnel to the west, and some new tools in the cave to the north.
+]], [[Il y a un autre orc embêtant qui bouche le tunnel à l'ouest, et de nouveaux outils dans la grotte au nord.
 
-Find a means to push that orc out of the way!  
+Trouvez un moyen de pousser cet orc hors du chemin!
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-calc/calc9.lua"
 
-
--- texte non traduit
---[==[
 t([[Once again, the route ahead is blocked. Find a way through!
 
-]], [[Once again, the route ahead is blocked. Find a way through!
+]], [[Une fois de plus, la route à suivre est bloquée. Trouvez un moyen de passer!
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/informed1.lua"
 
-
--- texte non traduit
---[==[
 t([[Armed with the knowledge of how important #GOLD#combat stats#WHITE# are, we now go in search of them. Yours are displayed in your character sheet. Once you've closed this window, you can open it and move your mouse cursor over them to see a brief description of what they do. The tooltip mentions some stuff we haven't covered yet, but we'll get there.
 
 So what about seeing a monster's #GOLD#combat stats#WHITE#? This would hardly be a dungeon without creepy denizens; there's an orc ahead you can examine. Use the mouse or the 'l'ook command to examine that orc.
-]], [[Armed with the knowledge of how important #GOLD#combat stats#WHITE# are, we now go in search of them. Yours are displayed in your character sheet. Once you've closed this window, you can open it and move your mouse cursor over them to see a brief description of what they do. The tooltip mentions some stuff we haven't covered yet, but we'll get there.
+]], [[Armés de la connaissance de l'importance des #GOLD#statistiques de combat#WHITE#, nous partons maintenant à leur recherche. Les vôtres sont affichées dans votre feuille de personnage. Une fois que tu as fermé cette fenêtre, tu peux l'ouvrir et passer le curseur de ta souris sur eux pour voir une brève description de ce qu'ils font. L'infobulle mentionne certaines choses que nous n'avons pas encore abordées, mais nous y viendrons.
 
-So what about seeing a monster's #GOLD#combat stats#WHITE#? This would hardly be a dungeon without creepy denizens; there's an orc ahead you can examine. Use the mouse or the 'l'ook command to examine that orc.
+Et les #GOLD#statistiques de combat#WHITE# d'un monstre ? Ce ne serait pas un donjon sans ses terrifiants habitants ; il y a un orc devant vous que vous pouvez examiner. Utilisez la souris ou la commande 'l'\"Regarder aux alentours\" pour examiner cet orc.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale1.lua"
 
-
--- texte non traduit
---[==[
 t([[As you can see, the #GOLD#combat stat#WHITE# scores are displayed in two columns with offensive #GOLD#combat stats#WHITE# to the left and defensive #GOLD#combat stats#WHITE# to the right. 
 
 The displayed numbers are color coded according to their value.
-]], [[As you can see, the #GOLD#combat stat#WHITE# scores are displayed in two columns with offensive #GOLD#combat stats#WHITE# to the left and defensive #GOLD#combat stats#WHITE# to the right. 
+]], [[Comme vous pouvez le voir, les scores des #GOLD#statistiques de combat#WHITE# sont affichés sur deux colonnes, avec les #GOLD#statistiques de combat#WHITE# offensives à gauche et les #GOLD#statistiques de combat#WHITE# défensives à droite. 
 
-The displayed numbers are color coded according to their value.
+Les chiffres affichés sont codés par couleur en fonction de leur valeur.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale10.lua"
 
-
--- texte non traduit
---[==[
 t([[How did you do this time? Your #LIGHT_GREEN#Mental Save#WHITE# score is #00FF80#tier 3#WHITE#, and an item that granted you +6 #LIGHT_GREEN#Mental Save#WHITE# only increased this score by 2.
 
 Can you explain what's going on?
-]], [[How did you do this time? Your #LIGHT_GREEN#Mental Save#WHITE# score is #00FF80#tier 3#WHITE#, and an item that granted you +6 #LIGHT_GREEN#Mental Save#WHITE# only increased this score by 2.
+]], [[Comment avez-vous fait cette fois-ci ? Votre score de #LIGHT_GREEN#Sauvegarde Mentale#WHITE# est de #00FF80#palier 3#WHITE#, et un objet qui vous accordait +6 de #LIGHT_GREEN#Sauvegarde Mentale#WHITE# n'a augmenté ce score que de 2.
 
-Can you explain what's going on?
+Pouvez-vous expliquer ce qui se passe?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale11.lua"
 
-
--- texte non traduit
---[==[
 t([[It simply costs more to increase scores that are in higher tiers.
 
 For each tier, here's the cost of increasing your score by one:
@@ -32391,41 +32256,31 @@ For each tier, here's the cost of increasing your score by one:
 #00FF80#Tier 3#WHITE#: 3 points
 #0080FF#Tier 4#WHITE#: 4 points
 #8d55ff#Tier 5#WHITE#: 5 points
-]], [[It simply costs more to increase scores that are in higher tiers.
+]], [[Il est simplement plus coûteux d'augmenter les scores dans les paliers supérieurs.
 
-For each tier, here's the cost of increasing your score by one:
+Pour chaque palier, voici ce qu'il en coûte d'augmenter votre score d'une unité:
 
-#B4B4B4#Tier 1#WHITE#: 1 point
-#FFFFFF#Tier 2#WHITE#: 2 points
-#00FF80#Tier 3#WHITE#: 3 points
-#0080FF#Tier 4#WHITE#: 4 points
-#8d55ff#Tier 5#WHITE#: 5 points
+#B4B4B4#Palier 1#WHITE#: 1 point
+#FFFFFF#Palier 2#WHITE#: 2 points
+#00FF80#Palier 3#WHITE#: 3 points
+#0080FF#Palier 4#WHITE#: 4 points
+#8d55ff#Palier 5#WHITE#: 5 points
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale12.lua"
 
-
--- texte non traduit
---[==[
 t([[This gets expensive! It's entirely possible-- even likely-- for a game-winning character to never have any #8d55ff#Tier 5#WHITE# scores.
 
 There are stairs ahead. Descend further into the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to learn how exactly #GOLD#combat stat#WHITE# scores affect gameplay.
-]], [[This gets expensive! It's entirely possible-- even likely-- for a game-winning character to never have any #8d55ff#Tier 5#WHITE# scores.
+]], [[Ça devient cher! Il est tout à fait possible - et même probable - qu'un personnage qui gagne une partie n'ait jamais aucun #8d55ff#Palier de niveau 5#WHITE#.
 
-There are stairs ahead. Descend further into the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to learn how exactly #GOLD#combat stat#WHITE# scores affect gameplay.
+Il y a des escaliers devant. Descendez plus loin dans le #GOLD#Donjon de l'éveil des Aventuriers#WHITE# pour apprendre comment les scores des #GOLD#statistiques de combat#WHITE# affectent le gameplay.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale2.lua"
 
-
--- texte non traduit
---[==[
 t([[Some clues:
 
 1) #LIGHT_GREEN#Defense#WHITE# is 20 and #LIGHT_GREEN#Physical Save#WHITE# is 21, yet they have different colors and positions.
@@ -32433,39 +32288,29 @@ t([[Some clues:
 2) There seems to be no overlap in positions. The 21 is entirely to the right of that 20, for example.
 
 3) Each display scale is ten characters long, and each score takes up two characters.
-]], [[Some clues:
+]], [[Quelques indices:
 
-1) #LIGHT_GREEN#Defense#WHITE# is 20 and #LIGHT_GREEN#Physical Save#WHITE# is 21, yet they have different colors and positions.
+1) La #LIGHT_GREEN#Défense#WHITE# est à 20 et la #LIGHT_GREEN#Sauvegarde physique#WHITE# à 21, mais elles ont des couleurs et des positions différentes.
 
-2) There seems to be no overlap in positions. The 21 is entirely to the right of that 20, for example.
+2) Il ne semble pas y avoir de chevauchement dans les positions. Le 21 est entièrement à droite du 20, par exemple.
 
-3) Each display scale is ten characters long, and each score takes up two characters.
+3) Chaque échelle d'affichage comporte dix caractères, et chaque score occupe deux caractères.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale3.lua"
 
-
--- texte non traduit
---[==[
 t([[#GOLD#Combat stat#WHITE# scores are between one and one-hundred, with special color coding applied for each interval of twenty. The colors are the same hues as those used in inventory text to indicate gear quality.
 
 These subintervals of twenty we'll call #GOLD#tiers#WHITE# from now on.
-]], [[#GOLD#Combat stat#WHITE# scores are between one and one-hundred, with special color coding applied for each interval of twenty. The colors are the same hues as those used in inventory text to indicate gear quality.
+]], [[Les scores des #GOLD#statistiques de combat#WHITE# sont compris entre un et cent, avec un code de couleur spécial appliqué pour chaque intervalle de vingt. Les couleurs sont les mêmes que celles utilisées dans le texte de l'inventaire pour indiquer la qualité de l'équipement.
 
-These subintervals of twenty we'll call #GOLD#tiers#WHITE# from now on.
+Ces sous-intervalles de vingt seront désormais appelés des #GOLD#paliers#WHITE#.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale4.lua"
 
-
--- texte non traduit
---[==[
 t([[A summary of the #GOLD#combat stat#WHITE# tiers:
 
 #B4B4B4#Tier 1#WHITE# scores, those from one to twenty, are displayed in #B4B4B4#grey#WHITE#.
@@ -32473,201 +32318,141 @@ t([[A summary of the #GOLD#combat stat#WHITE# tiers:
 #00FF80#Tier 3#WHITE# scores, those from forty-one to sixty, are displayed in #00FF80#green#WHITE#.
 #0080FF#Tier 4#WHITE# scores, those from sixty-one to eighty, are displayed in #0080FF#blue#WHITE#.
 #8d55ff#Tier 5#WHITE# scores, those from eighty-one to one-hundred, are displayed in #8d55ff#purple#WHITE#.
-]], [[A summary of the #GOLD#combat stat#WHITE# tiers:
+]], [[Un résumé des paliers de #GOLD#statistiques de combat#WHITE#:
 
-#B4B4B4#Tier 1#WHITE# scores, those from one to twenty, are displayed in #B4B4B4#grey#WHITE#.
-#FFFFFF#Tier 2#WHITE# scores, those from twenty-one to forty, are displayed in #FFFFFF#white#WHITE#.
-#00FF80#Tier 3#WHITE# scores, those from forty-one to sixty, are displayed in #00FF80#green#WHITE#.
-#0080FF#Tier 4#WHITE# scores, those from sixty-one to eighty, are displayed in #0080FF#blue#WHITE#.
-#8d55ff#Tier 5#WHITE# scores, those from eighty-one to one-hundred, are displayed in #8d55ff#purple#WHITE#.
+#B4B4B4#Palier 1#WHITE# Les scores, ceux de un à vingt, sont affichés en #B4B4B4#gris#WHITE#.
+#FFFFFF#Palier 2#WHITE# les scores, ceux de vingt et un à quarante, sont affichés en #FFFFFF#blanc#WHITE#.
+#00FF80#Palier 3#WHITE# les scores, ceux de quarante et un à soixante sont affichées en #00FF80#vert#WHITE#.
+#0080FF#Palier 4#WHITE# les scores, ceux de soixante et un à quatre-vingts sont affichées en #0080FF#bleu#WHITE#.
+#8d55ff#Palier 5#WHITE# les scores, ceux de quatre-vingt-un à cent, sont affichés en #8d55ff#pourpre#WHITE#.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale5.lua"
 
-
--- texte non traduit
---[==[
 t([[These tiers are not just for show. 
 
 Let's see if you can discover a way in which they're NOT purely cosmetic. Go plunder the room ahead!
-]], [[These tiers are not just for show. 
+]], [[Ces paliers ne sont pas là uniquement pour le spectacle. 
 
-Let's see if you can discover a way in which they're NOT purely cosmetic. Go plunder the room ahead!
+Voyons si vous pouvez découvrir une façon dont ils ne sont pas purement cosmétiques. Allez piller la pièce devant vous!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale6.lua"
 
-
--- texte non traduit
---[==[
 t([[By how much did the amulet increase your #B4B4B4#tier 1#WHITE# #LIGHT_GREEN#Mindpower#WHITE# score?
 
 By how much did the boots increase your #FFFFFF#tier 2#WHITE# #LIGHT_GREEN#Physical save#WHITE# score?
 
 Take them off and put them back on if you didn't see their effects. One of the results might be surprising.
-]], [[By how much did the amulet increase your #B4B4B4#tier 1#WHITE# #LIGHT_GREEN#Mindpower#WHITE# score?
+]], [[De combien l'amulette a-t-elle augmenté votre score de #LIGHT_GREEN#Puissance Mentale#WHITE# de #B4B4B4#palier 1?
 
-By how much did the boots increase your #FFFFFF#tier 2#WHITE# #LIGHT_GREEN#Physical save#WHITE# score?
+De combien les bottes ont-elles augmenté votre score de #LIGHT_GREEN#Sauvegarde Physique#WHITE# de #FFFFFF#palier 2?
 
-Take them off and put them back on if you didn't see their effects. One of the results might be surprising.
+Enlevez-les et remettez-les si vous n'avez pas vu leurs effets. L'un des résultats pourrait être surprenant.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale7.lua"
 
-
--- texte non traduit
---[==[
 t([[Those boots appear to have only increased your #LIGHT_GREEN#Physical save#WHITE# by 5.
 
 What do you suppose would be the effects of putting on a helmet with +6 #LIGHT_GREEN#Accuracy#WHITE#?
-]], [[Those boots appear to have only increased your #LIGHT_GREEN#Physical save#WHITE# by 5.
+]], [[Ces bottes semblent avoir seulement augmenté votre #LIGHT_GREEN#Sauvegarde Physique#WHITE# de 5.
 
-What do you suppose would be the effects of putting on a helmet with +6 #LIGHT_GREEN#Accuracy#WHITE#?
+A votre avis, quels seraient les effets d'un casque avec une #LIGHT_GREEN#Précision#WHITE# de +6?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale8.lua"
 
-
--- texte non traduit
---[==[
 t([[Test your hypothesis!
-]], [[Test your hypothesis!
+]], [[Testez votre hypothèse!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-scale/scale9.lua"
 
-
--- texte non traduit
---[==[
 t([[Did you accurately predict that +6 to a #FFFFFF#tier 2#WHITE# #GOLD#combat stat#WHITE# score would result in an increase of only 3?
 
 Let's try again in the next room. What do you suppose will happen when you put on an item that grants you +6 #LIGHT_GREEN#Mental save#WHITE#?
-]], [[Did you accurately predict that +6 to a #FFFFFF#tier 2#WHITE# #GOLD#combat stat#WHITE# score would result in an increase of only 3?
+]], [[Avez-vous prédit avec précision que +6 à un score de #GOLD#statistiques de combat#WHITE# de #FFFFFF#palier 2#WHITE# entraînerait une augmentation de seulement 3?
 
-Let's try again in the next room. What do you suppose will happen when you put on an item that grants you +6 #LIGHT_GREEN#Mental save#WHITE#?
+Essayons à nouveau dans la pièce suivante. Que pensez-vous qu'il se passera quand vous mettrez un objet qui vous accorde +6 en #LIGHT_GREEN#Sauvegarde Mentale#WHITE#?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier0.lua"
 
-
--- texte non traduit
---[==[
 t([[Until now, a certain game mechanic has been disabled. Go learn a new talent at the nearby Rune of Enlightenment and use it to blast each of the enemies in the next room. 
 
 Can you identify the new mechanic?
-]], [[Until now, a certain game mechanic has been disabled. Go learn a new talent at the nearby Rune of Enlightenment and use it to blast each of the enemies in the next room. 
+]], [[Jusqu'à présent, une certaine mécanique de jeu a été désactivée. Allez apprendre un nouveau talent à la Rune d'Illumination voisine et utilisez-le pour faire sauter chacun des ennemis dans la pièce suivante. 
 
-Can you identify the new mechanic?
+Pouvez-vous identifier le nouveau mécanisme?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier1.lua"
 
-
--- texte non traduit
---[==[
 t([[If you don't notice anything, try examining each monster's tooltip immediately after using Mana Gale on it.
-]], [[If you don't notice anything, try examining each monster's tooltip immediately after using Mana Gale on it.
+]], [[Si vous ne remarquez rien, essayez d'examiner l'infobulle de chaque monstre immédiatement après avoir utilisé Coup de vent de Mana sur lui.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier10.lua"
 
-
--- texte non traduit
---[==[
 t([[Basic attacks, ones that compare #LIGHT_GREEN#Accuracy#WHITE# to #LIGHT_GREEN#Defense#WHITE#, only apply #GOLD#cross-tier afflictions#WHITE# on critical hits.
 
 Still, it's a good reason to not neglect your #LIGHT_GREEN#Defense#WHITE# stat, even if it's not central to your class.
-]], [[Basic attacks, ones that compare #LIGHT_GREEN#Accuracy#WHITE# to #LIGHT_GREEN#Defense#WHITE#, only apply #GOLD#cross-tier afflictions#WHITE# on critical hits.
+]], [[Les attaques de base, celles qui comparent la #LIGHT_GREEN#Précision#WHITE# à la #LIGHT_GREEN#Défense#WHITE#, n'appliquent des #GOLD#afflictions trans-palier#WHITE# que sur les coups critiques.
 
-Still, it's a good reason to not neglect your #LIGHT_GREEN#Defense#WHITE# stat, even if it's not central to your class.
+C'est une bonne raison de ne pas négliger la #LIGHT_GREEN#Défense#WHITE#, même si elle n'est pas centrale pour votre classe.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier11.lua"
 
-
--- texte non traduit
---[==[
 t([[#GOLD#Congratulations!#WHITE# You have completed the combat stats tutorial. Hopefully it has been of some use to you.
 
-]], [[#GOLD#Congratulations!#WHITE# You have completed the combat stats tutorial. Hopefully it has been of some use to you.
+]], [[#GOLD#Félicitations!#WHITE# Vous avez terminé le tutoriel sur les statistiques de combat. J'espère qu'il vous a été utile.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier12.lua"
 
-
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#For those who want to join the discussion on these new mechanics, please first read the document "Transparency.rtf" found here:#WHITE#
 
 tome/data/texts/Transparency.rtf
 
 This is an essay, not code. Open it with something appropriate to avoid being overwhelmed by a dense wall of text.
-]], [[#LIGHT_GREEN#For those who want to join the discussion on these new mechanics, please first read the document "Transparency.rtf" found here:#WHITE#
+]], [[#LIGHT_GREEN#Pour ceux qui veulent se joindre à la discussion sur ces nouveaux mécanismes, veuillez d'abord lire le document \"Transparency.rtf\" qui se trouve ici:#WHITE#
 
 tome/data/texts/Transparency.rtf
 
-This is an essay, not code. Open it with something appropriate to avoid being overwhelmed by a dense wall of text.
+Ceci est un essai, pas un code. Ouvrez-le avec quelque chose d'approprié pour éviter d'être submergé par un mur de texte touffu.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier2.lua"
 
-
--- texte non traduit
---[==[
 t([[Can you explain the difference in the durations for that "Off-balance" timed effect you're inflicting?
 
 Why is one of the spiders unaffected?
 
 Go learn the Blink spell just to the south, then go back and try it on the spiders.
-]], [[Can you explain the difference in the durations for that "Off-balance" timed effect you're inflicting?
+]], [[Pouvez-vous expliquer la différence de durée de l'effet temporisé "Déséquilibre" que vous infligez ?
 
-Why is one of the spiders unaffected?
+Pourquoi l'une des araignées n'est-elle pas affectée?
 
-Go learn the Blink spell just to the south, then go back and try it on the spiders.
+Va apprendre le sort Passage juste au sud, puis reviens et essaie-le sur les araignées.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier3.lua"
 
-
--- texte non traduit
---[==[
 t([[Have you determined what's causing those new timed effects?
 
 If not, then consider the following questions:
@@ -32677,59 +32462,44 @@ If not, then consider the following questions:
 2) What tiers are these #GOLD#combat stats#WHITE#?
 
 Feel free to go batter those spiders some more if you need further experimentation!
-]], [[Have you determined what's causing those new timed effects?
+]], [[Avez-vous déterminé ce qui est à l'origine de ces nouveaux effets temporaires?
 
-If not, then consider the following questions:
+Si non, posez-vous les questions suivantes:
 
-1) What #GOLD#combat stat#WHITE# are you using as the attacker, and what #GOLD#combat stat#WHITE# are the spiders using as the defenders?
+1) Quelle #GOLD#statistique de combat#WHITE# utilisez-vous en tant qu'attaquant, et quelle #GOLD#statistique de combat#WHITE# les araignées utilisent-elles en tant que défenseurs?
 
-2) What tiers are these #GOLD#combat stats#WHITE#?
+2) À quels niveaux se situent ces #GOLD#statistiques de combat#WHITE#?
 
-Feel free to go batter those spiders some more if you need further experimentation!
+N'hésitez pas à frapper ces araignées un peu plus si vous avez besoin d'expérimentations supplémentaires!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier4.lua"
 
-
--- texte non traduit
---[==[
 t([[Let's take a closer look at these new timed effects. The easiest way to do that is to have them inflicted on you.
 
 Ahead are a series of bored elves who will happily blast you with whatever spell they have handy. Examine the tooltip of each effect they inflict on you.
 
-]], [[Let's take a closer look at these new timed effects. The easiest way to do that is to have them inflicted on you.
+]], [[Regardons de plus près ces nouveaux effets temporaires. La façon la plus simple de le faire est de se les faire infliger.
 
-Ahead are a series of bored elves who will happily blast you with whatever spell they have handy. Examine the tooltip of each effect they inflict on you.
+Vous avez devant vous une série d'elfes qui s'ennuient et qui se feront un plaisir de vous envoyer n'importe quel sort qu'ils ont sous la main. Examinez l'infobulle de chaque effet qu'ils vous infligent.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier5.lua"
 
-
--- texte non traduit
---[==[
 t([[Note that all three elves were casting using a #8d55ff#Tier 5#WHITE# #GOLD#combat stat#WHITE#, though they produced effects that varied in duration.
 
 If you hadn't already deduced the rules governing these new status effects, hopefully this helped.
-]], [[Note that all three elves were casting using a #8d55ff#Tier 5#WHITE# #GOLD#combat stat#WHITE#, though they produced effects that varied in duration.
+]], [[Notez que les trois elfes ont effectué leur lancer en utilisant une #GOLD#statistique de combat#WHITE# de #8d55ff#Palier 5#WHITE#, bien qu'ils aient produit des effets dont la durée varie.
 
-If you hadn't already deduced the rules governing these new status effects, hopefully this helped.
+Si vous n'aviez pas encore déduit les règles régissant ces nouveaux effets de statut, j'espère que cela vous a aidé.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier6.lua"
 
-
--- texte non traduit
---[==[
 t([[These new effects are #GOLD#cross-tier effects#WHITE#. They occur when a talent calls for comparing #GOLD#combat stats#WHITE# that aren't in the same tier. 
 
 Physical effects cause the "Off-balance" effect.
@@ -32740,223 +32510,160 @@ Mental effects cause the "Brainlocked" effect.
 
 The effects last one turn per tier difference in the attacker's and defender's #GOLD#combat stats#WHITE#. For example, casting Mana Gale with a #8d55ff#Tier 5#WHITE# #LIGHT_GREEN#Spellpower#WHITE# on a target with a #B4B4B4#Tier 1#WHITE# #LIGHT_GREEN#Physical save#WHITE# would result in applying a four-turn "Off-balance" effect.
 
-]], [[These new effects are #GOLD#cross-tier effects#WHITE#. They occur when a talent calls for comparing #GOLD#combat stats#WHITE# that aren't in the same tier. 
+]], [[Ces nouveaux effets sont des #GOLD#effets trans-niveaux#WHITE#. Ils se produisent lorsqu'un talent nécessite de comparer des #GOLD#statistiques de combat#WHITE# qui ne sont pas dans le même palier.
 
-Physical effects cause the "Off-balance" effect.
+Les effets Physiques provoquent l'effet "Déséquilibre".
 
-Magic effects cause the "Spellshocked" effect.
+Les effets Magiques provoquent l'effet "Choc de sort".
 
-Mental effects cause the "Brainlocked" effect.
+Les effets Mentaux provoquent l'effet "Paralysie Mentale".
 
-The effects last one turn per tier difference in the attacker's and defender's #GOLD#combat stats#WHITE#. For example, casting Mana Gale with a #8d55ff#Tier 5#WHITE# #LIGHT_GREEN#Spellpower#WHITE# on a target with a #B4B4B4#Tier 1#WHITE# #LIGHT_GREEN#Physical save#WHITE# would result in applying a four-turn "Off-balance" effect.
+Les effets durent un tour par palier de différence dans les #GOLD#statistiques de combat#WHITE# de l'attaquant et du défenseur. Par exemple, lancer Coup de vent de Mana avec une #LIGHT_GREEN#Puissance de Sort#WHITE# de #8d55ff#palier 5#WHITE# sur une cible dont la #LIGHT_GREEN#Sauvegarde Physique#WHITE# est de #B4B4B4#palier 1#WHITE# entraînera l'application d'un effet "Déséquilibre" de quatre tours.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier7.lua"
 
-
--- texte non traduit
---[==[
 t([[Be very careful about neglecting your defensive #GOLD#combat stats#WHITE#. A long-lasting #GOLD#cross-tier effect#WHITE# is dangerous!
 
 At the same time, be on the lookout for enemies a very low defensive #GOLD#combat stat#WHITE#, and consider hitting them with something appropriate to inflict a #GOLD#cross-tier effect#WHITE#!
-]], [[Be very careful about neglecting your defensive #GOLD#combat stats#WHITE#. A long-lasting #GOLD#cross-tier effect#WHITE# is dangerous!
+]], [[Faites très attention à ne pas négliger vos #GOLD#statistiques de combat#WHITE# défensif. Un #GOLD#effet cross-palier#WHITE# de longue durée est dangereux!
 
-At the same time, be on the lookout for enemies a very low defensive #GOLD#combat stat#WHITE#, and consider hitting them with something appropriate to inflict a #GOLD#cross-tier effect#WHITE#!
+Dans le même temps, soyez à l'affût des ennemis dont la #GOLD#statistique de combat#WHITE# défensive est très faible, et pensez à les frapper avec quelque chose d'approprié pour leur infliger un #GOLD#effet cross-palier#WHITE#!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier8.lua"
 
-
--- texte non traduit
---[==[
 t([[What about #LIGHT_GREEN#Defense?#WHITE# Is it safe to neglect that?
 
 Go see how your #B4B4B4#Tier 1#WHITE# #LIGHT_GREEN#Defense#WHITE# holds up against the orcs in the next room.
-]], [[What about #LIGHT_GREEN#Defense?#WHITE# Is it safe to neglect that?
+]], [[Et la #LIGHT_GREEN#Défense#WHITE#? Peut-on la négliger?
 
-Go see how your #B4B4B4#Tier 1#WHITE# #LIGHT_GREEN#Defense#WHITE# holds up against the orcs in the next room.
+Allez voir comment votre #LIGHT_GREEN#Défense#WHITE# de #B4B4B4#palier 1#WHITE# résiste aux orcs dans la pièce suivante.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-tier/tier9.lua"
 
-
--- texte non traduit
---[==[
 t([[Their melee attacks seem to sometimes apply the "Off-balance" effect, but not always.
 
 Can you figure out when it gets applied and when it doesn't?
-]], [[Their melee attacks seem to sometimes apply the "Off-balance" effect, but not always.
+]], [[Leurs attaques de mêlée semblent parfois appliquer l'effet "Déséquilibre", mais pas toujours.
 
-Can you figure out when it gets applied and when it doesn't?
+Pouvez-vous déterminer quand il est appliqué et quand il ne l'est pas?
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-timed/timed0.lua"
 
-
--- texte non traduit
---[==[
 t([[Detrimental #GOLD#timed effects#WHITE# are conditions which cause various short-term problems, such as blindness, confusion, stunning, poisoning, slowing, and much more. Much of what we've seen so far applies to them; the type of effect determines what defensive #GOLD#combat stat#WHITE# the defender uses, and the source of the effect determines what offensive #GOLD#combat stat#WHITE# the attacker uses.
 
 Let's experiment to find out more. Move on to learn a new talent. Be sure to read its description!
-]], [[Detrimental #GOLD#timed effects#WHITE# are conditions which cause various short-term problems, such as blindness, confusion, stunning, poisoning, slowing, and much more. Much of what we've seen so far applies to them; the type of effect determines what defensive #GOLD#combat stat#WHITE# the defender uses, and the source of the effect determines what offensive #GOLD#combat stat#WHITE# the attacker uses.
+]], [[Les #GOLD#effets temporaires#WHITE# néfastes sont des conditions qui causent divers problèmes à court terme, comme l'aveuglement, la confusion, l'étourdissement, l'empoisonnement, le ralentissement, et bien d'autres choses encore. Une grande partie de ce que nous avons vu jusqu'à présent s'applique à eux; le type d'effet détermine la #GOLD#statistique de combat#WHITE# défensive que le défenseur utilise, et la source de l'effet détermine la #GOLD#statistique de combat#WHITE# offensive que l'attaquant utilise.
 
-Let's experiment to find out more. Move on to learn a new talent. Be sure to read its description!
+Faisons des expériences pour en savoir plus. Passez à l'apprentissage d'un nouveau talent. N'oubliez pas de lire sa description!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-timed/timed1.lua"
 
-
--- texte non traduit
---[==[
 t([[Try the new spell on each of the enemies in the next room. Note that it's a spell, so it uses your #LIGHT_GREEN#Spellpower#WHITE#, and it causes a physical effect (bleeding), so the target will defend with its #LIGHT_GREEN#Physical save#WHITE#.
 
 Note in particular the duration of the effect on each enemy. You can check their tooltip to see detrimental effects and their remaining duration.
 
-]], [[Try the new spell on each of the enemies in the next room. Note that it's a spell, so it uses your #LIGHT_GREEN#Spellpower#WHITE#, and it causes a physical effect (bleeding), so the target will defend with its #LIGHT_GREEN#Physical save#WHITE#.
+]], [[Essayez le nouveau sort sur chacun des ennemis de la pièce suivante. Notez qu'il s'agit d'un sort, donc qu'il utilise votre  #LIGHT_GREEN#Puissance de Sort#WHITE#, et qu'il provoque un effet physique (saignement), donc la cible se défendra avec sa  #LIGHT_GREEN#Sauvegarde Physique#WHITE#.
 
-Note in particular the duration of the effect on each enemy. You can check their tooltip to see detrimental effects and their remaining duration.
+Notez en particulier la durée de l'effet sur chaque ennemi. Vous pouvez consulter leur infobulle pour voir les effets néfastes et leur durée restante.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-timed/timed2.lua"
 
-
--- texte non traduit
---[==[
 t([[Under what circumstances do you appear to inflict the full-duration bleed effect?
 
 For those targets that didn't receive the full duration, how did their applicable #GOLD#combat stat#WHITE# compare to yours?
 
-]], [[Under what circumstances do you appear to inflict the full-duration bleed effect?
+]], [[Dans quelles circonstances pensez-vous infliger l'effet de saignement à durée complète?
 
-For those targets that didn't receive the full duration, how did their applicable #GOLD#combat stat#WHITE# compare to yours?
+Pour les cibles qui n'ont pas bénéficié de la durée totale de l'effet de saignement, quelle est la différence entre leur #GOLD#statistique de combat#WHITE# et la vôtre?
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-timed/timed3.lua"
 
-
--- texte non traduit
---[==[
 t([[If you think you can predict how #GOLD#combat stats#WHITE# affect timed effect durations, test your hypothesis on the enemies in the next room.
 
 If you don't know yet, see if this sequence of enemies gets you any closer.
 
-]], [[If you think you can predict how #GOLD#combat stats#WHITE# affect timed effect durations, test your hypothesis on the enemies in the next room.
+]], [[Si vous pensez pouvoir prédire comment les statistiques de combat affectent les durées des effets temporaires, testez votre hypothèse sur les ennemis de la pièce suivante.
 
-If you don't know yet, see if this sequence of enemies gets you any closer.
+Si vous ne savez pas encore, voyez si cette séquence d'ennemis vous rapproche de votre objectif.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-timed/timed4.lua"
 
-
--- texte non traduit
---[==[
 t([[See what the rune in the next room has to teach you! Hopefully you can use it to get past the troublesome elves ahead.
-]], [[See what the rune in the next room has to teach you! Hopefully you can use it to get past the troublesome elves ahead.
+]], [[Voyez ce que la rune dans la prochaine pièce a à vous apprendre! Espérons que vous pourrez l'utiliser pour passer les elfes gênants qui vous attendent.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-timed/timed5.lua"
 
-
--- texte non traduit
---[==[
 t([[Ideally, you thought your way through that challenge instead of just using trial-and-error.
 
 Every five points of #LIGHT_GREEN#Physical Save#WHITE#, #LIGHT_GREEN#Spell Save#WHITE#, and #LIGHT_GREEN#Mental Save#WHITE# knocks a turn off the duration of appropriate timed effects.
 
 This is opposed by the attacker's corresponding offensive #GOLD#combat stat#WHITE#. They undo one turn of your duration reduction for every five points of their offensive #GOLD#combat stat#WHITE#.
 
-]], [[Ideally, you thought your way through that challenge instead of just using trial-and-error.
+]], [[Dans l'idéal, vous avez réfléchi à la manière de relever ce défi au lieu de vous contenter d'essais et d'erreurs.
 
-Every five points of #LIGHT_GREEN#Physical Save#WHITE#, #LIGHT_GREEN#Spell Save#WHITE#, and #LIGHT_GREEN#Mental Save#WHITE# knocks a turn off the duration of appropriate timed effects.
+Tous les cinq points de #LIGHT_GREEN#Sauvegarde Physique#WHITE#, de #LIGHT_GREEN#Sauvegarde des Sorts#WHITE# et de #LIGHT_GREEN#Sauvegarde Mentale#WHITE# réduisent d'un tour la durée des effets temporisés appropriés.
 
-This is opposed by the attacker's corresponding offensive #GOLD#combat stat#WHITE#. They undo one turn of your duration reduction for every five points of their offensive #GOLD#combat stat#WHITE#.
+L'attaquant s'oppose à ces effets en utilisant la #GOLD#statistique de combat#WHITE# offensive correspondante de l'attaquant. Ils annulent un tour de votre réduction de durée pour chaque tranche de cinq points de leur #GOLD#statistique de combat#WHITE# offensive.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-timed/timed6.lua"
 
-
--- texte non traduit
---[==[
 t([[This is fairly close to saying that you knock a turn off the duration of timed effects for every five points that your defensive #GOLD#combat stat#WHITE# score beats the attacker's offensive #GOLD#combat stat#WHITE#.
 
 There are some subtle differences, however.
 
 As you may have noticed earlier, your #LIGHT_GREEN#Spellpower#WHITE# of 56 against an orc's #LIGHT_GREEN#Physical save#WHITE# of 70, despite having a difference of only 14, resulted in a three-turn duration decrease. This is because the orc's score of 70 gives it 14 turns of duration reduction, but your score of 56 only undoes 11 of those turns, resulting in a reduction of 3 turns.
-]], [[This is fairly close to saying that you knock a turn off the duration of timed effects for every five points that your defensive #GOLD#combat stat#WHITE# score beats the attacker's offensive #GOLD#combat stat#WHITE#.
+]], [[Cela revient à dire que vous réduisez d'un tour la durée des effets temporisés pour chaque tranche de cinq points de votre #GOLD#statistique de combat#WHITE# combat défensif par rapport au #GOLD#statistique de combat#WHITE# combat offensif de l'attaquant.
 
-There are some subtle differences, however.
+Il existe cependant quelques différences subtiles.
 
-As you may have noticed earlier, your #LIGHT_GREEN#Spellpower#WHITE# of 56 against an orc's #LIGHT_GREEN#Physical save#WHITE# of 70, despite having a difference of only 14, resulted in a three-turn duration decrease. This is because the orc's score of 70 gives it 14 turns of duration reduction, but your score of 56 only undoes 11 of those turns, resulting in a reduction of 3 turns.
+Comme vous l'avez peut-être remarqué précédemment, votre #LIGHT_GREEN#Puissance de Sort#WHITE# de 56 contre la #LIGHT_GREEN#Sauvegarde Physique#WHITE# de 70 d'un orc, malgré une différence de seulement 14, a entraîné une diminution de la durée de trois tours. En effet, le score de 70 de l'orc lui donne 14 tours de réduction de durée, mais votre score de 56 n'annule que 11 de ces tours, ce qui donne une réduction de 3 tours.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-timed/timed7.lua"
 
-
--- texte non traduit
---[==[
 t([[In general, greatly reducing the durations of timed effects requires rather high defensive #GOLD#combat stat#WHITE# scores. The all-important #GOLD#combat stat#WHITE# score difference of ten that we saw earlier usually results in a mere two-turn reduction of timed effect durations. 
 
 If you want to negate timed effects completely, you're going to have to work hard at finding sources of #LIGHT_GREEN#Physical save#WHITE#, #LIGHT_GREEN#Spell save#WHITE#, and 
 #LIGHT_GREEN#Mental save#WHITE#.
 
-]], [[In general, greatly reducing the durations of timed effects requires rather high defensive #GOLD#combat stat#WHITE# scores. The all-important #GOLD#combat stat#WHITE# score difference of ten that we saw earlier usually results in a mere two-turn reduction of timed effect durations. 
+]], [[En général, réduire considérablement les durées des effets temporaires nécessite des scores de #GOLD#statistiques de combat#WHITE# défensives plutôt élevés. La différence de dix entre les #GOLD#statistiques de combat#WHITE#, que nous avons vue précédemment, n'entraîne généralement qu'une réduction de deux tours de la durée des effets temporisés. 
 
-If you want to negate timed effects completely, you're going to have to work hard at finding sources of #LIGHT_GREEN#Physical save#WHITE#, #LIGHT_GREEN#Spell save#WHITE#, and 
-#LIGHT_GREEN#Mental save#WHITE#.
+Si vous voulez annuler complètement les effets temporaires, vous allez devoir travailler dur pour trouver des sources de #LIGHT_GREEN#Sauvegarde Physique#WHITE#, de #LIGHT_GREEN#Sauvegarde des Sorts#WHITE# et de #LIGHT_GREEN#Sauvegarde Mentale#WHITE#.
 
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/stats-timed/timed8.lua"
 
-
--- texte non traduit
---[==[
 t([[Descend to the final level of the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to discover more about #GOLD#combat stat#WHITE# tiers, and how they're not just cosmetic.
-]], [[Descend to the final level of the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to discover more about #GOLD#combat stat#WHITE# tiers, and how they're not just cosmetic.
+]], [[Descendez au dernier niveau du #GOLD#Donjon de l'Eveil de l'Aventurier#WHITE# pour en savoir plus sur les niveaux de #GOLD#statistiques de combat#WHITE# et sur le fait qu'ils ne sont pas seulement cosmétiques.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/tutorial/tactics1.lua"
@@ -41643,6 +41350,9 @@ t("Enter", "Entrer", "_t")
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("grass", "herbe", "entity name")
+t("Rune of Enlightenment: Mana Gale", "Rune d'Illumination: Coup de vent de Mana", "entity name")
+t("Teaches the player 'Mana Gale'.", "Apprend au joueur \"Coup de vent de Mana\".", "_t")
+t("#VIOLET#You have learned the talent Mana Gale.", "#VIOLET#Vous avez apprit le talent Coup de vent de Mana.", "logPlayer")
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
 t("sealed door", "porte scellée", "entity name")
@@ -41663,9 +41373,6 @@ t("Rune of Enlightenment: Shove", "Rune of Enlightenment: Shove", "entity name")
 t("Teaches the player 'Shove'.", "Teaches the player 'Shove'.", "_t")
 t("#VIOLET#You have learned the talent Shove.", "#VIOLET#You have learned the talent Shove.", "logPlayer")
 t("#VIOLET#The sound of an ancient door grinding open echoes down the tunnel!", "#VIOLET#The sound of an ancient door grinding open echoes down the tunnel!", "logPlayer")
-t("Rune of Enlightenment: Mana Gale", "Rune of Enlightenment: Mana Gale", "entity name")
-t("Teaches the player 'Mana Gale'.", "Teaches the player 'Mana Gale'.", "_t")
-t("#VIOLET#You have learned the talent Mana Gale.", "#VIOLET#You have learned the talent Mana Gale.", "logPlayer")
 t("Rune of Enlightenment: Telekinetic Punt", "Rune of Enlightenment: Telekinetic Punt", "entity name")
 t("Teaches the player 'Telekinetic Punt'.", "Teaches the player 'Telekinetic Punt'.", "_t")
 t("#VIOLET#You have learned the talent Telekinetic Punt.", "#VIOLET#You have learned the talent Telekinetic Punt.", "logPlayer")
