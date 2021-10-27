@@ -3839,7 +3839,7 @@ t([[#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#
 You have won the game!
 Both Maj'Eyal and the Far East are safe from the dark schemes of the Sorcerers and their God.]], [[#LIGHT_GREEN#*Les deux sorciers gisent morts devant vous.*#WHITE#
 #LIGHT_GREEN#*Leurs corps disparaissent dans une brume immatérielle.*#WHITE#
-Vous avez gagné!
+Vous avez gagné la partie!
 Le Maj'Eyal et l'Extrême-Orient sont tous deux à l'abri des sombres desseins des Sorciers et de leur Dieu.]], "_t")
 t("Aeryn, are you well?", "Aeryn, vous allez bien?", "_t")
 t("[leave]", "[partir]", "_t")
@@ -23334,10 +23334,9 @@ t([[Surround yourself with natural forces, ignoring %d%% acid resistance of your
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/dwarven-nature.lua"
 
-
+t("Earthen Missiles", "Missiles en Terre", "talent name")
 -- texte non traduit
 --[==[
-t("Earthen Missiles", "Earthen Missiles", "talent name")
 t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
 		At talent level 5, you can conjure one additional missile.
 		The damage will increase with your Spellpower.]], [[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
@@ -24515,7 +24514,7 @@ t([[You breathe acid in a frontal cone of radius %d. Any target caught in the ar
 section "mod-tome/data/talents/misc/horrors.lua"
 
 t("psionic", "psyché", "talent category")
-t("spell", "contre les sorts", "talent category")
+t("spell", "sorts", "talent category")
 t("other", "autre", "talent category")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
@@ -24895,7 +24894,7 @@ t("class", "classe", "_t")
 section "mod-tome/data/talents/misc/npcs.lua"
 
 t("other", "autre", "talent type")
-t("spell", "contre les sorts", "talent category")
+t("spell", "sorts", "talent category")
 t("psionic", "psyché", "talent category")
 t("other", "autre", "talent category")
 t("undead", "mort-vivant", "talent category")
@@ -25355,7 +25354,7 @@ t("other", "autre", "_t")
 ------------------------------------------------
 section "mod-tome/data/talents/misc/objects.lua"
 
-t("spell", "contre les sorts", "talent category")
+t("spell", "sorts", "talent category")
 t("other", "autre", "talent category")
 t("misc", "divers", "talent category")
 t("None", "Aucune", "_t")
@@ -27468,10 +27467,9 @@ t([[You now summon a Dreadmaster instead of a Dread.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/earth.lua"
 
-
+t("Pulverizing Auger", "Foreuse Broyeuse", "talent name")
 -- texte non traduit
 --[==[
-t("Pulverizing Auger", "Pulverizing Auger", "talent name")
 t([[Fire a powerful beam of stone-shattering force, digging out any walls in its path up to %d range.
 		The beam continues to a range of %d, affecting any creatures in its path, dealing %0.2f physical damage to them.
 		If any walls are dug, you gain %d%% physical damage bonus for 6 turns.
@@ -28029,16 +28027,17 @@ t([[Upon expiring the corpselight implodes, pulling in all foes towards its cent
 ------------------------------------------------
 section "mod-tome/data/talents/spells/ice.lua"
 
-
+t("Freeze", "Gel", "talent name")
+t("Frozen Ground", "Sol Gelé", "talent name")
+t("Shatter", "Eclatement", "talent name")
+t("Uttercold", "Froid Absolu", "talent name")
 -- texte non traduit
 --[==[
-t("Freeze", "Freeze", "talent name")
 t([[Condenses ambient water on a target, freezing it for %d turns and damaging it for %0.2f.
 		If this is used on a friendly target the cooldown is reduced by 33%%.
 		The damage will increase with your Spellpower.]], [[Condenses ambient water on a target, freezing it for %d turns and damaging it for %0.2f.
 		If this is used on a friendly target the cooldown is reduced by 33%%.
 		The damage will increase with your Spellpower.]], "tformat")
-t("Frozen Ground", "Frozen Ground", "talent name")
 t([[Blast a wave of cold all around you with a radius of %d, doing %0.2f cold damage and freezing creatures to the ground for 4 turns.
 		Affected creatures can still act, but cannot move.
 		For each affected creature that is also wet the cooldown of Shatter decreases by 2.
@@ -28046,7 +28045,6 @@ t([[Blast a wave of cold all around you with a radius of %d, doing %0.2f cold da
 		Affected creatures can still act, but cannot move.
 		For each affected creature that is also wet the cooldown of Shatter decreases by 2.
 		The damage will increase with your Spellpower.]], "tformat")
-t("Shatter", "Shatter", "talent name")
 t("%s shatters!", "%s shatters!", "logSeen")
 t([[Shatter all frozen targets in your line of sight, doing %0.2f cold damage.
 		Depending on the target's rank, there will also be an additional effect:
@@ -28065,7 +28063,6 @@ t([[Shatter all frozen targets in your line of sight, doing %0.2f cold damage.
 		At most, it will affect %d foes.
 		If you are yourself Frozen, it will instantly be destroyed.
 		The damage will increase with your Spellpower.]], "tformat")
-t("Uttercold", "Uttercold", "talent name")
 t([[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%% and ignoring %d%% cold resistance of your targets
 		In addition you pierce through iceblocks easily, reducing damage absorbed from your attacks by iceblocks by %d%%.]], [[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%% and ignoring %d%% cold resistance of your targets
 		In addition you pierce through iceblocks easily, reducing damage absorbed from your attacks by iceblocks by %d%%.]], "tformat")
@@ -28478,12 +28475,13 @@ t("On using Ghost Walk - Return, you create a portal that summons %d spirits aro
 ------------------------------------------------
 section "mod-tome/data/talents/spells/spells.lua"
 
-t("spell", "contre les sorts", "talent category")
+t("spell", "sorts", "talent category")
 t("arcane", "dégâts d'arcane", "talent type")
 t("aether", "éther", "talent type")
 t("fire", "feu", "talent type")
+t("wildfire", "feu de brousse", "talent type")
 t("earth", "terre", "talent type")
-t("stone", "gardien de pierre", "talent type")
+t("stone", "pierre", "talent type")
 t("water", "eau", "talent type")
 t("ice", "glace", "talent type")
 t("storm", "orage", "talent type")
@@ -28497,7 +28495,6 @@ t("grave", "tombe", "talent type")
 t("Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "_t")
 t("Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "_t")
 t("Harness the power of fire to burn your foes to ashes.", "Harness the power of fire to burn your foes to ashes.", "_t")
-t("wildfire", "wildfire", "talent type")
 t("Harness the power of wildfire to burn your foes to ashes.", "Harness the power of wildfire to burn your foes to ashes.", "_t")
 t("Harness the power of the earth to protect and destroy.", "Harness the power of the earth to protect and destroy.", "_t")
 t("Harness the power of the stone to protect and destroy.", "Harness the power of the stone to protect and destroy.", "_t")
@@ -28663,16 +28660,17 @@ t([[Touch your foe and turn it to stone for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/stone.lua"
 
-
+t("Earthen Missiles", "Missiles en Terre", "talent name")
+t("Body of Stone", "Corps de Pierre", "talent name")
+t("Earthquake", "Tremblement de Terre", "talent name")
+t("Crystalline Focus", "Focus Cristallin", "talent name")
 -- texte non traduit
 --[==[
-t("Earthen Missiles", "Earthen Missiles", "talent name")
 t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
 		At talent level 5, you can conjure one additional missile.
 		The damage will increase with your Spellpower.]], [[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
 		At talent level 5, you can conjure one additional missile.
 		The damage will increase with your Spellpower.]], "tformat")
-t("Body of Stone", "Body of Stone", "talent name")
 t([[You root yourself into the earth, and transform your flesh into stone.  While this spell is sustained, you may not move, and any forced movement will end the effect.
 		Your stone form and your affinity with the earth while the spell is active has the following effects:
 		* Reduces the cooldown of Earthen Missiles, Pulverizing Auger, Earthquake, and Mudslide by %d%%.
@@ -28682,11 +28680,9 @@ t([[You root yourself into the earth, and transform your flesh into stone.  Whil
 		* Reduces the cooldown of Earthen Missiles, Pulverizing Auger, Earthquake, and Mudslide by %d%%.
 		* Grants %d%% Fire Resistance, %d%% Lightning Resistance, %d%% Acid Resistance, and %d%% Stun Resistance.
 		Resistances scale with your Spellpower.]], "tformat")
-t("Earthquake", "Earthquake", "talent name")
 t([[Causes a violent earthquake that deals %0.2f physical damage in a radius of %d each turn for %d turns, and potentially stuns any and all creatures it affects.
 		The damage will increase with your Spellpower.]], [[Causes a violent earthquake that deals %0.2f physical damage in a radius of %d each turn for %d turns, and potentially stuns any and all creatures it affects.
 		The damage will increase with your Spellpower.]], "tformat")
-t("Crystalline Focus", "Crystalline Focus", "talent name")
 t([[Concentrate on maintaining a Crystalline Focus, increasing all your physical damage by %0.1f%% and ignoring %d%% physical resistance of your targets.
 		Also raises your physical and magical saves by %d.]], [[Concentrate on maintaining a Crystalline Focus, increasing all your physical damage by %0.1f%% and ignoring %d%% physical resistance of your targets.
 		Also raises your physical and magical saves by %d.]], "tformat")
@@ -28696,26 +28692,25 @@ t([[Concentrate on maintaining a Crystalline Focus, increasing all your physical
 ------------------------------------------------
 section "mod-tome/data/talents/spells/storm.lua"
 
-
+t("Shock", "Choc", "talent name")
+t("Hurricane", "Ouragan", "talent name")
+t("Tempest", "Orage", "talent name")
 -- texte non traduit
 --[==[
 t("Nova", "Nova", "talent name")
 t([[Lightning emanates from you in a circular wave with radius %d, doing %0.2f to %0.2f lightning damage (%0.2f average) and possibly dazing anyone affected (75%% chance).
 		The damage will increase with your Spellpower.]], [[Lightning emanates from you in a circular wave with radius %d, doing %0.2f to %0.2f lightning damage (%0.2f average) and possibly dazing anyone affected (75%% chance).
 		The damage will increase with your Spellpower.]], "tformat")
-t("Shock", "Shock", "talent name")
 t([[Conjures up a bolt of lightning, doing %0.2f to %0.2f damage (%0.2f average) and dazing the target for 3 turns.
 		If the target resists the daze effect it is instead shocked, which halves stun/daze/pin resistance, for 5 turns.
 		The damage will increase with your Spellpower.]], [[Conjures up a bolt of lightning, doing %0.2f to %0.2f damage (%0.2f average) and dazing the target for 3 turns.
 		If the target resists the daze effect it is instead shocked, which halves stun/daze/pin resistance, for 5 turns.
 		The damage will increase with your Spellpower.]], "tformat")
-t("Hurricane", "Hurricane", "talent name")
 t([[Each time one of your lightning spells dazes a target, it has a %d%% chance to creates a chain reaction that summons a mighty Hurricane that lasts for 10 turns around the target with a radius of %d.
 		Each turn, the afflicted creature and all creatures around it will take %0.2f to %0.2f lightning damage (%0.2f average).
 		The damage will increase with your Spellpower.]], [[Each time one of your lightning spells dazes a target, it has a %d%% chance to creates a chain reaction that summons a mighty Hurricane that lasts for 10 turns around the target with a radius of %d.
 		Each turn, the afflicted creature and all creatures around it will take %0.2f to %0.2f lightning damage (%0.2f average).
 		The damage will increase with your Spellpower.]], "tformat")
-t("Tempest", "Tempest", "talent name")
 t([[Surround yourself with a Tempest, increasing all your lightning damage by %d%% and ignoring %d%% lightning resistance of your targets.
 		Your Lightning and Chain Lightning spells also gain a %d%% chance to daze, and your Thunderstorm spell gains a %d%% chance to daze.]], [[Surround yourself with a Tempest, increasing all your lightning damage by %d%% and ignoring %d%% lightning resistance of your targets.
 		Your Lightning and Chain Lightning spells also gain a %d%% chance to daze, and your Thunderstorm spell gains a %d%% chance to daze.]], "tformat")
@@ -28752,16 +28747,17 @@ t("Increases the caster's global speed by %d%%.", "Increases the caster's global
 ------------------------------------------------
 section "mod-tome/data/talents/spells/thaumaturgy.lua"
 
-
+t("Orb of Thaumaturgy", "Orbe de Thaumaturgie", "talent name")
+t("Multicaster", "Multilanceur", "talent name")
+t("Slipstream", "Passage en Douceur", "talent name")
+t("Elemental Array Burst", "Rafale de Rayons Elémentaires", "talent name")
 -- texte non traduit
 --[==[
-t("Orb of Thaumaturgy", "Orb of Thaumaturgy", "talent name")
 t([[You create an orb attuned to thaumaturgy for %d turns.
 		While it lasts, any beam spell you cast will be duplicated and also cast for free at the orb for %d%% of the normal damage.
 		]], [[You create an orb attuned to thaumaturgy for %d turns.
 		While it lasts, any beam spell you cast will be duplicated and also cast for free at the orb for %d%% of the normal damage.
 		]], "tformat")
-t("Multicaster", "Multicaster", "talent name")
 t("#LIGHT_BLUE#%s [known, eligible]#LAST#", "#LIGHT_BLUE#%s [known, eligible]#LAST#", "tformat")
 t("#YELLOW#%s [known]#LAST#", "#YELLOW#%s [known]#LAST#", "tformat")
 t("#GREY#%s [unknown]#LAST#", "#GREY#%s [unknown]#LAST#", "tformat")
@@ -28780,7 +28776,6 @@ t([[Casting beam spells has become so instinctive for you that you can now easil
 		During Aether Avatar only compatible spells are used.
 
 		Eligible spells: %s]], "tformat")
-t("Slipstream", "Slipstream", "talent name")
 t("#PURPLE#Your Slipstream does not have enough resources!", "#PURPLE#Your Slipstream does not have enough resources!", "logPlayer")
 t("#PURPLE#Your Slipstream regenerates to full!", "#PURPLE#Your Slipstream regenerates to full!", "logPlayer")
 t([[By weaving arcane triggers around you feet you can use the residual energies of your beam spells for free movement.
@@ -28790,7 +28785,6 @@ t([[By weaving arcane triggers around you feet you can use the residual energies
 		Each time you cast a beam spell you can move right afterwards without spending a turn.
 		This spell has %d charges. Once all charges are spent it unsustains.
 		If you exit combat with some charges left it will after 10 turn regenerates its charges, if you have enough mana.]], "tformat")
-t("Elemental Array Burst", "Elemental Array Burst", "talent name")
 t([[Using your near-perfect knowledge of beam spells you combine them all into a powerful 3-wide beam of pure energy.
 		The beam deals %0.2f thaumic damage and always goes as far as possible.
 		Thaumic damage can never be resisted by anything but "Resistance: All", always uses your highest resistance penetration and highest damage type bonus and can never be altered into other damage types.
@@ -28826,10 +28820,9 @@ t([[Turn part of your target into fire, burning the rest for %0.2f fire damage o
 ------------------------------------------------
 section "mod-tome/data/talents/spells/water.lua"
 
-
+t("Ice Shards", "Eclats de Glace", "talent name")
 -- texte non traduit
 --[==[
-t("Ice Shards", "Ice Shards", "talent name")
 t([[Hurl ice shards at the targets in the selected area. Each shard travels slowly and does %0.2f ice damage, hitting all adjacent targets on impact with 25%% chance to freeze them.
 		If the target resists being frozen, it instead get wet.
 		If the target is wet the damage increases by 30%% and the ice freeze chance increases to 50%%.
@@ -28881,18 +28874,18 @@ t([[A furious ice storm rages around the caster, doing %0.2f cold damage in a ra
 ------------------------------------------------
 section "mod-tome/data/talents/spells/wildfire.lua"
 
-
+t("Blastwave", "Déflagration", "talent name")
+t("Burning Wake", "Feux Dansants", "talent name")
+t("Cleansing Flames", "Feux Purificateurs", "talent name")
+t("Wildfire", "Feu de Brousse", "talent name")
 -- texte non traduit
 --[==[
-t("Blastwave", "Blastwave", "talent name")
 t([[A wave of fire emanates from you with a radius of %d, knocking back anything caught inside and setting them ablaze, doing %0.2f fire damage over 3 turns.
 		The damage will increase with your Spellpower.]], [[A wave of fire emanates from you with a radius of %d, knocking back anything caught inside and setting them ablaze, doing %0.2f fire damage over 3 turns.
 		The damage will increase with your Spellpower.]], "tformat")
-t("Burning Wake", "Burning Wake", "talent name")
 t([[Your Flame, Flameshock, Fireflash and Blastwave spells leave a burning wake on the ground, burning all within for %0.2f fire damage for 4 turns.
 		The damage will increase with your Spellpower.]], [[Your Flame, Flameshock, Fireflash and Blastwave spells leave a burning wake on the ground, burning all within for %0.2f fire damage for 4 turns.
 		The damage will increase with your Spellpower.]], "tformat")
-t("Cleansing Flames", "Cleansing Flames", "talent name")
 t([[When you stand in your Burning Wake or Inferno ground effect, you can self immolate to trigger Cleansing Flames for %d turns.
 		While the effect lasts you will take %0.2f fire damage per turn.
 		Each turn there is a %d%% chance for any creature taking damage from Burning Wake, Inferno or Cleansing Flames to remove a status effect (physical or magical).
@@ -28902,7 +28895,6 @@ t([[When you stand in your Burning Wake or Inferno ground effect, you can self i
 		Each turn there is a %d%% chance for any creature taking damage from Burning Wake, Inferno or Cleansing Flames to remove a status effect (physical or magical).
 		If the target is hostile, it will remove a beneficial effect.
 		If the target is friendly, it will remove a detrimental effect.]], "tformat")
-t("Wildfire", "Wildfire", "talent name")
 t("Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, ignoring %d%% fire resistance of your targets and reducing self-inflicted fire damage by %d%%.", "Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, ignoring %d%% fire resistance of your targets and reducing self-inflicted fire damage by %d%%.", "tformat")
 --]==]
 
@@ -32774,31 +32766,23 @@ Maintenant allez de l'autre coté de l'étendue d'eau.
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-adventurer.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Adventurer", "New Class: #LIGHT_GREEN#Adventurer", "_t")
+t("New Class: #LIGHT_GREEN#Adventurer", "Nouvelle classe: #LIGHT_GREEN#Aventurier", "_t")
 t([[Congratulations, you have won the game!
 You can now create new characters with the #LIGHT_GREEN#Adventurer class#WHITE#.
 
 Adventurers start the game with 7 talent category points and all possible class and generic trees in the game.
 They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
-Use at your own risk, and have fun.]], [[Congratulations, you have won the game!
-You can now create new characters with the #LIGHT_GREEN#Adventurer class#WHITE#.
+Use at your own risk, and have fun.]], [[Félicitations, vous avez gagné la partie!
+Vous pouvez maintenant crée de nouveaux personnages avec la #LIGHT_GREEN#classe Aventurier#WHITE#.
 
-Adventurers start the game with 7 talent category points and all possible class and generic trees in the game.
-They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
-Use at your own risk, and have fun.]], "_t")
---]==]
-
+Les Aventuriers commencent le jeu avec 7 points de catégorie de talent et tous les arbres de classe et génériques possibles dans le jeu.
+C'est une classe #{bold}#bonus#{normal}#, en aucun cas destiné à être équilibré ou même à fonctionner avec toutes les combinaisons de talents possibles.
+A utiliser à vos risques et périls, et amusez-vous bien.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-afflicted_cursed.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Cursed (Afflicted)", "New Class: #LIGHT_GREEN#Cursed (Afflicted)", "_t")
+t("New Class: #LIGHT_GREEN#Cursed (Afflicted)", "Nouvelle classe: #LIGHT_GREEN#Maudit (Afflgé)", "_t")
 t([[Through ignorance, greed or folly, the Cursed served some dark design and are now doomed to pay for their sins.
 Their only master now is the hatred they carry for every living thing.
 Drawing strength from the death of all they encounter, the Cursed become terrifying combatants.
@@ -32815,33 +32799,28 @@ Class features:#YELLOW#
 
 The Cursed use hate, a resource that grows as they kill their foes and decreases while standing idle.
 Most of their talents are more effective with high hate.
-]], [[Through ignorance, greed or folly, the Cursed served some dark design and are now doomed to pay for their sins.
-Their only master now is the hatred they carry for every living thing.
-Drawing strength from the death of all they encounter, the Cursed become terrifying combatants.
-Worse, any who approach the Cursed can be driven mad by their terrible aura.
-Some of them, however, strive to redeem their faults by using their Cursed powers to battle evil.
+]], [[Par ignorance, avidité ou folie, les Maudits ont servi un sombre dessein et sont maintenant condamnés à payer pour leurs péchés.
+Leur seul maître est désormais la haine qu'ils portent à tout être vivant.
+Puisant leur force dans la mort de tout ce qu'ils rencontrent, les Maudits deviennent des combattants terrifiants.
+Pire encore, quiconque s'approche des Maudits peut être rendu fou par leur terrible aura.
+Certains d'entre eux, cependant, s'efforcent de racheter leurs fautes en utilisant leurs pouvoirs de Maudits pour combattre le mal.
 
-You have "lifted" the curse of Ben Cruthdar. You can now create new characters with the #LIGHT_GREEN#Cursed class#WHITE#.
+Vous avez "levé" la malédiction de Ben Cruthdar. Vous pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Maudit#WHITE#.
 
-Cursed are heavy melee warriors, focusing all their hatred into their blows.
-Class features:#YELLOW#
-- Engulf your foes in your Gloom, weakening, confusing, stunning and damaging them
-- Hunt your prey, tracking them and marking them for death
-- Powerful melee combatant#WHITE#
+Les maudits sont des combattants violents en mêlée, concentrant toute leur haine dans leurs coups.
+Caractéristiques de classe:#YELLOW#
+- Engouffrez vos ennemis dans votre Gloom, les affaiblissant, les désorientant, les assommant et les endommageant.
+- Chassez vos proies, traquez-les et marquez-les pour la mort.
+- Puissant combattant de mêlée#WHITE#
 
-The Cursed use hate, a resource that grows as they kill their foes and decreases while standing idle.
-Most of their talents are more effective with high hate.
+Les Maudits utilisent la haine, une ressource qui augmente lorsqu'ils tuent leurs ennemis et diminue lorsqu'ils restent inactifs.
+La plupart de leurs talents sont plus efficaces lorsque la haine est élevée.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-afflicted_doomed.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Doomed (Afflicted)", "New Class: #LIGHT_GREEN#Doomed (Afflicted)", "_t")
+t("New Class: #LIGHT_GREEN#Doomed (Afflicted)", "Nouvelle classe: #LIGHT_GREEN#Condamné (Affligé)", "_t")
 t([[Through ignorance, greed or folly, the Doomed served some dark design and must now pay for their sins.
 Their only master now is the hatred they carry for every living thing.
 Drawing strength from the death of all they encounter, the Doomed become terrifying foes.
@@ -32859,72 +32838,57 @@ Class features:#YELLOW#
 
 The Doomed use hate, a resource that grows as they kill their foes and decreases while standing idle.
 Most of their talents are more effective with high hate.
-]], [[Through ignorance, greed or folly, the Doomed served some dark design and must now pay for their sins.
-Their only master now is the hatred they carry for every living thing.
-Drawing strength from the death of all they encounter, the Doomed become terrifying foes.
-Their mere presence engulfs the area in darkness.
-Some of them, however, strive to redeem their faults by using their Doomed powers to battle evil.
+]], [[Par ignorance, avidité ou folie, les Condamnés ont servi un sombre dessein et doivent maintenant payer pour leurs péchés.
+Leur seul maître est désormais la haine qu'ils vouent à tout être vivant.
+Puisant leur force dans la mort de tous ceux qu'ils rencontrent, les Condamnés deviennent des ennemis terrifiants.
+Leur simple présence engloutit les lieux dans les ténèbres.
+Certains d'entre eux, cependant, s'efforcent de racheter leurs fautes en utilisant leurs pouvoirs de Condamnés pour combattre le mal.
 
-You destroyed your own doomed shadow. You can now create new characters with the #LIGHT_GREEN#Doomed class#WHITE#.
+Vous avez détruit votre propre ombre condamnée. Vous pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Condamné#WHITE#.
 
-Doomed are short range spellcasters.
-Class features:#YELLOW#
-- Engulf your foes in darkness
-- Summon shadows to fight for you
-- Unleash your hatred in raw physical form
-- Feed off the life of your foes#WHITE#
+Les Condamnés sont des lanceurs de sorts à courte portée.
+Caractéristiques de classe:#YELLOW#
+- Plongez vos ennemis dans les ténèbres
+- Invoquez des ombres qui se battront pour vous
+- Libérez votre haine sous une forme brutale et physique
+- Se nourrir de la vie de vos ennemis#WHITE#
 
-The Doomed use hate, a resource that grows as they kill their foes and decreases while standing idle.
-Most of their talents are more effective with high hate.
+Les Condamnés utilisent la haine, une ressource qui augmente lorsqu'ils tuent leurs ennemis et diminue lorsqu'ils restent inactifs.
+La plupart de leurs talents sont plus efficaces lorsque la haine est élevée.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-birth_transmo_chest.lua"
 
-
--- texte non traduit
---[==[
-t("New birth equipment: #LIGHT_GREEN#Transmogrification Chest", "New birth equipment: #LIGHT_GREEN#Transmogrification Chest", "_t")
+t("New birth equipment: #LIGHT_GREEN#Transmogrification Chest", "Nouvel équipement de voyage: #LIGHT_GREEN#Coffre de Ttransmogrification", "_t")
 t([[You have discovered an old Fortress belonging to the mysterious Sher'tul race.
 The Fortress shadow gave you a transmogrification chest which shall make your dealing with storage and gold much easier.
 
 All your new characters will now start with a transmogrification chest at birth. All items transmogrified before you find the Fortress with them will only yield gold.
-]], [[You have discovered an old Fortress belonging to the mysterious Sher'tul race.
-The Fortress shadow gave you a transmogrification chest which shall make your dealing with storage and gold much easier.
+]], [[Vous avez découvert une ancienne forteresse appartenant à la mystérieuse race Sher'tul.
+L'ombre de la forteresse vous a donné un coffre de transmogrification qui vous permettra de gérer plus facilement le stockage et l'or.
 
-All your new characters will now start with a transmogrification chest at birth. All items transmogrified before you find the Fortress with them will only yield gold.
+Tous vos nouveaux personnages commenceront désormais avec un coffre de transmogrification à la naissance. Tous les objets transmogrifiés avant que vous ne trouviez la Forteresse avec eux ne rapporteront que de l'or.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-birth_zigur_sacrifice.lua"
 
-
--- texte non traduit
---[==[
-t("New birth power: #LIGHT_GREEN#Ziguranth Sacrifice", "New birth power: #LIGHT_GREEN#Ziguranth Sacrifice", "_t")
+t("New birth power: #LIGHT_GREEN#Ziguranth Sacrifice", "Nouveau pouvoir de voyage: #LIGHT_GREEN#Sacrifice Ziguranth", "_t")
 t([[You have discovered Zigur, the bastion of Nature fighting against all arcane magics.
 Magic has caused so much pain and suffering on the world, it needs to stop.
 
 All your new characters will now be able to betray arcane escort quests to send them to Zigur, granting new, different, rewards.
-]], [[You have discovered Zigur, the bastion of Nature fighting against all arcane magics.
-Magic has caused so much pain and suffering on the world, it needs to stop.
+]], [[Vous avez découvert Zigur, le bastion de la Nature qui lutte contre toutes les magies des arcanes.
+La magie a causé tant de douleur et de souffrance sur le monde, elle doit cesser.
 
-All your new characters will now be able to betray arcane escort quests to send them to Zigur, granting new, different, rewards.
+Tous vos nouveaux personnages pourront désormais trahir des quêtes d'escorte arcanique pour les envoyer à Zigur, ce qui leur permettra d'obtenir une autre récompense.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-campaign_arena.lua"
 
-
--- texte non traduit
---[==[
-t("New game campaign: #LIGHT_GREEN#The Arena: Challenge of the Master", "New game campaign: #LIGHT_GREEN#The Arena: Challenge of the Master", "_t")
+t("New game campaign: #LIGHT_GREEN#The Arena: Challenge of the Master", "Nouvelle Campagne: #LIGHT_GREEN#L'Arène: Le défi du Maître", "_t")
 t([[The arena, a way of violent entertainment. 
 A delight for the audience, a source of wealth and glory. A place where aspiring fighters, former adventurers and those cursed to fight
 eternally gather to hack away at each other.
@@ -32937,29 +32901,23 @@ Campaign features:#YELLOW#
 - Exclusive scoring system where the faster you kill, the more you earn. Scores are kept for bragging rights!
 - Pure hack and slash MAYHEM!
 - Your champion becomes the new master of the arena, allowing you to challenge your own champions!
-]], [[The arena, a way of violent entertainment. 
-A delight for the audience, a source of wealth and glory. A place where aspiring fighters, former adventurers and those cursed to fight
-eternally gather to hack away at each other.
+]], [[L'arène, un moyen de divertissement violent. 
+Un plaisir pour le public, une source de richesse et de gloire. Un lieu où les aspirants combattants, les anciens aventuriers et ceux condamnés à se battre se réunissent éternellement pour s'entretuer.
 
-You have unlocked the Arena and can now create new characters in a new campaign: #LIGHT_GREEN#The Arena#WHITE#.
+Vous avez débloqué l'Arène et pouvez maintenant créer de nouveaux personnages dans une nouvelle campagne.: #LIGHT_GREEN#L'Arène#WHITE#.
 
-The arena pits you against multiple enemies in an open field, making your battle tactics important for survival.
-Campaign features:#YELLOW#
-- No quests, plots, friendly creatures or ways out: only you against all odds.
-- Exclusive scoring system where the faster you kill, the more you earn. Scores are kept for bragging rights!
-- Pure hack and slash MAYHEM!
-- Your champion becomes the new master of the arena, allowing you to challenge your own champions!
+L'arène vous oppose à de multiples ennemis dans un champ ouvert, ce qui rend vos tactiques de combat importantes pour votre survie.
+Caractéristiques de la Campagne:#YELLOW#
+- Pas de quêtes, d'intrigues, de créatures amicales ou d'échappatoires: seulement vous contre tous.
+- Système de score exclusif où plus vous tuez vite, plus vous gagnez. Les scores sont conservés pour pouvoir se vanter!
+- Du pur hack et slash BORDELIQUE!
+- Votre champion devient le nouveau maître de l'arène, ce qui vous permet de défier vos propres champions!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-campaign_infinite_dungeon.lua"
 
-
--- texte non traduit
---[==[
-t("New game campaign: #LIGHT_GREEN#Infinite Dungeon: The Neverending Descent", "New game campaign: #LIGHT_GREEN#Infinite Dungeon: The Neverending Descent", "_t")
+t("New game campaign: #LIGHT_GREEN#Infinite Dungeon: The Neverending Descent", "Nouvelle Campagne: #LIGHT_GREEN#Donjon Infini : La Descente sans Fin", "_t")
 t([[During the Age of Haze, the nine Godslayers set out to destroy the gods.
 The god Ralkur, while trying to escape one of the Godslayers, created the Infinite Dungeon.
 He retreated there, but the Godslayer followed, and each time he would reach the god, Ralkur would create a new level.
@@ -32972,29 +32930,24 @@ Campaign features:#YELLOW#
 - No quests, plots, friendly creatures or ways out: only you against all odds.
 - No win condition: you WILL die in the dungeon, but you can prove your worth by going as deep as possible.
 - Pure hack and slash MAYHEM!#WHITE#
-]], [[During the Age of Haze, the nine Godslayers set out to destroy the gods.
-The god Ralkur, while trying to escape one of the Godslayers, created the Infinite Dungeon.
-He retreated there, but the Godslayer followed, and each time he would reach the god, Ralkur would create a new level.
-It is said the hunt continues even now, deep, very deep within the dungeon.
+]], [[Pendant l'âge de la brume, les neuf tueurs de dieux ont entrepris de détruire les dieux.
+Le dieu Ralkur, en essayant d'échapper à l'un des Tueurs de Dieux, créa le Donjon Infini.
+Il s'y retira, mais le Tueur de Dieux le suivit, et chaque fois qu'il atteignait le dieu, Ralkur créait un nouveau niveau.
+On dit que la chasse se poursuit encore aujourd'hui, au plus profond du donjon.
 
-You have unlocked the secret of the Infinite Dungeon and can now create new characters in a new campaign: #LIGHT_GREEN#Infinite Dungeon#WHITE#.
+Vous avez percé le secret du Donjon Infini et pouvez maintenant créer de nouveaux personnages dans une nouvelle campagne: #LIGHT_GREEN#Donjon Infini#WHITE#.
 
-The Infinite Dungeon is a set of ever-increasing levels filled with terrible foes.
-Campaign features:#YELLOW#
-- No quests, plots, friendly creatures or ways out: only you against all odds.
-- No win condition: you WILL die in the dungeon, but you can prove your worth by going as deep as possible.
-- Pure hack and slash MAYHEM!#WHITE#
+Le Donjon Infini est un ensemble de niveaux toujours plus grands remplis d'ennemis redoutables.
+Caractéristiques de la Campagne:#YELLOW#
+- Pas de quêtes, d'intrigues, de créatures amicales ou d'échappatoires: seulement vous contre tous.
+- Pas de condition de victoire : vous DEVEZ mourir dans le donjon, mais vous pouvez prouver votre valeur en allant le plus loin possible.
+- Du pur hack et slash BORDELIQUE!#WHITE#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-chronomancer_paradox_mage.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Paradox Mage (Chronomancer)", "New Class: #LIGHT_GREEN#Paradox Mage (Chronomancer)", "_t")
+t("New Class: #LIGHT_GREEN#Paradox Mage (Chronomancer)", "Nouvelle Classe: #LIGHT_GREEN#Mage du Paradoxe (Chronomancien)", "_t")
 t([[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
 Some seek to weave this fabric, to bend it and shape it to their own will.  Only the truly dedicated or the truly mad manage to unlock the secrets of time and space.
 
@@ -33009,31 +32962,26 @@ Class features:#YELLOW#
 
 Paradox Mages use Paradox for their powers.  It represents how much damage they've done to the spacetime continuum.
 The higher their paradox the greater the effect of their powers but the harder they'll be to control.
-]], [[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
-Some seek to weave this fabric, to bend it and shape it to their own will.  Only the truly dedicated or the truly mad manage to unlock the secrets of time and space.
+]], [[Le temps n'est pas une chose linéaire, il n'en a que l'apparence.  En vérité, c'est un tissu, le tissu même qui maintient l'univers ensemble.
+Certains cherchent à tisser ce tissu, à le plier et à le façonner selon leur propre volonté.  Seuls les plus dévoués ou les plus fous parviennent à percer les secrets du temps et de l'espace.
 
-You have learned such secrets and can now create new characters with the #LIGHT_GREEN#Paradox Mage class#WHITE#.
+Vous avez appris ces secrets et pouvez maintenant créer de nouveaux personnages avec la classe #LIGHT_GREEN#Mage du Paradoxe#WHITE#.
 
-Paradox Mages are non-traditional spell casters who use chronomancy to reshape the universe.
-Class features:#YELLOW#
-- Control the flow of time around you
-- Bend and manipulate the timestream or even pull yourself from the future
-- Manipulate space and gravity to smash your foes to pieces or keep them in place
-- See into the future or even travel into the past#WHITE#
+Les Mages du Paradoxe sont des lanceurs de sorts non traditionnels qui utilisent la chronomancie pour remodeler l'univers.
+Caractéristiques de classe:#YELLOW#
+- Contrôlez l'écoulement du temps autour de vous
+- Déformer et manipuler le flux temporel ou même se sortir du futur.
+- Manipulez l'espace et la gravité pour réduire vos ennemis en pièces ou les maintenir en place.
+- Voir dans le futur ou même voyager dans le passé#WHITE#
 
-Paradox Mages use Paradox for their powers.  It represents how much damage they've done to the spacetime continuum.
-The higher their paradox the greater the effect of their powers but the harder they'll be to control.
+Les Mages du Paradoxe utilisent le paradoxe pour leurs pouvoirs.  Il représente les dégâts qu'ils ont causés au continuum espace-temps.
+Plus leur paradoxe est élevé, plus l'effet de leurs pouvoirs est grand, mais plus ils sont difficiles à contrôler.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-chronomancer_temporal_warden.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Temporal Warden (Chronomancer)", "New Class: #LIGHT_GREEN#Temporal Warden (Chronomancer)", "_t")
+t("New Class: #LIGHT_GREEN#Temporal Warden (Chronomancer)", "Nouvelle Classe: #LIGHT_GREEN#Guardien du Temps (Chronomancien)", "_t")
 t([[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
 As with all great powers, there are those who seek to manipulate it and pervert it, but there are also those who seek to uphold rather than destroy.
 Those who have learned to bend, rather than break, the fabric can keep the balance against dark or power-hungry forces.
@@ -33048,31 +32996,26 @@ Class features:#YELLOW#
 
 Temporal Wardens use Paradox for their powers.  It represents how much damage they've done to the spacetime continuum.
 The higher their paradox the greater the effect of their powers but the harder they'll be to control.
-]], [[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
-As with all great powers, there are those who seek to manipulate it and pervert it, but there are also those who seek to uphold rather than destroy.
-Those who have learned to bend, rather than break, the fabric can keep the balance against dark or power-hungry forces.
+]], [[Le temps n'est pas une chose linéaire, il n'en a que l'apparence.  En vérité, c'est un tissu, le tissu même qui maintient l'univers ensemble.
+Comme pour tous les grands pouvoirs, il y a ceux qui cherchent à le manipuler et à le pervertir, mais il y a aussi ceux qui cherchent à le maintenir plutôt qu'à le détruire.
+Ceux qui ont appris à plier, plutôt qu'à briser, le tissu peuvent maintenir l'équilibre contre les forces obscures ou avides de pouvoir.
 
-You have been taught the ways of chronomancy by a Temporal Warden and can now create new characters with the #LIGHT_GREEN#Temporal Warden class#WHITE#.
+YUn Gardien du Temps vous a enseigné les voies de la chronomancie et vous pouvez maintenant créer de nouveaux personnages avec la classe de #LIGHT_GREEN#Gardien du Temps#WHITE#.
 
-Temporal Wardens are warriors proficient in both ranged and hand-to-hand combat.
-Class features:#YELLOW#
-- Dual-wield a medium sized and a small weapon or attack from afar with your ranged weapon skills
-- Manipulate space and time to speed yourself up, create wormholes, or even throw an opponent into the future
-- See into the future or even travel into the past#WHITE#
+Les Gardiens du Temps sont des guerriers compétents en combat à distance et en combat au corps à corps.
+Caractéristiques de classe:#YELLOW#
+- Maniez une arme de taille moyenne et une arme de petite taille ou attaquez à distance avec vos compétences en matière d'armes à distance
+- Manipulez l'espace et le temps pour vous accélérer, créer des trous de ver, ou même projeter un adversaire dans le futur
+- Voir dans le futur ou même voyager dans le passé#WHITE#
 
-Temporal Wardens use Paradox for their powers.  It represents how much damage they've done to the spacetime continuum.
-The higher their paradox the greater the effect of their powers but the harder they'll be to control.
+Les Gardiens du Temps utilisent le paradoxe pour leurs pouvoirs.  Il représente les dégâts qu'ils ont causés au continuum espace-temps.
+Plus leur paradoxe est élevé, plus l'effet de leurs pouvoirs est important, mais plus ils sont difficiles à contrôler.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-corrupter_corruptor.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Corruptor (Defiler)", "New Class: #LIGHT_GREEN#Corruptor (Defiler)", "_t")
+t("New Class: #LIGHT_GREEN#Corruptor (Defiler)", "Nouvelle Classe: #LIGHT_GREEN#Corrupteur (Profanateur)", "_t")
 t([[Every power has a dark side, including the arcane forces.
 Corruptors are mages that deal in dark, blighted, demonic magic to attain their goals.
 Not all of them are evil, though; some are simply selfish and concerned only with their own power.
@@ -33088,32 +33031,27 @@ Class features:#YELLOW#
 
 Corruptors use "vim" to power their special abilities.
 Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
-]], [[Every power has a dark side, including the arcane forces.
-Corruptors are mages that deal in dark, blighted, demonic magic to attain their goals.
-Not all of them are evil, though; some are simply selfish and concerned only with their own power.
+]], [[Chaque pouvoir a un côté sombre, y compris les forces arcaniques.
+Les Corrupteurs sont des mages qui ont recours à la magie noire, maléfique et démoniaque pour atteindre leurs objectifs.
+Ils ne sont pas tous mauvais, cependant; certains sont simplement égoïstes et ne se préoccupent que de leur propre pouvoir.
 
-You have been taught their ways by the Grand Corruptor and can now create new characters with the #LIGHT_GREEN#Corruptor class#WHITE#.
+Le Grand Corrupteur vous a enseigné ses méthodes et vous pouvez désormais créer de nouveaux personnages avec la #LIGHT_GREEN#classe Corrupteur#WHITE#..
 
-Corruptors are spellcasters, ranged attackers using magic.
-Class features:#YELLOW#
-- Plague your foes with deadly and contagious diseases
-- Hex and curse your foes, hindering and withering them away
-- Sap the life of your victims to heal yourself
-- Master demonic energies to burn and destroy. You can even summon a part of the demon plane, the Fearscape, to trap your foes.#WHITE#
+Les corrupteurs sont des lanceurs de sorts, des attaquants à distance utilisant la magie.
+Caractéristiques de classe:#YELLOW#
+- Empoisonnez vos ennemis avec des maladies mortelles et contagieuses
+- Maudissez vos ennemis, entravez-les et faites-les dépérir
+- Prenez la vie de vos victimes pour vous guérir
+- Maîtrisez les énergies démoniaques pour brûler et détruire. Vous pouvez même invoquer une partie du plan démoniaque, le Plan de la Peur, pour piéger vos ennemis.#WHITE#
 
-Corruptors use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
+Les Corrupteurs utilisent la "vigueur" pour alimenter leurs capacités spéciales.
+La vigueur est la force vitale de tous les êtres. Elle ne se régénère pas, et ne peut être volée qu'à vos ennemis.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-corrupter_reaver.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Reaver (Defiler)", "New Class: #LIGHT_GREEN#Reaver (Defiler)", "_t")
+t("New Class: #LIGHT_GREEN#Reaver (Defiler)", "Nouvelle Classe: #LIGHT_GREEN#Moissoneur (Profanateur)", "_t")
 t([[Under a veil of darkness and blight come the Reavers.
 The foot soldiers of evil forces, Reavers are found everywhere.
 Very rarely a Reaver will realise the wrongness of her way and use her powers to atone for her crimes.
@@ -33129,32 +33067,27 @@ Class features:#YELLOW#
 
 Reavers use "vim" to power their special abilities.
 Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
-]], [[Under a veil of darkness and blight come the Reavers.
-The foot soldiers of evil forces, Reavers are found everywhere.
-Very rarely a Reaver will realise the wrongness of her way and use her powers to atone for her crimes.
+]], [[Les Moissoneurs apparaissent sous un voile de ténèbres et de fléau.
+Soldats à pied des forces du mal, les Moissoneurs sont présents partout.
+Il est très rare qu'un Moissoneur se rende compte du mal qu'il fait et utilise ses pouvoirs pour expier ses crimes.
 
-You have slain numerous humanoids and can now create new characters with the #LIGHT_GREEN#Reaver class#WHITE#.
+Vous avez tué de nombreux humanoïdes et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Moissoneur#WHITE#.
 
-Reavers are heavy melee with spellcasting support.
-Class features:#YELLOW#
-- Plague your foes with deadly and contagious diseases
-- Hex and curse your foes, hindering and withering them away
-- Accomplish deadly melee moves of utmost evil
-- Harness the power of bones to attack and protect#WHITE#
+Les Reavers sont des combattants de mêlée lourd et des lanceurs de sorts.
+Caractéristiques de classe:#YELLOW#
+- Empoisonnez vos ennemis avec des maladies mortelles et contagieuse
+- Maudissez vos ennemis, entravez-les et faites-les dépérir
+- Effectuez des mouvements de mêlée mortels de la plus grande méchanceté
+- Exploitez le pouvoir des os pour attaquer et protéger#WHITE#
 
-Reavers use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
+Les Moissoneurs utilisent la "vigueur" pour alimenter leurs capacités spéciales.
+La vigueur est la force vitale de tous les êtres. Elle ne se régénère pas, et ne peut être volée qu'à vos ennemis.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-cosmetic_bikini.lua"
 
-
--- texte non traduit
---[==[
-t("New Cosmetic Option: #LIGHT_GREEN#Bikini and Mankini", "New Cosmetic Option: #LIGHT_GREEN#Bikini and Mankini", "_t")
+t("New Cosmetic Option: #LIGHT_GREEN#Bikini and Mankini", "Nouvelle Option Cosmétique: #LIGHT_GREEN#Bikini et Mankini", "_t")
 t([[You have saved Melinda again at the beach.
 
 You may now create characters that start equiped with either bikini or mankini.
@@ -33163,25 +33096,20 @@ This has no effect on gameplay at all but it is fun!
 #{bold}#Also if you never take your bikini/mankini off and manage to win, you will get an achievement!#{normal}#
 
 #LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], [[You have saved Melinda again at the beach.
+]], [[Vous avez encore sauvé Melinda à la plage.
 
-You may now create characters that start equiped with either bikini or mankini.
-This has no effect on gameplay at all but it is fun!
+Vous pouvez maintenant créer des personnages qui commencent par être équipés d'un bikini ou d'un mankini.
+Cela n'a aucun effet sur le gameplay mais c'est fun!
 
-#{bold}#Also if you never take your bikini/mankini off and manage to win, you will get an achievement!#{normal}#
+#{bold}#De plus, si vous n'enlevez jamais votre bikini/mankini et que vous parvenez à gagner, vous obtiendrez un succès!#{normal}#
 
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
+#LIGHT_GREEN#Ceci est uniquement disponible pour les donateurs. Merci pour votre soutien!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-cosmetic_class_alchemist_drolem.lua"
 
-
--- texte non traduit
---[==[
-t("New Class Option: #LIGHT_GREEN#Drolem", "New Class Option: #LIGHT_GREEN#Drolem", "_t")
+t("New Class Option: #LIGHT_GREEN#Drolem", "Nouvelle Classe: #LIGHT_GREEN#Drolem", "_t")
 t([[You have defeated Tannen with your Alchemist and took some time to figure how he built a mighty Drolem.
 Drolems are dragon-shaped golems able to breath powerful poison at their foes.
 
@@ -33189,24 +33117,19 @@ You may now create alchemist characters with a drolem instead of a golem.
 Drolems look awesome and can eventually learn to breathe poison.
 
 #LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], [[You have defeated Tannen with your Alchemist and took some time to figure how he built a mighty Drolem.
-Drolems are dragon-shaped golems able to breath powerful poison at their foes.
+]], [[Vous avez vaincu Tannen avec votre alchimiste et avez pris le temps de comprendre comment il a construit un puissant Drolem.
+Les Drolems sont des golems en forme de dragon capables de souffler un puissant poison sur leurs ennemis.
 
-You may now create alchemist characters with a drolem instead of a golem.
-Drolems look awesome and can eventually learn to breathe poison.
+Vous pouvez désormais créer des personnages alchimistes avec un Drolem au lieu d'un Golem.
+Les Drolems sont superbes et peuvent éventuellement apprendre à souffler du poison.
 
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
+#LIGHT_GREEN#Ceci est uniquement disponible pour les donateurs. Merci pour votre soutien!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-cosmetic_race_dwarf_female_beard.lua"
 
-
--- texte non traduit
---[==[
-t("New Cosmetic Race Option: #LIGHT_GREEN#Facial Pilosity for Female Dwarves", "New Cosmetic Race Option: #LIGHT_GREEN#Facial Pilosity for Female Dwarves", "_t")
+t("New Cosmetic Race Option: #LIGHT_GREEN#Facial Pilosity for Female Dwarves", "Nouvelle Option Cosmétique Raciale: #LIGHT_GREEN#Pilosité Faciale pour les Naines", "_t")
 t([[You have saved the Iron Council from untold horrors from the deep.
 
 You may now create female dwarf characters sporting proudly facial pilosity as is the norm in the upper classes of dwarven society.
@@ -33215,44 +33138,36 @@ This has no effect on gameplay at all but it is fun!
 #LIGHT_GREEN#This is only available to donators. Thanks for your support!
 ]], [[You have saved the Iron Council from untold horrors from the deep.
 
-You may now create female dwarf characters sporting proudly facial pilosity as is the norm in the upper classes of dwarven society.
-This has no effect on gameplay at all but it is fun!
+Vous avez sauvé le Conseil de Fer d'horreurs indicibles venues des profondeurs.
 
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
+Vous pouvez désormais créer des personnages nains féminins arborant fièrement une pilosité faciale, comme c'est la norme dans les classes supérieures de la société naine.
+Cela n'a aucun effet sur le gameplay mais c'est fun!
+
+#LIGHT_GREEN#Ceci est uniquement disponible pour les donateurs. Merci pour votre soutien!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-cosmetic_race_human_redhead.lua"
 
-
--- texte non traduit
---[==[
-t("New Cosmetic Race Option: #LIGHT_GREEN#Redhead Characters", "New Cosmetic Race Option: #LIGHT_GREEN#Redhead Characters", "_t")
+t("New Cosmetic Race Option: #LIGHT_GREEN#Redhead Characters", "Nouvelle Option Cosmétique Raciale: #LIGHT_GREEN#Personnages Roux", "_t")
 t([[You have saved Melinda from untold horrors and torments.
 
 You may now create human, elf, halfling and dwarf characters with red hair.
 This has no effect on gameplay at all but it is fun!
 
 #LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], [[You have saved Melinda from untold horrors and torments.
+]], [[Vous avez sauvé Melinda d'horreurs et de tourments indicibles.
 
-You may now create human, elf, halfling and dwarf characters with red hair.
-This has no effect on gameplay at all but it is fun!
+Vous pouvez désormais créer des personnages humains, elfes, halfelin et nains avec des cheveux roux.
+Cela n'a aucun effet sur le gameplay, mais c'est fun!
 
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
+#LIGHT_GREEN#Ceci est uniquement disponible pour les donateurs. Merci pour votre soutien!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-difficulty_insane.lua"
 
-
--- texte non traduit
---[==[
-t("New game difficulty mode: #LIGHT_GREEN#Insane", "New game difficulty mode: #LIGHT_GREEN#Insane", "_t")
+t("New game difficulty mode: #LIGHT_GREEN#Insane", "Nouveau mode de Difficulté: #LIGHT_GREEN#Insensé", "_t")
 t([[You won the game on Nightmare mode.  You are a big tough player!
 You thought you had seen it all, done it all...
 
@@ -33267,31 +33182,26 @@ Insane features:#YELLOW#
 - Player can earn Insane version of achievements if also playing in Roguelike permadeath mode.
 
 #WHITE#May you suffer many fun and unfair deaths!
-]], [[You won the game on Nightmare mode.  You are a big tough player!
-You thought you had seen it all, done it all...
+]], [[Vous avez vaincu le jeu en mode Cauchemar. Vous êtes un grand joueur coriace!
+Vous pensiez avoir tout vu, tout fait...
 
-But no! If nightmare mode couldn't bring you down, Insane mode will!
+Mais non! Si le mode Cauchemar n'a pas pu vous abattre, le mode Insensé le fera!
 
-Insane features:#YELLOW#
-- All zone levels increased by 50% + 3
-- All creature talent levels increased by 50%
-- Rare creatures are far more frequent and random bosses start to appear
-- Bosses will have randomly selected talents
-- All enemies have 20% more life
-- Player can earn Insane version of achievements if also playing in Roguelike permadeath mode.
+Caractéristiques Insensées:#YELLOW#
+- Tous les niveaux de zone sont augmentés de 50% + 3
+- Tous les niveaux de talents des créatures sont augmentés de 50%
+- Les créatures rares sont beaucoup plus fréquentes et des boss aléatoires commencent à apparaître
+- Les boss auront des talents choisis au hasard
+- Tous les ennemis ont 20% de vie en plus
+- Le joueur peut obtenir les succès du mode Insensé s'il joue également en mode Roguelike.
 
-#WHITE#May you suffer many fun and unfair deaths!
+#WHITE#Puissiez-vous souffrir de nombreuses morts amusantes et injustes!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-difficulty_madness.lua"
 
-
--- texte non traduit
---[==[
-t("New game difficulty mode: #LIGHT_GREEN#Madness", "New game difficulty mode: #LIGHT_GREEN#Madness", "_t")
+t("New game difficulty mode: #LIGHT_GREEN#Madness", "Nouveau mode de Difficulté: #LIGHT_GREEN#Folie", "_t")
 t([[You won the game on Insane mode.  You are one of the best players!
 But fear not because the game is just about to get even more unfair on you!
 
@@ -33306,31 +33216,26 @@ Madness features:#YELLOW#
 - Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.
 
 #WHITE#May you suffer many fun and unfair deaths!
-]], [[You won the game on Insane mode.  You are one of the best players!
-But fear not because the game is just about to get even more unfair on you!
+]], [[Vous avez vaincu le jeu en mode insensé. Vous êtes l'un des meilleurs joueurs!
+Mais n'ayez crainte car le jeu est sur le point de devenir encore plus injuste pour vous!
 
-Welcome to Madness!
+Bienvenue dans le mode Folie!
 
-Madness features:#YELLOW#
-- All zone levels increased by 150% + 6
-- All creature talent levels increased by 170%
-- Rare creatures are far more frequent and random bosses start to appear
-- Bosses will have randomly selected talents
-- Player is being hunted! Randomly all foes in a radius will get a feeling of where she/he is
-- Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.
+Caractéristiques de Folie:#YELLOW#
+- Tous les niveaux de zone sont augmentés de 150% + 6
+- Tous les niveaux de talents des créatures sont augmentés de 170%
+- Les créatures rares sont beaucoup plus fréquentes et des boss aléatoires commencent à apparaître
+- Les boss auront des talents choisis au hasard
+- Le joueur est pourchassé! Au hasard, tous les ennemis dans un rayon donné auront une idée de l'endroit où il se trouve.
+- Le joueur peut obtenir les succès du mode Folie s'il joue également en mode Roguelike ou Aventure.
 
-#WHITE#May you suffer many fun and unfair deaths!
+#WHITE#Puissiez-vous souffrir de nombreuses morts amusantes et injustes!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-divine_anorithil.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Anorithil (Celestial)", "New Class: #LIGHT_GREEN#Anorithil (Celestial)", "_t")
+t("New Class: #LIGHT_GREEN#Anorithil (Celestial)", "Nouvelle Classe: #LIGHT_GREEN#Anorithil (Céleste)", "_t")
 t([[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
 
 Anorithil are mages who are trained in special magic to focus the powers of the Sun and Moons.
@@ -33348,34 +33253,29 @@ Class features:#YELLOW#
 
 Anorithil use "positive and negative energy" to use their special abilities.
 These are filled by some of their spells and depleted by others, making them alternate their talents.
-]], [[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
+]], [[Au fin fond de l'Est, sur le continent connu sous le nom d'Extrême-Orient, vivent les derniers vestiges des Elfes et des Humains, luttant contre les clans Orcs et les nombreux périls de l'Extrême-Orient.
 
-Anorithil are mages who are trained in special magic to focus the powers of the Sun and Moons.
-They have learned to harness the energy of both shadows and light in their battle against the Pride.
-Their motto is: "We stand betwixt the Sun and Moons, where light and darkness meet. In the grey twilight we seek our destiny."
+Les Anorithil sont des mages formés à une magie spéciale concentrant les pouvoirs du Soleil et des Lunes.
+Ils ont appris à exploiter l'énergie des ombres et de la lumière dans leur combat contre les clans Orcs.
+Leur devise est : "Nous nous tenons entre le Soleil et les Lunes, là où la lumière et l'obscurité se rencontrent. Dans le crépuscule gris, nous cherchons notre destin."
 
-You have helped one of them and can now create new characters with the #LIGHT_GREEN#Anorithil class#WHITE#.
+Vous avez aidé l'un d'entre eux et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Anorithil#WHITE#.
 
-Anorithil are pure spellcasters that rely on positive and negative energies.
-Class features:#YELLOW#
-- Burn your foes from afar with the light and fire of the Sun
-- Head into battle enhanced by your powerful Sun Chants and Moon Hymns
-- Engulf your foes in the shadows
-- Set glyphs of power to confuse and control your foes#WHITE#
+Les Anorithil sont de purs lanceurs de sorts qui s'appuient sur les énergies positives et négatives.
+Caractéristiques de classe:#YELLOW#
+- Brûlez vos ennemis de loin avec la lumière et le feu du soleil
+- Partez au combat renforcé par vos puissants chants du soleil et vos hymnes de la lune
+- Engloutissez vos ennemis dans les ombres
+- Créez des glyphes de pouvoir pour désorienter et contrôler vos ennemis#WHITE#
 
-Anorithil use "positive and negative energy" to use their special abilities.
-These are filled by some of their spells and depleted by others, making them alternate their talents.
+Les Anorithils utilisent des "énergies positives et négatives" pour utiliser leurs capacités spéciales.
+Celles-ci sont remplies par certains de leurs sorts et épuisées par d'autres, ce qui leur permet d'alterner leurs talents.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-divine_sun_paladin.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Sun Paladin (Celestial)", "New Class: #LIGHT_GREEN#Sun Paladin (Celestial)", "_t")
+t("New Class: #LIGHT_GREEN#Sun Paladin (Celestial)", "Nouvelle Classe: #LIGHT_GREEN#Paladin Solaire (Céleste)", "_t")
 t([[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
 
 Sun Paladins are warriors who are trained in special magic to focus the powers of the Sun.
@@ -33393,34 +33293,29 @@ Class features:#YELLOW#
 
 Sun Paladins use "positive energy" to power their special abilities.
 It is filled by some of their spells and depleted by others, making them alternate their talents.
-]], [[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
+]], [[Au fin fond de l'Est, sur le continent connu sous le nom d'Extrême-Orient, vivent les derniers vestiges des Elfes et des Humains, luttant contre les clans Orcs et les nombreux périls de l'Extrême-Orient.
 
-Sun Paladins are warriors who are trained in special magic to focus the powers of the Sun.
-Paragons of all that is good, they are nonetheless terrible in their battle against the Pride.
-Their motto is: "The Sun is our giver, our purity, our essence. We carry the light into dark places, and against our strength none shall pass."
+Les Paladins Solaires sont des guerriers formés à une magie spéciale concentrant les pouvoirs du Soleil.
+Paragons de tout ce qui est bon, ils n'en sont pas moins terribles dans leur combat contre le Fierté.
+Leur devise est : "Le Soleil est notre donateur, notre pureté, notre essence. Nous portons la lumière dans les endroits sombres, et personne ne pourra résister à notre force."
 
-You have discovered the Gates of Morning and can now create new characters with the #LIGHT_GREEN#Sun Paladin class#WHITE#.
+Vous avez découvert les Portes du Matin et pouvez maintenant créer de nouveaux personnages avec la classe #LIGHT_GREEN#Paladin Solaire#WHITE#.
 
-Sun Paladins are heavy melee with spellcasting support.
-Class features:#YELLOW#
-- Burn your foes from afar with the light and fire of the Sun
-- Head into battle enhanced by your powerful Chants
-- Channel the power of the Sun through your weapon
-- Become a walking fortress, protected by your shield#WHITE#
+Les Paladins Solaires sont des combattants de mêlée lourd avec un support de lanceur de sorts.
+Caractéristiques de classe:#YELLOW#
+- Brûlez vos ennemis de loin avec la lumière et le feu du soleil
+- Partez au combat renforcé par de puissants chants
+- Canalisez la puissance du soleil à travers votre arme
+- Devenez une forteresse ambulante, protégée par votre bouclier#WHITE#
 
-Sun Paladins use "positive energy" to power their special abilities.
-It is filled by some of their spells and depleted by others, making them alternate their talents.
+Les Paladins Solaire utilisent une "énergie positive" pour alimenter leurs capacités spéciales.
+Elle est remplie par certains de leurs sorts et épuisée par d'autres, ce qui leur permet d'alterner leurs talents.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Archmage", "New Class: #LIGHT_GREEN#Archmage", "_t")
+t("New Class: #LIGHT_GREEN#Archmage", "Nouvelle Classe: #LIGHT_GREEN#Archimage", "_t")
 t([[Magic has not disappeared from Maj'Eyal with the end of the Spellhunt.
 
 During the Age of Dusk, as the Spellhunt was nearing its end, a powerful mage of the Kar'Krul, Linaniil, created a safe haven for the few remaining mages of all races.
@@ -33437,33 +33332,28 @@ Class features:#YELLOW#
 
 All mages use mana to cast their spells.
 It slowly replenishes over time.
-]], [[Magic has not disappeared from Maj'Eyal with the end of the Spellhunt.
+]], [[La magie n'a pas disparu de Maj'Eyal avec la fin de la Chasse anti-magique.
 
-During the Age of Dusk, as the Spellhunt was nearing its end, a powerful mage of the Kar'Krul, Linaniil, created a safe haven for the few remaining mages of all races.
-This place is Angolwen, the City of Magic, and for over two thousands years has taught magic to preserve and expand it.
+Pendant l'Ere du Crépuscule, alors que la Chasse anti-magique touchait à sa fin, un puissant mage du Kar'Krul, Linaniil, a créé un refuge pour les quelques mages restants de toutes les races.
+Ce lieu est Angolwen, la Cité de la Magie, et depuis plus de deux mille ans, il enseigne la magie pour la préserver et la développer.
 
-You have been told this story and can now create new characters with the #LIGHT_GREEN#Archmage class#WHITE#.
+On vous a raconté cette histoire et vous pouvez maintenant créer de nouveaux personnages avec la classe #LIGHT_GREEN#Archimage#WHITE#.
 
-Archmagi are the pinnacle of spellcasters, attuned to the magical properties of the world.
-Class features:#YELLOW#
-- Cast elemental spells to burn your foes to death or freeze them
-- Summon the powers of Space and Time to protect and cripple
-- Dabble in Phantasms and Illusions
-- Manipulate the forces of magic themselves#WHITE#
+Les Archmagi sont le summum des lanceurs de sorts, en accord avec les propriétés magiques du monde.
+Caractéristiques de classe:#YELLOW#
+- Lancez des sorts élémentaires pour brûler vos ennemis ou les geler
+- Invoquez les pouvoirs de l'Espace et du Temps pour protéger et paralyser
+- S'adonner aux fantaisies et aux illusions
+- Manipuler soi-même les forces de la magie#WHITE#
 
-All mages use mana to cast their spells.
-It slowly replenishes over time.
+Tous les mages utilisent du mana pour lancer leurs sorts.
+Il se reconstitue lentement avec le temps.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_cryomancer.lua"
 
-
--- texte non traduit
---[==[
-t("New Talent Category: #LIGHT_GREEN#Ice", "New Talent Category: #LIGHT_GREEN#Ice", "_t")
+t("New Talent Category: #LIGHT_GREEN#Ice", "Nouvelle Catégorie de Talent: #LIGHT_GREEN#Glace", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
 While most mages are content using the Water school, a few of them took their research deeper and created Ice magic.
 At its core lies the Uttercold, a cold so cold it can even damage creatures normally immune.
@@ -33475,28 +33365,23 @@ Talents:
 - #YELLOW#Frozen Ground: #WHITE#Unleash a nova of ice on the ground, stopping the movements of anything caught inside
 - #YELLOW#Shatter: #WHITE#Shatter all frozen creatures in your sight, dealing increased damage or even killing them
 - #YELLOW#Uttercold: #WHITE#Master the Uttercold and pierce even through cold immunities
-]], [[Since the dawn of time mages have experimented with the elements.
-While most mages are content using the Water school, a few of them took their research deeper and created Ice magic.
-At its core lies the Uttercold, a cold so cold it can even damage creatures normally immune.
+]], [[Depuis l'aube des temps, les mages ont expérimenté avec les éléments.
+Alors que la plupart des mages se contentent d'utiliser l'école de l'eau, certains d'entre eux ont approfondi leurs recherches et ont créé la magie de la glace.
+Au coeur de cette magie se trouve le Froid Absolu, un froid si froid qu'il peut même endommager des créatures normalement immunisées.
 
-You have mastered ice magic and can now create new Archmage and Necromancer characters that can learn the #LIGHT_GREEN#Ice talents#WHITE#.
+Vous avez maîtrisé la magie de glace et pouvez maintenant créer de nouveaux personnages Archimage et Nécromancien qui peuvent apprendre #LIGHT_GREEN#les talents de Glace#WHITE#.
 
 Talents:
-- #YELLOW#Freeze: #WHITE#Condense ambient water on a target, damaging and freezing it
-- #YELLOW#Frozen Ground: #WHITE#Unleash a nova of ice on the ground, stopping the movements of anything caught inside
-- #YELLOW#Shatter: #WHITE#Shatter all frozen creatures in your sight, dealing increased damage or even killing them
-- #YELLOW#Uttercold: #WHITE#Master the Uttercold and pierce even through cold immunities
+- #YELLOW#Gel: #WHITE#Condenser l'eau ambiante sur une cible, l'endommager et la geler
+- #YELLOW#Sol Gelé: #WHITE#Lance une nova de glace sur le sol, stoppant les mouvements de tout ce qui est pris dedans
+- #YELLOW#Eclatement: #WHITE#Éclatez toutes les créatures gelées dans votre champ de vision, en leur infligeant des dégâts accrus ou en les tuant
+- #YELLOW#Froid Absolu: #WHITE#Maîtriser le Froid Absolu et percez au travers des immunités au froid
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_geomancer.lua"
 
-
--- texte non traduit
---[==[
-t("New Talent Category: #LIGHT_GREEN#Stone", "New Talent Category: #LIGHT_GREEN#Stone", "_t")
+t("New Talent Category: #LIGHT_GREEN#Stone", "Nouvelle Catégorie de Talent: #LIGHT_GREEN#Pierre", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
 While most mages are content using the Earth school, a few of them took their research deeper and created Stone magic.
 At its core lies the Crystalline Focus, which can create attacks so sharp they can cut through physical immunity.
@@ -33508,28 +33393,23 @@ Talents:
 - #YELLOW#Body of Stone: #WHITE#Turn into stone, reducing the cooldown of many stone/earth talents
 - #YELLOW#Earthquake: #WHITE#Create a localized earthquake, stunning all in the area
 - #YELLOW#Crystalline Focus: #WHITE#Master the Stone and pierce even through physical immunities
-]], [[Since the dawn of time mages have experimented with the elements.
-While most mages are content using the Earth school, a few of them took their research deeper and created Stone magic.
-At its core lies the Crystalline Focus, which can create attacks so sharp they can cut through physical immunity.
+]], [[Depuis l'aube des temps, les mages ont expérimenté avec les éléments.
+Si la plupart des mages se contentent d'utiliser l'école de la Terre, quelques-uns d'entre eux ont approfondi leurs recherches et ont créé la magie de la Pierre.
+Au coeur de celle-ci se trouve le Focus Cristallin, qui peut créer des attaques si tranchantes qu'elles peuvent transpercer l'immunité physique.
 
-You have mastered stone magic and can now create new Archmage and Arcane Blade characters that can learn the #LIGHT_GREEN#Stone talents#WHITE#.
+Vous avez maîtrisé la magie de pierre et pouvez maintenant créer de nouveaux personnages Archimage et Lame arcanique qui peuvent apprendre les #LIGHT_GREEN#talents de Pierre#WHITE#.
 
 Talents:
-- #YELLOW#Earthen Missiles: #WHITE#Fire multiple missiles of stone independently at targets
-- #YELLOW#Body of Stone: #WHITE#Turn into stone, reducing the cooldown of many stone/earth talents
-- #YELLOW#Earthquake: #WHITE#Create a localized earthquake, stunning all in the area
-- #YELLOW#Crystalline Focus: #WHITE#Master the Stone and pierce even through physical immunities
+- #YELLOW#Missiles en Terre: #WHITE#Tirez plusieurs missiles de pierre sur des cibles indépendantes
+- #YELLOW#Corps de Pierre: #WHITE#Se changer en pierre, réduisant le temps de recharge de nombreux talents de pierre/terre
+- #YELLOW#Tremblement de Terre: #WHITE#Créer un tremblement de terre localisé, assommant toute les cibles dans la zone
+- #YELLOW#Focus Cristallin: #WHITE#Maîtrisez la pierre et percez au travers des immunités physiques
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_necromancer.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Necromancer", "New Class: #LIGHT_GREEN#Necromancer", "_t")
+t("New Class: #LIGHT_GREEN#Necromancer", "Nouvelle Classe: #LIGHT_GREEN#Nécromancien", "_t")
 t([[Necromancy, the forbidden art.
 Necromancy, the black art.
 
@@ -33549,36 +33429,31 @@ Class features:#YELLOW#
 
 All mages use mana to cast their spells.
 It slowly replenishes over time.
-]], [[Necromancy, the forbidden art.
-Necromancy, the black art.
+]], [[La Nécromancie, l'art interdit.
+La Nécromancie, l'art noir.
 
-During the Age of Dusk and the Age of Pyre the world went through a tortured era. Kingdoms were shattered, whole races suppressed, and diseases ran wild, killing millions.
-It was a dark time and amidst the chaos came the bringers of terror: the necromancers.
-Though they always existed, and will always exist whilst our souls are open to temptation, this was their true age of glory.
-The so-called 'noble' archmages regard necromancers as fallen brothers that must be corrected... or removed. But necromancers consider themselves misunderstood practitioners of an art that others are too scared or too feeble to touch. And oh, what great powers those arts do bring....
+Pendant l'Ere du Crépuscule et l'Ere du Bûcher, le monde a traversé une ère torturée. Des royaumes ont été brisés, des races entières ont été supprimées, et les maladies se sont répandues, tuant des millions de personnes.
+C'était une époque sombre et, au milieu du chaos, sont apparus les porteurs de la terreur: les nécromanciens.
+Bien qu'ils aient toujours existé, et qu'ils existeront toujours tant que nos âmes seront ouvertes à la tentation, ce fut leur véritable âge de gloire.
+Les archimages dits "nobles" considèrent les nécromanciens comme des frères déchus qui doivent être corrigés... ou éliminés. Mais les nécromanciens se considèrent comme des praticiens incompris d'un art que les autres ont trop peur ou sont trop faibles pour toucher. Et oh, quels grands pouvoirs ces arts apportent-ils....
 
-You have learnt the basics of necromancy, killed a real one, and can now create new characters with the #LIGHT_GREEN#Necromancer class#WHITE#.
+Vous avez appris les bases de la nécromancie, en avez tué un et pouvez maintenant créer de nouveaux personnages avec la classe #LIGHT_GREEN#Nécromancien#WHITE#.
 
-Necromancers are dark spellcasters, attuned to death itself. Their ultimate goal is their own eternal life, often as a Lich.
-Class features:#YELLOW#
-- Cast darkness and ice infused spells to destroy your foes
-- Summon an army of undead minions to do your bidding
-- Use your minions as pawns, sacrificing them in various cruel and unusual ways
-- Embark on the quest of your life: Lichdom#WHITE#
+Les nécromanciens sont de sombres lanceurs de sorts, en accord avec la mort elle-même. Leur but ultime est leur propre vie éternelle, souvent sous la forme d'une liche.
+Caractéristiques de Classe:#YELLOW#
+- Lancez des sorts infusés de ténèbres et de glace pour détruire vos ennemis
+- Invoquez une armée de serviteurs morts-vivants à votre service
+- Utilisez vos serviteurs comme des pions, en les sacrifiant de diverses manières cruelles et inhabituelles
+- Embarquez pour la quête de votre vie: La Transformation en Liche#WHITE#
 
-All mages use mana to cast their spells.
-It slowly replenishes over time.
+Tous les mages utilisent du mana pour lancer leurs sorts.
+Il se reconstitue lentement avec le temps.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_pyromancer.lua"
 
-
--- texte non traduit
---[==[
-t("New Talent Category: #LIGHT_GREEN#Wildfire", "New Talent Category: #LIGHT_GREEN#Wildfire", "_t")
+t("New Talent Category: #LIGHT_GREEN#Wildfire", "Nouvelle Catégorie de Talent: #LIGHT_GREEN#Feu de Brousse", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
 While most mages are content using the Fire school, a few of them took their research deeper and created Wildfire magic.
 At its core lies the Wildfire, a fire so hot it can even damage creatures normally immune.
@@ -33590,28 +33465,23 @@ Talents:
 - #YELLOW#Dancing Fires: #WHITE#Project your inner fire to all creatures in your line of sight, setting them ablaze
 - #YELLOW#Combust: #WHITE#Disrupt normal burning effects and make them combust at once
 - #YELLOW#Wildfire: #WHITE#Master the Wildfire and pierce even through fire immunities
-]], [[Since the dawn of time mages have experimented with the elements.
-While most mages are content using the Fire school, a few of them took their research deeper and created Wildfire magic.
-At its core lies the Wildfire, a fire so hot it can even damage creatures normally immune.
+]], [[Depuis l'aube des temps, les mages ont expérimenté avec les éléments.
+Si la plupart des mages se contentent d'utiliser l'école du Feu, certains d'entre eux ont approfondi leurs recherches et ont créé la magie du Feu de Brousse.
+Au coeur de cette magie se trouve le Feu de Brousse, un feu si chaud qu'il peut même endommager des créatures normalement immunisées.
 
-You have mastered Wildfire magic and can now create new Archmage characters that can learn the #LIGHT_GREEN#Wildfire talents#WHITE#.
+Vous avez maîtrisé la magie du Feu de Brousse et pouvez maintenant créer de nouveaux personnages Archimage qui peuvent apprendre les #LIGHT_GREEN#talents du Feu de Brousse#WHITE#.
 
 Talents:
-- #YELLOW#Blastwave: #WHITE#Unleash a fire nova around you, damaging and knocking back anything caught inside
-- #YELLOW#Dancing Fires: #WHITE#Project your inner fire to all creatures in your line of sight, setting them ablaze
-- #YELLOW#Combust: #WHITE#Disrupt normal burning effects and make them combust at once
-- #YELLOW#Wildfire: #WHITE#Master the Wildfire and pierce even through fire immunities
+- #YELLOW#Déflagration: #WHITE#Déclenchez une nova de feu autour de vous, endommageant et repoussant tout ce qui est pris à l'intérieur
+- #YELLOW#Feux Dansants: #WHITE#Projetez votre feu intérieur sur toutes les créatures situées dans votre champ de vision et enflammez-les
+- #YELLOW#Feux Purificateurs: #WHITE#Immolez les ennemis ou vous même pour leur mettre ou vous enlever des effets
+- #YELLOW#Feu de Brousse: #WHITE#Maîtrisez le Feu de Brousse et percez au travers des immunités au feu.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_tempest.lua"
 
-
--- texte non traduit
---[==[
-t("New Talent Category: #LIGHT_GREEN#Storm", "New Talent Category: #LIGHT_GREEN#Storm", "_t")
+t("New Talent Category: #LIGHT_GREEN#Storm", "Nouvelle Catégorie de Talent: #LIGHT_GREEN#Orage", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
 While most mages are content using the Air school, a few of them took their research deeper and created Storm magic.
 At its core lies the Tempest, a storm so powerful it can even damage creatures normally immune.
@@ -33623,28 +33493,23 @@ Talents:
 - #YELLOW#Shock: #WHITE#Fire a fast bolt of lightning, dazing the target
 - #YELLOW#Hurricane: #WHITE#Call down a Hurricane on any creatures you daze, creating a lightning storm around each of them
 - #YELLOW#Tempest: #WHITE#Master the Tempest and pierce even through lightning immunities
-]], [[Since the dawn of time mages have experimented with the elements.
-While most mages are content using the Air school, a few of them took their research deeper and created Storm magic.
-At its core lies the Tempest, a storm so powerful it can even damage creatures normally immune.
+]], [[Depuis l'aube des temps, les mages ont expérimenté avec les éléments.
+Si la plupart des mages se contentent d'utiliser l'école de l'air, quelques-uns d'entre eux ont approfondi leurs recherches et ont créé la magie de l'Orage.
+Au coeur de celle-ci se trouve l'Orage, un orage si puissant qu'il peut même endommager des créatures normalement immunisées.
 
-You have mastered storm magic and can now create new Archmage characters that can learn the #LIGHT_GREEN#Storm talents#WHITE#.
+Vous avez maîtrisé la magie de l'orage et pouvez maintenant créer de nouveaux personnages Archimage qui peuvent apprendre les #LIGHT_GREEN#talents de l'Orage#WHITE#.
 
 Talents:
-- #YELLOW#Nova: #WHITE#Unleash a lightning nova around you, dazing and damaging creatures caught inside
-- #YELLOW#Shock: #WHITE#Fire a fast bolt of lightning, dazing the target
-- #YELLOW#Hurricane: #WHITE#Call down a Hurricane on any creatures you daze, creating a lightning storm around each of them
-- #YELLOW#Tempest: #WHITE#Master the Tempest and pierce even through lightning immunities
+- #YELLOW#Nova: #WHITE#Déclenchez une nova de foudre autour de vous, étourdissant et endommageant les créatures prises à l'intérieur
+- #YELLOW#Choc: #WHITE#Lancer une boule de foudre rapide qui étourdit la cible
+- #YELLOW#Ouragan: #WHITE#Déclenchez un ouragan sur toutes les créatures que vous étourdissez, créant une tempête de foudre autour d'elles
+- #YELLOW#Orage: #WHITE#Maîtrisez l'Orage et percez au travers des immunités à la foudre
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_thaumaturgist.lua"
 
-
--- texte non traduit
---[==[
-t("New Class Evolution: #LIGHT_GREEN#High Thaumaturgist (Archmage)", "New Class Evolution: #LIGHT_GREEN#High Thaumaturgist (Archmage)", "_t")
+t("New Class Evolution: #LIGHT_GREEN#High Thaumaturgist (Archmage)", "Nouvelle 2volution de Classe: #LIGHT_GREEN#Grand Thaumaturge (Archimage)", "_t")
 t([[You have killed a boss by only using beam spells and nothing else, showing a deeper understanding of this type of spells.
 
 You have unlocked the #LIGHT_GREEN#High Thaumaturgist class evolution#WHITE# for Archmages.
@@ -33659,23 +33524,21 @@ Features:
 
 
 Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
-]], [[You have killed a boss by only using beam spells and nothing else, showing a deeper understanding of this type of spells.
+]], [[Vous avez tué un boss en utilisant uniquement des sorts de type rayon et rien d'autre, montrant ainsi une compréhension plus approfondie de ce type de sorts.
 
-You have unlocked the #LIGHT_GREEN#High Thaumaturgist class evolution#WHITE# for Archmages.
+Vous avez débloqué #LIGHT_GREEN#l'évolution de classe Grand Thaumaturge#WHITE# pour Archimage.
 
-Features:
-- #YELLOW#Wide Beams#WHITE#: Flame, Manathrust, Lightning, Pulverizing Auger and Ice Shards permanently become 3-wide beam spells.
-- Access to the Thaumaturgy spell category containing the spells:
-  - #YELLOW#Orb of Thaumaturgy#WHITE#: By placing a thaumaturgy orb on the ground you can duplicate all beam spells you cast.
-  - #YELLOW#Multicaster#WHITE#: Casting beams becomes so easy for you that you can weave in random non-beam spells when you cast one.
-  - #YELLOW#Slipstream#WHITE#: Flow through the battlefield with ease, when you cast a beam spell you can move one tile for free.
-  - #YELLOW#Elemental Array Burst#WHITE#: The ultimate beam spell, the culmination of your deep understanding of magic. A 3-wide beam of pure thaumic energy that can never be resisted.
+Caractéristiques:
+- #YELLOW#Rayons Large#WHITE#: Flamme, Poussée de Mana, Foudre, Foreuse Broyeuse, et Eclats de Glace deviennent définitivement des rayons de largeurs 3.
+- Accès à la catégorie de sorts Thaumaturgie contenant les sorts suivants:
+  - #YELLOW#Orbe de Thaumaturgie#WHITE#: En plaçant un orbe de thaumaturgie sur le sol, vous pouvez dupliquer tous les sorts de rayon que vous lancez
+  - #YELLOW#Multilanceur#WHITE#: Lancer des rayons devient si facile pour vous que vous pouvez intégrer des sorts aléatoires sans rayon lorsque vous en lancez un
+  - #YELLOW#Passage en Douceur#WHITE#: Parcourez le champ de bataille avec aisance. Lorsque vous lancez un sort de rayon, vous pouvez vous déplacer d'une tuile gratuitement
+  - #YELLOW#Rafale de Rayons Elémentaires#WHITE#: Le sort ultime de rayon, le point culminant de votre profonde compréhension de la magie. Un rayon de largeurs 3 d'énergie thaumique pure auquel on ne peut résister
 
 
-Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
+Les évolutions de classe sont sélectionnées comme des prodiges et accordent de nouvelles façons de construire et d'étendre votre classe et ne sont visibles que pour la classe concernée.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-paladin_avatar.lua"
@@ -34329,6 +34192,7 @@ t("light", "lumière", "effect subtype")
 t("darkness", "obscurité", "effect subtype")
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide!", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
+t("Hurricane", "Ouragan", "_t")
 t("temporal", "temporel", "effect subtype")
 t("speed", "rapidité", "effect subtype")
 t("slow", "ralentissement", "effect subtype")
@@ -34360,6 +34224,7 @@ t("resistance", "résistance", "effect subtype")
 t("skeleton", "squelette", "effect subtype")
 t("bone", "os", "effect subtype")
 t("cleanse", "purifié", "effect subtype")
+t("Cleansing Flames", "Feux Purificateurs", "_t")
 t("movement", "mouvement", "effect subtype")
 t("regen", "régenération", "effect subtype")
 t("gravity", "gravité", "effect subtype")
@@ -34557,7 +34422,6 @@ t("#Target# is consumed in a burst of flame. All that remains is a fiery egg.", 
 t("+Phoenix", "+Phoenix", "_t")
 t("#Target# bursts out from the egg.", "#Target# bursts out from the egg.", "_t")
 t("-Phoenix", "-Phoenix", "_t")
-t("Hurricane", "Hurricane", "_t")
 t("The target is in the center of a lightning hurricane, doing %0.2f to %0.2f lightning damage to itself and others around every turn.", "The target is in the center of a lightning hurricane, doing %0.2f to %0.2f lightning damage to itself and others around every turn.", "tformat")
 t("#Target# is caught inside a Hurricane.", "#Target# is caught inside a Hurricane.", "_t")
 t("+Hurricane", "+Hurricane", "_t")
@@ -35227,7 +35091,6 @@ t("Host of a Rime Wraith (Gelid Host)!", "Host of a Rime Wraith (Gelid Host)!", 
 t("Hoarfrost", "Hoarfrost", "_t")
 t("All damage converted to cold, cold damage increased by %d%%, cold resistance increased by %d%%.", "All damage converted to cold, cold damage increased by %d%%, cold resistance increased by %d%%.", "tformat")
 t("Cold resistance reduced by %d%%, movement speed reduced by %d%%.", "Cold resistance reduced by %d%%, movement speed reduced by %d%%.", "tformat")
-t("Cleansing Flames", "Cleansing Flames", "_t")
 t("The target is on fire, taking %0.2f fire damage per turn and %d%% chance per turn of removing a physical or magical effect from all targets affected by Inferno, Burning Wake or Cleansing Flames.", "The target is on fire, taking %0.2f fire damage per turn and %d%% chance per turn of removing a physical or magical effect from all targets affected by Inferno, Burning Wake or Cleansing Flames.", "tformat")
 t("#Target# bathes in cleansing flames!", "#Target# bathes in cleansing flames!", "_t")
 t("Ghost Walk", "Ghost Walk", "_t")
@@ -35807,6 +35670,7 @@ t("Unstoppable", "Inarrêtable", "_t")
 t("mind", "esprit", "effect subtype")
 t("Thunderstorm", "Orage", "_t")
 t("Flare", "Eclat", "_t")
+t("Frozen Ground", "Sol Gelé", "_t")
 t("unknown", "inconnu", "effect subtype")
 t("lich", "liche", "effect subtype")
 t("magic", "magie", "effect subtype")
@@ -36275,7 +36139,6 @@ t("#Target# is struggling to keep his footing!", "#Target# is struggling to keep
 t("+Slippery Ground", "+Slippery Ground", "_t")
 t("#Target# regains their balance.", "#Target# regains their balance.", "_t")
 t("-Slippery Ground", "-Slippery Ground", "_t")
-t("Frozen Ground", "Frozen Ground", "_t")
 t("The target is energized by the cold while wearing the Frost Treads, gaining 20%% increased cold damage.", "The target is energized by the cold while wearing the Frost Treads, gaining 20%% increased cold damage.", "tformat")
 t("#Target# is energized by the cold!", "#Target# is energized by the cold!", "_t")
 t("+Frozen Ground", "+Frozen Ground", "_t")
