@@ -19085,11 +19085,15 @@ t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#A PLACE UNE PETITE CHAMBRE FORTE: %s",
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/celestial.lua"
 
-t("guardian", "guardien", "talent type")
-t("light", "lumière", "talent type")
-t("sun", "soleil", "talent type")
-t("eclipse", "éclipse", "talent type")
+t("guardian", "Guardien", "talent type")
+t("light", "Lumière", "talent type")
+t("crusader", "Croisade", "talent type")
+t("sun", "Soleil", "talent type")
+t("eclipse", "Eclipse", "talent type")
 t("other", "autre", "talent type")
+t("Dirges", "Chants Funèbre", "talent type")
+t("Darkside", "Côté Obscur", "talent type")
+t("Dark Sun", "Soleil Noir", "talent type")
 -- texte non traduit
 --[==[
 t("celestial", "celestial", "talent category")
@@ -19101,7 +19105,6 @@ t("combat", "combat", "talent type")
 t("Your devotion allows you to combat your foes with indomitable determination.", "Your devotion allows you to combat your foes with indomitable determination.", "_t")
 t("radiance", "radiance", "talent type")
 t("You channel the light of the sun through your body.", "You channel the light of the sun through your body.", "_t")
-t("crusader", "crusader", "talent type")
 t("Forgo your shield for the chance to crush your foes with a mighty two handed weapon.", "Forgo your shield for the chance to crush your foes with a mighty two handed weapon.", "_t")
 t("sunlight", "sunlight", "talent type")
 t("Summon the power of the Sun to burn your foes.", "Summon the power of the Sun to burn your foes.", "_t")
@@ -19118,11 +19121,8 @@ t("Bind the power of the Moon into circles at your feet.", "Bind the power of th
 t("The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "_t")
 t("Other celestial powers.", "Other celestial powers.", "_t")
 t("Various celestial talents.", "Various celestial talents.", "_t")
-t("Dirges", "Dirges", "talent type")
 t("The songs the Fallen sing.", "The songs the Fallen sing.", "_t")
-t("Darkside", "Darkside", "talent type")
 t("Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "_t")
-t("Dark Sun", "Dark Sun", "talent type")
 t("Celestial combat techniques inspired by the dark places that are not empty.", "Celestial combat techniques inspired by the dark places that are not empty.", "_t")
 t("Sing of death and damnation.", "Sing of death and damnation.", "_t")
 --]==]
@@ -19230,16 +19230,11 @@ t([[Conjure a surge of celestial power through your circles. Any foe standing wi
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/combat.lua"
 
-
--- nouveau texte
---[==[
-t("Gravitic Effulgence", "Gravitic Effulgence", "talent name")
-t("Your Weapon of Light nows pulls in all foes in radius 5.", "Your Weapon of Light nows pulls in all foes in radius 5.", "tformat")
---]==]
-
+t("Gravitic Effulgence", "Effluence Gravitique", "talent name")
+t("Your Weapon of Light nows pulls in all foes in radius 5.", "Votre Arme de Lumière attire maintenant tous les ennemis dans un rayon de 5.", "tformat")
+t("Weapon of Light", "Arme de Lumière", "talent name")
 -- texte non traduit
 --[==[
-t("Weapon of Light", "Weapon of Light", "talent name")
 t([[Infuse your weapon with the power of the Sun, adding %0.1f light damage on each melee hit.
 		Additionally, if you have a temporary damage shield active, melee hits will increase its power by %d once per turn.
 		The damage dealt and shield bonus will increase with your Spellpower.]], [[Infuse your weapon with the power of the Sun, adding %0.1f light damage on each melee hit.
@@ -19701,6 +19696,7 @@ t([[You bind light in a glyph on the floor. All enemies walking over the glyph w
 section "mod-tome/data/talents/celestial/radiance.lua"
 
 t("Radiance", "Brillance", "talent name")
+t("Searing Sight", "Présence Eblouissante", "talent name")
 -- texte non traduit
 --[==[
 t([[You are so infused with sunlight that your body glows permanently in radius %d, even in dark places.
@@ -19715,7 +19711,6 @@ t("Judgement", "Judgement", "_t")
 t([[Fire a glowing orb of light at each enemy within your Radiance.  Each orb will slowly follow its target until it connects, dealing %d light damage to anything else it contacts along the way.  When the target is reached the orb will explode dealing %d light damage in radius 1 and healing you for 50%% of the damage dealt.
 		All targets struck by your Judgement will be blighted by light, reducing saves by %d, reducing critical power by %d%%, and causing light damage received to splash in radius 2 for %d%% damage against all hostile targets for 4 turns.]], [[Fire a glowing orb of light at each enemy within your Radiance.  Each orb will slowly follow its target until it connects, dealing %d light damage to anything else it contacts along the way.  When the target is reached the orb will explode dealing %d light damage in radius 1 and healing you for 50%% of the damage dealt.
 		All targets struck by your Judgement will be blighted by light, reducing saves by %d, reducing critical power by %d%%, and causing light damage received to splash in radius 2 for %d%% damage against all hostile targets for 4 turns.]], "tformat")
-t("Searing Sight", "Searing Sight", "talent name")
 t([[Your Radiance is so powerful it burns all foes caught in it, dealing %0.1f light damage to all foes caught inside every turn.
 		Each enemy effected has a %d%% chance of being dazed and blinded by the light for 3 turns. The daze and blind can be applied to each enemy at most once every 7 turns.
 		The damage increases with your Spellpower.]], [[Your Radiance is so powerful it burns all foes caught in it, dealing %0.1f light damage to all foes caught inside every turn.
@@ -19760,7 +19755,7 @@ t([[A star falls on a radius %d area, doing %0.2f darkness damage on impact and 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/sun.lua"
 
-
+t("Sun's Vengeance", "Vengeance du Soleil", "talent name")
 -- texte non traduit
 --[==[
 t("Sun Ray", "Sun Ray", "talent name")
@@ -19775,7 +19770,6 @@ t([[A path of sunlight appears in front of you for 5 turns. All foes standing in
 		The damage done will increase with your Spellpower.]], [[A path of sunlight appears in front of you for 5 turns. All foes standing inside take %0.1f Light damage per turn.
 		While standing in the path, your movement takes no time and can not trigger traps.
 		The damage done will increase with your Spellpower.]], "tformat")
-t("Sun's Vengeance", "Sun's Vengeance", "talent name")
 t([[Infuse yourself with the raging fury of the Sun, increasing your physical and spell critical chance by %d%%.
 		Each time you crit with a physical attack or a spell you have %d%% chance to gain Sun's Vengeance for 2 turns.
 		While affected by Sun's Vengeance, your Sun Ray will take no time to use and will deal 25%% more damage.
@@ -20334,7 +20328,7 @@ t([[Increases local gravity in a radius of %d for %d turns, dealing %0.2f physic
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/guardian.lua"
 
-
+t("Guardian", "Guardien", "_t")
 -- texte non traduit
 --[==[
 t("Strength of Purpose", "Strength of Purpose", "talent name")
@@ -20345,7 +20339,6 @@ t([[Increases weapon damage by %d%% and physical power by 30 when using swords, 
 		These bonuses override rather than stack with weapon mastery, dagger mastery, and bow mastery.]], "tformat")
 t("Guardian Unity", "Guardian Unity", "talent name")
 t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d shared)#LAST#", "tformat")
-t("Guardian", "Guardian", "_t")
 t("#STEEL_BLUE##Source# shares damage with %s guardian!", "#STEEL_BLUE##Source# shares damage with %s guardian!", "delayedLogMessage")
 t("Not enough space to summon warden!", "Not enough space to summon warden!", "logPlayer")
 t([[When a single hit deals more than %d%% of your maximum life another you appears and takes %d%% of the damage as well as %d%% of all damage you take for the next %d turns.
@@ -21818,7 +21811,9 @@ t("Your quick wits allow you to reset the cooldown of up to %d of your combat ta
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/poisons.lua"
 
-
+t("Toxic Death", "Mort Toxique", "talent name")
+t("Vile Poisons", "Vils Poisons", "talent name")
+t("Venomous Strike", "Frappe Venimeuse", "talent name")
 -- texte non traduit
 --[==[
 t("Apply Poison", "Apply Poison", "talent name")
@@ -21826,10 +21821,8 @@ t("%s resists the vile poison!", "%s resists the vile poison!", "logSeen")
 t([[Learn how to coat your melee weapons, throwing knives, sling and bow ammo with poison, giving your attacks a %d%% chance to poison the target for %d nature damage per turn for %d turns. Every application of the poison stacks, up to a maximum of %d nature damage per turn.
 		The damage scales with your Cunning.]], [[Learn how to coat your melee weapons, throwing knives, sling and bow ammo with poison, giving your attacks a %d%% chance to poison the target for %d nature damage per turn for %d turns. Every application of the poison stacks, up to a maximum of %d nature damage per turn.
 		The damage scales with your Cunning.]], "tformat")
-t("Toxic Death", "Toxic Death", "talent name")
 t("#GREEN#Poison bursts out of %s's corpse!", "#GREEN#Poison bursts out of %s's corpse!", "logSeen")
 t("When you kill a creature, all of your poisons affecting it will spread to foes in a radius of %d.", "When you kill a creature, all of your poisons affecting it will spread to foes in a radius of %d.", "tformat")
-t("Vile Poisons", "Vile Poisons", "talent name")
 t([[Learn how to enhance your Deadly Poison, adding additional effects. Each level, you will learn a new kind of poison enhancement:
 	Level 1: Numbing Poison
 	Level 2: Insidious Poison
@@ -21849,7 +21842,6 @@ t([[Learn how to enhance your Deadly Poison, adding additional effects. Each lev
 	Also increases the effectiveness of your poisons by %d%%. (The effect varies for each poison.)
 	Adjusting your weapon coating takes no time and does not break stealth.
 	You may only have two poison enhancements active at once; applying a third will randomly cause one of the existing ones to be cancelled.]], "tformat")
-t("Venomous Strike", "Venomous Strike", "talent name")
 t("#GREEN#%s's %s is disrupted by crippling poison!", "#GREEN#%s's %s is disrupted by crippling poison!", "logSeen")
 t([[Numbing Poison - Reduces global speed by %d%% for 5 turns.
 		Insidious Poison - Applies a standard poison that deals %0.2f nature damage over 5 turns.
@@ -22503,7 +22495,11 @@ t("You rise to meet the pain that others would inflict on you. Every turn you ta
 section "mod-tome/data/talents/cursed/cursed.lua"
 
 t("strife", "conflit", "talent type")
+t("gloom", "angoisse", "talent type")
 t("darkness", "obscurité", "talent type")
+t("Bloodstained", "Taches Sanglantes", "talent type")
+t("Crimson Templar", "Templier Pourpre", "talent type")
+t("Hatred", "Traîtrise", "talent type")
 t("Cursed", "Maudit", "talent type")
 -- texte non traduit
 --[==[
@@ -22513,7 +22509,6 @@ t("Your weapon yearns for its next victim.", "Your weapon yearns for its next vi
 t("endless hunt", "endless hunt", "talent type")
 t("Each day, you lift your weary body and begin the unending hunt.", "Each day, you lift your weary body and begin the unending hunt.", "_t")
 t("The battlefield is your home; death and confusion, your comfort.", "The battlefield is your home; death and confusion, your comfort.", "_t")
-t("gloom", "gloom", "talent type")
 t("All those in your sight must share your despair.", "All those in your sight must share your despair.", "_t")
 t("rampage", "rampage", "talent type")
 t("Let loose the hate that has grown within.", "Let loose the hate that has grown within.", "_t")
@@ -22542,11 +22537,8 @@ t("curses", "curses", "talent type")
 t("The effects of cursed objects.", "The effects of cursed objects.", "_t")
 t("fears", "fears", "talent type")
 t("Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "_t")
-t("Bloodstained", "Bloodstained", "talent type")
 t("You, like your weapons, are tainted forever.", "You, like your weapons, are tainted forever.", "_t")
-t("Crimson Templar", "Crimson Templar", "talent type")
 t("Blood is power. Let the rivers run red.", "Blood is power. Let the rivers run red.", "_t")
-t("Hatred", "Hatred", "talent type")
 t("All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "_t")
 t("Hate-powered abilities that don't belong anywhere else.", "Hate-powered abilities that don't belong anywhere else.", "_t")
 --]==]
@@ -22791,10 +22783,9 @@ t([[You guard against melee damage with a sweep of your hand. So long as you can
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/gloom.lua"
 
-
+t("Gloom", "Angoisse", "talent name")
 -- texte non traduit
 --[==[
-t("Gloom", "Gloom", "talent name")
 t("#F53CBE#Your heart hardens as a powerful foe enters your gloom! (+%d hate)", "#F53CBE#Your heart hardens as a powerful foe enters your gloom! (+%d hate)", "logPlayer")
 t([[A terrible gloom surrounds you, affecting all those who approach to within radius 3. At the end of each game turn, those caught in your gloom must save against your Mindpower, or have a %d%% chance to suffer from slowness (30%%), stun or confusion (30%%) for %d turns.
 		The chance increases with your mind speed.
@@ -24910,6 +24901,7 @@ t("something", "quelque chose", "_t")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("Empower Poisons", "Renforcement des Poisons", "talent name")
 -- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
@@ -25207,7 +25199,6 @@ t("You cannot use Sweep without dual wielding!", "You cannot use Sweep without d
 t([[Attack your foes in a frontal arc, doing %d%% weapon damage and making your targets bleed for %d each turn for %d turns.
 		The bleed damage increases with your main hand weapon damage and Dexterity.]], [[Attack your foes in a frontal arc, doing %d%% weapon damage and making your targets bleed for %d each turn for %d turns.
 		The bleed damage increases with your main hand weapon damage and Dexterity.]], "tformat")
-t("Empower Poisons", "Empower Poisons", "talent name")
 t([[Reduces the duration of all poisons on the target by 50%%, but increases their damage by %d%%.
 		The effect increases with your Cunning.]], [[Reduces the duration of all poisons on the target by 50%%, but increases their damage by %d%%.
 		The effect increases with your Cunning.]], "tformat")
@@ -30810,7 +30801,7 @@ t([[Thaumaturgists have unlocked a deeper understanding of their spells, allowin
 ------------------------------------------------
 section "mod-tome/data/talents/uber/str.lua"
 
-
+t("Irresistible Sun", "Soleil Irrésistible", "talent name")
 -- nouveau texte
 --[==[
 t("Avatar of a Distant Sun", "Avatar of a Distant Sun", "talent name")
@@ -30871,7 +30862,6 @@ t([[When you rush, the creature you rush to is marked. If you kill it in the nex
 		Rush now only costs 2 stamina.]], [[When you rush, the creature you rush to is marked. If you kill it in the next two turns then your rush cooldown is reset.
 		Each time that this effect triggers you gain a stacking +20%% damage buff, up to 100%%.
 		Rush now only costs 2 stamina.]], "tformat")
-t("Irresistible Sun", "Irresistible Sun", "talent name")
 t("Have dealt over 50000 light or fire damage", "Have dealt over 50000 light or fire damage", "_t")
 t([[For 8 turns you gain the mass and power of a star, drawing all creatures within radius 5 toward you and dealing %0.2f fire, %0.2f light and %0.2f physical damage to all foes and reducing their damage dealt by 30%%.
 		Foes closer to you take up to 150%% damage.
@@ -33509,7 +33499,7 @@ Talents:
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_thaumaturgist.lua"
 
-t("New Class Evolution: #LIGHT_GREEN#High Thaumaturgist (Archmage)", "Nouvelle 2volution de Classe: #LIGHT_GREEN#Grand Thaumaturge (Archimage)", "_t")
+t("New Class Evolution: #LIGHT_GREEN#High Thaumaturgist (Archmage)", "Nouvelle Evolution de Classe: #LIGHT_GREEN#Grand Thaumaturge (Archimage)", "_t")
 t([[You have killed a boss by only using beam spells and nothing else, showing a deeper understanding of this type of spells.
 
 You have unlocked the #LIGHT_GREEN#High Thaumaturgist class evolution#WHITE# for Archmages.
@@ -33543,10 +33533,7 @@ Les évolutions de classe sont sélectionnées comme des prodiges et accordent d
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-paladin_avatar.lua"
 
-
--- nouveau texte
---[==[
-t("New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "_t")
+t("New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "Nouvelle Evolution de Classe: #LIGHT_GREEN#Avatar d'un Soleil Lointain (Paladin Solaire)", "_t")
 t([[You have been contacted by a sentient star, far away from Eyal. It wants to help you on your journey!
 
 You have unlocked the #LIGHT_GREEN#Avatar of a Distant Sun class evolution#WHITE# for Sun Paladins.
@@ -33560,30 +33547,25 @@ Features:
 - Interacts with #GOLD#Irresistible Sun#LAST#
 
 Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
-]], [[You have been contacted by a sentient star, far away from Eyal. It wants to help you on your journey!
+]], [[Vous avez été contacté par une étoile sentiente, loin d'Eyal. Elle veut t'aider dans ton périple!
 
-You have unlocked the #LIGHT_GREEN#Avatar of a Distant Sun class evolution#WHITE# for Sun Paladins.
+Vous avez débloqué l'évolution de classe #LIGHT_GREEN#Avatar d'un Soleil Lointain#WHITE# pour Paladins Solaire.
 
-Features:
-- #GOLD#Wield a two-handed weapon and a shield together#LAST#
-- 50% of all damage dealt is converted to #GOLD#light damage#LAST#
-- #GOLD#Gravitic Effulgence#LAST#: whenever Weapon of Light hits the damage is now a radius 2 sphere and all foes in range 5 are drawn to it
-- The damage and chance to trigger of #GOLD#Searing Sight#LAST# is doubled
-- Whenever #GOLD#Sun's Vengeance#LAST# triggers the remaining cooldown of Judgement is reduced by 6
-- Interacts with #GOLD#Irresistible Sun#LAST#
+Caractéristiques:
+- #GOLD#Manier une arme à deux mains et un bouclier en même temps#LAST#
+- 50% de tous les dommages infligés sont convertis en #GOLD#dégâts de lumière#LAST#
+- #GOLD#Effluence Gravitique#LAST#: quand l'Arme de Lumière touche, les dégâts sont désormais répartis dans une sphère de rayon 2 et tous les ennemis à portée 5 sont attirés vers elle
+- Les dégâts et les chances de déclenchement de #GOLD#Présence Eblouissante#LAST# sont doublés
+- Lorsque #GOLD#Vengeance du Soleil#LAST# se déclenche, le temps de recharge du Jugement est réduit de 6
+- Interagit avec #GOLD#Soleil Irrésistible#LAST#.
 
-Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
+Les évolutions de classe sont sélectionnées comme des prodiges et accordent de nouvelles façons de construire et d'étendre votre classe et ne sont visibles que pour la classe concernée.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-paladin_fallen.lua"
 
-
--- texte non traduit
---[==[
-t("New Class Evolution: #LIGHT_GREEN#Fallen (Sun Paladin)", "New Class Evolution: #LIGHT_GREEN#Fallen (Sun Paladin)", "_t")
+t("New Class Evolution: #LIGHT_GREEN#Fallen (Sun Paladin)", "Nouvelle Evolution de Classe: #LIGHT_GREEN#Déchu (Paladin Solaire)", "_t")
 t([[#{bold}##GOLD#You aren't so different...#LAST##{normal}#
 
 As a sun paladin, you follow a code.  But with the darkness you've seen in the world, you've started to doubt.
@@ -33603,36 +33585,31 @@ Swap your paladin Talents:#YELLOW#
 #WHITE#
 
 Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.
-]], [[#{bold}##GOLD#You aren't so different...#LAST##{normal}#
+]], [[#{bold}##GOLD#Vous n'êtes pas si différent...#LAST##{normal}#
 
-As a sun paladin, you follow a code.  But with the darkness you've seen in the world, you've started to doubt.
+En tant que Paladin Solaire, vous suivez un code.  Mais avec l'obscurité que vous avez vu dans le monde, vous avez commencé à douter.
 
-You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladins.
+Vous avez débloqué l'évolution de classe #LIGHT_GREEN#Déchu#WHITE# pour Paladin Solaire.
 
-Learn new Talents:#YELLOW#
-- Bloodstained: Make your foes bleed!
-- Darkside: Every light casts a shadow, yours is powerful indeed
-- Hatred: Manifest your hatred through bleeding
-- Dirges: Sing of death and sorrow to strength your resolve#WHITE#
+Apprenez de nouveaux Talents:#YELLOW#
+- Taches Sanglantes: Faites saigner vos ennemis!
+- Côté Obscur: Chaque lumière projette une ombre, la vôtre est puissante
+- Traîtrise: Manifestez votre traîtrise par des saignements
+- Chants Funèbre: Chantez la mort et le chagrin pour renforcer votre détermination#WHITE#
 
-Swap your paladin Talents:#YELLOW#
-- Radiance turns into Gloom: Project onto others your own hate, hindering them
-- Crusader turns into Dark Sun: Call upon the energies of dead suns to crush your foes
-- Guardian turns into Crimson Templar: Use the power of blood to control and defeat the fools that oppose you
+Echangez vos talents de Paladin:#YELLOW#
+- Brillance devient Angoisse: Projetez sur les autres votre propre haine, ce qui les empêche d'avancer
+- Croisade devient Soleil Noir: Faites appel aux énergies des soleils morts pour écraser vos ennemis
+- Guardien devient Templier Pourpre: Utilisez le pouvoir du sang pour contrôler et vaincre les fous qui s'opposent à vous
 #WHITE#
 
-Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.
+Les évolutions de classe sont sélectionnées comme des prodiges et accordent de nouvelles façons de construire et d'étendre votre classe. Elles ne sont visibles que pour la classe concernée.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-psionic_mindslayer.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Mindslayer (Psionic)", "New Class: #LIGHT_GREEN#Mindslayer (Psionic)", "_t")
+t("New Class: #LIGHT_GREEN#Mindslayer (Psionic)", "Nouvelle Classe: #LIGHT_GREEN#Guerrier Psionique (Psionique)", "_t")
 t([[Mindslayers are the frontline fighters of the Yeeks' Way. Absolutely devoted to serving the Way, and thus all Yeeks, they dive into battle with nothing but their own mind.
 Yeeks are natively psionic and thus most Mindslayers are Yeeks, but psionic powers do happen - rarely - in other races too.
 
@@ -33648,32 +33625,27 @@ Class features:#YELLOW#
 Mindslayers use their mind to manipulate the world.
 They require energy to do so, which they take from the world around them.
 While their shields are up incoming damage will be partly absorbed and the energy stored for later use.
-]], [[Mindslayers are the frontline fighters of the Yeeks' Way. Absolutely devoted to serving the Way, and thus all Yeeks, they dive into battle with nothing but their own mind.
-Yeeks are natively psionic and thus most Mindslayers are Yeeks, but psionic powers do happen - rarely - in other races too.
+]], [[Les Guerriers Psionique sont la première ligne de combattants de la Voie. Absolument dévoués à servir la Voie, et donc tous les Yeeks, ils plongent dans la bataille avec rien d'autre que leur propre esprit.
+Les Yeeks sont nativement psioniques et la plupart des Guerriers Psionique sont donc des Yeeks, mais les pouvoirs psioniques existent aussi - rarement - au sein d'autres races.
 
-You have saved a fellow Yeek Mindslayer and can now create characters with the #LIGHT_GREEN#Mindslayer class#WHITE#.
+Vous avez sauvé un compagnon Yeek Guerrier Psionique et pouvez maintenant créer des personnages avec la #LIGHT_GREEN#classe Guerrier Psionique#WHITE#.
 
-Mindslayers use their powerful psionic powers to supplement their low physical strength and dive into battle.
-Class features:#YELLOW#
-- Erect psionic shields around you both for protection and to absorb energy
-- Engulf yourself in psionic auras - unleashing pain to all those near you
-- Use your psionic "third hand" to hold a second weapon, floating in front of you
-- Unleash the power of your sustained auras and shields by spiking them in great bursts of power#WHITE#
+Les Guerriers Psionique utilisent leurs puissants pouvoirs psioniques pour compléter leur faible force physique et plonger dans la bataille.
+Caractéristiques de Classe:#YELLOW#
+- Ériger des boucliers psioniques autour de vous pour vous protéger et absorber l'énergie
+- S'engouffrer dans des auras psioniques - déchaînant de la douleur sur tous ceux qui sont près de vous
+- Utilisez votre "troisième main" psionique pour tenir une deuxième arme, flottant devant vous
+- Libérez la puissance de vos auras et boucliers soutenus en les propulsant dans de grandes explosions de puissance#WHITE#
 
-Mindslayers use their mind to manipulate the world.
-They require energy to do so, which they take from the world around them.
-While their shields are up incoming damage will be partly absorbed and the energy stored for later use.
+Les Guerriers Psionique utilisent leur esprit pour manipuler le monde.
+Pour ce faire, ils ont besoin d'énergie, qu'ils puisent dans le monde qui les entoure.
+Tant que leurs boucliers sont en place, les dégâts entrants sont partiellement absorbés et l'énergie est stockée pour une utilisation ultérieure.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-psionic_solipsist.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Solipsist (Psionic)", "New Class: #LIGHT_GREEN#Solipsist (Psionic)", "_t")
+t("New Class: #LIGHT_GREEN#Solipsist (Psionic)", "Nouvelle Classe: #LIGHT_GREEN#Solipsiste (Psionique)", "_t")
 t([[Solipsists are powerful psionicists that believe that the world is made up of nothing more than the thoughts and dreams of those that live in it.
 This power does not come without a price, however.  The Solipsist must constantly fight with their own ego in order to keep a clear view of reality, lest they fall into a state of solipsism, the belief that the world and those that live in it are nothing more than figments of their own mind.
 
@@ -33689,32 +33661,27 @@ Class features:#YELLOW#
 
 Solipsists use their mind to manipulate the world around them.
 They require energy to do so, which they recover naturally over time, and through methods others use to heal the body.
-]], [[Solipsists are powerful psionicists that believe that the world is made up of nothing more than the thoughts and dreams of those that live in it.
-This power does not come without a price, however.  The Solipsist must constantly fight with their own ego in order to keep a clear view of reality, lest they fall into a state of solipsism, the belief that the world and those that live in it are nothing more than figments of their own mind.
+]], [[Les Solipsistes sont de puissants psioniques qui croient que le monde n'est composé de rien d'autre que des pensées et des rêves de ceux qui y vivent.
+Ce pouvoir n'est pas sans prix, cependant. Le Solipsiste doit constamment lutter contre son propre ego afin de garder une vision claire de la réalité, de peur de tomber dans un état de solipsisme, la croyance que le monde et ceux qui y vivent ne sont rien d'autre que le fruit de leur propre esprit.
 
-You've experienced the power of dreams first hand and may now create characters with the #LIGHT_GREEN#Solipsist class#WHITE#.
+Vous avez fait l'expérience du pouvoir des rêves et vous pouvez maintenant créer des personnages avec la #LIGHT_GREEN#classe Solipsiste#WHITE#.
 
-Solipsists use the power of thought and dreams to manipulate the world around them.
-Class features:#YELLOW#
-- Distort the fabric of reality
-- Store and discharge psionic feedback
-- Summon powerful warriors birthed from your own consciousness
-- Convert damage you take into Psi damage and keep yourself alive with your mental reserves
-- Put your foes to sleep, enter their dreams, and become their worst nightmare#WHITE#
+Les Solipsistes utilisent le pouvoir de la pensée et des rêves pour manipuler le monde qui les entoure.
+Caractéristiques de Classe:#YELLOW#
+- Déformer le tissu de la réalité
+- Stocker et décharger les rétroactions psioniques
+- Invoquer de puissants guerriers nés de votre propre conscience
+- Convertissez les dégâts que vous subissez en dégâts psi et maintenez-vous en vie grâce à vos réserves mentales
+- Endormez vos ennemis, entrez dans leurs rêves et devenez leur pire cauchemar#WHITE#
 
-Solipsists use their mind to manipulate the world around them.
-They require energy to do so, which they recover naturally over time, and through methods others use to heal the body.
+Les Solipsistes utilisent leur esprit pour manipuler le monde qui les entoure.
+Pour ce faire, ils ont besoin d'énergie, qu'ils récupèrent naturellement avec le temps, et grâce à des méthodes que d'autres utilisent pour guérir le corps.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-race_ogre.lua"
 
-
--- texte non traduit
---[==[
-t("New Race: #LIGHT_GREEN#Ogre", "New Race: #LIGHT_GREEN#Ogre", "_t")
+t("New Race: #LIGHT_GREEN#Ogre", "Nouvelle Race: #LIGHT_GREEN#Ogre", "_t")
 t([[Ogres are magically-altered Humans, taking refuge in Elvala among the Shalore. 
 Their enormous bodies, bolstered by (and dependent on) an intricate web of glowing runes covering their skin, make them an intimidating sight that belies their conscientious and modest nature.
 Ogres were created (and subsequently abandoned) by the Conclave during the Allure Wars, to serve as their warriors and workers.  Their massive size and glowing runes made it impossible for them to hide during the Spellhunt, and only those who fled to Shalore lands survived extermination.
@@ -33727,29 +33694,24 @@ Race features:#YELLOW#
 - Efficient at using all kind of runes and infusions
 - Imbued with arcane forces
 #WHITE#
-]], [[Ogres are magically-altered Humans, taking refuge in Elvala among the Shalore. 
-Their enormous bodies, bolstered by (and dependent on) an intricate web of glowing runes covering their skin, make them an intimidating sight that belies their conscientious and modest nature.
-Ogres were created (and subsequently abandoned) by the Conclave during the Allure Wars, to serve as their warriors and workers.  Their massive size and glowing runes made it impossible for them to hide during the Spellhunt, and only those who fled to Shalore lands survived extermination.
-Their talent with inscriptions is unparalleled, as they need to be able to maintain their own inscriptions to survive, and have passed down the knowledge of how to do so; while their tendency to solve problems in the most simple and direct manner available (combined with an...  intense temper) has given them an unfair reputation as unintelligent brutes, a growing trade industry in inscription production is gradually eroding this image.
+]], [[Les ogres sont des humains modifiés par magie, qui se sont réfugiés à Elvala parmi les Shalore. 
+Leurs énormes corps, renforcés par (et dépendant de) un réseau complexe de runes lumineuses couvrant leur peau, en font un spectacle intimidant qui dément leur nature consciencieuse et modeste.
+Les ogres ont été créés (puis abandonnés) par le Conclave pendant les guerres de la Séduction, pour servir de guerriers et de travailleurs. Leur taille massive et leurs runes lumineuses les ont empêchés de se cacher pendant la Chasse anti-magique, et seuls ceux qui ont fui vers les terres Shalore ont survécu à l'extermination.
+Leur talent pour les inscriptions est inégalé, car ils doivent être capables de maintenir leurs propres inscriptions pour survivre, et ils ont transmis leur savoir pour le faire. Bien que leur tendance à résoudre les problèmes de la manière la plus simple et directe possible (combinée à un tempérament... intense) leur a donné une réputation injuste de brutes inintelligentes, une industrie commerciale croissante dans la production d'inscriptions érode progressivement cette image.
 
-You have learned the details of the Ogres' past and put their terrified creators to rest, and have technically brought the Allure Wars to their long-overdue conclusion by eliminating the last remnants of the Conclave.  You can now create new #LIGHT_GREEN#Ogre#WHITE# characters to see their magical might in action!
+Vous avez appris les détails du passé des Ogres et mit au repos leurs créateurs terrifiés, et avez techniquement amené les Guerres de la Séduction à leur conclusion tant attendue en éliminant les derniers vestiges du Conclave. Vous pouvez maintenant créer de nouveaux personnages #LIGHT_GREEN#Ogres#WHITE# pour voir leur force magique en action!
 
-Race features:#YELLOW#
-- Strong but not stupid
-- Efficient at using all kind of runes and infusions
-- Imbued with arcane forces
+Caractéristiques de Race:#YELLOW#
+- Fort mais pas stupide
+- Efficace dans l'utilisation de toutes sortes de runes et d'infusions
+- Imprégné de forces arcaniques
 #WHITE#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-rogue_marauder.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Marauder (Rogue)", "New Class: #LIGHT_GREEN#Marauder (Rogue)", "_t")
+t("New Class: #LIGHT_GREEN#Marauder (Rogue)", "Nouvelle Classe: #LIGHT_GREEN#Maraudeur (Brigand)", "_t")
 t([[Some rogues live by strength rather than cunning, relying on vicious attacks instead of stealth and subterfuge. These bandits maraud the land, lightly armoured and wielding dual weapons, taking what they can by force.
 
 You have learned the value in causing sheer damage in combat and can now create characters with the #LIGHT_GREEN#Marauder class#WHITE#.
@@ -33760,27 +33722,23 @@ Marauders are highly mobile rogues with a range of dextrous techniques and tacti
 - Rely on pure thuggery to cripple your enemies before taking them down#WHITE#
 
 Marauders use stamina to fuel their techniques, which replenishes slowly over time.
-]], [[Some rogues live by strength rather than cunning, relying on vicious attacks instead of stealth and subterfuge. These bandits maraud the land, lightly armoured and wielding dual weapons, taking what they can by force.
+]], [[Certains brigands vivent de la force plutôt que de la ruse, s'appuyant sur des attaques vicieuses plutôt que sur la furtivité et le subterfuge. Ces bandits parcourent le pays, en armure légère et avec des armes doubles, et prennent ce qu'ils peuvent par la force.
 
-You have learned the value in causing sheer damage in combat and can now create characters with the #LIGHT_GREEN#Marauder class#WHITE#.
+Vous avez appris l'intérêt de faire de gros dégâts en combat et vous pouvez désormais créer des personnages de la #LIGHT_GREEN#classe Maraudeur#WHITE#.
 
-Marauders are highly mobile rogues with a range of dextrous techniques and tactics at their disposal. Class features:#YELLOW#
-- Move with ease around the battlefield, dancing around your foes and avoiding their attacks
-- Wield dual weapons and unleash devastating techniques on your opponents
-- Rely on pure thuggery to cripple your enemies before taking them down#WHITE#
+Les Maraudeurs sont des brigands très mobiles qui disposent d'un éventail de techniques et de tactiques astucieuses.
+Caractéristiques de la classe:#YELLOW#
+- Déplacez-vous avec aisance sur le champ de bataille, en dansant autour de vos ennemis et en évitant leurs attaques
+- Maniez des armes doubles et déchaînez des techniques dévastatrices sur vos adversaires
+- Faites appel à la brutalité pure pour paralyser vos ennemis avant de les abattre#WHITE#
 
-Marauders use stamina to fuel their techniques, which replenishes slowly over time.
+Les maraudeurs utilisent l'endurance pour alimenter leurs techniques, qui se reconstitue lentement avec le temps.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-rogue_poisons.lua"
 
-
--- texte non traduit
---[==[
-t("New Talent Category: #LIGHT_GREEN#Poisons", "New Talent Category: #LIGHT_GREEN#Poisons", "_t")
+t("New Talent Category: #LIGHT_GREEN#Poisons", "Nouvelle Catégorie de Talent: #LIGHT_GREEN#Poisons", "_t")
 t([[Extracted from plants, wildlife or more exotic locations, poisons have always existed.
 Many creatures use them, along with some shady people.
 
@@ -33791,19 +33749,17 @@ Talents:
 - #YELLOW#Venomous Strike: #WHITE#A terrible strike that deals increased nature damage based on the number of poison effects
 - #YELLOW#Empower Poisons: #WHITE#Learn to make your poisons even more lethal and fast
 - #YELLOW#Toxic Death: #WHITE#Spread the toxic joy to your foe's friends!
-]], [[Extracted from plants, wildlife or more exotic locations, poisons have always existed.
-Many creatures use them, along with some shady people.
+]], [[Extraits de plantes, d'animaux sauvages ou de lieux plus exotiques, les poisons ont toujours existé.
+De nombreuses créatures les utilisent, ainsi que certaines personnes louches.
 
-You have made a deal with such a person and can now create new Rogue or Archer characters that can learn the #LIGHT_GREEN#Poisons talents#WHITE#.
+Tu as passé un accord avec une telle personne et tu peux maintenant créer de nouveaux personnages de Brigan ou d'Archer qui peuvent apprendre les #LIGHT_GREEN#talents de Poisons#WHITE#.
 
-Talents:
-- #YELLOW#Vile Poisons: #WHITE#Learn new dangerous and terrible poisons to coat your weapons or ammo with, infecting your foes
-- #YELLOW#Venomous Strike: #WHITE#A terrible strike that deals increased nature damage based on the number of poison effects
-- #YELLOW#Empower Poisons: #WHITE#Learn to make your poisons even more lethal and fast
-- #YELLOW#Toxic Death: #WHITE#Spread the toxic joy to your foe's friends!
+Talents :
+- #YELLOW#Vils Poisons: #WHITE#Apprenez de nouveaux poisons dangereux et terribles dont vous pourrez enduire vos armes ou vos munitions pour infecter vos ennemis
+- #YELLOW#Frappe Venimeuse: #WHITE#Un coup terrible qui inflige des dégâts naturels accrus en fonction du nombre d'effets de poison
+- #YELLOW#Renforcement des poisons: #WHITE#Apprenez à rendre vos poisons encore plus mortels et rapides
+- #YELLOW#Mort Toxique: #WHITE#Répandez la joyeuse toxicité sur les amis de vos ennemis!
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-rogue_skirmisher.lua"
@@ -34199,9 +34155,11 @@ t("slow", "ralentissement", "effect subtype")
 t("blood", "sang", "effect subtype")
 t("poison", "dégâts de poison", "effect subtype")
 t("sun", "soleil", "effect subtype")
+t("Irresistible Sun", "Soleil Irrésistible", "_t")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
 t("ice", "glace", "effect subtype")
 t("cold", "froid", "effect subtype")
+t("Sun's Vengeance", "Vengeance du Soleil", "_t")
 t("water", "eau", "effect subtype")
 t("focus", "cencentration", "effect subtype")
 t("time", "temps", "effect subtype")
@@ -34707,7 +34665,6 @@ t("#Target# is magically poisoned!", "#Target# is magically poisoned!", "_t")
 t("+Vulnerability Poison", "+Vulnerability Poison", "_t")
 t("#Target# is no longer magically poisoned.", "#Target# is no longer magically poisoned.", "_t")
 t("-Vulnerability Poison", "-Vulnerability Poison", "_t")
-t("Irresistible Sun", "Irresistible Sun", "_t")
 t("The target is attracting all toward it, also dealing fire, light and physical damage each turn..", "The target is attracting all toward it, also dealing fire, light and physical damage each turn..", "tformat")
 t("#Target# starts to attract all creatures around!", "#Target# starts to attract all creatures around!", "_t")
 t("+Irresistible Sun", "+Irresistible Sun", "_t")
@@ -34755,7 +34712,6 @@ t("Caustic Golem", "Caustic Golem", "_t")
 t("The target is coated with acid. When struck in melee, it has a %d%% chance to spray a cone of acid towards the attacker doing %0.1f damage.", "The target is coated with acid. When struck in melee, it has a %d%% chance to spray a cone of acid towards the attacker doing %0.1f damage.", "tformat")
 t("#Target# is coated in acid!", "#Target# is coated in acid!", "_t")
 t("#Target#'s acid coating is diluted.", "#Target#'s acid coating is diluted.", "_t")
-t("Sun's Vengeance", "Sun's Vengeance", "_t")
 t("The target is filled with the Sun's fury, next Sun Beam will be instant cast.", "The target is filled with the Sun's fury, next Sun Beam will be instant cast.", "tformat")
 t("#Target# is filled with the Sun's fury!", "#Target# is filled with the Sun's fury!", "_t")
 t("+Sun's Vengeance", "+Sun's Vengeance", "_t")
@@ -35131,6 +35087,7 @@ t("darkness", "obscurité", "effect subtype")
 t("silence", "dégâts de silence", "effect subtype")
 t("focus", "cencentration", "effect subtype")
 t("confusion", "confus", "effect subtype")
+t("gloom", "angoisse", "effect subtype")
 t("slow", "ralentissement", "effect subtype")
 t("stun", "assommé", "effect subtype")
 t("psionic", "psyché", "effect subtype")
@@ -35202,7 +35159,6 @@ t("Willful Combat", "Willful Combat", "_t")
 t("The target puts all its willpower into its blows, improving physical power by %d.", "The target puts all its willpower into its blows, improving physical power by %d.", "tformat")
 t("#Target# lashes out with pure willpower.", "#Target# lashes out with pure willpower.", "_t")
 t("#Target#'s willpower rush ends.", "#Target#'s willpower rush ends.", "_t")
-t("gloom", "gloom", "effect subtype")
 t("Gloom Weakness", "Gloom Weakness", "_t")
 t("The gloom reduces damage the target inflicts by %d%%.", "The gloom reduces damage the target inflicts by %d%%.", "tformat")
 t("#F53CBE##Target# is weakened by the gloom.", "#F53CBE##Target# is weakened by the gloom.", "_t")
@@ -39535,10 +39491,10 @@ section "mod-tome/data/zones/ruined-dungeon/zone.lua"
 
 t("Ruined Dungeon", "Donjon en ruines", "_t")
 t("#rng# the Guardian", "#rng# le Gardien", "_t")
+t("Guardian", "Guardien", "_t")
 t("%s appears out of the thin air!", "%s surgit de nulle part!", "logSeen")
 -- texte non traduit
 --[==[
-t("Guardian", "Guardian", "_t")
 t("You can hear a magical trigger firing off.", "You can hear a magical trigger firing off.", "_t")
 t("Strange Orb", "Strange Orb", "_t")
 t("The orb seems to react badly to your touch; there is a high shriek!", "The orb seems to react badly to your touch; there is a high shriek!", "_t")
@@ -46449,5 +46405,3 @@ t("Constitution", "Constitution", "stat name")
 t("con", "con", "stat short_name")
 t("Infusions, Runes, ...", "Infusions, Runes, ...", "_t")
 --]==]
-
-
