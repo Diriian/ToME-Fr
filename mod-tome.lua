@@ -31022,17 +31022,18 @@ t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to le
 section "mod-tome/data/talents/undeads/ghoul.lua"
 
 t("Ghoul", "Goule", "talent name")
+t("Ghoulish Leap", "Saut de Goule", "talent name")
+t("Retch", "Vomie", "talent name")
+t("Gnaw", "Morsure", "talent name")
 t("Flesh is falling off in chunks from this decaying abomination.", "La chair tombe en morceaux de cette abomination en décomposition.", "_t")
 -- texte non traduit
 --[==[
 t([[Improves your ghoulish body, increasing Strength and Constitution by %d.
 		Your body also becomes incredibly resilient to damage; you can never take a blow that deals more than %d%% of your maximum life.]], [[Improves your ghoulish body, increasing Strength and Constitution by %d.
 		Your body also becomes incredibly resilient to damage; you can never take a blow that deals more than %d%% of your maximum life.]], "tformat")
-t("Ghoulish Leap", "Ghoulish Leap", "talent name")
 t([[Leap toward your target.
 		When you land your global speed is increased by %d%% for 4 turns.]], [[Leap toward your target.
 		When you land your global speed is increased by %d%% for 4 turns.]], "tformat")
-t("Retch", "Retch", "talent name")
 t("%s #YELLOW_GREEN#VOMITS#LAST# on the ground!", "%s #YELLOW_GREEN#VOMITS#LAST# on the ground!", "logSeen")
 t([[Vomit on the ground around you, healing any undead in the area and damaging anyone else.
 		Lasts %d turns and deals %d blight damage or heals %d life.
@@ -31041,7 +31042,6 @@ t([[Vomit on the ground around you, healing any undead in the area and damaging 
 		Lasts %d turns and deals %d blight damage or heals %d life.
 		Creatures standing in the retch also have %d%% chance to remove a physical effect each turn; undeads will be stripped from a detrimental effect while others will be stripped from a beneficial effect.
 		When you stand in your own retch your racial -20%% global speed is cancelled.]], "tformat")
-t("Gnaw", "Gnaw", "talent name")
 t("Risen Ghoul", "Risen Ghoul", "_t")
 t("A #GREY##Source##LAST# rises from the corpse of #Target#.", "A #GREY##Source##LAST# rises from the corpse of #Target#.", "logCombat")
 t("Ghoulish Minion", "Ghoulish Minion", "_t")
@@ -31106,16 +31106,16 @@ t([[You are so full with power that it overflows out of you whenever you cast a 
 section "mod-tome/data/talents/undeads/skeleton.lua"
 
 t("Skeleton", "Squelette", "talent name")
+t("Bone Armour", "Armure d'Os", "talent name")
+t("Resilient Bones", "Os Résistants", "talent name")
+t("Re-assemble", "Réassemblage", "talent name")
 -- texte non traduit
 --[==[
 t("Improves your skeletal condition, increasing Strength and Dexterity by %d.", "Improves your skeletal condition, increasing Strength and Dexterity by %d.", "tformat")
-t("Bone Armour", "Bone Armour", "talent name")
 t([[Creates a shield of bones, absorbing %d damage. Lasts for %d turns.
 		The total damage the shield can absorb increases with your Dexterity.]], [[Creates a shield of bones, absorbing %d damage. Lasts for %d turns.
 		The total damage the shield can absorb increases with your Dexterity.]], "tformat")
-t("Resilient Bones", "Resilient Bones", "talent name")
 t("Your undead bones are very resilient, reducing the duration of all detrimental effects on you by up to %d%%.", "Your undead bones are very resilient, reducing the duration of all detrimental effects on you by up to %d%%.", "tformat")
-t("Re-assemble", "Re-assemble", "talent name")
 t([[Reposition some of your bones, healing yourself for %d.
 		At level 5, you will gain the ability to completely re-assemble your body should it be destroyed (can only be used once).]], [[Reposition some of your bones, healing yourself for %d.
 		At level 5, you will gain the ability to completely re-assemble your body should it be destroyed (can only be used once).]], "tformat")
@@ -33764,10 +33764,6 @@ Talents :
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-rogue_skirmisher.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "_t")
 t([[In Maj'Eyal threats are everywhere when you walk the wildlands, some rogues prefer to forgo the use of stealth instead using their cunning skills to kill silently from afar with a sling well protected with a buckler.
 
 You have learned the power of counterstriking from afar and can now create characters with the #LIGHT_GREEN#Skirmisher class#WHITE#.
@@ -33781,30 +33777,29 @@ reach
 - Block enemy fire with your buckler mastery and counter attack#WHITE#
 
 Skirmisher use stamina to fuel their techniques, which replenishes slowly over time.
-]], [[In Maj'Eyal threats are everywhere when you walk the wildlands, some rogues prefer to forgo the use of stealth instead using their cunning skills to kill silently from afar with a sling well protected with a buckler.
+]], [[En Maj'Eyal les menaces sont omniprésentes lorsque vous marchez dans les terres sauvages, certains brigands préfèrent renoncer à l'utilisation de la furtivité et utilisent leurs compétences de ruse pour tuer silencieusement à distance avec une fronde bien protégée par un bouclier.
 
-You have learned the power of counterstriking from afar and can now create characters with the #LIGHT_GREEN#Skirmisher class#WHITE#.
+Vous avez appris le pouvoir de la contre-attaque à distance et vous pouvez maintenant créer des personnages de la #LIGHT_GREEN#classe Tirailleur#WHITE#.
 
-Skirmishers are highly mobile rogues that specialize in running and gunning, using Slings to harass, debilitate, and wear down enemies before finishing them off with extremely quick attacks.
+Les Tirailleurs sont des brigands très mobiles qui se spécialisent dans la course et le tir, utilisant des frondes pour harceler, affaiblir et épuiser les ennemis avant de les achever avec des attaques extrêmement rapides.
 
-Class features:#YELLOW#
-- Vault and roll around your foes, staying one step ahead and just out of
-reach
-- Cripple your opponents and unleash a torrent of sling bullets
-- Block enemy fire with your buckler mastery and counter attack#WHITE#
+Caractéristiques de classe:#YELLOW#
+- Sautez et roulez autour de vos ennemis, en gardant une longueur d'avance tout en restant hors de portée
+- Estropiez vos adversaires et lâchez un torrent de balles de fronde
+- Bloquez les tirs ennemis avec votre maîtrise du bouclier et contre-attaquez#WHITE#
 
-Skirmisher use stamina to fuel their techniques, which replenishes slowly over time.
+Les Tirailleurs utilisent l'endurance pour alimenter leurs techniques, qui se reconstitue lentement avec le temps.
 ]], "_t")
+-- texte non traduit
+--[==[
+t("New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-undead_ghoul.lua"
 
-
--- texte non traduit
---[==[
-t("New Race: #LIGHT_GREEN#Ghoul (Undead)", "New Race: #LIGHT_GREEN#Ghoul (Undead)", "_t")
+t("New Race: #LIGHT_GREEN#Ghoul (Undead)", "Nouvelle Race: #LIGHT_GREEN#Goule (Mort-vivant)", "_t")
 t([[Ghouls are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
 You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Ghoul race#WHITE#.
 
@@ -33814,26 +33809,21 @@ Race features:#YELLOW#
 - Stun resistance
 - Fear immunity
 - Special ghoul talents: ghoulish leap, gnaw and retch#WHITE#
-]], [[Ghouls are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
-You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Ghoul race#WHITE#.
+]], [[Les goules sont de maléfiques créatures mortes-vivantes. Généralement élevées par des nécromanciens pour servir de serviteurs sans âme, certaines parviennent à garder leur conscience et errent dans le monde en se lançant dans la destruction.
+Vous avez tué le Maître, une créature morte-vivante malveillante. Vous pouvez maintenant créer un nouveau personnage de la #LIGHT_GREEN#race des Goules#WHITE#.
 
-Race features:#YELLOW#
-- Great poison resistance
-- Bleeding immunity
-- Stun resistance
-- Fear immunity
-- Special ghoul talents: ghoulish leap, gnaw and retch#WHITE#
+Caractéristiques de race:#YELLOW#
+- Grande résistance au poison
+- Immunité aux saignements
+- Résistance aux assommements
+- Immunité à la peur
+- Talents spéciaux des goules : saut de goule, morsure et vomie.#WHITE#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-undead_skeleton.lua"
 
-
--- texte non traduit
---[==[
-t("New Race: #LIGHT_GREEN#Skeleton (Undead)", "New Race: #LIGHT_GREEN#Skeleton (Undead)", "_t")
+t("New Race: #LIGHT_GREEN#Skeleton (Undead)", "Nouvelle Race: #LIGHT_GREEN#Squelette (Mort-vivant)", "_t")
 t([[Skeletons are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
 You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Skeleton race#WHITE#.
 
@@ -33843,49 +33833,39 @@ Race features:#YELLOW#
 - Fear immunity
 - No need to breathe
 - Special skeleton talents: bone armour, resilient bones, re-assemble#WHITE#
-]], [[Skeletons are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
-You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Skeleton race#WHITE#.
+]], [[Les Squelettes sont de maléfiques créatures mortes-vivantes. Généralement élevés par des nécromanciens pour servir de serviteurs sans âme, certains parviennent à garder leur conscience et errent dans le monde en se lançant dans la destruction.
+Vous avez tué le Maître, une créature morte-vivante malveillante. Vous pouvez maintenant créer un nouveau personnage de la #LIGHT_GREEN#race Squelette#WHITE#.
 
-Race features:#YELLOW#
-- Poison immunity
-- Bleeding immunity
-- Fear immunity
-- No need to breathe
-- Special skeleton talents: bone armour, resilient bones, re-assemble#WHITE#
+Caractéristiques de race:#YELLOW#
+- Immunité au poison
+- Immunité aux saignements
+- Immunité contre la peur
+- Pas besoin de respirer
+- Talents spéciaux du squelette : armure d'os, os résistants, réassemblage.#WHITE#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wanderer.lua"
 
-
--- nouveau texte
---[==[
-t("New Class: #LIGHT_GREEN#Wanderer", "New Class: #LIGHT_GREEN#Wanderer", "_t")
+t("New Class: #LIGHT_GREEN#Wanderer", "Nouvelle Classe: #LIGHT_GREEN#Vagabond", "_t")
 t([[You have wanderer quite a lot since your birth!
 You can now create new characters with the #LIGHT_GREEN#Wanderer class#WHITE#.
 
 Wanderers start the game with 3 randomly selected class trees, 1 randomly selected generic tree and Combat Training.
 Every 5 levels the gain a new random class tree and every 10 levels they gain a new generic tree.
 They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
-Use at your own risk, and have fun.]], [[You have wanderer quite a lot since your birth!
-You can now create new characters with the #LIGHT_GREEN#Wanderer class#WHITE#.
+Use at your own risk, and have fun.]], [[Vous avez beaucoup vagabondé depuis votre naissance !
+Vous pouvez désormais créer de nouveaux personnages avec la #LIGHT_GREEN#classe Vagabond#WHITE#.
 
-Wanderers start the game with 3 randomly selected class trees, 1 randomly selected generic tree and Combat Training.
-Every 5 levels the gain a new random class tree and every 10 levels they gain a new generic tree.
-They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
-Use at your own risk, and have fun.]], "_t")
---]==]
-
+Les Vagabonds commencent le jeu avec 3 arbres de classe au hasard, 1 arbre générique au hasard et Formation au Combat.
+Tous les 5 niveaux, ils gagnent un nouvel arbre de classe au hasard et tous les 10 niveaux, ils gagnent un nouvel arbre générique.
+Il s'agit d'une classe #{bold}#bonus#{normal}#, qui n'est en aucun cas censée être équilibrée ou même fonctionner avec toutes les combinaisons de talents possibles.
+Utilisez-la à vos risques et périls, et amusez-vous bien.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-warrior_brawler.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Brawler (Warrior)", "New Class: #LIGHT_GREEN#Brawler (Warrior)", "_t")
+t("New Class: #LIGHT_GREEN#Brawler (Warrior)", "Nouvelle classe: #LIGHT_GREEN#Lutteur (Guerrier)", "_t")
 t([[The ravages of the Spellblaze stretched armies thin and left many unprotected. Not everyone could afford the luxury of a weapon.
 Without steel or iron, poor communities of all races turned to the strength of their own bodies for defense against the darkness.
 These unarmed techniques still exist today.
@@ -33900,31 +33880,26 @@ Class features:#YELLOW#
 - Control your enemies and break their bones with fierce grappling techniques#WHITE#
 
 Brawlers use stamina and must remain at least semi-mobile.  As such they cannot perform their unarmed talents in massive armor.
-]], [[The ravages of the Spellblaze stretched armies thin and left many unprotected. Not everyone could afford the luxury of a weapon.
-Without steel or iron, poor communities of all races turned to the strength of their own bodies for defense against the darkness.
-These unarmed techniques still exist today.
+]], [[Les ravages du Spellblaze ont affaibli les armées et laissé beaucoup de gens sans protection. Tout le monde ne pouvait pas se permettre le luxe d'une arme.
+Sans acier ni fer, les communautés pauvres de toutes les races se sont tournées vers la force de leur propre corps pour se défendre contre les ténèbres.
+Ces techniques sans armes existent encore aujourd'hui.
 
-You have learned these techniques and can now create new characters with the #LIGHT_GREEN#Brawler class#WHITE#.
+Vous avez appris ces techniques et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Lutteur#WHITE#.
 
-Brawlers are warriors who fight with little more than their own bodies as weapons.
-Class features:#YELLOW#
-- Build deadly combination attacks with your strikes
-- Wear gauntlets or gloves to boost your damage
-- Outwit your foes and set them up for deadly counter attacks
-- Control your enemies and break their bones with fierce grappling techniques#WHITE#
+Les Lutteurs sont des guerriers qui se battent avec un peu plus que leur propre corps comme arme.
+Caractéristiques de classe:#YELLOW#
+- Construisez des attaques combinées mortelles avec vos coups
+- Portez des gants ou des gantelets pour augmenter vos dégâts
+- Surprenez vos ennemis et préparez-les à des contre-attaques mortelles
+- Contrôlez vos ennemis et brisez leurs os grâce à des techniques d'agrippement féroces#WHITE#
 
-Brawlers use stamina and must remain at least semi-mobile.  As such they cannot perform their unarmed talents in massive armor.
+Les Lutteurs utilisent l'endurance et doivent rester au moins semi-mobiles. En tant que tels, ils ne peuvent pas exercer leurs talents sans arme en armure massive.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wilder_oozemancer.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "_t")
+t("New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "Nouvelle Classe: #LIGHT_GREEN#Slimancien (Naturaliste)", "_t")
 t([[The long Nature's hatred of all arcane forces has managed to create Oozemancers as the ultimate answer to archmagi.
 You have met and destroyed a corrupted one and can now create new characters with the #LIGHT_GREEN#Oozemancer class#WHITE#.
 
@@ -33937,29 +33912,24 @@ Class features:#YELLOW#
 
 All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
 The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
-]], [[The long Nature's hatred of all arcane forces has managed to create Oozemancers as the ultimate answer to archmagi.
-You have met and destroyed a corrupted one and can now create new characters with the #LIGHT_GREEN#Oozemancer class#WHITE#.
+]], [[La grande haine de la Nature envers toutes les forces arcaniques a réussi à créer les Slimanciens comme la réponse ultime aux archimages.
+Vous avez rencontré et détruit un corrompu et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Slimancien#WHITE#.
 
-Oozemancer are Wilders, who are at home in the wilds and draw their power from their connection with nature.
-Class features:#YELLOW#
-- Offensive long range nature and acidic attacks
-- Inherently antimagic
-- Summon various kinds of oozes to your side for a short while
-- Use oozes, slimes, mucus and moss against Nature's foes#WHITE#
+Les Slimanciens sont des Naturalites, qui se sentent chez eux dans les régions sauvages et tirent leur pouvoir de leur lien avec la nature.
+Caractéristiques de la classe:#YELLOW#
+- Attaques offensives à longue portée de type nature et acide
+- Intrinsèquement antimagique
+- Invoquez diverses sortes de gluants à vos côtés pour un court moment
+- Utilisez les gluants, les vaseux, les mucus et les mousses contre les ennemis de la nature.#WHITE#
 
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
+Toutes les classes de Naturaliste utilisent l'Equilibre pour leurs pouvoirs. Il représente leur connexion avec la nature. 
+Plus il est élevé, plus ils sont en déséquilibre avec elle. Un Equilibre élevé donne une chance d'échouer à utiliser un pouvoir et ainsi perdre un tour.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wilder_stone_warden.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Stone Warden (Wilder)", "New Class: #LIGHT_GREEN#Stone Warden (Wilder)", "_t")
+t("New Class: #LIGHT_GREEN#Stone Warden (Wilder)", "Nouvelle Classe: #LIGHT_GREEN#Gardien de Pierre (Naturaliste)", "_t")
 t([[While most races of Eyal firmly believe that arcane and nature forces are opposites, Dwarves have found a way to bind them together and meld them into a power to be reckoned with.
 
 You have mastered some arcane and wild talents at a crude level can now create new dwarf characters with the #LIGHT_GREEN#Stone Warden class#WHITE#.
@@ -33975,32 +33945,27 @@ Class features:#YELLOW#
 All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
 The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
 Stone Wardens also use Mana.
-]], [[While most races of Eyal firmly believe that arcane and nature forces are opposites, Dwarves have found a way to bind them together and meld them into a power to be reckoned with.
+]], [[Alors que la plupart des races d'Eyal croient fermement que les forces des arcanes et de la nature sont opposées, les Nains ont trouvé un moyen de les lier ensemble et de les fusionner en une puissance avec laquelle il faut compter.
 
-You have mastered some arcane and wild talents at a crude level can now create new dwarf characters with the #LIGHT_GREEN#Stone Warden class#WHITE#.
+Vous avez maîtrisé certains talents arcaniques et sauvages à un niveau rudimentaire et pouvez maintenant créer de nouveaux personnages nains avec la classe #LIGHT_GREEN#Gardien de Pierre#WHITE#.
 
-Stone Wardens are Wilders, who are at home in the wilds and draw their power from their connection with nature and arcane
-Class features:#YELLOW#
-- Dual wield shields and bash your foes with arcane enhanced shield strikes
-- Combine arcane and nature forces to split yourself into two powerful halves
-- Use vines of stone to grab and assail your foes
-- Turn into a huge earth elemental and summon volcanos
-- Dwarf race exclusive class (Select it at birth for the option to even appear)#WHITE#
+Les Gardiens de Pierre sont des Naturalistes, qui se sentent chez eux dans la nature et tirent leur pouvoir de leur connexion avec la nature et les arcanes.
+Caractéristiques de la classe:#YELLOW#
+- Maniez deux boucliers et frappez vos ennemis avec des coups de bouclier améliorés par les arcanes.
+- Combinez les forces arcaniques et naturelles pour vous diviser en deux parties puissantes.
+- Utilisez des lianes de pierre pour saisir et assaillir vos ennemis.
+- Transformez-vous en un énorme élémentaire de terre et invoquez des volcans.
+- Classe exclusive à la race naine (à choisir à la naissance pour que l'option apparaisse)#WHITE#
 
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
-Stone Wardens also use Mana.
+Toutes les classes de Naturaliste utilisent l'Equilibre pour leurs pouvoirs. Il représente leur connexion avec la nature. 
+Plus il est élevé, plus ils sont en déséquilibre avec elle. Un Equilibre élevé donne une chance d'échouer à utiliser un pouvoir et ainsi perdre un tour.
+Les Gardiens de pierre utilisent également le Mana.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wilder_summoner.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Summoner (Wilder)", "New Class: #LIGHT_GREEN#Summoner (Wilder)", "_t")
+t("New Class: #LIGHT_GREEN#Summoner (Wilder)", "Nouvelle Classe: #LIGHT_GREEN#Invocateur (Naturaliste)", "_t")
 t([[In the wilds, some people and creatures are able, by the sole force of their will, to call upon allies to help them in combat.
 You have witnessed such an act and can now create new characters with the #LIGHT_GREEN#Summoner class#WHITE#.
 
@@ -34012,28 +33977,23 @@ Class features:#YELLOW#
 
 All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
 The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
-]], [[In the wilds, some people and creatures are able, by the sole force of their will, to call upon allies to help them in combat.
-You have witnessed such an act and can now create new characters with the #LIGHT_GREEN#Summoner class#WHITE#.
+]], [[Dans les contrées sauvages, certaines personnes et créatures sont capables, par la seule force de leur volonté, d'appeler des alliés pour les aider au combat.
+Vous avez été témoin d'un tel acte et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Invocateur#WHITE#.
 
-Summoners are Wilders, who are at home in the wilds and draw their power from their connection with nature.
-Class features:#YELLOW#
-- Summon allies, ranging from a war hound to the mighty fire drake
-- Take direct control of your summons
-- Augment your summons with various powers#WHITE#
+Les Invocateurs sont des Naturalistes, qui sont à l'aise dans la nature et tirent leur pouvoir de leur connexion avec la nature.
+Caractéristiques de classe:#YELLOW#
+- Invoquez des alliés, allant du chien de guerre au puissant dragonnet de feu.
+- Prenez le contrôle direct de vos invocations
+- Augmentez vos invocations avec divers pouvoirs#WHITE#
 
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
+Toutes les classes de Naturaliste utilisent l'Equilibre pour leurs pouvoirs. Il représente leur connexion avec la nature. 
+Plus il est élevé, plus ils sont en déséquilibre avec elle. Un Equilibre élevé donne une chance d'échouer à utiliser un pouvoir et ainsi perdre un tour.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wilder_wyrmic.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Wyrmic (Wilder)", "New Class: #LIGHT_GREEN#Wyrmic (Wilder)", "_t")
+t("New Class: #LIGHT_GREEN#Wyrmic (Wilder)", "Nouvelle Classe: #LIGHT_GREEN#Draconien (Naturaliste)", "_t")
 t([[Some people, either through training or magic, can take on the defining aspects of the dragon-kin themselves.
 You have consumed a magic that allows you to gain such a power. You can now also create new characters with the #LIGHT_GREEN#Wyrmic class#WHITE#.
 
@@ -34046,29 +34006,24 @@ Class features:#YELLOW#
 All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
 The higher it gets the more off-balance they are with it. A high equilibrium makes for a chance to fail to use a power and lose a turn.
 Wyrmics are also trained in the martial arts and use stamina for some techniques.
-]], [[Some people, either through training or magic, can take on the defining aspects of the dragon-kin themselves.
-You have consumed a magic that allows you to gain such a power. You can now also create new characters with the #LIGHT_GREEN#Wyrmic class#WHITE#.
+]], [[Certaines personnes, par le biais de l'entraînement ou de la magie, sont capables d'adopter les aspects caractéristiques de la peau des dragons.
+Vous avez consommé une magie qui vous permet d'acquérir un tel pouvoir. Vous pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Draconien#WHITE#.
 
-Wyrmics are Wilders, who are at home in the wilds and draw their power from their connection with the dragons.
-Class features:#YELLOW#
-- Take on the aspects of drakes: fire, cold, sand, and more
-- Breath weapons: fire, ice, sand, and more
-- Powerful melee combatant#WHITE#
+Les Draconiens sont des Naturalistes, qui sont à l'aise dans la nature et tirent leur pouvoir de leur lien avec les dragons.
+Caractéristiques de classe:#YELLOW#
+- Prend les aspects des dragons: feu, froid, sable, et plus encore.
+- Attacques de souffle: feu, glace, sable, etc.
+- Puissant combattant de mêlée#WHITE#
 
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high equilibrium makes for a chance to fail to use a power and lose a turn.
-Wyrmics are also trained in the martial arts and use stamina for some techniques.
+Toutes les classes de Naturaliste utilisent l'Equilibre pour leurs pouvoirs. Il représente leur connexion avec la nature. 
+Plus il est élevé, plus ils sont en déséquilibre avec elle. Un Equilibre élevé donne une chance d'échouer à utiliser un pouvoir et ainsi perdre un tour.
+Les Draconiens sont également formés aux arts martiaux et utilisent l'endurance pour certaines techniques.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-yeek.lua"
 
-
--- texte non traduit
---[==[
-t("New Race: #LIGHT_GREEN#Yeek", "New Race: #LIGHT_GREEN#Yeek", "_t")
+t("New Race: #LIGHT_GREEN#Yeek", "Nouvelle Race: #LIGHT_GREEN#Yeek", "_t")
 t([[Yeeks are a mysterious race of small humanoids native to the tropical island of Rel.
 Their body is covered with white fur and their disproportionate heads give them a ridiculous look, yet they are a cunning and willful race.
 Although they are now nearly unheard of in Maj'Eyal, they spent many centuries as secret slaves to the Halfling nation of Nargol.
@@ -34081,21 +34036,19 @@ Race features:#YELLOW#
 - Confusion resistance
 - Fast leveling
 - Frail body#WHITE#
-]], [[Yeeks are a mysterious race of small humanoids native to the tropical island of Rel.
-Their body is covered with white fur and their disproportionate heads give them a ridiculous look, yet they are a cunning and willful race.
-Although they are now nearly unheard of in Maj'Eyal, they spent many centuries as secret slaves to the Halfling nation of Nargol.
-They gained their freedom during the Age of Pyre and have since then followed 'The Way' - a unity of minds enforced by their powerful psionics.
+]], [[Les Yeeks sont une race mystérieuse de petits humanoïdes originaires de l'île tropicale de Rel.
+Leur corps est recouvert d'une fourrure blanche et leur tête disproportionnée leur donne un air ridicule, mais c'est une race rusée et volontaire.
+Bien qu'ils soient aujourd'hui presque inconnus à Maj'Eyal, ils ont passé de nombreux siècles comme esclaves secrets de la nation halfling de Nargol.
+Ils ont gagné leur liberté pendant l'Ere du Bûcher et ont depuis suivi "La Voie" - une unité d'esprit renforcée par leur puissance psionique.
 
-You have helped a Yeek Wayist and can now create a new character with the #LIGHT_GREEN#Yeek race#WHITE#.
+Tu as aidé un Yeek de la Voie et tu peux maintenant créer un nouveau personnage de la #LIGHT_GREEN#race Yeek#WHITE#.
 
-Race features:#YELLOW#
-- Mental domination racial power
-- Confusion resistance
-- Fast leveling
-- Frail body#WHITE#
+Caractéristiques de race:#YELLOW#
+- Pouvoir racial de domination mentale
+- Résistance à la confusion
+- Passage de niveau rapide
+- Corps frêle#WHITE#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/timed_effects/floor.lua"
@@ -36178,6 +36131,7 @@ t("Something", "Quelque chose", "_t")
 t("physical", "physique", "effect subtype")
 t("darkness", "obscurité", "effect subtype")
 t("shield", "bouclier", "effect subtype")
+t("Ghoulish Leap", "Saut de Goule", "_t")
 -- nouveau texte
 --[==[
 t("The target is brutalized, reducing bleed resist by 50%%.", "The target is brutalized, reducing bleed resist by 50%%.", "tformat")
@@ -36883,7 +36837,6 @@ t("The target has recently performed an extreme feat of agility and is exhausted
 t("Mobile Defense", "Mobile Defense", "_t")
 t("stamina regeneration by %0.1f and ", "stamina regeneration by %0.1f and ", "tformat")
 t("Increases %sdefense by %d.", "Increases %sdefense by %d.", "tformat")
-t("Ghoulish Leap", "Ghoulish Leap", "_t")
 t("The target's global speed is increased by %d%%.", "The target's global speed is increased by %d%%.", "tformat")
 t("Feint", "Feint", "_t")
 t("The target gains 1 extra parry opportunity each turn, and its chance to fail each parry is reduced by %d%%.", "The target gains 1 extra parry opportunity each turn, and its chance to fail each parry is reduced by %d%%.", "tformat")
@@ -46405,3 +46358,5 @@ t("Constitution", "Constitution", "stat name")
 t("con", "con", "stat short_name")
 t("Infusions, Runes, ...", "Infusions, Runes, ...", "_t")
 --]==]
+
+
