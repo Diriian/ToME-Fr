@@ -34053,32 +34053,28 @@ Caractéristiques de race:#YELLOW#
 ------------------------------------------------
 section "mod-tome/data/timed_effects/floor.lua"
 
+t("Icy Floor", "Sol Glacé", "floorEffect desc")
+t("The target is walking on an icy floor. Increasing movement speed by 20%, providing +20% cold damage piercing and -30% stun immunity.", "La cible marche sur un sol glacé. Augmente la vitesse de déplacement de 20%, procure +20% de dégâts de froid perforant et -30% d'immunité aux assommements.", "_t")
+t("Font of Life", "Fontaine de Vie", "floorEffect desc")
+t("The target is near a font of life, granting %+0.2f life regeneration, %+0.2f equilibrium regeneration, %+0.2f stamina regeneration and %+0.2f psi regeneration.  (Only living creatures benefit.)", "La cible se trouve près d'une fontaine de vie, ce qui lui confère %+0.2f de régénération de vie, %+0.2f de régénération d'équilibre, %+0.2f de régénération d'endurance et %+0.2f de régénération psi. (Seules les créatures vivantes en bénéficient).", "tformat")
+t("Spellblaze Scar", "Cicatrice de la Brûlure Magique", "floorEffect desc")
+t("The target is near a spellblaze scar, granting +25% spell critical chance, +10% fire and blight damage but critical spells will drain arcane forces.", "La cible se trouve à proximité d'une cicatrice de la Brûlure Magique, ce qui lui confère +25% de chances de critique des sorts, +10% de dégâts de feu et de maladie, mais les sorts critiques drainent les forces arcaniques.", "_t")
+t("Blighted Soil", "Terre Viciée", "floorEffect desc")
+t("The target is walking on blighted soil, reducing diseases resistance by 60% and giving all attacks a 40% chance to infect the target with a random disease (can only happen once per turn).", "La cible marche sur une terre viciée, ce qui réduit la résistance aux maladies de 60% et donne à toutes les attaques 40% de chances d'infecter la cible avec une maladie aléatoire (ne peut se produire qu'une fois par tour).", "_t")
 t("Glimmerstone", "Pierre de Verre", "floorEffect desc")
 t("The target is affected by a glimmerstone, its next attack will try to daze.", "La cible est affectée par une pierre de verre, sa prochaine attaque cherchera à étourdir.", "_t")
--- texte non traduit
---[==[
-t("Icy Floor", "Icy Floor", "floorEffect desc")
-t("The target is walking on an icy floor. Increasing movement speed by 20%, providing +20% cold damage piercing and -30% stun immunity.", "The target is walking on an icy floor. Increasing movement speed by 20%, providing +20% cold damage piercing and -30% stun immunity.", "_t")
-t("Font of Life", "Font of Life", "floorEffect desc")
-t("The target is near a font of life, granting %+0.2f life regeneration, %+0.2f equilibrium regeneration, %+0.2f stamina regeneration and %+0.2f psi regeneration.  (Only living creatures benefit.)", "The target is near a font of life, granting %+0.2f life regeneration, %+0.2f equilibrium regeneration, %+0.2f stamina regeneration and %+0.2f psi regeneration.  (Only living creatures benefit.)", "tformat")
-t("Spellblaze Scar", "Spellblaze Scar", "floorEffect desc")
-t("The target is near a spellblaze scar, granting +25% spell critical chance, +10% fire and blight damage but critical spells will drain arcane forces.", "The target is near a spellblaze scar, granting +25% spell critical chance, +10% fire and blight damage but critical spells will drain arcane forces.", "_t")
-t("Blighted Soil", "Blighted Soil", "floorEffect desc")
-t("The target is walking on blighted soil, reducing diseases resistance by 60% and giving all attacks a 40% chance to infect the target with a random disease (can only happen once per turn).", "The target is walking on blighted soil, reducing diseases resistance by 60% and giving all attacks a 40% chance to infect the target with a random disease (can only happen once per turn).", "_t")
-t("Protective Aura", "Protective Aura", "floorEffect desc")
-t("The target is near a protective aura, granting +%d armour and +%d physical save.", "The target is near a protective aura, granting +%d armour and +%d physical save.", "tformat")
-t("Antimagic Bush", "Antimagic Bush", "floorEffect desc")
-t("The target is near an antimagic bush, granting +20%% nature damage, +20%% nature resistance penetration and -%d spellpower.", "The target is near an antimagic bush, granting +20%% nature damage, +20%% nature resistance penetration and -%d spellpower.", "tformat")
-t("Necrotic Air", "Necrotic Air", "floorEffect desc")
-t("The target is in a zone of necrotic air, granting -40% healing mod. Undead creatures also get +15% to all resistances.", "The target is in a zone of necrotic air, granting -40% healing mod. Undead creatures also get +15% to all resistances.", "_t")
-t("Whistling Vortex", "Whistling Vortex", "floorEffect desc")
-t("The target is in a whistling vortex, granting +%d ranged defense, -%d ranged accuracy and incoming projectiles are 30%% slower.", "The target is in a whistling vortex, granting +%d ranged defense, -%d ranged accuracy and incoming projectiles are 30%% slower.", "tformat")
-t("Fell Aura", "Fell Aura", "floorEffect desc")
-t("The target is surrounded by a fell aura, granting 40% critical damage bonus but -20% to all resistances.", "The target is surrounded by a fell aura, granting 40% critical damage bonus but -20% to all resistances.", "_t")
-t("Slimey Pool", "Slimey Pool", "floorEffect desc")
-t("The target is walking on slime. Decreasing movement speed by 20% and dealing 20 slime damage to any creatures attacking it.", "The target is walking on slime. Decreasing movement speed by 20% and dealing 20 slime damage to any creatures attacking it.", "_t")
---]==]
-
+t("Protective Aura", "Aura Protectrice", "floorEffect desc")
+t("The target is near a protective aura, granting +%d armour and +%d physical save.", "La cible se trouve à proximité d'une aura protectrice, lui conférant +%d d'armure et +%d de sauvegarde physique.", "tformat")
+t("Antimagic Bush", "Buisson Anti-magie", "floorEffect desc")
+t("The target is near an antimagic bush, granting +20%% nature damage, +20%% nature resistance penetration and -%d spellpower.", "La cible se trouve près d'un buisson anti-magie, ce qui lui confère +20%% de dégâts de nature, +20%% de pénétration de la résistance à la nature et -%d de puissance des sorts.", "tformat")
+t("Necrotic Air", "Air Nécrotique", "floorEffect desc")
+t("The target is in a zone of necrotic air, granting -40% healing mod. Undead creatures also get +15% to all resistances.", "La cible se trouve dans une zone d'air nécrotique, accordant -40% de modificateur à la guérison. Les créatures mortes-vivantes bénéficient également de +15% à toutes les résistances.", "_t")
+t("Whistling Vortex", "Vortex Sifflant", "floorEffect desc")
+t("The target is in a whistling vortex, granting +%d ranged defense, -%d ranged accuracy and incoming projectiles are 30%% slower.", "La cible se trouve dans un vortex sifflant, accordant +%d de défense à distance, -%d de précision à distance et les projectiles entrants sont 30%% plus lents.", "tformat")
+t("Fell Aura", "Aura Perdue", "floorEffect desc")
+t("The target is surrounded by a fell aura, granting 40% critical damage bonus but -20% to all resistances.", "La cible est entourée d'une aura perdue, accordant un bonus de 40% aux dégâts critiques mais -20% à toutes les résistances.", "_t")
+t("Slimey Pool", "Piscine de Vase", "floorEffect desc")
+t("The target is walking on slime. Decreasing movement speed by 20% and dealing 20 slime damage to any creatures attacking it.", "La cible marche sur de la vase. Diminue la vitesse de déplacement de 20% et inflige 20 dégâts de vase à toutes les créatures qui l'attaquent.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/timed_effects/magical.lua"
