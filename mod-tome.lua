@@ -15598,6 +15598,7 @@ t("human myth of creation", "mythe de la création humaine", "_t")
 t("a logical analysis of creation, by philosopher Smythen", "une analyse logique de la création, par le philosophe Smythen", "_t")
 t("eyal", "Eyal", "newLore category")
 t("Tale of the Moonsisters", "L'histoire des Soeurs Lunes", "_t")
+t("ancient papyrus scroll", "ancien rouleau de papyrus", "_t")
 t("vault", "chambre forte", "newLore category")
 t("Mocking Note", "Note Moqueuse", "_t")
 t("Guard's Journal", "Journal d'un garde", "_t")
@@ -15923,7 +15924,6 @@ For this is the Time of Balance, when the Darkness rises deepest, and all life i
 Aye, and Gerlyk did say, "Let no man walk abroad this night, lest Darkness catch him and take him forever."
 Aye, and Gerlyk did walk abroad that night, into Darkness beyond, and has ne'er since been seen.]], "_t")
 t("ancient elven ruins", "ancient elven ruins", "newLore category")
-t("ancient papyrus scroll", "ancient papyrus scroll", "_t")
 t([[Death is nearing. I can feel her chilling breath down the back of my neck. So many of us firstborn have passed on already. I cannot allow it... I will not let myself rot into dirt like the others. I am the mightiest of the Shaloren - I have a right to life!
 ]], [[Death is nearing. I can feel her chilling breath down the back of my neck. So many of us firstborn have passed on already. I cannot allow it... I will not let myself rot into dirt like the others. I am the mightiest of the Shaloren - I have a right to life!
 ]], "_t")
@@ -36841,12 +36841,7 @@ t("-Eldoral", "-Eldoral", "_t")
 ------------------------------------------------
 section "mod-tome/data/timed_effects.lua"
 
-
--- texte non traduit
---[==[
-t("%s from %s", "%s from %s", "tformat")
---]==]
-
+t("%s from %s", "%s de %s", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/wda/eyal.lua"
@@ -36861,38 +36856,23 @@ t("Maj'Eyal", "Maj'Eyal", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/abashed-expanse/grids.lua"
 
-
--- texte non traduit
---[==[
-t("unstable wormhole", "unstable wormhole", "entity name")
-t("stable wormhole", "stable wormhole", "_t")
-t("#VIOLET#The wormhole absorbs energies and stabilizes. You can now use it to travel.", "#VIOLET#The wormhole absorbs energies and stabilizes. You can now use it to travel.", "logSeen")
---]==]
-
+t("unstable wormhole", "trou de ver instable", "entity name")
+t("stable wormhole", "trou de ver stable", "_t")
+t("#VIOLET#The wormhole absorbs energies and stabilizes. You can now use it to travel.", "#VIOLET#Le trou de ver absorbe l'énergie et se stabilise. Vous pouvez désormais l'utiliser pour voyager.", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/zones/abashed-expanse/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Spacial Disturbance", "Spacial Disturbance", "entity name")
-t("A hole in the fabric of space, it seems to be the source of the expanse instability.", "A hole in the fabric of space, it seems to be the source of the expanse instability.", "_t")
-t("and folded out of existence", "and folded out of existence", "_t")
---]==]
-
+t("Spacial Disturbance", "Perturbation Spatiale", "entity name")
+t("A hole in the fabric of space, it seems to be the source of the expanse instability.", "Une brèche dans le tissu de l'espace, qui semble être à l'origine de l'instabilité de l'étendue.", "_t")
+t("and folded out of existence", "et a disparu", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/abashed-expanse/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Void Star", "Void Star", "entity name")
-t("tiny black star", "tiny black star", "_t")
-t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", "It looks like a very tiny star -- deep black -- and yet it somehow shines.", "_t")
---]==]
-
+t("Void Star", "Étoile du Néant", "entity name")
+t("tiny black star", "petite étoile noire", "_t")
+t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", "On dirait une toute petite étoile — d'un noir profond — et pourtant, d'une manière ou d'une autre, elle brille.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/abashed-expanse/zone.lua"
@@ -36902,72 +36882,52 @@ t("Abashed Expanse", "Etendu Ebranlée", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/ancient-elven-ruins/grids.lua"
 
-
--- texte non traduit
---[==[
-t("teleporting circle to the surface", "teleporting circle to the surface", "entity name")
---]==]
-
+t("teleporting circle to the surface", "cercle de téléportation vers la surface", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ancient-elven-ruins/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("mummy", "momie", "entity subtype")
--- texte non traduit
---[==[
-t("Greater Mummy Lord", "Greater Mummy Lord", "entity name")
-t("The wrappings of this mummy radiate with so much power it feels like wind is blowing from them.", "The wrappings of this mummy radiate with so much power it feels like wind is blowing from them.", "_t")
-t("and raised as a soulless shuffling mummy", "and raised as a soulless shuffling mummy", "_t")
-t("ancient elven mummy", "ancient elven mummy", "entity name")
-t("An animated corpse in mummy wrappings.", "An animated corpse in mummy wrappings.", "_t")
-t("animated mummy wrappings", "animated mummy wrappings", "entity name")
-t("An animated set of mummy wrappings, without a corpse inside; it seems like it cannot move.", "An animated set of mummy wrappings, without a corpse inside; it seems like it cannot move.", "_t")
-t("rotting mummy", "rotting mummy", "entity name")
-t("A rotting animated corpse in mummy wrappings.", "A rotting animated corpse in mummy wrappings.", "_t")
-t("greater mummy", "greater mummy", "entity name")
-t("An animated corpse in mummy wrappings, both very well preserved.", "An animated corpse in mummy wrappings, both very well preserved.", "_t")
---]==]
-
+t("Greater Mummy Lord", "Grand Seigneur des Momies", "entity name")
+t("The wrappings of this mummy radiate with so much power it feels like wind is blowing from them.", "Les bandelettes de cette momie dégagent une telle puissance qu'on a l'impression qu'un vent s'en dégage.", "_t")
+t("and raised as a soulless shuffling mummy", "et élevé comme une momie sans âme qui traîne les pieds", "_t")
+t("ancient elven mummy", "ancienne momie elfique", "entity name")
+t("An animated corpse in mummy wrappings.", "Un cadavre animé enveloppé dans des bandelettes de momie.", "_t")
+t("animated mummy wrappings", "bandelettes de momie animées", "entity name")
+t("An animated set of mummy wrappings, without a corpse inside; it seems like it cannot move.", "Un ensemble animé de bandelettes de momie, sans cadavre à l'intérieur; on dirait qu'il ne peut pas bouger.", "_t")
+t("rotting mummy", "momie en décomposition", "entity name")
+t("A rotting animated corpse in mummy wrappings.", "Un cadavre animé en décomposition, enveloppé dans des bandelettes de momie.", "_t")
+t("greater mummy", "grande momie", "entity name")
+t("An animated corpse in mummy wrappings, both very well preserved.", "Un cadavre animé enveloppé dans des bandelettes de momie, tous deux très bien conservés.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ancient-elven-ruins/objects.lua"
 
-
--- texte non traduit
---[==[
-t("ancient papyrus scroll", "ancient papyrus scroll", "entity name")
-t("This seems to be an account of the last days of a great Shaloren mage.", "This seems to be an account of the last days of a great Shaloren mage.", "_t")
-t("Bindings of Eternal Night", "Bindings of Eternal Night", "entity name")
-t("blackened, slithering mummy wrappings", "blackened, slithering mummy wrappings", "_t")
-t("Woven through with fell magics of undeath, these bindings suck the light and life out of everything they touch. Any who don them will find themselves suspended in a nightmarish limbo between life and death.", "Woven through with fell magics of undeath, these bindings suck the light and life out of everything they touch. Any who don them will find themselves suspended in a nightmarish limbo between life and death.", "_t")
-t("A complementing item would be your crowning glory.", "A complementing item would be your crowning glory.", "_t")
-t("Crown of Eternal Night", "Crown of Eternal Night", "entity name")
-t("blackened crown", "blackened crown", "_t")
-t("This crown looks useless, yet you can feel it is woven with fell magics of undeath. Maybe it has a use.", "This crown looks useless, yet you can feel it is woven with fell magics of undeath. Maybe it has a use.", "_t")
-t("You need to find something to bind its powers.", "You need to find something to bind its powers.", "_t")
-t("#ANTIQUE_WHITE#The Crown of Eternal Night seems to react with the Bindings, you feel tremendous dark power.", "#ANTIQUE_WHITE#The Crown of Eternal Night seems to react with the Bindings, you feel tremendous dark power.", "logSeen")
-t("#ANTIQUE_WHITE#The powerful darkness aura you felt wanes away.", "#ANTIQUE_WHITE#The powerful darkness aura you felt wanes away.", "logPlayer")
---]==]
-
+t("ancient papyrus scroll", "ancien rouleau de papyrus", "entity name")
+t("This seems to be an account of the last days of a great Shaloren mage.", "Il semble s'agir d'un récit des derniers jours d'un grand mage Shaloren.", "_t")
+t("Bindings of Eternal Night", "Liens de la Nuit Éternelle", "entity name")
+t("blackened, slithering mummy wrappings", "bandelettes de momie noircies et reptiliennes", "_t")
+t("Woven through with fell magics of undeath, these bindings suck the light and life out of everything they touch. Any who don them will find themselves suspended in a nightmarish limbo between life and death.", "Imprégnées de la magie maléfique de la Non-Vie, ces bandelettes absorbent la lumière et la vie de tout ce qu'elles touchent. Quiconque les revêt se retrouvera suspendu dans des limbes cauchemardesques entre la vie et la mort.", "_t")
+t("A complementing item would be your crowning glory.", "Un accessoire assorti serait la cerise sur le gâteau.", "_t")
+t("Crown of Eternal Night", "Couronne de la Nuit Éternelle", "entity name")
+t("blackened crown", "couronne noircie", "_t")
+t("This crown looks useless, yet you can feel it is woven with fell magics of undeath. Maybe it has a use.", "Cette couronne semble inutile, mais on sent qu’elle est imprégnée des sombres sortilèges de la Non-Vie. Elle a peut-être une utilité.", "_t")
+t("You need to find something to bind its powers.", "Tu dois trouver quelque chose pour maîtriser ses pouvoirs.", "_t")
+t("#ANTIQUE_WHITE#The Crown of Eternal Night seems to react with the Bindings, you feel tremendous dark power.", "#ANTIQUE_WHITE#La Couronne de la Nuit Éternelle semble interagir avec les Liens, vous ressentez une immense puissance obscure.", "logSeen")
+t("#ANTIQUE_WHITE#The powerful darkness aura you felt wanes away.", "#ANTIQUE_WHITE#L'aura de puissante noirceur que vous ressentiez s'estompe peu à peu.", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ancient-elven-ruins/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Elven Ruins", "Elven Ruins", "_t")
---]==]
-
+t("Elven Ruins", "Ruines Elfiques", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ardhungol/grids.lua"
 
-
+t("unstable wormhole", "trou de ver instable", "entity name")
 -- texte non traduit
 --[==[
-t("unstable wormhole", "unstable wormhole", "entity name")
 t("#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "logSeen")
 t("#VIOLET#The wormhole absorbs the energy of the spell and explodes in a burst of nullmagic!", "#VIOLET#The wormhole absorbs the energy of the spell and explodes in a burst of nullmagic!", "logSeen")
 --]==]
@@ -38685,10 +38645,10 @@ t("Mark of the Spellblaze", "Marque de la Brûlure Magique", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/maze/grids.lua"
 
+t("teleporting circle to the surface", "cercle de téléportation vers la surface", "entity name")
 t("wall", "mur", "entity type")
 -- texte non traduit
 --[==[
-t("teleporting circle to the surface", "teleporting circle to the surface", "entity name")
 t("cracks", "cracks", "entity subtype")
 t("huge crack in the floor", "huge crack in the floor", "entity name")
 t("Crack in the floor", "Crack in the floor", "_t")
@@ -39515,12 +39475,7 @@ t("As you enter the caves you notice the magic here has distorted the land, maki
 ------------------------------------------------
 section "mod-tome/data/zones/shadow-crypt/grids.lua"
 
-
--- texte non traduit
---[==[
-t("teleporting circle to the surface", "teleporting circle to the surface", "entity name")
---]==]
-
+t("teleporting circle to the surface", "cercle de téléportation vers la surface", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/shadow-crypt/npcs.lua"
@@ -41214,14 +41169,9 @@ t("As you vanquish the queen you notice a temporal thread that seems to have bee
 ------------------------------------------------
 section "mod-tome/data/zones/unhallowed-morass/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Void Star", "Void Star", "entity name")
-t("tiny black star", "tiny black star", "_t")
-t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", "It looks like a very tiny star -- deep black -- and yet it somehow shines.", "_t")
---]==]
-
+t("Void Star", "Étoile du Néant", "entity name")
+t("tiny black star", "petite étoile noire", "_t")
+t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", "On dirait une toute petite étoile — d'un noir profond — et pourtant, d'une manière ou d'une autre, elle brille.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/unhallowed-morass/zone.lua"
