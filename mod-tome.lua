@@ -36926,57 +36926,45 @@ t("Elven Ruins", "Ruines Elfiques", "_t")
 section "mod-tome/data/zones/ardhungol/grids.lua"
 
 t("unstable wormhole", "trou de ver instable", "entity name")
--- texte non traduit
---[==[
-t("#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "logSeen")
-t("#VIOLET#The wormhole absorbs the energy of the spell and explodes in a burst of nullmagic!", "#VIOLET#The wormhole absorbs the energy of the spell and explodes in a burst of nullmagic!", "logSeen")
---]==]
+t("#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "#VIOLET#Le trou de ver absorbe l'énergie du sort et téléporte %s au loin!", "logSeen")
+t("#VIOLET#The wormhole absorbs the energy of the spell and explodes in a burst of nullmagic!", "#VIOLET#Le trou de ver absorbe l'énergie du sort et explose dans un élan de néant magique!", "logSeen")
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/ardhungol/npcs.lua"
 
 
--- texte non traduit
---[==[
 t("Ungolë", "Ungolë", "entity name")
-t("A huge spider, shrouded in darkness, her red glowing eyes darting to fix on you. She looks hungry.", "A huge spider, shrouded in darkness, her red glowing eyes darting to fix on you. She looks hungry.", "_t")
-t("and devoured alongside a Sun Paladin", "and devoured alongside a Sun Paladin", "_t")
-t("Sun Paladin Rashim", "Sun Paladin Rashim", "_t")
+t("A huge spider, shrouded in darkness, her red glowing eyes darting to fix on you. She looks hungry.", "Une énorme araignée, nimbée de ténèbres, dont les yeux rouges et brillants se posent brusquement sur toi. Elle a l'air affamée.", "_t")
+t("and devoured alongside a Sun Paladin", "et dévoré en compagnie d'un Paladin Solaire", "_t")
+t("Sun Paladin Rashim", "Rashim le Paladin Solaire", "_t")
 t("xhaiak", "xhaiak", "entity subtype")
-t("xhaiak arachnomancer", "xhaiak arachnomancer", "entity name")
-t("A strange looking humanoid spiderkin, its body half covered by a light flowing robe. It looks like tiny spiders are crawling on his skin.", "A strange looking humanoid spiderkin, its body half covered by a light flowing robe. It looks like tiny spiders are crawling on his skin.", "_t")
+t("xhaiak arachnomancer", "xhaiak l'arachnomancien", "entity name")
+t("A strange looking humanoid spiderkin, its body half covered by a light flowing robe. It looks like tiny spiders are crawling on his skin.", "Une créature humanoïde à l'allure étrange, ressemblant à une araignée, dont le corps est à demi recouvert d'une robe légère et flottante. On dirait que de minuscules araignées rampent sur sa peau.", "_t")
 t("shiaak", "shiaak", "entity subtype")
-t("shiaak venomblade", "shiaak venomblade", "entity name")
-t("A strange looking humanoid, covered in black chitinous skin. He dual wields sinuous daggers and seems bent on plunging them in your body.", "A strange looking humanoid, covered in black chitinous skin. He dual wields sinuous daggers and seems bent on plunging them in your body.", "_t")
---]==]
+t("shiaak venomblade", "shiaak la lame venimeuse", "entity name")
+t("A strange looking humanoid, covered in black chitinous skin. He dual wields sinuous daggers and seems bent on plunging them in your body.", "Un humanoïde à l'allure étrange, recouvert d'une peau noire et chitineuse. Il manie deux poignards sinueux et semble bien décidé à vous les enfoncer dans le corps.", "_t")
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/ardhungol/objects.lua"
 
 t("%s activates %s %s!", "%s active %s %s!", "logSeen")
--- texte non traduit
---[==[
-t("diary page", "diary page", "entity name")
-t("A page of a diary.", "A page of a diary.", "_t")
-t("scrap of paper", "scrap of paper", "entity name")
-t("A scrap of paper.", "A scrap of paper.", "_t")
-t("Rod of Spydric Poison", "Rod of Spydric Poison", "entity name")
-t("poison dripping wand", "poison dripping wand", "_t")
-t("This rod carved out of a giant spider fang continuously drips venom.", "This rod carved out of a giant spider fang continuously drips venom.", "_t")
-t("shoot a bolt of spydric poison out to range %d, dealing %0.2f nature damage (based on Magic) over %d turns while rendering the target unable to move", "shoot a bolt of spydric poison out to range %d, dealing %0.2f nature damage (based on Magic) over %d turns while rendering the target unable to move", "tformat")
---]==]
+t("diary page", "page de journal personel", "entity name")
+t("A page of a diary.", "La page d'un journal.", "_t")
+t("scrap of paper", "morceau de papier", "entity name")
+t("A scrap of paper.", "Un morceau de papier.", "_t")
+t("Rod of Spydric Poison", "Bâtonnet de Poison Spydrique", "entity name")
+t("poison dripping wand", "baguette ruisselante de poison", "_t")
+t("This rod carved out of a giant spider fang continuously drips venom.", "Ce bâtonnet sculpté dans une canine d'araignée géante dégouline sans cesse de venin.", "_t")
+t("shoot a bolt of spydric poison out to range %d, dealing %0.2f nature damage (based on Magic) over %d turns while rendering the target unable to move", "lance un jet de poison spydrique à une portée de %d, infligeant %0.2f dégâts de nature (basés sur la Magie) pendant %d tours et rendant la cible incapable de se déplacer", "tformat")
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/ardhungol/zone.lua"
 
 
--- texte non traduit
---[==[
 t("Ardhungol", "Ardhungol", "_t")
---]==]
 
 
 ------------------------------------------------
