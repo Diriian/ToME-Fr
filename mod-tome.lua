@@ -12289,7 +12289,7 @@ GATHER HERE IN PEACE TO DISCOVER AND PERFECT THE KNOWLEDGE OF HOW, AND WHEN, TO 
 ------------------------------------------------
 section "mod-tome/data/lore/ardhungol.lua"
 
-
+t("scrap of paper", "morceau de papier", "_t")
 -- texte non traduit
 --[==[
 t("ardhungol", "ardhungol", "newLore category")
@@ -12355,7 +12355,6 @@ I have slain dozens of these arachnids, each one seemingly more difficult than t
 #{bold}#Journal Entry VIII#{normal}#
 
 Incredible, the size of that arachnid is unimaginable; there is no doubt about it, that spider is the matriarch here. I am heavily wounded, but there is no turning back now; I must finish what I started for the sake of all those awaiting my return. If I don't make it back, whoever is now reading this journal, please make High Sun Paladin Aeryn at the Gates of Morning aware of the grave situation... and tell Melnela that I'm sorry.]], "_t")
-t("scrap of paper", "scrap of paper", "_t")
 t([[#{italic}#A few tattered scraps of paper lie on the ground, ruined from your fight with the creature carrying it.  It's almost completely illegible, but you can piece some of it together to read:#{normal}#
 "...pheromone signals effective on much Eyalite wildlife ineffective on species 'sun paladin.'  at current planetary core cooling rates, passive study would lead to great loss - next step of emigration program should be cleaning of local 'sun paladin' nest and establishment of..."]], [[#{italic}#A few tattered scraps of paper lie on the ground, ruined from your fight with the creature carrying it.  It's almost completely illegible, but you can piece some of it together to read:#{normal}#
 "...pheromone signals effective on much Eyalite wildlife ineffective on species 'sun paladin.'  at current planetary core cooling rates, passive study would lead to great loss - next step of emigration program should be cleaning of local 'sun paladin' nest and establishment of..."]], "_t")
@@ -12366,11 +12365,10 @@ t("#{italic}#This pile of tattered paper could theoretically be assembled into s
 ------------------------------------------------
 section "mod-tome/data/lore/arena.lua"
 
-
+t("Arena for dummies", "L'arène pour les nuls", "_t")
 -- texte non traduit
 --[==[
 t("arena", "arena", "newLore category")
-t("Arena for dummies", "Arena for dummies", "_t")
 t([[#{italic}#You find a note with some highlighted words...
 #{bold}#SCORING IN THE ARENA
 
@@ -36929,27 +36927,27 @@ t("unstable wormhole", "trou de ver instable", "entity name")
 t("#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "#VIOLET#Le trou de ver absorbe l'énergie du sort et téléporte %s au loin!", "logSeen")
 t("#VIOLET#The wormhole absorbs the energy of the spell and explodes in a burst of nullmagic!", "#VIOLET#Le trou de ver absorbe l'énergie du sort et explose dans un élan de néant magique!", "logSeen")
 
-
 ------------------------------------------------
 section "mod-tome/data/zones/ardhungol/npcs.lua"
 
-
-t("Ungolë", "Ungolë", "entity name")
 t("A huge spider, shrouded in darkness, her red glowing eyes darting to fix on you. She looks hungry.", "Une énorme araignée, nimbée de ténèbres, dont les yeux rouges et brillants se posent brusquement sur toi. Elle a l'air affamée.", "_t")
 t("and devoured alongside a Sun Paladin", "et dévoré en compagnie d'un Paladin Solaire", "_t")
 t("Sun Paladin Rashim", "Rashim le Paladin Solaire", "_t")
-t("xhaiak", "xhaiak", "entity subtype")
 t("xhaiak arachnomancer", "xhaiak l'arachnomancien", "entity name")
 t("A strange looking humanoid spiderkin, its body half covered by a light flowing robe. It looks like tiny spiders are crawling on his skin.", "Une créature humanoïde à l'allure étrange, ressemblant à une araignée, dont le corps est à demi recouvert d'une robe légère et flottante. On dirait que de minuscules araignées rampent sur sa peau.", "_t")
-t("shiaak", "shiaak", "entity subtype")
 t("shiaak venomblade", "shiaak la lame venimeuse", "entity name")
 t("A strange looking humanoid, covered in black chitinous skin. He dual wields sinuous daggers and seems bent on plunging them in your body.", "Un humanoïde à l'allure étrange, recouvert d'une peau noire et chitineuse. Il manie deux poignards sinueux et semble bien décidé à vous les enfoncer dans le corps.", "_t")
+-- texte non traduit
+--[==[
+t("Ungolë", "Ungolë", "entity name")
+t("xhaiak", "xhaiak", "entity subtype")
+t("shiaak", "shiaak", "entity subtype")
+--]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/ardhungol/objects.lua"
 
-t("%s activates %s %s!", "%s active %s %s!", "logSeen")
 t("diary page", "page de journal personel", "entity name")
 t("A page of a diary.", "La page d'un journal.", "_t")
 t("scrap of paper", "morceau de papier", "entity name")
@@ -36958,13 +36956,16 @@ t("Rod of Spydric Poison", "Bâtonnet de Poison Spydrique", "entity name")
 t("poison dripping wand", "baguette ruisselante de poison", "_t")
 t("This rod carved out of a giant spider fang continuously drips venom.", "Ce bâtonnet sculpté dans une canine d'araignée géante dégouline sans cesse de venin.", "_t")
 t("shoot a bolt of spydric poison out to range %d, dealing %0.2f nature damage (based on Magic) over %d turns while rendering the target unable to move", "lance un jet de poison spydrique à une portée de %d, infligeant %0.2f dégâts de nature (basés sur la Magie) pendant %d tours et rendant la cible incapable de se déplacer", "tformat")
-
+t("%s activates %s %s!", "%s active %s %s!", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ardhungol/zone.lua"
 
 
+-- texte non traduit
+--[==[
 t("Ardhungol", "Ardhungol", "_t")
+--]==]
 
 
 ------------------------------------------------
@@ -36973,12 +36974,8 @@ section "mod-tome/data/zones/arena/grids.lua"
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
 t("wall", "mur", "entity name")
--- texte non traduit
---[==[
-t("closed gate", "closed gate", "entity name")
-t("open gate", "open gate", "entity name")
---]==]
-
+t("closed gate", "porte fermée", "entity name")
+t("open gate", "porte ouverte", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/arena/npcs.lua"
@@ -36987,130 +36984,118 @@ t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("skeletal rat", "rat squelettique", "entity name")
 t("undead", "mort-vivant", "entity type")
+t("The diminutive skeleton of a giant rat, charged with evil energies. Nobody understands the usefulness of undead rodents until several of them come after you.", "Le minuscule squelette d'un rat géant, chargé d'énergies maléfiques. Personne ne comprend l'utilité de ces rongeurs morts-vivants jusqu'à ce que plusieurs d'entre eux se lancent sur vous.", "_t")
+t("homeless fighter", "combattant itinérant", "entity name")
+t("Will fight for a meal.", "Il se battra pour un repas.", "_t")
+t("golden crystal", "cristal doré", "entity name")
+t("A formation of golden crystal. It emits a golden radiance equalling the sun itself.", "Une formation de cristal doré. Elle dégage un éclat doré aussi intense que celui du soleil.", "_t")
+t("master alchemist", "maître alchimiste", "entity name")
+t("Deadly fighters using explosive gems to attack.", "De redoutables combattants utilisent des gemmes explosives pour attaquer.", "_t")
+t("multihued wyrmic", "Draconien multicolore", "entity name")
+t("A powerful wyrmic with mastery over several elements.", "Un puissant draconien capable de maîtriser plusieurs éléments.", "_t")
+t("master slinger", "maître frondeurs", "entity name")
 t("halfling", "halfelin", "entity subtype")
+t("Expert slingers on hire by the arena. They are great at their jobs.", "Des frondeurs expérimentés peuvent être engagés dans l'arène. Ils sont très habiles dans leur domaine.", "_t")
 t("gladiator", "gladiateur", "entity name")
+t("Mercenaries hired by the arena for the sole purpose of entertainment. They make a living beating people up.", "Des mercenaires engagés par l'arène dans le seul but de divertir le public. Ils gagnent leur vie en tabassant des gens.", "_t")
+t("reaver", "moissoneur", "entity name")
+t("A warrior of death.", "Un guerrier de la mort.", "_t")
 t("headless horror", "horreur sans tête", "entity name")
+t("A headless gangly humanoid with a large distended stomach. Was captured and tamed by the first master of the arena.", "Un humanoïde dégingandé et sans tête, au ventre gonflé. Il a été capturé et apprivoisé par le premier maître de l'arène.", "_t")
 t("#AQUAMARINE#As %s falls all its eyes fall to the ground!", "#AQUAMARINE#Lorsque %s tombe, tous ses yeux tombent au sol !", "logSeen")
+t("A gargantuan bone giant resembling a wingless wyrm. He is fully sentient and surprisingly fast.", "Un gigantesque géant d'os ressemblant à un draconien sans ailes. Il est doué de raison et étonnamment rapide.", "_t")
+t("A young girl with skin pale as snow. She is small, but deadly in battle, unleashing a constant barrage of ice shards.", "Une jeune fille à la peau blanche comme la neige. Elle est menue, mais redoutable au combat, déchaînant un déluge incessant d'éclats de glace.", "_t")
+t("A strong female magician. Years of experience make her a dangerous combatant.", "Une magicienne hors pair. Ses nombreuses années d'expérience font d'elle une adversaire redoutable.", "_t")
+t("A massive suit of armor with a massive axe containing a massively cursed person. He is cursed to fight eternally.", "Une armure imposante avec une hache gigantesque, dans laquelle est enfermée une personne lourdement maudite. Il est condamné à se battre éternellement.", "_t")
+t("A Cornac fighter of respectable talent. He emerged from nowhere and became the true master of fighting.", "Un combattant Cornac au talent respectable. Sorti de nulle part, il est devenu un véritable maître du combat.", "_t")
+t("slinger", "frondeur", "entity name")
+t("Ranged fighters coming to the arena looking for wealth and glory, just like you.", "Des combattants à distance qui débarquent dans l'arène en quête de richesse et de gloire, tout comme vous.", "_t")
+t("high slinger", "noble frondeur", "entity name")
 t("alchemist", "alchimiste", "entity name")
+t("blood mage", "mage de sang", "entity name")
+t("A man dressed in black robes. You feel weak as you hear his ominous chanting.", "Un homme vêtu d'une robe noire. Vous vous sentez faiblir en entendant ses chants inquiétants.", "_t")
+t("hexer", "ensorceleur", "entity name")
+t("A man dressed in black robes. You feel a thousand curses being put on you.", "Un homme vêtu d'une robe noire. Vous avez l'impression que mille malédictions s'abattent sur vous.", "_t")
 t("rogue", "voyou", "entity name")
+t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your sight!", "Des combattants furtifs qui tentent de remporter la victoire par la ruse. Fais attention, ou ils vous prendront par surprise!", "_t")
+t("trickster", "tricheur", "entity name")
+t("Stealthy ranged fighters trying to achieve victory with trickery. Be careful or they will shoot your heart!", "De furtifs combattants à distance qui tentent de remporter la victoire par la ruse. Faites attention, sinon ils vous transperceront le cœur!", "_t")
 t("shadowblade", "lame ténébreuse", "entity name")
 t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "Des combattants furtifs qui tentent de remporter la victoire par la ruse. Faites attention ou ils vous voleront votre vie!", "_t")
+t("fire wyrmic", "draconien de feu", "entity name")
+t("A fire wyrmic aspiring to win the tournament. He comes paired with an ice wyrmic.", "Un draconien de feu qui aspire à remporter le tournoi. Il fait équipe avec un draconien de glace.", "_t")
+t("ice wyrmic", "draconien de glace", "entity name")
+t("An ice wyrmic aspiring to win the tournament. He comes paired with a fire wyrmic.", "Un draconien de glace qui aspire à remporter le tournoi. Il fait équipe avec un draconien de feu.", "_t")
+t("sand wyrmic", "draconien des sables", "entity name")
+t("A sand wyrmic aspiring to win the tournament. He comes paired with a storm wyrmic.", "Un draconien des sables qui aspire à remporter le tournoi. Il fait équipe avec un draconien de l'orage.", "_t")
+t("storm wyrmic", "draconien de l'orage wyrmic", "entity name")
+t("A storm wyrmic aspiring to win the tournament. He comes paired with a sand wyrmic.", "Un draconien de l'orage qui aspire à remporter le tournoi. Il fait équipe avec un draconien des sables.", "_t")
+t("high gladiator", "noble gladiateur", "entity name")
+t("great gladiator", "gladiateur formidable", "entity name")
+t("A devout soldier.", "Un soldat pieux.", "_t")
 t("elf", "elfe", "entity subtype")
+t("Warriors from afar. They use the power of light and darkness against you!", "Des guerriers venus de loin. Ils utilisent le pouvoir de la lumière et des ténèbres contre toi!", "_t")
+t("sun paladin", "paladin solaire", "entity name")
+t("Warriors from afar. They wield the power of light, and a mean sword.", "Des guerriers venus de loin. Ils brandissent le pouvoir de la lumière et manient l'épée avec redoutable habileté.", "_t")
+t("star crusader", "croisé stellaire", "entity name")
+t("Warriors from afar. They wield the power of light, and a mean sword. Darkness, too.", "Des guerriers venus de loin. Ils brandissent le pouvoir de la lumière et manient l'épée avec redoutable habileté. Et les ténèbres aussi.", "_t")
 -- texte non traduit
 --[==[
-t("The diminutive skeleton of a giant rat, charged with evil energies. Nobody understands the usefulness of undead rodents until several of them come after you.", "The diminutive skeleton of a giant rat, charged with evil energies. Nobody understands the usefulness of undead rodents until several of them come after you.", "_t")
-t("homeless fighter", "homeless fighter", "entity name")
-t("Will fight for a meal.", "Will fight for a meal.", "_t")
-t("golden crystal", "golden crystal", "entity name")
-t("A formation of golden crystal. It emits a golden radiance equalling the sun itself.", "A formation of golden crystal. It emits a golden radiance equalling the sun itself.", "_t")
-t("master alchemist", "master alchemist", "entity name")
-t("Deadly fighters using explosive gems to attack.", "Deadly fighters using explosive gems to attack.", "_t")
-t("multihued wyrmic", "multihued wyrmic", "entity name")
-t("A powerful wyrmic with mastery over several elements.", "A powerful wyrmic with mastery over several elements.", "_t")
-t("master slinger", "master slinger", "entity name")
-t("Expert slingers on hire by the arena. They are great at their jobs.", "Expert slingers on hire by the arena. They are great at their jobs.", "_t")
-t("Mercenaries hired by the arena for the sole purpose of entertainment. They make a living beating people up.", "Mercenaries hired by the arena for the sole purpose of entertainment. They make a living beating people up.", "_t")
-t("reaver", "reaver", "entity name")
-t("A warrior of death.", "A warrior of death.", "_t")
-t("A headless gangly humanoid with a large distended stomach. Was captured and tamed by the first master of the arena.", "A headless gangly humanoid with a large distended stomach. Was captured and tamed by the first master of the arena.", "_t")
 t("Ryal", "Ryal", "entity name")
-t("A gargantuan bone giant resembling a wingless wyrm. He is fully sentient and surprisingly fast.", "A gargantuan bone giant resembling a wingless wyrm. He is fully sentient and surprisingly fast.", "_t")
 t("Fryjia Loren", "Fryjia Loren", "entity name")
-t("A young girl with skin pale as snow. She is small, but deadly in battle, unleashing a constant barrage of ice shards.", "A young girl with skin pale as snow. She is small, but deadly in battle, unleashing a constant barrage of ice shards.", "_t")
 t("Riala Shalarak", "Riala Shalarak", "entity name")
-t("A strong female magician. Years of experience make her a dangerous combatant.", "A strong female magician. Years of experience make her a dangerous combatant.", "_t")
 t("Valfren Loren", "Valfren Loren", "entity name")
-t("A massive suit of armor with a massive axe containing a massively cursed person. He is cursed to fight eternally.", "A massive suit of armor with a massive axe containing a massively cursed person. He is cursed to fight eternally.", "_t")
 t("Rej Arkatis", "Rej Arkatis", "entity name")
-t("A Cornac fighter of respectable talent. He emerged from nowhere and became the true master of fighting.", "A Cornac fighter of respectable talent. He emerged from nowhere and became the true master of fighting.", "_t")
-t("slinger", "slinger", "entity name")
-t("Ranged fighters coming to the arena looking for wealth and glory, just like you.", "Ranged fighters coming to the arena looking for wealth and glory, just like you.", "_t")
-t("high slinger", "high slinger", "entity name")
-t("blood mage", "blood mage", "entity name")
-t("A man dressed in black robes. You feel weak as you hear his ominous chanting.", "A man dressed in black robes. You feel weak as you hear his ominous chanting.", "_t")
-t("hexer", "hexer", "entity name")
-t("A man dressed in black robes. You feel a thousand curses being put on you.", "A man dressed in black robes. You feel a thousand curses being put on you.", "_t")
-t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your sight!", "Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your sight!", "_t")
-t("trickster", "trickster", "entity name")
-t("Stealthy ranged fighters trying to achieve victory with trickery. Be careful or they will shoot your heart!", "Stealthy ranged fighters trying to achieve victory with trickery. Be careful or they will shoot your heart!", "_t")
-t("fire wyrmic", "fire wyrmic", "entity name")
-t("A fire wyrmic aspiring to win the tournament. He comes paired with an ice wyrmic.", "A fire wyrmic aspiring to win the tournament. He comes paired with an ice wyrmic.", "_t")
-t("ice wyrmic", "ice wyrmic", "entity name")
-t("An ice wyrmic aspiring to win the tournament. He comes paired with a fire wyrmic.", "An ice wyrmic aspiring to win the tournament. He comes paired with a fire wyrmic.", "_t")
-t("sand wyrmic", "sand wyrmic", "entity name")
-t("A sand wyrmic aspiring to win the tournament. He comes paired with a storm wyrmic.", "A sand wyrmic aspiring to win the tournament. He comes paired with a storm wyrmic.", "_t")
-t("storm wyrmic", "storm wyrmic", "entity name")
-t("A storm wyrmic aspiring to win the tournament. He comes paired with a sand wyrmic.", "A storm wyrmic aspiring to win the tournament. He comes paired with a sand wyrmic.", "_t")
-t("high gladiator", "high gladiator", "entity name")
-t("great gladiator", "great gladiator", "entity name")
 t("martyr", "martyr", "entity name")
-t("A devout soldier.", "A devout soldier.", "_t")
 t("anorithil", "anorithil", "entity name")
-t("Warriors from afar. They use the power of light and darkness against you!", "Warriors from afar. They use the power of light and darkness against you!", "_t")
-t("sun paladin", "sun paladin", "entity name")
-t("Warriors from afar. They wield the power of light, and a mean sword.", "Warriors from afar. They wield the power of light, and a mean sword.", "_t")
-t("star crusader", "star crusader", "entity name")
-t("Warriors from afar. They wield the power of light, and a mean sword. Darkness, too.", "Warriors from afar. They wield the power of light, and a mean sword. Darkness, too.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/arena/objects.lua"
 
+t("Arena for dummies", "L'arène pour les nuls", "entity name")
+t("A note explaining the arena's scoring rules. Someone must have dropped it.", "Une note expliquant les règles de classement de l'arène. Quelqu'un a dû la laisser tomber.", "_t")
+t("a pair of leather boots of disengagement", "une paire de bottes en cuir de désengagement", "entity name")
 t("armor", "armure", "entity type")
 t("feet", "pieds", "entity subtype")
+t("A pair of boots made of leather. They seem to be of exceptional quality.", "Une paire de bottes en cuir. Elles semblent être d'une qualité exceptionnelle.", "_t")
+t("a pair of leather boots of phasing", "une paire de bottes en cuir de phase", "entity name")
+t("blink to a nearby random location within range %d (based on Magic)", "passe vers un emplacement aléatoire proche situé dans un rayon de %d (basé sur la magie)", "tformat")
 t("%s uses %s!", "%s utilise %s!", "logSeen")
--- texte non traduit
---[==[
-t("Arena for dummies", "Arena for dummies", "entity name")
-t("A note explaining the arena's scoring rules. Someone must have dropped it.", "A note explaining the arena's scoring rules. Someone must have dropped it.", "_t")
-t("a pair of leather boots of disengagement", "a pair of leather boots of disengagement", "entity name")
-t("A pair of boots made of leather. They seem to be of exceptional quality.", "A pair of boots made of leather. They seem to be of exceptional quality.", "_t")
-t("a pair of leather boots of phasing", "a pair of leather boots of phasing", "entity name")
-t("blink to a nearby random location within range %d (based on Magic)", "blink to a nearby random location within range %d (based on Magic)", "tformat")
-t("a pair of leather boots of rushing", "a pair of leather boots of rushing", "entity name")
-t("elm longbow of piercing arrows", "elm longbow of piercing arrows", "entity name")
-t("rough leather sling of flare", "rough leather sling of flare", "entity name")
---]==]
-
+t("a pair of leather boots of rushing", "une paire de bottes en cuir de précipitation", "entity name")
+t("elm longbow of piercing arrows", "arc long en orme de flèches perçantes", "entity name")
+t("rough leather sling of flare", "fronde en cuir brute d'éclat", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/arena/zone.lua"
 
 t("The Arena", "L'Arène", "_t")
--- texte non traduit
---[==[
-t("#GOLD#Miniboss round starts!!", "#GOLD#Miniboss round starts!!", "log")
-t("#VIOLET#Boss round starts!!!", "#VIOLET#Boss round starts!!!", "log")
-t("#LIGHT_RED#Final round starts!!!!", "#LIGHT_RED#Final round starts!!!!", "log")
-t("#YELLOW#The gates open!", "#YELLOW#The gates open!", "log")
-t("#LIGHT_RED#The gates close!", "#LIGHT_RED#The gates close!", "log")
-t("RANK UP!!", "RANK UP!!", "_t")
-t("#LIGHT_GREEN#The public is pleased by your performance! You now have the rank of #WHITE#%s#LIGHT_GREEN#!", "#LIGHT_GREEN#The public is pleased by your performance! You now have the rank of #WHITE#%s#LIGHT_GREEN#!", "log")
-t("%d kills!", "%d kills!", "tformat")
-t("#YELLOW#You killed %d enemies in a single turn! The public is excited!", "#YELLOW#You killed %d enemies in a single turn! The public is excited!", "log")
-t("#YELLOW#Items lying around will disappear in #WHITE#%d#YELLOW# turns!#LAST#", "#YELLOW#Items lying around will disappear in #WHITE#%d#YELLOW# turns!#LAST#", "log")
-t("#VIOLET#Boss round!!!", "#VIOLET#Boss round!!!", "log")
-t("#GOLD#Miniboss round!", "#GOLD#Miniboss round!", "log")
-t("#LIGHT_RED#Final round!!!", "#LIGHT_RED#Final round!!!", "log")
-t("Round Clear! +%s EXP!", "Round Clear! +%s EXP!", "tformat")
-t("%sWave clear!", "%sWave clear!", "log")
-t("%sClear bonus: %s%s%s! Score bonus: %s%s%s! Danger bonus: %s%s%s! Rank bonus: %s%s%s!", "%sClear bonus: %s%s%s! Score bonus: %s%s%s! Danger bonus: %s%s%s! Rank bonus: %s%s%s!", "log")
-t("%sYour experience increases by %s%d%s!", "%sYour experience increases by %s%d%s!", "log")
-t("%sYou earn %s gold for your victory!", "%sYou earn %s gold for your victory!", "log")
-t("Arena mode", "Arena mode", "_t")
---]==]
-
+t("#GOLD#Miniboss round starts!!", "#GOLD#Début du round de Mini-Boss!!", "log")
+t("#VIOLET#Boss round starts!!!", "#VIOLET#Début du round de Bboss!!!", "log")
+t("#LIGHT_RED#Final round starts!!!!", "#LIGHT_RED#Début du dernier round!!!!", "log")
+t("#YELLOW#The gates open!", "#YELLOW#Les portes s'ouvrent!", "log")
+t("#LIGHT_RED#The gates close!", "#LIGHT_RED#Les portes se ferment!", "log")
+t("RANK UP!!", "MONTÉE EN CLASSEMENT!!", "_t")
+t("#LIGHT_GREEN#The public is pleased by your performance! You now have the rank of #WHITE#%s#LIGHT_GREEN#!", "#LIGHT_GREEN#Le public est ravi de votre performance! Vous avez désormais le rang de #WHITE#%s#LIGHT_GREEN#!", "log")
+t("%d kills!", "%d Tués!", "tformat")
+t("#YELLOW#You killed %d enemies in a single turn! The public is excited!", "#YELLOW#Vous avez tué %d ennemis en un seul tour! Le public est en ébullition!", "log")
+t("#YELLOW#Items lying around will disappear in #WHITE#%d#YELLOW# turns!#LAST#", "#YELLOW#Les objets qui traînent disparaîtront dans #WHITE#%d#YELLOW# tours!#LAST#", "log")
+t("#VIOLET#Boss round!!!", "#VIOLET#Round de Boss!!!", "log")
+t("#GOLD#Miniboss round!", "#GOLD#Round de Mini-boss!", "log")
+t("#LIGHT_RED#Final round!!!", "#LIGHT_RED#Round Finale!!!", "log")
+t("Round Clear! +%s EXP!", "Round terminé! +%s EXP!", "tformat")
+t("%sWave clear!", "%sVague terminé!", "log")
+t("%sClear bonus: %s%s%s! Score bonus: %s%s%s! Danger bonus: %s%s%s! Rank bonus: %s%s%s!", "%sBonus de complétion: %s%s%s! Bonus de score: %s%s%s! Bonus de danger: %s%s%s! Bonus de rang: %s%s%s!", "log")
+t("%sYour experience increases by %s%d%s!", "%sVotre expérience augmente de %s%d%s!", "log")
+t("%sYou earn %s gold for your victory!", "%s Vous gagnez %s pièces d'or pour votre victoire!", "log")
+t("Arena mode", "Mode arène", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/arena-unlock/grids.lua"
 
 t("wall", "mur", "entity name")
--- texte non traduit
---[==[
-t("closed gate", "closed gate", "entity name")
---]==]
-
+t("closed gate", "porte fermée", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/arena-unlock/npcs.lua"
@@ -37118,27 +37103,18 @@ section "mod-tome/data/zones/arena-unlock/npcs.lua"
 t("gladiator", "gladiateur", "entity name")
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("A menacing man in heavy armor, wielding a mace. He looks battle-hardened.", "Un homme à l'air menaçant, vêtu d'une lourde armure et brandissant une masse. Il a l'air d'un guerrier aguerri.", "_t")
+t("halfling slinger", "frondeur halfelin", "entity name")
 t("halfling", "halfelin", "entity subtype")
--- texte non traduit
---[==[
-t("A menacing man in heavy armor, wielding a mace. He looks battle-hardened.", "A menacing man in heavy armor, wielding a mace. He looks battle-hardened.", "_t")
-t("halfling slinger", "halfling slinger", "entity name")
-t("A Halfling slinger. He seems adept at combat.", "A Halfling slinger. He seems adept at combat.", "_t")
-t("arcane blade", "arcane blade", "entity name")
-t("A Human Arcane Blade. His body shows multiple scars from battle.", "A Human Arcane Blade. His body shows multiple scars from battle.", "_t")
-t("Cornac rogue", "Cornac rogue", "_t")
---]==]
-
+t("A Halfling slinger. He seems adept at combat.", "Un frondeur halfelin. Il semble doué au combat.", "_t")
+t("arcane blade", "lame arcanique", "entity name")
+t("A Human Arcane Blade. His body shows multiple scars from battle.", "Un humain Lame Arcanique. Son corps porte de nombreuses cicatrices de combat.", "_t")
+t("Cornac rogue", "Brigand Cornac", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/arena-unlock/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Derth (Southeast)", "Derth (Southeast)", "_t")
---]==]
-
+t("Derth (Southeast)", "Derth (Sud-Est)", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/blighted-ruins/grids.lua"
@@ -37551,13 +37527,12 @@ t("As the annoying imp falls a portal appears under its corpse.", "As the annoyi
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane/objects.lua"
 
-
+t("blink to a nearby random location within range %d (based on Magic)", "passe vers un emplacement aléatoire proche situé dans un rayon de %d (basé sur la magie)", "tformat")
 -- texte non traduit
 --[==[
 t("Shifting Boots", "Shifting Boots", "entity name")
 t("pair of shifting boots", "pair of shifting boots", "_t")
 t("Those leather boots can make anybody as annoying as their former possessor, Draebor.", "Those leather boots can make anybody as annoying as their former possessor, Draebor.", "_t")
-t("blink to a nearby random location within range %d (based on Magic)", "blink to a nearby random location within range %d (based on Magic)", "tformat")
 t("%s taps %s %s together!", "%s taps %s %s together!", "logSeen")
 --]==]
 
@@ -40242,12 +40217,12 @@ section "mod-tome/data/zones/town-derth/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
+t("halfling slinger", "frondeur halfelin", "entity name")
 t("halfling", "halfelin", "entity subtype")
 -- texte non traduit
 --[==[
 t("Catch @himher@!", "Catch @himher@!", "_t")
 t("derth guard", "derth guard", "entity name")
-t("halfling slinger", "halfling slinger", "entity name")
 t("A Halfling, with a sling. Beware.", "A Halfling, with a sling. Beware.", "_t")
 t("human farmer", "human farmer", "entity name")
 t("A weather-worn Human farmer.", "A weather-worn Human farmer.", "_t")
@@ -40776,8 +40751,10 @@ t("Shatur", "Shatur", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/grids.lua"
 
+t("closed gate", "porte fermée", "entity name")
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
+t("open gate", "porte ouverte", "entity name")
 -- texte non traduit
 --[==[
 t("Zigur Postsign", "Zigur Postsign", "entity name")
@@ -40786,8 +40763,6 @@ t("lava pit", "lava pit", "entity name")
 t("cultivated fields", "cultivated fields", "entity name")
 t("cobblestone road", "cobblestone road", "entity name")
 t("giant rock", "giant rock", "entity name")
-t("closed gate", "closed gate", "entity name")
-t("open gate", "open gate", "entity name")
 --]==]
 
 
