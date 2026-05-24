@@ -37160,46 +37160,32 @@ t("Blighted Ruins", "Ruines Délabrées", "_t")
 section "mod-tome/data/zones/briagh-lair/npcs.lua"
 
 t("sand", "sable", "entity subtype")
+t("Briagh, Great Sand Wyrm", "Briagh, Grand Ver des Sables", "entity name")
+t("A towering sand drake stands before you. This wingless worm is mighty and could easily crush you.", "Un gigantesque dragon des sables se dresse devant vous. Ce ver sans ailes est redoutable et pourrait facilement vous écraser.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("Briagh, Great Sand Wyrm", "Briagh, Great Sand Wyrm", "entity name")
-t("A towering sand drake stands before you. This wingless worm is mighty and could easily crush you.", "A towering sand drake stands before you. This wingless worm is mighty and could easily crush you.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/briagh-lair/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Resonating Diamond", "Resonating Diamond", "entity name")
---]==]
-
+t("Resonating Diamond", "Diamant Résonnant", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/briagh-lair/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Briagh's Lair", "Briagh's Lair", "_t")
---]==]
-
+t("Briagh's Lair", "Antre de Briagh", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/charred-scar/grids.lua"
 
 t("floor", "sol", "entity type")
 t("lava", "lave", "entity subtype")
--- texte non traduit
---[==[
-t("Farportal: the Far East", "Farportal: the Far East", "entity name")
-t("A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to the far east.", "#VIOLET#You enter the swirling portal and in the blink of an eye you are back to the far east.", "_t")
---]==]
-
+t("Farportal: the Far East", "Portail Lointain: l'Extrême-Orient", "entity name")
+t("A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "Un portail lointain permet de parcourir des distances incroyables en un clin d'œil. Son utilisation nécessite généralement un objet externe.", "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to the far east.", "#VIOLET#Tu franchis le portail tourbillonnant et, en un clin d'oeil, tu te retrouves en Extrême-Orient.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/charred-scar/npcs.lua"
@@ -37207,24 +37193,24 @@ section "mod-tome/data/zones/charred-scar/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("human sun-paladin", "paladin solaire humain", "entity name")
+t("A Human in shiny plate armour.", "Un humain vêtu d'une armure de plaques étincelante.", "_t")
+t("High Sun-Paladin Rodmour", "Grand Paladin Solaire Rodmour", "entity name")
+t("Go %s! We will hold the line!", "Allez, %s! Nous tiendrons nos positions!", "tformat")
 t("orc warrior", "guerrier orc", "entity name")
 t("A fierce soldier-orc.", "Un féroce soldat-orc.", "_t")
+t("Renegade mages from Angolwen, the Sorcerers have set up in the Far East, slowly growing corrupt. Now they must be stopped.", "Mages renégats originaires d'Angolwen, les Sorciers se sont installés en Extrême-Orient, où ils sombrent peu à peu dans la corruption. Il faut désormais les arrêter.", "_t")
+t("Damn you, you only postpone your death! Fyrk!", "Maudit soyez-vous, vous ne faites que repousser votre mort! Fyrk!", "_t")
+t("Fyrk, Faeros High Guard", "Fyrk, Garde d'Élite Feuros", "entity name")
+t([[Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.
+This one looks even nastier and looks toward you with what seems to be disdain. Flames swirl all around him.]], [[Les Feuros sont des élémentaires du feu extrêmement intelligents, que l'on aperçoit rarement en dehors des volcans. Ils ne sont probablement pas originaires de ce monde.
+Celui-ci a l'air encore plus redoutable et te regarde avec ce qui semble être du mépris. Des flammes tourbillonnent tout autour de lui.]], "_t")
+t("and a sole piece of char was sent to his masters as a totem", "et un morceau de charbon a été envoyé à ses maîtres en guise de totem", "_t")
 -- texte non traduit
 --[==[
-t("A Human in shiny plate armour.", "A Human in shiny plate armour.", "_t")
-t("High Sun-Paladin Rodmour", "High Sun-Paladin Rodmour", "entity name")
-t("Go %s! We will hold the line!", "Go %s! We will hold the line!", "tformat")
 t("orc", "orc", "entity subtype")
 t("shalore", "shalore", "entity subtype")
 t("Elandar", "Elandar", "entity name")
-t("Renegade mages from Angolwen, the Sorcerers have set up in the Far East, slowly growing corrupt. Now they must be stopped.", "Renegade mages from Angolwen, the Sorcerers have set up in the Far East, slowly growing corrupt. Now they must be stopped.", "_t")
-t("Damn you, you only postpone your death! Fyrk!", "Damn you, you only postpone your death! Fyrk!", "_t")
 t("Argoniel", "Argoniel", "entity name")
-t("Fyrk, Faeros High Guard", "Fyrk, Faeros High Guard", "entity name")
-t([[Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.
-This one looks even nastier and looks toward you with what seems to be disdain. Flames swirl all around him.]], [[Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.
-This one looks even nastier and looks toward you with what seems to be disdain. Flames swirl all around him.]], "_t")
-t("and a sole piece of char was sent to his masters as a totem", "and a sole piece of char was sent to his masters as a totem", "_t")
 --]==]
 
 
@@ -37232,11 +37218,7 @@ t("and a sole piece of char was sent to his masters as a totem", "and a sole pie
 section "mod-tome/data/zones/charred-scar/zone.lua"
 
 t("Charred Scar", "Plaie Craquelée", "_t")
--- texte non traduit
---[==[
-t("Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "_t")
---]==]
-
+t("Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "Dépêche-toi de descendre vers le sud pendant que les paladins solaires tiennent les orques à distance. Fais en sorte que leur sacrifice en vaille la peine!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/conclave-vault/grids.lua"
@@ -38108,10 +38090,10 @@ t("Heart of the Gloom", "Heart of the Gloom", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/high-peak/grids.lua"
 
+t("Farportal: the Far East", "Portail Lointain: l'Extrême-Orient", "entity name")
 t("next level", "niveau suivant", "entity name")
 -- texte non traduit
 --[==[
-t("Farportal: the Far East", "Farportal: the Far East", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the Far East.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the Far East.]], "_t")
@@ -38144,13 +38126,13 @@ t("Elandar", "Elandar", "_t")
 section "mod-tome/data/zones/high-peak/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("Renegade mages from Angolwen, the Sorcerers have set up in the Far East, slowly growing corrupt. Now they must be stopped.", "Mages renégats originaires d'Angolwen, les Sorciers se sont installés en Extrême-Orient, où ils sombrent peu à peu dans la corruption. Il faut désormais les arrêter.", "_t")
 t("human", "humain", "entity subtype")
 t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
 -- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
 t("Elandar", "Elandar", "entity name")
-t("Renegade mages from Angolwen, the Sorcerers have set up in the Far East, slowly growing corrupt. Now they must be stopped.", "Renegade mages from Angolwen, the Sorcerers have set up in the Far East, slowly growing corrupt. Now they must be stopped.", "_t")
 t("Argoniel", "Argoniel", "entity name")
 t("Fallen Sun Paladin Aeryn", "Fallen Sun Paladin Aeryn", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "A beautiful woman, clad in shining plate armour. Power radiates from her.", "_t")
@@ -38959,10 +38941,9 @@ t("Rak'shor Pride", "Rak'shor Pride", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/reknor/grids.lua"
 
-
+t("Farportal: the Far East", "Portail Lointain: l'Extrême-Orient", "entity name")
 -- texte non traduit
 --[==[
-t("Farportal: the Far East", "Farportal: the Far East", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the Far East, a continent of which only rumours are known...]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the Far East, a continent of which only rumours are known...]], "_t")
@@ -39000,6 +38981,7 @@ t("A careful examination of the demon's body turns up a Blood-Runed Athame and a
 ------------------------------------------------
 section "mod-tome/data/zones/reknor/objects.lua"
 
+t("Resonating Diamond", "Diamant Résonnant", "entity name")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
@@ -39007,7 +38989,6 @@ t("misc", "divers", "entity subtype")
 --[==[
 t("Sealed Scroll of Last Hope", "Sealed Scroll of Last Hope", "entity name")
 t("open the seal and read the message", "open the seal and read the message", "_t")
-t("Resonating Diamond", "Resonating Diamond", "entity name")
 t("Blood-Runed Athame", "Blood-Runed Athame", "entity name")
 t("athame", "athame", "_t")
 t("An athame, covered in blood runes. It radiates power.", "An athame, covered in blood runes. It radiates power.", "_t")
@@ -39846,6 +39827,7 @@ It is so huge that it blocks sight beyond it.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/tannen-tower/objects.lua"
 
+t("Resonating Diamond", "Diamant Résonnant", "entity name")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
@@ -39857,7 +39839,6 @@ t("activate a portal", "activer un portail", "_t")
 t("There is no portal to activate here.", "Il n'y a pas de portail à activer ici.", "logPlayer")
 -- texte non traduit
 --[==[
-t("Resonating Diamond", "Resonating Diamond", "entity name")
 t("Blood-Runed Athame", "Blood-Runed Athame", "entity name")
 t("athame", "athame", "_t")
 t("An athame, covered in blood runes. It radiates power.", "An athame, covered in blood runes. It radiates power.", "_t")
