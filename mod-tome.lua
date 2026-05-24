@@ -37003,7 +37003,7 @@ t("A warrior of death.", "Un guerrier de la mort.", "_t")
 t("headless horror", "horreur sans tête", "entity name")
 t("A headless gangly humanoid with a large distended stomach. Was captured and tamed by the first master of the arena.", "Un humanoïde dégingandé et sans tête, au ventre gonflé. Il a été capturé et apprivoisé par le premier maître de l'arène.", "_t")
 t("#AQUAMARINE#As %s falls all its eyes fall to the ground!", "#AQUAMARINE#Lorsque %s tombe, tous ses yeux tombent au sol !", "logSeen")
-t("A gargantuan bone giant resembling a wingless wyrm. He is fully sentient and surprisingly fast.", "Un gigantesque géant d'os ressemblant à un draconien sans ailes. Il est doué de raison et étonnamment rapide.", "_t")
+t("A gargantuan bone giant resembling a wingless wyrm. He is fully sentient and surprisingly fast.", "Un gigantesque géant osseux ressemblant à un draconien sans ailes. Il est doué de raison et étonnamment rapide.", "_t")
 t("A young girl with skin pale as snow. She is small, but deadly in battle, unleashing a constant barrage of ice shards.", "Une jeune fille à la peau blanche comme la neige. Elle est menue, mais redoutable au combat, déchaînant un déluge incessant d'éclats de glace.", "_t")
 t("A strong female magician. Years of experience make her a dangerous combatant.", "Une magicienne hors pair. Ses nombreuses années d'expérience font d'elle une adversaire redoutable.", "_t")
 t("A massive suit of armor with a massive axe containing a massively cursed person. He is cursed to fight eternally.", "Une armure imposante avec une hache gigantesque, dans laquelle est enfermée une personne lourdement maudite. Il est condamné à se battre éternellement.", "_t")
@@ -37119,13 +37119,8 @@ t("Derth (Southeast)", "Derth (Sud-Est)", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/blighted-ruins/grids.lua"
 
-
--- texte non traduit
---[==[
-t("unholy circle", "unholy circle", "entity name")
-t("broken unholy circle", "broken unholy circle", "entity name")
---]==]
-
+t("unholy circle", "cercle maléfique", "entity name")
+t("broken unholy circle", "cercle maléfique brisé", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/blighted-ruins/npcs.lua"
@@ -37133,21 +37128,17 @@ section "mod-tome/data/zones/blighted-ruins/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("Necromancer", "Nécromancien", "entity name")
--- texte non traduit
---[==[
-t("A Human dressed in black robes. He mumbles in a harsh tongue. He seems to think you are his slave.", "A Human dressed in black robes. He mumbles in a harsh tongue. He seems to think you are his slave.", "_t")
-t("Half-Finished Bone Giant", "Half-Finished Bone Giant", "entity name")
+t("A Human dressed in black robes. He mumbles in a harsh tongue. He seems to think you are his slave.", "Un homme vêtu d'une robe noire. Il marmonne dans une langue difficile à comprendre. Il semble croire que tu es son esclave.", "_t")
+t("Half-Finished Bone Giant", "Géant Osseux à moitié achevé", "entity name")
 t([[A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.
-This specimen looks like it was hastily assembled and is not really complete yet.]], [[A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.
-This specimen looks like it was hastily assembled and is not really complete yet.]], "_t")
-t("fleshy experiment", "fleshy experiment", "entity name")
-t("This pile of rotting flesh twitches and makes horrid noises.", "This pile of rotting flesh twitches and makes horrid noises.", "_t")
-t("boney experiment", "boney experiment", "entity name")
-t("This pile of bones appears to move on its own, but it can't seem to organise itself into something dangerous.", "This pile of bones appears to move on its own, but it can't seem to organise itself into something dangerous.", "_t")
-t("sanguine experiment", "sanguine experiment", "entity name")
-t("It looks like a giant blood clot. Is that what its creator intended?", "It looks like a giant blood clot. Is that what its creator intended?", "_t")
---]==]
-
+This specimen looks like it was hastily assembled and is not really complete yet.]], [[Une créature gigantesque, constituée des os de centaines de cadavres. Elle est enveloppée d'une aura maléfique.
+Ce spécimen semble avoir été assemblé à la hâte et n'est pas encore tout à fait achevé.]], "_t")
+t("fleshy experiment", "expérience charnelle", "entity name")
+t("This pile of rotting flesh twitches and makes horrid noises.", "Ce tas de chair en décomposition tremble et émet des bruits horribles.", "_t")
+t("boney experiment", "expérience osseuse", "entity name")
+t("This pile of bones appears to move on its own, but it can't seem to organise itself into something dangerous.", "Ce tas d'os semble bouger tout seul, mais il ne parvient pas à se transformer en quelque chose de dangereux.", "_t")
+t("sanguine experiment", "expérience sanguine", "entity name")
+t("It looks like a giant blood clot. Is that what its creator intended?", "On dirait un caillot de sang géant. Est-ce là l'intention de son créateur?", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/blighted-ruins/objects.lua"
@@ -37155,24 +37146,15 @@ section "mod-tome/data/zones/blighted-ruins/objects.lua"
 t("armor", "armure", "entity type")
 t("cloak", "cape", "entity subtype")
 t("Cloak of Deception", "Cape de Supercherie", "entity name")
--- texte non traduit
---[==[
-t("black cloak", "black cloak", "_t")
-t("A black cloak, with subtle illusion enchantments woven into its very fabric.", "A black cloak, with subtle illusion enchantments woven into its very fabric.", "_t")
-t("journal page", "journal page", "entity name")
-t("A paper scrap, left by the Necromancer.", "A paper scrap, left by the Necromancer.", "_t")
---]==]
-
+t("black cloak", "cape noire", "_t")
+t("A black cloak, with subtle illusion enchantments woven into its very fabric.", "Une cape noire, dont le tissu même est imprégné de subtils enchantements d'illusion.", "_t")
+t("journal page", "page de journal", "entity name")
+t("A paper scrap, left by the Necromancer.", "Un bout de papier, laissé par le Nécromant.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/blighted-ruins/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Blighted Ruins", "Blighted Ruins", "_t")
---]==]
-
+t("Blighted Ruins", "Ruines Délabrées", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/briagh-lair/npcs.lua"
@@ -38403,6 +38385,7 @@ section "mod-tome/data/zones/keepsake-meadow/objects.lua"
 
 t("misc", "divers", "entity type")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("journal page", "page de journal", "entity name")
 -- texte non traduit
 --[==[
 t("folded up piece of paper", "folded up piece of paper", "entity name")
@@ -38413,7 +38396,6 @@ t("A small acorn, crafted crudely out of iron.", "A small acorn, crafted crudely
 t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. You find having the acorn helps to anchor your mind and prepare you for the trials ahead.", "A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. You find having the acorn helps to anchor your mind and prepare you for the trials ahead.", "_t")
 t("Cold Iron Acorn", "Cold Iron Acorn", "entity name")
 t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. The acorn serves as a reminder of who and what you are.", "A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. The acorn serves as a reminder of who and what you are.", "_t")
-t("journal page", "journal page", "entity name")
 t("A page containing an entry from Kyless' journal.", "A page containing an entry from Kyless' journal.", "_t")
 t("Kyless' Book", "Kyless' Book", "entity name")
 t("This was the book that gave power to Kyless and eventually led to his doom. The book is simple in appearance, bound in leather with no markings on the cover. All of the pages are blank.", "This was the book that gave power to Kyless and eventually led to his doom. The book is simple in appearance, bound in leather with no markings on the cover. All of the pages are blank.", "_t")
@@ -38456,10 +38438,9 @@ t("#ANTIQUE_WHITE#The way seems closed, maybe you need a key.", "#ANTIQUE_WHITE#
 ------------------------------------------------
 section "mod-tome/data/zones/lake-nur/objects.lua"
 
-
+t("journal page", "page de journal", "entity name")
 -- texte non traduit
 --[==[
-t("journal page", "journal page", "entity name")
 t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
 --]==]
 
@@ -38819,10 +38800,9 @@ t("This ancient Treant's bark is scorched almost black. It sees humanity as a sc
 ------------------------------------------------
 section "mod-tome/data/zones/old-forest/objects.lua"
 
-
+t("journal page", "page de journal", "entity name")
 -- texte non traduit
 --[==[
-t("journal page", "journal page", "entity name")
 t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
 --]==]
 
@@ -39302,10 +39282,9 @@ t("The Shade's colossal will keeps it anchored to this world, now as a vengeful,
 ------------------------------------------------
 section "mod-tome/data/zones/ruins-kor-pul/objects.lua"
 
-
+t("journal page", "page de journal", "entity name")
 -- texte non traduit
 --[==[
-t("journal page", "journal page", "entity name")
 t("A journal page, left by an adventurer.", "A journal page, left by an adventurer.", "_t")
 --]==]
 
