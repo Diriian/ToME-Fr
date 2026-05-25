@@ -37404,44 +37404,32 @@ t("The Deep Bellow", "Le Grondement des Profondeurs", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane/grids.lua"
 
+t("Demonic Portal", "Portail Démoniaque", "entity name")
+t("This portal seems to be connected with Maj'Eyal; you could probably use it to go back.", "Ce portail semble être relié à Maj'Eyal. Vous pourriez probablement l'utiliser pour y retourner.", "_t")
 t("Back and there again", "Retourner et revenir", "_t")
+t("Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "Passez le portail pour retourner à Maj'Eyal? (Attention: pillez Draebor en premier)", "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "#VIOLET#Vous franchissez le portail tourbillonnant et, en un clin d'œil, vous vous retrouvez à Maj'Eyal, près de Daikara.", "logPlayer")
+t("Stay", "Restez", "_t")
 t("Enter", "Entrer", "_t")
--- texte non traduit
---[==[
-t("Demonic Portal", "Demonic Portal", "entity name")
-t("This portal seems to be connected with Maj'Eyal; you could probably use it to go back.", "This portal seems to be connected with Maj'Eyal; you could probably use it to go back.", "_t")
-t("Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "logPlayer")
-t("Stay", "Stay", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane/npcs.lua"
 
 t("demon", "démon", "entity type")
 t("minor", "mineur", "entity subtype")
+t("Draebor, the Imp", "Draebor, le Diablotin", "entity name")
+t("An intensely irritating git of a monster.", "Un monstre vraiment insupportable.", "_t")
 t("Back and there again", "Retourner et revenir", "_t")
--- texte non traduit
---[==[
-t("Draebor, the Imp", "Draebor, the Imp", "entity name")
-t("An intensely irritating git of a monster.", "An intensely irritating git of a monster.", "_t")
-t("As the annoying imp falls a portal appears under its corpse.", "As the annoying imp falls a portal appears under its corpse.", "_t")
---]==]
-
+t("As the annoying imp falls a portal appears under its corpse.", "Alors que le petit diablotin agaçant s'écroule, un portail apparaît sous son cadavre.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane/objects.lua"
 
+t("Shifting Boots", "Bottes de Mouvement", "entity name")
+t("pair of shifting boots", "paire de bottes de mouvement", "_t")
+t("Those leather boots can make anybody as annoying as their former possessor, Draebor.", "Ces bottes en cuir peuvent rendre n'importe qui aussi insupportable que leur ancien propriétaire, Draebor.", "_t")
 t("blink to a nearby random location within range %d (based on Magic)", "passe vers un emplacement aléatoire proche situé dans un rayon de %d (basé sur la magie)", "tformat")
--- texte non traduit
---[==[
-t("Shifting Boots", "Shifting Boots", "entity name")
-t("pair of shifting boots", "pair of shifting boots", "_t")
-t("Those leather boots can make anybody as annoying as their former possessor, Draebor.", "Those leather boots can make anybody as annoying as their former possessor, Draebor.", "_t")
-t("%s taps %s %s together!", "%s taps %s %s together!", "logSeen")
---]==]
-
+t("%s taps %s %s together!", "%s tape %s %s ensemble!", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane/zone.lua"
@@ -37452,11 +37440,7 @@ t("Fearscape", "Plan de la peur", "_t")
 section "mod-tome/data/zones/demon-plane-spell/grids.lua"
 
 t("#Source# burns #Target#!", "#Source# brûle #Target#!", "logCombat")
--- texte non traduit
---[==[
-t("#Source# heals #Target#!", "#Source# heals #Target#!", "logCombat")
---]==]
-
+t("#Source# heals #Target#!", "#Source# soigne #Target#!", "logCombat")
 
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane-spell/zone.lua"
@@ -38509,6 +38493,7 @@ section "mod-tome/data/zones/maze/grids.lua"
 
 t("teleporting circle to the surface", "cercle de téléportation vers la surface", "entity name")
 t("wall", "mur", "entity type")
+t("Stay", "Restez", "_t")
 -- texte non traduit
 --[==[
 t("cracks", "cracks", "entity subtype")
@@ -38518,7 +38503,6 @@ t([[This area appears to have been hit by a huge tremor, breaking the floor in a
 You think you can jump to the level below.]], [[This area appears to have been hit by a huge tremor, breaking the floor in a huge crack.
 You think you can jump to the level below.]], "_t")
 t("Jump", "Jump", "_t")
-t("Stay", "Stay", "_t")
 --]==]
 
 
@@ -39716,13 +39700,13 @@ t("Stellar System: Shandral", "Stellar System: Shandral", "_t")
 section "mod-tome/data/zones/tannen-tower/grids.lua"
 
 t("Back and there again", "Retourner et revenir", "_t")
+t("Stay", "Restez", "_t")
 t("Enter", "Entrer", "_t")
 -- texte non traduit
 --[==[
 t("Portal to Last Hope", "Portal to Last Hope", "entity name")
 t("This portal seems to be connected with Last Hope; you could probably use it to go back.", "This portal seems to be connected with Last Hope; you could probably use it to go back.", "_t")
 t("Enter the portal back to Last Hope?", "Enter the portal back to Last Hope?", "_t")
-t("Stay", "Stay", "_t")
 --]==]
 
 
@@ -40805,6 +40789,7 @@ t("Tutorial", "Tutoriel", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/tutorial-combat-stats/grids.lua"
 
+t("Stay", "Restez", "_t")
 t("Enter", "Entrer", "_t")
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
@@ -40822,7 +40807,6 @@ t("This portal will bring you back to the Tutorial Lobby.", "This portal will br
 t("Tutorial Lobby Portal", "Tutorial Lobby Portal", "_t")
 t("Enter the portal back to the lobby?", "Enter the portal back to the lobby?", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back in the lobby.", "#VIOLET#You enter the swirling portal and in the blink of an eye you are back in the lobby.", "logPlayer")
-t("Stay", "Stay", "_t")
 t("Sign", "Sign", "entity name")
 t("Contains a snippet of ToME wisdom.", "Contains a snippet of ToME wisdom.", "_t")
 t("Rune of Enlightenment: Summer Vacation", "Rune of Enlightenment: Summer Vacation", "entity name")
