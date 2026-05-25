@@ -12486,7 +12486,9 @@ It's not that I don't trust her, not after you and they - mostly you! - saved us
 ------------------------------------------------
 section "mod-tome/data/lore/dreadfell.lua"
 
-
+t("A smudged poem chalked on a dark piece of slate", "Un poème illisible, tracé à la craie sur une ardoise.", "_t")
+t("A poem written in scribbled, child-like writing", "Un poème griffonnée, écrit de façon enfantine", "_t")
+t("A poem written in an elegant Gothic script", "Un poème écrit d'une élégante manière gothique", "_t")
 -- texte non traduit
 --[==[
 t("dreadfell", "dreadfell", "newLore category")
@@ -12520,7 +12522,6 @@ t([[MINIONS: To my newest vampire: burn, foolish adventurer, burn! I bet you are
 To the rest of you, there will be punishment. An adventurer got down to my bedroom and surprised me. I, Myself, was hurt and almost had to use My special power. All is well now and I am as dangerous as ever, but you shall suffer for letting him get so low. The next minion I see shall be toasted with my marshmallows. Where then were the special pits of doom I organized? Where were the poisons of my wights or the diseases of my ghouls? Indeed, I should slaughter all of you, and I would, but those who were most foully remiss were already slaughtered by the adventurer. The rest of you? Beware My wrath.]], [[MINIONS: To my newest vampire: burn, foolish adventurer, burn! I bet you are sorry for that flame spell now, aren't you? Suffer as I revisit it upon you.
 
 To the rest of you, there will be punishment. An adventurer got down to my bedroom and surprised me. I, Myself, was hurt and almost had to use My special power. All is well now and I am as dangerous as ever, but you shall suffer for letting him get so low. The next minion I see shall be toasted with my marshmallows. Where then were the special pits of doom I organized? Where were the poisons of my wights or the diseases of my ghouls? Indeed, I should slaughter all of you, and I would, but those who were most foully remiss were already slaughtered by the adventurer. The rest of you? Beware My wrath.]], "_t")
-t("A smudged poem chalked on a dark piece of slate", "A smudged poem chalked on a dark piece of slate", "_t")
 t([[Master of life, Master of death,
 All fall to a word
 From his dreaded breath!
@@ -12556,7 +12557,6 @@ Or your blood will spill!
 
 Master of shadows beyond mortal thought,
 Against undying death all are as naught.]], "_t")
-t("A poem written in scribbled, child-like writing", "A poem written in scribbled, child-like writing", "_t")
 t([[Me like Master,
 He's a real laster,
 He is faster
@@ -12574,7 +12574,6 @@ Need more'n a plaster
 After his attackaster...
 
 Alabaster... raster... pastor? Grr, need more brains...]], "_t")
-t("A poem written in an elegant Gothic script", "A poem written in an elegant Gothic script", "_t")
 t([[No staff will save thee
 Against the blindness of pride
 Death will catch thee up]], [[No staff will save thee
@@ -37450,60 +37449,50 @@ t("Fearscape", "Plan de la peur", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/dreadfell/grids.lua"
 
-
--- texte non traduit
---[==[
-t("sign post with a note", "sign post with a note", "entity name")
---]==]
-
+t("sign post with a note", "Pancarte avec une note", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreadfell/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
+t("The Master", "Le Maître", "entity name")
+t("A terrifying vampiric figure of power, with flowing robes and an intense aura of fright.  His cold, sinewy flesh seems to cling to this world through greed and malice, and his eyes betray a strength of mind beyond any puny mortal.  All nearby are utterly subservient to his will, though he stands aloof from them, as if to say he needs not the pathetic meddling of minions to help him overcome his foes.  Your eyes are drawn to a dark staff in his hands which seems to suck the very life from the air around it.  It looks ancient and dangerous and terrible, and the sight of it fills you with fervent desire.", "Une effrayante figure vampirique empreinte de puissance, vêtue d’une robe flottante et dégageant une intense aura de terreur. Sa chair froide et musclée semble s’accrocher à ce monde par cupidité et malveillance, et ses yeux trahissent une force d’esprit qui dépasse celle de n’importe quel insignifiant mortel. Tous ceux qui l’entourent sont totalement soumis à sa volonté, bien qu’il se tienne à l’écart d’eux, comme pour dire qu’il n’a pas besoin de l’intervention de quelques serviteurs pathétique pour l’aider à vaincre ses ennemis. Ton regard est attiré par un bâton sombre qu’il tient entre ses mains et qui semble aspirer la vie même de l’air qui l’entoure. Il semble ancien, dangereux et terrible, et sa vue te remplit d’un désir ardent.", "_t")
+t("and raised as his tortured undead thrall", "et élevé comme son esclave mort-vivant torturé", "_t")
+t("It has been months since the hero cleansed the Dreadfell, yet rumours are growing: evil is back.", "Plusieurs mois se sont écoulés depuis que le héros a purifié Tombeffroie, et pourtant les rumeurs se multiplient: le mal est de retour.", "_t")
 t("skeleton", "squelette", "entity subtype")
+t("Pale Drake", "Dragonnet Blafard", "entity name")
+t("A malevolent skeleton archmage that has taken control of the Dreadfell since the Master's demise.", "Un maléfique squelette archimage qui a pris le contrôle de Tombeffroie depuis la disparition du Maître.", "_t")
 t("ghoul", "goule", "entity subtype")
+t("Borfast the Broken", "Borfast le Brisé", "entity name")
+t([[Thick skin hangs loosely from this short, shambling form. Tufts of hair sticking out from its chin give evidence of a once magnificent dwarven beard. Half its face seems to have been seared in acid at some point, the flesh melted away from the skull and an eyeball drooping low from its socket. There is a unique sadness to its eyes, and a slump of resignation to its gait.
+What proud hero of renown was this before he was condemned to such a terrible fate?]], [[Une peau épaisse pend mollement de ce corps trapu et dégingandé. Des touffes de poils qui dépassent de son menton témoignent d'une magnifique barbe naine d'antan. La moitié de son visage semble avoir été brûlée à l'acide, la chair fondue et détachée du crâne, un œil pend hors de son orbite. Ses yeux expriment une tristesse singulière, et sa démarche est empreinte d'une résignation abattue.
+Quel fier héros renommé était-ce avant d'être condamné à un sort si terrible?]], "_t")
+t("and offered to his dark Master", "et offerte à son sombre Maître", "_t")
 t("ghost", "fantôme", "entity subtype")
+t("Aletta Soultorn", "Aletta Âme Tordue", "entity name")
+t([[What once must have been an enchantingly beautiful Higher woman now looks to be a ghost of utter despair. Her thin, elegant form ripples gently in the air, whilst her tattered robes seem oddly still. The ghost's face looks jittery and pained whilst her wild, glowing eyes move rapidly back and forth in their sockets.
+Now and then she seems to see something and her jaw pulls back, her whole face splitting apart as she shrieks an unholy cry of pain and torment.]], [[Ce qui devait être jadis une femme noble d'une beauté enchanteresse apparaît désormais comme le fantôme d'un désespoir absolu. Sa silhouette fine et élégante ondule doucement dans l'air, tandis que ses robes en lambeaux semblent étrangement immobiles. Le visage du fantôme paraît tremblant et douloureux, tandis que ses yeux sauvages et brillants se déplacent rapidement d'avant en arrière dans leurs orbites.
+Par moments, elle semble apercevoir quelque chose, sa mâchoire se rétracte, son visage se déchire tandis qu'elle pousse un cri impie de douleur et de tourment.]], "_t")
+t("and offered to her dark Master", "et offert à sa sombre Maîtresse", "_t")
+t("Filio Flightfond", "Filio Tendrevol", "entity name")
+t([[A short, furtive-looking skeleton with padded feet. He moves quickly and silently, and seems to meld into the shadows with ease. In one hand he holds a sling, and the other a short dagger.
+There is a cunning air to his hollow skull, and his empty sockets reveal nothing of what tricks and tactics he has planned.]], [[Un squelette petit et furtif, aux pieds rembourrés. Il se déplace rapidement et silencieusement, et semble se fondre dans l'ombre avec aisance. D'une main, il tient une fronde, de l'autre une courte dague.
+Son crâne creux dégage une impression de ruse, et ses orbites vides ne laissent rien transparaître des stratagèmes qu'il a ourdis.]], "_t")
 -- texte non traduit
 --[==[
 t("vampire", "vampire", "entity subtype")
-t("The Master", "The Master", "entity name")
-t("A terrifying vampiric figure of power, with flowing robes and an intense aura of fright.  His cold, sinewy flesh seems to cling to this world through greed and malice, and his eyes betray a strength of mind beyond any puny mortal.  All nearby are utterly subservient to his will, though he stands aloof from them, as if to say he needs not the pathetic meddling of minions to help him overcome his foes.  Your eyes are drawn to a dark staff in his hands which seems to suck the very life from the air around it.  It looks ancient and dangerous and terrible, and the sight of it fills you with fervent desire.", "A terrifying vampiric figure of power, with flowing robes and an intense aura of fright.  His cold, sinewy flesh seems to cling to this world through greed and malice, and his eyes betray a strength of mind beyond any puny mortal.  All nearby are utterly subservient to his will, though he stands aloof from them, as if to say he needs not the pathetic meddling of minions to help him overcome his foes.  Your eyes are drawn to a dark staff in his hands which seems to suck the very life from the air around it.  It looks ancient and dangerous and terrible, and the sight of it fills you with fervent desire.", "_t")
-t("and raised as his tortured undead thrall", "and raised as his tortured undead thrall", "_t")
-t("It has been months since the hero cleansed the Dreadfell, yet rumours are growing: evil is back.", "It has been months since the hero cleansed the Dreadfell, yet rumours are growing: evil is back.", "_t")
-t("Pale Drake", "Pale Drake", "entity name")
-t("A malevolent skeleton archmage that has taken control of the Dreadfell since the Master's demise.", "A malevolent skeleton archmage that has taken control of the Dreadfell since the Master's demise.", "_t")
-t("Borfast the Broken", "Borfast the Broken", "entity name")
-t([[Thick skin hangs loosely from this short, shambling form. Tufts of hair sticking out from its chin give evidence of a once magnificent dwarven beard. Half its face seems to have been seared in acid at some point, the flesh melted away from the skull and an eyeball drooping low from its socket. There is a unique sadness to its eyes, and a slump of resignation to its gait.
-What proud hero of renown was this before he was condemned to such a terrible fate?]], [[Thick skin hangs loosely from this short, shambling form. Tufts of hair sticking out from its chin give evidence of a once magnificent dwarven beard. Half its face seems to have been seared in acid at some point, the flesh melted away from the skull and an eyeball drooping low from its socket. There is a unique sadness to its eyes, and a slump of resignation to its gait.
-What proud hero of renown was this before he was condemned to such a terrible fate?]], "_t")
-t("and offered to his dark Master", "and offered to his dark Master", "_t")
-t("Aletta Soultorn", "Aletta Soultorn", "entity name")
-t([[What once must have been an enchantingly beautiful Higher woman now looks to be a ghost of utter despair. Her thin, elegant form ripples gently in the air, whilst her tattered robes seem oddly still. The ghost's face looks jittery and pained whilst her wild, glowing eyes move rapidly back and forth in their sockets.
-Now and then she seems to see something and her jaw pulls back, her whole face splitting apart as she shrieks an unholy cry of pain and torment.]], [[What once must have been an enchantingly beautiful Higher woman now looks to be a ghost of utter despair. Her thin, elegant form ripples gently in the air, whilst her tattered robes seem oddly still. The ghost's face looks jittery and pained whilst her wild, glowing eyes move rapidly back and forth in their sockets.
-Now and then she seems to see something and her jaw pulls back, her whole face splitting apart as she shrieks an unholy cry of pain and torment.]], "_t")
-t("and offered to her dark Master", "and offered to her dark Master", "_t")
-t("Filio Flightfond", "Filio Flightfond", "entity name")
-t([[A short, furtive-looking skeleton with padded feet. He moves quickly and silently, and seems to meld into the shadows with ease. In one hand he holds a sling, and the other a short dagger.
-There is a cunning air to his hollow skull, and his empty sockets reveal nothing of what tricks and tactics he has planned.]], [[A short, furtive-looking skeleton with padded feet. He moves quickly and silently, and seems to meld into the shadows with ease. In one hand he holds a sling, and the other a short dagger.
-There is a cunning air to his hollow skull, and his empty sockets reveal nothing of what tricks and tactics he has planned.]], "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreadfell/objects.lua"
 
-
--- texte non traduit
---[==[
-t("paper scrap", "paper scrap", "entity name")
-t("A smudged poem chalked on a dark piece of slate", "A smudged poem chalked on a dark piece of slate", "_t")
-t("A poem written in scribbled, child-like writing", "A poem written in scribbled, child-like writing", "_t")
-t("A poem written in an elegant Gothic script", "A poem written in an elegant Gothic script", "_t")
-t("a letter from the Master", "a letter from the Master", "entity name")
-t("A letter written in a bold, commanding script", "A letter written in a bold, commanding script", "_t")
---]==]
-
+t("paper scrap", "bouts de papier", "entity name")
+t("A smudged poem chalked on a dark piece of slate", "Un poème illisible, tracé à la craie sur une ardoise.", "_t")
+t("A poem written in scribbled, child-like writing", "Un poème griffonnée, écrit de façon enfantine", "_t")
+t("A poem written in an elegant Gothic script", "Un poème écrit d'une élégante manière gothique", "_t")
+t("a letter from the Master", "une lettre du Maître", "entity name")
+t("A letter written in a bold, commanding script", "Une lettre écrite de manière franche et impérieuse", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreadfell/zone.lua"
@@ -37514,22 +37503,13 @@ t("Dreadfell", "Tombeffroie", "_t")
 section "mod-tome/data/zones/dreadfell-ambush/npcs.lua"
 
 t("Ukruk the Fierce", "Ukruk le Féroce", "entity name")
--- texte non traduit
---[==[
-t("This ugly orc looks really nasty and vicious. He is obviously looking for something and bears an unknown symbol on his shield.", "This ugly orc looks really nasty and vicious. He is obviously looking for something and bears an unknown symbol on his shield.", "_t")
---]==]
-
+t("This ugly orc looks really nasty and vicious. He is obviously looking for something and bears an unknown symbol on his shield.", "Cet orc hideux a l'air vraiment méchant et vicieux. Il cherche visiblement quelque chose et porte un symbole inconnu sur son bouclier.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreadfell-ambush/objects.lua"
 
-
--- texte non traduit
---[==[
-t("hastily written log", "hastily written log", "entity name")
-t("A paper scrap, left by Ukruk.", "A paper scrap, left by Ukruk.", "_t")
---]==]
-
+t("hastily written log", "journal rédigé à la hâte", "entity name")
+t("A paper scrap, left by Ukruk.", "Un bout de papier, laissé par Ukruk.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreadfell-ambush/zone.lua"
