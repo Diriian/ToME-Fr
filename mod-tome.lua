@@ -4220,7 +4220,7 @@ t("Nature [%d]", "Nature [%d]", "tformat")
 ------------------------------------------------
 section "mod-tome/data/chats/worldly-knowledge.lua"
 
-t("[%s (at mastery %0.2f)]", "[%s( à la maîtrise %0.2f)]", "tformat")
+t("[%s (at mastery %0.2f)]", "[%s (%0.2f en maîtrise)]", "tformat")
 t("Learn which category?", "Apprendre quelle catégorie?", "_t")
 -- texte non traduit
 --[==[
@@ -15590,6 +15590,9 @@ No, NO! I have - I --- acci--- pain, such pa--______
 ------------------------------------------------
 section "mod-tome/data/lore/misc.lua"
 
+t("letter to Rolf (3)", "lettre à Rolf (3)", "_t")
+t("letter to Weisman (4)", "lettre à Weisman (4)", "_t")
+t("Last Will of Rolf", "Testament de Rolf", "_t")
 t("memories of Artelia Firstborn", "mémoires d'Artelia Firstborn", "_t")
 t("human myth of creation", "mythe de la création humaine", "_t")
 t("a logical analysis of creation, by philosopher Smythen", "une analyse logique de la création, par le philosophe Smythen", "_t")
@@ -15743,7 +15746,6 @@ Rest easy, brother. It may have taken your eye, but think of what else it could 
 
 Make sure you write the words on your next letter nice and big,
 Rolf]], "_t")
-t("letter to Rolf (3)", "letter to Rolf (3)", "_t")
 t([[Rolf,
 
 I can't remember anything from the fight save the sheer terror at being near something so horrid and powerful. There is no shame in running from a foe you cannot possibly hope to defeat, is there? Maybe ale from the tavern is a good idea, but maybe it is better to conquer your fear once and for all... I hope you can forgive me, but I must defeat this monster, if it takes me the rest of my life.
@@ -15757,7 +15759,6 @@ I can't remember anything from the fight save the sheer terror at being near som
 Wishing you and your ale a hearty good-bye,
 
 Weisman.]], "_t")
-t("letter to Weisman (4)", "letter to Weisman (4)", "_t")
 t([[Weisman,
 
 By my ancestors' profits I hope you receive this message in good health and spirits. Please, old friend - there is no need to impress upon me your valour, I know full well how courageous you are. Please, do not go after that... that thing! If I must drag you away physically, that is what I shall do, but I beg of you, please, consider another foe to fight!
@@ -15771,7 +15772,6 @@ By my ancestors' profits I hope you receive this message in good health and spir
 Your friend,
 
 Rolf.]], "_t")
-t("Last Will of Rolf", "Last Will of Rolf", "_t")
 t([[Last Will and Testament of Rolf Two-Axes
 
 I have failed. Oh by the great wyrm's maw, I have failed! The beast Weisman set out to slay was dead already by another's hand, but its corruption remained still. When I arrived in its chamber, Weisman was already half-gone; he was hacking away at foes only he could see. When I tried to stop him, he turned his axe on me... I am beaten and broken, hiding in some crevasse away from... from my own friend, who through the corruption in this place has been perverted into a monstrosity my axes were unable to fell. I hold no doubt that this is the last time I shall put quill to parchment, as even now I can hear my old friend's perverted voice.. calling to me. I bequeathe my belongings to any who slay ...
@@ -37320,114 +37320,86 @@ t("You cannot abandon Melinda here!", "Vous ne pouvez pas abandonner Melinda ici
 section "mod-tome/data/zones/daikara/grids.lua"
 
 t("Temporal Rift", "Faille Temporelle", "entity name")
+t("The rift leads... somewhere.", "La faille mène... quelque part.", "_t")
 t("Temporal Rift", "Faille Temporelle", "_t")
--- texte non traduit
---[==[
-t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
-t("Are you sure you want to enter? There's no telling where you will end up or if you will be able to make it back.", "Are you sure you want to enter? There's no telling where you will end up or if you will be able to make it back.", "_t")
-t("The rift is too unstable to cross it.", "The rift is too unstable to cross it.", "log")
---]==]
-
+t("Are you sure you want to enter? There's no telling where you will end up or if you will be able to make it back.", "Êtes-vous sûr de vouloir entrer ? Nul ne sait où vous allez atterrir ni si vous pourrez revenir.", "_t")
+t("The rift is too unstable to cross it.", "La faille est trop instable pour être franchie.", "log")
 
 ------------------------------------------------
 section "mod-tome/data/zones/daikara/npcs.lua"
 
 t("ice", "glace", "entity subtype")
+t("Rantha the Worm", "Rantha le Ver", "entity name")
+t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...", "Griffes et crocs. Glace et mort. Il semblerait que les dragons ne soient pas tous éteints...", "_t")
+t("and fed to the hatchlings", "et donnés à manger aux petits", "_t")
+t("I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "J'ai entendu dire qu'il y avait un chasseur de dragons dans le Daikara qui était mécontent que le ver soit déjà mort.", "_t")
 t("fire", "feu", "entity subtype")
+t("Varsha the Writhing", "Varsha le Tourmentée", "entity name")
+t("Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "Griffes et crocs. Feu et mort. Il semblerait que les dragons ne soient pas tous éteints...", "_t")
+t("Massok the Dragonslayer", "Massok, le Tueur de Dragons", "entity name")
+t("A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned from a dragon's skull.", "Un orque immense et couvert de cicatrices, armé d'une épée gigantesque. Son casque est façonné à partir d'un crâne de dragon.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("Rantha the Worm", "Rantha the Worm", "entity name")
-t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...", "Claws and teeth. Ice and death. Dragons are not all extinct it seems...", "_t")
-t("and fed to the hatchlings", "and fed to the hatchlings", "_t")
-t("I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "_t")
-t("Varsha the Writhing", "Varsha the Writhing", "entity name")
-t("Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "_t")
-t("Massok the Dragonslayer", "Massok the Dragonslayer", "entity name")
-t("A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned from a dragon's skull.", "A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned from a dragon's skull.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/daikara/objects.lua"
 
+t("daikara expedition note", "Notes de l'expédition de Daikara", "entity name")
+t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un aventurier.", "_t")
 t("Rune of the Rift", "Rune de la Faille", "entity name")
--- texte non traduit
---[==[
-t("daikara expedition note", "daikara expedition note", "entity name")
-t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/daikara/zone.lua"
 
-
+t([[As you walk toward the Daikara you can not fail to notice the huge volcano that erupts in the center of it, right where the path is taking you.
+You see pyroclasts ejected from the heart of the volcano, they look relatively harmless but very impressive.]], [[En vous dirigeant vers le Daikara, vous ne pouvez pas manquer de remarquer l'immense volcan qui entre en éruption en son centre, juste là où le sentier vous mène.
+Vous voyez des projections volcaniques éjectées du cœur du volcan. Elles semblent relativement inoffensives, mais sont très impressionnantes.]], "_t")
 -- texte non traduit
 --[==[
 t("Daikara", "Daikara", "_t")
 t("BOOM!", "BOOM!", "_t")
-t([[As you walk toward the Daikara you can not fail to notice the huge volcano that erupts in the center of it, right where the path is taking you.
-You see pyroclasts ejected from the heart of the volcano, they look relatively harmless but very impressive.]], [[As you walk toward the Daikara you can not fail to notice the huge volcano that erupts in the center of it, right where the path is taking you.
-You see pyroclasts ejected from the heart of the volcano, they look relatively harmless but very impressive.]], "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/deep-bellow/grids.lua"
 
-
--- texte non traduit
---[==[
-t("The Iron Council (Dwarven empire main city)", "The Iron Council (Dwarven empire main city)", "entity name")
---]==]
-
+t("The Iron Council (Dwarven empire main city)", "Le Conseil de Fer (ville principale de l'empire Nain)", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/deep-bellow/npcs.lua"
 
-t("#AQUAMARINE#As #Source# falls you notice that #Target# seems to shudder in pain!", "#AQUAMARINE#Lorsque #Source# tombe vous remarquez que #Target# semble frémir de douleur!", "logCombat")
--- texte non traduit
---[==[
-t("The Mouth", "The Mouth", "entity name")
-t("\"From bellow, it devours.\"", "\"From bellow, it devours.\"", "_t")
-t("and revived as a screeching drem bat", "and revived as a screeching drem bat", "_t")
-t("#CRIMSON#%s seems invulnerable, there must be an other way to kill it!", "#CRIMSON#%s seems invulnerable, there must be an other way to kill it!", "logSeen")
-t("I have heard a dwarf whispering about some abomination in the deep bellow.", "I have heard a dwarf whispering about some abomination in the deep bellow.", "_t")
-t("slimy crawler", "slimy crawler", "entity name")
+t("The Mouth", "La Bouche", "entity name")
+t("\"From bellow, it devours.\"", "\"D'en bas, il dévore.\"", "_t")
+t("and revived as a screeching drem bat", "et renaît sous la forme d'une chauve-souris hurlante", "_t")
+t("#CRIMSON#%s seems invulnerable, there must be an other way to kill it!", "#CRIMSON#%s semble invulnérable, il doit bien y avoir un autre moyen de le tuer!", "logSeen")
+t("I have heard a dwarf whispering about some abomination in the deep bellow.", "J'ai entendu un nain murmurer qu'une abomination se cachait dans les profondeurs des grottes.", "_t")
+t("slimy crawler", "insecte limaceux", "entity name")
 t([[This disgusting... thing crawls on the floor toward you with great speed.
-It seems to come from the digestive system of the mouth.]], [[This disgusting... thing crawls on the floor toward you with great speed.
-It seems to come from the digestive system of the mouth.]], "_t")
-t("#AQUAMARINE#With the Mouth's death its crawler also falls lifeless on the ground!", "#AQUAMARINE#With the Mouth's death its crawler also falls lifeless on the ground!", "logSeen")
-t("The Abomination", "The Abomination", "entity name")
-t("A horrid mass of pustulent flesh, sinew, and bone; this creature seems to constantly be in pain. Two heads glare malevolently at you, an intruder in its domain.", "A horrid mass of pustulent flesh, sinew, and bone; this creature seems to constantly be in pain. Two heads glare malevolently at you, an intruder in its domain.", "_t")
-t("A parchment falls to the floor near The Abomination.", "A parchment falls to the floor near The Abomination.", "logSeen")
---]==]
-
+It seems to come from the digestive system of the mouth.]], [[Cette chose répugnante rampe sur le sol dans ta direction à toute vitesse.
+Elle semble provenir du système digestif de la bouche.]], "_t")
+t("#AQUAMARINE#With the Mouth's death its crawler also falls lifeless on the ground!", "#AQUAMARINE#Avec la mort de la Bouche, son rampeur s'effondre lui aussi, sans vie, sur le sol!", "logSeen")
+t("#AQUAMARINE#As #Source# falls you notice that #Target# seems to shudder in pain!", "#AQUAMARINE#Lorsque #Source# tombe vous remarquez que #Target# semble frémir de douleur!", "logCombat")
+t("The Abomination", "L'Abomination", "entity name")
+t("A horrid mass of pustulent flesh, sinew, and bone; this creature seems to constantly be in pain. Two heads glare malevolently at you, an intruder in its domain.", "Une horrible masse de chair purulente, de tendons et d'os qui semble souffrir en permanence. Ses deux têtes te fixent d'un regard malveillant, toi, l'intrus sur son territoire.", "_t")
+t("A parchment falls to the floor near The Abomination.", "Un parchemin tombe par terre près de l'Abomination.", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/zones/deep-bellow/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Deep Bellow excavation report %d", "Deep Bellow excavation report %d", "tformat")
-t("A paper scrap.", "A paper scrap.", "_t")
-t("letter to Rolf (3)", "letter to Rolf (3)", "entity name")
-t("letter to Weisman (4)", "letter to Weisman (4)", "entity name")
-t("Last Will of Rolf", "Last Will of Rolf", "entity name")
---]==]
-
+t("Deep Bellow excavation report %d", "Rapport d'excavation du Grondement des Profondeurs %d", "tformat")
+t("A paper scrap.", "Un bout de papier.", "_t")
+t("letter to Rolf (3)", "lettre à Rolf (3)", "entity name")
+t("letter to Weisman (4)", "lettre à Weisman (4)", "entity name")
+t("Last Will of Rolf", "Testament de Rolf", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/deep-bellow/zone.lua"
 
-
--- texte non traduit
---[==[
-t("The Deep Bellow", "The Deep Bellow", "_t")
---]==]
-
+t("The Deep Bellow", "Le Grondement des Profondeurs", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane/grids.lua"
@@ -37861,12 +37833,11 @@ t("#VIOLET#You hear a rock crumbling opening.", "#VIOLET#You hear a rock crumbli
 ------------------------------------------------
 section "mod-tome/data/zones/gorbat-pride/npcs.lua"
 
-
+t("and fed to the hatchlings", "et donnés à manger aux petits", "_t")
 -- texte non traduit
 --[==[
 t("Gorbat, Supreme Wyrmic of the Pride", "Gorbat, Supreme Wyrmic of the Pride", "entity name")
 t("An orc with scaly skin, claws and a pair of small wings on his back.", "An orc with scaly skin, claws and a pair of small wings on his back.", "_t")
-t("and fed to the hatchlings", "and fed to the hatchlings", "_t")
 --]==]
 
 
@@ -38390,11 +38361,7 @@ t("#ANTIQUE_WHITE#The way seems closed, maybe you need a key.", "#ANTIQUE_WHITE#
 section "mod-tome/data/zones/lake-nur/objects.lua"
 
 t("journal page", "page de journal", "entity name")
--- texte non traduit
---[==[
-t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
---]==]
-
+t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un aventurier.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/lake-nur/zone.lua"
@@ -38689,11 +38656,10 @@ t("As Mindworm dies you can feel the fumes getting less poisonous for your mind.
 ------------------------------------------------
 section "mod-tome/data/zones/noxious-caldera/objects.lua"
 
-
+t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un aventurier.", "_t")
 -- texte non traduit
 --[==[
 t("tattered paper scrap", "tattered paper scrap", "entity name")
-t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
 --]==]
 
 
@@ -38752,11 +38718,7 @@ t("This ancient Treant's bark is scorched almost black. It sees humanity as a sc
 section "mod-tome/data/zones/old-forest/objects.lua"
 
 t("journal page", "page de journal", "entity name")
--- texte non traduit
---[==[
-t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
---]==]
-
+t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un aventurier.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/old-forest/zone.lua"
@@ -38821,11 +38783,7 @@ t("You arrive in a small underground structure. There are orcs there and as soon
 section "mod-tome/data/zones/paradox-plane/grids.lua"
 
 t("Temporal Rift", "Faille Temporelle", "entity name")
--- texte non traduit
---[==[
-t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
---]==]
-
+t("The rift leads... somewhere.", "La faille mène... quelque part.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/paradox-plane/npcs.lua"
@@ -38983,12 +38941,7 @@ t("Lost Dwarven Kingdom of Reknor", "Lost Dwarven Kingdom of Reknor", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/reknor-escape/grids.lua"
 
-
--- texte non traduit
---[==[
-t("The Iron Council (Dwarven empire main city)", "The Iron Council (Dwarven empire main city)", "entity name")
---]==]
-
+t("The Iron Council (Dwarven empire main city)", "Le Conseil de Fer (ville principale de l'empire Nain)", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/reknor-escape/npcs.lua"
@@ -39343,11 +39296,10 @@ t("A formation of purple crystal, but where the others could only be described a
 ------------------------------------------------
 section "mod-tome/data/zones/scintillating-caves/objects.lua"
 
-
+t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un aventurier.", "_t")
 -- texte non traduit
 --[==[
 t("research log", "research log", "entity name")
-t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
 t("exploration log", "exploration log", "entity name")
 --]==]
 
@@ -39949,12 +39901,8 @@ t("Temporal Reprieve", "Sursis Temporel", "_t")
 section "mod-tome/data/zones/temporal-rift/grids.lua"
 
 t("Temporal Rift", "Faille Temporelle", "entity name")
+t("The rift leads... somewhere.", "La faille mène... quelque part.", "_t")
 t("Temporal Warden", "Gardien du temps", "_t")
--- texte non traduit
---[==[
-t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/temporal-rift/npcs.lua"
@@ -40377,10 +40325,10 @@ section "mod-tome/data/zones/town-iron-council/grids.lua"
 t("wall", "mur", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("crystals", "cristaux", "entity name")
+t("The Deep Bellow", "Le Grondement des Profondeurs", "entity name")
 -- texte non traduit
 --[==[
 t("Escape route from Reknor", "Escape route from Reknor", "entity name")
-t("The Deep Bellow", "The Deep Bellow", "entity name")
 t("The Dwarven Empire Incarnate", "The Dwarven Empire Incarnate", "entity name")
 t("Mystic of the Empire", "Mystic of the Empire", "entity name")
 t("Warrior of the Empire", "Warrior of the Empire", "entity name")
@@ -40793,11 +40741,10 @@ t("His once-shining armour now dull and bloodstained, this Sun Paladin has given
 ------------------------------------------------
 section "mod-tome/data/zones/trollmire/objects.lua"
 
-
+t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un aventurier.", "_t")
 -- texte non traduit
 --[==[
 t("tattered paper scrap", "tattered paper scrap", "entity name")
-t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
 --]==]
 
 
@@ -41175,12 +41122,8 @@ t("Caverns to the hidden valley", "Caverns to the hidden valley", "_t")
 section "mod-tome/data/zones/void/grids.lua"
 
 t("Temporal Rift", "Faille Temporelle", "entity name")
+t("The rift leads... somewhere.", "La faille mène... quelque part.", "_t")
 t("Temporal Warden", "Gardien du temps", "_t")
--- texte non traduit
---[==[
-t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/void/npcs.lua"
