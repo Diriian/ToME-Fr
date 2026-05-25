@@ -11717,7 +11717,7 @@ t("Toggle automatic accept target option", "Basculer l'option d'acceptation auto
 ------------------------------------------------
 section "mod-tome/data/lore/age-allure.lua"
 
-
+t("investigator Churrack note", "Note de l'enquêteur Churrack", "_t")
 -- texte non traduit
 --[==[
 t("age of allure", "age of allure", "newLore category")
@@ -12011,7 +12011,6 @@ It has been an honor working with such talented individuals, and an honor doing 
 
 Long live the Conclave!
 Healer Astelrid]], "_t")
-t("investigator Churrack note", "investigator Churrack note", "_t")
 t([[FROM: Investigator Churrack
 TO: Whoever holds the position of High Overseer of Loyalty when we're let out
 
@@ -37226,62 +37225,47 @@ section "mod-tome/data/zones/conclave-vault/grids.lua"
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
 t("wall", "mur", "entity name")
--- texte non traduit
---[==[
-t("body remains", "body remains", "entity name")
-t("bone pile", "bone pile", "entity name")
-t("infusion rack", "infusion rack", "entity name")
-t("operating table", "operating table", "entity name")
-t("broken vat", "broken vat", "entity name")
---]==]
-
+t("body remains", "restes corporels", "entity name")
+t("bone pile", "tas d'os", "entity name")
+t("infusion rack", "support pour perfusions", "entity name")
+t("operating table", "table d'opération", "entity name")
+t("broken vat", "cuve fêlée", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/conclave-vault/npcs.lua"
 
-
+t("old vats", "vieilles cuves", "entity name")
+t("vat", "cuve", "entity subtype")
+t("degenerated ogric mass", "masse ogrique dégénérée", "entity name")
+t("This huge mass of deformed flesh was probably once an ogre, but something had gone wrong.", "Cette énorme masse de chair difforme était sans doute autrefois un ogre, mais quelque chose a mal tourné.", "_t")
+t("ogric abomination", "abomination ogrique", "entity name")
+t("This ogre seems to have tried to graft golem parts on its own body. To various interresting results.", "Cet ogre semble avoir tenté de greffer des parties de golem sur son propre corps. Avec des résultats pour le moins surprenants.", "_t")
+t("ogre sentry", "sentinelle ogre", "entity name")
+t("This greatsword-wielding ogre looks at you with contempt and hatred.", "Cet ogre, armé d'une grande épée, te regarde avec mépris et haine.", "_t")
+t("Healer Astelrid", "Astelrid, la Guérisseuse", "entity name")
+t("An enormous ogre, clad in a tattered set of robes with an officer's badge.  She clutches a healer's staff, wrapped in casting plaster and scalpels for use as a massive spiked club.", "Une énorme ogresse, vêtue d'une robe en lambeaux ornée d'un insigne d'officier. Elle brandit un bâton de guérisseuse, enveloppé de plâtre et de scalpels, qu'elle utilise comme une énorme massue hérissée de pointes.", "_t")
+t("and spliced for experiments", "et assemblés à des fins expérimentales", "_t")
 -- texte non traduit
 --[==[
-t("old vats", "old vats", "entity name")
 t("structure", "structure", "entity type")
-t("vat", "vat", "entity subtype")
-t("degenerated ogric mass", "degenerated ogric mass", "entity name")
-t("This huge mass of deformed flesh was probably once an ogre, but something had gone wrong.", "This huge mass of deformed flesh was probably once an ogre, but something had gone wrong.", "_t")
-t("ogric abomination", "ogric abomination", "entity name")
-t("This ogre seems to have tried to graft golem parts on its own body. To various interresting results.", "This ogre seems to have tried to graft golem parts on its own body. To various interresting results.", "_t")
-t("ogre sentry", "ogre sentry", "entity name")
-t("This greatsword-wielding ogre looks at you with contempt and hatred.", "This greatsword-wielding ogre looks at you with contempt and hatred.", "_t")
-t("Healer Astelrid", "Healer Astelrid", "entity name")
-t("An enormous ogre, clad in a tattered set of robes with an officer's badge.  She clutches a healer's staff, wrapped in casting plaster and scalpels for use as a massive spiked club.", "An enormous ogre, clad in a tattered set of robes with an officer's badge.  She clutches a healer's staff, wrapped in casting plaster and scalpels for use as a massive spiked club.", "_t")
-t("and spliced for experiments", "and spliced for experiments", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/conclave-vault/objects.lua"
 
-
--- texte non traduit
---[==[
-t("log of healer Astelrid", "log of healer Astelrid", "entity name")
-t("A very faded note, nearly unreadable.", "A very faded note, nearly unreadable.", "_t")
-t("investigator Churrack note", "investigator Churrack note", "entity name")
-t("Astelrid's Clubstaff", "Astelrid's Clubstaff", "entity name")
-t("huge maul", "huge maul", "_t")
-t("Like its former owner, this was once an instrument of altruistic healing, before fury and fear caused its twisting into a sadistic weapon.  Surges of restorative magic can be faintly felt under the layers of plaster and sharp surgical equipment.", "Like its former owner, this was once an instrument of altruistic healing, before fury and fear caused its twisting into a sadistic weapon.  Surges of restorative magic can be faintly felt under the layers of plaster and sharp surgical equipment.", "_t")
-t("Improves the contribution of primary stats on infusions and runes by 15%", "Improves the contribution of primary stats on infusions and runes by 15%", "_t")
---]==]
-
+t("log of healer Astelrid", "Journal d'Astelrid, la guérisseuse", "entity name")
+t("A very faded note, nearly unreadable.", "Un document très abîmé, presque illisible.", "_t")
+t("investigator Churrack note", "Note de l'enquêteur Churrack", "entity name")
+t("Astelrid's Clubstaff", "Bâtosse d'Astelrid", "entity name")
+t("huge maul", "énorme masse", "_t")
+t("Like its former owner, this was once an instrument of altruistic healing, before fury and fear caused its twisting into a sadistic weapon.  Surges of restorative magic can be faintly felt under the layers of plaster and sharp surgical equipment.", "Tout comme son ancien propriétaire, cet objet était autrefois un instrument de guérison altruiste, avant que la fureur et la peur ne le transforment en une arme sadique.  On perçoit encore, faiblement, des vagues de magie régénératrice sous les couches de plâtre et les instruments chirurgicaux tranchants.", "_t")
+t("Improves the contribution of primary stats on infusions and runes by 15%", "Augmente de 15% l'apport des statistiques principales aux infusions et aux runes", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/conclave-vault/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Old Conclave Vault", "Old Conclave Vault", "_t")
---]==]
-
+t("Old Conclave Vault", "Ancienne Chambre du Conclave", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/crypt-kryl-feijan/grids.lua"
@@ -37289,62 +37273,48 @@ section "mod-tome/data/zones/crypt-kryl-feijan/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("sealed door", "porte scellée", "entity name")
--- texte non traduit
---[==[
-t("demonic symbol", "demonic symbol", "entity name")
-t("altar", "altar", "entity name")
---]==]
-
+t("demonic symbol", "symbole démoniaque", "entity name")
+t("altar", "autel", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/crypt-kryl-feijan/npcs.lua"
 
+t("This huge demon is covered in darkness. The ripped flesh of its \"mother\" still hangs from its sharp claws.", "Cet immense démon est enveloppé de ténèbres. La chair déchiquetée de sa \"mère\" pend encore à ses griffes acérées.", "_t")
+t("and devoured as a demonic breakfast", "et dévoré comme un petit-déjeuner démoniaque", "_t")
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("A female Human with twisted sigils scored into her naked flesh. Her wrists and ankles are sore and hurt by ropes and chains. You can discern great beauty beyond the stains of blood covering her skin.", "Une femme humaine dont la peau nue est marquée de sinistres symboles. Ses poignets et ses chevilles sont meurtris et endoloris par les cordes et les chaînes. On devine une grande beauté derrière les taches de sang qui recouvrent sa peau.", "_t")
+t("Acolyte of the Sect of Kryl-Feijan", "Acolyte de la secte de Kryl-Feijan", "entity name")
 t("elf", "elfe", "entity subtype")
+t("Black-robed Elves with a mad look in their eyes.", "Des elfes en robe noire et au regard fou.", "_t")
+t([[The woman seems to be freed from her bonds.
+She stumbles on her feet, her naked body still dripping in blood. 'Please get me out of here!']], [[La femme semble avoir été libérée de ses liens.
+Elle titube, le corps nu encore ruisselant de sang. 'S'il vous plaît, sortez-moi d'ici!']], "_t")
 -- texte non traduit
 --[==[
 t("Kryl-Feijan", "Kryl-Feijan", "entity name")
-t("This huge demon is covered in darkness. The ripped flesh of its \"mother\" still hangs from its sharp claws.", "This huge demon is covered in darkness. The ripped flesh of its \"mother\" still hangs from its sharp claws.", "_t")
-t("and devoured as a demonic breakfast", "and devoured as a demonic breakfast", "_t")
 t("Melinda", "Melinda", "entity name")
-t("A female Human with twisted sigils scored into her naked flesh. Her wrists and ankles are sore and hurt by ropes and chains. You can discern great beauty beyond the stains of blood covering her skin.", "A female Human with twisted sigils scored into her naked flesh. Her wrists and ankles are sore and hurt by ropes and chains. You can discern great beauty beyond the stains of blood covering her skin.", "_t")
-t("Acolyte of the Sect of Kryl-Feijan", "Acolyte of the Sect of Kryl-Feijan", "entity name")
-t("Black-robed Elves with a mad look in their eyes.", "Black-robed Elves with a mad look in their eyes.", "_t")
 t("Melinda", "Melinda", "_t")
-t([[The woman seems to be freed from her bonds.
-She stumbles on her feet, her naked body still dripping in blood. 'Please get me out of here!']], [[The woman seems to be freed from her bonds.
-She stumbles on her feet, her naked body still dripping in blood. 'Please get me out of here!']], "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/crypt-kryl-feijan/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Writhing Essence of Nightmares", "Writhing Essence of Nightmares", "entity name")
-t("Whispers seem to ceaselessly emanate from this writhing mass of black tentacles, murmuring unspeakable horrors into the ears of any unfortunate enough to hear them.", "Whispers seem to ceaselessly emanate from this writhing mass of black tentacles, murmuring unspeakable horrors into the ears of any unfortunate enough to hear them.", "_t")
-t("writhing mindstar", "writhing mindstar", "_t")
---]==]
-
+t("Writhing Essence of Nightmares", "Essence Tourmentée des Cauchemars", "entity name")
+t("Whispers seem to ceaselessly emanate from this writhing mass of black tentacles, murmuring unspeakable horrors into the ears of any unfortunate enough to hear them.", "Des murmures semblent jaillir sans discontinuer de cette masse tortueuse de tentacules noirs, chuchotant des horreurs indicibles à l'oreille de quiconque a le malheur de les entendre.", "_t")
+t("writhing mindstar", "étoile d'âme tourmenté", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/crypt-kryl-feijan/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Dark crypt", "Dark crypt", "_t")
-t("Crypt", "Crypt", "_t")
-t("You hear an eerie chanting echoing from a distance.", "You hear an eerie chanting echoing from a distance.", "_t")
-t("The chanting grows louder. You hear a sudden high-pitched scream.", "The chanting grows louder. You hear a sudden high-pitched scream.", "_t")
-t("The cultists are about to sacrifice the woman. Stop them!", "The cultists are about to sacrifice the woman. Stop them!", "_t")
-t("The woman lets out a sudden ear-splitting scream that turns from pain to horror as her stomach is ripped open from within by long dark claws. A towering black demon arises, rending her flesh to shreds, and replacing her dying scream with a terrifying roar.", "The woman lets out a sudden ear-splitting scream that turns from pain to horror as her stomach is ripped open from within by long dark claws. A towering black demon arises, rending her flesh to shreds, and replacing her dying scream with a terrifying roar.", "_t")
-t("You cannot abandon Melinda here!", "You cannot abandon Melinda here!", "_t")
---]==]
-
+t("Dark crypt", "Sombre Crypte", "_t")
+t("Crypt", "Crypte", "_t")
+t("You hear an eerie chanting echoing from a distance.", "Vous entendez un chant sinistre résonner au loin.", "_t")
+t("The chanting grows louder. You hear a sudden high-pitched scream.", "Les chants s'intensifient. Vous entendez soudain un cri strident.", "_t")
+t("The cultists are about to sacrifice the woman. Stop them!", "Les cultistes s'apprêtent à sacrifier une femme. Stoppez-les!", "_t")
+t("The woman lets out a sudden ear-splitting scream that turns from pain to horror as her stomach is ripped open from within by long dark claws. A towering black demon arises, rending her flesh to shreds, and replacing her dying scream with a terrifying roar.", "La femme pousse soudain un cri perçant qui passe de la douleur à l'horreur alors que son ventre est déchiré de l'intérieur par de longues griffes sombres. Un démon noir et imposant surgit, lui déchiquetant la chair, et remplaçant son cri d'agonie par un rugissement terrifiant.", "_t")
+t("You cannot abandon Melinda here!", "Vous ne pouvez pas abandonner Melinda ici!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/daikara/grids.lua"
@@ -38019,13 +37989,12 @@ t("This creature is about as tall as a halfling. It is covered in white silky fu
 ------------------------------------------------
 section "mod-tome/data/zones/halfling-ruins/objects.lua"
 
-
+t("A very faded note, nearly unreadable.", "Un document très abîmé, presque illisible.", "_t")
 -- texte non traduit
 --[==[
 t("research log of halfling mage Hompalan", "research log of halfling mage Hompalan", "entity name")
 t("A very faded research note, nearly unreadable.", "A very faded research note, nearly unreadable.", "_t")
 t("order for Director Hompalan", "order for Director Hompalan", "entity name")
-t("A very faded note, nearly unreadable.", "A very faded note, nearly unreadable.", "_t")
 t("Yeek-fur Robe", "Yeek-fur Robe", "entity name")
 t("sleek fur robe", "sleek fur robe", "_t")
 t("A beautifully soft robe of fine white fur. It looks designed for a halfling noble, with glorious sapphires sewn across the hems. But entrancing as it is, you can't help but feel a little queasy wearing it.", "A beautifully soft robe of fine white fur. It looks designed for a halfling noble, with glorious sapphires sewn across the hems. But entrancing as it is, you can't help but feel a little queasy wearing it.", "_t")
