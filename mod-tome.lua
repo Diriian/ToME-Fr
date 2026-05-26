@@ -37521,98 +37521,85 @@ section "mod-tome/data/zones/dreams/grids.lua"
 
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
+t("Dream Portal", "Portail Onirique", "entity name")
 t("wall", "mur", "entity type")
+t("mouse hole", "trou de souris", "entity name")
+t("A hole small enough that only you can go through.", "Un trou suffisamment petit pour que vous seul puissiez y passer.", "_t")
+t("Dreamstone", "Pierre des Rêves", "entity name")
+t("You touch the dreamstone and it disappears. You feel better.", "Vous touchez la pierre des rêves et elle disparaît. Vous vous sentez mieux.", "logPlayer")
 t("bamboo hut", "hutte en bambou", "entity subtype")
+t("weird floor", "sol étrange", "entity name")
 t("bamboo wall", "mur en bambou", "entity name")
 t("floor", "sol", "entity subtype")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- texte non traduit
---[==[
-t("Dream Portal", "Dream Portal", "entity name")
-t("mouse hole", "mouse hole", "entity name")
-t("A hole small enough that only you can go through.", "A hole small enough that only you can go through.", "_t")
-t("Dreamstone", "Dreamstone", "entity name")
-t("You touch the dreamstone and it disappears. You feel better.", "You touch the dreamstone and it disappears. You feel better.", "logPlayer")
-t("weird floor", "weird floor", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreams/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("yeek illusion", "illusion yeek", "entity name")
+t("What?!", "Quoi?!", "_t")
+t("Who are you?", "Qui êtes vous?", "_t")
+t("What do you want?", "Que voulez vous?", "_t")
+t("Why are you here?", "Pourquoi êtes-vous ici?", "_t")
+t("Where are you going?", "Où allez vous?", "_t")
+t("Do you have anything worth living for?", "Avez vous quelque chose pour continuer a vivre?", "_t")
+t("lost wife", "femme perdue", "entity name")
 t("bloated horror", "horreur bouffie", "entity subtype")
+t("Your wife has been turned into a giant, bloated form that towers above you. Mucus and slime ooze from every orifice, dripping onto the floor. The sight and the smell make you retch.", "Votre femme s'est transformée en une forme géante et boursouflée qui vous domine de toute sa hauteur. Du mucus et de la bave suintent de tous ses orifices et dégoulinent sur le sol. La vue et l'odeur de cette chose vous donnent la nausée.", "_t")
 -- texte non traduit
 --[==[
 t("yeek", "yeek", "entity subtype")
-t("yeek illusion", "yeek illusion", "entity name")
-t("What?!", "What?!", "_t")
-t("Who are you?", "Who are you?", "_t")
-t("What do you want?", "What do you want?", "_t")
-t("Why are you here?", "Why are you here?", "_t")
-t("Where are you going?", "Where are you going?", "_t")
-t("Do you have anything worth living for?", "Do you have anything worth living for?", "_t")
 t("GRrrrrrllllll!", "GRrrrrrllllll!", "_t")
-t("lost wife", "lost wife", "entity name")
-t("Your wife has been turned into a giant, bloated form that towers above you. Mucus and slime ooze from every orifice, dripping onto the floor. The sight and the smell make you retch.", "Your wife has been turned into a giant, bloated form that towers above you. Mucus and slime ooze from every orifice, dripping onto the floor. The sight and the smell make you retch.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreams/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Dreams", "Dreams", "_t")
-t("Dream of vulnerability", "Dream of vulnerability", "_t")
-t("Dream of loss", "Dream of loss", "_t")
-t("Dream ???", "Dream ???", "_t")
-t("frail mouse", "frail mouse", "_t")
+t("Dreams", "Rêves", "_t")
+t("Dream of vulnerability", "Rêve de vulnérabilité", "_t")
+t("Dream of loss", "Rêve de perte", "_t")
+t("Dream ???", "Rêve ???", "_t")
+t("frail mouse", "souris fragile", "_t")
 t([[The noxious fumes have invaded all your body, you suddenty fall into a deep slumber...
 ... you feel weak ...
 ... you feel unimportant ...
 ... you feel like ... food ...
-You feel like running away!]], [[The noxious fumes have invaded all your body, you suddenty fall into a deep slumber...
-... you feel weak ...
-... you feel unimportant ...
-... you feel like ... food ...
-You feel like running away!]], "_t")
+You feel like running away!]], [[Les émanations toxiques vous envahissent, vous sombrez soudain dans un profond sommeil…
+… vous vous sentez faible…
+… vous vous sentez insignifiant…
+… vous avez envie de… manger…
+Vous avez envie de fuir!]], "_t")
 t([[As your mind-mouse enters the dream portal you suddenly wake up.
-You feel good!]], [[As your mind-mouse enters the dream portal you suddenly wake up.
-You feel good!]], "_t")
-t("lost man", "lost man", "_t")
+You feel good!]], [[Lorsque votre esprit-souris franchit le portail des rêves, vous vous réveillez brusquement.
+Vous vous sentez bien!]], "_t")
+t("lost man", "homme perdu", "_t")
 t([[The noxious fumes have invaded all your body, you suddenty fall into a deep slumber...
 ... you feel you forgot something ...
 ... you feel lost ...
 ... you feel sad ...
-You forgot your wife! Find her!]], [[The noxious fumes have invaded all your body, you suddenty fall into a deep slumber...
-... you feel you forgot something ...
-... you feel lost ...
-... you feel sad ...
-You forgot your wife! Find her!]], "_t")
+You forgot your wife! Find her!]], [[Les émanations toxiques vous envahissent, vous sombrez soudain dans un profond sommeil…
+… vous avez l’impression d’avoir oublié quelque chose…
+… vous vous sentez perdu…
+… vous vous sentez triste…
+Vous avez oublié votre femme! Retrouvez-la!]], "_t")
 t([[As you enter the dream portal you suddenly wake up.
-You feel good!]], [[As you enter the dream portal you suddenly wake up.
-You feel good!]], "_t")
-t("%s has %d stat point(s) to spend. Press p to use them.", "%s has %d stat point(s) to spend. Press p to use them.", "log")
-t("Deep slumber...", "Deep slumber...", "_t")
+You feel good!]], [[En franchissant le portail des rêves, vous vous réveillez brusquement.
+Vous vous sentez bien!]], "_t")
+t("%s has %d stat point(s) to spend. Press p to use them.", "%s possède %d point(s) de stats à dépenser. Appuyez sur p pour les utiliser.", "log")
+t("Deep slumber...", "Un profond sommeil...", "_t")
 t([[As you die in a dream you suddenly wake up.
-Poisonous fumes take their toll on your body!]], [[As you die in a dream you suddenly wake up.
-Poisonous fumes take their toll on your body!]], "_t")
---]==]
-
+Poisonous fumes take their toll on your body!]], [[Vous mourez dans votre rêve et vous vous réveillez soudainement.
+Des émanations toxiques ravagent votre corps!]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreamscape-talent/grids.lua"
 
 t("floor", "sol", "entity type")
+t("cloud", "nuage", "entity subtype")
 t("floor", "sol", "entity name")
--- texte non traduit
---[==[
-t("cloud", "cloud", "entity subtype")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreamscape-talent/zone.lua"
