@@ -37681,57 +37681,48 @@ t("Fortress Gladium", "Forteresse Gladium", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/golem-graveyard/grids.lua"
 
+t("the remains of Atamathon", "les vestiges d'Atamathon", "entity name")
+t([[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
+Its body is made of marble, its joints of solid voratun, and its sole eye of purest ruby; the other one seems to be missing. At over 40 feet tall, it towers above you.
+Someone foolish has tried to reconstruct it, but was unable to complete the task; the golem needs another eye to be complete.]], [[Ce golem géant fut construit par les Halfelins durant l'ère du Bûcher pour combattre les orcs, mais il fut terrassé par Garkul le Dévoreur.
+Son corps est de marbre, ses articulations de voratun massif, et son unique oeil d'un rubis pur et l’autre oeil semble avoir disparu. Il vous domine du haut de ses douze mètres.
+Un imbécile a tenté de le reconstruire, mais n'a pas réussi à mener à bien sa tâche. Le golem a besoin d’un oeil supplémentaire pour être complet.]], "_t")
+t("It seems that your %s is made to fit inside the empty eye socket of Atamathon. This is probably very unwise.", "Il semblerait que votre %s soit conçu pour s'insérer dans l'orbite vide d'Atamathon. Ce n'est probablement pas une bonne idée.", "tformat")
+t("The socket seems broken.", "La cavité semble cassée", "log")
+t("#LIGHT_RED#As you insert the gem the golem starts to shake. All its systems and magics are reactivating.", "#LIGHT_RED#Lorsque vous insérez la gemme, le golem se met à trembler. Tous ses systèmes et sa magie se réactivent.", "log")
+t("#LIGHT_RED#Atamathon walks the world again, but without control.", "#LIGHT_RED#Atamathon foule à nouveau le monde, mais sans contrôle.", "log")
+t("Activating defenses. Targetting hostile. **DESTRUCTION**!", "Activation des défenses. Ciblage des ennemis. **DESTRUCTION**!", "_t")
+t("Insert", "Insérer", "_t")
 t("Cancel", "Annuler", "_t")
 -- texte non traduit
 --[==[
-t("the remains of Atamathon", "the remains of Atamathon", "entity name")
-t([[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
-Its body is made of marble, its joints of solid voratun, and its sole eye of purest ruby; the other one seems to be missing. At over 40 feet tall, it towers above you.
-Someone foolish has tried to reconstruct it, but was unable to complete the task; the golem needs another eye to be complete.]], [[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
-Its body is made of marble, its joints of solid voratun, and its sole eye of purest ruby; the other one seems to be missing. At over 40 feet tall, it towers above you.
-Someone foolish has tried to reconstruct it, but was unable to complete the task; the golem needs another eye to be complete.]], "_t")
 t("Atamathon", "Atamathon", "_t")
-t("It seems that your %s is made to fit inside the empty eye socket of Atamathon. This is probably very unwise.", "It seems that your %s is made to fit inside the empty eye socket of Atamathon. This is probably very unwise.", "tformat")
-t("The socket seems broken.", "The socket seems broken.", "log")
-t("#LIGHT_RED#As you insert the gem the golem starts to shake. All its systems and magics are reactivating.", "#LIGHT_RED#As you insert the gem the golem starts to shake. All its systems and magics are reactivating.", "log")
-t("#LIGHT_RED#Atamathon walks the world again, but without control.", "#LIGHT_RED#Atamathon walks the world again, but without control.", "log")
-t("Activating defenses. Targetting hostile. **DESTRUCTION**!", "Activating defenses. Targetting hostile. **DESTRUCTION**!", "_t")
-t("Insert", "Insert", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/golem-graveyard/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Atamathon the Giant Golem", "Atamathon the Giant Golem", "entity name")
-t("This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer. Someone foolish has tried to reconstruct it, but has lost control of it, and now it rampages in search of its original creators, who are long dead. Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. At over 40 feet tall, it towers above you, and its crimson orbs seem to glow with rage.", "This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer. Someone foolish has tried to reconstruct it, but has lost control of it, and now it rampages in search of its original creators, who are long dead. Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. At over 40 feet tall, it towers above you, and its crimson orbs seem to glow with rage.", "_t")
-t("DESTROY!", "DESTROY!", "_t")
-t("LIFE-ENDING SYSTEMS ACTIVATED!", "LIFE-ENDING SYSTEMS ACTIVATED!", "_t")
-t("GLORY TO THE HALFLINGS!", "GLORY TO THE HALFLINGS!", "_t")
-t("YOUR DEATH IS NECESSARY", "YOUR DEATH IS NECESSARY", "_t")
-t("ACTIVATING PAIN GIVING SUBMODULES!", "ACTIVATING PAIN GIVING SUBMODULES!", "_t")
-t("YOUR LIFE WILL END, PLEASE DO NOT RESIST!", "YOUR LIFE WILL END, PLEASE DO NOT RESIST!", "_t")
-t("RESISTANCE IS FUTILE, YOUR WILL BE EXTERMINATED!", "RESISTANCE IS FUTILE, YOUR WILL BE EXTERMINATED!", "_t")
-t("PLEASE STAY STEADY AS YOU ARE ERASED FROM THE WORLD!", "PLEASE STAY STEADY AS YOU ARE ERASED FROM THE WORLD!", "_t")
-t("EXECUTE PHASE COMMENCING!", "EXECUTE PHASE COMMENCING!", "_t")
---]==]
-
+t("Atamathon the Giant Golem", "Atamathon le Golem Géant", "entity name")
+t("This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer. Someone foolish has tried to reconstruct it, but has lost control of it, and now it rampages in search of its original creators, who are long dead. Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. At over 40 feet tall, it towers above you, and its crimson orbs seem to glow with rage.", "Ce golem géant fut construit par les Halfelins durant l'ère du Bûcher pour combattre les orcs, mais il fut terrassé par Garkul le Dévoreur. Un imbécile tenta de le reconstruire mais en perdit le contrôle et à présent il sème la terreur à la recherche de ses créateurs originaux, morts depuis longtemps. Son corps est de marbre, ses articulations de voratun massif, et ses yeux de rubis pur. Haut de plus de douze mètres, il vous domine, et ses orbes cramoisies semblent irradier de rage.", "_t")
+t("DESTROY!", "DÉTRUIRE!", "_t")
+t("LIFE-ENDING SYSTEMS ACTIVATED!", "SYSTÈMES DE CESSATION DE VIE ACTIVÉS!", "_t")
+t("GLORY TO THE HALFLINGS!", "GLOIRE AUX HALFELIN!", "_t")
+t("YOUR DEATH IS NECESSARY", "VOTRE MORT EST NÉCESSAIRE", "_t")
+t("ACTIVATING PAIN GIVING SUBMODULES!", "ACTIVATION DES SOUS-MODULES DE DONNATION DE DOULEUR!", "_t")
+t("YOUR LIFE WILL END, PLEASE DO NOT RESIST!", "VOTRE VIE VA PRENDRE FIN, NE RÉSISTEZ PAS!", "_t")
+t("RESISTANCE IS FUTILE, YOUR WILL BE EXTERMINATED!", "TOUTE RÉSISTANCE EST INUTILE, VOUS SEREZ EXTERMINÉS!", "_t")
+t("PLEASE STAY STEADY AS YOU ARE ERASED FROM THE WORLD!", "RESTEZ IMMOBILE PENDANT QUE VOUS ÊTES EFFACÉS DU MONDE!", "_t")
+t("EXECUTE PHASE COMMENCING!", "DÉBUT DE LA PHASE D'EXÉCUTION!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/golem-graveyard/objects.lua"
 
 t("red", "rouge", "entity subtype")
--- texte non traduit
---[==[
-t("Atamathon's Ruby Eye", "Atamathon's Ruby Eye", "entity name")
+t("Atamathon's Ruby Eye", "Oeil en Rubis d'Atamathon", "entity name")
 t([[One of the ruby eyes of the legendary giant golem Atamathon.
-It is said it was made by the halflings during the Age of Pyre as a weapon against the orcs. Even though it was destroyed, it managed to deal a crippling blow by killing their leader, Garkul the Devourer.]], [[One of the ruby eyes of the legendary giant golem Atamathon.
-It is said it was made by the halflings during the Age of Pyre as a weapon against the orcs. Even though it was destroyed, it managed to deal a crippling blow by killing their leader, Garkul the Devourer.]], "_t")
---]==]
-
+It is said it was made by the halflings during the Age of Pyre as a weapon against the orcs. Even though it was destroyed, it managed to deal a crippling blow by killing their leader, Garkul the Devourer.]], [[L'un des yeux en rubis du légendaire golem géant Atamathon.
+On raconte qu'il fut forgé par les Halfelins durant l'Ère du Bûcher comme arme contre les orcs. Bien qu'il ait été détruit, il parvint à porter un coup fatal en tuant leur chef, Garkul le Dévoreur.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/golem-graveyard/zone.lua"
