@@ -37182,7 +37182,7 @@ section "mod-tome/data/zones/charred-scar/grids.lua"
 t("floor", "sol", "entity type")
 t("lava", "lave", "entity subtype")
 t("Farportal: the Far East", "Portail Lointain: l'Extrême-Orient", "entity name")
-t("A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "Un portail lointain permet de parcourir des distances incroyables en un clin d'œil. Son utilisation nécessite généralement un objet externe.", "_t")
+t("A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe.", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to the far east.", "#VIOLET#Tu franchis le portail tourbillonnant et, en un clin d'oeil, tu te retrouves en Extrême-Orient.", "_t")
 
 ------------------------------------------------
@@ -37624,28 +37624,19 @@ t("#LIGHT_RED#You are sent back to the material plane!", "#LIGHT_RED#Vous êtes 
 ------------------------------------------------
 section "mod-tome/data/zones/eruan/grids.lua"
 
-
--- texte non traduit
---[==[
-t("Farportal: Charred Scar", "Farportal: Charred Scar", "entity name")
+t("Farportal: Charred Scar", "Portail lointain: Plaie craquelée", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to the west, to Charred Scar. A fiery volcano that can only spell death...]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to the west, to Charred Scar. A fiery volcano that can only spell death...]], "_t")
-t("#VIOLET#You enter the swirling portal while it fades away and in the blink of an eye you set foot on hellish land, the heart of a volcano...", "#VIOLET#You enter the swirling portal while it fades away and in the blink of an eye you set foot on hellish land, the heart of a volcano...", "_t")
---]==]
-
+This one seems to go to the west, to Charred Scar. A fiery volcano that can only spell death...]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
+Celui-ci semble mener à l'ouest, vers la Plaie craquelée. Un volcan en éruption synonyme de mort…]], "_t")
+t("#VIOLET#You enter the swirling portal while it fades away and in the blink of an eye you set foot on hellish land, the heart of a volcano...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant tandis qu'il disparaît et, en un clin d'oeil, vous posez le pied sur une terre infernale, au cœur d'un volcan...", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/eruan/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
--- texte non traduit
---[==[
-t("Sun Paladin Guren", "Sun Paladin Guren", "entity name")
-t("A Human warrior, clad in shining plate armour. Power radiates from him.", "A Human warrior, clad in shining plate armour. Power radiates from him.", "_t")
---]==]
-
+t("Sun Paladin Guren", "Paladin Solaire Guren", "entity name")
+t("A Human warrior, clad in shining plate armour. Power radiates from him.", "Un guerrier humain, vêtu d'une armure de plates étincelante. Il dégage une puissance incroyable.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/eruan/zone.lua"
@@ -37661,45 +37652,31 @@ t("Erúan", "Erúan", "_t")
 section "mod-tome/data/zones/flooded-cave/npcs.lua"
 
 t("water", "eau", "entity subtype")
+t("Ukllmswwik the Wise", "Ukllmswwik le Sage", "entity name")
+t("It looks like a cross between a shark and a dragon, only nastier.", "On dirait un croisement entre un requin et un dragon, en plus méchant.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("Ukllmswwik the Wise", "Ukllmswwik the Wise", "entity name")
-t("It looks like a cross between a shark and a dragon, only nastier.", "It looks like a cross between a shark and a dragon, only nastier.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/flooded-cave/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Flooded Cave", "Flooded Cave", "_t")
---]==]
-
+t("Flooded Cave", "Grotte Inondée", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/gladium/grids.lua"
 
+t("Gladium Control Orb", "Orbe de Contrôle de Gladium", "entity name")
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
 t("glass wall", "mur en verre", "entity name")
--- texte non traduit
---[==[
-t("Gladium Control Orb", "Gladium Control Orb", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/gladium/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Fortress Gladium", "Fortress Gladium", "_t")
---]==]
-
+t("Fortress Gladium", "Forteresse Gladium", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/golem-graveyard/grids.lua"
