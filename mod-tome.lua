@@ -11717,11 +11717,11 @@ t("Toggle automatic accept target option", "Basculer l'option d'acceptation auto
 ------------------------------------------------
 section "mod-tome/data/lore/age-allure.lua"
 
+t("research log of halfling mage Hompalan", "journal de recherche du mage halfelin Hompalan", "_t")
 t("investigator Churrack note", "Note de l'enquêteur Churrack", "_t")
 -- texte non traduit
 --[==[
 t("age of allure", "age of allure", "newLore category")
-t("research log of halfling mage Hompalan", "research log of halfling mage Hompalan", "_t")
 t([[#{bold}#Hompalan's Log Entry1#{normal}#
 #{italic}#Age of Allure Year 4537#{normal}#
 
@@ -37804,100 +37804,78 @@ t("Grushnak Pride", "Fierté de Grushnak", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/halfling-ruins/npcs.lua"
 
+t("Subject Z", "Sujet Z", "entity name")
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("This seems to be the 'subject Z' the notes spoke about. He looks human, but this cannot be -- he would be about five thousand years old!", "Il semblerait que ce soit le 'sujet Z' dont parlaient les notes. Il a une apparence humaine, mais c'est impossible: il aurait environ cinq mille ans!", "_t")
+t("and bloodily smeared across the granite walls", "et maculés de sang sur les murs de granit", "_t")
+t("Sacrifice for the Way!", "Sacrifice pour la Voie!", "_t")
+t("#LIGHT_RED#Intense fight", "#LIGHT_RED#Combat intense", "_t")
+t([[As you approach you come upon an other Wayist and receive a very clear mental message:
+#{italic}##UMBER#RUN AWAY! I am done for but you can save yourself still!#{normal}#]], [[En vous approchant, vous rencontrez un autre adepte de la Voie et recevez un message mental très clair:
+#{italic}##UMBER#FUYEZ! Je suis perdu, mais vous pouvez encore vous sauver!#{normal}#]], "_t")
+t("#GOLD#You hastily activate your Rod of Recall, vowing to come back later!", "#GOLD#Vous activez précipitamment votre Bâtonnet de Rappel, jurant de revenir plus tard!", "say")
 t("Space around you starts to dissolve...", "L'espace autour de vous commence à se dissoudre...", "logPlayer")
+t("Emergency recall", "Rappel d'urgence", "_t")
+t("Stay and fight!", "Restez et combattez!", "_t")
+t("Halfling?! DIE!!!!!", "Halfelin?! MEURS!!!!!", "_t")
+t("The Way sent you?", "La Voie vous a envoyé?", "_t")
+t("You.. saved me?", "Vous... m'avez sauvé?", "_t")
+t("Yeek Wayist", "Yeek de la Voie", "entity name")
+t("This creature is about as tall as a halfling. It is covered in white silky fur and has a disproportionate head. The weirdest thing about it though, its weapon simply floats in front of it.", "Cette créature est à peu près aussi grande qu'un halfelin. Elle est recouverte d'une fourrure blanche et soyeuse et sa tête est disproportionnée. Mais le plus étrange, c'est que son arme flotte devant elle.", "_t")
 -- texte non traduit
 --[==[
-t("Subject Z", "Subject Z", "entity name")
-t("This seems to be the 'subject Z' the notes spoke about. He looks human, but this cannot be -- he would be about five thousand years old!", "This seems to be the 'subject Z' the notes spoke about. He looks human, but this cannot be -- he would be about five thousand years old!", "_t")
-t("and bloodily smeared across the granite walls", "and bloodily smeared across the granite walls", "_t")
-t("Sacrifice for the Way!", "Sacrifice for the Way!", "_t")
-t("#LIGHT_RED#Intense fight", "#LIGHT_RED#Intense fight", "_t")
-t([[As you approach you come upon an other Wayist and receive a very clear mental message:
-#{italic}##UMBER#RUN AWAY! I am done for but you can save yourself still!#{normal}#]], [[As you approach you come upon an other Wayist and receive a very clear mental message:
-#{italic}##UMBER#RUN AWAY! I am done for but you can save yourself still!#{normal}#]], "_t")
-t("#GOLD#You hastily activate your Rod of Recall, vowing to come back later!", "#GOLD#You hastily activate your Rod of Recall, vowing to come back later!", "say")
-t("Emergency recall", "Emergency recall", "_t")
-t("Stay and fight!", "Stay and fight!", "_t")
-t("Halfling?! DIE!!!!!", "Halfling?! DIE!!!!!", "_t")
-t("The Way sent you?", "The Way sent you?", "_t")
-t("You.. saved me?", "You.. saved me?", "_t")
-t("Yeek Wayist", "Yeek Wayist", "entity name")
 t("yeek", "yeek", "entity subtype")
-t("This creature is about as tall as a halfling. It is covered in white silky fur and has a disproportionate head. The weirdest thing about it though, its weapon simply floats in front of it.", "This creature is about as tall as a halfling. It is covered in white silky fur and has a disproportionate head. The weirdest thing about it though, its weapon simply floats in front of it.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/halfling-ruins/objects.lua"
 
+t("research log of halfling mage Hompalan", "journal de recherche du mage halfelin Hompalan", "entity name")
+t("A very faded research note, nearly unreadable.", "Une note de recherche très effacée, presque illisible.", "_t")
+t("order for Director Hompalan", "commande pour le directeur Hompalan", "entity name")
 t("A very faded note, nearly unreadable.", "Un document très abîmé, presque illisible.", "_t")
--- texte non traduit
---[==[
-t("research log of halfling mage Hompalan", "research log of halfling mage Hompalan", "entity name")
-t("A very faded research note, nearly unreadable.", "A very faded research note, nearly unreadable.", "_t")
-t("order for Director Hompalan", "order for Director Hompalan", "entity name")
-t("Yeek-fur Robe", "Yeek-fur Robe", "entity name")
-t("sleek fur robe", "sleek fur robe", "_t")
-t("A beautifully soft robe of fine white fur. It looks designed for a halfling noble, with glorious sapphires sewn across the hems. But entrancing as it is, you can't help but feel a little queasy wearing it.", "A beautifully soft robe of fine white fur. It looks designed for a halfling noble, with glorious sapphires sewn across the hems. But entrancing as it is, you can't help but feel a little queasy wearing it.", "_t")
-t("#RED#You feel disgusted touching this thing!", "#RED#You feel disgusted touching this thing!", "logPlayer")
-t("#LIGHT_BLUE#You feel this robe was made for you!", "#LIGHT_BLUE#You feel this robe was made for you!", "logPlayer")
---]==]
-
+t("Yeek-fur Robe", "Robe en fourrure de Yeek", "entity name")
+t("sleek fur robe", "robe de fourrure élégante", "_t")
+t("A beautifully soft robe of fine white fur. It looks designed for a halfling noble, with glorious sapphires sewn across the hems. But entrancing as it is, you can't help but feel a little queasy wearing it.", "Une robe d'une douceur exquise, en fine fourrure blanche. Elle semble taillée pour un noble halfelin, avec de magnifiques saphirs brodés sur les ourlets. Mais aussi envoûtante soit-elle, on ne peut s'empêcher d'éprouver un léger malaise en la portant.", "_t")
+t("#RED#You feel disgusted touching this thing!", "#RED#Vous éprouvez du dégoût rien qu'en touchant cette chose!", "logPlayer")
+t("#LIGHT_BLUE#You feel this robe was made for you!", "#LIGHT_BLUE#Vous avez l'impression que cette robe a été faite pour vous!", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/zones/halfling-ruins/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Ruined halfling complex", "Ruined halfling complex", "_t")
---]==]
-
+t("Ruined halfling complex", "Complexe halfelin en ruines", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/heart-gloom/grids.lua"
 
 t("wall", "mur", "entity type")
+t("dark_grass", "herbe sombre", "entity subtype")
 t("tree", "arbre", "entity name")
--- texte non traduit
---[==[
-t("dark_grass", "dark_grass", "entity subtype")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/heart-gloom/npcs.lua"
 
+t("gloomy ", "mélancolique ", "_t")
+t("deformed ", "déformé ", "_t")
+t("sick ", "malade ", "_t")
+t("dreaming ", "rêveur ", "_t")
+t("slumbering ", "endormi ", "_t")
+t("dozing ", "somnolant ", "_t")
+t("The Withering Thing", "La Chose qui Dépérit", "entity name")
+t("This deformed beast might have been a wolf before, but now it is just... terrible.", "Cette bête difforme était peut-être un loup autrefois, mais maintenant, elle est tout simplement... horrible.", "_t")
+t("and corrupted into a pile of writhing worms", "et corrompus en un tas de vers grouillants", "_t")
 t("horror", "horreur", "entity type")
 t("eldritch", "occulte", "entity subtype")
--- texte non traduit
---[==[
-t("gloomy ", "gloomy ", "_t")
-t("deformed ", "deformed ", "_t")
-t("sick ", "sick ", "_t")
-t("dreaming ", "dreaming ", "_t")
-t("slumbering ", "slumbering ", "_t")
-t("dozing ", "dozing ", "_t")
-t("The Withering Thing", "The Withering Thing", "entity name")
-t("This deformed beast might have been a wolf before, but now it is just... terrible.", "This deformed beast might have been a wolf before, but now it is just... terrible.", "_t")
-t("and corrupted into a pile of writhing worms", "and corrupted into a pile of writhing worms", "_t")
-t("The Dreaming One", "The Dreaming One", "entity name")
-t("This strange globe of blue light seems to be alive and asleep. Nothing about it moves, yet you can feel the crushing power of its dreams assaulting your mind.", "This strange globe of blue light seems to be alive and asleep. Nothing about it moves, yet you can feel the crushing power of its dreams assaulting your mind.", "_t")
-t("and absorbed into nightmares forever", "and absorbed into nightmares forever", "_t")
---]==]
-
+t("The Dreaming One", "Celui qui Rêve", "entity name")
+t("This strange globe of blue light seems to be alive and asleep. Nothing about it moves, yet you can feel the crushing power of its dreams assaulting your mind.", "Cette étrange sphère de lumière bleue semble à la fois vivante et endormie. Rien ne bouge en elle, et pourtant, vous ressentez la puissance écrasante de ses rêves qui assaillent votre esprit.", "_t")
+t("and absorbed into nightmares forever", "et absorbés à jamais dans des cauchemars", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/heart-gloom/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Heart of the Gloom", "Heart of the Gloom", "_t")
---]==]
-
+t("Heart of the Gloom", "Coeur de la Mélancolie", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/high-peak/grids.lua"
@@ -38551,6 +38529,7 @@ t("The noxious fumes of the caldera are slowly affecting you...", "The noxious f
 section "mod-tome/data/zones/old-forest/grids.lua"
 
 t("floor", "sol", "entity type")
+t("dark_grass", "herbe sombre", "entity subtype")
 t("grass", "herbe", "entity name")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
@@ -38558,7 +38537,6 @@ t("tall thick tree", "grand arbre touffu", "entity name")
 t("grass", "herbe", "entity subtype")
 -- texte non traduit
 --[==[
-t("dark_grass", "dark_grass", "entity subtype")
 t("way to the lake of Nur", "way to the lake of Nur", "entity name")
 --]==]
 
