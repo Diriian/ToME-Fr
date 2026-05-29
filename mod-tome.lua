@@ -243,7 +243,7 @@ t("Brave new world", "Le meilleur des mondes", "achievement name")
 t("Went to the Far East and took part in the war.", "Aller en Extrême-Orient et prendre part à la guerre.", "_t")
 t("Race through fire", "Course à travers le feu", "achievement name")
 t("Raced through the fires of the Charred Scar to stop the Sorcerers.", "Courrir à travers les feux de la Plaie craquelée pour arrêter les sorciers.", "_t")
-t("Killed the leaders of the Orc Pride.", "Tuer les chefs des Clans Orc.", "_t")
+t("Killed the leaders of the Orc Pride.", "Tuer les chefs des Fiertés Orc.", "_t")
 t("Evil denied", "Le Mal est refusé", "achievement name")
 t("Won ToME by preventing the Void portal from opening.", "Gagner ToME en empêchant l'ouverture du portail du Vide.", "_t")
 t("The High Lady's destiny", "Le destin de la Haute Dame", "achievement name")
@@ -2625,7 +2625,7 @@ t("Lady Aeryn, at last I am back home! [tell her your story]", "Lady Aeryn, enfi
 t("Tell me more about the Gates of Morning.", "Dites-m'en plus sur les Portes du Matin.", "_t")
 t("Before I came here, I happened upon members of the Sunwall in Maj'Eyal. Do you know of this?.", "Avant de venir ici, j'ai rencontré par hasard des membres du Mur Solaire en Maj'Eyal. Vous êtes au courant?", "_t")
 t("I need help in my hunt for clues about the staff.", "J'ai besoin d'aide dans ma chasse aux informations sur le bâton.", "_t")
-t("I have destroyed the leaders of all the Orc Prides.", "J'ai anéanti les chefs de tous les Clans Orcs.", "_t")
+t("I have destroyed the leaders of all the Orc Prides.", "J'ai anéanti les chefs de toutes les Fiertés Orcs.", "_t")
 t("I am back from the Charred Scar, where the orcs took the staff.", "Je suis de retour de la Plaie Craquelée, où les orcs ont pris le bâton.", "_t")
 t("A dying paladin gave me this map; something about orc breeding pits. [tell her the story]", "Un paladin mourant m'a donné cette carte, quelque chose sur les fosses de reproduction Orcs. [lui raconter l'histoire]", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_gates-of-morning-main")
@@ -2639,7 +2639,7 @@ They came across a group of elves, seemingly native to those lands, and befriend
 Then the orc pride came and we have been fighting for our survival ever since.]], [[Il y a deux groupes principaux dans la population ici, les Elfes et les Humains.
 Les Humains sont arrivés ici à l'Ère du Bûcher. Nos ancêtres faisaient partie d'une expédition Mardrop pour trouver ce qui était arrivé aux terres de Nalore qui avaient sombré sous la mer. Leur navire a fait naufrage et les survivants ont atterri sur ce continent.
 Ils ont rencontré un groupe d'elfes, apparemment originaires de ces terres, et se sont liés d'amitié avec eux - fondant le Mur Solaire et les Portes du Matin.
-Puis les Clans Orcs sont arrivés et nous nous sommes battus pour notre survie depuis lors.]], "_t")
+Puis les Fiertés Orcs sont arrivés et nous nous sommes battus pour notre survie depuis lors.]], "_t")
 t("Thank you, my lady.", "Merci, ma dame.", "_t")
 t("Ahh, so they survived? That is good news...", "Ahh, donc ils ont survécu? C'est une bonne nouvelle...", "_t")
 t("Go on.", "Continuez.", "_t")
@@ -2659,26 +2659,26 @@ Now they are dead? At the hands of just one @playerdescriptor.race@? Truly I am 
 While you were busy bringing an end to the orcs, we managed to discover some parts of the truth from a captive orc.
 He talked about the shield protecting the High Peak. It seems to be controlled by "orbs of command" which the masters of the Prides had in their possession.
 He also said the only way to enter the peak and de-activate the shield is through the "slime tunnels", located somewhere in one of the Prides, probably Grushnak.
-]], [[La nouvelle m'est en effet parvenue. Je ne pouvais pas le croire, cela fait si longtemps que nous sommes en guerre contre les Clans.
+]], [[La nouvelle m'est en effet parvenue. Je ne pouvais pas le croire, cela fait si longtemps que nous sommes en guerre contre les Fiertés.
 Et maintenant ils sont morts? Par la main d'un seul @playerdescriptor.race@? Je suis vraiment étonné par ta puissance.
 Pendant que vous étiez occupés à mettre fin aux activités des orcs, nous avons réussi à découvrir une partie de la vérité grâce à un orc captif.
 Il a parlé du bouclier qui protège le Haut Pic. Il semble être contrôlé par des "orbes de commandes" que les maîtres des Pics avaient en leur possession.
-Il a également dit que le seul moyen d'accéder au pic et de désactiver le bouclier est de passer par les "tunnels de vases", situés quelque part dans l'un des Clans, probablement Grushnak.
+Il a également dit que le seul moyen d'accéder au pic et de désactiver le bouclier est de passer par les "tunnels de vases", situés quelque part dans l'une des Fiertés, probablement Grushnak.
 ]], "_t")
 t("Thanks, my lady. I have not been able to find all of the orbs of command in my travels; could you have some of your men search for me?", "Merci, ma dame. Je n'ai pas été en mesure de trouver toutes les orbes de commandes dans mes voyages; pourriez-vous demander à certains de vos hommes de chercher pour moi?", "_t")
 t("Thanks, my lady. I will look for the tunnel and venture inside the Peak.", "Merci, ma dame. Je vais chercher le tunnel et m'aventurer à l'intérieur du Pic.", "_t")
 t([[I have already sent parties to clear out the remainder of the prides as you progressed, and have instructed to keep a sharp eye out for any orbs of command you may have missed.
-	Which do you not have? I can check with the parties if they found any. Our sources indicate that you should have four: one of Undeath, one of Destruction, one of Dragons, and one of Elemental might.]], [[J'ai déjà envoyé des équipes pour éliminer le reste des Clans au fur et à mesure de votre progression, et ai demandé de garder un oeil attentif sur les orbes de commandes que vous auriez pu manquer.
+	Which do you not have? I can check with the parties if they found any. Our sources indicate that you should have four: one of Undeath, one of Destruction, one of Dragons, and one of Elemental might.]], [[J'ai déjà envoyé des équipes pour éliminer le reste des Fiertés au fur et à mesure de votre progression, et ai demandé de garder un oeil attentif sur les orbes de commandes que vous auriez pu manquer.
 	Lesquels n'avez-vous pas? Je peux vérifier avec les groupes s'ils en ont trouvé. Nos sources indiquent que vous devriez en avoir quatre: une de Non-Vie, une de Destruction, une Draconique, et une de Puissance Elémentaire.]], "_t")
 t("The orb of Undeath.", "L'orbe de Non-Vie.", "_t")
 t("The orb of Destruction.", "L'orbe de Destruction.", "_t")
 t("The orb of Dragons.", "L'orbe Draconique.", "_t")
 t("The orb of Elements.", "L'orbe de Puissance Elementaire.", "_t")
 t("Thanks, my lady, that is all of them. I will look for the tunnel and venture inside the Peak.", "Merci, ma dame, je els ai toutes. Je vais chercher le tunnel et m'aventurer à l'intérieur du Pic.", "_t")
-t("Ah yes, my men have found that in Rak'Shor Pride. Here: ", "Ah oui, mes hommes ont trouvé ça au Clan Rak'Shor. Voici: ", "_t")
-t("Ah yes, my men have found that in Vor Pride. Here: ", "Ah oui, mes hommes ont rouvé ça au Clan Vor. Voici: ", "_t")
-t("Ah yes, my men have found that in Grushnak Pride. Here: ", "Ah oui, mes hommes ont trouvé ça au Clan Grushnak. Voici: ", "_t")
-t("Ah yes, my men have found that in Gorbat Pride. Here: ", "Ah oui, mes hommes ont trouvé ça au Clan Gorbat. Voici: ", "_t")
+t("Ah yes, my men have found that in Rak'Shor Pride. Here: ", "Ah oui, mes hommes ont trouvé ça à la Fierté Rak'Shor. Voici: ", "_t")
+t("Ah yes, my men have found that in Vor Pride. Here: ", "Ah oui, mes hommes ont rouvé ça à la Fierté Vor. Voici: ", "_t")
+t("Ah yes, my men have found that in Grushnak Pride. Here: ", "Ah oui, mes hommes ont trouvé ça à la Fierté Grushnak. Voici: ", "_t")
+t("Ah yes, my men have found that in Gorbat Pride. Here: ", "Ah oui, mes hommes ont trouvé ça à la Fierté Gorbat. Voici: ", "_t")
 t([[As much as I would like to help, our forces are already spread too thin; we cannot provide you with direct assistance.
 But I might be able to help you by explaining how the Pride is organised.
 Recently we have heard the Pride speaking about a new master, or masters. They might be the ones behind that mysterious staff of yours.
@@ -2689,15 +2689,15 @@ The known bastions of the Pride are:
 - Gorbat Pride, in a mountain range in the southern desert
 - Vor Pride, in the northeast
 - Grushnak Pride, on the eastern slope of the High Peak]], [[Bien que j'aimerais vous aider, nos forces sont déjà trop dispersées; nous ne pouvons pas vous fournir une assistance directe.
-Mais je peux peut-être vous aider en vous expliquant comment les Clans sont organisé.
-Récemment, nous avons entendu les Clans parler d'un nouveau maître, ou de nouveaux maîtres. Ils pourraient être ceux qui se cachent derrière votre mystérieux bâton.
+Mais je peux peut-être vous aider en vous expliquant comment les Fiertés sont organisé.
+Récemment, nous avons entendu les Fiertés parler d'un nouveau maître, ou de nouveaux maîtres. Ils pourraient être ceux qui se cachent derrière votre mystérieux bâton.
 Nous pensons que le coeur de leur pouvoir est le Haut Pic, au centre du continent. Mais il est inaccessible et couvert par une sorte de bouclier.
-Vous devez enquêter sur les bastions des Clans. Vous trouverez peut-être plus d'informations sur le Haut Pic, et chaque orc que vous tuerez sera un de moins pour nous attaquer.
-Les bastions connus des Clans sont:
-- Le clan Rak'shor, à l'ouest du désert du sud.
-- Le clan Gorbat, dans une chaîne de montagnes du désert du sud.
-- Le clan Vor, au nord-est
-- Le clan Grushnak, sur le versant est du Haut Pic.]], "_t")
+Vous devez enquêter sur les bastions des Fiertés. Vous trouverez peut-être plus d'informations sur le Haut Pic, et chaque orc que vous tuerez sera un de moins pour nous attaquer.
+Les bastions connus des Fiertés sont:
+- La fierté Rak'shor, à l'ouest du désert du sud.
+- La fierté Gorbat, dans une chaîne de montagnes du désert du sud.
+- La fierté Vor, au nord-est
+- La fierté Grushnak, sur le versant est du Haut Pic.]], "_t")
 t("I will investigate them.", "Je vais enquêter sur eux.", "_t")
 t("Aeryn points to the known locations on your map.", "Aeryn indique les endroits connus sur ta carte.", "logPlayer")
 t([[One more bit of aid I might give you before you go. Your tale has moved me, and the very stars shine with approval of your relentless pursuit. Take their blessing, and let nothing stop you in your quest.
@@ -2711,11 +2711,11 @@ t("I have heard about that; good men lost their lives for this. I hope it was wo
 t("Yes, my lady, they delayed the orcs so that I could get to the heart of the volcano. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "Oui, ma dame, ils ont retardé les orcs pour que je puisse atteindre le coeur du volcan. *#LIGHT_GREEN#lui dire ce qui s'est passé#WHITE#*", "_t")
 t("I am afraid I was too late, but I still have some valuable information. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "Je crains d'être arrivé trop tard, mais j'ai tout de même quelques précieuses informations. *#LIGHT_GREEN#lui dire ce qui s'est passé#WHITE#*", "_t")
 t([[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
-Thank you for everything. You must continue your hunt now that you know what to look for.]], [[Des sorciers? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Clans, mais il semble qu'ils en aient deux.
+Thank you for everything. You must continue your hunt now that you know what to look for.]], [[Des sorciers? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Fiertés, mais il semble qu'ils en aient deux.
 Merci pour tout. Vous devez continuer votre chasse maintenant que vous savez quoi chercher.]], "_t")
 t("I will avenge your men.", "Je vengerai vos hommes.", "_t")
 t([[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
-I am afraid with the power they gained today they will be even harder to stop, but we do not have a choice.]], [[Des sorciers? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Clans, mais il semble qu'ils en aient deux.
+I am afraid with the power they gained today they will be even harder to stop, but we do not have a choice.]], [[Des sorciers? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Fiertés, mais il semble qu'ils en aient deux.
 Je crains qu'avec le pouvoir qu'ils ont acquis aujourd'hui, ils seront encore plus difficiles à arrêter, mais nous n'avons pas le choix.]], "_t")
 t("Ah! This is wonderful! Finally a ray of hope amidst the darkness. I will assign my best troops to this. Thank you, @playername@ - take this as a token of gratitude.", "Ah! C'est merveilleux! Enfin un rayon d'espoir au milieu de ces ténèbres. Je vais affecter mes meilleures troupes à cette tâche. Merci, @playername@, prenez ceci en gage de gratitude.", "_t")
 t("Good luck.", "Bonne chance.", "_t")
@@ -2738,11 +2738,11 @@ t("It seems that I am stranded in these unfamiliar lands. #LIGHT_GREEN#*Tell her
 t("Sun Paladins? What do you mean? We know of no such thing where I come from.", "Les Paladins du Soleil? Que voulez-vous dire? Nous ne connaissons rien de tel d'où je viens.", "_t")
 t([[We are the mighty warriors of the Sunwall, channeling the power of the Sun and merging it with martial training.
 For hundreds of years, we stood between the Orc Pride and the free people. Our numbers are diminishing, but we will stand firm until our last breath.]], [[Nous sommes les puissants guerriers du Mur Solaire, canalisant le pouvoir du soleil et le fusionnant avec l'entraînement martial.
-Pendant des centaines d'années, nous nous sommes dressés entre le Clan Orc et le peuple libre. Nous sommes de moins en moins nombreux, mais nous resterons fermes jusqu'à notre dernier souffle.]], "_t")
+Pendant des centaines d'années, nous nous sommes dressés entre la Fierté Orc et le peuple libre. Nous sommes de moins en moins nombreux, mais nous resterons fermes jusqu'à notre dernier souffle.]], "_t")
 t("You have a noble spirit, my lady.", "Vous avez un esprit noble, ma dame.", "_t")
 t([[Orcs! Ah! Well then this is your lucky day. This whole continent is swarming with Orcs. They have united as the Orc Pride and, according to rumour, their masters are powerful.
 They roam the lands freely, ever assaulting us.
-@playername@, you have helped one of ours. I grant you access to the Gates of Morning and name you friend of the Sunwall.]], [[Des orcs! Ah! Eh bien c'est votre jour de chance. Ce continent entier grouille d'Orcs. Ils se sont unis sous le nom de Clan Orc et, selon la rumeur, leurs maîtres sont puissants.
+@playername@, you have helped one of ours. I grant you access to the Gates of Morning and name you friend of the Sunwall.]], [[Des orcs! Ah! Eh bien c'est votre jour de chance. Ce continent entier grouille d'Orcs. Ils se sont unis sous le nom de Fierté Orc et, selon la rumeur, leurs maîtres sont puissants.
 Ils parcourent les terres librement, sans jamais nous attaquer.
 @playername@, tu as aidé l'un des nôtres. Je t'accorde l'accès aux Portes du Matin et te nomme ami du Mur Solaire.]], "_t")
 t("Thank you, my lady.", "Merci, ma dame.", "_t")
@@ -2756,10 +2756,10 @@ t([[#VIOLET#*As you open the door you notice a huge orc in the distance, covered
 @playerdescriptor.race@! You should never have come! Your doom awaits!
 The Orc Pride will never yield to anybody! They have their precious and there is nothing you can do.]], [[#VIOLET#*En ouvrant la porte, vous remarquez un orc immense au loin, couvert à la fois de flammes et de glace.*#LAST#
 @playerdescriptor.race@! Vous n'auriez jamais dû venir! Votre perdition vous attend!
-Le Clan Orc ne cédera jamais à personne! Ils ont leur précieux et il n'y a rien que vous puissiez faire.]], "_t")
-t("The Orc Pride obeys a master? I see... 'pride' indeed!", "Le Clan Orc obéit à un maître? Je vois... de la fierté, en effet!", "_t")
+La Fierté Orc ne cédera jamais à personne! Ils ont leur précieux et il n'y a rien que vous puissiez faire.]], "_t")
+t("The Orc Pride obeys a master? I see... 'pride' indeed!", "La Fierté Orc obéit à un maître? Je vois... de la fierté, en effet!", "_t")
 t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaquer]", "_t")
-t("The Pride chooses its allies. It has no master! ATTACK!", "Le Clan choisit ses alliés. Il n'a pas de maître! À L'ATTAQUE!", "_t")
+t("The Pride chooses its allies. It has no master! ATTACK!", "La Fierté choisit ses alliés. Il n'a pas de maître! À L'ATTAQUE!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/jewelry-store.lua"
@@ -4192,7 +4192,7 @@ t("Sadly I am the bringer of bad news, the orcs are planning something. Good luc
 ------------------------------------------------
 section "mod-tome/data/chats/unremarkable-cave-krogar.lua"
 
-t("@playerdescriptor.race@, you have helped me kill the Elf-wench. The Orc Pride thanks you... for now", "@playerdescriptor.race@, vous m'avez aidé à tuer la jeune elfe. Les clans Orcs vous remercie... pour l'instant", "_t")
+t("@playerdescriptor.race@, you have helped me kill the Elf-wench. The Orc Pride thanks you... for now", "@playerdescriptor.race@, vous m'avez aidé à tuer la jeune elfe. Les fiertés Orcs vous remercie... pour l'instant", "_t")
 t("I hate Elves anyway...", "Je déteste les Elfes de toute façon...", "_t")
 
 ------------------------------------------------
@@ -4790,7 +4790,7 @@ t("patrol", "patrouille", "entity type")
 t("sunwall", "mur solaire", "entity subtype")
 t("Anorithil patrol", "Patrouille d'Anorithil", "entity name")
 t("Orcs patrol", "Patrouille d'Orcs", "entity name")
-t("orc pride", "clan orc", "entity subtype")
+t("orc pride", "fierté orc", "entity subtype")
 
 ------------------------------------------------
 section "mod-tome/data/general/encounters/fareast.lua"
@@ -7025,8 +7025,8 @@ t("A choker made of pure flame, casting forever shifting patterns around the nec
 t("Chromatic Harness", "Harnais Chromatique", "entity name")
 t("multi-hued scale-mail armour", "armure en cotte de mailles multicolore", "_t")
 t("This dragon scale harness shines with multiple colors, quickly shifting through them in a seemingly chaotic manner.", "Ce harnais en écailles de dragon brille de multiples couleurs, passant rapidement de l'une à l'autre d'une manière apparemment chaotique.", "_t")
-t("Glory of the Pride", "Gloire des Clans", "entity name")
-t("The most prized treasure of the Battlemaster of the Pride, Grushnak. This gold ring is inscribed in the now lost orc tongue.", "Le trésor le plus précieux du maître de guerre des Clans, Grushnak. Cet anneau d'or est inscrit dans la langue orque aujourd'hui perdue.", "_t")
+t("Glory of the Pride", "Gloire des Fiertés", "entity name")
+t("The most prized treasure of the Battlemaster of the Pride, Grushnak. This gold ring is inscribed in the now lost orc tongue.", "Le trésor le plus précieux du maître de guerre des Fiertés, Grushnak. Cet anneau d'or est inscrit dans la langue orque aujourd'hui perdue.", "_t")
 t("deep black ring", "anneau d'un noir profond", "_t")
 t("Black Robe", "Robe Noir", "entity name")
 t("black robe", "robe noir", "_t")
@@ -18378,10 +18378,10 @@ t("You have laid Celia to rest, putting an end to her failed experiments. You ha
 section "mod-tome/data/quests/high-peak.lua"
 
 t("Falling Toward Apotheosis", "Vers l'apothéose", "_t")
-t("You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "Vous avez vaincu les maîtres des clans orcs. Vous devez maintenant vous aventurer dans l'endroit le plus dangereux de ce monde: le Pic Supérieur.", "_t")
+t("You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "Vous avez vaincu les maîtres des fiertés orcs. Vous devez maintenant vous aventurer dans l'endroit le plus dangereux de ce monde: le Pic Supérieur.", "_t")
 t("Seek the Sorcerers and stop them before they bend the world to their will.", "Cherchez les sorciers et arrêtez-les avant qu'ils ne plient le monde à leur volonté.", "_t")
 t("To enter, you will need the four orbs of command to remove the shield over the peak.", "Pour entrer, vous aurez besoin des quatre orbes de commande pour enlever le bouclier au-dessus du pic.", "_t")
-t("The entrance to the peak passes through a place called 'the slime tunnels', probably located inside or near Grushnak Pride.", "L'entrée du pic passe par un endroit appelé \"les tunnels de boue\", probablement situé à l'intérieur ou à proximité du Clan Grushnak.", "_t")
+t("The entrance to the peak passes through a place called 'the slime tunnels', probably located inside or near Grushnak Pride.", "L'entrée du pic passe par un endroit appelé \"les tunnels de boue\", probablement situé à l'intérieur ou à proximité de La Fierté Grushnak.", "_t")
 t("You have reached the summit of the High Peak, entered the sanctum of the Sorcerers and destroyed them, freeing the world from the threat of evil.", "Vous avez atteint le sommet du Pic Supérieur, pénétré dans le sanctuaire des sorciers et les avez détruits, libérant ainsi le monde de la menace du mal.", "_t")
 t("You have won the game!", "Vous avez gagné la partie!", "_t")
 t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall. You were forced to kill her.#LAST#", "#LIGHT_GREEN#* Tu as rencontré Aeryn, la paladine solaire, qui te reprochait la perte du Mur Solair. Tu as été obligé de la tuer.#LAST#", "_t")
@@ -18396,7 +18396,7 @@ t("Ruins of the Gates of Morning", "Ruines des Portes du Matin", "_t")
 t("The Sunwall was destroyed while you were trapped in the High Peak.", "Le Mur Solaire a été détruit pendant que vous étiez piégés dans le Pic.", "_t")
 t("Winner", "Gagnant", "_t")
 t("#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "#GOLD#Bravo! Vous avez gagné une partie de Tales of Maj'Eyal: L'âge de l'ascendance#WHITE#", "_t")
-t("The Sorcerers are dead, and the Orc Pride lies in ruins, thanks to your efforts.", "Les Sorciers sont morts, et les clans des Orcs sont en ruines, grâce à vos efforts.", "_t")
+t("The Sorcerers are dead, and the Orc Pride lies in ruins, thanks to your efforts.", "Les Sorciers sont morts, et les fiertés des Orcs sont en ruines, grâce à vos efforts.", "_t")
 t("Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "Le plan de ton patron a fonctionné. Alors que votre corps était écrasé par les forces brutes du portail du vide, il s'est ouvert en grand. En un instant, la connexion a été faite et des vagues de chaleur ont traversé.", "_t")
 t("The mad sun brought forth all its power through the portal, turning the High Peak into a giant searing needle!", "Le soleil fou a déployé toute sa puissance à travers le portail, transformant le High Peak en une aiguille brûlante géante!", "_t")
 t("A few minutes later the whole world was set ablaze, nothing survived except Faeros elementals.", "Quelques minutes plus tard, le monde entier s'est embrasé, rien n'a survécu sauf les élémentaires Feuros.", "_t")
@@ -18633,17 +18633,17 @@ t("The elder points to Reknor on your map, to the north on the western side of t
 ------------------------------------------------
 section "mod-tome/data/quests/orc-pride.lua"
 
-t("The many Prides of the Orcs", "Les nombreux fiefs Clans Orcs", "_t")
-t("Investigate the bastions of the Pride.", "Enquêtez sur les bastions des Clans.", "_t")
+t("The many Prides of the Orcs", "Les nombreux fiefs de Fiertés Orcs", "_t")
+t("Investigate the bastions of the Pride.", "Enquêtez sur les bastions des Fiertés.", "_t")
 t("#LIGHT_GREEN#* You have destroyed Rak'shor.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit Rak'shor.#WHITE#", "_t")
-t("#SLATE#* Rak'shor Pride, in the west of the southern desert.#WHITE#", "#SLATE#* Le Clan Rak'shor, à l'ouest du désert du sud.#WHITE#", "_t")
+t("#SLATE#* Rak'shor Pride, in the west of the southern desert.#WHITE#", "#SLATE#* La Fierté Rak'shor, à l'ouest du désert du sud.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have destroyed Vor.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit Vor.#WHITE#", "_t")
-t("#SLATE#* Vor Pride, in the north east.#WHITE#", "#SLATE#* Le Clan Vor, dans le nord-est.#WHITE#", "_t")
+t("#SLATE#* Vor Pride, in the north east.#WHITE#", "#SLATE#* La Fierté Vor, dans le nord-est.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have destroyed Grushnak.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit Grushnak.#WHITE#", "_t")
-t("#SLATE#* Grushnak Pride, near a small mountain range in the north west.#WHITE#", "#SLATE#* Le Clan Grushnak, près d'une petite chaîne de montagnes au nord-ouest.#WHITE#", "_t")
+t("#SLATE#* Grushnak Pride, near a small mountain range in the north west.#WHITE#", "#SLATE#* La Fierté Grushnak, près d'une petite chaîne de montagnes au nord-ouest.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have destroyed Gorbat.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit Gorbat.#WHITE#", "_t")
-t("#SLATE#* Gorbat Pride, in a mountain range in the southern desert.#WHITE#", "#SLATE#* Le Clan Gorbat, dans une chaîne de montagnes au sud du désert.#WHITE#", "_t")
-t("#LIGHT_GREEN#* All the bastions of the Pride lie in ruins, their masters destroyed. High Sun Paladin Aeryn would surely be glad of the news!#WHITE#", "#LIGHT_GREEN#* Tous les bastions des clans sont en ruines, leurs maîtres détruits. La Paladine Solaire Aeryn sera sûrement heureuse de l'apprendre !#WHITE#", "_t")
+t("#SLATE#* Gorbat Pride, in a mountain range in the southern desert.#WHITE#", "#SLATE#* La Fierté Gorbat, dans une chaîne de montagnes au sud du désert.#WHITE#", "_t")
+t("#LIGHT_GREEN#* All the bastions of the Pride lie in ruins, their masters destroyed. High Sun Paladin Aeryn would surely be glad of the news!#WHITE#", "#LIGHT_GREEN#* Tous les bastions des fiertés sont en ruines, leurs maîtres détruits. La Paladine Solaire Aeryn sera sûrement heureuse de l'apprendre !#WHITE#", "_t")
 -- texte non traduit
 --[==[
 t("", "", "_t")
@@ -18938,8 +18938,8 @@ t("Upon arrival you met an Elf and an orc fighting.", "En arrivant, vous avez re
 t("You decided to side with the Elven lady.", "Vous avez décidé de vous ranger du côté de la dame Elfique.", "_t")
 t("You decided to side with the orc.", "Vous avez décidé de vous ranger du côté de l'orc.", "_t")
 t("Fillarel told you to go to the southeast and meet with High Sun Paladin Aeryn.", "Fillarel t'a dit d'aller au sud-est et de rencontrer la Paladin Solair Aeryn.", "_t")
-t("Krogar told you to go to the west and look for the Kruk Pride.", "Krogar t'a dit d'aller à l'ouest et de chercher le Clan Kruk.", "_t")
-t("%s go to the west, and find Kruk Pride!", "%s aller à l'ouest, et trouver le Clan Kruk!", "tformat")
+t("Krogar told you to go to the west and look for the Kruk Pride.", "Krogar t'a dit d'aller à l'ouest et de chercher La Fierté Kruk.", "_t")
+t("%s go to the west, and find Kruk Pride!", "%s aller à l'ouest, et trouver La Fierté Kruk!", "tformat")
 t("%s go to the southeast, and tell Aeryn what happened to me!", "%s aller au sud-est, et dire à Aeryn ce qui m'est arrivé!", "tformat")
 
 ------------------------------------------------
@@ -31370,9 +31370,9 @@ Nagas have been sighted in the Slazish Fens on the other side of the Sunwall Mou
 
 By the power of the Sun and the blessings of the Moons you step forth to find your fate.
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
-Vous êtes un citoyen du Mur Solaire, et comme beaucoup de gens de votre âge, vous avez été formé au combat et à la magie. La vie peut être rude, et bien que vous rêviez parfois de vous aventurer dans des contrées lointaines, vous savez que votre devoir est d'aider à défendre l'avant-poste contre les vicieux assauts des Clans Orcs. Mais aujourd'hui, la Paladine Solaire Aeryn vous informe d'une nouvelle menace.
+Vous êtes un citoyen du Mur Solaire, et comme beaucoup de gens de votre âge, vous avez été formé au combat et à la magie. La vie peut être rude, et bien que vous rêviez parfois de vous aventurer dans des contrées lointaines, vous savez que votre devoir est d'aider à défendre l'avant-poste contre les vicieux assauts des Fiertés Orcs. Mais aujourd'hui, la Paladine Solaire Aeryn vous informe d'une nouvelle menace.
 
-Des Nagas ont été aperçus dans les marais de Slazish, de l'autre côté des montagnes du Mur Solaire. Leur objectif n'est pas clair, mais un assaut des deux côtés serait vraiment dévastateur à un moment aussi crucial pour votre peuple. Bien qu'il y ait peu de forces disponibles sur la ligne de front contre les Clans, vous vous êtes portés volontaires pour enquêter sur la menace naga et les arrêter si nécessaire.
+Des Nagas ont été aperçus dans les marais de Slazish, de l'autre côté des montagnes du Mur Solaire. Leur objectif n'est pas clair, mais un assaut des deux côtés serait vraiment dévastateur à un moment aussi crucial pour votre peuple. Bien qu'il y ait peu de forces disponibles sur la ligne de front contre les Fiertés, vous vous êtes portés volontaires pour enquêter sur la menace naga et les arrêter si nécessaire.
 
 Par le pouvoir du Soleil et les bénédictions des Lunes, vous vous avancez pour trouver votre destin.
 ]], "_t")
@@ -33159,10 +33159,10 @@ Class features:#YELLOW#
 
 Anorithil use "positive and negative energy" to use their special abilities.
 These are filled by some of their spells and depleted by others, making them alternate their talents.
-]], [[Au fin fond de l'Est, sur le continent connu sous le nom d'Extrême-Orient, vivent les derniers vestiges des Elfes et des Humains, luttant contre les clans Orcs et les nombreux périls de l'Extrême-Orient.
+]], [[Au fin fond de l'Est, sur le continent connu sous le nom d'Extrême-Orient, vivent les derniers vestiges des Elfes et des Humains, luttant contre les fiertés Orcs et les nombreux périls de l'Extrême-Orient.
 
 Les Anorithil sont des mages formés à une magie spéciale concentrant les pouvoirs du Soleil et des Lunes.
-Ils ont appris à exploiter l'énergie des ombres et de la lumière dans leur combat contre les clans Orcs.
+Ils ont appris à exploiter l'énergie des ombres et de la lumière dans leur combat contre les fiertés Orcs.
 Leur devise est : "Nous nous tenons entre le Soleil et les Lunes, là où la lumière et l'obscurité se rencontrent. Dans le crépuscule gris, nous cherchons notre destin."
 
 Vous avez aidé l'un d'entre eux et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Anorithil#WHITE#.
@@ -33199,7 +33199,7 @@ Class features:#YELLOW#
 
 Sun Paladins use "positive energy" to power their special abilities.
 It is filled by some of their spells and depleted by others, making them alternate their talents.
-]], [[Au fin fond de l'Est, sur le continent connu sous le nom d'Extrême-Orient, vivent les derniers vestiges des Elfes et des Humains, luttant contre les clans Orcs et les nombreux périls de l'Extrême-Orient.
+]], [[Au fin fond de l'Est, sur le continent connu sous le nom d'Extrême-Orient, vivent les derniers vestiges des Elfes et des Humains, luttant contre les fiertés Orcs et les nombreux périls de l'Extrême-Orient.
 
 Les Paladins Solaires sont des guerriers formés à une magie spéciale concentrant les pouvoirs du Soleil.
 Paragons de tout ce qui est bon, ils n'en sont pas moins terribles dans leur combat contre le Fierté.
@@ -37736,117 +37736,70 @@ t("floor", "sol", "entity subtype")
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
+t("roost", "perchoir", "entity subtype")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
 t("sand", "sable", "entity subtype")
 t("huge loose rock", "énorme rocher instable", "entity name")
--- texte non traduit
---[==[
-t("roost", "roost", "entity subtype")
-t("This rock seems to have been sealed off. You need to find a way to open it.", "This rock seems to have been sealed off. You need to find a way to open it.", "_t")
-t("#VIOLET#You hear a rock crumbling opening.", "#VIOLET#You hear a rock crumbling opening.", "log")
---]==]
-
+t("This rock seems to have been sealed off. You need to find a way to open it.", "Ce passage semble scellé. Il faut trouver un moyen de l'ouvrir.", "_t")
+t("#VIOLET#You hear a rock crumbling opening.", "#VIOLET#Vous entendez quelque chose qui s'effrite et vous ouvre la voie.", "log")
 
 ------------------------------------------------
 section "mod-tome/data/zones/gorbat-pride/npcs.lua"
 
+t("Gorbat, Supreme Wyrmic of the Pride", "Gorbat, Draconien Suprême de la Fierté", "entity name")
+t("An orc with scaly skin, claws and a pair of small wings on his back.", "Un orc à la peau écailleuse, doté de griffes et d'une paire de petites ailes dans le dos.", "_t")
 t("and fed to the hatchlings", "et donnés à manger aux petits", "_t")
--- texte non traduit
---[==[
-t("Gorbat, Supreme Wyrmic of the Pride", "Gorbat, Supreme Wyrmic of the Pride", "entity name")
-t("An orc with scaly skin, claws and a pair of small wings on his back.", "An orc with scaly skin, claws and a pair of small wings on his back.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/gorbat-pride/objects.lua"
 
-
--- texte non traduit
---[==[
-t("draft note", "draft note", "entity name")
-t("A note.", "A note.", "_t")
---]==]
-
+t("draft note", "note brouillonée", "entity name")
+t("A note.", "Une note", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/gorbat-pride/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Gorbat Pride", "Gorbat Pride", "_t")
---]==]
-
+t("Gorbat Pride", "Fierté de Gorbat", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/grushnak-pride/grids.lua"
 
-
--- texte non traduit
---[==[
-t("entrance to a slimy pit", "entrance to a slimy pit", "entity name")
-t("training dummy", "training dummy", "entity name")
-t("training", "training", "entity type")
-t("dummy", "dummy", "entity subtype")
---]==]
-
+t("entrance to a slimy pit", "entrée d'une fosse vaseuse", "entity name")
+t("training dummy", "mannequin d'entraînement", "entity name")
+t("training", "entraînement", "entity type")
+t("dummy", "mannequin", "entity subtype")
 
 ------------------------------------------------
 section "mod-tome/data/zones/grushnak-pride/mapscripts/last.lua"
 
-
--- texte non traduit
---[==[
-t("Combat Trainer #rng#", "Combat Trainer #rng#", "_t")
---]==]
-
+t("Combat Trainer #rng#", "Instructeur de Combat #rng#", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/grushnak-pride/mapscripts/main.lua"
 
-
--- texte non traduit
---[==[
-t("Combat Trainer #rng#", "Combat Trainer #rng#", "_t")
---]==]
-
+t("Combat Trainer #rng#", "Instructeur de Combat #rng#", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/grushnak-pride/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Grushnak, Battlemaster of the Pride", "Grushnak, Battlemaster of the Pride", "entity name")
-t("An old orc, covered in battle scars, he looks fierce and very, very, dangerous.", "An old orc, covered in battle scars, he looks fierce and very, very, dangerous.", "_t")
-t("and mounted on the barracks wall", "and mounted on the barracks wall", "_t")
---]==]
-
+t("Grushnak, Battlemaster of the Pride", "Grushnak, Maître de guerre de la Fierté", "entity name")
+t("An old orc, covered in battle scars, he looks fierce and very, very, dangerous.", "Un vieil orc, couvert de cicatrices de bataille, il a l'air féroce et très, très dangereux.", "_t")
+t("and mounted on the barracks wall", "et fixé au mur de la caserne", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/grushnak-pride/objects.lua"
 
+t("draft note", "note brouillonée", "entity name")
+t("A note.", "Une note", "_t")
 t("The Legend of Garkul", "La Légende de Garkul", "entity name")
--- texte non traduit
---[==[
-t("draft note", "draft note", "entity name")
-t("A note.", "A note.", "_t")
-t("The Legend of Garkul the Devourer, mightiest of all orcs.", "The Legend of Garkul the Devourer, mightiest of all orcs.", "_t")
---]==]
-
+t("The Legend of Garkul the Devourer, mightiest of all orcs.", "La légende de Garkul le Dévoreur, le plus puissant de tous les orcs.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/grushnak-pride/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Grushnak Pride", "Grushnak Pride", "_t")
---]==]
-
+t("Grushnak Pride", "Fierté de Grushnak", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/halfling-ruins/npcs.lua"
@@ -38675,11 +38628,10 @@ t("#PURPLE#As the orc greatmother falls you realize you have dealt a crippling b
 ------------------------------------------------
 section "mod-tome/data/zones/orc-breeding-pit/objects.lua"
 
-
+t("draft note", "note brouillonée", "entity name")
+t("A note.", "Une note", "_t")
 -- texte non traduit
 --[==[
-t("draft note", "draft note", "entity name")
-t("A note.", "A note.", "_t")
 t("Clinician Korbek's experimental notes", "Clinician Korbek's experimental notes", "entity name")
 t("Birthing new orcs ...", "Birthing new orcs ...", "_t")
 t("Captain Gumlarat's report", "Captain Gumlarat's report", "entity name")
@@ -38766,13 +38718,8 @@ t("Intense Arcane energy whirls in the air around this ethereal form.", "Intense
 ------------------------------------------------
 section "mod-tome/data/zones/rak-shor-pride/objects.lua"
 
-
--- texte non traduit
---[==[
-t("draft note", "draft note", "entity name")
-t("A note.", "A note.", "_t")
---]==]
-
+t("draft note", "note brouillonée", "entity name")
+t("A note.", "Une note", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/rak-shor-pride/zone.lua"
@@ -39312,6 +39259,8 @@ t("Mirror of Reflection", "Mirror of Reflection", "entity name")
 section "mod-tome/data/zones/shertul-fortress/npcs.lua"
 
 t("Fortress Shadow", "Ombre de la Forteresse", "entity name")
+t("training", "entraînement", "entity type")
+t("dummy", "mannequin", "entity subtype")
 -- texte non traduit
 --[==[
 t("Weirdling Beast", "Weirdling Beast", "entity name")
@@ -39321,8 +39270,6 @@ t("#LIGHT_RED#As the Weirdling beast falls it shrieks one last time and the door
 t("Teleportation portal to the Sher'Tul Fortress", "Teleportation portal to the Sher'Tul Fortress", "_t")
 t("Sher'Tul", "Sher'Tul", "entity subtype")
 t("The shadow created by the fortress, it resembles somewhat the horrors you saw previously, but it is not the same.", "The shadow created by the fortress, it resembles somewhat the horrors you saw previously, but it is not the same.", "_t")
-t("training", "training", "entity type")
-t("dummy", "dummy", "entity subtype")
 t("Training Dummy", "Training Dummy", "entity name")
 t("Training dummy.", "Training dummy.", "_t")
 t("Pumpkin, the little kitty", "Pumpkin, the little kitty", "entity name")
@@ -39779,7 +39726,7 @@ t("and perverted into a monstrous aberration as a warning to the surface", "and 
 ------------------------------------------------
 section "mod-tome/data/zones/temple-of-creation/objects.lua"
 
-
+t("A note.", "Une note", "_t")
 -- texte non traduit
 --[==[
 t("Eldritch Pearl", "Eldritch Pearl", "entity name")
@@ -39788,7 +39735,6 @@ t("Thousands of years spent inside the temple of creation have infused this pear
 t("tract", "tract", "entity name")
 t("A tract revealing the history of the Nagas.", "A tract revealing the history of the Nagas.", "_t")
 t("note", "note", "entity name")
-t("A note.", "A note.", "_t")
 t("Legacy of the Naloren", "Legacy of the Naloren", "entity name")
 t("ornate orichalcum trident", "ornate orichalcum trident", "_t")
 t([[This incredibly beautiful -- and powerful -- trident is made of the rare metal orichalcum. An amazing pearl is seated in head of the trident, as it spreads into three razor sharp prongs.
@@ -41135,6 +41081,8 @@ t("and used as target practice for initiate mages", "and used as target practice
 section "mod-tome/data/zones/vor-pride/objects.lua"
 
 t("tome", "volume", "entity subtype")
+t("draft note", "note brouillonée", "entity name")
+t("A note.", "Une note", "_t")
 -- texte non traduit
 --[==[
 t("Tome of Wildfire", "Tome of Wildfire", "entity name")
@@ -41148,8 +41096,6 @@ t("frozen book", "frozen book", "_t")
 t("This huge book is covered in slowly shifting patterns of ice. Yet they do not harm you.", "This huge book is covered in slowly shifting patterns of ice. Yet they do not harm you.", "_t")
 t("#00FFFF#You read the tome and learn about ancient forgotten ice magic!", "#00FFFF#You read the tome and learn about ancient forgotten ice magic!", "logPlayer")
 t("#00FFFF#You read the tome and perfect your mastery of ice magic!", "#00FFFF#You read the tome and perfect your mastery of ice magic!", "logPlayer")
-t("draft note", "draft note", "entity name")
-t("A note.", "A note.", "_t")
 t("Records of Lorekeeper Hadak", "Records of Lorekeeper Hadak", "entity name")
 t("Part of the long history of the Orc race.", "Part of the long history of the Orc race.", "_t")
 --]==]
