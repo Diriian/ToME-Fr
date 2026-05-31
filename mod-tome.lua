@@ -2621,7 +2621,7 @@ t("I know my mistakes and I intend to correct them. Please let me pass. I cannot
 section "mod-tome/data/chats/gates-of-morning-main.lua"
 
 t("What may I do for you?", "Que puis-je faire pour vous?", "_t")
-t("Lady Aeryn, at last I am back home! [tell her your story]", "Lady Aeryn, enfin, je suis de retour chez moi! [lui raconter votre histoire]", "_t")
+t("Lady Aeryn, at last I am back home! [tell her your story]", "Dame Aeryn, enfin, je suis de retour chez moi! [lui raconter votre histoire]", "_t")
 t("Tell me more about the Gates of Morning.", "Dites-m'en plus sur les Portes du Matin.", "_t")
 t("Before I came here, I happened upon members of the Sunwall in Maj'Eyal. Do you know of this?.", "Avant de venir ici, j'ai rencontré par hasard des membres du Mur Solaire en Maj'Eyal. Vous êtes au courant?", "_t")
 t("I need help in my hunt for clues about the staff.", "J'ai besoin d'aide dans ma chasse aux informations sur le bâton.", "_t")
@@ -3398,7 +3398,7 @@ section "mod-tome/data/chats/pre-charred-scar.lua"
 t([[*#LIGHT_GREEN#Suddenly a voice appears in your head.#WHITE#*
 @playername@, this is High Sun Paladin Aeryn of the Sunwall. I am communicating with you by the power of the Anorithil.
 I have some urgent information for you: the staff you were looking for has been located.]], [[*#LIGHT_GREEN#Soudain, une voix se fait entendre dans votre tête.#WHITE#*
-@playername@, ici le Haut Paladin solaire Aeryn, du Mur Solaire. Je communique avec vous par le pouvoir de l'Anorithil.
+@playername@, ici la Haute Paladine Solaire Aeryn, du Mur Solaire. Je communique avec vous par le pouvoir de l'Anorithil.
 J'ai une information urgente à vous communiquer: le bâton que vous recherchez a été localisé.]], "_t")
 t("Where?!", "Où ça?!", "_t")
 t([[One of our patrols noticed some strange orc movements around the southern part of the continent, in the desert of Erúan.
@@ -3851,7 +3851,7 @@ t("We both did.", "Nous l'avons fait ensemble.", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/sorcerer-fight.lua"
 
-t("High Sun Paladin Aeryn appears next to you!", "Aeryn, le grand Paladin solaire, apparaît à côté de vous!", "logPlayer")
+t("High Sun Paladin Aeryn appears next to you!", "Aeryn, la Haute Paladine Solaire, apparaît à côté de vous!", "logPlayer")
 t([[#LIGHT_GREEN#*The two Sorcerers stands before you, shining like the Sun.*#WHITE#
 Ah! Our guest is finally here. I take it you found the peak entertaining?]], [[#LIGHT_GREEN#*Les deux Sorciers se tiennent devant vous, brillants comme le Soleil.*#WHITE#
 Ah! Notre invité est enfin là. Je suppose que vous avez trouvé le Pic divertissant?]], "_t")
@@ -3871,7 +3871,7 @@ Lui qui a ressenti une grande tristesse pour ce monde. Celui qui va maintenant f
 Le bâton nous a permis de drainer suffisamment d'énergie venant de ce monde pour ouvrir un portail vers le Néant et l'invoquer à travers lui!
 Il est déjà trop tard. Il est en train de passer au moment où nous parlons - ce n'est qu'une question d'heures!]], "_t")
 t("I *WILL* stop you! The world will not end today!", "Je *VAIS* vous arrêter! Le monde ne prendra pas fin aujourd'hui!", "_t")
-t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "_t")
+t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "_t")
 t([[The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.
 He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!
 The staff will allow us to drain enough energy from this world to open the portal to the Void and summon Him through!
@@ -3880,7 +3880,7 @@ Lui qui a ressenti une grande tristesse pour ce monde. Celui qui va maintenant f
 Le bâton nous permettra de drainer suffisamment d'énergie de ce monde pour ouvrir le portail vers le Néant et l'invoquer à travers lui!
 Vous ne pouvez pas nous arrêter maintenant!]], "_t")
 t([[#LIGHT_GREEN#*The air whirls at your side and suddenly High Sun Paladin Aeryn appears!*#WHITE#
-Then you shall not fight alone! Together we shall stop them, or die trying!]], [[#LIGHT_GREEN#*L'air tourbillonne à vos côtés et soudain le Haut Paladin solaire Aeryn apparaît!*#WHITE#
+Then you shall not fight alone! Together we shall stop them, or die trying!]], [[#LIGHT_GREEN#*L'air tourbillonne à vos côtés et soudain la Haute Paladine Solaire Aeryn apparaît!*#WHITE#
 Dans ce cas, vous ne devriez pas vous battre seul! Ensemble, nous les arrêterons, ou nous mourrons en essayant!]], "_t")
 t("I am glad to have you at my side, my Lady. Let's hunt some wizards!", "Je suis heureux de vous avoir à mes côtés, ma Dame. Allons chasser des sorciers!", "_t")
 
@@ -4180,7 +4180,7 @@ Mes compagnons ont été... massacrés par des orcs, et j'ai failli mourir moi a
 t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "C'était mon plaisir. Mais puis-je demander une faveur moi-même? Je ne suis pas de ces terres. J'ai utilisé un prtail lointain gardé par des orcs au plus profond du trône de fer qui m'a amené ici.", "_t")
 t([[Yes, I noticed you were not from here. Your only hope is the Gates of Morning, the last bastion of freedom in this orc territory. When you leave the caves, head southeast; you cannot miss it.
 Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.]], [[Oui, j'ai remarqué que vous n'étiez pas d'ici. Votre seul espoir est les portes du matin, le dernier bastion de la liberté dans ce territoire orc. Lorsque vous quitterez les grottes, dirigez-vous vers le sud-est ; vous ne pouvez pas le manquer.
-Dites au Haut Paladin solaire Aeryn que vous m'avez rencontré. J'enverrai un mot pour vous laisser passer.]], "_t")
+Dites a la Haute Paladine Solaire Aeryn que vous m'avez rencontré. J'enverrai un mot pour vous laisser passer.]], "_t")
 t("Thank you, I will talk with Aeryn.", "Merci, je parlerai à Aeryn.", "_t")
 t([[Gone? Wait, this face.. you are @playername@! We thought you died in the naga portal explosion!
 Thanks to your courage the Gates of Morning still stand.
@@ -9539,7 +9539,7 @@ section "mod-tome/data/general/objects/quest-artifacts.lua"
 
 t("weapon", "arme", "entity type")
 t("staff", "bâton", "entity subtype")
-t("Staff of Absorption", "Bâton d'absorption", "entity name")
+t("Staff of Absorption", "Bâton d'Absorption", "entity name")
 t("staff", "bâton", "entity combat talented")
 t("dark runed staff", "sombre bâton runique", "_t")
 t([[Carved with runes of power, this staff seems to have been made long ago, yet it bears no signs of tarnish.
@@ -18384,14 +18384,14 @@ t("To enter, you will need the four orbs of command to remove the shield over th
 t("The entrance to the peak passes through a place called 'the slime tunnels', probably located inside or near Grushnak Pride.", "L'entrée du pic passe par un endroit appelé \"les tunnels de boue\", probablement situé à l'intérieur ou à proximité de La Fierté Grushnak.", "_t")
 t("You have reached the summit of the High Peak, entered the sanctum of the Sorcerers and destroyed them, freeing the world from the threat of evil.", "Vous avez atteint le sommet du Pic Supérieur, pénétré dans le sanctuaire des sorciers et les avez détruits, libérant ainsi le monde de la menace du mal.", "_t")
 t("You have won the game!", "Vous avez gagné la partie!", "_t")
-t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall. You were forced to kill her.#LAST#", "#LIGHT_GREEN#* Tu as rencontré Aeryn, la paladine solaire, qui te reprochait la perte du Mur Solair. Tu as été obligé de la tuer.#LAST#", "_t")
-t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall, but you spared her.#LAST#", "#LIGHT_GREEN#* Vous avez rencontré la paladine solaire Aeryn, qui vous a reproché la perte du Sunwall, mais vous l'avez épargnée.#LAST#", "_t")
+t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall. You were forced to kill her.#LAST#", "#LIGHT_GREEN#* Tu as rencontré Aeryn, la Paladine Solaire, qui te reprochait la perte du Mur Solair. Tu as été obligé de la tuer.#LAST#", "_t")
+t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall, but you spared her.#LAST#", "#LIGHT_GREEN#* Vous avez rencontré la Paladine Solaire Aeryn, qui vous a reproché la perte du Sunwall, mais vous l'avez épargnée.#LAST#", "_t")
 t("#LIGHT_GREEN#* You defeated the Sorcerers before the Void portal could open.#LAST#", "#LIGHT_GREEN#* Tu as vaincu les Sorciers avant que le portail du Néant ne s'ouvre.#LAST#", "_t")
 t("#LIGHT_GREEN#* You defeated the Sorcerers and Aeryn sacrificed herself to close the Void portal.#LAST#", "#LIGHT_GREEN#* Tu as vaincu les Sorciers et Aeryn s'est sacrifiée pour fermer le portail du Vide.#LAST#", "_t")
 t("#LIGHT_GREEN#* You defeated the Sorcerers and sacrificed yourself to close the Void portal.#LAST#", "#LIGHT_GREEN#* Tu as vaincu les Sorciers et tu t'es sacrifié pour fermer le portail du Néant.#LAST#", "_t")
 t("Endgame", "Fin de la Partie", "_t")
 t("#LIGHT_RED#As you enter the level you hear a familiar voice.", "#LIGHT_RED#En entrant dans le niveau, vous entendez une voix familière.", "logPlayer")
-t("#LIGHT_RED#Fallen Sun Paladin Aeryn: '%s YOU BROUGHT ONLY DESTRUCTION TO THE SUNWALL! YOU WILL PAY!'", "#LIGHT_RED#Paladin Solaire Déchu Aeryn: \"%s Tu n'as apporté que de la destruction au Mur Solaire! TU VAS PAYER!\"", "logPlayer")
+t("#LIGHT_RED#Fallen Sun Paladin Aeryn: '%s YOU BROUGHT ONLY DESTRUCTION TO THE SUNWALL! YOU WILL PAY!'", "#LIGHT_RED#Paladine Solaire Déchu Aeryn: \"%s Tu n'as apporté que de la destruction au Mur Solaire! TU VAS PAYER!\"", "logPlayer")
 t("Ruins of the Gates of Morning", "Ruines des Portes du Matin", "_t")
 t("The Sunwall was destroyed while you were trapped in the High Peak.", "Le Mur Solaire a été détruit pendant que vous étiez piégés dans le Pic.", "_t")
 t("Winner", "Gagnant", "_t")
@@ -18410,7 +18410,7 @@ t("Every sentient being in Eyal is now part of the Way. Peace and happiness are 
 t("Only the mages of Angolwen were able to withstand the mental shock and thus are the only unsafe people left. But what can they do against the might of the Way?", "Seuls les mages d'Angolwen ont pu résister au choc mental et sont donc les seules personnes encore en sécurité. Mais que peuvent-ils faire contre la puissance de la Voie?", "_t")
 t("In the aftermath of the battle the Way tried to force you to act as a vessel to bring the Way to every sentient being.", "A la suite de la bataille, la Voie a essayé de te forcer à agir comme vecteur pour apporter la Voie à chaque être sensible.", "_t")
 t("You have prevented the portal to the Void from opening and thus stopped the Creator from bringing about the end of the world.", "Vous avez empêché l'ouverture du portail vers le Néant et donc empêché le Créateur de provoquer la fin du monde.", "_t")
-t("In a selfless act, High Sun Paladin Aeryn sacrificed herself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "Dans un acte désintéressé, la paladine Solaire Aeryn s'est sacrifiée pour fermer le portail du Néant et empêcher ainsi le Créateur de provoquer la fin du monde.", "_t")
+t("In a selfless act, High Sun Paladin Aeryn sacrificed herself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "Dans un acte désintéressé, la Haute Paladine Solaire Aeryn s'est sacrifiée pour fermer le portail du Néant et empêcher ainsi le Créateur de provoquer la fin du monde.", "_t")
 t("In a selfless act, you sacrificed yourself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "Dans un acte désintéressé, vous vous êtes sacrifié pour fermer le portail du Néant et empêcher ainsi le Créateur de provoquer la fin du monde.", "_t")
 t("The Gates of Morning have been destroyed and the Sunwall has fallen. The last remnants of the free people in the Far East will surely diminish, and soon only orcs will inhabit this land.", "Les Portes du Matin ont été détruites et le Mur du Soleil est tombé. Les derniers vestiges des peuples libres d'Extrême-Orient vont sûrement disparaitre, et bientôt seuls les orcs habiteront cette terre.", "_t")
 t("The orc presence in the Far East has greatly been diminished by the loss of their leaders and the destruction of the Sorcerers. The free people of the Sunwall will be able to prosper and thrive on this land.", "La présence orc en Extrême-Orient a été grandement diminuée par la perte de leurs chefs et la destruction des Sorciers. Le peuple libre du Mur Solaire pourra prospérer et s'épanouir sur cette terre.", "_t")
@@ -18643,7 +18643,7 @@ t("#LIGHT_GREEN#* You have destroyed Grushnak.#WHITE#", "#LIGHT_GREEN#* Vous ave
 t("#SLATE#* Grushnak Pride, near a small mountain range in the north west.#WHITE#", "#SLATE#* La Fierté Grushnak, près d'une petite chaîne de montagnes au nord-ouest.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have destroyed Gorbat.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit Gorbat.#WHITE#", "_t")
 t("#SLATE#* Gorbat Pride, in a mountain range in the southern desert.#WHITE#", "#SLATE#* La Fierté Gorbat, dans une chaîne de montagnes au sud du désert.#WHITE#", "_t")
-t("#LIGHT_GREEN#* All the bastions of the Pride lie in ruins, their masters destroyed. High Sun Paladin Aeryn would surely be glad of the news!#WHITE#", "#LIGHT_GREEN#* Tous les bastions des fiertés sont en ruines, leurs maîtres détruits. La Paladine Solaire Aeryn sera sûrement heureuse de l'apprendre !#WHITE#", "_t")
+t("#LIGHT_GREEN#* All the bastions of the Pride lie in ruins, their masters destroyed. High Sun Paladin Aeryn would surely be glad of the news!#WHITE#", "#LIGHT_GREEN#* Tous les bastions des fiertés sont en ruines, leurs maîtres détruits. La Haute Paladine Solaire Aeryn sera sûrement heureuse de l'apprendre !#WHITE#", "_t")
 -- texte non traduit
 --[==[
 t("", "", "_t")
@@ -18681,7 +18681,7 @@ section "mod-tome/data/quests/pre-charred-scar.lua"
 t("Important news", "Informations Importantes", "_t")
 t("Orcs were spotted with the staff you seek in an arid waste in the southern desert.", "Des Orcs ont été repérés avec le bâton que vous cherchez dans un désert aride au sud du pays.", "_t")
 t("You should go investigate what is happening there.", "Vous devriez aller enquêter sur ce qui se passe là-bas.", "_t")
-t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "_t")
+t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "_t")
 t("Aeryn explained where the orcs were spotted.", "Aeryn a expliqué où les orcs ont été repérés.", "logPlayer")
 
 ------------------------------------------------
@@ -18937,7 +18937,7 @@ t("You arrived through the farportal in a cave, probably in the Far East.", "Tu 
 t("Upon arrival you met an Elf and an orc fighting.", "En arrivant, vous avez rencontré un Elfe et un orc en train de se battre.", "_t")
 t("You decided to side with the Elven lady.", "Vous avez décidé de vous ranger du côté de la dame Elfique.", "_t")
 t("You decided to side with the orc.", "Vous avez décidé de vous ranger du côté de l'orc.", "_t")
-t("Fillarel told you to go to the southeast and meet with High Sun Paladin Aeryn.", "Fillarel t'a dit d'aller au sud-est et de rencontrer la Paladin Solair Aeryn.", "_t")
+t("Fillarel told you to go to the southeast and meet with High Sun Paladin Aeryn.", "Fillarel t'a dit d'aller au sud-est et de rencontrer la Haute Paladine Solair Aeryn.", "_t")
 t("Krogar told you to go to the west and look for the Kruk Pride.", "Krogar t'a dit d'aller à l'ouest et de chercher La Fierté Kruk.", "_t")
 t("%s go to the west, and find Kruk Pride!", "%s aller à l'ouest, et trouver La Fierté Kruk!", "tformat")
 t("%s go to the southeast, and tell Aeryn what happened to me!", "%s aller au sud-est, et dire à Aeryn ce qui m'est arrivé!", "tformat")
@@ -31370,7 +31370,7 @@ Nagas have been sighted in the Slazish Fens on the other side of the Sunwall Mou
 
 By the power of the Sun and the blessings of the Moons you step forth to find your fate.
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
-Vous êtes un citoyen du Mur Solaire, et comme beaucoup de gens de votre âge, vous avez été formé au combat et à la magie. La vie peut être rude, et bien que vous rêviez parfois de vous aventurer dans des contrées lointaines, vous savez que votre devoir est d'aider à défendre l'avant-poste contre les vicieux assauts des Fiertés Orcs. Mais aujourd'hui, la Paladine Solaire Aeryn vous informe d'une nouvelle menace.
+Vous êtes un citoyen du Mur Solaire, et comme beaucoup de gens de votre âge, vous avez été formé au combat et à la magie. La vie peut être rude, et bien que vous rêviez parfois de vous aventurer dans des contrées lointaines, vous savez que votre devoir est d'aider à défendre l'avant-poste contre les vicieux assauts des Fiertés Orcs. Mais aujourd'hui, la Haute Paladine Solaire Aeryn vous informe d'une nouvelle menace.
 
 Des Nagas ont été aperçus dans les marais de Slazish, de l'autre côté des montagnes du Mur Solaire. Leur objectif n'est pas clair, mais un assaut des deux côtés serait vraiment dévastateur à un moment aussi crucial pour votre peuple. Bien qu'il y ait peu de forces disponibles sur la ligne de front contre les Fiertés, vous vous êtes portés volontaires pour enquêter sur la menace naga et les arrêter si nécessaire.
 
@@ -37881,33 +37881,33 @@ t("Heart of the Gloom", "Coeur de la Mélancolie", "_t")
 section "mod-tome/data/zones/high-peak/grids.lua"
 
 t("Farportal: the Far East", "Portail Lointain: l'Extrême-Orient", "entity name")
+t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
+This one seems to go to the Far East.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
+Celui-ci semble mener en Extrême-Orient.]], "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the Far East, with no trace of the portal...", "#VIOLET#Vous franchissez le portail tourbillonnant et, en un clin d'oeil, vous vous retrouvez en Extrême-Orient, sans aucune trace du portail…", "_t")
+t("Farportal: Iron Throne", "Portail lointain : Trône de Fer", "entity name")
+t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
+This one seems to go to the Iron Throne in the West.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
+Celui-ci semble mener au Trône de Fer dans l'Ouest.]], "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the slopes of the Iron Throne, with no trace of the portal...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous posez le pied sur les pentes du Trône de Fer, sans aucune trace du portail...", "_t")
+t("Farportal: the Void", "Portail lointain : le Vide", "entity name")
+t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
+This one seems to go to an unknown place, seemingly out of this world. You dare not use it.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
+Celui-ci semble mener vers un lieu inconnu, apparemment hors de ce monde. Vous n'osez pas l'utiliser.]], "_t")
+t("#LIGHT_BLUE#You use the orb on the portal, shutting it down easily.", "#LIGHT_BLUE#Vous utilisez l'orbe sur le portail, ce qui le ferme facilement.", "logPlayer")
+t("%s (disabled)", "%s (désactivé)", "tformat")
+t("Invocation Portal: Undeath", "Portail d'invocation : Non-mort", "entity name")
+t("An invocation portal, perpetually summoning beings through it.", "Un portail d'invocation, convoquant perpétuellement des êtres à travers lui.", "_t")
+t("Invocation Portal: Elements", "Portail d'invocation : Éléments", "entity name")
+t("Invocation Portal: Dragons", "Portail d'invocation : Dragons", "entity name")
+t("Invocation Portal: Destruction", "Portail d'invocation : Destruction", "entity name")
+t("Portal: The Sanctum", "Portail : Le Sanctuaire", "entity name")
+t("This portal seems to connect to another part of this level.", "Ce portail semble mener à une autre partie de ce niveau.", "_t")
+t("#GOLD#This portal looks like it reacts only to the Orb of Many Ways.", "#GOLD#Ce portail semble ne réagir qu'à l'Orbe des Multiples Voies.", "say")
+t("#VIOLET#You enter the swirling portal and appear in a large room with other portals and the two wizards.", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et vous vous retrouvez dans une grande salle contenant d'autres portails et les deux sorciers.", "_t")
 t("next level", "niveau suivant", "entity name")
 -- texte non traduit
 --[==[
-t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to the Far East.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to the Far East.]], "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the Far East, with no trace of the portal...", "#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the Far East, with no trace of the portal...", "_t")
-t("Farportal: Iron Throne", "Farportal: Iron Throne", "entity name")
-t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to the Iron Throne in the West.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to the Iron Throne in the West.]], "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the slopes of the Iron Throne, with no trace of the portal...", "#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the slopes of the Iron Throne, with no trace of the portal...", "_t")
-t("Farportal: the Void", "Farportal: the Void", "entity name")
-t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to an unknown place, seemingly out of this world. You dare not use it.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to an unknown place, seemingly out of this world. You dare not use it.]], "_t")
-t("#LIGHT_BLUE#You use the orb on the portal, shutting it down easily.", "#LIGHT_BLUE#You use the orb on the portal, shutting it down easily.", "logPlayer")
-t("%s (disabled)", "%s (disabled)", "tformat")
-t("Invocation Portal: Undeath", "Invocation Portal: Undeath", "entity name")
-t("An invocation portal, perpetually summoning beings through it.", "An invocation portal, perpetually summoning beings through it.", "_t")
-t("Invocation Portal: Elements", "Invocation Portal: Elements", "entity name")
-t("Invocation Portal: Dragons", "Invocation Portal: Dragons", "entity name")
-t("Invocation Portal: Destruction", "Invocation Portal: Destruction", "entity name")
-t("Portal: The Sanctum", "Portal: The Sanctum", "entity name")
-t("This portal seems to connect to another part of this level.", "This portal seems to connect to another part of this level.", "_t")
-t("#GOLD#This portal looks like it reacts only to the Orb of Many Ways.", "#GOLD#This portal looks like it reacts only to the Orb of Many Ways.", "say")
-t("#VIOLET#You enter the swirling portal and appear in a large room with other portals and the two wizards.", "#VIOLET#You enter the swirling portal and appear in a large room with other portals and the two wizards.", "_t")
 t("Elandar", "Elandar", "_t")
 --]==]
 
@@ -37918,72 +37918,62 @@ section "mod-tome/data/zones/high-peak/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("Renegade mages from Angolwen, the Sorcerers have set up in the Far East, slowly growing corrupt. Now they must be stopped.", "Mages renégats originaires d'Angolwen, les Sorciers se sont installés en Extrême-Orient, où ils sombrent peu à peu dans la corruption. Il faut désormais les arrêter.", "_t")
 t("human", "humain", "entity subtype")
-t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
+t("Fallen Sun Paladin Aeryn", "Aeryn, Paladin Solaire Déchu", "entity name")
+t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
+t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "entity name")
+t("A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "Une créature se dresse devant vous, dotée de longs appendices tentaculaires et d'une petite protubérance à la place de la tête. Une aura de puissance intense émane de cet être, une puissance que vous n'avez jamais ressentie auparavant. Il ne peut s'agir que d'un Sher'Tul. Un Sher'Tul vivant!", "_t")
 -- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
 t("Elandar", "Elandar", "entity name")
 t("Argoniel", "Argoniel", "entity name")
-t("Fallen Sun Paladin Aeryn", "Fallen Sun Paladin Aeryn", "entity name")
-t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "A beautiful woman, clad in shining plate armour. Power radiates from her.", "_t")
 t("Caldizar", "Caldizar", "entity name")
-t("A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/high-peak/objects.lua"
 
-t("gem", "gemme", "entity type")
-t("white", "blanc", "entity subtype")
--- texte non traduit
---[==[
-t("bloodsoaked diamond", "bloodsoaked diamond", "entity name")
-t("A strangely wet diamond.", "A strangely wet diamond.", "_t")
-t("bloodsoaked athame", "bloodsoaked athame", "entity name")
-t("A strangely wet athame.", "A strangely wet athame.", "_t")
-t("journal", "journal", "entity name")
-t("A magically-preserved journal.", "A magically-preserved journal.", "_t")
-t("Awakened Staff of Absorption", "Awakened Staff of Absorption", "entity name")
-t("ominous, dark runed staff", "ominous, dark runed staff", "_t")
+t("bloodsoaked diamond", "diamant ensanglanté", "entity name")
+t("A strangely wet diamond.", "Un diamant étrangement humide.", "_t")
+t("bloodsoaked athame", "athamé ensanglanté", "entity name")
+t("A strangely wet athame.", "Un athamé étrangement humide.", "_t")
+t("A magically-preserved journal.", "Un journal préservé magiquement.", "_t")
+t("Awakened Staff of Absorption", "Bâton d'Absorption Éveillé", "entity name")
+t("ominous, dark runed staff", "bâton runique sombre et inquiétant", "_t")
 t([[Carved with runes of power, this staff seems to have been made long ago, yet it bears no signs of tarnish.
 Light around it seems to dim and you can feel its tremendous power simply by touching it.
 The Sorcerers seem to have awakened its power.
-#{italic}#"And lo they came to Amakthel himself, and thousands were killed in the assault on his throne, and three of the Godslayers were broken beneath his feet. But Falion with his dying breath pierced the great god on his knee with the icy sword Arkil, and seeing his opportunity Caldizar, leader of the Godslayers, advanced with the Staff of Absorption and struck a terrifying blow against Amakthel. So fell the greatest of the gods by the hands of his own children, and his face was forced into the dust."#{normal}#]], [[Carved with runes of power, this staff seems to have been made long ago, yet it bears no signs of tarnish.
-Light around it seems to dim and you can feel its tremendous power simply by touching it.
-The Sorcerers seem to have awakened its power.
-#{italic}#"And lo they came to Amakthel himself, and thousands were killed in the assault on his throne, and three of the Godslayers were broken beneath his feet. But Falion with his dying breath pierced the great god on his knee with the icy sword Arkil, and seeing his opportunity Caldizar, leader of the Godslayers, advanced with the Staff of Absorption and struck a terrifying blow against Amakthel. So fell the greatest of the gods by the hands of his own children, and his face was forced into the dust."#{normal}#]], "_t")
-t("absorb the essence (ignoring resistance and bypassing most defenses) of a target in range %d, draining 30%% of its life and increasing your own damage by 30%% for %d turns", "absorb the essence (ignoring resistance and bypassing most defenses) of a target in range %d, draining 30%% of its life and increasing your own damage by 30%% for %d turns", "tformat")
-t("was absorbed by the %s held by %s", "was absorbed by the %s held by %s", "tformat")
-t("#Source# brandishes %s %s, absorbing the essence of #target#!", "#Source# brandishes %s %s, absorbing the essence of #target#!", "logCombat")
-t("#ORCHID# %d essence drain#LAST#", "#ORCHID# %d essence drain#LAST#", "tformat")
-t("Pearl of Life and Death", "Pearl of Life and Death", "entity name")
-t("shining pearl", "shining pearl", "_t")
-t("A pearl, three times the size of a normal pearl, that glitters in infinite colours, with slight patterns ever shifting away.", "A pearl, three times the size of a normal pearl, that glitters in infinite colours, with slight patterns ever shifting away.", "_t")
+#{italic}#"And lo they came to Amakthel himself, and thousands were killed in the assault on his throne, and three of the Godslayers were broken beneath his feet. But Falion with his dying breath pierced the great god on his knee with the icy sword Arkil, and seeing his opportunity Caldizar, leader of the Godslayers, advanced with the Staff of Absorption and struck a terrifying blow against Amakthel. So fell the greatest of the gods by the hands of his own children, and his face was forced into the dust."#{normal}#]], [[Gravé de runes de pouvoir, ce bâton semble avoir été crée il y a fort longtemps, et pourtant il n'a aucune trace de viellisement.
+La lumière qui l'entoure s'atténue et l'on ressent son immense puissance rien qu'en le touchant.
+Les Sorciers semblent avoir éveillé son pouvoir.
+#{italic}#"Et voici qu'ils arrivèrent jusqu'à Amakthel en personne, et des milliers périrent lors de l'assaut contre son trône, et trois des Tueurs de Dieux furent brisés sous ses pieds. Mais Falion, dans un dernier souffle, transperça le genou du grand dieu avec l'épée glacée Arkil, et voyant là une opportunité, Caldizar, chef des Tueurs de Dieux, s'avança avec le Bâton d'Absorption et porta un coup terrifiant à Amakthel. Ainsi tomba le plus grand des dieux de la main de ses propres enfants, et son visage fut réduit en poussière."#{normal}#]], "_t")
+t("absorb the essence (ignoring resistance and bypassing most defenses) of a target in range %d, draining 30%% of its life and increasing your own damage by 30%% for %d turns", "Absorbez l'essence (ignorant la résistance et contournant la plupart des défenses) d'une cible à une portée de %d, drainant 30%% de sa vie et augmentant vos propres dégâts de 30%% pendant %d tours.", "tformat")
+t("was absorbed by the %s held by %s", "a été absorbé par %s détenus par %s", "tformat")
+t("#Source# brandishes %s %s, absorbing the essence of #target#!", "#Source# brandit %s %s, absorbant l'essence de #target#!", "logCombat")
+t("#ORCHID# %d essence drain#LAST#", "#ORCHID# %d essence drainé#LAST#", "tformat")
+t("gem", "gemme", "entity type")
+t("white", "blanc", "entity subtype")
+t("Pearl of Life and Death", "Perle de Vie et de Mort", "entity name")
+t("shining pearl", "perle brillante", "_t")
+t("A pearl, three times the size of a normal pearl, that glitters in infinite colours, with slight patterns ever shifting away.", "Une perle, trois fois plus grosse qu'une perle normale, qui scintille de mille couleurs, avec de légers motifs en perpétuel mouvement.", "_t")
+-- texte non traduit
+--[==[
+t("journal", "journal", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/high-peak/zone.lua"
 
-
--- texte non traduit
---[==[
-t("High Peak", "High Peak", "_t")
-t("High Peak: The Sanctum", "High Peak: The Sanctum", "_t")
-t("High Peak (%d)", "High Peak (%d)", "tformat")
---]==]
-
+t("High Peak", "Pic Supérieur", "_t")
+t("High Peak: The Sanctum", "Pic Supérieur : Le Sanctuaire", "_t")
+t("High Peak (%d)", "Pic Supérieur (%d)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/zones/illusory-castle/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Illusory Castle", "Illusory Castle", "_t")
---]==]
-
+t("Illusory Castle", "Château Illusoire", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/infinite-dungeon/grids.lua"
@@ -39303,11 +39293,10 @@ t("The farportal seems to be inactive", "The farportal seems to be inactive", "_
 ------------------------------------------------
 section "mod-tome/data/zones/shertul-fortress-caldizar/npcs.lua"
 
-
+t("A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "Une créature se dresse devant vous, dotée de longs appendices tentaculaires et d'une petite protubérance à la place de la tête. Une aura de puissance intense émane de cet être, une puissance que vous n'avez jamais ressentie auparavant. Il ne peut s'agir que d'un Sher'Tul. Un Sher'Tul vivant!", "_t")
 -- texte non traduit
 --[==[
 t("Caldizar", "Caldizar", "entity name")
-t("A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "_t")
 --]==]
 
 
@@ -39388,6 +39377,7 @@ t("Slazish Fens", "Slazish Fens", "_t")
 section "mod-tome/data/zones/slime-tunnels/grids.lua"
 
 t("sealed door", "porte scellée", "entity name")
+t("High Peak", "Pic Supérieur", "_t")
 -- texte non traduit
 --[==[
 t("Strange Pedestal", "Strange Pedestal", "_t")
@@ -39405,7 +39395,6 @@ t("orb pedestal (destruction)", "orb pedestal (destruction)", "entity name")
 t("#rng# the Crusher", "#rng# the Crusher", "_t")
 t("exit to Grushnak Pride", "exit to Grushnak Pride", "entity name")
 t("Entrance to the High Peak", "Entrance to the High Peak", "entity name")
-t("High Peak", "High Peak", "_t")
 t("The way forward is blocked. There must be some way around here to unlock those doors.", "The way forward is blocked. There must be some way around here to unlock those doors.", "_t")
 t([[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
 Enter?]], [[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
@@ -39427,6 +39416,7 @@ t("Slime Tunnels", "Slime Tunnels", "_t")
 section "mod-tome/data/zones/sludgenest/grids.lua"
 
 t("sealed door", "porte scellée", "entity name")
+t("High Peak", "Pic Supérieur", "_t")
 -- texte non traduit
 --[==[
 t("Strange Pedestal", "Strange Pedestal", "_t")
@@ -39443,7 +39433,6 @@ t("#rng# the Silent Death", "#rng# the Silent Death", "_t")
 t("orb pedestal (destruction)", "orb pedestal (destruction)", "entity name")
 t("#rng# the Crusher", "#rng# the Crusher", "_t")
 t("Entrance to the High Peak", "Entrance to the High Peak", "entity name")
-t("High Peak", "High Peak", "_t")
 t([[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
 Enter?]], [[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
 Enter?]], "_t")
@@ -40061,10 +40050,10 @@ section "mod-tome/data/zones/town-gates-of-morning/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
-t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
+t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "entity name")
+t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
 -- texte non traduit
 --[==[
-t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "A beautiful woman, clad in shining plate armour. Power radiates from her.", "_t")
 t("You find a note containing the location of the Orc Prides on Aeryn's body.", "You find a note containing the location of the Orc Prides on Aeryn's body.", "logPlayer")
 --]==]
 
@@ -40897,11 +40886,7 @@ t("moonstone", "pierre de lune", "entity name")
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("Fearscape Portal", "Portail du Plan de la Peur", "entity name")
--- texte non traduit
---[==[
-t("An invocation portal, perpetually summoning beings through it.", "An invocation portal, perpetually summoning beings through it.", "_t")
---]==]
-
+t("An invocation portal, perpetually summoning beings through it.", "Un portail d'invocation, convoquant perpétuellement des êtres à travers lui.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/valley-moon/npcs.lua"
