@@ -296,9 +296,9 @@ t("Fast Curse Dispel", "Dissipation rapide de la malédiction", "achievement nam
 t("Killed Ben Cruthdar the Cursed while saving all the lumberjacks.", "Tuer Ben Cruthdar le Maudit en sauvant tous les bûcherons.", "_t")
 t("Eye of the storm", "L'oeil du cyclone", "achievement name")
 t("Freed Derth from the onslaught of the mad Tempest, Urkis.", "Libérer Derth de l'assaut du tempêtier fou, Urkis.", "_t")
-t("Antimagic!", "Antimagie!", "achievement name")
-t("Completed antimagic training in the Ziguranth camp.", "Terminer l'entraînement antimagique dans le camp de Ziguranth.", "_t")
-t("Anti-Antimagic!", "Anti-Antimagie!", "achievement name")
+t("Antimagic!", "anti-magie!", "achievement name")
+t("Completed antimagic training in the Ziguranth camp.", "Terminer l'entraînement anti-magique dans le camp de Ziguranth.", "_t")
+t("Anti-Antimagic!", "Anti-anti-magie!", "achievement name")
 t("Destroyed the Ziguranth camp with your Rhaloren allies.", "Détruire le camp de Ziguranth avec vos alliés de Rhaloren.", "_t")
 t("There and back again", "Aller-retour", "achievement name")
 t("Opened a portal to Maj'Eyal from the Far East.", "Ouvrir un portail vers Maj'Eyal depuis l'Extrême Orient.", "_t")
@@ -4437,7 +4437,7 @@ t("%s forces the iceblock to shatter.", "%s force le block de glace a se briser.
 t("%s(%d to psi shield)#LAST#", "%s(%d bouclier psi)#LAST#", "tformat")
 t("%s(%d blocked)#LAST#", "%s(%d bloqué)#LAST#", "tformat")
 t("%s(%d abyssal shield)#LAST#", "%s(%d bouclier abyssal)#LAST#", "tformat")
-t("%s(%d antimagic)#LAST#", "%s(%d antimagique)#LAST#", "tformat")
+t("%s(%d antimagic)#LAST#", "%s(%d anti-magique)#LAST#", "tformat")
 t("%s(%d flat reduction)#LAST#", "%s(%d réduction fixe)#LAST#", "tformat")
 t("You end your target with a crushing blow!", "Vous achevez votre cible avec un coup dévastateur!", "logPlayer")
 t("#LIGHT_GREY#(%d resilience)#LAST#", "#LIGHT_GREY#(%d résistance)#LAST#", "tformat")
@@ -10350,7 +10350,7 @@ t("A thick staff with a heavy knob on the end.  It was said to be used by the gr
 t("a softly glowing crystal", "un cristal à la lueur douce", "_t")
 t([[Said to have once belonged to Inquisitor Marcus Dunn during the Spellhunt this fist sized quartz crystal glows constantly with a soft white light and was rumoured to be a great aid in meditation, helping focus the mind, body, and soul of the owner as well as protecting them from the foulest of magics.
 It seems somebody well versed in antimagic could use it to its fullest potential.]], [[Ce cristal de quartz de la taille d'un poing, qui aurait appartenu à l'inquisiteur Marcus Dunn pendant la Chasse Anti-Magique, brille constamment d'une douce lumière blanche. On dit qu'il est d'une grande aide pour la méditation, qu'il aide à concentrer l'esprit, le corps et l'âme de son propriétaire et qu'il le protège des magies les plus infâmes.
-Il semble que quelqu'un de bien versé dans l'antimagie pourrait l'utiliser à son plein potentiel.]], "_t")
+Il semble que quelqu'un de bien versé dans l'anti-magie pourrait l'utiliser à son plein potentiel.]], "_t")
 t("#LIGHT_BLUE#You feel a great hero guiding you!", "#LIGHT_BLUE#Vous sentez qu'un grand héros vous guide!", "logPlayer")
 t("Eldoral Last Resort", "Dernier Recours d'Eldoral", "entity name")
 t("well-made sling", "fronde de bonne facture", "_t")
@@ -10421,7 +10421,7 @@ t("Witch-Bane", "Fléau des Sorcières", "entity name")
 t("an ivory handled voratun longsword", "une épée longue en voratun à manche d'ivoire", "_t")
 t([[A thin voratun blade with an ivory handle wrapped in purple cloth.  The weapon is nearly as legendary as its former owner, Marcus Dunn, and was thought to have been destroyed after Marcus was slain near the end of the Spellhunt.
 It seems somebody well versed in antimagic could use it to its fullest potential.]], [[Une fine lame de voratun avec une poignée en ivoire enveloppée de tissu violet. L'arme est presque aussi légendaire que son ancien propriétaire, Marcus Dunn, et on pensait qu'elle avait été détruite après que Marcus ait été tué vers la fin de la Chasse anti-magique.
-Il semble que quelqu'un de bien versé dans l'antimagie pourrait l'utiliser à son plein potentiel.]], "_t")
+Il semble que quelqu'un de bien versé dans l'anti-magie pourrait l'utiliser à son plein potentiel.]], "_t")
 t("#LIGHT_BLUE#You feel a great hero watching over you!", "#LIGHT_BLUE#Vous sentez qu'un grand héros veille sur vous!", "logPlayer")
 t("Staff of Arcane Supremacy", "Bâton de Suprématie Arcanique", "entity name")
 t("silver-runed staff", "bâton runique argenté", "_t")
@@ -10769,7 +10769,7 @@ t("It desires to be surrounded by undeath.", "Il désire être entouré par la m
 t("Oozing Heart", "Coeur gluant", "entity name")
 t("slimy mindstar", "étoile d'âme suintante", "_t")
 t("This mindstar oozes a thick, caustic liquid. Magic seems to die around it.", "Cette étoile d'âme suinte un liquide épais et caustique. La magie semble mourir autour d'elle.", "_t")
-t("#DARK_GREEN#The Heart pulses with antimagic forces as you grasp it.", "#DARK_GREEN#Le coeur pulse de forces antimagiques lorsque vous le saisissez.", "logPlayer")
+t("#DARK_GREEN#The Heart pulses with antimagic forces as you grasp it.", "#DARK_GREEN#Le coeur pulse de forces anti-magiques lorsque vous le saisissez.", "logPlayer")
 t("Bloomsoul", "Ame en Fleur", "entity name")
 t("flower covered mindstar", "étoile d'âme couverte de fleures", "_t")
 t("Pristine flowers coat the surface of this mindstar. Touching it fills you with a sense of calm and refreshes your body.", "Des fleurs immaculées recouvrent la surface de cette étoile d'âme. La toucher vous remplit d'un sentiment de calme et rafraîchit votre corps.", "_t")
@@ -10870,7 +10870,7 @@ t("These voratun gauntlets shine brightly beneath a thin layer of wear. Original
 t("gleaming voratun gauntlets", "gantelets en voratun brillants", "_t")
 t("These brilliant voratun gauntlets shine with an almost otherworldly glow. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence. Pride in the fulfillment of this ancient duty practically radiates from them.", "Ces brillants gantelets en voratun brillent d'un éclat presque surnaturel. Utilisés à l'origine durant la chasse aux sorts, ils étaient souvent utilisés pour détruire les artefacts arcaniques et débarrasser le monde de leur influence. La fierté d'avoir accompli ce devoir ancien rayonne pratiquement d'eux.", "_t")
 t("attempt to destroy all magic effects and sustains on creatures in a radius %d cone (unnatural creatures are additionally dealt %0.2f arcane damage and stunned)", "Tente de détruire tous les effets magiques et les soutiens des créatures dans un cône de %d de rayon (les créatures non naturelles subissent en plus %0.2f dégâts arcanique et sont assomé).", "tformat")
-t("%s unleashes antimagic forces from %s %s!", "%s libère les forces antimagiques de %s %s!", "logSeen")
+t("%s unleashes antimagic forces from %s %s!", "%s libère les forces anti-magiques de %s %s!", "logSeen")
 t("%s's animating magic is disrupted by the burst of power!", "la magie animée est perturbée par l'explosion de puissance de %s!", "logSeen")
 t("destroy an arcane item (of a higher tier than the gauntlets)", "détruire un objet arcanique (d'un niveau supérieur à celui des gantelets)", "_t")
 t("#LIGHT_RED#You can not do that with a tinker attached. Remove it first.", "#LIGHT_RED#Vous ne pouvez pas faire ça avec une babiole attaché. Enlevez-la d'abord.", "log")
@@ -10932,7 +10932,7 @@ t("charm", "breloque", "entity type")
 t("The Guardian's Totem", "Le Totem du Gardien", "entity name")
 t("a cracked stone totem", "un totem en pierre fissurée", "_t")
 t("This totem of ancient stone oozes a thick slime from myriad cracks. Nonetheless, you sense great power within it.", "Ce totem de pierre ancienne suinte une épaisse bave par des myriades de fissures. Néanmoins, vous sentez une grande puissance en lui.", "_t")
-t("call forth an immobile antimagic pillar for 10 turns.  (It spits slime, pulls in, stuns, and burns the arcane resources of your foes, while emitting an aura of silence against them within range 5, and will silence you for 5 turns when first summoned.)", "invoque un pilier antimagique immobile pour 10 tours.  (Il crache de la bave, attire, étourdit et brûle les ressources arcaniques de vos ennemis, tout en émettant une aura de silence contre eux dans un rayon de 5, et vous rendra silencieux pendant 5 tours lors de la première invocation).", "_t")
+t("call forth an immobile antimagic pillar for 10 turns.  (It spits slime, pulls in, stuns, and burns the arcane resources of your foes, while emitting an aura of silence against them within range 5, and will silence you for 5 turns when first summoned.)", "invoque un pilier anti-magique immobile pour 10 tours.  (Il crache de la bave, attire, étourdit et brûle les ressources arcaniques de vos ennemis, tout en émettant une aura de silence contre eux dans un rayon de 5, et vous rendra silencieux pendant 5 tours lors de la première invocation).", "_t")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
 t("Stone Guardian", "Gardien de Pierre", "_t")
 t("This massive stone pillar drips with a viscous slime. Nature's power flows through it, obliterating magic all around it...", "Cet énorme pilier de pierre dégouline d'une bave visqueuse. Le pouvoir de la nature coule à travers lui, oblitérant la magie tout autour de lui...", "_t")
@@ -30350,6 +30350,7 @@ t([[Thanks to your newfound knowledge of corruption, you've learned some tricks 
 section "mod-tome/data/talents/uber/cun.lua"
 
 t("Fast As Lightning", "Rapide Comme l'Éclair", "talent name")
+t("Antimagic", "Anti-magie", "_t")
 -- texte non traduit
 --[==[
 t("#LIGHT_BLUE#%s slows from critical velocity!", "#LIGHT_BLUE#%s slows from critical velocity!", "logSeen")
@@ -30360,7 +30361,6 @@ t([[When moving over 800%% speed for at least 3 steps in the same direction, you
 		While moving this fast you have 50%% chances to fully ignore an attack by displacing yourself (this may only happen once per turn).
 		Changing direction will break the effect.]], "tformat")
 t("Tricky Defenses", "Tricky Defenses", "talent name")
-t("Antimagic", "Antimagic", "_t")
 t([[You are full of tricks and surprises; your Antimagic Shield can absorb %d%% more damage.
 		The increase scales with your Cunning.]], [[You are full of tricks and surprises; your Antimagic Shield can absorb %d%% more damage.
 		The increase scales with your Cunning.]], "tformat")
@@ -30834,6 +30834,7 @@ t("Draconic Will", "Volonté Draconique", "talent name")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 t("Hidden Resources", "Ressources Cachées", "talent name")
 t("Spell Feedback", "Sort Rétroactif", "talent name")
+t("Antimagic", "Anti-magie", "_t")
 -- texte non traduit
 --[==[
 t("Be close to the draconic world", "Be close to the draconic world", "_t")
@@ -30870,7 +30871,6 @@ t("#LIGHT_BLUE#%s's unbreakable will shrugs off the effect!", "#LIGHT_BLUE#%s's 
 t([[Your will is so strong that you simply ignore mental effects used against you.
 		This effect can only occur once every 5 turns.]], [[Your will is so strong that you simply ignore mental effects used against you.
 		This effect can only occur once every 5 turns.]], "tformat")
-t("Antimagic", "Antimagic", "_t")
 t("#LIGHT_BLUE##Source# punishes #Target# for casting a spell!", "#LIGHT_BLUE##Source# punishes #Target# for casting a spell!", "logCombat")
 t([[Your will is a shield against assaults from crazed arcane users.
 		Each time that you take damage from a spell, you punish the spellcaster with %0.2f mind damage.
@@ -33834,7 +33834,7 @@ Vous avez rencontré et détruit un corrompu et pouvez maintenant créer de nouv
 Les Slimanciens sont des Naturalites, qui se sentent chez eux dans les régions sauvages et tirent leur pouvoir de leur lien avec la nature.
 Caractéristiques de la classe:#YELLOW#
 - Attaques offensives à longue portée de type nature et acide
-- Intrinsèquement antimagique
+- Intrinsèquement anti-magique
 - Invoquez diverses sortes de gluants à vos côtés pour un court moment
 - Utilisez les gluants, les vaseux, les mucus et les mousses contre les ennemis de la nature.#WHITE#
 
@@ -33981,7 +33981,7 @@ t("Glimmerstone", "Pierre de Verre", "floorEffect desc")
 t("The target is affected by a glimmerstone, its next attack will try to daze.", "La cible est affectée par une pierre de verre, sa prochaine attaque cherchera à étourdir.", "_t")
 t("Protective Aura", "Aura Protectrice", "floorEffect desc")
 t("The target is near a protective aura, granting +%d armour and +%d physical save.", "La cible se trouve à proximité d'une aura protectrice, lui conférant +%d d'armure et +%d de sauvegarde physique.", "tformat")
-t("Antimagic Bush", "Buisson Anti-magie", "floorEffect desc")
+t("Antimagic Bush", "Buisson anti-magie", "floorEffect desc")
 t("The target is near an antimagic bush, granting +20%% nature damage, +20%% nature resistance penetration and -%d spellpower.", "La cible se trouve près d'un buisson anti-magie, ce qui lui confère +20%% de dégâts de nature, +20%% de pénétration de la résistance à la nature et -%d de puissance des sorts.", "tformat")
 t("Necrotic Air", "Air Nécrotique", "floorEffect desc")
 t("The target is in a zone of necrotic air, granting -40% healing mod. Undead creatures also get +15% to all resistances.", "La cible se trouve dans une zone d'air nécrotique, accordant -40% de modificateur à la guérison. Les créatures mortes-vivantes bénéficient également de +15% à toutes les résistances.", "_t")
@@ -35392,9 +35392,9 @@ t("-Hidden Ressources", "-Ressources Cachées", "_t")
 t("nature", "dégâts de nature", "effect subtype")
 t("Spell Feedback", "Sort Rétroactif", "_t")
 t("The target suffers %d%% spell failue.", "La cible est victime de %d%% d'échec des sorts.", "tformat")
-t("#Target# is surrounded by antimagic forces.", "#Target# est entouré de forces antimagique.", "_t")
+t("#Target# is surrounded by antimagic forces.", "#Target# est entouré de forces anti-magique.", "_t")
 t("+Spell Feedback", "+Sort Rétroactif", "_t")
-t("#Target#'s antimagic forces vanishes.", "Les forces antimagiques de #Target# disparaissent.", "_t")
+t("#Target#'s antimagic forces vanishes.", "Les forces anti-magiques de #Target# disparaissent.", "_t")
 t("-Spell Feedback", "-Sort Rétroactif", "_t")
 t("mind", "esprit", "effect subtype")
 t("Mind Parasite", "Parasite Mental", "_t")
@@ -35799,8 +35799,8 @@ t("#Target# can breathe again.", "#Target# peut à nouveau respirer.", "_t")
 t("-Suffocating", "-SUFFOCATION", "_t")
 t("suffocated to death", "mort par suffocation", "_t")
 t("antimagic", "anti-magie", "effect subtype")
-t("Antimagic Disruption", "Disruption Antimagique", "_t")
-t("Your arcane powers are disrupted by your antimagic equipment.  Arcane talents fail %d%% of the time and arcane sustains have a %0.1f%% chance to deactivate each turn.", "Vos pouvoirs arcaniques sont perturbés par votre équipement antimagie. Vos talents arcaniques échouent %d%% du temps et vos effets arcaniques soutenus ont %0.1f%% chances de se désactiver par tour.", "tformat")
+t("Antimagic Disruption", "Disruption Anti-magique", "_t")
+t("Your arcane powers are disrupted by your antimagic equipment.  Arcane talents fail %d%% of the time and arcane sustains have a %0.1f%% chance to deactivate each turn.", "Vos pouvoirs arcaniques sont perturbés par votre équipement anti-magie. Vos talents arcaniques échouent %d%% du temps et vos effets arcaniques soutenus ont %0.1f%% chances de se désactiver par tour.", "tformat")
 t("prodigy", "prodige", "effect subtype")
 t("Swift Hands", "Mains rapides", "_t")
 t("You swaped an item without taking time this turn.", "Tu as permuté un objet sans utiliser de temps lors de ce tour.", "_t")
@@ -36718,7 +36718,7 @@ t("Feint", "Feinte", "_t")
 t("The target gains 1 extra parry opportunity each turn, and its chance to fail each parry is reduced by %d%%.", "La cible gagne une opportunité de parade supplémentaire par tour, et ses chances d'échouer chaque parade sont réduites de %d%%.", "tformat")
 t("Mana Clash", "Choc de Mana", "_t")
 t("All damage you do also trigget a manaburn for %d%% of the damage done.", "Tous les dégâts que vous infligez déclenchent également une brûleur de mana équivalente à %d%% des dégâts infligés.", "tformat")
-t("#Target# exudes antimagic forces.", "#Target# dégage des forces antimagiques.", "_t")
+t("#Target# exudes antimagic forces.", "#Target# dégage des forces anti-magiques.", "_t")
 t("#Target# is no longer toxic to arcane users.", "#Target# n'est plus toxique pour les utilisateurs de magie arcanique.", "_t")
 t("Bullseye", "Dans le Mille", "_t")
 t("Increases attack speed by %d%%.", "Augmente la vitesse d'attaque de %d%%.", "tformat")
@@ -37987,12 +37987,15 @@ t("sand", "sable", "entity subtype")
 t("autumn_grass", "herbe_d'automne", "entity subtype")
 t("lava", "lave", "entity subtype")
 t("burnt", "consumé", "entity subtype")
+t("burnt passage", "passage brûlé", "entity name")
 t("floor", "sol", "entity type")
 t("snowy_grass", "herbe_neigeuse", "entity subtype")
 t("snowy grass", "herbe enneigée", "entity name")
 t("winter tree", "arbre hivernal", "entity name")
 t("rock", "rocher", "entity subtype")
+t("snowy passage", "passage enneigé", "entity name")
 t("Temporal Rift", "Faille Temporelle", "entity name")
+t("The rift leads to another floor of the dungeon.", "La faille mène à un autre étage du donjon.", "_t")
 t("rift", "fissure", "entity subtype")
 t("crack in spacetime", "fissure dans l'espace temps", "entity name")
 t("underwater", "sous_l'eau", "entity subtype")
@@ -38003,80 +38006,72 @@ t("open door", "porte ouverte", "entity name")
 t("next level", "niveau suivant", "entity name")
 t("lava floor", "sol de lave", "entity name")
 t("lava wall", "mur de lave", "entity name")
--- texte non traduit
---[==[
-t("burnt passage", "burnt passage", "entity name")
-t("snowy passage", "snowy passage", "entity name")
-t("The rift leads to another floor of the dungeon.", "The rift leads to another floor of the dungeon.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/infinite-dungeon/objects.lua"
 
+t("The Hunter and the Hunted", "Le Chasseur et le Chassé", "entity name")
+t("The infinite hunt.", "La chasse infinie.", "_t")
+t("Potion of Martial Prowess", "Potion de Prouesse Martiale", "entity name")
+t("phial filled with metallic liquid", "fiole remplie d'un liquide métallique", "_t")
+t("This potent elixir can give insights into martial combat to those unlucky enough to ignore the basics.", "Ce puissant élixir peut donner une révélation sur les arts martiaux à ceux qui ont la malchance d'en ignorer les bases.", "_t")
 t("%s quaffs the %s!", "%s bois le %s!", "logSeen")
+t("#VIOLET#You seem to understand the basic martial pratices. (Combat Training talents unlocked)", "#VIOLET#Vous semblez maîtriser les techniques martiales de base. (Talents Formation au Combat débloqués)", "logPlayer")
+t("#VIOLET#You seem to now know how to properly use a bow or a sling.", "#VIOLET#Vous semblez maintenant savoir comment utiliser correctement un arc ou une fronde.", "logPlayer")
+t("#VIOLET#Images of yourself beating people with a stick spring into your mind. (Staff Combat category can be bought)", "#VIOLET#Vous vous imaginez en train de frapper des gens avec un bâton. (La catégorie Combat au Bâton est disponible à l'achat.)", "logPlayer")
+t("#VIOLET#You suddenly understand how to channel your mental force through mindstars. (Mindstar Mastery category can be bought)", "#VIOLET#Vous comprenez soudain comment canaliser votre force mentale grâce aux Étoiles d'Âme. (La catégorie Maîtrise des Étoiles d'Âme est disponible à l'achat.)", "logPlayer")
+t("#VIOLET#It seems you already knew all the elixir could teach you.", "#VIOLET#Il semblerait que vous connaissiez déjà tout ce que l'élixir pouvait vous apprendre.", "logPlayer")
+t("Antimagic Wyrm Bile Extract", "Extrait de Bile de Ver Anti-magique", "entity name")
+t("phial filled with slimy liquid", "fiole remplie de liquide visqueux", "_t")
+t("This potent elixir extracted from a powerful wyrm can grant the power to repel arcane forces.", "Ce puissant élixir, extrait d'un puissant ver, confère le pouvoir de repousser les forces arcaniques.", "_t")
+t("Antimagic", "Anti-magie", "_t")
+t("Quaffing this potion will grant you access to the antimagic talents but at the cost of all access to runes, arcane items and spells.", "Boire cette potion vous donnera accès aux talents anti-magiques, mais au prix de tout accès aux runes, aux objets arcaniques et aux sorts.", "_t")
 t("You cannot use your %s anymore; it is tainted by magic.", "Vous ne pouvez plus utiliser votre %s, la magie l'a contaminé.", "logPlayer")
 -- texte non traduit
 --[==[
-t("The Hunter and the Hunted", "The Hunter and the Hunted", "entity name")
-t("The infinite hunt.", "The infinite hunt.", "_t")
 t("potion", "potion", "entity type")
 t("potion", "potion", "entity subtype")
-t("Potion of Martial Prowess", "Potion of Martial Prowess", "entity name")
-t("phial filled with metallic liquid", "phial filled with metallic liquid", "_t")
-t("This potent elixir can give insights into martial combat to those unlucky enough to ignore the basics.", "This potent elixir can give insights into martial combat to those unlucky enough to ignore the basics.", "_t")
-t("#VIOLET#You seem to understand the basic martial pratices. (Combat Training talents unlocked)", "#VIOLET#You seem to understand the basic martial pratices. (Combat Training talents unlocked)", "logPlayer")
-t("#VIOLET#You seem to now know how to properly use a bow or a sling.", "#VIOLET#You seem to now know how to properly use a bow or a sling.", "logPlayer")
-t("#VIOLET#Images of yourself beating people with a stick spring into your mind. (Staff Combat category can be bought)", "#VIOLET#Images of yourself beating people with a stick spring into your mind. (Staff Combat category can be bought)", "logPlayer")
-t("#VIOLET#You suddenly understand how to channel your mental force through mindstars. (Mindstar Mastery category can be bought)", "#VIOLET#You suddenly understand how to channel your mental force through mindstars. (Mindstar Mastery category can be bought)", "logPlayer")
-t("#VIOLET#It seems you already knew all the elixir could teach you.", "#VIOLET#It seems you already knew all the elixir could teach you.", "logPlayer")
-t("Antimagic Wyrm Bile Extract", "Antimagic Wyrm Bile Extract", "entity name")
-t("phial filled with slimy liquid", "phial filled with slimy liquid", "_t")
-t("This potent elixir extracted from a powerful wyrm can grant the power to repel arcane forces.", "This potent elixir extracted from a powerful wyrm can grant the power to repel arcane forces.", "_t")
-t("Antimagic", "Antimagic", "_t")
-t("Quaffing this potion will grant you access to the antimagic talents but at the cost of all access to runes, arcane items and spells.", "Quaffing this potion will grant you access to the antimagic talents but at the cost of all access to runes, arcane items and spells.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/infinite-dungeon/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Infinite Dungeon", "Infinite Dungeon", "_t")
-t(", carefully excavated area", ", carefully excavated area", "_t")
-t(" wilderness", " wilderness", "_t")
-t(" cavern", " cavern", "_t")
-t(" network of corridors", " network of corridors", "_t")
-t(", settled area", ", settled area", "_t")
-t(", constructed area", ", constructed area", "_t")
-t(", subsided area", ", subsided area", "_t")
-t(", geometrically ordered area", ", geometrically ordered area", "_t")
-t("hewn", "hewn", "_t")
-t("sylvan", "sylvan", "_t")
-t("subterranean", "subterranean", "_t")
-t("crystalline", "crystalline", "_t")
-t("sandy", "sandy", "_t")
-t("arrid", "arrid", "_t")
-t("slimey", "slimey", "_t")
-t("humid, tropical", "humid, tropical", "_t")
-t("unhewn", "unhewn", "_t")
-t("burned", "burned", "_t")
-t("mountainous", "mountainous", "_t")
-t("alpine", "alpine", "_t")
-t("cold, wooded", "cold, wooded", "_t")
-t("empty", "empty", "_t")
-t("flooded", "flooded", "_t")
-t("molten", "molten", "_t")
-t("temperate", "temperate", "_t")
+t("Infinite Dungeon", "Donjon Infini", "_t")
+t(", carefully excavated area", ", zone soigneusement excavée", "_t")
+t(" wilderness", " région sauvage", "_t")
+t(" cavern", " caverne", "_t")
+t(" network of corridors", " réseau de corridors", "_t")
+t(", settled area", ", zone habitée", "_t")
+t(", constructed area", ", zone construite", "_t")
+t(", subsided area", ", zone affaissée", "_t")
+t(", geometrically ordered area", ", zone géométriquement ordonnée", "_t")
+t("hewn", "poli", "_t")
+t("sylvan", "sylvestre", "_t")
+t("subterranean", "souterraine", "_t")
+t("crystalline", "cristalline", "_t")
+t("sandy", "sablonneuse", "_t")
+t("arrid", "aride", "_t")
+t("slimey", "vaseux", "_t")
+t("humid, tropical", "humide, tropicale", "_t")
+t("unhewn", "rugueuse", "_t")
+t("burned", "brûlée", "_t")
+t("mountainous", "montagneuse", "_t")
+t("cold, wooded", "froide, boisée", "_t")
+t("empty", "vide", "_t")
+t("flooded", "inondée", "_t")
+t("molten", "en fusion", "_t")
+t("temperate", "tempérée", "_t")
 t("\
 Encroaching terrain:\
 %s%s", "\
-Encroaching terrain:\
+Terrain empiétant:\
 %s%s", "tformat")
+t("continuation of the Infinite Dungeon", "suite du Donjon Infini", "_t")
+-- texte non traduit
+--[==[
+t("alpine", "alpine", "_t")
 t("indistinct", "indistinct", "_t")
-t("continuation of the Infinite Dungeon", "continuation of the Infinite Dungeon", "_t")
 --]==]
 
 
@@ -38088,96 +38083,84 @@ t("grass", "herbe", "entity subtype")
 t("troll stew", "ragoût de troll", "entity name")
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity name")
+t("dirt", "boue", "entity subtype")
 t("cave floor", "sol de la grotte", "entity name")
+t("cave marker", "indicateur de grotte", "entity name")
 t("floor", "sol", "entity subtype")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- texte non traduit
---[==[
-t("dirt", "dirt", "entity subtype")
-t("cave marker", "cave marker", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/keepsake-meadow/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("To arms!", "Aux armes!", "_t")
+t("Monster!", "Monstre!", "_t")
+t("Die!", "Meurt!", "_t")
+t("You will not kill us!", "Vous ne nous tuerez pas!", "_t")
+t("We will end this!", "Nous allons mettre fin à cela!", "_t")
+t("caravan merchant", "marchand caravanier", "entity name")
+t("A caravan merchant.", "Un marchand ambulant.", "_t")
+t("caravan guard", "garde de caravane", "entity name")
+t("A caravan guard.", "Un garde de caravane.", "_t")
+t("caravan porter", "porteur de caravane", "entity name")
+t("A caravan porter.", "Un porteur de caravane.", "_t")
+t("war dog", "chien de guerre", "entity name")
+t("This is a large dog, bred and trained for fighting.", "Il s'agit d'un gros chien, élevé et entraîné pour le combat.", "_t")
+t("corrupted war dog", "chien de guerre corrompu", "entity name")
+t("This is a large dog, bred and trained for fighting. Something about the way it moves doesn't look normal.", "C'est un gros chien, élevé et entraîné pour le combat. Sa façon de se déplacer est étrange.", "_t")
 t("undead", "mort-vivant", "entity type")
 t("shadow", "ombre", "entity subtype")
+t("shadow claw", "griffe de l'ombre", "entity name")
+t("A shadow, almost humanoid in shape. Long claws extend in front of it as is swims through the air.", "Une ombre, de forme presque humanoïde. De longues griffes s'étendent devant elle tandis qu'elle fend les airs.", "_t")
+t("shadow stalker", "traqueur de l'ombre", "entity name")
+t("A shadow, almost humanoid in shape. It seems to move carefully and with cunning before swiftly striking.", "Une ombre, de forme presque humanoïde. Elle semble se mouvoir avec précaution et ruse avant de frapper d'un coup sec.", "_t")
+t("A shadow, almost humanoid in shape. At times its form seems to be a force of will rather than something real.", "Une ombre, de forme presque humanoïde. Par moments, sa forme semble être une force de volonté plutôt qu'une entité réelle.", "_t")
+t("Companion Warrior", "Guerrier Compagnon", "entity name")
+t("This elf is a companion of Berethh. He's dressed in light armor and wields a sword.", "Cet elfe est un compagnon de Berethh. Il porte une armure légère et manie une épée.", "_t")
+t("Companion Archer", "Archer Compagnon", "entity name")
+t("This elf is a companion of Berethh. He's dressed in light armor and wields a bow.", "Cet elfe est un compagnon de Berethh. Il porte une armure légère et manie un arc.", "_t")
+t("This is Kyless, your old friend. He seems dirtier than you recall and a good bit more dangerous.", "Voici Kyless, votre vieil ami. Il a l'air plus sale que dans tes souvenirs et bien plus dangereux.", "_t")
+t("and fed to his corrupted dogs", "et donnés en pâture à ses chiens corrompus", "_t")
+t("This is Berethh, your old friend. He is dressed in well-worn leather and skillfully wields a bow. There is something noble about the way he carries himself but his expression carries no emotion.", "Voici Berethh, votre vieil ami. Il est vêtu de cuir usé et manie l'arc avec adresse. Il a une certaine noblesse dans son allure, mais son expression est impassible.", "_t")
+t("and quickly burned in a pyre", "et rapidement brûlé sur un bûcher", "_t")
 -- texte non traduit
 --[==[
-t("To arms!", "To arms!", "_t")
-t("Monster!", "Monster!", "_t")
-t("Die!", "Die!", "_t")
-t("You will not kill us!", "You will not kill us!", "_t")
-t("We will end this!", "We will end this!", "_t")
-t("caravan merchant", "caravan merchant", "entity name")
-t("A caravan merchant.", "A caravan merchant.", "_t")
-t("caravan guard", "caravan guard", "entity name")
-t("A caravan guard.", "A caravan guard.", "_t")
-t("caravan porter", "caravan porter", "entity name")
-t("A caravan porter.", "A caravan porter.", "_t")
-t("war dog", "war dog", "entity name")
-t("This is a large dog, bred and trained for fighting.", "This is a large dog, bred and trained for fighting.", "_t")
-t("corrupted war dog", "corrupted war dog", "entity name")
-t("This is a large dog, bred and trained for fighting. Something about the way it moves doesn't look normal.", "This is a large dog, bred and trained for fighting. Something about the way it moves doesn't look normal.", "_t")
-t("shadow claw", "shadow claw", "entity name")
-t("A shadow, almost humanoid in shape. Long claws extend in front of it as is swims through the air.", "A shadow, almost humanoid in shape. Long claws extend in front of it as is swims through the air.", "_t")
-t("shadow stalker", "shadow stalker", "entity name")
-t("A shadow, almost humanoid in shape. It seems to move carefully and with cunning before swiftly striking.", "A shadow, almost humanoid in shape. It seems to move carefully and with cunning before swiftly striking.", "_t")
-t("A shadow, almost humanoid in shape. At times its form seems to be a force of will rather than something real.", "A shadow, almost humanoid in shape. At times its form seems to be a force of will rather than something real.", "_t")
 t("thalore", "thalore", "entity subtype")
-t("Companion Warrior", "Companion Warrior", "entity name")
-t("This elf is a companion of Berethh. He's dressed in light armor and wields a sword.", "This elf is a companion of Berethh. He's dressed in light armor and wields a sword.", "_t")
-t("Companion Archer", "Companion Archer", "entity name")
-t("This elf is a companion of Berethh. He's dressed in light armor and wields a bow.", "This elf is a companion of Berethh. He's dressed in light armor and wields a bow.", "_t")
 t("Kyless", "Kyless", "entity name")
-t("This is Kyless, your old friend. He seems dirtier than you recall and a good bit more dangerous.", "This is Kyless, your old friend. He seems dirtier than you recall and a good bit more dangerous.", "_t")
-t("and fed to his corrupted dogs", "and fed to his corrupted dogs", "_t")
 t("Berethh", "Berethh", "entity name")
-t("This is Berethh, your old friend. He is dressed in well-worn leather and skillfully wields a bow. There is something noble about the way he carries himself but his expression carries no emotion.", "This is Berethh, your old friend. He is dressed in well-worn leather and skillfully wields a bow. There is something noble about the way he carries himself but his expression carries no emotion.", "_t")
-t("and quickly burned in a pyre", "and quickly burned in a pyre", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/keepsake-meadow/objects.lua"
 
+t("folded up piece of paper", "morceau de papier plié", "entity name")
+t("A folded up piece of paper with a few notes written on it.", "Un morceau de papier plié avec quelques notes écrites dessus.", "_t")
+t("Iron Acorn", "Gland de Fer", "entity name")
 t("misc", "divers", "entity type")
+t("trinket", "bibelot", "entity subtype")
+t("A small acorn, crafted crudely out of iron.", "Un petit gland, grossièrement façonné en fer.", "_t")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. You find having the acorn helps to anchor your mind and prepare you for the trials ahead.", "Un petit gland, grossièrement façonné en fer. Il appartenait jadis à Bander, mais il est désormais à vous. Vous constatez que posséder ce gland vous aide à vous concentrer et à vous préparer aux épreuves à venir.", "_t")
+t("Cold Iron Acorn", "Gland en Fer Froid", "entity name")
+t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. The acorn serves as a reminder of who and what you are.", "Un petit gland, grossièrement façonné en fer. Il appartenait jadis à Bander, mais il est désormais à vous. Ce gland vous rappelle qui et ce que vous êtes.", "_t")
 t("journal page", "page de journal", "entity name")
--- texte non traduit
---[==[
-t("folded up piece of paper", "folded up piece of paper", "entity name")
-t("A folded up piece of paper with a few notes written on it.", "A folded up piece of paper with a few notes written on it.", "_t")
-t("Iron Acorn", "Iron Acorn", "entity name")
-t("trinket", "trinket", "entity subtype")
-t("A small acorn, crafted crudely out of iron.", "A small acorn, crafted crudely out of iron.", "_t")
-t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. You find having the acorn helps to anchor your mind and prepare you for the trials ahead.", "A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. You find having the acorn helps to anchor your mind and prepare you for the trials ahead.", "_t")
-t("Cold Iron Acorn", "Cold Iron Acorn", "entity name")
-t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. The acorn serves as a reminder of who and what you are.", "A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. The acorn serves as a reminder of who and what you are.", "_t")
-t("A page containing an entry from Kyless' journal.", "A page containing an entry from Kyless' journal.", "_t")
-t("Kyless' Book", "Kyless' Book", "entity name")
-t("This was the book that gave power to Kyless and eventually led to his doom. The book is simple in appearance, bound in leather with no markings on the cover. All of the pages are blank.", "This was the book that gave power to Kyless and eventually led to his doom. The book is simple in appearance, bound in leather with no markings on the cover. All of the pages are blank.", "_t")
---]==]
-
+t("A page containing an entry from Kyless' journal.", "Une page contenant une entrée du journal de Kyless.", "_t")
+t("Kyless' Book", "Livre de Kyless", "entity name")
+t("This was the book that gave power to Kyless and eventually led to his doom. The book is simple in appearance, bound in leather with no markings on the cover. All of the pages are blank.", "C'est ce livre qui donna son pouvoir à Kyless et qui causa finalement sa perte. D'apparence simple, il est relié en cuir et sa couverture est vierge de toute inscription. Toutes ses pages sont blanches.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/keepsake-meadow/traps.lua"
 
+t("event", "événement", "entity type")
+t("event", "événement", "entity subtype")
+t("creeping darkness", "obscurité rampante", "entity name")
 t("trap", "piège", "_t")
--- texte non traduit
---[==[
-t("event", "event", "entity type")
-t("event", "event", "entity subtype")
-t("creeping darkness", "creeping darkness", "entity name")
-t("A creeping darkness spreads through the air!", "A creeping darkness spreads through the air!", "_t")
-t("summon shadow", "summon shadow", "entity name")
-t("A shadow traces across the floor.", "A shadow traces across the floor.", "_t")
---]==]
-
+t("A creeping darkness spreads through the air!", "Une obscurité rampante se répand dans l'air!", "_t")
+t("summon shadow", "invoquer l'ombre", "entity name")
+t("A shadow traces across the floor.", "Une ombre dessinée sur le sol.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/keepsake-meadow/zone.lua"
@@ -38948,13 +38931,13 @@ t("Ritches Tunnels", "Ritches Tunnels", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/ruined-dungeon/grids.lua"
 
+t("Infinite Dungeon", "Donjon Infini", "_t")
 t("sealed door", "porte scellée", "entity name")
 t("orb", "orbe", "entity name")
 -- texte non traduit
 --[==[
 t("inscription", "inscription", "entity name")
 t("way into the infinite dungeon", "way into the infinite dungeon", "entity name")
-t("Infinite Dungeon", "Infinite Dungeon", "_t")
 t("You have accomplished great deads, but if you enter the infinite dungeon there will be no way back you will go on and on until you meet your glorious death.", "You have accomplished great deads, but if you enter the infinite dungeon there will be no way back you will go on and on until you meet your glorious death.", "_t")
 t("You should not go there. There is no way back. Ever. Maybe later when you have done all you must do.", "You should not go there. There is no way back. Ever. Maybe later when you have done all you must do.", "_t")
 t("Strange Orb", "Strange Orb", "_t")
@@ -43788,8 +43771,8 @@ t("Overwrite character?", "Écraser un personnage?", "_t")
 t("There is already a character with this name, do you want to overwrite it?", "Il y a déjà un personnage avec ce nom, voulez-vous l'écraser?", "_t")
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
-t("Antimagic Magic combo", "Combo Antimagie Magie", "_t")
-t("The selected race/class has both magic and antimagic, this is unlikely to work. Continue?", "La race/classe sélectionnée a en même temps des capacités magiques et antimagiques, il est peu probable que cela fonctionne. Continuer?", "_t")
+t("Antimagic Magic combo", "Combo anti-magie Magie", "_t")
+t("The selected race/class has both magic and antimagic, this is unlikely to work. Continue?", "La race/classe sélectionnée a en même temps des capacités magiques et anti-magiques, il est peu probable que cela fonctionne. Continuer?", "_t")
 t("Yes I'm sure", "Oui, je suis sûr", "_t")
 t("Tutorials", "Tutoriels", "_t")
 t("Basic Gameplay (recommended)", "Gameplay basique (recommandé)", "_t")
