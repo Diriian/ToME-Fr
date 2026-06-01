@@ -16598,11 +16598,10 @@ that drowned her at last.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/noxious-caldera.lua"
 
-
+t("dogroth caldera", "caldera de dogroth", "newLore category")
+t("tattered paper scrap", "morceau de papier déchiré", "_t")
 -- texte non traduit
 --[==[
-t("dogroth caldera", "dogroth caldera", "newLore category")
-t("tattered paper scrap", "tattered paper scrap", "_t")
 t([[What wending path brought me to this place? I know not. The mists have obscured all passage, all trail. I see but the enclosing dominance of the caldera ahead. The ashen cauldron of steam lures me, yet repels me. I feel there is a force here trying to sway my thoughts.
 
 Where are the rest of my party? Have my friends abandoned me?]], [[What wending path brought me to this place? I know not. The mists have obscured all passage, all trail. I see but the enclosing dominance of the caldera ahead. The ashen cauldron of steam lures me, yet repels me. I feel there is a force here trying to sway my thoughts.
@@ -38389,50 +38388,38 @@ section "mod-tome/data/zones/noxious-caldera/grids.lua"
 
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
--- texte non traduit
---[==[
-t("altar of dreams", "altar of dreams", "entity name")
-t("Altar of Dreams", "Altar of Dreams", "_t")
-t("Looking into the altar will let you experience a dream. Without the influence of Mindworm, it'll however have no power over your body. Do you wish to look?", "Looking into the altar will let you experience a dream. Without the influence of Mindworm, it'll however have no power over your body. Do you wish to look?", "_t")
---]==]
-
+t("altar of dreams", "autel des rêves", "entity name")
+t("Altar of Dreams", "Autel des rêves", "_t")
+t("Looking into the altar will let you experience a dream. Without the influence of Mindworm, it'll however have no power over your body. Do you wish to look?", "Regarder l'autel vous permettra de faire un rêve. Sans l'influence du veresprit, cependant, il n'aura aucun pouvoir sur votre corps. Souhaitez-vous regarder?", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/noxious-caldera/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("Mindworm", "Veresprit", "entity name")
+t("This tall Thalore's eyes are lost in the distance; you can sense that he barely sees you.", "Le regard de ce grand Thalore se perd au loin. On sent qu'il vous voit à peine.", "_t")
+t("and mind-probed", "et sondés l'esprit", "_t")
+t("Fumes", "Fumées", "_t")
+t("As Mindworm dies you can feel the fumes getting less poisonous for your mind.", "À mesure que Veresprit se meurt, vous pouvez sentir que ses émanations deviennent moins toxiques pour votre esprit.", "_t")
 -- texte non traduit
 --[==[
 t("thalore", "thalore", "entity subtype")
-t("Mindworm", "Mindworm", "entity name")
-t("This tall Thalore's eyes are lost in the distance; you can sense that he barely sees you.", "This tall Thalore's eyes are lost in the distance; you can sense that he barely sees you.", "_t")
-t("and mind-probed", "and mind-probed", "_t")
-t("Fumes", "Fumes", "_t")
-t("As Mindworm dies you can feel the fumes getting less poisonous for your mind.", "As Mindworm dies you can feel the fumes getting less poisonous for your mind.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/noxious-caldera/objects.lua"
 
+t("tattered paper scrap", "morceau de papier déchiré", "entity name")
 t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un aventurier.", "_t")
--- texte non traduit
---[==[
-t("tattered paper scrap", "tattered paper scrap", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/noxious-caldera/zone.lua"
 
+t("Noxious Caldera", "Caldeira Nocive", "_t")
+t("Dogroth Caldera", "Caldera de Dogroth", "_t")
+t("The noxious fumes of the caldera are slowly affecting you...", "Les émanations nocives de la caldeira vous affectent lentement...", "_t")
 t("dream", "rêve", "_t")
--- texte non traduit
---[==[
-t("Noxious Caldera", "Noxious Caldera", "_t")
-t("Dogroth Caldera", "Dogroth Caldera", "_t")
-t("The noxious fumes of the caldera are slowly affecting you...", "The noxious fumes of the caldera are slowly affecting you...", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/old-forest/grids.lua"
@@ -38443,12 +38430,8 @@ t("grass", "herbe", "entity name")
 t("wall", "mur", "entity type")
 t("tree", "arbre", "entity name")
 t("tall thick tree", "grand arbre touffu", "entity name")
+t("way to the lake of Nur", "chemin vers le lac de Nur", "entity name")
 t("grass", "herbe", "entity subtype")
--- texte non traduit
---[==[
-t("way to the lake of Nur", "way to the lake of Nur", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/old-forest/npcs.lua"
@@ -38456,22 +38439,18 @@ section "mod-tome/data/zones/old-forest/npcs.lua"
 t("giant", "géant", "entity type")
 t("crystal", "cristal", "entity subtype")
 t("Shardskin", "Cuir Fragmenté", "entity name")
+t("This crystalline structure seems to be filled with a malevolent aura. Through the crystal surface you can still see the remains of what once was a huge tree.", "Cette structure cristalline semble imprégnée d'une aura maléfique. À travers sa surface on distingue encore les vestiges de ce qui fut jadis un arbre immense.", "_t")
+t("and integrated into the crystaline structure", "et intégrée à la structure cristalline", "_t")
+t("Have you heard, the old forest seems to have been claimed by a new evil!", "Avez-vous entendu? La vieille forêt semble avoir été envahie par un nouveau mal!", "_t")
 t("treant", "tréant", "entity subtype")
 t("Wrathroot", "Racine Courroucée", "entity name")
+t("The ancient grey willow tree, ruler of the Old Forest. He despises trespassers in his territory.", "Le vieux saule gris, maître de la Vieille Forêt. Il déteste les intrus passant sur son territoire.", "_t")
+t("and digested by treants", "et digérés par les tréants", "_t")
+t("cute little bunny", "mignon petit lapin", "entity name")
+t("It looks at you with cute little eyes before jumping at you with razor sharp teeth.", "Il vous regarde avec ses petits yeux mignons avant de vous sauter dessus avec ses dents acérées comme des rasoirs.", "_t")
+t("(how pathetic)", "(tellement pitoyable)", "_t")
 t("Snaproot", "Racine Cassante", "entity name")
--- texte non traduit
---[==[
-t("This crystalline structure seems to be filled with a malevolent aura. Through the crystal surface you can still see the remains of what once was a huge tree.", "This crystalline structure seems to be filled with a malevolent aura. Through the crystal surface you can still see the remains of what once was a huge tree.", "_t")
-t("and integrated into the crystaline structure", "and integrated into the crystaline structure", "_t")
-t("Have you heard, the old forest seems to have been claimed by a new evil!", "Have you heard, the old forest seems to have been claimed by a new evil!", "_t")
-t("The ancient grey willow tree, ruler of the Old Forest. He despises trespassers in his territory.", "The ancient grey willow tree, ruler of the Old Forest. He despises trespassers in his territory.", "_t")
-t("and digested by treants", "and digested by treants", "_t")
-t("cute little bunny", "cute little bunny", "entity name")
-t("It looks at you with cute little eyes before jumping at you with razor sharp teeth.", "It looks at you with cute little eyes before jumping at you with razor sharp teeth.", "_t")
-t("(how pathetic)", "(how pathetic)", "_t")
-t("This ancient Treant's bark is scorched almost black. It sees humanity as a scourge, to be purged.", "This ancient Treant's bark is scorched almost black. It sees humanity as a scourge, to be purged.", "_t")
---]==]
-
+t("This ancient Treant's bark is scorched almost black. It sees humanity as a scourge, to be purged.", "L'écorce de cet ancien Tréant a été brûlée jusqu'à en être devenu presque noire. Il considère l'humanité comme un fléau à éradiquer.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/old-forest/objects.lua"
@@ -38482,12 +38461,7 @@ t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un av
 ------------------------------------------------
 section "mod-tome/data/zones/old-forest/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Old Forest", "Old Forest", "_t")
---]==]
-
+t("Old Forest", "Vieille Forêt", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/orc-breeding-pit/npcs.lua"
@@ -39509,6 +39483,7 @@ t("Orb of Many Ways", "Orbe des Multiples Voies", "entity name")
 t("swirling orb", "orbe tourbillonnant", "_t")
 t("activate a portal", "activer un portail", "_t")
 t("There is no portal to activate here.", "Il n'y a pas de portail à activer ici.", "logPlayer")
+t("tattered paper scrap", "morceau de papier déchiré", "entity name")
 -- texte non traduit
 --[==[
 t("Blood-Runed Athame", "Blood-Runed Athame", "entity name")
@@ -39517,7 +39492,6 @@ t("An athame, covered in blood runes. It radiates power.", "An athame, covered i
 t([[The orb projects images of distant places, some that seem not to be of this world, switching rapidly.
 If used near a portal, it could probably activate it.]], [[The orb projects images of distant places, some that seem not to be of this world, switching rapidly.
 If used near a portal, it could probably activate it.]], "_t")
-t("tattered paper scrap", "tattered paper scrap", "entity name")
 t("A paper scrap, left by Tannen.", "A paper scrap, left by Tannen.", "_t")
 --]==]
 
@@ -40484,12 +40458,8 @@ t("His once-shining armour now dull and bloodstained, this Sun Paladin has given
 ------------------------------------------------
 section "mod-tome/data/zones/trollmire/objects.lua"
 
+t("tattered paper scrap", "morceau de papier déchiré", "entity name")
 t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un aventurier.", "_t")
--- texte non traduit
---[==[
-t("tattered paper scrap", "tattered paper scrap", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/trollmire/zone.lua"
@@ -40839,10 +40809,9 @@ t("exit to the lost valley", "exit to the lost valley", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/valley-moon-caverns/objects.lua"
 
-
+t("tattered paper scrap", "morceau de papier déchiré", "entity name")
 -- texte non traduit
 --[==[
-t("tattered paper scrap", "tattered paper scrap", "entity name")
 t("A paper scrap, left by somebody named Rassir.", "A paper scrap, left by somebody named Rassir.", "_t")
 --]==]
 
