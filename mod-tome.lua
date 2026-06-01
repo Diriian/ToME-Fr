@@ -38343,61 +38343,46 @@ t("The Maze", "Le Labyrinthe", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/murgol-lair/npcs.lua"
 
+t("Murgol, the Yaech Lord", "Murgol, le Seigneur Yaech", "entity name")
+t("You can feel the psionic waves of power come from this yaech.", "Vous pouvez ressentir de puissantes ondes psioniques émanant de ce yaech.", "_t")
+t("and flushed out to sea", "et emportés vers la mer", "_t")
 t("humanoid", "humanoïde", "entity type")
+t("naga tidewarden", "gardien de marées naga", "entity name")
+t("naga tidecaller", "appeleur de marées naga", "entity name")
+t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful elf-like woman. As she moves her delicate hands water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "Un bruissement accompagne les mouvements de cette étrange créature, dont la queue serpentine se prolonge jusqu'au corps d'une belle femme aux allures d'elfe. Au moindre mouvement de ses mains délicates l'eau jaillit du sol et l'on comprend qu'il ne s'agit pas d'un simple monstre, mais d'une créature impressionnante de puissance et de fascination.", "_t")
+t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "Des yeux verts vous fixent depuis une longue chevelure dorée qui ondule sur une peau lisse et pâle. Votre regard est d'abord attiré par la chair nue mais en s'attardant davantage vous apercevez des écailles sombres qui s'étirent en une longue queue de serpent. Vous levez les yeux lorsqu'elle bouge, ses cheveux s'écartant pour révéler un visage fin et beau aux pommettes hautes et aux lèvres pulpeuses. Malgré toute la fascination de cette créature merveilleuse, la terreur que suscite la queue serpentine vous glace le sang.", "_t")
+t("Lady Nashva the Streambender", "Dame Nashva Maîtresse Cours d'Eau", "entity name")
+t("Water circles slowly on the ground around this naga's tail. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "L'eau forme de lents cercles autour de la queue de cette naga. Sa queue sombre est enroulée serrée ce qui la fait paraître petite, mais son regard calme et assuré vous garantit qu'elle ne se laissera pas vaincre facilement. Tandis que l'eau commence à monter autour d'elle l'air se met à scintiller, et vous sentez son regard obscur vous transpercer d'une manière qui vous met mal à l'aise.", "_t")
+t("and brought back to Vargh for experimentations", "et ramenés à Vargh pour ses expériences", "_t")
 -- texte non traduit
 --[==[
-t("Murgol, the Yaech Lord", "Murgol, the Yaech Lord", "entity name")
-t("You can feel the psionic waves of power come from this yaech.", "You can feel the psionic waves of power come from this yaech.", "_t")
-t("and flushed out to sea", "and flushed out to sea", "_t")
 t("naga", "naga", "entity subtype")
-t("naga tidewarden", "naga tidewarden", "entity name")
-t("naga tidecaller", "naga tidecaller", "entity name")
-t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful elf-like woman. As she moves her delicate hands water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful elf-like woman. As she moves her delicate hands water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "_t")
 t("naga nereid", "naga nereid", "entity name")
-t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "_t")
-t("Lady Nashva the Streambender", "Lady Nashva the Streambender", "entity name")
-t("Water circles slowly on the ground around this naga's tail. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "Water circles slowly on the ground around this naga's tail. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "_t")
-t("and brought back to Vargh for experimentations", "and brought back to Vargh for experimentations", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/murgol-lair/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Murgol Lair", "Murgol Lair", "_t")
-t("As you enter the lair you can hear the distorted sound of fighting. Somebody is already invading the lair.", "As you enter the lair you can hear the distorted sound of fighting. Somebody is already invading the lair.", "_t")
---]==]
-
+t("Murgol Lair", "Tanière de Murgol", "_t")
+t("As you enter the lair you can hear the distorted sound of fighting. Somebody is already invading the lair.", "En entrant dans l'antre, vous entendez des bruits de combat déformés. Quelqu'un est déjà en train d'envahir les lieux.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/norgos-lair/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Norgos, the Frozen", "Norgos, the Frozen", "entity name")
+t("Norgos, the Frozen", "Norgos, le Gelé", "entity name")
 t([[This ancient bear long guarded the western side of the forest, but as of late he started growing mad, attacking even the Thaloren.
-It seems to have fallen prey to the shivgoroth invading the area. Dead and frozen, it seems like a statue, animated by the elementals.]], [[This ancient bear long guarded the western side of the forest, but as of late he started growing mad, attacking even the Thaloren.
-It seems to have fallen prey to the shivgoroth invading the area. Dead and frozen, it seems like a statue, animated by the elementals.]], "_t")
-t("and was turned into icicles", "and was turned into icicles", "_t")
-t("Norgos, the Guardian", "Norgos, the Guardian", "entity name")
-t("This ancient bear long guarded the western side of the forest, but as of late he started growing mad, attacking even the Thaloren.", "This ancient bear long guarded the western side of the forest, but as of late he started growing mad, attacking even the Thaloren.", "_t")
-t("and was feasted upon by wolves", "and was feasted upon by wolves", "_t")
---]==]
-
+It seems to have fallen prey to the shivgoroth invading the area. Dead and frozen, it seems like a statue, animated by the elementals.]], [[Cet ours ancestral gardait depuis longtemps le côté ouest de la forêt, mais depuis peu, il a sombré dans la folie attaquant même les Thaloren.
+Il semble avoir été victime du shivgoroth qui envahit la région. Mort et figé, il ressemble à une statue animée par les élémentaires.]], "_t")
+t("and was turned into icicles", "et s'est transformée en stalactites", "_t")
+t("Norgos, the Guardian", "Norgos, le Gardien", "entity name")
+t("This ancient bear long guarded the western side of the forest, but as of late he started growing mad, attacking even the Thaloren.", "Cet ours ancestral gardait depuis longtemps le côté ouest de la forêt, mais depuis peu, il a sombré dans la folie attaquant même les Thaloren.", "_t")
+t("and was feasted upon by wolves", "et fut dévoré par les loups", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/norgos-lair/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Norgos Lair", "Norgos Lair", "_t")
---]==]
-
+t("Norgos Lair", "Repaire de Norgos", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/noxious-caldera/grids.lua"
@@ -39267,15 +39252,15 @@ t("#VIOLET#The portal starts to break down, run!", "#VIOLET#The portal starts to
 section "mod-tome/data/zones/slazish-fen/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("naga tidewarden", "gardien de marées naga", "entity name")
+t("naga tidecaller", "appeleur de marées naga", "entity name")
+t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "Des yeux verts vous fixent depuis une longue chevelure dorée qui ondule sur une peau lisse et pâle. Votre regard est d'abord attiré par la chair nue mais en s'attardant davantage vous apercevez des écailles sombres qui s'étirent en une longue queue de serpent. Vous levez les yeux lorsqu'elle bouge, ses cheveux s'écartant pour révéler un visage fin et beau aux pommettes hautes et aux lèvres pulpeuses. Malgré toute la fascination de cette créature merveilleuse, la terreur que suscite la queue serpentine vous glace le sang.", "_t")
 -- texte non traduit
 --[==[
 t("naga", "naga", "entity subtype")
-t("naga tidewarden", "naga tidewarden", "entity name")
 t("Before you stands a tall figure, propped high by a serpent's tail in place of where his legs should rightly be. His torso is slim and muscular, and his face has an elven beauty to it, framed by locks of blonde hair. But there is a fierceness to this creature too, and his bright eyes veil a smouldering anger.", "Before you stands a tall figure, propped high by a serpent's tail in place of where his legs should rightly be. His torso is slim and muscular, and his face has an elven beauty to it, framed by locks of blonde hair. But there is a fierceness to this creature too, and his bright eyes veil a smouldering anger.", "_t")
-t("naga tidecaller", "naga tidecaller", "entity name")
 t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful Elf-like woman. As she moves her delicate hands, water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful Elf-like woman. As she moves her delicate hands, water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "_t")
 t("naga nereid", "naga nereid", "entity name")
-t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "_t")
 t("Lady Zoisla the Tidebringer", "Lady Zoisla the Tidebringer", "entity name")
 t("Water circles slowly on the ground around this naga's tail, some droplets leaping up now and then as if they are impatient to do their mistress' bidding. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "Water circles slowly on the ground around this naga's tail, some droplets leaping up now and then as if they are impatient to do their mistress' bidding. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "_t")
 t("and brought back to Vargh for experimentation", "and brought back to Vargh for experimentation", "_t")
