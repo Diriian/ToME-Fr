@@ -15524,7 +15524,7 @@ The joke was over
 ------------------------------------------------
 section "mod-tome/data/lore/maze.lua"
 
-
+t("the perfect killing device", "le parfait dispositif pour tuer", "_t")
 -- texte non traduit
 --[==[
 t("maze", "maze", "newLore category")
@@ -15557,7 +15557,6 @@ I still remember Archmage Tarelion's lecture about the spell - "Probability effe
 Besides, I'm enjoying myself - I'm having an adventure!!
 
 I saw something! I don't know what it was... but it was big and shadowy! But when I tried chasing it I got lost... Um, maybe I just imagined it? No, I'm sure it must be something cool and exciting, I just have to keep exploring!]], "_t")
-t("the perfect killing device", "the perfect killing device", "_t")
 t([[I have now devised the perfect trap for the horned beast that walks these halls! Truly he cannot avoid this amazing contraption - the perfect blend of technical mastery and nature's lethal gifts. Ah, how I look forward to having that monster's head mounted on my walls - it shall be the pride of my collection!
 
 The contraption is elegant and simple, though many months I have spent getting the formula perfect. There are two vials attached together - one containing finely ground hemlock, the other containing a carefully prepared zinc compound. When the vials are broken the materials react with the air and pump out an amazing cloud of poisonous vapour! The poison is supremely effective, killing within minutes. All I have to do is carefully hide the vials beneath a thin piece of slate and wait for my prey to step upon the trap - then POOF, it's dead!
@@ -21082,6 +21081,7 @@ section "mod-tome/data/talents/corruptions/corruptions.lua"
 
 t("torment", "tourment", "talent type")
 t("bone", "os", "talent type")
+t("vile life", "vie infecte", "talent type")
 t("plague", "peste", "talent type")
 t("blood", "sang", "talent type")
 t("blight", "maladie", "talent type")
@@ -21098,7 +21098,6 @@ t("hexes", "hexes", "talent type")
 t("Hex your foes, hindering and crippling them.", "Hex your foes, hindering and crippling them.", "_t")
 t("curses", "curses", "talent type")
 t("Curse your foes, hindering and crippling them.", "Curse your foes, hindering and crippling them.", "_t")
-t("vile life", "vile life", "talent type")
 t("Manipulate life for your vile needs.", "Manipulate life for your vile needs.", "_t")
 t("Spread diseases to your foes.", "Spread diseases to your foes.", "_t")
 t("scourge", "scourge", "talent type")
@@ -38258,47 +38257,35 @@ Vous entendez les sanglots d'une femme, qui se muent par moments en gémissement
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/grids.lua"
 
+t("Heart of the Sandworm Queen", "Coeur de la Reine des Vers des Sables", "_t")
+t("The altar seems to react to the heart. You feel you could corrupt it here.", "L'autel semble réagir au coeur. Vous pensez pouvoir le corrompre ici.", "_t")
+t("#GREEN#You put the heart on the altar. The heart shrivels and shakes, vibrating with new corrupt forces.", "#GREEN#Vous déposez le coeur sur l'autel. Le coeur se ratatine et tremble, vibrant de ses nouvelles forces corruptrices.", "log")
 t("Cancel", "Annuler", "_t")
--- texte non traduit
---[==[
-t("Heart of the Sandworm Queen", "Heart of the Sandworm Queen", "_t")
-t("The altar seems to react to the heart. You feel you could corrupt it here.", "The altar seems to react to the heart. You feel you could corrupt it here.", "_t")
-t("#GREEN#You put the heart on the altar. The heart shrivels and shakes, vibrating with new corrupt forces.", "#GREEN#You put the heart on the altar. The heart shrivels and shakes, vibrating with new corrupt forces.", "log")
-t("Corrupt", "Corrupt", "_t")
---]==]
-
+t("Corrupt", "Corrompu", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/npcs.lua"
 
 t("Grand Corruptor", "Grand Corrupteur", "entity name")
--- texte non traduit
---[==[
-t("An Elven corruptor, drawn to these blighted lands.", "An Elven corruptor, drawn to these blighted lands.", "_t")
---]==]
-
+t("An Elven corruptor, drawn to these blighted lands.", "Un elfe corrupteur, attiré par ces terres maudites.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/objects.lua"
 
+t("draft letter", "brouillon de lettre", "entity name")
 t("A letter.", "Une lettre.", "_t")
+t("corpse", "cadavre", "entity type")
 t("heart", "coeur", "entity subtype")
--- texte non traduit
---[==[
-t("draft letter", "draft letter", "entity name")
-t("corpse", "corpse", "entity type")
-t("Corrupted heart of the Sandworm Queen", "Corrupted heart of the Sandworm Queen", "entity name")
-t("pulsing organ", "pulsing organ", "_t")
-t("The heart of the Sandworm Queen, ripped from her dead body and corrupted in the mark of the spellblaze altar. You could ... consume it, should you feel mad enough.", "The heart of the Sandworm Queen, ripped from her dead body and corrupted in the mark of the spellblaze altar. You could ... consume it, should you feel mad enough.", "_t")
-t("consume the heart", "consume the heart", "_t")
-t("#00FFFF#You consume the heart and feel the corruption fill you!", "#00FFFF#You consume the heart and feel the corruption fill you!", "logPlayer")
-t("You have %d stat point(s) to spend. Press p to use them.", "You have %d stat point(s) to spend. Press p to use them.", "logPlayer")
-t("You have %d class talent point(s) to spend. Press p to use them.", "You have %d class talent point(s) to spend. Press p to use them.", "logPlayer")
-t("You have %d generic talent point(s) to spend. Press p to use them.", "You have %d generic talent point(s) to spend. Press p to use them.", "logPlayer")
-t("You are transformed by the corrupted heart of the Queen!", "You are transformed by the corrupted heart of the Queen!", "logPlayer")
-t("#00FF00#You gain an affinity for blight. You can now learn new Vile Life talents (press p).", "#00FF00#You gain an affinity for blight. You can now learn new Vile Life talents (press p).", "logPlayer")
---]==]
-
+t("Corrupted heart of the Sandworm Queen", "Coeur corrompu de la Reine des Vers des Sables", "entity name")
+t("pulsing organ", "organe pulsant", "_t")
+t("The heart of the Sandworm Queen, ripped from her dead body and corrupted in the mark of the spellblaze altar. You could ... consume it, should you feel mad enough.", "Le Coeur de la Reine des Ver des Sables, arraché à son corps sans vie et corrompu par la marque de l'autel de la Brûlure Magique. Vous pourriez… le consommer, si vous êtes suffisement fou.", "_t")
+t("consume the heart", "consommer le coeur", "_t")
+t("#00FFFF#You consume the heart and feel the corruption fill you!", "#00FFFF#Vous dévorez le coeur et vous sentez la corruption vous envahir!", "logPlayer")
+t("You have %d stat point(s) to spend. Press p to use them.", "Vous disposez de %d points de stats à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
+t("You have %d class talent point(s) to spend. Press p to use them.", "Vous disposez de %d points de talent de classe à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
+t("You have %d generic talent point(s) to spend. Press p to use them.", "Vous disposez de %d points de talent génériques à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
+t("You are transformed by the corrupted heart of the Queen!", "Vous êtes transformés par le coeur corrompu de la Reine !", "logPlayer")
+t("#00FF00#You gain an affinity for blight. You can now learn new Vile Life talents (press p).", "#00FF00#Vous développez une affinité pour la maladie. Vous pouvez désormais apprendre de nouveaux talents de Vie Infecte (appuyez sur p).", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/zone.lua"
@@ -38310,62 +38297,48 @@ section "mod-tome/data/zones/maze/grids.lua"
 
 t("teleporting circle to the surface", "cercle de téléportation vers la surface", "entity name")
 t("wall", "mur", "entity type")
-t("Stay", "Restez", "_t")
--- texte non traduit
---[==[
-t("cracks", "cracks", "entity subtype")
-t("huge crack in the floor", "huge crack in the floor", "entity name")
-t("Crack in the floor", "Crack in the floor", "_t")
+t("cracks", "fissures", "entity subtype")
+t("huge crack in the floor", "une énorme fissure dans le sol", "entity name")
+t("Crack in the floor", "Fissure dans le sol", "_t")
 t([[This area appears to have been hit by a huge tremor, breaking the floor in a huge crack.
-You think you can jump to the level below.]], [[This area appears to have been hit by a huge tremor, breaking the floor in a huge crack.
-You think you can jump to the level below.]], "_t")
-t("Jump", "Jump", "_t")
---]==]
-
+You think you can jump to the level below.]], [[Cette zone semble avoir été frappée par un violent tremblement de terre, provoquant une immense fissure dans le sol.
+Vous pensez pouvoir sauter au niveau inférieur.]], "_t")
+t("Jump", "Sautez", "_t")
+t("Stay", "Restez", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/maze/npcs.lua"
 
 t("horror", "horreur", "entity type")
 t("corrupted", "corrompu", "entity subtype")
+t("Horned Horror", "Horreur Cornue", "entity name")
+t("Some horrible power has twisted this brutish minotaur into something altogether more terrifying. Huge tentacles undulate from its back as it clenches and unclenches its powerful fists.", "Une force terrible a transformé ce minotaure brutal en une créature bien plus terrifiante. D'énormes tentacules ondulent de son dos tandis qu'il serre et desserre ses poings puissants.", "_t")
+t("and revived as a mindless horror", "et ressuscité sous la forme d'une horreur dénuée de sens", "_t")
+t("Have you hard about the patrol that disappeared in the maze in the west?", "Avez-vous entendu parler de la patrouille qui a disparu dans le labyrinthe à l'ouest?", "_t")
 t("giant", "géant", "entity type")
 t("minotaur", "minotaure", "entity subtype")
+t("Minotaur of the Labyrinth", "Minotaure du Labyrinthe", "entity name")
+t("A fearsome bull-headed monster, he swings a mighty axe as he curses all who defy him.", "Monstre terrifiant à tête de taureau, il manie une hache puissante en maudissant tous ceux qui le défient.", "_t")
+t("and hung on a wall-spike", "et accroché à un piquet mural", "_t")
+t("Covered by eerie luminescent growths and protuberances, this spider now haunts the maze's silent passageways.", "Recouverte d'excroissances et de protubérances luminescentes et étranges, cette araignée hante désormais les passages silencieux du labyrinthe.", "_t")
 -- texte non traduit
 --[==[
-t("Horned Horror", "Horned Horror", "entity name")
-t("Some horrible power has twisted this brutish minotaur into something altogether more terrifying. Huge tentacles undulate from its back as it clenches and unclenches its powerful fists.", "Some horrible power has twisted this brutish minotaur into something altogether more terrifying. Huge tentacles undulate from its back as it clenches and unclenches its powerful fists.", "_t")
-t("and revived as a mindless horror", "and revived as a mindless horror", "_t")
-t("Have you hard about the patrol that disappeared in the maze in the west?", "Have you hard about the patrol that disappeared in the maze in the west?", "_t")
-t("Minotaur of the Labyrinth", "Minotaur of the Labyrinth", "entity name")
-t("A fearsome bull-headed monster, he swings a mighty axe as he curses all who defy him.", "A fearsome bull-headed monster, he swings a mighty axe as he curses all who defy him.", "_t")
-t("and hung on a wall-spike", "and hung on a wall-spike", "_t")
 t("Nimisil", "Nimisil", "entity name")
-t("Covered by eerie luminescent growths and protuberances, this spider now haunts the maze's silent passageways.", "Covered by eerie luminescent growths and protuberances, this spider now haunts the maze's silent passageways.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/maze/objects.lua"
 
-
--- texte non traduit
---[==[
-t("torn diary page", "torn diary page", "entity name")
-t("A diary, left by an adventurer.", "A diary, left by an adventurer.", "_t")
-t("the perfect killing device", "the perfect killing device", "entity name")
-t("Some notes describing how to create poison gas traps, left by an unfortunate rogue.", "Some notes describing how to create poison gas traps, left by an unfortunate rogue.", "_t")
---]==]
-
+t("torn diary page", "page de journal déchirée", "entity name")
+t("A diary, left by an adventurer.", "Un journal laissé par un aventurier.", "_t")
+t("the perfect killing device", "le parfait dispositif pour tuer", "entity name")
+t("Some notes describing how to create poison gas traps, left by an unfortunate rogue.", "Quelques notes décrivant comment fabriquer des pièges à gaz toxique, laissées par un brigant malchanceux.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/maze/zone.lua"
 
-
--- texte non traduit
---[==[
-t("The Maze", "The Maze", "_t")
---]==]
-
+t("The Maze", "Le Labyrinthe", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/murgol-lair/npcs.lua"
@@ -39026,7 +38999,14 @@ t("The sandworms are gone, devoured by this shrieking, warped horror.", "The san
 ------------------------------------------------
 section "mod-tome/data/zones/sandworm-lair/objects.lua"
 
+t("corpse", "cadavre", "entity type")
 t("heart", "coeur", "entity subtype")
+t("Heart of the Sandworm Queen", "Coeur de la Reine des Vers des Sables", "entity name")
+t("pulsing organ", "organe pulsant", "_t")
+t("consume the heart", "consommer le coeur", "_t")
+t("You have %d stat point(s) to spend. Press p to use them.", "Vous disposez de %d points de stats à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
+t("You have %d class talent point(s) to spend. Press p to use them.", "Vous disposez de %d points de talent de classe à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
+t("You have %d generic talent point(s) to spend. Press p to use them.", "Vous disposez de %d points de talent génériques à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
 t("blood", "sang", "entity subtype")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("red", "rouge", "entity subtype")
@@ -39034,17 +39014,10 @@ t("red", "rouge", "entity subtype")
 --[==[
 t("Song of the Sands", "Song of the Sands", "entity name")
 t("Some people get the weirdest ideas!", "Some people get the weirdest ideas!", "_t")
-t("corpse", "corpse", "entity type")
-t("Heart of the Sandworm Queen", "Heart of the Sandworm Queen", "entity name")
-t("pulsing organ", "pulsing organ", "_t")
 t([[The heart of the Sandworm Queen, ripped from her dead body.
 You could ... consume it, should you feel mad enough or you could try to corrupt it somewhere.]], [[The heart of the Sandworm Queen, ripped from her dead body.
 You could ... consume it, should you feel mad enough or you could try to corrupt it somewhere.]], "_t")
-t("consume the heart", "consume the heart", "_t")
 t("#00FFFF#You consume the heart and feel the knowledge of this very old creature fill you!", "#00FFFF#You consume the heart and feel the knowledge of this very old creature fill you!", "logPlayer")
-t("You have %d stat point(s) to spend. Press p to use them.", "You have %d stat point(s) to spend. Press p to use them.", "logPlayer")
-t("You have %d class talent point(s) to spend. Press p to use them.", "You have %d class talent point(s) to spend. Press p to use them.", "logPlayer")
-t("You have %d generic talent point(s) to spend. Press p to use them.", "You have %d generic talent point(s) to spend. Press p to use them.", "logPlayer")
 t("You are transformed by the heart of the Queen!", "You are transformed by the heart of the Queen!", "logPlayer")
 t("#00FF00#You gain an affinity for nature. You can now learn new Harmony talents (press p).", "#00FF00#You gain an affinity for nature. You can now learn new Harmony talents (press p).", "logPlayer")
 t("Wyrm Bile", "Wyrm Bile", "entity name")
@@ -40432,10 +40405,10 @@ t("giant rock", "giant rock", "entity name")
 section "mod-tome/data/zones/town-zigur/npcs.lua"
 
 t("Grand Corruptor", "Grand Corrupteur", "entity name")
+t("An Elven corruptor, drawn to these blighted lands.", "Un elfe corrupteur, attiré par ces terres maudites.", "_t")
 t("halfling", "halfelin", "entity subtype")
 -- texte non traduit
 --[==[
-t("An Elven corruptor, drawn to these blighted lands.", "An Elven corruptor, drawn to these blighted lands.", "_t")
 t("Protector Myssil", "Protector Myssil", "entity name")
 t("A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "_t")
 --]==]
