@@ -38170,15 +38170,10 @@ t("Tranquil Meadow", "Pré Paisible", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/lake-nur/grids.lua"
 
-
--- texte non traduit
---[==[
-t("way to the old forest", "way to the old forest", "entity name")
-t("entrance to the Sher'Tul ruins", "entrance to the Sher'Tul ruins", "entity name")
-t("#ANTIQUE_WHITE#You notice a hole that could fit the gem key you found earlier, inserting it reveals the passage to the next level.", "#ANTIQUE_WHITE#You notice a hole that could fit the gem key you found earlier, inserting it reveals the passage to the next level.", "logPlayer")
-t("#ANTIQUE_WHITE#The way seems closed, maybe you need a key.", "#ANTIQUE_WHITE#The way seems closed, maybe you need a key.", "logPlayer")
---]==]
-
+t("way to the old forest", "passage vers la vieille forêt", "entity name")
+t("entrance to the Sher'Tul ruins", "entrée des ruines Sher'Tul", "entity name")
+t("#ANTIQUE_WHITE#You notice a hole that could fit the gem key you found earlier, inserting it reveals the passage to the next level.", "#ANTIQUE_WHITE#Vous remarquez un trou qui pourrait accueillir la clé-gemme que vous avez trouvée précédemment. En l'insérant, vous révélez le passage vers le niveau suivant.", "logPlayer")
+t("#ANTIQUE_WHITE#The way seems closed, maybe you need a key.", "#ANTIQUE_WHITE#Le chemin semble fermé, il vous faut peut-être une clé.", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/zones/lake-nur/objects.lua"
@@ -38189,14 +38184,9 @@ t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un av
 ------------------------------------------------
 section "mod-tome/data/zones/lake-nur/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Lake of Nur", "Lake of Nur", "_t")
-t("You descend into the submerged ruins. The walls look extremely ancient, yet you feel power within this place.", "You descend into the submerged ruins. The walls look extremely ancient, yet you feel power within this place.", "_t")
-t("As you descend to the next level you traverse a kind of magical barrier keeping the water away. The barrier seems to be failing however and the next level is flooded too.", "As you descend to the next level you traverse a kind of magical barrier keeping the water away. The barrier seems to be failing however and the next level is flooded too.", "_t")
---]==]
-
+t("Lake of Nur", "Lac de Nur", "_t")
+t("You descend into the submerged ruins. The walls look extremely ancient, yet you feel power within this place.", "Vous descendez dans les ruines submergées. Les murs semblent extrêmement anciens, et pourtant vous ressentez une puissance particulière en ce lieu.", "_t")
+t("As you descend to the next level you traverse a kind of magical barrier keeping the water away. The barrier seems to be failing however and the next level is flooded too.", "En descendant au niveau inférieur, vous traversez une sorte de barrière magique qui semble retenir l'eau. Mais cette barrière semble céder, et le niveau suivant est lui aussi inondé.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/last-hope-graveyard/grids.lua"
@@ -38205,77 +38195,65 @@ t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
 t("tree", "arbre", "entity name")
 t("floor", "sol", "entity type")
+t("road", "route", "entity subtype")
+t("cobblestone road", "route pavée", "entity name")
 t("grave", "tombe", "entity name")
+t("coffin", "cercueil", "entity name")
+t("open coffin", "cercueil ouvert", "entity name")
+t("open mausoleum", "mausolée ouvert", "entity name")
 t("floor", "sol", "entity subtype")
--- texte non traduit
---[==[
-t("road", "road", "entity subtype")
-t("cobblestone road", "cobblestone road", "entity name")
-t("coffin", "coffin", "entity name")
-t("open coffin", "open coffin", "entity name")
-t("open mausoleum", "open mausoleum", "entity name")
-t("ritualistic symbol", "ritualistic symbol", "entity name")
---]==]
-
+t("ritualistic symbol", "symbole rituel", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/last-hope-graveyard/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("A tall woman stands before you in a stained robe. Her sallow skin is marked by pox and open sores, but her eyes are bright and keen. The bulge around her abdomen would indicate that she is several months pregnant.", "Une femme de grande taille se tient devant vous, vêtue d'une robe tachée. Son teint blafard est marqué par la variole et des plaies ouvertes, mais ses yeux sont vifs et perçants. Le renflement de son ventre indique qu'elle est enceinte de plusieurs mois.", "_t")
+t("You receive: %s.", "Vous recevez: %s.", "logPlayer")
+t([[As you deal the last blow you quickly carve out Celia's heart for your Lichform ritual.
+Carefully weaving magic around it to keep it beating.]], [[Au moment de porter le coup fatal, vous arrachez rapidement le coeur de Celia pour votre rituel de Forme de Liche.
+Vous tissez soigneusement de la magie autour pour le maintenir en vie.]], "_t")
 -- texte non traduit
 --[==[
 t("Celia", "Celia", "entity name")
-t("A tall woman stands before you in a stained robe. Her sallow skin is marked by pox and open sores, but her eyes are bright and keen. The bulge around her abdomen would indicate that she is several months pregnant.", "A tall woman stands before you in a stained robe. Her sallow skin is marked by pox and open sores, but her eyes are bright and keen. The bulge around her abdomen would indicate that she is several months pregnant.", "_t")
-t("You receive: %s.", "You receive: %s.", "logPlayer")
 t("Celia", "Celia", "_t")
-t([[As you deal the last blow you quickly carve out Celia's heart for your Lichform ritual.
-Carefully weaving magic around it to keep it beating.]], [[As you deal the last blow you quickly carve out Celia's heart for your Lichform ritual.
-Carefully weaving magic around it to keep it beating.]], "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/last-hope-graveyard/objects.lua"
 
+t("creased letter", "lettre froissée", "entity name")
+t("A letter.", "Une lettre.", "_t")
 t("misc", "divers", "entity type")
 t("heart", "coeur", "entity subtype")
--- texte non traduit
---[==[
-t("creased letter", "creased letter", "entity name")
-t("A letter.", "A letter.", "_t")
-t("Celia's Still Beating Heart", "Celia's Still Beating Heart", "entity name")
-t("bloody heart", "bloody heart", "_t")
-t("The living heart of the necromancer Celia, carved out of her chest and preserved with magic.", "The living heart of the necromancer Celia, carved out of her chest and preserved with magic.", "_t")
-t("extract a tiny part of Celia's soul", "extract a tiny part of Celia's soul", "_t")
-t("You squeeze Celia's heart in your hand, absorbing part of her soul into your necrotic aura.", "You squeeze Celia's heart in your hand, absorbing part of her soul into your necrotic aura.", "logPlayer")
---]==]
-
+t("Celia's Still Beating Heart", "Le Coeur de Celia qui Bat Encore", "entity name")
+t("bloody heart", "coeur sanglant", "_t")
+t("The living heart of the necromancer Celia, carved out of her chest and preserved with magic.", "Le coeur vivant de Célia la nécromancienne, arraché de sa poitrine et préservé par magie.", "_t")
+t("extract a tiny part of Celia's soul", "extraire une petite partie de l'âme de Celia", "_t")
+t("You squeeze Celia's heart in your hand, absorbing part of her soul into your necrotic aura.", "Vous serrez le cœur de Celia dans votre main, absorbant une partie de son âme pour votre aura nécrotique.", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/zones/last-hope-graveyard/zone.lua"
 
+t("Last Hope Graveyard", "Cimetière de Dernier Espoir", "_t")
+t("Mausoleum", "Mausolée", "_t")
 t("You were not the first here: the corpse was turned into an undead.", "Vous n'étiez pas le premier à venir ici: le cadavre a été transformé en mort-vivant.", "log")
 t("There is nothing there.", "Il n'y a rien ici.", "log")
--- texte non traduit
---[==[
-t("Last Hope Graveyard", "Last Hope Graveyard", "_t")
-t("Mausoleum", "Mausoleum", "_t")
-t("The corpse had a treasure!", "The corpse had a treasure!", "log")
-t("Open the coffin", "Open the coffin", "_t")
-t("In rich families the dead are sometimes put to rest with some treasures. However they also sometime protect the coffins with powerful curses. Open?", "In rich families the dead are sometimes put to rest with some treasures. However they also sometime protect the coffins with powerful curses. Open?", "_t")
-t("#YELLOW#You hear all the doors being shattered into pieces.", "#YELLOW#You hear all the doors being shattered into pieces.", "log")
+t("The corpse had a treasure!", "Le cadavre contenait un trésor!", "log")
+t("Open the coffin", "Ouvrez le cercueil", "_t")
+t("In rich families the dead are sometimes put to rest with some treasures. However they also sometime protect the coffins with powerful curses. Open?", "Dans les familles riches les défunts sont parfois inhumés avec des trésors. Cependant, il arrive aussi que les cercueils soient protégés par de puissantes malédictions. L'ouvrir?", "_t")
+t("#YELLOW#You hear all the doors being shattered into pieces.", "#YELLOW#On entend toutes les portes se briser en mille morceaux.", "log")
 t([[As you tread softly down the stairs a large stone slab slides into place behind you, blocking all retreat. The air is still and stuffy, and in this tight space you feel as if in a coffin, buried alive.
 
 Adding to your unease is a rising feeling of dread, overwhelming fear in fact. A hall of doors lies ahead, and behind each you sense a power of great malevolence and unholy horror. At the end of the corridor you see a faint light beneath a large black door, and you have a vague sense that the other doors are enslaved to this one - obedient, subservient, and waiting...
 
-You hear the sound of a woman sobbing, and every now and then it turns into a fit of pained moans and screams. They echo round the dark chamber and through the darkest parts of your mind, reminding you of every black deed and vile sin you have ever committed. Guilt, horror and terror flood through your thoughts, each competing for stronger control of your psyche. Your only clear thought is of escape, by whatever means you can find.]], [[As you tread softly down the stairs a large stone slab slides into place behind you, blocking all retreat. The air is still and stuffy, and in this tight space you feel as if in a coffin, buried alive.
+You hear the sound of a woman sobbing, and every now and then it turns into a fit of pained moans and screams. They echo round the dark chamber and through the darkest parts of your mind, reminding you of every black deed and vile sin you have ever committed. Guilt, horror and terror flood through your thoughts, each competing for stronger control of your psyche. Your only clear thought is of escape, by whatever means you can find.]], [[Tandis que vous descendez les escaliers à pas feutrés une large dalle de pierre se met en place derrière vous, vous bloquant toute retraite. L'air est immobile et étouffant, et dans cet espace confiné, vous vous sentez comme dans un cercueil et enterré vivant.
 
-Adding to your unease is a rising feeling of dread, overwhelming fear in fact. A hall of doors lies ahead, and behind each you sense a power of great malevolence and unholy horror. At the end of the corridor you see a faint light beneath a large black door, and you have a vague sense that the other doors are enslaved to this one - obedient, subservient, and waiting...
+À votre malaise s'ajoute un sentiment d'angoisse grandissant, une peur panique en réalité. Un couloir bordé de portes s'étend devant vous, et derrière chacune d'elles, vous percevez une force d'une grande malveillance et d'une horreur indicible. Au bout du couloir vous apercevez une faible lueur sous une grande porte noire, et vous avez l'impression vague que les autres portes lui sont asservies – obéissantes, soumises, et languissantes…
 
-You hear the sound of a woman sobbing, and every now and then it turns into a fit of pained moans and screams. They echo round the dark chamber and through the darkest parts of your mind, reminding you of every black deed and vile sin you have ever committed. Guilt, horror and terror flood through your thoughts, each competing for stronger control of your psyche. Your only clear thought is of escape, by whatever means you can find.]], "_t")
---]==]
-
+Vous entendez les sanglots d'une femme, qui se muent par moments en gémissements et cris de douleur. Ils résonnent dans la chambre obscure et dans les recoins les plus sombres de votre esprit, vous rappelant chaque acte odieux et chaque péché abominable que vous avez commis. La culpabilité, l'horreur, et la terreur vous envahissent, chacune cherchant à prendre le contrôle de votre psyché. Votre seule pensée claire est celle de vous échapper, par tous les moyens possibles.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/grids.lua"
@@ -38303,11 +38281,11 @@ t("An Elven corruptor, drawn to these blighted lands.", "An Elven corruptor, dra
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/objects.lua"
 
+t("A letter.", "Une lettre.", "_t")
 t("heart", "coeur", "entity subtype")
 -- texte non traduit
 --[==[
 t("draft letter", "draft letter", "entity name")
-t("A letter.", "A letter.", "_t")
 t("corpse", "corpse", "entity type")
 t("Corrupted heart of the Sandworm Queen", "Corrupted heart of the Sandworm Queen", "entity name")
 t("pulsing organ", "pulsing organ", "_t")
@@ -38813,11 +38791,10 @@ t("and hung from the rafters", "and hung from the rafters", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/rhaloren-camp/objects.lua"
 
-
+t("A letter.", "Une lettre.", "_t")
 -- texte non traduit
 --[==[
 t("letter", "letter", "entity name")
-t("A letter.", "A letter.", "_t")
 t("a carefully preserved letter", "a carefully preserved letter", "entity name")
 --]==]
 
@@ -39816,11 +39793,10 @@ t("Unknown tunnels", "Unknown tunnels", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-angolwen/grids.lua"
 
-
+t("cobblestone road", "route pavée", "entity name")
 -- texte non traduit
 --[==[
 t("cultivated fields", "cultivated fields", "entity name")
-t("cobblestone road", "cobblestone road", "entity name")
 t("magical rock", "magical rock", "entity name")
 t("fountain", "fountain", "entity name")
 --]==]
@@ -39895,11 +39871,10 @@ t("Angolwen", "Angolwen", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-derth/grids.lua"
 
-
+t("cobblestone road", "route pavée", "entity name")
 -- texte non traduit
 --[==[
 t("cultivated fields", "cultivated fields", "entity name")
-t("cobblestone road", "cobblestone road", "entity name")
 --]==]
 
 
@@ -40392,12 +40367,7 @@ t("temporal beam endpoint", "temporal beam endpoint", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-shatur/grids.lua"
 
-
--- texte non traduit
---[==[
-t("cobblestone road", "cobblestone road", "entity name")
---]==]
-
+t("cobblestone road", "route pavée", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-shatur/npcs.lua"
@@ -40443,6 +40413,7 @@ t("Shatur", "Shatur", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/grids.lua"
 
+t("cobblestone road", "route pavée", "entity name")
 t("closed gate", "porte fermée", "entity name")
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
@@ -40453,7 +40424,6 @@ t("Zigur Postsign", "Zigur Postsign", "entity name")
 t("The laws of the Ziguranth", "The laws of the Ziguranth", "_t")
 t("lava pit", "lava pit", "entity name")
 t("cultivated fields", "cultivated fields", "entity name")
-t("cobblestone road", "cobblestone road", "entity name")
 t("giant rock", "giant rock", "entity name")
 --]==]
 
