@@ -3388,7 +3388,7 @@ They have gone through the portal, and a few of my friends were pulled in with t
 We captured an orc earlier.  He revealed that the staff you seek is to be used to absorb the power of a remote place for dark rituals.
 You must traverse this portal, if you have any means to, and stop the orcs.]], [[@playername@, Je fais partie d'un groupe de Paladins du Soleil envoyé par Aeryn. Nous sommes arrivés ici en suivant les orcs.
 Ils ont traversé le portail, et quelques uns de mes amis ont été entraînés avec eux.
-Nous avons capturé un orque plus tôt.  Il a révélé que le personnel que vous recherchez doit être utilisé pour absorber le pouvoir d'un lieu éloigné où se déroulent de sombres rituels.
+Nous avons capturé un orc plus tôt.  Il a révélé que le personnel que vous recherchez doit être utilisé pour absorber le pouvoir d'un lieu éloigné où se déroulent de sombres rituels.
 Vous devez traverser ce portail, si vous en avez les moyens, et arrêter les orcs.]], "_t")
 t("I think I can use the portal. Do not worry!", "Je pense que je peux utiliser le portail. Ne vous inquiétez pas!", "_t")
 
@@ -4160,7 +4160,7 @@ Fillarel: "Abandon this fight, orc! You cannot win: I stand with the power of th
 Krogar: "Ha! It's only been one hour and you already look tired, my 'lady'."
 #LIGHT_GREEN#*As you enter the room they notice you.*#WHITE#
 Fillarel: "You! @playerdescriptor.race@! Help me defeat this monster or begone!"
-Krogar: "Ah, looking for help? Bah. @playerdescriptor.race@, kill this wench for me and I shall reward you!"]], [[#LIGHT_GREEN#*Une belle femme elfe en robe dorée se tient devant vous, face à un orque enveloppé de mailles.*#WHITE#
+Krogar: "Ah, looking for help? Bah. @playerdescriptor.race@, kill this wench for me and I shall reward you!"]], [[#LIGHT_GREEN#*Une belle femme elfe en robe dorée se tient devant vous, face à un orc enveloppé de mailles.*#WHITE#
 Fillarel : "Abandonnez ce combat, orc! Vous ne pouvez pas gagner : Je me bats avec le pouvoir du Soleil et les ombres des Lunes."
 Krogar : "Ça ne fait qu'une heure et vous avez déjà l'air fatigué, ma 'dame'."
 #LIGHT_GREEN#*Lorsque vous entrez dans la salle, ils vous remarquent.*#WHITE#
@@ -7026,7 +7026,7 @@ t("Chromatic Harness", "Harnais Chromatique", "entity name")
 t("multi-hued scale-mail armour", "armure en cotte de mailles multicolore", "_t")
 t("This dragon scale harness shines with multiple colors, quickly shifting through them in a seemingly chaotic manner.", "Ce harnais en écailles de dragon brille de multiples couleurs, passant rapidement de l'une à l'autre d'une manière apparemment chaotique.", "_t")
 t("Glory of the Pride", "Gloire des Fiertés", "entity name")
-t("The most prized treasure of the Battlemaster of the Pride, Grushnak. This gold ring is inscribed in the now lost orc tongue.", "Le trésor le plus précieux du maître de guerre des Fiertés, Grushnak. Cet anneau d'or est inscrit dans la langue orque aujourd'hui perdue.", "_t")
+t("The most prized treasure of the Battlemaster of the Pride, Grushnak. This gold ring is inscribed in the now lost orc tongue.", "Le trésor le plus précieux du maître de guerre des Fiertés, Grushnak. Cet anneau d'or est inscrit dans la langue orc aujourd'hui perdue.", "_t")
 t("deep black ring", "anneau d'un noir profond", "_t")
 t("Black Robe", "Robe Noir", "entity name")
 t("black robe", "robe noir", "_t")
@@ -16745,6 +16745,7 @@ t("As you descend to the next level you traverse a kind of magical barrier keepi
 section "mod-tome/data/lore/orc-prides.lua"
 
 t("The Legend of Garkul", "La Légende de Garkul", "_t")
+t("Captain Gumlarat's report", "Rapport du capitaine Gumlarat", "_t")
 -- texte non traduit
 --[==[
 t("orc prides", "orc prides", "newLore category")
@@ -17105,7 +17106,6 @@ I have so long been concentrating on my objectives that I never stopped to think
 She wanted to die. I know she wanted to die, I could see her accusing eyes on me begging to let her die. But I cannot, I cannot... This is too terrible. I should burn this cave to the ground, and erase my horrible actions from existence! But where would that leave our people...
 
 My mind is in torment. I cannot live like this any longer... I cannot live...]], "_t")
-t("Captain Gumlarat's report", "Captain Gumlarat's report", "_t")
 t([[#{bold}#Captain Gumlarat's report#{normal}#
 
 I have found clinician Korbek's body in his study. It seems he slit his own throat. This would explain the lack of reports in the last few days.
@@ -36526,7 +36526,7 @@ t("+Anguish", "+Angoisse", "_t")
 t("#Target# is no longer in anguish.", "#Target# n'est plus angoissé.", "_t")
 t("-Anguish", "-Angoisse", "_t")
 t("Fast As Lightning", "Rapide Comme l'Éclair", "_t")
-t("The target is so fast it may blink throught obstacles if moving in the same direction for over two turns.", "La cible est si rapide qu'elle peut traverser les obstacles en un clin d'œil si elle se déplace dans la même direction pendant plus de deux tours.", "tformat")
+t("The target is so fast it may blink throught obstacles if moving in the same direction for over two turns.", "La cible est si rapide qu'elle peut traverser les obstacles en un clin d'oeil si elle se déplace dans la même direction pendant plus de deux tours.", "tformat")
 t("#Target# is speeding up.", "#Target# accélère.", "_t")
 t("+Fast As Lightning", "+Rapide Comme l'Éclair", "_t")
 t("#Target# is slowing down.", "#Target# ralentit.", "_t")
@@ -37015,7 +37015,7 @@ t("A man dressed in black robes. You feel a thousand curses being put on you.", 
 t("rogue", "voyou", "entity name")
 t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your sight!", "Des combattants furtifs qui tentent de remporter la victoire par la ruse. Fais attention, ou ils vous prendront par surprise!", "_t")
 t("trickster", "tricheur", "entity name")
-t("Stealthy ranged fighters trying to achieve victory with trickery. Be careful or they will shoot your heart!", "De furtifs combattants à distance qui tentent de remporter la victoire par la ruse. Faites attention, sinon ils vous transperceront le cœur!", "_t")
+t("Stealthy ranged fighters trying to achieve victory with trickery. Be careful or they will shoot your heart!", "De furtifs combattants à distance qui tentent de remporter la victoire par la ruse. Faites attention, sinon ils vous transperceront le coeur!", "_t")
 t("shadowblade", "lame ténébreuse", "entity name")
 t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "Des combattants furtifs qui tentent de remporter la victoire par la ruse. Faites attention ou ils vous voleront votre vie!", "_t")
 t("fire wyrmic", "draconien de feu", "entity name")
@@ -37214,7 +37214,7 @@ t("Argoniel", "Argoniel", "entity name")
 section "mod-tome/data/zones/charred-scar/zone.lua"
 
 t("Charred Scar", "Plaie Craquelée", "_t")
-t("Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "Dépêche-toi de descendre vers le sud pendant que les paladins solaires tiennent les orques à distance. Fais en sorte que leur sacrifice en vaille la peine!", "_t")
+t("Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "Dépêche-toi de descendre vers le sud pendant que les paladins solaires tiennent les orcs à distance. Fais en sorte que leur sacrifice en vaille la peine!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/conclave-vault/grids.lua"
@@ -37334,7 +37334,7 @@ t("fire", "feu", "entity subtype")
 t("Varsha the Writhing", "Varsha le Tourmentée", "entity name")
 t("Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "Griffes et crocs. Feu et mort. Il semblerait que les dragons ne soient pas tous éteints...", "_t")
 t("Massok the Dragonslayer", "Massok, le Tueur de Dragons", "entity name")
-t("A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned from a dragon's skull.", "Un orque immense et couvert de cicatrices, armé d'une épée gigantesque. Son casque est façonné à partir d'un crâne de dragon.", "_t")
+t("A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned from a dragon's skull.", "Un orc immense et couvert de cicatrices, armé d'une épée gigantesque. Son casque est façonné à partir d'un crâne de dragon.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
@@ -37353,7 +37353,7 @@ section "mod-tome/data/zones/daikara/zone.lua"
 
 t([[As you walk toward the Daikara you can not fail to notice the huge volcano that erupts in the center of it, right where the path is taking you.
 You see pyroclasts ejected from the heart of the volcano, they look relatively harmless but very impressive.]], [[En vous dirigeant vers le Daikara, vous ne pouvez pas manquer de remarquer l'immense volcan qui entre en éruption en son centre, juste là où le sentier vous mène.
-Vous voyez des projections volcaniques éjectées du cœur du volcan. Elles semblent relativement inoffensives, mais sont très impressionnantes.]], "_t")
+Vous voyez des projections volcaniques éjectées du coeur du volcan. Elles semblent relativement inoffensives, mais sont très impressionnantes.]], "_t")
 -- texte non traduit
 --[==[
 t("Daikara", "Daikara", "_t")
@@ -37405,7 +37405,7 @@ t("Demonic Portal", "Portail Démoniaque", "entity name")
 t("This portal seems to be connected with Maj'Eyal; you could probably use it to go back.", "Ce portail semble être relié à Maj'Eyal. Vous pourriez probablement l'utiliser pour y retourner.", "_t")
 t("Back and there again", "Retourner et revenir", "_t")
 t("Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "Passez le portail pour retourner à Maj'Eyal? (Attention: pillez Draebor en premier)", "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "#VIOLET#Vous franchissez le portail tourbillonnant et, en un clin d'œil, vous vous retrouvez à Maj'Eyal, près de Daikara.", "logPlayer")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "#VIOLET#Vous franchissez le portail tourbillonnant et, en un clin d'oeil, vous vous retrouvez à Maj'Eyal, près de Daikara.", "logPlayer")
 t("Stay", "Restez", "_t")
 t("Enter", "Entrer", "_t")
 
@@ -37463,7 +37463,7 @@ t("A malevolent skeleton archmage that has taken control of the Dreadfell since 
 t("ghoul", "goule", "entity subtype")
 t("Borfast the Broken", "Borfast le Brisé", "entity name")
 t([[Thick skin hangs loosely from this short, shambling form. Tufts of hair sticking out from its chin give evidence of a once magnificent dwarven beard. Half its face seems to have been seared in acid at some point, the flesh melted away from the skull and an eyeball drooping low from its socket. There is a unique sadness to its eyes, and a slump of resignation to its gait.
-What proud hero of renown was this before he was condemned to such a terrible fate?]], [[Une peau épaisse pend mollement de ce corps trapu et dégingandé. Des touffes de poils qui dépassent de son menton témoignent d'une magnifique barbe naine d'antan. La moitié de son visage semble avoir été brûlée à l'acide, la chair fondue et détachée du crâne, un œil pend hors de son orbite. Ses yeux expriment une tristesse singulière, et sa démarche est empreinte d'une résignation abattue.
+What proud hero of renown was this before he was condemned to such a terrible fate?]], [[Une peau épaisse pend mollement de ce corps trapu et dégingandé. Des touffes de poils qui dépassent de son menton témoignent d'une magnifique barbe naine d'antan. La moitié de son visage semble avoir été brûlée à l'acide, la chair fondue et détachée du crâne, un oeil pend hors de son orbite. Ses yeux expriment une tristesse singulière, et sa démarche est empreinte d'une résignation abattue.
 Quel fier héros renommé était-ce avant d'être condamné à un sort si terrible?]], "_t")
 t("and offered to his dark Master", "et offerte à son sombre Maître", "_t")
 t("ghost", "fantôme", "entity subtype")
@@ -37626,7 +37626,7 @@ t("Farportal: Charred Scar", "Portail lointain: Plaie craquelée", "entity name"
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the west, to Charred Scar. A fiery volcano that can only spell death...]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
 Celui-ci semble mener à l'ouest, vers la Plaie craquelée. Un volcan en éruption synonyme de mort…]], "_t")
-t("#VIOLET#You enter the swirling portal while it fades away and in the blink of an eye you set foot on hellish land, the heart of a volcano...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant tandis qu'il disparaît et, en un clin d'oeil, vous posez le pied sur une terre infernale, au cœur d'un volcan...", "_t")
+t("#VIOLET#You enter the swirling portal while it fades away and in the blink of an eye you set foot on hellish land, the heart of a volcano...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant tandis qu'il disparaît et, en un clin d'oeil, vous posez le pied sur une terre infernale, au coeur d'un volcan...", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/eruan/npcs.lua"
@@ -37887,7 +37887,7 @@ t("Farportal: Iron Throne", "Portail lointain : Trône de Fer", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the Iron Throne in the West.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
 Celui-ci semble mener au Trône de Fer dans l'Ouest.]], "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the slopes of the Iron Throne, with no trace of the portal...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous posez le pied sur les pentes du Trône de Fer, sans aucune trace du portail...", "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the slopes of the Iron Throne, with no trace of the portal...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'oeil, vous posez le pied sur les pentes du Trône de Fer, sans aucune trace du portail...", "_t")
 t("Farportal: the Void", "Portail lointain : le Vide", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to an unknown place, seemingly out of this world. You dare not use it.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
@@ -38230,7 +38230,7 @@ t("Celia's Still Beating Heart", "Le Coeur de Celia qui Bat Encore", "entity nam
 t("bloody heart", "coeur sanglant", "_t")
 t("The living heart of the necromancer Celia, carved out of her chest and preserved with magic.", "Le coeur vivant de Célia la nécromancienne, arraché de sa poitrine et préservé par magie.", "_t")
 t("extract a tiny part of Celia's soul", "extraire une petite partie de l'âme de Celia", "_t")
-t("You squeeze Celia's heart in your hand, absorbing part of her soul into your necrotic aura.", "Vous serrez le cœur de Celia dans votre main, absorbant une partie de son âme pour votre aura nécrotique.", "logPlayer")
+t("You squeeze Celia's heart in your hand, absorbing part of her soul into your necrotic aura.", "Vous serrez le coeur de Celia dans votre main, absorbant une partie de son âme pour votre aura nécrotique.", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/zones/last-hope-graveyard/zone.lua"
@@ -38467,22 +38467,22 @@ t("Old Forest", "Vieille Forêt", "_t")
 section "mod-tome/data/zones/orc-breeding-pit/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("orc baby", "bébé orc", "entity name")
+t("Crawling on all fours, this green-skinned creature is far from cute, with vicious little sharp teeth and nails, and slime still sticking to its skin.", "Rampant à quatre pattes, cette créature à la peau verte est loin d'être mignonne avec ses vicieuses petites dents, ses ongles pointus, et de la bave toujours collée à sa peau.", "_t")
+t("orc child", "enfant orc", "entity name")
+t("This small orc has a malicious and greedy look in its eyes. Its veins pulse with new life and it moves with surprising speed. Though not fully developed you can still see the muscles forming on its long limbs, leading to clawed fingers and toes.", "Ce petit orc a un regard malveillant et gourmand. Ses veines palpitent d'une nouvelle vie et il se déplace à une vitesse surprenante. Bien qu'il ne soit pas complètement développé vous pouvez encore voir les muscles se former sur ses membres conduisant à des doigts et des orteils griffus.", "_t")
+t("young orc", "jeune orc", "entity name")
+t("This young orc is almost fully formed, with hard muscles prominently visible beneath its thick skin. Whilst it has lost some of the wild energy of its younger siblings you can see the gleams of intelligence and cold calculation behind its dark eyes.", "Ce jeune orc est presque entièrement formé, avec des muscles durs bien visibles sous sa peau épaisse. Bien qu'il ait perdu une partie de l'énergie sauvage de ses jeunes frères et soeurs, vous pouvez voir les lueurs d'intelligence et de calcul froid derrière ses yeux sombres.", "_t")
+t("orc mother", "mère orc", "entity name")
+t([[This giant, bloated form towers above you. Mucus and slime ooze from every orifice, dripping onto the cavern floor. Orc children fight over the right to feed from her distended teats whilst small babies are regularly emerge from folds of flesh. The sight and the smell make you retch.
+Here stands a tremendous form almost the size of a dragon. Bloated skin rises in thick folds, seeping viscous slime from its wide pores. Hundreds of hanging teats feed a small army of squabbling, fighting young orcs - only the toughest of them are able to gain the precious nutrients to grow stronger, the weaker ones left to wither on the mouldy floor. At the top of this towering hulk is a shrivelled head coated in long tangled hair. Dazed eyes peer out with a mixture of sadness and pain, but as they fix on you they turn to anger, the creature's face contorted with the fierce desire to protect its young.]], [[Cette forme géante et gonflée vous domine. Du mucus et de la bave suintent de chaque orifice et s'égouttent sur le sol de la caverne. Les enfants orcs se disputent le droit de se nourrir de ses tétines distendues tandis que de petits bébés sortent régulièrement des replis de sa chair. La vue et l’odeur donnent des haut-le-cœur.
+Ici se dresse une forme énorme, presque de la taille d'un dragon. La peau gonflée se dresse en plis épais, laissant échapper une bave visqueuse de ses larges pores. Des centaines de tétines pendantes nourrissent une petite armée de jeunes orcs qui se chamaillent et se battent. Seuls les plus coriaces d'entre eux sont capables d'acquérir les précieux nutriments nécessaires à leur croissance, les plus faibles étant laissés à pourrir sur le sol moisi. Au sommet de cette imposante carcasse se trouve une tête ratatinée recouverte de longs cheveux emmêlés. Des yeux hébétés vous regardent avec un mélange de tristesse et de douleur, mais lorsqu'ils se fixent sur vous ils se transforment en colère, le visage de la créature se tordant avec le désir farouche de protéger ses petits.]], "_t")
+t("Orc Greatmother", "Grand-Mère Orc", "entity name")
+t("and given to the children as a plaything", "et donné aux enfants comme jouet", "_t")
+t("#PURPLE#As the orc greatmother falls you realize you have dealt a crippling blow to the orcs.", "#PURPLE#Alors que la grand-mère orc tombe, vous réalisez que vous avez porté un coup fatal aux orcs.", "log")
 -- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
-t("orc baby", "orc baby", "entity name")
-t("Crawling on all fours, this green-skinned creature is far from cute, with vicious little sharp teeth and nails, and slime still sticking to its skin.", "Crawling on all fours, this green-skinned creature is far from cute, with vicious little sharp teeth and nails, and slime still sticking to its skin.", "_t")
-t("orc child", "orc child", "entity name")
-t("This small orc has a malicious and greedy look in its eyes. Its veins pulse with new life and it moves with surprising speed. Though not fully developed you can still see the muscles forming on its long limbs, leading to clawed fingers and toes.", "This small orc has a malicious and greedy look in its eyes. Its veins pulse with new life and it moves with surprising speed. Though not fully developed you can still see the muscles forming on its long limbs, leading to clawed fingers and toes.", "_t")
-t("young orc", "young orc", "entity name")
-t("This young orc is almost fully formed, with hard muscles prominently visible beneath its thick skin. Whilst it has lost some of the wild energy of its younger siblings you can see the gleams of intelligence and cold calculation behind its dark eyes.", "This young orc is almost fully formed, with hard muscles prominently visible beneath its thick skin. Whilst it has lost some of the wild energy of its younger siblings you can see the gleams of intelligence and cold calculation behind its dark eyes.", "_t")
-t("orc mother", "orc mother", "entity name")
-t([[This giant, bloated form towers above you. Mucus and slime ooze from every orifice, dripping onto the cavern floor. Orc children fight over the right to feed from her distended teats whilst small babies are regularly emerge from folds of flesh. The sight and the smell make you retch.
-Here stands a tremendous form almost the size of a dragon. Bloated skin rises in thick folds, seeping viscous slime from its wide pores. Hundreds of hanging teats feed a small army of squabbling, fighting young orcs - only the toughest of them are able to gain the precious nutrients to grow stronger, the weaker ones left to wither on the mouldy floor. At the top of this towering hulk is a shrivelled head coated in long tangled hair. Dazed eyes peer out with a mixture of sadness and pain, but as they fix on you they turn to anger, the creature's face contorted with the fierce desire to protect its young.]], [[This giant, bloated form towers above you. Mucus and slime ooze from every orifice, dripping onto the cavern floor. Orc children fight over the right to feed from her distended teats whilst small babies are regularly emerge from folds of flesh. The sight and the smell make you retch.
-Here stands a tremendous form almost the size of a dragon. Bloated skin rises in thick folds, seeping viscous slime from its wide pores. Hundreds of hanging teats feed a small army of squabbling, fighting young orcs - only the toughest of them are able to gain the precious nutrients to grow stronger, the weaker ones left to wither on the mouldy floor. At the top of this towering hulk is a shrivelled head coated in long tangled hair. Dazed eyes peer out with a mixture of sadness and pain, but as they fix on you they turn to anger, the creature's face contorted with the fierce desire to protect its young.]], "_t")
-t("Orc Greatmother", "Orc Greatmother", "entity name")
-t("and given to the children as a plaything", "and given to the children as a plaything", "_t")
-t("#PURPLE#As the orc greatmother falls you realize you have dealt a crippling blow to the orcs.", "#PURPLE#As the orc greatmother falls you realize you have dealt a crippling blow to the orcs.", "log")
 --]==]
 
 
@@ -38491,25 +38491,16 @@ section "mod-tome/data/zones/orc-breeding-pit/objects.lua"
 
 t("draft note", "note brouillonée", "entity name")
 t("A note.", "Une note", "_t")
--- texte non traduit
---[==[
-t("Clinician Korbek's experimental notes", "Clinician Korbek's experimental notes", "entity name")
-t("Birthing new orcs ...", "Birthing new orcs ...", "_t")
-t("Captain Gumlarat's report", "Captain Gumlarat's report", "entity name")
---]==]
-
+t("Clinician Korbek's experimental notes", "Notes expérimentales du clinicien Korbek", "entity name")
+t("Birthing new orcs ...", "Maternité orcs ...", "_t")
+t("Captain Gumlarat's report", "Rapport du capitaine Gumlarat", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/orc-breeding-pit/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Orc breeding pits", "Orc breeding pits", "_t")
-t("Orc Breeding Pit", "Orc Breeding Pit", "_t")
-t("You arrive in a small underground structure. There are orcs there and as soon as they notice you they scream 'Protect the mothers!'.", "You arrive in a small underground structure. There are orcs there and as soon as they notice you they scream 'Protect the mothers!'.", "_t")
---]==]
-
+t("Orc breeding pits", "Fosse d'élevage orcs", "_t")
+t("Orc Breeding Pit", "Fosse d'Élevage Orc", "_t")
+t("You arrive in a small underground structure. There are orcs there and as soon as they notice you they scream 'Protect the mothers!'.", "Vous arrivez dans une petite structure souterraine. Il y a des orcs là-bas et dès qu'ils vous remarquent, ils crient 'Protégez les mères!'.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/paradox-plane/grids.lua"
@@ -38522,36 +38513,26 @@ section "mod-tome/data/zones/paradox-plane/npcs.lua"
 
 t("elemental", "élémentaire", "entity type")
 t("temporal", "temporel", "entity subtype")
+t("A huge being composed of sparking blue and yellow energy stands before you.  It shifts and flows as it moves, at once erratic and graceful.", "Un être immense composé d’énergie bleue et jaune étincelante se tient devant vous. Il bouge et coule au fur et à mesure de ses mouvements, à la fois erratique et gracieux.", "_t")
 -- texte non traduit
 --[==[
 t("Epoch", "Epoch", "entity name")
-t("A huge being composed of sparking blue and yellow energy stands before you.  It shifts and flows as it moves, at once erratic and graceful.", "A huge being composed of sparking blue and yellow energy stands before you.  It shifts and flows as it moves, at once erratic and graceful.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/paradox-plane/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Epoch's Curve", "Epoch's Curve", "entity name")
-t("white ash longbow", "white ash longbow", "_t")
+t("Epoch's Curve", "Courbe d'Epoch", "entity name")
+t("white ash longbow", "arc long en frêne blanc", "_t")
 t([[Epoch's Curve has served the Wardens for generations and was passed from Warden to Warden for many years before being lost.
-According to legend it was made from the first ash sapling to sprout after the Spellblaze and carries powers of both time and renewal.]], [[Epoch's Curve has served the Wardens for generations and was passed from Warden to Warden for many years before being lost.
-According to legend it was made from the first ash sapling to sprout after the Spellblaze and carries powers of both time and renewal.]], "_t")
---]==]
-
+According to legend it was made from the first ash sapling to sprout after the Spellblaze and carries powers of both time and renewal.]], [[La Courbe d'Epoch a servi les Gardiens pendant des générations et a été transmis de Gardien en Gardien pendant de nombreuses années avant d'être perdu.
+Selon la légende, il a été fabriqué à partir du premier frêne à germer après la Brûlure magique et possède des pouvoirs à la fois de temps et de renouveau.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/paradox-plane/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Paradox Plane", "Paradox Plane", "_t")
---]==]
-
+t("Paradox Plane", "Plan du Paradoxe", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/rak-shor-pride/npcs.lua"
@@ -45613,12 +45594,12 @@ t("In the Age of Pyre the orcs learned the secrets of magic, and with their newf
 t("The orcs once terrorised the whole continent. In the Age of Ascendancy they were rendered extinct, but rumours abound of hidden groups biding their time to return.", "Les orcs ont autrefois terrorisé tout le continent. À l'Ere de l'Ascendance, ils ont disparu, mais les rumeurs abondent sur des groupes cachés qui attendent leur retour.", "init.lua load_tips")
 t("Intense willpower lets wyrmics take on the natural powers of dragons.", "Une volonté intense permet aux draconiens de s'approprier les pouvoirs naturels des dragons.", "init.lua load_tips")
 t("Alchemists can transmute gems to create fiery explosions, and are known to travel with a sturdy golem for extra protection.", "Les alchimistes peuvent transmuter les pierres précieuses pour créer des explosions de feu, et sont connus pour voyager avec un golem robuste comme protection supplémentaire.", "init.lua load_tips")
-t("In the Age of Pyre the giant golem Atamathon was built with the sole purpose of stopping the orcish leader Garkul the Devourer. The golem was single-handedly destroyed by the orc, who then slaughtered an army of thousands before the demonic fighter was finally slain.", "Durant l'Ere du Bûcher, le golem géant Atamathon a été construit dans le seul but d'arrêter le chef orque Garkul le Dévoreur. Le golem a été détruit par les orcs, qui ont ensuite massacré une armée de milliers de personnes avant que le combattant démoniaque ne soit finalement tué.", "init.lua load_tips")
+t("In the Age of Pyre the giant golem Atamathon was built with the sole purpose of stopping the orcish leader Garkul the Devourer. The golem was single-handedly destroyed by the orc, who then slaughtered an army of thousands before the demonic fighter was finally slain.", "Durant l'Ere du Bûcher, le golem géant Atamathon a été construit dans le seul but d'arrêter le chef orc Garkul le Dévoreur. Le golem a été détruit par les orcs, qui ont ensuite massacré une armée de milliers de personnes avant que le combattant démoniaque ne soit finalement tué.", "init.lua load_tips")
 t("None know what the Sher'Tul looked like, or what caused them all to disappear thousands of years ago. Their rare ruins are a source of mystery and terror.", "Personne ne sait à quoi ressemblait les Sher'Tul, ni ce qui les a tous fait disparaître il y a des milliers d'années. Leurs rares ruines sont une source de mystère et de terreur.", "init.lua load_tips")
 t("In deep places dark things dwell beyond description or understanding. None know the source of these hideous horrors.", "Dans les endroits les plus profonds, les choses obscures demeurent au-delà de toute description ou compréhension. Personne ne connaît la source de ces hideuses horreurs.", "init.lua load_tips")
 t("Who knows what dark thoughts drive people to necromancy? Its art is as old as magic itself, and its creations have plagued all the races since the earliest memories.", "Qui sait quelles sombres pensées poussent les gens à la nécromancie ? Son art est aussi vieux que la magie elle-même, et ses créations ont tourmenté toutes les races depuis leur plus lointain souvenir.", "init.lua load_tips")
 t("Some say that in their early days the Shaloren kings experimented with necromancy to preserve their flesh after death, but with little success. The Shaloren vehemently deny this.", "Certains disent qu'à leurs débuts, les rois Shaloréens ont expérimenté la nécromancie pour préserver leur chair après la mort, mais sans grand succès. Les Shaloréens le nient avec véhémence.", "init.lua load_tips")
-t("120 years ago Toknor and Mirvenia united the human and halfling kingdoms and wiped out the orcish race, thus establishing the Age of Ascendancy.", "Il y a 120 ans Toknor et Mirvenia ont uni les royaumes humains et halfelin et ont anéanti la race orque, établissant ainsi l'Ere de l'Ascendance.", "init.lua load_tips")
+t("120 years ago Toknor and Mirvenia united the human and halfling kingdoms and wiped out the orcish race, thus establishing the Age of Ascendancy.", "Il y a 120 ans Toknor et Mirvenia ont uni les royaumes humains et halfelin et ont anéanti la race orc, établissant ainsi l'Ere de l'Ascendance.", "init.lua load_tips")
 t("\"The Spellblaze tore Eyal apart and nearly brought about the end of all civilisation. Two thousand years on its shadow still hangs over many lands, and the prideful mages have never been forgiven their place in bringing it about.", "\"La brûlure magique a déchiré Eyal et a failli provoquer la fin de toute civilisation. Deux mille ans plus tard, son ombre plane toujours sur de nombreuses terres, et les orgueilleux mages n'ont jamais été pardonnés pour avoir contribué à sa réalisation.", "init.lua load_tips")
 t("Some are cursed with mental powers beyond their full control, turning them to a dark life powered by hatred.", "Certains sont maudits et ont des pouvoirs mentaux qui échappent à leur contrôle, les transformant en une vie sombre alimentée par la haine.", "init.lua load_tips")
 t("Dreadfell has always been shunned for its haunted crypts, but of late rumours tell of a darker and more terrible power in residence.", "Tombeffroie a toujours été évité en raison de ses cryptes hantées, mais des rumeurs récentes font état d'un pouvoir plus sombre et plus terrible y résidant.", "init.lua load_tips")
@@ -45639,7 +45620,7 @@ t("The Thaloren and Shaloren elves have never had good relations, and have been 
 t("The third elven race, the Naloren, were rendered extinct after a huge cataclysm swept the eastern side of Maj'Eyal into the sea.", "La troisième race elfique, les Naloréens, s'est éteinte après qu'un énorme cataclysme ait balayé le côté est du Maj'Eyal dans la mer.", "init.lua load_tips")
 t("Trolls were once seen as little more than beasts or pests, but the orcs trained them up for use in war and they became much more intelligent and fearsome.", "Les trolls n'étaient autrefois considérés que comme des bêtes ou des nuisibles, mais les orcs les ont entraînés à la guerre et ils sont devenus beaucoup plus intelligents et redoutables.", "init.lua load_tips")
 t("Some say that the foot of a halfling is lucky to own. Halflings do not take well to those who enquire too forcefully.", "Certains disent que le pied d'un halfelin porte chance à celui qui le possède. Les halfelins n'apprécient pas trop ceux qui s'informent avec trop d'insistance.", "init.lua load_tips")
-t("The Nargol empire was once the largest force in Maj'Eyal, but a combination of the Spellblaze and orcish attacks have dwindled it into insignificance.", "L'empire Nargol était autrefois la plus grande force du Maj'Eyal, mais la combinaison de la brûlure magique et des attaques orques l'ont réduit à l'insignifiance.", "init.lua load_tips")
+t("The Nargol empire was once the largest force in Maj'Eyal, but a combination of the Spellblaze and orcish attacks have dwindled it into insignificance.", "L'empire Nargol était autrefois la plus grande force du Maj'Eyal, mais la combinaison de la brûlure magique et des attaques orcs l'ont réduit à l'insignifiance.", "init.lua load_tips")
 t("Some of the most powerful undead do not fall easily, and only through extreme persistence can they be put to rest.", "Certains des morts-vivants les plus puissants ne tombent pas facilement, et ce n'est que grâce à une extrême persistance qu'ils peuvent être mis au repos.", "init.lua load_tips")
 t("History says little of the ancient race of yeeks that lived in halfling territory, but vanished before the time of the Spellblaze.", "L'histoire ne dit pas grand chose de l'ancienne race des Yeeks qui vivait sur le territoire des halfelins, mais qui a disparu avant l'époque de la brûlure magique.", "init.lua load_tips")
 t("Dwarves are naturally a inquisitive people, but do not enjoy such inquisition turned on them. Most live secretive lives in their closed-off city, the Iron Throne.", "Les nains sont naturellement un peuple curieux, mais ils n'apprécient pas qu'une telle curiosité se retourne contre eux. La plupart d'entre eux vivent en secret dans leur ville fermée, le Trône de fer.", "init.lua load_tips")
