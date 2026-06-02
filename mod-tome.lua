@@ -14233,7 +14233,9 @@ And so the chase continues. Over centuries beyond count Branzir has never stoppe
 ------------------------------------------------
 section "mod-tome/data/lore/iron-throne.lua"
 
-
+t("Iron Throne Edict", "Édit du Trône de Fer", "_t")
+t("Iron Throne trade ledger", "Grand registre commercial du Trône de Fer", "_t")
+t("Iron Throne Reknor expedition, last words", "Expédition de Reknor du Trône de Fer, dernieres paroles", "_t")
 -- texte non traduit
 --[==[
 t("iron throne", "iron throne", "newLore category")
@@ -14283,7 +14285,6 @@ t([[#{bold}#28: #{normal}#Mutual defence treaty signed with newly formed Allied 
 #{bold}#120: #{normal}#Orcish raid has stolen many of our stockpiled weapons. Pressures on mining operations have increased, cutting off key stralite veins. Resource protection measures need increasing, whilst threat must be contained beneath us. Profits are stable, but under heavy threat.]], [[#{bold}#28: #{normal}#Mutual defence treaty signed with newly formed Allied Kingdom, and further trade routes opened. Highest ever recorded profit in final quarter of this year.
 #{bold}#115: #{normal}#Noted a return of an orcish presence in the collapsed caverns beneath the Iron Throne. Also increased reports of horrors and demons affecting mining operations. Key strategic decision taken: these must be kept hidden from the other races. Uncertainty will only destabilise the markets. Increase stockpiles of weapons and armour, especially voratun and stralite materials, in case of new war trade.
 #{bold}#120: #{normal}#Orcish raid has stolen many of our stockpiled weapons. Pressures on mining operations have increased, cutting off key stralite veins. Resource protection measures need increasing, whilst threat must be contained beneath us. Profits are stable, but under heavy threat.]], "_t")
-t("Iron Throne Edict", "Iron Throne Edict", "_t")
 t([[#{bold}#AN EDICT TO ALL CITIZENS OF THE IRON THRONE. LONG MAY OUR EMPIRE ENDURE.#{normal}#
 
 The rumours you have heard are true. It is with a heavy heart that I confirm one of our mines, Reknor, has been overtaken and inhabited by a large and organised orcish force. How there could be such a decisive and total failure on our part to stop this threat remains a mystery - the source of the orcish invasion remains unknown. A battalion of soldiers will form a defensive perimeter around Reknor until a force to retake the mine and exterminate the orcs can be mustered. All civilians residing within the surrounding halls are to be evacuated.
@@ -14293,7 +14294,6 @@ This is a grave and unprecedented issue, so I decree an oath of silence to be la
 The rumours you have heard are true. It is with a heavy heart that I confirm one of our mines, Reknor, has been overtaken and inhabited by a large and organised orcish force. How there could be such a decisive and total failure on our part to stop this threat remains a mystery - the source of the orcish invasion remains unknown. A battalion of soldiers will form a defensive perimeter around Reknor until a force to retake the mine and exterminate the orcs can be mustered. All civilians residing within the surrounding halls are to be evacuated.
 
 This is a grave and unprecedented issue, so I decree an oath of silence to be laid upon all citizens of the Iron Throne, regardless of class and station: NO NEWS OF THIS INVASION MUST REACH FOREIGN EARS. We must maintain an image of stability and strength with the Allied Kingdom, as any signs of weakness or internal strife would be catastrophic to our alliance and future trade agreements. Any citizen found divulging this information to any outside party will be punished with exile. Rest assured, I will personally send messages to those outside the Throne who can be trusted with this information, and I trust this orcish intrusion shall be dealt with swiftly and decisively. So speaks the ruler of the Iron Throne, long may our empire endure.]], "_t")
-t("Iron Throne trade ledger", "Iron Throne trade ledger", "_t")
 t([[#{bold}#IRON THRONE TRADE LEDGER - Allied Kingdom#{normal}#
 #{italic}#Age of Ascendancy, 121#{normal}#
 
@@ -14347,7 +14347,6 @@ yes to diamonds. arm our merchants in the caravan, no extra guards. profits are 
 
 low diamond yield this year - +50% charge? ziguranth raided our last ang. caravan - more guards? - D.
 yes to diamonds. arm our merchants in the caravan, no extra guards. profits are thin enough as it is! - S.]], "_t")
-t("Iron Throne Reknor expedition, last words", "Iron Throne Reknor expedition, last words", "_t")
 t("...We are lost. The orcish forces are too great. No matter how many our squad slays, yet more surge from the depths. Where are the cursed creatures coming from?! We have spied their leader, but have had no hope in killing him; he is a beast, a destroyer, burning with fire infernal and ice cruel and chilling. The power these orcs wield now fills me with dread... perhaps they have found new, mighty allies? This news must reach our ruler. My comrades... I am sorry. I will flee once the opportunity arises, but know that your sacrifices will not be in vain. Long may our empire endure.", "...We are lost. The orcish forces are too great. No matter how many our squad slays, yet more surge from the depths. Where are the cursed creatures coming from?! We have spied their leader, but have had no hope in killing him; he is a beast, a destroyer, burning with fire infernal and ice cruel and chilling. The power these orcs wield now fills me with dread... perhaps they have found new, mighty allies? This news must reach our ruler. My comrades... I am sorry. I will flee once the opportunity arises, but know that your sacrifices will not be in vain. Long may our empire endure.", "_t")
 t("Deep Bellow excavation report 1", "Deep Bellow excavation report 1", "_t")
 t([[10 days into initial site survey, hmm! Recent tremors have opened deep new chasms, but we must work cautiously to ensure they're stable before conducting major operations, oh yes! Proceeding well at start, with supports being put in place and no flammable gases detected, hmm hmm.
@@ -38537,25 +38536,20 @@ t("Paradox Plane", "Plan du Paradoxe", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/rak-shor-pride/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Rak'shor, Grand Necromancer of the Pride", "Rak'shor, Grand Necromancer of the Pride", "entity name")
-t("An old orc, wearing black robes. He commands his undead armies to destroy you.", "An old orc, wearing black robes. He commands his undead armies to destroy you.", "_t")
-t("and raised as a malformed servant", "and raised as a malformed servant", "_t")
-t("Rotting Titan", "Rotting Titan", "entity name")
-t("This gigantic mass of flesh and stone moves slowly, the ground rumbling with each step it takes. Its body seems to constantly pulsate and reform. Massive stones at the end of each limb form massive blunt weapons.", "This gigantic mass of flesh and stone moves slowly, the ground rumbling with each step it takes. Its body seems to constantly pulsate and reform. Massive stones at the end of each limb form massive blunt weapons.", "_t")
-t("The ground shakes as %s steps!", "The ground shakes as %s steps!", "logSeen")
-t("Glacial Legion", "Glacial Legion", "entity name")
-t("A massive, shifting, ethereal form floats in the air around an orb of frozen blood.  The air around it condenses into freezing pools on the floor beneath it.", "A massive, shifting, ethereal form floats in the air around an orb of frozen blood.  The air around it condenses into freezing pools on the floor beneath it.", "_t")
-t("Heavy Sentinel", "Heavy Sentinel", "entity name")
-t("A towering creature, made from the bones of countless bodies. An aura of flame billows from within its chest.", "A towering creature, made from the bones of countless bodies. An aura of flame billows from within its chest.", "_t")
-t("Arch Zephyr", "Arch Zephyr", "entity name")
-t("The robes of this ancient vampire billow with intense winds. Bolts of lightning arc along its body. In its hand it holds a bow, electricity streaking across it.", "The robes of this ancient vampire billow with intense winds. Bolts of lightning arc along its body. In its hand it holds a bow, electricity streaking across it.", "_t")
-t("Void Spectre", "Void Spectre", "entity name")
-t("Intense Arcane energy whirls in the air around this ethereal form.", "Intense Arcane energy whirls in the air around this ethereal form.", "_t")
---]==]
-
+t("Rak'shor, Grand Necromancer of the Pride", "Rak'shor, Grand Nécromancien de la Fierté", "entity name")
+t("An old orc, wearing black robes. He commands his undead armies to destroy you.", "Un vieil orc, vêtu d'une robe noire. Il ordonne à ses armées de morts-vivants de vous détruire.", "_t")
+t("and raised as a malformed servant", "et élevé comme un serviteur déformé", "_t")
+t("Rotting Titan", "Titan Pourrissant", "entity name")
+t("This gigantic mass of flesh and stone moves slowly, the ground rumbling with each step it takes. Its body seems to constantly pulsate and reform. Massive stones at the end of each limb form massive blunt weapons.", "Cette gigantesque masse de chair et de pierre se déplace lentement, le sol grondant à chacun de ses pas. Son corps semble constamment palpiter et se reformer. Des pierres massives à l'extrémité de chaque membre forment de massives armes contondantes.", "_t")
+t("The ground shakes as %s steps!", "Le sol tremble à mesure que %s marche!", "logSeen")
+t("Glacial Legion", "Légion Glaciale", "entity name")
+t("A massive, shifting, ethereal form floats in the air around an orb of frozen blood.  The air around it condenses into freezing pools on the floor beneath it.", "Une forme massive, changeante et éthérée flotte dans les airs autour d'un orbe de sang gelé. L'air qui l'entoure se condense en mares glaciales sur le sol en dessous.", "_t")
+t("Heavy Sentinel", "Robuste Sentinelle", "entity name")
+t("A towering creature, made from the bones of countless bodies. An aura of flame billows from within its chest.", "Une créature imposante, constituée des os d'innombrables corps. Une aura de flammes jaillit de sa poitrine.", "_t")
+t("Arch Zephyr", "Arch Zéphyr", "entity name")
+t("The robes of this ancient vampire billow with intense winds. Bolts of lightning arc along its body. In its hand it holds a bow, electricity streaking across it.", "Les robes de cet ancien vampire sont gonflées par des vents intenses. Des éclairs se projettent le long de son corps. Dans sa main il tient un arc parcouru d'électricité.", "_t")
+t("Void Spectre", "Spectre du Vide", "entity name")
+t("Intense Arcane energy whirls in the air around this ethereal form.", "Une énergie arcanique intense tourbillonne dans l’air autour de cette forme éthérée.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/rak-shor-pride/objects.lua"
@@ -38566,85 +38560,67 @@ t("A note.", "Une note", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/rak-shor-pride/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Rak'shor Pride", "Rak'shor Pride", "_t")
---]==]
-
+t("Rak'shor Pride", "Fierté de Rak'shor", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/reknor/grids.lua"
 
 t("Farportal: the Far East", "Portail Lointain: l'Extrême-Orient", "entity name")
--- texte non traduit
---[==[
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to the Far East, a continent of which only rumours are known...]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to the Far East, a continent of which only rumours are known...]], "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on an unfamiliar cave, with no trace of the portal...", "#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on an unfamiliar cave, with no trace of the portal...", "_t")
-t("Iron Throne Edict", "Iron Throne Edict", "entity name")
-t("\"AN EDICT TO ALL CITIZENS OF THE IRON THRONE. LONG MAY OUR EMPIRE ENDURE\"", "\"AN EDICT TO ALL CITIZENS OF THE IRON THRONE. LONG MAY OUR EMPIRE ENDURE\"", "_t")
---]==]
-
+This one seems to go to the Far East, a continent of which only rumours are known...]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
+Celui-ci semble se diriger vers l'Extrême-Orient, un continent dont on n'entend que des rumeurs...]], "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on an unfamiliar cave, with no trace of the portal...", "#VIOLET#Vous entrez dans le portail tourbillonnant et en un clin d'œil vous posez le pied sur une grotte inconnue, sans aucune trace du portail...", "_t")
+t("Iron Throne Edict", "Édit du Trône de Fer", "entity name")
+t("\"AN EDICT TO ALL CITIZENS OF THE IRON THRONE. LONG MAY OUR EMPIRE ENDURE\"", "\"UN ÉDIT À TOUS LES CITOYENS DU TRÔNE DE FER. QUE NOTRE EMPIRE DURE LONGTEMPS\"", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/reknor/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("Golbug the Destroyer", "Golbug le Destructeur", "entity name")
+t("A huge and muscular orc of unknown breed. He looks both menacing and cunning...", "Un orc énorme et musclé de race inconnue. Il a l'air à la fois menaçant et rusé...", "_t")
+t("They say that after it has been confirmed orcs still inhabited Reknor, they found a mighty demon there.", "Ils est dit qu'après qu'il ait été confirmé que les orcs habitaient toujours Reknor, ils y ont trouvé un puissant démon.", "_t")
+t("When last you saw it, this cavern was littered with the corpses of orcs that you had slain. Now many, many more corpses carpet the floor, all charred and reeking of sulfur. An orange glow dimly illuminates the far reaches of the cavern to the east.", "La dernière fois que vous l'avez vue cette caverne était jonchée de cadavres d'orcs que vous aviez tués. Aujourd’hui de très nombreux cadavres recouvrent le sol, tous carbonisés et puant le soufre. Une lueur orange illumine faiblement les confins de la caverne à l’est.", "_t")
 t("human", "humain", "entity subtype")
+t("Harno, Herald of Last Hope", "Harno, Héraut de Dernier Espoir", "entity name")
+t("This is one of the heralds of Last Hope. He seems to be looking for you.", "C'est l'un des hérauts de Dernier Espoir. Il semble vous chercher.", "_t")
+t("#LIGHT_RED#You hear a death cry. '%s I have a messag... ARG!'", "#LIGHT_RED#Vous entendez un cri de mort. '%s J'ai un messa... ARG!'", "logPlayer")
 t("demon", "démon", "entity type")
 t("major", "majeur", "entity subtype")
+t("A terrible demon of decay and atrophy, drawn to the energy of the farportal. A beast of blight!", "Un terrible démon de décomposition et d'atrophie, attiré par l'énergie du portail lointain. Une bête malade!", "_t")
 t("Back and there again", "Retourner et revenir", "_t")
+t("A careful examination of the demon's body turns up a Blood-Runed Athame and a Resonating Diamond, both covered in soot and gore but otherwise in good condition.", "Un examen attentif du corps du démon révèle un Athamé Runes de Sang et un Diamant Résonant, tous deux couverts de suie et de sang mais en bon état.", "_t")
 -- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
-t("Golbug the Destroyer", "Golbug the Destroyer", "entity name")
-t("A huge and muscular orc of unknown breed. He looks both menacing and cunning...", "A huge and muscular orc of unknown breed. He looks both menacing and cunning...", "_t")
-t("They say that after it has been confirmed orcs still inhabited Reknor, they found a mighty demon there.", "They say that after it has been confirmed orcs still inhabited Reknor, they found a mighty demon there.", "_t")
 t("Danger...", "Danger...", "_t")
-t("When last you saw it, this cavern was littered with the corpses of orcs that you had slain. Now many, many more corpses carpet the floor, all charred and reeking of sulfur. An orange glow dimly illuminates the far reaches of the cavern to the east.", "When last you saw it, this cavern was littered with the corpses of orcs that you had slain. Now many, many more corpses carpet the floor, all charred and reeking of sulfur. An orange glow dimly illuminates the far reaches of the cavern to the east.", "_t")
-t("Harno, Herald of Last Hope", "Harno, Herald of Last Hope", "entity name")
-t("This is one of the heralds of Last Hope. He seems to be looking for you.", "This is one of the heralds of Last Hope. He seems to be looking for you.", "_t")
-t("#LIGHT_RED#You hear a death cry. '%s I have a messag... ARG!'", "#LIGHT_RED#You hear a death cry. '%s I have a messag... ARG!'", "logPlayer")
 t("Lithfengel", "Lithfengel", "entity name")
-t("A terrible demon of decay and atrophy, drawn to the energy of the farportal. A beast of blight!", "A terrible demon of decay and atrophy, drawn to the energy of the farportal. A beast of blight!", "_t")
-t("A careful examination of the demon's body turns up a Blood-Runed Athame and a Resonating Diamond, both covered in soot and gore but otherwise in good condition.", "A careful examination of the demon's body turns up a Blood-Runed Athame and a Resonating Diamond, both covered in soot and gore but otherwise in good condition.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/reknor/objects.lua"
 
+t("Sealed Scroll of Last Hope", "Parchemin Scellé de Dernier Espoir", "entity name")
+t("open the seal and read the message", "ouvrez le sceau et lisez le message", "_t")
 t("Resonating Diamond", "Diamant Résonnant", "entity name")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
--- texte non traduit
---[==[
-t("Sealed Scroll of Last Hope", "Sealed Scroll of Last Hope", "entity name")
-t("open the seal and read the message", "open the seal and read the message", "_t")
-t("Blood-Runed Athame", "Blood-Runed Athame", "entity name")
-t("athame", "athame", "_t")
-t("An athame, covered in blood runes. It radiates power.", "An athame, covered in blood runes. It radiates power.", "_t")
-t("Iron Throne Profits History", "Iron Throne Profits History", "entity name")
-t("A journal of the profits history of the Iron Throne dwarves.", "A journal of the profits history of the Iron Throne dwarves.", "_t")
-t("Iron Throne trade ledger", "Iron Throne trade ledger", "entity name")
-t("A trade ledger of the Iron Throne dwarves.", "A trade ledger of the Iron Throne dwarves.", "_t")
-t("Iron Throne Reknor expedition, last words", "Iron Throne Reknor expedition, last words", "entity name")
-t("Last words of a dwarven expedition to secure Reknor.", "Last words of a dwarven expedition to secure Reknor.", "_t")
---]==]
-
+t("Blood-Runed Athame", "Athamé Runes de Sang", "entity name")
+t("athame", "athamé", "_t")
+t("An athame, covered in blood runes. It radiates power.", "Un athamé couvert de runes de sang. Il rayonne de puissance.", "_t")
+t("Iron Throne Profits History", "Historique des Bénéfices du Trône de Fer", "entity name")
+t("A journal of the profits history of the Iron Throne dwarves.", "Un journal sur l'histoire des profits des nains du Trône de Fer.", "_t")
+t("Iron Throne trade ledger", "Grand registre commercial du Trône de Fer", "entity name")
+t("A trade ledger of the Iron Throne dwarves.", "Un registre commercial des nains du Trône de Fer.", "_t")
+t("Iron Throne Reknor expedition, last words", "Expédition de Reknor du Trône de Fer, dernieres paroles", "entity name")
+t("Last words of a dwarven expedition to secure Reknor.", "Derniers mots d'une expédition naine pour sécuriser Reknor.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/reknor/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Lost Dwarven Kingdom of Reknor", "Lost Dwarven Kingdom of Reknor", "_t")
---]==]
-
+t("Lost Dwarven Kingdom of Reknor", "Royaume Nain Perdu de Reknor", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/reknor-escape/grids.lua"
@@ -38655,38 +38631,29 @@ t("The Iron Council (Dwarven empire main city)", "Le Conseil de Fer (ville princ
 section "mod-tome/data/zones/reknor-escape/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("Brotoq the Reaver", "Brotoq le Moissonneur", "entity name")
+t("A huge orc blocks your way to the Iron Council. You must pass.", "Un énorme orc bloque votre chemin vers le Conseil de Fer. Vous devez passer.", "_t")
+t(", who ate their brains still warm,", ", qui ont mangé leur cervelle encore chaude,", "_t")
 t("dwarf", "nain", "entity subtype")
+t("Norgan and you are the sole survivors of the Reknor expedition; your duty is to make sure the news makes it back to the Iron Council.", "Norgan et vous êtes les seuls survivants de l'Expédition de Reknor. Votre devoir est de vous assurer que la nouvelle parvienne au Conseil de Fer.", "_t")
 -- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
-t("Brotoq the Reaver", "Brotoq the Reaver", "entity name")
-t("A huge orc blocks your way to the Iron Council. You must pass.", "A huge orc blocks your way to the Iron Council. You must pass.", "_t")
-t(", who ate their brains still warm,", ", who ate their brains still warm,", "_t")
 t("Norgan", "Norgan", "entity name")
-t("Norgan and you are the sole survivors of the Reknor expedition; your duty is to make sure the news makes it back to the Iron Council.", "Norgan and you are the sole survivors of the Reknor expedition; your duty is to make sure the news makes it back to the Iron Council.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/reknor-escape/objects.lua"
 
+t("Fake Skullcleaver", "Coupe-Crâne Contrefaite", "entity name")
+t("fake crimson waraxe", "fausse hache de guerre cramoisie", "_t")
 t("A small but sharp axe, with a handle made of polished bone.  The blade has chopped through the skulls of many, and has been stained a deep crimson.", "Une hache petite mais tranchante, avec un manche en os poli.  La lame a tranché le crâne de nombreuses personnes et est colorée d'un profond cramoisi.", "_t")
--- texte non traduit
---[==[
-t("Fake Skullcleaver", "Fake Skullcleaver", "entity name")
-t("fake crimson waraxe", "fake crimson waraxe", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/reknor-escape/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Escape from Reknor", "Escape from Reknor", "_t")
---]==]
-
+t("Escape from Reknor", "Evasion de Reknor", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/rhaloren-camp/npcs.lua"
@@ -39458,6 +39425,9 @@ t("Resonating Diamond", "Diamant Résonnant", "entity name")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
+t("Blood-Runed Athame", "Athamé Runes de Sang", "entity name")
+t("athame", "athamé", "_t")
+t("An athame, covered in blood runes. It radiates power.", "Un athamé couvert de runes de sang. Il rayonne de puissance.", "_t")
 t("jewelry", "bijoux", "entity type")
 t("orb", "orbe", "entity subtype")
 t("Orb of Many Ways", "Orbe des Multiples Voies", "entity name")
@@ -39467,9 +39437,6 @@ t("There is no portal to activate here.", "Il n'y a pas de portail à activer ic
 t("tattered paper scrap", "morceau de papier déchiré", "entity name")
 -- texte non traduit
 --[==[
-t("Blood-Runed Athame", "Blood-Runed Athame", "entity name")
-t("athame", "athame", "_t")
-t("An athame, covered in blood runes. It radiates power.", "An athame, covered in blood runes. It radiates power.", "_t")
 t([[The orb projects images of distant places, some that seem not to be of this world, switching rapidly.
 If used near a portal, it could probably activate it.]], [[The orb projects images of distant places, some that seem not to be of this world, switching rapidly.
 If used near a portal, it could probably activate it.]], "_t")
@@ -40859,13 +40826,9 @@ section "mod-tome/data/zones/vor-armoury/objects.lua"
 
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
--- texte non traduit
---[==[
-t("Blood-Runed Athame", "Blood-Runed Athame", "entity name")
-t("athame", "athame", "_t")
-t("An athame, covered in blood runes. It radiates power.", "An athame, covered in blood runes. It radiates power.", "_t")
---]==]
-
+t("Blood-Runed Athame", "Athamé Runes de Sang", "entity name")
+t("athame", "athamé", "_t")
+t("An athame, covered in blood runes. It radiates power.", "Un athamé couvert de runes de sang. Il rayonne de puissance.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/vor-armoury/zone.lua"
