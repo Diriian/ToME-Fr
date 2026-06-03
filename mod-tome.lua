@@ -3425,7 +3425,7 @@ t("You think so? Die.", "Vous le croyez? Meurs.", "_t")
 t("Game? I like playing, what's this about?", "Un jeu? J'aime jouer, de quoi s'agit-il?", "_t")
 t([[Well, you see, it's quite simple. I will mentally take control of various wild creatures or slaves while you use the orb of command on the other side of this room to take control of a slave.
 Then we fight using our pawns for 10 rounds. If your slave survives you will win the Bloodcaller.]], [[Eh bien, vous voyez, c'est assez simple. Je vais prendre mentalement le contrôle de diverses créatures sauvages ou d'esclaves pendant que vous utilisez l'orbe de commande de l'autre côté de cette pièce pour prendre le contrôle d'un esclave.
-Ensuite, nous nous battrons en utilisant nos pions pendant 10 rounds. Si votre esclave survit, vous remporterez le Bloodcaller.]], "_t")
+Ensuite, nous nous battrons en utilisant nos pions pendant 10 rounds. Si votre esclave survit, vous remporterez le Réclameur de Sang.]], "_t")
 t("What if I lose?", "Et si je perd?", "_t")
 t("Blood, death without self-harm risks? Great fun!", "Du sang, la mort sans risque d'automutilation? Quel plaisir!", "_t")
 t("Normally you would be taken as a slave, but you look like you would be more useful as a full-time player, so you can just try again.", "Normalement, vous seriez pris comme esclave, mais vous semblez être plus utile comme joueur à plein temps, donc vous pouvez simplement réessayer.", "_t")
@@ -38659,102 +38659,79 @@ t("Escape from Reknor", "Evasion de Reknor", "_t")
 section "mod-tome/data/zones/rhaloren-camp/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("Rhaloren Inquisitor", "Inquisiteur Rhaloren", "entity name")
+t("This tall elf rushes at you, wielding both her greatsword and magical spells.", "Cette grande elfe se précipite sur vous, brandissant à la fois son épée à deux mains et ses sorts magiques.", "_t")
+t("and hung from the rafters", "et suspendus aux poutres", "_t")
 -- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
-t("Rhaloren Inquisitor", "Rhaloren Inquisitor", "entity name")
-t("This tall elf rushes at you, wielding both her greatsword and magical spells.", "This tall elf rushes at you, wielding both her greatsword and magical spells.", "_t")
-t("and hung from the rafters", "and hung from the rafters", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/rhaloren-camp/objects.lua"
 
+t("letter", "lettre", "entity name")
 t("A letter.", "Une lettre.", "_t")
--- texte non traduit
---[==[
-t("letter", "letter", "entity name")
-t("a carefully preserved letter", "a carefully preserved letter", "entity name")
---]==]
-
+t("a carefully preserved letter", "une lettre bien conservée", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/rhaloren-camp/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Rhaloren Camp", "Rhaloren Camp", "_t")
---]==]
-
+t("Rhaloren Camp", "Camp Rhaloren", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ring-of-blood/grids.lua"
 
-
--- texte non traduit
---[==[
-t("lava pit", "lava pit", "entity name")
-t("Slave Control Orb", "Slave Control Orb", "entity name")
---]==]
-
+t("lava pit", "fosse de lave", "entity name")
+t("Slave Control Orb", "Orbe de Contrôle des Esclaves", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ring-of-blood/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("Blood Master", "Maître du Sang", "entity name")
+t("This small humanoid is covered in silky white fur. Its bulging eyes stare deep into your mind.", "Ce petit humanoïde est recouvert d'une fourrure blanche soyeuse. Ses yeux exorbités vous fixent intensément.", "_t")
+t("spectator", "spectateur", "entity name")
+t("A spectator, who probably paid a lot to watch this bloody \"game\".", "Un spectateur, qui a probablement payé cher pour assister à ce 'spectacle' sanglant.", "_t")
+t("Blood!", "Du Sang!", "_t")
+t("Fight!", "Battez-Vous!", "_t")
+t("To the death!", "À la mort!", "_t")
+t("Oh this is great", "Oh, c'est génial!", "_t")
+t("I love the smell of death...", "J'aime l'odeur de la mort...", "_t")
+t("Slavers forever!", "Esclavagistes à jamais!", "_t")
 t("human", "humain", "entity subtype")
+t("slave combatant", "esclave combattant", "entity name")
+t("This humanoid has been enslaved by the yaech's mental powers.", "Cet humanoïde a été asservi par les pouvoirs mentaux du yaech.", "_t")
+t("slaver", "esclavagiste", "entity name")
+t("A slaver.", "Un esclavagiste.", "_t")
+t("I am free!", "Je suis libre!", "_t")
+t("At last, freedom!", "La liberté, enfin!", "_t")
+t("Thanks for this!", "Merci pour tout!", "_t")
+t("The mental hold is gone!", "L'emprise mentale a disparu.!", "_t")
+t("enthralled slave", "esclave asservi", "entity name")
+t("A slave.", "Un esclave.", "_t")
 -- texte non traduit
 --[==[
 t("yaech", "yaech", "entity subtype")
-t("Blood Master", "Blood Master", "entity name")
-t("This small humanoid is covered in silky white fur. Its bulging eyes stare deep into your mind.", "This small humanoid is covered in silky white fur. Its bulging eyes stare deep into your mind.", "_t")
-t("spectator", "spectator", "entity name")
-t("A spectator, who probably paid a lot to watch this bloody \"game\".", "A spectator, who probably paid a lot to watch this bloody \"game\".", "_t")
-t("Blood!", "Blood!", "_t")
-t("Fight!", "Fight!", "_t")
-t("To the death!", "To the death!", "_t")
-t("Oh this is great", "Oh this is great", "_t")
-t("I love the smell of death...", "I love the smell of death...", "_t")
-t("Slavers forever!", "Slavers forever!", "_t")
-t("slave combatant", "slave combatant", "entity name")
-t("This humanoid has been enslaved by the yaech's mental powers.", "This humanoid has been enslaved by the yaech's mental powers.", "_t")
-t("slaver", "slaver", "entity name")
-t("A slaver.", "A slaver.", "_t")
-t("I am free!", "I am free!", "_t")
-t("At last, freedom!", "At last, freedom!", "_t")
-t("Thanks for this!", "Thanks for this!", "_t")
-t("The mental hold is gone!", "The mental hold is gone!", "_t")
-t("enthralled slave", "enthralled slave", "entity name")
-t("A slave.", "A slave.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/ring-of-blood/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Bloodcaller", "Bloodcaller", "entity name")
-t("You won the Ring of Blood trial, and this is your reward.", "You won the Ring of Blood trial, and this is your reward.", "_t")
-t("bloody ring", "bloody ring", "_t")
+t("Bloodcaller", "Réclameur de Sang", "entity name")
+t("You won the Ring of Blood trial, and this is your reward.", "Vous avez remporté l'épreuve du Cercle de Sang, et voici votre récompense.", "_t")
+t("bloody ring", "anneau sanglant", "_t")
 t([[You heal for 2.5%% of the damage you deal.
-Healing during current combat:  #GREEN#%0.2f#LAST#]], [[You heal for 2.5%% of the damage you deal.
-Healing during current combat:  #GREEN#%0.2f#LAST#]], "tformat")
---]==]
-
+Healing during current combat:  #GREEN#%0.2f#LAST#]], [[Vous récupérez 2.5%% des dégâts que vous infligez.
+Récupération de vie pendant le combat actuel:  #GREEN#%0.2f#LAST#]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ring-of-blood/zone.lua"
 
-t("Ring of Blood", "Cercle de sang", "_t")
--- texte non traduit
---[==[
-t("Slavers Compound (%d)", "Slavers Compound (%d)", "tformat")
---]==]
-
+t("Ring of Blood", "Cercle de Sang", "_t")
+t("Slavers Compound (%d)", "Complexe des Esclavagistes (%d)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ritch-tunnels/npcs.lua"
@@ -38763,27 +38740,22 @@ t("insect", "insecte", "entity type")
 t([[Ritches are giant insects native to the arid wastes of the southern parts of the Far East.
 Vicious predators, they inject corrupting diseases into their foes, and their sharp claws cut through most armours.]], [[Les Ritches sont des insectes géants originaires des plaines arides du sud de l'Extrême-Orient.
 Prédateurs vicieux, ils injectent des maladies corruptrices à leurs ennemis, et leurs griffes acérées transpercent la plupart des armures.]], "_t")
+t(", who incubated her eggs in the corpse,", ", qui a incubé ses oeufs dans le cadavre,", "_t")
+t("ritch flamespitter", "cracheur de flammes ritch", "entity name")
+t("ritch impaler", "empaleur ritch", "entity name")
+t("chitinous ritch", "ritch chitineux", "entity name")
+t("Ritch Great Hive Mother", "Grande Mère de la Ruche Ritch", "entity name")
+t("This huge ritch seems to be the mother of all those here. Her sharp, fiery, claws dart toward you!", "Cette immense créature semble être la mère de toutes celles qui vivent ici. Ses griffes acérées et ardentes se jettent sur vous!", "_t")
 -- texte non traduit
 --[==[
 t("ritch", "ritch", "entity subtype")
-t(", who incubated her eggs in the corpse,", ", who incubated her eggs in the corpse,", "_t")
-t("ritch flamespitter", "ritch flamespitter", "entity name")
-t("ritch impaler", "ritch impaler", "entity name")
-t("chitinous ritch", "chitinous ritch", "entity name")
-t("Ritch Great Hive Mother", "Ritch Great Hive Mother", "entity name")
-t("This huge ritch seems to be the mother of all those here. Her sharp, fiery, claws dart toward you!", "This huge ritch seems to be the mother of all those here. Her sharp, fiery, claws dart toward you!", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/ritch-tunnels/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Ritches Tunnels", "Ritches Tunnels", "_t")
---]==]
-
+t("Ritches Tunnels", "Tunnels des Ritches", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ruined-dungeon/grids.lua"
@@ -40293,6 +40265,7 @@ t("Shatur", "Shatur", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/grids.lua"
 
+t("lava pit", "fosse de lave", "entity name")
 t("cobblestone road", "route pavée", "entity name")
 t("closed gate", "porte fermée", "entity name")
 t("wall", "mur", "entity type")
@@ -40302,7 +40275,6 @@ t("open gate", "porte ouverte", "entity name")
 --[==[
 t("Zigur Postsign", "Zigur Postsign", "entity name")
 t("The laws of the Ziguranth", "The laws of the Ziguranth", "_t")
-t("lava pit", "lava pit", "entity name")
 t("cultivated fields", "cultivated fields", "entity name")
 t("giant rock", "giant rock", "entity name")
 --]==]
