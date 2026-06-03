@@ -38760,32 +38760,32 @@ t("Ritches Tunnels", "Tunnels des Ritches", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/ruined-dungeon/grids.lua"
 
+t("way into the infinite dungeon", "passage vers le donjon infini", "entity name")
 t("Infinite Dungeon", "Donjon Infini", "_t")
+t("You have accomplished great deads, but if you enter the infinite dungeon there will be no way back you will go on and on until you meet your glorious death.", "Vous avez accompli de grandes choses, mais si vous entrez dans le donjon infini, il n'y aura pas de retour possible. Vous errerez sans fin jusqu'à trouver une mort glorieuse.", "_t")
+t("You should not go there. There is no way back. Ever. Maybe later when you have done all you must do.", "Vous ne devriez pas y aller. Il n'y a pas de retour possible. Jamais. Peut-être plus tard, quand vous aurez fait tout ce que vous avez à faire.", "_t")
 t("sealed door", "porte scellée", "entity name")
 t("orb", "orbe", "entity name")
+t("Strange Orb", "Orbe Étrange", "_t")
+t("The orb looks inactive.", "L'orbe semble inactive.", "_t")
+t("The orb seems to drip water.", "L'orbe semble dégouliner d'eau.", "_t")
+t("The orb is covered in dust.", "L'orbe est recouverte de poussière.", "_t")
+t("The orb is floating in the air.", "L'orbe flotte dans les airs.", "_t")
+t("Small seeds seem to be growing inside the orb.", "De petites graines semblent pousser à l'intérieur de l'orbe.", "_t")
+t("The orb swirls with magical energies.", "L'orbe tourbillonne d'énergies magiques.", "_t")
+t("Flames burst out of the orb.", "Des flammes jaillissent de l'orbe.", "_t")
+t("The orb seems to absorb all light.", "L'orbe semble absorber toute la lumière.", "_t")
+t("The orb is drips with thick blood.", "L'orbe dégouline d'un sang épais.", "_t")
+t("The orb is icy to the touch.", "L'orbe est glacée au toucher.", "_t")
+t("Time seems to slow down around the orb.", "Le temps semble ralentir autour de l'orbe.", "_t")
+t("Your mind is filled with strange thoughts as you approach the orb.", "Votre esprit est envahi de pensées étranges à mesure que vous vous approchez de l'orbe.", "_t")
+t("The orb seems to corrupt all it touches.", "L'orbe semble corrompre tout ce qu'elle touche.", "_t")
+t("\
+Do you touch it?", "\
+Vous la touchez?", "_t")
 -- texte non traduit
 --[==[
 t("inscription", "inscription", "entity name")
-t("way into the infinite dungeon", "way into the infinite dungeon", "entity name")
-t("You have accomplished great deads, but if you enter the infinite dungeon there will be no way back you will go on and on until you meet your glorious death.", "You have accomplished great deads, but if you enter the infinite dungeon there will be no way back you will go on and on until you meet your glorious death.", "_t")
-t("You should not go there. There is no way back. Ever. Maybe later when you have done all you must do.", "You should not go there. There is no way back. Ever. Maybe later when you have done all you must do.", "_t")
-t("Strange Orb", "Strange Orb", "_t")
-t("The orb looks inactive.", "The orb looks inactive.", "_t")
-t("The orb seems to drip water.", "The orb seems to drip water.", "_t")
-t("The orb is covered in dust.", "The orb is covered in dust.", "_t")
-t("The orb is floating in the air.", "The orb is floating in the air.", "_t")
-t("Small seeds seem to be growing inside the orb.", "Small seeds seem to be growing inside the orb.", "_t")
-t("The orb swirls with magical energies.", "The orb swirls with magical energies.", "_t")
-t("Flames burst out of the orb.", "Flames burst out of the orb.", "_t")
-t("The orb seems to absorb all light.", "The orb seems to absorb all light.", "_t")
-t("The orb is drips with thick blood.", "The orb is drips with thick blood.", "_t")
-t("The orb is icy to the touch.", "The orb is icy to the touch.", "_t")
-t("Time seems to slow down around the orb.", "Time seems to slow down around the orb.", "_t")
-t("Your mind is filled with strange thoughts as you approach the orb.", "Your mind is filled with strange thoughts as you approach the orb.", "_t")
-t("The orb seems to corrupt all it touches.", "The orb seems to corrupt all it touches.", "_t")
-t("\
-Do you touch it?", "\
-Do you touch it?", "_t")
 --]==]
 
 
@@ -38795,58 +38795,41 @@ section "mod-tome/data/zones/ruined-dungeon/zone.lua"
 t("Ruined Dungeon", "Donjon en ruines", "_t")
 t("#rng# the Guardian", "#rng# le Gardien", "_t")
 t("Guardian", "Guardien", "_t")
+t("You can hear a magical trigger firing off.", "Vous entendez un interrupteur magique se déclencher.", "_t")
+t("Strange Orb", "Orbe Étrange", "_t")
+t("The orb seems to react badly to your touch; there is a high shriek!", "L'orbe semble mal réagir à votre contact. Un cri strident retentit!", "_t")
+t("The orb burns to your touch and a loud shout screams out!", "L'orbe brûle au contact de votre doigt et un cri strident retentit!", "_t")
+t("The orb reacts violently to your touch and the walls begin to rumble!", "L'orbe réagit violemment à votre contact et les murs se mettent à trembler!", "_t")
 t("%s appears out of the thin air!", "%s surgit de nulle part!", "logSeen")
--- texte non traduit
---[==[
-t("You can hear a magical trigger firing off.", "You can hear a magical trigger firing off.", "_t")
-t("Strange Orb", "Strange Orb", "_t")
-t("The orb seems to react badly to your touch; there is a high shriek!", "The orb seems to react badly to your touch; there is a high shriek!", "_t")
-t("The orb burns to your touch and a loud shout screams out!", "The orb burns to your touch and a loud shout screams out!", "_t")
-t("The orb reacts violently to your touch and the walls begin to rumble!", "The orb reacts violently to your touch and the walls begin to rumble!", "_t")
-t("The orb glows brightly. There is a loud crack coming from the northern central chamber.", "The orb glows brightly. There is a loud crack coming from the northern central chamber.", "_t")
-t("The orb glows brightly.", "The orb glows brightly.", "_t")
---]==]
-
+t("The orb glows brightly. There is a loud crack coming from the northern central chamber.", "L'orbe brille intensément. Un craquement sonore retentit dans la chambre centrale nord.", "_t")
+t("The orb glows brightly.", "L'orbe brille intensément.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ruins-kor-pul/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("skeleton", "squelette", "entity subtype")
+t("The Shade", "L'Ombre", "entity name")
+t("This skeleton looks nasty. There are red flames in its empty eye sockets. It wields a nasty sword and strides toward you, throwing spells.", "Ce squelette est terrifiant. Des flammes rouges brûlent dans ses orbites vides. Il manie une épée menaçante et s'avance vers vous en lançant des sorts.", "_t")
+t("and left to rot", "et laissé à pourrir", "_t")
+t(".. yes I tell you! The old ruins of Kor'Pul are still haunted!", ".. oui, je vous le dis! Les vieilles ruines de Kor'Pul sont toujours hantées!", "_t")
+t("The Possessed", "Le possédé", "entity name")
+t("He is the leader of a gang of bandits that killed the Shade of Kor'Pul, however it is obvious the Shade was merely displaced. It is now possessing the corpse of his killer.", "Il est le chef d'une bande de brigands qui a tué l'Ombre de Kor'Pul, mais il est évident que cette dernière n'a été que déplacé. Elle possède désormais le corps de son assassin.", "_t")
+t("and used as a new host", "et utilisé comme nouvel hôte", "_t")
 t("ghost", "fantôme", "entity subtype")
--- texte non traduit
---[==[
-t("The Shade", "The Shade", "entity name")
-t("This skeleton looks nasty. There are red flames in its empty eye sockets. It wields a nasty sword and strides toward you, throwing spells.", "This skeleton looks nasty. There are red flames in its empty eye sockets. It wields a nasty sword and strides toward you, throwing spells.", "_t")
-t("and left to rot", "and left to rot", "_t")
-t(".. yes I tell you! The old ruins of Kor'Pul are still haunted!", ".. yes I tell you! The old ruins of Kor'Pul are still haunted!", "_t")
-t("The Possessed", "The Possessed", "entity name")
-t("He is the leader of a gang of bandits that killed the Shade of Kor'Pul, however it is obvious the Shade was merely displaced. It is now possessing the corpse of his killer.", "He is the leader of a gang of bandits that killed the Shade of Kor'Pul, however it is obvious the Shade was merely displaced. It is now possessing the corpse of his killer.", "_t")
-t("and used as a new host", "and used as a new host", "_t")
-t("Kor's Fury", "Kor's Fury", "entity name")
-t("The Shade's colossal will keeps it anchored to this world, now as a vengeful, insane spirit.", "The Shade's colossal will keeps it anchored to this world, now as a vengeful, insane spirit.", "_t")
---]==]
-
+t("Kor's Fury", "Fureur de Kor", "entity name")
+t("The Shade's colossal will keeps it anchored to this world, now as a vengeful, insane spirit.", "La volonté colossale de l'Ombre la maintient ancrée à ce monde, désormais sous la forme d'un esprit vengeur et dément.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ruins-kor-pul/objects.lua"
 
 t("journal page", "page de journal", "entity name")
--- texte non traduit
---[==[
-t("A journal page, left by an adventurer.", "A journal page, left by an adventurer.", "_t")
---]==]
-
+t("A journal page, left by an adventurer.", "Une page de journal, laissée par un aventurier.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ruins-kor-pul/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Ruins of Kor'Pul", "Ruins of Kor'Pul", "_t")
---]==]
-
+t("Ruins of Kor'Pul", "Ruines de Kor'Pul", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/sandworm-lair/npcs.lua"
@@ -40884,6 +40867,7 @@ t("water", "eau", "entity subtype")
 t("deep water", "eau profonde", "entity name")
 t("rockwall", "mur de roche", "entity type")
 t("sand", "sable", "entity subtype")
+t("Ruins of Kor'Pul", "Ruines de Kor'Pul", "entity name")
 -- texte non traduit
 --[==[
 t("plains", "plains", "entity name")
@@ -40940,7 +40924,6 @@ t("A path into the Old Forest", "A path into the Old Forest", "entity name")
 t("Passageway into Norgos' Lair", "Passageway into Norgos' Lair", "entity name")
 t("Passageway into the Daikara", "Passageway into the Daikara", "entity name")
 t("The entry to the old tower of Dreadfell", "The entry to the old tower of Dreadfell", "entity name")
-t("Ruins of Kor'Pul", "Ruins of Kor'Pul", "entity name")
 t("Very old halfling ruins", "Very old halfling ruins", "entity name")
 t("Entrance to the Scintillating Caves", "Entrance to the Scintillating Caves", "entity name")
 t("Stairway into the Rhaloren Camp", "Stairway into the Rhaloren Camp", "entity name")
