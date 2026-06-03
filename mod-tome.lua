@@ -38836,114 +38836,91 @@ section "mod-tome/data/zones/sandworm-lair/npcs.lua"
 
 t("vermin", "vermine", "entity type")
 t("sandworm", "ver des sables", "entity subtype")
-t("sand", "sable", "entity subtype")
--- texte non traduit
---[==[
-t("sandworm burrower", "sandworm burrower", "entity name")
+t("sandworm burrower", "ver des sables fouisseur", "entity name")
 t([[This sandworm seems to not care about your presence at all and simply continues digging its way through the sand.
 	
-Maybe following it is the only way to move around here...]], [[This sandworm seems to not care about your presence at all and simply continues digging its way through the sand.
-	
-Maybe following it is the only way to move around here...]], "_t")
-t("huge sandworm burrower", "huge sandworm burrower", "entity name")
-t("Sandworm Queen", "Sandworm Queen", "entity name")
-t("Before you stands the queen of the sandworms. Massive and bloated, she slithers toward you, calling for her offspring!", "Before you stands the queen of the sandworms. Massive and bloated, she slithers toward you, calling for her offspring!", "_t")
-t("and swallowed whole", "and swallowed whole", "_t")
-t("Rumbling...", "Rumbling...", "_t")
-t("The ground shakes.  Something very large is stirring in the distance.", "The ground shakes.  Something very large is stirring in the distance.", "_t")
-t("Did you hear? Something seems to have devoured all the last sandworms!", "Did you hear? Something seems to have devoured all the last sandworms!", "_t")
+Maybe following it is the only way to move around here...]], [[Ce ver des sables semble totalement indifférent à votre présence et continue simplement de creuser son chemin dans le sable.
+
+Le suivre est peut-être le seul moyen de se déplacer ici…]], "_t")
+t("huge sandworm burrower", "énorme ver des sables fouisseur", "entity name")
+t("Sandworm Queen", "Reine des vers des sables", "entity name")
+t("Before you stands the queen of the sandworms. Massive and bloated, she slithers toward you, calling for her offspring!", "Devant vous se dresse la reine des vers des sables. Massive et boursouflée, elle rampe vers vous en appelant sa progéniture!", "_t")
+t("and swallowed whole", "et avalé tout entier", "_t")
+t("Rumbling...", "Grondement...", "_t")
+t("The ground shakes.  Something very large is stirring in the distance.", "Le sol tremble. Quelque chose de très grand s'agite au loin.", "_t")
+t("Did you hear? Something seems to have devoured all the last sandworms!", "Vous avez entendu? Il semblerait que quelque chose ait dévoré tous les derniers vers des sables!", "_t")
+t("sand", "sable", "entity subtype")
+t("Corrupted Sand Wyrm", "Ver des sables corrompu", "entity name")
+t("The sandworms are gone, devoured by this shrieking, warped horror.", "Les vers des sables ont disparu, dévorés par cette horreur hurlante et difforme.", "_t")
+-- texte non traduit
+--[==[
 t("dragon", "dragon", "entity type")
-t("Corrupted Sand Wyrm", "Corrupted Sand Wyrm", "entity name")
-t("The sandworms are gone, devoured by this shrieking, warped horror.", "The sandworms are gone, devoured by this shrieking, warped horror.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/sandworm-lair/objects.lua"
 
+t("Song of the Sands", "Chant des Sables", "entity name")
+t("Some people get the weirdest ideas!", "Certaines personnes ont des idées vraiment bizarres!", "_t")
 t("corpse", "cadavre", "entity type")
 t("heart", "coeur", "entity subtype")
 t("Heart of the Sandworm Queen", "Coeur de la Reine des Vers des Sables", "entity name")
 t("pulsing organ", "organe pulsant", "_t")
+t([[The heart of the Sandworm Queen, ripped from her dead body.
+You could ... consume it, should you feel mad enough or you could try to corrupt it somewhere.]], [[Le coeur de la Reine des Vers des Sables, arraché de son cadavre.
+Vous pourriez… le consommer, si la folie vous gagne, ou tenter de le corrompre quelque part ]], "_t")
 t("consume the heart", "consommer le coeur", "_t")
+t("#00FFFF#You consume the heart and feel the knowledge of this very old creature fill you!", "#00FFFF#Vous consommez le coeur et sentez la connaissance de cette créature très ancienne vous envahir!", "logPlayer")
 t("You have %d stat point(s) to spend. Press p to use them.", "Vous disposez de %d points de stats à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
 t("You have %d class talent point(s) to spend. Press p to use them.", "Vous disposez de %d points de talent de classe à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
 t("You have %d generic talent point(s) to spend. Press p to use them.", "Vous disposez de %d points de talent génériques à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
+t("You are transformed by the heart of the Queen!", "Vous êtes transformés par le coeur de la Reine!", "logPlayer")
+t("#00FF00#You gain an affinity for nature. You can now learn new Harmony talents (press p).", "#00FF00#Vous développez une affinité pour la nature. Vous pouvez désormais apprendre les talents d'Harmonie (appuyez sur p).", "logPlayer")
 t("blood", "sang", "entity subtype")
+t("Wyrm Bile", "Bile de Ver", "entity name")
+t("putrescent potion", "potion putride", "_t")
+t("A vial of thick, lumpy fluid. Who knows what this will do to you if you drink it?", "Une fiole contenant un liquide épais et grumeleux. Qui sait quels effets cela aura sur vous si vous la buvez?", "_t")
+t("drink the vile fluid", "boire le liquide immonde", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
+t("#00FFFF#You drink the wyrm bile and feel forever transformed!", "#00FFFF#Vous buvez la bile du Ver et vous vous sentez transformé à jamais!", "logPlayer")
+t("You have %d category point(s) to spend. Press p to use them.", "Vous disposez de %d points de catégorie à dépenser. Appuyez sur p pour les utiliser.", "log")
+t("#00FF00#Your stats have changed! (Str %s, Dex %s, Mag %s, Wil %s, Cun %s, Con %s)", "#00FF00#Vos stats ont changé! (For %s, Dex %s, Mag %s, Vol %s, Rus %s, Con %s)", "logPlayer")
 t("red", "rouge", "entity subtype")
--- texte non traduit
---[==[
-t("Song of the Sands", "Song of the Sands", "entity name")
-t("Some people get the weirdest ideas!", "Some people get the weirdest ideas!", "_t")
-t([[The heart of the Sandworm Queen, ripped from her dead body.
-You could ... consume it, should you feel mad enough or you could try to corrupt it somewhere.]], [[The heart of the Sandworm Queen, ripped from her dead body.
-You could ... consume it, should you feel mad enough or you could try to corrupt it somewhere.]], "_t")
-t("#00FFFF#You consume the heart and feel the knowledge of this very old creature fill you!", "#00FFFF#You consume the heart and feel the knowledge of this very old creature fill you!", "logPlayer")
-t("You are transformed by the heart of the Queen!", "You are transformed by the heart of the Queen!", "logPlayer")
-t("#00FF00#You gain an affinity for nature. You can now learn new Harmony talents (press p).", "#00FF00#You gain an affinity for nature. You can now learn new Harmony talents (press p).", "logPlayer")
-t("Wyrm Bile", "Wyrm Bile", "entity name")
-t("putrescent potion", "putrescent potion", "_t")
-t("A vial of thick, lumpy fluid. Who knows what this will do to you if you drink it?", "A vial of thick, lumpy fluid. Who knows what this will do to you if you drink it?", "_t")
-t("drink the vile fluid", "drink the vile fluid", "_t")
-t("#00FFFF#You drink the wyrm bile and feel forever transformed!", "#00FFFF#You drink the wyrm bile and feel forever transformed!", "logPlayer")
-t("You have %d category point(s) to spend. Press p to use them.", "You have %d category point(s) to spend. Press p to use them.", "log")
-t("#00FF00#Your stats have changed! (Str %s, Dex %s, Mag %s, Wil %s, Cun %s, Con %s)", "#00FF00#Your stats have changed! (Str %s, Dex %s, Mag %s, Wil %s, Cun %s, Con %s)", "logPlayer")
-t("Atamathon's Lost Ruby Eye", "Atamathon's Lost Ruby Eye", "entity name")
+t("Atamathon's Lost Ruby Eye", "Oeil de rubis perdu d'Atamathon", "entity name")
 t([[One of the ruby eyes of the legendary giant golem Atamathon.
-It is said it was made by the halflings during the Age of Pyre as a weapon against the orcs. Even though it was destroyed it managed to deal a crippling blow by killing their leader, Garkul the Devourer.]], [[One of the ruby eyes of the legendary giant golem Atamathon.
-It is said it was made by the halflings during the Age of Pyre as a weapon against the orcs. Even though it was destroyed it managed to deal a crippling blow by killing their leader, Garkul the Devourer.]], "_t")
---]==]
-
+It is said it was made by the halflings during the Age of Pyre as a weapon against the orcs. Even though it was destroyed it managed to deal a crippling blow by killing their leader, Garkul the Devourer.]], [[L'un des yeux en rubis du légendaire golem géant Atamathon.
+On raconte qu'il fut forgé par les Halfelins durant l'Ère du Bûcher comme arme contre les orcs. Bien que détruit, il parvint à porter un coup fatal en tuant leur chef, Garkul le Dévoreur.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/sandworm-lair/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Sandworm lair", "Sandworm lair", "_t")
-t("#OLIVE_DRAB#You feel the ground shaking from the west.", "#OLIVE_DRAB#You feel the ground shaking from the west.", "log")
---]==]
-
+t("Sandworm lair", "Repaire des vers des sables", "_t")
+t("#OLIVE_DRAB#You feel the ground shaking from the west.", "#OLIVE_DRAB#Vous sentez le sol trembler à l'ouest.", "log")
 
 ------------------------------------------------
 section "mod-tome/data/zones/scintillating-caves/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Spellblaze Crystal", "Spellblaze Crystal", "entity name")
-t("A formation of purple crystal. It seems strangely aware.", "A formation of purple crystal. It seems strangely aware.", "_t")
-t("and vaporised into nothingness", "and vaporised into nothingness", "_t")
-t("I heard that some old crystals are nearly alive now in the scintillating caves.", "I heard that some old crystals are nearly alive now in the scintillating caves.", "_t")
-t("Spellblaze Simulacrum", "Spellblaze Simulacrum", "entity name")
-t("A formation of purple crystal, but where the others could only be described as polyhedral, this construct seems to strangely resemble... you, if you were much, much larger.", "A formation of purple crystal, but where the others could only be described as polyhedral, this construct seems to strangely resemble... you, if you were much, much larger.", "_t")
---]==]
-
+t("Spellblaze Crystal", "Cristal de la Brûlure Magique", "entity name")
+t("A formation of purple crystal. It seems strangely aware.", "Une formation de cristaux violets. Elle semble étrangement consciente.", "_t")
+t("and vaporised into nothingness", "et vaporisé dans le néant", "_t")
+t("I heard that some old crystals are nearly alive now in the scintillating caves.", "J'ai entendu dire que certains vieux cristaux sont presque vivants maintenant dans les grottes scintillantes.", "_t")
+t("Spellblaze Simulacrum", "Simulacre de la Brûlure Magique", "entity name")
+t("A formation of purple crystal, but where the others could only be described as polyhedral, this construct seems to strangely resemble... you, if you were much, much larger.", "Une formation de cristaux violets, mais là où les autres ne pouvaient être décrites que comme polyédriques, cette structure semble étrangement ressembler à… vous, si vous étiez beaucoup, beaucoup plus grand.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/scintillating-caves/objects.lua"
 
+t("research log", "journal de recherche", "entity name")
 t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un aventurier.", "_t")
--- texte non traduit
---[==[
-t("research log", "research log", "entity name")
-t("exploration log", "exploration log", "entity name")
---]==]
-
+t("exploration log", "journal d'exploration", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/scintillating-caves/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Scintillating Caves", "Scintillating Caves", "_t")
-t("Caves...", "Caves...", "_t")
-t("As you enter the caves you notice the magic here has distorted the land, making sharp angles and turns.", "As you enter the caves you notice the magic here has distorted the land, making sharp angles and turns.", "_t")
---]==]
-
+t("Scintillating Caves", "Grottes Scintillantes", "_t")
+t("Caves...", "Grottes...", "_t")
+t("As you enter the caves you notice the magic here has distorted the land, making sharp angles and turns.", "En entrant dans les grottes, on remarque que la magie a déformé le paysage, créant des angles et des virages abrupts.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/shadow-crypt/grids.lua"
