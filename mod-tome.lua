@@ -38349,7 +38349,7 @@ t("naga tidewarden", "gardien de marées naga", "entity name")
 t("naga tidecaller", "appeleur de marées naga", "entity name")
 t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful elf-like woman. As she moves her delicate hands water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "Un bruissement accompagne les mouvements de cette étrange créature, dont la queue serpentine se prolonge jusqu'au corps d'une belle femme aux allures d'elfe. Au moindre mouvement de ses mains délicates l'eau jaillit du sol et l'on comprend qu'il ne s'agit pas d'un simple monstre, mais d'une créature impressionnante de puissance et de fascination.", "_t")
 t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "Des yeux verts vous fixent depuis une longue chevelure dorée qui ondule sur une peau lisse et pâle. Votre regard est d'abord attiré par la chair nue mais en s'attardant davantage vous apercevez des écailles sombres qui s'étirent en une longue queue de serpent. Vous levez les yeux lorsqu'elle bouge, ses cheveux s'écartant pour révéler un visage fin et beau aux pommettes hautes et aux lèvres pulpeuses. Malgré toute la fascination de cette créature merveilleuse, la terreur que suscite la queue serpentine vous glace le sang.", "_t")
-t("Lady Nashva the Streambender", "Dame Nashva Maîtresse Cours d'Eau", "entity name")
+t("Lady Nashva the Streambender", "Dame Nashva la Maîtresse des Cours d'Eau", "entity name")
 t("Water circles slowly on the ground around this naga's tail. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "L'eau forme de lents cercles autour de la queue de cette naga. Sa queue sombre est enroulée serrée ce qui la fait paraître petite, mais son regard calme et assuré vous garantit qu'elle ne se laissera pas vaincre facilement. Tandis que l'eau commence à monter autour d'elle l'air se met à scintiller, et vous sentez son regard obscur vous transpercer d'une manière qui vous met mal à l'aise.", "_t")
 t("and brought back to Vargh for experimentations", "et ramenés à Vargh pour ses expériences", "_t")
 -- texte non traduit
@@ -39073,125 +39073,98 @@ t("wall", "mur", "entity type")
 t("water", "eau", "entity subtype")
 t("tree", "arbre", "entity name")
 t("bog water", "eau de tourbière", "entity name")
+t("coral portal", "portail de corail", "entity name")
 t("#VIOLET#The portal is already broken!", "#VIOLET#Le portail est déjà cassé!", "log")
--- texte non traduit
---[==[
-t("coral portal", "coral portal", "entity name")
-t("destroying the portal", "destroying the portal", "_t")
-t("destroyed the portal", "destroyed the portal", "_t")
-t("#VIOLET#The portal starts to break down, run!", "#VIOLET#The portal starts to break down, run!", "log")
---]==]
-
+t("destroying the portal", "détruire le portail", "_t")
+t("destroyed the portal", "a détruit le portail", "_t")
+t("#VIOLET#The portal starts to break down, run!", "#VIOLET#Le portail commence à s'effondrer, courez!", "log")
 
 ------------------------------------------------
 section "mod-tome/data/zones/slazish-fen/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("naga tidewarden", "gardien de marées naga", "entity name")
+t("Before you stands a tall figure, propped high by a serpent's tail in place of where his legs should rightly be. His torso is slim and muscular, and his face has an elven beauty to it, framed by locks of blonde hair. But there is a fierceness to this creature too, and his bright eyes veil a smouldering anger.", "Devant vous se dresse une silhouette imposante, perchée sur une queue de serpent qui remplace ses jambes. Son torse est svelte et musclé, et son visage, d'une beauté elfique, est encadré de mèches blondes. Mais cette créature recèle aussi une férocité, et ses yeux brillants dissimulent une colère sourde.", "_t")
 t("naga tidecaller", "appeleur de marées naga", "entity name")
+t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful Elf-like woman. As she moves her delicate hands, water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "Un bruissement accompagne les mouvements de cette étrange créature, dont la queue serpentine se prolonge en un corps de femme d'une beauté elfique. Au mouvement de ses mains délicates, l'eau jaillit du sol, et l'on comprend qu'il ne s'agit pas d'un simple monstre, mais d'une créature impressionnante de puissance et de fascination.", "_t")
 t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "Des yeux verts vous fixent depuis une longue chevelure dorée qui ondule sur une peau lisse et pâle. Votre regard est d'abord attiré par la chair nue mais en s'attardant davantage vous apercevez des écailles sombres qui s'étirent en une longue queue de serpent. Vous levez les yeux lorsqu'elle bouge, ses cheveux s'écartant pour révéler un visage fin et beau aux pommettes hautes et aux lèvres pulpeuses. Malgré toute la fascination de cette créature merveilleuse, la terreur que suscite la queue serpentine vous glace le sang.", "_t")
+t("Lady Zoisla the Tidebringer", "Dame Zoisla la Porteuse de Marées", "entity name")
+t("Water circles slowly on the ground around this naga's tail, some droplets leaping up now and then as if they are impatient to do their mistress' bidding. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "L'eau tournoie lentement autour de la queue de cette naga, quelques gouttelettes jaillissant de temps à autre, comme impatientes d'obéir à leur maîtresse. Sa queue sombre est enroulée serrée, la faisant paraître petite, mais son regard calme et assuré vous garantit qu'elle ne se laissera pas facilement vaincre. Tandis que l'eau commence à monter autour d'elle, l'air se met à scintiller, et vous sentez son regard obscur vous transpercer trop profondément pour être rassurant.", "_t")
+t("and brought back to Vargh for experimentation", "et ramenés à Vargh pour des expérimentations", "_t")
 -- texte non traduit
 --[==[
 t("naga", "naga", "entity subtype")
-t("Before you stands a tall figure, propped high by a serpent's tail in place of where his legs should rightly be. His torso is slim and muscular, and his face has an elven beauty to it, framed by locks of blonde hair. But there is a fierceness to this creature too, and his bright eyes veil a smouldering anger.", "Before you stands a tall figure, propped high by a serpent's tail in place of where his legs should rightly be. His torso is slim and muscular, and his face has an elven beauty to it, framed by locks of blonde hair. But there is a fierceness to this creature too, and his bright eyes veil a smouldering anger.", "_t")
-t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful Elf-like woman. As she moves her delicate hands, water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful Elf-like woman. As she moves her delicate hands, water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "_t")
 t("naga nereid", "naga nereid", "entity name")
-t("Lady Zoisla the Tidebringer", "Lady Zoisla the Tidebringer", "entity name")
-t("Water circles slowly on the ground around this naga's tail, some droplets leaping up now and then as if they are impatient to do their mistress' bidding. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "Water circles slowly on the ground around this naga's tail, some droplets leaping up now and then as if they are impatient to do their mistress' bidding. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "_t")
-t("and brought back to Vargh for experimentation", "and brought back to Vargh for experimentation", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/slazish-fen/objects.lua"
 
-
--- texte non traduit
---[==[
-t("weird conch", "weird conch", "entity name")
-t("A conch; it seems the naga was using it as a communication tool.", "A conch; it seems the naga was using it as a communication tool.", "_t")
-t("Robes of Deflection", "Robes of Deflection", "entity name")
-t("iridescent robe", "iridescent robe", "_t")
-t("This set of robes seems to shine with metallic colors.", "This set of robes seems to shine with metallic colors.", "_t")
---]==]
-
+t("weird conch", "conque étrange", "entity name")
+t("A conch; it seems the naga was using it as a communication tool.", "Un coquillage. Il semblerait que le naga l'utilisait comme outil de communication.", "_t")
+t("Robes of Deflection", "Robes de Déviation", "entity name")
+t("iridescent robe", "robe irisée", "_t")
+t("This set of robes seems to shine with metallic colors.", "Cet ensemble de robes semble briller de reflets métalliques.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/slazish-fen/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Slazish Fens", "Slazish Fens", "_t")
---]==]
-
+t("Slazish Fens", "Marais de Slazish", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/slime-tunnels/grids.lua"
 
-t("sealed door", "porte scellée", "entity name")
-t("High Peak", "Pic Supérieur", "_t")
--- texte non traduit
---[==[
-t("Strange Pedestal", "Strange Pedestal", "_t")
-t("This pedestal looks old, you can see the shape of an orb carved on it.", "This pedestal looks old, you can see the shape of an orb carved on it.", "_t")
+t("Strange Pedestal", "Étrange Piédestal", "_t")
+t("This pedestal looks old, you can see the shape of an orb carved on it.", "Ce piédestal semble ancien, on peut y voir la forme d'un globe sculptée.", "_t")
 t([[The pedestal seems to react to something in your bag. After some tests you notice it is the %s.
-Do you wish to use the orb on the pedestal?]], [[The pedestal seems to react to something in your bag. After some tests you notice it is the %s.
-Do you wish to use the orb on the pedestal?]], "tformat")
-t("orb pedestal (dragon)", "orb pedestal (dragon)", "entity name")
-t("#rng# the Fearsome", "#rng# the Fearsome", "_t")
-t("orb pedestal (undeath)", "orb pedestal (undeath)", "entity name")
-t("#rng# the Neverdead", "#rng# the Neverdead", "_t")
-t("orb pedestal (elements)", "orb pedestal (elements)", "entity name")
-t("#rng# the Silent Death", "#rng# the Silent Death", "_t")
-t("orb pedestal (destruction)", "orb pedestal (destruction)", "entity name")
-t("#rng# the Crusher", "#rng# the Crusher", "_t")
-t("exit to Grushnak Pride", "exit to Grushnak Pride", "entity name")
-t("Entrance to the High Peak", "Entrance to the High Peak", "entity name")
-t("The way forward is blocked. There must be some way around here to unlock those doors.", "The way forward is blocked. There must be some way around here to unlock those doors.", "_t")
+Do you wish to use the orb on the pedestal?]], [[Le piédestal semble réagir à quelque chose dans votre sac. Après quelques essais, vous remarquez qu'il s'agit de %s.
+Souhaitez-vous utiliser l'orbe sur le piédestal ?]], "tformat")
+t("orb pedestal (dragon)", "piédestal d'orbe (dragon)", "entity name")
+t("#rng# the Fearsome", "#rng# le Redoutable", "_t")
+t("orb pedestal (undeath)", "piédestal d'orbe (non-vie)", "entity name")
+t("#rng# the Neverdead", "#rng# le Jamais Mort", "_t")
+t("orb pedestal (elements)", "piédestal d'orbe (éléments)", "entity name")
+t("#rng# the Silent Death", "#rng# la Mort Silencieuse", "_t")
+t("orb pedestal (destruction)", "piédestal d'orbe (destruction)", "entity name")
+t("#rng# the Crusher", "#rng# le Concasseur", "_t")
+t("sealed door", "porte scellée", "entity name")
+t("exit to Grushnak Pride", "sortie vers la Fierté Grushnak", "entity name")
+t("Entrance to the High Peak", "Entrée du Pic Supérieur", "entity name")
+t("High Peak", "Pic Supérieur", "_t")
+t("The way forward is blocked. There must be some way around here to unlock those doors.", "Le passage est bloqué. Il doit y avoir un moyen pour déverrouiller ces portes.", "_t")
 t([[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
-Enter?]], [[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
-Enter?]], "_t")
---]==]
-
+Enter?]], [[Alors que vous vous tenez sur les escaliers vous sentez que c'est un voyage sans retour, une question de vie ou de mort. Si vouv vous y engagez, il n'y aura pas de retour.
+Entrer?]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/slime-tunnels/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Slime Tunnels", "Slime Tunnels", "_t")
---]==]
-
+t("Slime Tunnels", "Tunnels de Vases", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/sludgenest/grids.lua"
 
-t("sealed door", "porte scellée", "entity name")
-t("High Peak", "Pic Supérieur", "_t")
--- texte non traduit
---[==[
-t("Strange Pedestal", "Strange Pedestal", "_t")
-t("This pedestal looks old, you can see the shape of an orb carved on it.", "This pedestal looks old, you can see the shape of an orb carved on it.", "_t")
+t("Strange Pedestal", "Étrange Piédestal", "_t")
+t("This pedestal looks old, you can see the shape of an orb carved on it.", "Ce piédestal semble ancien, on peut y voir la forme d'un globe sculptée.", "_t")
 t([[The pedestal seems to react to something in your bag. After some tests you notice it is the %s.
-Do you wish to use the orb on the pedestal?]], [[The pedestal seems to react to something in your bag. After some tests you notice it is the %s.
-Do you wish to use the orb on the pedestal?]], "tformat")
-t("orb pedestal (dragon)", "orb pedestal (dragon)", "entity name")
-t("#rng# the Fearsome", "#rng# the Fearsome", "_t")
-t("orb pedestal (undeath)", "orb pedestal (undeath)", "entity name")
-t("#rng# the Neverdead", "#rng# the Neverdead", "_t")
-t("orb pedestal (elements)", "orb pedestal (elements)", "entity name")
-t("#rng# the Silent Death", "#rng# the Silent Death", "_t")
-t("orb pedestal (destruction)", "orb pedestal (destruction)", "entity name")
-t("#rng# the Crusher", "#rng# the Crusher", "_t")
-t("Entrance to the High Peak", "Entrance to the High Peak", "entity name")
+Do you wish to use the orb on the pedestal?]], [[Le piédestal semble réagir à quelque chose dans votre sac. Après quelques essais, vous remarquez qu'il s'agit de %s.
+Souhaitez-vous utiliser l'orbe sur le piédestal ?]], "tformat")
+t("orb pedestal (dragon)", "piédestal d'orbe (dragon)", "entity name")
+t("#rng# the Fearsome", "#rng# le Redoutable", "_t")
+t("orb pedestal (undeath)", "piédestal d'orbe (non-vie)", "entity name")
+t("#rng# the Neverdead", "#rng# le Jamais Mort", "_t")
+t("orb pedestal (elements)", "piédestal d'orbe (éléments)", "entity name")
+t("#rng# the Silent Death", "#rng# la Mort Silencieuse", "_t")
+t("orb pedestal (destruction)", "piédestal d'orbe (destruction)", "entity name")
+t("#rng# the Crusher", "#rng# le Concasseur", "_t")
+t("sealed door", "porte scellée", "entity name")
+t("Entrance to the High Peak", "Entrée du Pic Supérieur", "entity name")
+t("High Peak", "Pic Supérieur", "_t")
 t([[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
-Enter?]], [[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
-Enter?]], "_t")
-t("exit to Grushnak Pride", "exit to Grushnak Pride", "entity name")
---]==]
-
+Enter?]], [[Alors que vous vous tenez sur les escaliers vous sentez que c'est un voyage sans retour, une question de vie ou de mort. Si vouv vous y engagez, il n'y aura pas de retour.
+Entrer?]], "_t")
+t("exit to Grushnak Pride", "sortie vers la Fierté Grushnak", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/sludgenest/npcs.lua"
