@@ -37564,10 +37564,10 @@ t([[The noxious fumes have invaded all your body, you suddenty fall into a deep 
 ... you feel weak ...
 ... you feel unimportant ...
 ... you feel like ... food ...
-You feel like running away!]], [[Les émanations toxiques vous envahissent, vous sombrez soudain dans un profond sommeil…
-… vous vous sentez faible…
-… vous vous sentez insignifiant…
-… vous avez envie de… manger…
+You feel like running away!]], [[Les émanations toxiques vous envahissent, vous sombrez soudain dans un profond sommeil...
+... vous vous sentez faible...
+... vous vous sentez insignifiant...
+... vous avez envie de... manger...
 Vous avez envie de fuir!]], "_t")
 t([[As your mind-mouse enters the dream portal you suddenly wake up.
 You feel good!]], [[Lorsque votre esprit-souris franchit le portail des rêves, vous vous réveillez brusquement.
@@ -37577,10 +37577,10 @@ t([[The noxious fumes have invaded all your body, you suddenty fall into a deep 
 ... you feel you forgot something ...
 ... you feel lost ...
 ... you feel sad ...
-You forgot your wife! Find her!]], [[Les émanations toxiques vous envahissent, vous sombrez soudain dans un profond sommeil…
-… vous avez l’impression d’avoir oublié quelque chose…
-… vous vous sentez perdu…
-… vous vous sentez triste…
+You forgot your wife! Find her!]], [[Les émanations toxiques vous envahissent, vous sombrez soudain dans un profond sommeil...
+... vous avez l’impression d’avoir oublié quelque chose...
+... vous vous sentez perdu...
+... vous vous sentez triste...
 Vous avez oublié votre femme! Retrouvez-la!]], "_t")
 t([[As you enter the dream portal you suddenly wake up.
 You feel good!]], [[En franchissant le portail des rêves, vous vous réveillez brusquement.
@@ -37624,7 +37624,7 @@ section "mod-tome/data/zones/eruan/grids.lua"
 t("Farportal: Charred Scar", "Portail lointain: Plaie craquelée", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the west, to Charred Scar. A fiery volcano that can only spell death...]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
-Celui-ci semble mener à l'ouest, vers la Plaie craquelée. Un volcan en éruption synonyme de mort…]], "_t")
+Celui-ci semble mener à l'ouest, vers la Plaie craquelée. Un volcan en éruption synonyme de mort...]], "_t")
 t("#VIOLET#You enter the swirling portal while it fades away and in the blink of an eye you set foot on hellish land, the heart of a volcano...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant tandis qu'il disparaît et, en un clin d'oeil, vous posez le pied sur une terre infernale, au coeur d'un volcan...", "_t")
 
 ------------------------------------------------
@@ -37881,7 +37881,7 @@ t("Farportal: the Far East", "Portail Lointain: l'Extrême-Orient", "entity name
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the Far East.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
 Celui-ci semble mener en Extrême-Orient.]], "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the Far East, with no trace of the portal...", "#VIOLET#Vous franchissez le portail tourbillonnant et, en un clin d'oeil, vous vous retrouvez en Extrême-Orient, sans aucune trace du portail…", "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the Far East, with no trace of the portal...", "#VIOLET#Vous franchissez le portail tourbillonnant et, en un clin d'oeil, vous vous retrouvez en Extrême-Orient, sans aucune trace du portail...", "_t")
 t("Farportal: Iron Throne", "Portail lointain : Trône de Fer", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the Iron Throne in the West.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
@@ -38248,7 +38248,7 @@ Adding to your unease is a rising feeling of dread, overwhelming fear in fact. A
 
 You hear the sound of a woman sobbing, and every now and then it turns into a fit of pained moans and screams. They echo round the dark chamber and through the darkest parts of your mind, reminding you of every black deed and vile sin you have ever committed. Guilt, horror and terror flood through your thoughts, each competing for stronger control of your psyche. Your only clear thought is of escape, by whatever means you can find.]], [[Tandis que vous descendez les escaliers à pas feutrés une large dalle de pierre se met en place derrière vous, vous bloquant toute retraite. L'air est immobile et étouffant, et dans cet espace confiné, vous vous sentez comme dans un cercueil et enterré vivant.
 
-À votre malaise s'ajoute un sentiment d'angoisse grandissant, une peur panique en réalité. Un couloir bordé de portes s'étend devant vous, et derrière chacune d'elles, vous percevez une force d'une grande malveillance et d'une horreur indicible. Au bout du couloir vous apercevez une faible lueur sous une grande porte noire, et vous avez l'impression vague que les autres portes lui sont asservies – obéissantes, soumises, et languissantes…
+À votre malaise s'ajoute un sentiment d'angoisse grandissant, une peur panique en réalité. Un couloir bordé de portes s'étend devant vous, et derrière chacune d'elles, vous percevez une force d'une grande malveillance et d'une horreur indicible. Au bout du couloir vous apercevez une faible lueur sous une grande porte noire, et vous avez l'impression vague que les autres portes lui sont asservies – obéissantes, soumises, et languissantes...
 
 Vous entendez les sanglots d'une femme, qui se muent par moments en gémissements et cris de douleur. Ils résonnent dans la chambre obscure et dans les recoins les plus sombres de votre esprit, vous rappelant chaque acte odieux et chaque péché abominable que vous avez commis. La culpabilité, l'horreur, et la terreur vous envahissent, chacune cherchant à prendre le contrôle de votre psyché. Votre seule pensée claire est celle de vous échapper, par tous les moyens possibles.]], "_t")
 
@@ -38276,7 +38276,7 @@ t("corpse", "cadavre", "entity type")
 t("heart", "coeur", "entity subtype")
 t("Corrupted heart of the Sandworm Queen", "Coeur corrompu de la Reine des Vers des Sables", "entity name")
 t("pulsing organ", "organe pulsant", "_t")
-t("The heart of the Sandworm Queen, ripped from her dead body and corrupted in the mark of the spellblaze altar. You could ... consume it, should you feel mad enough.", "Le Coeur de la Reine des Ver des Sables, arraché à son corps sans vie et corrompu par la marque de l'autel de la Brûlure Magique. Vous pourriez… le consommer, si vous êtes suffisement fou.", "_t")
+t("The heart of the Sandworm Queen, ripped from her dead body and corrupted in the mark of the spellblaze altar. You could ... consume it, should you feel mad enough.", "Le Coeur de la Reine des Ver des Sables, arraché à son corps sans vie et corrompu par la marque de l'autel de la Brûlure Magique. Vous pourriez... le consommer, si vous êtes suffisement fou.", "_t")
 t("consume the heart", "consommer le coeur", "_t")
 t("#00FFFF#You consume the heart and feel the corruption fill you!", "#00FFFF#Vous dévorez le coeur et vous sentez la corruption vous envahir!", "logPlayer")
 t("You have %d stat point(s) to spend. Press p to use them.", "Vous disposez de %d points de stats à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
@@ -38841,7 +38841,7 @@ t([[This sandworm seems to not care about your presence at all and simply contin
 	
 Maybe following it is the only way to move around here...]], [[Ce ver des sables semble totalement indifférent à votre présence et continue simplement de creuser son chemin dans le sable.
 
-Le suivre est peut-être le seul moyen de se déplacer ici…]], "_t")
+Le suivre est peut-être le seul moyen de se déplacer ici...]], "_t")
 t("huge sandworm burrower", "énorme ver des sables fouisseur", "entity name")
 t("Sandworm Queen", "Reine des vers des sables", "entity name")
 t("Before you stands the queen of the sandworms. Massive and bloated, she slithers toward you, calling for her offspring!", "Devant vous se dresse la reine des vers des sables. Massive et boursouflée, elle rampe vers vous en appelant sa progéniture!", "_t")
@@ -38869,7 +38869,7 @@ t("Heart of the Sandworm Queen", "Coeur de la Reine des Vers des Sables", "entit
 t("pulsing organ", "organe pulsant", "_t")
 t([[The heart of the Sandworm Queen, ripped from her dead body.
 You could ... consume it, should you feel mad enough or you could try to corrupt it somewhere.]], [[Le coeur de la Reine des Vers des Sables, arraché de son cadavre.
-Vous pourriez… le consommer, si la folie vous gagne, ou tenter de le corrompre quelque part ]], "_t")
+Vous pourriez... le consommer, si la folie vous gagne, ou tenter de le corrompre quelque part ]], "_t")
 t("consume the heart", "consommer le coeur", "_t")
 t("#00FFFF#You consume the heart and feel the knowledge of this very old creature fill you!", "#00FFFF#Vous consommez le coeur et sentez la connaissance de cette créature très ancienne vous envahir!", "logPlayer")
 t("You have %d stat point(s) to spend. Press p to use them.", "Vous disposez de %d points de stats à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
@@ -38906,7 +38906,7 @@ t("A formation of purple crystal. It seems strangely aware.", "Une formation de 
 t("and vaporised into nothingness", "et vaporisé dans le néant", "_t")
 t("I heard that some old crystals are nearly alive now in the scintillating caves.", "J'ai entendu dire que certains vieux cristaux sont presque vivants maintenant dans les grottes scintillantes.", "_t")
 t("Spellblaze Simulacrum", "Simulacre de la Brûlure Magique", "entity name")
-t("A formation of purple crystal, but where the others could only be described as polyhedral, this construct seems to strangely resemble... you, if you were much, much larger.", "Une formation de cristaux violets, mais là où les autres ne pouvaient être décrites que comme polyédriques, cette structure semble étrangement ressembler à… vous, si vous étiez beaucoup, beaucoup plus grand.", "_t")
+t("A formation of purple crystal, but where the others could only be described as polyhedral, this construct seems to strangely resemble... you, if you were much, much larger.", "Une formation de cristaux violets, mais là où les autres ne pouvaient être décrites que comme polyédriques, cette structure semble étrangement ressembler à... vous, si vous étiez beaucoup, beaucoup plus grand.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/scintillating-caves/objects.lua"
@@ -39064,7 +39064,7 @@ section "mod-tome/data/zones/shertul-fortress-caldizar/zone.lua"
 t("Unknown Sher'Tul Fortress", "Forteresse Sher'Tul Inconnue", "_t")
 t("Unknown Sher'Tul Fortress (%s)", "Forteresse Sher'Tul Inconnue (%s)", "tformat")
 t("Unknown the Sher'Tul Fortress", "Inconnue, la Forteresse Sher'Tul", "_t")
-t("With a sudden jolt you find yourself... somewhere familiar. The smooth walls and gentle lighting remind you of your fortress. And yet it feels different too. There is a gentle humming noise in the background, and your whole body feels light, almost weightless, such that the slightest movement propels you into the air. You have the odd feeling that you are not on Maj'Eyal any longer... From ahead you sense something both terrible and wonderful, and trepidation fills every corner of your being.", "Soudain, vous vous retrouvez… dans un lieu familier. Les murs lisses et la douce lumière vous rappellent votre forteresse. Et pourtant, l’atmosphère est différente. Un léger bourdonnement se fait entendre en arrière-plan et votre corps tout entier semble léger, presque en apesanteur, au point que le moindre mouvement vous propulse dans les airs. Vous avez l’étrange impression de ne plus être sur Maj’Eyal… Devant vous, vous percevez quelque chose à la fois terrible et merveilleux, et l'appréhension vous envahit.", "_t")
+t("With a sudden jolt you find yourself... somewhere familiar. The smooth walls and gentle lighting remind you of your fortress. And yet it feels different too. There is a gentle humming noise in the background, and your whole body feels light, almost weightless, such that the slightest movement propels you into the air. You have the odd feeling that you are not on Maj'Eyal any longer... From ahead you sense something both terrible and wonderful, and trepidation fills every corner of your being.", "Soudain, vous vous retrouvez... dans un lieu familier. Les murs lisses et la douce lumière vous rappellent votre forteresse. Et pourtant, l’atmosphère est différente. Un léger bourdonnement se fait entendre en arrière-plan et votre corps tout entier semble léger, presque en apesanteur, au point que le moindre mouvement vous propulse dans les airs. Vous avez l’étrange impression de ne plus être sur Maj’Eyal... Devant vous, vous percevez quelque chose à la fois terrible et merveilleux, et l'appréhension vous envahit.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/slazish-fen/grids.lua"
@@ -39170,77 +39170,58 @@ t("exit to Grushnak Pride", "sortie vers la Fierté Grushnak", "entity name")
 section "mod-tome/data/zones/sludgenest/npcs.lua"
 
 t("giant", "géant", "entity type")
+t("Corrupted Oozemancer", "Boumancien Corrompu", "entity name")
+t("This blight-ridden troll was once a proud defender of Nature. His corruption is spreading, eating away at the forest around him.", "Ce troll rongé par la maladie était jadis un fier défenseur de la nature. Sa perversion se propage, rongeant la forêt qui l'entoure.", "_t")
+t("and dissolved into acidic ooze", "et dissous dans une boue acide", "_t")
 -- texte non traduit
 --[==[
 t("troll", "troll", "entity subtype")
-t("Corrupted Oozemancer", "Corrupted Oozemancer", "entity name")
-t("This blight-ridden troll was once a proud defender of Nature. His corruption is spreading, eating away at the forest around him.", "This blight-ridden troll was once a proud defender of Nature. His corruption is spreading, eating away at the forest around him.", "_t")
-t("and dissolved into acidic ooze", "and dissolved into acidic ooze", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/sludgenest/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Sludgenest", "Sludgenest", "_t")
-t("It seems the slimes coming from the walls become stronger with time.", "It seems the slimes coming from the walls become stronger with time.", "_t")
-t("#YELLOW_GREEN#One of the wall shakes for a moment and then turns into %s!", "#YELLOW_GREEN#One of the wall shakes for a moment and then turns into %s!", "logSeen")
---]==]
-
+t("Sludgenest", "Nid de Vaseux", "_t")
+t("It seems the slimes coming from the walls become stronger with time.", "Il semblerait que les substances visqueuses qui sortent des murs deviennent plus résistantes avec le temps.", "_t")
+t("#YELLOW_GREEN#One of the wall shakes for a moment and then turns into %s!", "#YELLOW_GREEN#Un des murs tremble un instant puis se transforme en %s!", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/zones/south-beach/grids.lua"
 
 t("floor", "sol", "entity type")
 t("sand", "sable", "entity subtype")
+t("lovely umbrella", "beau parasol", "entity name")
+t("picnic basket", "panier de pique-nique", "entity name")
 t("grass", "herbe", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
--- texte non traduit
---[==[
-t("lovely umbrella", "lovely umbrella", "entity name")
-t("picnic basket", "picnic basket", "entity name")
-t("You have not finished your romantic time at the beach.", "You have not finished your romantic time at the beach.", "log")
---]==]
-
+t("You have not finished your romantic time at the beach.", "YVotre moment romantique à la plage n'est pas terminé.", "log")
 
 ------------------------------------------------
 section "mod-tome/data/zones/south-beach/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("Enjoying a lovely day at the beach.", "Profitez d'une belle journée à la plage.", "_t")
+t("What..! Please lets run!", "Quoi...! Allons-y, courons!", "_t")
+t("#DARK_GREEN#As Melinda is about to die a powerful wave of blight emanates from her!", "#DARK_GREEN#Alors que Melinda est sur le point de mourir, une puissante vague de maladie émane d'elle!", "say")
 -- texte non traduit
 --[==[
 t("Melinda", "Melinda", "entity name")
-t("Enjoying a lovely day at the beach.", "Enjoying a lovely day at the beach.", "_t")
-t("What..! Please lets run!", "What..! Please lets run!", "_t")
-t("#DARK_GREEN#As Melinda is about to die a powerful wave of blight emanates from her!", "#DARK_GREEN#As Melinda is about to die a powerful wave of blight emanates from her!", "say")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/south-beach/objects.lua"
 
-
--- texte non traduit
---[==[
-t("beach bikini", "beach bikini", "entity name")
---]==]
-
+t("beach bikini", "bikini de plage", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/south-beach/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Southern Beach", "Southern Beach", "_t")
-t("Look over there!", "Look over there!", "_t")
-t("#DARK_GREEN#Melinda begins to glow with an eerie aura!", "#DARK_GREEN#Melinda begins to glow with an eerie aura!", "say")
---]==]
-
+t("Southern Beach", "Plage du Sud", "_t")
+t("Look over there!", "Regarde là-bas!", "_t")
+t("#DARK_GREEN#Melinda begins to glow with an eerie aura!", "#DARK_GREEN#Melinda commence à irradier d'une aura étrange !", "say")
 
 ------------------------------------------------
 section "mod-tome/data/zones/stellar-system-shandral/grids.lua"
