@@ -18171,7 +18171,7 @@ t("Long tunnel", "Long tunnel", "_t")
 section "mod-tome/data/maps/zones/shertul-fortress-caldizar.lua"
 
 t("Control Room", "Salle de contrôle", "_t")
-t("Exploratory Farportal", "Portail lointain exploratoire", "_t")
+t("Exploratory Farportal", "Portail Lointain Exploratoire", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/zones/tannen-tower-1.lua"
@@ -38930,17 +38930,16 @@ t("teleporting circle to the surface", "cercle de téléportation vers la surfac
 ------------------------------------------------
 section "mod-tome/data/zones/shadow-crypt/npcs.lua"
 
-
+t("Rak'Shor Cultist", "Cultiste Rak'Shor", "entity name")
+t("An old orc, wearing black robes. He seems to be responsible for the creation of the shades.", "Un vieil orc, vêtu de robes noires. Il semble être à l'origine de la création des ombres.", "_t")
+t("but nobody knew why they suddenly became evil", "mais personne ne savait pourquoi ils étaient soudainement devenus maléfiques", "_t")
+t("As your shade dies, the magical veil protecting the stairs out vanishes.", "À mesure que votre ombre disparait, le voile magique qui protégeait l'escalier disparaît.", "logSeen")
+t("#GREY#The #Source# looks deep into your eyes. You feel torn apart!", "#GREY#Le #Source# vous fixe droit dans les yeux. Vous vous sentez déchiré!", "logCombat")
+t("FOR THE WAY! Die cultist!", "POUR LA VOIE! Meurt cultiste!", "_t")
+t("#PURPLE#The #Source# looks afraid, he did not plan on his creation turning against him!", "#PURPLE#Le #Source# a l'air effrayé, il n'avait pas prévu que sa création se retourne contre lui!", "logCombat")
 -- texte non traduit
 --[==[
-t("Rak'Shor Cultist", "Rak'Shor Cultist", "entity name")
-t("An old orc, wearing black robes. He seems to be responsible for the creation of the shades.", "An old orc, wearing black robes. He seems to be responsible for the creation of the shades.", "_t")
-t("but nobody knew why they suddenly became evil", "but nobody knew why they suddenly became evil", "_t")
-t("As your shade dies, the magical veil protecting the stairs out vanishes.", "As your shade dies, the magical veil protecting the stairs out vanishes.", "logSeen")
-t("#GREY#The #Source# looks deep into your eyes. You feel torn apart!", "#GREY#The #Source# looks deep into your eyes. You feel torn apart!", "logCombat")
 t("Ra'kk kor merk ZUR!!!", "Ra'kk kor merk ZUR!!!", "_t")
-t("FOR THE WAY! Die cultist!", "FOR THE WAY! Die cultist!", "_t")
-t("#PURPLE#The #Source# looks afraid, he did not plan on his creation turning against him!", "#PURPLE#The #Source# looks afraid, he did not plan on his creation turning against him!", "logCombat")
 --]==]
 
 -- ancien texte traduit
@@ -38954,113 +38953,100 @@ t("Shadow Crypt", "Crypte sombre", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/shertul-fortress/grids.lua"
 
-t("Exploratory Farportal", "Portail lointain exploratoire", "entity name")
-t("Exploratory Farportal", "Portail lointain exploratoire", "_t")
-t("wall", "mur", "entity type")
-t("floor", "sol", "entity subtype")
--- texte non traduit
---[==[
-t("%0.2f Energy Stored", "%0.2f Energy Stored", "tformat")
-t("stair back to the lake of Nur", "stair back to the lake of Nur", "entity name")
-t("teleportation circle to the surface", "teleportation circle to the surface", "entity name")
-t("teleportation circle for Melinda", "teleportation circle for Melinda", "entity name")
-t("Sher'Tul Control Orb", "Sher'Tul Control Orb", "entity name")
+t("%0.2f Energy Stored", "%0.2f Énergie Stockée", "tformat")
+t("stair back to the lake of Nur", "escalier retournant au lac de Nur", "entity name")
+t("teleportation circle to the surface", "cercle de téléportation vers la surface", "entity name")
+t("teleportation circle for Melinda", "cercle de téléportation pour Melinda", "entity name")
+t("Sher'Tul Control Orb", "Orbe de Contrôle Sher'Tul", "entity name")
+t("Exploratory Farportal", "Portail Lointain Exploratoire", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They were left behind by the powerful Sher'tul race.
 This farportal is not connected to any other portal. It is made for exploration; you cannot know where it will send you.
-It should automatically create a portal back, but it might not be near your arrival zone.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They were left behind by the powerful Sher'tul race.
-This farportal is not connected to any other portal. It is made for exploration; you cannot know where it will send you.
-It should automatically create a portal back, but it might not be near your arrival zone.]], "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in a strangely familiar zone, right next to a farportal...", "#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in a strangely familiar zone, right next to a farportal...", "log")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in strange empty space...", "#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in strange empty space...", "log")
-t("The farportal seems to be inactive", "The farportal seems to be inactive", "_t")
-t("The farportal is broken and will not be usable anymore.", "The farportal is broken and will not be usable anymore.", "_t")
-t("The fortress does not have enough energy to power a trip through the portal.", "The fortress does not have enough energy to power a trip through the portal.", "_t")
-t("Do you want to travel in the farportal? You cannot know where you will end up.", "Do you want to travel in the farportal? You cannot know where you will end up.", "_t")
-t("Exploratory Farportal exit", "Exploratory Farportal exit", "_t")
-t("#VIOLET#As %s falls you notice a portal appearing.", "#VIOLET#As %s falls you notice a portal appearing.", "logSeen")
-t("#VIOLET#Your rod of recall shakes, a portal appears beneath you.", "#VIOLET#Your rod of recall shakes, a portal appears beneath you.", "logSeen")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in an unfamiliar zone, with no trace of the portal...", "#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in an unfamiliar zone, with no trace of the portal...", "log")
-t("Library of Lost Mysteries", "Library of Lost Mysteries", "entity name")
-t("Yiilkgur's Library of Lost Mysteries", "Yiilkgur's Library of Lost Mysteries", "_t")
-t("Receiving the lost knowledge of the universe...", "Receiving the lost knowledge of the universe...", "_t")
-t("mural painting", "mural painting", "entity name")
-t("Training Control Orb", "Training Control Orb", "entity name")
+It should automatically create a portal back, but it might not be near your arrival zone.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'œil. Ces portails ont été créés par le puissant peuple Sher'tul.
+Ce portail lointain n'est relié à aucun autre. Il est conçu pour l'exploration et vous ne savez pas où il vous mènera.
+Il devrait créer automatiquement un portail de retour, mais il se peut qu'il ne soit pas proche de votre zone d'arrivée.]], "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in a strangely familiar zone, right next to a farportal...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous vous retrouvez dans une zone étrangement familière, juste à côté d'un portail lointain...", "log")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in strange empty space...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous vous retrouvez dans un étrange espace vide...", "log")
+t("Exploratory Farportal", "Portail Lointain Exploratoire", "_t")
+t("The farportal seems to be inactive", "Le portail lointain semble inactif", "_t")
+t("The farportal is broken and will not be usable anymore.", "Le portail lointain est hors service et ne sera plus utilisable.", "_t")
+t("The fortress does not have enough energy to power a trip through the portal.", "La forteresse ne dispose pas d'assez d'énergie pour alimenter un voyage à travers le portail.", "_t")
+t("Do you want to travel in the farportal? You cannot know where you will end up.", "Voulez vous voyager avec le portail lointain? Impossible de savoir où vous atterrirez.", "_t")
+t("Exploratory Farportal exit", "Sortie du Portail Lointain Exploratoire", "_t")
+t("#VIOLET#As %s falls you notice a portal appearing.", "#VIOLET#Au moment où %s tombe, vous remarquez l'apparition d'un portail.", "logSeen")
+t("#VIOLET#Your rod of recall shakes, a portal appears beneath you.", "#VIOLET#Votre Bâtonnet de Rappel tremble, un portail apparaît sous vos pieds.", "logSeen")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in an unfamiliar zone, with no trace of the portal...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous vous retrouvez dans une zone inconnue, sans aucune trace du portail...", "log")
+t("Library of Lost Mysteries", "Bibliothèque des Mystères Perdus", "entity name")
+t("Yiilkgur's Library of Lost Mysteries", "Bibliothèque des Mystères Perdus de Yiilkgur", "_t")
+t("Receiving the lost knowledge of the universe...", "Recevoir la connaissance perdue de l'univers...", "_t")
+t("wall", "mur", "entity type")
+t("floor", "sol", "entity subtype")
+t("mural painting", "peinture murale", "entity name")
+t("Training Control Orb", "Orbe de Contrôle d'Entraînement", "entity name")
 t([[Turns: %d
 Total Damage: %d
-Damage/turns: %d]], [[Turns: %d
-Total Damage: %d
-Damage/turns: %d]], "tformat")
-t("Training Monitor Orb", "Training Monitor Orb", "entity name")
-t("Mirror of Reflection", "Mirror of Reflection", "entity name")
---]==]
-
+Damage/turns: %d]], [[Tours: %d
+Dégâts totaux: %d
+Dégâts/tours: %d]], "tformat")
+t("Training Monitor Orb", "Orbe de Surveillance d'Entraînement", "entity name")
+t("Mirror of Reflection", "Miroir de Réflexion", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/shertul-fortress/npcs.lua"
 
+t("Weirdling Beast", "Bête Étrange", "entity name")
+t("A roughly humanoid creature, with tentacle-like appendages in the place of arms and legs. You gasp in horror as you notice it has no head. Putrid warts form quickly on its skin and explode as quickly.", "Une créature à peu près humanoïde, avec des appendices ressemblant à des tentacules à la place des bras et des jambes. Vous haletez d'horreur lorsque vous remarquez qu'il n'a pas de tête. Des verrues putrides se forment rapidement sur sa peau et explosent tout aussi rapidement.", "_t")
+t("and slowly consumed", "et lentement consommé", "_t")
+t("#LIGHT_RED#As the Weirdling beast falls it shrieks one last time and the door behind it shatters and explodes, revealing the room behind it. The stair up vanishes!", "#LIGHT_RED#Alors que la Bête Étrange tombe elle hurle une dernière fois et la porte derrière elle se brise et explose, révélant une pièce derrière elle. L'escalier disparaît!", "log")
+t("Teleportation portal to the Sher'Tul Fortress", "Portail de téléportation vers la Forteresse Sher'Tul", "_t")
 t("Fortress Shadow", "Ombre de la Forteresse", "entity name")
+t("The shadow created by the fortress, it resembles somewhat the horrors you saw previously, but it is not the same.", "L'ombre créée par la forteresse, elle ressemble un peu aux horreurs que vous avez vues précédemment mais ce n'est pas la même.", "_t")
 t("training", "entraînement", "entity type")
 t("dummy", "mannequin", "entity subtype")
+t("Training Dummy", "Mannequin d'Entraînement", "entity name")
+t("Training dummy.", "Mannequin d'entraînement.", "_t")
+t("Pumpkin, the little kitty", "Citrouille, le petit chat", "entity name")
+t("An orange kitty with a white star blaze on his chest. Has a strange affinity for licking your face whenever possible.", "Un chat orange avec une étoile blanche sur la poitrine. A une étrange affinité pour vous lécher le visage autant que possible.", "_t")
 -- texte non traduit
 --[==[
-t("Weirdling Beast", "Weirdling Beast", "entity name")
-t("A roughly humanoid creature, with tentacle-like appendages in the place of arms and legs. You gasp in horror as you notice it has no head. Putrid warts form quickly on its skin and explode as quickly.", "A roughly humanoid creature, with tentacle-like appendages in the place of arms and legs. You gasp in horror as you notice it has no head. Putrid warts form quickly on its skin and explode as quickly.", "_t")
-t("and slowly consumed", "and slowly consumed", "_t")
-t("#LIGHT_RED#As the Weirdling beast falls it shrieks one last time and the door behind it shatters and explodes, revealing the room behind it. The stair up vanishes!", "#LIGHT_RED#As the Weirdling beast falls it shrieks one last time and the door behind it shatters and explodes, revealing the room behind it. The stair up vanishes!", "log")
-t("Teleportation portal to the Sher'Tul Fortress", "Teleportation portal to the Sher'Tul Fortress", "_t")
 t("Sher'Tul", "Sher'Tul", "entity subtype")
-t("The shadow created by the fortress, it resembles somewhat the horrors you saw previously, but it is not the same.", "The shadow created by the fortress, it resembles somewhat the horrors you saw previously, but it is not the same.", "_t")
-t("Training Dummy", "Training Dummy", "entity name")
-t("Training dummy.", "Training dummy.", "_t")
-t("Pumpkin, the little kitty", "Pumpkin, the little kitty", "entity name")
-t("An orange kitty with a white star blaze on his chest. Has a strange affinity for licking your face whenever possible.", "An orange kitty with a white star blaze on his chest. Has a strange affinity for licking your face whenever possible.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/shertul-fortress/objects.lua"
 
-
--- texte non traduit
---[==[
-t("simple gown", "simple gown", "entity name")
---]==]
-
+t("simple gown", "robe simple", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/shertul-fortress/zone.lua"
 
 t("Yiilkgur, the Sher'Tul Fortress", "Yiilkgur, la Forteresse Sher'Tul", "_t")
+t("This level seems to be removed from the rest of the ruins. The air is fresh and the level is lighted. You hear the distant crackling of magical energies.", "Ce niveau semble isolé du reste des ruines. L'air y est frais et l'éclairage est présent. On perçoit au loin le crépitement d'énergies magiques.", "_t")
+t([[As you enter the familiar Fortress you notice a small orange cat has followed you somehow.
+It looks like the kitty you fed earlier.]], [[En entrant dans la forteresse familière, vous remarquez qu'un petit chat roux vous a suivi.
+Il ressemble au chat que vous avez nourri plus tôt.]], "_t")
+t("Your %s is magically sorted by the storage room.", "Votre %s est trié comme par magie par la salle de stockage.", "logPlayer")
+t("Your %s is magically sorted by the storage room and put in a pile with the others items of the same type.", "Votre %s est trié comme par magie par le service de stockage et placé dans une pile avec les autres objets du même type.", "logPlayer")
+t("It seems the room has no more space to sort your %s.", "Il semblerait que la pièce n'ait plus de place pour trier vos %s.", "logPlayer")
 -- texte non traduit
 --[==[
 t("%s (Yiilkgur, the Sher'Tul Fortress)", "%s (Yiilkgur, the Sher'Tul Fortress)", "tformat")
 t("Yiilkgur", "Yiilkgur", "_t")
-t("This level seems to be removed from the rest of the ruins. The air is fresh and the level is lighted. You hear the distant crackling of magical energies.", "This level seems to be removed from the rest of the ruins. The air is fresh and the level is lighted. You hear the distant crackling of magical energies.", "_t")
-t([[As you enter the familiar Fortress you notice a small orange cat has followed you somehow.
-It looks like the kitty you fed earlier.]], [[As you enter the familiar Fortress you notice a small orange cat has followed you somehow.
-It looks like the kitty you fed earlier.]], "_t")
-t("Your %s is magically sorted by the storage room.", "Your %s is magically sorted by the storage room.", "logPlayer")
-t("Your %s is magically sorted by the storage room and put in a pile with the others items of the same type.", "Your %s is magically sorted by the storage room and put in a pile with the others items of the same type.", "logPlayer")
-t("It seems the room has no more space to sort your %s.", "It seems the room has no more space to sort your %s.", "logPlayer")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/shertul-fortress-caldizar/grids.lua"
 
-t("Exploratory Farportal", "Portail lointain exploratoire", "entity name")
--- texte non traduit
---[==[
-t("Sher'Tul Control Orb", "Sher'Tul Control Orb", "entity name")
+t("Sher'Tul Control Orb", "Orbe de Contrôle Sher'Tul", "entity name")
+t("Exploratory Farportal", "Portail Lointain Exploratoire", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They were left behind by the powerful Sher'tul race.
 This farportal is not connected to any other portal. It is made for exploration; you cannot know where it will send you.
-It should automatically create a portal back, but it might not be near your arrival zone.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They were left behind by the powerful Sher'tul race.
-This farportal is not connected to any other portal. It is made for exploration; you cannot know where it will send you.
-It should automatically create a portal back, but it might not be near your arrival zone.]], "_t")
-t("Farportal", "Farportal", "_t")
-t("The farportal seems to be inactive", "The farportal seems to be inactive", "_t")
---]==]
-
+It should automatically create a portal back, but it might not be near your arrival zone.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'œil. Ces portails ont été créés par le puissant peuple Sher'tul.
+Ce portail lointain n'est relié à aucun autre. Il est conçu pour l'exploration et vous ne savez pas où il vous mènera.
+Il devrait créer automatiquement un portail de retour, mais il se peut qu'il ne soit pas proche de votre zone d'arrivée.]], "_t")
+t("Farportal", "Portail Lointain", "_t")
+t("The farportal seems to be inactive", "Le portail lointain semble inactif", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/shertul-fortress-caldizar/npcs.lua"
@@ -39075,15 +39061,10 @@ t("Caldizar", "Caldizar", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/shertul-fortress-caldizar/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Unknown Sher'Tul Fortress", "Unknown Sher'Tul Fortress", "_t")
-t("Unknown Sher'Tul Fortress (%s)", "Unknown Sher'Tul Fortress (%s)", "tformat")
-t("Unknown the Sher'Tul Fortress", "Unknown the Sher'Tul Fortress", "_t")
-t("With a sudden jolt you find yourself... somewhere familiar. The smooth walls and gentle lighting remind you of your fortress. And yet it feels different too. There is a gentle humming noise in the background, and your whole body feels light, almost weightless, such that the slightest movement propels you into the air. You have the odd feeling that you are not on Maj'Eyal any longer... From ahead you sense something both terrible and wonderful, and trepidation fills every corner of your being.", "With a sudden jolt you find yourself... somewhere familiar. The smooth walls and gentle lighting remind you of your fortress. And yet it feels different too. There is a gentle humming noise in the background, and your whole body feels light, almost weightless, such that the slightest movement propels you into the air. You have the odd feeling that you are not on Maj'Eyal any longer... From ahead you sense something both terrible and wonderful, and trepidation fills every corner of your being.", "_t")
---]==]
-
+t("Unknown Sher'Tul Fortress", "Forteresse Sher'Tul Inconnue", "_t")
+t("Unknown Sher'Tul Fortress (%s)", "Forteresse Sher'Tul Inconnue (%s)", "tformat")
+t("Unknown the Sher'Tul Fortress", "Inconnue, la Forteresse Sher'Tul", "_t")
+t("With a sudden jolt you find yourself... somewhere familiar. The smooth walls and gentle lighting remind you of your fortress. And yet it feels different too. There is a gentle humming noise in the background, and your whole body feels light, almost weightless, such that the slightest movement propels you into the air. You have the odd feeling that you are not on Maj'Eyal any longer... From ahead you sense something both terrible and wonderful, and trepidation fills every corner of your being.", "Soudain, vous vous retrouvez… dans un lieu familier. Les murs lisses et la douce lumière vous rappellent votre forteresse. Et pourtant, l’atmosphère est différente. Un léger bourdonnement se fait entendre en arrière-plan et votre corps tout entier semble léger, presque en apesanteur, au point que le moindre mouvement vous propulse dans les airs. Vous avez l’étrange impression de ne plus être sur Maj’Eyal… Devant vous, vous percevez quelque chose à la fois terrible et merveilleux, et l'appréhension vous envahit.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/slazish-fen/grids.lua"
@@ -41538,6 +41519,7 @@ t("Mirror Match", "Match miroir", "_t")
 t("Find, challenge, and kill your mirror clone on the level.", "Trouvez, défiez et tuez votre clone dans ce niveau.", "_t")
 t("An evil twin of %s%s", "Un double maléfique de %s%s", "tformat")
 t("Mirror Challenge of %s", "Le défie du miroir de %s", "tformat")
+t("but nobody knew why they suddenly became evil", "mais personne ne savait pourquoi ils étaient soudainement devenus maléfiques", "_t")
 t("#ORCHID#%s does not recognize you.", "#ORCHID#%s ne vous reconnaît pas.", "logPlayer")
 t("Challenge: #PURPLE#Mirror Match", "Défi: #PURPLE#Match Miroir", "_t")
 t("Challenge your mirror clone and triumph!", "Défiez votre clone et triomphez!", "_t")
@@ -41576,7 +41558,6 @@ t("You have unlocked a new talent: %s!", "Vous avez débloqué un nouveau talent
 -- texte non traduit
 --[==[
 t("%s '%s'", "%s '%s'", "tformat")
-t("but nobody knew why they suddenly became evil", "but nobody knew why they suddenly became evil", "_t")
 t("#OLIVE_DRAB#%s: %s", "#OLIVE_DRAB#%s: %s", "tformat")
 t("#LIGHT_GREEN#%s", "#LIGHT_GREEN#%s", "logPlayer")
 --]==]
