@@ -12639,10 +12639,9 @@ t("#0080FF#On the back of the letter you can just make out a coarsely scrawled a
 ------------------------------------------------
 section "mod-tome/data/lore/elvala.lua"
 
-
+t("spellblaze", "brûlure magique", "newLore category")
 -- texte non traduit
 --[==[
-t("spellblaze", "spellblaze", "newLore category")
 t("The Spellblaze Chronicles(1): A Fateful Meeting", "The Spellblaze Chronicles(1): A Fateful Meeting", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
@@ -17549,10 +17548,9 @@ t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ea
 ------------------------------------------------
 section "mod-tome/data/lore/spellblaze.lua"
 
-
+t("spellblaze", "brûlure magique", "newLore category")
 -- texte non traduit
 --[==[
-t("spellblaze", "spellblaze", "newLore category")
 t("draft letter (mark of the spellblaze)", "draft letter (mark of the spellblaze)", "_t")
 t([[Dear Father,
 
@@ -39590,44 +39588,35 @@ section "mod-tome/data/zones/town-elvala/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("elvala guard", "garde d'Elvala", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
+t("shalore rune master", "maître des runes shalore", "entity name")
+t("A tall Elf, his skin covered in runes.", "Un elfe de grande taille, la peau couverte de runes.", "_t")
 t("giant", "géant", "entity type")
 t("ogre rune-spinner", "tisseur de rune ogre", "entity name")
+t("A towering ogre guard, her skin covered in runes.", "Une imposante guarde ogresse, la peau couverte de runes.", "_t")
 -- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
-t("elvala guard", "elvala guard", "entity name")
-t("shalore rune master", "shalore rune master", "entity name")
-t("A tall Elf, his skin covered in runes.", "A tall Elf, his skin covered in runes.", "_t")
 t("ogre", "ogre", "entity subtype")
-t("A towering ogre guard, her skin covered in runes.", "A towering ogre guard, her skin covered in runes.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-elvala/objects.lua"
 
-
--- texte non traduit
---[==[
-t("spellblaze", "spellblaze", "entity subtype")
---]==]
-
+t("spellblaze", "brûlure magique", "entity subtype")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-elvala/traps.lua"
 
+t("Tailor", "Tailleur", "entity name")
 t("Tanner", "Tanneur", "entity name")
 t("Swordsmith", "Forge d'Épées", "entity name")
--- texte non traduit
---[==[
-t("Tailor", "Tailor", "entity name")
-t("Staff carver", "Staff carver", "entity name")
-t("Runemaster", "Runemaster", "entity name")
-t("Home of Marus the Alchemist", "Home of Marus the Alchemist", "entity name")
-t("Shady Library", "Shady Library", "entity name")
---]==]
-
+t("Staff carver", "Sculpteur de Bâton", "entity name")
+t("Runemaster", "Maître des Runes", "entity name")
+t("Home of Marus the Alchemist", "Maison de Marus l'Alchimiste", "entity name")
+t("Shady Library", "Bibliothèque Louche", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-elvala/zone.lua"
@@ -39645,19 +39634,15 @@ section "mod-tome/data/zones/town-gates-of-morning/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("old road", "vieille route", "entity name")
+t("Farportal: Last Hope", "Portail Lointain: Dernier Espoir", "entity name")
+t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
+This one seems to go near the town of Last Hope in Maj'Eyal.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
+Celui-ci semble mener près de la ville de Dernier Espoir en Maj'Eyal.]], "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the outskirts of Last Hope, with no trace of the portal...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous vous retrouvez aux abords de Dernier Espoir, sans aucune trace du portail...", "_t")
 t("rockwall", "mur de roche", "entity type")
 t("grass", "herbe", "entity subtype")
--- texte non traduit
---[==[
-t("Farportal: Last Hope", "Farportal: Last Hope", "entity name")
-t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go near the town of Last Hope in Maj'Eyal.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go near the town of Last Hope in Maj'Eyal.]], "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the outskirts of Last Hope, with no trace of the portal...", "#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the outskirts of Last Hope, with no trace of the portal...", "_t")
-t("Sunwall mountain", "Sunwall mountain", "entity name")
-t("Way into the Slazish fens", "Way into the Slazish fens", "entity name")
---]==]
-
+t("Sunwall mountain", "Montagnes du Mur Solaire", "entity name")
+t("Way into the Slazish fens", "Chemin vers les marais de Slazish", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-gates-of-morning/npcs.lua"
@@ -39666,42 +39651,28 @@ t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
--- texte non traduit
---[==[
-t("You find a note containing the location of the Orc Prides on Aeryn's body.", "You find a note containing the location of the Orc Prides on Aeryn's body.", "logPlayer")
---]==]
-
+t("You find a note containing the location of the Orc Prides on Aeryn's body.", "Sur le corps d'Aeryn vous trouvez une note indiquant l'emplacement des Fiertés Orcs.", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-gates-of-morning/traps.lua"
 
-
--- texte non traduit
---[==[
-t("Impenetrable Plates", "Impenetrable Plates", "entity name")
-t("Quality Leather", "Quality Leather", "entity name")
-t("Arcane Cloth", "Arcane Cloth", "entity name")
-t("Swordmaster", "Swordmaster", "entity name")
-t("Night Affairs", "Night Affairs", "entity name")
-t("Orc Cutters", "Orc Cutters", "entity name")
-t("Mauling for Brutes", "Mauling for Brutes", "entity name")
-t("Bows and Slings", "Bows and Slings", "entity name")
-t("Sook's Arcane Goodness", "Sook's Arcane Goodness", "entity name")
-t("Sarah's Herbal Infusions", "Sarah's Herbal Infusions", "entity name")
-t("Sook's Runes and other Harmless Contraptions", "Sook's Runes and other Harmless Contraptions", "entity name")
-t("Zemekkys Home", "Zemekkys Home", "entity name")
---]==]
-
+t("Impenetrable Plates", "Plaques Impénétrables", "entity name")
+t("Quality Leather", "Cuir de Qualité", "entity name")
+t("Arcane Cloth", "Tissus Arcanique", "entity name")
+t("Swordmaster", "Maître d'Armes", "entity name")
+t("Night Affairs", "Affaires Nocturnes", "entity name")
+t("Orc Cutters", "Coupeurs d'Orcs", "entity name")
+t("Mauling for Brutes", "Mutilateurs pour les Brutes", "entity name")
+t("Bows and Slings", "Arcs et Frondes", "entity name")
+t("Sook's Arcane Goodness", "Bonté Arcanique de Sook", "entity name")
+t("Sarah's Herbal Infusions", "Infusions Herbaliques de Sarah", "entity name")
+t("Sook's Runes and other Harmless Contraptions", "Runes de Sook et autres Inventions Inoffensives", "entity name")
+t("Zemekkys Home", "Maison de Zemekkys", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-gates-of-morning/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Gates of Morning", "Gates of Morning", "_t")
---]==]
-
+t("Gates of Morning", "Portes du Matin", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-irkkk/grids.lua"
@@ -39743,16 +39714,12 @@ t("This yeek has all sorts of infusions to sell.", "This yeek has all sorts of i
 ------------------------------------------------
 section "mod-tome/data/zones/town-irkkk/traps.lua"
 
+t("Tailor", "Tailleur", "entity name")
 t("Tanner", "Tanneur", "entity name")
 t("Swordsmith", "Forge d'Épées", "entity name")
--- texte non traduit
---[==[
-t("Tailor", "Tailor", "entity name")
-t("Staff carver", "Staff carver", "entity name")
-t("Runemaster", "Runemaster", "entity name")
-t("Home of Marus the Alchemist", "Home of Marus the Alchemist", "entity name")
---]==]
-
+t("Staff carver", "Sculpteur de Bâton", "entity name")
+t("Runemaster", "Maître des Runes", "entity name")
+t("Home of Marus the Alchemist", "Maison de Marus l'Alchimiste", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-irkkk/zone.lua"
@@ -39800,14 +39767,14 @@ section "mod-tome/data/zones/town-iron-council/traps.lua"
 
 t("Armoury", "Armurerie", "entity name")
 t("Tanner", "Tanneur", "entity name")
+t("Tailor", "Tailleur", "entity name")
+t("Runemaster", "Maître des Runes", "entity name")
 t("Jewelry", "Bijouterie", "entity name")
 -- texte non traduit
 --[==[
-t("Tailor", "Tailor", "entity name")
 t("Sword smith", "Sword smith", "entity name")
 t("Axe smith", "Axe smith", "entity name")
 t("Mace smith", "Mace smith", "entity name")
-t("Runemaster", "Runemaster", "entity name")
 t("Delver's Delights", "Delver's Delights", "entity name")
 --]==]
 
@@ -39881,6 +39848,8 @@ t("Thoughts about the impossibility of sea travel.", "Thoughts about the impossi
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/traps.lua"
 
+t("Sarah's Herbal Infusions", "Infusions Herbaliques de Sarah", "entity name")
+t("Sook's Runes and other Harmless Contraptions", "Runes de Sook et autres Inventions Inoffensives", "entity name")
 t("Library", "Bibliothèque", "entity name")
 t("Urthol's Wondrous Emporium", "L'échoppe merveilleuse d'Urthol", "entity name")
 -- texte non traduit
@@ -39893,8 +39862,6 @@ t("Yulek's Tools of the Night", "Yulek's Tools of the Night", "entity name")
 t("Vortal's Trees Choppers", "Vortal's Trees Choppers", "entity name")
 t("Raber's Blunt Paradise", "Raber's Blunt Paradise", "entity name")
 t("Dala's Far Reaching Implements", "Dala's Far Reaching Implements", "entity name")
-t("Sarah's Herbal Infusions", "Sarah's Herbal Infusions", "entity name")
-t("Sook's Runes and other Harmless Contraptions", "Sook's Runes and other Harmless Contraptions", "entity name")
 t("The Elder", "The Elder", "entity name")
 t("Tannen's Door", "Tannen's Door", "entity name")
 t("Home of Ungrol the Alchemist", "Home of Ungrol the Alchemist", "entity name")
@@ -39993,18 +39960,14 @@ t("glowing shard", "glowing shard", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-point-zero/traps.lua"
 
+t("Tailor", "Tailleur", "entity name")
 t("Tanner", "Tanneur", "entity name")
 t("Knives and daggers", "Couteaux et Poignards", "entity name")
 t("Death from Afar", "Mort à Distance", "entity name")
 t("Swordsmith", "Forge d'Épées", "entity name")
+t("Staff carver", "Sculpteur de Bâton", "entity name")
+t("Runemaster", "Maître des Runes", "entity name")
 t("Jewelry", "Bijouterie", "entity name")
--- texte non traduit
---[==[
-t("Tailor", "Tailor", "entity name")
-t("Staff carver", "Staff carver", "entity name")
-t("Runemaster", "Runemaster", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-point-zero/zone.lua"
@@ -40684,6 +40647,7 @@ t("ice", "glace", "entity subtype")
 t("water", "eau", "entity subtype")
 t("deep water", "eau profonde", "entity name")
 t("rockwall", "mur de roche", "entity type")
+t("Sunwall mountain", "Montagnes du Mur Solaire", "entity name")
 t("sand", "sable", "entity subtype")
 t("Ruins of Kor'Pul", "Ruines de Kor'Pul", "entity name")
 -- texte non traduit
@@ -40707,7 +40671,6 @@ t("Westreach lake", "Westreach lake", "entity name")
 t("Irondeep lake", "Irondeep lake", "entity name")
 t("Spellmurk lake", "Spellmurk lake", "entity name")
 t("name", "name", "entity name")
-t("Sunwall mountain", "Sunwall mountain", "entity name")
 t("jungle", "jungle", "entity name")
 t("desert", "desert", "entity name")
 t("oasis", "oasis", "entity name")
