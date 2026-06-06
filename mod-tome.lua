@@ -285,7 +285,7 @@ t("Sided with the assassin lord.", "Du côté du seigneur assassin.", "_t")
 t("Destroyer of the creation", "Destructeur de la création", "achievement name")
 t("Killed Slasul.", "Tuer Slasul.", "_t")
 t("Treacherous Bastard", "Bâtard de traître", "achievement name")
-t("Killed Slasul even though you sided with him to learn the Legacy of the Naloren prodigy.", "Tuer Slasul même si vous vous êtes rangé de son côté pour apprendre le prodige de l'Héritage de Naloren.", "_t")
+t("Killed Slasul even though you sided with him to learn the Legacy of the Naloren prodigy.", "Tuer Slasul même si vous vous êtes rangé de son côté pour apprendre le prodige de l'Héritage de Nalore.", "_t")
 t("Flooder", "Inondateur", "achievement name")
 t("Defeated Ukllmswwik while doing his own quest.", "Vaincre Ukllmswwik en faisant sa propre quête.", "_t")
 t("Gem of the Moon", "Gemme de la Lune", "achievement name")
@@ -4080,7 +4080,7 @@ But he has become mad and now looks upon all other intelligent water life as a t
 I cannot leave this sanctuary, but perhaps you could help me?
 After all, it would be an act of mercy to end his madness.]], [[Attendez! Vous semblez en être digne, alors laissez-moi vous raconter une histoire.
 Pendant l'ère du bûcher, le monde a été brisé par les derniers effets de la Brûlure magique. Une partie du plateau continental du Maj'Eyal a été déchirée et jetée à la mer.
-Les Elfes de Naloren ont péri... du moins c'est ce que le monde pense. Certains d'entre eux ont survécu ; grâce à la magie ancienne des Sher'Tul qu'ils avaient gardée pour eux, ils se sont transformés pour vivre sous l'eau.
+Les Elfes de Nalore ont péri... du moins c'est ce que le monde pense. Certains d'entre eux ont survécu ; grâce à la magie ancienne des Sher'Tul qu'ils avaient gardée pour eux, ils se sont transformés pour vivre sous l'eau.
 On les appelle maintenant les nagas. Ils vivent dans les profondeurs de l'océan entre Maj'Eyal et l'Extrême-Orient.
 L'un d'eux, Slasul, s'est rebellé contre son ordre et a décidé qu'il voulait le monde pour lui, sous l'eau et au-dessus. Il a trouvé un ancien temple, probablement un vestige des Sher'Tul, appelé le Temple de la Création.
 Il croit pouvoir l'utiliser pour #{italic}#améliorer#{normal}# les nagas.
@@ -30717,6 +30717,8 @@ section "mod-tome/data/talents/uber/str.lua"
 
 t("Steamroller", "Rouleau Compresseur", "talent name")
 t("Irresistible Sun", "Soleil Irrésistible", "talent name")
+t("Legacy of the Naloren", "L'Héritage des Nalores", "talent name")
+t("Legacy of the Naloren", "L'Héritage des Nalores", "_t")
 -- nouveau texte
 --[==[
 t("Avatar of a Distant Sun", "Avatar of a Distant Sun", "talent name")
@@ -30787,9 +30789,7 @@ t("Be able to use massive armours", "Be able to use massive armours", "_t")
 t([[Your strength is legendary; fatigue and physical exertion mean nothing to you.
 		Your fatigue is permanently set to 0, carrying capacity increased by 500, and strength increased by 50 and you gain a size category.]], [[Your strength is legendary; fatigue and physical exertion mean nothing to you.
 		Your fatigue is permanently set to 0, carrying capacity increased by 500, and strength increased by 50 and you gain a size category.]], "tformat")
-t("Legacy of the Naloren", "Legacy of the Naloren", "talent name")
 t("Have sided with Slasul and killed Ukllmswwik", "Have sided with Slasul and killed Ukllmswwik", "_t")
-t("Legacy of the Naloren", "Legacy of the Naloren", "_t")
 t("Slasul will be happy to know your faith in his cause. You should return to speak to him.", "Slasul will be happy to know your faith in his cause. You should return to speak to him.", "_t")
 t([[You have sided with Slasul and helped him vanquish Ukllmswwik. You are now able to breathe underwater with ease.
 		You have also learned to use tridents and other exotic weapons easily (talent level %d of Exotic Weapon Mastery), and can Spit Poison (talent level %d) as nagas do. These are bonus talent levels that increase with your character level.
@@ -39305,36 +39305,27 @@ section "mod-tome/data/zones/telmur/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("ghost", "fantôme", "entity subtype")
+t("The Shade of Telos", "L'Ombre de Telos", "entity name")
+t("Everybody thought Telos dead and his spirit destroyed, but it seems he still lingers in his old place of power.", "Tout le monde croyait Telos mort et son esprit anéanti, mais il semblerait qu'il hante encore son ancien lieu de pouvoir.", "_t")
+t("and was savagely mutilated, a show of his rage towards all living things", "et fut sauvagement mutilé, manifestation de sa rage envers tous les êtres vivants", "_t")
 t("Back and there again", "Retourner et revenir", "_t")
--- texte non traduit
---[==[
-t("The Shade of Telos", "The Shade of Telos", "entity name")
-t("Everybody thought Telos dead and his spirit destroyed, but it seems he still lingers in his old place of power.", "Everybody thought Telos dead and his spirit destroyed, but it seems he still lingers in his old place of power.", "_t")
-t("and was savagely mutilated, a show of his rage towards all living things", "and was savagely mutilated, a show of his rage towards all living things", "_t")
-t("As the shade dissipates, you see no sign of the text entitled \"Inverted and Reverted Probabilistic Fields\". You should go back to Tannen.", "As the shade dissipates, you see no sign of the text entitled \"Inverted and Reverted Probabilistic Fields\". You should go back to Tannen.", "_t")
---]==]
-
+t("As the shade dissipates, you see no sign of the text entitled \"Inverted and Reverted Probabilistic Fields\". You should go back to Tannen.", "À mesure que l'ombre se dissipe, vous ne voyez aucune trace du texte intitulé \"Champs probabilistes inversés et réversés\". Vous devriez retourner à Tannen.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/telmur/objects.lua"
 
+t("Telos's Staff (Bottom Half)", "Bâton de Telos (Moitié Inférieure)", "entity name")
 t("broken staff", "Bâton cassé", "_t")
--- texte non traduit
---[==[
-t("Telos's Staff (Bottom Half)", "Telos's Staff (Bottom Half)", "entity name")
-t("The bottom part of Telos' broken staff.", "The bottom part of Telos' broken staff.", "_t")
---]==]
-
+t("The bottom part of Telos' broken staff.", "La partie inférieure du bâton brisé de Telos.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/telmur/zone.lua"
 
-
+t("Ruins of Telmur", "Ruines de Telmur", "_t")
+t("As you approach the tower you notice it is utterly destroyed, only the basement remaining.", "En approchant de la tour vous remarquez qu'elle est entièrement détruite, il ne reste que le sous-sol.", "_t")
 -- texte non traduit
 --[==[
-t("Ruins of Telmur", "Ruins of Telmur", "_t")
 t("Telmur", "Telmur", "_t")
-t("As you approach the tower you notice it is utterly destroyed, only the basement remaining.", "As you approach the tower you notice it is utterly destroyed, only the basement remaining.", "_t")
 --]==]
 
 
@@ -39343,56 +39334,47 @@ section "mod-tome/data/zones/tempest-peak/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
--- texte non traduit
---[==[
-t("Urkis, the High Tempest", "Urkis, the High Tempest", "entity name")
-t("Lightning crackles around this middle-aged man. He radiates power.", "Lightning crackles around this middle-aged man. He radiates power.", "_t")
-t("and used in mad electrical reanimation experiments", "and used in mad electrical reanimation experiments", "_t")
---]==]
-
+t("Urkis, the High Tempest", "Urkis, la Grande Tempête", "entity name")
+t("Lightning crackles around this middle-aged man. He radiates power.", "Des éclairs crépitent autour de cet homme d'âge mûr. Il irradie de puissance.", "_t")
+t("and used in mad electrical reanimation experiments", "et utilisés dans des expériences de réanimation électrique folles", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/tempest-peak/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Tempest Peak", "Tempest Peak", "_t")
---]==]
-
+t("Tempest Peak", "Pic Tempétueux", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/temple-of-creation/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("This towering naga exudes power, and radiates a certain charismatic charm as well. His masculine face stares at you with great intensity, and you struggle to meet his gaze. His torso is bare apart from an exquisite pearl set directly in his chest, and in his muscular arms he holds ready a heavy mace and shield. You sense there is more to him also, as if the very power of the ocean were concentrated in this great creature, and that the wrath of it may come flooding out at any moment.", "Ce naga imposant dégage une puissance indéniable, ainsi qu'un charme charismatique certain. Son visage masculin vous fixe avec une grande intensité, et vous peinez à soutenir son regard. Son torse est nu à l'exception d'une perle exquise sertie directement sur sa poitrine, et dans ses bras musclés, il brandit une lourde masse et un bouclier. Vous pressentez qu'il recèle quelque chose de plus profond, comme si la puissance même de l'océan était concentrée en cette créature colossale, et que sa colère pourrait se déchaîner à tout instant.", "_t")
+t("and perverted into a monstrous aberration as a warning to the surface", "et pervertie en une aberration monstrueuse, comme un avertissement à la surface", "_t")
 -- texte non traduit
 --[==[
 t("naga", "naga", "entity subtype")
 t("Slasul", "Slasul", "entity name")
-t("This towering naga exudes power, and radiates a certain charismatic charm as well. His masculine face stares at you with great intensity, and you struggle to meet his gaze. His torso is bare apart from an exquisite pearl set directly in his chest, and in his muscular arms he holds ready a heavy mace and shield. You sense there is more to him also, as if the very power of the ocean were concentrated in this great creature, and that the wrath of it may come flooding out at any moment.", "This towering naga exudes power, and radiates a certain charismatic charm as well. His masculine face stares at you with great intensity, and you struggle to meet his gaze. His torso is bare apart from an exquisite pearl set directly in his chest, and in his muscular arms he holds ready a heavy mace and shield. You sense there is more to him also, as if the very power of the ocean were concentrated in this great creature, and that the wrath of it may come flooding out at any moment.", "_t")
-t("and perverted into a monstrous aberration as a warning to the surface", "and perverted into a monstrous aberration as a warning to the surface", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/temple-of-creation/objects.lua"
 
+t("Eldritch Pearl", "Perle Occulte", "entity name")
+t("bright pearl", "perle brillante", "_t")
+t("Thousands of years spent inside the temple of creation have infused this pearl with the fury of rushing water. It pulses light.", "Des milliers d'années passées au cœur du temple de la création ont imprégné cette perle de la fureur des eaux tumultueuses. Elle pulse de lumière.", "_t")
+t("tract", "traité", "entity name")
+t("A tract revealing the history of the Nagas.", "Un traité révélant l'histoire des Nagas.", "_t")
 t("A note.", "Une note", "_t")
--- texte non traduit
---[==[
-t("Eldritch Pearl", "Eldritch Pearl", "entity name")
-t("bright pearl", "bright pearl", "_t")
-t("Thousands of years spent inside the temple of creation have infused this pearl with the fury of rushing water. It pulses light.", "Thousands of years spent inside the temple of creation have infused this pearl with the fury of rushing water. It pulses light.", "_t")
-t("tract", "tract", "entity name")
-t("A tract revealing the history of the Nagas.", "A tract revealing the history of the Nagas.", "_t")
-t("note", "note", "entity name")
-t("Legacy of the Naloren", "Legacy of the Naloren", "entity name")
-t("ornate orichalcum trident", "ornate orichalcum trident", "_t")
+t("Legacy of the Naloren", "L'Héritage des Nalores", "entity name")
+t("ornate orichalcum trident", "trident en orichalque orné", "_t")
 t([[This incredibly beautiful -- and powerful -- trident is made of the rare metal orichalcum. An amazing pearl is seated in head of the trident, as it spreads into three razor sharp prongs.
 It is imbued with the greatest strengths of all of the most powerful Naga warriors.
-Slasul gave it to you as a sign of his faith in you. It is a sign of hope for all of the Naloren race, that one outside of their tribe could be so trusted.]], [[This incredibly beautiful -- and powerful -- trident is made of the rare metal orichalcum. An amazing pearl is seated in head of the trident, as it spreads into three razor sharp prongs.
-It is imbued with the greatest strengths of all of the most powerful Naga warriors.
-Slasul gave it to you as a sign of his faith in you. It is a sign of hope for all of the Naloren race, that one outside of their tribe could be so trusted.]], "_t")
+Slasul gave it to you as a sign of his faith in you. It is a sign of hope for all of the Naloren race, that one outside of their tribe could be so trusted.]], [[Ce trident d'une beauté et d'une puissance exceptionnelles est forgé dans le rare métal d'orichalque. Une perle d'une beauté extraordinaire orne sa tête, d'où partent trois pointes acérées comme des rasoirs.
+Il est imprégné de la force des plus puissants guerriers Naga.
+Slasul vous l'a offert en signe de sa confiance. C'est un symbole d'espoir pour tout le peuple Nalore qu'un étranger à leur tribu puisse être digne d'une telle confiance.]], "_t")
+-- texte non traduit
+--[==[
+t("note", "note", "entity name")
 --]==]
 
 
@@ -39400,13 +39382,9 @@ Slasul gave it to you as a sign of his faith in you. It is a sign of hope for al
 section "mod-tome/data/zones/temple-of-creation/zone.lua"
 
 t("Temple of Creation", "Temple de la création", "_t")
--- texte non traduit
---[==[
-t("#AQUAMARINE#You arrive deep under water, at the sea floor, as you look upwards you only see a glimpse of light coming through.", "#AQUAMARINE#You arrive deep under water, at the sea floor, as you look upwards you only see a glimpse of light coming through.", "logPlayer")
-t("#AQUAMARINE#You should be crushed by the pressure, but strangely you feel no discomfort.", "#AQUAMARINE#You should be crushed by the pressure, but strangely you feel no discomfort.", "logPlayer")
-t("#AQUAMARINE#All around you there is only water as far as you can see, except to your left, a giant coral structure. This is probably the temple of Creation.", "#AQUAMARINE#All around you there is only water as far as you can see, except to your left, a giant coral structure. This is probably the temple of Creation.", "logPlayer")
---]==]
-
+t("#AQUAMARINE#You arrive deep under water, at the sea floor, as you look upwards you only see a glimpse of light coming through.", "#AQUAMARINE#Vous arrivez profondément sous l'eau, au fond de la mer, et lorsque vous levez les yeux, vous n'apercevez qu'un mince rayon de lumière.", "logPlayer")
+t("#AQUAMARINE#You should be crushed by the pressure, but strangely you feel no discomfort.", "#AQUAMARINE#Vous devriez être écrasé par la pression, mais étrangement vous ne ressentez aucune gêne.", "logPlayer")
+t("#AQUAMARINE#All around you there is only water as far as you can see, except to your left, a giant coral structure. This is probably the temple of Creation.", "#AQUAMARINE#Tout autour de vous il n'y a que de l'eau à perte de vue. Sauf sur votre gauche, une gigantesque structure corallienne. C'est probablement le temple de la Création.", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/zones/temporal-reprieve-talent/zone.lua"
