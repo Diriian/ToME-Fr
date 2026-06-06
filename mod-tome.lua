@@ -25415,6 +25415,7 @@ t("halfling", "halfelin", "talent type")
 t("Militant Mind", "Esprit Militant", "talent name")
 t("Orcish Fury", "Furie Orc", "talent name")
 t("Skirmisher", "Tirailleur", "talent name")
+t("yeek mindslayer", "guerrier psionique yeek", "_t")
 t("Ogric Wrath", "Colère Ogrique", "talent name")
 t("Writ Large", "Écrire Gros", "talent name")
 -- nouveau texte
@@ -25571,7 +25572,6 @@ t([[Your mind becomes more attuned to the Way, and is shielded from outside effe
 t("Quickened", "Quickened", "talent name")
 t("#RED#%s reacts immediately after taking severe wounds!#LAST#", "#RED#%s reacts immediately after taking severe wounds!#LAST#", "logSeen")
 t("Wayist", "Wayist", "talent name")
-t("yeek mindslayer", "yeek mindslayer", "_t")
 t("A wayist that came to help.", "A wayist that came to help.", "_t")
 t([[Reach through the collective psionic gestalt of the yeeks, the Way, to call for immediate help.
 		Summons up to 3 yeek mindslayers to your side for 6 turns.
@@ -39677,37 +39677,32 @@ t("Gates of Morning", "Portes du Matin", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-irkkk/grids.lua"
 
-
--- texte non traduit
---[==[
-t("cooking pit", "cooking pit", "entity name")
---]==]
-
+t("cooking pit", "fosse de cuisine", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-irkkk/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("yeek mindslayer", "guerrier psionique yeek", "entity name")
+t("A mindslayer in training.", "Un guerrier psionique en formation.", "_t")
+t("yeek psionic", "psionique yeek", "entity name")
+t("You can literaly feel the mental energies emitted by this yeek.", "On peut littéralement ressentir les énergies mentales dégagées par ce yeek.", "_t")
+t("gem crafter", "joaillier", "entity name")
+t("This yeek has all sorts of gems to sell.", "Ce yeek a toutes sortes de gemmes à vendre.", "_t")
+t("two hander weapons crafter", "artisan d'armes à deux mains", "entity name")
+t("This yeek has all sorts of two handed weapons to sell.", "Ce yeek a toutes sortes d'armes à deux mains à vendre.", "_t")
+t("one hander weapons crafter", "artisan d'armes à une main", "entity name")
+t("This yeek has all sorts of one handed weapons to sell.", "Ce yeek a toutes sortes d'armes à une main à vendre.", "_t")
 t("tailor", "tailleur", "entity name")
+t("This yeek has all sorts of cloth to sell.", "Ce yeek a toutes sortes de vetements à vendre.", "_t")
 t("tanner", "tanneur", "entity name")
+t("This yeek has all sorts of leathers to sell.", "Ce yeek a toutes sortes de cuirs à vendre.", "_t")
+t("natural infusions", "infusions naturelles", "entity name")
+t("This yeek has all sorts of infusions to sell.", "Ce yeek a toutes sortes d'infusions à vendre.", "_t")
 -- texte non traduit
 --[==[
 t("yeek", "yeek", "entity subtype")
-t("yeek mindslayer", "yeek mindslayer", "entity name")
-t("A mindslayer in training.", "A mindslayer in training.", "_t")
-t("yeek psionic", "yeek psionic", "entity name")
-t("You can literaly feel the mental energies emitted by this yeek.", "You can literaly feel the mental energies emitted by this yeek.", "_t")
-t("gem crafter", "gem crafter", "entity name")
-t("This yeek has all sorts of gems to sell.", "This yeek has all sorts of gems to sell.", "_t")
-t("two hander weapons crafter", "two hander weapons crafter", "entity name")
-t("This yeek has all sorts of two handed weapons to sell.", "This yeek has all sorts of two handed weapons to sell.", "_t")
-t("one hander weapons crafter", "one hander weapons crafter", "entity name")
-t("This yeek has all sorts of one handed weapons to sell.", "This yeek has all sorts of one handed weapons to sell.", "_t")
-t("This yeek has all sorts of cloth to sell.", "This yeek has all sorts of cloth to sell.", "_t")
-t("This yeek has all sorts of leathers to sell.", "This yeek has all sorts of leathers to sell.", "_t")
-t("natural infusions", "natural infusions", "entity name")
-t("This yeek has all sorts of infusions to sell.", "This yeek has all sorts of infusions to sell.", "_t")
 --]==]
 
 
@@ -39737,16 +39732,12 @@ section "mod-tome/data/zones/town-iron-council/grids.lua"
 t("wall", "mur", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("crystals", "cristaux", "entity name")
+t("Escape route from Reknor", "Itinéraire de Sortie de Reknor", "entity name")
 t("The Deep Bellow", "Le Grondement des Profondeurs", "entity name")
--- texte non traduit
---[==[
-t("Escape route from Reknor", "Escape route from Reknor", "entity name")
-t("The Dwarven Empire Incarnate", "The Dwarven Empire Incarnate", "entity name")
-t("Mystic of the Empire", "Mystic of the Empire", "entity name")
-t("Warrior of the Empire", "Warrior of the Empire", "entity name")
-t("Defender of the Empire", "Defender of the Empire", "entity name")
---]==]
-
+t("The Dwarven Empire Incarnate", "L'Incarnation de l'Empire Nain", "entity name")
+t("Mystic of the Empire", "Mystique de l'Empire", "entity name")
+t("Warrior of the Empire", "Guerrier de l'Empire", "entity name")
+t("Defender of the Empire", "Défenseur de l'Empire", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-iron-council/npcs.lua"
@@ -39754,13 +39745,9 @@ section "mod-tome/data/zones/town-iron-council/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("dwarf", "nain", "entity subtype")
 t("Catch @himher@!", "Capturer @himher@!", "_t")
--- texte non traduit
---[==[
-t("dwarven guard", "dwarven guard", "entity name")
-t("A stocky dwarf, he looks angry.", "A stocky dwarf, he looks angry.", "_t")
-t("dwarven earthwarden", "dwarven earthwarden", "entity name")
---]==]
-
+t("dwarven guard", "garde nain", "entity name")
+t("A stocky dwarf, he looks angry.", "Ce nain trapu a l'air en colère.", "_t")
+t("dwarven earthwarden", "gardien de la terre nain", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-iron-council/traps.lua"
@@ -39768,26 +39755,17 @@ section "mod-tome/data/zones/town-iron-council/traps.lua"
 t("Armoury", "Armurerie", "entity name")
 t("Tanner", "Tanneur", "entity name")
 t("Tailor", "Tailleur", "entity name")
+t("Sword smith", "Forge d'Épées", "entity name")
+t("Axe smith", "Forge de Haches", "entity name")
+t("Mace smith", "Forge de Maces", "entity name")
 t("Runemaster", "Maître des Runes", "entity name")
 t("Jewelry", "Bijouterie", "entity name")
--- texte non traduit
---[==[
-t("Sword smith", "Sword smith", "entity name")
-t("Axe smith", "Axe smith", "entity name")
-t("Mace smith", "Mace smith", "entity name")
-t("Delver's Delights", "Delver's Delights", "entity name")
---]==]
-
+t("Delver's Delights", "Délices de Delver", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-iron-council/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Iron Council", "Iron Council", "_t")
---]==]
-
+t("Iron Council", "Conseil de Fer", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/grids.lua"
