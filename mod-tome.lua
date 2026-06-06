@@ -7069,7 +7069,7 @@ t("ethereal ring", "anneau éthéré", "_t")
 ------------------------------------------------
 section "mod-tome/data/general/objects/boss-artifacts-maj-eyal.lua"
 
-t("Wintertide", "Hiver", "entity name")
+t("Wintertide", "Frimas", "entity name")
 t("glittering longsword", "épée longue étincelante", "_t")
 t([[The air seems to freeze around the blade of this sword, draining all heat from the area.
 It is said the Conclave created this weapon for their warmaster during the dark times of the first allure war.]], [[L'air semble givrer autour de la lame de cette épée, drainant toute la chaleur de la zone.
@@ -10879,7 +10879,7 @@ t("You crush the %s, and the gloves take on an illustrious shine!", "Vous écras
 t("Merkul's Second Eye", "Second Oeil de Merkul", "entity name")
 t("sleek stringed bow", "arc à cordes fines", "_t")
 t("This bow is said to have been the tool of an infamous dwarven spy. Rumours say it allowed him to \"steal\" the eyes of his enemies. Adversaries struck were left alive, only to unknowingly divulge their secrets to his unwavering sight.", "On dit que cet arc était l'outil d'un infâme espion nain. Les rumeurs disent qu'il lui permettait de \"voler\" les yeux de ses ennemis. Les adversaires frappés étaient laissés en vie, seulement pour divulguer sans le savoir leurs secrets à sa vue inébranlable.", "_t")
-t("Summertide", "Eté", "entity name")
+t("Summertide", "Estivale", "entity name")
 t("shining gold shield", "bouclier en or brillant", "_t")
 t("A bright light shines from the center of this shield. Holding it clears your mind.", "Une lumière vive brille au centre de ce bouclier. En le tenant, vous purifiez votre esprit.", "_t")
 t("releases a burst of light", "émet un éclat de lumière", "_t")
@@ -39226,62 +39226,48 @@ t("#DARK_GREEN#Melinda begins to glow with an eerie aura!", "#DARK_GREEN#Melinda
 ------------------------------------------------
 section "mod-tome/data/zones/stellar-system-shandral/grids.lua"
 
-
--- texte non traduit
---[==[
-t("Shandral (Sun)", "Shandral (Sun)", "entity name")
-t("The sun of the Shandral star system.", "The sun of the Shandral star system.", "_t")
-t("Eyal (Planet)", "Eyal (Planet)", "entity name")
-t("One of the main planets of the Shandral system.", "One of the main planets of the Shandral system.", "_t")
-t("Summertide (Moon of Eyal)", "Summertide (Moon of Eyal)", "entity name")
-t("One of the moons of Eyal.", "One of the moons of Eyal.", "_t")
-t("Wintertide (Moon of Eyal)", "Wintertide (Moon of Eyal)", "entity name")
-t("Kolal (Planet)", "Kolal (Planet)", "entity name")
-t("Luxam (Planet)", "Luxam (Planet)", "entity name")
-t("Ponx (Gaz Planet)", "Ponx (Gaz Planet)", "entity name")
---]==]
-
+t("Shandral (Sun)", "Shandral (Soleil)", "entity name")
+t("The sun of the Shandral star system.", "Le soleil du système stellaire de Shandral.", "_t")
+t("Eyal (Planet)", "Eyal (Planète)", "entity name")
+t("One of the main planets of the Shandral system.", "L'une des planètes principales du système de Shandral.", "_t")
+t("Summertide (Moon of Eyal)", "Estival (Lune d'Eyal)", "entity name")
+t("One of the moons of Eyal.", "Une des lunes d'Eyal.", "_t")
+t("Wintertide (Moon of Eyal)", "Frimas (Lune d'Eyal)", "entity name")
+t("Kolal (Planet)", "Kolal (Planète)", "entity name")
+t("Luxam (Planet)", "Luxam (Planète)", "entity name")
+t("Ponx (Gaz Planet)", "Ponx (Gaz Planète)", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/stellar-system-shandral/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Stellar System: Shandral", "Stellar System: Shandral", "_t")
---]==]
-
+t("Stellar System: Shandral", "Système Stellaire: Shandral", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/tannen-tower/grids.lua"
 
+t("Portal to Last Hope", "Portail vers Dernier Espoir", "entity name")
+t("This portal seems to be connected with Last Hope; you could probably use it to go back.", "Ce portail semble être lié à Dernier Espoir. Vous pourriez probablement l'utiliser pour revenir en arrière.", "_t")
 t("Back and there again", "Retourner et revenir", "_t")
+t("Enter the portal back to Last Hope?", "Emprunter le portail de retour vers Dernier Espoir?", "_t")
 t("Stay", "Restez", "_t")
 t("Enter", "Entrer", "_t")
--- texte non traduit
---[==[
-t("Portal to Last Hope", "Portal to Last Hope", "entity name")
-t("This portal seems to be connected with Last Hope; you could probably use it to go back.", "This portal seems to be connected with Last Hope; you could probably use it to go back.", "_t")
-t("Enter the portal back to Last Hope?", "Enter the portal back to Last Hope?", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/tannen-tower/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("The traitor has been revealed, and he does not intend to let you escape to tell the tale.", "Le traître a été démasqué, et il n'a pas l'intention de vous laisser vous échapper pour raconter l'histoire de sa trahison.", "_t")
+t("and was neither found nor heard from again", "et on ne l'a plus jamais retrouvé ni entendu parler de lui.", "_t")
 t("construct", "créature artificielle", "entity type")
+t([[This is Tannen's construct, a HUGE golem in the rough shape of a dragon.
+It is so huge that it blocks sight beyond it.]], [[Voici la création de Tannen, un golem gigantesque à la grossière allure d'un dragon.
+Il est si immense qu'il masque ce qui se trouve derrière lui.]], "_t")
 -- texte non traduit
 --[==[
 t("Tannen", "Tannen", "entity name")
-t("The traitor has been revealed, and he does not intend to let you escape to tell the tale.", "The traitor has been revealed, and he does not intend to let you escape to tell the tale.", "_t")
-t("and was neither found nor heard from again", "and was neither found nor heard from again", "_t")
 t("golem", "golem", "entity subtype")
 t("Drolem", "Drolem", "entity name")
-t([[This is Tannen's construct, a HUGE golem in the rough shape of a dragon.
-It is so huge that it blocks sight beyond it.]], [[This is Tannen's construct, a HUGE golem in the rough shape of a dragon.
-It is so huge that it blocks sight beyond it.]], "_t")
 --]==]
 
 
@@ -39299,29 +39285,20 @@ t("jewelry", "bijoux", "entity type")
 t("orb", "orbe", "entity subtype")
 t("Orb of Many Ways", "Orbe des Multiples Voies", "entity name")
 t("swirling orb", "orbe tourbillonnant", "_t")
+t([[The orb projects images of distant places, some that seem not to be of this world, switching rapidly.
+If used near a portal, it could probably activate it.]], [[L'orbe projette des images de lieux lointains dont certaines semblent venues d'un autre monde. Elles changent rapidement.
+Utilisée près d'un portail, elle pourrait probablement l'activer.]], "_t")
 t("activate a portal", "activer un portail", "_t")
 t("There is no portal to activate here.", "Il n'y a pas de portail à activer ici.", "logPlayer")
 t("tattered paper scrap", "morceau de papier déchiré", "entity name")
--- texte non traduit
---[==[
-t([[The orb projects images of distant places, some that seem not to be of this world, switching rapidly.
-If used near a portal, it could probably activate it.]], [[The orb projects images of distant places, some that seem not to be of this world, switching rapidly.
-If used near a portal, it could probably activate it.]], "_t")
-t("A paper scrap, left by Tannen.", "A paper scrap, left by Tannen.", "_t")
---]==]
-
+t("A paper scrap, left by Tannen.", "Un bout de papier, laissé par Tannen.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/tannen-tower/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Tannen's Tower", "Tannen's Tower", "_t")
-t("The portal brought you to what seems to be a cell in the basement of the tower. You must escape!", "The portal brought you to what seems to be a cell in the basement of the tower. You must escape!", "_t")
-t("As you climb up the steps, you see Tannen standing with his drolem, reading a scrap of parchment.  As he reads, his eyes grow wider, and he starts sweating and pacing back and forth.  When he reaches to stuff it in his pocket, he sees you and jumps back like a startled cat.  \"No!  Not now!  You have no idea what's at stake!\"  He retrieves a fistful of brightly-colored flasks from his robes, and his drolem's eyes glow as it springs to life, metal screeching in an impressive imitation of a roar.", "As you climb up the steps, you see Tannen standing with his drolem, reading a scrap of parchment.  As he reads, his eyes grow wider, and he starts sweating and pacing back and forth.  When he reaches to stuff it in his pocket, he sees you and jumps back like a startled cat.  \"No!  Not now!  You have no idea what's at stake!\"  He retrieves a fistful of brightly-colored flasks from his robes, and his drolem's eyes glow as it springs to life, metal screeching in an impressive imitation of a roar.", "_t")
---]==]
-
+t("Tannen's Tower", "Tour de Tannen", "_t")
+t("The portal brought you to what seems to be a cell in the basement of the tower. You must escape!", "Le portail vous a conduit dans ce qui semble être une cellule au sous-sol de la tour. Vous devez vous échapper!", "_t")
+t("As you climb up the steps, you see Tannen standing with his drolem, reading a scrap of parchment.  As he reads, his eyes grow wider, and he starts sweating and pacing back and forth.  When he reaches to stuff it in his pocket, he sees you and jumps back like a startled cat.  \"No!  Not now!  You have no idea what's at stake!\"  He retrieves a fistful of brightly-colored flasks from his robes, and his drolem's eyes glow as it springs to life, metal screeching in an impressive imitation of a roar.", "En gravissant les marches vous apercevez Tannen, son drolem à ses côtés, lisant un morceau de parchemin. Ses yeux s'écarquillent, il se met à transpirer et à arpenter la pièce. Alors qu'il s'apprête à glisser le parchemin dans sa poche, il vous voit et sursaute comme un chat effrayé. \"Non! Pas maintenant! Vous n'imaginez pas ce qui est en jeu!\" Il sort de sa robe une poignée de fioles aux couleurs vives, les yeux de son drolem s'illuminent tandis que celui-ci s'anime et que son métal grinçe dans une imitation impressionnante de rugissement.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/telmur/npcs.lua"
