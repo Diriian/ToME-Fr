@@ -39403,16 +39403,16 @@ section "mod-tome/data/zones/temporal-rift/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("temporal", "temporel", "entity subtype")
+t("Ben Cruthdar, the Abomination", "Ben Cruthdar, l'Abomination", "entity name")
+t("This crazed madman seems twisted and corrupted by temporal energy, his body shifting and phasing in and out of reality.", "Ce fou furieux semble déformé et corrompu par l'énergie temporelle, son corps se transformant en  apparaissant et disparaissant de la réalité.", "_t")
+t("Rantha the Abomination", "Rantha l'Abomination", "entity name")
+t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...  and this one seems to have been corrupted by the time rift.", "Griffes et dents. Glace et mort. Les dragons ne sont pas tous éteints, semble-t-il... et celui-ci semble avoir été corrompu par la faille temporelle.", "_t")
+t("Chronolith Twin", "Chronolithe Jumeaux", "entity name")
+t("A six-armed creature, dressed in robes, with black insectile eyes.", "Une créature à six bras, vêtue de robes, avec des yeux noirs insectoïdes.", "_t")
+t("Chronolith Clone", "Chronolithe Clone", "entity name")
 -- texte non traduit
 --[==[
-t("Ben Cruthdar, the Abomination", "Ben Cruthdar, the Abomination", "entity name")
-t("This crazed madman seems twisted and corrupted by temporal energy, his body shifting and phasing in and out of reality.", "This crazed madman seems twisted and corrupted by temporal energy, his body shifting and phasing in and out of reality.", "_t")
 t("dragon", "dragon", "entity type")
-t("Rantha the Abomination", "Rantha the Abomination", "entity name")
-t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...  and this one seems to have been corrupted by the time rift.", "Claws and teeth. Ice and death. Dragons are not all extinct it seems...  and this one seems to have been corrupted by the time rift.", "_t")
-t("Chronolith Twin", "Chronolith Twin", "entity name")
-t("A six-armed creature, dressed in robes, with black insectile eyes.", "A six-armed creature, dressed in robes, with black insectile eyes.", "_t")
-t("Chronolith Clone", "Chronolith Clone", "entity name")
 --]==]
 
 
@@ -39425,17 +39425,13 @@ t("Rune of the Rift", "Rune de la Faille", "entity name")
 section "mod-tome/data/zones/temporal-rift/zone.lua"
 
 t("Temporal Rift", "Faille Temporelle", "_t")
--- texte non traduit
---[==[
-t("Temporal Rift: Lumberjack village", "Temporal Rift: Lumberjack village", "_t")
-t("Temporal Rift: Daikara", "Temporal Rift: Daikara", "_t")
-t("Temporal Rift: Lake of Nur", "Temporal Rift: Lake of Nur", "_t")
-t("Space and time distort and lose meaning as you pass through the rift. This place is alien.", "Space and time distort and lose meaning as you pass through the rift. This place is alien.", "_t")
-t("This looks like Maj'Eyal's forest but it looks strangely distorted, beware...", "This looks like Maj'Eyal's forest but it looks strangely distorted, beware...", "_t")
-t("As you pass the rift you see what seems to be the Daikara mountains, yet they are not.", "As you pass the rift you see what seems to be the Daikara mountains, yet they are not.", "_t")
-t("The peace of this place has been disturbed.", "The peace of this place has been disturbed.", "_t")
---]==]
-
+t("Temporal Rift: Lumberjack village", "Faille Temporelle: Petit Village de Bûcherons", "_t")
+t("Temporal Rift: Daikara", "Faille Temporelle: Daikara", "_t")
+t("Temporal Rift: Lake of Nur", "Faille Temporelle: Lac de Nur", "_t")
+t("Space and time distort and lose meaning as you pass through the rift. This place is alien.", "L'espace et le temps se distordent et perdent leur sens lorsqu'on traverse la faille. C'est un endroit alien.", "_t")
+t("This looks like Maj'Eyal's forest but it looks strangely distorted, beware...", "Cela ressemble à la forêt de Maj'Eyal, mais elle semble étrangement déformée, méfiez-vous...", "_t")
+t("As you pass the rift you see what seems to be the Daikara mountains, yet they are not.", "En passant la faille, vous voyez ce qui semble être les montagnes Daikara, mais ce n'est pas le cas.", "_t")
+t("The peace of this place has been disturbed.", "La tranquillité de ce lieu a été troublée.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/test/mapscripts/rooms_test.lua"
@@ -39460,37 +39456,23 @@ t("!!! %d + %d", "!!! %d + %d", "log")
 ------------------------------------------------
 section "mod-tome/data/zones/test/zone.lua"
 
-
--- texte non traduit
---[==[
-t("TestZone!", "TestZone!", "_t")
---]==]
-
+t("TestZone!", "Zone Teste!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/thieves-tunnels/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
--- texte non traduit
---[==[
-t("Assassin Lord", "Assassin Lord", "entity name")
-t("He is the leader of a gang of bandits; watch out for his men.", "He is the leader of a gang of bandits; watch out for his men.", "_t")
-t("#DARK_GREY#The assassin lord throws a smoke bomb and disappears!", "#DARK_GREY#The assassin lord throws a smoke bomb and disappears!", "logPlayer")
-t("As the assassin dies the magical veil protecting the stairs out vanishes.", "As the assassin dies the magical veil protecting the stairs out vanishes.", "logSeen")
-t("Lost Merchant", "Lost Merchant", "entity name")
---]==]
-
+t("Assassin Lord", "Seigneur Assassin", "entity name")
+t("He is the leader of a gang of bandits; watch out for his men.", "Il est le chef d'une bande de bandits. Méfiez-vous de ses hommes.", "_t")
+t("#DARK_GREY#The assassin lord throws a smoke bomb and disappears!", "#DARK_GREY#Le seigneur assassin lance une bombe fumigène et disparaît!", "logPlayer")
+t("As the assassin dies the magical veil protecting the stairs out vanishes.", "Au moment où l'assassin meurt, le voile magique qui protégeait l'escalier disparaît.", "logSeen")
+t("Lost Merchant", "Marchand Perdu", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/thieves-tunnels/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Unknown tunnels", "Unknown tunnels", "_t")
---]==]
-
+t("Unknown tunnels", "Tunnels inconnus", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-angolwen/grids.lua"
