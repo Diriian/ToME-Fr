@@ -12172,11 +12172,10 @@ Someone foolish has tried to reconstruct it, but it seems like it misses an eye 
 ------------------------------------------------
 section "mod-tome/data/lore/angolwen.lua"
 
-
+t("Lecture on Humility by Archmage Linaniil", "Conférence sur l'Humilité par l'Archimage Linaniil", "_t")
 -- texte non traduit
 --[==[
 t("angolwen", "angolwen", "newLore category")
-t("Lecture on Humility by Archmage Linaniil", "Lecture on Humility by Archmage Linaniil", "_t")
 t([[It were some years now since twain of our brightest students left Angolwen, sullied by our veil of secrecy and our silent duty. It still lies heavy on mine heart to think of what they could accomplish within our private circle. I but hope that one day they whilst return, and they whilst understand the reasons behind our solemn mission.
 
 But I must think of the future, for too many are the regrets of mine long past, and to hold their burdens overlong is to be crushed. I must think of ye, young acolytes, who start now in the learning of our lores. I must explain to ye our mission, our purpose, our justification, so that ye understand all what we do and why. In secrecy we operate, trying to heal the harms of our past, trying to build a better future. For our penance is great, and never should it be forgotten in all Eyal the terrors of the Spellblaze.
@@ -19876,6 +19875,8 @@ section "mod-tome/data/talents/chronomancy/anomalies.lua"
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 t("trap", "piège", "_t")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("human farmer", "fermier humain", "_t")
+t("halfling gardener", "jardinier halfelin", "_t")
 t("%s's %s is disrupted!", "%s's %s est perturbé!", "logSeen")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
@@ -19910,9 +19911,7 @@ t("@Source@ makes several targets blink uncontrollably.", "@Source@ makes severa
 t("Up to five targets in a radius of %d are teleporting %d tiles every turn.", "Up to five targets in a radius of %d are teleporting %d tiles every turn.", "tformat")
 t("Anomaly Summon Townsfolk", "Anomaly Summon Townsfolk", "talent name")
 t("Some innocent bystanders have been teleported into the fight.", "Some innocent bystanders have been teleported into the fight.", "_t")
-t("human farmer", "human farmer", "_t")
 t("A weather-worn Human farmer, looking at a loss as to what's going on.", "A weather-worn Human farmer, looking at a loss as to what's going on.", "_t")
-t("halfling gardener", "halfling gardener", "_t")
 t("A rugged Halfling gardener, looking quite confused as to what he's doing here.", "A rugged Halfling gardener, looking quite confused as to what he's doing here.", "_t")
 t("shalore scribe", "shalore scribe", "_t")
 t("A scrawny Elven scribe, looking bewildered at his surroundings.", "A scrawny Elven scribe, looking bewildered at his surroundings.", "_t")
@@ -39477,70 +39476,57 @@ t("Unknown tunnels", "Tunnels inconnus", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-angolwen/grids.lua"
 
+t("cultivated fields", "champs cultivés", "entity name")
 t("cobblestone road", "route pavée", "entity name")
--- texte non traduit
---[==[
-t("cultivated fields", "cultivated fields", "entity name")
-t("magical rock", "magical rock", "entity name")
-t("fountain", "fountain", "entity name")
---]==]
-
+t("magical rock", "roche magique", "entity name")
+t("fountain", "fontaine", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-angolwen/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("Linaniil, Supreme Archmage of Angolwen", "Linaniil, Archimage Suprême d'Angolwen", "entity name")
+t("A tall, pale woman dressed in a revealing silk robe. Her gaze is so intense it seems to burn.", "Une femme grande et pâle, vêtue d'une robe de soie plutôt osé. Son regard est si intense qu'il semble brûler.", "_t")
+t("Remove @himher@!", "Retirer @himher@!", "_t")
+t("#GOLD#Linaniil concentrates her formidable will to restore her body!", "#GOLD#Linaniil concentre sa formidable volonté pour restaurer son corps !", "saySimple")
+t("Archmage Tarelion", "Archimage Tarelion", "entity name")
+t("A tall Shalore in a flowing robe, he looks calm and at peace, but you can feel his tremendous power.", "Un grand Shalore vêtu d'une robe flottante, paraîssant calme et serein, mais on ressent son immense puissance.", "_t")
+t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("apprentice mage", "apprenti mage", "entity name")
+t("An apprentice, learning the ways of the arcane arts.", "Un apprenti, apprenant les voies des arts arcaniques.", "_t")
+t("pyromancer", "pyromancien", "entity name")
+t("An archmage specializing in fire magic.", "Un archimage spécialisé dans la magie du feu.", "_t")
+t("cryomancer", "cryomancien", "entity name")
+t("An archmage specializing in ice magic.", "Un archimage spécialisé dans la magie de glace.", "_t")
+t("geomancer", "géomancien", "entity name")
+t("An archmage specializing in earth magic.", "Un archimage spécialisé dans la magie de la terre.", "_t")
+t("tempest", "tempête", "entity name")
+t("An archmage specializing in lightning magic.", "Un archimage spécialisé dans la magie de la foudre.", "_t")
 -- texte non traduit
 --[==[
-t("Linaniil, Supreme Archmage of Angolwen", "Linaniil, Supreme Archmage of Angolwen", "entity name")
-t("A tall, pale woman dressed in a revealing silk robe. Her gaze is so intense it seems to burn.", "A tall, pale woman dressed in a revealing silk robe. Her gaze is so intense it seems to burn.", "_t")
-t("Remove @himher@!", "Remove @himher@!", "_t")
-t("#GOLD#Linaniil concentrates her formidable will to restore her body!", "#GOLD#Linaniil concentrates her formidable will to restore her body!", "saySimple")
 t("shalore", "shalore", "entity subtype")
-t("Archmage Tarelion", "Archmage Tarelion", "entity name")
-t("A tall Shalore in a flowing robe, he looks calm and at peace, but you can feel his tremendous power.", "A tall Shalore in a flowing robe, he looks calm and at peace, but you can feel his tremendous power.", "_t")
-t("Catch @himher@!", "Catch @himher@!", "_t")
-t("apprentice mage", "apprentice mage", "entity name")
-t("An apprentice, learning the ways of the arcane arts.", "An apprentice, learning the ways of the arcane arts.", "_t")
-t("pyromancer", "pyromancer", "entity name")
-t("An archmage specializing in fire magic.", "An archmage specializing in fire magic.", "_t")
-t("cryomancer", "cryomancer", "entity name")
-t("An archmage specializing in ice magic.", "An archmage specializing in ice magic.", "_t")
-t("geomancer", "geomancer", "entity name")
-t("An archmage specializing in earth magic.", "An archmage specializing in earth magic.", "_t")
-t("tempest", "tempest", "entity name")
-t("An archmage specializing in lightning magic.", "An archmage specializing in lightning magic.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-angolwen/objects.lua"
 
-
--- texte non traduit
---[==[
-t("lecture on humility", "lecture on humility", "entity subtype")
-t("Lecture on Humility by Archmage Linaniil", "Lecture on Humility by Archmage Linaniil", "entity name")
-t("Lecture on Humility by Archmage Linaniil. A tale of the first ages and the Spellblaze.", "Lecture on Humility by Archmage Linaniil. A tale of the first ages and the Spellblaze.", "_t")
-t("magic teaching", "magic teaching", "entity subtype")
-t("'What is Magic' by Archmage Tarelion", "'What is Magic' by Archmage Tarelion", "entity name")
-t("Lecture on the nature of magic by Archmage Tarelion.", "Lecture on the nature of magic by Archmage Tarelion.", "_t")
-t("Rune of Dissipation", "Rune of Dissipation", "entity name")
---]==]
-
+t("lecture on humility", "conférence sur l'humilité", "entity subtype")
+t("Lecture on Humility by Archmage Linaniil", "Conférence sur l'Humilité par l'Archimage Linaniil", "entity name")
+t("Lecture on Humility by Archmage Linaniil. A tale of the first ages and the Spellblaze.", "Conférence sur l'Humilité par l'Archimage Linaniil. Un récit des premiers âges et de la Brûlure Magique.", "_t")
+t("magic teaching", "enseignement de la magie", "entity subtype")
+t("'What is Magic' by Archmage Tarelion", "'Qu'est-ce que la Magie?' par l'Archimage Tarelion", "entity name")
+t("Lecture on the nature of magic by Archmage Tarelion.", "Conférence sur la nature de la magie par l'Archimage Tarelion.", "_t")
+t("Rune of Dissipation", "Rune de Dissipation", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-angolwen/traps.lua"
 
+t("Shining Jewel", "Joyau Étincelant", "entity name")
 t("Alchemist", "Alchimiste", "entity name")
--- texte non traduit
---[==[
-t("Shining Jewel", "Shining Jewel", "entity name")
-t("Library", "Library", "entity name")
-t("Tools of the Art", "Tools of the Art", "entity name")
---]==]
-
+t("Library", "Bibliothèque", "entity name")
+t("Tools of the Art", "Outils de l'Art", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-angolwen/zone.lua"
@@ -39555,52 +39541,39 @@ t("Angolwen", "Angolwen", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-derth/grids.lua"
 
+t("cultivated fields", "champs cultivés", "entity name")
 t("cobblestone road", "route pavée", "entity name")
--- texte non traduit
---[==[
-t("cultivated fields", "cultivated fields", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-derth/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("derth guard", "garde de Derth", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
 t("halfling slinger", "frondeur halfelin", "entity name")
 t("halfling", "halfelin", "entity subtype")
--- texte non traduit
---[==[
-t("Catch @himher@!", "Catch @himher@!", "_t")
-t("derth guard", "derth guard", "entity name")
-t("A Halfling, with a sling. Beware.", "A Halfling, with a sling. Beware.", "_t")
-t("human farmer", "human farmer", "entity name")
-t("A weather-worn Human farmer.", "A weather-worn Human farmer.", "_t")
-t("halfling gardener", "halfling gardener", "entity name")
-t("A Halfling, he seems to be looking for plants.", "A Halfling, he seems to be looking for plants.", "_t")
-t("Shady cornac man", "Shady cornac man", "entity name")
-t("Hey you. Come here.", "Hey you. Come here.", "_t")
---]==]
-
+t("A Halfling, with a sling. Beware.", "Un Halfelin, armé d'une fronde. Prenez garde.", "_t")
+t("human farmer", "fermier humain", "entity name")
+t("A weather-worn Human farmer.", "Un fermier humain usé par les intempéries.", "_t")
+t("halfling gardener", "jardinier halfelin", "entity name")
+t("A Halfling, he seems to be looking for plants.", "Ce Halfelin, il semble être à la recherche de plantes.", "_t")
+t("Shady cornac man", "Homme cornac louche", "entity name")
+t("Hey you. Come here.", "Hé, toi! Viens ici!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-derth/traps.lua"
 
-
--- texte non traduit
---[==[
-t("Armoury", "Armoury", "entity name")
-t("Tanner", "Tanner", "entity name")
-t("Swordsmith", "Swordsmith", "entity name")
-t("Knives and daggers", "Knives and daggers", "entity name")
-t("Death from Afar", "Death from Afar", "entity name")
-t("Herbalist", "Herbalist", "entity name")
-t("Jewelry", "Jewelry", "entity name")
-t("Survival Supplies", "Survival Supplies", "entity name")
-t("Home of Stire the Alchemist", "Home of Stire the Alchemist", "entity name")
---]==]
-
+t("Armoury", "Armurerie", "entity name")
+t("Tanner", "Tanneur", "entity name")
+t("Swordsmith", "Forge d'Épées", "entity name")
+t("Knives and daggers", "Couteaux et Poignards", "entity name")
+t("Death from Afar", "Mort à Distance", "entity name")
+t("Herbalist", "Herboriste", "entity name")
+t("Jewelry", "Bijouterie", "entity name")
+t("Survival Supplies", "Fournitures de Survie", "entity name")
+t("Home of Stire the Alchemist", "Maison de Stire l'Alchimiste", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-derth/zone.lua"
@@ -39616,13 +39589,13 @@ t("Derth", "Derth", "_t")
 section "mod-tome/data/zones/town-elvala/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("Catch @himher@!", "Capturer @himher@!", "_t")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
 t("giant", "géant", "entity type")
 t("ogre rune-spinner", "tisseur de rune ogre", "entity name")
 -- texte non traduit
 --[==[
 t("shalore", "shalore", "entity subtype")
-t("Catch @himher@!", "Catch @himher@!", "_t")
 t("elvala guard", "elvala guard", "entity name")
 t("shalore rune master", "shalore rune master", "entity name")
 t("A tall Elf, his skin covered in runes.", "A tall Elf, his skin covered in runes.", "_t")
@@ -39644,12 +39617,11 @@ t("spellblaze", "spellblaze", "entity subtype")
 ------------------------------------------------
 section "mod-tome/data/zones/town-elvala/traps.lua"
 
-
+t("Tanner", "Tanneur", "entity name")
+t("Swordsmith", "Forge d'Épées", "entity name")
 -- texte non traduit
 --[==[
 t("Tailor", "Tailor", "entity name")
-t("Tanner", "Tanner", "entity name")
-t("Swordsmith", "Swordsmith", "entity name")
 t("Staff carver", "Staff carver", "entity name")
 t("Runemaster", "Runemaster", "entity name")
 t("Home of Marus the Alchemist", "Home of Marus the Alchemist", "entity name")
@@ -39745,12 +39717,12 @@ t("cooking pit", "cooking pit", "entity name")
 section "mod-tome/data/zones/town-irkkk/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("Catch @himher@!", "Capturer @himher@!", "_t")
 t("tailor", "tailleur", "entity name")
 t("tanner", "tanneur", "entity name")
 -- texte non traduit
 --[==[
 t("yeek", "yeek", "entity subtype")
-t("Catch @himher@!", "Catch @himher@!", "_t")
 t("yeek mindslayer", "yeek mindslayer", "entity name")
 t("A mindslayer in training.", "A mindslayer in training.", "_t")
 t("yeek psionic", "yeek psionic", "entity name")
@@ -39771,12 +39743,11 @@ t("This yeek has all sorts of infusions to sell.", "This yeek has all sorts of i
 ------------------------------------------------
 section "mod-tome/data/zones/town-irkkk/traps.lua"
 
-
+t("Tanner", "Tanneur", "entity name")
+t("Swordsmith", "Forge d'Épées", "entity name")
 -- texte non traduit
 --[==[
 t("Tailor", "Tailor", "entity name")
-t("Tanner", "Tanner", "entity name")
-t("Swordsmith", "Swordsmith", "entity name")
 t("Staff carver", "Staff carver", "entity name")
 t("Runemaster", "Runemaster", "entity name")
 t("Home of Marus the Alchemist", "Home of Marus the Alchemist", "entity name")
@@ -39815,9 +39786,9 @@ section "mod-tome/data/zones/town-iron-council/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("dwarf", "nain", "entity subtype")
+t("Catch @himher@!", "Capturer @himher@!", "_t")
 -- texte non traduit
 --[==[
-t("Catch @himher@!", "Catch @himher@!", "_t")
 t("dwarven guard", "dwarven guard", "entity name")
 t("A stocky dwarf, he looks angry.", "A stocky dwarf, he looks angry.", "_t")
 t("dwarven earthwarden", "dwarven earthwarden", "entity name")
@@ -39827,17 +39798,16 @@ t("dwarven earthwarden", "dwarven earthwarden", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/town-iron-council/traps.lua"
 
-
+t("Armoury", "Armurerie", "entity name")
+t("Tanner", "Tanneur", "entity name")
+t("Jewelry", "Bijouterie", "entity name")
 -- texte non traduit
 --[==[
-t("Armoury", "Armoury", "entity name")
-t("Tanner", "Tanner", "entity name")
 t("Tailor", "Tailor", "entity name")
 t("Sword smith", "Sword smith", "entity name")
 t("Axe smith", "Axe smith", "entity name")
 t("Mace smith", "Mace smith", "entity name")
 t("Runemaster", "Runemaster", "entity name")
-t("Jewelry", "Jewelry", "entity name")
 t("Delver's Delights", "Delver's Delights", "entity name")
 --]==]
 
@@ -39873,14 +39843,14 @@ section "mod-tome/data/zones/town-last-hope/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("Catch @himher@!", "Capturer @himher@!", "_t")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
 t("halfling", "halfelin", "entity subtype")
+t("A Halfling, with a sling. Beware.", "Un Halfelin, armé d'une fronde. Prenez garde.", "_t")
 -- texte non traduit
 --[==[
-t("Catch @himher@!", "Catch @himher@!", "_t")
 t("last hope guard", "last hope guard", "entity name")
 t("halfling guard", "halfling guard", "entity name")
-t("A Halfling, with a sling. Beware.", "A Halfling, with a sling. Beware.", "_t")
 t("human citizen", "human citizen", "entity name")
 t("A clean-looking Human resident of Last Hope.", "A clean-looking Human resident of Last Hope.", "_t")
 t("halfling citizen", "halfling citizen", "entity name")
@@ -39911,6 +39881,7 @@ t("Thoughts about the impossibility of sea travel.", "Thoughts about the impossi
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/traps.lua"
 
+t("Library", "Bibliothèque", "entity name")
 t("Urthol's Wondrous Emporium", "L'échoppe merveilleuse d'Urthol", "entity name")
 -- texte non traduit
 --[==[
@@ -39924,7 +39895,6 @@ t("Raber's Blunt Paradise", "Raber's Blunt Paradise", "entity name")
 t("Dala's Far Reaching Implements", "Dala's Far Reaching Implements", "entity name")
 t("Sarah's Herbal Infusions", "Sarah's Herbal Infusions", "entity name")
 t("Sook's Runes and other Harmless Contraptions", "Sook's Runes and other Harmless Contraptions", "entity name")
-t("Library", "Library", "entity name")
 t("The Elder", "The Elder", "entity name")
 t("Tannen's Door", "Tannen's Door", "entity name")
 t("Home of Ungrol the Alchemist", "Home of Ungrol the Alchemist", "entity name")
@@ -39989,13 +39959,13 @@ section "mod-tome/data/zones/town-point-zero/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("Catch @himher@!", "Capturer @himher@!", "_t")
 t("elemental", "élémentaire", "entity type")
 t("void", "vide", "entity subtype")
 t("horror", "horreur", "entity type")
 t("temporal", "temporel", "entity subtype")
 -- texte non traduit
 --[==[
-t("Catch @himher@!", "Catch @himher@!", "_t")
 t("guardian of reality", "guardian of reality", "entity name")
 t("A stern-looking guardian, ever vigilant against the threats of the paradox.", "A stern-looking guardian, ever vigilant against the threats of the paradox.", "_t")
 t("Losgoroth are mighty void elementals, native to the void between the stars; they are rarely seen on the planet's surface.", "Losgoroth are mighty void elementals, native to the void between the stars; they are rarely seen on the planet's surface.", "_t")
@@ -40023,17 +39993,16 @@ t("glowing shard", "glowing shard", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-point-zero/traps.lua"
 
-
+t("Tanner", "Tanneur", "entity name")
+t("Knives and daggers", "Couteaux et Poignards", "entity name")
+t("Death from Afar", "Mort à Distance", "entity name")
+t("Swordsmith", "Forge d'Épées", "entity name")
+t("Jewelry", "Bijouterie", "entity name")
 -- texte non traduit
 --[==[
 t("Tailor", "Tailor", "entity name")
-t("Tanner", "Tanner", "entity name")
-t("Knives and daggers", "Knives and daggers", "entity name")
-t("Death from Afar", "Death from Afar", "entity name")
-t("Swordsmith", "Swordsmith", "entity name")
 t("Staff carver", "Staff carver", "entity name")
 t("Runemaster", "Runemaster", "entity name")
-t("Jewelry", "Jewelry", "entity name")
 --]==]
 
 
@@ -40057,11 +40026,11 @@ t("cobblestone road", "route pavée", "entity name")
 section "mod-tome/data/zones/town-shatur/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("Catch @himher@!", "Capturer @himher@!", "_t")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
 -- texte non traduit
 --[==[
 t("thalore", "thalore", "entity subtype")
-t("Catch @himher@!", "Catch @himher@!", "_t")
 t("thalore hunter", "thalore hunter", "entity name")
 t("thalore wilder", "thalore wilder", "entity name")
 t("A tall elf, his skin covered in green moss.", "A tall elf, his skin covered in green moss.", "_t")
@@ -40071,15 +40040,14 @@ t("A tall elf, his skin covered in green moss.", "A tall elf, his skin covered i
 ------------------------------------------------
 section "mod-tome/data/zones/town-shatur/traps.lua"
 
-
+t("Armoury", "Armurerie", "entity name")
+t("Tanner", "Tanneur", "entity name")
+t("Swordsmith", "Forge d'Épées", "entity name")
+t("Herbalist", "Herboriste", "entity name")
 -- texte non traduit
 --[==[
-t("Armoury", "Armoury", "entity name")
-t("Tanner", "Tanner", "entity name")
-t("Swordsmith", "Swordsmith", "entity name")
 t("Nature's Punch", "Nature's Punch", "entity name")
 t("Silent Hunter", "Silent Hunter", "entity name")
-t("Herbalist", "Herbalist", "entity name")
 t("Night's Star", "Night's Star", "entity name")
 --]==]
 
@@ -40098,6 +40066,7 @@ t("Shatur", "Shatur", "_t")
 section "mod-tome/data/zones/town-zigur/grids.lua"
 
 t("lava pit", "fosse de lave", "entity name")
+t("cultivated fields", "champs cultivés", "entity name")
 t("cobblestone road", "route pavée", "entity name")
 t("closed gate", "porte fermée", "entity name")
 t("wall", "mur", "entity type")
@@ -40107,7 +40076,6 @@ t("open gate", "porte ouverte", "entity name")
 --[==[
 t("Zigur Postsign", "Zigur Postsign", "entity name")
 t("The laws of the Ziguranth", "The laws of the Ziguranth", "_t")
-t("cultivated fields", "cultivated fields", "entity name")
 t("giant rock", "giant rock", "entity name")
 --]==]
 
@@ -40140,6 +40108,7 @@ t("History of the horrors of magic.", "History of the horrors of magic.", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/traps.lua"
 
+t("Library", "Bibliothèque", "entity name")
 t("Grim-looking fighter", "Combattant à l'air sombre", "_t")
 -- texte non traduit
 --[==[
@@ -40151,7 +40120,6 @@ t("Slice & Dice", "Slice & Dice", "entity name")
 t("Nature's Reach", "Nature's Reach", "entity name")
 t("A Million Cuts", "A Million Cuts", "entity name")
 t("Purification Tools", "Purification Tools", "entity name")
-t("Library", "Library", "entity name")
 t("Trainer", "Trainer", "entity name")
 t("Nature's Emporium", "Nature's Emporium", "entity name")
 --]==]
@@ -40707,6 +40675,7 @@ section "mod-tome/data/zones/wilderness/grids.lua"
 
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
+t("cultivated fields", "champs cultivés", "entity name")
 t("wall", "mur", "entity type")
 t("forest", "forêt", "entity name")
 t("lava", "lave", "entity subtype")
@@ -40720,7 +40689,6 @@ t("Ruins of Kor'Pul", "Ruines de Kor'Pul", "entity name")
 -- texte non traduit
 --[==[
 t("plains", "plains", "entity name")
-t("cultivated fields", "cultivated fields", "entity name")
 t("low hills", "low hills", "entity name")
 t("pine forest", "pine forest", "entity name")
 t("Old forest", "Old forest", "entity name")
