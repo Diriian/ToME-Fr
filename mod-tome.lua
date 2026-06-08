@@ -14748,7 +14748,9 @@ I'm not cut out for this paladin work. Here I am, alone in a horrible dark dunge
 ------------------------------------------------
 section "mod-tome/data/lore/last-hope.lua"
 
+t("southspar", "Sparsud", "newLore category")
 t("Declaration of the Unification of the Allied Kingdoms", "Déclaration d'Unification des Royaumes Alliés", "_t")
+t("The Oceans of Eyal", "Les Océans d'Eyal", "_t")
 -- texte non traduit
 --[==[
 t("last hope", "last hope", "newLore category")
@@ -14853,7 +14855,6 @@ Died the 2th Summertide, Year of Ascendancy 113
 
 Saviour of the Battle of Last Hope, Bringer of Unity, Soother of Hearts and Minds. Greatly is missed the alchemist that could change sorrow to joy, despair to hope, defeat to victory.
 Quoth Queen Mirvenia: "Nothing moves me more than seeing the sun set over Last Hope, seeing all the joy and beauty we have brought here bathed in glorious light. At moments like this I still feel him next to me, and I know I have lived a good life. Today has been a good day... Today I think I shall die."]], "_t")
-t("southspar", "southspar", "newLore category")
 t("The Pale King, part one", "The Pale King, part one", "_t")
 t([[#{italic}#A study into Southspar's most unusual ruler.#{normal}#
 
@@ -14997,7 +14998,6 @@ This unification shall make our lands stronger, more whole. Too long have we suf
 To those who oppose this, let thee be afeared, for a new dawn is rising and it shall suffer no obstruction. This Alliance and the era it brings shall be protected at all costs. Treason will not be tolerated, and divisors will be damned. All shall follow the rule of Toknor and Mirvenia, or face the righteous wrath of a new age.
 
 All hail the reign of King Toknor and Queen Mirvenia! All hail the Allied Kingdoms! All hail the Age of Ascendancy!]], "_t")
-t("The Oceans of Eyal", "The Oceans of Eyal", "_t")
 t([[The Oceans of Eyal represent a frontier which we have been powerless to break. In spite of advanced craft and skill, and even the more forbidden areas of magic, there are natural barriers that we simply cannot overcome. Long range seafaring has become seen as unprofitable and a fruitless endeavour. The last great ship to be built was the Vanguard, over a thousand years ago, which disappeared over the eastern horizon and was never seen again.
 
 Yet we know that the Sher’Tul once travelled the whole globe, that records exist from our younger days of other continents, of sailing routes that go right round the whole of Eyal. How it stirs my heart to think of the unexplored lands that lie beyond our stormy coasts!
@@ -39773,15 +39773,11 @@ section "mod-tome/data/zones/town-last-hope/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("old road", "vieille route", "entity name")
--- texte non traduit
---[==[
-t("Farportal: Gates of Morning", "Farportal: Gates of Morning", "entity name")
+t("Farportal: Gates of Morning", "Portail Lointain: Portes du Matin", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go near the Gates of Morning in the Far East.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go near the Gates of Morning in the Far East.]], "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in sight of the Gates of Morning, with no trace of the portal...", "#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in sight of the Gates of Morning, with no trace of the portal...", "_t")
---]==]
-
+This one seems to go near the Gates of Morning in the Far East.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
+Celui-ci semble mener près des Portes du Matin, en Extrême-Orient.]], "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in sight of the Gates of Morning, with no trace of the portal...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous apercevez les Portes du Matin, sans aucune trace du portail...", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/npcs.lua"
@@ -39789,115 +39785,86 @@ section "mod-tome/data/zones/town-last-hope/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("last hope guard", "garde de dernier espoir", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
+t("halfling guard", "garde halfelin", "entity name")
 t("halfling", "halfelin", "entity subtype")
 t("A Halfling, with a sling. Beware.", "Un Halfelin, armé d'une fronde. Prenez garde.", "_t")
--- texte non traduit
---[==[
-t("last hope guard", "last hope guard", "entity name")
-t("halfling guard", "halfling guard", "entity name")
-t("human citizen", "human citizen", "entity name")
-t("A clean-looking Human resident of Last Hope.", "A clean-looking Human resident of Last Hope.", "_t")
-t("halfling citizen", "halfling citizen", "entity name")
-t("A clean-looking Halfling resident of Last Hope.", "A clean-looking Halfling resident of Last Hope.", "_t")
---]==]
-
+t("human citizen", "citoyen humain", "entity name")
+t("A clean-looking Human resident of Last Hope.", "Un habitant de Dernier Espoir d'apparence humaine et plutôt propre sur lui  .", "_t")
+t("halfling citizen", "citoyen halfelin", "entity name")
+t("A clean-looking Halfling resident of Last Hope.", "Un halfelin présentable, habitant de Last Hope.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/objects.lua"
 
+t("last hope foundation", "Fondation de Dernier Espoir", "entity subtype")
+t("The Diaries of King Toknor the Brave (%d)", "Les Notes du roi Toknor le Brave (%d)", "tformat")
+t("A part of the history of Last Hope, and King Toknor the Brave.", "Un pan de l'histoire de Dernier Espoir et du roi Toknor le Brave.", "_t")
 t("analysis", "analyse", "entity subtype")
--- texte non traduit
---[==[
-t("last hope foundation", "last hope foundation", "entity subtype")
-t("The Diaries of King Toknor the Brave (%d)", "The Diaries of King Toknor the Brave (%d)", "tformat")
-t("A part of the history of Last Hope, and King Toknor the Brave.", "A part of the history of Last Hope, and King Toknor the Brave.", "_t")
-t("southspar", "southspar", "entity subtype")
-t("the Pale King part %s", "the Pale King part %s", "tformat")
-t("one", "one", "_t")
-t("two", "two", "_t")
-t("A study of Southspar's most unusual ruler.", "A study of Southspar's most unusual ruler.", "_t")
-t("oceans", "oceans", "entity subtype")
-t("The Oceans of Eyal", "The Oceans of Eyal", "entity name")
-t("Thoughts about the impossibility of sea travel.", "Thoughts about the impossibility of sea travel.", "_t")
---]==]
-
+t("southspar", "Sparsud", "entity subtype")
+t("the Pale King part %s", "la Roi Pâle partie %s", "tformat")
+t("one", "une", "_t")
+t("two", "deux", "_t")
+t("A study of Southspar's most unusual ruler.", "Une étude du souverain le plus atypique de Sparsud.", "_t")
+t("oceans", "océans", "entity subtype")
+t("The Oceans of Eyal", "Les Océans d'Eyal", "entity name")
+t("Thoughts about the impossibility of sea travel.", "Réflexions sur l'impossibilité des voyages en mer.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/traps.lua"
 
+t("Hormond & Son Plates", "Plaques Hormond & Fils", "entity name")
+t("Rila's Leather", "Cuir de Rila", "entity name")
+t("Toxar Alchemical Tailor", "Tailleur Alchimique Toxar", "entity name")
+t("Herk's Cutting Edge", "Tranchant de Herk", "entity name")
+t("Yulek's Tools of the Night", "Outils de la Nuit de Yulek", "entity name")
+t("Vortal's Trees Choppers", "Hacheurs d'Arbres de Vortal", "entity name")
+t("Raber's Blunt Paradise", "Paradis Émoussé de Raber", "entity name")
+t("Dala's Far Reaching Implements", "Instruments à Grande Portée de Dala", "entity name")
 t("Sarah's Herbal Infusions", "Infusions Herbaliques de Sarah", "entity name")
 t("Sook's Runes and other Harmless Contraptions", "Runes de Sook et autres Inventions Inoffensives", "entity name")
 t("Library", "Bibliothèque", "entity name")
+t("The Elder", "L'Ancien", "entity name")
+t("Tannen's Door", "Porte de Tannen", "entity name")
+t("Home of Ungrol the Alchemist", "Foyer d'Ungrol l'Alchimiste", "entity name")
+t("Rich merchant", "Riche marchand", "entity name")
 t("Urthol's Wondrous Emporium", "L'échoppe merveilleuse d'Urthol", "entity name")
--- texte non traduit
---[==[
-t("Hormond & Son Plates", "Hormond & Son Plates", "entity name")
-t("Rila's Leather", "Rila's Leather", "entity name")
-t("Toxar Alchemical Tailor", "Toxar Alchemical Tailor", "entity name")
-t("Herk's Cutting Edge", "Herk's Cutting Edge", "entity name")
-t("Yulek's Tools of the Night", "Yulek's Tools of the Night", "entity name")
-t("Vortal's Trees Choppers", "Vortal's Trees Choppers", "entity name")
-t("Raber's Blunt Paradise", "Raber's Blunt Paradise", "entity name")
-t("Dala's Far Reaching Implements", "Dala's Far Reaching Implements", "entity name")
-t("The Elder", "The Elder", "entity name")
-t("Tannen's Door", "Tannen's Door", "entity name")
-t("Home of Ungrol the Alchemist", "Home of Ungrol the Alchemist", "entity name")
-t("Rich merchant", "Rich merchant", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Last Hope", "Last Hope", "_t")
---]==]
-
+t("Last Hope", "Dernier Espoir", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-lumberjack-village/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
--- texte non traduit
---[==[
-t("Ben Cruthdar, the Cursed", "Ben Cruthdar, the Cursed", "entity name")
+t("Ben Cruthdar, the Cursed", "Ben Cruthdar, le Maudit", "entity name")
 t([[This madman looks extremely dangerous. He wields a big axe and means to use it.
-A gloomy aura emanates from him.]], [[This madman looks extremely dangerous. He wields a big axe and means to use it.
-A gloomy aura emanates from him.]], "_t")
-t("lumberjack", "lumberjack", "entity name")
-t("A lumberjack. Cutting wood is his job, dream and passion.", "A lumberjack. Cutting wood is his job, dream and passion.", "_t")
---]==]
-
+A gloomy aura emanates from him.]], [[Ce fou furieux a l'air extrêmement dangereux. Il manie une grande hache et compte bien s'en servir.
+Une aura sinistre se dégage de lui.]], "_t")
+t("lumberjack", "bûcheron", "entity name")
+t("A lumberjack. Cutting wood is his job, dream and passion.", "Un bûcheron. Couper du bois est son métier, son rêve et sa passion.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-lumberjack-village/zone.lua"
 
 t("Small lumberjack village", "Petit village de bûcherons", "_t")
--- texte non traduit
---[==[
-t("Screams", "Screams", "_t")
-t("You hear screaming not too far from you.", "You hear screaming not too far from you.", "_t")
---]==]
-
+t("Screams", "Cris", "_t")
+t("You hear screaming not too far from you.", "Vous entendez des cris non loin de vous.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-point-zero/grids.lua"
 
+t("Temporal Rift to Maj'Eyal", "Faille Temporelle vers Maj'Eyal", "entity name")
+t("The rift leads to Maj'Eyal.", "La faille mène à Maj'Eyal.", "_t")
 t("wall", "mur", "entity type")
 t("ice", "glace", "entity subtype")
+t("cold forest", "forêt glaciale", "entity name")
 t("floor", "sol", "entity type")
--- texte non traduit
---[==[
-t("Temporal Rift to Maj'Eyal", "Temporal Rift to Maj'Eyal", "entity name")
-t("The rift leads to Maj'Eyal.", "The rift leads to Maj'Eyal.", "_t")
-t("cold forest", "cold forest", "entity name")
-t("polar cap", "polar cap", "entity name")
---]==]
-
+t("polar cap", "calotte polaire", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-point-zero/npcs.lua"
@@ -39905,35 +39872,30 @@ section "mod-tome/data/zones/town-point-zero/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("guardian of reality", "gardien de la réalité", "entity name")
+t("A stern-looking guardian, ever vigilant against the threats of the paradox.", "Un gardien à l'air sévère, toujours vigilant face aux menaces du paradoxe.", "_t")
 t("elemental", "élémentaire", "entity type")
 t("void", "vide", "entity subtype")
+t("Losgoroth are mighty void elementals, native to the void between the stars; they are rarely seen on the planet's surface.", "Les Losgoroth sont de puissants élémentaires du vide, originaires du vide interstellaire. On les voit rarement à la surface de la planète.", "_t")
+t("monstrous losgoroth", "losgoroth monstrueux", "entity name")
+t("Zemekkys, Grand Keeper of Reality", "Zemekkys, Grand Gardien de la Réalité", "entity name")
+t("A timeless elf stands before you. Even though his age is impossible to determine, you feel he has seen many things.", "Un elfe hors du temps se tient devant vous. Bien que son âge soit impossible à déterminer, vous sentez qu'il a vu bien des choses.", "_t")
 t("horror", "horreur", "entity type")
 t("temporal", "temporel", "entity subtype")
+t("Temporal Defiler", "Profanateur Temporel", "entity name")
+t("A huge, slender, metallic monstrosity with long claws in place of fingers, and razor-sharp teeth. It seems to seek something here.", "Une énorme créature métallique et élancée, dotée de longues griffes à la place des doigts et de dents acérées comme des rasoirs. Elle semble chercher quelque chose ici.", "_t")
 -- texte non traduit
 --[==[
-t("guardian of reality", "guardian of reality", "entity name")
-t("A stern-looking guardian, ever vigilant against the threats of the paradox.", "A stern-looking guardian, ever vigilant against the threats of the paradox.", "_t")
-t("Losgoroth are mighty void elementals, native to the void between the stars; they are rarely seen on the planet's surface.", "Losgoroth are mighty void elementals, native to the void between the stars; they are rarely seen on the planet's surface.", "_t")
-t("monstrous losgoroth", "monstrous losgoroth", "entity name")
-t("Zemekkys, Grand Keeper of Reality", "Zemekkys, Grand Keeper of Reality", "entity name")
 t("shalore", "shalore", "entity subtype")
-t("A timeless elf stands before you. Even though his age is impossible to determine, you feel he has seen many things.", "A timeless elf stands before you. Even though his age is impossible to determine, you feel he has seen many things.", "_t")
-t("Temporal Defiler", "Temporal Defiler", "entity name")
-t("A huge, slender, metallic monstrosity with long claws in place of fingers, and razor-sharp teeth. It seems to seek something here.", "A huge, slender, metallic monstrosity with long claws in place of fingers, and razor-sharp teeth. It seems to seek something here.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-point-zero/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Shard of Crystalized Time", "Shard of Crystalized Time", "entity name")
-t("An iridescent shard of violet crystal.  Its light ebbs and flows, sometimes fast and sometimes slow, keeping pace with the chaotic streams of time itself.  It makes you feel both old and young, a newborn child and an ancient being, your flesh simply one instance in a thousand refractions of a single timeless and eternal soul.", "An iridescent shard of violet crystal.  Its light ebbs and flows, sometimes fast and sometimes slow, keeping pace with the chaotic streams of time itself.  It makes you feel both old and young, a newborn child and an ancient being, your flesh simply one instance in a thousand refractions of a single timeless and eternal soul.", "_t")
-t("glowing shard", "glowing shard", "_t")
---]==]
-
+t("Shard of Crystalized Time", "Fragment de Temps Cristallisé", "entity name")
+t("An iridescent shard of violet crystal.  Its light ebbs and flows, sometimes fast and sometimes slow, keeping pace with the chaotic streams of time itself.  It makes you feel both old and young, a newborn child and an ancient being, your flesh simply one instance in a thousand refractions of a single timeless and eternal soul.", "Un éclat de cristal violet aux reflets irisés. Sa lumière ondule, tantôt rapide, tantôt lente, au rythme des flots chaotiques du temps. Elle vous fait vous sentir à la fois vieux et jeune, nouveau-né et être ancestral, votre chair n'étant qu'une infime réplique parmi mille autres d'une âme unique, intemporelle et éternelle.", "_t")
+t("glowing shard", "éclat lumineux", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-point-zero/traps.lua"
@@ -39950,13 +39912,8 @@ t("Jewelry", "Bijouterie", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/town-point-zero/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Point Zero", "Point Zero", "_t")
-t("temporal beam endpoint", "temporal beam endpoint", "_t")
---]==]
-
+t("Point Zero", "Point Zéro", "_t")
+t("temporal beam endpoint", "extrémité finale du faisceau temporel", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-shatur/grids.lua"
@@ -40342,13 +40299,13 @@ t("Tutorial", "Tutoriel", "_t")
 section "mod-tome/data/zones/unhallowed-morass/grids.lua"
 
 t("Temporal Rift", "Faille Temporelle", "entity name")
+t("Point Zero", "Point Zéro", "_t")
 t("wall", "mur", "entity type")
 t("rift", "fissure", "entity subtype")
 t("crack in spacetime", "fissure dans l'espace temps", "entity name")
 -- texte non traduit
 --[==[
 t("The rift leads to another part of the morass.", "The rift leads to another part of the morass.", "_t")
-t("Point Zero", "Point Zero", "_t")
 t([[The rift has brought you back to Point Zero, and the source of the disturbances.
 A temporal defiler is attacking the town, all the Keepers in range are attacking it!]], [[The rift has brought you back to Point Zero, and the source of the disturbances.
 A temporal defiler is attacking the town, all the Keepers in range are attacking it!]], "_t")
@@ -40622,6 +40579,8 @@ t("forest", "forêt", "entity name")
 t("lava", "lave", "entity subtype")
 t("Charred Scar", "Plaie Craquelée", "entity name")
 t("ice", "glace", "entity subtype")
+t("polar cap", "calotte polaire", "entity name")
+t("cold forest", "forêt glaciale", "entity name")
 t("water", "eau", "entity subtype")
 t("deep water", "eau profonde", "entity name")
 t("rockwall", "mur de roche", "entity type")
@@ -40635,9 +40594,7 @@ t("low hills", "low hills", "entity name")
 t("pine forest", "pine forest", "entity name")
 t("Old forest", "Old forest", "entity name")
 t("burnt forest", "burnt forest", "entity name")
-t("polar cap", "polar cap", "entity name")
 t("frozen sea", "frozen sea", "entity name")
-t("cold forest", "cold forest", "entity name")
 t("cold thaloren forest", "cold thaloren forest", "entity name")
 t("thaloren forest", "thaloren forest", "entity name")
 t("sea of Eyal", "sea of Eyal", "entity name")
