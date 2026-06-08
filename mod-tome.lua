@@ -17854,6 +17854,7 @@ Alongside the note is a part of a plan of the region.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/zigur.lua"
 
+t("The Great Evil", "Le Grand Mal", "_t")
 t("The story of my salvation", "L'histoire de mon salut", "_t")
 -- texte non traduit
 --[==[
@@ -17878,7 +17879,6 @@ These are the rules we live by, these are the rules by which we will save our wo
 8. You will report to the elders all activity you deem suspicious, especially evidence of cults or secret societies.
 
 These are the rules we live by, these are the rules by which we will save our world. All who fail in these rules will be purged with flame.]], "_t")
-t("The Great Evil", "The Great Evil", "_t")
 t([[We live in a world of wonders. All around us are natural energies and wild powers that are a marvel to see and experience. Soaring birds, mighty bears and ice-breathing dragons all abound in towering mountains, deep oceans and luscious forests. And we are part of this glorious environment, with our thoughts and strengths and all our wondrous capabilities. Truly we live in a fantastic world, and we should be glad to have a place amongst the wonders of Maj'Eyal.
 
 But some are not content. Some seek to pervert the wonders of the world with unnatural powers. With arcane forces they rip the threads of nature apart and sew it back however they see fit, uncaring of the damage they cause. Sometimes it is out of curiosity or a misplaced desire to do good, but normally it is out of greed and malice and a perverse obsession with power. Even those who enter into the banes of magic with good intentions inevitably end up doing harm and becoming themselves corrupted by the gross forces they tamper in.
@@ -39925,13 +39925,13 @@ section "mod-tome/data/zones/town-shatur/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("thalore hunter", "chasseur thalor", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
+t("thalore wilder", "naturaliste thalore", "entity name")
+t("A tall elf, his skin covered in green moss.", "Un elfe de grande taille, la peau recouverte de mousse verte.", "_t")
 -- texte non traduit
 --[==[
 t("thalore", "thalore", "entity subtype")
-t("thalore hunter", "thalore hunter", "entity name")
-t("thalore wilder", "thalore wilder", "entity name")
-t("A tall elf, his skin covered in green moss.", "A tall elf, his skin covered in green moss.", "_t")
 --]==]
 
 
@@ -39941,14 +39941,10 @@ section "mod-tome/data/zones/town-shatur/traps.lua"
 t("Armoury", "Armurerie", "entity name")
 t("Tanner", "Tanneur", "entity name")
 t("Swordsmith", "Forge d'Épées", "entity name")
+t("Nature's Punch", "Poing de la Nature", "entity name")
+t("Silent Hunter", "Chasseur Silencieux", "entity name")
 t("Herbalist", "Herboriste", "entity name")
--- texte non traduit
---[==[
-t("Nature's Punch", "Nature's Punch", "entity name")
-t("Silent Hunter", "Silent Hunter", "entity name")
-t("Night's Star", "Night's Star", "entity name")
---]==]
-
+t("Night's Star", "Étoile de la Nuit", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-shatur/zone.lua"
@@ -39963,63 +39959,50 @@ t("Shatur", "Shatur", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/grids.lua"
 
+t("Zigur Postsign", "Panneau d'Affichage de Zigur", "entity name")
+t("The laws of the Ziguranth", "Les lois du Ziguranth", "_t")
 t("lava pit", "fosse de lave", "entity name")
 t("cultivated fields", "champs cultivés", "entity name")
 t("cobblestone road", "route pavée", "entity name")
+t("giant rock", "rocher géant", "entity name")
 t("closed gate", "porte fermée", "entity name")
 t("wall", "mur", "entity type")
 t("floor", "sol", "entity subtype")
 t("open gate", "porte ouverte", "entity name")
--- texte non traduit
---[==[
-t("Zigur Postsign", "Zigur Postsign", "entity name")
-t("The laws of the Ziguranth", "The laws of the Ziguranth", "_t")
-t("giant rock", "giant rock", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/npcs.lua"
 
 t("Grand Corruptor", "Grand Corrupteur", "entity name")
 t("An Elven corruptor, drawn to these blighted lands.", "Un elfe corrupteur, attiré par ces terres maudites.", "_t")
+t("Protector Myssil", "Protecteur Myssil", "entity name")
 t("halfling", "halfelin", "entity subtype")
--- texte non traduit
---[==[
-t("Protector Myssil", "Protector Myssil", "entity name")
-t("A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "_t")
---]==]
-
+t("A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "Une Ziguranth halfeline, vêtue de plaques d'acier sombre. Elle est l'actuelle dirigeante de Zigur.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/objects.lua"
 
-
--- texte non traduit
---[==[
-t("the great evil", "the great evil", "entity subtype")
-t("The Great Evil", "The Great Evil", "entity name")
-t("History of the horrors of magic.", "History of the horrors of magic.", "_t")
---]==]
-
+t("the great evil", "le grand mal", "entity subtype")
+t("The Great Evil", "Le Grand Mal", "entity name")
+t("History of the horrors of magic.", "Histoire des horreurs de la magie.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/traps.lua"
 
+t("Horman's Plates", "Plaques d'Horman", "entity name")
+t("Infused Leather", "Cuir Infusé", "entity name")
+t("Nature's Punch", "Poing de la Nature", "entity name")
+t("Slice & Dice", "Trancher et Émincer", "entity name")
+t("Nature's Reach", "Atteinte de la Nature", "entity name")
+t("A Million Cuts", "Un Million d'Entailles", "entity name")
+t("Purification Tools", "Outils de Purification", "entity name")
 t("Library", "Bibliothèque", "entity name")
+t("Trainer", "Entraînement", "entity name")
 t("Grim-looking fighter", "Combattant à l'air sombre", "_t")
+t("Nature's Emporium", "Magasin de la Nature", "entity name")
 -- texte non traduit
 --[==[
-t("Horman's Plates", "Horman's Plates", "entity name")
-t("Infused Leather", "Infused Leather", "entity name")
 t("Slash & Dash", "Slash & Dash", "entity name")
-t("Nature's Punch", "Nature's Punch", "entity name")
-t("Slice & Dice", "Slice & Dice", "entity name")
-t("Nature's Reach", "Nature's Reach", "entity name")
-t("A Million Cuts", "A Million Cuts", "entity name")
-t("Purification Tools", "Purification Tools", "entity name")
-t("Trainer", "Trainer", "entity name")
-t("Nature's Emporium", "Nature's Emporium", "entity name")
 --]==]
 
 
