@@ -40031,28 +40031,28 @@ t("bog water", "eau de tourbière", "entity name")
 section "mod-tome/data/zones/trollmire/npcs.lua"
 
 t("giant", "géant", "entity type")
+t("Prox the Mighty", "Prox le Puissant", "entity name")
+t("A huge troll, he might move slowly but he does look dangerous nonetheless.", "Un énorme troll, il se déplace peut-être lentement mais il a néanmoins l'air dangereux.", "_t")
+t("and eaten raw", "et mangé tout cru", "_t")
+t("Prox staggers for a moment. A note seems to drop at his feet.", "Prox titube un instant. Un message semble tomber à ses pieds.", "logSeen")
+t("... and we thought the trollmire was safer now!", "... et nous pensions que le ourbier troll était plus sûr maintenant!", "_t")
+t("Shax the Slimy", "Shax le Visqueux", "entity name")
+t("A huge troll, he seems to be adapted to aquatic life.", "Un énorme troll, il semble adapté à la vie aquatique.", "_t")
+t("Shax staggers for a moment. A note seems to drop at his feet.", "Shax titube un instant. Un message semble tomber à ses pieds.", "logSeen")
+t("Bill the Stone Troll", "Bill le Troll de Pierre", "entity name")
+t([[Big, brawny, powerful and with a taste for Halfling.
+He is wielding a small tree trunk and lumbering toward you.
+This is the troll the notes spoke about, no doubt.]], [[Grand, musclé, puissant, et avec un goût pour les Halfelins.
+Il brandit un petit tronc d’arbre et se dirige lourdement vers vous.
+C’est sans aucun doute le troll dont parlaient les notes.]], "_t")
+t("and clobbered into soup", "et écrasé dans la soupe", "_t")
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
+t("Aluin the Fallen", "Aluin le Déchu", "entity name")
+t("His once-shining armour now dull and bloodstained, this Sun Paladin has given in to despair.", "Son armure autrefois brillante est désormais terne et tachée de sang. Ce Paladin Solaire a cédé au désespoir.", "_t")
 -- texte non traduit
 --[==[
 t("troll", "troll", "entity subtype")
-t("Prox the Mighty", "Prox the Mighty", "entity name")
-t("A huge troll, he might move slowly but he does look dangerous nonetheless.", "A huge troll, he might move slowly but he does look dangerous nonetheless.", "_t")
-t("and eaten raw", "and eaten raw", "_t")
-t("Prox staggers for a moment. A note seems to drop at his feet.", "Prox staggers for a moment. A note seems to drop at his feet.", "logSeen")
-t("... and we thought the trollmire was safer now!", "... and we thought the trollmire was safer now!", "_t")
-t("Shax the Slimy", "Shax the Slimy", "entity name")
-t("A huge troll, he seems to be adapted to aquatic life.", "A huge troll, he seems to be adapted to aquatic life.", "_t")
-t("Shax staggers for a moment. A note seems to drop at his feet.", "Shax staggers for a moment. A note seems to drop at his feet.", "logSeen")
-t("Bill the Stone Troll", "Bill the Stone Troll", "entity name")
-t([[Big, brawny, powerful and with a taste for Halfling.
-He is wielding a small tree trunk and lumbering toward you.
-This is the troll the notes spoke about, no doubt.]], [[Big, brawny, powerful and with a taste for Halfling.
-He is wielding a small tree trunk and lumbering toward you.
-This is the troll the notes spoke about, no doubt.]], "_t")
-t("and clobbered into soup", "and clobbered into soup", "_t")
-t("Aluin the Fallen", "Aluin the Fallen", "entity name")
-t("His once-shining armour now dull and bloodstained, this Sun Paladin has given in to despair.", "His once-shining armour now dull and bloodstained, this Sun Paladin has given in to despair.", "_t")
 --]==]
 
 
@@ -40065,12 +40065,7 @@ t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un av
 ------------------------------------------------
 section "mod-tome/data/zones/trollmire/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Trollmire", "Trollmire", "_t")
---]==]
-
+t("Trollmire", "Bourbier Troll", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/tutorial/npcs.lua"
