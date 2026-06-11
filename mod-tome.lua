@@ -9518,7 +9518,7 @@ t("mummy", "momie", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/objects-far-east.lua"
 
-t("tome", "volume", "entity subtype")
+t("tome", "grimoire", "entity subtype")
 t("Ancient Tome titled 'Gems and their uses'", "Ancien volume intitulé \"Les pierres précieuses et leurs usages\".", "entity name")
 t("ancient tome", "volume ancien", "_t")
 
@@ -10251,7 +10251,7 @@ t("e.silk", "soie.e", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/world-artifacts-far-east.lua"
 
-t("tome", "volume", "entity subtype")
+t("tome", "grimoire", "entity subtype")
 t("Scroll of Summoning (Limmir the Jeweler)", "Parchemin d'invocation (Limmir le bijoutier)", "entity name")
 t("summon Limmir the jeweler at the center of the lake of the moon", "invoque Limmir le bijoutier au centre du lac de la lune.", "_t")
 t("Pendant of the Sun and Moons", "Pendentif du Soleil et des Lunes", "entity name")
@@ -40380,40 +40380,26 @@ section "mod-tome/data/zones/void/npcs.lua"
 
 t("god", "dieu", "entity type")
 t("eyal", "Eyal", "entity subtype")
--- texte non traduit
---[==[
-t("Gerlyk, the Creator", "Gerlyk, the Creator", "entity name")
+t("Gerlyk, the Creator", "Gerlyk, le Créateur", "entity name")
 t([[During the Age of Haze nearly all gods were destroyed by the Sher'tul Godslayers. However, a small number escaped.
 Gerlyk, the creator of the Human race, prefered to flee into the void between the stars than to face death. He has been trapped ever since.
 The sorcerers tried to bring him back and nearly succeeded.
-Now you have come to finish what the Sher'tul began. Become a Godslayer yourself.]], [[During the Age of Haze nearly all gods were destroyed by the Sher'tul Godslayers. However, a small number escaped.
-Gerlyk, the creator of the Human race, prefered to flee into the void between the stars than to face death. He has been trapped ever since.
-The sorcerers tried to bring him back and nearly succeeded.
-Now you have come to finish what the Sher'tul began. Become a Godslayer yourself.]], "_t")
---]==]
-
+Now you have come to finish what the Sher'tul began. Become a Godslayer yourself.]], [[Durant l'Ère de la Brume, presque tous les dieux furent anéantis par les Tueurs de Dieux Sher'tul. Seuls quelques-uns parvinrent à s'échapper.
+Gerlyk, le créateur de la race humaine, préféra fuir dans le vide interstellaire plutôt que d'affronter la mort. Il y est prisonnier depuis lors.
+Les sorciers tentèrent de le ramener et faillirent y parvenir.
+À présent, vous êtes venu achever l'oeuvre des Sher'tul. Devenez vous aussi un Tueur de Dieux.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/void/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Void between worlds", "Void between worlds", "_t")
---]==]
-
+t("Void between worlds", "Vide entre les mondes", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/vor-armoury/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Warmaster Gnarg", "Warmaster Gnarg", "entity name")
-t("This ugly orc looks really nasty and vicious. He wields a huge two-handed sword and means to use it.", "This ugly orc looks really nasty and vicious. He wields a huge two-handed sword and means to use it.", "_t")
-t("overpowered greater multi-hued wyrm", "overpowered greater multi-hued wyrm", "entity name")
---]==]
-
+t("Warmaster Gnarg", "Maître de Guerre Gnarg", "entity name")
+t("This ugly orc looks really nasty and vicious. He wields a huge two-handed sword and means to use it.", "Cet orc hideux a l'air vraiment méchant et vicieux. Il manie une énorme épée à deux mains et compte bien s'en servir.", "_t")
+t("overpowered greater multi-hued wyrm", "ver multicolore supérieur surpuissant", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/vor-armoury/objects.lua"
@@ -40427,70 +40413,47 @@ t("An athame, covered in blood runes. It radiates power.", "Un athamé couvert d
 ------------------------------------------------
 section "mod-tome/data/zones/vor-armoury/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Vor Armoury", "Vor Armoury", "_t")
---]==]
-
+t("Vor Armoury", "Armurerie Vor", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/vor-pride/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
--- texte non traduit
---[==[
-t("book", "book", "entity name")
-t("reading candle", "reading candle", "entity name")
---]==]
-
+t("book", "livre", "entity name")
+t("reading candle", "bougie de lecture", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/vor-pride/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Vor, Grand Geomancer of the Pride", "Vor, Grand Geomancer of the Pride", "entity name")
-t("An old orc, wearing multi-colored robes. Ice shards fly around him, leaving a trail of fire and lightning bursts.", "An old orc, wearing multi-colored robes. Ice shards fly around him, leaving a trail of fire and lightning bursts.", "_t")
-t("and used as target practice for initiate mages", "and used as target practice for initiate mages", "_t")
---]==]
-
+t("Vor, Grand Geomancer of the Pride", "Vor, Grand Géomancien de la Fierté", "entity name")
+t("An old orc, wearing multi-colored robes. Ice shards fly around him, leaving a trail of fire and lightning bursts.", "Un vieil orc, vêtu de robes multicolores. Des éclats de glace volent autour de lui, laissant derrière eux des traînées de feux et d'éclairs.", "_t")
+t("and used as target practice for initiate mages", "et utilisé comme cible d'entraînement pour les mages initiés", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/vor-pride/objects.lua"
 
-t("tome", "volume", "entity subtype")
+t("tome", "grimoire", "entity subtype")
+t("Tome of Wildfire", "Grimoire du Feu de Brousse", "entity name")
+t("burning book", "livre en feu", "_t")
+t("This huge book is covered in searing flames. Yet they do not harm you.", "Cet énorme livre est couvert de flammes brûlantes. Pourtant, elles ne vous font pas de mal.", "_t")
+t("learn the ancient secrets", "découvrez les secrets ancestraux", "_t")
+t("#00FFFF#You read the tome and learn about ancient forgotten fire magic!", "#00FFFF#Vous lisez le grimoire et apprenez une magie du feu ancienne et oubliée!", "logPlayer")
+t("#00FFFF#You read the tome and perfect your mastery of fire magic!", "#00FFFF#Vous lisez le grimoire et perfectionnez votre maîtrise de la magie du feu!", "logPlayer")
+t("Tome of Uttercold", "Grimoire du Froid Absolu", "entity name")
+t("frozen book", "livre gelé", "_t")
+t("This huge book is covered in slowly shifting patterns of ice. Yet they do not harm you.", "Ce livre immense est recouvert de motifs de glace qui évoluent lentement. Pourtant, ils ne vous font aucun mal.", "_t")
+t("#00FFFF#You read the tome and learn about ancient forgotten ice magic!", "#00FFFF#Vous lisez le grimoire et apprenez une magie de glace ancestrale et oubliée !", "logPlayer")
+t("#00FFFF#You read the tome and perfect your mastery of ice magic!", "#00FFFF#Vous lisez le grimoire et perfectionnez votre maîtrise de la magie de glace !", "logPlayer")
 t("draft note", "note brouillonée", "entity name")
 t("A note.", "Une note", "_t")
--- texte non traduit
---[==[
-t("Tome of Wildfire", "Tome of Wildfire", "entity name")
-t("burning book", "burning book", "_t")
-t("This huge book is covered in searing flames. Yet they do not harm you.", "This huge book is covered in searing flames. Yet they do not harm you.", "_t")
-t("learn the ancient secrets", "learn the ancient secrets", "_t")
-t("#00FFFF#You read the tome and learn about ancient forgotten fire magic!", "#00FFFF#You read the tome and learn about ancient forgotten fire magic!", "logPlayer")
-t("#00FFFF#You read the tome and perfect your mastery of fire magic!", "#00FFFF#You read the tome and perfect your mastery of fire magic!", "logPlayer")
-t("Tome of Uttercold", "Tome of Uttercold", "entity name")
-t("frozen book", "frozen book", "_t")
-t("This huge book is covered in slowly shifting patterns of ice. Yet they do not harm you.", "This huge book is covered in slowly shifting patterns of ice. Yet they do not harm you.", "_t")
-t("#00FFFF#You read the tome and learn about ancient forgotten ice magic!", "#00FFFF#You read the tome and learn about ancient forgotten ice magic!", "logPlayer")
-t("#00FFFF#You read the tome and perfect your mastery of ice magic!", "#00FFFF#You read the tome and perfect your mastery of ice magic!", "logPlayer")
-t("Records of Lorekeeper Hadak", "Records of Lorekeeper Hadak", "entity name")
-t("Part of the long history of the Orc race.", "Part of the long history of the Orc race.", "_t")
---]==]
-
+t("Records of Lorekeeper Hadak", "Archives du Gardien du Savoir Hadak", "entity name")
+t("Part of the long history of the Orc race.", "Une partie de la longue histoire de la race Orc.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/vor-pride/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Vor Pride", "Vor Pride", "_t")
---]==]
-
+t("Vor Pride", "Fierté Vor", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/wilderness/grids.lua"
