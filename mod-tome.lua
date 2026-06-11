@@ -3013,7 +3013,7 @@ t("Just a minute, I was just...", "Juste une minute, j'étais juste...", "_t")
 t([[#LIGHT_GREEN#*She looks at you cheerfully.*#WHITE#
 Just kidding. I would love that!]], [[#LIGHT_GREEN#*Elle vous regarde avec joie.*#WHITE#
 Je plaisante. J'adorerais ça!]], "_t")
-t("#LIGHT_GREEN#[walk away with her]#WHITE#What about a little trip to the south, from the coastline we can see the Charred Scar Volcano, it is a wonderous sight.", "#LIGHT_GREEN#[s'éloigner avec elle]#WHITE#Que diriez-vous d'un petit voyage vers le sud, depuis la côte on peut voir le volcan de la Plaie craquelée, c'est un spectacle merveilleux.", "_t")
+t("#LIGHT_GREEN#[walk away with her]#WHITE#What about a little trip to the south, from the coastline we can see the Charred Scar Volcano, it is a wonderous sight.", "#LIGHT_GREEN#[s'éloigner avec elle]#WHITE#Que diriez-vous d'un petit voyage vers le sud, depuis la côte on peut voir le Volcan de la Plaie Craquelée, c'est un spectacle merveilleux.", "_t")
 t("Joke's on you really, goodbye!", "La plaisanterie est pour toi, vraiment, au revoir!", "_t")
 t("But... ok goodbye.", "Mais... ok au revoir.", "_t")
 t([[#LIGHT_GREEN#*You take Melinda in your arms and press her against you. The warmth of the contact lightens your heart.*#WHITE#
@@ -18310,7 +18310,7 @@ t("None that you know of has come back yet, but you did survive Reknor. You are 
 section "mod-tome/data/quests/dreadfell.lua"
 
 t("The Island of Dread", "L'île de la Terreur", "_t")
-t("You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "Vous avez entendu dire que près de la plaie craquelée, au sud, se trouve une tour en ruine connue sous le nom de Tombeffroie.", "_t")
+t("You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "Vous avez entendu dire que près de la Plaie Craquelée, au sud, se trouve une tour en ruine connue sous le nom de Tombeffroie.", "_t")
 t("There are disturbing rumors of greater undead, and nobody who reached it ever returned.", "Il y a des rumeurs inquiétantes de grands morts-vivants, et aucun de ceux qui y ont été ne sont jamais revenu.", "_t")
 t("Perhaps you should explore it and find the truth, and the treasures, for yourself!", "Peut-être devriez-vous l'explorer et trouver la vérité, ainsi que ses trésors, par vous-même!", "_t")
 
@@ -18870,9 +18870,9 @@ t([[The Thaloren forest is disrupted. Corruption is spreading. Norgos the guardi
 t([[On the western border of the forest a gloomy aura has been set up. Things inside are... twisted.
 ]], [[A la frontière ouest de la forêt, une aura lugubre s'est installée. Les choses à l'intérieur sont... déformées.
 ]], "_t")
-t("#LIGHT_GREEN#* You have explored Norgos' Lair and stopped the shivgoroth invasion.#WHITE#", "#LIGHT_GREEN#* Vous avez exploré le repaire de Norgos et arrêté l'invasion des shivgoroths.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have explored Norgos' Lair and put it to rest.#WHITE#", "#LIGHT_GREEN#* Vous avez exploré le repaire de Norgos et l'avez tué.#WHITE#", "_t")
-t("#SLATE#* You must explore Norgos' Lair.#WHITE#", "#SLATE#* Tu dois explorer la tanière de Norgos.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have explored Norgos' Lair and stopped the shivgoroth invasion.#WHITE#", "#LIGHT_GREEN#* Vous avez exploré le Repaire de Norgos et arrêté l'invasion des shivgoroths.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have explored Norgos' Lair and put it to rest.#WHITE#", "#LIGHT_GREEN#* Vous avez exploré le Repaire de Norgos et l'avez tué.#WHITE#", "_t")
+t("#SLATE#* You must explore Norgos' Lair.#WHITE#", "#SLATE#* Tu dois explorer le Repaire de Norgos.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have explored the Heart of the Gloom and slain the Dreaming One.#WHITE#", "#LIGHT_GREEN#* Tu as exploré le Coeur de l'Angoisse et tué le Rêveur.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have explored the Heart of the Gloom and slain the Withering Thing.#WHITE#", "#LIGHT_GREEN#* Vous avez exploré le Coeur de l'Angoisse et tué la Chose Flétrie.#WHITE#", "_t")
 t("#SLATE#* You must explore the Heart of the Gloom.#WHITE#", "#SLATE#* Vous devez explorer le Coeur de la Angoisse.#WHITE#", "_t")
@@ -19010,7 +19010,7 @@ t("#SLATE#* Find a Blood-Runed Athame.#WHITE#", "#SLATE#* Trouver une Athamé Ru
 t("#LIGHT_GREEN#* You have found the Resonating Diamond.#WHITE#", "#LIGHT_GREEN#* Vous avez trouvé un Diamant Résonant.#WHITE#", "_t")
 t("#SLATE#* Find a Resonating Diamond.#WHITE#", "#SLATE#* Trouvez un diamant résonnant.#WHITE#", "_t")
 t("#LIGHT_GREEN#* The portal to Maj'Eyal is now functional and can be used to go back, although, like all portals, it is one-way only.#WHITE#", "#LIGHT_GREEN#* Le portail vers Maj'Eyal est maintenant fonctionnel et peut être utilisé pour y retourner, bien que, comme tous les portails, il soit à sens unique.#WHITE#", "_t")
-t("Zemekkys points to the location of Vor Armoury on your map.", "Zemekkys indique l'emplacement du Dépôt d'Armes de Vor sur votre carte.", "logPlayer")
+t("Zemekkys points to the location of Vor Armoury on your map.", "Zemekkys indique l'emplacement de l'Armurerie Vor sur votre carte.", "logPlayer")
 t("Zemekkys points to the location of Briagh's lair on your map.", "Zemekkys indique l'emplacement du repaire de Briagh sur votre carte.", "logPlayer")
 t("#VIOLET#Zemekkys starts to draw runes on the floor using the athame and gem dust.", "#VIOLET#Zemekkys commence à dessiner des runes sur le sol en utilisant l'athamé et la poussière de gemme.", "logPlayer")
 t("#VIOLET#The whole area starts to shake!", "#VIOLET#Toute la zone se met à trembler!", "logPlayer")
@@ -37618,10 +37618,10 @@ t("#LIGHT_RED#You are sent back to the material plane!", "#LIGHT_RED#Vous êtes 
 ------------------------------------------------
 section "mod-tome/data/zones/eruan/grids.lua"
 
-t("Farportal: Charred Scar", "Portail lointain: Plaie craquelée", "entity name")
+t("Farportal: Charred Scar", "Portail lointain: Plaie Craquelée", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the west, to Charred Scar. A fiery volcano that can only spell death...]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
-Celui-ci semble mener à l'ouest, vers la Plaie craquelée. Un volcan en éruption synonyme de mort...]], "_t")
+Celui-ci semble mener à l'ouest, vers la Plaie Craquelée. Un volcan en éruption synonyme de mort...]], "_t")
 t("#VIOLET#You enter the swirling portal while it fades away and in the blink of an eye you set foot on hellish land, the heart of a volcano...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant tandis qu'il disparaît et, en un clin d'oeil, vous posez le pied sur une terre infernale, au coeur d'un volcan...", "_t")
 
 ------------------------------------------------
@@ -37869,7 +37869,7 @@ t("and absorbed into nightmares forever", "et absorbés à jamais dans des cauch
 ------------------------------------------------
 section "mod-tome/data/zones/heart-gloom/zone.lua"
 
-t("Heart of the Gloom", "Coeur de la Mélancolie", "_t")
+t("Heart of the Gloom", "Coeur de l'Angoisse", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/high-peak/grids.lua"
@@ -40460,111 +40460,110 @@ section "mod-tome/data/zones/wilderness/grids.lua"
 
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
+t("plains", "plaines", "entity name")
 t("cultivated fields", "champs cultivés", "entity name")
+t("low hills", "petites collines", "entity name")
 t("wall", "mur", "entity type")
 t("forest", "forêt", "entity name")
+t("pine forest", "forêt de pins", "entity name")
+t("Old forest", "Vieille forêt", "entity name")
 t("lava", "lave", "entity subtype")
 t("Charred Scar", "Plaie Craquelée", "entity name")
+t("burnt forest", "forêt brûlée", "entity name")
 t("ice", "glace", "entity subtype")
 t("polar cap", "calotte polaire", "entity name")
+t("frozen sea", "mer gelée", "entity name")
 t("cold forest", "forêt glaciale", "entity name")
+t("cold thaloren forest", "forêt glaciale thaloren", "entity name")
+t("thaloren forest", "forêt thaloren", "entity name")
 t("water", "eau", "entity subtype")
 t("deep water", "eau profonde", "entity name")
+t("sea of Eyal", "mer d'Eyal", "entity name")
+t("river", "rivière", "entity name")
+t("lake of Nur", "lac de Nur", "entity name")
+t("sea of Sash", "mer de Sash", "entity name")
+t("lake", "lac", "entity name")
+t("Westreach lake", "Lac de Westreach", "entity name")
+t("Irondeep lake", "Lac d'Irondeep", "entity name")
+t("Spellmurk lake", "Lac de Spellmurk", "entity name")
 t("rockwall", "mur de roche", "entity type")
+t("name", "nom", "entity name")
 t("Sunwall mountain", "Montagnes du Mur Solaire", "entity name")
 t("sand", "sable", "entity subtype")
+t("desert", "désert", "entity name")
+t("Derth (Town)", "Derth (Ville)", "entity name")
+t("A quiet town at the crossroads of the north", "Une ville tranquille au carrefour du nord", "_t")
+t("Last Hope (Town)", "Dernier Espoir (Ville)", "entity name")
+t("Capital city of the Allied Kingdoms ruled by King Tolak", "Capitale des Royaumes Alliés gouvernés par le Roi Tolak", "_t")
+t("Angolwen, the hidden city of magic", "Angolwen, la cité cachée de la magie", "entity name")
+t([[Secret place of magic, set apart from the world to protect it.
+Lead by the Supreme Archmage Linaniil.]], [[Lieu secret de la magie, isolé du monde pour le protéger.
+Dirigé par la Suprême Archimage Linaniil.]], "_t")
+t("Hidden teleportation portal to Angolwen, the hidden city of magic", "Portail de téléportation caché vers Angolwen, la cité magique cachée", "entity name")
+t("The portal fizzles.", "Le portail s'éteint.", "log")
+t("Shatur (Town)", "Shatur (Ville)", "entity name")
+t("Capital city of Thaloren lands, ruled by Nessilla Tantaelen", "Capitale des terres Thaloren, gouvernée par Nessilla Tantaelen", "_t")
+t("Elvala (Town)", "Elvala (Ville)", "entity name")
+t("Capital city of Shaloren lands, ruled by Aranion Gayaeil", "Capitale des terres Shaloren, gouvernée par Aranion Gayaeil", "_t")
+t("Gates of Morning (Town)", "Portes du Matin (Ville)", "entity name")
+t("A massive hole in the Sunwall.", "Un énorme trou dans le Mur Solaire.", "_t")
+t("Irkkk (Town)", "Irkkk (Ville)", "entity name")
+t("Yeek Wayist main village", "Village princiopale des Yeeks de la Voie", "_t")
+t("Zigur (Town)", "Zigur (Ville)", "entity name")
+t("Ziguranth main training ground", "Terrain d'entraînement principal Ziguranth", "_t")
+t("Somehow as magic user you feel this place is not safe for you.", "En tant que magicien, vous avez l'impression que cet endroit n'est pas sûr pour vous.", "_t")
+t("Iron Council (Town)", "Conseil de Fer (Ville)", "entity name")
+t("Heart of the dwarven Empire", "Coeur de l'Empire Nain", "_t")
+t("A gate into the Maze", "Une porte donnant sur le labyrinthe", "entity name")
+t("Passageway into the Trollmire", "Passage vers le Bourbier Troll", "entity name")
+t("A path into the Old Forest", "Un chemin menant à la Vieille Forêt", "entity name")
+t("Passageway into Norgos' Lair", "Passage menant au Repaire de Norgos", "entity name")
+t("Passageway into the Daikara", "Passage vers le Daikara", "entity name")
+t("The entry to the old tower of Dreadfell", "L'entrée de l'ancienne tour de Tombeffroid", "entity name")
 t("Ruins of Kor'Pul", "Ruines de Kor'Pul", "entity name")
+t("Very old halfling ruins", "Ruines Halfelin très anciennes", "entity name")
+t("Entrance to the Scintillating Caves", "Entrée des Grottes Scintillantes", "entity name")
+t("Stairway into the Rhaloren Camp", "Escalier menant au Camp Rhaloren", "entity name")
+t("Way into the heart of the gloom", "Chemin vers le Coeur de l'Angoisse", "entity name")
+t("A mysterious hole in the beach", "Un mystérieux trou dans la plage", "entity name")
+t("Tunnel into the ritchs grounds", "Tunnel vers le terrain des richtes", "entity name")
+t("Charred Scar Volcano", "Volcan de la Plaie Craquelée", "entity name")
+t("Tunnel to Maj'Eyal", "Tunnel vers Maj'Eyal", "entity name")
+t("You cannot abandon the yeeks of Rel to the dangers that lie within the island.", "Vous ne pouvez pas abandonner les yeeks de Rel aux dangers qui rôdent sur l'île.", "_t")
+t("Unremarkable cave", "Grotte Inintéressante", "entity name")
+t("A gate into the old kingdom of Reknor", "Une porte vers l'ancien royaume de Reknor", "entity name")
+t("Entrance into Telmur, tower of Telos", "Entrée de Telmur, tour de Telos", "entity name")
+t("Way into the lair of Murgol", "Entrée du repaire de Murgol", "entity name")
+t("Long road to the Tempest Peak", "Longue route vers le Pic Tempétueux", "entity name")
+t([[After walking many hours, you finally reach the end of the way. You are nearly on top of one of the highest peaks you can see.
+The storm is raging above your head.]], [[Après de longues heures de marche, vous atteignez enfin le bout du chemin. Vous êtes presque au sommet d'un des plus hauts pics que l'on puisse apercevoir.
+La tempête fait rage au-dessus de votre tête.]], "_t")
+t("A gate into Last Hope's graveyard", "Une porte donnant sur le cimetière de Dernier Espoir", "entity name")
+t("Entrance to Rak'shor Pride bastion", "Entrée du bastion de la Fierté de Rak'shor", "entity name")
+t("Entrance to Gorbat Pride bastion", "Entrée du bastion de la Fierté de Gorbat", "entity name")
+t("Entrance to Grushnak Pride bastion", "Entrée du bastion de la Fierté de Grushnak", "entity name")
+t("Entrance to Vor Pride bastion", "Entrée du bastion de la Fierté de Vor", "entity name")
+t("Backdoor to the Vor Armoury", "Porte dérobée vers l'Armurerie Vor", "entity name")
+t("Entrance into the sandpit of Briagh", "Entrée dans le repair de sable de Briagh", "entity name")
+t("Cavern leading to the valley of the moon", "Caverne menant à la vallée de la lune", "entity name")
+t("A way into the caverns of Ardhungol", "Un passage vers les cavernes d'Ardhungol", "entity name")
+t("The arid wastes of Erúan", "Les déserts arides d'Erúan", "entity name")
 -- texte non traduit
 --[==[
-t("plains", "plains", "entity name")
-t("low hills", "low hills", "entity name")
-t("pine forest", "pine forest", "entity name")
-t("Old forest", "Old forest", "entity name")
-t("burnt forest", "burnt forest", "entity name")
-t("frozen sea", "frozen sea", "entity name")
-t("cold thaloren forest", "cold thaloren forest", "entity name")
-t("thaloren forest", "thaloren forest", "entity name")
-t("sea of Eyal", "sea of Eyal", "entity name")
-t("river", "river", "entity name")
-t("lake of Nur", "lake of Nur", "entity name")
-t("sea of Sash", "sea of Sash", "entity name")
-t("lake", "lake", "entity name")
-t("Westreach lake", "Westreach lake", "entity name")
-t("Irondeep lake", "Irondeep lake", "entity name")
-t("Spellmurk lake", "Spellmurk lake", "entity name")
-t("name", "name", "entity name")
 t("jungle", "jungle", "entity name")
-t("desert", "desert", "entity name")
 t("oasis", "oasis", "entity name")
-t("Derth (Town)", "Derth (Town)", "entity name")
-t("A quiet town at the crossroads of the north", "A quiet town at the crossroads of the north", "_t")
-t("Last Hope (Town)", "Last Hope (Town)", "entity name")
-t("Capital city of the Allied Kingdoms ruled by King Tolak", "Capital city of the Allied Kingdoms ruled by King Tolak", "_t")
-t("Angolwen, the hidden city of magic", "Angolwen, the hidden city of magic", "entity name")
-t([[Secret place of magic, set apart from the world to protect it.
-Lead by the Supreme Archmage Linaniil.]], [[Secret place of magic, set apart from the world to protect it.
-Lead by the Supreme Archmage Linaniil.]], "_t")
-t("Hidden teleportation portal to Angolwen, the hidden city of magic", "Hidden teleportation portal to Angolwen, the hidden city of magic", "entity name")
-t("The portal fizzles.", "The portal fizzles.", "log")
-t("Shatur (Town)", "Shatur (Town)", "entity name")
-t("Capital city of Thaloren lands, ruled by Nessilla Tantaelen", "Capital city of Thaloren lands, ruled by Nessilla Tantaelen", "_t")
-t("Elvala (Town)", "Elvala (Town)", "entity name")
-t("Capital city of Shaloren lands, ruled by Aranion Gayaeil", "Capital city of Shaloren lands, ruled by Aranion Gayaeil", "_t")
-t("Gates of Morning (Town)", "Gates of Morning (Town)", "entity name")
-t("A massive hole in the Sunwall.", "A massive hole in the Sunwall.", "_t")
-t("Irkkk (Town)", "Irkkk (Town)", "entity name")
-t("Yeek Wayist main village", "Yeek Wayist main village", "_t")
-t("Zigur (Town)", "Zigur (Town)", "entity name")
-t("Ziguranth main training ground", "Ziguranth main training ground", "_t")
 t("Zigur", "Zigur", "_t")
-t("Somehow as magic user you feel this place is not safe for you.", "Somehow as magic user you feel this place is not safe for you.", "_t")
-t("Iron Council (Town)", "Iron Council (Town)", "entity name")
-t("Heart of the dwarven Empire", "Heart of the dwarven Empire", "_t")
-t("A gate into the Maze", "A gate into the Maze", "entity name")
-t("Passageway into the Trollmire", "Passageway into the Trollmire", "entity name")
-t("A path into the Old Forest", "A path into the Old Forest", "entity name")
-t("Passageway into Norgos' Lair", "Passageway into Norgos' Lair", "entity name")
-t("Passageway into the Daikara", "Passageway into the Daikara", "entity name")
-t("The entry to the old tower of Dreadfell", "The entry to the old tower of Dreadfell", "entity name")
-t("Very old halfling ruins", "Very old halfling ruins", "entity name")
-t("Entrance to the Scintillating Caves", "Entrance to the Scintillating Caves", "entity name")
-t("Stairway into the Rhaloren Camp", "Stairway into the Rhaloren Camp", "entity name")
-t("Way into the heart of the gloom", "Way into the heart of the gloom", "entity name")
-t("A mysterious hole in the beach", "A mysterious hole in the beach", "entity name")
-t("Tunnel into the ritchs grounds", "Tunnel into the ritchs grounds", "entity name")
-t("Charred Scar Volcano", "Charred Scar Volcano", "entity name")
-t("Tunnel to Maj'Eyal", "Tunnel to Maj'Eyal", "entity name")
 t("Long tunnel", "Long tunnel", "_t")
-t("You cannot abandon the yeeks of Rel to the dangers that lie within the island.", "You cannot abandon the yeeks of Rel to the dangers that lie within the island.", "_t")
-t("Unremarkable cave", "Unremarkable cave", "entity name")
-t("A gate into the old kingdom of Reknor", "A gate into the old kingdom of Reknor", "entity name")
-t("Entrance into Telmur, tower of Telos", "Entrance into Telmur, tower of Telos", "entity name")
-t("Way into the lair of Murgol", "Way into the lair of Murgol", "entity name")
-t("Long road to the Tempest Peak", "Long road to the Tempest Peak", "entity name")
 t("Danger...", "Danger...", "_t")
-t([[After walking many hours, you finally reach the end of the way. You are nearly on top of one of the highest peaks you can see.
-The storm is raging above your head.]], [[After walking many hours, you finally reach the end of the way. You are nearly on top of one of the highest peaks you can see.
-The storm is raging above your head.]], "_t")
-t("A gate into Last Hope's graveyard", "A gate into Last Hope's graveyard", "entity name")
-t("Entrance to Rak'shor Pride bastion", "Entrance to Rak'shor Pride bastion", "entity name")
-t("Entrance to Gorbat Pride bastion", "Entrance to Gorbat Pride bastion", "entity name")
-t("Entrance to Grushnak Pride bastion", "Entrance to Grushnak Pride bastion", "entity name")
-t("Entrance to Vor Pride bastion", "Entrance to Vor Pride bastion", "entity name")
-t("Backdoor to the Vor Armoury", "Backdoor to the Vor Armoury", "entity name")
-t("Entrance into the sandpit of Briagh", "Entrance into the sandpit of Briagh", "entity name")
-t("Cavern leading to the valley of the moon", "Cavern leading to the valley of the moon", "entity name")
-t("A way into the caverns of Ardhungol", "A way into the caverns of Ardhungol", "entity name")
-t("The arid wastes of Erúan", "The arid wastes of Erúan", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/wilderness/zone.lua"
 
-
+t("World of Eyal", "Monde d'Eyal", "_t")
 -- texte non traduit
 --[==[
-t("World of Eyal", "World of Eyal", "_t")
 t("Eyal", "Eyal", "_t")
 --]==]
 
