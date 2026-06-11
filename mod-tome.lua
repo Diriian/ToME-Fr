@@ -40264,18 +40264,14 @@ t("Tutorial", "Tutoriel", "_t")
 section "mod-tome/data/zones/unhallowed-morass/grids.lua"
 
 t("Temporal Rift", "Faille Temporelle", "entity name")
+t("The rift leads to another part of the morass.", "La faille mène à une autre partie du marais.", "_t")
 t("Point Zero", "Point Zéro", "_t")
+t([[The rift has brought you back to Point Zero, and the source of the disturbances.
+A temporal defiler is attacking the town, all the Keepers in range are attacking it!]], [[La faille vous a ramené au Point Zéro, à la source des perturbations.
+Un Profanateur Temporel attaque la ville. Tous les Gardiens à portée ripostent!]], "_t")
 t("wall", "mur", "entity type")
 t("rift", "fissure", "entity subtype")
 t("crack in spacetime", "fissure dans l'espace temps", "entity name")
--- texte non traduit
---[==[
-t("The rift leads to another part of the morass.", "The rift leads to another part of the morass.", "_t")
-t([[The rift has brought you back to Point Zero, and the source of the disturbances.
-A temporal defiler is attacking the town, all the Keepers in range are attacking it!]], [[The rift has brought you back to Point Zero, and the source of the disturbances.
-A temporal defiler is attacking the town, all the Keepers in range are attacking it!]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/unhallowed-morass/npcs.lua"
@@ -40283,23 +40279,19 @@ section "mod-tome/data/zones/unhallowed-morass/npcs.lua"
 t("spiderkin", "arachnides", "entity type")
 t("spider", "araignée", "entity subtype")
 t("Arachnophobia...", "Arachnophobie...", "_t")
--- texte non traduit
---[==[
-t("weaver hatchling", "weaver hatchling", "entity name")
-t("A nearly translucent spider hatchling.", "A nearly translucent spider hatchling.", "_t")
-t("orb spinner", "orb spinner", "entity name")
-t("A large brownish arachnid, its fangs drip with a strange fluid.", "A large brownish arachnid, its fangs drip with a strange fluid.", "_t")
-t("orb weaver", "orb weaver", "entity name")
-t("A large brownish arachnid spinning its web.  It doesn't look pleased that you've disturbed its work.", "A large brownish arachnid spinning its web.  It doesn't look pleased that you've disturbed its work.", "_t")
-t("fate spinner", "fate spinner", "entity name")
-t("Easily as big as a horse, this giant spider menaces at you with claws and fangs.", "Easily as big as a horse, this giant spider menaces at you with claws and fangs.", "_t")
-t("fate weaver", "fate weaver", "entity name")
-t("A large white spider.", "A large white spider.", "_t")
-t("Weaver Queen", "Weaver Queen", "entity name")
-t("Weaver Queen", "Weaver Queen", "_t")
-t("As you vanquish the queen you notice a temporal thread that seems to have been controlling her. It seems to go through a rift.", "As you vanquish the queen you notice a temporal thread that seems to have been controlling her. It seems to go through a rift.", "_t")
---]==]
-
+t("weaver hatchling", "bébé tisserande", "entity name")
+t("A nearly translucent spider hatchling.", "Une jeune araignée presque translucide.", "_t")
+t("orb spinner", "orbe fileuse", "entity name")
+t("A large brownish arachnid, its fangs drip with a strange fluid.", "Une grosse arachnide brunâtre, dont les crochets dégoulinent d'un liquide étrange.", "_t")
+t("orb weaver", "tisseuse d'orbes", "entity name")
+t("A large brownish arachnid spinning its web.  It doesn't look pleased that you've disturbed its work.", "Une grosse araignée brunâtre tisse sa toile. Elle n'a pas l'air contente que vous ayez dérangé son travail.", "_t")
+t("fate spinner", "fileuse de destin", "entity name")
+t("Easily as big as a horse, this giant spider menaces at you with claws and fangs.", "Aussi grosse qu'un cheval, cette araignée géante vous menace avec ses griffes et ses crocs.", "_t")
+t("fate weaver", "tisseuse de destin", "entity name")
+t("A large white spider.", "Une grosse araignée blanche.", "_t")
+t("Weaver Queen", "Reine des Tisserandes", "entity name")
+t("Weaver Queen", "Reine des Tisserandes", "_t")
+t("As you vanquish the queen you notice a temporal thread that seems to have been controlling her. It seems to go through a rift.", "Après avoir vaincu la reine vous remarquez un fil temporel qui semble la contrôler. Il semble traverser une faille temporelle.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/unhallowed-morass/objects.lua"
@@ -40311,37 +40303,27 @@ t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", 
 ------------------------------------------------
 section "mod-tome/data/zones/unhallowed-morass/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Unhallowed Morass", "Unhallowed Morass", "_t")
---]==]
-
+t("Unhallowed Morass", "Marais Impie", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/unremarkable-cave/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("elf", "elfe", "entity subtype")
+t("An Elven woman. She wears a tight robe decorated with symbols of the Sun and the Moon and wields a staff.", "Une elfe. Elle porte une robe moulante ornée de symboles du Soleil et de la Lune et manie un bâton.", "_t")
+t("An orc clad in mail armour, he wields a staff and looks menacing.", "Un orc vêtu d'une cotte de mailles, il manie un bâton et a l'air menaçant.", "_t")
 -- texte non traduit
 --[==[
 t("Fillarel Aldaren", "Fillarel Aldaren", "entity name")
-t("An Elven woman. She wears a tight robe decorated with symbols of the Sun and the Moon and wields a staff.", "An Elven woman. She wears a tight robe decorated with symbols of the Sun and the Moon and wields a staff.", "_t")
 t("orc", "orc", "entity subtype")
 t("Krogar", "Krogar", "entity name")
-t("An orc clad in mail armour, he wields a staff and looks menacing.", "An orc clad in mail armour, he wields a staff and looks menacing.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/zones/unremarkable-cave/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Unremarkable Cave", "Unremarkable Cave", "_t")
---]==]
-
+t("Unremarkable Cave", "Grotte Inintéressante", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/valley-moon/grids.lua"
@@ -40357,57 +40339,34 @@ section "mod-tome/data/zones/valley-moon/npcs.lua"
 
 t("demon", "démon", "entity type")
 t("major", "majeur", "entity subtype")
+t("Corrupted Daelach", "Daelach Corrompu", "entity name")
+t("Shadow and flames. The huge beast of fire moves speedily toward you, its huge shadowy wings deployed.", "Ombres et flammes. L'immense bête de feu se dirige rapidement vers vous, ses vastes ailes ténébreuses déployées.", "_t")
 t("humanoid", "humanoïde", "entity type")
 t("elf", "elfe", "entity subtype")
 t("Limmir the Jeweler", "Limmir le joaillier", "entity name")
--- texte non traduit
---[==[
-t("Corrupted Daelach", "Corrupted Daelach", "entity name")
-t("Shadow and flames. The huge beast of fire moves speedily toward you, its huge shadowy wings deployed.", "Shadow and flames. The huge beast of fire moves speedily toward you, its huge shadowy wings deployed.", "_t")
-t("An Elven Anorithil, specializing in the art of jewelry.", "An Elven Anorithil, specializing in the art of jewelry.", "_t")
-t("#VIOLET#Limmir is attacked! Defend him!", "#VIOLET#Limmir is attacked! Defend him!", "say")
---]==]
-
+t("An Elven Anorithil, specializing in the art of jewelry.", "Une Anorithil Elfe, spécialisée dans l'art de la joaillerie.", "_t")
+t("#VIOLET#Limmir is attacked! Defend him!", "#VIOLET#Limmir est attaqué! Défendez-le!", "say")
 
 ------------------------------------------------
 section "mod-tome/data/zones/valley-moon/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Ithilthum, Valley of the Moon", "Ithilthum, Valley of the Moon", "_t")
---]==]
-
+t("Ithilthum, Valley of the Moon", "Ithilthum, Vallée de la Lune", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/valley-moon-caverns/grids.lua"
 
-
--- texte non traduit
---[==[
-t("exit to the lost valley", "exit to the lost valley", "entity name")
---]==]
-
+t("exit to the lost valley", "sortie vers la vallée perdue", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/valley-moon-caverns/objects.lua"
 
 t("tattered paper scrap", "morceau de papier déchiré", "entity name")
--- texte non traduit
---[==[
-t("A paper scrap, left by somebody named Rassir.", "A paper scrap, left by somebody named Rassir.", "_t")
---]==]
-
+t("A paper scrap, left by somebody named Rassir.", "Un bout de papier, laissé par quelqu'un nommé Rassir.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/valley-moon-caverns/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Caverns to the hidden valley", "Caverns to the hidden valley", "_t")
---]==]
-
+t("Caverns to the hidden valley", "Cavernes menant à la vallée cachée", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/void/grids.lua"
