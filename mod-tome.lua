@@ -41913,51 +41913,41 @@ t("Limmir summons a blast of holy light!", "Limmir invoque une explosion de lumi
 ------------------------------------------------
 section "mod-tome/mod/class/interface/ActorAI.lua"
 
-
--- texte non traduit
---[==[
-t("#Source# shoves #Target# aside.", "#Source# shoves #Target# aside.", "logCombat")
-t("%s #PINK#searching for safer grids [radius %s from (%s, %s), val = %s], dam_wt=%s, air_wt=%s, dist_weight=%s, want_closer=%s", "%s #PINK#searching for safer grids [radius %s from (%s, %s), val = %s], dam_wt=%s, air_wt=%s, dist_weight=%s, want_closer=%s", "log")
-t("#PINK# --best reachable grid: (%d, %d) (dist: %s, val: %s(%s))", "#PINK# --best reachable grid: (%d, %d) (dist: %s, val: %s(%s))", "log")
-t("_[%d]%s %s%s tactical weight CACHE MISMATCH (%s) vs %s[%d]{%s}: %s vs %s(cache)", "_[%d]%s %s%s tactical weight CACHE MISMATCH (%s) vs %s[%d]{%s}: %s vs %s(cache)", "log")
-t("_[%d]%s #YELLOW# TACTICAL turn_procs CACHE MISMATCH for %s", "_[%d]%s #YELLOW# TACTICAL turn_procs CACHE MISMATCH for %s", "log")
-t("#YELLOW_GREEN#____Cached tactics: %s", "#YELLOW_GREEN#____Cached tactics: %s", "log")
-t("#YELLOW_GREEN#__Computed tactics: %s", "#YELLOW_GREEN#__Computed tactics: %s", "log")
---]==]
-
+t("#Source# shoves #Target# aside.", "#Source# repousse #Target# sur le côté.", "logCombat")
+t("%s #PINK#searching for safer grids [radius %s from (%s, %s), val = %s], dam_wt=%s, air_wt=%s, dist_weight=%s, want_closer=%s", "%s #PINK#cherche des cases plus sûr [rayon %s de (%s, %s), val = %s], dam_wt=%s, air_wt=%s, dist_weight=%s, want_closer=%s", "log")
+t("#PINK# --best reachable grid: (%d, %d) (dist: %s, val: %s(%s))", "#PINK# --case la plus accessible: (%d, %d) (dist: %s, val: %s(%s))", "log")
+t("_[%d]%s %s%s tactical weight CACHE MISMATCH (%s) vs %s[%d]{%s}: %s vs %s(cache)", "_[%d]%s %s%s INCOMPATIBILITÉ DE CACHE du poids tactique (%s) vs %s[%d]{%s}: %s vs %s(cache)", "log")
+t("_[%d]%s #YELLOW# TACTICAL turn_procs CACHE MISMATCH for %s", "_[%d]%s #YELLOW# INCOMPATIBILITÉ DE CACHE des procédures de tour TACTIQUE pour %s", "log")
+t("#YELLOW_GREEN#____Cached tactics: %s", "#YELLOW_GREEN#____tactiques mises en cache: %s", "log")
+t("#YELLOW_GREEN#__Computed tactics: %s", "#YELLOW_GREEN#__Tactiques calculées: %s", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/ActorInscriptions.lua"
 
-
--- texte non traduit
---[==[
-t("You are unable to use this kind of inscription.", "You are unable to use this kind of inscription.", "logPlayer")
-t("You already have too many of this inscription.", "You already have too many of this inscription.", "logPlayer")
-t("You have no more inscription slots.", "You have no more inscription slots.", "logPlayer")
-t("You are now inscribed with %s.", "You are now inscribed with %s.", "logPlayer")
-t("Your %s is depleted!", "Your %s is depleted!", "logPlayer")
---]==]
-
+t("You are unable to use this kind of inscription.", "Vous ne pouvez pas utiliser ce type d'inscription.", "logPlayer")
+t("You already have too many of this inscription.", "Vous avez déjà beaucoup trop de cette inscription.", "logPlayer")
+t("You have no more inscription slots.", "Vous n'avez plus d'emplacements d'inscription.", "logPlayer")
+t("You are now inscribed with %s.", "Vous êtes maintenant inscrit avec %s.", "logPlayer")
+t("Your %s is depleted!", "Votre est épuisé!", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/ActorObjectUse.lua"
 
+t("Activate an object", "Active un objet", "_t")
+t("Activate: %s", "Active: %s", "tformat")
 t("%s activates %s %s!", "%s active %s %s!", "logSeen")
--- texte non traduit
---[==[
-t("Activate an object", "Activate an object", "_t")
-t("Activate: %s", "Activate: %s", "tformat")
-t("%s", "%s", "logSeen")
-t("Activate an object.", "Activate an object.", "_t")
-t("(unknown object)", "(unknown object)", "_t")
+t("Activate an object.", "Active un objet.", "_t")
+t("(unknown object)", "(objet inconnu)", "_t")
 t([[Use %s:
 
-%s]], [[Use %s:
+%s]], [[Utilise %s:
 
 %s]], "tformat")
-t("Activate %s", "Activate %s", "tformat")
-t("nothing", "nothing", "_t")
+t("Activate %s", "Active %s", "tformat")
+t("nothing", "rien", "_t")
+-- texte non traduit
+--[==[
+t("%s", "%s", "logSeen")
 --]==]
 
 
