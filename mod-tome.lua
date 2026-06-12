@@ -2217,15 +2217,11 @@ t([[Do you want to name your item?
 t("Yes, please.", "Oui, s'il vous plaît.", "_t")
 t("Name your item", "Nommez votre objet", "_t")
 t("Name", "Nom", "_t")
+t("#LIGHT_BLUE#You are given: %s", "#LIGHT_BLUE#On vous donne: %s", "log")
 t("No thanks.", "Non merci.", "_t")
 t("Oh I am sorry, it seems we could not make the item your require.", "Oh, je suis désolé, il semble que nous n'ayons pas pu répondre à votre demande.", "_t")
 t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
 t("Oh well, maybe later then.", "Eh bien, peut-être plus tard alors.", "_t")
--- nouveau texte
---[==[
-t("#LIGHT_BLUE#You are given: %s", "#LIGHT_BLUE#You are given: %s", "log")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/chats/artifice-mastery.lua"
@@ -5082,11 +5078,7 @@ section "mod-tome/data/general/events/sludgenest.lua"
 
 t("Way into a strange lush forest", "Un chemin vers une étrange forêt luxuriante", "_t")
 t("Lush forest", "Forêt Luxuriante", "_t")
--- nouveau texte
---[==[
-t("Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest... If only you could remember where!", "Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest... If only you could remember where!", "_t")
---]==]
-
+t("Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest... If only you could remember where!", "Soudain, cela vous revient. Vous vous souvenez qu'il y a longtemps, quelqu'un vous avait parlé d'une étrange forêt luxuriante... Si seulement vous pouviez vous rappeler où!", "_t")
 -- ancien texte traduit
 t("Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest in the cold icy wastes of the northland.", "Soudain, ça vous revient. Vous vous rappelez qu'il y a longtemps, quelqu'un vous a parlé d'une étrange forêt luxuriante dans les étendues froides et glacées au nord du pays.", "_t")
 
@@ -19032,22 +19024,18 @@ t("You must now finish what the Sher'tuls started. Take the Staff of Absorption 
 section "mod-tome/data/quests/west-portal.lua"
 
 t("There and back again", "A nouveau de retour", "_t")
+t("Zemekkys in the Gates of Morning can build a portal back to your homeland for you.", "Zemekkys aux Portes du Matin peut construire pour vous un portail vers votre pays natal.", "_t")
 t("#LIGHT_GREEN#* You have found a Blood-Runed Athame.#WHITE#", "#LIGHT_GREEN#* Vous avez trouvé une Athamé Rune de Sang.#WHITE#", "_t")
 t("#SLATE#* Find a Blood-Runed Athame.#WHITE#", "#SLATE#* Trouver une Athamé Rune de Sang#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have found the Resonating Diamond.#WHITE#", "#LIGHT_GREEN#* Vous avez trouvé un Diamant Résonant.#WHITE#", "_t")
 t("#SLATE#* Find a Resonating Diamond.#WHITE#", "#SLATE#* Trouvez un diamant résonnant.#WHITE#", "_t")
+t("#LIGHT_GREEN#* The portal is now functional and can be used to go back, although, like all portals, it is one-way only.#WHITE#", "#LIGHT_GREEN#* Le portail est désormais fonctionnel et peut être utilisé pour revenir en arrière, même si comme tous les portails il est à sens unique.#WHITE#", "_t")
 t("Zemekkys points to the location of Vor Armoury on your map.", "Zemekkys indique l'emplacement de l'Armurerie Vor sur votre carte.", "logPlayer")
 t("Zemekkys points to the location of Briagh's lair on your map.", "Zemekkys indique l'emplacement du repaire de Briagh sur votre carte.", "logPlayer")
 t("#VIOLET#Zemekkys starts to draw runes on the floor using the athame and gem dust.", "#VIOLET#Zemekkys commence à dessiner des runes sur le sol en utilisant l'athamé et la poussière de gemme.", "logPlayer")
 t("#VIOLET#The whole area starts to shake!", "#VIOLET#Toute la zone se met à trembler!", "logPlayer")
 t("#VIOLET#Zemekkys says: 'The portal is done!'", "#VIOLET#Zemekkys dit: \"Le portail est terminé!\"", "logPlayer")
 t("High Chronomancer Zemekkys", "Grand Cronomancien Zemekkys", "_t")
--- nouveau texte
---[==[
-t("Zemekkys in the Gates of Morning can build a portal back to your homeland for you.", "Zemekkys in the Gates of Morning can build a portal back to your homeland for you.", "_t")
-t("#LIGHT_GREEN#* The portal is now functional and can be used to go back, although, like all portals, it is one-way only.#WHITE#", "#LIGHT_GREEN#* The portal is now functional and can be used to go back, although, like all portals, it is one-way only.#WHITE#", "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("", "", "_t")
@@ -34100,6 +34088,7 @@ t("+Stormshield", "+Bouclier Tempête", "_t")
 t("#Target#'s storm dissipates.", "La tempête de #Target# se dissipe.", "_t")
 t("-Stormshield", "-Bouclier Tempête", "_t")
 t("%s(%d stormshielded#LAST#%s)#LAST#", "%s(%d bouclier tempête#LAST#%s)#LAST#", "tformat")
+t("#BLUE##Target#'s stormshield is out of charges and dissipates!#LAST#.", "#BLUE#Le Bouclier Tempête de #Target# n'est plus chargé et se dissipe!#LAST#.", "logCombat")
 t("ward", "garde", "effect subtype")
 t("Prismatic Shield", "Bouclier Prismatique", "_t")
 t("The target is protected by a prismatic shield blocking many instances of damage.  Remaining:  %s", "La cible est protégée par un bouclier prismatique qui bloque de nombreux dégâts.  Restant : %s", "tformat")
@@ -34947,11 +34936,6 @@ t("gravity", "gravité", "effect subtype")
 t("Devourer Stance", "Posture du Dévoreur", "_t")
 t("The target is storing up healing energy, currently %d", "La cible emmagasine de l'énergie de guérison, actuellement %d", "tformat")
 t("The target is redirecting energy, adding %d gravity damage to their attacks.%s", "La cible redirige l'énergie, ajoutant %d de dégâts de gravité à ses attaques.%s", "tformat")
--- nouveau texte
---[==[
-t("#BLUE##Target#'s stormshield is out of charges and dissipates!#LAST#.", "#BLUE##Target#'s stormshield is out of charges and dissipates!#LAST#.", "logCombat")
---]==]
-
 -- texte non traduit
 --[==[
 t("+Invis", "+Invis", "_t")
