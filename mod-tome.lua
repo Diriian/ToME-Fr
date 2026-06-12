@@ -22729,13 +22729,12 @@ t([[Your fury becomes an unseen force that randomly lashes out at foes around yo
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/gestures.lua"
 
-
+t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#Vous prenez plaisir à attaquer un ennemi affaibli! (+%d haine)", "logPlayer")
 -- texte non traduit
 --[==[
 t("Gesture of Pain", "Gesture of Pain", "talent name")
 t("You require two free or mindstar-equipped hands to use Gesture of Pain.", "You require two free or mindstar-equipped hands to use Gesture of Pain.", "logPlayer")
 t("%s resists the Gesture of Pain.", "%s resists the Gesture of Pain.", "logSeen")
-t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "logPlayer")
 t([[Use a gesture of pain in place of a normal attack to assault the minds of your enemies, inflicting between %0.1f and %0.1f mind damage. If the attack succeeds, there is a %d%% chance to stun your opponent for 3 turns.
 		This strike replaces your melee physical and checks your Mindpower against your opponent's Mental Save, and is thus not affected by your Accuracy or the enemy's Defense. The base damage (doubled) and the critical chance of any Mindstars equipped are added in when this attack is performed.
 		This talent requires two free or mindstar-equipped hands and has a 25%% chance to inflict brainlock, which can critically hit. The damage will increase with your Mindpower.
@@ -29952,6 +29951,7 @@ section "mod-tome/data/talents/techniques/techniques.lua"
 t("superiority", "supériorité", "talent type")
 t("duelist", "dueliste", "talent type")
 t("bow", "arc", "_t")
+t("You do not have enough ammo left!", "Il ne vous reste plus assez de munitions!", "logPlayer")
 -- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
@@ -30043,7 +30043,6 @@ t("You require ammo to use this talent.", "You require ammo to use this talent."
 t("Your ammo cannot be used.", "Your ammo cannot be used.", "_t")
 t("Your ammo is incompatible with your missile launcher.", "Your ammo is incompatible with your missile launcher.", "_t")
 t("You require a missile launcher and ammo for this talent.", "You require a missile launcher and ammo for this talent.", "_t")
-t("You do not have enough ammo left!", "You do not have enough ammo left!", "logPlayer")
 --]==]
 
 
@@ -36502,8 +36501,8 @@ t("#Target# cover of leaves falls apart.", "La couverture de feuilles de #Target
 t("-Leaves Cover", "-Couverture de Feuilles", "_t")
 t("Parrying", "Parade", "_t")
 t("Parrying melee attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).", "Parer les attaques au corps à corps: a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques.", "tformat")
-t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit.", "Parer les attaques au corps à corps de %s: a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques. Les attaques parées ne peuvent pas infliger de coup critique.", "tformat")
-t(" and ranged", " et à distance", "_t")
+t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit.", "Parer les attaques au corps à corps %s: a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques. Les attaques parées ne peuvent pas infliger de coup critique.", "tformat")
+t(" and ranged", "et à distance", "_t")
 t("Blocking", "Blocage", "_t")
 t("Reduces all damage taken by %d.", "Réduit tous les dégâts subis de %d.", "tformat")
 t("#CRIMSON##Source# heals from blocking with %s shield!", "#CRIMSON##Source# se soigne en bloquant avec le bouclier %s!", "delayedLogMessage")
@@ -41954,52 +41953,42 @@ t("%s", "%s", "logSeen")
 ------------------------------------------------
 section "mod-tome/mod/class/interface/Archery.lua"
 
-
--- texte non traduit
---[==[
-t("You need a missile launcher (%s)!", "You need a missile launcher (%s)!", "logPlayer")
-t("You do not have enough ammo left!", "You do not have enough ammo left!", "logPlayer")
-t("#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", "logPlayer")
-t("#ORCHID#Target out of range.  Hold <ctrl> to force all weapons to fire at targets out of ranges (%d - %d).", "#ORCHID#Target out of range.  Hold <ctrl> to force all weapons to fire at targets out of ranges (%d - %d).", "logPlayer")
-t("#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at targets beyond its range (%d).", "#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at targets beyond its range (%d).", "logPlayer")
-t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "logPlayer")
-t("%s(%d parried#LAST#)", "%s(%d parried#LAST#)", "tformat")
-t("#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "logCombat")
-t("#Source# misses #target#.", "#Source# misses #target#.", "logCombat")
-t("The siege arrow creates a shockwave!", "The siege arrow creates a shockwave!", "logSeen")
-t("You are disarmed!", "You are disarmed!", "logPlayer")
-t("You must wield a ranged weapon (%s)!", "You must wield a ranged weapon (%s)!", "logPlayer")
---]==]
-
+t("You need a missile launcher (%s)!", "Il vous faut un lanceur de projectiles (%s)!", "logPlayer")
+t("You do not have enough ammo left!", "Il ne vous reste plus assez de munitions!", "logPlayer")
+t("#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", "#ORCHID#Votre %s NE PEUT PAS TIRER (Ressource: %s%s#LAST#).", "logPlayer")
+t("#ORCHID#Target out of range.  Hold <ctrl> to force all weapons to fire at targets out of ranges (%d - %d).", "#ORCHID#Cible hors de portée. Maintenez <ctrl> enfoncé pour forcer toutes les armes à tirer sur les cibles hors de portée (%d - %d).", "logPlayer")
+t("#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at targets beyond its range (%d).", "#ORCHID#Cible hors de portée. Maintenez <ctrl> enfoncé pour forcer votre arme à tirer sur des cibles hors de portée (%d).", "logPlayer")
+t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#Vous ne POUVIEZ PAS TIRER sur votre %s (Ressource: %s%s#LAST#).", "logPlayer")
+t("%s(%d parried#LAST#)", "%s(%d parée#LAST#)", "tformat")
+t("#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "#{bold}##Source# effectue une frappe critique à distance contre #Target#!#{normal}#", "logCombat")
+t("#Source# misses #target#.", "#Source# manque #target#.", "logCombat")
+t("The siege arrow creates a shockwave!", "La flèche de siège crée une onde de choc!", "logSeen")
+t("You are disarmed!", "Vous êtes désarmé!", "logPlayer")
+t("You must wield a ranged weapon (%s)!", "Vous devez manier une arme à distance (%s)!", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/Combat.lua"
 
-
--- texte non traduit
---[==[
-t("%s is too afraid to attack.", "%s is too afraid to attack.", "logSeen")
-t("%s is too terrified to attack.", "%s is too terrified to attack.", "logSeen")
-t("#Target# notices you at the last moment!", "#Target# notices you at the last moment!", "logCombat")
-t("#ORCHID#%s cleverly deflects the attack with %s shield!#LAST#", "#ORCHID#%s cleverly deflects the attack with %s shield!#LAST#", "logSeen")
-t("#ORCHID#%s parries the attack with %s dual weapons!#LAST#", "#ORCHID#%s parries the attack with %s dual weapons!#LAST#", "logSeen")
-t("#ORCHID#%s instinctively hardens %s skin and ignores the attack!#LAST#", "#ORCHID#%s instinctively hardens %s skin and ignores the attack!#LAST#", "logSeen")
-t("#Target# repels an attack from #Source#.", "#Target# repels an attack from #Source#.", "logCombat")
-t("#Target# evades #Source#.", "#Target# evades #Source#.", "logCombat")
-t("%s(%d parried#LAST#)", "%s(%d parried#LAST#)", "tformat")
-t("%s(%d gestured#LAST#)", "%s(%d gestured#LAST#)", "tformat")
-t("#{bold}##Source# performs a melee critical strike against #Target#!#{normal}#", "#{bold}##Source# performs a melee critical strike against #Target#!#{normal}#", "logCombat")
-t("#Source# misses #Target#.", "#Source# misses #Target#.", "logCombat")
-t("The shattering blow creates a shockwave!", "The shattering blow creates a shockwave!", "logSeen")
-t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "logPlayer")
-t("#F53CBE#Your rampage is invigorated by your fierce attack! (+1 duration)", "#F53CBE#Your rampage is invigorated by your fierce attack! (+1 duration)", "logPlayer")
-t("#Source# counter attacks #Target# with %s shield shards!", "#Source# counter attacks #Target# with %s shield shards!", "logCombat")
-t("#{bold}#%s's spell attains critical power!#{normal}#", "#{bold}#%s's spell attains critical power!#{normal}#", "logSeen")
-t("#{bold}#%s's mind surges with critical power!#{normal}#", "#{bold}#%s's mind surges with critical power!#{normal}#", "logSeen")
-t("#Source#'s grapple fails because #Target# is too big!", "#Source#'s grapple fails because #Target# is too big!", "logCombat")
-t("%s resists the grapple!", "%s resists the grapple!", "logSeen")
---]==]
-
+t("%s is too afraid to attack.", "%s a trop peur pour attaquer.", "logSeen")
+t("%s is too terrified to attack.", "%s est trop terrifiée pour attaquer.", "logSeen")
+t("#Target# notices you at the last moment!", "#Target# vous remarque au dernier moment!", "logCombat")
+t("#ORCHID#%s cleverly deflects the attack with %s shield!#LAST#", "#ORCHID#%s dévie astucieusement l'attaque avec %s bouclier!#LAST#", "logSeen")
+t("#ORCHID#%s parries the attack with %s dual weapons!#LAST#", "#ORCHID#%s pare l'attaque avec %s armes double!#LAST#", "logSeen")
+t("#ORCHID#%s instinctively hardens %s skin and ignores the attack!#LAST#", "#ORCHID#%s durcit instinctivement %s peau et ignore l'attaque!#LAST#", "logSeen")
+t("#Target# repels an attack from #Source#.", "#Target# repousse une attaque de #Source#.", "logCombat")
+t("#Target# evades #Source#.", "#Target# esquive #Source#.", "logCombat")
+t("%s(%d parried#LAST#)", "%s(%d parée#LAST#)", "tformat")
+t("%s(%d gestured#LAST#)", "%s(%d gestes#LAST#)", "tformat")
+t("#{bold}##Source# performs a melee critical strike against #Target#!#{normal}#", "#{bold}##Source# effectue un coup critique au corps à corps contre #Target#!#{normal}#", "logCombat")
+t("#Source# misses #Target#.", "#Source# loupe #Target#.", "logCombat")
+t("The shattering blow creates a shockwave!", "Le coup violent crée une onde de choc!", "logSeen")
+t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#Vous prenez plaisir à attaquer un ennemi affaibli! (+%d haine)", "logPlayer")
+t("#F53CBE#Your rampage is invigorated by your fierce attack! (+1 duration)", "#F53CBE#Votre déchaînement est revigoré par votre attaque féroce! (+1 durée)", "logPlayer")
+t("#Source# counter attacks #Target# with %s shield shards!", "#Source# contre-attaque #Target# avec %s fragments de bouclier!", "logCombat")
+t("#{bold}#%s's spell attains critical power!#{normal}#", "#{bold}#Le sort de %s atteint une puissance critique!#{normal}#", "logSeen")
+t("#{bold}#%s's mind surges with critical power!#{normal}#", "#{bold}#L'esprit de %s déborde d'une puissance critique!#{normal}#", "logSeen")
+t("#Source#'s grapple fails because #Target# is too big!", "La prise de #Source# échoue car #Target# est trop grand!", "logCombat")
+t("%s resists the grapple!", "%s résiste à la prise!", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PartyDeath.lua"
@@ -42009,23 +41998,20 @@ t("her", "sa", "_t")
 t("him", "lui", "_t")
 t("herself", "elle-même", "_t")
 t("himself", "lui-même", "_t")
+t(" (the fool)", " (l'idiot)", "_t")
+t(" in an act of extreme incompetence", " dans un acte d'incompétence extrême", "_t")
+t(" out of supreme humility", " par une humilité suprême", "_t")
+t(", by accident of course,", ", par accident bien sûr,", "_t")
+t(" in some sort of fetish experiment gone wrong", " dans une sorte d'expérience fétichiste qui a mal tourné", "_t")
+t(", providing a free meal to the wildlife", ", offrant un repas gratuit à la faune sauvage", "_t")
+t(" (how embarrassing)", " (Quelle honte!)", "_t")
 t("battered", "malmené", "_t")
--- texte non traduit
---[==[
-t(" (the fool)", " (the fool)", "_t")
-t(" in an act of extreme incompetence", " in an act of extreme incompetence", "_t")
-t(" out of supreme humility", " out of supreme humility", "_t")
-t(", by accident of course,", ", by accident of course,", "_t")
-t(" in some sort of fetish experiment gone wrong", " in some sort of fetish experiment gone wrong", "_t")
-t(", providing a free meal to the wildlife", ", providing a free meal to the wildlife", "_t")
-t(" (how embarrassing)", " (how embarrassing)", "_t")
-t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "tformat")
-t(" (yet again)", " (yet again)", "_t")
-t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) was %s to death by %s%s on %s %s.", "tformat")
-t("%s the level %d %s %s %s on level %s of %s.", "%s the level %d %s %s %s on level %s of %s.", "tformat")
-t("%s(%d %s %s) %s on %s %s.", "%s(%d %s %s) %s on %s %s.", "tformat")
+t(" (yet again)", " (encore une fois)", "_t")
+t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) a été %s à mort par %s%s sur %s %s.", "tformat")
+t("%s the level %d %s %s %s on level %s of %s.", "%s le niveau %d %s %s %s dans le niveau %s de %s.", "tformat")
+t("%s(%d %s %s) %s on %s %s.", "%s(%d %s %s) %s sur %s %s.", "tformat")
+t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s le niveau %d %s %s a été %s à mort par %s%s%s dans le niveau %s de %s.", "tformat")
 t("#{bold}#", "#{bold}#", "_t")
---]==]
 
 -- ancien texte traduit
 t("unknown", "inconnu", "_t")
@@ -42033,13 +42019,8 @@ t("unknown", "inconnu", "_t")
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PartyIngredients.lua"
 
-
--- texte non traduit
---[==[
-t("You collect a new ingredient: #LIGHT_GREEN#%s%s#WHITE#.", "You collect a new ingredient: #LIGHT_GREEN#%s%s#WHITE#.", "log")
-t("You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "log")
---]==]
-
+t("You collect a new ingredient: #LIGHT_GREEN#%s%s#WHITE#.", "Vous collectez un nouvel ingrédient: #LIGHT_GREEN#%s%s#WHITE#.", "log")
+t("You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "Vous collectez un nouvel ingrédient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PartyLore.lua"
