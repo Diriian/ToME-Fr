@@ -133,7 +133,10 @@ t("fire haven", "fire haven", "_t")
 ------------------------------------------------
 section "tome-ashes-urhrok/data/general/grids/demon_statues.lua"
 
+t("Draebor, the Imp", "Draebor, le Diablotin", "_t")
+t("Khulmanar, General of Urh'Rok", "Khulmanar, Général d'Urh'Rok", "_t")
 t("floor", "sol", "entity type")
+t("lava", "lave", "entity subtype")
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
 -- texte non traduit
@@ -143,11 +146,9 @@ t("a champion of Urh'Rok", "a champion of Urh'Rok", "_t")
 t("the Corrupted Daelach", "the Corrupted Daelach", "_t")
 t("a daelach", "a daelach", "_t")
 t("a dolleg", "a dolleg", "_t")
-t("Draebor, the Imp", "Draebor, the Imp", "_t")
 t("a dúathedlen", "a dúathedlen", "_t")
 t("a fire imp", "a fire imp", "_t")
 t("a forge giant", "a forge giant", "_t")
-t("Khulmanar, General of Urh'Rok", "Khulmanar, General of Urh'Rok", "_t")
 t("Kryl-Feijan", "Kryl-Feijan", "_t")
 t("Lithfengel", "Lithfengel", "_t")
 t("an onilug", "an onilug", "_t")
@@ -161,7 +162,6 @@ t("a wretchling", "a wretchling", "_t")
 t("a wretch titan", "a wretch titan", "_t")
 t("a ruin banshee", "a ruin banshee", "_t")
 t("Harkor'Zun", "Harkor'Zun", "_t")
-t("lava", "lava", "entity subtype")
 t("statue of %s", "statue of %s", "tformat")
 t("Demon Statue of %s", "Demon Statue of %s", "tformat")
 t("Do you #{strong}#really#{normal}# want to touch that?", "Do you #{strong}#really#{normal}# want to touch that?", "_t")
@@ -173,10 +173,10 @@ t("#CRIMSON#The %s glows ominously.", "#CRIMSON#The %s glows ominously.", "log")
 section "tome-ashes-urhrok/data/general/npcs/aquatic-demon.lua"
 
 t("demon", "démon", "entity type")
+t("major", "majeur", "entity subtype")
 -- texte non traduit
 --[==[
 t("Walrog", "Walrog", "entity name")
-t("major", "major", "entity subtype")
 t("Walrog, the lord of Water, is #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "Walrog, the lord of Water, is #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "_t")
 --]==]
 
@@ -185,9 +185,9 @@ t("Walrog, the lord of Water, is #AQUAMARINE#fearsome#LAST# to behold. The water
 section "tome-ashes-urhrok/data/general/npcs/major-demon.lua"
 
 t("demon", "démon", "entity type")
+t("major", "majeur", "entity subtype")
 -- texte non traduit
 --[==[
-t("major", "major", "entity subtype")
 t("wretch titan", "wretch titan", "entity name")
 t("Many an adventurer has encounted the wretchling. Terrible things, wretchlings. Swarming, gnashing, burning. What those adventurers don't know is that those are just the children.", "Many an adventurer has encounted the wretchling. Terrible things, wretchlings. Swarming, gnashing, burning. What those adventurers don't know is that those are just the children.", "_t")
 --]==]
@@ -196,7 +196,9 @@ t("Many an adventurer has encounted the wretchling. Terrible things, wretchlings
 ------------------------------------------------
 section "tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
 
+t("darkness infused staff", "bâton infusé d'obscurité", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
+t("obsidian ring", "anneau d'obsidienne", "_t")
 -- texte non traduit
 --[==[
 t("Blackfire Aegis", "Blackfire Aegis", "entity name")
@@ -212,7 +214,6 @@ t("cloak shaped flames", "cloak shaped flames", "_t")
 t("Black fires born of a blackened heart.", "Black fires born of a blackened heart.", "_t")
 t("All enemies in radius 2 take 20 fire damage each turn and healing you for 10% of the damage dealt.", "All enemies in radius 2 take 20 fire damage each turn and healing you for 10% of the damage dealt.", "_t")
 t("Plague-Fire Sceptre", "Plague-Fire Sceptre", "entity name")
-t("darkness infused staff", "darkness infused staff", "_t")
 t("The flames of Mal'Rok can be more stubborn than most. When they run out of fuel they have been known go out of their way to find more.", "The flames of Mal'Rok can be more stubborn than most. When they run out of fuel they have been known go out of their way to find more.", "_t")
 t("Plaguefire detonates when its victim dies, spreading to other enemies up to two times.", "Plaguefire detonates when its victim dies, spreading to other enemies up to two times.", "_t")
 t("fire a bolt of plaguefire, dealing damage over time based on your magic stat", "fire a bolt of plaguefire, dealing damage over time based on your magic stat", "_t")
@@ -267,7 +268,6 @@ t("pair of pitch black boots", "pair of pitch black boots", "_t")
 t("\"It's a treacherous road to the top of the world.\"", "\"It's a treacherous road to the top of the world.\"", "_t")
 t("Grants 2.5% movement speed for each point of Shadow Power.", "Grants 2.5% movement speed for each point of Shadow Power.", "_t")
 t("The Black Ring", "The Black Ring", "entity name")
-t("obsidian ring", "obsidian ring", "_t")
 t("\"An innocuous bauble. Until you look through the hole.\"", "\"An innocuous bauble. Until you look through the hole.\"", "_t")
 t("Grants spell-crit equal to half of your Shadow Power.", "Grants spell-crit equal to half of your Shadow Power.", "_t")
 t("The Black Plate", "The Black Plate", "entity name")
@@ -295,98 +295,6 @@ t("deal darkness damage equal to your 350%% of your spellpower to a target, and,
 ------------------------------------------------
 section "tome-ashes-urhrok/data/lore/demon.lua"
 
-
--- nouveau texte
---[==[
-t([[#{italic}#You clutch your head.  Entering this next floor, memories of your imprisonment flood back to you...#{normal}#
-
-"All right, bring in the next one," says the ruby-skinned leader.  A few small, green and black things mop up the pile of muck that used to be a dwarf, and you move to the front of the line and stand where he used to be.  On the other side of the room, another <?=_t(player.descriptor.subrace, "birth descriptor name")?> stands on an identical platform.  This is exciting - you've been specially chosen as a test subject!  You hope you help them find something effective AND agonizing, and look forward to the pain to come.  A green imp, a little more mutated and knobbly than the rest you've seen, stands on your side of the room and grins at you with anticipation;  on the other side, a more normal imp approaches your counterpart.  "Control group...  go."  The normal wretchling leaps on the <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s face, clutching it tight as a torrent of acid oozes from its skin, then lets go; the red imp looks at his melting flesh, jots down some notes, then mutters "and pain blocks off..."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s smile vanishes, and he clutches his face, then lets out a howling scream, collapses, and begins writhing on the floor.  The red imp looks down again, gives a bored sigh, and takes some more notes.  "That's enough, pain blocks on, patch him up."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?> stops moving, stands up, and smiles again, the acid continuing to eat away at his flesh until a pipe in the floor douses him with some sort of chemical.  Another red imp mutters something and waves his hands before taking his hand and leading him off, and you see his horrible wounds gradually healing.
-
-"Experimental group...  go."  With speed you can't even process until it's already on you, the mutant wretchling leaps onto your face.  You feel no pain as its acid leaks over your torso, although you do feel an odd sensation of your skin layers beginning to dissolve.  The imp leaps off again; apparently it missed your eyes, because you can see the red imp looking somewhat disappointed.  "Structural damage subpar...  okay, pain blocks off."  You know you're not supposed to scream during this next part.
-
-You scream.  You scream harder than you have in your life, to the point where you think you might be tearing your vocal cords apart.  The pain is stronger not just than any pain you've ever felt, but any sensation you've ever felt.  You fall to the ground and claw at your skin, tearing off bits of it as you try to get the acid off.  You struggle and flail, instinctively grabbing at anything that could help you even though you know there's nothing in reach that could.
-
-"All right, nice!  Pain blocks on!"  And just like that, the pain vanishes; your skin still bubbles, but that horrible pain is gone, and even your throat isn't sore.  "Clean him and patch him up.  Pain-amplifying qualities...  significant improvement...  recommend breeding with low-pain high-corrosion specimens."  A shower of unidentifiable goo washes over you, and your skin stops bubbling; your handler takes your arm and leads you away, muttering a healing spell under his breath, and your scars slowly start to fade into smooth skin once again.  You hope they aren't too harsh on you for screaming, but the way that imp spoke...  you must've helped them learn something!  You grin from ear to ear as you leave the room, hearing the red imp yell "Next!" as the door closes behind you.
-
-#{italic}#You shudder.#{normal}#
-]], [[#{italic}#You clutch your head.  Entering this next floor, memories of your imprisonment flood back to you...#{normal}#
-
-"All right, bring in the next one," says the ruby-skinned leader.  A few small, green and black things mop up the pile of muck that used to be a dwarf, and you move to the front of the line and stand where he used to be.  On the other side of the room, another <?=_t(player.descriptor.subrace, "birth descriptor name")?> stands on an identical platform.  This is exciting - you've been specially chosen as a test subject!  You hope you help them find something effective AND agonizing, and look forward to the pain to come.  A green imp, a little more mutated and knobbly than the rest you've seen, stands on your side of the room and grins at you with anticipation;  on the other side, a more normal imp approaches your counterpart.  "Control group...  go."  The normal wretchling leaps on the <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s face, clutching it tight as a torrent of acid oozes from its skin, then lets go; the red imp looks at his melting flesh, jots down some notes, then mutters "and pain blocks off..."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s smile vanishes, and he clutches his face, then lets out a howling scream, collapses, and begins writhing on the floor.  The red imp looks down again, gives a bored sigh, and takes some more notes.  "That's enough, pain blocks on, patch him up."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?> stops moving, stands up, and smiles again, the acid continuing to eat away at his flesh until a pipe in the floor douses him with some sort of chemical.  Another red imp mutters something and waves his hands before taking his hand and leading him off, and you see his horrible wounds gradually healing.
-
-"Experimental group...  go."  With speed you can't even process until it's already on you, the mutant wretchling leaps onto your face.  You feel no pain as its acid leaks over your torso, although you do feel an odd sensation of your skin layers beginning to dissolve.  The imp leaps off again; apparently it missed your eyes, because you can see the red imp looking somewhat disappointed.  "Structural damage subpar...  okay, pain blocks off."  You know you're not supposed to scream during this next part.
-
-You scream.  You scream harder than you have in your life, to the point where you think you might be tearing your vocal cords apart.  The pain is stronger not just than any pain you've ever felt, but any sensation you've ever felt.  You fall to the ground and claw at your skin, tearing off bits of it as you try to get the acid off.  You struggle and flail, instinctively grabbing at anything that could help you even though you know there's nothing in reach that could.
-
-"All right, nice!  Pain blocks on!"  And just like that, the pain vanishes; your skin still bubbles, but that horrible pain is gone, and even your throat isn't sore.  "Clean him and patch him up.  Pain-amplifying qualities...  significant improvement...  recommend breeding with low-pain high-corrosion specimens."  A shower of unidentifiable goo washes over you, and your skin stops bubbling; your handler takes your arm and leads you away, muttering a healing spell under his breath, and your scars slowly start to fade into smooth skin once again.  You hope they aren't too harsh on you for screaming, but the way that imp spoke...  you must've helped them learn something!  You grin from ear to ear as you leave the room, hearing the red imp yell "Next!" as the door closes behind you.
-
-#{italic}#You shudder.#{normal}#
-]], "_t")
-t([[Engagement Briefing on <?=player.name?>:
-
-This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
-
-That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Having been exposed to our alteration magic, <?=player:he_she()?> is very formidable in direct melee combat, and in the event that we cannot procure proper warding against this magic before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause significant damage if not properly handled.  Under no circumstances should we let <?=player:him_her()?> run rampant in our back line; furthermore, if we simply try to lure <?=player:him_her()?> into a narrow corridor, we will not be able to bring enough firepower to bear before <?=player:he_she()?> can break through our obstructions.  Instead, use a small flanking squad backed up by a maulotaur (or whatever high-power direct combatant we can get authorization to deploy) to force <?=player:him_her()?> into an open area, where we'll have caster artillery, protected by a front-line of wretchlings backed by quasits.  We may lose these front-line soldiers, but in the time it takes <?=player:him_her()?> to slash <?=player:his_her()?> way through them, our spells should be able to reduce <?=player:him_her()?> to a flayed, quivering wreck.
-
-Above all else, remember: despite <?=player:his_her()?> brute strength, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-]], [[Engagement Briefing on <?=player.name?>:
-
-This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
-
-That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Having been exposed to our alteration magic, <?=player:he_she()?> is very formidable in direct melee combat, and in the event that we cannot procure proper warding against this magic before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause significant damage if not properly handled.  Under no circumstances should we let <?=player:him_her()?> run rampant in our back line; furthermore, if we simply try to lure <?=player:him_her()?> into a narrow corridor, we will not be able to bring enough firepower to bear before <?=player:he_she()?> can break through our obstructions.  Instead, use a small flanking squad backed up by a maulotaur (or whatever high-power direct combatant we can get authorization to deploy) to force <?=player:him_her()?> into an open area, where we'll have caster artillery, protected by a front-line of wretchlings backed by quasits.  We may lose these front-line soldiers, but in the time it takes <?=player:him_her()?> to slash <?=player:his_her()?> way through them, our spells should be able to reduce <?=player:him_her()?> to a flayed, quivering wreck.
-
-Above all else, remember: despite <?=player:his_her()?> brute strength, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-]], "_t")
-t([[Engagement Briefing on <?=player.name?>:
-
-This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
-
-That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  We've heard disturbing reports that some of our species have been spotted fighting alongside <?=player:him_her()?>; we can assume that <?=player:he_she()?> is using a twisted version of the Tablet's power to enslave some of our forces.  Much of <?=player:his_her()?> combat potential comes from these thralls, rather than <?=player:his_her()?> own abilities.  Accordingly, there are three things to keep in mind:
-
--Prioritize the Eyalite, rather than <?=player:his_her()?> thralls.  We do not yet have a concrete understanding of how <?=player:he_she()?> is controlling our allies, but it seems likely that the mental hold will break once <?=player:he_she()?>'s incapacitated; if <?=player:he_she()?> has managed to take control of a Champion of Urh'Rok or similarly powerful agent, we should focus our firepower on <?=player:him_her()?> instead.  That said, neutralizing <?=player:him_her()?> is more important than saving the time and effort of producing such a creature; in particular, don't worry about catching a few enthralled imps in the crossfire.  No matter what <?=player:he_she()?>'s using, we can make more of it.
-
--Be ready for anything.  We've never needed to plan out what to do against our own powers, and we have such a diverse set of species that <?=player:he_she()?> could throw all kinds of magic or martial prowess against us.  This might sound hopeless, but remember: you've seen all this in action before, these powers being used alongside yours in training and in combat.  Whatever you've seen your comrades do, expect to see it from <?=player:him_her()?>.
-
--Do not assume that the onslaught will stop if all of <?=player:his_her()?> thralls are dead.  <?=player:he_she():capitalize()?> has managed to directly imbue <?=player:his_her_self()?> with some of our magic, and may be capable of using our fireballs, acidic bursts, and so forth.  Silencing magic will be helpful here, as will spells that can drain <?=player:his_her()?> energy; furthermore, ripping away <?=player:his_her()?> shield will make <?=player:him_her()?> especially vulnerable to our claws and axes.
-
-Above all else, remember: despite <?=player:his_her()?> enthralled minions, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-]], [[Engagement Briefing on <?=player.name?>:
-
-This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
-
-That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  We've heard disturbing reports that some of our species have been spotted fighting alongside <?=player:him_her()?>; we can assume that <?=player:he_she()?> is using a twisted version of the Tablet's power to enslave some of our forces.  Much of <?=player:his_her()?> combat potential comes from these thralls, rather than <?=player:his_her()?> own abilities.  Accordingly, there are three things to keep in mind:
-
--Prioritize the Eyalite, rather than <?=player:his_her()?> thralls.  We do not yet have a concrete understanding of how <?=player:he_she()?> is controlling our allies, but it seems likely that the mental hold will break once <?=player:he_she()?>'s incapacitated; if <?=player:he_she()?> has managed to take control of a Champion of Urh'Rok or similarly powerful agent, we should focus our firepower on <?=player:him_her()?> instead.  That said, neutralizing <?=player:him_her()?> is more important than saving the time and effort of producing such a creature; in particular, don't worry about catching a few enthralled imps in the crossfire.  No matter what <?=player:he_she()?>'s using, we can make more of it.
-
--Be ready for anything.  We've never needed to plan out what to do against our own powers, and we have such a diverse set of species that <?=player:he_she()?> could throw all kinds of magic or martial prowess against us.  This might sound hopeless, but remember: you've seen all this in action before, these powers being used alongside yours in training and in combat.  Whatever you've seen your comrades do, expect to see it from <?=player:him_her()?>.
-
--Do not assume that the onslaught will stop if all of <?=player:his_her()?> thralls are dead.  <?=player:he_she():capitalize()?> has managed to directly imbue <?=player:his_her_self()?> with some of our magic, and may be capable of using our fireballs, acidic bursts, and so forth.  Silencing magic will be helpful here, as will spells that can drain <?=player:his_her()?> energy; furthermore, ripping away <?=player:his_her()?> shield will make <?=player:him_her()?> especially vulnerable to our claws and axes.
-
-Above all else, remember: despite <?=player:his_her()?> enthralled minions, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-]], "_t")
-t([[Engagement Briefing on <?=player.name?>:
-
-This slippery little elf has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
-
-That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Our standard alterations have synergized with this Shalore's natural reactive magic, giving <?=player:him_her()?> short-range teleportation to rival Draebor and creating a frustratingly evasive target to hit.  Even <?=player:his_her()?> internal organs are affected, and will slide out of the way in anticipation of a blow that would strike an otherwise-vital area.  Compared to standard Shalore, <?=player:he_she()?> cannot directly turn invisible, but seems to have adopted a form of dúathedlen magic to remain out of sight all the same; if the requisition order for light-based wards goes through, this and the blasts of darkness this form grants should both be a non-issue.  Finally, use of more advanced combat maneuvers will be somewhat impeded by <?=player:his_her()?> ability to interfere with our concentration, and the resilience alterations we gave <?=player:him_her()?> will make <?=player:him_her()?> shrug off poisons, flames, and the like much quicker than usual.
-
-What does all this mean?  Just get <?=player:him_her()?> wounded, wait for <?=player:him_her()?> to try to teleport away, then get <?=player:him_her()?> in a corner and beat <?=player:him_her()?> until <?=player:he_she()?> stops moving.  It's really that simple.  Just work that into our standard methods of dealing with <?=string.a_an(_t(player.descriptor.subclass, "birth descriptor name"):lower())?>, remember not to break ranks if <?=player:he_she()?> vanishes into darkness, and we'll have this mess cleaned up in no time.
-
-Above all else, remember: despite <?=player:his_her()?> enhancements, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-
-]], [[Engagement Briefing on <?=player.name?>:
-
-This slippery little elf has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
-
-That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Our standard alterations have synergized with this Shalore's natural reactive magic, giving <?=player:him_her()?> short-range teleportation to rival Draebor and creating a frustratingly evasive target to hit.  Even <?=player:his_her()?> internal organs are affected, and will slide out of the way in anticipation of a blow that would strike an otherwise-vital area.  Compared to standard Shalore, <?=player:he_she()?> cannot directly turn invisible, but seems to have adopted a form of dúathedlen magic to remain out of sight all the same; if the requisition order for light-based wards goes through, this and the blasts of darkness this form grants should both be a non-issue.  Finally, use of more advanced combat maneuvers will be somewhat impeded by <?=player:his_her()?> ability to interfere with our concentration, and the resilience alterations we gave <?=player:him_her()?> will make <?=player:him_her()?> shrug off poisons, flames, and the like much quicker than usual.
-
-What does all this mean?  Just get <?=player:him_her()?> wounded, wait for <?=player:him_her()?> to try to teleport away, then get <?=player:him_her()?> in a corner and beat <?=player:him_her()?> until <?=player:he_she()?> stops moving.  It's really that simple.  Just work that into our standard methods of dealing with <?=string.a_an(_t(player.descriptor.subclass, "birth descriptor name"):lower())?>, remember not to break ranks if <?=player:he_she()?> vanishes into darkness, and we'll have this mess cleaned up in no time.
-
-Above all else, remember: despite <?=player:his_her()?> enhancements, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-
-]], "_t")
-t("If the Wretchling speaks to our worship, the Fire Imp speaks to our commitment and loyalty.  When a child of ruby goes out onto the battlefield, she fuses some of the Eyal-scarred earth from our planet to her hands, having perfected a type of magic that uses the raging magic contained within to blast our foes with the fires they've caused.  Aside from this means of appropriate justice being pleasing to Urh'Rok (as he showed when dealing with the dust-mages), it shows how dedicated we are to our cause: without hands, there's very little a Fire Imp would be able to do if she deserted or became demoralized.  Fighting and destroying is what we live for, and what better way to show it than making oneself unable to do anything but fight and destroy?  Although the bulk of the ruby species do not pursue this path, instead focusing on magical research and furthering our alteration projects, the example that the Fire Imp sets is a shining standard of commitment for all of Urh'Rok's children.", "If the Wretchling speaks to our worship, the Fire Imp speaks to our commitment and loyalty.  When a child of ruby goes out onto the battlefield, she fuses some of the Eyal-scarred earth from our planet to her hands, having perfected a type of magic that uses the raging magic contained within to blast our foes with the fires they've caused.  Aside from this means of appropriate justice being pleasing to Urh'Rok (as he showed when dealing with the dust-mages), it shows how dedicated we are to our cause: without hands, there's very little a Fire Imp would be able to do if she deserted or became demoralized.  Fighting and destroying is what we live for, and what better way to show it than making oneself unable to do anything but fight and destroy?  Although the bulk of the ruby species do not pursue this path, instead focusing on magical research and furthering our alteration projects, the example that the Fire Imp sets is a shining standard of commitment for all of Urh'Rok's children.", "_t")
-t("Any one of us who's read up on our history will remember the story of the wicked dust-mages, tormenting us with sentient storms from the safety of their hidden cities.  Although we were tempted at the time to erase all vestiges of their knowledge and culture like they did to us, we knew their magic could come in handy someday, and when their cities lay in ruin, we plundered their libraries for their writings, then dutifully copied down the practical details from these while stripping out the rest.  Once the portals were unleashed on us, the children of ruby (after some controversy) managed to use their old spells to create a new kind of storm, one of swirling flames and coals rather than dust and sand.  Obedient and cheap (if hazardous) to make, these living spells will torment and raze Eyal with their fiery onslaught, like their predecessors once did to Mal'Rok.", "Any one of us who's read up on our history will remember the story of the wicked dust-mages, tormenting us with sentient storms from the safety of their hidden cities.  Although we were tempted at the time to erase all vestiges of their knowledge and culture like they did to us, we knew their magic could come in handy someday, and when their cities lay in ruin, we plundered their libraries for their writings, then dutifully copied down the practical details from these while stripping out the rest.  Once the portals were unleashed on us, the children of ruby (after some controversy) managed to use their old spells to create a new kind of storm, one of swirling flames and coals rather than dust and sand.  Obedient and cheap (if hazardous) to make, these living spells will torment and raze Eyal with their fiery onslaught, like their predecessors once did to Mal'Rok.", "_t")
---]==]
 
 -- texte non traduit
 --[==[
@@ -508,6 +416,29 @@ We have taken his words to heart. Our mages have devised new magic from old insp
 Once this continent arrives, we shall take revenge on Eyal. Not just for our own sakes, our planet ravaged by their treachery, with a pristine one waiting as our prize. Not just for our Father's sake, condemned to an eternity of suffering for trusting his children too much. But for *everyone's* sake, the untold trillions of souls on planets less fortunate than ours, torn apart in a fiery instant. The Sher'Tul shall never hurt anyone again; we shall make sure of it by cleansing Eyal in blighted fire, and any survivors will be taken back to our planet and chained to the burning earth, kept alive so they can forever feel the flames they created consuming their flesh. Their eternal torture will still not be justice, as they shall feel only a tiny portion of the suffering they inflicted... but it's a start.
 ]], "_t")
 t("Lost Memories (1)", "Lost Memories (1)", "_t")
+t([[#{italic}#You clutch your head.  Entering this next floor, memories of your imprisonment flood back to you...#{normal}#
+
+"All right, bring in the next one," says the ruby-skinned leader.  A few small, green and black things mop up the pile of muck that used to be a dwarf, and you move to the front of the line and stand where he used to be.  On the other side of the room, another <?=_t(player.descriptor.subrace, "birth descriptor name")?> stands on an identical platform.  This is exciting - you've been specially chosen as a test subject!  You hope you help them find something effective AND agonizing, and look forward to the pain to come.  A green imp, a little more mutated and knobbly than the rest you've seen, stands on your side of the room and grins at you with anticipation;  on the other side, a more normal imp approaches your counterpart.  "Control group...  go."  The normal wretchling leaps on the <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s face, clutching it tight as a torrent of acid oozes from its skin, then lets go; the red imp looks at his melting flesh, jots down some notes, then mutters "and pain blocks off..."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s smile vanishes, and he clutches his face, then lets out a howling scream, collapses, and begins writhing on the floor.  The red imp looks down again, gives a bored sigh, and takes some more notes.  "That's enough, pain blocks on, patch him up."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?> stops moving, stands up, and smiles again, the acid continuing to eat away at his flesh until a pipe in the floor douses him with some sort of chemical.  Another red imp mutters something and waves his hands before taking his hand and leading him off, and you see his horrible wounds gradually healing.
+
+"Experimental group...  go."  With speed you can't even process until it's already on you, the mutant wretchling leaps onto your face.  You feel no pain as its acid leaks over your torso, although you do feel an odd sensation of your skin layers beginning to dissolve.  The imp leaps off again; apparently it missed your eyes, because you can see the red imp looking somewhat disappointed.  "Structural damage subpar...  okay, pain blocks off."  You know you're not supposed to scream during this next part.
+
+You scream.  You scream harder than you have in your life, to the point where you think you might be tearing your vocal cords apart.  The pain is stronger not just than any pain you've ever felt, but any sensation you've ever felt.  You fall to the ground and claw at your skin, tearing off bits of it as you try to get the acid off.  You struggle and flail, instinctively grabbing at anything that could help you even though you know there's nothing in reach that could.
+
+"All right, nice!  Pain blocks on!"  And just like that, the pain vanishes; your skin still bubbles, but that horrible pain is gone, and even your throat isn't sore.  "Clean him and patch him up.  Pain-amplifying qualities...  significant improvement...  recommend breeding with low-pain high-corrosion specimens."  A shower of unidentifiable goo washes over you, and your skin stops bubbling; your handler takes your arm and leads you away, muttering a healing spell under his breath, and your scars slowly start to fade into smooth skin once again.  You hope they aren't too harsh on you for screaming, but the way that imp spoke...  you must've helped them learn something!  You grin from ear to ear as you leave the room, hearing the red imp yell "Next!" as the door closes behind you.
+
+#{italic}#You shudder.#{normal}#
+]], [[#{italic}#You clutch your head.  Entering this next floor, memories of your imprisonment flood back to you...#{normal}#
+
+"All right, bring in the next one," says the ruby-skinned leader.  A few small, green and black things mop up the pile of muck that used to be a dwarf, and you move to the front of the line and stand where he used to be.  On the other side of the room, another <?=_t(player.descriptor.subrace, "birth descriptor name")?> stands on an identical platform.  This is exciting - you've been specially chosen as a test subject!  You hope you help them find something effective AND agonizing, and look forward to the pain to come.  A green imp, a little more mutated and knobbly than the rest you've seen, stands on your side of the room and grins at you with anticipation;  on the other side, a more normal imp approaches your counterpart.  "Control group...  go."  The normal wretchling leaps on the <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s face, clutching it tight as a torrent of acid oozes from its skin, then lets go; the red imp looks at his melting flesh, jots down some notes, then mutters "and pain blocks off..."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s smile vanishes, and he clutches his face, then lets out a howling scream, collapses, and begins writhing on the floor.  The red imp looks down again, gives a bored sigh, and takes some more notes.  "That's enough, pain blocks on, patch him up."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?> stops moving, stands up, and smiles again, the acid continuing to eat away at his flesh until a pipe in the floor douses him with some sort of chemical.  Another red imp mutters something and waves his hands before taking his hand and leading him off, and you see his horrible wounds gradually healing.
+
+"Experimental group...  go."  With speed you can't even process until it's already on you, the mutant wretchling leaps onto your face.  You feel no pain as its acid leaks over your torso, although you do feel an odd sensation of your skin layers beginning to dissolve.  The imp leaps off again; apparently it missed your eyes, because you can see the red imp looking somewhat disappointed.  "Structural damage subpar...  okay, pain blocks off."  You know you're not supposed to scream during this next part.
+
+You scream.  You scream harder than you have in your life, to the point where you think you might be tearing your vocal cords apart.  The pain is stronger not just than any pain you've ever felt, but any sensation you've ever felt.  You fall to the ground and claw at your skin, tearing off bits of it as you try to get the acid off.  You struggle and flail, instinctively grabbing at anything that could help you even though you know there's nothing in reach that could.
+
+"All right, nice!  Pain blocks on!"  And just like that, the pain vanishes; your skin still bubbles, but that horrible pain is gone, and even your throat isn't sore.  "Clean him and patch him up.  Pain-amplifying qualities...  significant improvement...  recommend breeding with low-pain high-corrosion specimens."  A shower of unidentifiable goo washes over you, and your skin stops bubbling; your handler takes your arm and leads you away, muttering a healing spell under his breath, and your scars slowly start to fade into smooth skin once again.  You hope they aren't too harsh on you for screaming, but the way that imp spoke...  you must've helped them learn something!  You grin from ear to ear as you leave the room, hearing the red imp yell "Next!" as the door closes behind you.
+
+#{italic}#You shudder.#{normal}#
+]], "_t")
 t("Lost Memories (2)", "Lost Memories (2)", "_t")
 t([[#{italic}#More memories rush into your mind...#{normal}#
 
@@ -519,8 +450,71 @@ That crystal.  That crystal is how they're keeping track of you, and it has most
 
 That crystal.  That crystal is how they're keeping track of you, and it has most of what you helped them discover trapped within it.  If you break it, you'll be able to escape their notice for the first time since you arrived here, allowing you to get away without them finding you again, and as an added bonus you'll undo most of what you helped them accomplish.  You need to destroy it, then flee for your life!]], "_t")
 t("orbital base: battle plan (doombringer)", "orbital base: battle plan (doombringer)", "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Having been exposed to our alteration magic, <?=player:he_she()?> is very formidable in direct melee combat, and in the event that we cannot procure proper warding against this magic before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause significant damage if not properly handled.  Under no circumstances should we let <?=player:him_her()?> run rampant in our back line; furthermore, if we simply try to lure <?=player:him_her()?> into a narrow corridor, we will not be able to bring enough firepower to bear before <?=player:he_she()?> can break through our obstructions.  Instead, use a small flanking squad backed up by a maulotaur (or whatever high-power direct combatant we can get authorization to deploy) to force <?=player:him_her()?> into an open area, where we'll have caster artillery, protected by a front-line of wretchlings backed by quasits.  We may lose these front-line soldiers, but in the time it takes <?=player:him_her()?> to slash <?=player:his_her()?> way through them, our spells should be able to reduce <?=player:him_her()?> to a flayed, quivering wreck.
+
+Above all else, remember: despite <?=player:his_her()?> brute strength, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+]], [[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Having been exposed to our alteration magic, <?=player:he_she()?> is very formidable in direct melee combat, and in the event that we cannot procure proper warding against this magic before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause significant damage if not properly handled.  Under no circumstances should we let <?=player:him_her()?> run rampant in our back line; furthermore, if we simply try to lure <?=player:him_her()?> into a narrow corridor, we will not be able to bring enough firepower to bear before <?=player:he_she()?> can break through our obstructions.  Instead, use a small flanking squad backed up by a maulotaur (or whatever high-power direct combatant we can get authorization to deploy) to force <?=player:him_her()?> into an open area, where we'll have caster artillery, protected by a front-line of wretchlings backed by quasits.  We may lose these front-line soldiers, but in the time it takes <?=player:him_her()?> to slash <?=player:his_her()?> way through them, our spells should be able to reduce <?=player:him_her()?> to a flayed, quivering wreck.
+
+Above all else, remember: despite <?=player:his_her()?> brute strength, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+]], "_t")
 t("orbital base: battle plan (demonologist)", "orbital base: battle plan (demonologist)", "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  We've heard disturbing reports that some of our species have been spotted fighting alongside <?=player:him_her()?>; we can assume that <?=player:he_she()?> is using a twisted version of the Tablet's power to enslave some of our forces.  Much of <?=player:his_her()?> combat potential comes from these thralls, rather than <?=player:his_her()?> own abilities.  Accordingly, there are three things to keep in mind:
+
+-Prioritize the Eyalite, rather than <?=player:his_her()?> thralls.  We do not yet have a concrete understanding of how <?=player:he_she()?> is controlling our allies, but it seems likely that the mental hold will break once <?=player:he_she()?>'s incapacitated; if <?=player:he_she()?> has managed to take control of a Champion of Urh'Rok or similarly powerful agent, we should focus our firepower on <?=player:him_her()?> instead.  That said, neutralizing <?=player:him_her()?> is more important than saving the time and effort of producing such a creature; in particular, don't worry about catching a few enthralled imps in the crossfire.  No matter what <?=player:he_she()?>'s using, we can make more of it.
+
+-Be ready for anything.  We've never needed to plan out what to do against our own powers, and we have such a diverse set of species that <?=player:he_she()?> could throw all kinds of magic or martial prowess against us.  This might sound hopeless, but remember: you've seen all this in action before, these powers being used alongside yours in training and in combat.  Whatever you've seen your comrades do, expect to see it from <?=player:him_her()?>.
+
+-Do not assume that the onslaught will stop if all of <?=player:his_her()?> thralls are dead.  <?=player:he_she():capitalize()?> has managed to directly imbue <?=player:his_her_self()?> with some of our magic, and may be capable of using our fireballs, acidic bursts, and so forth.  Silencing magic will be helpful here, as will spells that can drain <?=player:his_her()?> energy; furthermore, ripping away <?=player:his_her()?> shield will make <?=player:him_her()?> especially vulnerable to our claws and axes.
+
+Above all else, remember: despite <?=player:his_her()?> enthralled minions, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+]], [[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  We've heard disturbing reports that some of our species have been spotted fighting alongside <?=player:him_her()?>; we can assume that <?=player:he_she()?> is using a twisted version of the Tablet's power to enslave some of our forces.  Much of <?=player:his_her()?> combat potential comes from these thralls, rather than <?=player:his_her()?> own abilities.  Accordingly, there are three things to keep in mind:
+
+-Prioritize the Eyalite, rather than <?=player:his_her()?> thralls.  We do not yet have a concrete understanding of how <?=player:he_she()?> is controlling our allies, but it seems likely that the mental hold will break once <?=player:he_she()?>'s incapacitated; if <?=player:he_she()?> has managed to take control of a Champion of Urh'Rok or similarly powerful agent, we should focus our firepower on <?=player:him_her()?> instead.  That said, neutralizing <?=player:him_her()?> is more important than saving the time and effort of producing such a creature; in particular, don't worry about catching a few enthralled imps in the crossfire.  No matter what <?=player:he_she()?>'s using, we can make more of it.
+
+-Be ready for anything.  We've never needed to plan out what to do against our own powers, and we have such a diverse set of species that <?=player:he_she()?> could throw all kinds of magic or martial prowess against us.  This might sound hopeless, but remember: you've seen all this in action before, these powers being used alongside yours in training and in combat.  Whatever you've seen your comrades do, expect to see it from <?=player:him_her()?>.
+
+-Do not assume that the onslaught will stop if all of <?=player:his_her()?> thralls are dead.  <?=player:he_she():capitalize()?> has managed to directly imbue <?=player:his_her_self()?> with some of our magic, and may be capable of using our fireballs, acidic bursts, and so forth.  Silencing magic will be helpful here, as will spells that can drain <?=player:his_her()?> energy; furthermore, ripping away <?=player:his_her()?> shield will make <?=player:him_her()?> especially vulnerable to our claws and axes.
+
+Above all else, remember: despite <?=player:his_her()?> enthralled minions, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+]], "_t")
 t("orbital base: battle plan (doomelf)", "orbital base: battle plan (doomelf)", "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little elf has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Our standard alterations have synergized with this Shalore's natural reactive magic, giving <?=player:him_her()?> short-range teleportation to rival Draebor and creating a frustratingly evasive target to hit.  Even <?=player:his_her()?> internal organs are affected, and will slide out of the way in anticipation of a blow that would strike an otherwise-vital area.  Compared to standard Shalore, <?=player:he_she()?> cannot directly turn invisible, but seems to have adopted a form of dúathedlen magic to remain out of sight all the same; if the requisition order for light-based wards goes through, this and the blasts of darkness this form grants should both be a non-issue.  Finally, use of more advanced combat maneuvers will be somewhat impeded by <?=player:his_her()?> ability to interfere with our concentration, and the resilience alterations we gave <?=player:him_her()?> will make <?=player:him_her()?> shrug off poisons, flames, and the like much quicker than usual.
+
+What does all this mean?  Just get <?=player:him_her()?> wounded, wait for <?=player:him_her()?> to try to teleport away, then get <?=player:him_her()?> in a corner and beat <?=player:him_her()?> until <?=player:he_she()?> stops moving.  It's really that simple.  Just work that into our standard methods of dealing with <?=string.a_an(_t(player.descriptor.subclass, "birth descriptor name"):lower())?>, remember not to break ranks if <?=player:he_she()?> vanishes into darkness, and we'll have this mess cleaned up in no time.
+
+Above all else, remember: despite <?=player:his_her()?> enhancements, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+
+]], [[Engagement Briefing on <?=player.name?>:
+
+This slippery little elf has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Our standard alterations have synergized with this Shalore's natural reactive magic, giving <?=player:him_her()?> short-range teleportation to rival Draebor and creating a frustratingly evasive target to hit.  Even <?=player:his_her()?> internal organs are affected, and will slide out of the way in anticipation of a blow that would strike an otherwise-vital area.  Compared to standard Shalore, <?=player:he_she()?> cannot directly turn invisible, but seems to have adopted a form of dúathedlen magic to remain out of sight all the same; if the requisition order for light-based wards goes through, this and the blasts of darkness this form grants should both be a non-issue.  Finally, use of more advanced combat maneuvers will be somewhat impeded by <?=player:his_her()?> ability to interfere with our concentration, and the resilience alterations we gave <?=player:him_her()?> will make <?=player:him_her()?> shrug off poisons, flames, and the like much quicker than usual.
+
+What does all this mean?  Just get <?=player:him_her()?> wounded, wait for <?=player:him_her()?> to try to teleport away, then get <?=player:him_her()?> in a corner and beat <?=player:him_her()?> until <?=player:he_she()?> stops moving.  It's really that simple.  Just work that into our standard methods of dealing with <?=string.a_an(_t(player.descriptor.subclass, "birth descriptor name"):lower())?>, remember not to break ranks if <?=player:he_she()?> vanishes into darkness, and we'll have this mess cleaned up in no time.
+
+Above all else, remember: despite <?=player:his_her()?> enhancements, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+
+]], "_t")
 t("orbital base: battle info", "orbital base: battle info", "_t")
 t([[#{italic}#This note is splattered with the blood of the demon who was carrying it.#{normal}#
 
@@ -563,6 +557,7 @@ t("sixth mural painting", "sixth mural painting", "_t")
 t("demon statue: wretchling", "demon statue: wretchling", "_t")
 t("Behold, the humble wretchling, a testament to our devotion to our Father!  These children of emerald were among the first to alter themselves for our quest for vengeance, and managed an astounding degree of success.  With their bursts of blinding speed, overwhelming numbers, and skin that can release prodigious amounts of corrosive fluid, wretchlings can storm onto the battlefield and pounce on our foes one-by-one, dissolving the ground they walk on while leaving them helpless against our onslaught.  Wretchlings will readily give their lives in combat, serving as obstructions and shields while their acid and our casters do their work, and still remain the most populous of our species thanks to their incredible birth rates.  It is rare to see a wretchling survive to maturity, but make no mistake - every wretchling that fights does an incredible service to our cause.", "Behold, the humble wretchling, a testament to our devotion to our Father!  These children of emerald were among the first to alter themselves for our quest for vengeance, and managed an astounding degree of success.  With their bursts of blinding speed, overwhelming numbers, and skin that can release prodigious amounts of corrosive fluid, wretchlings can storm onto the battlefield and pounce on our foes one-by-one, dissolving the ground they walk on while leaving them helpless against our onslaught.  Wretchlings will readily give their lives in combat, serving as obstructions and shields while their acid and our casters do their work, and still remain the most populous of our species thanks to their incredible birth rates.  It is rare to see a wretchling survive to maturity, but make no mistake - every wretchling that fights does an incredible service to our cause.", "_t")
 t("demon statue: fire imp", "demon statue: fire imp", "_t")
+t("If the Wretchling speaks to our worship, the Fire Imp speaks to our commitment and loyalty.  When a child of ruby goes out onto the battlefield, she fuses some of the Eyal-scarred earth from our planet to her hands, having perfected a type of magic that uses the raging magic contained within to blast our foes with the fires they've caused.  Aside from this means of appropriate justice being pleasing to Urh'Rok (as he showed when dealing with the dust-mages), it shows how dedicated we are to our cause: without hands, there's very little a Fire Imp would be able to do if she deserted or became demoralized.  Fighting and destroying is what we live for, and what better way to show it than making oneself unable to do anything but fight and destroy?  Although the bulk of the ruby species do not pursue this path, instead focusing on magical research and furthering our alteration projects, the example that the Fire Imp sets is a shining standard of commitment for all of Urh'Rok's children.", "If the Wretchling speaks to our worship, the Fire Imp speaks to our commitment and loyalty.  When a child of ruby goes out onto the battlefield, she fuses some of the Eyal-scarred earth from our planet to her hands, having perfected a type of magic that uses the raging magic contained within to blast our foes with the fires they've caused.  Aside from this means of appropriate justice being pleasing to Urh'Rok (as he showed when dealing with the dust-mages), it shows how dedicated we are to our cause: without hands, there's very little a Fire Imp would be able to do if she deserted or became demoralized.  Fighting and destroying is what we live for, and what better way to show it than making oneself unable to do anything but fight and destroy?  Although the bulk of the ruby species do not pursue this path, instead focusing on magical research and furthering our alteration projects, the example that the Fire Imp sets is a shining standard of commitment for all of Urh'Rok's children.", "_t")
 t("demon statue: water imp", "demon statue: water imp", "_t")
 t("Though they retain use of their hands, this altered offshoot of the Fire Imp has made a much more powerful sacrifice: the ability to breathe air.  Most of the dominant species of Eyal reside above the water, making its oceans and lakes a prime location for carrying out covert operations, conducting experiments too dangerous to perform on our own soil, and preparing portals for a full-scale invasion.  As our scouts and servants beneath the seas, water imps forego the fire-slinging abilities shared by their brethren, instead focusing on ice-magic that is similarly effective underwater.  Like a wretchling, a Water Imp does not expect to live to see peacetime, and thus has no need to breathe above the surface.  Remember to pay tribute to the Water Imp whenever you can; since they do not fight alongside our land-based forces, it's all too easy to forget the selfless sacrifices they've made, and their enormous contributions in gathering intelligence and setting up remote bases.", "Though they retain use of their hands, this altered offshoot of the Fire Imp has made a much more powerful sacrifice: the ability to breathe air.  Most of the dominant species of Eyal reside above the water, making its oceans and lakes a prime location for carrying out covert operations, conducting experiments too dangerous to perform on our own soil, and preparing portals for a full-scale invasion.  As our scouts and servants beneath the seas, water imps forego the fire-slinging abilities shared by their brethren, instead focusing on ice-magic that is similarly effective underwater.  Like a wretchling, a Water Imp does not expect to live to see peacetime, and thus has no need to breathe above the surface.  Remember to pay tribute to the Water Imp whenever you can; since they do not fight alongside our land-based forces, it's all too easy to forget the selfless sacrifices they've made, and their enormous contributions in gathering intelligence and setting up remote bases.", "_t")
 t("demon statue: quasit", "demon statue: quasit", "_t")
@@ -592,6 +587,7 @@ t("A walking monument to times of prosperity, the dolleg was once a beast of bur
 t("demon statue: uruivellas", "demon statue: uruivellas", "_t")
 t("The minotaur is one of Eyal's more interesting creatures, and a good example of the devious designs the Sher'Tul had in mind while creating or altering Eyal's races.  Its instincts draw it toward narrow corridors, twisted passages, magical artifacts, and surges of magical energy, resulting in horned beast-men frequently blundering their way into our bases and encampments.  They also seem to soak up empowering magic very readily, and alter their forms accordingly - a typical minotaur is no match for our forces, but occasionally blight will mutate one into an extremely dangerous horror.  Said blighted forms are too unstable for use among our ranks, but with some effort by the children of emerald and ruby, we can give one the gifts of massively increased strength and the ability to unleash waves of flame on our enemies.  While we currently need to keep most of them enthralled to ensure their loyalty, we've recently begun breeding minotaurs on our continent so we can train them from birth to know our cause of righteous revenge - and already some wandering minotaurs accept our cause and our blessings willingly!  It seems the natives of Eyal are no kinder to their own brethren than they are to us.", "The minotaur is one of Eyal's more interesting creatures, and a good example of the devious designs the Sher'Tul had in mind while creating or altering Eyal's races.  Its instincts draw it toward narrow corridors, twisted passages, magical artifacts, and surges of magical energy, resulting in horned beast-men frequently blundering their way into our bases and encampments.  They also seem to soak up empowering magic very readily, and alter their forms accordingly - a typical minotaur is no match for our forces, but occasionally blight will mutate one into an extremely dangerous horror.  Said blighted forms are too unstable for use among our ranks, but with some effort by the children of emerald and ruby, we can give one the gifts of massively increased strength and the ability to unleash waves of flame on our enemies.  While we currently need to keep most of them enthralled to ensure their loyalty, we've recently begun breeding minotaurs on our continent so we can train them from birth to know our cause of righteous revenge - and already some wandering minotaurs accept our cause and our blessings willingly!  It seems the natives of Eyal are no kinder to their own brethren than they are to us.", "_t")
 t("demon statue: daelach", "demon statue: daelach", "_t")
+t("Any one of us who's read up on our history will remember the story of the wicked dust-mages, tormenting us with sentient storms from the safety of their hidden cities.  Although we were tempted at the time to erase all vestiges of their knowledge and culture like they did to us, we knew their magic could come in handy someday, and when their cities lay in ruin, we plundered their libraries for their writings, then dutifully copied down the practical details from these while stripping out the rest.  Once the portals were unleashed on us, the children of ruby (after some controversy) managed to use their old spells to create a new kind of storm, one of swirling flames and coals rather than dust and sand.  Obedient and cheap (if hazardous) to make, these living spells will torment and raze Eyal with their fiery onslaught, like their predecessors once did to Mal'Rok.", "Any one of us who's read up on our history will remember the story of the wicked dust-mages, tormenting us with sentient storms from the safety of their hidden cities.  Although we were tempted at the time to erase all vestiges of their knowledge and culture like they did to us, we knew their magic could come in handy someday, and when their cities lay in ruin, we plundered their libraries for their writings, then dutifully copied down the practical details from these while stripping out the rest.  Once the portals were unleashed on us, the children of ruby (after some controversy) managed to use their old spells to create a new kind of storm, one of swirling flames and coals rather than dust and sand.  Obedient and cheap (if hazardous) to make, these living spells will torment and raze Eyal with their fiery onslaught, like their predecessors once did to Mal'Rok.", "_t")
 t("demon statue: champion of Urh'Rok", "demon statue: champion of Urh'Rok", "_t")
 t("The Divine Tournament of Combat is the most straightforward of our competitions for the spectator, but those competing have a huge variety of possible divisions to enter.  Most are based on the maximum amount of energy consumed by their entrants since (and including) birth; others include those set in an open field for direct combat, or a difficult-to-navigate forest of pillars to properly evaluate those who use hit-and-run tactics or excel at setting up or detecting ambushes.  In the high-energy divisions, those competing are typically not born in the conventional manner, usually being constructs made by a team performing a collaborative effort.  The constructs we now call Champions of Urh'Rok have utterly devastated most of the high-energy open-field divisions, while performing adequately in the less-direct ones, making them a solid fit for production and deployment in the invasion.  Their development team has earned a place of honor for their ingenious methods of creating such incredible strength with a sustainable amount of energy-input, and once mass-production is in order, these gigantic creatures will become the backbone of our military.  Once they arrive on the surface, Eyal will experience a few fleeting moments of terror before their utter annihilation.", "The Divine Tournament of Combat is the most straightforward of our competitions for the spectator, but those competing have a huge variety of possible divisions to enter.  Most are based on the maximum amount of energy consumed by their entrants since (and including) birth; others include those set in an open field for direct combat, or a difficult-to-navigate forest of pillars to properly evaluate those who use hit-and-run tactics or excel at setting up or detecting ambushes.  In the high-energy divisions, those competing are typically not born in the conventional manner, usually being constructs made by a team performing a collaborative effort.  The constructs we now call Champions of Urh'Rok have utterly devastated most of the high-energy open-field divisions, while performing adequately in the less-direct ones, making them a solid fit for production and deployment in the invasion.  Their development team has earned a place of honor for their ingenious methods of creating such incredible strength with a sustainable amount of energy-input, and once mass-production is in order, these gigantic creatures will become the backbone of our military.  Once they arrive on the surface, Eyal will experience a few fleeting moments of terror before their utter annihilation.", "_t")
 t("demon statue: forge giant", "demon statue: forge giant", "_t")
@@ -780,19 +776,13 @@ t([[By gorging yourself on up to %d stacks of Bleak Outcome from a creature, you
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
 
-
--- nouveau texte
---[==[
-t("#CRIMSON#(%d reckless backlash)#LAST#", "#CRIMSON#(%d reckless backlash)#LAST#", "tformat")
---]==]
-
+t("%s resists the silence!", "%s resiste au silence!", "logSeen")
 -- texte non traduit
 --[==[
 t("Draining Assault", "Draining Assault", "talent name")
 t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
 t("Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "tformat")
 t("Fiery Grasp", "Fiery Grasp", "talent name")
-t("%s resists the silence!", "%s resists the silence!", "logSeen")
 t("%s resists the grasp!", "%s resists the grasp!", "logSeen")
 t([[Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns, while also taking %0.2f damage per turn.
 		Starting from talent level 4, it will also silence.
@@ -800,6 +790,7 @@ t([[Send out a claw of fire, striking in a line doing %0.2f damage leading to a 
 		Starting from talent level 4, it will also silence.
 		The beam damage and damage over time will increase with your Spellpower.]], "tformat")
 t("Reckless Strike", "Reckless Strike", "talent name")
+t("#CRIMSON#(%d reckless backlash)#LAST#", "#CRIMSON#(%d reckless backlash)#LAST#", "tformat")
 t("Hits the target doing %d%% weapon damage. This attack cannot miss, and ignores all armor and resistances on the target. However, you take damage equal to %d%% of the damage dealt, or 30%% of your current HP, whichever is lower.", "Hits the target doing %d%% weapon damage. This attack cannot miss, and ignores all armor and resistances on the target. However, you take damage equal to %d%% of the damage dealt, or 30%% of your current HP, whichever is lower.", "tformat")
 t("Share the Pain", "Share the Pain", "talent name")
 t([[You revel in the heat of battle. Whenever an enemy damages you within melee range, you have a %d%% chance to counter with an attack for %d%% weapon damage.
@@ -811,41 +802,36 @@ t([[You revel in the heat of battle. Whenever an enemy damages you within melee 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/corruptions.lua"
 
-
--- nouveau texte
---[==[
-t("demon seeds", "demon seeds", "talent type")
-t("demonic pact", "demonic pact", "talent type")
-t("infernal combat", "infernal combat", "talent type")
-t("doom shield", "doom shield", "talent type")
-t("black-magic", "black-magic", "talent type")
-t("doom covenant", "doom covenant", "talent type")
-t("spellblaze", "spellblaze", "talent type")
-t("brutality", "brutality", "talent type")
-t("torture", "torture", "talent type")
-t("wrath", "wrath", "talent type")
-t("Fearfire", "Fearfire", "talent type")
-t("Heart of Fire", "Heart of Fire", "talent type")
-t("demonic strength", "demonic strength", "talent type")
-t("Oppression", "Oppression", "talent type")
---]==]
-
+t("spellblaze", "brûlure magique", "talent type")
+t("wrath", "colère", "talent type")
 -- texte non traduit
 --[==[
 t("corruption", "corruption", "talent category")
+t("demon seeds", "demon seeds", "talent type")
 t("Demon seeds powers can not be learnt, they must be used from demon seeds attached to your equipment.", "Demon seeds powers can not be learnt, they must be used from demon seeds attached to your equipment.", "_t")
+t("demonic pact", "demonic pact", "talent type")
 t("Bind and use demons to do your bidding.", "Bind and use demons to do your bidding.", "_t")
+t("infernal combat", "infernal combat", "talent type")
 t("Imbue your melee attacks with lethal demonic powers.", "Imbue your melee attacks with lethal demonic powers.", "_t")
+t("doom shield", "doom shield", "talent type")
 t("Imbue yourself with the forces of Mal'Rok, the demon's homeworld, to protect and enhance.", "Imbue yourself with the forces of Mal'Rok, the demon's homeworld, to protect and enhance.", "_t")
+t("black-magic", "black-magic", "talent type")
 t("That Old Black Magic.", "That Old Black Magic.", "_t")
+t("doom covenant", "doom covenant", "talent type")
 t("Control darkness to crush your foes.", "Control darkness to crush your foes.", "_t")
 t("Use the very power of the Spellblaze to destroy your foes.", "Use the very power of the Spellblaze to destroy your foes.", "_t")
+t("brutality", "brutality", "talent type")
 t("Devastating two-handed physical attacks fueled by demonic power.", "Devastating two-handed physical attacks fueled by demonic power.", "_t")
+t("torture", "torture", "talent type")
 t("Cripple your enemies with vicious two-handed attacks.", "Cripple your enemies with vicious two-handed attacks.", "_t")
 t("Destroy your enemies with intense two-handed physical attacks fueled by demonic power.", "Destroy your enemies with intense two-handed physical attacks fueled by demonic power.", "_t")
+t("Fearfire", "Fearfire", "talent type")
 t("Call upon the flames of the Fearscape, incinerating all.", "Call upon the flames of the Fearscape, incinerating all.", "_t")
+t("Heart of Fire", "Heart of Fire", "talent type")
 t("Fire is your lifeblood; it revitalizes you as it burns your foes.", "Fire is your lifeblood; it revitalizes you as it burns your foes.", "_t")
+t("demonic strength", "demonic strength", "talent type")
 t("Infuse your body with the power of Demons.", "Infuse your body with the power of Demons.", "_t")
+t("Oppression", "Oppression", "talent type")
 t("Make your blows terrify your foes and manipulate their fear.", "Make your blows terrify your foes and manipulate their fear.", "_t")
 t("Demon", "Demon", "_t")
 --]==]
@@ -1042,14 +1028,10 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
 
-
--- nouveau texte
---[==[
-t("13%% chance to trigger a Blood Spray cast of level %d", "13%% chance to trigger a Blood Spray cast of level %d", "tformat")
---]==]
-
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 -- texte non traduit
 --[==[
+t("13%% chance to trigger a Blood Spray cast of level %d", "13%% chance to trigger a Blood Spray cast of level %d", "tformat")
 t("Reduces duration of detrimental effects by 40%", "Reduces duration of detrimental effects by 40%", "_t")
 t("+2 to all Demon Seeds, Spellblaze and Demonic Pact talents", "+2 to all Demon Seeds, Spellblaze and Demonic Pact talents", "_t")
 t("%s (%d/%d life, level %d)", "%s (%d/%d life, level %d)", "tformat")
@@ -1093,7 +1075,6 @@ t([[Strike a blow with your weapon for %d%% blight damage.
 t("Bind Demon", "Bind Demon", "talent name")
 t("Summon demon", "Summon demon", "_t")
 t("Which seed to use:", "Which seed to use:", "_t")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t([[Your knowledge of demonic forces grows, allowing you to bind more seeds to you and to summon demons.
 		You channel your arcane corruption through a demon seed to temporarily summon the corresponding demon for %d turns.
 		Summoned demons can regen their life and resummoning them keeps the life they had when they were last used.
@@ -1261,12 +1242,11 @@ t([[Your shield is infused with a powerful blight. Anytime you block and apply a
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/fearfire.lua"
 
-
+t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 -- texte non traduit
 --[==[
 t("Fearscape Shift", "Fearscape Shift", "talent name")
 t("You can't move there.", "You can't move there.", "logSeen")
-t("The spell fizzles!", "The spell fizzles!", "logSeen")
 t([[Open a gateway to the Fearscape, stepping through it to a nearby location. As you step out, a burst of fire will leave with you, dealing %0.2f demonfire damage to everyone within %d spaces and leaving flames which will deal an additional %0.2f demonfire damage over 4 turns.
 		Additionally, shifting through reality enhances your awareness, allowing you to see all enemies within %d spaces for the next 3 turns.
 		The damage will scale with your Spellpower and the range will increase with the talent level.]], [[Open a gateway to the Fearscape, stepping through it to a nearby location. As you step out, a burst of fire will leave with you, dealing %0.2f demonfire damage to everyone within %d spaces and leaving flames which will deal an additional %0.2f demonfire damage over 4 turns.
@@ -1530,14 +1510,10 @@ t([[Your body overflows with the power of the Fearscape, turning you into a powe
 section "tome-ashes-urhrok/data/talents/misc/races.lua"
 
 
--- nouveau texte
---[==[
-t("doomelf", "doomelf", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("race", "race", "talent category")
+t("doomelf", "doomelf", "talent type")
 t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
 t("Haste of the Doomed", "Haste of the Doomed", "talent name")
 t("You must have an empty space to teleport to.", "You must have an empty space to teleport to.", "logPlayer")
@@ -1578,32 +1554,58 @@ t([[You launch a mental assault on the target.
 ------------------------------------------------
 section "tome-ashes-urhrok/data/timed_effects.lua"
 
+t("demonic", "démoniaque", "effect subtype")
+t("curse", "malédiction", "effect subtype")
+t("fire", "feu", "effect subtype")
 t("Destroyer", "Destructeur", "_t")
+t("#Target# is no longer transformed.", "#Target# n'est plus transformé.", "_t")
+t("pin", "immobilisé", "effect subtype")
+t("arcane", "dégâts d'arcane", "effect subtype")
+t("shield", "bouclier", "effect subtype")
+t("A shield forms around #target#.", "Un bouclier se forme autour de #target#.", "_t")
+t("+Shield", "+Bouclier", "_t")
+t("The shield around #target# crumbles.", "Le bouclier autour de #target# s'effondre.", "_t")
+t("-Shield", "-Bouclier", "_t")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts !", "logPlayer")
+t("heal", "soin", "effect subtype")
+t("resistance", "résistance", "effect subtype")
+t("#Target# is on fire!", "#Target# est en feu!", "_t")
+t("+Burn", "+Brûler", "_t")
+t("#Target# stops burning.", "#Target# cesse de brûler.", "_t")
+t("-Burn", "-Brûler", "_t")
+t("armour", "armure", "effect subtype")
+t("blight", "maladie", "effect subtype")
+t("wound", "blessure", "effect subtype")
+t("cut", "coupure", "effect subtype")
+t("bleed", "saignement", "effect subtype")
+t("darkness", "obscurité", "effect subtype")
+t("#Target# starts to bleed darkness.", "#Target# commence a saigner des ombres.", "_t")
+t("#Target# stops bleeding darkness.", "#Target# cesse de saigner des ombres.", "_t")
+t("spellblaze", "brûlure magique", "effect subtype")
+t("cold", "froid", "effect subtype")
 t("none", "aucun", "_t")
+t("Spellpower increased by %d.", "La puissance des sorts est augmentée de %d.", "tformat")
+t("#Target# vanishes from sight.", "#Target# disparait de la vue.", "_t")
+t("#Target# is no longer invisible.", "#Target# n'est plus invisible.", "_t")
 t("demon", "démon", "effect subtype")
 -- texte non traduit
 --[==[
-t("demonic", "demonic", "effect subtype")
 t("Demon Blade", "Demon Blade", "_t")
 t("Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "tformat")
 t("#Target# imbues its weapon with demonic fire.", "#Target# imbues its weapon with demonic fire.", "_t")
 t("+Demon Blade", "+Demon Blade", "_t")
 t("#Target#'s weapon looks less threatening.", "#Target#'s weapon looks less threatening.", "_t")
 t("-Demon Blade", "-Demon Blade", "_t")
-t("curse", "curse", "effect subtype")
 t("Fiery Torment", "Fiery Torment", "_t")
 t("The target's fire resistance is reduced by %d%%, and the target is highly vulnerable to the flames of the fearscape. When the effect ends, the target will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment", "The target's fire resistance is reduced by %d%%, and the target is highly vulnerable to the flames of the fearscape. When the effect ends, the target will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment", "tformat")
 t("#Target# is surrounded by a vile flame!", "#Target# is surrounded by a vile flame!", "_t")
 t("+Fiery Torment", "+Fiery Torment", "_t")
 t("The black flame around #Target# dies down", "The black flame around #Target# dies down", "_t")
 t("-Fiery Torment", "-Fiery Torment", "_t")
-t("fire", "fire", "effect subtype")
 t("The target assumes the form of a powerful demon.", "The target assumes the form of a powerful demon.", "tformat")
 t("#Target# turns into a demon!", "#Target# turns into a demon!", "_t")
 t("+Destroyer", "+Destroyer", "_t")
-t("#Target# is no longer transformed.", "#Target# is no longer transformed.", "_t")
 t("-Destroyer", "-Destroyer", "_t")
 t("corruption", "corruption", "effect subtype")
 t("Voracious Blade", "Voracious Blade", "_t")
@@ -1647,7 +1649,6 @@ t("Damage from soulburn.", "Damage from soulburn.", "_t")
 t("Blazing Rebirth", "Blazing Rebirth", "_t")
 t("The target is burning, taking %d damage per turn, split among it and burning foes in radius %d.", "The target is burning, taking %d damage per turn, split among it and burning foes in radius %d.", "tformat")
 t("%s loses %d health to the soulburn.", "%s loses %d health to the soulburn.", "logSeen")
-t("pin", "pin", "effect subtype")
 t("Fiery Grasp", "Fiery Grasp", "_t")
 t("The target is pinned and on fire, taking %0.2f fire damage per turn. They are also silenced.", "The target is pinned and on fire, taking %0.2f fire damage per turn. They are also silenced.", "tformat")
 t("The target is pinned and on fire, taking %0.2f fire damage per turn.", "The target is pinned and on fire, taking %0.2f fire damage per turn.", "tformat")
@@ -1655,14 +1656,8 @@ t("#Target# is grabbed!", "#Target# is grabbed!", "_t")
 t("+Fiery Grasp", "+Fiery Grasp", "_t")
 t("#Target# is released.", "#Target# is released.", "_t")
 t("-Fiery Grasp", "-Fiery Grasp", "_t")
-t("arcane", "arcane", "effect subtype")
-t("shield", "shield", "effect subtype")
 t("Fiery Aegis", "Fiery Aegis", "_t")
 t("The target is surrounded by a magical shield, absorbing %d/%d damage before it crumbles and dealing %d damage in a radius of %d when it does.", "The target is surrounded by a magical shield, absorbing %d/%d damage before it crumbles and dealing %d damage in a radius of %d when it does.", "tformat")
-t("A shield forms around #target#.", "A shield forms around #target#.", "_t")
-t("+Shield", "+Shield", "_t")
-t("The shield around #target# crumbles.", "The shield around #target# crumbles.", "_t")
-t("-Shield", "-Shield", "_t")
 t("Surge of Power", "Surge of Power", "_t")
 t("This unit will not die until it has less than -%d HP.", "This unit will not die until it has less than -%d HP.", "tformat")
 t("#Target# surges with an incredible power!", "#Target# surges with an incredible power!", "_t")
@@ -1679,22 +1674,16 @@ t("#Target# is infected by a demon seed!", "#Target# is infected by a demon seed
 t("+Demon Seed", "+Demon Seed", "_t")
 t("#Target# is free from the demon seed.", "#Target# is free from the demon seed.", "_t")
 t("-Demon Seed", "-Demon Seed", "_t")
-t("heal", "heal", "effect subtype")
 t("Osmosis Regeneration", "Osmosis Regeneration", "_t")
 t("You regenerate a total of %0.2f life over the duration of the effect.", "You regenerate a total of %0.2f life over the duration of the effect.", "tformat")
 t("+Osmosis Regen", "+Osmosis Regen", "_t")
 t("-Osmosis Regen", "-Osmosis Regen", "_t")
-t("resistance", "resistance", "effect subtype")
 t("Acidic Bath", "Acidic Bath", "_t")
 t("Gain %d%% resistance and %d%% affinity to acid.", "Gain %d%% resistance and %d%% affinity to acid.", "tformat")
 t("+Acidic Bath", "+Acidic Bath", "_t")
 t("-Acidic Bath", "-Acidic Bath", "_t")
 t("Plaguefire", "Plaguefire", "_t")
 t("The target is on fire, taking %0.2f fire damage per turn. On death, the flame will explode.", "The target is on fire, taking %0.2f fire damage per turn. On death, the flame will explode.", "tformat")
-t("#Target# is on fire!", "#Target# is on fire!", "_t")
-t("+Burn", "+Burn", "_t")
-t("#Target# stops burning.", "#Target# stops burning.", "_t")
-t("-Burn", "-Burn", "_t")
 t("dark", "dark", "effect subtype")
 t("Corrupted Light", "Corrupted Light", "_t")
 t("The target is overflowing with power, increasing all damage done by %d%%.", "The target is overflowing with power, increasing all damage done by %d%%.", "tformat")
@@ -1702,29 +1691,21 @@ t("#Target# is filled with dark power!", "#Target# is filled with dark power!", 
 t("+Corrupted Light", "+Corrupted Light", "_t")
 t("#Target# is no longer subject to the dark power.", "#Target# is no longer subject to the dark power.", "_t")
 t("-Corrupted Light", "-Corrupted Light", "_t")
-t("armour", "armour", "effect subtype")
 t("Armoured Leviathan", "Armoured Leviathan", "_t")
 t("Increases your Strength and Magic stats by %d.", "Increases your Strength and Magic stats by %d.", "tformat")
 t("#Target# is filled with raw power!", "#Target# is filled with raw power!", "_t")
 t("+Armoured Leviathan", "+Armoured Leviathan", "_t")
 t("#Target# is no longer filled with power.", "#Target# is no longer filled with power.", "_t")
 t("-Armoured Leviathan", "-Armoured Leviathan", "_t")
-t("blight", "blight", "effect subtype")
 t("Doomed Nature", "Doomed Nature", "_t")
 t("The target is affected by blight, all natural and psionic talent it tries to use has %d%% chance to fail and instead explode into %0.2f fire damage in radius 1.", "The target is affected by blight, all natural and psionic talent it tries to use has %d%% chance to fail and instead explode into %0.2f fire damage in radius 1.", "tformat")
 t("#Target# is cut off from nature!", "#Target# is cut off from nature!", "_t")
 t("+Doomed Nature", "+Doomed Nature", "_t")
 t("#Target# is no longer cut off from nature.", "#Target# is no longer cut off from nature.", "_t")
 t("-Doomed Nature", "-Doomed Nature", "_t")
-t("wound", "wound", "effect subtype")
-t("cut", "cut", "effect subtype")
-t("bleed", "bleed", "effect subtype")
-t("darkness", "darkness", "effect subtype")
 t("Demonic Cut", "Demonic Cut", "_t")
 t("Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "tformat")
-t("#Target# starts to bleed darkness.", "#Target# starts to bleed darkness.", "_t")
 t("+Demonic Cut", "+Demonic Cut", "_t")
-t("#Target# stops bleeding darkness.", "#Target# stops bleeding darkness.", "_t")
 t("-Demonic Cut", "-Demonic Cut", "_t")
 t("ritual", "ritual", "effect subtype")
 t("Link of Pain", "Link of Pain", "_t")
@@ -1740,7 +1721,6 @@ t("The target burns with darkness, taking %0.2f damage each turn until it dies o
 t("#Target# burns with dark flames.", "#Target# burns with dark flames.", "_t")
 t("+Only Ashes Left", "+Only Ashes Left", "_t")
 t("-Only Ashes Left", "-Only Ashes Left", "_t")
-t("spellblaze", "spellblaze", "effect subtype")
 t("Shattered Mind", "Shattered Mind", "_t")
 t("The target has %d%% chances to fail any talents use and suffers %d reduced physical, mental and spell saves.", "The target has %d%% chances to fail any talents use and suffers %d reduced physical, mental and spell saves.", "tformat")
 t("The Spellblaze ripples through #target#!", "The Spellblaze ripples through #target#!", "_t")
@@ -1759,7 +1739,6 @@ t("#Target# becomes an avatar of darkness!", "#Target# becomes an avatar of dark
 t("+Blood Pact", "+Blood Pact", "_t")
 t("The darkness within #target# subsides.", "The darkness within #target# subsides.", "_t")
 t("-Blood Pact", "-Blood Pact", "_t")
-t("cold", "cold", "effect subtype")
 t("Blackice", "Blackice", "_t")
 t("You have %d charges.", "You have %d charges.", "tformat")
 t("Fire and physical resistance reduced by %d%%.", "Fire and physical resistance reduced by %d%%.", "tformat")
@@ -1769,7 +1748,6 @@ t("vim", "vim", "effect subtype")
 t("Bleak Outcome", "Bleak Outcome", "_t")
 t("Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "tformat")
 t("Grim Future", "Grim Future", "_t")
-t("Spellpower increased by %d.", "Spellpower increased by %d.", "tformat")
 t("death", "death", "effect subtype")
 t("Blood Drinker", "Blood Drinker", "_t")
 t("Triggers Blood Drinker if this creature dies.", "Triggers Blood Drinker if this creature dies.", "_t")
@@ -1781,9 +1759,7 @@ t("Pain Affinity", "Pain Affinity", "_t")
 t("All damage affinity increased by %d%%.", "All damage affinity increased by %d%%.", "tformat")
 t("Ominous Shadow", "Ominous Shadow", "_t")
 t("Improves/gives invisibility (power %d), converts all damage to darkness and uses your highest damage penetration and increase for darkness.", "Improves/gives invisibility (power %d), converts all damage to darkness and uses your highest damage penetration and increase for darkness.", "tformat")
-t("#Target# vanishes from sight.", "#Target# vanishes from sight.", "_t")
 t("+Ominous Shadow", "+Ominous Shadow", "_t")
-t("#Target# is no longer invisible.", "#Target# is no longer invisible.", "_t")
 t("-Ominous Shadow", "-Ominous Shadow", "_t")
 t("Corruption of the Doomed", "Corruption of the Doomed", "_t")
 t("The target assumes the form of a dúathedlen.", "The target assumes the form of a dúathedlen.", "tformat")
@@ -1802,6 +1778,7 @@ section "tome-ashes-urhrok/data/zones/anteroom-agony/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
+t("mural painting", "peinture murale", "entity name")
 -- texte non traduit
 --[==[
 t("portal to the main island", "portal to the main island", "entity name")
@@ -1812,7 +1789,6 @@ t("portal to Eyal", "portal to Eyal", "entity name")
 t("#CRIMSON#The portal is kept shut for you by a malovelant creature nearby.", "#CRIMSON#The portal is kept shut for you by a malovelant creature nearby.", "log")
 t("torture rack", "torture rack", "entity name")
 t("iron maiden", "iron maiden", "entity name")
-t("mural painting", "mural painting", "entity name")
 t("demonic spike", "demonic spike", "entity name")
 --]==]
 
@@ -1820,14 +1796,13 @@ t("demonic spike", "demonic spike", "entity name")
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/anteroom-agony/npcs.lua"
 
-
+t("A small, heavily armoured demon, rushing toward you.", "Un petit démon, lourdement armé, qui se précipite vers vous.", "_t")
+t("major", "majeur", "entity subtype")
 -- texte non traduit
 --[==[
 t("enthralled %s", "enthralled %s", "tformat")
 t("quasit squad leader", "quasit squad leader", "entity name")
-t("A small, heavily armoured demon, rushing toward you.", "A small, heavily armoured demon, rushing toward you.", "_t")
 t("Rogroth, Eater of Souls", "Rogroth, Eater of Souls", "entity name")
-t("major", "major", "entity subtype")
 t("Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "_t")
 t("and raised as a demonic husk", "and raised as a demonic husk", "_t")
 --]==]
@@ -1836,10 +1811,9 @@ t("and raised as a demonic husk", "and raised as a demonic husk", "_t")
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/anteroom-agony/objects.lua"
 
-
+t("tattered paper scrap", "morceau de papier déchiré", "entity name")
 -- texte non traduit
 --[==[
-t("tattered paper scrap", "tattered paper scrap", "entity name")
 t("A written message.", "A written message.", "_t")
 t("A hastily written message.", "A hastily written message.", "_t")
 t("crystalline tablets", "crystalline tablets", "entity name")
@@ -1861,10 +1835,10 @@ t("Anteroom of Agony", "Anteroom of Agony", "_t")
 section "tome-ashes-urhrok/data/zones/searing-halls/grids.lua"
 
 t("floor", "sol", "entity type")
+t("rocks", "rochers", "entity subtype")
 t("floor", "sol", "entity subtype")
 -- texte non traduit
 --[==[
-t("rocks", "rocks", "entity subtype")
 t("demon killed by a meteor", "demon killed by a meteor", "entity name")
 t("impact crater", "impact crater", "entity name")
 t("tracking control crystal", "tracking control crystal", "entity name")
@@ -1884,9 +1858,10 @@ t("You made it to Eyal! You are not quite sure where, but it can not be worse th
 section "tome-ashes-urhrok/data/zones/searing-halls/npcs.lua"
 
 t("demon", "démon", "entity type")
+t("minor", "mineur", "entity subtype")
+t("major", "majeur", "entity subtype")
 -- texte non traduit
 --[==[
-t("minor", "minor", "entity subtype")
 t("demonic clerk", "demonic clerk", "entity name")
 t("A small demon, he looks alarmed at your seeming freedom.", "A small demon, he looks alarmed at your seeming freedom.", "_t")
 t("mutilator", "mutilator", "entity name")
@@ -1894,7 +1869,6 @@ t("A demon with 3 arms, ready to mutilate you. For experiment. Not for fun. Nope
 t("investigator", "investigator", "entity name")
 t("This demon is dedicated to #{italic}#extracting#{normal}# information from #{italic}#willing#{normal}# subjects.", "This demon is dedicated to #{italic}#extracting#{normal}# information from #{italic}#willing#{normal}# subjects.", "_t")
 t("Planar Controller", "Planar Controller", "entity name")
-t("major", "major", "entity subtype")
 t("A huge demon towers above you, it is obviously in control of all the portals in the nearby Fearscape area.", "A huge demon towers above you, it is obviously in control of all the portals in the nearby Fearscape area.", "_t")
 t("and teleported to Mal'Rok for more experiments", "and teleported to Mal'Rok for more experiments", "_t")
 --]==]

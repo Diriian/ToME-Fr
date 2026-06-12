@@ -290,8 +290,11 @@ t("That was weird...", "That was weird...", "_t")
 ------------------------------------------------
 section "tome-cults/data/damage_types.lua"
 
-
--- nouveau texte
+t("#Source# drains life from #Target#!", "#Source# draine la vie de #Target#!", "logCombat")
+t("%s resists the blindness!", "%s résiste à l'aveuglement!", "logSeen")
+t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
+t("%s resists the confusion!", "%s résiste à la confusion!", "logSeen")
+-- texte non traduit
 --[==[
 t("unstable rift", "unstable rift", "damage type")
 t("rift explosion", "rift explosion", "damage type")
@@ -304,14 +307,6 @@ t("aging temporal", "aging temporal", "damage type")
 t("decaying ground", "decaying ground", "damage type")
 t("defiled blood", "defiled blood", "damage type")
 t("antropy energies", "antropy energies", "damage type")
---]==]
-
--- texte non traduit
---[==[
-t("#Source# drains life from #Target#!", "#Source# drains life from #Target#!", "logCombat")
-t("%s resists the blindness!", "%s resists the blindness!", "logSeen")
-t("%s resists the pin!", "%s resists the pin!", "logSeen")
-t("%s resists the confusion!", "%s resists the confusion!", "logSeen")
 t("#PURPLE#The %s fully awakens as you absorb antropic forces!", "#PURPLE#The %s fully awakens as you absorb antropic forces!", "logSeen")
 t("#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "logSeen")
 --]==]
@@ -333,16 +328,15 @@ t("Things from above", "Things from above", "faction name")
 ------------------------------------------------
 section "tome-cults/data/general/encounters/maj-eyal.lua"
 
-
+t("harmless", "inoffensif", "entity type")
+t("special", "spécial", "entity subtype")
+t("hostile", "hostil", "entity type")
+t("Encounter", "Rencontre", "_t")
 -- texte non traduit
 --[==[
 t("Occult Egress", "Occult Egress", "entity name")
-t("harmless", "harmless", "entity type")
-t("special", "special", "entity subtype")
 t("Way to a strange portal", "Way to a strange portal", "_t")
 t("Godfeaster", "Godfeaster", "entity name")
-t("hostile", "hostile", "entity type")
-t("Encounter", "Encounter", "_t")
 t([[The ground suddenly shakes under your feet and a giant worm appears to gobble you up!
 You could try to escape using the Rod of Recall or accept your fate.]], [[The ground suddenly shakes under your feet and a giant worm appears to gobble you up!
 You could try to escape using the Rod of Recall or accept your fate.]], "_t")
@@ -355,12 +349,11 @@ t("Use the rod", "Use the rod", "_t")
 ------------------------------------------------
 section "tome-cults/data/general/encounters/tar-eyal.lua"
 
-
+t("harmless", "inoffensif", "entity type")
+t("special", "spécial", "entity subtype")
 -- texte non traduit
 --[==[
 t("Occult Egress", "Occult Egress", "entity name")
-t("harmless", "harmless", "entity type")
-t("special", "special", "entity subtype")
 t("Way to a strange portal", "Way to a strange portal", "_t")
 --]==]
 
@@ -368,12 +361,11 @@ t("Way to a strange portal", "Way to a strange portal", "_t")
 ------------------------------------------------
 section "tome-cults/data/general/encounters/var-eyal.lua"
 
-
+t("harmless", "inoffensif", "entity type")
+t("special", "spécial", "entity subtype")
 -- texte non traduit
 --[==[
 t("Occult Egress", "Occult Egress", "entity name")
-t("harmless", "harmless", "entity type")
-t("special", "special", "entity subtype")
 t("Way to a strange portal", "Way to a strange portal", "_t")
 --]==]
 
@@ -423,6 +415,7 @@ section "tome-cults/data/general/events/space-dwarf-ship.lua"
 t("floor", "sol", "_t")
 t("wall", "mur", "_t")
 t("previous level", "niveau précédent", "_t")
+t("ladder back to %s", "échelle pour revenir vers %s", "tformat")
 -- texte non traduit
 --[==[
 t("strange metallic capsule", "strange metallic capsule", "_t")
@@ -433,7 +426,6 @@ t([[The thing in front of you appears to be a strange dome made from green glass
 You are fairly sure that the dwarves aren't capable of making something like this and they definitely don't dress like that. So, where did this odd dwarf come from? Taking a closer look, you find a strange device attached to the dwarf's arm. You remove it with no small amount of effort. It is completely unlike anything you have seen before and you're not really sure what to make of it. Perhaps if you hold onto it, you might be able to discern its functionality later.]], [[The thing in front of you appears to be a strange dome made from green glass. Judging by the crater around it, this dome must have crashed into the earth with tremendous force. Stranger still is the figure seated inside it. It appears to be wearing a suit made of an unknown material and a glass dome over its head. Looking inside the dome, you can plainly see that the figure is a dwarf! There is no mistaking that oversized nose. Judging by the smell, he has been dead for quite some time.
 
 You are fairly sure that the dwarves aren't capable of making something like this and they definitely don't dress like that. So, where did this odd dwarf come from? Taking a closer look, you find a strange device attached to the dwarf's arm. You remove it with no small amount of effort. It is completely unlike anything you have seen before and you're not really sure what to make of it. Perhaps if you hold onto it, you might be able to discern its functionality later.]], "_t")
-t("ladder back to %s", "ladder back to %s", "tformat")
 t("Eerie Cave", "Eerie Cave", "_t")
 t("eerie cave", "eerie cave", "_t")
 --]==]
@@ -462,12 +454,13 @@ t("#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disapp
 section "tome-cults/data/general/grids/fonts.lua"
 
 t("floor", "sol", "entity type")
+t("creep", "rampant", "entity subtype")
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
+t("cave", "grotte", "entity subtype")
 -- texte non traduit
 --[==[
-t("creep", "creep", "entity subtype")
 t("font of knowledge", "font of knowledge", "entity name")
 t("Font of Knowledge", "Font of Knowledge", "_t")
 t("Do you want to touch it?", "Do you want to touch it?", "_t")
@@ -476,7 +469,6 @@ t("#VIOLET#The %s glows as you touch it. Your knowledge grows (+1 category point
 t("#YELLOW#The %s glows as you touch it. Your knowledge grows (+1 class talent point).", "#YELLOW#The %s glows as you touch it. Your knowledge grows (+1 class talent point).", "log")
 t("#ORANGE#The %s glows as you touch it. Your knowledge grows (+1 generic talent point).", "#ORANGE#The %s glows as you touch it. Your knowledge grows (+1 generic talent point).", "log")
 t("#AQUAMARINE#The %s glows as you touch it. Your knowledge grows (+3 stat points).", "#AQUAMARINE#The %s glows as you touch it. Your knowledge grows (+3 stat points).", "log")
-t("cave", "cave", "entity subtype")
 t("font of sacrifice", "font of sacrifice", "entity name")
 --]==]
 
@@ -490,10 +482,10 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("sealed door", "porte scellée", "entity name")
 -- texte non traduit
 --[==[
 t("ancient", "ancient", "entity subtype")
-t("sealed door", "sealed door", "entity name")
 --]==]
 
 
@@ -521,13 +513,13 @@ t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
+t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
 -- texte non traduit
 --[==[
 t("godfeaster", "godfeaster", "entity subtype")
 t("godfeaster wall", "godfeaster wall", "entity name")
 t("godfeaster door", "godfeaster door", "entity name")
 t("open godfeaster door", "open godfeaster door", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
 --]==]
 
 
@@ -541,13 +533,13 @@ t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
+t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
 -- texte non traduit
 --[==[
 t("maggot", "maggot", "entity subtype")
 t("maggot wall", "maggot wall", "entity name")
 t("maggot door", "maggot door", "entity name")
 t("open maggot door", "open maggot door", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
 --]==]
 
 
@@ -556,18 +548,18 @@ section "tome-cults/data/general/grids/scourge.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity name")
+t("creep", "rampant", "entity subtype")
+t("creep", "rampant", "entity name")
 t("wall", "mur", "entity type")
+t("huge loose rock", "énorme rocher instable", "entity name")
+t("This rock is loose, you think you can move it away.", "Ce rocher est instable, vous pensez pouvoir le déplacer.", "_t")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 -- texte non traduit
 --[==[
 t("scourge", "scourge", "entity subtype")
-t("creep", "creep", "entity subtype")
-t("creep", "creep", "entity name")
 t("tentacle 'tree'", "tentacle 'tree'", "entity name")
-t("huge loose rock", "huge loose rock", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
 --]==]
 
 
@@ -581,13 +573,13 @@ t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
+t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
 -- texte non traduit
 --[==[
 t("slimy_godfeaster", "slimy_godfeaster", "entity subtype")
 t("slimy_godfeaster wall", "slimy_godfeaster wall", "entity name")
 t("slimy_godfeaster door", "slimy_godfeaster door", "entity name")
 t("open slimy_godfeaster door", "open slimy_godfeaster door", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
 --]==]
 
 
@@ -597,17 +589,13 @@ section "tome-cults/data/general/grids/spacedwarf-creep.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("floor", "sol", "entity name")
+t("creep", "rampant", "entity subtype")
+t("creep", "rampant", "entity name")
 t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- texte non traduit
---[==[
-t("creep", "creep", "entity subtype")
-t("creep", "creep", "entity name")
-t("sealed door", "sealed door", "entity name")
---]==]
-
+t("sealed door", "porte scellée", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/spacedwarf.lua"
@@ -619,40 +607,32 @@ t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
--- texte non traduit
---[==[
-t("sealed door", "sealed door", "entity name")
---]==]
-
+t("sealed door", "porte scellée", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/special-cave.lua"
 
 t("floor", "sol", "entity type")
+t("cave", "grotte", "entity subtype")
+t("cave floor", "sol de la grotte", "entity name")
 t("wall", "mur", "entity type")
+t("cave walls", "parois de la grotte", "entity name")
 t("grass", "herbe", "entity subtype")
--- texte non traduit
---[==[
-t("cave", "cave", "entity subtype")
-t("cave floor", "cave floor", "entity name")
-t("cave walls", "cave walls", "entity name")
-t("huge loose rock", "huge loose rock", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
---]==]
-
+t("huge loose rock", "énorme rocher instable", "entity name")
+t("This rock is loose, you think you can move it away.", "Ce rocher est instable, vous pensez pouvoir le déplacer.", "_t")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/tentacle-tree.lua"
 
 t("floor", "sol", "entity type")
+t("creep", "rampant", "entity subtype")
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
 -- texte non traduit
 --[==[
-t("creep", "creep", "entity subtype")
 t("strange tentacle 'tree'", "strange tentacle 'tree'", "entity name")
 t("Tentacle Tree", "Tentacle Tree", "_t")
 t("Do you #{strong}#really#{normal}# want to touch that?", "Do you #{strong}#really#{normal}# want to touch that?", "_t")
@@ -663,10 +643,9 @@ t("#CRIMSON#The %s glows ominously.", "#CRIMSON#The %s glows ominously.", "log")
 ------------------------------------------------
 section "tome-cults/data/general/npcs/blobs.lua"
 
-
+t("vermin", "vermine", "entity type")
 -- texte non traduit
 --[==[
-t("vermin", "vermin", "entity type")
 t("blob", "blob", "entity subtype")
 t("Ewwww.", "Ewwww.", "_t")
 t("plasmic disruptor", "plasmic disruptor", "entity name")
@@ -687,10 +666,9 @@ t("A huge globula of protoplasma. You can feel a kind of protosentience emanatin
 ------------------------------------------------
 section "tome-cults/data/general/npcs/corrupted_blobs.lua"
 
-
+t("vermin", "vermine", "entity type")
 -- texte non traduit
 --[==[
-t("vermin", "vermin", "entity type")
 t("blob", "blob", "entity subtype")
 t("Ewwww.", "Ewwww.", "_t")
 t("corrupted plasmic disruptor", "corrupted plasmic disruptor", "entity name")
@@ -711,11 +689,10 @@ t("A huge globula of protoplasma. You can feel a kind of protosentience emanatin
 ------------------------------------------------
 section "tome-cults/data/general/npcs/horror-special-test.lua"
 
-
+t("horror", "horreur", "entity type")
+t("eldritch", "occulte", "entity subtype")
 -- texte non traduit
 --[==[
-t("horror", "horror", "entity type")
-t("eldritch", "eldritch", "entity subtype")
 t("The One That Hunts", "The One That Hunts", "entity name")
 --]==]
 
@@ -723,11 +700,10 @@ t("The One That Hunts", "The One That Hunts", "entity name")
 ------------------------------------------------
 section "tome-cults/data/general/npcs/horror-special.lua"
 
-
+t("horror", "horreur", "entity type")
+t("eldritch", "occulte", "entity subtype")
 -- texte non traduit
 --[==[
-t("horror", "horror", "entity type")
-t("eldritch", "eldritch", "entity subtype")
 t("The One That Hunts", "The One That Hunts", "entity name")
 t("The relentless hunter. It never gives up, never surrenders.", "The relentless hunter. It never gives up, never surrenders.", "_t")
 --]==]
@@ -775,13 +751,12 @@ t("krog", "krog", "entity subtype")
 ------------------------------------------------
 section "tome-cults/data/general/npcs/scourge-drake.lua"
 
-
+t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
 t("scourge", "scourge", "entity subtype")
 t("scourge drake hatchling", "scourge drake hatchling", "entity name")
-t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "_t")
 t("scourge drake", "scourge drake", "entity name")
 t("A mature scourge drake, armed with deadly breath and nasty claws.", "A mature scourge drake, armed with deadly breath and nasty claws.", "_t")
 t("scourge wyrm", "scourge wyrm", "entity name")
@@ -803,10 +778,9 @@ t("The tentacle tree has awakened!", "The tentacle tree has awakened!", "_t")
 ------------------------------------------------
 section "tome-cults/data/general/objects/forbidden-tomes-base.lua"
 
-
+t("tome", "grimoire", "entity type")
 -- texte non traduit
 --[==[
-t("tome", "tome", "entity type")
 t("forbidden", "forbidden", "entity subtype")
 t("strange book", "strange book", "_t")
 t("A lost tome of knowledge.", "A lost tome of knowledge.", "_t")
@@ -821,12 +795,11 @@ t("You can not enter this book while in combat.", "You can not enter this book w
 ------------------------------------------------
 section "tome-cults/data/general/objects/lore/eyal.lua"
 
-
+t("analysis", "analyse", "entity subtype")
 -- texte non traduit
 --[==[
 t("gods", "gods", "entity subtype")
 t("godslayers", "godslayers", "entity subtype")
-t("analysis", "analysis", "entity subtype")
 --]==]
 
 
@@ -834,25 +807,21 @@ t("analysis", "analysis", "entity subtype")
 section "tome-cults/data/general/objects/special-misc.lua"
 
 t("misc", "divers", "entity type")
--- nouveau texte
---[==[
-t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "_t")
---]==]
-
+t("tool", "outil", "entity subtype")
+t("armor", "armure", "entity type")
+t("head", "tête", "entity subtype")
 -- texte non traduit
 --[==[
 t("Robe of the Worm", "Robe of the Worm", "entity name")
 t("worm", "worm", "entity short_name")
 t("Rags of the Sanctuary", "Rags of the Sanctuary", "entity name")
 t("rags", "rags", "entity short_name")
-t("tool", "tool", "entity subtype")
 t("Bizzare Contraption", "Bizzare Contraption", "entity name")
 t("bizzare contraption", "bizzare contraption", "_t")
 t("This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "_t")
+t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "_t")
 t("The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "logSeen")
 t("#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "logPlayer")
-t("armor", "armor", "entity type")
-t("head", "head", "entity subtype")
 t("Fanged Collar", "Fanged Collar", "entity name")
 t("It's a head... but is it yours?", "It's a head... but is it yours?", "_t")
 --]==]
@@ -862,6 +831,8 @@ t("It's a head... but is it yours?", "It's a head... but is it yours?", "_t")
 section "tome-cults/data/general/objects/world-artifacts.lua"
 
 t("misc", "divers", "entity type")
+t("charm", "breloque", "entity type")
+t("%s activates %s %s!", "%s active %s %s!", "logSeen")
 -- texte non traduit
 --[==[
 t("Spinal Cage", "Spinal Cage", "entity name")
@@ -984,7 +955,6 @@ t([[It is said that the preferred weapons of the krog is a mace in one hand and 
 The mace symbolizes the krogs willingness to endure until the final blow is struck against the arcane. Commonly the mace would be used to batter a mage senseless, thus preventing them from being able to cast their spells. ]], [[It is said that the preferred weapons of the krog is a mace in one hand and a sword in the other. One hand to spread the message of the Zigurath, the other to see that message through to the end.
 The mace symbolizes the krogs willingness to endure until the final blow is struck against the arcane. Commonly the mace would be used to batter a mage senseless, thus preventing them from being able to cast their spells. ]], "_t")
 t("#LIGHT_BLUE#As you wear the mace you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#As you wear the mace you feel it attuning to your Krog body, increasing in power!", "logPlayer")
-t("charm", "charm", "entity type")
 t("totem", "totem", "entity subtype")
 t("Persistent Will", "Persistent Will", "entity name")
 t("ever burning stake", "ever burning stake", "_t")
@@ -1028,7 +998,6 @@ t("Rod of Entropy", "Rod of Entropy", "entity name")
 t("light sucking rod", "light sucking rod", "_t")
 t("This rod seems to make light die around it. You feel tired just looking at it.", "This rod seems to make light die around it. You feel tired just looking at it.", "_t")
 t("temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "tformat")
-t("%s activates %s %s!", "%s activates %s %s!", "logSeen")
 t("Seeds of the Black Tree", "Seeds of the Black Tree", "entity name")
 t("corrupt stone", "corrupt stone", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "_t")
@@ -1054,49 +1023,33 @@ t("The Conjointed", "The Conjointed", "entity name")
 ------------------------------------------------
 section "tome-cults/data/general/zones-alters/dreadfell.lua"
 
-
--- texte non traduit
---[==[
-t("book", "book", "entity subtype")
---]==]
-
+t("book", "livre", "entity subtype")
 
 ------------------------------------------------
 section "tome-cults/data/general/zones-alters/elvala.lua"
 
-
--- texte non traduit
---[==[
-t("book", "book", "entity subtype")
---]==]
-
+t("book", "livre", "entity subtype")
 
 ------------------------------------------------
 section "tome-cults/data/general/zones-alters/zigur.lua"
 
-
--- texte non traduit
---[==[
-t("book", "book", "entity subtype")
---]==]
-
+t("book", "livre", "entity subtype")
 
 ------------------------------------------------
 section "tome-cults/data/glyph_sequences/cults.lua"
 
-
+t("Portal", "Portail", "_t")
+t("Enter", "Entrer", "_t")
+t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
 t("#PURPLE#A Font of Sacrifice appears nearby!", "#PURPLE#A Font of Sacrifice appears nearby!", "_t")
 t("#PURPLE#A portal appears inside the Occult Egress!", "#PURPLE#A portal appears inside the Occult Egress!", "_t")
-t("Portal", "Portal", "_t")
 t("You feel this portal leads to a place from where you are likely to not come back.", "You feel this portal leads to a place from where you are likely to not come back.", "_t")
-t("Enter", "Enter", "_t")
 t("Save your life and stay!", "Save your life and stay!", "_t")
 t("#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "_t")
 t("splattered remains of an adventurer", "splattered remains of an adventurer", "_t")
 t("log entry", "log entry", "_t")
-t("A paper scrap.", "A paper scrap.", "_t")
 t("#PURPLE#An item appears on the egress!", "#PURPLE#An item appears on the egress!", "_t")
 t("#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "_t")
 --]==]
@@ -1206,8 +1159,10 @@ t("At the center of the strange contraption you see a picture. You are not quite
 section "tome-cults/data/lore/fay-willows.lua"
 
 
--- nouveau texte
+-- texte non traduit
 --[==[
+t("Forbidden Cults", "Forbidden Cults", "newLore category")
+t("Escapades of Fay Willows [Book 1, Chapter 1] - Devastation of the Spellblaze", "Escapades of Fay Willows [Book 1, Chapter 1] - Devastation of the Spellblaze", "_t")
 t([[[i]I remember the devastation when I first made my journey to Elvala. Not a soul escaped the touch of the Spellblaze and no one could feel the pain and sorrow of the lands more than a thalore. I know that those back home still seethe with rage and anger as even now I still sometimes feel my emotions from that moment. It was a terrible day I wish I could forget but never will.[/i]
 
 If I were to describe my years growing up in my birthplace, it would be summed up pretty easily as 'boring, uneventful, and repetitive'. I grew up in forests that no longer exist, collecting wood from fallen and dead trees while planting and cultivating new trees to grow. The wood I collected was stored in a large stockpile behind my house and used to fashion staves or bows by other skilled thaloren who lived nearby for sale abroad. The proceeds from our exports were used to buy items we couldn't readily find in our forests or in the lands of the humans or halflings nearby.
@@ -1257,6 +1212,7 @@ Making my way towards where the voice was coming from I saw a male shalore surro
 Giving notice to the two wolves fleeing, the other wolves soon turned tail as well. I sat down to examine the injury I had received. Despite what looked to be a fairly painful wound, I remember feeling little to no pain from it. I soon pulled out an infusion that I had brought with me and began to treat the gash left from the creature’s teeth. While doing this I heard a voice call out from behind me. Realizing the shalore was still here, I turned around as he approached. As he drew closer and looked towards my face the shalore immediately stopped and gave a blank face.
 
 A bit perplexed by this I sat there looking confused. For a moment we stared at each other in silence before the shalore finally exclaimed "You're a thalore." I blinked a couple of times at this before I replied yes. Seemingly in shock for a brief moment before finally coming to his senses, I was soon asked what I was doing here. Upon hearing that question, I wondered what I should answer. I then realized I no longer knew the answer to why I had come here, as the anger that had driven me to come had mostly dissipated. After a while I finally gave an answer. "I've come to find out why." ]], "_t")
+t("Escapades of Fay Willows [Book 1, Chapter 2] - Infusion Avoidance", "Escapades of Fay Willows [Book 1, Chapter 2] - Infusion Avoidance", "_t")
 t([[[i]I've never really understood why people so readily gave their names. Among the thaloren I scarcely knew the names of anyone, save for that of family or those considered as such. I remember a dwarf merchant that once visited my homeplace. He seemed to think that whatever title he held meant something. Really names mean nothing, and I could deal with a human or halfling merchant the same as that dwarf. I don't need to know your name to deal with you.[/i]
 
 For another brief moment there was silence. In his mind he seemed to mull over the meaning of what he said, but seemingly understood what I was after. As he took a moment to think as I glanced him over. Both the shalore's face and clothing was quite rugged and I noticed a quiver along with a dagger at his side. I would have figured him for a hunter but the way he spoke seemed too disciplined for it. He probably was of a military background, most likely a scout for the shaloren military. I also noticed the blood streaming down his arm from an untreated wound.
@@ -1298,6 +1254,7 @@ How stupid I thought. I'd heard of the halflings being proud but even they weren
 I was awestruck at this, this indifferent tone, but I held my tongue as I heard more coughing from the wounded shalore. Deciding what's best for now would be to treat the wounded shaloren I simply walked over to the lean-to. In no time at all I removed the bandages and began to treat their wounds. Quickly the gaps in their skin closed and their bodies began to mend as I used my infusions. While not fully healed as my infusions were used up, the two I treated looked far better off then they were before.
 
 Reaching into my pack to pull out some more infusions to finish my job I heard the leaders voice call out "That's enough." Snapping my head back in amazement I held my tongue no longer saying "Did you not wish for me to treat them?" Diplomatically I received the reply "They don't look like they are going to die anymore now do they? Those infusions you have, they are a finite resource. Maybe you should save them for those who are nearer to death." Calming down a bit I wondered what the shalore was getting at. So I asked the question "What do you mean, save them for who?"]], "_t")
+t("Escapades of Fay Willows [Book 1, Chapter 3] - Shaloren Suffering", "Escapades of Fay Willows [Book 1, Chapter 3] - Shaloren Suffering", "_t")
 t([[[i]While the shaloren are no longer as lost as they seemingly were when I first entered Elvala, I can still see the searching expressions on their faces even now as I write this. It is as if they feel a similar loss to whatever it is they are connected to in the same way the thalore feel the devastation of nature. I do not know what connection the arcane and nature have, but I know it is shared relationship, and strain on one will result in strain on the other. [/i]
 
 Aware of the suffering of the other shaloren, it was soon explained to me that there were other groups of rangers relocating refugees from the other settlements to their capital. I can't say I had any interest in helping the other shaloren, and personally felt that I was simply being dissuaded from using my infusions anymore than I had to on the casualties I had just treated. However, the scout being aware of my intentions helped to broker a deal - if I help the rangers in their duties of rescuing as many of the shaloren as possible, they would help me get the answers I sought.
@@ -1335,6 +1292,7 @@ As the healer began to walk away I looked to the leader of the rangers one more 
 We soon headed over a muddy field, dodging the tents of refugees that had been raised everywhere. Eventually we came to a tall building, inside of which many shaloren lay wounded on beds, and some too on the floor. Making our way to the back of the building, we entered what I assumed to be the healer's office. "You wouldn't happen to know the basics of mixing infusions would you?" I was soon asked. "I know how to mix basic numbing and regenerative infusions.” I replied. Nodding to this, the healer pulled out a paper and began to write down on it.
 
 As the healer finished writing he handed the paper to me "The shalore and thalore are near identical in biology when it comes to infusions, so anything that you could use on yourself will work on a shalore. Here is a list of the infusion ingredients we have available. I'll lead you to our workshop where you can get to work making some." The healer rose to get up, grabbing a key from a shelf. Moving towards the door I was led down to the basement where the infusion workshop was. Unlocking the door, the healer handed me the key, and led me inside.]], "_t")
+t("Escapades of Fay Willows [Book 1, Chapter 4] - Medical Treatment", "Escapades of Fay Willows [Book 1, Chapter 4] - Medical Treatment", "_t")
 t([[[i]It still strikes me how adverse the shaloren are to infusions. Seemingly they would rather tempt fate and avoid using them. One of the purposes of infusions is to restore one to good health after suffering an injury, but for a shalore it was more a means of last resort to avoid dying. What's more, they seem to fail to understand that holding off on infusion use simply results in them using infusions more in the long run, as beyond just mending their flesh they will have to stave off infection from their open wounds as well.[/i]
 
 Over the next few days I mixed and created several infusions for use by the shaloren. The workshop contained all the amenities for sleeping, and the healer would often bring basic food staples and drink to me. Well, I should say to the shalore it may have been basic food and drink, but by thalore standards I was treated pretty lavishly. I mean, I know the dwarves treat alcohol as a staple good for consumption but apparently so did the shaloren with the amount of wine I was given. Anyhow, how I was treated was quite better then I would have expected to be sure.
@@ -1376,505 +1334,6 @@ I don't know much about the arcane even now or how it works, but apparently some
 After a while the number of wounded soldiers began to dwindle as most of them didn't require rest after healing themselves. When their numbers began to reach more manageable amounts, the chief healer approached to thank me on behalf of the Shaloren for my efforts. Suddenly remembering the entire reason I had come here to begin with, I noted that I had been fulfilling my end of the bargain. Nodding to this the chief healer looked behind me as a soldier approached and responded "The lieutenant will escort you to the general." I was taken aback by this somewhat but assumed this general held the answers as to the events that had taken place.
 
 The soldier led me to the center of the city where a grand building lay. After meeting with a couple of the guards clad head to toe in shiny plate armor, we were let in. It took several minutes walking through the building’s halls, seemingly walking the building’s entire length to the end of it. Eventually I came to a luxurious looking room, decorations made of stralite and gold lining the walls and displayed pictures of what I assumed to be important figures in Shaloren history. Here I was told to wait, and left by the lieutenant as he entered a nearby room.]], "_t")
-t([[[i]While on the surface the Nargols appeared to be in total control of the situation, underneath it all this was very much not the case. In order to attempt to mitigate trouble they actively attempted to confiscate any and all magical items they could find from the refugees entering the city, and hide their leaders from being assassinated for their parts in the Spellblaze. Spellcasters in their army were sent underground, mindful of the danger they were in, but also not wishing to incite angry citizens further.[/i]
-
-I descended slowly and carefully down the blasted hillside, and crossed over the river where some stones emerged that I could step on. Making my way over burned grass I joined with the procession of refugees making their way towards the city gates. I had to wait a long while as the guards slowly inspected wagons and asked questions of those passing through. While it seemed no one was being turned away, drawing closer I saw one dwarf begin to holler as a guard confiscated an item from him. The dwarf was still hollering when he was allowed entry, a torrent of profanity coming from the dwarf for every step he took inside.
-
-After a dozen more or so in front of me were processed by the guards, I was finally next. I immediately held out the papers I have received from the general. The guard nearest to me gave notice to the insignia on them, and motioned to another of the guards to come over. After glancing at the papers together, they talked to each other in a hushed tone, and then one of them proceeded to run off with the paper at a brisk pace to a nearby tower. Before long the guard returned, followed by another halfling. Judging from the immaculate armor he wore, I quickly realized he must be their superior.
-
-He walked towards me with a slow methodical pace, his gaze seemingly analyzing me fully. Standing in front of me, his eyes looked up into mine as I looked down on him. Then he abruptly turned away, and gestured to one of the guards. The guard immediately approached and held out has hands. Sensing that I should give the chest now, I pulled it out of my pack and handed it to him. Giving a quick nod as he received the chest, the guard quickly hurried away with it. He dashed through the gate and rounded around the walls out of sight. Another guard soon approached and in a polite tone stated, "Welcome to the Nargol Kingdom."
-
-With this I was ushered through the gate as the guards began to resume their searches and queries to the refugees behind me. Looking around, I saw a great many tents and hastily constructed shanties, likely put up to house the many refugees flooding into the city. The refugees themselves sat around as if devoid of any purpose. Some lifelessly stared towards the west, likely to settlements they had been forced to come from. Others seem to stare blankly towards the sky as if perhaps waiting for more death to fall from it as it had during the Spellblaze.
-
-Saddened by the site of all this and the sense of loss that hanged in the air I decided to move on. I navigated myself towards the buildings of the settlement. Ruins of destroyed buildings lay across the street with some featuring collapsed roofs and walls. I could see through the gaps in the stones of one of the damaged buildings a family of halflings. Further down the street a wooden sign for a tavern lay on the ground. Feeling somewhat peckish at this point I made my way towards the building next to the sign hoping that they may have some food to purchase.
-
-Inside a motley collection of halflings, humans, and dwarves sat at various tables. A bit more lively than the refugees outside, some conversed with each other while others gambled. As I entered the tavern, one human immediately took notice and approached saying "hey, aren't you that thalore before? Yea, it is you." Wondering who this human was I wondered if he was perhaps insane. Seemingly sensing this he quickly stated, "Ahh, perhaps you don't recognize me. I'm the messenger that happen to be in that inn up north. You probably remember me arguing with that Eldoral halfwit from before."
-
-I clenched my teeth a bit. I wondered if I might be in trouble. Again however the human made another quick statement, "Don't worry, I don't think you'll find anyone disagreeing with what you did to him and I was thinking of doing the same anyway. He would have eventually been lynched for saying things as he did. Someone would have silenced him sooner or later." Curious as to what the messenger just said I cautiously replied, "What do you mean?" To this the messenger raised an eyebrow before stating, "What? You think that any of the guards here would stop someone like that halfling from being killed? Such incidents have become common place nowadays."
-
-Soon smiling at me, the messenger began to gesture towards a nearby seat. I wasn't much interested in chatting with him, but thinking perhaps he may be able to inform me a bit of events I decided to accept his offer. I moved to sit down, ordering some food to eat. The messenger began making small talk, noting the devastation wrought from the Spellblaze, viciously attacking 'the mages' within each of his sentences, and lamenting the loss of some of his friends. For a time I let him talk as I ate my food. Oddly enough, the messenger didn't give me his name or ask for my own; perhaps being at least somewhat knowledgeable of Thaloren customs in that regard. I didn't actually notice this when I talked to him initially, only realizing it due to later events that would unfold.]], [[[i]While on the surface the Nargols appeared to be in total control of the situation, underneath it all this was very much not the case. In order to attempt to mitigate trouble they actively attempted to confiscate any and all magical items they could find from the refugees entering the city, and hide their leaders from being assassinated for their parts in the Spellblaze. Spellcasters in their army were sent underground, mindful of the danger they were in, but also not wishing to incite angry citizens further.[/i]
-
-I descended slowly and carefully down the blasted hillside, and crossed over the river where some stones emerged that I could step on. Making my way over burned grass I joined with the procession of refugees making their way towards the city gates. I had to wait a long while as the guards slowly inspected wagons and asked questions of those passing through. While it seemed no one was being turned away, drawing closer I saw one dwarf begin to holler as a guard confiscated an item from him. The dwarf was still hollering when he was allowed entry, a torrent of profanity coming from the dwarf for every step he took inside.
-
-After a dozen more or so in front of me were processed by the guards, I was finally next. I immediately held out the papers I have received from the general. The guard nearest to me gave notice to the insignia on them, and motioned to another of the guards to come over. After glancing at the papers together, they talked to each other in a hushed tone, and then one of them proceeded to run off with the paper at a brisk pace to a nearby tower. Before long the guard returned, followed by another halfling. Judging from the immaculate armor he wore, I quickly realized he must be their superior.
-
-He walked towards me with a slow methodical pace, his gaze seemingly analyzing me fully. Standing in front of me, his eyes looked up into mine as I looked down on him. Then he abruptly turned away, and gestured to one of the guards. The guard immediately approached and held out has hands. Sensing that I should give the chest now, I pulled it out of my pack and handed it to him. Giving a quick nod as he received the chest, the guard quickly hurried away with it. He dashed through the gate and rounded around the walls out of sight. Another guard soon approached and in a polite tone stated, "Welcome to the Nargol Kingdom."
-
-With this I was ushered through the gate as the guards began to resume their searches and queries to the refugees behind me. Looking around, I saw a great many tents and hastily constructed shanties, likely put up to house the many refugees flooding into the city. The refugees themselves sat around as if devoid of any purpose. Some lifelessly stared towards the west, likely to settlements they had been forced to come from. Others seem to stare blankly towards the sky as if perhaps waiting for more death to fall from it as it had during the Spellblaze.
-
-Saddened by the site of all this and the sense of loss that hanged in the air I decided to move on. I navigated myself towards the buildings of the settlement. Ruins of destroyed buildings lay across the street with some featuring collapsed roofs and walls. I could see through the gaps in the stones of one of the damaged buildings a family of halflings. Further down the street a wooden sign for a tavern lay on the ground. Feeling somewhat peckish at this point I made my way towards the building next to the sign hoping that they may have some food to purchase.
-
-Inside a motley collection of halflings, humans, and dwarves sat at various tables. A bit more lively than the refugees outside, some conversed with each other while others gambled. As I entered the tavern, one human immediately took notice and approached saying "hey, aren't you that thalore before? Yea, it is you." Wondering who this human was I wondered if he was perhaps insane. Seemingly sensing this he quickly stated, "Ahh, perhaps you don't recognize me. I'm the messenger that happen to be in that inn up north. You probably remember me arguing with that Eldoral halfwit from before."
-
-I clenched my teeth a bit. I wondered if I might be in trouble. Again however the human made another quick statement, "Don't worry, I don't think you'll find anyone disagreeing with what you did to him and I was thinking of doing the same anyway. He would have eventually been lynched for saying things as he did. Someone would have silenced him sooner or later." Curious as to what the messenger just said I cautiously replied, "What do you mean?" To this the messenger raised an eyebrow before stating, "What? You think that any of the guards here would stop someone like that halfling from being killed? Such incidents have become common place nowadays."
-
-Soon smiling at me, the messenger began to gesture towards a nearby seat. I wasn't much interested in chatting with him, but thinking perhaps he may be able to inform me a bit of events I decided to accept his offer. I moved to sit down, ordering some food to eat. The messenger began making small talk, noting the devastation wrought from the Spellblaze, viciously attacking 'the mages' within each of his sentences, and lamenting the loss of some of his friends. For a time I let him talk as I ate my food. Oddly enough, the messenger didn't give me his name or ask for my own; perhaps being at least somewhat knowledgeable of Thaloren customs in that regard. I didn't actually notice this when I talked to him initially, only realizing it due to later events that would unfold.]], "_t")
-t([[[i]You know, it is really hard to know someone. The messenger was a good example of this, as I would soon find out. I had pegged him for being a disgruntled human that had suffered greatly because of the Spellblaze. In reality he was much more than just disgruntled, and I believe he may have been a member of the group instigating the Spellhunt. I'm sure he and the others who had left after with that human in the dark cloak died taking part in a nefarious plot that I would learn the day after. But did he die willingly? That's the real question I think about now in regards to him.[/i]
-
-Finishing my meal, I decided to probe the messenger for information. Upon the completion of his last tirade I asked, "So how are things faring here?" A sigh escaped the man as he answered, "Well, the Nargols appear to have everything under control. They are managing to get enough food for all the refugees streaming in; even managed to procure some alcohol for those dwarves. I have to say it was quite a surprise to see them out here. I wonder if they happen to have anymore homes elsewhere on the continent outside of the Iron Throne. Hard to really know with how secretive the dwarves are though."
-
-While I wasn't exactly interested in the dwarves, that last statement disconnected quite a bit from what I knew about them. From my knowledge of the dwarves, they all lived in the Iron Throne, or at least cities nearby to it. Querying the messenger he soon explained. "Well, the dwarves you see here now had a home over there in the western mountains. The Cornacs were completely ignorant that they had taken up residence so close to them, and the dwarves likely would have kept it a secret. Unfortunately for them they were forced to show themselves since the blasted mages caused their home to collapse in on them."
-
-Satisfied with that answer I remembered about that hollering dwarf when entering the city. I wondered if perhaps the messenger might know something about what that was all about. Noting it I said, "You wouldn't happen to know anything regarding items the dwarves might be carrying that the guards at the city gates would confiscate would you?" The messengers soldiers shrugged before he replied back, "Likely was carrying some item of arcane properties that an accursed mage enchanted long ago. Those dwarves seem to be getting the worse treatment in regards to that, what with the little care they give towards whether an item is contaminated with magic or not."
-
-Shaking his head before going on, the messenger mused aloud, "You know, the Nargol are actively attempting to confiscate items of magical origin as a means of appeasement to placate the halflings living here. They say that it's too dangerous for civilians to carry such items. Personally I say it is too dangerous for anyone to be carrying such items, them included. Of course they are too arrogant to bother fellow halflings living in the city already in regards to giving up such items, expecting them to 'voluntarily' give them up. Really it is just the dwarves, the halfling refugees from outside the city, and us humans getting our possessions taken away." The human proceeded to laugh as he finished saying these words.
-
-The messenger stopped laughing though as a human in a dark cloak approached and leaned down to say something to him. The messenger nodded to the figure upon which he said back, "I'll catch up later, relay back to me the plan when we are ready." To this the human in the dark cloak bowed, hurried over to another table with a couple of halflings and then a table with a dwarf, before then leaving the establishment and disappearing. The halflings and the dwarf finished their food and packed up their things before they quietly left as well. Wondering just who this messenger was I glanced at him to see he examining eyes looking towards me. In a relaxed voice the messenger said, "Don't mind them, were having such a nice conversation to have the others ruin it."
-
-At that point I realized that there was more to this human than I had initially thought. I wondered if he might be a bit more dangerous than I was giving him credit for. Perhaps a bit rashly I decided to see just how much this man knew, and so I quietly stated, "You wouldn't happen to have any plans to deal with the Shaloren?" Almost instantly the mans stance and posture changed before in a new tone he continued to speak, "Oh wouldn't it be so great to wipe those miserable louts from the face of Eyal. I assume you likely left your forest because you know they were responsible and would like nothing more than to bathe in their blood. Don't most of us all. In due time they will be made to pay in full for for unleashing the Spellblaze on Maj'Eyal."
-
-Cautiously I asked in as angry of a voice as I could muster, "Spellblaze, is that what they call it?" Quickly confirming back to me this he stated "indeed, or so I have been told." Seeing as how the man liked to talk I waited for him to feed me more information "I tell you what, perhaps you should come with me to a little gathering of friends to discuss it. We've got a plan that we will be putting into motion soon to ensure nature never suffers as badly as I'm sure you a thalore can feel it suffer. You see, while the Shaloren are most definitely responsible it isn't like none of the other races knew about their so called grand plan. Every race, save for perhaps the Dwarves, had some knowledge of the Spellblaze."
-
-Obviously the messenger was likely part of whatever group the shalore general had feared. I could tell that the messenger most definitely was in whatever schemes were being orchestrated too, and possibly ones that required secrecy as confirmed from the cloaked man from before. I considered going to his little gathering of friends, but I wasn't really interested in participating in whatever scheme they were going to partake in, and I could sense a feeling of danger as well. "I thank you for the offer, but I must decline" I finally said. To this I got a raised eyebrow as he quickly stated back, "Really, I would think a thalore such as yourself would jump at a chance to exact retribution against any who defile nature as has been done?"
-
-His words made me think for a moment, but I simply got up and left. I remember him calling out that should I change my mind, that I would be 'welcomed as a new initiate for sure'. The sun had begun to set in the sky as I left the building. Figuring I should look for a place to stay for the night I found an inn and purchased a room. I figured that in the morning I would go to the market and buy some food and supplies for my journey home. I slept soundly until early in the morning before the sun had begun to rise when the sounds of screaming filled my ears. Wondering what was going on I looked out the window of my room to see fire and smoke rising from a large building in the distance.]], [[[i]You know, it is really hard to know someone. The messenger was a good example of this, as I would soon find out. I had pegged him for being a disgruntled human that had suffered greatly because of the Spellblaze. In reality he was much more than just disgruntled, and I believe he may have been a member of the group instigating the Spellhunt. I'm sure he and the others who had left after with that human in the dark cloak died taking part in a nefarious plot that I would learn the day after. But did he die willingly? That's the real question I think about now in regards to him.[/i]
-
-Finishing my meal, I decided to probe the messenger for information. Upon the completion of his last tirade I asked, "So how are things faring here?" A sigh escaped the man as he answered, "Well, the Nargols appear to have everything under control. They are managing to get enough food for all the refugees streaming in; even managed to procure some alcohol for those dwarves. I have to say it was quite a surprise to see them out here. I wonder if they happen to have anymore homes elsewhere on the continent outside of the Iron Throne. Hard to really know with how secretive the dwarves are though."
-
-While I wasn't exactly interested in the dwarves, that last statement disconnected quite a bit from what I knew about them. From my knowledge of the dwarves, they all lived in the Iron Throne, or at least cities nearby to it. Querying the messenger he soon explained. "Well, the dwarves you see here now had a home over there in the western mountains. The Cornacs were completely ignorant that they had taken up residence so close to them, and the dwarves likely would have kept it a secret. Unfortunately for them they were forced to show themselves since the blasted mages caused their home to collapse in on them."
-
-Satisfied with that answer I remembered about that hollering dwarf when entering the city. I wondered if perhaps the messenger might know something about what that was all about. Noting it I said, "You wouldn't happen to know anything regarding items the dwarves might be carrying that the guards at the city gates would confiscate would you?" The messengers soldiers shrugged before he replied back, "Likely was carrying some item of arcane properties that an accursed mage enchanted long ago. Those dwarves seem to be getting the worse treatment in regards to that, what with the little care they give towards whether an item is contaminated with magic or not."
-
-Shaking his head before going on, the messenger mused aloud, "You know, the Nargol are actively attempting to confiscate items of magical origin as a means of appeasement to placate the halflings living here. They say that it's too dangerous for civilians to carry such items. Personally I say it is too dangerous for anyone to be carrying such items, them included. Of course they are too arrogant to bother fellow halflings living in the city already in regards to giving up such items, expecting them to 'voluntarily' give them up. Really it is just the dwarves, the halfling refugees from outside the city, and us humans getting our possessions taken away." The human proceeded to laugh as he finished saying these words.
-
-The messenger stopped laughing though as a human in a dark cloak approached and leaned down to say something to him. The messenger nodded to the figure upon which he said back, "I'll catch up later, relay back to me the plan when we are ready." To this the human in the dark cloak bowed, hurried over to another table with a couple of halflings and then a table with a dwarf, before then leaving the establishment and disappearing. The halflings and the dwarf finished their food and packed up their things before they quietly left as well. Wondering just who this messenger was I glanced at him to see he examining eyes looking towards me. In a relaxed voice the messenger said, "Don't mind them, were having such a nice conversation to have the others ruin it."
-
-At that point I realized that there was more to this human than I had initially thought. I wondered if he might be a bit more dangerous than I was giving him credit for. Perhaps a bit rashly I decided to see just how much this man knew, and so I quietly stated, "You wouldn't happen to have any plans to deal with the Shaloren?" Almost instantly the mans stance and posture changed before in a new tone he continued to speak, "Oh wouldn't it be so great to wipe those miserable louts from the face of Eyal. I assume you likely left your forest because you know they were responsible and would like nothing more than to bathe in their blood. Don't most of us all. In due time they will be made to pay in full for for unleashing the Spellblaze on Maj'Eyal."
-
-Cautiously I asked in as angry of a voice as I could muster, "Spellblaze, is that what they call it?" Quickly confirming back to me this he stated "indeed, or so I have been told." Seeing as how the man liked to talk I waited for him to feed me more information "I tell you what, perhaps you should come with me to a little gathering of friends to discuss it. We've got a plan that we will be putting into motion soon to ensure nature never suffers as badly as I'm sure you a thalore can feel it suffer. You see, while the Shaloren are most definitely responsible it isn't like none of the other races knew about their so called grand plan. Every race, save for perhaps the Dwarves, had some knowledge of the Spellblaze."
-
-Obviously the messenger was likely part of whatever group the shalore general had feared. I could tell that the messenger most definitely was in whatever schemes were being orchestrated too, and possibly ones that required secrecy as confirmed from the cloaked man from before. I considered going to his little gathering of friends, but I wasn't really interested in participating in whatever scheme they were going to partake in, and I could sense a feeling of danger as well. "I thank you for the offer, but I must decline" I finally said. To this I got a raised eyebrow as he quickly stated back, "Really, I would think a thalore such as yourself would jump at a chance to exact retribution against any who defile nature as has been done?"
-
-His words made me think for a moment, but I simply got up and left. I remember him calling out that should I change my mind, that I would be 'welcomed as a new initiate for sure'. The sun had begun to set in the sky as I left the building. Figuring I should look for a place to stay for the night I found an inn and purchased a room. I figured that in the morning I would go to the market and buy some food and supplies for my journey home. I slept soundly until early in the morning before the sun had begun to rise when the sounds of screaming filled my ears. Wondering what was going on I looked out the window of my room to see fire and smoke rising from a large building in the distance.]], "_t")
-t([[[i]In the market I purchased several items to help me for when I forged my way back towards Thaloren lands. I bought about three weeks worth of rations for myself as I had planned to perhaps 'explore' a little bit before finally arriving home. I also procured a fine steel utility knife and a steel hatchet. I wasn't sure I would really need this much for my journey, I could likely have explored the entirety of Maj'Eyal with it, but I never imagined what role everything I bought in that market would soon come to play in the future.[/i]
-
-Out of my window I saw many residents of the city run to help deal with the fire. They quickly got to work in cordoning off the area and preventing it from further spreading, but despite their efforts, many homes were enveloped in flames before the fire was fully contained. Before long many soldiers arrived and pushed back everyone, including those residents helping to put out the fire. For a small while the fire was left to burn, though it soon began to diminish. I don't know how they did it, but soon after the fires began to die down. Maybe perhaps some mages had come out of hiding and they used water magic in secret to drown it out? It is hard to think of any other explanation.
-
-As the fires began to simmer, some of the soldiers moved to inspect the burnt out homes for anyone who many not have escaped from the fire’s destruction. After that they moved on to investigate the building where the fire first started. I noticed after some of the soldiers had entered the building that they were pulling out several bundles wrapped in blankets. I would come to learn that these bundles were the remains of those suspected of starting the fire. Whether by accident or on purpose, they had been killed by their own act of arson. I would also learn that those killed consisted of a human, two halflings, and a dwarf. I'm certainly glad I left the messenger when I did.
-
-During this time I remained in my room. When I finally left I talked with the innkeeper about the event, learning that the building was the one that housed many of the possessions that had been confiscated from the refugees. When I left the inn I could hear the conversations from many of the residents on the streets as they talked about the destruction of nearly every arcane item stored within the storehouse. They also murmured that some of the residents from the nearby homes were suspected to have been killed by the fire, as well a couple of the residents who had come to help put out the fire initially.
-
-The fire would be talked about continually as I made my way to the Nargol market. Even there many of the merchants and patrons continued their talk of the event. Finishing up my purchases, it was at this point that I remembered another patron noting something about how the refugees were quite upset. I turned to approach the patron saying, "Exactly why would the refugees be upset." The patron, a halfling who wore fairly fine clothes but appeared to be of common work turned with a stunned look in my direction. Sighing I soon stated "Yes, I'm a thalore, what's up with the refugees." "Indeed you are,” the halfling quickly stated "well, I don't know why they are upset. You'd think they would be content with getting food and drink as well as being allowed to put up those miserable tents in the city. Something about the fire has seemingly stirred them up."
-
-The halfling stopped talking to look up at something with a concerned expression, before turning around and abruptly running. As the halfling fled I soon heard the yelling behind me. Turning around I saw as a mob of ragged refugees rush through the stalls as the merchants began to flee. Wood was smashed and cloth torn as the refugees moved by them. I moved in the opposite direction away from them, but patrons and merchants who couldn't get away were knocked down and trampled. A few who attempted to stand up to the mob or protect their stalls soon found themselves beaten and bruised on the ground.
-
-This continued for several minutes before the first guards appeared to have restored order. It took the guards several minutes to assemble themselves, within which the refugees continued to wreck a good deal of the market. When the guards finally moved in to clear them out, many of the refugees scattered, leaving debris and injured merchants and patrons everywhere. As order was restored to the scene, some guards came to check to see if I was alright before one of the guards pulled me aside to interrogate me as to what had happened. I relayed back to the guard the events as I had seen them unfolded. After telling my account I was directed to leave the area.
-
-Moving away from the market I wondered what other scenes of chaos I might see if I remained within the Nargol city. While I had evaded danger, it could have very well been me getting trampled or knocked aside in that market. I made a decision then to begin making my way back towards the city gates. As I made my way towards the gates though I noticed a gathering mob of refugees and even some citizens in front of me. I should have headed past them but beyond them I heard a voice ringing out above. "The time has come for action, but it must be directed at the source of those behind all the harm." I stopped and turned my head as I heard the words, something compelling me to stay and listen to what was being said. Drawn in by the voice I began to make my way towards the outskirt of the crowd.]], [[[i]In the market I purchased several items to help me for when I forged my way back towards Thaloren lands. I bought about three weeks worth of rations for myself as I had planned to perhaps 'explore' a little bit before finally arriving home. I also procured a fine steel utility knife and a steel hatchet. I wasn't sure I would really need this much for my journey, I could likely have explored the entirety of Maj'Eyal with it, but I never imagined what role everything I bought in that market would soon come to play in the future.[/i]
-
-Out of my window I saw many residents of the city run to help deal with the fire. They quickly got to work in cordoning off the area and preventing it from further spreading, but despite their efforts, many homes were enveloped in flames before the fire was fully contained. Before long many soldiers arrived and pushed back everyone, including those residents helping to put out the fire. For a small while the fire was left to burn, though it soon began to diminish. I don't know how they did it, but soon after the fires began to die down. Maybe perhaps some mages had come out of hiding and they used water magic in secret to drown it out? It is hard to think of any other explanation.
-
-As the fires began to simmer, some of the soldiers moved to inspect the burnt out homes for anyone who many not have escaped from the fire’s destruction. After that they moved on to investigate the building where the fire first started. I noticed after some of the soldiers had entered the building that they were pulling out several bundles wrapped in blankets. I would come to learn that these bundles were the remains of those suspected of starting the fire. Whether by accident or on purpose, they had been killed by their own act of arson. I would also learn that those killed consisted of a human, two halflings, and a dwarf. I'm certainly glad I left the messenger when I did.
-
-During this time I remained in my room. When I finally left I talked with the innkeeper about the event, learning that the building was the one that housed many of the possessions that had been confiscated from the refugees. When I left the inn I could hear the conversations from many of the residents on the streets as they talked about the destruction of nearly every arcane item stored within the storehouse. They also murmured that some of the residents from the nearby homes were suspected to have been killed by the fire, as well a couple of the residents who had come to help put out the fire initially.
-
-The fire would be talked about continually as I made my way to the Nargol market. Even there many of the merchants and patrons continued their talk of the event. Finishing up my purchases, it was at this point that I remembered another patron noting something about how the refugees were quite upset. I turned to approach the patron saying, "Exactly why would the refugees be upset." The patron, a halfling who wore fairly fine clothes but appeared to be of common work turned with a stunned look in my direction. Sighing I soon stated "Yes, I'm a thalore, what's up with the refugees." "Indeed you are,” the halfling quickly stated "well, I don't know why they are upset. You'd think they would be content with getting food and drink as well as being allowed to put up those miserable tents in the city. Something about the fire has seemingly stirred them up."
-
-The halfling stopped talking to look up at something with a concerned expression, before turning around and abruptly running. As the halfling fled I soon heard the yelling behind me. Turning around I saw as a mob of ragged refugees rush through the stalls as the merchants began to flee. Wood was smashed and cloth torn as the refugees moved by them. I moved in the opposite direction away from them, but patrons and merchants who couldn't get away were knocked down and trampled. A few who attempted to stand up to the mob or protect their stalls soon found themselves beaten and bruised on the ground.
-
-This continued for several minutes before the first guards appeared to have restored order. It took the guards several minutes to assemble themselves, within which the refugees continued to wreck a good deal of the market. When the guards finally moved in to clear them out, many of the refugees scattered, leaving debris and injured merchants and patrons everywhere. As order was restored to the scene, some guards came to check to see if I was alright before one of the guards pulled me aside to interrogate me as to what had happened. I relayed back to the guard the events as I had seen them unfolded. After telling my account I was directed to leave the area.
-
-Moving away from the market I wondered what other scenes of chaos I might see if I remained within the Nargol city. While I had evaded danger, it could have very well been me getting trampled or knocked aside in that market. I made a decision then to begin making my way back towards the city gates. As I made my way towards the gates though I noticed a gathering mob of refugees and even some citizens in front of me. I should have headed past them but beyond them I heard a voice ringing out above. "The time has come for action, but it must be directed at the source of those behind all the harm." I stopped and turned my head as I heard the words, something compelling me to stay and listen to what was being said. Drawn in by the voice I began to make my way towards the outskirt of the crowd.]], "_t")
-t([[[i]Was it anger against magic that drove people to the acts of violence against mages in the aftermath of the Spellblaze or was it perhaps something else? While I can't say I am an expert on the humans, halflings, or dwarves; the depravity I would witness on the street leading out of the Nargol Kingdom would go beyond what I would expect to have been possible for any sentient being to do.[/i]
-
-As I peered in the voice rang out again. "Aimlessly your anger is directed against those who do not deserve it, I say direct it against the source of all the tragedies that have been inflicted" I began to push my way through the crowd, wondering who was speaking or what they were speaking about. The voice continued, "Wherever magic is found, it will eventually fail and bring calamity. The fire from this morning was an example of this, as a bunch of refugees broke into the warehouse where their confiscated magical items were stored to retrieve them. In their hubris they burned down the building with the arcane powers found within the items therein."
-
-Making my way towards the middle, I looked up to see a halfling and a human facing out to the crowd. They wore a couple of masks that hid their identities, but I recognized the dark cloak worn by the human. Judging from the fact that human was raising his arms I assumed he was speaking, though I can't say for sure as the masks they wore covered their facial expressions. The voice began again "The results of the fire killed many of the residents sleeping within their houses nearby, more lives killed by magic. The only good thing that can be said of the incident was that many of those same magical items they sought to take were destroyed in the ensuing fire, no longer staining the world with their taint.
-
-Within my mind the words of the voice pierced through my head, I could feel the anger behind the voice as it continued to speak. I saw those around me being swayed by both the words spoken and emotions behind them. Many beginning to say such things as 'magic is to blame' and 'down with magic' as the voice continued again "Of course, you need not be told about the devastation you have already seen firsthand. Much like the actions that led to the warehouse being burned down, it was the shaloren mages that unleashed the destruction that ravaged the lands and warped the skies. It is as I continue to say, wherever magic is found it, it will eventually fail and bring calamity."
-
-The voice began to speak faster and with more passion as it continued on. "There can be no denying that we would be better off free from the effects of magic, lest we see these calamities continue to repeat. The Nargol Regents will take no action against the halflings within this city in their searches. If we are to protect our world, we will have to take up the task ourselves. Any artefact or item with even a hint of magical nature must be identified and promptly destroyed to prevent it from causing harm. We must also see to it that those who practice or who have any connection to the deplorable activities of the arcane are dealt with as well, lest they trigger another catastrophe in their arrogance."
-
-By this point the crowd was beginning to chant such phrases as 'destroy the arcane', 'kill the spellcasters', and 'end the magic arts'. I myself was also beginning to feel the sentiment too, though resisted the urge to join in. Soon the voice began to issue instructions, demanding wood be brought into the street, and justice be enacted. The crowd began to disperse through the nearby buildings, and they began to pile the wood on the ground. More masked individuals began to step forward, carrying stakes of wood on their shoulders as well as large bundles of rope. I was puzzled as stakes of wood were erected towards the sky within the piles of wood that had been raised.
-
-While the wood was being placed, the voice began to give out names of those suspected of magical wrongdoing within the city. A new instruction was given to bring them here, along with any magical items that could be found. Before long groups of the crowd made their way into houses and even into tents of the refugees, bringing back many of those I had assumed to be named. Those being brought cried out as they were dragged on the ground in confusion and terror. The voice then instructed that they be tied to the stakes of wood that had been erected and their magical items cast at their feet. Hearing this, the crowd immediately grabbed the rope and individuals were bounded by their hands and feet to the wood.
-
-As if guided by some twisted force, accusations of magical wrongdoings were made by the masked individuals against those who were bound. Sometimes certain items were picked up, and by some warped practice they were made to produce sickly glows. Those deemed guilty by the crowd were kicked and beaten, unable to defend themselves as they remain bound to the stakes. Before long, a couple of those individuals wearing masks came forward with unlit torches. It was at this point I began to realize what the wood was for, as the torches were lit and began to dance with flame. What happened next I still remember vividly in my mind, as if burned by the thrown torches that glided through the air and the searing flames that spread across the wood.
-
-The burning victims immediately began to let loose a torrent of screams as the smoldering heat crawled up their bodies and their skin began to blacken and burn. As this was happening I could hear the voice who had stirred the people around me to these brutal acts let loose a wretched cry that echoed through my head. The rest of the crowd followed suit, their symphony of cries building in a crescendo to the point that they were the only ones heard as their victims slowly ceased to live. I remember retching uncontrollable as I staggered away to the side of a building.
-
-The horribleness of the act truly sickened me to my very being, but I was perhaps more sickened by what the voice would come to say next. "You all have done well, but it will take more than this to make our world safe" the voice said. "If you wish you can join me in the fight for nature and we can ensure that arcane forces like those that have brought us misery will never threaten the world again. Find me and be welcomed as a new initiate for our cause to save Eyal." I remember that I could see many of the masked individuals disappear into the crowds at this point, their aims achieved. I would come to learn very quickly as well just how much of an impact there words would have on that mob in front of me too.
-
-A group of the Nargol Guards would eventual appear and they began to gather themselves to disperse the crowd and restore order. The crowd offered little resistance to the encroaching force of guards that rushed forward, and many fled into the dark alleys of buildings or through the tents of the refugees. As the guards took control of the area, their attention turned towards the simmering fire and the charred corpses. Cries of anguish came from individuals who I assumed to be loved ones and friends of those killed. At this point I could take no more of the events that were unfolding in front of me, and I turned to leave the area and the fiery carnage that had taken place. However as I passed by a tent a hand reached out of its opening, throwing me inside.]], [[[i]Was it anger against magic that drove people to the acts of violence against mages in the aftermath of the Spellblaze or was it perhaps something else? While I can't say I am an expert on the humans, halflings, or dwarves; the depravity I would witness on the street leading out of the Nargol Kingdom would go beyond what I would expect to have been possible for any sentient being to do.[/i]
-
-As I peered in the voice rang out again. "Aimlessly your anger is directed against those who do not deserve it, I say direct it against the source of all the tragedies that have been inflicted" I began to push my way through the crowd, wondering who was speaking or what they were speaking about. The voice continued, "Wherever magic is found, it will eventually fail and bring calamity. The fire from this morning was an example of this, as a bunch of refugees broke into the warehouse where their confiscated magical items were stored to retrieve them. In their hubris they burned down the building with the arcane powers found within the items therein."
-
-Making my way towards the middle, I looked up to see a halfling and a human facing out to the crowd. They wore a couple of masks that hid their identities, but I recognized the dark cloak worn by the human. Judging from the fact that human was raising his arms I assumed he was speaking, though I can't say for sure as the masks they wore covered their facial expressions. The voice began again "The results of the fire killed many of the residents sleeping within their houses nearby, more lives killed by magic. The only good thing that can be said of the incident was that many of those same magical items they sought to take were destroyed in the ensuing fire, no longer staining the world with their taint.
-
-Within my mind the words of the voice pierced through my head, I could feel the anger behind the voice as it continued to speak. I saw those around me being swayed by both the words spoken and emotions behind them. Many beginning to say such things as 'magic is to blame' and 'down with magic' as the voice continued again "Of course, you need not be told about the devastation you have already seen firsthand. Much like the actions that led to the warehouse being burned down, it was the shaloren mages that unleashed the destruction that ravaged the lands and warped the skies. It is as I continue to say, wherever magic is found it, it will eventually fail and bring calamity."
-
-The voice began to speak faster and with more passion as it continued on. "There can be no denying that we would be better off free from the effects of magic, lest we see these calamities continue to repeat. The Nargol Regents will take no action against the halflings within this city in their searches. If we are to protect our world, we will have to take up the task ourselves. Any artefact or item with even a hint of magical nature must be identified and promptly destroyed to prevent it from causing harm. We must also see to it that those who practice or who have any connection to the deplorable activities of the arcane are dealt with as well, lest they trigger another catastrophe in their arrogance."
-
-By this point the crowd was beginning to chant such phrases as 'destroy the arcane', 'kill the spellcasters', and 'end the magic arts'. I myself was also beginning to feel the sentiment too, though resisted the urge to join in. Soon the voice began to issue instructions, demanding wood be brought into the street, and justice be enacted. The crowd began to disperse through the nearby buildings, and they began to pile the wood on the ground. More masked individuals began to step forward, carrying stakes of wood on their shoulders as well as large bundles of rope. I was puzzled as stakes of wood were erected towards the sky within the piles of wood that had been raised.
-
-While the wood was being placed, the voice began to give out names of those suspected of magical wrongdoing within the city. A new instruction was given to bring them here, along with any magical items that could be found. Before long groups of the crowd made their way into houses and even into tents of the refugees, bringing back many of those I had assumed to be named. Those being brought cried out as they were dragged on the ground in confusion and terror. The voice then instructed that they be tied to the stakes of wood that had been erected and their magical items cast at their feet. Hearing this, the crowd immediately grabbed the rope and individuals were bounded by their hands and feet to the wood.
-
-As if guided by some twisted force, accusations of magical wrongdoings were made by the masked individuals against those who were bound. Sometimes certain items were picked up, and by some warped practice they were made to produce sickly glows. Those deemed guilty by the crowd were kicked and beaten, unable to defend themselves as they remain bound to the stakes. Before long, a couple of those individuals wearing masks came forward with unlit torches. It was at this point I began to realize what the wood was for, as the torches were lit and began to dance with flame. What happened next I still remember vividly in my mind, as if burned by the thrown torches that glided through the air and the searing flames that spread across the wood.
-
-The burning victims immediately began to let loose a torrent of screams as the smoldering heat crawled up their bodies and their skin began to blacken and burn. As this was happening I could hear the voice who had stirred the people around me to these brutal acts let loose a wretched cry that echoed through my head. The rest of the crowd followed suit, their symphony of cries building in a crescendo to the point that they were the only ones heard as their victims slowly ceased to live. I remember retching uncontrollable as I staggered away to the side of a building.
-
-The horribleness of the act truly sickened me to my very being, but I was perhaps more sickened by what the voice would come to say next. "You all have done well, but it will take more than this to make our world safe" the voice said. "If you wish you can join me in the fight for nature and we can ensure that arcane forces like those that have brought us misery will never threaten the world again. Find me and be welcomed as a new initiate for our cause to save Eyal." I remember that I could see many of the masked individuals disappear into the crowds at this point, their aims achieved. I would come to learn very quickly as well just how much of an impact there words would have on that mob in front of me too.
-
-A group of the Nargol Guards would eventual appear and they began to gather themselves to disperse the crowd and restore order. The crowd offered little resistance to the encroaching force of guards that rushed forward, and many fled into the dark alleys of buildings or through the tents of the refugees. As the guards took control of the area, their attention turned towards the simmering fire and the charred corpses. Cries of anguish came from individuals who I assumed to be loved ones and friends of those killed. At this point I could take no more of the events that were unfolding in front of me, and I turned to leave the area and the fiery carnage that had taken place. However as I passed by a tent a hand reached out of its opening, throwing me inside.]], "_t")
-t([[[i]I'm told that what I likely witnessed in the tent was the result of a psionic slaver. Using my own psyche against me, a manifested image of my own thoughts emerged for which the slaver could use against me. I had been lucky as I had managed to free myself from the slaver's hold, dispelling the image. Had I not done so, it was entirely possible that I could have become enthralled to the slavers will and made to do their bidding unquestioningly.[/i]
-
-I hit the ground hard as I landed towards the back of the tent. Dazed I began to stand to look up at who had thrown me, coming face to face with one of the masked individuals, who I assumed helped take part in the event I had just seen. Slowly a hand reach up to remove the mask, revealing the face of the human messenger. He began to laugh before finally speaking and saying, "Fancy meeting you here, I knew I saw something in you when we conversed in the inn." The messenger laughed some more while I got up. I must have been in a bit of shock from the impact as my vision seemed fuzzy and hazy, while the things in the tent seemingly blurred together. Demandingly I responded to the messenger, “What to you want, why have you thrown me in here?"
-
-The messenger stopped laughing and a calm smile appeared on his face, "Because I would like to have words with you, of course. What were you doing when you came here, when you came to the Nargol Kingdom?" I froze at those words, wondering how much danger I was in. The messenger stood unnaturally silent, his eyes seemingly reading me as thoughts of what to say flew through my mind. I stuttered in fright "I-I was del-livering some med-i-cal aid for th-the Nargols to us-e." A hard blow then struck my face as the messenger slapped me, sending me reeling to the side of the tent. The messenger stated in a raised voice “Indeed," before turning his head to shout at me saying "FROM THE Shaloren!"
-
-Taking a step forward the messenger gave me a hard kick to the stomach, the force winding me and causing me to fall to the ground. I soon received another kick with the back of the heel to my face, causing blood to stream out. Bending down and picking me up by my hair the messenger drew me close to his face, spitting in it with both his saliva and his words, "I had thought better of you since you killed that Eldoral halfling. I figured you might be a fellow ally of nature, but that isn't the case, is it? You made it down to those shaloren, beyond that little wall of magic smoke they put up to hide themselves from us. You could have carried out a small portion of nature's wrath, but instead of enacting nature's fury you turned your back on it AND SIDED WITH THOSE WHO UNLEASHED THE SPELLBLAZE ON US!"
-
-Crying now I was sobbing tears that mixed with the blood coming out of my face. Between sobs I quickly stated, "Enough pain has been felt already without adding to it-" before my head was abruptly smashed into the ground by the messenger. He yelled back "NO AMOUNT OF PAIN, FAY, WILL MAKE UP FOR WHAT THEY HAVE DONE! Every last one of those shaloren deserves to die. To die as painfully as those we burned-." The messenger continued to rant, but hearing my name called I stopped to think, ignoring the rest of what he had to say. How did he know my name? I never gave it to him, to anyone in the Nargol Kingdom, or even any of the shaloren for that matter. "How do you know my name?" I said to the messenger.
-
-His ranting cut off immediately as the messenger looked down at me before replying, "Whatever do you mean Fay, you told me your name back at when, when-." Abruptly the messenger stopped talking, and seemingly the facial expressions seemed to fade away, leaving a faceless humanoid. I didn't know what was going on but knew then this was an imposter. I could feel an anger within me, and with my hand I grabbed whatever it was that I had been talking to. It struggled to keep a hold of me, trying to keep me down, but being closer to the ground I managed to pull it down with me. With my other hand I pulled back and began to punch at its head, until it seemingly faded from existence.
-
-I began to regain vision of my surroundings and looking around I noticed the human with the dark cloak. I quickly realized this was the same human who had briefly visited the messenger when I was talking to him in the inn, as well as the one who stood in the center of the crowd and likely instigated the barbaric display outside. Getting up I said again, "Who are you really?" The figure began to back up in the direction of the tent opening, as if to escape now that I was free of whatever had been done to me. Moving to chase the fiend before he fled out of the tent, I began to run towards the opening. I don't know what happened next but the next moment I found myself face down on the ground.
-
-I was pinned to the ground, unable to move or speak. Attempting to look at what was above me I noticed a halfling, likely the same one that had been standing with the human in the crowd. The human stopped moving away and after a brief moment of surveying the situation came up to stand next to me. As the human hovered over me he stated, "That was quite unexpected, you must have some impressive willpower to resist me thalore. I'm afraid though that if I can't bend you to my will then I am going to have to kill you." As the words trailed off, the human reached with one hand into its cloak, pulling out a small dagger with which I assumed to kill me.
-
-I jostled around attempting to break free of the halfling’s hold, yet somehow despite the halfling’s smaller size than my own I could not break free, and he was doing this with just one arm. Taking the dagger in hand, the human pulled back and then thrust forward to finish me off. I was sure I would be killed, but in the next instant I noticed the dagger tumbling in the air. A bit confused at this, it would take me a moment to realize that the halfling that was holding me down had prevented the human from killing me. Seemingly as confused as me, the human seemingly look at the halfling with disbelief. Finally coming to his senses, the human finally regained his composure to ask the simple question on both of our minds. "What are you doing?"]], [[[i]I'm told that what I likely witnessed in the tent was the result of a psionic slaver. Using my own psyche against me, a manifested image of my own thoughts emerged for which the slaver could use against me. I had been lucky as I had managed to free myself from the slaver's hold, dispelling the image. Had I not done so, it was entirely possible that I could have become enthralled to the slavers will and made to do their bidding unquestioningly.[/i]
-
-I hit the ground hard as I landed towards the back of the tent. Dazed I began to stand to look up at who had thrown me, coming face to face with one of the masked individuals, who I assumed helped take part in the event I had just seen. Slowly a hand reach up to remove the mask, revealing the face of the human messenger. He began to laugh before finally speaking and saying, "Fancy meeting you here, I knew I saw something in you when we conversed in the inn." The messenger laughed some more while I got up. I must have been in a bit of shock from the impact as my vision seemed fuzzy and hazy, while the things in the tent seemingly blurred together. Demandingly I responded to the messenger, “What to you want, why have you thrown me in here?"
-
-The messenger stopped laughing and a calm smile appeared on his face, "Because I would like to have words with you, of course. What were you doing when you came here, when you came to the Nargol Kingdom?" I froze at those words, wondering how much danger I was in. The messenger stood unnaturally silent, his eyes seemingly reading me as thoughts of what to say flew through my mind. I stuttered in fright "I-I was del-livering some med-i-cal aid for th-the Nargols to us-e." A hard blow then struck my face as the messenger slapped me, sending me reeling to the side of the tent. The messenger stated in a raised voice “Indeed," before turning his head to shout at me saying "FROM THE Shaloren!"
-
-Taking a step forward the messenger gave me a hard kick to the stomach, the force winding me and causing me to fall to the ground. I soon received another kick with the back of the heel to my face, causing blood to stream out. Bending down and picking me up by my hair the messenger drew me close to his face, spitting in it with both his saliva and his words, "I had thought better of you since you killed that Eldoral halfling. I figured you might be a fellow ally of nature, but that isn't the case, is it? You made it down to those shaloren, beyond that little wall of magic smoke they put up to hide themselves from us. You could have carried out a small portion of nature's wrath, but instead of enacting nature's fury you turned your back on it AND SIDED WITH THOSE WHO UNLEASHED THE SPELLBLAZE ON US!"
-
-Crying now I was sobbing tears that mixed with the blood coming out of my face. Between sobs I quickly stated, "Enough pain has been felt already without adding to it-" before my head was abruptly smashed into the ground by the messenger. He yelled back "NO AMOUNT OF PAIN, FAY, WILL MAKE UP FOR WHAT THEY HAVE DONE! Every last one of those shaloren deserves to die. To die as painfully as those we burned-." The messenger continued to rant, but hearing my name called I stopped to think, ignoring the rest of what he had to say. How did he know my name? I never gave it to him, to anyone in the Nargol Kingdom, or even any of the shaloren for that matter. "How do you know my name?" I said to the messenger.
-
-His ranting cut off immediately as the messenger looked down at me before replying, "Whatever do you mean Fay, you told me your name back at when, when-." Abruptly the messenger stopped talking, and seemingly the facial expressions seemed to fade away, leaving a faceless humanoid. I didn't know what was going on but knew then this was an imposter. I could feel an anger within me, and with my hand I grabbed whatever it was that I had been talking to. It struggled to keep a hold of me, trying to keep me down, but being closer to the ground I managed to pull it down with me. With my other hand I pulled back and began to punch at its head, until it seemingly faded from existence.
-
-I began to regain vision of my surroundings and looking around I noticed the human with the dark cloak. I quickly realized this was the same human who had briefly visited the messenger when I was talking to him in the inn, as well as the one who stood in the center of the crowd and likely instigated the barbaric display outside. Getting up I said again, "Who are you really?" The figure began to back up in the direction of the tent opening, as if to escape now that I was free of whatever had been done to me. Moving to chase the fiend before he fled out of the tent, I began to run towards the opening. I don't know what happened next but the next moment I found myself face down on the ground.
-
-I was pinned to the ground, unable to move or speak. Attempting to look at what was above me I noticed a halfling, likely the same one that had been standing with the human in the crowd. The human stopped moving away and after a brief moment of surveying the situation came up to stand next to me. As the human hovered over me he stated, "That was quite unexpected, you must have some impressive willpower to resist me thalore. I'm afraid though that if I can't bend you to my will then I am going to have to kill you." As the words trailed off, the human reached with one hand into its cloak, pulling out a small dagger with which I assumed to kill me.
-
-I jostled around attempting to break free of the halfling’s hold, yet somehow despite the halfling’s smaller size than my own I could not break free, and he was doing this with just one arm. Taking the dagger in hand, the human pulled back and then thrust forward to finish me off. I was sure I would be killed, but in the next instant I noticed the dagger tumbling in the air. A bit confused at this, it would take me a moment to realize that the halfling that was holding me down had prevented the human from killing me. Seemingly as confused as me, the human seemingly look at the halfling with disbelief. Finally coming to his senses, the human finally regained his composure to ask the simple question on both of our minds. "What are you doing?"]], "_t")
-t([[[i]Truly there was no place showing more damage in all of Eyal than its southern shoreline. Though I have not traveled to the eastern side of the continent, I can't imagine it potentially being destroyed to the extent that it has been here. These lands will never fully heal, but I do hope it will serve as a reminder the to Shaloren, to never brashly use magic in such a way again.[/i]
-
-Following the travel instructions that I had received from the halfling, I proceeded south. I did not know why I didn't just travel north back home, something about the anger burning within me fueled me to find the instructors of these masked fanatics. As I traveled south the sky would begin to turn a shade of colors from blue to purple and then a blackish red, and before long I couldn't even see the sun anymore. There was no sign that any of the lands around me escaped the destructive energies of the Spellblaze here. Eventually after a full day of travel, I set up camp near some burnt out trees. There was little to forage for in the destroyed wilderness, but I was able to find some edible berries and mushrooms to feed myself with and save on my provisions.
-
-The next day I continued on my journey. After a few hours I reached the southern shoreline, a grotesque sight to say the least. The waters bubbled as if being boiled and the ground was charred black. What trees or plants that still stood were completely burnt, dead and lifeless; as was the wildlife that had not escaped, their corpses left untouched by the bugs and worms. Looking up all I could see was dark clouds against a blackened sky. To the east I noticed small pools of lava escaping to the surface. Some of the lava formed small lakes or streams of red hot death which I cautiously had to avoid. Looking to the north I noticed the lands jaggedly shooting out unnaturally towards the sky.
-
-Moving closer towards the raised landscape I noticed that they rose as high as a mountain in the distance. Climbing a hill I saw how the unnatural rocks formed twisting chasms and pointy spikes that would almost certainly be suicide to traverse. Remembering back to the shaloren soldiers I had treated in Elvala, I quickly realized why they had moved northwards to come home. The center of the continent where the Midvale Plains had been located were now no more. Now the plains had been replaced by this deadly gauntlet of rock that would certainly kill anyone inside it, and likely anyone who had been living on the plains before the Spellblaze.
-
-Beginning to travel through the devastated landscape I had to be careful. As I made my way east the light of the sun was seemingly snuffed out by the smoke and debris of the area and the only way I could see my footing was from the glow of the nearby lava dotting the landscape. I don't know for how many days I would travel eastwards, but my progress though the lands was slow. Eventually I would see a river of lava flowing down to the open sea, and beyond that the burnt out remains of what I assumed was a forest. Seeing my way blocked, I looked north and noticed a clearing in the land and so I continued my way there to see if I could find safe passage.
-
-I carefully made my way up the terrain to a plateau and saw a small opening appear in the jutted mountains up ahead. While the land I crossed was hilly, I was able to find decent footing through the lethal landscape of deadly drops and pitfalls. Slowly I made my way through, finding a path leading downwards into what I hope would lead to the other side. Suddenly though in the distance I could see the figure of a group advancing fast towards me. Drawing closer to me, one of the figures in the group saw me, yelled out to the others, and they slowed to a cautious crawl. As they approached, I was a bit of a miss as to what race these beings were.
-
-They were tall, even taller than me, and I could see their bulging mass of muscles on their bodies from quite a distance away. Something also glistened on their skin, which as they grew closer I noticed to be glowing insignias similar to those I saw on runes in Elvala. Getting into earshot, one of the beings finally called out, "If you plan on taking us back, be prepared for a fight!" At that moment I realized that these were yet more victims of those masked fanatics. In a sign to show I wasn't hostile I put my belongings on the ground and stepped back from them. The action seemed to take the beings back a bit, and though still on edge they assumed a less aggressive stance.
-
-"You aren't aligned at all with those zealots are you? My apologies for any distress we may have caused you." I merely shook me head as their words reached me, before proceeding to ask who they were and what had happened. "Never seen an ogre before I assume? We are, or we were, a nomadic tribe that wandered the lands as peddlers. Mostly we sold runes and infusions but we also sold other various small trinkets too. Then magic rained down from the sky and the earth opened up, destroying everything and killing many. We immediately went to help those we could in a nearby human city."
-
-At this point tears began to stream down the ogres face. Continuing to speak between sobs the ogre continued, "I'm not sure why, but a small band attack us." At this point the ogre began to cry to the point that it was unable to speak, and seeing this another ogre continued, "We were bound in chains and taken to a small settlement just beyond this path. There we were subjected to insane experiments, something about 'cleansing us', and we witnessed a great many ogres die in grotesque and horrible ways. Realizing we would meet a similar fate we broke out of our bonds and made to escape from our cages." The ogre paused for a bit, looking behind me at the devastated landscape, then stated, "Although I'm not exactly sure where we may run to."]], [[[i]Truly there was no place showing more damage in all of Eyal than its southern shoreline. Though I have not traveled to the eastern side of the continent, I can't imagine it potentially being destroyed to the extent that it has been here. These lands will never fully heal, but I do hope it will serve as a reminder the to Shaloren, to never brashly use magic in such a way again.[/i]
-
-Following the travel instructions that I had received from the halfling, I proceeded south. I did not know why I didn't just travel north back home, something about the anger burning within me fueled me to find the instructors of these masked fanatics. As I traveled south the sky would begin to turn a shade of colors from blue to purple and then a blackish red, and before long I couldn't even see the sun anymore. There was no sign that any of the lands around me escaped the destructive energies of the Spellblaze here. Eventually after a full day of travel, I set up camp near some burnt out trees. There was little to forage for in the destroyed wilderness, but I was able to find some edible berries and mushrooms to feed myself with and save on my provisions.
-
-The next day I continued on my journey. After a few hours I reached the southern shoreline, a grotesque sight to say the least. The waters bubbled as if being boiled and the ground was charred black. What trees or plants that still stood were completely burnt, dead and lifeless; as was the wildlife that had not escaped, their corpses left untouched by the bugs and worms. Looking up all I could see was dark clouds against a blackened sky. To the east I noticed small pools of lava escaping to the surface. Some of the lava formed small lakes or streams of red hot death which I cautiously had to avoid. Looking to the north I noticed the lands jaggedly shooting out unnaturally towards the sky.
-
-Moving closer towards the raised landscape I noticed that they rose as high as a mountain in the distance. Climbing a hill I saw how the unnatural rocks formed twisting chasms and pointy spikes that would almost certainly be suicide to traverse. Remembering back to the shaloren soldiers I had treated in Elvala, I quickly realized why they had moved northwards to come home. The center of the continent where the Midvale Plains had been located were now no more. Now the plains had been replaced by this deadly gauntlet of rock that would certainly kill anyone inside it, and likely anyone who had been living on the plains before the Spellblaze.
-
-Beginning to travel through the devastated landscape I had to be careful. As I made my way east the light of the sun was seemingly snuffed out by the smoke and debris of the area and the only way I could see my footing was from the glow of the nearby lava dotting the landscape. I don't know for how many days I would travel eastwards, but my progress though the lands was slow. Eventually I would see a river of lava flowing down to the open sea, and beyond that the burnt out remains of what I assumed was a forest. Seeing my way blocked, I looked north and noticed a clearing in the land and so I continued my way there to see if I could find safe passage.
-
-I carefully made my way up the terrain to a plateau and saw a small opening appear in the jutted mountains up ahead. While the land I crossed was hilly, I was able to find decent footing through the lethal landscape of deadly drops and pitfalls. Slowly I made my way through, finding a path leading downwards into what I hope would lead to the other side. Suddenly though in the distance I could see the figure of a group advancing fast towards me. Drawing closer to me, one of the figures in the group saw me, yelled out to the others, and they slowed to a cautious crawl. As they approached, I was a bit of a miss as to what race these beings were.
-
-They were tall, even taller than me, and I could see their bulging mass of muscles on their bodies from quite a distance away. Something also glistened on their skin, which as they grew closer I noticed to be glowing insignias similar to those I saw on runes in Elvala. Getting into earshot, one of the beings finally called out, "If you plan on taking us back, be prepared for a fight!" At that moment I realized that these were yet more victims of those masked fanatics. In a sign to show I wasn't hostile I put my belongings on the ground and stepped back from them. The action seemed to take the beings back a bit, and though still on edge they assumed a less aggressive stance.
-
-"You aren't aligned at all with those zealots are you? My apologies for any distress we may have caused you." I merely shook me head as their words reached me, before proceeding to ask who they were and what had happened. "Never seen an ogre before I assume? We are, or we were, a nomadic tribe that wandered the lands as peddlers. Mostly we sold runes and infusions but we also sold other various small trinkets too. Then magic rained down from the sky and the earth opened up, destroying everything and killing many. We immediately went to help those we could in a nearby human city."
-
-At this point tears began to stream down the ogres face. Continuing to speak between sobs the ogre continued, "I'm not sure why, but a small band attack us." At this point the ogre began to cry to the point that it was unable to speak, and seeing this another ogre continued, "We were bound in chains and taken to a small settlement just beyond this path. There we were subjected to insane experiments, something about 'cleansing us', and we witnessed a great many ogres die in grotesque and horrible ways. Realizing we would meet a similar fate we broke out of our bonds and made to escape from our cages." The ogre paused for a bit, looking behind me at the devastated landscape, then stated, "Although I'm not exactly sure where we may run to."]], "_t")
-t([[[i]There is so little that is known of the ogres, and seemingly they know little of themselves either. This may have to do with my seclusion from the outside world, but I wonder if this race only recently came to Maj'Eyal? Viewing the Shaloren archives there is little mention of the ogres, and I don't believe even among the Thaloren we know much of them either. I wonder where the ogres truly come from?[/i]
-
-I could feel the stares of the entire group looking past me, at the uninviting landscape. They did not know where they could run to, only to run. Looking to establish if it was indeed the masked fanatics they were running from I asked, "Did the zealots you speak of wear masks on their faces?" The ogres immediately locked their stares back on me, the tense fear in their eyes telling me that the zealots they spoke of and the masked fanatics I had encountered were one and the same. I immediately remembered the anger within me that I felt, knowing that these ogres were now facing the same sinister fanatics that had initiated those atrocities in the Nargol Kingdom that I had recently witnessed.
-
-Immediately at that point I decided that if I could be of help to these victims of those madmen then I would. Remembering the Rune of Return that had been handed to me in Elvala I looked up and asked "If you follow me, I can lead you to Elvala. They have cut themselves off from the outside world, but I can get you inside the lands of the Shaloren where you will be safe." The ogres immediately looked up at me as I stated these words, though it appeared to be a look of shock and irritation more than anything else. "You would suggest we go to the Shaloren? Weren't they the ones behind this, this Spellblaze? We would be peacefully going about our lives if it wasn't for them turning the world upside down."
-
-Keeping my calm I decided to try persuading the ogres to go to Elvala replying, "Where else might you go to survive?" To this I received several frowns, but one pondered the question and asked, "Would they even help us, would we even be safe?" I stopped for a moment at the first question that was asked before responding, "They are unable help the outside world as a result of the actions from those same zealots that captured you. However, I know that they feel deeply for what they have done and I believe they will offer you sanctuary if you go to them. If you have nowhere else to go then allow me to bring you to them to ask for shelter." As I finished I noticed one ogre staring back. Some of the ogres noticed this and looked to the ogre as well before asking, "Is it them?"
-
-Carefully looking at the ogre I saw some sort of dark blue glow covering his eyes, as if allowing him to peer at something. Suddenly the ogre piped up all at once, "We need to move." All of a sudden I could see a grave expression take hold of every ogre in the group. One seemed to begin muttering in a panicked manner "what do we do" under their breath repeatedly. A bit confused at this I asked, “What is it?" The ogre who had been looking back quickly turned and came to me, looking deeply into my face with his eyes that had been glowing before, as if looking for something. Finally he stated in a deep ominous voice, "You better not be trying to deceive us thalore. Now, take us to Elvala. We need to move. NOW!"
-
-Taken off guard by the abruptness of the demand I simply stammered out "O-O-kay-ee." The ogre not missing a beat called to the others, "Let's go!" Quickly he grabbed my arm and we began to run, the thunderous sounds of the other ogres soon following. Recklessly we seemed to charge through the deathtraps of the land, jumping small chasms and skirting past sharp rock. What had taken me what had seemed a day to traverse we seemingly traveled in an hour. The ogre that kept ahold of my arm and sometimes lifted me up to avoid the hazards on the ground. We continued to run until I could see the shoreline. Pointing out the western direction that we needed to go with my other arm, the group swiftly turned and we began dodging the patches of lava.
-
-Beginning to pant and weave at this point, the ogre holding my arm finally began to slow down. Stopping he turned his head to look to our rear, the same dark blue glow appearing over his eyes once more. No longer content with my ignorance I finally asked what he was doing. The dark blue glow immediately faded as the ogre looked at me directly before giving a response. "I take it you aren't very well versed in runes, I suppose I shouldn't be surprised being how adverse you thaloren are to the arcane. I'm using a rune that grants me vision of what the terrain is like around me, though I'm not necessarily using it for that specific purpose right now." The ogre stopped talking for a moment to look back again.
-
-Chiming in to continue the explanation another ogre stated, "He's looking back to see how far away those zealots chasing us from their encampment are. "We were being chased?" I suppose I shouldn't have expected any less from those magic hating fanatics. Likely they would very much want to recapture the ogres for whatever nefarious intentions they had. I began to recall the events I had recently witnessed them perpetrate and how I felt sick afterwards. I wondered what atrocities these ogres had suffered by their hands. Looking to stop myself from recalling anymore of those terrible memories I quickly pressed the ogre on how they knew we were being chased.
-
-"To give you the short version, his vision rune is giving him the power to see the general location of the individuals pursuing us. There is a bit more to it than that but for our purposes he can get a pretty good glimpse of where those zealots following us are and how close they are relative our position." Rather impressed that the ogre could do that, I wondered what other feats the runes could allow the ogres to do. I figured when we were in relative safety that maybe I should ask the ogres a bit more about what their runes. Suddenly though I heard a curse, and turned to see the dark blue glowing eyes of the ogre now seemingly peering ahead us at something else.
-
-Asking him what was wrong the dark blue glow went away from the ogres eyes and I quietly received the grave response, "There is a group of people in front of us, and there are definitely zealots among them too." At this the other ogres faces turned to a look of total dismay. I could hear the yelling from behind me. "What do we do now?" one said. "I don't want to go back" another would say. Cowardly words spewed from the mouth of a new ogre every moment until it seemed everyone in the group was erupting in fear. For a moment the sorry display continued until finally the ogre holding my arm let go and yelled to the others "ENOUGH OF YOUR SNIVELING!" The other ogres went silent at this, now looking up as if waiting for directions on what to do. ]], [[[i]There is so little that is known of the ogres, and seemingly they know little of themselves either. This may have to do with my seclusion from the outside world, but I wonder if this race only recently came to Maj'Eyal? Viewing the Shaloren archives there is little mention of the ogres, and I don't believe even among the Thaloren we know much of them either. I wonder where the ogres truly come from?[/i]
-
-I could feel the stares of the entire group looking past me, at the uninviting landscape. They did not know where they could run to, only to run. Looking to establish if it was indeed the masked fanatics they were running from I asked, "Did the zealots you speak of wear masks on their faces?" The ogres immediately locked their stares back on me, the tense fear in their eyes telling me that the zealots they spoke of and the masked fanatics I had encountered were one and the same. I immediately remembered the anger within me that I felt, knowing that these ogres were now facing the same sinister fanatics that had initiated those atrocities in the Nargol Kingdom that I had recently witnessed.
-
-Immediately at that point I decided that if I could be of help to these victims of those madmen then I would. Remembering the Rune of Return that had been handed to me in Elvala I looked up and asked "If you follow me, I can lead you to Elvala. They have cut themselves off from the outside world, but I can get you inside the lands of the Shaloren where you will be safe." The ogres immediately looked up at me as I stated these words, though it appeared to be a look of shock and irritation more than anything else. "You would suggest we go to the Shaloren? Weren't they the ones behind this, this Spellblaze? We would be peacefully going about our lives if it wasn't for them turning the world upside down."
-
-Keeping my calm I decided to try persuading the ogres to go to Elvala replying, "Where else might you go to survive?" To this I received several frowns, but one pondered the question and asked, "Would they even help us, would we even be safe?" I stopped for a moment at the first question that was asked before responding, "They are unable help the outside world as a result of the actions from those same zealots that captured you. However, I know that they feel deeply for what they have done and I believe they will offer you sanctuary if you go to them. If you have nowhere else to go then allow me to bring you to them to ask for shelter." As I finished I noticed one ogre staring back. Some of the ogres noticed this and looked to the ogre as well before asking, "Is it them?"
-
-Carefully looking at the ogre I saw some sort of dark blue glow covering his eyes, as if allowing him to peer at something. Suddenly the ogre piped up all at once, "We need to move." All of a sudden I could see a grave expression take hold of every ogre in the group. One seemed to begin muttering in a panicked manner "what do we do" under their breath repeatedly. A bit confused at this I asked, “What is it?" The ogre who had been looking back quickly turned and came to me, looking deeply into my face with his eyes that had been glowing before, as if looking for something. Finally he stated in a deep ominous voice, "You better not be trying to deceive us thalore. Now, take us to Elvala. We need to move. NOW!"
-
-Taken off guard by the abruptness of the demand I simply stammered out "O-O-kay-ee." The ogre not missing a beat called to the others, "Let's go!" Quickly he grabbed my arm and we began to run, the thunderous sounds of the other ogres soon following. Recklessly we seemed to charge through the deathtraps of the land, jumping small chasms and skirting past sharp rock. What had taken me what had seemed a day to traverse we seemingly traveled in an hour. The ogre that kept ahold of my arm and sometimes lifted me up to avoid the hazards on the ground. We continued to run until I could see the shoreline. Pointing out the western direction that we needed to go with my other arm, the group swiftly turned and we began dodging the patches of lava.
-
-Beginning to pant and weave at this point, the ogre holding my arm finally began to slow down. Stopping he turned his head to look to our rear, the same dark blue glow appearing over his eyes once more. No longer content with my ignorance I finally asked what he was doing. The dark blue glow immediately faded as the ogre looked at me directly before giving a response. "I take it you aren't very well versed in runes, I suppose I shouldn't be surprised being how adverse you thaloren are to the arcane. I'm using a rune that grants me vision of what the terrain is like around me, though I'm not necessarily using it for that specific purpose right now." The ogre stopped talking for a moment to look back again.
-
-Chiming in to continue the explanation another ogre stated, "He's looking back to see how far away those zealots chasing us from their encampment are. "We were being chased?" I suppose I shouldn't have expected any less from those magic hating fanatics. Likely they would very much want to recapture the ogres for whatever nefarious intentions they had. I began to recall the events I had recently witnessed them perpetrate and how I felt sick afterwards. I wondered what atrocities these ogres had suffered by their hands. Looking to stop myself from recalling anymore of those terrible memories I quickly pressed the ogre on how they knew we were being chased.
-
-"To give you the short version, his vision rune is giving him the power to see the general location of the individuals pursuing us. There is a bit more to it than that but for our purposes he can get a pretty good glimpse of where those zealots following us are and how close they are relative our position." Rather impressed that the ogre could do that, I wondered what other feats the runes could allow the ogres to do. I figured when we were in relative safety that maybe I should ask the ogres a bit more about what their runes. Suddenly though I heard a curse, and turned to see the dark blue glowing eyes of the ogre now seemingly peering ahead us at something else.
-
-Asking him what was wrong the dark blue glow went away from the ogres eyes and I quietly received the grave response, "There is a group of people in front of us, and there are definitely zealots among them too." At this the other ogres faces turned to a look of total dismay. I could hear the yelling from behind me. "What do we do now?" one said. "I don't want to go back" another would say. Cowardly words spewed from the mouth of a new ogre every moment until it seemed everyone in the group was erupting in fear. For a moment the sorry display continued until finally the ogre holding my arm let go and yelled to the others "ENOUGH OF YOUR SNIVELING!" The other ogres went silent at this, now looking up as if waiting for directions on what to do. ]], "_t")
-t([[[i]I had never seen a battle before in my life, let alone been a part of one. However I do not believe this is necessarily the case for the ogres. They say that they lived as nomadic peddlers but I wonder if perhaps that was just a cover story for themselves. Maybe they hired themselves out as mercenaries or other such adventures of combat? It is hard to know what lies within their past.[/i]
-
-Realizing the situation at hand, the ogre who had moments ago been holding my arm this entire time now took up the task of preparing the other ogres for the fight at hand. Stepping forward to address the others he quickly broke into a speech. "The enemy is on both sides of us, but we aren't trapped yet. Those behind us have to travel through the treacherous ground we had to pass through here ourselves and those ahead of us are still some distance away. We have time to form a plan and prepare for battle before either group arrives." As the ogre finished, one of the others soon piped up, "What will you have us do commander!" The newly minted commander grunted before replying, "First, we need a plan of attack."
-
-To this another ogre stepped up and stated, "How fast is each group moving towards us, which one will be on us first?" At this the commander paused for a moment before taking a look in front and behind him at the two approaching groups. When he was finished he responded, "The ones behind us are closer, but it looks like they are only slowly navigating the landscape we crossed due to all the hazards. The other group is approaching at rapid speed. They will likely get to us first. Do you think we should hit the front group first, strategist?” I could see the strategist raise his head and smile a bit upon being named before stating, "Yes Sir! Maybe we can punch through them before getting hit in our rear?"
-
-The commander nodded to this and then noted, "We don't have any weapons to fight with, but we can use the environment to our advantage. Knock them into hostile terrain, use choke points in the land to avoid being overwhelmed by their numbers, fight dirty and kick the blackened dirt into their faces." The commander stopped to take a breath before hollering "WE WILL NOT BE GOING BACK!" To this the other ogres hollered the same "WE WILL NOT BE GOING BACK!" Then all the ogres broke into a resounding roar as they raised both their arms and their voices, shaking their hands while making odd gestures with them, and completely showing no more signs of the craven display I had just witnessed of them moments ago.
-
-I immediately notice the bigger ogres break off towards several dead trees, and with surprising ease ripped them from the ground. After breaking the branches and roots off they proceeded to swing the trunks around like giant clubs. More ingenious ogres ripped their clothing into careful strips. Taking their belts off they fashioned them together with the strips to construct crude slings. Other ogres collected rocks and piled them on the ground nearby, ammo I assumed for the slings. Other ogres seemed to pair off with each other and perform odd poses one after the other. When finished they would seemingly begin to punch and kick in the air, which I assumed was practice for fighting unarmed.
-
-I stood awestruck at the sight of the ogres and their astounding ability to turn into a fighting force. I didn't even notice when the commander came up to me. Attempting to get my attention he loudly stated, "Thalore, Focus!" I snapped my head quickly in his direction. "Whaa-wha. What?" I stammered my words as I quickly zoned back into my immediate situation. "Do you have anything that can be used to help us out?" Registering the words of the ogre I quickly pulled my pack off my shoulders and reached in to display its contents. "This is all I have" I said. The commander peered into the bag, then reached in to grab the hatchet and the utility knife that I had purchased back in the Nargol Kingdom.
-
-He weighed the two objects in each hand, then taking the hatchet he proceeded to take a few swings with it. Wearing a satisfied expression he handed the knife back to me saying "I can't use this, it's too small for my hands to use effectively. You take it and use it to defend yourself." Hearing those words I soon realized something, I would be in this fight. While I might have chased off a hungry animal or two, I didn't have any actual combat experience against a real foe. The commander seeing my discouraged face then stated, "That you have come this far I can tell you aren't with those zealots. If need be, just run and save yourself. They likely will let you go, it is us ogres they are after, not you."
-
-The words pierced through me, making me quite angry. Shouting back at the Commander I responded, "No, I will fight with you." I'm not sure if it was the anger within me that caused me to say those words, but I knew that I would not let the ogres fight alone. I might die in the fight but I would not run from it. To this the commander and the other ogres quickly glanced in my direction, surprised but nonetheless happy. One ogre gave a cheerful shout "TO BATTLE!" The other ogres soon shouted "TO BATTLE" as well. Smiling the commander raised his hand to signal the other ogres to be silent before giving a slight nod to me and saying to me "To Battle."
-
-The commander didn't give much more time for the other ogres to get themselves ready; likely mindful of the group coming from behind us. Giving a command for the ogres to gather, he formed them into several small groups. I was told to join the group closest to the sea while the commander assumed his position in one of the middle groups. When the ogres were assembled he gave the order to advance and we quickly began to forge ahead over the landscape. The hazards of the land prevented each group from keeping pace with each other, though each individual group moved in a fairly disciplined manner. I dodged lava, uneven ground, burnt foliage, and the crashing waves of boiling water as I tried to keep up with my group. This would continue until we could see the image of the group of fanatics in front us.]], [[[i]I had never seen a battle before in my life, let alone been a part of one. However I do not believe this is necessarily the case for the ogres. They say that they lived as nomadic peddlers but I wonder if perhaps that was just a cover story for themselves. Maybe they hired themselves out as mercenaries or other such adventures of combat? It is hard to know what lies within their past.[/i]
-
-Realizing the situation at hand, the ogre who had moments ago been holding my arm this entire time now took up the task of preparing the other ogres for the fight at hand. Stepping forward to address the others he quickly broke into a speech. "The enemy is on both sides of us, but we aren't trapped yet. Those behind us have to travel through the treacherous ground we had to pass through here ourselves and those ahead of us are still some distance away. We have time to form a plan and prepare for battle before either group arrives." As the ogre finished, one of the others soon piped up, "What will you have us do commander!" The newly minted commander grunted before replying, "First, we need a plan of attack."
-
-To this another ogre stepped up and stated, "How fast is each group moving towards us, which one will be on us first?" At this the commander paused for a moment before taking a look in front and behind him at the two approaching groups. When he was finished he responded, "The ones behind us are closer, but it looks like they are only slowly navigating the landscape we crossed due to all the hazards. The other group is approaching at rapid speed. They will likely get to us first. Do you think we should hit the front group first, strategist?” I could see the strategist raise his head and smile a bit upon being named before stating, "Yes Sir! Maybe we can punch through them before getting hit in our rear?"
-
-The commander nodded to this and then noted, "We don't have any weapons to fight with, but we can use the environment to our advantage. Knock them into hostile terrain, use choke points in the land to avoid being overwhelmed by their numbers, fight dirty and kick the blackened dirt into their faces." The commander stopped to take a breath before hollering "WE WILL NOT BE GOING BACK!" To this the other ogres hollered the same "WE WILL NOT BE GOING BACK!" Then all the ogres broke into a resounding roar as they raised both their arms and their voices, shaking their hands while making odd gestures with them, and completely showing no more signs of the craven display I had just witnessed of them moments ago.
-
-I immediately notice the bigger ogres break off towards several dead trees, and with surprising ease ripped them from the ground. After breaking the branches and roots off they proceeded to swing the trunks around like giant clubs. More ingenious ogres ripped their clothing into careful strips. Taking their belts off they fashioned them together with the strips to construct crude slings. Other ogres collected rocks and piled them on the ground nearby, ammo I assumed for the slings. Other ogres seemed to pair off with each other and perform odd poses one after the other. When finished they would seemingly begin to punch and kick in the air, which I assumed was practice for fighting unarmed.
-
-I stood awestruck at the sight of the ogres and their astounding ability to turn into a fighting force. I didn't even notice when the commander came up to me. Attempting to get my attention he loudly stated, "Thalore, Focus!" I snapped my head quickly in his direction. "Whaa-wha. What?" I stammered my words as I quickly zoned back into my immediate situation. "Do you have anything that can be used to help us out?" Registering the words of the ogre I quickly pulled my pack off my shoulders and reached in to display its contents. "This is all I have" I said. The commander peered into the bag, then reached in to grab the hatchet and the utility knife that I had purchased back in the Nargol Kingdom.
-
-He weighed the two objects in each hand, then taking the hatchet he proceeded to take a few swings with it. Wearing a satisfied expression he handed the knife back to me saying "I can't use this, it's too small for my hands to use effectively. You take it and use it to defend yourself." Hearing those words I soon realized something, I would be in this fight. While I might have chased off a hungry animal or two, I didn't have any actual combat experience against a real foe. The commander seeing my discouraged face then stated, "That you have come this far I can tell you aren't with those zealots. If need be, just run and save yourself. They likely will let you go, it is us ogres they are after, not you."
-
-The words pierced through me, making me quite angry. Shouting back at the Commander I responded, "No, I will fight with you." I'm not sure if it was the anger within me that caused me to say those words, but I knew that I would not let the ogres fight alone. I might die in the fight but I would not run from it. To this the commander and the other ogres quickly glanced in my direction, surprised but nonetheless happy. One ogre gave a cheerful shout "TO BATTLE!" The other ogres soon shouted "TO BATTLE" as well. Smiling the commander raised his hand to signal the other ogres to be silent before giving a slight nod to me and saying to me "To Battle."
-
-The commander didn't give much more time for the other ogres to get themselves ready; likely mindful of the group coming from behind us. Giving a command for the ogres to gather, he formed them into several small groups. I was told to join the group closest to the sea while the commander assumed his position in one of the middle groups. When the ogres were assembled he gave the order to advance and we quickly began to forge ahead over the landscape. The hazards of the land prevented each group from keeping pace with each other, though each individual group moved in a fairly disciplined manner. I dodged lava, uneven ground, burnt foliage, and the crashing waves of boiling water as I tried to keep up with my group. This would continue until we could see the image of the group of fanatics in front us.]], "_t")
-t([[[i]It is hard to describe the sensation that came over me. It was still me, but I didn't feel in control. That other me, it seemed to thrive on the violence I inflicted or received, and wanted nothing more than to endlessly kill. It caused me sadness as I inflicted misery and terror on those in front of me as they died screaming in agony and pain. It is someone I hope to never become again.[/i]
-
-All around me, I could see the ogres near to me beginning to lose any will to fight. What's worse is that some of the initiates that had fled had now returned. They began to batter their shields once more, hollering and posturing as they cheered on the halfling. From one of them I heard the phrase "hooray for nature's champion!" They would yell other phrases as well such as "nature's might shall prevail" or "the ogre's magical taint on Eyal ends!" The sheer display of strength from the halfling and the cries of the initiates further unnerved the ogres, so much so that some began to shake in fear and turn into cowards yet again. In front of me an ogre even dropped her weapons and fell to the ground, having lost all hope.
-
-I could feel tears begin to stream down my eyes. I could feel the anguish and dismay of the ogres, and the hateful emotions being directed at them. I remembered the burning event back in the Nargol Kingdom, and how the zealots instigated those initial actions I had witnessed. It made my angry, angry at those inflicting the pain, inflicting it for their petty reasons. The ogres didn't deserve this nor did the innocent victims that the fanatics burned alive from before. Those inflicting pain, producing these atrocities, they were insufferable gnats, and what's more they disparaged nature's name while doing so. I felt I had to do something to keep this from happening again; I FELT I NEEDED TO KILL THEM.
-
-"Does the little thalore wish to leave?" I heard a voice say to me. "Maybe run back to that little forest of yours?" I looked up to see a masked dwarf, holding an axe and shield. "We know of ya Fay Willows. Ya have no taint of magic, yet are ya an ally of nature? From where ya stand it would seem that ya are an ally of da ogres." The dwarf brandished the weapon wildly as it continued to talk, "Ya know, perhaps I shouldn't be blamin' ya. I'm sure da ogres told ya some wild tales, and this is just a misunderstandin'. We just want to help da ogres ya know, and they seem to be getting a little bit more cooperative now. It is a shame a few of them had to die, but a message had to be sent." The dwarf seemingly began to chuckle for a moment as it finished speaking.
-
-The dwarf stopped chuckling to continue, "How about ya cooperate with us as well elf-ie? Else I'm afraid I'm going to have to hu-[b]RRRRRRRK![/b]"
-
-All at once the sounds of battle seemed to disappear as I focused solely on the dwarf in front of me. Looking forward all I could see was blood. Blood on my hand, on my arm, on the dagger that lay plunged in the throat of the dwarf, on the mask the dwarf wore, and from under the mask as the dwarf coughed up blood. Dropping the axe and shield to grasp at the dagger, the dwarf choked as it tried to breathe. Slowly I bent down to pick up the axe and with both hands I brought it back behind my head. Then with all my strength I brought the axe down on the head of the dwarf with all my might. I felt a strange feeling within me as the dwarf died to the blow, coursing through every fiber of my being.
-
-At that moment I recalled the Eldoral halfling I had killed from before when I initially first traveled from my home. I had hated the reasons said in support of the Spellblaze, and I became angered to no end of the one spouting that nonsense. I had followed the halfling out with a steak knife that I had taken from a nearby table and... I killed him. It was a horrible feeling taking a life, yet a dark surge of energy coursed through me, wanting to drive me to kill more. This drive to kill, it was the real reason I had fled that settlement. I was afraid I would kill someone, someone who didn't deserve it. That halfling I killed didn't deserve to die. But, these zealots, didn't they deserve it?
-
-At that point something snapped in my mind I think. I remember laughing very loudly. It was dreadful feeling. I might have been crying too. I couldn't tell what was happening with me or my emotions and I wondered if I was going mad; and I still wonder this even now to be honest. But that wasn't important. The ogres around me could no longer fight, and I knew that if nothing was done that they would die, or worse. There was no innocence to be found from these zealots, these instigators of torment and madness, or the initiates blindly following them. I could simply kill them all with a clear conscious, and hopefully satisfy the urges within me to kill. All would be well with me after that, and perhaps the ogres would even thank me for saving them.
-
-Then I noticed a masked human zealot looking at me and the corpse of the dwarf on the ground. I began to walk over, the human seemingly waving a sword in one hand in a threatening manner. For some reason I thought it was kind of funny, despite what should have caused me to think of an intense fear for own well being. I could hear muffled shouts of something coming from the human, though I couldn't distinguish what was being said. As I drew closer I saw the human shake, so much so that the mask shifted enough that I could partially see the face of the man underneath. I could see the fear in his eye before the human raised his shield in an attempt to hide away. I remember the enjoyment I felt of that fear.
-
-I used my axe to sweep the shield from the humans hands, knocking it away so he couldn't hide his eyes away from mine anymore, allowing me to relish in his terror. I think I was smiling at this point, grinning madly as the fear built up in the human. At the same time though the sadness inside me, it too was building more and more, threatening to plunge me into the depths of darkness. The human was terrified, and attempted to thrust forward to attack me, crying out something as he lunged towards... Where was he attacking actually? I think he had intended to attack me, but he ended up moving over to the side. I simply raised the axe in my hand, and as I had done before brought it down, connecting a deep blow on his shoulder.
-
-The human’s swordarm fell away from his body, causing him to cry out before dropping to the ground to hold where his arm use to be. The red blood spurted and bubbled from his severed arm as the sword still lay clutched in the closed hand. The human tried to crawl away, and then I noticed the lovely pool of lava nearby. I smiled a little as I kicked at his body sending him spiraling in. I felt a strange sense of joy as he burned alive in front of me, yet simultaneously felt disdain for what I had just done. I felt another surge of energy coarse through me as the man finally died, and I felt a greater urge to kill even more. I wondered at this point if I could stop myself or if I could be stopped?
-
-I could hear the screams of terror of others around me and noticed that the sounds weren't coming from those wearing masks either - easy pickings to satisfy my urge to kill. I began to approach them as they yelled at me, my intense hatred building with each step. Suddenly though I felt a strong pull on my arm, preventing me from moving forward. Looking to see what I had got caught on, I noticed the masked halfling, clutching my arm. Hatred surged within me and all I could think about was how I should pay this halfling back for what had been done to me in that tent from before. I forgot about the others weaklings, focusing all my attention towards my new prey.]], [[[i]It is hard to describe the sensation that came over me. It was still me, but I didn't feel in control. That other me, it seemed to thrive on the violence I inflicted or received, and wanted nothing more than to endlessly kill. It caused me sadness as I inflicted misery and terror on those in front of me as they died screaming in agony and pain. It is someone I hope to never become again.[/i]
-
-All around me, I could see the ogres near to me beginning to lose any will to fight. What's worse is that some of the initiates that had fled had now returned. They began to batter their shields once more, hollering and posturing as they cheered on the halfling. From one of them I heard the phrase "hooray for nature's champion!" They would yell other phrases as well such as "nature's might shall prevail" or "the ogre's magical taint on Eyal ends!" The sheer display of strength from the halfling and the cries of the initiates further unnerved the ogres, so much so that some began to shake in fear and turn into cowards yet again. In front of me an ogre even dropped her weapons and fell to the ground, having lost all hope.
-
-I could feel tears begin to stream down my eyes. I could feel the anguish and dismay of the ogres, and the hateful emotions being directed at them. I remembered the burning event back in the Nargol Kingdom, and how the zealots instigated those initial actions I had witnessed. It made my angry, angry at those inflicting the pain, inflicting it for their petty reasons. The ogres didn't deserve this nor did the innocent victims that the fanatics burned alive from before. Those inflicting pain, producing these atrocities, they were insufferable gnats, and what's more they disparaged nature's name while doing so. I felt I had to do something to keep this from happening again; I FELT I NEEDED TO KILL THEM.
-
-"Does the little thalore wish to leave?" I heard a voice say to me. "Maybe run back to that little forest of yours?" I looked up to see a masked dwarf, holding an axe and shield. "We know of ya Fay Willows. Ya have no taint of magic, yet are ya an ally of nature? From where ya stand it would seem that ya are an ally of da ogres." The dwarf brandished the weapon wildly as it continued to talk, "Ya know, perhaps I shouldn't be blamin' ya. I'm sure da ogres told ya some wild tales, and this is just a misunderstandin'. We just want to help da ogres ya know, and they seem to be getting a little bit more cooperative now. It is a shame a few of them had to die, but a message had to be sent." The dwarf seemingly began to chuckle for a moment as it finished speaking.
-
-The dwarf stopped chuckling to continue, "How about ya cooperate with us as well elf-ie? Else I'm afraid I'm going to have to hu-[b]RRRRRRRK![/b]"
-
-All at once the sounds of battle seemed to disappear as I focused solely on the dwarf in front of me. Looking forward all I could see was blood. Blood on my hand, on my arm, on the dagger that lay plunged in the throat of the dwarf, on the mask the dwarf wore, and from under the mask as the dwarf coughed up blood. Dropping the axe and shield to grasp at the dagger, the dwarf choked as it tried to breathe. Slowly I bent down to pick up the axe and with both hands I brought it back behind my head. Then with all my strength I brought the axe down on the head of the dwarf with all my might. I felt a strange feeling within me as the dwarf died to the blow, coursing through every fiber of my being.
-
-At that moment I recalled the Eldoral halfling I had killed from before when I initially first traveled from my home. I had hated the reasons said in support of the Spellblaze, and I became angered to no end of the one spouting that nonsense. I had followed the halfling out with a steak knife that I had taken from a nearby table and... I killed him. It was a horrible feeling taking a life, yet a dark surge of energy coursed through me, wanting to drive me to kill more. This drive to kill, it was the real reason I had fled that settlement. I was afraid I would kill someone, someone who didn't deserve it. That halfling I killed didn't deserve to die. But, these zealots, didn't they deserve it?
-
-At that point something snapped in my mind I think. I remember laughing very loudly. It was dreadful feeling. I might have been crying too. I couldn't tell what was happening with me or my emotions and I wondered if I was going mad; and I still wonder this even now to be honest. But that wasn't important. The ogres around me could no longer fight, and I knew that if nothing was done that they would die, or worse. There was no innocence to be found from these zealots, these instigators of torment and madness, or the initiates blindly following them. I could simply kill them all with a clear conscious, and hopefully satisfy the urges within me to kill. All would be well with me after that, and perhaps the ogres would even thank me for saving them.
-
-Then I noticed a masked human zealot looking at me and the corpse of the dwarf on the ground. I began to walk over, the human seemingly waving a sword in one hand in a threatening manner. For some reason I thought it was kind of funny, despite what should have caused me to think of an intense fear for own well being. I could hear muffled shouts of something coming from the human, though I couldn't distinguish what was being said. As I drew closer I saw the human shake, so much so that the mask shifted enough that I could partially see the face of the man underneath. I could see the fear in his eye before the human raised his shield in an attempt to hide away. I remember the enjoyment I felt of that fear.
-
-I used my axe to sweep the shield from the humans hands, knocking it away so he couldn't hide his eyes away from mine anymore, allowing me to relish in his terror. I think I was smiling at this point, grinning madly as the fear built up in the human. At the same time though the sadness inside me, it too was building more and more, threatening to plunge me into the depths of darkness. The human was terrified, and attempted to thrust forward to attack me, crying out something as he lunged towards... Where was he attacking actually? I think he had intended to attack me, but he ended up moving over to the side. I simply raised the axe in my hand, and as I had done before brought it down, connecting a deep blow on his shoulder.
-
-The human’s swordarm fell away from his body, causing him to cry out before dropping to the ground to hold where his arm use to be. The red blood spurted and bubbled from his severed arm as the sword still lay clutched in the closed hand. The human tried to crawl away, and then I noticed the lovely pool of lava nearby. I smiled a little as I kicked at his body sending him spiraling in. I felt a strange sense of joy as he burned alive in front of me, yet simultaneously felt disdain for what I had just done. I felt another surge of energy coarse through me as the man finally died, and I felt a greater urge to kill even more. I wondered at this point if I could stop myself or if I could be stopped?
-
-I could hear the screams of terror of others around me and noticed that the sounds weren't coming from those wearing masks either - easy pickings to satisfy my urge to kill. I began to approach them as they yelled at me, my intense hatred building with each step. Suddenly though I felt a strong pull on my arm, preventing me from moving forward. Looking to see what I had got caught on, I noticed the masked halfling, clutching my arm. Hatred surged within me and all I could think about was how I should pay this halfling back for what had been done to me in that tent from before. I forgot about the others weaklings, focusing all my attention towards my new prey.]], "_t")
-t([[[i]I want to emphasize that I come from a society where there is little if any practiced magic, let alone any products of it such as runes. While there were thalore who could use magic, their knowledge was self-taught and done in secret; not to mention that thaloren users of magic were generally ostracized from the rest of the community, if not exiled from Thaloren lands. Even now I still don't know much about the inner workings of the Rune of Return that is grafted to me, though I am working to learn the basics of runes and the greater subject of the arcane forces behind them.[/i]
-
-We continued deeper into Shaloren territory, the fanatics’ scouts continuing to follow us but always careful to stay back and never stray too close. It would be a couple more days before we reached the edge of the Shroud. Navigating to where I had first crossed through the misty wall to get into the city, I reached into my pack to retrieve the Rune of Return that I had received so long ago. With an outstretched hand I presented it to the ogre commander. I had expected him to take it but he simply nodded his head and noted, "A Rune of Return." For the next brief moment I stood there with my hand held out, the commander seemingly as puzzled as I was to our interaction. It wasn't clear until the strategist finally chimed in, "You have no clue how that rune you're holding works do you?"
-
-At this the commander blinked before realizing the situation and noting, "Right, you’re a complete novice." I could feel the blank expression worn on my face and the ogres were seemingly aware of this. "Come over here thalore," a voice called out. I turned my head to see who was calling me, before noting it was a female ogre that I had helped from before, "let's see that rune you got." I was a bit confused, but I made my way over and presented the rune. Taking it in one hand, she proceeded to examine the rune, before handing it back to me. “Right," the ogre began, "this here rune is bonded to you, so only you can inscribe it. After that is done you can use the rune to enter Elvala and request entry for us."
-
-It felt like the words popping out of the ogres mouth were some type of different language. The ogre who I would eventually come to know as my instructor gave a series of explanations about runes, though eventually decided it would just be better to graft the Rune of Return on me instead of giving me a lesson on rune theory. To ensure that I would have the least trouble activating the rune, the ogre chose to graft it on my back just below my neck. I can remember how painful the experience was as the nerves in the back of my spine were pricked and prodded at. Despite the pain though, I can also remember the exhilaration my body felt as it was touched by arcane forces for the first time.
-
-"There then, finished." Pleased with her work, the ogre circled around me to put her hands on my shoulders. "Now, all that is left for you to do is for you to get pass this barrier and make the request for our entry. Thalore, before I tell you what to do to activate the rune, know that I thank you for helping to bring us this far. If it hadn't been for you, I- we ogres... we likely would have all died." I could see the tears beginning to stream down the face of the ogre as she continued "Once again it seems our lives are in your hands. I hope that you will be able to convince the Shaloren to let us in, but even if you can't I wanted to thank you, we all want to thank you." Around me I could see the other ogres bowing their heads.
-
-With a smile I replied back "I'm sure you will be let in. Tell me what it is I need to do." Raising her head while wiping away the tears from her face, I was walked through the process to activate the rune. I gave a solemn nod to the ogres before performing the steps myself. Within an instant my surroundings completely changed as I could hear the bustling of shaloren all around me. I could feel a heavy sensation on my neck where the rune had been inscribed, but other than that I felt no different. A few of the shalore turned to look in my direction, seemingly surprised at my entry, though not as much as I would have expected. One of the shalore soon called out, "You're that thalore who helped us from before? Welcome back!"
-
-"Oh, a, thank you" I replied back, slowly adjusting to the fact that I had abruptly entered Elvala. Quickly, I realized that the ogres were still outside of Elvala waiting for me. Excusing myself, I proceeded to run to the middle of the town where I had previously met the general. As before there stood guards outside the building, though they recognized me as I approached. Panting and out of breath I took a brief moment to inhale and exhale before gasping out "Ogres... seeking asylum... here in... Elvala." The guards in front of me stood in bewilderment after hearing the sentence I let out, seemingly grasping what I had said but unable to determine what to do.
-
-Then from behind me came a voice, "What is this about ogres?" I turned around to see a young female shalore, who I recognized as being one of the mages who saw me off from Elvala. Seeing me, she seemed to oddly cool a bit and address me saying "Ooo, you're that thalore. We've never personally met but I helped teleport you out of Elvala a short while ago. Welcome back to Elvala." Catching my breathe I explained the situation involving the ogres outside, the zealots chasing them, and how they were looking to seek refuge in Elvala. As I finished talking the young shalore stated, "Judging from what you have told me, it would likely be best if those ogres were brought in quickly."
-
-Approaching the guards to communicate something, their bewildered faces quickly became somewhat distressed both by the actions and words of the shalore woman. I don't know what the mage had said, but it seemed as if the guards were almost pleading with the young shaloren woman about something. Eventually she called for me to follow her and began to move in the direction I had come when I entered the city with the Rune of Return. I could tell that this shalore seemed to have some plan in mind, perhaps one that would allow the ogres passage into the city. Before turning to follow her, I noticed the two guards murmer something to each other before one of them rushed inside the building. The other seemed to look at worriedly in the direction of me and the mage as we walked away.]], [[[i]I want to emphasize that I come from a society where there is little if any practiced magic, let alone any products of it such as runes. While there were thalore who could use magic, their knowledge was self-taught and done in secret; not to mention that thaloren users of magic were generally ostracized from the rest of the community, if not exiled from Thaloren lands. Even now I still don't know much about the inner workings of the Rune of Return that is grafted to me, though I am working to learn the basics of runes and the greater subject of the arcane forces behind them.[/i]
-
-We continued deeper into Shaloren territory, the fanatics’ scouts continuing to follow us but always careful to stay back and never stray too close. It would be a couple more days before we reached the edge of the Shroud. Navigating to where I had first crossed through the misty wall to get into the city, I reached into my pack to retrieve the Rune of Return that I had received so long ago. With an outstretched hand I presented it to the ogre commander. I had expected him to take it but he simply nodded his head and noted, "A Rune of Return." For the next brief moment I stood there with my hand held out, the commander seemingly as puzzled as I was to our interaction. It wasn't clear until the strategist finally chimed in, "You have no clue how that rune you're holding works do you?"
-
-At this the commander blinked before realizing the situation and noting, "Right, you’re a complete novice." I could feel the blank expression worn on my face and the ogres were seemingly aware of this. "Come over here thalore," a voice called out. I turned my head to see who was calling me, before noting it was a female ogre that I had helped from before, "let's see that rune you got." I was a bit confused, but I made my way over and presented the rune. Taking it in one hand, she proceeded to examine the rune, before handing it back to me. “Right," the ogre began, "this here rune is bonded to you, so only you can inscribe it. After that is done you can use the rune to enter Elvala and request entry for us."
-
-It felt like the words popping out of the ogres mouth were some type of different language. The ogre who I would eventually come to know as my instructor gave a series of explanations about runes, though eventually decided it would just be better to graft the Rune of Return on me instead of giving me a lesson on rune theory. To ensure that I would have the least trouble activating the rune, the ogre chose to graft it on my back just below my neck. I can remember how painful the experience was as the nerves in the back of my spine were pricked and prodded at. Despite the pain though, I can also remember the exhilaration my body felt as it was touched by arcane forces for the first time.
-
-"There then, finished." Pleased with her work, the ogre circled around me to put her hands on my shoulders. "Now, all that is left for you to do is for you to get pass this barrier and make the request for our entry. Thalore, before I tell you what to do to activate the rune, know that I thank you for helping to bring us this far. If it hadn't been for you, I- we ogres... we likely would have all died." I could see the tears beginning to stream down the face of the ogre as she continued "Once again it seems our lives are in your hands. I hope that you will be able to convince the Shaloren to let us in, but even if you can't I wanted to thank you, we all want to thank you." Around me I could see the other ogres bowing their heads.
-
-With a smile I replied back "I'm sure you will be let in. Tell me what it is I need to do." Raising her head while wiping away the tears from her face, I was walked through the process to activate the rune. I gave a solemn nod to the ogres before performing the steps myself. Within an instant my surroundings completely changed as I could hear the bustling of shaloren all around me. I could feel a heavy sensation on my neck where the rune had been inscribed, but other than that I felt no different. A few of the shalore turned to look in my direction, seemingly surprised at my entry, though not as much as I would have expected. One of the shalore soon called out, "You're that thalore who helped us from before? Welcome back!"
-
-"Oh, a, thank you" I replied back, slowly adjusting to the fact that I had abruptly entered Elvala. Quickly, I realized that the ogres were still outside of Elvala waiting for me. Excusing myself, I proceeded to run to the middle of the town where I had previously met the general. As before there stood guards outside the building, though they recognized me as I approached. Panting and out of breath I took a brief moment to inhale and exhale before gasping out "Ogres... seeking asylum... here in... Elvala." The guards in front of me stood in bewilderment after hearing the sentence I let out, seemingly grasping what I had said but unable to determine what to do.
-
-Then from behind me came a voice, "What is this about ogres?" I turned around to see a young female shalore, who I recognized as being one of the mages who saw me off from Elvala. Seeing me, she seemed to oddly cool a bit and address me saying "Ooo, you're that thalore. We've never personally met but I helped teleport you out of Elvala a short while ago. Welcome back to Elvala." Catching my breathe I explained the situation involving the ogres outside, the zealots chasing them, and how they were looking to seek refuge in Elvala. As I finished talking the young shalore stated, "Judging from what you have told me, it would likely be best if those ogres were brought in quickly."
-
-Approaching the guards to communicate something, their bewildered faces quickly became somewhat distressed both by the actions and words of the shalore woman. I don't know what the mage had said, but it seemed as if the guards were almost pleading with the young shaloren woman about something. Eventually she called for me to follow her and began to move in the direction I had come when I entered the city with the Rune of Return. I could tell that this shalore seemed to have some plan in mind, perhaps one that would allow the ogres passage into the city. Before turning to follow her, I noticed the two guards murmer something to each other before one of them rushed inside the building. The other seemed to look at worriedly in the direction of me and the mage as we walked away.]], "_t")
-t([[[i]As time passed, both ogre and shalore slowly adapted to their secluded lives from the outside world.[/i] The shaloren slowly gathered themselves and their belongings in secret from the abandoned settlements in the north, and then quickly worked to create permanent implements that would ensure that the Shroud concealing Elvala would stay in place. They then worked to expand the Shroud to encompass all the forests surrounding Elvala and lock off the Shaloren Peninsula from the outside world. After that, many shaloren began to study the chaotic energies that had been unleashed in hopes of learning more about the damage they had caused and what effects it would leave in Eyal.
-
-[i]The ogres settled down in the southern portions of the peninsula to rebuild new lives for themselves.[/i] They helped to grow and harvest food to feed everyone and took up more laborious occupations that the shaloren were ill-suited to perform. Many gave birth to children, resulting in a great many young ogres helping to bolster their limited numbers. Some of the ogres also took up occupations working with inscriptions, and while my knowledge of runes is still quite limited, I could tell from their workmanship that their knowledge and skills with infusions were as good as many of the thaloren I knew back home. Despite some disagreements the ogres had, they managed to create a thriving relationship with the shaloren, one that I hope will last for a long time to come.
-
-[i]In regards to myself, I want to one day leave Elvala and venture back out into the world.[/i] I know though that if I was to leave I would need to know how to properly defend myself, in case I ever ran into those fanatics or some other foul group that would seek to cause myself or others harm. I also wished to learn about the rune magic that the ogres had used, and whether it could be something I myself may want to employ. Finally I couldn't ignore the nagging affliction which influences me, as I knew that if I ever lost control and had my emotions consume me once more that I may lash out against those who I did not mean to. With this in mind I sought the help of those around me, looking to learn whatever they may teach me.
-
-I was surprised to find that when approached about this, both the shaloren and the ogres were quite willing to teach me. Back home few were interested in sharing their knowledge with others for any reason, and this included even between family members. The exception to this of course was where a necessity to Thaloren society existed, such as in times of war or other calamity, but even then it was limited. I will note though that the shaloren I approached tended to request something in exchange for teaching me, usually asking for monetary compensation. The ogres on the other hand that I talked to were quite open in sharing their knowledge, and in fact one in particular seemed almost overly eager to do so.
-
-This was when my instructor, the female ogre who had helped graft my Rune of Return on my neck, approached me offering to give me a full breakdown on the use of runes and their applications. I was told about the variety of runes that existed and the various abilities they could employ. I also learned about the basics of their use, being lectured on how they would gather a bodies innate inner magic into arcane energy, convert that arcane energy into the magical effect that the rune would employ, and need time to repeat the process again. On top of this a rune would create a magical buildup within the body which would make subsequent rune use more and more difficult for the user to do.
-
-My instructor was also keen to give me a hands on demonstration regarding the use of runes to ensure I truly understood how they would work. I remember when we first started out how she abruptly disappeared from in front of me, how I subsequently looked around aimlessly before hearing her laugh in front of me as she reappeared again. I would be introduced to several ogres who would show me the multitude of abilities that their runes would grant them and hear stories of how they had used their runes in past scuffles or brawls. Finally, my instructor offered to give me a rune for my own personal use, a heat beam rune. Unlike how my instructor had grafted the Rune of Return onto me before, I inscribe that rune onto my left arm myself, and it is still with me to this day.
-
-From the shaloren I would learn various skills, specifically in regards combat equipment. A weaponsmith gave me some rudimentary lessons on how to wield and orient a weapon in combat before getting me to practice for hitting training dummies with everything from large swords and hammers to small daggers and clubs. From an armorsmith I was shown various pieces of clothing and armor and shown the varying effectiveness these armors had when hit with weapons. I even got to run a small training course decked out in full set of plate armor that the armorsmith lent me to learn how to maneuver and run around without completely exhausting myself.
-
-Eventually some veteran shaloren soldiers offered to spar with me too. From that moment I took everything that I had learned and put it all into practice. For a time I would engage in mock battles, learning how to regulate my stamina and when to use runes to give myself and advantage in combat, or just to make up for disadvantages that I might be suffering. It wasn't long before I could hold my own in combat even against battle hardened trained soldiers, at which point I was promptly asked if I would be interested in enlisting in the Shaloren Military. Not having much to do and figuring it would help in advancing my combat skills I accepted, and for several years I would serve as a soldier in Elvala.
-
-It would also be within the military that I would get to learn a great deal about controlling my emotions. Enrolled in a program for those with unique abilities, I would slowly begin to learn more about the dark condition affecting my body and how I could use it to my advantage. I would learn about how I could effect my surroundings, both inanimate and living, and in some cases I would even be allowed to practice trying to use the dark thoughts inside me against others. I can't say I ever gained full control over the chaotic energies within me, but through concentration I would learn how to at least direct it away from others and prevent it from affecting people in my vicinity.
-
-When I look back at the many events the occurred after the Spellblaze, I wonder what life might have held for me had I not left to travel as I did. Much time has now passed since the time of my initial journey, but I consider whether now is the time that I will leave Elvala to explore distant lands and see what has become of everything in the world. I wonder how the rest of the people in Eyal are faring and whether the lands have shown any signs of healing, as well as wonder what has happened to my fellow thaloren back home. Whatever may lie in my future I know that I am ready to make my way through it. And when I do, my escapades will continue once more!]], [[[i]As time passed, both ogre and shalore slowly adapted to their secluded lives from the outside world.[/i] The shaloren slowly gathered themselves and their belongings in secret from the abandoned settlements in the north, and then quickly worked to create permanent implements that would ensure that the Shroud concealing Elvala would stay in place. They then worked to expand the Shroud to encompass all the forests surrounding Elvala and lock off the Shaloren Peninsula from the outside world. After that, many shaloren began to study the chaotic energies that had been unleashed in hopes of learning more about the damage they had caused and what effects it would leave in Eyal.
-
-[i]The ogres settled down in the southern portions of the peninsula to rebuild new lives for themselves.[/i] They helped to grow and harvest food to feed everyone and took up more laborious occupations that the shaloren were ill-suited to perform. Many gave birth to children, resulting in a great many young ogres helping to bolster their limited numbers. Some of the ogres also took up occupations working with inscriptions, and while my knowledge of runes is still quite limited, I could tell from their workmanship that their knowledge and skills with infusions were as good as many of the thaloren I knew back home. Despite some disagreements the ogres had, they managed to create a thriving relationship with the shaloren, one that I hope will last for a long time to come.
-
-[i]In regards to myself, I want to one day leave Elvala and venture back out into the world.[/i] I know though that if I was to leave I would need to know how to properly defend myself, in case I ever ran into those fanatics or some other foul group that would seek to cause myself or others harm. I also wished to learn about the rune magic that the ogres had used, and whether it could be something I myself may want to employ. Finally I couldn't ignore the nagging affliction which influences me, as I knew that if I ever lost control and had my emotions consume me once more that I may lash out against those who I did not mean to. With this in mind I sought the help of those around me, looking to learn whatever they may teach me.
-
-I was surprised to find that when approached about this, both the shaloren and the ogres were quite willing to teach me. Back home few were interested in sharing their knowledge with others for any reason, and this included even between family members. The exception to this of course was where a necessity to Thaloren society existed, such as in times of war or other calamity, but even then it was limited. I will note though that the shaloren I approached tended to request something in exchange for teaching me, usually asking for monetary compensation. The ogres on the other hand that I talked to were quite open in sharing their knowledge, and in fact one in particular seemed almost overly eager to do so.
-
-This was when my instructor, the female ogre who had helped graft my Rune of Return on my neck, approached me offering to give me a full breakdown on the use of runes and their applications. I was told about the variety of runes that existed and the various abilities they could employ. I also learned about the basics of their use, being lectured on how they would gather a bodies innate inner magic into arcane energy, convert that arcane energy into the magical effect that the rune would employ, and need time to repeat the process again. On top of this a rune would create a magical buildup within the body which would make subsequent rune use more and more difficult for the user to do.
-
-My instructor was also keen to give me a hands on demonstration regarding the use of runes to ensure I truly understood how they would work. I remember when we first started out how she abruptly disappeared from in front of me, how I subsequently looked around aimlessly before hearing her laugh in front of me as she reappeared again. I would be introduced to several ogres who would show me the multitude of abilities that their runes would grant them and hear stories of how they had used their runes in past scuffles or brawls. Finally, my instructor offered to give me a rune for my own personal use, a heat beam rune. Unlike how my instructor had grafted the Rune of Return onto me before, I inscribe that rune onto my left arm myself, and it is still with me to this day.
-
-From the shaloren I would learn various skills, specifically in regards combat equipment. A weaponsmith gave me some rudimentary lessons on how to wield and orient a weapon in combat before getting me to practice for hitting training dummies with everything from large swords and hammers to small daggers and clubs. From an armorsmith I was shown various pieces of clothing and armor and shown the varying effectiveness these armors had when hit with weapons. I even got to run a small training course decked out in full set of plate armor that the armorsmith lent me to learn how to maneuver and run around without completely exhausting myself.
-
-Eventually some veteran shaloren soldiers offered to spar with me too. From that moment I took everything that I had learned and put it all into practice. For a time I would engage in mock battles, learning how to regulate my stamina and when to use runes to give myself and advantage in combat, or just to make up for disadvantages that I might be suffering. It wasn't long before I could hold my own in combat even against battle hardened trained soldiers, at which point I was promptly asked if I would be interested in enlisting in the Shaloren Military. Not having much to do and figuring it would help in advancing my combat skills I accepted, and for several years I would serve as a soldier in Elvala.
-
-It would also be within the military that I would get to learn a great deal about controlling my emotions. Enrolled in a program for those with unique abilities, I would slowly begin to learn more about the dark condition affecting my body and how I could use it to my advantage. I would learn about how I could effect my surroundings, both inanimate and living, and in some cases I would even be allowed to practice trying to use the dark thoughts inside me against others. I can't say I ever gained full control over the chaotic energies within me, but through concentration I would learn how to at least direct it away from others and prevent it from affecting people in my vicinity.
-
-When I look back at the many events the occurred after the Spellblaze, I wonder what life might have held for me had I not left to travel as I did. Much time has now passed since the time of my initial journey, but I consider whether now is the time that I will leave Elvala to explore distant lands and see what has become of everything in the world. I wonder how the rest of the people in Eyal are faring and whether the lands have shown any signs of healing, as well as wonder what has happened to my fellow thaloren back home. Whatever may lie in my future I know that I am ready to make my way through it. And when I do, my escapades will continue once more!]], "_t")
-t([[[i]Truly there is nothing more horrid than the experience of encountering ghouls. You will likely smell them as they emit a horrible stench, else if you are lucky you'll just hear them as they groan in a low painful sounding tone. Casting your eyes upon them you will be presented with a truly horrible display as you witness rows of hanging flesh and dripping puss surrounding a vaguely humanoid figure. The worst of it though is the touch and feel of ghouls. I bet any ordinary individual would feel grossly unsettled just poking them with a stick, let alone engaging up close to them in combat as I did.[/i]
-
-As I walked along the treeline I recounted the events that had led me to these daily patrols. Thirty-three long years passed after the cataclysm of the Spellblaze, the moment still burning within my mind, as well as my body. I survived the destruction and the events that followed, and had come to find myself in Elvala among the shaloren, whom I had come to care for and be in the care of. I had fallen in love with one of the soldiers whom I had trained with and had come to know him as family. Yet I wondered how the rest outside of Elvala suffered, how those thaloren at home fared, and if I should leave to explore the world again as I had once desired to.
-
-Returning from my patrol towards the old path that cut through the forest I noticed a couple of Elvala's officials and a cadre of guards in the distance. Approaching them I soon noticed what looked to be a rotting body at their feet. Glancing towards the body I felt a coldness, a dark force that felt worse than anything I had every experienced, including the chaotic energies within me. Catching sight of me, one of the officials turned towards me and stated in a direct voice, "Fay, I need you to quickly exit through the Shroud, take a quick look around, and report back anything unusual you see." Sensing some urgency to this request I promptly turned towards the Shroud and dove in without a second thought.
-
-Traveling through the misty smoke I recalled the first time I had left Elvala. I had traveled through this magical barrier many times to rescue those who had found themselves stranded outside the wall or to act as an escort for Nargol emissary's and traders, but I could feel as though there was a great tension around me. For the next two hours I slowly traversed through the smoke with only my thoughts to keep my company until at last I reached the other side and began to see the outside world ahead begin to unfurl itself. Nearing the outer edges of the smoke I heard a guttural sound bellow out nearby, before I glimpsed a gaunt figure jumped over towards me, swinging its arms in my direction.
-
-Unable to immediately dodge the attack, one of the arms connected with my chest, hitting me with immense strength. The strike reverberated through my steel breastplate, shaking the whole of my body, and throwing me completely off balance. Seemingly not missing a beat the creature threw its face towards my arm, clamping down hard with its teeth, and somehow biting through my steel gauntlets. Pain seared through my left arm, and something more seemed to course through my body, sapping my strength and making me sluggish. I did not know who this attacker was but I could feel the hatred inside me beginning to build. All that was left to do was to unleash it.
-
-Beginning to counterattack I activated the heat beam rune in my left hand. The creature quickly detached from my arm and began to cry out as flames engulfed all around it. Immediately following this I began to hit the creature with a fury of blows that quickly overwhelmed the creature as it flailed widely in an attempt to attack back. Pressing my advantage I struck the creature with a devastating swipe that cut hard across its body. I paused for a moment as I expected the creature to keel over dead, but was surprised when the creature seemed to bounce back and try one more time to attack me. I dodged this attack with ease though and with a simple slash I partially separated its head from its body, finally killing it.
-
-Finally having a chance to closely examine the creature, I noticed a single eye staring out from one of the eye sockets. Blinking and looking at the rest of its body I realized I had been fighting a rotting corpse. I wondered if there were anymore undead and I began to look around my immediate area. Around me I could spot a few sparse dead corpses mingling about that had yet to notice my presence. Deciding I would dispatch them I attempted to quietly approach them, only to realize how difficult this would be due to all the muddy ground in the area. It was at this point though when I wondered why all the ground was muddy, before I discerned the many tracks and footprints, all leading into the Shroud.
-
-Realizing the danger that was headed to Elvala, I quickly activated the Rune of Return that I had been grafted by the ogres on my neck, and in an instant I was once again within the city walls. Before I could reacquire my bearings a shaloren soldier walked into me and knocked me to the ground. The soldier soon got to his feet saying "My apologies" and proceeded to extend a hand under my left shoulder to help me up. Noticing the festering bite marks on my arm, the eyes of the soldier soon gained a solemn look and continuing to talk stated, "Command will want your report immediately on the undead you encountered. We've had a few more wander in through the Shroud while you were scouting."
-
-I turned towards the soldier who nodded in the direction of the main battlement line facing towards Elvala's northern forests. Nodding back, I proceeded to make my way to the tower above the main gate where I suspected the watch captain would be. I quickly made my way through the host of gathering soldiers forming below the walls and made my way up along with the mages and archers who were climbing the stairs to get to their positions. Noticing me as I made my way up, the watch captain called out in my direction, and I hurried over to his position to relay to him what had occurred. The captain tensed his face as I gave him my report and cursed as he turned his head to look out towards the Shroud.]], [[[i]Truly there is nothing more horrid than the experience of encountering ghouls. You will likely smell them as they emit a horrible stench, else if you are lucky you'll just hear them as they groan in a low painful sounding tone. Casting your eyes upon them you will be presented with a truly horrible display as you witness rows of hanging flesh and dripping puss surrounding a vaguely humanoid figure. The worst of it though is the touch and feel of ghouls. I bet any ordinary individual would feel grossly unsettled just poking them with a stick, let alone engaging up close to them in combat as I did.[/i]
-
-As I walked along the treeline I recounted the events that had led me to these daily patrols. Thirty-three long years passed after the cataclysm of the Spellblaze, the moment still burning within my mind, as well as my body. I survived the destruction and the events that followed, and had come to find myself in Elvala among the shaloren, whom I had come to care for and be in the care of. I had fallen in love with one of the soldiers whom I had trained with and had come to know him as family. Yet I wondered how the rest outside of Elvala suffered, how those thaloren at home fared, and if I should leave to explore the world again as I had once desired to.
-
-Returning from my patrol towards the old path that cut through the forest I noticed a couple of Elvala's officials and a cadre of guards in the distance. Approaching them I soon noticed what looked to be a rotting body at their feet. Glancing towards the body I felt a coldness, a dark force that felt worse than anything I had every experienced, including the chaotic energies within me. Catching sight of me, one of the officials turned towards me and stated in a direct voice, "Fay, I need you to quickly exit through the Shroud, take a quick look around, and report back anything unusual you see." Sensing some urgency to this request I promptly turned towards the Shroud and dove in without a second thought.
-
-Traveling through the misty smoke I recalled the first time I had left Elvala. I had traveled through this magical barrier many times to rescue those who had found themselves stranded outside the wall or to act as an escort for Nargol emissary's and traders, but I could feel as though there was a great tension around me. For the next two hours I slowly traversed through the smoke with only my thoughts to keep my company until at last I reached the other side and began to see the outside world ahead begin to unfurl itself. Nearing the outer edges of the smoke I heard a guttural sound bellow out nearby, before I glimpsed a gaunt figure jumped over towards me, swinging its arms in my direction.
-
-Unable to immediately dodge the attack, one of the arms connected with my chest, hitting me with immense strength. The strike reverberated through my steel breastplate, shaking the whole of my body, and throwing me completely off balance. Seemingly not missing a beat the creature threw its face towards my arm, clamping down hard with its teeth, and somehow biting through my steel gauntlets. Pain seared through my left arm, and something more seemed to course through my body, sapping my strength and making me sluggish. I did not know who this attacker was but I could feel the hatred inside me beginning to build. All that was left to do was to unleash it.
-
-Beginning to counterattack I activated the heat beam rune in my left hand. The creature quickly detached from my arm and began to cry out as flames engulfed all around it. Immediately following this I began to hit the creature with a fury of blows that quickly overwhelmed the creature as it flailed widely in an attempt to attack back. Pressing my advantage I struck the creature with a devastating swipe that cut hard across its body. I paused for a moment as I expected the creature to keel over dead, but was surprised when the creature seemed to bounce back and try one more time to attack me. I dodged this attack with ease though and with a simple slash I partially separated its head from its body, finally killing it.
-
-Finally having a chance to closely examine the creature, I noticed a single eye staring out from one of the eye sockets. Blinking and looking at the rest of its body I realized I had been fighting a rotting corpse. I wondered if there were anymore undead and I began to look around my immediate area. Around me I could spot a few sparse dead corpses mingling about that had yet to notice my presence. Deciding I would dispatch them I attempted to quietly approach them, only to realize how difficult this would be due to all the muddy ground in the area. It was at this point though when I wondered why all the ground was muddy, before I discerned the many tracks and footprints, all leading into the Shroud.
-
-Realizing the danger that was headed to Elvala, I quickly activated the Rune of Return that I had been grafted by the ogres on my neck, and in an instant I was once again within the city walls. Before I could reacquire my bearings a shaloren soldier walked into me and knocked me to the ground. The soldier soon got to his feet saying "My apologies" and proceeded to extend a hand under my left shoulder to help me up. Noticing the festering bite marks on my arm, the eyes of the soldier soon gained a solemn look and continuing to talk stated, "Command will want your report immediately on the undead you encountered. We've had a few more wander in through the Shroud while you were scouting."
-
-I turned towards the soldier who nodded in the direction of the main battlement line facing towards Elvala's northern forests. Nodding back, I proceeded to make my way to the tower above the main gate where I suspected the watch captain would be. I quickly made my way through the host of gathering soldiers forming below the walls and made my way up along with the mages and archers who were climbing the stairs to get to their positions. Noticing me as I made my way up, the watch captain called out in my direction, and I hurried over to his position to relay to him what had occurred. The captain tensed his face as I gave him my report and cursed as he turned his head to look out towards the Shroud.]], "_t")
-t([[[i]Looking past the gruesome nature of the undead, I can somewhat appreciate the brilliance of the tactics and strategy that they employed. Everything seemed to have been meticulously planned out beforehand and being undead they were able to act perfectly in a preordained manner. This allowed the necromancer controlling them to stay safely out of harms way and away for the duration of the battle.[/i]
-
-Suddenly I noticed the captain's eyes narrow and lock onto something within the smoke and turning to look myself I noticed the quivering distortions. Suddenly, with a loud call to "FIRE" coming from the watch captain, the many archers and mages began to loose arrows and cast spells, causing the disturbance to turn into a whirling maelstrom as projectiles and magic slammed into it. Despite the barrage a glistening phalanx of moving bones and tattered armor emerged, revealing several rows of skeletons in a defensive formation. Holding their shields high above them, they moved within lockstep of each other, and slowly made their approach towards the wall.
-
-The defenders continued to unleash everything they could over the walls, but for every single skeleton that was shattered or had its bones scattered across the battlefield it seemed as if two more would emerge behind it. Being unliving enemies with no free will of their own they continued to advance towards us no matter how many of them fell. Approaching the walls, soldiers from below began to cart up rocks and stones into great piles, and as the skeletons got closer the soldiers began to throw the debris over the walls. Unlike with arrows and spells, the skeletons could not overcome the heavy weight dropping down on them and many would be subsequently crushed.
-
-Looking down at them, the captain seem to muse over the situation before muttering, "I don't see them carrying any ladders, but judging from how they marched to the walls they must have some plan." Continuing to monitor them, I noticed hoarse voices in the air, and all of a sudden nearby panicked voices from those on the wall began to call out that they were under attack. Looking around I couldn’t see any attackers but I could tell that there were foes nearby. Then all at once I could feel the faint presence of something moving behind me and the watch captain. Quickly pulling my weapon I slashed behind me at the space where one of them was and though I couldn't see the enemy I heard a low gasp as my weapon slashed through the air.
-
-Becoming aware of what was happening, the watch captain called out to the defenders on the battlements, "We are under attack by shades, defend yourselves!" All at once everyone on the battlements turned to deal with the new threat and ignore the skeletons below. Those that could determine where the hidden enemies were quickly focused their attacks on dispatching the enemies directly while those that couldn't unleashed attacks in wide arcs that would be difficult to evade. It wasn't long before a torrent of death cries filled the air, but it would soon become clear that these enemies were just a distraction as skeletons made their move, constructing ladders and forming pyramids made of bones.
-
-Now with means to get to us, the skeletons were clambering up and arriving onto the battlements, using their superior numbers to push us back. Seeing that we were being overwhelmed, the watch captain gave the order to abandon the walls, causing everyone to scramble in an attempt to get off in whatever way possible. Unfortunately in the confusion, many who were still engaged or injured were unable to get away, and were subsequently hacked to pieces. Having lost control of the battlements, a small force of the skeletons moved to take over the gates and allow for the rest of the undead outside to get in, while the rest of the skeletons began to jump off in pursuit of us in a bid to run us down.
-
-As we ran down one of Elvala's narrow streets, the watch captain saw an opportunity present itself, and ordered the mages to form a firing line. Following us, the skeletons funneled into the streets after us into a tight formation, presenting a perfect opportunity for a barrage of spells to be used against them. Waves of lightning, fire, and cold spells washed over that battlefield and sent their bones scattering all over the street. Seeing most of the skeletons vanquished the defenders broke into a resounding cheer, until realization set in that there was more to come. Looking past the fallen skeletons, we could see a torrent of undead now flooding through the gate.
-
-The guttural sounds of ghouls began to fill the air and along with these ghouls walked another couple legions of skeletons. However, it was behind them that a truly frightening undead began to move, hulking figures of towering bone that stood as high as many of Elvala's buildings. A final line of skeletons also appeared too, but unlike the others they appeared to be armed with staves and bows. Quickly the undead began to organize themselves before moving lockstep with each other in our direction. Our mages attempted to ready another set of spells but quickly found this quite difficult as arrows and spells from the undead rained down on them. Realizing we would have to engage the undead fully we raised our shields and proceeded to step forward.
-
-As the front lines drew closer, we would be caught off guard when the ghouls made giant leaps over our entire formation. We soon found ourselves boxed in as ghouls clawed us in the back while the remaining undead forces collided into us from the front. With little room to maneuver, shaloren archers and mages behind us were cut down, while soldiers in front could do little more than keep their shields in front of them to block attacks. Panicking, those who could teleport broke from the line, leaving the rest of us to fend off the encroaching undead horde. The situation was looking quite bleak as we found ourselves trapped by the undead and everything was thrown into complete disarray.]], [[[i]Looking past the gruesome nature of the undead, I can somewhat appreciate the brilliance of the tactics and strategy that they employed. Everything seemed to have been meticulously planned out beforehand and being undead they were able to act perfectly in a preordained manner. This allowed the necromancer controlling them to stay safely out of harms way and away for the duration of the battle.[/i]
-
-Suddenly I noticed the captain's eyes narrow and lock onto something within the smoke and turning to look myself I noticed the quivering distortions. Suddenly, with a loud call to "FIRE" coming from the watch captain, the many archers and mages began to loose arrows and cast spells, causing the disturbance to turn into a whirling maelstrom as projectiles and magic slammed into it. Despite the barrage a glistening phalanx of moving bones and tattered armor emerged, revealing several rows of skeletons in a defensive formation. Holding their shields high above them, they moved within lockstep of each other, and slowly made their approach towards the wall.
-
-The defenders continued to unleash everything they could over the walls, but for every single skeleton that was shattered or had its bones scattered across the battlefield it seemed as if two more would emerge behind it. Being unliving enemies with no free will of their own they continued to advance towards us no matter how many of them fell. Approaching the walls, soldiers from below began to cart up rocks and stones into great piles, and as the skeletons got closer the soldiers began to throw the debris over the walls. Unlike with arrows and spells, the skeletons could not overcome the heavy weight dropping down on them and many would be subsequently crushed.
-
-Looking down at them, the captain seem to muse over the situation before muttering, "I don't see them carrying any ladders, but judging from how they marched to the walls they must have some plan." Continuing to monitor them, I noticed hoarse voices in the air, and all of a sudden nearby panicked voices from those on the wall began to call out that they were under attack. Looking around I couldn’t see any attackers but I could tell that there were foes nearby. Then all at once I could feel the faint presence of something moving behind me and the watch captain. Quickly pulling my weapon I slashed behind me at the space where one of them was and though I couldn't see the enemy I heard a low gasp as my weapon slashed through the air.
-
-Becoming aware of what was happening, the watch captain called out to the defenders on the battlements, "We are under attack by shades, defend yourselves!" All at once everyone on the battlements turned to deal with the new threat and ignore the skeletons below. Those that could determine where the hidden enemies were quickly focused their attacks on dispatching the enemies directly while those that couldn't unleashed attacks in wide arcs that would be difficult to evade. It wasn't long before a torrent of death cries filled the air, but it would soon become clear that these enemies were just a distraction as skeletons made their move, constructing ladders and forming pyramids made of bones.
-
-Now with means to get to us, the skeletons were clambering up and arriving onto the battlements, using their superior numbers to push us back. Seeing that we were being overwhelmed, the watch captain gave the order to abandon the walls, causing everyone to scramble in an attempt to get off in whatever way possible. Unfortunately in the confusion, many who were still engaged or injured were unable to get away, and were subsequently hacked to pieces. Having lost control of the battlements, a small force of the skeletons moved to take over the gates and allow for the rest of the undead outside to get in, while the rest of the skeletons began to jump off in pursuit of us in a bid to run us down.
-
-As we ran down one of Elvala's narrow streets, the watch captain saw an opportunity present itself, and ordered the mages to form a firing line. Following us, the skeletons funneled into the streets after us into a tight formation, presenting a perfect opportunity for a barrage of spells to be used against them. Waves of lightning, fire, and cold spells washed over that battlefield and sent their bones scattering all over the street. Seeing most of the skeletons vanquished the defenders broke into a resounding cheer, until realization set in that there was more to come. Looking past the fallen skeletons, we could see a torrent of undead now flooding through the gate.
-
-The guttural sounds of ghouls began to fill the air and along with these ghouls walked another couple legions of skeletons. However, it was behind them that a truly frightening undead began to move, hulking figures of towering bone that stood as high as many of Elvala's buildings. A final line of skeletons also appeared too, but unlike the others they appeared to be armed with staves and bows. Quickly the undead began to organize themselves before moving lockstep with each other in our direction. Our mages attempted to ready another set of spells but quickly found this quite difficult as arrows and spells from the undead rained down on them. Realizing we would have to engage the undead fully we raised our shields and proceeded to step forward.
-
-As the front lines drew closer, we would be caught off guard when the ghouls made giant leaps over our entire formation. We soon found ourselves boxed in as ghouls clawed us in the back while the remaining undead forces collided into us from the front. With little room to maneuver, shaloren archers and mages behind us were cut down, while soldiers in front could do little more than keep their shields in front of them to block attacks. Panicking, those who could teleport broke from the line, leaving the rest of us to fend off the encroaching undead horde. The situation was looking quite bleak as we found ourselves trapped by the undead and everything was thrown into complete disarray.]], "_t")
-t([[[i]Something that I have always wondered about is why people give names to inanimate objects. Aranion would lose hold of his weapon at some point during the fight with the Necromancer, though I'm not specifically sure at what time in the fight this would be. Even now as I write this, Aranion frets over his lost sword as if he had lost a loved one. While I can understand how one can get accustomed to a weapon, surely he can find another to use instead?[/i]
-
-Sensing that I needed to act now, I activated the heat beam rune, melting the ice around and me and sending a surging blast of fire towards the necromancer. As the necromancer stumbled back in flames as I took the moment to heave my weapon forward with all the force I could muster, only to pierce through nothing as the necromancer disappeared. Before I had a chance to see where the necromancer had teleported to, a burst of hot flames enveloped me from behind. Turning around I could see the necromancer, singed yet no longer on fire. I had been read completely and now I danced around in searing pain as every inch of my body burned. The necromancer cackled as I noticed the heat beam rune inscribed on the bottom of his outstretched arm.
-
-Annoyed at how easily I had been handled, I gritted my teeth and charged forward at the necromancer, only to be stopped by several undead blocking my way. Cackling some more, I felt a sharp pain cut through me as the necromancer released a dark beam of energy that shot through the skeletons and me. As I cringed in pain and had little time to react before the necromancer's minions began to attack me from all sides. Infuriated, I began to strike at everything surrounding me, tearing a path through the undead up to the necromancer. Coming face to face with the fiend I was about to deliver a great blow, but with a simple wave at me I felt a heavy force slam into my chest.
-
-Darkness seemed to pierce my mind and try as I might I could not resist it. I was sent careening backwards where I slammed into a wall. My vision began to blur as I lay on the ground. Despite this however I could still hear the necromancer cackle before the yammering began again. "How pathetic, really you are. Fighting is more than just hitting things with overwhelming force! You are truly powerful thalore, but power in and of itself is meaningless. Your moves are too telegraphed, your attacks are easily countered, and you don't seem to have the slightest idea of how to strategize in combat. Oh well. Perhaps after I kill you I'll just raise your corpse as it is and show you how to properly engage yourself in a fight."
-
-Despite my inability to remember things said to me, I remember those words quite well as they rang through my head. Poetically I could say that they pierced me more than any wound inflicted on me that day, but that would fail to describe just how many spellblasts and cursed spells would be sent into my body. For every action I would make the necromancer would be two steps ahead and for every mistake I would make I would pay dearly. As the battle went on I could feel my body beginning to grow colder and I knew that despite how tough I was I could not continue to sustain my fighting efforts for much longer. My desperation was perhaps just as noticeable as anything else by the necromancer.
-
-Then at last my body could stand no more and I collapsed to the ground unable to move. Waves of cold and dark energy circulated within my body and I realized just how close to the limits of my own mortality I was. I remember as my thoughts turned over to past events of my life in that moment, to a time before the Spellblaze when I lived in the forests with my fellow thaloren, a simpler and more peaceful time to be sure. I didn't want to die, nor suffer whatever mad plans this necromancer would have for me either. Yet I could do nothing more now as the necromancer slowly approached to stand over me and say, "Such a fruitless effort thalore. Perhaps with time you would have become a notable hero of legend. But now you die."
-
-In the next moment I could not describe to you the amount of pain that ripped through my body as the necromancer unleashed a deathly magic that tortured every fibre of my being. As I was engulfed in agony my mind slowly began to black out and I slowly edged closer and closer to death. I might have been killed had Aranion not managed to return just in time to interrupt the necromancer and cancel the spell cast on me. I don't know the specifics of what happened next after that, only that Aranion was somehow able to extract me and himself from the grasp of the necromancer and escape. Somehow I endured long enough after that for Aranion to cast a basic healing spell on me, enough to keep me alive until we returned to Elvala.
-
-I briefly remember when I was initially recovering that I opened my eyes while laying in one of the medical beds back in Elvala. In a chair near me I saw my husband sleeping, waiting for me. I tried to call out but instead I let out a scream. My husband would call for a healer as my body was wracked in pain from the many injuries I had endured for so long. I would sleep for a long time after that, for how long I do not know, but the next time I woke up I would be in my own room within my house. Looking around once again I could see that it was nighttime, and my husband again sat sleeping in a chair, still waiting for me. For how long he waited I do not know.
-
-Once more I called out saying his name "Awain". As he roused from his sleep and looked at me an endless amount of tears would begin streaming down his face. In a cracked voice I heard him say, "You're awake, you're still alive." He hurried over to me, putting his hands under me to embrace me tightly, and began sobbing uncontrollably. For the moment I allowed him to cry, feeling that I should hold back on inquiring as to how I had made it back to Elvala. I didn't know how long I had been unconscious but I had the feeling that he had waited the entire time for me, waiting for the moment I would come back to him. I embraced him back and sobbed too as we were reunited once more.]], [[[i]Something that I have always wondered about is why people give names to inanimate objects. Aranion would lose hold of his weapon at some point during the fight with the Necromancer, though I'm not specifically sure at what time in the fight this would be. Even now as I write this, Aranion frets over his lost sword as if he had lost a loved one. While I can understand how one can get accustomed to a weapon, surely he can find another to use instead?[/i]
-
-Sensing that I needed to act now, I activated the heat beam rune, melting the ice around and me and sending a surging blast of fire towards the necromancer. As the necromancer stumbled back in flames as I took the moment to heave my weapon forward with all the force I could muster, only to pierce through nothing as the necromancer disappeared. Before I had a chance to see where the necromancer had teleported to, a burst of hot flames enveloped me from behind. Turning around I could see the necromancer, singed yet no longer on fire. I had been read completely and now I danced around in searing pain as every inch of my body burned. The necromancer cackled as I noticed the heat beam rune inscribed on the bottom of his outstretched arm.
-
-Annoyed at how easily I had been handled, I gritted my teeth and charged forward at the necromancer, only to be stopped by several undead blocking my way. Cackling some more, I felt a sharp pain cut through me as the necromancer released a dark beam of energy that shot through the skeletons and me. As I cringed in pain and had little time to react before the necromancer's minions began to attack me from all sides. Infuriated, I began to strike at everything surrounding me, tearing a path through the undead up to the necromancer. Coming face to face with the fiend I was about to deliver a great blow, but with a simple wave at me I felt a heavy force slam into my chest.
-
-Darkness seemed to pierce my mind and try as I might I could not resist it. I was sent careening backwards where I slammed into a wall. My vision began to blur as I lay on the ground. Despite this however I could still hear the necromancer cackle before the yammering began again. "How pathetic, really you are. Fighting is more than just hitting things with overwhelming force! You are truly powerful thalore, but power in and of itself is meaningless. Your moves are too telegraphed, your attacks are easily countered, and you don't seem to have the slightest idea of how to strategize in combat. Oh well. Perhaps after I kill you I'll just raise your corpse as it is and show you how to properly engage yourself in a fight."
-
-Despite my inability to remember things said to me, I remember those words quite well as they rang through my head. Poetically I could say that they pierced me more than any wound inflicted on me that day, but that would fail to describe just how many spellblasts and cursed spells would be sent into my body. For every action I would make the necromancer would be two steps ahead and for every mistake I would make I would pay dearly. As the battle went on I could feel my body beginning to grow colder and I knew that despite how tough I was I could not continue to sustain my fighting efforts for much longer. My desperation was perhaps just as noticeable as anything else by the necromancer.
-
-Then at last my body could stand no more and I collapsed to the ground unable to move. Waves of cold and dark energy circulated within my body and I realized just how close to the limits of my own mortality I was. I remember as my thoughts turned over to past events of my life in that moment, to a time before the Spellblaze when I lived in the forests with my fellow thaloren, a simpler and more peaceful time to be sure. I didn't want to die, nor suffer whatever mad plans this necromancer would have for me either. Yet I could do nothing more now as the necromancer slowly approached to stand over me and say, "Such a fruitless effort thalore. Perhaps with time you would have become a notable hero of legend. But now you die."
-
-In the next moment I could not describe to you the amount of pain that ripped through my body as the necromancer unleashed a deathly magic that tortured every fibre of my being. As I was engulfed in agony my mind slowly began to black out and I slowly edged closer and closer to death. I might have been killed had Aranion not managed to return just in time to interrupt the necromancer and cancel the spell cast on me. I don't know the specifics of what happened next after that, only that Aranion was somehow able to extract me and himself from the grasp of the necromancer and escape. Somehow I endured long enough after that for Aranion to cast a basic healing spell on me, enough to keep me alive until we returned to Elvala.
-
-I briefly remember when I was initially recovering that I opened my eyes while laying in one of the medical beds back in Elvala. In a chair near me I saw my husband sleeping, waiting for me. I tried to call out but instead I let out a scream. My husband would call for a healer as my body was wracked in pain from the many injuries I had endured for so long. I would sleep for a long time after that, for how long I do not know, but the next time I woke up I would be in my own room within my house. Looking around once again I could see that it was nighttime, and my husband again sat sleeping in a chair, still waiting for me. For how long he waited I do not know.
-
-Once more I called out saying his name "Awain". As he roused from his sleep and looked at me an endless amount of tears would begin streaming down his face. In a cracked voice I heard him say, "You're awake, you're still alive." He hurried over to me, putting his hands under me to embrace me tightly, and began sobbing uncontrollably. For the moment I allowed him to cry, feeling that I should hold back on inquiring as to how I had made it back to Elvala. I didn't know how long I had been unconscious but I had the feeling that he had waited the entire time for me, waiting for the moment I would come back to him. I embraced him back and sobbed too as we were reunited once more.]], "_t")
---]==]
-
--- texte non traduit
---[==[
-t("Forbidden Cults", "Forbidden Cults", "newLore category")
-t("Escapades of Fay Willows [Book 1, Chapter 1] - Devastation of the Spellblaze", "Escapades of Fay Willows [Book 1, Chapter 1] - Devastation of the Spellblaze", "_t")
-t("Escapades of Fay Willows [Book 1, Chapter 2] - Infusion Avoidance", "Escapades of Fay Willows [Book 1, Chapter 2] - Infusion Avoidance", "_t")
-t("Escapades of Fay Willows [Book 1, Chapter 3] - Shaloren Suffering", "Escapades of Fay Willows [Book 1, Chapter 3] - Shaloren Suffering", "_t")
-t("Escapades of Fay Willows [Book 1, Chapter 4] - Medical Treatment", "Escapades of Fay Willows [Book 1, Chapter 4] - Medical Treatment", "_t")
 t("Escapades of Fay Willows [Book 1, Chapter 5] - General Aranion Gawaeil", "Escapades of Fay Willows [Book 1, Chapter 5] - General Aranion Gawaeil", "_t")
 t([[[i]General Aranion Gaweil, leader of the Grand Council of Elvala. This was perhaps the first name I ever learned from someone outside my family. While Aranion never gave his name to me personally, the rest of the shaloren certainly banter it around enough to the point that I eventually remembered it. While perhaps there is little to acknowledge from one who readily gives their name, I can perhaps respect Aranion whose name I learned from those around him, and the idolization and fondness that they seemed to speak it with.[/i]
 
@@ -1952,10 +1411,183 @@ Thanking the general, I was then escorted to a small circle in which a runic des
 
 Putting the chest in my pack, I began to make my way towards the road leading to the gates as well. I did not know this but what I thought would be a brief stop on my way back to my home forests would soon herald the start of another adventure for me. I would find atrocities within the home of the Nargols that would only be dwarfed by the devastation caused by the Spellblaze. Such were the earlier events of what would soon be called the Spellhunt, which even now spreads over the face of Maj'Eyal, and threatens to throw all the races ever closer to oblivion.]], "_t")
 t("Escapades of Fay Willows [Book 2, Chapter 1] - At The Gates", "Escapades of Fay Willows [Book 2, Chapter 1] - At The Gates", "_t")
+t([[[i]While on the surface the Nargols appeared to be in total control of the situation, underneath it all this was very much not the case. In order to attempt to mitigate trouble they actively attempted to confiscate any and all magical items they could find from the refugees entering the city, and hide their leaders from being assassinated for their parts in the Spellblaze. Spellcasters in their army were sent underground, mindful of the danger they were in, but also not wishing to incite angry citizens further.[/i]
+
+I descended slowly and carefully down the blasted hillside, and crossed over the river where some stones emerged that I could step on. Making my way over burned grass I joined with the procession of refugees making their way towards the city gates. I had to wait a long while as the guards slowly inspected wagons and asked questions of those passing through. While it seemed no one was being turned away, drawing closer I saw one dwarf begin to holler as a guard confiscated an item from him. The dwarf was still hollering when he was allowed entry, a torrent of profanity coming from the dwarf for every step he took inside.
+
+After a dozen more or so in front of me were processed by the guards, I was finally next. I immediately held out the papers I have received from the general. The guard nearest to me gave notice to the insignia on them, and motioned to another of the guards to come over. After glancing at the papers together, they talked to each other in a hushed tone, and then one of them proceeded to run off with the paper at a brisk pace to a nearby tower. Before long the guard returned, followed by another halfling. Judging from the immaculate armor he wore, I quickly realized he must be their superior.
+
+He walked towards me with a slow methodical pace, his gaze seemingly analyzing me fully. Standing in front of me, his eyes looked up into mine as I looked down on him. Then he abruptly turned away, and gestured to one of the guards. The guard immediately approached and held out has hands. Sensing that I should give the chest now, I pulled it out of my pack and handed it to him. Giving a quick nod as he received the chest, the guard quickly hurried away with it. He dashed through the gate and rounded around the walls out of sight. Another guard soon approached and in a polite tone stated, "Welcome to the Nargol Kingdom."
+
+With this I was ushered through the gate as the guards began to resume their searches and queries to the refugees behind me. Looking around, I saw a great many tents and hastily constructed shanties, likely put up to house the many refugees flooding into the city. The refugees themselves sat around as if devoid of any purpose. Some lifelessly stared towards the west, likely to settlements they had been forced to come from. Others seem to stare blankly towards the sky as if perhaps waiting for more death to fall from it as it had during the Spellblaze.
+
+Saddened by the site of all this and the sense of loss that hanged in the air I decided to move on. I navigated myself towards the buildings of the settlement. Ruins of destroyed buildings lay across the street with some featuring collapsed roofs and walls. I could see through the gaps in the stones of one of the damaged buildings a family of halflings. Further down the street a wooden sign for a tavern lay on the ground. Feeling somewhat peckish at this point I made my way towards the building next to the sign hoping that they may have some food to purchase.
+
+Inside a motley collection of halflings, humans, and dwarves sat at various tables. A bit more lively than the refugees outside, some conversed with each other while others gambled. As I entered the tavern, one human immediately took notice and approached saying "hey, aren't you that thalore before? Yea, it is you." Wondering who this human was I wondered if he was perhaps insane. Seemingly sensing this he quickly stated, "Ahh, perhaps you don't recognize me. I'm the messenger that happen to be in that inn up north. You probably remember me arguing with that Eldoral halfwit from before."
+
+I clenched my teeth a bit. I wondered if I might be in trouble. Again however the human made another quick statement, "Don't worry, I don't think you'll find anyone disagreeing with what you did to him and I was thinking of doing the same anyway. He would have eventually been lynched for saying things as he did. Someone would have silenced him sooner or later." Curious as to what the messenger just said I cautiously replied, "What do you mean?" To this the messenger raised an eyebrow before stating, "What? You think that any of the guards here would stop someone like that halfling from being killed? Such incidents have become common place nowadays."
+
+Soon smiling at me, the messenger began to gesture towards a nearby seat. I wasn't much interested in chatting with him, but thinking perhaps he may be able to inform me a bit of events I decided to accept his offer. I moved to sit down, ordering some food to eat. The messenger began making small talk, noting the devastation wrought from the Spellblaze, viciously attacking 'the mages' within each of his sentences, and lamenting the loss of some of his friends. For a time I let him talk as I ate my food. Oddly enough, the messenger didn't give me his name or ask for my own; perhaps being at least somewhat knowledgeable of Thaloren customs in that regard. I didn't actually notice this when I talked to him initially, only realizing it due to later events that would unfold.]], [[[i]While on the surface the Nargols appeared to be in total control of the situation, underneath it all this was very much not the case. In order to attempt to mitigate trouble they actively attempted to confiscate any and all magical items they could find from the refugees entering the city, and hide their leaders from being assassinated for their parts in the Spellblaze. Spellcasters in their army were sent underground, mindful of the danger they were in, but also not wishing to incite angry citizens further.[/i]
+
+I descended slowly and carefully down the blasted hillside, and crossed over the river where some stones emerged that I could step on. Making my way over burned grass I joined with the procession of refugees making their way towards the city gates. I had to wait a long while as the guards slowly inspected wagons and asked questions of those passing through. While it seemed no one was being turned away, drawing closer I saw one dwarf begin to holler as a guard confiscated an item from him. The dwarf was still hollering when he was allowed entry, a torrent of profanity coming from the dwarf for every step he took inside.
+
+After a dozen more or so in front of me were processed by the guards, I was finally next. I immediately held out the papers I have received from the general. The guard nearest to me gave notice to the insignia on them, and motioned to another of the guards to come over. After glancing at the papers together, they talked to each other in a hushed tone, and then one of them proceeded to run off with the paper at a brisk pace to a nearby tower. Before long the guard returned, followed by another halfling. Judging from the immaculate armor he wore, I quickly realized he must be their superior.
+
+He walked towards me with a slow methodical pace, his gaze seemingly analyzing me fully. Standing in front of me, his eyes looked up into mine as I looked down on him. Then he abruptly turned away, and gestured to one of the guards. The guard immediately approached and held out has hands. Sensing that I should give the chest now, I pulled it out of my pack and handed it to him. Giving a quick nod as he received the chest, the guard quickly hurried away with it. He dashed through the gate and rounded around the walls out of sight. Another guard soon approached and in a polite tone stated, "Welcome to the Nargol Kingdom."
+
+With this I was ushered through the gate as the guards began to resume their searches and queries to the refugees behind me. Looking around, I saw a great many tents and hastily constructed shanties, likely put up to house the many refugees flooding into the city. The refugees themselves sat around as if devoid of any purpose. Some lifelessly stared towards the west, likely to settlements they had been forced to come from. Others seem to stare blankly towards the sky as if perhaps waiting for more death to fall from it as it had during the Spellblaze.
+
+Saddened by the site of all this and the sense of loss that hanged in the air I decided to move on. I navigated myself towards the buildings of the settlement. Ruins of destroyed buildings lay across the street with some featuring collapsed roofs and walls. I could see through the gaps in the stones of one of the damaged buildings a family of halflings. Further down the street a wooden sign for a tavern lay on the ground. Feeling somewhat peckish at this point I made my way towards the building next to the sign hoping that they may have some food to purchase.
+
+Inside a motley collection of halflings, humans, and dwarves sat at various tables. A bit more lively than the refugees outside, some conversed with each other while others gambled. As I entered the tavern, one human immediately took notice and approached saying "hey, aren't you that thalore before? Yea, it is you." Wondering who this human was I wondered if he was perhaps insane. Seemingly sensing this he quickly stated, "Ahh, perhaps you don't recognize me. I'm the messenger that happen to be in that inn up north. You probably remember me arguing with that Eldoral halfwit from before."
+
+I clenched my teeth a bit. I wondered if I might be in trouble. Again however the human made another quick statement, "Don't worry, I don't think you'll find anyone disagreeing with what you did to him and I was thinking of doing the same anyway. He would have eventually been lynched for saying things as he did. Someone would have silenced him sooner or later." Curious as to what the messenger just said I cautiously replied, "What do you mean?" To this the messenger raised an eyebrow before stating, "What? You think that any of the guards here would stop someone like that halfling from being killed? Such incidents have become common place nowadays."
+
+Soon smiling at me, the messenger began to gesture towards a nearby seat. I wasn't much interested in chatting with him, but thinking perhaps he may be able to inform me a bit of events I decided to accept his offer. I moved to sit down, ordering some food to eat. The messenger began making small talk, noting the devastation wrought from the Spellblaze, viciously attacking 'the mages' within each of his sentences, and lamenting the loss of some of his friends. For a time I let him talk as I ate my food. Oddly enough, the messenger didn't give me his name or ask for my own; perhaps being at least somewhat knowledgeable of Thaloren customs in that regard. I didn't actually notice this when I talked to him initially, only realizing it due to later events that would unfold.]], "_t")
 t("Escapades of Fay Willows [Book 2, Chapter 2] - Exchange of Information", "Escapades of Fay Willows [Book 2, Chapter 2] - Exchange of Information", "_t")
+t([[[i]You know, it is really hard to know someone. The messenger was a good example of this, as I would soon find out. I had pegged him for being a disgruntled human that had suffered greatly because of the Spellblaze. In reality he was much more than just disgruntled, and I believe he may have been a member of the group instigating the Spellhunt. I'm sure he and the others who had left after with that human in the dark cloak died taking part in a nefarious plot that I would learn the day after. But did he die willingly? That's the real question I think about now in regards to him.[/i]
+
+Finishing my meal, I decided to probe the messenger for information. Upon the completion of his last tirade I asked, "So how are things faring here?" A sigh escaped the man as he answered, "Well, the Nargols appear to have everything under control. They are managing to get enough food for all the refugees streaming in; even managed to procure some alcohol for those dwarves. I have to say it was quite a surprise to see them out here. I wonder if they happen to have anymore homes elsewhere on the continent outside of the Iron Throne. Hard to really know with how secretive the dwarves are though."
+
+While I wasn't exactly interested in the dwarves, that last statement disconnected quite a bit from what I knew about them. From my knowledge of the dwarves, they all lived in the Iron Throne, or at least cities nearby to it. Querying the messenger he soon explained. "Well, the dwarves you see here now had a home over there in the western mountains. The Cornacs were completely ignorant that they had taken up residence so close to them, and the dwarves likely would have kept it a secret. Unfortunately for them they were forced to show themselves since the blasted mages caused their home to collapse in on them."
+
+Satisfied with that answer I remembered about that hollering dwarf when entering the city. I wondered if perhaps the messenger might know something about what that was all about. Noting it I said, "You wouldn't happen to know anything regarding items the dwarves might be carrying that the guards at the city gates would confiscate would you?" The messengers soldiers shrugged before he replied back, "Likely was carrying some item of arcane properties that an accursed mage enchanted long ago. Those dwarves seem to be getting the worse treatment in regards to that, what with the little care they give towards whether an item is contaminated with magic or not."
+
+Shaking his head before going on, the messenger mused aloud, "You know, the Nargol are actively attempting to confiscate items of magical origin as a means of appeasement to placate the halflings living here. They say that it's too dangerous for civilians to carry such items. Personally I say it is too dangerous for anyone to be carrying such items, them included. Of course they are too arrogant to bother fellow halflings living in the city already in regards to giving up such items, expecting them to 'voluntarily' give them up. Really it is just the dwarves, the halfling refugees from outside the city, and us humans getting our possessions taken away." The human proceeded to laugh as he finished saying these words.
+
+The messenger stopped laughing though as a human in a dark cloak approached and leaned down to say something to him. The messenger nodded to the figure upon which he said back, "I'll catch up later, relay back to me the plan when we are ready." To this the human in the dark cloak bowed, hurried over to another table with a couple of halflings and then a table with a dwarf, before then leaving the establishment and disappearing. The halflings and the dwarf finished their food and packed up their things before they quietly left as well. Wondering just who this messenger was I glanced at him to see he examining eyes looking towards me. In a relaxed voice the messenger said, "Don't mind them, were having such a nice conversation to have the others ruin it."
+
+At that point I realized that there was more to this human than I had initially thought. I wondered if he might be a bit more dangerous than I was giving him credit for. Perhaps a bit rashly I decided to see just how much this man knew, and so I quietly stated, "You wouldn't happen to have any plans to deal with the Shaloren?" Almost instantly the mans stance and posture changed before in a new tone he continued to speak, "Oh wouldn't it be so great to wipe those miserable louts from the face of Eyal. I assume you likely left your forest because you know they were responsible and would like nothing more than to bathe in their blood. Don't most of us all. In due time they will be made to pay in full for for unleashing the Spellblaze on Maj'Eyal."
+
+Cautiously I asked in as angry of a voice as I could muster, "Spellblaze, is that what they call it?" Quickly confirming back to me this he stated "indeed, or so I have been told." Seeing as how the man liked to talk I waited for him to feed me more information "I tell you what, perhaps you should come with me to a little gathering of friends to discuss it. We've got a plan that we will be putting into motion soon to ensure nature never suffers as badly as I'm sure you a thalore can feel it suffer. You see, while the Shaloren are most definitely responsible it isn't like none of the other races knew about their so called grand plan. Every race, save for perhaps the Dwarves, had some knowledge of the Spellblaze."
+
+Obviously the messenger was likely part of whatever group the shalore general had feared. I could tell that the messenger most definitely was in whatever schemes were being orchestrated too, and possibly ones that required secrecy as confirmed from the cloaked man from before. I considered going to his little gathering of friends, but I wasn't really interested in participating in whatever scheme they were going to partake in, and I could sense a feeling of danger as well. "I thank you for the offer, but I must decline" I finally said. To this I got a raised eyebrow as he quickly stated back, "Really, I would think a thalore such as yourself would jump at a chance to exact retribution against any who defile nature as has been done?"
+
+His words made me think for a moment, but I simply got up and left. I remember him calling out that should I change my mind, that I would be 'welcomed as a new initiate for sure'. The sun had begun to set in the sky as I left the building. Figuring I should look for a place to stay for the night I found an inn and purchased a room. I figured that in the morning I would go to the market and buy some food and supplies for my journey home. I slept soundly until early in the morning before the sun had begun to rise when the sounds of screaming filled my ears. Wondering what was going on I looked out the window of my room to see fire and smoke rising from a large building in the distance.]], [[[i]You know, it is really hard to know someone. The messenger was a good example of this, as I would soon find out. I had pegged him for being a disgruntled human that had suffered greatly because of the Spellblaze. In reality he was much more than just disgruntled, and I believe he may have been a member of the group instigating the Spellhunt. I'm sure he and the others who had left after with that human in the dark cloak died taking part in a nefarious plot that I would learn the day after. But did he die willingly? That's the real question I think about now in regards to him.[/i]
+
+Finishing my meal, I decided to probe the messenger for information. Upon the completion of his last tirade I asked, "So how are things faring here?" A sigh escaped the man as he answered, "Well, the Nargols appear to have everything under control. They are managing to get enough food for all the refugees streaming in; even managed to procure some alcohol for those dwarves. I have to say it was quite a surprise to see them out here. I wonder if they happen to have anymore homes elsewhere on the continent outside of the Iron Throne. Hard to really know with how secretive the dwarves are though."
+
+While I wasn't exactly interested in the dwarves, that last statement disconnected quite a bit from what I knew about them. From my knowledge of the dwarves, they all lived in the Iron Throne, or at least cities nearby to it. Querying the messenger he soon explained. "Well, the dwarves you see here now had a home over there in the western mountains. The Cornacs were completely ignorant that they had taken up residence so close to them, and the dwarves likely would have kept it a secret. Unfortunately for them they were forced to show themselves since the blasted mages caused their home to collapse in on them."
+
+Satisfied with that answer I remembered about that hollering dwarf when entering the city. I wondered if perhaps the messenger might know something about what that was all about. Noting it I said, "You wouldn't happen to know anything regarding items the dwarves might be carrying that the guards at the city gates would confiscate would you?" The messengers soldiers shrugged before he replied back, "Likely was carrying some item of arcane properties that an accursed mage enchanted long ago. Those dwarves seem to be getting the worse treatment in regards to that, what with the little care they give towards whether an item is contaminated with magic or not."
+
+Shaking his head before going on, the messenger mused aloud, "You know, the Nargol are actively attempting to confiscate items of magical origin as a means of appeasement to placate the halflings living here. They say that it's too dangerous for civilians to carry such items. Personally I say it is too dangerous for anyone to be carrying such items, them included. Of course they are too arrogant to bother fellow halflings living in the city already in regards to giving up such items, expecting them to 'voluntarily' give them up. Really it is just the dwarves, the halfling refugees from outside the city, and us humans getting our possessions taken away." The human proceeded to laugh as he finished saying these words.
+
+The messenger stopped laughing though as a human in a dark cloak approached and leaned down to say something to him. The messenger nodded to the figure upon which he said back, "I'll catch up later, relay back to me the plan when we are ready." To this the human in the dark cloak bowed, hurried over to another table with a couple of halflings and then a table with a dwarf, before then leaving the establishment and disappearing. The halflings and the dwarf finished their food and packed up their things before they quietly left as well. Wondering just who this messenger was I glanced at him to see he examining eyes looking towards me. In a relaxed voice the messenger said, "Don't mind them, were having such a nice conversation to have the others ruin it."
+
+At that point I realized that there was more to this human than I had initially thought. I wondered if he might be a bit more dangerous than I was giving him credit for. Perhaps a bit rashly I decided to see just how much this man knew, and so I quietly stated, "You wouldn't happen to have any plans to deal with the Shaloren?" Almost instantly the mans stance and posture changed before in a new tone he continued to speak, "Oh wouldn't it be so great to wipe those miserable louts from the face of Eyal. I assume you likely left your forest because you know they were responsible and would like nothing more than to bathe in their blood. Don't most of us all. In due time they will be made to pay in full for for unleashing the Spellblaze on Maj'Eyal."
+
+Cautiously I asked in as angry of a voice as I could muster, "Spellblaze, is that what they call it?" Quickly confirming back to me this he stated "indeed, or so I have been told." Seeing as how the man liked to talk I waited for him to feed me more information "I tell you what, perhaps you should come with me to a little gathering of friends to discuss it. We've got a plan that we will be putting into motion soon to ensure nature never suffers as badly as I'm sure you a thalore can feel it suffer. You see, while the Shaloren are most definitely responsible it isn't like none of the other races knew about their so called grand plan. Every race, save for perhaps the Dwarves, had some knowledge of the Spellblaze."
+
+Obviously the messenger was likely part of whatever group the shalore general had feared. I could tell that the messenger most definitely was in whatever schemes were being orchestrated too, and possibly ones that required secrecy as confirmed from the cloaked man from before. I considered going to his little gathering of friends, but I wasn't really interested in participating in whatever scheme they were going to partake in, and I could sense a feeling of danger as well. "I thank you for the offer, but I must decline" I finally said. To this I got a raised eyebrow as he quickly stated back, "Really, I would think a thalore such as yourself would jump at a chance to exact retribution against any who defile nature as has been done?"
+
+His words made me think for a moment, but I simply got up and left. I remember him calling out that should I change my mind, that I would be 'welcomed as a new initiate for sure'. The sun had begun to set in the sky as I left the building. Figuring I should look for a place to stay for the night I found an inn and purchased a room. I figured that in the morning I would go to the market and buy some food and supplies for my journey home. I slept soundly until early in the morning before the sun had begun to rise when the sounds of screaming filled my ears. Wondering what was going on I looked out the window of my room to see fire and smoke rising from a large building in the distance.]], "_t")
 t("Escapades of Fay Willows [Book 2, Chapter 3] - Blazing Madness", "Escapades of Fay Willows [Book 2, Chapter 3] - Blazing Madness", "_t")
+t([[[i]In the market I purchased several items to help me for when I forged my way back towards Thaloren lands. I bought about three weeks worth of rations for myself as I had planned to perhaps 'explore' a little bit before finally arriving home. I also procured a fine steel utility knife and a steel hatchet. I wasn't sure I would really need this much for my journey, I could likely have explored the entirety of Maj'Eyal with it, but I never imagined what role everything I bought in that market would soon come to play in the future.[/i]
+
+Out of my window I saw many residents of the city run to help deal with the fire. They quickly got to work in cordoning off the area and preventing it from further spreading, but despite their efforts, many homes were enveloped in flames before the fire was fully contained. Before long many soldiers arrived and pushed back everyone, including those residents helping to put out the fire. For a small while the fire was left to burn, though it soon began to diminish. I don't know how they did it, but soon after the fires began to die down. Maybe perhaps some mages had come out of hiding and they used water magic in secret to drown it out? It is hard to think of any other explanation.
+
+As the fires began to simmer, some of the soldiers moved to inspect the burnt out homes for anyone who many not have escaped from the fire’s destruction. After that they moved on to investigate the building where the fire first started. I noticed after some of the soldiers had entered the building that they were pulling out several bundles wrapped in blankets. I would come to learn that these bundles were the remains of those suspected of starting the fire. Whether by accident or on purpose, they had been killed by their own act of arson. I would also learn that those killed consisted of a human, two halflings, and a dwarf. I'm certainly glad I left the messenger when I did.
+
+During this time I remained in my room. When I finally left I talked with the innkeeper about the event, learning that the building was the one that housed many of the possessions that had been confiscated from the refugees. When I left the inn I could hear the conversations from many of the residents on the streets as they talked about the destruction of nearly every arcane item stored within the storehouse. They also murmured that some of the residents from the nearby homes were suspected to have been killed by the fire, as well a couple of the residents who had come to help put out the fire initially.
+
+The fire would be talked about continually as I made my way to the Nargol market. Even there many of the merchants and patrons continued their talk of the event. Finishing up my purchases, it was at this point that I remembered another patron noting something about how the refugees were quite upset. I turned to approach the patron saying, "Exactly why would the refugees be upset." The patron, a halfling who wore fairly fine clothes but appeared to be of common work turned with a stunned look in my direction. Sighing I soon stated "Yes, I'm a thalore, what's up with the refugees." "Indeed you are,” the halfling quickly stated "well, I don't know why they are upset. You'd think they would be content with getting food and drink as well as being allowed to put up those miserable tents in the city. Something about the fire has seemingly stirred them up."
+
+The halfling stopped talking to look up at something with a concerned expression, before turning around and abruptly running. As the halfling fled I soon heard the yelling behind me. Turning around I saw as a mob of ragged refugees rush through the stalls as the merchants began to flee. Wood was smashed and cloth torn as the refugees moved by them. I moved in the opposite direction away from them, but patrons and merchants who couldn't get away were knocked down and trampled. A few who attempted to stand up to the mob or protect their stalls soon found themselves beaten and bruised on the ground.
+
+This continued for several minutes before the first guards appeared to have restored order. It took the guards several minutes to assemble themselves, within which the refugees continued to wreck a good deal of the market. When the guards finally moved in to clear them out, many of the refugees scattered, leaving debris and injured merchants and patrons everywhere. As order was restored to the scene, some guards came to check to see if I was alright before one of the guards pulled me aside to interrogate me as to what had happened. I relayed back to the guard the events as I had seen them unfolded. After telling my account I was directed to leave the area.
+
+Moving away from the market I wondered what other scenes of chaos I might see if I remained within the Nargol city. While I had evaded danger, it could have very well been me getting trampled or knocked aside in that market. I made a decision then to begin making my way back towards the city gates. As I made my way towards the gates though I noticed a gathering mob of refugees and even some citizens in front of me. I should have headed past them but beyond them I heard a voice ringing out above. "The time has come for action, but it must be directed at the source of those behind all the harm." I stopped and turned my head as I heard the words, something compelling me to stay and listen to what was being said. Drawn in by the voice I began to make my way towards the outskirt of the crowd.]], [[[i]In the market I purchased several items to help me for when I forged my way back towards Thaloren lands. I bought about three weeks worth of rations for myself as I had planned to perhaps 'explore' a little bit before finally arriving home. I also procured a fine steel utility knife and a steel hatchet. I wasn't sure I would really need this much for my journey, I could likely have explored the entirety of Maj'Eyal with it, but I never imagined what role everything I bought in that market would soon come to play in the future.[/i]
+
+Out of my window I saw many residents of the city run to help deal with the fire. They quickly got to work in cordoning off the area and preventing it from further spreading, but despite their efforts, many homes were enveloped in flames before the fire was fully contained. Before long many soldiers arrived and pushed back everyone, including those residents helping to put out the fire. For a small while the fire was left to burn, though it soon began to diminish. I don't know how they did it, but soon after the fires began to die down. Maybe perhaps some mages had come out of hiding and they used water magic in secret to drown it out? It is hard to think of any other explanation.
+
+As the fires began to simmer, some of the soldiers moved to inspect the burnt out homes for anyone who many not have escaped from the fire’s destruction. After that they moved on to investigate the building where the fire first started. I noticed after some of the soldiers had entered the building that they were pulling out several bundles wrapped in blankets. I would come to learn that these bundles were the remains of those suspected of starting the fire. Whether by accident or on purpose, they had been killed by their own act of arson. I would also learn that those killed consisted of a human, two halflings, and a dwarf. I'm certainly glad I left the messenger when I did.
+
+During this time I remained in my room. When I finally left I talked with the innkeeper about the event, learning that the building was the one that housed many of the possessions that had been confiscated from the refugees. When I left the inn I could hear the conversations from many of the residents on the streets as they talked about the destruction of nearly every arcane item stored within the storehouse. They also murmured that some of the residents from the nearby homes were suspected to have been killed by the fire, as well a couple of the residents who had come to help put out the fire initially.
+
+The fire would be talked about continually as I made my way to the Nargol market. Even there many of the merchants and patrons continued their talk of the event. Finishing up my purchases, it was at this point that I remembered another patron noting something about how the refugees were quite upset. I turned to approach the patron saying, "Exactly why would the refugees be upset." The patron, a halfling who wore fairly fine clothes but appeared to be of common work turned with a stunned look in my direction. Sighing I soon stated "Yes, I'm a thalore, what's up with the refugees." "Indeed you are,” the halfling quickly stated "well, I don't know why they are upset. You'd think they would be content with getting food and drink as well as being allowed to put up those miserable tents in the city. Something about the fire has seemingly stirred them up."
+
+The halfling stopped talking to look up at something with a concerned expression, before turning around and abruptly running. As the halfling fled I soon heard the yelling behind me. Turning around I saw as a mob of ragged refugees rush through the stalls as the merchants began to flee. Wood was smashed and cloth torn as the refugees moved by them. I moved in the opposite direction away from them, but patrons and merchants who couldn't get away were knocked down and trampled. A few who attempted to stand up to the mob or protect their stalls soon found themselves beaten and bruised on the ground.
+
+This continued for several minutes before the first guards appeared to have restored order. It took the guards several minutes to assemble themselves, within which the refugees continued to wreck a good deal of the market. When the guards finally moved in to clear them out, many of the refugees scattered, leaving debris and injured merchants and patrons everywhere. As order was restored to the scene, some guards came to check to see if I was alright before one of the guards pulled me aside to interrogate me as to what had happened. I relayed back to the guard the events as I had seen them unfolded. After telling my account I was directed to leave the area.
+
+Moving away from the market I wondered what other scenes of chaos I might see if I remained within the Nargol city. While I had evaded danger, it could have very well been me getting trampled or knocked aside in that market. I made a decision then to begin making my way back towards the city gates. As I made my way towards the gates though I noticed a gathering mob of refugees and even some citizens in front of me. I should have headed past them but beyond them I heard a voice ringing out above. "The time has come for action, but it must be directed at the source of those behind all the harm." I stopped and turned my head as I heard the words, something compelling me to stay and listen to what was being said. Drawn in by the voice I began to make my way towards the outskirt of the crowd.]], "_t")
 t("Escapades of Fay Willows [Book 2, Chapter 4] - Despicable Atrocities", "Escapades of Fay Willows [Book 2, Chapter 4] - Despicable Atrocities", "_t")
+t([[[i]Was it anger against magic that drove people to the acts of violence against mages in the aftermath of the Spellblaze or was it perhaps something else? While I can't say I am an expert on the humans, halflings, or dwarves; the depravity I would witness on the street leading out of the Nargol Kingdom would go beyond what I would expect to have been possible for any sentient being to do.[/i]
+
+As I peered in the voice rang out again. "Aimlessly your anger is directed against those who do not deserve it, I say direct it against the source of all the tragedies that have been inflicted" I began to push my way through the crowd, wondering who was speaking or what they were speaking about. The voice continued, "Wherever magic is found, it will eventually fail and bring calamity. The fire from this morning was an example of this, as a bunch of refugees broke into the warehouse where their confiscated magical items were stored to retrieve them. In their hubris they burned down the building with the arcane powers found within the items therein."
+
+Making my way towards the middle, I looked up to see a halfling and a human facing out to the crowd. They wore a couple of masks that hid their identities, but I recognized the dark cloak worn by the human. Judging from the fact that human was raising his arms I assumed he was speaking, though I can't say for sure as the masks they wore covered their facial expressions. The voice began again "The results of the fire killed many of the residents sleeping within their houses nearby, more lives killed by magic. The only good thing that can be said of the incident was that many of those same magical items they sought to take were destroyed in the ensuing fire, no longer staining the world with their taint.
+
+Within my mind the words of the voice pierced through my head, I could feel the anger behind the voice as it continued to speak. I saw those around me being swayed by both the words spoken and emotions behind them. Many beginning to say such things as 'magic is to blame' and 'down with magic' as the voice continued again "Of course, you need not be told about the devastation you have already seen firsthand. Much like the actions that led to the warehouse being burned down, it was the shaloren mages that unleashed the destruction that ravaged the lands and warped the skies. It is as I continue to say, wherever magic is found it, it will eventually fail and bring calamity."
+
+The voice began to speak faster and with more passion as it continued on. "There can be no denying that we would be better off free from the effects of magic, lest we see these calamities continue to repeat. The Nargol Regents will take no action against the halflings within this city in their searches. If we are to protect our world, we will have to take up the task ourselves. Any artefact or item with even a hint of magical nature must be identified and promptly destroyed to prevent it from causing harm. We must also see to it that those who practice or who have any connection to the deplorable activities of the arcane are dealt with as well, lest they trigger another catastrophe in their arrogance."
+
+By this point the crowd was beginning to chant such phrases as 'destroy the arcane', 'kill the spellcasters', and 'end the magic arts'. I myself was also beginning to feel the sentiment too, though resisted the urge to join in. Soon the voice began to issue instructions, demanding wood be brought into the street, and justice be enacted. The crowd began to disperse through the nearby buildings, and they began to pile the wood on the ground. More masked individuals began to step forward, carrying stakes of wood on their shoulders as well as large bundles of rope. I was puzzled as stakes of wood were erected towards the sky within the piles of wood that had been raised.
+
+While the wood was being placed, the voice began to give out names of those suspected of magical wrongdoing within the city. A new instruction was given to bring them here, along with any magical items that could be found. Before long groups of the crowd made their way into houses and even into tents of the refugees, bringing back many of those I had assumed to be named. Those being brought cried out as they were dragged on the ground in confusion and terror. The voice then instructed that they be tied to the stakes of wood that had been erected and their magical items cast at their feet. Hearing this, the crowd immediately grabbed the rope and individuals were bounded by their hands and feet to the wood.
+
+As if guided by some twisted force, accusations of magical wrongdoings were made by the masked individuals against those who were bound. Sometimes certain items were picked up, and by some warped practice they were made to produce sickly glows. Those deemed guilty by the crowd were kicked and beaten, unable to defend themselves as they remain bound to the stakes. Before long, a couple of those individuals wearing masks came forward with unlit torches. It was at this point I began to realize what the wood was for, as the torches were lit and began to dance with flame. What happened next I still remember vividly in my mind, as if burned by the thrown torches that glided through the air and the searing flames that spread across the wood.
+
+The burning victims immediately began to let loose a torrent of screams as the smoldering heat crawled up their bodies and their skin began to blacken and burn. As this was happening I could hear the voice who had stirred the people around me to these brutal acts let loose a wretched cry that echoed through my head. The rest of the crowd followed suit, their symphony of cries building in a crescendo to the point that they were the only ones heard as their victims slowly ceased to live. I remember retching uncontrollable as I staggered away to the side of a building.
+
+The horribleness of the act truly sickened me to my very being, but I was perhaps more sickened by what the voice would come to say next. "You all have done well, but it will take more than this to make our world safe" the voice said. "If you wish you can join me in the fight for nature and we can ensure that arcane forces like those that have brought us misery will never threaten the world again. Find me and be welcomed as a new initiate for our cause to save Eyal." I remember that I could see many of the masked individuals disappear into the crowds at this point, their aims achieved. I would come to learn very quickly as well just how much of an impact there words would have on that mob in front of me too.
+
+A group of the Nargol Guards would eventual appear and they began to gather themselves to disperse the crowd and restore order. The crowd offered little resistance to the encroaching force of guards that rushed forward, and many fled into the dark alleys of buildings or through the tents of the refugees. As the guards took control of the area, their attention turned towards the simmering fire and the charred corpses. Cries of anguish came from individuals who I assumed to be loved ones and friends of those killed. At this point I could take no more of the events that were unfolding in front of me, and I turned to leave the area and the fiery carnage that had taken place. However as I passed by a tent a hand reached out of its opening, throwing me inside.]], [[[i]Was it anger against magic that drove people to the acts of violence against mages in the aftermath of the Spellblaze or was it perhaps something else? While I can't say I am an expert on the humans, halflings, or dwarves; the depravity I would witness on the street leading out of the Nargol Kingdom would go beyond what I would expect to have been possible for any sentient being to do.[/i]
+
+As I peered in the voice rang out again. "Aimlessly your anger is directed against those who do not deserve it, I say direct it against the source of all the tragedies that have been inflicted" I began to push my way through the crowd, wondering who was speaking or what they were speaking about. The voice continued, "Wherever magic is found, it will eventually fail and bring calamity. The fire from this morning was an example of this, as a bunch of refugees broke into the warehouse where their confiscated magical items were stored to retrieve them. In their hubris they burned down the building with the arcane powers found within the items therein."
+
+Making my way towards the middle, I looked up to see a halfling and a human facing out to the crowd. They wore a couple of masks that hid their identities, but I recognized the dark cloak worn by the human. Judging from the fact that human was raising his arms I assumed he was speaking, though I can't say for sure as the masks they wore covered their facial expressions. The voice began again "The results of the fire killed many of the residents sleeping within their houses nearby, more lives killed by magic. The only good thing that can be said of the incident was that many of those same magical items they sought to take were destroyed in the ensuing fire, no longer staining the world with their taint.
+
+Within my mind the words of the voice pierced through my head, I could feel the anger behind the voice as it continued to speak. I saw those around me being swayed by both the words spoken and emotions behind them. Many beginning to say such things as 'magic is to blame' and 'down with magic' as the voice continued again "Of course, you need not be told about the devastation you have already seen firsthand. Much like the actions that led to the warehouse being burned down, it was the shaloren mages that unleashed the destruction that ravaged the lands and warped the skies. It is as I continue to say, wherever magic is found it, it will eventually fail and bring calamity."
+
+The voice began to speak faster and with more passion as it continued on. "There can be no denying that we would be better off free from the effects of magic, lest we see these calamities continue to repeat. The Nargol Regents will take no action against the halflings within this city in their searches. If we are to protect our world, we will have to take up the task ourselves. Any artefact or item with even a hint of magical nature must be identified and promptly destroyed to prevent it from causing harm. We must also see to it that those who practice or who have any connection to the deplorable activities of the arcane are dealt with as well, lest they trigger another catastrophe in their arrogance."
+
+By this point the crowd was beginning to chant such phrases as 'destroy the arcane', 'kill the spellcasters', and 'end the magic arts'. I myself was also beginning to feel the sentiment too, though resisted the urge to join in. Soon the voice began to issue instructions, demanding wood be brought into the street, and justice be enacted. The crowd began to disperse through the nearby buildings, and they began to pile the wood on the ground. More masked individuals began to step forward, carrying stakes of wood on their shoulders as well as large bundles of rope. I was puzzled as stakes of wood were erected towards the sky within the piles of wood that had been raised.
+
+While the wood was being placed, the voice began to give out names of those suspected of magical wrongdoing within the city. A new instruction was given to bring them here, along with any magical items that could be found. Before long groups of the crowd made their way into houses and even into tents of the refugees, bringing back many of those I had assumed to be named. Those being brought cried out as they were dragged on the ground in confusion and terror. The voice then instructed that they be tied to the stakes of wood that had been erected and their magical items cast at their feet. Hearing this, the crowd immediately grabbed the rope and individuals were bounded by their hands and feet to the wood.
+
+As if guided by some twisted force, accusations of magical wrongdoings were made by the masked individuals against those who were bound. Sometimes certain items were picked up, and by some warped practice they were made to produce sickly glows. Those deemed guilty by the crowd were kicked and beaten, unable to defend themselves as they remain bound to the stakes. Before long, a couple of those individuals wearing masks came forward with unlit torches. It was at this point I began to realize what the wood was for, as the torches were lit and began to dance with flame. What happened next I still remember vividly in my mind, as if burned by the thrown torches that glided through the air and the searing flames that spread across the wood.
+
+The burning victims immediately began to let loose a torrent of screams as the smoldering heat crawled up their bodies and their skin began to blacken and burn. As this was happening I could hear the voice who had stirred the people around me to these brutal acts let loose a wretched cry that echoed through my head. The rest of the crowd followed suit, their symphony of cries building in a crescendo to the point that they were the only ones heard as their victims slowly ceased to live. I remember retching uncontrollable as I staggered away to the side of a building.
+
+The horribleness of the act truly sickened me to my very being, but I was perhaps more sickened by what the voice would come to say next. "You all have done well, but it will take more than this to make our world safe" the voice said. "If you wish you can join me in the fight for nature and we can ensure that arcane forces like those that have brought us misery will never threaten the world again. Find me and be welcomed as a new initiate for our cause to save Eyal." I remember that I could see many of the masked individuals disappear into the crowds at this point, their aims achieved. I would come to learn very quickly as well just how much of an impact there words would have on that mob in front of me too.
+
+A group of the Nargol Guards would eventual appear and they began to gather themselves to disperse the crowd and restore order. The crowd offered little resistance to the encroaching force of guards that rushed forward, and many fled into the dark alleys of buildings or through the tents of the refugees. As the guards took control of the area, their attention turned towards the simmering fire and the charred corpses. Cries of anguish came from individuals who I assumed to be loved ones and friends of those killed. At this point I could take no more of the events that were unfolding in front of me, and I turned to leave the area and the fiery carnage that had taken place. However as I passed by a tent a hand reached out of its opening, throwing me inside.]], "_t")
 t("Escapades of Fay Willows [Book 2, Chapter 5] - Psionic Trickery", "Escapades of Fay Willows [Book 2, Chapter 5] - Psionic Trickery", "_t")
+t([[[i]I'm told that what I likely witnessed in the tent was the result of a psionic slaver. Using my own psyche against me, a manifested image of my own thoughts emerged for which the slaver could use against me. I had been lucky as I had managed to free myself from the slaver's hold, dispelling the image. Had I not done so, it was entirely possible that I could have become enthralled to the slavers will and made to do their bidding unquestioningly.[/i]
+
+I hit the ground hard as I landed towards the back of the tent. Dazed I began to stand to look up at who had thrown me, coming face to face with one of the masked individuals, who I assumed helped take part in the event I had just seen. Slowly a hand reach up to remove the mask, revealing the face of the human messenger. He began to laugh before finally speaking and saying, "Fancy meeting you here, I knew I saw something in you when we conversed in the inn." The messenger laughed some more while I got up. I must have been in a bit of shock from the impact as my vision seemed fuzzy and hazy, while the things in the tent seemingly blurred together. Demandingly I responded to the messenger, “What to you want, why have you thrown me in here?"
+
+The messenger stopped laughing and a calm smile appeared on his face, "Because I would like to have words with you, of course. What were you doing when you came here, when you came to the Nargol Kingdom?" I froze at those words, wondering how much danger I was in. The messenger stood unnaturally silent, his eyes seemingly reading me as thoughts of what to say flew through my mind. I stuttered in fright "I-I was del-livering some med-i-cal aid for th-the Nargols to us-e." A hard blow then struck my face as the messenger slapped me, sending me reeling to the side of the tent. The messenger stated in a raised voice “Indeed," before turning his head to shout at me saying "FROM THE Shaloren!"
+
+Taking a step forward the messenger gave me a hard kick to the stomach, the force winding me and causing me to fall to the ground. I soon received another kick with the back of the heel to my face, causing blood to stream out. Bending down and picking me up by my hair the messenger drew me close to his face, spitting in it with both his saliva and his words, "I had thought better of you since you killed that Eldoral halfling. I figured you might be a fellow ally of nature, but that isn't the case, is it? You made it down to those shaloren, beyond that little wall of magic smoke they put up to hide themselves from us. You could have carried out a small portion of nature's wrath, but instead of enacting nature's fury you turned your back on it AND SIDED WITH THOSE WHO UNLEASHED THE SPELLBLAZE ON US!"
+
+Crying now I was sobbing tears that mixed with the blood coming out of my face. Between sobs I quickly stated, "Enough pain has been felt already without adding to it-" before my head was abruptly smashed into the ground by the messenger. He yelled back "NO AMOUNT OF PAIN, FAY, WILL MAKE UP FOR WHAT THEY HAVE DONE! Every last one of those shaloren deserves to die. To die as painfully as those we burned-." The messenger continued to rant, but hearing my name called I stopped to think, ignoring the rest of what he had to say. How did he know my name? I never gave it to him, to anyone in the Nargol Kingdom, or even any of the shaloren for that matter. "How do you know my name?" I said to the messenger.
+
+His ranting cut off immediately as the messenger looked down at me before replying, "Whatever do you mean Fay, you told me your name back at when, when-." Abruptly the messenger stopped talking, and seemingly the facial expressions seemed to fade away, leaving a faceless humanoid. I didn't know what was going on but knew then this was an imposter. I could feel an anger within me, and with my hand I grabbed whatever it was that I had been talking to. It struggled to keep a hold of me, trying to keep me down, but being closer to the ground I managed to pull it down with me. With my other hand I pulled back and began to punch at its head, until it seemingly faded from existence.
+
+I began to regain vision of my surroundings and looking around I noticed the human with the dark cloak. I quickly realized this was the same human who had briefly visited the messenger when I was talking to him in the inn, as well as the one who stood in the center of the crowd and likely instigated the barbaric display outside. Getting up I said again, "Who are you really?" The figure began to back up in the direction of the tent opening, as if to escape now that I was free of whatever had been done to me. Moving to chase the fiend before he fled out of the tent, I began to run towards the opening. I don't know what happened next but the next moment I found myself face down on the ground.
+
+I was pinned to the ground, unable to move or speak. Attempting to look at what was above me I noticed a halfling, likely the same one that had been standing with the human in the crowd. The human stopped moving away and after a brief moment of surveying the situation came up to stand next to me. As the human hovered over me he stated, "That was quite unexpected, you must have some impressive willpower to resist me thalore. I'm afraid though that if I can't bend you to my will then I am going to have to kill you." As the words trailed off, the human reached with one hand into its cloak, pulling out a small dagger with which I assumed to kill me.
+
+I jostled around attempting to break free of the halfling’s hold, yet somehow despite the halfling’s smaller size than my own I could not break free, and he was doing this with just one arm. Taking the dagger in hand, the human pulled back and then thrust forward to finish me off. I was sure I would be killed, but in the next instant I noticed the dagger tumbling in the air. A bit confused at this, it would take me a moment to realize that the halfling that was holding me down had prevented the human from killing me. Seemingly as confused as me, the human seemingly look at the halfling with disbelief. Finally coming to his senses, the human finally regained his composure to ask the simple question on both of our minds. "What are you doing?"]], [[[i]I'm told that what I likely witnessed in the tent was the result of a psionic slaver. Using my own psyche against me, a manifested image of my own thoughts emerged for which the slaver could use against me. I had been lucky as I had managed to free myself from the slaver's hold, dispelling the image. Had I not done so, it was entirely possible that I could have become enthralled to the slavers will and made to do their bidding unquestioningly.[/i]
+
+I hit the ground hard as I landed towards the back of the tent. Dazed I began to stand to look up at who had thrown me, coming face to face with one of the masked individuals, who I assumed helped take part in the event I had just seen. Slowly a hand reach up to remove the mask, revealing the face of the human messenger. He began to laugh before finally speaking and saying, "Fancy meeting you here, I knew I saw something in you when we conversed in the inn." The messenger laughed some more while I got up. I must have been in a bit of shock from the impact as my vision seemed fuzzy and hazy, while the things in the tent seemingly blurred together. Demandingly I responded to the messenger, “What to you want, why have you thrown me in here?"
+
+The messenger stopped laughing and a calm smile appeared on his face, "Because I would like to have words with you, of course. What were you doing when you came here, when you came to the Nargol Kingdom?" I froze at those words, wondering how much danger I was in. The messenger stood unnaturally silent, his eyes seemingly reading me as thoughts of what to say flew through my mind. I stuttered in fright "I-I was del-livering some med-i-cal aid for th-the Nargols to us-e." A hard blow then struck my face as the messenger slapped me, sending me reeling to the side of the tent. The messenger stated in a raised voice “Indeed," before turning his head to shout at me saying "FROM THE Shaloren!"
+
+Taking a step forward the messenger gave me a hard kick to the stomach, the force winding me and causing me to fall to the ground. I soon received another kick with the back of the heel to my face, causing blood to stream out. Bending down and picking me up by my hair the messenger drew me close to his face, spitting in it with both his saliva and his words, "I had thought better of you since you killed that Eldoral halfling. I figured you might be a fellow ally of nature, but that isn't the case, is it? You made it down to those shaloren, beyond that little wall of magic smoke they put up to hide themselves from us. You could have carried out a small portion of nature's wrath, but instead of enacting nature's fury you turned your back on it AND SIDED WITH THOSE WHO UNLEASHED THE SPELLBLAZE ON US!"
+
+Crying now I was sobbing tears that mixed with the blood coming out of my face. Between sobs I quickly stated, "Enough pain has been felt already without adding to it-" before my head was abruptly smashed into the ground by the messenger. He yelled back "NO AMOUNT OF PAIN, FAY, WILL MAKE UP FOR WHAT THEY HAVE DONE! Every last one of those shaloren deserves to die. To die as painfully as those we burned-." The messenger continued to rant, but hearing my name called I stopped to think, ignoring the rest of what he had to say. How did he know my name? I never gave it to him, to anyone in the Nargol Kingdom, or even any of the shaloren for that matter. "How do you know my name?" I said to the messenger.
+
+His ranting cut off immediately as the messenger looked down at me before replying, "Whatever do you mean Fay, you told me your name back at when, when-." Abruptly the messenger stopped talking, and seemingly the facial expressions seemed to fade away, leaving a faceless humanoid. I didn't know what was going on but knew then this was an imposter. I could feel an anger within me, and with my hand I grabbed whatever it was that I had been talking to. It struggled to keep a hold of me, trying to keep me down, but being closer to the ground I managed to pull it down with me. With my other hand I pulled back and began to punch at its head, until it seemingly faded from existence.
+
+I began to regain vision of my surroundings and looking around I noticed the human with the dark cloak. I quickly realized this was the same human who had briefly visited the messenger when I was talking to him in the inn, as well as the one who stood in the center of the crowd and likely instigated the barbaric display outside. Getting up I said again, "Who are you really?" The figure began to back up in the direction of the tent opening, as if to escape now that I was free of whatever had been done to me. Moving to chase the fiend before he fled out of the tent, I began to run towards the opening. I don't know what happened next but the next moment I found myself face down on the ground.
+
+I was pinned to the ground, unable to move or speak. Attempting to look at what was above me I noticed a halfling, likely the same one that had been standing with the human in the crowd. The human stopped moving away and after a brief moment of surveying the situation came up to stand next to me. As the human hovered over me he stated, "That was quite unexpected, you must have some impressive willpower to resist me thalore. I'm afraid though that if I can't bend you to my will then I am going to have to kill you." As the words trailed off, the human reached with one hand into its cloak, pulling out a small dagger with which I assumed to kill me.
+
+I jostled around attempting to break free of the halfling’s hold, yet somehow despite the halfling’s smaller size than my own I could not break free, and he was doing this with just one arm. Taking the dagger in hand, the human pulled back and then thrust forward to finish me off. I was sure I would be killed, but in the next instant I noticed the dagger tumbling in the air. A bit confused at this, it would take me a moment to realize that the halfling that was holding me down had prevented the human from killing me. Seemingly as confused as me, the human seemingly look at the halfling with disbelief. Finally coming to his senses, the human finally regained his composure to ask the simple question on both of our minds. "What are you doing?"]], "_t")
 t("Escapades of Fay Willows [Book 2, Chapter 6] - Spared", "Escapades of Fay Willows [Book 2, Chapter 6] - Spared", "_t")
 t([[[i]Over time the Nargol Kingdom apparently caught the ones behind those twisted incidents I had witnessed, and more that followed after I left. They publicly executed those who they believed to be the culprits and planted their heads on stakes within the walls of the city. Despite this though, burning events and other depraved actions would begin to be taken up by the citizenry itself. The messengers may have been killed, but the message they spread persisted.[/i]
 
@@ -1995,8 +1627,111 @@ I don't know what made me more angry at that point, the seemingly callous nature
 
 With this the halfling turned to leave the tent. The anger within me had not subsided much, but I made no further attempt to confront the halfling. Battered and bruised I sank down to the ground and rested a moment. Pulling one of the infusions I had recently purchased from the market, I began to treat my wounds. When I felt I was in better shape I got up again and left the tent. Looking up I noticed the evening sky, and decided that I would be staying one more night in the Nargol Kingdom. I made my way back to the inn where I slept in a bed until the next day. When I left I headed straight to the gates of the city to make my way out. There I pondered where my next destination would be, before finally heading south.]], "_t")
 t("Escapades of Fay Willows [Book 3, Chapter 1] - Blackened Shoreline", "Escapades of Fay Willows [Book 3, Chapter 1] - Blackened Shoreline", "_t")
+t([[[i]Truly there was no place showing more damage in all of Eyal than its southern shoreline. Though I have not traveled to the eastern side of the continent, I can't imagine it potentially being destroyed to the extent that it has been here. These lands will never fully heal, but I do hope it will serve as a reminder the to Shaloren, to never brashly use magic in such a way again.[/i]
+
+Following the travel instructions that I had received from the halfling, I proceeded south. I did not know why I didn't just travel north back home, something about the anger burning within me fueled me to find the instructors of these masked fanatics. As I traveled south the sky would begin to turn a shade of colors from blue to purple and then a blackish red, and before long I couldn't even see the sun anymore. There was no sign that any of the lands around me escaped the destructive energies of the Spellblaze here. Eventually after a full day of travel, I set up camp near some burnt out trees. There was little to forage for in the destroyed wilderness, but I was able to find some edible berries and mushrooms to feed myself with and save on my provisions.
+
+The next day I continued on my journey. After a few hours I reached the southern shoreline, a grotesque sight to say the least. The waters bubbled as if being boiled and the ground was charred black. What trees or plants that still stood were completely burnt, dead and lifeless; as was the wildlife that had not escaped, their corpses left untouched by the bugs and worms. Looking up all I could see was dark clouds against a blackened sky. To the east I noticed small pools of lava escaping to the surface. Some of the lava formed small lakes or streams of red hot death which I cautiously had to avoid. Looking to the north I noticed the lands jaggedly shooting out unnaturally towards the sky.
+
+Moving closer towards the raised landscape I noticed that they rose as high as a mountain in the distance. Climbing a hill I saw how the unnatural rocks formed twisting chasms and pointy spikes that would almost certainly be suicide to traverse. Remembering back to the shaloren soldiers I had treated in Elvala, I quickly realized why they had moved northwards to come home. The center of the continent where the Midvale Plains had been located were now no more. Now the plains had been replaced by this deadly gauntlet of rock that would certainly kill anyone inside it, and likely anyone who had been living on the plains before the Spellblaze.
+
+Beginning to travel through the devastated landscape I had to be careful. As I made my way east the light of the sun was seemingly snuffed out by the smoke and debris of the area and the only way I could see my footing was from the glow of the nearby lava dotting the landscape. I don't know for how many days I would travel eastwards, but my progress though the lands was slow. Eventually I would see a river of lava flowing down to the open sea, and beyond that the burnt out remains of what I assumed was a forest. Seeing my way blocked, I looked north and noticed a clearing in the land and so I continued my way there to see if I could find safe passage.
+
+I carefully made my way up the terrain to a plateau and saw a small opening appear in the jutted mountains up ahead. While the land I crossed was hilly, I was able to find decent footing through the lethal landscape of deadly drops and pitfalls. Slowly I made my way through, finding a path leading downwards into what I hope would lead to the other side. Suddenly though in the distance I could see the figure of a group advancing fast towards me. Drawing closer to me, one of the figures in the group saw me, yelled out to the others, and they slowed to a cautious crawl. As they approached, I was a bit of a miss as to what race these beings were.
+
+They were tall, even taller than me, and I could see their bulging mass of muscles on their bodies from quite a distance away. Something also glistened on their skin, which as they grew closer I noticed to be glowing insignias similar to those I saw on runes in Elvala. Getting into earshot, one of the beings finally called out, "If you plan on taking us back, be prepared for a fight!" At that moment I realized that these were yet more victims of those masked fanatics. In a sign to show I wasn't hostile I put my belongings on the ground and stepped back from them. The action seemed to take the beings back a bit, and though still on edge they assumed a less aggressive stance.
+
+"You aren't aligned at all with those zealots are you? My apologies for any distress we may have caused you." I merely shook me head as their words reached me, before proceeding to ask who they were and what had happened. "Never seen an ogre before I assume? We are, or we were, a nomadic tribe that wandered the lands as peddlers. Mostly we sold runes and infusions but we also sold other various small trinkets too. Then magic rained down from the sky and the earth opened up, destroying everything and killing many. We immediately went to help those we could in a nearby human city."
+
+At this point tears began to stream down the ogres face. Continuing to speak between sobs the ogre continued, "I'm not sure why, but a small band attack us." At this point the ogre began to cry to the point that it was unable to speak, and seeing this another ogre continued, "We were bound in chains and taken to a small settlement just beyond this path. There we were subjected to insane experiments, something about 'cleansing us', and we witnessed a great many ogres die in grotesque and horrible ways. Realizing we would meet a similar fate we broke out of our bonds and made to escape from our cages." The ogre paused for a bit, looking behind me at the devastated landscape, then stated, "Although I'm not exactly sure where we may run to."]], [[[i]Truly there was no place showing more damage in all of Eyal than its southern shoreline. Though I have not traveled to the eastern side of the continent, I can't imagine it potentially being destroyed to the extent that it has been here. These lands will never fully heal, but I do hope it will serve as a reminder the to Shaloren, to never brashly use magic in such a way again.[/i]
+
+Following the travel instructions that I had received from the halfling, I proceeded south. I did not know why I didn't just travel north back home, something about the anger burning within me fueled me to find the instructors of these masked fanatics. As I traveled south the sky would begin to turn a shade of colors from blue to purple and then a blackish red, and before long I couldn't even see the sun anymore. There was no sign that any of the lands around me escaped the destructive energies of the Spellblaze here. Eventually after a full day of travel, I set up camp near some burnt out trees. There was little to forage for in the destroyed wilderness, but I was able to find some edible berries and mushrooms to feed myself with and save on my provisions.
+
+The next day I continued on my journey. After a few hours I reached the southern shoreline, a grotesque sight to say the least. The waters bubbled as if being boiled and the ground was charred black. What trees or plants that still stood were completely burnt, dead and lifeless; as was the wildlife that had not escaped, their corpses left untouched by the bugs and worms. Looking up all I could see was dark clouds against a blackened sky. To the east I noticed small pools of lava escaping to the surface. Some of the lava formed small lakes or streams of red hot death which I cautiously had to avoid. Looking to the north I noticed the lands jaggedly shooting out unnaturally towards the sky.
+
+Moving closer towards the raised landscape I noticed that they rose as high as a mountain in the distance. Climbing a hill I saw how the unnatural rocks formed twisting chasms and pointy spikes that would almost certainly be suicide to traverse. Remembering back to the shaloren soldiers I had treated in Elvala, I quickly realized why they had moved northwards to come home. The center of the continent where the Midvale Plains had been located were now no more. Now the plains had been replaced by this deadly gauntlet of rock that would certainly kill anyone inside it, and likely anyone who had been living on the plains before the Spellblaze.
+
+Beginning to travel through the devastated landscape I had to be careful. As I made my way east the light of the sun was seemingly snuffed out by the smoke and debris of the area and the only way I could see my footing was from the glow of the nearby lava dotting the landscape. I don't know for how many days I would travel eastwards, but my progress though the lands was slow. Eventually I would see a river of lava flowing down to the open sea, and beyond that the burnt out remains of what I assumed was a forest. Seeing my way blocked, I looked north and noticed a clearing in the land and so I continued my way there to see if I could find safe passage.
+
+I carefully made my way up the terrain to a plateau and saw a small opening appear in the jutted mountains up ahead. While the land I crossed was hilly, I was able to find decent footing through the lethal landscape of deadly drops and pitfalls. Slowly I made my way through, finding a path leading downwards into what I hope would lead to the other side. Suddenly though in the distance I could see the figure of a group advancing fast towards me. Drawing closer to me, one of the figures in the group saw me, yelled out to the others, and they slowed to a cautious crawl. As they approached, I was a bit of a miss as to what race these beings were.
+
+They were tall, even taller than me, and I could see their bulging mass of muscles on their bodies from quite a distance away. Something also glistened on their skin, which as they grew closer I noticed to be glowing insignias similar to those I saw on runes in Elvala. Getting into earshot, one of the beings finally called out, "If you plan on taking us back, be prepared for a fight!" At that moment I realized that these were yet more victims of those masked fanatics. In a sign to show I wasn't hostile I put my belongings on the ground and stepped back from them. The action seemed to take the beings back a bit, and though still on edge they assumed a less aggressive stance.
+
+"You aren't aligned at all with those zealots are you? My apologies for any distress we may have caused you." I merely shook me head as their words reached me, before proceeding to ask who they were and what had happened. "Never seen an ogre before I assume? We are, or we were, a nomadic tribe that wandered the lands as peddlers. Mostly we sold runes and infusions but we also sold other various small trinkets too. Then magic rained down from the sky and the earth opened up, destroying everything and killing many. We immediately went to help those we could in a nearby human city."
+
+At this point tears began to stream down the ogres face. Continuing to speak between sobs the ogre continued, "I'm not sure why, but a small band attack us." At this point the ogre began to cry to the point that it was unable to speak, and seeing this another ogre continued, "We were bound in chains and taken to a small settlement just beyond this path. There we were subjected to insane experiments, something about 'cleansing us', and we witnessed a great many ogres die in grotesque and horrible ways. Realizing we would meet a similar fate we broke out of our bonds and made to escape from our cages." The ogre paused for a bit, looking behind me at the devastated landscape, then stated, "Although I'm not exactly sure where we may run to."]], "_t")
 t("Escapades of Fay Willows [Book 3, Chapter 2] - The Fleeing Ogres", "Escapades of Fay Willows [Book 3, Chapter 2] - The Fleeing Ogres", "_t")
+t([[[i]There is so little that is known of the ogres, and seemingly they know little of themselves either. This may have to do with my seclusion from the outside world, but I wonder if this race only recently came to Maj'Eyal? Viewing the Shaloren archives there is little mention of the ogres, and I don't believe even among the Thaloren we know much of them either. I wonder where the ogres truly come from?[/i]
+
+I could feel the stares of the entire group looking past me, at the uninviting landscape. They did not know where they could run to, only to run. Looking to establish if it was indeed the masked fanatics they were running from I asked, "Did the zealots you speak of wear masks on their faces?" The ogres immediately locked their stares back on me, the tense fear in their eyes telling me that the zealots they spoke of and the masked fanatics I had encountered were one and the same. I immediately remembered the anger within me that I felt, knowing that these ogres were now facing the same sinister fanatics that had initiated those atrocities in the Nargol Kingdom that I had recently witnessed.
+
+Immediately at that point I decided that if I could be of help to these victims of those madmen then I would. Remembering the Rune of Return that had been handed to me in Elvala I looked up and asked "If you follow me, I can lead you to Elvala. They have cut themselves off from the outside world, but I can get you inside the lands of the Shaloren where you will be safe." The ogres immediately looked up at me as I stated these words, though it appeared to be a look of shock and irritation more than anything else. "You would suggest we go to the Shaloren? Weren't they the ones behind this, this Spellblaze? We would be peacefully going about our lives if it wasn't for them turning the world upside down."
+
+Keeping my calm I decided to try persuading the ogres to go to Elvala replying, "Where else might you go to survive?" To this I received several frowns, but one pondered the question and asked, "Would they even help us, would we even be safe?" I stopped for a moment at the first question that was asked before responding, "They are unable help the outside world as a result of the actions from those same zealots that captured you. However, I know that they feel deeply for what they have done and I believe they will offer you sanctuary if you go to them. If you have nowhere else to go then allow me to bring you to them to ask for shelter." As I finished I noticed one ogre staring back. Some of the ogres noticed this and looked to the ogre as well before asking, "Is it them?"
+
+Carefully looking at the ogre I saw some sort of dark blue glow covering his eyes, as if allowing him to peer at something. Suddenly the ogre piped up all at once, "We need to move." All of a sudden I could see a grave expression take hold of every ogre in the group. One seemed to begin muttering in a panicked manner "what do we do" under their breath repeatedly. A bit confused at this I asked, “What is it?" The ogre who had been looking back quickly turned and came to me, looking deeply into my face with his eyes that had been glowing before, as if looking for something. Finally he stated in a deep ominous voice, "You better not be trying to deceive us thalore. Now, take us to Elvala. We need to move. NOW!"
+
+Taken off guard by the abruptness of the demand I simply stammered out "O-O-kay-ee." The ogre not missing a beat called to the others, "Let's go!" Quickly he grabbed my arm and we began to run, the thunderous sounds of the other ogres soon following. Recklessly we seemed to charge through the deathtraps of the land, jumping small chasms and skirting past sharp rock. What had taken me what had seemed a day to traverse we seemingly traveled in an hour. The ogre that kept ahold of my arm and sometimes lifted me up to avoid the hazards on the ground. We continued to run until I could see the shoreline. Pointing out the western direction that we needed to go with my other arm, the group swiftly turned and we began dodging the patches of lava.
+
+Beginning to pant and weave at this point, the ogre holding my arm finally began to slow down. Stopping he turned his head to look to our rear, the same dark blue glow appearing over his eyes once more. No longer content with my ignorance I finally asked what he was doing. The dark blue glow immediately faded as the ogre looked at me directly before giving a response. "I take it you aren't very well versed in runes, I suppose I shouldn't be surprised being how adverse you thaloren are to the arcane. I'm using a rune that grants me vision of what the terrain is like around me, though I'm not necessarily using it for that specific purpose right now." The ogre stopped talking for a moment to look back again.
+
+Chiming in to continue the explanation another ogre stated, "He's looking back to see how far away those zealots chasing us from their encampment are. "We were being chased?" I suppose I shouldn't have expected any less from those magic hating fanatics. Likely they would very much want to recapture the ogres for whatever nefarious intentions they had. I began to recall the events I had recently witnessed them perpetrate and how I felt sick afterwards. I wondered what atrocities these ogres had suffered by their hands. Looking to stop myself from recalling anymore of those terrible memories I quickly pressed the ogre on how they knew we were being chased.
+
+"To give you the short version, his vision rune is giving him the power to see the general location of the individuals pursuing us. There is a bit more to it than that but for our purposes he can get a pretty good glimpse of where those zealots following us are and how close they are relative our position." Rather impressed that the ogre could do that, I wondered what other feats the runes could allow the ogres to do. I figured when we were in relative safety that maybe I should ask the ogres a bit more about what their runes. Suddenly though I heard a curse, and turned to see the dark blue glowing eyes of the ogre now seemingly peering ahead us at something else.
+
+Asking him what was wrong the dark blue glow went away from the ogres eyes and I quietly received the grave response, "There is a group of people in front of us, and there are definitely zealots among them too." At this the other ogres faces turned to a look of total dismay. I could hear the yelling from behind me. "What do we do now?" one said. "I don't want to go back" another would say. Cowardly words spewed from the mouth of a new ogre every moment until it seemed everyone in the group was erupting in fear. For a moment the sorry display continued until finally the ogre holding my arm let go and yelled to the others "ENOUGH OF YOUR SNIVELING!" The other ogres went silent at this, now looking up as if waiting for directions on what to do. ]], [[[i]There is so little that is known of the ogres, and seemingly they know little of themselves either. This may have to do with my seclusion from the outside world, but I wonder if this race only recently came to Maj'Eyal? Viewing the Shaloren archives there is little mention of the ogres, and I don't believe even among the Thaloren we know much of them either. I wonder where the ogres truly come from?[/i]
+
+I could feel the stares of the entire group looking past me, at the uninviting landscape. They did not know where they could run to, only to run. Looking to establish if it was indeed the masked fanatics they were running from I asked, "Did the zealots you speak of wear masks on their faces?" The ogres immediately locked their stares back on me, the tense fear in their eyes telling me that the zealots they spoke of and the masked fanatics I had encountered were one and the same. I immediately remembered the anger within me that I felt, knowing that these ogres were now facing the same sinister fanatics that had initiated those atrocities in the Nargol Kingdom that I had recently witnessed.
+
+Immediately at that point I decided that if I could be of help to these victims of those madmen then I would. Remembering the Rune of Return that had been handed to me in Elvala I looked up and asked "If you follow me, I can lead you to Elvala. They have cut themselves off from the outside world, but I can get you inside the lands of the Shaloren where you will be safe." The ogres immediately looked up at me as I stated these words, though it appeared to be a look of shock and irritation more than anything else. "You would suggest we go to the Shaloren? Weren't they the ones behind this, this Spellblaze? We would be peacefully going about our lives if it wasn't for them turning the world upside down."
+
+Keeping my calm I decided to try persuading the ogres to go to Elvala replying, "Where else might you go to survive?" To this I received several frowns, but one pondered the question and asked, "Would they even help us, would we even be safe?" I stopped for a moment at the first question that was asked before responding, "They are unable help the outside world as a result of the actions from those same zealots that captured you. However, I know that they feel deeply for what they have done and I believe they will offer you sanctuary if you go to them. If you have nowhere else to go then allow me to bring you to them to ask for shelter." As I finished I noticed one ogre staring back. Some of the ogres noticed this and looked to the ogre as well before asking, "Is it them?"
+
+Carefully looking at the ogre I saw some sort of dark blue glow covering his eyes, as if allowing him to peer at something. Suddenly the ogre piped up all at once, "We need to move." All of a sudden I could see a grave expression take hold of every ogre in the group. One seemed to begin muttering in a panicked manner "what do we do" under their breath repeatedly. A bit confused at this I asked, “What is it?" The ogre who had been looking back quickly turned and came to me, looking deeply into my face with his eyes that had been glowing before, as if looking for something. Finally he stated in a deep ominous voice, "You better not be trying to deceive us thalore. Now, take us to Elvala. We need to move. NOW!"
+
+Taken off guard by the abruptness of the demand I simply stammered out "O-O-kay-ee." The ogre not missing a beat called to the others, "Let's go!" Quickly he grabbed my arm and we began to run, the thunderous sounds of the other ogres soon following. Recklessly we seemed to charge through the deathtraps of the land, jumping small chasms and skirting past sharp rock. What had taken me what had seemed a day to traverse we seemingly traveled in an hour. The ogre that kept ahold of my arm and sometimes lifted me up to avoid the hazards on the ground. We continued to run until I could see the shoreline. Pointing out the western direction that we needed to go with my other arm, the group swiftly turned and we began dodging the patches of lava.
+
+Beginning to pant and weave at this point, the ogre holding my arm finally began to slow down. Stopping he turned his head to look to our rear, the same dark blue glow appearing over his eyes once more. No longer content with my ignorance I finally asked what he was doing. The dark blue glow immediately faded as the ogre looked at me directly before giving a response. "I take it you aren't very well versed in runes, I suppose I shouldn't be surprised being how adverse you thaloren are to the arcane. I'm using a rune that grants me vision of what the terrain is like around me, though I'm not necessarily using it for that specific purpose right now." The ogre stopped talking for a moment to look back again.
+
+Chiming in to continue the explanation another ogre stated, "He's looking back to see how far away those zealots chasing us from their encampment are. "We were being chased?" I suppose I shouldn't have expected any less from those magic hating fanatics. Likely they would very much want to recapture the ogres for whatever nefarious intentions they had. I began to recall the events I had recently witnessed them perpetrate and how I felt sick afterwards. I wondered what atrocities these ogres had suffered by their hands. Looking to stop myself from recalling anymore of those terrible memories I quickly pressed the ogre on how they knew we were being chased.
+
+"To give you the short version, his vision rune is giving him the power to see the general location of the individuals pursuing us. There is a bit more to it than that but for our purposes he can get a pretty good glimpse of where those zealots following us are and how close they are relative our position." Rather impressed that the ogre could do that, I wondered what other feats the runes could allow the ogres to do. I figured when we were in relative safety that maybe I should ask the ogres a bit more about what their runes. Suddenly though I heard a curse, and turned to see the dark blue glowing eyes of the ogre now seemingly peering ahead us at something else.
+
+Asking him what was wrong the dark blue glow went away from the ogres eyes and I quietly received the grave response, "There is a group of people in front of us, and there are definitely zealots among them too." At this the other ogres faces turned to a look of total dismay. I could hear the yelling from behind me. "What do we do now?" one said. "I don't want to go back" another would say. Cowardly words spewed from the mouth of a new ogre every moment until it seemed everyone in the group was erupting in fear. For a moment the sorry display continued until finally the ogre holding my arm let go and yelled to the others "ENOUGH OF YOUR SNIVELING!" The other ogres went silent at this, now looking up as if waiting for directions on what to do. ]], "_t")
 t("Escapades of Fay Willows [Book 3, Chapter 3] - Battle Preparations", "Escapades of Fay Willows [Book 3, Chapter 3] - Battle Preparations", "_t")
+t([[[i]I had never seen a battle before in my life, let alone been a part of one. However I do not believe this is necessarily the case for the ogres. They say that they lived as nomadic peddlers but I wonder if perhaps that was just a cover story for themselves. Maybe they hired themselves out as mercenaries or other such adventures of combat? It is hard to know what lies within their past.[/i]
+
+Realizing the situation at hand, the ogre who had moments ago been holding my arm this entire time now took up the task of preparing the other ogres for the fight at hand. Stepping forward to address the others he quickly broke into a speech. "The enemy is on both sides of us, but we aren't trapped yet. Those behind us have to travel through the treacherous ground we had to pass through here ourselves and those ahead of us are still some distance away. We have time to form a plan and prepare for battle before either group arrives." As the ogre finished, one of the others soon piped up, "What will you have us do commander!" The newly minted commander grunted before replying, "First, we need a plan of attack."
+
+To this another ogre stepped up and stated, "How fast is each group moving towards us, which one will be on us first?" At this the commander paused for a moment before taking a look in front and behind him at the two approaching groups. When he was finished he responded, "The ones behind us are closer, but it looks like they are only slowly navigating the landscape we crossed due to all the hazards. The other group is approaching at rapid speed. They will likely get to us first. Do you think we should hit the front group first, strategist?” I could see the strategist raise his head and smile a bit upon being named before stating, "Yes Sir! Maybe we can punch through them before getting hit in our rear?"
+
+The commander nodded to this and then noted, "We don't have any weapons to fight with, but we can use the environment to our advantage. Knock them into hostile terrain, use choke points in the land to avoid being overwhelmed by their numbers, fight dirty and kick the blackened dirt into their faces." The commander stopped to take a breath before hollering "WE WILL NOT BE GOING BACK!" To this the other ogres hollered the same "WE WILL NOT BE GOING BACK!" Then all the ogres broke into a resounding roar as they raised both their arms and their voices, shaking their hands while making odd gestures with them, and completely showing no more signs of the craven display I had just witnessed of them moments ago.
+
+I immediately notice the bigger ogres break off towards several dead trees, and with surprising ease ripped them from the ground. After breaking the branches and roots off they proceeded to swing the trunks around like giant clubs. More ingenious ogres ripped their clothing into careful strips. Taking their belts off they fashioned them together with the strips to construct crude slings. Other ogres collected rocks and piled them on the ground nearby, ammo I assumed for the slings. Other ogres seemed to pair off with each other and perform odd poses one after the other. When finished they would seemingly begin to punch and kick in the air, which I assumed was practice for fighting unarmed.
+
+I stood awestruck at the sight of the ogres and their astounding ability to turn into a fighting force. I didn't even notice when the commander came up to me. Attempting to get my attention he loudly stated, "Thalore, Focus!" I snapped my head quickly in his direction. "Whaa-wha. What?" I stammered my words as I quickly zoned back into my immediate situation. "Do you have anything that can be used to help us out?" Registering the words of the ogre I quickly pulled my pack off my shoulders and reached in to display its contents. "This is all I have" I said. The commander peered into the bag, then reached in to grab the hatchet and the utility knife that I had purchased back in the Nargol Kingdom.
+
+He weighed the two objects in each hand, then taking the hatchet he proceeded to take a few swings with it. Wearing a satisfied expression he handed the knife back to me saying "I can't use this, it's too small for my hands to use effectively. You take it and use it to defend yourself." Hearing those words I soon realized something, I would be in this fight. While I might have chased off a hungry animal or two, I didn't have any actual combat experience against a real foe. The commander seeing my discouraged face then stated, "That you have come this far I can tell you aren't with those zealots. If need be, just run and save yourself. They likely will let you go, it is us ogres they are after, not you."
+
+The words pierced through me, making me quite angry. Shouting back at the Commander I responded, "No, I will fight with you." I'm not sure if it was the anger within me that caused me to say those words, but I knew that I would not let the ogres fight alone. I might die in the fight but I would not run from it. To this the commander and the other ogres quickly glanced in my direction, surprised but nonetheless happy. One ogre gave a cheerful shout "TO BATTLE!" The other ogres soon shouted "TO BATTLE" as well. Smiling the commander raised his hand to signal the other ogres to be silent before giving a slight nod to me and saying to me "To Battle."
+
+The commander didn't give much more time for the other ogres to get themselves ready; likely mindful of the group coming from behind us. Giving a command for the ogres to gather, he formed them into several small groups. I was told to join the group closest to the sea while the commander assumed his position in one of the middle groups. When the ogres were assembled he gave the order to advance and we quickly began to forge ahead over the landscape. The hazards of the land prevented each group from keeping pace with each other, though each individual group moved in a fairly disciplined manner. I dodged lava, uneven ground, burnt foliage, and the crashing waves of boiling water as I tried to keep up with my group. This would continue until we could see the image of the group of fanatics in front us.]], [[[i]I had never seen a battle before in my life, let alone been a part of one. However I do not believe this is necessarily the case for the ogres. They say that they lived as nomadic peddlers but I wonder if perhaps that was just a cover story for themselves. Maybe they hired themselves out as mercenaries or other such adventures of combat? It is hard to know what lies within their past.[/i]
+
+Realizing the situation at hand, the ogre who had moments ago been holding my arm this entire time now took up the task of preparing the other ogres for the fight at hand. Stepping forward to address the others he quickly broke into a speech. "The enemy is on both sides of us, but we aren't trapped yet. Those behind us have to travel through the treacherous ground we had to pass through here ourselves and those ahead of us are still some distance away. We have time to form a plan and prepare for battle before either group arrives." As the ogre finished, one of the others soon piped up, "What will you have us do commander!" The newly minted commander grunted before replying, "First, we need a plan of attack."
+
+To this another ogre stepped up and stated, "How fast is each group moving towards us, which one will be on us first?" At this the commander paused for a moment before taking a look in front and behind him at the two approaching groups. When he was finished he responded, "The ones behind us are closer, but it looks like they are only slowly navigating the landscape we crossed due to all the hazards. The other group is approaching at rapid speed. They will likely get to us first. Do you think we should hit the front group first, strategist?” I could see the strategist raise his head and smile a bit upon being named before stating, "Yes Sir! Maybe we can punch through them before getting hit in our rear?"
+
+The commander nodded to this and then noted, "We don't have any weapons to fight with, but we can use the environment to our advantage. Knock them into hostile terrain, use choke points in the land to avoid being overwhelmed by their numbers, fight dirty and kick the blackened dirt into their faces." The commander stopped to take a breath before hollering "WE WILL NOT BE GOING BACK!" To this the other ogres hollered the same "WE WILL NOT BE GOING BACK!" Then all the ogres broke into a resounding roar as they raised both their arms and their voices, shaking their hands while making odd gestures with them, and completely showing no more signs of the craven display I had just witnessed of them moments ago.
+
+I immediately notice the bigger ogres break off towards several dead trees, and with surprising ease ripped them from the ground. After breaking the branches and roots off they proceeded to swing the trunks around like giant clubs. More ingenious ogres ripped their clothing into careful strips. Taking their belts off they fashioned them together with the strips to construct crude slings. Other ogres collected rocks and piled them on the ground nearby, ammo I assumed for the slings. Other ogres seemed to pair off with each other and perform odd poses one after the other. When finished they would seemingly begin to punch and kick in the air, which I assumed was practice for fighting unarmed.
+
+I stood awestruck at the sight of the ogres and their astounding ability to turn into a fighting force. I didn't even notice when the commander came up to me. Attempting to get my attention he loudly stated, "Thalore, Focus!" I snapped my head quickly in his direction. "Whaa-wha. What?" I stammered my words as I quickly zoned back into my immediate situation. "Do you have anything that can be used to help us out?" Registering the words of the ogre I quickly pulled my pack off my shoulders and reached in to display its contents. "This is all I have" I said. The commander peered into the bag, then reached in to grab the hatchet and the utility knife that I had purchased back in the Nargol Kingdom.
+
+He weighed the two objects in each hand, then taking the hatchet he proceeded to take a few swings with it. Wearing a satisfied expression he handed the knife back to me saying "I can't use this, it's too small for my hands to use effectively. You take it and use it to defend yourself." Hearing those words I soon realized something, I would be in this fight. While I might have chased off a hungry animal or two, I didn't have any actual combat experience against a real foe. The commander seeing my discouraged face then stated, "That you have come this far I can tell you aren't with those zealots. If need be, just run and save yourself. They likely will let you go, it is us ogres they are after, not you."
+
+The words pierced through me, making me quite angry. Shouting back at the Commander I responded, "No, I will fight with you." I'm not sure if it was the anger within me that caused me to say those words, but I knew that I would not let the ogres fight alone. I might die in the fight but I would not run from it. To this the commander and the other ogres quickly glanced in my direction, surprised but nonetheless happy. One ogre gave a cheerful shout "TO BATTLE!" The other ogres soon shouted "TO BATTLE" as well. Smiling the commander raised his hand to signal the other ogres to be silent before giving a slight nod to me and saying to me "To Battle."
+
+The commander didn't give much more time for the other ogres to get themselves ready; likely mindful of the group coming from behind us. Giving a command for the ogres to gather, he formed them into several small groups. I was told to join the group closest to the sea while the commander assumed his position in one of the middle groups. When the ogres were assembled he gave the order to advance and we quickly began to forge ahead over the landscape. The hazards of the land prevented each group from keeping pace with each other, though each individual group moved in a fairly disciplined manner. I dodged lava, uneven ground, burnt foliage, and the crashing waves of boiling water as I tried to keep up with my group. This would continue until we could see the image of the group of fanatics in front us.]], "_t")
 t("Escapades of Fay Willows [Book 3, Chapter 4] - To Battle!", "Escapades of Fay Willows [Book 3, Chapter 4] - To Battle!", "_t")
 t([[[i]Due to the darkness of the sky and the scorched lands of the battlefield it was hard to see anything, but I still remember the sounds of battle in great detail. The bubbling sounds of the lava and boiling water, the warcries that filled the air, the magical discharges from the ogres runes, the sounds of weapons clashing against each other, and so forth. Of course, none of those sounds compared to the death cries of both the zealots and ogres when their lives ceased to be.[/i]
 
@@ -2036,6 +1771,51 @@ One by one other ogres began to join a growing chorus of agonizing cries as some
 
 The other ogre soon moved to attack the halfling, but with a sidestep the halfling simply moved out of the way before disappearing into the darkness. The ogre followed, but from the grunting and yelling it seemed that the ogre did not fare well either. The halfling would emerge again and again, knocking ogres down with seemingly ease, before escaping from counterattack. Ogres in the darkness would be attacked and shout in pain while those who strayed too close to the hazards of the landscape would soon find themselves sent spiraling into the deathtraps of the land. In an instant the battle had shifted in the fanatics favor, and panic and fear was beginning sweep over the ogres.]], "_t")
 t("Escapades of Fay Willows [Book 3, Chapter 5] - Dark Resolve", "Escapades of Fay Willows [Book 3, Chapter 5] - Dark Resolve", "_t")
+t([[[i]It is hard to describe the sensation that came over me. It was still me, but I didn't feel in control. That other me, it seemed to thrive on the violence I inflicted or received, and wanted nothing more than to endlessly kill. It caused me sadness as I inflicted misery and terror on those in front of me as they died screaming in agony and pain. It is someone I hope to never become again.[/i]
+
+All around me, I could see the ogres near to me beginning to lose any will to fight. What's worse is that some of the initiates that had fled had now returned. They began to batter their shields once more, hollering and posturing as they cheered on the halfling. From one of them I heard the phrase "hooray for nature's champion!" They would yell other phrases as well such as "nature's might shall prevail" or "the ogre's magical taint on Eyal ends!" The sheer display of strength from the halfling and the cries of the initiates further unnerved the ogres, so much so that some began to shake in fear and turn into cowards yet again. In front of me an ogre even dropped her weapons and fell to the ground, having lost all hope.
+
+I could feel tears begin to stream down my eyes. I could feel the anguish and dismay of the ogres, and the hateful emotions being directed at them. I remembered the burning event back in the Nargol Kingdom, and how the zealots instigated those initial actions I had witnessed. It made my angry, angry at those inflicting the pain, inflicting it for their petty reasons. The ogres didn't deserve this nor did the innocent victims that the fanatics burned alive from before. Those inflicting pain, producing these atrocities, they were insufferable gnats, and what's more they disparaged nature's name while doing so. I felt I had to do something to keep this from happening again; I FELT I NEEDED TO KILL THEM.
+
+"Does the little thalore wish to leave?" I heard a voice say to me. "Maybe run back to that little forest of yours?" I looked up to see a masked dwarf, holding an axe and shield. "We know of ya Fay Willows. Ya have no taint of magic, yet are ya an ally of nature? From where ya stand it would seem that ya are an ally of da ogres." The dwarf brandished the weapon wildly as it continued to talk, "Ya know, perhaps I shouldn't be blamin' ya. I'm sure da ogres told ya some wild tales, and this is just a misunderstandin'. We just want to help da ogres ya know, and they seem to be getting a little bit more cooperative now. It is a shame a few of them had to die, but a message had to be sent." The dwarf seemingly began to chuckle for a moment as it finished speaking.
+
+The dwarf stopped chuckling to continue, "How about ya cooperate with us as well elf-ie? Else I'm afraid I'm going to have to hu-[b]RRRRRRRK![/b]"
+
+All at once the sounds of battle seemed to disappear as I focused solely on the dwarf in front of me. Looking forward all I could see was blood. Blood on my hand, on my arm, on the dagger that lay plunged in the throat of the dwarf, on the mask the dwarf wore, and from under the mask as the dwarf coughed up blood. Dropping the axe and shield to grasp at the dagger, the dwarf choked as it tried to breathe. Slowly I bent down to pick up the axe and with both hands I brought it back behind my head. Then with all my strength I brought the axe down on the head of the dwarf with all my might. I felt a strange feeling within me as the dwarf died to the blow, coursing through every fiber of my being.
+
+At that moment I recalled the Eldoral halfling I had killed from before when I initially first traveled from my home. I had hated the reasons said in support of the Spellblaze, and I became angered to no end of the one spouting that nonsense. I had followed the halfling out with a steak knife that I had taken from a nearby table and... I killed him. It was a horrible feeling taking a life, yet a dark surge of energy coursed through me, wanting to drive me to kill more. This drive to kill, it was the real reason I had fled that settlement. I was afraid I would kill someone, someone who didn't deserve it. That halfling I killed didn't deserve to die. But, these zealots, didn't they deserve it?
+
+At that point something snapped in my mind I think. I remember laughing very loudly. It was dreadful feeling. I might have been crying too. I couldn't tell what was happening with me or my emotions and I wondered if I was going mad; and I still wonder this even now to be honest. But that wasn't important. The ogres around me could no longer fight, and I knew that if nothing was done that they would die, or worse. There was no innocence to be found from these zealots, these instigators of torment and madness, or the initiates blindly following them. I could simply kill them all with a clear conscious, and hopefully satisfy the urges within me to kill. All would be well with me after that, and perhaps the ogres would even thank me for saving them.
+
+Then I noticed a masked human zealot looking at me and the corpse of the dwarf on the ground. I began to walk over, the human seemingly waving a sword in one hand in a threatening manner. For some reason I thought it was kind of funny, despite what should have caused me to think of an intense fear for own well being. I could hear muffled shouts of something coming from the human, though I couldn't distinguish what was being said. As I drew closer I saw the human shake, so much so that the mask shifted enough that I could partially see the face of the man underneath. I could see the fear in his eye before the human raised his shield in an attempt to hide away. I remember the enjoyment I felt of that fear.
+
+I used my axe to sweep the shield from the humans hands, knocking it away so he couldn't hide his eyes away from mine anymore, allowing me to relish in his terror. I think I was smiling at this point, grinning madly as the fear built up in the human. At the same time though the sadness inside me, it too was building more and more, threatening to plunge me into the depths of darkness. The human was terrified, and attempted to thrust forward to attack me, crying out something as he lunged towards... Where was he attacking actually? I think he had intended to attack me, but he ended up moving over to the side. I simply raised the axe in my hand, and as I had done before brought it down, connecting a deep blow on his shoulder.
+
+The human’s swordarm fell away from his body, causing him to cry out before dropping to the ground to hold where his arm use to be. The red blood spurted and bubbled from his severed arm as the sword still lay clutched in the closed hand. The human tried to crawl away, and then I noticed the lovely pool of lava nearby. I smiled a little as I kicked at his body sending him spiraling in. I felt a strange sense of joy as he burned alive in front of me, yet simultaneously felt disdain for what I had just done. I felt another surge of energy coarse through me as the man finally died, and I felt a greater urge to kill even more. I wondered at this point if I could stop myself or if I could be stopped?
+
+I could hear the screams of terror of others around me and noticed that the sounds weren't coming from those wearing masks either - easy pickings to satisfy my urge to kill. I began to approach them as they yelled at me, my intense hatred building with each step. Suddenly though I felt a strong pull on my arm, preventing me from moving forward. Looking to see what I had got caught on, I noticed the masked halfling, clutching my arm. Hatred surged within me and all I could think about was how I should pay this halfling back for what had been done to me in that tent from before. I forgot about the others weaklings, focusing all my attention towards my new prey.]], [[[i]It is hard to describe the sensation that came over me. It was still me, but I didn't feel in control. That other me, it seemed to thrive on the violence I inflicted or received, and wanted nothing more than to endlessly kill. It caused me sadness as I inflicted misery and terror on those in front of me as they died screaming in agony and pain. It is someone I hope to never become again.[/i]
+
+All around me, I could see the ogres near to me beginning to lose any will to fight. What's worse is that some of the initiates that had fled had now returned. They began to batter their shields once more, hollering and posturing as they cheered on the halfling. From one of them I heard the phrase "hooray for nature's champion!" They would yell other phrases as well such as "nature's might shall prevail" or "the ogre's magical taint on Eyal ends!" The sheer display of strength from the halfling and the cries of the initiates further unnerved the ogres, so much so that some began to shake in fear and turn into cowards yet again. In front of me an ogre even dropped her weapons and fell to the ground, having lost all hope.
+
+I could feel tears begin to stream down my eyes. I could feel the anguish and dismay of the ogres, and the hateful emotions being directed at them. I remembered the burning event back in the Nargol Kingdom, and how the zealots instigated those initial actions I had witnessed. It made my angry, angry at those inflicting the pain, inflicting it for their petty reasons. The ogres didn't deserve this nor did the innocent victims that the fanatics burned alive from before. Those inflicting pain, producing these atrocities, they were insufferable gnats, and what's more they disparaged nature's name while doing so. I felt I had to do something to keep this from happening again; I FELT I NEEDED TO KILL THEM.
+
+"Does the little thalore wish to leave?" I heard a voice say to me. "Maybe run back to that little forest of yours?" I looked up to see a masked dwarf, holding an axe and shield. "We know of ya Fay Willows. Ya have no taint of magic, yet are ya an ally of nature? From where ya stand it would seem that ya are an ally of da ogres." The dwarf brandished the weapon wildly as it continued to talk, "Ya know, perhaps I shouldn't be blamin' ya. I'm sure da ogres told ya some wild tales, and this is just a misunderstandin'. We just want to help da ogres ya know, and they seem to be getting a little bit more cooperative now. It is a shame a few of them had to die, but a message had to be sent." The dwarf seemingly began to chuckle for a moment as it finished speaking.
+
+The dwarf stopped chuckling to continue, "How about ya cooperate with us as well elf-ie? Else I'm afraid I'm going to have to hu-[b]RRRRRRRK![/b]"
+
+All at once the sounds of battle seemed to disappear as I focused solely on the dwarf in front of me. Looking forward all I could see was blood. Blood on my hand, on my arm, on the dagger that lay plunged in the throat of the dwarf, on the mask the dwarf wore, and from under the mask as the dwarf coughed up blood. Dropping the axe and shield to grasp at the dagger, the dwarf choked as it tried to breathe. Slowly I bent down to pick up the axe and with both hands I brought it back behind my head. Then with all my strength I brought the axe down on the head of the dwarf with all my might. I felt a strange feeling within me as the dwarf died to the blow, coursing through every fiber of my being.
+
+At that moment I recalled the Eldoral halfling I had killed from before when I initially first traveled from my home. I had hated the reasons said in support of the Spellblaze, and I became angered to no end of the one spouting that nonsense. I had followed the halfling out with a steak knife that I had taken from a nearby table and... I killed him. It was a horrible feeling taking a life, yet a dark surge of energy coursed through me, wanting to drive me to kill more. This drive to kill, it was the real reason I had fled that settlement. I was afraid I would kill someone, someone who didn't deserve it. That halfling I killed didn't deserve to die. But, these zealots, didn't they deserve it?
+
+At that point something snapped in my mind I think. I remember laughing very loudly. It was dreadful feeling. I might have been crying too. I couldn't tell what was happening with me or my emotions and I wondered if I was going mad; and I still wonder this even now to be honest. But that wasn't important. The ogres around me could no longer fight, and I knew that if nothing was done that they would die, or worse. There was no innocence to be found from these zealots, these instigators of torment and madness, or the initiates blindly following them. I could simply kill them all with a clear conscious, and hopefully satisfy the urges within me to kill. All would be well with me after that, and perhaps the ogres would even thank me for saving them.
+
+Then I noticed a masked human zealot looking at me and the corpse of the dwarf on the ground. I began to walk over, the human seemingly waving a sword in one hand in a threatening manner. For some reason I thought it was kind of funny, despite what should have caused me to think of an intense fear for own well being. I could hear muffled shouts of something coming from the human, though I couldn't distinguish what was being said. As I drew closer I saw the human shake, so much so that the mask shifted enough that I could partially see the face of the man underneath. I could see the fear in his eye before the human raised his shield in an attempt to hide away. I remember the enjoyment I felt of that fear.
+
+I used my axe to sweep the shield from the humans hands, knocking it away so he couldn't hide his eyes away from mine anymore, allowing me to relish in his terror. I think I was smiling at this point, grinning madly as the fear built up in the human. At the same time though the sadness inside me, it too was building more and more, threatening to plunge me into the depths of darkness. The human was terrified, and attempted to thrust forward to attack me, crying out something as he lunged towards... Where was he attacking actually? I think he had intended to attack me, but he ended up moving over to the side. I simply raised the axe in my hand, and as I had done before brought it down, connecting a deep blow on his shoulder.
+
+The human’s swordarm fell away from his body, causing him to cry out before dropping to the ground to hold where his arm use to be. The red blood spurted and bubbled from his severed arm as the sword still lay clutched in the closed hand. The human tried to crawl away, and then I noticed the lovely pool of lava nearby. I smiled a little as I kicked at his body sending him spiraling in. I felt a strange sense of joy as he burned alive in front of me, yet simultaneously felt disdain for what I had just done. I felt another surge of energy coarse through me as the man finally died, and I felt a greater urge to kill even more. I wondered at this point if I could stop myself or if I could be stopped?
+
+I could hear the screams of terror of others around me and noticed that the sounds weren't coming from those wearing masks either - easy pickings to satisfy my urge to kill. I began to approach them as they yelled at me, my intense hatred building with each step. Suddenly though I felt a strong pull on my arm, preventing me from moving forward. Looking to see what I had got caught on, I noticed the masked halfling, clutching my arm. Hatred surged within me and all I could think about was how I should pay this halfling back for what had been done to me in that tent from before. I forgot about the others weaklings, focusing all my attention towards my new prey.]], "_t")
 t("Escapades of Fay Willows [Book 3, Chapter 6] - Hateful Wrath", "Escapades of Fay Willows [Book 3, Chapter 6] - Hateful Wrath", "_t")
 t([[[i]I'm not sure how big the fanatics’ group was when we battled them, though out of them only about twenty or so wore masks. What I do know is that when I first saw the ogres that they numbered over fifty. After the battle there was only nine of them with me when we made our escape. This isn't to say that all the other ogres were killed though and I wonder what cruel end they met at the hands of those fanatics we had left them in.[/i]
 
@@ -2105,6 +1885,39 @@ After a little while of searching through the nearby buildings I noticed a trapd
 
 I relayed to them the location of the cellar which I had found and its contents. The commander, while interested in acquiring food, was quite disinterested in the fact that it was located in a shaloren cellar. Concerned with the time it would take to bring it up, he noted that an ogre wouldn't be able to easily fit through any of the doors in the settlement here, let alone a trap door to one of the cellars. The strategist though noted that I had fit through and insisted that we take the food to ensure that there was enough to eat for the remainder of our journey. The commander was hesitant at staying any longer but consented. After spending another hour I was able to bring up all the food before we continued on towards Elvala.   ]], "_t")
 t("Escapades of Fay Willows [Book 4, Chapter 2] - Seeking Sanctuary", "Escapades of Fay Willows [Book 4, Chapter 2] - Seeking Sanctuary", "_t")
+t([[[i]I want to emphasize that I come from a society where there is little if any practiced magic, let alone any products of it such as runes. While there were thalore who could use magic, their knowledge was self-taught and done in secret; not to mention that thaloren users of magic were generally ostracized from the rest of the community, if not exiled from Thaloren lands. Even now I still don't know much about the inner workings of the Rune of Return that is grafted to me, though I am working to learn the basics of runes and the greater subject of the arcane forces behind them.[/i]
+
+We continued deeper into Shaloren territory, the fanatics’ scouts continuing to follow us but always careful to stay back and never stray too close. It would be a couple more days before we reached the edge of the Shroud. Navigating to where I had first crossed through the misty wall to get into the city, I reached into my pack to retrieve the Rune of Return that I had received so long ago. With an outstretched hand I presented it to the ogre commander. I had expected him to take it but he simply nodded his head and noted, "A Rune of Return." For the next brief moment I stood there with my hand held out, the commander seemingly as puzzled as I was to our interaction. It wasn't clear until the strategist finally chimed in, "You have no clue how that rune you're holding works do you?"
+
+At this the commander blinked before realizing the situation and noting, "Right, you’re a complete novice." I could feel the blank expression worn on my face and the ogres were seemingly aware of this. "Come over here thalore," a voice called out. I turned my head to see who was calling me, before noting it was a female ogre that I had helped from before, "let's see that rune you got." I was a bit confused, but I made my way over and presented the rune. Taking it in one hand, she proceeded to examine the rune, before handing it back to me. “Right," the ogre began, "this here rune is bonded to you, so only you can inscribe it. After that is done you can use the rune to enter Elvala and request entry for us."
+
+It felt like the words popping out of the ogres mouth were some type of different language. The ogre who I would eventually come to know as my instructor gave a series of explanations about runes, though eventually decided it would just be better to graft the Rune of Return on me instead of giving me a lesson on rune theory. To ensure that I would have the least trouble activating the rune, the ogre chose to graft it on my back just below my neck. I can remember how painful the experience was as the nerves in the back of my spine were pricked and prodded at. Despite the pain though, I can also remember the exhilaration my body felt as it was touched by arcane forces for the first time.
+
+"There then, finished." Pleased with her work, the ogre circled around me to put her hands on my shoulders. "Now, all that is left for you to do is for you to get pass this barrier and make the request for our entry. Thalore, before I tell you what to do to activate the rune, know that I thank you for helping to bring us this far. If it hadn't been for you, I- we ogres... we likely would have all died." I could see the tears beginning to stream down the face of the ogre as she continued "Once again it seems our lives are in your hands. I hope that you will be able to convince the Shaloren to let us in, but even if you can't I wanted to thank you, we all want to thank you." Around me I could see the other ogres bowing their heads.
+
+With a smile I replied back "I'm sure you will be let in. Tell me what it is I need to do." Raising her head while wiping away the tears from her face, I was walked through the process to activate the rune. I gave a solemn nod to the ogres before performing the steps myself. Within an instant my surroundings completely changed as I could hear the bustling of shaloren all around me. I could feel a heavy sensation on my neck where the rune had been inscribed, but other than that I felt no different. A few of the shalore turned to look in my direction, seemingly surprised at my entry, though not as much as I would have expected. One of the shalore soon called out, "You're that thalore who helped us from before? Welcome back!"
+
+"Oh, a, thank you" I replied back, slowly adjusting to the fact that I had abruptly entered Elvala. Quickly, I realized that the ogres were still outside of Elvala waiting for me. Excusing myself, I proceeded to run to the middle of the town where I had previously met the general. As before there stood guards outside the building, though they recognized me as I approached. Panting and out of breath I took a brief moment to inhale and exhale before gasping out "Ogres... seeking asylum... here in... Elvala." The guards in front of me stood in bewilderment after hearing the sentence I let out, seemingly grasping what I had said but unable to determine what to do.
+
+Then from behind me came a voice, "What is this about ogres?" I turned around to see a young female shalore, who I recognized as being one of the mages who saw me off from Elvala. Seeing me, she seemed to oddly cool a bit and address me saying "Ooo, you're that thalore. We've never personally met but I helped teleport you out of Elvala a short while ago. Welcome back to Elvala." Catching my breathe I explained the situation involving the ogres outside, the zealots chasing them, and how they were looking to seek refuge in Elvala. As I finished talking the young shalore stated, "Judging from what you have told me, it would likely be best if those ogres were brought in quickly."
+
+Approaching the guards to communicate something, their bewildered faces quickly became somewhat distressed both by the actions and words of the shalore woman. I don't know what the mage had said, but it seemed as if the guards were almost pleading with the young shaloren woman about something. Eventually she called for me to follow her and began to move in the direction I had come when I entered the city with the Rune of Return. I could tell that this shalore seemed to have some plan in mind, perhaps one that would allow the ogres passage into the city. Before turning to follow her, I noticed the two guards murmer something to each other before one of them rushed inside the building. The other seemed to look at worriedly in the direction of me and the mage as we walked away.]], [[[i]I want to emphasize that I come from a society where there is little if any practiced magic, let alone any products of it such as runes. While there were thalore who could use magic, their knowledge was self-taught and done in secret; not to mention that thaloren users of magic were generally ostracized from the rest of the community, if not exiled from Thaloren lands. Even now I still don't know much about the inner workings of the Rune of Return that is grafted to me, though I am working to learn the basics of runes and the greater subject of the arcane forces behind them.[/i]
+
+We continued deeper into Shaloren territory, the fanatics’ scouts continuing to follow us but always careful to stay back and never stray too close. It would be a couple more days before we reached the edge of the Shroud. Navigating to where I had first crossed through the misty wall to get into the city, I reached into my pack to retrieve the Rune of Return that I had received so long ago. With an outstretched hand I presented it to the ogre commander. I had expected him to take it but he simply nodded his head and noted, "A Rune of Return." For the next brief moment I stood there with my hand held out, the commander seemingly as puzzled as I was to our interaction. It wasn't clear until the strategist finally chimed in, "You have no clue how that rune you're holding works do you?"
+
+At this the commander blinked before realizing the situation and noting, "Right, you’re a complete novice." I could feel the blank expression worn on my face and the ogres were seemingly aware of this. "Come over here thalore," a voice called out. I turned my head to see who was calling me, before noting it was a female ogre that I had helped from before, "let's see that rune you got." I was a bit confused, but I made my way over and presented the rune. Taking it in one hand, she proceeded to examine the rune, before handing it back to me. “Right," the ogre began, "this here rune is bonded to you, so only you can inscribe it. After that is done you can use the rune to enter Elvala and request entry for us."
+
+It felt like the words popping out of the ogres mouth were some type of different language. The ogre who I would eventually come to know as my instructor gave a series of explanations about runes, though eventually decided it would just be better to graft the Rune of Return on me instead of giving me a lesson on rune theory. To ensure that I would have the least trouble activating the rune, the ogre chose to graft it on my back just below my neck. I can remember how painful the experience was as the nerves in the back of my spine were pricked and prodded at. Despite the pain though, I can also remember the exhilaration my body felt as it was touched by arcane forces for the first time.
+
+"There then, finished." Pleased with her work, the ogre circled around me to put her hands on my shoulders. "Now, all that is left for you to do is for you to get pass this barrier and make the request for our entry. Thalore, before I tell you what to do to activate the rune, know that I thank you for helping to bring us this far. If it hadn't been for you, I- we ogres... we likely would have all died." I could see the tears beginning to stream down the face of the ogre as she continued "Once again it seems our lives are in your hands. I hope that you will be able to convince the Shaloren to let us in, but even if you can't I wanted to thank you, we all want to thank you." Around me I could see the other ogres bowing their heads.
+
+With a smile I replied back "I'm sure you will be let in. Tell me what it is I need to do." Raising her head while wiping away the tears from her face, I was walked through the process to activate the rune. I gave a solemn nod to the ogres before performing the steps myself. Within an instant my surroundings completely changed as I could hear the bustling of shaloren all around me. I could feel a heavy sensation on my neck where the rune had been inscribed, but other than that I felt no different. A few of the shalore turned to look in my direction, seemingly surprised at my entry, though not as much as I would have expected. One of the shalore soon called out, "You're that thalore who helped us from before? Welcome back!"
+
+"Oh, a, thank you" I replied back, slowly adjusting to the fact that I had abruptly entered Elvala. Quickly, I realized that the ogres were still outside of Elvala waiting for me. Excusing myself, I proceeded to run to the middle of the town where I had previously met the general. As before there stood guards outside the building, though they recognized me as I approached. Panting and out of breath I took a brief moment to inhale and exhale before gasping out "Ogres... seeking asylum... here in... Elvala." The guards in front of me stood in bewilderment after hearing the sentence I let out, seemingly grasping what I had said but unable to determine what to do.
+
+Then from behind me came a voice, "What is this about ogres?" I turned around to see a young female shalore, who I recognized as being one of the mages who saw me off from Elvala. Seeing me, she seemed to oddly cool a bit and address me saying "Ooo, you're that thalore. We've never personally met but I helped teleport you out of Elvala a short while ago. Welcome back to Elvala." Catching my breathe I explained the situation involving the ogres outside, the zealots chasing them, and how they were looking to seek refuge in Elvala. As I finished talking the young shalore stated, "Judging from what you have told me, it would likely be best if those ogres were brought in quickly."
+
+Approaching the guards to communicate something, their bewildered faces quickly became somewhat distressed both by the actions and words of the shalore woman. I don't know what the mage had said, but it seemed as if the guards were almost pleading with the young shaloren woman about something. Eventually she called for me to follow her and began to move in the direction I had come when I entered the city with the Rune of Return. I could tell that this shalore seemed to have some plan in mind, perhaps one that would allow the ogres passage into the city. Before turning to follow her, I noticed the two guards murmer something to each other before one of them rushed inside the building. The other seemed to look at worriedly in the direction of me and the mage as we walked away.]], "_t")
 t("Escapades of Fay Willows [Book 4, Chapter 3] - The Enchantress", "Escapades of Fay Willows [Book 4, Chapter 3] - The Enchantress", "_t")
 t([[[i]Alreiwen Taeil the foolhardy enchantress. Easily the worst conversationalist I have ever met, and among all the shaloren I know of none that has a greater ego than hers. Still, I respect her sense of justice as well as her gifted abilities in the arcane. Who knows what fate may have happened to the ogres had she not been present when I made the request for their entry.[/i]
 
@@ -2216,8 +2029,111 @@ As the ogres finished their dance, a couple shalore decided to step forward and 
 
 Making my way back to my dwelling I felt in control of myself and my actions. Whatever the enigma within me was, it did not and would not lord over me. As I came up to the guards I smiled and gave a friendly gesture. While I was heading back in for now, I knew that I would leave this dwelling again tomorrow. While the ogres are quick to note that I had saved them when conversation touches on past events, in reality I believe that they were the ones who had actually saved me. The ogres are quick to dismiss this as modesty, but since that time when I was at that festival I have been working to gain full control over my myself, to take a hold of my life once more. For that I say thank you to them.]], "_t")
 t("Escapades of Fay Willows [Book 4, Chapter 6] - Rebuilding Anew", "Escapades of Fay Willows [Book 4, Chapter 6] - Rebuilding Anew", "_t")
+t([[[i]As time passed, both ogre and shalore slowly adapted to their secluded lives from the outside world.[/i] The shaloren slowly gathered themselves and their belongings in secret from the abandoned settlements in the north, and then quickly worked to create permanent implements that would ensure that the Shroud concealing Elvala would stay in place. They then worked to expand the Shroud to encompass all the forests surrounding Elvala and lock off the Shaloren Peninsula from the outside world. After that, many shaloren began to study the chaotic energies that had been unleashed in hopes of learning more about the damage they had caused and what effects it would leave in Eyal.
+
+[i]The ogres settled down in the southern portions of the peninsula to rebuild new lives for themselves.[/i] They helped to grow and harvest food to feed everyone and took up more laborious occupations that the shaloren were ill-suited to perform. Many gave birth to children, resulting in a great many young ogres helping to bolster their limited numbers. Some of the ogres also took up occupations working with inscriptions, and while my knowledge of runes is still quite limited, I could tell from their workmanship that their knowledge and skills with infusions were as good as many of the thaloren I knew back home. Despite some disagreements the ogres had, they managed to create a thriving relationship with the shaloren, one that I hope will last for a long time to come.
+
+[i]In regards to myself, I want to one day leave Elvala and venture back out into the world.[/i] I know though that if I was to leave I would need to know how to properly defend myself, in case I ever ran into those fanatics or some other foul group that would seek to cause myself or others harm. I also wished to learn about the rune magic that the ogres had used, and whether it could be something I myself may want to employ. Finally I couldn't ignore the nagging affliction which influences me, as I knew that if I ever lost control and had my emotions consume me once more that I may lash out against those who I did not mean to. With this in mind I sought the help of those around me, looking to learn whatever they may teach me.
+
+I was surprised to find that when approached about this, both the shaloren and the ogres were quite willing to teach me. Back home few were interested in sharing their knowledge with others for any reason, and this included even between family members. The exception to this of course was where a necessity to Thaloren society existed, such as in times of war or other calamity, but even then it was limited. I will note though that the shaloren I approached tended to request something in exchange for teaching me, usually asking for monetary compensation. The ogres on the other hand that I talked to were quite open in sharing their knowledge, and in fact one in particular seemed almost overly eager to do so.
+
+This was when my instructor, the female ogre who had helped graft my Rune of Return on my neck, approached me offering to give me a full breakdown on the use of runes and their applications. I was told about the variety of runes that existed and the various abilities they could employ. I also learned about the basics of their use, being lectured on how they would gather a bodies innate inner magic into arcane energy, convert that arcane energy into the magical effect that the rune would employ, and need time to repeat the process again. On top of this a rune would create a magical buildup within the body which would make subsequent rune use more and more difficult for the user to do.
+
+My instructor was also keen to give me a hands on demonstration regarding the use of runes to ensure I truly understood how they would work. I remember when we first started out how she abruptly disappeared from in front of me, how I subsequently looked around aimlessly before hearing her laugh in front of me as she reappeared again. I would be introduced to several ogres who would show me the multitude of abilities that their runes would grant them and hear stories of how they had used their runes in past scuffles or brawls. Finally, my instructor offered to give me a rune for my own personal use, a heat beam rune. Unlike how my instructor had grafted the Rune of Return onto me before, I inscribe that rune onto my left arm myself, and it is still with me to this day.
+
+From the shaloren I would learn various skills, specifically in regards combat equipment. A weaponsmith gave me some rudimentary lessons on how to wield and orient a weapon in combat before getting me to practice for hitting training dummies with everything from large swords and hammers to small daggers and clubs. From an armorsmith I was shown various pieces of clothing and armor and shown the varying effectiveness these armors had when hit with weapons. I even got to run a small training course decked out in full set of plate armor that the armorsmith lent me to learn how to maneuver and run around without completely exhausting myself.
+
+Eventually some veteran shaloren soldiers offered to spar with me too. From that moment I took everything that I had learned and put it all into practice. For a time I would engage in mock battles, learning how to regulate my stamina and when to use runes to give myself and advantage in combat, or just to make up for disadvantages that I might be suffering. It wasn't long before I could hold my own in combat even against battle hardened trained soldiers, at which point I was promptly asked if I would be interested in enlisting in the Shaloren Military. Not having much to do and figuring it would help in advancing my combat skills I accepted, and for several years I would serve as a soldier in Elvala.
+
+It would also be within the military that I would get to learn a great deal about controlling my emotions. Enrolled in a program for those with unique abilities, I would slowly begin to learn more about the dark condition affecting my body and how I could use it to my advantage. I would learn about how I could effect my surroundings, both inanimate and living, and in some cases I would even be allowed to practice trying to use the dark thoughts inside me against others. I can't say I ever gained full control over the chaotic energies within me, but through concentration I would learn how to at least direct it away from others and prevent it from affecting people in my vicinity.
+
+When I look back at the many events the occurred after the Spellblaze, I wonder what life might have held for me had I not left to travel as I did. Much time has now passed since the time of my initial journey, but I consider whether now is the time that I will leave Elvala to explore distant lands and see what has become of everything in the world. I wonder how the rest of the people in Eyal are faring and whether the lands have shown any signs of healing, as well as wonder what has happened to my fellow thaloren back home. Whatever may lie in my future I know that I am ready to make my way through it. And when I do, my escapades will continue once more!]], [[[i]As time passed, both ogre and shalore slowly adapted to their secluded lives from the outside world.[/i] The shaloren slowly gathered themselves and their belongings in secret from the abandoned settlements in the north, and then quickly worked to create permanent implements that would ensure that the Shroud concealing Elvala would stay in place. They then worked to expand the Shroud to encompass all the forests surrounding Elvala and lock off the Shaloren Peninsula from the outside world. After that, many shaloren began to study the chaotic energies that had been unleashed in hopes of learning more about the damage they had caused and what effects it would leave in Eyal.
+
+[i]The ogres settled down in the southern portions of the peninsula to rebuild new lives for themselves.[/i] They helped to grow and harvest food to feed everyone and took up more laborious occupations that the shaloren were ill-suited to perform. Many gave birth to children, resulting in a great many young ogres helping to bolster their limited numbers. Some of the ogres also took up occupations working with inscriptions, and while my knowledge of runes is still quite limited, I could tell from their workmanship that their knowledge and skills with infusions were as good as many of the thaloren I knew back home. Despite some disagreements the ogres had, they managed to create a thriving relationship with the shaloren, one that I hope will last for a long time to come.
+
+[i]In regards to myself, I want to one day leave Elvala and venture back out into the world.[/i] I know though that if I was to leave I would need to know how to properly defend myself, in case I ever ran into those fanatics or some other foul group that would seek to cause myself or others harm. I also wished to learn about the rune magic that the ogres had used, and whether it could be something I myself may want to employ. Finally I couldn't ignore the nagging affliction which influences me, as I knew that if I ever lost control and had my emotions consume me once more that I may lash out against those who I did not mean to. With this in mind I sought the help of those around me, looking to learn whatever they may teach me.
+
+I was surprised to find that when approached about this, both the shaloren and the ogres were quite willing to teach me. Back home few were interested in sharing their knowledge with others for any reason, and this included even between family members. The exception to this of course was where a necessity to Thaloren society existed, such as in times of war or other calamity, but even then it was limited. I will note though that the shaloren I approached tended to request something in exchange for teaching me, usually asking for monetary compensation. The ogres on the other hand that I talked to were quite open in sharing their knowledge, and in fact one in particular seemed almost overly eager to do so.
+
+This was when my instructor, the female ogre who had helped graft my Rune of Return on my neck, approached me offering to give me a full breakdown on the use of runes and their applications. I was told about the variety of runes that existed and the various abilities they could employ. I also learned about the basics of their use, being lectured on how they would gather a bodies innate inner magic into arcane energy, convert that arcane energy into the magical effect that the rune would employ, and need time to repeat the process again. On top of this a rune would create a magical buildup within the body which would make subsequent rune use more and more difficult for the user to do.
+
+My instructor was also keen to give me a hands on demonstration regarding the use of runes to ensure I truly understood how they would work. I remember when we first started out how she abruptly disappeared from in front of me, how I subsequently looked around aimlessly before hearing her laugh in front of me as she reappeared again. I would be introduced to several ogres who would show me the multitude of abilities that their runes would grant them and hear stories of how they had used their runes in past scuffles or brawls. Finally, my instructor offered to give me a rune for my own personal use, a heat beam rune. Unlike how my instructor had grafted the Rune of Return onto me before, I inscribe that rune onto my left arm myself, and it is still with me to this day.
+
+From the shaloren I would learn various skills, specifically in regards combat equipment. A weaponsmith gave me some rudimentary lessons on how to wield and orient a weapon in combat before getting me to practice for hitting training dummies with everything from large swords and hammers to small daggers and clubs. From an armorsmith I was shown various pieces of clothing and armor and shown the varying effectiveness these armors had when hit with weapons. I even got to run a small training course decked out in full set of plate armor that the armorsmith lent me to learn how to maneuver and run around without completely exhausting myself.
+
+Eventually some veteran shaloren soldiers offered to spar with me too. From that moment I took everything that I had learned and put it all into practice. For a time I would engage in mock battles, learning how to regulate my stamina and when to use runes to give myself and advantage in combat, or just to make up for disadvantages that I might be suffering. It wasn't long before I could hold my own in combat even against battle hardened trained soldiers, at which point I was promptly asked if I would be interested in enlisting in the Shaloren Military. Not having much to do and figuring it would help in advancing my combat skills I accepted, and for several years I would serve as a soldier in Elvala.
+
+It would also be within the military that I would get to learn a great deal about controlling my emotions. Enrolled in a program for those with unique abilities, I would slowly begin to learn more about the dark condition affecting my body and how I could use it to my advantage. I would learn about how I could effect my surroundings, both inanimate and living, and in some cases I would even be allowed to practice trying to use the dark thoughts inside me against others. I can't say I ever gained full control over the chaotic energies within me, but through concentration I would learn how to at least direct it away from others and prevent it from affecting people in my vicinity.
+
+When I look back at the many events the occurred after the Spellblaze, I wonder what life might have held for me had I not left to travel as I did. Much time has now passed since the time of my initial journey, but I consider whether now is the time that I will leave Elvala to explore distant lands and see what has become of everything in the world. I wonder how the rest of the people in Eyal are faring and whether the lands have shown any signs of healing, as well as wonder what has happened to my fellow thaloren back home. Whatever may lie in my future I know that I am ready to make my way through it. And when I do, my escapades will continue once more!]], "_t")
 t("Escapades of Fay Willows [Book 5, Chapter 1] - Dead On Arrival", "Escapades of Fay Willows [Book 5, Chapter 1] - Dead On Arrival", "_t")
+t([[[i]Truly there is nothing more horrid than the experience of encountering ghouls. You will likely smell them as they emit a horrible stench, else if you are lucky you'll just hear them as they groan in a low painful sounding tone. Casting your eyes upon them you will be presented with a truly horrible display as you witness rows of hanging flesh and dripping puss surrounding a vaguely humanoid figure. The worst of it though is the touch and feel of ghouls. I bet any ordinary individual would feel grossly unsettled just poking them with a stick, let alone engaging up close to them in combat as I did.[/i]
+
+As I walked along the treeline I recounted the events that had led me to these daily patrols. Thirty-three long years passed after the cataclysm of the Spellblaze, the moment still burning within my mind, as well as my body. I survived the destruction and the events that followed, and had come to find myself in Elvala among the shaloren, whom I had come to care for and be in the care of. I had fallen in love with one of the soldiers whom I had trained with and had come to know him as family. Yet I wondered how the rest outside of Elvala suffered, how those thaloren at home fared, and if I should leave to explore the world again as I had once desired to.
+
+Returning from my patrol towards the old path that cut through the forest I noticed a couple of Elvala's officials and a cadre of guards in the distance. Approaching them I soon noticed what looked to be a rotting body at their feet. Glancing towards the body I felt a coldness, a dark force that felt worse than anything I had every experienced, including the chaotic energies within me. Catching sight of me, one of the officials turned towards me and stated in a direct voice, "Fay, I need you to quickly exit through the Shroud, take a quick look around, and report back anything unusual you see." Sensing some urgency to this request I promptly turned towards the Shroud and dove in without a second thought.
+
+Traveling through the misty smoke I recalled the first time I had left Elvala. I had traveled through this magical barrier many times to rescue those who had found themselves stranded outside the wall or to act as an escort for Nargol emissary's and traders, but I could feel as though there was a great tension around me. For the next two hours I slowly traversed through the smoke with only my thoughts to keep my company until at last I reached the other side and began to see the outside world ahead begin to unfurl itself. Nearing the outer edges of the smoke I heard a guttural sound bellow out nearby, before I glimpsed a gaunt figure jumped over towards me, swinging its arms in my direction.
+
+Unable to immediately dodge the attack, one of the arms connected with my chest, hitting me with immense strength. The strike reverberated through my steel breastplate, shaking the whole of my body, and throwing me completely off balance. Seemingly not missing a beat the creature threw its face towards my arm, clamping down hard with its teeth, and somehow biting through my steel gauntlets. Pain seared through my left arm, and something more seemed to course through my body, sapping my strength and making me sluggish. I did not know who this attacker was but I could feel the hatred inside me beginning to build. All that was left to do was to unleash it.
+
+Beginning to counterattack I activated the heat beam rune in my left hand. The creature quickly detached from my arm and began to cry out as flames engulfed all around it. Immediately following this I began to hit the creature with a fury of blows that quickly overwhelmed the creature as it flailed widely in an attempt to attack back. Pressing my advantage I struck the creature with a devastating swipe that cut hard across its body. I paused for a moment as I expected the creature to keel over dead, but was surprised when the creature seemed to bounce back and try one more time to attack me. I dodged this attack with ease though and with a simple slash I partially separated its head from its body, finally killing it.
+
+Finally having a chance to closely examine the creature, I noticed a single eye staring out from one of the eye sockets. Blinking and looking at the rest of its body I realized I had been fighting a rotting corpse. I wondered if there were anymore undead and I began to look around my immediate area. Around me I could spot a few sparse dead corpses mingling about that had yet to notice my presence. Deciding I would dispatch them I attempted to quietly approach them, only to realize how difficult this would be due to all the muddy ground in the area. It was at this point though when I wondered why all the ground was muddy, before I discerned the many tracks and footprints, all leading into the Shroud.
+
+Realizing the danger that was headed to Elvala, I quickly activated the Rune of Return that I had been grafted by the ogres on my neck, and in an instant I was once again within the city walls. Before I could reacquire my bearings a shaloren soldier walked into me and knocked me to the ground. The soldier soon got to his feet saying "My apologies" and proceeded to extend a hand under my left shoulder to help me up. Noticing the festering bite marks on my arm, the eyes of the soldier soon gained a solemn look and continuing to talk stated, "Command will want your report immediately on the undead you encountered. We've had a few more wander in through the Shroud while you were scouting."
+
+I turned towards the soldier who nodded in the direction of the main battlement line facing towards Elvala's northern forests. Nodding back, I proceeded to make my way to the tower above the main gate where I suspected the watch captain would be. I quickly made my way through the host of gathering soldiers forming below the walls and made my way up along with the mages and archers who were climbing the stairs to get to their positions. Noticing me as I made my way up, the watch captain called out in my direction, and I hurried over to his position to relay to him what had occurred. The captain tensed his face as I gave him my report and cursed as he turned his head to look out towards the Shroud.]], [[[i]Truly there is nothing more horrid than the experience of encountering ghouls. You will likely smell them as they emit a horrible stench, else if you are lucky you'll just hear them as they groan in a low painful sounding tone. Casting your eyes upon them you will be presented with a truly horrible display as you witness rows of hanging flesh and dripping puss surrounding a vaguely humanoid figure. The worst of it though is the touch and feel of ghouls. I bet any ordinary individual would feel grossly unsettled just poking them with a stick, let alone engaging up close to them in combat as I did.[/i]
+
+As I walked along the treeline I recounted the events that had led me to these daily patrols. Thirty-three long years passed after the cataclysm of the Spellblaze, the moment still burning within my mind, as well as my body. I survived the destruction and the events that followed, and had come to find myself in Elvala among the shaloren, whom I had come to care for and be in the care of. I had fallen in love with one of the soldiers whom I had trained with and had come to know him as family. Yet I wondered how the rest outside of Elvala suffered, how those thaloren at home fared, and if I should leave to explore the world again as I had once desired to.
+
+Returning from my patrol towards the old path that cut through the forest I noticed a couple of Elvala's officials and a cadre of guards in the distance. Approaching them I soon noticed what looked to be a rotting body at their feet. Glancing towards the body I felt a coldness, a dark force that felt worse than anything I had every experienced, including the chaotic energies within me. Catching sight of me, one of the officials turned towards me and stated in a direct voice, "Fay, I need you to quickly exit through the Shroud, take a quick look around, and report back anything unusual you see." Sensing some urgency to this request I promptly turned towards the Shroud and dove in without a second thought.
+
+Traveling through the misty smoke I recalled the first time I had left Elvala. I had traveled through this magical barrier many times to rescue those who had found themselves stranded outside the wall or to act as an escort for Nargol emissary's and traders, but I could feel as though there was a great tension around me. For the next two hours I slowly traversed through the smoke with only my thoughts to keep my company until at last I reached the other side and began to see the outside world ahead begin to unfurl itself. Nearing the outer edges of the smoke I heard a guttural sound bellow out nearby, before I glimpsed a gaunt figure jumped over towards me, swinging its arms in my direction.
+
+Unable to immediately dodge the attack, one of the arms connected with my chest, hitting me with immense strength. The strike reverberated through my steel breastplate, shaking the whole of my body, and throwing me completely off balance. Seemingly not missing a beat the creature threw its face towards my arm, clamping down hard with its teeth, and somehow biting through my steel gauntlets. Pain seared through my left arm, and something more seemed to course through my body, sapping my strength and making me sluggish. I did not know who this attacker was but I could feel the hatred inside me beginning to build. All that was left to do was to unleash it.
+
+Beginning to counterattack I activated the heat beam rune in my left hand. The creature quickly detached from my arm and began to cry out as flames engulfed all around it. Immediately following this I began to hit the creature with a fury of blows that quickly overwhelmed the creature as it flailed widely in an attempt to attack back. Pressing my advantage I struck the creature with a devastating swipe that cut hard across its body. I paused for a moment as I expected the creature to keel over dead, but was surprised when the creature seemed to bounce back and try one more time to attack me. I dodged this attack with ease though and with a simple slash I partially separated its head from its body, finally killing it.
+
+Finally having a chance to closely examine the creature, I noticed a single eye staring out from one of the eye sockets. Blinking and looking at the rest of its body I realized I had been fighting a rotting corpse. I wondered if there were anymore undead and I began to look around my immediate area. Around me I could spot a few sparse dead corpses mingling about that had yet to notice my presence. Deciding I would dispatch them I attempted to quietly approach them, only to realize how difficult this would be due to all the muddy ground in the area. It was at this point though when I wondered why all the ground was muddy, before I discerned the many tracks and footprints, all leading into the Shroud.
+
+Realizing the danger that was headed to Elvala, I quickly activated the Rune of Return that I had been grafted by the ogres on my neck, and in an instant I was once again within the city walls. Before I could reacquire my bearings a shaloren soldier walked into me and knocked me to the ground. The soldier soon got to his feet saying "My apologies" and proceeded to extend a hand under my left shoulder to help me up. Noticing the festering bite marks on my arm, the eyes of the soldier soon gained a solemn look and continuing to talk stated, "Command will want your report immediately on the undead you encountered. We've had a few more wander in through the Shroud while you were scouting."
+
+I turned towards the soldier who nodded in the direction of the main battlement line facing towards Elvala's northern forests. Nodding back, I proceeded to make my way to the tower above the main gate where I suspected the watch captain would be. I quickly made my way through the host of gathering soldiers forming below the walls and made my way up along with the mages and archers who were climbing the stairs to get to their positions. Noticing me as I made my way up, the watch captain called out in my direction, and I hurried over to his position to relay to him what had occurred. The captain tensed his face as I gave him my report and cursed as he turned his head to look out towards the Shroud.]], "_t")
 t("Escapades of Fay Willows [Book 5, Chapter 2] - Elvala Under Attack", "Escapades of Fay Willows [Book 5, Chapter 2] - Elvala Under Attack", "_t")
+t([[[i]Looking past the gruesome nature of the undead, I can somewhat appreciate the brilliance of the tactics and strategy that they employed. Everything seemed to have been meticulously planned out beforehand and being undead they were able to act perfectly in a preordained manner. This allowed the necromancer controlling them to stay safely out of harms way and away for the duration of the battle.[/i]
+
+Suddenly I noticed the captain's eyes narrow and lock onto something within the smoke and turning to look myself I noticed the quivering distortions. Suddenly, with a loud call to "FIRE" coming from the watch captain, the many archers and mages began to loose arrows and cast spells, causing the disturbance to turn into a whirling maelstrom as projectiles and magic slammed into it. Despite the barrage a glistening phalanx of moving bones and tattered armor emerged, revealing several rows of skeletons in a defensive formation. Holding their shields high above them, they moved within lockstep of each other, and slowly made their approach towards the wall.
+
+The defenders continued to unleash everything they could over the walls, but for every single skeleton that was shattered or had its bones scattered across the battlefield it seemed as if two more would emerge behind it. Being unliving enemies with no free will of their own they continued to advance towards us no matter how many of them fell. Approaching the walls, soldiers from below began to cart up rocks and stones into great piles, and as the skeletons got closer the soldiers began to throw the debris over the walls. Unlike with arrows and spells, the skeletons could not overcome the heavy weight dropping down on them and many would be subsequently crushed.
+
+Looking down at them, the captain seem to muse over the situation before muttering, "I don't see them carrying any ladders, but judging from how they marched to the walls they must have some plan." Continuing to monitor them, I noticed hoarse voices in the air, and all of a sudden nearby panicked voices from those on the wall began to call out that they were under attack. Looking around I couldn’t see any attackers but I could tell that there were foes nearby. Then all at once I could feel the faint presence of something moving behind me and the watch captain. Quickly pulling my weapon I slashed behind me at the space where one of them was and though I couldn't see the enemy I heard a low gasp as my weapon slashed through the air.
+
+Becoming aware of what was happening, the watch captain called out to the defenders on the battlements, "We are under attack by shades, defend yourselves!" All at once everyone on the battlements turned to deal with the new threat and ignore the skeletons below. Those that could determine where the hidden enemies were quickly focused their attacks on dispatching the enemies directly while those that couldn't unleashed attacks in wide arcs that would be difficult to evade. It wasn't long before a torrent of death cries filled the air, but it would soon become clear that these enemies were just a distraction as skeletons made their move, constructing ladders and forming pyramids made of bones.
+
+Now with means to get to us, the skeletons were clambering up and arriving onto the battlements, using their superior numbers to push us back. Seeing that we were being overwhelmed, the watch captain gave the order to abandon the walls, causing everyone to scramble in an attempt to get off in whatever way possible. Unfortunately in the confusion, many who were still engaged or injured were unable to get away, and were subsequently hacked to pieces. Having lost control of the battlements, a small force of the skeletons moved to take over the gates and allow for the rest of the undead outside to get in, while the rest of the skeletons began to jump off in pursuit of us in a bid to run us down.
+
+As we ran down one of Elvala's narrow streets, the watch captain saw an opportunity present itself, and ordered the mages to form a firing line. Following us, the skeletons funneled into the streets after us into a tight formation, presenting a perfect opportunity for a barrage of spells to be used against them. Waves of lightning, fire, and cold spells washed over that battlefield and sent their bones scattering all over the street. Seeing most of the skeletons vanquished the defenders broke into a resounding cheer, until realization set in that there was more to come. Looking past the fallen skeletons, we could see a torrent of undead now flooding through the gate.
+
+The guttural sounds of ghouls began to fill the air and along with these ghouls walked another couple legions of skeletons. However, it was behind them that a truly frightening undead began to move, hulking figures of towering bone that stood as high as many of Elvala's buildings. A final line of skeletons also appeared too, but unlike the others they appeared to be armed with staves and bows. Quickly the undead began to organize themselves before moving lockstep with each other in our direction. Our mages attempted to ready another set of spells but quickly found this quite difficult as arrows and spells from the undead rained down on them. Realizing we would have to engage the undead fully we raised our shields and proceeded to step forward.
+
+As the front lines drew closer, we would be caught off guard when the ghouls made giant leaps over our entire formation. We soon found ourselves boxed in as ghouls clawed us in the back while the remaining undead forces collided into us from the front. With little room to maneuver, shaloren archers and mages behind us were cut down, while soldiers in front could do little more than keep their shields in front of them to block attacks. Panicking, those who could teleport broke from the line, leaving the rest of us to fend off the encroaching undead horde. The situation was looking quite bleak as we found ourselves trapped by the undead and everything was thrown into complete disarray.]], [[[i]Looking past the gruesome nature of the undead, I can somewhat appreciate the brilliance of the tactics and strategy that they employed. Everything seemed to have been meticulously planned out beforehand and being undead they were able to act perfectly in a preordained manner. This allowed the necromancer controlling them to stay safely out of harms way and away for the duration of the battle.[/i]
+
+Suddenly I noticed the captain's eyes narrow and lock onto something within the smoke and turning to look myself I noticed the quivering distortions. Suddenly, with a loud call to "FIRE" coming from the watch captain, the many archers and mages began to loose arrows and cast spells, causing the disturbance to turn into a whirling maelstrom as projectiles and magic slammed into it. Despite the barrage a glistening phalanx of moving bones and tattered armor emerged, revealing several rows of skeletons in a defensive formation. Holding their shields high above them, they moved within lockstep of each other, and slowly made their approach towards the wall.
+
+The defenders continued to unleash everything they could over the walls, but for every single skeleton that was shattered or had its bones scattered across the battlefield it seemed as if two more would emerge behind it. Being unliving enemies with no free will of their own they continued to advance towards us no matter how many of them fell. Approaching the walls, soldiers from below began to cart up rocks and stones into great piles, and as the skeletons got closer the soldiers began to throw the debris over the walls. Unlike with arrows and spells, the skeletons could not overcome the heavy weight dropping down on them and many would be subsequently crushed.
+
+Looking down at them, the captain seem to muse over the situation before muttering, "I don't see them carrying any ladders, but judging from how they marched to the walls they must have some plan." Continuing to monitor them, I noticed hoarse voices in the air, and all of a sudden nearby panicked voices from those on the wall began to call out that they were under attack. Looking around I couldn’t see any attackers but I could tell that there were foes nearby. Then all at once I could feel the faint presence of something moving behind me and the watch captain. Quickly pulling my weapon I slashed behind me at the space where one of them was and though I couldn't see the enemy I heard a low gasp as my weapon slashed through the air.
+
+Becoming aware of what was happening, the watch captain called out to the defenders on the battlements, "We are under attack by shades, defend yourselves!" All at once everyone on the battlements turned to deal with the new threat and ignore the skeletons below. Those that could determine where the hidden enemies were quickly focused their attacks on dispatching the enemies directly while those that couldn't unleashed attacks in wide arcs that would be difficult to evade. It wasn't long before a torrent of death cries filled the air, but it would soon become clear that these enemies were just a distraction as skeletons made their move, constructing ladders and forming pyramids made of bones.
+
+Now with means to get to us, the skeletons were clambering up and arriving onto the battlements, using their superior numbers to push us back. Seeing that we were being overwhelmed, the watch captain gave the order to abandon the walls, causing everyone to scramble in an attempt to get off in whatever way possible. Unfortunately in the confusion, many who were still engaged or injured were unable to get away, and were subsequently hacked to pieces. Having lost control of the battlements, a small force of the skeletons moved to take over the gates and allow for the rest of the undead outside to get in, while the rest of the skeletons began to jump off in pursuit of us in a bid to run us down.
+
+As we ran down one of Elvala's narrow streets, the watch captain saw an opportunity present itself, and ordered the mages to form a firing line. Following us, the skeletons funneled into the streets after us into a tight formation, presenting a perfect opportunity for a barrage of spells to be used against them. Waves of lightning, fire, and cold spells washed over that battlefield and sent their bones scattering all over the street. Seeing most of the skeletons vanquished the defenders broke into a resounding cheer, until realization set in that there was more to come. Looking past the fallen skeletons, we could see a torrent of undead now flooding through the gate.
+
+The guttural sounds of ghouls began to fill the air and along with these ghouls walked another couple legions of skeletons. However, it was behind them that a truly frightening undead began to move, hulking figures of towering bone that stood as high as many of Elvala's buildings. A final line of skeletons also appeared too, but unlike the others they appeared to be armed with staves and bows. Quickly the undead began to organize themselves before moving lockstep with each other in our direction. Our mages attempted to ready another set of spells but quickly found this quite difficult as arrows and spells from the undead rained down on them. Realizing we would have to engage the undead fully we raised our shields and proceeded to step forward.
+
+As the front lines drew closer, we would be caught off guard when the ghouls made giant leaps over our entire formation. We soon found ourselves boxed in as ghouls clawed us in the back while the remaining undead forces collided into us from the front. With little room to maneuver, shaloren archers and mages behind us were cut down, while soldiers in front could do little more than keep their shields in front of them to block attacks. Panicking, those who could teleport broke from the line, leaving the rest of us to fend off the encroaching undead horde. The situation was looking quite bleak as we found ourselves trapped by the undead and everything was thrown into complete disarray.]], "_t")
 t("Escapades of Fay Willows [Book 5, Chapter 3] - Leadership From The Front", "Escapades of Fay Willows [Book 5, Chapter 3] - Leadership From The Front", "_t")
 t([[[i]As an experienced commander would tell me long after the battle with the undead "the winner of a battle is not necessarily dictated by the amount of enemies slain but rather by which side breaks first." While the quality of an armies ability to fight is important it means nothing should its soldiers lose the will to fight. We had been lucky in the defense of Elvala with the aid from the ogres and eventually rallying leadership of Aranion.  Without them all hope of victory would have surely been lost.[/i]
 
@@ -2359,6 +2275,39 @@ Continuing around me to stand in front before circling around to my right, necro
 
 The necromancer continued to talk aloud for several moments as he circled around me again and again, which was fine by me. I could feel the arcane energy replenishing within my heat beam rune, and when I had the chance I would activate it and release myself from my icy imprisonment. Perhaps aware of my intent though the necromancer quickly glanced at my eyes before stating, "You are quite an oddity aren't you? However, you aren't much the conversationalist so there is little reason for me to keep you alive. I can easily study your corpse instead of leaving you alive you see." I could sense the magic beginning to accumulate in one of the necromancer's hands as he concluded by saying, "Farewell thalore." ]], "_t")
 t("Escapades of Fay Willows [Book 5, Chapter 7] - Powers of Undeath", "Escapades of Fay Willows [Book 5, Chapter 7] - Powers of Undeath", "_t")
+t([[[i]Something that I have always wondered about is why people give names to inanimate objects. Aranion would lose hold of his weapon at some point during the fight with the Necromancer, though I'm not specifically sure at what time in the fight this would be. Even now as I write this, Aranion frets over his lost sword as if he had lost a loved one. While I can understand how one can get accustomed to a weapon, surely he can find another to use instead?[/i]
+
+Sensing that I needed to act now, I activated the heat beam rune, melting the ice around and me and sending a surging blast of fire towards the necromancer. As the necromancer stumbled back in flames as I took the moment to heave my weapon forward with all the force I could muster, only to pierce through nothing as the necromancer disappeared. Before I had a chance to see where the necromancer had teleported to, a burst of hot flames enveloped me from behind. Turning around I could see the necromancer, singed yet no longer on fire. I had been read completely and now I danced around in searing pain as every inch of my body burned. The necromancer cackled as I noticed the heat beam rune inscribed on the bottom of his outstretched arm.
+
+Annoyed at how easily I had been handled, I gritted my teeth and charged forward at the necromancer, only to be stopped by several undead blocking my way. Cackling some more, I felt a sharp pain cut through me as the necromancer released a dark beam of energy that shot through the skeletons and me. As I cringed in pain and had little time to react before the necromancer's minions began to attack me from all sides. Infuriated, I began to strike at everything surrounding me, tearing a path through the undead up to the necromancer. Coming face to face with the fiend I was about to deliver a great blow, but with a simple wave at me I felt a heavy force slam into my chest.
+
+Darkness seemed to pierce my mind and try as I might I could not resist it. I was sent careening backwards where I slammed into a wall. My vision began to blur as I lay on the ground. Despite this however I could still hear the necromancer cackle before the yammering began again. "How pathetic, really you are. Fighting is more than just hitting things with overwhelming force! You are truly powerful thalore, but power in and of itself is meaningless. Your moves are too telegraphed, your attacks are easily countered, and you don't seem to have the slightest idea of how to strategize in combat. Oh well. Perhaps after I kill you I'll just raise your corpse as it is and show you how to properly engage yourself in a fight."
+
+Despite my inability to remember things said to me, I remember those words quite well as they rang through my head. Poetically I could say that they pierced me more than any wound inflicted on me that day, but that would fail to describe just how many spellblasts and cursed spells would be sent into my body. For every action I would make the necromancer would be two steps ahead and for every mistake I would make I would pay dearly. As the battle went on I could feel my body beginning to grow colder and I knew that despite how tough I was I could not continue to sustain my fighting efforts for much longer. My desperation was perhaps just as noticeable as anything else by the necromancer.
+
+Then at last my body could stand no more and I collapsed to the ground unable to move. Waves of cold and dark energy circulated within my body and I realized just how close to the limits of my own mortality I was. I remember as my thoughts turned over to past events of my life in that moment, to a time before the Spellblaze when I lived in the forests with my fellow thaloren, a simpler and more peaceful time to be sure. I didn't want to die, nor suffer whatever mad plans this necromancer would have for me either. Yet I could do nothing more now as the necromancer slowly approached to stand over me and say, "Such a fruitless effort thalore. Perhaps with time you would have become a notable hero of legend. But now you die."
+
+In the next moment I could not describe to you the amount of pain that ripped through my body as the necromancer unleashed a deathly magic that tortured every fibre of my being. As I was engulfed in agony my mind slowly began to black out and I slowly edged closer and closer to death. I might have been killed had Aranion not managed to return just in time to interrupt the necromancer and cancel the spell cast on me. I don't know the specifics of what happened next after that, only that Aranion was somehow able to extract me and himself from the grasp of the necromancer and escape. Somehow I endured long enough after that for Aranion to cast a basic healing spell on me, enough to keep me alive until we returned to Elvala.
+
+I briefly remember when I was initially recovering that I opened my eyes while laying in one of the medical beds back in Elvala. In a chair near me I saw my husband sleeping, waiting for me. I tried to call out but instead I let out a scream. My husband would call for a healer as my body was wracked in pain from the many injuries I had endured for so long. I would sleep for a long time after that, for how long I do not know, but the next time I woke up I would be in my own room within my house. Looking around once again I could see that it was nighttime, and my husband again sat sleeping in a chair, still waiting for me. For how long he waited I do not know.
+
+Once more I called out saying his name "Awain". As he roused from his sleep and looked at me an endless amount of tears would begin streaming down his face. In a cracked voice I heard him say, "You're awake, you're still alive." He hurried over to me, putting his hands under me to embrace me tightly, and began sobbing uncontrollably. For the moment I allowed him to cry, feeling that I should hold back on inquiring as to how I had made it back to Elvala. I didn't know how long I had been unconscious but I had the feeling that he had waited the entire time for me, waiting for the moment I would come back to him. I embraced him back and sobbed too as we were reunited once more.]], [[[i]Something that I have always wondered about is why people give names to inanimate objects. Aranion would lose hold of his weapon at some point during the fight with the Necromancer, though I'm not specifically sure at what time in the fight this would be. Even now as I write this, Aranion frets over his lost sword as if he had lost a loved one. While I can understand how one can get accustomed to a weapon, surely he can find another to use instead?[/i]
+
+Sensing that I needed to act now, I activated the heat beam rune, melting the ice around and me and sending a surging blast of fire towards the necromancer. As the necromancer stumbled back in flames as I took the moment to heave my weapon forward with all the force I could muster, only to pierce through nothing as the necromancer disappeared. Before I had a chance to see where the necromancer had teleported to, a burst of hot flames enveloped me from behind. Turning around I could see the necromancer, singed yet no longer on fire. I had been read completely and now I danced around in searing pain as every inch of my body burned. The necromancer cackled as I noticed the heat beam rune inscribed on the bottom of his outstretched arm.
+
+Annoyed at how easily I had been handled, I gritted my teeth and charged forward at the necromancer, only to be stopped by several undead blocking my way. Cackling some more, I felt a sharp pain cut through me as the necromancer released a dark beam of energy that shot through the skeletons and me. As I cringed in pain and had little time to react before the necromancer's minions began to attack me from all sides. Infuriated, I began to strike at everything surrounding me, tearing a path through the undead up to the necromancer. Coming face to face with the fiend I was about to deliver a great blow, but with a simple wave at me I felt a heavy force slam into my chest.
+
+Darkness seemed to pierce my mind and try as I might I could not resist it. I was sent careening backwards where I slammed into a wall. My vision began to blur as I lay on the ground. Despite this however I could still hear the necromancer cackle before the yammering began again. "How pathetic, really you are. Fighting is more than just hitting things with overwhelming force! You are truly powerful thalore, but power in and of itself is meaningless. Your moves are too telegraphed, your attacks are easily countered, and you don't seem to have the slightest idea of how to strategize in combat. Oh well. Perhaps after I kill you I'll just raise your corpse as it is and show you how to properly engage yourself in a fight."
+
+Despite my inability to remember things said to me, I remember those words quite well as they rang through my head. Poetically I could say that they pierced me more than any wound inflicted on me that day, but that would fail to describe just how many spellblasts and cursed spells would be sent into my body. For every action I would make the necromancer would be two steps ahead and for every mistake I would make I would pay dearly. As the battle went on I could feel my body beginning to grow colder and I knew that despite how tough I was I could not continue to sustain my fighting efforts for much longer. My desperation was perhaps just as noticeable as anything else by the necromancer.
+
+Then at last my body could stand no more and I collapsed to the ground unable to move. Waves of cold and dark energy circulated within my body and I realized just how close to the limits of my own mortality I was. I remember as my thoughts turned over to past events of my life in that moment, to a time before the Spellblaze when I lived in the forests with my fellow thaloren, a simpler and more peaceful time to be sure. I didn't want to die, nor suffer whatever mad plans this necromancer would have for me either. Yet I could do nothing more now as the necromancer slowly approached to stand over me and say, "Such a fruitless effort thalore. Perhaps with time you would have become a notable hero of legend. But now you die."
+
+In the next moment I could not describe to you the amount of pain that ripped through my body as the necromancer unleashed a deathly magic that tortured every fibre of my being. As I was engulfed in agony my mind slowly began to black out and I slowly edged closer and closer to death. I might have been killed had Aranion not managed to return just in time to interrupt the necromancer and cancel the spell cast on me. I don't know the specifics of what happened next after that, only that Aranion was somehow able to extract me and himself from the grasp of the necromancer and escape. Somehow I endured long enough after that for Aranion to cast a basic healing spell on me, enough to keep me alive until we returned to Elvala.
+
+I briefly remember when I was initially recovering that I opened my eyes while laying in one of the medical beds back in Elvala. In a chair near me I saw my husband sleeping, waiting for me. I tried to call out but instead I let out a scream. My husband would call for a healer as my body was wracked in pain from the many injuries I had endured for so long. I would sleep for a long time after that, for how long I do not know, but the next time I woke up I would be in my own room within my house. Looking around once again I could see that it was nighttime, and my husband again sat sleeping in a chair, still waiting for me. For how long he waited I do not know.
+
+Once more I called out saying his name "Awain". As he roused from his sleep and looked at me an endless amount of tears would begin streaming down his face. In a cracked voice I heard him say, "You're awake, you're still alive." He hurried over to me, putting his hands under me to embrace me tightly, and began sobbing uncontrollably. For the moment I allowed him to cry, feeling that I should hold back on inquiring as to how I had made it back to Elvala. I didn't know how long I had been unconscious but I had the feeling that he had waited the entire time for me, waiting for the moment I would come back to him. I embraced him back and sobbed too as we were reunited once more.]], "_t")
 t("Escapades of Fay Willows [Book 5, Chapter 8] - From the Brink of Death", "Escapades of Fay Willows [Book 5, Chapter 8] - From the Brink of Death", "_t")
 t([[Eventually when I got the story from my husband, I found out what had happened after the battle in detail. The necromancer had apparently fled or perhaps had allowed for Aranion to retreat with me back to Elvala. I was very close to death, but the healers worked tirelessly to stabilize my condition, although having difficulties doing so due to my Spellblaze Affliction and terrible injuries that had been wrought on my body by the necromancer's spells. For many days I remained within the medical facilities, as the healers worked to save my life, before eventually being relocated to my own home under the care of my husband.
 
@@ -2396,45 +2345,6 @@ Outside of the various movements of such distasteful groups, some of the shalore
 section "tome-cults/data/lore/kroshkkur.lua"
 
 
--- nouveau texte
---[==[
-t([[Gods are beings which have been frequently mentioned throughout Eyal's history. They are a foreign concept to most readers, since most Eyalites of the current age have not encountered them. The word god gives you the impression of some almighty and obscenely powerful being, which these beings most certainly are. But, there has been little scholarly work dedicated to defining what exactly a god is. Multiple cultures across Eyal's history all have varying descriptions of the gods, despite the same names frequently appearing among them. 
-
-As a scholar of Kroshkkur, I spent much time wandering the surface of Eyal and learning from the surface races regarding the gods, including many famous places of learning such as Anglowen. It was a hard sell, but I even managed to [i]convince[/i] an imp to retrieve certain documentation on Urk'Rok as well. This series of documents has been written to catalogue information regarding the gods and to develop as accurate a picture of them as myth and history will allow and this preface is to give a general impression of what exactly a god is supposed to be.
-
-There have been many powerful beings who have walked across the surface of Eyal. Being a god isn't simply a question of power, however, despite the enormous strength of these beings. What separates gods from other beings is their ability to reverse entropy. For future reference, we shall refer to this power as antropy. This power also allows them to reshape reality to their own whims and desires. Some gods made their own races, others merely altered beings living on Eyal, playing with their evolution and changing them in unfathomable ways. While some might attribute this behaviour to some greater purpose, there is more than enough evidence to suggest that the gods are fallible and motivated by things just as petty as we mere mortals. In my scholarly opinion, we were simply created for their amusement.
-
-While this might drive some to despair and make them believe that mortal will is pointless, it is noted in ancient myth that the gods were slaughtered by the Sher'tul and driven away from our world. Whether or not their absence can be considered a good thing, it cannot be said. There are some surviving stories of the gods' blatant cruelty and complete disregard for the races they made as they squabbled among each other, wracking great scars across the surface of this world. It is also noteworthy that the gods, despite their impressive power, were not always intelligent beings. Some were believed to be barely sapient, or even sentient. One theory about this is that the gods were primitive beings living on Eyal's surface and just so happened to be infused with antropic energies, artificially elevating them above other primitive lifeforms.
-
-With these things established, we will discuss the gods of Eyal and what influence their actions had, and continue to have, on our world. While I discovered many gods in my studies, it is entirely possible that Eyal had even more gods than what are documented in my findings, but their existence cannot be substantiated by existing scholarly texts.]], [[Gods are beings which have been frequently mentioned throughout Eyal's history. They are a foreign concept to most readers, since most Eyalites of the current age have not encountered them. The word god gives you the impression of some almighty and obscenely powerful being, which these beings most certainly are. But, there has been little scholarly work dedicated to defining what exactly a god is. Multiple cultures across Eyal's history all have varying descriptions of the gods, despite the same names frequently appearing among them. 
-
-As a scholar of Kroshkkur, I spent much time wandering the surface of Eyal and learning from the surface races regarding the gods, including many famous places of learning such as Anglowen. It was a hard sell, but I even managed to [i]convince[/i] an imp to retrieve certain documentation on Urk'Rok as well. This series of documents has been written to catalogue information regarding the gods and to develop as accurate a picture of them as myth and history will allow and this preface is to give a general impression of what exactly a god is supposed to be.
-
-There have been many powerful beings who have walked across the surface of Eyal. Being a god isn't simply a question of power, however, despite the enormous strength of these beings. What separates gods from other beings is their ability to reverse entropy. For future reference, we shall refer to this power as antropy. This power also allows them to reshape reality to their own whims and desires. Some gods made their own races, others merely altered beings living on Eyal, playing with their evolution and changing them in unfathomable ways. While some might attribute this behaviour to some greater purpose, there is more than enough evidence to suggest that the gods are fallible and motivated by things just as petty as we mere mortals. In my scholarly opinion, we were simply created for their amusement.
-
-While this might drive some to despair and make them believe that mortal will is pointless, it is noted in ancient myth that the gods were slaughtered by the Sher'tul and driven away from our world. Whether or not their absence can be considered a good thing, it cannot be said. There are some surviving stories of the gods' blatant cruelty and complete disregard for the races they made as they squabbled among each other, wracking great scars across the surface of this world. It is also noteworthy that the gods, despite their impressive power, were not always intelligent beings. Some were believed to be barely sapient, or even sentient. One theory about this is that the gods were primitive beings living on Eyal's surface and just so happened to be infused with antropic energies, artificially elevating them above other primitive lifeforms.
-
-With these things established, we will discuss the gods of Eyal and what influence their actions had, and continue to have, on our world. While I discovered many gods in my studies, it is entirely possible that Eyal had even more gods than what are documented in my findings, but their existence cannot be substantiated by existing scholarly texts.]], "_t")
-t([[Oslrey the Wanderer was considered to be mythical even among the Sher'tul themselves. He spent most of his days wandering across the surface of Eyal, quietly observing the younger races as they emerged from barbarism. While most Sher'tul chose to stay away from what they saw to be the 'lesser' species, Oslrey took his time to walk among them and even speak with them. He carried a plain iron staff with him wherever he walked, an antiquated weapon which he cherished deeply.
-
-He too was asked to become a Godslayer, for his prowess with his staff was the stuff of legends. He refused politely, but again and again, the requests for his assistance kept coming. After watching the land he wandered burn around him, he finally chose to take a stand against the Gods of Eyal. He was presented with Ythral, a uniquely made staff with a crescent blade on one end.
-
-When he fought against the Gods, he acted completely without passion. His staff hammered them down, sliced them open and slaughtered them. He killed without mercy and without malice. When the last of the gods were dead, he returned to his wanderings, carrying Ythral and his old iron staff with him.]], [[Oslrey the Wanderer was considered to be mythical even among the Sher'tul themselves. He spent most of his days wandering across the surface of Eyal, quietly observing the younger races as they emerged from barbarism. While most Sher'tul chose to stay away from what they saw to be the 'lesser' species, Oslrey took his time to walk among them and even speak with them. He carried a plain iron staff with him wherever he walked, an antiquated weapon which he cherished deeply.
-
-He too was asked to become a Godslayer, for his prowess with his staff was the stuff of legends. He refused politely, but again and again, the requests for his assistance kept coming. After watching the land he wandered burn around him, he finally chose to take a stand against the Gods of Eyal. He was presented with Ythral, a uniquely made staff with a crescent blade on one end.
-
-When he fought against the Gods, he acted completely without passion. His staff hammered them down, sliced them open and slaughtered them. He killed without mercy and without malice. When the last of the gods were dead, he returned to his wanderings, carrying Ythral and his old iron staff with him.]], "_t")
-t([[Harqel, according to myths, lead a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
-
-Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
-
-When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[Harqel, according to myths, lead a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
-
-Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
-
-When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("Forbidden Cults", "Forbidden Cults", "newLore category")
@@ -2465,6 +2375,23 @@ It is this dream which keeps Kroshkkur alive. Even as our bodies continue to war
 
 It is this dream which keeps Kroshkkur alive. Even as our bodies continue to warp and decay, we hold onto the hope that we will find a way to reshape ourselves into something better. We will not need anyone's permission to exist on that day.]], "_t")
 t("Researcher Dremnot's Demystification of the Gods: Prelude", "Researcher Dremnot's Demystification of the Gods: Prelude", "_t")
+t([[Gods are beings which have been frequently mentioned throughout Eyal's history. They are a foreign concept to most readers, since most Eyalites of the current age have not encountered them. The word god gives you the impression of some almighty and obscenely powerful being, which these beings most certainly are. But, there has been little scholarly work dedicated to defining what exactly a god is. Multiple cultures across Eyal's history all have varying descriptions of the gods, despite the same names frequently appearing among them. 
+
+As a scholar of Kroshkkur, I spent much time wandering the surface of Eyal and learning from the surface races regarding the gods, including many famous places of learning such as Anglowen. It was a hard sell, but I even managed to [i]convince[/i] an imp to retrieve certain documentation on Urk'Rok as well. This series of documents has been written to catalogue information regarding the gods and to develop as accurate a picture of them as myth and history will allow and this preface is to give a general impression of what exactly a god is supposed to be.
+
+There have been many powerful beings who have walked across the surface of Eyal. Being a god isn't simply a question of power, however, despite the enormous strength of these beings. What separates gods from other beings is their ability to reverse entropy. For future reference, we shall refer to this power as antropy. This power also allows them to reshape reality to their own whims and desires. Some gods made their own races, others merely altered beings living on Eyal, playing with their evolution and changing them in unfathomable ways. While some might attribute this behaviour to some greater purpose, there is more than enough evidence to suggest that the gods are fallible and motivated by things just as petty as we mere mortals. In my scholarly opinion, we were simply created for their amusement.
+
+While this might drive some to despair and make them believe that mortal will is pointless, it is noted in ancient myth that the gods were slaughtered by the Sher'tul and driven away from our world. Whether or not their absence can be considered a good thing, it cannot be said. There are some surviving stories of the gods' blatant cruelty and complete disregard for the races they made as they squabbled among each other, wracking great scars across the surface of this world. It is also noteworthy that the gods, despite their impressive power, were not always intelligent beings. Some were believed to be barely sapient, or even sentient. One theory about this is that the gods were primitive beings living on Eyal's surface and just so happened to be infused with antropic energies, artificially elevating them above other primitive lifeforms.
+
+With these things established, we will discuss the gods of Eyal and what influence their actions had, and continue to have, on our world. While I discovered many gods in my studies, it is entirely possible that Eyal had even more gods than what are documented in my findings, but their existence cannot be substantiated by existing scholarly texts.]], [[Gods are beings which have been frequently mentioned throughout Eyal's history. They are a foreign concept to most readers, since most Eyalites of the current age have not encountered them. The word god gives you the impression of some almighty and obscenely powerful being, which these beings most certainly are. But, there has been little scholarly work dedicated to defining what exactly a god is. Multiple cultures across Eyal's history all have varying descriptions of the gods, despite the same names frequently appearing among them. 
+
+As a scholar of Kroshkkur, I spent much time wandering the surface of Eyal and learning from the surface races regarding the gods, including many famous places of learning such as Anglowen. It was a hard sell, but I even managed to [i]convince[/i] an imp to retrieve certain documentation on Urk'Rok as well. This series of documents has been written to catalogue information regarding the gods and to develop as accurate a picture of them as myth and history will allow and this preface is to give a general impression of what exactly a god is supposed to be.
+
+There have been many powerful beings who have walked across the surface of Eyal. Being a god isn't simply a question of power, however, despite the enormous strength of these beings. What separates gods from other beings is their ability to reverse entropy. For future reference, we shall refer to this power as antropy. This power also allows them to reshape reality to their own whims and desires. Some gods made their own races, others merely altered beings living on Eyal, playing with their evolution and changing them in unfathomable ways. While some might attribute this behaviour to some greater purpose, there is more than enough evidence to suggest that the gods are fallible and motivated by things just as petty as we mere mortals. In my scholarly opinion, we were simply created for their amusement.
+
+While this might drive some to despair and make them believe that mortal will is pointless, it is noted in ancient myth that the gods were slaughtered by the Sher'tul and driven away from our world. Whether or not their absence can be considered a good thing, it cannot be said. There are some surviving stories of the gods' blatant cruelty and complete disregard for the races they made as they squabbled among each other, wracking great scars across the surface of this world. It is also noteworthy that the gods, despite their impressive power, were not always intelligent beings. Some were believed to be barely sapient, or even sentient. One theory about this is that the gods were primitive beings living on Eyal's surface and just so happened to be infused with antropic energies, artificially elevating them above other primitive lifeforms.
+
+With these things established, we will discuss the gods of Eyal and what influence their actions had, and continue to have, on our world. While I discovered many gods in my studies, it is entirely possible that Eyal had even more gods than what are documented in my findings, but their existence cannot be substantiated by existing scholarly texts.]], "_t")
 t("Researcher Dremnot's Demystification of the Gods: Chapter 1 - Amakthel", "Researcher Dremnot's Demystification of the Gods: Chapter 1 - Amakthel", "_t")
 t([[Even among the gods, there was one that towered above them all. Its name was Amakthel, mightiest of Eyal's gods. It was said that it was the creator of the Sher'Tul, that ancient and mysterious race whose true nature is still unknown to this day. More than any other god, Amakthel appears as a creation figure in ancient myths, more readily interfering with mortal beings than any other god. Nearly every race has some myth of Amakthel coming into contact with them, some describing it as a glowing, divine being while others declared it as a bringer of ill omens. Its touch seemed to curse as readily as it blessed according to these different sources, altering beings in ways that only made sense to Amakthel itself. As such, it is difficult to get a clear picture of Amakthel's true personality and disposition towards mortals.
 
@@ -2542,6 +2469,15 @@ In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was 
 t("Mightier than Gods: Branzir", "Mightier than Gods: Branzir", "_t")
 t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renown for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renown for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "_t")
 t("Mightier than Gods: Oslrey", "Mightier than Gods: Oslrey", "_t")
+t([[Oslrey the Wanderer was considered to be mythical even among the Sher'tul themselves. He spent most of his days wandering across the surface of Eyal, quietly observing the younger races as they emerged from barbarism. While most Sher'tul chose to stay away from what they saw to be the 'lesser' species, Oslrey took his time to walk among them and even speak with them. He carried a plain iron staff with him wherever he walked, an antiquated weapon which he cherished deeply.
+
+He too was asked to become a Godslayer, for his prowess with his staff was the stuff of legends. He refused politely, but again and again, the requests for his assistance kept coming. After watching the land he wandered burn around him, he finally chose to take a stand against the Gods of Eyal. He was presented with Ythral, a uniquely made staff with a crescent blade on one end.
+
+When he fought against the Gods, he acted completely without passion. His staff hammered them down, sliced them open and slaughtered them. He killed without mercy and without malice. When the last of the gods were dead, he returned to his wanderings, carrying Ythral and his old iron staff with him.]], [[Oslrey the Wanderer was considered to be mythical even among the Sher'tul themselves. He spent most of his days wandering across the surface of Eyal, quietly observing the younger races as they emerged from barbarism. While most Sher'tul chose to stay away from what they saw to be the 'lesser' species, Oslrey took his time to walk among them and even speak with them. He carried a plain iron staff with him wherever he walked, an antiquated weapon which he cherished deeply.
+
+He too was asked to become a Godslayer, for his prowess with his staff was the stuff of legends. He refused politely, but again and again, the requests for his assistance kept coming. After watching the land he wandered burn around him, he finally chose to take a stand against the Gods of Eyal. He was presented with Ythral, a uniquely made staff with a crescent blade on one end.
+
+When he fought against the Gods, he acted completely without passion. His staff hammered them down, sliced them open and slaughtered them. He killed without mercy and without malice. When the last of the gods were dead, he returned to his wanderings, carrying Ythral and his old iron staff with him.]], "_t")
 t("Mightier than Gods: Murtas", "Mightier than Gods: Murtas", "_t")
 t([[Murtas the Unfathomable came from a famous line of Sher'tul warriors, dating back to the days of the race when they had barely risen out of barbarism. As such, she was a prominent military leader, having decades of experience and prestige behind her. Her expertise in battle tactics proved to be invaluable numerous times to the Sher'tul. She was often described as a calculating and inscrutable individual, someone who did not share her thoughts openly.
 
@@ -2553,6 +2489,15 @@ When the Godhunt was under way, she was the one who supplied the finest smiths s
 
 From there, she outwitted the Gods numerous times, springing ambushes and herding them to the exact locations she wanted them. The Gods, for all of their power, lacked the cunning to match Murtas' tactics, leading to them being cornered and slaughtered like helpless animals.]], "_t")
 t("Mightier than Gods: Harqel", "Mightier than Gods: Harqel", "_t")
+t([[Harqel, according to myths, lead a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
+
+Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
+
+When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[Harqel, according to myths, lead a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
+
+Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
+
+When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], "_t")
 t("Mightier than Gods: Frosat", "Mightier than Gods: Frosat", "_t")
 t([[The Sher'Tul were a people who possessed many exceptional individuals. The tale of Frosat is a mundane one compared to the other Godslayers. He was a scholar who spent most of his time reading, researching and teaching. The Library of Frosat was a fabled place of learning where he kept his large archives of knowledge he had accumulated over his life. Perhaps what was most notable about his career was his research into the nature of antropic power, the energy which only the Gods of Eyal possessed.
 
@@ -3011,14 +2956,15 @@ t([[Shatter the spacetime continuum around yourself, inflicting %0.2f temporal d
 ------------------------------------------------
 section "tome-cults/data/talents/demented/controlled-horrors.lua"
 
-
+t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "Une créature ronde, sans tête, avec des jambes et des bras trapus.  Son corps semble être composé uniquement de dents.", "_t")
+t("Summon", "Invocation", "_t")
+t("bloated horror", "horreur bouffie", "_t")
+t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "Une forme humanoïde bulbeuse flotte ici. Sa tête chauve, semblable à celle d'un enfant, est disproportionnée par rapport à son corps, et sa peau est marquée de vilaines plaies rouges.", "_t")
 -- texte non traduit
 --[==[
 t("Decayed Devourers", "Decayed Devourers", "talent name")
 t("Not enough space to invoke your horror!", "Not enough space to invoke your horror!", "logPlayer")
 t("decaying devourer", "decaying devourer", "_t")
-t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "_t")
-t("Summon", "Summon", "_t")
 t([[You use your bond with horrors to summon three decaying devourers for %d turns.
 The decaying horrors cannot move and will attack all hostile creatures around them. They possess the talents Bloodbath, Gnashing Teeth and Frenzied Bite.
 All its primary stats will be set to %d (based on your Magic stat), life rating increased by %d, and all talent levels set to %d.  Many other stats will scale with level.
@@ -3027,8 +2973,6 @@ The decaying horrors cannot move and will attack all hostile creatures around th
 All its primary stats will be set to %d (based on your Magic stat), life rating increased by %d, and all talent levels set to %d.  Many other stats will scale with level.
 Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], "tformat")
 t("Decayed Bloated Horror", "Decayed Bloated Horror", "talent name")
-t("bloated horror", "bloated horror", "_t")
-t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "_t")
 t([[You use your bond with horrors to summon a decaying bloated horror for %d turns.
 The decaying horror cannot move and will attack all hostile creatures in range of it. It possesses the talents Mind Disruption and Mind Sear.
 All its primary stats will be set to %d (based on your Magic stat), life rating increased by %d, and all talent levels set to %d.  Many other stats will scale with level.
@@ -3061,57 +3005,53 @@ The damage increase is based on your Spellpower.]], "tformat")
 ------------------------------------------------
 section "tome-cults/data/talents/demented/demented.lua"
 
+t("madness", "folie", "talent type")
+t("void", "vide", "talent type")
+t("entropy", "l'entropie", "talent type")
+t("rift", "fissure", "talent type")
 t("other", "autre", "talent type")
--- nouveau texte
---[==[
-t("tentacles", "tentacles", "talent type")
-t("horrific body", "horrific body", "talent type")
-t("writhing body", "writhing body", "talent type")
-t("path of horror", "path of horror", "talent type")
-t("controlled horrors", "controlled horrors", "talent type")
-t("slow death", "slow death", "talent type")
-t("disfigured face", "disfigured face", "talent type")
-t("friend of the worm", "friend of the worm", "talent type")
-t("nether", "nether", "talent type")
-t("madness", "madness", "talent type")
-t("void", "void", "talent type")
-t("entropy", "entropy", "talent type")
-t("timethief", "timethief", "talent type")
-t("oblivion", "oblivion", "talent type")
-t("rift", "rift", "talent type")
-t("chronophage", "chronophage", "talent type")
-t("scourge drake", "scourge drake", "talent type")
-t("doom", "doom", "talent type")
-t("prophecy", "prophecy", "talent type")
-t("calamity", "calamity", "talent type")
-t("beyond sanity", "beyond sanity", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("Insanity Pool", "Insanity Pool", "talent name")
 t("Allows you to have an insanity pool. Insanity is used for most demented powers.", "Allows you to have an insanity pool. Insanity is used for most demented powers.", "_t")
 t("demented", "demented", "talent category")
+t("tentacles", "tentacles", "talent type")
 t("Grow horrific tentacles to assail your foes.", "Grow horrific tentacles to assail your foes.", "_t")
+t("horrific body", "horrific body", "talent type")
 t("Let your body mutate in terrible and efficient ways.", "Let your body mutate in terrible and efficient ways.", "_t")
+t("writhing body", "writhing body", "talent type")
 t("Enhance your body and tentacle with new attacks and horrific growths.", "Enhance your body and tentacle with new attacks and horrific growths.", "_t")
+t("path of horror", "path of horror", "talent type")
 t("Continue your journey on the side of horror.", "Continue your journey on the side of horror.", "_t")
+t("controlled horrors", "controlled horrors", "talent type")
 t("Summon decaying horrors to do your bidding!", "Summon decaying horrors to do your bidding!", "_t")
+t("slow death", "slow death", "talent type")
 t("Turn the insides of your body into a digesting weapon of pain!", "Turn the insides of your body into a digesting weapon of pain!", "_t")
+t("disfigured face", "disfigured face", "talent type")
 t("Your face is the stuff of nightmares!", "Your face is the stuff of nightmares!", "_t")
+t("friend of the worm", "friend of the worm", "talent type")
 t("Conjure your Worm that Walks friend!", "Conjure your Worm that Walks friend!", "_t")
+t("nether", "nether", "talent type")
 t("Annihilate your foes with pure void energy.", "Annihilate your foes with pure void energy.", "_t")
 t("Spread the madness of the void to your enemies.", "Spread the madness of the void to your enemies.", "_t")
 t("Draw upon the power of the void to protect yourself from harm.", "Draw upon the power of the void to protect yourself from harm.", "_t")
 t("Learn to withstand and direct the entropy you cause.", "Learn to withstand and direct the entropy you cause.", "_t")
+t("timethief", "timethief", "talent type")
 t("Steal time from others, weakening them to empower yourself.", "Steal time from others, weakening them to empower yourself.", "_t")
+t("oblivion", "oblivion", "talent type")
 t("Channel the essence of entropy to reduce your foes to dust.", "Channel the essence of entropy to reduce your foes to dust.", "_t")
 t("Tear holes in space and time to unleash devastating forces on your foes.", "Tear holes in space and time to unleash devastating forces on your foes.", "_t")
+t("chronophage", "chronophage", "talent type")
 t("Feast upon the ruined timelines of your enemies.", "Feast upon the ruined timelines of your enemies.", "_t")
+t("scourge drake", "scourge drake", "talent type")
 t("Take on the defining aspects of a Scourge Drake.", "Take on the defining aspects of a Scourge Drake.", "_t")
+t("doom", "doom", "talent type")
 t("Foretell the dire fate of your enemies.", "Foretell the dire fate of your enemies.", "_t")
+t("prophecy", "prophecy", "talent type")
 t("The various prophecies you can tell.", "The various prophecies you can tell.", "_t")
+t("calamity", "calamity", "talent type")
 t("Stack the odds in your favour.", "Stack the odds in your favour.", "_t")
+t("beyond sanity", "beyond sanity", "talent type")
 t("Let yourself walk in chaos!", "Let yourself walk in chaos!", "_t")
 t("Talents of the various entities of the world.", "Talents of the various entities of the world.", "_t")
 --]==]
@@ -3168,23 +3108,6 @@ t([[Whenever you use a disfigured face power you show a glimpse of what True Hor
 section "tome-cults/data/talents/demented/doom.lua"
 
 t("None", "Aucune", "_t")
--- nouveau texte
---[==[
-t([[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
-		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
-		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
-		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
-		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
-	
-		Current prophecy: %s]], [[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
-		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
-		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
-		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
-		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
-	
-		Current prophecy: %s]], "tformat")
---]==]
-
 -- texte non traduit
 --[==[
 t("Prophecy", "Prophecy", "talent name")
@@ -3229,6 +3152,19 @@ t([[Weave your chosen prophecy into your speech, dooming your foe twice over. Th
 		
 		Current prophecy: %s]], "tformat")
 t("Revelation", "Revelation", "talent name")
+t([[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
+		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
+		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
+		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
+		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
+	
+		Current prophecy: %s]], [[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
+		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
+		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
+		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
+		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
+	
+		Current prophecy: %s]], "tformat")
 --]==]
 
 
@@ -3268,7 +3204,8 @@ t("You empower your spells with dangerous levels of entropic energy, increasing 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/friend-of-the-worm.lua"
 
-
+t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
+t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Worm that Walks Link", "Worm that Walks Link", "talent name")
@@ -3279,9 +3216,7 @@ Each swing drips pustulant fluid before it, and each droplet writhes and wriggle
 t("Your worm that walks is out of sight; you cannot establish direct control.", "Your worm that walks is out of sight; you cannot establish direct control.", "logPlayer")
 t("Worm that Walks", "Worm that Walks", "talent name")
 t("wtw", "wtw", "_t")
-t("%s (servant of %s)", "%s (servant of %s)", "tformat")
 t("worm that walks (servant of %s)", "worm that walks (servant of %s)", "tformat")
-t("Not enough space to invoke!", "Not enough space to invoke!", "logPlayer")
 t("Robe of the Worm (Improved)", "Robe of the Worm (Improved)", "_t")
 t("Your friendly horror is not dead.", "Your friendly horror is not dead.", "logPlayer")
 t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
@@ -3438,7 +3373,7 @@ t("Grab a target and drag it to your side, dealing %d%% weapon damage and taunti
 ------------------------------------------------
 section "tome-cults/data/talents/demented/oblivion.lua"
 
-
+t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
 t("Nihil", "Nihil", "talent name")
@@ -3446,7 +3381,6 @@ t("Your entropy bleeds into the world around you. On having entropic backlash ap
 t("Unravel Existence", "Unravel Existence", "talent name")
 t("herald of oblivion", "herald of oblivion", "_t")
 t("Space warps and blurs around this titanic being, as if reality itself was struggling against it.", "Space warps and blurs around this titanic being, as if reality itself was struggling against it.", "_t")
-t("Summon", "Summon", "_t")
 t([[Your Nihil unravels the existence of the target, tearing them apart with entropy.
 		If 6 negative magical effects are applied before Nihil expires a Herald of Oblivion will be summoned to assist you for %d turns.
 		Currently existing debuffs, Spellshocked, and Seen by Arcane Eye will not count towards this total.  Refreshing the same debuff is counted.
@@ -3510,7 +3444,7 @@ t([[At last you unlock the true power of your mutated body!
 ------------------------------------------------
 section "tome-cults/data/talents/demented/rift.lua"
 
-
+t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
 t("Reality Fracture", "Reality Fracture", "talent name")
@@ -3537,7 +3471,6 @@ t("temporal vortex", "temporal vortex", "_t")
 t("dimensional gateway", "dimensional gateway", "_t")
 t("void skitterer", "void skitterer", "_t")
 t("A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "_t")
-t("Summon", "Summon", "_t")
 t([[Pouring more energy into your rifts, you have a %d%% chance for each one to instead appear as a more powerful type.
 #PURPLE#Nether Breach:#LAST# Fires a beam dealing %0.2f darkness damage at a random target in radius 10.
 #PURPLE#Temporal Vortex:#LAST# Inflicts %0.2f temporal damage each turn to enemies in radius 4 and reduces their global speed by 30%%.
@@ -3708,19 +3641,17 @@ t([[You extend your tentacle to grab a distant target, pulling it to you.
 ------------------------------------------------
 section "tome-cults/data/talents/demented/timethief.lua"
 
-
--- nouveau texte
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("%s resists!", "%s résiste!", "logSeen")
+t("Summon", "Invocation", "_t")
+-- texte non traduit
 --[==[
+t("Accelerate", "Accelerate", "talent name")
 t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
 You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
 Any actions other than movement will cancel the effect.]], [[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
 You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
 Any actions other than movement will cancel the effect.]], "tformat")
---]==]
-
--- texte non traduit
---[==[
-t("Accelerate", "Accelerate", "talent name")
 t("Switch", "Switch", "talent name")
 t("Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "tformat")
 t("Suspend", "Suspend", "talent name")
@@ -3728,12 +3659,9 @@ t([[You freeze yourself in time for %d turns, preventing you from taking any act
 				Negative effects and cooldowns will decrease in duration, while beneficial effects will remain at their current duration.]], [[You freeze yourself in time for %d turns, preventing you from taking any action but preventing any damage taken.
 				Negative effects and cooldowns will decrease in duration, while beneficial effects will remain at their current duration.]], "tformat")
 t("Split", "Split", "talent name")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("You can't clone summons!", "You can't clone summons!", "logPlayer")
-t("%s resists!", "%s resists!", "logSeen")
 t("#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "tformat")
 t("A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "_t")
-t("Summon", "Summon", "_t")
 t([[The target enemy will be partially removed from the normal flow of time for %d turns, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
 While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[The target enemy will be partially removed from the normal flow of time for %d turns, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
 While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], "tformat")
@@ -3743,7 +3671,7 @@ While active, you form the frayed threads of their timeline into a temporal clon
 ------------------------------------------------
 section "tome-cults/data/talents/demented/void.lua"
 
-
+t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
 t("Void Stars", "Void Stars", "talent name")
@@ -3765,7 +3693,6 @@ t("You must have at least 1 void star to summon a monolith.", "You must have at 
 t("Not enough space to summon your monolith!", "Not enough space to summon your monolith!", "logPlayer")
 t("void monolith", "void monolith", "_t")
 t("This bizarre oblong shape floats in the air, defying gravity. Its form seems to subtly shift, and you feel an intense desire to move towards it.", "This bizarre oblong shape floats in the air, defying gravity. Its form seems to subtly shift, and you feel an intense desire to move towards it.", "_t")
-t("Summon", "Summon", "_t")
 t([[Consuming a void star, you use it to summon a void monolith at the targeted location for %d turns. The monolith is very durable, and while immobile it will attempt to daze enemies within radius %d for 2 turns every half a turn using your spellpower.
 			The monolith will gain %d life rating and %d%% all resist based on your Magic stat.]], [[Consuming a void star, you use it to summon a void monolith at the targeted location for %d turns. The monolith is very durable, and while immobile it will attempt to daze enemies within radius %d for 2 turns every half a turn using your spellpower.
 			The monolith will gain %d life rating and %d%% all resist based on your Magic stat.]], "tformat")
@@ -3822,12 +3749,8 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 ------------------------------------------------
 section "tome-cults/data/talents/misc/misc.lua"
 
+t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
 t("something", "quelque chose", "_t")
--- nouveau texte
---[==[
-t("glass", "glass", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("glass golem", "glass golem", "_t")
@@ -3845,7 +3768,6 @@ t([[Allows to teleport to Kroshkkur.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
 	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], "_t")
 t("Call of Amakthel", "Call of Amakthel", "talent name")
-t("%s is pulled in!", "%s is pulled in!", "logSeen")
 t("Pull all foes within radius 10 2 grids towards you.", "Pull all foes within radius 10 2 grids towards you.", "_t")
 t("Crumble", "Crumble", "talent name")
 t([[Fire a blast of darkness at an enemy dealing %0.2f damage and destroying any walls in radius 3 around them.
@@ -3864,6 +3786,7 @@ t([[Evolve %d allies within radius 10 in random ways for 5 turns.
 		#ORCHID#Form:#LAST# Increases all stats by %d.
 		#ORCHID#Power:#LAST# Increases all damage by %d%%.]], "tformat")
 t("golem", "golem", "talent category")
+t("glass", "glass", "talent type")
 t("Glass Golem basic capacity.", "Glass Golem basic capacity.", "_t")
 t("Glass Splinters", "Glass Splinters", "talent name")
 t("%s resists the splinters!", "%s resists the splinters!", "logSeen")
@@ -3891,19 +3814,15 @@ t([[Smash the target with the force of the void dealing %0.2f darkness and %0.2f
 ------------------------------------------------
 section "tome-cults/data/talents/misc/races.lua"
 
+t("Frenzy", "Frénésie", "talent name")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 t("Never mind", "Peu importe", "_t")
--- nouveau texte
---[==[
-t("drem", "drem", "talent type")
-t("krog", "krog", "talent type")
-t("parasite", "parasite", "talent type")
---]==]
-
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("race", "race", "talent category")
+t("drem", "drem", "talent type")
 t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
-t("Frenzy", "Frenzy", "talent name")
 t([[Enter a killing frenzy for 3 turns.
 		During the frenzy the first time you use a class talent it has no cooldown (but does if used twice).
 		This does not work for inscriptions, talents that take no turn to use, passives, or talents with fixed cooldowns.
@@ -3924,7 +3843,6 @@ t([[Your faceless visage is puzzling and emotionless, allowing you to more easil
 		You gain %d mental save, %d%% confusion immunity.]], [[Your faceless visage is puzzling and emotionless, allowing you to more easily resist mind tricks.
 		You gain %d mental save, %d%% confusion immunity.]], "tformat")
 t("From Below It Devours", "From Below It Devours", "talent name")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("hungering mouth", "hungering mouth", "_t")
 t("\"From below, it devours.\"", "\"From below, it devours.\"", "_t")
 t([[Your affinity with things that dwell deep beneath the surface allows you to summon a hungering mouth.
@@ -3937,6 +3855,7 @@ t([[Your affinity with things that dwell deep beneath the surface allows you to 
 t("\
 For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "\
 For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "_t")
+t("krog", "krog", "talent type")
 t("Wrath of the Wilds", "Wrath of the Wilds", "talent name")
 t([[You unleash the wrath of the wilds for 5 turns.
 		When you deal damage to a creature while wrath is active you have %d%% chance (100%% for the first creature hit each turn) to stun them for 3 turns.
@@ -3984,10 +3903,10 @@ t([[You were created by ziguranth for one purpose only, to wage war on magic!
 			Strike your target dealing %d%% %s weapon damage and silencing them for %d turns.
 			The damage type will change with your drake aspect.
 			The chance to silence will increase with the highest of your physical or mind power.]], "tformat")
+t("parasite", "parasite", "talent type")
 t("The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "_t")
 t("Take a Bite", "Take a Bite", "talent name")
 t("#Source# tries to bite #target#!", "#Source# tries to bite #target#!", "logCombat")
-t("%s resists!", "%s resists!", "logSeen")
 t([[You try to bite off your foe with your #{italic}#head#{normal}# for %d%% blight weapon damage.
 		If the target falls under 20%% life you have %d%% chances to outright kill it (bosses are immune).
 		Whenever you succesfully bite a foe you regenerate %0.1f life per turn for 5 turns.
@@ -4013,10 +3932,9 @@ t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
 ------------------------------------------------
 section "tome-cults/data/talents/spell/necro.lua"
 
-
+t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "La cage thoracique massive au milieu bat avec des craquements forts et audibles, tandis que de nombreuses mains squelettiques sortent, s'entrelacent, fusionnent, formant de longs appendices squelettiques pour se soutenir, tandis que d'autres s'effritent et s'effondrent vers l'intérieur. Pendant tout cela, il semble qu'elles s'accrochent à vous.", "_t")
 -- texte non traduit
 --[==[
-t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "_t")
 t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "logSeen")
 --]==]
 
@@ -4025,23 +3943,64 @@ t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembl
 section "tome-cults/data/timed_effects.lua"
 
 t("other", "autre", "effect subtype")
+t("frenzy", "frénésie", "effect subtype")
+t("Frenzy", "Frénésie", "_t")
+t("bleed", "saignement", "effect subtype")
+t("blood", "sang", "effect subtype")
+t("slime", "vase", "effect subtype")
+t("corrupted", "corrompu", "effect subtype")
+t("massive", "énormité", "effect subtype")
+t("slow", "ralentissement", "effect subtype")
+t("Reduces global action speed by %d%%.", "Réduit la vitesse d'action globale de %d%%.", "tformat")
+t("miscellaneous", "divers", "effect subtype")
+t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître; le contrôle direct est rompu!", "_t")
+t("+Out of sight", "+Hors de vue", "_t")
+t("damage", "dégât", "effect subtype")
+t("horror", "horreur", "effect subtype")
+t("blight", "maladie", "effect subtype")
+t("pain", "douleur", "effect subtype")
+t("#Target# is back to normal.", "#Target# est revenu à la normale.", "_t")
+t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
+t("darkness", "obscurité", "effect subtype")
+t("fear", "peur", "effect subtype")
+t("stone", "gardien de pierre", "effect subtype")
+t("temporal", "temporel", "effect subtype")
+t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
+t("#Target# is wasting away!", "#Target# est en train de dépérir!", "_t")
+t("speed", "rapidité", "effect subtype")
+t("#Target# slows down.", "#Target# ralentis.", "_t")
+t("#Target# is removed from time!", "#Target# est retiré du temps!", "_t")
+t("#Target# is returned to normal time.", "#Target# revient dans le temps normal.", "_t")
+t("disease", "maladie", "effect subtype")
+t("teleport", "téléportation", "effect subtype")
+t("You are yanked out of this place!", "Vous êtes expulsés de cet endroit!", "logPlayer")
+t("Space restabilizes around you.", "L'espace se réorganise autour de vous.", "logPlayer")
+t("book", "livre", "effect subtype")
+t("entropy", "l'entropie", "effect subtype")
+t("blind", "aveuglement", "effect subtype")
+t("Blinded", "Aveuglé", "_t")
+t("The target is blinded, unable to see anything.", "La cible est aveuglée, incapable de voir quoi que ce soit.", "_t")
+t("#Target# loses sight!", "#Target# perd la vue!", "_t")
+t("+Blind", "+Aveuglé", "_t")
+t("#Target# recovers sight.", "#Target# retrouve la vue.", "_t")
+t("-Blind", "-Aveuglé", "_t")
+t("confusion", "confus", "effect subtype")
+t("madness", "folie", "effect subtype")
+t("wound", "blessure", "effect subtype")
+t("cut", "coupure", "effect subtype")
+t("#Target# stops bleeding.", "#Target# cesse de saigner.", "_t")
+t("armor", "armure", "effect subtype")
 -- texte non traduit
 --[==[
 t("S.M.A.C.K.", "S.M.A.C.K.", "_t")
 t("Fight your foe! If anything wrong happens, the Fortress will pull you out.", "Fight your foe! If anything wrong happens, the Fortress will pull you out.", "_t")
-t("frenzy", "frenzy", "effect subtype")
-t("Frenzy", "Frenzy", "_t")
 t("Class talents have no cooldown the first time they are used.", "Class talents have no cooldown the first time they are used.", "_t")
-t("bleed", "bleed", "effect subtype")
 t("Black Blood Bleeding", "Black Blood Bleeding", "_t")
 t("Black blood sips from every pore, dealing %0.2f darkness damage per turn.", "Black blood sips from every pore, dealing %0.2f darkness damage per turn.", "tformat")
 t("#Target# starts to bleed black blood.", "#Target# starts to bleed black blood.", "_t")
 t("#Target# stops bleeding black blood.", "#Target# stops bleeding black blood.", "_t")
-t("blood", "blood", "effect subtype")
 t("Spikeskin", "Spikeskin", "_t")
 t("Empowered by the sight of black blood, granting %d%% all resistances.", "Empowered by the sight of black blood, granting %d%% all resistances.", "tformat")
-t("slime", "slime", "effect subtype")
-t("corrupted", "corrupted", "effect subtype")
 t("Slimy Tendril", "Slimy Tendril", "_t")
 t("Caught in a slimy tendril, reducing all damage by %d%%.", "Caught in a slimy tendril, reducing all damage by %d%%.", "tformat")
 t("#Target# is caught by a slimy tendril.", "#Target# is caught by a slimy tendril.", "_t")
@@ -4055,22 +4014,16 @@ t("Caught disgusting worms, reducing all damage by %d%%.", "Caught disgusting wo
 t("#Target# is caught in gore.", "#Target# is caught in gore.", "_t")
 t("#Target# is free from the gore.", "#Target# is free from the gore.", "_t")
 t("growth", "growth", "effect subtype")
-t("massive", "massive", "effect subtype")
 t("Overgrowth", "Overgrowth", "_t")
 t("Can walk through walls and quake every turn, %d%% more damage and %d%% more resistances.", "Can walk through walls and quake every turn, %d%% more damage and %d%% more resistances.", "tformat")
 t("#Target# suddently grows.", "#Target# suddently grows.", "_t")
 t("#Target# shrinks back.", "#Target# shrinks back.", "_t")
 t("corruption", "corruption", "effect subtype")
-t("slow", "slow", "effect subtype")
 t("Decaying Guts", "Decaying Guts", "_t")
-t("Reduces global action speed by %d%%.", "Reduces global action speed by %d%%.", "tformat")
 t("#Target# is covered in decaying guts.", "#Target# is covered in decaying guts.", "_t")
 t("#Target# is free from the decaying guts.", "#Target# is free from the decaying guts.", "_t")
-t("miscellaneous", "miscellaneous", "effect subtype")
 t("Worm that Walks out of sight", "Worm that Walks out of sight", "_t")
 t("The Worm that Walks is out of sight of the alchemist; direct control will be lost!", "The Worm that Walks is out of sight of the alchemist; direct control will be lost!", "_t")
-t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "_t")
-t("+Out of sight", "+Out of sight", "_t")
 t("#LIGHT_RED#You lost sight of your worm that wakls for too long; direct control is broken!", "#LIGHT_RED#You lost sight of your worm that wakls for too long; direct control is broken!", "logPlayer")
 t("worm that walks out of sight", "worm that walks out of sight", "_t")
 t("Shared Insanity", "Shared Insanity", "_t")
@@ -4082,12 +4035,9 @@ t("Terrified of the horror duo attacking them reducing defense and spell save by
 t("#Target# is terrified of the horrors attacking him!", "#Target# is terrified of the horrors attacking him!", "_t")
 t("#Target# is no longer afraid of the horrors attacking him.", "#Target# is no longer afraid of the horrors attacking him.", "_t")
 t("chaos", "chaos", "effect subtype")
-t("damage", "damage", "effect subtype")
 t("insanity", "insanity", "effect subtype")
 t("Chaos Orbs", "Chaos Orbs", "_t")
 t("%d stacks, +%d%% to all damage dealt.", "%d stacks, +%d%% to all damage dealt.", "tformat")
-t("horror", "horror", "effect subtype")
-t("blight", "blight", "effect subtype")
 t("Putrescent Pustule", "Putrescent Pustule", "_t")
 t("%d pustules increasing resistance by %d%%.", "%d pustules increasing resistance by %d%%.", "tformat")
 t("eat", "eat", "effect subtype")
@@ -4098,7 +4048,6 @@ t("#Target# swallows a foe.", "#Target# swallows a foe.", "_t")
 t("#Target# has finished digesting.", "#Target# has finished digesting.", "_t")
 t("The victim in your stomach seems to still be alive: '#CRIMSON#%s'", "The victim in your stomach seems to still be alive: '#CRIMSON#%s'", "logPlayer")
 t("The victim in your stomach finally dies from the painful agony.", "The victim in your stomach finally dies from the painful agony.", "logPlayer")
-t("pain", "pain", "effect subtype")
 t("torture", "torture", "effect subtype")
 t("tentacles", "tentacles", "effect subtype")
 t("leech", "leech", "effect subtype")
@@ -4110,27 +4059,21 @@ t("morph", "morph", "effect subtype")
 t("Horrific Display", "Horrific Display", "_t")
 t("Appearance changed to an horror, everything is hostile to it.", "Appearance changed to an horror, everything is hostile to it.", "tformat")
 t("#PURPLE##Target# turns into an horror.", "#PURPLE##Target# turns into an horror.", "_t")
-t("#Target# is back to normal.", "#Target# is back to normal.", "_t")
-t("%s is pulled in!", "%s is pulled in!", "logSeen")
-t("darkness", "darkness", "effect subtype")
 t("gore", "gore", "effect subtype")
 t("Dissolved Face", "Dissolved Face", "_t")
 t("Blood and gore cover the target, dealing %0.2f darkness damage and %0.2f blight damage per disease.", "Blood and gore cover the target, dealing %0.2f darkness damage and %0.2f blight damage per disease.", "tformat")
 t("#Target# is covered in gore.", "#Target# is covered in gore.", "_t")
 t("#Target# is no longer covered in gore.", "#Target# is no longer covered in gore.", "_t")
-t("fear", "fear", "effect subtype")
 t("Glimpse of True Horror", "Glimpse of True Horror", "_t")
 t("Target briefly saw what True Horror means, deeply scaring it. %d%% chances to fail using a talent.", "Target briefly saw what True Horror means, deeply scaring it. %d%% chances to fail using a talent.", "tformat")
 t("#Target# saw true horror.", "#Target# saw true horror.", "_t")
 t("#Target# is less afraid.", "#Target# is less afraid.", "_t")
 t("Empowered by the fear of its foes, darkness and blight damage penetration increased by %d%%.", "Empowered by the fear of its foes, darkness and blight damage penetration increased by %d%%.", "tformat")
 t("#Target# is empowered by the fear of #hisher# foes.", "#Target# is empowered by the fear of #hisher# foes.", "_t")
-t("stone", "stone", "effect subtype")
 t("Writhing Hairs", "Writhing Hairs", "_t")
 t("Half turned to stone, reducing movement speed by %d%% and 35%% chances to shatter on damage, increasing damge taken by %d%%.", "Half turned to stone, reducing movement speed by %d%% and 35%% chances to shatter on damage, increasing damge taken by %d%%.", "tformat")
 t("#Target# is half-turned to stone.", "#Target# is half-turned to stone.", "_t")
 t("#Target# looks less like a statue.", "#Target# looks less like a statue.", "_t")
-t("temporal", "temporal", "effect subtype")
 t("Split", "Split", "_t")
 t("Faded from time, reducing damage taken by %d%% and all damage dealt by %d%%.", "Faded from time, reducing damage taken by %d%% and all damage dealt by %d%%.", "tformat")
 t("#Target# is removed from the timeline!", "#Target# is removed from the timeline!", "_t")
@@ -4158,11 +4101,9 @@ t("Cacophony", "Cacophony", "_t")
 t("The target is overwhelmed by voices from the void, giving them a 20%% higher chance to spawn hallucinations from Dark Whispers and causing them to take an additional %d%% temporal damage from Dark Whispers and Hideous Visions.", "The target is overwhelmed by voices from the void, giving them a 20%% higher chance to spawn hallucinations from Dark Whispers and causing them to take an additional %d%% temporal damage from Dark Whispers and Hideous Visions.", "tformat")
 t("#Target#'s mind is shattered by the void!", "#Target#'s mind is shattered by the void!", "_t")
 t("+Cacophony", "+Cacophony", "_t")
-t("#Target# seems more focused.", "#Target# seems more focused.", "_t")
 t("-Cacophony", "-Cacophony", "_t")
 t("Entropic Wasting", "Entropic Wasting", "_t")
 t("The target is wasting away from entropic forces, taking %0.2f damage per turn.", "The target is wasting away from entropic forces, taking %0.2f damage per turn.", "tformat")
-t("#Target# is wasting away!", "#Target# is wasting away!", "_t")
 t("+Entropic Wasting", "+Entropic Wasting", "_t")
 t("#Target#'s is no longer wasting away.", "#Target#'s is no longer wasting away.", "_t")
 t("-Entropic Wasting", "-Entropic Wasting", "_t")
@@ -4216,7 +4157,6 @@ This effect will fade in 2 turns if the source is not in line of sight.]], [[The
 This effect will fade in 2 turns if the source is not in line of sight.]], "tformat")
 t("#Target# is wasting away.", "#Target# is wasting away.", "_t")
 t("#Target# regains their strength.", "#Target# regains their strength.", "_t")
-t("speed", "speed", "effect subtype")
 t("Temporal Feast", "Temporal Feast", "_t")
 t("Increases spellcast speed by %d%%.", "Increases spellcast speed by %d%%.", "tformat")
 t("%d Temporal Feast", "%d Temporal Feast", "tformat")
@@ -4227,13 +4167,10 @@ t("Accelerate", "Accelerate", "_t")
 t("Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "tformat")
 t("#Target# is moving at extreme speed!", "#Target# is moving at extreme speed!", "_t")
 t("+Accelerate", "+Accelerate", "_t")
-t("#Target# slows down.", "#Target# slows down.", "_t")
 t("-Accelerate", "-Accelerate", "_t")
 t("Suspend", "Suspend", "_t")
 t("The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, beneficial effects decrease in duration.", "The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, beneficial effects decrease in duration.", "_t")
-t("#Target# is removed from time!", "#Target# is removed from time!", "_t")
 t("+Suspend", "+Suspend", "_t")
-t("#Target# is returned to normal time.", "#Target# is returned to normal time.", "_t")
 t("-Suspend", "-Suspend", "_t")
 t("The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, negative effects and cooldowns will decrease in duration.", "The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, negative effects and cooldowns will decrease in duration.", "_t")
 t("Jinxed", "Jinxed", "_t")
@@ -4260,7 +4197,6 @@ t("Decaying Ground", "Decaying Ground", "_t")
 t("All cooldowns increased by %d%%.", "All cooldowns increased by %d%%.", "tformat")
 t("#Target# is caught in decaying ground.", "#Target# is caught in decaying ground.", "_t")
 t("#Target# is free from the decaying ground.", "#Target# is free from the decaying ground.", "_t")
-t("disease", "disease", "effect subtype")
 t("Crippling Disease", "Crippling Disease", "_t")
 t("The target is infected by a disease, reducing its speed by %d%% and doing %0.2f blight damage per turn.", "The target is infected by a disease, reducing its speed by %d%% and doing %0.2f blight damage per turn.", "tformat")
 t("#Target# is afflicted by a crippling disease!", "#Target# is afflicted by a crippling disease!", "_t")
@@ -4269,14 +4205,10 @@ t("Defiled Blood", "Defiled Blood", "_t")
 t("Covered in defiled blood, healing the source for %d%% of all damage done.", "Covered in defiled blood, healing the source for %d%% of all damage done.", "tformat")
 t("#Target# is covered in black blood!", "#Target# is covered in black blood!", "_t")
 t("#Target# is clear from the black blood.", "#Target# is clear from the black blood.", "_t")
-t("teleport", "teleport", "effect subtype")
 t("Teleport: Kroshkkur", "Teleport: Kroshkkur", "_t")
 t("The target is waiting to be recalled back to Kroshkkur.", "The target is waiting to be recalled back to Kroshkkur.", "_t")
 t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "log")
 t("There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "log")
-t("You are yanked out of this place!", "You are yanked out of this place!", "logPlayer")
-t("Space restabilizes around you.", "Space restabilizes around you.", "logPlayer")
-t("book", "book", "effect subtype")
 t("Forbidden Tome", "Forbidden Tome", "_t")
 t("Slowly transfered to a Forbidden Tome.", "Slowly transfered to a Forbidden Tome.", "_t")
 t("#Target# is entering a Forbidden Tome!", "#Target# is entering a Forbidden Tome!", "_t")
@@ -4300,7 +4232,6 @@ Each turn a radius 2 explosion will occur in a random space dealing %0.2f darkne
 All debuffs removed and all talent cooldowns reset on application.
 
 Each turn a radius 2 explosion will occur in a random space dealing %0.2f darkness and temporal damage and destroying any diggable walls.]], "tformat")
-t("entropy", "entropy", "effect subtype")
 t("Total Collapse", "Total Collapse", "_t")
 t("Your body can not function properly here, it is slowly wasting away. Each turn you take %0.2f void damage and any new debuff on you lasts %d%% longer. Each turn those penalties increase until the effect is removed.", "Your body can not function properly here, it is slowly wasting away. Each turn you take %0.2f void damage and any new debuff on you lasts %d%% longer. Each turn those penalties increase until the effect is removed.", "tformat")
 t("threat", "threat", "effect subtype")
@@ -4311,24 +4242,12 @@ t("Covered in Gastric Fluids", "Covered in Gastric Fluids", "_t")
 t("Reduces all damage taken by %d%% and remove all detrimental effects on application.", "Reduces all damage taken by %d%% and remove all detrimental effects on application.", "tformat")
 t("debilitate", "debilitate", "effect subtype")
 t("Reduces all damage done by %d%% and increase all detrimental effects durations by 6 turns on application.", "Reduces all damage done by %d%% and increase all detrimental effects durations by 6 turns on application.", "tformat")
-t("blind", "blind", "effect subtype")
-t("Blinded", "Blinded", "_t")
-t("The target is blinded, unable to see anything.", "The target is blinded, unable to see anything.", "_t")
-t("#Target# loses sight!", "#Target# loses sight!", "_t")
-t("+Blind", "+Blind", "_t")
-t("#Target# recovers sight.", "#Target# recovers sight.", "_t")
-t("-Blind", "-Blind", "_t")
-t("confusion", "confusion", "effect subtype")
-t("madness", "madness", "effect subtype")
 t("Lost in a weird place", "Lost in a weird place", "_t")
 t("The target is starting to get mad (%d stacks), reducing mind damage resistance by %d%%, mental save by %d, confusion resistance by %d%%, generating %0.1f insanity per turn.", "The target is starting to get mad (%d stacks), reducing mind damage resistance by %d%%, mental save by %d, confusion resistance by %d%%, generating %0.1f insanity per turn.", "tformat")
-t("wound", "wound", "effect subtype")
-t("cut", "cut", "effect subtype")
 t("fail", "fail", "effect subtype")
 t("Glass Splinters", "Glass Splinters", "_t")
 t("Nasty glass splinters that make you bleed, doing %0.2f arcane damage per turn. Deals %0.2f arcane damage on move. Talents have %d%% chances to fail.", "Nasty glass splinters that make you bleed, doing %0.2f arcane damage per turn. Deals %0.2f arcane damage on move. Talents have %d%% chances to fail.", "tformat")
 t("#Target# starts to bleed due to glass splinters.", "#Target# starts to bleed due to glass splinters.", "_t")
-t("#Target# stops bleeding.", "#Target# stops bleeding.", "_t")
 t("will", "will", "effect subtype")
 t("domination", "domination", "effect subtype")
 t("Persistant Will", "Persistant Will", "_t")
@@ -4353,7 +4272,6 @@ t("Entropic Feedback", "Entropic Feedback", "_t")
 t("The target healing is distorted by entropy for %d%% of the healing done over 8 turns.", "The target healing is distorted by entropy for %d%% of the healing done over 8 turns.", "tformat")
 t("#Target# is enveloped with entropic forces!", "#Target# is enveloped with entropic forces!", "_t")
 t("#Target# is no longer enveloped by entropic forces.", "#Target# is no longer enveloped by entropic forces.", "_t")
-t("armor", "armor", "effect subtype")
 t("Horrific Fortress", "Horrific Fortress", "_t")
 t("All damages except physical reduced by %d as long as %s is alive.", "All damages except physical reduced by %d as long as %s is alive.", "tformat")
 t("#Target# is bolstered at the sight of the horror!", "#Target# is bolstered at the sight of the horror!", "_t")
@@ -4367,10 +4285,10 @@ section "tome-cults/data/zones/dremshor-tunnel/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("floor", "sol", "entity name")
+t("cave", "grotte", "entity subtype")
 t("wall", "mur", "entity type")
 -- texte non traduit
 --[==[
-t("cave", "cave", "entity subtype")
 t("portal back to the occult egress", "portal back to the occult egress", "entity name")
 t("stairs down", "stairs down", "entity name")
 t("back to the tunnels", "back to the tunnels", "entity name")
@@ -4383,11 +4301,10 @@ t("wheeing and buzzing thing", "wheeing and buzzing thing", "entity name")
 ------------------------------------------------
 section "tome-cults/data/zones/dremshor-tunnel/npcs.lua"
 
-
+t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "Un petit humanoïde sans visage aux traits vaguement nains.  Sa hache de guerre et son bouclier semblent abîmés, rouillés et généralement en mauvais état.", "_t")
 -- texte non traduit
 --[==[
 t("half formed drem", "half formed drem", "entity name")
-t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "_t")
 t("The Amalgamation", "The Amalgamation", "entity name")
 t("Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "_t")
 t("and absorbed into the foul thing", "and absorbed into the foul thing", "_t")
@@ -4398,11 +4315,10 @@ t("#CRIMSON#As %s takes an other blow you see part of it split into a drem!", "#
 ------------------------------------------------
 section "tome-cults/data/zones/dremshor-tunnel/objects.lua"
 
-
+t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
 t("drem research paper", "drem research paper", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 --]==]
 
 
@@ -4420,13 +4336,8 @@ t("Strange Machine", "Strange Machine", "_t")
 ------------------------------------------------
 section "tome-cults/data/zones/entropic-void/grids.lua"
 
-
--- texte non traduit
---[==[
-t("Temporal Rift", "Temporal Rift", "entity name")
-t("The rift leads... somewhere.", "The rift leads... somewhere.", "_t")
---]==]
-
+t("Temporal Rift", "Faille Temporelle", "entity name")
+t("The rift leads... somewhere.", "La faille mène... quelque part.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/zones/entropic-void/npcs.lua"
@@ -4481,24 +4392,24 @@ section "tome-cults/data/zones/ft-cultist/npcs.lua"
 
 t("unknown", "inconnu", "entity type")
 t("unknown", "inconnu", "entity subtype")
+t("training", "entraînement", "entity type")
+t("dummy", "mannequin", "entity subtype")
+t("Training Dummy", "Mannequin d'Entraînement", "entity name")
 t("humanoid", "humanoïde", "entity type")
+t("human", "humain", "entity subtype")
+t("halfling", "halfelin", "entity subtype")
 -- texte non traduit
 --[==[
 t("Unspeakable Thing", "Unspeakable Thing", "entity name")
 t("Through idiotic pride, one of the students has called this thing to your world. Thick, impenetrable darkness billows from its form, devouring all light around it. As the darkness touches you, you feel only one thing... Hunger. Bottomless, infinite hunger, as vast and unending as the void of space itself.", "Through idiotic pride, one of the students has called this thing to your world. Thick, impenetrable darkness billows from its form, devouring all light around it. As the darkness touches you, you feel only one thing... Hunger. Bottomless, infinite hunger, as vast and unending as the void of space itself.", "_t")
 t("The Teacher", "The Teacher", "entity name")
 t("A being from another world, or so it claims. Despite its wholly alien appearance, it is not particularly threatening nor does it appear to be malevolent. It will not say how it learned to manipulate the powers of entropy, merely stating that it has been to many different places and experienced many different things.", "A being from another world, or so it claims. Despite its wholly alien appearance, it is not particularly threatening nor does it appear to be malevolent. It will not say how it learned to manipulate the powers of entropy, merely stating that it has been to many different places and experienced many different things.", "_t")
-t("training", "training", "entity type")
-t("dummy", "dummy", "entity subtype")
-t("Training Dummy", "Training Dummy", "entity name")
 t("Training dummy. Use it to train.", "Training dummy. Use it to train.", "_t")
-t("human", "human", "entity subtype")
 t("human student", "human student", "entity name")
 t("A human student.", "A human student.", "_t")
 t("shalore", "shalore", "entity subtype")
 t("shalore student", "shalore student", "entity name")
 t("A shalore student.", "A shalore student.", "_t")
-t("halfling", "halfling", "entity subtype")
 t("halfling student", "halfling student", "entity name")
 t("A halfling student.", "A halfling student.", "_t")
 --]==]
@@ -4507,14 +4418,13 @@ t("A halfling student.", "A halfling student.", "_t")
 ------------------------------------------------
 section "tome-cults/data/zones/ft-cultist/objects.lua"
 
-
+t("name", "nom", "entity name")
 -- texte non traduit
 --[==[
 t("food", "food", "entity type")
 t("food", "food", "entity subtype")
 t("food", "food", "_t")
 t("Food for Grung!", "Food for Grung!", "_t")
-t("name", "name", "entity name")
 --]==]
 
 
@@ -4545,15 +4455,15 @@ section "tome-cults/data/zones/ft-haze-cave/grids.lua"
 
 t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
+t("cave", "grotte", "entity subtype")
+t("book", "livre", "entity type")
 -- texte non traduit
 --[==[
 t("return home", "return home", "entity name")
 t("Grung", "Grung", "_t")
 t("Grung story does not end yet, find more food and bring it here.", "Grung story does not end yet, find more food and bring it here.", "_t")
 t("Grung story ends there, he manages to gather enough food to survive some more days.", "Grung story ends there, he manages to gather enough food to survive some more days.", "_t")
-t("cave", "cave", "entity subtype")
 t("dead creature", "dead creature", "entity name")
-t("book", "book", "entity type")
 t("book of binding", "book of binding", "entity name")
 t("#YELLOW#You hear a terrible shriek.", "#YELLOW#You hear a terrible shriek.", "say")
 t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.", "#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.", "say")
@@ -4563,7 +4473,11 @@ t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and pape
 ------------------------------------------------
 section "tome-cults/data/zones/ft-haze-cave/npcs.lua"
 
-
+t("vermin", "vermine", "entity type")
+t("rodent", "rongeur", "entity subtype")
+t("giant brown rat", "rat brun géant", "entity name")
+t("giant rabbit", "lapin géant", "entity name")
+t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "Tue le lapin, tue le lapin, tue le lapppppiiiiiin.", "_t")
 -- texte non traduit
 --[==[
 t([[You can not comprehend what you're seeing.
@@ -4572,36 +4486,26 @@ t([[You can not comprehend what you're seeing.
 t("Grung made great being angry!", "Grung made great being angry!", "saySimple")
 t("Great Tentacly Being", "Great Tentacly Being", "entity name")
 t("shertul", "shertul", "entity subtype")
-t("vermin", "vermin", "entity type")
-t("rodent", "rodent", "entity subtype")
-t("giant brown rat", "giant brown rat", "entity name")
-t("giant rabbit", "giant rabbit", "entity name")
-t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-haze-cave/objects.lua"
 
-
--- nouveau texte
---[==[
-t("disgusting heart", "disgusting heart", "_t")
-t("lump of flesh", "lump of flesh", "_t")
-t("flesh piece", "flesh piece", "_t")
-t("heart", "heart", "_t")
-t("kidney", "kidney", "_t")
-t("intestine", "intestine", "_t")
-t("eye", "eye", "_t")
---]==]
-
+t("heart", "coeur", "_t")
+t("kidney", "rein", "_t")
+t("name", "nom", "entity name")
 -- texte non traduit
 --[==[
 t("food", "food", "entity type")
 t("food", "food", "entity subtype")
 t("food", "food", "_t")
 t("Food for Grung!", "Food for Grung!", "_t")
-t("name", "name", "entity name")
+t("disgusting heart", "disgusting heart", "_t")
+t("lump of flesh", "lump of flesh", "_t")
+t("flesh piece", "flesh piece", "_t")
+t("intestine", "intestine", "_t")
+t("eye", "eye", "_t")
 --]==]
 
 
@@ -4644,22 +4548,22 @@ t("#ANTIQUE_WHITE#Grung: %s", "#ANTIQUE_WHITE#Grung: %s", "log")
 section "tome-cults/data/zones/ft-home/grids.lua"
 
 t("floor", "sol", "entity type")
+t("horror", "horreur", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("No", "Non", "_t")
+t("void", "vide", "entity type")
+t("void", "vide", "entity subtype")
+t("void", "vide", "entity name")
 -- texte non traduit
 --[==[
 t("book of exit", "book of exit", "entity name")
-t("horror", "horror", "entity subtype")
 t("You can leave items here for safekeeping.", "You can leave items here for safekeeping.", "_t")
 t("torture tools", "torture tools", "entity name")
 t("Torture tools", "Torture tools", "_t")
 t("Use the torture tools on yourself?", "Use the torture tools on yourself?", "_t")
 t("Self-torture", "Self-torture", "_t")
-t("void", "void", "entity type")
-t("void", "void", "entity subtype")
-t("void", "void", "entity name")
 --]==]
 
 
@@ -4678,16 +4582,16 @@ section "tome-cults/data/zones/ft-horrors/grids.lua"
 
 t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
+t("Stay", "Restez", "_t")
 t("Exit", "Quitter", "_t")
+t("book", "livre", "entity type")
 -- texte non traduit
 --[==[
 t("exit to reality", "exit to reality", "entity name")
 t("Forbidden Tome", "Forbidden Tome", "_t")
 t("Do you really want to exit the tome? You will not be able to come back.", "Do you really want to exit the tome? You will not be able to come back.", "_t")
-t("Stay", "Stay", "_t")
 t("previous chapter", "previous chapter", "entity name")
 t("next chapter", "next chapter", "entity name")
-t("book", "book", "entity type")
 t("book of binding", "book of binding", "entity name")
 t("#YELLOW#You hear a terrible shriek!", "#YELLOW#You hear a terrible shriek!", "say")
 t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.  You feel the guardian of this place grow in power.", "#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.  You feel the guardian of this place grow in power.", "say")
@@ -4710,8 +4614,12 @@ t("and written off the story", "and written off the story", "_t")
 section "tome-cults/data/zones/ft-horrors/objects.lua"
 
 
--- nouveau texte
+-- texte non traduit
 --[==[
+t("..", "..", "entity name")
+t("A page of the tome.", "A page of the tome.", "_t")
+t("Forbidden Tome: \"Home, Horrific Home\"", "Forbidden Tome: \"Home, Horrific Home\"", "entity name")
+t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "_t")
 t([[Clarity found in safety.
 Clarity found in comfort.
 Thoughts and idle dreams drifting through space.
@@ -4747,14 +4655,6 @@ Thoughts treasured when they are alone.
 #RED#Reading this tome will slowly pull you in over 5 turns.]], "_t")
 --]==]
 
--- texte non traduit
---[==[
-t("..", "..", "entity name")
-t("A page of the tome.", "A page of the tome.", "_t")
-t("Forbidden Tome: \"Home, Horrific Home\"", "Forbidden Tome: \"Home, Horrific Home\"", "entity name")
-t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-horrors/zone.lua"
@@ -4769,12 +4669,11 @@ t("The Place Which Does Not Exist", "The Place Which Does Not Exist", "_t")
 ------------------------------------------------
 section "tome-cults/data/zones/ft-illusory-castle/generatorMap.lua"
 
-
+t("Illusory Castle", "Château Illusoire", "_t")
 -- texte non traduit
 --[==[
 t("shortcut to chapter \"%s\"", "shortcut to chapter \"%s\"", "tformat")
 t("[actual level %d, on branch %s]", "[actual level %d, on branch %s]", "tformat")
-t("Illusory Castle", "Illusory Castle", "_t")
 t("Something blocks the way to this chapter...", "Something blocks the way to this chapter...", "_t")
 --]==]
 
@@ -4784,21 +4683,21 @@ section "tome-cults/data/zones/ft-illusory-castle/grids.lua"
 
 t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
+t("book", "livre", "entity type")
 t("floor", "sol", "entity subtype")
+t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet tombe du coffre!", "logSeen")
 t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
 -- texte non traduit
 --[==[
 t("exit to reality", "exit to reality", "entity name")
 t("shortcut to chapter", "shortcut to chapter", "entity name")
-t("book", "book", "entity type")
 t("book of binding", "book of binding", "entity name")
 t("#YELLOW#As you close the book you feel the castle shaking.", "#YELLOW#As you close the book you feel the castle shaking.", "say")
 t("#CRIMSON#As you close the book the castle shakes again and this time feels more ... 'solid'.", "#CRIMSON#As you close the book the castle shakes again and this time feels more ... 'solid'.", "say")
 t("locked chest", "locked chest", "entity name")
 t("Locked Chest", "Locked Chest", "_t")
 t("Open the chest now that the guardian golem is no more?", "Open the chest now that the guardian golem is no more?", "_t")
-t("#GOLD#An object rolls from the chest!", "#GOLD#An object rolls from the chest!", "logSeen")
 t("chest (opened)", "chest (opened)", "_t")
 t("throne", "throne", "entity type")
 t("glass", "glass", "entity subtype")
@@ -4826,11 +4725,10 @@ t("#AQUAMARINE#As the Glass Golem's life dwindles too low it rushes toward its t
 ------------------------------------------------
 section "tome-cults/data/zones/ft-illusory-castle/objects.lua"
 
-
+t("tattered paper scrap", "morceau de papier déchiré", "entity name")
+t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un aventurier.", "_t")
 -- texte non traduit
 --[==[
-t("tattered paper scrap", "tattered paper scrap", "entity name")
-t("A paper scrap, left by an adventurer.", "A paper scrap, left by an adventurer.", "_t")
 t("Hardened Glass Sword", "Hardened Glass Sword", "entity name")
 t("shining sword", "shining sword", "_t")
 t(".", ".", "_t")
@@ -4849,7 +4747,7 @@ t("#GOLD#You sense %d unique item(s) on creatures.", "#GOLD#You sense %d unique 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-illusory-castle/zone.lua"
 
-
+t("Illusory Castle", "Château Illusoire", "_t")
 -- texte non traduit
 --[==[
 t("Nervous Energy", "Nervous Energy", "_t")
@@ -4907,7 +4805,6 @@ t("Wisdom Like Silence", "Wisdom Like Silence", "_t")
 t("Zero Gravitas", "Zero Gravitas", "_t")
 t("Serious Callers Only", "Serious Callers Only", "_t")
 t("Not Invented Here", "Not Invented Here", "_t")
-t("Illusory Castle", "Illusory Castle", "_t")
 t("Illusory Castle - %s", "Illusory Castle - %s", "tformat")
 t("illusory beam endpoint", "illusory beam endpoint", "_t")
 t("#%s#Welcome to chapter \"%s\"!", "#%s#Welcome to chapter \"%s\"!", "log")
@@ -4920,10 +4817,10 @@ section "tome-cults/data/zones/ft-yaech/grids.lua"
 
 t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
+t("book", "livre", "entity type")
 -- texte non traduit
 --[==[
 t("exit to reality", "exit to reality", "entity name")
-t("book", "book", "entity type")
 t("book of binding", "book of binding", "entity name")
 t("#YELLOW#You hear a terrible shriek.", "#YELLOW#You hear a terrible shriek.", "say")
 t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.", "#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.", "say")
@@ -4982,11 +4879,10 @@ t("This gritty adventurer saved you.", "This gritty adventurer saved you.", "_t"
 ------------------------------------------------
 section "tome-cults/data/zones/godfeaster/objects.lua"
 
-
+t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
 t("log entry", "log entry", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 t("strange piece of organic matter", "strange piece of organic matter", "entity name")
 t("Organic matter.", "Organic matter.", "_t")
 --]==]
@@ -5033,11 +4929,10 @@ t("One of the centers of the nervous system of the Maggot, if severed the Maggot
 ------------------------------------------------
 section "tome-cults/data/zones/maggot/objects.lua"
 
-
+t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
 t("log entry", "log entry", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 --]==]
 
 
@@ -5081,23 +4976,17 @@ t("How this giant, this force of Nature has been captured and subdued is proof t
 ------------------------------------------------
 section "tome-cults/data/zones/necromancers-ruins/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Telos's Staff (Bottom Half)", "Telos's Staff (Bottom Half)", "entity name")
-t("broken staff", "broken staff", "_t")
-t("The bottom part of Telos' broken staff.", "The bottom part of Telos' broken staff.", "_t")
---]==]
-
+t("Telos's Staff (Bottom Half)", "Bâton de Telos (Moitié Inférieure)", "entity name")
+t("broken staff", "Bâton cassé", "_t")
+t("The bottom part of Telos' broken staff.", "La partie inférieure du bâton brisé de Telos.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/zones/necromancers-ruins/zone.lua"
 
-
+t("The cultists are about to sacrifice the woman. Stop them!", "Les cultistes s'apprêtent à sacrifier une femme. Stoppez-les!", "_t")
 -- texte non traduit
 --[==[
 t("Necromancers' Ruins", "Necromancers' Ruins", "_t")
-t("The cultists are about to sacrifice the woman. Stop them!", "The cultists are about to sacrifice the woman. Stop them!", "_t")
 t("Chanting", "Chanting", "_t")
 t("The foul stench of rotten ichor and undeath hangs over this place. There is necromancy at work here. As you listen more closely, you can hear anguished bellows coming from further inside the lair. There's a certain rough and deep timbre to the voice, sounding like a mix of a dragon's roar and a giant's rumblings. That could be none other than the Krogs you came to rescue. You do not know what experiments the necromancers are performing on them, but you're certain that you need to stop them before they succeed.", "The foul stench of rotten ichor and undeath hangs over this place. There is necromancy at work here. As you listen more closely, you can hear anguished bellows coming from further inside the lair. There's a certain rough and deep timbre to the voice, sounding like a mix of a dragon's roar and a giant's rumblings. That could be none other than the Krogs you came to rescue. You do not know what experiments the necromancers are performing on them, but you're certain that you need to stop them before they succeed.", "_t")
 t("Captive Krogs", "Captive Krogs", "_t")
@@ -5121,11 +5010,10 @@ t("Strange Glyph", "Strange Glyph", "entity name")
 ------------------------------------------------
 section "tome-cults/data/zones/occult-egress/objects.lua"
 
-
+t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
 t("log entry", "log entry", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 --]==]
 
 
@@ -5159,11 +5047,10 @@ t("and fed to the corrupt writhing tentacles", "and fed to the corrupt writhing 
 ------------------------------------------------
 section "tome-cults/data/zones/scourged-pits/objects.lua"
 
-
+t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
 t("page of a logbook", "page of a logbook", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 --]==]
 
 
@@ -5195,31 +5082,26 @@ t("wall", "mur", "entity type")
 section "tome-cults/data/zones/test/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
+t("thalore wilder", "naturaliste thalore", "entity name")
+t("A tall elf, his skin covered in green moss.", "Un elfe de grande taille, la peau recouverte de mousse verte.", "_t")
 -- texte non traduit
 --[==[
 t("thalore", "thalore", "entity subtype")
 t("some merchant", "some merchant", "entity name")
-t("A stern-looking guard, he will not let you disturb the town.", "A stern-looking guard, he will not let you disturb the town.", "_t")
-t("thalore wilder", "thalore wilder", "entity name")
-t("A tall elf, his skin covered in green moss.", "A tall elf, his skin covered in green moss.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/data/zones/test/traps.lua"
 
-
--- texte non traduit
---[==[
-t("Armoury", "Armoury", "entity name")
-t("Tanner", "Tanner", "entity name")
-t("Swordsmith", "Swordsmith", "entity name")
-t("Nature's Punch", "Nature's Punch", "entity name")
-t("Silent Hunter", "Silent Hunter", "entity name")
-t("Herbalist", "Herbalist", "entity name")
-t("Night's Star", "Night's Star", "entity name")
---]==]
-
+t("Armoury", "Armurerie", "entity name")
+t("Tanner", "Tanneur", "entity name")
+t("Swordsmith", "Forge d'Épées", "entity name")
+t("Nature's Punch", "Poing de la Nature", "entity name")
+t("Silent Hunter", "Chasseur Silencieux", "entity name")
+t("Herbalist", "Herboriste", "entity name")
+t("Night's Star", "Étoile de la Nuit", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/zones/test/zone.lua"
@@ -5253,16 +5135,11 @@ t("portal to the Maggot", "portal to the Maggot", "entity name")
 ------------------------------------------------
 section "tome-cults/data/zones/town-kroshkkur/npcs.lua"
 
-
--- nouveau texte
---[==[
-t("Destroy @himher@!", "Destroy @himher@!", "_t")
---]==]
-
+t("horror", "horreur", "entity type")
+t("eldritch", "occulte", "entity subtype")
 -- texte non traduit
 --[==[
-t("horror", "horror", "entity type")
-t("eldritch", "eldritch", "entity subtype")
+t("Destroy @himher@!", "Destroy @himher@!", "_t")
 t("drem cultist", "drem cultist", "entity name")
 t("A drem cultist.", "A drem cultist.", "_t")
 t("drem seeker of knowledge", "drem seeker of knowledge", "entity name")
@@ -5297,18 +5174,13 @@ t("kroshkkur", "kroshkkur", "entity subtype")
 ------------------------------------------------
 section "tome-cults/data/zones/town-kroshkkur/traps.lua"
 
-
--- texte non traduit
---[==[
-t("Armoury", "Armoury", "entity name")
-t("Tanner", "Tanner", "entity name")
-t("Swordsmith", "Swordsmith", "entity name")
-t("Nature's Punch", "Nature's Punch", "entity name")
-t("Silent Hunter", "Silent Hunter", "entity name")
-t("Herbalist", "Herbalist", "entity name")
-t("Night's Star", "Night's Star", "entity name")
---]==]
-
+t("Armoury", "Armurerie", "entity name")
+t("Tanner", "Tanneur", "entity name")
+t("Swordsmith", "Forge d'Épées", "entity name")
+t("Nature's Punch", "Poing de la Nature", "entity name")
+t("Silent Hunter", "Chasseur Silencieux", "entity name")
+t("Herbalist", "Herboriste", "entity name")
+t("Night's Star", "Étoile de la Nuit", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/zones/town-kroshkkur/zone.lua"
@@ -5716,8 +5588,9 @@ t("The gizmocombobulator of the font seems to have failed, you have not been bil
 section "tome-cults/overload/mod/dialogs/ForbiddenTome.lua"
 
 t("Cancel", "Annuler", "_t")
--- nouveau texte
+-- texte non traduit
 --[==[
+t("", "", "_t")
 t("\
 #CRIMSON#Will crumble to dust when read!", "\
 #CRIMSON#Will crumble to dust when read!", "_t")
@@ -5725,11 +5598,6 @@ t("\
 #YELLOW#Can only be read %d times.", "\
 #YELLOW#Can only be read %d times.", "tformat")
 t("Read the book", "Read the book", "_t")
---]==]
-
--- texte non traduit
---[==[
-t("", "", "_t")
 t("#RED#You can't enter a Forbidden Tome yet!#LAST#", "#RED#You can't enter a Forbidden Tome yet!#LAST#", "log")
 t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#You can't enter a Forbidden Tome from here!#LAST#", "log")
 t("You feel this book is extremely dangerous for you. Proceed?", "You feel this book is extremely dangerous for you. Proceed?", "_t")

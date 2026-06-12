@@ -376,6 +376,7 @@ t("[continue]", "[suite]", "_t")
 t("[leave]", "[partir]", "_t")
 -- texte non traduit
 --[==[
+t("DESTRUCTICUS!", "DESTRUCTICUS!", "_t")
 t("Fire Imp", "Fire Imp", "_t")
 t("Steam Giant Airship", "Steam Giant Airship", "_t")
 t("#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "_t")
@@ -438,10 +439,9 @@ As the secondary charges go off, the ongoing pyrotechnic display acts as a celeb
 ------------------------------------------------
 section "tome-orcs/data/chats/john-surrender.lua"
 
-
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 -- texte non traduit
 --[==[
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
 t("HATE!", "HATE!", "_t")
 t("PAIN!", "PAIN!", "_t")
 t("REGRET!", "REGRET!", "_t")
@@ -474,7 +474,7 @@ The ring is now able to summon him for a few turns at will.*#WHITE#
 ------------------------------------------------
 section "tome-orcs/data/chats/john-worldmap.lua"
 
-
+t("Whatever.", "Peu importe.", "chat_john-worldmap")
 -- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*As you approach you recognize Outpost Leader John. But there is a kind of terrible darkness, you can feel his hatred crystallize the air.*#WHITE#
@@ -484,10 +484,11 @@ You #{italic}#dare#{normal}# carry her ring around like a trophy! I can feel it 
 You #{italic}#dare#{normal}# carry her ring around like a trophy! I can feel it on you. Give it back! DIE!]], "_t")
 t("Oh you liked that paladin lady? I loved killing her!", "Oh you liked that paladin lady? I loved killing her!", "_t")
 t("She left me no choice; I had to protect #{bold}#my#{normal}# people.", "She left me no choice; I had to protect #{bold}#my#{normal}# people.", "_t")
-t("Whatever.", "Whatever.", "_t")
 t("What?", "What?", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Whatever.", "Peu importe.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/kaltor-entry.lua"
@@ -547,7 +548,7 @@ section "tome-orcs/data/chats/kruk-tinker-shop.lua"
 
 t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_kruk-tinker-shop")
 t("No thanks.", "Non merci.", "_t")
 -- texte non traduit
 --[==[
@@ -559,6 +560,8 @@ t("Please train me in chemistry.", "Please train me in chemistry.", "_t")
 t("The tinker spends some time with you, teaching you the basics of therapeutics.", "The tinker spends some time with you, teaching you the basics of therapeutics.", "logPlayer")
 --]==]
 
+-- ancien texte traduit
+t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/metash.lua"
@@ -566,7 +569,8 @@ section "tome-orcs/data/chats/metash.lua"
 t("Yes?", "Oui ?", "_t")
 t("Not now.", "Pas maintenant.", "_t")
 t("[listen]", "[écouter]", "_t")
-t("Thanks.", "Merci.", "_t")
+t("Thanks.", "Merci.", "chat_metash")
+t("I will!", "Je le ferai !", "chat_metash")
 -- texte non traduit
 --[==[
 t([[#LIGHT_GREEN#*Before you stands an impressive undead minotaur.*#WHITE#
@@ -585,7 +589,6 @@ Unfortunately, they cannot afford to spare the warriors to retake the Mana Caves
 
 Unfortunately, they cannot afford to spare the warriors to retake the Mana Caves from that tyrant, and I need to stay here to help them defend their land.  The task of freeing our clan is in your hands, when you feel ready for it.]], "_t")
 t("Nektosh claims he is the invincible, omnipotent descendant of a unicorn, but I don't believe that bull for a second.  While the great magical power that suddenly awakened within him is as fearsome as it is insanity-inducing,  he has yet to use it to make a shield or teleport himself, and even with his all-powerful beam, his aim isn't always perfect...  I think he has a weakness he's trying to hide.  Fight with courage, fellow Whitehoof, and the Krimbul Clan may be free once more!", "Nektosh claims he is the invincible, omnipotent descendant of a unicorn, but I don't believe that bull for a second.  While the great magical power that suddenly awakened within him is as fearsome as it is insanity-inducing,  he has yet to use it to make a shield or teleport himself, and even with his all-powerful beam, his aim isn't always perfect...  I think he has a weakness he's trying to hide.  Fight with courage, fellow Whitehoof, and the Krimbul Clan may be free once more!", "_t")
-t("I will!", "I will!", "_t")
 t([[He...  he found a wand?  And he realized it was running dry, but only after taking over the tribe?  I pity him, but I cannot forgive him for being willing to sacrifice so many Whitehooves and Orcs to escape the consequences of his brief lapse into madness...  still, as a personal request I ask that you not tell others of his last thoughts.  The Nektosh we once knew saved our tribe from the corrupted magic deep under Eyal; he deserves to, at worst, be remembered as one who tragically succumbed to its influence.
 
 Ultimately, though, the choice is yours; it is more important that he is no longer a threat.  There are some who may still cling to the false hope he gave them, but we will retake the Mana Caves from them in time.  We owe you a great debt, and now that we have no more pressing concerns, we can aid Kruk Pride in their rebellion.  Good travels, @playername@.]], [[He...  he found a wand?  And he realized it was running dry, but only after taking over the tribe?  I pity him, but I cannot forgive him for being willing to sacrifice so many Whitehooves and Orcs to escape the consequences of his brief lapse into madness...  still, as a personal request I ask that you not tell others of his last thoughts.  The Nektosh we once knew saved our tribe from the corrupted magic deep under Eyal; he deserves to, at worst, be remembered as one who tragically succumbed to its influence.
@@ -594,6 +597,9 @@ Ultimately, though, the choice is yours; it is more important that he is no long
 t("To you too, Metash.", "To you too, Metash.", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Thanks.", "Merci.", "_t")
+t("I will!", "Je le ferai !", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/phonograph.lua"
@@ -626,6 +632,7 @@ t("I... am %s. Here and now I face you without fear or hesitation, for the utter
 section "tome-orcs/data/chats/weissi-machine.lua"
 
 t("[leave]", "[partir]", "_t")
+t("You cannot use your %s anymore; it is tainted by magic.", "Vous ne pouvez plus utiliser votre %s, la magie l'a contaminé.", "logPlayer")
 t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense:", "_t")
 t("[Allow training of talent category %s (at mastery %0.2f)]", "[Autoriser l'apprentissage de la catégorie de talents %s (à la maîtrise %0.2f)]", "tformat")
 t("[%s talent %s (+%d level(s))]", "[%s le talent %s (+%d niveau(s))]", "tformat")
@@ -657,7 +664,6 @@ t([[#LIGHT_GREEN#*The muscle tissue suddenly vanishes from your inventory.*#WHIT
 Thank you @playername@, this is indeed a suitable specimen. We shall honor our bargain with you. What do you wish to learn?]], [[#LIGHT_GREEN#*The muscle tissue suddenly vanishes from your inventory.*#WHITE#
 Thank you @playername@, this is indeed a suitable specimen. We shall honor our bargain with you. What do you wish to learn?]], "_t")
 t("What do you wish to learn?", "What do you wish to learn?", "_t")
-t("You cannot use your %s anymore; it is tainted by magic.", "You cannot use your %s anymore; it is tainted by magic.", "logPlayer")
 t([[Antimagic is a very special category. If you learn it you will never be able to use arcane powered items or talents again.
 Do you still wish to take this path?]], [[Antimagic is a very special category. If you learn it you will never be able to use arcane powered items or talents again.
 Do you still wish to take this path?]], "_t")
@@ -681,11 +687,15 @@ t("Very well. We can increase one of your core stats by 4, which one?", "Very we
 ------------------------------------------------
 section "tome-orcs/data/damage_types.lua"
 
-
--- nouveau texte
+t("%s is knocked back!", "%s est repoussé!", "logSeen")
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
+t("%s resists!", "%s résiste!", "logSeen")
+-- texte non traduit
 --[==[
 t("pulse detonator", "pulse detonator", "damage type")
 t("darkness pull", "darkness pull", "damage type")
+t("%s is pulled!", "%s is pulled!", "logSeen")
+t("%s resists the pull!", "%s resists the pull!", "logSeen")
 t("darkness pin", "darkness pin", "damage type")
 t("drain negative", "drain negative", "damage type")
 t("null_type", "null_type", "damage type")
@@ -716,15 +726,6 @@ t("occult", "occult", "damage type")
 t("terrene", "terrene", "damage type")
 --]==]
 
--- texte non traduit
---[==[
-t("%s is knocked back!", "%s is knocked back!", "logSeen")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
-t("%s is pulled!", "%s is pulled!", "logSeen")
-t("%s resists the pull!", "%s resists the pull!", "logSeen")
-t("%s resists!", "%s resists!", "logSeen")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/factions.lua"
@@ -745,40 +746,33 @@ t("Amakthel", "Amakthel", "faction name")
 ------------------------------------------------
 section "tome-orcs/data/general/encounters/fareast-npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Sun Paladins patrol", "Sun Paladins patrol", "entity name")
-t("patrol", "patrol", "entity type")
-t("sunwall", "sunwall", "entity subtype")
-t("Anorithil patrol", "Anorithil patrol", "entity name")
---]==]
-
+t("Sun Paladins patrol", "Patrouille de Paladins du Soleil", "entity name")
+t("patrol", "patrouille", "entity type")
+t("sunwall", "mur solaire", "entity subtype")
+t("Anorithil patrol", "Patrouille d'Anorithil", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/general/encounters/fareast.lua"
 
-
+t("harmless", "inoffensif", "entity type")
+t("special", "spécial", "entity subtype")
+t("Ruined Dungeon", "Donjon en ruines", "entity name")
+t("Entrance to a ruined dungeon", "Entrée du donjon en ruines", "_t")
 -- texte non traduit
 --[==[
 t("Pocket of Time", "Pocket of Time", "entity name")
-t("harmless", "harmless", "entity type")
-t("special", "special", "entity subtype")
 t("Strange temporal disruption", "Strange temporal disruption", "_t")
-t("Ruined Dungeon", "Ruined Dungeon", "entity name")
-t("Entrance to a ruined dungeon", "Entrance to a ruined dungeon", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/general/encounters/maj-eyal.lua"
 
-
+t("harmless", "inoffensif", "entity type")
+t("special", "spécial", "entity subtype")
 -- texte non traduit
 --[==[
 t("Tinker Cave", "Tinker Cave", "entity name")
-t("harmless", "harmless", "entity type")
-t("special", "special", "entity subtype")
 t("Entrance the tinker's master cave", "Entrance the tinker's master cave", "_t")
 --]==]
 
@@ -893,13 +887,13 @@ t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
+t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
 -- texte non traduit
 --[==[
 t("mech", "mech", "entity subtype")
 t("mech wall", "mech wall", "entity name")
 t("mech door", "mech door", "entity name")
 t("open mech door", "open mech door", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
 --]==]
 
 
@@ -913,13 +907,13 @@ t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
+t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
 -- texte non traduit
 --[==[
 t("mech", "mech", "entity subtype")
 t("mech wall", "mech wall", "entity name")
 t("mech door", "mech door", "entity name")
 t("open mech door", "open mech door", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "This door seems to have been sealed off. You think you can open it.", "_t")
 --]==]
 
 
@@ -939,6 +933,9 @@ section "tome-orcs/data/general/grids/slumbering_cave.lua"
 
 t("floor", "sol", "entity type")
 t("wall", "mur", "entity type")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
+t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 -- texte non traduit
 --[==[
 t("corrupted cave", "corrupted cave", "entity subtype")
@@ -946,9 +943,6 @@ t("corrupted cave floor", "corrupted cave floor", "entity name")
 t("corrupted cave walls", "corrupted cave walls", "entity name")
 t("corrupted cave door", "corrupted cave door", "entity name")
 t("corrupted cave door (open)", "corrupted cave door (open)", "entity name")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
 --]==]
 
 
@@ -956,20 +950,20 @@ t("ladder to worldmap", "ladder to worldmap", "entity name")
 section "tome-orcs/data/general/grids/snow_mountains.lua"
 
 t("floor", "sol", "entity type")
+t("rock", "rocher", "entity subtype")
+t("rocky ground", "sol rocailleux", "entity name")
+t("rockwall", "mur de roche", "entity type")
 t("wall", "mur", "entity type")
+t("snowy tree", "arbre enneigé", "entity name")
 t("grass", "herbe", "entity subtype")
+t("huge loose rock", "énorme rocher instable", "entity name")
+t("This rock is loose, you think you can move it away.", "Ce rocher est instable, vous pensez pouvoir le déplacer.", "_t")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("way to the previous level", "chemin vers le niveau précédent", "entity name")
 t("way to the next level", "chemin vers le niveau suivant", "entity name")
 -- texte non traduit
 --[==[
-t("rock", "rock", "entity subtype")
-t("rocky ground", "rocky ground", "entity name")
-t("rockwall", "rockwall", "entity type")
 t("snowy mountain", "snowy mountain", "entity name")
-t("snowy tree", "snowy tree", "entity name")
-t("huge loose rock", "huge loose rock", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
 --]==]
 
 
@@ -1009,10 +1003,9 @@ t("This yeti's claws are coated in sharply carved iron. It glares at you with a 
 ------------------------------------------------
 section "tome-orcs/data/general/npcs/hethugoroth.lua"
 
-
+t("elemental", "élémentaire", "entity type")
 -- texte non traduit
 --[==[
-t("elemental", "elemental", "entity type")
 t("vapour", "vapour", "entity subtype")
 t("hethugoroth", "hethugoroth", "entity name")
 t("A swirling mass of hot vapour animated into a semblance of life.", "A swirling mass of hot vapour animated into a semblance of life.", "_t")
@@ -1048,17 +1041,16 @@ Oh no don't worry. Only adventurers!#LAST##{normal}#]], "_t")
 ------------------------------------------------
 section "tome-orcs/data/general/npcs/ritch-extended.lua"
 
-
+t("insect", "insecte", "entity type")
+t([[Ritches are giant insects native to the arid wastes of the southern parts of the Far East.
+Vicious predators, they inject corrupting diseases into their foes, and their sharp claws cut through most armours.]], [[Les Ritches sont des insectes géants originaires des plaines arides du sud de l'Extrême-Orient.
+Prédateurs vicieux, ils injectent des maladies corruptrices à leurs ennemis, et leurs griffes acérées transpercent la plupart des armures.]], "_t")
+t("ritch larva", "larve de ritch", "entity name")
+t("ritch hunter", "chasseur ritch", "entity name")
+t("ritch hive mother", "mère de ruche ritch", "entity name")
 -- texte non traduit
 --[==[
-t("insect", "insect", "entity type")
 t("ritch", "ritch", "entity subtype")
-t([[Ritches are giant insects native to the arid wastes of the southern parts of the Far East.
-Vicious predators, they inject corrupting diseases into their foes, and their sharp claws cut through most armours.]], [[Ritches are giant insects native to the arid wastes of the southern parts of the Far East.
-Vicious predators, they inject corrupting diseases into their foes, and their sharp claws cut through most armours.]], "_t")
-t("ritch larva", "ritch larva", "entity name")
-t("ritch hunter", "ritch hunter", "entity name")
-t("ritch hive mother", "ritch hive mother", "entity name")
 t("ritch centipede", "ritch centipede", "entity name")
 t("This strange creature looks like a ritch hunter but with more legs. So many legs.", "This strange creature looks like a ritch hunter but with more legs. So many legs.", "_t")
 t("larvae bloated ritch mother", "larvae bloated ritch mother", "entity name")
@@ -1095,11 +1087,11 @@ section "tome-orcs/data/general/npcs/steam-giant-arcane.lua"
 
 t("giant", "géant", "entity type")
 t("undead", "mort-vivant", "entity type")
+t("ghost", "fantôme", "entity subtype")
 -- texte non traduit
 --[==[
 t("steam", "steam", "entity subtype")
 t("necropsych's ghost", "necropsych's ghost", "entity name")
-t("ghost", "ghost", "entity subtype")
 t("The spirit of a recently deceased necropsych. It moans painfully but seems impervious to most worldly things.", "The spirit of a recently deceased necropsych. It moans painfully but seems impervious to most worldly things.", "_t")
 t("steam giant necropsych", "steam giant necropsych", "entity name")
 t("Covered in arcane runes of death, this steam giant means business.", "Covered in arcane runes of death, this steam giant means business.", "_t")
@@ -1166,9 +1158,10 @@ t("This eight legged mechanical construct looks suspiciously like a spider. It s
 section "tome-orcs/data/general/npcs/sunwall-mage.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("elf", "elfe", "entity subtype")
+t("human", "humain", "entity subtype")
 -- texte non traduit
 --[==[
-t("elf", "elf", "entity subtype")
 t("sun-mage recruit", "sun-mage recruit", "entity name")
 t("A mage dressed in glowing robes.", "A mage dressed in glowing robes.", "_t")
 t("sun-mage", "sun-mage", "entity name")
@@ -1176,7 +1169,6 @@ t("A mage dressed in shining robes.", "A mage dressed in shining robes.", "_t")
 t("anorithil", "anorithil", "entity name")
 t("A mage dressed in ornate robes depicting both light and darkness.", "A mage dressed in ornate robes depicting both light and darkness.", "_t")
 t("astral conjurer", "astral conjurer", "entity name")
-t("human", "human", "entity subtype")
 t("elven astromancer", "elven astromancer", "entity name")
 t("A mage who has studied all there is to know about the stars and their working.", "A mage who has studied all there is to know about the stars and their working.", "_t")
 --]==]
@@ -1186,17 +1178,17 @@ t("A mage who has studied all there is to know about the stars and their working
 section "tome-orcs/data/general/npcs/sunwall-warrior.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("human", "humain", "entity subtype")
+t("elf", "elfe", "entity subtype")
+t("sun paladin", "paladin solaire", "entity name")
 -- texte non traduit
 --[==[
-t("human", "human", "entity subtype")
 t("sunwall guard", "sunwall guard", "entity name")
 t("This guard stands tall and proud, wearing the symbol of the Sunwall.", "This guard stands tall and proud, wearing the symbol of the Sunwall.", "_t")
 t("sunwall archer", "sunwall archer", "entity name")
-t("elf", "elf", "entity subtype")
 t("You see an archer with his bow drawn back, and a golden sun embossed on his armor.", "You see an archer with his bow drawn back, and a golden sun embossed on his armor.", "_t")
 t("sun paladin recruit", "sun paladin recruit", "entity name")
 t("The shield of this soldier glows with a bright light. You see a golden sun engraved in its center, and he carries a sword in his other hand.", "The shield of this soldier glows with a bright light. You see a golden sun engraved in its center, and he carries a sword in his other hand.", "_t")
-t("sun paladin", "sun paladin", "entity name")
 t("The shield and sword of this soldier glow with a bright light. You see a golden sun engraved in the shield's center.", "The shield and sword of this soldier glow with a bright light. You see a golden sun engraved in the shield's center.", "_t")
 t("sunwall vindicator", "sunwall vindicator", "entity name")
 t("This mean looking soldier of the Sunwall holds steady his big two handed weapon, looking dangerously at you.", "This mean looking soldier of the Sunwall holds steady his big two handed weapon, looking dangerously at you.", "_t")
@@ -1267,9 +1259,9 @@ t("The skeleton of a long-lived wyrm, armed with a deadly breath weapon and nast
 section "tome-orcs/data/general/npcs/whitehooves.lua"
 
 t("undead", "mort-vivant", "entity type")
+t("minotaur", "minotaure", "entity subtype")
 -- texte non traduit
 --[==[
-t("minotaur", "minotaur", "entity subtype")
 t("whitehoof ghoul", "whitehoof ghoul", "entity name")
 t("It is a cross between a human and a bull, but more ... dead.", "It is a cross between a human and a bull, but more ... dead.", "_t")
 t("whitehoof maulotaur", "whitehoof maulotaur", "entity name")
@@ -1302,14 +1294,14 @@ t("This huge humanoid form is coated with a thick white fur, with large, vicious
 ------------------------------------------------
 section "tome-orcs/data/general/objects/boss-artifacts.lua"
 
-
+t("golden telescope", "télescope en or", "_t")
+t("multi-hued", "multi-teintes", "entity subtype")
 -- texte non traduit
 --[==[
 t("Yeti-fur Cloak", "Yeti-fur Cloak", "entity name")
 t("matted fur cloak", "matted fur cloak", "_t")
 t("This fur cloak is thick and matted, yet remains incredibly soft to the touch.", "This fur cloak is thick and matted, yet remains incredibly soft to the touch.", "_t")
 t("Korbek's Spyglass", "Korbek's Spyglass", "entity name")
-t("golden telescope", "golden telescope", "_t")
 t("This antique spyglass is weathered from use, but seems well maintained.", "This antique spyglass is weathered from use, but seems well maintained.", "_t")
 t("Talosis' Counterpoint", "Talosis' Counterpoint", "entity name")
 t("ornate gun", "ornate gun", "_t")
@@ -1328,7 +1320,6 @@ t("reduces mental save", "reduces mental save", "_t")
 t("either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "tformat")
 t("#Source# psychically dominates #target# through %s %s!", "#Source# psychically dominates #target# through %s %s!", "logCombat")
 t("Ureslak's Focus", "Ureslak's Focus", "entity name")
-t("multi-hued", "multi-hued", "entity subtype")
 t("crystallized drake heart", "crystallized drake heart", "_t")
 t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "_t")
 t("Starcaller", "Starcaller", "entity name")
@@ -1362,7 +1353,7 @@ t("overgrown", "overgrown", "entity keyword")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/generic-world-artifacts.lua"
 
-
+t("%s quaffs the %s!", "%s bois le %s!", "logSeen")
 -- texte non traduit
 --[==[
 t("potion", "potion", "entity type")
@@ -1371,7 +1362,6 @@ t("Blood of Undeath", "Blood of Undeath", "entity name")
 t("crimson phial", "crimson phial", "_t")
 t("This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tentalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tentalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "_t")
 t("quaff the Blood of Undeath to prepare your body for undeath", "quaff the Blood of Undeath to prepare your body for undeath", "_t")
-t("%s quaffs the %s!", "%s quaffs the %s!", "logSeen")
 t("#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "logPlayer")
 t("#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life, -140 minimum life).", "#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life, -140 minimum life).", "logPlayer")
 --]==]
@@ -1380,10 +1370,9 @@ t("#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life,
 ------------------------------------------------
 section "tome-orcs/data/general/objects/inscriptions.lua"
 
-
+t("scroll", "parchemin", "entity type")
 -- texte non traduit
 --[==[
-t("scroll", "scroll", "entity type")
 t("implant", "implant", "entity subtype")
 t("implant", "implant", "_t")
 t("Steamtech implants can be grafted on the users skin..", "Steamtech implants can be grafted on the users skin..", "_t")
@@ -1396,29 +1385,28 @@ t("medical injector implant", "medical injector implant", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/leather-hats.lua"
 
-
+t("armor", "armure", "entity type")
+t("head", "tête", "entity subtype")
+t("rough", "brut", "entity short_name")
+t("hardened", "endurci", "entity short_name")
+t("drakeskin", "cuir de dragonnet", "entity short_name")
 -- texte non traduit
 --[==[
-t("armor", "armor", "entity type")
-t("head", "head", "entity subtype")
 t("A hat made of leather. Very stylish.", "A hat made of leather. Very stylish.", "_t")
 t("rough leather hat", "rough leather hat", "entity name")
-t("rough", "rough", "entity short_name")
 t("hardened leather hat", "hardened leather hat", "entity name")
-t("hardened", "hardened", "entity short_name")
 t("drakeskin leather hat", "drakeskin leather hat", "entity name")
-t("drakeskin", "drakeskin", "entity short_name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/quest-artifacts.lua"
 
-
+t("power", "pouvoir", "entity subtype")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("tinker", "tinker", "entity type")
-t("power", "power", "entity subtype")
 t("Automated Portable Extractor", "Automated Portable Extractor", "entity name")
 t([[The APE is a multifunction tinker toolbox. It can store temporarily any amount of items and when requested melt them down using metallurgic and chemical processes.
 The metals are melted into lumps of ore to server for the creation of tinkers.
@@ -1431,17 +1419,15 @@ t("Make the Automated Portable Extractor the default item's destroyer?", "Make t
 t("You do not have any items to melt in your APE or on the floor.", "You do not have any items to melt in your APE or on the floor.", "_t")
 t("Melt all %d item(s) on the floor?", "Melt all %d item(s) on the floor?", "tformat")
 t("Melt all %d item(s) in your APE?", "Melt all %d item(s) in your APE?", "tformat")
-t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/schematics.lua"
 
-
+t("scroll", "parchemin", "entity type")
 -- texte non traduit
 --[==[
-t("scroll", "scroll", "entity type")
 t("schematic", "schematic", "entity subtype")
 t("schematic", "schematic", "_t")
 t("Schematics are used by tinkers to learn how to build new constructs.", "Schematics are used by tinkers to learn how to build new constructs.", "_t")
@@ -1473,19 +1459,18 @@ t("The teleporter's delicate systems are perturbed by foes on this level. You mu
 ------------------------------------------------
 section "tome-orcs/data/general/objects/steamgun.lua"
 
-
+t("weapon", "arme", "entity type")
+t("iron", "fer", "entity short_name")
+t("steel", "acier", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
-t("weapon", "weapon", "entity type")
 t("steamgun", "steamgun", "entity subtype")
 t("steamgun", "steamgun", "entity combat talented")
 t("Steamguns use bursts of steam directly injected in the barrel to propel metal shots with great force.", "Steamguns use bursts of steam directly injected in the barrel to propel metal shots with great force.", "_t")
 t("iron steamgun", "iron steamgun", "entity name")
-t("iron", "iron", "entity short_name")
 t("steel steamgun", "steel steamgun", "entity name")
-t("steel", "steel", "entity short_name")
 t("dwarven-steel steamgun", "dwarven-steel steamgun", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("stralite steamgun", "stralite steamgun", "entity name")
 t("stralite", "stralite", "entity short_name")
 t("voratun steamgun", "voratun steamgun", "entity name")
@@ -1496,10 +1481,12 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/steamsaw.lua"
 
-
+t("weapon", "arme", "entity type")
+t("iron", "fer", "entity short_name")
+t("steel", "acier", "entity short_name")
+t("d.steel", "acier.n", "entity short_name")
 -- texte non traduit
 --[==[
-t("weapon", "weapon", "entity type")
 t("steamsaw", "steamsaw", "entity subtype")
 t("steamsaw", "steamsaw", "entity combat talented")
 t([[Steamsaws use steam pressure to rotate a serrated metal blade at high speed.
@@ -1510,11 +1497,8 @@ Those struck suffer severe lacerations and bleed for 10% of the damage done per 
 They can be wielded in the main or off hand.
 Vrmmmmm!]], "_t")
 t("iron steamsaw", "iron steamsaw", "entity name")
-t("iron", "iron", "entity short_name")
 t("steel steamsaw", "steel steamsaw", "entity name")
-t("steel", "steel", "entity short_name")
 t("dwarven-steel steamsaw", "dwarven-steel steamsaw", "entity name")
-t("d.steel", "d.steel", "entity short_name")
 t("stralite steamsaw", "stralite steamsaw", "entity name")
 t("stralite", "stralite", "entity short_name")
 t("voratun steamsaw", "voratun steamsaw", "entity name")
@@ -1540,7 +1524,8 @@ t("Medical salve.", "Medical salve.", "_t")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/chemistry.lua"
 
-
+t("armor", "armure", "entity type")
+t("cloak", "cape", "entity subtype")
 -- texte non traduit
 --[==[
 t("crude", "crude", "_t")
@@ -1569,8 +1554,6 @@ t("%s fireproof coating", "%s fireproof coating", "tformat")
 t("HANDS", "HANDS", "entity on slot")
 t("%s flash powder", "%s flash powder", "tformat")
 t("%s itching powder", "%s itching powder", "tformat")
-t("armor", "armor", "entity type")
-t("cloak", "cloak", "entity subtype")
 t("Rogue's Gallery", "Rogue's Gallery", "entity name")
 t("action packed cloak", "action packed cloak", "_t")
 t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "_t")
@@ -1589,7 +1572,9 @@ t("%s black light emitter", "%s black light emitter", "tformat")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/electricity.lua"
 
-
+t("iron", "fer", "_t")
+t("steel", "acier", "_t")
+t("weapon", "arme", "entity type")
 -- texte non traduit
 --[==[
 t("crude", "crude", "_t")
@@ -1597,8 +1582,6 @@ t("good", "good", "_t")
 t("well-made", "well-made", "_t")
 t("mastercraft", "mastercraft", "_t")
 t("perfect", "perfect", "_t")
-t("iron", "iron", "_t")
-t("steel", "steel", "_t")
 t("dwarven steel", "dwarven steel", "_t")
 t("stralite", "stralite", "_t")
 t("voratun", "voratun", "_t")
@@ -1619,7 +1602,6 @@ t("#Source# unleashes GALVANIC RETRIBUTION!", "#Source# unleashes GALVANIC RETRI
 t("%s shocking edge", "%s shocking edge", "tformat")
 t("Deals lightning damage and drains resources.", "Deals lightning damage and drains resources.", "_t")
 t("shock your foe dealing %d damage and draining some of their resources", "shock your foe dealing %d damage and draining some of their resources", "tformat")
-t("weapon", "weapon", "entity type")
 t("steamsaw", "steamsaw", "entity subtype")
 t("Stormcutter", "Stormcutter", "entity name")
 t("steamsaw", "steamsaw", "entity combat talented")
@@ -1638,7 +1620,7 @@ t("%s white light emitter", "%s white light emitter", "tformat")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/explosive.lua"
 
-
+t("weapon", "arme", "entity type")
 -- texte non traduit
 --[==[
 t("crude", "crude", "_t")
@@ -1657,7 +1639,6 @@ t("Deals fire damage and ignites the ground.", "Deals fire damage and ignites th
 t("burn your foe dealing %d damage and igniting the ground for 4 turns", "burn your foe dealing %d damage and igniting the ground for 4 turns", "tformat")
 t("BELT", "BELT", "entity on slot")
 t("%s thunder grenade", "%s thunder grenade", "tformat")
-t("weapon", "weapon", "entity type")
 t("steamgun", "steamgun", "entity subtype")
 t("Payload", "Payload", "entity name")
 t("steamgun", "steamgun", "entity combat talented")
@@ -1684,11 +1665,12 @@ t("%s toxic shell", "%s toxic shell", "tformat")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/mechanical.lua"
 
-
+t("iron", "fer", "_t")
+t("steel", "acier", "_t")
+t("armor", "armure", "entity type")
+t("massive", "énormité", "entity subtype")
 -- texte non traduit
 --[==[
-t("iron", "iron", "_t")
-t("steel", "steel", "_t")
 t("dwarven steel", "dwarven steel", "_t")
 t("stralite", "stralite", "_t")
 t("voratun", "voratun", "_t")
@@ -1699,8 +1681,6 @@ t("%s hand cannon", "%s hand cannon", "tformat")
 t("%s fatal attractor", "%s fatal attractor", "tformat")
 t("%s grip", "%s grip", "tformat")
 t("%s grapple", "%s grapple", "tformat")
-t("armor", "armor", "entity type")
-t("massive", "massive", "entity subtype")
 t("Steam Powered Armour", "Steam Powered Armour", "entity name")
 t("Using small steam engines and the miracles of the latest automation discoveries you are able to create Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "Using small steam engines and the miracles of the latest automation discoveries you are able to create Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "_t")
 t("The more steam the better!", "The more steam the better!", "_t")
@@ -1714,11 +1694,12 @@ t("%s kinetic stabiliser", "%s kinetic stabiliser", "tformat")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/smith.lua"
 
-
+t("iron", "fer", "_t")
+t("steel", "acier", "_t")
+t("armor", "armure", "entity type")
+t("hands", "mains", "entity subtype")
 -- texte non traduit
 --[==[
-t("iron", "iron", "_t")
-t("steel", "steel", "_t")
 t("dwarven steel", "dwarven steel", "_t")
 t("stralite", "stralite", "_t")
 t("voratun", "voratun", "_t")
@@ -1739,8 +1720,6 @@ t("%s crystal edge", "%s crystal edge", "tformat")
 t("Deals high light damage and increases critical multiplier.", "Deals high light damage and increases critical multiplier.", "_t")
 t("flashes light on your target dealing %d damage", "flashes light on your target dealing %d damage", "tformat")
 t("%s crystal plating", "%s crystal plating", "tformat")
-t("armor", "armor", "entity type")
-t("hands", "hands", "entity subtype")
 t("Hands of Creation", "Hands of Creation", "entity name")
 t("plated gauntlets", "plated gauntlets", "_t")
 t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "_t")
@@ -1757,12 +1736,13 @@ t("%s grounding strap", "%s grounding strap", "tformat")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/therapeutics.lua"
 
-
+t("potent", "puissant", "_t")
+t("powerful", "puissance", "_t")
+t("armor", "armure", "entity type")
+t("light", "lumière", "entity subtype")
 -- texte non traduit
 --[==[
 t("simple", "simple", "_t")
-t("potent", "potent", "_t")
-t("powerful", "powerful", "_t")
 t("great", "great", "_t")
 t("amazing", "amazing", "_t")
 t("%s healing salve", "%s healing salve", "tformat")
@@ -1777,8 +1757,6 @@ t("%s water salve", "%s water salve", "tformat")
 t("remove %d mental effects and grants a water aura (%s blight, mind and acid affinity).", "remove %d mental effects and grants a water aura (%s blight, mind and acid affinity).", "tformat")
 t("%s unstoppable force salve", "%s unstoppable force salve", "tformat")
 t("increases all saves by %d and healing factor by half", "increases all saves by %d and healing factor by half", "_t")
-t("armor", "armor", "entity type")
-t("light", "light", "entity subtype")
 t("Life Support Suit", "Life Support Suit", "entity name")
 t("advanced medical armour", "advanced medical armour", "_t")
 t("\"We've done it, men. We cured death.\"", "\"We've done it, men. We cured death.\"", "_t")
@@ -1804,6 +1782,14 @@ t("Heals you for %d life when you use a salve.", "Heals you for %d life when you
 section "tome-orcs/data/general/objects/world-artifacts.lua"
 
 t("something", "quelque chose", "_t")
+t("50% chance to reload 1 ammo", "50% chance de recharger 1 munition", "_t")
+t("scroll", "parchemin", "_t")
+t("This parchment contains some lore.", "Ce parchemin contient des histoires.", "_t")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
+t("treant", "tréant", "_t")
+t("A very strong near-sentient tree, which has become hostile to other living things.", "Un arbre quasi intelligent, qui est devenu hostile aux autres êtres vivants.", "_t")
+t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
 t("Medical Urgency Vest", "Medical Urgency Vest", "entity name")
@@ -1917,7 +1903,6 @@ t("Annihilator", "Annihilator", "entity name")
 t("gigantic many barreled gun", "gigantic many barreled gun", "_t")
 t("This gun features a wheel with several barrels attached and seems to be powered by an engine. It looks... impressive.", "This gun features a wheel with several barrels attached and seems to be powered by an engine. It looks... impressive.", "_t")
 t("Fire rate increases while firing, up to 5 shots per turn. Resets after 5 turns without firing.", "Fire rate increases while firing, up to 5 shots per turn. Resets after 5 turns without firing.", "_t")
-t("50% chance to reload 1 ammo", "50% chance to reload 1 ammo", "_t")
 t("The Shotgonne", "The Shotgonne", "entity name")
 t("huge gun", "huge gun", "_t")
 t([[This huge steamgun can be loaded with more than one bullet so that multiple shots can be fired in a nasty cone of death.
@@ -2010,8 +1995,6 @@ That is, everything there spins the opposite direction.
 I guess it probably grinds things pretty well.]], [[The experiment of a mad chronomancer, this strange device is a portal into a backwards universe!
 That is, everything there spins the opposite direction.
 I guess it probably grinds things pretty well.]], "_t")
-t("scroll", "scroll", "_t")
-t("This parchment contains some lore.", "This parchment contains some lore.", "_t")
 t("time-warped paper scrap", "time-warped paper scrap", "_t")
 t("It came a long way away!", "It came a long way away!", "_t")
 t("Screw that!", "Screw that!", "_t")
@@ -2048,11 +2031,6 @@ t("The Lumberator", "The Lumberator", "entity name")
 t("vined coated steamsaw", "vined coated steamsaw", "_t")
 t("\"Spread the wonders of nature even quicker than ever with this seed injecting steamsaw! Your former enemies will be freshly grown trees before you even know it!\"", "\"Spread the wonders of nature even quicker than ever with this seed injecting steamsaw! Your former enemies will be freshly grown trees before you even know it!\"", "_t")
 t("summon a treant (5 turn cooldown)", "summon a treant (5 turn cooldown)", "_t")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
-t("Not enough space to invoke!", "Not enough space to invoke!", "logPlayer")
-t("treant", "treant", "_t")
-t("A very strong near-sentient tree, which has become hostile to other living things.", "A very strong near-sentient tree, which has become hostile to other living things.", "_t")
-t("Summon", "Summon", "_t")
 t("Grinder", "Grinder", "entity name")
 t("bloody steamsaw", "bloody steamsaw", "_t")
 t("Originally a kitchen implement used by the giants to saw through tough, frozen carcasses. Something is especially sinister about this example though.", "Originally a kitchen implement used by the giants to saw through tough, frozen carcasses. Something is especially sinister about this example though.", "_t")
@@ -2131,31 +2109,30 @@ t("#PURPLE#You feel the power of the Gloryhammer course through you! It has beco
 ------------------------------------------------
 section "tome-orcs/data/general/stores/orcs.lua"
 
-
+t("library", "librairie", "entity name")
+t("tool store", "magasin d'outils", "entity name")
 -- texte non traduit
 --[==[
-t("library", "library", "entity name")
 t("forge", "forge", "entity name")
 t("smith", "smith", "entity name")
 t("tinker", "tinker", "entity name")
 t("expensive goods", "expensive goods", "entity name")
 t("aracane psi collector", "aracane psi collector", "entity name")
 t("rune and infusion collector", "rune and infusion collector", "entity name")
-t("tool store", "tool store", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/general/traps/ritch.lua"
 
+t("natural", "naturaliste", "entity type")
+t("sand", "sable", "entity subtype")
 t("trap", "piège", "_t")
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
-t("natural", "natural", "entity type")
-t("sand", "sand", "entity subtype")
 t("sand pit", "sand pit", "entity name")
 t("@Target@ slides into a sand pit!", "@Target@ slides into a sand pit!", "_t")
-t("%s resists!", "%s resists!", "logSeen")
 --]==]
 
 
@@ -2163,35 +2140,31 @@ t("%s resists!", "%s resists!", "logSeen")
 section "tome-orcs/data/ingredients.lua"
 
 t("misc", "divers", "entity type")
--- nouveau texte
+-- texte non traduit
 --[==[
 t("metal", "metal", "entity type")
 t("lump of iron", "lump of iron", "entity name")
+t("A lump of iron.", "A lump of iron.", "_t")
 t("lump of steel", "lump of steel", "entity name")
+t("A lump of steel.", "A lump of steel.", "_t")
 t("lump of dwarven steel", "lump of dwarven steel", "entity name")
+t("A lump of dwarven steel.", "A lump of dwarven steel.", "_t")
 t("lump of stralite", "lump of stralite", "entity name")
+t("A lump of stralite.", "A lump of stralite.", "_t")
 t("lump of voratun", "lump of voratun", "entity name")
+t("A lump of voratun.", "A lump of voratun.", "_t")
 t("herbs", "herbs", "entity type")
 t("stack of herbs (viperweed)", "stack of herbs (viperweed)", "entity name")
+t("A stack of herbs.", "A stack of herbs.", "_t")
 t("stack of herbs (sessali)", "stack of herbs (sessali)", "entity name")
 t("stack of herbs (bilberry)", "stack of herbs (bilberry)", "entity name")
 t("stack of herbs (burdock)", "stack of herbs (burdock)", "entity name")
 t("stack of herbs (goldleaf)", "stack of herbs (goldleaf)", "entity name")
 t("brain in a jar", "brain in a jar", "entity name")
-t("mechanical core", "mechanical core", "entity name")
-t("primal core", "primal core", "entity name")
---]==]
-
--- texte non traduit
---[==[
-t("A lump of iron.", "A lump of iron.", "_t")
-t("A lump of steel.", "A lump of steel.", "_t")
-t("A lump of dwarven steel.", "A lump of dwarven steel.", "_t")
-t("A lump of stralite.", "A lump of stralite.", "_t")
-t("A lump of voratun.", "A lump of voratun.", "_t")
-t("A stack of herbs.", "A stack of herbs.", "_t")
 t("A still living brain of a powerful psionic creature.", "A still living brain of a powerful psionic creature.", "_t")
+t("mechanical core", "mechanical core", "entity name")
 t("The core unit of the Automated Defense System.", "The core unit of the Automated Defense System.", "_t")
+t("primal core", "primal core", "entity name")
 t("The core wood of a great tree.", "The core wood of a great tree.", "_t")
 --]==]
 
@@ -2855,48 +2828,6 @@ i'm sorry karbatha]], "_t")
 section "tome-orcs/data/lore/misc.lua"
 
 
--- nouveau texte
---[==[
-t([[We get it: it's our fault the farportal mailing system isn't perfect.  Our people are still working on undoing that jury-rigged configuration that keeps your portal from transporting anything that isn't living - and if we get it wrong, that means people start getting teleported into walls again.  It's already a damn miracle you can get through the portal without coming out naked on the other side, let alone still carrying your backpacks and all their contents.
-
-In the meantime: we're still losing a few letters going through the mailing system, and the lost ones could end up teleported to pretty much anywhere.  They could end up ten feet from the portal, or they could end up right in some A.K. busybody's hands, or they could just warp themselves right up Urh'Rok's nose for all we know.  Likewise, anything written on those notes could end up exactly where you don't want them, wherever that might be.
-
-My point is, when you're writing those letters, write them like King Tolak's looking over your left shoulder and your grandmother's looking over your right - or at least show SOME semblance of subtlety.  Don't complain about the prices of "illegal potions," complain about "extra-strength medicine."  Don't ask about safety accommodations for "slaves," ask about "private servants."  And please, for the love of Linaniil, [i]stop calling the farportal a farportal![/i]  The A.K. doesn't even know we [i]have[/i] this thing yet, and we don't want to give them any ideas on where or how to start looking.  Call it a courier, or a pack golem, or a trained uruivellas for all I care.
-
--Korbek
-
-PS: Yes, I'm breaking my own rules with this letter - you idiots clearly don't understand subtlety, so I can't assume you'd understand a subtly-written letter.  Yes, I'm aware there's a chance this letter could end up in enemy hands.  No, the irony of that situation would not be lost on me.  Yes, I will hurt whoever thinks they're clever by bringing up any of the preceding.]], [[We get it: it's our fault the farportal mailing system isn't perfect.  Our people are still working on undoing that jury-rigged configuration that keeps your portal from transporting anything that isn't living - and if we get it wrong, that means people start getting teleported into walls again.  It's already a damn miracle you can get through the portal without coming out naked on the other side, let alone still carrying your backpacks and all their contents.
-
-In the meantime: we're still losing a few letters going through the mailing system, and the lost ones could end up teleported to pretty much anywhere.  They could end up ten feet from the portal, or they could end up right in some A.K. busybody's hands, or they could just warp themselves right up Urh'Rok's nose for all we know.  Likewise, anything written on those notes could end up exactly where you don't want them, wherever that might be.
-
-My point is, when you're writing those letters, write them like King Tolak's looking over your left shoulder and your grandmother's looking over your right - or at least show SOME semblance of subtlety.  Don't complain about the prices of "illegal potions," complain about "extra-strength medicine."  Don't ask about safety accommodations for "slaves," ask about "private servants."  And please, for the love of Linaniil, [i]stop calling the farportal a farportal![/i]  The A.K. doesn't even know we [i]have[/i] this thing yet, and we don't want to give them any ideas on where or how to start looking.  Call it a courier, or a pack golem, or a trained uruivellas for all I care.
-
--Korbek
-
-PS: Yes, I'm breaking my own rules with this letter - you idiots clearly don't understand subtlety, so I can't assume you'd understand a subtly-written letter.  Yes, I'm aware there's a chance this letter could end up in enemy hands.  No, the irony of that situation would not be lost on me.  Yes, I will hurt whoever thinks they're clever by bringing up any of the preceding.]], "_t")
-t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
-
-.maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta ;siht revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
-
-.ti htiw hcum os hsilpmocca ot meht rof ysae os ti edam taht ytilauq evitiutni siht si ti spahrep ;gnihtaerb sa stnaiG maetS eht ot yllarutan sa semoc taht tnemtsujda dna noitnetta seriuqer dohtem siht tub ,retaw liob ot ecanruf a gnisu yb deveihca eb yllaciteroeht nac tceffe ralimis A  .snoitpartnoc xelpmoc erom dna erom ereht morf dna ,renaelc-enots dezirusserp fo tros a derevocsid yeht ,ereht morf ;eltsihw elpmis a saw "hcet-maets" fo tib tsrif eht taht mialc yeht ,sretsasid rehto dna serif lanoisacco ot tsol neeb evah stxet tsedlo 'stnaig eht hguohtlA  .snoitpartnoc cillatem fo yarra ediw a etarepo dna rewop ot maets siht esu ot woh tuo derugif evah yeht ,ylsuoinegni rehtaR
-
- (.scrO neeb evah yltnecer tsuj litnu srobhgien ylno rieht sa gniees ,weiv elbadnatsrednu yleritne na si sihT)  .tnasaelpnu dna hsiroob eb ot "secar ressel" eht dnif ylerem ot demialc ot ekops I somtA rehto eht fo tsom ,sredistuo ot od dluoc noitnevretni sselerac rieht tahw dna ,meht ot od dluoc dlrow edistuo eht tahw htob fo raef ot eud saw siht smialc sorysaK rolicnuoC dnarG elihw ;muminim a ot secar rehto htiw snoitcaretni rieht tpek evah yehT  .meht detacidare evah dluow ylerus ti taht rebmun ni wef os dna detartnecnoc os erew yeht rof ,yleritne meht dessim ezalbllepS eht taht meht rof etanutrof ylurt si ti ;sega rof sniatnuom krolC eht ni neddih evah ebirT somtA eht fo stnaiG maetS ehT
-
-.detsat reve evah I ehtnisba tseb eht ekam ot woh denrael evah yeht taht eton laiceps ekam tsum I leef I ,esnes retaerg a ni elpoep somtA eht no stcelfer ti woh yas tonnac I hguohtlA  .("devlovni lla rof gnissarabme ylpeed saw" em llet ylno dluow sorysaK hcihw ,ramalgarT gniK rednu doirep feirb a morf edisa) tropsdoolb dna ycarcomed neewteb esimorpmoc tnerappa na yb nesohc si ,ylgnidrocca ,tnemnrevog riehT  .stnev s'eno morf maets erom tuo ecrof ot elba gnieb ylpmis RO noitcurtsnoc tneiciffe erom hguorht lufrewop erom edam eb nac hcet-maets taht tcaf eht ot gniwo spahrep ,stiusrup lautcelletni sa hcum sa yltcaxe tsomla ssentif lacisyhp eulav yeht taht si ees ot elba saw I gniton htrow thgisni repeed ylno eht ;yats feirb ym gnirud yteicos siht ezylana ylluf ot epoh ton dluoc I  .evitcepsrep hserf emos snezitic sih tnarg ot smodgniK deillA dna llawnuS eht htiw edart nepo nugeb sah ohw ,sorysaK ot gnidrocca ,ytilaer ot noitcennocsid dna yrtsihpos fo niarts a deretsof osla sah ti ,poleved yteicos rieht tel ot ecaep meht nevig sah noitalosi siht elihW
-
-.emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], [[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
-
-.maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta ;siht revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
-
-.ti htiw hcum os hsilpmocca ot meht rof ysae os ti edam taht ytilauq evitiutni siht si ti spahrep ;gnihtaerb sa stnaiG maetS eht ot yllarutan sa semoc taht tnemtsujda dna noitnetta seriuqer dohtem siht tub ,retaw liob ot ecanruf a gnisu yb deveihca eb yllaciteroeht nac tceffe ralimis A  .snoitpartnoc xelpmoc erom dna erom ereht morf dna ,renaelc-enots dezirusserp fo tros a derevocsid yeht ,ereht morf ;eltsihw elpmis a saw "hcet-maets" fo tib tsrif eht taht mialc yeht ,sretsasid rehto dna serif lanoisacco ot tsol neeb evah stxet tsedlo 'stnaig eht hguohtlA  .snoitpartnoc cillatem fo yarra ediw a etarepo dna rewop ot maets siht esu ot woh tuo derugif evah yeht ,ylsuoinegni rehtaR
-
- (.scrO neeb evah yltnecer tsuj litnu srobhgien ylno rieht sa gniees ,weiv elbadnatsrednu yleritne na si sihT)  .tnasaelpnu dna hsiroob eb ot "secar ressel" eht dnif ylerem ot demialc ot ekops I somtA rehto eht fo tsom ,sredistuo ot od dluoc noitnevretni sselerac rieht tahw dna ,meht ot od dluoc dlrow edistuo eht tahw htob fo raef ot eud saw siht smialc sorysaK rolicnuoC dnarG elihw ;muminim a ot secar rehto htiw snoitcaretni rieht tpek evah yehT  .meht detacidare evah dluow ylerus ti taht rebmun ni wef os dna detartnecnoc os erew yeht rof ,yleritne meht dessim ezalbllepS eht taht meht rof etanutrof ylurt si ti ;sega rof sniatnuom krolC eht ni neddih evah ebirT somtA eht fo stnaiG maetS ehT
-
-.detsat reve evah I ehtnisba tseb eht ekam ot woh denrael evah yeht taht eton laiceps ekam tsum I leef I ,esnes retaerg a ni elpoep somtA eht no stcelfer ti woh yas tonnac I hguohtlA  .("devlovni lla rof gnissarabme ylpeed saw" em llet ylno dluow sorysaK hcihw ,ramalgarT gniK rednu doirep feirb a morf edisa) tropsdoolb dna ycarcomed neewteb esimorpmoc tnerappa na yb nesohc si ,ylgnidrocca ,tnemnrevog riehT  .stnev s'eno morf maets erom tuo ecrof ot elba gnieb ylpmis RO noitcurtsnoc tneiciffe erom hguorht lufrewop erom edam eb nac hcet-maets taht tcaf eht ot gniwo spahrep ,stiusrup lautcelletni sa hcum sa yltcaxe tsomla ssentif lacisyhp eulav yeht taht si ees ot elba saw I gniton htrow thgisni repeed ylno eht ;yats feirb ym gnirud yteicos siht ezylana ylluf ot epoh ton dluoc I  .evitcepsrep hserf emos snezitic sih tnarg ot smodgniK deillA dna llawnuS eht htiw edart nepo nugeb sah ohw ,sorysaK ot gnidrocca ,ytilaer ot noitcennocsid dna yrtsihpos fo niarts a deretsof osla sah ti ,poleved yteicos rieht tel ot ecaep meht nevig sah noitalosi siht elihW
-
-.emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("sunwall observatory", "sunwall observatory", "newLore category")
@@ -2955,6 +2886,23 @@ Say the word, and I'll send over the temporary rune design so you can set the ne
 
 [i](You assume the elaborate, glowing shape below is an Ogric equivalent to a signature.)[/i] ]], "_t")
 t("STOP BLOWING OUR COVER", "STOP BLOWING OUR COVER", "_t")
+t([[We get it: it's our fault the farportal mailing system isn't perfect.  Our people are still working on undoing that jury-rigged configuration that keeps your portal from transporting anything that isn't living - and if we get it wrong, that means people start getting teleported into walls again.  It's already a damn miracle you can get through the portal without coming out naked on the other side, let alone still carrying your backpacks and all their contents.
+
+In the meantime: we're still losing a few letters going through the mailing system, and the lost ones could end up teleported to pretty much anywhere.  They could end up ten feet from the portal, or they could end up right in some A.K. busybody's hands, or they could just warp themselves right up Urh'Rok's nose for all we know.  Likewise, anything written on those notes could end up exactly where you don't want them, wherever that might be.
+
+My point is, when you're writing those letters, write them like King Tolak's looking over your left shoulder and your grandmother's looking over your right - or at least show SOME semblance of subtlety.  Don't complain about the prices of "illegal potions," complain about "extra-strength medicine."  Don't ask about safety accommodations for "slaves," ask about "private servants."  And please, for the love of Linaniil, [i]stop calling the farportal a farportal![/i]  The A.K. doesn't even know we [i]have[/i] this thing yet, and we don't want to give them any ideas on where or how to start looking.  Call it a courier, or a pack golem, or a trained uruivellas for all I care.
+
+-Korbek
+
+PS: Yes, I'm breaking my own rules with this letter - you idiots clearly don't understand subtlety, so I can't assume you'd understand a subtly-written letter.  Yes, I'm aware there's a chance this letter could end up in enemy hands.  No, the irony of that situation would not be lost on me.  Yes, I will hurt whoever thinks they're clever by bringing up any of the preceding.]], [[We get it: it's our fault the farportal mailing system isn't perfect.  Our people are still working on undoing that jury-rigged configuration that keeps your portal from transporting anything that isn't living - and if we get it wrong, that means people start getting teleported into walls again.  It's already a damn miracle you can get through the portal without coming out naked on the other side, let alone still carrying your backpacks and all their contents.
+
+In the meantime: we're still losing a few letters going through the mailing system, and the lost ones could end up teleported to pretty much anywhere.  They could end up ten feet from the portal, or they could end up right in some A.K. busybody's hands, or they could just warp themselves right up Urh'Rok's nose for all we know.  Likewise, anything written on those notes could end up exactly where you don't want them, wherever that might be.
+
+My point is, when you're writing those letters, write them like King Tolak's looking over your left shoulder and your grandmother's looking over your right - or at least show SOME semblance of subtlety.  Don't complain about the prices of "illegal potions," complain about "extra-strength medicine."  Don't ask about safety accommodations for "slaves," ask about "private servants."  And please, for the love of Linaniil, [i]stop calling the farportal a farportal![/i]  The A.K. doesn't even know we [i]have[/i] this thing yet, and we don't want to give them any ideas on where or how to start looking.  Call it a courier, or a pack golem, or a trained uruivellas for all I care.
+
+-Korbek
+
+PS: Yes, I'm breaking my own rules with this letter - you idiots clearly don't understand subtlety, so I can't assume you'd understand a subtly-written letter.  Yes, I'm aware there's a chance this letter could end up in enemy hands.  No, the irony of that situation would not be lost on me.  Yes, I will hurt whoever thinks they're clever by bringing up any of the preceding.]], "_t")
 t("severed hand", "severed hand", "_t")
 t([[[i](You see here a rotting human hand in a black leather glove, severed at the wrist.  It is still clutching a cracked artifact resembling an Orb of Many Ways, with a note folded up between the orb and its palm.)[/i]
 
@@ -2981,6 +2929,27 @@ Seriously, though, I'm writing this note so even if I get killed from this, I'm 
 ]], "_t")
 t("?...secar", "?...secar", "newLore category")
 t("stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "_t")
+t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
+
+.maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta ;siht revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
+
+.ti htiw hcum os hsilpmocca ot meht rof ysae os ti edam taht ytilauq evitiutni siht si ti spahrep ;gnihtaerb sa stnaiG maetS eht ot yllarutan sa semoc taht tnemtsujda dna noitnetta seriuqer dohtem siht tub ,retaw liob ot ecanruf a gnisu yb deveihca eb yllaciteroeht nac tceffe ralimis A  .snoitpartnoc xelpmoc erom dna erom ereht morf dna ,renaelc-enots dezirusserp fo tros a derevocsid yeht ,ereht morf ;eltsihw elpmis a saw "hcet-maets" fo tib tsrif eht taht mialc yeht ,sretsasid rehto dna serif lanoisacco ot tsol neeb evah stxet tsedlo 'stnaig eht hguohtlA  .snoitpartnoc cillatem fo yarra ediw a etarepo dna rewop ot maets siht esu ot woh tuo derugif evah yeht ,ylsuoinegni rehtaR
+
+ (.scrO neeb evah yltnecer tsuj litnu srobhgien ylno rieht sa gniees ,weiv elbadnatsrednu yleritne na si sihT)  .tnasaelpnu dna hsiroob eb ot "secar ressel" eht dnif ylerem ot demialc ot ekops I somtA rehto eht fo tsom ,sredistuo ot od dluoc noitnevretni sselerac rieht tahw dna ,meht ot od dluoc dlrow edistuo eht tahw htob fo raef ot eud saw siht smialc sorysaK rolicnuoC dnarG elihw ;muminim a ot secar rehto htiw snoitcaretni rieht tpek evah yehT  .meht detacidare evah dluow ylerus ti taht rebmun ni wef os dna detartnecnoc os erew yeht rof ,yleritne meht dessim ezalbllepS eht taht meht rof etanutrof ylurt si ti ;sega rof sniatnuom krolC eht ni neddih evah ebirT somtA eht fo stnaiG maetS ehT
+
+.detsat reve evah I ehtnisba tseb eht ekam ot woh denrael evah yeht taht eton laiceps ekam tsum I leef I ,esnes retaerg a ni elpoep somtA eht no stcelfer ti woh yas tonnac I hguohtlA  .("devlovni lla rof gnissarabme ylpeed saw" em llet ylno dluow sorysaK hcihw ,ramalgarT gniK rednu doirep feirb a morf edisa) tropsdoolb dna ycarcomed neewteb esimorpmoc tnerappa na yb nesohc si ,ylgnidrocca ,tnemnrevog riehT  .stnev s'eno morf maets erom tuo ecrof ot elba gnieb ylpmis RO noitcurtsnoc tneiciffe erom hguorht lufrewop erom edam eb nac hcet-maets taht tcaf eht ot gniwo spahrep ,stiusrup lautcelletni sa hcum sa yltcaxe tsomla ssentif lacisyhp eulav yeht taht si ees ot elba saw I gniton htrow thgisni repeed ylno eht ;yats feirb ym gnirud yteicos siht ezylana ylluf ot epoh ton dluoc I  .evitcepsrep hserf emos snezitic sih tnarg ot smodgniK deillA dna llawnuS eht htiw edart nepo nugeb sah ohw ,sorysaK ot gnidrocca ,ytilaer ot noitcennocsid dna yrtsihpos fo niarts a deretsof osla sah ti ,poleved yteicos rieht tel ot ecaep meht nevig sah noitalosi siht elihW
+
+.emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], [[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
+
+.maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta ;siht revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
+
+.ti htiw hcum os hsilpmocca ot meht rof ysae os ti edam taht ytilauq evitiutni siht si ti spahrep ;gnihtaerb sa stnaiG maetS eht ot yllarutan sa semoc taht tnemtsujda dna noitnetta seriuqer dohtem siht tub ,retaw liob ot ecanruf a gnisu yb deveihca eb yllaciteroeht nac tceffe ralimis A  .snoitpartnoc xelpmoc erom dna erom ereht morf dna ,renaelc-enots dezirusserp fo tros a derevocsid yeht ,ereht morf ;eltsihw elpmis a saw "hcet-maets" fo tib tsrif eht taht mialc yeht ,sretsasid rehto dna serif lanoisacco ot tsol neeb evah stxet tsedlo 'stnaig eht hguohtlA  .snoitpartnoc cillatem fo yarra ediw a etarepo dna rewop ot maets siht esu ot woh tuo derugif evah yeht ,ylsuoinegni rehtaR
+
+ (.scrO neeb evah yltnecer tsuj litnu srobhgien ylno rieht sa gniees ,weiv elbadnatsrednu yleritne na si sihT)  .tnasaelpnu dna hsiroob eb ot "secar ressel" eht dnif ylerem ot demialc ot ekops I somtA rehto eht fo tsom ,sredistuo ot od dluoc noitnevretni sselerac rieht tahw dna ,meht ot od dluoc dlrow edistuo eht tahw htob fo raef ot eud saw siht smialc sorysaK rolicnuoC dnarG elihw ;muminim a ot secar rehto htiw snoitcaretni rieht tpek evah yehT  .meht detacidare evah dluow ylerus ti taht rebmun ni wef os dna detartnecnoc os erew yeht rof ,yleritne meht dessim ezalbllepS eht taht meht rof etanutrof ylurt si ti ;sega rof sniatnuom krolC eht ni neddih evah ebirT somtA eht fo stnaiG maetS ehT
+
+.detsat reve evah I ehtnisba tseb eht ekam ot woh denrael evah yeht taht eton laiceps ekam tsum I leef I ,esnes retaerg a ni elpoep somtA eht no stcelfer ti woh yas tonnac I hguohtlA  .("devlovni lla rof gnissarabme ylpeed saw" em llet ylno dluow sorysaK hcihw ,ramalgarT gniK rednu doirep feirb a morf edisa) tropsdoolb dna ycarcomed neewteb esimorpmoc tnerappa na yb nesohc si ,ylgnidrocca ,tnemnrevog riehT  .stnev s'eno morf maets erom tuo ecrof ot elba gnieb ylpmis RO noitcurtsnoc tneiciffe erom hguorht lufrewop erom edam eb nac hcet-maets taht tcaf eht ot gniwo spahrep ,stiusrup lautcelletni sa hcum sa yltcaxe tsomla ssentif lacisyhp eulav yeht taht si ees ot elba saw I gniton htrow thgisni repeed ylno eht ;yats feirb ym gnirud yteicos siht ezylana ylluf ot epoh ton dluoc I  .evitcepsrep hserf emos snezitic sih tnarg ot smodgniK deillA dna llawnuS eht htiw edart nepo nugeb sah ohw ,sorysaK ot gnidrocca ,ytilaer ot noitcennocsid dna yrtsihpos fo niarts a deretsof osla sah ti ,poleved yteicos rieht tel ot ecaep meht nevig sah noitalosi siht elihW
+
+.emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], "_t")
 t("races...?", "races...?", "newLore category")
 t("Scholar Graynot's Assessment of the Species, Chapter 48: Steam Giants", "Scholar Graynot's Assessment of the Species, Chapter 48: Steam Giants", "_t")
 t([[To think such an advanced civilization was hiding nearly right under our noses!  Not that the proximity made it any easier for me to conduct my research - it seems that unless you're a Sunwall citizen, a blood relative of King Tolak, or a merchant with enough gold to bribe the guards to look the other way, it's nearly impossible for a civilian to use the portal to the East.  Fortunately, Grand Councilor Kasyros himself was shown my writings to give him a basic overview of all the species his people were unfamiliar with, and he requested my presence to study his people.
@@ -3452,25 +3421,6 @@ Of course, a character like that can't simply be thrown away.  The story may be 
 section "tome-orcs/data/lore/primal-forest.lua"
 
 
--- nouveau texte
---[==[
-t([[We recognize that times are changing.  Within a year, the Allied Kingdoms have gone from begrudgingly tolerating magic to openly embracing it, due to the influence of our rediscovered allies in the East.  Furthermore, if the reports are to be believed, the ecosystem of Var'Eyal remains healthy and intact, despite millennia of continuous magic-use.  Therefore, our views and approach must change with the times; we are not ignorant to new knowledge.
-
-At this point, it should go without saying that reckless use of magic is a dire threat to...  everything, more or less.  Eyal has yet to fully recover from even the rampant necromancy of the Age of Dusk, let alone the Spellblaze itself.  Eliminating all use of magic is the only way to be safe from this situation repeating...  but it is possible that lesser uses of arcane magic do not have any inherent corrupting or harmful effect, judging from the Sun Paladins and Anorithil.  They have, contrary to our long-held beliefs, managed to use magic responsibly and safely.  We are not so blind as to deny that this is an incredible reassurance.  That said, this proves nothing about the most terrible potential of magic.  Maybe no Sun Paladin or Anorithil has yet sunk to the depths of depravity of the Age of Dusk sorcerers, or the tragically reckless mages responsible for the Spellblaze, but that is no indication that their magic does not have the potential for abuse.  
-
-Fortunately, there is an alternative available!  With the proper respect, care, and concentration given to Nature, one can be rewarded with powers rivaling or besting the popular uses of magic.  On the civilian level, summoned fireflies can replace magical lighting, regeneration salves can replace healing spells, and accelerated crop growth makes for a far more nutritious diet than conjured foodstuffs.  For martial purposes, there's very little that can stand up to the powers of Nature.  An experienced disciple of Eyal can summon loyal beasts faster than any mage can blast them, crush spellswords of all types with draconic might, or dissolve a necromancer's army in a tide of corrosive ooze.  And if the disciple in question is familiar with the practices of the Ziguranth...  We do not condone their approach to defending nature, but their techniques speak for themselves when facing a hostile mage.  The best part about these abilities, though, is that they are self-limiting!  There is no potential for a runaway chain reaction, or a lone megalomaniac destroying much of Eyal.  The planet willingly gives us its power, and is conscious enough to take it away if we start abusing its gifts.  Even the most powerful of Wilders cannot abuse their power to the perverse degree that a necromancer can.
-
-Thus, we're putting our efforts into two areas.  The first is advocacy of Natural alternatives to magic, talking to spellcasters to determine what they use magic for and figuring out ways to use Nature's abilities to do the same task just as well (if not more so).  We've continued the Ziguranth efforts to make all-natural replacements for Ogric runes (we predict that life expectancy is now only reduced by 40% with our newest mixtures), developed fertilizing recipes that outperform arcane methods of producing food, created wells near desert settlements otherwise dependent on water magic, and developed so many other techniques and applications that make magic just as obsolete as it is hazardous.  The second is minimizing the harm done by the arcane, by educating spellcasters on the safe, responsible, and Nature-conscious use of magic.  Not every spellcaster is evil, and in fact, some may enrich the lives of those around them!  Runic magic is at least somewhat self-limiting, and we are working with the Living Fossils guild in hopes of developing a new type of magic, one inherently linked to and limited by Nature.  Their stone-wardens have maintained perfect harmony with Nature despite constant use of the arcane; if this is truly the way forward, then we shall welcome it with open arms.
-]], [[We recognize that times are changing.  Within a year, the Allied Kingdoms have gone from begrudgingly tolerating magic to openly embracing it, due to the influence of our rediscovered allies in the East.  Furthermore, if the reports are to be believed, the ecosystem of Var'Eyal remains healthy and intact, despite millennia of continuous magic-use.  Therefore, our views and approach must change with the times; we are not ignorant to new knowledge.
-
-At this point, it should go without saying that reckless use of magic is a dire threat to...  everything, more or less.  Eyal has yet to fully recover from even the rampant necromancy of the Age of Dusk, let alone the Spellblaze itself.  Eliminating all use of magic is the only way to be safe from this situation repeating...  but it is possible that lesser uses of arcane magic do not have any inherent corrupting or harmful effect, judging from the Sun Paladins and Anorithil.  They have, contrary to our long-held beliefs, managed to use magic responsibly and safely.  We are not so blind as to deny that this is an incredible reassurance.  That said, this proves nothing about the most terrible potential of magic.  Maybe no Sun Paladin or Anorithil has yet sunk to the depths of depravity of the Age of Dusk sorcerers, or the tragically reckless mages responsible for the Spellblaze, but that is no indication that their magic does not have the potential for abuse.  
-
-Fortunately, there is an alternative available!  With the proper respect, care, and concentration given to Nature, one can be rewarded with powers rivaling or besting the popular uses of magic.  On the civilian level, summoned fireflies can replace magical lighting, regeneration salves can replace healing spells, and accelerated crop growth makes for a far more nutritious diet than conjured foodstuffs.  For martial purposes, there's very little that can stand up to the powers of Nature.  An experienced disciple of Eyal can summon loyal beasts faster than any mage can blast them, crush spellswords of all types with draconic might, or dissolve a necromancer's army in a tide of corrosive ooze.  And if the disciple in question is familiar with the practices of the Ziguranth...  We do not condone their approach to defending nature, but their techniques speak for themselves when facing a hostile mage.  The best part about these abilities, though, is that they are self-limiting!  There is no potential for a runaway chain reaction, or a lone megalomaniac destroying much of Eyal.  The planet willingly gives us its power, and is conscious enough to take it away if we start abusing its gifts.  Even the most powerful of Wilders cannot abuse their power to the perverse degree that a necromancer can.
-
-Thus, we're putting our efforts into two areas.  The first is advocacy of Natural alternatives to magic, talking to spellcasters to determine what they use magic for and figuring out ways to use Nature's abilities to do the same task just as well (if not more so).  We've continued the Ziguranth efforts to make all-natural replacements for Ogric runes (we predict that life expectancy is now only reduced by 40% with our newest mixtures), developed fertilizing recipes that outperform arcane methods of producing food, created wells near desert settlements otherwise dependent on water magic, and developed so many other techniques and applications that make magic just as obsolete as it is hazardous.  The second is minimizing the harm done by the arcane, by educating spellcasters on the safe, responsible, and Nature-conscious use of magic.  Not every spellcaster is evil, and in fact, some may enrich the lives of those around them!  Runic magic is at least somewhat self-limiting, and we are working with the Living Fossils guild in hopes of developing a new type of magic, one inherently linked to and limited by Nature.  Their stone-wardens have maintained perfect harmony with Nature despite constant use of the arcane; if this is truly the way forward, then we shall welcome it with open arms.
-]], "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("primal forest", "primal forest", "newLore category")
@@ -3551,6 +3501,21 @@ ABILITY, RESPONSIBILITY, AND ACCEPTANCE
 The wilds of Eyal are a dangerous place; we do not expect our scholars to go into them defenseless!  For those who are already accustomed to use of the arcane, our partnership with the Living Fossils allows us to identify safe and responsible methods of using magic, and provide them with an introduction to the ways of Nature, and those who are already adept with Nature can always hone their skills with our veteran members.  If you have no ability with either, you're in luck!  We're eager to show you how to accept Nature's favors to defend yourself.  Anyone can learn to summon loyal beasts or channel wyrmic strength if they're willing to try!  These abilities can be used without giving up your attunement to the arcane, but you may find that you don't need your spells anymore, once you've seen how effective Nature's power is.  We will never force you to give up magic, but if you happen to be looking for a greater commitment, speak to your instructor about following the path of the oozemancer.
 ]], "_t")
 t("'On Tolerance'", "'On Tolerance'", "_t")
+t([[We recognize that times are changing.  Within a year, the Allied Kingdoms have gone from begrudgingly tolerating magic to openly embracing it, due to the influence of our rediscovered allies in the East.  Furthermore, if the reports are to be believed, the ecosystem of Var'Eyal remains healthy and intact, despite millennia of continuous magic-use.  Therefore, our views and approach must change with the times; we are not ignorant to new knowledge.
+
+At this point, it should go without saying that reckless use of magic is a dire threat to...  everything, more or less.  Eyal has yet to fully recover from even the rampant necromancy of the Age of Dusk, let alone the Spellblaze itself.  Eliminating all use of magic is the only way to be safe from this situation repeating...  but it is possible that lesser uses of arcane magic do not have any inherent corrupting or harmful effect, judging from the Sun Paladins and Anorithil.  They have, contrary to our long-held beliefs, managed to use magic responsibly and safely.  We are not so blind as to deny that this is an incredible reassurance.  That said, this proves nothing about the most terrible potential of magic.  Maybe no Sun Paladin or Anorithil has yet sunk to the depths of depravity of the Age of Dusk sorcerers, or the tragically reckless mages responsible for the Spellblaze, but that is no indication that their magic does not have the potential for abuse.  
+
+Fortunately, there is an alternative available!  With the proper respect, care, and concentration given to Nature, one can be rewarded with powers rivaling or besting the popular uses of magic.  On the civilian level, summoned fireflies can replace magical lighting, regeneration salves can replace healing spells, and accelerated crop growth makes for a far more nutritious diet than conjured foodstuffs.  For martial purposes, there's very little that can stand up to the powers of Nature.  An experienced disciple of Eyal can summon loyal beasts faster than any mage can blast them, crush spellswords of all types with draconic might, or dissolve a necromancer's army in a tide of corrosive ooze.  And if the disciple in question is familiar with the practices of the Ziguranth...  We do not condone their approach to defending nature, but their techniques speak for themselves when facing a hostile mage.  The best part about these abilities, though, is that they are self-limiting!  There is no potential for a runaway chain reaction, or a lone megalomaniac destroying much of Eyal.  The planet willingly gives us its power, and is conscious enough to take it away if we start abusing its gifts.  Even the most powerful of Wilders cannot abuse their power to the perverse degree that a necromancer can.
+
+Thus, we're putting our efforts into two areas.  The first is advocacy of Natural alternatives to magic, talking to spellcasters to determine what they use magic for and figuring out ways to use Nature's abilities to do the same task just as well (if not more so).  We've continued the Ziguranth efforts to make all-natural replacements for Ogric runes (we predict that life expectancy is now only reduced by 40% with our newest mixtures), developed fertilizing recipes that outperform arcane methods of producing food, created wells near desert settlements otherwise dependent on water magic, and developed so many other techniques and applications that make magic just as obsolete as it is hazardous.  The second is minimizing the harm done by the arcane, by educating spellcasters on the safe, responsible, and Nature-conscious use of magic.  Not every spellcaster is evil, and in fact, some may enrich the lives of those around them!  Runic magic is at least somewhat self-limiting, and we are working with the Living Fossils guild in hopes of developing a new type of magic, one inherently linked to and limited by Nature.  Their stone-wardens have maintained perfect harmony with Nature despite constant use of the arcane; if this is truly the way forward, then we shall welcome it with open arms.
+]], [[We recognize that times are changing.  Within a year, the Allied Kingdoms have gone from begrudgingly tolerating magic to openly embracing it, due to the influence of our rediscovered allies in the East.  Furthermore, if the reports are to be believed, the ecosystem of Var'Eyal remains healthy and intact, despite millennia of continuous magic-use.  Therefore, our views and approach must change with the times; we are not ignorant to new knowledge.
+
+At this point, it should go without saying that reckless use of magic is a dire threat to...  everything, more or less.  Eyal has yet to fully recover from even the rampant necromancy of the Age of Dusk, let alone the Spellblaze itself.  Eliminating all use of magic is the only way to be safe from this situation repeating...  but it is possible that lesser uses of arcane magic do not have any inherent corrupting or harmful effect, judging from the Sun Paladins and Anorithil.  They have, contrary to our long-held beliefs, managed to use magic responsibly and safely.  We are not so blind as to deny that this is an incredible reassurance.  That said, this proves nothing about the most terrible potential of magic.  Maybe no Sun Paladin or Anorithil has yet sunk to the depths of depravity of the Age of Dusk sorcerers, or the tragically reckless mages responsible for the Spellblaze, but that is no indication that their magic does not have the potential for abuse.  
+
+Fortunately, there is an alternative available!  With the proper respect, care, and concentration given to Nature, one can be rewarded with powers rivaling or besting the popular uses of magic.  On the civilian level, summoned fireflies can replace magical lighting, regeneration salves can replace healing spells, and accelerated crop growth makes for a far more nutritious diet than conjured foodstuffs.  For martial purposes, there's very little that can stand up to the powers of Nature.  An experienced disciple of Eyal can summon loyal beasts faster than any mage can blast them, crush spellswords of all types with draconic might, or dissolve a necromancer's army in a tide of corrosive ooze.  And if the disciple in question is familiar with the practices of the Ziguranth...  We do not condone their approach to defending nature, but their techniques speak for themselves when facing a hostile mage.  The best part about these abilities, though, is that they are self-limiting!  There is no potential for a runaway chain reaction, or a lone megalomaniac destroying much of Eyal.  The planet willingly gives us its power, and is conscious enough to take it away if we start abusing its gifts.  Even the most powerful of Wilders cannot abuse their power to the perverse degree that a necromancer can.
+
+Thus, we're putting our efforts into two areas.  The first is advocacy of Natural alternatives to magic, talking to spellcasters to determine what they use magic for and figuring out ways to use Nature's abilities to do the same task just as well (if not more so).  We've continued the Ziguranth efforts to make all-natural replacements for Ogric runes (we predict that life expectancy is now only reduced by 40% with our newest mixtures), developed fertilizing recipes that outperform arcane methods of producing food, created wells near desert settlements otherwise dependent on water magic, and developed so many other techniques and applications that make magic just as obsolete as it is hazardous.  The second is minimizing the harm done by the arcane, by educating spellcasters on the safe, responsible, and Nature-conscious use of magic.  Not every spellcaster is evil, and in fact, some may enrich the lives of those around them!  Runic magic is at least somewhat self-limiting, and we are working with the Living Fossils guild in hopes of developing a new type of magic, one inherently linked to and limited by Nature.  Their stone-wardens have maintained perfect harmony with Nature despite constant use of the arcane; if this is truly the way forward, then we shall welcome it with open arms.
+]], "_t")
 t("a leaf-bound journal", "a leaf-bound journal", "_t")
 t([[[i](You see here a leaf-bound journal; the moment you open it, it begins to wither and crumble.  You manage to rip out one page; it is still disintegrating, but slowly enough that you can read it before it turns to dust.)[/i]
 
@@ -3711,53 +3676,10 @@ this is the first day of a new existence
 ------------------------------------------------
 section "tome-orcs/data/lore/sunwall.lua"
 
-
--- nouveau texte
---[==[
-t("Aeryn, my love...  I fear Trelle may be right, but I will hold this bridge without resorting to betraying you.  Still, though, I will remain vigilant of approaching attacks, and prepare to strike first if a battle really does seem inevitable.  As long as I stand, no Orc will ever harm you again.  We will have a bright and shining future ahead of us, walking hand in hand into the dawn of a new, peaceful age...  and while I hope the Kruk Pride has a place there, I will not let them put this new age in jeopardy.", "Aeryn, my love...  I fear Trelle may be right, but I will hold this bridge without resorting to betraying you.  Still, though, I will remain vigilant of approaching attacks, and prepare to strike first if a battle really does seem inevitable.  As long as I stand, no Orc will ever harm you again.  We will have a bright and shining future ahead of us, walking hand in hand into the dawn of a new, peaceful age...  and while I hope the Kruk Pride has a place there, I will not let them put this new age in jeopardy.", "_t")
-t([[(As you approach the farportal, a herald emerges, holding an envelope; he doesn't quite hand it to you as much as throw it at you from a safe distance, then salutes and retreats back into the swirling rift.  The letter bears the royal seal of the Allied Kingdoms.)
-
-%s...  I think I'm beginning to understand why you have acted this way.  At first, I was...  well, not as much surprised as disappointed.  I'd thought that showing your people mercy was the right decision.  That my father had been too consumed by rage, that the Orcs could be truly be better people if we gave them a chance, and if you were shown how much of a better place Eyal could be if you were to cooperate with us.  That no matter what my father, my mother, and my allies had told me, the Orcish race contained, somewhere deep down, the same potential for learning, growth, and beauty present in Humans, Halflings, Elves, Dwarves, and Ogres.
-
-But now...  I see no good in you.  So many are dead, because I couldn't bring myself to admit that some people are beyond redemption.  Because I thought all you needed was a second chance, that you had goals other than blind, bloody revenge, that you'd see that we had held you in the grip of our absolute mercy, and opted to offer you an open hand rather than crush you as easily as clenching our fist.
-
-I will not make the same mistake again.
-
-You've shown me that the Orcish heart is empty of everything but lust for death and destruction, that no matter how good a future is laid out in front of you, you will discard it simply for the thrill of battle against the reasonable people who want this better future to come.  You've shown me that the prejudices I've strived to transcend were right all along.  You've shown me that my father's only mistake was not going far enough - a continent free of Orcs is not enough to keep us safe.  Instead, your kind must be purged from all of Eyal - and the battle to make this happen is inevitable, for you will continue pushing for it no matter how much we try to make peace an option.  And yet...  you've made me understand the reason of this approach, of treating everyone else like an irrational threat to your existence, for it is the only proper way for us to treat you.
-
-You won't get another second chance from us.  Instead, we'll give you the only thing you've ever wanted: a battle.  Through this portal waits the army of the Allied Kingdoms, once foes or begrudging co-inhabitants who have grown into true allies because we have a desire for peace and cooperation that your kind will never know.  We wait on an open battlefield, ready to demonstrate our combined might.  The Shaloren of Elvala prepare spells as the Ogres grip their clubs tighter; the Halflings and Humans of Derth and Last Hope have forgotten their age-old rivalry, working together to brew alchemical bombs and build great golems, or take up positions with a bow or sling; the Dwarves of Iron Throne and the Thaloren of Shatur, not even proper allies with us before now, realize you are too great a threat to go neglected, and now our ranks are lined with Wilders summoning countless beasts and treants, and fierce warriors who will #{italic}#not#{normal}# be moved.  Even the forces of the Sunwall have joined us, a contingent of their finest warriors sent to reinforce our lines and quickly train our soldiers in the magical techniques they've honed over the years, using you irredeemable savages as their sharpening stones.
-
-I shall be waiting in the front line of this glorious alliance, sword in hand.  I, King Tolak the Fair, son of Toknor who once purged your people from Maj'Eyal, I who once fought to spare your kind from slavery or extinction, now eagerly await the opportunity to finish what he started.  If I die, Toknor's bloodline dies with me; this is a risk I am willing - no, #{italic}#excited#{normal}# to take, to settle the fate of all civilized peoples of Eyal, once and for all.
-
-You want your revenge on my father's people, foul cur?  #{italic}#Come and get it.#{normal}#
-
-(You admit, it is rather tempting...  but the guaranteed safety of your people takes priority, and besides, you wouldn't put it past the Allied Kingdoms to have a team of archers and slingers waiting to snipe everyone who came through, one by one.  You destroy the portal, eliminating King Tolak's army as a threat, and ensuring Sun Paladin Aeryn won't be getting any reinforcements.  Time to take advantage of your newfound privacy, and finish off the Sunwall forces, once and for all...)]], [[(As you approach the farportal, a herald emerges, holding an envelope; he doesn't quite hand it to you as much as throw it at you from a safe distance, then salutes and retreats back into the swirling rift.  The letter bears the royal seal of the Allied Kingdoms.)
-
-%s...  I think I'm beginning to understand why you have acted this way.  At first, I was...  well, not as much surprised as disappointed.  I'd thought that showing your people mercy was the right decision.  That my father had been too consumed by rage, that the Orcs could be truly be better people if we gave them a chance, and if you were shown how much of a better place Eyal could be if you were to cooperate with us.  That no matter what my father, my mother, and my allies had told me, the Orcish race contained, somewhere deep down, the same potential for learning, growth, and beauty present in Humans, Halflings, Elves, Dwarves, and Ogres.
-
-But now...  I see no good in you.  So many are dead, because I couldn't bring myself to admit that some people are beyond redemption.  Because I thought all you needed was a second chance, that you had goals other than blind, bloody revenge, that you'd see that we had held you in the grip of our absolute mercy, and opted to offer you an open hand rather than crush you as easily as clenching our fist.
-
-I will not make the same mistake again.
-
-You've shown me that the Orcish heart is empty of everything but lust for death and destruction, that no matter how good a future is laid out in front of you, you will discard it simply for the thrill of battle against the reasonable people who want this better future to come.  You've shown me that the prejudices I've strived to transcend were right all along.  You've shown me that my father's only mistake was not going far enough - a continent free of Orcs is not enough to keep us safe.  Instead, your kind must be purged from all of Eyal - and the battle to make this happen is inevitable, for you will continue pushing for it no matter how much we try to make peace an option.  And yet...  you've made me understand the reason of this approach, of treating everyone else like an irrational threat to your existence, for it is the only proper way for us to treat you.
-
-You won't get another second chance from us.  Instead, we'll give you the only thing you've ever wanted: a battle.  Through this portal waits the army of the Allied Kingdoms, once foes or begrudging co-inhabitants who have grown into true allies because we have a desire for peace and cooperation that your kind will never know.  We wait on an open battlefield, ready to demonstrate our combined might.  The Shaloren of Elvala prepare spells as the Ogres grip their clubs tighter; the Halflings and Humans of Derth and Last Hope have forgotten their age-old rivalry, working together to brew alchemical bombs and build great golems, or take up positions with a bow or sling; the Dwarves of Iron Throne and the Thaloren of Shatur, not even proper allies with us before now, realize you are too great a threat to go neglected, and now our ranks are lined with Wilders summoning countless beasts and treants, and fierce warriors who will #{italic}#not#{normal}# be moved.  Even the forces of the Sunwall have joined us, a contingent of their finest warriors sent to reinforce our lines and quickly train our soldiers in the magical techniques they've honed over the years, using you irredeemable savages as their sharpening stones.
-
-I shall be waiting in the front line of this glorious alliance, sword in hand.  I, King Tolak the Fair, son of Toknor who once purged your people from Maj'Eyal, I who once fought to spare your kind from slavery or extinction, now eagerly await the opportunity to finish what he started.  If I die, Toknor's bloodline dies with me; this is a risk I am willing - no, #{italic}#excited#{normal}# to take, to settle the fate of all civilized peoples of Eyal, once and for all.
-
-You want your revenge on my father's people, foul cur?  #{italic}#Come and get it.#{normal}#
-
-(You admit, it is rather tempting...  but the guaranteed safety of your people takes priority, and besides, you wouldn't put it past the Allied Kingdoms to have a team of archers and slingers waiting to snipe everyone who came through, one by one.  You destroy the portal, eliminating King Tolak's army as a threat, and ensuring Sun Paladin Aeryn won't be getting any reinforcements.  Time to take advantage of your newfound privacy, and finish off the Sunwall forces, once and for all...)]], "tformat")
-t([[You took everything from me.  You took the dawn of a beautiful future, you took the fires of hope and happiness, you took the kind, guiding light of my love Aeryn and put out the glow of the life we deserved to have together.  The light is gone...  but you have given me darkness in return.  And you're about to know that darkness very, very well.  Embracing it fully rather than shutting it out...  It's so easy to use these powers now.  I've felt them before, but I had no hate to use as their inspiration, no true misery to pour into the minds deserving, no empty void inside me to drain your hopes and confidence into.  You've fixed that for me.
-
-My heart still beats, but you have taken my life nonetheless.  You'll understand shortly.]], [[You took everything from me.  You took the dawn of a beautiful future, you took the fires of hope and happiness, you took the kind, guiding light of my love Aeryn and put out the glow of the life we deserved to have together.  The light is gone...  but you have given me darkness in return.  And you're about to know that darkness very, very well.  Embracing it fully rather than shutting it out...  It's so easy to use these powers now.  I've felt them before, but I had no hate to use as their inspiration, no true misery to pour into the minds deserving, no empty void inside me to drain your hopes and confidence into.  You've fixed that for me.
-
-My heart still beats, but you have taken my life nonetheless.  You'll understand shortly.]], "_t")
---]==]
-
+t("sunwall", "mur solaire", "newLore category")
+t("hero", "héro", "_t")
 -- texte non traduit
 --[==[
-t("sunwall", "sunwall", "newLore category")
 t("a page from Commander Trelle's journal", "a page from Commander Trelle's journal", "_t")
 t([[We've done it... we've finally done it. Well, granted, our %s did much of the work, but the result is the same: neither the East nor the West will ever need to fear Orcish rule again. The Prides have been crushed, the survivors have been contained, and our patrols are mopping up the few remaining bands of futile stragglers. Our long-lost allies from the West have come to support us with materials and manpower, and we can finally turn this entire continent into something beautiful. For the first time, Sunwall will not be the solitary bastion of civilization on Var'Eyal.
 
@@ -3776,7 +3698,6 @@ There is one group that remains.  A tiny Orcish pride, really more of a small to
 By the Sun...  why would our High Paladin agree to this treaty?  After what we've all been through...
 
 The Orcish scouts are getting bolder.  They've been approaching closer before fleeing, and coming more frequently.  They haven't engaged us yet, but it's only a matter of time...  and all I'm allowed to do is sit and wait on this ugly little bridge, as the West watches from a continent away.  Staring at an open wound, waiting for it to become infected, because they'd rather make a pretty little bow out of the bandages.]], "tformat")
-t("hero", "hero", "_t")
 t("heroine", "heroine", "_t")
 t("a letter addressed to Outpost Leader John", "a letter addressed to Outpost Leader John", "_t")
 t([[Sir,
@@ -3850,7 +3771,41 @@ Now, officially, both we and the Allied Kingdoms have a policy of capturing the 
 
 Unofficially?  I'm going to #{italic}#enjoy#{normal}# this.]], "_t")
 t("a torn page from John's journal", "a torn page from John's journal", "_t")
+t("Aeryn, my love...  I fear Trelle may be right, but I will hold this bridge without resorting to betraying you.  Still, though, I will remain vigilant of approaching attacks, and prepare to strike first if a battle really does seem inevitable.  As long as I stand, no Orc will ever harm you again.  We will have a bright and shining future ahead of us, walking hand in hand into the dawn of a new, peaceful age...  and while I hope the Kruk Pride has a place there, I will not let them put this new age in jeopardy.", "Aeryn, my love...  I fear Trelle may be right, but I will hold this bridge without resorting to betraying you.  Still, though, I will remain vigilant of approaching attacks, and prepare to strike first if a battle really does seem inevitable.  As long as I stand, no Orc will ever harm you again.  We will have a bright and shining future ahead of us, walking hand in hand into the dawn of a new, peaceful age...  and while I hope the Kruk Pride has a place there, I will not let them put this new age in jeopardy.", "_t")
 t("King Tolak's Condemnation", "King Tolak's Condemnation", "_t")
+t([[(As you approach the farportal, a herald emerges, holding an envelope; he doesn't quite hand it to you as much as throw it at you from a safe distance, then salutes and retreats back into the swirling rift.  The letter bears the royal seal of the Allied Kingdoms.)
+
+%s...  I think I'm beginning to understand why you have acted this way.  At first, I was...  well, not as much surprised as disappointed.  I'd thought that showing your people mercy was the right decision.  That my father had been too consumed by rage, that the Orcs could be truly be better people if we gave them a chance, and if you were shown how much of a better place Eyal could be if you were to cooperate with us.  That no matter what my father, my mother, and my allies had told me, the Orcish race contained, somewhere deep down, the same potential for learning, growth, and beauty present in Humans, Halflings, Elves, Dwarves, and Ogres.
+
+But now...  I see no good in you.  So many are dead, because I couldn't bring myself to admit that some people are beyond redemption.  Because I thought all you needed was a second chance, that you had goals other than blind, bloody revenge, that you'd see that we had held you in the grip of our absolute mercy, and opted to offer you an open hand rather than crush you as easily as clenching our fist.
+
+I will not make the same mistake again.
+
+You've shown me that the Orcish heart is empty of everything but lust for death and destruction, that no matter how good a future is laid out in front of you, you will discard it simply for the thrill of battle against the reasonable people who want this better future to come.  You've shown me that the prejudices I've strived to transcend were right all along.  You've shown me that my father's only mistake was not going far enough - a continent free of Orcs is not enough to keep us safe.  Instead, your kind must be purged from all of Eyal - and the battle to make this happen is inevitable, for you will continue pushing for it no matter how much we try to make peace an option.  And yet...  you've made me understand the reason of this approach, of treating everyone else like an irrational threat to your existence, for it is the only proper way for us to treat you.
+
+You won't get another second chance from us.  Instead, we'll give you the only thing you've ever wanted: a battle.  Through this portal waits the army of the Allied Kingdoms, once foes or begrudging co-inhabitants who have grown into true allies because we have a desire for peace and cooperation that your kind will never know.  We wait on an open battlefield, ready to demonstrate our combined might.  The Shaloren of Elvala prepare spells as the Ogres grip their clubs tighter; the Halflings and Humans of Derth and Last Hope have forgotten their age-old rivalry, working together to brew alchemical bombs and build great golems, or take up positions with a bow or sling; the Dwarves of Iron Throne and the Thaloren of Shatur, not even proper allies with us before now, realize you are too great a threat to go neglected, and now our ranks are lined with Wilders summoning countless beasts and treants, and fierce warriors who will #{italic}#not#{normal}# be moved.  Even the forces of the Sunwall have joined us, a contingent of their finest warriors sent to reinforce our lines and quickly train our soldiers in the magical techniques they've honed over the years, using you irredeemable savages as their sharpening stones.
+
+I shall be waiting in the front line of this glorious alliance, sword in hand.  I, King Tolak the Fair, son of Toknor who once purged your people from Maj'Eyal, I who once fought to spare your kind from slavery or extinction, now eagerly await the opportunity to finish what he started.  If I die, Toknor's bloodline dies with me; this is a risk I am willing - no, #{italic}#excited#{normal}# to take, to settle the fate of all civilized peoples of Eyal, once and for all.
+
+You want your revenge on my father's people, foul cur?  #{italic}#Come and get it.#{normal}#
+
+(You admit, it is rather tempting...  but the guaranteed safety of your people takes priority, and besides, you wouldn't put it past the Allied Kingdoms to have a team of archers and slingers waiting to snipe everyone who came through, one by one.  You destroy the portal, eliminating King Tolak's army as a threat, and ensuring Sun Paladin Aeryn won't be getting any reinforcements.  Time to take advantage of your newfound privacy, and finish off the Sunwall forces, once and for all...)]], [[(As you approach the farportal, a herald emerges, holding an envelope; he doesn't quite hand it to you as much as throw it at you from a safe distance, then salutes and retreats back into the swirling rift.  The letter bears the royal seal of the Allied Kingdoms.)
+
+%s...  I think I'm beginning to understand why you have acted this way.  At first, I was...  well, not as much surprised as disappointed.  I'd thought that showing your people mercy was the right decision.  That my father had been too consumed by rage, that the Orcs could be truly be better people if we gave them a chance, and if you were shown how much of a better place Eyal could be if you were to cooperate with us.  That no matter what my father, my mother, and my allies had told me, the Orcish race contained, somewhere deep down, the same potential for learning, growth, and beauty present in Humans, Halflings, Elves, Dwarves, and Ogres.
+
+But now...  I see no good in you.  So many are dead, because I couldn't bring myself to admit that some people are beyond redemption.  Because I thought all you needed was a second chance, that you had goals other than blind, bloody revenge, that you'd see that we had held you in the grip of our absolute mercy, and opted to offer you an open hand rather than crush you as easily as clenching our fist.
+
+I will not make the same mistake again.
+
+You've shown me that the Orcish heart is empty of everything but lust for death and destruction, that no matter how good a future is laid out in front of you, you will discard it simply for the thrill of battle against the reasonable people who want this better future to come.  You've shown me that the prejudices I've strived to transcend were right all along.  You've shown me that my father's only mistake was not going far enough - a continent free of Orcs is not enough to keep us safe.  Instead, your kind must be purged from all of Eyal - and the battle to make this happen is inevitable, for you will continue pushing for it no matter how much we try to make peace an option.  And yet...  you've made me understand the reason of this approach, of treating everyone else like an irrational threat to your existence, for it is the only proper way for us to treat you.
+
+You won't get another second chance from us.  Instead, we'll give you the only thing you've ever wanted: a battle.  Through this portal waits the army of the Allied Kingdoms, once foes or begrudging co-inhabitants who have grown into true allies because we have a desire for peace and cooperation that your kind will never know.  We wait on an open battlefield, ready to demonstrate our combined might.  The Shaloren of Elvala prepare spells as the Ogres grip their clubs tighter; the Halflings and Humans of Derth and Last Hope have forgotten their age-old rivalry, working together to brew alchemical bombs and build great golems, or take up positions with a bow or sling; the Dwarves of Iron Throne and the Thaloren of Shatur, not even proper allies with us before now, realize you are too great a threat to go neglected, and now our ranks are lined with Wilders summoning countless beasts and treants, and fierce warriors who will #{italic}#not#{normal}# be moved.  Even the forces of the Sunwall have joined us, a contingent of their finest warriors sent to reinforce our lines and quickly train our soldiers in the magical techniques they've honed over the years, using you irredeemable savages as their sharpening stones.
+
+I shall be waiting in the front line of this glorious alliance, sword in hand.  I, King Tolak the Fair, son of Toknor who once purged your people from Maj'Eyal, I who once fought to spare your kind from slavery or extinction, now eagerly await the opportunity to finish what he started.  If I die, Toknor's bloodline dies with me; this is a risk I am willing - no, #{italic}#excited#{normal}# to take, to settle the fate of all civilized peoples of Eyal, once and for all.
+
+You want your revenge on my father's people, foul cur?  #{italic}#Come and get it.#{normal}#
+
+(You admit, it is rather tempting...  but the guaranteed safety of your people takes priority, and besides, you wouldn't put it past the Allied Kingdoms to have a team of archers and slingers waiting to snipe everyone who came through, one by one.  You destroy the portal, eliminating King Tolak's army as a threat, and ensuring Sun Paladin Aeryn won't be getting any reinforcements.  Time to take advantage of your newfound privacy, and finish off the Sunwall forces, once and for all...)]], "tformat")
 t("Sun Paladin report", "Sun Paladin report", "_t")
 t([[Lady Aeryn,
 
@@ -3882,6 +3837,11 @@ Now I see where kindness and mercy get me.]], [[I stuck up for you. I wanted to 
 
 Now I see where kindness and mercy get me.]], "_t")
 t("hope", "hope", "_t")
+t([[You took everything from me.  You took the dawn of a beautiful future, you took the fires of hope and happiness, you took the kind, guiding light of my love Aeryn and put out the glow of the life we deserved to have together.  The light is gone...  but you have given me darkness in return.  And you're about to know that darkness very, very well.  Embracing it fully rather than shutting it out...  It's so easy to use these powers now.  I've felt them before, but I had no hate to use as their inspiration, no true misery to pour into the minds deserving, no empty void inside me to drain your hopes and confidence into.  You've fixed that for me.
+
+My heart still beats, but you have taken my life nonetheless.  You'll understand shortly.]], [[You took everything from me.  You took the dawn of a beautiful future, you took the fires of hope and happiness, you took the kind, guiding light of my love Aeryn and put out the glow of the life we deserved to have together.  The light is gone...  but you have given me darkness in return.  And you're about to know that darkness very, very well.  Embracing it fully rather than shutting it out...  It's so easy to use these powers now.  I've felt them before, but I had no hate to use as their inspiration, no true misery to pour into the minds deserving, no empty void inside me to drain your hopes and confidence into.  You've fixed that for me.
+
+My heart still beats, but you have taken my life nonetheless.  You'll understand shortly.]], "_t")
 t("suffering", "suffering", "_t")
 t([[Fall.  Suffer.  Lose the hope that drives you, or whatever brutish instinct suffices for it in your abominable mind.  Feel the pain you caused me, and know that it will never, ever stop...  you can feel it eroding your will to keep going, can't you?
 
@@ -4038,10 +3998,9 @@ t("You see here a cave painting, depicting a giant holding an object, which is p
 ------------------------------------------------
 section "tome-orcs/data/maps/zones/worldmap.lua"
 
-
+t("Far East", "Extrême-Orient", "_t")
 -- texte non traduit
 --[==[
-t("Far East", "Far East", "_t")
 t("Var'Eyal", "Var'Eyal", "_t")
 t("WARNING", "WARNING", "_t")
 t("Danger!", "Danger!", "_t")
@@ -4053,7 +4012,7 @@ t("Clork Peninsula", "Clork Peninsula", "_t")
 ------------------------------------------------
 section "tome-orcs/data/quests/amakthel.lua"
 
-
+t("Winner", "Gagnant", "_t")
 -- texte non traduit
 --[==[
 t("The Dead God Awaits", "The Dead God Awaits", "_t")
@@ -4065,7 +4024,6 @@ t("The Sher'tul Priest has been taken care of, Amakthel will keep on sleeping fo
 t("#LIGHT_GREEN#You have won the game!.#WHITE#", "#LIGHT_GREEN#You have won the game!.#WHITE#", "_t")
 t("#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "log")
 t("Orc Warrior", "Orc Warrior", "_t")
-t("Winner", "Winner", "_t")
 t("#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "_t")
 t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "_t")
 t("The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "_t")
@@ -4265,7 +4223,7 @@ t("#LIGHT_GREEN#* The third valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* T
 ------------------------------------------------
 section "tome-orcs/data/quests/ritch-hive.lua"
 
-
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("A Ritch Party", "A Ritch Party", "_t")
@@ -4280,7 +4238,6 @@ t("#LIGHT_GREEN#* You have tunnelled close enough to the Gates of Morning.#WHITE
 t("#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "_t")
 t("Stralite Sand Shredder", "Stralite Sand Shredder", "_t")
 t("Automatically deploy a huge rotating drill when you hit a sandwall, carving out a big part of it quickly.", "Automatically deploy a huge rotating drill when you hit a sandwall, carving out a big part of it quickly.", "_t")
-t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
 --]==]
 
 
@@ -4399,20 +4356,15 @@ t("No medical injector available, values are indicative only.", "No medical inje
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/celestial-empyreal.lua"
 
-
--- nouveau texte
+t("celestial", "Céleste", "talent category")
+-- texte non traduit
 --[==[
 t("Sol", "Sol", "talent type")
+t("", "", "_t")
 t("Cosmic", "Cosmic", "talent type")
 t("Energies", "Energies", "talent type")
 t("Reflection", "Reflection", "talent type")
 t("Void", "Void", "talent type")
---]==]
-
--- texte non traduit
---[==[
-t("celestial", "celestial", "talent category")
-t("", "", "_t")
 --]==]
 
 
@@ -4545,7 +4497,8 @@ t("Summons the starscape in the surrounding area in a radius of %d. For %d turns
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/npcs.lua"
 
-
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Petrifying Gaze", "Petrifying Gaze", "talent name")
@@ -4586,8 +4539,6 @@ t("#CRIMSON#%s awakens!", "#CRIMSON#%s awakens!", "saySimple")
 t("The Dead God slumbers. For now.", "The Dead God slumbers. For now.", "_t")
 t("Tentacle Spawn", "Tentacle Spawn", "talent name")
 t("@Source@ spawns a tentacle near @target@.", "@Source@ spawns a tentacle near @target@.", "_t")
-t("You cannot summon; you are suppressed!", "You cannot summon; you are suppressed!", "logPlayer")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("#ORCHID#%s summons a %s...", "#ORCHID#%s summons a %s...", "logCombat")
 t("#ORCHID#%s summons a %s...", "#ORCHID#%s summons a %s...", "saySimple")
 t("The Dead God wishes to tickle you...", "The Dead God wishes to tickle you...", "_t")
@@ -4623,15 +4574,11 @@ t("Mind Controlled Yeti", "Mind Controlled Yeti", "talent name")
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/objects.lua"
 
-
--- nouveau texte
---[==[
-t("object techniques", "object techniques", "talent type")
---]==]
-
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("steam", "steam", "talent category")
+t("object techniques", "object techniques", "talent type")
 t("Steam powers of the various objects of the world.", "Steam powers of the various objects of the world.", "_t")
 t("Overgrowth", "Overgrowth", "talent name")
 t([[Instantly grow a moss circle of radius %d at target area.
@@ -4647,7 +4594,6 @@ t([[Instantly grow a moss circle of radius %d at target area.
 		The damage will increase with your Mindpower.]], "tformat")
 t("Ceasefire", "Ceasefire", "talent name")
 t("You require at least a steamgun for this talent.", "You require at least a steamgun for this talent.", "logPlayer")
-t("%s resists!", "%s resists!", "logSeen")
 t([[You fire an incredibly potent shot at an enemy, doing %d%% damage and dazing them for %d turns.
 		The daze chance increases with your Steampower.]], [[You fire an incredibly potent shot at an enemy, doing %d%% damage and dazing them for %d turns.
 		The daze chance increases with your Steampower.]], "tformat")
@@ -4677,15 +4623,10 @@ t([[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1
 section "tome-orcs/data/talents/misc/races.lua"
 
 
--- nouveau texte
---[==[
-t("yeti", "yeti", "talent type")
-t("whitehooves", "whitehooves", "talent type")
---]==]
-
 -- texte non traduit
 --[==[
 t("race", "race", "talent category")
+t("yeti", "yeti", "talent type")
 t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
 t("Algid Rage", "Algid Rage", "talent name")
 t([[Your yeti is attuned to the cold climates.
@@ -4711,6 +4652,7 @@ t([[You willingly fry a few parts of your yeti's brain to trigger a huge psionic
 		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], [[You willingly fry a few parts of your yeti's brain to trigger a huge psionic blast in cone of radius %d.
 		Any foes caught in the blast will suffer %0.2f mind damage and be confused (35%% power) for %d turns.
 		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], "tformat")
+t("whitehooves", "whitehooves", "talent type")
 t("Whitehooves", "Whitehooves", "talent name")
 t([[Improves your undead body, increasing Strength and Magic by %d.
 		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
@@ -4854,19 +4796,14 @@ t([[While inside a psionic fog the quantum state of space is warped by your powe
 ------------------------------------------------
 section "tome-orcs/data/talents/psionic/psionic.lua"
 
-
--- nouveau texte
---[==[
-t("gestalt", "gestalt", "talent type")
-t("action at a distance", "action at a distance", "talent type")
-t("psionic fog", "psionic fog", "talent type")
---]==]
-
+t("psionic", "psyché", "talent category")
 -- texte non traduit
 --[==[
-t("psionic", "psionic", "talent category")
+t("gestalt", "gestalt", "talent type")
 t("Harness steam energies to power your own mind.", "Harness steam energies to power your own mind.", "_t")
+t("action at a distance", "action at a distance", "talent type")
 t("Focus your mental energies to make things happen. Or combust.", "Focus your mental energies to make things happen. Or combust.", "_t")
+t("psionic fog", "psionic fog", "talent type")
 t("Psionically manipulate steam to harass your foes and protect yourself.", "Psionically manipulate steam to harass your foes and protect yourself.", "_t")
 --]==]
 
@@ -5013,22 +4950,18 @@ t([[After casting a technomancy spell you store some of its energies that you ca
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/spells.lua"
 
-t("spell", "contre les sorts", "talent category")
--- nouveau texte
---[==[
-t("undead drake", "undead drake", "talent type")
-t("galvanic technomancy", "galvanic technomancy", "talent type")
-t("terrene technomancy", "terrene technomancy", "talent type")
-t("occult technomancy", "occult technomancy", "talent type")
-t("other technomancy", "other technomancy", "talent type")
---]==]
-
+t("spell", "sort", "talent category")
 -- texte non traduit
 --[==[
+t("undead drake", "undead drake", "talent type")
 t("Take on the defining aspects of an Undead Drake.", "Take on the defining aspects of an Undead Drake.", "_t")
+t("galvanic technomancy", "galvanic technomancy", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "_t")
+t("terrene technomancy", "terrene technomancy", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes with earth and water.", "Combine the power of steamtech and arcane forces to destroy your foes with earth and water.", "_t")
+t("occult technomancy", "occult technomancy", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes with arcane and time.", "Combine the power of steamtech and arcane forces to destroy your foes with arcane and time.", "_t")
+t("other technomancy", "other technomancy", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes.", "Combine the power of steamtech and arcane forces to destroy your foes.", "_t")
 --]==]
 
@@ -5449,13 +5382,6 @@ t([[You temporarily overcharge the saw motors, increasing the effective talent l
 section "tome-orcs/data/talents/steam/chemical-warfare.lua"
 
 
--- nouveau texte
---[==[
-t([[You consume all Miasma Engine stacks you have to fire a blast of corrosive death through your steamgun, dealing %d%% weapon damage as acid in a radius %d cone with a %d%% chance to remove a random beneficial physical or mental effect. For every stack beyond the first the damage dealt is increased by 50%% and there is a %d%% chance to remove an additional effect.
-		This attack ignores all enemy armour, and you must have at least 1 stack of Miasma Engine to use this talent.]], [[You consume all Miasma Engine stacks you have to fire a blast of corrosive death through your steamgun, dealing %d%% weapon damage as acid in a radius %d cone with a %d%% chance to remove a random beneficial physical or mental effect. For every stack beyond the first the damage dealt is increased by 50%% and there is a %d%% chance to remove an additional effect.
-		This attack ignores all enemy armour, and you must have at least 1 stack of Miasma Engine to use this talent.]], "tformat")
---]==]
-
 -- texte non traduit
 --[==[
 t("Miasma Engine", "Miasma Engine", "talent name")
@@ -5477,6 +5403,9 @@ t("Smogscreen", "Smogscreen", "talent name")
 t("You become difficult to target through the thick smog generated by your Miasma Engine. While surrounded by miasma you have a %d%% chance to entirely avoid damage, increased by %d%% per stack.", "You become difficult to target through the thick smog generated by your Miasma Engine. While surrounded by miasma you have a %d%% chance to entirely avoid damage, increased by %d%% per stack.", "tformat")
 t("Fumigate", "Fumigate", "talent name")
 t("You require a steamgun and an active miasma cloud for this talent.", "You require a steamgun and an active miasma cloud for this talent.", "logPlayer")
+t([[You consume all Miasma Engine stacks you have to fire a blast of corrosive death through your steamgun, dealing %d%% weapon damage as acid in a radius %d cone with a %d%% chance to remove a random beneficial physical or mental effect. For every stack beyond the first the damage dealt is increased by 50%% and there is a %d%% chance to remove an additional effect.
+		This attack ignores all enemy armour, and you must have at least 1 stack of Miasma Engine to use this talent.]], [[You consume all Miasma Engine stacks you have to fire a blast of corrosive death through your steamgun, dealing %d%% weapon damage as acid in a radius %d cone with a %d%% chance to remove a random beneficial physical or mental effect. For every stack beyond the first the damage dealt is increased by 50%% and there is a %d%% chance to remove an additional effect.
+		This attack ignores all enemy armour, and you must have at least 1 stack of Miasma Engine to use this talent.]], "tformat")
 --]==]
 
 
@@ -5747,7 +5676,7 @@ The healing and damage will increase with your Steampower.]], "tformat")
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/gunner-training.lua"
 
-
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("Steamgun Mastery", "Steamgun Mastery", "talent name")
@@ -5756,7 +5685,6 @@ t([[Increases weapon damage by %d%% and Physical Power by 30 when using steamgun
 		Also, increases your reload rate by %d.]], "tformat")
 t("Double Shots", "Double Shots", "talent name")
 t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
-t("%s resists!", "%s resists!", "logSeen")
 t([[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
 Each shot (targeted separately) deals %d%% damage and stuns its target for %d turns.
 		The stun chance increases with your Steampower.]], [[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
@@ -5821,7 +5749,7 @@ t([[Your cunning and dexterity allow you to fire incredible trick shots that can
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/heavy-weapons.lua"
 
-
+t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Heavy Weapons", "Heavy Weapons", "talent name")
@@ -5911,7 +5839,6 @@ The chance to silence will increase with your Steampower.]], [[You augment your 
 These attacks will not trigger Counterstrike.
 The chance to silence will increase with your Steampower.]], "tformat")
 t("Safety Override", "Safety Override", "talent name")
-t("%s resists the stun!", "%s resists the stun!", "logSeen")
 t("%s slams into something solid, emitting a pulse of stunning lightning!", "%s slams into something solid, emitting a pulse of stunning lightning!", "logSeen")
 t([[Push your heavy weapon beyond its normal limits to trigger a powerful effect. This will immediately disable your heavy weapon and expends all remaining ammunition.
 #AQUAMARINE#Flamethrower#LAST#: Detonate your fuel tanks, creating a radius 4 explosion that launches you to a chosen tile in range %d. Enemies caught within the explosion take %0.2f fire damage, and further fire damage equal to %d%% of their current burning damage from the volatile fuel.
@@ -5982,13 +5909,8 @@ t([[Project a radius 3 electric field from your shield lasting %d turns. Enemies
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/mecharachnid.lua"
 
-
--- nouveau texte
---[==[
-t("armament", "armament", "talent type")
-t("assault", "assault", "talent type")
---]==]
-
+t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
+t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
 -- texte non traduit
 --[==[
 t("disarmed", "disarmed", "_t")
@@ -6007,9 +5929,7 @@ t("A heavily armored mechachnical spider, armed to the teeth with advanced weapo
 t("Your mecharachnid is out of sight; you cannot establish direct control.", "Your mecharachnid is out of sight; you cannot establish direct control.", "logPlayer")
 t("Mecharachnid", "Mecharachnid", "talent name")
 t("mecharachnid", "mecharachnid", "_t")
-t("%s (servant of %s)", "%s (servant of %s)", "tformat")
 t("mecharachnid (servant of %s)", "mecharachnid (servant of %s)", "tformat")
-t("Not enough space to invoke!", "Not enough space to invoke!", "logPlayer")
 t("Your mecharachnid is not dead.", "Your mecharachnid is not dead.", "logPlayer")
 t([[You build a mighty mechanical arachnid to assist you in combat. You can equip the mecharachnid with 2 steamguns, ammunition, and armor of your choice.
 If your mecharachnid is dead, this will resurrect it with %d%% of its maximum life. Your mecharachnid is automatically rebuilt at full life when combat ends.
@@ -6045,7 +5965,9 @@ t("Mecharachnid Piloting", "Mecharachnid Piloting", "talent name")
 t("You require your mecharachnid to be adjacent.", "You require your mecharachnid to be adjacent.", "logPlayer")
 t("Leap into your mecharachnid, assuming direct control of it for %d turns. While piloting it, all damage dealt is increased by %d%%, resistances are increased by %d%%, and all of its talents cooldown twice as fast.", "Leap into your mecharachnid, assuming direct control of it for %d turns. While piloting it, all damage dealt is increased by %d%%, resistances are increased by %d%%, and all of its talents cooldown twice as fast.", "tformat")
 t("steamtech", "steamtech", "talent category")
+t("armament", "armament", "talent type")
 t("Ranged combat mecharachnid abilities.", "Ranged combat mecharachnid abilities.", "_t")
+t("assault", "assault", "talent type")
 t("Close combat mecharachnid abilities.", "Close combat mecharachnid abilities.", "_t")
 t("Overrun", "Overrun", "talent name")
 t("You require a tail-mounted steamsaw for this talent.", "You require a tail-mounted steamsaw for this talent.", "logPlayer")
@@ -6121,7 +6043,12 @@ t("When you use a shoot class talent to hit a creature affected by bloodstar an 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/other.lua"
 
-
+t("Summon", "Invocation", "_t")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
+t("%s resists the blinding light!", "%s résiste à la lumière éblouissante!", "logSeen")
+t("%s is knocked back!", "%s est repoussé!", "logSeen")
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Medical Injector", "Medical Injector", "talent name")
@@ -6140,7 +6067,6 @@ t("Select a weapon for your Automaton", "Select a weapon for your Automaton", "_
 t("Weapon Automaton: %s", "Weapon Automaton: %s", "tformat")
 t("An Automaton wielding a chosen weapon.", "An Automaton wielding a chosen weapon.", "_t")
 t("#F53CBE#%s runs out of power.", "#F53CBE#%s runs out of power.", "logSeen")
-t("Summon", "Summon", "_t")
 t([[Deploy a Weapon Automaton based on a selected one handed melee item.  The Automaton will wield the selected weapon and drop it when it times out or is destroyed.  Aside from the weapon selected, the Automaton will scale off Tinker talent levels, your own stats, and other things that will be described in this tooltip at some point.  
 		]], [[Deploy a Weapon Automaton based on a selected one handed melee item.  The Automaton will wield the selected weapon and drop it when it times out or is destroyed.  Aside from the weapon selected, the Automaton will scale off Tinker talent levels, your own stats, and other things that will be described in this tooltip at some point.  
 		]], "tformat")
@@ -6150,7 +6076,6 @@ t([[Fires your ammo at an enemy in range %d for %d%% weapon damage.  If this tin
 			This shot is a ranged melee attack but will use the ranged procs of your ammo as well.]], [[Fires your ammo at an enemy in range %d for %d%% weapon damage.  If this tinker is made of voratun you will fire an additional shot.
 			This shot is a ranged melee attack but will use the ranged procs of your ammo as well.]], "tformat")
 t("Fatal Attractor", "Fatal Attractor", "talent name")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("fatal attractor", "fatal attractor", "_t")
 t("A psionic contraption that reflects damage and forces things to attack it.", "A psionic contraption that reflects damage and forces things to attack it.", "_t")
 t([[Quickly create a psionic-enhanced metal contraption that lures all your foes to it and reflects %d%% of the damage it takes to its attackers.
@@ -6174,7 +6099,6 @@ t([[Activate the pistons to crush your target for %d turns and dealing %d%% unar
 		While the target is held it can not move and its armour and defense are reduced by %d.
 		#{italic}#Crush their bones!#{normal}#]], "tformat")
 t("Spring Grapple", "Spring Grapple", "talent name")
-t("%s resists the pin!", "%s resists the pin!", "logSeen")
 t("Grab the target and pull them towards you, striking for %d%% unarmed melee damage, and if you hit, pinning them for %d turns.", "Grab the target and pull them towards you, striking for %d%% unarmed melee damage, and if you hit, pinning them for %d turns.", "tformat")
 t("Toxic Cannister Launcher", "Toxic Cannister Launcher", "talent name")
 t("toxic cannister", "toxic cannister", "_t")
@@ -6239,7 +6163,6 @@ t([[Touch a creature to release a nasty electrical charge into them, doing %0.2f
 		The number of enemies hit is at most the tinker tier.
 		The damage increases with your Steampower.]], "tformat")
 t("Flash Powder", "Flash Powder", "talent name")
-t("%s resists the blinding light!", "%s resists the blinding light!", "logSeen")
 t([[Throw a handful of dust that rapidly oxidises, releasing a blinding light.
 		Creatures in a cone of radius %d are blinded for %d turns.
 		The blindness effect is applied with your Steampower.]], [[Throw a handful of dust that rapidly oxidises, releasing a blinding light.
@@ -6306,8 +6229,6 @@ t([[You fire a special explosive shot with your steamgun(s) at a spot within ran
 		These charges will shortly explode for %0.2f fire damage in a radius of 1.
 		This talent does not use ammo as it is the ammo.]], "tformat")
 t("Solid Shell", "Solid Shell", "talent name")
-t("%s is knocked back!", "%s is knocked back!", "logSeen")
-t("%s resists the knockback!", "%s resists the knockback!", "logSeen")
 t([[You fire a special solid shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The weight of the shot will knock the target back %d tiles.
 		This talent does not use ammo as it is the ammo.]], [[You fire a special solid shot with your steamgun(s) at a target for %d%% physical weapon damage.
@@ -6523,75 +6444,71 @@ t([[When you kill a foe you place small explosives with shrapnels inside its bod
 section "tome-orcs/data/talents/steam/steam.lua"
 
 t("other", "autre", "talent type")
--- nouveau texte
---[==[
-t("implants", "implants", "talent type")
-t("physics", "physics", "talent type")
-t("chemistry", "chemistry", "talent type")
-t("blacksmith", "blacksmith", "talent type")
-t("engineering", "engineering", "talent type")
-t("butchery", "butchery", "talent type")
-t("sawmaiming", "sawmaiming", "talent type")
-t("battlefield management", "battlefield management", "talent type")
-t("battle machinery", "battle machinery", "talent type")
-t("automated butchery", "automated butchery", "talent type")
-t("furnace", "furnace", "talent type")
-t("gunner training", "gunner training", "talent type")
-t("gunslinging", "gunslinging", "talent type")
-t("bullets mastery", "bullets mastery", "talent type")
-t("avoidance", "avoidance", "talent type")
-t("elusiveness", "elusiveness", "talent type")
-t("automation", "automation", "talent type")
-t("psytech gunnery", "psytech gunnery", "talent type")
-t("thoughts of iron", "thoughts of iron", "talent type")
-t("mechstar", "mechstar", "talent type")
-t("dread", "dread", "talent type")
-t("magnetism", "magnetism", "talent type")
-t("demolition", "demolition", "talent type")
-t("gadgets", "gadgets", "talent type")
-t("heavy weapons", "heavy weapons", "talent type")
-t("turrets", "turrets", "talent type")
-t("artillery", "artillery", "talent type")
-t("mecharachnid", "mecharachnid", "talent type")
-t("chemical warfare", "chemical warfare", "talent type")
---]==]
-
+t("dread", "hanteur", "talent type")
 -- texte non traduit
 --[==[
 t("Steam Pool", "Steam Pool", "talent name")
 t("Allows you to have a steam pool. Steam is used to use most steamtech equipments and powers.", "Allows you to have a steam pool. Steam is used to use most steamtech equipments and powers.", "_t")
 t("inscriptions", "inscriptions", "talent category")
+t("implants", "implants", "talent type")
 t("Steamtech directly embedded on the skin.", "Steamtech directly embedded on the skin.", "_t")
 t("steamtech", "steamtech", "talent category")
 t("Tinkers with stuff.", "Tinkers with stuff.", "_t")
+t("physics", "physics", "talent type")
 t("Learn the mechanical side of steamtech.", "Learn the mechanical side of steamtech.", "_t")
+t("chemistry", "chemistry", "talent type")
 t("Learn the chemistry side of steamtech.", "Learn the chemistry side of steamtech.", "_t")
+t("blacksmith", "blacksmith", "talent type")
 t("All this metalworking has improved you.", "All this metalworking has improved you.", "_t")
+t("engineering", "engineering", "talent type")
 t("You don't just know how tinkering works, you know all the interesting details too!", "You don't just know how tinkering works, you know all the interesting details too!", "_t")
+t("butchery", "butchery", "talent type")
 t("Strap saws to your arms and rush into battle!", "Strap saws to your arms and rush into battle!", "_t")
+t("sawmaiming", "sawmaiming", "talent type")
 t("Use steam powered saws to their maximum efficiency! Maim! Cut! Shred!", "Use steam powered saws to their maximum efficiency! Maim! Cut! Shred!", "_t")
+t("battlefield management", "battlefield management", "talent type")
 t("Use steam powered saws to maneuver around the battlefield, gaining strategic advantage.", "Use steam powered saws to maneuver around the battlefield, gaining strategic advantage.", "_t")
+t("battle machinery", "battle machinery", "talent type")
 t("Use steam powered engines to tilt the battle in your favour.", "Use steam powered engines to tilt the battle in your favour.", "_t")
+t("automated butchery", "automated butchery", "talent type")
 t("Improve your saws and tinkers with automated processes to help shred your foes.", "Improve your saws and tinkers with automated processes to help shred your foes.", "_t")
+t("furnace", "furnace", "talent type")
 t("Harness the power of fire.", "Harness the power of fire.", "_t")
+t("gunner training", "gunner training", "talent type")
 t("Use steam powered guns to rain bullets of death on your foes!  (Learning these talents allow you to fire two steamguns at once.)", "Use steam powered guns to rain bullets of death on your foes!  (Learning these talents allow you to fire two steamguns at once.)", "_t")
+t("gunslinging", "gunslinging", "talent type")
 t("Use advanced marksmanship to confound and overwhelm your foes!  (Learning these talents allow you to fire two steamguns at once.)", "Use advanced marksmanship to confound and overwhelm your foes!  (Learning these talents allow you to fire two steamguns at once.)", "_t")
+t("bullets mastery", "bullets mastery", "talent type")
 t("Use various kinds of technology to temporarily enhance your bullets.  (Learning these talents allow you to fire two steamguns at once.)", "Use various kinds of technology to temporarily enhance your bullets.  (Learning these talents allow you to fire two steamguns at once.)", "_t")
+t("avoidance", "avoidance", "talent type")
 t("Using various enhancements of your cloak you are able to manage incoming damage.", "Using various enhancements of your cloak you are able to manage incoming damage.", "_t")
+t("elusiveness", "elusiveness", "talent type")
 t("Incredible feats of slipperiness!", "Incredible feats of slipperiness!", "_t")
+t("automation", "automation", "talent type")
 t("Use small automated devices to control the battlefield.", "Use small automated devices to control the battlefield.", "_t")
+t("psytech gunnery", "psytech gunnery", "talent type")
 t("Meld your psionic powers with awesome steamtech! For mayhem!", "Meld your psionic powers with awesome steamtech! For mayhem!", "_t")
+t("thoughts of iron", "thoughts of iron", "talent type")
 t("Apply some of your formidable willpower through steam devices.", "Apply some of your formidable willpower through steam devices.", "_t")
+t("mechstar", "mechstar", "talent type")
 t("Control your mindstar and infuse it with steamtech.", "Control your mindstar and infuse it with steamtech.", "_t")
 t("Behold the mechanized horrors.", "Behold the mechanized horrors.", "_t")
+t("magnetism", "magnetism", "talent type")
 t("Use the power of electricity to supercharge your shield.", "Use the power of electricity to supercharge your shield.", "_t")
+t("demolition", "demolition", "talent type")
 t("The use of high explosives.", "The use of high explosives.", "_t")
+t("gadgets", "gadgets", "talent type")
 t("Cunning devices to augment your combat skill.", "Cunning devices to augment your combat skill.", "_t")
+t("heavy weapons", "heavy weapons", "talent type")
 t("Wield powerful steamtech tools of destruction.", "Wield powerful steamtech tools of destruction.", "_t")
+t("turrets", "turrets", "talent type")
 t("Deploy steam powered turrets to assist you in combat.", "Deploy steam powered turrets to assist you in combat.", "_t")
 t("The various kinds of turrets.", "The various kinds of turrets.", "_t")
+t("artillery", "artillery", "talent type")
 t("Advanced explosive weaponry.", "Advanced explosive weaponry.", "_t")
+t("mecharachnid", "mecharachnid", "talent type")
 t("Build and deploy a powerful mechanical arachnid to assist you.", "Build and deploy a powerful mechanical arachnid to assist you.", "_t")
+t("chemical warfare", "chemical warfare", "talent type")
 t("Unleash toxic steamtech weaponry on your enemies.", "Unleash toxic steamtech weaponry on your enemies.", "_t")
 t("#VIOLET#EUREKA!", "#VIOLET#EUREKA!", "log")
 t("#VIOLET#EUREKA!#WHITE# Schematic learnt: #LIGHT_BLUE#%s", "#VIOLET#EUREKA!#WHITE# Schematic learnt: #LIGHT_BLUE#%s", "saySimple")
@@ -6606,11 +6523,6 @@ t("other", "autre", "_t")
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/thoughts-of-iron.lua"
 
-
--- nouveau texte
---[==[
-t("By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "tformat")
---]==]
 
 -- texte non traduit
 --[==[
@@ -6635,13 +6547,14 @@ t([[You cleanse your mind of %d mental debuffs.
 t("Mind Injection", "Mind Injection", "talent name")
 t("#LIGHT_BLUE#Mind Injection selected to be used first by salves.", "#LIGHT_BLUE#Mind Injection selected to be used first by salves.", "saySimple")
 t("This medical injector will now be used first if available when using medical salves.", "This medical injector will now be used first if available when using medical salves.", "logPlayer")
+t("By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/turrets.lua"
 
-
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Deploy Turret", "Deploy Turret", "talent name")
@@ -6665,7 +6578,6 @@ This talent also increases the Dexterity, Constitution and Cunning of all Turret
 All turrets gain bonus armor equal to 1/2 your level, are immune to all detrimental effects, and inherit your increased damage, resistance penetration, Steampower, Physical Power, and Accuracy.
 The stat bonus as well as the damage and healing dealt by Flame and Medic Turrets will increase with your Steampower.]], "tformat")
 t("Steamgun Turret", "Steamgun Turret", "talent name")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("steamgun turret", "steamgun turret", "_t")
 t("An automated turret equipped with a steamgun.", "An automated turret equipped with a steamgun.", "_t")
 t("Turret", "Turret", "_t")
@@ -6787,14 +6699,13 @@ t([[A small automatic detection system is always looking for incoming projectile
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/mag.lua"
 
-
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Arcane Amplification Drone Effect", "Arcane Amplification Drone Effect", "talent name")
 t("Spell damage done to it ripples in radius 4 doing 130% arcane damage.", "Spell damage done to it ripples in radius 4 doing 130% arcane damage.", "_t")
 t("Arcane Amplification Drone", "Arcane Amplification Drone", "talent name")
 t("Have gained the #{italic}#Tales of the Spellblaze#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "Have gained the #{italic}#Tales of the Spellblaze#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "_t")
-t("Not enough space to summon!", "Not enough space to summon!", "logPlayer")
 t("arcane amplification drone", "arcane amplification drone", "_t")
 t("Any spell damage you deal to it will ripple around in radius 4 as 160% arcane damage.", "Any spell damage you deal to it will ripple around in radius 4 as 160% arcane damage.", "_t")
 t([[You create an Arcane Amplification Drone at the selected location for 3 turns.
@@ -6900,36 +6811,36 @@ t("The target is under the effect of the moons. Decreasing lite and sight radius
 ------------------------------------------------
 section "tome-orcs/data/timed_effects/magical.lua"
 
+t("disease", "maladie", "effect subtype")
+t("blight", "maladie", "effect subtype")
+t("arcane", "dégâts d'arcane", "effect subtype")
+t("shield", "bouclier", "effect subtype")
+t("A shield forms around #target#.", "Un bouclier se forme autour de #target#.", "_t")
+t("+Shield", "+Bouclier", "_t")
+t("The shield around #target# crumbles.", "Le bouclier autour de #target# s'effondre.", "_t")
+t("-Shield", "-Bouclier", "_t")
+t("light", "lumière", "effect subtype")
+t("slow", "ralentissement", "effect subtype")
+t("temporal", "temporel", "effect subtype")
+t("celestial", "Céleste", "effect subtype")
 t("undead", "mort-vivant", "effect subtype")
-t("spell", "contre les sorts", "effect subtype")
+t("spell", "sort", "effect subtype")
 -- texte non traduit
 --[==[
-t("disease", "disease", "effect subtype")
-t("blight", "blight", "effect subtype")
 t("Viral Injection", "Viral Injection", "_t")
 t("The target is infected by a disease, reducing its highest %d stats by %d and doing %0.2f blight damage per turn.", "The target is infected by a disease, reducing its highest %d stats by %d and doing %0.2f blight damage per turn.", "tformat")
 t("#Target# is injected with a pathogen!", "#Target# is injected with a pathogen!", "_t")
 t("#Target# is free from the pathogen.", "#Target# is free from the pathogen.", "_t")
-t("arcane", "arcane", "effect subtype")
-t("shield", "shield", "effect subtype")
 t("Steam Shield", "Steam Shield", "_t")
 t("The target is surrounded by a magical steam shield, absorbing %d/%d damage and burning attackers for %d fire damage before it crumbles.", "The target is surrounded by a magical steam shield, absorbing %d/%d damage and burning attackers for %d fire damage before it crumbles.", "tformat")
-t("A shield forms around #target#.", "A shield forms around #target#.", "_t")
-t("+Shield", "+Shield", "_t")
-t("The shield around #target# crumbles.", "The shield around #target# crumbles.", "_t")
-t("-Shield", "-Shield", "_t")
 t("dark", "dark", "effect subtype")
-t("light", "light", "effect subtype")
 t("Twilit Echoes", "Twilit Echoes", "_t")
 t("The target feels the echoes of all light and dark damage it takes. Light damage slows the target by %0.2f%% per point of damage dealt, up to a maximum of %d%% at %d damage. Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source.", "The target feels the echoes of all light and dark damage it takes. Light damage slows the target by %0.2f%% per point of damage dealt, up to a maximum of %d%% at %d damage. Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source.", "tformat")
-t("slow", "slow", "effect subtype")
 t("Echoed Light", "Echoed Light", "_t")
 t("The light damage the target has taken is echoed, slowing them by %d%%. Taking additional damage while Twilit Echoes is active will refresh and increase the slow up to a maximum of %d%%.", "The light damage the target has taken is echoed, slowing them by %d%%. Taking additional damage while Twilit Echoes is active will refresh and increase the slow up to a maximum of %d%%.", "tformat")
-t("temporal", "temporal", "effect subtype")
 t("Mirror Worlded", "Mirror Worlded", "_t")
 t("This unit will flip spaces soon.", "This unit will flip spaces soon.", "_t")
 t("That space is occupied!", "That space is occupied!", "logPlayer")
-t("celestial", "celestial", "effect subtype")
 t("Starscape", "Starscape", "_t")
 t("Has summoned the starscape, slowing all creatures 67%.", "Has summoned the starscape, slowing all creatures 67%.", "_t")
 t("corruption", "corruption", "effect subtype")
@@ -6973,10 +6884,14 @@ t("All resistances increased by %d%%.", "All resistances increased by %d%%.", "t
 ------------------------------------------------
 section "tome-orcs/data/timed_effects/mental.lua"
 
+t("psionic", "psyché", "effect subtype")
 t("physical", "physique", "effect subtype")
+t("confusion", "confus", "effect subtype")
+t("fear", "peur", "effect subtype")
+t("curse", "malédiction", "effect subtype")
+t("#Target# is no longer cursed.", "#Target# n'est plus maudit.", "_t")
 -- texte non traduit
 --[==[
-t("psionic", "psionic", "effect subtype")
 t("gestalt", "gestalt", "effect subtype")
 t("Gestalt", "Gestalt", "_t")
 t("Steampower increased by %d.", "Steampower increased by %d.", "tformat")
@@ -6997,7 +6912,6 @@ t("biologic", "biologic", "effect subtype")
 t("save", "save", "effect subtype")
 t("Negative Biofeedback", "Negative Biofeedback", "_t")
 t("Physical save reduced by %d, armour and defense by %d.", "Physical save reduced by %d, armour and defense by %d.", "tformat")
-t("confusion", "confusion", "effect subtype")
 t("Unclear Thoughts", "Unclear Thoughts", "_t")
 t("Can not discern foes from friends.", "Can not discern foes from friends.", "tformat")
 t("#Target# wakes up from the nightmare very confused!", "#Target# wakes up from the nightmare very confused!", "_t")
@@ -7006,7 +6920,6 @@ t("Psy Worm", "Psy Worm", "_t")
 t("Infected by a psionic worm, doing %0.2f mind damage per turn. Damage doubled on stunned or feared foes, can spread to nearby creatures.", "Infected by a psionic worm, doing %0.2f mind damage per turn. Damage doubled on stunned or feared foes, can spread to nearby creatures.", "tformat")
 t("#Target# is infected by a psy worm!", "#Target# is infected by a psy worm!", "_t")
 t("#Target# is free from the psy worm.", "#Target# is free from the psy worm.", "_t")
-t("fear", "fear", "effect subtype")
 t("No Hope", "No Hope", "_t")
 t("All damage reduced by 40%%.", "All damage reduced by 40%%.", "tformat")
 t("#Target# loses all hope of winning!", "#Target# loses all hope of winning!", "_t")
@@ -7015,39 +6928,46 @@ t("All Seeing", "All Seeing", "_t")
 t("Can see all other beings around them.", "Can see all other beings around them.", "tformat")
 t("#Target# sees all!", "#Target# sees all!", "_t")
 t("#Target# loses their telepathy.", "#Target# loses their telepathy.", "_t")
-t("curse", "curse", "effect subtype")
 t("Curse of Amakthel", "Curse of Amakthel", "_t")
 t("All new negative effects on you will have their duration doubled.", "All new negative effects on you will have their duration doubled.", "tformat")
 t("#Target# is cursed!", "#Target# is cursed!", "_t")
-t("#Target# is no longer cursed.", "#Target# is no longer cursed.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/timed_effects/other.lua"
 
+t("speed", "rapidité", "effect subtype")
+t("spacetime", "espace-temps", "effect subtype")
+t("confusion", "confus", "effect subtype")
+t("The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "La cible est confuse, agit au hasard (chance %d%%) et est incapable d'effectuer des actions complexes.", "tformat")
+t("#Target# wanders around!", "#Target# Max erre dans tous les sens!", "_t")
+t("+Confused", "+Confus", "_t")
+t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
+t("-Confused", "-Confus", "_t")
+t("sun", "soleil", "effect subtype")
 t("other", "autre", "effect subtype")
-t("spell", "contre les sorts", "effect subtype")
+t("lightning", "foudre", "effect subtype")
+t("tactical", "tactique", "effect subtype")
+t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d partagé)#LAST#", "tformat")
+t("miscellaneous", "divers", "effect subtype")
+t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître; le contrôle direct est rompu!", "_t")
+t("+Out of sight", "+Hors de vue", "_t")
+t("acid", "dégâts d'acid", "effect subtype")
+t("healing", "soin", "effect subtype")
+t("spell", "sort", "effect subtype")
+t("cunning", "ruse", "effect subtype")
 -- texte non traduit
 --[==[
-t("speed", "speed", "effect subtype")
 t("Celestial Acceleration", "Celestial Acceleration", "_t")
 t("Your movement speed is increased by %d%%.", "Your movement speed is increased by %d%%.", "tformat")
 t("Your casting speed is increased by %d%%.", "Your casting speed is increased by %d%%.", "tformat")
 t("Your attack speed is increased by %d%%.", "Your attack speed is increased by %d%%.", "tformat")
 t("Your mind speed is increased by %d%%.", "Your mind speed is increased by %d%%.", "tformat")
 t("Your global speed is increased by %d%%.", "Your global speed is increased by %d%%.", "tformat")
-t("spacetime", "spacetime", "effect subtype")
 t("Outside the Starscape", "Outside the Starscape", "_t")
 t("This unit is outside of the starscape and cannot be harmed from within it,", "This unit is outside of the starscape and cannot be harmed from within it,", "_t")
-t("confusion", "confusion", "effect subtype")
 t("Mindblasted", "Mindblasted", "_t")
-t("The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "tformat")
-t("#Target# wanders around!", "#Target# wanders around!", "_t")
-t("+Confused", "+Confused", "_t")
-t("#Target# seems more focused.", "#Target# seems more focused.", "_t")
-t("-Confused", "-Confused", "_t")
-t("sun", "sun", "effect subtype")
 t("Shield of the Sun", "Shield of the Sun", "_t")
 t("The power of the Sun itself shields the target.", "The power of the Sun itself shields the target.", "_t")
 t("TO THE MOUNTAINS!", "TO THE MOUNTAINS!", "_t")
@@ -7059,16 +6979,13 @@ t("Aiming!", "Aiming!", "_t")
 t("Aiming a powerful beam. MOVE OUT!", "Aiming a powerful beam. MOVE OUT!", "_t")
 t("#PURPLE#NEKTOSH AIMS A POWERFUL BEAM! #{bold}#MOVE!!#{normal}#", "#PURPLE#NEKTOSH AIMS A POWERFUL BEAM! #{bold}#MOVE!!#{normal}#", "saySimple")
 t("%s blinks away and summons some help!", "%s blinks away and summons some help!", "logSeen")
-t("lightning", "lightning", "effect subtype")
 t("Capacitor Discharge", "Capacitor Discharge", "_t")
 t("Storing damage to unleash as a powerful lightning bolt (%d/%d).", "Storing damage to unleash as a powerful lightning bolt (%d/%d).", "tformat")
-t("tactical", "tactical", "effect subtype")
 t("Upgrade", "Upgrade", "_t")
 t("This turret has been greatly enhanced.", "This turret has been greatly enhanced.", "tformat")
 t("steamtech", "steamtech", "effect subtype")
 t("Guardian Shield", "Guardian Shield", "_t")
 t("%d%% of all incoming damage is redirected to the adjacent Guardian Turret.", "%d%% of all incoming damage is redirected to the adjacent Guardian Turret.", "tformat")
-t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d shared)#LAST#", "tformat")
 t("Countdown", "Countdown", "_t")
 t("At the end of this effect, your missile will explode!", "At the end of this effect, your missile will explode!", "tformat")
 t("Locked On", "Locked On", "_t")
@@ -7078,11 +6995,8 @@ t("#Target# has been marked by a rocket pod!", "#Target# has been marked by a ro
 t("+Locked On", "+Locked On", "_t")
 t("#Target# is no longer being marked by a rocket pod.", "#Target# is no longer being marked by a rocket pod.", "_t")
 t("-Locked On", "-Locked On", "_t")
-t("miscellaneous", "miscellaneous", "effect subtype")
 t("Mecharachnid out of sight", "Mecharachnid out of sight", "_t")
 t("The Mecharachnid is out of sight of the annihilator; direct control will be lost!", "The Mecharachnid is out of sight of the annihilator; direct control will be lost!", "_t")
-t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "_t")
-t("+Out of sight", "+Out of sight", "_t")
 t("#LIGHT_RED#You lost sight of your mecharachnid for too long; direct control is broken!", "#LIGHT_RED#You lost sight of your mecharachnid for too long; direct control is broken!", "logPlayer")
 t("mecharachnid out of sight", "mecharachnid out of sight", "_t")
 t("Piloted", "Piloted", "_t")
@@ -7095,10 +7009,8 @@ t("%d Ammo", "%d Ammo", "tformat")
 t("Has %d heavy ammunition loaded. Current heavy weapon will be unequiped when no ammunitions are left.", "Has %d heavy ammunition loaded. Current heavy weapon will be unequiped when no ammunitions are left.", "tformat")
 t("Stormstrike", "Stormstrike", "_t")
 t("The target has been staggered, reducing all damage dealt by %d%%.", "The target has been staggered, reducing all damage dealt by %d%%.", "tformat")
-t("acid", "acid", "effect subtype")
 t("Catalyst", "Catalyst", "_t")
 t("The target has been injected with chemicals, reducing all saves by %d.", "The target has been injected with chemicals, reducing all saves by %d.", "tformat")
-t("healing", "healing", "effect subtype")
 t("Automated Repair System", "Automated Repair System", "_t")
 t("Engaged in automated repairs, preventing any action but increasing life regen by %d, all resistances by %d%% and preventing death until falling below -%d life.", "Engaged in automated repairs, preventing any action but increasing life regen by %d, all resistances by %d%% and preventing death until falling below -%d life.", "tformat")
 t("#Target# shuts down and engages its automated repair system.", "#Target# shuts down and engages its automated repair system.", "_t")
@@ -7118,7 +7030,6 @@ t([[#LIGHT_GREEN#- Rod (%d): available
 t([[#LIGHT_RED#- Rod (%d): %d turns
 ]], [[#LIGHT_RED#- Rod (%d): %d turns
 ]], "tformat")
-t("cunning", "cunning", "effect subtype")
 t("Incoming Disasters", "Incoming Disasters", "_t")
 t("Vulnerable to more cross tier effects.", "Vulnerable to more cross tier effects.", "tformat")
 --]==]
@@ -7127,12 +7038,49 @@ t("Vulnerable to more cross tier effects.", "Vulnerable to more cross tier effec
 ------------------------------------------------
 section "tome-orcs/data/timed_effects/physical.lua"
 
+t("#Target# is less focused.", "#Target# est moins concentré.", "_t")
 t("Cloak", "Cape", "_t")
+t("nature", "dégâts de nature", "effect subtype")
+t("frost", "gel", "effect subtype")
+t("fire", "feu", "effect subtype")
 t("water", "eau", "effect subtype")
+t("slow", "ralentissement", "effect subtype")
+t("ice", "glace", "effect subtype")
+t("disease", "maladie", "effect subtype")
+t("wound", "blessure", "effect subtype")
+t("cut", "coupure", "effect subtype")
+t("bleed", "saignement", "effect subtype")
+t("resistance", "résistance", "effect subtype")
+t("power", "pouvoir", "effect subtype")
+t("pin", "immobilisé", "effect subtype")
+t("psionic", "psyché", "effect subtype")
+t("Marked for Death", "Condamné Marqué", "_t")
+t("#Target# regains their concentration.", "#Target# retrouve sa concentration.", "_t")
+t("blood", "sang", "effect subtype")
+t("heal", "soin", "effect subtype")
+t("#Target# starts to bleed.", "#Target# commence à saigner.", "_t")
+t("+Bleeds", "+Saignements", "_t")
+t("#Target# stops bleeding.", "#Target# cesse de saigner.", "_t")
+t("-Bleeds", "-Saignements", "_t")
+t("poison", "dégâts de poison", "effect subtype")
+t("blight", "maladie", "effect subtype")
+t("#Target# is poisoned!", "#Target# est empoisonné!", "_t")
+t("#Target# is no longer poisoned.", "#Target# n'est plus empoisonné.", "_t")
+t("moss", "mousse", "effect subtype")
+t("maimed", "mutilé", "effect subtype")
+t("Damage reduced by %d%%.", "Dégâts reduits de %d%%.", "tformat")
+t("acid", "dégâts d'acid", "effect subtype")
+t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "La cible a été aspergée d'acide et subit %0.2f de dégâts d'acide par tour.", "tformat")
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide!", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
+t("lightning", "foudre", "effect subtype")
+t("shield", "bouclier", "effect subtype")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts !", "logPlayer")
+t("sense", "sens", "effect subtype")
+t("grapple", "lutte", "effect subtype")
+t("%d%% chance to fully absorb any damaging actions.", "%d%% chance d'absorber entièrement tout dégât subi.", "tformat")
+t("Miasma", "Miasme", "_t")
 -- texte non traduit
 --[==[
 t("technique", "technique", "effect subtype")
@@ -7162,27 +7110,23 @@ t("Uncanny Reload", "Uncanny Reload", "_t")
 t("Firing steamguns does not consume shots.", "Firing steamguns does not consume shots.", "tformat")
 t("#Target# is focuses on firing.", "#Target# is focuses on firing.", "_t")
 t("+Uncanny Reload", "+Uncanny Reload", "_t")
-t("#Target# is less focused.", "#Target# is less focused.", "_t")
 t("-Uncanny Reload", "-Uncanny Reload", "_t")
 t("The target is wrapped in a cloak of shadow, granting sealth.", "The target is wrapped in a cloak of shadow, granting sealth.", "_t")
 t("#Target# disappears from sight.", "#Target# disappears from sight.", "_t")
 t("+Cloak", "+Cloak", "_t")
 t("#Target# re-appears.", "#Target# re-appears.", "_t")
 t("-Cloak", "-Cloak", "_t")
-t("nature", "nature", "effect subtype")
 t("Pain Suppressor Salve", "Pain Suppressor Salve", "_t")
 t("Fight to the brink of death, can not die before going under -%d life (but life under 0 is not shown) and increases all resistances by %d%%.", "Fight to the brink of death, can not die before going under -%d life (but life under 0 is not shown) and increases all resistances by %d%%.", "tformat")
 t("#Target# uses a pain suppressor salve.", "#Target# uses a pain suppressor salve.", "_t")
 t("+Pain Suppressor", "+Pain Suppressor", "_t")
 t("#Target# is not affected anymore by the salve.", "#Target# is not affected anymore by the salve.", "_t")
 t("-Pain Suppressor", "-Pain Suppressor", "_t")
-t("frost", "frost", "effect subtype")
 t("Frost Salve", "Frost Salve", "_t")
 t("Provides a frost aura, giving you +%d%% cold, nature and darkness affinity.", "Provides a frost aura, giving you +%d%% cold, nature and darkness affinity.", "tformat")
 t("#Target# uses a frost salve.", "#Target# uses a frost salve.", "_t")
 t("+Frost Salve", "+Frost Salve", "_t")
 t("-Frost Salve", "-Frost Salve", "_t")
-t("fire", "fire", "effect subtype")
 t("Fiery Salve", "Fiery Salve", "_t")
 t("Provides a frost aura, giving you +%d%% fire, light, and lightning affinity.", "Provides a frost aura, giving you +%d%% fire, light, and lightning affinity.", "tformat")
 t("#Target# uses a fiery salve.", "#Target# uses a fiery salve.", "_t")
@@ -7199,7 +7143,6 @@ t("Increases all saves by %d and healing factor by %d%%.", "Increases all saves 
 t("#Target# uses an unstoppable force salve.", "#Target# uses an unstoppable force salve.", "_t")
 t("+Unstoppable Force", "+Unstoppable Force", "_t")
 t("-Unstoppable Force", "-Unstoppable Force", "_t")
-t("slow", "slow", "effect subtype")
 t("Slow Talents", "Slow Talents", "_t")
 t("Attacking, casting and mind speed have been reduced by %d%%.", "Attacking, casting and mind speed have been reduced by %d%%.", "tformat")
 t("Supercharge Tinkers", "Supercharge Tinkers", "_t")
@@ -7214,10 +7157,8 @@ t("#Target# overcharges saw motors.", "#Target# overcharges saw motors.", "_t")
 t("+Overcharge Saws", "+Overcharge Saws", "_t")
 t("#Target#'s saw motors are back to normal.", "#Target#'s saw motors are back to normal.", "_t")
 t("-Overcharge Saws", "-Overcharge Saws", "_t")
-t("ice", "ice", "effect subtype")
 t("Algid Rage", "Algid Rage", "_t")
 t("You have %d%% chances to encase your foes in iceblocks.", "You have %d%% chances to encase your foes in iceblocks.", "tformat")
-t("disease", "disease", "effect subtype")
 t("Larvae Infestation", "Larvae Infestation", "_t")
 t("The target has been impregnated with %d developing ritch larvae which are feeding on it%s.  After a %d turn gestation period, each will burst out violently, dealing %0.2f physical and %0.2f fire damage to its host.", "The target has been impregnated with %d developing ritch larvae which are feeding on it%s.  After a %d turn gestation period, each will burst out violently, dealing %0.2f physical and %0.2f fire damage to its host.", "tformat")
 t(" for %0.2f physical damage (increasing) each turn", " for %0.2f physical damage (increasing) each turn", "tformat")
@@ -7230,9 +7171,6 @@ t("Tech Overload", "Tech Overload", "_t")
 t("Doubles your maximum steam and stops steam regeneration.", "Doubles your maximum steam and stops steam regeneration.", "tformat")
 t("Continuous Butchery", "Continuous Butchery", "_t")
 t("Increases steamsaw damage multiplier by %d%%.", "Increases steamsaw damage multiplier by %d%%.", "tformat")
-t("wound", "wound", "effect subtype")
-t("cut", "cut", "effect subtype")
-t("bleed", "bleed", "effect subtype")
 t("Explosive Saw", "Explosive Saw", "_t")
 t("Target is being assailed by an automated saw blade that cuts its flesh for %0.2f physical damage each turn%s. When the effect expires, the saw will explode for %0.2f fire damage and fly back to its source, pulling the target with it (up to %d tiles).", "Target is being assailed by an automated saw blade that cuts its flesh for %0.2f physical damage each turn%s. When the effect expires, the saw will explode for %0.2f fire damage and fly back to its source, pulling the target with it (up to %d tiles).", "tformat")
 t(" and silences it", " and silences it", "_t")
@@ -7242,21 +7180,18 @@ t("+Explosive Wounds", "+Explosive Wounds", "_t")
 t("The saw embedded in #Target# flies back its source.", "The saw embedded in #Target# flies back its source.", "_t")
 t("-Explosive Wounds", "-Explosive Wounds", "_t")
 t("The saw drags #Source# towards #Target#!", "The saw drags #Source# towards #Target#!", "logCombat")
-t("resistance", "resistance", "effect subtype")
 t("Subcutaneous Metallisation", "Subcutaneous Metallisation", "_t")
 t("All damage reduced by %d.", "All damage reduced by %d.", "tformat")
 t("#Target# internal structure metallises.", "#Target# internal structure metallises.", "_t")
 t("+Subcutaneous Metallisation", "+Subcutaneous Metallisation", "_t")
 t("#Target# internal structure returns to normal.", "#Target# internal structure returns to normal.", "_t")
 t("-Subcutaneous Metallisation", "-Subcutaneous Metallisation", "_t")
-t("power", "power", "effect subtype")
 t("Pain Enhancement System", "Pain Enhancement System", "_t")
 t("All stats increased by %d.", "All stats increased by %d.", "tformat")
 t("#Target# revels in the pain.", "#Target# revels in the pain.", "_t")
 t("+Pain Enhancement System", "+Pain Enhancement System", "_t")
 t("#Target# no longer feels strong.", "#Target# no longer feels strong.", "_t")
 t("-Pain Enhancement System", "-Pain Enhancement System", "_t")
-t("pin", "pin", "effect subtype")
 t("Net Projector", "Net Projector", "_t")
 t("The target has been pinned by an electrified net, reducing all resistances by %d%%.", "The target has been pinned by an electrified net, reducing all resistances by %d%%.", "tformat")
 t("#Target# is trapped by the net.", "#Target# is trapped by the net.", "_t")
@@ -7267,7 +7202,6 @@ t("Molten Point", "Molten Point", "_t")
 t("You have %d charges.", "You have %d charges.", "tformat")
 t("steam", "steam", "effect subtype")
 t("Pressure-enhanced Slashproof Combat Suit", "Pressure-enhanced Slashproof Combat Suit", "_t")
-t("psionic", "psionic", "effect subtype")
 t("Molten Iron Blood", "Molten Iron Blood", "_t")
 t("All resistances increased by %d%%, all new detrimental effects reduced by %d%%, %0.2f fire splash damage.", "All resistances increased by %d%%, all new detrimental effects reduced by %d%%, %0.2f fire splash damage.", "tformat")
 t("#Target#'s blood turn into molten iron.", "#Target#'s blood turn into molten iron.", "_t")
@@ -7281,7 +7215,6 @@ t("Awesome Toss", "Awesome Toss", "_t")
 t("All resistances increased by %d%%, randomly attacks two foes each turn at random.", "All resistances increased by %d%%, randomly attacks two foes each turn at random.", "tformat")
 t("#Target# tosses steamguns in the air, awesome!", "#Target# tosses steamguns in the air, awesome!", "_t")
 t("#Target# somehow catches the falling steamguns.", "#Target# somehow catches the falling steamguns.", "_t")
-t("Marked for Death", "Marked for Death", "_t")
 t("Ranged defense reduced by %d, takes %d%% extra damage from all sources.", "Ranged defense reduced by %d, takes %d%% extra damage from all sources.", "tformat")
 t("#Target# is marked!", "#Target# is marked!", "_t")
 t("+Marked for Death", "+Marked for Death", "_t")
@@ -7290,7 +7223,6 @@ t("Itching Powder", "Itching Powder", "_t")
 t("The target is very itchy, causing their actions to fail.", "The target is very itchy, causing their actions to fail.", "tformat")
 t("#Target# is very itching!", "#Target# is very itching!", "_t")
 t("+Itching Powder", "+Itching Powder", "_t")
-t("#Target# regains their concentration.", "#Target# regains their concentration.", "_t")
 t("-Itching Powder", "-Itching Powder", "_t")
 t("Smoke Cover", "Smoke Cover", "_t")
 t("%d%% chance to fully absorb any damaging actions, %d stealth value.", "%d%% chance to fully absorb any damaging actions, %d stealth value.", "tformat")
@@ -7304,43 +7236,27 @@ t("#Target# is magnetised.", "#Target# is magnetised.", "_t")
 t("+Magnetised", "+Magnetised", "_t")
 t("#Target# is free from the magnetism.", "#Target# is free from the magnetism.", "_t")
 t("-Magnetised", "-Magnetised", "_t")
-t("blood", "blood", "effect subtype")
 t("drain", "drain", "effect subtype")
-t("heal", "heal", "effect subtype")
 t("Bloodstar", "Bloodstar", "_t")
 t("Continuously drain blood, dealing %0.2f physical damage per turn and healing the caster for half of it.", "Continuously drain blood, dealing %0.2f physical damage per turn and healing the caster for half of it.", "tformat")
 t("#Target# is caught in the bloodstar.", "#Target# is caught in the bloodstar.", "_t")
 t("#Target# is free from the bloodstar.", "#Target# is free from the bloodstar.", "_t")
 t("Heartrended", "Heartrended", "_t")
 t("Vicious cut that bleeds, doing %0.2f physical damage per turn.", "Vicious cut that bleeds, doing %0.2f physical damage per turn.", "tformat")
-t("#Target# starts to bleed.", "#Target# starts to bleed.", "_t")
-t("+Bleeds", "+Bleeds", "_t")
-t("#Target# stops bleeding.", "#Target# stops bleeding.", "_t")
-t("-Bleeds", "-Bleeds", "_t")
-t("poison", "poison", "effect subtype")
-t("blight", "blight", "effect subtype")
 t("Metal Poisoning", "Metal Poisoning", "_t")
 t("The target is poisoned with heavy metals, taking %0.2f blight damage per turn and decreasing their global speed by %d%%.", "The target is poisoned with heavy metals, taking %0.2f blight damage per turn and decreasing their global speed by %d%%.", "tformat")
-t("#Target# is poisoned!", "#Target# is poisoned!", "_t")
 t("+Metal Poisoning", "+Metal Poisoning", "_t")
-t("#Target# is no longer poisoned.", "#Target# is no longer poisoned.", "_t")
 t("-Metal Poisoning", "-Metal Poisoning", "_t")
-t("moss", "moss", "effect subtype")
 t("Moss Tread", "Moss Tread", "_t")
 t("You lay moss where you walk.", "You lay moss where you walk.", "tformat")
 t("+Moss", "+Moss", "_t")
 t("-Moss", "-Moss", "_t")
 t("Stimulus", "Stimulus", "_t")
 t("Resisting pain, reducing all incoming damage by %0.2f. When the effect ends, take %d un-resistable damage.", "Resisting pain, reducing all incoming damage by %0.2f. When the effect ends, take %d un-resistable damage.", "tformat")
-t("maimed", "maimed", "effect subtype")
 t("To The Arms", "To The Arms", "_t")
-t("Damage reduced by %d%%.", "Damage reduced by %d%%.", "tformat")
 t("#Target# is suffering and fails to concentrate on dealing damage.", "#Target# is suffering and fails to concentrate on dealing damage.", "_t")
 t("#Target# is suffering less.", "#Target# is suffering less.", "_t")
-t("acid", "acid", "effect subtype")
 t("Acid Burn", "Acid Burn", "_t")
-t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "The target has been splashed with acid, taking %0.2f acid damage per turn.", "tformat")
-t("lightning", "lightning", "effect subtype")
 t("Static Shield", "Static Shield", "_t")
 t("The target is surrounded by a static shield, increasing all resistances by %d%% and causing attacks against them to trigger a shield attack for %d%% damage as lightning.", "The target is surrounded by a static shield, increasing all resistances by %d%% and causing attacks against them to trigger a shield attack for %d%% damage as lightning.", "tformat")
 t("A static shield forms around #target#.", "A static shield forms around #target#.", "_t")
@@ -7355,14 +7271,12 @@ t("The target is burning for %d fire damage each turn and taking %d%% increased 
 t("Healing Mist", "Healing Mist", "_t")
 t("Newly applied status effects durations are reduced by %d%%.", "Newly applied status effects durations are reduced by %d%%.", "tformat")
 t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s has recovered!#LAST#", "logSeen")
-t("shield", "shield", "effect subtype")
 t("Overclock", "Overclock", "_t")
 t("The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.", "The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.", "tformat")
 t("#target# surges with power!", "#target# surges with power!", "_t")
 t("+Overclock", "+Overclock", "_t")
 t("#target# looks less powerful.", "#target# looks less powerful.", "_t")
 t("-Overclock", "-Overclock", "_t")
-t("sense", "sense", "effect subtype")
 t("Hypervision Goggles", "Hypervision Goggles", "_t")
 t("Improves senses, allowing the detection of enemies in radius %d and increasing resistance penetration by %d%%.", "Improves senses, allowing the detection of enemies in radius %d and increasing resistance penetration by %d%%.", "tformat")
 t("AED", "AED", "_t")
@@ -7381,7 +7295,6 @@ t("Scorched", "Scorched", "_t")
 t("Fire resistance decreased by %d%%.", "Fire resistance decreased by %d%%.", "tformat")
 t("#Target# is scorched.", "#Target# is scorched.", "_t")
 t("#Target# is no longer scorched.", "#Target# is no longer scorched.", "_t")
-t("grapple", "grapple", "effect subtype")
 t("Pincer Strike", "Pincer Strike", "_t")
 t("The target is grappled by %s, pinning them, reducing attack, spell and mind speed by %d%% and subjecting them to an automatic tailsaw strike each turn for %d%% damage.", "The target is grappled by %s, pinning them, reducing attack, spell and mind speed by %d%% and subjecting them to an automatic tailsaw strike each turn for %d%% damage.", "tformat")
 t("%s clamps its pincers down on #Target#!", "%s clamps its pincers down on #Target#!", "tformat")
@@ -7401,8 +7314,6 @@ t("Immune to miasma engine effects.", "Immune to miasma engine effects.", "_t")
 t("Miasma Engine", "Miasma Engine", "_t")
 t("The target is surrounded by a toxic cloud or radius %d. Enemies within will suffer %d%% talent failure, %d%% reduced healing, and take %0.2f additional acid damage from melee and ranged attacks.", "The target is surrounded by a toxic cloud or radius %d. Enemies within will suffer %d%% talent failure, %d%% reduced healing, and take %0.2f additional acid damage from melee and ranged attacks.", "tformat")
 t("Smogscreen", "Smogscreen", "_t")
-t("%d%% chance to fully absorb any damaging actions.", "%d%% chance to fully absorb any damaging actions.", "tformat")
-t("Miasma", "Miasma", "_t")
 t("Affected by toxic chemicals. Has %d%% talent failure, %d%% reduced healing, and takes %0.2f additional acid damage from melee and ranged attacks.", "Affected by toxic chemicals. Has %d%% talent failure, %d%% reduced healing, and takes %0.2f additional acid damage from melee and ranged attacks.", "tformat")
 t("Death From Above", "Death From Above", "_t")
 t("Hovering in place, gaining %d%% evasion, %d%% movement speed and launching a powerful rocket barrage each turn.", "Hovering in place, gaining %d%% evasion, %d%% movement speed and launching a powerful rocket barrage each turn.", "tformat")
@@ -7418,7 +7329,10 @@ t("%d corrosive flechettes are embedded in the target. Each melee and ranged att
 ------------------------------------------------
 section "tome-orcs/data/tinkers/chemistry.lua"
 
-
+t("fire opal", "opale de feu", "_t")
+t("pearl", "perle", "_t")
+t("diamond", "diamant", "_t")
+t("bloodstone", "pierre de sang", "_t")
 -- texte non traduit
 --[==[
 t("Winterchill Edge", "Winterchill Edge", "_t")
@@ -7440,10 +7354,6 @@ t("The 'Crawling Ants' itching powder will distract your enemies from any compli
 t("Rogue's Gallery", "Rogue's Gallery", "_t")
 t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "_t")
 t("flash powder", "flash powder", "_t")
-t("fire opal", "fire opal", "_t")
-t("pearl", "pearl", "_t")
-t("diamond", "diamond", "_t")
-t("bloodstone", "bloodstone", "_t")
 t("Rustproof Coating", "Rustproof Coating", "_t")
 t("Protects your armour from nasty corrosives like swamp, sea spray, acids, orc sweat, drake saliva...", "Protects your armour from nasty corrosives like swamp, sea spray, acids, orc sweat, drake saliva...", "_t")
 t("Alchemist's Helper", "Alchemist's Helper", "_t")
@@ -7456,17 +7366,20 @@ t("Make the invisible visible.", "Make the invisible visible.", "_t")
 ------------------------------------------------
 section "tome-orcs/data/tinkers/electricity.lua"
 
-
+t("sapphire", "saphir", "_t")
+t("amethyst", "améthyste", "_t")
+t("fire opal", "opale de feu", "_t")
+t("pearl", "perle", "_t")
+t("diamond", "diamant", "_t")
+t("bloodstone", "pierre de sang", "_t")
 -- texte non traduit
 --[==[
 t("Lightning Coil", "Lightning Coil", "_t")
 t("Lightning coils can be attached to melee weapons to generate a short range beam of electricity on melee crits.", "Lightning coils can be attached to melee weapons to generate a short range beam of electricity on melee crits.", "_t")
 t("Mana Coil", "Mana Coil", "_t")
 t("Mana coils can be attached to staves to improve mana regeneration and cast a lightning spell on spell hits.", "Mana coils can be attached to staves to improve mana regeneration and cast a lightning spell on spell hits.", "_t")
-t("sapphire", "sapphire", "_t")
 t("Arcane Dynamo", "Arcane Dynamo", "_t")
 t("Arcane Dynamos build a bridge between arcane forces and steamtech, regenerating steam supplies when casting spells and allowing the use of Technomancy.", "Arcane Dynamos build a bridge between arcane forces and steamtech, regenerating steam supplies when casting spells and allowing the use of Technomancy.", "_t")
-t("amethyst", "amethyst", "_t")
 t("Shocking Touch", "Shocking Touch", "_t")
 t("Gives you the Electric Touch. Higher tiers will chain.", "Gives you the Electric Touch. Higher tiers will chain.", "_t")
 t("Deflection Field", "Deflection Field", "_t")
@@ -7478,10 +7391,6 @@ t("Attaching a capacitor to your weapon in just the right way is a great way to 
 t("Steamsaw: Stormcutter", "Steamsaw: Stormcutter", "_t")
 t("The pinnacle of steamsaws technology. Every one of your hits will unleash the power of the storm onto your foes, chaining between them and stunning them!", "The pinnacle of steamsaws technology. Every one of your hits will unleash the power of the storm onto your foes, chaining between them and stunning them!", "_t")
 t("shocking edge", "shocking edge", "_t")
-t("fire opal", "fire opal", "_t")
-t("pearl", "pearl", "_t")
-t("diamond", "diamond", "_t")
-t("bloodstone", "bloodstone", "_t")
 t("Voltaic Sentry", "Voltaic Sentry", "_t")
 t("Just drop it down and watch the sparks fly when your enemies get near.", "Just drop it down and watch the sparks fly when your enemies get near.", "_t")
 t("Mental Stimulator", "Mental Stimulator", "_t")
@@ -7496,7 +7405,10 @@ t("Add more light to your light!", "Add more light to your light!", "_t")
 ------------------------------------------------
 section "tome-orcs/data/tinkers/explosive.lua"
 
-
+t("fire opal", "opale de feu", "_t")
+t("pearl", "perle", "_t")
+t("diamond", "diamant", "_t")
+t("bloodstone", "pierre de sang", "_t")
 -- texte non traduit
 --[==[
 t("Thunderclap Coating", "Thunderclap Coating", "_t")
@@ -7517,10 +7429,6 @@ t("Small radius, but stuns quite well.", "Small radius, but stuns quite well.", 
 t("Steamgun: Payload", "Steamgun: Payload", "_t")
 t("The pinnacle of steamguns technology. Critical strikes with this gun will feel like a massive explosion of flames! And it actually will be one!", "The pinnacle of steamguns technology. Critical strikes with this gun will feel like a massive explosion of flames! And it actually will be one!", "_t")
 t("incendiary groove", "incendiary groove", "_t")
-t("fire opal", "fire opal", "_t")
-t("pearl", "pearl", "_t")
-t("diamond", "diamond", "_t")
-t("bloodstone", "bloodstone", "_t")
 t("Explosive Shell", "Explosive Shell", "_t")
 t("A special shot that explodes on impact.", "A special shot that explodes on impact.", "_t")
 t("Flare Shell", "Flare Shell", "_t")
@@ -7549,7 +7457,10 @@ t("A special shot that contains a deadly toxin.", "A special shot that contains 
 ------------------------------------------------
 section "tome-orcs/data/tinkers/mechanical.lua"
 
-
+t("fire opal", "opale de feu", "_t")
+t("pearl", "perle", "_t")
+t("diamond", "diamant", "_t")
+t("bloodstone", "pierre de sang", "_t")
 -- texte non traduit
 --[==[
 t("Rocket Boots", "Rocket Boots", "_t")
@@ -7565,10 +7476,6 @@ t("Attach a spring loaded mechanism to your gloves, allowing you to drag enemies
 t("Steam Powered Armour", "Steam Powered Armour", "_t")
 t("Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "_t")
 t("lightning coil", "lightning coil", "_t")
-t("fire opal", "fire opal", "_t")
-t("pearl", "pearl", "_t")
-t("diamond", "diamond", "_t")
-t("bloodstone", "bloodstone", "_t")
 t("Saw Projector", "Saw Projector", "_t")
 t("A mechanical device for launching a spinning buzzsaw! What else could you want?", "A mechanical device for launching a spinning buzzsaw! What else could you want?", "_t")
 t("Kinetic Stabiliser", "Kinetic Stabiliser", "_t")
@@ -7579,7 +7486,12 @@ t("Helps keep your feet on the ground, but still allows mobility.", "Helps keep 
 ------------------------------------------------
 section "tome-orcs/data/tinkers/smith.lua"
 
-
+t("aquamarine", "aigue-marine", "_t")
+t("ruby", "rubis", "_t")
+t("diamond", "diamant", "_t")
+t("fire opal", "opale de feu", "_t")
+t("pearl", "perle", "_t")
+t("bloodstone", "pierre de sang", "_t")
 -- texte non traduit
 --[==[
 t("Steamsaw", "Steamsaw", "_t")
@@ -7590,10 +7502,7 @@ t("Converted %s into %s", "Converted %s into %s", "log")
 t("Focus Lens", "Focus Lens", "_t")
 t("A simple contraption consisting of a gem and some metal to enhance your sight, detection and infravision! At tier 4 it even allows you to fight while blinded. #{italic}#Amazing!#{normal}#", "A simple contraption consisting of a gem and some metal to enhance your sight, detection and infravision! At tier 4 it even allows you to fight while blinded. #{italic}#Amazing!#{normal}#", "_t")
 t("citrine", "citrine", "_t")
-t("aquamarine", "aquamarine", "_t")
 t("quartz", "quartz", "_t")
-t("ruby", "ruby", "_t")
-t("diamond", "diamond", "_t")
 t("Toxic Cannister Launcher", "Toxic Cannister Launcher", "_t")
 t("Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "_t")
 t("Viral Needlegun", "Viral Needlegun", "_t")
@@ -7609,9 +7518,6 @@ t("Boring armour not fancy enough? Bling it up with crystal plating!  Increases 
 t("Hands of Creation", "Hands of Creation", "_t")
 t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "_t")
 t("shocking touch", "shocking touch", "_t")
-t("fire opal", "fire opal", "_t")
-t("pearl", "pearl", "_t")
-t("bloodstone", "bloodstone", "_t")
 t("Spike Attachment", "Spike Attachment", "_t")
 t("Adding metal spikes to anything makes it more dangerous. (and also unwieldy and inconvenient)", "Adding metal spikes to anything makes it more dangerous. (and also unwieldy and inconvenient)", "_t")
 t("Silver Filigree", "Silver Filigree", "_t")
@@ -7626,7 +7532,10 @@ t("Keeping yourself grounded is very important, especially around lightning mage
 ------------------------------------------------
 section "tome-orcs/data/tinkers/therapeutics.lua"
 
-
+t("fire opal", "opale de feu", "_t")
+t("pearl", "perle", "_t")
+t("diamond", "diamant", "_t")
+t("bloodstone", "pierre de sang", "_t")
 -- texte non traduit
 --[==[
 t("Healing Salve", "Healing Salve", "_t")
@@ -7663,10 +7572,6 @@ t("Viral grooves allow your weapons to apply an infectious agent on contact, dea
 t("Life Support Suit", "Life Support Suit", "_t")
 t("Apply your extensive therapeutics knowledge to try and defeat death itself!", "Apply your extensive therapeutics knowledge to try and defeat death itself!", "_t")
 t("unstoppable force salve", "unstoppable force salve", "_t")
-t("fire opal", "fire opal", "_t")
-t("pearl", "pearl", "_t")
-t("diamond", "diamond", "_t")
-t("bloodstone", "bloodstone", "_t")
 t("Second Skin", "Second Skin", "_t")
 t("Not only does it help seal wounds, protecting you from bleeding and enhancing your healing, it also protects from armour chafe!", "Not only does it help seal wounds, protecting you from bleeding and enhancing your healing, it also protects from armour chafe!", "_t")
 t("Air Recycler", "Air Recycler", "_t")
@@ -7708,9 +7613,10 @@ t("Var'Eyal", "Var'Eyal", "_t")
 section "tome-orcs/data/zones/cave-hatred/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
+t("shadow", "ombre", "entity subtype")
+t("human", "humain", "entity subtype")
 -- texte non traduit
 --[==[
-t("shadow", "shadow", "entity subtype")
 t("shadow of pain", "shadow of pain", "entity name")
 t("A shadowy embodiment of pain.", "A shadowy embodiment of pain.", "_t")
 t("shadow of hate", "shadow of hate", "entity name")
@@ -7723,7 +7629,6 @@ t("shadow of guilt", "shadow of guilt", "entity name")
 t("A shadowy embodiment of guilt.", "A shadowy embodiment of guilt.", "_t")
 t("shadow of anger", "shadow of anger", "entity name")
 t("A shadowy embodiment of anger.", "A shadowy embodiment of anger.", "_t")
-t("human", "human", "entity subtype")
 t("Crimson Templar John", "Crimson Templar John", "entity name")
 t([[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
 This warrior's once glowing armor now emits a sinister crimson light. As he marches towards you can see his eyes, they are empty.]], [[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
@@ -7758,7 +7663,9 @@ t("#CRIMSON#You feel a great power nearby!", "#CRIMSON#You feel a great power ne
 ------------------------------------------------
 section "tome-orcs/data/zones/dominion-port/grids.lua"
 
+t("#Source# poisons #Target#!", "#Source# empoisonne #Target#!", "logCombat")
 t("floor", "sol", "entity type")
+t("sand", "sable", "entity subtype")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
@@ -7766,8 +7673,6 @@ t("floor", "sol", "entity subtype")
 -- texte non traduit
 --[==[
 t("stale sewer water", "stale sewer water", "entity name")
-t("#Source# poisons #Target#!", "#Source# poisons #Target#!", "logCombat")
-t("sand", "sand", "entity subtype")
 t("exit to the port", "exit to the port", "entity name")
 t("way into the tower", "way into the tower", "entity name")
 t("way into the sewers", "way into the sewers", "entity name")
@@ -7801,7 +7706,7 @@ t("This yeti towers over even the trolls. Blind rage maddens its eyes.", "This y
 ------------------------------------------------
 section "tome-orcs/data/zones/dominion-port/objects.lua"
 
-
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("a report", "a report", "entity name")
@@ -7811,7 +7716,6 @@ t("muscle", "muscle", "entity subtype")
 t("Yeti's Muscle Tissue (Behemoth)", "Yeti's Muscle Tissue (Behemoth)", "entity name")
 t("flesh", "flesh", "_t")
 t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
-t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
 --]==]
 
 
@@ -7837,20 +7741,20 @@ section "tome-orcs/data/zones/gates-of-morning/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("old road", "vieille route", "entity name")
+t("rockwall", "mur de roche", "entity type")
 t("grass", "herbe", "entity subtype")
+t("Sunwall mountain", "Montagnes du Mur Solaire", "entity name")
+t("Farportal: Last Hope", "Portail Lointain: Dernier Espoir", "entity name")
+t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
+This one seems to go near the town of Last Hope in Maj'Eyal.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
+Celui-ci semble mener près de la ville de Dernier Espoir en Maj'Eyal.]], "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the outskirts of Last Hope, with no trace of the portal...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous vous retrouvez aux abords de Dernier Espoir, sans aucune trace du portail...", "_t")
 t("wall", "mur", "entity type")
+t("cracks", "fissures", "entity subtype")
+t("huge crack in the floor", "une énorme fissure dans le sol", "entity name")
 -- texte non traduit
 --[==[
-t("rockwall", "rockwall", "entity type")
-t("Sunwall mountain", "Sunwall mountain", "entity name")
 t("Way into the caves", "Way into the caves", "entity name")
-t("Farportal: Last Hope", "Farportal: Last Hope", "entity name")
-t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go near the town of Last Hope in Maj'Eyal.]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go near the town of Last Hope in Maj'Eyal.]], "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the outskirts of Last Hope, with no trace of the portal...", "#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the outskirts of Last Hope, with no trace of the portal...", "_t")
-t("cracks", "cracks", "entity subtype")
-t("huge crack in the floor", "huge crack in the floor", "entity name")
 --]==]
 
 
@@ -7858,27 +7762,27 @@ t("huge crack in the floor", "huge crack in the floor", "entity name")
 section "tome-orcs/data/zones/gates-of-morning/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("human", "humain", "entity subtype")
 t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
+t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
+t("halfling", "halfelin", "entity subtype")
+t("immovable", "inamovible", "entity type")
+t("orb", "orbe", "entity subtype")
+t("elf", "elfe", "entity subtype")
+t("Limmir the Jeweler", "Limmir le joaillier", "entity name")
 -- texte non traduit
 --[==[
-t("human", "human", "entity subtype")
-t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "A beautiful woman, clad in shining plate armour. Power radiates from her.", "_t")
 t("#LIGHT_RED#%s concentrates and casts a powerful shield!", "#LIGHT_RED#%s concentrates and casts a powerful shield!", "_t")
 t("#GOLD#Before she falls, Aeryn manages to cast a powerful shield!", "#GOLD#Before she falls, Aeryn manages to cast a powerful shield!", "saySimple")
 t("halfling pyremaster", "halfling pyremaster", "entity name")
-t("halfling", "halfling", "entity subtype")
 t("This tiny ball of fiery hatred came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "This tiny ball of fiery hatred came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "_t")
 t("shalore liberator", "shalore liberator", "entity name")
 t("shalore", "shalore", "entity subtype")
 t("A powerful shalore brawler that came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "A powerful shalore brawler that came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "_t")
-t("immovable", "immovable", "entity type")
-t("orb", "orb", "entity subtype")
 t("sun orb", "sun orb", "entity name")
 t("A small orb infused with the power of the Sun.", "A small orb infused with the power of the Sun.", "_t")
 t("moon orb", "moon orb", "entity name")
 t("A small orb infused with the power of the Moons.", "A small orb infused with the power of the Moons.", "_t")
-t("elf", "elf", "entity subtype")
-t("Limmir the Jeweler", "Limmir the Jeweler", "entity name")
 t("Melnela", "Melnela", "entity name")
 --]==]
 
@@ -7904,31 +7808,25 @@ t("Crimson Templar John", "Crimson Templar John", "_t")
 ------------------------------------------------
 section "tome-orcs/data/zones/gates-of-morning/traps.lua"
 
-
--- texte non traduit
---[==[
-t("Impenetrable Plates", "Impenetrable Plates", "entity name")
-t("Quality Leather", "Quality Leather", "entity name")
-t("Arcane Cloth", "Arcane Cloth", "entity name")
-t("Swordmaster", "Swordmaster", "entity name")
-t("Night Affairs", "Night Affairs", "entity name")
-t("Orc Cutters", "Orc Cutters", "entity name")
-t("Mauling for Brutes", "Mauling for Brutes", "entity name")
-t("Bows and Slings", "Bows and Slings", "entity name")
-t("Sook's Arcane Goodness", "Sook's Arcane Goodness", "entity name")
-t("Sarah's Herbal Infusions", "Sarah's Herbal Infusions", "entity name")
-t("Sook's Runes and other Harmless Contraptions", "Sook's Runes and other Harmless Contraptions", "entity name")
-t("Zemekkys Home", "Zemekkys Home", "entity name")
---]==]
-
+t("Impenetrable Plates", "Plaques Impénétrables", "entity name")
+t("Quality Leather", "Cuir de Qualité", "entity name")
+t("Arcane Cloth", "Tissus Arcanique", "entity name")
+t("Swordmaster", "Maître d'Armes", "entity name")
+t("Night Affairs", "Affaires Nocturnes", "entity name")
+t("Orc Cutters", "Coupeurs d'Orcs", "entity name")
+t("Mauling for Brutes", "Mutilateurs pour les Brutes", "entity name")
+t("Bows and Slings", "Arcs et Frondes", "entity name")
+t("Sook's Arcane Goodness", "Bonté Arcanique de Sook", "entity name")
+t("Sarah's Herbal Infusions", "Infusions Herbaliques de Sarah", "entity name")
+t("Sook's Runes and other Harmless Contraptions", "Runes de Sook et autres Inventions Inoffensives", "entity name")
+t("Zemekkys Home", "Maison de Zemekkys", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/gates-of-morning/zone.lua"
 
-
+t("Gates of Morning", "Portes du Matin", "_t")
 -- texte non traduit
 --[==[
-t("Gates of Morning", "Gates of Morning", "_t")
 t("Caves of Morning (%d)", "Caves of Morning (%d)", "tformat")
 --]==]
 
@@ -7937,13 +7835,13 @@ t("Caves of Morning (%d)", "Caves of Morning (%d)", "tformat")
 section "tome-orcs/data/zones/gem/grids.lua"
 
 t("wall", "mur", "entity type")
+t("cracks", "fissures", "entity subtype")
+t("huge crack in the floor", "une énorme fissure dans le sol", "entity name")
 -- texte non traduit
 --[==[
 t("giant mole hull", "giant mole hull", "entity name")
 t("breach into the giant mole hull", "breach into the giant mole hull", "entity name")
 t("dug rubble", "dug rubble", "entity name")
-t("cracks", "cracks", "entity subtype")
-t("huge crack in the floor", "huge crack in the floor", "entity name")
 --]==]
 
 
@@ -7963,10 +7861,10 @@ t("Whoever tortured and tormented this yeti did an amazing job of pain and destr
 ------------------------------------------------
 section "tome-orcs/data/zones/gem/objects.lua"
 
-
+t("lore", "histoire", "entity type")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
-t("lore", "lore", "entity type")
 t("disk", "disk", "entity subtype")
 t("disk", "disk", "_t")
 t([[A strange black disk found in the G.E.M.
@@ -7981,7 +7879,6 @@ t("muscle", "muscle", "entity subtype")
 t("Yeti's Muscle Tissue (Mech)", "Yeti's Muscle Tissue (Mech)", "entity name")
 t("flesh", "flesh", "_t")
 t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
-t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
 --]==]
 
 
@@ -8004,10 +7901,10 @@ section "tome-orcs/data/zones/internment-camp/grids.lua"
 t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("wall", "mur", "entity type")
+t("burnt tree", "arbre brûlé", "entity name")
 -- texte non traduit
 --[==[
 t("wooden barricade", "wooden barricade", "entity name")
-t("burnt tree", "burnt tree", "entity name")
 t("way to the Vor section", "way to the Vor section", "entity name")
 t("way to the Gorbat section", "way to the Gorbat section", "entity name")
 t("way to the Grushnak section", "way to the Grushnak section", "entity name")
@@ -8020,6 +7917,8 @@ t("way back", "way back", "entity name")
 section "tome-orcs/data/zones/internment-camp/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("halfling", "halfelin", "entity subtype")
+t("immovable", "inamovible", "entity type")
 -- texte non traduit
 --[==[
 t("%s (subdued)", "%s (subdued)", "tformat")
@@ -8027,7 +7926,6 @@ t("This body is fun!", "This body is fun!", "_t")
 t("I present you my latest orc-toy!", "I present you my latest orc-toy!", "_t")
 t("Crush this body, crush it!", "Crush this body, crush it!", "_t")
 t("I am everywhere, you can't defeat me!", "I am everywhere, you can't defeat me!", "_t")
-t("halfling", "halfling", "entity subtype")
 t("Mindwall", "Mindwall", "entity name")
 t(".", ".", "_t")
 t("You should be parked with the others!", "You should be parked with the others!", "_t")
@@ -8035,7 +7933,6 @@ t("You have no place in this new world!", "You have no place in this new world!"
 t("Your mind looks delicious...", "Your mind looks delicious...", "_t")
 t("I hunger for more brains...", "I hunger for more brains...", "_t")
 t("#YELLOW#Mindwall focuses his thoughts on your mind.  You feel extremely confused.", "#YELLOW#Mindwall focuses his thoughts on your mind.  You feel extremely confused.", "logPlayer")
-t("immovable", "immovable", "entity type")
 t("pillar", "pillar", "entity subtype")
 t("Mindcontrol Pillar", "Mindcontrol Pillar", "entity name")
 t("A glass pillar containing a still living brain.", "A glass pillar containing a still living brain.", "_t")
@@ -8080,6 +7977,7 @@ section "tome-orcs/data/zones/kaltor-shop/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
+t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet tombe du coffre!", "logSeen")
 t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
 -- texte non traduit
@@ -8087,7 +7985,6 @@ t("Leave", "Partir", "_t")
 t("locked chest", "locked chest", "entity name")
 t("Locked Chest", "Locked Chest", "_t")
 t("Open the chest with Kaltor's key?", "Open the chest with Kaltor's key?", "_t")
-t("#GOLD#An object rolls from the chest!", "#GOLD#An object rolls from the chest!", "logSeen")
 t("chest (opened)", "chest (opened)", "_t")
 --]==]
 
@@ -8134,14 +8031,14 @@ t("Kaltor's Shop", "Kaltor's Shop", "_t")
 ------------------------------------------------
 section "tome-orcs/data/zones/krimbul/grids.lua"
 
+t("trigger", "déclencher", "entity type")
+t("trigger", "déclencher", "entity subtype")
 t("floor", "sol", "entity type")
 t("water", "eau", "entity subtype")
 -- texte non traduit
 --[==[
 t("airship hull", "airship hull", "entity name")
 t("breach into the airship hull", "breach into the airship hull", "entity name")
-t("trigger", "trigger", "entity type")
-t("trigger", "trigger", "entity subtype")
 t("underwater luminous algae", "underwater luminous algae", "entity name")
 --]==]
 
@@ -8164,11 +8061,10 @@ t("...it's gone...  FINE!  I don't need that power to destroy you!", "...it's go
 ------------------------------------------------
 section "tome-orcs/data/zones/krimbul/objects.lua"
 
-
+t("tattered paper scrap", "morceau de papier déchiré", "entity name")
+t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
-t("tattered paper scrap", "tattered paper scrap", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 t("Visage of Nektosh", "Visage of Nektosh", "entity name")
 t("horned helm", "horned helm", "_t")
 t("You always thought his horns looked kind of stupid, to be honest.", "You always thought his horns looked kind of stupid, to be honest.", "_t")
@@ -8191,9 +8087,9 @@ t("Krimbul Territory", "Krimbul Territory", "_t")
 section "tome-orcs/data/zones/lost-city/grids.lua"
 
 t("floor", "sol", "entity type")
+t("sand", "sable", "entity subtype")
 -- texte non traduit
 --[==[
-t("sand", "sand", "entity subtype")
 t("Stair to the ruins", "Stair to the ruins", "entity name")
 t("Stair to the cave", "Stair to the cave", "entity name")
 t("Old Psi-Machine", "Old Psi-Machine", "entity name")
@@ -8218,7 +8114,7 @@ t("It is approaching...", "It is approaching...", "_t")
 ------------------------------------------------
 section "tome-orcs/data/zones/lost-city/objects.lua"
 
-
+t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
 t("schematic: Payload", "schematic: Payload", "entity name")
@@ -8226,7 +8122,6 @@ t("The Forgotten", "The Forgotten", "entity name")
 t("pale mindstar", "pale mindstar", "_t")
 t("A strange mindstar, overgrown with granite and cracked. It seems incredibly ancient and horribly damaged, but still functions.", "A strange mindstar, overgrown with granite and cracked. It seems incredibly ancient and horribly damaged, but still functions.", "_t")
 t("confuse all enemies in radius 3 for 5 turns", "confuse all enemies in radius 3 for 5 turns", "_t")
-t("%s resists!", "%s resists!", "logSeen")
 t("The Cage", "The Cage", "entity name")
 t("thick leather cap", "thick leather cap", "_t")
 t("Nothing will ever reach you again.", "Nothing will ever reach you again.", "_t")
@@ -8266,6 +8161,7 @@ t("throne", "throne", "entity name")
 section "tome-orcs/data/zones/palace-fumes/npcs.lua"
 
 t("giant", "géant", "entity type")
+t("construct", "créature artificielle", "entity type")
 -- texte non traduit
 --[==[
 t("steam", "steam", "entity subtype")
@@ -8279,7 +8175,6 @@ t("Council Member Palaquie", "Council Member Palaquie", "entity name")
 t("Standing proud, the giantess wields both a steamgun and a mindstar, as the bullets fly you can feel a powerful mental pressure on your mind, numbing you.", "Standing proud, the giantess wields both a steamgun and a mindstar, as the bullets fly you can feel a powerful mental pressure on your mind, numbing you.", "_t")
 t("Council Member Tantalos", "Council Member Tantalos", "entity name")
 t("It seems like a safe assumption that the highest elected official of the Atmos Tribe was not always a hideous, titanic abomination, reminiscent of the few images of Sher'Tul you have seen, with a combination of unnatural appearance and sickening gurgling noises that revulses you on every level from intellectual and moral disgust, all the way down to a primal instinct that roars wordlessly in your mind with a fear and hatred older than any language.  If he was, his campaign's gerrymandering talents must have been legendary.", "It seems like a safe assumption that the highest elected official of the Atmos Tribe was not always a hideous, titanic abomination, reminiscent of the few images of Sher'Tul you have seen, with a combination of unnatural appearance and sickening gurgling noises that revulses you on every level from intellectual and moral disgust, all the way down to a primal instinct that roars wordlessly in your mind with a fear and hatred older than any language.  If he was, his campaign's gerrymandering talents must have been legendary.", "_t")
-t("construct", "construct", "entity type")
 t("mechanical", "mechanical", "entity subtype")
 t("steam defence turret", "steam defence turret", "entity name")
 t([[This appears to be mechanized pedestal.
@@ -8291,11 +8186,10 @@ Two steamguns mounted on its top constantly swivel back and forth, seeking enemi
 ------------------------------------------------
 section "tome-orcs/data/zones/palace-fumes/objects.lua"
 
-
+t("paper scrap", "bouts de papier", "entity name")
+t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
-t("paper scrap", "paper scrap", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 t("DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY", "DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY", "entity name")
 t("A flyer.", "A flyer.", "_t")
 --]==]
@@ -8323,13 +8217,13 @@ t("previous level", "niveau précédent", "entity name")
 section "tome-orcs/data/zones/pocket-time/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("human", "humain", "entity subtype")
 -- texte non traduit
 --[==[
 t("timeswapped %s", "timeswapped %s", "_t")
 t("splitted %s", "splitted %s", "_t")
 t("temporal %s", "temporal %s", "_t")
 t("paradox %s", "paradox %s", "_t")
-t("human", "human", "entity subtype")
 t("Maltoth the Mad", "Maltoth the Mad", "entity name")
 t("This wretched human seems stuck in temporal flux.", "This wretched human seems stuck in temporal flux.", "_t")
 t("and dispersed across the timelines", "and dispersed across the timelines", "_t")
@@ -8350,24 +8244,24 @@ t("Time-locked Vault", "Time-locked Vault", "_t")
 ------------------------------------------------
 section "tome-orcs/data/zones/primal-forest/grids.lua"
 
+t("void", "vide", "entity type")
+t("void", "vide", "entity subtype")
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
+t("trigger", "déclencher", "entity type")
+t("trigger", "déclencher", "entity subtype")
+t("Stay", "Restez", "_t")
 t("floor", "sol", "entity type")
 -- texte non traduit
 --[==[
-t("void", "void", "entity type")
-t("void", "void", "entity subtype")
 t("bottom of forest", "bottom of forest", "entity name")
 t("primal tree", "primal tree", "entity name")
 t("tall thick primal tree", "tall thick primal tree", "entity name")
 t("huge primal tree", "huge primal tree", "entity name")
-t("trigger", "trigger", "entity type")
-t("trigger", "trigger", "entity subtype")
 t("climb", "climb", "_t")
 t("Huge Tree", "Huge Tree", "_t")
 t("You think you can climb this tree if you want.", "You think you can climb this tree if you want.", "_t")
 t("Climb", "Climb", "_t")
-t("Stay", "Stay", "_t")
 t("primal trunk", "primal trunk", "entity subtype")
 t("climb back to the ground", "climb back to the ground", "entity name")
 --]==]
@@ -8377,11 +8271,11 @@ t("climb back to the ground", "climb back to the ground", "entity name")
 section "tome-orcs/data/zones/primal-forest/npcs.lua"
 
 t("giant", "géant", "entity type")
+t("treant", "tréant", "entity subtype")
 -- texte non traduit
 --[==[
 t("crystalbark", "crystalbark", "entity name")
 t("A very strong near-sentient tree, which has become infected with crystalline structures.", "A very strong near-sentient tree, which has become infected with crystalline structures.", "_t")
-t("treant", "treant", "entity subtype")
 t("Crystallized Primal Root", "Crystallized Primal Root", "entity name")
 t("This once great primal tree has been infused and corrupted by crystals growing wildly all over it. Such a terrible end.", "This once great primal tree has been infused and corrupted by crystals growing wildly all over it. Such a terrible end.", "_t")
 --]==]
@@ -8390,11 +8284,10 @@ t("This once great primal tree has been infused and corrupted by crystals growin
 ------------------------------------------------
 section "tome-orcs/data/zones/primal-forest/objects.lua"
 
-
+t("journal page", "page de journal", "entity name")
+t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
-t("journal page", "journal page", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 t("schematic: Life Support Suit", "schematic: Life Support Suit", "entity name")
 --]==]
 
@@ -8414,24 +8307,23 @@ t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GR
 section "tome-orcs/data/zones/ritch-hive/grids.lua"
 
 t("floor", "sol", "entity type")
+t("sand", "sable", "entity subtype")
 t("wall", "mur", "entity type")
+t("cracks", "fissures", "entity subtype")
+t("huge crack in the floor", "une énorme fissure dans le sol", "entity name")
 -- texte non traduit
 --[==[
-t("sand", "sand", "entity subtype")
 t("pile of ritch eggs", "pile of ritch eggs", "entity name")
 t("comfy ritch nest", "comfy ritch nest", "entity name")
-t("cracks", "cracks", "entity subtype")
-t("huge crack in the floor", "huge crack in the floor", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/ritch-hive/objects.lua"
 
-
+t("egg", "Oeuf", "entity type")
 -- texte non traduit
 --[==[
-t("egg", "egg", "entity type")
 t("ritch", "ritch", "entity subtype")
 t("pile of ritch eggs", "pile of ritch eggs", "entity name")
 t("A gross pile of eggs.", "A gross pile of eggs.", "_t")
@@ -8468,11 +8360,10 @@ t("%d Collected", "%d Collected", "tformat")
 ------------------------------------------------
 section "tome-orcs/data/zones/shertul-cave/grids.lua"
 
-
+t("Mirror of Reflection", "Miroir de Réflexion", "entity name")
 -- texte non traduit
 --[==[
 t("way up", "way up", "entity name")
-t("Mirror of Reflection", "Mirror of Reflection", "entity name")
 --]==]
 
 
@@ -8507,10 +8398,10 @@ t("This cave looks very solid and stable. You can probably leave items here for 
 section "tome-orcs/data/zones/slumbering-caves/npcs.lua"
 
 t("god", "dieu", "entity type")
+t("eyal", "Eyal", "entity subtype")
 -- texte non traduit
 --[==[
 t("Amakthel's Hand", "Amakthel's Hand", "entity name")
-t("eyal", "eyal", "entity subtype")
 t([[You never thought this could even exist. You certainly never thought you'd encounter it. But this is true, in front of you stands a piece of Amakthel himself.
 The god that myths say was slain by the Sher'tul, themselves nothing but a myth.
 But there it is, half alive, half dead but you can feel his thoughts in your head, there is no mistake: #{bold}#The Dead God is here!#{normal}#]], [[You never thought this could even exist. You certainly never thought you'd encounter it. But this is true, in front of you stands a piece of Amakthel himself.
@@ -8613,14 +8504,14 @@ t("Steam Quarry", "Steam Quarry", "_t")
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-observatory/grids.lua"
 
+t("void", "vide", "entity type")
+t("void", "vide", "entity subtype")
 t("floor", "sol", "entity type")
+t("rocks", "rochers", "entity subtype")
+t("rocks", "rochers", "entity name")
 -- texte non traduit
 --[==[
-t("void", "void", "entity type")
-t("void", "void", "entity subtype")
 t("bottom of the mountain", "bottom of the mountain", "entity name")
-t("rocks", "rocks", "entity subtype")
-t("rocks", "rocks", "entity name")
 t("way into a strange cave", "way into a strange cave", "entity name")
 t("stairs to the previous level", "stairs to the previous level", "entity name")
 t("stairs to the cavern", "stairs to the cavern", "entity name")
@@ -8632,10 +8523,9 @@ t("pillar of the moons", "pillar of the moons", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-observatory/npcs.lua"
 
-
+t("elf", "elfe", "entity subtype")
 -- texte non traduit
 --[==[
-t("elf", "elf", "entity subtype")
 t("Star Gazer", "Star Gazer", "entity name")
 t("This astromancer radiates the power of all celestial bodies. You can discern a distinct elven shape under the hood and robes.", "This astromancer radiates the power of all celestial bodies. You can discern a distinct elven shape under the hood and robes.", "_t")
 t("Astral-Infused Yeti", "Astral-Infused Yeti", "entity name")
@@ -8646,7 +8536,7 @@ t("You wonder how this yeti can have wandered so far from its native habitat in 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-observatory/objects.lua"
 
-
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("a journal", "a journal", "entity name")
@@ -8662,7 +8552,6 @@ t("muscle", "muscle", "entity subtype")
 t("Yeti's Muscle Tissue (Astral)", "Yeti's Muscle Tissue (Astral)", "entity name")
 t("flesh", "flesh", "_t")
 t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
-t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
 --]==]
 
 
@@ -8692,10 +8581,10 @@ t("wooden barricade", "wooden barricade", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-outpost/npcs.lua"
 
+t("human", "humain", "entity subtype")
 t("humanoid", "humanoïde", "entity type")
 -- texte non traduit
 --[==[
-t("human", "human", "entity subtype")
 t("Outpost Leader John", "Outpost Leader John", "entity name")
 t("This warrior's armor glows with a bright golden light. He wields an ornate sword and shield, and marches towards you with confidence.", "This warrior's armor glows with a bright golden light. He wields an ornate sword and shield, and marches towards you with confidence.", "_t")
 t("orc", "orc", "entity subtype")
@@ -8709,13 +8598,8 @@ t("A nasty looking orc armed with double steamguns.", "A nasty looking orc armed
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-outpost/objects.lua"
 
-
--- texte non traduit
---[==[
-t("letter", "letter", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
---]==]
-
+t("letter", "lettre", "entity name")
+t("A paper scrap.", "Un bout de papier.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-outpost/zone.lua"
@@ -8742,10 +8626,9 @@ t("way up", "way up", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/zones/tinker-master/npcs.lua"
 
-
+t("construct", "créature artificielle", "entity type")
 -- texte non traduit
 --[==[
-t("construct", "construct", "entity type")
 t("mechanical", "mechanical", "entity subtype")
 t("Ancient Automated Teacher", "Ancient Automated Teacher", "entity name")
 t("An ancient archive of knowledge! It seems to have some kind of vocal interface.", "An ancient archive of knowledge! It seems to have some kind of vocal interface.", "_t")
@@ -8771,18 +8654,18 @@ t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("floor", "sol", "entity subtype")
 t("old road", "vieille route", "entity name")
 t("wall", "mur", "entity type")
+t("bamboo hut", "hutte en bambou", "entity subtype")
+t("bamboo wall", "mur en bambou", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
+t("rock", "rocher", "entity subtype")
+t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
+t("cave", "grotte", "entity subtype")
 -- texte non traduit
 --[==[
 t("Coward!", "Coward!", "_t")
 t("You are not coward enough to leave your home unprotected!", "You are not coward enough to leave your home unprotected!", "_t")
 t("wooden barricade", "wooden barricade", "entity name")
-t("bamboo hut", "bamboo hut", "entity subtype")
-t("bamboo wall", "bamboo wall", "entity name")
-t("rock", "rock", "entity subtype")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("cave", "cave", "entity subtype")
 t("tunnel weakness", "tunnel weakness", "entity name")
 --]==]
 
@@ -8791,11 +8674,11 @@ t("tunnel weakness", "tunnel weakness", "entity name")
 section "tome-orcs/data/zones/town-kruk/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
 -- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
 t("orc guard", "orc guard", "entity name")
-t("A stern-looking guard, he will not let you disturb the town.", "A stern-looking guard, he will not let you disturb the town.", "_t")
 t("orc gunslinger", "orc gunslinger", "entity name")
 t("A nasty looking orc armed with double steamguns.", "A nasty looking orc armed with double steamguns.", "_t")
 t("Commander Fralor", "Commander Fralor", "entity name")
@@ -8828,16 +8711,15 @@ t("#AQUAMARINE#You overtake the yeti's mind and order it to report to Kruk Pride
 ------------------------------------------------
 section "tome-orcs/data/zones/town-kruk/traps.lua"
 
-
+t("Armoury", "Armurerie", "entity name")
+t("Tanner", "Tanneur", "entity name")
+t("Herbalist", "Herboriste", "entity name")
+t("Library", "Bibliothèque", "entity name")
 -- texte non traduit
 --[==[
-t("Armoury", "Armoury", "entity name")
-t("Tanner", "Tanner", "entity name")
 t("Forge", "Forge", "entity name")
 t("Smith", "Smith", "entity name")
-t("Herbalist", "Herbalist", "entity name")
 t("Tinkers Store", "Tinkers Store", "entity name")
-t("Library", "Library", "entity name")
 --]==]
 
 
@@ -8865,11 +8747,10 @@ t("The legendary Wyrm seems to have fallen, though it doesn't appear to have stu
 ------------------------------------------------
 section "tome-orcs/data/zones/ureslak-host/objects.lua"
 
-
+t("paper scrap", "bouts de papier", "entity name")
+t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
-t("paper scrap", "paper scrap", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 t("schematic: Hands of Creation", "schematic: Hands of Creation", "entity name")
 --]==]
 
@@ -8939,7 +8820,8 @@ t("Vaporous Emporium", "Vaporous Emporium", "_t")
 ------------------------------------------------
 section "tome-orcs/data/zones/wilderness-add/grids.lua"
 
-
+t("Gates of Morning (Town)", "Portes du Matin (Ville)", "entity name")
+t("A massive hole in the Sunwall.", "Un énorme trou dans le Mur Solaire.", "_t")
 -- texte non traduit
 --[==[
 t("bridge to the mainland", "bridge to the mainland", "entity name")
@@ -8956,14 +8838,13 @@ t("Destroyed Dominion Port", "Destroyed Dominion Port", "entity name")
 t("Entrance to a Ritch Hive", "Entrance to a Ritch Hive", "entity name")
 t("Path to a peak leading to the Sunwall Observatory", "Path to a peak leading to the Sunwall Observatory", "entity name")
 t("Entrance to the Pride's Internment Camp", "Entrance to the Pride's Internment Camp", "entity name")
-t("Gates of Morning (Town)", "Gates of Morning (Town)", "entity name")
-t("A massive hole in the Sunwall.", "A massive hole in the Sunwall.", "_t")
 t("Strange mechanical mole", "Strange mechanical mole", "entity name")
 t("Path to a Ureslak's Host", "Path to a Ureslak's Host", "entity name")
 t("Entrance to the Steam Quarry", "Entrance to the Steam Quarry", "entity name")
 t("Entrance to the Palace of Fumes", "Entrance to the Palace of Fumes", "entity name")
 t("Way into a primal forest", "Way into a primal forest", "entity name")
 t("DESTRUCTICUS!", "DESTRUCTICUS!", "entity name")
+t("DESTRUCTICUS!", "DESTRUCTICUS!", "_t")
 --]==]
 
 
@@ -8971,9 +8852,9 @@ t("DESTRUCTICUS!", "DESTRUCTICUS!", "entity name")
 section "tome-orcs/data/zones/yeti-caves/grids.lua"
 
 t("wall", "mur", "entity type")
+t("icecave", "grotte de glace", "entity subtype")
 -- texte non traduit
 --[==[
-t("icecave", "icecave", "entity subtype")
 t("a crude mural painting", "a crude mural painting", "entity name")
 --]==]
 
@@ -8994,7 +8875,7 @@ t("This yeti towers over its comrades. You see a cunning in its eyes unmatched b
 ------------------------------------------------
 section "tome-orcs/data/zones/yeti-caves/objects.lua"
 
-
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("flesh", "flesh", "entity type")
@@ -9002,7 +8883,6 @@ t("muscle", "muscle", "entity subtype")
 t("Yeti's Muscle Tissue (Patriarch)", "Yeti's Muscle Tissue (Patriarch)", "entity name")
 t("flesh", "flesh", "_t")
 t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
-t("You cannot bring yourself to drop the %s", "You cannot bring yourself to drop the %s", "logPlayer")
 --]==]
 
 
@@ -9032,15 +8912,14 @@ Learn to master steam technology, battle the terrible Atmos Tribe and ensure dom
 ------------------------------------------------
 section "tome-orcs/overload/data/calendar_orc.lua"
 
-
+t("Dearth", "Disette", "calendar orc")
+t("Loss", "Perte", "calendar orc")
 -- texte non traduit
 --[==[
 t("Remembrance", "Remembrance", "calendar orc")
 t("Retaking", "Retaking", "calendar orc")
 t("Revenge", "Revenge", "calendar orc")
 t("Pain", "Pain", "calendar orc")
-t("Dearth", "Dearth", "calendar orc")
-t("Loss", "Loss", "calendar orc")
 t("Destruction", "Destruction", "calendar orc")
 t("Renewal", "Renewal", "calendar orc")
 --]==]
@@ -9547,14 +9426,13 @@ t("missing reqs", "missing reqs", "_t")
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/Actor.lua"
 
-
+t("scroll", "parchemin", "_t")
+t("This parchment contains some lore.", "Ce parchemin contient des histoires.", "_t")
 -- texte non traduit
 --[==[
 t("#FFD700#St. power#FFFFFF#: ", "#FFD700#St. power#FFFFFF#: ", "_t")
 t("Kruk Invasion", "Kruk Invasion", "_t")
 t("You can not recall until you have placed the bomb at the tunnel's end!", "You can not recall until you have placed the bomb at the tunnel's end!", "_t")
-t("scroll", "scroll", "_t")
-t("This parchment contains some lore.", "This parchment contains some lore.", "_t")
 t("time-warped paper scrap", "time-warped paper scrap", "_t")
 t("It came a long way away!", "It came a long way away!", "_t")
 t("#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "saySimple")
@@ -9608,12 +9486,7 @@ t("#PURPLE#Automated Reflex System activated!", "#PURPLE#Automated Reflex System
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/interface/Archery.lua"
 
-
--- texte non traduit
---[==[
-t("%s is knocked back!", "%s is knocked back!", "logSeen")
---]==]
-
+t("%s is knocked back!", "%s est repoussé!", "logSeen")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/interface/Combat.lua"
