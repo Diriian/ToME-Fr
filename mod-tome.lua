@@ -40656,6 +40656,7 @@ t("#CADET_BLUE#You notice a trap (%s)!", "#CADET_BLUE#Vous remarquez un piège (
 t("critter", "bestiole", "_t")
 t("elite", "élite", "_t")
 t("elite boss", "boss élite", "_t")
+t("godslayer", "tueur de dieux", "_t")
 t("god", "dieu", "_t")
 t("medium", "moyen", "_t")
 t("tiny", "minuscule", "_t")
@@ -40915,11 +40916,6 @@ t("This tinker can not be applied to this item.", "Cette bricolle ne peut pas ê
 t("You already have a tinker on this item.", "Vous avez dèjà une bricolle sur cet objet.", "logPlayer")
 t("You attach %s to your %s.", "Vous attachez %s à votre %s.", "logPlayer")
 t("You fail to attach %s to %s.", "Vous n'arrivez pas à attacher %s à %s.", "logPlayer")
--- nouveau texte
---[==[
-t("godslayer", "godslayer", "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("normal", "normal", "_t")
@@ -40955,6 +40951,11 @@ t("%s, the lone alchemist", "%s, l'alchimist solitaire", "_t")
 t("%s, the lost sun paladin", "%s, le paladin solaire perdu", "_t")
 t("%s, the lost defiler", "%s, le profanateur perdu", "_t")
 t("temporal portal", "portail temporel", "_t")
+t([[Oh but you are ... are you ?! ME?!
+		So I was right, this is not my original time-thread!
+		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh, mais c'est vous… êtes vous?! MOI?!
+	J'avais donc raison, ce n'est pas mon fil temporel d'origine!
+	Aidez-moi, je vous en prie ! J'ai peur de m'être perdue ici. Je sais qu'un ami a laissé un portail temporel dans les environs, mais j'ai livré trop de combats et je crains de ne pas y arriver. Pourriez-vous m'aider? Pourriez-vous vous aider… vous-même?]], "_t")
 t("%s, temporal explorer", "%s, explorateur temporel", "_t")
 t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "Elle a l'air blessé et fatigué. Elle vous ressemble tellement et pourtant elle est complètement différente. Bizarre.", "_t")
 t("%s, the worried loremaster", "%s, le Chroniqueur soucieux", "_t")
@@ -40976,11 +40977,6 @@ t("gained talent category %s (at mastery %0.2f)", "a gagné la catégorie de tal
 t("[Allow training of talent category %s (at mastery %0.2f)]", "[Autoriser l'apprentissage de la catégorie de talents %s (à la maîtrise %0.2f)]", "tformat")
 -- texte non traduit
 --[==[
-t([[Oh but you are ... are you ?! ME?!
-		So I was right, this is not my original time-thread!
-		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh but you are ... are you ?! ME?!
-		So I was right, this is not my original time-thread!
-		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], "_t")
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
@@ -41068,6 +41064,7 @@ t("Showing healthbars only.", "Afficher les barres de vie seulement.", "log")
 t("Showing no tactical information.", "N'afficher aucune information tactique.", "log")
 t("Showing small healthbars and tactical borders.", "Afficher de petites barres de vie et des bordures tactiques.", "log")
 t("You cannot do that on the world map.", "Vous ne pouvez pas faire cela sur la carte du monde.", "logPlayer")
+t("Imperium courrier", "Courrier de l'Imperium", "_t")
 t("Run in which direction?", "Courir dans quelle direction?", "log")
 t("You may not auto-explore this level.", "Vous ne pouvez pas auto-explorer ce niveau.", "log")
 t("You may not auto-explore with enemies in sight (%s to the %s%s)!", "Vous ne pouvez pas auto-explorer avec des ennemis en vue (%s direction %s%s)!", "log")
@@ -41106,7 +41103,6 @@ t("#ANTIQUE_WHITE#Splash screen unlocked: #GOLD#%s", "#ANTIQUE_WHITE#Splash scre
 --[==[
 t("#TEAL#%s", "#TEAL#%s", "log")
 t("%s", "%s", "log")
-t("Imperium courrier", "Imperium courrier", "_t")
 --]==]
 
 -- ancien texte traduit
@@ -41217,6 +41213,7 @@ t("spot", "place", "_t")
 t("%s's %s", "%s de %s", "tformat")
 t(" (range: ", " (portée: ", "_t")
 t("Min.level: ", "Niv.Min: ", "_t")
+t("Max.level: ", "Niv.max: ", "_t")
 t("Never visited yet", "Pas encore visité", "_t")
 t("In sight", "En vue", "_t")
 t("Lit", "Eclairé", "_t")
@@ -41226,11 +41223,6 @@ t("Special breathing method required", "Méthode de respiration spéciale requis
 t("Diggable", "Destructible", "_t")
 t("Cannot teleport to this place", "Impossible de se téléporter à cet endroit", "_t")
 t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#Vous entendez un mécanisme cliquant.", "log")
--- nouveau texte
---[==[
-t("Max.level: ", "Max.level: ", "_t")
---]==]
-
 -- texte non traduit
 --[==[
 t("%s", "%s", "logSeen")
@@ -41655,6 +41647,7 @@ t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop d
 t("#FF0000#Drop some of your items.", "#FF0000#Abandonnez quelques objets.", "logPlayer")
 t("#PINK#Your summoned %s disappears.", "#PINK#Votre invocation %s disparaît.", "logPlayer")
 t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#ATTENTION TROP DE VIE PERDU!", "say")
+t("Game Turn %d", "Tour de Jeu %d", "log")
 t("taken damage", "domages reçus", "_t")
 t("LOW HEALTH!", "VIE BASSE!", "_t")
 t("detrimental status effect", "effet de statut préjudiciable", "_t")
@@ -41698,7 +41691,6 @@ t("#LIGHT_RED#You sense that Something has taken notice of you ...", "#LIGHT_RED
 -- texte non traduit
 --[==[
 t("", "", "log")
-t("Game Turn %d", "Game Turn %d", "log")
 --]==]
 
 -- ancien texte traduit
@@ -41764,6 +41756,7 @@ t("friendly", "amicale", "_t")
 t("(beneficial)", "(bénéfique)", "_t")
 t("(beneficial to enemies)", "(bénéfique aux ennemis)", "_t")
 t("(safe)", "(sûr)", "_t")
+t("pressure_trigger", "déclencheur à pression", "_t")
 t("#YELLOW#Detect: %d#WHITE#", "#YELLOW#Détecté: %d#WHITE#", "tformat")
 t("#YELLOW# Disarm: %d#WHITE#", "#YELLOW# Désarmé: %d#WHITE#", "tformat")
 t("Dismantling", "Démantèlement", "_t")
@@ -41802,7 +41795,6 @@ t("something on the floor", "quelque chose sur le sol", "_t")
 -- texte non traduit
 --[==[
 t("Faction: ", "Faction: ", "_t")
-t("pressure_trigger", "pressure_trigger", "_t")
 t("#LIGHT_BLUE#%s: %s#LAST#", "#LIGHT_BLUE#%s: %s#LAST#", "logPlayer")
 t("#CADET_BLUE#%s %ss %s.", "#CADET_BLUE#%s %ss %s.", "logSeen")
 --]==]
