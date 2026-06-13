@@ -42005,13 +42005,16 @@ t(", by accident of course,", ", par accident bien sûr,", "_t")
 t(" in some sort of fetish experiment gone wrong", " dans une sorte d'expérience fétichiste qui a mal tourné", "_t")
 t(", providing a free meal to the wildlife", ", offrant un repas gratuit à la faune sauvage", "_t")
 t(" (how embarrassing)", " (Quelle honte!)", "_t")
+t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s le niveau %d %s %s a été %s à mort par %s%s%s dans le niveau %s de %s.", "tformat")
 t("battered", "malmené", "_t")
 t(" (yet again)", " (encore une fois)", "_t")
 t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) a été %s à mort par %s%s sur %s %s.", "tformat")
 t("%s the level %d %s %s %s on level %s of %s.", "%s le niveau %d %s %s %s dans le niveau %s de %s.", "tformat")
 t("%s(%d %s %s) %s on %s %s.", "%s(%d %s %s) %s sur %s %s.", "tformat")
-t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s le niveau %d %s %s a été %s à mort par %s%s%s dans le niveau %s de %s.", "tformat")
+-- texte non traduit
+--[==[
 t("#{bold}#", "#{bold}#", "_t")
+--]==]
 
 -- ancien texte traduit
 t("unknown", "inconnu", "_t")
@@ -42026,29 +42029,21 @@ t("You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "Vous collecte
 section "mod-tome/mod/class/interface/PartyLore.lua"
 
 t("Lore found: #0080FF#%s", "Chronique trouvé: #0080FF#%s", "logPlayer")
--- texte non traduit
---[==[
-t("You can read all your collected lore in the game menu, by pressing Escape.", "You can read all your collected lore in the game menu, by pressing Escape.", "logPlayer")
-t("learnt lore", "learnt lore", "_t")
---]==]
-
+t("You can read all your collected lore in the game menu, by pressing Escape.", "Vous pouvez consulter tout le lore collectées dans le menu du jeu, en appuyant sur Échap.", "logPlayer")
+t("learnt lore", "lore appris", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PlayerExplore.lua"
 
+t("at door", "à la porte", "_t")
 t("something interesting", "quelque chose d'intéressant", "_t")
 t("interesting terrain", "terrain intéressant", "_t")
 t("Running...", "Cours...", "_t")
 t("You are exploring, press any key to stop.", "Vous êtes en exploration, appuyez sur une touche pour vous arrêter.", "_t")
+t("checked door", "porte vérifiée", "_t")
 t("at %s", "à %s", "tformat")
+t("at object (diggable)", "à l'objet (creusable)", "_t")
 t("the path is blocked", "Le chemin est bloqué", "_t")
--- texte non traduit
---[==[
-t("at door", "at door", "_t")
-t("checked door", "checked door", "_t")
-t("at object (diggable)", "at object (diggable)", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PlayerQuestPopup.lua"
