@@ -28,6 +28,9 @@ Autres :
 
 --------------------------------------------------------------------------------------------
 
+Lien vers le Discord du projet :
+- https://discord.gg/eFAGh2EFdE
+
 Le Glossaire :
 - https://docs.google.com/document/d/1OVWK9UDs2WZF-FuRd-v5Ih6Xq5Fe3t9hVzGp7lx1N6Q/edit?tab=t.0
 
