@@ -26,3 +26,16 @@ Autres :
   - mod-example_realtime.lua (a faire)
   - tome-remote-designer.lua (a faire)
 
+--------------------------------------------------------------------------------------------
+
+Le Glossaire :
+- https://docs.google.com/document/d/1OVWK9UDs2WZF-FuRd-v5Ih6Xq5Fe3t9hVzGp7lx1N6Q/edit?tab=t.0
+
+Les egos, sans doublons :
+- https://docs.google.com/spreadsheets/d/1JTqqsp1DuSNY9Jcmsb7z_i66qFjpdAt7yan7RwYav2U/edit#gid=0
+- le jeu affiche les affixes/egos d'items en -> préfixe, item, suffixe
+  - il faudra donc demander a DarkGod de les faire passer en -> item, préfixe, suffixe
+ 
+
+Il est impossible de tout tester moi meme. Il me faudra donc des retours, principalement sur les logs de combat qui risquent d'etre catastrophique sur certains points.
+
