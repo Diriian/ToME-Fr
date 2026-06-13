@@ -1,3 +1,7 @@
+Bievenue sur un projet visant a traduire le jeu Tales of Maj'Eyal (ToME) en Français.
+
+--------------------------------------------------------------------------------------------
+
 Fichiers du jeu de base :
 - engine.lua
 - mod-boot.lua
