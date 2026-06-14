@@ -718,6 +718,7 @@ t("All damage done to the player decreased by 30%", "Tous les dégâts fait au j
 t("All healing for the player increased by 30%", "Tous les soins pour le joueur sont augmentés de 30%", "_t")
 t("All detrimental status effects durations reduced by 50%", "Toutes les durées des effets de status désaventageux sont réduites de 50%", "_t")
 t("Achievements are not granted.", "Les succès ne sont pas accordés.", "_t")
+t("Normal", "Normale", "birth descriptor name")
 t("#GOLD##{bold}#Normal mode#WHITE##{normal}#", "#GOLD##{bold}#Mode normal#WHITE##{normal}#", "_t")
 t("Provides the normal level of challenges.", "Procure le niveau normal de challenge.", "_t")
 t("Stairs can not be used for 2 turns after a kill.", "Les escaliers ne peuvent pas être utilisés pendant 2 tours après avoir tué.", "_t")
@@ -771,7 +772,6 @@ t("Only one life, unless ways to self-resurrect are found in-game.", "Une seule 
 -- texte non traduit
 --[==[
 t("base", "base", "birth descriptor name")
-t("Normal", "Normal", "birth descriptor name")
 t("Exploration", "Exploration", "birth descriptor name")
 t("Roguelike", "Roguelike", "birth descriptor name")
 --]==]
@@ -1399,12 +1399,8 @@ section "mod-tome/data/birth/sexes.lua"
 t("Female", "Femelle", "birth descriptor name")
 t("You are a female of the species.", "Vous êtes une femelle de votre race.", "_t")
 t("There is no in-game difference between the two sexes.", "Il n'y a aucune différence en jeu entre les deux sexes.", "_t")
+t("Male", "Mâle", "birth descriptor name")
 t("You are a male of the species.", "Vous êtes un male de votre race.", "_t")
--- texte non traduit
---[==[
-t("Male", "Male", "birth descriptor name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/birth/worlds.lua"
@@ -43123,12 +43119,14 @@ t("Character Creation", "Création de personnage", "_t")
 t("     Play!     ", "     Jouer!     ", "_t")
 t("Random!", "Aléatoire!", "_t")
 t("Load premade", "Ancien personnage", "_t")
+t("Custom tile", "Tuile personnalisé", "_t")
 t("Cancel", "Annuler", "_t")
 t("Tutorial", "Tutoriel", "_t")
 t("Customize", "Customiser", "_t")
 t("Extra Options", "Options supplémentaires", "_t")
 t("Name: ", "Nom：", "_t")
 t("Female", "Femelle", "_t")
+t("Male", "Mâle", "_t")
 t("Campaign: ", "Campagne：", "_t")
 t("Difficulty: ", "Difficulté：", "_t")
 t("Permadeath: ", "Mort permanente：", "_t")
@@ -43221,12 +43219,6 @@ t("Dismiss", "Refuser", "_t")
 t("Birth Options", "Options de naissance", "_t")
 t("Confirm", "Confirmer", "_t")
 t("Apply the selected cosmetics to %s?", "Appliquer le cosmétique sélectionné à %s?", "tformat")
--- texte non traduit
---[==[
-t("Custom tile", "Custom tile", "_t")
-t("Male", "Male", "_t")
---]==]
-
 -- ancien texte traduit
 t("Select custom tile", "Avatar personnalisé", "_t")
 
@@ -43288,12 +43280,15 @@ t("Online URL: #LIGHT_BLUE##{underline}#%s#{normal}#", "URL en ligne: #LIGHT_BLU
 t("You can find your character sheet online", "Vous pouvez trouver votre fiche de personnage en ligne", "_t")
 t("Sex  : ", "Sexe   : ", "_t")
 t("Female", "Femelle", "_t")
+t("Male", "Mâle", "_t")
 t("Race : ", "Race   : ", "_t")
 t("Type : ", "Type   : ", "_t")
 t("Class: ", "Classe : ", "_t")
 t("Stype: ", "Stype  : ", "_t")
 t("Zigur follower", "Suivant de Zigur", "_t")
 t("Antimagic adherent", "Adhérent à l'anti-magie", "_t")
+t("- Seed: #LIGHT_STEEL_BLUE#%s", "- Graine: #LIGHT_STEEL_BLUE#%s", "tformat")
+t("Click to copy to clipboard. You can share the wanderer seed with your friends, this way they can play with the same set of talents.", "Cliquez pour copier dans le presse-papiers. Vous pouvez partager la graine du Vagabond avec vos amis. Ainsi, ils pourront jouer avec les mêmes talents.", "_t")
 t("Size : ", "Taille : ", "_t")
 t("Level: #00ff00#%d", "Niveau: #00ff00#%d", "tformat")
 t("Exp  : #00ff00#%2d%%", "Exp   : #00ff00#%2d%%", "tformat")
@@ -43393,6 +43388,7 @@ t("#LIGHT_BLUE#Flat resistances:", "#LIGHT_BLUE#Résistances fixe:", "_t")
 t("#LIGHT_BLUE#Effect resistances:", "#LIGHT_BLUE#Effets des résistances:", "_t")
 t("#LIGHT_BLUE#Damage when hit:", "#LIGHT_BLUE#Dégâts quand touché:", "_t")
 t("Prodigies", "Prodiges", "_t")
+t("Item_Talents", "Talents d'Objet", "_t")
 t("Instant", "Instantané", "_t")
 t("Activated", "Activé", "_t")
 t("Sustained", "Soutenu", "_t")
@@ -43414,9 +43410,6 @@ t("%s %s", "%s %s", "tformat")
 t("Poison", "Poison", "_t")
 t("Confusion", "Confusion", "_t")
 t("Silence", "Silence", "_t")
-t("Male", "Male", "_t")
-t("- Seed: #LIGHT_STEEL_BLUE#%s", "- Seed: #LIGHT_STEEL_BLUE#%s", "tformat")
-t("Click to copy to clipboard. You can share the wanderer seed with your friends, this way they can play with the same set of talents.", "Click to copy to clipboard. You can share the wanderer seed with your friends, this way they can play with the same set of talents.", "_t")
 t("%+.0f max", "%+.0f max", "_t")
 t("min", "min", "_t")
 t("max", "max", "_t")
@@ -43426,7 +43419,6 @@ t("#AQUAMARINE#Inscriptions (%d/%d)", "#AQUAMARINE#Inscriptions (%d/%d)", "tform
 t("#LIGHT_BLUE#Mental:", "#LIGHT_BLUE#Mental:", "_t")
 t("race/.*", "race/.*", "_t")
 t("Inscriptions", "Inscriptions", "_t")
-t("Item_Talents", "Item_Talents", "_t")
 t("Talents", "Talents", "_t")
 --]==]
 
@@ -43550,6 +43542,7 @@ t("#GOLD##{bold}#Interface Style#WHITE##{normal}#", "#GOLD##{bold}#Style d'inter
 t("Dark", "Sombre", "_t")
 t("Metal", "Métal", "_t")
 t("Stone", "Pierre", "_t")
+t("Interface style", "Style de l'Interface", "_t")
 t("Select style", "Style d'interface", "_t")
 t([[Select the HUD look. 'Minimalist' is the default one.
 #LIGHT_RED#This will take effect on next restart.]], [[Sélectionnez le style del'HUD. "Minimaliste" est la valeur par défaut.
@@ -43558,6 +43551,10 @@ t("#GOLD##{bold}#HUD Style#WHITE##{normal}#", "#GOLD##{bold}#Style de l'HUD#WHIT
 t("Minimalist", "Minimaliste", "_t")
 t("Classic", "Classique", "_t")
 t("HUD style", "Style de l'HUD", "_t")
+t("The number of lines to display in the combat log (for the Classic HUD).", "Le nombre de lignes à afficher dans le journal de combat (pour le HUD Classique).", "_t")
+t("#GOLD##{bold}#Log lines#WHITE##{normal}#", "#GOLD##{bold}#Lignes du journal#WHITE##{normal}#", "_t")
+t("Log lines", "Lignes du journal", "_t")
+t("From 5 to 50", "De 5 à 50", "_t")
 t("Draw faint lines to separate each grid, making visual positioning easier to see.#WHITE#", "Tracez de fines lignes pour séparer chaque case, ce qui permet un positionnement visuel plus facile à voir.#WHITE#", "_t")
 t("#GOLD##{bold}#Display map grid lines#WHITE##{normal}#", "#GOLD##{bold}#Afficher la grille sur la carte#WHITE##{normal}#", "_t")
 t([[Select the fonts look. Fantasy is the default one. Basic is simplified and smaller.
@@ -43571,6 +43568,7 @@ You must restart the game for the change to take effect.]], [[Séléctionnez la 
 Vous devez redémarrer le jeu pour que le changement soit pris en compte.]], "_t")
 t("#GOLD##{bold}#Font Size#WHITE##{normal}#", "#GOLD##{bold}#Taille de la police#WHITE##{normal}#", "_t")
 t("Font size", "Taille de la police", "_t")
+t("Normal", "Normale", "_t")
 t("Small", "Petite", "_t")
 t("Big", "Grosse", "_t")
 t([[How many seconds before log and chat lines begin to fade away.
@@ -43605,6 +43603,7 @@ t([[If disabled lore popups will only appear the first time you see the lore on 
 If enabled it will appear the first time you see it with each character.#WHITE#]], [[Si vous avez désactivé les fenêtres contextuelles sur les chroniques, elles n'apparaîtront que la première fois que vous les verrez sur votre profil.
 Si elles sont activées, elles apparaîtront la première fois que vous les verrez avec chaque personnages.#WHITE#]], "_t")
 t("#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "#GOLD##{bold}#Toujours montrer le popup des chroniques#WHITE##{normal}#", "_t")
+t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "Si désactivés, les objets activables ne seront pas automatiquement ajoutés à vos raccourcis clavier. Vous devrez les faire glisser manuellement depuis l'écran d'inventaire.#WHITE#", "_t")
 t("#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "#GOLD##{bold}#Ajoutez toujours les objets aux touches de raccourcis#WHITE##{normal}#", "_t")
 t([[Toggles between various tactical information display:
 - Combined healthbar and small tactical frame
@@ -43658,6 +43657,7 @@ t("Defines the distance from the screen edge at which scrolling will start. If s
 t("#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "#GOLD##{bold}#Distance du scrolling#WHITE##{normal}#", "_t")
 t("Scroll distance", "Distance du scrolling", "_t")
 t("From 1 to 50", "De 1 à 50", "_t")
+t("If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "Si vous perdez plus que ce pourcentage de vie dans un tour, un avertissement s'affichera et toutes les entrées clé/souris seront ignorées pendant 2 secondes pour éviter les erreurs.#WHITE#", "_t")
 t("#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "#GOLD##{bold}#Avertissement de Santé Perdu#WHITE##{normal}#", "_t")
 t("Life lost percentage (out of max life)", "Pourcentage de santé perdu (sur la santé max)", "_t")
 t("From 1 to 99 (100 to disable)", "De 1 à 99 (100 pour désactiver)", "_t")
@@ -43673,6 +43673,9 @@ t([[Enables quick melee targeting.
 Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], [[Activer le ciblage rapide en mêlée.
 Les talents nécéssitant une cible de mêlée auront un ciblage automatique en appuyant sur une touche de direction au lieu d'exiger une confirmation.#WHITE#]], "_t")
 t("#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "#GOLD##{bold}#Ciblage rapide en mêlée#WHITE##{normal}#", "_t")
+t([[Enables quick melee targeting auto attacking.
+Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], [[Active de rapides attaques automatique ciblé en mêlée.
+Les talents qui nécessitent une cible de mêlée cibleront et confirmeront automatiquement s'il n'y a qu'une seule créature hostile aux alentours.#WHITE#]], "_t")
 t("#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "#GOLD##{bold}#Attaque automatique rapide ciblé en mêlée#WHITE##{normal}#", "_t")
 t("Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "Activer le ciblage à la souris. Si les mouvements de la souris sont désactivés, la cible ne changera pas lors de l'incantation d'un sort ou de l'utilisation d'un talent.#WHITE#", "_t")
 t("#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "#GOLD##{bold}#Ciblage à la souris#WHITE##{normal}#", "_t")
@@ -43694,6 +43697,7 @@ t("New games begin with some talent points auto-assigned.#WHITE#", "Les nouvelle
 t("#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "#GOLD##{bold}#Attribution automatique de points de talent à la naissance#WHITE##{normal}#", "_t")
 t("Always rest to full before auto-exploring.#WHITE#", "Toujours se reposer à fond avant d'auto-explorer.#WHITE#", "_t")
 t("#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "#GOLD##{bold}#Se reposer avant d'auto-explorer#WHITE##{normal}#", "_t")
+t("When swapping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "Lorsque vous échangez un objet avec une babiole attaché, rattachez automatiquement la babiole à l'article nouvellement porté.#WHITE#", "_t")
 t("#GOLD##{bold}#Swap tinkers#WHITE##{normal}#", "#GOLD##{bold}#Echange de gadgets#WHITE##{normal}#", "_t")
 t("Configure the chat filters to select what kind of messages to see.#WHITE#", "Configurer les filtres des cannaux de discutions pour sélectionner le type de messages que vous souhaitez voir.#WHITE#", "_t")
 t("#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "#GOLD##{bold}#Filtres des cannaux de discutions#WHITE##{normal}#", "_t")
@@ -43787,18 +43791,6 @@ t("#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "#GOLD##{bold}#Montrer les 
 -- texte non traduit
 --[==[
 t("Simple", "Simple", "_t")
-t("Interface style", "Interface style", "_t")
-t("The number of lines to display in the combat log (for the Classic HUD).", "The number of lines to display in the combat log (for the Classic HUD).", "_t")
-t("#GOLD##{bold}#Log lines#WHITE##{normal}#", "#GOLD##{bold}#Log lines#WHITE##{normal}#", "_t")
-t("Log lines", "Log lines", "_t")
-t("From 5 to 50", "From 5 to 50", "_t")
-t("Normal", "Normal", "_t")
-t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "_t")
-t("If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "_t")
-t([[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], [[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], "_t")
-t("When swapping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "When swapping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "_t")
 --]==]
 
 -- ancien texte traduit
@@ -44010,7 +44002,9 @@ t("Control", "Contrôle", "_t")
 t("Give order", "Donner un ordre", "_t")
 t("Target player", "Cible le joueur", "_t")
 t("Lua inspect [Actor]", "Lua inspect [Acteur]", "_t")
+t("Lua inspect [Terrain]", "Inspection Lua [Terrain]", "_t")
 t("Lua inspect [Trap]", "Lua inspect [Piège]", "_t")
+t("Lua inspect [Projectile]", "Inspection Lua [Projectile]", "_t")
 t("Show inventory", "Afficher l'inventaire", "_t")
 t("Rest a while", "Se reposer un peu", "_t")
 t("Auto-explore", "Explorer automatiquement", "_t")
@@ -44022,8 +44016,6 @@ t("Levelup!", "Niveau supérieur!", "_t")
 -- texte non traduit
 --[==[
 t("Actions", "Actions", "_t")
-t("Lua inspect [Terrain]", "Lua inspect [Terrain]", "_t")
-t("Lua inspect [Projectile]", "Lua inspect [Projectile]", "_t")
 t(" ", " ", "_t")
 --]==]
 
@@ -44384,21 +44376,17 @@ t("Talent", "Talent", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/WandererSeed.lua"
 
-t("Wanderer Seed", "Graine de Vagabond", "_t")
--- texte non traduit
---[==[
-t("Wanderer Options", "Wanderer Options", "_t")
+t("Wanderer Options", "Options de Vagabonds", "_t")
 t([[Welcome, wandering one! The Wanderer class uses a randomly selected set of talent trees.
-You can now choose how this set is selected:]], [[Welcome, wandering one! The Wanderer class uses a randomly selected set of talent trees.
-You can now choose how this set is selected:]], "_t")
-t("Simply make a random set of trees, this is the default option. If you want to share it with friends, you will find the seed in the character's sheet later on.", "Simply make a random set of trees, this is the default option. If you want to share it with friends, you will find the seed in the character's sheet later on.", "_t")
-t("If an other player gave you a seed to play, you can enter it here. Do note that while a seed will always work, you will only get the same talents set if you use the same DLC/addons.", "If an other player gave you a seed to play, you can enter it here. Do note that while a seed will always work, you will only get the same talents set if you use the same DLC/addons.", "_t")
-t("Play!", "Play!", "_t")
-t("#{bold}##ANTIQUE_WHITE#Random#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#Random#{normal}##LAST#", "_t")
-t("#{bold}##ANTIQUE_WHITE#Seed#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#Seed#{normal}##LAST#", "_t")
-t("The wanderer seed you used was generated for a different set of DLC/addons. Your character will still work fine but you may not have the same talent set as the person that shared the seed with you.", "The wanderer seed you used was generated for a different set of DLC/addons. Your character will still work fine but you may not have the same talent set as the person that shared the seed with you.", "_t")
---]==]
-
+You can now choose how this set is selected:]], [[Bienvenue, voyageur! La classe Vagabond utilise un ensemble d'arbres de talents sélectionnés aléatoirement.
+Vous pouvez désormais choisir comment cet ensemble est sélectionné:]], "_t")
+t("Simply make a random set of trees, this is the default option. If you want to share it with friends, you will find the seed in the character's sheet later on.", "Créez simplement un ensemble d'arbres aléatoires. c'est l'option par défaut. Si vous souhaitez le partager avec des amis, vous trouverez la graine plus loin dans la fiche de personnage.", "_t")
+t("If an other player gave you a seed to play, you can enter it here. Do note that while a seed will always work, you will only get the same talents set if you use the same DLC/addons.", "Si un autre joueur vous a donné une graine pour jouer, vous pouvez la saisir ici. Veuillez noter que même si une graine fonctionne toujours, vous n'obtiendrez le même ensemble de talents que si vous utilisez les mêmes DLC et extensions.", "_t")
+t("Play!", "Jouer!", "_t")
+t("#{bold}##ANTIQUE_WHITE#Random#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#Aléatoire#{normal}##LAST#", "_t")
+t("#{bold}##ANTIQUE_WHITE#Seed#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#Graine#{normal}##LAST#", "_t")
+t("Wanderer Seed", "Graine de Vagabond", "_t")
+t("The wanderer seed you used was generated for a different set of DLC/addons. Your character will still work fine but you may not have the same talent set as the person that shared the seed with you.", "La graine de vagabond que vous avez utilisée a été générée pour un autre ensemble de DLC et extensions. Votre personnage fonctionnera correctement, mais vous n'aurez peut-être pas les mêmes talents que la personne qui vous a partagé la graine.", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AdvanceActor.lua"
@@ -44539,6 +44527,8 @@ t("#LIGHT_BLUE#God mode OFF", "#LIGHT_BLUE#Mode Dieu OFF", "log")
 t("#LIGHT_BLUE#God mode ON", "#LIGHT_BLUE#Mode Dieu ON", "log")
 t("#LIGHT_BLUE#Demi-God mode OFF", "#LIGHT_BLUE#Mode Demi-Dieu OFF", "log")
 t("#LIGHT_BLUE#Demi-God mode ON", "#LIGHT_BLUE#Mode Demi-Dieu ON", "log")
+t("#LIGHT_BLUE#Weakdamage mode OFF", "#LIGHT_BLUE#Mode Faiblesdégâts OFF", "log")
+t("#LIGHT_BLUE#Weakdamage mode ON", "#LIGHT_BLUE#Mode Faiblesdégâts ON", "log")
 t("#LIGHT_BLUE#Revealing Map.", "#LIGHT_BLUE#Révéler la carte.", "log")
 t("Zone: %s", "Secteur: %s", "tformat")
 t("Level 1-%s", "Niveau 1-%s", "tformat")
@@ -44571,12 +44561,6 @@ t("Spawn Event", "Faire apparaître un événement", "_t")
 t("Endgamify", "Passer en mode Fin de partie", "_t")
 t("Reload/regenerate Zone and level", "Recharger/Régénérer zone et niveau", "_t")
 t("Automatically Clear Zones", "Automatiquement nettoyer les zones", "_t")
--- texte non traduit
---[==[
-t("#LIGHT_BLUE#Weakdamage mode OFF", "#LIGHT_BLUE#Weakdamage mode OFF", "log")
-t("#LIGHT_BLUE#Weakdamage mode ON", "#LIGHT_BLUE#Weakdamage mode ON", "log")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/Endgamify.lua"
@@ -44857,10 +44841,9 @@ t("#GREY#[Invisible]", "#GREY#[Invisible]", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/ShimmerDemo.lua"
 
-
+t("Shimmer Demo", "Démo Chatoyante", "_t")
 -- texte non traduit
 --[==[
-t("Shimmer Demo", "Shimmer Demo", "_t")
 t("#GREY#[Invisible]", "#GREY#[Invisible]", "_t")
 --]==]
 
