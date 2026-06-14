@@ -4675,7 +4675,7 @@ t("purging blight", "dégâts de purge de maladie", "damage type")
 t("holy light", "dégâts de lumiére sacrée", "damage type")
 t("healing", "dégâts de soins", "damage type")
 t("healing light", "dégâts de lumière soignante", "damage type")
-t("#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "#DARK_ORCHID#Votre bouclier magique ne peut plus être prolongé et a explosé.", "logPlayer")
+t("#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "#DARK_ORCHID#Votre bouclier de protection ne peut plus être prolongé et a explosé.", "logPlayer")
 t("judgement", "dégâts de jugement", "damage type")
 t("healing nature", "soin naturel", "damage type")
 t("infective blight", "dégâts de maladie infectieuse", "damage type")
@@ -9995,7 +9995,7 @@ t("save spell", "sauvegarde contre les sorts", "entity name")
 t("save mental", "sauvegarde mentale", "entity name")
 t("mana regeneration", "régénération du mana", "entity name")
 t("stamina regeneration", "régénération de l'endurance", "entity name")
-t("life regeneration", "régénération de la vie", "entity name")
+t("life regeneration", "régénération de vie", "entity name")
 t("increased mana", "augmentation du mana", "entity name")
 t("increased stamina", "augmentation de l'endurance", "entity name")
 t("increased life", "augmentation de la vie", "entity name")
@@ -21978,10 +21978,9 @@ t([[Your mastery of stealth allows you to vanish from sight at any time.
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/survival.lua"
 
-
+t("Heightened Senses", "Sens Accrus", "talent name")
 -- texte non traduit
 --[==[
-t("Heightened Senses", "Heightened Senses", "talent name")
 t([[You notice the small things others do not notice, allowing you to "see" creatures in a %d radius even outside of light radius.
 		This is not telepathy, however, and it is still limited to line of sight.
 		Also, your attention to detail increases stealth detection and invisibility detection by %d, and you gain the ability to detect traps (+%d detect 'power').
@@ -22458,10 +22457,9 @@ t([[Instill a part of your living curse into a weapon in your inventory, and tos
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/cursed-form.lua"
 
-
+t("Unnatural Body", "Corps Surnaturel", "talent name")
 -- texte non traduit
 --[==[
-t("Unnatural Body", "Unnatural Body", "talent name")
 t([[Your body's strength is fed by your hatred. This causes most forms of healing to be between 50%% effective (at 0 Hate) to 100%% effective (at 100+ Hate). In addition, after each kill, you store the waning life force to invigorate yourself, restoring %d life (limited by the foe's maximum life, up to a maximum of %d at any time).  You can heal no more than %0.1f life per turn this way, and it is not affected by your hatred level or other effects.
 		Healing from kills improves with your Willpower.]], [[Your body's strength is fed by your hatred. This causes most forms of healing to be between 50%% effective (at 0 Hate) to 100%% effective (at 100+ Hate). In addition, after each kill, you store the waning life force to invigorate yourself, restoring %d life (limited by the foe's maximum life, up to a maximum of %d at any time).  You can heal no more than %0.1f life per turn this way, and it is not affected by your hatred level or other effects.
 		Healing from kills improves with your Willpower.]], "tformat")
@@ -34154,7 +34152,7 @@ t("The very fabric of space alters around #target#.", "Le tissu même de l'espac
 t("+Displacement Shield", "+Bouclier de Déplacement", "_t")
 t("The fabric of space around #target# stabilizes to normal.", "Le tissu de l'espace autour de #target# redevient normal.", "_t")
 t("-Displacement Shield", "-Bouclier de Déplacement", "_t")
-t("Damage Shield", "Bouclier de protection", "_t")
+t("Damage Shield", "Bouclier de Protection", "_t")
 t("The target is surrounded by a magical shield, absorbing %d/%d damage %s before it crumbles.", "La cible est entourée d'un bouclier magique qui absorbe %d/%d dégâts %s avant de s'effondrer.", "tformat")
 t("(reflecting %d%% back to the attacker)", "(renvoie %d%% à l'attaquant)", "tformat")
 t("A shield forms around #target#.", "Un bouclier se forme autour de #target#.", "_t")
@@ -40726,7 +40724,7 @@ t("#LIGHT_BLUE#Unarmed:#LAST#%s", "#LIGHT_BLUE#Main nue:#LAST#%s", "tformat")
 t("#LIGHT_BLUE#Unarmed:#LAST#", "#LIGHT_BLUE#Main nue:#LAST#", "_t")
 t("Melee Retaliation: ", "Représailles de mêlée: ", "_t")
 t("Personal reaction: ", "Réaction personnelle: ", "_t")
-t("Sustained Talents: ", "Talents soutenus: ", "_t")
+t("Sustained Talents: ", "Talents Soutenus: ", "_t")
 t("Temporary Status Effects: ", "Effets de statut temporaires: ", "_t")
 t("#LIGHT_GREEN#%d healing #LAST##AQUAMARINE#(%d psi heal)#LAST#", "#LIGHT_GREEN#%d soins #LAST##AQUAMARINE#(%d soins psi)#LAST#", "tformat")
 t("#LIGHT_GREEN#%d healing#LAST#", "#LIGHT_GREEN#%d soins#LAST#", "tformat")
@@ -41101,7 +41099,7 @@ t("#GOLD#Automatic accept target mode: %s", "#GOLD#Accepte automatiquement le mo
 t("Message Log", "Historique des messages", "_t")
 t("Displaying creatures.", "Affichage des créatures.", "log")
 t("Displaying talents.", "Affichage des talents.", "log")
-t("Tooltip %s", "Info-bulle %s", "log")
+t("Tooltip %s", "Infobulle %s", "log")
 t("Show Achievements", "Montrer les succès", "_t")
 t("Tales of Maj'Eyal Achievements", "Succès de Tales of Maj'Eyal", "_t")
 t("Show known Lore", "Montrer les éléments de lore connus", "_t")
@@ -41329,7 +41327,7 @@ t("Damage type: ", "Type de dégâts: ", "_t")
 t("Mastery: ", "Maîtrise: ", "_t")
 t("Accuracy is based on willpower for this weapon.", "Précision de l'arme basée sur la Volonté.", "_t")
 t("Accuracy: ", "Précision: ", "_t")
-t("Armour Penetration: ", "Pénnétration d'armure: ", "_t")
+t("Armour Penetration: ", "Pénnétration d'Armure: ", "_t")
 t("Crit. chance: ", "Chance de crit: ", "_t")
 t("Crit. power: ", "Puissance Crit: ", "_t")
 t("Attack speed: ", "Vitesse d'attaque: ", "_t")
@@ -41377,7 +41375,7 @@ t("dims", "assombrissement", "_t")
 t("#ORANGE#It has an activatable power.#LAST#", "#ORANGE#A un pouvoir activable.#LAST#", "_t")
 t("It is part of a set of items.", "Fait partis d'une collection d'objets", "_t")
 t("The set is complete.", "La collection est complete.", "_t")
-t("Armour penetration: ", "Pénétration d'Armure: ", "_t")
+t("Armour penetration: ", "Pénétration d'armure: ", "_t")
 t("Physical crit. chance: ", "Chance de crit physique: ", "_t")
 t("Physical power: ", "Puissance physique: ", "_t")
 t("Armour: ", "Armure: ", "_t")
@@ -41480,7 +41478,7 @@ t("Mindpower: ", "Puissance mentale: ", "_t")
 t("Mental crit. chance: ", "Crit chance mental: ", "_t")
 t("Light radius: ", "Portée de vue: ", "_t")
 t("Infravision radius: ", "Portée d'infravision: ", "_t")
-t("Heightened senses radius: ", "Rayon des sens accru: ", "_t")
+t("Heightened senses radius: ", "Rayon des sens accrus: ", "_t")
 t("Sight radius: ", "Distance de la vue: ", "_t")
 t("See stealth: ", "Voir la furtivité: ", "_t")
 t("See invisible: ", "Voir l'invisible: ", "_t")
@@ -42062,169 +42060,146 @@ t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête \"%s\" a échouée!", "say
 ------------------------------------------------
 section "mod-tome/mod/class/interface/TooltipsData.lua"
 
-
--- nouveau texte
---[==[
-t([[#GOLD#Vim#LAST#
-Vim represents the amount of life energy you control. Each corruption talent requires some.
-It does not regenerate naturally; you need to drain it from yourself or your victims.
-Each time you kill a creature you gain 50% of your Willpower + 1 as Vim.  This value is multiplied by the rank of the creature.
-If you can't pay for the Vim cost of a talent you may instead pay with life at a rate of 200% of the Vim cost.
-]], [[#GOLD#Vim#LAST#
-Vim represents the amount of life energy you control. Each corruption talent requires some.
-It does not regenerate naturally; you need to drain it from yourself or your victims.
-Each time you kill a creature you gain 50% of your Willpower + 1 as Vim.  This value is multiplied by the rank of the creature.
-If you can't pay for the Vim cost of a talent you may instead pay with life at a rate of 200% of the Vim cost.
-]], "_t")
-t([[#GOLD#Global Speed#LAST#
-Global speed represents how fast you are and affects everything you do.
-Higher is faster, so at 200% global speed you can perform twice as many actions as you would at 100% speed.
-Note that the amount of time to perform various actions like moving, casting spells, and attacking is also affected by their respective speeds.
-]], [[#GOLD#Global Speed#LAST#
-Global speed represents how fast you are and affects everything you do.
-Higher is faster, so at 200% global speed you can perform twice as many actions as you would at 100% speed.
-Note that the amount of time to perform various actions like moving, casting spells, and attacking is also affected by their respective speeds.
-]], "_t")
-t([[#GOLD#Shield Block Value#LAST#
-The base amount of damage a shield will block when actively used in defense.
-Mind damage cannot be blocked. Against other damage types you gain a 50%% bonus to the block value if the shield used grants resistance to that damage type.
-]], [[#GOLD#Shield Block Value#LAST#
-The base amount of damage a shield will block when actively used in defense.
-Mind damage cannot be blocked. Against other damage types you gain a 50%% bonus to the block value if the shield used grants resistance to that damage type.
-]], "_t")
---]==]
-
--- texte non traduit
---[==[
 t([[#GOLD#Gold#LAST#
 Money!
 With gold you can buy items in the various stores in town.
 You can gain money by looting it from your foes, by selling items and by doing some quests.
-]], [[#GOLD#Gold#LAST#
-Money!
-With gold you can buy items in the various stores in town.
-You can gain money by looting it from your foes, by selling items and by doing some quests.
+]], [[#GOLD#Or#LAST#
+L'argent!
+Avec de l'or vous pouvez acheter des objets dans les différentes boutiques de la ville.
+Vous pouvez gagner de l'argent en pillant vos ennemis, en vendant des objets, et en accomplissant des quêtes.
 ]], "_t")
 t([[#GOLD#Lives#LAST#
 How many lives you have and how many you lost.
 Your total number of lives depends on the permadeath setting you choose.
 You may find other ways to save yourself but they are not considered extra lives.
-]], [[#GOLD#Lives#LAST#
-How many lives you have and how many you lost.
-Your total number of lives depends on the permadeath setting you choose.
-You may find other ways to save yourself but they are not considered extra lives.
+]], [[#GOLD#Vies#LAST#
+Combien de vies vous avez et combien vous en avez perdues.
+Votre nombre total de vies dépend du mode de Mort Permanente que vous avez choisi.
+Vous pouvez trouver d'autres moyens de vous sauver, mais ils ne comptent pas comme des vies supplémentaires.
 ]], "_t")
 t([[#GOLD#Blood of Life#LAST#
 The Blood of Life courses through your veins.
 This can save you from death and restore you to full health (once) if you would otherwise die.
-]], [[#GOLD#Blood of Life#LAST#
-The Blood of Life courses through your veins.
-This can save you from death and restore you to full health (once) if you would otherwise die.
+]], [[#GOLD#Sang de Vie#LAST#
+Le Sang de Vie coule dans vos veines.
+Il peut vous sauver de la mort et vous guérire entierement (une seule fois) si vous alliez mourir.
 ]], "_t")
 t([[#GOLD#Life#LAST#
 This is your life force, which is reduced each time you take damage.
 Normally, you will die if this drops below zero, though some effects will allow you survive with negative life.
 Death is usually permanent so beware!
 It is increased by Constitution.
-]], [[#GOLD#Life#LAST#
-This is your life force, which is reduced each time you take damage.
-Normally, you will die if this drops below zero, though some effects will allow you survive with negative life.
-Death is usually permanent so beware!
-It is increased by Constitution.
+]], [[#GOLD#Vie#LAST#
+Il s'agit de votre force vitale, qui diminue à chaque fois que vous subissez des dégâts.
+Normalement, vous mourrez si elle tombe en dessous de zéro, bien que certains effets vous permettent de survivre avec une force vitale négative.
+La mort est généralement définitive, alors soyez prudent!
+Elle est augmentée par votre Constitution.
 ]], "_t")
 t([[#GOLD#Damage shields#LAST#
 Various talents, items and powers can grant you a temporary damage shield.
 Each works in a distinct manner, but will usually intercept a certain amount of damage that would otherwise hit you before crumbling.
-]], [[#GOLD#Damage shields#LAST#
-Various talents, items and powers can grant you a temporary damage shield.
-Each works in a distinct manner, but will usually intercept a certain amount of damage that would otherwise hit you before crumbling.
+]], [[#GOLD#Boucliers de Protection#LAST#
+Divers talents, objets, et pouvoirs peuvent vous conférer un boucliers de protection temporaire contre les dégâts.
+Chacun fonctionne différemment, mais intercepte généralement une certaine quantité de dégâts avant de se dissiper.
 ]], "_t")
 t([[#GOLD#Unnatrual Body Regeneration#LAST#
 Your Unnatural Body talent allows you to feed off the life of your fallen foes.
 Each time you kill a creature your maximum regeneration pool increases and each turn some of it transfers into your own life.
-]], [[#GOLD#Unnatrual Body Regeneration#LAST#
-Your Unnatural Body talent allows you to feed off the life of your fallen foes.
-Each time you kill a creature your maximum regeneration pool increases and each turn some of it transfers into your own life.
+]], [[#GOLD#Régénération Corporelle Surnaturelle#LAST#
+Votre talent Corps Surnaturel vous permet de vous nourrir de la vie de vos ennemis vaincus.
+Chaque créature que vous tuez augmente votre réserve de régénération maximale, et à chaque tour, une partie de cette régénération est transférée dans votre propre vie.
 ]], "_t")
 t([[#GOLD#Life Regeneration#LAST#
 How much life you regenerate per turn.
 This value can be improved with spells, talents, infusions, equipment.
-]], [[#GOLD#Life Regeneration#LAST#
-How much life you regenerate per turn.
-This value can be improved with spells, talents, infusions, equipment.
+]], [[#GOLD#Régénération de Vie#LAST#
+Quantité de vie régénérés par tour.
+Cette valeur peut être améliorée grâce à des sorts, des talents, des infusions, et de l'équipement.
 ]], "_t")
 t([[#GOLD#Healing mod#LAST#
 This represents how effective healing is for you.
 All healing values are multiplied by this value (including life regeneration).
 It is increased by Constitution.
-]], [[#GOLD#Healing mod#LAST#
-This represents how effective healing is for you.
-All healing values are multiplied by this value (including life regeneration).
-It is increased by Constitution.
+]], [[#GOLD#Modif de Soins#LAST#
+Cela représente l'efficacité des soins sur vous.
+Toutes les valeurs de soins sont multipliées par cette valeur (y compris la régénération de vie).
+Elle est augmentée par la Constitution.
 ]], "_t")
 t([[#GOLD#Air#LAST#
 The breath counter only appears when you are suffocating.
 If it reaches zero you will die. Being stuck in a wall, being in deep water, ... all those kinds of situations will decrease your air.
 When you come back into a breathable atmosphere you will slowly regain your air level.
 ]], [[#GOLD#Air#LAST#
-The breath counter only appears when you are suffocating.
-If it reaches zero you will die. Being stuck in a wall, being in deep water, ... all those kinds of situations will decrease your air.
-When you come back into a breathable atmosphere you will slowly regain your air level.
+Le compteur de respiration ne s'affiche que lorsque vous êtes en train d'asphyxier.
+S'il atteint zéro, vous mourrez. Être coincé contre un mur, être dans l'eau profonde... toutes ces situations réduisent votre réserve d'air.
+Lorsque vous revenez dans une atmosphère respirable, votre niveau d'air se rétablit progressivement.
 ]], "_t")
 t([[#GOLD#Stamina#LAST#
 Stamina represents your physical fatigue. Each physical ability used reduces it.
 It regenerates slowly over time or when resting.
 It is increased by Willpower.
-]], [[#GOLD#Stamina#LAST#
-Stamina represents your physical fatigue. Each physical ability used reduces it.
-It regenerates slowly over time or when resting.
-It is increased by Willpower.
+]], [[#GOLD#Endurance#LAST#
+L'endurance représente votre fatigue physique. Chaque talent physique en utilise.
+Elle se régénère lentement avec le temps ou au repos.
+Elle est augmentée par la volonté.
 ]], "_t")
 t([[#GOLD#Mana#LAST#
 Mana represents your reserve of magical energies. Each spell cast consumes mana and each sustained spell reduces your maximum mana.
 It is increased by Willpower.
 ]], [[#GOLD#Mana#LAST#
-Mana represents your reserve of magical energies. Each spell cast consumes mana and each sustained spell reduces your maximum mana.
-It is increased by Willpower.
+Le mana représente votre réserve d'énergie magique. Chaque sort lancé consomme du mana et chaque sort maintenu réduit votre mana maximum.
+Il est augmenté par la Volonté.
 ]], "_t")
 t([[#GOLD#Positive Energy#LAST#
 Positive energy represents your reserve of positive "celestial" power, most closely associated with the Sun.
-]], [[#GOLD#Positive Energy#LAST#
-Positive energy represents your reserve of positive "celestial" power, most closely associated with the Sun.
+]], [[#GOLD#Énergie Positive#LAST#
+L'énergie positive représente votre réserve de pouvoir "céleste" positif, étroitement associée au Soleil.
 ]], "_t")
 t([[#GOLD#Negative Energy#LAST#
 Negative energy represents your reserve of negative "celestial" power, most closely associated with the Moon.
-]], [[#GOLD#Negative Energy#LAST#
-Negative energy represents your reserve of negative "celestial" power, most closely associated with the Moon.
+]], [[#GOLD#Énergie Négative#LAST#
+L'énergie négative représente votre réserve de pouvoir "céleste" négatif, étroitement associée à la Lune.
+]], "_t")
+t([[#GOLD#Vim#LAST#
+Vim represents the amount of life energy you control. Each corruption talent requires some.
+It does not regenerate naturally; you need to drain it from yourself or your victims.
+Each time you kill a creature you gain 50% of your Willpower + 1 as Vim.  This value is multiplied by the rank of the creature.
+If you can't pay for the Vim cost of a talent you may instead pay with life at a rate of 200% of the Vim cost.
+]], [[#GOLD#Vigueur#LAST#
+La Vigueur représente la quantité d'énergie vitale que vous contrôlez. Chaque talent de corruption en requiert.
+Elle ne se régénère pas naturellement. Vous devez la puiser en vous-même ou en vos victimes.
+Chaque fois que vous tuez une créature, vous gagnez 50% de votre Volonté + 1 en Vigueur. Cette valeur est multipliée par le rang de la créature.
+Si vous ne pouvez pas payer le coût en Vigueur d'un talent, vous pouvez le payer en vie à raison de 200% du coût en Vigueur.
 ]], "_t")
 t([[#GOLD#Equilibrium#LAST#
 Equilibrium reflects your standing in the grand balance of nature and how easily you can access Wild Gifts.
 The closer it is to 0 the more in-balance you are.
 Being too far out of balance may cause your Wild Gifts to fail when called upon.
-]], [[#GOLD#Equilibrium#LAST#
-Equilibrium reflects your standing in the grand balance of nature and how easily you can access Wild Gifts.
-The closer it is to 0 the more in-balance you are.
-Being too far out of balance may cause your Wild Gifts to fail when called upon.
+]], [[#GOLD#Équilibre#LAST#
+L'équilibre reflète votre place dans le grand équilibre de la nature et votre capacité à accéder à vos Dons Sauvages.
+Plus il se rapproche de 0, plus vous êtes déséquilibré.
+Un déséquilibre trop important peut empêcher l'utilisation de vos Dons Sauvages.
 ]], "_t")
 t([[#GOLD#Hate#LAST#
 Hate represents your inner rage against all that lives and dares face you.
 It is replenished by killing creatures and through the application of your talents.
 All afflicted talents are based on Hate, and many are more effective at higher levels of hate.
-]], [[#GOLD#Hate#LAST#
-Hate represents your inner rage against all that lives and dares face you.
-It is replenished by killing creatures and through the application of your talents.
-All afflicted talents are based on Hate, and many are more effective at higher levels of hate.
+]], [[#GOLD#Haine#LAST#
+La haine représente votre rage intérieure contre tout ce qui vit et ose vous affronter.
+Elle se nourrit en tuant des créatures et par l'utilisation de vos talents.
+Tous les talents des affligé sont basés sur la haine, et nombre d'entre eux sont plus efficaces lorsque leur niveau de haine est élevé.
 ]], "_t")
 t([[#GOLD#Paradox#LAST#
 Paradox represents how stable the current timeline is. 
 As your Paradox grows so does your Spellpower, but you may be shifted to a more stable timeline when you attempt to use your magic.
 When your modified Paradox is above 600 the shifts will become more violent.
 Your control over chronomancy spells increases with your Willpower.
-]], [[#GOLD#Paradox#LAST#
-Paradox represents how stable the current timeline is. 
-As your Paradox grows so does your Spellpower, but you may be shifted to a more stable timeline when you attempt to use your magic.
-When your modified Paradox is above 600 the shifts will become more violent.
-Your control over chronomancy spells increases with your Willpower.
+]], [[#GOLD#Paradoxe#LAST#
+Le Paradoxe représente la stabilité de la ligne temporelle actuelle.
+Plus votre Paradoxe augmente, plus votre Puissance Magique augmente également, mais vous risquez d'être transporté vers une ligne temporelle plus stable lorsque vous utilisez votre magie.
+Lorsque votre Paradoxe modifié dépasse 600, les déplacements deviennent plus violents.
+Votre contrôle des sorts de chronomancie augmente avec votre Volonté.
 ]], "_t")
 t([[#GOLD#Psi#LAST#
 Psi represents how much energy your mind can harness. Like matter, it can be neither created nor destroyed.
@@ -42232,170 +42207,632 @@ It regenerates naturally, though slowly, as you pull minute amounts of heat and 
 To get meaningful amounts back in combat, you must absorb it through shields or various other talents.
 Your capacity for storing energy is determined by your Willpower.
 ]], [[#GOLD#Psi#LAST#
-Psi represents how much energy your mind can harness. Like matter, it can be neither created nor destroyed.
-It regenerates naturally, though slowly, as you pull minute amounts of heat and kinetic energy from your surroundings.
-To get meaningful amounts back in combat, you must absorb it through shields or various other talents.
-Your capacity for storing energy is determined by your Willpower.
+Le psi représente la quantité d'énergie que votre esprit peut canaliser. À l'instar de la matière, il ne peut être ni créé ni détruit.
+Il se régénère naturellement, bien que lentement, en absorbant de faibles quantités de chaleur et d'énergie cinétique de votre environnement.
+Pour récupérer des quantités significatives d'énergie en combat, vous devez l'absorber grâce à des boucliers ou à divers autres talents.
+Votre capacité à stocker de l'énergie est déterminée par votre Volonté.
 ]], "_t")
 t([[#GOLD#Feedback#LAST#
 Feedback represents using pain as a means of psionic grounding and it can be used to power feedback abilities.
 Feedback decays at the rate of 10% or 1 per turn (which ever is greater) depending on talents.
 All damage you take from an outside source will increase your Feedback based on to how much of your health is lost and your level.  First level characters gain 100 Feedback when losing 50% health, while 50th level characters gain the same amount when losing 20% health.
-]], [[#GOLD#Feedback#LAST#
-Feedback represents using pain as a means of psionic grounding and it can be used to power feedback abilities.
-Feedback decays at the rate of 10% or 1 per turn (which ever is greater) depending on talents.
-All damage you take from an outside source will increase your Feedback based on to how much of your health is lost and your level.  First level characters gain 100 Feedback when losing 50% health, while 50th level characters gain the same amount when losing 20% health.
+]], [[#GOLD#Rétroaction#LAST#
+La rétroaction représente l'utilisation de la douleur comme moyen d'ancrage psionique et peut servir à alimenter les talents de rétroaction.
+La rétroaction diminue de 10% ou de 1 par tour (la valeur la plus élevée étant retenue) selon les talents.
+Tous les dégâts subis d'une source extérieure augmentent votre Rétroaction en fonction de la quantité de santé perdue et de votre niveau. Les personnages de niveau 1 gagnent 100 points de Rétroaction en perdant 50% de leur santé, tandis que les personnages de niveau 50 en gagnent autant en perdant 20%.
 ]], "_t")
 t([[#GOLD#Necrotic Aura#LAST#
 Represents the raw materials for creating undead minions.
 It increases each time you or your minions kill something that is inside the aura radius.
-]], [[#GOLD#Necrotic Aura#LAST#
-Represents the raw materials for creating undead minions.
-It increases each time you or your minions kill something that is inside the aura radius.
+]], [[#GOLD#Aura Nécrotique#LAST#
+Représente les matières premières nécessaires à la création de serviteurs morts-vivants.
+Elle augmente à chaque fois que vous ou vos serviteurs tuez une créature se trouvant dans le rayon de l'aura.
 ]], "_t")
 t([[#GOLD#Fortress Energy#LAST#
 The energy of the Sher'Tul Fortress. It is replenished by transmogrifying items and used to power all the Fortress systems.
-]], [[#GOLD#Fortress Energy#LAST#
-The energy of the Sher'Tul Fortress. It is replenished by transmogrifying items and used to power all the Fortress systems.
+]], [[#GOLD#Energie de Forteresse#LAST#
+L'énergie de la forteresse de Sher'Tul. Elle est régénérée par la transmogrification d'objets et sert à alimenter tous les systèmes de la forteresse.
 ]], "_t")
 t([[#GOLD#Level and experience#LAST#
 Each time you kill a creature that is over your own level - 5 you gain some experience.
 When you reach enough experience you advance to the next level. There is a maximum of 50 levels you can gain.
 Each time you level you gain stat and talent points to use to improve your character.
-]], [[#GOLD#Level and experience#LAST#
-Each time you kill a creature that is over your own level - 5 you gain some experience.
-When you reach enough experience you advance to the next level. There is a maximum of 50 levels you can gain.
-Each time you level you gain stat and talent points to use to improve your character.
+]], [[#GOLD#Niveau et Expérience#LAST#
+Chaque fois que vous tuez une créature de niveau supérieur au vôtre - 5, vous gagnez de l'expérience.
+Lorsque vous atteignez un certain nombre de points d'expérience, vous passez au niveau suivant. Vous pouvez atteindre un maximum de 50 niveaux.
+À chaque passage de niveau, vous gagnez des points de statistiques et de talents à utiliser pour améliorer votre personnage.
 ]], "_t")
 t([[#GOLD#Encumbrance#LAST#
 Each object you carry has an encumbrance value. Your maximum carrying capacity is determined by your strength.
 You cannot move while encumbered; drop some items.
-]], [[#GOLD#Encumbrance#LAST#
-Each object you carry has an encumbrance value. Your maximum carrying capacity is determined by your strength.
-You cannot move while encumbered; drop some items.
+]], [[#GOLD#Encombrement#LAST#
+Chaque objet que vous transportez a une valeur d'encombrement. Votre capacité de transport maximale est déterminée par votre force.
+Vous ne pouvez pas vous déplacer lorsque vous êtes encombré. Déposez certains objets.
 ]], "_t")
 t([[#GOLD#Inscriptions#LAST#
 The people of Eyal have found a way to create herbal infusions and runes that can be inscribed on the skin of a creature.  More exotic types of inscriptions also exist.
 Those inscriptions give the bearer always-accessible powers that can be used an unlimited number of times.
 A simple regeneration infusion is the most common type of infusion, and the use of runes of various types is also common among arcane users.
 ]], [[#GOLD#Inscriptions#LAST#
-The people of Eyal have found a way to create herbal infusions and runes that can be inscribed on the skin of a creature.  More exotic types of inscriptions also exist.
-Those inscriptions give the bearer always-accessible powers that can be used an unlimited number of times.
-A simple regeneration infusion is the most common type of infusion, and the use of runes of various types is also common among arcane users.
+Les habitants d'Eyal ont découvert comment créer des infusions à base de plantes et des runes qu'ils peuvent inscrire sur la peau d'une créature. Il existe également des inscriptions plus exotiques.
+Ces inscriptions confèrent à leur porteur des pouvoirs permanents et utilisables à volonté.
+L'infusion de régénération est la plus courante des infusions, et l'utilisation de runes de tous types est également fréquente chez les pratiquants de la magie.
 ]], "_t")
 t([[#GOLD#Prodigies#LAST#
 Prodigies are special talents that only the most powerful of characters can acquire.
 All of them require at least 50 in a core stat and many also have other, very specific and/or demanding requirements to learn.
-Players can learn new prodigies at levels 30 and 42.]], [[#GOLD#Prodigies#LAST#
-Prodigies are special talents that only the most powerful of characters can acquire.
-All of them require at least 50 in a core stat and many also have other, very specific and/or demanding requirements to learn.
-Players can learn new prodigies at levels 30 and 42.]], "_t")
+Players can learn new prodigies at levels 30 and 42.]], [[#GOLD#Prodiges#LAST#
+Les prodiges sont des talents exceptionnels que seuls les personnages les plus puissants peuvent acquérir.
+Chacun d'eux requiert un minimum de 50 dans une caractéristique principale, et nombre d'entre eux imposent également d'autres conditions d'apprentissage très spécifiques et/ou exigeantes.
+Les joueurs peuvent apprendre de nouveaux prodiges aux niveaux 30 et 42.]], "_t")
 t([[#GOLD#Item Talents#LAST#
 Some objects bestow additional talents on the wearer or holder.
-These talents work like normal, learned talents, but are lost if the object granting them is taken off or dropped, even for a moment.]], [[#GOLD#Item Talents#LAST#
-Some objects bestow additional talents on the wearer or holder.
-These talents work like normal, learned talents, but are lost if the object granting them is taken off or dropped, even for a moment.]], "_t")
+These talents work like normal, learned talents, but are lost if the object granting them is taken off or dropped, even for a moment.]], [[#GOLD#Talents d'Objet#LAST#
+Certains objets confèrent des talents supplémentaires à celui qui les porte ou les détient.
+Ces talents fonctionnent comme des talents acquis normalement, mais sont perdus si l'objet qui les confère est retiré ou lâché, même momentanément.]], "_t")
 t([[#GOLD#Activated Talents#LAST#
 Most talents require activation (i.e. time) to use, and create a specific effect when called upon.
-Specific information on each talent appears its tooltip.]], [[#GOLD#Activated Talents#LAST#
-Most talents require activation (i.e. time) to use, and create a specific effect when called upon.
-Specific information on each talent appears its tooltip.]], "_t")
+Specific information on each talent appears its tooltip.]], [[#GOLD#Activation des Talents#LAST#
+La plupart des talents nécessitent un temps d'activation pour être utilisés et produisent un effet spécifique lorsqu'ils sont activés.
+Des informations spécifiques à chaque talent apparaissent dans leur infobulle.]], "_t")
 t([[#GOLD#Instant Talents#LAST#
 Some activated talents take no time to use, being activated with but a thought.
 Unlike most talents, instant talents are never put on cooldown from being stunned, and may be usable when most other talents are not.
-Specific information on each talent appears its tooltip.]], [[#GOLD#Instant Talents#LAST#
-Some activated talents take no time to use, being activated with but a thought.
-Unlike most talents, instant talents are never put on cooldown from being stunned, and may be usable when most other talents are not.
-Specific information on each talent appears its tooltip.]], "_t")
+Specific information on each talent appears its tooltip.]], [[#GOLD#Talents Instantanés#LAST#
+Certains talents sont instantanés, une simple pensée suffit.
+Contrairement à la plupart des talents, les talents instantanés ne subissent aucun temps de recharge après un étourdissement et peuvent être utilisés lorsque la plupart des autres talents sont indisponibles.
+Des informations spécifiques à chaque talent apparaissent dans leur infobulle.]], "_t")
 t([[#GOLD#Passive Talents#LAST#
 When learned, passive talents permanently alter the user in some way.
 The effects are always present and are usually not dispellable or removable, though other effects may counteract or negate them.
-Specific information on each talent appears its tooltip.]], [[#GOLD#Passive Talents#LAST#
-When learned, passive talents permanently alter the user in some way.
-The effects are always present and are usually not dispellable or removable, though other effects may counteract or negate them.
-Specific information on each talent appears its tooltip.]], "_t")
+Specific information on each talent appears its tooltip.]], [[#GOLD#Talents Passifs#LAST#
+Une fois acquis, les talents passifs modifient l'utilisateur de façon permanente.
+Leurs effets sont permanents et généralement impossibles à dissiper ou à supprimer, bien que d'autres effets puissent les contrer ou les annuler.
+Des informations spécifiques à chaque talent apparaissent dans leur infobulle.]], "_t")
 t([[#GOLD#Sustained Talents#LAST#
 Sustained talents are turned on and left on.
 While active, a sustained talent produces some effects on the user that stay in effect until the talent is deactivated. Activating most sustained talents require the user to put aside some resources, which become unavailable until the talent is turned off.
 Deactivating a sustained talent causes it to go on cooldown.
-Specific information on each talent appears its tooltip.]], [[#GOLD#Sustained Talents#LAST#
-Sustained talents are turned on and left on.
-While active, a sustained talent produces some effects on the user that stay in effect until the talent is deactivated. Activating most sustained talents require the user to put aside some resources, which become unavailable until the talent is turned off.
-Deactivating a sustained talent causes it to go on cooldown.
-Specific information on each talent appears its tooltip.]], "_t")
+Specific information on each talent appears its tooltip.]], [[#GOLD#Talents Soutenus#LAST#
+Les talents soutenus sont activés et restent actifs.
+Lorsqu'il est actif, un talent soutenu produit des effets sur l'utilisateur qui persistent jusqu'à sa désactivation. L'activation de la plupart des talents soutenus requiert des ressources, qui deviennent indisponibles jusqu'à la désactivation du talent.
+La désactivation d'un talent soutenu entraîne son temps de recharge.
+Des informations spécifiques à chaque talent apparaissent dans leur infobulle.]], "_t")
+t([[#GOLD#Global Speed#LAST#
+Global speed represents how fast you are and affects everything you do.
+Higher is faster, so at 200% global speed you can perform twice as many actions as you would at 100% speed.
+Note that the amount of time to perform various actions like moving, casting spells, and attacking is also affected by their respective speeds.
+]], [[#GOLD#Vitesse Globale#LAST#
+La vitesse globale représente votre rapidité et influence toutes vos actions.
+Plus elle est élevée, plus vous êtes rapide. Ainsi à 200% de vitesse globale vous pouvez effectuer deux fois plus d'actions qu'à 100%.
+Notez que le temps nécessaire pour effectuer diverses actions, comme se déplacer, lancer des sorts et attaquer, est également affecté par leur vitesse respective.
+]], "_t")
 t([[#GOLD#Movement Speed#LAST#
 How quickly you move compared to normal.
 Higher is faster, so 200% means that you move twice as fast as normal.
 Minimum:  40%
-]], [[#GOLD#Movement Speed#LAST#
-How quickly you move compared to normal.
-Higher is faster, so 200% means that you move twice as fast as normal.
-Minimum:  40%
+]], [[#GOLD#Vitesse de Mouvement#LAST#
+Votre vitesse de déplacement par rapport à la normale.
+Plus la valeur est élevée, plus vous vous déplacez vite. Par exemple, 200% signifie que vous vous déplacez deux fois plus vite que la normale.
+Minimum : 40%
 ]], "_t")
 t([[#GOLD#Spell Speed#LAST#
 How quickly you cast spells.
 Higher is faster, so 200% means that you can cast spells twice as fast as normal.
 Minimum:  40%
-]], [[#GOLD#Spell Speed#LAST#
-How quickly you cast spells.
-Higher is faster, so 200% means that you can cast spells twice as fast as normal.
-Minimum:  40%
+]], [[#GOLD#Vitesse de Sort#LAST#
+Vitesse d'incantation des sorts.
+Plus la valeur est élevée, plus c'est rapide. Par exemple, 200% signifie que vous pouvez lancer des sorts deux fois plus vite que la normale.
+Minimum : 40%
 ]], "_t")
 t([[#GOLD#Attack Speed#LAST#
 How quickly you attack with weapons, either ranged or melee.
 Higher is faster, so 200% means that you can attack twice as fast as normal.
 The actual speed may also be affected by the weapon used.
 Minimum:  40%
-]], [[#GOLD#Attack Speed#LAST#
-How quickly you attack with weapons, either ranged or melee.
-Higher is faster, so 200% means that you can attack twice as fast as normal.
-The actual speed may also be affected by the weapon used.
-Minimum:  40%
+]], [[#GOLD#Vitesse d'Attaque#LAST#
+Vitesse d'attaque avec les armes, à distance ou au corps à corps.
+Plus la valeur est élevée, plus vous attaquez vite. Par exemple, 200% signifie que vous attaquez deux fois plus vite que la normale.
+La vitesse actuelle peut également varier selon l'arme utilisée.
+Minimum : 40%
 ]], "_t")
 t([[#GOLD#Mental Speed#LAST#
 How quickly you perform mind powers.
 Higher is faster, so 200% means that you can use mind powers twice as fast as normal.
 Minimum:  40%
-]], [[#GOLD#Mental Speed#LAST#
-How quickly you perform mind powers.
-Higher is faster, so 200% means that you can use mind powers twice as fast as normal.
-Minimum:  40%
+]], [[#GOLD#Vitesse Mentale#LAST#
+Vitesse d'utilisation des pouvoirs mentaux.
+Plus la valeur est élevée, plus c'est rapide. 200% signifie donc que vous pouvez utiliser vos pouvoirs mentaux deux fois plus vite que la normale.
+Minimum : 40%
 ]], "_t")
 t([[#GOLD#Stats#LAST#
 Your character's primary attributes.  Base: the value inherent to your character, which may be increased by applying stat points (limited by character level). Current: the base value plus any bonuses from equipment, effects, certain talents, etc. that is used to determine the overall effectiveness of the stat.
 ]], [[#GOLD#Stats#LAST#
-Your character's primary attributes.  Base: the value inherent to your character, which may be increased by applying stat points (limited by character level). Current: the base value plus any bonuses from equipment, effects, certain talents, etc. that is used to determine the overall effectiveness of the stat.
+Les attributs principaux de votre personnage. Base: valeur inhérente à votre personnage, qui peut être augmentée en répartissant les points de statistiques (dans la limite du niveau du personnage). Valeur actuelle: valeur de base plus bonus (équipement, effets, talents, etc.) servant à déterminer l’efficacité globale de la stat.
 ]], "_t")
 t([[#GOLD#Strength#LAST#
 Strength defines your character's ability to apply physical force. It increases Physical Power, damage done with heavy weapons, Physical Save, and carrying capacity.
-]], [[#GOLD#Strength#LAST#
-Strength defines your character's ability to apply physical force. It increases Physical Power, damage done with heavy weapons, Physical Save, and carrying capacity.
+]], [[#GOLD#Force#LAST#
+La Force détermine la capacité de votre personnage à utiliser la force physique. Elle augmente la Puissance Physique, les dégâts infligés par les armes lourdes, la Sauvegarde Physique et la capacité de transport.
 ]], "_t")
 t([[#GOLD#Dexterity#LAST#
 Dexterity defines your character's ability to be agile and alert. It increases Accuracy, Defense, chance to shrug off critical hits and your damage with light weapons.
-]], [[#GOLD#Dexterity#LAST#
-Dexterity defines your character's ability to be agile and alert. It increases Accuracy, Defense, chance to shrug off critical hits and your damage with light weapons.
+]], [[#GOLD#Dextérité#LAST#
+La dextérité détermine l'agilité et la vigilance de votre personnage. Elle augmente la Précision, la Défense, les chances d'encaisser les coups critiques et les dégâts infligés avec les armes légères.
 ]], "_t")
 t([[#GOLD#Constitution#LAST#
 Constitution defines your character's ability to withstand and resist damage. It increases your maximum life, Physical Save and Healing mod.
 ]], [[#GOLD#Constitution#LAST#
-Constitution defines your character's ability to withstand and resist damage. It increases your maximum life, Physical Save and Healing mod.
+La Constitution détermine la capacité de votre personnage à encaisser et à résister aux dégâts. Elle augmente les points de vie maximum, la Sauvegarde Physique et le modificateur de Soins.
 ]], "_t")
 t([[#GOLD#Magic#LAST#
 Magic defines your character's ability to manipulate the magical energy of the world. It increases your Spellpower, Spell Save, and the effect of spells and other magic items.
-]], [[#GOLD#Magic#LAST#
-Magic defines your character's ability to manipulate the magical energy of the world. It increases your Spellpower, Spell Save, and the effect of spells and other magic items.
+]], [[#GOLD#Magie#LAST#
+La magie définit la capacité de votre personnage à manipuler l'énergie magique du monde. Elle augmente la Puissance Magique, la Sauvegarde des Sorts, ainsi que l'effet des sorts et autres objets magiques.
 ]], "_t")
 t([[#GOLD#Willpower#LAST#
 Willpower defines your character's ability to concentrate. It increases your mana, stamina, psi capacity, Mindpower, Spell Save, and Mental Save.
-]], [[#GOLD#Willpower#LAST#
-Willpower defines your character's ability to concentrate. It increases your mana, stamina, psi capacity, Mindpower, Spell Save, and Mental Save.
+]], [[#GOLD#Volonté#LAST#
+La volonté détermine la capacité de concentration de votre personnage. Elle augmente le mana, l'endurance, la capacité psi, la Puissance Mentale, la Sauvegarde des Sorts et la Sauvegarde Mentale.
 ]], "_t")
 t([[#GOLD#Cunning#LAST#
 Cunning defines your character's ability to learn, think, and react. It allows you to learn many worldly abilities, and increases your Mindpower, Mental Save, and critical chance.
-]], [[#GOLD#Cunning#LAST#
-Cunning defines your character's ability to learn, think, and react. It allows you to learn many worldly abilities, and increases your Mindpower, Mental Save, and critical chance.
+]], [[#GOLD#Ruse#LAST#
+La ruse définit la capacité de votre personnage à apprendre, réfléchir et réagir. Elle permet d'acquérir de nombreuses compétences pratiques et augmente la Puissance Mentale, la Sauvegarde Mentale et les chances de critique.
 ]], "_t")
+t([[#GOLD#Accuracy#LAST#
+Determines your chance to hit your target as well as knock your target off-balance when measured against the target's Defense.
+When you use Accuracy to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your accuracy will reduce the duration of the effect by 5%.
+Many weapon types will have an additional "accuracy bonus" scaling per point of Accuracy greater than the targets Defense.
+]], [[#GOLD#Précision#LAST#
+Détermine vos chances de toucher votre cible et de la déséquilibrer, en fonction de sa Défense.
+Lorsque vous utilisez la Précision pour infliger des effets physiques temporaires à un ennemi, chaque point de la sauvegarde approprié de l'ennemis en plus par rapport à votre Précision réduit la durée de l'effet de 5%.
+De nombreux types d'armes bénéficient d'un bonus de Précision supplémentaire, proportionnel par point de Précision au-dessus de la Défense de la cible.
+]], "_t")
+t([[#GOLD#Physical Power#LAST#
+Measures your ability to deal physical damage in combat.
+When you use Physical Power to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your physical power will reduce the duration of the effect by 5%.
+]], [[#GOLD#Puissance Physique#LAST#
+Mesure votre capacité à infliger des dégâts physiques au combat.
+Lorsque vous utilisez la Puissance Physique pour infliger des effets physiques temporaires à un ennemi, chaque point de la sauvegarde approprié de l'ennemis en plus par rapport à votre Puissance Physique réduit la durée de l'effet de 5%.
+]], "_t")
+t([[#GOLD#Damage#LAST#
+This is the damage you inflict on your foes when you hit them.
+This damage can be reduced by the target's armour or by percentile damage resistances.
+It is improved by Strength or Dexterity, depending on your weapon. Some talents can change the stats that affect it.
+]], [[#GOLD#Dégât#LAST#
+Il s'agit des dégâts que vous infligez à vos ennemis lorsque vous les touchez.
+Ces dégâts peuvent être réduits par l'armure de la cible ou par les résistances aux dégâts en pourcentage.
+Ils sont améliorés par la Force ou la Dextérité, selon votre arme. Certains talents peuvent modifier les stats qui les affectent.
+]], "_t")
+t([[#GOLD#Shield Block Value#LAST#
+The base amount of damage a shield will block when actively used in defense.
+Mind damage cannot be blocked. Against other damage types you gain a 50%% bonus to the block value if the shield used grants resistance to that damage type.
+]], [[#GOLD#Valeur de Blocage du Bouclier#LAST#
+Montant de dégâts de base bloqué par un bouclier lorsqu'il est utilisé activement en défense.
+Les dégâts mentaux ne peuvent pas être bloqués. Contre les autres types de dégâts, vous bénéficiez d'un bonus de 50%% à la valeur de blocage si le bouclier utilisé confère une résistance à ce type de dégâts.
+]], "_t")
+t([[#GOLD#Armour Penetration#LAST#
+Armour penetration allows you to ignore a part of the target's armour (this only works for armour, not damage resistance).
+This can never increase the damage you do beyond reducing armour, so it is only useful against armoured foes.
+]], [[#GOLD#Pénétration d'Armure#LAST#
+La pénétration d'armure permet d'ignorer une partie de l'armure de la cible (cela ne fonctionne que pour l'armure, pas pour la résistance aux dégâts).
+Cela ne peut jamais augmenter les dégâts infligés au-delà de la réduction de l'armure. Cette capacité est donc utile uniquement contre les ennemis blindés.
+]], "_t")
+t([[#GOLD#Critical chance#LAST#
+Each time you deal damage you have a chance to make a critical hit that deals extra damage.
+Some talents allow you to increase this percentage.
+It is improved by Cunning.
+]], [[#GOLD#Chance de Critique#LAST#
+Chaque fois que vous infligez des dégâts, vous avez une chance de réaliser un coup critique infligeant des dégâts supplémentaires.
+Certains talents vous permettent d'augmenter ce pourcentage.
+C'est amélioré par la Ruse.
+]], "_t")
+t([[#GOLD#Attack speed#LAST#
+Attack speed represents how fast your attacks are compared to normal.
+Higher is faster, representing more attacks performed in the same amount of time.
+]], [[#GOLD#Vitesse d'Attaque#LAST#
+La vitesse d'attaque représente la rapidité de vos attaques par rapport à la normale.
+Plus elle est élevée, plus vos attaques sont rapides, ce qui signifie que vous effectuez plus d'attaques dans le même laps de temps.
+]], "_t")
+t([[#GOLD#Firing range#LAST#
+The maximum distance your weapon can reach.
+]], [[#GOLD#Portée de tir#LAST#
+La portée maximale de votre arme.
+]], "_t")
+t([[#GOLD#Archery range and speed#LAST#
+Archery attacks create projectiles with a maximum range, beyond which they will terminate.
+The projectiles travel at their own speed, measured as a percentage (higher, usually) of normal movement speed.
+]], [[#GOLD#Portée et vitesse du tir à l'arc#LAST#
+Le tir à l'arc crée des projectiles ayant une portée maximale, au-delà de laquelle ils s'arrêtent.
+Ces projectiles se déplacent à leur propre vitesse, exprimée en pourcentage (généralement supérieur) de la vitesse de déplacement normale.
+]], "_t")
+t([[#GOLD#Ammo remaining#LAST#
+This is the amount of ammunition you have left.
+Bows and slings must be reloaded when this reaches 0, which you will do automatically each turn you rest or don't perform a non-movement action.
+Alchemists use specially prepared gems as ammunition to throw bombs, which must be reloaded manually.
+]], [[#GOLD#Munitions restantes#LAST#
+C'est la quantité de munitions restantes.
+Les arcs et les frondes doivent être rechargés lorsque ce nombre atteint zéro. Le rechargement est automatique à chaque tour où vous vous reposez ou que vous n'effectuez aucune action autre qu'un mouvement.
+Les alchimistes utilisent des gemmes spécialement préparées comme munitions pour lancer des bombes. Ces dernières doivent être rechargées manuellement.
+]], "_t")
+t([[#GOLD#Fatigue#LAST#
+Fatigue is a percentile value that increases the cost of your talents and spells.
+It represents the fatigue created by wearing heavy equipment.
+Not all talents are affected; notably, Wild Gifts are not.
+]], [[#GOLD#Fatigue#LAST#
+La fatigue est un pourcentage qui augmente le coût de vos talents et sorts.
+Elle représente la fatigue engendrée par le port d'équipement lourd.
+Tous les talents ne sont pas affectés, notamment, les Dons Sauvages ne le sont pas.
+]], "_t")
+t([[#GOLD#Armour#LAST#
+Armour value is a damage reduction from all incoming melee and ranged weapon attacks.
+Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
+This is countered by armour penetration and is applied before all kinds of critical damage increase, talent multipliers and damage multiplier, thus making even small amounts have greater effects.
+]], [[#GOLD#Armure#LAST#
+L'armure réduit les dégâts de toutes les attaques d'armes de mêlée et à distance.
+Absorbe (robustesse)% dégâts d'armes subis, jusqu'à un maximum de (armure) dégâts absorbés.
+Ce bonus est contré par la pénétration d'armure et s'applique avant toute augmentation des dégâts critiques, les multiplicateurs de talent et les multiplicateurs de dégâts, ce qui amplifie l'impact même de faibles bonus.
+]], "_t")
+t([[#GOLD#Armour Hardiness#LAST#
+Armour hardiness represents how much of each incoming blows the armour will affect.
+Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
+]], [[#GOLD#Robustesse d'Armure#LAST#
+La robustesse de l'armure représente la part des dégâts subis affacté par l'armure.
+Absorbe (robustesse)% dégâts d'armes subis, jusqu'à un maximum de (armure) dégâts absorbés.
+]], "_t")
+t([[#GOLD#Crit Reduction#LAST#
+Crit reduction reduces the chance an opponent has of landing a critical strike with a melee or ranged attack.
+]], [[#GOLD#Réduction des crits#LAST#
+La réduction des coups critiques diminue les chances qu'un adversaire réussisse un coup critique avec une attaque de mêlée ou à distance.
+]], "_t")
+t([[#GOLD#Crits Shrug Off#LAST#
+Gives a chance to ignore the bonus critical damage from any direct damage attacks (melee, spells, ranged, mind powers, ...).
+]], [[#GOLD#Bonus de crit ignoré#LAST#
+Permet d'ignorer les dégâts critiques bonus de toutes les attaques à dégâts directs (mêlée, sorts, à distance, pouvoirs mentaux, ...).
+]], "_t")
+t([[#GOLD#Defense#LAST#
+Defense represents your chance to avoid melee weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
+]], [[#GOLD#Défense#LAST#
+La défense représente votre capacité à éviter les attaques au corps à corps et réduit le risque d'être déséquilibré par une attaque ennemie. Elle est mesurée en fonction de la précision de l'attaquant.
+]], "_t")
+t([[#GOLD#Ranged Defense#LAST#
+Defense represents your chance to avoid ranged weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
+]], [[#GOLD#Défense à Distance#LAST#
+La défense représente votre capacité à éviter les attaques à distance et réduit le risque d'être déséquilibré par une attaque ennemie. Elle est mesurée en fonction de la précision de l'attaquant.
+]], "_t")
+t([[#GOLD#Saves#LAST#
+Saving throws represent your ability to shrug off, partially or fully, detrimental effects applied to you.  Most detrimental effects will check their power (physical, spell, mental) vs your corresponding save type to determine if they take effect or not.  The chance is usually ~50% when power and save are equal.
+]], [[#GOLD#Sauvegardes#LAST#
+Les jets de sauvegarde représentent votre capacité à ignorer, partiellement ou totalement, les effets néfastes qui vous sont appliqués. La plupart des effets néfastes comparent leur puissance (physique, magique, mentale) à votre type de sauvegarde correspondante pour déterminer s'ils vous affectent ou non. La probabilité est généralement d'environ 50% lorsque la puissance et le résultat du jet de sauvegarde sont égaux.
+]], "_t")
+t([[#GOLD#Physical saving throw#LAST#
+Increases chance to shrug off physically-induced effects.  Also reduces duration of detrimental physical effects by up to 5% per point, depending on the power of the opponent's effect.
+]], [[#GOLD#Jet de sauvetage physique#LAST#
+Augmente les chances de résister aux effets physiques. Réduit également la durée des effets physiques néfastes jusqu'à 5% par point, selon la puissance de l'effet adverse.
+]], "_t")
+t([[#GOLD#Spell saving throw#LAST#
+Increases chance to shrug off magically-induced effects.  Also reduces duration of detrimental magical effects by up to 5% per point, depending on the power of the opponent's effect.
+]], [[#GOLD#Jet de sauvegarde contre les sorts#LAST#
+Augmente les chances de résister aux effets magiques. Réduit également la durée des effets magiques néfastes jusqu'à 5% par point, selon la puissance de l'effet adverse.
+]], "_t")
+t([[#GOLD#Mental saving throw#LAST#
+Increases chance to shrug off mentally-induced effects.  Also reduces duration of detrimental mental effects by up to 5% per point, depending on the power of the opponent's effect.
+]], [[#GOLD#Jet de sauvegarde mental#LAST#
+Augmente les chances de résister aux effets mentaux. Réduit également la durée des effets mentaux néfastes jusqu'à 5% par point, selon la puissance de l'effet adverse.
+]], "_t")
+t([[#GOLD#Physical Power#LAST#
+Your physical power represents how overwhelming your physcial abilities are. It is usually improved by Strength, but may be modified by your weapon.  It is opposed by your opponent's physical save.
+In addition, when your physical attacks inflict temporary detrimental effects, every point your opponent's save exceeds your physical power will reduce the duration of the effect by 5%.
+]], [[#GOLD#Puissance Physique#LAST#
+Votre puissance physique représente la force brute de vos capacités physiques. Elle est généralement augmentée par la Force, mais peut être modifiée par votre arme. Elle est opposée au jet de sauvegarde physique de votre adversaire.
+De plus, lorsque vos attaques physiques infligent des effets néfastes temporaires, chaque point de sauvegarde de votre adversaire supérieur à votre puissance physique réduit la durée de l'effet de 5%.
+]], "_t")
+t([[#GOLD#Physical critical chance#LAST#
+Each time you deal damage with a physical ability you may have a chance to perform a critical hit that deals extra damage.
+Some talents allow you to increase this percentage, and it may be modified by your weapon.
+It is improved by Cunning.
+]], [[#GOLD#Chance critique physique#LAST#
+Chaque fois que vous infligez des dégâts avec une capacité physique, vous avez une chance de réaliser un coup critique infligeant des dégâts supplémentaires.
+Certains talents permettent d'augmenter ce pourcentage, et il peut être modifié par votre arme.
+C'est amélioré par la Ruse.
+]], "_t")
+t([[#GOLD#Spellpower#LAST#
+Your spellpower represents how powerful your magical spells are.  It is opposed by your opponent's spell save.
+In addition, when your spells inflict temporary detrimental effects, every point your opponent's save exceeds your spellpower will reduce the duration of the effect by 5%.
+]], [[#GOLD#Puissance des Sorts#LAST#
+Votre puissance des sorts représente la puissance de vos sorts. Elle est opposée au jet de sauvegarde contre les sorts de votre adversaire.
+De plus, lorsque vos sorts infligent des effets néfastes temporaires, chaque point de plus que le jet de sauvegarde de votre adversaire par rapport à votre puissance magique réduit la durée de l'effet de 5%.
+]], "_t")
+t([[#GOLD#Spell critical chance#LAST#
+Each time you deal damage with a spell you may have a chance to perform a critical hit that deals extra damage.
+Some talents allow you to increase this percentage.
+It is improved by Cunning.
+]], [[#GOLD#Chance de coup critique de sorts#LAST#
+Chaque fois que vous infligez des dégâts avec un sort, vous avez une chance de réaliser un coup critique infligeant des dégâts supplémentaires.
+Certains talents vous permettent d'augmenter ce pourcentage.
+C'est amélioré par la Ruse.
+]], "_t")
+t([[#GOLD#Spellcasting speed#LAST#
+Spellcasting speed represents how fast your spellcasting is compared to normal.
+Higher is faster - 200% means that you cast spells twice as fast as someone at 100%.
+]], [[#GOLD#Vitesse d'Incantation#LAST#
+La vitesse d'incantation représente la rapidité avec laquelle vous lancez des sorts par rapport à la normale.
+Plus elle est élevée, plus c'est rapide, 200% signifie que vous lancez des sorts deux fois plus vite qu'une personne à 100%.
+]], "_t")
+t([[#GOLD#Spellcooldown#LAST#
+Spell cooldown represents how fast your spells will come off of cooldown.
+The lower it is, the more often you'll be able to use your spell talents and runes.
+]], [[#GOLD#Temps de recharge des sorts#LAST#
+Le temps de recharge des sorts indique la vitesse à laquelle vos sorts sont de nouveau disponibles.
+Plus ce temps est court, plus vous pouvez utiliser vos talents de sorts et vos runes fréquemment.
+]], "_t")
+t([[#GOLD#Mindpower#LAST#
+Your mindpower represents how powerful your mental abilities are.  It is opposed by your opponent's mental save.
+In addition, when your mental abilities inflict temporary detrimental effects, every point your opponent's save exceeds your mindpower will reduce the duration of the effect by 5%.
+]], [[#GOLD#Puissance Mentale#LAST#
+Votre puissance mentale représente la puissance de vos capacités mentales. Elle est opposée au jet de sauvegarde mentale de votre adversaire.
+De plus, lorsque vos capacités mentales infligent des effets néfastes temporaires, chaque point de plus que le jet de sauvegarde de votre adversaire par rapport à votre puissance mentale réduit la durée de l'effet de 5%.
+]], "_t")
+t([[#GOLD#Mental critical chance#LAST#
+Each time you deal damage with a mental attack you may have a chance to perform a critical hit that deals extra damage.
+Some talents allow you to increase this percentage.
+It is improved by Cunning.
+]], [[#GOLD#Chance critique mentale#LAST#
+Chaque fois que vous infligez des dégâts avec une attaque mentale, vous avez une chance de réaliser un coup critique infligeant des dégâts supplémentaires.
+Certains talents vous permettent d'augmenter ce pourcentage.
+C'est amélioré par la Ruse.
+]], "_t")
+t([[#GOLD#Mental speed#LAST#
+Mental speed represents how fast you use psionic abilities compared to normal.
+Higher is faster.
+]], [[#GOLD#Vitesse mental#LAST#
+La vitesse mentale représente la rapidité avec laquelle vous utilisez vos pouvoirs psioniques par rapport à la normale.
+Plus elle est élevée, plus vous êtes rapide.
+]], "_t")
+t([[#GOLD#Damage increase: all#LAST#
+All damage you deal, through any means, is increased by this percentage.
+This stacks with individual damage type increases.
+]], [[#GOLD#Augmentation des dégâts: tous#LAST#
+Tous les dégâts que vous infligez, par quelque moyen que ce soit, sont augmentés de ce pourcentage.
+Cela se cumule avec les augmentations de types de dégâts individuels.
+]], "_t")
+t([[#GOLD#Damage increase: specific#LAST#
+All damage of this type that you deal, through any means, is increased by this percentage.
+]], [[#GOLD#Augmentation des dégâts: spécifique#LAST#
+Tous les dégâts de ce type que vous infligez, par quelque moyen que ce soit, sont augmentés de ce pourcentage.
+]], "_t")
+t([[#GOLD#Damage increase: creature type#LAST#
+All damage you deal to creatures of this type, through any means, is increased by this percentage.  This is applied in addition to (stacks with) other damage modifiers.
+]], [[#GOLD#Augmentation des dégâts: type de créature#LAST#
+Tous les dégâts que vous infligez aux créatures de ce type, par quelque moyen que ce soit, sont augmentés de ce pourcentage. Ceci est appliqué en plus (se cumule avec) des autres modificateurs de dégâts.
+]], "_t")
+t([[#GOLD#Critical multiplier#LAST#
+All critical hits (melee, spells, ...) do this much damage compared to normal.
+]], [[#GOLD#Multiplicateur critique#LAST#
+Tous les coups critiques (au corps à corps, sorts, etc.) infligent ce montant de dégâts par rapport à un coup normal.
+]], "_t")
+t([[#GOLD#Damage resistance#LAST#
+Whenever you take damage, the percent resistance you have to its type, if any, is checked.  The damage is reduced by this percentage (which may be partially negated by the attacker's Damage Penetration) before being applied.
+Your effective resistance can never be higher than your resistance cap and negative resistances increase the damage you recieve (up to +100%).
+]], [[#GOLD#Résistance aux dégâts#LAST#
+Chaque fois que vous subissez des dégâts le pourcentage de résistance dont vous disposez à son type, le cas échéant, est pris en compte. Les dégâts sont réduits de ce pourcentage (qui peut être partiellement annulé par la pénétration de dégâts de l'attaquant) avant d'être appliqués.
+Votre résistance effective ne peut jamais être supérieure à votre plafond de résistance et les résistances négatives augmentent les dégâts que vous recevez (jusqu'à +100%).
+]], "_t")
+t([[#GOLD#Damage resistance: all#LAST#
+All damage you receive, through any means, is decreased by this percentage.
+This stacks (multiplicatively) with individual damage type resistances up to their respective caps.
+(So 20% resistance: All + 50% resistance: Fire = 60% total resistance to Fire.)
+]], [[#GOLD#Résistance aux dégâts: tous#LAST#
+Tous les dégâts que vous subissez, quelle qu'en soit la source, sont réduits de ce pourcentage.
+Cet effet s'ajoute (de manière multiplicative) aux résistances individuelles à chaque type de dégâts, dans la limite de leurs plafonds respectifs.
+(Exemple: 20% résistance: Tous + 50% résistance: Feu = 60% résistance totale au feu.)
+]], "_t")
+t([[#GOLD#Damage resistance: absolute#LAST#
+All damage you receive, through any means, is decreased by this percentage.
+This is applied after normal damage resistance and is not affected by resistance penetration.
+]], [[#GOLD#Résistance aux dégâts: absolu#LAST#
+Tous les dégâts que vous subissez, quelle qu'en soit la cause, sont réduits de ce pourcentage.
+Cette réduction s'applique après la résistance aux dégâts normaux et n'est pas affectée par la pénétration de résistance.
+]], "_t")
+t([[#GOLD#Damage resistance: specific#LAST#
+All damage of this type that you receive, through any means, is reduced by this percentage.
+]], [[#GOLD#Résistance aux dégâts: spécifique#LAST#
+Tous les dégâts de ce type que vous subissez, quelle qu'en soit la cause, sont réduits de ce pourcentage.
+]], "_t")
+t([[#GOLD#Damage resistance: by speed#LAST#
+All damage you receive, through any means, is decreased by this percentage, which increases as your total movement speed (global times movement) decreases.
+This is applied after normal damage type resistances.
+]], [[#GOLD#Résistance aux dégâts: par vitesse#LAST#
+Tous les dégâts que vous subissez, quelle qu'en soit la source, sont réduits de ce pourcentage, qui augmente à mesure que votre vitesse de déplacement totale (vitesse de déplacement globale) diminue.
+Cet effet s'applique après les résistances normales aux types de dégâts.
+]], "_t")
+t([[#GOLD#Damage resistance: creature type#LAST#
+All damage you receive from creatures of this type, through any means, is decreased by this percentage.  This is applied separately to (stacks with) normal resistances.
+]], [[#GOLD#Résistance aux dégâts: type de créature#LAST#
+Tous les dégâts que vous recevez des créatures de ce type, par quelque moyen que ce soit, sont réduits de ce pourcentage. Ceci est appliqué séparément (se cumule) aux résistances normales.
+]], "_t")
+t([[#GOLD#Damage affinity: all#LAST#
+All damage you receive, through any means, also heals you for this percentage of the damage.
+This stacks with individual damage type affinities.
+Important: Affinity healing happens after damage has been taken, it can not prevent death.
+]], [[#GOLD#Affinité de dégâts: tous#LAST#
+Tous les dégâts que vous recevez, par quelque moyen que ce soit, vous soignent également pour ce pourcentage des dégâts.
+Cela se cumule avec les affinités individuelles des types de dégâts.
+Important : les soins d'affinité se produisent une fois les dégâts subis, ils ne peuvent pas empêcher la mort.
+]], "_t")
+t([[#GOLD#Damage affinity: specific#LAST#
+All damage of this type that you receive, through any means, also heals you for this percentage of the damage.
+Important: Affinity healing happens after damage has been taken, it can not prevent death.
+]], [[#GOLD#Affinité de dégâts: spécifique#LAST#
+Tous les dégâts de ce type que vous recevez, par quelque moyen que ce soit, vous soignent également pour ce pourcentage des dégâts.
+Important : les soins d'affinité se produisent une fois les dégâts subis, ils ne peuvent pas empêcher la mort.
+]], "_t")
+t([[#GOLD#Status resistance#LAST#
+Most bad status effects can be avoided by having an appropriate immunity, represented by a percent chance to completely avoid the effect in question.  This chance is applied in addition to any saving throws or other checks that may apply.
+]], [[#GOLD#Résistance aux statuts#LAST#
+La plupart des effets de statuts désaventageux peuvent être évités en ayant une immunité appropriée, représentée par un pourcentage de chance d'éviter complètement l'effet en question. Cette chance est appliquée en plus des éventuels jets de sauvegarde ou autres tests pouvant s'appliquer.
+]], "_t")
+t([[#GOLD#Effect resistance chance#LAST#
+This represents your chance to completely resist this specific effect.
+]], [[#GOLD#Chance de résistance aux effets#LAST#
+Cela représente votre chance de résister complètement à cet effet spécifique.
+]], "_t")
+t([[#GOLD#Stun immunity chance#LAST#
+This represents your chance to completely avoid being stunned, dazed, or frozen.
+]], [[#GOLD#Chance d'immunité contre l'assomement#LAST#
+Cela représente votre chance d’éviter complètement d’être assomé, étourdi, ou gelé.
+]], "_t")
+t([[#GOLD#Anomaly immunity chance#LAST#
+This represents your chance to avoid most chronomatic anomaly effects.
+]], [[#GOLD#Chance d'immunité aux anomalies#LAST#
+Cela représente votre chance d’éviter la plupart des effets d’anomalies chronomatiques.
+]], "_t")
+t([[#GOLD#Instant death resistance#LAST#
+This represents your chance to avoid being instantly killed, severely incapacitated, or controlled by certain abilities.
+]], [[#GOLD#Résistance à la mort subite#LAST#
+Cela représente votre chance d'éviter d'être tué instantanément, gravement frappé d'incapacité, ou contrôlé par certaines capacités.
+]], "_t")
+t([[#GOLD#Negative status effect immunity chance#LAST#
+This represents your chance to completely avoid ANY persistent bad effects applied to you from others.
+]], [[#GOLD#Chance d'immunité à un effet de statut négatif#LAST#
+Ceci représente votre chance d'éviter complètement TOUS les effets néfastes persistants que d'autres pourraient vous infliger.
+]], "_t")
+t([[#GOLD#Negative mental effect immunity chance#LAST#
+This represents your chance to completely avoid ANY persistent bad mental effects applied to you from others.
+]], [[#GOLD#chance d'immunité aux effets mentaux négatifs#LAST#
+Ceci représente votre chance d'éviter complètement TOUS les effets mentaux négatifs et persistants que d'autres pourraient vous infliger.
+]], "_t")
+t([[#GOLD#Negative physical effect immunity chance#LAST#
+This represents your chance to completely avoid ANY persistent bad physical effects applied to you from others.
+]], [[#GOLD#Chance d'immunité aux effets physiques négatifs#LAST#
+Ceci représente votre chance d'éviter complètement TOUS les effets physiques négatifs et persistants que d'autres pourraient vous infliger.
+]], "_t")
+t([[#GOLD#Negative magical effect immunity chance#LAST#
+This represents your chance to completely avoid ANY persistent bad magical effects applied to you from others.
+]], [[#GOLD#Chance d'immunité aux effets magiques négatifs#LAST#
+Ceci représente votre chance d'éviter complètement TOUS les effets magiques négatifs et persistants que d'autres pourraient vous infliger.
+]], "_t")
+t([[#GOLD#Damage when hit#LAST#
+Each time a creature hits you with a melee attack, it will suffer damage or other effects.
+]], [[#GOLD#Dégâts quand touché#LAST#
+Chaque fois qu'une créature vous frappe avec une attaque de mêlée, elle subira des dégâts ou d'autres effets.
+]], "_t")
+t([[#GOLD#Additional Melee Damage#LAST#
+Each time you strike a creature with a melee attack, you will deal additional damage or other effects.
+]], [[#GOLD#Dégâts de mêlée additionnels#LAST#
+Chaque fois que vous frappez une créature avec une attaque au corps à corps, vous infligerez des dégâts additionnels ou d'autres effets.
+]], "_t")
+t([[This is separate from any special damage of your weapon.
+]], [[Ceci est indépendant de tout dégât spécifique à votre arme.
+]], "_t")
+t([[#GOLD#Additional Ranged Damage#LAST#
+Each time you strike a creature with a ranged attack, you will deal additional damage or other effects.
+]], [[#GOLD#Dégâts à distance additionnels#LAST#
+Chaque fois que vous touchez une créature avec une attaque à distance, vous infligerez des dégâts additionnels ou d'autres effets.
+]], "_t")
+t([[This is separate from any special damage of your weapon or ammo.
+]], [[Ceci est indépendant de tout dommage spécifique à votre arme ou à vos munitions.
+]], "_t")
+t([[#GOLD#Damage penetration: all#LAST#
+Reduces the amount of effective resistance of your foes to any damage you deal by this percent.
+If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
+This stacks with individual damage type penetrations.
+You can never have more than 70% penetration.
+]], [[#GOLD#Pén des résistances: toutes#LAST#
+Réduit la résistance effective de vos ennemis aux dégâts que vous infligez, de ce pourcentage.
+Si vous avez 50% de pénétration contre une créature ayant 50% de résistance, sa résistance effective sera de 25%.
+Cet effet se cumule avec les pénétrations de chaque type de dégâts.
+Votre pénétration ne peut jamais dépasser 70%.
+]], "_t")
+t([[#GOLD#Damage penetration: specific#LAST#
+Reduces the effective resistance of your foes to all damage of this type you deal by this percent.
+If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
+You can never have more than 70% penetration.
+]], [[#GOLD#Pén des résistances: spécifique#LAST#
+Réduit la résistance effective de vos ennemis à tous les dégâts de ce type que vous infligez, de ce pourcentage.
+Si vous avez 50% de pénétration contre une créature ayant 50% de résistance, sa résistance effective sera de 25%.
+Votre pénétration ne peut jamais dépasser 70%.
+]], "_t")
+t([[#GOLD#Flat resistances#LAST#
+Reduces each hit of a certain damage type (or all) by this amount.
+]], [[#GOLD#Résistance fixe#LAST#
+Réduit chaque coup d'un certain type de dégâts (ou de tous) de ce montant.
+]], "_t")
+t([[#GOLD#Telepathy#LAST#
+Allows you to sense creatures of the given type(s) even if they are not currently in your line of sight.
+]], [[#GOLD#Télépathie#LAST#
+Permet de percevoir les créatures du ou des types indiqués, même si elles ne sont pas actuellement dans votre champ de vision.
+]], "_t")
+t([[#GOLD#Telepathy range#LAST#
+Determines the distance up to which you can sense creatures with telepathy.
+]], [[#GOLD#Portée de la télépathie#LAST#
+Détermine la distance maximale à laquelle vous pouvez percevoir les créatures par télépathie.
+]], "_t")
+t([[#GOLD#Telepathy#LAST#
+Allows you to sense any creatures even if they are not currently in your line of sight.
+]], [[#GOLD#Télépathie#LAST#
+Permet de percevoir les créatures même si elles ne sont pas actuellement dans votre champ de vision.
+]], "_t")
+t([[#GOLD#Lite radius#LAST#
+The maximum distance your lite can light up. Anything further cannot be seen by natural means, unless the place itself is lit.
+]], [[#GOLD#Rayon de la lumière#LAST#
+La portée maximale de votre lampe. Au-delà, la visibilité est nulle, sauf si le lieu est éclairé.
+]], "_t")
+t([[#GOLD#Sight range#LAST#
+How far you can see. This only works within your lite radius, or in lit areas.
+]], [[#GOLD#Portée de vue#LAST#
+La portée de votre vision. Cela fonctionne uniquement dans votre rayon d'éclairage ou dans les zones éclairées.
+]], "_t")
+t([[#GOLD#Heightened Senses#LAST#
+Special vision (including infravision) that works even in the dark, but only creatures can be seen this way.  Only the best ability is used.
+]], [[#GOLD#Sens accrus#LAST#
+Vision spéciale (incluant l'infravision) fonctionnant même dans l'obscurité, mais seules les créatures peuvent être vues de cette manière. Seule la meilleure capacité est utilisée.
+]], "_t")
+t([[#GOLD#Stealth#LAST#
+To use stealth one must possess the 'Stealth' talent.
+Stealth allows you to try to hide from any creatures that would otherwise see you.
+Even if they have seen you they will have a harder time hitting you.
+Any creature can try to see through your stealth.
+]], [[#GOLD#Furtivité#LAST#
+Pour utiliser la furtivité, il faut posséder le talent 'Furtivité'.
+La furtivité vous permet de tenter de vous cacher des créatures qui autrement vous verraient.
+Même si elles vous ont repéré, il leur sera plus difficile de vous atteindre.
+Toute créature peut tenter de percer votre furtivité.
+]], "_t")
+t([[#GOLD#See stealth#LAST#
+Your power to see stealthed creatures. The higher it is, the more likely you are to see them (based on their own stealth score).
+]], [[#GOLD#Voir la furtivité#LAST#
+Votre capacité à repérer les créatures furtives. Plus elle est élevée, plus vous avez de chances de les voir (en fonction de leur propre score de furtivité).
+]], "_t")
+t([[#GOLD#Invisibility#LAST#
+Invisible creatures are magically removed from the sight of all others. They can only be see by creatures that can see invisible.
+]], [[#GOLD#Invisibilité#LAST#
+Les créatures invisibles sont magiquement soustraites à la vue de tous les autres. Ils ne peuvent être vus que par des créatures capables de voir l'invisible.
+]], "_t")
+t([[#GOLD#See invisible#LAST#
+Your power to see invisible creatures. The higher it is, the more likely you are to see them (based on their own invisibility score).
+If you do not have any see invisible score you will never be able to see invisible creatures.
+]], [[#GOLD#Voir l'invisible#LAST#
+Votre capacité à voir les créatures invisibles. Plus elle est élevée, plus vous avez de chances de les voir (en fonction de leur propre score d'invisibilité).
+Si votre score de voir l'invisible est nul, vous ne pourrez jamais voir les créatures invisibles.
+]], "_t")
+t([[#GOLD#Detect Traps#LAST#
+Your power to find hidden traps. The higher it is, the more likely you are to notice a trap before setting it off  (based on its own detection score).
+If you do not have any detect traps score, you can not detect traps without triggering them.
+]], [[#GOLD#Détect des pièges#LAST#
+Votre capacité à détecter les pièges cachés. Plus elle est élevée, plus vous avez de chances de repérer un piège avant qu'il ne se déclenche (en fonction de son score de détection).
+Si votre score de détection des pièges est nul, vous ne pouvez pas les détecter sans les déclencher.
+]], "_t")
+t([[#GOLD#Antimagic User#LAST#
+Dedicated to opposing and destroying magical and arcane influence in the world.
+The use of spells or arcane-powered equipment is impossible.
+]], [[#GOLD#Utilisateur anti-magie#LAST#
+Dévoués à combattre et à détruire toute influence magique et occulte dans le monde.
+L'utilisation de sorts ou d'équipement alimenté par la magie est impossible.
+]], "_t")
+-- texte non traduit
+--[==[
 t([[#AQUAMARINE#Physical stats#LAST#
 ---
 ]], [[#AQUAMARINE#Physical stats#LAST#
@@ -42405,450 +42842,6 @@ t([[#AQUAMARINE#Mental stats#LAST#
 ---
 ]], [[#AQUAMARINE#Mental stats#LAST#
 ---
-]], "_t")
-t([[#GOLD#Accuracy#LAST#
-Determines your chance to hit your target as well as knock your target off-balance when measured against the target's Defense.
-When you use Accuracy to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your accuracy will reduce the duration of the effect by 5%.
-Many weapon types will have an additional "accuracy bonus" scaling per point of Accuracy greater than the targets Defense.
-]], [[#GOLD#Accuracy#LAST#
-Determines your chance to hit your target as well as knock your target off-balance when measured against the target's Defense.
-When you use Accuracy to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your accuracy will reduce the duration of the effect by 5%.
-Many weapon types will have an additional "accuracy bonus" scaling per point of Accuracy greater than the targets Defense.
-]], "_t")
-t([[#GOLD#Physical Power#LAST#
-Measures your ability to deal physical damage in combat.
-When you use Physical Power to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your physical power will reduce the duration of the effect by 5%.
-]], [[#GOLD#Physical Power#LAST#
-Measures your ability to deal physical damage in combat.
-When you use Physical Power to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your physical power will reduce the duration of the effect by 5%.
-]], "_t")
-t([[#GOLD#Damage#LAST#
-This is the damage you inflict on your foes when you hit them.
-This damage can be reduced by the target's armour or by percentile damage resistances.
-It is improved by Strength or Dexterity, depending on your weapon. Some talents can change the stats that affect it.
-]], [[#GOLD#Damage#LAST#
-This is the damage you inflict on your foes when you hit them.
-This damage can be reduced by the target's armour or by percentile damage resistances.
-It is improved by Strength or Dexterity, depending on your weapon. Some talents can change the stats that affect it.
-]], "_t")
-t([[#GOLD#Armour Penetration#LAST#
-Armour penetration allows you to ignore a part of the target's armour (this only works for armour, not damage resistance).
-This can never increase the damage you do beyond reducing armour, so it is only useful against armoured foes.
-]], [[#GOLD#Armour Penetration#LAST#
-Armour penetration allows you to ignore a part of the target's armour (this only works for armour, not damage resistance).
-This can never increase the damage you do beyond reducing armour, so it is only useful against armoured foes.
-]], "_t")
-t([[#GOLD#Critical chance#LAST#
-Each time you deal damage you have a chance to make a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
-]], [[#GOLD#Critical chance#LAST#
-Each time you deal damage you have a chance to make a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
-]], "_t")
-t([[#GOLD#Attack speed#LAST#
-Attack speed represents how fast your attacks are compared to normal.
-Higher is faster, representing more attacks performed in the same amount of time.
-]], [[#GOLD#Attack speed#LAST#
-Attack speed represents how fast your attacks are compared to normal.
-Higher is faster, representing more attacks performed in the same amount of time.
-]], "_t")
-t([[#GOLD#Firing range#LAST#
-The maximum distance your weapon can reach.
-]], [[#GOLD#Firing range#LAST#
-The maximum distance your weapon can reach.
-]], "_t")
-t([[#GOLD#Archery range and speed#LAST#
-Archery attacks create projectiles with a maximum range, beyond which they will terminate.
-The projectiles travel at their own speed, measured as a percentage (higher, usually) of normal movement speed.
-]], [[#GOLD#Archery range and speed#LAST#
-Archery attacks create projectiles with a maximum range, beyond which they will terminate.
-The projectiles travel at their own speed, measured as a percentage (higher, usually) of normal movement speed.
-]], "_t")
-t([[#GOLD#Ammo remaining#LAST#
-This is the amount of ammunition you have left.
-Bows and slings must be reloaded when this reaches 0, which you will do automatically each turn you rest or don't perform a non-movement action.
-Alchemists use specially prepared gems as ammunition to throw bombs, which must be reloaded manually.
-]], [[#GOLD#Ammo remaining#LAST#
-This is the amount of ammunition you have left.
-Bows and slings must be reloaded when this reaches 0, which you will do automatically each turn you rest or don't perform a non-movement action.
-Alchemists use specially prepared gems as ammunition to throw bombs, which must be reloaded manually.
-]], "_t")
-t([[#GOLD#Fatigue#LAST#
-Fatigue is a percentile value that increases the cost of your talents and spells.
-It represents the fatigue created by wearing heavy equipment.
-Not all talents are affected; notably, Wild Gifts are not.
-]], [[#GOLD#Fatigue#LAST#
-Fatigue is a percentile value that increases the cost of your talents and spells.
-It represents the fatigue created by wearing heavy equipment.
-Not all talents are affected; notably, Wild Gifts are not.
-]], "_t")
-t([[#GOLD#Armour#LAST#
-Armour value is a damage reduction from all incoming melee and ranged weapon attacks.
-Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
-This is countered by armour penetration and is applied before all kinds of critical damage increase, talent multipliers and damage multiplier, thus making even small amounts have greater effects.
-]], [[#GOLD#Armour#LAST#
-Armour value is a damage reduction from all incoming melee and ranged weapon attacks.
-Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
-This is countered by armour penetration and is applied before all kinds of critical damage increase, talent multipliers and damage multiplier, thus making even small amounts have greater effects.
-]], "_t")
-t([[#GOLD#Armour Hardiness#LAST#
-Armour hardiness represents how much of each incoming blows the armour will affect.
-Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
-]], [[#GOLD#Armour Hardiness#LAST#
-Armour hardiness represents how much of each incoming blows the armour will affect.
-Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
-]], "_t")
-t([[#GOLD#Crit Reduction#LAST#
-Crit reduction reduces the chance an opponent has of landing a critical strike with a melee or ranged attack.
-]], [[#GOLD#Crit Reduction#LAST#
-Crit reduction reduces the chance an opponent has of landing a critical strike with a melee or ranged attack.
-]], "_t")
-t([[#GOLD#Crits Shrug Off#LAST#
-Gives a chance to ignore the bonus critical damage from any direct damage attacks (melee, spells, ranged, mind powers, ...).
-]], [[#GOLD#Crits Shrug Off#LAST#
-Gives a chance to ignore the bonus critical damage from any direct damage attacks (melee, spells, ranged, mind powers, ...).
-]], "_t")
-t([[#GOLD#Defense#LAST#
-Defense represents your chance to avoid melee weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
-]], [[#GOLD#Defense#LAST#
-Defense represents your chance to avoid melee weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
-]], "_t")
-t([[#GOLD#Ranged Defense#LAST#
-Defense represents your chance to avoid ranged weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
-]], [[#GOLD#Ranged Defense#LAST#
-Defense represents your chance to avoid ranged weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
-]], "_t")
-t([[#GOLD#Saves#LAST#
-Saving throws represent your ability to shrug off, partially or fully, detrimental effects applied to you.  Most detrimental effects will check their power (physical, spell, mental) vs your corresponding save type to determine if they take effect or not.  The chance is usually ~50% when power and save are equal.
-]], [[#GOLD#Saves#LAST#
-Saving throws represent your ability to shrug off, partially or fully, detrimental effects applied to you.  Most detrimental effects will check their power (physical, spell, mental) vs your corresponding save type to determine if they take effect or not.  The chance is usually ~50% when power and save are equal.
-]], "_t")
-t([[#GOLD#Physical saving throw#LAST#
-Increases chance to shrug off physically-induced effects.  Also reduces duration of detrimental physical effects by up to 5% per point, depending on the power of the opponent's effect.
-]], [[#GOLD#Physical saving throw#LAST#
-Increases chance to shrug off physically-induced effects.  Also reduces duration of detrimental physical effects by up to 5% per point, depending on the power of the opponent's effect.
-]], "_t")
-t([[#GOLD#Spell saving throw#LAST#
-Increases chance to shrug off magically-induced effects.  Also reduces duration of detrimental magical effects by up to 5% per point, depending on the power of the opponent's effect.
-]], [[#GOLD#Spell saving throw#LAST#
-Increases chance to shrug off magically-induced effects.  Also reduces duration of detrimental magical effects by up to 5% per point, depending on the power of the opponent's effect.
-]], "_t")
-t([[#GOLD#Mental saving throw#LAST#
-Increases chance to shrug off mentally-induced effects.  Also reduces duration of detrimental mental effects by up to 5% per point, depending on the power of the opponent's effect.
-]], [[#GOLD#Mental saving throw#LAST#
-Increases chance to shrug off mentally-induced effects.  Also reduces duration of detrimental mental effects by up to 5% per point, depending on the power of the opponent's effect.
-]], "_t")
-t([[#GOLD#Physical Power#LAST#
-Your physical power represents how overwhelming your physcial abilities are. It is usually improved by Strength, but may be modified by your weapon.  It is opposed by your opponent's physical save.
-In addition, when your physical attacks inflict temporary detrimental effects, every point your opponent's save exceeds your physical power will reduce the duration of the effect by 5%.
-]], [[#GOLD#Physical Power#LAST#
-Your physical power represents how overwhelming your physcial abilities are. It is usually improved by Strength, but may be modified by your weapon.  It is opposed by your opponent's physical save.
-In addition, when your physical attacks inflict temporary detrimental effects, every point your opponent's save exceeds your physical power will reduce the duration of the effect by 5%.
-]], "_t")
-t([[#GOLD#Physical critical chance#LAST#
-Each time you deal damage with a physical ability you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage, and it may be modified by your weapon.
-It is improved by Cunning.
-]], [[#GOLD#Physical critical chance#LAST#
-Each time you deal damage with a physical ability you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage, and it may be modified by your weapon.
-It is improved by Cunning.
-]], "_t")
-t([[#GOLD#Spellpower#LAST#
-Your spellpower represents how powerful your magical spells are.  It is opposed by your opponent's spell save.
-In addition, when your spells inflict temporary detrimental effects, every point your opponent's save exceeds your spellpower will reduce the duration of the effect by 5%.
-]], [[#GOLD#Spellpower#LAST#
-Your spellpower represents how powerful your magical spells are.  It is opposed by your opponent's spell save.
-In addition, when your spells inflict temporary detrimental effects, every point your opponent's save exceeds your spellpower will reduce the duration of the effect by 5%.
-]], "_t")
-t([[#GOLD#Spell critical chance#LAST#
-Each time you deal damage with a spell you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
-]], [[#GOLD#Spell critical chance#LAST#
-Each time you deal damage with a spell you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
-]], "_t")
-t([[#GOLD#Spellcasting speed#LAST#
-Spellcasting speed represents how fast your spellcasting is compared to normal.
-Higher is faster - 200% means that you cast spells twice as fast as someone at 100%.
-]], [[#GOLD#Spellcasting speed#LAST#
-Spellcasting speed represents how fast your spellcasting is compared to normal.
-Higher is faster - 200% means that you cast spells twice as fast as someone at 100%.
-]], "_t")
-t([[#GOLD#Spellcooldown#LAST#
-Spell cooldown represents how fast your spells will come off of cooldown.
-The lower it is, the more often you'll be able to use your spell talents and runes.
-]], [[#GOLD#Spellcooldown#LAST#
-Spell cooldown represents how fast your spells will come off of cooldown.
-The lower it is, the more often you'll be able to use your spell talents and runes.
-]], "_t")
-t([[#GOLD#Mindpower#LAST#
-Your mindpower represents how powerful your mental abilities are.  It is opposed by your opponent's mental save.
-In addition, when your mental abilities inflict temporary detrimental effects, every point your opponent's save exceeds your mindpower will reduce the duration of the effect by 5%.
-]], [[#GOLD#Mindpower#LAST#
-Your mindpower represents how powerful your mental abilities are.  It is opposed by your opponent's mental save.
-In addition, when your mental abilities inflict temporary detrimental effects, every point your opponent's save exceeds your mindpower will reduce the duration of the effect by 5%.
-]], "_t")
-t([[#GOLD#Mental critical chance#LAST#
-Each time you deal damage with a mental attack you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
-]], [[#GOLD#Mental critical chance#LAST#
-Each time you deal damage with a mental attack you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
-]], "_t")
-t([[#GOLD#Mental speed#LAST#
-Mental speed represents how fast you use psionic abilities compared to normal.
-Higher is faster.
-]], [[#GOLD#Mental speed#LAST#
-Mental speed represents how fast you use psionic abilities compared to normal.
-Higher is faster.
-]], "_t")
-t([[#GOLD#Damage increase: all#LAST#
-All damage you deal, through any means, is increased by this percentage.
-This stacks with individual damage type increases.
-]], [[#GOLD#Damage increase: all#LAST#
-All damage you deal, through any means, is increased by this percentage.
-This stacks with individual damage type increases.
-]], "_t")
-t([[#GOLD#Damage increase: specific#LAST#
-All damage of this type that you deal, through any means, is increased by this percentage.
-]], [[#GOLD#Damage increase: specific#LAST#
-All damage of this type that you deal, through any means, is increased by this percentage.
-]], "_t")
-t([[#GOLD#Damage increase: creature type#LAST#
-All damage you deal to creatures of this type, through any means, is increased by this percentage.  This is applied in addition to (stacks with) other damage modifiers.
-]], [[#GOLD#Damage increase: creature type#LAST#
-All damage you deal to creatures of this type, through any means, is increased by this percentage.  This is applied in addition to (stacks with) other damage modifiers.
-]], "_t")
-t([[#GOLD#Critical multiplier#LAST#
-All critical hits (melee, spells, ...) do this much damage compared to normal.
-]], [[#GOLD#Critical multiplier#LAST#
-All critical hits (melee, spells, ...) do this much damage compared to normal.
-]], "_t")
-t([[#GOLD#Damage resistance#LAST#
-Whenever you take damage, the percent resistance you have to its type, if any, is checked.  The damage is reduced by this percentage (which may be partially negated by the attacker's Damage Penetration) before being applied.
-Your effective resistance can never be higher than your resistance cap and negative resistances increase the damage you recieve (up to +100%).
-]], [[#GOLD#Damage resistance#LAST#
-Whenever you take damage, the percent resistance you have to its type, if any, is checked.  The damage is reduced by this percentage (which may be partially negated by the attacker's Damage Penetration) before being applied.
-Your effective resistance can never be higher than your resistance cap and negative resistances increase the damage you recieve (up to +100%).
-]], "_t")
-t([[#GOLD#Damage resistance: all#LAST#
-All damage you receive, through any means, is decreased by this percentage.
-This stacks (multiplicatively) with individual damage type resistances up to their respective caps.
-(So 20% resistance: All + 50% resistance: Fire = 60% total resistance to Fire.)
-]], [[#GOLD#Damage resistance: all#LAST#
-All damage you receive, through any means, is decreased by this percentage.
-This stacks (multiplicatively) with individual damage type resistances up to their respective caps.
-(So 20% resistance: All + 50% resistance: Fire = 60% total resistance to Fire.)
-]], "_t")
-t([[#GOLD#Damage resistance: absolute#LAST#
-All damage you receive, through any means, is decreased by this percentage.
-This is applied after normal damage resistance and is not affected by resistance penetration.
-]], [[#GOLD#Damage resistance: absolute#LAST#
-All damage you receive, through any means, is decreased by this percentage.
-This is applied after normal damage resistance and is not affected by resistance penetration.
-]], "_t")
-t([[#GOLD#Damage resistance: specific#LAST#
-All damage of this type that you receive, through any means, is reduced by this percentage.
-]], [[#GOLD#Damage resistance: specific#LAST#
-All damage of this type that you receive, through any means, is reduced by this percentage.
-]], "_t")
-t([[#GOLD#Damage resistance: by speed#LAST#
-All damage you receive, through any means, is decreased by this percentage, which increases as your total movement speed (global times movement) decreases.
-This is applied after normal damage type resistances.
-]], [[#GOLD#Damage resistance: by speed#LAST#
-All damage you receive, through any means, is decreased by this percentage, which increases as your total movement speed (global times movement) decreases.
-This is applied after normal damage type resistances.
-]], "_t")
-t([[#GOLD#Damage resistance: creature type#LAST#
-All damage you receive from creatures of this type, through any means, is decreased by this percentage.  This is applied separately to (stacks with) normal resistances.
-]], [[#GOLD#Damage resistance: creature type#LAST#
-All damage you receive from creatures of this type, through any means, is decreased by this percentage.  This is applied separately to (stacks with) normal resistances.
-]], "_t")
-t([[#GOLD#Damage affinity: all#LAST#
-All damage you receive, through any means, also heals you for this percentage of the damage.
-This stacks with individual damage type affinities.
-Important: Affinity healing happens after damage has been taken, it can not prevent death.
-]], [[#GOLD#Damage affinity: all#LAST#
-All damage you receive, through any means, also heals you for this percentage of the damage.
-This stacks with individual damage type affinities.
-Important: Affinity healing happens after damage has been taken, it can not prevent death.
-]], "_t")
-t([[#GOLD#Damage affinity: specific#LAST#
-All damage of this type that you receive, through any means, also heals you for this percentage of the damage.
-Important: Affinity healing happens after damage has been taken, it can not prevent death.
-]], [[#GOLD#Damage affinity: specific#LAST#
-All damage of this type that you receive, through any means, also heals you for this percentage of the damage.
-Important: Affinity healing happens after damage has been taken, it can not prevent death.
-]], "_t")
-t([[#GOLD#Status resistance#LAST#
-Most bad status effects can be avoided by having an appropriate immunity, represented by a percent chance to completely avoid the effect in question.  This chance is applied in addition to any saving throws or other checks that may apply.
-]], [[#GOLD#Status resistance#LAST#
-Most bad status effects can be avoided by having an appropriate immunity, represented by a percent chance to completely avoid the effect in question.  This chance is applied in addition to any saving throws or other checks that may apply.
-]], "_t")
-t([[#GOLD#Effect resistance chance#LAST#
-This represents your chance to completely resist this specific effect.
-]], [[#GOLD#Effect resistance chance#LAST#
-This represents your chance to completely resist this specific effect.
-]], "_t")
-t([[#GOLD#Stun immunity chance#LAST#
-This represents your chance to completely avoid being stunned, dazed, or frozen.
-]], [[#GOLD#Stun immunity chance#LAST#
-This represents your chance to completely avoid being stunned, dazed, or frozen.
-]], "_t")
-t([[#GOLD#Anomaly immunity chance#LAST#
-This represents your chance to avoid most chronomatic anomaly effects.
-]], [[#GOLD#Anomaly immunity chance#LAST#
-This represents your chance to avoid most chronomatic anomaly effects.
-]], "_t")
-t([[#GOLD#Instant death resistance#LAST#
-This represents your chance to avoid being instantly killed, severely incapacitated, or controlled by certain abilities.
-]], [[#GOLD#Instant death resistance#LAST#
-This represents your chance to avoid being instantly killed, severely incapacitated, or controlled by certain abilities.
-]], "_t")
-t([[#GOLD#Negative status effect immunity chance#LAST#
-This represents your chance to completely avoid ANY persistent bad effects applied to you from others.
-]], [[#GOLD#Negative status effect immunity chance#LAST#
-This represents your chance to completely avoid ANY persistent bad effects applied to you from others.
-]], "_t")
-t([[#GOLD#Negative mental effect immunity chance#LAST#
-This represents your chance to completely avoid ANY persistent bad mental effects applied to you from others.
-]], [[#GOLD#Negative mental effect immunity chance#LAST#
-This represents your chance to completely avoid ANY persistent bad mental effects applied to you from others.
-]], "_t")
-t([[#GOLD#Negative physical effect immunity chance#LAST#
-This represents your chance to completely avoid ANY persistent bad physical effects applied to you from others.
-]], [[#GOLD#Negative physical effect immunity chance#LAST#
-This represents your chance to completely avoid ANY persistent bad physical effects applied to you from others.
-]], "_t")
-t([[#GOLD#Negative magical effect immunity chance#LAST#
-This represents your chance to completely avoid ANY persistent bad magical effects applied to you from others.
-]], [[#GOLD#Negative magical effect immunity chance#LAST#
-This represents your chance to completely avoid ANY persistent bad magical effects applied to you from others.
-]], "_t")
-t([[#GOLD#Damage when hit#LAST#
-Each time a creature hits you with a melee attack, it will suffer damage or other effects.
-]], [[#GOLD#Damage when hit#LAST#
-Each time a creature hits you with a melee attack, it will suffer damage or other effects.
-]], "_t")
-t([[#GOLD#Additional Melee Damage#LAST#
-Each time you strike a creature with a melee attack, you will deal additional damage or other effects.
-]], [[#GOLD#Additional Melee Damage#LAST#
-Each time you strike a creature with a melee attack, you will deal additional damage or other effects.
-]], "_t")
-t([[This is separate from any special damage of your weapon.
-]], [[This is separate from any special damage of your weapon.
-]], "_t")
-t([[#GOLD#Additional Ranged Damage#LAST#
-Each time you strike a creature with a ranged attack, you will deal additional damage or other effects.
-]], [[#GOLD#Additional Ranged Damage#LAST#
-Each time you strike a creature with a ranged attack, you will deal additional damage or other effects.
-]], "_t")
-t([[This is separate from any special damage of your weapon or ammo.
-]], [[This is separate from any special damage of your weapon or ammo.
-]], "_t")
-t([[#GOLD#Damage penetration: all#LAST#
-Reduces the amount of effective resistance of your foes to any damage you deal by this percent.
-If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
-This stacks with individual damage type penetrations.
-You can never have more than 70% penetration.
-]], [[#GOLD#Damage penetration: all#LAST#
-Reduces the amount of effective resistance of your foes to any damage you deal by this percent.
-If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
-This stacks with individual damage type penetrations.
-You can never have more than 70% penetration.
-]], "_t")
-t([[#GOLD#Damage penetration: specific#LAST#
-Reduces the effective resistance of your foes to all damage of this type you deal by this percent.
-If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
-You can never have more than 70% penetration.
-]], [[#GOLD#Damage penetration: specific#LAST#
-Reduces the effective resistance of your foes to all damage of this type you deal by this percent.
-If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
-You can never have more than 70% penetration.
-]], "_t")
-t([[#GOLD#Flat resistances#LAST#
-Reduces each hit of a certain damage type (or all) by this amount.
-]], [[#GOLD#Flat resistances#LAST#
-Reduces each hit of a certain damage type (or all) by this amount.
-]], "_t")
-t([[#GOLD#Telepathy#LAST#
-Allows you to sense creatures of the given type(s) even if they are not currently in your line of sight.
-]], [[#GOLD#Telepathy#LAST#
-Allows you to sense creatures of the given type(s) even if they are not currently in your line of sight.
-]], "_t")
-t([[#GOLD#Telepathy range#LAST#
-Determines the distance up to which you can sense creatures with telepathy.
-]], [[#GOLD#Telepathy range#LAST#
-Determines the distance up to which you can sense creatures with telepathy.
-]], "_t")
-t([[#GOLD#Telepathy#LAST#
-Allows you to sense any creatures even if they are not currently in your line of sight.
-]], [[#GOLD#Telepathy#LAST#
-Allows you to sense any creatures even if they are not currently in your line of sight.
-]], "_t")
-t([[#GOLD#Lite radius#LAST#
-The maximum distance your lite can light up. Anything further cannot be seen by natural means, unless the place itself is lit.
-]], [[#GOLD#Lite radius#LAST#
-The maximum distance your lite can light up. Anything further cannot be seen by natural means, unless the place itself is lit.
-]], "_t")
-t([[#GOLD#Sight range#LAST#
-How far you can see. This only works within your lite radius, or in lit areas.
-]], [[#GOLD#Sight range#LAST#
-How far you can see. This only works within your lite radius, or in lit areas.
-]], "_t")
-t([[#GOLD#Heightened Senses#LAST#
-Special vision (including infravision) that works even in the dark, but only creatures can be seen this way.  Only the best ability is used.
-]], [[#GOLD#Heightened Senses#LAST#
-Special vision (including infravision) that works even in the dark, but only creatures can be seen this way.  Only the best ability is used.
-]], "_t")
-t([[#GOLD#Stealth#LAST#
-To use stealth one must possess the 'Stealth' talent.
-Stealth allows you to try to hide from any creatures that would otherwise see you.
-Even if they have seen you they will have a harder time hitting you.
-Any creature can try to see through your stealth.
-]], [[#GOLD#Stealth#LAST#
-To use stealth one must possess the 'Stealth' talent.
-Stealth allows you to try to hide from any creatures that would otherwise see you.
-Even if they have seen you they will have a harder time hitting you.
-Any creature can try to see through your stealth.
-]], "_t")
-t([[#GOLD#See stealth#LAST#
-Your power to see stealthed creatures. The higher it is, the more likely you are to see them (based on their own stealth score).
-]], [[#GOLD#See stealth#LAST#
-Your power to see stealthed creatures. The higher it is, the more likely you are to see them (based on their own stealth score).
-]], "_t")
-t([[#GOLD#Invisibility#LAST#
-Invisible creatures are magically removed from the sight of all others. They can only be see by creatures that can see invisible.
-]], [[#GOLD#Invisibility#LAST#
-Invisible creatures are magically removed from the sight of all others. They can only be see by creatures that can see invisible.
-]], "_t")
-t([[#GOLD#See invisible#LAST#
-Your power to see invisible creatures. The higher it is, the more likely you are to see them (based on their own invisibility score).
-If you do not have any see invisible score you will never be able to see invisible creatures.
-]], [[#GOLD#See invisible#LAST#
-Your power to see invisible creatures. The higher it is, the more likely you are to see them (based on their own invisibility score).
-If you do not have any see invisible score you will never be able to see invisible creatures.
-]], "_t")
-t([[#GOLD#Detect Traps#LAST#
-Your power to find hidden traps. The higher it is, the more likely you are to notice a trap before setting it off  (based on its own detection score).
-If you do not have any detect traps score, you can not detect traps without triggering them.
-]], [[#GOLD#Detect Traps#LAST#
-Your power to find hidden traps. The higher it is, the more likely you are to notice a trap before setting it off  (based on its own detection score).
-If you do not have any detect traps score, you can not detect traps without triggering them.
-]], "_t")
-t([[#GOLD#Antimagic User#LAST#
-Dedicated to opposing and destroying magical and arcane influence in the world.
-The use of spells or arcane-powered equipment is impossible.
-]], [[#GOLD#Antimagic User#LAST#
-Dedicated to opposing and destroying magical and arcane influence in the world.
-The use of spells or arcane-powered equipment is impossible.
 ]], "_t")
 --]==]
 
@@ -43328,9 +43321,9 @@ t("Mental speed  : #00ff00#%s", "Vitesse mentale     : #00ff00#%s", "tformat")
 t("Times died     : #00ff00#%s", "Vies perdus        : #00ff00#%s", "tformat")
 t("#DARK_RED#Blood of Life", "#DARK_RED#Sang de Vie", "_t")
 t("Lives left     : #00ff00#%s", "Vies Restantes     : #00ff00#%s", "tformat")
-t("Healing mod.   : #00ff00#%s", "Mod de soins       : #00ff00#%s", "tformat")
+t("Healing mod.   : #00ff00#%s", "Modif de soins       : #00ff00#%s", "tformat")
 t("Life regen     : #00ff00#%s", "Regen de vie       : #00ff00#%s", "tformat")
-t("(with heal mod): #00ff00#%s", "(avec mod de soins): #00ff00#%s", "tformat")
+t("(with heal mod): #00ff00#%s", "(avec modif de soins): #00ff00#%s", "tformat")
 t("Light radius   : #00ff00#%s", "Lumière            : #00ff00#%s", "tformat")
 t("Vision range   : #00ff00#%s", "Portée de vue      : #00ff00#%s", "tformat")
 t("Heighten Senses: #00ff00#%s", "Sens augmentés     : #00ff00#%s", "tformat")
@@ -43352,7 +43345,7 @@ t("Block : #00ff00#%s", "Blocage : #00ff00#%s", "tformat")
 t("APR          : #00ff00#%s", "Pén d'armure     : #00ff00#%s", "tformat")
 t("Crit. chance : #00ff00#%s", "Chance de crit   : #00ff00#%s", "tformat")
 t("Crit. power  : #00ff00#%s", "Puissance crit   : #00ff00#%s", "tformat")
-t("Attack Speed : #00ff00#%s", "Vitesse d'attaque: #00ff00#%s", "tformat")
+t("Attack Speed : #00ff00#%s", "Vitesse d'Attaque: #00ff00#%s", "tformat")
 t("range %2d", "porté %2d", "_t")
 t("speed %3d%%", "vitesse %3d%%", "_t")
 t("Archery      : #00ff00#%s, %s", "Tir à l'arc  : #00ff00#%s, %s", "tformat")
@@ -44148,7 +44141,7 @@ section "mod-tome/mod/dialogs/ShowEquipInven.lua"
 t("Inventory", "Inventaire", "_t")
 t("Main Set", "Armes 1", "_t")
 t("Off Set", "Armes 2", "_t")
-t("Tooltip %s", "Info-bulle %s", "log")
+t("Tooltip %s", "Infobulle %s", "log")
 t("locked", "verouillé", "_t")
 t("unlocked", "dévérouillé", "_t")
 t("up", "haut", "log")
@@ -44721,7 +44714,7 @@ t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base:#LAST# ", "_t")
 t("#SALMON#Resolver selected:#LAST# ", "#SALMON#Résolveur sélectionné:#LAST# ", "tformat")
 t("An object resolver interprets additional filter fields to generate an object and determine where it will go.", "Un résolveur d'objets interprète des champs de filtre supplémentaires pour générer un objet et déterminer où il ira.", "_t")
 t("Dropdown text", "Texte déroulant", "_t")
-t("No Tooltip", "Aucune info-bulle", "_t")
+t("No Tooltip", "Aucune infobulle", "_t")
 t("Use this selector to choose which resolver to use", "Utilisez ce sélecteur pour choisir le résolveur à utiliser", "_t")
 t([[#ORANGE#Randart Data#LAST# contains parameters used to generate a Randart (interpreted by game.state:generateRandart).
 The #LIGHT_BLUE#Base Object#LAST# will be used if possible.]], [[#ORANGE#Les données d'artefact aléatoire#LAST# contiennent les paramètres utilisés pour générer un artefact aléatoire (interprété par game.state:generateRandart).
@@ -44734,7 +44727,7 @@ t("Show #GOLD#C#LAST#haracter Sheet", "Montrer la #GOLD#'C'#LAST# Feuille de per
 t("Set working actor: [%s] %s", "Définir l'acteur de travail: [%s] %s", "tformat")
 t("Set working actor: [%s] %s%s", "Définir l'acteur de travail:[%s] %s%s", "tformat")
 t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(joueur)#LAST#", "_t")
-t("#GREY#No Tooltip to Display#LAST#", "#GREY#Aucune info-bulle à afficher#LAST#", "_t")
+t("#GREY#No Tooltip to Display#LAST#", "#GREY#Aucune infobulle à afficher#LAST#", "_t")
 t("Filter/Data/Resolver Reference", "Référence de filtre/données/résolveur", "_t")
 t("#LIGHT_BLUE#Lua Inspect [%s] %s", "#LIGHT_BLUE#Inspecteur Lua [%s] %s", "log")
 t("#LIGHT_BLUE#Nothing to Lua inspect", "#LIGHT_BLUE#Rien à inspecter par Lua", "log")
