@@ -35,9 +35,9 @@ Les fichiers suivant sont présent si vous avez acheté la totalité du jeu :
     - _tdef_append.lua
 - Autres :
   - Ces 3 fichiers servent pour la creations de mods et ne sont pas utile a la traduction du jeu.
-    - mod-example.lua (a faire)
-    - mod-example_realtime.lua (a faire)
-    - tome-remote-designer.lua (a faire)
+    - mod-example.lua
+    - mod-example_realtime.lua
+    - tome-remote-designer.lua
 
 --------------------------------------------------------------------------------------------
 
