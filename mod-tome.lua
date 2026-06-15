@@ -42898,219 +42898,214 @@ t("Show chat user", "Afficher les utilisateurs du chat", "_t")
 ------------------------------------------------
 section "mod-tome/mod/class/uiset/ClassicPlayerDisplay.lua"
 
-
--- texte non traduit
---[==[
 t([[#GOLD##{bold}#%s
 #WHITE##{normal}#Life: %d%%
 Level: %d
 %s]], [[#GOLD##{bold}#%s
-#WHITE##{normal}#Life: %d%%
-Level: %d
+#WHITE##{normal}#Vie: %d%%
+Niveau: %d
 %s]], "tformat")
-t([[#{bold}##GOLD#%s
-(%s: %s)#WHITE##{normal}#
-]], [[#{bold}##GOLD#%s
-(%s: %s)#WHITE##{normal}#
-]], "tformat")
-t("%s reduced the duration of this effect by %d turns, from %d to %d.", "%s reduced the duration of this effect by %d turns, from %d to %d.", "tformat")
-t("Really cancel %s?", "Really cancel %s?", "tformat")
+t("%s reduced the duration of this effect by %d turns, from %d to %d.", "%s a réduit la durée de cet effet de %d tours, de %d à %d.", "tformat")
+t("Really cancel %s?", "Vraiment annuler %s?", "tformat")
 t([[#GOLD##{bold}#%s
 #WHITE##{normal}#Unused stats: %d
 Unused class talents: %d
 Unused generic talents: %d
 Unused categories: %d]], [[#GOLD##{bold}#%s
-#WHITE##{normal}#Unused stats: %d
-Unused class talents: %d
-Unused generic talents: %d
-Unused categories: %d]], "tformat")
+#WHITE##{normal}#Stats inutilisée: %d
+Talents de classe inutilisé: %d
+Talents générique inutilisé: %d
+Catégories inutilisée: %d]], "tformat")
+t("Level / Exp: #00ff00#%s / %2d%%", "Niveau / Exp: #00ff00#%s / %2d%%", "tformat")
+t("Gold: #00ff00#%0.2f", "Or: #00ff00#%0.2f", "tformat")
+t("Accuracy:", "Précision:", "_t")
+t("P. power:", "Puissance P.:", "_t")
+t("S. power:", "Puissance S.:", "_t")
+t("M. power:", "Puissance M.:", "_t")
+t("Defense:", "Défense:", "_t")
+t("P. save:", "Sauvegarde P.:", "_t")
+t("S. save:", "Sauvegarde S.:", "_t")
+t("M. save:", "Sauvegarde M.:", "_t")
+t("Turns remaining: %d", "Tours restants: %d", "tformat")
+t("Air level: %d/%d", "Niveau d'air: %d/%d", "tformat")
+t("Encumbered! (%d/%d)", "Encombré! (%d/%d)", "tformat")
+t("Mag/Wil/Cun: #00ff00#%3d/%3d/%3d", "Mag/Vol/Rus: #00ff00#%3d/%3d/%3d", "tformat")
+t("#c00000#Life    :", "#c00000#Vie    :", "_t")
+t("#WHITE#Shield:", "#WHITE#Bouclier:", "_t")
+t("no description", "aucune description", "_t")
+t("#7fffd4#Feedback:", "#7fffd4#Rétroaction:", "_t")
+t("%0.1f (%0.1f/turn)", "%0.1f (%0.1f/tours)", "tformat")
+t("#LIGHT_GREEN#Fortress:", "#LIGHT_GREEN#Forteresse:", "_t")
+t("#ANTIQUE_WHITE#Ammo    :       #ffffff#%d", "#ANTIQUE_WHITE#Munition    :       #ffffff#%d", "tformat")
+t("#ANTIQUE_WHITE#Ammo    :       #ffffff#%d/%d", "#ANTIQUE_WHITE#Munition    :       #ffffff#%d/%d", "tformat")
+t("Saving:", "Sauvegarde:", "_t")
+t("Wave(TOP) %d", "Vague(TOP) %d", "tformat")
+t("Wave %d", "Vague %d", "tformat")
+t("Rank: %s", "Rang: %s", "tformat")
+-- texte non traduit
+--[==[
+t([[#{bold}##GOLD#%s
+(%s: %s)#WHITE##{normal}#
+]], [[#{bold}##GOLD#%s
+(%s: %s)#WHITE##{normal}#
+]], "tformat")
 t("%s#{normal}#", "%s#{normal}#", "tformat")
-t("Level / Exp: #00ff00#%s / %2d%%", "Level / Exp: #00ff00#%s / %2d%%", "tformat")
-t("Gold: #00ff00#%0.2f", "Gold: #00ff00#%0.2f", "tformat")
-t("Accuracy:", "Accuracy:", "_t")
-t("P. power:", "P. power:", "_t")
-t("S. power:", "S. power:", "_t")
-t("M. power:", "M. power:", "_t")
-t("Defense:", "Defense:", "_t")
-t("P. save:", "P. save:", "_t")
-t("S. save:", "S. save:", "_t")
-t("M. save:", "M. save:", "_t")
-t("Turns remaining: %d", "Turns remaining: %d", "tformat")
-t("Air level: %d/%d", "Air level: %d/%d", "tformat")
-t("Encumbered! (%d/%d)", "Encumbered! (%d/%d)", "tformat")
 t("Str/Dex/Con: #00ff00#%3d/%3d/%3d", "Str/Dex/Con: #00ff00#%3d/%3d/%3d", "tformat")
-t("Mag/Wil/Cun: #00ff00#%3d/%3d/%3d", "Mag/Wil/Cun: #00ff00#%3d/%3d/%3d", "tformat")
-t("#c00000#Life    :", "#c00000#Life    :", "_t")
-t("#WHITE#Shield:", "#WHITE#Shield:", "_t")
 t([[#GOLD#%s#LAST#
 %s
 ]], [[#GOLD#%s#LAST#
 %s
 ]], "tformat")
-t("no description", "no description", "_t")
 t("%-8.8s:", "%-8.8s:", "tformat")
-t("#7fffd4#Feedback:", "#7fffd4#Feedback:", "_t")
 t("#c00000#Un.body :", "#c00000#Un.body :", "_t")
-t("%0.1f (%0.1f/turn)", "%0.1f (%0.1f/turn)", "tformat")
-t("#LIGHT_GREEN#Fortress:", "#LIGHT_GREEN#Fortress:", "_t")
-t("#ANTIQUE_WHITE#Ammo    :       #ffffff#%d", "#ANTIQUE_WHITE#Ammo    :       #ffffff#%d", "tformat")
-t("#ANTIQUE_WHITE#Ammo    :       #ffffff#%d/%d", "#ANTIQUE_WHITE#Ammo    :       #ffffff#%d/%d", "tformat")
-t("Saving:", "Saving:", "_t")
 t([[#GOLD##{bold}#%s#{normal}##WHITE#
 ]], [[#GOLD##{bold}#%s#{normal}##WHITE#
 ]], "tformat")
 t("Score(TOP): %d", "Score(TOP): %d", "tformat")
 t("Score: %d", "Score: %d", "tformat")
-t("Wave(TOP) %d", "Wave(TOP) %d", "tformat")
-t("Wave %d", "Wave %d", "tformat")
 t(" [MiniBoss]", " [MiniBoss]", "_t")
 t(" [Boss]", " [Boss]", "_t")
 t(" [Final]", " [Final]", "_t")
 t("Bonus: %d (x%.1f)", "Bonus: %d (x%.1f)", "tformat")
 t(" VS", " VS", "_t")
-t("Rank: %s", "Rank: %s", "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/class/uiset/Minimalist.lua"
 
+t("no description", "aucune description", "_t")
+t("Player Infos", "Infos du Joueur", "_t")
+t("Resources", "Ressources", "_t")
+t("Minimap", "Mini-carte", "_t")
+t("Current Effects", "Effets Actuels", "_t")
+t("Party Members", "Membres du Groupe", "_t")
 t("Game Log", "Historique du jeu", "_t")
-t("Rank: ", "Rang: ", "_t")
-t("Left click to use", "Cliquez gauche pour utiliser", "_t")
-t("Right click to configure", "Cliquez droit pour configurer", "_t")
-t("Press 'm' to setup", "Appuyez sur 'm' pour régler", "_t")
-t("Unbind %s", "Désassigner %s", "tformat")
-t("Remove this object from your hotkeys?", "Supprimez cet objet de vos raccourcis?", "_t")
-t("Tales of Maj'Eyal Lore", "Lore de Tales of Maj'Eyal", "_t")
-t("Donator", "Donateur", "_t")
-t("Developer", "Développeur", "_t")
-t("Moderator / Helper", "Modération / Helper", "_t")
-t("Recurring Donator", "Donateur Régulier", "_t")
-t("Playing: ", "Jouant: ", "_t")
-t("Game: ", "Partie: ", "_t")
-t("Show chat user", "Afficher les utilisateurs du chat", "_t")
-t("Whisper", "Murmure", "_t")
-t("Ignore", "Ignorer", "_t")
-t("Ignore user", "Ignorer l'utilisateur", "_t")
-t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de: %s", "tformat")
-t("Reason to report: %s", "Raison du signalement: %s", "tformat")
-t("Reason", "Raison", "_t")
--- texte non traduit
---[==[
-t([[#GOLD#%s#LAST#
-%s]], [[#GOLD#%s#LAST#
-%s]], "tformat")
-t("no description", "no description", "_t")
-t("Player Infos", "Player Infos", "_t")
-t("Resources", "Resources", "_t")
-t("Minimap", "Minimap", "_t")
-t("Current Effects", "Current Effects", "_t")
-t("Party Members", "Party Members", "_t")
-t("Online Chat Log", "Online Chat Log", "_t")
-t("Hotkeys", "Hotkeys", "_t")
-t("Game Actions", "Game Actions", "_t")
-t("#CRIMSON#Interface locked, mouse enabled on the map", "#CRIMSON#Interface locked, mouse enabled on the map", "say")
-t("#CRIMSON#Interface unlocked, mouse disabled on the map", "#CRIMSON#Interface unlocked, mouse disabled on the map", "say")
-t("Reset interface positions", "Reset interface positions", "_t")
-t("Reset UI", "Reset UI", "_t")
-t("Reset all the interface?", "Reset all the interface?", "_t")
+t("Online Chat Log", "Journal de Discussion en Ligne", "_t")
+t("Hotkeys", "Raccourcis", "_t")
+t("Game Actions", "Actions du Jeu", "_t")
+t("#CRIMSON#Interface locked, mouse enabled on the map", "#CRIMSON#Interface verrouillée, souris activée sur la carte", "say")
+t("#CRIMSON#Interface unlocked, mouse disabled on the map", "#CRIMSON#Interface déverrouillée, souris désactivée sur la carte", "say")
+t("Reset interface positions", "Réinitialiser les positions de l'interface", "_t")
+t("Reset UI", "Réinitialiser l'UI", "_t")
+t("Reset all the interface?", "Réinitialiser toute l'interface?", "_t")
 t([[%s
 ---
 Left mouse drag&drop to move the frame
 Right mouse drag&drop to scale up/down
 Middle click to reset to default scale%s]], [[%s
 ---
-Left mouse drag&drop to move the frame
-Right mouse drag&drop to scale up/down
-Middle click to reset to default scale%s]], "tformat")
-t("Feedback", "Feedback", "_t")
-t("Fortress Energy", "Fortress Energy", "_t")
-t("Display/Hide resources", "Display/Hide resources", "_t")
-t("Toggle:", "Toggle:", "_t")
+Faites un glisser-déposer avec le bouton gauche de la souris pour déplacer le cadre.
+Faites un glisser-déposer avec le bouton droit de la souris pour agrandir ou réduire l'image.
+Clic du milieu pour rétablir l'échelle par défaut%s]], "tformat")
+t("Feedback", "Rétroaction", "_t")
+t("Fortress Energy", "Énergie de Forteresse", "_t")
+t("Display/Hide resources", "Afficher/Masquer les ressources", "_t")
+t("Toggle:", "Basculer:", "_t")
 t("\
 Right click to toggle resources bars visibility", "\
-Right click to toggle resources bars visibility", "_t")
+Cliquez avec le bouton droit pour afficher ou masquer les barres de ressources", "_t")
+t("Wave(TOP) %d %s", "Vague(TOP) %d %s", "tformat")
+t("Wave %d %s", "Vague %d %s", "tformat")
+t("Rank: ", "Rang: ", "_t")
+t("Saving... %d%%", "Dauvegarde... %d%%", "tformat")
+t("%s reduced the duration of this effect by %d turns, from %d to %d.", "%s a réduit la durée de cet effet de %d tours, de %d à %d.", "tformat")
+t("\
+---\
+Right click to cancel early.", "\
+---\
+Cliquez avec le bouton droit pour annuler prématurément.", "_t")
+t("Really cancel %s?", "Vraiment annuler %s?", "tformat")
+t([[#GOLD##{bold}#%s
+#WHITE##{normal}#Life: %d%%
+Level: %d
+%s]], [[#GOLD##{bold}#%s
+#WHITE##{normal}#Vie: %d%%
+Niveau: %d
+%s]], "tformat")
+t("\
+Turns remaining: %s", "\
+Tours restants: %s", "tformat")
+t("Lvl %d", "Niv %d", "tformat")
+t([[Toggle for movement mode.
+Default: when trying to move onto a creature it will attack if hostile.
+Passive: when trying to move onto a creature it will not attack (use ctrl+direction, or right click to attack manually)]], [[Basculer de mode de déplacement.
+Par défaut: En tentant de bouger sur une créature vous attaquerez si elle est hostile.
+Passif : En tentant de bouger sur une créature vous n'attaquerez pas (utilisez Ctrl+direction ou clic droit pour attaquer manuellement))]], "_t")
+t("Show character infos", "Afficher les informations du personnage", "_t")
+t("Click to assign stats and talents!", "Cliquez pour attribuer des stats et des talents!", "_t")
+t("Show available cosmetic & fun microtransation", "Afficher les microtransactions cosmétiques et ludiques disponibles", "_t")
+t([[Left mouse to move
+Right mouse to scroll
+Middle mouse to show full map]], [[Clic gauche pour se déplacer
+Clic droit pour faire défiler
+Clic molette pour afficher la carte complète]], "_t")
+t("Left click to use", "Cliquez gauche pour utiliser", "_t")
+t("Right click to configure", "Cliquez droit pour configurer", "_t")
+t("Press 'm' to setup", "Appuyez sur 'm' pour régler", "_t")
+t("Unbind %s", "Désassigner %s", "tformat")
+t("Remove this object from your hotkeys?", "Supprimez cet objet de vos raccourcis?", "_t")
+t([[Left mouse to show inventory
+Right mouse to show ingredients]], [[Clic gauche pour afficher l’inventaire
+Clic droit pour afficher les ingrédients]], "_t")
+t("Left mouse to show known talents", "clic gauche pour afficher les talents connus", "_t")
+t("Left mouse to show message/chat log.", "Cliquez gauche pour afficher l'historique des messages/conversations.", "_t")
+t([[Left mouse to show quest log.
+Right mouse to show all known lore.]], [[Clic gauche pour afficher le journal des quêtes.
+Clic droit pour afficher toute l'histoire connues.]], "_t")
+t("Tales of Maj'Eyal Lore", "Lore de Tales of Maj'Eyal", "_t")
+t("Left mouse to show main menu", "clic gauche pour afficher le menu principal", "_t")
+t("Unlock all interface elements so they can be moved and resized.", "Déverrouillez tous les éléments de l'interface pour pouvoir les déplacer et les redimensionner.", "_t")
+t("Lock all interface elements so they can not be moved nor resized.", "Verrouiller tous les éléments d'interface afin qu'ils ne puissent être ni déplacés ni redimensionnés.", "_t")
+t("Clicking will open#LIGHT_BLUE##{italic}#%s#WHITE##{normal}# in your browser", "Cliquer ouvrira#LIGHT_BLUE##{italic}#%s#WHITE##{normal}# dans votre navigateur", "_t")
+t("Donator", "Donateur", "_t")
+t("Developer", "Développeur", "_t")
+t("Moderator / Helper", "Modération / Helper", "_t")
+t("Recurring Donator", "Donateur Régulier", "_t")
+t("Playing: ", "Jouant: ", "_t")
+t("Game: ", "Partie: ", "_t")
+t("Clicking will open ", "Cliquer ouvrira ", "_t")
+t("Show chat user", "Afficher les utilisateurs du chat", "_t")
+t("Whisper", "Murmure", "_t")
+t("Ignore", "Ignorer", "_t")
+t("Ignore user", "Ignorer l'utilisateur", "_t")
+t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de: %s", "tformat")
+t("Report user for bad behavior", "Signaler l'utilisateur pour mauvais comportement", "_t")
+t("Reason to report: %s", "Raison du signalement: %s", "tformat")
+t("Reason", "Raison", "_t")
+t("Remove Friend", "Supprimer un ami", "_t")
+t("Really remove %s from your friends?", "Vraiment supprimer %s de vos amis?", "tformat")
+t("Add Friend", "Ajouter un ami", "_t")
+t("Really add %s to your friends?", "Vraiment ajouter %s à vos amis?", "tformat")
+-- texte non traduit
+--[==[
+t([[#GOLD#%s#LAST#
+%s]], [[#GOLD#%s#LAST#
+%s]], "tformat")
 t("Score[1st]: %d", "Score[1st]: %d", "tformat")
 t("Score: %d", "Score: %d", "tformat")
 t("[MiniBoss]", "[MiniBoss]", "_t")
 t("[Boss]", "[Boss]", "_t")
 t("[Final]", "[Final]", "_t")
-t("Wave(TOP) %d %s", "Wave(TOP) %d %s", "tformat")
-t("Wave %d %s", "Wave %d %s", "tformat")
 t("Bonus: %d (x%.1f)", "Bonus: %d (x%.1f)", "tformat")
 t(" VS", " VS", "_t")
-t("Saving... %d%%", "Saving... %d%%", "tformat")
-t("%s reduced the duration of this effect by %d turns, from %d to %d.", "%s reduced the duration of this effect by %d turns, from %d to %d.", "tformat")
 t([[#{bold}##GOLD#%s
 (%s: %s)#WHITE##{normal}#
 ]], [[#{bold}##GOLD#%s
 (%s: %s)#WHITE##{normal}#
 ]], "tformat")
-t("\
----\
-Right click to cancel early.", "\
----\
-Right click to cancel early.", "_t")
-t("Really cancel %s?", "Really cancel %s?", "tformat")
-t([[#GOLD##{bold}#%s
-#WHITE##{normal}#Life: %d%%
-Level: %d
-%s]], [[#GOLD##{bold}#%s
-#WHITE##{normal}#Life: %d%%
-Level: %d
-%s]], "tformat")
-t("\
-Turns remaining: %s", "\
-Turns remaining: %s", "tformat")
-t("Lvl %d", "Lvl %d", "tformat")
-t([[Toggle for movement mode.
-Default: when trying to move onto a creature it will attack if hostile.
-Passive: when trying to move onto a creature it will not attack (use ctrl+direction, or right click to attack manually)]], [[Toggle for movement mode.
-Default: when trying to move onto a creature it will attack if hostile.
-Passive: when trying to move onto a creature it will not attack (use ctrl+direction, or right click to attack manually)]], "_t")
-t("Show character infos", "Show character infos", "_t")
-t("Click to assign stats and talents!", "Click to assign stats and talents!", "_t")
-t("Show available cosmetic & fun microtransation", "Show available cosmetic & fun microtransation", "_t")
-t([[Left mouse to move
-Right mouse to scroll
-Middle mouse to show full map]], [[Left mouse to move
-Right mouse to scroll
-Middle mouse to show full map]], "_t")
-t([[Left mouse to show inventory
-Right mouse to show ingredients]], [[Left mouse to show inventory
-Right mouse to show ingredients]], "_t")
-t("Left mouse to show known talents", "Left mouse to show known talents", "_t")
-t("Left mouse to show message/chat log.", "Left mouse to show message/chat log.", "_t")
-t([[Left mouse to show quest log.
-Right mouse to show all known lore.]], [[Left mouse to show quest log.
-Right mouse to show all known lore.]], "_t")
-t("Left mouse to show main menu", "Left mouse to show main menu", "_t")
-t("Unlock all interface elements so they can be moved and resized.", "Unlock all interface elements so they can be moved and resized.", "_t")
-t("Lock all interface elements so they can not be moved nor resized.", "Lock all interface elements so they can not be moved nor resized.", "_t")
-t("Clicking will open#LIGHT_BLUE##{italic}#%s#WHITE##{normal}# in your browser", "Clicking will open#LIGHT_BLUE##{italic}#%s#WHITE##{normal}# in your browser", "_t")
-t("Clicking will open ", "Clicking will open ", "_t")
-t("Report user for bad behavior", "Report user for bad behavior", "_t")
 t("#VIOLET#", "#VIOLET#", "log")
-t("Remove Friend", "Remove Friend", "_t")
-t("Really remove %s from your friends?", "Really remove %s from your friends?", "tformat")
-t("Add Friend", "Add Friend", "_t")
-t("Really add %s to your friends?", "Really add %s to your friends?", "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ArenaFinish.lua"
 
-t("unknown", "inconnu", "_t")
--- texte non traduit
---[==[
-t("#LIGHT_GREEN#No high scores. This should not happen.", "#LIGHT_GREEN#No high scores. This should not happen.", "_t")
+t("#LIGHT_GREEN#No high scores. This should not happen.", "#LIGHT_GREEN#Aucun score. Cela ne devrait pas se produire.", "_t")
 t([[%s (%s %s %s)
  Score %d[%s]) - Wave: %d]], [[%s (%s %s %s)
- Score %d[%s]) - Wave: %d]], "tformat")
---]==]
-
+ Score %d[%s]) - Vague: %d]], "tformat")
+t("unknown", "inconnu", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/Birther.lua"
