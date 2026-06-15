@@ -19277,11 +19277,11 @@ t("Any attack that would drop you below 1 hit point instead triggers Second Life
 section "mod-tome/data/talents/celestial/crusader.lua"
 
 t("Absorption Strike", "Coup Absorbant", "talent name")
+t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
 t("Mark of Light", "Marque de Lumière", "talent name")
 t("Righteous Strength", "Force de la Justice", "talent name")
 -- texte non traduit
 --[==[
-t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
 t([[You strike your foe with your two handed weapon, dealing %d%% weapon damage.
 		If the attack hits, all foes in radius 2 will have their light resistance reduced by %d%% and their damage reduced by %d%% for 5 turns.]], [[You strike your foe with your two handed weapon, dealing %d%% weapon damage.
 		If the attack hits, all foes in radius 2 will have their light resistance reduced by %d%% and their damage reduced by %d%% for 5 turns.]], "tformat")
@@ -24855,6 +24855,7 @@ t("psionic", "psyché", "talent category")
 t("other", "autre", "talent category")
 t("undead", "mort-vivant", "talent category")
 t("misc", "divers", "talent type")
+t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 t("Disarm", "Désarmement", "talent name")
 t("Knockback", "Repoussage", "talent name")
 t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
@@ -24872,6 +24873,7 @@ t("Sever Lifeline", "Ligne de Vie Rompue", "talent name")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
 t("Maim", "Mutiler", "talent name")
 t("Bloodrage", "Rage de Sang", "talent name")
+t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 t("Empower Poisons", "Renforcement des Poisons", "talent name")
 t("Willful Combat", "Combat Délibéré", "talent name")
@@ -24905,7 +24907,6 @@ t("Poisonous Spores", "Poisonous Spores", "talent name")
 t("@Source@ releases poisonous spores at @target@.", "@Source@ releases poisonous spores at @target@.", "_t")
 t("Releases poisonous spores at the target, doing %d%% damage and poisoning it.", "Releases poisonous spores at the target, doing %d%% damage and poisoning it.", "tformat")
 t("Stun", "Stun", "talent name")
-t("%s resists the stunning blow!", "%s resists the stunning blow!", "logSeen")
 t([[Hits the target doing %d%% damage. If the attack hits, the target is stunned for %d turns.
 		The chance to stun improves with your Physical Power.]], [[Hits the target doing %d%% damage. If the attack hits, the target is stunned for %d turns.
 		The chance to stun improves with your Physical Power.]], "tformat")
@@ -25129,7 +25130,6 @@ t("Each time one of your foes bites the dust, you feel a surge of power, increas
 t("Martyrdom", "Martyrdom", "talent name")
 t("Designate a target as a martyr for 10 turns. When the martyr deals damage, it also damages itself for %d%% of the damage dealt.", "Designate a target as a martyr for 10 turns. When the martyr deals damage, it also damages itself for %d%% of the damage dealt.", "tformat")
 t("Overpower", "Overpower", "talent name")
-t("You require a weapon and a shield to use this talent.", "You require a weapon and a shield to use this talent.", "logPlayer")
 t("You cannot use Overpower without a shield!", "You cannot use Overpower without a shield!", "logPlayer")
 t([[Hits the target with your weapon doing %d%% damage and two shield strikes doing %d%% damage each, trying to overpower your target.
 		If the last attack hits, the target is knocked back 4 grids. The chance for knockback increases with your Accuracy.]], [[Hits the target with your weapon doing %d%% damage and two shield strikes doing %d%% damage each, trying to overpower your target.
@@ -25959,7 +25959,7 @@ t([[The pounding forge of thought in your mind is released upon your surrounding
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/dream-smith.lua"
 
-
+t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 -- texte non traduit
 --[==[
 t("Dream Smith's Hammer", "Dream Smith's Hammer", "talent name")
@@ -25980,7 +25980,6 @@ t([[Throw your Dream Hammer at a distant location, inflicting %d%% weapon damage
 		Learning this talent increases the Accuracy of your Dream Hammer by %d.]], [[Throw your Dream Hammer at a distant location, inflicting %d%% weapon damage on all targets between you and it.  After reaching its destination, the Dream Hammer will return, potentially hitting targets a second time.
 		Learning this talent increases the Accuracy of your Dream Hammer by %d.]], "tformat")
 t("Dream Crusher", "Dream Crusher", "talent name")
-t("%s resists the stunning blow!", "%s resists the stunning blow!", "logSeen")
 t([[Crush your enemy with your Dream Hammer, inflicting %d%% weapon damage.  If the attack hits, the target is stunned for %d turns.
 		Stun chance improves with your Mindpower.  Learning this talent increases your Physical Power for Dream Hammer damage calculations by %d and all damage with Dream Hammer attacks by %d%%.
 		]], [[Crush your enemy with your Dream Hammer, inflicting %d%% weapon damage.  If the attack hits, the target is stunned for %d turns.
@@ -28520,7 +28519,7 @@ t("water", "eau", "_t")
 ------------------------------------------------
 section "mod-tome/data/talents/spells/staff-combat.lua"
 
-
+t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 -- texte non traduit
 --[==[
 t("Channel Staff", "Channel Staff", "talent name")
@@ -28538,7 +28537,6 @@ t("Defensive Posture", "Defensive Posture", "talent name")
 t("Adopt a defensive posture, increasing your Defense and Armour by %d.", "Adopt a defensive posture, increasing your Defense and Armour by %d.", "tformat")
 t("Blunt Thrust", "Blunt Thrust", "talent name")
 t("You cannot use Blunt Thrust without a staff weapon!", "You cannot use Blunt Thrust without a staff weapon!", "logPlayer")
-t("%s resists the stunning blow!", "%s resists the stunning blow!", "logSeen")
 t([[Hit a target for %d%% melee damage and stun it for %d turns.
 		Stun chance will improve with Spellpower.
 		At level 5, this attack cannot miss.]], [[Hit a target for %d%% melee damage and stun it for %d turns.
@@ -28833,35 +28831,37 @@ t("Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/2h-assault.lua"
 
-
--- texte non traduit
---[==[
-t("Stunning Blow", "Stunning Blow", "talent name")
-t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
-t("%s resists the stunning blow!", "%s resists the stunning blow!", "logSeen")
+t("Stunning Blow", "Coup Assommant", "talent name")
+t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
+t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 t([[Hit the target twice with your two-handed weapon, doing %d%% damage. Each hit will try to stun the target for %d turns.
-		The stun chance increases with your Physical Power.]], [[Hit the target twice with your two-handed weapon, doing %d%% damage. Each hit will try to stun the target for %d turns.
-		The stun chance increases with your Physical Power.]], "tformat")
-t("Fearless Cleave", "Fearless Cleave", "talent name")
-t("You must be able to move to use this talent.", "You must be able to move to use this talent.", "logPlayer")
-t("Take a step toward your foes then use the momentum to cleave all creatures adjacent to you for %d%% weapon damage.", "Take a step toward your foes then use the momentum to cleave all creatures adjacent to you for %d%% weapon damage.", "tformat")
-t("Death Dance", "Death Dance", "talent name")
-t("You cannot use Death Dance without a two-handed weapon!", "You cannot use Death Dance without a two-handed weapon!", "logPlayer")
+		The stun chance increases with your Physical Power.]], [[Frappez la cible deux fois avec votre arme à deux mains, infligeant %d%% dégâts. Chaque coup tentera d'assommer la cible pendant %d tours.
+		Les chances d'assommement augmentent avec votre Puissance Physique.]], "tformat")
+t("Fearless Cleave", "Fendoir Intrépide", "talent name")
+t("You must be able to move to use this talent.", "Vous devez être capable de vous déplacer pour utiliser ce talent.", "logPlayer")
+t("Take a step toward your foes then use the momentum to cleave all creatures adjacent to you for %d%% weapon damage.", "Faites un pas vers vos ennemis pour fendre toutes les créatures adjacentes pour %d%% dégâts d'arme.", "tformat")
+t("Death Dance", "Danse de la Mort", "talent name")
+t("You cannot use Death Dance without a two-handed weapon!", "Vous ne pouvez pas utiliser Danse de la Mort sans une arme à deux mains!", "logPlayer")
 t([[Spin around, extending your weapon in radius %d and damaging all targets around you for %d%% weapon damage.
-		At level 3 all damage done will also make the targets bleed for an additional %d%% damage over 5 turns]], [[Spin around, extending your weapon in radius %d and damaging all targets around you for %d%% weapon damage.
-		At level 3 all damage done will also make the targets bleed for an additional %d%% damage over 5 turns]], "tformat")
-t("Execution", "Execution", "talent name")
+		At level 3 all damage done will also make the targets bleed for an additional %d%% damage over 5 turns]], [[Tournoyez sur vous-même, étendant votre arme dans un rayon de %d et infligeant %d%% dégâts d'arme à toute les cibles autour de vous.
+		Au niveau 3, tous les dégâts infligés provoquent également un saignement, infligeant %d%% dégâts supplémentaires sur 5 tours.]], "tformat")
+t("Execution", "Exécution", "talent name")
 t([[Takes advantage of a wounded foe to perform a killing strike.  This attack is an automatic critical hit that does %0.1f%% extra weapon damage for each %% of life the target is below maximum.
 		(A victim with 30%% remaining life (70%% damaged) would take %0.1f%% weapon damage.)
-		If an enemy dies from this attack then two of your talent cooldowns are reduced by 2 turns and Execution's cooldown is reset.]], [[Takes advantage of a wounded foe to perform a killing strike.  This attack is an automatic critical hit that does %0.1f%% extra weapon damage for each %% of life the target is below maximum.
-		(A victim with 30%% remaining life (70%% damaged) would take %0.1f%% weapon damage.)
-		If an enemy dies from this attack then two of your talent cooldowns are reduced by 2 turns and Execution's cooldown is reset.]], "tformat")
---]==]
-
+		If an enemy dies from this attack then two of your talent cooldowns are reduced by 2 turns and Execution's cooldown is reset.]], [[Profitez qu'un ennemi soit blessé pour porter le coup fatal. Cette attaque est automatiquement un coup critique infligeant %0.1f%% de dégâts d'arme supplémentaires par %% de vie inférieurs au maximum de la cible.
+		(Une victime avec 30%% de vie restants (70%% de dégâts) subirait %0.1f%% de dégâts d'arme.)
+		Si un ennemi meurt de cette attaque, le temps de recharge de deux de vos talents sont réduit de 2 tours et le temps de recharge d'Exécution est réinitialisé.]], "tformat")
+-- ancien texte traduit
+t("Death DanceDeath Dance", "Danse de la Mort", "talent name")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/2hweapon.lua"
 
+t("Death Dance", "Danse de la Mort", "talent name")
+t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
+t("You cannot use Death Dance without a two-handed weapon!", "Vous ne pouvez pas utiliser Danse de la Mort sans une arme à deux mains!", "logPlayer")
+t("Stunning Blow", "Coup Assommant", "talent name")
+t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 t("Sunder Armour", "Briseur d'Armure", "talent name")
 t("Sunder Arms", "Briseur d'Armes", "talent name")
 -- nouveau texte
@@ -28875,9 +28875,6 @@ t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the
 
 -- texte non traduit
 --[==[
-t("Death Dance", "Death Dance", "talent name")
-t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
-t("You cannot use Death Dance without a two-handed weapon!", "You cannot use Death Dance without a two-handed weapon!", "logPlayer")
 t("Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage.", "Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage.", "tformat")
 t("Berserker", "Berserker", "talent name")
 t("You cannot use Berserker without a two-handed weapon!", "You cannot use Berserker without a two-handed weapon!", "logPlayer")
@@ -28900,9 +28897,7 @@ t([[Tries to perform a killing blow, doing %d%% weapon damage and dealing an aut
 		The chance to instantly kill will increase with your Physical Power.]], [[Tries to perform a killing blow, doing %d%% weapon damage and dealing an automatic critical hit. If the target ends up with low enough life (<20%%), it might be instantly killed.
 		At level 4, it drains half your remaining stamina, and uses it to increase the blow damage by 100%% of it.
 		The chance to instantly kill will increase with your Physical Power.]], "tformat")
-t("Stunning Blow", "Stunning Blow", "talent name")
 t("You cannot use Stunning Blow without a two-handed weapon!", "You cannot use Stunning Blow without a two-handed weapon!", "logPlayer")
-t("%s resists the stunning blow!", "%s resists the stunning blow!", "logSeen")
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target is stunned for %d turns.
 		The stun chance increases with your Physical Power.]], [[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target is stunned for %d turns.
 		The stun chance increases with your Physical Power.]], "tformat")
@@ -29221,10 +29216,9 @@ t([[Any time you block an attack with Buckler Expertise or Buckler Mastery you i
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/combat-techniques.lua"
 
-
+t("Rush", "Charge", "talent name")
 -- texte non traduit
 --[==[
-t("Rush", "Rush", "talent name")
 t("@Source@ rushes out!", "@Source@ rushes out!", "_t")
 t("You can only rush to a creature.", "You can only rush to a creature.", "logPlayer")
 t("You are too close to build up momentum!", "You are too close to build up momentum!", "logPlayer")
@@ -29386,6 +29380,7 @@ t("You quickly move up to %d tiles to arrive adjacent to a target location you c
 section "mod-tome/data/talents/techniques/duelist.lua"
 
 t("Feint", "Feinte", "talent name")
+t("You must be able to move to use this talent.", "Vous devez être capable de vous déplacer pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Dual Weapon Mastery", "Dual Weapon Mastery", "talent name")
@@ -29402,7 +29397,6 @@ t([[The flow of battle invigorates you, allowing you to press your advantage as 
 		Up to once each per turn, while dual wielding, you may:
 		Riposte -- If a melee or archery attack misses you or you parry it, you instantly restore %0.1f stamina and gain %d%% of a turn.
 		Recover -- On performing a critical strike with your offhand weapon, you instantly restore %0.1f stamina.]], "tformat")
-t("You must be able to move to use this talent.", "You must be able to move to use this talent.", "logPlayer")
 t("%s cannot move!", "%s cannot move!", "logPlayer")
 t("Terrain prevents #Source# from switching places with #Target#.", "Terrain prevents #Source# from switching places with #Target#.", "logCombat")
 t([[Make a cunning feint that tricks your target into swapping places with you.  While moving, you take the opportunity to trip them, pinning and dazing them for 2 turns.
@@ -29875,6 +29869,7 @@ t("Fire a lethal shot. This shot will bypass other enemies between you and your 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/strength-of-the-berserker.lua"
 
+t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
 t("Berserker Rage", "Rage Berserk", "talent name")
 t("Relentless Fury", "Fureur Implacable", "talent name")
 -- nouveau texte
@@ -29891,7 +29886,6 @@ t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the
 t("Warshout", "Warshout", "talent name")
 t("@Source@ uses Warsqueak.", "@Source@ uses Warsqueak.", "_t")
 t("@Source@ uses Warshout.", "@Source@ uses Warshout.", "_t")
-t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
 t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (50%% confusion power) for %d turns.", "Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (50%% confusion power) for %d turns.", "tformat")
 t("#Source#'s rage awakens!", "#Source#'s rage awakens!", "logCombat")
 t("#Source#'s rage subsides!", "#Source#'s rage subsides!", "logCombat")
@@ -29942,6 +29936,8 @@ t([[Put all of your strength into your weapon blows, creating shockwaves that de
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/techniques.lua"
 
+t("two-handed assault", "assaut à deux mains", "talent type")
+t("shield offense", "attaque au bouclier", "talent type")
 t("superiority", "supériorité", "talent type")
 t("duelist", "dueliste", "talent type")
 t("bow", "arc", "_t")
@@ -29949,13 +29945,11 @@ t("You do not have enough ammo left!", "Il ne vous reste plus assez de munitions
 -- texte non traduit
 --[==[
 t("technique", "technique", "talent category")
-t("two-handed assault", "two-handed assault", "talent type")
 t("Specialized two-handed techniques.", "Specialized two-handed techniques.", "_t")
 t("berserker's strength", "berserker's strength", "talent type")
 t("Fear nothing!", "Fear nothing!", "_t")
 t("two-handed weapons", "two-handed weapons", "talent type")
 t("two-handed maiming", "two-handed maiming", "talent type")
-t("shield offense", "shield offense", "talent type")
 t("Specialized weapon and shield techniques.", "Specialized weapon and shield techniques.", "_t")
 t("shield defense", "shield defense", "talent type")
 t("dual weapons", "dual weapons", "talent type")
@@ -30244,59 +30238,59 @@ t([[Your battle cry shatters the will of your foes within a radius of %d, loweri
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/weaponshield.lua"
 
-t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
--- texte non traduit
---[==[
-t("Shield Pummel", "Shield Pummel", "talent name")
-t("You require a weapon and a shield to use this talent.", "You require a weapon and a shield to use this talent.", "logPlayer")
-t("You cannot use Shield Pummel without a shield!", "You cannot use Shield Pummel without a shield!", "logPlayer")
-t("%s resists the shield bash!", "%s resists the shield bash!", "logSeen")
+t("Shield Pummel", "Coup de Bouclier", "talent name")
+t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
+t("You cannot use Shield Pummel without a shield!", "Vous ne pouvez pas utiliser Coup de Bouclier sans bouclier!", "logPlayer")
+t("%s resists the shield bash!", "%s résiste a la frappe au bouclier!", "logSeen")
 t([[Hits the target with two shield strikes, doing %d%% and %d%% shield damage. If it hits a second time, it stuns the target for %d turns.
-		The stun chance increases with your Accuracy and your Strength.]], [[Hits the target with two shield strikes, doing %d%% and %d%% shield damage. If it hits a second time, it stuns the target for %d turns.
-		The stun chance increases with your Accuracy and your Strength.]], "tformat")
-t("Riposte", "Riposte", "talent name")
+		The stun chance increases with your Accuracy and your Strength.]], [[Touche la cible avec deux coups de bouclier, infligeant %d%% et %d%% dégâts de bouclier. S'il touche une seconde fois, il assomme la cible pendant %d tours.
+		Les chances d'assommement augmentent avec votre précision et votre force.]], "tformat")
 t([[Improves your ability to perform counterstrikes after blocks in the following ways:
 		Allows counterstrikes after incomplete blocks.
 		Increases the number of counterstrikes you can perform on a target while they're vulnerable by %d.
-		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], [[Improves your ability to perform counterstrikes after blocks in the following ways:
-		Allows counterstrikes after incomplete blocks.
-		Increases the number of counterstrikes you can perform on a target while they're vulnerable by %d.
-		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], "tformat")
-t("Shield Slam", "Shield Slam", "talent name")
-t("You cannot use Shield Slam without a shield!", "You cannot use Shield Slam without a shield!", "logPlayer")
-t("Hit your target with your shield 3 times for %d%% damage then quickly return to a blocking position.  The bonus block will not check or trigger Block cooldown.", "Hit your target with your shield 3 times for %d%% damage then quickly return to a blocking position.  The bonus block will not check or trigger Block cooldown.", "tformat")
-t("Assault", "Assault", "talent name")
-t("You cannot use Assault without a mainhand weapon and shield!", "You cannot use Assault without a mainhand weapon and shield!", "logPlayer")
-t("Hits the target with your shield, doing %d%% damage. If it hits, you follow up with two automatic critical hits with your weapon, doing %d%% base damage each.", "Hits the target with your shield, doing %d%% damage. If it hits, you follow up with two automatic critical hits with your weapon, doing %d%% base damage each.", "tformat")
-t("Shield Wall", "Shield Wall", "talent name")
-t("You cannot use Shield Wall without a shield!", "You cannot use Shield Wall without a shield!", "logPlayer")
+		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], [[Améliore votre capacité à effectuer des contre-attaques après avoir bloqué selon ce qui suit:
+		Permet des contre-attaques après des blocages incomplets.
+		Augmente le nombre de contre-attaques que vous pouvez effectuer sur une cible alors qu'elle est vulnérable de %d.
+		Augmente les chances de contre-attaques critique de %d%%. Cette augmentation est proportionnelle à votre Dextérité.]], "tformat")
+t("Shield Slam", "Grand Coup de bouclier", "talent name")
+t("You cannot use Shield Slam without a shield!", "Vous ne pouvez pas utiliser Coup de Bouclier sans bouclier!", "logPlayer")
+t("Hit your target with your shield 3 times for %d%% damage then quickly return to a blocking position.  The bonus block will not check or trigger Block cooldown.", "Frappez votre cible avec votre bouclier 3 fois pour %d%% dégâts puis revenez rapidement en position de blocage. Le blocage bonus ne vérifiera ni ne déclenchera le temps de recharge du blocage.", "tformat")
+t("Assault", "Assaut", "talent name")
+t("You cannot use Assault without a mainhand weapon and shield!", "Vous ne pouvez pas utiliser Assaut sans une arme principale et un bouclier!", "logPlayer")
+t("Hits the target with your shield, doing %d%% damage. If it hits, you follow up with two automatic critical hits with your weapon, doing %d%% base damage each.", "Touche la cible avec votre bouclier, infligeant %d%% dégâts. S'il touche, vous enchaînez avec deux coups critiques automatiques avec votre arme, infligeant chacun %d%% dégâts de base.", "tformat")
+t("Shield Wall", "Mur de Bouclier", "talent name")
+t("You cannot use Shield Wall without a shield!", "Vous ne pouvez pas utiliser Mur de Bouclier sans bouclier!", "logPlayer")
 t([[Enter a protective battle stance allowing you to defend yourself more proficiently while using a shield.
 		Increases Armour by %d, Block value by %d, and reduces Block cooldown by 2.
 		Increases stun and knockback resistance by %d%%.
-		The Armor and Block bonuses increase equally with your Dexterity and Strength.]], [[Enter a protective battle stance allowing you to defend yourself more proficiently while using a shield.
-		Increases Armour by %d, Block value by %d, and reduces Block cooldown by 2.
-		Increases stun and knockback resistance by %d%%.
-		The Armor and Block bonuses increase equally with your Dexterity and Strength.]], "tformat")
-t("Repulsion", "Repulsion", "talent name")
-t("You cannot use Repulsion without a shield!", "You cannot use Repulsion without a shield!", "logPlayer")
+		The Armor and Block bonuses increase equally with your Dexterity and Strength.]], [[Adoptez une position de combat protectrice vous permettant de vous défendre plus efficacement tout en utilisant un bouclier.
+		Augmente l'Armure de %d, la Valeur de blocage de %d et réduit le temps de recharge du Blocage de 2.
+		Augmente la résistance à l'assomement et au repoussement de %d%%.
+		Les bonus d'armure et de blocage augmentent de manière égale avec votre dextérité et votre force.]], "tformat")
+t("Repulsion", "Répulsion", "talent name")
+t("You cannot use Repulsion without a shield!", "Vous ne pouvez pas utiliser Répulsion sans bouclier!", "logPlayer")
+t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
 t([[Smash your shield into the face of all adjacent foes dealing %d%% shield damage and knocking them back %d grids.
 		In addition, all creatures knocked back will also be dazed for %d turns.
 		If known, activating this talent will refresh your Rush cooldown if the attack hits.
-		The distance increases with your talent level, and the Daze duration with your Strength.]], [[Smash your shield into the face of all adjacent foes dealing %d%% shield damage and knocking them back %d grids.
-		In addition, all creatures knocked back will also be dazed for %d turns.
-		If known, activating this talent will refresh your Rush cooldown if the attack hits.
-		The distance increases with your talent level, and the Daze duration with your Strength.]], "tformat")
-t("Shield Expertise", "Shield Expertise", "talent name")
-t("Improves your damage with shield-based skills, and increases your Spell (+%d) and Physical (+%d) Saves.", "Improves your damage with shield-based skills, and increases your Spell (+%d) and Physical (+%d) Saves.", "tformat")
-t("Last Stand", "Last Stand", "talent name")
-t("You cannot use Last Stand without a shield!", "You cannot use Last Stand without a shield!", "logPlayer")
+		The distance increases with your talent level, and the Daze duration with your Strength.]], [[Écrasez votre bouclier au visage de tous les ennemis adjacents en infligeant %d%% dégâts de bouclier et en les repoussant de %d cases.
+		De plus, toutes les créatures repoussées seront également étourdies pendant %d tours.
+		Si connu et si l'attaque réussit, l'activation de ce talent actualisera le temps de recharge de Charge.
+		La distance augmente avec votre niveau de talent et la durée de l'Étourdissement avec votre Force.]], "tformat")
+t("Shield Expertise", "Expertise en Bouclier", "talent name")
+t("Improves your damage with shield-based skills, and increases your Spell (+%d) and Physical (+%d) Saves.", "Améliore vos dégâts avec les compétences basées sur le bouclier et augmente vos Sauvegardes Magiques (+%d) et Physiques (+%d).", "tformat")
+t("Last Stand", "Dernier Rempart", "talent name")
+t("You cannot use Last Stand without a shield!", "Vous ne pouvez pas utiliser Dernier Rempart sans bouclier!", "logPlayer")
 t([[You brace yourself for the final stand, increasing Defense and Armor by %d, maximum and current life by %d, but making you unable to move.
 		Your stand lets you concentrate on every blow, allowing you to avoid death from normally fatal wounds. You can only die when reaching -%d life.
 		If your life is below 0 when Last Stand ends it will be set to 1.
-		The increase in Defense and Armor is based on your Dexterity, and the increase in life is based on your Constitution and normal maximum life.]], [[You brace yourself for the final stand, increasing Defense and Armor by %d, maximum and current life by %d, but making you unable to move.
-		Your stand lets you concentrate on every blow, allowing you to avoid death from normally fatal wounds. You can only die when reaching -%d life.
-		If your life is below 0 when Last Stand ends it will be set to 1.
-		The increase in Defense and Armor is based on your Dexterity, and the increase in life is based on your Constitution and normal maximum life.]], "tformat")
+		The increase in Defense and Armor is based on your Dexterity, and the increase in life is based on your Constitution and normal maximum life.]], [[Vous vous préparez pour le combat final, augmentant la Défense et l'Armure de %d, la vie maximale et actuelle de %d, mais vous ne pouvez plus bouger.
+		Votre rempart vous permet de vous concentrer sur chaque coup, vous permettant ainsi d'éviter la mort suite à des blessures normalement mortelles. Vous ne pouvez mourir qu'en atteignant -%d points de vie.
+		Si votre vie est inférieure à 0 à la fin de Dernier Rempart, elle sera remise à 1.
+		L'augmentation de la Défense et de l'Armure est basée sur votre Dextérité, et l'augmentation de la vie est basée sur votre Constitution et votre vie maximale normale.]], "tformat")
+-- texte non traduit
+--[==[
+t("Riposte", "Riposte", "talent name")
 --]==]
 
 -- ancien texte traduit
