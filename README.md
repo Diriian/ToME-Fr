@@ -8,7 +8,15 @@ Une fois la traduction fini elle sera totalement intégré au jeu (merci DarkGod
 
 --------------------------------------------------------------------------------------------
 
-Pour pouvoir traduire il faut a la fois pouvoir utiliser l'outil de traduction et le mode Debugging :
+IMPORTANT :
+
+A propos de l'addon fr,
+
+Malgré que tous les menus/textes soient traduis il n'est parfois pas possible de les afficher en francais sans utiliser des moyens plutot exotique dont je ne parlerais pas. Il faut attendre que la traduction soit entierement fini et intégré au jeu pour réelement tout avoir en francais.
+
+--------------------------------------------------------------------------------------------
+
+Pour pouvoir traduire ToME il faut a la fois pouvoir utiliser l'outil de traduction et le mode Debugging :
 - https://te4.org/wiki/Translation
 - https://te4.org/wiki/Debugging
 
