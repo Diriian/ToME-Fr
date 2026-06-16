@@ -21698,6 +21698,7 @@ section "mod-tome/data/talents/cunning/cunning.lua"
 
 t("cunning", "ruse", "talent category")
 t("stealth", "furtivité", "talent type")
+t("survival", "survie", "talent type")
 t("tactical", "tactique", "talent type")
 -- texte non traduit
 --[==[
@@ -21717,7 +21718,6 @@ t("shadow magic", "shadow magic", "talent type")
 t("Blending magic and shadows.", "Blending magic and shadows.", "_t")
 t("ambush", "ambush", "talent type")
 t("Using darkness and a bit of magic, you manipulate the shadows.", "Using darkness and a bit of magic, you manipulate the shadows.", "_t")
-t("survival", "survival", "talent type")
 t("The knowledge of the dangers of the world, and how to best avoid them.", "The knowledge of the dangers of the world, and how to best avoid them.", "_t")
 t("Tactical combat abilities.", "Tactical combat abilities.", "_t")
 t("scoundrel", "scoundrel", "talent type")
@@ -21975,45 +21975,41 @@ t([[Your mastery of stealth allows you to vanish from sight at any time.
 section "mod-tome/data/talents/cunning/survival.lua"
 
 t("Heightened Senses", "Sens Accrus", "talent name")
--- texte non traduit
---[==[
 t([[You notice the small things others do not notice, allowing you to "see" creatures in a %d radius even outside of light radius.
 		This is not telepathy, however, and it is still limited to line of sight.
 		Also, your attention to detail increases stealth detection and invisibility detection by %d, and you gain the ability to detect traps (+%d detect 'power').
-		The detection abilities improve with Cunning.]], [[You notice the small things others do not notice, allowing you to "see" creatures in a %d radius even outside of light radius.
-		This is not telepathy, however, and it is still limited to line of sight.
-		Also, your attention to detail increases stealth detection and invisibility detection by %d, and you gain the ability to detect traps (+%d detect 'power').
-		The detection abilities improve with Cunning.]], "tformat")
-t("Device Mastery", "Device Mastery", "talent name")
+		The detection abilities improve with Cunning.]], [[Vous remarquez des détails que les autres ne voient pas, ce qui vous permet de "voir" les créatures dans un rayon de %d, même hors de portée de la lumière.
+		Cependant il ne s'agit pas de télépathie et votre vision reste limitée à la ligne de vue.
+		De plus votre sens du détail augmente la détection de la furtivité et de l'invisibile de %d, et vous obtenez la capacité de détecter les pièges ('puissance' de détection %d).
+		Vos capacités de détection s'améliorent avec la Ruse.]], "tformat")
+t("Device Mastery", "Maîtrise des Breloques", "talent name")
 t([[Your cunning manipulations allow you to use charms (wands, totems and torques) more efficiently, reducing their cooldowns and the power cost of all usable items by %d%%.
-		In addition your knowledge of devices allows you to disarm known traps (%d disarm 'power', improves with Cunning).]], [[Your cunning manipulations allow you to use charms (wands, totems and torques) more efficiently, reducing their cooldowns and the power cost of all usable items by %d%%.
-		In addition your knowledge of devices allows you to disarm known traps (%d disarm 'power', improves with Cunning).]], "tformat")
-t("Track", "Track", "talent name")
+		In addition your knowledge of devices allows you to disarm known traps (%d disarm 'power', improves with Cunning).]], [[Vos manipulations astucieuses vous permettent d'utiliser les breloques (baguettes, totems et torques) plus efficacement, réduisant leurs temps de recharge et le Coût en énergie de tous les objets utilisables de %d%%.
+		De plus, votre connaissance des mécanismes vous permet de désamorcer les pièges connus ('puissance' de désamorçage %d, amélioré par la Ruse).]], "tformat")
+t("Track", "Pistage", "talent name")
 t([[Sense foes around you in a radius of %d for %d turns.
-		The radius will increase with your Cunning.]], [[Sense foes around you in a radius of %d for %d turns.
-		The radius will increase with your Cunning.]], "tformat")
-t("Danger Sense", "Danger Sense", "talent name")
+		The radius will increase with your Cunning.]], [[Détectez les ennemis autour de vous dans un rayon de %d pendant %d tours.
+		Ce rayon augmente avec votre Ruse.]], "tformat")
+t("Danger Sense", "Sens du Danger", "talent name")
 t([[You have an enhanced sense of self preservation, and your keen intuition allows you to sense dangers others miss.
 		Your ability to detect traps is enhanced (+%d detect 'power').
 		Critical attacks against you have %0.1f%% reduced bonus damage, and damage bonuses attackers gain against you for being unseen are reduced by %d%%.
 		You also gain an additional chance (at your normal save %+d, effective) to resist detrimental status effects that can be resisted.
-		The detection and additional save chance improve with Cunning.]], [[You have an enhanced sense of self preservation, and your keen intuition allows you to sense dangers others miss.
-		Your ability to detect traps is enhanced (+%d detect 'power').
-		Critical attacks against you have %0.1f%% reduced bonus damage, and damage bonuses attackers gain against you for being unseen are reduced by %d%%.
-		You also gain an additional chance (at your normal save %+d, effective) to resist detrimental status effects that can be resisted.
-		The detection and additional save chance improve with Cunning.]], "tformat")
-t("Disarm Trap", "Disarm Trap", "talent name")
-t("#CADET_BLUE#Disarm A Trap: (direction keys to select where to disarm, shift+direction keys to move freely)", "#CADET_BLUE#Disarm A Trap: (direction keys to select where to disarm, shift+direction keys to move freely)", "log")
-t("#CADET_BLUE#You don't have the skill to disarm traps.", "#CADET_BLUE#You don't have the skill to disarm traps.", "logPlayer")
-t("#CADET_BLUE#You cannot disarm traps in grids you cannot enter.", "#CADET_BLUE#You cannot disarm traps in grids you cannot enter.", "logPlayer")
-t("#CADET_BLUE#You don't see a trap there.", "#CADET_BLUE#You don't see a trap there.", "logPlayer")
+		The detection and additional save chance improve with Cunning.]], [[Votre instinct de survie est exacerbé et votre intuition aiguisée vous permet de percevoir les dangers qui échappent aux autres.
+		Votre capacité à détecter les pièges est améliorée ('puissance' de détection +%d).
+		Les attaques critiques contre vous subissent une réduction de dégâts bonus de %0.1f%%, et les bonus de dégâts des ennemis caché sont réduits de %d%%.
+		Vous bénéficiez également d'une chance supplémentaire (à votre jet de sauvegarde normal %+d, effectif) de résister aux altérations d'état néfastes auxquelles il est possible de résister.
+		La détection et cette chance supplémentaire de sauvegarde sont améliorées par la Ruse.]], "tformat")
+t("Disarm Trap", "Désamorcer les Pièges", "talent name")
+t("#CADET_BLUE#Disarm A Trap: (direction keys to select where to disarm, shift+direction keys to move freely)", "#CADET_BLUE#Désamorcer UN piège: (touches directionnelles pour sélectionner l’endroit où désamorcer, Maj+touches directionnelles pour se déplacer librement)", "log")
+t("#CADET_BLUE#You don't have the skill to disarm traps.", "#CADET_BLUE#Vous n'avez pas le niveau de compétence nécessaires pour désamorcer les pièges.", "logPlayer")
+t("#CADET_BLUE#You cannot disarm traps in grids you cannot enter.", "#CADET_BLUE#Vous ne pouvez pas désamorcer les pièges dans les cases auxquelles vous ne pouvez pas accéder.", "logPlayer")
+t("#CADET_BLUE#You don't see a trap there.", "#CADET_BLUE#Vous ne voyez pas de piège ici.", "logPlayer")
 t([[You search a nearby grid for a hidden trap (%d detection 'power') and disarm it if possible (%d disarm 'power', based on your skill with %s).
 		Disarming a trap requires at least a minimum skill level, and you must be able to enter the trap's grid to manipulate it, though you stay in your current location.  A failed attempt to disarm a trap may trigger it.
-		Your skill improves with your your Cunning.]], [[You search a nearby grid for a hidden trap (%d detection 'power') and disarm it if possible (%d disarm 'power', based on your skill with %s).
-		Disarming a trap requires at least a minimum skill level, and you must be able to enter the trap's grid to manipulate it, though you stay in your current location.  A failed attempt to disarm a trap may trigger it.
-		Your skill improves with your your Cunning.]], "tformat")
---]==]
-
+		Your skill improves with your your Cunning.]], [[Vous recherchez un piège caché sur la case voisine ('puissance' de détection %d) et le désamorcez si possible ('puissance' de désamorçage %d, selon votre compétence en %s).
+		Désamorcer un piège requiert un niveau de compétence minimum. Vous devez pouvoir entrer dans la grille du piège pour le manipuler, tout en restant sur place. Une tentative de désamorçage ratée peut déclencher le piège.
+		Votre compétence augmente avec votre Ruse.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/tactical.lua"
@@ -28956,7 +28952,7 @@ t([[You gain greater facility with your acrobatic moves, lowering the cooldowns 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/agility.lua"
 
-
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Agile Defense", "Agile Defense", "talent name")
@@ -28973,7 +28969,6 @@ At talent level 5, you will immediately enter a blocking stance on landing.]], [
 The shield bash will use Dexterity instead of Strength for the shield's bonus damage.
 At talent level 5, you will immediately enter a blocking stance on landing.]], "tformat")
 t("Bull Shot", "Bull Shot", "talent name")
-t("You are too close to build up momentum!", "You are too close to build up momentum!", "logPlayer")
 t([[You rush toward your foe, readying your shot. If you reach the enemy, you release the shot, imbuing it with great power.
 		The shot does %d%% weapon damage and knocks back your target by %d.
 		The cooldown of this talent is reduced by 1 each time you move.
@@ -29217,74 +29212,65 @@ t([[Any time you block an attack with Buckler Expertise or Buckler Mastery you i
 section "mod-tome/data/talents/techniques/combat-techniques.lua"
 
 t("Rush", "Charge", "talent name")
--- texte non traduit
---[==[
-t("@Source@ rushes out!", "@Source@ rushes out!", "_t")
-t("You can only rush to a creature.", "You can only rush to a creature.", "logPlayer")
-t("You are too close to build up momentum!", "You are too close to build up momentum!", "logPlayer")
+t("@Source@ rushes out!", "@Source@ Charge précipitamment!", "_t")
+t("You can only rush to a creature.", "Vous ne pouvez charger que vers une créature.", "logPlayer")
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
 t([[Rush toward a target enemy with incredible speed and perform a melee attack for 120%% weapon damage that can daze the target for 3 turns if it hits.
-		You must rush from at least 2 tiles away.]], [[Rush toward a target enemy with incredible speed and perform a melee attack for 120%% weapon damage that can daze the target for 3 turns if it hits.
-		You must rush from at least 2 tiles away.]], "tformat")
-t("Precise Strikes", "Precise Strikes", "talent name")
+		You must rush from at least 2 tiles away.]], [[Chargez sur un ennemi à une vitesse fulgurante et portez une attaque au corps à corps infligeant 120%% dégâts d'arme. Si elle touche, elle peut étourdir la cible pendant 3 tours.
+		Vous devez être éloigné d'au moins deux cases.]], "tformat")
+t("Precise Strikes", "Frappes Précises", "talent name")
 t([[You focus your strikes, reducing your attack speed by %d%% and increasing your Accuracy by %d and critical chance by %d%%.
-		The effects will increase with your Dexterity.]], [[You focus your strikes, reducing your attack speed by %d%% and increasing your Accuracy by %d and critical chance by %d%%.
-		The effects will increase with your Dexterity.]], "tformat")
-t("Perfect Strike", "Perfect Strike", "talent name")
-t("You have learned to focus your blows to hit your target, granting +%d accuracy and allowing you to attack creatures you cannot see without penalty for the next %d turns.", "You have learned to focus your blows to hit your target, granting +%d accuracy and allowing you to attack creatures you cannot see without penalty for the next %d turns.", "tformat")
-t("Blinding Speed", "Blinding Speed", "talent name")
-t("Through rigorous training, you have learned to focus your actions for a short while, increasing your speed by %d%% for 5 turns.", "Through rigorous training, you have learned to focus your actions for a short while, increasing your speed by %d%% for 5 turns.", "tformat")
-t("Quick Recovery", "Quick Recovery", "talent name")
-t("Your combat focus allows you to keep your hatred burning (%0.1f hate refunded after spending hate on a talent)", "Your combat focus allows you to keep your hatred burning (%0.1f hate refunded after spending hate on a talent)", "tformat")
-t("Your combat focus allows you to regenerate stamina faster (+%0.1f stamina/turn).", "Your combat focus allows you to regenerate stamina faster (+%0.1f stamina/turn).", "tformat")
-t("Fast Metabolism", "Fast Metabolism", "talent name")
-t("Your combat focus allows you to regenerate life faster (+%0.1f life/turn).", "Your combat focus allows you to regenerate life faster (+%0.1f life/turn).", "tformat")
-t("Spell Shield", "Spell Shield", "talent name")
-t("Rigorous training allows you to be more resistant to some spell effects (+%d spell save).", "Rigorous training allows you to be more resistant to some spell effects (+%d spell save).", "tformat")
-t("Unending Frenzy", "Unending Frenzy", "talent name")
-t("You revel in the death of your foes, regaining %0.1f additional hate with each death you cause.", "You revel in the death of your foes, regaining %0.1f additional hate with each death you cause.", "tformat")
-t("You revel in the death of your foes, regaining %0.1f stamina with each death you cause.", "You revel in the death of your foes, regaining %0.1f stamina with each death you cause.", "tformat")
---]==]
-
+		The effects will increase with your Dexterity.]], [[Vous vous concentrez sur vos attaques, réduisant votre vitesse d'attaque de %d%% et augmentant votre précision de %d et vos chances de coup critique de %d%%.
+		Ces effets augmentent avec votre dextérité.]], "tformat")
+t("Perfect Strike", "Frappe Parfaite", "talent name")
+t("You have learned to focus your blows to hit your target, granting +%d accuracy and allowing you to attack creatures you cannot see without penalty for the next %d turns.", "Vous avez appris à vous concentrer sur vos coups pour atteindre votre cible, ce qui vous confère +%d précision et vous permet d'attaquer des créatures que vous ne pouvez pas voir sans pénalité pendant les %d prochains tours.", "tformat")
+t("Blinding Speed", "Vitesse Aveuglante", "talent name")
+t("Through rigorous training, you have learned to focus your actions for a short while, increasing your speed by %d%% for 5 turns.", "Grâce à un entraînement rigoureux, vous avez appris à vous concentrer sur vos actions pendant un court instant, augmentant votre vitesse de %d%% pendant 5 tours.", "tformat")
+t("Quick Recovery", "Rétablissement Rapide", "talent name")
+t("Your combat focus allows you to keep your hatred burning (%0.1f hate refunded after spending hate on a talent)", "Votre concentration en combat vous permet de maintenir votre haine en ébullition (%0.1f haine remboursée après avoir dépensé de la haine pour un talent).", "tformat")
+t("Your combat focus allows you to regenerate stamina faster (+%0.1f stamina/turn).", "Votre concentration en combat vous permet de régénérer votre endurance plus rapidement (+%0.1f endurance/tour).", "tformat")
+t("Fast Metabolism", "Métabolisme Rapide", "talent name")
+t("Your combat focus allows you to regenerate life faster (+%0.1f life/turn).", "Votre concentration en combat vous permet de régénérer votre vie plus rapidement (+%0.1f vie/tour).", "tformat")
+t("Spell Shield", "Écran Magique", "talent name")
+t("Rigorous training allows you to be more resistant to some spell effects (+%d spell save).", "Un entraînement rigoureux vous permet d'être plus résistant à certains effets de sorts (+%d sauvegarde contre les sorts).", "tformat")
+t("Unending Frenzy", "Frénésie sans Fin", "talent name")
+t("You revel in the death of your foes, regaining %0.1f additional hate with each death you cause.", "Vous vous délectez de la mort de vos ennemis, récupérant +%0.1f haine supplémentaire à chaque mort que vous provoquez.", "tformat")
+t("You revel in the death of your foes, regaining %0.1f stamina with each death you cause.", "Vous vous délectez de la mort de vos ennemis, récupérant +%0.1f endurance à chaque mort que vous provoquez.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/combat-training.lua"
 
-
--- texte non traduit
---[==[
-t("Thick Skin", "Thick Skin", "talent name")
-t("Your skin becomes more resilient to damage. Increases resistance to all damage by %0.1f%%.", "Your skin becomes more resilient to damage. Increases resistance to all damage by %0.1f%%.", "tformat")
-t("Heavy Armour Training", "Heavy Armour Training", "talent name")
-t("You cannot use your %s anymore.", "You cannot use your %s anymore.", "logPlayer")
-t("(Note that brawlers will be unable to perform many of their talents in massive armour.)", "(Note that brawlers will be unable to perform many of their talents in massive armour.)", "_t")
-t("(Note that wearing mail or plate armour will interfere with stealth.)", "(Note that wearing mail or plate armour will interfere with stealth.)", "_t")
+t("Thick Skin", "Peau Epaisse", "talent name")
+t("Your skin becomes more resilient to damage. Increases resistance to all damage by %0.1f%%.", "Votre peau devient plus résistante aux dégâts. Augmente la résistance à tous les dégâts de %0.1f%%.", "tformat")
+t("Heavy Armour Training", "Entraînement aux Armures Lourdes", "talent name")
+t("You cannot use your %s anymore.", "Vous ne pouvez plus utiliser votre %s.", "logPlayer")
+t("(Note that brawlers will be unable to perform many of their talents in massive armour.)", "(Notez que les lutteurs ne pourront pas utiliser tout leurs talents lorsqu'ils porteront une armure lourde.)", "_t")
+t("(Note that wearing mail or plate armour will interfere with stealth.)", "(Notez que le port d'une cotte de mailles ou d'une armure de plaques nuira à la discrétion.)", "_t")
 t([[You become better at using your armour to deflect blows and protect your vital areas. Increases Armour value by %d, Armour hardiness by %d%%, and reduces the chance melee or ranged attacks critically hit you by %d%% with your current body armour.
 		(This talent only provides bonuses for heavy mail or massive plate armour.)
 		At level 1, it allows you to wear heavy mail armour, gauntlets, helms, and heavy boots.
 		At level 2, it allows you to wear shields.
 		At level 3, it allows you to wear massive plate armour.
-		%s]], [[You become better at using your armour to deflect blows and protect your vital areas. Increases Armour value by %d, Armour hardiness by %d%%, and reduces the chance melee or ranged attacks critically hit you by %d%% with your current body armour.
-		(This talent only provides bonuses for heavy mail or massive plate armour.)
-		At level 1, it allows you to wear heavy mail armour, gauntlets, helms, and heavy boots.
-		At level 2, it allows you to wear shields.
-		At level 3, it allows you to wear massive plate armour.
+		%s]], [[Vous maîtrisez mieux l'utilisation de votre armure pour dévier les coups et protéger vos zones vitales. Augmente la valeur d'armure de %d, la robustesse d'armure de %d%%, et réduit de %d%% les chances de subir un coup critique lors d'attaques au corps à corps ou à distance avec votre armure actuelle.
+		(Ce talent n'offre de bonus que pour les armures de mailles lourdes ou les armures de plaques massives.)
+		Au niveau 1, il vous permet de porter des armures de mailles lourdes, des gantelets, des casques et des bottes lourdes.
+		Au niveau 2, il vous permet de porter des boucliers.
+		Au niveau 3, il vous permet de porter des armures de plates massives.
 		%s]], "tformat")
-t("Light Armour Training", "Light Armour Training", "talent name")
+t("Light Armour Training", "Entraînement aux Armures Légères", "talent name")
 t([[You learn to maintain your agility and manage your combat posture while wearing robes or light armour.  When wearing armour no heavier than leather in your main body slot, you gain %d Defense, %d%% Armour hardiness, and %d%% reduced Fatigue.
 		In addition, when you step adjacent to a (visible) enemy, you use the juxtaposition to increase your total Defense by %d for 2 turns.
-		The Defense bonus scales with your Dexterity.]], [[You learn to maintain your agility and manage your combat posture while wearing robes or light armour.  When wearing armour no heavier than leather in your main body slot, you gain %d Defense, %d%% Armour hardiness, and %d%% reduced Fatigue.
-		In addition, when you step adjacent to a (visible) enemy, you use the juxtaposition to increase your total Defense by %d for 2 turns.
-		The Defense bonus scales with your Dexterity.]], "tformat")
-t("Combat Accuracy", "Combat Accuracy", "talent name")
-t("Increases the accuracy of unarmed, melee and ranged weapons by %d.", "Increases the accuracy of unarmed, melee and ranged weapons by %d.", "tformat")
-t("Weapons Mastery", "Weapons Mastery", "talent name")
-t("Increases weapon damage by %d%% and physical power by 30 when using swords, axes or maces.", "Increases weapon damage by %d%% and physical power by 30 when using swords, axes or maces.", "tformat")
-t("Dagger Mastery", "Dagger Mastery", "talent name")
-t("Increases weapon damage by %d%% and physical power by 30 when using daggers.", "Increases weapon damage by %d%% and physical power by 30 when using daggers.", "tformat")
-t("Exotic Weapons Mastery", "Exotic Weapons Mastery", "talent name")
-t("Increases weapon damage by %d%% and physical power by 30 when using exotic weapons.", "Increases weapon damage by %d%% and physical power by 30 when using exotic weapons.", "tformat")
---]==]
-
+		The Defense bonus scales with your Dexterity.]], [[Vous apprenez à maintenir votre agilité et à gérer votre posture de combat en portant une robe ou une armure légère. Lorsque vous portez rien de plus lourd qu'une armure de cuire vous gagnez %d de Défense, %d%% de robustesse d'armure et %d%% de fatigue en moins.
+		De plus lorsque vous vous placez à côté d'un ennemi (visible), vous utilisez la proximité pour augmenter votre Défense totale de %d pendant 2 tours.
+		Le bonus de Défense est proportionnel à votre Dextérité.]], "tformat")
+t("Combat Accuracy", "Précision de Combat", "talent name")
+t("Increases the accuracy of unarmed, melee and ranged weapons by %d.", "Augmente la précision à mains nues, en mêlée, et à distance de %d.", "tformat")
+t("Weapons Mastery", "Maîtrise des Armes", "talent name")
+t("Increases weapon damage by %d%% and physical power by 30 when using swords, axes or maces.", "Augmente les dégâts d'armes de %d%% et la puissance physique de 30 lors de l'utilisation d'épées, de haches, ou de masses.", "tformat")
+t("Dagger Mastery", "Maîtrise des Dagues", "talent name")
+t("Increases weapon damage by %d%% and physical power by 30 when using daggers.", "Augmente les dégâts d'armes de %d%% et la puissance physique de 30 lors de l'utilisation de dagues.", "tformat")
+t("Exotic Weapons Mastery", "Maîtrise des Armes Exotiques", "talent name")
+t("Increases weapon damage by %d%% and physical power by 30 when using exotic weapons.", "Augmente les dégâts d'armes de %d%% et la puissance physique de 30 lors de l'utilisation d'armes exotiques.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/conditioning.lua"
@@ -29419,7 +29405,7 @@ t([[Exploiting a gap in your target's defenses, you make a lethal strike with yo
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/excellence.lua"
 
-
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
 -- texte non traduit
 --[==[
 t("Shoot Down", "Shoot Down", "talent name")
@@ -29428,7 +29414,6 @@ t([[Your reflexes are lightning-fast, if you spot a projectile (arrow, shot, spe
 		You can shoot down up to %d projectiles.]], [[Your reflexes are lightning-fast, if you spot a projectile (arrow, shot, spell, ...) you can instantly shoot at it without taking a turn to take it down.
 		You can shoot down up to %d projectiles.]], "tformat")
 t("Bull Shot", "Bull Shot", "talent name")
-t("You are too close to build up momentum!", "You are too close to build up momentum!", "logPlayer")
 t([[You rush toward your foe, readying your shot. If you reach the enemy, you release the shot, imbuing it with great power.
 		The shot does %d%% weapon damage and knocks back your target by %d.]], [[You rush toward your foe, readying your shot. If you reach the enemy, you release the shot, imbuing it with great power.
 		The shot does %d%% weapon damage and knocks back your target by %d.]], "tformat")
@@ -29938,7 +29923,11 @@ section "mod-tome/data/talents/techniques/techniques.lua"
 
 t("two-handed assault", "assaut à deux mains", "talent type")
 t("shield offense", "attaque au bouclier", "talent type")
+t("shield defense", "défense au bouclier", "talent type")
 t("superiority", "supériorité", "talent type")
+t("combat techniques", "techniques de combat", "talent type")
+t("combat veteran", "vétéran de combat", "talent type")
+t("combat training", "formation au combat", "talent type")
 t("duelist", "dueliste", "talent type")
 t("bow", "arc", "_t")
 t("You do not have enough ammo left!", "Il ne vous reste plus assez de munitions!", "logPlayer")
@@ -29951,7 +29940,6 @@ t("Fear nothing!", "Fear nothing!", "_t")
 t("two-handed weapons", "two-handed weapons", "talent type")
 t("two-handed maiming", "two-handed maiming", "talent type")
 t("Specialized weapon and shield techniques.", "Specialized weapon and shield techniques.", "_t")
-t("shield defense", "shield defense", "talent type")
 t("dual weapons", "dual weapons", "talent type")
 t("Specialized dual wielding techniques.", "Specialized dual wielding techniques.", "_t")
 t("dual techniques", "dual techniques", "talent type")
@@ -29976,10 +29964,7 @@ t("bloodthirst", "bloodthirst", "talent type")
 t("Delight in the act of battle and the spilling of blood.", "Delight in the act of battle and the spilling of blood.", "_t")
 t("field control", "field control", "talent type")
 t("Control the battlefield using various techniques.", "Control the battlefield using various techniques.", "_t")
-t("combat techniques", "combat techniques", "talent type")
 t("Generic combat oriented techniques.", "Generic combat oriented techniques.", "_t")
-t("combat veteran", "combat veteran", "talent type")
-t("combat training", "combat training", "talent type")
 t("Teaches to use various armours, weapons and improves health.", "Teaches to use various armours, weapons and improves health.", "_t")
 t("magical combat", "magical combat", "talent type")
 t("The blending together of magic and melee prowess.", "The blending together of magic and melee prowess.", "_t")
@@ -43788,7 +43773,7 @@ t([[Enables quick melee targeting auto attacking.
 Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], [[Activer l'attaque automatique rapide ciblé en mêlée.
 Les talents qui nécessitent une cible de mêlée cibleront automatiquement et confirmeront s'il n'y a qu'une seule créature hostile dans les environs.#WHITE#]], "_t")
 t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", "Si désactivés, les objets activables ne seront pas ajoutés automatiquement à vos raccourcis clavier, vous devrez les faire glisser manuellement depuis l'écran d'inventaire.#WHITE#", "_t")
-t("When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "Lorsque vous échangez un objet avec un gadget, le gadget est automatiquement rattachér à l'objet nouvellement porté.#WHITE#", "_t")
+t("When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "Lorsque vous échangez un objet avec une babiole, la babiole est automatiquement rattachér à l'objet nouvellement porté.#WHITE#", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/GraphicMode.lua"
@@ -45144,9 +45129,9 @@ t("Swift Hands", "Mains rapides", "_t")
 t("List of items that can be instantly used by swift hands.", "Liste des articles qui peuvent être utilisés instantanément par des mains rapides.", "_t")
 t("Strength", "Force", "stat name")
 t("str", "for", "stat short_name")
-t("Strength defines your character's ability to apply physical force. It increases your melee damage, damage done with heavy weapons, your chance to resist physical effects, and carrying capacity.", "La force définit la capacité de votre personnage à appliquer une force physique. Elle augmente vos dégâts en mêlée, les dégâts faits avec des armes lourdes, vos chances de résister aux effets physiques et votre capacité de transport.", "_t")
+t("Strength defines your character's ability to apply physical force. It increases your melee damage, damage done with heavy weapons, your chance to resist physical effects, and carrying capacity.", "La force définit la capacité de votre personnage à appliquer une force physique. Elle augmente vos dégâts en mêlée, les dégâts d'armes lourdes, vos chances de résister aux effets physiques et votre capacité de transport.", "_t")
 t("Dexterity", "Dextérité", "stat name")
-t("Dexterity defines your character's ability to be agile and alert. It increases your chance to hit, your ability to avoid attacks, and your damage with light or ranged weapons.", "La dextérité définit la capacité de votre personnage à être agile et alerte. Elle augmente vos chances de toucher, votre capacité à éviter les attaques et vos dégâts avec des armes légères ou à distance.", "_t")
+t("Dexterity defines your character's ability to be agile and alert. It increases your chance to hit, your ability to avoid attacks, and your damage with light or ranged weapons.", "La dextérité définit la capacité de votre personnage à être agile et alerte. Elle augmente vos chances de toucher, votre capacité à éviter les attaques et vos dégâts avec d'armes légères ou à distance.", "_t")
 t("Magic", "Magie", "stat name")
 t("Magic defines your character's ability to manipulate the magical energy of the world. It increases your spell power, and the effect of spells and other magic items.", "La magie définit la capacité de votre personnage à manipuler l'énergie magique du monde. Elle augmente la puissance de vos sorts, ainsi que l'effet des sorts et autres objets magiques.", "_t")
 t("Willpower", "Volonté", "stat name")
