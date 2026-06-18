@@ -419,7 +419,7 @@ t("Celestial", "Céleste", "birth descriptor name")
 t("The magic of the heavens is known to but a few, and that knowledge has long passed east, forgotten.", "La magie du paradis est connue de peu de monde, et cette connaissance a depuis longtemps migré à l'est, oubliée.", "_t")
 t("Celestial classes are arcane users focused on the heavenly bodies.", "Les classes célestes utilisent la magie des arcanes focalisée sur les corps célestes.", "_t")
 t("Most draw their powers from the Sun and the Moons.", "La plupart tirent leurs pouvoirs du soleil et des lunes.", "_t")
-t("Sun Paladin", "Paladin solaire", "birth descriptor name")
+t("Sun Paladin", "Paladin Solaire", "birth descriptor name")
 t("The sun rises in the east in full glory, but you must look for it first amidst the darkest places.", "Le soleil s'élève à l'est dans la gloire totale, mais vous devez le chercher dans les endroits les plus sombres.", "_t")
 t("Sun Paladins hail from the Gates of Morning, the last bastion of the free people in the Far East.", "Les paladins solaires viennent des Portes du Matin, le dernier bastion du peuple libre dans l'extrême orient.", "_t")
 t("Their way of life is well represented by their motto 'The Sun is our giver, our purity, our essence. We carry the light into dark places, and against our strength none shall pass.'", "Leur façon de vivre est bien représentée par leur devise \"Le soleil est notre bienfaiteur, notre pureté, notre essence. Nous portons la lumière dans les endroits obscurs, et contre notre force rien ne passera.\"", "_t")
@@ -4567,7 +4567,7 @@ t("time dilated", "dilaté par le temps", "_t")
 t("temporal stun", "dégâts d'étourdissement temporellement", "damage type")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 t("lite", "dégâts de lampe", "damage type")
-t("illumination", "dégâts d'éclairage", "damage type")
+t("illumination", "dégâts d'illumination", "damage type")
 t("silence", "dégâts de silence", "damage type")
 t("%s resists the silence!", "%s resiste au silence!", "logSeen")
 t("arcane silence", "dégâts de silence arcanique", "damage type")
@@ -8660,7 +8660,7 @@ t("v. walkers", "dans vide", "entity keyword")
 t(" of fate", " de destiné", "entity name")
 t("fate", "destiné", "entity keyword")
 t(" of illumination", " d'illumination", "entity name")
-t("illumination", "éclairage", "entity keyword")
+t("illumination", "dégâts d'illumination", "entity keyword")
 t(" of might", " du costaud", "entity name")
 t("might", "costaud", "entity keyword")
 t(" of power", " de pouvoir", "entity name")
@@ -19180,7 +19180,7 @@ t([[You have learned to sing the praises of the Sun, in the form of three defens
 			Chant de Forteresse: Augmente votre sauvegarde physique de %d, votre résistance physique de %d%%, votre armure de %d et la robustesse d'armure de 15%%.
 			Chant de Résistance: Augmente votre sauvegarde contre les sorts de %d, vos résistances au feu, au froid, à la foudre et à l’acide de %d%% et réduit tous les dégâts infligés par les ennemis éloignés (à 3 cases ou plus) de %d%%.
 			Vous ne pouvez avoir qu’un seul Chant actif à la fois.]], "tformat")
-t("Chant Illuminate", "Chant d'Illumination", "talent name")
+t("Chant Illuminate", "Chant de Lumière", "talent name")
 t([[Your Chants now bathe you in a cloak of light, which increases your stamina and mana regenerations by %0.2f per turn and does %0.2f light damage to anyone who hits you in melee.
 		These values scale with your Spellpower.]], [[Vos Chants vous enveloppent désormais d'un voile de lumière, augmentant votre endurance et votre régénération de mana de %0.2f par tour et infligeant %0.2f dégâts de lumière à quiconque vous frappe au corps à corps.
 		Ces valeurs sont proportionnelles à votre Puissance des Sorts.]], "tformat")
@@ -19269,29 +19269,25 @@ section "mod-tome/data/talents/celestial/crusader.lua"
 
 t("Absorption Strike", "Coup Absorbant", "talent name")
 t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
-t("Mark of Light", "Marque de Lumière", "talent name")
-t("Righteous Strength", "Force de la Justice", "talent name")
--- texte non traduit
---[==[
 t([[You strike your foe with your two handed weapon, dealing %d%% weapon damage.
-		If the attack hits, all foes in radius 2 will have their light resistance reduced by %d%% and their damage reduced by %d%% for 5 turns.]], [[You strike your foe with your two handed weapon, dealing %d%% weapon damage.
-		If the attack hits, all foes in radius 2 will have their light resistance reduced by %d%% and their damage reduced by %d%% for 5 turns.]], "tformat")
-t("You mark a target with light for 3 turns, causing all melee hits you deal to it to heal you for %d%% of the damage done.", "You mark a target with light for 3 turns, causing all melee hits you deal to it to heal you for %d%% of the damage done.", "tformat")
+		If the attack hits, all foes in radius 2 will have their light resistance reduced by %d%% and their damage reduced by %d%% for 5 turns.]], [[Vous frappez votre ennemi avec votre arme à deux mains, infligeant %d%% dégâts d'arme.
+		Si l'attaque touche, tous les ennemis dans un rayon de 2 verrons leur résistance à la lumière réduite de %d%% et leurs dégâts seront réduits de %d%% pendant 5 tours.]], "tformat")
+t("Mark of Light", "Marque de Lumière", "talent name")
+t("You mark a target with light for 3 turns, causing all melee hits you deal to it to heal you for %d%% of the damage done.", "Vous marquez une cible avec de la lumière pendant 3 tours. Tous les coups de mêlée que vous lui infligez pendant ce laps de temps vous soignent à hauteur de %d%% des dégâts infligés.", "tformat")
+t("Righteous Strength", "Force de la Justice", "talent name")
 t([[While wielding a two handed weapon, your critical strike chance is increased by %d%%, and your melee criticals instill you with righteous strength, increasing all physical and light damage you deal by %d%%, stacking up to 3 times.
 		In addition, your melee critical strikes leave a lasting lightburn on the target, dealing %0.2f light damage over 5 turns and reducing opponents armour by %d.
-		The damage increases with your Spellpower.]], [[While wielding a two handed weapon, your critical strike chance is increased by %d%%, and your melee criticals instill you with righteous strength, increasing all physical and light damage you deal by %d%%, stacking up to 3 times.
-		In addition, your melee critical strikes leave a lasting lightburn on the target, dealing %0.2f light damage over 5 turns and reducing opponents armour by %d.
-		The damage increases with your Spellpower.]], "tformat")
-t("Flash of the Blade", "Flash of the Blade", "talent name")
+		The damage increases with your Spellpower.]], [[Lorsque vous maniez une arme à deux mains, vos chances de coup critique augmentent de %d%%, et vos coups critiques au corps à corps vous confèrent Force de la Justice, augmentant tous les dégâts physiques et de lumière que vous infligez de %d%%, cumulable jusqu'à 3 fois.
+		De plus, vos coups critiques au corps à corps infligent une brûlure de lumière persistante sur la cible, infligeant %0.2f dégâts de lumière sur 5 tours et lui réduisant son armure de %d.
+		Les dégâts augmentent avec votre Puissance des Sorts.]], "tformat")
+t("Flash of the Blade", "Éclat de la lame", "talent name")
 t([[Infuse your two handed weapon with light while spinning around.
 		All creatures in radius one take %d%% weapon damage.
 		In addition while spinning your weapon shines so much it deals %d%% light weapon damage to all foes in radius 2.
-		At level 4 your spinning blade creates a shield that blocks all damage for 1 turn.]], [[Infuse your two handed weapon with light while spinning around.
-		All creatures in radius one take %d%% weapon damage.
-		In addition while spinning your weapon shines so much it deals %d%% light weapon damage to all foes in radius 2.
-		At level 4 your spinning blade creates a shield that blocks all damage for 1 turn.]], "tformat")
---]==]
-
+		At level 4 your spinning blade creates a shield that blocks all damage for 1 turn.]], [[Imprégnez votre arme à deux mains de lumière en tournoyant.
+		Toutes les créatures dans un rayon de 1 subissent %d%% dégâts d'arme.
+		De plus, pendant que vous tournoyez, votre arme brille tellement qu'elle inflige %d%% dégâts d'arme de lumière à tous les ennemis dans un rayon de 2.
+		Au niveau 4, votre lame tournoyante crée un bouclier qui bloque tous les dégâts pendant 1 tour.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/dark-sun.lua"
@@ -19619,28 +19615,28 @@ t([[Your passion for singing the praises of the Moons reaches its zenith.
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/light.lua"
 
-t("Bathe in Light", "Baigner dans la Lumière", "talent name")
--- texte non traduit
---[==[
-t("Healing Light", "Healing Light", "talent name")
+t("Healing Light", "Lumière Guérisseuse", "talent name")
 t([[An invigorating ray of Sunlight shines upon you, healing your body for %d life.
-		The amount healed will increase with your Spellpower.]], [[An invigorating ray of Sunlight shines upon you, healing your body for %d life.
-		The amount healed will increase with your Spellpower.]], "tformat")
+		The amount healed will increase with your Spellpower.]], [[Un rayon de soleil vivifiant vous enveloppe, régénérant votre corps pour %d points de vie.
+		Les points de vie récupérés augmentent avec votre Puissance des Sorts.]], "tformat")
+t("Bathe in Light", "Baigner dans la Lumière", "talent name")
 t([[A magical zone of Sunlight appears around you, healing and shielding all within a radius of %d for %0.2f per turn and increasing healing effects on everyone within by %d%%. The effect lasts for %d turns.
 		Existing damage shields will be added to instead of overwritten and have their duration set to 2 if it isn't higher.
 		If the same shield is refreshed 20 times it will become unstable and explode, removing it.
 		It also lights up the affected area.
-		The amount healed will increase with the Magic stat]], [[A magical zone of Sunlight appears around you, healing and shielding all within a radius of %d for %0.2f per turn and increasing healing effects on everyone within by %d%%. The effect lasts for %d turns.
-		Existing damage shields will be added to instead of overwritten and have their duration set to 2 if it isn't higher.
-		If the same shield is refreshed 20 times it will become unstable and explode, removing it.
-		It also lights up the affected area.
-		The amount healed will increase with the Magic stat]], "tformat")
-t("Barrier", "Barrier", "talent name")
+		The amount healed will increase with the Magic stat]], [[Une zone magique de lumière solaire apparaît autour de vous, soignant et protégeant tous le monde dans un rayon de %d pour %0.2f par tour et augmentant les soins prodigués à tous dans cette zone de %d%%. L'effet dure %d tours.
+		Les points de bouclier de protection existants sont ajoutés au lieu d'être remplacés, et leur durée est fixée à 2 si elle n'est pas supérieure.
+		Si le même bouclier est réinitialisé 20 fois il devient instable et explose, disparaissant ainsi.
+		La zone affectée est également illuminée.
+		Le montant des soins est proportionnel à votre stats de Magie.]], "tformat")
+t("Barrier", "Barrière", "talent name")
 t([[A protective shield forms around you that lasts for up to %d turns and negates %d damage.
- 		The total damage the barrier can absorb will increase with your Spellpower and can crit.]], [[A protective shield forms around you that lasts for up to %d turns and negates %d damage.
- 		The total damage the barrier can absorb will increase with your Spellpower and can crit.]], "tformat")
+ 		The total damage the barrier can absorb will increase with your Spellpower and can crit.]], [[Un bouclier de protection se forme autour de vous et dure jusqu'à %d tours et annule %d dégâts.
+		Les dégâts totaux que la barrière peut absorber augmentent avec votre puissance des sorts et peut être critique.]], "tformat")
+t("Places you under the protection of a ray of sunlight. For %d turns, the light removes a single negative effect from you every turn.", "Vous vous placez sous la protection d'un rayon de soleil. Pendant %d tours, la lumière dissipe un effet négatif par tour.", "tformat")
+-- texte non traduit
+--[==[
 t("Providence", "Providence", "talent name")
-t("Places you under the protection of a ray of sunlight. For %d turns, the light removes a single negative effect from you every turn.", "Places you under the protection of a ray of sunlight. For %d turns, the light removes a single negative effect from you every turn.", "tformat")
 --]==]
 
 
@@ -19682,34 +19678,34 @@ t([[You bind light in a glyph on the floor. All enemies walking over the glyph w
 section "mod-tome/data/talents/celestial/radiance.lua"
 
 t("Radiance", "Rayonnement", "talent name")
-t("Searing Sight", "Présence Eblouissante", "talent name")
--- texte non traduit
---[==[
 t([[You are so infused with sunlight that your body glows permanently in radius %d, even in dark places.
 		Your vision and body adapt to this glow, giving you %d%% blindness resistance, %d%% light resistance, and %d%% light affinity.
 		The light radius overrides your normal light if it is bigger (it does not stack).
-		]], [[You are so infused with sunlight that your body glows permanently in radius %d, even in dark places.
-		Your vision and body adapt to this glow, giving you %d%% blindness resistance, %d%% light resistance, and %d%% light affinity.
-		The light radius overrides your normal light if it is bigger (it does not stack).
+		]], [[Vous êtes tellement imprégné de lumière solaire que votre corps brille en permanence dans un rayon de %d, même dans l'obscurité.
+		Votre vision et votre corps s'adaptent à cette lueur vous conférant une résistance à l'aveuglement de %d%%, une résistance à la lumière de %d%%, et une affinité pour la lumière de %d%%.
+		Le rayon d'action de la lumière remplace votre lumière normale si celui de Rayonnement est plus grand (les effets ne se cumulent pas).
 		]], "tformat")
-t("Judgement", "Judgement", "talent name")
-t("Judgement", "Judgement", "_t")
+t("Judgement", "Jugement", "talent name")
+t("Judgement", "Jugement", "_t")
 t([[Fire a glowing orb of light at each enemy within your Radiance.  Each orb will slowly follow its target until it connects, dealing %d light damage to anything else it contacts along the way.  When the target is reached the orb will explode dealing %d light damage in radius 1 and healing you for 50%% of the damage dealt.
-		All targets struck by your Judgement will be blighted by light, reducing saves by %d, reducing critical power by %d%%, and causing light damage received to splash in radius 2 for %d%% damage against all hostile targets for 4 turns.]], [[Fire a glowing orb of light at each enemy within your Radiance.  Each orb will slowly follow its target until it connects, dealing %d light damage to anything else it contacts along the way.  When the target is reached the orb will explode dealing %d light damage in radius 1 and healing you for 50%% of the damage dealt.
-		All targets struck by your Judgement will be blighted by light, reducing saves by %d, reducing critical power by %d%%, and causing light damage received to splash in radius 2 for %d%% damage against all hostile targets for 4 turns.]], "tformat")
+		All targets struck by your Judgement will be blighted by light, reducing saves by %d, reducing critical power by %d%%, and causing light damage received to splash in radius 2 for %d%% damage against all hostile targets for 4 turns.]], [[Projetez une sphère de lumière incandescente sur chaque ennemi dans votre Rayonnement. Chaque sphère suivra lentement sa cible jusqu'à l'atteindre, infligeant %d dégâts de lumière à tout ce qu'elle touche. Une fois la cible atteinte, la sphère explose, infligeant %d dégâts de lumière dans un rayon de 1 et vous soignant de 50%% des dégâts infligés.
+		Toutes les cibles touchées par votre Jugement seront aveuglés par la lumière, ce qui réduira leurs sauvegardes de %d, leur puissance critique de %d%%, et infligera des dégâts de lumière de zone dans un rayon de 2 pour %d%% dégâts à toutes les cibles hostiles pendant 4 tours.]], "tformat")
+t("Searing Sight", "Présence Éblouissante", "talent name")
 t([[Your Radiance is so powerful it burns all foes caught in it, dealing %0.1f light damage to all foes caught inside every turn.
 		Each enemy effected has a %d%% chance of being dazed and blinded by the light for 3 turns. The daze and blind can be applied to each enemy at most once every 7 turns.
-		The damage increases with your Spellpower.]], [[Your Radiance is so powerful it burns all foes caught in it, dealing %0.1f light damage to all foes caught inside every turn.
-		Each enemy effected has a %d%% chance of being dazed and blinded by the light for 3 turns. The daze and blind can be applied to each enemy at most once every 7 turns.
-		The damage increases with your Spellpower.]], "tformat")
-t("Illumination", "Illumination", "talent name")
+		The damage increases with your Spellpower.]], [[Votre Rayonnement est si puissant qu'il brûle tous les ennemis pris dans son rayon, leur infligeant %0.1f dégâts de lumière à chaque tour.
+		Chaque ennemi affecté a %d%% de chances d'être étourdi et aveuglé par la lumière pendant 3 tours. L'étourdissement et l'aveuglement ne peuvent être appliqués à chaque ennemi qu'une fois tous les 7 tours.
+		Les dégâts augmentent avec votre Puissance des Sorts.]], "tformat")
 t([[The light of your Radiance allows you to see that which would normally be unseen and strike that which would normally be protected.
 		All enemies in your Radiance aura have their invisibility and stealth power reduced by %d; all actors affected by illumination have their defense reduced by %d as well as all evasion bonuses from being unseen negated.
 		In addition, your light damage is increased by %d%% and your strikes ignore %d%% of the light resistance of your targets.
-		The invisibility, stealth power, and defense reductions increase with your Spellpower.]], [[The light of your Radiance allows you to see that which would normally be unseen and strike that which would normally be protected.
-		All enemies in your Radiance aura have their invisibility and stealth power reduced by %d; all actors affected by illumination have their defense reduced by %d as well as all evasion bonuses from being unseen negated.
-		In addition, your light damage is increased by %d%% and your strikes ignore %d%% of the light resistance of your targets.
-		The invisibility, stealth power, and defense reductions increase with your Spellpower.]], "tformat")
+		The invisibility, stealth power, and defense reductions increase with your Spellpower.]], [[La lumière de votre Rayonnement vous permet de voir l'invisible et de frapper les cibles qui ne peuvent normalement être vu.
+		Tous les ennemis dans l'aura de votre Rayonnement voient leur invisibilité et leur furtivité réduites de %d. Tous les acteurs affectés par la lumière voient leur défense réduite de %d et leurs bonus d'esquive liés à l'invisibilité annulés.
+		De plus, vos dégâts de lumière sont augmentés de %d%% et vos attaques ignorent %d%% de la résistance à la lumière de vos cibles.
+		La réduction de l'invisibilité, de la furtivité, et de la défense augmente avec votre Puissance des Sorts.]], "tformat")
+-- texte non traduit
+--[==[
+t("Illumination", "Illumination", "talent name")
 --]==]
 
 
@@ -31034,20 +31030,15 @@ t("skeleton", "squelette", "_t")
 ------------------------------------------------
 section "mod-tome/data/talents.lua"
 
-
--- texte non traduit
---[==[
-t("#LIGHT_STEEL_BLUE#%s (Class Evolution)", "#LIGHT_STEEL_BLUE#%s (Class Evolution)", "tformat")
-t("#SANDY_BROWN#%s (Race Evolution)", "#SANDY_BROWN#%s (Race Evolution)", "tformat")
-t("a spell", "a spell", "_t")
-t("a mind power", "a mind power", "_t")
-t("a nature gift", "a nature gift", "_t")
-t("an antimagic ability", "an antimagic ability", "_t")
-t("a summon power", "a summon power", "_t")
-t("necromancy", "necromancy", "_t")
-t("usable during Aether Avatar", "usable during Aether Avatar", "_t")
---]==]
-
+t("#LIGHT_STEEL_BLUE#%s (Class Evolution)", "#LIGHT_STEEL_BLUE#%s (Évolution de Classe)", "tformat")
+t("#SANDY_BROWN#%s (Race Evolution)", "#SANDY_BROWN#%s (Évolution de Race)", "tformat")
+t("a spell", "un sort", "_t")
+t("a mind power", "un pouvoir mental", "_t")
+t("a nature gift", "un don de la nature", "_t")
+t("an antimagic ability", "une capacité anti-magie", "_t")
+t("a summon power", "un pouvoir d'invocation", "_t")
+t("necromancy", "nécromancie", "_t")
+t("usable during Aether Avatar", "utilisable durant Avatar d'Ether", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/texts/intro-archmage.lua"
@@ -33650,6 +33641,7 @@ Talents :
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-rogue_skirmisher.lua"
 
+t("New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "Nouvelle Classe: #LIGHT_GREEN#Tirailleur (Brigand)", "_t")
 t([[In Maj'Eyal threats are everywhere when you walk the wildlands, some rogues prefer to forgo the use of stealth instead using their cunning skills to kill silently from afar with a sling well protected with a buckler.
 
 You have learned the power of counterstriking from afar and can now create characters with the #LIGHT_GREEN#Skirmisher class#WHITE#.
@@ -33676,11 +33668,6 @@ Caractéristiques de classe:#YELLOW#
 
 Les Tirailleurs utilisent l'endurance pour alimenter leurs techniques, qui se reconstitue lentement avec le temps.
 ]], "_t")
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-undead_ghoul.lua"
@@ -36915,7 +36902,7 @@ t("shiaak", "shiaak", "entity subtype")
 ------------------------------------------------
 section "mod-tome/data/zones/ardhungol/objects.lua"
 
-t("diary page", "page de journal personel", "entity name")
+t("diary page", "page de journal personnel", "entity name")
 t("A page of a diary.", "La page d'un journal.", "_t")
 t("scrap of paper", "morceau de papier", "entity name")
 t("A scrap of paper.", "Un morceau de papier.", "_t")
@@ -37887,9 +37874,9 @@ section "mod-tome/data/zones/high-peak/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("Renegade mages from Angolwen, the Sorcerers have set up in the Far East, slowly growing corrupt. Now they must be stopped.", "Mages renégats originaires d'Angolwen, les Sorciers se sont installés en Extrême-Orient, où ils sombrent peu à peu dans la corruption. Il faut désormais les arrêter.", "_t")
 t("human", "humain", "entity subtype")
-t("Fallen Sun Paladin Aeryn", "Aeryn, Paladin Solaire Déchu", "entity name")
+t("Fallen Sun Paladin Aeryn", "Aeryn, Paladine Solaire Déchu", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
-t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
+t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "entity name")
 t("A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "Une créature se dresse devant vous, dotée de longs appendices tentaculaires et d'une petite protubérance à la place de la tête. Une aura de puissance intense émane de cet être, une puissance que vous n'avez jamais ressentie auparavant. Il ne peut s'agir que d'un Sher'Tul. Un Sher'Tul vivant!", "_t")
 -- texte non traduit
 --[==[
@@ -39624,7 +39611,7 @@ section "mod-tome/data/zones/town-gates-of-morning/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
-t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
+t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
 t("You find a note containing the location of the Orc Prides on Aeryn's body.", "Sur le corps d'Aeryn vous trouvez une note indiquant l'emplacement des Fiertés Orcs.", "logPlayer")
 
@@ -40104,7 +40091,7 @@ t("Rune of Enlightenment: Shove", "Rune de l'Éveil: Poussée", "entity name")
 t("Teaches the player 'Shove'.", "Apprend au joueur 'Poussée'.", "_t")
 t("#VIOLET#You have learned the talent Shove.", "#VIOLET#Vous avez appris le talent Poussée.", "logPlayer")
 t("#VIOLET#The sound of an ancient door grinding open echoes down the tunnel!", "#VIOLET#Le grincement d'une vieille porte résonne dans le tunnel!", "logPlayer")
-t("Rune of Enlightenment: Mana Gale", "Rune d'Illumination: Coup de vent de Mana", "entity name")
+t("Rune of Enlightenment: Mana Gale", "Rune de l'Éveil: Coup de vent de Mana", "entity name")
 t("Teaches the player 'Mana Gale'.", "Apprend au joueur \"Coup de vent de Mana\".", "_t")
 t("#VIOLET#You have learned the talent Mana Gale.", "#VIOLET#Vous avez apprit le talent Coup de vent de Mana.", "logPlayer")
 t("Rune of Enlightenment: Telekinetic Punt", "Rune de l'Éveil: Coup de pied Télékinétique", "entity name")
@@ -40809,15 +40796,16 @@ t("Activated", "Activé", "_t")
 t("Feedback cost: ", "Coût de Rétroaction: ", "_t")
 t("Fortress Energy cost: ", "Coût d'Energie de Forteresse: ", "_t")
 t("Sustain feedback cost: ", "Coût de rétroaction soutenu: ", "_t")
-t("cost", "coût", "_t")
-t("gain", "gagne", "_t")
-t("Sustain %s cost: ", "Coût %s soutenu: ", "tformat")
+t("%s %s: ", "%s: %s: ", "tformat")
+t("cost", "Coût", "_t")
+t("gain", "Gagné", "_t")
+t("Sustain %s cost: ", "Coût soutenu en %s: ", "tformat")
 t("Generates", "Produits", "_t")
 t("Removes", "Supprime", "_t")
 t("Drains", "Vole", "_t")
 t("Replenishes", "Remplis", "_t")
 t("Range: ", "Portée: ", "_t")
-t("melee/personal", "melée/personel", "_t")
+t("melee/personal", "melée/personnelle", "_t")
 t("%sCooldown: ", "%sTemps de recharge: ", "tformat")
 t("Fixed ", "Fixé ", "_t")
 t("Travel Speed: ", "Propagation: ", "_t")
@@ -40907,7 +40895,6 @@ t("Classes: ", "Classes: ", "_t")
 t("Faction: ", "Faction: ", "_t")
 t("%s%d %s#LAST#", "%s%d %s#LAST#", "tformat")
 t("%s %s #{bold}##ORANGE#%s#LAST#.#{normal}#", "%s %s #{bold}##ORANGE#%s#LAST#.#{normal}#", "logSeen")
-t("%s %s: ", "%s %s: ", "tformat")
 t("Description: ", "Description: ", "_t")
 --]==]
 
@@ -43923,8 +43910,8 @@ t("A generic talent allows you to perform various utility actions and improve yo
 t("Class talent tree", "Arbres de talents de classe", "_t")
 t("A class talent allows you to perform new combat moves, cast spells, and improve your character. It represents the core function of your class. You gain one point every level and two every 5th level. You may also find trainers or artifacts that allow you to learn more.", "Un talent de classe vous permet d'effectuer de nouveaux mouvements de combat, de lancer des sorts et d'améliorer votre personnage. Il représente la fonction principale de votre classe. Vous gagnez un point à chaque niveau et deux tous les cinq niveaux. Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettront d'en savoir plus.", "_t")
 t("This talent was recently learnt; you can still unlearn it.", "Ce talent a été récemment appris; vous pouvez toujours le désapprendre.", "_t")
-t("The last %d %s talents you learnt are always unlearnable.", "Les derniers talents %d %s que vous avez appris sont toujours désapprenables.", "tformat")
-t(" generic", " générique", "_t")
+t("The last %d %s talents you learnt are always unlearnable.", "Les derniers %d talents %s que vous avez appris sont toujours désapprenables.", "tformat")
+t(" generic", "générique", "_t")
 t(" class", " classe", "_t")
 t("This talent can alter the world in a permanent way; as such, you can never unlearn it once known.", "Ce talent peut changer le monde de manière permanente; en tant que tel, vous ne pourrez jamais le désapprendre une fois connu.", "_t")
 t("This talent was recently learnt; you can still unlearn it if you are out of combat or in a quiet area like a #{bold}#town#{normal}#.", "Ce talent a été récemment appris; vous pouvez toujours le désapprendre si vous êtes hors combat ou dans un endroit calme comme une #{bold}#ville#{normal}#.", "_t")
@@ -44029,7 +44016,7 @@ Mouse: #00FF00#Left click#FFFFFF# to increase a stat; #00FF00#right click#FFFFFF
 Souris: #00FF00#clic gauche#FFFFFF# pour augmenter la stat; #00FF00#clic droit#FFFFFF# pour diminuer la stat.
 ]], "_t")
 t("Value", "Valeur", "_t")
-t("Spellpower", "Puissance de sort", "_t")
+t("Spellpower", "Puissance des sorts", "_t")
 t("Spellcrit", "Crit de sort", "_t")
 t("Not enough stat points", "Pas assez de points de stats", "_t")
 t("You have no stat points left!", "Vous n'avez plus de points de stats!", "_t")
