@@ -337,11 +337,10 @@ t("Your mind hungers for pain and suffering! Feed it!", "Your mind hungers for p
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/psychic-blows.lua"
 
-
+t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("You are disarmed.", "You are disarmed.", "logPlayer")
-t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
 t("Psychic Crush", "Psychic Crush", "talent name")
 t("%s's Psychic Image", "%s's Psychic Image", "tformat")
 t("A temporary psionic imprint.", "A temporary psionic imprint.", "_t")

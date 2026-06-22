@@ -776,11 +776,11 @@ t([[By gorging yourself on up to %d stacks of Bleak Outcome from a creature, you
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
 
+t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
 t("%s resists the silence!", "%s resiste au silence!", "logSeen")
 -- texte non traduit
 --[==[
 t("Draining Assault", "Draining Assault", "talent name")
-t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
 t("Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "tformat")
 t("Fiery Grasp", "Fiery Grasp", "talent name")
 t("%s resists the grasp!", "%s resists the grasp!", "logSeen")
@@ -840,7 +840,8 @@ t("Demon", "Demon", "_t")
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
 
-
+t("%s is cured!", "%s est guéri!", "logSeen")
+t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Flame Bolts", "Flame Bolts", "talent name")
@@ -848,7 +849,6 @@ t([[Randomly (%d%% chance) hurls up to %d flame bolts dealing %0.2f fire damage 
 		The damage will increase with your Spellpower.]], [[Randomly (%d%% chance) hurls up to %d flame bolts dealing %0.2f fire damage to foes in sight when you hit in melee.
 		The damage will increase with your Spellpower.]], "tformat")
 t("Fiery Cleansing", "Fiery Cleansing", "talent name")
-t("%s is cured!", "%s is cured!", "logSeen")
 t("Deals 20%% of your total life to cleanse your afflictions, removing up to %d physical, mental or magical detrimental effects.", "Deals 20%% of your total life to cleanse your afflictions, removing up to %d physical, mental or magical detrimental effects.", "tformat")
 t("Farstrike", "Farstrike", "talent name")
 t("You send your weapon flying to the target, dealing %d%% weapon damage.", "You send your weapon flying to the target, dealing %d%% weapon damage.", "tformat")
@@ -894,7 +894,6 @@ t([[Whenever you are on an unlit grid you can meld with the shadows, gaining %d 
 		Moving will cancel the effect.
 		Stealth power depends on Spellpower.]], "tformat")
 t("Blood Shield", "Blood Shield", "talent name")
-t("You require a weapon and a shield to use this talent.", "You require a weapon and a shield to use this talent.", "logPlayer")
 t([[By channeling doom forces in your shield you constantly apply 15%% of its block value as a flat damage reduction against all damage.
 		Whenever you are hit in melee your shield retaliates automatically for %d%% of its block value as fire and darkness damage.]], [[By channeling doom forces in your shield you constantly apply 15%% of its block value as a flat damage reduction against all damage.
 		Whenever you are hit in melee your shield retaliates automatically for %d%% of its block value as fire and darkness damage.]], "tformat")
@@ -1028,6 +1027,7 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
 
+t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 -- texte non traduit
 --[==[
@@ -1044,7 +1044,6 @@ t("#CRIMSON#You extract a %s and add it to your inventory.", "#CRIMSON#You extra
 t("#CRIMSON#You extract a %s and bind it to your %s.", "#CRIMSON#You extract a %s and bind it to your %s.", "logPlayer")
 t("#CRIMSON#You feed vim into your %s, increasing its level to %d and healing it.", "#CRIMSON#You feed vim into your %s, increasing its level to %d and healing it.", "logPlayer")
 t("Demon Seed", "Demon Seed", "talent name")
-t("You require a weapon and a shield to use this talent.", "You require a weapon and a shield to use this talent.", "logPlayer")
 t([[Strike a blow with your weapon for %d%% blight damage.
 		If the attack hits a demonic seed tries to take hold inside your foe and you follow up with a shield strike dealing %d%% damage and dazing your target for %d turns.
 		
@@ -1205,11 +1204,10 @@ t([[When Dread End creates pools of darkness you can focus your raging thoughts 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/doom-shield.lua"
 
-
+t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Osmosis Shield", "Osmosis Shield", "talent name")
-t("You require a weapon and a shield to use this talent.", "You require a weapon and a shield to use this talent.", "logPlayer")
 t("#SLATE#(%d turned into osmosis)#LAST#", "#SLATE#(%d turned into osmosis)#LAST#", "tformat")
 t([[You infuse your shield with the energies of Urh'Rok, bringing about a magical shield that heals you for the first points of all damage you receive (based on your shield's block value) over 3 turns. This effect stacks.
 		Amount is 5 + %d%% of your shield block value (currently %d).
@@ -1297,7 +1295,8 @@ t("Restore yourself to full health, but take damage equal to the damage healed o
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua"
 
-
+t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
+t("%s resists the shield bash!", "%s résiste a la frappe au bouclier!", "logSeen")
 -- texte non traduit
 --[==[
 t("Flame Leash", "Flame Leash", "talent name")
@@ -1321,8 +1320,6 @@ t([[Using demonic forces you create a link of pain from a source creature to a v
 		Each time the source creature takes damage the victim takes %d%% of the damage.
 		If the victim dies from the effect you gain a burst of energy, reducing all remaining cooldowns by 1.]], "tformat")
 t("Demon Horns", "Demon Horns", "talent name")
-t("You require a weapon and a shield to use this talent.", "You require a weapon and a shield to use this talent.", "logPlayer")
-t("%s resists the shield bash!", "%s resists the shield bash!", "logSeen")
 t([[Demon horns temporarily grow on your shield as you bash a foe with it for %d%% damage.
 		If the attack hits the creature is impaled by the horns, causing it to bleed black blood for 50%% of the damage done as darkness over 5 turns.
 		Any time you damage this foe in melee while it bleeds you get healed for %d (this can only happen once per turn).
@@ -1427,7 +1424,7 @@ t([[You chant the destruction of Mal'Rok, the demon's homeworld.
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/torture.lua"
 
-
+t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Incinerating Blows", "Incinerating Blows", "talent name")
@@ -1441,7 +1438,6 @@ t([[The power of the Fearscape infuses your weapon: Your melee attacks will deal
 		For the purposes of applying the stun, you have %d bonus spellpower.
 		The damage will increase with your Spellpower.]], "tformat")
 t("Abduction", "Abduction", "talent name")
-t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
 t("Hits the target doing %d%% weapon damage. If the attack hits, you pull the target in and strike them again, dealing another %d%% weapon damage.", "Hits the target doing %d%% weapon damage. If the attack hits, you pull the target in and strike them again, dealing another %d%% weapon damage.", "tformat")
 t("Fiery Torment", "Fiery Torment", "talent name")
 t([[Hits the target with your weapon doing %d%% weapon damage. If the attack hits, the target is afflicted with Fiery Torment for %d turns, reducing their fire resistance by %d%%.
@@ -1461,11 +1457,12 @@ t([[Your strikes are imbued with a vile power that extends your victim's sufferi
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/wrath.lua"
 
+t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
 t("Destroyer", "Destructeur", "talent name")
 -- texte non traduit
 --[==[
 t("Obliterating Smash", "Obliterating Smash", "talent name")
-t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.", "logPlayer")
 t([[Swing your weapon with incredible force, striking all enemies in a radius %d semicircle, dealing %d%% weapon damage to all targets.
 		Starting from talent level 5, all targets hit will have their armour and saves reduced by %d.
 		This attack can not miss.]], [[Swing your weapon with incredible force, striking all enemies in a radius %d semicircle, dealing %d%% weapon damage to all targets.
@@ -1474,7 +1471,6 @@ t([[Swing your weapon with incredible force, striking all enemies in a radius %d
 t("Detonating Charge", "Detonating Charge", "talent name")
 t("You require a two handed weapon and being able to move to use this talent.", "You require a two handed weapon and being able to move to use this talent.", "logPlayer")
 t("You can not do that currently.", "You can not do that currently.", "logPlayer")
-t("You are too close to build up momentum!", "You are too close to build up momentum!", "logPlayer")
 t([[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
 		If the attack hits you release a massive burst of fire in radius %d, knocking away all enemies except your target and dealing %d damage.
 		You must charge from at least 2 tiles away.]], [[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
