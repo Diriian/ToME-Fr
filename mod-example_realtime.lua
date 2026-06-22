@@ -15,7 +15,7 @@ t("%s", "%s", "logSeen")
 ------------------------------------------------
 section "mod-example_realtime/class/Game.lua"
 
-t("There is no way out of this level here.", "Il n'y a pas de moyen de sortir de ce niveau ici.", "log")
+t("There is no way out of this level here.", "Il n'y a pas de moyen de sortir de ce niveau.", "log")
 t("Saving game...", "Sauvegarde du jeu...", "log")
 
 ------------------------------------------------

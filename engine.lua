@@ -4,32 +4,32 @@ section ".always_merge"
 t("3-head", "3 têtes", "nil")
 t("3-headed hydra", "hydre à 3 têtes", "nil")
 t("Agrimley the hermit", "Agrimley l'ermite", "nil")
-t("Allied Kingdoms", "Royaumes Alliés", "nil")
+t("Allied Kingdoms", "Royaumes alliés", "nil")
 t("Assassin lair", "Repaire des assassins", "nil")
-t("Control Room", "Salle de Contrôle", "nil")
-t("Cosmic Fauna", "Faune Cosmique", "nil")
+t("Control Room", "Salle de contrôle", "nil")
+t("Cosmic Fauna", "Faune cosmique", "nil")
 t("Dreadfell", "Tombeffroie", "nil")
 t("Enemies", "Ennemis", "nil")
-t("Experimentation Room", "Salle d'Expérimentation", "nil")
+t("Experimentation Room", "Salle d'expérimentation", "nil")
 t("Exploratory Farportal", "Portail Lointain Exploratoire", "nil")
 t("FINGER", "DOIGT", "nil")
-t("Fearscape", "Plan de la Peur", "nil")
-t("Hall of Reflection", "Salle des Possibles", "nil")
+t("Fearscape", "Plan de la peur", "nil")
+t("Hall of Reflection", "Salle des possibles", "nil")
 t("Horrors", "Horreurs", "nil")
-t("Iron Throne", "Trône de Fer", "nil")
-t("Keepers of Reality", "Gardiens de la Réalité", "nil")
+t("Iron Throne", "Trône de fer", "nil")
+t("Keepers of Reality", "Gardiens de la réalité", "nil")
 t("MAINHAND", "MAIN PRINCIPALE", "nil")
 t("Marus of Elvala", "Marus d'Elvala", "nil")
 t("OFFHAND", "MAIN SECONDAIRE", "nil")
-t("Orc Pride", "La Fierté Orque", "nil")
-t("Portal Room", "Salle du Portail", "nil")
-t("Sandworm Burrowers", "Vers des Sables Fouisseurs", "nil")
+t("Orc Pride", "La horde Orque", "nil")
+t("Portal Room", "Salle du portail", "nil")
+t("Sandworm Burrowers", "Vers des sables fouisseurs", "nil")
 t("Slavers", "Esclavagistes", "nil")
 t("Sorcerers", "Sorciers", "nil")
 t("Stire of Derth", "Aiguille de Derth", "nil")
 t("Storage Room", "Entrepôt", "nil")
 t("Sunwall", "Mur du soleil", "nil")
-t("Temple of Creation", "Temple de la Création", "nil")
+t("Temple of Creation", "Temple de la création", "nil")
 t("The Way", "La Voie", "nil")
 t([[Today is the %s %s of the %s year of the Age of Ascendancy of Maj'Eyal.
 The time is %02d:%02d.]], [[Aujourd'hui nous sommes le %s %s de la %s année de l'Ère de l'Ascension de Maj'Eyal.
@@ -488,7 +488,7 @@ t("Please wait while loading the zone...", "Veuillez patienter pendant le charge
 t("Loading level", "Chargement du niveau", "_t")
 t("Please wait while loading the level...", "Veuillez patienter pendant le chargement du niveau s'il vous plait...", "_t")
 t("Loading entity", "Chargement de l'entité", "_t")
-t("Please wait while loading the entity...", "Veuillez patienter pendant le chargement de l'entité s'il vous plait...", "_t")
+t("Please wait while loading the entity...", "Veuillez patienter pendant le chargement du niveau s'il vous plait...", "_t")
 
 ------------------------------------------------
 section "engine/engine/SavefilePipe.lua"
@@ -553,9 +553,9 @@ t("The server does not know about this player.", "Le serveur ne sait rien sur ce
 section "engine/engine/Zone.lua"
 
 t("Loading level", "Chargement du niveau", "_t")
-t("Please wait while loading the level... ", "Veuillez patienter pendant le chargement du niveau s'il vous plait... ", "_t")
+t("Please wait while loading the level... ", "Patientez pendant le chargement du niveau s'il vous plait... ", "_t")
 t("Generating level", "Génération du niveau", "_t")
-t("Please wait while generating the level... ", "Veuillez patienter pendant la génération du niveau s'il vous plait... ", "_t")
+t("Please wait while generating the level... ", "Patientez pendant la génération du niveau s'il vous plait... ", "_t")
 
 ------------------------------------------------
 section "engine/engine/ai/talented.lua"

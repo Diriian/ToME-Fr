@@ -132,11 +132,11 @@ t("Skin", "Peau", "birth facial category")
 t("Facial features", "Modifications faciales", "birth facial category")
 t("Tatoos", "Tatouages", "birth facial category")
 t("Special", "Spécial", "birth facial category")
-t("Skin Color 1", "Couleur de peau 1", "_t")
-t("Skin Color 2", "Couleur de peau 2", "_t")
-t("Skin Color 3", "Couleur de peau 3", "_t")
-t("Skin Color 4", "Couleur de peau 4", "_t")
-t("Skin Color 5", "Couleur de peau 5", "_t")
+t("Skin Color 1", "Couleur de Peau 1", "_t")
+t("Skin Color 2", "Couleur de Peau 2", "_t")
+t("Skin Color 3", "Couleur de Peau 3", "_t")
+t("Skin Color 4", "Couleur de Peau 4", "_t")
+t("Skin Color 5", "Couleur de Peau 5", "_t")
 t("Tatoos 1", "Tatouages 1", "_t")
 t("Tatoos 2", "Tatouages 2", "_t")
 t("Tatoos 3", "Tatouages 3", "_t")
@@ -189,22 +189,22 @@ t("Undead", "Mort-vivant", "_t")
 t("Grave strength, dread will, this flesh cannot stay still. Kings die, masters fall, we will outlast them all.", "La force de la terreur, la volonté de la tombe, cette chair ne peux reposer. Les rois meurent, les maîtres tombent, nous allons tous les surpasser.", "_t")
 t("Undead are humanoids (Humans, Elves, Dwarves, ...) that have been brought back to life by the corruption of dark magics.", "Les morts-vivants sont des humanoïdes (Humains, Elfes, Nains, ...) qui ont été ramenés à la vie par la corruption de magies noires.", "_t")
 t("Undead can take many forms, from ghouls to vampires and liches.", "Les mort-vivants peuvent prendre plusieurs formes, de la simple goule aux terribles vampires ou liches.", "_t")
-t("Skin Color 1", "Couleur de peau 1", "_t")
-t("Skin Color 2", "Couleur de peau 2", "_t")
-t("Skin Color 3", "Couleur de peau 3", "_t")
-t("Skin Color 4", "Couleur de peau 4", "_t")
-t("Skin Color 5", "Couleur de peau 5", "_t")
-t("Skin Color 6", "Couleur de peau 6", "_t")
-t("Skin Color 7", "Couleur de peau 7", "_t")
+t("Skin Color 1", "Couleur de Peau 1", "_t")
+t("Skin Color 2", "Couleur de Peau 2", "_t")
+t("Skin Color 3", "Couleur de Peau 3", "_t")
+t("Skin Color 4", "Couleur de Peau 4", "_t")
+t("Skin Color 5", "Couleur de Peau 5", "_t")
+t("Skin Color 6", "Couleur de Peau 6", "_t")
+t("Skin Color 7", "Couleur de Peau 7", "_t")
 t("Beard 1", "Barbe 1", "_t")
 t("Beard 2", "Barbe 2", "_t")
-t("Redhead Beard", "Barbe rousse", "_t")
+t("Redhead Beard", "Barbe Rousse", "_t")
 t("Hair 1", "Cheveux 1", "_t")
 t("Hair 2", "Cheveux 2", "_t")
 t("Hair 3", "Cheveux 3", "_t")
 t("Hair 4", "Cheveux 4", "_t")
-t("Redhead Hair 1", "Cheveux roux 1", "_t")
-t("Redhead Hair 2", "Cheveux roux 2", "_t")
+t("Redhead Hair 1", "Cheveux Roux 1", "_t")
+t("Redhead Hair 2", "Cheveux Roux 2", "_t")
 t("- bleeding immunity", "- immunité au saignement", "_t")
 t("- fear immunity", "- immunité à la peur", "_t")
 t("- no need to breathe", "- pas besoin de respirer", "_t")
@@ -247,15 +247,15 @@ t("Skin", "Peau", "birth facial category")
 t("Hairs", "Cheveux", "birth facial category")
 t("Facial features", "Modifications faciales", "birth facial category")
 t("Special", "Spécial", "birth facial category")
-t("Skin Color 1", "Couleur de peau 1", "_t")
-t("Skin Color 2", "Couleur de peau 2", "_t")
-t("Skin Color 3", "Couleur de peau 3", "_t")
-t("Skin Color 4", "Couleur de peau 4", "_t")
-t("Skin Color 5", "Couleur de peau 5", "_t")
-t("Skin Color 6", "Couleur de peau 6", "_t")
-t("Skin Color 7", "Couleur de peau 7", "_t")
-t("Skin Color 8", "Couleur de peau 8", "_t")
-t("Skin Color 9", "Couleur de peau 9", "_t")
+t("Skin Color 1", "Couleur de Peau 1", "_t")
+t("Skin Color 2", "Couleur de Peau 2", "_t")
+t("Skin Color 3", "Couleur de Peau 3", "_t")
+t("Skin Color 4", "Couleur de Peau 4", "_t")
+t("Skin Color 5", "Couleur de Peau 5", "_t")
+t("Skin Color 6", "Couleur de Peau 6", "_t")
+t("Skin Color 7", "Couleur de Peau 7", "_t")
+t("Skin Color 8", "Couleur de Peau 8", "_t")
+t("Skin Color 9", "Couleur de Peau 9", "_t")
 t("Hair 1", "Cheveux 1", "_t")
 t("Hair 2", "Cheveux 2", "_t")
 t("Beard 1", "Barbe 1", "_t")
@@ -4497,6 +4497,7 @@ t("Summons the starscape in the surrounding area in a radius of %d. For %d turns
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/npcs.lua"
 
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 -- texte non traduit
@@ -4517,7 +4518,6 @@ t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the
 		Accuracy reduction chance increases with your Physical Power.]], "tformat")
 t("Sandrush", "Sandrush", "talent name")
 t("@Source@ dives in the sand!", "@Source@ dives in the sand!", "_t")
-t("You are too close to build up momentum!", "You are too close to build up momentum!", "logPlayer")
 t([[Dive into the sand and rush towards your target at up to range %d, gaining a free attack if you reach it.
 		At the exit point, up to 9 sand pits will appear that last for %d turns (based on your Strength).
 		You must rush from at least 2 tiles away.]], [[Dive into the sand and rush towards your target at up to range %d, gaining a free attack if you reach it.
@@ -4575,6 +4575,7 @@ t("Mind Controlled Yeti", "Mind Controlled Yeti", "talent name")
 section "tome-orcs/data/talents/misc/objects.lua"
 
 t("%s resists!", "%s résiste!", "logSeen")
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
 -- texte non traduit
 --[==[
 t("steam", "steam", "talent category")
@@ -4603,7 +4604,6 @@ Damage dealt by this talent is increased by half your critical multiplier, if do
 Damage dealt by this talent is increased by half your critical multiplier, if doing so would kill the target.]], "tformat")
 t("Rocket Smash", "Rocket Smash", "talent name")
 t("@Source@ rockets forward!", "@Source@ rockets forward!", "_t")
-t("You are too close to build up momentum!", "You are too close to build up momentum!", "logPlayer")
 t([[Dash forward using rockets.
 		If the spot is reached and occupied, you will perform a free melee attack against the target there and knock them back 4 spaces as well as anyone else they collide with.
 		This attack does 180% weapon damage.
@@ -5749,6 +5749,7 @@ t([[Your cunning and dexterity allow you to fire incredible trick shots that can
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/heavy-weapons.lua"
 
+t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
@@ -5815,7 +5816,6 @@ t("%s resists the disarm!", "%s resists the disarm!", "logSeen")
 t("Fire two chemical flechettes, dealing %d%% weapon damage as acid and generating %d steam per hit.", "Fire two chemical flechettes, dealing %d%% weapon damage as acid and generating %d steam per hit.", "tformat")
 t("Heavy Weapon Expertise", "Heavy Weapon Expertise", "talent name")
 t("You require heavy ammunition and a heavy weapon to use this talent.", "You require heavy ammunition and a heavy weapon to use this talent.", "logPlayer")
-t("%s resists the stunning blow!", "%s resists the stunning blow!", "logSeen")
 t("%s resists the stunning shock!", "%s resists the stunning shock!", "logSeen")
 t([[Your advanced training unlocks specialised techniques, triggering an effect based on your current heavy weapon at the cost of 1 heavy weapon ammunition.
 #AQUAMARINE#Flamethrower#LAST#: Sweep your flamethrower across the ground, dealing %d%% steamgun damage as fire and raising a length 7 wall of fire for 5 turns. Those inside the wall take %0.2f fire damage and have their fire resistance reduced by %d%% for 2 turns.
@@ -5911,6 +5911,7 @@ section "tome-orcs/data/talents/steam/mecharachnid.lua"
 
 t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
+t("Assault", "Assaut", "_t")
 -- texte non traduit
 --[==[
 t("disarmed", "disarmed", "_t")
@@ -5941,7 +5942,6 @@ The mecharachnid has an inbuilt teleportation device that will recall it to you 
 t("Stormcoil Generator", "Stormcoil Generator", "talent name")
 t("You equip your mecharachnid with a stormcoil generator, a mechanical device that projects a powerful electrical field. On taking a hit greater than 15%% of its maximum life, the excess damage will be reduced by %d%% and converted into energy, giving your mecharachnid %d%% increased global speed for 2 turns.", "You equip your mecharachnid with a stormcoil generator, a mechanical device that projects a powerful electrical field. On taking a hit greater than 15%% of its maximum life, the excess damage will be reduced by %d%% and converted into energy, giving your mecharachnid %d%% increased global speed for 2 turns.", "tformat")
 t("Mecharachnid Chassis", "Mecharachnid Chassis", "talent name")
-t("Assault", "Assault", "_t")
 t("Armament", "Armament", "_t")
 t("#LIGHT_RED#You must not be in combat to change the chassis.", "#LIGHT_RED#You must not be in combat to change the chassis.", "logPlayer")
 t("#LIGHT_RED#Your mecharachnid must not be in combat to change its chassis.", "#LIGHT_RED#Your mecharachnid must not be in combat to change its chassis.", "logPlayer")
@@ -7070,7 +7070,7 @@ t("moss", "mousse", "effect subtype")
 t("maimed", "mutilé", "effect subtype")
 t("Damage reduced by %d%%.", "Dégâts reduits de %d%%.", "tformat")
 t("acid", "dégâts d'acid", "effect subtype")
-t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "La cible a été aspergée d'acide et subit %0.2f de dégâts d'acide par tour.", "tformat")
+t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "La cible a été aspergée d'acide et subit %0.2f dégâts d'acide par tour.", "tformat")
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide!", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
 t("lightning", "foudre", "effect subtype")
@@ -7763,7 +7763,7 @@ section "tome-orcs/data/zones/gates-of-morning/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
-t("High Sun Paladin Aeryn", "Haut Paladin solaire Aeryn", "entity name")
+t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
 t("halfling", "halfelin", "entity subtype")
 t("immovable", "inamovible", "entity type")
@@ -8674,7 +8674,7 @@ t("tunnel weakness", "tunnel weakness", "entity name")
 section "tome-orcs/data/zones/town-kruk/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
-t("A stern-looking guard, he will not let you disturb the town.", "Un garde à l'air sévère, il ne vous laissera pas déranger la ville.", "_t")
+t("A stern-looking guard, he will not let you disturb the town.", "Un garde au visage sévère, il ne vous laissera pas troubler la ville.", "_t")
 -- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")

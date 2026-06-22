@@ -1,23 +1,13 @@
 ------------------------------------------------
 section "tome-items-vault/data/entities/fortress-grids.lua"
 
-
--- texte non traduit
---[==[
-t("Item's Vault Control Orb", "Item's Vault Control Orb", "entity name")
---]==]
-
+t("Item's Vault Control Orb", "Orbe de Contrôle du Coffre aux Objets", "entity name")
 
 ------------------------------------------------
 section "tome-items-vault/init.lua"
 
-
--- texte non traduit
---[==[
-t("Items Vault", "Items Vault", "init.lua long_name")
-t("Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "init.lua description")
---]==]
-
+t("Items Vault", "Coffre aux Objets", "init.lua long_name")
+t("Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "Ajoute l'accès au coffre aux objets (fonctionnalité réservée aux donateurs). Le coffre aux objets vous permet d'envoyer quelques objets dont vous ne voulez plus vers votre profil en ligne et de les récupérer avec d'autres personnages.", "init.lua description")
 
 ------------------------------------------------
 section "tome-items-vault/overload/data/chats/items-vault-command-orb-offline.lua"
