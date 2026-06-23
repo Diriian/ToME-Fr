@@ -336,7 +336,7 @@ t("Freed at least 30 enthralled slaves in the slavers' compound.", "Libérer au 
 t("Lost in translation", "Perdu dans le transfert", "achievement name")
 t("Destroyed the naga portal in the slazish fens and got caught in the after-effect.", "Détruire le portail naga dans le marais de Slazish et s'est fait prendre dans la répercussion.", "_t")
 t("Dreaming my dreams", "Rêver mes rêves", "achievement name")
-t("Experienced and completed all the dreams in the Dogroth Caldera.", "Expérimenter et réaliser tous les rêves de la Caldera de Dogroth.", "_t")
+t("Experienced and completed all the dreams in the Dogroth Caldera.", "Expérimenter et réaliser tous les rêves dans le Chaudron de Dogroth.", "_t")
 t("Oozemancer", "Boumancien", "achievement name")
 t("Destroyed the corrupted oozemancer.", "Vous avez détruit le boumancien corrompu.", "_t")
 t("Lucky Girl", "Femme chanceuse", "achievement name")
@@ -658,8 +658,8 @@ t("Archer", "Archer", "birth descriptor name")
 section "mod-tome/data/birth/classes/wilder.lua"
 
 t("Wilder", "Naturaliste", "birth descriptor name")
-t("Natural abilities can go beyond mere skill. Experience the true powers of nature to learn of its amazing gifts.", "Les facultés naturelles peuvent aller au-delà de nos simples compétences. Découvrez la vrai puissance de la nature pour apprendre de ses formidables dons.", "_t")
-t("Wilders are one with nature, in one manner or another. There are as many different Wilders as there are aspects of nature.", "Les naturalistes ne font qu'un avec la nature, d'une manière ou d'une autre. Il y a plusieurs types de naturalistes tout comme il y a plusieurs aspects dans la nature.", "_t")
+t("Natural abilities can go beyond mere skill. Experience the true powers of nature to learn of its amazing gifts.", "Les capacités naturelles peuvent aller au-delà de nos simples compétences. Découvrez les véritables pouvoirs de la nature pour percer ses formidables dons.", "_t")
+t("Wilders are one with nature, in one manner or another. There are as many different Wilders as there are aspects of nature.", "Les Naturalistes ne font qu'un avec la nature, d'une manière ou d'une autre. Il existe autant de Naturalistes différents tout comme il existe plusieurs aspects de la nature.", "_t")
 t("They can take on the aspects of creatures, summon creatures to them, feel the druidic call, ...", "Ils peuvent prendre la forme de créatures, invoquer des créatures à eux, ressentir l'appel druidique, ...", "_t")
 t("Summoner", "Invocateur", "birth descriptor name")
 t("Not all might comes from within. Hear the invocations of nature, hear its calling power. See that from without we can find our true strengths.", "Tout ne peut pas venir de l'intérieur. Entendez l'appel de la nature, entendez sa puissante attraction. Réalisez que notre vrai force se trouve dans ce qui nous entoure.", "_t")
@@ -672,8 +672,8 @@ t("#LIGHT_BLUE# * +0 Magic, +5 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 Magie,
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
 t("Max summons: %d", "Invocations max: %d", "tformat")
 t("Wyrmic", "Draconien", "birth descriptor name")
-t("Sleek, majestic, powerful... In the path of dragons we walk, and their breath is our breath. See their beating hearts with your eyes and taste their majesty between your teeth.", "Élégants, majestueux, puissants... Sur la voie des dragons nous marchons, et leur souffle est notre souffle. Regardez leurs coeurs battant avec vos yeux et goutez à leur grandeur entre vos dents.", "_t")
-t("Wyrmics are fighters who have learnt how to mimic some of the aspects of the dragons.", "Les draconiens sont des guerriers qui ont appris comment immiter certains aspects des dragons.", "_t")
+t("Sleek, majestic, powerful... In the path of dragons we walk, and their breath is our breath. See their beating hearts with your eyes and taste their majesty between your teeth.", "Élégants, majestueux, puissants... Sur la voie des dragons nous marchons, et leur souffle est notre souffle. Voyez leurs cœurs battants de vos propres yeux et goûtez leur majesté entre vos dents.", "_t")
+t("Wyrmics are fighters who have learnt how to mimic some of the aspects of the dragons.", "Les draconiens sont des combattants qui ont appris comment immiter certains aspects des dragons.", "_t")
 t("They have access to talents normally belonging to the various kind of drakes.", "Ils ont accès à certains talents appartenant normalement à l'espèce très variée des dragonnets.", "_t")
 t("Their most important stats are: Strength and Willpower", "Leurs stats les plus importantes sont: Force et Volonté", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +5 Force, +0 Dextérité, +1 Constitution", "_t")
@@ -694,9 +694,9 @@ and when it comes down to it, gold won't take sides...]], [[Les maux de la Brûl
 mais si peu a changé dans l'esprit des belligérants.
 La nature et les arcanes pourront combler leur division -
 et quand viendra ce moment, l'or ne prendra pas parti...]], "_t")
-t("Stone Wardens are dwarves trained in both the eldritch arts and the worship of nature.", "Les gardiens de pierre sont des nains entraînés à la fois dans les arts occultes et la voie de la nature.", "_t")
-t("While other races are stuck in their belief that arcane forces and natural forces are meant to oppose, dwarves have found a way to combine them in harmony.", "Pendant que les autres sont coincés dans leurs dogmes visant à opposer les forces arcaniques aux forces de la nature, les nains ont trouvé une voie pour les combiner dans l'harmonie.", "_t")
-t("Stone Wardens are armoured fighters, dual wielding shields to channel many of their powers.", "Les gardiens de pierre sont des guerriers en armure, portant les doubles boucliers pour focaliser une grande partie de leurs pouvoirs.", "_t")
+t("Stone Wardens are dwarves trained in both the eldritch arts and the worship of nature.", "Les gardiens de pierre sont des nains entraînés à la fois dans les arts surnaturels et la voie de la nature.", "_t")
+t("While other races are stuck in their belief that arcane forces and natural forces are meant to oppose, dwarves have found a way to combine them in harmony.", "Pendant que les autres races sont coincés dans leurs dogmes visant à opposer les forces arcaniques aux forces de la nature, les nains ont trouvé le moyen de les unir en harmonie.", "_t")
+t("Stone Wardens are armoured fighters, dual wielding shields to channel many of their powers.", "Les gardiens de pierre sont des guerriers en armure, portant deux boucliers pour focaliser une grande partie de leurs pouvoirs.", "_t")
 t("Their most important stats are: Strength, Magic and Willpower", "Leurs stats les plus importantes sont: Force, Magie et Volonté", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +2 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 Magie, +3 Volonté, +0 Ruse", "_t")
@@ -4455,7 +4455,7 @@ t("%s(%d antimagic)#LAST#", "%s(%d anti-magique)#LAST#", "tformat")
 t("%s(%d flat reduction)#LAST#", "%s(%d réduction fixe)#LAST#", "tformat")
 t("You end your target with a crushing blow!", "Vous achevez votre cible avec un coup dévastateur!", "logPlayer")
 t("#LIGHT_GREY#(%d resilience)#LAST#", "#LIGHT_GREY#(%d résistance)#LAST#", "tformat")
-t("#CRIMSON##Source# damages %s through Martyrdom!", "#CRIMSON##Source# dégâts %s par le biais de Martyrdom!", "delayedLogMessage")
+t("#CRIMSON##Source# damages %s through Martyrdom!", "#CRIMSON##Source# dégâts %s par le biais de Supplice!", "delayedLogMessage")
 t("#CRIMSON##Source# reflects damage back to #Target#!", "#CRIMSON##Source# renvoie des dégâts vers #Target#!", "delayedLogMessage")
 t("#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "#Source##LIGHT_GREEN# SOIGNE#LAST# de %s %s #LAST# dégâts!", "tformat")
 t("cosmetic", "dégâts cosmétique", "damage type")
@@ -5018,7 +5018,7 @@ t("%s (necrotic air)", "%s (air nécrotique)", "tformat")
 ------------------------------------------------
 section "mod-tome/data/general/events/noxious-caldera.lua"
 
-t("Way into a volcanic caldera", "Chemin dans une caldeira volcanique", "_t")
+t("Way into a volcanic caldera", "Chemin vers un chaudron volcanique", "_t")
 t("Ground is shaking", "La terre tremble", "_t")
 t("You feel a tremor in the ground for a few seconds and it disappears...", "Vous ressentez une secousse dans le sol pendant quelques secondes et elle disparaît...", "_t")
 
@@ -16611,7 +16611,7 @@ that drowned her at last.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/noxious-caldera.lua"
 
-t("dogroth caldera", "caldera de dogroth", "newLore category")
+t("dogroth caldera", "chaudron de dogroth", "newLore category")
 t("tattered paper scrap", "morceau de papier déchiré", "_t")
 -- texte non traduit
 --[==[
@@ -19259,7 +19259,7 @@ t("Weapon of Wrath", "Arme de Colère", "talent name")
 t([[Your weapon attacks burn with righteous fury, dealing %d%% of your lost HP as additional Fire damage (up to %d, Current:  %d).
 		Targets struck are also afflicted with a Martyrdom effect that causes them to take %d%% of all damage they deal for 4 turns.
 		The bonus damage can only occur once per turn.]], [[Vos attaques d'arme brûlent de la fureur du juste, infligeant %d%% de vos PV perdus en tant que dégâts de feu supplémentaires (jusqu'à %d, actuellement: %d).
-		Les cibles touchées subissent également un effet de Martyrdom qui leur fait subir %d%% des dégâts qu'elles infligent pendant 4 tours.
+		Les cibles touchées subissent également un effet de Supplice qui leur fait subir %d%% des dégâts qu'elles infligent pendant 4 tours.
 		Les dégâts supplémentaires ne peuvent se produire qu'une seule fois par tour.]], "tformat")
 t("Second Life", "Seconde Vie", "talent name")
 t("Any attack that would drop you below 1 hit point instead triggers Second Life, deactivating the talent, setting your hit points to 1, then healing you for %d.", "Toute attaque qui vous ferait passer sous la barre des 1 point de vie déclenche à la place Seconde Vie, désactivant le talent, fixant vos points de vie à 1, puis vous soigne de %d.", "tformat")
@@ -24847,6 +24847,7 @@ t("Sever Lifeline", "Ligne de Vie Rompue", "talent name")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
 t("Maim", "Mutiler", "talent name")
 t("Bloodrage", "Rage de Sang", "talent name")
+t("Martyrdom", "Supplice", "talent name")
 t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
 t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
 t("Empower Poisons", "Renforcement des Poisons", "talent name")
@@ -25101,7 +25102,6 @@ t([[Grapples the target and inflicts %0.2f physical damage. If the target is alr
 		The grapple effects will be based off your grapple talent, if you have it, and the damage will scale with your Physical Power.]], [[Grapples the target and inflicts %0.2f physical damage. If the target is already grappled, the target will be maimed as well, reducing damage by %d and global speed by 30%% for %d turns.
 		The grapple effects will be based off your grapple talent, if you have it, and the damage will scale with your Physical Power.]], "tformat")
 t("Each time one of your foes bites the dust, you feel a surge of power, increasing your strength by 2 (stacking up to a maximum of %d) for %d turns.", "Each time one of your foes bites the dust, you feel a surge of power, increasing your strength by 2 (stacking up to a maximum of %d) for %d turns.", "tformat")
-t("Martyrdom", "Martyrdom", "talent name")
 t("Designate a target as a martyr for 10 turns. When the martyr deals damage, it also damages itself for %d%% of the damage dealt.", "Designate a target as a martyr for 10 turns. When the martyr deals damage, it also damages itself for %d%% of the damage dealt.", "tformat")
 t("Overpower", "Overpower", "talent name")
 t("You cannot use Overpower without a shield!", "You cannot use Overpower without a shield!", "logPlayer")
@@ -31073,13 +31073,10 @@ Whoever defeats the Master of Arena will achieve utmost glory.
 Determined to win, you draw your weapons and advance defiantly. 
 The public roars in anticipation....
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
-En avançant, vous entendez les acclamations de plus en plus fortes venant de l'extérieur.
-Lorsque vous entrez dans l'arène, le soleil brûlant vous aveugle temporairement.
-Vous levez les yeux, et rencontrez votre cible les yeux dans les yeux: Le Maître de l'Arène, examinant attentivement
-le nouvel arrivant. Il sourit, et commence à regarder les autres combattants avec intérêt.
-Celui qui vaincra le Maître de l'Arène obtiendra la plus grande gloire. 
-Déterminé à gagner, vous dégainez vos armes et avancez avec défi. 
-Le public rugit par anticipation....
+Tandis que vous avancez, les applaudissements à l'extérieur deviennent de plus en plus assourdissants. En entrant dans l'arène, le soleil brûlant vous aveugle un instant.
+Vous levez les yeux, et apercevez votre cible les yeux dans les yeux: Le Maître de l'Arène, qui observe attentivement le nouveau venu. Il sourit, et commence à regarder les autres combattants avec intérêt.
+Celui qui vaincra le Maître de l'Arène obtiendra la gloire suprême. 
+Avec une détermination farouche, vous dégainez vos armes et avancez sans crainte. La foule rugit d'impatience, impatiente d'assister au spectacle...
 ]], "_t")
 
 ------------------------------------------------
@@ -31101,7 +31098,7 @@ Les Gardiens de la Réalité sont un groupe de chronomanciens qui se sont donné
 Vous vous êtes entraîné la majeure partie de votre vie dans la "ville" de Point Zéro, la forteresse des Gardiens, placée au centre même de tous les fils du temps depuis que la Brûlure Magique a perturbé les flux temporels et permis à la chronomancie d'exister.
 Les gardiens de Point Zéro doivent constamment rester vigilants face aux horreurs monstrueuses de l'irréalité extérieure.
 
-Vous avez entendu parler de perturbations temporelles à Maj'Eyal et vous voulez enquêter.
+Récemment, vous avez entendu des rumeurs de perturbations temporelles à Maj'Eyal et vous ressentez le besoin d'enquêter.
 Cependant, le Grand Gardien de la Réalité Zemekkys a demandé à vous voir.
 ]], "_t")
 
@@ -31142,11 +31139,11 @@ Away from all those orcs....
 Vous êtes un membre de la race fière, mais secrète, des Nains.
 Originaire de l'Empire nain du Trône de Fer, vous avez été envoyé pour enquêter sur l'ancienne forteresse de Reknor qui a été envahie par les orcs.
 
-En arrivant, la plupart des membres de votre équipe ont été tués et vous devez maintenant ramper jusqu'au Conseil de fer et rapporter ce que vous avez vu.
-Seuls Norgan et toi, un autre berserker Nain, avez survécu, mais les orcs ne vous laisseront pas partir facilement.
+À votre arrivée, la plupart des membres de votre équipe a été tués et vous devez maintenant ramper jusqu'au Conseil de fer et rapporter ce que vous avez vu.
+Seuls vous et Norgan, un berserker Nain, avez survécu, mais les orcs ne vous laisseront pas partir facilement.
 
-Vous vous êtes juré qu'une fois le Conseil de fer en sécurité, vous partirez à l'aventure, en quête de gloire et de trésors anciens.
-Loin de tous ces orcs....
+Vous avez juré qu'une fois arrivé sain et sauf au Conseil de Fer, vous partirez à l'aventure, en quête de gloire et de trésors anciens.
+Loin de tous ces orcs...
 ]], "_t")
 
 ------------------------------------------------
@@ -31163,7 +31160,7 @@ You have been raised in a place called the Blighted Scar, on the northern border
 Vous êtes mort il y a longtemps, mais ça ne vous a pas arrêté. Vous êtes devenu une ghoule, un mort-vivant.
 
 Votre maître Nécromancien a des projets pour vous, mais quelque chose ne va pas: vous semblez avoir gardé votre libre arbitre.
-Débarrasse-toi de ce mage maléfique et essaie de trouver une place dans le monde.
+Débarrassez-vous de ce mage maléfique et essayez de trouver une place dans le monde.
 
 Vous êtes devenue une ghoule dans un endroit appelé la Cicatrice Flétrie, à la frontière nord des terres Shaloren. Fuyez cette fosse abandonnée et tentez votre chance dans de vieux lieux oubliés.
 ]], "_t")
@@ -31183,11 +31180,11 @@ To the west lies another dangerous place: the old ruins of Kor'Pul. You heard th
 
 After days of travel, you have found the forest and entered it. What will you find there...?
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
-Tu es un Halfelin de Derth. La plupart des gens prennent les Halfelins pour de paisibles cultivateurs qui ne quittent jamais les limites de leurs jardins.
-Pourtant, l'histoire a montré que les Halfelins sont une force avec laquelle il faut compter. Ils maintiennent toujours une puissante armée.
-Vous avez choisi une voie rare pour vous: la voie de l'aventure, dont la solitude ne convient généralement pas à votre peuple.
+Vous êtes un Halfelin de Derth. La plupart des gens prennent les Halfelins pour de paisibles cultivateurs qui ne quittent jamais les limites de leurs jardins.
+Pourtant, l'histoire a montré que les Halfelins sont une force a ne pas sous-estimer. Ils maintiennent toujours une puissante armée.
+Vous avez choisi une voie singulière: la voie de l'aventure, dont la solitude ne convient généralement pas à votre peuple.
 
-Inspiré par les histoires de dragons d'or et de trésors à trouver dans les ruines anciennes, vous avez décidé de vous aventurer dans les lieux anciens et sauvages du monde à la recherche de gloire et de célébrité.
+Inspiré par les histoires de dragons, d'or, et de trésors cachés dans d'anciennes ruines, vous avez décidé de vous aventurer dans les lieux anciens et sauvages du monde à la recherche de gloire et de richesses.
 
 Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thaloren, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
 À l'ouest se trouve un autre endroit dangereux: les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
@@ -31224,9 +31221,8 @@ While you know this is a one way trip, you hope to go in a blaze of glory!
 
 Go forth, venture into the depths of the dungeon and see how far you can get before the end.
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
-Vous êtes arrivé dans le Donjon Infini.
-Votre vie à l'extérieur ne vous satisfaisait pas, alors vous êtes venu ici en quête d'aventure.
-Vous savez que c'est un voyage sans retour, mais vous espérez partir en pleine gloire!
+Vous êtes arrivé au Donjon Infini.
+Votre vie hors de ces murs ne vous satisfaisait pas, alors vous êtes venu ici en quête d'une véritable aventure. Bien que vous sachiez que ce voyage est sans retour, vous êtes déterminé à quitter ce monde dans un moment de gloire!
 
 Allez-y, aventurez-vous dans les profondeurs du donjon et voyez jusqu'où vous pouvez aller avant la fin.
 ]], "_t")
@@ -31252,7 +31248,7 @@ Vous devez faire face au mépris et à la peur d'un monde où votre espèce n'a 
 Aujourd'hui, votre peuple commence à se défaire de sa vieille image, mais ce n'est pas pour cela que vous êtes partis à l'aventure. Vous avez appris les innombrables problèmes auxquels votre monde est confronté, et vous avez l'intention de les résoudre vous-même.
 Votre espèce est faite pour le combat et le travail, et Maj'Eyal a besoin de beaucoup des deux.  
 
-Tu es venu au nord d'Elvala, la capitale des Shalorens, à la recherche des Grottes scintillantes. Elle est infestée de vermine et de cristaux apparemment vivants.
+Vous avez voyagé vers le nord d'Elvala, la capitale des Shalorens, à la recherche des Grottes scintillantes. Elle est infestée de vermine et de cristaux apparemment vivants.
 A l'ouest se trouve un autre endroit dangereux: un camp de Rhalorens. Ce sont des Shalorens renégats qui ne veulent pas restreindre leur utilisation de la magie. Les arrêter serait bon pour le monde en général, mais surtout pour vos bienfaiteurs shalorens.
 
 Après des jours de voyage, vous avez trouvé les grottes et y êtes entré. Qu'allez-vous y trouver... ?
@@ -31274,7 +31270,7 @@ BLAH BLAH BLAH
 
 Vous avez été envoyé sur une île isolée de la côte sud-ouest de l'Extrême-Orient pour écraser un avant-poste du Mur Solaire, le dernier bastion d'hommes, d'elfes, et de nains sur ce continent.
 
-Un peu plus au sud se trouve l'avant-poste. Votre tâche: le détruire et vous baigner dans le sang de ses habitants!
+Un peu plus au sud se trouve l'avant-poste. Votre tâche: le détruire et vous baigner dans le sang de vos ennemis!
 ]], "_t")
 
 ------------------------------------------------
@@ -31292,12 +31288,12 @@ To the west lies another dangerous place: a camp of Rhaloren. They are renegade 
 After days of travel, you have found the caves and entered it. What will you find there...?
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
 Vous êtes un Shaloren, la race elfique la plus étroitement liée à la magie, et vous êtes méprisé.
-Bien que votre peuple soit en paix avec les autres royaumes, beaucoup n'ont pas oublié que c'est votre race qui a créé la terrible Brûlure Magique, il y a des milliers d'années.
+Bien que votre peuple soit en paix avec les autres royaumes, beaucoup n'ont pas oublié que c'est votre race est responsable de la terrible Brûlure Magique d'il y a des milliers d'années.
 
 Vous avez décidé de vous aventurer dans les lieux anciens et sauvages à la recherche de trésors anciens et de gloire.
 
-Tu es venu au nord d'Elvala, la capitale des Shalorens, à la recherche des Grottes scintillantes. Elle est infestée de vermine et de cristaux apparemment vivants.
-A l'ouest se trouve un autre endroit dangereux: un camp de Rhalorens. Ce sont des Shalorens renégats qui ne veulent pas restreindre leur utilisation de la magie. Les arrêter serait bon pour votre race et votre chasse au trésor.
+Vous êtes venu au nord d'Elvala, la capitale des Shalorens, à la recherche des Grottes Scintillantes. Elle est infestée de vermine et de cristaux apparemment vivants.
+A l'ouest se trouve un autre endroit dangereux: un camp de Rhalorens. Ce sont des Shalorens renégats qui ne veulent pas restreindre leur utilisation de la magie. Les arrêter serait bon pour votre race et votre quête de trésors.
 
 Après des jours de voyage, vous avez trouvé les grottes et y êtes entré. Qu'allez-vous y trouver...?
 ]], "_t")
@@ -31313,10 +31309,10 @@ Get rid of this evil mage and try to find a place in the world.
 
 You have been raised in a place called the Blighted Scar, on the northern border of the Shaloren lands. Escape this forsaken pit and try your luck in old forgotten places.
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
-Tu es mort il y a longtemps, mais ça ne t'a pas arrêté. Vous êtes devenu un squelette mort-vivant.
+Vous êtes mort il y a longtemps, mais cela ne vous a pas arrêté. Vous êtes devenu un mort-vivant, un squelette.
 
 Votre maître nécromancien a des projets pour vous, mais quelque chose ne va pas: vous semblez avoir conservé votre libre arbitre.
-Débarrasse-toi de ce mage maléfique et essaie de te trouver une place dans le monde.
+Débarrassez-vous de ce mage maléfique et essayez de te trouver une place dans le monde.
 
 Vous êtes devenue un squelette dans un endroit appelé la Cicatrice Flétrie, à la frontière nord des terres Shaloren. Fuyez cette fosse abandonnée et tentez votre chance dans de vieux lieux oubliés.
 ]], "_t")
@@ -31331,11 +31327,11 @@ Nagas have been sighted in the Slazish Fens on the other side of the Sunwall Mou
 
 By the power of the Sun and the blessings of the Moons you step forth to find your fate.
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
-Vous êtes un citoyen du Mur Solaire, et comme beaucoup de gens de votre âge, vous avez été formé au combat et à la magie. La vie peut être rude, et bien que vous rêviez parfois de vous aventurer dans des contrées lointaines, vous savez que votre devoir est d'aider à défendre l'avant-poste contre les vicieux assauts des Fiertés Orcs. Mais aujourd'hui, la Haute Paladine Solaire Aeryn vous informe d'une nouvelle menace.
+Vous êtes un citoyen du Mur Solaire, et comme beaucoup de gens de votre âge, vous avez été formé au combat et à la magie. La vie peut être rude, et bien que vous rêviez parfois de vous aventurer dans des contrées lointaines, vous savez que votre devoir est d'aider à défendre l'avant-poste contre les vicieux assauts des Fiertés Orcs. Mais aujourd'hui, la Haute Paladine Solaire Aeryn vient de vous informer d'une nouvelle menace.
 
-Des Nagas ont été aperçus dans les marais de Slazish, de l'autre côté des montagnes du Mur Solaire. Leur objectif n'est pas clair, mais un assaut des deux côtés serait vraiment dévastateur à un moment aussi crucial pour votre peuple. Bien qu'il y ait peu de forces disponibles sur la ligne de front contre les Fiertés, vous vous êtes portés volontaires pour enquêter sur la menace naga et les arrêter si nécessaire.
+Des Nagas ont été aperçus dans les marais de Slazish, au-delà des Montagnes du Mur Solaire. Leur objectif n'est pas clair, mais un assaut des deux côtés serait vraiment dévastateur à un moment aussi crucial pour votre peuple. Bien qu'il y ait peu de forces disponibles sur la ligne de front contre les Fiertés, vous vous êtes portés volontaires pour enquêter sur la menace naga et les arrêter si nécessaire.
 
-Par le pouvoir du Soleil et les bénédictions des Lunes, vous vous avancez pour trouver votre destin.
+Fort du pouvoir du Soleil et des bénédictions des Lunes, vous vous préparez à accomplir votre destin.
 ]], "_t")
 
 ------------------------------------------------
@@ -31353,14 +31349,14 @@ To the east of Shatur, the Thaloren Capital, lies a dark part of the woods. Ever
 
 After days of travel, you have found Norgos' Lair and entered it. What will you find there...?
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
-Tu es un Thaloren, la race elfique la plus proche de la nature. Votre peuple vit depuis des milliers d'années dans sa forêt, prenant rarement part aux événements du monde extérieur.
+Vous êtes un Thaloren, la race elfique la plus proche de la nature. Votre peuple vit depuis des millénaires dans sa forêt, prenant rarement part aux événements du monde extérieur.
 Pourtant, lorsque leur foyer est menacé, les Elfes Thaloren peuvent se révéler de redoutables combattants.
-Vous avez vécu une vie paisible au fond de la forêt pendant de nombreuses années, mais dernièrement, vous êtes devenu agité et vous avez décidé d'entrer dans le monde.
+Vous avez longtemps vécu une vie paisible au fond de la forêt, mais dernièrement, un profond malaise vous a poussé à explorer le monde.
 
 Vous avez décidé de vous aventurer dans des lieux anciens et sauvages à la recherche de trésors anciens et de gloire.
 
-Tu es arrivé à l'ouest de la forêt de Thaloren, dans le repaire de Norgos. Norgos était un allié fidèle des Thaloren, protégeant la frontière occidentale. Mais dernièrement, il est devenu corrompu et a même attaqué les Thaloren.
-A l'est de Shatur, la capitale des Thaloren, se trouve une partie sombre des bois. Depuis la Brûlure Magique, cette zone a été corrompue. La faune et la flore y ont été transformées.
+Vous etes arrivé à l'ouest de la forêt de Thaloren, dans le repaire de Norgos. Norgos était un allié fidèle des Thaloren, protégeant la frontière occidentale. Mais dernièrement il est devenu corrompu et s'en prend même à ses anciens alliés.
+A l'est de Shatur, la capitale des Thaloren, se trouve une partie sombre de la forêt. Depuis la Brûlure Magique, cette zone a été corrompue. La faune et la flore y ont été transformées.
 
 Après des jours de voyage, vous avez trouvé la tanière de Norgos et y êtes entré. Qu'allez-vous y trouver...?
 ]], "_t")
@@ -31416,10 +31412,10 @@ Your whole life is dedicated to serving the Yeek race. You feel compelled by the
 You have been tasked to vanquish Murgol, an abomination from the deeps, and to clear the ritch tunnels before their blight spreads to the whole island.
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
 Vous êtes un Yeek adepte de la Voie d'Irkkk.
-Tous les Yeeks suivent la Voie, qui est à la fois un lien psionique global qui unifie toute la race Yeek, et un mode de vie.
-Votre vie entière est dédiée au service de la race Yeek. Vous vous sentez obligé par la Voie de protéger votre race à tout prix - même votre propre vie.
+Tous les Yeeks suivent la Voie, un lien psionique global qui unifie toute la race Yeek et définit leur mode de vie.
+Votre vie entière est dédiée au service de votre peuple. La Voie vous contraint à le protéger à tout prix, même au péril de votre vie.
 
-Vous avez été chargé de vaincre Murgol, une abomination venue des profondeurs, et de nettoyer les tunnels ritchs avant que leur fléau ne s'étende à toute l'île.
+Vous avez été chargé de vaincre Murgol, une abomination venue des profondeurs, et de nettoyer les tunnels ritchs avant que leur fléau ne se propage sur toute l'île.
 ]], "_t")
 
 ------------------------------------------------
@@ -31436,12 +31432,12 @@ This calls for urgency; should you find this Golbug or the portal, please invest
 
                #GOLD#-- Tolak, King of the Allied Kingdoms]], [[@playername@, ce message est de la plus haute importance.
 
-Le bâton que vous avez laissé à Dernier Espoir a disparu. Un raid d'orcs a tendu une embuscade aux gardes qui le transportaient dans une chambre forte secrète.
+Le bâton que vous avez laissé à Dernier Espoir a disparu. Un raid orcs a tendu une embuscade aux gardes qui le transportaient vers une chambre forte secrète.
 Nos troupes ont réussi à capturer l'un des orcs et à le faire parler.
 Il ne savait pas grand chose, mais il a parlé de "maîtres" en Extrême-Orient.
 Il a parlé de Golbug - qui semble être un maître de guerre de Reknor - menant un raid pour envoyer un "paquet" à travers un portail.
 
-Il y a urgence. Si vous trouvez ce Golbug ou le portail, veuillez enquêter.
+Il y a urgence. Si vous trouvez ce Golbug ou le portail, enquêtez immédiatement.
 
                #GOLD#-- Tolak, Roi des Royaumes Alliés]], "_t")
 t([[@playername@, this message is of utmost importance.
@@ -31458,13 +31454,13 @@ This calls for urgency; should you find this Golbug or the portal, please invest
                #GOLD#-- Tolak, King of the Allied Kingdoms]], [[@playername@, ce message est de la plus haute importance.
 
 Nos anciens ont fouillé les vieux textes à la recherche d'indices sur le bâton dont vous avez parlé.
-Il s'avère que c'est un objet puissant, capable d'absorber le pouvoir des lieux et des êtres.
+Il s'avère que c'est un objet puissant, capable d'absorber l'énergie des lieux et des êtres.
 Il ne doit pas tomber dans de mauvaises mains, ce qui inclut certainement des mains orcs.
 Pendant votre absence, une de nos patrouilles a rencontré un groupe d'orcs mené par Ukruk. Nous n'avons pas pu les arrêter, mais nous avons réussi à capturer l'un d'entre eux.
 Il ne savait pas grand chose, mais il a parlé de "maîtres" en Extrême-Orient.
 Il a parlé d'une rencontre avec Golbug - qui semble être un maître de guerre de Reknor - pour envoyer un "paquet" à travers un portail.
 
-Il y a urgence ; si vous trouvez ce Golbug ou le portail, veuillez enquêter.
+Il y a urgence. Si vous trouvez ce Golbug ou le portail, enquêtez immédiatement.
 
                #GOLD#-- Tolak, Roi des Royaumes Alliés]], "_t")
 
@@ -31472,7 +31468,7 @@ Il y a urgence ; si vous trouvez ce Golbug ou le portail, veuillez enquêter.
 section "mod-tome/data/texts/tutorial/combat-stats-intro.lua"
 
 t([[Onward! The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you!
-]], [[En avant! The #GOLD#Donjon de l'Eveil des Aventuriers#WHITE# vous attend!
+]], [[En avant! Le #GOLD#Donjon de l'Éveil de l'Aventurier#WHITE# vous attend!
 ]], "_t")
 
 ------------------------------------------------
@@ -34104,9 +34100,12 @@ t("+Shield", "+Bouclier", "_t")
 t("The shield around #target# crumbles.", "Le bouclier autour de #target# s'effondre.", "_t")
 t("-Shield", "-Bouclier", "_t")
 t("light", "lumière", "effect subtype")
+t("Martyrdom", "Supplice", "_t")
 t("All damage done by the target will also hurt it for %d%%.", "Tous les dégâts infligés par la cible la blessent également pendant %d%%.", "tformat")
 t("#Target# is a martyr.", "#Target# est un martyr.", "_t")
-t("#Target# is no longer influenced by martyrdom.", "#Target# n'est plus sour l'influence de martyrdom.", "_t")
+t("+Martyr", "+Supplice", "_t")
+t("#Target# is no longer influenced by martyrdom.", "#Target# n'est plus sour l'influence de supplice.", "_t")
+t("-Martyr", "-Supplice", "_t")
 t("radiance", "rayonnement", "effect subtype")
 t("Radiance Lost", "Rayonnement Perdu", "_t")
 t("You have expended the power of your Radiance temporarily reducing its radius to 1.", "Vous avez utilisé la puissance de votre Rayonnement en réduisant temporairement son rayon à 1.", "tformat")
@@ -34882,9 +34881,6 @@ t("The target is redirecting energy, adding %d gravity damage to their attacks.%
 t("+Invis", "+Invis", "_t")
 t("-Invis", "-Invis", "_t")
 t("corruption", "corruption", "effect subtype")
-t("Martyrdom", "Martyrdom", "_t")
-t("+Martyr", "+Martyr", "_t")
-t("-Martyr", "-Martyr", "_t")
 t("Providence", "Providence", "_t")
 t("Redux", "Redux", "_t")
 t("rune", "rune", "effect subtype")
@@ -38374,9 +38370,9 @@ t("A paper scrap, left by an adventurer.", "Un bout de papier, laissé par un av
 ------------------------------------------------
 section "mod-tome/data/zones/noxious-caldera/zone.lua"
 
-t("Noxious Caldera", "Caldeira Nocive", "_t")
-t("Dogroth Caldera", "Caldera de Dogroth", "_t")
-t("The noxious fumes of the caldera are slowly affecting you...", "Les émanations nocives de la caldeira vous affectent lentement...", "_t")
+t("Noxious Caldera", "Chaudron Nocif", "_t")
+t("Dogroth Caldera", "Chaudron de Dogroth", "_t")
+t("The noxious fumes of the caldera are slowly affecting you...", "Les émanations nocives du chaudron vous affectent lentement...", "_t")
 t("dream", "rêve", "_t")
 
 ------------------------------------------------
@@ -39953,6 +39949,7 @@ section "mod-tome/data/zones/town-zigur/traps.lua"
 
 t("Horman's Plates", "Plaques d'Horman", "entity name")
 t("Infused Leather", "Cuir Infusé", "entity name")
+t("Slash & Dash", "Taillade & Cavalcade", "entity name")
 t("Nature's Punch", "Poing de la Nature", "entity name")
 t("Slice & Dice", "Trancher et Émincer", "entity name")
 t("Nature's Reach", "Atteinte de la Nature", "entity name")
@@ -39962,11 +39959,6 @@ t("Library", "Bibliothèque", "entity name")
 t("Trainer", "Entraînement", "entity name")
 t("Grim-looking fighter", "Combattant à l'air sombre", "_t")
 t("Nature's Emporium", "Magasin de la Nature", "entity name")
--- texte non traduit
---[==[
-t("Slash & Dash", "Slash & Dash", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-zigur/zone.lua"
@@ -40285,7 +40277,7 @@ t("Krogar", "Krogar", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/unremarkable-cave/zone.lua"
 
-t("Unremarkable Cave", "Grotte Inintéressante", "_t")
+t("Unremarkable Cave", "Caverne Banale", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/valley-moon/grids.lua"
@@ -40447,7 +40439,7 @@ t("sea of Sash", "mer de Sash", "entity name")
 t("lake", "lac", "entity name")
 t("Westreach lake", "Lac de Westreach", "entity name")
 t("Irondeep lake", "Lac d'Irondeep", "entity name")
-t("Spellmurk lake", "Lac de Spellmurk", "entity name")
+t("Spellmurk lake", "Lac de Brume-Magie", "entity name")
 t("rockwall", "mur de roche", "entity type")
 t("name", "nom", "entity name")
 t("Sunwall mountain", "Montagnes du Mur Solaire", "entity name")
@@ -40492,7 +40484,7 @@ t("Tunnel into the ritchs grounds", "Tunnel vers le terrain des richtes", "entit
 t("Charred Scar Volcano", "Volcan de la Plaie Craquelée", "entity name")
 t("Tunnel to Maj'Eyal", "Tunnel vers Maj'Eyal", "entity name")
 t("You cannot abandon the yeeks of Rel to the dangers that lie within the island.", "Vous ne pouvez pas abandonner les yeeks de Rel aux dangers qui rôdent sur l'île.", "_t")
-t("Unremarkable cave", "Grotte Inintéressante", "entity name")
+t("Unremarkable cave", "Caverne Banale", "entity name")
 t("A gate into the old kingdom of Reknor", "Une porte vers l'ancien royaume de Reknor", "entity name")
 t("Entrance into Telmur, tower of Telos", "Entrée de Telmur, tour de Telos", "entity name")
 t("Way into the lair of Murgol", "Entrée du repaire de Murgol", "entity name")
@@ -40534,7 +40526,7 @@ t("Eyal", "Eyal", "_t")
 section "mod-tome/mod/ai/escort.lua"
 
 t("Help!", "Au Secours !", "_t")
-t(" %s to the %s!", " un(e) %s %s!", "tformat")
+t(" %s to the %s!", " %s en direction de %s!", "tformat")
 t("Something", "Quelque chose", "_t")
 
 ------------------------------------------------
@@ -40606,9 +40598,9 @@ section "mod-tome/mod/class/Actor.lua"
 t("drowned to death", "s'est noyé", "_t")
 t("%s has been disrupted by #ORCHID#anti-magic forces#LAST#!", "%s a été déchiré par des #ORCHID#forces anti-magie#LAST#!", "logSeen")
 t("%s temporarily fights the paralyzation.", "%s combat temporairement la paralysie.", "logSeen")
-t("#VIOLET#Following build order %s; increasing %s by 1.", "#VIOLET#L'ordre de construction %s; augmente %s par 1.", "log")
-t("#VIOLET#Following build order %s; learning talent category %s.", "#VIOLET#L'ordre de construction %s; apprendre la catégorie de talent %s.", "log")
-t("#VIOLET#Following build order %s; learning talent %s.", "#VIOLET#L'ordre de construction %s; apprendre le talent %s.", "log")
+t("#VIOLET#Following build order %s; increasing %s by 1.", "#VIOLET#L'ordre de build %s; augmente %s par 1.", "log")
+t("#VIOLET#Following build order %s; learning talent category %s.", "#VIOLET#L'ordre de build %s; apprendre la catégorie de talent %s.", "log")
+t("#VIOLET#Following build order %s; learning talent %s.", "#VIOLET#L'ordre de build %s; apprendre le talent %s.", "log")
 t("You are asleep and unable to move!", "Vous êtes endormis et ne pouvez pas bouger!", "logPlayer")
 t("You are unable to move!", "Vous êtes incapable de bouger!", "logPlayer")
 t("#F53CBE#Your movements fuel your rampage! (+1 duration)", "#F53CBE#Vos mouvements alimentent votre déchaînement! (+1 durée)", "logPlayer")
@@ -40653,13 +40645,13 @@ t("Hardiness/Armour: ", "Robustesse/Armure: ", "_t")
 t("Size: ", "Taille: ", "_t")
 t("#FFD700#Accuracy#FFFFFF#: ", "#FFD700#Précision#FFFFFF#: ", "_t")
 t("#0080FF#Defense#FFFFFF#:  ", "#0080FF#Défense#FFFFFF#:  ", "_t")
-t("#FFD700#P. power#FFFFFF#: ", "#FFD700#Puissance P.#FFFFFF#: ", "_t")
-t("#0080FF#P. save#FFFFFF#:  ", "#0080FF#Sauvegarde P.#FFFFFF#:  ", "_t")
-t("#FFD700#S. power#FFFFFF#: ", "#FFD700#Puissance S.#FFFFFF#: ", "_t")
-t("#0080FF#S. save#FFFFFF#:  ", "#0080FF#Sauvegarde S.#FFFFFF#:  ", "_t")
-t("#FFD700#M. power#FFFFFF#: ", "#FFD700#Puissance M.#FFFFFF#: ", "_t")
-t("#0080FF#M. save#FFFFFF#:  ", "#0080FF#Sauvegarde M.#FFFFFF#:  ", "_t")
-t("Critical Mult: ", "Critique Mult: ", "_t")
+t("#FFD700#P. power#FFFFFF#: ", "#FFD700#Puiss. P.#FFFFFF#: ", "_t")
+t("#0080FF#P. save#FFFFFF#:  ", "#0080FF#Sauv. P.#FFFFFF#:  ", "_t")
+t("#FFD700#S. power#FFFFFF#: ", "#FFD700#Puiss. S.#FFFFFF#: ", "_t")
+t("#0080FF#S. save#FFFFFF#:  ", "#0080FF#Sauv. S.#FFFFFF#:  ", "_t")
+t("#FFD700#M. power#FFFFFF#: ", "#FFD700#Puiss. M.#FFFFFF#: ", "_t")
+t("#0080FF#M. save#FFFFFF#:  ", "#0080FF#Sauv. M.#FFFFFF#:  ", "_t")
+t("Critical Mult: ", "Crit. Mult.: ", "_t")
 t("Time left: ", "Temps restant: ", "_t")
 t("#LIGHT_BLUE#Main:#LAST#%s", "#LIGHT_BLUE#Main principale:#LAST#%s", "tformat")
 t("#LIGHT_BLUE#Off :#LAST#%s", "#LIGHT_BLUE#Main secondaire:#LAST#%s", "tformat")
@@ -42867,13 +42859,13 @@ Catégories inutilisée: %d]], "tformat")
 t("Level / Exp: #00ff00#%s / %2d%%", "Niveau / Exp: #00ff00#%s / %2d%%", "tformat")
 t("Gold: #00ff00#%0.2f", "Or: #00ff00#%0.2f", "tformat")
 t("Accuracy:", "Précision:", "_t")
-t("P. power:", "Puissance P.:", "_t")
-t("S. power:", "Puissance S.:", "_t")
-t("M. power:", "Puissance M.:", "_t")
+t("P. power:", "Puiss. P.:", "_t")
+t("S. power:", "Puiss. S.:", "_t")
+t("M. power:", "Puiss. M.:", "_t")
 t("Defense:", "Défense:", "_t")
-t("P. save:", "Sauvegarde P.:", "_t")
-t("S. save:", "Sauvegarde S.:", "_t")
-t("M. save:", "Sauvegarde M.:", "_t")
+t("P. save:", "Sauv. P.:", "_t")
+t("S. save:", "Sauv. S.:", "_t")
+t("M. save:", "Sauv. M.:", "_t")
 t("Turns remaining: %d", "Tours restants: %d", "tformat")
 t("Air level: %d/%d", "Niveau d'air: %d/%d", "tformat")
 t("Encumbered! (%d/%d)", "Encombré! (%d/%d)", "tformat")
@@ -43061,14 +43053,14 @@ section "mod-tome/mod/dialogs/Birther.lua"
 t("Character Creation", "Création de personnage", "_t")
 t("     Play!     ", "     Jouer!     ", "_t")
 t("Random!", "Aléatoire!", "_t")
-t("Load premade", "Ancien personnage", "_t")
+t("Load premade", "Charger modèle pré-existant", "_t")
 t("Custom tile", "Tuile personnalisé", "_t")
 t("Cancel", "Annuler", "_t")
 t("Tutorial", "Tutoriel", "_t")
 t("Customize", "Customiser", "_t")
 t("Extra Options", "Options supplémentaires", "_t")
 t("Name: ", "Nom：", "_t")
-t("Female", "Femelle", "_t")
+t("Female", "Femme", "_t")
 t("Male", "Mâle", "_t")
 t("Campaign: ", "Campagne：", "_t")
 t("Difficulty: ", "Difficulté：", "_t")
@@ -43094,7 +43086,7 @@ t("-- locked --", "-- bloqué --", "_t")
 t([[#CRIMSON#Playing this class with the race you selected does not make much sense lore-wise. You can still do it but might miss on some special quests/...#WHITE#
 ]], [[#CRIMSON#Jouer cette classe avec la race sélectionnée n'a pas beaucoup de sens d'un point de vue du lore. Vous pouvez néanmoins le faire mais vous raterez certaines quêtes spéciales/...#WHITE#
 ]], "_t")
-t("Characters Vault", "Liste des anciens personnages", "_t")
+t("Characters Vault", "Coffre de Personnages", "_t")
 t(" Load ", " Charger ", "_t")
 t("Delete", "Supprimer", "_t")
 t("Really delete premade: %s", "Vraiment supprimer un ancien personnage：%s", "tformat")
@@ -43172,14 +43164,14 @@ t("Character Sheet: %s", "Fiche de Personnage: %s", "tformat")
 t("[G]eneral", "[G]énéral", "_t")
 t("[A]ttack", "[A]ttaque", "_t")
 t("[D]efense", "[D]éfense", "_t")
-t("off", "secondaire", "_t")
-t("main", "principale", "_t")
+t("off", "main secondaire", "_t")
+t("main", "main principale", "_t")
 t("[E]quipment: %s set", "[E]quipement: %s ensemble", "tformat")
 t("#RED#Displaying %s set for %s (equipment NOT switched)", "#RED#Affiche %s l'ensemble pour %s (équipment NON changé)", "logPlayer")
 t("Groups", "Groupes", "_t")
 t("Name", "Nom", "_t")
 t("Manage [I]nventory", "Gérer l'[I]nventaire", "_t")
-t("[L]evelup", "[L]Niveau Supplémentaire", "_t")
+t("[L]evelup", "Niveau Supp[L]émentaire", "_t")
 t([[Values #00FF00#in brackets ( )#LAST# show changes made from last character sheet checking.
 Keyboard: #00FF00#'u'#LAST# to save character dump. #00FF00#TAB key#LAST# to switch between tabs.
 Mouse: Hover over stat for info
@@ -43198,7 +43190,7 @@ t([[#GOLD#Days adventuring / current month:#LAST# %d / %s
 #GOLD#Creatures killed:           #ANTIQUE_WHITE#%d
 #GOLD#Elites/Rares/Bosses killed: #YELLOW#%d/#SALMON#%d/#ORANGE#%d
 ]], [[#GOLD#Jours d'aventures / mois courant:#LAST# %d / %s
-#GOLD#Temps joué:#LAST# %s
+#GOLD#Temps de jeu:#LAST# %s
 #GOLD#Créatures tuées:           #ANTIQUE_WHITE#%d
 #GOLD#Elites/Rares/Boss tués: #YELLOW#%d/#SALMON#%d/#ORANGE#%d
 ]], "tformat")
@@ -43207,10 +43199,10 @@ t("Bleed", "Saignement", "_t")
 t("Blindness", "Aveuglement", "_t")
 t("Disarm", "Désarmement", "_t")
 t("Pinning", "Immobilisation", "_t")
-t("Stun/Freeze", "Gel/Assomant", "_t")
+t("Stun/Freeze", "Assomant/Gel", "_t")
 t("Sleep", "Sommeil", "_t")
 t("Fear", "Peur", "_t")
-t("Knockback", "Repoussage", "_t")
+t("Knockback", "Repoussement", "_t")
 t("Stoning", "Pétrification", "_t")
 t("Instant death", "Mort subite", "_t")
 t("Teleportation", "Téléportation", "_t")
@@ -43222,13 +43214,13 @@ t("Inventory", "Inventaire", "_t")
 t("Online URL: #LIGHT_BLUE##{underline}#%s#{normal}#", "URL en ligne: #LIGHT_BLUE##{underline}#%s#{normal}#", "tformat")
 t("You can find your character sheet online", "Vous pouvez trouver votre fiche de personnage en ligne", "_t")
 t("Sex  : ", "Sexe   : ", "_t")
-t("Female", "Femelle", "_t")
+t("Female", "Femme", "_t")
 t("Male", "Mâle", "_t")
 t("Race : ", "Race   : ", "_t")
 t("Type : ", "Type   : ", "_t")
 t("Class: ", "Classe : ", "_t")
 t("Stype: ", "Stype  : ", "_t")
-t("Zigur follower", "Suivant de Zigur", "_t")
+t("Zigur follower", "Adepte de Zigur", "_t")
 t("Antimagic adherent", "Adhérent à l'anti-magie", "_t")
 t("- Seed: #LIGHT_STEEL_BLUE#%s", "- Graine: #LIGHT_STEEL_BLUE#%s", "tformat")
 t("Click to copy to clipboard. You can share the wanderer seed with your friends, this way they can play with the same set of talents.", "Cliquez pour copier dans le presse-papiers. Vous pouvez partager la graine du Vagabond avec vos amis. Ainsi, ils pourront jouer avec les mêmes talents.", "_t")
@@ -43246,26 +43238,26 @@ Cette valeur de %s est automatiquement gagné ou perdu chaque tour.]], "tformat"
 t("Current Feedback gain is %0.1f%% of damage taken.", "Gain de Rétroaction actuel %0.1f%% des dégâts reçus.", "tformat")
 t("#7fffd4#Feedback: #00ff00#%d/%s", "#7fffd4#Rétroaction: #00ff00#%d/%s", "tformat")
 t("#LIGHT_BLUE#Speeds:", "#LIGHT_BLUE#Vitesses:", "_t")
-t("Global speed  : #00ff00#%s", "Vitesse globale     : #00ff00#%s", "tformat")
-t("Movement speed: #00ff00#%s", "Vitesse de mouvement: #00ff00#%s", "tformat")
-t("Spell speed   : #00ff00#%s", "Vitesse de sort     : #00ff00#%s", "tformat")
-t("Attack speed  : #00ff00#%s", "Vitesse d'attaque   : #00ff00#%s", "tformat")
-t("Mental speed  : #00ff00#%s", "Vitesse mentale     : #00ff00#%s", "tformat")
+t("Global speed  : #00ff00#%s", "Vit. globale        : #00ff00#%s", "tformat")
+t("Movement speed: #00ff00#%s", "Vit. de mouvement   : #00ff00#%s", "tformat")
+t("Spell speed   : #00ff00#%s", "Vit. de sort        : #00ff00#%s", "tformat")
+t("Attack speed  : #00ff00#%s", "Vit. d'attaque      : #00ff00#%s", "tformat")
+t("Mental speed  : #00ff00#%s", "Vit. mentale        : #00ff00#%s", "tformat")
 t("Times died     : #00ff00#%s", "Vies perdus        : #00ff00#%s", "tformat")
 t("#DARK_RED#Blood of Life", "#DARK_RED#Sang de Vie", "_t")
 t("Lives left     : #00ff00#%s", "Vies Restantes     : #00ff00#%s", "tformat")
-t("Healing mod.   : #00ff00#%s", "Modif de soins       : #00ff00#%s", "tformat")
+t("Healing mod.   : #00ff00#%s", "Mod. de soins      : #00ff00#%s", "tformat")
 t("Life regen     : #00ff00#%s", "Regen de vie       : #00ff00#%s", "tformat")
-t("(with heal mod): #00ff00#%s", "(avec modif de soins): #00ff00#%s", "tformat")
+t("(with heal mod): #00ff00#%s", "(avec mod. de soin): #00ff00#%s", "tformat")
 t("Light radius   : #00ff00#%s", "Lumière            : #00ff00#%s", "tformat")
 t("Vision range   : #00ff00#%s", "Portée de vue      : #00ff00#%s", "tformat")
 t("Heighten Senses: #00ff00#%s", "Sens augmentés     : #00ff00#%s", "tformat")
 t("Detect Traps   : #00ff00#%s", "Détect des pièges  : #00ff00#%s", "tformat")
 t("Stealth        : #00ff00#%s", "Furtivité          : #00ff00#%s", "tformat")
-t("See stealth    : #00ff00#%s", "Voir les furtifs   : #00ff00#%s", "tformat")
+t("See stealth    : #00ff00#%s", "Voir furtivité     : #00ff00#%s", "tformat")
 t("Invisibility   : #00ff00#%s", "Invisibilité       : #00ff00#%s", "tformat")
-t("See invisible  : #00ff00#%s", "Voir les invisibles: #00ff00#%s", "tformat")
-t("Telepathy range: #00ff00#%s", "Portée Telepathique: #00ff00#%s", "tformat")
+t("See invisible  : #00ff00#%s", "Voir l'invisible   : #00ff00#%s", "tformat")
+t("Telepathy range: #00ff00#%s", "Portée télépathique: #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Stats:        Base/Current", "#LIGHT_BLUE#Stats:        Base/Actuelle", "_t")
 t("Telepathy of: ", "Télépathie: ", "_t")
 t("%sAll ", "%sTout ", "tformat")
@@ -43276,12 +43268,12 @@ t("Accuracy     : #00ff00#%s", "Précision        : #00ff00#%s", "tformat")
 t("Damage       : #00ff00#%s", "Dégât            : #00ff00#%s", "tformat")
 t("Block : #00ff00#%s", "Blocage : #00ff00#%s", "tformat")
 t("APR          : #00ff00#%s", "Pén d'armure     : #00ff00#%s", "tformat")
-t("Crit. chance : #00ff00#%s", "Chance de crit   : #00ff00#%s", "tformat")
-t("Crit. power  : #00ff00#%s", "Puissance crit   : #00ff00#%s", "tformat")
-t("Attack Speed : #00ff00#%s", "Vitesse d'Attaque: #00ff00#%s", "tformat")
+t("Crit. chance : #00ff00#%s", "Chance crit.     : #00ff00#%s", "tformat")
+t("Crit. power  : #00ff00#%s", "Puissance crit.  : #00ff00#%s", "tformat")
+t("Attack Speed : #00ff00#%s", "Vit. d'attaque   : #00ff00#%s", "tformat")
 t("range %2d", "porté %2d", "_t")
 t("speed %3d%%", "vitesse %3d%%", "_t")
-t("Archery      : #00ff00#%s, %s", "Tir à l'arc  : #00ff00#%s, %s", "tformat")
+t("Archery      : #00ff00#%s, %s", "Archerie     : #00ff00#%s, %s", "tformat")
 t("#LIGHT_BLUE#Main Hand", "#LIGHT_BLUE#Main principale", "_t")
 t("#LIGHT_BLUE#Unarmed", "#LIGHT_BLUE#Mains nue", "_t")
 t("#LIGHT_BLUE#Offhand%s", "#LIGHT_BLUE#Main secondaire%s", "tformat")
@@ -43289,17 +43281,17 @@ t(" (disabled)", " (désactivé)", "_t")
 t("#LIGHT_BLUE#Offhand-Dual Weapon%s", "#LIGHT_BLUE#Main secondaire-Deux armes%s", "tformat")
 t("#LIGHT_BLUE#Psionic Focus", "#LIGHT_BLUE#Concentration Psionique", "_t")
 t("#LIGHT_BLUE#Physical:", "#LIGHT_BLUE#Physique:", "_t")
-t("Phys. Power: #00ff00#%s", "Puissance physique  : #00ff00#%s", "tformat")
-t("Crit. chance: #00ff00#%s", "Chance de crit: #00ff00#%s", "tformat")
+t("Phys. Power: #00ff00#%s", "Puiss. physique    : #00ff00#%s", "tformat")
+t("Crit. chance: #00ff00#%s", "Chance crit.      : #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Magical:", "#LIGHT_BLUE#Magique:", "_t")
-t("Spellpower  : #00ff00#%s", "Puissance de sort   : #00ff00#%s", "tformat")
-t("Spell speed : #00ff00#%s", "Vitesse de sort     : #00ff00#%s", "tformat")
-t("Spell cooldown: #00ff00#%s", "Rechargement de sort: #00ff00#%s", "tformat")
-t("Mindpower: #00ff00#%s", "Puissance mentale   : #00ff00#%s", "tformat")
-t("Mind speed : #00ff00#%s", "Vitesse mentale     : #00ff00#%s", "tformat")
+t("Spellpower  : #00ff00#%s", "Puiss. de sort    : #00ff00#%s", "tformat")
+t("Spell speed : #00ff00#%s", "Vit. de sort      : #00ff00#%s", "tformat")
+t("Spell cooldown: #00ff00#%s", "Recharg de sort : #00ff00#%s", "tformat")
+t("Mindpower: #00ff00#%s", "Puiss. mentale       : #00ff00#%s", "tformat")
+t("Mind speed : #00ff00#%s", "Vit. mentale       : #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Damage Modifiers:", "#LIGHT_BLUE#Modificateurs de dégâts:", "_t")
-t("Critical mult.: #00ff00#%s", "Multiplicateur de crit: #00ff00#%s", "tformat")
-t("All damage    : #00ff00#%s", "Tous         : #00ff00#%s", "tformat")
+t("Critical mult.: #00ff00#%s", "Mult. crit      : #00ff00#%s", "tformat")
+t("All damage    : #00ff00#%s", "Tous            : #00ff00#%s", "tformat")
 t("vs ", "contre ", "_t")
 t([[#GOLD#Restance Penetration#LAST#
 Ability to reduce opponent resistances to your damage]], [[#GOLD#Pén des résistances#LAST#
