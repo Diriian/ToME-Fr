@@ -969,7 +969,7 @@ t("Redhead Hair 3", "Cheveux Roux 3", "_t")
 t("Redhead Hair 4", "Cheveux Roux 4", "_t")
 t("Redhead Hair 5", "Cheveux Roux 5", "_t")
 t("Shaloren elves have close ties with the magic of the world, and produced in the past many great mages.", "Les elfes Shaloréens sont intimement liés à la magie du monde, et ont produit beaucoup de grands mages dans le passé.", "_t")
-t("Yet they remain quiet and try to hide their magic from the world, for they remember too well the Spellblaze - and the Spellhunt that followed.", "Maintenant ils restent tranquille et essaient de cacher leur magie au reste du monde, car ils se rappellent trop bien la Brûlure magique - et la chasse anti-magique qui a suivi.", "_t")
+t("Yet they remain quiet and try to hide their magic from the world, for they remember too well the Spellblaze - and the Spellhunt that followed.", "Maintenant ils restent tranquille et essaient de cacher leur magie au reste du monde, car ils se rappellent trop bien la Brûlure magique - et la Purge Arcanique qui a suivi.", "_t")
 t("They possess the #GOLD#Grace of the Eternals#WHITE# talent which allows them a boost of speed every once in a while.", "Ils possèdent le talent #GOLD#Grâce des éternels#WHITE# qui leur attribue une poussée de vitesse une fois de temps en temps.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
 t("#LIGHT_BLUE# * -2 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * -2 Force, +1 Dextérité, +0 Constitution", "_t")
@@ -1015,7 +1015,7 @@ ses tunnels ruinés, impossible d'en voir la fin.
 Les voleurs du passé ont échoués, mais leurs écrits sont là;
 pour commencer, regardez où les halfelins ont portés leurs pas...]], "_t")
 t("Ogres are an altered form of Human, created in the Age of Allure as workers and warriors for the Conclave.", "Les ogres sont une forme altérée d'humain, créés durant l'Ère de la Séduction en tant que travailleurs et guerriers pour le Conclave.", "_t")
-t("Inscriptions have granted them magical and physical power far beyond their natural limits, but their dependence on runic magic made them a favored target during the Spellhunt, forcing them to take refuge among the Shalore.", "Les inscriptions leur ont octroyés une puissance magique et physique bien au delà de leurs limites naturelles, mais leur dépendance à la magie runique en a fait des cibles privilégiées pendant la chasse anti-magique, les forçant a trouver refuge parmi les Shalore.", "_t")
+t("Inscriptions have granted them magical and physical power far beyond their natural limits, but their dependence on runic magic made them a favored target during the Spellhunt, forcing them to take refuge among the Shalore.", "Les inscriptions leur ont octroyés une puissance magique et physique bien au delà de leurs limites naturelles, mais leur dépendance à la magie runique en a fait des cibles privilégiées pendant la Purge Arcanique, les forçant a trouver refuge parmi les Shalore.", "_t")
 t("Their preference for simple and direct solutions has given them an undeserved reputation as dumb brutes, despite their extraordinary talent with runes and their humble, dutiful nature.", "Leur préférence pour les solutions simples et directes leur a injustement prêté une réputation de brutes sans cervelle, malgré leur talent extraordinaire avec les runes et leur nature humble et respectueuse.", "_t")
 t("They possess the #GOLD#Ogric Wrath#WHITE# talent, which grants them critical chance and power, as well as resistance to confusion and stuns, when their attacks miss or are blocked.", "Ils possèdent le talent #GOLD#Colère Ogrique#WHITE#, qui leur donne une meilleure chance et puissance de critique, ainsi que de la résistance à la confusion et à l'étourdissement, quand leurs attaques sont ratées ou bloquées.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
@@ -3160,7 +3160,7 @@ During the dark years of the Spellhunt, many thousands of years ago, Linaniil, t
 So she set a secret plan into action and built a secret place where magic would be kept alive.
 Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
 Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire; vous le méritez pour m'avoir aidé.
-Pendant les années sombres de la Chasse aux Sorcières, il y a plusieurs milliers d'années, Linaniil, la grande mage du Kor'Krul, s'inquiétait que la magie puisse disparaître avec sa génération et être perdue pour les mortels s'ils en avaient à nouveau besoin.
+Pendant les années sombres de la Purge Arcanique, il y a plusieurs milliers d'années, Linaniil, la grande mage du Kor'Krul, s'inquiétait que la magie puisse disparaître avec sa génération et être perdue pour les mortels s'ils en avaient à nouveau besoin.
 Elle a donc mis en place un plan secret et a construit un lieu secret où la magie serait maintenue en vie.
 Son plan a fonctionné et le groupe a construit une ville appelée Angolwen dans les montagnes de l'ouest. #LIGHT_GREEN#*Il la marque sur votre carte, ainsi qu'un portail pour y accéder*#WHITE#
 Peu de gens y sont acceptés, mais je m'arrangerai pour que vous soyez admis à l'intérieur.]], "_t")
@@ -3179,8 +3179,8 @@ t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, 
 During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kor'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
 So she set a secret plan into action and built a secret place where magic would be kept alive.
 Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
-Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire; vous le méritez pour m'avoir aidé.
-Pendant les années sombres de la Chasse aux Sorcières, il y a plusieurs milliers d'années, Linaniil, la grande mage du Kor'Krul, s'inquiétait que la magie puisse disparaître avec sa génération et être perdue pour les mortels s'ils en avaient à nouveau besoin.
+Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui! Je suis tellement content! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire vous le méritez pour m'avoir aidé.
+Pendant les années sombres de la Purge Arcanique, il y a plusieurs milliers d'années, Linaniil, la grande mage du Kor'Krul, s'inquiétait que la magie puisse disparaître avec sa génération et être perdue pour les mortels s'ils en avaient à nouveau besoin.
 Elle a donc mis en place un plan secret et a construit un lieu secret où la magie serait maintenue en vie.
 Son plan a fonctionné et le groupe a construit une ville appelée Angolwen dans les montagnes de l'ouest. #LIGHT_GREEN#*Il la marque sur votre carte, ainsi qu'un portail pour y accéder*#WHITE#
 Peu de gens y sont acceptés, mais je m'arrangerai pour que vous soyez admis à l'intérieur.]], "_t")
@@ -4665,7 +4665,7 @@ t("regressive blight", "dégâts de maladie régressive", "damage type")
 t("#Source# drains experience from #Target#!", "#Source# draine l'expérience de #Target#!", "logCombat")
 t("draining blight", "dégâts de maladie drainante", "damage type")
 t("sanguine blight", "dégâts de maladie sanguine", "damage type")
-t("vim draining blight", "dégâts de maladie drainant la vigueur", "damage type")
+t("vim draining blight", "dégâts de maladie drainant la vitae", "damage type")
 t("demonfire", "dégâts de feu démoniaque", "damage type")
 t("purging blight", "dégâts de purge de maladie", "damage type")
 t("holy light", "dégâts de lumiére sacrée", "damage type")
@@ -9563,7 +9563,7 @@ Light around it seems to dim and you can feel its tremendous power simply by tou
 La lumière qui l'entoure semble s'atténuer et vous pouvez ressentir son immense pouvoir simplement en le touchant.]], "_t")
 t("absorb energies", "absorbe les énergies", "_t")
 t("This power seems too much to wield; you fear it might absorb YOU.", "Ce pouvoir semble trop lourd à gérer; vous craignez qu'il ne VOUS absorbe.", "logPlayer")
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 t("orb", "orbe", "entity type")
 t("orb", "orbe", "entity subtype")
 t("Orb of Many Ways", "Orbe des Multiples Voies", "entity name")
@@ -9665,8 +9665,8 @@ t("generic spellsurge", "surcharge de sort générique", "entity name")
 t("generic mana regeneration", "régéneration de mana générique", "entity name")
 t("generic increased mana", "augmentation de mana générique", "entity name")
 t("generic mana on crit", "mana sur crit générique", "entity name")
-t("generic increased vim", "augmentation de vigueur générique", "entity name")
-t("generic vim on crit", "vigueur sur crit générique", "entity name")
+t("generic increased vim", "augmentation de vitae générique", "entity name")
+t("generic vim on crit", "vitae sur crit générique", "entity name")
 t("generic phasing", "phase générique", "entity name")
 t("generic mindpower", "puissance mentale générique", "entity name")
 t("generic mindcrit", "crit mental générique", "entity name")
@@ -10365,7 +10365,7 @@ t("thick staff", "bâton épais", "_t")
 t("A thick staff with a heavy knob on the end.  It was said to be used by the grand alchemist Bolbum in the Age of Allure.  Much renowned is the fear of his students for their master, and the high rate of cranial injuries amongst them.  Bolbum died with seven daggers in his back and his much-cursed staff went missing after.", "Un bâton épais avec un lourd bouton à l'extrémité. On dit qu'il était utilisé par le grand alchimiste Bolbum à l'Ere de la Séduction. La crainte de ses élèves pour leur maître et le taux élevé de blessures crâniennes parmi eux sont très connus. Bolbum est mort avec sept poignards dans le dos et son bâton tant maudit a disparu par la suite.", "_t")
 t("a softly glowing crystal", "un cristal à la lueur douce", "_t")
 t([[Said to have once belonged to Inquisitor Marcus Dunn during the Spellhunt this fist sized quartz crystal glows constantly with a soft white light and was rumoured to be a great aid in meditation, helping focus the mind, body, and soul of the owner as well as protecting them from the foulest of magics.
-It seems somebody well versed in antimagic could use it to its fullest potential.]], [[Ce cristal de quartz de la taille d'un poing, qui aurait appartenu à l'inquisiteur Marcus Dunn pendant la Chasse Anti-Magique, brille constamment d'une douce lumière blanche. On dit qu'il est d'une grande aide pour la méditation, qu'il aide à concentrer l'esprit, le corps et l'âme de son propriétaire et qu'il le protège des magies les plus infâmes.
+It seems somebody well versed in antimagic could use it to its fullest potential.]], [[Ce cristal de quartz de la taille d'un poing, qui aurait appartenu à l'inquisiteur Marcus Dunn pendant la Purge Arcanique, brille constamment d'une douce lumière blanche. On dit qu'il est d'une grande aide pour la méditation, qu'il aide à concentrer l'esprit, le corps et l'âme de son propriétaire et qu'il le protège des magies les plus infâmes.
 Il semble que quelqu'un de bien versé dans l'anti-magie pourrait l'utiliser à son plein potentiel.]], "_t")
 t("#LIGHT_BLUE#You feel a great hero guiding you!", "#LIGHT_BLUE#Vous sentez qu'un grand héros vous guide!", "logPlayer")
 t("Eldoral Last Resort", "Dernier Recours d'Eldoral", "entity name")
@@ -10392,7 +10392,7 @@ t("flowing light cloak", "cape légère et fluide", "_t")
 t("When the enchanter Razeen was cornered by Spellhunters near the Daikara mountain pass she wrapped her cloak about her and fled down a narrow ravine.  The hunters fired volley after volley of arrows at her, but by miracle or magic they all missed.  Razeen was able to escape and flee to the hidden city in the west.", "Lorsque l'enchanteresse Razeen fut coincée par des chasseurs de sorts près du col de Daikara, elle s'enveloppa dans sa cape et s'enfuit dans un étroit ravin. Les chasseurs lui tirèrent volée après volée de flèches, mais par miracle ou par magie, ils la manquèrent tous. Razeen a pu s'échapper et s'enfuir vers la ville cachée à l'ouest.", "_t")
 t("Gwai's Burninator", "Le brûleur de Gwai", "entity name")
 t("glowing rod", "bâtonnet lumineux", "_t")
-t("Gwai, a Pyromanceress that lived during the Spellhunt, was cornered by group of mage hunters. She fought to her last breath and is said to have killed at least ten people with this wand before she fell.", "Gwai, une Pyromancienne qui vivait pendant la Chasse Anti-Magique, a été coincée par un groupe de chasseurs de mages. Elle s'est battue jusqu'à son dernier souffle et on dit qu'elle a tué au moins dix personnes avec ce bâtonnet avant de tomber.", "_t")
+t("Gwai, a Pyromanceress that lived during the Spellhunt, was cornered by group of mage hunters. She fought to her last breath and is said to have killed at least ten people with this wand before she fell.", "Gwai, une Pyromancienne qui vivait pendant le temps de la Purge Arcanique, a été coincée par un groupe de chasseurs de mages. Elle s'est battue jusqu'à son dernier souffle et on dit qu'elle a tué au moins dix personnes avec ce bâtonnet avant de tomber.", "_t")
 t("shoot a cone of flames (radius %d) for %0.2f fire damage (based on Magic)", "tire un cône de flammes (rayon %d) pour %0.2f dégâts de feu (basé sur la magie)", "tformat")
 t("%s activates %s %s!", "%s active %s %s!", "logSeen")
 t("Drake's Bane", "Le Fléau du Dragon", "entity name")
@@ -10436,7 +10436,7 @@ t("Beautifully detailed with images of King Toknor's defence of Last Hope. Despa
 t("Witch-Bane", "Fléau des Sorcières", "entity name")
 t("an ivory handled voratun longsword", "une épée longue en voratun à manche d'ivoire", "_t")
 t([[A thin voratun blade with an ivory handle wrapped in purple cloth.  The weapon is nearly as legendary as its former owner, Marcus Dunn, and was thought to have been destroyed after Marcus was slain near the end of the Spellhunt.
-It seems somebody well versed in antimagic could use it to its fullest potential.]], [[Une fine lame de voratun avec une poignée en ivoire enveloppée de tissu violet. L'arme est presque aussi légendaire que son ancien propriétaire, Marcus Dunn, et on pensait qu'elle avait été détruite après que Marcus ait été tué vers la fin de la Chasse anti-magique.
+It seems somebody well versed in antimagic could use it to its fullest potential.]], [[Une fine lame de voratun avec une poignée en ivoire enveloppée de tissu violet. L'arme est presque aussi légendaire que son ancien propriétaire, Marcus Dunn, et on pensait qu'elle avait été détruite après que Marcus ait été tué vers la fin de la Purge Arcanique.
 Il semble que quelqu'un de bien versé dans l'anti-magie pourrait l'utiliser à son plein potentiel.]], "_t")
 t("#LIGHT_BLUE#You feel a great hero watching over you!", "#LIGHT_BLUE#Vous sentez qu'un grand héros veille sur vous!", "logPlayer")
 t("Staff of Arcane Supremacy", "Bâton de Suprématie Arcanique", "entity name")
@@ -10872,19 +10872,19 @@ t("hit up to two adjacent enemies", "frappe jusqu'à deux ennemis adjacents", "_
 t("#Source#'s three headed flail lashes at #Target#%s!", "Le fléau à trois têtes de #Source# donne des coups de fouet à #Target#%s!", "logCombat")
 t(" and %s", " et %s", "tformat")
 t("#Source#'s three headed flail lashes at #Target#!", "Le fléau à trois têtes de #Source# fouette #Target#!", "logCombat")
-t("Spellhunt Remnants", "Vestiges de la Chasse aux Sorts", "entity name")
+t("Spellhunt Remnants", "Vestiges de la Purge Arcanique", "entity name")
 t("heavily corroded voratun gauntlets", "gantelets en voratun fortement corrodés", "_t")
-t("These once brilliant voratun gauntlets have fallen into a deep decay. Originally used in the spellhunt, they were often used to destroy arcane artifacts, curing the world of their influence.", "Ces gantelets en voratun autrefois brillants sont tombés dans une profonde décadence. Utilisés à l'origine durant la chasse aux sorts, ils servaient souvent à détruire les artefacts arcaniques, débarrassant le monde de leur influence.", "_t")
+t("These once brilliant voratun gauntlets have fallen into a deep decay. Originally used in the spellhunt, they were often used to destroy arcane artifacts, curing the world of their influence.", "Ces gantelets en voratun autrefois brillants sont tombés dans une profonde décadence. Utilisés à l'origine durant la purge arcanique, ils servaient souvent à détruire les artefacts arcaniques, débarrassant le monde de leur influence.", "_t")
 t("Can't be worn by those with arcane powers.", "Ne peuvent être portés par ceux qui ont des pouvoirs arcaniques.", "_t")
 t("#ORCHID#Your arcane equipment or powers conflict with the gauntlets!#LAST#", "#ORCHID#Votre équipement ou vos pouvoirs arcaniques entrent en conflit avec ces gants!#LAST#", "logPlayer")
 t("corroded voratun gauntlets", "gantelets en voratun corrodés", "_t")
-t("These once brilliant voratun gauntlets appear heavily decayed. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "Ces gantelets en voratun, autrefois brillants, semblent fortement délabrés. Utilisés à l'origine durant la chasse aux sorts, ils étaient souvent utilisés pour détruire les artefacts arcaniques, débarrassant le monde de leur influence.", "_t")
+t("These once brilliant voratun gauntlets appear heavily decayed. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "Ces gantelets en voratun, autrefois brillants, semblent fortement délabrés. Utilisés à l'origine durant la purge arcanique, ils étaient souvent utilisés pour détruire les artefacts arcaniques, débarrassant le monde de leur influence.", "_t")
 t("tarnished voratun gauntlets", "gants en voratun ternis", "_t")
-t("These voratun gauntlets appear to have suffered considerable damage. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "Ces gantelets en voratun semblent avoir subi des dommages considérables. Utilisés à l'origine durant la chasse aux sorts, ils servaient souvent à détruire les artefacts arcaniques, débarrassant le monde de leur influence.", "_t")
+t("These voratun gauntlets appear to have suffered considerable damage. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "Ces gantelets en voratun semblent avoir subi des dommages considérables. Utilisés à l'origine durant la purge arcanique, ils servaient souvent à détruire les artefacts arcaniques, débarrassant le monde de leur influence.", "_t")
 t("slightly tarnished voratun gauntlets", "gantelets en voratun légèrement ternis", "_t")
-t("These voratun gauntlets shine brightly beneath a thin layer of wear. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "Ces gantelets en voratun brillent de mille feux sous une fine couche d'usure. Utilisés à l'origine durant la chasse aux sorts, ils étaient souvent utilisés pour détruire les artefacts arcaniques, débarrassant le monde de leur influence.", "_t")
+t("These voratun gauntlets shine brightly beneath a thin layer of wear. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "Ces gantelets en voratun brillent de mille feux sous une fine couche d'usure. Utilisés à l'origine durant la purge arcanique, ils étaient souvent utilisés pour détruire les artefacts arcaniques, débarrassant le monde de leur influence.", "_t")
 t("gleaming voratun gauntlets", "gantelets en voratun brillants", "_t")
-t("These brilliant voratun gauntlets shine with an almost otherworldly glow. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence. Pride in the fulfillment of this ancient duty practically radiates from them.", "Ces brillants gantelets en voratun brillent d'un éclat presque surnaturel. Utilisés à l'origine durant la chasse aux sorts, ils étaient souvent utilisés pour détruire les artefacts arcaniques et débarrasser le monde de leur influence. La fierté d'avoir accompli ce devoir ancien rayonne pratiquement d'eux.", "_t")
+t("These brilliant voratun gauntlets shine with an almost otherworldly glow. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence. Pride in the fulfillment of this ancient duty practically radiates from them.", "Ces brillants gantelets en voratun brillent d'un éclat presque surnaturel. Utilisés à l'origine durant la purge arcanique, ils étaient souvent utilisés pour détruire les artefacts arcaniques et débarrasser le monde de leur influence. La fierté d'avoir accompli ce devoir ancien rayonne pratiquement d'eux.", "_t")
 t("attempt to destroy all magic effects and sustains on creatures in a radius %d cone (unnatural creatures are additionally dealt %0.2f arcane damage and stunned)", "Tente de détruire tous les effets magiques et les soutiens des créatures dans un cône de %d de rayon (les créatures non naturelles subissent en plus %0.2f dégâts arcanique et sont assomé).", "tformat")
 t("%s unleashes antimagic forces from %s %s!", "%s libère les forces anti-magiques de %s %s!", "logSeen")
 t("%s's animating magic is disrupted by the burst of power!", "la magie animée est perturbée par l'explosion de puissance de %s!", "logSeen")
@@ -11231,7 +11231,7 @@ t("Fist of the Destroyer", "Poing du Destructeur", "entity name")
 t("vile gauntlets", "gantelets ignobles", "_t")
 t("These fell looking gloves glow with untold power.", "Ces gants d'apparence ordinaire brillent d'une puissance inouïe.", "_t")
 t([[Increases all damage by %d%% of current vim 
-Current Bonus: %d%%]], [[Augmente tous les dégâts de %d%% la vigueur actuelle. 
+Current Bonus: %d%%]], [[Augmente tous les dégâts de %d%% la vitae actuelle. 
 Bonus actuel : %d%%]], "tformat")
 t("Only the masochistic can unlock its full power.", "Seul le masochiste peut débloquer toute sa puissance.", "_t")
 t("#STEEL_BLUE#The fist and the mangled clothing glow ominously!", "#STEEL_BLUE#Le poing et les vêtements déchiquetés brillent de façon inquiétante!", "logPlayer")
@@ -11246,7 +11246,7 @@ t([[Stolen flesh,
 	S'en défaire,
 	c'est vivre à nouveau.]], "_t")
 t([[Reduces all damage by %d%% of current vim or 50%% of the damage, whichever is lower; but at the cost of vim equal to 5%% of the damage blocked. 
-Current Bonus: %d]], [[Réduit tous les dégâts de %d%% de la vigueur actuelle ou de 50%% des dégâts, le chiffre le plus bas étant retenu. Au prix d'une vigueur égal à 5%% des dégâts bloqués. 
+Current Bonus: %d]], [[Réduit tous les dégâts de %d%% de la vitae actuelle ou de 50%% des dégâts, le chiffre le plus bas étant retenu. Au prix d'une vitae égal à 5%% des dégâts bloqués. 
 Bonus actuel : %d]], "tformat")
 t("With a better grip it would be the destroyer of your enemies.", "Avec une meilleure poigne, il serait le destructeur de vos ennemis.", "_t")
 t("Obliterator", "Oblitérateur", "entity name")
@@ -11509,7 +11509,7 @@ t("nature", "dégâts de nature", "entity subtype")
 t("anti-magic trap", "piège anti-magie", "entity name")
 t("@Target@ is blasted with anti-magic forces!", "@Target@ est frappé par des forces anti-magiques!", "_t")
 t("dull area", "endroit terne", "_t")
-t("Deals up to %d manaburn damage, draining mana, vim, and positive and negative energies within radius %d.", "Inflige jusqu'à %d dégâts de brûlure de mana, drainant le mana, la vigueur et les énergies positives et négatives dans un rayon de %d.", "tformat")
+t("Deals up to %d manaburn damage, draining mana, vim, and positive and negative energies within radius %d.", "Inflige jusqu'à %d dégâts de brûlure de mana, drainant le mana, la vitae et les énergies positives et négatives dans un rayon de %d.", "tformat")
 t("dragon fire trap", "piège de feu de dragon", "entity name")
 t("A powerful blast of fire impacts @target@!", "Une puissante explosion de feu frappe @target@!", "_t")
 t("burned area", "zone calcinée", "_t")
@@ -17602,9 +17602,9 @@ Your disobedient son]], "_t")
 section "mod-tome/data/lore/spellhunt.lua"
 
 t("memories of archmage Varil", "mémoires de l'archimage Varil", "_t")
-t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du chasseur de sorciers partie 1 : Comment détecter un lanceur de sorts?", "_t")
-t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du chasseur de sorciers - Partie 2 : Comment combattre un utilisateur de magie?", "_t")
-t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du chasseur de sorciers partie 3 : Comment tuer un utilisateur de magie?", "_t")
+t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts?", "_t")
+t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du Traque-sorts partie 2 : Comment combattre un utilisateur de magie?", "_t")
+t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts partie 3 : Comment tuer un utilisateur de magie?", "_t")
 -- texte non traduit
 --[==[
 t("age of dusk", "age of dusk", "newLore category")
@@ -19058,8 +19058,8 @@ t("Equilibrium", "Equilibre", "_t")
 t("Equilibrium represents your standing in the grand balance of nature. The closer it is to 0 the more balanced you are. Being out of equilibrium will adversely affect your ability to use Wild Gifts.", "L'équilibre représente votre position dans le grand équilibre de la nature. Plus il est proche de 0, plus vous êtes équilibré. Être hors d'équilibre affectera négativement votre capacité à utiliser les dons sauvages.", "_t")
 t("%d (%d%%%% fail)", "%d (%d%%%% d'échec)", "tformat")
 t("%d(fail: %s)", "%d(échec: %s)", "tformat")
-t("Vim", "Vigueur", "_t")
-t("Vim represents the amount of life energy/souls you have stolen. Each corruption talent requires some.", "La vigueur représente la quantité d'énergie vitale/d'âmes que vous avez volées. Chaque talent de corruption en exige.", "_t")
+t("Vim", "Vitae", "_t")
+t("Vim represents the amount of life energy/souls you have stolen. Each corruption talent requires some.", "La vitae représente la quantité d'énergie vitale/d'âmes que vous avez volées. Chaque talent de corruption en exige.", "_t")
 t("Positive energy", "Énergie positive", "_t")
 t("Positive energy represents your reserve of positive power. It slowly increases.", "L'énergie positive représente votre réserve de puissance positive. Elle augmente lentement.", "_t")
 t("Negative energy", "Énergie négative", "_t")
@@ -21064,6 +21064,7 @@ t([[Bone shields start circling around you. They will each fully absorb one inst
 section "mod-tome/data/talents/corruptions/corruptions.lua"
 
 t("torment", "tourment", "talent type")
+t("vim", "vitae", "talent type")
 t("bone", "os", "talent type")
 t("vile life", "vie infecte", "talent type")
 t("plague", "peste", "talent type")
@@ -21075,7 +21076,6 @@ t("corruption", "corruption", "talent category")
 t("sanguisuge", "sanguisuge", "talent type")
 t("Manipulate life force to feed your own dark powers.", "Manipulate life force to feed your own dark powers.", "_t")
 t("All the tools to torment your foes.", "All the tools to torment your foes.", "_t")
-t("vim", "vim", "talent type")
 t("Touch the very essence of your victims.", "Touch the very essence of your victims.", "_t")
 t("Harness the power of bones.", "Harness the power of bones.", "_t")
 t("hexes", "hexes", "talent type")
@@ -31244,7 +31244,7 @@ After days of travel, you have found the caves and entered it. What will you fin
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
 Vous êtes un Ogre, originaire d'Elvala.
 
-Vous devez faire face au mépris et à la peur d'un monde où votre espèce n'a jamais fait de mal, et la Chasse Anti-Magique aurait éradiqué votre race entièrement si le Shalore n'avait pas montré de la sympathie et accordé à vos ancêtres un refuge à Elvala.
+Vous devez faire face au mépris et à la peur d'un monde où votre espèce n'a jamais fait de mal, et la Purge Arcanique aurait éradiqué votre race entièrement si le Shalore n'avait pas montré de la sympathie et accordé à vos ancêtres un refuge à Elvala.
 Aujourd'hui, votre peuple commence à se défaire de sa vieille image, mais ce n'est pas pour cela que vous êtes partis à l'aventure. Vous avez appris les innombrables problèmes auxquels votre monde est confronté, et vous avez l'intention de les résoudre vous-même.
 Votre espèce est faite pour le combat et le travail, et Maj'Eyal a besoin de beaucoup des deux.  
 
@@ -32907,8 +32907,8 @@ Caractéristiques de classe:#YELLOW#
 - Prenez la vie de vos victimes pour vous guérir
 - Maîtrisez les énergies démoniaques pour brûler et détruire. Vous pouvez même invoquer une partie du plan démoniaque, le Plan de la Peur, pour piéger vos ennemis.#WHITE#
 
-Les Corrupteurs utilisent la "vigueur" pour alimenter leurs capacités spéciales.
-La vigueur est la force vitale de tous les êtres. Elle ne se régénère pas, et ne peut être volée qu'à vos ennemis.
+Les Corrupteurs utilisent la "vitae" pour alimenter leurs capacités spéciales.
+La vitae est la force vitale de tous les êtres. Elle ne se régénère pas, et ne peut être volée qu'à vos ennemis.
 ]], "_t")
 
 ------------------------------------------------
@@ -32943,8 +32943,8 @@ Caractéristiques de classe:#YELLOW#
 - Effectuez des mouvements de mêlée mortels de la plus grande méchanceté
 - Exploitez le pouvoir des os pour attaquer et protéger#WHITE#
 
-Les Moissoneurs utilisent la "vigueur" pour alimenter leurs capacités spéciales.
-La vigueur est la force vitale de tous les êtres. Elle ne se régénère pas, et ne peut être volée qu'à vos ennemis.
+Les Moissoneurs utilisent la "vitae" pour alimenter leurs capacités spéciales.
+La vitae est la force vitale de tous les êtres. Elle ne se régénère pas, et ne peut être volée qu'à vos ennemis.
 ]], "_t")
 
 ------------------------------------------------
@@ -33195,9 +33195,9 @@ Class features:#YELLOW#
 
 All mages use mana to cast their spells.
 It slowly replenishes over time.
-]], [[La magie n'a pas disparu de Maj'Eyal avec la fin de la Chasse anti-magique.
+]], [[La magie n'a pas disparu de Maj'Eyal avec la fin de la Purge Arcanique.
 
-Pendant l'Ere du Crépuscule, alors que la Chasse anti-magique touchait à sa fin, un puissant mage du Kar'Krul, Linaniil, a créé un refuge pour les quelques mages restants de toutes les races.
+Pendant l'Ere du Crépuscule, alors que la Purge Arcanique touchait à sa fin, un puissant mage du Kar'Krul, Linaniil, a créé un refuge pour les quelques mages restants de toutes les races.
 Ce lieu est Angolwen, la Cité de la Magie, et depuis plus de deux mille ans, il enseigne la magie pour la préserver et la développer.
 
 On vous a raconté cette histoire et vous pouvez maintenant créer de nouveaux personnages avec la classe #LIGHT_GREEN#Archimage#WHITE#.
@@ -33569,7 +33569,7 @@ Race features:#YELLOW#
 #WHITE#
 ]], [[Les ogres sont des humains modifiés par magie, qui se sont réfugiés à Elvala parmi les Shalore. 
 Leurs énormes corps, renforcés par (et dépendant de) un réseau complexe de runes lumineuses couvrant leur peau, en font un spectacle intimidant qui dément leur nature consciencieuse et modeste.
-Les ogres ont été créés (puis abandonnés) par le Conclave pendant les guerres de la Séduction, pour servir de guerriers et de travailleurs. Leur taille massive et leurs runes lumineuses les ont empêchés de se cacher pendant la Chasse anti-magique, et seuls ceux qui ont fui vers les terres Shalore ont survécu à l'extermination.
+Les ogres ont été créés (puis abandonnés) par le Conclave pendant les guerres de la Séduction, pour servir de guerriers et de travailleurs. Leur taille massive et leurs runes lumineuses les ont empêchés de se cacher pendant la Purge Arcanique, et seuls ceux qui ont fui vers les terres Shalore ont survécu à l'extermination.
 Leur talent pour les inscriptions est inégalé, car ils doivent être capables de maintenir leurs propres inscriptions pour survivre, et ils ont transmis leur savoir pour le faire. Bien que leur tendance à résoudre les problèmes de la manière la plus simple et directe possible (combinée à un tempérament... intense) leur a donné une réputation injuste de brutes inintelligentes, une industrie commerciale croissante dans la production d'inscriptions érode progressivement cette image.
 
 Vous avez appris les détails du passé des Ogres et mit au repos leurs créateurs terrifiés, et avez techniquement amené les Guerres de la Séduction à leur conclusion tant attendue en éliminant les derniers vestiges du Conclave. Vous pouvez maintenant créer de nouveaux personnages #LIGHT_GREEN#Ogres#WHITE# pour voir leur force magique en action!
@@ -34041,7 +34041,7 @@ t("+Purging", "+Purge", "_t")
 t("#Target#'s is no longer being purged.", "#Target# n'est plus purgé.", "_t")
 t("-Purging", "-Purge", "_t")
 t("sense", "sens", "effect subtype")
-t("Sensing (Vim)", "Détection (Vigueur)", "_t")
+t("Sensing (Vim)", "Détection (Vitae)", "_t")
 t("Improves senses, allowing the detection of unseen things.", "Améliore les sens, permettant de détecter des choses non vues.", "_t")
 t("Sense Hidden", "Détection de l'Invisible", "_t")
 t("Improves/gives the ability to see invisible and stealthed creatures (power %d).", "Améliore/donne la capacité de voir les créatures invisibles et dissimulées (puissance %d).", "tformat")
@@ -34372,7 +34372,7 @@ t("The target is infected by a disease doing %0.2f blight damage per turn.%s", "
 t("#Target# is afflicted by ghoul rot!", "#Target# est affecté par la pourriture de goule!", "_t")
 t("#Target# is free from the ghoul rot.", "#Target# est libéré de la pourriture de goule.", "_t")
 t("Bloodcasting", "Lancement Sanguinolant", "_t")
-t("Corruptions consume health instead of vim.", "Les corruptions consomment de la santé au lieu de la vigueur.", "_t")
+t("Corruptions consume health instead of vim.", "Les corruptions consomment de la santé au lieu de la vitae.", "_t")
 t("Sanguine Infusion", "Infusion Sanguine", "_t")
 t("Maximum life increased by %d.", "La vie maximum est augmenté de %d.", "tformat")
 t("Arcane Supremacy", "Suprématie Arcanique", "_t")
@@ -38052,16 +38052,16 @@ t("Monster!", "Monstre!", "_t")
 t("Die!", "Meurt!", "_t")
 t("You will not kill us!", "Vous ne nous tuerez pas!", "_t")
 t("We will end this!", "Nous allons mettre fin à cela!", "_t")
-t("caravan merchant", "marchand caravanier", "entity name")
+t("caravan merchant", "caravanier", "entity name")
 t("A caravan merchant.", "Un marchand ambulant.", "_t")
-t("caravan guard", "garde de caravane", "entity name")
-t("A caravan guard.", "Un garde de caravane.", "_t")
-t("caravan porter", "porteur de caravane", "entity name")
-t("A caravan porter.", "Un porteur de caravane.", "_t")
+t("caravan guard", "garde de la caravane", "entity name")
+t("A caravan guard.", "Un garde de la caravane.", "_t")
+t("caravan porter", "porteur de la caravane", "entity name")
+t("A caravan porter.", "Un porteur de la caravane.", "_t")
 t("war dog", "chien de guerre", "entity name")
-t("This is a large dog, bred and trained for fighting.", "Il s'agit d'un gros chien, élevé et entraîné pour le combat.", "_t")
+t("This is a large dog, bred and trained for fighting.", "Il s'agit d'un gros chien, élevé et dressé pour le combat.", "_t")
 t("corrupted war dog", "chien de guerre corrompu", "entity name")
-t("This is a large dog, bred and trained for fighting. Something about the way it moves doesn't look normal.", "C'est un gros chien, élevé et entraîné pour le combat. Sa façon de se déplacer est étrange.", "_t")
+t("This is a large dog, bred and trained for fighting. Something about the way it moves doesn't look normal.", "C'est un gros chien, élevé et dressé pour le combat. Quelque chose dans sa manière de se déplacer est anormal.", "_t")
 t("undead", "mort-vivant", "entity type")
 t("shadow", "ombre", "entity subtype")
 t("shadow claw", "griffe de l'ombre", "entity name")
@@ -38073,9 +38073,9 @@ t("Companion Warrior", "Guerrier Compagnon", "entity name")
 t("This elf is a companion of Berethh. He's dressed in light armor and wields a sword.", "Cet elfe est un compagnon de Berethh. Il porte une armure légère et manie une épée.", "_t")
 t("Companion Archer", "Archer Compagnon", "entity name")
 t("This elf is a companion of Berethh. He's dressed in light armor and wields a bow.", "Cet elfe est un compagnon de Berethh. Il porte une armure légère et manie un arc.", "_t")
-t("This is Kyless, your old friend. He seems dirtier than you recall and a good bit more dangerous.", "Voici Kyless, votre vieil ami. Il a l'air plus sale que dans tes souvenirs et bien plus dangereux.", "_t")
+t("This is Kyless, your old friend. He seems dirtier than you recall and a good bit more dangerous.", "Voici Kyless, votre vieil ami. Il paraît plus sale que dans vos souvenirs, et nettement plus dangereux.", "_t")
 t("and fed to his corrupted dogs", "et donnés en pâture à ses chiens corrompus", "_t")
-t("This is Berethh, your old friend. He is dressed in well-worn leather and skillfully wields a bow. There is something noble about the way he carries himself but his expression carries no emotion.", "Voici Berethh, votre vieil ami. Il est vêtu de cuir usé et manie l'arc avec adresse. Il a une certaine noblesse dans son allure, mais son expression est impassible.", "_t")
+t("This is Berethh, your old friend. He is dressed in well-worn leather and skillfully wields a bow. There is something noble about the way he carries himself but his expression carries no emotion.", "Voici Berethh, votre vieil ami. Il est vêtu d'un cuir usé et manie l'arc avec adresse. Il a une certaine noblesse dans son allure, mais son expression est impassible.", "_t")
 t("and quickly burned in a pyre", "et rapidement brûlé sur un bûcher", "_t")
 -- texte non traduit
 --[==[
@@ -38092,16 +38092,16 @@ t("folded up piece of paper", "morceau de papier plié", "entity name")
 t("A folded up piece of paper with a few notes written on it.", "Un morceau de papier plié avec quelques notes écrites dessus.", "_t")
 t("Iron Acorn", "Gland de Fer", "entity name")
 t("misc", "divers", "entity type")
-t("trinket", "bibelot", "entity subtype")
+t("trinket", "babiole", "entity subtype")
 t("A small acorn, crafted crudely out of iron.", "Un petit gland, grossièrement façonné en fer.", "_t")
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
-t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. You find having the acorn helps to anchor your mind and prepare you for the trials ahead.", "Un petit gland, grossièrement façonné en fer. Il appartenait jadis à Bander, mais il est désormais à vous. Vous constatez que posséder ce gland vous aide à vous concentrer et à vous préparer aux épreuves à venir.", "_t")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
+t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. You find having the acorn helps to anchor your mind and prepare you for the trials ahead.", "Un petit gland, grossièrement façonné en fer. Il appartenait jadis à Bander, mais il est désormais à vous. Vous constatez que posséder ce gland vous aide à garder l'esprit clair et à vous préparer aux épreuves à venir.", "_t")
 t("Cold Iron Acorn", "Gland en Fer Froid", "entity name")
 t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. The acorn serves as a reminder of who and what you are.", "Un petit gland, grossièrement façonné en fer. Il appartenait jadis à Bander, mais il est désormais à vous. Ce gland vous rappelle qui et ce que vous êtes.", "_t")
 t("journal page", "page de journal", "entity name")
 t("A page containing an entry from Kyless' journal.", "Une page contenant une entrée du journal de Kyless.", "_t")
 t("Kyless' Book", "Livre de Kyless", "entity name")
-t("This was the book that gave power to Kyless and eventually led to his doom. The book is simple in appearance, bound in leather with no markings on the cover. All of the pages are blank.", "C'est ce livre qui donna son pouvoir à Kyless et qui causa finalement sa perte. D'apparence simple, il est relié en cuir et sa couverture est vierge de toute inscription. Toutes ses pages sont blanches.", "_t")
+t("This was the book that gave power to Kyless and eventually led to his doom. The book is simple in appearance, bound in leather with no markings on the cover. All of the pages are blank.", "C'est ce livre qui donna son pouvoir à Kyless et qui causa finalement sa perte. D'apparence simple, il est relié de cuir et sa couverture est vierge de toute inscription. Toutes ses pages sont blanches.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/keepsake-meadow/traps.lua"
@@ -38214,13 +38214,13 @@ t("Heart of the Sandworm Queen", "Coeur de la Reine des Vers des Sables", "_t")
 t("The altar seems to react to the heart. You feel you could corrupt it here.", "L'autel semble réagir au coeur. Vous pensez pouvoir le corrompre ici.", "_t")
 t("#GREEN#You put the heart on the altar. The heart shrivels and shakes, vibrating with new corrupt forces.", "#GREEN#Vous déposez le coeur sur l'autel. Le coeur se ratatine et tremble, vibrant de ses nouvelles forces corruptrices.", "log")
 t("Cancel", "Annuler", "_t")
-t("Corrupt", "Corrompu", "_t")
+t("Corrupt", "Corrompre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/npcs.lua"
 
 t("Grand Corruptor", "Grand Corrupteur", "entity name")
-t("An Elven corruptor, drawn to these blighted lands.", "Un elfe corrupteur, attiré par ces terres maudites.", "_t")
+t("An Elven corruptor, drawn to these blighted lands.", "Un corrupteur elfe, attiré par ces terres maudites.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/objects.lua"
@@ -38230,8 +38230,8 @@ t("A letter.", "Une lettre.", "_t")
 t("corpse", "cadavre", "entity type")
 t("heart", "coeur", "entity subtype")
 t("Corrupted heart of the Sandworm Queen", "Coeur corrompu de la Reine des Vers des Sables", "entity name")
-t("pulsing organ", "organe pulsant", "_t")
-t("The heart of the Sandworm Queen, ripped from her dead body and corrupted in the mark of the spellblaze altar. You could ... consume it, should you feel mad enough.", "Le Coeur de la Reine des Ver des Sables, arraché à son corps sans vie et corrompu par la marque de l'autel de la Brûlure Magique. Vous pourriez... le consommer, si vous êtes suffisement fou.", "_t")
+t("pulsing organ", "organe palpitant", "_t")
+t("The heart of the Sandworm Queen, ripped from her dead body and corrupted in the mark of the spellblaze altar. You could ... consume it, should you feel mad enough.", "Le Coeur de la Reine des Ver des Sables, arraché à son corps sans vie et corrompu sur l'autel de la Marque de la Brûlure Magique. Vous pourriez... le consommer, si vous êtes suffisement fou.", "_t")
 t("consume the heart", "consommer le coeur", "_t")
 t("#00FFFF#You consume the heart and feel the corruption fill you!", "#00FFFF#Vous dévorez le coeur et vous sentez la corruption vous envahir!", "logPlayer")
 t("You have %d stat point(s) to spend. Press p to use them.", "Vous disposez de %d points de stats à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
@@ -38251,10 +38251,10 @@ section "mod-tome/data/zones/maze/grids.lua"
 t("teleporting circle to the surface", "cercle de téléportation vers la surface", "entity name")
 t("wall", "mur", "entity type")
 t("cracks", "fissures", "entity subtype")
-t("huge crack in the floor", "une énorme fissure dans le sol", "entity name")
-t("Crack in the floor", "Fissure dans le sol", "_t")
+t("huge crack in the floor", "une énorme crevasse dans le sol", "entity name")
+t("Crack in the floor", "Crevasse dans le sol", "_t")
 t([[This area appears to have been hit by a huge tremor, breaking the floor in a huge crack.
-You think you can jump to the level below.]], [[Cette zone semble avoir été frappée par un violent tremblement de terre, provoquant une immense fissure dans le sol.
+You think you can jump to the level below.]], [[Cette zone semble avoir été frappée par un violent tremblement de terre, provoquant une immense crevasse dans le sol.
 Vous pensez pouvoir sauter au niveau inférieur.]], "_t")
 t("Jump", "Sautez", "_t")
 t("Stay", "Restez", "_t")
@@ -38265,8 +38265,8 @@ section "mod-tome/data/zones/maze/npcs.lua"
 t("horror", "horreur", "entity type")
 t("corrupted", "corrompu", "entity subtype")
 t("Horned Horror", "Horreur Cornue", "entity name")
-t("Some horrible power has twisted this brutish minotaur into something altogether more terrifying. Huge tentacles undulate from its back as it clenches and unclenches its powerful fists.", "Une force terrible a transformé ce minotaure brutal en une créature bien plus terrifiante. D'énormes tentacules ondulent de son dos tandis qu'il serre et desserre ses poings puissants.", "_t")
-t("and revived as a mindless horror", "et ressuscité sous la forme d'une horreur dénuée de sens", "_t")
+t("Some horrible power has twisted this brutish minotaur into something altogether more terrifying. Huge tentacles undulate from its back as it clenches and unclenches its powerful fists.", "Une force terrible a transformé ce minotaure brutal en une créature encore plus terrifiante. D'énormes tentacules ondulent dans son dos tandis qu'il serre et desserre ses poings puissants.", "_t")
+t("and revived as a mindless horror", "et ressuscité sous la forme d'une horreur dénuée d'esprit", "_t")
 t("Have you hard about the patrol that disappeared in the maze in the west?", "Avez-vous entendu parler de la patrouille qui a disparu dans le labyrinthe à l'ouest?", "_t")
 t("giant", "géant", "entity type")
 t("minotaur", "minotaure", "entity subtype")
@@ -38285,7 +38285,7 @@ section "mod-tome/data/zones/maze/objects.lua"
 
 t("torn diary page", "page de journal déchirée", "entity name")
 t("A diary, left by an adventurer.", "Un journal laissé par un aventurier.", "_t")
-t("the perfect killing device", "le parfait dispositif pour tuer", "entity name")
+t("the perfect killing device", "le dispositif parfait pour tuer", "entity name")
 t("Some notes describing how to create poison gas traps, left by an unfortunate rogue.", "Quelques notes décrivant comment fabriquer des pièges à gaz toxique, laissées par un brigant malchanceux.", "_t")
 
 ------------------------------------------------
@@ -38559,7 +38559,7 @@ section "mod-tome/data/zones/reknor/objects.lua"
 t("Sealed Scroll of Last Hope", "Parchemin Scellé de Dernier Espoir", "entity name")
 t("open the seal and read the message", "ouvrez le sceau et lisez le message", "_t")
 t("Resonating Diamond", "Diamant Résonnant", "entity name")
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
 t("Blood-Runed Athame", "Athamé Runes de Sang", "entity name")
@@ -38821,7 +38821,7 @@ t("Some people get the weirdest ideas!", "Certaines personnes ont des idées vra
 t("corpse", "cadavre", "entity type")
 t("heart", "coeur", "entity subtype")
 t("Heart of the Sandworm Queen", "Coeur de la Reine des Vers des Sables", "entity name")
-t("pulsing organ", "organe pulsant", "_t")
+t("pulsing organ", "organe palpitant", "_t")
 t([[The heart of the Sandworm Queen, ripped from her dead body.
 You could ... consume it, should you feel mad enough or you could try to corrupt it somewhere.]], [[Le coeur de la Reine des Vers des Sables, arraché de son cadavre.
 Vous pourriez... le consommer, si la folie vous gagne, ou tenter de le corrompre quelque part ]], "_t")
@@ -39230,7 +39230,7 @@ t("Drolem", "Drolem", "entity name")
 section "mod-tome/data/zones/tannen-tower/objects.lua"
 
 t("Resonating Diamond", "Diamant Résonnant", "entity name")
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 t("misc", "divers", "entity type")
 t("misc", "divers", "entity subtype")
 t("Blood-Runed Athame", "Athamé Runes de Sang", "entity name")
@@ -39932,7 +39932,7 @@ t("open gate", "porte ouverte", "entity name")
 section "mod-tome/data/zones/town-zigur/npcs.lua"
 
 t("Grand Corruptor", "Grand Corrupteur", "entity name")
-t("An Elven corruptor, drawn to these blighted lands.", "Un elfe corrupteur, attiré par ces terres maudites.", "_t")
+t("An Elven corruptor, drawn to these blighted lands.", "Un corrupteur elfe, attiré par ces terres maudites.", "_t")
 t("Protector Myssil", "Protecteur Myssil", "entity name")
 t("halfling", "halfelin", "entity subtype")
 t("A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "Une Ziguranth halfeline, vêtue de plaques d'acier sombre. Elle est l'actuelle dirigeante de Zigur.", "_t")
@@ -40630,7 +40630,7 @@ t("Level: %d", "Niveau: %d", "tformat")
 t("HP: %d (%d%%) #GREEN#+%0.2f#LAST#", "PV: %d (%d%%) #GREEN#+%0.2f#LAST#", "tformat")
 t("\
 Vim:  %s%d / %d#LAST#", "\
-Vigueur:  %s%d / %d#LAST#", "tformat")
+Vitae:  %s%d / %d#LAST#", "tformat")
 t("\
 Positive:  %s%d / %d#LAST#", "\
 Positif:  %s%d / %d#LAST#", "tformat")
@@ -40638,7 +40638,7 @@ t("\
 Negative:  %s%d / %d#LAST#", "\
 Négative:  %s%d / %d#LAST#", "tformat")
 t("Iceblock: %d", "Bloc de glace: %d", "tformat")
-t("%sVim Value: %d#LAST#", "%sValeur de Vigueur: %d#LAST#", "tformat")
+t("%sVim Value: %d#LAST#", "%sValeur de Vitae: %d#LAST#", "tformat")
 t("#ffa0ff#Predator: +%d acc, +%d apr#LAST#", "#ffa0ff#Prédateur: +%d acc, +%d pen#LAST#", "tformat")
 t("Resists: ", "Résistances: ", "_t")
 t("Hardiness/Armour: ", "Robustesse/Armure: ", "_t")
@@ -41376,7 +41376,7 @@ t("Mana each turn: ", "Mana par tour: ", "_t")
 t("Hate each turn: ", "Haine par tour: ", "_t")
 t("Psi each turn: ", "Psi par tour: ", "_t")
 t("Equilibrium each turn: ", "Equilibre par tour: ", "_t")
-t("Vim each turn: ", "Vigueur par tour: ", "_t")
+t("Vim each turn: ", "Vitae par tour: ", "_t")
 t("P.Energy each turn: ", "P.Energie par tour: ", "_t")
 t("N.Energy each turn: ", "N.Energie par tour: ", "_t")
 t("Stamina when hit: ", "Endurance quand touché: ", "_t")
@@ -41384,17 +41384,17 @@ t("Mana when hit: ", "Mana quand touché: ", "_t")
 t("Equilibrium when hit: ", "Equilibre quand touché: ", "_t")
 t("Psi when hit: ", "Psi quand touché: ", "_t")
 t("Hate when hit: ", "Haine quand touché: ", "_t")
-t("Vim when hit: ", "Vigueur quand touché: ", "_t")
-t("Vim when hitting in melee: ", "Vigueur quand on touche en mélée: ", "_t")
+t("Vim when hit: ", "Vitae quand touché: ", "_t")
+t("Vim when hitting in melee: ", "Vitae lors d'une touche en mélée: ", "_t")
 t("Mana when firing critical spell: ", "Mana quand on lance un sort ctritique: ", "_t")
-t("Vim when firing critical spell: ", "Vigueur quand on lance un sort ctritique: ", "_t")
+t("Vim when firing critical spell: ", "Vitae quand on lance un sort ctritique: ", "_t")
 t("Spellpower on spell critical (stacks up to 3 times): ", "Puissance des sorts sur un sort critique (cumulable jusqu'a 3 fois): ", "_t")
 t("Hate when firing a critical mind attack: ", "Haine en lancant une attaque critique mentale: ", "_t")
 t("Psi when firing a critical mind attack: ", "Psi en lancant une attaque critique psionique: ", "_t")
 t("Equilibrium when firing a critical mind attack: ", "Equilibre en lancant une attaque critique mentale: ", "_t")
 t("Hate per kill: ", "Haine par monstre tué: ", "_t")
 t("Psi per kill: ", "Psi par monstre tué: ", "_t")
-t("Vim per kill: ", "Vigueur par monstre tué: ", "_t")
+t("Vim per kill: ", "Vitae par monstre tué: ", "_t")
 t("%+.2f life", "%+.2f vie", "_t")
 t("Only die when reaching: ", "Mourir uniquement lorsqu'on atteint: ", "_t")
 t("Maximum life: ", "Vie maximum: ", "_t")
@@ -41403,7 +41403,7 @@ t("Maximum souls: ", "Âmes maximum: ", "_t")
 t("Maximum stamina: ", "Endurance maximun: ", "_t")
 t("Maximum hate: ", "Haine maximum: ", "_t")
 t("Maximum psi: ", "Psi maximum: ", "_t")
-t("Maximum vim: ", "Vigueur maximum: ", "_t")
+t("Maximum vim: ", "Vitae maximum: ", "_t")
 t("Maximum pos.energy: ", "Pos.energie maximum: ", "_t")
 t("Maximum neg.energy: ", "Neg.energie maximum: ", "_t")
 t("Maximum air capacity: ", "Capacité d'air maximale: ", "_t")
@@ -42102,11 +42102,11 @@ Vim represents the amount of life energy you control. Each corruption talent req
 It does not regenerate naturally; you need to drain it from yourself or your victims.
 Each time you kill a creature you gain 50% of your Willpower + 1 as Vim.  This value is multiplied by the rank of the creature.
 If you can't pay for the Vim cost of a talent you may instead pay with life at a rate of 200% of the Vim cost.
-]], [[#GOLD#Vigueur#LAST#
-La Vigueur représente la quantité d'énergie vitale que vous contrôlez. Chaque talent de corruption en requiert.
+]], [[#GOLD#Vitae#LAST#
+La Vitae représente la quantité d'énergie vitale que vous contrôlez. Chaque talent de corruption en requiert.
 Elle ne se régénère pas naturellement. Vous devez la puiser en vous-même ou en vos victimes.
-Chaque fois que vous tuez une créature, vous gagnez 50% de votre Volonté + 1 en Vigueur. Cette valeur est multipliée par le rang de la créature.
-Si vous ne pouvez pas payer le coût en Vigueur d'un talent, vous pouvez le payer en vie à raison de 200% du coût en Vigueur.
+Chaque fois que vous tuez une créature, vous gagnez 50% de votre Volonté + 1 en Vitae. Cette valeur est multipliée par le rang de la créature.
+Si vous ne pouvez pas payer le coût en Vitae d'un talent, vous pouvez le payer en vie à raison de 200% du coût en Vitae.
 ]], "_t")
 t([[#GOLD#Equilibrium#LAST#
 Equilibrium reflects your standing in the grand balance of nature and how easily you can access Wild Gifts.
@@ -45023,9 +45023,9 @@ t("History says little of the ancient race of yeeks that lived in halfling terri
 t("Dwarves are naturally a inquisitive people, but do not enjoy such inquisition turned on them. Most live secretive lives in their closed-off city, the Iron Throne.", "Les nains sont naturellement un peuple curieux, mais ils n'apprécient pas qu'une telle curiosité se retourne contre eux. La plupart d'entre eux vivent en secret dans leur ville fermée, le Trône de fer.", "init.lua load_tips")
 t("Alchemists can bind gems to armour to grant them magical effects, to protect the wearer or improve their powers. Some commercial alchemists can imbue gems into jewellery.", "Les alchimistes peuvent lier les pierres précieuses à une armure pour leur conférer des effets magiques, pour protéger le porteur ou améliorer leurs pouvoirs. Certains alchimistes à vocation commerciale peuvent imprégner les bijoux de pierres précieuses.", "init.lua load_tips")
 t("The Spellblaze was followed by the Age of Dusk, when disease was rife and civilisation collapsed. Necromancers and fell sorcerers took advantage of the chaos to spread their vile deeds.", "La brûlure magique a été suivi par l'Ere du Crépuscule, où la maladie était répandue et la civilisation s'est effondrée. Les nécromanciens et les sorciers déchus ont profité du chaos pour répandre leurs infâmie.", "init.lua load_tips")
-t("After the Spellblaze came the Spellhunt, when the normal people rose against the arrogance of the mages and hunted them down like wolves. Some survived and went into hiding, but many innocents were killed.", "Après la brûlure magique, il y eut la Chasse anti-magique, où les gens normaux s'élevèrent contre l'arrogance des mages et les chassèrent comme des loups. Certains ont survécu et se sont cachés, mais beaucoup d'innocents ont été tués.", "init.lua load_tips")
+t("After the Spellblaze came the Spellhunt, when the normal people rose against the arrogance of the mages and hunted them down like wolves. Some survived and went into hiding, but many innocents were killed.", "Après la brûlure magique, il y eut la Purge Arcanique, où les gens normaux s'élevèrent contre l'arrogance des mages et les chassèrent comme des loups. Certains ont survécu et se sont cachés, mais beaucoup d'innocents ont été tués.", "init.lua load_tips")
 t("Demons are thought to come from another world, brought to Eyal by magical forces. Some are highly intelligent and follow their own ambitions. To what end, none know.", "On pense que les démons viennent d'un autre monde, amenés à Eyal par des forces magiques. Certains sont très intelligents et poursuivent leurs propres ambitions. A quelle fin, personne ne le sait.", "init.lua load_tips")
-t("The art of potion making fell into decline after the Spellhunt, and only a rare few now master the gift.", "L'art de la fabrication de potions est tombé en déclin après la Chasse anti-magie, et seuls quelques rares individus maîtrisent aujourd'hui ce don.", "init.lua load_tips")
+t("The art of potion making fell into decline after the Spellhunt, and only a rare few now master the gift.", "L'art de la fabrication de potions est tombé en déclin après la Purge Arcanique, et seuls quelques rares individus maîtrisent aujourd'hui ce don.", "init.lua load_tips")
 t("It's said that some rare powers can save your soul from the edge of death.", "On dit que certains rares pouvoirs peuvent sauver votre âme du bord de la mort.", "init.lua load_tips")
 t("Rumours tell of a shadowy cult kidnapping women and performing strange rites. Their intentions are unknown, and they have so far evaded capture.", "Les rumeurs parlent d'une secte obscure qui enlève des femmes et accomplit des rites étranges. Leurs intentions sont inconnues, et ont jusqu'à présent échappé à la capture.", "init.lua load_tips")
 t("Though slavery is illegal there is still a black market for it, and in some areas men are even used for blood sports.", "Bien que l'esclavage soit illégal il existe toujours un marché noir pour ce type d'activité, et dans certaines régions, les hommes sont même utilisés dans des combats sanglants.", "init.lua load_tips")
