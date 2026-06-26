@@ -9419,10 +9419,10 @@ section "mod-tome/data/general/objects/lore/spellhunt.lua"
 
 t("memories of archmage Varil", "mémoires de l'archimage Varil", "entity name")
 t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "Une collection de pensées et de souvenirs de l'archimage Varil, pendant l'Ere du Crépuscule.", "_t")
-t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du chasseur de sorciers partie 1 : Comment détecter un lanceur de sorts?", "entity name")
+t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts?", "entity name")
 t("The definitive guide to hunting magic users.", "Le guide définitif de la chasse aux utilisateurs de magie.", "_t")
-t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du chasseur de sorciers - Partie 2 : Comment combattre un utilisateur de magie?", "entity name")
-t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du chasseur de sorciers partie 3 : Comment tuer un utilisateur de magie?", "entity name")
+t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du Traque-sorts partie 2 : Comment combattre un utilisateur de magie?", "entity name")
+t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts partie 3 : Comment tuer un utilisateur de magie?", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/sunwall.lua"
@@ -10378,7 +10378,7 @@ t("During the invasion of Eldoral the Halfling Rogue Herah is said to have slain
 t("#LIGHT_BLUE#Herah's guile and luck is with you, her successor!", "#LIGHT_BLUE#La ruse et la chance d'Herah sont avec vous, son successeur!", "logPlayer")
 t("Nature's Vengeance", "Vengeance de la Nature", "entity name")
 t("thick wooden mace", "masse épaisse en bois", "_t")
-t("This thick-set mace was used by the Spellhunter Vorlan, who crafted it from the wood of an ancient oak that was uprooted during the Spellblaze.  Many were the wizards and witches felled by this weapon, brought to justice for the crimes they committed against nature.", "Cette masse épaisse était utilisée par le chasseur de sorts Vorlan, qui l'a fabriquée à partir du bois d'un ancien chêne déraciné pendant la Brûlure Magique.  Nombreux furent les sorciers et sorcières abattus par cette arme, traduits en justice pour les crimes qu'ils avaient commis contre la nature.", "_t")
+t("This thick-set mace was used by the Spellhunter Vorlan, who crafted it from the wood of an ancient oak that was uprooted during the Spellblaze.  Many were the wizards and witches felled by this weapon, brought to justice for the crimes they committed against nature.", "Cette masse épaisse était utilisée par le Traque-sorts Vorlan, qui l'a fabriquée à partir du bois d'un ancien chêne déraciné pendant la Brûlure Magique. Nombreux furent les sorciers et sorcières abattus par cette arme, traduits en justice pour les crimes qu'ils avaient commis contre la nature.", "_t")
 t("#LIGHT_BLUE#You feel nature defending you.", "#LIGHT_BLUE#Vous sentez que la nature vous défend.", "logPlayer")
 t("Fists of the Desert Scorpion", "Poings du Scorpion du Désert", "entity name")
 t("viciously spiked gauntlets", "gantelets à pointes vicieuses", "_t")
@@ -18254,7 +18254,7 @@ section "mod-tome/data/quests/arena.lua"
 t("The Arena", "L'Arène", "_t")
 t("Seeking wealth, glory, and a great fight, you challenge the Arena!", "En quête de richesse, de gloire et d'un grand combat, vous défiez l'arène!", "_t")
 t("Can you defeat your foes and become Master of Arena?", "Pourrez-vous vaincre vos ennemis et devenir le maître de l'arène?", "_t")
-t("Winner", "Gagnant", "_t")
+t("Winner", "Victoire", "_t")
 t("#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "#GOLD#Bravo ! Vous avez gagné l'Arène: Le défi du maître#WHITE#", "_t")
 t("You valiantly fought every creature the arena could throw at you and you emerged victorious!", "Tu as vaillamment combattu toutes les créatures que l'arène pouvait t'envoyer et tu en es sorti victorieux!", "_t")
 t("Glory to you, you are now the new master and your future characters will challenge you.", "Gloire à vous, vous êtes maintenant le nouveau maître et vos futurs personnages vous mettront au défi.", "_t")
@@ -18388,43 +18388,43 @@ t("You have laid Celia to rest, putting an end to her failed experiments. You ha
 section "mod-tome/data/quests/high-peak.lua"
 
 t("Falling Toward Apotheosis", "Vers l'apothéose", "_t")
-t("You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "Vous avez vaincu les maîtres des fiertés orcs. Vous devez maintenant vous aventurer dans l'endroit le plus dangereux de ce monde: le Pic Supérieur.", "_t")
-t("Seek the Sorcerers and stop them before they bend the world to their will.", "Cherchez les sorciers et arrêtez-les avant qu'ils ne plient le monde à leur volonté.", "_t")
-t("To enter, you will need the four orbs of command to remove the shield over the peak.", "Pour entrer, vous aurez besoin des quatre orbes de commande pour enlever le bouclier au-dessus du pic.", "_t")
-t("The entrance to the peak passes through a place called 'the slime tunnels', probably located inside or near Grushnak Pride.", "L'entrée du pic passe par un endroit appelé \"les tunnels de boue\", probablement situé à l'intérieur ou à proximité de La Fierté Grushnak.", "_t")
+t("You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "Vous avez vaincu les maîtres des fiertés orcs. Vous devez maintenant vous aventurer dans le lieu le plus dangereux de ce monde: le Pic Supérieur.", "_t")
+t("Seek the Sorcerers and stop them before they bend the world to their will.", "Traquez les sorciers et arrêtez-les avant qu'ils ne plient le monde à leur volonté.", "_t")
+t("To enter, you will need the four orbs of command to remove the shield over the peak.", "Pour entrer, vous aurez besoin des quatre orbes de commande afin de dissiper le bouclier qui protège le pic.", "_t")
+t("The entrance to the peak passes through a place called 'the slime tunnels', probably located inside or near Grushnak Pride.", "L'entrée du pic passe par un lieu appelé \"les tunnels de boue\", probablement situé à l'intérieur ou à proximité de La Fierté Grushnak.", "_t")
 t("You have reached the summit of the High Peak, entered the sanctum of the Sorcerers and destroyed them, freeing the world from the threat of evil.", "Vous avez atteint le sommet du Pic Supérieur, pénétré dans le sanctuaire des sorciers et les avez détruits, libérant ainsi le monde de la menace du mal.", "_t")
 t("You have won the game!", "Vous avez gagné la partie!", "_t")
-t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall. You were forced to kill her.#LAST#", "#LIGHT_GREEN#* Tu as rencontré Aeryn, la Paladine Solaire, qui te reprochait la perte du Mur Solair. Tu as été obligé de la tuer.#LAST#", "_t")
-t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall, but you spared her.#LAST#", "#LIGHT_GREEN#* Vous avez rencontré la Paladine Solaire Aeryn, qui vous a reproché la perte du Sunwall, mais vous l'avez épargnée.#LAST#", "_t")
-t("#LIGHT_GREEN#* You defeated the Sorcerers before the Void portal could open.#LAST#", "#LIGHT_GREEN#* Tu as vaincu les Sorciers avant que le portail du Néant ne s'ouvre.#LAST#", "_t")
-t("#LIGHT_GREEN#* You defeated the Sorcerers and Aeryn sacrificed herself to close the Void portal.#LAST#", "#LIGHT_GREEN#* Tu as vaincu les Sorciers et Aeryn s'est sacrifiée pour fermer le portail du Vide.#LAST#", "_t")
-t("#LIGHT_GREEN#* You defeated the Sorcerers and sacrificed yourself to close the Void portal.#LAST#", "#LIGHT_GREEN#* Tu as vaincu les Sorciers et tu t'es sacrifié pour fermer le portail du Néant.#LAST#", "_t")
+t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall. You were forced to kill her.#LAST#", "#LIGHT_GREEN#* Vous avez rencontré Aeryn, la Paladine Solaire, qui vous reprochait la perte du Mur Solaire. Vous avez été obligé de la tuer.#LAST#", "_t")
+t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall, but you spared her.#LAST#", "#LIGHT_GREEN#* Vous avez rencontré la Paladine Solaire Aeryn, qui vous a reproché la perte du Mur Solaire, mais vous l'avez épargnée.#LAST#", "_t")
+t("#LIGHT_GREEN#* You defeated the Sorcerers before the Void portal could open.#LAST#", "#LIGHT_GREEN#* Vous avez vaincu les Sorciers avant que le portail du Néant ne s'ouvre.#LAST#", "_t")
+t("#LIGHT_GREEN#* You defeated the Sorcerers and Aeryn sacrificed herself to close the Void portal.#LAST#", "#LIGHT_GREEN#* Vous avez vaincu les Sorciers et Aeryn s'est sacrifiée pour fermer le portail du Vide.#LAST#", "_t")
+t("#LIGHT_GREEN#* You defeated the Sorcerers and sacrificed yourself to close the Void portal.#LAST#", "#LIGHT_GREEN#* Vous avez vaincu les Sorciers et vous vous êtes sacrifié pour fermer le portail du Néant.#LAST#", "_t")
 t("Endgame", "Fin de la Partie", "_t")
 t("#LIGHT_RED#As you enter the level you hear a familiar voice.", "#LIGHT_RED#En entrant dans le niveau, vous entendez une voix familière.", "logPlayer")
 t("#LIGHT_RED#Fallen Sun Paladin Aeryn: '%s YOU BROUGHT ONLY DESTRUCTION TO THE SUNWALL! YOU WILL PAY!'", "#LIGHT_RED#Paladine Solaire Déchu Aeryn: \"%s Tu n'as apporté que de la destruction au Mur Solaire! TU VAS PAYER!\"", "logPlayer")
 t("Ruins of the Gates of Morning", "Ruines des Portes du Matin", "_t")
 t("The Sunwall was destroyed while you were trapped in the High Peak.", "Le Mur Solaire a été détruit pendant que vous étiez piégés dans le Pic.", "_t")
-t("Winner", "Gagnant", "_t")
-t("#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "#GOLD#Bravo! Vous avez gagné une partie de Tales of Maj'Eyal: L'âge de l'ascendance#WHITE#", "_t")
+t("Winner", "Victoire", "_t")
+t("#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "#GOLD#Bravo! Vous avez gagné une partie de Tales of Maj'Eyal: L'Ère de l'ascendance#WHITE#", "_t")
 t("The Sorcerers are dead, and the Orc Pride lies in ruins, thanks to your efforts.", "Les Sorciers sont morts, et les fiertés des Orcs sont en ruines, grâce à vos efforts.", "_t")
 t("Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "Le plan de ton patron a fonctionné. Alors que votre corps était écrasé par les forces brutes du portail du vide, il s'est ouvert en grand. En un instant, la connexion a été faite et des vagues de chaleur ont traversé.", "_t")
-t("The mad sun brought forth all its power through the portal, turning the High Peak into a giant searing needle!", "Le soleil fou a déployé toute sa puissance à travers le portail, transformant le High Peak en une aiguille brûlante géante!", "_t")
+t("The mad sun brought forth all its power through the portal, turning the High Peak into a giant searing needle!", "Le soleil fou a déployé toute sa puissance à travers le portail, transformant le Pic Supérieur en une aiguille incandescente!", "_t")
 t("A few minutes later the whole world was set ablaze, nothing survived except Faeros elementals.", "Quelques minutes plus tard, le monde entier s'est embrasé, rien n'a survécu sauf les élémentaires Feuros.", "_t")
 t("In the aftermath of the battle the Distant Sun tried to force you to open the portal to bring it forth onto Eyal.", "Au lendemain de la bataille, le Soleil lointain a essayé de vous forcer à ouvrir le portail pour l'amener sur Eyal.", "_t")
-t("Through an incredible display of willpower you resisted long enough to ask Aeryn to kill you.", "Grâce à une incroyable démonstration de volonté, tu as résisté assez longtemps pour demander à Aeryn de te tuer.", "_t")
-t("She sadly agreed and ran her sword through you, enabling you to do the last sacrifice you could for the world.", "Elle a tristement accepté et a passé son épée à travers toi, te permettant de faire le dernier sacrifice que tu pouvais faire pour le monde.", "_t")
+t("Through an incredible display of willpower you resisted long enough to ask Aeryn to kill you.", "Grâce à une incroyable démonstration de volonté, vous avez résisté assez longtemps pour demander à Aeryn de vous tuer.", "_t")
+t("She sadly agreed and ran her sword through you, enabling you to do the last sacrifice you could for the world.", "Elle a tristement accepté et a passé son épée à travers vous, vous permettant de faire le dernier sacrifice possible que vous pouviez faire pour le monde.", "_t")
 t("Through an incredible display of willpower you resisted for a few decisive seconds. During this time a Sher'tul appeared, took the Staff and killed you.", "Grâce à une incroyable démonstration de volonté, vous avez résisté pendant quelques secondes décisives. Pendant ce temps, un Sher'tul est apparu, a pris le bâton et vous a tué.", "_t")
-t("Though you succumbed to the fight, your mind was already gone, burnt to ashes by your mad patron sun. But the world was saved.", "Bien que tu aies succombé au combat, ton esprit était déjà parti, réduit en cendres par ton patron, le soleil fou. Mais le monde a été sauvé.", "_t")
-t("Your sacrifice worked. Your mental energies were imbued with farportal energies. The Way radiated from the High Peak toward the rest of Eyal like a mental tidal wave.", "Votre sacrifice a fonctionné. Tes énergies mentales ont été imprégnées d'énergies de portails lointain. La Voie a rayonné du Pic Supérieur vers le reste d'Eyal comme un raz-de-marée mental.", "_t")
-t("Every sentient being in Eyal is now part of the Way. Peace and happiness are enforced for all.", "Chaque être sentient d'Eyal fait maintenant partie de la Voie. La paix et le bonheur sont appliqués pour tous.", "_t")
+t("Though you succumbed to the fight, your mind was already gone, burnt to ashes by your mad patron sun. But the world was saved.", "Bien que vous ayez succombé au combat, votre esprit était déjà parti, réduit en cendres par votre patron, le soleil fou. Mais le monde a été sauvé.", "_t")
+t("Your sacrifice worked. Your mental energies were imbued with farportal energies. The Way radiated from the High Peak toward the rest of Eyal like a mental tidal wave.", "Votre sacrifice a fonctionné. Vos énergies mentales ont été imprégnées d'énergies de portails lointain. La Voie a rayonné du Pic Supérieur vers le reste d'Eyal comme un raz-de-marée mental.", "_t")
+t("Every sentient being in Eyal is now part of the Way. Peace and happiness are enforced for all.", "Chaque être sentient d'Eyal fait maintenant partie de la Voie. La paix et le bonheur sont imposés à tous.", "_t")
 t("Only the mages of Angolwen were able to withstand the mental shock and thus are the only unsafe people left. But what can they do against the might of the Way?", "Seuls les mages d'Angolwen ont pu résister au choc mental et sont donc les seules personnes encore en sécurité. Mais que peuvent-ils faire contre la puissance de la Voie?", "_t")
-t("In the aftermath of the battle the Way tried to force you to act as a vessel to bring the Way to every sentient being.", "A la suite de la bataille, la Voie a essayé de te forcer à agir comme vecteur pour apporter la Voie à chaque être sensible.", "_t")
+t("In the aftermath of the battle the Way tried to force you to act as a vessel to bring the Way to every sentient being.", "A la suite de la bataille, la Voie a essayé de vous forcer à agir comme vecteur pour apporter la Voie à chaque être doué d'une conscience.", "_t")
 t("You have prevented the portal to the Void from opening and thus stopped the Creator from bringing about the end of the world.", "Vous avez empêché l'ouverture du portail vers le Néant et donc empêché le Créateur de provoquer la fin du monde.", "_t")
 t("In a selfless act, High Sun Paladin Aeryn sacrificed herself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "Dans un acte désintéressé, la Haute Paladine Solaire Aeryn s'est sacrifiée pour fermer le portail du Néant et empêcher ainsi le Créateur de provoquer la fin du monde.", "_t")
 t("In a selfless act, you sacrificed yourself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "Dans un acte désintéressé, vous vous êtes sacrifié pour fermer le portail du Néant et empêcher ainsi le Créateur de provoquer la fin du monde.", "_t")
 t("The Gates of Morning have been destroyed and the Sunwall has fallen. The last remnants of the free people in the Far East will surely diminish, and soon only orcs will inhabit this land.", "Les Portes du Matin ont été détruites et le Mur du Soleil est tombé. Les derniers vestiges des peuples libres d'Extrême-Orient vont sûrement disparaitre, et bientôt seuls les orcs habiteront cette terre.", "_t")
 t("The orc presence in the Far East has greatly been diminished by the loss of their leaders and the destruction of the Sorcerers. The free people of the Sunwall will be able to prosper and thrive on this land.", "La présence orc en Extrême-Orient a été grandement diminuée par la perte de leurs chefs et la destruction des Sorciers. Le peuple libre du Mur Solaire pourra prospérer et s'épanouir sur cette terre.", "_t")
-t("Maj'Eyal will once more know peace. Most of its inhabitants will never know they even were on the verge of destruction, but then this is what being a true hero means: to do the right thing even though nobody will know about it.", "Maj'Eyal connaîtra à nouveau la paix. La plupart de ses habitants ne sauront jamais qu'ils étaient sur le point d'être détruits, mais c'est ce que signifie être un vrai héros: faire ce qui est juste même si personne ne le sait.", "_t")
+t("Maj'Eyal will once more know peace. Most of its inhabitants will never know they even were on the verge of destruction, but then this is what being a true hero means: to do the right thing even though nobody will know about it.", "Maj'Eyal connaîtra à nouveau la paix. La plupart de ses habitants ne sauront jamais qu'ils ont frôlé l'annihilation, mais c'est ce que signifie être un véritable héros: faire ce qui est juste même si personne ne le sait.", "_t")
 t("You may continue playing and enjoy the rest of the world.", "Vous pouvez continuer à jouer et profiter du reste du monde.", "_t")
 -- texte non traduit
 --[==[
@@ -19178,8 +19178,8 @@ t([[You have learned to sing the praises of the Sun, in the form of three defens
 			You may only have one Chant active at a time.]], [[Vous avez appris à chanter les louanges du Soleil, sous la forme de trois Chants défensifs.
 			Chant de Fortitude: Augmente votre sauvegarde mentale de %d et vos points de vie maximum de %d%%.
 			Chant de Forteresse: Augmente votre sauvegarde physique de %d, votre résistance physique de %d%%, votre armure de %d et la robustesse d'armure de 15%%.
-			Chant de Résistance: Augmente votre sauvegarde contre les sorts de %d, vos résistances au feu, au froid, à la foudre et à l’acide de %d%% et réduit tous les dégâts infligés par les ennemis éloignés (à 3 cases ou plus) de %d%%.
-			Vous ne pouvez avoir qu’un seul Chant actif à la fois.]], "tformat")
+			Chant de Résistance: Augmente votre sauvegarde contre les sorts de %d, vos résistances au feu, au froid, à la foudre et à l'acide de %d%% et réduit tous les dégâts infligés par les ennemis éloignés (à 3 cases ou plus) de %d%%.
+			Vous ne pouvez avoir qu'un seul Chant actif à la fois.]], "tformat")
 t("Chant Illuminate", "Chant de Lumière", "talent name")
 t([[Your Chants now bathe you in a cloak of light, which increases your stamina and mana regenerations by %0.2f per turn and does %0.2f light damage to anyone who hits you in melee.
 		These values scale with your Spellpower.]], [[Vos Chants vous enveloppent désormais d'un voile de lumière, augmentant votre endurance et votre régénération de mana de %0.2f par tour et infligeant %0.2f dégâts de lumière à quiconque vous frappe au corps à corps.
@@ -21979,7 +21979,7 @@ t([[You have an enhanced sense of self preservation, and your keen intuition all
 		Vous bénéficiez également d'une chance supplémentaire (à votre jet de sauvegarde normal %+d, effectif) de résister aux altérations d'état néfastes auxquelles il est possible de résister.
 		La détection et cette chance supplémentaire de sauvegarde sont améliorées par la Ruse.]], "tformat")
 t("Disarm Trap", "Désamorcer les Pièges", "talent name")
-t("#CADET_BLUE#Disarm A Trap: (direction keys to select where to disarm, shift+direction keys to move freely)", "#CADET_BLUE#Désamorcer UN piège: (touches directionnelles pour sélectionner l’endroit où désamorcer, Maj+touches directionnelles pour se déplacer librement)", "log")
+t("#CADET_BLUE#Disarm A Trap: (direction keys to select where to disarm, shift+direction keys to move freely)", "#CADET_BLUE#Désamorcer UN piège: (touches directionnelles pour sélectionner l'endroit où désamorcer, Maj+touches directionnelles pour se déplacer librement)", "log")
 t("#CADET_BLUE#You don't have the skill to disarm traps.", "#CADET_BLUE#Vous n'avez pas le niveau de compétence nécessaires pour désamorcer les pièges.", "logPlayer")
 t("#CADET_BLUE#You cannot disarm traps in grids you cannot enter.", "#CADET_BLUE#Vous ne pouvez pas désamorcer les pièges dans les cases auxquelles vous ne pouvez pas accéder.", "logPlayer")
 t("#CADET_BLUE#You don't see a trap there.", "#CADET_BLUE#Vous ne voyez pas de piège ici.", "logPlayer")
@@ -36860,7 +36860,7 @@ t("Woven through with fell magics of undeath, these bindings suck the light and 
 t("A complementing item would be your crowning glory.", "Un accessoire assorti serait la cerise sur le gâteau.", "_t")
 t("Crown of Eternal Night", "Couronne de la Nuit Éternelle", "entity name")
 t("blackened crown", "couronne noircie", "_t")
-t("This crown looks useless, yet you can feel it is woven with fell magics of undeath. Maybe it has a use.", "Cette couronne semble inutile, mais on sent qu’elle est imprégnée des sombres sortilèges de la Non-Vie. Elle a peut-être une utilité.", "_t")
+t("This crown looks useless, yet you can feel it is woven with fell magics of undeath. Maybe it has a use.", "Cette couronne semble inutile, mais on sent qu'elle est imprégnée des sombres sortilèges de la Non-Vie. Elle a peut-être une utilité.", "_t")
 t("You need to find something to bind its powers.", "Tu dois trouver quelque chose pour maîtriser ses pouvoirs.", "_t")
 t("#ANTIQUE_WHITE#The Crown of Eternal Night seems to react with the Bindings, you feel tremendous dark power.", "#ANTIQUE_WHITE#La Couronne de la Nuit Éternelle semble interagir avec les Liens, vous ressentez une immense puissance obscure.", "logSeen")
 t("#ANTIQUE_WHITE#The powerful darkness aura you felt wanes away.", "#ANTIQUE_WHITE#L'aura de puissante noirceur que vous ressentiez s'estompe peu à peu.", "logPlayer")
@@ -37408,7 +37408,7 @@ section "mod-tome/data/zones/dreadfell/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("The Master", "Le Maître", "entity name")
-t("A terrifying vampiric figure of power, with flowing robes and an intense aura of fright.  His cold, sinewy flesh seems to cling to this world through greed and malice, and his eyes betray a strength of mind beyond any puny mortal.  All nearby are utterly subservient to his will, though he stands aloof from them, as if to say he needs not the pathetic meddling of minions to help him overcome his foes.  Your eyes are drawn to a dark staff in his hands which seems to suck the very life from the air around it.  It looks ancient and dangerous and terrible, and the sight of it fills you with fervent desire.", "Une effrayante figure vampirique empreinte de puissance, vêtue d’une robe flottante et dégageant une intense aura de terreur. Sa chair froide et musclée semble s’accrocher à ce monde par cupidité et malveillance, et ses yeux trahissent une force d’esprit qui dépasse celle de n’importe quel insignifiant mortel. Tous ceux qui l’entourent sont totalement soumis à sa volonté, bien qu’il se tienne à l’écart d’eux, comme pour dire qu’il n’a pas besoin de l’intervention de quelques serviteurs pathétique pour l’aider à vaincre ses ennemis. Ton regard est attiré par un bâton sombre qu’il tient entre ses mains et qui semble aspirer la vie même de l’air qui l’entoure. Il semble ancien, dangereux et terrible, et sa vue te remplit d’un désir ardent.", "_t")
+t("A terrifying vampiric figure of power, with flowing robes and an intense aura of fright.  His cold, sinewy flesh seems to cling to this world through greed and malice, and his eyes betray a strength of mind beyond any puny mortal.  All nearby are utterly subservient to his will, though he stands aloof from them, as if to say he needs not the pathetic meddling of minions to help him overcome his foes.  Your eyes are drawn to a dark staff in his hands which seems to suck the very life from the air around it.  It looks ancient and dangerous and terrible, and the sight of it fills you with fervent desire.", "Une terrifiante figure vampirique empreinte de puissance, vêtue d'une robe flottante et dégageant une intense aura de terreur. Sa chair froide et nerveuse semble s'accrocher à ce monde par la cupidité et la malveillance, et ses yeux trahissent une force d'esprit qui dépasse celle de n'importe quel insignifiant mortel. Tous ceux qui l'entourent sont totalement soumis à sa volonté, bien qu'il se tienne à l'écart d'eux, comme pour dire qu'il n'a pas besoin de l'intervention de quelques serviteurs pathétique pour l'aider à vaincre ses ennemis. Ton regard est attiré par un bâton sombre qu'il tient entre ses mains et qui semble aspirer la vie même de l'air qui l'entoure. Il semble ancien, dangereux et terrible, et sa vue te remplit d'un désir ardent.", "_t")
 t("and raised as his tortured undead thrall", "et élevé comme son esclave mort-vivant torturé", "_t")
 t("It has been months since the hero cleansed the Dreadfell, yet rumours are growing: evil is back.", "Plusieurs mois se sont écoulés depuis que le héros a purifié Tombeffroie, et pourtant les rumeurs se multiplient: le mal est de retour.", "_t")
 t("skeleton", "squelette", "entity subtype")
@@ -37418,10 +37418,10 @@ t("ghoul", "goule", "entity subtype")
 t("Borfast the Broken", "Borfast le Brisé", "entity name")
 t([[Thick skin hangs loosely from this short, shambling form. Tufts of hair sticking out from its chin give evidence of a once magnificent dwarven beard. Half its face seems to have been seared in acid at some point, the flesh melted away from the skull and an eyeball drooping low from its socket. There is a unique sadness to its eyes, and a slump of resignation to its gait.
 What proud hero of renown was this before he was condemned to such a terrible fate?]], [[Une peau épaisse pend mollement de ce corps trapu et dégingandé. Des touffes de poils qui dépassent de son menton témoignent d'une magnifique barbe naine d'antan. La moitié de son visage semble avoir été brûlée à l'acide, la chair fondue et détachée du crâne, un oeil pend hors de son orbite. Ses yeux expriment une tristesse singulière, et sa démarche est empreinte d'une résignation abattue.
-Quel fier héros renommé était-ce avant d'être condamné à un sort si terrible?]], "_t")
+Quel fier et célèbre héros était-ce donc avant d'être condamné à un si terrible destin?]], "_t")
 t("and offered to his dark Master", "et offerte à son sombre Maître", "_t")
 t("ghost", "fantôme", "entity subtype")
-t("Aletta Soultorn", "Aletta Âme Tordue", "entity name")
+t("Aletta Soultorn", "Aletta l'Âme Tordue", "entity name")
 t([[What once must have been an enchantingly beautiful Higher woman now looks to be a ghost of utter despair. Her thin, elegant form ripples gently in the air, whilst her tattered robes seem oddly still. The ghost's face looks jittery and pained whilst her wild, glowing eyes move rapidly back and forth in their sockets.
 Now and then she seems to see something and her jaw pulls back, her whole face splitting apart as she shrieks an unholy cry of pain and torment.]], [[Ce qui devait être jadis une femme noble d'une beauté enchanteresse apparaît désormais comme le fantôme d'un désespoir absolu. Sa silhouette fine et élégante ondule doucement dans l'air, tandis que ses robes en lambeaux semblent étrangement immobiles. Le visage du fantôme paraît tremblant et douloureux, tandis que ses yeux sauvages et brillants se déplacent rapidement d'avant en arrière dans leurs orbites.
 Par moments, elle semble apercevoir quelque chose, sa mâchoire se rétracte, son visage se déchire tandis qu'elle pousse un cri impie de douleur et de tourment.]], "_t")
@@ -37533,7 +37533,7 @@ t([[The noxious fumes have invaded all your body, you suddenty fall into a deep 
 ... you feel lost ...
 ... you feel sad ...
 You forgot your wife! Find her!]], [[Les émanations toxiques vous envahissent, vous sombrez soudain dans un profond sommeil...
-... vous avez l’impression d’avoir oublié quelque chose...
+... vous avez l'impression d'avoir oublié quelque chose...
 ... vous vous sentez perdu...
 ... vous vous sentez triste...
 Vous avez oublié votre femme! Retrouvez-la!]], "_t")
@@ -37637,8 +37637,8 @@ t("the remains of Atamathon", "les vestiges d'Atamathon", "entity name")
 t([[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
 Its body is made of marble, its joints of solid voratun, and its sole eye of purest ruby; the other one seems to be missing. At over 40 feet tall, it towers above you.
 Someone foolish has tried to reconstruct it, but was unable to complete the task; the golem needs another eye to be complete.]], [[Ce golem géant fut construit par les Halfelins durant l'ère du Bûcher pour combattre les orcs, mais il fut terrassé par Garkul le Dévoreur.
-Son corps est de marbre, ses articulations de voratun massif, et son unique oeil d'un rubis pur et l’autre oeil semble avoir disparu. Il vous domine du haut de ses douze mètres.
-Un imbécile a tenté de le reconstruire, mais n'a pas réussi à mener à bien sa tâche. Le golem a besoin d’un oeil supplémentaire pour être complet.]], "_t")
+Son corps est de marbre, ses articulations de voratun massif, et son unique oeil d'un rubis pur et l'autre oeil semble avoir disparu. Il vous domine du haut de ses douze mètres.
+Un imbécile a tenté de le reconstruire, mais n'a pas réussi à mener à bien sa tâche. Le golem a besoin d'un oeil supplémentaire pour être complet.]], "_t")
 t("It seems that your %s is made to fit inside the empty eye socket of Atamathon. This is probably very unwise.", "Il semblerait que votre %s soit conçu pour s'insérer dans l'orbite vide d'Atamathon. Ce n'est probablement pas une bonne idée.", "tformat")
 t("The socket seems broken.", "La cavité semble cassée", "log")
 t("#LIGHT_RED#As you insert the gem the golem starts to shake. All its systems and magics are reactivating.", "#LIGHT_RED#Lorsque vous insérez la gemme, le golem se met à trembler. Tous ses systèmes et sa magie se réactivent.", "log")
@@ -38429,7 +38429,7 @@ t("young orc", "jeune orc", "entity name")
 t("This young orc is almost fully formed, with hard muscles prominently visible beneath its thick skin. Whilst it has lost some of the wild energy of its younger siblings you can see the gleams of intelligence and cold calculation behind its dark eyes.", "Ce jeune orc est presque entièrement formé, avec des muscles durs bien visibles sous sa peau épaisse. Bien qu'il ait perdu une partie de l'énergie sauvage de ses jeunes frères et soeurs, vous pouvez voir les lueurs d'intelligence et de calcul froid derrière ses yeux sombres.", "_t")
 t("orc mother", "mère orc", "entity name")
 t([[This giant, bloated form towers above you. Mucus and slime ooze from every orifice, dripping onto the cavern floor. Orc children fight over the right to feed from her distended teats whilst small babies are regularly emerge from folds of flesh. The sight and the smell make you retch.
-Here stands a tremendous form almost the size of a dragon. Bloated skin rises in thick folds, seeping viscous slime from its wide pores. Hundreds of hanging teats feed a small army of squabbling, fighting young orcs - only the toughest of them are able to gain the precious nutrients to grow stronger, the weaker ones left to wither on the mouldy floor. At the top of this towering hulk is a shrivelled head coated in long tangled hair. Dazed eyes peer out with a mixture of sadness and pain, but as they fix on you they turn to anger, the creature's face contorted with the fierce desire to protect its young.]], [[Cette forme géante et gonflée vous domine. Du mucus et de la bave suintent de chaque orifice et s'égouttent sur le sol de la caverne. Les enfants orcs se disputent le droit de se nourrir de ses tétines distendues tandis que de petits bébés sortent régulièrement des replis de sa chair. La vue et l’odeur donnent des haut-le-cœur.
+Here stands a tremendous form almost the size of a dragon. Bloated skin rises in thick folds, seeping viscous slime from its wide pores. Hundreds of hanging teats feed a small army of squabbling, fighting young orcs - only the toughest of them are able to gain the precious nutrients to grow stronger, the weaker ones left to wither on the mouldy floor. At the top of this towering hulk is a shrivelled head coated in long tangled hair. Dazed eyes peer out with a mixture of sadness and pain, but as they fix on you they turn to anger, the creature's face contorted with the fierce desire to protect its young.]], [[Cette forme géante et gonflée vous domine. Du mucus et de la bave suintent de chaque orifice et s'égouttent sur le sol de la caverne. Les enfants orcs se disputent le droit de se nourrir de ses tétines distendues tandis que de petits bébés sortent régulièrement des replis de sa chair. La vue et l'odeur donnent des haut-le-cœur.
 Ici se dresse une forme énorme, presque de la taille d'un dragon. La peau gonflée se dresse en plis épais, laissant échapper une bave visqueuse de ses larges pores. Des centaines de tétines pendantes nourrissent une petite armée de jeunes orcs qui se chamaillent et se battent. Seuls les plus coriaces d'entre eux sont capables d'acquérir les précieux nutriments nécessaires à leur croissance, les plus faibles étant laissés à pourrir sur le sol moisi. Au sommet de cette imposante carcasse se trouve une tête ratatinée recouverte de longs cheveux emmêlés. Des yeux hébétés vous regardent avec un mélange de tristesse et de douleur, mais lorsqu'ils se fixent sur vous ils se transforment en colère, le visage de la créature se tordant avec le désir farouche de protéger ses petits.]], "_t")
 t("Orc Greatmother", "Grand-Mère Orc", "entity name")
 t("and given to the children as a plaything", "et donné aux enfants comme jouet", "_t")
@@ -38467,7 +38467,7 @@ section "mod-tome/data/zones/paradox-plane/npcs.lua"
 
 t("elemental", "élémentaire", "entity type")
 t("temporal", "temporel", "entity subtype")
-t("A huge being composed of sparking blue and yellow energy stands before you.  It shifts and flows as it moves, at once erratic and graceful.", "Un être immense composé d’énergie bleue et jaune étincelante se tient devant vous. Il bouge et coule au fur et à mesure de ses mouvements, à la fois erratique et gracieux.", "_t")
+t("A huge being composed of sparking blue and yellow energy stands before you.  It shifts and flows as it moves, at once erratic and graceful.", "Un être immense composé d'énergie bleue et jaune étincelante se tient devant vous. Il bouge et coule au fur et à mesure de ses mouvements, à la fois erratique et gracieux.", "_t")
 -- texte non traduit
 --[==[
 t("Epoch", "Epoch", "entity name")
@@ -38504,7 +38504,7 @@ t("A towering creature, made from the bones of countless bodies. An aura of flam
 t("Arch Zephyr", "Arch Zéphyr", "entity name")
 t("The robes of this ancient vampire billow with intense winds. Bolts of lightning arc along its body. In its hand it holds a bow, electricity streaking across it.", "Les robes de cet ancien vampire sont gonflées par des vents intenses. Des éclairs se projettent le long de son corps. Dans sa main il tient un arc parcouru d'électricité.", "_t")
 t("Void Spectre", "Spectre du Vide", "entity name")
-t("Intense Arcane energy whirls in the air around this ethereal form.", "Une énergie arcanique intense tourbillonne dans l’air autour de cette forme éthérée.", "_t")
+t("Intense Arcane energy whirls in the air around this ethereal form.", "Une énergie arcanique intense tourbillonne dans l'air autour de cette forme éthérée.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/rak-shor-pride/objects.lua"
@@ -38535,7 +38535,7 @@ t("humanoid", "humanoïde", "entity type")
 t("Golbug the Destroyer", "Golbug le Destructeur", "entity name")
 t("A huge and muscular orc of unknown breed. He looks both menacing and cunning...", "Un orc énorme et musclé de race inconnue. Il a l'air à la fois menaçant et rusé...", "_t")
 t("They say that after it has been confirmed orcs still inhabited Reknor, they found a mighty demon there.", "Ils est dit qu'après qu'il ait été confirmé que les orcs habitaient toujours Reknor, ils y ont trouvé un puissant démon.", "_t")
-t("When last you saw it, this cavern was littered with the corpses of orcs that you had slain. Now many, many more corpses carpet the floor, all charred and reeking of sulfur. An orange glow dimly illuminates the far reaches of the cavern to the east.", "La dernière fois que vous l'avez vue cette caverne était jonchée de cadavres d'orcs que vous aviez tués. Aujourd’hui de très nombreux cadavres recouvrent le sol, tous carbonisés et puant le soufre. Une lueur orange illumine faiblement les confins de la caverne à l’est.", "_t")
+t("When last you saw it, this cavern was littered with the corpses of orcs that you had slain. Now many, many more corpses carpet the floor, all charred and reeking of sulfur. An orange glow dimly illuminates the far reaches of the cavern to the east.", "La dernière fois que vous l'avez vue cette caverne était jonchée de cadavres d'orcs que vous aviez tués. Aujourd'hui de très nombreux cadavres recouvrent le sol, tous carbonisés et puant le soufre. Une lueur orange illumine faiblement les confins de la caverne à l'est.", "_t")
 t("human", "humain", "entity subtype")
 t("Harno, Herald of Last Hope", "Harno, Héraut de Dernier Espoir", "entity name")
 t("This is one of the heralds of Last Hope. He seems to be looking for you.", "C'est l'un des hérauts de Dernier Espoir. Il semble vous chercher.", "_t")
@@ -39019,7 +39019,7 @@ section "mod-tome/data/zones/shertul-fortress-caldizar/zone.lua"
 t("Unknown Sher'Tul Fortress", "Forteresse Sher'Tul Inconnue", "_t")
 t("Unknown Sher'Tul Fortress (%s)", "Forteresse Sher'Tul Inconnue (%s)", "tformat")
 t("Unknown the Sher'Tul Fortress", "Inconnue, la Forteresse Sher'Tul", "_t")
-t("With a sudden jolt you find yourself... somewhere familiar. The smooth walls and gentle lighting remind you of your fortress. And yet it feels different too. There is a gentle humming noise in the background, and your whole body feels light, almost weightless, such that the slightest movement propels you into the air. You have the odd feeling that you are not on Maj'Eyal any longer... From ahead you sense something both terrible and wonderful, and trepidation fills every corner of your being.", "Soudain, vous vous retrouvez... dans un lieu familier. Les murs lisses et la douce lumière vous rappellent votre forteresse. Et pourtant, l’atmosphère est différente. Un léger bourdonnement se fait entendre en arrière-plan et votre corps tout entier semble léger, presque en apesanteur, au point que le moindre mouvement vous propulse dans les airs. Vous avez l’étrange impression de ne plus être sur Maj’Eyal... Devant vous, vous percevez quelque chose à la fois terrible et merveilleux, et l'appréhension vous envahit.", "_t")
+t("With a sudden jolt you find yourself... somewhere familiar. The smooth walls and gentle lighting remind you of your fortress. And yet it feels different too. There is a gentle humming noise in the background, and your whole body feels light, almost weightless, such that the slightest movement propels you into the air. You have the odd feeling that you are not on Maj'Eyal any longer... From ahead you sense something both terrible and wonderful, and trepidation fills every corner of your being.", "Soudain, vous vous retrouvez... dans un lieu familier. Les murs lisses et la douce lumière vous rappellent votre forteresse. Et pourtant, l'atmosphère est différente. Un léger bourdonnement se fait entendre en arrière-plan et votre corps tout entier semble léger, presque en apesanteur, au point que le moindre mouvement vous propulse dans les airs. Vous avez l'étrange impression de ne plus être sur Maj'Eyal... Devant vous, vous percevez quelque chose à la fois terrible et merveilleux, et l'appréhension vous envahit.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/slazish-fen/grids.lua"
@@ -39997,8 +39997,8 @@ t("Bill the Stone Troll", "Bill le Troll de Pierre", "entity name")
 t([[Big, brawny, powerful and with a taste for Halfling.
 He is wielding a small tree trunk and lumbering toward you.
 This is the troll the notes spoke about, no doubt.]], [[Grand, musclé, puissant, et avec un goût pour les Halfelins.
-Il brandit un petit tronc d’arbre et se dirige lourdement vers vous.
-C’est sans aucun doute le troll dont parlaient les notes.]], "_t")
+Il brandit un petit tronc d'arbre et se dirige lourdement vers vous.
+C'est sans aucun doute le troll dont parlaient les notes.]], "_t")
 t("and clobbered into soup", "et écrasé dans la soupe", "_t")
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
@@ -42284,7 +42284,7 @@ Minimum : 40%
 t([[#GOLD#Stats#LAST#
 Your character's primary attributes.  Base: the value inherent to your character, which may be increased by applying stat points (limited by character level). Current: the base value plus any bonuses from equipment, effects, certain talents, etc. that is used to determine the overall effectiveness of the stat.
 ]], [[#GOLD#Stats#LAST#
-Les attributs principaux de votre personnage. Base: valeur inhérente à votre personnage, qui peut être augmentée en répartissant les points de statistiques (dans la limite du niveau du personnage). Valeur actuelle: valeur de base plus bonus (équipement, effets, talents, etc.) servant à déterminer l’efficacité globale de la stat.
+Les attributs principaux de votre personnage. Base: valeur inhérente à votre personnage, qui peut être augmentée en répartissant les points de statistiques (dans la limite du niveau du personnage). Valeur actuelle: valeur de base plus bonus (équipement, effets, talents, etc.) servant à déterminer l'efficacité globale de la stat.
 ]], "_t")
 t([[#GOLD#Strength#LAST#
 Strength defines your character's ability to apply physical force. It increases Physical Power, damage done with heavy weapons, Physical Save, and carrying capacity.
@@ -42617,12 +42617,12 @@ Cela représente votre chance de résister complètement à cet effet spécifiqu
 t([[#GOLD#Stun immunity chance#LAST#
 This represents your chance to completely avoid being stunned, dazed, or frozen.
 ]], [[#GOLD#Chance d'immunité contre l'assomement#LAST#
-Cela représente votre chance d’éviter complètement d’être assomé, étourdi, ou gelé.
+Cela représente votre chance d'éviter complètement d'être assomé, étourdi, ou gelé.
 ]], "_t")
 t([[#GOLD#Anomaly immunity chance#LAST#
 This represents your chance to avoid most chronomatic anomaly effects.
 ]], [[#GOLD#Chance d'immunité aux anomalies#LAST#
-Cela représente votre chance d’éviter la plupart des effets d’anomalies chronomatiques.
+Cela représente votre chance d'éviter la plupart des effets d'anomalies chronomatiques.
 ]], "_t")
 t([[#GOLD#Instant death resistance#LAST#
 This represents your chance to avoid being instantly killed, severely incapacitated, or controlled by certain abilities.
@@ -42986,7 +42986,7 @@ t("Press 'm' to setup", "Appuyez sur 'm' pour régler", "_t")
 t("Unbind %s", "Désassigner %s", "tformat")
 t("Remove this object from your hotkeys?", "Supprimez cet objet de vos raccourcis?", "_t")
 t([[Left mouse to show inventory
-Right mouse to show ingredients]], [[Clic gauche pour afficher l’inventaire
+Right mouse to show ingredients]], [[Clic gauche pour afficher l'inventaire
 Clic droit pour afficher les ingrédients]], "_t")
 t("Left mouse to show known talents", "clic gauche pour afficher les talents connus", "_t")
 t("Left mouse to show message/chat log.", "Cliquez gauche pour afficher l'Journal des messages/conversations.", "_t")
