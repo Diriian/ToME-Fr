@@ -87,6 +87,7 @@ t("#LIGHT_BLUE# * +6 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +6 Magic,
 ------------------------------------------------
 section "tome-orcs/data/birth/classes/tinker.lua"
 
+t("Tinker", "Bricoleur", "birth descriptor name")
 t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +5 Force, +0 Dextérité, +1 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +3 Ruse", "_t")
@@ -96,7 +97,6 @@ t("#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +5 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +5 Ruse", "_t")
 -- texte non traduit
 --[==[
-t("Tinker", "Tinker", "birth descriptor name")
 t("Tinkers use steamtech to power their attacks, defenses, ...", "Tinkers use steamtech to power their attacks, defenses, ...", "_t")
 t("Build, experiment, discover. The path of inventions is never over!", "Build, experiment, discover. The path of inventions is never over!", "_t")
 t("%s healing salve", "%s healing salve", "tformat")
@@ -780,12 +780,11 @@ t("Entrance the tinker's master cave", "Entrance the tinker's master cave", "_t"
 ------------------------------------------------
 section "tome-orcs/data/general/events/AAA.lua"
 
-
+t("tinkers", "Babioles", "_t")
 -- texte non traduit
 --[==[
 t("steamtech weaponry", "steamtech weaponry", "_t")
 t("defensive items", "defensive items", "_t")
-t("tinkers", "tinkers", "_t")
 t("arcane and psi", "arcane and psi", "_t")
 t("runes and infusions", "runes and infusions", "_t")
 t("tools", "tools", "_t")
@@ -1334,11 +1333,10 @@ t("This strange sheet of metal flows with the wind just like a normal cloak. Who
 ------------------------------------------------
 section "tome-orcs/data/general/objects/egos/steamgun.lua"
 
-
+t("tinker", "babiole", "entity keyword")
 -- texte non traduit
 --[==[
 t(" of tinkering (#STATBONUS#)", " of tinkering (#STATBONUS#)", "entity name")
-t("tinker", "tinker", "entity keyword")
 t("gunslinger's ", "gunslinger's ", "entity name")
 t("gunslinger", "gunslinger", "entity keyword")
 t("strafer's ", "strafer's ", "entity name")
@@ -1402,11 +1400,11 @@ t("drakeskin leather hat", "drakeskin leather hat", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/quest-artifacts.lua"
 
+t("tinker", "babiole", "entity type")
 t("power", "pouvoir", "entity subtype")
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
-t("tinker", "tinker", "entity type")
 t("Automated Portable Extractor", "Automated Portable Extractor", "entity name")
 t([[The APE is a multifunction tinker toolbox. It can store temporarily any amount of items and when requested melt them down using metallurgic and chemical processes.
 The metals are melted into lumps of ore to server for the creation of tinkers.
@@ -1509,10 +1507,10 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinker.lua"
 
+t("tinker", "babiole", "entity type")
 t("misc", "divers", "entity type")
 -- texte non traduit
 --[==[
-t("tinker", "tinker", "entity type")
 t("steamtech", "steamtech", "entity subtype")
 t("Tinkers can be attached to normal items to improve them with steam power!", "Tinkers can be attached to normal items to improve them with steam power!", "_t")
 t("salve", "salve", "entity subtype")
@@ -2110,12 +2108,12 @@ t("#PURPLE#You feel the power of the Gloryhammer course through you! It has beco
 section "tome-orcs/data/general/stores/orcs.lua"
 
 t("library", "librairie", "entity name")
+t("tinker", "babiole", "entity name")
 t("tool store", "magasin d'outils", "entity name")
 -- texte non traduit
 --[==[
 t("forge", "forge", "entity name")
 t("smith", "smith", "entity name")
-t("tinker", "tinker", "entity name")
 t("expensive goods", "expensive goods", "entity name")
 t("aracane psi collector", "aracane psi collector", "entity name")
 t("rune and infusion collector", "rune and infusion collector", "entity name")
@@ -4223,7 +4221,7 @@ t("#LIGHT_GREEN#* The third valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* T
 ------------------------------------------------
 section "tome-orcs/data/quests/ritch-hive.lua"
 
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("A Ritch Party", "A Ritch Party", "_t")
@@ -7706,7 +7704,7 @@ t("This yeti towers over even the trolls. Blind rage maddens its eyes.", "This y
 ------------------------------------------------
 section "tome-orcs/data/zones/dominion-port/objects.lua"
 
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("a report", "a report", "entity name")
@@ -7751,7 +7749,7 @@ Celui-ci semble mener près de la ville de Dernier Espoir en Maj'Eyal.]], "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the outskirts of Last Hope, with no trace of the portal...", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous vous retrouvez aux abords de Dernier Espoir, sans aucune trace du portail...", "_t")
 t("wall", "mur", "entity type")
 t("cracks", "fissures", "entity subtype")
-t("huge crack in the floor", "une énorme fissure dans le sol", "entity name")
+t("huge crack in the floor", "une énorme crevasse dans le sol", "entity name")
 -- texte non traduit
 --[==[
 t("Way into the caves", "Way into the caves", "entity name")
@@ -7836,7 +7834,7 @@ section "tome-orcs/data/zones/gem/grids.lua"
 
 t("wall", "mur", "entity type")
 t("cracks", "fissures", "entity subtype")
-t("huge crack in the floor", "une énorme fissure dans le sol", "entity name")
+t("huge crack in the floor", "une énorme crevasse dans le sol", "entity name")
 -- texte non traduit
 --[==[
 t("giant mole hull", "giant mole hull", "entity name")
@@ -7862,7 +7860,7 @@ t("Whoever tortured and tormented this yeti did an amazing job of pain and destr
 section "tome-orcs/data/zones/gem/objects.lua"
 
 t("lore", "histoire", "entity type")
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("disk", "disk", "entity subtype")
@@ -8310,7 +8308,7 @@ t("floor", "sol", "entity type")
 t("sand", "sable", "entity subtype")
 t("wall", "mur", "entity type")
 t("cracks", "fissures", "entity subtype")
-t("huge crack in the floor", "une énorme fissure dans le sol", "entity name")
+t("huge crack in the floor", "une énorme crevasse dans le sol", "entity name")
 -- texte non traduit
 --[==[
 t("pile of ritch eggs", "pile of ritch eggs", "entity name")
@@ -8536,7 +8534,7 @@ t("You wonder how this yeti can have wandered so far from its native habitat in 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-observatory/objects.lua"
 
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("a journal", "a journal", "entity name")
@@ -8875,7 +8873,7 @@ t("This yeti towers over its comrades. You see a cunning in its eyes unmatched b
 ------------------------------------------------
 section "tome-orcs/data/zones/yeti-caves/objects.lua"
 
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous convaincre de laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("flesh", "flesh", "entity type")
@@ -9327,7 +9325,7 @@ Talents:
 ------------------------------------------------
 section "tome-orcs/overload/mod/class/OrcCampaign.lua"
 
-t("Crit. chance: #00ff00#%s", "Chance de crit: #00ff00#%s", "tformat")
+t("Crit. chance: #00ff00#%s", "Chance crit.      : #00ff00#%s", "tformat")
 t("She looks tired and wounded.", "Elle a l'air blessé et fatigué.", "_t")
 t("I've changed my mind.", "J'ai changé d'avis.", "_t")
 t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous?", "_t")
@@ -9398,13 +9396,13 @@ section "tome-orcs/overload/mod/dialogs/CreateTinker.lua"
 
 t("Tinkers", "Babioles", "_t")
 t("Search: ", "Chercher: ", "_t")
+t("Tinker", "Bricoleur", "_t")
 t("Status", "Statut", "_t")
 t("Create", "Créer", "_t")
 t("Requires:", "Requis:", "_t")
 -- texte non traduit
 --[==[
 t("", "", "_t")
-t("Tinker", "Tinker", "_t")
 t("Slot", "Slot", "_t")
 t("School", "School", "_t")
 t("Tier 1", "Tier 1", "_t")
