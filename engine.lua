@@ -912,7 +912,7 @@ section "engine/engine/dialogs/UserInfo.lua"
 t("User: %s", "Utilisateur: %s", "tformat")
 t("Currently playing: ", "Joue actuellement: ", "_t")
 t("unknown", "inconnu", "_t")
-t("Game: ", "Partie: ", "_t")
+t("Game: ", "Jeu: ", "_t")
 t("Game has been validated by the server", "La partie a été validée par le serveur", "_t")
 t("Game is not validated by the server", "La partie n'est pas validée par le serveur", "_t")
 t("Go to online profile", "Aller sur le profil en ligne", "_t")
