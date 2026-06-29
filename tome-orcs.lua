@@ -4010,7 +4010,7 @@ t("Clork Peninsula", "Clork Peninsula", "_t")
 ------------------------------------------------
 section "tome-orcs/data/quests/amakthel.lua"
 
-t("Winner", "Gagnant", "_t")
+t("Winner", "Victoire", "_t")
 -- texte non traduit
 --[==[
 t("The Dead God Awaits", "The Dead God Awaits", "_t")
