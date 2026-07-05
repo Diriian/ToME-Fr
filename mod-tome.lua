@@ -302,7 +302,7 @@ t("Anti-Antimagic!", "Anti-anti-magie!", "achievement name")
 t("Destroyed the Ziguranth camp with your Rhaloren allies.", "Détruire le camp de Ziguranth avec vos alliés de Rhaloren.", "_t")
 t("There and back again", "Aller-retour", "achievement name")
 t("Opened a portal to Maj'Eyal from the Far East.", "Ouvrir un portail vers Maj'Eyal depuis l'Extrême Orient.", "_t")
-t("Back and there again", "Retourner et revenir", "achievement name")
+t("Back and there again", "Aller et Revenir", "achievement name")
 t("Opened a portal to the Far East from Maj'Eyal.", "Ouvrir un portail vers l'Extrême Orient depuis Maj'Eyal.", "_t")
 t("Arachnophobia", "Arachnophobie", "achievement name")
 t("Destroyed the spydric menace.", "Détruit la menace spydrique.", "_t")
@@ -332,7 +332,7 @@ t("Finished the whole Abashed Expanse zone without being hit by a single void bl
 t("The Right thing to do", "La bonne chose à faire", "achievement name")
 t("Did the righteous thing in the ring of blood and disposed of the Blood Master.", "Faire la chose juste dans l'anneau de sang et éliminer le Maître du Sang.", "_t")
 t("Thralless", "Sans esclave", "achievement name")
-t("Freed at least 30 enthralled slaves in the slavers' compound.", "Libérer au moins 30 esclaves envoutés dans l'enceinte des esclavagistes.", "_t")
+t("Freed at least 30 enthralled slaves in the slavers' compound.", "Libérer au moins 30 esclaves envoutés dans le complexe des esclavagistes.", "_t")
 t("Lost in translation", "Perdu dans le transfert", "achievement name")
 t("Destroyed the naga portal in the slazish fens and got caught in the after-effect.", "Détruire le portail naga dans le marais de Slazish et s'est fait prendre dans la répercussion.", "_t")
 t("Dreaming my dreams", "Rêver mes rêves", "achievement name")
@@ -4288,8 +4288,8 @@ t("Whatever.", "Peu importe.", "chat_zemekkys-done")
 section "mod-tome/data/chats/zemekkys-start-chronomancers.lua"
 
 t([[@playername@, you are called to serve. The nearby unhallowed morass inhabitants are growing restless.
-You must go there and find the source.]], [[@playername@, vous êtes appelés à servir. Les habitants voisins du marais impie s'agitent de plus en plus.
-Vous devez y aller et trouver la source.]], "_t")
+You must go there and find the source.]], [[@playername@, votre présence est requise. Les habitants du marais impie voisins s'agitent de plus en plus.
+Vous devez vous y rendre et en découvrir la source.]], "_t")
 t("I will, Grand Keeper.", "Je le ferai, Grand Gardien.", "_t")
 t("I am sorry, but I cannot do that.", "Je suis désolé, mais je ne peux pas faire ça.", "_t")
 
@@ -4304,27 +4304,27 @@ t("I found the Blood-Runed Athame, but there was no Resonating Diamond.", "J'ai 
 t("I have a Resonating Diamond.", "J'ai le Diamant Résonnant.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_zemekkys")
 t([[Pfaugh! Her goal in life is to waste my time! Maj'Eyal? Why not Narnia or Chicago? Just as easy to send you someplace entirely fictional as Maj'Eyal. Go away.
-#LIGHT_GREEN#*Slot slams shut.*#WHITE#]], [[Pfeuht§ Son but dans la vie est de me faire perdre mon temps! Maj'Eyal? Pourquoi pas Narnia ou Chicago? C'est aussi facile de t'envoyer dans un endroit complètement fictif qu'en Maj'Eyal. Va-t'en.
-#LIGHT_GREEN#*La fente se claque.*#WHITE#]], "_t")
+#LIGHT_GREEN#*Slot slams shut.*#WHITE#]], [[Pfeuht! Son but dans la vie est de me faire perdre mon temps! Maj'Eyal? Pourquoi pas Narnia ou Chicago? C'est aussi facile de t'envoyer dans un endroit complètement fictif qu'en Maj'Eyal. Va-t'en.
+#LIGHT_GREEN#*La fente se referme brusquement.*#WHITE#]], "_t")
 t("I got here from Maj'Eyal, didn't I? I have this magic Orb I looted from a dead orc, see, and...", "Je suis venu de Maj'Eyal, n'est-ce pas? J'ai cette Orbe magique que j'ai volée à un orc mort, vous voyez, et...", "_t")
 t([[#LIGHT_GREEN#*Slot opens.*#WHITE#
 Orb, you say? That you used to travel here from Maj'Eyal? Surely you don't possess the Orb of Many Ways! It's been lost for ages!]], [[#LIGHT_GREEN#*La fente s'ouvre.*#WHITE#
-Une orbe, vous dites? Que tu as utilisé pour voyager ici depuis Maj'Eyal? Vous ne possédez sûrement pas l'Orbe des multiples voies! Elle est perdue depuis des lustres!]], "_t")
-t("[Hold up the orb]", "[Lever l'orbe]", "_t")
+Une orbe, vous dites? Que tu as utilisé pour voyager ici depuis Maj'Eyal? Vous ne possédez sûrement pas l'Orbe des Multiples Voies! Elle est perdue depuis des lustres!]], "_t")
+t("[Hold up the orb]", "[Brandir l'orbe]", "_t")
 t([[#LIGHT_GREEN#*His eyes widen.*#WHITE#
 Great Socks of Aeryn! It IS the Orb! Maybe we can get you home after all. Or maybe we can get you embedded in magma a thousand leagues straight down.]], [[#LIGHT_GREEN#*Ses yeux s'écarquillent.*#WHITE#
-Par les Grandes chaussettes d'Aeryn! C'est bien l'Orbe! Peut-être qu'on peut te ramener chez toi après tout. Ou peut-être qu'on peut te noyer dans le magma à des milliers de lieues d'ici.]], "_t")
+Par les grandes chaussettes d'Aeryn! C'est bien l'Orbe! Peut-être qu'on peut te ramener chez toi après tout. Ou peut-être qu'on peut te noyer dans le magma à des milliers de lieues d'ici.]], "_t")
 t("May I come in?", "Puis-je entrer?", "_t")
 t([[You think I'm letting some filthy @playerdescriptor.race@ in my house with the Orb of Many Ways?
 I blow myself up quite enough already without that thing in the house, thank you.
 Besides, I still can't help you unless you have a Blood-Runed Athame to etch a portal.
 Err, and that portal must be etched on a piece of prepared Resonating Marble.
 The Gates of the Morning has a slab of Marble that once could have served, but a number of, um, incidents have taken their toll.
-It'll require a Resonating Diamond to get it properly prepared. Oh, and I want 100 gold.]], [[Vous pensez que je vais laisser quelques sales @playerdescriptor.race@ entrer chez moi avec l'Orbe des multiples voies?
+It'll require a Resonating Diamond to get it properly prepared. Oh, and I want 100 gold.]], [[Vous pensez que je vais laisser quelques sales @playerdescriptor.race@ entrer chez moi avec l'Orbe des Multiples Voies?
 Je me fais déjà assez exploser sans cette chose dans la maison, merci.
 De plus, je ne peux toujours pas t'aider à moins que tu n'aies une Athamé rune de sang pour graver un portail.
 Err, et ce portail doit être gravé sur un morceau de marbre résonnant préparé.
-Les Portes du Matin ont une dalle de marbre qui aurait pu servir autrefois, mais un certain nombre d'incidents ont eu raison d'elle.
+Les Portes du Matin ont une dalle de marbre qui aurait pu servir autrefois, mais un certain nombre d'incidents a eu raison d'elle.
 Il faudra un Diamant Résonnant pour le préparer correctement. Oh, et je veux 100 pièces d'or.]], "_t")
 t("Where can I find all that?", "Où puis-je trouver tout cela?", "_t")
 t("Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I assume the orcs have some if they're cooking up portals to use that Orb on. Try the Vor Armory. It so happens that I know a back way in. Never mind why.", "Essayez votre porte-monnaie pour les 100 pièces d'or. Pour ce qui est de l'Athamé et du Diamant, je suppose que les orcs en ont s'ils préparent des portails pour utiliser l'Orbe. Essayez l'armurerie Vor. Il se trouve que je connais un moyen détourné d'y entrer. Peu importe pourquoi.", "_t")
@@ -4335,7 +4335,7 @@ t("Where might I find Briagh's lair??", "Où puis-je trouver le repaire de Briag
 t("Well south of the Sunwall. I'll mark it for you on your map.", "Bien au sud du Mur Solaire. Je vais le marquer sur votre carte.", "_t")
 t("I'll be back with a Resonating Diamond.", "Je reviendrai avec un Diamant Résonnant.", "_t")
 t("Yes? You got the Athame, the gem and 100 gold?", "Oui? Vous avez l'Athamé, la gemme et les 200 pièces d'or?", "_t")
-t("[Give him the gem, the athame and 100 gold]", "[Donnez-lui la gemme, l'athamé et 100 pièces d'or.]", "_t")
+t("[Give him the gem, the athame and 100 gold]", "[Lui donner la gemme, l'athamé et 100 pièces d'or.]", "_t")
 t("Sorry, it seems I lack some stuff. I will be back.", "Désolé, il semble qu'il me manque des choses. Je reviendrai.", "_t")
 t([[#LIGHT_GREEN#*The door opens and a shabby Elf emerges.*#WHITE#
 Off we go to prepare the portal!]], [[#LIGHT_GREEN#*La porte s'ouvre et un Elfe miteux en sort.*#WHITE#
@@ -4358,7 +4358,7 @@ t("I am looking for mindstar training.", "Je suis à la recherche d'un entrainem
 t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_zigur-mindstar-store")
 t("I can teach you mindstar mastery (talent category Wild-gift/Mindstar mastery).  Learning the basics costs 100 gold, while more intensive training to gain proficiency costs 500 gold.  Once you're proficient, I can teach you some additional skills for 750 gold.", "Je peux vous enseigner la maîtrise des étoiles d'âme (catégorie de talent Don sauvage/Maîtrise des Etoiles d'Ame).  L'apprentissage des bases coûte 100 pièces d'or, tandis qu'un entraînement plus intensif pour gagner en compétence coûte 500 pièces d'or.  Une fois que vous êtes compétent, je peux vous enseigner des compétences supplémentaires pour 750 pièces d'or.", "_t")
 t("Just give me the basics (reveals locked talent category) - 100 gold.", "Donnez-moi juste les bases (révèle la catégorie de talent verrouillée) - 100 pièces d'or.", "_t")
-t("The shopkeeper spends some time with you, teaching you the basics of channeling energy through mindstars.", "Le commerçant passe un peu de temps avec vous, vous apprenant les bases de la canalisation de l'énergie par les étoiles d'âme.", "logPlayer")
+t("The shopkeeper spends some time with you, teaching you the basics of channeling energy through mindstars.", "Le commerçant passe un peu de temps avec vous. Vous apprenez les bases de la canalisation de l'énergie par les étoiles d'âme.", "logPlayer")
 t("He is impressed with your affinity for natural forces.", "Il est impressionné par votre affinité avec les forces naturelles.", "logPlayer")
 t("Please teach me what I need to know (unlocks talent category) - 500 gold.", "Apprenez-moi ce que je dois savoir (débloque la catégorie des talents) - 500 pièces d'or.", "_t")
 t("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you.", "Le commerçant passe beaucoup de temps à examiner avec vous les détails les plus subtils de la canalisation de l'énergie par les étoiles d'âme.", "logPlayer")
@@ -4373,7 +4373,7 @@ t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/zigur-trainer.lua"
 
-t("Well met, friend.", "Bravo, mon ami.", "_t")
+t("Well met, friend.", "Bien le bonjour, l'ami.", "_t")
 t("Farewell.", "Adieux.", "_t")
 t("Sister", "Soeur", "_t")
 t("Brother", "Frère", "_t")
@@ -4387,19 +4387,19 @@ You will be challenged against magical foes. Should you defeat them, we will tea
 #LIGHT_RED#Note:  Completing this quest will forever prevent this character from using spells or items powered by arcane forces.  In exchange you'll be given access to a mindpower based generic talent tree, Anti-magic, and be able to unlock hidden properties in many arcane-disrupting items.]], [[#LIGHT_GREEN#*Un combattant à l'air sinistre se tient là, vêtu d'une armure de mailles et d'une grande cape olive. Il ne semble pas hostile - son épée est au fourreau.*#WHITE#
 %s, notre guilde vous a observé et nous pensons que vous avez du potentiel.
 Nous voyons que les arts hermétiques ont toujours été à l'origine de chaque épreuve que cette terre a endurée, et nous voyons aussi qu'un jour ils provoqueront notre destruction. Nous avons donc décidé d'agir en faisant appel à la Nature pour nous aider à combattre ceux qui manient les arcanes.
-Nous pouvons vous former, mais vous devez prouver que vous êtes purs, non touchés par les forces occultes, et prêts à les combattre jusqu'au bout.
-Vous serez mis au défi contre des ennemis magiques. Si tu les vaincs, nous t'enseignerons nos méthodes, et plus jamais tu ne pourras être contaminé par la magie, ou l'utiliser.
+Nous pouvons vous former, mais vous devez prouver que vous êtes purs, non souillé par les forces occultes, et prêts à les combattre jusqu'au bout.
+Vous serez mis au défi contre des ennemis magiques. Si tu les vaincs, nous t'enseignerons nos voies, et plus jamais tu ne pourras être contaminé par la magie, ou l'utiliser.
 
-#LIGHT_RED#Remarque : l'accomplissement de cette quête empêchera à jamais ce personnage d'utiliser des sorts ou des objets alimentés par des forces arcaniques.  En échange, vous aurez accès à un arbre de talent générique basé sur la puissance de l'esprit, l'Anti-magie, et pourrez déverrouiller les propriétés cachées de nombreux objets perturbant les arcanes.]], "tformat")
+#LIGHT_RED#Remarque : l'accomplissement de cette quête empêchera à jamais ce personnage d'utiliser des sorts ou des objets alimentés par des forces arcaniques. En échange, vous aurez accès à un arbre de talent générique basé sur la puissance mentale, l'Anti-magie, et pourrez déverrouiller les propriétés cachées de nombreux objets perturbant les arcanes.]], "tformat")
 t("I will face your challenge!", "Je vais relever votre défi!", "_t")
 t("I'm not interested.", "Je ne suis pas interessé.", "_t")
 t("Very well. I will say that this is disappointing, but it is your choice. Farewell.", "Très bien. Je dois dire que c'est décevant, mais c'est votre choix. Adieu.", "_t")
 t("Ah, you seem eager, but maybe still too young. Come back when you have grown a bit.", "Ah, vous semblez enthousiaste, mais peut-être encore trop jeune. Revenez quand vous aurez grandi un peu.", "_t")
-t("I shall.", "je le ferais.", "_t")
+t("I shall.", "Je le ferais.", "_t")
 t("\
 Worry not, though, Ogre - we can replace your unclean runes with a newly-discovered mixture of infusions, eliminating your dependence on them.  The process will feel...  unpleasant, and will dramatically shorten your lifespan, but you will finally be free from the addictive grip of the arcane!\
 ", "\
-Ne t'inquiète pas, cependant, Ogre - nous pouvons remplacer vos runes impures par un mélange d'infusions récemment découvert, éliminant votre dépendance à leur égard.  Le processus sera... désagréable, et raccourcira considérablement votre durée de vie, mais vous serez enfin libéré de l'emprise addictive de l'arcane!\
+Ne vous inquiètez pas, cependant, Ogre - nous pouvons remplacer vos runes impures par un mélange d'infusions récemment découvert, éliminant votre dépendance à leur égard.  Le processus sera... désagréable, et raccourcira considérablement votre espérance de vie, mais vous serez enfin libéré de l'emprise addictive de l'arcane!\
 ", "_t")
 t([[We'll also reinforce the infusions you've been granted to replace your runes - the newest mixture should give you about five years of your life that the initial mixture took from you.
 ]], [[Nous renforcerons également les infusions qui vous ont été accordés pour remplacer vos runes - le mélange le plus récent devrait vous rendre environ cinq années de votre vie que le mélange initial vous a fait perdre.
@@ -4413,7 +4413,7 @@ Are you ready, or do you wish to prepare first?]], [[Très bien. Avant de commen
 - Tous les objets portés qui sont alimentés par l'arcane seront déséquipés.
 %s
 Êtes-vous prêt, ou souhaitez-vous vous préparer d'abord?]], "tformat")
-t("I am ready", "je suis prêt", "_t")
+t("I am ready", "Je suis prêt", "_t")
 t("I need to prepare.", "J'ai besoin de me préparer.", "_t")
 t([[#VIOLET#*You are grabbed by two olive-clad warriors and thrown into a crude arena!*
 #LIGHT_GREEN#*You hear the voice of the Fighter ring above you.*#WHITE#
@@ -4427,9 +4427,9 @@ section "mod-tome/data/chats/zoisla.lua"
 
 t([[#LIGHT_GREEN#*A naga steps through the portal, she seems to be a high ranked one.*#WHITE#
 NO! You fool, the portal is breaking down!]], [[#LIGHT_GREEN#*Une naga traverse le portail, elle semble être de haut rang.*#WHITE#
-NON! Espèce d'idiot, le portail est en train de céder!]], "_t")
+NON! Espèce d'idiot, le portail est en train de s'effondrer!]], "_t")
 t("And thus my task is done, serpent!", "Et ainsi ma tâche est accomplie, serpent!", "_t")
-t("You do not understand: it will explode!", "Vous ne comprenez pas : ça va exploser!", "_t")
+t("You do not understand: it will explode!", "Vous ne comprenez pas: ça va exploser!", "_t")
 t([[The portal randomly teleported us before exploding.
 You fool! You have doomed us, we could be #{bold}#anywhere!#{normal}#
 DIE !]], [[Le portail nous a téléportés au hasard avant d'exploser.
@@ -4447,7 +4447,7 @@ section "mod-tome/data/damage_types.lua"
 t("%s(%d warded)#LAST#", "%s(%d protégé)#LAST#", "tformat")
 t("#Source# strikes #Target# in the darkness (%+d%%%%%%%% damage).", "#Source# frappe #Target# dans les ténèbres (%+d%%%%%%%% dégâts).", "delayedLogMessage")
 t("Something", "Quelque chose", "_t")
-t("%s forces the iceblock to shatter.", "%s force le block de glace a se briser.", "logSeen")
+t("%s forces the iceblock to shatter.", "%s force le bloc de glace à se briser.", "logSeen")
 t("%s(%d to psi shield)#LAST#", "%s(%d bouclier psi)#LAST#", "tformat")
 t("%s(%d blocked)#LAST#", "%s(%d bloqué)#LAST#", "tformat")
 t("%s(%d abyssal shield)#LAST#", "%s(%d bouclier abyssal)#LAST#", "tformat")
@@ -4456,7 +4456,7 @@ t("%s(%d flat reduction)#LAST#", "%s(%d réduction fixe)#LAST#", "tformat")
 t("You end your target with a crushing blow!", "Vous achevez votre cible avec un coup dévastateur!", "logPlayer")
 t("#LIGHT_GREY#(%d resilience)#LAST#", "#LIGHT_GREY#(%d résistance)#LAST#", "tformat")
 t("#CRIMSON##Source# damages %s through Martyrdom!", "#CRIMSON##Source# dégâts %s par le biais de Supplice!", "delayedLogMessage")
-t("#CRIMSON##Source# reflects damage back to #Target#!", "#CRIMSON##Source# renvoie des dégâts vers #Target#!", "delayedLogMessage")
+t("#CRIMSON##Source# reflects damage back to #Target#!", "#CRIMSON##Source# renvoie les dégâts vers #Target#!", "delayedLogMessage")
 t("#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "#Source##LIGHT_GREEN# SOIGNE#LAST# de %s %s #LAST# dégâts!", "tformat")
 t("cosmetic", "dégâts cosmétique", "damage type")
 t("cosmeticed", "cosmétisé", "_t")
@@ -4473,7 +4473,7 @@ t("disembowelled", "éventré", "_t")
 t("decapitated", "décapité", "_t")
 t("stabbed", "poignardé", "_t")
 t("pierced", "percé", "_t")
-t("torn limb from limb", "déchiré membre par membre", "_t")
+t("torn limb from limb", "déchiqueté membre par membre", "_t")
 t("crushed", "écrasé", "_t")
 t("shattered", "brisé", "_t")
 t("smashed", "fracassé", "_t")
@@ -4514,7 +4514,7 @@ t("frozen", "gelé", "_t")
 t("chilled", "glacé", "_t")
 t("iced", "refroidi", "_t")
 t("cooled", "rafraichi", "_t")
-t("frozen and shattered into a million little shards", "gelé et brisé en millions de petits morceaux.", "_t")
+t("frozen and shattered into a million little shards", "gelé et pulvérisé en millions de petits morceaux", "_t")
 t("lightning", "dégâts de foudre", "damage type")
 t("electrocuted", "electrocuté", "_t")
 t("shocked", "choqué", "_t")
@@ -4559,13 +4559,13 @@ t("winter", "dégâts d'hiver", "damage type")
 t("temporal", "dégâts temporel", "damage type")
 t("timewarped", "chronophage", "_t")
 t("temporally distorted", "déformé temporellement", "_t")
-t("spaghettified across the whole of space and time", "transformé en spaghettis dans l'ensemble de l'espace et du temps.", "_t")
+t("spaghettified across the whole of space and time", "spaghettifié à travers l'espace-temps", "_t")
 t("paradoxed", "paradoxalisé", "_t")
-t("replaced by a time clone (and no one ever knew the difference)", "remplacé par un clone temporel (et personne n'a jamais su faire la différence)", "_t")
+t("replaced by a time clone (and no one ever knew the difference)", "remplacé par un clone temporel (et personne n'a jamais remarqué la différence)", "_t")
 t("grandfathered", "tranformé en personne agé", "_t")
 t("time dilated", "dilaté par le temps", "_t")
-t("temporal stun", "dégâts d'étourdissement temporellement", "damage type")
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("temporal stun", "dégâts d'étourdissement temporel", "damage type")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 t("lite", "dégâts de lampe", "damage type")
 t("illumination", "dégâts d'illumination", "damage type")
 t("silence", "dégâts de silence", "damage type")
@@ -4573,7 +4573,7 @@ t("%s resists the silence!", "%s resiste au silence!", "logSeen")
 t("arcane silence", "dégâts de silence arcanique", "damage type")
 t("%s resists!", "%s résiste!", "logSeen")
 t("blindness", "dégâts d'aveuglement", "damage type")
-t("%s resists the blinding light!", "%s résiste à la lumière éblouissante!", "logSeen")
+t("%s resists the blinding light!", "%s résiste à la lumière aveuglante!", "logSeen")
 t("blinding ink", "dégâts d'encre aveuglante", "damage type")
 t("%s avoids the blinding ink!", "%s évite l'encre aveuglante!", "logSeen")
 t("bright light", "dégâts de lumière vive", "damage type")
@@ -4582,7 +4582,7 @@ t("stunning fire", "dégâts de feu étourdissant", "damage type")
 t("devouring flames", "dégâts de flammes dévorantes", "damage type")
 t("#Source# drains life from #Target#!", "#Source# draine la vie de #Target#!", "logCombat")
 t("shadowflame", "dégâts de flamme d'ombre", "damage type")
-t("stunning darkness", "dégâts d'obscurité totale", "damage type")
+t("stunning darkness", "dégâts d'obscurité étourdissante", "damage type")
 t("%s resists the darkness!", "%s résiste à l'obscurité !", "logSeen")
 t("flameshock", "dégâts de choc de flammes", "damage type")
 t("%s resists the searing flame!", "%s résiste à la flamme ardente!", "logSeen")
@@ -4623,7 +4623,7 @@ t("nature slow", "dégâts de nature lente", "damage type")
 t("dig", "dégâts de creuseage", "damage type")
 t("%s turns into %s.", "%s se transforme en %s.", "logSeen")
 t("slow", "dégâts de ralentissement", "damage type")
-t("congeal time", "dégâts de congélation temporelle", "damage type")
+t("congeal time", "dégâts de congélation temporel", "damage type")
 t("time prison", "dégâts de prison temporelle", "damage type")
 t("%s resists the time prison.", "%s résiste à la proison temporelle.", "logSeen")
 t("confusion", "dégâts de confusion", "damage type")
@@ -4793,8 +4793,8 @@ section "mod-tome/data/factions.lua"
 t("Neutral", "Neute", "faction name")
 t("Unaligned", "Non Aligné", "faction name")
 t("Merchant Caravan", "Caravane Marchande", "faction name")
-t("Point Zero Onslaught", "L'offensive du Point Zéro", "faction name")
-t("Point Zero Guardians", "Les guardiens du Point Zéro", "faction name")
+t("Point Zero Onslaught", "L'Offensive du Point Zéro", "faction name")
+t("Point Zero Guardians", "Les Gardiens du Point Zéro", "faction name")
 
 ------------------------------------------------
 section "mod-tome/data/general/encounters/fareast-npcs.lua"
@@ -4803,7 +4803,7 @@ t("Sun Paladins patrol", "Patrouille de Paladins du Soleil", "entity name")
 t("patrol", "patrouille", "entity type")
 t("sunwall", "mur solaire", "entity subtype")
 t("Anorithil patrol", "Patrouille d'Anorithil", "entity name")
-t("Orcs patrol", "Patrouille d'Orcs", "entity name")
+t("Orcs patrol", "Patrouille Orc", "entity name")
 t("orc pride", "fierté orc", "entity subtype")
 
 ------------------------------------------------
@@ -4814,7 +4814,7 @@ t("harmless", "inoffensif", "entity type")
 t("special", "spécial", "entity subtype")
 t("Entrance to an underwater cave", "Entrée vers une grotte sous-marine", "_t")
 t("#LIGHT_BLUE#You notice an entrance to an underwater cave.", "#LIGHT_BLUE#Vous remarquez l'entrée d'une grotte sous-marine.", "logPlayer")
-t("Shadow Crypt", "Crypte sombre", "entity name")
+t("Shadow Crypt", "Crypte Sombre", "entity name")
 t("hostile", "hostil", "entity type")
 t("Entrance to a dark crypt", "Entrée d'une crypte sombre", "_t")
 
@@ -4829,7 +4829,7 @@ t("adventurers party", "groupe d'aventuriers", "entity name")
 t("hostile", "hostil", "entity type")
 t("humanoid", "humanoïde", "entity subtype")
 t("ziguranth patrol", "patrouille du ziguranth", "entity name")
-t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "Tu n'as rien à craindre si tu n'utilise pas de la sale magie arcanique. Sinon: CRÈVE!", "_t")
+t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "Vous n'avez rien à craindre si vous n'utilisez pas de la sale magie arcanique. Sinon: CRÈVE!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/encounters/maj-eyal.lua"
@@ -4841,7 +4841,7 @@ t("Novice mage", "Mage débutant", "_t")
 t("Lost merchant", "Marchant perdu", "entity name")
 t("hostile", "hostil", "entity type")
 t("Encounter", "Rencontre", "_t")
-t("You find a hidden trap door, and hear cries for help from within...", "Vous trouvez une trappe cachée, et entendez de l'intérieur des appels à l'aide...", "_t")
+t("You find a hidden trap door, and hear cries for help from within...", "Vous trouvez une trappe cachée et entendez des appels à l'aide provenant de l'intérieur...", "_t")
 t("#LIGHT_BLUE#You carefully get away without making a sound.", "#LIGHT_BLUE#Vous partez prudemment sans faire de bruit.", "logPlayer")
 t("#LIGHT_RED#You carefully open the trap door and enter the underground tunnels...", "#LIGHT_RED#Vous ouvrez délicatement la trappe et entrez dans les tunnels souterrains...", "logPlayer")
 t("#LIGHT_RED#As you enter you notice the trap door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#Une fois entré, vous remarquez que la trappe n'a pas de poignée visible à l'intérieur. Vous êtes coincé ici!", "logPlayer")
@@ -4851,16 +4851,16 @@ t("Sect of Kryl-Faijan", "Secte de Kryl-Faijan", "entity name")
 t([[You find an entrance to an old crypt. An aura of terrible evil emanates from this place. You feel threatened just standing there.
 You hear the muffled cries of a woman coming from inside.]], [[Vous trouvez l'entrée d'une vieille crypte. Une terrible aura maléfique émane de cet endroit. Vous vous sentez menacé rien qu'en vous tenant là.
 Vous entendez les cris étouffés d'une femme venant de l'intérieur.]], "_t")
-t("#LIGHT_RED#You carefully open the door and enter the underground crypt...", "#LIGHT_RED#Vous ouvrez soigneusement la porte et entrez dans la crypte souterraine...", "logPlayer")
+t("#LIGHT_RED#You carefully open the door and enter the underground crypt...", "#LIGHT_RED#Vous ouvrez prudemment la porte et entrez dans la crypte souterraine...", "logPlayer")
 t("#LIGHT_RED#As you enter you notice the door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#Une fois entré, vous remarquez que la porte n'a pas de poignée visible à l'intérieur. Vous êtes coincé ici!", "logPlayer")
 t("Enter the crypt", "Entrez dans la crypte", "_t")
 t("Lost kitten", "Chaton égaré", "entity name")
-t("Lost Kitty", "Chatte égarée", "_t")
+t("Lost Kitty", "Petit chat égarée", "_t")
 t("Ancient Elven Ruins", "Anciennes Ruines Elfiques", "entity name")
 t("Entrance to some ancient elven ruins", "Entrée d'anciennes ruines elfiques", "_t")
-t("Cursed Village", "Le village maudit", "entity name")
+t("Cursed Village", "Village Maudit", "entity name")
 t("Half-dead lumberjack", "Bûcheron à moitié mort", "_t")
-t("Ruined Dungeon", "Donjon en ruines", "entity name")
+t("Ruined Dungeon", "Donjon en Ruines", "entity name")
 t("Entrance to a ruined dungeon", "Entrée du donjon en ruines", "_t")
 t("Mark of the Spellblaze", "Marque de la Brûlure Magique", "entity name")
 t("Mark of the Spellblaze", "Marque de la Brûlure Magique", "_t")
@@ -4868,8 +4868,8 @@ t("Golem Graveyard", "Cimetière de Golems", "entity name")
 t("Golem Graveyard", "Cimetière de Golems", "_t")
 t("Agrimley the Hermit", "Agrimley l'Hermite", "entity name")
 t("Agrimley the Hermit", "Agrimley l'Hermite", "_t")
-t("Ring of Blood", "Cercle de sang", "entity name")
-t("Hidden compound", "L'Enceinte Cachée", "_t")
+t("Ring of Blood", "Cercle de Sang", "entity name")
+t("Hidden compound", "Complexe Caché", "_t")
 t("Tranquil Meadow", "Pré Paisible", "entity name")
 t("tranquil meadow", "pré paisible", "_t")
 
@@ -4890,7 +4890,7 @@ section "mod-tome/data/general/events/conclave-vault.lua"
 
 t("Director Hompalan", "Directeur Hompalan", "_t")
 t([[Only crumbling bones are left of what once was the proud Director Hompalan, chief of this facility.
-Now those remains look at you with empty eyes but you can not mistake their intent.]], [[Il ne reste que des ossements réduits en miettes de ce qui était autrefois le fier directeur Hompalan, chef de cette installation.
+Now those remains look at you with empty eyes but you can not mistake their intent.]], [[Il ne reste que des os décrépits de ce qui était autrefois le fier directeur Hompalan, chef de cette installation.
 Ces restes vous regardent maintenant avec des yeux vides, mais vous ne pouvez pas vous méprendre sur leurs intentions.]], "_t")
 
 ------------------------------------------------
@@ -4900,23 +4900,23 @@ t("monolith", "monolithe", "_t")
 t("Cultist", "Adepte", "_t")
 t("An elven cultist. He doesn't seem to mind you.", "Un adepte elfique. Il n'a pas l'air de se soucier de vous.", "_t")
 t("My soul for her!", "Mon âme est à elle!", "_t")
-t("The Dark Queen shall reign!", "La Reine des Ténèbres doit régner!", "_t")
+t("The Dark Queen shall reign!", "La Reine des Ténèbres régnera!", "_t")
 t("Take me! Take me!", "Prends-moi! Prends-moi!", "_t")
 t("From death comes life!", "De la mort vient la vie!", "_t")
 t("corrupted monolith", "monolithe corrompu", "_t")
 t("This is too soon!", "C'est trop tôt!", "_t")
 t("No the ritual will weaken!", "Non, le rituel s'affaiblira!", "_t")
 t("disrupted monolith", "monolithe perturbé", "_t")
-t("Something the cultists are doing is coming. Beware.", "Ce que font les adeptes du culte va arriver. Attention.", "_t")
+t("Something the cultists are doing is coming. Beware.", "Ce que préparent les adeptes du culte est sur le point d'arriver. Prenez garde.", "_t")
 t("The cultist's soul seems to be absorbed by the strange stone he was guarding. You feel like something is about to happen...", "L'âme de l'adepte semble être absorbée par l'étrange pierre qu'il gardait. Vous sentez que quelque chose est sur le point de se produire...", "_t")
-t("This demon would be very attractive if not for the hovering crown of flames, the three tails and sharp claws. As you watch her you can almost feel pain digging in your flesh. She wants you to suffer.", "Cette démone serait très séduisante si elle n'avait pas sa couronne de flammes, ses trois queues et ses griffes acérées. En la regardant, vous pouvez presque sentir la douleur s'enfoncer dans vos chairs. Elle veut vous voir souffrir.", "_t")
+t("This demon would be very attractive if not for the hovering crown of flames, the three tails and sharp claws. As you watch her you can almost feel pain digging in your flesh. She wants you to suffer.", "Cette démone serait très séduisante si elle n'avait pas sa couronne de flammes, ses trois queues, et ses griffes acérées. En la regardant, vous pouvez presque sentir la douleur s'enfoncer dans vos chairs. Elle veut vous voir souffrir.", "_t")
 t("and used for her perverted desires", "et être utilisé pour ses désirs pervers", "_t")
 t("Crown of Burning Pain", "Couronne de Douleur Ardente.", "_t")
 t("burning crown", "couronne ardente", "_t")
 t("This crown of pure flames possesses a myriad of small molten rocks floating wildly above it. Each can be removed to throw as a true meteor.", "Cette couronne de flammes pures possède une myriade de petits rochers en fusion flottant sauvagement au-dessus d'elle. chacun peut être retiré pour être lancé comme un véritable météore.", "_t")
 t([[A terrible shout thunders across the level: 'Come my darling, come, I will be ssssooo *nice* to you!'
 You should flee from this level!]], [[Un cri terrible retentit à travers tout le niveau: "Viens mon coeur, viens, je vais être tellement *gentille* avec toi!".
-Vous devez fuir ce niveau!]], "_t")
+Vous devriez fuir ce niveau!]], "_t")
 t("%s pulls a dagger and opens his own chest, piercing his beating heart. The stone glows with malevolent colors.", "%s tire une dague et ouvre sa propre poitrine, perçant son coeur qui bat. La pierre brille de couleurs maléfiques.", "logSeen")
 
 ------------------------------------------------
@@ -5099,7 +5099,7 @@ t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET#
 t("Hidden Vault - %s", "Chambre Forte Cachée - %s", "tformat")
 t("hidden vault", "chambre forte cachée", "_t")
 t("Crumbling stairs lead down to something.", "Ces escaliers en ruine mènent à quelque chose.", "_t")
-t("collapsing hidden vault", "chambre forte cachée qui séeffondre.", "_t")
+t("collapsing hidden vault", "chambre forte cachée qui s'éffondre.", "_t")
 t("collapsed hidden vault", "chambre forte cachée effondrée.", "_t")
 t("A collapsed stairway, leading down", "Un escalier effondré, menant vers le bas", "_t")
 t("nearly collapsed hidden vault", "chambre forte cachée quasiment effondrée", "_t")
@@ -7206,10 +7206,10 @@ t("crimson waraxe", "hache de guerre cramoisie", "_t")
 t("A small but sharp axe, with a handle made of polished bone.  The blade has chopped through the skulls of many, and has been stained a deep crimson.", "Une hache petite mais tranchante, avec un manche en os poli.  La lame a tranché le crâne de nombreuses personnes et est colorée d'un profond cramoisi.", "_t")
 t("Tooth of the Mouth", "Dent de la Bouche", "entity name")
 t("a tooth", "une dent", "_t")
-t("A huge tooth taken from the Mouth, in the Deep Bellow.", "Une énorme dent prise dans la Bouche, dans le Souffle Profond.", "_t")
+t("A huge tooth taken from the Mouth, in the Deep Bellow.", "Une énorme dent prise dans la Bouche, dans le Grondement des Profondeurs.", "_t")
 t("The Warped Boots", "Les Bottes de la Distorsion.", "entity name")
 t("pair of painful-looking boots", "une paire de bottes à l'aspect pénible.", "_t")
-t("These blackened boots have lost all vestiges of any former glory they might have had. Now, they are a testament to the corruption of the Deep Bellow, and its power.", "Ces bottes noircies ont perdu tout vestige de la gloire qu'elles ont pu avoir. Maintenant, elles témoignent de la corruption du Souffle Profond et de son pouvoir.", "_t")
+t("These blackened boots have lost all vestiges of any former glory they might have had. Now, they are a testament to the corruption of the Deep Bellow, and its power.", "Ces bottes noircies ont perdu tout vestige de la gloire qu'elles ont pu avoir. Maintenant, elles témoignent de la corruption du Grondement des Profondeurs et de son pouvoir.", "_t")
 t("Withering Orbs", "Orbes Flétrissantes", "entity name")
 t("shadow-strung orbs", "orbes à ombres portées", "_t")
 t([[These opalescent orbs stare at you with deathly knowledge, undeceived by your vanities and pretences.  They have lived and died through horrors you could never imagine, and now they lie strung in black chords watching every twitch of the shadows.
@@ -10625,7 +10625,7 @@ t("These gloves make you feel rock steady! These magical gloves feel really soft
 t("Dakhtun's Gauntlets", "Gantelets de Dakhtun", "entity name")
 t("expertly-crafted dwarven-steel gauntlets", "Gantelets en acier nain fabriqués par des experts.", "_t")
 t("Fashioned by Grand Smith Dakhtun in the Age of Allure, these dwarven-steel gauntlets have been etched with golden arcane runes and are said to grant the wearer unparalleled physical and magical might.", "Fabriqués par le Grand Forgeron Dakhtun à l'Ere de la Séduction, ces gantelets en acier nain ont été gravés de runes arcaniques dorées et sont censés conférer à leur porteur une puissance physique et magique inégalée.", "_t")
-t("Voratun Hammer of the Deep Bellow", "Marteau Voratun du Souffle Profond", "entity name")
+t("Voratun Hammer of the Deep Bellow", "Marteau Voratun du Grondement des Profondeurs", "entity name")
 t("flame scorched voratun hammer", "marteau voratun brûlé par les flammes", "_t")
 t("The legendary hammer of the Dwarven master smiths. For ages it was used to forge powerful weapons with searing heat until it became highly powerful by itself.", "Le marteau légendaire des maîtres forgerons nains. Pendant des siècles, il a été utilisé pour forger des armes puissantes avec une chaleur brûlante, jusqu'à ce qu'il devienne très puissant par lui-même.", "_t")
 t("Snow Giant Wraps", "Bracelets de Géant des Neiges", "entity name")
@@ -18063,7 +18063,7 @@ t("A small scrap of paper written in a mocking tone.", "Un petit bout de papier 
 section "mod-tome/data/maps/vaults/bandit-fortress.lua"
 
 t("bandit fortress", "forteresse de bandits", "_t")
-t("stairs back to %s", "redescendre vers %s", "_t")
+t("stairs back to %s", "escaliers vers %s", "_t")
 t("#rng# the Guard", "#rng# le Garde", "_t")
 t("scroll", "parchemin", "_t")
 t("Guard's Journal", "Journal d'un garde", "_t")
@@ -18074,12 +18074,12 @@ section "mod-tome/data/maps/vaults/collapsed-tower.lua"
 
 t("elemental crystal", "cristal élémentaire", "_t")
 t("collapsed tower", "tour effondrée", "_t")
-t("stairs back to %s", "redescendre vers %s", "_t")
+t("stairs back to %s", "escaliers vers %s", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/greater-crypt.lua"
 
-t("Something in the floor clicks ominously%s", "Quelque chose dans le sol fait un bruit inquiétant%s", "logPlayer")
+t("Something in the floor clicks ominously%s", "Quelque chose dans le sol émet un clic inquiétant%s", "logPlayer")
 t(", and suddenly the world spins around you!", ", et soudain le monde tourne autour de vous!", "_t")
 t(", and the crypt rearranges itself around you!", ", et la crypte se réorganise autour de vous!", "_t")
 t("Something in the floor clicks ominously.", "Quelque chose dans le sol clique sinistrement.", "logPlayer")
@@ -18089,13 +18089,13 @@ t("Something beneath you clicks ominously.", "Quelque chose en dessous de vous c
 section "mod-tome/data/maps/vaults/grushnak-armory.lua"
 
 t("#rng# the Archer", "#rng# l'Archer", "_t")
-t("Warbear #rng#", "L'Ours de Guerre #rng#", "_t")
-t("Elite Combat Trainer #rng#", "Entraîneur de Combat d'Elite #rng#", "_t")
+t("Warbear #rng#", "Ours de Guerre #rng#", "_t")
+t("Elite Combat Trainer #rng#", "Maître d'Armes d'Élite #rng#", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/lava_island.lua"
 
-t("#rng# the Witherer", "#rng# le Faucheur", "_t")
+t("#rng# the Witherer", "#rng# le Flétrisseur", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/renegade-pyromancers.lua"
@@ -18112,7 +18112,7 @@ section "mod-tome/data/maps/vaults/renegade-undead.lua"
 t("Grand Necromancer #rng#", "Grand Nécromancien #rng#", "_t")
 t("Inquisitor #rng#", "Inquisiteur #rng#", "_t")
 t("#rng# the Tortured Mass", "#rng# la Masse Torturée", "_t")
-t("Tortured Mass #rng#", "La Masse Torturée #rng#", "_t")
+t("Tortured Mass #rng#", "Masse Torturée #rng#", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/renegade-wyrmics.lua"
@@ -18127,13 +18127,8 @@ t("#rng# the Caustic Terror", "#rng# la Terreur Caustique", "_t")
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/test.lua"
 
-
--- texte non traduit
---[==[
-t("#PINK# Test vault onplace function called: zone:%s, level:%s, map:%s", "#PINK# Test vault onplace function called: zone:%s, level:%s, map:%s", "log")
-t("#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "log")
---]==]
-
+t("#PINK# Test vault onplace function called: zone:%s, level:%s, map:%s", "#PINK# Fonction onplace du coffre de test appelée : zone:%s, niveau:%s, carte:%s", "log")
+t("#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "#PINK# Fonction roomCheck du coffre de test appelée : zone:%s, niveau:%s, carte:%s", "log")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/trickvault.lua"
@@ -18144,7 +18139,7 @@ t("#YELLOW#The air comes alive with terrible magics!", "#YELLOW#L'air s'anime de
 ------------------------------------------------
 section "mod-tome/data/maps/wilderness/eyal.lua"
 
-t("Island of Rel", "Ile de Rel", "_t")
+t("Island of Rel", "Île de Rel", "_t")
 t("Charred Scar", "Plaie Craquelée", "_t")
 t("Far East", "Extrême-Orient", "_t")
 -- texte non traduit
@@ -18173,7 +18168,7 @@ t("arcane crystal", "cristal arcanique", "_t")
 section "mod-tome/data/maps/zones/halfling-ruins-last.lua"
 
 t("Long tunnel to the island of Rel", "Long tunnel vers l'île de Rel", "_t")
-t("As you enter the tunnel you feel a strange compulsion to go backward.", "En entrant dans le tunnel, vous ressentez une étrange envie de reculer.", "_t")
+t("As you enter the tunnel you feel a strange compulsion to go backward.", "En entrant dans le tunnel, vous ressentez une étrange envie de faire demi-tour.", "_t")
 -- texte non traduit
 --[==[
 t("Long tunnel", "Long tunnel", "_t")
@@ -18206,12 +18201,12 @@ t("A dark hole in the mountain", "Un trou sombre dans la montagne", "_t")
 section "mod-tome/data/mapscripts/lib/subvault.lua"
 
 t("Hidden Vault - %s", "Chambre Forte Cachée - %s", "tformat")
-t("stairs back to %s", "redescendre vers %s", "_t")
+t("stairs back to %s", "escaliers vers %s", "_t")
 t("hidden vault", "chambre forte cachée", "_t")
 t("Crumbling stairs lead down to something.", "Ces escaliers en ruine mènent à quelque chose.", "_t")
-t("collapsing hidden vault", "chambre forte cachée qui séeffondre.", "_t")
+t("collapsing hidden vault", "chambre forte cachée qui s'éffondre.", "_t")
 t("collapsed hidden vault", "chambre forte cachée effondrée.", "_t")
-t("It is fully collapsed, no way down.", "Il est complètement effondré, sans possibilité de descente.", "_t")
+t("It is fully collapsed, no way down.", "Il est complètement effondré, aucune possibilité de descente.", "_t")
 t("#VIOLET# The stairway is about to collapses completely, you may still go back but it will be the last time!", "#VIOLET# L'escalier est sur le point de s'effondrer complètement, vous pouvez encore y retourner mais ce sera la dernière fois!", "log")
 t("nearly collapsed hidden vault", "chambre forte cachée quasiment effondrée", "_t")
 t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET# Les escaliers décrépis se délabrent un peu plus à mesure que vous les montez.", "log")
@@ -18221,43 +18216,43 @@ section "mod-tome/data/quests/anti-antimagic.lua"
 
 t("The fall of Zigur", "La chute de Zigur", "_t")
 t("You decided to side with the Grand Corruptor and joined forces to assault the Ziguranth main base of power.", "Vous avez décidé de vous ranger du côté du Grand Corrupteur et avez joint leurs forces pour attaquer la principale base de pouvoir des Ziguranth.", "_t")
-t("The Grand Corruptor died during the attack before he had time to teach you his ways.", "Le Grand Corrupteur est mort pendant l'attaque avant d'avoir eu le temps de t'enseigner ses méthodes.", "_t")
+t("The Grand Corruptor died during the attack before he had time to teach you his ways.", "Le Grand Corrupteur est mort durant l'attaque avant d'avoir eu le temps de vous enseigner ses méthodes.", "_t")
 t("The defenders of Zigur were crushed, the Ziguranth scattered and weakened.", "Les défenseurs de Zigur ont été écrasés, les Ziguranth dispersés et affaiblis.", "_t")
 t("In the aftermath you turned against the Grand Corruptor and dispatched him.", "Par la suite, vous vous êtes retourné contre le Grand Corrupteur et l'avez éliminé.", "_t")
 t("Select the party member to receive the hexes generic talent tree:", "Sélectionnez le membre du groupe qui recevra l'arbre de Talents Générique des Malédictions:", "_t")
 t("Grand Corruptor", "Grand Corrupteur", "_t")
-t("#LIGHT_GREEN#The Grand Corruptor gazes upon you. You feel knowledge flowing in your mind. You can now train some corruption powers.", "#LIGHT_GREEN#Le Grand Corrupteur vous regarde. Tu sens la connaissance couler dans ton esprit. Tu peux maintenant exercer des pouvoirs de corruption.", "_t")
+t("#LIGHT_GREEN#The Grand Corruptor gazes upon you. You feel knowledge flowing in your mind. You can now train some corruption powers.", "#LIGHT_GREEN#Le Grand Corrupteur vous regarde. Vous sentez la connaissance couler dans votre esprit. Vous pouvez maintenant exercer des pouvoirs de corruption.", "_t")
 t("Victory is mine!", "La victoire est mienne!", "_t")
 t("While you were in the Far East, the Grand Corruptor was busy in Maj'Eyal.", "Pendant que vous étiez en Extrême-Orient, le Grand Corrupteur était occupé à Maj'Eyal.", "_t")
 t("With the fall of Zigur he was able to attack and take control of Elvala, the Shaloren capital city.", "Avec la chute de Zigur, il a pu attaquer et prendre le contrôle d'Elvala, la capitale des Shalorens.", "_t")
-t("His plans however do not stop there.", "Ses projets ne s'arrêtent toutefois pas là.", "_t")
+t("His plans however do not stop there.", "Ses projets ne s'arrêtent cependant pas là.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/antimagic.lua"
 
 t("The Curse of Magic", "La Malédiction de la Magie", "_t")
 t("You have been invited to join a group called the Ziguranth, dedicated to opposing magic.", "Vous avez été invité à rejoindre un groupe appelé le Ziguranth, qui s'oppose à la magie.", "_t")
-t("Grim-looking fighter", "Combattant à l'air sombre", "_t")
-t("#VIOLET#A foe is summoned to the arena!", "#VIOLET#Un ennemi est convoqué dans l'arène!", "logSeen")
-t("#VIOLET#Another foe is summoned to the arena!", "#VIOLET#Un autre ennemi est convoqué dans l'arène!", "logSeen")
+t("Grim-looking fighter", "Combattant à l'air sinistre", "_t")
+t("#VIOLET#A foe is summoned to the arena!", "#VIOLET#Un ennemi est invoqué dans l'arène!", "logSeen")
+t("#VIOLET#Another foe is summoned to the arena!", "#VIOLET#Un autre ennemi est invoqué dans l'arène!", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/quests/arena-unlock.lua"
 
 t("The agent of the arena", "L'agent de l'arène", "_t")
 t("You were asked to prove your worth as a fighter by a rogue, in order to participate in the arena", "Un malfrat vous a demandé de prouver votre valeur en tant que combattant, afin de pouvoir participer à l'arène.", "_t")
-t("You succesfully defeated your adversaries and gained access to the arena!", "Vous avez réussi à vaincre vos adversaires et à avoir accès à l'arène!", "_t")
+t("You succesfully defeated your adversaries and gained access to the arena!", "Vous avez réussi à vaincre vos adversaires et obtenu l'accès à l'arène!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/arena.lua"
 
 t("The Arena", "L'Arène", "_t")
 t("Seeking wealth, glory, and a great fight, you challenge the Arena!", "En quête de richesse, de gloire et d'un grand combat, vous défiez l'arène!", "_t")
-t("Can you defeat your foes and become Master of Arena?", "Pourrez-vous vaincre vos ennemis et devenir le maître de l'arène?", "_t")
+t("Can you defeat your foes and become Master of Arena?", "Pourrez-vous vaincre vos ennemis et devenir le Maître de l'Arène?", "_t")
 t("Winner", "Victoire", "_t")
-t("#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "#GOLD#Bravo ! Vous avez gagné l'Arène: Le défi du maître#WHITE#", "_t")
-t("You valiantly fought every creature the arena could throw at you and you emerged victorious!", "Tu as vaillamment combattu toutes les créatures que l'arène pouvait t'envoyer et tu en es sorti victorieux!", "_t")
-t("Glory to you, you are now the new master and your future characters will challenge you.", "Gloire à vous, vous êtes maintenant le nouveau maître et vos futurs personnages vous mettront au défi.", "_t")
+t("#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "#GOLD#Bravo ! Vous avez remporté l'Arène: Le Défi du Maître#WHITE#", "_t")
+t("You valiantly fought every creature the arena could throw at you and you emerged victorious!", "Vous avez combattu vaillamment chaque créature que l'arène pouvait vous envoyer et vous en êtes sorti victorieux!", "_t")
+t("Glory to you, you are now the new master and your future characters will challenge you.", "Gloire à vous, vous êtes maintenant le nouveau maître et vos futurs personnages viendront vous défier.", "_t")
 -- texte non traduit
 --[==[
 t("", "", "_t")
@@ -18269,8 +18264,8 @@ section "mod-tome/data/quests/brotherhood-of-alchemists.lua"
 
 t("The Brotherhood of Alchemists", "La Confrérie des Alchimistes", "_t")
 t("#LIGHT_GREEN#Thanks to your timely aid, %s is the newest member of the Brotherhood of Alchemists.#WHITE#", "#LIGHT_GREEN#Grâce à votre aide opportune, %s est le nouveau membre de la Confrérie des Alchimistes.#WHITE#", "tformat")
-t("#RED#You aided various denizens of Maj'Eyal in their attempts to join the Brotherhood of Alchemists, though you did not prove the deciding factor for any. This year's new member is %s.#WHITE#", "#RED#Vous avez aidé plusieurs habitants de Maj'Eyal à tenter de rejoindre la Confrérie des Alchimistes, mais vous n'avez été le facteur décisif pour aucun d'entre eux. Le nouveau membre de cette année est %s.#WHITE#", "tformat")
-t("#LIGHT_BLUE#Various alchemists around Maj'Eyal are competing to gain entry into the great Brotherhood of Alchemists, and one or more have enlisted your aid.#WHITE#", "#LIGHT_BLUE#Plusieurs alchimistes de Maj'Eyal sont en compétition pour entrer dans la grande Confrérie des Alchimistes, et un ou plusieurs d'entre eux vous ont demandé votre aide.#WHITE#", "_t")
+t("#RED#You aided various denizens of Maj'Eyal in their attempts to join the Brotherhood of Alchemists, though you did not prove the deciding factor for any. This year's new member is %s.#WHITE#", "#RED#Vous avez aidé divers habitants de Maj'Eyal à tenter de rejoindre la Confrérie des Alchimistes, mais vous n'avez été le facteur décisif pour aucun d'entre eux. Le nouveau membre de cette année est %s.#WHITE#", "tformat")
+t("#LIGHT_BLUE#Various alchemists around Maj'Eyal are competing to gain entry into the great Brotherhood of Alchemists, and one or more have enlisted your aid.#WHITE#", "#LIGHT_BLUE#Plusieurs alchimistes de Maj'Eyal sont en compétition pour intégrer la grande Confrérie des Alchimistes, et un ou plusieurs d'entre eux ont sollicité votre aide.#WHITE#", "_t")
 t("#GREEN#You have aided %s in creating an %s.#WHITE#", "#GREEN#Vous avez aidé %s à créer un %s.#WHITE#", "tformat")
 t("#RED#%s has completed an %s without your aid.#WHITE#", "#RED#%s a terminé un %s sans votre aide.#WHITE#", "tformat")
 t("#SLATE#Having failed to gain admittance to the Brotherhood of the Alchemists, %s no longer needs your help making the %s.", "#SLATE#N'ayant pas réussi à se faire admettre dans la confrérie des alchimistes, %s n'a plus besoin de votre aide pour fabriquer un %s.", "tformat")
@@ -18278,7 +18273,7 @@ t("%s needs your help making an %s. He has given you some notes on the ingredien
 t("#SLATE#  * 'Needed: one %s. %s'#WHITE#", "#SLATE#  * 'Besoin de: un %s. %s'#WHITE#", "tformat")
 t("#LIGHT_GREEN#  * You've found the needed %s.#WHITE#", "#LIGHT_GREEN#  * Vous avez trouvé le %s nécessaire.#WHITE#", "tformat")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
-t("#VIOLET#You can check the ingredients you possess by pressing Escape and selecting 'Show ingredients'.", "#VIOLET#Vous pouvez vérifier les ingrédients que vous possédez en appuyant sur la touche Echap et en sélectionnant \"Afficher les ingrédients\".", "log")
+t("#VIOLET#You can check the ingredients you possess by pressing Escape and selecting 'Show ingredients'.", "#VIOLET#Vous pouvez vérifier les ingrédients en votre possession en appuyant sur la touche Échap et en sélectionnant \"Afficher les ingrédients\".", "log")
 t("You receive: %s", "Vous recevez: %s", "logPlayer")
 t("elixir of the fox", "élixir du renard", "_t")
 t("elixir of avoidance", "élixir d'évitement", "_t")
@@ -18304,8 +18299,8 @@ t("The volcano is attacked by orcs. A few Sun Paladins made it there with you. T
 t("Honor their sacrifice; do not let the orcs finish their work!", "Honorez leur sacrifice! Ne laissez pas les orcs finir leur travail!", "_t")
 t("You arrived too late. The place has been drained of its power and the sorcerers have left.", "Vous êtes arrivé trop tard. L'endroit a été vidé de son pouvoir et les sorciers sont partis.", "_t")
 t("Use the portal to go back to the Far East. You *MUST* stop them, no matter the cost.", "Utilisez le portail pour retourner en Extrême-Orient. Vous *DEVEZ* les arrêter, quel qu'en soit le prix.", "_t")
-t("You arrived in time and interrupted the ritual. The sorcerers have departed.", "Tu es arrivé à temps et tu as interrompu le rituel. Les sorciers sont partis.", "_t")
-t("#VIOLET#A portal activates in the distance. You hear the orcs shout, 'The Sorcerers have departed! Follow them!'", "#VIOLET#Un portail s'active au loin. Tu entends les orcs crier: \"Les sorciers sont partis! Suivez-les!\"", "logPlayer")
+t("You arrived in time and interrupted the ritual. The sorcerers have departed.", "Vous êtes arrivé à temps et avez interrompu le rituel. Les sorciers sont partis.", "_t")
+t("#VIOLET#A portal activates in the distance. You hear the orcs shout, 'The Sorcerers have departed! Follow them!'", "#VIOLET#Un portail s'active au loin. Vous entendez les orcs crier: \"Les sorciers sont partis! Suivez-les!\"", "logPlayer")
 t("#VIOLET#The Sorcerers flee through a portal. As you prepare to follow them, a huge faeros appears to block the way.", "#VIOLET#Les Sorciers s'enfuient par un portail. Alors que vous vous apprêtez à les suivre, un énorme feuros apparaît pour bloquer le passage.", "logPlayer")
 -- texte non traduit
 --[==[
@@ -18316,32 +18311,32 @@ t("", "", "_t")
 ------------------------------------------------
 section "mod-tome/data/quests/deep-bellow.lua"
 
-t("From bellow, it devours", "Du souffle, il dévore", "_t")
+t("From bellow, it devours", "D'en bas, il dévore", "_t")
 t("Your escape from Reknor got your heart pounding and your desire for wealth and power increased tenfold.", "Votre évasion de Reknor a fait battre votre coeur et votre désir de richesse et de pouvoir s'est décuplé.", "_t")
-t("Maybe it is time for you to start an adventurer's career. Deep below the Iron Throne mountains lies the Deep Bellow.", "Il est peut-être temps pour vous de commencer une carrière d'aventurier. Sous les montagnes du Trône de Fer se trouve le Souffle Profond.", "_t")
-t("It has been long sealed away but still, from time to time adventurers go there looking for wealth.", "Il a été scellé il y a longtemps mais pourtant, de temps en temps, des aventuriers s'y rendent à la recherche de richesses.", "_t")
-t("None that you know of has come back yet, but you did survive Reknor. You are great.", "Personne à votre connaissance n'est encore revenu, mais vous avez survécu à Reknor. Vous êtes formidable.", "_t")
+t("Maybe it is time for you to start an adventurer's career. Deep below the Iron Throne mountains lies the Deep Bellow.", "Il est peut-être temps pour vous de commencer une carrière d'aventurier. Sous les montagnes du Trône de Fer se trouve le Grondement des  Profondeurs.", "_t")
+t("It has been long sealed away but still, from time to time adventurers go there looking for wealth.", "Il a été scellé il y a longtemps mais pourtant, de temps en temps, des aventuriers s'y rendent en quête de richesses.", "_t")
+t("None that you know of has come back yet, but you did survive Reknor. You are great.", "Personne à votre connaissance n'en est encore revenu, mais vous avez survécu à Reknor. Vous êtes un survivant.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/dreadfell.lua"
 
-t("The Island of Dread", "L'île de la Terreur", "_t")
-t("You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "Vous avez entendu dire que près de la Plaie Craquelée, au sud, se trouve une tour en ruine connue sous le nom de Tombeffroie.", "_t")
-t("There are disturbing rumors of greater undead, and nobody who reached it ever returned.", "Il y a des rumeurs inquiétantes de grands morts-vivants, et aucun de ceux qui y ont été ne sont jamais revenu.", "_t")
-t("Perhaps you should explore it and find the truth, and the treasures, for yourself!", "Peut-être devriez-vous l'explorer et trouver la vérité, ainsi que ses trésors, par vous-même!", "_t")
+t("The Island of Dread", "L'Île de la Terreur", "_t")
+t("You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "Vous avez entendu dire que près de la Plaie Craquelée, au sud, se dresse une tour en ruine connue sous le nom de Tombeffroie.", "_t")
+t("There are disturbing rumors of greater undead, and nobody who reached it ever returned.", "Il y a des rumeurs inquiétantes de puissants morts-vivants, et aucun de ceux qui y ont été ne sont jamais revenu.", "_t")
+t("Perhaps you should explore it and find the truth, and the treasures, for yourself!", "Peut-être devriez-vous l'explorer et découvrir la vérité, ainsi que ses trésors, par vous-même!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/east-portal.lua"
 
-t("Back and there again", "Retourner et revenir", "_t")
+t("Back and there again", "Aller et Revenir", "_t")
 t("You have created a portal back to Maj'Eyal. You should try to talk to someone in Last Hope about establishing a link back.", "Vous avez créé un portail de retour vers Maj'Eyal. Vous devriez essayer de parler à quelqu'un à Dernier Espoir pour établir un lien de retour.", "_t")
-t("You talked to the Elder in Last Hope who in turn told you to talk to Tannen, who lives in the north of the city.", "Vous avez parlé à l'Ancien de Dernier Espoir qui vous a dit de parler à Tannen, qui vit au nord de la ville.", "_t")
-t("You gave the Orb of Many Ways to Tannen to study while you look for the athame and diamond in Reknor.", "Vous avez donné l'Orbe des multiples voies à Tannen pour qu'il l'étudie pendant que vous cherchez l'athamé et le diamant à Reknor.", "_t")
-t("You kept the Orb of Many Ways despite Tannen's request to study it. You must now look for the athame and diamond in Reknor.", "Tu as gardé l'Orbe des multiples voies malgré la demande de Tannen de l'étudier. Tu dois maintenant chercher l'athamé et le diamant à Reknor.", "_t")
-t("You brought back the diamond and athame to Tannen who asked you to check the tower of Telmur, looking for a text of portals, although he is not sure it is even there. He told you to come back in a few days.", "Vous avez rapporté le diamant et l'athamé à Tannen qui vous a demandé de vérifier la tour de Telmur, à la recherche d'un texte de portails, bien qu'il ne soit pas sûr qu'il s'y trouve. Il vous a dit de revenir dans quelques jours.", "_t")
+t("You talked to the Elder in Last Hope who in turn told you to talk to Tannen, who lives in the north of the city.", "Vous avez parlé à l'Ancien de Dernier Espoir qui vous a conseillé de parler à Tannen, qui vit au nord de la ville.", "_t")
+t("You gave the Orb of Many Ways to Tannen to study while you look for the athame and diamond in Reknor.", "Vous avez donné l'Orbe des Multiples Voies à Tannen pour qu'il l'étudie pendant que vous cherchez l'athamé et le diamant à Reknor.", "_t")
+t("You kept the Orb of Many Ways despite Tannen's request to study it. You must now look for the athame and diamond in Reknor.", "Vous avez gardé l'Orbe des Multiples Voies malgré la demande de Tannen de l'étudier. Vous devez maintenant trouver l'athamé et le diamant à Reknor.", "_t")
+t("You brought back the diamond and athame to Tannen who asked you to check the tower of Telmur, looking for a text of portals, although he is not sure it is even there. He told you to come back in a few days.", "Vous avez rapporté le diamant et l'athamé à Tannen qui vous a demandé d'inspecter la tour de Telmur, à la recherche d'un texte sur les portails, bien qu'il ne soit pas sûr qu'il s'y trouve. Il vous a demandé de revenir dans quelques jours.", "_t")
 t("You brought back the diamond and athame to Tannen who asked you to contact Zemekkys to ask some delicate questions.", "Vous avez rapporté le diamant et l'athamé à Tannen qui vous a demandé de contacter Zemekkys pour lui poser quelques questions délicates.", "_t")
 t("You brought back the diamond and athame to Tannen who asked you to come back in a few days.", "Vous avez rapporté le diamant et l'athamé à Tannen qui vous a demandé de revenir dans quelques jours.", "_t")
-t("Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "Tannen vous a trompé ! Il a échangé l'orbe contre une fausse qui vous a amené dans un plan démoniaque. Trouvez la sortie, et prenez votre revanche!", "_t")
+t("Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "Tannen vous a trompé ! Il a échangé l'Orbe contre une fausse qui vous a conduit dans un plan démoniaque. Trouvez la sortie, et vengez-vous!", "_t")
 t("Tannen revealed himself as the vile scum he really is and trapped you in his tower.", "Tannen s'est révélé être une ordure et vous a piégé dans sa tour.", "_t")
 t("#LIGHT_GREEN#* The portal to the Far East is now functional and can be used to go back.#WHITE#", "#LIGHT_GREEN#* Le portail vers l'Extrême-Orient est maintenant fonctionnel et peut être utilisé pour y retourner.#WHITE#", "_t")
 t("Tannen points to the location of Telmur on your map.", "Tannen indique l'emplacement de Telmur sur votre carte.", "logPlayer")
@@ -18378,9 +18373,9 @@ t("???", "???", "_t")
 section "mod-tome/data/quests/grave-necromancer.lua"
 
 t("And now for a grave", "Et maintenant, une tombe", "_t")
-t("Ungrol of Last Hope asked you to look for his wife's friend Celia, who has been reported missing. She frequently visits her late husband's mausoleum, in the graveyard near Last Hope.", "Ungrol de Dernier Espoir vous a demandé de rechercher Celia, l'amie de sa femme, qui a été portée disparue. Elle visite fréquemment le mausolée de son défunt mari, dans le cimetière près de Dernier Espoir.", "_t")
+t("Ungrol of Last Hope asked you to look for his wife's friend Celia, who has been reported missing. She frequently visits her late husband's mausoleum, in the graveyard near Last Hope.", "Ungrol de Dernier Espoir vous a demandé de retrouver Celia, l'amie de sa femme, qui est portée disparue. Elle visite fréquemment le mausolée de son défunt mari, dans le cimetière près de Dernier Espoir.", "_t")
 t("You searched for Celia in the graveyard near Last Hope, and found a note. In it, Celia reveals that she has been conducting experiments in the dark arts, in an attempt to extend her life... also, she is pregnant.", "Vous avez cherché Celia dans le cimetière près de Dernier Espoir, et avez trouvé une note. Celia y révèle qu'elle a mené des expériences de magie noire, dans le but de prolonger sa vie... et qu'elle est enceinte.", "_t")
-t("You have tracked Celia to her husband's mausoleum in the graveyard near Last Hope. It seems she has taken some liberties with the corpses there.", "Vous avez suivi Celia jusqu'au mausolée de son mari dans le cimetière près de Dernier Espoir. Il semble qu'elle ait pris quelques libertés avec les corps là-bas.", "_t")
+t("You have tracked Celia to her husband's mausoleum in the graveyard near Last Hope. It seems she has taken some liberties with the corpses there.", "Vous avez retrouvé la trace de Celia jusqu'au mausolée de son mari dans le cimetière près de Dernier Espoir. Il semble qu'elle ait pris quelques libertés avec les corps qui s'y trouvent.", "_t")
 t("You have laid Celia to rest, putting an end to her gruesome experiments.", "Vous avez neutralisé Celia, mettant fin à ses horribles expériences.", "_t")
 t("You have laid Celia to rest, putting an end to her failed experiments. You have taken her heart, for your own experiments. You do not plan to fail as she did.", "Vous avez neutralisé Celia, mettant fin à ses expériences ratées. Vous avez pris son coeur, pour vos propres expériences. Vous ne prévoyez pas d'échouer comme elle l'a fait.", "_t")
 
@@ -19320,7 +19315,7 @@ The shield strength will increase with your Spellpower.]], "tformat")
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/darkside.lua"
 
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Brutalize", "Brutalize", "talent name")
@@ -19869,7 +19864,7 @@ t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "log
 t("human farmer", "fermier humain", "_t")
 t("halfling gardener", "jardinier halfelin", "_t")
 t("%s's %s is disrupted!", "%s's %s est perturbé!", "logSeen")
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Anomaly Rearrange", "Anomaly Rearrange", "talent name")
@@ -20418,7 +20413,7 @@ t("Paradox Clone", "Clone Paradoxal", "_t")
 t("Damage Smearing", "Dégâts Barbouillés", "talent name")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 t("%s resists the swap!", "%s résiste à la permutation!", "logSeen")
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("What's your preferred paradox level?", "What's your preferred paradox level?", "_t")
@@ -21150,7 +21145,7 @@ t([[Hexes your target, forcing it to be your thrall for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/plague.lua"
 
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 t("Epidemic", "Épidémie", "talent name")
 -- texte non traduit
 --[==[
@@ -24024,7 +24019,7 @@ section "mod-tome/data/talents/gifts/storm-drake.lua"
 t("Lightning Speed", "Vitesse Fulgurante", "talent name")
 t("%s is knocked back!", "%s est repoussé!", "logSeen")
 t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t([[You transform into pure lightning, moving %d%% faster for %d game turns.
@@ -24849,7 +24844,7 @@ t("Maim", "Mutiler", "talent name")
 t("Bloodrage", "Rage de Sang", "talent name")
 t("Martyrdom", "Supplice", "talent name")
 t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 t("Empower Poisons", "Renforcement des Poisons", "talent name")
 t("Willful Combat", "Combat Délibéré", "talent name")
 t("Deadly Strikes", "Frappes Mortelles", "talent name")
@@ -26118,7 +26113,7 @@ t([[Use finely controlled forces to augment both your flesh-and-blood grip, and 
 section "mod-tome/data/talents/psionic/kinetic-mastery.lua"
 
 t("Transcendent Telekinesis", "Télékinésie Transcendante", "talent name")
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t([[For %d turns your telekinesis transcends your normal limits, increasing your Physical damage by %d%% and your Physical resistance penetration by %d%%.
@@ -27408,7 +27403,7 @@ t([[Entomb yourself in a wall of stone for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/eldritch-shield.lua"
 
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Eldritch Blow", "Eldritch Blow", "talent name")
@@ -29430,7 +29425,7 @@ t("Your great dexterity allows you to see incoming projectiles (spells, arrows, 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/finishing-moves.lua"
 
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Uppercut", "Uppercut", "talent name")
@@ -30797,7 +30792,7 @@ t("other", "autre", "_t")
 section "mod-tome/data/talents/uber/wil.lua"
 
 t("Draconic Will", "Volonté Draconique", "talent name")
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 t("Hidden Resources", "Ressources Cachées", "talent name")
 t("Spell Feedback", "Sort Rétroactif", "talent name")
 t("Antimagic", "Anti-magie", "_t")
@@ -37327,7 +37322,7 @@ t("The Mouth", "La Bouche", "entity name")
 t("\"From bellow, it devours.\"", "\"D'en bas, il dévore.\"", "_t")
 t("and revived as a screeching drem bat", "et renaît sous la forme d'une chauve-souris hurlante", "_t")
 t("#CRIMSON#%s seems invulnerable, there must be an other way to kill it!", "#CRIMSON#%s semble invulnérable, il doit bien y avoir un autre moyen de le tuer!", "logSeen")
-t("I have heard a dwarf whispering about some abomination in the deep bellow.", "J'ai entendu un nain murmurer qu'une abomination se cachait dans les profondeurs des grottes.", "_t")
+t("I have heard a dwarf whispering about some abomination in the deep bellow.", "J'ai entendu un nain murmurer qu'une abomination se cachait dans le Grondement des Profondeurs.", "_t")
 t("slimy crawler", "insecte limaceux", "entity name")
 t([[This disgusting... thing crawls on the floor toward you with great speed.
 It seems to come from the digestive system of the mouth.]], [[Cette chose répugnante rampe sur le sol dans ta direction à toute vitesse.
@@ -37357,7 +37352,7 @@ section "mod-tome/data/zones/demon-plane/grids.lua"
 
 t("Demonic Portal", "Portail Démoniaque", "entity name")
 t("This portal seems to be connected with Maj'Eyal; you could probably use it to go back.", "Ce portail semble être relié à Maj'Eyal. Vous pourriez probablement l'utiliser pour y retourner.", "_t")
-t("Back and there again", "Retourner et revenir", "_t")
+t("Back and there again", "Aller et Revenir", "_t")
 t("Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "Passez le portail pour retourner à Maj'Eyal? (Attention: pillez Draebor en premier)", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "#VIOLET#Vous franchissez le portail tourbillonnant et, en un clin d'oeil, vous vous retrouvez à Maj'Eyal, près de Daikara.", "logPlayer")
 t("Stay", "Restez", "_t")
@@ -37370,7 +37365,7 @@ t("demon", "démon", "entity type")
 t("minor", "mineur", "entity subtype")
 t("Draebor, the Imp", "Draebor, le Diablotin", "entity name")
 t("An intensely irritating git of a monster.", "Un monstre vraiment insupportable.", "_t")
-t("Back and there again", "Retourner et revenir", "_t")
+t("Back and there again", "Aller et Revenir", "_t")
 t("As the annoying imp falls a portal appears under its corpse.", "Alors que le petit diablotin agaçant s'écroule, un portail apparaît sous son cadavre.", "_t")
 
 ------------------------------------------------
@@ -38543,7 +38538,7 @@ t("#LIGHT_RED#You hear a death cry. '%s I have a messag... ARG!'", "#LIGHT_RED#V
 t("demon", "démon", "entity type")
 t("major", "majeur", "entity subtype")
 t("A terrible demon of decay and atrophy, drawn to the energy of the farportal. A beast of blight!", "Un terrible démon de décomposition et d'atrophie, attiré par l'énergie du portail lointain. Une bête malade!", "_t")
-t("Back and there again", "Retourner et revenir", "_t")
+t("Back and there again", "Aller et Revenir", "_t")
 t("A careful examination of the demon's body turns up a Blood-Runed Athame and a Resonating Diamond, both covered in soot and gore but otherwise in good condition.", "Un examen attentif du corps du démon révèle un Athamé Runes de Sang et un Diamant Résonant, tous deux couverts de suie et de sang mais en bon état.", "_t")
 -- texte non traduit
 --[==[
@@ -38747,7 +38742,7 @@ t("inscription", "inscription", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/ruined-dungeon/zone.lua"
 
-t("Ruined Dungeon", "Donjon en ruines", "_t")
+t("Ruined Dungeon", "Donjon en Ruines", "_t")
 t("#rng# the Guardian", "#rng# le Gardien", "_t")
 t("Guardian", "Guardien", "_t")
 t("You can hear a magical trigger firing off.", "Vous entendez un interrupteur magique se déclencher.", "_t")
@@ -39202,7 +39197,7 @@ section "mod-tome/data/zones/tannen-tower/grids.lua"
 
 t("Portal to Last Hope", "Portail vers Dernier Espoir", "entity name")
 t("This portal seems to be connected with Last Hope; you could probably use it to go back.", "Ce portail semble être lié à Dernier Espoir. Vous pourriez probablement l'utiliser pour revenir en arrière.", "_t")
-t("Back and there again", "Retourner et revenir", "_t")
+t("Back and there again", "Aller et Revenir", "_t")
 t("Enter the portal back to Last Hope?", "Emprunter le portail de retour vers Dernier Espoir?", "_t")
 t("Stay", "Restez", "_t")
 t("Enter", "Entrer", "_t")
@@ -39263,7 +39258,7 @@ t("ghost", "fantôme", "entity subtype")
 t("The Shade of Telos", "L'Ombre de Telos", "entity name")
 t("Everybody thought Telos dead and his spirit destroyed, but it seems he still lingers in his old place of power.", "Tout le monde croyait Telos mort et son esprit anéanti, mais il semblerait qu'il hante encore son ancien lieu de pouvoir.", "_t")
 t("and was savagely mutilated, a show of his rage towards all living things", "et fut sauvagement mutilé, manifestation de sa rage envers tous les êtres vivants", "_t")
-t("Back and there again", "Retourner et revenir", "_t")
+t("Back and there again", "Aller et Revenir", "_t")
 t("As the shade dissipates, you see no sign of the text entitled \"Inverted and Reverted Probabilistic Fields\". You should go back to Tannen.", "À mesure que l'ombre se dissipe, vous ne voyez aucune trace du texte intitulé \"Champs probabilistes inversés et réversés\". Vous devriez retourner à Tannen.", "_t")
 
 ------------------------------------------------
@@ -39957,7 +39952,7 @@ t("A Million Cuts", "Un Million d'Entailles", "entity name")
 t("Purification Tools", "Outils de Purification", "entity name")
 t("Library", "Bibliothèque", "entity name")
 t("Trainer", "Entraînement", "entity name")
-t("Grim-looking fighter", "Combattant à l'air sombre", "_t")
+t("Grim-looking fighter", "Combattant à l'air sinistre", "_t")
 t("Nature's Emporium", "Magasin de la Nature", "entity name")
 
 ------------------------------------------------
