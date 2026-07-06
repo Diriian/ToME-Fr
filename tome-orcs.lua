@@ -756,7 +756,7 @@ section "tome-orcs/data/general/encounters/fareast.lua"
 
 t("harmless", "inoffensif", "entity type")
 t("special", "spécial", "entity subtype")
-t("Ruined Dungeon", "Donjon en ruines", "entity name")
+t("Ruined Dungeon", "Donjon en Ruines", "entity name")
 t("Entrance to a ruined dungeon", "Entrée du donjon en ruines", "_t")
 -- texte non traduit
 --[==[
@@ -5748,7 +5748,7 @@ t([[Your cunning and dexterity allow you to fire incredible trick shots that can
 section "tome-orcs/data/talents/steam/heavy-weapons.lua"
 
 t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
-t("%s resists the stun!", "%s résiste a l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Heavy Weapons", "Heavy Weapons", "talent name")
@@ -6044,7 +6044,7 @@ section "tome-orcs/data/talents/steam/other.lua"
 t("Summon", "Invocation", "_t")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
-t("%s resists the blinding light!", "%s résiste à la lumière éblouissante!", "logSeen")
+t("%s resists the blinding light!", "%s résiste à la lumière aveuglante!", "logSeen")
 t("%s is knocked back!", "%s est repoussé!", "logSeen")
 t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
 -- texte non traduit
