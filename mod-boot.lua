@@ -255,7 +255,7 @@ t(", #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", ", #LIGHT_BLUE##{underl
 t("Show incompatible", "Montrer les incompatibles", "_t")
 t("Auto-update on start", "Mise à jour automatique au démarrage", "_t")
 t("Game Module", "Module de jeu", "_t")
-t("Active", "Activé", "_t")
+t("Active", "Actif", "_t")
 t("#GREY#Developer tool", "#GREY#Outil de développement", "_t")
 t("#LIGHT_RED#Donator Status: Disabled", "#LIGHT_RED#Statut de donateur: Désactivé", "_t")
 t("#LIGHT_GREEN#Manual: Active", "#LIGHT_GREEN#Manuel: Activé", "_t")

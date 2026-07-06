@@ -463,7 +463,7 @@ t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +2 Constitution", "_t")
 t("#LIGHT_BLUE# * +5 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * +5 Magie, +2 Volonté, +0 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
-t("Temporal Warden", "Gardien du temps", "birth descriptor name")
+t("Temporal Warden", "Gardien du Temps", "birth descriptor name")
 t("We preserve the past to protect the future. The hands of time are guarded by the arms of war.", "Nous préservons le passé et protégeons le futur. Les mains du temps sont gardées par les bras de la guerre.", "_t")
 t("Their lifelines braided, Temporal Wardens have learned to work with their other selves across multiple timelines.", "Leurs lignes de vie entremêlées, les gardiens du temps ont appris à travailler avec leurs congénères à travers de multiples temporalités.", "_t")
 t("Through their study of chronomancy, they learn to blend archery and dual-weapon fighting, seamlessly switching from one to the other.", "A travers leur étude de la chronomancie, ils ont appris à mélanger l'archerie et le combat à deux armes, permutant sans problème de l'un à l'autre.", "_t")
@@ -18938,20 +18938,20 @@ t("#SLATE#* You must explore the Daikara and find out what lurks there and what 
 section "mod-tome/data/quests/strange-new-world.lua"
 
 t("Strange new world", "Un étrange nouveau monde", "_t")
-t("You arrived through the farportal in a cave, probably in the Far East.", "Tu es arrivé par le portail lointain dans une grotte, probablement en Extrême-Orient.", "_t")
+t("You arrived through the farportal in a cave, probably in the Far East.", "Vous êtes arrivé dans une grotte par le portail lointain, probablement en Extrême-Orient.", "_t")
 t("Upon arrival you met an Elf and an orc fighting.", "En arrivant, vous avez rencontré un Elfe et un orc en train de se battre.", "_t")
-t("You decided to side with the Elven lady.", "Vous avez décidé de vous ranger du côté de la dame Elfique.", "_t")
-t("You decided to side with the orc.", "Vous avez décidé de vous ranger du côté de l'orc.", "_t")
-t("Fillarel told you to go to the southeast and meet with High Sun Paladin Aeryn.", "Fillarel t'a dit d'aller au sud-est et de rencontrer la Haute Paladine Solair Aeryn.", "_t")
-t("Krogar told you to go to the west and look for the Kruk Pride.", "Krogar t'a dit d'aller à l'ouest et de chercher La Fierté Kruk.", "_t")
-t("%s go to the west, and find Kruk Pride!", "%s aller à l'ouest, et trouver La Fierté Kruk!", "tformat")
+t("You decided to side with the Elven lady.", "Vous avez décidé de prendre le parti de de l'Elfe.", "_t")
+t("You decided to side with the orc.", "Vous avez décidé de vous ranger au côté de l'orc.", "_t")
+t("Fillarel told you to go to the southeast and meet with High Sun Paladin Aeryn.", "Fillarel vous a dit d'aller au sud-est et de rencontrer la Haute Paladine Solaire Aeryn.", "_t")
+t("Krogar told you to go to the west and look for the Kruk Pride.", "Krogar vous a dit d'aller à l'ouest et de chercher La Fierté Kruk.", "_t")
+t("%s go to the west, and find Kruk Pride!", "%s aller à l'ouest et trouver La Fierté Kruk!", "tformat")
 t("%s go to the southeast, and tell Aeryn what happened to me!", "%s aller au sud-est, et dire à Aeryn ce qui m'est arrivé!", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/quests/temple-of-creation.lua"
 
 t("The Temple of Creation", "Le Temple de la Création", "_t")
-t("Ukllmswwik asked you to take his portal to the Temple of Creation and kill Slasul who has turned mad.", "Ukllmswwik vous a demandé de prendre son portail pour aller au Temple de la Création et tuer Slasul qui est devenu fou.", "_t")
+t("Ukllmswwik asked you to take his portal to the Temple of Creation and kill Slasul who has turned mad.", "Ukllmswwik vous a demandé de prendre son portail vers le Temple de la Création pour tuer Slasul qui est devenu fou.", "_t")
 t("Slasul told you his side of the story. Now you must decide: which of them is corrupt?", "Slasul vous a raconté sa version de l'histoire. Maintenant, vous devez décider: lequel des deux est corrompu?", "_t")
 t("Slasul bound his lifeforce to yours and gave your a powerful trident in return.", "Slasul a lié sa force vitale à la vôtre et vous a donné un puissant trident en retour.", "_t")
 t("#LIGHT_GREEN#* You have killed both Ukllmswwik and Slasul, betraying them both.#WHITE#", "#LIGHT_GREEN#* Vous avez tué Ukllmswwik et Slasul, les trahissant tous les deux.#WHITE#", "_t")
@@ -18965,17 +18965,17 @@ t("A portal opens to the flooded cave.", "Un portail s'ouvre vers la Caverne Ino
 ------------------------------------------------
 section "mod-tome/data/quests/temporal-rift.lua"
 
-t("Back and Back and Back to the Future", "Retour et Retour et Retour vers le Futur", "_t")
+t("Back and Back and Back to the Future", "Retour vers le Retour du Retour vers le Futur", "_t")
 t([[After passing through some kind of time anomaly you met a temporal warden who told you to destroy the abominations of this alternate timeline.
 ]], [[Après avoir traversé une sorte d'anomalie temporelle, vous avez rencontré un gardien temporel qui vous a demandé de détruire les abominations de cette ligne temporelle alternative.
 ]], "_t")
-t("Temporal Warden", "Gardien du temps", "_t")
+t("Temporal Warden", "Gardien du Temps", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/trollmire-treasure.lua"
 
 t("Hidden treasure", "Trésor cachés", "_t")
-t("You have found all the clues leading to the hidden treasure. There should be a way on the third level of the Trollmire.", "Vous avez trouvé tous les indices menant au trésor caché. Il devrait y avoir un chemin au troisième niveau du Bourbier Troll.", "_t")
+t("You have found all the clues leading to the hidden treasure. There should be a way on the third level of the Trollmire.", "Vous avez trouvé tous les indices menant au trésor caché. Il devrait y avoir un chemin vers le troisième niveau du Bourbier Troll.", "_t")
 t("It looks extremely dangerous, however - beware.", "Cependant, ça a l'air extrêmement dangereux - méfiez-vous.", "_t")
 t("You have slain Bill. His treasure is yours for the taking.", "Vous avez tué Bill. Son trésor est à vous.", "_t")
 t("way to the hidden trollmire treasure", "chemin vers le trésor caché du bourbier troll", "_t")
@@ -19006,15 +19006,15 @@ t("Tutorial: Movement", "Tutoriel: Mouvements", "_t")
 ------------------------------------------------
 section "mod-tome/data/quests/void-gerlyk.lua"
 
-t("In the void, no one can hear you scream", "Dans le vide, personne ne vous entend crier.", "_t")
-t("You have destroyed the sorcerers. Sadly, the portal to the Void remains open; the Creator is coming.", "Vous avez détruit les sorciers. Malheureusement, le portail vers le Néant reste ouvert; le Créateur arrive.", "_t")
+t("In the void, no one can hear you scream", "Dans le vide, personne ne vous entendra hurler", "_t")
+t("You have destroyed the sorcerers. Sadly, the portal to the Void remains open; the Creator is coming.", "Vous avez détruit les sorciers. Malheureusement, le portail vers le Vide reste ouvert; le Créateur arrive.", "_t")
 t("This cannot be allowed to happen. After thousands of years trapped in the Void between the stars, Gerlyk is mad with rage.", "Cela ne doit pas se produire. Après des milliers d'années piégées dans le Vide entre les étoiles, Gerlyk est fou de rage.", "_t")
-t("You must now finish what the Sher'tuls started. Take the Staff of Absorption and become a Godslayer yourself.", "Vous devez maintenant finir ce que les Sher'tuls ont commencé. Prenez le Bâton d'Absorption et devenez vous-même un tueur de Dieu.", "_t")
+t("You must now finish what the Sher'tuls started. Take the Staff of Absorption and become a Godslayer yourself.", "Vous devez maintenant finir ce que les Sher'tuls ont commencé. Prenez le Bâton d'Absorption et devenez vous-même un Tueur de Dieu.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/west-portal.lua"
 
-t("There and back again", "A nouveau de retour", "_t")
+t("There and back again", "Aller et retour", "_t")
 t("Zemekkys in the Gates of Morning can build a portal back to your homeland for you.", "Zemekkys aux Portes du Matin peut construire pour vous un portail vers votre pays natal.", "_t")
 t("#LIGHT_GREEN#* You have found a Blood-Runed Athame.#WHITE#", "#LIGHT_GREEN#* Vous avez trouvé une Athamé Rune de Sang.#WHITE#", "_t")
 t("#SLATE#* Find a Blood-Runed Athame.#WHITE#", "#SLATE#* Trouver une Athamé Rune de Sang#WHITE#", "_t")
@@ -19023,7 +19023,7 @@ t("#SLATE#* Find a Resonating Diamond.#WHITE#", "#SLATE#* Trouvez un diamant ré
 t("#LIGHT_GREEN#* The portal is now functional and can be used to go back, although, like all portals, it is one-way only.#WHITE#", "#LIGHT_GREEN#* Le portail est désormais fonctionnel et peut être utilisé pour revenir en arrière, même si comme tous les portails il est à sens unique.#WHITE#", "_t")
 t("Zemekkys points to the location of Vor Armoury on your map.", "Zemekkys indique l'emplacement de l'Armurerie Vor sur votre carte.", "logPlayer")
 t("Zemekkys points to the location of Briagh's lair on your map.", "Zemekkys indique l'emplacement du repaire de Briagh sur votre carte.", "logPlayer")
-t("#VIOLET#Zemekkys starts to draw runes on the floor using the athame and gem dust.", "#VIOLET#Zemekkys commence à dessiner des runes sur le sol en utilisant l'athamé et la poussière de gemme.", "logPlayer")
+t("#VIOLET#Zemekkys starts to draw runes on the floor using the athame and gem dust.", "#VIOLET#Zemekkys commence à tracer des runes au sol en utilisant l'athamé et la poussière de gemme.", "logPlayer")
 t("#VIOLET#The whole area starts to shake!", "#VIOLET#Toute la zone se met à trembler!", "logPlayer")
 t("#VIOLET#Zemekkys says: 'The portal is done!'", "#VIOLET#Zemekkys dit: \"Le portail est terminé!\"", "logPlayer")
 t("High Chronomancer Zemekkys", "Grand Cronomancien Zemekkys", "_t")
@@ -19039,8 +19039,8 @@ t("#LIGHT_GREEN#* The portal to Maj'Eyal is now functional and can be used to go
 ------------------------------------------------
 section "mod-tome/data/quests/wild-wild-east.lua"
 
-t("The wild wild east", "L'est brutal et sauvage", "_t")
-t("There must be a way to go into the far east from the lair of Golbug. Find it and explore the unknown far east, looking for clues.", "Il doit y avoir un moyen d'aller dans l'Extrême-Orient depuis le repaire de Golbug. Trouvez-le et explorez l'Extrême-Orient à la recherche d'indices.", "_t")
+t("The wild wild east", "L'Est brutal et sauvage", "_t")
+t("There must be a way to go into the far east from the lair of Golbug. Find it and explore the unknown far east, looking for clues.", "Il doit y avoir un moyen d'aller en Extrême-Orient depuis le repaire de Golbug. Trouvez-le et explorez l'Extrême-Orient à la recherche d'indices.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/resources.lua"
@@ -38528,7 +38528,7 @@ section "mod-tome/data/zones/reknor/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("Golbug the Destroyer", "Golbug le Destructeur", "entity name")
-t("A huge and muscular orc of unknown breed. He looks both menacing and cunning...", "Un orc énorme et musclé de race inconnue. Il a l'air à la fois menaçant et rusé...", "_t")
+t("A huge and muscular orc of unknown breed. He looks both menacing and cunning...", "Un orc énorme et musclé d'une race inconnue. Il a l'air à la fois menaçant et rusé...", "_t")
 t("They say that after it has been confirmed orcs still inhabited Reknor, they found a mighty demon there.", "Ils est dit qu'après qu'il ait été confirmé que les orcs habitaient toujours Reknor, ils y ont trouvé un puissant démon.", "_t")
 t("When last you saw it, this cavern was littered with the corpses of orcs that you had slain. Now many, many more corpses carpet the floor, all charred and reeking of sulfur. An orange glow dimly illuminates the far reaches of the cavern to the east.", "La dernière fois que vous l'avez vue cette caverne était jonchée de cadavres d'orcs que vous aviez tués. Aujourd'hui de très nombreux cadavres recouvrent le sol, tous carbonisés et puant le soufre. Une lueur orange illumine faiblement les confins de la caverne à l'est.", "_t")
 t("human", "humain", "entity subtype")
@@ -38651,7 +38651,7 @@ t("Oh this is great", "Oh, c'est génial!", "_t")
 t("I love the smell of death...", "J'aime l'odeur de la mort...", "_t")
 t("Slavers forever!", "Esclavagistes à jamais!", "_t")
 t("human", "humain", "entity subtype")
-t("slave combatant", "esclave combattant", "entity name")
+t("slave combatant", "combattant esclave", "entity name")
 t("This humanoid has been enslaved by the yaech's mental powers.", "Cet humanoïde a été asservi par les pouvoirs mentaux du yaech.", "_t")
 t("slaver", "esclavagiste", "entity name")
 t("A slaver.", "Un esclavagiste.", "_t")
@@ -38675,7 +38675,7 @@ t("You won the Ring of Blood trial, and this is your reward.", "Vous avez rempor
 t("bloody ring", "anneau sanglant", "_t")
 t([[You heal for 2.5%% of the damage you deal.
 Healing during current combat:  #GREEN#%0.2f#LAST#]], [[Vous récupérez 2.5%% des dégâts que vous infligez.
-Récupération de vie pendant le combat actuel:  #GREEN#%0.2f#LAST#]], "tformat")
+Soins lors du combat actuel:  #GREEN#%0.2f#LAST#]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ring-of-blood/zone.lua"
@@ -38725,7 +38725,7 @@ t("Small seeds seem to be growing inside the orb.", "De petites graines semblent
 t("The orb swirls with magical energies.", "L'orbe tourbillonne d'énergies magiques.", "_t")
 t("Flames burst out of the orb.", "Des flammes jaillissent de l'orbe.", "_t")
 t("The orb seems to absorb all light.", "L'orbe semble absorber toute la lumière.", "_t")
-t("The orb is drips with thick blood.", "L'orbe dégouline d'un sang épais.", "_t")
+t("The orb is drips with thick blood.", "L'orbe suinte d'un sang épais.", "_t")
 t("The orb is icy to the touch.", "L'orbe est glacée au toucher.", "_t")
 t("Time seems to slow down around the orb.", "Le temps semble ralentir autour de l'orbe.", "_t")
 t("Your mind is filled with strange thoughts as you approach the orb.", "Votre esprit est envahi de pensées étranges à mesure que vous vous approchez de l'orbe.", "_t")
@@ -38745,7 +38745,7 @@ section "mod-tome/data/zones/ruined-dungeon/zone.lua"
 t("Ruined Dungeon", "Donjon en Ruines", "_t")
 t("#rng# the Guardian", "#rng# le Gardien", "_t")
 t("Guardian", "Guardien", "_t")
-t("You can hear a magical trigger firing off.", "Vous entendez un interrupteur magique se déclencher.", "_t")
+t("You can hear a magical trigger firing off.", "Vous entendez un mécanisme magique se déclencher.", "_t")
 t("Strange Orb", "Orbe Étrange", "_t")
 t("The orb seems to react badly to your touch; there is a high shriek!", "L'orbe semble mal réagir à votre contact. Un cri strident retentit!", "_t")
 t("The orb burns to your touch and a loud shout screams out!", "L'orbe brûle au contact de votre doigt et un cri strident retentit!", "_t")
@@ -38764,7 +38764,7 @@ t("This skeleton looks nasty. There are red flames in its empty eye sockets. It 
 t("and left to rot", "et laissé à pourrir", "_t")
 t(".. yes I tell you! The old ruins of Kor'Pul are still haunted!", ".. oui, je vous le dis! Les vieilles ruines de Kor'Pul sont toujours hantées!", "_t")
 t("The Possessed", "Le possédé", "entity name")
-t("He is the leader of a gang of bandits that killed the Shade of Kor'Pul, however it is obvious the Shade was merely displaced. It is now possessing the corpse of his killer.", "Il est le chef d'une bande de brigands qui a tué l'Ombre de Kor'Pul, mais il est évident que cette dernière n'a été que déplacé. Elle possède désormais le corps de son assassin.", "_t")
+t("He is the leader of a gang of bandits that killed the Shade of Kor'Pul, however it is obvious the Shade was merely displaced. It is now possessing the corpse of his killer.", "Il est le chef d'une bande de brigands qui a tué l'Ombre de Kor'Pul, mais il est évident que cette dernière n'est pas morte. Elle possède désormais le corps de son assassin.", "_t")
 t("and used as a new host", "et utilisé comme nouvel hôte", "_t")
 t("ghost", "fantôme", "entity subtype")
 t("Kor's Fury", "Fureur de Kor", "entity name")
@@ -38794,7 +38794,7 @@ Maybe following it is the only way to move around here...]], [[Ce ver des sables
 Le suivre est peut-être le seul moyen de se déplacer ici...]], "_t")
 t("huge sandworm burrower", "énorme ver des sables fouisseur", "entity name")
 t("Sandworm Queen", "Reine des vers des sables", "entity name")
-t("Before you stands the queen of the sandworms. Massive and bloated, she slithers toward you, calling for her offspring!", "Devant vous se dresse la reine des vers des sables. Massive et boursouflée, elle rampe vers vous en appelant sa progéniture!", "_t")
+t("Before you stands the queen of the sandworms. Massive and bloated, she slithers toward you, calling for her offspring!", "Devant vous se dresse la reine des vers des sables. Massive et boursouflée, elle rampe vers vous en appelant ses progénitures!", "_t")
 t("and swallowed whole", "et avalé tout entier", "_t")
 t("Rumbling...", "Grondement...", "_t")
 t("The ground shakes.  Something very large is stirring in the distance.", "Le sol tremble. Quelque chose de très grand s'agite au loin.", "_t")
@@ -38812,14 +38812,14 @@ t("dragon", "dragon", "entity type")
 section "mod-tome/data/zones/sandworm-lair/objects.lua"
 
 t("Song of the Sands", "Chant des Sables", "entity name")
-t("Some people get the weirdest ideas!", "Certaines personnes ont des idées vraiment bizarres!", "_t")
+t("Some people get the weirdest ideas!", "Certaines personnes ont des idées vraiment étranges!", "_t")
 t("corpse", "cadavre", "entity type")
 t("heart", "coeur", "entity subtype")
 t("Heart of the Sandworm Queen", "Coeur de la Reine des Vers des Sables", "entity name")
 t("pulsing organ", "organe palpitant", "_t")
 t([[The heart of the Sandworm Queen, ripped from her dead body.
 You could ... consume it, should you feel mad enough or you could try to corrupt it somewhere.]], [[Le coeur de la Reine des Vers des Sables, arraché de son cadavre.
-Vous pourriez... le consommer, si la folie vous gagne, ou tenter de le corrompre quelque part ]], "_t")
+Vous pourriez... le consommer, si la folie vous gagne. Ou tenter de le corrompre quelque part.]], "_t")
 t("consume the heart", "consommer le coeur", "_t")
 t("#00FFFF#You consume the heart and feel the knowledge of this very old creature fill you!", "#00FFFF#Vous consommez le coeur et sentez la connaissance de cette créature très ancienne vous envahir!", "logPlayer")
 t("You have %d stat point(s) to spend. Press p to use them.", "Vous disposez de %d points de stats à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
@@ -38870,7 +38870,7 @@ section "mod-tome/data/zones/scintillating-caves/zone.lua"
 
 t("Scintillating Caves", "Grottes Scintillantes", "_t")
 t("Caves...", "Grottes...", "_t")
-t("As you enter the caves you notice the magic here has distorted the land, making sharp angles and turns.", "En entrant dans les grottes, on remarque que la magie a déformé le paysage, créant des angles et des virages abrupts.", "_t")
+t("As you enter the caves you notice the magic here has distorted the land, making sharp angles and turns.", "En entrant dans les grottes, on remarque que la magie a déformé le paysage, créant des angles impossibles et des virages abrupts.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/shadow-crypt/grids.lua"
@@ -39346,7 +39346,7 @@ section "mod-tome/data/zones/temporal-rift/grids.lua"
 
 t("Temporal Rift", "Faille Temporelle", "entity name")
 t("The rift leads... somewhere.", "La faille mène... quelque part.", "_t")
-t("Temporal Warden", "Gardien du temps", "_t")
+t("Temporal Warden", "Gardien du Temps", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/temporal-rift/npcs.lua"
@@ -40322,7 +40322,7 @@ section "mod-tome/data/zones/void/grids.lua"
 
 t("Temporal Rift", "Faille Temporelle", "entity name")
 t("The rift leads... somewhere.", "La faille mène... quelque part.", "_t")
-t("Temporal Warden", "Gardien du temps", "_t")
+t("Temporal Warden", "Gardien du Temps", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/void/npcs.lua"
@@ -42820,7 +42820,7 @@ t("Left click to use", "Clic gauche pour utiliser", "_t")
 t("Right click to configure", "Clic droit pour configurer", "_t")
 t("Press 'm' to setup", "Appuyez sur 'm' pour configurer", "_t")
 t("Unbind %s", "Désassigner %s", "tformat")
-t("Remove this object from your hotkeys?", "Supprimez cet objet de vos raccourcis?", "_t")
+t("Remove this object from your hotkeys?", "Retirer cet objet de vos raccourcis?", "_t")
 t("Donator", "Donateur", "_t")
 t("Developer", "Développeur", "_t")
 t("Moderator / Helper", "Modération / Aide", "_t")
@@ -42915,14 +42915,14 @@ t("Resources", "Ressources", "_t")
 t("Minimap", "Mini-carte", "_t")
 t("Current Effects", "Effets Actuels", "_t")
 t("Party Members", "Membres du Groupe", "_t")
-t("Game Log", "Historique du jeu", "_t")
+t("Game Log", "Journal de jeu", "_t")
 t("Online Chat Log", "Journal de Discussion en Ligne", "_t")
 t("Hotkeys", "Raccourcis", "_t")
-t("Game Actions", "Actions du Jeu", "_t")
+t("Game Actions", "Actions de Jeu", "_t")
 t("#CRIMSON#Interface locked, mouse enabled on the map", "#CRIMSON#Interface verrouillée, souris activée sur la carte", "say")
 t("#CRIMSON#Interface unlocked, mouse disabled on the map", "#CRIMSON#Interface déverrouillée, souris désactivée sur la carte", "say")
 t("Reset interface positions", "Réinitialiser les positions de l'interface", "_t")
-t("Reset UI", "Réinitialiser l'UI", "_t")
+t("Reset UI", "Réinitialiser l'IU", "_t")
 t("Reset all the interface?", "Réinitialiser toute l'interface?", "_t")
 t([[%s
 ---
@@ -42930,9 +42930,9 @@ Left mouse drag&drop to move the frame
 Right mouse drag&drop to scale up/down
 Middle click to reset to default scale%s]], [[%s
 ---
-Faites un glisser-déposer avec le bouton gauche de la souris pour déplacer le cadre.
-Faites un glisser-déposer avec le bouton droit de la souris pour agrandir ou réduire l'image.
-Clic du milieu pour rétablir l'échelle par défaut%s]], "tformat")
+Clic gauche: glisser-déposer pour déplacer le cadre
+Clic droit: glisser-déposer pour redimensionner
+Clic milieu: réinitialiser à l'échelle par défaut%s]], "tformat")
 t("Feedback", "Rétroaction", "_t")
 t("Fortress Energy", "Énergie de Forteresse", "_t")
 t("Display/Hide resources", "Afficher/Masquer les ressources", "_t")
@@ -42943,7 +42943,7 @@ Clic droit pour afficher ou masquer les barres de ressources", "_t")
 t("Wave(TOP) %d %s", "Vague(TOP) %d %s", "tformat")
 t("Wave %d %s", "Vague %d %s", "tformat")
 t("Rank: ", "Rang: ", "_t")
-t("Saving... %d%%", "Dauvegarde... %d%%", "tformat")
+t("Saving... %d%%", "Sauvegarde... %d%%", "tformat")
 t("%s reduced the duration of this effect by %d turns, from %d to %d.", "%s a réduit la durée de cet effet de %d tours, de %d à %d.", "tformat")
 t("\
 ---\
@@ -42965,31 +42965,31 @@ t("Lvl %d", "Niv %d", "tformat")
 t([[Toggle for movement mode.
 Default: when trying to move onto a creature it will attack if hostile.
 Passive: when trying to move onto a creature it will not attack (use ctrl+direction, or right click to attack manually)]], [[Basculer de mode de déplacement.
-Par défaut: En tentant de bouger sur une créature vous attaquerez si elle est hostile.
-Passif : En tentant de bouger sur une créature vous n'attaquerez pas (utilisez Ctrl+direction ou clic droit pour attaquer manuellement))]], "_t")
-t("Show character infos", "Afficher les informations du personnage", "_t")
-t("Click to assign stats and talents!", "Cliquez pour attribuer des stats et des talents!", "_t")
+Par défaut: tenter de se déplacer sur une créature l'attaque si elle est hostile.
+Passif : tenter de se déplacer sur une créature ne l'attaque pas (utilisez Ctrl+direction ou un clic droit pour attaquer manuellement).]], "_t")
+t("Show character infos", "Afficher les infos du personnage", "_t")
+t("Click to assign stats and talents!", "Cliquez pour attribuer stats et talents!", "_t")
 t("Show available cosmetic & fun microtransation", "Afficher les microtransactions cosmétiques et ludiques disponibles", "_t")
 t([[Left mouse to move
 Right mouse to scroll
 Middle mouse to show full map]], [[Clic gauche pour se déplacer
 Clic droit pour faire défiler
-Clic molette pour afficher la carte complète]], "_t")
+Clic milieu pour afficher la carte complète]], "_t")
 t("Left click to use", "Clic gauche pour utiliser", "_t")
 t("Right click to configure", "Clic droit pour configurer", "_t")
 t("Press 'm' to setup", "Appuyez sur 'm' pour configurer", "_t")
 t("Unbind %s", "Désassigner %s", "tformat")
-t("Remove this object from your hotkeys?", "Supprimez cet objet de vos raccourcis?", "_t")
+t("Remove this object from your hotkeys?", "Retirer cet objet de vos raccourcis?", "_t")
 t([[Left mouse to show inventory
 Right mouse to show ingredients]], [[Clic gauche pour afficher l'inventaire
 Clic droit pour afficher les ingrédients]], "_t")
-t("Left mouse to show known talents", "clic gauche pour afficher les talents connus", "_t")
-t("Left mouse to show message/chat log.", "Clic gauche pour afficher l'Journal des messages/conversations.", "_t")
+t("Left mouse to show known talents", "Clic gauche pour afficher les talents connus", "_t")
+t("Left mouse to show message/chat log.", "Clic gauche pour afficher le Journal des messages/conversations.", "_t")
 t([[Left mouse to show quest log.
 Right mouse to show all known lore.]], [[Clic gauche pour afficher le journal des quêtes.
 Clic droit pour afficher toute l'histoire connues.]], "_t")
 t("Tales of Maj'Eyal Lore", "Lore de Tales of Maj'Eyal", "_t")
-t("Left mouse to show main menu", "clic gauche pour afficher le menu principal", "_t")
+t("Left mouse to show main menu", "Clic gauche pour afficher le menu principal", "_t")
 t("Unlock all interface elements so they can be moved and resized.", "Déverrouillez tous les éléments de l'interface pour pouvoir les déplacer et les redimensionner.", "_t")
 t("Lock all interface elements so they can not be moved nor resized.", "Verrouiller tous les éléments d'interface afin qu'ils ne puissent être ni déplacés ni redimensionnés.", "_t")
 t("Clicking will open#LIGHT_BLUE##{italic}#%s#WHITE##{normal}# in your browser", "Cliquer ouvrira#LIGHT_BLUE##{italic}#%s#WHITE##{normal}# dans votre navigateur", "_t")
@@ -43006,8 +43006,8 @@ t("Ignore", "Ignorer", "_t")
 t("Ignore user", "Ignorer l'utilisateur", "_t")
 t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de: %s", "tformat")
 t("Report user for bad behavior", "Signaler l'utilisateur pour mauvais comportement", "_t")
-t("Reason to report: %s", "Raison du signalement: %s", "tformat")
-t("Reason", "Raison", "_t")
+t("Reason to report: %s", "Motif du signalement: %s", "tformat")
+t("Reason", "Motif", "_t")
 t("Remove Friend", "Supprimer un ami", "_t")
 t("Really remove %s from your friends?", "Vraiment supprimer %s de vos amis?", "tformat")
 t("Add Friend", "Ajouter un ami", "_t")
@@ -43961,7 +43961,7 @@ t("Set behavior [current: %s]", "Définir le comportement [actuel: %s]", "tforma
 t("default", "défaut", "_t")
 t("Set the leash anchor [current: %s]", "Définir l'ancre de laisse [actuelle: %s]", "tformat")
 t("Set the leash distance [current: %d]", "Réglez la distance de la laisse [actuelle: %d]", "tformat")
-t("Define tactical talents usage", "Définir l'utilisation des talents tactiques", "_t")
+t("Define tactical talents usage", "Définir l'utilisation tactique des talents", "_t")
 t("Rename", "Renommer", "_t")
 t("Dismiss", "Refuser", "_t")
 t("Pet the hound", "Caresser le chien", "_t")
@@ -44032,7 +44032,7 @@ t("-- Unknown --", "-- Inconnu --", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowChatLog.lua"
 
-t("Game Log", "Historique du jeu", "_t")
+t("Game Log", "Journal de jeu", "_t")
 t("Right click to inspect.", "Clic droit pour inspecter.", "_t")
 t("Show infos", "Afficher les infos", "_t")
 t("Whisper", "Murmure", "_t")
@@ -44043,8 +44043,8 @@ t("Open charsheet(in browser)", "Ouvrir la feuille de caractères (dans le navig
 t("User: ", "Utilisateur: ", "tformat")
 t("Ignore user", "Ignorer l'utilisateur", "_t")
 t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de: %s", "tformat")
-t("Reason to report: %s", "Raison du signalement: %s", "tformat")
-t("Reason", "Raison", "_t")
+t("Reason to report: %s", "Motif du signalement: %s", "tformat")
+t("Reason", "Motif", "_t")
 -- texte non traduit
 --[==[
 t("Action", "Action", "_t")
@@ -44243,7 +44243,7 @@ t("Impossible", "Impossible", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UseTalents.lua"
 
-t("Active", "Activé", "_t")
+t("Active", "Actif", "_t")
 t("%s turns", "%s tours", "tformat")
 t("Unavailable", "Non disponible", "_t")
 t("Object", "Objet", "_t")
@@ -44400,7 +44400,7 @@ section "mod-tome/mod/dialogs/debug/CreateItem.lua"
 t("DEBUG -- Create Object", "DEBUG -- Création d'objet", "_t")
 t("Load from other zones ", "Charger à partir d'autres zones ", "_t")
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
- %s]], [[#ORANGE# Création d'objet: impossible de charger tous les objets du fichier %s:#GREY#
+ %s]], [[#ORANGE# Création d'objet: Impossible de charger tous les objets du fichier %s:#GREY#
  %s]], "log")
 t("Generate examples (right-click refreshes) ", "Générer des exemples (actualisations par clic droit) ", "_t")
 t("#CRIMSON#==Resolved Example==#LAST#", "#CRIMSON#==Exemple résolu==#LAST#", "_t")
@@ -44446,8 +44446,8 @@ t("Ego", "Ego", "_t")
 section "mod-tome/mod/dialogs/debug/CreateTrap.lua"
 
 t("DEBUG -- Create Trap", "DEBUG -- Crée un piège", "_t")
-t("#LIGHT_BLUE#Trap [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Piège [%s]%s occupe déjà (%d, %d)", "log")
-t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Ajouté %s[%s]%s à (%d, %d)", "log")
+t("#LIGHT_BLUE#Trap [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Le piège [%s]%s occupe déjà (%d, %d)", "log")
+t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Ajouté %s[%s]%s en (%d, %d)", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/DebugMain.lua"
@@ -44457,13 +44457,13 @@ t("#LIGHT_BLUE#God mode OFF", "#LIGHT_BLUE#Mode Dieu OFF", "log")
 t("#LIGHT_BLUE#God mode ON", "#LIGHT_BLUE#Mode Dieu ON", "log")
 t("#LIGHT_BLUE#Demi-God mode OFF", "#LIGHT_BLUE#Mode Demi-Dieu OFF", "log")
 t("#LIGHT_BLUE#Demi-God mode ON", "#LIGHT_BLUE#Mode Demi-Dieu ON", "log")
-t("#LIGHT_BLUE#Weakdamage mode OFF", "#LIGHT_BLUE#Mode Faiblesdégâts OFF", "log")
-t("#LIGHT_BLUE#Weakdamage mode ON", "#LIGHT_BLUE#Mode Faiblesdégâts ON", "log")
+t("#LIGHT_BLUE#Weakdamage mode OFF", "#LIGHT_BLUE#Mode Dégâts Faibles OFF", "log")
+t("#LIGHT_BLUE#Weakdamage mode ON", "#LIGHT_BLUE#Mode Dégâts Faibles ON", "log")
 t("#LIGHT_BLUE#Revealing Map.", "#LIGHT_BLUE#Révéler la carte.", "log")
 t("Zone: %s", "Secteur: %s", "tformat")
 t("Level 1-%s", "Niveau 1-%s", "tformat")
-t("Kill or Remove", "Tuer ou Enlever", "_t")
-t("Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "Enlever toutes les créatures(n'appartenant pas au groupe), ou les tuer pour le joueur(donne de l'expérience et laisse tomber le butin)?", "_t")
+t("Kill or Remove", "Tuer ou Supprimer", "_t")
+t("Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "Tuer toutes les créatures (hors membres du groupe), ou les tuer pour le joueur(donne de l'expérience et du butin)?", "_t")
 t("#GREY#Removing [%s] %s at (%s, %s)", "#GREY#Enlever [%s] %s at (%s, %s)", "log")
 t("#GREY#Killing [%s] %s at (%s, %s)", "#GREY#Tuer [%s] %s at (%s, %s)", "log")
 t("#LIGHT_BLUE#%s %d creatures.", "#LIGHT_BLUE#%s %d créatures.", "log")
@@ -44481,45 +44481,41 @@ t("Alter Faction", "Altération de la faction", "_t")
 t("Summon a Creature", "Invoquer une créature", "_t")
 t("Create Items", "Crée des objets", "_t")
 t("Create a Trap", "Crée un piège", "_t")
-t("Grant/Alter Quests", "Donner/Alterer les quêtes", "_t")
+t("Grant/Alter Quests", "Donner/Modifier les quêtes", "_t")
 t("Advance Player", "Avancer le joueur", "_t")
 t("Remove or Kill all creatures", "Enlever ou Tuer toutes les créatures", "_t")
 t("Give Sher'tul fortress energy", "Donner de l'énergie a la forteresse Sher'tul", "_t")
 t("Give all ingredients", "Récupérer tous les ingrédients", "_t")
-t("Weakdamage", "FaibleDégâts", "_t")
+t("Weakdamage", "Dégâts faibles", "_t")
 t("Spawn Event", "Faire apparaître un événement", "_t")
 t("Endgamify", "Passer en mode Fin de partie", "_t")
 t("Reload/regenerate Zone and level", "Recharger/Régénérer zone et niveau", "_t")
-t("Automatically Clear Zones", "Automatiquement nettoyer les zones", "_t")
+t("Automatically Clear Zones", "Nettoyer les zones automatiquement", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/Endgamify.lua"
 
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
- %s]], [[#ORANGE# Création d'objet: impossible de charger tous les objets du fichier %s:#GREY#
+ %s]], [[#ORANGE# Création d'objet: Impossible de charger tous les objets du fichier %s:#GREY#
  %s]], "log")
 t("Failed to generate %s", "Échec de la génération %s", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/GrantQuest.lua"
 
-t("Debug -- Grant/Alter Quest", "Debug -- Accorder/Modifier une quête", "_t")
+t("Debug -- Grant/Alter Quest", "Debug -- Donner/Modifier une quête", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/PlotTalent.lua"
 
-t("Values plot for: %s (mastery %0.1f)", "GTracé des valeurs pour: %s (maîtrise %0.1f)", "tformat")
--- texte non traduit
---[==[
-t("TL: ", "TL: ", "_t")
---]==]
-
+t("Values plot for: %s (mastery %0.1f)", "Graphique des valeurs pour: %s (maîtrise %0.1f)", "tformat")
+t("TL: ", "NT: ", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/RandomActor.lua"
 
-t("#LIGHT_GREEN#(From %s, line %s):#LAST#", "#LIGHT_GREEN#(De %s, ligne %s):#LAST#", "tformat")
-t("DEBUG -- Create Random Actor", "DEBUG -- Crée un acteur aléatoire", "_t")
+t("#LIGHT_GREEN#(From %s, line %s):#LAST#", "#LIGHT_GREEN#(Depuis %s, ligne %s):#LAST#", "tformat")
+t("DEBUG -- Create Random Actor", "DEBUG -- Créer un acteur aléatoire", "_t")
 t([[Randomly generate actors subject to a filter and/or create random bosses according to a data table.
 Filters are interpreted by game.zone:checkFilter.
 #ORANGE#Boss Data:#LAST# is interpreted by game.state:createRandomBoss, game.state:applyRandomClass, and Actor.levelupClass.
@@ -44528,13 +44524,13 @@ Press #GOLD#'F1'#LAST# for help.
 Mouse over controls for an actor preview (which may be further adjusted when placed on to the level).
 (Press #GOLD#'L'#LAST# to lua inspect or #GOLD#'C'#LAST# to open the character sheet.)
 
-The #LIGHT_BLUE#Base Filter#LAST# is used to filter the actor randomly generated.]], [[Générer aléatoirement des acteurs soumis à un filtre et/ou créer des boss aléatoires selon un tableau de données.
+The #LIGHT_BLUE#Base Filter#LAST# is used to filter the actor randomly generated.]], [[Générer aléatoirement des acteurs soumis à un filtre et/ou créer des boss aléatoires selon une table de données.
 Les filtres sont interprétés par game.zone:checkFilter.
-#ORANGE#Données des boss:#LAST# est interprété par game.state: createRandomBoss, game.state:applyRandomClass et Actor.levelupClass.
-La génération est effectuée dans l'environnement _G (utilisé par la console Lua) en utilisant la zone actuelle #LIGHT_GREEN#npc_list#LAST#.
-Appuyez sur #GOLD#'F1'#LAST# pour l'aide.
-Passez la souris sur les commandes pour un aperçu de l'acteur (qui peut être ajusté davantage lorsqu'il est placé au niveau).
-(Appuyez sur #GOLD#'L'#LAST# pour lua inspecter ou #GOLD#'C'#LAST#pour ouvrir la feuille de personnage.)
+#ORANGE#Données de Boss:#LAST# est interprété par game.state: createRandomBoss, game.state:applyRandomClass et Actor.levelupClass.
+La génération est effectuée dans l'environnement _G (utilisé par la console Lua) en utilisant la #LIGHT_GREEN#npc_list#LAST# de la zone actuelle.
+Appuyez sur #GOLD#'F1'#LAST# pour obtenir de l'aide.
+Passez la souris sur les commandes pour une prévisualisation de l'acteur (qui pourra être ajustée lors de son placement sur le niveau).
+(Appuyez sur #GOLD#'L'#LAST# pour inspecter via Lua ou #GOLD#'C'#LAST# pour ouvrir la fiche de personnage.)
 
 Le #LIGHT_BLUE#Filtre de base#LAST# est utilisé pour filtrer l'acteur généré aléatoirement.]], "_t")
 t("#GREY#None#LAST#", "#GREY#Aucun#LAST#", "_t")
@@ -44542,31 +44538,31 @@ t("Current Base Actor: %s", "Acteur de base actuel: %s", "tformat")
 t("Generate", "Générer", "_t")
 t("#LIGHT_BLUE# Current base actor: %s", "#LIGHT_BLUE# Acteur de base actuel: %s", "log")
 t("Place", "Placer", "_t")
-t("Default Filter", "Filtre de base", "_t")
+t("Default Filter", "Filtre par défaut", "_t")
 t("#LIGHT_BLUE# Reset base filter", "#LIGHT_BLUE# Réinitialiser le filtre de base", "log")
-t("Clear", "Nettoyer", "_t")
-t("#LIGHT_BLUE# Clear base actor: %s", "#LIGHT_BLUE# Nettoyer la base d'acteur: %s", "log")
+t("Clear", "Effacer", "_t")
+t("#LIGHT_BLUE# Clear base actor: %s", "#LIGHT_BLUE# Effacer l'acteur de base: %s", "log")
 t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base:#LAST# ", "_t")
-t("The #ORANGE#Boss Data#LAST# is used to transform the base actor into a random boss (which will use a random actor if needed).", "Les #ORANGE#Données des boss#LAST# sont utilisées pour transformer l'acteur de base en un boss aléatoire (qui utilisera acteur aléatoire si nécessaire).", "_t")
+t("The #ORANGE#Boss Data#LAST# is used to transform the base actor into a random boss (which will use a random actor if needed).", "Les #ORANGE#Données des boss#LAST# sont utilisées pour transformer l'acteur de base en un boss aléatoire (qui utilisera un acteur aléatoire si nécessaire).", "_t")
 t("Current Boss Actor: %s", "Acteur de boss actuel: %s", "tformat")
 t("Default Data", "Données par défaut", "_t")
-t("#LIGHT_BLUE# Reset Randboss Data", "#LIGHT_BLUE# Réinitialiser les données Randboss", "log")
+t("#LIGHT_BLUE# Reset Randboss Data", "#LIGHT_BLUE# Réinitialiser les données de boss aléatoire", "log")
 t("#ORANGE#Boss Data:#LAST# ", "#ORANGE#Données de boss:#LAST# ", "_t")
 t("Filter and Data Help", "Aide sur les filtres et les données", "_t")
 t("#GREY#No Actor to Display#LAST#", "#GREY#Aucun acteur à afficher#LAST#", "_t")
 t("#LIGHT_BLUE#Inspect [%s]%s", "#LIGHT_BLUE#Inspecter [%s]%s", "log")
 t("#LIGHT_BLUE#No actor to inspect", "#LIGHT_BLUE#Aucun acteur à inspecter", "log")
-t("#LIGHT_BLUE#Lua Inspect [%s]%s", "#LIGHT_BLUE#Inspection Lua [%s]%s", "log")
-t("#LIGHT_BLUE#No actor to Lua inspect", "#LIGHT_BLUE#Aucun acteur pour une inspection Lua", "log")
+t("#LIGHT_BLUE#Lua Inspect [%s]%s", "#LIGHT_BLUE#Inspecter Lua [%s]%s", "log")
+t("#LIGHT_BLUE#No actor to Lua inspect", "#LIGHT_BLUE#Aucun acteur à inspecter via Lua", "log")
 t("#LIGHT_BLUE#Bad filter for base actor: %s", "#LIGHT_BLUE#Mauvais filtre pour l'acteur de base: %s", "log")
-t("#LIGHT_BLUE#Could not generate a base actor with filter: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec ce filtre: %s", "log")
+t("#LIGHT_BLUE#Could not generate a base actor with filter: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec le filtre: %s", "log")
 t([[#LIGHT_BLUE#Base actor could not be generated with filter [%s].
- Error:%s]], [[#LIGHT_BLUE#L'acteur de base n'a pas pu être généré avec ce filtre [%s].
+ Error:%s]], [[#LIGHT_BLUE#L'acteur de base n'a pas pu être généré avec le filtre [%s].
  Erreur:%s]], "log")
 t("#LIGHT_BLUE#Bad data for random boss actor: %s", "#LIGHT_BLUE#Mauvaises données pour l'acteur boss aléatoire: %s", "log")
 t("#LIGHT_BLUE#Could not generate a base actor with data: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec ces données: %s", "log")
 t([[#LIGHT_BLUE#ERROR: Random Boss could not be generated with data [%s].
- Error:%s]], [[#LIGHT_BLUE#ERREUR: le boss aléatoire n'a pas pu être généré avec ces données [%s].
+ Error:%s]], [[#LIGHT_BLUE#ERREUR: Le boss aléatoire n'a pas pu être généré avec les données [%s].
  Erreur:%s]], "log")
 
 ------------------------------------------------
@@ -44575,19 +44571,19 @@ section "mod-tome/mod/dialogs/debug/RandomObject.lua"
 t("#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "#LIGHT_GREEN#(De %-10.60s, ligne: %s):#LAST#", "tformat")
 t("unknown", "inconnu", "_t")
 t("None", "Aucune", "_t")
-t("Don't apply a resolver", "N'appliquez pas de résolveur", "_t")
+t("Don't apply a resolver", "Ne pas appliquer de résolveur.", "_t")
 t("Equipment", "Équipement", "_t")
 t("Object will be equipped if possible, otherwise added to main inventory", "L'objet sera équipé si possible, sinon ajouté à l'inventaire principal", "_t")
 t("Inventory", "Inventaire", "_t")
 t("Object added to main inventory", "Objet ajouté à l'inventaire principal", "_t")
-t("Drops", "Abandonner", "_t")
-t("Object added to main inventory (dropped on death)", "Objet ajouté à l'inventaire principal (abandonné à la mort)", "_t")
+t("Drops", "Butin", "_t")
+t("Object added to main inventory (dropped on death)", "Objet ajouté à l'inventaire principal (lâché à la mort)", "_t")
 t("Attach Tinker", "Attacher la babiole", "_t")
-t("Tinker will be attached to a worn object", "La babiole sera attaché à un objet porté", "_t")
-t("Drop Randart (auto data)", "Abandonner l'Artéfact aléatoire (données automatiques)", "_t")
-t("Random Artifact (dropped on death) added to main inventory, uses the Base Object or Base Filter plus Randart Data as input", "Artefact aléatoire (abandonné à la mort) ajouté à l'inventaire principal, utilise l'objet de base ou le filtre de base plus les données aléatoires comme entrée", "_t")
-t("Drop Randart", "Abandonner l'Artéfact aléatoire", "_t")
-t("Random Artifact (dropped on death) added to main inventory", "Artefact aléatoire (abandonné à la mort) ajouté à l'inventaire principal", "_t")
+t("Tinker will be attached to a worn object", "La babiole sera attaché à un objet équipé", "_t")
+t("Drop Randart (auto data)", "Artefact aléatoire (données automatiques)", "_t")
+t("Random Artifact (dropped on death) added to main inventory, uses the Base Object or Base Filter plus Randart Data as input", "Artefact aléatoire (lâché à la mort) ajouté à l'inventaire principal, utilise l'Objet de base ou le Filtre de base plus les données d'Artefact aléatoire en entrée", "_t")
+t("Drop Randart", "Artefact aléatoire", "_t")
+t("Random Artifact (dropped on death) added to main inventory", "Artefact aléatoire (lâché à la mort) ajouté à l'inventaire principal", "_t")
 t("DEBUG -- Create Random Object", "DEBUG -- Créer un objet aléatoire", "_t")
 t([[Generate objects randomly subject to filters and create Random Artifacts.
 Use "Generate" to create objects for preview and inspection.
@@ -44598,70 +44594,70 @@ They use the #LIGHT_GREEN#Random filter#LAST# as input unless noted otherwise an
 Filters are interpreted by ToME and engine entity/object generation functions (game.zone:checkFilter, etc.).
 Interpretation of tables is within the _G environment (used by the Lua Console) using the current zone's #YELLOW_GREEN#object_list#LAST#.
 Hotkeys: #GOLD#'F1'#LAST# :: context sensitive help, #GOLD#'C'#LAST# :: Working Character Sheet, #GOLD#'I'#LAST# :: Working Character Inventory.
-]], [[Générez des objets au hasard soumis à des filtres et créez des artefacts aléatoires.
-Utilisez "Générer" pour créer des objets pour l'aperçu et l'inspection.
-Utilisez "Ajouter un objet" pour choisir où placer l'objet et l'ajouter au jeu.
-(Passez la souris sur les commandes pour un aperçu de l'objet généré/de l'acteur actif. (Appuyez sur #GOLD#'L'#LAS # pour inspecter.)
-#SALMON#Les résolveurs#LAST# agissent sur l'acteur actif (par défaut: le joueur) pour générer un SEUL objet.
-Sauf indication contraire, ils utilisent le #LIGHT_GREEN#Filtre aléatoire#LAST# et contrôlent la destination de l'objet.
-Les filtres sont interprétés par ToME et les fonctions de génération d'entités/objets du moteur (game.zone:checkFilter, etc.).
-L'interprétation des tables se fait dans l'environnement _G (utilisé par la console Lua) en utilisant la zone courante #YELLOW_GREEN#object_list#LAST#.
-Raccourcis clavier: #GOLD#'F1'#LAST# :: aide contextuelle, #GOLD#'C'#LAST# :: Feuille de personnage de travail, #GOLD#'I'#LAST# :: Inventaire de personnage de travail.
+]], [[Génère des objets aléatoires soumis à des filtres et crée des artefacts aléatoires.
+Utilisez "Générer" pour créer des objets pour prévisualisation et inspection.
+Utilisez "Ajouter objet" pour choisir où placer l'objet et l'ajouter au jeu.
+Survolez les contrôles pour une prévisualisation de l'objet généré/acteur actif. (Appuyez sur #GOLD#'L'#LAST# pour inspecter via Lua.)
+#SALMON#Résolveurs#LAST# agissent sur l'acteur actif (par défaut : joueur) pour générer un SEUL objet.
+Ils utilisent le #LIGHT_GREEN#Filtre aléatoire#LAST# comme entrée, sauf indication contraire, et contrôlent la destination de l'objet.
+Les filtres sont interprétés par les fonctions de génération d'entités/objets de ToME et du moteur (game.zone:checkFilter, etc.).
+L'interprétation des tables est effectuée dans l'environnement _G (utilisé par la console Lua) en utilisant la #YELLOW_GREEN#object_list#LAST# de la zone actuelle.
+Raccourcis: #GOLD#'F1'#LAST# :: aide contextuelle, #GOLD#'C'#LAST# :: Fiche de personnage, #GOLD#'I'#LAST# :: Inventaire.
 ]], "_t")
 t("The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "Le #LIGHT_GREEN#Filtre aléatoire#LAST# contrôle la génération aléatoire d'un objet normal.", "tformat")
 t("#GREY#None#LAST#", "#GREY#Aucun#LAST#", "_t")
 t("Object", "Objet", "_t")
 t("Generate", "Générer", "_t")
 t("Add Object", "Ajouter un objet", "_t")
-t("Default Filter", "Filtre de base", "_t")
+t("Default Filter", "Filtre par défaut", "_t")
 t("Clear Object", "Effacer l'objet", "_t")
 t("#LIGHT_GREEN#Random Object#LAST#", "#LIGHT_GREEN#Objet aléatoire#LAST#", "_t")
 t("#LIGHT_GREEN#Random Filter:#LAST# ", "#LIGHT_GREEN#Filtre aléatoire:#LAST# ", "_t")
-t("The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "Le #LIGHT_BLUE#Filtre de base#LAST# génére un objet de base pour construire un artefact aléatoire.", "tformat")
+t("The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "Le #LIGHT_BLUE#Filtre de base#LAST# sert à générer un objet de base pour construire un artefact aléatoire.", "tformat")
 t("#LIGHT_BLUE#Base Object#LAST#", "#LIGHT_BLUE#Objet de base#LAST#", "_t")
 t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base:#LAST# ", "_t")
 t("#SALMON#Resolver selected:#LAST# ", "#SALMON#Résolveur sélectionné:#LAST# ", "tformat")
-t("An object resolver interprets additional filter fields to generate an object and determine where it will go.", "Un résolveur d'objets interprète des champs de filtre supplémentaires pour générer un objet et déterminer où il ira.", "_t")
-t("Dropdown text", "Texte déroulant", "_t")
+t("An object resolver interprets additional filter fields to generate an object and determine where it will go.", "Un résolveur d'objets interprète des champs de filtre supplémentaires pour générer un objet et déterminer sa destination.", "_t")
+t("Dropdown text", "Texte du menu déroulant", "_t")
 t("No Tooltip", "Aucune infobulle", "_t")
 t("Use this selector to choose which resolver to use", "Utilisez ce sélecteur pour choisir le résolveur à utiliser", "_t")
 t([[#ORANGE#Randart Data#LAST# contains parameters used to generate a Randart (interpreted by game.state:generateRandart).
 The #LIGHT_BLUE#Base Object#LAST# will be used if possible.]], [[#ORANGE#Les données d'artefact aléatoire#LAST# contiennent les paramètres utilisés pour générer un artefact aléatoire (interprété par game.state:generateRandart).
-L'#LIGHT_BLUE #objet de base#LAST# sera utilisé si possible.]], "tformat")
+L'#LIGHT_BLUE#Objet de base#LAST# sera utilisé si possible.]], "tformat")
 t("Default Data", "Données par défaut", "_t")
 t("#ORANGE#Randart Data:#LAST# ", "#ORANGE#Données d'artefact aléatoire:#LAST# ", "_t")
 t("#ORANGE#Randart#LAST#", "#ORANGE#Artefact aléatoire#LAST#", "_t")
-t("Show #GOLD#I#LAST#nventory", "Montrer l'#GOLD#'I'#LAST#nventaire", "_t")
-t("Show #GOLD#C#LAST#haracter Sheet", "Montrer la #GOLD#'C'#LAST# Feuille de personnage", "_t")
+t("Show #GOLD#I#LAST#nventory", "Voir l'#GOLD#'I'#LAST#nventaire", "_t")
+t("Show #GOLD#C#LAST#haracter Sheet", "Voir la #GOLD#'C'#LAST# Feuille de personnage", "_t")
 t("Set working actor: [%s] %s", "Définir l'acteur de travail: [%s] %s", "tformat")
 t("Set working actor: [%s] %s%s", "Définir l'acteur de travail:[%s] %s%s", "tformat")
 t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(joueur)#LAST#", "_t")
 t("#GREY#No Tooltip to Display#LAST#", "#GREY#Aucune infobulle à afficher#LAST#", "_t")
-t("Filter/Data/Resolver Reference", "Référence de filtre/données/résolveur", "_t")
+t("Filter/Data/Resolver Reference", "Référence de Filtre/Données/Résolveur", "_t")
 t("#LIGHT_BLUE#Lua Inspect [%s] %s", "#LIGHT_BLUE#Inspecteur Lua [%s] %s", "log")
-t("#LIGHT_BLUE#Nothing to Lua inspect", "#LIGHT_BLUE#Rien à inspecter par Lua", "log")
+t("#LIGHT_BLUE#Nothing to Lua inspect", "#LIGHT_BLUE#Rien à inspecter via Lua", "log")
 t("#LIGHT_BLUE#Bad %s: %s", "#LIGHT_BLUE#Mauvais %s: %s", "log")
 t("table definition", "définition de table", "_t")
-t("#LIGHT_BLUE# Generate Random object using resolver: %s", "#LIGHT_BLUE# Générez un objet aléatoire à l'aide du résolveur: %s", "log")
+t("#LIGHT_BLUE# Generate Random object using resolver: %s", "#LIGHT_BLUE# Générer un objet aléatoire avec le résolveur: %s", "log")
 t("#LIGHT_BLUE# New random%s object: %s", "#LIGHT_BLUE# Nouvel objet aléatoire %s: %s", "log")
 t(" (resolver: %s)", " (résolveur: %s)", "tformat")
 t("#LIGHT_BLUE#Could not generate a random object with filter: %s", "#LIGHT_BLUE#Impossible de générer un objet aléatoire avec le filtre: %s", "log")
 t([[#LIGHT_BLUE#ERROR generating random object with filter [%s].
- Error: %s]], [[#LIGHT_BLUE#ERREUR génération un objet aléatoire avec le filtre [%s].
+ Error: %s]], [[#LIGHT_BLUE#ERREUR lors de la génération de l'objet aléatoire avec le filtre [%s].
  Erreur: %s]], "log")
 t("#LIGHT_BLUE#Could not generate a base object with filter: %s", "#LIGHT_BLUE#Impossible de générer un objet de base avec le filtre: %s", "log")
 t([[#LIGHT_BLUE#ERROR generating base object with filter [%s].
- Error:%s]], [[#LIGHT_BLUE#ERREUR génération d'un objet de base avec le filtre [%s].
+ Error:%s]], [[#LIGHT_BLUE#ERREUR lors de la génération de l'objet de base avec le filtre [%s].
  Erreur:%s]], "log")
 t("#LIGHT_BLUE#Could not generate a Randart with data: %s", "#LIGHT_BLUE#Impossible de générer un artefact aléatoire avec ces données: %s", "log")
 t([[#LIGHT_BLUE#ERROR generating Randart with data [%s].
- Error:%s]], [[#LIGHT_BLUE#ERREUR génération d'un artefact aléatoire avec ces données [%s].
+ Error:%s]], [[#LIGHT_BLUE#ERREUR lors de la génération de l'artefact aléatoire avec les données [%s].
  Erreur:%s]], "log")
 t("#LIGHT_BLUE#No object to add", "#LIGHT_BLUE#Aucun objet à ajouter", "log")
 t([[#LIGHT_BLUE#ERROR accepting object with resolver %s.
- Error:%s]], [[#LIGHT_BLUE#ERREUR accepter un objet avec le résolveur %s.
+ Error:%s]], [[#LIGHT_BLUE#ERREUR lors de l'acceptation de l'objet avec le résolveur %s.
  Erreur:%s]], "log")
-t("#LIGHT_BLUE#Working Actor set to [%s]%s at (%d, %d)", "#LIGHT_BLUE#Acteur de travail défini sur [%s]%s à (%d, %d)", "log")
+t("#LIGHT_BLUE#Working Actor set to [%s]%s at (%d, %d)", "#LIGHT_BLUE#Acteur actif défini sur [%s]%s en (%d, %d)", "log")
 -- texte non traduit
 --[==[
 t("%s: %s", "%s: %s", "tformat")
@@ -44679,11 +44675,11 @@ section "mod-tome/mod/dialogs/debug/SummonCreature.lua"
 t("DEBUG -- Summon Creature", "DEBUG -- Invoquer une créature", "_t")
 t("#LIGHT_BLUE# no actor to place.", "#LIGHT_BLUE# Pas d'acteur à placer.", "log")
 t("#LIGHT_BLUE#Actor [%s]%s already occupies (%d, %d)", "#LIGHT_BLUE#Acteur [%s]%s déjà occupé (%d, %d)", "log")
-t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Ajouté %s[%s]%s à (%d, %d)", "log")
-t("#YELLOW#Random Actor#LAST#", "#YELLOW#Acteur aléatoire#LAST#", "_t")
-t("#PINK#Test Dummy#LAST#", "#PINK#Mannequin de Test#LAST#", "_t")
-t("Test Dummy", "Mannequin de Test", "_t")
-t("Test dummy.", "Mannequin de test.", "_t")
+t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Ajouté %s[%s]%s en (%d, %d)", "log")
+t("#YELLOW#Random Actor#LAST#", "#YELLOW#Acteur Aléatoire#LAST#", "_t")
+t("#PINK#Test Dummy#LAST#", "#PINK#Mannequin d'Entraînement#LAST#", "_t")
+t("Test Dummy", "Mannequin d'Entraînement", "_t")
+t("Test dummy.", "Mannequin d'Entraînement.", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/elements/ChatPortrait.lua"
@@ -44699,7 +44695,7 @@ t("???", "???", "_t")
 section "mod-tome/mod/dialogs/orders/Behavior.lua"
 
 t("Set behavior: %s", "Définir le comportement: %s", "tformat")
-t("%s behavior set to %s.", "%s comportement défini sur %s.", "logPlayer")
+t("%s behavior set to %s.", "Comportement de %s défini sur %s.", "logPlayer")
 t("Default", "Défaut", "_t")
 t("Melee", "Mêlée", "_t")
 t("Ranged", "Distance", "_t")
@@ -44713,13 +44709,13 @@ t("Tank", "Tank", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/orders/Talents.lua"
 
-t("Define tactical talents usage", "Définir l'utilisation des talents tactiques", "_t")
+t("Define tactical talents usage", "Définir l'utilisation tactique des talents", "_t")
 t([[%s is listening attentively, and wants to know what talents to use.
 You can modify the tactical weights of various talents to increase or decrease their use.  The weights are multiplicative (zero will turn the talent off) and relative (changing everything to a weight of 2 will not alter how talents are used relative to each other).
 Word travels fast in Maj'Eyal, and if %s is a summon all future summons of the same type will remember your preferences.
-]], [[%s écoute attentivement et veut savoir quels talents utiliser.
-Vous pouvez modifier le poids tactiques de divers talents pour augmenter ou diminuer leur utilisation. Les pondérations sont multiplicatives (zéro désactivera le talent) et relatives (tout changer à un poids de 2 ne modifiera pas la façon dont les talents sont utilisés les uns par rapport aux autres).
-Votre parole voyage rapidement dans Maj'Eyal, et si %s est une invocation, toutes les futures invocations du même type se souviendront de vos préférences.
+]], [[%s vous écoute attentivement et veut savoir quels talents utiliser.
+Vous pouvez modifier le poids tactique de divers talents pour augmenter ou diminuer leur fréquence d'utilisation. Les poids sont multiplicatifs (zéro désactivera le talent) et relatifs (changer tout à un poids de 2 ne modifiera pas la façon dont les talents sont utilisés les uns par rapport aux autres).
+La nouvelle voyage vite à Maj'Eyal, et s'il s'agit d'une invocation de %s, toutes les futures invocations du même type se souviendront de vos préférences.
 ]], "tformat")
 t("Talent Name", "Nom du talent", "_t")
 t("Weight", "Poids", "_t")
@@ -44789,7 +44785,7 @@ t("\
 #{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
 t([[You can alter your look.
 #{bold}#This is a purely cosmetic change.#{normal}#%s]], [[Vous pouvez modifier votre apparence.
-#{bold}#C'est un changement purement cosmétique.#{normal}#%s]], "tformat")
+#{bold}#Il s'agit d'un changement purement cosmétique.#{normal}#%s]], "tformat")
 t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
 t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
 t("shimmer ingame", "chatoyance en jeu", "_t")
@@ -44805,7 +44801,7 @@ t("Search: ", "Chercher: ", "_t")
 t("Name", "Nom", "_t")
 t([[You can switch your appearance to a saved set of shimmers.
 #{bold}#This is a purely cosmetic change.#{normal}#]], [[Vous pouvez changer votre apparence en un ensemble enregistré de chatoiements.
-#{bold}#C'est un changement purement cosmétique.#{normal}#]], "_t")
+#{bold}#Il s'agit d'un changement purement cosmétique.#{normal}#]], "_t")
 t("Save Outfit", "Enregistrer la tenue", "_t")
 t("Outfit name?", "Nom de la tenue?", "_t")
 t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
@@ -44820,7 +44816,7 @@ section "mod-tome/mod/dialogs/shimmer/ShimmerRemoveSustains.lua"
 
 t("Shimmer: Remove Sustains Effects", "Chatoyance: supprimer les effets soutenus", "_t")
 t("Name", "Nom", "_t")
-t("Active", "Activé", "_t")
+t("Active", "Actif", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
 #{italic}##CRIMSON#Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs. Vous ne pouvez que prévisualiser.#WHITE##{normal}#", "_t")
@@ -44830,7 +44826,7 @@ Sustains auras with name in #YELLOW#yellow#LAST# can not be automatically turned
 #{bold}#This is a purely cosmetic change.#{normal}#]], [[#{bold}##CRIMSON#AVERTISSEMENT: il s'agit d'une fonctionnalité EXPÉRIMENTALE. Elle peut exploser!#LAST##{normal}#
 Les auras soutenus dont le nom est #YELLOW#jaune#LAST# ne peut pas être automatiquement réactivé si elles sont désactivées. Après les avoir activés ici, vous devez les annuler et les réactiver manuellement.
 
-#{bold}#C'est un changement purement cosmétique.#{normal}#]], "_t")
+#{bold}#Il s'agit d'un changement purement cosmétique.#{normal}#]], "_t")
 t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
 t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
 t("shimmer ingame", "chatoyance en jeu", "_t")
@@ -44844,9 +44840,9 @@ section "mod-tome/mod/dialogs/talents/ChronomancyContingency.lua"
 
 t("Contingency", "Contingence", "_t")
 t([[You may select a spell for Contingency to automatically use when your life falls below a percentage.  Only active spells that do not require a target may be chosen.
-]], [[Vous pouvez sélectionner un sort pour Contingence à utiliser automatiquement lorsque votre vie tombe en dessous d'un certain pourcentage. Seuls les sorts actifs ne nécessitant pas de cible peuvent être choisis.
+]], [[Vous pouvez sélectionner un sort pour la Contingence, à utiliser automatiquement lorsque vos points de vie tombent en dessous d'un certain pourcentage. Seuls les sorts actifs ne nécessitant pas de cible peuvent être choisis.
 ]], "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
 t("All talents that can be used with Contingency.", "Talents pouvant être utilisés avec Contingence.", "_t")
 -- texte non traduit
 --[==[
@@ -44860,9 +44856,9 @@ section "mod-tome/mod/dialogs/talents/ChronomancyEmpower.lua"
 
 t("Empower", "Amélioration", "_t")
 t([[You may select a chronomancy spell to Empower, increasing your effective spellpower when casting that spell.
-]], [[Vous pouvez sélectionner un sort de chronomancie à améliorer, augmentant votre puissance de sort effective lorsque vous le lancez.
+]], [[Vous pouvez sélectionner un sort de chronomancie à améliorer, augmentant votre puissance de sort effective lors du lancement de ce sort.
 ]], "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
 t("All talents that can be used with Empower.", "Tous les talents pouvant être utilisés avec Amélioration.", "_t")
 -- texte non traduit
 --[==[
@@ -44878,7 +44874,7 @@ t("Extension", "Prolongation", "_t")
 t([[You may select a chronomancy spell to Extend, increasing the duration of that spell.
 ]], [[Vous pouvez sélectionner un sort de chronomancie à prolonger, augmentant la durée de ce sort.
 ]], "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
 t("All talents that can be used with Extension.", "Tous les talents pouvant être utilisés avec Prolongation.", "_t")
 -- texte non traduit
 --[==[
@@ -44894,7 +44890,7 @@ t("Matrix", "Matrice", "_t")
 t([[You may select a chronomancy spell to Matrix, reducing the cooldown of that spell.
 ]], [[Vous pouvez sélectionner un sort de chronomancie pour Matrice, réduisant le temps de recharge de ce sort.
 ]], "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
 t("All talents that can be used with Matrix.", "Tous les talents pouvant être utilisés avec Matrice.", "_t")
 -- texte non traduit
 --[==[
@@ -44908,9 +44904,9 @@ section "mod-tome/mod/dialogs/talents/ChronomancyQuicken.lua"
 
 t("Quicken", "Accélération", "_t")
 t([[You may select a chronomancy spell to Quicken, reducing the time it takes you to cast that spell.
-]], [[Vous pouvez sélectionner un sort de chronomancie pour Accélération, réduisant le temps qu'il vous faut pour lancer ce sort.
+]], [[Vous pouvez sélectionner un sort de chronomancie pour Accélération, réduisant le temps nécessaire au lancement de ce sort.
 ]], "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
 t("All talents that can be used with Quicken.", "Tous les talents pouvant être utilisés avec Accélération.", "_t")
 -- texte non traduit
 --[==[
@@ -44966,17 +44962,17 @@ Les derniers effets de la #FF0000#Brûlure magique#WHITE# ont été maîtrisé. 
 
 Il s'est passé cent vingt-deux ans depuis que les Royaumes Alliés se sont établis sous le règne de #14fffc#Toknor#ffffff# et sa femme #14fffc#Mirvenia#ffffff#.
 Ensemble ils ont règné sur les royaumes avec équité et ont apporté la prospérité aussi bien aux Halfelins qu'aux Humains.
-Cela fait quarante ans que le Roi est mort de vieillesse, et son fils #14fffc#Tolak#ffffff# est maintenant Roi.
+Cela fait quarante ans que le Roi est mort de vieillesse, et son fils #14fffc#Tolak#ffffff# est désormais le Roi.
 
-Les royaumes Elfes sont calmes. Les Elfes Shaloréens dans leur foyer de Elvala tentent de faire oublier au monde leur rôle dans la Brûlure magique et vivent heureux sous le commandement de #14fffc#Aranion Gayaeil#ffffff#.
-Les elfes Thaloréens perpétuent leurs anciennes traditions en vivant dans les bois, gouvernés comme toujours par #14fffc#Nessilla Tantaelen#ffffff# la sage.
+Les royaumes Elfiques sont calmes. Les Elfes Shaloréens dans leur foyer d'Elvala tentent de faire oublier au monde leur rôle dans la Brûlure magique et vivent heureux sous la direction de #14fffc#Aranion Gayaeil#ffffff#.
+Les elfes Thaloréens perpétuent leurs anciennes traditions en vivant dans les bois, gouvernés comme toujours par la sage #14fffc#Nessilla Tantaelen#ffffff#.
 
-Les Nains du Trône de Fer ont maintenu une relation commerciale prudente avec les Royaumes Alliés depuis presque cent ans, mais à ce jour nous en savons peu sur eux, pas même le nom de leur leader.
+Les Nains du Trône de Fer ont maintenu une relation commerciale prudente avec les Royaumes Alliés depuis presque cent ans. Mais à ce jour nous en savons peu sur eux, pas même le nom de leur chef.
 
-Bien que le peuple de Maj'Eyal sache que les mages ont aidé à mettre un point final à la terreur de la Brûlure magique, ils n'ont pas oublié que c'est aussi la magie qui a déclenchée ces évènements. A ce titre, les mages restent marginalisés par la société, si ce n'est purement et simplement pourchassés.
-Malgré tout, c'est un age d'or. Les civilisations soignent les blessures de milliers d'années de conflit, et les Humains et les Halfelins ont créé une paix durable.
+Bien que les peuples de Maj'Eyal sachent que les mages ont aidé à mettre un point final à la terreur de la Brûlure magique, ils n'ont pas oublié que c'est aussi la magie qui a déclenchée ces évènements. A ce titre, les mages restent exclus de la société, si ce n'est purement et simplement pourchassés.
+Malgré tout, c'est un age d'or. Les civilisations soignent les blessures de milliers d'années de conflit, et les Humains et les Halfelins ont conclu une paix durable.
 
-Vous êtes un aventurier, fait pour découvrir des merveilles, explorer d'anciens lieux, et vous aventurez dans l'inconnu pour la richesse et la gloire.
+Vous êtes un aventurier, parti découvrir des merveilles, explorer d'anciens lieux, et vous aventurer dans l'inconnu pour la richesse et la gloire.
 ]], "init.lua description")
 t("Though magic is still shunned in Maj'Eyal, rumours abound of secret havens of mages.", "Bien que la magie soit toujours évitée à Maj'Eyal, les rumeurs abondent sur les refuges secrets des mages.", "init.lua load_tips")
 t("The Rush talent lets you close in on an enemy quickly and daze them, disabling them whilst you hack down their friends.", "Le talent Charge vous permet de vous rapprocher rapidement d'un ennemi et de l'étourdir, en le mettant hors d'état de nuire pendant que vous massacrez ses amis.", "init.lua load_tips")
@@ -45024,7 +45020,7 @@ t("The art of potion making fell into decline after the Spellhunt, and only a ra
 t("It's said that some rare powers can save your soul from the edge of death.", "On dit que certains rares pouvoirs peuvent sauver votre âme du bord de la mort.", "init.lua load_tips")
 t("Rumours tell of a shadowy cult kidnapping women and performing strange rites. Their intentions are unknown, and they have so far evaded capture.", "Les rumeurs parlent d'une secte obscure qui enlève des femmes et accomplit des rites étranges. Leurs intentions sont inconnues, et ont jusqu'à présent échappé à la capture.", "init.lua load_tips")
 t("Though slavery is illegal there is still a black market for it, and in some areas men are even used for blood sports.", "Bien que l'esclavage soit illégal il existe toujours un marché noir pour ce type d'activité, et dans certaines régions, les hommes sont même utilisés dans des combats sanglants.", "init.lua load_tips")
-t("Maj'Eyal is the biggest continent in the world of Eyal. Though records suggest other continents and islands may exist it has not been possible to cross the wide and stormy oceans since the Spellblaze and the Cataclysm.", "Le Maj'Eyal est le plus grand continent du monde d'Eyal. Bien que les archives suggèrent que d'autres continents et îles puissent exister, il n'a pas été possible de traverser les océans larges et tumultueux depuis la Brûlure magique et le Cataclysme.", "init.lua load_tips")
+t("Maj'Eyal is the biggest continent in the world of Eyal. Though records suggest other continents and islands may exist it has not been possible to cross the wide and stormy oceans since the Spellblaze and the Cataclysm.", "Maj'Eyal est le plus grand continent du monde d'Eyal. Bien que les archives suggèrent que d'autres continents et îles puissent exister, il n'a pas été possible de traverser les océans larges et tumultueux depuis la Brûlure magique et le Cataclysme.", "init.lua load_tips")
 t("The effects of the Spellblaze were not all instant, and many centuries later the Cataclysm tore the continent apart once more, devastating coastal areas the destroying all of the Naloren lands.", "Les effets de la Brûlure magique n'ont pas été instantanés, et plusieurs siècles plus tard, le cataclysme a déchiré le continent une fois de plus, dévastant les zones côtières et détruisant toutes les terres de Nalore.", "init.lua load_tips")
 t("Archers are fast and deadly, and with pinning shots can render their foes helpless as they swiftly dispatch them.", "Les archers sont rapides et mortels, et avec des tirs de précision, ils peuvent rendre leurs ennemis impuissants alors qu'ils les expédient rapidement.", "init.lua load_tips")
 t("Reavers are powerful fighters with corrupted blood, and the strength to wield a one-handed weapon in each arm.", "Les Moissonneurs sont de puissant combattants au sang corrompu, et qui ont la force de manier une arme à une main dans chaque main.", "init.lua load_tips")
@@ -45045,7 +45041,7 @@ section "mod-tome/mod/load.lua"
 
 t("In main hand", "En main principale", "_t")
 t("Most weapons are wielded in the main hand.", "La plupart des amres sont porté dans la main principale.", "_t")
-t("In off hand", "En la main secondaire", "_t")
+t("In off hand", "En main secondaire", "_t")
 t("You can use shields or a second weapon in your off-hand, if you have the talents for it.", "Vous pouvez utiliser des boucliers ou une deuxième arme dans votre main secondaire, si vous en avez le talent.", "_t")
 t("Psionic focus", "Concentration psionique", "_t")
 t("Object held in your telekinetic grasp. It can be a weapon or some other item to provide a benefit to your psionic powers.", "Objet tenu dans votre main télékinétique. Il peut s'agir d'une arme ou d'un autre objet qui vous permet de développer vos pouvoirs psychiques.", "_t")
@@ -45095,18 +45091,18 @@ t("wil", "vol", "stat short_name")
 t("Willpower defines your character's ability to concentrate. It increases your mana, stamina and PSI capacity, and your chance to resist mental attacks.", "La volonté définit la capacité de concentration de votre personnage. Elle augmente votre mana, votre endurance et votre capacité de PSI, ainsi que vos chances de résister aux attaques mentales.", "_t")
 t("Cunning", "Ruse", "stat name")
 t("cun", "rus", "stat short_name")
-t("Cunning defines your character's ability to learn, think, and react. It allows you to learn many worldly abilities, and increases your mental capabilities and chance of critical hits.", "La ruse définit la capacité de votre personnage à apprendre, à penser et à réagir. Elle vous permet d'apprendre de nombreuses capacités utiles dans le monde, et augmente vos capacités mentales et vos chances de réussir des coups critiques.", "_t")
+t("Cunning defines your character's ability to learn, think, and react. It allows you to learn many worldly abilities, and increases your mental capabilities and chance of critical hits.", "La ruse définit la capacité de votre personnage à apprendre, à réfléchir, et à réagir. Elle vous permet d'apprendre de nombreuses capacités utiles, augmente vos capacités mentales, ainsi que vos chances de réussir des coups critiques.", "_t")
 t("Constitution defines your character's ability to withstand and resist damage. It increases your maximum life and physical resistance.", "La constitution définit la capacité de votre personnage à résister et à supporter les dégâts. Elle augmente votre durée de vie maximale et votre résistance physique.", "_t")
 t("Luck", "Chance", "stat name")
 t("lck", "cha", "stat short_name")
 t("Luck defines your character's fortune when dealing with unknown events. It increases your critical strike chance, your chance of random encounters, ...", "La chance définit la fortune de votre personnage lorsqu'il doit faire face à des événements inconnus. Elle augmente vos chances de coup critique, vos chances de rencontres aléatoires, ...", "_t")
-t("All kinds of weapons", "Toutes sortes d'armes", "_t")
-t("All kinds of armours", "Toutes sortes d'armures", "_t")
-t("Rings and Amulets", "Anneaux et amulettes", "_t")
+t("All kinds of weapons", "Toutes armes", "_t")
+t("All kinds of armours", "Toutes armures", "_t")
+t("Rings and Amulets", "Anneaux et Amulettes", "_t")
 t("Gems", "Pierres précieuses", "_t")
 t("Tinkers", "Babioles", "_t")
 t("Miscellaneous", "Divers", "_t")
-t("Quest and plot related items", "Articles liés aux quêtes et aux intrigues", "_t")
+t("Quest and plot related items", "Objets de quête et d'intrigue", "_t")
 t("Transmogrification Chest", "Coffre de Transmogrification", "_t")
 t("All", "Tout", "_t")
 -- texte non traduit

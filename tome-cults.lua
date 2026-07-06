@@ -5690,7 +5690,7 @@ t(" or ", " or ", "_t")
 ------------------------------------------------
 section "tome-cults/superload/mod/dialogs/ProphecyGrandOration.lua"
 
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
 -- texte non traduit
 --[==[
 t("Grand Oration", "Grand Oration", "_t")
@@ -5706,7 +5706,7 @@ t("All prophecies that can be used with Grand Oration.", "All prophecies that ca
 ------------------------------------------------
 section "tome-cults/superload/mod/dialogs/ProphecyRevelation.lua"
 
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
 -- texte non traduit
 --[==[
 t("Revelation", "Revelation", "_t")
@@ -5722,7 +5722,7 @@ t("All prophecies that can be used with Revelation.", "All prophecies that can b
 ------------------------------------------------
 section "tome-cults/superload/mod/dialogs/ProphecyTwofoldCurse.lua"
 
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisissez un talent#{normal}#", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
 -- texte non traduit
 --[==[
 t("Twofold Curse", "Twofold Curse", "_t")
