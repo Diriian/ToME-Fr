@@ -412,7 +412,7 @@ t([[As long as you have at least a stack of Sadist you can mentally lash out at 
 section "tome-possessors/data/timed_effects.lua"
 
 t("psionic", "psyché", "effect subtype")
-t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "_t")
+t("High Sun Paladin Aeryn", "Aeryn, Haute Paladine Solaire", "_t")
 t("stun", "assommé", "effect subtype")
 t("#Target# is stunned!", "#Target# est assommé!", "_t")
 t("+Stunned", "+Assommé", "_t")
