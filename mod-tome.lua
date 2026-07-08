@@ -3885,7 +3885,7 @@ Lui qui a ressenti une grande tristesse pour ce monde. Celui qui va maintenant f
 Le bâton nous a permis de drainer assez d'énergie de ce monde pour ouvrir un portail vers le Néant et l'invoquer à travers lui!
 Il est déjà trop tard. Il est en train de passer au moment où nous parlons, ce n'est qu'une question d'heures!]], "_t")
 t("I *WILL* stop you! The world will not end today!", "Je *VAIS* vous arrêter! Le monde ne prendra pas fin aujourd'hui!", "_t")
-t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "_t")
+t("High Sun Paladin Aeryn", "Aeryn, Haute Paladine Solaire", "_t")
 t([[The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.
 He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!
 The staff will allow us to drain enough energy from this world to open the portal to the Void and summon Him through!
@@ -18686,7 +18686,7 @@ section "mod-tome/data/quests/pre-charred-scar.lua"
 t("Important news", "Informations Importantes", "_t")
 t("Orcs were spotted with the staff you seek in an arid waste in the southern desert.", "Des Orcs ont été repérés avec le bâton que vous cherchez dans un désert aride au sud du pays.", "_t")
 t("You should go investigate what is happening there.", "Vous devriez aller enquêter sur ce qui se passe là-bas.", "_t")
-t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "_t")
+t("High Sun Paladin Aeryn", "Aeryn, Haute Paladine Solaire", "_t")
 t("Aeryn explained where the orcs were spotted.", "Aeryn a expliqué où les orcs ont été repérés.", "logPlayer")
 
 ------------------------------------------------
@@ -37355,7 +37355,7 @@ t("This portal seems to be connected with Maj'Eyal; you could probably use it to
 t("Back and there again", "Aller et Revenir", "_t")
 t("Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "Passez le portail pour retourner à Maj'Eyal? (Attention: pillez Draebor en premier)", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "#VIOLET#Vous franchissez le portail tourbillonnant et, en un clin d'oeil, vous vous retrouvez à Maj'Eyal, près de Daikara.", "logPlayer")
-t("Stay", "Restez", "_t")
+t("Stay", "Rester", "_t")
 t("Enter", "Entrer", "_t")
 
 ------------------------------------------------
@@ -37867,7 +37867,7 @@ t("Renegade mages from Angolwen, the Sorcerers have set up in the Far East, slow
 t("human", "humain", "entity subtype")
 t("Fallen Sun Paladin Aeryn", "Aeryn, Paladine Solaire Déchu", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
-t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "entity name")
+t("High Sun Paladin Aeryn", "Aeryn, Haute Paladine Solaire", "entity name")
 t("A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!", "Une créature se dresse devant vous, dotée de longs appendices tentaculaires et d'une petite protubérance à la place de la tête. Une aura de puissance intense émane de cet être, une puissance que vous n'avez jamais ressentie auparavant. Il ne peut s'agir que d'un Sher'Tul. Un Sher'Tul vivant!", "_t")
 -- texte non traduit
 --[==[
@@ -38252,7 +38252,7 @@ t([[This area appears to have been hit by a huge tremor, breaking the floor in a
 You think you can jump to the level below.]], [[Cette zone semble avoir été frappée par un violent tremblement de terre, provoquant une immense crevasse dans le sol.
 Vous pensez pouvoir sauter au niveau inférieur.]], "_t")
 t("Jump", "Sautez", "_t")
-t("Stay", "Restez", "_t")
+t("Stay", "Rester", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/maze/npcs.lua"
@@ -38295,9 +38295,10 @@ t("Murgol, the Yaech Lord", "Murgol, le Seigneur Yaech", "entity name")
 t("You can feel the psionic waves of power come from this yaech.", "Vous pouvez ressentir de puissantes ondes psioniques émanant de ce yaech.", "_t")
 t("and flushed out to sea", "et emportés vers la mer", "_t")
 t("humanoid", "humanoïde", "entity type")
-t("naga tidewarden", "gardien de marées naga", "entity name")
-t("naga tidecaller", "appeleur de marées naga", "entity name")
+t("naga tidewarden", "naga gardien des marées", "entity name")
+t("naga tidecaller", "naga invocatrice des marées", "entity name")
 t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful elf-like woman. As she moves her delicate hands water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "Un bruissement accompagne les mouvements de cette étrange créature, dont la queue serpentine se prolonge jusqu'au corps d'une belle femme aux allures d'elfe. Au moindre mouvement de ses mains délicates l'eau jaillit du sol et l'on comprend qu'il ne s'agit pas d'un simple monstre, mais d'une créature impressionnante de puissance et de fascination.", "_t")
+t("naga nereid", "naga néréide", "entity name")
 t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "Des yeux verts vous fixent depuis une longue chevelure dorée qui ondule sur une peau lisse et pâle. Votre regard est d'abord attiré par la chair nue mais en s'attardant davantage vous apercevez des écailles sombres qui s'étirent en une longue queue de serpent. Vous levez les yeux lorsqu'elle bouge, ses cheveux s'écartant pour révéler un visage fin et beau aux pommettes hautes et aux lèvres pulpeuses. Malgré toute la fascination de cette créature merveilleuse, la terreur que suscite la queue serpentine vous glace le sang.", "_t")
 t("Lady Nashva the Streambender", "Dame Nashva la Maîtresse des Cours d'Eau", "entity name")
 t("Water circles slowly on the ground around this naga's tail. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "L'eau forme de lents cercles autour de la queue de cette naga. Sa queue sombre est enroulée serrée ce qui la fait paraître petite, mais son regard calme et assuré vous garantit qu'elle ne se laissera pas vaincre facilement. Tandis que l'eau commence à monter autour d'elle l'air se met à scintiller, et vous sentez son regard obscur vous transpercer d'une manière qui vous met mal à l'aise.", "_t")
@@ -38305,7 +38306,6 @@ t("and brought back to Vargh for experimentations", "et ramenés à Vargh pour s
 -- texte non traduit
 --[==[
 t("naga", "naga", "entity subtype")
-t("naga nereid", "naga nereid", "entity name")
 --]==]
 
 
@@ -38898,13 +38898,13 @@ t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pou
 ------------------------------------------------
 section "mod-tome/data/zones/shadow-crypt/zone.lua"
 
-t("Shadow Crypt", "Crypte sombre", "_t")
+t("Shadow Crypt", "Crypte Sombre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/shertul-fortress/grids.lua"
 
 t("%0.2f Energy Stored", "%0.2f Énergie Stockée", "tformat")
-t("stair back to the lake of Nur", "escalier retournant au lac de Nur", "entity name")
+t("stair back to the lake of Nur", "escalier vers le lac de Nur", "entity name")
 t("teleportation circle to the surface", "cercle de téléportation vers la surface", "entity name")
 t("teleportation circle for Melinda", "cercle de téléportation pour Melinda", "entity name")
 t("Sher'Tul Control Orb", "Orbe de Contrôle Sher'Tul", "entity name")
@@ -38946,7 +38946,7 @@ section "mod-tome/data/zones/shertul-fortress/npcs.lua"
 t("Weirdling Beast", "Bête Étrange", "entity name")
 t("A roughly humanoid creature, with tentacle-like appendages in the place of arms and legs. You gasp in horror as you notice it has no head. Putrid warts form quickly on its skin and explode as quickly.", "Une créature à peu près humanoïde, avec des appendices ressemblant à des tentacules à la place des bras et des jambes. Vous haletez d'horreur lorsque vous remarquez qu'il n'a pas de tête. Des verrues putrides se forment rapidement sur sa peau et explosent tout aussi rapidement.", "_t")
 t("and slowly consumed", "et lentement consommé", "_t")
-t("#LIGHT_RED#As the Weirdling beast falls it shrieks one last time and the door behind it shatters and explodes, revealing the room behind it. The stair up vanishes!", "#LIGHT_RED#Alors que la Bête Étrange tombe elle hurle une dernière fois et la porte derrière elle se brise et explose, révélant une pièce derrière elle. L'escalier disparaît!", "log")
+t("#LIGHT_RED#As the Weirdling beast falls it shrieks one last time and the door behind it shatters and explodes, revealing the room behind it. The stair up vanishes!", "#LIGHT_RED#Alors que la Bête Étrange tombe elle hurle une dernière fois et la porte derrière elle se brise et explose, révélant une nouvelle pièce. L'escalier disparaît!", "log")
 t("Teleportation portal to the Sher'Tul Fortress", "Portail de téléportation vers la Forteresse Sher'Tul", "_t")
 t("Fortress Shadow", "Ombre de la Forteresse", "entity name")
 t("The shadow created by the fortress, it resembles somewhat the horrors you saw previously, but it is not the same.", "L'ombre créée par la forteresse, elle ressemble un peu aux horreurs que vous avez vues précédemment mais ce n'est pas la même.", "_t")
@@ -38954,8 +38954,8 @@ t("training", "entraînement", "entity type")
 t("dummy", "mannequin", "entity subtype")
 t("Training Dummy", "Mannequin d'Entraînement", "entity name")
 t("Training dummy.", "Mannequin d'entraînement.", "_t")
-t("Pumpkin, the little kitty", "Citrouille, le petit chat", "entity name")
-t("An orange kitty with a white star blaze on his chest. Has a strange affinity for licking your face whenever possible.", "Un chat orange avec une étoile blanche sur la poitrine. A une étrange affinité pour vous lécher le visage autant que possible.", "_t")
+t("Pumpkin, the little kitty", "Citrouille, la petite chatte", "entity name")
+t("An orange kitty with a white star blaze on his chest. Has a strange affinity for licking your face whenever possible.", "Une chatte orange avec une étoile blanche sur la poitrine. Elle adore vous lécher le visage autant que possible.", "_t")
 -- texte non traduit
 --[==[
 t("Sher'Tul", "Sher'Tul", "entity subtype")
@@ -39013,7 +39013,7 @@ section "mod-tome/data/zones/shertul-fortress-caldizar/zone.lua"
 
 t("Unknown Sher'Tul Fortress", "Forteresse Sher'Tul Inconnue", "_t")
 t("Unknown Sher'Tul Fortress (%s)", "Forteresse Sher'Tul Inconnue (%s)", "tformat")
-t("Unknown the Sher'Tul Fortress", "Inconnue, la Forteresse Sher'Tul", "_t")
+t("Unknown the Sher'Tul Fortress", "La Forteresse Sher'Tul Inconnue", "_t")
 t("With a sudden jolt you find yourself... somewhere familiar. The smooth walls and gentle lighting remind you of your fortress. And yet it feels different too. There is a gentle humming noise in the background, and your whole body feels light, almost weightless, such that the slightest movement propels you into the air. You have the odd feeling that you are not on Maj'Eyal any longer... From ahead you sense something both terrible and wonderful, and trepidation fills every corner of your being.", "Soudain, vous vous retrouvez... dans un lieu familier. Les murs lisses et la douce lumière vous rappellent votre forteresse. Et pourtant, l'atmosphère est différente. Un léger bourdonnement se fait entendre en arrière-plan et votre corps tout entier semble léger, presque en apesanteur, au point que le moindre mouvement vous propulse dans les airs. Vous avez l'étrange impression de ne plus être sur Maj'Eyal... Devant vous, vous percevez quelque chose à la fois terrible et merveilleux, et l'appréhension vous envahit.", "_t")
 
 ------------------------------------------------
@@ -39022,7 +39022,7 @@ section "mod-tome/data/zones/slazish-fen/grids.lua"
 t("wall", "mur", "entity type")
 t("water", "eau", "entity subtype")
 t("tree", "arbre", "entity name")
-t("bog water", "eau de tourbière", "entity name")
+t("bog water", "eau marécageuse", "entity name")
 t("coral portal", "portail de corail", "entity name")
 t("#VIOLET#The portal is already broken!", "#VIOLET#Le portail est déjà cassé!", "log")
 t("destroying the portal", "détruire le portail", "_t")
@@ -39033,10 +39033,11 @@ t("#VIOLET#The portal starts to break down, run!", "#VIOLET#Le portail commence 
 section "mod-tome/data/zones/slazish-fen/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
-t("naga tidewarden", "gardien de marées naga", "entity name")
+t("naga tidewarden", "naga gardien des marées", "entity name")
 t("Before you stands a tall figure, propped high by a serpent's tail in place of where his legs should rightly be. His torso is slim and muscular, and his face has an elven beauty to it, framed by locks of blonde hair. But there is a fierceness to this creature too, and his bright eyes veil a smouldering anger.", "Devant vous se dresse une silhouette imposante, perchée sur une queue de serpent qui remplace ses jambes. Son torse est svelte et musclé, et son visage, d'une beauté elfique, est encadré de mèches blondes. Mais cette créature recèle aussi une férocité, et ses yeux brillants dissimulent une colère sourde.", "_t")
-t("naga tidecaller", "appeleur de marées naga", "entity name")
+t("naga tidecaller", "naga invocatrice des marées", "entity name")
 t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful Elf-like woman. As she moves her delicate hands, water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "Un bruissement accompagne les mouvements de cette étrange créature, dont la queue serpentine se prolonge en un corps de femme d'une beauté elfique. Au mouvement de ses mains délicates, l'eau jaillit du sol, et l'on comprend qu'il ne s'agit pas d'un simple monstre, mais d'une créature impressionnante de puissance et de fascination.", "_t")
+t("naga nereid", "naga néréide", "entity name")
 t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "Des yeux verts vous fixent depuis une longue chevelure dorée qui ondule sur une peau lisse et pâle. Votre regard est d'abord attiré par la chair nue mais en s'attardant davantage vous apercevez des écailles sombres qui s'étirent en une longue queue de serpent. Vous levez les yeux lorsqu'elle bouge, ses cheveux s'écartant pour révéler un visage fin et beau aux pommettes hautes et aux lèvres pulpeuses. Malgré toute la fascination de cette créature merveilleuse, la terreur que suscite la queue serpentine vous glace le sang.", "_t")
 t("Lady Zoisla the Tidebringer", "Dame Zoisla la Porteuse de Marées", "entity name")
 t("Water circles slowly on the ground around this naga's tail, some droplets leaping up now and then as if they are impatient to do their mistress' bidding. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "L'eau tournoie lentement autour de la queue de cette naga, quelques gouttelettes jaillissant de temps à autre, comme impatientes d'obéir à leur maîtresse. Sa queue sombre est enroulée serrée, la faisant paraître petite, mais son regard calme et assuré vous garantit qu'elle ne se laissera pas facilement vaincre. Tandis que l'eau commence à monter autour d'elle, l'air se met à scintiller, et vous sentez son regard obscur vous transpercer trop profondément pour être rassurant.", "_t")
@@ -39044,7 +39045,6 @@ t("and brought back to Vargh for experimentation", "et ramenés à Vargh pour de
 -- texte non traduit
 --[==[
 t("naga", "naga", "entity subtype")
-t("naga nereid", "naga nereid", "entity name")
 --]==]
 
 
@@ -39052,7 +39052,7 @@ t("naga nereid", "naga nereid", "entity name")
 section "mod-tome/data/zones/slazish-fen/objects.lua"
 
 t("weird conch", "conque étrange", "entity name")
-t("A conch; it seems the naga was using it as a communication tool.", "Un coquillage. Il semblerait que le naga l'utilisait comme outil de communication.", "_t")
+t("A conch; it seems the naga was using it as a communication tool.", "Une conque. Il semblerait que le naga l'utilisait comme outil de communication.", "_t")
 t("Robes of Deflection", "Robes de Déviation", "entity name")
 t("iridescent robe", "robe irisée", "_t")
 t("This set of robes seems to shine with metallic colors.", "Cet ensemble de robes semble briller de reflets métalliques.", "_t")
@@ -39145,7 +39145,7 @@ t("lovely umbrella", "beau parasol", "entity name")
 t("picnic basket", "panier de pique-nique", "entity name")
 t("grass", "herbe", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
-t("You have not finished your romantic time at the beach.", "YVotre moment romantique à la plage n'est pas terminé.", "log")
+t("You have not finished your romantic time at the beach.", "Votre moment romantique à la plage n'est pas terminé.", "log")
 
 ------------------------------------------------
 section "mod-tome/data/zones/south-beach/npcs.lua"
@@ -39170,7 +39170,7 @@ t("beach bikini", "bikini de plage", "entity name")
 section "mod-tome/data/zones/south-beach/zone.lua"
 
 t("Southern Beach", "Plage du Sud", "_t")
-t("Look over there!", "Regarde là-bas!", "_t")
+t("Look over there!", "Regarde par là!", "_t")
 t("#DARK_GREEN#Melinda begins to glow with an eerie aura!", "#DARK_GREEN#Melinda commence à irradier d'une aura étrange !", "say")
 
 ------------------------------------------------
@@ -39185,7 +39185,7 @@ t("One of the moons of Eyal.", "Une des lunes d'Eyal.", "_t")
 t("Wintertide (Moon of Eyal)", "Frimas (Lune d'Eyal)", "entity name")
 t("Kolal (Planet)", "Kolal (Planète)", "entity name")
 t("Luxam (Planet)", "Luxam (Planète)", "entity name")
-t("Ponx (Gaz Planet)", "Ponx (Gaz Planète)", "entity name")
+t("Ponx (Gaz Planet)", "Ponx (Planète gazeuse)", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/stellar-system-shandral/zone.lua"
@@ -39196,10 +39196,10 @@ t("Stellar System: Shandral", "Système Stellaire: Shandral", "_t")
 section "mod-tome/data/zones/tannen-tower/grids.lua"
 
 t("Portal to Last Hope", "Portail vers Dernier Espoir", "entity name")
-t("This portal seems to be connected with Last Hope; you could probably use it to go back.", "Ce portail semble être lié à Dernier Espoir. Vous pourriez probablement l'utiliser pour revenir en arrière.", "_t")
+t("This portal seems to be connected with Last Hope; you could probably use it to go back.", "Ce portail semble connecté à Dernier Espoir. Vous pourriez probablement l'utiliser pour fuir.", "_t")
 t("Back and there again", "Aller et Revenir", "_t")
-t("Enter the portal back to Last Hope?", "Emprunter le portail de retour vers Dernier Espoir?", "_t")
-t("Stay", "Restez", "_t")
+t("Enter the portal back to Last Hope?", "Emprunter le portail pour retourner à Dernier Espoir?", "_t")
+t("Stay", "Rester", "_t")
 t("Enter", "Entrer", "_t")
 
 ------------------------------------------------
@@ -39259,7 +39259,7 @@ t("The Shade of Telos", "L'Ombre de Telos", "entity name")
 t("Everybody thought Telos dead and his spirit destroyed, but it seems he still lingers in his old place of power.", "Tout le monde croyait Telos mort et son esprit anéanti, mais il semblerait qu'il hante encore son ancien lieu de pouvoir.", "_t")
 t("and was savagely mutilated, a show of his rage towards all living things", "et fut sauvagement mutilé, manifestation de sa rage envers tous les êtres vivants", "_t")
 t("Back and there again", "Aller et Revenir", "_t")
-t("As the shade dissipates, you see no sign of the text entitled \"Inverted and Reverted Probabilistic Fields\". You should go back to Tannen.", "À mesure que l'ombre se dissipe, vous ne voyez aucune trace du texte intitulé \"Champs probabilistes inversés et réversés\". Vous devriez retourner à Tannen.", "_t")
+t("As the shade dissipates, you see no sign of the text entitled \"Inverted and Reverted Probabilistic Fields\". You should go back to Tannen.", "À mesure que l'ombre se dissipe, vous ne voyez aucune trace du texte intitulé \"Champs probabilistes inversés et réversés\". Vous devriez retourner voir Tannen.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/telmur/objects.lua"
@@ -39297,7 +39297,7 @@ t("Tempest Peak", "Pic Tempétueux", "_t")
 section "mod-tome/data/zones/temple-of-creation/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
-t("This towering naga exudes power, and radiates a certain charismatic charm as well. His masculine face stares at you with great intensity, and you struggle to meet his gaze. His torso is bare apart from an exquisite pearl set directly in his chest, and in his muscular arms he holds ready a heavy mace and shield. You sense there is more to him also, as if the very power of the ocean were concentrated in this great creature, and that the wrath of it may come flooding out at any moment.", "Ce naga imposant dégage une puissance indéniable, ainsi qu'un charme charismatique certain. Son visage masculin vous fixe avec une grande intensité, et vous peinez à soutenir son regard. Son torse est nu à l'exception d'une perle exquise sertie directement sur sa poitrine, et dans ses bras musclés, il brandit une lourde masse et un bouclier. Vous pressentez qu'il recèle quelque chose de plus profond, comme si la puissance même de l'océan était concentrée en cette créature colossale, et que sa colère pourrait se déchaîner à tout instant.", "_t")
+t("This towering naga exudes power, and radiates a certain charismatic charm as well. His masculine face stares at you with great intensity, and you struggle to meet his gaze. His torso is bare apart from an exquisite pearl set directly in his chest, and in his muscular arms he holds ready a heavy mace and shield. You sense there is more to him also, as if the very power of the ocean were concentrated in this great creature, and that the wrath of it may come flooding out at any moment.", "Cette naga imposante dégage une puissance indéniable, ainsi qu'un charme charismatique certain. Son visage masculin vous fixe avec une grande intensité, et vous peinez à soutenir son regard. Son torse est nu à l'exception d'une perle exquise sertie directement sur sa poitrine, et dans ses bras musclés, elle brandit une lourde masse et un bouclier. Vous pressentez qu'elle recèle quelque chose de plus profond, comme si la puissance même de l'océan était concentrée en cette créature colossale, et que sa colère pourrait se déchaîner à tout instant.", "_t")
 t("and perverted into a monstrous aberration as a warning to the surface", "et pervertie en une aberration monstrueuse, comme un avertissement à la surface", "_t")
 -- texte non traduit
 --[==[
@@ -39309,9 +39309,9 @@ t("Slasul", "Slasul", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/temple-of-creation/objects.lua"
 
-t("Eldritch Pearl", "Perle Occulte", "entity name")
+t("Eldritch Pearl", "Perle Surnaturelle", "entity name")
 t("bright pearl", "perle brillante", "_t")
-t("Thousands of years spent inside the temple of creation have infused this pearl with the fury of rushing water. It pulses light.", "Des milliers d'années passées au cœur du temple de la création ont imprégné cette perle de la fureur des eaux tumultueuses. Elle pulse de lumière.", "_t")
+t("Thousands of years spent inside the temple of creation have infused this pearl with the fury of rushing water. It pulses light.", "Des milliers d'années passées au coeur du temple de la création ont imprégné cette perle de la fureur des eaux tumultueuses. Elle pulse de lumière.", "_t")
 t("tract", "traité", "entity name")
 t("A tract revealing the history of the Nagas.", "Un traité révélant l'histoire des Nagas.", "_t")
 t("A note.", "Une note", "_t")
@@ -39356,10 +39356,10 @@ t("temporal", "temporel", "entity subtype")
 t("Ben Cruthdar, the Abomination", "Ben Cruthdar, l'Abomination", "entity name")
 t("This crazed madman seems twisted and corrupted by temporal energy, his body shifting and phasing in and out of reality.", "Ce fou furieux semble déformé et corrompu par l'énergie temporelle, son corps se transformant en  apparaissant et disparaissant de la réalité.", "_t")
 t("Rantha the Abomination", "Rantha l'Abomination", "entity name")
-t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...  and this one seems to have been corrupted by the time rift.", "Griffes et dents. Glace et mort. Les dragons ne sont pas tous éteints, semble-t-il... et celui-ci semble avoir été corrompu par la faille temporelle.", "_t")
+t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...  and this one seems to have been corrupted by the time rift.", "Griffes et dents. Glace et mort. Les dragons ne sont pas tous éteints, semble-t-il... et celui-ci a été corrompu par la faille temporelle.", "_t")
 t("Chronolith Twin", "Chronolithe Jumeaux", "entity name")
 t("A six-armed creature, dressed in robes, with black insectile eyes.", "Une créature à six bras, vêtue de robes, avec des yeux noirs insectoïdes.", "_t")
-t("Chronolith Clone", "Chronolithe Clone", "entity name")
+t("Chronolith Clone", "Clone Chronolithe", "entity name")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
@@ -39379,7 +39379,7 @@ t("Temporal Rift: Lumberjack village", "Faille Temporelle: Petit Village de Bûc
 t("Temporal Rift: Daikara", "Faille Temporelle: Daikara", "_t")
 t("Temporal Rift: Lake of Nur", "Faille Temporelle: Lac de Nur", "_t")
 t("Space and time distort and lose meaning as you pass through the rift. This place is alien.", "L'espace et le temps se distordent et perdent leur sens lorsqu'on traverse la faille. C'est un endroit alien.", "_t")
-t("This looks like Maj'Eyal's forest but it looks strangely distorted, beware...", "Cela ressemble à la forêt de Maj'Eyal, mais elle semble étrangement déformée, méfiez-vous...", "_t")
+t("This looks like Maj'Eyal's forest but it looks strangely distorted, beware...", "Cela ressemble à la forêt de Maj'Eyal, mais elle semble étrangement déformée. Vous devriez vous méfier.", "_t")
 t("As you pass the rift you see what seems to be the Daikara mountains, yet they are not.", "En passant la faille, vous voyez ce qui semble être les montagnes Daikara, mais ce n'est pas le cas.", "_t")
 t("The peace of this place has been disturbed.", "La tranquillité de ce lieu a été troublée.", "_t")
 
@@ -39414,7 +39414,7 @@ section "mod-tome/data/zones/thieves-tunnels/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("Assassin Lord", "Seigneur Assassin", "entity name")
-t("He is the leader of a gang of bandits; watch out for his men.", "Il est le chef d'une bande de bandits. Méfiez-vous de ses hommes.", "_t")
+t("He is the leader of a gang of bandits; watch out for his men.", "Il est le chef d'une bande de brigands. Méfiez-vous de ses hommes.", "_t")
 t("#DARK_GREY#The assassin lord throws a smoke bomb and disappears!", "#DARK_GREY#Le seigneur assassin lance une bombe fumigène et disparaît!", "logPlayer")
 t("As the assassin dies the magical veil protecting the stairs out vanishes.", "Au moment où l'assassin meurt, le voile magique qui protégeait l'escalier disparaît.", "logSeen")
 t("Lost Merchant", "Marchand Perdu", "entity name")
@@ -39439,13 +39439,13 @@ t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("Linaniil, Supreme Archmage of Angolwen", "Linaniil, Archimage Suprême d'Angolwen", "entity name")
 t("A tall, pale woman dressed in a revealing silk robe. Her gaze is so intense it seems to burn.", "Une femme grande et pâle, vêtue d'une robe de soie plutôt osé. Son regard est si intense qu'il semble brûler.", "_t")
-t("Remove @himher@!", "Retirer @himher@!", "_t")
-t("#GOLD#Linaniil concentrates her formidable will to restore her body!", "#GOLD#Linaniil concentre sa formidable volonté pour restaurer son corps !", "saySimple")
+t("Remove @himher@!", "Virez ce vaurien!", "_t")
+t("#GOLD#Linaniil concentrates her formidable will to restore her body!", "#GOLD#Linaniil concentre sa formidable volonté pour restaurer son corps!", "saySimple")
 t("Archmage Tarelion", "Archimage Tarelion", "entity name")
 t("A tall Shalore in a flowing robe, he looks calm and at peace, but you can feel his tremendous power.", "Un grand Shalore vêtu d'une robe flottante, paraîssant calme et serein, mais on ressent son immense puissance.", "_t")
-t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("Catch @himher@!", "Capturez @himher@!", "_t")
 t("apprentice mage", "apprenti mage", "entity name")
-t("An apprentice, learning the ways of the arcane arts.", "Un apprenti, apprenant les voies des arts arcaniques.", "_t")
+t("An apprentice, learning the ways of the arcane arts.", "Un apprenti, qui découvre les voies des arts arcaniques.", "_t")
 t("pyromancer", "pyromancien", "entity name")
 t("An archmage specializing in fire magic.", "Un archimage spécialisé dans la magie du feu.", "_t")
 t("cryomancer", "cryomancien", "entity name")
@@ -39500,17 +39500,17 @@ section "mod-tome/data/zones/town-derth/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
-t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("Catch @himher@!", "Capturez @himher@!", "_t")
 t("derth guard", "garde de Derth", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde au visage sévère, il ne vous laissera pas troubler la ville.", "_t")
 t("halfling slinger", "frondeur halfelin", "entity name")
 t("halfling", "halfelin", "entity subtype")
 t("A Halfling, with a sling. Beware.", "Un Halfelin, armé d'une fronde. Prenez garde.", "_t")
 t("human farmer", "fermier humain", "entity name")
-t("A weather-worn Human farmer.", "Un fermier humain usé par les intempéries.", "_t")
+t("A weather-worn Human farmer.", "Un fermier humain usé par le temps.", "_t")
 t("halfling gardener", "jardinier halfelin", "entity name")
-t("A Halfling, he seems to be looking for plants.", "Ce Halfelin, il semble être à la recherche de plantes.", "_t")
-t("Shady cornac man", "Homme cornac louche", "entity name")
+t("A Halfling, he seems to be looking for plants.", "Un Halfelin qui semble être à la recherche de plantes.", "_t")
+t("Shady cornac man", "Homme Cornac louche", "entity name")
 t("Hey you. Come here.", "Hé, toi! Viens ici!", "_t")
 
 ------------------------------------------------
@@ -39520,11 +39520,11 @@ t("Armoury", "Armurerie", "entity name")
 t("Tanner", "Tanneur", "entity name")
 t("Swordsmith", "Forge d'Épées", "entity name")
 t("Knives and daggers", "Couteaux et Poignards", "entity name")
-t("Death from Afar", "Mort à Distance", "entity name")
+t("Death from Afar", "Mort de Loin", "entity name")
 t("Herbalist", "Herboriste", "entity name")
 t("Jewelry", "Bijouterie", "entity name")
 t("Survival Supplies", "Fournitures de Survie", "entity name")
-t("Home of Stire the Alchemist", "Maison de Stire l'Alchimiste", "entity name")
+t("Home of Stire the Alchemist", "Demeure de Stire l'Alchimiste", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-derth/zone.lua"
@@ -39540,7 +39540,7 @@ t("Derth", "Derth", "_t")
 section "mod-tome/data/zones/town-elvala/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
-t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("Catch @himher@!", "Capturez @himher@!", "_t")
 t("elvala guard", "garde d'Elvala", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde au visage sévère, il ne vous laissera pas troubler la ville.", "_t")
 t("shalore rune master", "maître des runes shalore", "entity name")
@@ -39568,7 +39568,7 @@ t("Tanner", "Tanneur", "entity name")
 t("Swordsmith", "Forge d'Épées", "entity name")
 t("Staff carver", "Sculpteur de Bâton", "entity name")
 t("Runemaster", "Maître des Runes", "entity name")
-t("Home of Marus the Alchemist", "Maison de Marus l'Alchimiste", "entity name")
+t("Home of Marus the Alchemist", "Demeure de Marus l'Alchimiste", "entity name")
 t("Shady Library", "Bibliothèque Louche", "entity name")
 
 ------------------------------------------------
@@ -39602,7 +39602,7 @@ section "mod-tome/data/zones/town-gates-of-morning/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
-t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "entity name")
+t("High Sun Paladin Aeryn", "Aeryn, Haute Paladine Solaire", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
 t("You find a note containing the location of the Orc Prides on Aeryn's body.", "Sur le corps d'Aeryn vous trouvez une note indiquant l'emplacement des Fiertés Orcs.", "logPlayer")
 
@@ -39614,13 +39614,13 @@ t("Quality Leather", "Cuir de Qualité", "entity name")
 t("Arcane Cloth", "Tissus Arcanique", "entity name")
 t("Swordmaster", "Maître d'Armes", "entity name")
 t("Night Affairs", "Affaires Nocturnes", "entity name")
-t("Orc Cutters", "Coupeurs d'Orcs", "entity name")
-t("Mauling for Brutes", "Mutilateurs pour les Brutes", "entity name")
+t("Orc Cutters", "Trancheurs d'Orcs", "entity name")
+t("Mauling for Brutes", "Mutilateurs pour Brutes", "entity name")
 t("Bows and Slings", "Arcs et Frondes", "entity name")
-t("Sook's Arcane Goodness", "Bonté Arcanique de Sook", "entity name")
+t("Sook's Arcane Goodness", "Friandises Arcanique de Sook", "entity name")
 t("Sarah's Herbal Infusions", "Infusions Herbaliques de Sarah", "entity name")
 t("Sook's Runes and other Harmless Contraptions", "Runes de Sook et autres Inventions Inoffensives", "entity name")
-t("Zemekkys Home", "Maison de Zemekkys", "entity name")
+t("Zemekkys Home", "Demeure de Zemekkys", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-gates-of-morning/zone.lua"
@@ -39636,7 +39636,7 @@ t("cooking pit", "fosse de cuisine", "entity name")
 section "mod-tome/data/zones/town-irkkk/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
-t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("Catch @himher@!", "Capturez @himher@!", "_t")
 t("yeek mindslayer", "guerrier psionique yeek", "entity name")
 t("A mindslayer in training.", "Un guerrier psionique en formation.", "_t")
 t("yeek psionic", "psionique yeek", "entity name")
@@ -39667,7 +39667,7 @@ t("Tanner", "Tanneur", "entity name")
 t("Swordsmith", "Forge d'Épées", "entity name")
 t("Staff carver", "Sculpteur de Bâton", "entity name")
 t("Runemaster", "Maître des Runes", "entity name")
-t("Home of Marus the Alchemist", "Maison de Marus l'Alchimiste", "entity name")
+t("Home of Marus the Alchemist", "Demeure de Marus l'Alchimiste", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-irkkk/zone.lua"
@@ -39687,7 +39687,7 @@ t("underground", "souterrain", "entity subtype")
 t("crystals", "cristaux", "entity name")
 t("Escape route from Reknor", "Itinéraire de Sortie de Reknor", "entity name")
 t("The Deep Bellow", "Le Grondement des Profondeurs", "entity name")
-t("The Dwarven Empire Incarnate", "L'Incarnation de l'Empire Nain", "entity name")
+t("The Dwarven Empire Incarnate", "L'Empire Nain Incarné", "entity name")
 t("Mystic of the Empire", "Mystique de l'Empire", "entity name")
 t("Warrior of the Empire", "Guerrier de l'Empire", "entity name")
 t("Defender of the Empire", "Défenseur de l'Empire", "entity name")
@@ -39697,7 +39697,7 @@ section "mod-tome/data/zones/town-iron-council/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("dwarf", "nain", "entity subtype")
-t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("Catch @himher@!", "Capturez @himher@!", "_t")
 t("dwarven guard", "garde nain", "entity name")
 t("A stocky dwarf, he looks angry.", "Ce nain trapu a l'air en colère.", "_t")
 t("dwarven earthwarden", "gardien de la terre nain", "entity name")
@@ -39737,7 +39737,7 @@ section "mod-tome/data/zones/town-last-hope/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
-t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("Catch @himher@!", "Capturez @himher@!", "_t")
 t("last hope guard", "garde de dernier espoir", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde au visage sévère, il ne vous laissera pas troubler la ville.", "_t")
 t("halfling guard", "garde halfelin", "entity name")
@@ -39746,7 +39746,7 @@ t("A Halfling, with a sling. Beware.", "Un Halfelin, armé d'une fronde. Prenez 
 t("human citizen", "citoyen humain", "entity name")
 t("A clean-looking Human resident of Last Hope.", "Un habitant de Dernier Espoir d'apparence humaine et plutôt propre sur lui  .", "_t")
 t("halfling citizen", "citoyen halfelin", "entity name")
-t("A clean-looking Halfling resident of Last Hope.", "Un halfelin présentable, habitant de Last Hope.", "_t")
+t("A clean-looking Halfling resident of Last Hope.", "Un halfelin présentable, habitant de Dernier Espoir.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/objects.lua"
@@ -39780,7 +39780,7 @@ t("Sook's Runes and other Harmless Contraptions", "Runes de Sook et autres Inven
 t("Library", "Bibliothèque", "entity name")
 t("The Elder", "L'Ancien", "entity name")
 t("Tannen's Door", "Porte de Tannen", "entity name")
-t("Home of Ungrol the Alchemist", "Foyer d'Ungrol l'Alchimiste", "entity name")
+t("Home of Ungrol the Alchemist", "Demeure d'Ungrol l'Alchimiste", "entity name")
 t("Rich merchant", "Riche marchand", "entity name")
 t("Urthol's Wondrous Emporium", "L'échoppe merveilleuse d'Urthol", "entity name")
 
@@ -39824,7 +39824,7 @@ section "mod-tome/data/zones/town-point-zero/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
-t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("Catch @himher@!", "Capturez @himher@!", "_t")
 t("guardian of reality", "gardien de la réalité", "entity name")
 t("A stern-looking guardian, ever vigilant against the threats of the paradox.", "Un gardien à l'air sévère, toujours vigilant face aux menaces du paradoxe.", "_t")
 t("elemental", "élémentaire", "entity type")
@@ -39856,7 +39856,7 @@ section "mod-tome/data/zones/town-point-zero/traps.lua"
 t("Tailor", "Tailleur", "entity name")
 t("Tanner", "Tanneur", "entity name")
 t("Knives and daggers", "Couteaux et Poignards", "entity name")
-t("Death from Afar", "Mort à Distance", "entity name")
+t("Death from Afar", "Mort de Loin", "entity name")
 t("Swordsmith", "Forge d'Épées", "entity name")
 t("Staff carver", "Sculpteur de Bâton", "entity name")
 t("Runemaster", "Maître des Runes", "entity name")
@@ -39877,7 +39877,7 @@ t("cobblestone road", "route pavée", "entity name")
 section "mod-tome/data/zones/town-shatur/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
-t("Catch @himher@!", "Capturer @himher@!", "_t")
+t("Catch @himher@!", "Capturez @himher@!", "_t")
 t("thalore hunter", "chasseur thalor", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde au visage sévère, il ne vous laissera pas troubler la ville.", "_t")
 t("thalore wilder", "naturaliste thalore", "entity name")
@@ -39947,11 +39947,11 @@ t("Infused Leather", "Cuir Infusé", "entity name")
 t("Slash & Dash", "Taillade & Cavalcade", "entity name")
 t("Nature's Punch", "Poing de la Nature", "entity name")
 t("Slice & Dice", "Trancher et Émincer", "entity name")
-t("Nature's Reach", "Atteinte de la Nature", "entity name")
+t("Nature's Reach", "Portée de la Nature", "entity name")
 t("A Million Cuts", "Un Million d'Entailles", "entity name")
 t("Purification Tools", "Outils de Purification", "entity name")
 t("Library", "Bibliothèque", "entity name")
-t("Trainer", "Entraînement", "entity name")
+t("Trainer", "Entraîneur", "entity name")
 t("Grim-looking fighter", "Combattant à l'air sinistre", "_t")
 t("Nature's Emporium", "Magasin de la Nature", "entity name")
 
@@ -39974,7 +39974,7 @@ t("grass", "herbe", "entity subtype")
 t("troll stew", "ragoût de troll", "entity name")
 t("water", "eau", "entity subtype")
 t("tree", "arbre", "entity name")
-t("bog water", "eau de tourbière", "entity name")
+t("bog water", "eau marécageuse", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/trollmire/npcs.lua"
@@ -40064,7 +40064,7 @@ t("This portal will bring you back to the Tutorial Lobby.", "Ce portail vous ram
 t("Tutorial Lobby Portal", "Portail du Lobby du tutoriel", "_t")
 t("Enter the portal back to the lobby?", "Entrez dans le portail pour retourner dans le lobby?", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back in the lobby.", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous voilà de retour dans le lobby.", "logPlayer")
-t("Stay", "Restez", "_t")
+t("Stay", "Rester", "_t")
 t("Enter", "Entrer", "_t")
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")

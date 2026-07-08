@@ -4582,7 +4582,7 @@ section "tome-cults/data/zones/ft-horrors/grids.lua"
 
 t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
-t("Stay", "Restez", "_t")
+t("Stay", "Rester", "_t")
 t("Exit", "Quitter", "_t")
 t("book", "livre", "entity type")
 -- texte non traduit

@@ -7761,7 +7761,7 @@ section "tome-orcs/data/zones/gates-of-morning/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
-t("High Sun Paladin Aeryn", "Haute Paladine Solaire Aeryn", "entity name")
+t("High Sun Paladin Aeryn", "Aeryn, Haute Paladine Solaire", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
 t("halfling", "halfelin", "entity subtype")
 t("immovable", "inamovible", "entity type")
@@ -7811,13 +7811,13 @@ t("Quality Leather", "Cuir de Qualité", "entity name")
 t("Arcane Cloth", "Tissus Arcanique", "entity name")
 t("Swordmaster", "Maître d'Armes", "entity name")
 t("Night Affairs", "Affaires Nocturnes", "entity name")
-t("Orc Cutters", "Coupeurs d'Orcs", "entity name")
-t("Mauling for Brutes", "Mutilateurs pour les Brutes", "entity name")
+t("Orc Cutters", "Trancheurs d'Orcs", "entity name")
+t("Mauling for Brutes", "Mutilateurs pour Brutes", "entity name")
 t("Bows and Slings", "Arcs et Frondes", "entity name")
-t("Sook's Arcane Goodness", "Bonté Arcanique de Sook", "entity name")
+t("Sook's Arcane Goodness", "Friandises Arcanique de Sook", "entity name")
 t("Sarah's Herbal Infusions", "Infusions Herbaliques de Sarah", "entity name")
 t("Sook's Runes and other Harmless Contraptions", "Runes de Sook et autres Inventions Inoffensives", "entity name")
-t("Zemekkys Home", "Maison de Zemekkys", "entity name")
+t("Zemekkys Home", "Demeure de Zemekkys", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/gates-of-morning/zone.lua"
@@ -8248,7 +8248,7 @@ t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
 t("trigger", "déclencher", "entity type")
 t("trigger", "déclencher", "entity subtype")
-t("Stay", "Restez", "_t")
+t("Stay", "Rester", "_t")
 t("floor", "sol", "entity type")
 -- texte non traduit
 --[==[
