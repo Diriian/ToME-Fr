@@ -29,7 +29,7 @@ Les fichiers suivant sont présent si vous avez acheté la totalité du jeu :
   - mod-tome.lua (en cours)
 - Fichiers du jeu de base, inclus dans version payante :
   - tome-possessors.lua (a faire)
-  - tome-items-vault.lua (a faire)
+  - tome-items-vault.lua
 - DLC :
   - tome-orc.lua (a faire)
   - tome-cults.lua (a faire)
