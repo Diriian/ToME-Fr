@@ -371,7 +371,7 @@ t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +2 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +2 Force, +2 Dextérité, +2 Constitution", "_t")
 t("#LIGHT_BLUE# * +2 Magic, +2 Willpower, +2 Cunning", "#LIGHT_BLUE# * +2 Magie, +2 Volonté, +2 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
-t("Wanderer seed", "Graine de Vagabond", "birth facial category")
+t("Wanderer seed", "Graine du Vagabond", "birth facial category")
 t("Wanderer", "Vagabond", "birth descriptor name")
 t("Wanderers are adventurers who embrace the chaotic nature of the world. They start the game with the Combat Training talent tree, 3 random class trees and 1 random generic tree.", "Les Vagabonds sont des aventuriers qui embrassent la nature chaotique du monde. Ils commencent le jeu avec l'arbre de talent Entraînement au combat, 3 arbres de classe aléatoires et 1 arbre générique aléatoire.", "_t")
 t("#{bold}##PURPLE#Every 5 levels they gain a new unlocked class tree, at random.#{normal}##LAST#", "#{bold}##PURPLE#Tous les 5 niveaux, ils gagnent un nouvel arbre de classe débloqué, au hasard.#{normal}##LAST#", "_t")
@@ -380,7 +380,7 @@ t("#{bold}##GOLD#This is a bonus class for the chaotically inclined. It is by no
 t("Their most important stats depend on what they get to do.", "Leurs statistiques les plus importantes dépendent de ce qu'ils ont à faire.", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
 t("#GOLD#As you level up you learn the talent tree: #LIGHT_BLUE#%s", "#GOLD#Au fur et à mesure que vous montez en grade, vous apprenez l'arbre de talent: #LIGHT_BLUE#%s", "say")
-t("Wanderer Seed", "Graine de Vagabond", "_t")
+t("Wanderer Seed", "Graine du Vagabond", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/classes/afflicted.lua"
@@ -2532,7 +2532,7 @@ Je... J'avais des projets pour vous, mais je ne peux pas aller contre votre libr
 En êtes-vous sûr ?]], "_t")
 t("Just let me go please.", "Laissez-moi partir, s'il vous plaît.", "_t")
 t("asked the Eidolon to let %s die in peace", "demande à l'Eidolon de laisser %s mourir en paix", "tformat")
-t("her", "sa", "_t")
+t("her", "elle", "_t")
 t("him", "lui", "_t")
 t("brought down by Eidolon", "a chuté par l'Eidolon", "_t")
 t("No actually, perhaps life is still worth it!", "Non, en fait, peut-être que la vie en vaut encore la peine !", "_t")
@@ -4461,7 +4461,7 @@ t("#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "#Source##LIGHT
 t("cosmetic", "dégâts cosmétique", "damage type")
 t("cosmeticed", "cosmétisé", "_t")
 t("physical", "dégâts physique", "damage type")
-t("battered", "malmené", "_t")
+t("battered", "tabassé", "_t")
 t("bludgeoned", "matraqué", "_t")
 t("sliced", "émincé", "_t")
 t("maimed", "mutilé", "_t")
@@ -5611,8 +5611,8 @@ t("water", "eau", "entity subtype")
 t("underwater air bubble", "bulle d'air sous-marine", "entity name")
 t("#LIGHT_BLUE#Replenishes air level when standing inside.#LAST#", "#LIGHT_BLUE#Réalimente le niveau d'air lorsqu'on se tient à l'intérieur.#LAST#", "_t")
 t("#AQUAMARINE#The air bubbles are depleted!", "#AQUAMARINE#Les bulles d'air sont vidées!", "logSeen")
-t("deep water", "eau profonde", "entity name")
-t("poisoned deep water", "eau profonde empoisonnée", "entity name")
+t("deep water", "eaux profondes", "entity name")
+t("poisoned deep water", "eaux profondes empoisonnée", "entity name")
 t("#Source# poisons #Target#!", "#Source# empoisonne #Target#!", "logCombat")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("previous level", "niveau précédent", "entity name")
@@ -8751,7 +8751,7 @@ All Resist:  %d]], [[(Tentacle Stats)
 Vie:  %d
 Dégâts de Base:  %d
 Armure:  %d
-Toutes Résists:  %d]], "tformat")
+Toutes Rés.:  %d]], "tformat")
 t([[summon a resilient tentacle up to %d spaces away for %d turns.  Each turn the tentacle will strike a random enemy in range 3 dealing physical damage and attempting to pin them.
 
 %s]], [[invoque un tentacule résilient jusqu'à %d de distance pendant %d tours.  À chaque tour, le tentacule frappe un ennemi aléatoire à une portée de 3 en lui infligeant des dégâts physiques et en tentant de l'immobiliser.
@@ -9659,14 +9659,14 @@ t("travel speed", "vitesse de déplacement", "entity name")
 section "mod-tome/data/general/objects/random-artifacts/generic.lua"
 
 t("generic spellpower", "puissance des sorts générique", "entity name")
-t("generic spellcrit", "crit de sort générique", "entity name")
-t("generic spell crit magnitude", "magnitude de chance de crit des sorts générique", "entity name")
+t("generic spellcrit", "crit. de sort générique", "entity name")
+t("generic spell crit magnitude", "magnitude de crit. de sorts générique", "entity name")
 t("generic spellsurge", "surcharge de sort générique", "entity name")
 t("generic mana regeneration", "régéneration de mana générique", "entity name")
-t("generic increased mana", "augmentation de mana générique", "entity name")
-t("generic mana on crit", "mana sur crit générique", "entity name")
-t("generic increased vim", "augmentation de vitae générique", "entity name")
-t("generic vim on crit", "vitae sur crit générique", "entity name")
+t("generic increased mana", "augm. de mana générique", "entity name")
+t("generic mana on crit", "mana sur crit. générique", "entity name")
+t("generic increased vim", "augm. de vitae générique", "entity name")
+t("generic vim on crit", "vitae sur crit. générique", "entity name")
 t("generic phasing", "phase générique", "entity name")
 t("generic mindpower", "puissance mentale générique", "entity name")
 t("generic mindcrit", "crit mental générique", "entity name")
@@ -9677,22 +9677,22 @@ t("generic hate on crit", "haine sur crit générique", "entity name")
 t("generic max psi", "psi max générique", "entity name")
 t("generic psi on hit", "psi sur touche générique", "entity name")
 t("generic phys dam", "dam phys générique", "entity name")
-t("generic phys apr", "pén phys générique", "entity name")
-t("generic phys crit", "crit phys générique", "entity name")
-t("generic phys atk", "atk phys générique", "entity name")
-t("generic phys crit magnitude", "magnitude de crit phys générique", "entity name")
+t("generic phys apr", "pén. phys générique", "entity name")
+t("generic phys crit", "crit. phys générique", "entity name")
+t("generic phys atk", "atk phys. générique", "entity name")
+t("generic phys crit magnitude", "magnitude de crit. phys. générique", "entity name")
 t("generic stamina regeneration", "régénération d'endurance générique", "entity name")
-t("generic increased stamina", "augmentation d'endurance générique", "entity name")
+t("generic increased stamina", "augm. d'endurance générique", "entity name")
 t("generic def", "def générique", "entity name")
 t("generic armor", "armure générique", "entity name")
 t("generic life regeneration", "régénération de vie générique", "entity name")
-t("generic increased life", "augmentation de vie générique", "entity name")
+t("generic increased life", "augm. de vie générique", "entity name")
 t("generic improve heal", "amélioration de soin générique", "entity name")
 t("generic save physical", "sauvegarde physique générique", "entity name")
 t("generic save spell", "sauvegarde des sorts générique", "entity name")
 t("generic save mental", "sauvegarde mentale générique", "entity name")
 t("generic immune stun", "immunité à l'assomement générique", "entity name")
-t("generic immune knockback", "imunité au repoussage générique", "entity name")
+t("generic immune knockback", "immunité au repoussage générique", "entity name")
 t("generic immune blind", "immunité à l'aveuglement générique", "entity name")
 t("generic immune confusion", "immunité à la confusion générique", "entity name")
 t("generic immune pin", "immunité à l'immobilisation générique", "entity name")
@@ -9702,18 +9702,18 @@ t("generic immune silence", "immunité au silence générique", "entity name")
 t("generic immune disarm", "immunité au désarmement générique", "entity name")
 t("generic immune cut", "immunité à l'entaillage générique", "entity name")
 t("generic immune teleport", "immunité à la téléportation générique", "entity name")
-t("generic resist physical", "résist physique générique", "entity name")
-t("generic resist mind", "résist mentale générique", "entity name")
-t("generic resist fire", "résist feu générique", "entity name")
-t("generic resist cold", "résist froid générique", "entity name")
-t("generic resist acid", "résist acide générique", "entity name")
+t("generic resist physical", "rés. physique générique", "entity name")
+t("generic resist mind", "rés. mentale générique", "entity name")
+t("generic resist fire", "rés. feu générique", "entity name")
+t("generic resist cold", "rés. froid générique", "entity name")
+t("generic resist acid", "rés. acide générique", "entity name")
 t("generic resist lightning", "résist foudre générique", "entity name")
-t("generic resist arcane", "résist arcane générique", "entity name")
-t("generic resist nature", "résist nature générique", "entity name")
-t("generic resist blight", "résist maladie générique", "entity name")
-t("generic resist light", "résist lumière générique", "entity name")
-t("generic resist darkness", "résist obscurité générique", "entity name")
-t("generic resist temporal", "résist temporel générique", "entity name")
+t("generic resist arcane", "rés. arcane générique", "entity name")
+t("generic resist nature", "rés. nature générique", "entity name")
+t("generic resist blight", "rés. maladie générique", "entity name")
+t("generic resist light", "rés. lumière générique", "entity name")
+t("generic resist darkness", "rés. obscurité générique", "entity name")
+t("generic resist temporal", "rés. temporel générique", "entity name")
 t("generic physical retribution", "représaille physique générique", "entity name")
 t("generic mind retribution", "représaille mentale générique", "entity name")
 t("generic acid retribution", "représaille acide générique", "entity name")
@@ -9726,30 +9726,30 @@ t("generic blight retribution", "représaille de maladie générique", "entity n
 t("generic nature retribution", "représaille de nature générique", "entity name")
 t("generic arcane retribution", "représaille d'arcane générique", "entity name")
 t("generic temporal retribution", "représaille temporelle générique", "entity name")
-t("generic inc damage physical", "aug dégât physique générique", "entity name")
-t("generic inc damage mind", "aug dégât mentaux générique", "entity name")
-t("generic inc damage fire", "aug dégât feu générique", "entity name")
-t("generic inc damage cold", "aug dégât froid générique", "entity name")
-t("generic inc damage acid", "aug dégât acide générique", "entity name")
-t("generic inc damage lightning", "aug dégât foudre générique", "entity name")
-t("generic inc damage arcane", "aug dégât arcane générique", "entity name")
-t("generic inc damage nature", "aug dégât nature générique", "entity name")
-t("generic inc damage blight", "aug dégât maladie générique", "entity name")
-t("generic inc damage light", "aug dégât lumière générique", "entity name")
-t("generic inc damage darkness", "aug dégât obscurité générique", "entity name")
-t("generic inc damage temporal", "aug dégât temporel générique", "entity name")
-t("generic resists pen physical", "résist pén physique générique", "entity name")
-t("generic resists pen mind", "résist pén mentale générique", "entity name")
-t("generic resists pen fire", "résist pén feu générique", "entity name")
-t("generic resists pen cold", "résist pén froid générique", "entity name")
-t("generic resists pen acid", "résist pén acide générique", "entity name")
-t("generic resists pen lightning", "résist pén foudre générique", "entity name")
-t("generic resists pen arcane", "résist pén arcane générique", "entity name")
-t("generic resists pen nature", "résist pén nature générique", "entity name")
-t("generic resists pen blight", "résist pén maladie générique", "entity name")
-t("generic resists pen light", "résist pén lumière générique", "entity name")
-t("generic resists pen darkness", "résist pén obscurité générique", "entity name")
-t("generic resists pen temporal", "résist pén temporel générique", "entity name")
+t("generic inc damage physical", "augm. dégâts physique générique", "entity name")
+t("generic inc damage mind", "augm. dégâts mentaux générique", "entity name")
+t("generic inc damage fire", "augm. dégâts feu générique", "entity name")
+t("generic inc damage cold", "augm. dégâts froid générique", "entity name")
+t("generic inc damage acid", "augm. dégâts acide générique", "entity name")
+t("generic inc damage lightning", "augm. dégâts foudre générique", "entity name")
+t("generic inc damage arcane", "augm. dégâts arcane générique", "entity name")
+t("generic inc damage nature", "augm. dégâts nature générique", "entity name")
+t("generic inc damage blight", "augm. dégâts maladie générique", "entity name")
+t("generic inc damage light", "augm. dégâts lumière générique", "entity name")
+t("generic inc damage darkness", "augm. dégâts obscurité générique", "entity name")
+t("generic inc damage temporal", "augm. dégâts temporel générique", "entity name")
+t("generic resists pen physical", "rés. pén. physique générique", "entity name")
+t("generic resists pen mind", "rés. pén. mentale générique", "entity name")
+t("generic resists pen fire", "rés. pén. feu générique", "entity name")
+t("generic resists pen cold", "rés. pén. froid générique", "entity name")
+t("generic resists pen acid", "rés. pén. acide générique", "entity name")
+t("generic resists pen lightning", "rés. pén. foudre générique", "entity name")
+t("generic resists pen arcane", "rés. pén. arcane générique", "entity name")
+t("generic resists pen nature", "rés. pén. nature générique", "entity name")
+t("generic resists pen blight", "rés. pén. maladie générique", "entity name")
+t("generic resists pen light", "rés. pén. lumière générique", "entity name")
+t("generic resists pen darkness", "rés. pén. obscurité générique", "entity name")
+t("generic resists pen temporal", "rés. pén. temporel générique", "entity name")
 t("generic stat str", "stat for générique", "entity name")
 t("generic stat dex", "stat dex générique", "entity name")
 t("generic stat mag", "stat mag générique", "entity name")
@@ -9759,22 +9759,23 @@ t("generic stat con", "stat con générique", "entity name")
 t("generic see invisible", "vision de l'invisible générique", "entity name")
 t("generic infravision radius", "rayon d'infravision générique", "entity name")
 t("generic lite radius", "portée d'éclairage générique", "entity name")
-t("generic corrupted blood melee", "mêlée de sang corrompu générique", "entity name")
-t("generic acid corrode melee", "mêlée de corrosion d'acide générique", "entity name")
-t("generic mind expose melee", "mêlée d'exposition mentale générique", "entity name")
-t("generic manaburn melee", "mêlée de brûlure de mana générique", "entity name")
-t("generic temporal energize melee", "mêlée d'énergie temporelle générique", "entity name")
-t("generic slime melee", "mêlée vaseuse générique", "entity name")
-t("generic dark numbing melee", "mêlée sombre et abrutissante générique", "entity name")
+t("generic corrupted blood melee", "sang corrompu en mêlée générique", "entity name")
+t("generic acid corrode melee", "corrosion en mêlée d'acide générique", "entity name")
+t("generic mind expose melee", "exposition mentale en mêlée générique", "entity name")
+t("generic manaburn melee", "brûlure de mana en mêlée générique", "entity name")
+t("generic temporal energize melee", "énergie temporelle en mêlée générique", "entity name")
+t("generic slime melee", "vaseu en mêlée générique", "entity name")
+t("generic dark numbing melee", "mêlée sombre et engourdissante générique", "entity name")
 t("generic die at", "mort générique à", "entity name")
-t("generic ignore crit", "ignorer crit générique", "entity name")
+t("generic ignore crit", "ignorer crit. générique", "entity name")
 t("generic void", "vide générique", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/gloves.lua"
 
-t("damage", "dégât", "entity name")
-t("apr", "pén", "entity name")
+t("damage", "dégâts", "entity name")
+t("apr", "pén.", "entity name")
+t("crit", "crit.", "entity name")
 t("phasing", "phasante", "entity name")
 t("physical melee", "mêlée physique", "entity name")
 t("mind melee", "mêlée mentale", "entity name")
@@ -9809,29 +9810,25 @@ t("blight burst", "explosion de maladie", "entity name")
 t("nature burst", "explosion de nature", "entity name")
 t("arcane burst", "explosion arcanique", "entity name")
 t("temporal burst", "explosion temporelle", "entity name")
-t("physical burst (crit)", "explosion physique (crit)", "entity name")
-t("mind burst (crit)", "explosion mentale (crit)", "entity name")
-t("acid burst (crit)", "explosion acide (crit)", "entity name")
-t("lightning burst (crit)", "explosion de foudre (crit)", "entity name")
-t("fire burst (crit)", "explosion de feu (crit)", "entity name")
-t("cold burst (crit)", "explosion de froid (crit)", "entity name")
-t("light burst (crit)", "explosion de lumière (crit)", "entity name")
-t("dark burst (crit)", "explosion d'obscurité (crit)", "entity name")
-t("blight burst (crit)", "explosion de maladie (crit)", "entity name")
-t("nature burst (crit)", "explosion de nature (crit)", "entity name")
-t("arcane burst (crit)", "explosion arcanique (crit)", "entity name")
-t("temporal burst (crit)", "explosion temporelle (crit)", "entity name")
--- texte non traduit
---[==[
-t("crit", "crit", "entity name")
---]==]
-
+t("physical burst (crit)", "explosion physique (crit.)", "entity name")
+t("mind burst (crit)", "explosion mentale (crit.)", "entity name")
+t("acid burst (crit)", "explosion acide (crit.)", "entity name")
+t("lightning burst (crit)", "explosion de foudre (crit.)", "entity name")
+t("fire burst (crit)", "explosion de feu (crit.)", "entity name")
+t("cold burst (crit)", "explosion de froid (crit.)", "entity name")
+t("light burst (crit)", "explosion de lumière (crit.)", "entity name")
+t("dark burst (crit)", "explosion d'obscurité (crit.)", "entity name")
+t("blight burst (crit)", "explosion de maladie (crit.)", "entity name")
+t("nature burst (crit)", "explosion de nature (crit.)", "entity name")
+t("arcane burst (crit)", "explosion arcanique (crit.)", "entity name")
+t("temporal burst (crit)", "explosion temporelle (crit.)", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/melee.lua"
 
-t("damage", "dégât", "entity name")
-t("apr", "pén", "entity name")
+t("damage", "dégâts", "entity name")
+t("apr", "pén.", "entity name")
+t("crit", "crit.", "entity name")
 t("phasing", "phasante", "entity name")
 t("physical melee", "mêlée physique", "entity name")
 t("mind melee", "mêlée mentale", "entity name")
@@ -9864,23 +9861,18 @@ t("blight burst", "explosion de maladie", "entity name")
 t("nature burst", "explosion de nature", "entity name")
 t("arcane burst", "explosion arcanique", "entity name")
 t("temporal burst", "explosion temporelle", "entity name")
-t("physical burst (crit)", "explosion physique (crit)", "entity name")
-t("mind burst (crit)", "explosion mentale (crit)", "entity name")
-t("acid burst (crit)", "explosion acide (crit)", "entity name")
-t("lightning burst (crit)", "explosion de foudre (crit)", "entity name")
-t("fire burst (crit)", "explosion de feu (crit)", "entity name")
-t("cold burst (crit)", "explosion de froid (crit)", "entity name")
-t("light burst (crit)", "explosion de lumière (crit)", "entity name")
-t("dark burst (crit)", "explosion d'obscurité (crit)", "entity name")
-t("blight burst (crit)", "explosion de maladie (crit)", "entity name")
-t("nature burst (crit)", "explosion de nature (crit)", "entity name")
-t("arcane burst (crit)", "explosion arcanique (crit)", "entity name")
-t("temporal burst (crit)", "explosion temporelle (crit)", "entity name")
--- texte non traduit
---[==[
-t("crit", "crit", "entity name")
---]==]
-
+t("physical burst (crit)", "explosion physique (crit.)", "entity name")
+t("mind burst (crit)", "explosion mentale (crit.)", "entity name")
+t("acid burst (crit)", "explosion acide (crit.)", "entity name")
+t("lightning burst (crit)", "explosion de foudre (crit.)", "entity name")
+t("fire burst (crit)", "explosion de feu (crit.)", "entity name")
+t("cold burst (crit)", "explosion de froid (crit.)", "entity name")
+t("light burst (crit)", "explosion de lumière (crit.)", "entity name")
+t("dark burst (crit)", "explosion d'obscurité (crit.)", "entity name")
+t("blight burst (crit)", "explosion de maladie (crit.)", "entity name")
+t("nature burst (crit)", "explosion de nature (crit.)", "entity name")
+t("arcane burst (crit)", "explosion arcanique (crit.)", "entity name")
+t("temporal burst (crit)", "explosion temporelle (crit.)", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/ranged.lua"
@@ -9893,53 +9885,53 @@ section "mod-tome/data/general/objects/random-artifacts/shields.lua"
 
 t("shield block", "blocage du bouclier", "entity name")
 t("shield armor", "armure du bouclier", "entity name")
-t("shield increased life", "augmentation de vie du bouclier", "entity name")
+t("shield increased life", "augm. de vie du bouclier", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/staves.lua"
 
-t("stave increased positive/negative energy", "bâton augmentation positive/négative énergie", "entity name")
-t("stave paradox reduce anomalies", "bâton paradoxe réduit les anomalies", "entity name")
+t("stave increased positive/negative energy", "bâton énergie positive/négative augmentée", "entity name")
+t("stave paradox reduce anomalies", "bâton réduction des anomalies de paradoxe", "entity name")
 t("stave spellpower", "bâton puissance des sorts", "entity name")
-t("stave inc damage physical", "bâton aug dégâts physiques", "entity name")
-t("stave inc damage mind", "bâton aug dégâts mentaux", "entity name")
-t("stave inc damage fire", "bâton aug dégâts feu", "entity name")
-t("stave inc damage cold", "bâton aug dégâts froid", "entity name")
-t("stave inc damage acid", "bâton aug dégâts acide", "entity name")
-t("stave inc damage lightning", "bâton aug dégâts foudre", "entity name")
-t("stave inc damage arcane", "bâton aug dégâts arcane", "entity name")
-t("stave inc damage nature", "bâton aug dégâts nature", "entity name")
-t("stave inc damage blight", "bâton aug dégâts maladie", "entity name")
-t("stave inc damage light", "bâton aug dégâts lumière", "entity name")
-t("stave inc damage darkness", "bâton aug dégâts obscurité", "entity name")
-t("stave inc damage temporal", "bâton aug dégâts temporel", "entity name")
-t("stave resists pen physical", "bâton pén résist physique", "entity name")
-t("stave resists pen mind", "bâton pén résist mental", "entity name")
-t("stave resists pen fire", "bâton pén résist feu", "entity name")
-t("stave resists pen cold", "bâton pén résist froid", "entity name")
-t("stave resists pen acid", "bâton pén résist acide", "entity name")
-t("stave resists pen lightning", "bâton pén résist foudre", "entity name")
-t("stave resists pen arcane", "bâton pén résist arcane", "entity name")
-t("stave resists pen nature", "bâton pén résist nature", "entity name")
-t("stave resists pen blight", "bâton pén résist maladie", "entity name")
-t("stave resists pen light", "bâton pén résist lumière", "entity name")
-t("stave resists pen darkness", "bâton pén résist obscurité", "entity name")
-t("stave resists pen temporal", "bâton pén résist temporel", "entity name")
+t("stave inc damage physical", "bâton augm. dégâts physiques", "entity name")
+t("stave inc damage mind", "bâton augm. dégâts mentaux", "entity name")
+t("stave inc damage fire", "bâton augm. dégâts feu", "entity name")
+t("stave inc damage cold", "bâton augm. dégâts froid", "entity name")
+t("stave inc damage acid", "bâton augm. dégâts acide", "entity name")
+t("stave inc damage lightning", "bâton augm. dégâts foudre", "entity name")
+t("stave inc damage arcane", "bâton augm. dégâts arcane", "entity name")
+t("stave inc damage nature", "bâton augm. dégâts nature", "entity name")
+t("stave inc damage blight", "bâton augm. dégâts maladie", "entity name")
+t("stave inc damage light", "bâton augm. dégâts lumière", "entity name")
+t("stave inc damage darkness", "bâton augm. dégâts obscurité", "entity name")
+t("stave inc damage temporal", "bâton augm. dégâts temporel", "entity name")
+t("stave resists pen physical", "bâton pén. rés. physique", "entity name")
+t("stave resists pen mind", "bâton pén. rés. mental", "entity name")
+t("stave resists pen fire", "bâton pén. rés. feu", "entity name")
+t("stave resists pen cold", "bâton pén. rés. froid", "entity name")
+t("stave resists pen acid", "bâton pén. rés. acide", "entity name")
+t("stave resists pen lightning", "bâton pén. rés. foudre", "entity name")
+t("stave resists pen arcane", "bâton pén. rés. arcane", "entity name")
+t("stave resists pen nature", "bâton pén. rés. nature", "entity name")
+t("stave resists pen blight", "bâton pén. rés. maladie", "entity name")
+t("stave resists pen light", "bâton pén. rés. lumière", "entity name")
+t("stave resists pen darkness", "bâton pén. rés. obscurité", "entity name")
+t("stave resists pen temporal", "bâton pén. rés. temporel", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts.lua"
 
 t("spellpower", "puissance des sorts", "entity name")
-t("spellcrit", "crit de sort", "entity name")
-t("spell crit magnitude", "crit de sort magnitude", "entity name")
+t("spellcrit", "crit. de sort", "entity name")
+t("spell crit magnitude", "crit. de sort magnitude", "entity name")
 t("mindpower", "puissance mentale", "entity name")
-t("mindcrit", "crit mental", "entity name")
-t("mind crit magnitude", "crit mental magnitude", "entity name")
+t("mindcrit", "crit. mental", "entity name")
+t("mind crit magnitude", "crit. mental magnitude", "entity name")
 t("phys dam", "dégât phys", "entity name")
-t("phys apr", "pén phys", "entity name")
-t("phys crit", "pén crit", "entity name")
+t("phys apr", "pén.phys", "entity name")
+t("phys crit", "pén. crit", "entity name")
 t("phys atk", "atk phys", "entity name")
-t("phys crit magnitude", "crit phys magnitude", "entity name")
+t("phys crit magnitude", "crit. phys magnitude", "entity name")
 t("acid melee", "mêlée acide", "entity name")
 t("lightning melee", "mêlée de foudre", "entity name")
 t("fire melee", "mêlée de feu", "entity name")
@@ -9954,17 +9946,17 @@ t("armor", "armure", "entity name")
 t("stat str", "stat for", "entity name")
 t("stat wil", "stat vol", "entity name")
 t("stat cun", "stat rus", "entity name")
-t("inc damage physical", "aug dégâts physique", "entity name")
-t("inc damage fire", "aug dégâts feu", "entity name")
-t("inc damage cold", "aug dégâts froid", "entity name")
-t("inc damage acid", "aug dégâts acide", "entity name")
-t("inc damage lightning", "aug dégâts foudre", "entity name")
-t("inc damage arcane", "aug dégâts arcane", "entity name")
-t("inc damage nature", "aug dégâts nature", "entity name")
-t("inc damage blight", "aug dégâts maladie", "entity name")
-t("inc damage light", "aug dégâts lumière", "entity name")
-t("inc damage darkness", "aug dégâts obcurité", "entity name")
-t("inc damage mind", "aug dégâts mental", "entity name")
+t("inc damage physical", "augm. dégâts physique", "entity name")
+t("inc damage fire", "augm. dégâts feu", "entity name")
+t("inc damage cold", "augm. dégâts froid", "entity name")
+t("inc damage acid", "augm. dégâts acide", "entity name")
+t("inc damage lightning", "augm. dégâts foudre", "entity name")
+t("inc damage arcane", "augm. dégâts arcane", "entity name")
+t("inc damage nature", "augm. dégâts nature", "entity name")
+t("inc damage blight", "augm. dégâts maladie", "entity name")
+t("inc damage light", "augm. dégâts lumière", "entity name")
+t("inc damage darkness", "aaugm.ug dégâts obcurité", "entity name")
+t("inc damage mind", "augm. dégâts mental", "entity name")
 t("immune stun", "immunité à l'assomement", "entity name")
 t("immune knockback", "immunité au repoussement", "entity name")
 t("immune blind", "immunité à l'aveuglement", "entity name")
@@ -9975,26 +9967,26 @@ t("immune disease", "immunité aux maladies", "entity name")
 t("immune silence", "immunité au silence", "entity name")
 t("immune disarm", "immunité au désarmement", "entity name")
 t("immune cut", "immunité aux entailles", "entity name")
-t("resist physical", "résist phys", "entity name")
-t("resist fire", "résist feu", "entity name")
-t("resist cold", "résist froid", "entity name")
-t("resist acid", "résist acide", "entity name")
-t("resist lightning", "résist foudre", "entity name")
-t("resist arcane", "résist arcane", "entity name")
-t("resist nature", "résist nature", "entity name")
-t("resist blight", "résist maladie", "entity name")
-t("resist light", "résist lumière", "entity name")
-t("resist darkness", "résist obscurité", "entity name")
-t("resist mind", "résist mental", "entity name")
+t("resist physical", "rés. phys", "entity name")
+t("resist fire", "rés. feu", "entity name")
+t("resist cold", "rés. froid", "entity name")
+t("resist acid", "résrésist.ist acide", "entity name")
+t("resist lightning", "rés. foudre", "entity name")
+t("resist arcane", "rés. arcane", "entity name")
+t("resist nature", "rés. nature", "entity name")
+t("resist blight", "rés. maladie", "entity name")
+t("resist light", "rés. lumière", "entity name")
+t("resist darkness", "rés. obscurité", "entity name")
+t("resist mind", "rés. mental", "entity name")
 t("save physical", "sauvegarde physical", "entity name")
 t("save spell", "sauvegarde contre les sorts", "entity name")
 t("save mental", "sauvegarde mentale", "entity name")
 t("mana regeneration", "régénération du mana", "entity name")
 t("stamina regeneration", "régénération de l'endurance", "entity name")
 t("life regeneration", "régénération de vie", "entity name")
-t("increased mana", "augmentation du mana", "entity name")
-t("increased stamina", "augmentation de l'endurance", "entity name")
-t("increased life", "augmentation de la vie", "entity name")
+t("increased mana", "augm. du mana", "entity name")
+t("increased stamina", "augm. de l'endurance", "entity name")
+t("increased life", "augm. de la vie", "entity name")
 t("see invisible", "voir l'invisible", "entity name")
 t("decreased fatigue", "réduction de la fatigue", "entity name")
 t("greater max encumbrance", "encombrement maximal accru", "entity name")
@@ -10135,7 +10127,7 @@ t("voratun", "voratun", "entity short_name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/special-artifacts.lua"
 
-t("Telos Spire of Power", "La flèche de pouvoir de Telos", "entity name")
+t("Telos Spire of Power", "Flèche de pouvoir de Telos", "entity name")
 t("pulsing staff", "bâton pulsant", "_t")
 t("Telos was an extremely powerful mage during the Age of Dusk, hated by his peers and feared by the common folk; he was hunted for a long while. He finally fell from his place of power, Telmur, but his spirit still lingers.", "Telos était un mage extrêmement puissant pendant l'Ere du Crépuscule, détesté par ses pairs et craint par les gens du peuple; il a été chassé pendant longtemps. Il est finalement tombé de son lieu de pouvoir, Telmur, mais son esprit persiste.", "_t")
 t("turn into a corrupted losgoroth (poison, disease, cut and confusion immune; converts half damage into life drain; does not require breath) for 10 turns", "permet de se transformer en un losgoroth corrompu (immunisé contre le poison, les maladies, les coupures et la confusion; convertit la moitié des dégâts drain de vie; ne nécessite pas de respiration) pendant 10 tours", "_t")
@@ -10292,8 +10284,8 @@ t("Untouched by the ravages of time, this fine spun white cloak appears to be cr
 t("Blood-Edge", "Bordure Sanglante", "entity name")
 t("red crystalline sword", "épée rouge cristalline", "_t")
 t([[This deep red sword weeps blood continuously. It was born in the labs of the orcish corrupter Hurik, who sought to make a crystal that would house his soul after death. But his plans were disrupted by a band of sun paladins, and though most died purging his keep of dread minions, their leader Raasul fought through to Hurik's lab, sword in hand. There the two did battle, blade against blood magic, till both fell to the floor with weeping wounds. The orc with his last strength crawled towards his fashioned phylactery, hoping to save himself, but Raasul saw his plans and struck the crystal with his light-bathed sword. It shattered, and in the sudden impulse of energies the steel, crystal and blood were fused into one.
-Now the broken fragments of Raasul's soul are trapped in this terrible artifact, his mind warped beyond all sanity by decades of imprisonment. Only the taste of blood calls him forth, his soul stealing the lifeblood of others to take on physical form again, that he may thrash and wail against the living.]], [[Cette épée d'un rouge profond suinte continuellement du sang. Elle est née dans les laboratoires d'Hurik, le corrupteur orc, qui cherchait à fabriquer un cristal qui abriterait son âme après la mort. Mais ses plans ont été perturbés par une bande de paladins solaire, et bien que la plupart d'entre eux soient morts en purgeant son domaine de ses terribles serviteurs, leur chef Raasul s'est battu jusqu'au laboratoire d'Hurik, épée en main. Là, ils se sont battus, lame contre magie du sang, jusqu'à ce qu'ils tombent tous les deux au sol, les plaies larmoyantes. Avec ses dernières forces, l'orc rampa vers son phylactère façonné, espérant se sauver, mais Raasul vit ses plans et frappa le cristal avec son épée baignée de lumière. Il se brisa, et dans l'impulsion soudaine des énergies, l'acier le cristal et le sang furent fusionnés.
-Désormais, les fragments de l'âme de Raasul sont piégés dans ce terrible artefact, son esprit étant déformé par des décennies d'emprisonnement. Seul le goût du sang l'appelle, son âme volant le sang des autres pour reprendre une forme physique, afin de pouvoir se battre et gémir contre les vivants.]], "_t")
+Now the broken fragments of Raasul's soul are trapped in this terrible artifact, his mind warped beyond all sanity by decades of imprisonment. Only the taste of blood calls him forth, his soul stealing the lifeblood of others to take on physical form again, that he may thrash and wail against the living.]], [[Cette épée d'un rouge profond suinte continuellement du sang. Elle est née dans les laboratoires d'Hurik, le corrupteur orc, qui cherchait à fabriquer un cristal qui abriterait son âme après la mort. Mais ses plans ont été perturbés par une bande de paladins solaire, et bien que la plupart d'entre eux soient morts en purgeant son domaine de ses terribles serviteurs, leur chef Raasul s'est battu jusqu'au laboratoire d'Hurik, épée en main. Là ils se sont battus, lame contre magie du sang, jusqu'à ce qu'ils tombent tous les deux au sol, les plaies larmoyantes. Avec ses dernières forces, l'orc rampa vers son phylactère façonné, espérant se sauver, mais Raasul vit ses plans et frappa le cristal avec son épée baignée de lumière. Il se brisa et dans l'impulsion soudaine des énergies, l'acier, le cristal, et le sang furent fusionnés.
+Désormais les fragments de l'âme de Raasul sont piégés dans ce terrible artefact, son esprit étant déformé par des décennies d'emprisonnement. Seul le goût du sang l'appelle, son âme volant le sang des autres pour reprendre une forme physique, afin de pouvoir se battre et gémir contre les vivants.]], "_t")
 t("15% chance to animate a bleeding foe's blood", "15% de chances d'animer le sang d'un ennemi qui saigne.", "_t")
 t("animated blood", "sang vivant", "_t")
 t("A haze of blood, vibrant and pulsing through the air, possessed by a warped and cracked soul. Every now and then a scream or wail of agony garbles through it, telling of the mindless suffering undergone by its possessor.", "Une brume de sang, vibrante et pulsant dans l'air, possédée par une âme déformée et fissurée. De temps en temps, un cri ou un gémissement d'agonie s'y mêle, témoignant de la souffrance aveugle subie par son possesseur.", "_t")
@@ -18579,7 +18571,7 @@ t("all", "tous", "quest_lumberjack")
 t("most", "la plupart", "_t")
 t("#LIGHT_RED#A lumberjack falls to the ground, dead.", "#LIGHT_RED#Un bûcheron tombe sur le sol, mort.", "logSeen")
 -- ancien texte traduit
-t("all", "tout", "_t")
+t("all", "tous", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/mage-apprentice.lua"
@@ -23012,7 +23004,7 @@ t([[Focus your shadows on a single target. Friendly targets will be defended for
 section "mod-tome/data/talents/cursed/slaughter.lua"
 
 t("Frenzy", "Frénésie", "talent name")
-t("Big", "Grosse", "_t")
+t("Big", "Grande", "_t")
 t("Small", "Petite", "_t")
 -- texte non traduit
 --[==[
@@ -35259,7 +35251,7 @@ t("Reduces all incoming %s damage by %d.", "Réduit tous les dégâts %s reçus 
 t("physical, nature, acid, temporal", "physique, de nature, d'acide, temporel", "_t")
 t("fire, cold, light, arcane", "de feu, de froid, de lumière, d'arcane", "_t")
 t("lightning, blight, mind, darkness", "de foudre, de maladie, d'esprit, d'obscurité", "_t")
-t("all", "tout", "_t")
+t("all", "tous", "_t")
 t("Clear Mind", "Lucidité", "_t")
 t("Nullifies the next %d detrimental mental effects.", "Annule les prochains %d effets mentaux néfastes.", "tformat")
 t("Resonance Field", "Champ de Résonance", "_t")
@@ -36199,7 +36191,7 @@ t("The target is crippled, reducing melee, spellcasting and mind speed by %d%%."
 t("#Target# is crippled.", "#Target# est estropié.", "_t")
 t("#Target# is not crippled anymore.", "#Target# n'est plus estropié.", "_t")
 t("Burrow", "Creuser", "_t")
-t("The target is able to burrow into walls, and additionally has %d more APR and %d%% more physical resistance penetration.", "La cible est capable de creuser dans les murs, et a en plus %d Pén et %d%% pénétration de résistance physique.", "tformat")
+t("The target is able to burrow into walls, and additionally has %d more APR and %d%% more physical resistance penetration.", "La cible est capable de creuser dans les murs, et a en plus %d Pén. et %d%% pénétration de résistance physique.", "tformat")
 t("Reduced Vision", "Déficience Visuelle", "_t")
 t("The target's vision range is decreased by %d.", "La portée visuelle de la cible est réduite de %d.", "tformat")
 t("#Target# is surrounded by a thick smoke.", "#Target# est enveloppé d'une épaisse fumée.", "_t")
@@ -36813,7 +36805,7 @@ t("and folded out of existence", "et a disparu", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/abashed-expanse/objects.lua"
 
-t("Void Star", "Étoile du Néant", "entity name")
+t("Void Star", "Étoile du Vide", "entity name")
 t("tiny black star", "petite étoile noire", "_t")
 t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", "On dirait une toute petite étoile — d'un noir profond — et pourtant, d'une manière ou d'une autre, elle brille.", "_t")
 
@@ -39968,7 +39960,7 @@ t("Zigur", "Zigur", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/trollmire/grids.lua"
 
-t("dirt road", "route boueuse", "entity name")
+t("dirt road", "chemin de terre", "entity name")
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
 t("troll stew", "ragoût de troll", "entity name")
@@ -39981,12 +39973,12 @@ section "mod-tome/data/zones/trollmire/npcs.lua"
 
 t("giant", "géant", "entity type")
 t("Prox the Mighty", "Prox le Puissant", "entity name")
-t("A huge troll, he might move slowly but he does look dangerous nonetheless.", "Un énorme troll, il se déplace peut-être lentement mais il a néanmoins l'air dangereux.", "_t")
-t("and eaten raw", "et mangé tout cru", "_t")
+t("A huge troll, he might move slowly but he does look dangerous nonetheless.", "Un énorme troll, il se déplace peut-être lentement mais il a l'air de vouloir vous transformer en amuse-gueule.", "_t")
+t("and eaten raw", "et dévoré tout cru", "_t")
 t("Prox staggers for a moment. A note seems to drop at his feet.", "Prox titube un instant. Un message semble tomber à ses pieds.", "logSeen")
 t("... and we thought the trollmire was safer now!", "... et nous pensions que le ourbier troll était plus sûr maintenant!", "_t")
 t("Shax the Slimy", "Shax le Visqueux", "entity name")
-t("A huge troll, he seems to be adapted to aquatic life.", "Un énorme troll, il semble adapté à la vie aquatique.", "_t")
+t("A huge troll, he seems to be adapted to aquatic life.", "Un énorme troll qui a l'air bien trop à l'aise dans l'eau.", "_t")
 t("Shax staggers for a moment. A note seems to drop at his feet.", "Shax titube un instant. Un message semble tomber à ses pieds.", "logSeen")
 t("Bill the Stone Troll", "Bill le Troll de Pierre", "entity name")
 t([[Big, brawny, powerful and with a taste for Halfling.
@@ -39994,7 +39986,7 @@ He is wielding a small tree trunk and lumbering toward you.
 This is the troll the notes spoke about, no doubt.]], [[Grand, musclé, puissant, et avec un goût pour les Halfelins.
 Il brandit un petit tronc d'arbre et se dirige lourdement vers vous.
 C'est sans aucun doute le troll dont parlaient les notes.]], "_t")
-t("and clobbered into soup", "et écrasé dans la soupe", "_t")
+t("and clobbered into soup", "et transformé en soupe", "_t")
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("Aluin the Fallen", "Aluin le Déchu", "entity name")
@@ -40213,7 +40205,7 @@ t("Tutorial", "Tutoriel", "_t")
 section "mod-tome/data/zones/unhallowed-morass/grids.lua"
 
 t("Temporal Rift", "Faille Temporelle", "entity name")
-t("The rift leads to another part of the morass.", "La faille mène à une autre partie du marais.", "_t")
+t("The rift leads to another part of the morass.", "La faille mène à une autre partie du marécage.", "_t")
 t("Point Zero", "Point Zéro", "_t")
 t([[The rift has brought you back to Point Zero, and the source of the disturbances.
 A temporal defiler is attacking the town, all the Keepers in range are attacking it!]], [[La faille vous a ramené au Point Zéro, à la source des perturbations.
@@ -40245,7 +40237,7 @@ t("As you vanquish the queen you notice a temporal thread that seems to have bee
 ------------------------------------------------
 section "mod-tome/data/zones/unhallowed-morass/objects.lua"
 
-t("Void Star", "Étoile du Néant", "entity name")
+t("Void Star", "Étoile du Vide", "entity name")
 t("tiny black star", "petite étoile noire", "_t")
 t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", "On dirait une toute petite étoile — d'un noir profond — et pourtant, d'une manière ou d'une autre, elle brille.", "_t")
 
@@ -40259,7 +40251,7 @@ section "mod-tome/data/zones/unremarkable-cave/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("elf", "elfe", "entity subtype")
-t("An Elven woman. She wears a tight robe decorated with symbols of the Sun and the Moon and wields a staff.", "Une elfe. Elle porte une robe moulante ornée de symboles du Soleil et de la Lune et manie un bâton.", "_t")
+t("An Elven woman. She wears a tight robe decorated with symbols of the Sun and the Moon and wields a staff.", "Une elfe. Elle porte une robe moulante ornée de symboles Solaires et Lunaires, et manie un bâton.", "_t")
 t("An orc clad in mail armour, he wields a staff and looks menacing.", "Un orc vêtu d'une cotte de mailles, il manie un bâton et a l'air menaçant.", "_t")
 -- texte non traduit
 --[==[
@@ -40310,7 +40302,7 @@ t("exit to the lost valley", "sortie vers la vallée perdue", "entity name")
 section "mod-tome/data/zones/valley-moon-caverns/objects.lua"
 
 t("tattered paper scrap", "morceau de papier déchiré", "entity name")
-t("A paper scrap, left by somebody named Rassir.", "Un bout de papier, laissé par quelqu'un nommé Rassir.", "_t")
+t("A paper scrap, left by somebody named Rassir.", "Un bout de papier, laissé par laissé par un certain Rassir.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/valley-moon-caverns/zone.lua"
@@ -40423,17 +40415,17 @@ t("ice", "glace", "entity subtype")
 t("polar cap", "calotte polaire", "entity name")
 t("frozen sea", "mer gelée", "entity name")
 t("cold forest", "forêt glaciale", "entity name")
-t("cold thaloren forest", "forêt glaciale thaloren", "entity name")
+t("cold thaloren forest", "forêt thaloren glaciale", "entity name")
 t("thaloren forest", "forêt thaloren", "entity name")
 t("water", "eau", "entity subtype")
-t("deep water", "eau profonde", "entity name")
+t("deep water", "eaux profondes", "entity name")
 t("sea of Eyal", "mer d'Eyal", "entity name")
 t("river", "rivière", "entity name")
 t("lake of Nur", "lac de Nur", "entity name")
 t("sea of Sash", "mer de Sash", "entity name")
 t("lake", "lac", "entity name")
-t("Westreach lake", "Lac de Westreach", "entity name")
-t("Irondeep lake", "Lac d'Irondeep", "entity name")
+t("Westreach lake", "Étendue de l’Ouest", "entity name")
+t("Irondeep lake", "Abîme de Fer", "entity name")
 t("Spellmurk lake", "Lac de Brume-Magie", "entity name")
 t("rockwall", "mur de roche", "entity type")
 t("name", "nom", "entity name")
@@ -40488,10 +40480,10 @@ t([[After walking many hours, you finally reach the end of the way. You are near
 The storm is raging above your head.]], [[Après de longues heures de marche, vous atteignez enfin le bout du chemin. Vous êtes presque au sommet d'un des plus hauts pics que l'on puisse apercevoir.
 La tempête fait rage au-dessus de votre tête.]], "_t")
 t("A gate into Last Hope's graveyard", "Une porte donnant sur le cimetière de Dernier Espoir", "entity name")
-t("Entrance to Rak'shor Pride bastion", "Entrée du bastion de la Fierté de Rak'shor", "entity name")
-t("Entrance to Gorbat Pride bastion", "Entrée du bastion de la Fierté de Gorbat", "entity name")
-t("Entrance to Grushnak Pride bastion", "Entrée du bastion de la Fierté de Grushnak", "entity name")
-t("Entrance to Vor Pride bastion", "Entrée du bastion de la Fierté de Vor", "entity name")
+t("Entrance to Rak'shor Pride bastion", "Entrée du bastion de la Fierté Rak'shor", "entity name")
+t("Entrance to Gorbat Pride bastion", "Entrée du bastion de la Fierté Gorbat", "entity name")
+t("Entrance to Grushnak Pride bastion", "Entrée du bastion de la Fierté Grushnak", "entity name")
+t("Entrance to Vor Pride bastion", "Entrée du bastion de la Fierté Vor", "entity name")
 t("Backdoor to the Vor Armoury", "Porte dérobée vers l'Armurerie Vor", "entity name")
 t("Entrance into the sandpit of Briagh", "Entrée dans le repair de sable de Briagh", "entity name")
 t("Cavern leading to the valley of the moon", "Caverne menant à la vallée de la lune", "entity name")
@@ -40557,7 +40549,7 @@ t("__%s[%d] #ORANGE# maintenance ACTION FAILED:  %s", "__%s[%d] #ORANGE# mainten
 section "mod-tome/mod/ai/quests.lua"
 
 t("Protect Limmir from the demons coming from north-east. Hold them off!", "Proteger Limmir des démons venant du Nord Est. Retenez les!", "_t")
-t("This place is corrupted! I will cleanse it! Protect me while I do it!", "Cet endroit est corrompu! Je vais le nettoyer! Protégez-moi pendant que je le fais!", "_t")
+t("This place is corrupted! I will cleanse it! Protect me while I do it!", "Cet endroit est corrompu! Je vais le purifier! Protégez-moi pendant que je le fais!", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/ai/sandworm_tunneler.lua"
@@ -41191,7 +41183,7 @@ t("%s's %s", "%s de %s", "tformat")
 section "mod-tome/mod/class/NPC.lua"
 
 t("#PINK#Your summoned %s disappears.", "#PINK#Votre invocation (%s) disparaît.", "logPlayer")
-t("her", "sa", "_t")
+t("her", "elle", "_t")
 t("him", "lui", "_t")
 t("Killed by you: %s", "Tué par vous: %s", "tformat")
 t("Target: ", "Cible: ", "_t")
@@ -41228,14 +41220,14 @@ t("You see %d more objects.", "Vous voyez %d objets en plus.", "tformat")
 t("%d%% power", "%d%% puissance", "tformat")
 t("%d-%d power", "%d-%d puissance", "tformat")
 t("%s%0.2f/turn", "%s%0.2f/tours", "tformat")
-t("%s, %s apr", "%s, %s pén", "tformat")
-t("%d/%d, %s, %s apr", "%d/%d, %s, %s pén", "tformat")
-t("%s, %d apr, %s damage", "%s, %d pén, %s dégat", "tformat")
-t("%s, %d apr, %s element", "%s, %d pén, %s élément", "tformat")
+t("%s, %s apr", "%s, %s pén.", "tformat")
+t("%d/%d, %s, %s apr", "%d/%d, %s, %s pén.", "tformat")
+t("%s, %d apr, %s damage", "%s, %d pén., %s dégat", "tformat")
+t("%s, %d apr, %s element", "%s, %d pén., %s élément", "tformat")
 t("%s, %s block", "%s, %s bloqué", "tformat")
 t("%s block", "%s bloqué", "tformat")
 t("%s def, %s armour", "%s def, %s armure", "tformat")
-t("%s accuracy, %s apr, %s power", "%s précision, %s pén, %s puissance", "tformat")
+t("%s accuracy, %s apr, %s power", "%s précision, %s pén., %s puissance", "tformat")
 t("worth %0.2f", "vaut %0.2f", "tformat")
 t("dig speed %d turns", "vitesse d'excavation %d tours", "tformat")
 t(" [power %d]", " [puissance %d]", "tformat")
@@ -41321,11 +41313,11 @@ t("No right", "Main droite vide", "log")
 t("#YELLOW#On shield block:#LAST#", "#YELLOW#Sur blocage au bouclier:#LAST#", "_t")
 t("Changes stats: ", "Modif de stats: ", "_t")
 t("Changes resistances: ", "Modif de rés: ", "_t")
-t("all", "tout", "_t")
+t("all", "tous", "_t")
 t("Changes resistances cap: ", "Modif des caps de rés: ", "_t")
 t("Reduce damage by fixed amount: ", "Réduc de dégâts par montant fixe: ", "_t")
 t("Maximum wards: ", "Protections max: ", "_t")
-t("Changes resistances penetration: ", "Modif de pénétration des rés: ", "_t")
+t("Changes resistances penetration: ", "Modif. de pén. des rés.: ", "_t")
 t("Changes damage: ", "Modif des dégâts: ", "_t")
 t("Reduced damage from: ", "Réduc de dégâts: ", "_t")
 t("Talent category bonus: ", "Talent de catégorie bonus: ", "_t")
@@ -41644,16 +41636,16 @@ t("", "", "log")
 
 -- ancien texte traduit
 t("Your antimagic disrupts %s.", "Votre anti-magie perturbe %s.", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée \"%s\"! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête acceptée \"%s\"!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête \"%s\" mise à jour!", "saySimple")
-t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête \"%s\" a échouée!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est finie! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête \"%s\" finie!", "saySimple")
-t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête \"%s\" a échouée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête \"%s\" terminée!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" mise à jour! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est terminée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée '%s'! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête acceptée '%s'!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête '%s' mise à jour!", "saySimple")
+t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête '%s' a échouée!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est finie! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête '%s' finie!", "saySimple")
+t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête '%s' a échouée! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête '%s' terminée!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' mise à jour! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est terminée! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Projectile.lua"
@@ -41806,7 +41798,7 @@ t("Fryjia the Hailstorm", "Fryjia la grêle", "_t")
 t("Riala the Crimson", "Riala la cramoisie", "_t")
 t("Valfren the Rampage", "Valfren le déchaîné", "_t")
 t("%s the %s", "%s le %s", "tformat")
-t(" appear!!", " apparaître!!", "_t")
+t(" appear!!", " apparaît!!", "_t")
 t(" appears!!", " apparaît!!", "_t")
 t("#LIGHT_RED#WARNING! %s appears!!!", "#LIGHT_RED#WARNING! %s apparaît!!!", "log")
 t("The final fight!", "Le combat final!", "_t")
@@ -41853,7 +41845,7 @@ t("#YELLOW_GREEN#__Computed tactics: %s", "#YELLOW_GREEN#__Tactiques calculées:
 section "mod-tome/mod/class/interface/ActorInscriptions.lua"
 
 t("You are unable to use this kind of inscription.", "Vous ne pouvez pas utiliser ce type d'inscription.", "logPlayer")
-t("You already have too many of this inscription.", "Vous avez déjà beaucoup trop de cette inscription.", "logPlayer")
+t("You already have too many of this inscription.", "Vous avez déjà beaucoup trop de ce type d'inscription.", "logPlayer")
 t("You have no more inscription slots.", "Vous n'avez plus d'emplacements d'inscription.", "logPlayer")
 t("You are now inscribed with %s.", "Vous êtes maintenant inscrit avec %s.", "logPlayer")
 t("Your %s is depleted!", "Votre est épuisé!", "logPlayer")
@@ -41890,10 +41882,10 @@ t("#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at tar
 t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#Vous ne POUVIEZ PAS TIRER sur votre %s (Ressource: %s%s#LAST#).", "logPlayer")
 t("%s(%d parried#LAST#)", "%s(%d parée#LAST#)", "tformat")
 t("#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "#{bold}##Source# effectue une frappe critique à distance contre #Target#!#{normal}#", "logCombat")
-t("#Source# misses #target#.", "#Source# manque #target#.", "logCombat")
+t("#Source# misses #target#.", "#Source# rate #target#.", "logCombat")
 t("The siege arrow creates a shockwave!", "La flèche de siège crée une onde de choc!", "logSeen")
 t("You are disarmed!", "Vous êtes désarmé!", "logPlayer")
-t("You must wield a ranged weapon (%s)!", "Vous devez manier une arme à distance (%s)!", "logPlayer")
+t("You must wield a ranged weapon (%s)!", "Vous devez porter une arme à distance (%s)!", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/Combat.lua"
@@ -41907,7 +41899,7 @@ t("#ORCHID#%s instinctively hardens %s skin and ignores the attack!#LAST#", "#OR
 t("#Target# repels an attack from #Source#.", "#Target# repousse une attaque de #Source#.", "logCombat")
 t("#Target# evades #Source#.", "#Target# esquive #Source#.", "logCombat")
 t("%s(%d parried#LAST#)", "%s(%d parée#LAST#)", "tformat")
-t("%s(%d gestured#LAST#)", "%s(%d gestes#LAST#)", "tformat")
+t("%s(%d gestured#LAST#)", "%s(%d gesté#LAST#)", "tformat")
 t("#{bold}##Source# performs a melee critical strike against #Target#!#{normal}#", "#{bold}##Source# effectue un coup critique au corps à corps contre #Target#!#{normal}#", "logCombat")
 t("#Source# misses #Target#.", "#Source# loupe #Target#.", "logCombat")
 t("The shattering blow creates a shockwave!", "Le coup violent crée une onde de choc!", "logSeen")
@@ -41923,7 +41915,7 @@ t("%s resists the grapple!", "%s résiste à la prise!", "logSeen")
 section "mod-tome/mod/class/interface/PartyDeath.lua"
 
 t("unknown", "inconnu", "entity name")
-t("her", "sa", "_t")
+t("her", "elle", "_t")
 t("him", "lui", "_t")
 t("herself", "elle-même", "_t")
 t("himself", "lui-même", "_t")
@@ -41932,10 +41924,10 @@ t(" in an act of extreme incompetence", " dans un acte d'incompétence extrême"
 t(" out of supreme humility", " par une humilité suprême", "_t")
 t(", by accident of course,", ", par accident bien sûr,", "_t")
 t(" in some sort of fetish experiment gone wrong", " dans une sorte d'expérience fétichiste qui a mal tourné", "_t")
-t(", providing a free meal to the wildlife", ", offrant un repas gratuit à la faune sauvage", "_t")
+t(", providing a free meal to the wildlife", ", servant de buffet gratuit à la faune sauvage", "_t")
 t(" (how embarrassing)", " (Quelle honte!)", "_t")
 t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s le niveau %d %s %s a été %s à mort par %s%s%s dans le niveau %s de %s.", "tformat")
-t("battered", "malmené", "_t")
+t("battered", "tabassé", "_t")
 t(" (yet again)", " (encore une fois)", "_t")
 t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) a été %s à mort par %s%s sur %s %s.", "tformat")
 t("%s the level %d %s %s %s on level %s of %s.", "%s le niveau %d %s %s %s dans le niveau %s de %s.", "tformat")
@@ -41968,7 +41960,7 @@ t("at door", "à la porte", "_t")
 t("something interesting", "quelque chose d'intéressant", "_t")
 t("interesting terrain", "terrain intéressant", "_t")
 t("Running...", "Cours...", "_t")
-t("You are exploring, press any key to stop.", "Vous êtes en exploration, appuyez sur une touche pour vous arrêter.", "_t")
+t("You are exploring, press any key to stop.", "Exploration en cours, appuyez sur une touche pour vous arrêter.", "_t")
 t("checked door", "porte vérifiée", "_t")
 t("at %s", "à %s", "tformat")
 t("at object (diggable)", "à l'objet (creusable)", "_t")
@@ -41977,16 +41969,16 @@ t("the path is blocked", "Le chemin est bloqué", "_t")
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PlayerQuestPopup.lua"
 
-t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée \"%s\"! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête acceptée \"%s\"!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" mise à jour! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête \"%s\" mise à jour!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est terminée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête \"%s\" terminée!", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête \"%s\" est finie! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête \"%s\" finie!", "saySimple")
-t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête \"%s\" a échouée! #WHITE#(Appuyez sur \"j\" pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête \"%s\" a échouée!", "saySimple")
+t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée '%s'! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête acceptée '%s'!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' mise à jour! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête '%s' mise à jour!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est terminée! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête '%s' terminée!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est finie! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête '%s' finie!", "saySimple")
+t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête '%s' a échouée! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
+t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête '%s' a échouée!", "saySimple")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/TooltipsData.lua"
@@ -42670,7 +42662,7 @@ Reduces the amount of effective resistance of your foes to any damage you deal b
 If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
 This stacks with individual damage type penetrations.
 You can never have more than 70% penetration.
-]], [[#GOLD#Pén des résistances: globale#LAST#
+]], [[#GOLD#Pén. des résistances: globale#LAST#
 Réduit la résistance effective de vos ennemis aux dégâts que vous infligez, de ce pourcentage.
 Si vous avez 50% de pénétration contre une créature ayant 50% de résistance, sa résistance effective sera de 25%.
 Cet effet se cumule avec les pénétrations de chaque type de dégâts.
@@ -42680,7 +42672,7 @@ t([[#GOLD#Damage penetration: specific#LAST#
 Reduces the effective resistance of your foes to all damage of this type you deal by this percent.
 If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
 You can never have more than 70% penetration.
-]], [[#GOLD#Pén des résistances: spécifique#LAST#
+]], [[#GOLD#Pén. des résistances: spécifique#LAST#
 Réduit la résistance effective de vos ennemis à tous les dégâts de ce type que vous infligez, de ce pourcentage.
 Si vous avez 50% de pénétration contre une créature ayant 50% de résistance, sa résistance effective sera de 25%.
 Votre pénétration ne peut jamais dépasser 70%.
@@ -43145,7 +43137,7 @@ t("Name", "Nom", "_t")
 t("Donator Feature", "Option de donateur", "_t")
 t("Cosmetic customization is a donator-only feature.", "La customisation cosmétique est une option exclusive aux donateurs.", "_t")
 t("I want to help!", "Je veux aider!", "_t")
-t("Dismiss", "Refuser", "_t")
+t("Dismiss", "Renvoyer", "_t")
 t("Birth Options", "Options de naissance", "_t")
 t("Confirm", "Confirmer", "_t")
 t("Apply the selected cosmetics to %s?", "Appliquer le cosmétique sélectionné à %s?", "tformat")
@@ -43262,7 +43254,7 @@ t("Weapon", "Arme", "_t")
 t("Accuracy     : #00ff00#%s", "Précision        : #00ff00#%s", "tformat")
 t("Damage       : #00ff00#%s", "Dégât            : #00ff00#%s", "tformat")
 t("Block : #00ff00#%s", "Blocage : #00ff00#%s", "tformat")
-t("APR          : #00ff00#%s", "Pén d'armure     : #00ff00#%s", "tformat")
+t("APR          : #00ff00#%s", "Pén. d'armure     : #00ff00#%s", "tformat")
 t("Crit. chance : #00ff00#%s", "Chance crit.     : #00ff00#%s", "tformat")
 t("Crit. power  : #00ff00#%s", "Puissance crit.  : #00ff00#%s", "tformat")
 t("Attack Speed : #00ff00#%s", "Vit. d'attaque   : #00ff00#%s", "tformat")
@@ -43289,9 +43281,9 @@ t("Critical mult.: #00ff00#%s", "Mult. crit      : #00ff00#%s", "tformat")
 t("All damage    : #00ff00#%s", "Tous            : #00ff00#%s", "tformat")
 t("vs ", "contre ", "_t")
 t([[#GOLD#Restance Penetration#LAST#
-Ability to reduce opponent resistances to your damage]], [[#GOLD#Pén des résistances#LAST#
+Ability to reduce opponent resistances to your damage]], [[#GOLD#Pén. des résistances#LAST#
 Capacité à réduire les résistances ennemis à vos dégâts]], "_t")
-t("#LIGHT_BLUE#Damage penetration:", "#LIGHT_BLUE#Pén des résistances:", "_t")
+t("#LIGHT_BLUE#Damage penetration:", "#LIGHT_BLUE#Pén. des résistances:", "_t")
 t("#LIGHT_BLUE#Additional Melee Damage:", "#LIGHT_BLUE#Dégâts de mélée en plus:", "_t")
 t("#LIGHT_BLUE#Additional Ranged Damage:", "#LIGHT_BLUE#Dégâts à distance en plus:", "_t")
 t("Heavy armor", "Armure lourde", "_t")
@@ -43366,13 +43358,13 @@ t("You have #LIGHT_RED#died#LAST#!", "Vous êtes #LIGHT_RED#mort#LAST#!", "_t")
 t([[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
 You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
 ]], [[La mort dans #{bold}#Tales of Maj'Eyal#{normal}# est généralement permanente, mais si vous avez un moyen de résurrection il vous sera proposé dans le menu ci-dessous.
-Vous pouvez copier vos données de personnage dans un fichier pour vous souvenir de lui pour toujours, ou vous pouvez quitter et essayer à nouveau de survivre dans la nature!
+Vous pouvez exporter les données de votre personnage vers un fichier pour vous souvenir de lui pour toujours, ou quitter et tenter une nouvelle fois de survivre dans ces terres sauvages!
 ]], "_t")
 t([[#LIGHT_GREEN#During your game you#WHITE#:
 * %s]], [[#LIGHT_GREEN#Durant votre partie#WHITE#:
 * %s]], "tformat")
 t("#LIGHT_RED#You have %d life(s) left.", "#LIGHT_RED#Vous avez %d vie(s) restante(s).", "tformat")
-t("#LIGHT_RED#You have no more lives left.", "#LIGHT_RED#Vous n'avez plus de vies restante.", "tformat")
+t("#LIGHT_RED#You have no more lives left.", "#LIGHT_RED#Vous n'avez plus de vies.", "tformat")
 t("#LIGHT_RED#From the brink of death you seem to be yanked to another plane.", "#LIGHT_RED#Du bord de la mort, vous semblez être tiré vers un autre plan.", "log")
 t("Message Log", "Journal des messages", "_t")
 t("#LIGHT_BLUE#You resurrect! CHEATER!", "#LIGHT_BLUE#Vous revenez à la vie! TRICHEUR!", "logPlayer")
@@ -43387,9 +43379,9 @@ t("Resurrect by consuming %s", "Ressusciter en consommant %s", "tformat")
 t("Resurrect with Adventurer Mode (%d life(s) left)", "Ressusciter avec le mode Aventure (%d vie(s) restante(s))", "tformat")
 t("Resurrect with Exploration Mode", "Ressuscitez avec le mode Exploration", "_t")
 t("Message/Chat log (allows to talk)", "Journal des messages/discussions (permet de parler)", "_t")
-t("Character dump", "Copier vos données de personnage", "_t")
-t("Restart the same character", "Recommencez le même personnage", "_t")
-t("Restart with a new character", "Recommencez avec un nouveau personnage", "_t")
+t("Character dump", "Exporter le personnage", "_t")
+t("Restart the same character", "Recommencer le même personnage", "_t")
+t("Restart with a new character", "Recommencer avec un nouveau personnage", "_t")
 t("Exit to main menu", "Retour au menu principal", "_t")
 
 ------------------------------------------------
@@ -43407,8 +43399,8 @@ If you feel that the (many) hours you have spent having fun were worth it, pleas
 Donators are also granted a few special features: %s.]], [[Salut, je suis Nicolas (DarkGod), le créateur de ce jeu.
 J'espère sincèrement que vous trouverez mon jeu agréable et que vous continuerez à y jouer pendant encore de nombreuses années !
 
-ToME est gratuit et open-source et le restera, mais cela ne veut pas dire que je peux vivre sans argent, alors je suis venu vous déranger ici et maintenant pour vous prier de faire preuve de générosité.
-Si vous pensez que les (nombreuses) heures que vous avez passées à vous amuser en valaient la peine, veuillez envisager s'il vous plait de faire un don pour l'avenir du jeu.
+ToME est gratuit, open-source, et le restera. Cependant, comme je ne peux pas vivre d'amour et d'eau fraîche, je viens vous déranger pour solliciter votre générosité.
+Si vous estimez que les (nombreuses) heures que vous avez passées à vous amuser en valaient la peine, pensez à faire un don pour assurer l'avenir du jeu.
 
 Les donateurs bénéficient également de quelques avantages particuliers: %s.]], "tformat")
 t(" and ", " et ", "_t")
@@ -43416,7 +43408,7 @@ t([[Thank you for supporting ToME, your donation was greatly appreciated.
 If you want to continue supporting ToME you are welcome to make a new donation or even a reccuring one which helps ensure the future of the game.
 Thank you for your kindness!]], [[Merci de soutenir ToME, votre don a été très apprécié.
 Si vous souhaitez continuer à soutenir ToME, vous pouvez faire un nouveau don ou même un don récurrent qui contribuera à assurer l'avenir du jeu.
-Merci pour votre gentillesse !]], "_t")
+Merci pour votre bienveillance !]], "_t")
 t("Donation amount: ", "Montant du don: ", "_t")
 t("Monthly donation", "Don mensuel", "_t")
 t("Cancel", "Annuler", "_t")
@@ -43442,31 +43434,31 @@ t("Misc", "Divers", "_t")
 t([[Select the graphical mode to display the world.
 Default is 'Modern'.
 When you change it, make a new character or it may look strange.]], [[Sélectionnez le mode graphique pour afficher le monde.
-La valeur par défaut est "Moderne".
+La valeur par défaut est 'Moderne'.
 Lorsque vous le modifiez, créez un nouveau personnage ou cela pourrait vous paraître étrange.]], "_t")
 t("#GOLD##{bold}#Graphic Mode#WHITE##{normal}#", "#GOLD##{bold}#Mode graphique#WHITE##{normal}#", "_t")
 t([[Make the movement of creatures and projectiles 'smooth'. When set to 0 movement will be instantaneous.
 The higher this value the slower the movements will appear.
 
-Note: This does not affect the turn-based idea of the game. You can move again while your character is still moving, and it will correctly update and compute a new animation.]], [[Rendre le mouvement des créatures et des projectiles "fluide". Lorsqu'il est réglé sur 0, le mouvement sera instantané.
-Plus cette valeur est élevée, plus les mouvements seront lents.
+Note: This does not affect the turn-based idea of the game. You can move again while your character is still moving, and it will correctly update and compute a new animation.]], [[Rend le mouvement des créatures et des projectiles 'fluide'. À 0, le mouvement est instantané.
+Plus cette valeur est élevée, plus les mouvements paraissent lents.
 
-Note : Cela n'affecte le jeu au tour par tour. Vous pouvez vous déplacer à nouveau pendant que votre personnage est encore en mouvement, et il mettra correctement à jour et calculera une nouvelle animation.]], "_t")
+Note : Cela n'affecte pas le jeu au tour par tour. Vous pouvez vous déplacer à nouveau pendant que votre personnage est encore en mouvement, et il mettra correctement à jour et calculera une nouvelle animation.]], "_t")
 t("#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "#GOLD##{bold}#Mouvement fluide des créatures#WHITE##{normal}#", "_t")
 t("Enter movement speed(lower is faster)", "Entrez la vitesse de déplacement (plus bas = plus rapide)", "_t")
 t("From 0 to 60", "De 0 à 60", "_t")
 t([[Enables or disables 'twitch' movement.
-When enabled creatures will do small bumps when moving and attacking.#WHITE#]], [[Active ou désactive le mouvement "tréssautant".
-Lorsqu'elle est activé, les créatures font de petites sauts lorsqu'elles se déplacent et attaquent.#WHITE#]], "_t")
+When enabled creatures will do small bumps when moving and attacking.#WHITE#]], [[Active ou désactive le mouvement '"tréssautant'.
+Une fois activé, les créatures font de petites sauts lorsqu'elles se déplacent et attaquent.#WHITE#]], "_t")
 t("#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "#GOLD##{bold}#Mouvement et attaque tréssautant des créatures#WHITE##{normal}#", "_t")
 t("enabled", "activé", "_t")
 t("disabled", "désactivé", "_t")
 t([[Enables smooth fog-of-war.
-Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], [[Activer le brouillard de guerre lisse.
-Le désactiver donnera au brouillard de guerre un aspect "en bloc" mais pourrait augmenter légèrement les performances.#WHITE#]], "_t")
-t("#GOLD##{bold}#Smooth fog of war#WHITE##{normal}#", "#GOLD##{bold}#Brouillard de guerre lisse#WHITE##{normal}#", "_t")
+Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], [[Active le brouillard de guerre fluide.
+Le désactiver rendra le brouillard de guerre 'anguleux', mais peut légèrement améliorer les performances.#WHITE#]], "_t")
+t("#GOLD##{bold}#Smooth fog of war#WHITE##{normal}#", "#GOLD##{bold}#Brouillard de guerre fluide#WHITE##{normal}#", "_t")
 t([[Select the interface look. Metal is the default one. Simple is basic but takes less screen space.
-You must restart the game for the change to take effect.]], [[Sélectionnez l'aspect de l'interface. "Métal" est l'aspect par défaut. Simple est basique mais prend moins d'espace à l'écran.
+You must restart the game for the change to take effect.]], [[Sélectionnez l'aspect de l'interface. 'Métal' est le style par défaut. Simple est basique mais prend moins d'espace à l'écran.
 Vous devez redémarrer le jeu pour que le changement soit pris en compte.]], "_t")
 t("#GOLD##{bold}#Interface Style#WHITE##{normal}#", "#GOLD##{bold}#Style d'interface#WHITE##{normal}#", "_t")
 t("Dark", "Sombre", "_t")
@@ -43475,7 +43467,7 @@ t("Stone", "Pierre", "_t")
 t("Interface style", "Style de l'Interface", "_t")
 t("Select style", "Style d'interface", "_t")
 t([[Select the HUD look. 'Minimalist' is the default one.
-#LIGHT_RED#This will take effect on next restart.]], [[Sélectionnez le style del'HUD. "Minimaliste" est la valeur par défaut.
+#LIGHT_RED#This will take effect on next restart.]], [[Sélectionnez le style de l'HUD. 'Minimaliste' est le style  par défaut.
 #LIGHT_RED#Cela prendra effet lors du prochain redémarrage.]], "_t")
 t("#GOLD##{bold}#HUD Style#WHITE##{normal}#", "#GOLD##{bold}#Style de l'HUD#WHITE##{normal}#", "_t")
 t("Minimalist", "Minimaliste", "_t")
@@ -43485,10 +43477,10 @@ t("The number of lines to display in the combat log (for the Classic HUD).", "Le
 t("#GOLD##{bold}#Log lines#WHITE##{normal}#", "#GOLD##{bold}#Lignes du journal#WHITE##{normal}#", "_t")
 t("Log lines", "Lignes du journal", "_t")
 t("From 5 to 50", "De 5 à 50", "_t")
-t("Draw faint lines to separate each grid, making visual positioning easier to see.#WHITE#", "Tracez de fines lignes pour séparer chaque case, ce qui permet un positionnement visuel plus facile à voir.#WHITE#", "_t")
+t("Draw faint lines to separate each grid, making visual positioning easier to see.#WHITE#", "Trace de fines lignes pour séparer chaque case, facilitant le positionnement visuel.#WHITE#", "_t")
 t("#GOLD##{bold}#Display map grid lines#WHITE##{normal}#", "#GOLD##{bold}#Afficher la grille sur la carte#WHITE##{normal}#", "_t")
 t([[Select the fonts look. Fantasy is the default one. Basic is simplified and smaller.
-You must restart the game for the change to take effect.]], [[Sélectionnez l'aspect de la police de charactère. "Fantasy" est celle par défaut. Basic est simplifié et plus petite.
+You must restart the game for the change to take effect.]], [[Sélectionnez le style de la police de charactère. 'Fantasy' est celle par défaut. Basic est simplifié et plus petite.
 Vous devez redémarrer le jeu pour que le changement soit pris en compte.]], "_t")
 t("#GOLD##{bold}#Font Style#WHITE##{normal}#", "#GOLD##{bold}#Style de la police de caractère#WHITE##{normal}#", "_t")
 t("Font style", "Style de la police", "_t")
@@ -43500,28 +43492,28 @@ t("#GOLD##{bold}#Font Size#WHITE##{normal}#", "#GOLD##{bold}#Taille de la police
 t("Font size", "Taille de la police", "_t")
 t("Normal", "Normale", "_t")
 t("Small", "Petite", "_t")
-t("Big", "Grosse", "_t")
+t("Big", "Grande", "_t")
 t([[How many seconds before log and chat lines begin to fade away.
-If set to 0 the logs will never fade away.]], [[Combien de secondes avant que le journal d'évènement et les lignes de discussion ne commencent à s'effacer.
-Si la valeur est 0, le le journal d'évènement ne s'effacera jamais.]], "_t")
-t("#GOLD##{bold}#Log fade time#WHITE##{normal}#", "#GOLD##{bold}#Temps de fondu du journal#WHITE##{normal}#", "_t")
-t("Fade time (in seconds)", "Temps de fondu (en secondes)", "_t")
+If set to 0 the logs will never fade away.]], [[ombre de secondes avant que les lignes du journal et du chat ne commencent à s'estomper.
+Si la valeur est 0, les messages ne disparaîtront jamais.]], "_t")
+t("#GOLD##{bold}#Log fade time#WHITE##{normal}#", "#GOLD##{bold}#Temps d'effacement du journal#WHITE##{normal}#", "_t")
+t("Fade time (in seconds)", "Temps d'effacement (en secondes)", "_t")
 t("From 0 to 20", "De 0 à 20", "_t")
 t([[How long will flying text messages be visible on screen.
-The range is 1 (very short) to 100 (10x slower) than the normal duration, which varies with each individual message.]], [[Pendant combien de temps les messages textuels volants seront-ils visibles à l'écran.
-La fourchette va de 1 (très court) à 100 (10x plus lent) que la durée normale, qui varie selon chaque message individuel.]], "_t")
-t("#GOLD##{bold}#Duration of flying text#WHITE##{normal}#", "#GOLD##{bold}#Durée du texte volant#WHITE##{normal}#", "_t")
+The range is 1 (very short) to 100 (10x slower) than the normal duration, which varies with each individual message.]], [[Durée d'affichage des messages flottants à l'écran.
+La plage va de 1 (très court) à 100 (10x plus lent) que la durée normale, qui varie  individuellement à chaque message.]], "_t")
+t("#GOLD##{bold}#Duration of flying text#WHITE##{normal}#", "#GOLD##{bold}#Durée du texte flottant#WHITE##{normal}#", "_t")
 t("Relative duration", "Durée relative", "_t")
 t("From 1 to 100", "De 1 à 100", "_t")
-t("Uses the icons for status effects instead of text.#WHITE#", "Utiliser les icônes pour les effets de statut au lieu du texte.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons status effects#WHITE##{normal}#", "#GOLD##{bold}#Effets de statut des icônes#WHITE##{normal}#", "_t")
-t("Uses the icons hotkeys toolbar or the textual one.#WHITE#", "Utiliser la barre des icônes de raccourcis clavier ou la barre textuelle.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons hotkey toolbar#WHITE##{normal}#", "#GOLD##{bold}#Barre des icônes de raccourcis clavier#WHITE##{normal}#", "_t")
-t("Number of rows to show in the icons hotkeys toolbar.#WHITE#", "Nombre de lignes à afficher dans la barre des icônes de raccourcis clavier.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons hotkey toolbar rows#WHITE##{normal}#", "#GOLD##{bold}#Lignes de la barre des icônes de raccourcis clavier#WHITE##{normal}#", "_t")
+t("Uses the icons for status effects instead of text.#WHITE#", "Utilise les icônes pour les effets de statut au lieu du texte.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons status effects#WHITE##{normal}#", "#GOLD##{bold}#Icônes des effets de statut#WHITE##{normal}#", "_t")
+t("Uses the icons hotkeys toolbar or the textual one.#WHITE#", "Utilise la barre de raccourcis avec icônes ou la version textuelle.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons hotkey toolbar#WHITE##{normal}#", "#GOLD##{bold}#Barre de raccourcis à icônes#WHITE##{normal}#", "_t")
+t("Number of rows to show in the icons hotkeys toolbar.#WHITE#", "Nombre de lignes à afficher dans la barre de raccourcis à icônes.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons hotkey toolbar rows#WHITE##{normal}#", "#GOLD##{bold}#Lignes de la barre de raccourcis#WHITE##{normal}#", "_t")
 t("Number of icons rows", "Nombre de lignes d'icônes", "_t")
 t("From 1 to 4", "De 1 à 4", "_t")
-t("When you activate a hotkey, either by keyboard or click a visual feedback will appear over it in the hotkeys bar.#WHITE#", "Lorsque vous activez un raccourci clavier, soit par le clavier, soit en cliquant, un retour visuel apparaît au-dessus de celui-ci dans la barre des raccourcis clavier.#WHITE#", "_t")
+t("When you activate a hotkey, either by keyboard or click a visual feedback will appear over it in the hotkeys bar.#WHITE#", "Lorsque vous activez un raccourci, via le clavier ou à la souris, un retour visuel apparaît au-dessus de celui-ci dans la barre de raccourcis.#WHITE#", "_t")
 t("#GOLD##{bold}#Visual hotkeys feedback#WHITE##{normal}#", "#GOLD##{bold}#Retour d'information visuel sur les touches de raccourcis#WHITE##{normal}#", "_t")
 t("When the player or an NPC uses a talent shows a quick popup with the talent's icon and name over its head.#WHITE#", "Lorsque le joueur ou un PNJ utilise un talent, un popup rapide apparaît avec l'icône et le nom du talent au-dessus de sa tête.#WHITE#", "_t")
 t("#GOLD##{bold}#Talents activations map display#WHITE##{normal}#", "#GOLD##{bold}#Affichage de la liste des activations de talents#WHITE##{normal}#", "_t")
@@ -43530,11 +43522,11 @@ t("#GOLD##{bold}#Icons hotkey toolbar icon size#WHITE##{normal}#", "#GOLD##{bold
 t("Icons size", "Taille des icônes", "_t")
 t("From 32 to 64", "De 32 à 64", "_t")
 t([[If disabled lore popups will only appear the first time you see the lore on your profile.
-If enabled it will appear the first time you see it with each character.#WHITE#]], [[Si vous avez désactivé les fenêtres contextuelles sur les chroniques, elles n'apparaîtront que la première fois que vous les verrez sur votre profil.
-Si elles sont activées, elles apparaîtront la première fois que vous les verrez avec chaque personnages.#WHITE#]], "_t")
-t("#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "#GOLD##{bold}#Toujours montrer le popup des chroniques#WHITE##{normal}#", "_t")
-t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "Si désactivés, les objets activables ne seront pas automatiquement ajoutés à vos raccourcis clavier. Vous devrez les faire glisser manuellement depuis l'écran d'inventaire.#WHITE#", "_t")
-t("#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "#GOLD##{bold}#Ajoutez toujours les objets aux touches de raccourcis#WHITE##{normal}#", "_t")
+If enabled it will appear the first time you see it with each character.#WHITE#]], [[Si désactivé, les fenêtres contextuelles sur les chroniques n'apparaîtront que la première fois que vous les verrez sur votre profil.
+Si activées, elles apparaîtront la première fois que vous les verrez avec chaque personnages.#WHITE#]], "_t")
+t("#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "#GOLD##{bold}#Toujours afficher le popup des chroniques#WHITE##{normal}#", "_t")
+t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manually drag them from the inventory screen.#WHITE#", "Si désactivés, les objets activables ne seront pas automatiquement ajoutés à vos raccourcis. Vous devrez les faire glisser manuellement depuis l'écran d'inventaire.#WHITE#", "_t")
+t("#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "#GOLD##{bold}#Ajoutez toujours les objets aux raccourcis#WHITE##{normal}#", "_t")
 t([[Toggles between various tactical information display:
 - Combined healthbar and small tactical frame
 - Combined healthbar and big tactical frame
@@ -43542,15 +43534,15 @@ t([[Toggles between various tactical information display:
 - No tactical information at all
 
 #{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]], [[Basculer entre différents affichages d'informations tactiques:
-- Une barre de santé combinée et petit cadre tactique
-- Une barre de santé combinée à un grand cadre tactique
-- Une barre de santé uniquement
+- Barre de santé combinée et petit cadre tactique
+- Barre de santé combinée à un grand cadre tactique
+- Barre de santé uniquement
 - Aucune information tactique
 
-#{italic}#Vous pouvez également changer cela directement en jeu en appuyant sur shift+T.#{normal}##WHITE#]], "_t")
+#{italic}#Vous pouvez également changer cela directement en jeu en appuyant sur Shift+T.#{normal}##WHITE#]], "_t")
 t("#GOLD##{bold}#Tactical overlay#WHITE##{normal}#", "#GOLD##{bold}#Affichage tactique#WHITE##{normal}#", "_t")
 t("Combined Small", "Combiné et Petit", "_t")
-t("Combined Big", "Combiné et Gros", "_t")
+t("Combined Big", "Combiné et Grand", "_t")
 t("Only Healthbars", "Barre de santé uniquement", "_t")
 t("Nothing", "Rien", "_t")
 t("Tactical overlay", "Affichage tactique", "_t")
@@ -43561,11 +43553,11 @@ t("Enabled", "Activé", "_t")
 t("Disabled", "Désactivé", "_t")
 t("Toggles between a bottom or side display for tactial healthbars.#WHITE#", "Permet de basculer entre un affichage en bas ou de côté pour les barres de santé tactiques.#WHITE#", "_t")
 t("#GOLD##{bold}#Healthbars position#WHITE##{normal}#", "#GOLD##{bold}#Position des barres de santé#WHITE##{normal}#", "_t")
-t("Sides", "a coté", "_t")
-t("Bottom", "en bas", "_t")
-t("If disabled you will not get a fullscreen notification of stun/daze effects. Beware.#WHITE#", "Si elle est désactivée, vous n'obtiendrez pas de notification plein écran des effets assomant/étourdissant. Il faut se méfier.#WHITE#", "_t")
+t("Sides", "Cotés", "_t")
+t("Bottom", "Bas", "_t")
+t("If disabled you will not get a fullscreen notification of stun/daze effects. Beware.#WHITE#", "Si désactivée, vous n'aurez pas de notification plein écran des effets assomant/étourdissant. Attention.#WHITE#", "_t")
 t("#GOLD##{bold}#Fullscreen stun/daze notification#WHITE##{normal}#", "#GOLD##{bold}#Notification plein écran des effets assomant/étourdissant#WHITE##{normal}#", "_t")
-t("If disabled you will not get a fullscreen notification of confusion effects. Beware.#WHITE#", "Si elle est désactivé, vous ne recevrez pas de notification plein écran des effets de confusion. Prenez garde.#WHITE#", "_t")
+t("If disabled you will not get a fullscreen notification of confusion effects. Beware.#WHITE#", "Si désactivé, vous n'aurez pas de notification plein écran des effets de confusion. Attention.#WHITE#", "_t")
 t("#GOLD##{bold}#Fullscreen confusion notification#WHITE##{normal}#", "#GOLD##{bold}#Notification plein écran des effets de confusion#WHITE##{normal}#", "_t")
 t("Toggles advanced weapon statistics display.#WHITE#", "Faire basculer l'affichage des statistiques d'armes avancées.#WHITE#", "_t")
 t("#GOLD##{bold}#Advanced Weapon Statistics#WHITE##{normal}#", "#GOLD##{bold}#Statistiques d'armes avancées#WHITE##{normal}#", "_t")
@@ -43573,39 +43565,39 @@ t("Always display the combat properties of gloves even if you don't know unarmed
 t("#GOLD##{bold}#Always show glove combat properties#WHITE##{normal}#", "#GOLD##{bold}#Toujours afficher les propriétés de combat des gants#WHITE##{normal}#", "_t")
 t("Always display combat properties of shields even if you don't know shield attack talents.#WHITE#", "Toujours affichez les propriétés de combat des boucliers même si vous ne connaissez pas les talents d'attaque aux boucliers.#WHITE#", "_t")
 t("#GOLD##{bold}#Always show shield combat properties#WHITE##{normal}#", "#GOLD##{bold}#Toujours affichez les propriétés de combat des boucliers#WHITE##{normal}#", "_t")
-t("When you do a mouse gesture (right click + drag) a color coded trail is displayed.#WHITE#", "Lorsque vous faites un mouvement de souris (clic droit + glisser), une trainée de couleur s'affiche.#WHITE#", "_t")
+t("When you do a mouse gesture (right click + drag) a color coded trail is displayed.#WHITE#", "Lorsque vous faites un mouvement à la souris (clic droit + glisser), une trainée de couleur s'affiche.#WHITE#", "_t")
 t("#GOLD##{bold}#Display mouse gesture trails#WHITE##{normal}#", "#GOLD##{bold}#Afficher les mouvement de souris#WHITE##{normal}#", "_t")
-t("If enabled new quests and quests updates will display a big popup, if not a simple line of text will fly on the screen.#WHITE#", "Si elles sont activées, les nouvelles quêtes et les mises à jour des quêtes afficheront une grande fenêtre contextuelle, sinon une simple ligne de texte s'affichera à l'écran.#WHITE#", "_t")
+t("If enabled new quests and quests updates will display a big popup, if not a simple line of text will fly on the screen.#WHITE#", "Si activé, les nouvelles quêtes et les mises à jour des quêtes afficheront une grande fenêtre contextuelle, sinon une simple ligne de texte s'affichera à l'écran.#WHITE#", "_t")
 t("#GOLD##{bold}#Big Quest Popups#WHITE##{normal}#", "#GOLD##{bold}#Affichage de grande fenêtre contextuelle#WHITE##{normal}#", "_t")
-t("Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "Activez les mouvements avec WASD. Peut être utilisé pour se déplacer en diagonale en appuyant sur deux directions à la fois.#WHITE#", "_t")
-t("#GOLD##{bold}#Enable WASD movement keys#WHITE##{normal}#", "#GOLD##{bold}#Activez les mouvements avec WASD#WHITE##{normal}#", "_t")
-t("Sharpen Visuals, set to 0 to disable.#WHITE#", "Affiner les visuels, mettre à 0 pour les désactiver.#WHITE#", "_t")
-t("#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "#GOLD##{bold}#Affiner les visuels#WHITE##{normal}#", "_t")
-t("Enter Sharpen Power", "Entrez la force de l'affinage", "_t")
+t("Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "Activer les mouvements avec WASD. Peut être utilisé pour se déplacer en diagonale en appuyant sur deux directions à la fois.#WHITE#", "_t")
+t("#GOLD##{bold}#Enable WASD movement keys#WHITE##{normal}#", "#GOLD##{bold}#Activer les mouvements avec WASD#WHITE##{normal}#", "_t")
+t("Sharpen Visuals, set to 0 to disable.#WHITE#", "Netteté visuelle, mettre à 0 pour les désactiver.#WHITE#", "_t")
+t("#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "#GOLD##{bold}#Netteté visuelle#WHITE##{normal}#", "_t")
+t("Enter Sharpen Power", "Entrer la force de la netteté", "_t")
 t("From 0(disable) to 10", "De 0(désactivé) à 10", "_t")
 t("Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#", "Définit la distance à partir du bord de l'écran à laquelle le défilement commence. Si elle est suffisamment élevée, le jeu sera toujours centré sur le joueur.#WHITE#", "_t")
-t("#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "#GOLD##{bold}#Distance du scrolling#WHITE##{normal}#", "_t")
-t("Scroll distance", "Distance du scrolling", "_t")
+t("#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "#GOLD##{bold}#Distance de défilement#WHITE##{normal}#", "_t")
+t("Scroll distance", "Distance de défilement", "_t")
 t("From 1 to 50", "De 1 à 50", "_t")
-t("If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "Si vous perdez plus que ce pourcentage de vie dans un tour, un avertissement s'affichera et toutes les entrées clé/souris seront ignorées pendant 2 secondes pour éviter les erreurs.#WHITE#", "_t")
+t("If you lose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "Si vous perdez plus que ce pourcentage de vie en un tour, un avertissement s'affichera et toutes les entrées clavier/souris seront ignorées pendant 2 secondes pour éviter les erreurs.#WHITE#", "_t")
 t("#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "#GOLD##{bold}#Avertissement de Santé Perdu#WHITE##{normal}#", "_t")
 t("Life lost percentage (out of max life)", "Pourcentage de santé perdu (sur la santé max)", "_t")
 t("From 1 to 99 (100 to disable)", "De 1 à 99 (100 pour désactiver)", "_t")
 t([[Enables or disables weather effects in some zones.
-Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#]], [[Activer ou désactiver les effets météorologiques dans certaines zones.
-Le fait de le désactiver peut permettre d'obtenir un gain de performances. Cela n'affectera pas les zones déjà visitées.#WHITE#]], "_t")
+Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#]], [[Active ou désactive les effets météorologiques dans certaines zones.
+Le fait de les désactiver peut permettre d'obtenir un gain de performances. Cela n'affectera pas les zones déjà visitées.#WHITE#]], "_t")
 t("#GOLD##{bold}#Weather effects#WHITE##{normal}#", "#GOLD##{bold}#Effets météorologiques#WHITE##{normal}#", "_t")
-t("Enables or disables day/night light variations effects..#WHITE#", "Activer ou désactiver les effets de variations de lumière jour/nuit.#WHITE#", "_t")
-t("#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "#GOLD##{bold}#Cycle de lumière jour/nuit#WHITE##{normal}#", "_t")
-t("Enables easy movement using the mouse by left-clicking on the map.#WHITE#", "Activer les déplacment faciles à l'aide de la souris en cliquant sur la carte avec le bouton gauche.#WHITE#", "_t")
+t("Enables or disables day/night light variations effects..#WHITE#", "Active ou désactive les variations de lumière jour/nuit.#WHITE#", "_t")
+t("#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "#GOLD##{bold}#Cycle jour/nuit#WHITE##{normal}#", "_t")
+t("Enables easy movement using the mouse by left-clicking on the map.#WHITE#", "Active les déplacment facile à la souris en cliquant sur la carte avec le bouton gauche.#WHITE#", "_t")
 t("#GOLD##{bold}#Use mouse to move#WHITE##{normal}#", "#GOLD##{bold}#Utiliser la souris pour se déplacer#WHITE##{normal}#", "_t")
 t([[Enables quick melee targeting.
-Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], [[Activer le ciblage rapide en mêlée.
-Les talents nécéssitant une cible de mêlée auront un ciblage automatique en appuyant sur une touche de direction au lieu d'exiger une confirmation.#WHITE#]], "_t")
-t("#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "#GOLD##{bold}#Ciblage rapide en mêlée#WHITE##{normal}#", "_t")
+Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], [[Active le ciblage rapide au corps à corps.
+Les talents nécessitant une cible au corps à corps seront automatiquement lancés en appuyant sur une touche de direction au lieu d'exiger une confirmation.#WHITE#]], "_t")
+t("#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "#GOLD##{bold}#Ciblage rapide au corps à corps#WHITE##{normal}#", "_t")
 t([[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], [[Active de rapides attaques automatique ciblé en mêlée.
-Les talents qui nécessitent une cible de mêlée cibleront et confirmeront automatiquement s'il n'y a qu'une seule créature hostile aux alentours.#WHITE#]], "_t")
+Talents that require a melee target will automatically target and confirm if there is only one hostile creature around.#WHITE#]], [[Active de rapides attaques automatique ciblé au corps à corps.
+Les talents qui nécessitent une cible au corps à corps cibleront et confirmeront automatiquement s'il n'y a qu'une seule créature hostile aux alentours.#WHITE#]], "_t")
 t("#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "#GOLD##{bold}#Attaque automatique rapide ciblé en mêlée#WHITE##{normal}#", "_t")
 t("Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "Activer le ciblage à la souris. Si les mouvements de la souris sont désactivés, la cible ne changera pas lors de l'incantation d'un sort ou de l'utilisation d'un talent.#WHITE#", "_t")
 t("#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "#GOLD##{bold}#Ciblage à la souris#WHITE##{normal}#", "_t")
@@ -43643,24 +43635,24 @@ This does not affect addons browse and installation which always stays ingame.]]
 Cela n'affecte pas la navigation et l'installation des addons qui restent toujours en jeu.]], "_t")
 t("#GOLD##{bold}#Open links in external browser#WHITE##{normal}#", "#GOLD##{bold}#Ouvrir les liens dans un navigateur externe#WHITE##{normal}#", "_t")
 t([[Enable Discord's Rich Presence integration to show your current character on your currently playing profile on Discord (restart the game to apply).
-#ANTIQUE_WHITE#If you do not use Discord this option doesn't do anything in either state.]], [[Activer l'intégration Rich Presence de Discord pour afficher votre personnage actuel sur votre profil de joueur sur Discord (Nécessite un redémarrage pour prendre effet).
+#ANTIQUE_WHITE#If you do not use Discord this option doesn't do anything in either state.]], [[Active l'intégration Rich Presence de Discord pour afficher votre personnage actuel sur votre profil de joueur sur Discord (Nécessite un redémarrage pour prendre effet).
 #ANTIQUE_WHITE#Si vous n'utilisez pas Discord, cette option n'a aucun effet.]], "_t")
 t("#GOLD##{bold}#Discord's Rich Presence#WHITE##{normal}#", "#GOLD##{bold}#Rich Presence de Discord#WHITE##{normal}#", "_t")
 t([[Keep a copy of your character sheets (not the whole savefile) on the online vault at te4.org.
-For each character you will be given a link to this online character sheet so that you can brag about your heroic deeds or sad deaths to your friends or the whole community.#WHITE#]], [[Conservez une copie de vos fiches de personnage (et non l'ensemble du fichier de sauvegarde) dans le coffre-fort en ligne de te4.org.
+For each character you will be given a link to this online character sheet so that you can brag about your heroic deeds or sad deaths to your friends or the whole community.#WHITE#]], [[Garde une copie de vos fiches de personnage (et non l'ensemble du fichier de sauvegarde) dans le coffre-fort en ligne de te4.org.
 Pour chaque personnage, vous recevrez un lien vers cette fiche de personnage en ligne afin que vous puissiez vous vanter de vos actes héroïques ou de votre triste mort auprès de vos amis et de toute la communauté.#WHITE#]], "_t")
 t("#GOLD##{bold}#Upload characters sheets to the online vault#WHITE##{normal}#", "#GOLD##{bold}#Transférer les feuilles de personnages dans le coffre-fort en ligne#WHITE##{normal}#", "_t")
 t([[Allow various events that are pushed by the server when playing online
 #{bold}#All#{normal}#: Allow all server events (bonus zones, random events, ...)
 #{bold}#Technical help only#{normal}#: Allow administrator to help in case of bugs or weirdness and allows website services (data reset, steam achievements push, ...) to work.
 #{bold}#Disabled#{normal}#: Disallow all.
-#WHITE#]], [[Permettre divers événements poussés par le serveur lorsqu'on joue en ligne
+#WHITE#]], [[Permettre divers événements envoyés par le serveur lorsqu'on joue en ligne
 #{bold}#Tous#{normal}#: Autoriser tous les événements du serveur (zones bonus, événements aléatoires, ...)
 #{bold}#Aide technique uniquement#{normal}#: Permet aux administrateurs d'aider en cas de bugs ou de bizarreries et permettre aux services du site web (réinitialisation des données, récupérations des Succès Steam, ...) de fonctionner.
 #{bold}#Désactiver#{normal}#: Tout désactiver.
 #WHITE#]], "_t")
 t("#GOLD##{bold}#Allow online events#WHITE##{normal}#", "#GOLD##{bold}#Permettre les événements en ligne#WHITE##{normal}#", "_t")
-t("all", "tout", "_t")
+t("all", "tous", "_t")
 t("technical help only", "Aide technique uniquement", "_t")
 t([[Disables all connectivity to the network.
 This includes, but is not limited to:
@@ -43678,7 +43670,7 @@ Note that this setting only affects the game itself. If you use the game launche
 If you do not want that, simply run the game directly: the #{bold}#only#{normal}# use of the launcher is to update the game.
 
 #{bold}##CRIMSON#This is an extremely restrictive setting. It is recommended you only activate it if you have no other choice as it will remove many fun and acclaimed features.
-A full exit and restart of the game is neccessary to apply this setting.#{normal}#]], [[Désactive toute connectivité au réseau.
+A full exit and restart of the game is neccessary to apply this setting.#{normal}#]], [[Désactive toute connectivité réseau.
 Cela inclut, mais n'est pas limité à:
 - Les profils des joueurs: Vous ne pourrez pas vous connecter, vous inscrire
 - Coffre de personnages: vous ne pourrez pas télécharger de personnage dans le coffre en ligne pour montrer votre gloire
@@ -43694,7 +43686,7 @@ Notez que ce paramètre n'affecte que le jeu lui-même. Si vous utilisez le lanc
 Si vous ne le souhaitez pas, il vous suffit de lancer directement le jeu: la seule #{bold}#utilité#{normal}# du lanceur est de à mettre à jour le jeu.
 
 #{bold}##CRIMSON# C'est un réglage extrêmement restrictif. Il est recommandé de ne l'activer que si vous n'avez pas d'autre choix car il supprimera de nombreuses fonctionnalités amusantes et acclamées.
-Une sortie complète et un redémarrage du jeu sont nécessaires pour appliquer ce paramètre.#{normal}#]], "_t")
+Un redémarrage complet du jeu est nécessaire. pour appliquer ce paramètre.#{normal}#]], "_t")
 t("#GOLD##{bold}#Disable all connectivity#WHITE##{normal}#", "#GOLD##{bold}#Désactiver toute connectivité#WHITE##{normal}#", "_t")
 t("yes", "oui", "_t")
 t("no", "non", "_t")
@@ -43707,16 +43699,16 @@ This makes it save more often but the game will use less memory when deep in a d
 
 #LIGHT_RED#Changing this option will not affect already visited zones.
 *THIS DOES NOT MAKE A FULL SAVE EACH LEVEL*.
-#LIGHT_RED#Disabling it is not recommended#WHITE#]], [[Force le jeu à sauver chaque niveau au lieu de chaque zone.
+#LIGHT_RED#Disabling it is not recommended#WHITE#]], [[Force le jeu à sauvegarder à chaque niveau au lieu de chaque zone.
 Cela permet de sauvegarder plus souvent, mais le jeu utilisera moins de mémoire lorsqu'il sera au fond d'un donjon.
 
 #LIGHT_RED#La modification de cette option n'affectera pas les zones déjà visitées.
 *CELA NE PERMET PAS DE SAUVEGARDER CHAQUE NIVEAU*.
 #LIGHT_RED#La désactiver n'est pas recommandé#WHITE#]], "_t")
 t("#GOLD##{bold}#Zone save per level#WHITE##{normal}#", "#GOLD##{bold}#Sauvegarde de zone par niveau#WHITE##{normal}#", "_t")
-t("Disallow boot images that could be found 'offensive'.#WHITE#", "Désactiver les images de démarrage qui pourraient être jugées offensantes.#WHITE#", "_t")
+t("Disallow boot images that could be found 'offensive'.#WHITE#", "Désactiver les images de démarrage qui pourraient être jugées 'offensantes'.#WHITE#", "_t")
 t("#GOLD##{bold}#Censor boot#WHITE##{normal}#", "#GOLD##{bold}#Censure au démarrage#WHITE##{normal}#", "_t")
-t("Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "Remplacer les images des couvre-chefs par des capuchons de cape si une cape est portée#WHITE#", "_t")
+t("Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "Remplace les images des couvre-chefs par des capuchons de cape si une cape est portée#WHITE#", "_t")
 t("#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "#GOLD##{bold}#Montrer les capuchons de cape#WHITE##{normal}#", "_t")
 -- texte non traduit
 --[==[
@@ -43736,23 +43728,23 @@ section "mod-tome/mod/dialogs/GraphicMode.lua"
 
 t("Modern", "Moderne", "_t")
 t("ASCII with background", "ASCII avec arrière-plan", "_t")
-t("Custom Tileset", "Tileset personnalisé", "_t")
+t("Custom Tileset", "Jeu de tuiles personnalisé", "_t")
 t("Old RPG", "Vieux RPG", "_t")
-t("Change graphic mode", "Changer de mode graphique", "_t")
+t("Change graphic mode", "Changer le mode graphique", "_t")
 t([[You can configure the game to use a custom tileset.
 You must place all files of your tileset in a subfolder of the modules's data/gfx/ folder, just like the existing tilesets.
-Each tile must be correctly named according to the existing tilesets.]], [[Vous pouvez configurer le jeu pour utiliser un tileset personnalisé.
-Vous devez placer tous les fichiers de votre tileset dans un sous-dossier du dossier data/gfx/ de modules, tout comme le tileset existants.
-Chaque tile doit être correctement nommée en fonction des tilesets existants.]], "_t")
+Each tile must be correctly named according to the existing tilesets.]], [[Vous pouvez configurer le jeu pour utiliser un jeu de tuiles personnalisé.
+Vous devez placer tous les fichiers de votre jeu de tuiles dans un sous-dossier du dossier data/gfx/ de modules, tout comme le jeu de tuiles existant.
+Chaque tuile doit être correctement nommée en fonction des jeus de tuiles existants.]], "_t")
 t("Folder: ", "Répertoire: ", "_t")
-t("Use moddable tiles (equipment showing on player)", "Utiliser un tileset modifiable (l'équipement est affiché sur le joueur)", "_t")
-t("Use advanced tiles (transitions, wide tiles, ...)", "Utiliser un tileset avancé (transitions, tileset large, ...)", "_t")
-t("Use custom tileset", "Utiliser un tileset personnalisé", "_t")
+t("Use moddable tiles (equipment showing on player)", "Utiliser un jeu de tuiles modifiable (l'équipement est affiché sur le joueur)", "_t")
+t("Use advanced tiles (transitions, wide tiles, ...)", "Utiliser un jeu de tuiles avancé (transitions, tuiles larges, ...)", "_t")
+t("Use custom tileset", "Utiliser un jeu de tuiles personnalisé", "_t")
 t("Cancel", "Annuler", "_t")
 t("Tile size", "Taille", "_t")
 t("From 10 to 128", "De 10 à 128", "_t")
 t("Select style [current: %s]", "Sélection du style [actuel: %s]", "tformat")
-t("Select tiles size [current: %s]", "Taille du tileset [actuel: %s]", "tformat")
+t("Select tiles size [current: %s]", "Taille de tuile [actuel: %s]", "tformat")
 t("Custom", "Personnalisé", "_t")
 -- texte non traduit
 --[==[
@@ -43779,7 +43771,7 @@ t("#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "#LIGHT_RED#Con
 t("Not enough stat points", "Pas assez de points de stats", "_t")
 t("You have no stat points left!", "Vous n'avez plus de points de stats!", "_t")
 t("Stat is at the maximum for your level", "La statistique est au maximum pour votre niveau", "_t")
-t("You cannot increase this stat further until next level!", "Vous ne pouvez pas augmenter cette statistique jusqu'au prochain niveau!", "_t")
+t("You cannot increase this stat further until next level!", "Vous ne pouvez plus augmenter cette statistique jusqu'au prochain niveau!", "_t")
 t("Stat is at the maximum", "La stat est au maximum", "_t")
 t("You cannot increase this stat further!", "Vous ne pouvez pas augmenter davantage cette statistique!", "_t")
 t("You cannot take out more points!", "Vous ne pouvez pas retirer plus de points!", "_t")
@@ -43819,16 +43811,16 @@ Each level you gain 3 new stat points to use.
 You may only increase stats to a natural maximum of 60 or lower (relative to your level).]], [[Les points de statistiques vous permettent d'augmenter vos statistiques de base.
 A chaque niveau vous gagnez 3 nouveaux points de statistiques à utiliser.
 
-Vous ne pouvez augmenter les statistiques que jusqu'à un maximum naturel de 60 ou moins (par rapport à votre niveau).]], "_t")
+Vous ne pouvez augmenter les statistiques que jusqu'à un maximum naturel de 60 (par rapport à votre niveau).]], "_t")
 t([[Class talent points allow you to learn new class talents or improve them.
 Class talents are core to your class and can not be learnt by training.
 
 Each level you gain 1 new class point to use.
 Each five levels you gain one more.
 ]], [[Les points de talent de classe vous permettent d'apprendre de nouveaux talents de classe ou de les améliorer.
-Les talents de classe sont le coeur de votre classe et ne peuvent pas être appris par un entrainement.
+Ces talents sont le coeur de votre classe et ne peuvent pas être appris chez un entraîneur.
 
-Chaque niveau que vous gagnez 1 nouveau point de classe à utiliser.
+À chaque niveau, vous gagnez 1 point de classe.
 Tous les cinq niveaux, vous en gagnez un de plus.
 ]], "_t")
 t([[Generic talent points allow you to learn new generic talents or improve them.
@@ -43839,7 +43831,7 @@ Each five levels you gain one less.
 ]], [[Les points de talent génériques vous permettent d'apprendre de nouveaux talents génériques ou de les améliorer.
 Les talents génériques proviennent de votre classe, de votre race ou de divers entraînements extérieurs que vous pouvez obtenir au cours de vos aventures.
 
-Chaque niveau que vous gagnez 1 nouveau point générique à utiliser.
+À chaque niveau, vous gagnez 1 point générique.
 Tous les cinq niveaux, vous en gagnez un de moins.
 ]], "_t")
 t([[Talent category points allow you to either:
@@ -43890,14 +43882,14 @@ t("Shrug off criticals chance: ", "Bonus de critique ignoré: ", "_t")
 t("Class powers:", "Pouvoirs de classe:", "_t")
 t("Talent Category", "Catégorie de talent", "_t")
 t([[A talent category contains talents you may learn. You gain a talent category point at level 10, 20 and 34. You may also find trainers or artifacts that allow you to learn more.
-A talent category point can be used either to learn a new category or increase the mastery of a known one.]], [[Une catégorie de talents contient des talents que vous pouvez apprendre. Vous gagnez un point de catégorie de talent aux niveaux 10, 20 et 34. Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettent d'en savoir plus.
+A talent category point can be used either to learn a new category or increase the mastery of a known one.]], [[Une catégorie de talents contient des talents que vous pouvez apprendre. Vous gagnez un point de catégorie de talent aux niveaux 10, 20 et 34. Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettent d'en avoir plus.
 Un point de catégorie de talent peut être utilisé pour apprendre une nouvelle catégorie ou augmenter la maîtrise d'une catégorie connue.]], "_t")
 t("Generic talent tree", "Arbres de talents générique", "_t")
-t("A generic talent allows you to perform various utility actions and improve your character. It represents a skill anybody can learn (should you find a trainer for it). You gain one point every level (except every 5th level). You may also find trainers or artifacts that allow you to learn more.", "Un talent générique vous permet d'effectuer diverses actions utilitaires et d'améliorer votre personnage. Cela représente une compétence que tout le monde peut apprendre (si vous trouvez un formateur pour cela). Vous gagnez un point à chaque niveau (sauf tous les 5 niveaux). Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettront d'en savoir plus.", "_t")
+t("A generic talent allows you to perform various utility actions and improve your character. It represents a skill anybody can learn (should you find a trainer for it). You gain one point every level (except every 5th level). You may also find trainers or artifacts that allow you to learn more.", "Un talent générique vous permet d'effectuer diverses actions utilitaires et d'améliorer votre personnage. Cela représente une compétence que tout le monde peut apprendre (si vous trouvez un formateur pour cela). Vous gagnez un point à chaque niveau (sauf tous les 5 niveaux). Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettront d'en avoir plus.", "_t")
 t("Class talent tree", "Arbres de talents de classe", "_t")
-t("A class talent allows you to perform new combat moves, cast spells, and improve your character. It represents the core function of your class. You gain one point every level and two every 5th level. You may also find trainers or artifacts that allow you to learn more.", "Un talent de classe vous permet d'effectuer de nouveaux mouvements de combat, de lancer des sorts et d'améliorer votre personnage. Il représente la fonction principale de votre classe. Vous gagnez un point à chaque niveau et deux tous les cinq niveaux. Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettront d'en savoir plus.", "_t")
+t("A class talent allows you to perform new combat moves, cast spells, and improve your character. It represents the core function of your class. You gain one point every level and two every 5th level. You may also find trainers or artifacts that allow you to learn more.", "Un talent de classe vous permet d'effectuer de nouveaux mouvements de combat, de lancer des sorts et d'améliorer votre personnage. Il représente la fonction principale de votre classe. Vous gagnez un point à chaque niveau et deux tous les cinq niveaux. Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettront d'en avoir plus.", "_t")
 t("This talent was recently learnt; you can still unlearn it.", "Ce talent a été récemment appris; vous pouvez toujours le désapprendre.", "_t")
-t("The last %d %s talents you learnt are always unlearnable.", "Les derniers %d talents %s que vous avez appris sont toujours désapprenables.", "tformat")
+t("The last %d %s talents you learnt are always unlearnable.", "Les derniers %d talents %s que vous avez appris peuvent toujours être désappris.", "tformat")
 t(" generic", "générique", "_t")
 t(" class", " classe", "_t")
 t("This talent can alter the world in a permanent way; as such, you can never unlearn it once known.", "Ce talent peut changer le monde de manière permanente; en tant que tel, vous ne pourrez jamais le désapprendre une fois connu.", "_t")
@@ -43937,7 +43929,7 @@ t("Lua inspect [Trap]", "Lua inspect [Piège]", "_t")
 t("Lua inspect [Projectile]", "Inspection Lua [Projectile]", "_t")
 t("Show inventory", "Afficher l'inventaire", "_t")
 t("Rest a while", "Se reposer un peu", "_t")
-t("Auto-explore", "Explorer automatiquement", "_t")
+t("Auto-explore", "Auto-exploration", "_t")
 t("Inventory", "Inventaire", "_t")
 t("Quest Log", "Journal de quête", "_t")
 t("Inspect Creature", "Inspecter la créature", "_t")
@@ -43960,10 +43952,10 @@ t("none", "aucun", "_t")
 t("Set behavior [current: %s]", "Définir le comportement [actuel: %s]", "tformat")
 t("default", "défaut", "_t")
 t("Set the leash anchor [current: %s]", "Définir l'ancre de laisse [actuelle: %s]", "tformat")
-t("Set the leash distance [current: %d]", "Réglez la distance de la laisse [actuelle: %d]", "tformat")
+t("Set the leash distance [current: %d]", "Définir la distance de la laisse [actuelle: %d]", "tformat")
 t("Define tactical talents usage", "Définir l'utilisation tactique des talents", "_t")
 t("Rename", "Renommer", "_t")
-t("Dismiss", "Refuser", "_t")
+t("Dismiss", "Renvoyer", "_t")
 t("Pet the hound", "Caresser le chien", "_t")
 t("Order: %s", "Ordre: %s", "tformat")
 
@@ -43988,7 +43980,7 @@ section "mod-tome/mod/dialogs/QuestPopup.lua"
 t("#LIGHT_GREEN#New#LAST# Quest!", "#LIGHT_GREEN#Nouvelle#LAST# quête!", "_t")
 t("Quest #AQUAMARINE#Updated!", "Quête #AQUAMARINE#mise à jour!", "_t")
 t("Quest #LIGHT_GREEN#Completed!", "Quête #LIGHT_GREEN#terminée!", "_t")
-t("Quest #LIGHT_GREEN#Done!", "Quête #LIGHT_GREEN#réalisée!", "_t")
+t("Quest #LIGHT_GREEN#Done!", "Quête #LIGHT_GREEN#accomplie!", "_t")
 t("Quest #CIMSON#Failed!", "Quête #CIMSON#échouée!", "_t")
 t("#ANTIQUE_WHITE#Quest: #AQUAMARINE#%s", "#ANTIQUE_WHITE#Quête: #AQUAMARINE#%s", "tformat")
 t("#ANTIQUE_WHITE#(See your Journal for further details or click here)", "#ANTIQUE_WHITE#(Regardez votre journal pour plus de détails ou cliquez ici)", "_t")
@@ -43999,7 +43991,7 @@ section "mod-tome/mod/dialogs/SentientWeapon.lua"
 t("Points left: #00FF00#%d#WHITE#", "Points restant: #00FF00#%d#WHITE#", "_t")
 t([[Keyboard: #00FF00#up key/down key#FFFFFF# to select a stat; #00FF00#right key#FFFFFF# to increase stat; #00FF00#left key#FFFFFF# to decrease a stat.
 Mouse: #00FF00#Left click#FFFFFF# to increase a stat; #00FF00#right click#FFFFFF# to decrease a stat.
-]], [[Clavier: #00FF00#touche haut/touche bas#FFFFFF# pour séléctionner une stat; #00FF00#touche droite#FFFFFF# pour augmenter la stat; #00FF00#touche gauche#FFFFFF# pour diminuer la stat.
+]], [[Clavier: #00FF00#touche haut/bas#FFFFFF# pour séléctionner une stat; #00FF00#touche droite#FFFFFF# pour augmenter la stat; #00FF00#touche gauche#FFFFFF# pour diminuer la stat.
 Souris: #00FF00#clic gauche#FFFFFF# pour augmenter la stat; #00FF00#clic droit#FFFFFF# pour diminuer la stat.
 ]], "_t")
 t("Value", "Valeur", "_t")
@@ -44037,9 +44029,9 @@ t("Right click to inspect.", "Clic droit pour inspecter.", "_t")
 t("Show infos", "Afficher les infos", "_t")
 t("Whisper", "Murmure", "_t")
 t("Ignore", "Ignorer", "_t")
-t("Open profile(in browser)", "Ouvrir le profil (dans le navigateur)", "_t")
+t("Open profile(in browser)", "Ouvrir le profil (navigateur)", "_t")
 t("Report for bad behavior", "Signaler un mauvais comportement", "_t")
-t("Open charsheet(in browser)", "Ouvrir la feuille de caractères (dans le navigateur)", "_t")
+t("Open charsheet(in browser)", "Ouvrir la fiche de personnage (dans le navigateur)", "_t")
 t("User: ", "Utilisateur: ", "tformat")
 t("Ignore user", "Ignorer l'utilisateur", "_t")
 t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de: %s", "tformat")
@@ -44162,12 +44154,12 @@ section "mod-tome/mod/dialogs/TrapsSelect.lua"
 t("Select Traps", "Sélection des pièges", "_t")
 t("Select traps to prepare:", "Séléctionnez les pièges à préparer:", "_t")
 t("starting trap selection dialog", "démarrage de la sélection des pièges", "log")
-t(" (replacing instant trigger)", " (remplacement du déclencheur instantané)", "_t")
+t(" (replacing instant trigger)", " (remplace le déclenchement instantané)", "_t")
 t(" (primed trigger)", " (déclencheur amorcé)", "_t")
 t(" (prepared)", " (préparé)", "_t")
 t(" (preparing)", " (préparation)", "_t")
 t(" (dismantling)", " (démantèlement)", "_t")
-t(" (need more skill)", " (besoin de plus de talent)", "_t")
+t(" (need more skill)", " (compétence insuffisante)", "_t")
 t("%s) Tier %d: %s%s", "%s) Palier %d: %s%s", "tformat")
 t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#Vous ne pouvez pas préparer ce piège: %s.", "logPlayer")
 t("#LIGHT_BLUE#You need more skill to prepare this trap.", "#LIGHT_BLUE#Vous avez besoin de plus de talent pour préparer ce piège.", "logPlayer")
@@ -44212,28 +44204,28 @@ t("Option unlocked: %s", "Option déverrouillée: %s", "tformat")
 section "mod-tome/mod/dialogs/UseItemDialog.lua"
 
 t("You must wear this object to use it!", "Vous devez porter cet objet pour l'utiliser!", "_t")
-t("Drop how many?", "En laisser tomber combien?", "_t")
+t("Drop how many?", "Combien en lâcher?", "_t")
 t("1 to %d", "1 à %d", "tformat")
 t("Attach to item", "Attacher à l'objet", "_t")
-t("You do not have any equipped items that it can be attached to.", "Vous ne disposez d'aucun objet équipé auquel il peut être attaché.", "_t")
+t("You do not have any equipped items that it can be attached to.", "Vous ne disposez d'aucun objet équipé auquel cela peut être attaché.", "_t")
 t("Select which item to attach it to:", "Sélectionnez l'objet auquel l'attacher:", "_t")
 t("Really %s %s", "Vraiment %s %s", "tformat")
-t("Tag object (tagged objects can not be destroyed or dropped)", "Objet étiqueté (les objets étiquetés ne peuvent pas être détruits ou abandonnés)", "_t")
+t("Tag object (tagged objects can not be destroyed or dropped)", "Étiqueter l'objet (les objets étiquetés ne peuvent pas être détruits ou abandonnés)", "_t")
 t("Tag:", "Étiquette:", "_t")
 t("Identify", "Identifier", "_t")
-t("Move to normal inventory", "Le passer dans l'inventaire normal", "_t")
+t("Move to normal inventory", "Déplacer vers l'inventaire normal", "_t")
 t("Use", "Utiliser", "_t")
-t("Wield/Wear", "Manier/Porter", "_t")
-t("Take off", "enlever", "_t")
+t("Wield/Wear", "Équiper", "_t")
+t("Take off", "Déséquiper", "_t")
 t("Detach from item", "Détacher de l'objet", "_t")
 t("Detach tinker", "Detacher la babiole", "_t")
-t("Drop", "Laissez tomber", "_t")
+t("Drop", "Lâcher", "_t")
 t("Transfer to party", "Transferer au groupe", "_t")
 t("%s now", "%s maintenant", "tformat")
 t("Link item in chat", "Afficher l'objet dans le chat", "_t")
 t("Lua inspect", "Inspection Lua", "_t")
-t("Tag", "Étiquette", "_t")
-t("Untag", "Enlever l'étiquette", "_t")
+t("Tag", "Étiqueter", "_t")
+t("Untag", "Désétiqueter", "_t")
 -- texte non traduit
 --[==[
 t("Impossible", "Impossible", "_t")
@@ -44256,36 +44248,36 @@ Check out the keybinding screen in the game menu to bind hotkeys to a key (defau
 Right click or press '~' to configure talent confirmation and automatic use.
 ]], [[Vous pouvez lier un talent non passif à une touche de raccourci en appuyant sur la touche de raccourci correspondante lors de la sélection d'un talent ou en faisant un clic droit sur le talent.
 Consultez l'écran des raccourcis claviers dans le menu pour lier un raccourci clavier à une touche (par défaut, 1-0 plus control, shift ou alt).
-Clic droit ou appuyez sur "~" pour configurer la confirmation et l'utilisation automatique du talent.
+Clic droit ou appuyez sur '~' pour configurer la confirmation et l'utilisation automatique du talent.
 ]], "_t")
 t("Status", "Statut", "_t")
-t("Hotkey", "Raccourci clavier", "_t")
+t("Hotkey", "Raccourci", "_t")
 t("Mouse Click", "Clic de souris", "_t")
 t("Hotkey %s assigned", "Raccourci %s assigné", "tformat")
 t("%s assigned to hotkey %s", "%s assigné au raccourci %s", "tformat")
 t("Unbind", "Désassigner", "_t")
 t("Bind to left mouse click (on a target)", "Assigner au clic gauche de la souris (sur une cible)", "_t")
-t("Bind to middle mouse click (on a target)", "Assigner au clic central de la souris (sur une cible)", "_t")
+t("Bind to middle mouse click (on a target)", "Assigner au clic milieu de la souris (sur une cible)", "_t")
 t("Link in chat", "Lien dans le chat", "_t")
-t("#YELLOW#Disable talent confirmation", "#YELLOW#Confirmation de la sésactiver du talent", "_t")
+t("#YELLOW#Disable talent confirmation", "#YELLOW#Confirmation de la désactivation du talent", "_t")
 t("%sRequest confirmation before using this talent", "%sExiger une confirmation avant d'utiliser ce talent", "tformat")
 t("#YELLOW#Disable ", "#YELLOW#Désactiver ", "_t")
-t("Auto-use when available", "Usage auto si disponible", "_t")
-t("Auto-use when no enemies are visible", "Usage auto lorsqu'aucun ennemi n'est visible", "_t")
-t("Auto-use when enemies are visible", "Usage auto lorsqu'un ennemi est visible", "_t")
-t("Auto-use when enemies are visible and adjacent", "Usage auto lorsqu'un ennemi est visible et adjacent", "_t")
-t("Auto-use when out of combat", "Usage auto en dehors du combat", "_t")
-t("Hotkey ", "Raccourci clavier ", "_t")
+t("Auto-use when available", "Auto-utiliser quand disponible", "_t")
+t("Auto-use when no enemies are visible", "Auto-utiliser quand aucun ennemi n'est visible", "_t")
+t("Auto-use when enemies are visible", "Auto-utiliser quand des ennemis sont visibles", "_t")
+t("Auto-use when enemies are visible and adjacent", "Auto-utiliser quand des ennemis sont visibles et adjacents", "_t")
+t("Auto-use when out of combat", "Auto-utiliser hors combat", "_t")
+t("Hotkey ", "Raccourci ", "_t")
 t("Bind talent: %s", "Assigner le talent: %s", "tformat")
 t("How do you want to bind this talent?", "Comment voulez-vous assigner ce talent?", "_t")
-t("Middle mouse click assigned", "Clic du milieu de la souris assigné", "_t")
-t("%s assigned to middle mouse click on an hostile target.", "%s assigné au clic central de la souris sur une cible hostile.", "tformat")
+t("Middle mouse click assigned", "Clic milieu de la souris assigné", "_t")
+t("%s assigned to middle mouse click on an hostile target.", "%s assigné au clic milieu de la souris sur une cible hostile.", "tformat")
 t("Left mouse click assigned", "Clic gauche de la souris assigné", "_t")
 t("%s assigned to left mouse click on an hostile target.", "%s assigné au clic gauche de la souris sur une cible hostile.", "tformat")
 t("#{bold}#Activable talents#{normal}#", "#{bold}#Talents activables#{normal}#", "_t")
 t("All activable talents you can currently use.", "Tous les talents activables que vous pouvez actuellement utiliser.", "_t")
 t("#{bold}#Object powers#{normal}#", "#{bold}#Pouvoirs d'objet#{normal}#", "_t")
-t("Object powers that can be activated automatically.  Most usable objects will appear here unless they are on cooldown or have ai restrictions.", "Pouvoirs d'objets qui peuvent être activés automatiquement. La plupart des objets utilisables apparaîtront ici sauf s'ils sont en temps de recharge ou s'ils ont des restrictions d'IA.", "_t")
+t("Object powers that can be activated automatically.  Most usable objects will appear here unless they are on cooldown or have ai restrictions.", "Pouvoirs d'objets qui peuvent être activés automatiquement. La plupart des objets utilisables apparaîtront ici sauf s'ils sont en temps de recharge ou soumis à des restrictions d'IA.", "_t")
 t("#{bold}#Sustainable talents#{normal}#", "#{bold}#Talents soutenables#{normal}#", "_t")
 t("All sustainable talents you can currently use.", "Tous les talents soutenables que vous pouvez actuellement utiliser.", "_t")
 t("#{bold}#Sustained talents#{normal}#", "#{bold}#Talents soutenus#{normal}#", "_t")
@@ -44306,52 +44298,52 @@ t("Talent", "Talent", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/WandererSeed.lua"
 
-t("Wanderer Options", "Options de Vagabonds", "_t")
+t("Wanderer Options", "Options du Vagabond", "_t")
 t([[Welcome, wandering one! The Wanderer class uses a randomly selected set of talent trees.
-You can now choose how this set is selected:]], [[Bienvenue, voyageur! La classe Vagabond utilise un ensemble d'arbres de talents sélectionnés aléatoirement.
+You can now choose how this set is selected:]], [[Bienvenue, voyageur! La classe Vagabond utilise un ensemble d'arbres de talents sélectionné aléatoirement.
 Vous pouvez désormais choisir comment cet ensemble est sélectionné:]], "_t")
 t("Simply make a random set of trees, this is the default option. If you want to share it with friends, you will find the seed in the character's sheet later on.", "Créez simplement un ensemble d'arbres aléatoires. c'est l'option par défaut. Si vous souhaitez le partager avec des amis, vous trouverez la graine plus loin dans la fiche de personnage.", "_t")
 t("If an other player gave you a seed to play, you can enter it here. Do note that while a seed will always work, you will only get the same talents set if you use the same DLC/addons.", "Si un autre joueur vous a donné une graine pour jouer, vous pouvez la saisir ici. Veuillez noter que même si une graine fonctionne toujours, vous n'obtiendrez le même ensemble de talents que si vous utilisez les mêmes DLC et extensions.", "_t")
 t("Play!", "Jouer!", "_t")
 t("#{bold}##ANTIQUE_WHITE#Random#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#Aléatoire#{normal}##LAST#", "_t")
 t("#{bold}##ANTIQUE_WHITE#Seed#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#Graine#{normal}##LAST#", "_t")
-t("Wanderer Seed", "Graine de Vagabond", "_t")
-t("The wanderer seed you used was generated for a different set of DLC/addons. Your character will still work fine but you may not have the same talent set as the person that shared the seed with you.", "La graine de vagabond que vous avez utilisée a été générée pour un autre ensemble de DLC et extensions. Votre personnage fonctionnera correctement, mais vous n'aurez peut-être pas les mêmes talents que la personne qui vous a partagé la graine.", "_t")
+t("Wanderer Seed", "Graine du Vagabond", "_t")
+t("The wanderer seed you used was generated for a different set of DLC/addons. Your character will still work fine but you may not have the same talent set as the person that shared the seed with you.", "La graine du vagabond que vous avez utilisée a été générée pour un autre ensemble de DLC et extensions. Votre personnage fonctionnera correctement, mais vous n'aurez peut-être pas les mêmes talents que la personne qui vous a partagé la graine.", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AdvanceActor.lua"
 
-t("DEBUG -- Levelup Actor: [%s] %s", "DEBUG -- Augmentez un personnage: [%s] %s", "tformat")
+t("DEBUG -- Levelup Actor: [%s] %s", "DEBUG -- Monter le niveau de l'acteur: [%s] %s", "tformat")
 t([[Levelup an actor.
 Optionally set Stat levels, learn all talents possible, and gain points to spend on Levelup. 
 The actor is backed up before changes are made.  (Use the "Restore" button to recover.)
-]], [[Augmentez un personnage.
-Définissez éventuellement des niveaux de statistiques, apprenez tous les talents possibles et gagnez des points à dépenser pour Augmenter votre niveau.
-Le personnage est sauvegardé avant que les modifications ne soient apportées. (Utilisez le bouton "Restaurer" pour le récupérer.)
+]], [[Monter le niveau d'un acteur.
+Vous pouvez optionnellement définir les niveaux de statistiques, apprendre tous les talents possibles et gagner des points à dépenser lors de la montée de niveau.
+L'acteur est sauvegardé avant que les changements ne soient appliqués. (Utilisez le bouton 'Restaurer' pour récupérer.)
 ]], "_t")
-t(" Advance to Level: ", " Agmentez le niveau: ", "_t")
-t("Restore: %s (v%d)", "Restorer: %s (v%d)", "tformat")
-t("Restore: none", "Restorer: aucun", "_t")
-t("#LIGHT_BLUE#Restoring [%s]%s from backup version %d", "#LIGHT_BLUE#Restoration [%s]%s de la version de sauvegarde %d", "log")
-t("Gain points for stats, talents, and prodigies (unlimited respec)", "Gagnez des points pour les statistiques, les talents et les prodiges (restructuration illimité)", "_t")
+t(" Advance to Level: ", " Agmentez au niveau: ", "_t")
+t("Restore: %s (v%d)", "Restaurer: %s (v%d)", "tformat")
+t("Restore: none", "Restaurer: aucun", "_t")
+t("#LIGHT_BLUE#Restoring [%s]%s from backup version %d", "#LIGHT_BLUE#Restauration [%s]%s de la version de sauvegarde %d", "log")
+t("Gain points for stats, talents, and prodigies (unlimited respec)", "Gagner des points de stats, talents et prodiges (respec illimité)", "_t")
 t(" Force all BASE stats to: ", " Forcer toutes les stats de BASE à: ", "_t")
 t(" Force all BONUS stats to: ", " Forcer toutes les stats BONUS à: ", "_t")
 t("Learn Talents ", "Apprendre les talents ", "_t")
-t("Unlock & Learn all available talents to level: ", "Débloquez et apprenez tous les talents disponibles au niveau: ", "_t")
+t("Unlock & Learn all available talents to level: ", "Débloquer et Apprendre tous les talents disponibles au niveau: ", "_t")
 t("maximum allowed", "maximum autorisé", "_t")
-t("Ignore requirements", "Ignorer les conditions requises", "_t")
-t("Force all talent mastery levels to (0.1-5.0): ", "Forcer tous les niveaux de maîtrise des talents à (0.1-5.0): ", "_t")
+t("Ignore requirements", "Ignorer les prérequis", "_t")
+t("Force all talent mastery levels to (0.1-5.0): ", "Forcer tous les niveaux de maîtrise de talents à (0.1-5.0): ", "_t")
 t("no change", "aucun changement", "_t")
-t("Unlock all talent types (slow)", "Débloquez tous les types de talents (lent)", "_t")
+t("Unlock all talent types (slow)", "Débloquer tous les types de talents (lent)", "_t")
 t("Accept", "Accepter", "_t")
 t("Cancel", "Annuler", "_t")
 t("#LIGHT_BLUE#AdvanceActor inputs: %s", "#LIGHT_BLUE#Entrées AdvanceActor: %s", "log")
-t("%s #GOLD#Forcing all Base Stats to %s", "%s #GOLD#Forcer toutes les statistiques de base à %s", "log")
+t("%s #GOLD#Forcing all Base Stats to %s", "%s #GOLD#Forcer toutes les stats de base à %s", "log")
 t("%s #GOLD#Resetting all talents_types_mastery to %s", "%s #GOLD#Réinitialiser tous les talents_types_mastery à %s", "log")
 t("%s #GOLD#Unlocking All Talent Types", "%s #GOLD#Débloquer tous les types de talents", "log")
-t("#GOLD#Checking %s Talents (%s)", "#GOLD#Vérification des talents de %s (%s)", "log")
+t("#GOLD#Checking %s Talents (%s)", "#GOLD#Vérification des talents %s (%s)", "log")
 t("#LIGHT_BLUE#Talent %s learned to level %d", "#LIGHT_BLUE#Talent %s appris au niveau %d", "log")
-t("%s #GOLD#Forcing all Bonus Stats to %s", "%s #GOLD#Forcer toutes les statistiques bonus à %s", "log")
+t("%s #GOLD#Forcing all Bonus Stats to %s", "%s #GOLD#Forcer toutes les stats bonus à %s", "log")
 t("%d stat point(s)", "%d point(s) de stats", "tformat")
 t("%d class talent point(s)", "%d point(s) de classe de talent", "tformat")
 t("%d generic talent point(s)", "%d point(s) de talent générique", "tformat")
@@ -44369,20 +44361,20 @@ t("#LIGHT_BLUE#%s -- %s", "#LIGHT_BLUE#%s -- %s", "log")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AdvanceZones.lua"
 
-t("Advance Through Zones", "Avancer à travers les zones", "_t")
-t("Enter a comma delimited list of zones or zone tiers to clear", "Entrez une liste délimitée par des virgules de zones ou de niveaux de zone à effacer", "_t")
+t("Advance Through Zones", "Avancer dans les zones", "_t")
+t("Enter a comma delimited list of zones or zone tiers to clear", "Entrez une liste délimitée par des virgules des zones ou paliers de zone à nettoyer (nom du fichier de la zone)", "_t")
 t("%s:  Level %0.2f to %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "%s:  Niveau %0.2f à %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "tformat")
-t("#RED#Low value items have been dropped on the ground.#LAST#", "#RED#Des objets de faible valeur ont été déposés sur le sol.#LAST#", "log")
+t("#RED#Low value items have been dropped on the ground.#LAST#", "#RED#Les objets de faible valeur ont été déposés sur le sol.#LAST#", "log")
 t("Unable to level change to floor 1 of %s", "Impossible de changer le niveau à l'étage 1 de %s", "log")
-t("%s is not valid for autoclear", "%s n'est pas valide pour le nettoyage automatique", "log")
+t("%s is not valid for autoclear", "%s n'est pas valide pour l'autonettoyage", "log")
 t("Unable to level change to floor %d of %s", "Impossible de modifier le niveau de l'étage %d de %s", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AlterFaction.lua"
 
-t("DEBUG -- Alter Faction", "DEBUG -- Modifier la faction", "_t")
+t("DEBUG -- Alter Faction", "DEBUG -- Modifier une faction", "_t")
 t("Alter: %s", "Modifier: %s", "tformat")
-t("Alter to which state:", "Modifier en quel état:", "_t")
+t("Alter to which state:", "Modifier vers quel état:", "_t")
 t("friendly", "amical", "_t")
 t("neutral", "neutre", "_t")
 t("hostile", "hostil", "_t")
@@ -44390,7 +44382,7 @@ t("hostile", "hostil", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/ChangeZone.lua"
 
-t("DEBUG -- Change Zone", "DEBUG -- Changer de Secteur", "_t")
+t("DEBUG -- Change Zone", "DEBUG -- Changer de Zone", "_t")
 t("Zone: %s", "Secteur: %s", "tformat")
 t("Level %s-%s", "Niveau %s-%s", "tformat")
 
@@ -44402,7 +44394,7 @@ t("Load from other zones ", "Charger à partir d'autres zones ", "_t")
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
  %s]], [[#ORANGE# Création d'objet: Impossible de charger tous les objets du fichier %s:#GREY#
  %s]], "log")
-t("Generate examples (right-click refreshes) ", "Générer des exemples (actualisations par clic droit) ", "_t")
+t("Generate examples (right-click refreshes) ", "Générer des exemples (clic droit pour rafraîchir) ", "_t")
 t("#CRIMSON#==Resolved Example==#LAST#", "#CRIMSON#==Exemple résolu==#LAST#", "_t")
 t([[#LIGHT_BLUE#Object %s could not be generated or identified. Error:
 %s]], [[#LIGHT_BLUE#L'objet %s n'a pas pu être généré ou identifié. Erreur:
@@ -44411,8 +44403,8 @@ t("Object could not be resolved/identified.", "L'objet n'a pas pu être résolu/
 t([[Error:
 %s]], [[Erreur:
 %s]], "tformat")
-t("#LIGHT_BLUE#Could not add object to %s at (%d, %d)", "#LIGHT_BLUE#Impossible d'ajouter l'objet à %s à (%d, %d)", "log")
-t("#LIGHT_BLUE#No creature to add object to at (%d, %d)", "#LIGHT_BLUE#Aucune créature à laquelle ajouter un objet à (%d, %d)", "log")
+t("#LIGHT_BLUE#Could not add object to %s at (%d, %d)", "#LIGHT_BLUE#Impossible d'ajouter un objet à %s à (%d, %d)", "log")
+t("#LIGHT_BLUE#No creature to add object to at (%d, %d)", "#LIGHT_BLUE#Aucune créature où ajouter l'objet en (%d, %d)", "log")
 t("#LIGHT_BLUE#No object to create", "#LIGHT_BLUE#Aucun objet à créer", "log")
 t("Place Object", "Placer un objet", "_t")
 t("Place the object where?", "Où placer l'objet?", "_t")
@@ -44422,8 +44414,8 @@ t("Drop @ (%s, %s)%s", "Lâcher @ (%s, %s)%s", "tformat")
 t("#LIGHT_BLUE#Dropped %s at (%d, %d)", "#LIGHT_BLUE#Lâcher %s à (%d, %d)", "log")
 t("NPC Inventory", "Inventaire du PNJ", "tformat")
 t("Cancel", "Annuler", "tformat")
-t("#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "#LIGHT_BLUE#OBJET:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, emplacement %s} at (%s, %s)#LAST#", "log")
-t("Number of items to make", "Nombre d'objets à fabriquer", "_t")
+t("#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "#LIGHT_BLUE#OBJET:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, emplacement %s} en (%s, %s)#LAST#", "log")
+t("Number of items to make", "Nombre d'objets à créer", "_t")
 t("Enter 1-100%s", "De 1-100%s", "tformat")
 t(", or 0 for the example item", ", ou 0 pour créer un exemple", "_t")
 t("#LIGHT_BLUE# Creating %d items:", "#LIGHT_BLUE# Créeation de %d objets:", "log")
@@ -44432,7 +44424,7 @@ t("#LIGHT_BLUE#Created %s", "#LIGHT_BLUE#Crée %s", "log")
 t("Greater Ego", "Grand Ego", "_t")
 t("Add a greater ego enhancement if possible?", "Ajouter un grand ego si possible?", "_t")
 t(" #GOLD#All Artifacts#LAST#", " #GOLD#Tous les Artefacts#LAST#", "_t")
-t("#LIGHT_BLUE#Creating All Artifacts.", "#LIGHT_BLUE#Créer tous les artefacts.", "log")
+t("#LIGHT_BLUE#Creating All Artifacts.", "#LIGHT_BLUE#Création de tous les artefacts.", "log")
 t("#LIGHT_BLUE#%d artifacts created.", "#LIGHT_BLUE#%d artefacts créés.", "log")
 t(" #YELLOW#Random Object#LAST#", " #YELLOW#Objet aléatoire#LAST#", "_t")
 -- texte non traduit
