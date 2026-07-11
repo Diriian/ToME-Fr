@@ -88,7 +88,7 @@ t("Addon init.lua must contain a tags table, i.e: tags={'foo', 'bar'}", "L'addon
 t("Addon init.lua must contain a description field", "L'addon init.lua doit contenir un champ description", "_t")
 t("Addon #LIGHT_GREEN#%s#LAST# registered. You may now upload a version for it.", "L'addon #LIGHT_GREEN#%s#LAST# est enregistré. Vous pouvez maintenant uploader une version.", "tformat")
 t("Addon #LIGHT_RED#%s#LAST# not registered: %s", "L'addon #LIGHT_RED#%s#LAST# n'est pas enregistré: %s", "tformat")
-t("unknown reason", "Raison inconnue", "_t")
+t("unknown reason", "raison inconnue", "_t")
 t("Uploading addon", "Upload de l'addon", "_t")
 t("Addon #LIGHT_GREEN#%s#LAST# uploaded, players may now play with it!", "L'addon #LIGHT_GREEN#%s#LAST# est uploadé, les joueurs peuvent maintenant jouer avec!", "tformat")
 t("Addon #LIGHT_RED#%s#LAST# not upload: %s", "L'addon #LIGHT_RED#%s#LAST# n'est pas uploadé: %s", "tformat")
