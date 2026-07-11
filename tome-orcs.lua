@@ -3298,7 +3298,7 @@ section "tome-orcs/data/lore/pocket-time.lua"
 t("him", "lui", "_t")
 t("he", "il", "_t")
 t("his", "son", "_t")
-t("her", "sa", "_t")
+t("her", "elle", "_t")
 t("she", "elle", "_t")
 -- texte non traduit
 --[==[

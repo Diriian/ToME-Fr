@@ -49,7 +49,7 @@ section "mod-boot/data/general/grids/water.lua"
 
 t("floor", "sol", "entity type")
 t("water", "eau", "entity subtype")
-t("deep water", "eau profonde", "entity name")
+t("deep water", "eaux profondes", "entity name")
 
 ------------------------------------------------
 section "mod-boot/data/general/npcs/canine.lua"
