@@ -481,16 +481,16 @@ t("Defilers are touched by the mark of evil. They are a blight on the world. Wor
 t("Reaver", "Moissoneur", "birth descriptor name")
 t("Reap thee the souls of thine enemies, and the powers of darkness shall enter thy flesh.", "Fauche les âmes de tes ennemis, et le pouvoir des ténèbres pénétrera ta chair.", "_t")
 t("Reavers are terrible foes, charging their enemies with a weapon in each hand.", "Les moissoneurs sont de terribles adversaires, chargeant leurs ennemis avec une arme dans chaque main.", "_t")
-t("They can harness the blight of evil, infecting their foes with terrible contagious diseases while crushing their skulls with devastating combat techniques.", "Ils peuvent infliger la corruption du mal, infectant leurs ennemis avec des maladies terriblement contagieuses tout en écrasant leurs crânes avec des techniques de combat dévastatrices.", "_t")
+t("They can harness the blight of evil, infecting their foes with terrible contagious diseases while crushing their skulls with devastating combat techniques.", "Ils peuvent tirer parti du fléau du mal, infectant leurs ennemis avec des maladies terriblement contagieuses tout en écrasant leurs crânes avec des techniques de combat dévastatrices.", "_t")
 t("Their most important stats are: Strength and Magic", "Leurs stats les plus importantes sont: Force et Magie", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
 t("#LIGHT_BLUE# * +4 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +4 Force, +1 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 Magie, +0 Volonté, +0 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
 t("Corruptor", "Corrupteur", "birth descriptor name")
-t("Blight and depravity hold the greatest powers. Accept temptation and become one with corruption.", "La corruption et la dépravation détiennent les plus grandes des puissances. Acceptez la tentation et ne faite plus qu'un avec la corruption.", "_t")
+t("Blight and depravity hold the greatest powers. Accept temptation and become one with corruption.", "Le fléau et la dépravation détiennent les plus grandes des puissances. Acceptez la tentation et ne faite plus qu'un avec la corruption.", "_t")
 t("A corruptor is a terrible foe, wielding dark magics that can sap the very soul of her target.", "Un corrupteur est un terrible adversaire, maniant les magies obscures pouvant souiller l'âme même de leur cible.", "_t")
-t("They can harness the blight of evil, crushing souls, stealing life force to replenish themselves.", "Ils peuvent utiliser la souillure du mal, détruisant les âmes, volant la force vitale pour se régénérer eux-mêmes.", "_t")
+t("They can harness the blight of evil, crushing souls, stealing life force to replenish themselves.", "Ils peuvent utiliser le fléau du mal, détruisant les âmes, volant la force vitale pour se régénérer eux-mêmes.", "_t")
 t("The most powerful corruptors can even take on some demonic aspects for themselves.", "Les corrupteurs les plus puissants peuvent même aller jusqu'à prendre quelques aspects démoniaques pour eux-mêmes.", "_t")
 t("Their most important stats are: Magic and Willpower", "Leurs stats les plus importantes sont: Magie et Volonté", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +2 Constitution", "_t")
@@ -1185,7 +1185,7 @@ t("Redhead Mustache 2", "Moustache Rousse 2", "_t")
 t("Higher", "Noble", "birth descriptor name")
 t("Highers are a special branch of Humans that have been imbued with latent magic since the Age of Allure.", "Les nobles sont une branche spéciale des humains qui a été imprégnée par une magie latente durant l'ère de la séduction.", "_t")
 t("They usually do not breed with other Humans, trying to keep their blood 'pure'.", "Ils ne se mélangent habituellement pas avec les autres humains, essayant de garder leur sang \"pur\".", "_t")
-t("They possess the #GOLD#Wrath of the Highborn#WHITE# which allows them to increase damage dealt and decrease damage taken once in a while.", "Ils possèdent la #GOLD#Colère des Bien-Nés#WHITE# qui leur permet d'augmenter les dégâts infligés et de réduire les dégâts reçus une fois de temps en temps.", "_t")
+t("They possess the #GOLD#Wrath of the Highborn#WHITE# which allows them to increase damage dealt and decrease damage taken once in a while.", "Ils possèdent la #GOLD#Courroux des Bien-Nés#WHITE# qui leur permet d'augmenter les dégâts infligés et de réduire les dégâts reçus une fois de temps en temps.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
 t("#LIGHT_BLUE# * +1 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +1 Force, +1 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +1 Magic, +1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +1 Magie, +1 Volonté, +0 Ruse", "_t")
@@ -4220,7 +4220,7 @@ t("Light [%d]", "Lumière[%d]", "tformat")
 t("Darkness [%d]", "Obscurité [%d]", "tformat")
 t("Temporal [%d]", "Temporel [%d]", "tformat")
 t("Physical [%d]", "Physique [%d]", "tformat")
-t("Blight [%d]", "Maladie [%d]", "tformat")
+t("Blight [%d]", "Fléau [%d]", "tformat")
 t("Acid [%d]", "Acide [%d]", "tformat")
 t("Mind [%d]", "Esprit [%d]", "tformat")
 t("Never mind", "Peu importe", "_t")
@@ -4532,12 +4532,12 @@ t("slimed", "engluanté", "_t")
 t("splurged", "enfeuillé", "_t")
 t("treehugged", "branchu", "_t")
 t("naturalised", "naturalisé", "_t")
-t("blight", "dégâts de maladie", "damage type")
+t("blight", "dégâts de fléau", "damage type")
 t("diseased", "malade", "_t")
 t("poxed", "vérole", "_t")
 t("infected", "infecté", "_t")
 t("plagued", "peste", "_t")
-t("debilitated by noxious blight before falling", "affaibli par une maladie nocive avant de succomber.", "_t")
+t("debilitated by noxious blight before falling", "affaibli par un fléau nocife avant de succomber.", "_t")
 t("fouled", "infecté", "_t")
 t("tainted", "corrompu", "_t")
 t("light", "dégâts de lumière", "damage type")
@@ -4638,7 +4638,7 @@ t("* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "*
 t("#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "#LIGHT_STEEL_BLUE#%s ne peut plus gagner d'énergie ce tour ci! ", "logSeen")
 t("item acid corrode", "dégâts d'objet corrodé à l'acide", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de réduire l'armure par #VIOLET#%d%%#LAST#%s", "tformat")
-t("item blight disease", "dégâts d'objet porteur de maladie", "damage type")
+t("item blight disease", "dégâts d'objet porteur de fléau", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de réduire force, déxtérité, et constitution par #VIOLET#%d#LAST#%s", "tformat")
 t("item manaburn arcane", "dégâts d'objet brûleur de mana arcanique", "damage type")
 t("* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "* #DARK_ORCHID#%d ressource arcanique#LAST# brulé%s", "tformat")
@@ -4661,21 +4661,21 @@ t("blinding physical", "dégâts d'aveuglement physique", "damage type")
 t("%s resists the sandstorm!", "%s résiste à la tempête de sable!", "logSeen")
 t("physical pinning", "dégâts d'immobilisation physique", "damage type")
 t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
-t("regressive blight", "dégâts de maladie régressive", "damage type")
+t("regressive blight", "dégâts de fléau régressife", "damage type")
 t("#Source# drains experience from #Target#!", "#Source# draine l'expérience de #Target#!", "logCombat")
-t("draining blight", "dégâts de maladie drainante", "damage type")
-t("sanguine blight", "dégâts de maladie sanguine", "damage type")
-t("vim draining blight", "dégâts de maladie drainant la vitae", "damage type")
+t("draining blight", "dégâts de fléau drainant", "damage type")
+t("sanguine blight", "dégâts de fléau sanguin", "damage type")
+t("vim draining blight", "dégâts de fléau drainant la vitae", "damage type")
 t("demonfire", "dégâts de feu démoniaque", "damage type")
-t("purging blight", "dégâts de purge de maladie", "damage type")
+t("purging blight", "dégâts de purge de fléau", "damage type")
 t("holy light", "dégâts de lumiére sacrée", "damage type")
 t("healing", "dégâts de soins", "damage type")
 t("healing light", "dégâts de lumière soignante", "damage type")
 t("#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "#DARK_ORCHID#Votre bouclier de protection ne peut plus être prolongé et a explosé.", "logPlayer")
 t("judgement", "dégâts de jugement", "damage type")
 t("healing nature", "soin naturel", "damage type")
-t("infective blight", "dégâts de maladie infectieuse", "damage type")
-t("hindering blight", "dégâts de maladie gênante", "damage type")
+t("infective blight", "dégâts de fléau infectieux", "damage type")
+t("hindering blight", "dégâts de fléau gênant", "damage type")
 t("life leech", "dégâts de drain de vie", "damage type")
 t("physical stun", "dégâts d'assommage physique", "damage type")
 t("warp", "dégâts de déformation", "damage type")
@@ -4746,9 +4746,9 @@ t("phase pulse", "dégâts d'impulsion phasique", "damage type")
 t("brain storm", "dégâts de tempête intellectuelle", "damage type")
 t("%s resists the mind attack!", "%s résiste à l'attaque mentale!", "logSeen")
 t("static net", "dégâts de filet statique", "damage type")
-t("wormblight", "dégâts de ver de maladie", "damage type")
+t("wormblight", "dégâts de ver du fléau", "damage type")
 t("pestilent blight", "dégâts de fléau pestilentiel", "damage type")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de causer une #GREEN#maladie au hasard#LAST#%s", "tformat")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de causer un #GREEN#fléau au hasard#LAST#%s", "tformat")
 t("blight poison", "dégâts de poison morbide", "damage type")
 t("terror", "dégâts de terreur", "damage type")
 t("%s<terror chance>#LAST#", "%s<chance de terreur>#LAST#", "tformat")
@@ -7068,7 +7068,7 @@ t("All that remains of the Glacial Legion. This cloak seems to exude an icy cold
 t("release a radius %d chilling blast, instantly dealing %0.2f cold damage and condensing the air into freezing vapors that deal %0.2f cold damage (based on Magic) each turn for %d turns", "libère un souffle glacial dans un rayon de %d, infligeant instantanément %0.2f dégâts de froid et condensant l'air en vapeurs glaciales qui infligent %0.2f dégâts de froid (basé sur la Magie) par tour pendant %d tours.", "tformat")
 t("%s releases an icy blast from %s %s!", "%s libère un souffle glacé de %s %s!", "logSeen")
 t("icy vapors", "vapeurs glaciales", "_t")
-t("Blighted Maul", "Massue du Malaise", "entity name")
+t("Blighted Maul", "Massue du Fléau", "entity name")
 t("rotten stone limb", "membre en pierre pourrie", "_t")
 t("The massive stone limb of the Rotting Titan, a mass of stone and rotting flesh. You think you can lift it, but it is very heavy.", "L'énorme membre de pierre et de chair en décomposition du Titan Pourri. Vous pensez pouvoir le soulever, mais il est très lourd.", "_t")
 t("Blasts creatures in a radius 1 shockwave around your target for %0.2f to %0.2f physical damage (based on Strength).", "Provoque une onde de choc de rayon 1 autour de votre cible pour %0.2f à %0.2f dégâts physiques (basés sur la Force).", "tformat")
@@ -7761,8 +7761,8 @@ t("restorative ", "de réparation ", "entity name")
 t("restorative", "réparation", "entity keyword")
 t("invigorating ", "de vivification ", "entity name")
 t("invigor.", "vivifiant", "entity keyword")
-t("blightbringer's ", "de l'avatar de la maladie ", "entity name")
-t("blight", "maladie", "entity keyword")
+t("blightbringer's ", "de l'avatar du fléau ", "entity name")
+t("blight", "fléau", "entity keyword")
 t("wanderer's ", "du nomade ", "entity name")
 t("wanderer", "nomade", "entity keyword")
 t("undeterred ", "d'entêtement ", "entity name")
@@ -8054,6 +8054,8 @@ t(" of strength (#STATBONUS#)", " de force (#STATBONUS#)", "entity name")
 t("strength", "force", "entity keyword")
 t(" of constitution (#STATBONUS#)", " de constitution (#STATBONUS#)", "entity name")
 t(" of dexterity (#STATBONUS#)", " de dextérité (#STATBONUS#)", "entity name")
+t("thaloren ", "thaloréen ", "entity name")
+t("thaloren", "thaloréen", "entity keyword")
 t("prismatic ", "prismatique ", "entity name")
 t("prismatic", "prismatique", "entity keyword")
 t(" of precognition", " de précognition", "entity name")
@@ -8107,8 +8109,6 @@ t("bounder", "goujat", "entity keyword")
 --[==[
 t("con", "con", "entity keyword")
 t("dex", "dex", "entity keyword")
-t("thaloren ", "thaloren ", "entity name")
-t("thaloren", "thaloren", "entity keyword")
 t("absorb", "absorb", "entity keyword")
 t("champion", "champion", "entity keyword")
 t("fortune", "fortune", "entity keyword")
@@ -8407,8 +8407,8 @@ t("darkness", "obscurité", "entity keyword")
 t(" of corrosion (#RESIST#)", " de corrosion (#RESIST#)", "entity name")
 t(" of aether (#RESIST#)", " d'éther (#RESIST#)", "entity name")
 t("aether", "éther", "entity keyword")
-t(" of blight (#RESIST#)", " de la maladie (#RESIST#)", "entity name")
-t("blight", "maladie", "entity keyword")
+t(" of blight (#RESIST#)", " du fléau (#RESIST#)", "entity name")
+t("blight", "fléau", "entity keyword")
 t(" of the mountain (#RESIST#)", " de la montagne (#RESIST#)", "entity name")
 t("mountain", "montagne", "entity keyword")
 t(" of the mind (#RESIST#)", " de l'esprit (#RESIST#)", "entity name")
@@ -8483,8 +8483,8 @@ t("light", "lumière", "entity keyword")
 t(" of darkness (#RESIST#)", " des ténèbres (#RESIST#)", "entity name")
 t("darkness", "obscurité", "entity keyword")
 t(" of corrosion (#RESIST#)", " de corrosion (#RESIST#)", "entity name")
-t(" of blight (#RESIST#)", " de la maladie (#RESIST#)", "entity name")
-t("blight", "maladie", "entity keyword")
+t(" of blight (#RESIST#)", " du fléau (#RESIST#)", "entity name")
+t("blight", "fléau", "entity keyword")
 t(" of the mountain (#RESIST#)", " de la montagne (#RESIST#)", "entity name")
 t("mountain", "montagne", "entity keyword")
 t(" of the mind (#RESIST#)", " de l'esprit (#RESIST#)", "entity name")
@@ -8650,7 +8650,7 @@ t("shimmering", "chatoyance", "entity keyword")
 t("surging ", "de déferlement ", "entity name")
 t("surging", "déferlement", "entity keyword")
 t("blighted ", "maladif ", "entity name")
-t("blight", "maladie", "entity keyword")
+t("blight", "fléau", "entity keyword")
 t("ethereal ", "de l'éthéré ", "entity name")
 t("ethereal", "éthéré", "entity keyword")
 t("greater ", "du grand ", "entity name")
@@ -8944,8 +8944,8 @@ t("light", "lumière", "entity keyword")
 t(" of darkness (#RESIST#)", " des ténèbres (#RESIST#)", "entity name")
 t("darkness", "obscurité", "entity keyword")
 t(" of corrosion (#RESIST#)", " de corrosion (#RESIST#)", "entity name")
-t(" of blight (#RESIST#)", " de la maladie (#RESIST#)", "entity name")
-t("blight", "maladie", "entity keyword")
+t(" of blight (#RESIST#)", " du fléau (#RESIST#)", "entity name")
+t("blight", "fléau", "entity keyword")
 t(" of the mountain (#RESIST#)", " de la montagne (#RESIST#)", "entity name")
 t("mountain", "montagne", "entity keyword")
 t(" of the mind (#RESIST#)", " de l'esprit (#RESIST#)", "entity name")
@@ -9710,7 +9710,7 @@ t("generic resist acid", "rés. acide générique", "entity name")
 t("generic resist lightning", "résist foudre générique", "entity name")
 t("generic resist arcane", "rés. arcane générique", "entity name")
 t("generic resist nature", "rés. nature générique", "entity name")
-t("generic resist blight", "rés. maladie générique", "entity name")
+t("generic resist blight", "rés. fléau générique", "entity name")
 t("generic resist light", "rés. lumière générique", "entity name")
 t("generic resist darkness", "rés. obscurité générique", "entity name")
 t("generic resist temporal", "rés. temporel générique", "entity name")
@@ -9722,7 +9722,7 @@ t("generic fire retribution", "représaille de feu générique", "entity name")
 t("generic cold retribution", "représaille de froid générique", "entity name")
 t("generic light retribution", "représaille de lumière générique", "entity name")
 t("generic dark retribution", "représaille d'obscurité générique", "entity name")
-t("generic blight retribution", "représaille de maladie générique", "entity name")
+t("generic blight retribution", "représaille de fléau générique", "entity name")
 t("generic nature retribution", "représaille de nature générique", "entity name")
 t("generic arcane retribution", "représaille d'arcane générique", "entity name")
 t("generic temporal retribution", "représaille temporelle générique", "entity name")
@@ -9734,7 +9734,7 @@ t("generic inc damage acid", "augm. dégâts acide générique", "entity name")
 t("generic inc damage lightning", "augm. dégâts foudre générique", "entity name")
 t("generic inc damage arcane", "augm. dégâts arcane générique", "entity name")
 t("generic inc damage nature", "augm. dégâts nature générique", "entity name")
-t("generic inc damage blight", "augm. dégâts maladie générique", "entity name")
+t("generic inc damage blight", "augm. dégâts fléau générique", "entity name")
 t("generic inc damage light", "augm. dégâts lumière générique", "entity name")
 t("generic inc damage darkness", "augm. dégâts obscurité générique", "entity name")
 t("generic inc damage temporal", "augm. dégâts temporel générique", "entity name")
@@ -9746,7 +9746,7 @@ t("generic resists pen acid", "rés. pén. acide générique", "entity name")
 t("generic resists pen lightning", "rés. pén. foudre générique", "entity name")
 t("generic resists pen arcane", "rés. pén. arcane générique", "entity name")
 t("generic resists pen nature", "rés. pén. nature générique", "entity name")
-t("generic resists pen blight", "rés. pén. maladie générique", "entity name")
+t("generic resists pen blight", "rés. pén. fléau générique", "entity name")
 t("generic resists pen light", "rés. pén. lumière générique", "entity name")
 t("generic resists pen darkness", "rés. pén. obscurité générique", "entity name")
 t("generic resists pen temporal", "rés. pén. temporel générique", "entity name")
@@ -9785,7 +9785,7 @@ t("fire melee", "mêlée de feu", "entity name")
 t("cold melee", "mêlée de froid", "entity name")
 t("light melee", "mêlée de lumière", "entity name")
 t("dark melee", "mêlée d'obscurité", "entity name")
-t("blight melee", "mêlée de maladie", "entity name")
+t("blight melee", "mêlée de fléau", "entity name")
 t("nature melee", "mêlée de nature", "entity name")
 t("arcane melee", "mêlée arcanique", "entity name")
 t("temporal melee", "mêlée temporelle", "entity name")
@@ -9806,7 +9806,7 @@ t("fire burst", "explosion de feu", "entity name")
 t("cold burst", "explosion de froid", "entity name")
 t("light burst", "explosion de lumière", "entity name")
 t("dark burst", "explosion d'obscurité", "entity name")
-t("blight burst", "explosion de maladie", "entity name")
+t("blight burst", "explosion de fléau", "entity name")
 t("nature burst", "explosion de nature", "entity name")
 t("arcane burst", "explosion arcanique", "entity name")
 t("temporal burst", "explosion temporelle", "entity name")
@@ -9818,7 +9818,7 @@ t("fire burst (crit)", "explosion de feu (crit.)", "entity name")
 t("cold burst (crit)", "explosion de froid (crit.)", "entity name")
 t("light burst (crit)", "explosion de lumière (crit.)", "entity name")
 t("dark burst (crit)", "explosion d'obscurité (crit.)", "entity name")
-t("blight burst (crit)", "explosion de maladie (crit.)", "entity name")
+t("blight burst (crit)", "explosion de fléau (crit.)", "entity name")
 t("nature burst (crit)", "explosion de nature (crit.)", "entity name")
 t("arcane burst (crit)", "explosion arcanique (crit.)", "entity name")
 t("temporal burst (crit)", "explosion temporelle (crit.)", "entity name")
@@ -9838,7 +9838,7 @@ t("fire melee", "mêlée de feu", "entity name")
 t("cold melee", "mêlée de froid", "entity name")
 t("light melee", "mêlée de lumière", "entity name")
 t("dark melee", "mêlée d'obscurité", "entity name")
-t("blight melee", "mêlée de maladie", "entity name")
+t("blight melee", "mêlée de fléau", "entity name")
 t("nature melee", "mêlée de nature", "entity name")
 t("arcane melee", "mêlée arcanique", "entity name")
 t("temporal melee", "mêlée temporelle", "entity name")
@@ -9857,7 +9857,7 @@ t("fire burst", "explosion de feu", "entity name")
 t("cold burst", "explosion de froid", "entity name")
 t("light burst", "explosion de lumière", "entity name")
 t("dark burst", "explosion d'obscurité", "entity name")
-t("blight burst", "explosion de maladie", "entity name")
+t("blight burst", "explosion de fléau", "entity name")
 t("nature burst", "explosion de nature", "entity name")
 t("arcane burst", "explosion arcanique", "entity name")
 t("temporal burst", "explosion temporelle", "entity name")
@@ -9869,7 +9869,7 @@ t("fire burst (crit)", "explosion de feu (crit.)", "entity name")
 t("cold burst (crit)", "explosion de froid (crit.)", "entity name")
 t("light burst (crit)", "explosion de lumière (crit.)", "entity name")
 t("dark burst (crit)", "explosion d'obscurité (crit.)", "entity name")
-t("blight burst (crit)", "explosion de maladie (crit.)", "entity name")
+t("blight burst (crit)", "explosion de fléau (crit.)", "entity name")
 t("nature burst (crit)", "explosion de nature (crit.)", "entity name")
 t("arcane burst (crit)", "explosion arcanique (crit.)", "entity name")
 t("temporal burst (crit)", "explosion temporelle (crit.)", "entity name")
@@ -9901,7 +9901,7 @@ t("stave inc damage acid", "bâton augm. dégâts acide", "entity name")
 t("stave inc damage lightning", "bâton augm. dégâts foudre", "entity name")
 t("stave inc damage arcane", "bâton augm. dégâts arcane", "entity name")
 t("stave inc damage nature", "bâton augm. dégâts nature", "entity name")
-t("stave inc damage blight", "bâton augm. dégâts maladie", "entity name")
+t("stave inc damage blight", "bâton augm. dégâts fléau", "entity name")
 t("stave inc damage light", "bâton augm. dégâts lumière", "entity name")
 t("stave inc damage darkness", "bâton augm. dégâts obscurité", "entity name")
 t("stave inc damage temporal", "bâton augm. dégâts temporel", "entity name")
@@ -9913,7 +9913,7 @@ t("stave resists pen acid", "bâton pén. rés. acide", "entity name")
 t("stave resists pen lightning", "bâton pén. rés. foudre", "entity name")
 t("stave resists pen arcane", "bâton pén. rés. arcane", "entity name")
 t("stave resists pen nature", "bâton pén. rés. nature", "entity name")
-t("stave resists pen blight", "bâton pén. rés. maladie", "entity name")
+t("stave resists pen blight", "bâton pén. rés. fléau", "entity name")
 t("stave resists pen light", "bâton pén. rés. lumière", "entity name")
 t("stave resists pen darkness", "bâton pén. rés. obscurité", "entity name")
 t("stave resists pen temporal", "bâton pén. rés. temporel", "entity name")
@@ -9938,7 +9938,7 @@ t("fire melee", "mêlée de feu", "entity name")
 t("cold melee", "mêlée de froid", "entity name")
 t("light melee", "mêlée de lumière", "entity name")
 t("dark melee", "mêlée d'obscurité", "entity name")
-t("blight melee", "mêlée de maladie", "entity name")
+t("blight melee", "mêlée de fléau", "entity name")
 t("nature melee", "mêlée de nature", "entity name")
 t("arcane melee", "mêlée arcanique", "entity name")
 t("poison melee", "mêlée poison", "entity name")
@@ -9953,7 +9953,7 @@ t("inc damage acid", "augm. dégâts acide", "entity name")
 t("inc damage lightning", "augm. dégâts foudre", "entity name")
 t("inc damage arcane", "augm. dégâts arcane", "entity name")
 t("inc damage nature", "augm. dégâts nature", "entity name")
-t("inc damage blight", "augm. dégâts maladie", "entity name")
+t("inc damage blight", "augm. dégâts fléau", "entity name")
 t("inc damage light", "augm. dégâts lumière", "entity name")
 t("inc damage darkness", "aaugm.ug dégâts obcurité", "entity name")
 t("inc damage mind", "augm. dégâts mental", "entity name")
@@ -9974,7 +9974,7 @@ t("resist acid", "résrésist.ist acide", "entity name")
 t("resist lightning", "rés. foudre", "entity name")
 t("resist arcane", "rés. arcane", "entity name")
 t("resist nature", "rés. nature", "entity name")
-t("resist blight", "rés. maladie", "entity name")
+t("resist blight", "rés. fléau", "entity name")
 t("resist light", "rés. lumière", "entity name")
 t("resist darkness", "rés. obscurité", "entity name")
 t("resist mind", "rés. mental", "entity name")
@@ -10338,9 +10338,9 @@ t("Daneth's Neckguard", "Garde-Cou de Daneth", "entity name")
 t("a thick steel gorget", "un épais gorget en acier", "_t")
 t("A thick steel gorget designed to protect its wearer from fatal attacks to the neck.  This particular gorget was worn by the Halfling General Daneth Tendermourn during the pyre wars, and judging by the marks along its surface may have saved the General's life on more than one occasion.", "Un gorget en acier épais conçu pour protéger son porteur des attaques fatales au cou.  Ce gorget particulier était porté par le général halfelin Daneth Tendermourn pendant les guerres du bûcher, et à en juger par les marques sur sa surface, il a peut-être sauvé la vie du général à plus d'une occasion.", "_t")
 t("#LIGHT_BLUE#You feel invincible!", "#LIGHT_BLUE#Vous vous sentez invincible!", "logPlayer")
-t("Thaloren-Tree Longbow", "Arc Long en Bois Thaloren", "entity name")
+t("Thaloren-Tree Longbow", "Arc Long en Bois Thaloréen", "entity name")
 t("glowing elven-wood longbow", "arc long en bois elfique scintillant", "_t")
-t("In the aftermath of the Spellblaze, the Thaloren had to defend their forests against foes and fires alike. Many of the trees died despite the efforts of the Elves to save them. Their wood was fashioned into a bow to be wielded against the darkness.", "À la suite de la Brûlure Magique, les Thaloren ont dû défendre leurs forêts contre les ennemis et les incendies. Beaucoup d'arbres sont morts malgré les efforts des Elfes pour les sauver. Leur bois a été transformé en arc pour être brandi contre les ténèbres.", "_t")
+t("In the aftermath of the Spellblaze, the Thaloren had to defend their forests against foes and fires alike. Many of the trees died despite the efforts of the Elves to save them. Their wood was fashioned into a bow to be wielded against the darkness.", "À la suite de la Brûlure Magique, les Thaloréens ont dû défendre leurs forêts contre les ennemis et les incendies. Beaucoup d'arbres sont morts malgré les efforts des Elfes pour les sauver. Leur bois a été transformé en arc pour être brandi contre les ténèbres.", "_t")
 t("#DARK_GREEN#You understand this bow-and its connection to nature-in a way few can.", "#DARK_GREEN#Vous comprenez cet arc, et son lien avec la nature, comme peu de gens peuvent le faire.", "logPlayer")
 t("Corpsebow", "Arc Cadavérique", "entity name")
 t("rotting longbow", "arc long pourrissant", "_t")
@@ -10409,7 +10409,7 @@ t("I feel lost!", "Je me sens perdu!", "_t")
 t("Voice of Telos", "Voix de Telos", "entity name")
 t("scintillating white staff", "bâton blanc scintillant", "_t")
 t("A closer look at this pure white staff reveals that it is really a plethora of colors swirling and scintillating.", "En regardant de plus près ce bâton blanc pur, on s'aperçoit qu'il s'agit en réalité d'une pléthore de couleurs qui tourbillonnent et scintillent.", "_t")
-t("Rope Belt of the Thaloren", "Ceinture de cordes des Thaloren", "entity name")
+t("Rope Belt of the Thaloren", "Ceinture de cordes des Thaloréens", "entity name")
 t("short length of rope", "petite longueur de corde", "_t")
 t("The simplest of belts, worn for centuries by Nessilla Tantaelen as she tended to her people and forests. Some of her wisdom and power have settled permanently into its fibers.", "La plus simple des ceintures, portée pendant des siècles par Nessilla Tantaelen lorsqu'elle s'occupait de son peuple et de ses forêts. Une partie de sa sagesse et de son pouvoir s'est installée de façon permanente dans ses fibres.", "_t")
 t("#DARK_GREEN#Nessilla's belt seems to come alive as you put it on.", "#DARK_GREEN#La ceinture de Nessilla semble prendre vie lorsque vous la mettez.", "logPlayer")
@@ -10749,10 +10749,10 @@ t("Quiver of Domination", "Carquois de Domination", "entity name")
 t("grey quiver", "carquois gris", "_t")
 t("Powerful telepathic forces emanate from the arrows of this quiver. The tips appear dull, but touching them causes you intense pain.", "De puissantes forces télépathiques émanent des flèches de ce carquois. Les pointes semblent émoussées, mais les toucher provoque une douleur intense.", "_t")
 t("dominate the target", "dominer la cible", "_t")
-t("Blightstopper", "Anti-Maladies", "entity name")
+t("Blightstopper", "Anti-Fléau", "entity name")
 t("vine coated shield", "bouclier recouvert de vigne", "_t")
 t("This voratun shield, coated with thick vines, was imbued with nature's power long ago by the Halfling General Almadar Riul, who used it to stave off the magic and diseases of orcish corruptors during the peak of the Pyre Wars.", "Ce bouclier en voratun, recouvert d'épaisses vignes, a été imprégné du pouvoir de la nature il y a longtemps par le général Halfelin Almadar Riul, qui l'a utilisé pour repousser la magie et les maladies des corrupteurs orcs au plus fort des guerres du Bûcher.", "_t")
-t("purge up to %d diseases (based on Willpower) and gain disease immunity, %d%% blight resistance, and %d spell save for 5 turns", "purge jusqu'à %d maladies (basé sur la Volonté) et gagne l'immunité aux maladies, %d%% de résistance à la maladie, et %d sauvegarde contre les sorts pour 5 tours", "tformat")
+t("purge up to %d diseases (based on Willpower) and gain disease immunity, %d%% blight resistance, and %d spell save for 5 turns", "purge jusqu'à %d maladies (basé sur la Volonté) et gagne l'immunité aux maladies, %d%% de résistance au fléau, et %d sauvegarde contre les sorts pour 5 tours", "tformat")
 t("%s holds %s %s close, cleansing %s of corruption!", "%s tient %s %s de près, nettoyant %s corruption!", "logSeen")
 t("%s is purged of diseases!", "%s est purgé des maladies!", "logSeen")
 t("#DARK_GREEN#You feel nature's power protecting you!", "#DARK_GREEN#Vous ressentez la puissance de la nature qui vous protège!", "logPlayer")
@@ -18542,7 +18542,7 @@ section "mod-tome/data/quests/love-melinda.lua"
 
 t("Melinda, lucky girl", "Melinda, chanceuse", "_t")
 t("After rescuing Melinda from Kryl-Feijan and the cultists you met her again in Last Hope.", "Après avoir sauvé Melinda de Kryl-Feijan et des cultistes, vous l'avez recroisée à Dernier Espoir.", "_t")
-t("Melinda was saved from the brink of death at the beach, by a strange wave of blight.", "Melinda a été sauvée de justesse sur la plage, d'une étrange série de maladies.", "_t")
+t("Melinda was saved from the brink of death at the beach, by a strange wave of blight.", "Melinda a été sauvée de justesse sur la plage, d'une étrange série de fléaux.", "_t")
 t("Melinda died to a Yaech raiding party at the beach.", "Melinda est morte lors d'un raid de Yaech sur la plage.", "_t")
 t("The Fortress Shadow said she could be cured.", "L'Ombre de la Forteresse a affirmé qu'elle pouvait être guérie.", "_t")
 t("Melinda decided to come live with you in your Fortress.", "Melinda a décidé de venir vivre avec vous dans votre Forteresse.", "_t")
@@ -18868,7 +18868,7 @@ section "mod-tome/data/quests/start-thaloren.lua"
 
 t("Madness of the Ages", "La Folie des Eres", "_t")
 t([[The Thaloren forest is disrupted. Corruption is spreading. Norgos the guardian bear is said to have gone mad.
-]], [[La forêt de Thaloren est perturbée. La corruption se répand. On dit que Norgos, l'ours gardien, est devenu fou.
+]], [[La forêt de Thalore est perturbée. La corruption se répand. On dit que Norgos, l'ours gardien, est devenu fou.
 ]], "_t")
 t([[On the western border of the forest a gloomy aura has been set up. Things inside are... twisted.
 ]], [[A la frontière ouest de la forêt, une aura lugubre s'est installée. Les choses à l'intérieur sont... déformées.
@@ -18913,7 +18913,7 @@ t("It is time to explore some new places -- dark, forgotten and dangerous ones."
 t("The Old Forest is just south-east of the town of Derth.", "La Vieille Forêt se trouve juste au sud-est de la ville de Derth.", "_t")
 t("The Maze is west of Derth.", "Le Labyrinthe est à l'ouest de Derth.", "_t")
 t("The Sandworm Lair is to the far west of Derth, near the sea.", "Le repaire du Ver des Sables se trouve à l'extrême ouest de Derth, près de la mer.", "_t")
-t("The Daikara is on the eastern borders of the Thaloren forest.", "Le Daikara est à la frontière orientale de la forêt de Thaloren.", "_t")
+t("The Daikara is on the eastern borders of the Thaloren forest.", "Le Daikara est à la frontière orientale de la forêt de Thalore.", "_t")
 t("#LIGHT_GREEN#* You have explored the Old Forest and vanquished Shardskin.#WHITE#", "#LIGHT_GREEN#* Vous avez exploré la Vieille Forêt et vaincu Cuir Fragmenté.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have explored the Old Forest and vanquished Wrathroot.#WHITE#", "#LIGHT_GREEN#* Vous avez exploré la Vieille Forêt et vaincu Racine Courroucée.#WHITE#", "_t")
 t("#SLATE#* You must explore the Old Forest and find out what lurks there and what treasures are to be gained!#WHITE#", "#SLATE#* Vous devez explorer la Vieille Forêt, découvrir ce qui s'y cache et les trésors à y gagner!#WHITE#", "_t")
@@ -19081,46 +19081,46 @@ t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#A PLACE UNE PETITE CHAMBRE FORTE: %s",
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/celestial.lua"
 
-t("celestial", "Céleste", "talent category")
-t("guardian", "Guardien", "talent type")
-t("light", "Lumière", "talent type")
+t("celestial", "céleste", "talent category")
+t("guardian", "gardien", "talent type")
+t("Your devotion grants you additional protection.", "Votre dévotion vous confère une protection supplémentaire.", "_t")
+t("Chant the glory of the Sun.", "Chantez la gloire du Soleil.", "_t")
+t("light", "lumière", "talent type")
+t("Invoke the power of the light to heal and mend.", "Invoquez le pouvoir de la lumière pour guérir et réparer.", "_t")
+t("Your devotion allows you to combat your foes with indomitable determination.", "Votre dévotion vous permet de combattre vos ennemis avec une détermination indomptable.", "_t")
 t("radiance", "rayonnement", "talent type")
-t("crusader", "Croisé", "talent type")
-t("sun", "Soleil", "talent type")
-t("eclipse", "Eclipse", "talent type")
+t("You channel the light of the sun through your body.", "Vous canalisez la lumière du soleil à travers votre corps.", "_t")
+t("crusader", "croisé", "talent type")
+t("Forgo your shield for the chance to crush your foes with a mighty two handed weapon.", "Délaissez votre bouclier pour la chance d'écraser vos ennemis avec une puissante arme à deux mains.", "_t")
+t("sunlight", "lumière solaire", "talent type")
+t("Summon the power of the Sun to burn your foes.", "Invoquez le pouvoir du Soleil pour brûler vos ennemis.", "_t")
+t("sun", "soleil", "talent type")
+t("glyphs", "glyphes", "talent type")
+t("Bind the brilliant powers into glyphs to trap your foes.", "Liez les pouvoirs brillants dans des glyphes pour piéger vos ennemis.", "_t")
+t("twilight", "crépuscule", "talent type")
+t("Stand between the darkness and the light, harnessing both.", "Tenez-vous entre les ténèbres et la lumière, en exploitant les deux.", "_t")
+t("star fury", "fureur stellaire", "talent type")
+t("Call the fury of the Stars and the Moon to destroy your foes.", "Appelez la fureur des Étoiles et de la Lune pour détruire vos ennemis.", "_t")
+t("hymns", "hymnes", "talent type")
+t("Chant the glory of the Moon.", "Chantez la gloire de la Lune.", "_t")
+t("circles", "cercles", "talent type")
+t("Bind the power of the Moon into circles at your feet.", "Liez le pouvoir de la Lune dans des cercles à vos pieds.", "_t")
+t("eclipse", "éclipse", "talent type")
+t("The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "Le moment de l'Éclipse est le moment de Vérité, quand le Soleil et la Lune sont de concert et que les énergies du monde sont en équilibre. Une concentration intense permet aux plus grands Anorithils d'exploiter ces énergies pour libérer des forces dévastatrices...", "_t")
 t("other", "autre", "talent type")
+t("Other celestial powers.", "Autres pouvoirs célestes.", "_t")
+t("Various celestial talents.", "Talents célestes variés.", "_t")
 t("Dirges", "Chants Funèbre", "talent type")
+t("The songs the Fallen sing.", "Les chants que chantent les Déchus.", "_t")
 t("Darkside", "Côté Obscur", "talent type")
+t("Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "Magies emblématiques des Déchus. Le soleil brille autant pour les coupables que pour les innocents.", "_t")
 t("Dark Sun", "Soleil Noir", "talent type")
+t("Celestial combat techniques inspired by the dark places that are not empty.", "Techniques de combat céleste inspirées par les lieux obscurs qui ne sont pas vides.", "_t")
+t("Sing of death and damnation.", "Chantez la mort et la damnation.", "_t")
 -- texte non traduit
 --[==[
-t("Your devotion grants you additional protection.", "Your devotion grants you additional protection.", "_t")
 t("chants", "chants", "talent type")
-t("Chant the glory of the Sun.", "Chant the glory of the Sun.", "_t")
-t("Invoke the power of the light to heal and mend.", "Invoke the power of the light to heal and mend.", "_t")
 t("combat", "combat", "talent type")
-t("Your devotion allows you to combat your foes with indomitable determination.", "Your devotion allows you to combat your foes with indomitable determination.", "_t")
-t("You channel the light of the sun through your body.", "You channel the light of the sun through your body.", "_t")
-t("Forgo your shield for the chance to crush your foes with a mighty two handed weapon.", "Forgo your shield for the chance to crush your foes with a mighty two handed weapon.", "_t")
-t("sunlight", "sunlight", "talent type")
-t("Summon the power of the Sun to burn your foes.", "Summon the power of the Sun to burn your foes.", "_t")
-t("glyphs", "glyphs", "talent type")
-t("Bind the brilliant powers into glyphs to trap your foes.", "Bind the brilliant powers into glyphs to trap your foes.", "_t")
-t("twilight", "twilight", "talent type")
-t("Stand between the darkness and the light, harnessing both.", "Stand between the darkness and the light, harnessing both.", "_t")
-t("star fury", "star fury", "talent type")
-t("Call the fury of the Stars and the Moon to destroy your foes.", "Call the fury of the Stars and the Moon to destroy your foes.", "_t")
-t("hymns", "hymns", "talent type")
-t("Chant the glory of the Moon.", "Chant the glory of the Moon.", "_t")
-t("circles", "circles", "talent type")
-t("Bind the power of the Moon into circles at your feet.", "Bind the power of the Moon into circles at your feet.", "_t")
-t("The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "_t")
-t("Other celestial powers.", "Other celestial powers.", "_t")
-t("Various celestial talents.", "Various celestial talents.", "_t")
-t("The songs the Fallen sing.", "The songs the Fallen sing.", "_t")
-t("Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "_t")
-t("Celestial combat techniques inspired by the dark places that are not empty.", "Celestial combat techniques inspired by the dark places that are not empty.", "_t")
-t("Sing of death and damnation.", "Sing of death and damnation.", "_t")
 --]==]
 
 -- ancien texte traduit
@@ -21056,7 +21056,7 @@ t("bone", "os", "talent type")
 t("vile life", "vie infecte", "talent type")
 t("plague", "peste", "talent type")
 t("blood", "sang", "talent type")
-t("blight", "maladie", "talent type")
+t("blight", "fléau", "talent type")
 -- texte non traduit
 --[==[
 t("corruption", "corruption", "talent category")
@@ -24725,6 +24725,7 @@ t("power %d for %d turns", "power %d for %d turns", "tformat")
 section "mod-tome/data/talents/misc/misc.lua"
 
 t("class", "classe", "talent type")
+t("The various racial bonuses a character can have.", "Les différents bonus raciaux qu'un personnage peut posséder.", "_t")
 t("Teleport: Angolwen", "Téléportation: Angolwen", "talent name")
 t("Timeport: Point Zero", "Connexion Temporelle: Point Zéro", "talent name")
 -- texte non traduit
@@ -24732,7 +24733,6 @@ t("Timeport: Point Zero", "Connexion Temporelle: Point Zéro", "talent name")
 t("base", "base", "talent category")
 t("The basic talents defining a class.", "The basic talents defining a class.", "_t")
 t("race", "race", "talent type")
-t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
 t("inscriptions", "inscriptions", "talent category")
 t("infusions", "infusions", "talent type")
 t("Infusions are not class abilities, you must find them or learn them from other people.", "Infusions are not class abilities, you must find them or learn them from other people.", "_t")
@@ -25376,212 +25376,211 @@ t("Intermediary for melee retaliation.", "Intermediary for melee retaliation.", 
 section "mod-tome/data/talents/misc/races.lua"
 
 t("higher", "Noble", "talent type")
-t("Wrath of the Highborn", "Colère des Bien-Nés", "talent name")
-t("Overseer of Nations", "Superviseur des Peuples", "talent name")
-t("Born into Magic", "Né dans la Magie", "talent name")
-t("Highborn's Bloom", "Floraison des Bien-Nés", "talent name")
-t("Gift of the Woods", "Don des Bois", "talent name")
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
-t("treant", "tréant", "_t")
-t("dwarf", "nain", "talent type")
-t("Stoneskin", "Peau de Pierre", "talent name")
-t("halfling", "halfelin", "talent type")
-t("Militant Mind", "Esprit Militant", "talent name")
-t("Orcish Fury", "Furie Orc", "talent name")
-t("Skirmisher", "Tirailleur", "talent name")
-t("yeek mindslayer", "guerrier psionique yeek", "_t")
-t("Ogric Wrath", "Colère Ogrique", "talent name")
-t("Writ Large", "Écrire Gros", "talent name")
--- texte non traduit
---[==[
-t("race", "race", "talent category")
-t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
+t("The various racial bonuses a character can have.", "Les différents bonus raciaux qu'un personnage peut posséder.", "_t")
+t("Wrath of the Highborn", "Courroux des Bien-Nés", "talent name")
 t([[Call upon the power of the Highborn, increasing all damage by %d%% and reducing all damage taken by %d%% for 5 turns.
-		The bonus will increase with your Magic.]], [[Call upon the power of the Highborn, increasing all damage by %d%% and reducing all damage taken by %d%% for 5 turns.
-		The bonus will increase with your Magic.]], "tformat")
+		The bonus will increase with your Magic.]], [[Invoque la puissance des Bien-Nés, augmentant tous les dégâts infligés de %d%% et réduisant tous les dégâts subis de %d%% pendant 5 tours.
+		Le bonus augmente avec votre Magie.]], "tformat")
+t("Overseer of Nations", "Superviseur des Peuples", "talent name")
 t([[While Highers are not meant to rule other humans - and show no particular will to do so - they are frequently called to higher duties.
 		Their nature grants them better senses than other humans.
 		Increase blindness immunity by %d%%, maximum sight range by %d, and increases existing infravision, and heightened senses range by %d.
-		At talent level 5, each time you hit a target you gain telepathy to all similar creatures in radius 15 for 5 turns.]], [[While Highers are not meant to rule other humans - and show no particular will to do so - they are frequently called to higher duties.
-		Their nature grants them better senses than other humans.
-		Increase blindness immunity by %d%%, maximum sight range by %d, and increases existing infravision, and heightened senses range by %d.
-		At talent level 5, each time you hit a target you gain telepathy to all similar creatures in radius 15 for 5 turns.]], "tformat")
+		At talent level 5, each time you hit a target you gain telepathy to all similar creatures in radius 15 for 5 turns.]], [[Bien que les Nobles ne soient pas destinés à gouverner les autres humains — et ne montrent aucune volonté particulière de le faire — ils sont fréquemment appelés à de plus hautes fonctions.
+		Leur nature leur confère de meilleurs sens que les autres humains.
+		Augmente l'immunité à l'aveuglement de %d%%, la portée de vue de %d, et augmente l'infravision existante ainsi que la portée des sens accrus de %d.
+		Au niveau de talent 5, chaque fois que vous touchez une cible, vous gagnez la télépathie envers toutes les créatures similaires dans un rayon de 15 cases pendant 5 tours.]], "tformat")
+t("Born into Magic", "Né dans la Magie", "talent name")
 t([[Highers were originally created during the Age of Allure by the human Conclave. They are imbued with magic at the very core of their being.
 		Increase spell save by %d and arcane resistance by %d%%.
-		Also, when you cast a spell dealing damage, you gain a 20%% bonus to the damage type for 5 turns. (This effect has a cooldown.)]], [[Highers were originally created during the Age of Allure by the human Conclave. They are imbued with magic at the very core of their being.
-		Increase spell save by %d and arcane resistance by %d%%.
-		Also, when you cast a spell dealing damage, you gain a 20%% bonus to the damage type for 5 turns. (This effect has a cooldown.)]], "tformat")
+		Also, when you cast a spell dealing damage, you gain a 20%% bonus to the damage type for 5 turns. (This effect has a cooldown.)]], [[Les Nobles ont été créés à l'origine durant Ère de la Séduction par le Conclave humain. Ils sont imprégnés de magie au plus profond de leur être.
+		Augmente la sauvegarde magique de %d et la résistance arcanique de %d%%.
+		De plus, lorsque vous lancez un sort infligeant des dégâts, vous gagnez un bônus de 20%% pour ce type de dégâts pendant 5 tours. (Cet effet possède un temps de recharge.)]], "tformat")
+t("Highborn's Bloom", "Floraison des Bien-Nés", "talent name")
 t([[Activate some of your inner magic, using it to power your abilities.  For the next %d turns all active talents will be used without resource cost.
 		Your resources must still be high enough to initially power the talent and failure rates (etc.) still apply.
-		]], [[Activate some of your inner magic, using it to power your abilities.  For the next %d turns all active talents will be used without resource cost.
-		Your resources must still be high enough to initially power the talent and failure rates (etc.) still apply.
+		]], [[Active une partie de votre magie intérieure pour alimenter vos capacités. Pour les %d prochains tours, tous les talents actifs seront utilisés sans coût de ressource.
+		Vos ressources doivent tout de même être assez élevées, comme pour lancer le talent normalement, et les risques d'échec (etc.) s'appliquent toujours.
 		]], "tformat")
-t("shalore", "shalore", "talent type")
-t("Grace of the Eternals", "Grace of the Eternals", "talent name")
+t("Grace of the Eternals", "Grâce des Éternels", "talent name")
 t([[Call upon the grace of the Eternals to increase your global speed by %d%% for 5 turns.
-		The speed bonus will increase with your Dexterity or Magic (whichever is higher).]], [[Call upon the grace of the Eternals to increase your global speed by %d%% for 5 turns.
-		The speed bonus will increase with your Dexterity or Magic (whichever is higher).]], "tformat")
-t("Magic of the Eternals", "Magic of the Eternals", "talent name")
+		The speed bonus will increase with your Dexterity or Magic (whichever is higher).]], [[Invoque la Grâce des Éternels pour augmenter votre vitesse globale de %d%% pendant 5 tours.
+		Le bonus de vitesse augmente avec votre Dextérité ou votre Magie (la valeur la plus élevée).]], "tformat")
+t("Magic of the Eternals", "Magie des Éternels", "talent name")
 t([[Reality bends slightly in the presence of a Shaloren due to their inherent magical nature.
-		Increases critical chance by %d%% and critical strike power by %d%%.]], [[Reality bends slightly in the presence of a Shaloren due to their inherent magical nature.
-		Increases critical chance by %d%% and critical strike power by %d%%.]], "tformat")
-t("Secrets of the Eternals", "Secrets of the Eternals", "talent name")
+		Increases critical chance by %d%% and critical strike power by %d%%.]], [[La réalité se courbe légèrement en présence d'un Shaloréen en raison de sa nature magique inhérente.
+		Augmente les chances de critique de %d%% et la puissance des coups critiques de %d%%.]], "tformat")
+t("Secrets of the Eternals", "Secrets des Éternels", "talent name")
 t([[As the only immortal race of Eyal, Shaloren have learnt over the long years to use their innate inner magic to protect themselves.
-		%d%% chance to become invisible (power %d) for 5 turns when hit by a blow doing at least 10%% of your total life.]], [[As the only immortal race of Eyal, Shaloren have learnt over the long years to use their innate inner magic to protect themselves.
-		%d%% chance to become invisible (power %d) for 5 turns when hit by a blow doing at least 10%% of your total life.]], "tformat")
-t("Timeless", "Timeless", "talent name")
+		%d%% chance to become invisible (power %d) for 5 turns when hit by a blow doing at least 10%% of your total life.]], [[En tant que seule race immortelle d'Eyal, les Shaloréen ont appris au fil des siècles à utiliser leur magie intérieure innée pour se protéger.
+		Offre %d%% de chances de devenir invisible (puissance %d) pendant 5 tours lorsque vous subissez un coup infligeant au moins 10%% de votre vie maximale.]], "tformat")
+t("Timeless", "Hors du temps", "talent name")
 t([[The world grows old as you stand through the ages. To you, time is different.
-		Reduces the time remaining on detrimental effects by %d, most cooling down talents by %d, and increases the time remaining on beneficial effects by %d (up to 2 times the current duration).]], [[The world grows old as you stand through the ages. To you, time is different.
-		Reduces the time remaining on detrimental effects by %d, most cooling down talents by %d, and increases the time remaining on beneficial effects by %d (up to 2 times the current duration).]], "tformat")
-t("thalore", "thalore", "talent type")
+		Reduces the time remaining on detrimental effects by %d, most cooling down talents by %d, and increases the time remaining on beneficial effects by %d (up to 2 times the current duration).]], [[Le monde vieillit alors que vous traversez les âges. Pour vous, le temps est différent.
+		Réduit la durée restante des effets néfastes de %d tours, réduit le temps de recharge de la plupart des talents de %d tours, et augmente la durée restante des effets bénéfiques de %d tours (jusqu'à un maximum de 2 fois la durée actuelle).]], "tformat")
+t("Gift of the Woods", "Don des Bois", "talent name")
 t([[Call upon nature to regenerate your body for %d life every turn and increase healing mod by %d%% for 8 turns.
-		The life healed will increase with your Willpower or Constitution (whichever is higher).]], [[Call upon nature to regenerate your body for %d life every turn and increase healing mod by %d%% for 8 turns.
-		The life healed will increase with your Willpower or Constitution (whichever is higher).]], "tformat")
-t("Verdant", "Verdant", "talent name")
+		The life healed will increase with your Willpower or Constitution (whichever is higher).]], [[Invoque la nature pour régénérer votre corps à raison de %d points de vie par tour et augmente le modificateur de soin de %d%% pendant 8 tours.
+		La vie régénérée augmente avec votre Volonté ou votre Constitution (la valeur la plus élevée).]], "tformat")
+t("Verdant", "Verdoyant", "talent name")
 t([[Thaloren have an affinity for natural elements, allowing them to heal for a portion of damage taken from them.
-		You gain %d%% Nature and Acid damage affinity.]], [[Thaloren have an affinity for natural elements, allowing them to heal for a portion of damage taken from them.
-		You gain %d%% Nature and Acid damage affinity.]], "tformat")
-t("Guardian of the Wood", "Guardian of the Wood", "talent name")
+		You gain %d%% Nature and Acid damage affinity.]], [[Les Thaloréens ont une affinité avec les éléments naturels, ce qui leur permet de se soigner d'une partie des dégâts qu'ils en reçoivent.
+		Vous gagnez %d%% d'affinité aux dégâts de nature et d'acide.]], "tformat")
+t("Guardian of the Wood", "Gardien de la Forêt", "talent name")
 t([[Thaloren are part of the wood; it shields them from corruption.
-		Increase disease immunity by %d%%, blight resistance by %0.1f%%, and all resistances by %0.1f%%.]], [[Thaloren are part of the wood; it shields them from corruption.
-		Increase disease immunity by %d%%, blight resistance by %0.1f%%, and all resistances by %0.1f%%.]], "tformat")
-t("Nature's Pride", "Nature's Pride", "talent name")
-t("A very strong near-sentient tree.", "A very strong near-sentient tree.", "_t")
+		Increase disease immunity by %d%%, blight resistance by %0.1f%%, and all resistances by %0.1f%%.]], [[Les Thaloréens font partie de la forêt; elle les protège de la corruption.
+		Augmente l'immunité aux maladies de %d%%, la résistance aux fléaux de %0.1f%% et à toutes les résistances de %0.1f%%.]], "tformat")
+t("Nature's Pride", "Fierté de la Nature", "talent name")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("treant", "tréant", "_t")
+t("A very strong near-sentient tree.", "Un arbre très fort et presque conscient.", "_t")
 t([[Nature is with the Thaloren; they can always feel the call of the woods.
 		Summons two elite Treants to your side for 8 turns.
 		The treants have a global resistance equal to your blight resistance and can stun, knockback, and taunt foes.
 		Your Willpower (%d) will be added to all of their non-Magic primary stats and their talent levels will increase with your Nature's Pride talent level.
-		Your increased damage, damage penetration, and many other stats will be inherited.]], [[Nature is with the Thaloren; they can always feel the call of the woods.
-		Summons two elite Treants to your side for 8 turns.
-		The treants have a global resistance equal to your blight resistance and can stun, knockback, and taunt foes.
-		Your Willpower (%d) will be added to all of their non-Magic primary stats and their talent levels will increase with your Nature's Pride talent level.
-		Your increased damage, damage penetration, and many other stats will be inherited.]], "tformat")
-t("Resilience of the Dwarves", "Resilience of the Dwarves", "talent name")
-t([[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
-		The bonuses will increase with your Constitution.]], [[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
-		The bonuses will increase with your Constitution.]], "tformat")
+		Your increased damage, damage penetration, and many other stats will be inherited.]], [[La nature est avec les Thaloréens; ils ressentent en permanence l'appel de la forêt.
+		Invoque deux Tréants d'élite à vos côtés pendant 8 tours.
+		Les tréants possèdent une résistance globale égale à votre résistance aux fléaux et peuvent assommer, repousser et provoquer les ennemis.
+		Votre Volonté (%d) s'ajoute à toutes leurs statistiques principales non magiques, et leurs niveau de talents augmente avec votre niveau de talent de Fierté de la nature.
+		Ils héritent de vos bonus de dégâts, de votre pénétration de dégâts et de bien d'autres caractéristiques.]], "tformat")
+t("dwarf", "nain", "talent type")
+t("Stoneskin", "Peau de Pierre", "talent name")
 t([[Dwarf skin is a complex structure; it can automatically react to physical blows and harden itself.
 		When you are hit in melee, you have a 15%% chance to increase your armour total by %d for 5 turns and fully ignore the attack triggering it.
-		There is no cooldown to this effect; it can happen while already active.]], [[Dwarf skin is a complex structure; it can automatically react to physical blows and harden itself.
-		When you are hit in melee, you have a 15%% chance to increase your armour total by %d for 5 turns and fully ignore the attack triggering it.
-		There is no cooldown to this effect; it can happen while already active.]], "tformat")
-t("Power is Money", "Power is Money", "talent name")
+		There is no cooldown to this effect; it can happen while already active.]], [[La peau des nains est une structure complexe; elle peut réagir automatiquement aux coups physiques et se durcir.
+		Lorsque vous êtes touché au corps à corps, vous avez 15%% de chances d'augmenter votre armure totale de %d pendant 5 tours et d'ignorer complètement l'attaque qui a déclenché cet effet.
+		Cet effet n'a pas de temps de recharge et peut se déclencher à nouveau lorsqu'il est déjà actif.]], "tformat")
+t("Power is Money", "Le pouvoir de l'Argent", "talent name")
 t([[Money is the heart of the Dwarven Empire; it rules over all other considerations.
 		Increases Physical, Mental and Spell Saves based on the amount of gold you possess.
-		+1 save every %d gold, up to +%d. (currently +%d)]], [[Money is the heart of the Dwarven Empire; it rules over all other considerations.
-		Increases Physical, Mental and Spell Saves based on the amount of gold you possess.
-		+1 save every %d gold, up to +%d. (currently +%d)]], "tformat")
-t("Stone Walking", "Stone Walking", "talent name")
+		+1 save every %d gold, up to +%d. (currently +%d)]], [[L'argent est le coeur de l'Empire nain; il l'emporte sur toute autre considération.
+		Augmente vos sauvegardes physique, mentale et magique en fonction de la quantité d'or que vous possédez.
+		+1 à toutes les sauvegardes toutes les tranche de %d pièces d'or, jusqu'à un maximum de +%d. (Actuellement +%d)]], "tformat")
+t("Stone Walking", "Marche de Pierre", "talent name")
 t([[While the origins of the dwarves remain clouded in mystery to the other races, it is obvious that they share strong ties to the stone.
 		You can target any wall and immediately enter it, appearing on the other side.
-		This can pass through up to %d tiles (increases with Constitution and talent level).]], [[While the origins of the dwarves remain clouded in mystery to the other races, it is obvious that they share strong ties to the stone.
-		You can target any wall and immediately enter it, appearing on the other side.
-		This can pass through up to %d tiles (increases with Constitution and talent level).]], "tformat")
-t("Luck of the Little Folk", "Luck of the Little Folk", "talent name")
+		This can pass through up to %d tiles (increases with Constitution and talent level).]], [[Bien que les origines des nains restent entourées de mystère pour les autres races, il est évident qu'ils partagent des liens étroits avec la pierre.
+		Vous pouvez cibler n'importe quel mur pour y pénétrer immédiatement et apparaître de l'autre côté.
+		Peut traverser jusqu'à %d cases (augmente avec la Constitution et le niveau de talent).]], "tformat")
+t("halfling", "halfelin", "talent type")
+t("Luck of the Little Folk", "Chance du Petit Peuple", "talent name")
 t([[Call upon the luck and cunning of the Little Folk to increase your critical strike chance by %d%% and your saves by %d for 5 turns.
-		The bonus will increase with your Cunning.]], [[Call upon the luck and cunning of the Little Folk to increase your critical strike chance by %d%% and your saves by %d for 5 turns.
-		The bonus will increase with your Cunning.]], "tformat")
-t("Duck and Dodge", "Duck and Dodge", "talent name")
+		The bonus will increase with your Cunning.]], [[Fait appel à la chance et à la ruse du petit peuple pour augmenter vos chances de coup critique de %d%% et vos sauvegardes de %d pendant 5 tours.
+		Le bonus augmente avec votre Ruse.]], "tformat")
+t("Duck and Dodge", "Esquive et Dérobade", "talent name")
 t([[Halfling's incredible luck always kicks in at just the right moment to save their skin.
-		Whenever you take %d%% or more of your life from a single attack, you gain %d%% Evasion and %d additional defense for the next %d turns. The defense increases based on your luck and other defensive stats.]], [[Halfling's incredible luck always kicks in at just the right moment to save their skin.
-		Whenever you take %d%% or more of your life from a single attack, you gain %d%% Evasion and %d additional defense for the next %d turns. The defense increases based on your luck and other defensive stats.]], "tformat")
+		Whenever you take %d%% or more of your life from a single attack, you gain %d%% Evasion and %d additional defense for the next %d turns. The defense increases based on your luck and other defensive stats.]], [[L'incroyable chance d'un halfelin se manifeste toujours au bon moment pour sauver sa peau.
+		Chaque fois que vous perdez %d%% ou plus de votre vie en une seule attaque, vous gagnez %d%% d'Évasion et %d de défense supplémentaire pour les %d prochains tours. La défense augmente en fonction de votre chance et de vos autres statistiques défensives.]], "tformat")
+t("Militant Mind", "Esprit Militant", "talent name")
 t([[Halflings have always been a very organised and methodical race; the more foes they face, the more organised they are.
-		If two or more foes are in sight your Physical Power, Physical Save, Spellpower, Spell Save, Mental Save, and Mindpower are increased by %0.1f per foe (up to 5 foes).]], [[Halflings have always been a very organised and methodical race; the more foes they face, the more organised they are.
-		If two or more foes are in sight your Physical Power, Physical Save, Spellpower, Spell Save, Mental Save, and Mindpower are increased by %0.1f per foe (up to 5 foes).]], "tformat")
-t("Indomitable", "Indomitable", "talent name")
+		If two or more foes are in sight your Physical Power, Physical Save, Spellpower, Spell Save, Mental Save, and Mindpower are increased by %0.1f per foe (up to 5 foes).]], [[Le petit peuple a toujours été une race très organisée et méthodique; plus ils affrontent d'ennemis, plus ils sont organisés.
+		Si deux ennemis ou plus sont en vue, votre puissance physique, sauvegarde physique, puissance des sorts, sauvegarde des sorts, sauvegarde mentale, et puissance mentale augmentent de %0.1f par ennemi (jusqu'à 5 ennemis).]], "tformat")
+t("Indomitable", "Indomptable", "talent name")
 t([[Halflings have one of the most powerful military forces in the known world and have been at war with most other races for thousands of years.
-		Removes %d stun, daze, or pin effects and grants immunity to stuns, dazes and pins for %d turns.]], [[Halflings have one of the most powerful military forces in the known world and have been at war with most other races for thousands of years.
-		Removes %d stun, daze, or pin effects and grants immunity to stuns, dazes and pins for %d turns.]], "tformat")
-t("orc", "orc", "talent type")
+		Removes %d stun, daze, or pin effects and grants immunity to stuns, dazes and pins for %d turns.]], [[Le petit peuple possède l'une des forces militaires les plus puissantes du monde connu et est en guerre contre la plupart des autres races depuis des millénaires.
+		Supprime %d effets d'assomement, d'étourdissement, ou d'immobilisation et confère une immunité à ces mêmes effets pendant %d tours.]], "tformat")
+t("Orcish Fury", "Furie Orc", "talent name")
 t([[Summons your lust for blood and destruction; especially when the odds are against you.  
 		You increase your damage by 10%% + %0.1f%% per enemy you can see in line of sight of you (maximum 5 enemies, %0.1f%% bonus) for 3 turns.
-		The damage bonus will increase with your Constitution.]], [[Summons your lust for blood and destruction; especially when the odds are against you.  
-		You increase your damage by 10%% + %0.1f%% per enemy you can see in line of sight of you (maximum 5 enemies, %0.1f%% bonus) for 3 turns.
-		The damage bonus will increase with your Constitution.]], "tformat")
-t("Hold the Ground", "Hold the Ground", "talent name")
-t("#CRIMSON#%s roars with rage shaking off %d mental debuffs!", "#CRIMSON#%s roars with rage shaking off %d mental debuffs!", "logSeen")
+		The damage bonus will increase with your Constitution.]], [[Invoque votre soif de sang et de destruction, surtout lorsque le sort s'acharne contre vous.
+		Vous augmentez vos dégâts de 10%% + %0.1f%% par ennemi visible dans votre ligne de mire (maximum 5 ennemis, bonus de %0.1f%%) pendant 3 tours.
+		Le bonus de dégâts augmente avec votre Constitution.]], "tformat")
+t("Hold the Ground", "Tenir Bon", "talent name")
+t("#CRIMSON#%s roars with rage shaking off %d mental debuffs!", "#CRIMSON#%s rugit de rage et dissipe %d affaiblissements mentaux !", "logSeen")
 t([[Orcs have been the prey of the other races for thousands of years, with or without justification. They have learnt to withstand things that would break weaker races.
 		When your life goes below 50%% your sheer determination cleanses you of %d mental debuff(s) based on talent level and Willpower.  This can only happen once every %d turns.
-		Also increases physical save by %d.]], [[Orcs have been the prey of the other races for thousands of years, with or without justification. They have learnt to withstand things that would break weaker races.
-		When your life goes below 50%% your sheer determination cleanses you of %d mental debuff(s) based on talent level and Willpower.  This can only happen once every %d turns.
-		Also increases physical save by %d.]], "tformat")
+		Also increases physical save by %d.]], [[Les Orques sont les proies des autres races depuis des millénaires, à tort ou à raison. Ils ont appris à endurer ce qui briserait les races les plus faibles.
+		Lorsque votre vie descend sous les 50%%, votre seule détermination vous purge de %d malus mentaux selon le niveau du talent et votre Volonté. Cela ne peut se produire qu'une fois tous les %d tours.
+		Augmente également la sauvegarde physique de %d.]], "tformat")
+t("Skirmisher", "Tirailleur", "talent name")
 t([[Orcs have seen countless battles, and won many of them.
 		You revel in the defeat of your foes, gaining %d%% damage resistance for 2 turns each time you kill an enemy.
 		The resistance will scale with talent level and your Constitution.
-		Additionally, passively increase all damage penetration by %d%%.]], [[Orcs have seen countless battles, and won many of them.
-		You revel in the defeat of your foes, gaining %d%% damage resistance for 2 turns each time you kill an enemy.
-		The resistance will scale with talent level and your Constitution.
-		Additionally, passively increase all damage penetration by %d%%.]], "tformat")
-t("Pride of the Orcs", "Pride of the Orcs", "talent name")
+		Additionally, passively increase all damage penetration by %d%%.]], [[Les Orcs ont connu d'innombrables batailles et en ont gagné beaucoup.
+		Vous vous délectez de la défaite de vos ennemis, gagnant %d%% de résistance aux dégâts pendant 2 tours chaque fois que vous tuez un adversaire.
+		La résistance augmente avec le niveau du talent et votre Constitution.
+		De plus, augmente passivement toute pénétration de dégâts de %d%%.]], "tformat")
+t("Pride of the Orcs", "Fierté des Orcs", "talent name")
 t([[Call upon the will of all of the Orc Prides to survive this battle.
 		You remove up to %d detrimental effect(s) then heal for %d life.
-		The healing will increase with talent level and your Willpower.]], [[Call upon the will of all of the Orc Prides to survive this battle.
-		You remove up to %d detrimental effect(s) then heal for %d life.
-		The healing will increase with talent level and your Willpower.]], "tformat")
-t("yeek", "yeek", "talent type")
-t("Dominant Will", "Dominant Will", "talent name")
-t("%s is immune to instakill and mind control effects!", "%s is immune to instakill and mind control effects!", "logSeen")
-t("%s must be below 80%% of their max life to be controlled!", "%s must be below 80%% of their max life to be controlled!", "logSeen")
-t("%s resists the mental assault!", "%s resists the mental assault!", "logSeen")
+		The healing will increase with talent level and your Willpower.]], [[Fait appel à la volonté de toutes les Fiertés Orcs pour survivre à cette bataille.
+		Vous supprimez jusqu'à %d effets néfastes puis récupérez %d points de vie.
+		Le soin augmente avec le niveau du talent et votre Volonté.]], "tformat")
+t("Dominant Will", "Volonté Dominante", "talent name")
+t("%s is immune to instakill and mind control effects!", "%s est immunisé contre la mort subite et le contrôle mental!", "logSeen")
+t("%s must be below 80%% of their max life to be controlled!", "%s doit être en dessous de 80%% de sa vie maximale pour être contrôlé!", "logSeen")
+t("%s resists the mental assault!", "%s résiste à l'assaut mental!", "logSeen")
 t([[Shatter the mind of your victim, giving you full control of its actions for %s turns (based on your Willpower).
 	When the effect ends, you pull out your mind and the victim's body collapses, dead.
 	Targets with ranks at or above rare must be below 80%% of their maximum life to be controlled, will be invulnerable for the duration, and will break free of the effect without dying after 3 turns.
-	This effect cannot be saved against but checks instakill immunity.]], [[Shatter the mind of your victim, giving you full control of its actions for %s turns (based on your Willpower).
-	When the effect ends, you pull out your mind and the victim's body collapses, dead.
-	Targets with ranks at or above rare must be below 80%% of their maximum life to be controlled, will be invulnerable for the duration, and will break free of the effect without dying after 3 turns.
-	This effect cannot be saved against but checks instakill immunity.]], "tformat")
-t("Unity", "Unity", "talent name")
+	This effect cannot be saved against but checks instakill immunity.]], [[Brise l'esprit de votre victime, vous donnant le contrôle total de ses actions pendant %s tours (basé sur votre Volonté).
+	Lorsque l'effet prend fin vous détachez votre esprit et le corps de la victime s'effondre, mort.
+	Les cibles de rang rare ou supérieur doivent avoir moins de 80%% de leur vie maximale pour être contrôlées, seront invulnérables pendant la durée de l'effet, et se libéreront sans mourir après 3 tours.
+	Aucune sauvegarde ne protège contre cet effet, mais l'immunité à la mort subite est vérifiée.]], "tformat")
+t("Unity", "Unité", "talent name")
 t([[Your mind becomes more attuned to the Way, and is shielded from outside effects.
-		Increase confusion and silence immunities by %d%% and Mental Save by %d.]], [[Your mind becomes more attuned to the Way, and is shielded from outside effects.
-		Increase confusion and silence immunities by %d%% and Mental Save by %d.]], "tformat")
-t("Quickened", "Quickened", "talent name")
-t("#RED#%s reacts immediately after taking severe wounds!#LAST#", "#RED#%s reacts immediately after taking severe wounds!#LAST#", "logSeen")
+		Increase confusion and silence immunities by %d%% and Mental Save by %d.]], [[Votre esprit s'harmonise davantage avec la Voie et se protège des effets extérieurs.
+		Augmente les immunités à la confusion et au silence de %d%% et la sauvegarde mentale de %d.]], "tformat")
+t("Quickened", "Vivacité", "talent name")
+t("#RED#%s reacts immediately after taking severe wounds!#LAST#", "#RED#%s réagit immédiatement après avoir subi de graves blessures!#LAST#", "logSeen")
 t([[Yeeks live fast, think fast, and sacrifice fast for the Way.
 		Your global speed is increased by %0.1f%%.
-		If your life is below 30%% after taking damage you gain 1.5 turns.  This effect can only happen once every %d turns.]], [[Yeeks live fast, think fast, and sacrifice fast for the Way.
-		Your global speed is increased by %0.1f%%.
-		If your life is below 30%% after taking damage you gain 1.5 turns.  This effect can only happen once every %d turns.]], "tformat")
-t("Wayist", "Wayist", "talent name")
-t("A wayist that came to help.", "A wayist that came to help.", "_t")
+		If your life is below 30%% after taking damage you gain 1.5 turns.  This effect can only happen once every %d turns.]], [[Les Yeeks vivent vite, pensent vite et se sacrifient vite pour la Voie.
+		Votre vitesse globale est augmentée de %0.1f%%.
+		Si votre vie descend sous les 30%% après avoir subi des dégâts, vous gagnez 1,5 tour. Cet effet ne peut se produire qu'une fois tous les %d tours.]], "tformat")
+t("Wayist", "Adepte de la Voie", "talent name")
+t("yeek mindslayer", "tueur psionique yeek", "_t")
+t("A wayist that came to help.", "Un adepte de la Voie venu prêter main-forte.", "_t")
 t([[Reach through the collective psionic gestalt of the yeeks, the Way, to call for immediate help.
 		Summons up to 3 yeek mindslayers to your side for 6 turns.
 		All their primary stats will be set to %d (based on your Willpower and Talent Level).
-		Your increased damage, damage penetration, and many other stats will be inherited.]], [[Reach through the collective psionic gestalt of the yeeks, the Way, to call for immediate help.
-		Summons up to 3 yeek mindslayers to your side for 6 turns.
-		All their primary stats will be set to %d (based on your Willpower and Talent Level).
-		Your increased damage, damage penetration, and many other stats will be inherited.]], "tformat")
-t("Knowledge of the Way", "Knowledge of the Way", "talent name")
+		Your increased damage, damage penetration, and many other stats will be inherited.]], [[Puise dans la gestalt psiônica collective des yeeks, la Voie, pour appeler une aide immédiate.
+		Invoque jusqu'à 3 tueurs psionique yeeks à vos côtés pour 6 tours.
+		Toutes leurs caractéristiques principales seront fixées à %d (selon votre Volonté et le niveau du Talent).
+		Ils héritent de vos bonus de dégâts, vos pénétrations de résistance et de bien d'autres caractéristiques.]], "tformat")
+t("Knowledge of the Way", "Savoir de la Voie", "talent name")
 t([[You merge your mind with the rest of the Way for a brief moment; the sum of all yeek knowledge gathers in your mind
-		and allows you to identify any item you could not recognize yourself.]], [[You merge your mind with the rest of the Way for a brief moment; the sum of all yeek knowledge gathers in your mind
-		and allows you to identify any item you could not recognize yourself.]], "tformat")
-t("ogre", "ogre", "talent type")
+		and allows you to identify any item you could not recognize yourself.]], "Vous fusionnez un bref instant votre esprit avec le reste de la Voie; la somme de toutes les connaissances yeeks s'assemble dans votre esprit et vous permet d'identifier tout objet que vous ne pourriez reconnaître seul.", "tformat")
+t("Ogric Wrath", "Colère Ogrique", "talent name")
 t([[You enter an ogric wrath for %d turns, increasing your stun and pinning resistances by 20%% and all damage done by 10%%.
 		In addition, whenever you use an infusion or rune, miss a melee attack, or any damage you deal is reduced by a damage shield (or similar effect) you gain a charge of Ogre Fury (up to 5 charges total, each lasting 7 turns).
 		Each charge grants 20%% critical damage power and 5%% critical strike chance.
 		You lose a charge each time you deal a critical strike.
-		The duration will increase with your Strength.]], [[You enter an ogric wrath for %d turns, increasing your stun and pinning resistances by 20%% and all damage done by 10%%.
-		In addition, whenever you use an infusion or rune, miss a melee attack, or any damage you deal is reduced by a damage shield (or similar effect) you gain a charge of Ogre Fury (up to 5 charges total, each lasting 7 turns).
-		Each charge grants 20%% critical damage power and 5%% critical strike chance.
-		You lose a charge each time you deal a critical strike.
-		The duration will increase with your Strength.]], "tformat")
-t("Grisly Constitution", "Grisly Constitution", "talent name")
+		The duration will increase with your Strength.]], [[Vous entrez dans une colère ogrique pendant %d tours, augmentant vos résistances à l'assommement et à l'immobilisation de 20%% et tous vos dégâts infligés de 10%%.
+		De plus, chaque fois que vous utilisez une infusion ou une rune, ratez une attaque au corps à corps, ou que vos dégâts sont réduits par un bouclier (ou effet similaire), vous gagnez une charge de Colère Ogrique (jusqu'à 5 charges max, durant 7 tours chacune).
+		Chaque charge confère 20%% de puissance des dégâts critique et 5%% de chances de coup critique.
+		Vous perdez une charge chaque fois que vous infligez un coup critique.
+		La durée augmente avec votre Force.]], "tformat")
+t("Grisly Constitution", "Constitution Macabre", "talent name")
 t([[An ogre's body is acclimated to spells and inscriptions.
 		Increases spell save by %d and improves the contribution of primary stats on infusions and runes by %d%%.
 		At level 5 your body is so strong you can use a two handed weapon in your main hand while still using an offhand item.
-		When using a two handed weapon this way you suffer a 20%% accuracy, physical power, spellpower and mindpower penalty, decreasing by 5%% per size category above #{italic}#big#{normal}#; further, all damage procs from your weapons are reduced by 50%%.]], [[An ogre's body is acclimated to spells and inscriptions.
-		Increases spell save by %d and improves the contribution of primary stats on infusions and runes by %d%%.
-		At level 5 your body is so strong you can use a two handed weapon in your main hand while still using an offhand item.
-		When using a two handed weapon this way you suffer a 20%% accuracy, physical power, spellpower and mindpower penalty, decreasing by 5%% per size category above #{italic}#big#{normal}#; further, all damage procs from your weapons are reduced by 50%%.]], "tformat")
-t("Scar-Scripted Flesh", "Scar-Scripted Flesh", "talent name")
+		When using a two handed weapon this way you suffer a 20%% accuracy, physical power, spellpower and mindpower penalty, decreasing by 5%% per size category above #{italic}#big#{normal}#; further, all damage procs from your weapons are reduced by 50%%.]], [[Le corps d'un ogre est habitué aux sorts et aux inscriptions.
+		Augmente la sauvegarde magique de %d et améliore l'influence des caractéristiques principales sur les infusions et runes de %d%%.
+		Au niveau 5, votre corps est si fort que vous pouvez manier une arme à deux mains dans votre main principale tout en portant un objet en main secondaire.
+		En utilisant une arme à deux mains de la sorte, vous subissez une pénalité de 20%% en précision, puissance physique, puissance magique et puissance mentale, réduite de 5%% par catégorie de taille au-dessus de #{italic}#grand#{normal}#; de plus, tous les déclenchements de dégâts procs de vos armes sont réduits de 50%%.]], "tformat")
+t("Scar-Scripted Flesh", "Chair Gravée de Cicatrices", "talent name")
 t([[When you crit you have a %d%% chance to reduce by 1 the remaining cooldown of one of your inscriptions and of any saturations effects.
-		This effect can only happen once per turn.]], [[When you crit you have a %d%% chance to reduce by 1 the remaining cooldown of one of your inscriptions and of any saturations effects.
-		This effect can only happen once per turn.]], "tformat")
-t("#PURPLE#Your mastery over inscriptions is unmatched! One more inscriptions slot available to buy.", "#PURPLE#Your mastery over inscriptions is unmatched! One more inscriptions slot available to buy.", "logPlayer")
+		This effect can only happen once per turn.]], [[Lorsque vous infligez un coup critique, vous avez %d%% de chances de réduire de 1 le temps de recharge restant d'une de vos inscriptions et de tout effet de saturation.
+		Cet effet ne peut se produire qu'une fois par tour.]], "tformat")
+t("Writ Large", "Écrire Gros", "talent name")
+t("#PURPLE#Your mastery over inscriptions is unmatched! One more inscriptions slot available to buy.", "#PURPLE#Votre maîtrise des inscriptions est inégalée! Un emplacement d'inscription supplémentaire est disponible à l'achat.", "logPlayer")
 t([[Instantly removes runic and infusion saturations.
 		For %d turns your inscriptions cool down twice as fast.
-		At level 5 your command over inscriptions is so good that you can use one more (you still need a category point to unlock it; you need to exit the levelup screen to validate it).]], [[Instantly removes runic and infusion saturations.
-		For %d turns your inscriptions cool down twice as fast.
-		At level 5 your command over inscriptions is so good that you can use one more (you still need a category point to unlock it; you need to exit the levelup screen to validate it).]], "tformat")
+		At level 5 your command over inscriptions is so good that you can use one more (you still need a category point to unlock it; you need to exit the levelup screen to validate it).]], [[Supprime instantanément les saturations de runes et d'infusions.
+		Pendant %d tours, vos inscriptions se rechargent deux fois plus vite.
+		Au niveau 5, votre maîtrise des inscriptions est telle que vous pouvez en utiliser une de plus (vous aurez toujours besoin d'un point de catégorie pour la débloquer; vous devez quitter l'écran de montée de niveau pour valider).]], "tformat")
+-- texte non traduit
+--[==[
+t("race", "race", "talent category")
+t("shalore", "shalore", "talent type")
+t("thalore", "thalore", "talent type")
+t("Resilience of the Dwarves", "Resilience of the Dwarves", "talent name")
+t([[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
+		The bonuses will increase with your Constitution.]], [[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
+		The bonuses will increase with your Constitution.]], "tformat")
+t("orc", "orc", "talent type")
+t("yeek", "yeek", "talent type")
+t("ogre", "ogre", "talent type")
 --]==]
 
 
@@ -31104,7 +31103,7 @@ After days of travel, you have found the forest and entered it. What will you fi
 Vous êtes originaire de la région nord des royaumes alliés, une terre paisible où les humains et les halfelins ont élu domicile. Vous êtes originaire de la petite ville de Derth.
 Les humains sont la race la plus répandue dans ce pays, et vous êtes l'un d'entre eux. Afin de prouver votre valeur, vous avez décidé de vous aventurer dans les lieux anciens et sauvages du monde, à la recherche de trésors anciens et de gloire.
 
-Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thaloren, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
+Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thalore, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
 À l'ouest se trouve un autre endroit dangereux, les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
 
 Après des jours de voyage, vous avez trouvé la forêt et y êtes entré. Qu'allez-vous y trouver...?
@@ -31173,7 +31172,7 @@ Vous avez choisi une voie singulière: la voie de l'aventure, dont la solitude n
 
 Inspiré par les histoires de dragons, d'or, et de trésors cachés dans d'anciennes ruines, vous avez décidé de vous aventurer dans les lieux anciens et sauvages du monde à la recherche de gloire et de richesses.
 
-Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thaloren, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
+Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thalore, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
 À l'ouest se trouve un autre endroit dangereux: les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
 
 Après des jours de voyage, vous avez trouvé la forêt et y êtes entré. Qu'allez-vous y trouver...?
@@ -31193,7 +31192,7 @@ To the west lies another dangerous place: the old ruins of Kor'Pul. You heard th
 Vous faites partie des Nobles, la lignée humaine la plus puissante et la plus respectée. Beaucoup d'entre vous servent comme hauts conseillers dans les villes des royaumes alliés.
 Pas vous. Vous voulez plus. Vous voulez prouver votre valeur et vous faire votre propre place dans le monde. Vous avez décidé de vous aventurer dans les lieux anciens et sauvages du monde, à la recherche de trésors anciens et de gloire.
 
-Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thaloren, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
+Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thalore, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
 À l'ouest se trouve un autre endroit dangereux: les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
 
 ]], "_t")
@@ -31337,13 +31336,13 @@ To the east of Shatur, the Thaloren Capital, lies a dark part of the woods. Ever
 After days of travel, you have found Norgos' Lair and entered it. What will you find there...?
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
 Vous êtes un Thaloren, la race elfique la plus proche de la nature. Votre peuple vit depuis des millénaires dans sa forêt, prenant rarement part aux événements du monde extérieur.
-Pourtant, lorsque leur foyer est menacé, les Elfes Thaloren peuvent se révéler de redoutables combattants.
+Pourtant, lorsque leur foyer est menacé, les Elfes Thaloréen peuvent se révéler de redoutables combattants.
 Vous avez longtemps vécu une vie paisible au fond de la forêt, mais dernièrement, un profond malaise vous a poussé à explorer le monde.
 
 Vous avez décidé de vous aventurer dans des lieux anciens et sauvages à la recherche de trésors anciens et de gloire.
 
-Vous etes arrivé à l'ouest de la forêt de Thaloren, dans le repaire de Norgos. Norgos était un allié fidèle des Thaloren, protégeant la frontière occidentale. Mais dernièrement il est devenu corrompu et s'en prend même à ses anciens alliés.
-A l'est de Shatur, la capitale des Thaloren, se trouve une partie sombre de la forêt. Depuis la Brûlure Magique, cette zone a été corrompue. La faune et la flore y ont été transformées.
+Vous etes arrivé à l'ouest de la forêt de Thalore, dans le repaire de Norgos. Norgos était un allié fidèle des Thaloren, protégeant la frontière occidentale. Mais dernièrement il est devenu corrompu et s'en prend même à ses anciens alliés.
+A l'est de Shatur, la capitale des Thaloréens, se trouve une partie sombre de la forêt. Depuis la Brûlure Magique, cette zone a été corrompue. La faune et la flore y ont été transformées.
 
 Après des jours de voyage, vous avez trouvé la tanière de Norgos et y êtes entré. Qu'allez-vous y trouver...?
 ]], "_t")
@@ -33914,7 +33913,7 @@ t("The target is walking on an icy floor. Increasing movement speed by 20%, prov
 t("Font of Life", "Fontaine de Vie", "floorEffect desc")
 t("The target is near a font of life, granting %+0.2f life regeneration, %+0.2f equilibrium regeneration, %+0.2f stamina regeneration and %+0.2f psi regeneration.  (Only living creatures benefit.)", "La cible se trouve près d'une fontaine de vie, ce qui lui confère %+0.2f de régénération de vie, %+0.2f de régénération d'équilibre, %+0.2f de régénération d'endurance et %+0.2f de régénération psi. (Seules les créatures vivantes en bénéficient).", "tformat")
 t("Spellblaze Scar", "Cicatrice de la Brûlure Magique", "floorEffect desc")
-t("The target is near a spellblaze scar, granting +25% spell critical chance, +10% fire and blight damage but critical spells will drain arcane forces.", "La cible se trouve à proximité d'une cicatrice de la Brûlure Magique, ce qui lui confère +25% de chances de critique des sorts, +10% dégâts de feu et de maladie, mais les sorts critiques drainent les forces arcaniques.", "_t")
+t("The target is near a spellblaze scar, granting +25% spell critical chance, +10% fire and blight damage but critical spells will drain arcane forces.", "La cible se trouve à proximité d'une cicatrice de la Brûlure Magique, ce qui lui confère +25% de chances de critique des sorts, +10% dégâts de feu et de fléau, mais les sorts critiques drainent les forces arcaniques.", "_t")
 t("Blighted Soil", "Terre Viciée", "floorEffect desc")
 t("The target is walking on blighted soil, reducing diseases resistance by 60% and giving all attacks a 40% chance to infect the target with a random disease (can only happen once per turn).", "La cible marche sur une terre viciée, ce qui réduit la résistance aux maladies de 60% et donne à toutes les attaques 40% de chances d'infecter la cible avec une maladie aléatoire (ne peut se produire qu'une fois par tour).", "_t")
 t("Glimmerstone", "Pierre de Verre", "floorEffect desc")
@@ -33936,7 +33935,7 @@ t("The target is walking on slime. Decreasing movement speed by 20% and dealing 
 section "mod-tome/data/timed_effects/magical.lua"
 
 t("disease", "maladie", "effect subtype")
-t("blight", "maladie", "effect subtype")
+t("blight", "fléau", "effect subtype")
 t("Illness", "Affection", "_t")
 t("The target is infected by a disease, reducing its dexterity, strength, and constitution by %d.", "La cible est infectée par une maladie réduisant dextérité, force, et constitution de %d.", "tformat")
 t("#Target# is afflicted by a crippling illness!", "#Target# est atteint d'une affection invalidante!", "_t")
@@ -33989,7 +33988,7 @@ t("#Target#'s skin starts to shimmer.", "La peau de #Target# se met à miroiter.
 t("+Reflective Skin", "+Peau Réfléchissante", "_t")
 t("-Reflective Skin", "-Peau Réfléchissante", "_t")
 t("Vimsense", "Détection Vigoureuse", "_t")
-t("Reduces blight resistance by %d%% and all saves by %d.", "Réduit la résistance à la maladie de %d%% et toutes les sauvegardes de %d.", "tformat")
+t("Reduces blight resistance by %d%% and all saves by %d.", "Réduit la résistance au fléau de %d%% et toutes les sauvegardes de %d.", "tformat")
 t("phantasm", "fantasme", "effect subtype")
 t("invisibility", "invisibilité", "effect subtype")
 t("Invisibility", "invisibilité", "_t")
@@ -34128,7 +34127,7 @@ t("The target has been splashed with acid, taking %0.2f acid damage per turn, re
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide!", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
 t("Bloodfury", "Fureur du Sang", "_t")
-t("The target's blight and acid damage is increased by %d%%.", "Les dégâts de maladie et d'acide de la cible sont augmentés de %d%%.", "tformat")
+t("The target's blight and acid damage is increased by %d%%.", "Les dégâts de fléau et d'acide de la cible sont augmentés de %d%%.", "tformat")
 t("Reviving Phoenix", "La Renaissance du Phénix", "_t")
 t("Target is being brought back to life.", "La cible est ramenée à la vie.", "_t")
 t("#Target# is consumed in a burst of flame. All that remains is a fiery egg.", "#Target# est consumé dans une explosion de flammes. Il ne reste plus qu'un oeuf brûlant.", "_t")
@@ -34159,7 +34158,7 @@ t("+Premonition Shield", "+Bouclier Prémonitoire", "_t")
 t("The protective shield of #Target# disappears.", "Le bouclier prémonitoire de #Target# disparaît.", "_t")
 t("-Premonition Shield", "-Bouclier Prémonitoire", "_t")
 t("Corrosive Worm", "Ver Corrosif", "_t")
-t("The target is infected with a corrosive worm, reducing blight and acid resistance by %d%%. When the effect ends, the worm will explode, dealing %d acid damage in a 4 radius ball. This damage will increase by %d%% of all damage taken while under torment", "La cible est infectée par un ver corrosif, réduisant ses résistances à la maladie et à l'acide de %d%%. Lorsque l'effet prend fin, le ver explose, infligeant %d dégâts d'acide dans un rayon de 4. Ces dégâts augmentent de %d%% pour tous les dégâts subis pendant le tourment.", "tformat")
+t("The target is infected with a corrosive worm, reducing blight and acid resistance by %d%%. When the effect ends, the worm will explode, dealing %d acid damage in a 4 radius ball. This damage will increase by %d%% of all damage taken while under torment", "La cible est infectée par un ver corrosif, réduisant ses résistances au fléau et à l'acide de %d%%. Lorsque l'effet prend fin, le ver explose, infligeant %d dégâts d'acide dans un rayon de 4. Ces dégâts augmentent de %d%% pour tous les dégâts subis pendant le tourment.", "tformat")
 t("#Target# is infected by a corrosive worm.", "#Target# est infecté par un ver corrosif.", "_t")
 t("+Corrosive Worm", "+Ver Corrosif", "_t")
 t("#Target# is free from the corrosive worm.", "#Target# est débarrassé du ver corrosif.", "_t")
@@ -34312,19 +34311,19 @@ t("Overwhelming magic has temporarily interfered with all damage resistances, lo
 t("+Spellshocked", "+Choc de Sort", "_t")
 t("-Spellshocked", "-Choc de Sort", "_t")
 t("Rotting Disease", "Maladie Mortelle", "_t")
-t("The target is infected by a disease, reducing its constitution by %d and doing %0.2f blight damage per turn.", "La cible est infectée par une maladie qui réduit sa constitution de %d et lui inflige %0.2f dégâts de maladie par tour.", "tformat")
+t("The target is infected by a disease, reducing its constitution by %d and doing %0.2f blight damage per turn.", "La cible est infectée par une maladie qui réduit sa constitution de %d et lui inflige %0.2f dégâts de fléau par tour.", "tformat")
 t("#Target# is afflicted by a rotting disease!", "#Target# est affecté par une maladie mortelle!", "_t")
 t("#Target# is free from the rotting disease.", "#Target# est libéré d'une maladie mortelle.", "_t")
 t("Decrepitude Disease", "Maladie de Décrépitude", "_t")
-t("The target is infected by a disease, reducing its dexterity by %d and doing %0.2f blight damage per turn.", "La cible est infectée par une maladie qui réduit sa dextérité de %d et lui inflige %0.2f dégâts de maladie par tour.", "tformat")
+t("The target is infected by a disease, reducing its dexterity by %d and doing %0.2f blight damage per turn.", "La cible est infectée par une maladie qui réduit sa dextérité de %d et lui inflige %0.2f dégâts de fléau par tour.", "tformat")
 t("#Target# is afflicted by a decrepitude disease!", "#Target# est affecté par une maladie de décrépitude!", "_t")
 t("#Target# is free from the decrepitude disease.", "#Target# est libéré de la maladie de décrépitude.", "_t")
 t("Weakness Disease", "Maladie Affaiblissante", "_t")
-t("The target is infected by a disease, reducing its strength by %d and doing %0.2f blight damage per turn.", "La cible est infectée par une maladie qui réduit sa force de %d et lui inflige %0.2f dégâts de maladie par tour.", "tformat")
+t("The target is infected by a disease, reducing its strength by %d and doing %0.2f blight damage per turn.", "La cible est infectée par une maladie qui réduit sa force de %d et lui inflige %0.2f dégâts de fléau par tour.", "tformat")
 t("#Target# is afflicted by a weakness disease!", "#Target# est affecté par une maladie affaiblissante!", "_t")
 t("#Target# is free from the weakness disease.", "#Target# est libéré d'une maladie affaiblissante.", "_t")
 t("Woeful Disease", "Horrible Maladie", "_t")
-t("The target is infected by a disease, reducing its strength, constitution, dexterity by %d and doing %0.2f blight damage per turn.", "La cible est infectée par une maladie qui réduit sa force, sa constitution et sa dextérité de %d et lui inflige %0.2f dégâts de maladie par tour.", "tformat")
+t("The target is infected by a disease, reducing its strength, constitution, dexterity by %d and doing %0.2f blight damage per turn.", "La cible est infectée par une maladie qui réduit sa force, sa constitution et sa dextérité de %d et lui inflige %0.2f dégâts de fléau par tour.", "tformat")
 t("#Target# is afflicted by a woeful disease!", "#Target# est affecté par une horrible maladie!", "_t")
 t("#Target# is free from the woeful disease.", "#Target# est libéré d'une horrible maladie.", "_t")
 t("Woeful Darkness", "Horrible Obscurité", "_t")
@@ -34342,20 +34341,20 @@ t("#Target# is crippled.", "#Target# est estropié.", "_t")
 t("#Target# is not crippled anymore.", "#Target# n'est plus estropié.", "_t")
 t("Epidemic", "Épidémie", "_t")
 t([[The target is infected by a disease, doing %0.2f blight damage per turn and reducing healing received by %d%%.
-Each non-disease blight damage done to it will spread the disease.]], [[La cible est infectée par une maladie, qui lui inflige %0.2f dégâts de maladie par tour et réduit les soins reçus de %d%%.
-Pour chaque dégâts autre que maladie infligé aà la cible, la maladie se propage.]], "tformat")
+Each non-disease blight damage done to it will spread the disease.]], [[La cible est infectée par une maladie, qui lui inflige %0.2f dégâts de fléau par tour et réduit les soins reçus de %d%%.
+Pour chaque dégâts autre que fléau infligé à la cible, la maladie se propage.]], "tformat")
 t("#Target# is afflicted by an epidemic!", "#Target# est affecté par une épidémie!", "_t")
 t("#Target# is free from the epidemic.", "#Target# est libéré d'une épidémie.", "_t")
 t("Worm Rot", "Ver de Pourriture", "_t")
 t([[The target is infected with carrion worm larvae.  Each turn it will lose one beneficial physical effect and %0.2f blight and acid damage will be inflicted.
-After five turns the disease will inflict %0.2f blight damage and spawn a carrion worm mass.]], [[La cible est infectée par les larves du ver de la charogne.  Chaque tour, elle perd un effet physique bénéfique et subit %0.2f dégâts de maladie et d'acide.
-Au bout de cinq tours, la maladie inflige %0.2f dégâts de maladie et engendre une masse de vers charognards.]], "tformat")
+After five turns the disease will inflict %0.2f blight damage and spawn a carrion worm mass.]], [[La cible est infectée par les larves du ver de la charogne.  Chaque tour, elle perd un effet physique bénéfique et subit %0.2f dégâts de fléau et d'acide.
+Au bout de cinq tours, la maladie inflige %0.2f dégâts de fléau et engendre une masse de vers charognards.]], "tformat")
 t("#Target# is afflicted by a terrible worm rot!", "#Target# est affecté par un terrible ver de pourriture!", "_t")
 t("#Target# is free from the worm rot.", "#Target# est libéré d'un ver de pourriture.", "_t")
 t("#LIGHT_RED#A carrion worm mass bursts out of %s!", "#LIGHT_RED#Une masse de vers charognards jaillit de %s!", "logSeen")
 t("Ghoul Rot", "Pourriture de Goule", "_t")
 t("  If the target dies while ghoul rot is active it will rise as a ghoul.", "  Si la cible meurt alors que la pourriture de goule est active, elle se relève en tant que goule.", "_t")
-t("The target is infected by a disease doing %0.2f blight damage per turn.%s", "La cible est infectée par une maladie infligeant %0.2f dégâts de maladie par tour.%s", "tformat")
+t("The target is infected by a disease doing %0.2f blight damage per turn.%s", "La cible est infectée par une maladie infligeant %0.2f dégâts de fléau par tour.%s", "tformat")
 t("#Target# is afflicted by ghoul rot!", "#Target# est affecté par la pourriture de goule!", "_t")
 t("#Target# is free from the ghoul rot.", "#Target# est libéré de la pourriture de goule.", "_t")
 t("Bloodcasting", "Lancement Sanguinolant", "_t")
@@ -34446,7 +34445,7 @@ t("+Temporal Form", "+Forme temporelle", "_t")
 t("#Target# is no longer embeded in time.", "#Target# Didier n'est plus figé dans le temps.", "_t")
 t("-Temporal Form", "-Forme temporelle", "_t")
 t("Corrupted Losgoroth Form", "Forme de Losgoroth Corrompue", "_t")
-t("The target has assumed the form of a corrupted losgoroth, gaining immunity to poison, disease, bleeding, and confusion.  It does not need to breathe, and converts half of all damage to life draining blight.", "La cible a pris la forme d'un losgoroth corrompu, gagnant une immunité au poison, à la maladie, au saignement et à la confusion.  Elle n'a pas besoin de respirer et convertit la moitié des dégâts en maladie qui draine la vie.", "tformat")
+t("The target has assumed the form of a corrupted losgoroth, gaining immunity to poison, disease, bleeding, and confusion.  It does not need to breathe, and converts half of all damage to life draining blight.", "La cible a pris la forme d'un losgoroth corrompu, gagnant une immunité au poison, à la maladie, au saignement et à la confusion.  Elle n'a pas besoin de respirer et convertit la moitié des dégâts en fléau qui draine la vie.", "tformat")
 t("#Target# turns into a losgoroth!", "#Target# se transforme en losgoroth!", "_t")
 t("+Corrupted Losgoroth Form", "+Forme de Losgoroth Corrompue", "_t")
 t("#Target# is no longer transformed.", "#Target# n'est plus transformé.", "_t")
@@ -34520,7 +34519,7 @@ t("+Light Burst Speed", "+Vitesse de Lumière Pulsée", "_t")
 t("-Light Burst Speed", "-Vitesse de Lumière Pulsée", "_t")
 t("heal", "soin", "effect subtype")
 t("Healing Inversion", "Soins Inversé", "_t")
-t("All healing done to the target will instead turn into %d%% blight damage.", "Tous les soins prodigués à la cible se transforment en %d%% dégâts de maladie.", "tformat")
+t("All healing done to the target will instead turn into %d%% blight damage.", "Tous les soins prodigués à la cible se transforment en %d%% dégâts de fléau.", "tformat")
 t("+Healing Inversion", "+Soins Inversé", "_t")
 t("-Healing Inversion", "-Soins Inversé", "_t")
 t("Shocked", "Choqué", "_t")
@@ -34646,29 +34645,29 @@ t("+Tether", "+Attache", "_t")
 t("#Target# is no longer tethered.", "#Target# n'est plus attaché.", "_t")
 t("-Tether", "-Attache", "_t")
 t("Blight Poison", "Poison Morbide", "_t")
-t("The target is poisoned, taking %0.2f blight damage per turn.", "La cible est empoisonnée et subit %0.2f dégâts de maladie par tour.", "tformat")
+t("The target is poisoned, taking %0.2f blight damage per turn.", "La cible est empoisonnée et subit %0.2f dégâts de fléau par tour.", "tformat")
 t("#Target# is poisoned with blight!", "#Target# est empoisonné par un poison morbide!", "_t")
 t("+Blight Poison", "+Poison Morbide", "_t")
 t("#Target# is free from the blighted poison.", "#Target# est libéré du poison morbide.", "_t")
 t("-Blight Poison", "-Poison Morbide", "_t")
-t("Insidious Blight", "Maladie Insidieuse", "_t")
-t("The target is poisoned, taking %0.2f blight damage per turn and decreasing all heals received by %d%%.", "La cible est empoisonnée, et subit %0.2f dégâts de maladie par tour et diminuant les soins reçus de %d%%.", "tformat")
-t("#Target# is poisoned with insidious blight!!", "#Target# est empoisonné par une maladie insidieuse!!", "_t")
-t("+Insidious Blight", "+Maladie Insidieuse", "_t")
-t("#Target# is free from the insidious blight.", "#Target# est libéré d'une maladie insidieuse.", "_t")
-t("-Insidious Blight", "-Maladie Insidieuse", "_t")
-t("Crippling Blight", "Maladie Estropiante", "_t")
-t("The target is poisoned and sick, doing %0.2f blight damage per turn. Each time it tries to use a talent there is %d%% chance of failure.", "La cible est empoisonnée et malade, et subit %0.2f dégâts de maladie par tour. Chaque fois qu'elle tente d'utiliser un talent elle a %d%% de chances d'échouer.", "tformat")
-t("#Target# is poisoned with crippling blight!", "#Target# est empoisonné par une maladie estropiante!", "_t")
-t("+Crippling Blight", "+Maladie Estropiante", "_t")
-t("#Target# is free from the crippling blight.", "#Target# est libéré d'une maladie estropiante.", "_t")
-t("-Crippling Blight", "-Maladie Estropiante", "_t")
-t("Numbing Blight", "Maladie Engourdissante", "_t")
-t("The target is poisoned and sick, doing %0.2f blight damage per turn. All damage it does is reduced by %d%%.", "La cible est empoisonnée et malade, et subit %0.2f dégâts de maladie par tour. Tous les dégâts qu'elle inflige sont réduits de %d%%.", "tformat")
-t("#Target# is poisoned numbing blight!", "#Target# est ampoisonné par une maladie engourdissante!", "_t")
-t("+Numbing Blight", "+Maladie Engourdissante", "_t")
-t("#Target# is free from the numbing blight.", "#Target# est libéré d'une maladie engourdissante.", "_t")
-t("-Numbing Blight", "-Maladie Engourdissante", "_t")
+t("Insidious Blight", "Fléau Insidieux", "_t")
+t("The target is poisoned, taking %0.2f blight damage per turn and decreasing all heals received by %d%%.", "La cible est empoisonnée, et subit %0.2f dégâts de fléau par tour et diminuant les soins reçus de %d%%.", "tformat")
+t("#Target# is poisoned with insidious blight!!", "#Target# est empoisonné par un fléau insidieux!!", "_t")
+t("+Insidious Blight", "+Fléau Insidieux", "_t")
+t("#Target# is free from the insidious blight.", "#Target# est libéré d'un fléau insidieux.", "_t")
+t("-Insidious Blight", "-Fléau Insidieux", "_t")
+t("Crippling Blight", "Fléau Estropiant", "_t")
+t("The target is poisoned and sick, doing %0.2f blight damage per turn. Each time it tries to use a talent there is %d%% chance of failure.", "La cible est empoisonnée et malade, et subit %0.2f dégâts de fléau par tour. Chaque fois qu'elle tente d'utiliser un talent elle a %d%% de chances d'échouer.", "tformat")
+t("#Target# is poisoned with crippling blight!", "#Target# est empoisonné par un fléau estropiant!", "_t")
+t("+Crippling Blight", "+Fléau Estropiant", "_t")
+t("#Target# is free from the crippling blight.", "#Target# est libéré d'un fléau estropiante", "_t")
+t("-Crippling Blight", "-Fléau Estropiant", "_t")
+t("Numbing Blight", "Fléau Engourdissant", "_t")
+t("The target is poisoned and sick, doing %0.2f blight damage per turn. All damage it does is reduced by %d%%.", "La cible est empoisonnée et malade, et subit %0.2f dégâts de fléau par tour. Tous les dégâts qu'elle inflige sont réduits de %d%%.", "tformat")
+t("#Target# is poisoned numbing blight!", "#Target# est ampoisonné par un fléau engourdissant!", "_t")
+t("+Numbing Blight", "+Fléau Engourdissant", "_t")
+t("#Target# is free from the numbing blight.", "#Target# est libéré d'un fléau engourdissant.", "_t")
+t("-Numbing Blight", "-Fléau Engourdissant", "_t")
 t("Eldritch Stone Shield", "Bouclier de Pierre Occulte", "_t")
 t("The target is surrounded by a stone shield absorbing %d/%d damage.  When the shield is removed, it will explode for up to %d (currently %d) Arcane damage in a radius %d.", "La cible est entourée d'un bouclier de pierre qui absorbe %d/%d dégâts.  Lorsque le bouclier est retiré, il explose pour infliger jusqu'à %d (actuellement %d) dégâts arcaniques dans un rayon de %d.", "tformat")
 t("#Target# is encased in a stone shield.", "#Target# est entouré d'un bouclier de pierre.", "_t")
@@ -35121,7 +35120,7 @@ t("The powerful thermal shield around #target# crumbles.", "Le puissant bouclier
 t("Spiked Charged Shield", "Bouclier Chargé à Pointes", "_t")
 t(", darkness", ", obscurité", "_t")
 t(", mind", ", esprit", "_t")
-t("The target erects a powerful charged shield capable of absorbing %d/%d lightning%s or blight damage before it crumbles.", "La cible érige un puissant bouclier chargé capable d'absorber %d/%d des dégâts de foudre%s ou de maladie avant de s'effondrer.", "tformat")
+t("The target erects a powerful charged shield capable of absorbing %d/%d lightning%s or blight damage before it crumbles.", "La cible érige un puissant bouclier chargé capable d'absorber %d/%d des dégâts de foudre %s ou de fléau avant de s'effondrer.", "tformat")
 t("A powerful charged shield forms around #target#.", "Un puissant bouclier chargé se forme autour de #target#.", "_t")
 t("The powerful charged shield around #target# crumbles.", "Le puissant bouclier chargé autour de #target# s'effondre.", "_t")
 t("Perfect control", "Contrôle Parfait", "_t")
@@ -35250,7 +35249,7 @@ t("%s Psionic Shield", "Bouclier psionique de %s", "tformat")
 t("Reduces all incoming %s damage by %d.", "Réduit tous les dégâts %s reçus de %d.", "tformat")
 t("physical, nature, acid, temporal", "physique, de nature, d'acide, temporel", "_t")
 t("fire, cold, light, arcane", "de feu, de froid, de lumière, d'arcane", "_t")
-t("lightning, blight, mind, darkness", "de foudre, de maladie, d'esprit, d'obscurité", "_t")
+t("lightning, blight, mind, darkness", "de foudre, de fléau, d'esprit, d'obscurité", "_t")
 t("all", "tous", "_t")
 t("Clear Mind", "Lucidité", "_t")
 t("Nullifies the next %d detrimental mental effects.", "Annule les prochains %d effets mentaux néfastes.", "tformat")
@@ -35704,7 +35703,7 @@ t("Zone-wide effect: +10% temporal damage, -10% temporal resistance, -10% spell 
 t("Uncontrolled anger", "Colère incontrôlée", "_t")
 t("Zone-wide effect: +10% physical damage, -10% physical resistance, -10% mindpower, -20% knockback immunity.", "Effet de zone: +10% dégâts physiques, -10% de résistance physique, -10% de puissance mentale, -20% d'immunité au repoussement.", "_t")
 t("Miasma", "Miasme", "_t")
-t("Zone-wide effect: +10% blight damage, -10% blight resistance, -20% healing mod, -20% disease immunity.", "Effet de zone: +10% aux dégâts de maladie, -10% à la résistance aux maladies, -20% au bonus de soins, -20% à l'immunité aux maladies.", "_t")
+t("Zone-wide effect: +10% blight damage, -10% blight resistance, -20% healing mod, -20% disease immunity.", "Effet de zone: +10% aux dégâts de fléau, -10% à la résistance aux fléaux, -20% au bonus de soins, -20% à l'immunité aux maladies.", "_t")
 t("Slimy floor", "Sol visqueux", "_t")
 t("Zone-wide effect: +10% nature damage, -10% nature resistance, -10% ranged defense, -20% poison immunity.", "Effet de zone: +10% aux dégâts de nature, -10% à la résistance à la nature, -10% à la défense à distance, -20% à l'immunité au poison.", "_t")
 t("vault", "chambre forte", "effect subtype")
@@ -35814,15 +35813,15 @@ t("Zone-wide effect: +20 magic, +2 mana regen, -20 accuracy, -20 stealth power."
 t("Disciplined Aura", "Aura de Discipline", "_t")
 t("Zone-wide effect: +20 defense, +20 all saves, -20 spell power.", "Effet de zone: +20 de défense, +20 à toutes les sauvegardes, -20 de puissance des sorts.", "_t")
 t("Sinister Aura", "Aura Sinistre", "_t")
-t("Zone-wide effect: +10% critical chance, +20% critical damage, -20% nature and blight resistance.", "Effet de zone: +10% de chances de critique, +20% de dégâts critiques, -20% de résistance à la nature et à la maladie.", "_t")
+t("Zone-wide effect: +10% critical chance, +20% critical damage, -20% nature and blight resistance.", "Effet de zone: +10% de chances de critique, +20% de dégâts critiques, -20% de résistance à la nature et au fléau.", "_t")
 t("Underwater Zone", "Zone Sous-Marine", "_t")
 t("Zone-wide effect: Air decreases over time. If you run out of air you will start losing life. Look for bubbles to recover air. The water also reduces stun resistance by 10% and fire damage is reduced by 10%, however cold damage is increased by 10%.", "Effet de zone: Le niveau d'oxygène diminue progressivement. Si vous venez à manquer d'oxygène, vous commencerez à perdre de la vie. Cherchez des bulles pour récupérer de l'oxygène. L'eau réduit également la résistance à l'assomement de 10% et les dégâts de feu de 10%, mais augmente les dégâts de froid de 10%.", "_t")
 t("Fearscape Zone", "Zone Effrayante", "_t")
-t("Zone-wide effect: The flames of the Fearscape increase all fire and blight damage by 10%, but the weird gravity reduces knockback resistance by 20%.", "Effet de zone: Les flammes du Plan de la Peur augmentent tous les dégâts de feu et de maladie de 10%, mais l'étrange gravité réduit la résistance au repoussement de 20%.", "_t")
+t("Zone-wide effect: The flames of the Fearscape increase all fire and blight damage by 10%, but the weird gravity reduces knockback resistance by 20%.", "Effet de zone: Les flammes du Plan de la Peur augmentent tous les dégâts de feu et de fléau de 10%, mais l'étrange gravité réduit la résistance au repoussement de 20%.", "_t")
 t("Out of Time Zone", "Zone Hors du Temps", "_t")
 t("Zone-wide effect: You seem to be outside the normal spacetime continuum. +10% physical resistance, -10% temporal resistance and -20% teleport resistance.", "Effet de zone: Vous semblez vous trouver en dehors du continuum spatio-temporel normal. +10% de résistance physique, -10% de résistance temporelle et -20% de résistance à la téléportation.", "_t")
 t("Spellblaze Aura", "Aura de la Brûlure magique", "_t")
-t("Zone-wide effect: The power of the Spellblaze still burns here. -10% resistance to fire, arcane and blight damage, but +10% cold resistance. WARNING: The powerful magic here reflects teleportation magic!", "Effet de zone: La puissance de la Brûlure magique continue de se faire sentir ici. -10% de résistance aux feu, d'arcane, et de maladie, mais +10% de résistance au froid. AVERTISSEMENT: la puissante magie qui règne ici renvoie les sorts de téléportation!", "_t")
+t("Zone-wide effect: The power of the Spellblaze still burns here. -10% resistance to fire, arcane and blight damage, but +10% cold resistance. WARNING: The powerful magic here reflects teleportation magic!", "Effet de zone: La puissance de la Brûlure magique continue de se faire sentir ici. -10% de résistance aux feu, d'arcane, et de fléau, mais +10% de résistance au froid. AVERTISSEMENT: la puissante magie qui règne ici renvoie les sorts de téléportation!", "_t")
 t("Heady Scent", "Parfum Enivrant", "_t")
 t("Zone-wide effect: Strong scents fill the air and make you feel drowsy. If the timer reaches 0 you will fall into a dreaming sleep state. -10% mind resistance, -20% sleep resistance, +10% nature damage.", "Effet de zone: De puissantes odeurs envahissent l'air et vous plongent dans un état de somnolence. Si le compte à rebours atteint 0, vous tombez dans un état de sommeil profond. -10% de résistance mentale, -20% de résistance au sommeil, +10% de dégâts de nature.", "_t")
 t("Thunderstorm", "Orage", "_t")
@@ -36127,7 +36126,7 @@ t("Wrath of the Woods", "Colère de la Forêt", "_t")
 t("The target calls upon its inner resources, improving all damage by %d%% and reducing all damage taken by %d%%.", "La cible mobilise ses ressources intérieures, augmentant tous ses dégâts de %d%% et réduisant tous les dégâts subis de %d%%.", "tformat")
 t("#Target# radiates power.", "#Target# rayonne de puissance.", "_t")
 t("#Target#'s aura of power vanishes.", "L'aura de puissance de #Target# s'évanouit.", "_t")
-t("Wrath of the Highborn", "Colère des Bien-Nés", "_t")
+t("Wrath of the Highborn", "Courroux des Bien-Nés", "_t")
 t("Shell Shield", "Carapace Protectrice", "_t")
 t("The target takes cover in its shell, gaining %d%% all resist.", "La cible se réfugie dans sa carapace, gagnant %d%% de résistance à tout.", "tformat")
 t("#Target# takes cover under its shell.", "#Target# se réfugie dans sa carapace.", "_t")
@@ -36148,10 +36147,10 @@ t("#Target# attunes to the wild.", "#Target# est en harmonie avec la nature.", "
 t("+Primal", "+Harmonisation", "_t")
 t("#Target# is no longer one with nature.", "#Target# n'est plus en harmonie avec la nature.", "_t")
 t("-Primal", "-Harmonisation", "_t")
-t("Purge Blight", "Purge de la maladies", "_t")
-t("The target is infused with the power of nature, reducing all blight damage taken by %d%%, increasing spell saves by %d, and granting immunity to diseases.", "La cible est imprégnée de la puissance de la nature, ce qui réduit de %d%% les dégâts de maladie subis, augmente les jets de sauvegarde contre les sorts de %d et confère une immunité contre la maladies.", "tformat")
-t("#Target# rejects blight!", "#Target# rejette la maladie!", "_t")
-t("#Target# is susceptible to blight again.", "#Target# est à nouveau susceptible à la maladie.", "_t")
+t("Purge Blight", "Purge du Fléau", "_t")
+t("The target is infused with the power of nature, reducing all blight damage taken by %d%%, increasing spell saves by %d, and granting immunity to diseases.", "La cible est imprégnée de la puissance de la nature, ce qui réduit de %d%% les dégâts de fléau subis, augmente les jets de sauvegarde contre les sorts de %d et confère une immunité contre la maladies.", "tformat")
+t("#Target# rejects blight!", "#Target# rejette le fléau!", "_t")
+t("#Target# is susceptible to blight again.", "#Target# est à nouveau susceptible au fléau.", "_t")
 t("sense", "sens", "effect subtype")
 t("Sensing", "Détection", "_t")
 t("Improves senses, allowing the detection of unseen things.", "Améliore les sens, permettant de détecter des choses non vues.", "_t")
@@ -38225,7 +38224,7 @@ t("You have %d stat point(s) to spend. Press p to use them.", "Vous disposez de 
 t("You have %d class talent point(s) to spend. Press p to use them.", "Vous disposez de %d points de talent de classe à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
 t("You have %d generic talent point(s) to spend. Press p to use them.", "Vous disposez de %d points de talent génériques à dépenser. Appuyez sur p pour les utiliser.", "logPlayer")
 t("You are transformed by the corrupted heart of the Queen!", "Vous êtes transformés par le coeur corrompu de la Reine !", "logPlayer")
-t("#00FF00#You gain an affinity for blight. You can now learn new Vile Life talents (press p).", "#00FF00#Vous développez une affinité pour la maladie. Vous pouvez désormais apprendre de nouveaux talents de Vie Infecte (appuyez sur p).", "logPlayer")
+t("#00FF00#You gain an affinity for blight. You can now learn new Vile Life talents (press p).", "#00FF00#Vous développez une affinité pour le fléau. Vous pouvez désormais apprendre de nouveaux talents de Vie Infecte (appuyez sur p).", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/zones/mark-spellblaze/zone.lua"
@@ -38312,11 +38311,11 @@ section "mod-tome/data/zones/norgos-lair/npcs.lua"
 
 t("Norgos, the Frozen", "Norgos, le Gelé", "entity name")
 t([[This ancient bear long guarded the western side of the forest, but as of late he started growing mad, attacking even the Thaloren.
-It seems to have fallen prey to the shivgoroth invading the area. Dead and frozen, it seems like a statue, animated by the elementals.]], [[Cet ours ancestral gardait depuis longtemps le côté ouest de la forêt, mais depuis peu, il a sombré dans la folie attaquant même les Thaloren.
+It seems to have fallen prey to the shivgoroth invading the area. Dead and frozen, it seems like a statue, animated by the elementals.]], [[Cet ours ancestral gardait depuis longtemps le côté ouest de la forêt, mais depuis peu, il a sombré dans la folie attaquant même les Thaloréens.
 Il semble avoir été victime du shivgoroth qui envahit la région. Mort et figé, il ressemble à une statue animée par les élémentaires.]], "_t")
 t("and was turned into icicles", "et s'est transformée en stalactites", "_t")
 t("Norgos, the Guardian", "Norgos, le Gardien", "entity name")
-t("This ancient bear long guarded the western side of the forest, but as of late he started growing mad, attacking even the Thaloren.", "Cet ours ancestral gardait depuis longtemps le côté ouest de la forêt, mais depuis peu, il a sombré dans la folie attaquant même les Thaloren.", "_t")
+t("This ancient bear long guarded the western side of the forest, but as of late he started growing mad, attacking even the Thaloren.", "Cet ours ancestral gardait depuis longtemps le côté ouest de la forêt, mais depuis peu, il a sombré dans la folie attaquant même les Thaloréens.", "_t")
 t("and was feasted upon by wolves", "et fut dévoré par les loups", "_t")
 
 ------------------------------------------------
@@ -38529,7 +38528,7 @@ t("This is one of the heralds of Last Hope. He seems to be looking for you.", "C
 t("#LIGHT_RED#You hear a death cry. '%s I have a messag... ARG!'", "#LIGHT_RED#Vous entendez un cri de mort. '%s J'ai un messa... ARG!'", "logPlayer")
 t("demon", "démon", "entity type")
 t("major", "majeur", "entity subtype")
-t("A terrible demon of decay and atrophy, drawn to the energy of the farportal. A beast of blight!", "Un terrible démon de décomposition et d'atrophie, attiré par l'énergie du portail lointain. Une bête malade!", "_t")
+t("A terrible demon of decay and atrophy, drawn to the energy of the farportal. A beast of blight!", "Un terrible démon de décomposition et d'atrophie, attiré par l'énergie du portail lointain. Une bête du fléau!", "_t")
 t("Back and there again", "Aller et Revenir", "_t")
 t("A careful examination of the demon's body turns up a Blood-Runed Athame and a Resonating Diamond, both covered in soot and gore but otherwise in good condition.", "Un examen attentif du corps du démon révèle un Athamé Runes de Sang et un Diamant Résonant, tous deux couverts de suie et de sang mais en bon état.", "_t")
 -- texte non traduit
@@ -39113,7 +39112,7 @@ section "mod-tome/data/zones/sludgenest/npcs.lua"
 
 t("giant", "géant", "entity type")
 t("Corrupted Oozemancer", "Boumancien Corrompu", "entity name")
-t("This blight-ridden troll was once a proud defender of Nature. His corruption is spreading, eating away at the forest around him.", "Ce troll rongé par la maladie était jadis un fier défenseur de la nature. Sa perversion se propage, rongeant la forêt qui l'entoure.", "_t")
+t("This blight-ridden troll was once a proud defender of Nature. His corruption is spreading, eating away at the forest around him.", "Ce troll rongé par le fléau était jadis un fier défenseur de la nature. Sa perversion se propage, rongeant la forêt qui l'entoure.", "_t")
 t("and dissolved into acidic ooze", "et dissous dans une boue acide", "_t")
 -- texte non traduit
 --[==[
@@ -39146,7 +39145,7 @@ t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("Enjoying a lovely day at the beach.", "Profitez d'une belle journée à la plage.", "_t")
 t("What..! Please lets run!", "Quoi...! Allons-y, courons!", "_t")
-t("#DARK_GREEN#As Melinda is about to die a powerful wave of blight emanates from her!", "#DARK_GREEN#Alors que Melinda est sur le point de mourir, une puissante vague de maladie émane d'elle!", "say")
+t("#DARK_GREEN#As Melinda is about to die a powerful wave of blight emanates from her!", "#DARK_GREEN#Alors que Melinda est sur le point de mourir, une puissante vague de fléau émane d'elle!", "say")
 -- texte non traduit
 --[==[
 t("Melinda", "Melinda", "entity name")
@@ -40415,8 +40414,8 @@ t("ice", "glace", "entity subtype")
 t("polar cap", "calotte polaire", "entity name")
 t("frozen sea", "mer gelée", "entity name")
 t("cold forest", "forêt glaciale", "entity name")
-t("cold thaloren forest", "forêt thaloren glaciale", "entity name")
-t("thaloren forest", "forêt thaloren", "entity name")
+t("cold thaloren forest", "forêt glaciale de thalore", "entity name")
+t("thaloren forest", "forêt de thalore", "entity name")
 t("water", "eau", "entity subtype")
 t("deep water", "eaux profondes", "entity name")
 t("sea of Eyal", "mer d'Eyal", "entity name")
@@ -40443,7 +40442,7 @@ Dirigé par la Suprême Archimage Linaniil.]], "_t")
 t("Hidden teleportation portal to Angolwen, the hidden city of magic", "Portail de téléportation caché vers Angolwen, la cité magique cachée", "entity name")
 t("The portal fizzles.", "Le portail s'éteint.", "log")
 t("Shatur (Town)", "Shatur (Ville)", "entity name")
-t("Capital city of Thaloren lands, ruled by Nessilla Tantaelen", "Capitale des terres Thaloren, gouvernée par Nessilla Tantaelen", "_t")
+t("Capital city of Thaloren lands, ruled by Nessilla Tantaelen", "Capitale des terres Thalore, gouvernée par Nessilla Tantaelen", "_t")
 t("Elvala (Town)", "Elvala (Ville)", "entity name")
 t("Capital city of Shaloren lands, ruled by Aranion Gayaeil", "Capitale des terres Shaloren, gouvernée par Aranion Gayaeil", "_t")
 t("Gates of Morning (Town)", "Portes du Matin (Ville)", "entity name")
@@ -40775,9 +40774,9 @@ t("Activated", "Activé", "_t")
 t("Feedback cost: ", "Coût de Rétroaction: ", "_t")
 t("Fortress Energy cost: ", "Coût d'Energie de Forteresse: ", "_t")
 t("Sustain feedback cost: ", "Coût de rétroaction soutenu: ", "_t")
-t("%s %s: ", "%s: %s: ", "tformat")
+t("%s %s: ", "%s: %s ", "tformat", {2,1})
 t("cost", "Coût", "_t")
-t("gain", "Gagné", "_t")
+t("gain", "Gain", "_t")
 t("Sustain %s cost: ", "Coût soutenu en %s: ", "tformat")
 t("Generates", "Produits", "_t")
 t("Removes", "Supprime", "_t")
@@ -44996,7 +44995,7 @@ t("In the most dire circumstances teleportation can be the best escape, but is n
 t("The Ziguranth are an ancient order vehemently opposed to magic. Some have become so attuned to nature they can resist arcane forces with their will alone.", "Les Zigurantes sont un ordre ancien qui s'oppose avec véhémence à la magie. Certains sont devenus si sensibles à la nature qu'ils peuvent résister aux forces des arcanes avec leur seule volonté.", "init.lua load_tips")
 t("Records say that giants once lived civilised lives, with mastery of many crafts and sciences. Now, though, they have adopted nomadic cultures, turning hostile against those that encroach on their lands.", "Selon les archives, les géants ont vécu une vie civilisée, avec la maîtrise de nombreux métiers et sciences. Mais aujourd'hui, ils ont adopté des cultures nomades, devenant hostiles à ceux qui empiètent sur leurs terres.", "init.lua load_tips")
 t("Zigur was founded by escapees of Conclave experiments during the Allure wars between humans and halflings.", "Zigur a été fondé par des évadés des expériences du Conclave, durant l'Ere de la Séduction, pendant les guerres entre les halfelins et les humains.", "init.lua load_tips")
-t("The Thaloren and Shaloren elves have never had good relations, and have been outright hostile since the Spellblaze devastated many Thaloren lands.", "Les elfes Shaloréens et Thalorées n'ont jamais eu de bonnes relations, et ont été carrément hostiles depuis que la brûlure magique a dévasté de nombreuses terres Thaloréennes.", "init.lua load_tips")
+t("The Thaloren and Shaloren elves have never had good relations, and have been outright hostile since the Spellblaze devastated many Thaloren lands.", "Les elfes Shaloréens et Thaloréens n'ont jamais eu de bonnes relations, et ont été carrément hostiles depuis que la brûlure magique a dévasté de nombreuses terres Thaloréennes.", "init.lua load_tips")
 t("The third elven race, the Naloren, were rendered extinct after a huge cataclysm swept the eastern side of Maj'Eyal into the sea.", "La troisième race elfique, les Naloréens, s'est éteinte après qu'un énorme cataclysme ait balayé le côté est du Maj'Eyal dans la mer.", "init.lua load_tips")
 t("Trolls were once seen as little more than beasts or pests, but the orcs trained them up for use in war and they became much more intelligent and fearsome.", "Les trolls n'étaient autrefois considérés que comme des bêtes ou des nuisibles, mais les orcs les ont entraînés à la guerre et ils sont devenus beaucoup plus intelligents et redoutables.", "init.lua load_tips")
 t("Some say that the foot of a halfling is lucky to own. Halflings do not take well to those who enquire too forcefully.", "Certains disent que le pied d'un halfelin porte chance à celui qui le possède. Les halfelins n'apprécient pas trop ceux qui s'informent avec trop d'insistance.", "init.lua load_tips")

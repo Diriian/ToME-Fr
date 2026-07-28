@@ -658,7 +658,7 @@ Lorsqu'il est activé, vous aurez accès à des commandes spéciales:
 ]], "_t")
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
-t("Save Game", "Sauvegarder le jeu", "_t")
+t("Save Game", "Sauvegarder la partie", "_t")
 t("Main Menu", "Menu principal", "_t")
 t("Exit Game", "Quitter le jeu", "_t")
 
