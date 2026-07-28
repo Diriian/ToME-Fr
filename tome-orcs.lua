@@ -4354,7 +4354,7 @@ t("No medical injector available, values are indicative only.", "No medical inje
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/celestial-empyreal.lua"
 
-t("celestial", "Céleste", "talent category")
+t("celestial", "céleste", "talent category")
 -- texte non traduit
 --[==[
 t("Sol", "Sol", "talent type")
@@ -4620,12 +4620,11 @@ t([[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/races.lua"
 
-
+t("The various racial bonuses a character can have.", "Les différents bonus raciaux qu'un personnage peut posséder.", "_t")
 -- texte non traduit
 --[==[
 t("race", "race", "talent category")
 t("yeti", "yeti", "talent type")
-t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
 t("Algid Rage", "Algid Rage", "talent name")
 t([[Your yeti is attuned to the cold climates.
 		For 5 turns all damage you deal has %d%% chance to encase the target in an iceblock for 3 turns.
@@ -6044,6 +6043,7 @@ section "tome-orcs/data/talents/steam/other.lua"
 t("Summon", "Invocation", "_t")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
+t("%s resists the mental assault!", "%s résiste à l'assaut mental!", "logSeen")
 t("%s resists the blinding light!", "%s résiste à la lumière aveuglante!", "logSeen")
 t("%s is knocked back!", "%s est repoussé!", "logSeen")
 t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
@@ -6144,7 +6144,6 @@ t([[Let out a technopsionic wave that silences for %d turns all those affected i
 		The silence chance will increase with your Steampower.]], [[Let out a technopsionic wave that silences for %d turns all those affected in a radius of %d, including the user.
 		The silence chance will increase with your Steampower.]], "tformat")
 t("Mind Crush", "Mind Crush", "talent name")
-t("%s resists the mental assault!", "%s resists the mental assault!", "logSeen")
 t([[Shatters the mind of your victim, giving you full control over its actions for 6 turns.
 		When the effect ends, you pull out your mind and the victim's body collapses, dead.
 		This effect does not work on rares, bosses, or undead.
@@ -6810,7 +6809,7 @@ t("The target is under the effect of the moons. Decreasing lite and sight radius
 section "tome-orcs/data/timed_effects/magical.lua"
 
 t("disease", "maladie", "effect subtype")
-t("blight", "maladie", "effect subtype")
+t("blight", "fléau", "effect subtype")
 t("arcane", "dégâts d'arcane", "effect subtype")
 t("shield", "bouclier", "effect subtype")
 t("A shield forms around #target#.", "Un bouclier se forme autour de #target#.", "_t")
@@ -7061,7 +7060,7 @@ t("+Bleeds", "+Saignements", "_t")
 t("#Target# stops bleeding.", "#Target# cesse de saigner.", "_t")
 t("-Bleeds", "-Saignements", "_t")
 t("poison", "dégâts de poison", "effect subtype")
-t("blight", "maladie", "effect subtype")
+t("blight", "fléau", "effect subtype")
 t("#Target# is poisoned!", "#Target# est empoisonné!", "_t")
 t("#Target# is no longer poisoned.", "#Target# n'est plus empoisonné.", "_t")
 t("moss", "mousse", "effect subtype")

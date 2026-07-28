@@ -1505,12 +1505,11 @@ t([[Your body overflows with the power of the Fearscape, turning you into a powe
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/misc/races.lua"
 
-
+t("The various racial bonuses a character can have.", "Les différents bonus raciaux qu'un personnage peut posséder.", "_t")
 -- texte non traduit
 --[==[
 t("race", "race", "talent category")
 t("doomelf", "doomelf", "talent type")
-t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
 t("Haste of the Doomed", "Haste of the Doomed", "talent name")
 t("You must have an empty space to teleport to.", "You must have an empty space to teleport to.", "logPlayer")
 t([[Hasten yourself out of phase, teleporting you to a specific location up to %d spaces away.
@@ -1571,7 +1570,7 @@ t("+Burn", "+Brûler", "_t")
 t("#Target# stops burning.", "#Target# cesse de brûler.", "_t")
 t("-Burn", "-Brûler", "_t")
 t("armour", "armure", "effect subtype")
-t("blight", "maladie", "effect subtype")
+t("blight", "fléau", "effect subtype")
 t("wound", "blessure", "effect subtype")
 t("cut", "coupure", "effect subtype")
 t("bleed", "saignement", "effect subtype")

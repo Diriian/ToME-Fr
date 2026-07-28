@@ -830,6 +830,7 @@ t("It's a head... but is it yours?", "It's a head... but is it yours?", "_t")
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
 
+t("%s resists the mental assault!", "%s résiste à l'assaut mental!", "logSeen")
 t("misc", "divers", "entity type")
 t("charm", "breloque", "entity type")
 t("%s activates %s %s!", "%s active %s %s!", "logSeen")
@@ -842,7 +843,6 @@ t("Infused Cerebrum", "Infused Cerebrum", "entity name")
 t("a disgusting pile of brain-matter", "a disgusting pile of brain-matter", "_t")
 t("This #{italic}#headwear#{normal}# seems made entirely out of half-rotten brain matter. Do you really want to put that over your head?", "This #{italic}#headwear#{normal}# seems made entirely out of half-rotten brain matter. Do you really want to put that over your head?", "_t")
 t("assault the mind of a foe to utterly dominate it", "assault the mind of a foe to utterly dominate it", "_t")
-t("%s resists the mental assault!", "%s resists the mental assault!", "logSeen")
 t("Writhing Ring of the Hunter", "Writhing Ring of the Hunter", "entity name")
 t("green slimy ring", "green slimy ring", "_t")
 t("A writhing mass of tentacles roughtly warped into the form of a ring. A dark malovelant power emanates from it.", "A writhing mass of tentacles roughtly warped into the form of a ring. A dark malovelant power emanates from it.", "_t")
@@ -3814,6 +3814,7 @@ t([[Smash the target with the force of the void dealing %0.2f darkness and %0.2f
 ------------------------------------------------
 section "tome-cults/data/talents/misc/races.lua"
 
+t("The various racial bonuses a character can have.", "Les différents bonus raciaux qu'un personnage peut posséder.", "_t")
 t("Frenzy", "Frénésie", "talent name")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 t("Never mind", "Peu importe", "_t")
@@ -3822,7 +3823,6 @@ t("%s resists!", "%s résiste!", "logSeen")
 --[==[
 t("race", "race", "talent category")
 t("drem", "drem", "talent type")
-t("The various racial bonuses a character can have.", "The various racial bonuses a character can have.", "_t")
 t([[Enter a killing frenzy for 3 turns.
 		During the frenzy the first time you use a class talent it has no cooldown (but does if used twice).
 		This does not work for inscriptions, talents that take no turn to use, passives, or talents with fixed cooldowns.
@@ -3957,7 +3957,7 @@ t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!
 t("+Out of sight", "+Hors de vue", "_t")
 t("damage", "dégât", "effect subtype")
 t("horror", "horreur", "effect subtype")
-t("blight", "maladie", "effect subtype")
+t("blight", "fléau", "effect subtype")
 t("pain", "douleur", "effect subtype")
 t("#Target# is back to normal.", "#Target# est revenu à la normale.", "_t")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
