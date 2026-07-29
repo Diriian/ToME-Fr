@@ -5747,7 +5747,7 @@ t([[Your cunning and dexterity allow you to fire incredible trick shots that can
 section "tome-orcs/data/talents/steam/heavy-weapons.lua"
 
 t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Heavy Weapons", "Heavy Weapons", "talent name")
@@ -7814,7 +7814,7 @@ t("Orc Cutters", "Trancheurs d'Orcs", "entity name")
 t("Mauling for Brutes", "Mutilateurs pour Brutes", "entity name")
 t("Bows and Slings", "Arcs et Frondes", "entity name")
 t("Sook's Arcane Goodness", "Friandises Arcanique de Sook", "entity name")
-t("Sarah's Herbal Infusions", "Infusions Herbaliques de Sarah", "entity name")
+t("Sarah's Herbal Infusions", "Essences Herbaliques de Sarah", "entity name")
 t("Sook's Runes and other Harmless Contraptions", "Runes de Sook et autres Inventions Inoffensives", "entity name")
 t("Zemekkys Home", "Demeure de Zemekkys", "entity name")
 
@@ -9324,7 +9324,7 @@ Talents:
 ------------------------------------------------
 section "tome-orcs/overload/mod/class/OrcCampaign.lua"
 
-t("Crit. chance: #00ff00#%s", "Chance crit.      : #00ff00#%s", "tformat")
+t("Crit. chance: #00ff00#%s", "Chance crit      : #00ff00#%s", "tformat")
 t("She looks tired and wounded.", "Elle a l'air blessé et fatigué.", "_t")
 t("I've changed my mind.", "J'ai changé d'avis.", "_t")
 t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous?", "_t")

@@ -103,7 +103,7 @@ t("Got to level 500 of the infinite dungeon.", "Aller au niveau 500 du donjon in
 ------------------------------------------------
 section "mod-tome/data/achievements/items.lua"
 
-t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "Trouver le Sang de Vie et les quatre inscriptions uniques: l'Infusion Primale, l'Infusion de Croissance Sauvage, la Rune de Réflexion et la Rune de la Faille.", "_t")
+t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "Trouver le Sang de Vie et les quatre inscriptions uniques: l'Essence Primale, l'Essence de Croissance Sauvage, la Rune de Réflexion et la Rune de la Faille.", "_t")
 t("Treasure Hunter", "Chasseur de trésors", "achievement name")
 t("Amassed 1000 gold pieces.", "Amasser 1000 pièces d'or.", "_t")
 t("Treasure Hoarder", "Accapareurs de trésors", "achievement name")
@@ -1059,8 +1059,8 @@ t("Redhead Hair 6", "Cheveux Roux 6", "_t")
 t("Redhead Hair 7", "Cheveux Roux 7", "_t")
 t("Redhead Hair 8", "Cheveux Roux 8", "_t")
 t("Redhead Hair 9", "Cheveux Roux 9", "_t")
-t("Facial Infusions 1", "Infusions faciales 1", "_t")
-t("Facial Infusions 2", "Infusions faciales 2", "_t")
+t("Facial Infusions 1", "Essences faciales 1", "_t")
+t("Facial Infusions 2", "Essences faciales 2", "_t")
 t("Facial Runes 1", "Runes faciales 1", "_t")
 t("Facial Runes 2", "Runes faciales 2", "_t")
 t("Facial Runes 3", "Runes faciales 3", "_t")
@@ -1673,7 +1673,7 @@ t("Aiding you with getting into some Brotherhood. What's in it for me?", "Vous a
 t("Oh, easy. You get a swig of each brew, of course. They'll put hair on your chest, and possibly your eyelids and fingernails. And, if your aid proves the deciding factor, then I've got a real treat for you: perhaps the last Taint of Purging left in Maj'Eyal.", "Oh, facile. Tu as droit à une gorgée de chaque breuvage, bien sûr. Ils vous mettront des poils sur la poitrine, et peut-être sur les paupières et les ongles. Et, si votre aide s'avère être le facteur décisif, alors j'ai un vrai cadeau pour vous: peut-être la derniere Purge d'Infections restante en Maj'Eyal.", "_t")
 t("I accept.", "J'accepte.", "_t")
 t("I cannot aid you at this time.", "Je ne peux pas vous aider en ce moment.", "_t")
-t("One last thing. There's a few other fellows angling for the same slot in the Brotherhood that I am. They're not going to be sitting on their hands while we're at work here, so best move quick-like. Now, which of these do you want to help me with first: the Brew of Brawn, the Brew of Stoneskin, or the Brew of Foundations? Or Elixirs, rather. Not Brews. Best get in the habit now, I suppose.", "Une dernière chose. Il y a quelques autres gars qui veulent le même poste que moi dans la Confrérie. Ils ne vont pas rester les bras croisés pendant que nous travaillons ici, alors mieux vaut agir vite. Maintenant, avec laquelle de ces choses voulez-vous m'aider en premier: la décoction de muscles, la décoction de peau de pierre, ou la décoction de fondations ? Ou plutôt des Elixirs. Pas des infusions. Il vaut mieux en prendre l'habitude maintenant, je suppose.", "_t")
+t("One last thing. There's a few other fellows angling for the same slot in the Brotherhood that I am. They're not going to be sitting on their hands while we're at work here, so best move quick-like. Now, which of these do you want to help me with first: the Brew of Brawn, the Brew of Stoneskin, or the Brew of Foundations? Or Elixirs, rather. Not Brews. Best get in the habit now, I suppose.", "Une dernière chose. Il y a quelques autres gars qui veulent le même poste que moi dans la Confrérie. Ils ne vont pas rester les bras croisés pendant que nous travaillons ici, alors mieux vaut agir vite. Maintenant, avec laquelle de ces choses voulez-vous m'aider en premier: la décoction de muscles, la décoction de peau de pierre, ou la décoction de fondations ? Ou plutôt des Elixirs. Pas d'essences. Il vaut mieux en prendre l'habitude maintenant, je suppose.", "_t")
 t("The %s.", "L'%s.", "tformat")
 t("Right, here's the list. Oh, one more thing. Got me some fellas already out hunting for this stuff, and I'll not play favorites. One of them brings me those ingredients before you do, and you're out of luck. Hurry back.", "Bien, voici la liste. Oh, encore une chose. J'ai déjà quelques gars qui chassent pour ce genre de choses, et je ne vais pas faire de favoritisme. Si l'un d'eux m'apporte ces ingrédients avant toi, tu n'as pas de chance. Dépêche toi de revenir.", "_t")
 t("I'll be off.", "Je m'en vais.", "_t")
@@ -2366,7 +2366,7 @@ t("Tremble before the might of Telos!", "Tremblez devant la puissance de Telos!"
 t("It is not yet your place to command such a staff as this. To do so invites obliteration.", "Il n'est pas encore de votre ressort de commander un tel bâton. Le faire, c'est s'exposer à l'anéantissement.", "_t")
 t("Call on which aspect of the staff?", "Demander quel aspect sur le bâton?", "_t")
 t("error!", "erreure!", "_t")
-t("Oh, I was once a mighty Eldritch Channeler. Mighty and absentminded, as it turns out. Had a bit of a mishap with an Inverted Kugala's Soul-infusion technique. Long story short, my soul is now stuck in this stick, and the soul I was working with... well, I don't rightly know where he got to. But I hope we never meet him.", "Oh, j'étais autrefois un puissant canalisateur occulte. Puissant et distrait, comme il s'avère. J'ai eu une petite mésaventure avec une technique d'infusion d'âme de Kugala inversé. Pour faire court, mon âme est maintenant coincée dans ce bâton, et l'âme avec laquelle je travaillais... eh bien, je ne sais pas vraiment où elle est allée. Mais j'espère qu'on ne le rencontrera jamais.", "_t")
+t("Oh, I was once a mighty Eldritch Channeler. Mighty and absentminded, as it turns out. Had a bit of a mishap with an Inverted Kugala's Soul-infusion technique. Long story short, my soul is now stuck in this stick, and the soul I was working with... well, I don't rightly know where he got to. But I hope we never meet him.", "Oh, j'étais autrefois un puissant canalisateur occulte. Puissant et distrait, comme il s'avère. J'ai eu une petite mésaventure avec une technique d'essence d'âme de Kugala inversé. Pour faire court, mon âme est maintenant coincée dans ce bâton, et l'âme avec laquelle je travaillais... eh bien, je ne sais pas vraiment où elle est allée. Mais j'espère qu'on ne le rencontrera jamais.", "_t")
 t("Argh! Bollocksed up a tricky bit of soul magic and the fool that I was supposed to be imprisoning for all eternity flitted away. My body, like all the targets of my spells, intended or otherwise, got reduced to elementary particles. Fortunately, I had this soul-cage of a staff all prepped and ready for a stray soul, so I'm not completely gone. But enough chit-chat. Let's fry somebody.", "Argh! J'ai raté un petit tour de magie de l'âme et le fou que j'étais censé emprisonner pour l'éternité s'est enfui. Mon corps, comme toutes les cibles de mes sorts, intentionnelles ou non, a été réduit en particules élémentaires. Heureusement, j'avais ce bâton-cage à âmes tout préparé et prêt pour une âme égarée, donc je ne suis pas complètement parti. Mais assez de bavardages. Allons griller quelqu'un.", "_t")
 t("My old master-- who, though a powerful enchanter, did not compare to you and your glory-- saw fit to imprison me in this fine staff to aid him in his work. Alas, he is long gone, but I despair not, for I have found a mighty new master.", "Mon ancien maître -- qui, bien qu'étant un puissant enchanteur, n'était pas comparable à vous et à votre gloire -- a jugé bon de m'emprisonner dans ce beau bâton pour l'aider dans son travail. Hélas, il est parti depuis longtemps, mais je ne désespère pas, car j'ai trouvé un puissant nouveau maître.", "_t")
 t("I am a portion of the very spirit of the world that was ripped free during the Spellblaze. I speak that I might enlighten those who bear me.", "Je suis une partie de l'esprit même du monde qui a été libéré pendant la Brûlure magique. Je parle pour éclairer ceux qui me portent.", "_t")
@@ -3368,7 +3368,7 @@ t("You have too many of this type of inscription. You can only override an exist
 t([[You have reached your maximum number of inscriptions (infusions/runes).
 If you have unassigned #{bold}#talent category points#{normal}# you can use one to create a new slot (up to 5).
 You can replace an existing one or cancel.
-The old inscription will be lost.]], [[Vous avez atteint votre nombre maximum d'inscriptions (infusions/runes).
+The old inscription will be lost.]], [[Vous avez atteint votre nombre maximum d'inscriptions (essences/runes).
 Si vous avez des points de #{bold}#catégorie de talent#{normal}# non assignés, vous pouvez en utiliser un pour créer un nouvel emplacement (jusqu'à 5).
 Vous pouvez en remplacer un existant ou l'annuler.
 L'ancienne inscription sera perdue.]], "_t")
@@ -4399,10 +4399,10 @@ t("I shall.", "Je le ferais.", "_t")
 t("\
 Worry not, though, Ogre - we can replace your unclean runes with a newly-discovered mixture of infusions, eliminating your dependence on them.  The process will feel...  unpleasant, and will dramatically shorten your lifespan, but you will finally be free from the addictive grip of the arcane!\
 ", "\
-Ne vous inquiètez pas, cependant, Ogre - nous pouvons remplacer vos runes impures par un mélange d'infusions récemment découvert, éliminant votre dépendance à leur égard.  Le processus sera... désagréable, et raccourcira considérablement votre espérance de vie, mais vous serez enfin libéré de l'emprise addictive de l'arcane!\
+Ne vous inquiètez pas, cependant, Ogre - nous pouvons remplacer vos runes impures par un mélange d'essences récemment découvert, éliminant votre dépendance à leur égard.  Le processus sera... désagréable, et raccourcira considérablement votre espérance de vie, mais vous serez enfin libéré de l'emprise addictive de l'arcane!\
 ", "_t")
 t([[We'll also reinforce the infusions you've been granted to replace your runes - the newest mixture should give you about five years of your life that the initial mixture took from you.
-]], [[Nous renforcerons également les infusions qui vous ont été accordés pour remplacer vos runes - le mélange le plus récent devrait vous rendre environ cinq années de votre vie que le mélange initial vous a fait perdre.
+]], [[Nous renforcerons également les essences qui vous ont été accordés pour remplacer vos runes - le mélange le plus récent devrait vous rendre environ cinq années de votre vie que le mélange initial vous a fait perdre.
 ]], "_t")
 t([[Very well. Before you start, we will make sure no magic can help you:
 - You will not be able to use any spells or magical devices
@@ -4458,9 +4458,9 @@ t("#LIGHT_GREY#(%d resilience)#LAST#", "#LIGHT_GREY#(%d résistance)#LAST#", "tf
 t("#CRIMSON##Source# damages %s through Martyrdom!", "#CRIMSON##Source# dégâts %s par le biais de Supplice!", "delayedLogMessage")
 t("#CRIMSON##Source# reflects damage back to #Target#!", "#CRIMSON##Source# renvoie les dégâts vers #Target#!", "delayedLogMessage")
 t("#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "#Source##LIGHT_GREEN# SOIGNE#LAST# de %s %s #LAST# dégâts!", "tformat")
-t("cosmetic", "dégâts cosmétique", "damage type")
+t("cosmetic", "cosmétique", "damage type")
 t("cosmeticed", "cosmétisé", "_t")
-t("physical", "dégâts physique", "damage type")
+t("physical", "physique", "damage type")
 t("battered", "tabassé", "_t")
 t("bludgeoned", "matraqué", "_t")
 t("sliced", "émincé", "_t")
@@ -4498,7 +4498,7 @@ t("energised", "stimulé", "_t")
 t("mana-torn", "déchiré par le mana", "_t")
 t("dweomered", "enchanté", "_t")
 t("imploded", "implosé", "_t")
-t("fire", "dégâts de feu", "damage type")
+t("fire", "feu", "damage type")
 t("burnt", "consumé", "_t")
 t("scorched", "roussi", "_t")
 t("blazed", "flambé", "_t")
@@ -4509,20 +4509,20 @@ t("combusted", "brûlé", "_t")
 t("toasted", "grillé", "_t")
 t("slowly cooked", "mijoté", "_t")
 t("boiled", "bouilli", "_t")
-t("cold", "dégâts de froid", "damage type")
+t("cold", "froid", "damage type")
 t("frozen", "gelé", "_t")
 t("chilled", "glacé", "_t")
 t("iced", "refroidi", "_t")
 t("cooled", "rafraichi", "_t")
 t("frozen and shattered into a million little shards", "gelé et pulvérisé en millions de petits morceaux", "_t")
-t("lightning", "dégâts de foudre", "damage type")
+t("lightning", "foudre", "damage type")
 t("electrocuted", "electrocuté", "_t")
 t("shocked", "choqué", "_t")
 t("bolted", "foudroyé", "_t")
 t("volted", "survolté", "_t")
 t("amped", "electrisé", "_t")
 t("zapped", "zappé", "_t")
-t("acid", "dégâts d'acid", "damage type")
+t("acid", "acide", "damage type")
 t("dissolved", "dissous", "_t")
 t("corroded", "corrodé", "_t")
 t("scalded", "ébouillanté", "_t")
@@ -4532,7 +4532,7 @@ t("slimed", "engluanté", "_t")
 t("splurged", "enfeuillé", "_t")
 t("treehugged", "branchu", "_t")
 t("naturalised", "naturalisé", "_t")
-t("blight", "dégâts de fléau", "damage type")
+t("blight", "fléau", "damage type")
 t("diseased", "malade", "_t")
 t("poxed", "vérole", "_t")
 t("infected", "infecté", "_t")
@@ -4540,23 +4540,23 @@ t("plagued", "peste", "_t")
 t("debilitated by noxious blight before falling", "affaibli par un fléau nocife avant de succomber.", "_t")
 t("fouled", "infecté", "_t")
 t("tainted", "corrompu", "_t")
-t("light", "dégâts de lumière", "damage type")
+t("light", "lumière", "damage type")
 t("radiated", "irradié", "_t")
 t("seared", "brûlé", "_t")
 t("purified", "purifié", "_t")
 t("sun baked", "cuit au soleil", "_t")
 t("jerkied", "séché", "_t")
 t("tanned", "tanné", "_t")
-t("darkness", "dégâts  d'obscurité", "damage type")
+t("darkness", "obscurité", "damage type")
 t("shadowed", "ombré", "_t")
 t("darkened", "obscurci", "_t")
 t("swallowed by the void", "englouti par le vide", "_t")
-t("mind", "dégâts d'esprit", "damage type")
+t("mind", "esprit", "damage type")
 t("psyched", "surexité", "_t")
 t("mentally tortured", "mentallement torturé", "_t")
 t("mindraped", "esprit violé", "_t")
-t("winter", "dégâts d'hiver", "damage type")
-t("temporal", "dégâts temporel", "damage type")
+t("winter", "hiver", "damage type")
+t("temporal", "temporel", "damage type")
 t("timewarped", "chronophage", "_t")
 t("temporally distorted", "déformé temporellement", "_t")
 t("spaghettified across the whole of space and time", "spaghettifié à travers l'espace-temps", "_t")
@@ -4564,225 +4564,229 @@ t("paradoxed", "paradoxalisé", "_t")
 t("replaced by a time clone (and no one ever knew the difference)", "remplacé par un clone temporel (et personne n'a jamais remarqué la différence)", "_t")
 t("grandfathered", "tranformé en personne agé", "_t")
 t("time dilated", "dilaté par le temps", "_t")
-t("temporal stun", "dégâts d'étourdissement temporel", "damage type")
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
-t("lite", "dégâts de lampe", "damage type")
+t("temporal stun", "assomement temporel", "damage type")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
+t("lite", "lampe", "damage type")
 t("illumination", "dégâts d'illumination", "damage type")
 t("silence", "dégâts de silence", "damage type")
 t("%s resists the silence!", "%s resiste au silence!", "logSeen")
-t("arcane silence", "dégâts de silence arcanique", "damage type")
+t("arcane silence", "silence arcanique", "damage type")
 t("%s resists!", "%s résiste!", "logSeen")
-t("blindness", "dégâts d'aveuglement", "damage type")
+t("blindness", "aveuglement", "damage type")
 t("%s resists the blinding light!", "%s résiste à la lumière aveuglante!", "logSeen")
-t("blinding ink", "dégâts d'encre aveuglante", "damage type")
+t("blinding ink", "encre aveuglante", "damage type")
 t("%s avoids the blinding ink!", "%s évite l'encre aveuglante!", "logSeen")
-t("bright light", "dégâts de lumière vive", "damage type")
-t("fire burn", "dégâts de feu brûlant", "damage type")
-t("stunning fire", "dégâts de feu étourdissant", "damage type")
-t("devouring flames", "dégâts de flammes dévorantes", "damage type")
+t("bright light", "lumière vive", "damage type")
+t("fire burn", "feu brûlant", "damage type")
+t("stunning fire", "feu étourdissant", "damage type")
+t("devouring flames", "flammes dévorantes", "damage type")
 t("#Source# drains life from #Target#!", "#Source# draine la vie de #Target#!", "logCombat")
-t("shadowflame", "dégâts de flamme d'ombre", "damage type")
-t("stunning darkness", "dégâts d'obscurité étourdissante", "damage type")
+t("shadowflame", "flamme d'ombre", "damage type")
+t("stunning darkness", "obscurité étourdissante", "damage type")
 t("%s resists the darkness!", "%s résiste à l'obscurité !", "logSeen")
-t("flameshock", "dégâts de choc de flammes", "damage type")
+t("flameshock", "choc de flammes", "damage type")
 t("%s resists the searing flame!", "%s résiste à la flamme ardente!", "logSeen")
-t("ice", "dégâts de glace", "damage type")
-t("slowing ice", "dégâts de glace ralentissante", "damage type")
-t("ice storm", "dégâts de tempête de glace", "damage type")
-t("glacial vapour", "dégâts de vapeur glaciale", "damage type")
-t("pinning cold", "dégâts d'immobilisation du froid", "damage type")
-t("freeze", "dégâts de gel", "damage type")
+t("ice", "glace", "damage type")
+t("slowing ice", "glace ralentissante", "damage type")
+t("ice storm", "tempête de glace", "damage type")
+t("glacial vapour", "dvapeur glaciale", "damage type")
+t("pinning cold", "immobilisation du froid", "damage type")
+t("freeze", "gel", "damage type")
 t("Frozen!", "Congelé!", "_t")
 t("Resist!", "Résisté!", "_t")
-t("sticky smoke", "dégâts de fumée poisseuse", "damage type")
-t("acid blind", "dégâts d'aveuglement à l'acide", "damage type")
-t("blinding darkness", "dégâts de ténèbres aveuglantes", "damage type")
-t("blinding light", "dégâts de lumière aveuglante", "damage type")
-t("dazing lightning", "dégâts d'éclair étourdissant", "damage type")
-t("cold repulsion", "dégâts de répulsion du froid", "damage type")
+t("sticky smoke", "fumée poisseuse", "damage type")
+t("acid blind", "aveuglement à l'acide", "damage type")
+t("blinding darkness", "ténèbres aveuglantes", "damage type")
+t("blinding light", "lumière aveuglante", "damage type")
+t("dazing lightning", "éclair étourdissant", "damage type")
+t("cold repulsion", "répulsion du froid", "damage type")
 t("%s is knocked back!", "%s est repoussé!", "logSeen")
 t("%s resists the wave!", "%s résiste à la vague!", "logSeen")
-t("bloodspring", "dégâts de source de sang", "damage type")
+t("bloodspring", "source de sang", "damage type")
 t("%s resists the bloody wave!", "%s résiste à la vague sanglante!", "logSeen")
-t("fire repulsion", "dégâts de répulsion du feu", "damage type")
+t("fire repulsion", "répulsion du feu", "damage type")
 t("%s resists the punch!", "%s résiste au coup de poing!", "logSeen")
-t("burning repulsion", "dégâts de répulsion de la brûlure", "damage type")
-t("darkness repulsion", "dégâts de répulsion des ténèbres", "damage type")
-t("physical repulsion", "dégâts de répulsion physique", "damage type")
+t("burning repulsion", "répulsion de la brûlure", "damage type")
+t("darkness repulsion", "répulsion des ténèbres", "damage type")
+t("physical repulsion", "répulsion physique", "damage type")
 t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
-t("fear repulsion", "dégâts de répulsion de la peur", "damage type")
+t("fear repulsion", "répulsion de la peur", "damage type")
 t("%s resists the frightening sight!", "%s résiste à la vision effrayante!", "logSeen")
 t("poison", "dégâts de poison", "damage type")
-t("cleansing fire", "dégâts de feu purificateur", "damage type")
-t("spydric poison", "dégâts de poison spydrique", "damage type")
-t("crippling poison", "dégâts de poison invalidant", "damage type")
-t("insidious poison", "dégâts de poison insidieux", "damage type")
-t("bleed", "dégâts de saignement", "damage type")
-t("physical bleed", "dégâts de saignement physique", "damage type")
-t("nature slow", "dégâts de nature lente", "damage type")
-t("dig", "dégâts de creuseage", "damage type")
+t("cleansing fire", "feu purificateur", "damage type")
+t("spydric poison", "poison spydrique", "damage type")
+t("crippling poison", "poison invalidant", "damage type")
+t("insidious poison", "poison insidieux", "damage type")
+t("bleed", "saignement", "damage type")
+t("physical bleed", "saignement physique", "damage type")
+t("nature slow", "nature lente", "damage type")
+t("dig", "creuseage", "damage type")
 t("%s turns into %s.", "%s se transforme en %s.", "logSeen")
-t("slow", "dégâts de ralentissement", "damage type")
-t("congeal time", "dégâts de congélation temporel", "damage type")
-t("time prison", "dégâts de prison temporelle", "damage type")
+t("slow", "ralentissement", "damage type")
+t("congeal time", "congélation temporel", "damage type")
+t("time prison", "prison temporelle", "damage type")
 t("%s resists the time prison.", "%s résiste à la proison temporelle.", "logSeen")
-t("confusion", "dégâts de confusion", "damage type")
+t("confusion", "confus", "damage type")
 t("% chance of confusion", "% chance de confusion", "damage type")
 t("% chance of gloom effects", "% chance d'effets d'angoisse", "damage type")
-t("item darkness numbing", "dégâts d'objet insensible à l'obscurité", "damage type")
+t("item darkness numbing", "objet insensible à l'obscurité", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de réduire les dégâts infligés par #YELLOW#%d%%#LAST#%s", "tformat")
-t("item expose", "dégâts d'exposition de l'objet", "damage type")
+t("item expose", "exposition de l'objet", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de réduire tous les jets de sauvegardes et de défenses de #YELLOW#%d#LAST#%s", "tformat")
-t("item temporal energize", "dégâts d'objet temporel énergisé", "damage type")
+t("item temporal energize", "objet temporel énergisé", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "* #LIGHT_GREEN#%d%%#LAST# chance de gagner 10%% d'un tour (limité à 3/tours)%s", "tformat")
 t("#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "#LIGHT_STEEL_BLUE#%s ne peut plus gagner d'énergie ce tour ci! ", "logSeen")
-t("item acid corrode", "dégâts d'objet corrodé à l'acide", "damage type")
+t("item acid corrode", "objet corrodé à l'acide", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de réduire l'armure par #VIOLET#%d%%#LAST#%s", "tformat")
-t("item blight disease", "dégâts d'objet porteur de fléau", "damage type")
+t("item blight disease", "objet porteur de fléau", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de réduire force, déxtérité, et constitution par #VIOLET#%d#LAST#%s", "tformat")
-t("item manaburn arcane", "dégâts d'objet brûleur de mana arcanique", "damage type")
+t("item manaburn arcane", "objet brûleur de mana arcanique", "damage type")
 t("* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "* #DARK_ORCHID#%d ressource arcanique#LAST# brulé%s", "tformat")
-t("item nature slow", "dégâts d'objet naturellement ralantissant", "damage type")
+t("item nature slow", "objet naturellement ralantissant", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to slow global speed by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de ralentir la vitesse globale par #YELLOW#%d%%#LAST#%s", "tformat")
-t("item antimagic scouring", "dégâts d'objet récurant anti-magique", "damage type")
+t("item antimagic scouring", "objet récurant anti-magique", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to #ORCHID#reduce effective powers#LAST# by %d%%%s", "* #LIGHT_GREEN#%d%%#LAST# chance de #ORCHID#réduire les pouvoirs effectifs#LAST# de %d%%%s", "tformat")
-t("item lightning daze", "dégâts d'objet d'étourdissement par la foudre", "damage type")
+t("item lightning daze", "objet d'étourdissement par la foudre", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to #ROYAL_BLUE#daze#LAST# at end of turn%s", "* #LIGHT_GREEN#%d%%#LAST# chance d'#ROYAL_BLUE#étourdissement#LAST# à la fin du tour%s", "tformat")
-t("item light blind", "dégâts d'objet de lumière aveuglant", "damage type")
+t("item light blind", "objet de lumière aveuglant", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to #YELLOW#blind#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance d'#YELLOW#aveuglement#LAST#%s", "tformat")
-t("item mind gloom", "dégâts d'objet d'angoisse mentale", "damage type")
+t("item mind gloom", "objet d'angoisse mentale", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #YELLOW#random gloom#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de causer une #YELLOW#angoisse aléatoire#LAST#%s", "tformat")
 t("confusion", "confus", "_t")
 t("stun", "assommé", "_t")
 t("slow'", "ralentis'", "_t")
-t("blinding", "dégâts d'aveuglement", "damage type")
+t("blinding", "aveuglement", "damage type")
 t("%s resists the blind!", "%s résiste à l'aveuglement!", "logSeen")
-t("blinding physical", "dégâts d'aveuglement physique", "damage type")
+t("blinding physical", "aveuglement physique", "damage type")
 t("%s resists the sandstorm!", "%s résiste à la tempête de sable!", "logSeen")
-t("physical pinning", "dégâts d'immobilisation physique", "damage type")
+t("physical pinning", "immobilisation physique", "damage type")
 t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
-t("regressive blight", "dégâts de fléau régressife", "damage type")
+t("regressive blight", "fléau régressife", "damage type")
 t("#Source# drains experience from #Target#!", "#Source# draine l'expérience de #Target#!", "logCombat")
-t("draining blight", "dégâts de fléau drainant", "damage type")
-t("sanguine blight", "dégâts de fléau sanguin", "damage type")
-t("vim draining blight", "dégâts de fléau drainant la vitae", "damage type")
-t("demonfire", "dégâts de feu démoniaque", "damage type")
-t("purging blight", "dégâts de purge de fléau", "damage type")
-t("holy light", "dégâts de lumiére sacrée", "damage type")
-t("healing", "dégâts de soins", "damage type")
-t("healing light", "dégâts de lumière soignante", "damage type")
+t("draining blight", "fléau drainant", "damage type")
+t("sanguine blight", "fléau sanguin", "damage type")
+t("vim draining blight", "fléau drainant la vitae", "damage type")
+t("demonfire", "feu démoniaque", "damage type")
+t("purging blight", "purge de fléau", "damage type")
+t("holy light", "lumiére sacrée", "damage type")
+t("healing", "soins", "damage type")
+t("healing light", "lumière soignante", "damage type")
 t("#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "#DARK_ORCHID#Votre bouclier de protection ne peut plus être prolongé et a explosé.", "logPlayer")
-t("judgement", "dégâts de jugement", "damage type")
+t("judgement", "jugement", "damage type")
 t("healing nature", "soin naturel", "damage type")
-t("infective blight", "dégâts de fléau infectieux", "damage type")
-t("hindering blight", "dégâts de fléau gênant", "damage type")
-t("life leech", "dégâts de drain de vie", "damage type")
-t("physical stun", "dégâts d'assommage physique", "damage type")
-t("warp", "dégâts de déformation", "damage type")
-t("temporal darkness", "dégâts d'obscurité temporelle", "damage type")
-t("gravity", "dégâts de gravité", "damage type")
-t("gravity pin", "dégâts d'immobilisation gavitique", "damage type")
-t("grow", "dégâts de croissance", "damage type")
-t("pinning nature", "dégâts d'immobilisation naturelle", "damage type")
+t("infective blight", "fléau infectieux", "damage type")
+t("hindering blight", "fléau gênant", "damage type")
+t("life leech", "drain de vie", "damage type")
+t("physical stun", "assommement physique", "damage type")
+t("warp", "déformation", "damage type")
+t("temporal darkness", "obscurité temporelle", "damage type")
+t("gravity", "gravité", "damage type")
+t("gravity pin", "immobilisation gavitique", "damage type")
+t("grow", "croissance", "damage type")
+t("pinning nature", "immobilisation naturelle", "damage type")
 t("%s resists the pinning!", "%s résiste a l'immobilisation!", "logSeen")
-t("impeding nature", "dégâts de nature gênante", "damage type")
-t("confounding nature", "dégâts de nature contradictoire", "damage type")
+t("impeding nature", "nature gênante", "damage type")
+t("confounding nature", "nature contradictoire", "damage type")
 t("%s resists the confusion!", "%s résiste à la confusion!", "logSeen")
-t("sanctity", "dégâts de sainteté", "damage type")
-t("defensive darkness", "dégâts d'obscurité défensive", "damage type")
-t("blazing light", "dégâts de lumière brûlante", "damage type")
-t("prismatic repulsion", "dégâts de répulsion prismatique", "damage type")
-t("mind slow", "dégâts d'esprit lent", "damage type")
-t("mind freeze", "dégâts de gel de l'esprit", "damage type")
+t("sanctity", "sainteté", "damage type")
+t("defensive darkness", "obscurité défensive", "damage type")
+t("blazing light", "lumière brûlante", "damage type")
+t("prismatic repulsion", "répulsion prismatique", "damage type")
+t("mind slow", "esprit lent", "damage type")
+t("mind freeze", "gel de l'esprit", "damage type")
 t("%s resists the freezing!", "%s résiste au gel!", "logSeen")
-t("implosion", "dégâts d'implosion", "damage type")
-t("regressive temporal", "dégâts de régression temporelle", "damage type")
-t("wasting temporal", "dégâts de déperdition temporelle", "damage type")
-t("stop", "dégâts de stop", "damage type")
+t("regressive temporal", "régression temporelle", "damage type")
+t("wasting temporal", "déperdition temporelle", "damage type")
 t("%s has not been stopped!", "%s n'a pas été stoppé!", "logSeen")
-t("debilitating temporal", "dégâts de débilitation temporelle", "damage type")
+t("debilitating temporal", "débilitation temporelle", "damage type")
 t("%s resists the blindness!", "%s résiste à l'aveuglement!", "logSeen")
-t("draining physical", "dégâts de drain physique", "damage type")
+t("draining physical", "drain physique", "damage type")
 t("#Source# consumes %d life from #Target#!", "#Source# absorbe %d point de vie de #Target#!", "logCombat")
-t("temporal slow", "dégâts de ralentissement temporel", "damage type")
-t("molten rock", "dégâts de roche en fusion", "damage type")
-t("entangle", "dégâts d'enchevêtrement", "damage type")
+t("temporal slow", "ralentissement temporel", "damage type")
+t("molten rock", "roche en fusion", "damage type")
+t("entangle", "enchevêtrement", "damage type")
 t("%s resists entanglement!", "%s résiste à l'enchevêtrement!", "logSeen")
-t("manaworm arcane", "dégâts de ver de mana arcanique", "damage type")
+t("manaworm arcane", "ver de mana arcanique", "damage type")
 t("%s has no mana to burn.", "%s n'a plus de mana à brûler.", "logSeen")
-t("arcane blast", "dégâts de souffle arcanique", "damage type")
-t("circle of death", "dégâts de cercle de mort", "damage type")
+t("arcane blast", "souffle arcanique", "damage type")
+t("circle of death", "cercle de mort", "damage type")
 t("%s resists the baneful energy!", "%s résiste à l'énergie maléfique!", "logSeen")
-t("decaying darkness", "dégâts de ténèbres en décomposition", "damage type")
-t("abyssal darkness", "dégâts d'obscurité abyssale", "damage type")
+t("decaying darkness", "ténèbres en décomposition", "damage type")
+t("abyssal darkness", "obscurité abyssale", "damage type")
 t("% chance to summon an orc spirit", "% chance d'invoquer un esprit orc", "damage type")
 t("%s<%d%%%% orc summon chance>#LAST#", "%s<%d%%%% chance d'invocation d'orc>#LAST#", "tformat")
 t("%s<orc summon>#LAST#", "%s<orc invoquén>#LAST#", "tformat")
 t("orc spirit", "esprit orc", "_t")
 t("An orc clad in massive armour, wielding a huge axe.", "Un orc vêtu d'une armure massive, brandissant une énorme hache.", "_t")
 t("Garkul Spirit", "Esprit de Garkul", "_t")
-t("nightmare", "dégâts de cauchemard", "damage type")
-t("cursed miasma", "dégâts de miasme maudit", "damage type")
-t("weakness", "dégâts de faiblesse", "damage type")
-t("special effect", "dégâts d'effet spécial", "damage type")
-t("manaburn arcane", "dégâts de brûlure de mana arcanique", "damage type")
-t("leaves", "dégâts de départ", "damage type")
-t("distorting physical", "dégâts de distortion physique", "damage type")
-t("dreamforge", "dégâts de forge de rêve", "damage type")
+t("nightmare", "cauchemard", "damage type")
+t("cursed miasma", "miasme maudit", "damage type")
+t("weakness", "faiblesse", "damage type")
+t("special effect", "effet spécial", "damage type")
+t("manaburn arcane", "brûlure de mana arcanique", "damage type")
+t("leaves", "départ", "damage type")
+t("distorting physical", "distortion physique", "damage type")
+t("dreamforge", "forge de rêve", "damage type")
 t("%s resists the forge bellow!", "%s résiste au soufflet de la forge!", "logSeen")
 t("%s resists the dream forge!", "%s résiste à la forge du rêve!", "logSeen")
-t("natural mucus", "dégâts de mucus naturel", "damage type")
-t("disarming acid", "dégâts d'acide désarmant", "damage type")
+t("natural mucus", "mucus naturel", "damage type")
+t("disarming acid", "acide désarmant", "damage type")
 t("%s resists disarming!", "%s résiste au désarmement!", "logSeen")
-t("corrosive acid", "dégâts d'acide corrosif", "damage type")
-t("bouncing slime", "dégâts de vase rebondissante", "damage type")
-t("caustic mire", "dégâts de bourbier caustique", "damage type")
-t("sun path", "dégâts de chemin solaire", "damage type")
-t("telekinetic shove", "dégâts de poussée télékinétique", "damage type")
+t("corrosive acid", "acide corrosif", "damage type")
+t("bouncing slime", "vase rebondissante", "damage type")
+t("caustic mire", "bourbier caustique", "damage type")
+t("sun path", "chemin solaire", "damage type")
+t("telekinetic shove", "poussée télékinétique", "damage type")
 t("%s resists pinning!", "%s résiste à l'immobilisation!", "logSeen")
 t("%s resists the shove!", "%s résiste à la poussé!", "logSeen")
-t("dimensional anchor", "dégâts d'ancrage dimensionnel", "damage type")
-t("phase pulse", "dégâts d'impulsion phasique", "damage type")
-t("brain storm", "dégâts de tempête intellectuelle", "damage type")
+t("dimensional anchor", "ancrage dimensionnel", "damage type")
+t("phase pulse", "impulsion phasique", "damage type")
+t("brain storm", "tempête intellectuelle", "damage type")
 t("%s resists the mind attack!", "%s résiste à l'attaque mentale!", "logSeen")
-t("static net", "dégâts de filet statique", "damage type")
-t("wormblight", "dégâts de ver du fléau", "damage type")
-t("pestilent blight", "dégâts de fléau pestilentiel", "damage type")
+t("static net", "filet statique", "damage type")
+t("wormblight", "ver du fléau", "damage type")
+t("pestilent blight", "fléau pestilentiel", "damage type")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# chance de causer un #GREEN#fléau au hasard#LAST#%s", "tformat")
-t("blight poison", "dégâts de poison morbide", "damage type")
-t("terror", "dégâts de terreur", "damage type")
+t("blight poison", "poison morbide", "damage type")
+t("terror", "terreur", "damage type")
 t("%s<terror chance>#LAST#", "%s<chance de terreur>#LAST#", "tformat")
-t("random poison", "dégâts de poison au hasard", "damage type")
-t("blinding powder", "dégâts de poudre aveuglante", "damage type")
+t("random poison", "poison au hasard", "damage type")
+t("blinding powder", "poudre aveuglante", "damage type")
 t("%s<blinding powder>#LAST#", "%s<poudre aveuglante>#LAST#", "tformat")
-t("smokescreen", "dégâts d'écran de fumée", "damage type")
+t("smokescreen", "écran de fumée", "damage type")
 t("%s<smoke>#LAST#", "%s<fumée>#LAST#", "tformat")
-t("flare", "dégâts de lueur vive", "damage type")
+t("flare", "lueur vive", "damage type")
 t("%s resists the blinding flare!", "%s résiste à l'éclat aveuglant!", "logSeen")
-t("flare light", "dégâts d'éclat lumineux", "damage type")
-t("sticky pitch", "dégâts de terrain gluant", "damage type")
-t("fire sunder", "dégâts de déchirement de feu", "damage type")
-t("shadow smoke", "dégâts de fumée d'ombre", "damage type")
-t("frozen earth", "dégâts de terre gelée", "damage type")
-t("void echoes", "dégâts d'échos du vide", "damage type")
+t("flare light", "éclat lumineux", "damage type")
+t("sticky pitch", "terrain gluant", "damage type")
+t("fire sunder", "déchirement de feu", "damage type")
+t("shadow smoke", "fumée d'ombre", "damage type")
+t("frozen earth", "terre gelée", "damage type")
+t("void echoes", "échos du vide", "damage type")
 t("%s resists the void!", "%s résiste au vide!", "logSeen")
 t("#YELLOW#Lite Light#LAST# Burst (radius 1)", "#YELLOW#Lampe lumineuse#LAST# explosion (rayon 1)", "damage type")
-t("dark light", "dégâts de lumière sombre", "damage type")
-t("meteor", "dégâts de météore", "damage type")
-t("fetid", "dégâts de fétide", "damage type")
-t("frostdusk", "dégâts de crépuscule givré", "damage type")
-t("chill of the tomb", "dégâts de froid de la tombe", "damage type")
-t("putrescent liquefaction", "dégâts de liquéfaction putrescente", "damage type")
-t("boneyard", "dégâts de cimetière", "damage type")
-t("desolate waste", "dégâts de friche désolée", "damage type")
-t("thaumic energy", "dégâts d'énergie thaumique", "damage type")
+t("dark light", "lumière sombre", "damage type")
+t("meteor", "météore", "damage type")
+t("fetid", "fétide", "damage type")
+t("frostdusk", "crépuscule givré", "damage type")
+t("chill of the tomb", "froid de la tombe", "damage type")
+t("putrescent liquefaction", "liquéfaction putrescente", "damage type")
+t("boneyard", "cimetière", "damage type")
+t("desolate waste", "friche désolée", "damage type")
+t("thaumic energy", "énergie thaumique", "damage type")
 t("utterly vaporized", "complètement vaporisé", "_t")
 t("annihilated", "anéantie", "_t")
 t("disintegrated", "désintégré", "_t")
-t("black-hole gravity", "dégâts de gravité du trou noir", "damage type")
+t("black-hole gravity", "gravité du trou noir", "damage type")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
 t("%s resists the gravity!", "%s résiste à la gravité!", "logSeen")
-t("solar blood", "dégâts de soleil sanglant", "damage type")
+t("solar blood", "soleil sanglant", "damage type")
+-- texte non traduit
+--[==[
+t("implosion", "implosion", "damage type")
+t("stop", "stop", "damage type")
+--]==]
+
 -- ancien texte traduit
 t("cosmetic", "cosmétique", "_t")
 t("physical", "physique", "_t")
@@ -7198,7 +7202,7 @@ t("recover the Crystal Heart (destroys this armour)", "récupérer le Coeur de C
 t("Rod of Annulment", "Bâtonnet d'annulation", "entity name")
 t("dark rod", "bâtonnet sombre", "_t")
 t("You can feel magic draining out around this rod. Even nature itself seems affected.", "On peut sentir la magie disparaître autour de ce bâtonnet. Même la nature semble affectée.", "_t")
-t("put up to 3 of the target's runes, infusions or talents on cooldown for 3-5 turns (range %d)", "met jusqu'à 3 runes, infusions ou talents de la cible en rechargement pendant 3-5 tours (portée %d)", "tformat")
+t("put up to 3 of the target's runes, infusions or talents on cooldown for 3-5 turns (range %d)", "met jusqu'à 3 runes, essences ou talents de la cible en rechargement pendant 3-5 tours (portée %d)", "tformat")
 t("#Source# aims %s %s at #target#!", "#Source# cilbe %s %s à #target#!", "logCombat")
 t("%s's %s is disrupted!", "%s's %s est perturbé!", "logSeen")
 t("Skullcleaver", "Fendeur de crânes", "entity name")
@@ -7389,7 +7393,7 @@ t("vial of white fluid", "fiole de liquide blanc", "_t")
 t("A vial of murky white fluid.", "Une fiole de liquide blanc trouble.", "_t")
 t("grant you two additional generic talent points", "vous accorde deux points de talent générique supplémentaires", "_t")
 t("Taint of Purging", "Purge d'Infections", "entity name")
-t("Infusion of Wild Growth", "Infusion de Croissance Sauvage", "entity name")
+t("Infusion of Wild Growth", "Essence de Croissance Sauvage", "entity name")
 t("Lifebinding Emerald", "Emeraude de la Vie", "entity name")
 t("green", "vert", "entity subtype")
 t("cloudy, heavy emerald", "Lourde émeraude nuageuse", "_t")
@@ -8345,7 +8349,7 @@ t("acid", "acide", "entity keyword")
 t(" of lightning", " de foudre", "entity name")
 t("lightning", "foudre", "entity keyword")
 t("penetrating ", "de pénétration ", "entity name")
-t("penetrating", "pénétration", "entity keyword")
+t("penetrating", "pénétrant", "entity keyword")
 t("runic ", "de rune ", "entity name")
 t("runic", "rune", "entity keyword")
 t("warden's ", "de soutien ", "entity name")
@@ -9659,14 +9663,14 @@ t("travel speed", "vitesse de déplacement", "entity name")
 section "mod-tome/data/general/objects/random-artifacts/generic.lua"
 
 t("generic spellpower", "puissance des sorts générique", "entity name")
-t("generic spellcrit", "crit. de sort générique", "entity name")
-t("generic spell crit magnitude", "magnitude de crit. de sorts générique", "entity name")
+t("generic spellcrit", "crit de sort générique", "entity name")
+t("generic spell crit magnitude", "magnitude de crit de sorts générique", "entity name")
 t("generic spellsurge", "surcharge de sort générique", "entity name")
 t("generic mana regeneration", "régéneration de mana générique", "entity name")
 t("generic increased mana", "augm. de mana générique", "entity name")
-t("generic mana on crit", "mana sur crit. générique", "entity name")
+t("generic mana on crit", "mana sur crit générique", "entity name")
 t("generic increased vim", "augm. de vitae générique", "entity name")
-t("generic vim on crit", "vitae sur crit. générique", "entity name")
+t("generic vim on crit", "vitae sur crit générique", "entity name")
 t("generic phasing", "phase générique", "entity name")
 t("generic mindpower", "puissance mentale générique", "entity name")
 t("generic mindcrit", "crit mental générique", "entity name")
@@ -9677,10 +9681,10 @@ t("generic hate on crit", "haine sur crit générique", "entity name")
 t("generic max psi", "psi max générique", "entity name")
 t("generic psi on hit", "psi sur touche générique", "entity name")
 t("generic phys dam", "dam phys générique", "entity name")
-t("generic phys apr", "pén. phys générique", "entity name")
-t("generic phys crit", "crit. phys générique", "entity name")
+t("generic phys apr", "pén phys générique", "entity name")
+t("generic phys crit", "crit phys générique", "entity name")
 t("generic phys atk", "atk phys. générique", "entity name")
-t("generic phys crit magnitude", "magnitude de crit. phys. générique", "entity name")
+t("generic phys crit magnitude", "magnitude de crit phys. générique", "entity name")
 t("generic stamina regeneration", "régénération d'endurance générique", "entity name")
 t("generic increased stamina", "augm. d'endurance générique", "entity name")
 t("generic def", "def générique", "entity name")
@@ -9702,18 +9706,18 @@ t("generic immune silence", "immunité au silence générique", "entity name")
 t("generic immune disarm", "immunité au désarmement générique", "entity name")
 t("generic immune cut", "immunité à l'entaillage générique", "entity name")
 t("generic immune teleport", "immunité à la téléportation générique", "entity name")
-t("generic resist physical", "rés. physique générique", "entity name")
-t("generic resist mind", "rés. mentale générique", "entity name")
-t("generic resist fire", "rés. feu générique", "entity name")
-t("generic resist cold", "rés. froid générique", "entity name")
-t("generic resist acid", "rés. acide générique", "entity name")
+t("generic resist physical", "rés physique générique", "entity name")
+t("generic resist mind", "rés mentale générique", "entity name")
+t("generic resist fire", "rés feu générique", "entity name")
+t("generic resist cold", "rés froid générique", "entity name")
+t("generic resist acid", "rés acide générique", "entity name")
 t("generic resist lightning", "résist foudre générique", "entity name")
-t("generic resist arcane", "rés. arcane générique", "entity name")
-t("generic resist nature", "rés. nature générique", "entity name")
-t("generic resist blight", "rés. fléau générique", "entity name")
-t("generic resist light", "rés. lumière générique", "entity name")
-t("generic resist darkness", "rés. obscurité générique", "entity name")
-t("generic resist temporal", "rés. temporel générique", "entity name")
+t("generic resist arcane", "rés arcane générique", "entity name")
+t("generic resist nature", "rés nature générique", "entity name")
+t("generic resist blight", "rés fléau générique", "entity name")
+t("generic resist light", "rés lumière générique", "entity name")
+t("generic resist darkness", "rés obscurité générique", "entity name")
+t("generic resist temporal", "rés temporel générique", "entity name")
 t("generic physical retribution", "représaille physique générique", "entity name")
 t("generic mind retribution", "représaille mentale générique", "entity name")
 t("generic acid retribution", "représaille acide générique", "entity name")
@@ -9738,18 +9742,18 @@ t("generic inc damage blight", "augm. dégâts fléau générique", "entity name
 t("generic inc damage light", "augm. dégâts lumière générique", "entity name")
 t("generic inc damage darkness", "augm. dégâts obscurité générique", "entity name")
 t("generic inc damage temporal", "augm. dégâts temporel générique", "entity name")
-t("generic resists pen physical", "rés. pén. physique générique", "entity name")
-t("generic resists pen mind", "rés. pén. mentale générique", "entity name")
-t("generic resists pen fire", "rés. pén. feu générique", "entity name")
-t("generic resists pen cold", "rés. pén. froid générique", "entity name")
-t("generic resists pen acid", "rés. pén. acide générique", "entity name")
-t("generic resists pen lightning", "rés. pén. foudre générique", "entity name")
-t("generic resists pen arcane", "rés. pén. arcane générique", "entity name")
-t("generic resists pen nature", "rés. pén. nature générique", "entity name")
-t("generic resists pen blight", "rés. pén. fléau générique", "entity name")
-t("generic resists pen light", "rés. pén. lumière générique", "entity name")
-t("generic resists pen darkness", "rés. pén. obscurité générique", "entity name")
-t("generic resists pen temporal", "rés. pén. temporel générique", "entity name")
+t("generic resists pen physical", "rés pén physique générique", "entity name")
+t("generic resists pen mind", "rés pén mentale générique", "entity name")
+t("generic resists pen fire", "rés pén feu générique", "entity name")
+t("generic resists pen cold", "rés pén froid générique", "entity name")
+t("generic resists pen acid", "rés pén acide générique", "entity name")
+t("generic resists pen lightning", "rés pén foudre générique", "entity name")
+t("generic resists pen arcane", "rés pén arcane générique", "entity name")
+t("generic resists pen nature", "rés pén nature générique", "entity name")
+t("generic resists pen blight", "rés pén fléau générique", "entity name")
+t("generic resists pen light", "rés pén lumière générique", "entity name")
+t("generic resists pen darkness", "rés pén obscurité générique", "entity name")
+t("generic resists pen temporal", "rés pén temporel générique", "entity name")
 t("generic stat str", "stat for générique", "entity name")
 t("generic stat dex", "stat dex générique", "entity name")
 t("generic stat mag", "stat mag générique", "entity name")
@@ -9767,15 +9771,14 @@ t("generic temporal energize melee", "énergie temporelle en mêlée générique
 t("generic slime melee", "vaseu en mêlée générique", "entity name")
 t("generic dark numbing melee", "mêlée sombre et engourdissante générique", "entity name")
 t("generic die at", "mort générique à", "entity name")
-t("generic ignore crit", "ignorer crit. générique", "entity name")
+t("generic ignore crit", "ignorer crit générique", "entity name")
 t("generic void", "vide générique", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/gloves.lua"
 
 t("damage", "dégâts", "entity name")
-t("apr", "pén.", "entity name")
-t("crit", "crit.", "entity name")
+t("apr", "pén", "entity name")
 t("phasing", "phasante", "entity name")
 t("physical melee", "mêlée physique", "entity name")
 t("mind melee", "mêlée mentale", "entity name")
@@ -9810,25 +9813,29 @@ t("blight burst", "explosion de fléau", "entity name")
 t("nature burst", "explosion de nature", "entity name")
 t("arcane burst", "explosion arcanique", "entity name")
 t("temporal burst", "explosion temporelle", "entity name")
-t("physical burst (crit)", "explosion physique (crit.)", "entity name")
-t("mind burst (crit)", "explosion mentale (crit.)", "entity name")
-t("acid burst (crit)", "explosion acide (crit.)", "entity name")
-t("lightning burst (crit)", "explosion de foudre (crit.)", "entity name")
-t("fire burst (crit)", "explosion de feu (crit.)", "entity name")
-t("cold burst (crit)", "explosion de froid (crit.)", "entity name")
-t("light burst (crit)", "explosion de lumière (crit.)", "entity name")
-t("dark burst (crit)", "explosion d'obscurité (crit.)", "entity name")
-t("blight burst (crit)", "explosion de fléau (crit.)", "entity name")
-t("nature burst (crit)", "explosion de nature (crit.)", "entity name")
-t("arcane burst (crit)", "explosion arcanique (crit.)", "entity name")
-t("temporal burst (crit)", "explosion temporelle (crit.)", "entity name")
+t("physical burst (crit)", "explosion physique (crit)", "entity name")
+t("mind burst (crit)", "explosion mentale (crit)", "entity name")
+t("acid burst (crit)", "explosion acide (crit)", "entity name")
+t("lightning burst (crit)", "explosion de foudre (crit)", "entity name")
+t("fire burst (crit)", "explosion de feu (crit)", "entity name")
+t("cold burst (crit)", "explosion de froid (crit)", "entity name")
+t("light burst (crit)", "explosion de lumière (crit)", "entity name")
+t("dark burst (crit)", "explosion d'obscurité (crit)", "entity name")
+t("blight burst (crit)", "explosion de fléau (crit)", "entity name")
+t("nature burst (crit)", "explosion de nature (crit)", "entity name")
+t("arcane burst (crit)", "explosion arcanique (crit)", "entity name")
+t("temporal burst (crit)", "explosion temporelle (crit)", "entity name")
+-- texte non traduit
+--[==[
+t("crit", "crit", "entity name")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/melee.lua"
 
 t("damage", "dégâts", "entity name")
-t("apr", "pén.", "entity name")
-t("crit", "crit.", "entity name")
+t("apr", "pén", "entity name")
 t("phasing", "phasante", "entity name")
 t("physical melee", "mêlée physique", "entity name")
 t("mind melee", "mêlée mentale", "entity name")
@@ -9861,18 +9868,23 @@ t("blight burst", "explosion de fléau", "entity name")
 t("nature burst", "explosion de nature", "entity name")
 t("arcane burst", "explosion arcanique", "entity name")
 t("temporal burst", "explosion temporelle", "entity name")
-t("physical burst (crit)", "explosion physique (crit.)", "entity name")
-t("mind burst (crit)", "explosion mentale (crit.)", "entity name")
-t("acid burst (crit)", "explosion acide (crit.)", "entity name")
-t("lightning burst (crit)", "explosion de foudre (crit.)", "entity name")
-t("fire burst (crit)", "explosion de feu (crit.)", "entity name")
-t("cold burst (crit)", "explosion de froid (crit.)", "entity name")
-t("light burst (crit)", "explosion de lumière (crit.)", "entity name")
-t("dark burst (crit)", "explosion d'obscurité (crit.)", "entity name")
-t("blight burst (crit)", "explosion de fléau (crit.)", "entity name")
-t("nature burst (crit)", "explosion de nature (crit.)", "entity name")
-t("arcane burst (crit)", "explosion arcanique (crit.)", "entity name")
-t("temporal burst (crit)", "explosion temporelle (crit.)", "entity name")
+t("physical burst (crit)", "explosion physique (crit)", "entity name")
+t("mind burst (crit)", "explosion mentale (crit)", "entity name")
+t("acid burst (crit)", "explosion acide (crit)", "entity name")
+t("lightning burst (crit)", "explosion de foudre (crit)", "entity name")
+t("fire burst (crit)", "explosion de feu (crit)", "entity name")
+t("cold burst (crit)", "explosion de froid (crit)", "entity name")
+t("light burst (crit)", "explosion de lumière (crit)", "entity name")
+t("dark burst (crit)", "explosion d'obscurité (crit)", "entity name")
+t("blight burst (crit)", "explosion de fléau (crit)", "entity name")
+t("nature burst (crit)", "explosion de nature (crit)", "entity name")
+t("arcane burst (crit)", "explosion arcanique (crit)", "entity name")
+t("temporal burst (crit)", "explosion temporelle (crit)", "entity name")
+-- texte non traduit
+--[==[
+t("crit", "crit", "entity name")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/ranged.lua"
@@ -9905,33 +9917,33 @@ t("stave inc damage blight", "bâton augm. dégâts fléau", "entity name")
 t("stave inc damage light", "bâton augm. dégâts lumière", "entity name")
 t("stave inc damage darkness", "bâton augm. dégâts obscurité", "entity name")
 t("stave inc damage temporal", "bâton augm. dégâts temporel", "entity name")
-t("stave resists pen physical", "bâton pén. rés. physique", "entity name")
-t("stave resists pen mind", "bâton pén. rés. mental", "entity name")
-t("stave resists pen fire", "bâton pén. rés. feu", "entity name")
-t("stave resists pen cold", "bâton pén. rés. froid", "entity name")
-t("stave resists pen acid", "bâton pén. rés. acide", "entity name")
-t("stave resists pen lightning", "bâton pén. rés. foudre", "entity name")
-t("stave resists pen arcane", "bâton pén. rés. arcane", "entity name")
-t("stave resists pen nature", "bâton pén. rés. nature", "entity name")
-t("stave resists pen blight", "bâton pén. rés. fléau", "entity name")
-t("stave resists pen light", "bâton pén. rés. lumière", "entity name")
-t("stave resists pen darkness", "bâton pén. rés. obscurité", "entity name")
-t("stave resists pen temporal", "bâton pén. rés. temporel", "entity name")
+t("stave resists pen physical", "bâton pén rés physique", "entity name")
+t("stave resists pen mind", "bâton pén rés mental", "entity name")
+t("stave resists pen fire", "bâton pén rés feu", "entity name")
+t("stave resists pen cold", "bâton pén rés froid", "entity name")
+t("stave resists pen acid", "bâton pén rés acide", "entity name")
+t("stave resists pen lightning", "bâton pén rés foudre", "entity name")
+t("stave resists pen arcane", "bâton pén rés arcane", "entity name")
+t("stave resists pen nature", "bâton pén rés nature", "entity name")
+t("stave resists pen blight", "bâton pén rés fléau", "entity name")
+t("stave resists pen light", "bâton pén rés lumière", "entity name")
+t("stave resists pen darkness", "bâton pén rés obscurité", "entity name")
+t("stave resists pen temporal", "bâton pén rés temporel", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts.lua"
 
 t("spellpower", "puissance des sorts", "entity name")
-t("spellcrit", "crit. de sort", "entity name")
-t("spell crit magnitude", "crit. de sort magnitude", "entity name")
+t("spellcrit", "crit de sort", "entity name")
+t("spell crit magnitude", "crit de sort magnitude", "entity name")
 t("mindpower", "puissance mentale", "entity name")
-t("mindcrit", "crit. mental", "entity name")
-t("mind crit magnitude", "crit. mental magnitude", "entity name")
+t("mindcrit", "crit mental", "entity name")
+t("mind crit magnitude", "crit mental magnitude", "entity name")
 t("phys dam", "dégât phys", "entity name")
-t("phys apr", "pén.phys", "entity name")
-t("phys crit", "pén. crit", "entity name")
+t("phys apr", "pénphys", "entity name")
+t("phys crit", "pén crit", "entity name")
 t("phys atk", "atk phys", "entity name")
-t("phys crit magnitude", "crit. phys magnitude", "entity name")
+t("phys crit magnitude", "crit phys magnitude", "entity name")
 t("acid melee", "mêlée acide", "entity name")
 t("lightning melee", "mêlée de foudre", "entity name")
 t("fire melee", "mêlée de feu", "entity name")
@@ -9967,17 +9979,17 @@ t("immune disease", "immunité aux maladies", "entity name")
 t("immune silence", "immunité au silence", "entity name")
 t("immune disarm", "immunité au désarmement", "entity name")
 t("immune cut", "immunité aux entailles", "entity name")
-t("resist physical", "rés. phys", "entity name")
-t("resist fire", "rés. feu", "entity name")
-t("resist cold", "rés. froid", "entity name")
+t("resist physical", "rés phys", "entity name")
+t("resist fire", "rés feu", "entity name")
+t("resist cold", "rés froid", "entity name")
 t("resist acid", "résrésist.ist acide", "entity name")
-t("resist lightning", "rés. foudre", "entity name")
-t("resist arcane", "rés. arcane", "entity name")
-t("resist nature", "rés. nature", "entity name")
-t("resist blight", "rés. fléau", "entity name")
-t("resist light", "rés. lumière", "entity name")
-t("resist darkness", "rés. obscurité", "entity name")
-t("resist mind", "rés. mental", "entity name")
+t("resist lightning", "rés foudre", "entity name")
+t("resist arcane", "rés arcane", "entity name")
+t("resist nature", "rés nature", "entity name")
+t("resist blight", "rés fléau", "entity name")
+t("resist light", "rés lumière", "entity name")
+t("resist darkness", "rés obscurité", "entity name")
+t("resist mind", "rés mental", "entity name")
 t("save physical", "sauvegarde physical", "entity name")
 t("save spell", "sauvegarde contre les sorts", "entity name")
 t("save mental", "sauvegarde mentale", "entity name")
@@ -10025,8 +10037,10 @@ t("scroll", "parchemin", "entity type")
 t("scroll", "parchemin", "entity subtype")
 t("scroll", "parchemin", "_t")
 t("Magical scrolls can have wildly different effects!", "Les parchemins magiques peuvent avoir des effets très différents!", "_t")
-t("Natural infusions may be grafted onto your body, granting you an on-demand nature talent.", "Des infusions naturelles peuvent être greffées sur votre corps, vous accordant un talent naturel à la demande.", "_t")
-t("inscribe your skin with the infusion", "gravez l'infusion sur votre peau", "_t")
+t("infusion", "essence", "entity subtype")
+t("infusion", "essence", "_t")
+t("Natural infusions may be grafted onto your body, granting you an on-demand nature talent.", "Des essences naturelles peuvent être greffées sur votre corps, vous accordant un talent naturel à la demande.", "_t")
+t("inscribe your skin with the infusion", "gravez l'essence sur votre peau", "_t")
 t("Magical runes may be inscribed onto your body, granting you an on-demand spell talent.", "Des runes magiques peuvent être inscrites sur votre corps, vous accordant un talent de sort à la demande.", "_t")
 t("inscribe your skin with the rune", "gravez la rune sur votre peau", "_t")
 t("taint", "tache", "entity subtype")
@@ -10037,11 +10051,11 @@ t("lore", "histoire", "entity type")
 t("lore", "histoire", "entity subtype")
 t("This parchment contains some lore.", "Ce parchemin contient des histoires.", "_t")
 t("read it", "le lire", "_t")
-t("healing infusion", "infusion de soin", "entity name")
-t("regeneration infusion", "infusion de régénération", "entity name")
-t("wild infusion", "infusion sauvage", "entity name")
-t("movement infusion", "infusion de mouvement", "entity name")
-t("heroism infusion", "infusion d'héroïsme", "entity name")
+t("healing infusion", "essence de soin", "entity name")
+t("regeneration infusion", "essence de régénération", "entity name")
+t("wild infusion", "essence sauvage", "entity name")
+t("movement infusion", "essence de mouvement", "entity name")
+t("heroism infusion", "essence d'héroïsme", "entity name")
 t("teleportation rune", "rune de téléportation", "entity name")
 t("shielding rune", "rune de bouclier magique", "entity name")
 t("biting gale rune", "rune de coup de vent", "entity name")
@@ -10057,12 +10071,10 @@ t("vision rune", "rune de vision", "entity name")
 t("heat beam rune", "rune de faisceau de chaleur", "entity name")
 t("phase door rune", "rune de porte de phase", "entity name")
 t("controlled phase door rune", "rune de porte de phase contrôlée", "entity name")
-t("sun infusion", "infusion solaire", "entity name")
-t("insidious poison infusion", "infusion de poison insidieux", "entity name")
+t("sun infusion", "essence solaire", "entity name")
+t("insidious poison infusion", "essence de poison insidieux", "entity name")
 -- texte non traduit
 --[==[
-t("infusion", "infusion", "entity subtype")
-t("infusion", "infusion", "_t")
 t("rune", "rune", "entity subtype")
 t("rune", "rune", "_t")
 --]==]
@@ -10477,9 +10489,9 @@ t("Windborne Azurite", "Azurite des Vents", "entity name")
 t("blue", "bleu", "entity subtype")
 t("windy gem", "joyau des vents", "_t")
 t("Air currents swirl around this bright blue jewel.", "Les courants d'air tourbillonnent autour de ce joyau bleu vif.", "_t")
-t("Primal Infusion", "Infusion Primale", "entity name")
-t("This wild infusion has evolved.", "Cette infusion sauvage a évolué.", "_t")
-t("pulsing infusion", "infusion pulsée", "_t")
+t("Primal Infusion", "Essence Primale", "entity name")
+t("This wild infusion has evolved.", "Cette essence sauvage a évolué.", "_t")
+t("pulsing infusion", "essence pulsée", "_t")
 t("Prismatic Rune", "Rune Prismatique", "entity name")
 t("Mirror Image Rune", "Rune d'Image Miroir", "entity name")
 t("Staff of Destruction", "Bâton de Destruction", "entity name")
@@ -11387,7 +11399,7 @@ t("one handed weapons", "armes à une main", "entity name")
 t("archery", "archerie", "entity name")
 t("knife smith", "fabricant de couteaux", "entity name")
 t("staff carver", "sculpteur de bâton", "entity name")
-t("infusion store", "magasin d'infusions", "entity name")
+t("infusion store", "magasin d'essences", "entity name")
 t("rune store", "magasin de runes", "entity name")
 t("gem store", "magasin de gemmes", "entity name")
 t("tool store", "magasin d'outils", "entity name")
@@ -19196,31 +19208,26 @@ t("Chant Radiant", "Chant Radiant", "talent name")
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/circles.lua"
 
-
--- texte non traduit
---[==[
-t("Circle of Shifting Shadows", "Circle of Shifting Shadows", "talent name")
+t("Circle of Shifting Shadows", "Cercle des Ombres Changeantes", "talent name")
 t([[Creates a circle of radius %d at your feet; the circle increases your defense and all saves by %d while dealing %0.2f darkness damage per turn to everyone else within its radius. The circle lasts %d turns.
-		The damage will increase with your Spellpower.]], [[Creates a circle of radius %d at your feet; the circle increases your defense and all saves by %d while dealing %0.2f darkness damage per turn to everyone else within its radius. The circle lasts %d turns.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Circle of Sanctity", "Circle of Sanctity", "talent name")
-t("Creates a circle of radius %d at your feet; the circle protects you from silence effects while you remain in its radius while silencing and dealing %d light damage to everyone else who enters. The circle lasts %d turns.", "Creates a circle of radius %d at your feet; the circle protects you from silence effects while you remain in its radius while silencing and dealing %d light damage to everyone else who enters. The circle lasts %d turns.", "tformat")
-t("Circle of Warding", "Circle of Warding", "talent name")
+		The damage will increase with your Spellpower.]], [[Crée un cercle de rayon %d à vos pieds; le cercle augmente votre défense et toutes vos sauvegardes de %d tout en infligeant %0.2f dégâts d'obscurité par tour à toutes les créatures dans son rayon. Le cercle dure %d tours.
+		Les dégâts dépendent de votre Puissance des Sorts.]], "tformat")
+t("Circle of Sanctity", "Cercle de Sainteté", "talent name")
+t("Creates a circle of radius %d at your feet; the circle protects you from silence effects while you remain in its radius while silencing and dealing %d light damage to everyone else who enters. The circle lasts %d turns.", "Crée un cercle de rayon %d à vos pieds; le cercle vous protège des effets de silence tant que vous restez dans son rayon tout en réduisant au silence et infligeant %d dégâts de lumière à toutes les créatures qui y entrent. Le cercle dure %d tours.", "tformat")
+t("Circle of Warding", "Cercle de Protection", "talent name")
 t([[Creates a circle of radius %d at your feet; the circle slows incoming projectiles by %d%% and attempts to push all creatures other than yourself out of its radius, inflicting %0.2f light damage and %0.2f darkness damage per turn as it does so.  The circle lasts %d turns.
-		The effects will increase with your Spellpower.]], [[Creates a circle of radius %d at your feet; the circle slows incoming projectiles by %d%% and attempts to push all creatures other than yourself out of its radius, inflicting %0.2f light damage and %0.2f darkness damage per turn as it does so.  The circle lasts %d turns.
-		The effects will increase with your Spellpower.]], "tformat")
-t("Celestial Surge", "Celestial Surge", "talent name")
+		The effects will increase with your Spellpower.]], [[Crée un cercle de rayon %d à vos pieds; le cercle ralentit les projectiles entrants de %d%% et tente de repousser toutes les créatures autres que vous hors de son rayon, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité par tour pendant ce temps. Le cercle dure %d tours.
+		Les effets dépendent de votre Puissances de Sorts.]], "tformat")
+t("Celestial Surge", "Surge Céleste", "talent name")
 t([[Conjure a surge of celestial power through your circles. Any foe standing within one of your circles will be slowed by %d%% for %d turns and take %d light and %d darkness damage.
 		Residual power from the surge will emanate from your circles for %d turns; each circle you stand in will increase your celestial resources.
 		Shifting Shadows: +1 negative.
 		Sanctity: +1 postive.
-		Warding: +0.5 postive and negative.]], [[Conjure a surge of celestial power through your circles. Any foe standing within one of your circles will be slowed by %d%% for %d turns and take %d light and %d darkness damage.
-		Residual power from the surge will emanate from your circles for %d turns; each circle you stand in will increase your celestial resources.
-		Shifting Shadows: +1 negative.
-		Sanctity: +1 postive.
-		Warding: +0.5 postive and negative.]], "tformat")
---]==]
-
+		Warding: +0.5 postive and negative.]], [[Convoquez une vague de puissance céleste à travers vos cercles. Tout ennemi se tenant dans l'un de vos cercles sera ralenti de %d%% pendant %d tours et subira %d dégâts de lumière et %d dégâts d'obscurité.
+		Le pouvoir résiduel de la vague émanera de vos cercles pendant %d tours; chaque cercle dans lequel vous vous tenez augmentera vos ressources célestes.
+		Ombres Changeantes: +1 négatif.
+		Sainteté: +1 positif.
+		Protection: +0.5 positif et négatif.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/combat.lua"
@@ -19307,7 +19314,7 @@ The shield strength will increase with your Spellpower.]], "tformat")
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/darkside.lua"
 
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Brutalize", "Brutalize", "talent name")
@@ -19406,41 +19413,34 @@ The damage reduction will increase with your Spellpower.]], "tformat")
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/eclipse.lua"
 
+t("Blood Red Moon", "Lune Rouge Sang", "talent name")
+t("Increases your spell critical chance by %d%%.", "Augmente vos chances de coup critique magique de %d%%.", "tformat")
 t("Totality", "Totalité", "talent name")
--- texte non traduit
---[==[
-t("Blood Red Moon", "Blood Red Moon", "talent name")
-t("Increases your spell critical chance by %d%%.", "Increases your spell critical chance by %d%%.", "tformat")
 t([[Increases your light and darkness resistance penetration by %d%% for %d turns, and reduces the cooldown of all Celestial skills by %d.
-		The resistance penetration will increase with your Cunning.]], [[Increases your light and darkness resistance penetration by %d%% for %d turns, and reduces the cooldown of all Celestial skills by %d.
-		The resistance penetration will increase with your Cunning.]], "tformat")
-t("Corona", "Corona", "talent name")
+		The resistance penetration will increase with your Cunning.]], [[Augmente votre pénétration de résistance à la lumière et aux ténèbres de %d%% pour %d tours, et réduit le temps de recharge de toutes les compétences Célestes de %d.
+		La pénétration de résistance dépend de votre Ruse.]], "tformat")
+t("Corona", "Couronne", "talent name")
 t([[Each time one of your spells criticals, you project a bolt of light or shadow at up to %d targets within radius %d, doing %0.2f light damage or %0.2f darkness damage per bolt.
 		This effect costs 2 positive or 2 negative energy each time it's triggered, and will not activate if either your positive or negative energy is below 2.
 		The damage scales with your Spellpower.
-		This spell cannot crit.]], [[Each time one of your spells criticals, you project a bolt of light or shadow at up to %d targets within radius %d, doing %0.2f light damage or %0.2f darkness damage per bolt.
-		This effect costs 2 positive or 2 negative energy each time it's triggered, and will not activate if either your positive or negative energy is below 2.
-		The damage scales with your Spellpower.
-		This spell cannot crit.]], "tformat")
-t("Darkest Light", "Darkest Light", "talent name")
-t("Shroud foes within radius %d in darkest light, dealing %0.2f light and %0.2f darkness damage per turn and converting %d%% of the damage they deal between light and darkness for %d turns.", "Shroud foes within radius %d in darkest light, dealing %0.2f light and %0.2f darkness damage per turn and converting %d%% of the damage they deal between light and darkness for %d turns.", "tformat")
---]==]
-
+		This spell cannot crit.]], [[Chaque fois qu'un de vos sorts fait un coup critique, vous projetez un trait de lumière ou d'ombre sur un maximum de %d cibles dans un rayon de %d, infligeant %0.2f dégâts de lumière ou %0.2f dégâts d'obscurité par trait.
+		Cet effet coûte 2 énergie positive ou 2 énergie négative à chaque déclenchement, et ne s'activera pas si votre énergie positive ou négative est inférieure à 2.
+		Les dégâts dépendent de votre Puissance des Sorts.
+		Ce sort ne peut pas faire de coups critiques.]], "tformat")
+t("Darkest Light", "Lumière la plus Sombre", "talent name")
+t("Shroud foes within radius %d in darkest light, dealing %0.2f light and %0.2f darkness damage per turn and converting %d%% of the damage they deal between light and darkness for %d turns.", "Enveloppez les ennemis dans un rayon de %d dans la lumière la plus sombre, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité par tour et convertissant %d%% des dégâts qu'ils infligent entre lumière et obscurité pendant %d tours.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/glyphs.lua"
 
+t("Glyphs", "Glyphes", "talent name")
+t("glyph of sunlight", "glyphe de lumière solaire", "_t")
 t("trap", "piège", "_t")
-t("Empowered Glyphs", "Glyphes Renforcés", "talent name")
--- texte non traduit
---[==[
-t("Glyphs", "Glyphs", "talent name")
-t("glyph of sunlight", "glyph of sunlight", "_t")
-t("Deals %d light damage and heals the summoner for %d", "Deals %d light damage and heals the summoner for %d", "tformat")
-t("glyph of moonlight", "glyph of moonlight", "_t")
-t("Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "tformat")
-t("glyph of twilight", "glyph of twilight", "_t")
-t("Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "tformat")
+t("Deals %d light damage and heals the summoner for %d", "Inflige %d dégâts de lumière et soigne l'invocateur de %d", "tformat")
+t("glyph of moonlight", "glyphe de clair de lune", "_t")
+t("Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "Inflige %d dégâts d'obscurité et draine l'énergie des l'ennemis, réduisant tous les dégâts infligés de %d%% pendant %d tours.", "tformat")
+t("glyph of twilight", "glyphe de crépuscule", "_t")
+t("Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "Explose, projetant l'ennemi d'une case dans une direction aléatoire et infligeant %d dégâts de lumière et %d dégâts d'obscurité.", "tformat")
 t([[When one of your spells goes critical, you bind glyphs in radius 1 centered on a random target in range %d at the cost of 5 positive and 5 negative energy.
 		Glyphs last for %d turns and cause various effects when an enemy enters their grid.
 		Glyphs will only spawn on enemies that aren't adjacent to an existing glyph.
@@ -19451,38 +19451,37 @@ t([[When one of your spells goes critical, you bind glyphs in radius 1 centered 
 		#ffd700#Glyph of Sunlight#LAST#:  Bind sunlight into a glyph. When triggered it will release a brilliant light, dealing %0.2f light damage and healing you for %d.
 		#7f7f7f#Glyph of Moonlight#LAST#:  Bind moonlight into a glyph. When triggered it will release a fatiguing darkness,  dealing %0.2f darkness damage and reducing the foes damage dealt by %d%% for %d turns.
 		#9D9DC9#Glyph of Twilight#LAST#:  Bind twilight into a glyph. When triggered it will release a burst of twilight, dealing %0.2f light and %0.2f darkness damage and knocking the foe back %d tiles.
-		]], [[When one of your spells goes critical, you bind glyphs in radius 1 centered on a random target in range %d at the cost of 5 positive and 5 negative energy.
-		Glyphs last for %d turns and cause various effects when an enemy enters their grid.
-		Glyphs will only spawn on enemies that aren't adjacent to an existing glyph.
-		This can only happen every %d game turns.
-		Glyph effects will scale with your Spellpower.
+		]], [[Lorsqu'un de vos sorts fait un coup critique, vous liez des glyphes dans un rayon de 1 centré sur une cible aléatoire à portée %d au coût de 5 énergies positive et négative.
+		Les glyphes durent %d tours et causent divers effets lorsqu'un ennemi entre dans leur case.
+		Les glyphes n'apparaîtront que sur les ennemis non adjacents à un glyphe existant.
+		Cela ne peut arriver que tous les %d tours de jeu.
+		Les effets des glyphes dépendent de votre Puissance des Sorts.
 
-		Available glyphs are:
-		#ffd700#Glyph of Sunlight#LAST#:  Bind sunlight into a glyph. When triggered it will release a brilliant light, dealing %0.2f light damage and healing you for %d.
-		#7f7f7f#Glyph of Moonlight#LAST#:  Bind moonlight into a glyph. When triggered it will release a fatiguing darkness,  dealing %0.2f darkness damage and reducing the foes damage dealt by %d%% for %d turns.
-		#9D9DC9#Glyph of Twilight#LAST#:  Bind twilight into a glyph. When triggered it will release a burst of twilight, dealing %0.2f light and %0.2f darkness damage and knocking the foe back %d tiles.
+		Les glyphes disponibles sont :
+		#ffd700#Glyphe de Lumière Solaire#LAST#: Liez la lumière solaire dans un glyphe. Lorsqu'il est déclenché, il libérera une lumière brillante, infligeant %0.2f dégâts de lumière et vous soignant de %d.
+		#7f7f7f#Glyphe de Clair de Lune#LAST#: Liez le clair de lune dans un glyphe. Lorsqu'il est déclenché, il libérera une obscurité fatigante, infligeant %0.2f dégâts d'obscurité et réduisant les dégâts infligés par l'ennemi de %d%% pendant %d tours.
+		#9D9DC9#Glyphe de Crépuscule#LAST#: Liez le crépuscule dans un glyphe. Lorsqu'il est déclenché, il libérera une explosion de crépuscule, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité et projetant l'ennemi de %d cases.
 		]], "tformat")
-t("Glyphs of Fury", "Glyphs of Fury", "talent name")
+t("Glyphs of Fury", "Glyphes de Furie", "talent name")
 t([[Your glyphs are imbued with celestial fury; they last %d turns longer and when triggered they will deal damage.
 		#ffd700#Glyph of Sunlight#LAST#:  Deals %0.2f light damage.
 		#7f7f7f#Glyph of Moonlight#LAST#:  Deals %0.2f darkness damage.
-		#9D9DC9#Glyph of Twilight#LAST#:  Deals %0.2f light and %0.2f darkness damage.]], [[Your glyphs are imbued with celestial fury; they last %d turns longer and when triggered they will deal damage.
-		#ffd700#Glyph of Sunlight#LAST#:  Deals %0.2f light damage.
-		#7f7f7f#Glyph of Moonlight#LAST#:  Deals %0.2f darkness damage.
-		#9D9DC9#Glyph of Twilight#LAST#:  Deals %0.2f light and %0.2f darkness damage.]], "tformat")
-t("Up to 3 times per turn when one of your glyphs triggers you feel a surge of celestial power, increasing your darkness and light resistance and affinity by 5%% for %d turns, stacking up to %d times.", "Up to 3 times per turn when one of your glyphs triggers you feel a surge of celestial power, increasing your darkness and light resistance and affinity by 5%% for %d turns, stacking up to %d times.", "tformat")
-t("Destabilize Glyphs", "Destabilize Glyphs", "talent name")
+		#9D9DC9#Glyph of Twilight#LAST#:  Deals %0.2f light and %0.2f darkness damage.]], [[Vos glyphes sont imprégnés d'une furie céleste; ils durent %d tours de plus et lorsqu'ils sont déclenchés, ils infligent des dégâts.
+		#ffd700#Glyphe de Lumière Solaire#LAST#: Inflige %0.2f dégâts de lumière.
+		#7f7f7f#Glyphe de Clair de Lune#LAST#: Inflige %0.2f dégâts d'obscurité.
+		#9D9DC9#Glyphe de Crépuscule#LAST#: Inflige %0.2f dégâts de lumière et %0.2f dégâts d'obscurité.]], "tformat")
+t("Empowered Glyphs", "Glyphes Renforcés", "talent name")
+t("Up to 3 times per turn when one of your glyphs triggers you feel a surge of celestial power, increasing your darkness and light resistance and affinity by 5%% for %d turns, stacking up to %d times.", "Jusqu'à 3 fois par tour, lorsqu'un de vos glyphes se déclenche, vous ressentez une poussée de puissance céleste augmentant votre résistance et affinité à l'obscurité et à la lumière de 5%% pendant %d tours, cumulable jusqu'à %d fois.", "tformat")
+t("Destabilize Glyphs", "Déstabiliser les Glyphes", "talent name")
 t([[Destabilize your glyphs, triggering every glyph in radius 10 with an enemy standing on it.
 		At talent level 2 glyphs triggered this way will leave a residue of themselves on the ground, dealing damage each turn for %d turns.
 		#ffd700#Sunlight#LAST#:  %0.2f light damage.
 		#7f7f7f#Moonlight#LAST#:  %0.2f darkness damage.
-		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], [[Destabilize your glyphs, triggering every glyph in radius 10 with an enemy standing on it.
-		At talent level 2 glyphs triggered this way will leave a residue of themselves on the ground, dealing damage each turn for %d turns.
-		#ffd700#Sunlight#LAST#:  %0.2f light damage.
-		#7f7f7f#Moonlight#LAST#:  %0.2f darkness damage.
-		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], "tformat")
---]==]
-
+		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], [[Déstabilisez vos glyphes, déclenchant chaque glyphe dans un rayon de 10 avec un ennemi dessus.
+		Au niveau de talent 2, les glyphes déclenchés de cette manière laisseront un résidu sur le sol, infligeant des dégâts chaque tour pendant %d tours.
+		#ffd700#Glyphe de Lumière Solaire#LAST#: %0.2f dégâts de lumière.
+		#7f7f7f#Glyphe de Clair de Lune#LAST#: %0.2f dégâts d'obscurité.
+		#9D9DC9#Glyphe de Crépuscule#LAST#: %0.2f dégâts de lumière et %0.2f dégâts d'obscurité]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/guardian.lua"
@@ -19521,42 +19520,40 @@ t("#CRIMSON#As your \"talk\" with the star ends, you feel its power, the whole a
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/hymns.lua"
 
-t("%s's %s", "%s de %s", "tformat")
--- texte non traduit
---[==[
-t("Hymn of Shadows", "Hymn of Shadows", "talent name")
+t("Hymn of Shadows", "Hymne des Ombres", "talent name")
 t([[Chant the glory of the Moons, gaining the agility of shadows.
 		This increases your movement speed by %d%% and your spell speed by %d%%.
 		You may only have one Hymn active at once.
-		The effects will increase with your Spellpower.]], [[Chant the glory of the Moons, gaining the agility of shadows.
-		This increases your movement speed by %d%% and your spell speed by %d%%.
-		You may only have one Hymn active at once.
-		The effects will increase with your Spellpower.]], "tformat")
-t("Hymn of Detection", "Hymn of Detection", "talent name")
+		The effects will increase with your Spellpower.]], [[Chantez la gloire des Lunes, en gagnant l'agilité des ombres.
+		Ceci augmente votre vitesse de déplacement de %d%% et votre vitesse de sort de %d%%.
+		Vous ne pouvez avoir qu'un seul Hymne actif à la fois.
+		Les effets dépendent de votre Puissance des Sorts.]], "tformat")
+t("Hymn of Detection", "Hymne de Détection", "talent name")
 t([[Chant the glory of the Moons, granting you stealth detection (+%d power), and invisibility detection (+%d power).
 		You may also attack creatures you cannot see without penalty and your critical hits do %d%% more damage.
 		You may only have one Hymn active at once.
-		The stealth and invisibility detection will increase with your Spellpower.]], [[Chant the glory of the Moons, granting you stealth detection (+%d power), and invisibility detection (+%d power).
-		You may also attack creatures you cannot see without penalty and your critical hits do %d%% more damage.
-		You may only have one Hymn active at once.
-		The stealth and invisibility detection will increase with your Spellpower.]], "tformat")
-t("Hymn of Perseverance", "Hymn of Perseverance", "talent name")
+		The stealth and invisibility detection will increase with your Spellpower.]], [[Chantez la gloire des Lunes, vous accordant la détection de furtivité (+%d puissance), et la détection de l'invisibile (+%d puissance).
+		Vous pouvez également attaquer les créatures que vous ne pouvez pas voir sans pénalité et vos coups critiques infligent %d%% de dégâts supplémentaires.
+		Vous ne pouvez avoir qu'un seul Hymne actif à la fois.
+		La détection de furtivité et d'invisibilité augmente avec votre Puissance de Sort.]], "tformat")
+t("Hymn of Perseverance", "Hymne de Persévérance", "talent name")
 t([[Chant the glory of the Moons, granting you %d%% stun, blindness and confusion resistance.
-		You may only have one Hymn active at once.]], [[Chant the glory of the Moons, granting you %d%% stun, blindness and confusion resistance.
-		You may only have one Hymn active at once.]], "tformat")
-t("Hymn of Moonlight", "Hymn of Moonlight", "talent name")
-t("#DARK_GREY#A shroud of shadow dances around %s!", "#DARK_GREY#A shroud of shadow dances around %s!", "logSeen")
-t("#DARK_GREY#The shroud of shadows around %s disappears.", "#DARK_GREY#The shroud of shadows around %s disappears.", "logSeen")
+		You may only have one Hymn active at once.]], [[Chantez la gloire des Lunes, vous accordant %d%% de résistance à l'assomement, l'aveuglement et la confusion.
+		Vous ne pouvez avoir qu'un seul Hymne actif à la fois.]], "tformat")
+t("Hymn of Moonlight", "Hymne de Clair de Lune", "talent name")
+t("#DARK_GREY#A shroud of shadow dances around %s!", "#DARK_GREY#Un linceul d'ombre danse autour de %s!", "logSeen")
+t("%s's %s", "%s de %s", "tformat", {2,1})
+t("#DARK_GREY#The shroud of shadows around %s disappears.", "#DARK_GREY#Le linceul d'ombres autour de %s disparaît.", "logSeen")
 t([[Chant the glory of the Moons, conjuring a shroud of dancing shadows that follows you as long as this spell is active.
 		Each turn, a shadowy beam will hit up to %d of your foes within radius 5 for 1 to %0.2f damage.
 		This powerful spell will drain %0.1f negative energy for each beam; no beam will fire if your negative energy is too low.
 		You may only have one Hymn active at once.
-		The damage will increase with your Spellpower.]], [[Chant the glory of the Moons, conjuring a shroud of dancing shadows that follows you as long as this spell is active.
-		Each turn, a shadowy beam will hit up to %d of your foes within radius 5 for 1 to %0.2f damage.
-		This powerful spell will drain %0.1f negative energy for each beam; no beam will fire if your negative energy is too low.
-		You may only have one Hymn active at once.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Hymn Acolyte", "Hymn Acolyte", "talent name")
+		The damage will increase with your Spellpower.]], [[Chantez la gloire des Lunes, conjurant un linceul d'ombres dansantes qui vous suit tant que ce sort est actif.
+		À chaque tour, un rayon ténébreux frappera jusqu'à %d de vos ennemis dans un rayon de 5 pour 1 à %0.2f dégâts.
+		Ce sort puissant drainera %0.1f énergie négative pour chaque rayon; aucun rayon ne sera tiré si votre énergie négative est trop faible.
+		Vous ne pouvez avoir qu'un seul Hymne actif à la fois.
+		Les effets dépendent de votre Puissance des Sorts.]], "tformat")
+t("Hymn Acolyte", "Hymne d'Acolyte", "talent name")
 t([[You have learned to sing the praises of the Moons, in the form of three defensive Hymns:
 
 Hymn of Shadows: Increases your movement speed by %d%% and your spell casting speed by %d%%.
@@ -19565,39 +19562,34 @@ Hymn of Detection: Increases your ability to see stealthy creatures by %d and in
 
 Hymn of Perseverance: Increases your resistance to stun, confusion and blinding by %d%%.
 
-You may only have one Hymn active at a time.]], [[You have learned to sing the praises of the Moons, in the form of three defensive Hymns:
+You may only have one Hymn active at a time.]], [[Vous avez appris à chanter les louanges des Lunes, sous la forme de trois Hymnes défensifs:
+Hymne des Ombres: Augmente votre vitesse de déplacement de %d%% et votre vitesse d'incantation de sort de %d%%.
+Hymne de Détection: Augmente votre capacité à voir les créatures furtives de %d et les créatures invisibles de %d, et augmente votre puissance critique de %d%%.
+Hymne de Persévérance: Augmente votre résistance à l'assomement, à la confusion et à l'aveuglement de %d%%.
 
-Hymn of Shadows: Increases your movement speed by %d%% and your spell casting speed by %d%%.
-
-Hymn of Detection: Increases your ability to see stealthy creatures by %d and invisible creatures by %d, and increases your critical power by %d%%.
-
-Hymn of Perseverance: Increases your resistance to stun, confusion and blinding by %d%%.
-
-You may only have one Hymn active at a time.]], "tformat")
-t("Hymn Incantor", "Hymn Incantor", "talent name")
+Vous ne pouvez avoir qu'un seul Hymne actif à la fois.]], "tformat")
+t("Hymn Incantor", "Hymne d'Incantateur", "talent name")
 t([[Your Hymns now focus darkness near you, which increases your darkness damage by %d%% and does %0.2f darkness damage to anyone who hits you in melee.
-		These values scale with your Spellpower.]], [[Your Hymns now focus darkness near you, which increases your darkness damage by %d%% and does %0.2f darkness damage to anyone who hits you in melee.
-		These values scale with your Spellpower.]], "tformat")
-t("Hymn Adept", "Hymn Adept", "talent name")
+		These values scale with your Spellpower.]], [[Vos Hymnes concentrent désormais l'obscurité près de vous, ce qui augmente vos dégâts d'obscurité de %d%% et inflige %0.2f dégâts d'obscurité à quiconque vous frappe au corps à corps.
+		Les valeurs dépendent de votre Puissance des Sorts.]], "tformat")
+t("Hymn Adept", "Hymne d'Adepte", "talent name")
 t([[Your skill in Hymns now improves your sight in darkness, increasing your infravision radius by %d.
 		Also, when you end a Hymn, you will gain a buff of a type based on which Hymn you ended.
 		Hymn of Shadows increases your movement speed by %d%% for one turn.
 		Hymn of Detection makes you invisible (power %d) for %d turns.
-		Hymn of Perseverance grants a damage shield (power %d) for %d turns.]], [[Your skill in Hymns now improves your sight in darkness, increasing your infravision radius by %d.
-		Also, when you end a Hymn, you will gain a buff of a type based on which Hymn you ended.
-		Hymn of Shadows increases your movement speed by %d%% for one turn.
-		Hymn of Detection makes you invisible (power %d) for %d turns.
-		Hymn of Perseverance grants a damage shield (power %d) for %d turns.]], "tformat")
-t("Hymn Nocturnalist", "Hymn Nocturnalist", "talent name")
+		Hymn of Perseverance grants a damage shield (power %d) for %d turns.]], [[Votre compétence en Hymnes améliore désormais votre vue dans l'obscurité, augmentant votre rayon d'infra-vision de %d.
+		De plus, lorsque vous mettez fin à un Hymne, vous gagnez un bonus dont le type dépend de l'Hymne que vous avez terminé.
+		Hymne des Ombres augmente votre vitesse de déplacement de %d%% pour un tour.
+		Hymne de Détection vous rend invisible (puissance %d) pendant %d tours.
+		Hymne de Persévérance accorde un bouclier de dégâts (puissance %d) pendant %d tours.]], "tformat")
+t("Hymn Nocturnalist", "Hymne Nocturnaliste", "talent name")
 t([[Your passion for singing the praises of the Moons reaches its zenith.
 		Your Hymns now fire shadowy beams that will hit up to %d of your foes within radius 5 for %0.2f damage, with a 25%% chance of blinding.
 		This powerful effect will drain %0.1f negative energy each time it fires at at least 1 target; no beam will fire if your negative energy is too low.
-		These values scale with your Spellpower.]], [[Your passion for singing the praises of the Moons reaches its zenith.
-		Your Hymns now fire shadowy beams that will hit up to %d of your foes within radius 5 for %0.2f damage, with a 25%% chance of blinding.
-		This powerful effect will drain %0.1f negative energy each time it fires at at least 1 target; no beam will fire if your negative energy is too low.
-		These values scale with your Spellpower.]], "tformat")
---]==]
-
+		These values scale with your Spellpower.]], [[Votre passion pour chanter les louanges des Lunes atteint son zénith.
+		Vos Hymnes tirent désormais des rayons ténébreux qui frapperont jusqu'à %d de vos ennemis dans un rayon de 5 pour %0.2f dégâts, avec 25%% de chances d'aveuglement.
+		Cet effet puissant drainera %0.1f énergie négative chaque fois qu'il tire sur au moins 1 cible; aucun rayon ne sera tiré si votre énergie négative est trop faible.
+		Ces valeurs augmentent avec votre Puissance de Sort.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/light.lua"
@@ -19619,7 +19611,7 @@ t([[A magical zone of Sunlight appears around you, healing and shielding all wit
 t("Barrier", "Barrière", "talent name")
 t([[A protective shield forms around you that lasts for up to %d turns and negates %d damage.
  		The total damage the barrier can absorb will increase with your Spellpower and can crit.]], [[Un bouclier de protection se forme autour de vous et dure jusqu'à %d tours et annule %d dégâts.
-		Les dégâts totaux que la barrière peut absorber augmentent avec votre puissance des sorts et peut être critique.]], "tformat")
+		Les dégâts totaux que la barrière peut absorber dépendent de votre Puissance des Sorts et peut être critique.]], "tformat")
 t("Places you under the protection of a ray of sunlight. For %d turns, the light removes a single negative effect from you every turn.", "Vous vous placez sous la protection d'un rayon de soleil. Pendant %d tours, la lumière dissipe un effet négatif par tour.", "tformat")
 -- texte non traduit
 --[==[
@@ -19630,36 +19622,32 @@ t("Providence", "Providence", "talent name")
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/other.lua"
 
+t("Glyph of Explosion", "Glyphe d'Explosion", "talent name")
+t("You somehow fail to set the corrosive seed.", "Vous échouez d'une manière ou d'une autre à poser la graine corrosive.", "logPlayer")
+t("glyph of explosion", "glyphe d'explosion", "_t")
 t("trap", "piège", "_t")
--- texte non traduit
---[==[
-t("Glyph of Explosion", "Glyph of Explosion", "talent name")
-t("You somehow fail to set the corrosive seed.", "You somehow fail to set the corrosive seed.", "logPlayer")
-t("glyph of explosion", "glyph of explosion", "_t")
-t("Explodes (radius 1) for %d light damage.", "Explodes (radius 1) for %d light damage.", "tformat")
-t("test glyph", "test glyph", "tformat")
-t("Glyph of Paralysis", "Glyph of Paralysis", "talent name")
-t("glyph of paralysis", "glyph of paralysis", "_t")
-t("Dazes for %d turns.", "Dazes for %d turns.", "tformat")
+t("Explodes (radius 1) for %d light damage.", "Explose (rayon 1) pour %d dégâts de lumière.", "tformat")
+t("test glyph", "glyphe de test", "tformat")
+t("Glyph of Paralysis", "Glyphe de Paralysie", "talent name")
+t("glyph of paralysis", "glyphe de paralysie", "_t")
+t("Dazes for %d turns.", "Étourdit pendant %d tours.", "tformat")
 t([[You bind light in a glyph on the floor. All enemies walking over the glyph will be dazed for %d turns.
-		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.]], [[You bind light in a glyph on the floor. All enemies walking over the glyph will be dazed for %d turns.
-		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.]], "tformat")
-t("Glyph of Repulsion", "Glyph of Repulsion", "talent name")
-t("glyph of repulsion", "glyph of repulsion", "_t")
-t("Deals %d physical damage, knocking the target back.", "Deals %d physical damage, knocking the target back.", "tformat")
+		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.]], [[Vous liez la lumière dans un glyphe sur le sol. Tous les ennemis marchant sur le glyphe seront étourdis pendant %d tours.
+		Le glyphe est un piège caché (%d de détection et %d de puissance de désarmement basée sur votre Magie) et dure %d tours.]], "tformat")
+t("Glyph of Repulsion", "Glyphe de Répulsion", "talent name")
+t("glyph of repulsion", "glyphe de répulsion", "_t")
+t("Deals %d physical damage, knocking the target back.", "Inflige %d dégâts physiques, repoussant la cible.", "tformat")
 t([[You bind light in a glyph on the floor. All enemies walking over the glyph will be hit by a blast that does %0.2f physical damage and knocks them back.
 		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.
-		The damage will increase with your Spellpower.]], [[You bind light in a glyph on the floor. All enemies walking over the glyph will be hit by a blast that does %0.2f physical damage and knocks them back.
-		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Glyph of Fatigue", "Glyph of Fatigue", "talent name")
-t("glyph of fatigue", "glyph of fatigue", "_t")
-t("Slows (%d%%) for 5 turns.", "Slows (%d%%) for 5 turns.", "tformat")
+		The damage will increase with your Spellpower.]], [[Vous liez la lumière dans un glyphe sur le sol. Tous les ennemis marchant sur le glyphe seront frappés par une explosion qui inflige %0.2f dégâts physiques et les repousse.
+		Le glyphe est un piège caché (%d de détection et %d de puissance de désarmement basée sur votre Magie) et dure %d tours.
+		Les dégâts dépendent de votre Puissance des Sorts.]], "tformat")
+t("Glyph of Fatigue", "Glyphe de Fatigue", "talent name")
+t("glyph of fatigue", "glyphe de fatigue", "_t")
+t("Slows (%d%%) for 5 turns.", "Ralentit (%d%%) pendant 5 tours.", "tformat")
 t([[You bind light in a glyph on the floor. All enemies walking over the glyph will be slowed by %d%% for 5 turns.
-		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.]], [[You bind light in a glyph on the floor. All enemies walking over the glyph will be slowed by %d%% for 5 turns.
-		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.]], "tformat")
---]==]
-
+		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.]], [[Vous liez la lumière dans un glyphe sur le sol. Tous les ennemis marchant sur le glyphe seront ralentis de %d%% pendant 5 tours.
+		Le glyphe est un piège caché (%d de détection et %d de puissance de désarmement basée sur votre Magie) et dure %d tours.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/radiance.lua"
@@ -19682,7 +19670,7 @@ t([[Your Radiance is so powerful it burns all foes caught in it, dealing %0.1f l
 		Each enemy effected has a %d%% chance of being dazed and blinded by the light for 3 turns. The daze and blind can be applied to each enemy at most once every 7 turns.
 		The damage increases with your Spellpower.]], [[Votre Rayonnement est si puissant qu'il brûle tous les ennemis pris dans son rayon, leur infligeant %0.1f dégâts de lumière à chaque tour.
 		Chaque ennemi affecté a %d%% de chances d'être étourdi et aveuglé par la lumière pendant 3 tours. L'étourdissement et l'aveuglement ne peuvent être appliqués à chaque ennemi qu'une fois tous les 7 tours.
-		Les dégâts augmentent avec votre Puissance des Sorts.]], "tformat")
+		Les dégâts infligés dépendent de votre Puissance des Sorts.]], "tformat")
 t([[The light of your Radiance allows you to see that which would normally be unseen and strike that which would normally be protected.
 		All enemies in your Radiance aura have their invisibility and stealth power reduced by %d; all actors affected by illumination have their defense reduced by %d as well as all evasion bonuses from being unseen negated.
 		In addition, your light damage is increased by %d%% and your strikes ignore %d%% of the light resistance of your targets.
@@ -19699,27 +19687,22 @@ t("Illumination", "Illumination", "talent name")
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/star-fury.lua"
 
-
--- texte non traduit
---[==[
-t("Moonlight Ray", "Moonlight Ray", "talent name")
+t("Moonlight Ray", "Rayon de Clair de Lune", "talent name")
 t([[Focuses the power of the Moon into a beam of shadows, doing %0.2f damage.
-		The damage dealt will increase with your Spellpower.]], [[Focuses the power of the Moon into a beam of shadows, doing %0.2f damage.
-		The damage dealt will increase with your Spellpower.]], "tformat")
-t("Shadow Blast", "Shadow Blast", "talent name")
+		The damage dealt will increase with your Spellpower.]], [[Concentrez le pouvoir de la Lune en un rayon d'ombres, infligeant %0.2f dégâts.
+		Les dégâts infligés dépendent de votre Puissance des Sorts.]], "tformat")
+t("Shadow Blast", "Explosion d'Ombre", "talent name")
 t([[Invokes a blast of shadows that deals %0.2f darkness damage, and leaves a radius 3 field that does %0.2f darkness damage per turn for %d turns.
-		The damage dealt will increase with your Spellpower.]], [[Invokes a blast of shadows that deals %0.2f darkness damage, and leaves a radius 3 field that does %0.2f darkness damage per turn for %d turns.
-		The damage dealt will increase with your Spellpower.]], "tformat")
-t("Twilight Surge", "Twilight Surge", "talent name")
+		The damage dealt will increase with your Spellpower.]], [[Invoque une explosion d'ombres qui inflige %0.2f dégâts d'obscurité, et laisse un champ de rayon 3 qui inflige %0.2f dégâts d'obscurité par tour pendant %d tours.
+		Les dégâts infligés dépendent de votre Puissance des Sorts.]], "tformat")
+t("Twilight Surge", "Onde Crépusculaire", "talent name")
 t([[A surge of twilight pulses from you, doing %0.2f light and %0.2f darkness damage to all others within radius %d.
-		The damage dealt will increase with your Spellpower.]], [[A surge of twilight pulses from you, doing %0.2f light and %0.2f darkness damage to all others within radius %d.
-		The damage dealt will increase with your Spellpower.]], "tformat")
-t("Starfall", "Starfall", "talent name")
+		The damage dealt will increase with your Spellpower.]], [[Une onde de crépuscule pulse depuis vous, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité à tous les autres dans un rayon de %d.
+		Les dégâts infligés dépendent de votre Puissance des Sorts.]], "tformat")
+t("Starfall", "Chute d'Étoile", "talent name")
 t([[A star falls on a radius %d area, doing %0.2f darkness damage on impact and stunning all within the area for 4 turns.
-		The damage dealt will increase with your Spellpower.]], [[A star falls on a radius %d area, doing %0.2f darkness damage on impact and stunning all within the area for 4 turns.
-		The damage dealt will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage dealt will increase with your Spellpower.]], [[Une étoile tombe sur une zone de rayon %d, infligeant %0.2f dégâts d'obscurité à l'impact et assommant toutes les créatures dans la zone pendant 4 tours.
+		Les dégâts infligés dépendent de votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/sun.lua"
@@ -19729,13 +19712,13 @@ t([[Calls forth a ray of light from the Sun, doing %0.1f Light damage to the tar
 		At level 3 the ray will be so intense it will also blind the target and everyone in a radius 2 around it for %d turns.
 		The damage dealt will increase with your Spellpower.]], [[Invoque un rayon de lumière solaire, infligeant %0.1f dégâts de lumière à la cible.
 		Au niveau 3, le rayon sera si intense qu'il aveuglera la cible et tous les ennemis dans un rayon de 2 pendant %d tours.
-		Les dégâts infligés augmentent avec votre Puissance des Sorts.]], "tformat")
+		Les dégâts infligés dépendent de votre Puissance des Sorts.]], "tformat")
 t("Path of the Sun", "Sentier Solaire", "talent name")
 t([[A path of sunlight appears in front of you for 5 turns. All foes standing inside take %0.1f Light damage per turn.
 		While standing in the path, your movement takes no time and can not trigger traps.
 		The damage done will increase with your Spellpower.]], [[Un chemin de lumière solaire apparaît devant vous pendant 5 tours. Tous les ennemis qui s'y trouvent subissent %0.1f dégâts de lumière par tour.
 		Tant que vous vous trouvez dans ce chemin vos déplacements sont instantanés et ne pouvent pas déclencher de pièges.
-		Les dégâts infligés augmentent avec votre Puissance des Sorts.]], "tformat")
+		Les dégâts infligés dépendent de votre Puissance des Sorts.]], "tformat")
 t("Sun's Vengeance", "Vengeance Solaire", "talent name")
 t([[Infuse yourself with the raging fury of the Sun, increasing your physical and spell critical chance by %d%%.
 		Each time you crit with a physical attack or a spell you have %d%% chance to gain Sun's Vengeance for 2 turns.
@@ -19751,79 +19734,71 @@ t([[You wrap yourself in a cloak of sunlight that empowers your magic and protec
 		While the cloak is active, your spell casting speed is increased by %d%%, your spell cooldowns are reduced by %d%%, and you cannot take more than %d%% of your maximum life from a single blow.
 		The effects will increase with your Spellpower.]], [[Vous vous enveloppez d'un manteau de lumière solaire qui renforce votre magie et vous protège pendant 6 tours.
 		Tant que le manteau est actif, votre vitesse d'incantation est augmentée de %d%%, le temps de recharge de vos sorts est réduit de %d%%, et vous ne pouvez pas subir plus de %d%% de vos points de vie maximum en un seul coup.
-		Les effets augmentent avec votre Puissance des Sorts.]], "tformat")
+		Les effets dépendent de votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/sunlight.lua"
 
-t("Sunburst", "Éclat Solaire", "talent name")
--- texte non traduit
---[==[
-t("Searing Light", "Searing Light", "talent name")
+t("Searing Light", "Lumière Ardente", "talent name")
 t([[Calls the power of the Sun into a searing lance, doing %d damage to the target and leaving a radius 1 area of searing light on the ground for 4 turns that does %d light damage to all foes within it.
-		The damage dealt will increase with your Spellpower.]], [[Calls the power of the Sun into a searing lance, doing %d damage to the target and leaving a radius 1 area of searing light on the ground for 4 turns that does %d light damage to all foes within it.
-		The damage dealt will increase with your Spellpower.]], "tformat")
-t("Sun Flare", "Sun Flare", "talent name")
+		The damage dealt will increase with your Spellpower.]], [[Appelle la puissance du Soleil dans une lance ardente, infligeant %d dégâts à la cible et laissant une zone de lumière ardente de rayon 1 au sol pendant 4 tours qui inflige %d dégâts de lumière à tous les ennemis à l'intérieur.
+		Les dégâts infligés dépendent de votre Puissance des Sorts.]], "tformat")
+t("Sun Flare", "Éruption Solaire", "talent name")
 t([[Invokes the Sun to cause a flare within radius %d, blinding your foes for %d turns and lighting up the area.
 		All enemies effected will take %0.2f light damage.
 		At talent level 3 you gain %d%% light, darkness, and fire resistance for %d turns.
-		The damage done and resistances will increase with your Spellpower.]], [[Invokes the Sun to cause a flare within radius %d, blinding your foes for %d turns and lighting up the area.
-		All enemies effected will take %0.2f light damage.
-		At talent level 3 you gain %d%% light, darkness, and fire resistance for %d turns.
-		The damage done and resistances will increase with your Spellpower.]], "tformat")
-t("Firebeam", "Firebeam", "talent name")
+		The damage done and resistances will increase with your Spellpower.]], [[Invoque le Soleil pour causer une éruption dans un rayon de %d, aveuglant vos ennemis pendant %d tours et illuminant la zone.
+		Tous les ennemis affectés subiront %0.2f dégâts de lumière.
+		Au niveau de talent 3, vous gagnez %d%% de résistance à la lumière, aux ténèbres et au feu pendant %d tours.
+		Les dégâts infligés et les résistances dépendent de votre Puissance de Sort.]], "tformat")
+t("Firebeam", "Rayon de Feu", "talent name")
 t([[Call forth the Sun to summon a fiery beam that pierces to the farthest enemy dealing %d fire damage to all enemies hit.
 		This spell will automatically cast again at the start of your next two turns.
 		You will gain %0.2f positive energy each time firebeam or an instant damage proc caused by firebeam deals damage.
-		The damage done will increase with your Spellpower.]], [[Call forth the Sun to summon a fiery beam that pierces to the farthest enemy dealing %d fire damage to all enemies hit.
-		This spell will automatically cast again at the start of your next two turns.
-		You will gain %0.2f positive energy each time firebeam or an instant damage proc caused by firebeam deals damage.
-		The damage done will increase with your Spellpower.]], "tformat")
-t("Release a burst of sunlight beams at %d random foes in radius %d, dealing %d damage to all foes hit and increasing your bonus light damage by %d%% of your bonus darkness damage for %d turns.", "Release a burst of sunlight beams at %d random foes in radius %d, dealing %d damage to all foes hit and increasing your bonus light damage by %d%% of your bonus darkness damage for %d turns.", "tformat")
---]==]
-
+		The damage done will increase with your Spellpower.]], [[Appelle le Soleil pour invoquer un rayon ardent qui transperce jusqu'à l'ennemi le plus éloigné, infligeant %d dégâts de feu à tous les ennemis touchés.
+		Ce sort sera automatiquement lancé à nouveau au début de vos deux prochains tours.
+		Vous gagnerez %0.2f énergie positive chaque fois que le Rayon de Feu ou un effet de dégâts instantanés causé par le Rayon de Feu inflige des dégâts.
+		Les dégâts infligés dépendent de votre Puissance de Sort.]], "tformat")
+t("Sunburst", "Éclat Solaire", "talent name")
+t("Release a burst of sunlight beams at %d random foes in radius %d, dealing %d damage to all foes hit and increasing your bonus light damage by %d%% of your bonus darkness damage for %d turns.", "Relâche une rafale de rayons solaires sur %d ennemis aléatoires dans un rayon de %d, infligeant %d dégâts à tous les ennemis touchés et augmentant vos dégâts de lumière bonus de %d%% de vos dégâts d'ombre bonus pendant %d tours.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/twilight.lua"
 
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
--- texte non traduit
---[==[
-t("Twilight", "Twilight", "talent name")
+t("Twilight", "Crépuscule", "talent name")
 t([[You stand between the darkness and the light, allowing you to convert 15 positive energy into %d negative energy.
-		The negative energy gain will increase with your Cunning.]], [[You stand between the darkness and the light, allowing you to convert 15 positive energy into %d negative energy.
-		The negative energy gain will increase with your Cunning.]], "tformat")
-t("Jumpgate: Teleport To", "Jumpgate: Teleport To", "talent name")
-t("You must sustain the Jumpgate spell to be able to teleport.", "You must sustain the Jumpgate spell to be able to teleport.", "logPlayer")
-t("Instantly travel to your jumpgate, as long as you are within %d tiles of it.", "Instantly travel to your jumpgate, as long as you are within %d tiles of it.", "tformat")
-t("Jumpgate", "Jumpgate", "talent name")
-t("jumpgate", "jumpgate", "_t")
+		The negative energy gain will increase with your Cunning.]], [[Vous vous tenez entre l'obscurité et la lumière, vous permettant de convertir 15 énergie positive en %d énergie négative.
+		Le gain d'énergie négative dépend de votre Ruse.]], "tformat")
+t("Jumpgate: Teleport To", "Portail de Saut: Téléportation", "talent name")
+t("You must sustain the Jumpgate spell to be able to teleport.", "Vous devez maintenir le sort Portail de Saut pour pouvoir vous téléporter.", "logPlayer")
+t("Instantly travel to your jumpgate, as long as you are within %d tiles of it.", "Voyagez instantanément vers votre portail de saut, tant que vous êtes à moins de %d cases de celui-ci.", "tformat")
+t("Jumpgate", "Portail de Saut", "talent name")
+t("jumpgate", "portail de saut", "_t")
 t([[Create a shadow jumpgate at your current location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within %d tiles of it.
 		Note that any stairs underneath the jumpgate will be unusable while the spell is sustained, and you may need to cancel this sustain in order to leave certain locations.
-		At talent level 4, you learn to create and sustain a second jumpgate.]], [[Create a shadow jumpgate at your current location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within %d tiles of it.
-		Note that any stairs underneath the jumpgate will be unusable while the spell is sustained, and you may need to cancel this sustain in order to leave certain locations.
-		At talent level 4, you learn to create and sustain a second jumpgate.]], "tformat")
-t("Mind Blast", "Mind Blast", "talent name")
+		At talent level 4, you learn to create and sustain a second jumpgate.]], [[Créez un portail de saut d'ombre à votre emplacement actuel. Tant que vous maintenez ce sort, vous pouvez utiliser 'Portail de Saut: Téléportation' pour voyager instantanément vers le portail de saut, tant que vous êtes à moins de %d cases de celui-ci.
+		Notez que tout escalier situé sous le portail de saut sera inutilisable tant que le sort est maintenu, et vous devrez peut-être annuler ce maintien pour quitter certains lieux.
+		Au niveau de talent 4, vous apprenez à créer et maintenir un second portail de saut.]], "tformat")
+t("Mind Blast", "Explosion Mentale", "talent name")
 t([[Let out a mental cry that shatters the will of your targets within radius %d, dealing %0.2f darkness damage and confusing (%d%% to act randomly) them for %d turns.
-		The damage will improve with your spellpower and the duration will improve with your Cunning.]], [[Let out a mental cry that shatters the will of your targets within radius %d, dealing %0.2f darkness damage and confusing (%d%% to act randomly) them for %d turns.
-		The damage will improve with your spellpower and the duration will improve with your Cunning.]], "tformat")
-t("Shadow Simulacrum", "Shadow Simulacrum", "talent name")
-t("You can't target summons!", "You can't target summons!", "logSeen")
-t("You can't target allies!", "You can't target allies!", "logSeen")
-t("%s's shadow simulacrum", "%s's shadow simulacrum", "tformat")
-t("A dark, shadowy shape whose form resembles the creature it was copied from. It is not a perfect replica, though, and it makes you feel uneasy to look at it.", "A dark, shadowy shape whose form resembles the creature it was copied from. It is not a perfect replica, though, and it makes you feel uneasy to look at it.", "_t")
+		The damage will improve with your spellpower and the duration will improve with your Cunning.]], [[Poussez un cri mental qui brise la volonté de vos cibles dans un rayon de %d, infligeant %0.2f dégâts d'obscurité et les confusant (%d%% de chances d'agir au hasard) pendant %d tours.
+		Les dégâts dépendent de votre puissance de sort et la durée dépend de votre Ruse.]], "tformat")
+t("Shadow Simulacrum", "Simulacre d'Ombre", "talent name")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("You can't target summons!", "Vous ne pouvez pas cibler les invocations!", "logSeen")
+t("You can't target allies!", "Vous ne pouvez pas cibler les alliés!", "logSeen")
+t("%s's shadow simulacrum", "simulacre d'ombre de %s", "tformat")
+t("A dark, shadowy shape whose form resembles the creature it was copied from. It is not a perfect replica, though, and it makes you feel uneasy to look at it.", "Une forme sombre et ténébreuse dont la silhouette ressemble à la créature dont elle a été copiée. Ce n'est cependant pas une réplique parfaite, et cela vous met mal à l'aise de la regarder.", "_t")
 t([[Creates a shadowy copy of a hostile target. The copy will attack its progenitor immediately and lasts for %d turns.
 		The duplicate has %d%% of the target's life, +50%% darkness resistance, -50%% light resistance, and deals 50%% less damage.
-		The duration and life scale with your Cunning.]], [[Creates a shadowy copy of a hostile target. The copy will attack its progenitor immediately and lasts for %d turns.
-		The duplicate has %d%% of the target's life, +50%% darkness resistance, -50%% light resistance, and deals 50%% less damage.
-		The duration and life scale with your Cunning.]], "tformat")
-t("Jumpgate Two", "Jumpgate Two", "talent name")
-t("Create a second shadow jumpgate at your location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within %d tiles of it.", "Create a second shadow jumpgate at your location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within %d tiles of it.", "tformat")
-t("Jumpgate Two: Teleport To", "Jumpgate Two: Teleport To", "talent name")
-t("You must sustain the Jumpgate Two spell to be able to teleport.", "You must sustain the Jumpgate Two spell to be able to teleport.", "logPlayer")
-t("Instantly travel to your second jumpgate, as long as you are within %d tiles of it.", "Instantly travel to your second jumpgate, as long as you are within %d tiles of it.", "tformat")
---]==]
-
+		The duration and life scale with your Cunning.]], [[Crée une copie ténébreuse d'une cible hostile. La copie attaquera son progéniteur immédiatement et dure %d tours.
+		Le duplicata a %d%% de la vie de la cible, +50%% de résistance aux ténèbres, -50%% de résistance à la lumière, et inflige 50%% de dégâts en moins.
+		La durée et la vie dépendent de votre Ruse.]], "tformat")
+t("Jumpgate Two", "Portail de Saut Deux", "talent name")
+t("Create a second shadow jumpgate at your location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within %d tiles of it.", "Créez un second portail de saut d'ombre à votre emplacement. Tant que vous maintenez ce sort, vous pouvez utiliser 'Portail de Saut: Téléportation' pour voyager instantanément vers le portail de saut, tant que vous êtes à moins de %d cases de celui-ci.", "tformat")
+t("Jumpgate Two: Teleport To", "Portail de Saut Deux: Téléportation", "talent name")
+t("You must sustain the Jumpgate Two spell to be able to teleport.", "Vous devez maintenir le sort Portail de Saut Deux pour pouvoir vous téléporter.", "logPlayer")
+t("Instantly travel to your second jumpgate, as long as you are within %d tiles of it.", "Voyagez instantanément vers votre second portail de saut, tant que vous êtes à moins de %d cases de celui-ci.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/age-manipulation.lua"
@@ -19856,7 +19831,7 @@ t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "log
 t("human farmer", "fermier humain", "_t")
 t("halfling gardener", "jardinier halfelin", "_t")
 t("%s's %s is disrupted!", "%s's %s est perturbé!", "logSeen")
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Anomaly Rearrange", "Anomaly Rearrange", "talent name")
@@ -20405,7 +20380,7 @@ t("Paradox Clone", "Clone Paradoxal", "_t")
 t("Damage Smearing", "Dégâts Barbouillés", "talent name")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 t("%s resists the swap!", "%s résiste à la permutation!", "logSeen")
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 -- texte non traduit
 --[==[
 t("What's your preferred paradox level?", "What's your preferred paradox level?", "_t")
@@ -21137,7 +21112,7 @@ t([[Hexes your target, forcing it to be your thrall for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/plague.lua"
 
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 t("Epidemic", "Épidémie", "talent name")
 -- texte non traduit
 --[==[
@@ -23226,6 +23201,7 @@ section "mod-tome/data/talents/gifts/corrosive-blades.lua"
 
 t("Corrosive Nature", "Nature Corrosive", "talent name")
 t("trap", "piège", "_t")
+t("You somehow fail to set the corrosive seed.", "Vous échouez d'une manière ou d'une autre à poser la graine corrosive.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Acidbeam", "Acidbeam", "talent name")
@@ -23240,7 +23216,6 @@ t([[You gain %d%% Acid resistance.
 		This damage bonus will improve up to 4 times (no more than once each turn) with later Nature damage you do, up to a maximum of %0.1f%%.
 		The resistance and damage increase improve with your Mindpower.]], "tformat")
 t("Corrosive Seeds", "Corrosive Seeds", "talent name")
-t("You somehow fail to set the corrosive seed.", "You somehow fail to set the corrosive seed.", "logPlayer")
 t([[You focus on a target zone of radius 2 to make up to %d corrosive seeds appear.
 		The first seed will appear at the center of the target zone, while others will appear at random spots.
 		Each seed lasts %d turns and will explode when a hostile creature walks over it, knocking the creature back and dealing %0.1f Acid damage within radius 1.
@@ -24011,7 +23986,7 @@ section "mod-tome/data/talents/gifts/storm-drake.lua"
 t("Lightning Speed", "Vitesse Fulgurante", "talent name")
 t("%s is knocked back!", "%s est repoussé!", "logSeen")
 t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 -- texte non traduit
 --[==[
 t([[You transform into pure lightning, moving %d%% faster for %d game turns.
@@ -24836,7 +24811,7 @@ t("Maim", "Mutiler", "talent name")
 t("Bloodrage", "Rage de Sang", "talent name")
 t("Martyrdom", "Supplice", "talent name")
 t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 t("Empower Poisons", "Renforcement des Poisons", "talent name")
 t("Willful Combat", "Combat Délibéré", "talent name")
 t("Deadly Strikes", "Frappes Mortelles", "talent name")
@@ -25546,7 +25521,7 @@ t([[You enter an ogric wrath for %d turns, increasing your stun and pinning resi
 		Each charge grants 20%% critical damage power and 5%% critical strike chance.
 		You lose a charge each time you deal a critical strike.
 		The duration will increase with your Strength.]], [[Vous entrez dans une colère ogrique pendant %d tours, augmentant vos résistances à l'assommement et à l'immobilisation de 20%% et tous vos dégâts infligés de 10%%.
-		De plus, chaque fois que vous utilisez une infusion ou une rune, ratez une attaque au corps à corps, ou que vos dégâts sont réduits par un bouclier (ou effet similaire), vous gagnez une charge de Colère Ogrique (jusqu'à 5 charges max, durant 7 tours chacune).
+		De plus, chaque fois que vous utilisez une essence ou une rune, ratez une attaque au corps à corps, ou que vos dégâts sont réduits par un bouclier (ou effet similaire), vous gagnez une charge de Colère Ogrique (jusqu'à 5 charges max, durant 7 tours chacune).
 		Chaque charge confère 20%% de puissance des dégâts critique et 5%% de chances de coup critique.
 		Vous perdez une charge chaque fois que vous infligez un coup critique.
 		La durée augmente avec votre Force.]], "tformat")
@@ -25555,7 +25530,7 @@ t([[An ogre's body is acclimated to spells and inscriptions.
 		Increases spell save by %d and improves the contribution of primary stats on infusions and runes by %d%%.
 		At level 5 your body is so strong you can use a two handed weapon in your main hand while still using an offhand item.
 		When using a two handed weapon this way you suffer a 20%% accuracy, physical power, spellpower and mindpower penalty, decreasing by 5%% per size category above #{italic}#big#{normal}#; further, all damage procs from your weapons are reduced by 50%%.]], [[Le corps d'un ogre est habitué aux sorts et aux inscriptions.
-		Augmente la sauvegarde magique de %d et améliore l'influence des caractéristiques principales sur les infusions et runes de %d%%.
+		Augmente la sauvegarde magique de %d et améliore l'influence des caractéristiques principales sur les essences et runes de %d%%.
 		Au niveau 5, votre corps est si fort que vous pouvez manier une arme à deux mains dans votre main principale tout en portant un objet en main secondaire.
 		En utilisant une arme à deux mains de la sorte, vous subissez une pénalité de 20%% en précision, puissance physique, puissance magique et puissance mentale, réduite de 5%% par catégorie de taille au-dessus de #{italic}#grand#{normal}#; de plus, tous les déclenchements de dégâts procs de vos armes sont réduits de 50%%.]], "tformat")
 t("Scar-Scripted Flesh", "Chair Gravée de Cicatrices", "talent name")
@@ -25566,7 +25541,7 @@ t("Writ Large", "Écrire Gros", "talent name")
 t("#PURPLE#Your mastery over inscriptions is unmatched! One more inscriptions slot available to buy.", "#PURPLE#Votre maîtrise des inscriptions est inégalée! Un emplacement d'inscription supplémentaire est disponible à l'achat.", "logPlayer")
 t([[Instantly removes runic and infusion saturations.
 		For %d turns your inscriptions cool down twice as fast.
-		At level 5 your command over inscriptions is so good that you can use one more (you still need a category point to unlock it; you need to exit the levelup screen to validate it).]], [[Supprime instantanément les saturations de runes et d'infusions.
+		At level 5 your command over inscriptions is so good that you can use one more (you still need a category point to unlock it; you need to exit the levelup screen to validate it).]], [[Supprime instantanément les saturations de runes et d'essences.
 		Pendant %d tours, vos inscriptions se rechargent deux fois plus vite.
 		Au niveau 5, votre maîtrise des inscriptions est telle que vous pouvez en utiliser une de plus (vous aurez toujours besoin d'un point de catégorie pour la débloquer; vous devez quitter l'écran de montée de niveau pour valider).]], "tformat")
 -- texte non traduit
@@ -26104,7 +26079,7 @@ t([[Use finely controlled forces to augment both your flesh-and-blood grip, and 
 section "mod-tome/data/talents/psionic/kinetic-mastery.lua"
 
 t("Transcendent Telekinesis", "Télékinésie Transcendante", "talent name")
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 -- texte non traduit
 --[==[
 t([[For %d turns your telekinesis transcends your normal limits, increasing your Physical damage by %d%% and your Physical resistance penetration by %d%%.
@@ -26261,7 +26236,7 @@ t([[Increases your damage and resistance penetration on sleeping targets by %d%%
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/other.lua"
 
-t("%s's %s", "%s de %s", "tformat")
+t("%s's %s", "%s de %s", "tformat", {2,1})
 -- texte non traduit
 --[==[
 t("Telekinetic Grasp", "Telekinetic Grasp", "talent name")
@@ -27394,7 +27369,7 @@ t([[Entomb yourself in a wall of stone for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/eldritch-shield.lua"
 
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Eldritch Blow", "Eldritch Blow", "talent name")
@@ -27468,7 +27443,7 @@ t([[Your stone spikes grow in length, instantly dealing %0.1f Physical damage an
 ------------------------------------------------
 section "mod-tome/data/talents/spells/energy-alchemy.lua"
 
-t("%s's %s", "%s de %s", "tformat")
+t("%s's %s", "%s de %s", "tformat", {2,1})
 -- texte non traduit
 --[==[
 t("Lightning Infusion", "Lightning Infusion", "talent name")
@@ -28381,6 +28356,7 @@ t("temporal", "temporel", "talent type")
 t("phantasm", "fantasme", "talent type")
 t("thaumaturgy", "thaumaturgie", "talent type")
 t("aegis", "égide", "talent type")
+t("infusion", "essence", "talent type")
 t("nightfall", "crépuscule", "talent type")
 t("dreadmaster", "maître hanteur", "talent type")
 t("grave", "tombe", "talent type")
@@ -28410,7 +28386,6 @@ t("Divination allows the caster to sense its surroundings, and find hidden thing
 t("Command the arcane forces into healing and protection.", "Command the arcane forces into healing and protection.", "_t")
 t("explosive admixtures", "explosive admixtures", "talent type")
 t("Manipulate gems to turn them into explosive magical bombs.", "Manipulate gems to turn them into explosive magical bombs.", "_t")
-t("infusion", "infusion", "talent type")
 t("Infusion your gem bombs with the powers of the elements.", "Infusion your gem bombs with the powers of the elements.", "_t")
 t("golemancy", "golemancy", "talent type")
 t("Learn to craft and upgrade your golem.", "Learn to craft and upgrade your golem.", "_t")
@@ -29416,7 +29391,7 @@ t("Your great dexterity allows you to see incoming projectiles (spells, arrows, 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/finishing-moves.lua"
 
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 -- texte non traduit
 --[==[
 t("Uppercut", "Uppercut", "talent name")
@@ -30783,7 +30758,7 @@ t("other", "autre", "_t")
 section "mod-tome/data/talents/uber/wil.lua"
 
 t("Draconic Will", "Volonté Draconique", "talent name")
-t("%s resists the stun!", "%s résiste à l'étourdissement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 t("Hidden Resources", "Ressources Cachées", "talent name")
 t("Spell Feedback", "Sort Rétroactif", "talent name")
 t("Antimagic", "Anti-magie", "_t")
@@ -31615,9 +31590,9 @@ Pour voir votre inventaire, appuyez sur "I" ou clic-droit sur vous-même et sél
 Votre inventaire est partagé en deux panneaux: vos objets équippés et votre sac à dos.
 Pour sélectionner un objet, utilisez les touches de mouvement et appuyez sur "Entrée" ou cliquez lui dessus avec la souris.
 
-L'objet que vous avez trouvé est une infusion. Les infusions et les runes vous permettent de lier un pouvoir à votre corps, vous attribuant de nouvelles compétences.
-Les infusions proviennent des pouvoirs de la nature alors que les runes utilisent la magie. Elles ont un nombre d'utilisation illimitées une fois qu'elles sont inscrites.
-Cette infusion vous octroie le pouvoir de régénérer votre vie à volonté. Vous pouvez seulement avoir un nombre déterminé d'inscriptions, mais elles peuvent facilement être remplacées.
+L'objet que vous avez trouvé est une essence. Les essences et les runes vous permettent de lier un pouvoir à votre corps, vous attribuant de nouvelles compétences.
+Les essences proviennent des pouvoirs de la nature alors que les runes utilisent la magie. Elles ont un nombre d'utilisation illimitées une fois qu'elles sont inscrites.
+Cette essence vous octroie le pouvoir de régénérer votre vie à volonté. Vous pouvez seulement avoir un nombre déterminé d'inscriptions, mais elles peuvent facilement être remplacées.
 
 Maintenant continuez vers l'ouest.
 ]], "_t")
@@ -32528,7 +32503,7 @@ Après le combat vous serez probablement bas en vie, vous pouvez vous reposer un
 Vous pouvez soit appuyer sur "R" soit cliquer-droit sur vous-même pour vous reposer. Vous vous reposerez jusqu'à être totalement régénéré ou si une créature hostile vous dérange.
 
 Maintenant faites quelques pas de recul pour n'avoir à combattre qu'un serpent à la fois, et vous devriez survivre.
-Rappelez vous d'utiliser vos talents, les infusions et les runes pour gagner le combat.
+Rappelez vous d'utiliser vos talents, les essences et les runes pour gagner le combat.
 ]], "_t")
 
 ------------------------------------------------
@@ -33562,7 +33537,7 @@ Vous avez appris les détails du passé des Ogres et mit au repos leurs créateu
 
 Caractéristiques de Race:#YELLOW#
 - Fort mais pas stupide
-- Efficace dans l'utilisation de toutes sortes de runes et d'infusions
+- Efficace dans l'utilisation de toutes sortes de runes et d'essences
 - Imprégné de forces arcaniques
 #WHITE#
 ]], "_t")
@@ -34172,7 +34147,7 @@ t("-Wraithform", "-Forme d'Âme en Peine", "_t")
 t("Empowered Healing", "Guérison Renforcée", "_t")
 t("Increases the effectiveness of all healing the target receives by %d%%.", "Augmente l'efficacité de tous les soins reçus par la cible de %d%%.", "tformat")
 t("The target is under protection, removing one negative effect per turn.", "La cible bénéficie d'une protection qui supprime un effet négatif par tour.", "tformat")
-t("Solar Infusion", "Infusion Solaire", "_t")
+t("Solar Infusion", "Essence Solaire", "_t")
 t("The target's light, darkness, and fire resistance has been increased by %d%%.", "Les résistances à la lumière, à l'obscurité, et au feu de la cible sont augmentée de %d%%.", "tformat")
 t("Totality", "Totalité", "_t")
 t("The target's light and darkness spell penetration has been increased by %d%%.", "La pénétration des sorts de lumière et d'obscurité de la cible a été augmentée de %d%%.", "tformat")
@@ -34359,7 +34334,7 @@ t("#Target# is afflicted by ghoul rot!", "#Target# est affecté par la pourritur
 t("#Target# is free from the ghoul rot.", "#Target# est libéré de la pourriture de goule.", "_t")
 t("Bloodcasting", "Lancement Sanguinolant", "_t")
 t("Corruptions consume health instead of vim.", "Les corruptions consomment de la santé au lieu de la vitae.", "_t")
-t("Sanguine Infusion", "Infusion Sanguine", "_t")
+t("Sanguine Infusion", "Essence Sanguine", "_t")
 t("Maximum life increased by %d.", "La vie maximum est augmenté de %d.", "tformat")
 t("Arcane Supremacy", "Suprématie Arcanique", "_t")
 t("The target's spellpower and spell save has been increased by %d", "La puissance des sorts et la sauvegarde contre les sorts de la cible sont augmentées de %d", "tformat")
@@ -34852,7 +34827,7 @@ t("Dirge of Famine", "Chant de la Famine", "_t")
 t("The target is regenerating health", "La cible se régénère", "tformat")
 t("haste", "hâte", "effect subtype")
 t("Dirge of Conquest", "Chant de la Conquête", "_t")
-t("The target will gain a surge of energy on kill or crit", "La cible reçoit une vague d'énergie sur une mort ou un crit.", "tformat")
+t("The target will gain a surge of energy on kill or crit", "La cible reçoit une vague d'énergie sur une mort ou un crit", "tformat")
 t("dirge", "chant", "effect subtype")
 t("Dirge of Pestilence", "Chant de la Pestilence", "_t")
 t("The target will gain a shield upon suffering a detrimental effect", "La cible gagne un bouclier lorsqu'elle subit un effet néfaste.", "tformat")
@@ -35458,8 +35433,9 @@ t("#LIGHT_BLUE##Target# takes root.", "#LIGHT_BLUE##Target# prend racine.", "_t"
 t("+Pinned", "+Immobilisé", "_t")
 t("#LIGHT_BLUE##Target# is no longer a badass tree.", "#LIGHT_BLUE##Target# n'est plus un arbre à la con.", "_t")
 t("-Pinned", "-Immobilisé", "_t")
-t("Infusion Saturation", "Infusions à Saturation", "_t")
-t("The more you use infusions, the longer they will take to recharge (+%d cooldowns).", "Plus vous utilisez d'infusions, plus elles mettent de temps à se recharger (+%d temps de recharge).", "tformat")
+t("infusion", "essence", "effect subtype")
+t("Infusion Saturation", "Essences à Saturation", "_t")
+t("The more you use infusions, the longer they will take to recharge (+%d cooldowns).", "Plus vous utilisez d'essences, plus elles mettent de temps à se recharger (+%d temps de recharge).", "tformat")
 t("Runic Saturation", "Runes à Saturation", "_t")
 t("The more you use runes, the longer they will take to recharge (+%d cooldowns).", "Plus vous utilisez de runes, plus elles mettent de temps à se recharger (+%d temps de recharge).", "tformat")
 t("taint", "tache", "effect subtype")
@@ -35930,7 +35906,6 @@ t("died a well-deserved death by exsanguination", "a connu une mort bien mérit�
 t("#CRIMSON#%d Bleed #LAST#", "#CRIMSON#%d Saignement #LAST#", "tformat")
 -- texte non traduit
 --[==[
-t("infusion", "infusion", "effect subtype")
 t("rune", "rune", "effect subtype")
 t("%s%d %s#LAST#", "%s%d %s#LAST#", "tformat")
 t("\
@@ -36425,7 +36400,6 @@ t("#Target# cover of leaves falls apart.", "La couverture de feuilles de #Target
 t("-Leaves Cover", "-Couverture de Feuilles", "_t")
 t("Parrying", "Parade", "_t")
 t("Parrying melee attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).", "Parer les attaques au corps à corps: a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques.", "tformat")
-t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit.", "Parer les attaques au corps à corps %s: a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques. Les attaques parées ne peuvent pas infliger de coup critique.", "tformat")
 t(" and ranged", "et à distance", "_t")
 t("Blocking", "Blocage", "_t")
 t("Reduces all damage taken by %d.", "Réduit tous les dégâts subis de %d.", "tformat")
@@ -36753,6 +36727,7 @@ t("%d Combo", "%d Combo", "tformat")
 t("Luminescence ", "Luminescence ", "_t")
 t("+Luminescence", "+Luminescence", "_t")
 t("-Luminescence", "-Luminescence", "_t")
+t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit.", "Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit.", "tformat")
 t("Ravage", "Ravage", "_t")
 t("+Ravage", "+Ravage", "_t")
 t("-Ravage", "-Ravage", "_t")
@@ -36770,6 +36745,7 @@ t("-Eldoral", "-Eldoral", "_t")
 --]==]
 
 -- ancien texte traduit
+t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit", "Parer les attaques au corps à corps %s: a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques. Les attaques parées ne peuvent pas infliger de coup critique.", "tformat")
 t("shield", "bouclier", "effect subtype")
 
 ------------------------------------------------
@@ -37164,7 +37140,7 @@ t("floor", "sol", "entity subtype")
 t("wall", "mur", "entity name")
 t("body remains", "restes corporels", "entity name")
 t("bone pile", "tas d'os", "entity name")
-t("infusion rack", "support pour perfusions", "entity name")
+t("infusion rack", "support pour essences", "entity name")
 t("operating table", "table d'opération", "entity name")
 t("broken vat", "cuve fêlée", "entity name")
 
@@ -37197,7 +37173,7 @@ t("investigator Churrack note", "Note de l'enquêteur Churrack", "entity name")
 t("Astelrid's Clubstaff", "Bâtosse d'Astelrid", "entity name")
 t("huge maul", "énorme masse", "_t")
 t("Like its former owner, this was once an instrument of altruistic healing, before fury and fear caused its twisting into a sadistic weapon.  Surges of restorative magic can be faintly felt under the layers of plaster and sharp surgical equipment.", "Tout comme son ancien propriétaire, cet objet était autrefois un instrument de guérison altruiste, avant que la fureur et la peur ne le transforment en une arme sadique.  On perçoit encore, faiblement, des vagues de magie régénératrice sous les couches de plâtre et les instruments chirurgicaux tranchants.", "_t")
-t("Improves the contribution of primary stats on infusions and runes by 15%", "Augmente de 15% l'apport des statistiques principales aux infusions et aux runes", "_t")
+t("Improves the contribution of primary stats on infusions and runes by 15%", "Augmente de 15% l'apport des statistiques principales aux essences et aux runes", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/conclave-vault/zone.lua"
@@ -39609,7 +39585,7 @@ t("Orc Cutters", "Trancheurs d'Orcs", "entity name")
 t("Mauling for Brutes", "Mutilateurs pour Brutes", "entity name")
 t("Bows and Slings", "Arcs et Frondes", "entity name")
 t("Sook's Arcane Goodness", "Friandises Arcanique de Sook", "entity name")
-t("Sarah's Herbal Infusions", "Infusions Herbaliques de Sarah", "entity name")
+t("Sarah's Herbal Infusions", "Essences Herbaliques de Sarah", "entity name")
 t("Sook's Runes and other Harmless Contraptions", "Runes de Sook et autres Inventions Inoffensives", "entity name")
 t("Zemekkys Home", "Demeure de Zemekkys", "entity name")
 
@@ -39642,8 +39618,8 @@ t("tailor", "tailleur", "entity name")
 t("This yeek has all sorts of cloth to sell.", "Ce yeek a toutes sortes de vetements à vendre.", "_t")
 t("tanner", "tanneur", "entity name")
 t("This yeek has all sorts of leathers to sell.", "Ce yeek a toutes sortes de cuirs à vendre.", "_t")
-t("natural infusions", "infusions naturelles", "entity name")
-t("This yeek has all sorts of infusions to sell.", "Ce yeek a toutes sortes d'infusions à vendre.", "_t")
+t("natural infusions", "essences naturelles", "entity name")
+t("This yeek has all sorts of infusions to sell.", "Ce yeek a toutes sortes d'essences à vendre.", "_t")
 -- texte non traduit
 --[==[
 t("yeek", "yeek", "entity subtype")
@@ -39766,7 +39742,7 @@ t("Yulek's Tools of the Night", "Outils de la Nuit de Yulek", "entity name")
 t("Vortal's Trees Choppers", "Hacheurs d'Arbres de Vortal", "entity name")
 t("Raber's Blunt Paradise", "Paradis Émoussé de Raber", "entity name")
 t("Dala's Far Reaching Implements", "Instruments à Grande Portée de Dala", "entity name")
-t("Sarah's Herbal Infusions", "Infusions Herbaliques de Sarah", "entity name")
+t("Sarah's Herbal Infusions", "Essences Herbaliques de Sarah", "entity name")
 t("Sook's Runes and other Harmless Contraptions", "Runes de Sook et autres Inventions Inoffensives", "entity name")
 t("Library", "Bibliothèque", "entity name")
 t("The Elder", "L'Ancien", "entity name")
@@ -40631,13 +40607,13 @@ t("Hardiness/Armour: ", "Robustesse/Armure: ", "_t")
 t("Size: ", "Taille: ", "_t")
 t("#FFD700#Accuracy#FFFFFF#: ", "#FFD700#Précision#FFFFFF#: ", "_t")
 t("#0080FF#Defense#FFFFFF#:  ", "#0080FF#Défense#FFFFFF#:  ", "_t")
-t("#FFD700#P. power#FFFFFF#: ", "#FFD700#Puiss. P.#FFFFFF#: ", "_t")
-t("#0080FF#P. save#FFFFFF#:  ", "#0080FF#Sauv. P.#FFFFFF#:  ", "_t")
-t("#FFD700#S. power#FFFFFF#: ", "#FFD700#Puiss. S.#FFFFFF#: ", "_t")
-t("#0080FF#S. save#FFFFFF#:  ", "#0080FF#Sauv. S.#FFFFFF#:  ", "_t")
-t("#FFD700#M. power#FFFFFF#: ", "#FFD700#Puiss. M.#FFFFFF#: ", "_t")
-t("#0080FF#M. save#FFFFFF#:  ", "#0080FF#Sauv. M.#FFFFFF#:  ", "_t")
-t("Critical Mult: ", "Crit. Mult.: ", "_t")
+t("#FFD700#P. power#FFFFFF#: ", "#FFD700#Puiss P.#FFFFFF#: ", "_t")
+t("#0080FF#P. save#FFFFFF#:  ", "#0080FF#Sauv P.#FFFFFF#:  ", "_t")
+t("#FFD700#S. power#FFFFFF#: ", "#FFD700#Puiss S.#FFFFFF#: ", "_t")
+t("#0080FF#S. save#FFFFFF#:  ", "#0080FF#Sauv S.#FFFFFF#:  ", "_t")
+t("#FFD700#M. power#FFFFFF#: ", "#FFD700#Puiss M.#FFFFFF#: ", "_t")
+t("#0080FF#M. save#FFFFFF#:  ", "#0080FF#Sauv M.#FFFFFF#:  ", "_t")
+t("Critical Mult: ", "Crit Mult: ", "_t")
 t("Time left: ", "Temps restant: ", "_t")
 t("#LIGHT_BLUE#Main:#LAST#%s", "#LIGHT_BLUE#Main principale:#LAST#%s", "tformat")
 t("#LIGHT_BLUE#Off :#LAST#%s", "#LIGHT_BLUE#Main secondaire:#LAST#%s", "tformat")
@@ -41150,7 +41126,7 @@ section "mod-tome/mod/class/Grid.lua"
 t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
 t("spot", "location", "_t")
-t("%s's %s", "%s de %s", "tformat")
+t("%s's %s", "%s de %s", "tformat", {2,1})
 t(" (range: ", " (portée: ", "_t")
 t("Min.level: ", "Niv.Min: ", "_t")
 t("Max.level: ", "Niv.max: ", "_t")
@@ -41176,7 +41152,7 @@ section "mod-tome/mod/class/MapEffects.lua"
 
 t(" area effect", " aire d'effet", "_t")
 t("area effect", "aire d'effet", "_t")
-t("%s's %s", "%s de %s", "tformat")
+t("%s's %s", "%s de %s", "tformat", {2,1})
 
 ------------------------------------------------
 section "mod-tome/mod/class/NPC.lua"
@@ -41219,14 +41195,14 @@ t("You see %d more objects.", "Vous voyez %d objets en plus.", "tformat")
 t("%d%% power", "%d%% puissance", "tformat")
 t("%d-%d power", "%d-%d puissance", "tformat")
 t("%s%0.2f/turn", "%s%0.2f/tours", "tformat")
-t("%s, %s apr", "%s, %s pén.", "tformat")
-t("%d/%d, %s, %s apr", "%d/%d, %s, %s pén.", "tformat")
-t("%s, %d apr, %s damage", "%s, %d pén., %s dégat", "tformat")
-t("%s, %d apr, %s element", "%s, %d pén., %s élément", "tformat")
+t("%s, %s apr", "%s, %s pén", "tformat")
+t("%d/%d, %s, %s apr", "%d/%d, %s, %s pén", "tformat")
+t("%s, %d apr, %s damage", "%s, %d pén, %s dégat", "tformat")
+t("%s, %d apr, %s element", "%s, %d pén, %s élément", "tformat")
 t("%s, %s block", "%s, %s bloqué", "tformat")
 t("%s block", "%s bloqué", "tformat")
 t("%s def, %s armour", "%s def, %s armure", "tformat")
-t("%s accuracy, %s apr, %s power", "%s précision, %s pén., %s puissance", "tformat")
+t("%s accuracy, %s apr, %s power", "%s précision, %s pén, %s puissance", "tformat")
 t("worth %0.2f", "vaut %0.2f", "tformat")
 t("dig speed %d turns", "vitesse d'excavation %d tours", "tformat")
 t(" [power %d]", " [puissance %d]", "tformat")
@@ -41247,11 +41223,12 @@ t("Damage type: ", "Type de dégâts: ", "_t")
 t("Mastery: ", "Maîtrise: ", "_t")
 t("Accuracy is based on willpower for this weapon.", "Précision de l'arme basée sur la Volonté.", "_t")
 t("Accuracy: ", "Précision: ", "_t")
-t("Armour Penetration: ", "Pénnétration d'Armure: ", "_t")
+t("Armour Penetration: ", "Péné d'Armure: ", "_t")
 t("Crit. chance: ", "Chance de crit: ", "_t")
-t("Crit. power: ", "Puiss. Crit: ", "_t")
+t("Crit. power: ", "Puiss Crit: ", "_t")
 t("Attack speed: ", "Vitesse d'attaque: ", "_t")
 t("Block value: ", "Valeur de blocage: ", "_t")
+t("Dam. multiplier: ", "Mult de dégâts: ", "_t")
 t("Firing range: ", "Portée de tir: ", "_t")
 t("Capacity: ", "Capacité: ", "_t")
 t("Reload speed: ", "Temps de rechargement: ", "_t")
@@ -41265,7 +41242,7 @@ t("When used from stealth a simple attack with it will not break stealth.", "Qua
 t("Crushing Blows: ", "Coup Dévastateur: ", "_t")
 t("Damage dealt by this weapon is increased by half your critical multiplier, if doing so would kill the target.", "Les dégâts infligés par cette arme sont augmentés de la moitié de votre multiplicateur critique dans le cas où cela tue la cible.", "_t")
 t("Travel speed: ", "Propagation: ", "_t")
-t("Damage Shield penetration (this weapon only): ", "Pénétration de bouclier protecteur (seulement cette arme): ", "_t")
+t("Damage Shield penetration (this weapon only): ", "Péné de bouclier protecteur (seulement cette arme): ", "_t")
 t("Lifesteal (this weapon only): ", "Vol de vie (cette arme uniquement): ", "_t")
 t("Multiple attacks: ", "Attaques multiples: ", "_t")
 t("Multiple attacks procs power reduction: ", "Réduction de la puissance des bonus d'attaques multiples: ", "_t")
@@ -41295,8 +41272,8 @@ t("dims", "assombrissement", "_t")
 t("#ORANGE#It has an activatable power.#LAST#", "#ORANGE#A un pouvoir activable.#LAST#", "_t")
 t("It is part of a set of items.", "Fait partie d'un ensemble d'objets.", "_t")
 t("The set is complete.", "L'ensemble est complet.", "_t")
-t("Armour penetration: ", "Pénétration d'armure: ", "_t")
-t("Physical crit. chance: ", "Chance de crit physique: ", "_t")
+t("Armour penetration: ", "Péné d'armure: ", "_t")
+t("Physical crit. chance: ", "Chance crit phys: ", "_t")
 t("Physical power: ", "Puissance physique: ", "_t")
 t("Armour: ", "Armure: ", "_t")
 t("Armour Hardiness: ", "Robustesse d'Armure: ", "_t")
@@ -41310,18 +41287,18 @@ t("Damage when hit (Melee): ", "Dégâts quand touché (Mêlée): ", "_t")
 t("No left", "Main gauche vide", "log")
 t("No right", "Main droite vide", "log")
 t("#YELLOW#On shield block:#LAST#", "#YELLOW#Sur blocage au bouclier:#LAST#", "_t")
-t("Changes stats: ", "Modif de stats: ", "_t")
-t("Changes resistances: ", "Modif de rés: ", "_t")
+t("Changes stats: ", "Stats: ", "_t")
+t("Changes resistances: ", "Résistances: ", "_t")
 t("all", "tous", "_t")
-t("Changes resistances cap: ", "Modif des caps de rés: ", "_t")
+t("Changes resistances cap: ", "Caps de rés: ", "_t")
 t("Reduce damage by fixed amount: ", "Réduc de dégâts par montant fixe: ", "_t")
 t("Maximum wards: ", "Protections max: ", "_t")
-t("Changes resistances penetration: ", "Modif. de pén. des rés.: ", "_t")
-t("Changes damage: ", "Modif des dégâts: ", "_t")
+t("Changes resistances penetration: ", "Pén des rés: ", "_t")
+t("Changes damage: ", "Dégâts: ", "_t")
 t("Reduced damage from: ", "Réduc de dégâts: ", "_t")
 t("Talent category bonus: ", "Talent de catégorie bonus: ", "_t")
 t("Damage affinity(heal): ", "Affinité de dégât(soin): ", "_t")
-t("Change telepathy range by : ", "Modif de portée de télépathie par : ", "_t")
+t("Change telepathy range by : ", "Portée de télépathie par : ", "_t")
 t("All", "Tout", "_t")
 t("Grants telepathy: ", "Octroie la télépathie: ", "_t")
 t("masteries", "maîtrises", "_t")
@@ -41392,10 +41369,10 @@ t("Maximum pos.energy: ", "Pos.energie maximum: ", "_t")
 t("Maximum neg.energy: ", "Neg.energie maximum: ", "_t")
 t("Maximum air capacity: ", "Capacité d'air maximale: ", "_t")
 t("Spellpower: ", "Puissance des sorts: ", "_t")
-t("Spell crit. chance: ", "Chance de crit des sorts: ", "_t")
+t("Spell crit. chance: ", "Chance crit des sorts: ", "_t")
 t("Lowers spell cool-downs by: ", "Réduit les temps de récupération des sorts de: ", "_t")
 t("Mindpower: ", "Puissance mentale: ", "_t")
-t("Mental crit. chance: ", "Crit chance mental: ", "_t")
+t("Mental crit. chance: ", "Chance crit mental: ", "_t")
 t("Light radius: ", "Portée lumineuse: ", "_t")
 t("Infravision radius: ", "Portée d'infravision: ", "_t")
 t("Heightened senses radius: ", "Rayon des sens accrus: ", "_t")
@@ -41414,7 +41391,7 @@ t("Life leech chance: ", "Chance de vol de vie: ", "_t")
 t("Life leech: ", "Vol de vie: ", "_t")
 t("Resource leech chance: ", "Chance de vol de ressource: ", "_t")
 t("Resource leech: ", "Vol de ressource: ", "_t")
-t("Damage Shield penetration: ", "Pénétration de bouclier protecteur: ", "_t")
+t("Damage Shield penetration: ", "Péné de bouclier protecteur: ", "_t")
 t("Deflect projectiles away: ", "Déviation des projectiles: ", "_t")
 t("Chance to avoid attacks: ", "Chance d'éviter les attaques: ", "_t")
 t("Chance to avoid any damage: ", "Chance d'éviter tout dégâts: ", "_t")
@@ -41427,7 +41404,7 @@ t("Max wilder summons: ", "Max d'invocation des naturalistes: ", "_t")
 t("Life regen bonus (wilder-summons): ", "Regen de vie bonus (invocations de naturaliste): ", "_t")
 t("Damage Shield Duration: ", "Durée de bouclier protecteur: ", "_t")
 t("Damage Shield Power: ", "Puissance de bouclier protecteur: ", "_t")
-t("Ice block penetration: ", "Pénétration de bloc de glace: ", "_t")
+t("Ice block penetration: ", "Péné de bloc de glace: ", "_t")
 t("Slows Projectiles: ", "Ralentissement des projectiles: ", "_t")
 t("Bonus block near projectiles: ", "Bonus de blocage des projectiles proche: ", "_t")
 t("Reduces paradox anomalies(equivalent to willpower): ", "Réduc des anomalies de paradoxe(équivalent à la volonté): ", "_t")
@@ -41528,7 +41505,6 @@ t(" crit mult (max 40%)", " crit mult (max 40%)", "_t")
 t("%d%% %s", "%d%% %s", "tformat")
 t("stats", "stats", "_t")
 t("stat", "stat", "_t")
-t("Dam. multiplier: ", "Dam. multiplier: ", "_t")
 t(" %s", " %s", "tformat")
 t("[Unique]", "[Unique]", "_t")
 t("Type: %s / %s", "Type: %s / %s", "tformat")
@@ -41545,6 +41521,10 @@ t("Talent %s", "Talent %s", "tformat")
 t(".", ".", "_t")
 --]==]
 
+-- ancien texte traduit
+t("Physical crit chance: ", "Chance de crit physique: ", "_t")
+t("Spell crit chance: ", "Chance de crit des sorts: ", "_t")
+t("Mental crit chance: ", "Crit chance mental: ", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Party.lua"
@@ -41655,7 +41635,7 @@ t("Affect origin chance: ", "Chance d'affecter le départ: ", "_t")
 t("Affect origin's friends chance: ", "Chance d'affecter les amis de départ: ", "_t")
 t(" homing: %s(%s, %s)", " à tête chercheuse: %s(%s, %s)", "tformat")
 t(" range: ", " portée: ", "_t")
-t("%s's %s", "%s de %s", "tformat")
+t("%s's %s", "%s de %s", "tformat", {2,1})
 -- texte non traduit
 --[==[
 t("Projectile: ", "Projectile: ", "_t")
@@ -41688,7 +41668,7 @@ t("You must be level %d to access this shop.", "Vous devez être niveau %d pour 
 section "mod-tome/mod/class/Trap.lua"
 
 t("trap", "piège", "_t")
-t("%s's %s", "%s de %s", "tformat")
+t("%s's %s", "%s de %s", "tformat", {2,1})
 t("#LIGHT_GREEN#%d turns #WHITE#", "#LIGHT_GREEN#%d tours #WHITE#", "tformat")
 t("<Store>", "<Boutique>", "_t")
 t("neutral", "neutre", "_t")
@@ -42037,7 +42017,7 @@ How much life you regenerate per turn.
 This value can be improved with spells, talents, infusions, equipment.
 ]], [[#GOLD#Régénération de Vie#LAST#
 Quantité de vie régénéré par tour.
-Cette valeur peut être améliorée grâce à des sorts, des talents, des infusions, et de l'équipement.
+Cette valeur peut être améliorée grâce à des sorts, des talents, des essences, et de l'équipement.
 ]], "_t")
 t([[#GOLD#Healing mod#LAST#
 This represents how effective healing is for you.
@@ -42176,9 +42156,9 @@ The people of Eyal have found a way to create herbal infusions and runes that ca
 Those inscriptions give the bearer always-accessible powers that can be used an unlimited number of times.
 A simple regeneration infusion is the most common type of infusion, and the use of runes of various types is also common among arcane users.
 ]], [[#GOLD#Inscriptions#LAST#
-Les habitants d'Eyal ont découvert comment créer des infusions à base de plantes et des runes qu'ils peuvent inscrire sur la peau d'une créature. Il existe également des inscriptions plus exotiques.
+Les habitants d'Eyal ont découvert comment créer des essences à base de plantes et des runes qu'ils peuvent inscrire sur la peau d'une créature. Il existe également des inscriptions plus exotiques.
 Ces inscriptions confèrent à leur porteur des pouvoirs permanents et utilisables à volonté.
-L'infusion de régénération est la plus courante des infusions, et l'utilisation de runes de tous types est également fréquente chez les pratiquants de la magie.
+L'essence de régénération est la plus courante des essences, et l'utilisation de runes de tous types est également fréquente chez les pratiquants de la magie.
 ]], "_t")
 t([[#GOLD#Prodigies#LAST#
 Prodigies are special talents that only the most powerful of characters can acquire.
@@ -42661,7 +42641,7 @@ Reduces the amount of effective resistance of your foes to any damage you deal b
 If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
 This stacks with individual damage type penetrations.
 You can never have more than 70% penetration.
-]], [[#GOLD#Pén. des résistances: globale#LAST#
+]], [[#GOLD#Péné des résistances: globale#LAST#
 Réduit la résistance effective de vos ennemis aux dégâts que vous infligez, de ce pourcentage.
 Si vous avez 50% de pénétration contre une créature ayant 50% de résistance, sa résistance effective sera de 25%.
 Cet effet se cumule avec les pénétrations de chaque type de dégâts.
@@ -42671,7 +42651,7 @@ t([[#GOLD#Damage penetration: specific#LAST#
 Reduces the effective resistance of your foes to all damage of this type you deal by this percent.
 If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
 You can never have more than 70% penetration.
-]], [[#GOLD#Pén. des résistances: spécifique#LAST#
+]], [[#GOLD#Péné des résistances: spécifique#LAST#
 Réduit la résistance effective de vos ennemis à tous les dégâts de ce type que vous infligez, de ce pourcentage.
 Si vous avez 50% de pénétration contre une créature ayant 50% de résistance, sa résistance effective sera de 25%.
 Votre pénétration ne peut jamais dépasser 70%.
@@ -42845,13 +42825,13 @@ Catégories inutilisée: %d]], "tformat")
 t("Level / Exp: #00ff00#%s / %2d%%", "Niveau / Exp: #00ff00#%s / %2d%%", "tformat")
 t("Gold: #00ff00#%0.2f", "Or: #00ff00#%0.2f", "tformat")
 t("Accuracy:", "Précision:", "_t")
-t("P. power:", "Puiss. P.:", "_t")
-t("S. power:", "Puiss. S.:", "_t")
-t("M. power:", "Puiss. M.:", "_t")
+t("P. power:", "Puiss P:", "_t")
+t("S. power:", "Puiss S:", "_t")
+t("M. power:", "Puiss M:", "_t")
 t("Defense:", "Défense:", "_t")
-t("P. save:", "Sauv. P.:", "_t")
-t("S. save:", "Sauv. S.:", "_t")
-t("M. save:", "Sauv. M.:", "_t")
+t("P. save:", "Sauv P:", "_t")
+t("S. save:", "Sauv S:", "_t")
+t("M. save:", "Sauv M:", "_t")
 t("Turns remaining: %d", "Tours restants: %d", "tformat")
 t("Air level: %d/%d", "Niveau d'air: %d/%d", "tformat")
 t("Encumbered! (%d/%d)", "Encombré! (%d/%d)", "tformat")
@@ -43224,17 +43204,17 @@ Cette valeur de %s est automatiquement gagné ou perdu chaque tour.]], "tformat"
 t("Current Feedback gain is %0.1f%% of damage taken.", "Gain de Rétroaction actuel %0.1f%% des dégâts reçus.", "tformat")
 t("#7fffd4#Feedback: #00ff00#%d/%s", "#7fffd4#Rétroaction: #00ff00#%d/%s", "tformat")
 t("#LIGHT_BLUE#Speeds:", "#LIGHT_BLUE#Vitesses:", "_t")
-t("Global speed  : #00ff00#%s", "Vit. globale        : #00ff00#%s", "tformat")
-t("Movement speed: #00ff00#%s", "Vit. de mouvement   : #00ff00#%s", "tformat")
-t("Spell speed   : #00ff00#%s", "Vit. de sort        : #00ff00#%s", "tformat")
-t("Attack speed  : #00ff00#%s", "Vit. d'attaque      : #00ff00#%s", "tformat")
-t("Mental speed  : #00ff00#%s", "Vit. mentale        : #00ff00#%s", "tformat")
+t("Global speed  : #00ff00#%s", "Vit globale         : #00ff00#%s", "tformat")
+t("Movement speed: #00ff00#%s", "Vit de mouvement    : #00ff00#%s", "tformat")
+t("Spell speed   : #00ff00#%s", "Vit de sort         : #00ff00#%s", "tformat")
+t("Attack speed  : #00ff00#%s", "Vit d'attaque       : #00ff00#%s", "tformat")
+t("Mental speed  : #00ff00#%s", "Vit mentale         : #00ff00#%s", "tformat")
 t("Times died     : #00ff00#%s", "Vies perdus        : #00ff00#%s", "tformat")
 t("#DARK_RED#Blood of Life", "#DARK_RED#Sang de Vie", "_t")
 t("Lives left     : #00ff00#%s", "Vies Restantes     : #00ff00#%s", "tformat")
-t("Healing mod.   : #00ff00#%s", "Mod. de soins      : #00ff00#%s", "tformat")
+t("Healing mod.   : #00ff00#%s", "Mod de soins       : #00ff00#%s", "tformat")
 t("Life regen     : #00ff00#%s", "Regen de vie       : #00ff00#%s", "tformat")
-t("(with heal mod): #00ff00#%s", "(avec mod. de soin): #00ff00#%s", "tformat")
+t("(with heal mod): #00ff00#%s", "(avec mod de soin) : #00ff00#%s", "tformat")
 t("Light radius   : #00ff00#%s", "Portée lumineuse   : #00ff00#%s", "tformat")
 t("Vision range   : #00ff00#%s", "Portée de vue      : #00ff00#%s", "tformat")
 t("Heighten Senses: #00ff00#%s", "Sens augmentés     : #00ff00#%s", "tformat")
@@ -43253,10 +43233,10 @@ t("Weapon", "Arme", "_t")
 t("Accuracy     : #00ff00#%s", "Précision        : #00ff00#%s", "tformat")
 t("Damage       : #00ff00#%s", "Dégât            : #00ff00#%s", "tformat")
 t("Block : #00ff00#%s", "Blocage : #00ff00#%s", "tformat")
-t("APR          : #00ff00#%s", "Pén. d'armure     : #00ff00#%s", "tformat")
-t("Crit. chance : #00ff00#%s", "Chance crit.     : #00ff00#%s", "tformat")
-t("Crit. power  : #00ff00#%s", "Puissance crit.  : #00ff00#%s", "tformat")
-t("Attack Speed : #00ff00#%s", "Vit. d'attaque   : #00ff00#%s", "tformat")
+t("APR          : #00ff00#%s", "Péné d'armure     : #00ff00#%s", "tformat")
+t("Crit. chance : #00ff00#%s", "Chance crit      : #00ff00#%s", "tformat")
+t("Crit. power  : #00ff00#%s", "Puissance crit   : #00ff00#%s", "tformat")
+t("Attack Speed : #00ff00#%s", "Vit d'attaque    : #00ff00#%s", "tformat")
 t("range %2d", "porté %2d", "_t")
 t("speed %3d%%", "vitesse %3d%%", "_t")
 t("Archery      : #00ff00#%s, %s", "Archerie     : #00ff00#%s, %s", "tformat")
@@ -43267,22 +43247,22 @@ t(" (disabled)", " (désactivé)", "_t")
 t("#LIGHT_BLUE#Offhand-Dual Weapon%s", "#LIGHT_BLUE#Main secondaire-Deux armes%s", "tformat")
 t("#LIGHT_BLUE#Psionic Focus", "#LIGHT_BLUE#Concentration Psionique", "_t")
 t("#LIGHT_BLUE#Physical:", "#LIGHT_BLUE#Physique:", "_t")
-t("Phys. Power: #00ff00#%s", "Puiss. physique    : #00ff00#%s", "tformat")
-t("Crit. chance: #00ff00#%s", "Chance crit.      : #00ff00#%s", "tformat")
+t("Phys. Power: #00ff00#%s", "Puiss physique    : #00ff00#%s", "tformat")
+t("Crit. chance: #00ff00#%s", "Chance crit      : #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Magical:", "#LIGHT_BLUE#Magique:", "_t")
-t("Spellpower  : #00ff00#%s", "Puiss. de sort    : #00ff00#%s", "tformat")
-t("Spell speed : #00ff00#%s", "Vit. de sort      : #00ff00#%s", "tformat")
+t("Spellpower  : #00ff00#%s", "Puiss de sort    : #00ff00#%s", "tformat")
+t("Spell speed : #00ff00#%s", "Vit de sort      : #00ff00#%s", "tformat")
 t("Spell cooldown: #00ff00#%s", "Recharg de sort : #00ff00#%s", "tformat")
-t("Mindpower: #00ff00#%s", "Puiss. mentale       : #00ff00#%s", "tformat")
-t("Mind speed : #00ff00#%s", "Vit. mentale       : #00ff00#%s", "tformat")
+t("Mindpower: #00ff00#%s", "Puiss mentale       : #00ff00#%s", "tformat")
+t("Mind speed : #00ff00#%s", "Vit mentale       : #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Damage Modifiers:", "#LIGHT_BLUE#Modificateurs de dégâts:", "_t")
-t("Critical mult.: #00ff00#%s", "Mult. crit      : #00ff00#%s", "tformat")
+t("Critical mult.: #00ff00#%s", "Mult crit      : #00ff00#%s", "tformat")
 t("All damage    : #00ff00#%s", "Tous            : #00ff00#%s", "tformat")
 t("vs ", "contre ", "_t")
 t([[#GOLD#Restance Penetration#LAST#
-Ability to reduce opponent resistances to your damage]], [[#GOLD#Pén. des résistances#LAST#
+Ability to reduce opponent resistances to your damage]], [[#GOLD#Péné des résistances#LAST#
 Capacité à réduire les résistances ennemis à vos dégâts]], "_t")
-t("#LIGHT_BLUE#Damage penetration:", "#LIGHT_BLUE#Pén. des résistances:", "_t")
+t("#LIGHT_BLUE#Damage penetration:", "#LIGHT_BLUE#Péné des résistances:", "_t")
 t("#LIGHT_BLUE#Additional Melee Damage:", "#LIGHT_BLUE#Dégâts de mélée en plus:", "_t")
 t("#LIGHT_BLUE#Additional Ranged Damage:", "#LIGHT_BLUE#Dégâts à distance en plus:", "_t")
 t("Heavy armor", "Armure lourde", "_t")
@@ -44986,11 +44966,11 @@ t("Some Sher'Tul artifacts can still be found in hidden places, but it is said t
 t("Drakes and wyrms are the strongest natural creatures in the world, capable of powers far beyond most other beings.", "Les dragons et les draconiens sont les créatures naturelles les plus fortes au monde, capables de pouvoirs bien supérieurs à ceux de la plupart des autres êtres.", "init.lua load_tips")
 t("Giant worms tear open huge passageways through the deserts in the west. It is said great riches lie buried beneath the sand, still decorating the corpses of those who went there seeking great riches.", "Des vers géants ouvrent d'immenses passages dans les déserts de l'ouest. On dit que de grandes richesses sont enfouies sous le sable, décorant encore les cadavres de ceux qui y sont allés à la recherche de ses trésors.", "init.lua load_tips")
 t("Arcane Blades employ a fusion of melee and magical combat. Their training is harsh but the most dedicated rise to great powers.", "Les Lames arcaniques utilisent un mélange de mêlée et de combat magique. Leur formation est rude mais les plus motivés accèdent à de grands pouvoirs.", "init.lua load_tips")
-t("Wild infusions call upon the powers of nature to protect the flesh and rid oneself of afflictions.", "Les infusions sauvages font appel aux pouvoirs de la nature pour protéger la chair et se débarrasser des afflictions.", "init.lua load_tips")
+t("Wild infusions call upon the powers of nature to protect the flesh and rid oneself of afflictions.", "Les essences sauvages font appel aux pouvoirs de la nature pour protéger la chair et se débarrasser des afflictions.", "init.lua load_tips")
 t("Shield runes act instantly, letting one protect oneself quickly whilst also preparing to flee or launch a counter attack.", "Les runes de bouclier protecteurs agissent instantanément, permettant de se protéger rapidement tout en se préparant à fuir ou à lancer une contre-attaque.", "init.lua load_tips")
 t("Greater training in the use of armour lets it be used more effectively, blocking more damage and reducing the chance of an enemy hitting a critical spot.", "Une meilleure formation à l'utilisation des armures permet de les utiliser plus efficacement, en bloquant plus de dégâts et en réduisant les chances qu'un ennemi touche un point critique.", "init.lua load_tips")
 t("The Thick Skin talent reduces all incoming damage, letting you survive for longer before needing to heal.", "Le talent Peau Epaisse réduit tous les dégâts à venir, vous permettant de survivre plus longtemps avant d'avoir besoin de guérir.", "init.lua load_tips")
-t("Regeneration infusions act over several turns, letting you anticipate damage that will be taken and prepare for it.", "Les infusions de régénération agissent sur plusieurs tours, vous permettant d'anticiper les dégâts à venir et de vous y préparer.", "init.lua load_tips")
+t("Regeneration infusions act over several turns, letting you anticipate damage that will be taken and prepare for it.", "Les essences de régénération agissent sur plusieurs tours, vous permettant d'anticiper les dégâts à venir et de vous y préparer.", "init.lua load_tips")
 t("In the most dire circumstances teleportation can be the best escape, but is not without risk.", "Dans les circonstances les plus difficiles, la téléportation peut être la meilleure échappatoire, mais elle n'est pas sans risque.", "init.lua load_tips")
 t("The Ziguranth are an ancient order vehemently opposed to magic. Some have become so attuned to nature they can resist arcane forces with their will alone.", "Les Zigurantes sont un ordre ancien qui s'oppose avec véhémence à la magie. Certains sont devenus si sensibles à la nature qu'ils peuvent résister aux forces des arcanes avec leur seule volonté.", "init.lua load_tips")
 t("Records say that giants once lived civilised lives, with mastery of many crafts and sciences. Now, though, they have adopted nomadic cultures, turning hostile against those that encroach on their lands.", "Selon les archives, les géants ont vécu une vie civilisée, avec la maîtrise de nombreux métiers et sciences. Mais aujourd'hui, ils ont adopté des cultures nomades, devenant hostiles à ceux qui empiètent sur leurs terres.", "init.lua load_tips")
@@ -45018,7 +44998,7 @@ t("Reavers are powerful fighters with corrupted blood, and the strength to wield
 t("Corruptors feed off the essence of others, and can use their own corrupted blood to launch deadly magical attacks.", "Les Corrupteurs se nourrissent de l'essence des autres et peuvent utiliser leur propre sang corrompu pour lancer de mortelles attaques magiques.", "init.lua load_tips")
 t("Clever rogues can lay traps to damage or debilitate their foes without having to go near them.", "Les brigands astucieux peuvent poser des pièges pour endommager ou affaiblir leurs ennemis sans avoir à s'en approcher.", "init.lua load_tips")
 t("Rogues can move silently and stealthily, letting them approach foes unaware or avoid them entirely.", "Les brigands peuvent se déplacer silencieusement et furtivement, en laissant leurs ennemis s'approcher à leur insu ou en les évitant complètement.", "init.lua load_tips")
-t("A movement infusion can let you quickly approach a ranged opponent, or quickly escape a melee one.", "Une infusion de mouvements peut vous permettre d'approcher rapidement un adversaire à distance, ou d'échapper rapidement à un adversaire en mêlée.", "init.lua load_tips")
+t("A movement infusion can let you quickly approach a ranged opponent, or quickly escape a melee one.", "Une essence de mouvements peut vous permettre d'approcher rapidement un adversaire à distance, ou d'échapper rapidement à un adversaire en mêlée.", "init.lua load_tips")
 t("Invisibility lets you escape notice, giving you the freedom to move or recover your resources, but reduces your damage.", "L'invisibilité vous permet de ne pas attirer l'attention, vous donnant la liberté de vous déplacer ou de récupérer vos ressources, mais réduit vos dégâs.", "init.lua load_tips")
 t("Poison is the domain of assassins and master rogues, and its cunning use can cripple or kill enemies over a long fight.", "Le poison est le domaine des assassins et des brigands, et son usage habile peut paralyser ou tuer les ennemis au cours d'un long combat.", "init.lua load_tips")
 t("Summoners can call upon a variety of natural creatures to protect and support them, reducing the risk to their own flesh considerably.", "Les invocateurs peuvent faire appel à une variété de créatures naturelles pour les protéger et les soutenir, ce qui réduit considérablement les risques pour leur propre peau.", "init.lua load_tips")
@@ -45091,6 +45071,7 @@ t("All kinds of weapons", "Toutes armes", "_t")
 t("All kinds of armours", "Toutes armures", "_t")
 t("Rings and Amulets", "Anneaux et Amulettes", "_t")
 t("Gems", "Pierres précieuses", "_t")
+t("Infusions, Runes, ...", "Essences, Runes, ...", "_t")
 t("Tinkers", "Babioles", "_t")
 t("Miscellaneous", "Divers", "_t")
 t("Quest and plot related items", "Objets de quête et d'intrigue", "_t")
@@ -45102,7 +45083,6 @@ t("dex", "dex", "stat short_name")
 t("mag", "mag", "stat short_name")
 t("Constitution", "Constitution", "stat name")
 t("con", "con", "stat short_name")
-t("Infusions, Runes, ...", "Infusions, Runes, ...", "_t")
 --]==]
 
 
