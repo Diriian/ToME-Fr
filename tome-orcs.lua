@@ -688,7 +688,7 @@ t("Very well. We can increase one of your core stats by 4, which one?", "Very we
 section "tome-orcs/data/damage_types.lua"
 
 t("%s is knocked back!", "%s est repoussé!", "logSeen")
-t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
+t("%s resists the knockback!", "%s résiste au recul!", "logSeen")
 t("%s resists!", "%s résiste!", "logSeen")
 -- texte non traduit
 --[==[
@@ -1666,7 +1666,7 @@ section "tome-orcs/data/general/objects/tinkers/mechanical.lua"
 t("iron", "fer", "_t")
 t("steel", "acier", "_t")
 t("armor", "armure", "entity type")
-t("massive", "énormité", "entity subtype")
+t("massive", "énorme", "entity subtype")
 -- texte non traduit
 --[==[
 t("dwarven steel", "dwarven steel", "_t")
@@ -6046,7 +6046,7 @@ t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
 t("%s resists the mental assault!", "%s résiste à l'assaut mental!", "logSeen")
 t("%s resists the blinding light!", "%s résiste à la lumière aveuglante!", "logSeen")
 t("%s is knocked back!", "%s est repoussé!", "logSeen")
-t("%s resists the knockback!", "%s résiste au repoussement!", "logSeen")
+t("%s resists the knockback!", "%s résiste au recul!", "logSeen")
 -- texte non traduit
 --[==[
 t("Medical Injector", "Medical Injector", "talent name")
