@@ -5872,7 +5872,7 @@ t("efficiency %d%% / cooldown %d%%", "efficiency %d%% / cooldown %d%%", "tformat
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/magnetism.lua"
 
-
+t("#Source# shatters '#Target#'.", "#Source# fracasse '#Target#'.", "logCombat")
 -- texte non traduit
 --[==[
 t("Static Shock", "Static Shock", "talent name")
@@ -5883,7 +5883,6 @@ You now also use your Cunning in place of Strength when equipping shields as wel
 You now also use your Cunning in place of Strength when equipping shields as well as when calculating shield damage.]], "tformat")
 t("Magnetic Field", "Magnetic Field", "talent name")
 t("You require a shield for this talent.", "You require a shield for this talent.", "logPlayer")
-t("#Source# shatters '#Target#'.", "#Source# shatters '#Target#'.", "logCombat")
 t([[You project a powerful blast of magnetic energy from your shield in radius %d around you. Enemies caught within are knocked back %d tiles and take %d%% shield damage as lightning, and any projectiles will be destroyed.
 		While this talent is not on cooldown, you also project a magnetic field from your shield, reducing the speed of incoming projectiles by %d%% and your chance to be critically hit by %d%%.]], [[You project a powerful blast of magnetic energy from your shield in radius %d around you. Enemies caught within are knocked back %d tiles and take %d%% shield damage as lightning, and any projectiles will be destroyed.
 		While this talent is not on cooldown, you also project a magnetic field from your shield, reducing the speed of incoming projectiles by %d%% and your chance to be critically hit by %d%%.]], "tformat")
@@ -7071,6 +7070,7 @@ t("The target has been splashed with acid, taking %0.2f acid damage per turn.", 
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide!", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
 t("lightning", "foudre", "effect subtype")
+t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s s'est rétabli!#LAST#", "logSeen")
 t("shield", "bouclier", "effect subtype")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts !", "logPlayer")
@@ -7267,7 +7267,6 @@ t("Incendiary Grenade", "Incendiary Grenade", "_t")
 t("The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "tformat")
 t("Healing Mist", "Healing Mist", "_t")
 t("Newly applied status effects durations are reduced by %d%%.", "Newly applied status effects durations are reduced by %d%%.", "tformat")
-t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s has recovered!#LAST#", "logSeen")
 t("Overclock", "Overclock", "_t")
 t("The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.", "The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.", "tformat")
 t("#target# surges with power!", "#target# surges with power!", "_t")
