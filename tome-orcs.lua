@@ -781,13 +781,13 @@ t("Entrance the tinker's master cave", "Entrance the tinker's master cave", "_t"
 section "tome-orcs/data/general/events/AAA.lua"
 
 t("tinkers", "Babioles", "_t")
+t("tools", "outils", "_t")
 -- texte non traduit
 --[==[
 t("steamtech weaponry", "steamtech weaponry", "_t")
 t("defensive items", "defensive items", "_t")
 t("arcane and psi", "arcane and psi", "_t")
 t("runes and infusions", "runes and infusions", "_t")
-t("tools", "tools", "_t")
 t("Ancient Automated Archive (%s)", "Ancient Automated Archive (%s)", "tformat")
 t("An ancient archive of knowledge! You've heard tales of those triangular store devices, holding items and restoring them. For a price.", "An ancient archive of knowledge! You've heard tales of those triangular store devices, holding items and restoring them. For a price.", "_t")
 --]==]
