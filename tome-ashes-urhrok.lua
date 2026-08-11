@@ -777,7 +777,7 @@ t([[By gorging yourself on up to %d stacks of Bleak Outcome from a creature, you
 section "tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
 
 t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
-t("%s resists the silence!", "%s resiste au silence!", "logSeen")
+t("%s resists the silence!", "%s résiste au silence!", "logSeen")
 -- texte non traduit
 --[==[
 t("Draining Assault", "Draining Assault", "talent name")
