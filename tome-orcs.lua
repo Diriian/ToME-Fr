@@ -4572,12 +4572,12 @@ t("Mind Controlled Yeti", "Mind Controlled Yeti", "talent name")
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/objects.lua"
 
+t("object techniques", "techniques d'objets", "talent type")
 t("%s resists!", "%s résiste!", "logSeen")
 t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
 -- texte non traduit
 --[==[
 t("steam", "steam", "talent category")
-t("object techniques", "object techniques", "talent type")
 t("Steam powers of the various objects of the world.", "Steam powers of the various objects of the world.", "_t")
 t("Overgrowth", "Overgrowth", "talent name")
 t([[Instantly grow a moss circle of radius %d at target area.
@@ -5746,6 +5746,7 @@ t([[Your cunning and dexterity allow you to fire incredible trick shots that can
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/heavy-weapons.lua"
 
+t("%s resists the disarm!", "%s résiste au désarmement!", "logSeen")
 t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 -- texte non traduit
@@ -5809,7 +5810,6 @@ t([[You replace your steamgun and attack with a multi-barreled bolt launcher, fi
 		
 		Each attack fires twice for %d%% weapon damage as acid and generates %d steam per hit.]], "tformat")
 t("Flechette Burst", "Flechette Burst", "talent name")
-t("%s resists the disarm!", "%s resists the disarm!", "logSeen")
 t("Fire two chemical flechettes, dealing %d%% weapon damage as acid and generating %d steam per hit.", "Fire two chemical flechettes, dealing %d%% weapon damage as acid and generating %d steam per hit.", "tformat")
 t("Heavy Weapon Expertise", "Heavy Weapon Expertise", "talent name")
 t("You require heavy ammunition and a heavy weapon to use this talent.", "You require heavy ammunition and a heavy weapon to use this talent.", "logPlayer")

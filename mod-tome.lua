@@ -1434,7 +1434,7 @@ t("Time of Balance", "Temps de l'Objectivité", "calendar allied")
 t("Pyre", "Bûcher", "calendar allied")
 t("Mirth", "Gaieté", "calendar allied")
 t("Summertide", "Estival", "calendar allied")
-t("Flare", "Eclat", "calendar allied")
+t("Flare", "Éclat", "calendar allied")
 t("Dusk", "Crépuscule", "calendar allied")
 t("Time of Equilibrium", "Temps de l'Equilibre", "calendar allied")
 t("Haze", "Brume", "calendar allied")
@@ -4569,7 +4569,7 @@ t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 t("lite", "lampe", "damage type")
 t("illumination", "dégâts d'illumination", "damage type")
 t("silence", "dégâts de silence", "damage type")
-t("%s resists the silence!", "%s resiste au silence!", "logSeen")
+t("%s resists the silence!", "%s résiste au silence!", "logSeen")
 t("arcane silence", "silence arcanique", "damage type")
 t("%s resists!", "%s résiste!", "logSeen")
 t("blindness", "aveuglement", "damage type")
@@ -9657,7 +9657,7 @@ t("Mankini", "Mankini", "entity name")
 section "mod-tome/data/general/objects/random-artifacts/ammo.lua"
 
 t("ammo reload", "rechargement des munitions", "entity name")
-t("travel speed", "vitesse de déplacement", "entity name")
+t("travel speed", "vitesse de mouvement", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/generic.lua"
@@ -9675,11 +9675,11 @@ t("generic phasing", "phase générique", "entity name")
 t("generic mindpower", "puissance mentale générique", "entity name")
 t("generic mindcrit", "crit mental générique", "entity name")
 t("generic mind crit magnitude", "magnitude de chance de crit mental générique", "entity name")
-t("generic equilibrium on hit", "équilibre sur touche générique", "entity name")
+t("generic equilibrium on hit", "équilibre au toucher générique", "entity name")
 t("generic max hate", "haine maximum générique", "entity name")
 t("generic hate on crit", "haine sur crit générique", "entity name")
 t("generic max psi", "psi max générique", "entity name")
-t("generic psi on hit", "psi sur touche générique", "entity name")
+t("generic psi on hit", "psi au toucher générique", "entity name")
 t("generic phys dam", "dam phys générique", "entity name")
 t("generic phys apr", "pén phys générique", "entity name")
 t("generic phys crit", "crit phys générique", "entity name")
@@ -9890,7 +9890,7 @@ t("crit", "crit", "entity name")
 section "mod-tome/data/general/objects/random-artifacts/ranged.lua"
 
 t("ammo reload", "rechargement des munitions", "entity name")
-t("travel speed", "vitesse de déplacement", "entity name")
+t("travel speed", "vitesse de mouvement", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/shields.lua"
@@ -12441,7 +12441,8 @@ t("My masterpiece walks! It is glorious, beautiful. While it remains unfinished,
 ------------------------------------------------
 section "mod-tome/data/lore/daikara.lua"
 
-
+t("Dragonsfire Trap", "Piège du Feu du Dragon", "_t")
+t("Freezing Trap", "Piège Congelant", "_t")
 -- texte non traduit
 --[==[
 t("daikara", "daikara", "newLore category")
@@ -12465,7 +12466,6 @@ rantha i will see you soon#{normal}#]], [[#{bold}#Xann, Shaloren Wyrmic#{normal}
 #{italic}#impudent fools treading upon dragon's ground. slaying my dear kin just for their skin they will pay they will pay. i called the drake, told it to be cunning, avoid the dwarf's gaze. i laughed as it bit into that ranger's arm ahaahaa. they're killing each other now, simple creatures, simple soft skinned creatures. not like dragons, so perfect, symbols of power, perfection... their captain still lives, but not for long. i will bring her to you to feast.
 
 rantha i will see you soon#{normal}#]], "_t")
-t("Dragonsfire Trap", "Dragonsfire Trap", "_t")
 t([[#{bold}#Relle, Cornac Fighter and Expedition Leader#{normal}#
 It knows we're here.  Xann's gone, and I have to assume the worst.  Too late to run.  One option left, a contraption Sodelost ensured us he'd be able to use to get the kill...  shame he didn't leave instructions behind with it, it's unclear how to arm it, and I don't want to add "being charred to a crisp" to my list of troubles today.
 I might not know a great deal about artifice, but I know how wild animals work, and for all the praise they get, dragons are no better.  I don't need to know how to rig this device so it goes off when the beast steps on it - I just need to put it inside something it'll eat whole...
@@ -12473,7 +12473,6 @@ I might not know a great deal about artifice, but I know how wild animals work, 
 It knows we're here.  Xann's gone, and I have to assume the worst.  Too late to run.  One option left, a contraption Sodelost ensured us he'd be able to use to get the kill...  shame he didn't leave instructions behind with it, it's unclear how to arm it, and I don't want to add "being charred to a crisp" to my list of troubles today.
 I might not know a great deal about artifice, but I know how wild animals work, and for all the praise they get, dragons are no better.  I don't need to know how to rig this device so it goes off when the beast steps on it - I just need to put it inside something it'll eat whole...
 #{italic}#Judging from this note's intact state and delicate placement next to a sack covered in assorted animal viscera, the dragon not only avoided setting off the trap, but has kept it as a trophy.  Inside the sack is a disarmed trap featuring a few recognizable alchemical flasks, and a means of mixing them in the right proportion when a pressure plate is triggered to produce a blast of dragonsfire. Figuring out how to arm it is almost as easy as figuring out how to make more traps like it.#{normal}#]], "_t")
-t("Freezing Trap", "Freezing Trap", "_t")
 t([[#{bold}#Relle, Cornac Fighter and Expedition Leader#{normal}#
 It knows we're here.  Xann's gone, and I have to assume the worst.  Too late to run.  One option left, a contraption Sodelost ensured us he'd be able to use to get the kill...  shame he didn't leave instructions behind with it, it's unclear how to arm it, and I don't want to add "being frozen solid" to my list of troubles today.
 I might not know a great deal about artifice, but I know how wild animals work, and for all the praise they get, dragons are no better.  I don't need to know how to rig this device so it goes off when the beast steps on it - I just need to put it inside something it'll eat whole...
@@ -12487,11 +12486,10 @@ I might not know a great deal about artifice, but I know how wild animals work, 
 ------------------------------------------------
 section "mod-tome/data/lore/derth.lua"
 
-
+t("Beam Trap", "Piège à Rayon", "_t")
 -- texte non traduit
 --[==[
 t("derth", "derth", "newLore category")
-t("Beam Trap", "Beam Trap", "_t")
 t([[#{italic}#A villager runs up to you, carrying a hefty looking sack.#{normal}#
 You've saved us from the storms!  We can't ever repay you enough, but, well...  Shortly after you stopped them, a witch approached us and offered us some...  magical #{italic}#things#{normal}# and said they would protect our town if anything like that happened again.
 It's not that I don't trust her, not after you and they - mostly you! - saved us, but...  I just don't feel comfortable having all this arcane stuff around us all the time.  None of us do.  If you've got a use for these, you're more than welcome to them.
@@ -17876,6 +17874,7 @@ section "mod-tome/data/lore/zigur.lua"
 
 t("The Great Evil", "Le Grand Mal", "_t")
 t("The story of my salvation", "L'histoire de mon salut", "_t")
+t("Purging Trap", "Piège à Purge", "_t")
 -- texte non traduit
 --[==[
 t("zigur", "zigur", "newLore category")
@@ -17967,7 +17966,6 @@ She explained how she and her friends were helping to save the world, to rid our
 
 I have no voice now to tell my story to others, and so I write it down instead, and I spread it to the winds. I have suffered from my contact with magic, and others will suffer too. Do not trust in the terrible powers of these devious arts. They will only betray you and bring you to harm. Turn your back on magic, and make others repent too. Find your own salvation in nature's joys before it is too late.
 ]], "_t")
-t("Purging Trap", "Purging Trap", "_t")
 t([[[As you begin to leave, Protector Myssil stops you.]
 
 Actually...  You fight in a more subtle way than most, do you not?  It is a point of pride for many of us that we stand tall in the face of arcane aggression and give warlocks one chance to repent before purging them, and much of our training reflects that, but I won't deny that less...  #{italic}#traditionally glorious#{normal}# methods can be extremely effective.  Decorum's no reason to let a necromancer get away alive when you could've planted a trap in their escape route.
@@ -19684,7 +19682,7 @@ section "mod-tome/data/talents/celestial/star-fury.lua"
 
 t("Moonlight Ray", "Rayon de Clair de Lune", "talent name")
 t([[Focuses the power of the Moon into a beam of shadows, doing %0.2f damage.
-		The damage dealt will increase with your Spellpower.]], [[Concentrez le pouvoir de la Lune en un rayon d'ombres, infligeant %0.2f dégâts.
+		The damage dealt will increase with your Spellpower.]], [[Concentrez le pouvoir de la Lune en un rayon d'ombres, infligeant %0.2f dégâts d'obscurité.
 		Les dégâts infligés sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Shadow Blast", "Explosion d'Ombre", "talent name")
 t([[Invokes a blast of shadows that deals %0.2f darkness damage, and leaves a radius 3 field that does %0.2f darkness damage per turn for %d turns.
@@ -21423,7 +21421,8 @@ t("Each time a creature affected by vimsense hurts you, you regain %0.2f vim and
 section "mod-tome/data/talents/cunning/ambush.lua"
 
 t("Shadowguard", "Garde des Ombres", "talent name")
-t("%s resists the silence!", "%s resiste au silence!", "logSeen")
+t("%s resists the silence!", "%s résiste au silence!", "logSeen")
+t("%s resists the disarm!", "%s résiste au désarmement!", "logSeen")
 t("Shadow Veil", "Voile d'Ombre", "talent name")
 -- texte non traduit
 --[==[
@@ -21431,7 +21430,6 @@ t([[Your Soothing Darkness talent effect now grants 25%% all damage resistance o
 		When your life drops below 50%% you become immune to negative detrimental effects for %d turns and gain %d defense and %d spellpower for %d turns.]], [[Your Soothing Darkness talent effect now grants 25%% all damage resistance on exiting stealth.
 		When your life drops below 50%% you become immune to negative detrimental effects for %d turns and gain %d defense and %d spellpower for %d turns.]], "tformat")
 t("Shadow Grasp", "Shadow Grasp", "talent name")
-t("%s resists the disarm!", "%s resists the disarm!", "logSeen")
 t([[You reach out with the shadows silencing and disarming your target for %d turns.
 		The shadows will deal %d darkness damage to the target and pull it to you.
 		The chance to apply debuffs improves with your Accuracy and the damage with your Spellpower.]], [[You reach out with the shadows silencing and disarming your target for %d turns.
@@ -21721,24 +21719,15 @@ t("Your quick wits allow you to reset the cooldown of up to %d of your combat ta
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/poisons.lua"
 
-t("Toxic Death", "Mort Toxique", "talent name")
-t("Vile Poisons", "Vils Poisons", "talent name")
-t("Venomous Strike", "Frappe Venimeuse", "talent name")
-t("Numbing Poison", "Poison Engourdissant", "talent name")
-t("Insidious Poison", "Poison Insidieux", "talent name")
-t("Crippling Poison", "Poison Invalidant", "talent name")
-t("Leeching Poison", "Poison Drainant", "talent name")
-t("Vulnerability Poison", "Poison de Vulnérabilité", "talent name")
-t("Stoning Poison", "Poison Pétrifiant", "talent name")
--- texte non traduit
---[==[
-t("Apply Poison", "Apply Poison", "talent name")
-t("%s resists the vile poison!", "%s resists the vile poison!", "logSeen")
+t("Apply Poison", "Appliquer un Poison", "talent name")
+t("%s resists the vile poison!", "%s résiste au vil poison!", "logSeen")
 t([[Learn how to coat your melee weapons, throwing knives, sling and bow ammo with poison, giving your attacks a %d%% chance to poison the target for %d nature damage per turn for %d turns. Every application of the poison stacks, up to a maximum of %d nature damage per turn.
-		The damage scales with your Cunning.]], [[Learn how to coat your melee weapons, throwing knives, sling and bow ammo with poison, giving your attacks a %d%% chance to poison the target for %d nature damage per turn for %d turns. Every application of the poison stacks, up to a maximum of %d nature damage per turn.
-		The damage scales with your Cunning.]], "tformat")
-t("#GREEN#Poison bursts out of %s's corpse!", "#GREEN#Poison bursts out of %s's corpse!", "logSeen")
-t("When you kill a creature, all of your poisons affecting it will spread to foes in a radius of %d.", "When you kill a creature, all of your poisons affecting it will spread to foes in a radius of %d.", "tformat")
+		The damage scales with your Cunning.]], [[Apprenez à enduire de poison vos armes de mêlée, vos couteaux de lancer, votre fronde et vos flèches, ce qui confère à vos attaques une chance d'empoisonner la cible de %d%%, lui infligeant %d dégâts de nature par tour pendant %d tours. Chaque application de poison s'accumule, jusqu'à un maximum de %d dégâts de nature par tour.
+		Les dégâts sont proportionnel à votre ruse.]], "tformat")
+t("Toxic Death", "Mort Toxique", "talent name")
+t("#GREEN#Poison bursts out of %s's corpse!", "#GREEN#Du poison jaillit du cadavre de %s!", "logSeen")
+t("When you kill a creature, all of your poisons affecting it will spread to foes in a radius of %d.", "Lorsque vous tuez une créature, tous les effets toxiques que vous lui avez infligés se propagent aux ennemis situés dans un rayon de %d.", "tformat")
+t("Vile Poisons", "Vils Poisons", "talent name")
 t([[Learn how to enhance your Deadly Poison, adding additional effects. Each level, you will learn a new kind of poison enhancement:
 	Level 1: Numbing Poison
 	Level 2: Insidious Poison
@@ -21748,49 +21737,60 @@ t([[Learn how to enhance your Deadly Poison, adding additional effects. Each lev
 	New poison enhancements can also be learned from special teachers in the world.
 	Also increases the effectiveness of your poisons by %d%%. (The effect varies for each poison.)
 	Adjusting your weapon coating takes no time and does not break stealth.
-	You may only have two poison enhancements active at once; applying a third will randomly cause one of the existing ones to be cancelled.]], [[Learn how to enhance your Deadly Poison, adding additional effects. Each level, you will learn a new kind of poison enhancement:
-	Level 1: Numbing Poison
-	Level 2: Insidious Poison
-	Level 3: Crippling Poison
-	Level 4: Leeching Poison
-	Level 5: Volatile Poison
-	New poison enhancements can also be learned from special teachers in the world.
-	Also increases the effectiveness of your poisons by %d%%. (The effect varies for each poison.)
-	Adjusting your weapon coating takes no time and does not break stealth.
-	You may only have two poison enhancements active at once; applying a third will randomly cause one of the existing ones to be cancelled.]], "tformat")
-t("#GREEN#%s's %s is disrupted by crippling poison!", "#GREEN#%s's %s is disrupted by crippling poison!", "logSeen")
+	You may only have two poison enhancements active at once; applying a third will randomly cause one of the existing ones to be cancelled.]], [[Découvrez comment améliorer votre Poison Mortel en y ajoutant des effets supplémentaires. À chaque niveau, vous apprendrez un nouveau type d'amélioration du poison:
+	
+	Level 1: Poison Engourdissant
+	Level 2: Poison Insidieux
+	Level 3: Poison Invalidant
+	Level 4: Poison Drainant
+	Level 5: Poison Volatile
+	
+	Vous pouvez également acquérir de nouvelles améliorations de poison auprès de professeurs spéciaux présents dans le monde.
+	Cela augmente également l'efficacité de vos poisons de %d%%. (L'effet varie selon chaque poison.)
+	L'ajustement du revêtement de votre arme ne prend pas de temps et ne rompt pas votre furtivité.
+	Vous ne pouvez avoir que deux améliorations de poison actives à la fois; l'application d'une troisième entraînera aléatoirement l'annulation de l'une des améliorations existantes.]], "tformat")
+t("Venomous Strike", "Frappe Venimeuse", "talent name")
+t("#GREEN#%s's %s is disrupted by crippling poison!", "#GREEN#Le %s de %s est paralysé par un poison invalidant !", "logSeen")
 t([[Numbing Poison - Reduces global speed by %d%% for 5 turns.
 		Insidious Poison - Applies a standard poison that deals %0.2f nature damage over 5 turns.
 		Crippling Poison - Places %d talents on cooldown for %d turns.
 		Leeching Poison - Heals you for %d.
 		Volatile Poison - Deals a further %0.2f nature damage to foes in a radius %d ball.
-		]], [[Numbing Poison - Reduces global speed by %d%% for 5 turns.
-		Insidious Poison - Applies a standard poison that deals %0.2f nature damage over 5 turns.
-		Crippling Poison - Places %d talents on cooldown for %d turns.
-		Leeching Poison - Heals you for %d.
-		Volatile Poison - Deals a further %0.2f nature damage to foes in a radius %d ball.
+		]], [[Poison Engourdissant - Réduit la vitesse globale de %d%% pendant 5 tours.
+		Poison Insidieux - Applique un effet de poison standard qui inflige %0.2f dégâts de nature sur 5 tours.
+		Poison Invalidant - Met %d talents en rechargement pendant %d tours.
+		Poison Drainant - Vous soigne de %d.
+		Poison Volatile - Inflige %0.2f dégâts de nature supplémentaires aux ennemis situés dans un rayon de %d.
 		]], "tformat")
 t([[You strike your target with your melee or ranged weapon, doing %d%% weapon damage as nature and inflicting additional effects based on your active vile poisons:
 		
 		%s
 		Learning this talent in addition to the Throwing Knives talent allows you to learn the Venomous Throw talent, which can be used to throw poisoned daggers at your foes, but is put on cooldown when this talent is used.
-		]], [[You strike your target with your melee or ranged weapon, doing %d%% weapon damage as nature and inflicting additional effects based on your active vile poisons:
+		]], [[Vous touchez votre cible avec votre arme de mêlée ou à distance, lui infligeant %d%% dégâts d'arme de nature et lui infligeant des effets supplémentaires en fonction de vos vils poisons actifs:
 		
 		%s
-		Learning this talent in addition to the Throwing Knives talent allows you to learn the Venomous Throw talent, which can be used to throw poisoned daggers at your foes, but is put on cooldown when this talent is used.
+		Apprendre ce talent en plus du talent Couteaux de lancer vous permet d'apprendre le talent Lancer Venimeux, qui peut être utilisé pour lancer des dagues empoisonnées sur vos adversaires, mais qui est soumis à un temps de recharge lorsque ce talent est utilisé.
 		]], "tformat")
-t("Enhances your Deadly Poison with a numbing agent, causing the poison to reduce all damage the target deals by %d%%.", "Enhances your Deadly Poison with a numbing agent, causing the poison to reduce all damage the target deals by %d%%.", "tformat")
-t("Enhances your Deadly Poison with an insidious agent, causing it to reduce the healing taken by enemies by %d%%.", "Enhances your Deadly Poison with an insidious agent, causing it to reduce the healing taken by enemies by %d%%.", "tformat")
-t("Enhances your Deadly Poison with a crippling agent, giving enemies a %d%% chance on using a talent to fail and lose a turn.", "Enhances your Deadly Poison with a crippling agent, giving enemies a %d%% chance on using a talent to fail and lose a turn.", "tformat")
-t("Enhances your Deadly Poison with a leeching agent, causing it to heal you for %d%% of the damage it does to its target.", "Enhances your Deadly Poison with a leeching agent, causing it to heal you for %d%% of the damage it does to its target.", "tformat")
-t("Volatile Poison", "Volatile Poison", "talent name")
-t("Enhances your Deadly Poison with a volatile agent, causing the poison to deal %d%% increased damage to the victim and damage all of your enemies adjacent to it for 50%%.", "Enhances your Deadly Poison with a volatile agent, causing the poison to deal %d%% increased damage to the victim and damage all of your enemies adjacent to it for 50%%.", "tformat")
-t("Whenever you apply Deadly Poison, you also apply an unresistable magical poison dealing %0.2f arcane damage (based on your Magic) each turn. This poison reduces all damage resistance by 10%% and poison immunity by 50%%.", "Whenever you apply Deadly Poison, you also apply an unresistable magical poison dealing %0.2f arcane damage (based on your Magic) each turn. This poison reduces all damage resistance by 10%% and poison immunity by 50%%.", "tformat")
+t("Numbing Poison", "Poison Engourdissant", "talent name")
+t("Enhances your Deadly Poison with a numbing agent, causing the poison to reduce all damage the target deals by %d%%.", "Ajoute un agent anesthésiant à votre Poison Mortel, ce qui fait que le poison réduit de %d%% tous les dégâts infligés par la cible.", "tformat")
+t("Insidious Poison", "Poison Insidieux", "talent name")
+t("Enhances your Deadly Poison with an insidious agent, causing it to reduce the healing taken by enemies by %d%%.", "Ajoute un agent insidieux à votre Poison Mortel, ce qui lui permet de réduire de %d%% les soins reçus par les ennemis.", "tformat")
+t("Crippling Poison", "Poison Invalidant", "talent name")
+t("Enhances your Deadly Poison with a crippling agent, giving enemies a %d%% chance on using a talent to fail and lose a turn.", "Renforce votre Poison Mortel en y ajoutant un agent paralysant, ce qui confère aux ennemis une chance de %d%% d'échouer lorsqu'ils utilisent un talent et de perdre un tour.", "tformat")
+t("Leeching Poison", "Poison Drainant", "talent name")
+t("Enhances your Deadly Poison with a leeching agent, causing it to heal you for %d%% of the damage it does to its target.", "Ajoute un effet de régénération à votre Poison Mortel, ce qui vous permet de récupérer %d%% des dégâts infligés à votre cible.", "tformat")
+t("Enhances your Deadly Poison with a volatile agent, causing the poison to deal %d%% increased damage to the victim and damage all of your enemies adjacent to it for 50%%.", "Ajoute un agent volatil à votre Poison Mortel, ce qui augmente les dégâts infligés par le poison à la victime de %d%% et inflige des dégâts à tous vos ennemis adjacents à celle-ci à hauteur de 50%%.", "tformat")
+t("Vulnerability Poison", "Poison de Vulnérabilité", "talent name")
+t("Whenever you apply Deadly Poison, you also apply an unresistable magical poison dealing %0.2f arcane damage (based on your Magic) each turn. This poison reduces all damage resistance by 10%% and poison immunity by 50%%.", "Chaque fois que vous appliquez Poison Mortel, vous appliquez également un poison magique irrésistible infligeant %0.2f dégâts arcaniques (basé sur votre Magie) à chaque tour. Ce poison réduit toutes les résistances aux dégâts de 10%% et l'immunité au poison de 50%%.", "tformat")
+t("Stoning Poison", "Poison Pétrifiant", "talent name")
 t([[Enhance your Deadly Poison with a stoning agent.  Whenever you apply Deadly Poison, you afflict your target with an additional earth-based poison that inflicts %d nature damage per turn (stacking up to %d damage per turn) for %d turns.
 		After either %d turns or the poison has run its course (<100%% chance, see effect description), the target will be turned to stone for %d turns.
-		The damage scales with your Cunning.]], [[Enhance your Deadly Poison with a stoning agent.  Whenever you apply Deadly Poison, you afflict your target with an additional earth-based poison that inflicts %d nature damage per turn (stacking up to %d damage per turn) for %d turns.
-		After either %d turns or the poison has run its course (<100%% chance, see effect description), the target will be turned to stone for %d turns.
-		The damage scales with your Cunning.]], "tformat")
+		The damage scales with your Cunning.]], [[Améliorez votre Poison Mortel avec un agent pétrifiant. Chaque fois que vous appliquez Poison Mortel, vous infligez à votre cible un poison supplémentaire de type Terre qui inflige %d dégâts de nature par tour (cumulables jusqu'à %d dégâts par tour) pendant %d tours.
+		Au bout de %d tours ou lorsque le poison a fait son effet (chance < 100%%, voir la description de l'effet), la cible sera pétrifiée pendant %d tours.
+		Les dégâts sont proportionnels à votre ruse.]], "tformat")
+-- texte non traduit
+--[==[
+t("Volatile Poison", "Volatile Poison", "talent name")
 --]==]
 
 
@@ -21974,45 +21974,34 @@ t([[Systematically find the weaknesses in your opponents' physical resists, at t
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/traps.lua"
 
+t("#CADET_BLUE#Placing %s...", "#CADET_BLUE#Placement de %s...", "logPlayer")
+t("You cannot place a trap there.", "Vous ne pouvez pas placer un piège ici.", "logPlayer")
+t("There is already a trap there.", "il y a déjà un piège ici.", "_t")
+t("You somehow fail to set the trap.", "Vous ne parvenez pas, pour une raison ou une autre, à poser le piège.", "_t")
 t("trap", "piège", "_t")
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
-t("Bear Trap", "Piège à Ours", "talent name")
-t("%s resists!", "%s résiste!", "logSeen")
-t("%s resists the silence!", "%s resiste au silence!", "logSeen")
--- nouveau texte
---[==[
-t("Creates a radius 5 gravitic anomaly lasting up to %d turns.  Hostile creatures are dealt %d temporal damage and pulled in.  Triggers out to range 1.", "Creates a radius 5 gravitic anomaly lasting up to %d turns.  Hostile creatures are dealt %d temporal damage and pulled in.  Triggers out to range 1.", "tformat")
---]==]
-
--- texte non traduit
---[==[
-t("#CADET_BLUE#Placing %s...", "#CADET_BLUE#Placing %s...", "logPlayer")
-t("You cannot place a trap there.", "You cannot place a trap there.", "logPlayer")
-t("There is already a trap there.", "There is already a trap there.", "_t")
-t("You somehow fail to set the trap.", "You somehow fail to set the trap.", "_t")
-t("#CADET_BLUE#Your %s has expired.", "#CADET_BLUE#Your %s has expired.", "logPlayer")
-t("@Source@ activates a prepared device.", "@Source@ activates a prepared device.", "_t")
-t("shadowy assassin", "shadowy assassin", "_t")
-t("A shadowy figure, garbed all in black.", "A shadowy figure, garbed all in black.", "_t")
-t("#PINK#A %s materializes from the shadows!", "#PINK#A %s materializes from the shadows!", "logSeen")
-t("bladestorm construct", "bladestorm construct", "_t")
-t("A lethal contraption of whirling blades.", "A lethal contraption of whirling blades.", "_t")
-t("Trap Mastery", "Trap Mastery", "talent name")
-t("Prepare which traps? (maximum: %d, up to tier %d)%s", "Prepare which traps? (maximum: %d, up to tier %d)%s", "tformat")
+t("#CADET_BLUE#Your %s has expired.", "#CADET_BLUE#Votre %s a expiré.", "logPlayer")
+t("@Source@ activates a prepared device.", "@Source@ active un dispositif.", "_t")
+t("shadowy assassin", "assassin tapi dans l'ombre", "_t")
+t("A shadowy figure, garbed all in black.", "Une silhouette indistincte, entièrement vêtue de noir.", "_t")
+t("#PINK#A %s materializes from the shadows!", "#PINK#Un %s émerge des ombres!", "logSeen")
+t("bladestorm construct", "créature artificielle tempête de lames", "_t")
+t("A lethal contraption of whirling blades.", "Un engin mortel aux lames tourbillonnantes.", "_t")
+t("Trap Mastery", "Maîtrise des Pièges", "talent name")
+t("Prepare which traps? (maximum: %d, up to tier %d)%s", "Préparer quel piège? (maximum: %d, jusqu'au palier %d)%s", "tformat")
 t("\
 Game Start: Newly prepared traps will NOT start on cooldown.", "\
-Game Start: Newly prepared traps will NOT start on cooldown.", "_t")
+Début de la partie: les pièges nouvellement préparés ne seront PAS soumis à un temps de recharge.", "_t")
 t("\
 #YELLOW#Newly prepared traps are put on cooldown.#LAST#", "\
-#YELLOW#Newly prepared traps are put on cooldown.#LAST#", "_t")
-t("Select Prepared Traps", "Select Prepared Traps", "_t")
-t("#YELLOW_GREEN#Dismantling %s", "#YELLOW_GREEN#Dismantling %s", "log")
-t("#LIGHT_GREEN#Preparing %s%s", "#LIGHT_GREEN#Preparing %s%s", "log")
-t(" (normal trigger)", " (normal trigger)", "_t")
-t("#LIGHT_BLUE#No changes to trap preparation.", "#LIGHT_BLUE#No changes to trap preparation.", "logPlayer")
-t("#GREY#(see trap description)#LAST#", "#GREY#(see trap description)#LAST#", "_t")
+#YELLOW#Les pièges nouvellement préparés sont mis en rechargement.#LAST#", "_t")
+t("Select Prepared Traps", "Sélectionner des Pièges Préparés", "_t")
+t("#YELLOW_GREEN#Dismantling %s", "#YELLOW_GREEN#Démantèlement %s", "log")
+t("#LIGHT_GREEN#Preparing %s%s", "#LIGHT_GREEN#Préparation %s%s", "log")
+t(" (normal trigger)", " (activation normale)", "_t")
+t("#LIGHT_BLUE#No changes to trap preparation.", "#LIGHT_BLUE#Aucun changement concernant la préparation des pièges.", "logPlayer")
+t("#GREY#(see trap description)#LAST#", "#GREY#(voir la description du piège)#LAST#", "_t")
 t([[%sTier %d: %s#LAST#
-%s]], [[%sTier %d: %s#LAST#
+%s]], [[%sPalier %d: %s#LAST#
 %s]], "tformat")
 t([[This talent allows you to prepare up to %d different trap(s) of tier %d or less for later deployment. (Use this ability to select which to prepare.)
 		Designs known:
@@ -22021,172 +22010,179 @@ t([[This talent allows you to prepare up to %d different trap(s) of tier %d or l
 		Traps prepared this way are difficult to detect (%d detection 'power') and disarm (%d disarm 'power') based on your Cunning.  They gain %+d%% effectiveness, and can be deployed without breaking stealth %d%% of the time.
 		You are immune to the damage and negative effects of your traps, and traps may critically strike based on your physical crit chance.
 		Most traps last %d turns if not triggered, and refund 80%% of their stamina cost on expiration.
-		More designs may be discovered via disarming or learned from special instructors in the world.]], [[This talent allows you to prepare up to %d different trap(s) of tier %d or less for later deployment. (Use this ability to select which to prepare.)
-		Designs known:
+		More designs may be discovered via disarming or learned from special instructors in the world.]], [[Ce talent vous permet de préparer jusqu’à %d pièges différents de niveau %d ou inférieur en vue d’un déploiement ultérieur. (Utilisez cette capacité pour choisir ceux que vous souhaitez préparer.)
+		Modèles connus:
 %s
 
-		Traps prepared this way are difficult to detect (%d detection 'power') and disarm (%d disarm 'power') based on your Cunning.  They gain %+d%% effectiveness, and can be deployed without breaking stealth %d%% of the time.
-		You are immune to the damage and negative effects of your traps, and traps may critically strike based on your physical crit chance.
-		Most traps last %d turns if not triggered, and refund 80%% of their stamina cost on expiration.
-		More designs may be discovered via disarming or learned from special instructors in the world.]], "tformat")
-t("Lure", "Lure", "talent name")
-t("lure", "lure", "_t")
-t("A noisy lure.", "A noisy lure.", "_t")
+		Les pièges ainsi préparés sont difficiles à détecter (%d de 'puissance' de détection) et à désamorcer (%d de 'puissance' de désamorçage) proportionnellement à votre Ruse. Ils gagnent %+d%% d’efficacité et peuvent être déployés sans rompre la furtivité %d%% du temps.
+		Vous êtes immunisé contre les dégâts et les effets négatifs de vos pièges, et ceux-ci peuvent infliger des coups critiques en fonction de votre chance de coup critique physique.
+		La plupart des pièges durent %d tours s’ils ne sont pas déclenchés, et remboursent 80%% de leur coût en endurance à leur expiration.
+		D’autres modèles peuvent être découverts en désarmant des pièges ou appris auprès d’instructeurs spéciaux dans le monde.]], "tformat")
+t("Lure", "Leurre", "talent name")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("lure", "leurre", "_t")
+t("A noisy lure.", "Un leurre bruyant.", "_t")
 t([[Deploy a noisy lure that attracts all creatures within radius %d to it for %d turns.
 		It has %d life (based on your Cunning) and is very durable, with %d armor and %d%% resistance to non-physical damage.
 		At level 5, when the lure is destroyed, it will trigger some traps in a radius of 2 around it (check individual trap descriptions to see if they are triggered).
-		Use of this talent will not break stealth.]], [[Deploy a noisy lure that attracts all creatures within radius %d to it for %d turns.
-		It has %d life (based on your Cunning) and is very durable, with %d armor and %d%% resistance to non-physical damage.
-		At level 5, when the lure is destroyed, it will trigger some traps in a radius of 2 around it (check individual trap descriptions to see if they are triggered).
-		Use of this talent will not break stealth.]], "tformat")
-t("Advanced Trap Deployment", "Advanced Trap Deployment", "talent name")
+		Use of this talent will not break stealth.]], [[Déploie un leurre bruyant qui attire toutes les créatures situées dans un rayon de %d vers lui pendant %d tours.
+		Il dispose de %d points de vie (proportionnel à votre Ruse) et est très résistant, avec %d points d’armure et %d%% de résistance aux dégâts non physiques.
+		Au niveau 5, lorsque le leurre est détruit, il déclenche certains pièges dans un rayon de 2 autour de lui (consultez les descriptions individuelles des pièges pour savoir s’ils sont déclenchés).
+		L'utilisation de ce talent ne rompt pas la furtivité.]], "tformat")
+t("Advanced Trap Deployment", "Déploiement Avancé de Pièges", "talent name")
 t([[You learn new techniques for setting traps.
-		Deploying one of your traps is possible up to %d grids from you, takes %d%% less time than normal, and has %d%% less chance to break stealth.]], [[You learn new techniques for setting traps.
-		Deploying one of your traps is possible up to %d grids from you, takes %d%% less time than normal, and has %d%% less chance to break stealth.]], "tformat")
-t("Trap Priming", "Trap Priming", "talent name")
-t("#LIGHT_BLUE#Cancelled Trap Priming.", "#LIGHT_BLUE#Cancelled Trap Priming.", "logPlayer")
-t("#YELLOW_GREEN#Dismantling %s (instant trigger)", "#YELLOW_GREEN#Dismantling %s (instant trigger)", "logPlayer")
-t("#LIGHT_GREEN#Preparing %s (instant trigger)", "#LIGHT_GREEN#Preparing %s (instant trigger)", "logPlayer")
+		Deploying one of your traps is possible up to %d grids from you, takes %d%% less time than normal, and has %d%% less chance to break stealth.]], [[Vous apprenez de nouvelles techniques pour poser des pièges.
+		Vous pouvez poser l'un de vos pièges jusqu'à %d cases de vous, cela prend %d%% moins de temps que d'habitude et réduit de %d%% le risque de rompre la discrétion.]], "tformat")
+t("Trap Priming", "Amorçage de Piège", "talent name")
+t("#LIGHT_BLUE#Cancelled Trap Priming.", "#LIGHT_BLUE#Annulation de l'amorçage du piège.", "logPlayer")
+t("#YELLOW_GREEN#Dismantling %s (instant trigger)", "#YELLOW_GREEN#Démontage de %s (déclenchement instantané)", "logPlayer")
+t("#LIGHT_GREEN#Preparing %s (instant trigger)", "#LIGHT_GREEN#Préparation de %s (déclenchement instantané)", "logPlayer")
 t([[You prepare an additional trap (up to tier %d) with a special primed trigger that causes it to activate immediately when deployed. (Use this ability to select the trap.)
 		Not all traps can be prepared this way and each trap can have only one type of preparation.
 		Known primable designs:
 %s
 
 A trap with a primed trigger gains %+d%% effectiveness (replacing the normal bonus from Trap Mastery) and won't break stealth %d%% of the time.
-#YELLOW#Current primed trap: %s#LAST#]], [[You prepare an additional trap (up to tier %d) with a special primed trigger that causes it to activate immediately when deployed. (Use this ability to select the trap.)
-		Not all traps can be prepared this way and each trap can have only one type of preparation.
-		Known primable designs:
+#YELLOW#Current primed trap: %s#LAST#]], [[Vous préparez un piège supplémentaire (jusqu'au niveau %d) doté d'un mécanisme spécial qui le fait se déclencher immédiatement dès son déploiement. (Utilisez cette capacité pour sélectionner le piège.)
+		Tous les pièges ne peuvent pas être préparés de cette manière et chaque piège ne peut avoir qu'un seul type de préparation.
+		Modèles pouvant être amorcés:
 %s
 
-A trap with a primed trigger gains %+d%% effectiveness (replacing the normal bonus from Trap Mastery) and won't break stealth %d%% of the time.
-#YELLOW#Current primed trap: %s#LAST#]], "tformat")
-t("Springrazor Trap", "Springrazor Trap", "talent name")
-t("springrazor trap", "springrazor trap", "_t")
-t("Shrapnel (radius 2) deals %0.2f physical damage, reduces accuracy, armour, and defence by %d.", "Shrapnel (radius 2) deals %0.2f physical damage, reduces accuracy, armour, and defence by %d.", "tformat")
+Un piège doté d’un déclencheur amorcé gagne %+d%% d’efficacité (en remplacement du bonus normal conféré par la maîtrise des pièges) et ne rompt pas la furtivité %d%% du temps.
+#YELLOW#Piège actuellement amorcé: %s#LAST#]], "tformat")
+t("Springrazor Trap", "Piège à Rasoir du Printemps", "talent name")
+t("springrazor trap", "piège à rasoir du printemps", "_t")
+t("Shrapnel (radius 2) deals %0.2f physical damage, reduces accuracy, armour, and defence by %d.", "Les éclats (rayon 2) infligent %0.2f dégâts physiques et réduisent la précision, l'armure et la défense de %d.", "tformat")
 t("\
 #YELLOW#Triggers immediately when placed.#LAST#", "\
-#YELLOW#Triggers immediately when placed.#LAST#", "_t")
+#YELLOW#Se déclenche immédiatement dès qu'il est placé.#LAST#", "_t")
 t([[Lay a pressure triggered trap that explodes into a radius 2 wave of razor sharp wire, doing %0.2f physical damage. Those struck by the wire may be shredded, reducing accuracy, armor and defence by %d.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Lay a pressure triggered trap that explodes into a radius 2 wave of razor sharp wire, doing %0.2f physical damage. Those struck by the wire may be shredded, reducing accuracy, armor and defence by %d.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], "tformat")
-t("bear trap", "bear trap", "_t")
-t("Deals %0.2f physical damage and pins, slows (30%%), and wounds for an additional %0.2f damage over 5 turns).", "Deals %0.2f physical damage and pins, slows (30%%), and wounds for an additional %0.2f damage over 5 turns).", "tformat")
-t("Lay a pressure triggered bear trap that snaps onto the first creature passing over it.  Victims are dealt %0.2f physical damage and become snared (pinned and slowed 30%%) and wounded for %0.2f bleeding damage over 5 turns.  Creatures that avoid being snared still suffer bleeding damage.%s", "Lay a pressure triggered bear trap that snaps onto the first creature passing over it.  Victims are dealt %0.2f physical damage and become snared (pinned and slowed 30%%) and wounded for %0.2f bleeding damage over 5 turns.  Creatures that avoid being snared still suffer bleeding damage.%s", "tformat")
-t("Disarming Trap", "Disarming Trap", "talent name")
-t("disarming trap", "disarming trap", "_t")
-t("Deals %0.2f acid damage, disarms for %d turns.", "Deals %0.2f acid damage, disarms for %d turns.", "tformat")
-t("Lay a tricky trap that maims creatures passing by with acid doing %0.2f damage and disarming them for %d turns.", "Lay a tricky trap that maims creatures passing by with acid doing %0.2f damage and disarming them for %d turns.", "tformat")
-t("Pitfall Trap", "Pitfall Trap", "talent name")
-t("pitfall trap", "pitfall trap", "_t")
-t("%s disappears into a collapsing pit!", "%s disappears into a collapsing pit!", "logSeen")
-t("%s is partially buried in a collapsing pit!", "%s is partially buried in a collapsing pit!", "logSeen")
-t("%s avoids a collapsing pit!", "%s avoids a collapsing pit!", "logSeen")
-t("Something has prevented the pit.", "Something has prevented the pit.", "logPlayer")
-t("pit", "pit", "_t")
-t("%s emerges from a collapsed pit.", "%s emerges from a collapsed pit.", "logSeen")
-t("Deals %0.2f physical damage.  Target removed from combat or pinned 5 turns.", "Deals %0.2f physical damage.  Target removed from combat or pinned 5 turns.", "tformat")
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Placez un piège à pression qui, lorsqu'il se déclenche, projette dans un rayon de 2 une vague de fil métallique tranchant comme une lame de rasoir, infligeant %0.2f dégâts physiques. Les cibles touchées par le fil peuvent être lacérées, ce qui réduit leur précision, leur armure et leur défense de %d.
+		Ce piège peut utiliser un déclencheur amorcé et peut être déclenché par un leurre de haut niveau.%s]], "tformat")
+t("Bear Trap", "Piège à Ours", "talent name")
+t("bear trap", "piège à ours", "_t")
+t("Deals %0.2f physical damage and pins, slows (30%%), and wounds for an additional %0.2f damage over 5 turns).", "Inflige %0.2f dégâts physiques, immobilise, ralentit (30%%) et inflige des blessures qui causent %0.2f dégâts supplémentaires sur 5 tours.", "tformat")
+t("Lay a pressure triggered bear trap that snaps onto the first creature passing over it.  Victims are dealt %0.2f physical damage and become snared (pinned and slowed 30%%) and wounded for %0.2f bleeding damage over 5 turns.  Creatures that avoid being snared still suffer bleeding damage.%s", "Placez un piège à ours déclenché par la pression qui se referme sur la première créature qui passe dessus. Les victimes subissent %0.2f dégâts physiques et sont immobilisées (clouées sur place et ralenties de 30%%) et blessées, subissant %0.2f dégâts de saignement pendant 5 tours. Les créatures qui parviennent à éviter l'immobilisation subissent tout de même des dégâts de saignement.%s", "tformat")
+t("Disarming Trap", "Piège Désarmant", "talent name")
+t("disarming trap", "piège désarmant", "_t")
+t("%s resists!", "%s résiste!", "logSeen")
+t("Deals %0.2f acid damage, disarms for %d turns.", "Inflige %0.2f dégâts d'acide et désarme pendant %d tours.", "tformat")
+t("Lay a tricky trap that maims creatures passing by with acid doing %0.2f damage and disarming them for %d turns.", "Tend un piège perfide qui mutile les créatures qui passent à proximité avec de l'acide, leur infligeant %0.2f dégâts et les désarmant pendant %d tours.", "tformat")
+t("Pitfall Trap", "Piège à Fosse", "talent name")
+t("pitfall trap", "piège à fosse", "_t")
+t("%s disappears into a collapsing pit!", "%s disparaît dans un fossé qui s'effondre!", "logSeen")
+t("%s is partially buried in a collapsing pit!", "%s est partiellement enseveli dans un piège à fosse!", "logSeen")
+t("%s avoids a collapsing pit!", "%s évite le piège à fosse!", "logSeen")
+t("Something has prevented the pit.", "Quelque chose a empêché la fosse.", "logPlayer")
+t("pit", "fosse", "_t")
+t("%s emerges from a collapsed pit.", "%s émerge d'une fosse effondré.", "logSeen")
+t("Deals %0.2f physical damage.  Target removed from combat or pinned 5 turns.", "Inflige %0.2f dégâts physiques. La cible est retirée du combat ou immobilisée pendant 5 tours.", "tformat")
 t([[Lay a pressure triggered trap that collapses the ground under the target, dealing %0.2f physical damage while burying them (removing from combat) for 5 turns.
-Victims may resist being buried, in which case they are pinned (ignores 50%% pin immunity) instead.]], [[Lay a pressure triggered trap that collapses the ground under the target, dealing %0.2f physical damage while burying them (removing from combat) for 5 turns.
-Victims may resist being buried, in which case they are pinned (ignores 50%% pin immunity) instead.]], "tformat")
-t("Flash Bang Trap", "Flash Bang Trap", "talent name")
-t("flash bang trap", "flash bang trap", "_t")
-t("Explodes (radius 2) for %0.2f physical damage, 50%% blind/daze for %d turns.", "Explodes (radius 2) for %0.2f physical damage, 50%% blind/daze for %d turns.", "tformat")
+Victims may resist being buried, in which case they are pinned (ignores 50%% pin immunity) instead.]], [[Placez un piège déclenché par la pression qui fait s'effondrer le sol sous la cible, lui infligeant %0.2f dégâts physiques tout en l'ensevelissant (la retirant du combat) pendant 5 tours.
+Les victimes peuvent résister à l'ensevelissement; dans ce cas, elles sont immobilisées (cette effet ignore 50%% de l'immunité à l'immobilisation).]], "tformat")
+t("Flash Bang Trap", "Piège Flash Bang", "talent name")
+t("flash bang trap", "piège flash bang", "_t")
+t("Explodes (radius 2) for %0.2f physical damage, 50%% blind/daze for %d turns.", "Explose (rayon 2) et inflige %0.2f dégâts physiques, ainsi que 50%% de chance d'aveuglement/étourdissement pendant %d tours.", "tformat")
 t([[Lay a trap that explodes in a radius of 2, dealing %0.2f physical damage and blinding and dazing (50%% chance of each) any creature caught inside for %d turns.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Lay a trap that explodes in a radius of 2, dealing %0.2f physical damage and blinding and dazing (50%% chance of each) any creature caught inside for %d turns.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], "tformat")
-t("Bladestorm Trap", "Bladestorm Trap", "talent name")
-t("bladestorm trap", "bladestorm trap", "_t")
-t("Construct attacks all adjacent enemies each turn for %d turns.", "Construct attacks all adjacent enemies each turn for %d turns.", "tformat")
-t("Lay a trap that activates a lethal contraption of whirling blades, lasting %d turns.  This stationary construct is very durable, receives your damage bonuses, and automatically attacks all adjacent enemies each turn.", "Lay a trap that activates a lethal contraption of whirling blades, lasting %d turns.  This stationary construct is very durable, receives your damage bonuses, and automatically attacks all adjacent enemies each turn.", "tformat")
-t("Beam Trap", "Beam Trap", "talent name")
-t("beam trap", "beam trap", "_t")
-t("Fires a beam (range 5) at a foe each turn for %0.2f arcane damage.  Lasts %d turns.", "Fires a beam (range 5) at a foe each turn for %0.2f arcane damage.  Lasts %d turns.", "tformat")
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Placez un piège qui explose dans un rayon de 2, infligeant %0.2f dégâts physiques et aveuglant et étourdissant (50%% de chances pour chacun) toute créature prise au piège pendant %d tours.
+		Ce piège peut utiliser un déclencheur amorcé et un leurre de haut niveau peut le déclencher.%s]], "tformat")
+t("Bladestorm Trap", "Piège Lame-Tempête", "talent name")
+t("bladestorm trap", "piège lame-tempête", "_t")
+t("Construct attacks all adjacent enemies each turn for %d turns.", "L'effet attaque tous les ennemis adjacents à chaque tour pendant %d tours.", "tformat")
+t("Lay a trap that activates a lethal contraption of whirling blades, lasting %d turns.  This stationary construct is very durable, receives your damage bonuses, and automatically attacks all adjacent enemies each turn.", "Placez un piège qui déclenche un mécanisme mortel composé de lames tournoyantes, d'une durée de %d tours. Cette construction fixe est très résistante, bénéficie de vos bonus de dégâts et attaque automatiquement tous les ennemis adjacents à chaque tour.", "tformat")
+t("Beam Trap", "Piège à Rayon", "talent name")
+t("beam trap", "piège à rayon", "_t")
+t("Fires a beam (range 5) at a foe each turn for %0.2f arcane damage.  Lasts %d turns.", "Lance un rayon (portée 5) sur un ennemi à chaque tour, infligeant %0.2f dégâts arcaniques. Dure %d tours.", "tformat")
 t([[Lay a magical trap that fires a beam of arcane energy at a random foe (within range 5) each turn for %d turns, inflicting %0.2f arcane damage.
 This trap requires 20 Magic to prepare and does not refund stamina when it expires.
-#YELLOW#Activates immediately when placed.#LAST#]], [[Lay a magical trap that fires a beam of arcane energy at a random foe (within range 5) each turn for %d turns, inflicting %0.2f arcane damage.
-This trap requires 20 Magic to prepare and does not refund stamina when it expires.
-#YELLOW#Activates immediately when placed.#LAST#]], "tformat")
-t("Poison Gas Trap", "Poison Gas Trap", "talent name")
-t("You have learned how to create Poison Gas traps!", "You have learned how to create Poison Gas traps!", "_t")
-t("poison gas trap", "poison gas trap", "_t")
-t("Releases a radius 3 poison gas cloud, poisoning for %0.2f nature damage over 5 turns with a 25%% for enhanced effects.", "Releases a radius 3 poison gas cloud, poisoning for %0.2f nature damage over 5 turns with a 25%% for enhanced effects.", "tformat")
+#YELLOW#Activates immediately when placed.#LAST#]], [[Placez un piège magique qui lance un rayon d'énergie arcanique sur un ennemi aléatoire (à portée 5) à chaque tour pendant %d tours, infligeant %0.2f dégâts arcaniques.
+Ce piège nécessite 20 points de Magie pour être préparé et ne restitue pas d'endurance lorsqu'il expire.
+#YELLOW#S'active immédiatement dès sa mise en place.#LAST#]], "tformat")
+t("Poison Gas Trap", "Piège à Gaz Toxique", "talent name")
+t("You have learned how to create Poison Gas traps!", "Vous avez appris à créer des pièges à gaz toxique!", "_t")
+t("poison gas trap", "piège à gaz toxique", "_t")
+t("Releases a radius 3 poison gas cloud, poisoning for %0.2f nature damage over 5 turns with a 25%% for enhanced effects.", "Génère un nuage de gaz toxique d'un rayon de 3, infligeant des dégâts de nature équivalents à %0.2f sur 5 tours, avec 25%% de chances de voir les effets amplifiés.", "tformat")
 t([[Lay a trap that releases a radius 3 cloud of thick poisonous gas lasting 4 turns.
 		Each turn, the cloud poisons all within (%0.2f nature damage over 5 turns).   There is a 25%% chance the poison is enhanced with crippling, numbing or insidious effects.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Lay a trap that releases a radius 3 cloud of thick poisonous gas lasting 4 turns.
-		Each turn, the cloud poisons all within (%0.2f nature damage over 5 turns).   There is a 25%% chance the poison is enhanced with crippling, numbing or insidious effects.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], "tformat")
-t("Freezing Trap", "Freezing Trap", "talent name")
-t("freezing trap", "freezing trap", "_t")
-t("Explodes (radius 2):  Deals %0.2f cold damage and pins for 3 turns.  Area freezes (%0.2f cold damage, 25%% freeze chance) for 5 turns.", "Explodes (radius 2):  Deals %0.2f cold damage and pins for 3 turns.  Area freezes (%0.2f cold damage, 25%% freeze chance) for 5 turns.", "tformat")
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Place un piège qui libère un nuage de gaz toxique dense d'un rayon de 3, dont l'effet dure 4 tours.
+		À chaque tour, le nuage empoisonne tous ceux qui s'y trouvent (%0.2f dégâts de nature infligés sur 5 tours). Il y a 25%% de chances que le poison soit assorti d'effets estropiant, engourdissants ou insidieux.
+		Ce piège peut utiliser un déclencheur amorcé et un leurre de haut niveau peut le déclencher.%s]], "tformat")
+t("Freezing Trap", "Piège Congelant", "talent name")
+t("freezing trap", "piège congelant", "_t")
+t("Explodes (radius 2):  Deals %0.2f cold damage and pins for 3 turns.  Area freezes (%0.2f cold damage, 25%% freeze chance) for 5 turns.", "Explosion (rayon 2): inflige %0.2f dégâts de froid et immobilise pendant 3 tours. La zone est gelée (%0.2f dégâts de froid, 25%% de chances de gel) pendant 5 tours.", "tformat")
 t([[Lay a trap that explodes into a radius 2 cloud of freezing vapour when triggered.  Foes take %0.2f cold damage and are pinned for 3 turns.
 		The freezing vapour persists for 5 turns, dealing %0.2f cold damage each turn to foes with a 25%% chance to freeze.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Lay a trap that explodes into a radius 2 cloud of freezing vapour when triggered.  Foes take %0.2f cold damage and are pinned for 3 turns.
-		The freezing vapour persists for 5 turns, dealing %0.2f cold damage each turn to foes with a 25%% chance to freeze.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], "tformat")
-t("Dragonsfire Trap", "Dragonsfire Trap", "talent name")
-t("dragonsfire trap", "dragonsfire trap", "_t")
-t("Explodes (radius 2): stuns and combusts for %0.2f fire damage per turn for 3 turns.  Area deflagrates (%0.2f fire damage) for 5 turns.", "Explodes (radius 2): stuns and combusts for %0.2f fire damage per turn for 3 turns.  Area deflagrates (%0.2f fire damage) for 5 turns.", "tformat")
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Placez un piège qui explose en un nuage de vapeur glaciale d'un rayon de 2 lorsqu'il est déclenché. Les ennemis subissent %0.2f dégâts de froid et sont immobilisés pendant 3 tours.
+		La vapeur glaciale persiste pendant 5 tours, infligeant %0.2f dégâts de froid à chaque tour aux ennemis, avec 25%% de chances de les geler.
+		Ce piège peut utiliser un déclencheur amorcé et peut être déclenché par un leurre de haut niveau.%s]], "tformat")
+t("Dragonsfire Trap", "Piège du Feu du Dragon", "talent name")
+t("dragonsfire trap", "piège du feu du dragon", "_t")
+t("Explodes (radius 2): stuns and combusts for %0.2f fire damage per turn for 3 turns.  Area deflagrates (%0.2f fire damage) for 5 turns.", "Explose (rayon 2): étourdit et inflige %0.2f dégâts de feu par tour pendant 3 tours. La zone subit une déflagration (%0.2f dégâts de feu) pendant 5 tours.", "tformat")
 t([[Lay a pressure triggered trap that explodes in a radius 2 cloud of searing flames when triggered, stunning foes with the blast (%0.2f fire damage per turn) for 3 turns.
 		The deflagration persists in the area for 5 turns, burning foes for %0.2f fire damage each turn.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Lay a pressure triggered trap that explodes in a radius 2 cloud of searing flames when triggered, stunning foes with the blast (%0.2f fire damage per turn) for 3 turns.
-		The deflagration persists in the area for 5 turns, burning foes for %0.2f fire damage each turn.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], "tformat")
-t("Gravitic Trap", "Gravitic Trap", "talent name")
-t("@Source@ deploys a warped device.", "@Source@ deploys a warped device.", "_t")
-t("gravitic trap", "gravitic trap", "_t")
-t("#LIGHT_STEEL_BLUE#%s distorts time and space!", "#LIGHT_STEEL_BLUE#%s distorts time and space!", "logSeen")
-t("#LIGHT_STEEL_BLUE##Target# pulls #Source# in!", "#LIGHT_STEEL_BLUE##Target# pulls #Source# in!", "logCombat")
-t("#LIGHT_STEEL_BLUE##Source# resists the pull of #Target#!", "#LIGHT_STEEL_BLUE##Source# resists the pull of #Target#!", "logCombat")
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Placez un piège à pression qui provoque un nuage de flammes brûlantes dans un rayon de 2 lorsqu'il est déclenché, assomant les ennemis avec l'explosion (%0.2f dégâts de feu par tour) pendant 3 tours.
+		La déflagration persiste dans la zone pendant 5 tours, infligeant aux ennemis %0.2f dégâts de feu à chaque tour.
+		Ce piège peut utiliser un déclencheur amorcé et être déclenché par un leurre de haut niveau.%s]], "tformat")
+t("Gravitic Trap", "Piège Gravitationnel", "talent name")
+t("@Source@ deploys a warped device.", "@Source@ déploie un dispositif distorsif.", "_t")
+t("gravitic trap", "piège gravitationnel", "_t")
+t("#LIGHT_STEEL_BLUE#%s distorts time and space!", "#LIGHT_STEEL_BLUE#%s déforme le temps et l'espace!", "logSeen")
+t("#LIGHT_STEEL_BLUE##Target# pulls #Source# in!", "#LIGHT_STEEL_BLUE##Target# attire #Source# vers lui!", "logCombat")
+t("#LIGHT_STEEL_BLUE##Source# resists the pull of #Target#!", "#LIGHT_STEEL_BLUE##Source# résiste à l'attraction de #Target#!", "logCombat")
+t("Creates a radius 5 gravitic anomaly lasting up to %d turns.  Hostile creatures are dealt %d temporal damage and pulled in.  Triggers out to range 1.", "Crée une anomalie gravitationnelle d'un rayon de 5 qui dure jusqu'à %d tours. Les créatures hostiles subissent %d dégâts temporels et sont attirées vers le centre. La zone d'effet s'étend jusqu'à une portée de 1.", "tformat")
 t([[Lay a trap that creates a radius 5 gravitic anomaly when triggered by foes approaching within range 1.  Each turn, the anomaly deals %0.2f temporal damage (based on your Magic) to foes while pulling them towards its center (chance increases with your combat accuracy or spell power, whichever is higher).
 		Each anomaly lasts %d turns (up to the amount of time since the last anomaly dissipated, based on your Trap Mastery skill).
 		The trap may trigger more than once, but requires at least 2 turns to recharge between activations.
-This design does not require advanced preparation to use.]], [[Lay a trap that creates a radius 5 gravitic anomaly when triggered by foes approaching within range 1.  Each turn, the anomaly deals %0.2f temporal damage (based on your Magic) to foes while pulling them towards its center (chance increases with your combat accuracy or spell power, whichever is higher).
-		Each anomaly lasts %d turns (up to the amount of time since the last anomaly dissipated, based on your Trap Mastery skill).
-		The trap may trigger more than once, but requires at least 2 turns to recharge between activations.
-This design does not require advanced preparation to use.]], "tformat")
-t("Ambush Trap", "Ambush Trap", "talent name")
-t("You have learned how to create Ambush traps!", "You have learned how to create Ambush traps!", "_t")
-t("ambush trap", "ambush trap", "_t")
-t("3 stealthed rogues attack the target for %d turns.", "3 stealthed rogues attack the target for %d turns.", "tformat")
+This design does not require advanced preparation to use.]], [[Placez un piège qui génère une anomalie gravitationnelle d'un rayon de 5 lorsqu'il est déclenché par des ennemis s'approchant à une portée de 1. À chaque tour, l'anomalie inflige %0.2f dégâts temporels (basé sur la Magie) aux ennemis tout en les attirant vers son centre (la probabilité augmente en fonction de votre précision au combat ou de votre puissance des sorts, la valeur la plus élevée étant retenue).
+		Chaque anomalie dure %d tours (jusqu’à la durée écoulée depuis la dissipation de la dernière anomalie, en fonction de votre talent Maîtrise des pièges).
+		Le piège peut se déclencher plusieurs fois, mais nécessite au moins 2 tours de recharge entre chaque activation.
+Cette conception ne nécessite aucune préparation préalable pour être utilisée.]], "tformat")
+t("Ambush Trap", "Piège d'Embuscade", "talent name")
+t("You have learned how to create Ambush traps!", "Vous avez appris à créer des pièges d'embuscade!", "_t")
+t("ambush trap", "piège d'embuscade", "_t")
+t("3 stealthed rogues attack the target for %d turns.", "3 voleurs en mode furtif attaquent la cible pendant %d tours.", "tformat")
 t([[Lay a magical trap that summons a trio of shadowy rogues to attack the target.
 The rogues receive your damage bonuses and are permanently stealthed.
-They disappear after %d turns or when their work is done.]], [[Lay a magical trap that summons a trio of shadowy rogues to attack the target.
-The rogues receive your damage bonuses and are permanently stealthed.
-They disappear after %d turns or when their work is done.]], "tformat")
-t("Purging Trap", "Purging Trap", "talent name")
-t("purging trap", "purging trap", "_t")
-t("Radius 2 antimagic: Drains up to %d mana, %d vim, %d positive/negative, deals up to %0.2f arcane damage.  Removes %d magical effects and silences for %d turns.", "Radius 2 antimagic: Drains up to %d mana, %d vim, %d positive/negative, deals up to %0.2f arcane damage.  Removes %d magical effects and silences for %d turns.", "tformat")
+They disappear after %d turns or when their work is done.]], [[Placez un piège magique qui invoque un trio de voleurs de l'ombre pour attaquer la cible.
+Les voleurs bénéficient de vos bonus de dégâts et restent en mode furtif en permanence.
+Ils disparaissent après %d tours ou une fois leur mission accomplie.]], "tformat")
+t("Purging Trap", "Piège à Purge", "talent name")
+t("purging trap", "piège à purge", "_t")
+t("%s resists the silence!", "%s résiste au silence!", "logSeen")
+t("Radius 2 antimagic: Drains up to %d mana, %d vim, %d positive/negative, deals up to %0.2f arcane damage.  Removes %d magical effects and silences for %d turns.", "Rayon 2 anti-magie: draine jusqu'à %d mana, %d vim, %d positif/négatif, inflige jusqu'à %0.2f dégâts arcaniques. Supprime %d effets magiques et inflige un silence pendant %d tours.", "tformat")
 t([[Lay a trap that releases a burst of antimagic energies (radius 2), draining up to %d mana, %d vim, %d positive and %d negative energies from affected targets, while inflicting up to %0.2f arcane damage based on the resources drained, silencing for %d turns, and removing up to %d beneficial magical effects or sustains.
 		The draining effect scales with your Willpower, and you must have 25 Willpower to prepare this trap.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Lay a trap that releases a burst of antimagic energies (radius 2), draining up to %d mana, %d vim, %d positive and %d negative energies from affected targets, while inflicting up to %0.2f arcane damage based on the resources drained, silencing for %d turns, and removing up to %d beneficial magical effects or sustains.
-		The draining effect scales with your Willpower, and you must have 25 Willpower to prepare this trap.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], "tformat")
-t("Explosion Trap", "Explosion Trap", "talent name")
-t("You have learned how to create Explosion traps!", "You have learned how to create Explosion traps!", "_t")
-t("explosion trap", "explosion trap", "_t")
-t("Explodes (radius 2) for %0.2f fire damage over 3 turns.", "Explodes (radius 2) for %0.2f fire damage over 3 turns.", "tformat")
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Placez un piège qui libère une rafale d'énergies anti-magiques (rayon 2), drainant jusqu'à %d mana, %d vim, %d d'énergies positives et %d d'énergies négatives aux cibles touchées, tout en infligeant jusqu'à %0.2f dégâts arcaniques en fonction des ressources drainées, en imposant un silence pendant %d tours et en supprimant jusqu'à %d d'effets magiques bénéfiques ou de soutiens.
+		L'effet de drainage est proportionnel à votre Volonté, et vous devez disposer de 25 en Volonté pour préparer ce piège.
+		Ce piège peut utiliser un déclencheur amorcé et être déclenché par un leurre de haut niveau.%s]], "tformat")
+t("Explosion Trap", "Piège Explosif", "talent name")
+t("You have learned how to create Explosion traps!", "Vous avez appris à créer des pièges explosifs!", "_t")
+t("explosion trap", "piège explosif", "_t")
+t("Explodes (radius 2) for %0.2f fire damage over 3 turns.", "Explose (rayon 2) et inflige %0.2f dégâts de feu répartis sur 3 tours.", "tformat")
 t([[Lay a simple yet effective trap that explodes in a radius 2 on contact, setting those affected on fire for %0.2f fire damage over 3 turns.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Lay a simple yet effective trap that explodes in a radius 2 on contact, setting those affected on fire for %0.2f fire damage over 3 turns.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], "tformat")
-t("Catapult Trap", "Catapult Trap", "talent name")
-t("You have learned how to create Catapult traps!", "You have learned how to create Catapult traps!", "_t")
-t("catapult trap", "catapult trap", "_t")
-t(" (%s)", " (%s)", "tformat")
-t("Target knocked back up to %d grids%s and dazed.", "Target knocked back up to %d grids%s and dazed.", "tformat")
-t("%s knocks %s back!", "%s knocks %s back!", "logSeen")
-t("%s fails to knock %s back!", "%s fails to knock %s back!", "logSeen")
-t("#LIGHT_BLUE#Aim the catapult", "#LIGHT_BLUE#Aim the catapult", "logPlayer")
-t("Target knocked back %d grids and dazed.", "Target knocked back %d grids and dazed.", "tformat")
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Placez un piège simple mais efficace qui explose dans un rayon de 2 au contact, enflammant les cibles touchées et leur infligeant %0.2f dégâts de feu pendant 3 tours.
+		Ce piège peut utiliser un déclencheur amorcé et être activé par un leurre de haut niveau.%s]], "tformat")
+t("Catapult Trap", "Piège à Catapulte", "talent name")
+t("You have learned how to create Catapult traps!", "Vous avez appris à créer des pièges à catapulte!", "_t")
+t("catapult trap", "piège à catapulte", "_t")
+t("Target knocked back up to %d grids%s and dazed.", "La cible a été projetée à %d cases%s et est étourdie.", "tformat")
+t("%s knocks %s back!", "%s repousse %s", "logSeen")
+t("%s fails to knock %s back!", "%s échoue à repousser %s!", "logSeen")
+t("#LIGHT_BLUE#Aim the catapult", "#LIGHT_BLUE#Visez avec la catapulte", "logPlayer")
+t("Target knocked back %d grids and dazed.", "La cible a été repoussée de %d cases et est étourdie.", "tformat")
 t([[Deploy a hidden spring-loaded catapult that will trigger (by pressure) for any creature passing over it.  Victims will be knocked back towards a target location up to %d grids away and be dazed for 5 turns.
 		This trap has a %d%% chance to reset itself after triggering, but can only trigger once per turn.
-		The chance to affect the target improves with your combat accuracy.]], [[Deploy a hidden spring-loaded catapult that will trigger (by pressure) for any creature passing over it.  Victims will be knocked back towards a target location up to %d grids away and be dazed for 5 turns.
-		This trap has a %d%% chance to reset itself after triggering, but can only trigger once per turn.
-		The chance to affect the target improves with your combat accuracy.]], "tformat")
-t("Nightshade Trap", "Nightshade Trap", "talent name")
-t("You have learned how to create Nightshade traps!", "You have learned how to create Nightshade traps!", "_t")
-t("nightshade trap", "nightshade trap", "_t")
-t("Deals %0.1f nature damage, stuns and poisons for %0.1f nature/turn for 4 turns.", "Deals %0.1f nature damage, stuns and poisons for %0.1f nature/turn for 4 turns.", "tformat")
-t("Lay a trap armed with potent venom.  A creature passing over it will be dealt %0.2f nature damage and be stunned and poisoned for %0.2f nature damage per turn for 4 turns.", "Lay a trap armed with potent venom.  A creature passing over it will be dealt %0.2f nature damage and be stunned and poisoned for %0.2f nature damage per turn for 4 turns.", "tformat")
+		The chance to affect the target improves with your combat accuracy.]], [[Déployez une catapulte à ressort dissimulée qui se déclenchera (sous l'effet de la pression) dès qu'une créature passera dessus. Les victimes seront projetées vers un emplacement cible situé à une distance maximale de %d cases et seront étourdies pendant 5 tours.
+		Ce piège a %d%% de chances de se réinitialiser après s'être déclenché, mais ne peut se déclencher qu'une seule fois par tour.
+		Les chances de toucher la cible augmentent en fonction de votre précision au combat.]], "tformat")
+t("Nightshade Trap", "Piège à Morelle", "talent name")
+t("You have learned how to create Nightshade traps!", "Vous avez appris à fabriquer des pièges à Morelles!", "_t")
+t("nightshade trap", "piège à morelle", "_t")
+t("Deals %0.1f nature damage, stuns and poisons for %0.1f nature/turn for 4 turns.", "Inflige %0.1f dégâts de nature, assomme et empoisonne avec %0.1f dégâts de nature par tour pendant 4 tours.", "tformat")
+t("Lay a trap armed with potent venom.  A creature passing over it will be dealt %0.2f nature damage and be stunned and poisoned for %0.2f nature damage per turn for 4 turns.", "Placez un piège imprégné d'un venin puissant. Toute créature qui passera dessus subira %0.2f dégâts de nature et sera assommé et empoisonnée, subissant %0.2f dégâts de nature par tour pendant 4 tours.", "tformat")
+-- texte non traduit
+--[==[
+t(" (%s)", " (%s)", "tformat")
 --]==]
 
 
@@ -22873,7 +22869,8 @@ t([[While rampaging, you slam up to %d adjacent opponents, stunning them for %d 
 section "mod-tome/data/talents/cursed/self-hatred.lua"
 
 t("Self-Judgement", "Autocritique", "talent name")
-t("damage", "dégât", "_t")
+t("an attack", "une attaque", "_t")
+t("damage", "dégâts", "_t")
 -- texte non traduit
 --[==[
 t("Self-Sacrifice", "Self-Sacrifice", "talent name")
@@ -22906,7 +22903,6 @@ This strength comes at a cost: you lose %d%% of your maximum life every turn.  T
 
 #{italic}#If you're lucky, this will take everything you've got.#{normal}#]], "tformat")
 t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "logCombat")
-t("an attack", "an attack", "_t")
 t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d bled out#LAST#%s)#LAST#", "tformat")
 t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
 
@@ -23066,7 +23062,7 @@ t("You have become a keen observer in your travels. Each kill gives you %d%% mor
 section "mod-tome/data/talents/gifts/antimagic.lua"
 
 t("Resolve", "Détermination", "talent name")
-t("%s resists the silence!", "%s resiste au silence!", "logSeen")
+t("%s resists the silence!", "%s résiste au silence!", "logSeen")
 t("Mana Clash", "Choc de Mana", "talent name")
 -- texte non traduit
 --[==[
@@ -23469,13 +23465,13 @@ t("A wave of energy passes through your fungus, making it release immediate heal
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/gifts.lua"
 
+t("wild-gift", "don sauvage", "talent category")
 t("antimagic", "anti-magie", "talent type")
 t("slime", "vase", "talent type")
 t("moss", "mousse", "talent type")
 t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
-t("wild-gift", "wild-gift", "talent category")
 t("call of the wild", "call of the wild", "talent type")
 t("Be at one with nature.", "Be at one with nature.", "_t")
 t("harmony", "harmony", "talent type")
@@ -24397,6 +24393,7 @@ t([[You breathe acid in a frontal cone of radius %d. Any target caught in the ar
 section "mod-tome/data/talents/misc/horrors.lua"
 
 t("psionic", "psyché", "talent category")
+t("wild-gift", "don sauvage", "talent category")
 t("spell", "sort", "talent category")
 t("other", "autre", "talent category")
 t("Abyssal Shroud", "Lisière Abyssale", "talent name")
@@ -24409,7 +24406,6 @@ t("technique", "technique", "talent category")
 t("horror techniques", "horror techniques", "talent type")
 t("Physical talents of the various horrors of the world.", "Physical talents of the various horrors of the world.", "_t")
 t("Psionic talents of the various horrors of the world.", "Psionic talents of the various horrors of the world.", "_t")
-t("wild-gift", "wild-gift", "talent category")
 t("horror spells", "horror spells", "talent type")
 t("Spell talents of the various horrors of the world.", "Spell talents of the various horrors of the world.", "_t")
 t("corruption", "corruption", "talent category")
@@ -24694,6 +24690,7 @@ t("class", "classe", "talent type")
 t("The various racial bonuses a character can have.", "Les différents bonus raciaux qu'un personnage peut posséder.", "_t")
 t("Teleport: Angolwen", "Téléportation: Angolwen", "talent name")
 t("Timeport: Point Zero", "Connexion Temporelle: Point Zéro", "talent name")
+t("Teleport to the ground", "Se téléporter à la surface", "talent name")
 -- texte non traduit
 --[==[
 t("base", "base", "talent category")
@@ -24755,7 +24752,6 @@ t([[Not the Master himself, nor all the orcs in fallen Reknor, nor even the terr
 		Children will hear of your relentlessness in song for years to come.
 		When activated, this ability reduces the duration of all active detrimental effects by 20%% of your associated save value or 2, whichever is greater:
 		%s]], "tformat")
-t("Teleport to the ground", "Teleport to the ground", "talent name")
 t("You cannot teleport there.", "You cannot teleport there.", "log")
 t([[Use the onboard short-range teleport of the Fortress to beam down to the surface.
 	Requires being in flight above the ground of a planet.]], [[Use the onboard short-range teleport of the Fortress to beam down to the surface.
@@ -24778,6 +24774,7 @@ section "mod-tome/data/talents/misc/npcs.lua"
 
 t("other", "autre", "talent type")
 t("spell", "sort", "talent category")
+t("wild-gift", "don sauvage", "talent category")
 t("psionic", "psyché", "talent category")
 t("other", "autre", "talent category")
 t("undead", "mort-vivant", "talent category")
@@ -24814,7 +24811,6 @@ t("technique", "technique", "talent category")
 t("Talents of the various entities of the world.", "Talents of the various entities of the world.", "_t")
 t("chronomancy", "chronomancy", "talent category")
 t("corruption", "corruption", "talent category")
-t("wild-gift", "wild-gift", "talent category")
 t("keepsake shadow", "keepsake shadow", "talent type")
 t("Keepsake shadows's innate abilities.", "Keepsake shadows's innate abilities.", "_t")
 t("cursed", "cursed", "talent category")
@@ -25237,104 +25233,104 @@ t("other", "autre", "_t")
 ------------------------------------------------
 section "mod-tome/data/talents/misc/objects.lua"
 
+t("fortress", "forteresse", "talent type")
+t("Yiilkgur abilities.", "Capacités de Yiilkgur.", "_t")
 t("spell", "sort", "talent category")
+t("object spells", "sorts d'objets", "talent type")
+t("Spell abilities of the various objects of the world.", "Sorts des divers objets du monde.", "_t")
 t("other", "autre", "talent category")
+t("object powers", "pouvoirs d'objets", "talent type")
+t("Abilities of the various objects of the world.", "Capacités des divers objets du monde.", "_t")
+t("object techniques", "techniques d'objets", "talent type")
+t("Techniques of the various objects of the world.", "Techniques des divers objets du monde.", "_t")
+t("wild-gift", "don sauvage", "talent category")
+t("Wild gifts of the various objects of the world.", "Dons sauvage des divers objets du monde.", "_t")
 t("misc", "divers", "talent category")
+t("Powers of the various objects of the world.", "Pouvoirs des divers objets du monde.", "_t")
+t("charms", "charmes", "talent name")
 t("Arcane Supremacy", "Suprématie Arcanique", "talent name")
+t("Removes up to %d detrimental magical effects and empowers you with arcane energy for ten turns, increasing spellpower and spell save by 5 plus 5 per effect removed.", "Supprime jusqu'à %d effet(s) magique(s) néfaste(s) et vous imprègne d'énergie profane pendant 10 tours, augmentant la puissance magique et la sauvegarde magique de 5, plus 5 par effet dissipé.", "tformat")
+t("Attune Mindstar", "Harmoniser d'Étoiles d'Âme", "talent name")
+t("@Source@ refocuses the energies of %s mindstar.", "@Source@ réaligne les énergies de l'étoile d'âme de %s.", "tformat")
+t("You attune your %s to deal #ORANGE#mind#LAST# damage.", "Vous harmonisez votre %s pour infliger des dégâts #ORANGE#mentaux#LAST#", "logPlayer")
+t("You attune your %s to deal #LIGHT_GREEN#nature#LAST# damage.", "Vous harmonisez votre %s pour infliger des dégâts de #LIGHT_GREEN#nature#LAST#", "logPlayer")
+t("Alter the flow of energies of your equiped mindstars, changing their damage type between nature and mind.", "Altère le flux d'énergie de vos étoiles d'âme équipées, basculant leur type de dégâts entre nature et mental.", "tformat")
+t("Command Staff", "Commander au Bâton", "talent name")
+t("@Source@ refocuses the energies of %s staff.", "@Source@ réaligne les énergies de son bâton %s.", "tformat")
+t("You need a staff.", "Vous devez être équipé d'un bâton.", "logPlayer")
+t("You must be holding a staff.", "Vous devez tenir un bâton en main.", "logPlayer")
+t("Alter the flow of energies through a staff.", "Altère le flux d'énergie traversant un bâton.", "tformat")
 t("Ward", "Garde", "talent name")
 t("Ward", "Garde", "_t")
+t([[Bring a damage-type-specific ward into being. The ward will fully negate as many attacks of its element as it has charges.
+		You can activate the following wards: %s]], [[Matérialise une garde spécifique à un type de dégâts. La garde annule complètement autant d'attaques de cet élément qu'elle possède de charges.
+		Vous pouvez activer les gardes suivantes: %s]], "tformat")
+t("Teleport to the ground", "Se téléporter à la surface", "talent name")
+t("Use Yiilkgur's teleporter to teleport to the ground.", "Utilise le téléporteur de Yiilkgur pour rejoindre la surface.", "tformat")
+t("Block", "Bloquer", "talent name")
+t("You require a shield to use this talent.", "Vous avez besoin d'un bouclier pour utiliser ce talent.", "logPlayer")
 t("None", "Aucune", "_t")
 t(" and ", " et ", "_t")
-t("Shivgoroth Form", "Forme de Shivgoroth", "talent name")
-t("Psionic Maelstrom", "Maelström Psionique", "talent name")
--- texte non traduit
---[==[
-t("sher'tul", "sher'tul", "talent category")
-t("fortress", "fortress", "talent type")
-t("Yiilkgur abilities.", "Yiilkgur abilities.", "_t")
-t("object spells", "object spells", "talent type")
-t("Spell abilities of the various objects of the world.", "Spell abilities of the various objects of the world.", "_t")
-t("object powers", "object powers", "talent type")
-t("Abilities of the various objects of the world.", "Abilities of the various objects of the world.", "_t")
-t("technique", "technique", "talent category")
-t("object techniques", "object techniques", "talent type")
-t("Techniques of the various objects of the world.", "Techniques of the various objects of the world.", "_t")
-t("wild-gift", "wild-gift", "talent category")
-t("Wild gifts of the various objects of the world.", "Wild gifts of the various objects of the world.", "_t")
-t("Powers of the various objects of the world.", "Powers of the various objects of the world.", "_t")
-t("charms", "charms", "talent name")
-t("Removes up to %d detrimental magical effects and empowers you with arcane energy for ten turns, increasing spellpower and spell save by 5 plus 5 per effect removed.", "Removes up to %d detrimental magical effects and empowers you with arcane energy for ten turns, increasing spellpower and spell save by 5 plus 5 per effect removed.", "tformat")
-t("Attune Mindstar", "Attune Mindstar", "talent name")
-t("@Source@ refocuses the energies of %s mindstar.", "@Source@ refocuses the energies of %s mindstar.", "tformat")
-t("You attune your %s to deal #ORANGE#mind#LAST# damage.", "You attune your %s to deal #ORANGE#mind#LAST# damage.", "logPlayer")
-t("You attune your %s to deal #LIGHT_GREEN#nature#LAST# damage.", "You attune your %s to deal #LIGHT_GREEN#nature#LAST# damage.", "logPlayer")
-t("Alter the flow of energies of your equiped mindstars, changing their damage type between nature and mind.", "Alter the flow of energies of your equiped mindstars, changing their damage type between nature and mind.", "tformat")
-t("Command Staff", "Command Staff", "talent name")
-t("@Source@ refocuses the energies of %s staff.", "@Source@ refocuses the energies of %s staff.", "tformat")
-t("You need a staff.", "You need a staff.", "logPlayer")
-t("You must be holding a staff.", "You must be holding a staff.", "logPlayer")
-t("Alter the flow of energies through a staff.", "Alter the flow of energies through a staff.", "tformat")
-t([[Bring a damage-type-specific ward into being. The ward will fully negate as many attacks of its element as it has charges.
-		You can activate the following wards: %s]], [[Bring a damage-type-specific ward into being. The ward will fully negate as many attacks of its element as it has charges.
-		You can activate the following wards: %s]], "tformat")
-t("Teleport to the ground", "Teleport to the ground", "talent name")
-t("Use Yiilkgur's teleporter to teleport to the ground.", "Use Yiilkgur's teleporter to teleport to the ground.", "tformat")
-t("Block", "Block", "talent name")
-t("You require a shield to use this talent.", "You require a shield to use this talent.", "logPlayer")
-t(" Increases your spell save by %d for that turn.", " Increases your spell save by %d for that turn.", "tformat")
-t(" Reflects all blocked damage back to the source.", " Reflects all blocked damage back to the source.", "_t")
-t(" All blocked damage heals the wielder.", " All blocked damage heals the wielder.", "_t")
+t(" Increases your spell save by %d for that turn.", " Augmente votre sauvegarde magique de %d pour ce tour.", "tformat")
+t(" Reflects all blocked damage back to the source.", " Renvoie tous les dégâts bloqués à l'expéditeur.", "_t")
+t(" All blocked damage heals the wielder.", " Tous les dégâts bloqués soignent le porteur.", "_t")
 t([[Raise your shield into blocking position for 2 turns reducing all non-Mind damage by %d. If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (the next weapon attack will instead deal 200%% damage) for one turn.
 			Counterstrike can normally only effect one enemy per block.
 			If any damage was successfully blocked this effect will be removed at the start of your turn.
 			If the shield has damage resistance to the blocked damage type the block value is increased by 50%%.
 			
-			Current Bonuses:  %s%s%s%s]], [[Raise your shield into blocking position for 2 turns reducing all non-Mind damage by %d. If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (the next weapon attack will instead deal 200%% damage) for one turn.
-			Counterstrike can normally only effect one enemy per block.
-			If any damage was successfully blocked this effect will be removed at the start of your turn.
-			If the shield has damage resistance to the blocked damage type the block value is increased by 50%%.
+			Current Bonuses:  %s%s%s%s]], [[Levez votre bouclier en position de blocage pendant 2 tours, réduisant tous les dégâts non mentaux de %d. Si vous bloquez l'intégralité des dégâts d'une attaque, l'agresseur devient vulnérable à une contre-attaque mortelle (la prochaine attaque d'arme infligera 200%% de dégâts) pendant un tour.
+			Une contre-attaque ne peut normalement affecter qu'un seul ennemi par blocage.
+			Si des dégâts ont été bloqués avec succès, cet effet prend fin au début de votre tour.
+			Si le bouclier possède une résistance native au type de dégâts bloqué, la valeur de blocage est augmentée de 50%%.
 			
-			Current Bonuses:  %s%s%s%s]], "tformat")
-t("Bloom Heal", "Bloom Heal", "talent name")
+			Bonus actuels:  %s%s%s%s]], "tformat")
+t("Bloom Heal", "Floraison Curative", "talent name")
 t([[Call upon the power of nature to regenerate your body for %d life every turn for 6 turns.
-		The life healed will increase with the Willpower stat.]], [[Call upon the power of nature to regenerate your body for %d life every turn for 6 turns.
-		The life healed will increase with the Willpower stat.]], "tformat")
-t("Destroy Magic", "Destroy Magic", "talent name")
-t("%s's animating magic is disrupted!", "%s's animating magic is disrupted!", "logSeen")
-t("The target has a %d%% chance (stacking to a maximum of %d%%) to fail to cast any spell.  At level 2 magical effects may be disrupted, at level 3 magical sustains may be disrupted, and at level 5 magical constructs and undead may be stunned.", "The target has a %d%% chance (stacking to a maximum of %d%%) to fail to cast any spell.  At level 2 magical effects may be disrupted, at level 3 magical sustains may be disrupted, and at level 5 magical constructs and undead may be stunned.", "tformat")
-t("Battle Trance", "Battle Trance", "talent name")
-t("You overdose on the honeyroot sap!", "You overdose on the honeyroot sap!", "logPlayer")
+		The life healed will increase with the Willpower stat.]], [[Invoque la puissance de la nature pour régénérer votre corps de %d points de vie par tour pendant 6 tours.
+		Les points de vie récupérés sont proportionnels à votre Volonté.]], "tformat")
+t("Destroy Magic", "Destruction de la Magie", "talent name")
+t("%s's animating magic is disrupted!", "La magie animant %s est perturbée!", "logSeen")
+t("The target has a %d%% chance (stacking to a maximum of %d%%) to fail to cast any spell.  At level 2 magical effects may be disrupted, at level 3 magical sustains may be disrupted, and at level 5 magical constructs and undead may be stunned.", "La cible a %d%% de chances (cumulable jusqu'à un maximum de %d%%) d'échouer lors du lancement de n'importe quel sort. Au niveau 2, les effets magiques peuvent être dissipés. Au niveau 3, les talents magiques soutenus peuvent être interrompus. Au niveau 5, les créations magiques et les morts-vivants peuvent être étourdis.", "tformat")
+t("Battle Trance", "Transe de Bataille", "talent name")
+t("You overdose on the honeyroot sap!", "Vous faites une overdose de sève de racine de miel!", "logPlayer")
 t([[You enter into a fighting trance, gaining 15%% resist all, losing 15 mindpower, but gaining 20 mental save. However, each turn after the fifth that this talent is active, there is a chance that you will be overcome and become confused.
-This does not take a turn to use.]], [[You enter into a fighting trance, gaining 15%% resist all, losing 15 mindpower, but gaining 20 mental save. However, each turn after the fifth that this talent is active, there is a chance that you will be overcome and become confused.
-This does not take a turn to use.]], "tformat")
-t("Soul Purge", "Soul Purge", "talent name")
-t("Remove any talent Morrigor has absorbed.", "Remove any talent Morrigor has absorbed.", "tformat")
-t("Dig", "Dig", "talent name")
-t("You require a digger to dig.", "You require a digger to dig.", "logPlayer")
-t("digging", "digging", "_t")
-t("dug", "dug", "_t")
-t("You have been interrupted!", "You have been interrupted!", "logPlayer")
+This does not take a turn to use.]], [[Vous entrez en transe de combat, gagnant 15%% de résistance à tout et 20 en sauvegarde mentale, mais perdant 15 en puissance mentale. Cependant, à chaque tour au-delà du cinquième où ce talent reste actif, vous risquez d'être submergé et de sombrer dans la confusion.
+L'activation de ce talent est instantanée.]], "tformat")
+t("Soul Purge", "Purge de l'Ame", "talent name")
+t("Remove any talent Morrigor has absorbed.", "Supprime tout talent que Morrigor a absorbé.", "tformat")
+t("Dig", "Creuser", "talent name")
+t("You require a digger to dig.", "Vous avez besoin d'un outil pour creuser.", "logPlayer")
+t("digging", "creuse", "_t")
+t("dug", "a creusé", "_t")
+t("You have been interrupted!", "Vous avez été interrompu!", "logPlayer")
 t([[Dig/cut a tree/...
-		Digging takes %d turns (based on your currently best digger available).]], [[Dig/cut a tree/...
-		Digging takes %d turns (based on your currently best digger available).]], "tformat")
-t("You are already a Shivgoroth!", "You are already a Shivgoroth!", "logPlayer")
+		Digging takes %d turns (based on your currently best digger available).]], [[Creuse la roche / abat un arbre / ...
+		L'excavation prend %d tours (calculé selon le meilleur outil disponible dans votre inventaire).]], "tformat")
+t("Shivgoroth Form", "Forme de Shivgoroth", "talent name")
+t("You are already a Shivgoroth!", "Vous êtes déjà sous forme de Shivgoroth!", "logPlayer")
 t([[You absorb latent cold around you, turning into an ice elemental - a shivgoroth - for %d turns.
 		While transformed, you do not need to breathe, gain access to the Ice Storm talent at level %d, gain %d%% resistance to cuts and stuns, gain %d%% cold resistance, and all cold damage heals you for %d%% of the damage done.
-		The power will increase with your Spellpower.]], [[You absorb latent cold around you, turning into an ice elemental - a shivgoroth - for %d turns.
-		While transformed, you do not need to breathe, gain access to the Ice Storm talent at level %d, gain %d%% resistance to cuts and stuns, gain %d%% cold resistance, and all cold damage heals you for %d%% of the damage done.
-		The power will increase with your Spellpower.]], "tformat")
-t("Mental Refresh", "Mental Refresh", "talent name")
-t("Reset up to 3 wild gift, psionic or cursed talents.", "Reset up to 3 wild gift, psionic or cursed talents.", "tformat")
-t("Dagger Block", "Dagger Block", "talent name")
+		The power will increase with your Spellpower.]], [[Vous absorbez le froid latent environnant pour vous métamorphoser en élémentaire de glace — un shivgoroth — pendant %d tours.
+		Sous cette forme vous n'avez plus besoin de respirer, accédez au talent Tempête de Glace au niveau %d, obtenez %d%% de résistance aux blessures profondes et aux assomements, ainsi que %d%% de résistance au froid. De plus, tous les dégâts de froid subis vous soignent à hauteur de %d%% des dégâts initiaux.
+		La puissance de cet effet est proportionnel à votre puissance magique.]], "tformat")
+t("Mental Refresh", "Rafraichissement Mentale", "talent name")
+t("Reset up to 3 wild gift, psionic or cursed talents.", "Réinitialise le temps de recharge de jusqu'à 3 talents de dons sauvage, psiôniques, ou maudits.", "tformat")
+t("Dagger Block", "Blocage à la Dague", "talent name")
 t([[Raise your dagger into blocking position for one turn, reducing the damage of all physical melee attacks against you by %d. If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (a normal attack will instead deal 200%% damage) for one turn and be left disarmed for 3 turns.
-		The blocking value will increase with your Dexterity and Cunning.]], [[Raise your dagger into blocking position for one turn, reducing the damage of all physical melee attacks against you by %d. If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (a normal attack will instead deal 200%% damage) for one turn and be left disarmed for 3 turns.
-		The blocking value will increase with your Dexterity and Cunning.]], "tformat")
-t("Shieldsmaiden Aura", "Shieldsmaiden Aura", "talent name")
-t("#CRIMSON#%s's shield deflects the blow!", "#CRIMSON#%s's shield deflects the blow!", "logSeen")
-t("Can block up to 1 hit per 10 turns.", "Can block up to 1 hit per 10 turns.", "tformat")
-t("For the next 8 turns, powerful blasts of psionic energies will erupt from you, doing %d damage.", "For the next 8 turns, powerful blasts of psionic energies will erupt from you, doing %d damage.", "tformat")
-t("Melee retaliation", "Melee retaliation", "talent name")
-t("Intermediary for melee retaliation.", "Intermediary for melee retaliation.", "tformat")
+		The blocking value will increase with your Dexterity and Cunning.]], [[Levez votre dague en position de blocage pendant un tour, réduisant les dégâts de toutes les attaques physiques au corps à corps de %d. Si vous bloquez l'intégralité des dégâts d'une attaque, l'assaillant devient vulnérable à une contre-attaque mortelle (une attaque normale infligera 200%% de dégâts) pendant un tour et se retrouve désarmé pendant 3 tours.
+		La valeur de blocage est proportionnel à votre Dextérité et votre Ruse.]], "tformat")
+t("Shieldsmaiden Aura", "Aura de la Vierge au Bouclier", "talent name")
+t("#CRIMSON#%s's shield deflects the blow!", "#CRIMSON#Le bouclier de %s dévie le coup!", "logSeen")
+t("Can block up to 1 hit per 10 turns.", "Peut bloquer jusqu'à 1 coup tous les 10 tours.", "tformat")
+t("Psionic Maelstrom", "Maelström Psionique", "talent name")
+t("For the next 8 turns, powerful blasts of psionic energies will erupt from you, doing %d damage.", "Pendant les 8 prochains tours, de puissantes vagues d'énergie psiônique émanent de vous, infligeant %d dégâts mentaux.", "tformat")
+t("Melee retaliation", "Représailles au Corps à Corps", "talent name")
+t("Intermediary for melee retaliation.", "Intermédiaire pour les représailles au corps à corps.", "tformat")
+-- texte non traduit
+--[==[
+t("sher'tul", "sher'tul", "talent category")
+t("technique", "technique", "talent category")
 --]==]
 
 
@@ -27360,6 +27356,7 @@ t([[Entomb yourself in a wall of stone for %d turns.
 section "mod-tome/data/talents/spells/eldritch-shield.lua"
 
 t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
+t("You require a shield to use this talent.", "Vous avez besoin d'un bouclier pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Eldritch Blow", "Eldritch Blow", "talent name")
@@ -27372,7 +27369,6 @@ t([[Channel eldritch forces into a melee attack, hitting the target with your we
 		The chance for the attack to stun increases with your Physical Power, but it is considered a magical attack and thus is resisted with spell save, rather than physical save.
 		Damage increases with Spellpower.]], "tformat")
 t("Eldritch Infusion", "Eldritch Infusion", "talent name")
-t("You require a shield to use this talent.", "You require a shield to use this talent.", "logPlayer")
 t([[Imbues your shields with arcane power, dealing %0.2f arcane damage with each melee strike and %0.2f arcane damage when hit.
 		Your shields radiate with eldritch forces, imbuing you back with %d spellpower and mindpower per tier of your shields (offhand counts for half). Current bonus is %d.
 		Allows counterstrikes after incomplete blocks and the cooldown of Block is reduced by %d turns.
@@ -27787,6 +27783,7 @@ t([[Breathe poison on your foes, doing %d damage over a few turns.
 section "mod-tome/data/talents/spells/golemancy.lua"
 
 t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
+t("You have been interrupted!", "Vous avez été interrompu!", "logPlayer")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
 -- texte non traduit
 --[==[
@@ -27805,7 +27802,6 @@ t("Golem", "Golem", "_t")
 t("Not enough space to refit!", "Not enough space to refit!", "logPlayer")
 t("refitting", "refitting", "_t")
 t("refitted", "refitted", "_t")
-t("You have been interrupted!", "You have been interrupted!", "logPlayer")
 t("You need to ready 2 alchemist gems in your quiver to heal your golem.", "You need to ready 2 alchemist gems in your quiver to heal your golem.", "logPlayer")
 t("You need to ready 15 alchemist gems in your quiver to heal your golem.", "You need to ready 15 alchemist gems in your quiver to heal your golem.", "logPlayer")
 t([[Take care of your golem:
@@ -28676,6 +28672,7 @@ section "mod-tome/data/talents/spells/water.lua"
 
 t("Ice Shards", "Eclats de Glace", "talent name")
 t("Shivgoroth Form", "Forme de Shivgoroth", "talent name")
+t("You are already a Shivgoroth!", "Vous êtes déjà sous forme de Shivgoroth!", "logPlayer")
 -- texte non traduit
 --[==[
 t([[Hurl ice shards at the targets in the selected area. Each shard travels slowly and does %0.2f ice damage, hitting all adjacent targets on impact with 25%% chance to freeze them.
@@ -28702,7 +28699,6 @@ t([[A wall of water rushes out from the caster with an initial radius of 1, incr
 		The tidal wave lasts for %d turns.
 		All creatures hit gain the wet effect, which reduces their stun/freeze immunity by half and interacts with other cold spells.
 		The damage and duration will increase with your Spellpower.]], "tformat")
-t("You are already a Shivgoroth!", "You are already a Shivgoroth!", "logPlayer")
 t([[You absorb latent cold around you, turning into an ice elemental - a shivgoroth - for %d turns.
 		While transformed, you do not need to breathe, gain access to the Ice Storm talent at level %d, gain %d%% resistance to cuts and stuns, gain %d%% cold resistance, and all cold damage heals you for %d%% of the damage done.
 		The power will increase with your Spellpower.
@@ -28843,10 +28839,12 @@ t([[Enter a blood frenzy, draining stamina quickly (-2 stamina/turn). Each time 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/acrobatics.lua"
 
+t("Vault", "Saut", "talent name")
+t("Tumble", "Roulade", "talent name")
+t("Trained Reactions", "Réflexes Entraînés", "talent name")
 t("Superb Agility", "Agilité Remarquable", "talent name")
 -- texte non traduit
 --[==[
-t("Vault", "Vault", "talent name")
 t("You cannot move!", "You cannot move!", "logPlayer")
 t("You cannot land in that space.", "You cannot land in that space.", "logPlayer")
 t("You must vault over someone adjacent to you.", "You must vault over someone adjacent to you.", "logPlayer")
@@ -28858,13 +28856,11 @@ t([[Use an adjacent friend or foe as a springboard, vaulting over them to anothe
 		This maneuver grants you a burst of speed from your momentum, allowing you run %d%% faster (movement speed bonus) in the same direction you vaulted for 3 turns.
 		The increased speed ends if you change directions or stop moving.
 		]], "tformat")
-t("Tumble", "Tumble", "talent name")
 t("@Source@ tumbles to a better position!", "@Source@ tumbles to a better position!", "_t")
 t("You cannot tumble to that space.", "You cannot tumble to that space.", "logPlayer")
 t([[Move to a spot within range, bounding around, over, or through any enemies in the way.
 		This maneuver can surprise your foes and improves your tactical position, improving your physical critical chance by %d%% for 1 turn.]], [[Move to a spot within range, bounding around, over, or through any enemies in the way.
 		This maneuver can surprise your foes and improves your tactical position, improving your physical critical chance by %d%% for 1 turn.]], "tformat")
-t("Trained Reactions", "Trained Reactions", "talent name")
 t([[While this talent is sustained, you anticipate deadly attacks against you.
 		Any time you would lose more than %d%% of your maximum life in a single hit, you instead duck out of the way and assume a defensive posture.
 		This reduces the triggering damage and all further damage in the same turn by %d%%.
@@ -28881,105 +28877,97 @@ t([[You gain greater facility with your acrobatic moves, lowering the cooldowns 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/agility.lua"
 
-t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
--- texte non traduit
---[==[
-t("Agile Defense", "Agile Defense", "talent name")
-t("%s(%d deflected)#LAST#", "%s(%d deflected)#LAST#", "tformat")
+t("Agile Defense", "Défense Agile", "talent name")
+t("%s(%d deflected)#LAST#", "%s(%d dévié)#LAST#", "tformat")
 t([[You are trained in an agile, mobile fighting technique combining sling and shield. This allows shields to be equipped, using Dexterity instead of Strength as a requirement.
-While you have a shield equip and your Block talent is not on cooldown, you have a %d%% chance to deflect any incoming damage, reducing it by 50%% of your shield’s block value.]], [[You are trained in an agile, mobile fighting technique combining sling and shield. This allows shields to be equipped, using Dexterity instead of Strength as a requirement.
-While you have a shield equip and your Block talent is not on cooldown, you have a %d%% chance to deflect any incoming damage, reducing it by 50%% of your shield’s block value.]], "tformat")
-t("Vault", "Vault", "talent name")
-t("You require a shield to use this talent.", "You require a shield to use this talent.", "logPlayer")
-t("%s resists the daze!", "%s resists the daze!", "logSeen")
+While you have a shield equip and your Block talent is not on cooldown, you have a %d%% chance to deflect any incoming damage, reducing it by 50%% of your shield’s block value.]], [[Vous êtes formé à une technique de combat agile et mobile combinant fronde et bouclier. Cela permet d'équiper des boucliers, en utilisant la Dextérité plutôt que la Force comme prérequis.
+Tant qu'un bouclier est équipé et que votre talent Bloquer n'est pas en rechargement, vous avez %d%% de chance de dévier tout dégât entrant, le réduisant de 50%% de la valeur de blocage de votre bouclier.]], "tformat")
+t("Vault", "Saut", "talent name")
+t("You require a shield to use this talent.", "Vous avez besoin d'un bouclier pour utiliser ce talent.", "logPlayer")
+t("%s resists the daze!", "%s résiste à l'étourdissement!", "logSeen")
 t([[Leap onto an adjacent target with your shield, striking them for %d%% damage and dazing them for 2 turns, then using them as a springboard to leap to a tile within range %d.
 The shield bash will use Dexterity instead of Strength for the shield's bonus damage.
-At talent level 5, you will immediately enter a blocking stance on landing.]], [[Leap onto an adjacent target with your shield, striking them for %d%% damage and dazing them for 2 turns, then using them as a springboard to leap to a tile within range %d.
-The shield bash will use Dexterity instead of Strength for the shield's bonus damage.
-At talent level 5, you will immediately enter a blocking stance on landing.]], "tformat")
-t("Bull Shot", "Bull Shot", "talent name")
+At talent level 5, you will immediately enter a blocking stance on landing.]], [[Bondissez sur une cible adjacente avec votre bouclier, la frappant pour %d%% dégâts et l'étourdissant pendant 2 tours, puis utilisez-la comme tremplin pour sauter vers une case à portée de %d.
+Le coup de bouclier utilisera la Dextérité plutôt que la Force pour les dégâts bonus du bouclier.
+Au niveau 5, vous entrez immédiatement en posture de blocage à l'atterrissage.]], "tformat")
+t("Bull Shot", "Tir en Charge", "talent name")
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
 t([[You rush toward your foe, readying your shot. If you reach the enemy, you release the shot, imbuing it with great power.
 		The shot does %d%% weapon damage and knocks back your target by %d.
 		The cooldown of this talent is reduced by 1 each time you move.
-		This requires a sling to use.]], [[You rush toward your foe, readying your shot. If you reach the enemy, you release the shot, imbuing it with great power.
-		The shot does %d%% weapon damage and knocks back your target by %d.
-		The cooldown of this talent is reduced by 1 each time you move.
-		This requires a sling to use.]], "tformat")
-t("Rapid Shot", "Rapid Shot", "talent name")
-t("You cannot use Rapid Fire without a bow or sling!", "You cannot use Rapid Fire without a bow or sling!", "logPlayer")
+		This requires a sling to use.]], [[Vous vous ruez vers votre ennemi en préparant votre tir. Si vous atteignez l'ennemi, vous relâchez le tir en l'imbuant d'une grande puissance.
+		Le tir inflige %d%% dégâts d'arme et repousse votre cible de %d cases.
+		Le rechargement de ce talent est réduit de 1 à chaque fois que vous vous déplacez.
+		Nécessite une fronde.]], "tformat")
+t("Rapid Shot", "Tir Rapide", "talent name")
+t("You cannot use Rapid Fire without a bow or sling!", "Vous ne pouvez pas utiliser Tir Rapide sans un arc ou une fronde!", "logPlayer")
 t([[Enter a fluid, mobile shooting stance that excels at close combat. Your ranged attack speed is increased by %d%% and each time you shoot you gain %d%% increased movement speed for 2 turns.
 Ranged attacks against targets will also grant you up to %d%% of a turn. This is 100%% effective against targets within 3 tiles, and decreases by 20%% for each tile beyond that (to 0%% at 8 tiles). This cannot occur more than once per turn.
-Requires a sling to use.]], [[Enter a fluid, mobile shooting stance that excels at close combat. Your ranged attack speed is increased by %d%% and each time you shoot you gain %d%% increased movement speed for 2 turns.
-Ranged attacks against targets will also grant you up to %d%% of a turn. This is 100%% effective against targets within 3 tiles, and decreases by 20%% for each tile beyond that (to 0%% at 8 tiles). This cannot occur more than once per turn.
-Requires a sling to use.]], "tformat")
---]==]
-
+Requires a sling to use.]], [[Adoptez une posture de tir fluide et mobile qui excelle au combat rapproché. Votre vitesse d'attaque à distance est augmentée de %d%% et à chaque tir vous gagnez %d%% de vitesse de déplacement supplémentaire pendant 2 tours.
+Les attaques à distance octroient également jusqu'à %d%% d'un tour. C'est 100%% efficace contre les cibles dans un rayon de 3 cases, et diminue de 20%% par case au-delà (jusqu'à 0%% à 8 cases). Cela ne peut se produire qu'une fois par tour.
+Nécessite une fronde.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/archery.lua"
 
-t("Shoot", "Tir", "talent name")
+t("Shoot", "Tirer", "talent name")
+t("@Source@ shoots!", "@Source@ tire!", "_t")
+t("Shoot your bow, sling or other missile launcher!", "Tirez avec votre arc, fronde ou autre lanceur de projectiles!", "tformat")
 t("Steady Shot", "Tir Précis", "talent name")
-t("Called Shots", "tirs ciblés", "talent name")
-t("%s resists the silence!", "%s resiste au silence!", "logSeen")
-t("Bullseye", "Dans le Mille", "talent name")
-t("%s resists!", "%s résiste!", "logSeen")
--- texte non traduit
---[==[
-t("@Source@ shoots!", "@Source@ shoots!", "_t")
-t("Shoot your bow, sling or other missile launcher!", "Shoot your bow, sling or other missile launcher!", "tformat")
 t([[Fire a steady shot, doing %d%% damage with a %d%% chance to mark the target.
-If Steady Shot is not on cooldown, this talent will automatically replace your normal attacks (and trigger the cooldown).]], [[Fire a steady shot, doing %d%% damage with a %d%% chance to mark the target.
-If Steady Shot is not on cooldown, this talent will automatically replace your normal attacks (and trigger the cooldown).]], "tformat")
-t("Pin Down", "Pin Down", "talent name")
+If Steady Shot is not on cooldown, this talent will automatically replace your normal attacks (and trigger the cooldown).]], [[Tirez un coup précis infligeant %d%% dégâts avec %d%% de chance de marquer la cible.
+Si Tir Précis n'est pas en rechargement, ce talent remplace automatiquement vos attaques normales (et déclenche le rechargement).]], "tformat")
+t("Pin Down", "Immobilisation", "talent name")
 t([[You fire a shot for %d%% damage that attempts to pin your target to the ground for %d turns, as well as giving your next Steady Shot or Shoot 100%% increased chance to critically hit and mark (regardless of whether the pin succeeds).
 		This shot has a 20%% chance to mark the target.
-		The chance to pin increases with your Accuracy.]], [[You fire a shot for %d%% damage that attempts to pin your target to the ground for %d turns, as well as giving your next Steady Shot or Shoot 100%% increased chance to critically hit and mark (regardless of whether the pin succeeds).
-		This shot has a 20%% chance to mark the target.
-		The chance to pin increases with your Accuracy.]], "tformat")
-t("Fragmentation Shot", "Fragmentation Shot", "talent name")
+		The chance to pin increases with your Accuracy.]], [[Vous tirez un coup infligeant %d%% dégâts qui tente d'immobiliser votre cible au sol pendant %d tours, tout en donnant à votre prochain Tir Précis ou Tirer 100%% de chance supplémentaire de faire un critique et de marquer (que l'immobilisation réussisse ou non).
+		Ce tir a 20%% de chance de marquer la cible.
+		La chance d'immobiliser est proportionnel à votre Précision.]], "tformat")
+t("Fragmentation Shot", "Tir Fragmenté", "talent name")
 t([[Fires a shot that explodes into a radius %d ball of razor sharp fragments on impact, dealing %d%% weapon damage and leaving targets crippled for %d turns, reducing their attack, spell and mind speed by %d%%.
 		Each target struck has a %d%% chance to be marked.
-		The status chance increases with your Accuracy.]], [[Fires a shot that explodes into a radius %d ball of razor sharp fragments on impact, dealing %d%% weapon damage and leaving targets crippled for %d turns, reducing their attack, spell and mind speed by %d%%.
-		Each target struck has a %d%% chance to be marked.
-		The status chance increases with your Accuracy.]], "tformat")
-t("Scatter Shot", "Scatter Shot", "talent name")
-t("%s resists the scattershot!", "%s resists the scattershot!", "logSeen")
+		The status chance increases with your Accuracy.]], [[Tire un coup qui explose en une sphère de fragments tranchants de rayon %d à l'impact, infligeant %d%% dégâts d'arme et laissant les cibles estropiées pendant %d tours, réduisant leur vitesse d'attaque, magique et mentale de %d%%.
+		Chaque cible touchée a %d%% de chance d'être marquée.
+		La chance d'appliquer l'effet est propotionnel à votre Précision.]], "tformat")
+t("Scatter Shot", "Tir Dispersé", "talent name")
+t("%s resists the scattershot!", "%s résiste au tir dispersé!", "logSeen")
 t([[Fires a wave of projectiles in a radius %d cone, dealing %d%% weapon damage. All targets struck by this will be knocked back to the maximum range of the cone and stunned for %d turns.
 		Each target struck has a %d%% chance to be marked.
-		The chance to knockback and stun increases with your Accuracy.]], [[Fires a wave of projectiles in a radius %d cone, dealing %d%% weapon damage. All targets struck by this will be knocked back to the maximum range of the cone and stunned for %d turns.
-		Each target struck has a %d%% chance to be marked.
-		The chance to knockback and stun increases with your Accuracy.]], "tformat")
-t("Headshot", "Headshot", "talent name")
+		The chance to knockback and stun increases with your Accuracy.]], [[Tire une vague de projectiles en cône de rayon %d, infligeant %d%% dégâts d'arme. Toutes les cibles touchées seront repoussées jusqu'à la portée maximale du cône et étourdies pendant %d tours.
+		Chaque cible touchée a %d%% de chance d'être marquée.
+		La chance de repousser et d'étourdir est proportionnel à votre Précision.]], "tformat")
+t("Headshot", "Tir à la Tête", "talent name")
 t([[Fire a precise shot dealing %d%% weapon damage, with 100 increased accuracy. This shot will bypass other enemies between you and your target.
-Only usable against marked targets, and consumes the mark on hit.]], [[Fire a precise shot dealing %d%% weapon damage, with 100 increased accuracy. This shot will bypass other enemies between you and your target.
-Only usable against marked targets, and consumes the mark on hit.]], "tformat")
-t("Volley", "Volley", "talent name")
+Only usable against marked targets, and consumes the mark on hit.]], [[Tirez un coup précis infligeant %d%% dégâts d'arme, avec 100 de Précision supplémentaire. Ce tir contourne les autres ennemis entre vous et votre cible.
+Utilisable uniquement contre des cibles marquées, et consume la marque au contact.]], "tformat")
+t("Volley", "Volée", "talent name")
 t([[You fire countless shots into the sky to rain down around your target, inflicting %d%% weapon damage to all within radius %d.
-If the primary target is marked, you consume the mark to fire a second volley of arrows for %d%% damage at no ammo cost.]], [[You fire countless shots into the sky to rain down around your target, inflicting %d%% weapon damage to all within radius %d.
-If the primary target is marked, you consume the mark to fire a second volley of arrows for %d%% damage at no ammo cost.]], "tformat")
-t("%s resists the disarm!", "%s resists the disarm!", "logSeen")
-t("%s resists the slow!", "%s resists the slow!", "logSeen")
+If the primary target is marked, you consume the mark to fire a second volley of arrows for %d%% damage at no ammo cost.]], [[Vous tirez d'innombrables flèches vers le ciel qui pleuvent autour de votre cible, infligeant %d%% dégâts d'arme à toutes les créatures dans un rayon de %d.
+Si la cible principale est marquée, vous consommez la marque pour tirer une seconde volée de flèches infligeant %d%% dégâts sans coût de munition.]], "tformat")
+t("Called Shots", "Tirs Ciblés", "talent name")
+t("%s resists the silence!", "%s résiste au silence!", "logSeen")
+t("%s resists the disarm!", "%s résiste au désarmement!", "logSeen")
+t("%s resists the slow!", "%s résiste au ralentissement!", "logSeen")
 t([[You fire a disabling shot at a target's throat (or equivalent), dealing %d%% weapon damage and silencing them for %d turns.
 If the target is marked, you consume the mark to fire two secondary shots at their arms and legs (or other appendages) dealing %d%% damage, reducing their movement speed by 50%% and disarming them for the duration.
-The status chance increases with your Accuracy.]], [[You fire a disabling shot at a target's throat (or equivalent), dealing %d%% weapon damage and silencing them for %d turns.
-If the target is marked, you consume the mark to fire two secondary shots at their arms and legs (or other appendages) dealing %d%% damage, reducing their movement speed by 50%% and disarming them for the duration.
-The status chance increases with your Accuracy.]], "tformat")
-t("Each time you consume a mark, you gain %d%% increased attack speed for 2 turns and the cooldown of %d random techniques are reduced by %d turns.", "Each time you consume a mark, you gain %d%% increased attack speed for 2 turns and the cooldown of %d random techniques are reduced by %d turns.", "tformat")
-t("Relaxed Shot", "Relaxed Shot", "talent name")
+The status chance increases with your Accuracy.]], [[Vous tirez un coup incapacitant à la gorge de la cible (ou équivalent), infligeant %d%% dégâts d'arme et la réduisant au silence pendant %d tours.
+Si la cible est marquée vous consommez la marque pour tirer deux coups secondaires sur ses bras et jambes (ou membres équivalents), infligeant %d%% dégâts, réduisant sa vitesse de déplacement de 50%% et la désarmant pendant la durée.
+La chance d'appliquer les effets sont propotionnels à votre Précision.]], "tformat")
+t("Bullseye", "Dans le Mille", "talent name")
+t("Each time you consume a mark, you gain %d%% increased attack speed for 2 turns and the cooldown of %d random techniques are reduced by %d turns.", "Chaque fois que vous consommez une marque, vous gagnez %d%% de vitesse d'attaque supplémentaire pendant 2 tours et le rechargement de %d techniques aléatoires est réduit de %d tours.", "tformat")
+t("Relaxed Shot", "Tir Détendu", "talent name")
 t([[You fire a shot without putting much strength into it, doing %d%% damage.
-		That brief moment of relief allows you to regain %d stamina.]], [[You fire a shot without putting much strength into it, doing %d%% damage.
-		That brief moment of relief allows you to regain %d stamina.]], "tformat")
-t("Crippling Shot", "Crippling Shot", "talent name")
+		That brief moment of relief allows you to regain %d stamina.]], [[Vous tirez sans y mettre beaucoup de force, infligeant %d%% dégâts.
+		Ce bref moment de répit vous permet de récupérer %d d'endurance.]], "tformat")
+t("Crippling Shot", "Tir Handicapant", "talent name")
 t([[You fire a crippling shot, doing %d%% damage and reducing your target's speed by %d%% for 7 turns.
-		The status power and status hit chance improve with your Accuracy.]], [[You fire a crippling shot, doing %d%% damage and reducing your target's speed by %d%% for 7 turns.
-		The status power and status hit chance improve with your Accuracy.]], "tformat")
-t("Pinning Shot", "Pinning Shot", "talent name")
+		The status power and status hit chance improve with your Accuracy.]], [[Vous tirez un coup handicapant, infligeant %d%% dégâts et réduisant la vitesse de votre cible de %d%% pendant 7 tours.
+		La puissance et la chance d'appliquer l'effet est proportionnel à votre Précision.]], "tformat")
+t("Pinning Shot", "Tir Immobilisant", "talent name")
+t("%s resists!", "%s résiste!", "logSeen")
 t([[You fire a pinning shot, doing %d%% damage and pinning your target to the ground for %d turns.
-		The pinning chance increases with your Dexterity.]], [[You fire a pinning shot, doing %d%% damage and pinning your target to the ground for %d turns.
-		The pinning chance increases with your Dexterity.]], "tformat")
---]==]
-
+		The pinning chance increases with your Dexterity.]], [[Vous tirez un coup immobilisant, infligeant %d%% dégâts et immobilisant votre cible au sol pendant %d tours.
+		La chance d'immobilisation est propotionnel à votre Dextérité.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/assassination.lua"
@@ -29330,19 +29318,19 @@ t([[Exploiting a gap in your target's defenses, you make a lethal strike with yo
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/excellence.lua"
 
+t("Shoot Down", "Abattre", "talent name")
+t("#Source# shoots down '#Target#'!", "#Source# abat '#Target#'!", "logCombat")
+t("Bull Shot", "Tir en Charge", "talent name")
 t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
+t("Intuitive Shots", "Tirs Intuitifs", "talent name")
 -- texte non traduit
 --[==[
-t("Shoot Down", "Shoot Down", "talent name")
-t("#Source# shoots down '#Target#'!", "#Source# shoots down '#Target#'!", "logCombat")
 t([[Your reflexes are lightning-fast, if you spot a projectile (arrow, shot, spell, ...) you can instantly shoot at it without taking a turn to take it down.
 		You can shoot down up to %d projectiles.]], [[Your reflexes are lightning-fast, if you spot a projectile (arrow, shot, spell, ...) you can instantly shoot at it without taking a turn to take it down.
 		You can shoot down up to %d projectiles.]], "tformat")
-t("Bull Shot", "Bull Shot", "talent name")
 t([[You rush toward your foe, readying your shot. If you reach the enemy, you release the shot, imbuing it with great power.
 		The shot does %d%% weapon damage and knocks back your target by %d.]], [[You rush toward your foe, readying your shot. If you reach the enemy, you release the shot, imbuing it with great power.
 		The shot does %d%% weapon damage and knocks back your target by %d.]], "tformat")
-t("Intuitive Shots", "Intuitive Shots", "talent name")
 t("%s %s the attack!", "%s %s the attack!", "logSeen")
 t("intercepts", "intercepts", "_t")
 t("fails to intercept", "fails to intercept", "_t")
@@ -29499,72 +29487,64 @@ t([[Raw magical damage channels through the caster's weapon, increasing raw Phys
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/marksmanship.lua"
 
-t("Flare", "Eclat", "talent name")
-t("Trueshot", "Essence du Tir", "talent name")
--- texte non traduit
---[==[
-t("Master Marksman", "Master Marksman", "talent name")
+t("Master Marksman", "Maître Tireur", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using bows or slings, as well as your reload rate by %d.
 		In addition, your Shoot has a %d%% chance to mark targets on hit.
-The mark lasts for 5 turns, grants you visibility of the target (even through walls and other concealment), and causes them to become vulnerable to Headshot, Volley and Called Shots.]], [[Increases weapon damage by %d%% and physical power by 30 when using bows or slings, as well as your reload rate by %d.
-		In addition, your Shoot has a %d%% chance to mark targets on hit.
-The mark lasts for 5 turns, grants you visibility of the target (even through walls and other concealment), and causes them to become vulnerable to Headshot, Volley and Called Shots.]], "tformat")
-t("First Blood", "First Blood", "talent name")
+The mark lasts for 5 turns, grants you visibility of the target (even through walls and other concealment), and causes them to become vulnerable to Headshot, Volley and Called Shots.]], [[Augmente les dégâts d'arme de %d%% et la Puissance physique de 30 en utilisant des arcs ou des frondes, ainsi que votre vitesse de rechargement de %d.
+		De plus, votre Tirer a %d%% de chance de marquer les cibles au contact.
+		La marque dure 5 tours, vous accorde la visibilité de la cible (même à travers les murs et autres dissimulations) et la rend vulnérable à Tir à la Tête, Volée et Tirs Ciblés.]], "tformat")
+t("First Blood", "Premier Sang", "talent name")
 t([[You take advantage of unwary foes (those at or above 90%% life). Against these targets, Shoot, Steady Shot and Headshot bleed targets for %d%% additional damage over 5 turns and have a 50%% increased chance to mark (if capable of marking).
-In addition, your Steady Shot, Shoot and Headshot now restore %0.1f stamina on hit.]], [[You take advantage of unwary foes (those at or above 90%% life). Against these targets, Shoot, Steady Shot and Headshot bleed targets for %d%% additional damage over 5 turns and have a 50%% increased chance to mark (if capable of marking).
-In addition, your Steady Shot, Shoot and Headshot now restore %0.1f stamina on hit.]], "tformat")
+In addition, your Steady Shot, Shoot and Headshot now restore %0.1f stamina on hit.]], [[Vous profitez des ennemis peu méfiants (ceux avec 90%% de vie ou plus). Contre ces cibles, Tirer, Tir Précis et Tir à la Tête font saigner les cibles pour %d%% dégâts physiques supplémentaires sur 5 tours et ont 50%% de chances supplémentaires de les marquer (si capable de marquer).
+De plus, Tirer, Tir Précis et Tir à la Tête restaurent désormais %0.1f d'Endurance au toucher.]], "tformat")
+t("Flare", "Fusée Éclairante", "talent name")
 t([[Fire a shot at the target tile that blinds enemies for %d turns, marks them for 2 turns and illuminates the area within radius %d for %d turns. Enemies within the illuminated area lose %d defence and stealth power and cannot benefit from concealment.
-		The status chance increases with your Accuracy, and the defense reduction with your Dexterity.]], [[Fire a shot at the target tile that blinds enemies for %d turns, marks them for 2 turns and illuminates the area within radius %d for %d turns. Enemies within the illuminated area lose %d defence and stealth power and cannot benefit from concealment.
-		The status chance increases with your Accuracy, and the defense reduction with your Dexterity.]], "tformat")
-t("Enter a state of heightened focus for %d turns. While in this state your ranged attack speed is increased by %d%%, your shots do not consume ammo, and all shots capable of marking have their chance to mark increased by %d%%.", "Enter a state of heightened focus for %d turns. While in this state your ranged attack speed is increased by %d%%, your shots do not consume ammo, and all shots capable of marking have their chance to mark increased by %d%%.", "tformat")
---]==]
-
+		The status chance increases with your Accuracy, and the defense reduction with your Dexterity.]], [[Tirez un coup sur la case cible pour aveugler les ennemis pendant %d tours, les marque pendant 2 tours, et illumine la zone dans un rayon de %d pendant %d tours. Les ennemis dans la zone illuminée perdent %d défense et de furtivité et ne peuvent pas bénéficier de la dissimulation.
+		La chance d'appliquer les effets est proportionnel à votre Précision, et la réduction de défense à votre Dextérité.]], "tformat")
+t("Trueshot", "Essence du Tir", "talent name")
+t("Enter a state of heightened focus for %d turns. While in this state your ranged attack speed is increased by %d%%, your shots do not consume ammo, and all shots capable of marking have their chance to mark increased by %d%%.", "Entrez dans un état de concentration accrue pendant %d tours. Dans cet état, votre vitesse d'attaque à distance est augmentée de %d%%, vos tirs ne consomment pas de munitions, et tous les tirs capables de marquer voient leur chance de marquer augmentée de %d%%.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/mobility.lua"
 
-t("Evasion", "Évasion", "talent name")
-t("damage", "dégât", "_t")
--- texte non traduit
---[==[
-t("You must be able to move to use %s!", "You must be able to move to use %s!", "logPlayer")
-t("%s is not usable while wearing heavy armour.", "%s is not usable while wearing heavy armour.", "logPlayer")
-t("Disengage", "Disengage", "talent name")
-t("You must disengage directly away from your target in a straight line.", "You must disengage directly away from your target in a straight line.", "logPlayer")
-t("You must land in an empty space.", "You must land in an empty space.", "logPlayer")
-t("Your Disengage was partially blocked.", "Your Disengage was partially blocked.", "logPlayer")
-t("You are not able to Disengage in that direction.", "You are not able to Disengage in that direction.", "logPlayer")
+t("You must be able to move to use %s!", "Vous devez pouvoir vous déplacer pour utiliser %s!", "logPlayer")
+t("%s is not usable while wearing heavy armour.", "%s ne peut pas être utilisé en portant une armure lourde.", "logPlayer")
+t("Disengage", "Désengagement", "talent name")
+t("You must disengage directly away from your target in a straight line.", "Vous devez vous désengager directement à l'opposé de votre cible en ligne droite.", "logPlayer")
+t("You must land in an empty space.", "Vous devez atterrir dans un espace vide.", "logPlayer")
+t("Your Disengage was partially blocked.", "Votre Désengagement a été partiellement bloqué.", "logPlayer")
+t("You are not able to Disengage in that direction.", "Vous n'êtes pas capable de vous Désengager dans cette direction.", "logPlayer")
 t([[Jump back up to %d grids from your target, springing over any creatures in your way. 
 		You must disengage in a nearly straight line directly away from your target (which you must be able to see).
 		After moving, you gain %d%% increased movement speed for 3 turns (which ends if you take any actions other than movement), and you may reload your ammo (if any).
-		The extra speed and maximum distance you can move are reduced by your Fatigue level.]], [[Jump back up to %d grids from your target, springing over any creatures in your way. 
-		You must disengage in a nearly straight line directly away from your target (which you must be able to see).
-		After moving, you gain %d%% increased movement speed for 3 turns (which ends if you take any actions other than movement), and you may reload your ammo (if any).
-		The extra speed and maximum distance you can move are reduced by your Fatigue level.]], "tformat")
+		The extra speed and maximum distance you can move are reduced by your Fatigue level.]], [[Sautez en arrière jusqu'à %d cases depuis votre cible, en bondissant par-dessus toute créature sur votre chemin.
+		Vous devez vous désengager en ligne presque droite directement à l'opposé de votre cible (que vous devez pouvoir voir).
+		Après vous être déplacé vous gagnez %d%% de vitesse de déplacement supplémentaire pendant 3 tours (qui prend fin si vous effectuez toute action autre que le déplacement), et vous pouvez recharger vos munitions (le cas échéant).
+		La vitesse supplémentaire et la distance maximale de déplacement sont réduites par votre niveau de Fatigue.]], "tformat")
+t("Evasion", "Évasion", "talent name")
 t([[Your quick wit and reflexes allow you to anticipate attacks against you, granting you a %d%% chance to evade melee and ranged attacks and %d increased defense for %d turns.
-		The chance to evade and defense bonus increase with your Dexterity.]], [[Your quick wit and reflexes allow you to anticipate attacks against you, granting you a %d%% chance to evade melee and ranged attacks and %d increased defense for %d turns.
-		The chance to evade and defense bonus increase with your Dexterity.]], "tformat")
-t("Tumble", "Tumble", "talent name")
-t("You must have an empty space to roll to.", "You must have an empty space to roll to.", "logPlayer")
+		The chance to evade and defense bonus increase with your Dexterity.]], [[Votre vivacité d'esprit et vos réflexes vous permettent d'anticiper les attaques contre vous, vous accordant %d%% de chance d'esquiver les attaques de mêlée et à distance, et %d défense supplémentaire pendant %d tours.
+		La chance d'esquiver et le bonus de défense sont propotionnels à votre Dextérité.]], "tformat")
+t("Tumble", "Roulade", "talent name")
+t("You must have an empty space to roll to.", "Vous devez avoir un espace vide vers lequel rouler.", "logPlayer")
 t([[In an extreme feat of agility, you move to a spot you can see within range, bounding around, over, or through any enemies in the way.
-		This talent cannot be used while wearing heavy armor, and leaves you exhausted.  The exhaustion increases the cost of your activated Mobility talents by %d%% (stacking), but fades over %d turns.]], [[In an extreme feat of agility, you move to a spot you can see within range, bounding around, over, or through any enemies in the way.
-		This talent cannot be used while wearing heavy armor, and leaves you exhausted.  The exhaustion increases the cost of your activated Mobility talents by %d%% (stacking), but fades over %d turns.]], "tformat")
-t("Trained Reactions", "Trained Reactions", "talent name")
-t("#FIREBRICK##Target# reacts to %s from #Source#, mitigating the blow!#LAST#.", "#FIREBRICK##Target# reacts to %s from #Source#, mitigating the blow!#LAST#.", "logCombat")
-t("an attack", "an attack", "_t")
-t(" #ffcc80#, -%d stam#LAST#", " #ffcc80#, -%d stam#LAST#", "tformat")
-t("%s(%d reacted#LAST#%s%s)#LAST#", "%s(%d reacted#LAST#%s%s)#LAST#", "tformat")
+		This talent cannot be used while wearing heavy armor, and leaves you exhausted.  The exhaustion increases the cost of your activated Mobility talents by %d%% (stacking), but fades over %d turns.]], [[Dans un exploit d'agilité extrême, vous vous déplacez vers un endroit en vue à portée, en bondissant autour, par-dessus ou à travers les ennemis sur votre chemin.
+		Ce talent ne peut pas être utilisé en portant une armure lourde et vous laisse épuisé. L'épuisement augmente le coût de vos talents de Mobilité activés de %d%% (cumulable), mais s'estompe sur %d tours.]], "tformat")
+t("Trained Reactions", "Réflexes Entraînés", "talent name")
+t("#FIREBRICK##Target# reacts to %s from #Source#, mitigating the blow!#LAST#.", "#FIREBRICK##Target# réagit au %s de #Source#, atténuant le coup!#LAST#.", "logCombat")
+t("an attack", "une attaque", "_t")
+t("damage", "dégâts", "_t")
+t(" #ffcc80#, -%d stam#LAST#", " #ffcc80#, -%d endu#LAST#", "tformat")
+t("%s(%d reacted#LAST#%s%s)#LAST#", "%s(%d réaction(s)#LAST#%s%s)#LAST#", "tformat")
 t([[You have trained to be very light on your feet and have conditioned your reflexes to react faster than thought to damage you take.
 		While this talent is active, you instantly react to any direct damage (not from status effects, etc.) that would hit you for at least %d%% of your maximum life.
 		This requires %0.1f stamina and reduces the damage by %d%%.
 		Your reactions are too slow for this if you are wearing heavy armour.
-		The damage reduction improves with your Defense.]], [[You have trained to be very light on your feet and have conditioned your reflexes to react faster than thought to damage you take.
-		While this talent is active, you instantly react to any direct damage (not from status effects, etc.) that would hit you for at least %d%% of your maximum life.
-		This requires %0.1f stamina and reduces the damage by %d%%.
-		Your reactions are too slow for this if you are wearing heavy armour.
-		The damage reduction improves with your Defense.]], "tformat")
---]==]
-
+		The damage reduction improves with your Defense.]], [[Vous vous êtes entraîné à être très agile et avez conditionné vos réflexes pour réagir plus vite que la pensée aux dégâts que vous subissez.
+		Tant que ce talent est actif, vous réagissez instantanément à tout dégât direct (pas aux effets de statut, etc.) qui vous frapperait pour au moins %d%% de votre vie maximale.
+		Cela nécessite %0.1f d'endurance et réduit les dégâts de %d%%.
+		Vos réactions sont trop lentes pour cela si vous portez une armure lourde.
+		La réduction de dégâts est proportionnel à votre Défense.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/munitions.lua"
@@ -29670,30 +29650,26 @@ t([[Lashes out at the target with three quick punches that each deal %d%% damage
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/reflexes.lua"
 
-t("Sentinel", "Sentinelle", "talent name")
-t("Escape", "Fuite", "talent name")
--- texte non traduit
---[==[
-t("Shoot Down", "Shoot Down", "talent name")
-t("#Source# shoots down '#Target#'!", "#Source# shoots down '#Target#'!", "logCombat")
+t("Shoot Down", "Abattre", "talent name")
+t("#Source# shoots down '#Target#'!", "#Source# abat '#Target#'!", "logCombat")
 t([[Your reflexes are lightning-fast, if you spot a projectile (arrow, shot, spell, ...) you can instantly shoot at it without taking a turn to take it down.
 		You can shoot down up to %d projectiles.
-		In addition, your heightened senses also reduce the speed of incoming projectiles by %d%%, and prevents your own projectiles from striking you.]], [[Your reflexes are lightning-fast, if you spot a projectile (arrow, shot, spell, ...) you can instantly shoot at it without taking a turn to take it down.
-		You can shoot down up to %d projectiles.
-		In addition, your heightened senses also reduce the speed of incoming projectiles by %d%%, and prevents your own projectiles from striking you.]], "tformat")
-t("Intuitive Shots", "Intuitive Shots", "talent name")
+		In addition, your heightened senses also reduce the speed of incoming projectiles by %d%%, and prevents your own projectiles from striking you.]], [[Vos réflexes sont fulgurants; si vous repérez un projectile (flèche, tir, sort...), vous pouvez instantanément tirer dessus sans prendre de tour pour l'abattre.
+		Vous pouvez abattre jusqu'à %d projectile(s).
+		De plus, vos sens aiguisés réduisent également la vitesse des projectiles ennemis de %d%% et empêchent vos propres projectiles de vous toucher.]], "tformat")
+t("Intuitive Shots", "Tirs Intuitifs", "talent name")
 t([[Activating this talent enhances your reflexes to incredible levels.  Each time you are attacked in melee, you have a %d%% chance to fire off a defensive shot off in time to intercept the attack, evading it and dealing %d%% archery damage.
-		This cannot damage the same target more than once per turn.]], [[Activating this talent enhances your reflexes to incredible levels.  Each time you are attacked in melee, you have a %d%% chance to fire off a defensive shot off in time to intercept the attack, evading it and dealing %d%% archery damage.
-		This cannot damage the same target more than once per turn.]], "tformat")
-t("%s's %s is disrupted by the shot!", "%s's %s is disrupted by the shot!", "logSeen")
+		This cannot damage the same target more than once per turn.]], [[L'activation de ce talent améliore vos réflexes à des niveaux incroyables. Chaque fois que vous êtes attaqué en mêlée vous avez %d%% de chance de déclencher un tir défensif à temps pour intercepter l'attaque, l'esquivant et infligeant %d%% dégâts d'archerie.
+		Cela ne peut pas infliger de dégâts à la même cible plus d'une fois par tour.]], "tformat")
+t("Sentinel", "Sentinelle", "talent name")
+t("%s's %s is disrupted by the shot!", "Le talent %s de %s est interrompu par le tir!", "logSeen")
 t([[You take close notice of the target for the next 5 turns. If they attempt to use a non-instant talent you react with incredible speed, firing a shot dealing 25%% damage that causes the talent to fail and go on cooldown.
-This shot is instant, cannot miss, and puts %d other talents on cooldown for %d turns.]], [[You take close notice of the target for the next 5 turns. If they attempt to use a non-instant talent you react with incredible speed, firing a shot dealing 25%% damage that causes the talent to fail and go on cooldown.
-This shot is instant, cannot miss, and puts %d other talents on cooldown for %d turns.]], "tformat")
+This shot is instant, cannot miss, and puts %d other talents on cooldown for %d turns.]], [[Vous surveillez attentivement la cible pendant 5 tours. Si elle tente d'utiliser un talent non instantané vous réagissez à une vitesse incroyable en tirant un tir infligeant 25%% de dégâts, faisant échouer le talent et le mettant en rechargement.
+Ce tir est instantané, ne peut pas rater et met %d autre(s) talent(s) en rechargement pendant %d tours.]], "tformat")
+t("Escape", "Fuite", "talent name")
 t([[You put all your focus into escaping combat for 4 turns. While under this effect you gain %d%% increased resistance to all damage, %0.1f increased stamina regeneration, immunity to stun, pin, daze and slowing effects and %d%% increased movement speed. 
-Any action other than movement will cancel this effect.]], [[You put all your focus into escaping combat for 4 turns. While under this effect you gain %d%% increased resistance to all damage, %0.1f increased stamina regeneration, immunity to stun, pin, daze and slowing effects and %d%% increased movement speed. 
-Any action other than movement will cancel this effect.]], "tformat")
---]==]
-
+Any action other than movement will cancel this effect.]], [[Vous concentrez tous vos efforts sur la fuite du combat pendant 4 tours. Sous cet effet vous gagnez %d%% de résistance à tout les dégâts, %0.1f de régénération d'endurance, une immunité à l'assomement, l'immobilisation, l'étourdissement, au ralentissement, ainsi que %d%% de vitesse de déplacement.
+Toute action autre que le déplacement annulera cet effet.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/skirmisher-slings.lua"
@@ -29746,35 +29722,31 @@ t("You fire an average of %0.1f shots at your target, doing %d%% damage with eac
 section "mod-tome/data/talents/techniques/sniper.lua"
 
 t("Concealment", "Dissimulation", "talent name")
-t("Snipe", "Sniper", "talent name")
--- texte non traduit
---[==[
-t("You are being observed too closely to enter Concealment!", "You are being observed too closely to enter Concealment!", "logPlayer")
+t("You are being observed too closely to enter Concealment!", "Vous êtes observé de trop près pour entrer en Dissimulation!", "logPlayer")
 t([[Enter a concealed sniping stance, increasing your weapon's attack range and vision range by %d, giving all incoming damage a %d%% chance to miss you, and causing your Headshot, Volley and Called Shots to behave as if the target was marked.
 Any non-instant, non-movement action will break concealment, but the increased range and vision and damage avoidance will persist for 3 turns, with the damage avoidance decreasing in power by 33%% each turn.
-This requires a bow to use, and cannot be used if there are foes in sight within range %d.]], [[Enter a concealed sniping stance, increasing your weapon's attack range and vision range by %d, giving all incoming damage a %d%% chance to miss you, and causing your Headshot, Volley and Called Shots to behave as if the target was marked.
-Any non-instant, non-movement action will break concealment, but the increased range and vision and damage avoidance will persist for 3 turns, with the damage avoidance decreasing in power by 33%% each turn.
-This requires a bow to use, and cannot be used if there are foes in sight within range %d.]], "tformat")
-t("Shadow Shot", "Shadow Shot", "talent name")
+This requires a bow to use, and cannot be used if there are foes in sight within range %d.]], [[Adoptez une posture de tireur d'élite dissimulé, augmentant la portée d'attaque et de vision de votre arme de %d, donnant à tous les dégâts entrants %d%% de chance de vous rater, et faisant en sorte que Tir à la Tête, Volée et Tirs Ciblés se comportent comme si la cible était marquée.
+Toute action non instantanée et non liée au déplacement brisera la Dissimulation, mais l'augmentation de portée, de vision et l'esquive de dégâts persisteront pendant 3 tours, la puissance d'esquive diminuant de 33%% chaque tour.
+Nécessite un arc et ne peut pas être utilisé si des ennemis sont en vue dans un rayon de %d.]], "tformat")
+t("Shadow Shot", "Tir Fumigène", "talent name")
 t([[Fire an arrow tipped with a smoke bomb inflicting %d%% damage and creating a radius %d cloud of thick, disorientating smoke. Those caught within will have their vision range reduced by %d for 5 turns.
 The distraction caused by this effect reduces the cooldown of your Concealment by %d turns. If the cooldown is reduced to 0, you instantly activate Concealment regardless of whether foes are too close.
-The chance for the smoke bomb to affect your targets increases with your Accuracy. This requires a bow to use.]], [[Fire an arrow tipped with a smoke bomb inflicting %d%% damage and creating a radius %d cloud of thick, disorientating smoke. Those caught within will have their vision range reduced by %d for 5 turns.
-The distraction caused by this effect reduces the cooldown of your Concealment by %d turns. If the cooldown is reduced to 0, you instantly activate Concealment regardless of whether foes are too close.
-The chance for the smoke bomb to affect your targets increases with your Accuracy. This requires a bow to use.]], "tformat")
-t("Aim", "Aim", "talent name")
+The chance for the smoke bomb to affect your targets increases with your Accuracy. This requires a bow to use.]], [[Tirez une flèche équipée d'une bombe fumigène infligeant %d%% dégâts et créant un nuage de fumée épaisse et désorientante de rayon %d. Ceux pris dedans verront leur portée de vision réduite de %d pendant 5 tours.
+La distraction causée par cet effet réduit le rechargement de votre Dissimulation de %d tours. Si le rechargement est réduit à 0, vous activez instantanément la Dissimulation, quelle que soit la proximité des ennemis.
+La chance que la bombe fumigène affecte vos cibles est proportionnel à votre Précision. Nécessite un arc.]], "tformat")
+t("Aim", "Visée", "talent name")
 t([[Enter a calm, focused stance, increasing physical power and accuracy by %d, projectile speed by %d%% and the chance to mark targets by an additional %d%%.
 This makes your shots more effective at range, increasing all damage dealt by %0.1f%% per tile travelled beyond 3, to a maximum of %0.1f%% damage at range 8.
-The physical power and accuracy increase with your Dexterity. This requires a bow to use.]], [[Enter a calm, focused stance, increasing physical power and accuracy by %d, projectile speed by %d%% and the chance to mark targets by an additional %d%%.
-This makes your shots more effective at range, increasing all damage dealt by %0.1f%% per tile travelled beyond 3, to a maximum of %0.1f%% damage at range 8.
-The physical power and accuracy increase with your Dexterity. This requires a bow to use.]], "tformat")
+The physical power and accuracy increase with your Dexterity. This requires a bow to use.]], [[Adoptez une posture calme et concentrée, augmentant la puissance physique et la précision de %d, la vitesse des projectiles de %d%% et la chance de marquer les cibles de %d%% supplémentaire.
+Cela rend vos tirs plus efficaces à distance, augmentant tous les dégâts infligés de %0.1f%% par case parcourue au-delà de 3, jusqu'à un maximum de %0.1f%% dégâts à portée 8.
+La puissance physique et la précision sont proportionnels à votre Dextérité. Nécessite un arc.]], "tformat")
+t("Snipe", "Tir de Précision", "talent name")
 t([[Take aim for 1 turn, preparing a deadly shot. During the next turn, this talent will be replaced with the ability to fire a lethal shot dealing %d%% damage and marking the target.
 While aiming, your intense focus causes you to shrug off %d%% incoming damage and all negative effects.
-This requires a bow to use.]], [[Take aim for 1 turn, preparing a deadly shot. During the next turn, this talent will be replaced with the ability to fire a lethal shot dealing %d%% damage and marking the target.
-While aiming, your intense focus causes you to shrug off %d%% incoming damage and all negative effects.
-This requires a bow to use.]], "tformat")
-t("Fire a lethal shot. This shot will bypass other enemies between you and your target, and gains 100 increased accuracy.", "Fire a lethal shot. This shot will bypass other enemies between you and your target, and gains 100 increased accuracy.", "tformat")
---]==]
-
+This requires a bow to use.]], [[Visez pendant 1 tour, préparant un tir mortel. Au tour suivant, ce talent sera remplacé par la possibilité de tirer un coup léthal infligeant %d%% dégâts et marquant la cible.
+Pendant la visée, votre concentration intense vous permet d'ignorer %d%% des dégâts entrants et tous les effets négatifs.
+Nécessite un arc.]], "tformat")
+t("Fire a lethal shot. This shot will bypass other enemies between you and your target, and gains 100 increased accuracy.", "irez un coup léthal. Ce tir contourne les autres ennemis entre vous et votre cible, et gagne 100 de précision supplémentaire.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/strength-of-the-berserker.lua"
@@ -34238,7 +34210,7 @@ t("+Rigor Mortis", "+Rigidité Cadavérique", "_t")
 t("#Target# is freed from the rigor mortis.", "#Target# est libéré de la rigidité cadavérique.", "_t")
 t("-Rigor Mortis", "-Rigidité Cadavérique", "_t")
 t("Death Rush", "Ruée Mortelle", "_t")
-t("Movement speed increased by %d%%.", "La vitesse de mouvement est augmenté de %d%%.", "tformat")
+t("Movement speed increased by %d%%.", "La vitesse de déplacement est augmenté de %d%%.", "tformat")
 t("#Target# is invogorated by death!", "#Target# est revigoré par la mort !", "_t")
 t("#Target# is less fast.", "#Target# est moins rapide.", "_t")
 t("Abyssal Shroud", "Lisière Abyssale", "_t")
@@ -35367,7 +35339,7 @@ t("All damage increased by %d%%", "Tous les dégâts augmentent de %d%%", "tform
 t("Elemental Surge: Cold", "Surcharge Elémentaire: Froid", "_t")
 t("Armor increased by %d, deals %d ice damage when hit in melee.", "Armure augmentée de %d, inflige %d dégâts de glace lorsque touché en mêlée.", "tformat")
 t("Elemental Surge: Lightning", "Elemental Surge: Foudre", "_t")
-t("Movement speed increased by %d%%.", "La vitesse de mouvement est augmenté de %d%%.", "tformat")
+t("Movement speed increased by %d%%.", "La vitesse de déplacement est augmenté de %d%%.", "tformat")
 t("Elemental Surge: Light", "Surcharge Elémentaire: Lumière", "_t")
 t("All talent cooldowns reduced by %d%%.", "Tous les temps de recharge de talent sont réduits de %d%%.", "tformat")
 t("circle", "cercle", "effect subtype")
@@ -35800,7 +35772,7 @@ t("Marked", "Marqué", "_t")
 t("Target is marked, leaving them vulnerable to marked shots.", "La cible est marquée, ce qui la rend vulnérable aux tirs ciblés.", "tformat")
 t("+Marked!", "+Marqué!", "_t")
 t("-Marked", "-Marqué", "_t")
-t("Flare", "Eclat", "_t")
+t("Flare", "Fusée Éclairante", "_t")
 t("The target is lit up by a flare, reducing its stealth and invisibility power by %d, defense by %d and removing all evasion bonus from being unseen.", "La cible est éclairée par une fusée éclairante, ce qui réduit sa capacité de dissimulation et d'invisibilité de %d, sa défense de %d et supprime tout bonus d'esquive lié à son invisibilité.", "tformat")
 t("Pinned Down", "Cloué au Sol", "_t")
 t("The next Steady Shot or Shoot has 100%% chance to be a critical hit and mark.", "Le prochain Tir précis ou Tir a 100%% de chances d'être un coup critique et de marquer la cible.", "tformat")
@@ -40736,7 +40708,7 @@ t("Range: ", "Portée: ", "_t")
 t("melee/personal", "melée/personnelle", "_t")
 t("%sCooldown: ", "%sTemps de recharge: ", "tformat")
 t("Fixed ", "Fixé ", "_t")
-t("Travel Speed: ", "Propagation: ", "_t")
+t("Travel Speed: ", "Vitesse de Mouvement: ", "_t")
 t("%d%% of base", "%d%% de base", "tformat")
 t("instantaneous", "instantané", "_t")
 t("Full Turn", "Tours Complet", "_t")
@@ -41215,7 +41187,7 @@ t("#YELLOW#On weapon kill:#LAST#", "#YELLOW#Quand l'arme tue:#LAST#", "_t")
 t("When used from stealth a simple attack with it will not break stealth.", "Quand utilisée depuis le mode furtif, une simple attaque ne brisera pas la furtivité.", "_t")
 t("Crushing Blows: ", "Coup Dévastateur: ", "_t")
 t("Damage dealt by this weapon is increased by half your critical multiplier, if doing so would kill the target.", "Les dégâts infligés par cette arme sont augmentés de la moitié de votre multiplicateur critique dans le cas où cela tue la cible.", "_t")
-t("Travel speed: ", "Propagation: ", "_t")
+t("Travel speed: ", "Vitesse de Mouvement: ", "_t")
 t("Damage Shield penetration (this weapon only): ", "Péné de bouclier protecteur (seulement cette arme): ", "_t")
 t("Lifesteal (this weapon only): ", "Vol de vie (cette arme uniquement): ", "_t")
 t("Multiple attacks: ", "Attaques multiples: ", "_t")
@@ -41355,7 +41327,7 @@ t("See stealth: ", "Voir la furtivité: ", "_t")
 t("See invisible: ", "Voir l'invisible: ", "_t")
 t("Invisibility: ", "Invisibilité: ", "_t")
 t("Global speed: ", "Vitesse globale: ", "_t")
-t("Movement speed: ", "Vitesse de mouvement: ", "_t")
+t("Movement speed: ", "Vitesse de déplacement: ", "_t")
 t("Combat speed: ", "Vitesse de combat: ", "_t")
 t("Casting speed: ", "Vitesse d'incantation: ", "_t")
 t("Mental speed: ", "Vitesse mental: ", "_t")
@@ -41424,9 +41396,9 @@ t("Latent Damage Type: ", "Type de dégât latent: ", "_t")
 t("When inscribed on your body:", "Quand inscrit sur votre corps:", "_t")
 t("Talent level: %+d %s.", "Niveau de talent: %+d %s.", "tformat")
 t("Talent level: %s.", "Niveau de talent: %s.", "tformat")
-t("Talent on hit(spell): %s (%d%% chance level %d).", "Talent sur touche(sort): %s (%d%% chance niveau %d).", "tformat")
-t("Talent on hit(nature): %s (%d%% chance level %d).", "Talent sur touche(nature): %s (%d%% chance niveau %d).", "tformat")
-t("Talent on hit(mindpower): %s (%d%% chance level %d).", "Talent sur touche(mental): %s (%d%% chance niveau %d).", "tformat")
+t("Talent on hit(spell): %s (%d%% chance level %d).", "Talent au toucher(sort): %s (%d%% chance niveau %d).", "tformat")
+t("Talent on hit(nature): %s (%d%% chance level %d).", "Talent au toucher(nature): %s (%d%% chance niveau %d).", "tformat")
+t("Talent on hit(mindpower): %s (%d%% chance level %d).", "Talent au toucher(mental): %s (%d%% chance niveau %d).", "tformat")
 t("Activating this item is instant.", "L'activation de cet objet est instantanné", "_t")
 t("It can be used to %s, with %d charges out of %d.", "Peut être utilisé en %s, avec %d charges sur %d.", "tformat")
 t("all charms", "toutes les breloques", "_t")
@@ -42187,7 +42159,7 @@ t([[#GOLD#Movement Speed#LAST#
 How quickly you move compared to normal.
 Higher is faster, so 200% means that you move twice as fast as normal.
 Minimum:  40%
-]], [[#GOLD#Vitesse de Mouvement#LAST#
+]], [[#GOLD#Vitesse de Déplacement#LAST#
 Votre vitesse de déplacement par rapport à la normale.
 Plus la valeur est élevée, plus vous vous déplacez vite. Par exemple, 200% signifie que vous vous déplacez deux fois plus vite que la normale.
 Minimum : 40%
@@ -43179,7 +43151,7 @@ t("Current Feedback gain is %0.1f%% of damage taken.", "Gain de Rétroaction act
 t("#7fffd4#Feedback: #00ff00#%d/%s", "#7fffd4#Rétroaction: #00ff00#%d/%s", "tformat")
 t("#LIGHT_BLUE#Speeds:", "#LIGHT_BLUE#Vitesses:", "_t")
 t("Global speed  : #00ff00#%s", "Vit globale         : #00ff00#%s", "tformat")
-t("Movement speed: #00ff00#%s", "Vit de mouvement    : #00ff00#%s", "tformat")
+t("Movement speed: #00ff00#%s", "Vit de déplacement  : #00ff00#%s", "tformat")
 t("Spell speed   : #00ff00#%s", "Vit de sort         : #00ff00#%s", "tformat")
 t("Attack speed  : #00ff00#%s", "Vit d'attaque       : #00ff00#%s", "tformat")
 t("Mental speed  : #00ff00#%s", "Vit mentale         : #00ff00#%s", "tformat")
@@ -44967,7 +44939,7 @@ t("Rumours tell of a shadowy cult kidnapping women and performing strange rites.
 t("Though slavery is illegal there is still a black market for it, and in some areas men are even used for blood sports.", "Bien que l'esclavage soit illégal il existe toujours un marché noir pour ce type d'activité, et dans certaines régions, les hommes sont même utilisés dans des combats sanglants.", "init.lua load_tips")
 t("Maj'Eyal is the biggest continent in the world of Eyal. Though records suggest other continents and islands may exist it has not been possible to cross the wide and stormy oceans since the Spellblaze and the Cataclysm.", "Maj'Eyal est le plus grand continent du monde d'Eyal. Bien que les archives suggèrent que d'autres continents et îles puissent exister, il n'a pas été possible de traverser les océans larges et tumultueux depuis la Brûlure magique et le Cataclysme.", "init.lua load_tips")
 t("The effects of the Spellblaze were not all instant, and many centuries later the Cataclysm tore the continent apart once more, devastating coastal areas the destroying all of the Naloren lands.", "Les effets de la Brûlure magique n'ont pas été instantanés, et plusieurs siècles plus tard, le cataclysme a déchiré le continent une fois de plus, dévastant les zones côtières et détruisant toutes les terres de Nalore.", "init.lua load_tips")
-t("Archers are fast and deadly, and with pinning shots can render their foes helpless as they swiftly dispatch them.", "Les archers sont rapides et mortels, et avec des tirs de précision, ils peuvent rendre leurs ennemis impuissants alors qu'ils les expédient rapidement.", "init.lua load_tips")
+t("Archers are fast and deadly, and with pinning shots can render their foes helpless as they swiftly dispatch them.", "Les archers sont rapides et mortels, et avec des tirs immobilisant, ils peuvent rendre leurs ennemis impuissants alors qu'ils les expédient rapidement.", "init.lua load_tips")
 t("Reavers are powerful fighters with corrupted blood, and the strength to wield a one-handed weapon in each arm.", "Les Moissonneurs sont de puissant combattants au sang corrompu, et qui ont la force de manier une arme à une main dans chaque main.", "init.lua load_tips")
 t("Corruptors feed off the essence of others, and can use their own corrupted blood to launch deadly magical attacks.", "Les Corrupteurs se nourrissent de l'essence des autres et peuvent utiliser leur propre sang corrompu pour lancer de mortelles attaques magiques.", "init.lua load_tips")
 t("Clever rogues can lay traps to damage or debilitate their foes without having to go near them.", "Les brigands astucieux peuvent poser des pièges pour endommager ou affaiblir leurs ennemis sans avoir à s'en approcher.", "init.lua load_tips")
