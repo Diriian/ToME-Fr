@@ -35,7 +35,7 @@ t("Donated more than 60 euros to Tales of Maj'Eyal.", "Donner plus de 60 euros �
 ------------------------------------------------
 section "mod-tome/data/achievements/events.lua"
 
-t("The sky is falling!", "Le ciel est tombé!", "achievement name")
+t("The sky is falling!", "Le ciel est tombé !", "achievement name")
 t("Saw a huge meteor falling from the sky.", "Avoir vu une grosse météorite tomber du ciel.", "_t")
 t("Demonic Invasion", "Invasion Démoniaque", "achievement name")
 t("Stopped a demonic invasion by closing their portal.", "Avoir stoppé une invasion démoniaque en fermant leur portail.", "_t")
@@ -48,7 +48,7 @@ t("Killed the terrible Rat Lich.", "Tuer cet horrible Rat Liche.", "_t")
 t("Killed Shasshhiy'Kaish after letting her grow as powerful as possible.", "Tuer Shasshhiy'Kaish après l'avoir laissée devenir aussi puissante que possible.", "_t")
 t("Bringer of Doom", "Avatar de la Ruine", "achievement name")
 t("Killed a Bringer of Doom.", "Tuer un Avatar de la Ruine.", "_t")
-t("A living one!", "Un vivant!", "achievement name")
+t("A living one!", "Un vivant !", "achievement name")
 t("Was teleported into Caldizar's Fortress, far into the void between the stars.", "A été téléporté dans la forteresse de Caldizar, loin dans le vide entre les étoiles.", "_t")
 t("Have 100 walls on the sludgenest turn into hostile creatures.", "Avoir 100 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
 t("Slime killer party", "Foire au massacre de vaseux", "achievement name")
@@ -125,9 +125,9 @@ t("Size matters", "La taille compte", "achievement name")
 t("Did over 600 damage in one attack.", "Faire plus de 600 dégâts en une attaque.", "_t")
 t("Size is everything", "La taille est tout", "achievement name")
 t("Did over 1500 damage in one attack.", "Faire plus de 1500 dégâts en une attaque.", "_t")
-t("The bigger the better!", "Plus c'est gros, mieux c'est!", "achievement name")
+t("The bigger the better!", "Plus c'est gros, mieux c'est !", "achievement name")
 t("Did over 3000 damage in one attack.", "Faire plus de 3000 dégâts en une attaque.", "_t")
-t("Overpowered!", "Surpuissant!", "achievement name")
+t("Overpowered!", "Surpuissant !", "achievement name")
 t("Did over 6000 damage in one attack.", "Faire plus de 6000 dégâts en une attaque.", "_t")
 t("Exterminator", "Extermination", "achievement name")
 t("Killed 1000 creatures.", "Tuer plus de 1000 créatures.", "_t")
@@ -143,15 +143,16 @@ t("Guiding Hand", "La main qui guide", "achievement name")
 t("Saved all escorted adventurers.", "Sauver tous les aventuriers escortés.", "_t")
 t("Earth Master", "Maître de la terre", "achievement name")
 t("Killed Harkor'Zun.", "Tuer Harkor'Zun.", "_t")
-t("Kill Bill!", "Tuer Bill!", "achievement name")
+t("Kill Bill!", "Tuer Bill !", "achievement name")
 t("Killed Bill in the Trollmire without leveling beyond your starting level.", "Tuer Bill dans le Bourbier Troll sans aller au-delà de votre niveau de départ.", "_t")
+t("Atamathoned!", "Atamathoned !", "achievement name")
 t("Killed the giant golem Atamathon after foolishly reactivating it.", "Vous avez tué le golem géant Atamathon après l'avoir stupidement réactivé.", "_t")
 t("Huge Appetite", "Énorme appétit", "achievement name")
 t("Ate 20 bosses.", "Manger 20 boss.", "_t")
 t("Headbanged 20 bosses to death.", "Headbanged 20 boss à  mort.", "_t")
-t("Are you out of your mind?!", "t'as perdu la tête?!", "achievement name")
+t("Are you out of your mind?!", "t'as perdu la tête ?!", "achievement name")
 t("Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "Attirer l'attention de vieux vers multicolores surpuissants dans l'armurerie Vor. Peut-être que fuir est de mise.", "_t")
-t("I cleared the room of death and all I got was this lousy achievement!", "J'ai vidé la salle de la mort et tout ce que j'ai obtenu, c'est ce succès moche!", "achievement name")
+t("I cleared the room of death and all I got was this lousy achievement!", "J'ai vidé la salle de la mort et tout ce que j'ai obtenu, c'est ce succès moche !", "achievement name")
 t("Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.", "Vous avez tué les sept vers surpuissants dans la \"salle de la mort\" de l'armurerie Vor.", "_t")
 t("I'm a cool hero", "Je suis un héros cool", "achievement name")
 t("Saved Derth without a single inhabitant dying.", "Sauver Derth sans qu'un seul habitant ne meure.", "_t")
@@ -173,7 +174,6 @@ t("I meant to do that...", "Je voulais faire ça...", "achievement name")
 t("Avoid death 50 times with a life-saving talent.", "Évitez la mort 50 fois avec un talent qui sauve la vie.", "_t")
 -- texte non traduit
 --[==[
-t("Atamathoned!", "Atamathoned!", "achievement name")
 t("Headbanger", "Headbanger", "achievement name")
 --]==]
 
@@ -205,12 +205,12 @@ t("Unstoppable", "Inarrêtable", "achievement name")
 t("Returned from the dead.", "Revenir d'entre les morts.", "_t")
 t("Utterly Destroyed", "Complètement détruit", "achievement name")
 t("Died on the Eidolon Plane.", "Mourir dans le plan de l'Eidolon.", "_t")
-t("Fool of a Took!", "Espèce de crétin!", "achievement name")
+t("Fool of a Took!", "Espèce de crétin !", "achievement name")
 t("Killed oneself as a halfling.", "Se suicider en tant que halfelin.", "_t")
 t("Had the golem kill a boss while its master was already dead.", "Le golem doit tuer un boss alors que son maître est déjà mort.", "_t")
 t("Take you with me", "T'emmener avec moi", "achievement name")
 t("Killed a boss while already dead.", "Tuer un boss alors qu'il était déjà mort.", "_t")
-t("Look at me, I'm playing a roguelike!", "Regardez-moi, je joue à un roguelike!", "achievement name")
+t("Look at me, I'm playing a roguelike!", "Regardez-moi, je joue à un roguelike !", "achievement name")
 t("Linked yourself in the in-game chat.", "Se connecter dans le chat du jeu.", "_t")
 t("Fear me not!", "Ne me craignez pas !", "achievement name")
 t("Survived the Fearscape!", "J'ai survécu au Plan de la peur !", "_t")
@@ -254,7 +254,7 @@ t("Selfless", "Désintéressé", "achievement name")
 t("Won ToME by closing the Void portal using yourself as a sacrifice.", "Gagner ToME en fermant le portail du Vide en vous sacrifiant.", "_t")
 t("Triumph of the Way", "Triomphe de la Voie", "achievement name")
 t("Won ToME by sacrificing yourself to forcefully spread the Way to every other sentient being on Eyal.", "Gagner ToME en vous sacrifiant pour diffuser avec force la Voie à tous les autres êtres conscient sur Eyal.", "_t")
-t("No Way!", "Certainement pas!", "achievement name")
+t("No Way!", "Certainement pas !", "achievement name")
 t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the Way to enslave every sentient being on Eyal.", "Gagner ToME en fermant le portail du Vide et en vous laissant tuer par Aeryn pour empêcher la Voie d'asservir chaque être conscient sur Eyal.", "_t")
 t("This is how the world ends: swallowed in fire, but not in darkness.", "C'est ainsi que le monde finit : englouti dans le feu, mais pas dans les ténèbres.", "achievement name")
 t("\"Won\" ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.", "\"Gagner\" ToME en vous sacrifiant vous même pour votre patron Soleil Lointain, ouvrant un portail pour qu'il brûle et consume le monde.", "_t")
@@ -274,9 +274,9 @@ t("Portal master", "Maître des portails", "achievement name")
 t("Fought the two Sorcerers and closed four invocation portals.", "Combattre les deux sorciers et fermez quatre portails d'invocation.", "_t")
 t("Never Look Back And There Again", "Toujours là, ne jamais regarder en arrière", "achievement name")
 t("Win the game without ever setting foot on Maj'Eyal.", "Gagner la partie sans jamais retourner en Maj'Eyal.", "_t")
-t("Bikining along!", "En bikini!", "achievement name")
+t("Bikining along!", "En bikini !", "achievement name")
 t("Won the game without ever taking off her bikini.", "A gagner la partie sans jamais enlever son bikini.", "_t")
-t("Mankining it happen!", "Le mankini, ça arrive!", "achievement name")
+t("Mankining it happen!", "Le mankini, ça arrive !", "achievement name")
 t("Won the game without ever taking off his mankini.", "Gagner la partie sans jamais enlever son mankini.", "_t")
 t("Rescuer of the lost", "Sauveteur des perdus", "achievement name")
 t("Rescued the merchant from the assassin lord.", "Sauver le marchand du seigneur assassin.", "_t")
@@ -296,9 +296,9 @@ t("Fast Curse Dispel", "Dissipation rapide de la malédiction", "achievement nam
 t("Killed Ben Cruthdar the Cursed while saving all the lumberjacks.", "Tuer Ben Cruthdar le Maudit en sauvant tous les bûcherons.", "_t")
 t("Eye of the storm", "L'oeil du cyclone", "achievement name")
 t("Freed Derth from the onslaught of the mad Tempest, Urkis.", "Libérer Derth de l'assaut du tempêtier fou, Urkis.", "_t")
-t("Antimagic!", "anti-magie!", "achievement name")
+t("Antimagic!", "anti-magie !", "achievement name")
 t("Completed antimagic training in the Ziguranth camp.", "Terminer l'entraînement anti-magique dans le camp de Ziguranth.", "_t")
-t("Anti-Antimagic!", "Anti-anti-magie!", "achievement name")
+t("Anti-Antimagic!", "Anti-anti-magie !", "achievement name")
 t("Destroyed the Ziguranth camp with your Rhaloren allies.", "Détruire le camp de Ziguranth avec vos alliés de Rhaloren.", "_t")
 t("There and back again", "Aller-retour", "achievement name")
 t("Opened a portal to Maj'Eyal from the Far East.", "Ouvrir un portail vers Maj'Eyal depuis l'Extrême Orient.", "_t")
@@ -327,8 +327,8 @@ t("Used the Sher'Tul fortress exploratory farportal at least 7 times with the sa
 t("Orbituary", "Nécrologie", "achievement name")
 t("Stabilized the Abashed Expanse to maintain it in orbit.", "Stabiliser l'Étendue Ébranlée pour la maintenir en orbite.", "_t")
 t("Killed the weaver queen and the temporal defiler.", "Tuer la reine tisserande et le profanateur temporel.", "_t")
-t("Matrix style!", "Style Matrix!", "achievement name")
-t("Finished the whole Abashed Expanse zone without being hit by a single void blast or manaworm. Dodging's fun!", "Terminer toute la zone de l'Étendue Ébranlée sans être touché par une seule explosion du Vide ou un ver de mana. Esquiver est amusant!", "_t")
+t("Matrix style!", "Style Matrix !", "achievement name")
+t("Finished the whole Abashed Expanse zone without being hit by a single void blast or manaworm. Dodging's fun!", "Terminer toute la zone de l'Étendue Ébranlée sans être touché par une seule explosion du Vide ou un ver de mana. Esquiver est amusant !", "_t")
 t("The Right thing to do", "La bonne chose à faire", "achievement name")
 t("Did the righteous thing in the ring of blood and disposed of the Blood Master.", "Faire la chose juste dans l'anneau de sang et éliminer le Maître du Sang.", "_t")
 t("Thralless", "Sans esclave", "achievement name")
@@ -356,8 +356,8 @@ t("Unlocked Archmage class and did over one million fire damage (with any item/t
 t("Cryomancer", "Cryomancien", "achievement name")
 t("Unlocked Archmage class and did over one million cold damage (with any item/talent/class).", "Débloquez la classe Archimage et infligez plus d'un million de dégâts de froid (avec n'importe quel objet/talent/classe).", "_t")
 t("Lichform", "Forme de Liche", "achievement name")
-t("Achieved your wild dreams of power and eternal life: you turned into a Lich!", "Réaliser ses rêves fous de pouvoir et de vie éternelle: tu es devenu une Liche!", "_t")
-t("Best album ever!", "Meilleur album de tous les temps!", "achievement name")
+t("Achieved your wild dreams of power and eternal life: you turned into a Lich!", "Réaliser ses rêves fous de pouvoir et de vie éternelle: tu es devenu une Liche !", "_t")
+t("Best album ever!", "Meilleur album de tous les temps !", "achievement name")
 t("Removed 89 beneficial effects from enemies via Disintegration.", "Supprimmer 89 effets bénéfiques des ennemis via la désintégration.", "_t")
 
 ------------------------------------------------
@@ -584,7 +584,7 @@ t("Their most important stats are: Dexterity, Cunning and Magic", "Leurs stats l
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +3 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +3 Magie, +0 Volonté, +3 Ruse", "_t")
 t("Marauder", "Maraudeur", "birth descriptor name")
-t("I will not hide and I will not sneak - come dance with my blades and we'll see who's weak. Snapping bone and cracking skull, it's the sounds of battle that make life full!", "Je ne vais pas me cacher ou me défiler - vient danser avec mes lames et nous verrons ta faiblesse. Os cassés et crâne fissuré, c'est le son de la bataille qui donne à la vie sa richesse!", "_t")
+t("I will not hide and I will not sneak - come dance with my blades and we'll see who's weak. Snapping bone and cracking skull, it's the sounds of battle that make life full!", "Je ne vais pas me cacher ou me défiler - vient danser avec mes lames et nous verrons ta faiblesse. Os cassés et crâne fissuré, c'est le son de la bataille qui donne à la vie sa richesse !", "_t")
 t("The wilds of Maj'Eyal are not a safe place. Untamed beasts and wandering dragons may seem a great threat, but the true perils walk on two legs. Thieves and brigands, assassins and opportunistic adventurers, even mad wizards and magic-hating zealots all carry danger to those who venture beyond the safety of city walls.", "Les contrées sauvages de Maj'Eyal ne sont pas sûres. Des bêtes sauvages et des dragons errants peuvent sembler très menaçants, mais le vrai danger marche sur deux jambes. Voleurs et brigands, assassins et aventuriers opportunistes, sorciers fou et fanatiques haïssant la magie représentent tous un danger pour ceux qui s'aventurent hors de la sécurité des murs de la ville.", "_t")
 t("Amidst this chaos wanders one class of rogue that has learned to take by force rather than subterfuge. With refined techniques, agile feats and brawn-backed blades the Marauder seeks out his targets and removes them by the most direct methods. He uses dual weapons backed by advanced combat training to become highly effective in battle, and he is unafraid to use the dirtiest tactics when the odds are against him.", "Au beau milieu de ce chaos reste une classe de brigand qui a appris à prendre par la force plutôt qu'à base de subterfuges. Avec des techniques raffinées, le pied agile et des lames bien trempées le maraudeur traque ses cibles et les supprime par les méthodes les plus directes. Il utilise deux armes tout en comptant sur son entrainement au combat avancé pour devenir très efficace dans les batailles, et il n'a pas peur d'employer les méthodes les plus viles quand le sort est contre lui.", "_t")
 t("Their most important stats are: Strength, Dexterity and Cunning", "Leurs stats les plus importantes sont: Force, Dextérité et Ruse", "_t")
@@ -732,9 +732,9 @@ t("Rare creatures are slightly more frequent", "Les créatures rares sont légè
 t("Stairs can not be used for 3 turns after a kill.", "Les escaliers ne peuvent pas être utilisés pendant 3 tours après avoir tué.", "_t")
 t("Player can earn Nightmare version of achievements if also playing in Roguelike or Adventure permadeath mode.", "Le joueur peut obtenir la version cauchemar des succès si il joue également en mode Roguelike ou Aventure.", "_t")
 t("Insane", "Insensé", "birth descriptor name")
-t("Easy is for the weak! Normal is for the weak! Nightmare is too easy! Bring on the true pain!", "Très facile c'est pour les faibles! Normal c'est pour les faibles! Cauchemar est trop facile! Envoyez la vrai difficulté!", "_t")
+t("Easy is for the weak! Normal is for the weak! Nightmare is too easy! Bring on the true pain!", "Très facile c'est pour les faibles ! Normal c'est pour les faibles ! Cauchemar est trop facile ! Envoyez la vrai difficulté !", "_t")
 t("#GOLD##{bold}#Insane mode#WHITE##{normal}#", "#GOLD##{bold}#Mode insensé#WHITE##{normal}#", "_t")
-t("Similar rules to Nightmare, but with more random bosses!", "Règles similaire au mode cauchemar, mais avec des boss aléatoires!", "_t")
+t("Similar rules to Nightmare, but with more random bosses!", "Règles similaire au mode cauchemar, mais avec des boss aléatoires !", "_t")
 t("All zone levels increased by 50% + 1 by the time Player reaches level 10", "Le niveau de toutes les zones est augmenté de 50% + 1 à partir du moment où le joueur atteint le niveau 10", "_t")
 t("All creature talent levels increased by 70%", "Le niveau des talents de toutes les créatures est augmenté de 70%", "_t")
 t("Unique (fixed) bosses advance in bonus classes 70% faster", "Les classes bonus des boss uniques (fixes) sont 70% plus puissantes", "_t")
@@ -742,16 +742,16 @@ t("Rare creatures are far more frequent and random bosses start to appear", "Les
 t("Stairs can not be used for 5 turns after a kill.", "Les escaliers ne peuvent pas être utilisés pendant 5 tours après avoir tué.", "_t")
 t("Player can earn Insane version of achievements if also playing in Roguelike or Adventure permadeath mode.", "Le joueur peut obtenir la version insensé des succès si il joue également en mode Roguelike ou Aventure.", "_t")
 t("Madness", "Folie", "birth descriptor name")
-t("Insane is for the weak! Bring on the true mind-shattering experience!", "Insensé c'est pour les faibles! Envoyez la vrai expérience destructrice!", "_t")
+t("Insane is for the weak! Bring on the true mind-shattering experience!", "Insensé c'est pour les faibles ! Envoyez la vrai expérience destructrice !", "_t")
 t("#GOLD##{bold}#Madness mode#WHITE##{normal}#", "#GOLD##{bold}#Mode folie#WHITE##{normal}#", "_t")
-t("Absolutely unfair game setting. Prepare for the full wrath of DarkGod!", "Paramètres de jeu complètement déloyaux. Préparez-vous à la colère pleine et entière de DarkGod!", "_t")
+t("Absolutely unfair game setting. Prepare for the full wrath of DarkGod!", "Paramètres de jeu complètement déloyaux. Préparez-vous à la colère pleine et entière de DarkGod !", "_t")
 t("All zone levels increased by 150% + 2 by the time Player reaches level 10", "Le niveau de toutes les zones est augmenté de 150% + 2 à partir du moment où le joueur atteint le niveau 10", "_t")
 t("All creature talent levels increased by 170%", "Le niveau des talents de toutes les créatures est augmenté de 170%", "_t")
 t("Unique (fixed) bosses advance in bonus classes 170% faster", "Les classes bonus des boss uniques (fixes) sont 170% plus puissantes", "_t")
 t("All enemies have 200% more life", "Tous les ennemis ont 200% de vie en plus", "_t")
 t("Stairs can not be used for 9 turns after a kill.", "Les escaliers ne peuvent pas être utilisés pendant 9 tours après avoir tué.", "_t")
-t("Player starts with 100 more life and 500 gold, but trust us, you'll need it!", "Le joueur commence avec 100 points de vie en plus et 500 pièces d'or, mais croyez-nous, vous en aurez besoin!", "_t")
-t("Player is being hunted! Randomly all foes in a radius will get a feeling of where she/he is", "Le joueur est chassé! Aléatoirement, tous les ennemis aux alentours vont avoir le sentiment de savoir où il/elle est", "_t")
+t("Player starts with 100 more life and 500 gold, but trust us, you'll need it!", "Le joueur commence avec 100 points de vie en plus et 500 pièces d'or, mais croyez-nous, vous en aurez besoin !", "_t")
+t("Player is being hunted! Randomly all foes in a radius will get a feeling of where she/he is", "Le joueur est chassé ! Aléatoirement, tous les ennemis aux alentours vont avoir le sentiment de savoir où il/elle est", "_t")
 t("Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.", "Le joueur peut obtenir la version folie des succès si il joue également en mode Roguelike ou Aventure.", "_t")
 t("Exploration mode: Infinite lives (donator feature)", "Mode exploration: Vies infinis (Option de donateur)", "_t")
 t("#GOLD##{bold}#Exploration mode#WHITE#", "#GOLD##{bold}#Mode exploration#WHITE#", "_t")
@@ -1225,7 +1225,7 @@ t("Hairs", "Cheveux", "birth facial category")
 t("Facial features", "Modifications faciales", "birth facial category")
 t("Tatoos", "Tatouages", "birth facial category")
 t("Ghoul", "Goule", "birth descriptor name")
-t("Slow to shuffle, quick to bite, learn from master, rule the night!", "Traîne ses guêtres, mords rapidement, apprends du maître, rêgne au soleil couchant!", "_t")
+t("Slow to shuffle, quick to bite, learn from master, rule the night!", "Traîne ses guêtres, mords rapidement, apprends du maître, rêgne au soleil couchant !", "_t")
 t("Ghouls are dumb, but resilient, rotting undead creatures, making good fighters.", "Les goules sont stupides, mais résistantes, créatures morte-vivantes pourrissantes, elles font de bons guerriers.", "_t")
 t("They have access to #GOLD#special ghoul talents#WHITE# and a wide range of undead abilities:", "Elles ont accès à des #GOLD#talents spéciaux de goule#WHITE# et une large panoplie de capacité de mort-vivant:", "_t")
 t("- great poison resistance", "- grande résistance au poison", "_t")
@@ -1271,7 +1271,7 @@ t("Bloodstains", "Taches de sang", "_t")
 t("Bones", "Os", "_t")
 t("Guts", "Intestins", "_t")
 t("Skeleton", "Squelette", "birth descriptor name")
-t("The marching bones, each step we rattle; but servants no more, we march to battle!", "Nos ossements se mouvants, à chaque pas nous cliquetons; mais n'étant plus servants, vers la bataille nous marchons!", "_t")
+t("The marching bones, each step we rattle; but servants no more, we march to battle!", "Nos ossements se mouvants, à chaque pas nous cliquetons; mais n'étant plus servants, vers la bataille nous marchons !", "_t")
 t("Skeletons are animated bones, undead creatures both strong and dexterous.", "Les squelettes sont des os animés, des créatures morte-vivantes à la fois fortes et agiles.", "_t")
 t("They have access to #GOLD#special skeleton talents#WHITE# and a wide range of undead abilities:", "Ils ont accès à des #GOLD#talents spéciaux de squelette#WHITE# et une large panoplie de capacité de mort-vivant:", "_t")
 t("- poison immunity", "- immunité au poison", "_t")
@@ -1291,7 +1291,7 @@ t("Iron Bolt", "Bonlons de fer", "_t")
 t("Molds", "Moisissures", "_t")
 t("Rust", "Rouille", "_t")
 t("Lich", "Liche", "birth descriptor name")
-t("You should not see this!", "Vous ne devez pas voir ça!", "_t")
+t("You should not see this!", "Vous ne devez pas voir ça !", "_t")
 t("Lich Eyes 1", "Yeux de liche 1", "_t")
 t("Lich Eyes 2", "Yeux de liche 2", "_t")
 t("Lich Eyes 3", "Yeux de liche 3", "_t")
@@ -1413,16 +1413,16 @@ t("But what lurks in the shadows of the world?", "Mais qu'est ce qui se cache da
 t("Infinite Dungeon: The Neverending Descent", "Donjon Infini: La Descente sans Fin", "_t")
 t("Ever deeper, never ending, no reprieve, keep descending. In ruins old, through barred gate, once riddle solved, find thy fate.", "Toujours plus profond, sans fin, sans répit, continuez de descendre. Dans d'anciennes ruines, après la porte scellée, une fois l'énigme résolue, trouvez votre destinée.", "_t")
 t("Play as your favorite race and class and venture into the infinite dungeon.", "Jouez avec vos races et classes favorites et aventurez vous dans le donjon infini.", "_t")
-t("The only limit to how far you can go is your own skill!", "Seules vos capacités définiront la limite que vous pourrez atteindre!", "_t")
+t("The only limit to how far you can go is your own skill!", "Seules vos capacités définiront la limite que vous pourrez atteindre !", "_t")
 t("Inside the infinite dungeon you will yourself be limitless. You can level up beyond level 50 and continue to gain stat and talent points (at a reduced rate).", "Dans le donjon infini vous serez vous-même sans limite. Vous pourrez gagner des niveaux au dessus du niveau 50 et continuer de gagner des points de statistique et de talent (à vitesse réduite).", "_t")
 t("Every level after level 50 the maximum of stats will increase by one.", "Pour chaque niveau au dessus du niveau 50 le maximum de vos statistiques sera augmenté de un.", "_t")
 t("Every 10 levels after level 50 the maximum points of each talent will increase by one.", "Pour chaque 10 niveaux au dessus du niveau 50 le maximum de vos points de talent sera augmenté de un.", "_t")
 t("The Arena: Challenge of the Master", "L'Arène: Le Défi des Maîtres", "_t")
 t("Blood spilled on sand, only the strong survive. Prove yourself worthy to enter.", "Le sang coule sur le sable, seuls les forts survivent. Montrez-vous digne d'entrer.", "_t")
-t("Play as a lone warrior facing the Arena's challenge!", "Jouez un guerrier solitaire affrontant les défis de l'Arène!", "_t")
+t("Play as a lone warrior facing the Arena's challenge!", "Jouez un guerrier solitaire affrontant les défis de l'Arène !", "_t")
 t("You can use any class and race for it.", "Vous pouvez utiliser toutes les classes ou races pour cela.", "_t")
-t("See how far you can go! Can you become the new Master of the Arena?", "Voyez jusqu'où vous pouvez aller! Pourrez-vous devenir le Maître de l'Arène?", "_t")
-t("If so, you will battle your own champion next time!", "Si oui, vous combattrez votre propre champion au prochain tour!", "_t")
+t("See how far you can go! Can you become the new Master of the Arena?", "Voyez jusqu'où vous pouvez aller ! Pourrez-vous devenir le Maître de l'Arène ?", "_t")
+t("If so, you will battle your own champion next time!", "Si oui, vous combattrez votre propre champion au prochain tour !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/calendar_allied.lua"
@@ -1473,9 +1473,9 @@ t("Indeed, it is both promising and ominous. I can reward you handsomely for you
 t("What do you propose?", "Que proposez vous?", "_t")
 t("Good adventurer, I am an alchemist, and quite a good one. This year, for the first time, the great Brotherhood of Alchemists has invited my application to their number. I'll not try your patience with the details of the application process, but suffice to say that it is grueling. Fortunately, a mere three tasks now stand between me and acceptance.", "Bon aventurier, je suis un alchimiste, et un très bon. Cette année, pour la première fois, la grande Confrérie des Alchimistes m'a invité à poser ma candidature. Je ne vais pas mettre votre patience à l'épreuve avec les détails du processus de candidature, mais il suffit de dire qu'il est éreintant. Heureusement, trois tâches seulement me séparent de l'acceptation.", "_t")
 t("How can I help?", "Comment puis-je aider?", "_t")
-t("I require ingredients for three potent mixtures. Obviously, since I seek your aid, none of them is to be found by simply strolling to the local herbalist's. No, they will need to be forcibly parted from their owners who will, just as obviously, put up a fight. I've yet to encounter a naga who would be persuaded to hand over his tongue! Ha! Oh, I am droll at times.", "J'ai besoin d'ingrédients pour trois puissant mélanges. Évidemment, puisque je sollicite votre aide, aucun d'entre eux ne se trouve en se promenant simplement chez l'herboriste local. Non, ils devront être séparés de force de leurs propriétaires qui, tout aussi évidemment, savent se battent. Je n'ai pas encore rencontré de naga qui pourrait être persuadé de remettre sa langue! Ha! Oh, je suis drôle parfois.", "_t")
+t("I require ingredients for three potent mixtures. Obviously, since I seek your aid, none of them is to be found by simply strolling to the local herbalist's. No, they will need to be forcibly parted from their owners who will, just as obviously, put up a fight. I've yet to encounter a naga who would be persuaded to hand over his tongue! Ha! Oh, I am droll at times.", "J'ai besoin d'ingrédients pour trois puissant mélanges. Évidemment, puisque je sollicite votre aide, aucun d'entre eux ne se trouve en se promenant simplement chez l'herboriste local. Non, ils devront être séparés de force de leurs propriétaires qui, tout aussi évidemment, savent se battent. Je n'ai pas encore rencontré de naga qui pourrait être persuadé de remettre sa langue ! Ha ! Oh, je suis drôle parfois.", "_t")
 t("I specialize in separating vital body parts from monsters. What do you offer in return?", "Je me spécialise dans la séparation des parties vitales du corps des monstres. Que proposez-vous en retour ?", "_t")
-t("Why, I will let you share in the fruits of my labors! Each of the three mixtures I shall produce in a quantity sufficient to create three doses: one for me, one for the Brotherhood and their confounded trial... and one for you. I must tell you that time is of the essence. I am not the only one who the Brotherhood invited this year, yet they will accept only one applicant-- the first to complete their trials. I know of at least three others laboring furiously to take my rightful place. Should your aid see me through, then I will reward you beyond even the remarkable elixirs. I've an ancient Lifebinding Emerald that grants great powers of health and healing when used properly. What say you?", "Eh bien, je vous laisserai partager les fruits de mon travail! Je produirai chacun des trois mélanges en quantité suffisante pour créer trois doses: une pour moi, une pour la Confrérie et son concours confus... et une pour vous. Je dois vous dire que le temps est compté. Je ne suis pas le seul que la Confrérie a invité cette année, mais ils n'accepteront qu'un seul candidat - le premier à terminer ses essais. Je connais au moins trois autres personnes qui travaillent d'arrache-pied pour prendre ma place. Si votre aide me permet de m'en sortir, alors je vous récompenserai au-delà des élixirs remarquables. J'ai une ancienne émeraude qui donne de grands pouvoirs de santé et de guérison lorsqu'elle est utilisée correctement. Qu'en dites-vous?", "_t")
+t("Why, I will let you share in the fruits of my labors! Each of the three mixtures I shall produce in a quantity sufficient to create three doses: one for me, one for the Brotherhood and their confounded trial... and one for you. I must tell you that time is of the essence. I am not the only one who the Brotherhood invited this year, yet they will accept only one applicant-- the first to complete their trials. I know of at least three others laboring furiously to take my rightful place. Should your aid see me through, then I will reward you beyond even the remarkable elixirs. I've an ancient Lifebinding Emerald that grants great powers of health and healing when used properly. What say you?", "Eh bien, je vous laisserai partager les fruits de mon travail ! Je produirai chacun des trois mélanges en quantité suffisante pour créer trois doses: une pour moi, une pour la Confrérie et son concours confus... et une pour vous. Je dois vous dire que le temps est compté. Je ne suis pas le seul que la Confrérie a invité cette année, mais ils n'accepteront qu'un seul candidat - le premier à terminer ses essais. Je connais au moins trois autres personnes qui travaillent d'arrache-pied pour prendre ma place. Si votre aide me permet de m'en sortir, alors je vous récompenserai au-delà des élixirs remarquables. J'ai une ancienne émeraude qui donne de grands pouvoirs de santé et de guérison lorsqu'elle est utilisée correctement. Qu'en dites-vous?", "_t")
 t("I accept.", "J'accepte.", "_t")
 t("I cannot aid you at this time.", "Je ne peux pas vous aider en ce moment.", "_t")
 t("Excellent. Now then, I've three elixirs I'm working on. I'll burden you with only one at a time, since I've learned the hard way about the hazards of overloading an adventurer's brain. Here are your options: the elixir of the fox, which makes you as nimble and cunning as a fox; the elixir of avoidance, which sharpens your natural inclinations to get out of the way of incoming harm; or the elixir of precision, which grants intuitive understanding of an enemy's most sensitive spots. Which would you like to aid me with?", "Excellent. Maintenant, j'ai trois élixirs sur lesquels je travaille. Je ne vous en donnerai qu'un à la fois, car j'ai appris à mes dépens les dangers de surcharger le cerveau d'un aventurier. Voici vos options: l'élixir du renard, qui vous rend aussi agile et rusé qu'un renard; l'élixir de l'évitement, qui aiguise vos tendances naturelles à vous écarter du danger; ou l'élixir de la précision, qui accorde une compréhension intuitive des points les plus sensibles d'un ennemi. Avec lequel voulez-vous m'aider?", "_t")
@@ -1492,11 +1492,11 @@ t("I've come to offer more aid.", "Je suis venu offrir plus d'aide.", "_t")
 t("[Give him the monster bits.]", "[Lui Donner les morceaux de monstre.]", "_t")
 t([[#LIGHT_GREEN#*The alchemist grins and motions impatiently for the ingredients.*#WHITE#
 Wonderful, absolutely wonderful! The final step! Here, let me have those!]], [[#LIGHT_GREEN#*L'alchimiste sourit et demande les ingrédients avec impatience.*#WHITE#
-Merveilleux, absolument merveilleux! La dernière étape! Maintenant, laissez-moi les prendre!]], "_t")
+Merveilleux, absolument merveilleux ! La dernière étape ! Maintenant, laissez-moi les prendre !]], "_t")
 t("[Give him the monster bits]", "[Lui Donner les morceaux de monstre.]", "_t")
 t("Wait here while I perform my art. I'll have your reward within the hour.", "Attendez ici pendant que je pratique mon art. J'aurai votre récompense dans l'heure.", "_t")
 t("[Wait]", "[Attendre]", "_t")
-t("A final wait for you, my good adventurer, and then I shall return with both your rewards! Haha, complete at last!", "Une dernière attente pour vous, mon bon aventurier, puis je reviendrai avec vos deux récompenses! Haha, enfin complet!", "_t")
+t("A final wait for you, my good adventurer, and then I shall return with both your rewards! Haha, complete at last!", "Une dernière attente pour vous, mon bon aventurier, puis je reviendrai avec vos deux récompenses ! Haha, enfin complet !", "_t")
 t([[#LIGHT_GREEN#*The alchemist finally returns and hands you a small vial of fine glass.*#WHITE#
 Enjoy your reward.]], [[#LIGHT_GREEN#*L'alchimiste revient enfin et vous tend une petite fiole de verre fin.*#WHITE#
 Appréciez votre récompense.]], "_t")
@@ -1531,7 +1531,7 @@ t([[#LIGHT_GREEN#*He raises his voice and gestures exaggeratedly, seemingly taki
 Me need pieces of scary monsters for happy-making drink. You get me pieces. You probably get eaten by monsters, me have this conversation yet again with other bonehead.]], [[#LIGHT_GREEN#*Il élève la voix et fait des gestes exagérés, semblant vous prendre pour un idiot.*#WHITE#
 Moi besoin morceaux monstres effrayant pour boisson qui rend heureux. Toi me donner morceaux. Toi probablement être mangé par monstres, et Moi avoir encore conversation avec autre crétin.]], "_t")
 t("I've been known to kill the occasional monster. Is there a reward in it for me?", "Je suis connu pour tuer des occasionnellement des monstres. Y a-t-il une récompense pour moi?", "_t")
-t("It finally understands! You get a dose of every elixir you help me make. And if your help gets me into the Brotherhood, I've got half an Elixir of Invulnerability lying around that I'll give you. Don't try anything; I've already downed the other half.", "Il comprend enfin! Tu auras une dose de chaque élixir que tu m'aideras à fabriquer. Et si ton aide me fait entrer dans la Confrérie, j'ai la moitié d'un Elixir d'invulnérabilité qui traîne et je te le donne. Ne tente rien, j'ai déjà descendu l'autre moitié.", "_t")
+t("It finally understands! You get a dose of every elixir you help me make. And if your help gets me into the Brotherhood, I've got half an Elixir of Invulnerability lying around that I'll give you. Don't try anything; I've already downed the other half.", "Il comprend enfin ! Tu auras une dose de chaque élixir que tu m'aideras à fabriquer. Et si ton aide me fait entrer dans la Confrérie, j'ai la moitié d'un Elixir d'invulnérabilité qui traîne et je te le donne. Ne tente rien, j'ai déjà descendu l'autre moitié.", "_t")
 t("I accept.", "J'accepte.", "_t")
 t("I cannot aid you at this time.", "Je ne peux pas vous aider en ce moment.", "_t")
 t("Three elixirs I need. I'll show you the ingredients to one at a time. Are you interested in the Elixir of Mysticism, the Elixir of the Savior, or the Elixir of Mastery?", "Trois élixirs dont j'ai besoin. Je vais te montrer les ingrédients un par un. Es-tu intéressé par l'Elixir de Mysticisme, l'Elixir du Sauveur, ou l'Elixir de Maîtrise?", "_t")
@@ -1548,7 +1548,7 @@ t("I've come to offer more aid.", "Je suis venu offrir plus d'aide.", "_t")
 t("[Give him the monster bits.]", "[Lui Donner les morceaux de monstre.]", "_t")
 t([[#LIGHT_GREEN#*The elf claps his scarred hands together.*#WHITE#
 Exceptional work, lackey! The final elixir awaits! Oh, yes. Membership will be mine. And revenge. Ohhhh yes.]], [[#LIGHT_GREEN#*L'elfe frappe ses mains balafrées l'une contre l'autre.*#WHITE#
-Un travail exceptionnel, larbin ! L'élixir final attend! Oh, oui. L'adhésion sera mienne. Et la vengeance. Ohhhh oui.]], "_t")
+Un travail exceptionnel, larbin ! L'élixir final attend ! Oh, oui. L'adhésion sera mienne. Et la vengeance. Ohhhh oui.]], "_t")
 t("[Give him the monster bits]", "[Lui Donner les morceaux de monstre.]", "_t")
 t("Contain your impatience while I prepare these. I'll have the elixir within the hour.", "Contenez votre impatience pendant que je les prépare. J'aurai l'élixir dans l'heure.", "_t")
 t("[Wait]", "[Attendre]", "_t")
@@ -1588,9 +1588,9 @@ t("How is it that you speak?", "Comment faites vous pour parler?", "_t")
 t("I want to change your appearance (one-time only).", "Je veux changer son apparence (une seule fois).", "_t")
 t("Nothing, let's go.", "Rien, allons y.", "_t")
 t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Though I guess you are making up for it with your golem crafting skills.", "A quoi bon l'immortalité si tu ne peux même pas parler? Aucun archimage digne de ce nom ne concoctera un plan immoral de vie après la mort sans inclure une sorte de capacité pour faire connaître ses opinions. Et, soit dit en passant, vos techniques de manipulation de l'énergie sont au même niveau que celles de ma paire de chaussures moyenne. Bien que je suppose que vous vous rattrapez avec vos compétences en fabrication de golems.", "_t")
-t("Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "Changer mon nom? Je suis assez content d'être 'Telos' merci. Même si cela ne me dérangerait pas d'être \"Telos le Grand et Puissant\" ». Faites ça en fait. Oui!", "_t")
+t("Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "Changer mon nom? Je suis assez content d'être 'Telos' merci. Même si cela ne me dérangerait pas d'être \"Telos le Grand et Puissant\" ». Faites ça en fait. Oui !", "_t")
 t([[I'm a golem. How droll!
-Oh, did you want something?]], [[Je suis un golem. Comme c'est drôle!
+Oh, did you want something?]], [[Je suis un golem. Comme c'est drôle !
 Ah, tu voulais quelque chose?]], "_t")
 t([[#LIGHT_GREEN#*The golem talks in a monotonous voice*#WHITE#
 Yes master.]], [[#LIGHT_GREEN#*Le golem parle d'une voix monotone*#WHITE#
@@ -1599,7 +1599,7 @@ Oui maître.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/alchemist-hermit.lua"
 
-t("SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "FILS DE PUTE! VOUS VOUS MONTREZ DIX MINUTES APRÈS QUE J'AI REÇU LA NOUVELLE QUE CERTAINS CONNARDS ONT DÉJÀ TERMINÉ LEURS ÉLIXIRS ET SONT ACCEPTÉ PAR LA FRATERNITÉ. QU'EST-CE QUI VOUS A PRIS SI LONGTEMPS BORDEL? PAR LES SEINS DE MIRVENIA, JE VAIS LES PRENDRE ET VOUS FAIRE VOTRE RÉCOMPENSE, MAIS SEULEMENT PARCE QU'UNE MALÉDICTION ME TUERA SI JE NE LE FAIS PAS. ET SI ÇA A GOUT DE PISSE, C'EST VOTRE IMAGINATION, J'EN SUIS SUR.", "_t")
+t("SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "FILS DE PUTE ! VOUS VOUS MONTREZ DIX MINUTES APRÈS QUE J'AI REÇU LA NOUVELLE QUE CERTAINS CONNARDS ONT DÉJÀ TERMINÉ LEURS ÉLIXIRS ET SONT ACCEPTÉ PAR LA FRATERNITÉ. QU'EST-CE QUI VOUS A PRIS SI LONGTEMPS BORDEL? PAR LES SEINS DE MIRVENIA, JE VAIS LES PRENDRE ET VOUS FAIRE VOTRE RÉCOMPENSE, MAIS SEULEMENT PARCE QU'UNE MALÉDICTION ME TUERA SI JE NE LE FAIS PAS. ET SI ÇA A GOUT DE PISSE, C'EST VOTRE IMAGINATION, J'EN SUIS SUR.", "_t")
 t([[#LIGHT_GREEN#*The halfling hands you a note that says, 'Heard %s managed to make a %s while you've been loafing. Hurry the hell up next time.*#WHITE#
 		I STILL CAN'T HEAR A DAMNED THING. FORTUNATELY, YOU DON'T LOOK LIKE THE SORT THAT MAKES INTERESTING CONVERSATION.]], [[#LIGHT_GREEN#*Le halfelin vous remet une note qui dit: J'ai \"entendu\" que %s a réussi à faire un %s pendant que vous traîniez. Dépêchez-vous la prochaine fois.*#WHITE#
 		JE NE PEUX TOUJOURS PAS ENTENDRE UNE PUTAIN DE CHOSE. HEUREUSEMENT, VOUS N'AVEZ PAS L'AIR DU GENRE A AVOIR UNE CONVERSATION INTÉRESSANTE.]], "tformat")
@@ -1608,8 +1608,8 @@ IT'S NOT ENOUGH THAT I WORK ALL MORNING TO MAKE A POTION THAT ENDS UP NEARLY BLO
 IL NE SUFFIT PAS QUE JE TRAVAILLE TOUTE LA MATINNE POUR FAIRE UNE POTION QUI FINIT PRESQUE DE ME TUER EN EXPLOSANT, MAIS MAINTENANT J'AI DES IDIOTS QUI ENFONCENT MA MAUDITE PORTE D'ENTREE AVEC CE QUI REDDEMBLE A UN BELIER, ET OUI, J'AI ENTENDU, BIEN QUE JE PUISSE DIFFICILEMENT DISTINGUER UNE PUTAIN DE CHOSE CES OREILLES EN SANG ET COMMOTIONNÉES. QU'EST-CE QUE VOUS VOULEZ?]], "_t")
 t("Perhaps there's something that I can help you with.", "Je peux peut-être vous aider.", "_t")
 t("[leave]", "[partir]", "_t")
-t("SPEAK UP, HAMBRAIN. I'VE JUST GOTTEN MY EARDRUMS BLOWN OUT BY YET ANOTHER BY-THE-PYRE POTION GONE SOUTH, REMEMBER? THRICE-DAMNED THING WAS GOING PERFECTLY, TOO. TOKNOR'S TACKLE!", "PARLEZ PLUS FORT CERVELLE DE MOINEAU. JE VIENS JUSTE DE ME FAIRE EXPLOSER LES TYMPANS PAR UNE AUTRE POTION DU PYRUS QUI A MAL TOURNÉ, VOUS VOUS SOUVENEZ? CE TRIPLE TRUC MARCHAIT PARFAITEMENT, AUSSI. PAR LE TACLE DE TOKNOR!", "_t")
-t("I SAID, MAYBE THERE'S SOMETHING THAT I CAN HELP YOU WITH!", "J'AI DIT, PEUT-ÊTRE QU'IL Y A QUELQUE CHOSE POUR LAQUELLE JE PEUX VOUS AIDER!", "_t")
+t("SPEAK UP, HAMBRAIN. I'VE JUST GOTTEN MY EARDRUMS BLOWN OUT BY YET ANOTHER BY-THE-PYRE POTION GONE SOUTH, REMEMBER? THRICE-DAMNED THING WAS GOING PERFECTLY, TOO. TOKNOR'S TACKLE!", "PARLEZ PLUS FORT CERVELLE DE MOINEAU. JE VIENS JUSTE DE ME FAIRE EXPLOSER LES TYMPANS PAR UNE AUTRE POTION DU PYRUS QUI A MAL TOURNÉ, VOUS VOUS SOUVENEZ? CE TRIPLE TRUC MARCHAIT PARFAITEMENT, AUSSI. PAR LE TACLE DE TOKNOR !", "_t")
+t("I SAID, MAYBE THERE'S SOMETHING THAT I CAN HELP YOU WITH!", "J'AI DIT, PEUT-ÊTRE QU'IL Y A QUELQUE CHOSE POUR LAQUELLE JE PEUX VOUS AIDER !", "_t")
 t("STILL CAN'T HEAR YOU, BUT LISTEN UP. THE BROTHERHOOD OF ALCHEMISTS IS ACCEPTING THE FIRST NEW APPLICANT TO DEMONSTRATE, AMONG OTHER THINGS, THREE VERY COMPLICATED ELIXIRS. I WOULDN'T BOTHER TRYING TO JOIN SUCH A BUNCH OF ADDLE-BRAINED DEGENERATES, BUT IT SO HAPPENS THAT THE BROTHERHOOD OF ALCHEMISTS HOLDS THE SECRET CURE FOR THE COMMON BLOWN-OFF ASS, WHICH IT SO HAPPENS IS OF SOME INTEREST TO ME.", "JE NE PEUX TOUJOURS PAS VOUS ENTENDRE, MAIS ÉCOUTEZ BIEN. LA CONFRÉRIE DES ALCHIMISTES ACCEPTE LE PREMIER NOUVEAU CANDIDAT QUI PRÉSENTERA, ENTRE AUTRES, TROIS ÉLIXIRS TRÈS COMPLIQUÉS. JE NE ME DONNERAIS PAS LA PEINE D'ESSAYER DE REJOINDRE UNE TELLE BANDE DE DÉGÉNÉRÉS ÉCERVELÉS, MAIS IL SE TROUVE QUE LA CONFRÉRIE DES ALCHIMISTES DÉTIENT UN REMÈDE SECRET CONTRE LES CULS BÉNIS, CE QUI SE TROUVE ÊTRE D'UN CERTAIN INTÉRÊT POUR MOI.", "_t")
 t("HOW CAN I HELP?", "COMMENT PUIS JE VOUS AIDER?", "_t")
 t("THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "LA CONFRÉRIE SAIT TRÈS BIEN CE QUE DES AVANCÉES DANS LE DOMAINE DE L'ALCHIMIE FERAIENT POUR TOUTES LES CIVILISATIONS EXISTANTES, MAIS ILS GARDENT LEURS QUELQUES SECRETS VALABLES COMME UN GRAND VER BRUN ASSIS SUR SON TAS DE MERDE. VOUS SAVEZ QUOI? JE NE VEUX MÊME PAS DE LEUR REMÈDE CONTRE LES CULS BÉNIS POUR MOI. JE VAIS VOLER TOUS LEURS SECRETS, LES ÉCRIRE, EN FAIRE UNE CENTAINE DE COPIES, ET EN CLOUER UNE SUR UN ARBRE DANS CHAQUE VILLAGE DE MAJ'EYAL.", "_t")
@@ -1658,7 +1658,7 @@ t("Hrmph.", "Hrmph.", "_t")
 section "mod-tome/data/chats/alchemist-last-hope.lua"
 
 t("Damn it all. You're too late. %s has already finished. But I suppose you did your best, so I'll take these and keep my end of the bargian.", "Maudit soit-tu. C'est trop tard. %s a déjà terminé. Mais je suppose que vous avez fait de votre mieux, alors je vais prendre ça et tenir ma part du marché.", "tformat")
-t("Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "Beau travail! Et vous êtes toujours en un seul morceau, je vois. C'est toujours agréable. Je ressens la même chose après avoir réussi à préparer un mélange particulièrement délicat. J'ai failli m'exploser le visage plusieurs fois. Pendant votre absence, un petit oiseau m'a dit que %s a réussi à créer un %s. Ne le laisse pas finir avant moi !", "tformat")
+t("Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "Beau travail ! Et vous êtes toujours en un seul morceau, je vois. C'est toujours agréable. Je ressens la même chose après avoir réussi à préparer un mélange particulièrement délicat. J'ai failli m'exploser le visage plusieurs fois. Pendant votre absence, un petit oiseau m'a dit que %s a réussi à créer un %s. Ne le laisse pas finir avant moi !", "tformat")
 t([[#LIGHT_GREEN#*A dwarf in stained, battered mail armor opens the door.*#WHITE#
 Say, you interested in dismembering stuff and getting paid?]], [[#LIGHT_GREEN#*Un nain en armure de mailles tachées et abîmées ouvre la porte.*#WHITE#
 Dis, ça t'intéresse de démembrer des trucs et d'être payé?]], "_t")
@@ -1694,7 +1694,7 @@ t("I've come to offer more aid.", "Je suis venu offrir plus d'aide.", "_t")
 t("[Give him the monster bits.]", "[Lui Donner les morceaux de monstre.]", "_t")
 t([[#LIGHT_GREEN#*He gleefully claps you on the shoulder.*#WHITE#
 Ha ha! This is the last one! Stire and Marus and that damned hermit can suck on my beard! And so can my wife! YES, I KNOW YOU CAN HEAR ME. Good work, friend. Let's have them.]], [[#LIGHT_GREEN#*Il vous tape joyeusement sur l'épaule.*#WHITE#
-Ha ha! C'est le dernier! Stire, Marus, et ce maudit ermite peuvent sucer ma barbe! Et ma femme aussi! OUI, JE SAIS QUE TU PEUX M'ENTENDRE. Bon travail, mon ami. Allons les récupérer.]], "_t")
+Ha ha ! C'est le dernier ! Stire, Marus, et ce maudit ermite peuvent sucer ma barbe ! Et ma femme aussi ! OUI, JE SAIS QUE TU PEUX M'ENTENDRE. Bon travail, mon ami. Allons les récupérer.]], "_t")
 t("[Give him the monster bits]", "[Lui Donner les morceaux de monstre.]", "_t")
 t("Give me an hour or so to make with the alchemy. Don't go anywhere.", "Donnez-moi une heure ou deux pour réaliser l'alchimie. Ne va pas n'importe où.", "_t")
 t("[Wait]", "[Attendre]", "_t")
@@ -1707,13 +1707,13 @@ t([[#LIGHT_GREEN#*The dwarf finally returns with a vial and a small pouch.*#WHIT
 I put a bit of the good stuff in this one, though it won't do you any favors tomorrow morning. And careful with that Taint of Purging, especially if the wife answers the door the next time you knock. Har!]], [[#LIGHT_GREEN#*Le nain revient enfin avec une fiole et une petite pochette.*#WHITE#
 J'ai mis un peu de bonnes choses dans celui-là, mais ça ne te fera pas de bien demain matin. Et attention avec cette Purge d'Infections, surtout si la femme répond à la porte la prochaine fois que vous frappez. Har !]], "_t")
 t("Bless you adventurers. Which will it be?", "Sois béni, aventurier. Lequel ce sera ?", "_t")
-t("Here's a list of the creature bits I need. Good luck with the murdering!", "Voici une liste des morceaux de créatures dont j'ai besoin. Bonne chance pour le massacre!", "_t")
+t("Here's a list of the creature bits I need. Good luck with the murdering!", "Voici une liste des morceaux de créatures dont j'ai besoin. Bonne chance pour le massacre !", "_t")
 t([[Here's a list of the creature bits I need. Good luck with the murdering!
 
 Oh, and one other last thing... if you have the time for another errand, though I've got no reward on this one.]], [[Voici une liste des morceaux de créatures dont j'ai besoin. Bonne chance pour le massacre !
 
 Oh, et une dernière chose... si vous avez le temps pour une autre course, bien que je n'aie pas de récompense pour celle-ci.]], "_t")
-t("Er, it seems that while you were out, somebody else managed to bring me the ingredients. I've got no reward for you! Sorry about that, but when time is of the essence, 'first come, first served' is the only sensible policy.", "Euh, il semble que pendant que tu étais sorti, quelqu'un d'autre a réussi à m'apporter les ingrédients. Je n'ai pas de récompense pour toi! Désolé, mais quand le temps est compté, \"premier arrivé, premier servi\" est la seule politique raisonnable.", "_t")
+t("Er, it seems that while you were out, somebody else managed to bring me the ingredients. I've got no reward for you! Sorry about that, but when time is of the essence, 'first come, first served' is the only sensible policy.", "Euh, il semble que pendant que tu étais sorti, quelqu'un d'autre a réussi à m'apporter les ingrédients. Je n'ai pas de récompense pour toi ! Désolé, mais quand le temps est compté, \"premier arrivé, premier servi\" est la seule politique raisonnable.", "_t")
 t([[Well, it's like this, one of my wife's friends has gone missing. A young alchemist in training, called Celia. Thing is, her husband died recently, and the grief done drove her mad. She used to go out to his grave every day, until one day she didn't come back. Personally I don't think she was able to live without him; the two were inseparable. If you get a chance on your travels, could you pass by the mausoleum to the east and check... well, you get the idea.
 
 It's strange what death can do to people, how it can take over their minds. Sometimes they forget it's the living that matter... See she gets a proper burial - treated respectfully, eh?]], [[Eh bien, c'est comme ça, une des amies de ma femme a disparu. Une jeune alchimiste en formation, appelée Celia. Le problème est que son mari est mort récemment, et le chagrin l'a rendue folle. Elle avait l'habitude d'aller sur sa tombe tous les jours, jusqu'au jour où elle n'est pas revenue. Personnellement, je ne pense pas qu'elle ait été capable de vivre sans lui; les deux étaient inséparables. Si vous en avez l'occasion lors de vos voyages, pourriez-vous passer par le mausolée à l'est et vérifier... enfin, vous voyez l'idée.
@@ -1734,7 +1734,7 @@ t([[#LIGHT_GREEN#*A tall woman stands before you. Her fair skin radiates incredi
 I am Linaniil of the Kar'Krul. Welcome to our city, @playerdescriptor.subclass@. What may I do for thee?]], [[#LIGHT_GREEN#*Une grande femme se tient devant vous. Sa peau claire dégage une puissance incroyable à travers sa robe blanche.*#WHITE#
 Je suis Linaniil des Kar'Krul. Bienvenue dans notre ville, @playerdescriptor.subclass@. Que puis-je faire pour vous?]], "_t")
 t("I require all the help I can get, not for my sake but for the town of Derth, to the northeast of here.", "J'ai besoin de toute l'aide possible, pas pour moi mais pour la ville de Derth, au nord-est d'ici.", "_t")
-t("I am ready! Send me to Urkis!", "Je suis prêt! Envoyez-moi à Urkis!", "_t")
+t("I am ready! Send me to Urkis!", "Je suis prêt ! Envoyez-moi à Urkis !", "_t")
 t("Urkis has been slain.", "Urkis a été tué.", "_t")
 t("Nothing for now. Sorry to have taken your time. Farewell, my lady.", "Rien pour l'instant. Désolé d'avoir abusé de votre temps. Adieu, ma dame.", "_t")
 t([[Yes, we have noticed the devastation that happened there. I have sent some friends thence to disperse the cloud, but the true threat lies not there.
@@ -1758,7 +1758,7 @@ section "mod-tome/data/chats/angolwen-staves-store.lua"
 t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("I am looking for staff training.", "Je cherche une formation au bâton.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_angolwen-staves-store")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_angolwen-staves-store")
 t("I can teach you staff combat (talent category Spell/Staff combat).  Learning the basics costs 100 gold, while more intensive tutelage to gain proficiency costs 500 gold.  Once you're proficient, I can teach you more refined techniques for an additional 750 gold.", "Je peux vous enseigner le Combat au Bâton (catégorie de talent Magie/Combat au Bâton).  L'apprentissage des bases coûte 100 pièces d'or, tandis qu'un enseignement plus intensif pour acquérir les compétences nécessaires coûte 500 pièces d'or.  Une fois que vous êtes compétent, je peux vous enseigner des techniques plus raffinées pour encore 750 pièces d'or.", "_t")
 t("Just give me the basics (reveals locked talent category) - 100 gold.", "Donnez-moi juste les bases (révèle la catégorie de talent verrouillée) - 100 pièces d'or.", "_t")
 t("The staff carver spends some time with you, teaching you the basics of staff combat.", "Le sculpteur de bâton passe un certain temps avec vous, vous enseignant les bases du combat au bâton.", "logPlayer")
@@ -1771,7 +1771,7 @@ t("The staff carver spends a great deal of time going over the finer details of 
 t(", including some esoteric techniques", ", y compris certaines techniques ésotériques", "_t")
 t("No thanks.", "Non merci.", "_t")
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/antimagic-end.lua"
@@ -1783,10 +1783,10 @@ t("\
 #{italic}##LIGHT_GREEN#*Lorsque vous buvez la potion, vos runes commencent à brûler en s'effaçant, et une terrible agonie semble traverser votre peau jusqu'à vos os, vos muscles et votre coeur.  Vous vous évanouissez à cause de la douleur, et vous revenez à vous un peu plus tard, les runes ayant disparu à jamais.  Vous vous sentez très mal, et pourtant... purifié.*#{normal}##WHITE#", "_t")
 t([[Excellent! You truly prove that no mage-wrought flame or storm can stand against blade and arrow! Come, learn our ways. You are ready.
 #LIGHT_GREEN#*he gives you a potion.*#WHITE#
-Drink this. We extract it from a very rare kind of drake. It will grant you powers to fight and cancel magic, but never again will you be able to use magic.%s]], [[Excellent! Tu prouves vraiment qu'aucune flamme ou tempête magique ne peut résister à une lame et une flèche! Viens, apprends nos méthodes. Tu es prêt.
+Drink this. We extract it from a very rare kind of drake. It will grant you powers to fight and cancel magic, but never again will you be able to use magic.%s]], [[Excellent ! Tu prouves vraiment qu'aucune flamme ou tempête magique ne peut résister à une lame et une flèche ! Viens, apprends nos méthodes. Tu es prêt.
 #LIGHT_GREEN#*il vous donne une potion.*#WHITE#
 Buvez ça. Nous l'avons extrait d'une espèce de dragonnet très rare. Ca vous donnera des pouvoirs pour combattre et annuler la magie, mais vous ne pourrez plus jamais l'utiliser.%s]], "tformat")
-t("Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]", "Merci. Je ne laisserai pas la magie triompher! #LIGHT_GREEN#[vous buvez la potion]", "_t")
+t("Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]", "Merci. Je ne laisserai pas la magie triompher ! #LIGHT_GREEN#[vous buvez la potion]", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/ardhungol-end.lua"
@@ -1794,15 +1794,15 @@ section "mod-tome/data/chats/ardhungol-end.lua"
 t([[#LIGHT_GREEN#*As the monstrous spider falls you see something... moving in her belly until it explodes! A tall black man steps out of the spewed guts, surrounded by a golden light.*#WHITE#
 By the Sun! I thought I would never again see a friendly face!
 Thank you. I am Rashim, and I am in your debt.
-]], [[#LIGHT_GREEN#*Alors que la monstrueuse araignée tombe, vous voyez quelque chose... bouger dans son ventre jusqu'à ce qu'il explose! Un grand homme noir sort des entrailles déchiquetés, entouré d'une lumière dorée.*#WHITE#
-Par le soleil! Je pensais ne plus jamais revoir un visage amical!
+]], [[#LIGHT_GREEN#*Alors que la monstrueuse araignée tombe, vous voyez quelque chose... bouger dans son ventre jusqu'à ce qu'il explose ! Un grand homme noir sort des entrailles déchiquetés, entouré d'une lumière dorée.*#WHITE#
+Par le soleil ! Je pensais ne plus jamais revoir un visage amical !
 Merci. Je suis Rashim, et je vous suis redevable.
 ]], "_t")
 t("I have been sent by your wife. She was worried for you.", "J'ai été envoyé par votre femme. Elle était inquiète pour vous.", "_t")
 t([[Ah, my dear heart!
-Well, now that I am free I will create a portal to the Gates of Morning. I think I've seen enough spiders for the rest of my life.]], [[Ah, ma douce!
+Well, now that I am free I will create a portal to the Gates of Morning. I think I've seen enough spiders for the rest of my life.]], [[Ah, ma douce !
 Bien, maintenant que je suis libre, je vais créer un portail vers les Portes du Matin. Je pense que j'ai vu assez d'araignées pour le reste de ma vie.]], "_t")
-t("Lead the way!", "Ouvrez la voie!", "_t")
+t("Lead the way!", "Ouvrez la voie !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/ardhungol-start.lua"
@@ -1818,11 +1818,11 @@ t("I've got to go. Bye.", "Je dois y aller. Au revoir.", "_t")
 t([[My husband, Rashim, is a Sun Paladin. He was sent to clear the spider lair of Ardhungol to the north of this town.
 It has been three days now. He should be back by now. I have a feeling something terrible has happened to him. Please find him!
 He should have a magical stone given by the Anorithil to create a portal back here, yet he did not use it!]], [[Mon mari, Rashim, est un paladin du soleil. Il a été envoyé pour nettoyer le repaire des araignées d'Ardhungol au nord de cette ville.
-Cela fait trois jours maintenant. Il devrait être de retour. J'ai le sentiment que quelque chose de terrible lui est arrivé. Trouvez-le!
-Il devait avoir une pierre magique donnée par l'Anorithil pour créer un portail de retour, mais ne l'a pas utilisée!]], "_t")
+Cela fait trois jours maintenant. Il devrait être de retour. J'ai le sentiment que quelque chose de terrible lui est arrivé. Trouvez-le !
+Il devait avoir une pierre magique donnée par l'Anorithil pour créer un portail de retour, mais ne l'a pas utilisée !]], "_t")
 t("I will see if I can find him.", "Je vais voir si je peux le trouver.", "_t")
 t("Spiders? Eww, sorry, but he is probably dead now.", "Des araignées ? Err, désolé, mais il est probablement mort maintenant.", "_t")
-t("Yes, yes he did! He said he would have died if not for you.", "Oui, oui, il l'a fait! Il a dit qu'il serait mort si vous n'aviez pas été là.", "_t")
+t("Yes, yes he did! He said he would have died if not for you.", "Oui, oui, il l'a fait ! Il a dit qu'il serait mort si vous n'aviez pas été là.", "_t")
 t("It was nothing.", "Ce n'était rien.", "_t")
 
 ------------------------------------------------
@@ -1858,7 +1858,7 @@ Tout ce que vous avez à faire est de battre trois de mes hommes au combat, et v
 #LIGHT_GREEN#*Vous considérez l'offre de cet homme mystérieux pendant un moment.*
 ]], "_t")
 t("Interesting. Tell me more about that Arena.", "Intéréssant. Dites m'en plus sur cette Arène.", "_t")
-t("I am strong! What do you have to offer?", "Je suis fort! Qu'avez vous à m'offrir?", "_t")
+t("I am strong! What do you have to offer?", "Je suis fort ! Qu'avez vous à m'offrir ?", "_t")
 t("I don't accept deals from shady hooded men.", "Je n'accepte pas de marché de la part d'hommes louches encapuchonnés.", "_t")
 t([[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
 I have wealth and glory to offer, and some very useful
@@ -1869,7 +1869,7 @@ J'ai la richesse et la gloire à offrir, et quelques très utiles
 #YELLOW#expériences du combat#WHITE# pour combattre nos hommes...
 Alors, qu'en pensez-vous? Êtes-vous prêt?
 ]], "_t")
-t("I am ready for battle. Let's go!", "Je suis prêt à me battre. Allons-y!", "_t")
+t("I am ready for battle. Let's go!", "Je suis prêt à me battre. Allons-y !", "_t")
 t("I don't have time for games, Cornac.", "Je n'ai pas le temps de jouer, Cornac.", "_t")
 t([[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
 The Arena is where the brave come to fight against all odds.
@@ -1886,7 +1886,7 @@ L'arène est l'endroit où les plus courageux viennent se battre contre vents et
 Nous sommes encore en pleine croissance, et nous manquons de challengers...
 C'est comme un pari, mais vous vous battez au lieu de jouer de l'argent, vous voyez?
 Nous, dans l'arène, nous travaillons dur pour faire de bon spectacles, et en retour... vous pouvez obtenir assez de
-de richesse et de gloire pour des siècles!
+de richesse et de gloire pour des siècles !
 Si vous pouvez passer mon petit test... je vous #LIGHT_RED#permettrai de rejoindre l'arène quand
 vous aurez terminé vos aventures.#WHITE#
 Vous pourrez également acquérir #LIGHT_RED#de l'éxpérience de combat#WHITE# en combattant
@@ -1912,16 +1912,16 @@ Excellent! A great fighter is always willing to head into battle.
 You certainly won't regret meeting us, indeed...
 So, are you ready to fight?
 ]], [[#LIGHT_GREEN#*L'homme sourit en signe d'approbation*#WHITE#
-Excellent! Un grand combattant est toujours prêt à aller au combat.
+Excellent ! Un grand combattant est toujours prêt à aller au combat.
 Vous ne regretterez certainement pas de nous avoir rencontrés, en effet...
 Alors, êtes-vous prêt à vous battre?
 ]], "_t")
-t("Sounds like fun. I'm ready!", "Ça a l'air amusant. Je suis prêt!", "_t")
+t("Sounds like fun. I'm ready!", "Ça a l'air amusant. Je suis prêt !", "_t")
 t("Wait. I am not ready yet.", "Attendez. Je ne suis pas encore prêt.", "_t")
 t("#LIGHT_GREEN#*The man quietly walks away, after making you a gesture to follow him*", "#LIGHT_GREEN#*L'homme s'éloigne tranquillement, après vous avoir fait signe de le suivre.*", "_t")
 t("[Follow him]", "[Le suivre]", "_t")
-t("Get ready!", "Préparez-vous!", "_t")
-t("Defeat all three enemies!", "Battez les trois ennemis!", "_t")
+t("Get ready!", "Préparez-vous !", "_t")
+t("Defeat all three enemies!", "Battez les trois ennemis !", "_t")
 t([[#LIGHT_GREEN#*The Cornac rogue comes back from the shadows*#WHITE#
 Well done, @playerdescriptor.race@! I knew you had potential.
 #LIGHT_GREEN#*The rogue takes off his hood, showing a fairly young, but unmistakably
@@ -1936,18 +1936,18 @@ But we can make you a true champion, beloved by many and bathing in diamonds.
 #WHITE#Very well, @playername@. I must go now.
 Good luck in your adventures, and come visit us when you are done!
 ]], [[#LIGHT_GREEN#*Le brigant Cornac sort de l'ombre.*#WHITE#
-Bien joué, @playerdescriptor.race@! Je savais que vous aviez un bon potentiel.
+Bien joué, @playerdescriptor.race@ ! Je savais que vous aviez un bon potentiel.
 #LIGHT_GREEN#*Le brigand enlève sa capuche, montrant un visage assez jeune, mais indubitablement
 #LIGHT_GREEN#endurci par le combat.#WHITE#
 Je m'appelle Rej. Je travaille pour l'arène afin de recruter de grands combattants pouvant donner un
-un bon spectacle... et ne pas mourir en deux coups. Tu es l'un d'entre eux, en effet!
+un bon spectacle... et ne pas mourir en deux coups. Tu es l'un d'entre eux, en effet !
 Je ne te retiendrai pas loin de tes aventures. J'en étais un aussi, il y a longtemps.
 Mais nous pouvons faire de toi un vrai champion, aimé de tous et baignant dans les diamants.
 
 #LIGHT_GREEN#*En retournant à Derth en compagnie du brigand, vous discutez de votre...
 #LIGHT_GREEN#combat dans la forêt. Il vous donne de bons conseils pour votre technique de combat. (#WHITE#+2 points de talent générique#LIGHT_GREEN#)*
 #WHITE#Très bien, @playername@. Je dois y aller.
-Bonne chance dans vos aventures, et venez nous rendre visite lorsque vous aurez terminé!
+Bonne chance dans vos aventures, et venez nous rendre visite lorsque vous aurez terminé !
 ]], "_t")
 t("I will. Farewell for now.", "Je le ferai. Adieu pour l'instant.", "_t")
 t("exit to Derth", "partir pour Derth", "_t")
@@ -1981,11 +1981,11 @@ t([[#LIGHT_GREEN#*A gigantic bone giant walks through the main gate.
 #LIGHT_GREEN#Sa forme est complexe et pointue, ressemblant à un dragonnet, mais avec d'innombrables...
 #LIGHT_GREEN#piques à la place des ailes.
 #LIGHT_GREEN#L'énorme mort-vivant vous regarde avec une... intelligence inhabituelle.
-#LIGHT_GREEN#Vous avez entendu parler de lui. Ryal le Terrible, votre premier obstacle!
+#LIGHT_GREEN#Vous avez entendu parler de lui. Ryal le Terrible, votre premier obstacle !
 #LIGHT_GREEN#Alors qu'une étrange lueur bleue remplit l'endroit où ses yeux devraient être, le géant mort-vivant
-#LIGHT_GREEN#rugit et de multiples ossements volent dans votre direction!
+#LIGHT_GREEN#rugit et de multiples ossements volent dans votre direction !
 ]], "_t")
-t("Have at you!!", "Vas-y!", "_t")
+t("Have at you!!", "Vas-y !", "_t")
 t([[#LIGHT_GREEN#*After taking several hits, the undead giant finally succumbs
 #LIGHT_GREEN#to your attacks*
 #LIGHT_GREEN#Suddenly, Ryal's body starts to regenerate!
@@ -1995,13 +1995,13 @@ t([[#LIGHT_GREEN#*After taking several hits, the undead giant finally succumbs
 #LIGHT_GREEN#*Ryal quietly turns towards the gate and leaves, seemingly unharmed*
 ]], [[#LIGHT_GREEN#*Après avoir encaissé plusieurs coups, le géant mort-vivant succombe enfin
 #LIGHT_GREEN#à vos attaques*
-#LIGHT_GREEN#Soudain, le corps de Ryal commence à se régénérer!
+#LIGHT_GREEN#Soudain, le corps de Ryal commence à se régénérer !
 #LIGHT_GREEN#De nouveau debout, tu peux presque sentir son crâne sans émotion
 #LIGHT_GREEN#te regarder avec... satisfaction.
 #WHITE#Hehehe... bien joué, @playerdescriptor.race@.
 #LIGHT_GREEN#*Ryal se tourne tranquillement vers la porte et part, apparemment indemne*
 ]], "_t")
-t("It was fun, bone giant!", "C'était fun, géant osseux!", "_t")
+t("It was fun, bone giant!", "C'était fun, géant osseux !", "_t")
 t("...what? unharmed?", "...quoi? indemne?", "_t")
 t([[#LIGHT_GREEN#*The wind chills as a young girl walks calmly through the gate.
 #LIGHT_GREEN#She looks surprisingly young, with extremely pale skin and contrasting
@@ -2014,7 +2014,7 @@ I am known as Fryjia the Hailstorm. That's all you need to know, @playerdescript
 Je suis connue sous le nom de Fryjia la tempête de grêle. C'est tout ce que tu as besoin de savoir, @playerdescriptor.race@. Commençons.
 #LIGHT_GREEN#*L'arène se refroidit au fur et à mesure qu'elle parle, et le public...
 #LIGHT_GREEN#commence à porter ses plus beaux manteaux d'hiver.*]], "_t")
-t("Bring it!", "Amène-toi!", "_t")
+t("Bring it!", "Amène-toi !", "_t")
 t([[#LIGHT_GREEN#*With your final blow, Fryjia falls, unable to continue*
 #LIGHT_GREEN#*She awkwardly stands up, but doesn't seem critically injured*
 #WHITE# I...I admit defeat.
@@ -2042,11 +2042,11 @@ There is a battle to fight here!]], [[#LIGHT_GREEN#*La porte s'ouvre, révélant
 #LIGHT_GREEN#Elle vous regarde avec un large sourire*
 #WHITE# Mon dieu, mon dieu, quel beau @playerdescriptor.race@ vous êtes. Quel était votre nom déjà, @playername@? Je suis si heureuse d'être votre rival aujourd'hui.
 #LIGHT_GREEN#*Elle parle doucement comme si elle confiait un secret* #WHITE#Vous savez, il y en a si peu qui passent le cap de la première année, c'est tellement ennuyeux.#LIGHT_GREEN#*Elle glousse.*#WHITE#
-Donc! Je suis Riala, la Cramoisie. Je viens directement d'Angolwen. Malgré, vous savez, toute l'affaire de la Brûlure magique, les gens apprécient toujours quelques tours de magie!
-#LIGHT_GREEN#*Elle claque des doigts, et des flammes se mettent à danser autour d'elle!*#WHITE#
-Fryjia m'a parlé de vous, pauvre petite chose, alors je ne sous-estimerai pas quelqu'un d'aussi prometteur. #LIGHT_GREEN#*Elle sourit chaleureusement* #WHITE#Donc, hâtons-nous brave petite chose!
-Il y a un combat à mener ici!]], "_t")
-t("Let's go!", "Allons-y!", "_t")
+Donc ! Je suis Riala, la Cramoisie. Je viens directement d'Angolwen. Malgré, vous savez, toute l'affaire de la Brûlure magique, les gens apprécient toujours quelques tours de magie !
+#LIGHT_GREEN#*Elle claque des doigts, et des flammes se mettent à danser autour d'elle !*#WHITE#
+Fryjia m'a parlé de vous, pauvre petite chose, alors je ne sous-estimerai pas quelqu'un d'aussi prometteur. #LIGHT_GREEN#*Elle sourit chaleureusement* #WHITE#Donc, hâtons-nous brave petite chose !
+Il y a un combat à mener ici !]], "_t")
+t("Let's go!", "Allons-y !", "_t")
 t([[#LIGHT_GREEN#*With the final blow, Riala falls...to suddenly burst in flames!!
 #LIGHT_GREEN#You stare at the blazing inferno with understandable confusion,
 #LIGHT_GREEN#until you hear her voice from behind*#WHITE#
@@ -2055,16 +2055,16 @@ Oh, my dear! That was quite the fight, wasn't it? I concede you the honor of vic
 Fryjia was right about you: you seem to be a champion in the works!
 Oh, and please forgive her behavior. You will understand when you meet her father.
 And, if you keep fighting like this, it will be really soon.
-So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], [[#LIGHT_GREEN#*Avec le coup final, Riala tombe... pour soudainement se consumer en flammèches!!
+So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], [[#LIGHT_GREEN#*Avec le coup final, Riala tombe... pour soudainement se consumer en flammèches !!
 #LIGHT_GREEN#Vous fixez le brasier avec une confusion compréhensible,
 #LIGHT_GREEN#jusqu'à ce que vous entendiez sa voix par derrière*#WHITE#
-Oh, mon petit! C'était un sacré combat, n'est-ce pas? Je vous concède l'honneur de la victoire.
+Oh, mon petit ! C'était un sacré combat, n'est-ce pas? Je vous concède l'honneur de la victoire.
 #LIGHT_GREEN#*Elle s'incline poliment*
-Fryjia avait raison à votre sujet, vous semblez être un champion en devenir!
+Fryjia avait raison à votre sujet, vous semblez être un champion en devenir !
 Oh, et s'il vous plaît, pardonnez son comportement. Vous comprendrez quand vous rencontrerez son père.
 Et, si vous continuez à vous battre comme ça, ce sera très bientôt.
 Alors, çe fut un plaisir, @playername@. #LIGHT_GREEN#*Elle disparaît dans une spirale de flammes*]], "_t")
-t("I am pumped up! What's next?", "Je suis chaud! C'est quoi la suite?", "_t")
+t("I am pumped up! What's next?", "Je suis chaud ! C'est quoi la suite?", "_t")
 t("Am I the only person with a name that can die here?", "Suis-je la seule personne avec un nom qui peut mourir ici?", "_t")
 t([[#LIGHT_GREEN#*You suddenly realize everything has turned dark.
 #LIGHT_GREEN#You look around searching for your rival. And then you notice it. Standing
@@ -2085,11 +2085,11 @@ f...t...ma....ll...
 #LIGHT_GREEN#réalisant que c'est en fait un humain qui se trouve dans cette armure massive et usée. Tu ne peux pas voir
 #LIGHT_GREEN#ses yeux, mais tu sais qu'il perce ton âme de son regard*.
 f...t...ma....ll...
-#LIGHT_GREEN#*Vous entendez une voix diabolique, venant de partout à la fois!! Mais... vous êtes
-#LIGHT_GREEN#incapable de comprendre quoi que ce soit! Cela ne ressemble à aucune des langues utilisées en
+#LIGHT_GREEN#*Vous entendez une voix diabolique, venant de partout à la fois !! Mais... vous êtes
+#LIGHT_GREEN#incapable de comprendre quoi que ce soit ! Cela ne ressemble à aucune des langues utilisées en
 #LIGHT_GREEN#Maj'Eyal !
 #LIGHT_GREEN#Et puis... un rugissement perçant, démoniaque... vous êtes submergé par une émotion
-#LIGHT_GREEN#extrème qui envahie ton âme!!*
+#LIGHT_GREEN#extrème qui envahie ton âme !!*
 ]], "_t")
 t("#LIGHT_GREEN#*You valiantly stand against the darkness*", "#LIGHT_GREEN#*Tu te tiens vaillamment debout contre l'obscurité*", "_t")
 t([[#LIGHT_GREEN#*You valiantly deliver the finishing blow!*
@@ -2106,7 +2106,7 @@ Good luck...
 #LIGHT_GREEN#*There it is. Your goal. Your heart beats fast, as the time has come*
 #LIGHT_GREEN#*The Master of the Arena smiles proudly*
 #RED#The final battle begins when the gate closes, just this final time!!
-]], [[#LIGHT_GREEN#*Tu as vaillamment porté le coup de grâce!*
+]], [[#LIGHT_GREEN#*Tu as vaillamment porté le coup de grâce !*
 #LIGHT_GREEN#*Valfren s'effondre alors que la lumière revient dans ce monde.
 #LIGHT_GREEN#*Vous fermez les yeux pendant un bref instant. Fryjia est là quand vous les ouvrez*.
 Père... #LIGHT_GREEN#*Elle reste silencieuse pendant quelques secondes*#WHITE# Tu as gagné, @playerdescriptor.race@.
@@ -2119,11 +2119,11 @@ Bonne chance...
 
 #LIGHT_GREEN#*Le voilà votre objectif. Votre coeur bat vite, car le moment est venu*
 #LIGHT_GREEN#*Le maître de l'arène sourit fièrement*
-#RED#La bataille finale commence lorsque le portail se referme, juste pour cette dernière fois!!
+#RED#La bataille finale commence lorsque le portail se referme, juste pour cette dernière fois !!
 ]], "_t")
-t("I will defeat you, Master of the Arena!!!", "Je vous vaincrai, Maître de l'Arène!!!", "_t")
-t("I will become Master of the Arena instead of the Master of the Arena!!", "Je deviendrai le Maître de l'Arène à la place du Maître de l'Arène!!", "_t")
-t("Wealth and glory! Wealth and glory!", "Gloire et richesse! Gloire et richesse!", "_t")
+t("I will defeat you, Master of the Arena!!!", "Je vous vaincrai, Maître de l'Arène !!!", "_t")
+t("I will become Master of the Arena instead of the Master of the Arena!!", "Je deviendrai le Maître de l'Arène à la place du Maître de l'Arène !!", "_t")
+t("Wealth and glory! Wealth and glory!", "Gloire et richesse ! Gloire et richesse !", "_t")
 t([[#LIGHT_GREEN#*Finally, the master of the arena comes into the gates!
 #LIGHT_GREEN#The public roars with excitement as he faces you with confidence!*
 I applaud you, @playerdescriptor.race@! You have fought with might and courage!
@@ -2135,11 +2135,11 @@ Like you, I started from nowhere. I won't underestimate someone with such potent
 Can you hear it, the public cheering? That's what this is about.
 Pursue glory with all your might, @playerdescriptor.race@!!
 #LIGHT_GREEN#*The master steps forward into the sand*
-]], [[#LIGHT_GREEN#*Enfin, le maître de l'arène franchit les portes!
+]], [[#LIGHT_GREEN#*Enfin, le maître de l'arène franchit les portes !
 #LIGHT_GREEN#Le public hurle d'excitation alors qu'il vous fait face avec confiance !*
-Je t'applaudis, @playerdescriptor.race@ ! Tu t'es battu avec courage et force!
-Et maintenant... c'est l'heure de l'épreuve de force finale!
-#LIGHT_GREEN#*Le maître se met en position de combat. Le public l'acclame!*
+Je t'applaudis, @playerdescriptor.race@ ! Tu t'es battu avec courage et force !
+Et maintenant... c'est l'heure de l'épreuve de force finale !
+#LIGHT_GREEN#*Le maître se met en position de combat. Le public l'acclame !*
 Comme vous, je suis parti de nulle part. Je ne vais pas sous-estimer quelqu'un qui a un tel potentiel.
 #LIGHT_GREEN#Le maître sourit, vous vous mettez en position de combat et le public
 #LIGHT_GREEN#*t'acclame également, faisant grandir ton excitation*.
@@ -2147,7 +2147,7 @@ Tu l'entends, le public qui t'acclame? C'est ce dont il s'agit.
 Poursuis la gloire de toutes tes forces, @playerdescriptor.race@ !!
 #LIGHT_GREEN#*Le maître s'avance dans le sable*
 ]], "_t")
-t("Wealth and glory!!!", "Gloire et richesse!!!", "_t")
+t("Wealth and glory!!!", "Gloire et richesse !!!", "_t")
 t([[#LIGHT_GREEN#*After a glorious battle, the Master falls!*
 Hah...haha. You did it, @playerdescriptor.race@...
 #LIGHT_GREEN#*The master of the arena, defeated, stands up with a wide smile.
@@ -2169,17 +2169,17 @@ But meanwhile, this is your place! Welcome to paradise, @playerdescriptor.race@!
 #YELLOW#You are the new master of the arena! You are great and epic!
 #YELLOW#You shall remain as the new master until someone challenges you!
 #YELLOW#Next time you play, you shall battle this new champion instead!
-]], [[#LIGHT_GREEN#*Après une glorieuse bataille, le Maître tombe!*
+]], [[#LIGHT_GREEN#*Après une glorieuse bataille, le Maître tombe !*
 Hah...haha. Tu as réussi, @playerdescriptor.race@...
 #LIGHT_GREEN#*Le maître de l'arène, vaincu, se relève avec un large sourire.
 #LIGHT_GREEN#Sentant l'approbation du maître, vous ramassez son arme, désormais couchée
 #LIGHT_GREEN#dans le sable souillé de sang.*
-Tout le monde! Nous avons aujourd'hui un champion!
+Tout le monde ! Nous avons aujourd'hui un champion !
 #LIGHT_GREEN#*Le public se déchaîne et crie votre nom à plusieurs reprises*.
 Félicitations, @playerdescriptor.race@. Tu es le maître maintenant.
 Tu vas maintenant prendre la place qui te revient en tant que champion.
 Souviens-toi juste que... comme moi, tu tomberas un jour...
-Mais en attendant, c'est ta place! Bienvenue au paradis, @playerdescriptor.race@!
+Mais en attendant, c'est ta place ! Bienvenue au paradis, @playerdescriptor.race@ !
 #LIGHT_GREEN#*Vous voyez plusieurs sponsors et recruteurs militaires s'approcher
 #LIGHT_GREEN#du maître maintenant vaincu, lui proposant des offres et de bonnes positions dans l'armée.
 #LIGHT_GREEN#Vous souriez, victorieux, sachant que votre vie sera dorénavant glorieuse.
@@ -2187,13 +2187,13 @@ Mais en attendant, c'est ta place! Bienvenue au paradis, @playerdescriptor.race@
 #LIGHT_GREEN#Vous pourrez toujours vendre votre image et vivre grassement.
 
 #YELLOW#FÉLICITATIONS !
-#YELLOW#Vous êtes le nouveau maître de l'arène! Vous êtes grand et épique!
-#YELLOW#Tu resteras le nouveau maître jusqu'à ce que quelqu'un te défie!
-#YELLOW#La prochaine fois que tu joueras, tu affronteras ce nouveau champion!
+#YELLOW#Vous êtes le nouveau maître de l'arène ! Vous êtes grand et épique !
+#YELLOW#Tu resteras le nouveau maître jusqu'à ce que quelqu'un te défie !
+#YELLOW#La prochaine fois que tu joueras, tu affronteras ce nouveau champion !
 ]], "_t")
-t("WEALTH!! AND!! GLORYYYYY!!", "GLOIRE!! ET!! RICHESSE!!", "_t")
-t("I won't need to save chicks from cults anymore!", "Je n'aurai plus besoin de sauver les filles des sectes!", "_t")
-t("I hereby stand victorious, awaiting future challenges!", "Je reste donc victorieux, en attendant les futurs défis!", "_t")
+t("WEALTH!! AND!! GLORYYYYY!!", "GLOIRE !! ET !! RICHESSE !!", "_t")
+t("I won't need to save chicks from cults anymore!", "Je n'aurai plus besoin de sauver les filles des sectes !", "_t")
+t("I hereby stand victorious, awaiting future challenges!", "Je reste donc victorieux, en attendant les futurs défis !", "_t")
 t("#LIGHT_GREEN#*dance*", "#LIGHT_GREEN#*danse*", "_t")
 -- texte non traduit
 --[==[
@@ -2255,7 +2255,7 @@ t([[#GOLD#%s#LAST#
 ------------------------------------------------
 section "mod-tome/data/chats/assassin-lord-thieves.lua"
 
-t("I ain't no chatting! Speak to the boss!", "Je ne suis pas un bavard! Parlez au patron!", "_t")
+t("I ain't no chatting! Speak to the boss!", "Je ne suis pas un bavard ! Parlez au patron !", "_t")
 t("[leave]", "[partir]", "_t")
 
 ------------------------------------------------
@@ -2268,29 +2268,29 @@ Ahh, the intruder at last... And what shall we do with you? Why did you kill my 
 Ahh, enfin l'intrus... Et qu'allons-nous faire de toi? Pourquoi avez-vous tué mes hommes?]], "_t")
 t("I heard some cries, and your men... they were in my way. What's going on here?", "J'ai entendu des cris, et vos hommes... ils étaient sur mon chemin. Qu'est-ce qui se passe ici?", "_t")
 t("I thought there might be some treasure to be had around here.", "Je pensais qu'il y avait peut-être un trésor à trouver par ici.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_assassin-lord")
-t("Oh, you are not going anywhere, I'm afraid! KILL!", "Oh, vous n'allez nulle part, j'en ai peur! TUER LE!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_assassin-lord")
+t("Oh, you are not going anywhere, I'm afraid! KILL!", "Oh, vous n'allez nulle part, j'en ai peur ! TUER LE !", "_t")
 t("[attack]", "[attaquer]", "_t")
-t("Wait! Maybe we could work out some kind of arrangement; you seem to be a practical man.", "Attendez! Peut-être que nous pourrions trouver un arrangement, vous semblez être un homme pragmatique.", "_t")
-t("Oh, so this is the part where I tell you my plan before you attack me? GET THIS INTRUDER!", "Oh, donc c'est la partie où je vous dis mon plan avant que vous m'attaquiez? ATTRAPEZ CET INTRUS!", "_t")
-t("I am afraid this is not your lucky day then. The merchant is ours... and so are you! GET THIS INTRUDER!!", "Je crains que ce ne soit pas votre jour de chance alors. Le marchand est à nous... et vous aussi! ATTRAPEZ CET INTRUS!", "_t")
+t("Wait! Maybe we could work out some kind of arrangement; you seem to be a practical man.", "Attendez ! Peut-être que nous pourrions trouver un arrangement, vous semblez être un homme pragmatique.", "_t")
+t("Oh, so this is the part where I tell you my plan before you attack me? GET THIS INTRUDER!", "Oh, donc c'est la partie où je vous dis mon plan avant que vous m'attaquiez? ATTRAPEZ CET INTRUS !", "_t")
+t("I am afraid this is not your lucky day then. The merchant is ours... and so are you! GET THIS INTRUDER!!", "Je crains que ce ne soit pas votre jour de chance alors. Le marchand est à nous... et vous aussi ! ATTRAPEZ CET INTRUS !", "_t")
 t([[Well, I need somebody to replace the men you killed. You look sturdy; maybe you could work for me.
 You will have to do some dirty work for me, though, and you will be bound to me.  Nevertheless, you may make quite a profit from this venture, if you are as good as you seem to be.
 And do not think of crossing me.  That would be... unwise.]], [[Et bien, j'ai besoin de quelqu'un pour remplacer les hommes que vous avez tués. Vous avez l'air robuste, vous pourriez peut-être travailler pour moi.
 Vous devrez faire du sale boulot, cependant, et vous serez lié à moi.  Néanmoins, vous pourriez faire un bon profit de cette entreprise, si vous êtes aussi bon que vous semblez l'être.
 Et ne pensez pas à me doubler.  Ce serait... imprudent.]], "_t")
 t("Well, I suppose it is better than dying.", "Eh bien, je suppose que c'est mieux que de mourir.", "_t")
-t("Money? I'm in!", "De l'argent? J'en suis!", "_t")
-t("Just let me and the merchant get out of here and you may live!", "Laissez-moi sortir d'ici avec le marchand et vous pourrez vivre!", "_t")
+t("Money? I'm in!", "De l'argent ? J'en suis !", "_t")
+t("Just let me and the merchant get out of here and you may live!", "Laissez-moi sortir d'ici avec le marchand et vous pourrez vivre !", "_t")
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/avatar-distant-sun-unlock.chat"
 
 t("Uhh, okay. Sure. Mind showing me?", "Uhh, okay. Bien sûr. Vous pouvez me montrer?", "chat")
 t([[<<<You feel a gentle warmth in your mind. Something speaks directly to your mind!>>>
-#YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], [[<<<Vous ressentez une douce chaleur dans votre esprit. Quelque chose s'y adresse directement à votre esprit!>>>
+#YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], [[<<<Vous ressentez une douce chaleur dans votre esprit. Quelque chose s'y adresse directement à votre esprit !>>>
 #YELLOW#BONJOUR, AMI. JE SUIS UNE ÉTOILE VENUE DE TRÈS LOIN. JE T'AI ENTENDU FAIRE L'ÉLOGE DE TON SOLEIL. POURQUOI NE PAS ME LOUER À LA PLACE ? JE SUIS UN BIEN MEILLEUR SOLEIL QUE CET ORBE GAZEUX TERNE ET SANS VIE DANS VOTRE VOISINAGE. S'IL VOUS PLAÎT, PERMETTEZ-MOI DE VOUS DÉMONTRER MES BONNES INTENTIONS.]], "chat")
 t("I don't take unsolicited messages from... stars.", "Je ne prends pas de messages non sollicités... d'étoiles.", "chat")
 t("#YELLOW#YOU ONLY HAD TO ASK, MY FRIEND.", "#YELLOW#VOUS N'AVIEZ QU'À DEMANDER, MON AMI.", "chat")
@@ -2312,7 +2312,7 @@ t("#GOLD#[you are now an Avatar of a Distant Sun]", "#GOLD#[Vous êtes maintenan
 t("Yes, give me your power!", "Oui, donnez-moi votre pouvoir !", "chat")
 t([[<<<You feel the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
 #YELLOW#I AM HERE. DO YOU DESIRE TO SMITE EVIL, DESTROY THE DARKNESS AND SCOUR THE EARTH? I SHALL AID YOU IN THIS QUEST. TOGETHER, WE WILL BE UNSTOPPABLE. ALL DARKNESS SHALL BE CONSUMED BY OUR LIGHT.
-#LAST#]], [[<<<Vous ressentez une douce chaleur dans votre esprit. Quelque chose s'y adresse directement à votre esprit!>>>
+#LAST#]], [[<<<Vous ressentez une douce chaleur dans votre esprit. Quelque chose s'y adresse directement à votre esprit !>>>
 #YELLOW#JE SUIS ICI. DÉSIREZ-VOUS FRAPPER LE MAL, DÉTRUIRE LES TÉNÈBRES ET PARCOURIR LA TERRE? JE VOUS AIDERAI DANS CETTE QUÊTE. ENSEMBLE, NOUS SERONS INARRÊTABLES. TOUTES LES TÉNÈBRES SERONT CONSUMÉES PAR NOTRE LUMIÈRE.
 #LAST#]], "chat")
 t("Who... Who are you?", "Qui... Qui êtes-vous ?", "chat")
@@ -2347,8 +2347,8 @@ t("Never mind", "Peu importe", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/chronomancy-see-threads.lua"
 
-t("#PURPLE#A paradox has already destroyed other timelines!", "#PURPLE#Un paradoxe a déjà détruit d'autres lignes temporelles!", "logPlayer")
-t("#LIGHT_BLUE#You select the timeline and re-arrange the universe to your liking!", "#LIGHT_BLUE#Vous sélectionnez la chronologie et réorganisez l'univers à votre guise!", "logPlayer")
+t("#PURPLE#A paradox has already destroyed other timelines!", "#PURPLE#Un paradoxe a déjà détruit d'autres lignes temporelles !", "logPlayer")
+t("#LIGHT_BLUE#You select the timeline and re-arrange the universe to your liking!", "#LIGHT_BLUE#Vous sélectionnez la chronologie et réorganisez l'univers à votre guise !", "logPlayer")
 t("You have lived %d turns in three different timelines. Which do you choose to be the real timeline?", "Vous avez vécu %d tours dans trois lignes temporelles différentes. Laquelle choisissez-vous comme étant la vraie ligne du temps ?", "tformat")
 t("The first.", "La première.", "_t")
 t("The second.", "La seconde.", "_t")
@@ -2362,12 +2362,12 @@ t("Hurry up and make with the foe-blasting.", "Dépêchez vous et n'oubliez pas 
 t("O wise wielder, instruct me that I may better serve you.", "Ô sage utilisateur, éclairez-moi pour que je puisse mieux vous servir.", "_t")
 t("Make amends, magic-user, for the harm ye have wrought is beyond compare.", "Faites amende honorable, usager de la magie, car le mal que vous avez fait est incomparable.", "_t")
 t("You really could have chosen a better home for me, you know. I was reasonably happy in my old crystal. This stick smells like armpit.", "Vous auriez vraiment pu choisir une meilleure maison pour moi, vous savez. J'étais raisonnablement heureux dans mon ancien cristal. Ce bâton sent les aisselles.", "_t")
-t("Tremble before the might of Telos!", "Tremblez devant la puissance de Telos!", "_t")
+t("Tremble before the might of Telos!", "Tremblez devant la puissance de Telos !", "_t")
 t("It is not yet your place to command such a staff as this. To do so invites obliteration.", "Il n'est pas encore de votre ressort de commander un tel bâton. Le faire, c'est s'exposer à l'anéantissement.", "_t")
 t("Call on which aspect of the staff?", "Demander quel aspect sur le bâton?", "_t")
-t("error!", "erreure!", "_t")
+t("error!", "erreure !", "_t")
 t("Oh, I was once a mighty Eldritch Channeler. Mighty and absentminded, as it turns out. Had a bit of a mishap with an Inverted Kugala's Soul-infusion technique. Long story short, my soul is now stuck in this stick, and the soul I was working with... well, I don't rightly know where he got to. But I hope we never meet him.", "Oh, j'étais autrefois un puissant canalisateur occulte. Puissant et distrait, comme il s'avère. J'ai eu une petite mésaventure avec une technique d'essence d'âme de Kugala inversé. Pour faire court, mon âme est maintenant coincée dans ce bâton, et l'âme avec laquelle je travaillais... eh bien, je ne sais pas vraiment où elle est allée. Mais j'espère qu'on ne le rencontrera jamais.", "_t")
-t("Argh! Bollocksed up a tricky bit of soul magic and the fool that I was supposed to be imprisoning for all eternity flitted away. My body, like all the targets of my spells, intended or otherwise, got reduced to elementary particles. Fortunately, I had this soul-cage of a staff all prepped and ready for a stray soul, so I'm not completely gone. But enough chit-chat. Let's fry somebody.", "Argh! J'ai raté un petit tour de magie de l'âme et le fou que j'étais censé emprisonner pour l'éternité s'est enfui. Mon corps, comme toutes les cibles de mes sorts, intentionnelles ou non, a été réduit en particules élémentaires. Heureusement, j'avais ce bâton-cage à âmes tout préparé et prêt pour une âme égarée, donc je ne suis pas complètement parti. Mais assez de bavardages. Allons griller quelqu'un.", "_t")
+t("Argh! Bollocksed up a tricky bit of soul magic and the fool that I was supposed to be imprisoning for all eternity flitted away. My body, like all the targets of my spells, intended or otherwise, got reduced to elementary particles. Fortunately, I had this soul-cage of a staff all prepped and ready for a stray soul, so I'm not completely gone. But enough chit-chat. Let's fry somebody.", "Argh ! J'ai raté un petit tour de magie de l'âme et le fou que j'étais censé emprisonner pour l'éternité s'est enfui. Mon corps, comme toutes les cibles de mes sorts, intentionnelles ou non, a été réduit en particules élémentaires. Heureusement, j'avais ce bâton-cage à âmes tout préparé et prêt pour une âme égarée, donc je ne suis pas complètement parti. Mais assez de bavardages. Allons griller quelqu'un.", "_t")
 t("My old master-- who, though a powerful enchanter, did not compare to you and your glory-- saw fit to imprison me in this fine staff to aid him in his work. Alas, he is long gone, but I despair not, for I have found a mighty new master.", "Mon ancien maître -- qui, bien qu'étant un puissant enchanteur, n'était pas comparable à vous et à votre gloire -- a jugé bon de m'emprisonner dans ce beau bâton pour l'aider dans son travail. Hélas, il est parti depuis longtemps, mais je ne désespère pas, car j'ai trouvé un puissant nouveau maître.", "_t")
 t("I am a portion of the very spirit of the world that was ripped free during the Spellblaze. I speak that I might enlighten those who bear me.", "Je suis une partie de l'esprit même du monde qui a été libéré pendant la Brûlure magique. Je parle pour éclairer ceux qui me portent.", "_t")
 t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Best study up if you don't want to die forgotten and incompetent.", "A quoi sert l'immortalité si on ne peut même pas parler? Aucun archimage digne de ce nom ne va concocter un plan immoral de vie après la mort sans inclure une sorte de capacité à faire connaître ses opinions. Et, au fait, vos techniques de manipulation de l'énergie sont du même niveau que celles de ma paire de chaussures moyenne. Vous feriez mieux d'étudier si vous ne voulez pas mourir oublié et incompétent.", "_t")
@@ -2393,22 +2393,22 @@ section "mod-tome/data/chats/conclave-vault-greeting.lua"
 t([[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
 YOU!  Name, rank, and identification.  NOW.
 ]], [[#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et se mettent immédiatement au garde-à-vous. Celui de droite parle:*#WHITE#.
-VOUS!  Nom, grade et identification.  MAINTENANT.
+VOUS !  Nom, grade et identification.  MAINTENANT.
 ]], "_t")
 t("My what?", "Mon quoi?", "_t")
 t("[attack]", "[attaquer]", "_t")
 t("#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately draw their weapons.", "#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et sortent immédiatement leurs armes.", "_t")
-t("#CRIMSON#NARGOL SCUM!  WE'RE UNDER ATTACK!", "#CRIMSON#ORDURE DE NARGOL!  NOUS SOMMES ATTAQUÉS!", "_t")
+t("#CRIMSON#NARGOL SCUM!  WE'RE UNDER ATTACK!", "#CRIMSON#ORDURE DE NARGOL !  NOUS SOMMES ATTAQUÉS !", "_t")
 t([[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
 Ah!  Reinforcements!  I don't know how long it's been, but I'll get Astelrid up here to--  wait a minute, where are the rest of them?  #LIGHT_GREEN#*He frowns.*#WHITE# What's your identification number?
 ]], [[#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et se mettent immédiatement au garde-à-vous. Celui de droite parle:*#WHITE#
-Ah! Des renforts!  Je ne sais pas combien de temps cela a duré, mais je vais faire venir Astelrid pour... Attendez une minute, où sont les autres?  #LIGHT_GREEN#*Il se renfrogne.*#WHITE# Quel est votre numéro d'identification?
+Ah ! Des renforts !  Je ne sais pas combien de temps cela a duré, mais je vais faire venir Astelrid pour... Attendez une minute, où sont les autres?  #LIGHT_GREEN#*Il se renfrogne.*#WHITE# Quel est votre numéro d'identification?
 ]], "_t")
-t("Wait! The war's over! It's been thousands of years, the Conclave doesn't exist anymore!", "Attendez! La guerre est finie! Cela fait des milliers d'années, le Conclave n'existe plus!", "_t")
+t("Wait! The war's over! It's been thousands of years, the Conclave doesn't exist anymore!", "Attendez ! La guerre est finie ! Cela fait des milliers d'années, le Conclave n'existe plus !", "_t")
 t([[#LIGHT_GREEN#*They look at each other and scowl, drawing their weapons.  The one on the left growls:*#WHITE#
 LIES!  The Conclave could not have lost!  I don't know who you are, but we can't afford witnesses!
 ]], [[#LIGHT_GREEN#*Ils se regardent l'un l'autre, se renfrognent et sortent leurs armes.  Celui de gauche rugit:*#WHITE#
-MENSONGES!  Le Conclave n'a pas pu perdre!  Je ne sais pas qui vous êtes, mais nous ne pouvons pas nous permettre d'avoir des témoins!
+MENSONGES !  Le Conclave n'a pas pu perdre !  Je ne sais pas qui vous êtes, mais nous ne pouvons pas nous permettre d'avoir des témoins !
 ]], "_t")
 
 ------------------------------------------------
@@ -2416,16 +2416,16 @@ section "mod-tome/data/chats/corruptor-quest.lua"
 
 t([[Wait, @playerdescriptor.subclass@!
 I see you are a worthy opponent, powerful indeed. I can see, and feel, your mastery of the eldritch crafts.
-We are the same.]], [[Attendez, @playerdescriptor.subclass@!
+We are the same.]], [[Attendez, @playerdescriptor.subclass@ !
 Je vois que vous êtes un adversaire de taille, puissant en effet. Je peux voir, et sentir, votre maîtrise de l'artisanat eldritch.
 Nous sommes les mêmes.]], "_t")
 t("What do you mean 'the same'?", "Que voulez-vous dire par \"les mêmes\"?", "_t")
-t("I am nothing like you. Die!", "Je ne suis pas comme toi. Meurs!", "_t")
+t("I am nothing like you. Die!", "Je ne suis pas comme toi. Meurs !", "_t")
 t("So be it. Die, and give me your power!", "Ainsi soit-il. Meurs, et donne-moi tes pouvoirs !", "_t")
 t([[We both know the strength of the arcane; we both hunger for power. There is so much I have discovered, so much I could teach you.
 This place is special. The veil of reality is thin here, forever shattered by the Spellblaze. We are taking advantage of this; we can draw on the power,
 leeching from this place, to better ourselves, to bring forth the dominion of magic!]], [[Nous connaissons tous deux la force des arcanes, nous avons tous deux soif de pouvoir. Il y a tellement de choses que j'ai découverts, tellement de choses que je pourrais vous apprendre.
-Cet endroit est spécial. Le voile de la réalité est mince ici, brisé à jamais par la Brûlure magique. Nous en profitons, nous pouvons puiser dans ce pouvoir, qui s'échappe de cet endroit, pour nous améliorer, pour amener la domination de la magie!]], "_t")
+Cet endroit est spécial. Le voile de la réalité est mince ici, brisé à jamais par la Brûlure magique. Nous en profitons, nous pouvons puiser dans ce pouvoir, qui s'échappe de cet endroit, pour nous améliorer, pour amener la domination de la magie !]], "_t")
 t("The world suffered from the Spellblaze enough. Magic must serve people, not enslave them. I will not listen to you!", "Le monde a assez souffert de la Brûlure magique. La magie doit servir les gens, pas les asservir. Je ne t'écouterai pas !", "_t")
 t("What do you propose, then?", "Que proposez-vous, alors?", "_t")
 t([[Let us end this meaningless fight. Have you ever heard of a group of people called the Ziguranth?
@@ -2433,35 +2433,35 @@ These rambling madmen think magic should not be permitted to exist! They fear us
 Let us join forces and crush the fools!]], [[Mettons fin à ce combat inutile. Avez-vous déjà entendu parler d'un groupe de personnes appelé les Zigurantes ?
 Ces fous furieux pensent que la magie ne devrait pas être autorisée à exister ! Ils nous craignent, ils craignent nos pouvoirs.
 Unissons nos forces et écrasons ces fous !]], "_t")
-t("Magic shall triumph!", "La magie triomphera!", "_t")
+t("Magic shall triumph!", "La magie triomphera !", "_t")
 t("Magic has a purpose. Those men are wrong, but you seem much worse.", "La magie a un but. Ces hommes ont tort, mais vous semblez bien pire.", "_t")
-t("Then you must leave... THIS WORLD! DIE!", "Alors tu dois quitter... CE MONDE! CRÈVE!", "_t")
+t("Then you must leave... THIS WORLD! DIE!", "Alors tu dois quitter... CE MONDE ! CRÈVE !", "_t")
 t([[Good. Before your... untimely arrival we were preparing an attack on the Ziguranth main training camp, on the southern beach of the sea of Sash.
 Come with us; let's destroy them!
 I will open a portal to Zigur and the massacre shall begin!]], [[Bien. Avant votre... arrivée inopportune, nous préparions une attaque sur le camp d'entraînement principal des Zigurantes, sur la plage sud de la mer de Sash.
-Venez avec nous; détruisons-les!
+Venez avec nous; détruisons-les !
 Je vais ouvrir un portail vers Zigur et le massacre va commencer !]], "_t")
-t("I am ready!", "Je suis prêt(e)!", "_t")
+t("I am ready!", "Je suis prêt(e) !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/derth-attack-over.lua"
 
 t([[#LIGHT_GREEN#*A Halfling comes forth from his hiding place.*#WHITE#
 You killed them all? Are we safe now? Oh, please tell me this was a bad dream!]], [[#LIGHT_GREEN#*Un Halfelin sort de sa cachette.*#WHITE#
-Vous les avez tous tués? On est en sécurité maintenant? Oh, s'il vous plaît dites-moi que c'était un mauvais rêve!]], "_t")
+Vous les avez tous tués? On est en sécurité maintenant? Oh, s'il vous plaît dites-moi que c'était un mauvais rêve !]], "_t")
 t("Be at ease. I have dispatched those monstrosities. Do you know where they came from or what they wanted?", "Soyez tranquille. Je me suis débarrassé de ces monstruosités. Savez-vous d'où elles viennent ou ce qu'elles veulent?", "_t")
 t([[From nowhere! From the sky!
-I do not know. I was tending my crop just outside the town when I heard screaming. As I entered the town, I saw the dark cloud over here. Those... those... things were coming from it in blasts of lightning!]], [[De nulle part! Du ciel!
-Je ne sais pas. Je m'occupais de ma récolte juste à l'extérieur de la ville quand j'ai entendu des cris. En entrant dans la ville, j'ai vu ce nuage sombre. Ces... ces... choses en sortaient sous forme d'éclairs!]], "_t")
+I do not know. I was tending my crop just outside the town when I heard screaming. As I entered the town, I saw the dark cloud over here. Those... those... things were coming from it in blasts of lightning!]], [[De nulle part ! Du ciel !
+Je ne sais pas. Je m'occupais de ma récolte juste à l'extérieur de la ville quand j'ai entendu des cris. En entrant dans la ville, j'ai vu ce nuage sombre. Ces... ces... choses en sortaient sous forme d'éclairs !]], "_t")
 t("It seems they have stopped coming for now. I will look for somebody who could help dispose of this nefarious cloud.", "Il semble qu'ils aient cessé de venir pour le moment. Je vais chercher quelqu'un qui pourrait m'aider à me débarrasser de ce nuage infernal.", "_t")
 t([[Thank you! You have saved many people today!
 I have heard of rumours of a reclusive town of wise and powerful men somewhere in the mountains. Maybe they could help? If they even exist...
-There are also those Zigur-something people that claim to fight magic. Why are they not here?!]], [[Merci! Vous avez sauvé beaucoup de gens aujourd'hui!
+There are also those Zigur-something people that claim to fight magic. Why are they not here?!]], [[Merci ! Vous avez sauvé beaucoup de gens aujourd'hui !
 J'ai entendu des rumeurs sur une ville recluse d'hommes sages et puissants quelque part dans les montagnes. Peut-être qu'ils pourraient aider? S'ils existent vraiment...
-Il y a aussi ces Zigur-quelque chose qui prétendent combattre la magie. Pourquoi ne sont-ils pas ici?!]], "_t")
+Il y a aussi ces Zigur-quelque chose qui prétendent combattre la magie. Pourquoi ne sont-ils pas ici ?!]], "_t")
 t("You mean the Ziguranth. That would be me.", "Tu veux dire le Zigurante. C'est moi.", "_t")
 t("I will not let you down.", "Je ne vous laisserais pas tomber.", "_t")
-t("Well then please do something about this evil magic!", "Alors, s'il vous plaît, faites quelque chose contre cette magie maléfique!", "_t")
+t("Well then please do something about this evil magic!", "Alors, s'il vous plaît, faites quelque chose contre cette magie maléfique !", "_t")
 t("I will!", "Je le ferai !", "chat_derth-attack-over")
 
 ------------------------------------------------
@@ -2469,12 +2469,12 @@ section "mod-tome/data/chats/dreadfell-ambush.lua"
 
 t([[#VIOLET#*As you come out of the Dreadfell, you encounter a band of orcs*#LAST#
 You! Give us the staff NOW and we might offer you a quick death!]], [[#VIOLET#*En sortant de Tombeffroie, vous rencontrez une bande d'orcs.*#LAST#
-Toi! Donne-nous le bâton MAINTENANT et nous pourrions t'offrir une mort rapide!]], "_t")
+Toi ! Donne-nous le bâton MAINTENANT et nous pourrions t'offrir une mort rapide !]], "_t")
 t("What are you talking about?", "De quoi parlez vous?", "_t")
 t("Why would you want it?", "Pourquoi le voudrais tu?", "_t")
 t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaquer]", "_t")
-t("Do not play dumb with Ukruk! ATTACK!", "Ne faites pas l'idiot avec Ukruk! À L'ATTAQUE!", "_t")
-t("That is not your concern! ATTACK!", "Cela ne te concerne pas! À L'ATTAQUE!", "_t")
+t("Do not play dumb with Ukruk! ATTACK!", "Ne faites pas l'idiot avec Ukruk ! À L'ATTAQUE !", "_t")
+t("That is not your concern! ATTACK!", "Cela ne te concerne pas ! À L'ATTAQUE !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/east-portal-end.lua"
@@ -2484,10 +2484,10 @@ Well met, @playername@!
 I am Meranas, Herald of Angolwen. I have come here at the request of King Tolak, who worried when you didn't return.
 We have been watching Tannen for some time, and were pleased to see you reveal his true nature-- and stop him. For this we are grateful, and I think we can pay you back.
 We have studied his portal research, and if you give me the components I will create the portal for you, here and now!]], [[#LIGHT_GREEN#*Un Humain en robe vous attend lorsque vous franchissez le portail.*#WHITE#
-Bienvenu, @playername@!
+Bienvenu, @playername@ !
 Je suis Meranas, héraut d'Angolwen. Je suis venu ici à la demande du Roi Tolak, qui s'est inquiété de votre absence.
 Nous surveillons Tannen depuis un certain temps, et nous avons été heureux de vous voir révéler sa vraie nature -- et l'arrêter. Pour cela, nous vous sommes reconnaissants, et je pense que nous pouvons vous rembourser.
-Nous avons étudié ses recherches sur les portails, et si vous me donnez les composants, je vais créer le portail pour vous, ici et maintenant!]], "_t")
+Nous avons étudié ses recherches sur les portails, et si vous me donnez les composants, je vais créer le portail pour vous, ici et maintenant !]], "_t")
 t("Yes, Tannen was not exactly friendly. I thank you for your help. Here are the components. [hand him the diamond and the athame]", "Oui, Tannen n'était pas exactement amical. Je vous remercie pour votre aide. Voici les composants. [lui remettre le diamant et l'athamé]", "_t")
 
 ------------------------------------------------
@@ -2499,9 +2499,9 @@ No matter how you came to this plane, #{bold}#DO NOT COME BACK!
 NOW BEGONE!
 #{normal}#
 .]], [[#LIGHT_GREEN#*Devant vous se tient une forme humanoïde remplie de "rien". Elle semble vous regarder fixement.*#WHITE#
-Je suis l'Eidolon et vous n'êtes pas les bienvenus ici!
-Peu importe comment vous êtes arrivé dans plan, #{bold}#NE REVENEZ PAS!
-MAINTENANT PARTEZ!
+Je suis l'Eidolon et vous n'êtes pas les bienvenus ici !
+Peu importe comment vous êtes arrivé dans plan, #{bold}#NE REVENEZ PAS !
+MAINTENANT PARTEZ !
 #{normal}#
 .]], "_t")
 t([[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
@@ -2516,10 +2516,10 @@ Tu peux te reposer ici, et quand tu seras prêt, je te renverrai au plan matéri
 Mais n'abusez pas de mon aide. Je ne suis pas votre serviteur, et un jour, je pourrais vous laisser mourir.
 Quant à vos nombreuses questions, elles resteront probablement sans réponse. Je peux vous aider, mais je ne suis pas là pour vous expliquer pourquoi.]], "_t")
 t("Thank you. I will rest for a while.", "Je vous remercie. Je vais me reposer un peu.", "_t")
-t("Thank you. I am ready to go back!", "Je vous remercie. Je suis prêt à y retourner!", "_t")
+t("Thank you. I am ready to go back!", "Je vous remercie. Je suis prêt à y retourner !", "_t")
 t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else please?", "Merci, mais je crains de ne pas survivre de toute façon. Pouvez-vous me renvoyer ailleurs, s'il vous plaît?", "_t")
 t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else on the level please?", "Merci, mais je crains de ne pas survivre de toute façon, pouvez-vous me renvoyer ailleurs dans le niveau s'il vous plaît ?", "_t")
-t("Thank you, I am ready to go back!", "Merci, je suis prêt à y retourner!", "_t")
+t("Thank you, I am ready to go back!", "Merci, je suis prêt à y retourner !", "_t")
 t("Thank you, but I am weary of this life, I wish no more, please let me go.", "Merci, mais je suis fatigué de cette vie, je n'en peut plus, s'il vous plaît laissez-moi partir.", "_t")
 t([[It seems the threads of time and space have been disrupted...
 I will try to send you to safety.]], [[Il semble que les fils du temps et de l'espace aient été rompus...
@@ -2555,11 +2555,11 @@ t("[You do not recognize anything new.]", "[Vous ne reconnaissez rien de nouveau
 t("Oh, hi @playername@, have you got something new to show me?", "Oh, salut @playername@, tu as quelque chose de nouveau à me montrer?", "_t")
 t("Yes, Elisa, could you have a look at these objects please? [show her the items the orb could not identify]", "Oui Elisa, pourriez-vous jeter un coup d'oeil à ces objets s'il vous plaît? [Lui montrer les objets que l'orbe n'a pas pu identifier]", "_t")
 t("Err, no... sorry, I just wanted to hear a friendly voice.", "Err, non... désolé, je voulais juste entendre une voix amicale.", "_t")
-t("Not yet sorry!", "Pas encore, malheureusement!", "_t")
+t("Not yet sorry!", "Pas encore, malheureusement !", "_t")
 t([[#LIGHT_GREEN#*You hear something akin to a muffled giggle*#WHITE#
 Oh, you are #{bold}#SOOOO#{normal}# cute!]], [[#LIGHT_GREEN#*Vous entendez quelque chose qui ressemble à un ricanement étouffé.*#WHITE#
-Oh, vous êtes #{bold}#TELLEMENT#{normal}# adorable!]], "_t")
-t("Goodbye, Elisa!", "Au revoir, Elisa!", "_t")
+Oh, vous êtes #{bold}#TELLEMENT#{normal}# adorable !]], "_t")
+t("Goodbye, Elisa!", "Au revoir, Elisa !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/elisa-shop.lua"
@@ -2570,8 +2570,8 @@ t([[Let's see what have you got here...
 That is very nice, @playername@!]], [[Voyons voir ce que vous avez là...
 %s
 
-C'est très beau, @playername@!]], "tformat")
-t("Thank you, Elisa!", "Merci, Elisa!", "_t")
+C'est très beau, @playername@ !]], "tformat")
+t("Thank you, Elisa!", "Merci, Elisa !", "_t")
 t("Hello friend, what can I do for you?", "Bonjour, que puis-je faire pour vous?", "_t")
 t("Could you have a look at these objects, please? [show her your unidentified items]", "Pourriez-vous jeter un coup d'oeil à ces objets, s'il vous plaît? [montrez-lui vos objets non identifiés]", "_t")
 t("Nothing, goodbye.", "Rien, au revoir.", "_t")
@@ -2581,10 +2581,10 @@ So take this orb (#LIGHT_GREEN#*she gives you an orb of scrying*#WHITE#). You ca
 I get to see many interesting things, and you get to know what your items do. We both win! Isn't it sweet?
 Oh yes, the orb will also identify mundane items for you, as long as you carry it.]], [[Attends, @playername@, tu sembles être un grand aventurier. Peut-être pouvons-nous nous entraider.
 Tu vois, j' #{bold}#ADORERAIS#{normal}# apprendre de nouvelles choses et trouver de vieux artefacts de pouvoir, mais je ne suis pas exactement une aventurière et je me ferais sûrement tuer là-bas.
-Prenez donc cet orbe (#LIGHT_GREEN#*elle vous donne un orbe de scrutation*#WHITE#). Tu peux l'utiliser pour me parler de n'importe où dans le monde! Ainsi, tu pourras me montrer tes nouvelles découvertes!
-Je verrai des choses intéressantes et tu sauras ce que font tes objets. Nous serons tous les deux gagnants! N'est-ce pas génial?
+Prenez donc cet orbe (#LIGHT_GREEN#*elle vous donne un orbe de scrutation*#WHITE#). Tu peux l'utiliser pour me parler de n'importe où dans le monde ! Ainsi, tu pourras me montrer tes nouvelles découvertes !
+Je verrai des choses intéressantes et tu sauras ce que font tes objets. Nous serons tous les deux gagnants ! N'est-ce pas génial?
 Ah oui, l'orbe peut aussi identifier les objets ordinaires, tant que vous la portez.]], "_t")
-t("Woah, thanks, Elisa. This is really nice!", "Woah, merci Elisa. C'est vraiment sympa!", "_t")
+t("Woah, thanks, Elisa. This is really nice!", "Woah, merci Elisa. C'est vraiment sympa !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/escort-quest-start.lua"
@@ -2593,7 +2593,7 @@ t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a Ziguranth t
 Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique Ziguranthe pour saboter le portail. @npcname@ sera envoyé à Zigur pour être "traité" comme il se doit.]#WHITE#
 Montrez-moi le chemin; Je vous protégerai.]], "_t")
 t("Escort", "Escorte", "_t")
-t("Go away; I do not help filthy arcane users!", "Dégagez; Je n'aide pas les sales utilisateurs des arcanes!", "_t")
+t("Go away; I do not help filthy arcane users!", "Dégagez; Je n'aide pas les sales utilisateurs des arcanes !", "_t")
 t("Lead on; I will protect you.", "Montrez-moi le chemin; Je vous protégerai.", "_t")
 t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
 Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique pour saboter le portail. @npcname@ sera envoyé à Zigur pour être "traité" comme il se doit.]#WHITE#
@@ -2609,7 +2609,7 @@ Vous sentez la nature vous remercier.]], "_t")
 t([[Thank you, my friend. I do not think I would have survived without you.
 Please let me reward you:]], [[Merci, mon ami. Je ne pense pas que j'aurais survécu sans vous.
 Laissez moi vous remercier s'il vous plait:]], "_t")
-t("There you go. Farewell!", "Et voila. Adieu!", "_t")
+t("There you go. Farewell!", "Et voila. Adieu !", "_t")
 t("Thank you.", "Merci.", "_t")
 
 ------------------------------------------------
@@ -2626,25 +2626,25 @@ t([[You.. you do not know?
 A few hours after you entered this place a raid of orcs fell upon us. They were not alone -- demons walked among them. We were overwhelmed! Utterly destroyed!
 My land is no more! All because you could not stop them at the Charred Scar! You failed us! People died to protect you, and you failed!
 #LIGHT_GREEN#*She starts to weep...*#WHITE#]], [[Vous... vous ne savez pas?
-Quelques heures après que vous soyez entrés dans cet endroit, un raid Orc nous est tombé dessus. Ils n'étaient pas seuls... des démons marchaient parmi eux. Nous avons été submergés! Complètement anéantis!
-Ma terre n'est plus! Tout ça parce que vous n'avez pas pu les arrêter à la Plaie craquelée! Vous avez échoué! Des gens sont morts pour vous protéger, et vous avez échoué!
+Quelques heures après que vous soyez entrés dans cet endroit, un raid Orc nous est tombé dessus. Ils n'étaient pas seuls... des démons marchaient parmi eux. Nous avons été submergés ! Complètement anéantis !
+Ma terre n'est plus ! Tout ça parce que vous n'avez pas pu les arrêter à la Plaie craquelée ! Vous avez échoué ! Des gens sont morts pour vous protéger, et vous avez échoué !
 #LIGHT_GREEN#*Elle commence à pleurer...*#WHITE#]], "_t")
-t("I know my mistakes and I intend to correct them. Please let me pass. I cannot save your people, but I can make their deaths mean something!", "Je reconnais mes erreurs et j'ai l'intention de les corriger. S'il vous plaît, laissez-moi passer. Je ne peux pas sauver votre peuple, mais je peux faire en sorte que leur mort signifie quelque chose!", "_t")
+t("I know my mistakes and I intend to correct them. Please let me pass. I cannot save your people, but I can make their deaths mean something!", "Je reconnais mes erreurs et j'ai l'intention de les corriger. S'il vous plaît, laissez-moi passer. Je ne peux pas sauver votre peuple, mais je peux faire en sorte que leur mort signifie quelque chose !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/gates-of-morning-main.lua"
 
 t("What may I do for you?", "Que puis-je faire pour vous?", "_t")
-t("Lady Aeryn, at last I am back home! [tell her your story]", "Dame Aeryn, enfin, je suis de retour chez moi! [lui raconter votre histoire]", "_t")
+t("Lady Aeryn, at last I am back home! [tell her your story]", "Dame Aeryn, enfin, je suis de retour chez moi ! [lui raconter votre histoire]", "_t")
 t("Tell me more about the Gates of Morning.", "Dites-m'en plus sur les Portes du Matin.", "_t")
 t("Before I came here, I happened upon members of the Sunwall in Maj'Eyal. Do you know of this?.", "Avant de venir ici, j'ai rencontré par hasard des membres du Mur Solaire en Maj'Eyal. Vous êtes au courant?", "_t")
 t("I need help in my hunt for clues about the staff.", "J'ai besoin d'aide dans ma chasse aux informations sur le bâton.", "_t")
 t("I have destroyed the leaders of all the Orc Prides.", "J'ai anéanti les chefs de toutes les Fiertés Orcs.", "_t")
 t("I am back from the Charred Scar, where the orcs took the staff.", "Je suis de retour de la Plaie Craquelée, où les orcs ont pris le bâton.", "_t")
 t("A dying paladin gave me this map; something about orc breeding pits. [tell her the story]", "Un paladin mourant m'a donné cette carte, quelque chose sur les fosses de reproduction Orcs. [lui raconter l'histoire]", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_gates-of-morning-main")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_gates-of-morning-main")
 t([[@playername@! We thought you had died in the portal explosion. I am glad we were wrong. You saved the Sunwall.
-The news about the staff is troubling. Ah well, please at least take time to rest for a while.]], [[@playername@! Nous pensions que vous étiez mort dans l'explosion du portail. Je suis heureux que nous ayons eu tort. Tu as sauvé le Mur Solaire.
+The news about the staff is troubling. Ah well, please at least take time to rest for a while.]], [[@playername@ ! Nous pensions que vous étiez mort dans l'explosion du portail. Je suis heureux que nous ayons eu tort. Tu as sauvé le Mur Solaire.
 Les nouvelles concernant le bâton sont troublantes. Ah bien, s'il vous plaît prenez au moins le temps de vous reposer pendant un certain temps.]], "_t")
 t("I shall, thank you, my lady.", "Je le ferai, merci Madame.", "_t")
 t([[There are two main groups in the population here, Humans and Elves.
@@ -2731,22 +2731,22 @@ t("I will avenge your men.", "Je vengerai vos hommes.", "_t")
 t([[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
 I am afraid with the power they gained today they will be even harder to stop, but we do not have a choice.]], [[Des sorciers? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Fiertés, mais il semble qu'ils en aient deux.
 Je crains qu'avec le pouvoir qu'ils ont acquis aujourd'hui, ils seront encore plus difficiles à arrêter, mais nous n'avons pas le choix.]], "_t")
-t("Ah! This is wonderful! Finally a ray of hope amidst the darkness. I will assign my best troops to this. Thank you, @playername@ - take this as a token of gratitude.", "Ah! C'est merveilleux! Enfin un rayon d'espoir au milieu de ces ténèbres. Je vais affecter mes meilleures troupes à cette tâche. Merci, @playername@, prenez ceci en gage de gratitude.", "_t")
+t("Ah! This is wonderful! Finally a ray of hope amidst the darkness. I will assign my best troops to this. Thank you, @playername@ - take this as a token of gratitude.", "Ah ! C'est merveilleux ! Enfin un rayon d'espoir au milieu de ces ténèbres. Je vais affecter mes meilleures troupes à cette tâche. Merci, @playername@, prenez ceci en gage de gratitude.", "_t")
 t("Good luck.", "Bonne chance.", "_t")
 t("Aeryn gives you: %s", "Aeryn vous donne: %s", "logPlayer")
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/gates-of-morning-welcome.lua"
 
 t([[#LIGHT_GREEN#*Before you stands a beautiful woman clad in shining golden armour*#WHITE#
 Stop! You are clearly a stranger! Where do you come from? The Gates of Morning are the last bastion of freedom in these lands, so who are you? A spy?]], [[#LIGHT_GREEN#*Devant vous se tient une femme magnifique, vêtue d'une splendide armure d'or.*#WHITE#
-Stop! Vous êtes clairement un étranger! D'où venez-vous? Les Portes du Matin sont le dernier bastion de liberté dans ces terres, alors qui êtes-vous? Un espion?]], "_t")
+Stop ! Vous êtes clairement un étranger ! D'où venez-vous? Les Portes du Matin sont le dernier bastion de liberté dans ces terres, alors qui êtes-vous? Un espion?]], "_t")
 t("My lady, I am indeed a stranger in these lands. I come from the west, from Maj'Eyal.", "Ma dame, je suis en effet un étranger sur ces terres. Je viens de l'ouest, de Maj'Eyal.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_gates-of-morning-welcome")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_gates-of-morning-welcome")
 t([[Maj'Eyal! For many years have we tried to contact your people. We always failed.
-In any event, what is your purpose here?]], [[Maj'Eyal! Pendant de nombreuses années, nous avons essayé de contacter votre peuple. Nous avons toujours échoué.
+In any event, what is your purpose here?]], [[Maj'Eyal ! Pendant de nombreuses années, nous avons essayé de contacter votre peuple. Nous avons toujours échoué.
 Quoi qu'il en soit, quel sont vos intentions ici?]], "_t")
 t("It seems that I am stranded in these unfamiliar lands. #LIGHT_GREEN#*Tell her about your hunt for orcs and your encounter with Fillarel.*#WHITE#", "Il semblerait que je sois bloqué dans ces terres inconnues. #LIGHT_GREEN#*Lui raconter ta chasse aux orcs et ta rencontre avec Fillarel.*#WHITE#", "_t")
 t("Sun Paladins? What do you mean? We know of no such thing where I come from.", "Les Paladins du Soleil? Que voulez-vous dire? Nous ne connaissons rien de tel d'où je viens.", "_t")
@@ -2756,12 +2756,12 @@ Pendant des centaines d'années, nous nous sommes dressés entre la Fierté Orc 
 t("You have a noble spirit, my lady.", "Vous avez un esprit noble, ma dame.", "_t")
 t([[Orcs! Ah! Well then this is your lucky day. This whole continent is swarming with Orcs. They have united as the Orc Pride and, according to rumour, their masters are powerful.
 They roam the lands freely, ever assaulting us.
-@playername@, you have helped one of ours. I grant you access to the Gates of Morning and name you friend of the Sunwall.]], [[Des orcs! Ah! Eh bien c'est votre jour de chance. Ce continent entier grouille d'Orcs. Ils se sont unis sous le nom de Fierté Orc et, selon la rumeur, leurs maîtres sont puissants.
+@playername@, you have helped one of ours. I grant you access to the Gates of Morning and name you friend of the Sunwall.]], [[Des orcs ! Ah ! Eh bien c'est votre jour de chance. Ce continent entier grouille d'Orcs. Ils se sont unis sous le nom de Fierté Orc et, selon la rumeur, leurs maîtres sont puissants.
 Ils parcourent les terres librement, sans jamais nous attaquer.
 @playername@, tu as aidé l'un des nôtres. Je t'accorde l'accès aux Portes du Matin et te nomme ami du Mur Solaire.]], "_t")
 t("Thank you, my lady.", "Merci, ma dame.", "_t")
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/golbug-explains.lua"
@@ -2769,11 +2769,11 @@ section "mod-tome/data/chats/golbug-explains.lua"
 t([[#VIOLET#*As you open the door you notice a huge orc in the distance, covered in both flames and ice.*#LAST#
 @playerdescriptor.race@! You should never have come! Your doom awaits!
 The Orc Pride will never yield to anybody! They have their precious and there is nothing you can do.]], [[#VIOLET#*En ouvrant la porte, vous remarquez un orc immense au loin, couvert à la fois de flammes et de glace.*#LAST#
-@playerdescriptor.race@! Vous n'auriez jamais dû venir! Votre perdition vous attend!
-La Fierté Orc ne cédera jamais à personne! Ils ont leur précieux et il n'y a rien que vous puissiez faire.]], "_t")
-t("The Orc Pride obeys a master? I see... 'pride' indeed!", "La Fierté Orc obéit à un maître? Je vois... de la fierté, en effet!", "_t")
+@playerdescriptor.race@ ! Vous n'auriez jamais dû venir ! Votre perdition vous attend !
+La Fierté Orc ne cédera jamais à personne ! Ils ont leur précieux et il n'y a rien que vous puissiez faire.]], "_t")
+t("The Orc Pride obeys a master? I see... 'pride' indeed!", "La Fierté Orc obéit à un maître? Je vois... de la fierté, en effet !", "_t")
 t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaquer]", "_t")
-t("The Pride chooses its allies. It has no master! ATTACK!", "La Fierté choisit ses alliés. Il n'a pas de maître! À L'ATTAQUE!", "_t")
+t("The Pride chooses its allies. It has no master! ATTACK!", "La Fierté choisit ses alliés. Il n'a pas de maître ! À L'ATTAQUE !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/jewelry-store.lua"
@@ -2781,7 +2781,7 @@ section "mod-tome/data/chats/jewelry-store.lua"
 t("Imbue which ring?", "Imprégner quelle anneau?", "_t")
 t("Use which gem?", "Utiliser quelle gemme?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
-t("%s failed to craft with %s and %s!", "%s a échoue dans son travail avec %s and %s!", "logPlayer")
+t("%s failed to craft with %s and %s!", "%s a échoue dans son travail avec %s and %s !", "logPlayer")
 t("Not enough money", "Pas assez d'argent", "_t")
 t("This costs %d gold, you need more gold.", "Cela coûte %d pièces d'or, vous avez besoin de plus d'or.", "tformat")
 t("Imbue cost", "Coût d'iprégnation", "_t")
@@ -2800,7 +2800,7 @@ t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("I am looking for special jewelry.", "Je suis à la recherche de bijoux spéciaux.", "_t")
 t("So you can infuse amulets in this place?", "Donc vous pouvez infuser des amulettes dans cet endroit?", "_t")
 t("I have found this tome; it looked important.", "J'ai trouvé ce recueil, il semblait important.", "_t")
-t("Sorry I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry I have to go!", "Désolé, je dois y aller !", "_t")
 t([[Then you are at the right place, for I am an expert jeweler.
 If you bring me a gem and a ring, I can create a new ring imbued with the properties of the gem.  The original traits of the ring will be lost in the process but new ones of similar quality will be generated.
 There is a small fee dependent on the level of the ring, and you need a quality ring to use a quality gem.]], [[Alors vous êtes au bon endroit, car je suis un maître bijoutier.
@@ -2810,17 +2810,17 @@ t("I need your services.", "J'ai besoin de vos services.", "_t")
 t("Not now, thanks.", "Pas maintenant, merci.", "_t")
 t([[Yes! Thanks to you this place is now free from the corruption. I will stay on this island to study the magical aura, and as promised I can make you powerful amulets.
 Bring me a an amulet and two different gems and I will turn them into a powerful amulet, though the original properties of the amulet will be lost.
-I will not make you pay a fee for it since you helped me so much, but I am afraid the ritual requires a gold plating. This should be equal to about 1000 gold pieces.]], [[Oui! Grâce à vous, cet endroit est maintenant libéré de la corruption. Je vais rester sur cette île pour étudier son aura magique, et comme promis, je peux vous fabriquer de puissantes amulettes.
+I will not make you pay a fee for it since you helped me so much, but I am afraid the ritual requires a gold plating. This should be equal to about 1000 gold pieces.]], [[Oui ! Grâce à vous, cet endroit est maintenant libéré de la corruption. Je vais rester sur cette île pour étudier son aura magique, et comme promis, je peux vous fabriquer de puissantes amulettes.
 Apportez-moi une amulette et deux gemmes différentes et je les transformerai en une puissante amulette, bien que ses propriétés originales soient perdues.
 Je ne vous ferai pas payer de frais pour cela puisque vous m'avez beaucoup aidé, mais je crains que le rituel ne nécessite un revêtement en or. Cela devrait être égal à environ 1000 pièces d'or.]], "_t")
 t([[#LIGHT_GREEN#*He quickly looks at the tome and looks amazed.*#WHITE# This is an amazing find! Truly amazing!
 With this knowledge I could create potent amulets. However, it requires a special place of power to craft such items.
 There are rumours about a site of power in the southern mountains. Old legends tell about a place where a part of the Wintertide Moon melted when it got too close to the Sun and fell from the sky.
 A lake formed in the crater of the crash. The water of this lake, soaked in intense Moonlight for eons, should be sufficient to forge powerful artifacts!
-Go to the lake and then summon me with this scroll. I will retire to study the tome, awaiting your summon.]], [[#LIGHT_GREEN#*Il regarde rapidement le recueil et semble stupéfait.*#WHITE# C'est une découverte incroyable! Vraiment incroyable!
+Go to the lake and then summon me with this scroll. I will retire to study the tome, awaiting your summon.]], [[#LIGHT_GREEN#*Il regarde rapidement le recueil et semble stupéfait.*#WHITE# C'est une découverte incroyable ! Vraiment incroyable !
 Avec ces connaissances, je pourrais créer de puissantes amulettes. Cependant, il faut un lieu de pouvoir spécial pour fabriquer de tels objets.
 Il y a des rumeurs sur un lieu de pouvoir dans les montagnes du sud. De vieilles légendes parlent d'un endroit où une partie de la Lune de Frimas a fondu lorsqu'elle s'est trop approchée du Soleil et est tombée du ciel.
-Un lac s'est formé dans le cratère de la chute. L'eau de ce lac, trempée dans une intense lumière lunaire pendant des éons, devrait être suffisante pour forger de puissants artefacts!
+Un lac s'est formé dans le cratère de la chute. L'eau de ce lac, trempée dans une intense lumière lunaire pendant des éons, devrait être suffisante pour forger de puissants artefacts !
 Allez au lac, puis convoquez-moi avec ce parchemin. Je me retirerai pour étudier le tome, en attendant votre convocation.]], "_t")
 t("I will see if I can find it.", "Je vais voir si je peux le trouver.", "_t")
 
@@ -2843,7 +2843,7 @@ section "mod-tome/data/chats/keepsake-caravan-destroyed.lua"
 
 t([[#VIOLET#*As the last member of the caravan lies dying, you look at him and see the hate that fills his eyes.*#LAST#
 We should have finished you off that day. You deserved no mercy!]], [[#VIOLET#*Alors que le dernier membre de la caravane gît mourant, vous le regardez et vous voyez la haine qui remplit ses yeux.*#LAST#
-Nous aurions dû vous achever ce jour-là. Vous n'avez pas mérité notre pitié!]], "_t")
+Nous aurions dû vous achever ce jour-là. Vous n'avez pas mérité notre pitié !]], "_t")
 t("And I will show you no mercy. #LIGHT_GREEN#[Kill him]#LAST#", "Et je ne vous montrerai aucune pitié. #LIGHT_GREEN#[Le tuer]#LAST#", "_t")
 t("I am sorry. #LIGHT_GREEN#[Help him]#LAST#", "Je suis désolé. #LIGHT_GREEN#[L'aider]#LAST#", "_t")
 t("#VIOLET#*Before you can help him, he collapses to the ground and dies.*#LAST#", "#VIOLET#*Avant que vous ne puissiez l'aider, il s'effondre sur le sol et meurt.*#LAST#", "_t")
@@ -2858,7 +2858,7 @@ section "mod-tome/data/chats/keepsake-kyless-death.lua"
 
 t([[#VIOLET#*Kyless lies dying on the floor. In his hand he holds a book.*#LAST#
 Please! Before I die I have one request. Destroy the book. It wasn't me. The book brought this on us. It must be destoyed!]], [[#VIOLET#*Kyless gît mourante sur le sol. Dans sa main, il tient un livre.*#LAST#
-Je vous en prie! Avant de mourir, j'ai une demande à formuler. Détruisez ce livre. Ce n'était pas moi. C'est le livre qui nous a fait ça. Il doit être détruit!]], "_t")
+Je vous en prie ! Avant de mourir, j'ai une demande à formuler. Détruisez ce livre. Ce n'était pas moi. C'est le livre qui nous a fait ça. Il doit être détruit !]], "_t")
 t("I will. #LIGHT_GREEN#[destroy the book]#LAST#", "Je le ferais. #LIGHT_GREEN#[Détruire le livre]#LAST#", "_t")
 t("I'm sorry but I need it. #LIGHT_GREEN#[keep the book]#LAST#", "Je suis désolé mais j'en ai besoin#LIGHT_GREEN#[Garder le livre]#LAST#", "_t")
 t("#VIOLET#*You destroy the book. When you finish you look up and see that Kyless is already dead.*#LAST#", "#VIOLET#*Vous détruisez le livre. Quand vous avez fini, vous levez les yeux et vous voyez que Kyless est déjà morte.*#LAST#", "_t")
@@ -2871,7 +2871,7 @@ section "mod-tome/data/chats/last-hope-elder.lua"
 t("Welcome, @playername@, to Last Hope. Traveler, please be quick as my time is precious.", "Bienvenue, @playername@，à Dernier Espoir. Voyageur, soyez bref car mon temps est précieux.", "_t")
 t("I have found a strange staff in my travels (#LIGHT_GREEN#*describe it in detail*#LAST#)  It looked very old and very powerful. I dared not use it.", "J'ai trouvé un bâton étrange au cours de mes voyages. (#LIGHT_GREEN#*le décrire en détail*#LAST#) Il avait l'air aussi vieux que puissant. Je n'ai pas osé l'utiliser.", "_t")
 t("The hunt for the staff took me to a continent far to the east, accessible only by magic portal. I've recently returned by just such a portal, and I come bearing instructions on how to construct a similar portal here in Last Hope to make the return journey possible. I'm sure the Elves there would welcome trade with the west.", "La chasse au bâton m'a conduit sur un continent lointain, à l'est, accessible uniquement par un portail magique. Je suis récemment revenu par un tel portail, et je viens avec des instructions sur la façon d'en construire un similaire ici à Dernier Espoir pour rendre le voyage de retour possible. Je suis sûr que les Elfes de là-bas seraient heureux de faire du commerce avec l'Ouest.", "_t")
-t("Nothing, excuse me. Bye!", "Rien, excusez-moi. Au revoir!", "_t")
+t("Nothing, excuse me. Bye!", "Rien, excusez-moi. Au revoir !", "_t")
 t([[#LIGHT_GREEN#*He remains silent for a while*#WHITE# Indeed you were right to come here.
 The staff you describe reminds me of an artifact of great power from ancient times. May I see it?]], [[#LIGHT_GREEN#*Il se tait pendant un moment*#WHITE# En effet, vous avez eu raison de venir ici.
 Le bâton que vous décrivez me rappelle un artefact de grande puissance datant des temps anciens. Puis-je le voir?]], "_t")
@@ -2885,16 +2885,16 @@ Quant aux orcs, c'est profondément troublant.  Nous n'en avons pas vu depuis qu
 Quoi qu'il en soit, merci encore, @playername@, pour votre aide.]], "_t")
 t("Thank you, my lord.", "Merci, mon seigneur.", "_t")
 t([[Orcs?! In the west?! This is deeply alarming! We have not seen any for nearly eighty years. They must have come from the far east...
-But do not let me trouble you; you brought important news and you are lucky to be alive.]], [[Des Orcs?! Dans l'ouest?! C'est profondément alarmant! Nous n'en avons pas vu depuis près de quatre-vingts ans. Ils doivent venir de l'Extrême Orient...
+But do not let me trouble you; you brought important news and you are lucky to be alive.]], [[Des Orcs ?! Dans l'ouest ?! C'est profondément alarmant ! Nous n'en avons pas vu depuis près de quatre-vingts ans. Ils doivent venir de l'Extrême Orient...
 Mais ne me laissez pas vous déranger, vous avez apporté des nouvelles importantes et vous avez de la chance d'être en vie.]], "_t")
 t([[We have heard rumours from the Dwarves that there may still be an orc presence deep in the old kingdom of Reknor, in the Iron Throne.
 I know you have been through a lot, but we need somebody to investigate and determine if there is a connection with the staff.]], [[Nous avons entendu des rumeurs venant des Nains selon lesquelles il pourrait y avoir encore une présence orc au plus profond de l'ancien royaume de Reknor, dans le Trône de Fer.
 Je sais que vous avez traversé beaucoup d'épreuves, mais nous avons besoin de quelqu'un pour enquêter et déterminer s'il y a un lien avec le bâton.]], "_t")
 t("I will check the mines.", "Je vérifierai les mines.", "_t")
-t("That's extraordinary! I know a number of merchant princes who will salivate at the idea of new trade routes opening. But tell me, how fares your quest for the staff?", "C'est extraordinaire! Je connais un certain nombre de princes marchands qui vont saliver à l'idée de l'ouverture de nouvelles routes commerciales. Mais dites-moi, comment se passe votre quête du bâton?", "_t")
+t("That's extraordinary! I know a number of merchant princes who will salivate at the idea of new trade routes opening. But tell me, how fares your quest for the staff?", "C'est extraordinaire ! Je connais un certain nombre de princes marchands qui vont saliver à l'idée de l'ouverture de nouvelles routes commerciales. Mais dites-moi, comment se passe votre quête du bâton?", "_t")
 t("The staff is recovered and the culprits slain. They will trouble us no more. [tell him the whole story]", "Le bâton a été récupéré et les coupables sont morts. Ils ne nous dérangeront plus. [racontez-lui toute l'histoire]", "_t")
 t("The hunt continues. The construction of this portal will be of great assistance in the staff's recovery.", "La chasse se poursuit. La construction de ce portail sera d'une grande utilité pour la récupération du bâton.", "_t")
-t("Excellent! Well then, concerning this fascinating portal, I'm afraid that men have largely forgotten whatever they once knew about the great magics of old. I know of only one man in these lands who might be able to help you, a wise man and recent arrival to Last Hope named Tannen. He claims to hail from Angolwen, a supposed haven for practitioners of magic and mysticism. He arrived just months ago with fabulous wealth and has already constructed his own tower in the northern part of the city. I know little of him, but if he is to be believed, then he is your best hope.", "Excellent! Eh bien, en ce qui concerne ce portail fascinant, je crains que les hommes aient largement oublié ce qu'ils savaient sur les grandes magies d'autrefois. Je ne connais qu'un seul homme dans ces terres qui pourrait vous aider, un sage et récent arrivé à Dernier Espoir nommé Tannen. Il prétend être originaire d'Angolwen, un prétendu havre pour les adeptes de la magie et du mysticisme. Il est arrivé il y a quelques mois avec une richesse fabuleuse et a déjà construit sa propre tour dans la partie nord de la ville. Je le connais peu, mais s'il faut l'en croire, il est votre meilleur espoir.", "_t")
+t("Excellent! Well then, concerning this fascinating portal, I'm afraid that men have largely forgotten whatever they once knew about the great magics of old. I know of only one man in these lands who might be able to help you, a wise man and recent arrival to Last Hope named Tannen. He claims to hail from Angolwen, a supposed haven for practitioners of magic and mysticism. He arrived just months ago with fabulous wealth and has already constructed his own tower in the northern part of the city. I know little of him, but if he is to be believed, then he is your best hope.", "Excellent ! Eh bien, en ce qui concerne ce portail fascinant, je crains que les hommes aient largement oublié ce qu'ils savaient sur les grandes magies d'autrefois. Je ne connais qu'un seul homme dans ces terres qui pourrait vous aider, un sage et récent arrivé à Dernier Espoir nommé Tannen. Il prétend être originaire d'Angolwen, un prétendu havre pour les adeptes de la magie et du mysticisme. Il est arrivé il y a quelques mois avec une richesse fabuleuse et a déjà construit sa propre tour dans la partie nord de la ville. Je le connais peu, mais s'il faut l'en croire, il est votre meilleur espoir.", "_t")
 t("Thank you.", "Merci.", "_t")
 t("In that case, let us proceed as quickly as possible. Now, concerning this fascinating portal. I'm afraid that men have largely forgotten whatever they once knew about the great magics of old. I know of only one man in these lands who might be able to help you, a wise man and recent arrival to Last Hope named Tannen. He claims to hail from Angolwen, a supposed haven for practitioners of magic and mysticism. He arrived just months ago with fabulous wealth and has already constructed his own tower in the northern part of the city. I know little of him, but if he is to be believed, then he is your best hope.", "Dans ce cas, procédons le plus rapidement possible. Maintenant, en ce qui concerne ce portail fascinant. Je crains que les hommes aient largement oublié tout ce qu'ils savaient sur les grandes magies d'autrefois. Je ne connais qu'un seul homme dans ces terres qui pourrait vous aider, un sage et récent arrivé à Dernier Espoir nommé Tannen. Il prétend être originaire d'Angolwen, un prétendu havre pour les adeptes de la magie et du mysticisme. Il est arrivé il y a quelques mois avec une richesse fabuleuse et a déjà construit sa propre tour dans la partie nord de la ville. Je le connais peu, mais s'il faut l'en croire, il est votre meilleur espoir.", "_t")
 
@@ -2903,21 +2903,21 @@ section "mod-tome/data/chats/last-hope-lost-merchant.lua"
 
 t("Urthol's Wondrous Emporium", "L'échoppe merveilleuse d'Urthol", "_t")
 t([[Ah, my #{italic}#good#{normal}# friend @playername@!
-Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], [[Ah, mon #{italic}#bon#{normal}# ami @playername@!
-Grâce à vous, je suis arrivé sain et sauf dans cette grande ville! J'ai l'intention d'ouvrir bientôt ma plus excellente boutique, mais comme je vous suis redevable, je pourrais peut-être ouvrir plus tôt pour vous si vous avez besoin de marchandises exotiques.]], "_t")
+Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], [[Ah, mon #{italic}#bon#{normal}# ami @playername@ !
+Grâce à vous, je suis arrivé sain et sauf dans cette grande ville ! J'ai l'intention d'ouvrir bientôt ma plus excellente boutique, mais comme je vous suis redevable, je pourrais peut-être ouvrir plus tôt pour vous si vous avez besoin de marchandises exotiques.]], "_t")
 t("\
 By the way, ", "\
 Au fait, ", "_t")
 t("during our escape I found the plans for an #YELLOW#Ambush Trap#LAST#", "pendant notre fuite, j'ai trouvé les plans d'un #YELLOW#Piège à Embuscade#LAST#", "_t")
 t(" and while", " et tandis que", "_t")
 t("while", "et", "_t")
-t(" organizing my inventory, I came across some #YELLOW#Smelly Toxin#LAST# that a colleague claimed could actually turn creatures to stone.  Truly exotic!", " en organisant mon inventaire, je suis tombé sur #YELLOW#une Toxine Puante#DERNIÈRE# qui, selon un collègue, pouvait en fait transformer des créatures en pierre.  Vraiment exotique!", "_t")
+t(" organizing my inventory, I came across some #YELLOW#Smelly Toxin#LAST# that a colleague claimed could actually turn creatures to stone.  Truly exotic!", " en organisant mon inventaire, je suis tombé sur #YELLOW#une Toxine Puante#DERNIÈRE# qui, selon un collègue, pouvait en fait transformer des créatures en pierre.  Vraiment exotique !", "_t")
 t("\
 You would not happen to be interested, by any chance?", "\
 Vous ne seriez pas intéressé, par hasard?", "_t")
 t("\
 Oh my friend, good news! As I told you I can now request a truly #{italic}#unique#{normal}# object to be crafted just for you. For a truly unique price...", "\
-Oh mon ami, bonne nouvelle! Comme je vous l'ai dit, je peux maintenant demander qu'un objet vraiment #{italic}#unique#{normal}# soit fabriqué juste pour vous. Pour un prix vraiment unique...", "_t")
+Oh mon ami, bonne nouvelle ! Comme je vous l'ai dit, je peux maintenant demander qu'un objet vraiment #{italic}#unique#{normal}# soit fabriqué juste pour vous. Pour un prix vraiment unique...", "_t")
 t("\
 I eventually plan to arrange a truly unique service for the most discerning of customers. If you come back later when I'm fully set up I shall be able to order for you something quite marvellous. For a perfectly #{italic}#suitable#{normal}# price, of course.", "\
 J'ai l'intention d'organiser un service vraiment unique pour les clients les plus exigeants. Si vous revenez plus tard, lorsque je serai complètement installé, je pourrai commander pour vous quelque chose d'assez merveilleux. Pour un prix parfaitement #{italic}#adapté#{normal}#, bien sûr.", "_t")
@@ -2925,23 +2925,23 @@ t("Yes please, let me see your wares.", "Oui, s'il vous plaît, laissez-moi voir
 t("What about the unique object?", "Qu'en est-il de l'objet unique?", "_t")
 t("Ambush Trap?  Sounds useful.", "Un Piège à Embuscade? Ca pourrait être utile.", "_t")
 t("Smelly Toxin?  What kind of smell?", "Une Toxine Puante? Quelle sorte de puanteur?", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_last-hope-lost-merchant")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_last-hope-lost-merchant")
 t([[You know, I have asked here and there and it happens to be a very rare thing this contraption...
 But since you have saved me, I'm willing to part from it for only 3000 gold pieces, a real bargain!]], [[Vous savez, j'ai demandé ici et là et il se trouve que cet engin est très rare...
-Mais puisque vous m'avez sauvé, je suis prêt à m'en séparer pour seulement 3000 pièces d'or, une véritable aubaine!]], "_t")
+Mais puisque vous m'avez sauvé, je suis prêt à m'en séparer pour seulement 3000 pièces d'or, une véritable aubaine !]], "_t")
 t("Expensive, but I will take it.", "C'est cher, mais je vais le prendre.", "_t")
-t("Nice doing business with you my friend. There you go!", "Ravi de faire des affaires avec toi, mon ami. Et voilà!", "_t")
+t("Nice doing business with you my friend. There you go!", "Ravi de faire des affaires avec toi, mon ami. Et voilà !", "_t")
 t("Thanks.", "Merci.", "chat_last-hope-lost-merchant")
 t([[Ungrol told me this substance contains some exceedingly rare components.
 "More Toxin than Medicine" he said.  Allas, he had not the funds to buy it.  On the other hand, because of our special relationship, I'm willing to let you have it #{italic}#at cost#{normal}# -- only 1500 gold pieces!]], [[Ungrol m'a dit que cette substance contient des composants extrêmement rares.
-"Plus de toxines que de médicaments", a-t-il dit. Allas, il n'avait pas les fonds pour l'acheter. D'un autre côté, en raison de notre relation spéciale, je suis prêt à vous la laisser #{italic}#au prix coûtant#{normal}# -- seulement 1500 pièces d'or!]], "_t")
-t("Fairly pricey, but seems useful.  We have a deal!", "Assez cher, mais semble utile. Nous avons un accord!", "_t")
+"Plus de toxines que de médicaments", a-t-il dit. Allas, il n'avait pas les fonds pour l'acheter. D'un autre côté, en raison de notre relation spéciale, je suis prêt à vous la laisser #{italic}#au prix coûtant#{normal}# -- seulement 1500 pièces d'or !]], "_t")
+t("Fairly pricey, but seems useful.  We have a deal!", "Assez cher, mais semble utile. Nous avons un accord !", "_t")
 t("That price ... er stuff really stinks ...", "Ce prix... euh, ce truc pue vraiment...", "_t")
-t("Here you are.  Just be sure not to get any on yourself!", "Voilà. Assurez-vous simplement de ne pas vous en mettre dessus!", "_t")
+t("Here you are.  Just be sure not to get any on yourself!", "Voilà. Assurez-vous simplement de ne pas vous en mettre dessus !", "_t")
 t("I normally offer this service only for a truly deserved price, but for you my friend I am willing to offer a 20% discount - #{italic}#only#{normal}# 4000 gold to make an utterly unique item of your choice.  What do you say?", "Normalement, je n'offre ce service que pour un prix vraiment approprié, mais pour vous, mon ami, je suis prêt à vous offrir une réduction de 20% - #{italic}#seulement#{normal}# 4000 or pour réaliser un objet tout à fait unique de votre choix. Qu'en dites-vous?", "_t")
-t("Why, 'tis a paltry sum - take my order, man, and be quick about it!", "C'est une somme dérisoire - prenez ma commande et faites vite!", "_t")
-t("Yes, please!", "Oui, s'il vous plaît!", "_t")
-t("HOW MUCH?! Please, excuse me, I- I need some fresh air...", "COMBIEN?! S'il vous plaît, excusez-moi, j'ai besoin d'un peu d'air frais...", "_t")
+t("Why, 'tis a paltry sum - take my order, man, and be quick about it!", "C'est une somme dérisoire - prenez ma commande et faites vite !", "_t")
+t("Yes, please!", "Oui, s'il vous plaît !", "_t")
+t("HOW MUCH?! Please, excuse me, I- I need some fresh air...", "COMBIEN ?! S'il vous plaît, excusez-moi, j'ai besoin d'un peu d'air frais...", "_t")
 t("Not now, thank you.", "Pas maintenant, merci.", "_t")
 t("dragonbone wand", "baguette en os de dragon", "_t")
 t("dragonbone totem", "totem en os de dragon", "_t")
@@ -2969,7 +2969,7 @@ t("No thanks.", "Non merci.", "_t")
 t("Oh I am sorry, it seems we could not make the item your require.", "Oh, je suis désolé, il semble que nous n'ayons pas pu répondre à votre demande.", "_t")
 t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
 t("Oh well, maybe later then.", "Eh bien, peut-être plus tard alors.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 t("Thanks.", "Merci.", "_t")
 
 ------------------------------------------------
@@ -2979,29 +2979,29 @@ t([[#LIGHT_GREEN#*A man talks to you from inside, the door half open. His voice 
 Sorry, the store is closed.]], [[#LIGHT_GREEN#*Un homme vous parle de l'intérieur, la porte à moitié ouverte. Sa voix est triste.*#WHITE#
 Désolé, le magasin est fermé.]], "_t")
 t("[leave]", "[partir]", "_t")
-t("@playername@! My daughter's savior!", "@playername@! Le sauveur de ma fille!", "_t")
+t("@playername@! My daughter's savior!", "@playername@ ! Le sauveur de ma fille !", "_t")
 t("Hi, I was just checking in to see if Melinda is all right.", "Bonjour, je venais juste voir si Melinda va bien.", "_t")
 t("Hi, I would like to talk to Melinda please.", "Bonjour, je voudrais parler à Melinda, s'il vous plaît.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_last-hope-melinda-father")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_last-hope-melinda-father")
 t("Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "Veuillez prendre ceci. Ce n'est rien comparé à la vie de mon enfant. Oh, et elle voudrait vous remercier en personne; je vais l'appeller.", "_t")
 t("Thank you.", "Merci.", "_t")
 t("Melinda's father gives you: %s", "Le père de Melinda vous donne: %s", "logPlayer")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
-t("@playername@! #LIGHT_GREEN#*She jumps for joy and hugs you while her father returns to his shop.*#WHITE#", "@playername@! #LIGHT_GREEN#*Elle saute de joie et vous embrasse pendant que son père retourne à sa boutique.*#WHITE#", "_t")
+t("@playername@! #LIGHT_GREEN#*She jumps for joy and hugs you while her father returns to his shop.*#WHITE#", "@playername@ ! #LIGHT_GREEN#*Elle saute de joie et vous embrasse pendant que son père retourne à sa boutique.*#WHITE#", "_t")
 t("I am glad to see you are fine. It seems your scars are healing quite well.", "Je suis heureux de voir que vous allez bien. Il semble que vos cicatrices guérissent assez vite.", "_t")
 t("I am glad to see you well. Take care.", "Je suis heureux de vous voir en bonne santé. Prenez soin de vous.", "_t")
 t([[Yes it has mostly healed, though I still do have nightmares. I feel like something is still lurking.
 Ah well, the bad dreams are still better than the fate you saved me from!]], [[Oui, elles guérissent rapidement, bien que je fasse encore des cauchemars. J'ai l'impression que quelque chose me guette encore.
-Cependant, les mauvais rêves sont toujours mieux que le sort dont vous m'avez sauvé!]], "_t")
+Cependant, les mauvais rêves sont toujours mieux que le sort dont vous m'avez sauvé !]], "_t")
 t("Should I come across a way to help you during my travels, I will try to help.", "Si je trouve un moyen de vous aider au cours de mes voyages, j'essaierai de vous aider.", "_t")
 t("Thank you, you are most welcome.", "Merci, vous êtes le bienvenu.", "_t")
 t("Most certainly, so what are your plans now?", "Très certainement, alors quels sont vos projets maintenant?", "_t")
-t("Hi @playername@! I am feeling better now, even starting to grow restless...", "Bonjour @playername@! Je me sens mieux maintenant, je commence même à ne plus tenir en place...", "_t")
+t("Hi @playername@! I am feeling better now, even starting to grow restless...", "Bonjour @playername@ ! Je me sens mieux maintenant, je commence même à ne plus tenir en place...", "_t")
 t("So what are your plans now?", "Alors, quels sont vos projets maintenant?", "_t")
 t("About that, I was thinking that maybe you'd like to go out with me sometime ...", "À ce propos, je pensais que tu aimerais peut-être sortir avec moi un jour...", "_t")
 t([[#LIGHT_GREEN#*Melinda appears at the door and kisses you*#WHITE#
 Hi my dear, I'm so happy to see you!]], [[#LIGHT_GREEN#*Melinda apparaît à la porte et vous embrasse*#WHITE#
-Salut ma chère, je suis si heureux de te voir!]], "_t")
+Salut ma chère, je suis si heureux de te voir !]], "_t")
 t("I am still looking out for an explanation of what happened at the beach.", "Je suis toujours à la recherche d'une explication sur ce qui s'est passé à la plage.", "_t")
 t("About what happened on the beach, I think I have found something.", "A propos de ce qui s'est passé sur la plage, je pense avoir trouvé quelque chose.", "_t")
 t([[I do not know yet, my father won't let me out until I'm fully healed. I've always wanted to do so many things.
@@ -3011,14 +3011,14 @@ C'est pourquoi je suis resté coincé dans cette crypte, je veux voir le monde.
 Mon père m'a donné des fonds pour que je puisse prendre mon avenir en main. J'ai quelques amis à Derth, peut-être que j'y ouvrirai ma propre petite boutique. ]], "_t")
 t("I have seen how you fought those corruptors, the way you destroyed their magic. I want to learn to do the same, so that such horrors never happen again. To anyone.", "J'ai vu comment vous avez combattu ces corrupteurs, comment vous avez détruit leur magie. Je veux apprendre à faire de même, afin que de telles horreurs ne se reproduisent plus jamais. A personne.", "_t")
 t([[Or maybe, well I suppose I can trust you with this, I've always secretly dreamed of learning magic. Real magic I mean not alchemist tricks!
-I've learnt about a secret place, Angolwen, where I could learn it.]], [[Ou peut-être, et bien je suppose que je peux vous faire confiance, j'ai toujours secrètement rêvé d'apprendre la magie. De la vraie magie, je veux dire, pas des tours d'alchimiste!
+I've learnt about a secret place, Angolwen, where I could learn it.]], [[Ou peut-être, et bien je suppose que je peux vous faire confiance, j'ai toujours secrètement rêvé d'apprendre la magie. De la vraie magie, je veux dire, pas des tours d'alchimiste !
 J'ai découvert un endroit secret, Angolwen, où je pourrais l'apprendre.]], "_t")
 t("Derth has its up and downs but I think they could do with a smart girl yes.", "Derth a ses hauts et ses bas, mais je pense qu'ils pourraient avoir besoin d'une fille intelligente, oui.", "_t")
-t("Thanks!", "Merci!", "_t")
-t("You wish to join our noble crusade against magic? Wonderful! I will talk to them for you.", "Vous souhaitez vous joindre à notre noble croisade contre la magie? Merveilleux! Je vais leur parler de vous.", "_t")
-t("That would be very nice!", "Ce serait très aimable!", "_t")
+t("Thanks!", "Merci !", "_t")
+t("You wish to join our noble crusade against magic? Wonderful! I will talk to them for you.", "Vous souhaitez vous joindre à notre noble croisade contre la magie? Merveilleux ! Je vais leur parler de vous.", "_t")
+t("That would be very nice!", "Ce serait très aimable !", "_t")
 t("I happen to be welcome among the people of Angolwen, I could say a word for you.", "Il se trouve que je suis le bienvenu parmi le peuple d'Angolwen, je pourrais leur parler de vous.", "_t")
-t("What?!? Just because you rescued me from a moderately-to-extremely gruesome death, you think that entitles you to take liberties?!", "Quoi?!? Ce n'est pas parce que vous m'avez sauvé d'une mort modérément à extrêmement horrible que vous pensez que cela vous donne le droit de prendre des libertés!", "_t")
+t("What?!? Just because you rescued me from a moderately-to-extremely gruesome death, you think that entitles you to take liberties?!", "Quoi ?!? Ce n'est pas parce que vous m'avez sauvé d'une mort modérément à extrêmement horrible que vous pensez que cela vous donne le droit de prendre des libertés !", "_t")
 t("WHY AREN'T WOMEN ATTRACTED TO ME I'M A NICE %s.", "POURQUOI LES FEMMES NE SONT PAS ATTIRÉES PAR MOI JE SUIS UN %s SYMPA", "tformat")
 t("GIRL", "FILLE", "_t")
 t("GUY", "MEC", "_t")
@@ -3026,9 +3026,9 @@ t("Uhh, sorry I hear my father calling, see you.", "Uhh, désolé j'ai entendu m
 t("Just a minute, I was just...", "Juste une minute, j'étais juste...", "_t")
 t([[#LIGHT_GREEN#*She looks at you cheerfully.*#WHITE#
 Just kidding. I would love that!]], [[#LIGHT_GREEN#*Elle vous regarde avec joie.*#WHITE#
-Je plaisante. J'adorerais ça!]], "_t")
+Je plaisante. J'adorerais ça !]], "_t")
 t("#LIGHT_GREEN#[walk away with her]#WHITE#What about a little trip to the south, from the coastline we can see the Charred Scar Volcano, it is a wonderous sight.", "#LIGHT_GREEN#[s'éloigner avec elle]#WHITE#Que diriez-vous d'un petit voyage vers le sud, depuis la côte on peut voir le Volcan de la Plaie Craquelée, c'est un spectacle merveilleux.", "_t")
-t("Joke's on you really, goodbye!", "La plaisanterie est pour toi, vraiment, au revoir!", "_t")
+t("Joke's on you really, goodbye!", "La plaisanterie est pour toi, vraiment, au revoir !", "_t")
 t("But... ok goodbye.", "Mais... ok au revoir.", "_t")
 t([[#LIGHT_GREEN#*You take Melinda in your arms and press her against you. The warmth of the contact lightens your heart.*#WHITE#
 I feel safe in your arms. Please, I know you must leave, but promise to come back soon and hold me again.]], [[#LIGHT_GREEN#*Vous prenez Melinda dans vos bras et la pressez contre vous. La chaleur du contact soulage votre coeur.*#WHITE#
@@ -3039,17 +3039,17 @@ t("Oh, I am sorry. I think you are mistaken. I was only trying to comfort you.",
 t("Oh, sorry, I was not myself. Goodbye, then. Farewell.", "Oh, désolé, je n'étais pas moi-même. Au revoir, alors. Adieu.", "_t")
 t([[#LIGHT_GREEN#*Melinda looks worried*#WHITE#
 Please tell me you can help!]], [[#LIGHT_GREEN#*Melinda semble inquiète*#WHITE#
-S'il vous plaît, dites-moi que vous pouvez nous aider!]], "_t")
+S'il vous plaît, dites-moi que vous pouvez nous aider !]], "_t")
 t("Yes, I think so. Some time ago I assumed ownership of a very special home... #LIGHT_GREEN#[tell her the Fortress story]#WHITE#", "Oui, je le pense. Il y a quelque temps, j'ai pris possession d'une maison très spéciale... #LIGHT_GREEN#[lui raconter l'histoire de la Forteresse]#WHITE#", "_t")
 t([[An ancient fortress of a mythical race?! How #{bold}#exciting#{normal}#!
-And you say it could cure me?]], [[Une ancienne forteresse d'une race mythique! Comme c'est #{bold}#excitant#{normal}#!
+And you say it could cure me?]], [[Une ancienne forteresse d'une race mythique ! Comme c'est #{bold}#excitant#{normal}# !
 Et vous dites que ça pourrait me guérir?]], "_t")
 t("The Fortress seems to think so. I know this might sound a bit .. inappropriate .. but you would need to come live there, at least for a while.", "La Forteresse semble le penser. Je sais que cela peut paraître un peu... inapproprié... mais il faudrait que vous veniez y vivre, au moins pour un temps.", "_t")
 t([[#LIGHT_GREEN#*She looks at you cheerfully*#WHITE#
 Ah the plan to sleep with me is finally revealed!
 Shhh you dummy, I thought we were past such silliness, I will come, both for my health and because I want to be with you.
 #LIGHT_GREEN#*She kisses you tenderly*#WHITE#]], [[#LIGHT_GREEN#*Elle vous regarde joyeusement*#WHITE#
-Ah le plan pour coucher avec moi est enfin révélé!
+Ah le plan pour coucher avec moi est enfin révélé !
 Chut, idiot, je pensais que nous avions dépassé cette bêtise, je viendrai, à la fois pour ma santé et parce que je veux être avec toi.
 #LIGHT_GREEN#*elle vous embrasse tendrement*#WHITE#]], "_t")
 t("Then my lady, if you will follow me. #LIGHT_GREEN#[take her to the Fortress]", "Dans ce cas ma dame, si vous voulez bien me suivre. #LIGHT_GREEN#[l'emmener à la Forteresse]", "_t")
@@ -3059,7 +3059,7 @@ t("Melinda", "Melinda", "_t")
 --]==]
 
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/last-hope-weapon-store.lua"
@@ -3067,7 +3067,7 @@ section "mod-tome/data/chats/last-hope-weapon-store.lua"
 t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("I am looking for martial training.", "Je suis à la recherche d'un entraînement martial.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_last-hope-weapon-store")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_last-hope-weapon-store")
 t("I can indeed offer some martial training (talent category Technique/Combat-training) for a fee of 50 gold pieces; or the basic usage of bows and slings (Shoot talent) for 8 gold pieces.", "Je peux en effet proposer un entraînement martial (Technique/Formation au Combat) pour un montant de 50 pièces d'or ; ou l'utilisation de base des arcs et frondes (Talent Tirer) for 8 gold pieces.", "_t")
 t("Please train me in generic weapons and armour usage.", "Formez moi basiquement à l'utilisation des armes et armures s'il vous plait.", "_t")
 t("The smith spends some time with you, teaching you the basics of armour and weapon usage.", "Le forgeron passe un certain temps avec vous, vous apprenant les bases de l'utilisation des armes et armures.", "logPlayer")
@@ -3075,7 +3075,7 @@ t("Please train me in the basic usage of bows and slings.", "Formez moi à l'uti
 t("The smith spends some time with you, teaching you the basics of bows and slings.", "Le forgeron passe un peu de temps avec vous, vous apprenant les bases des arcs et frondes.", "logPlayer")
 t("No thanks.", "Non merci.", "_t")
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/limmir-valley-moon.lua"
@@ -3090,11 +3090,11 @@ section "mod-tome/data/chats/lost-merchant.lua"
 t([[Please save me! I will make it worth your whi..
 *#LIGHT_GREEN#The assassin lord hits him in the face.#WHITE#*Shut up!]], [[S'il vous plaît, sauvez-moi! Je vais faire en sorte que ça vaille la peine....
 *#LIGHT_GREEN#Le seigneur assassin le frappe au visage.#WHITE#*Tais toi!]], "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_lost-merchant")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_lost-merchant")
 t("Please get me out of here!", "S'il vous plaît, sortez-moi de là!", "_t")
 t("Come, there is a way out!", "Venez, il y a une sortie!", "_t")
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/lumberjack-quest-done.lua"
@@ -3133,7 +3133,7 @@ Bonne journée à vous, cher voyageur!]], "_t")
 t("What brings an apprentice mage out into the wilds?", "Qu'est-ce qui amène un apprenti mage dans la nature?", "_t")
 t("I found this artefact; it looks powerful and arcane infused. Maybe it would be enough?", "J'ai trouvé cet artefact; il a l'air puissament enchanté par les arcanes. Peut-être que cela suffirait?", "_t")
 t("So you have enough magical items now?", "Vous avez donc assez d'objets magiques maintenant?", "_t")
-t("Sorry I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry I have to go!", "Désolé, je dois y aller !", "_t")
 t("Ahh, my story is a sad one... I should not trouble you with it, my friend.", "Ahh, mon histoire est triste... Je ne devrais pas vous ennuyer avec ça, mon ami.", "_t")
 t("It is no trouble at all! Please tell me!", "Ce n'est pas du tout un problème! Dites moi tout, s'il vous plaît!", "_t")
 t("Ok, bye then!", "Ok, au revoir alors!", "_t")
@@ -3196,9 +3196,9 @@ t("This will cost you %d gold.", "Cela vous coûtera %d d'or.", "tformat")
 t("Welcome, @playername@, to my shop.", "Bienvenue, @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("I want to recharge some of my equipment.", "Je veux recharger une partie de mon équipement.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_magic-store")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_magic-store")
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/melinda-beach-end.lua"
@@ -3909,7 +3909,7 @@ t("[Relate to him the story of the staff and the Orb of Many Ways and the portal
 t("I have the diamond and the athame. [Hand over the Athame and Diamond]", "J'ai le diamant et l'athamé. [Remettre l'athamé et le diamant]", "_t")
 t("Thieving, murderous wretch. Prepare to die!", "Voleur, misérable meurtrier. Prépare-toi à mourir!", "_t")
 t("How fares your research? Are we ready to create the portal?", "Comment se déroule vos recherches? Sommes-nous prêts à créer le portail?", "_t")
-t("Nothing, excuse me. Bye!", "Rien, excusez-moi. Au revoir!", "_t")
+t("Nothing, excuse me. Bye!", "Rien, excusez-moi. Au revoir !", "_t")
 t("Astonishing! I have heard tell of this Orb in ancient texts and legends. Might I see it?", "Stupéfiant! J'ai entendu parler de cette Orbe dans des textes et légendes anciennes. Puis-je la voir?", "_t")
 t("[Show him the Orb of Many Ways]", "[Lui montrer l'Orbe des Multiples Voies]", "_t")
 t("Truly, it is the work of a great master. Perhaps Linaniil herself had a hand in its making. And you say you come bearing instructions in its usage?", "En vérité, c'est l'oeuvre d'un grand maître. Peut-être Linaniil elle-même a-t-elle contribué à sa réalisation. Et vous dites que vous venez avec des instructions pour son emploi?", "_t")
@@ -4302,7 +4302,7 @@ Qu'est ce que vous voulez, @playerdescriptor.race@?]], "_t")
 t("Paladin Aeryn told me that you could help me. I need to get to Maj'Eyal.", "La paladine Aeryn m'a dit que vous pourriez m'aider. Je dois retourner en Maj'Eyal.", "_t")
 t("I found the Blood-Runed Athame, but there was no Resonating Diamond.", "J'ai trouvé l'Athamé rune de sang, mais il n'y avait pas de Diamant Résonnant.", "_t")
 t("I have a Resonating Diamond.", "J'ai le Diamant Résonnant.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_zemekkys")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_zemekkys")
 t([[Pfaugh! Her goal in life is to waste my time! Maj'Eyal? Why not Narnia or Chicago? Just as easy to send you someplace entirely fictional as Maj'Eyal. Go away.
 #LIGHT_GREEN#*Slot slams shut.*#WHITE#]], [[Pfeuht! Son but dans la vie est de me faire perdre mon temps! Maj'Eyal? Pourquoi pas Narnia ou Chicago? C'est aussi facile de t'envoyer dans un endroit complètement fictif qu'en Maj'Eyal. Va-t'en.
 #LIGHT_GREEN#*La fente se referme brusquement.*#WHITE#]], "_t")
@@ -4330,6 +4330,7 @@ t("Where can I find all that?", "Où puis-je trouver tout cela?", "_t")
 t("Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I assume the orcs have some if they're cooking up portals to use that Orb on. Try the Vor Armory. It so happens that I know a back way in. Never mind why.", "Essayez votre porte-monnaie pour les 100 pièces d'or. Pour ce qui est de l'Athamé et du Diamant, je suppose que les orcs en ont s'ils préparent des portails pour utiliser l'Orbe. Essayez l'armurerie Vor. Il se trouve que je connais un moyen détourné d'y entrer. Peu importe pourquoi.", "_t")
 t("Thank you.", "Merci.", "_t")
 t("Of course there was no Resonating Diamond. What makes you think Briagh would let one loose for even a second?", "Bien sûr, il n'y avait pas de Diamant Résonnant. Qu'est-ce qui vous fait croire que Briagh en laisserait échapper un, même une seconde?", "_t")
+t("Briagh?", "Briagh ?", "_t")
 t("Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "Briagh, le Grand Ver des sables. D'où pensez-vous que viennent les diamants résonnants? Ce sont des diamants ordinaires jusqu'à ce qu'ils restent coincés entre les écailles de Briagh pendant quelques siècles et s'imprègnent de son cycle de vie. Il dort sur un trésor de pierres et de métaux précieux, vous voyez.", "_t")
 t("Where might I find Briagh's lair??", "Où puis-je trouver le repaire de Briagh??", "_t")
 t("Well south of the Sunwall. I'll mark it for you on your map.", "Bien au sud du Mur Solaire. Je vais le marquer sur votre carte.", "_t")
@@ -4341,13 +4342,8 @@ t([[#LIGHT_GREEN#*The door opens and a shabby Elf emerges.*#WHITE#
 Off we go to prepare the portal!]], [[#LIGHT_GREEN#*La porte s'ouvre et un Elfe miteux en sort.*#WHITE#
 On va préparer le portail!]], "_t")
 t("[follow him]", "[le suivre]", "_t")
--- texte non traduit
---[==[
-t("Briagh?", "Briagh?", "_t")
---]==]
-
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/zigur-mindstar-store.lua"
@@ -4368,7 +4364,7 @@ t("The shopkeeper spends a great deal of time going over the finer details of ch
 t(", and teaches you enhanced mental discipline needed to maintain powerful energy fields", ", et vous enseigne une discipline mentale accrue, nécessaire pour maintenir de puissants champs d'énergie", "_t")
 t("No thanks.", "Non merci.", "_t")
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/zigur-trainer.lua"
@@ -8207,7 +8203,7 @@ t("watchleader", "chef du guet", "entity keyword")
 --[==[
 t("guide", "guide", "entity keyword")
 t("illusion", "illusion", "entity keyword")
-t("focus", "cencentration", "entity keyword")
+t("focus", "focus", "entity keyword")
 --]==]
 
 
@@ -8541,7 +8537,7 @@ t("prot", "prot", "entity keyword")
 t("Linaniil", "Linaniil", "entity keyword")
 t("Angolwen", "Angolwen", "entity keyword")
 t("ancient", "ancient", "entity keyword")
-t("focus", "cencentration", "entity keyword")
+t("focus", "focus", "entity keyword")
 --]==]
 
 
@@ -21461,8 +21457,10 @@ t([[You veil yourself in shadows and let them control you.
 section "mod-tome/data/talents/cunning/artifice.lua"
 
 t("none", "aucun", "_t")
+t("#Source# strikes at a vital spot on #target#!", "#Source# frappe un point vital de #Target# !", "logCombat")
 t("Rogue's Brew", "Breuvage du Brigand", "talent name")
 t("%s is cured!", "%s est guéri!", "logSeen")
+t("You cannot move!", "Vous ne pouvez pas vous déplacer !", "logPlayer")
 t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
 -- texte non traduit
 --[==[
@@ -21534,7 +21532,6 @@ This talent has a cooldown.
 #YELLOW#Prepared with: %s#LAST#]], "tformat")
 t("Assassinate", "Assassinate", "talent name")
 t("You must have Hidden Blades prepared to use this talent.", "You must have Hidden Blades prepared to use this talent.", "logPlayer")
-t("#Source# strikes at a vital spot on #target#!", "#Source# strikes at a vital spot on #target#!", "logCombat")
 t("You prime your Hidden Blades to cause bleeding and facilitate the Assassinate ability, which allows you to strike twice for %d%% unarmed damage, hitting automatically while ignoring armor and resistance.", "You prime your Hidden Blades to cause bleeding and facilitate the Assassinate ability, which allows you to strike twice for %d%% unarmed damage, hitting automatically while ignoring armor and resistance.", "tformat")
 t([[You strike your target with your Hidden Blades twice in a vital spot for %d%% unarmed (physical) damage.  You must be able to see your target to use this attack, but it always hits and ignores all armor and physical resistance.
 In addition, your hidden blades now inflict a further %d%% of all damage dealt as bleeding over 5 turns.]], [[You strike your target with your Hidden Blades twice in a vital spot for %d%% unarmed (physical) damage.  You must be able to see your target to use this attack, but it always hits and ignores all armor and physical resistance.
@@ -21569,7 +21566,6 @@ t("Your darts ignore poison and sleep immunity and waking targets are slowed by 
 t("The sleeping poison of your Dart Launcher becomes potent enough to ignore immunity, and upon waking the target is slowed by %d%% for 4 turns.", "The sleeping poison of your Dart Launcher becomes potent enough to ignore immunity, and upon waking the target is slowed by %d%% for 4 turns.", "tformat")
 t("Grappling Hook", "Grappling Hook", "talent name")
 t("You are too close to your target to swing your hook effectively!", "You are too close to your target to swing your hook effectively!", "logPlayer")
-t("You cannot move!", "You cannot move!", "logPlayer")
 t("#Source# throws a grappling hook at #target#!", "#Source# throws a grappling hook at #target#!", "logCombat")
 t("#Source#'s grappling hook latches onto #target#!", "#Source#'s grappling hook latches onto #target#!", "logCombat")
 t("#Source# is dragged towards #target#!", "#Source# is dragged towards #target#!", "logCombat")
@@ -21944,31 +21940,26 @@ t([[You search a nearby grid for a hidden trap (%d detection 'power') and disarm
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/tactical.lua"
 
-t("Set Up", "Configuration", "talent name")
--- texte non traduit
---[==[
-t("Tactical Expert", "Tactical Expert", "talent name")
+t("Tactical Expert", "Expert Tactique", "talent name")
 t([[Your Defense is increased by %d for every adjacent visible foe, up to a maximum of +%d Defense.
-		The Defense increase per enemy and maximum Defense bonus will scale with your Cunning.]], [[Your Defense is increased by %d for every adjacent visible foe, up to a maximum of +%d Defense.
-		The Defense increase per enemy and maximum Defense bonus will scale with your Cunning.]], "tformat")
-t("Counter Attack", "Counter Attack", "talent name")
-t("#Source# slams #Target# into the ground!", "#Source# slams #Target# into the ground!", "logCombat")
-t("#Source# throws #Target# to the ground!", "#Source# throws #Target# to the ground!", "logCombat")
-t("%s counters the attack!", "%s counters the attack!", "logSeen")
+		The Defense increase per enemy and maximum Defense bonus will scale with your Cunning.]], [[Votre Défense est augmentée de %d pour chaque ennemi visible adjacent, jusqu'à un maximum de +%d Défense.
+		L'augmentation de Défense par ennemi et le bonus maximal de Défense sont proportionnels à votre Ruse.]], "tformat")
+t("Counter Attack", "Contre-Attaque", "talent name")
+t("#Source# slams #Target# into the ground!", "#Source# plaque #Target# au sol !", "logCombat")
+t("#Source# throws #Target# to the ground!", "#Source# jette #Target# au sol !", "logCombat")
+t("%s counters the attack!", "%s contre l'attaque !", "logSeen")
 t([[When you avoid a melee blow from an adjacent foe, you have a %d%% chance to get a free, automatic melee attack against the attacker for %d%% damage, up to %0.1f times per turn.
 		Unarmed fighters using it will also attempt to throw the target to the ground if the attack lands, dazing them for 2 turns or stunning them for 2 turns if the target is grappled.
-		The chance of countering and number of counter attacks increase with your Cunning.]], [[When you avoid a melee blow from an adjacent foe, you have a %d%% chance to get a free, automatic melee attack against the attacker for %d%% damage, up to %0.1f times per turn.
-		Unarmed fighters using it will also attempt to throw the target to the ground if the attack lands, dazing them for 2 turns or stunning them for 2 turns if the target is grappled.
-		The chance of countering and number of counter attacks increase with your Cunning.]], "tformat")
+		The chance of countering and number of counter attacks increase with your Cunning.]], [[Lorsque vous évitez un coup de corps à corps d'un ennemi adjacent, vous avez %d%% de chance d'obtenir une attaque de corps à corps automatique et gratuite contre l'attaquant pour %d%% dégâts, jusqu'à %0.1f fois par tour.
+		Les combattants à mains nues qui utilisent ce talent tenteront également de jeter la cible au sol si l'attaque touche, l'étourdissant pendant 2 tours, ou l'assommant pendant 2 tours si la cible est agrippée.
+		La chance de contre-attaquer et le nombre de contre-attaques sont proportionnels à votre Ruse.]], "tformat")
+t("Set Up", "Mise en Place", "talent name")
 t([[Increases Defense by %d for %d turns.  When you avoid a melee blow, you set the target up, increasing the chance of you landing a critical strike on them by %d%% and reducing their saving throws by %d.
-		The effects will scale with your Cunning.]], [[Increases Defense by %d for %d turns.  When you avoid a melee blow, you set the target up, increasing the chance of you landing a critical strike on them by %d%% and reducing their saving throws by %d.
-		The effects will scale with your Cunning.]], "tformat")
-t("Exploit Weakness", "Exploit Weakness", "talent name")
+		The effects will scale with your Cunning.]], [[Augmente la Défense de %d pendant %d tours. Lorsque vous évitez un coup de corps à corps, vous préparez la cible, augmentant votre chance de porter un coup critique contre elle de %d%% et réduisant ses jets de sauvegarde de %d.
+		Les effets sont proportionnels à votre Ruse.]], "tformat")
+t("Exploit Weakness", "Exploiter la Faiblesse", "talent name")
 t([[Systematically find the weaknesses in your opponents' physical resists, at the cost of 10%% of your physical damage.  Each time you hit an opponent with a melee attack, you reduce their physical resistance by 5%%, up to a maximum of %d%%.
-		]], [[Systematically find the weaknesses in your opponents' physical resists, at the cost of 10%% of your physical damage.  Each time you hit an opponent with a melee attack, you reduce their physical resistance by 5%%, up to a maximum of %d%%.
-		]], "tformat")
---]==]
-
+		]], "Trouvez systématiquement les faiblesses dans la résistance physique de vos adversaires, au coût de 10%% de vos dégâts physiques. Chaque fois que vous touchez un adversaire avec une attaque de corps à corps, vous réduisez sa résistance physique de 5%%, jusqu'à un maximum de %d%%.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/traps.lua"
@@ -24805,6 +24796,8 @@ t("Empower Poisons", "Renforcement des Poisons", "talent name")
 t("Willful Combat", "Combat Délibéré", "talent name")
 t("Deadly Strikes", "Frappes Mortelles", "talent name")
 t("Cripple", "Estropier", "talent name")
+t("#Source# slams #Target# into the ground!", "#Source# plaque #Target# au sol !", "logCombat")
+t("#Source# throws #Target# to the ground!", "#Source# jette #Target# au sol !", "logCombat")
 t("Shadow Empathy", "Empathie de l'Ombre", "talent name")
 -- texte non traduit
 --[==[
@@ -25167,8 +25160,6 @@ t("You require two melee weapons to use this talent.", "You require two melee we
 t("You cannot use Momentum without dual wielding melee weapons!", "You cannot use Momentum without dual wielding melee weapons!", "logPlayer")
 t("When dual wielding, increases attack speed by %d%%, but drains stamina quickly (-6 stamina/turn).", "When dual wielding, increases attack speed by %d%%, but drains stamina quickly (-6 stamina/turn).", "tformat")
 t("Defensive Throw", "Defensive Throw", "talent name")
-t("#Source# slams #Target# into the ground!", "#Source# slams #Target# into the ground!", "logCombat")
-t("#Source# throws #Target# to the ground!", "#Source# throws #Target# to the ground!", "logCombat")
 t("#Source# misses a defensive throw against #Target#!", "#Source# misses a defensive throw against #Target#!", "logCombat")
 t([[When you avoid a melee blow while unarmed, you have a %d%% chance to throw the target to the ground.  If the throw lands, the target will take %0.2f damage and be dazed for 2 turns, or %0.2f damage and be stunned for 2 turns if the target is grappled.  You may attempt up to %0.1f throws per turn.
 		The chance of throwing increases with your Accuracy, the damage scales with your Physical Power, and the number of attempts with your Strength and Dexterity.]], [[When you avoid a melee blow while unarmed, you have a %d%% chance to throw the target to the ground.  If the throw lands, the target will take %0.2f damage and be dazed for 2 turns, or %0.2f damage and be stunned for 2 turns if the target is grappled.  You may attempt up to %0.1f throws per turn.
@@ -26442,7 +26433,7 @@ t("projection", "projection", "talent type")
 t("Project energy to damage foes.", "Project energy to damage foes.", "_t")
 t("psi-fighting", "psi-fighting", "talent type")
 t("Wield melee weapons with mentally-manipulated forces.", "Wield melee weapons with mentally-manipulated forces.", "_t")
-t("focus", "cencentration", "talent type")
+t("focus", "focus", "talent type")
 t("Use gems to focus your energies.", "Use gems to focus your energies.", "_t")
 t("augmented mobility", "augmented mobility", "talent type")
 t("Use energy to move yourself and others.", "Use energy to move yourself and others.", "_t")
@@ -28307,11 +28298,11 @@ section "mod-tome/data/talents/spells/spells.lua"
 t("spell", "sort", "talent category")
 t("arcane", "arcanique", "talent type")
 t("Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "Les études arcaniques manipulent les énergies magiques brutes pour les façonner en sorts offensifs et défensifs.", "_t")
-t("aether", "éther", "talent type")
+t("aether", "Éther", "talent type")
 t("Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "Exploitez les forces arcaniques fondamentales de l'éther, déchaînant des effets dévastateurs sur vos ennemis.", "_t")
 t("fire", "feu", "talent type")
 t("Harness the power of fire to burn your foes to ashes.", "Maîtrisez le pouvoir du feu pour réduire vos ennemis en cendres.", "_t")
-t("wildfire", "feu de brousse", "talent type")
+t("wildfire", "feu sauvage", "talent type")
 t("Harness the power of wildfire to burn your foes to ashes.", "Maîtrisez le pouvoir du feu sauvage pour réduire vos ennemis en cendres.", "_t")
 t("earth", "terre", "talent type")
 t("Harness the power of the earth to protect and destroy.", "Maîtrisez le pouvoir de la terre pour protéger et détruire.", "_t")
@@ -28339,7 +28330,7 @@ t("Conveyance is the school of travel. It allows you to travel faster and to tra
 t("Divination allows the caster to sense its surroundings, and find hidden things.", "La divination permet au lanceur de percevoir son environnement et de trouver des choses cachées.", "_t")
 t("aegis", "égide", "talent type")
 t("Command the arcane forces into healing and protection.", "Commandez les forces arcaniques vers le soin et la protection.", "_t")
-t("explosive admixtures", "mélanges explosifs", "talent type")
+t("explosive admixtures", "adjuvants explosifs", "talent type")
 t("Manipulate gems to turn them into explosive magical bombs.", "Manipulez des gemmes pour les transformer en bombes magiques explosives.", "_t")
 t("infusion", "essence", "talent type")
 t("Infusion your gem bombs with the powers of the elements.", "Infusez vos bombes de gemmes avec les pouvoirs des éléments.", "_t")
@@ -28354,12 +28345,12 @@ t("acid alchemy", "alchimie acide", "talent type")
 t("Alchemical control over acid.", "Contrôle alchimique sur l'acide.", "_t")
 t("frost alchemy", "alchimie du givre", "talent type")
 t("Alchemical control over frost.", "Contrôle alchimique sur le givre.", "_t")
-t("energy alchemy", "alchimie d'énergie", "talent type")
+t("energy alchemy", "alchimie énergétique", "talent type")
 t("Alchemical control over lightning energies.", "Contrôle alchimique sur les énergies de foudre.", "_t")
 t("stone alchemy", "alchimie de pierre", "talent type")
 t("Manipulate gems, and imbue their powers into other objects.", "Manipulez des gemmes et imprègnez leurs pouvoirs dans d'autres objets.", "_t")
 t("Alchemical control over stone and gems.", "Contrôle alchimique sur la pierre et les gemmes.", "_t")
-t("staff combat", "combat au bâtonnet", "talent type")
+t("staff combat", "combat au bâton", "talent type")
 t("Harness the power of magical staves.", "Maîtrisez le pouvoir des bâtonnets magiques.", "_t")
 t("fighting", "combat", "talent type")
 t("Golem melee capacity.", "Capacité de mêlée du golem.", "_t")
@@ -28370,34 +28361,34 @@ t("master of bones", "maître des os", "talent type")
 t("Become of the master of bones, creating skeletal minions to do your bidding.", "Devenez le maître des os, créant des laquais squelettes pour exécuter vos ordres.", "_t")
 t("master of flesh", "maître de la chair", "talent type")
 t("Become of the master of flesh, creating ghoul minions to do your bidding", "Devenez le maître de la chair, créant des laquais Goules pour exécuter vos ordres.", "_t")
-t("master necromancer", "nécromancien maître", "talent type")
+t("master necromancer", "maître nécromancien", "talent type")
 t("Full and total control over your undead army.", "Contrôle total et complet de votre armée de morts-vivants.", "_t")
 t("nightfall", "crépuscule", "talent type")
 t("Manipulate darkness itself to slaughter your foes.", "Manipulez l'obscurité elle-même pour massacrer vos ennemis.", "_t")
 t("dreadmaster", "maître hanteur", "talent type")
 t("Summon an undead minion of pure darkness to harass your foes.", "Invoquez un laquais mort-vivant de pure obscurité pour harceler vos ennemis.", "_t")
-t("age of dusk", "ère du crépuscule", "talent type")
+t("age of dusk", "Ère du crépuscule", "talent type")
 t("Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "Rappelez-vous les jours glorieux de l'Ère du Crépuscule quand les nécromanciens régnaient en maîtres.", "_t")
 t("grave", "tombe", "talent type")
 t("Use the rotting cold doom of the tomb to fell your foes.", "Utilisez le froid putride du tombeau pour abattre vos ennemis.", "_t")
 t("glacial waste", "désert glacial", "talent type")
 t("Wither the land into a cold, dead ground to protect yourself.", "Transformez la terre en un sol froid et mort pour vous protéger.", "_t")
-t("rime wraith", "spectre givré", "talent type")
+t("rime wraith", "spectre glacial", "talent type")
 t("Summon an undead minion of pure cold to harass your foes.", "Invoquez un laquais mort-vivant de pur froid pour harceler vos ennemis.", "_t")
 t("Crush the souls of your foes to improve yourself.", "Écrasez les âmes de vos ennemis pour vous améliorer.", "_t")
 t("death", "mort", "talent type")
 t("Learn to fasten your foes way into the grave.", "Apprenez à précipiter vos ennemis vers la tombe.", "_t")
-t("eradication", "éradication", "talent type")
+t("eradication", "Éradication", "talent type")
 t("Doom to all your foes. Crush them.", "Condamnez tous vos ennemis. Écrasez-les.", "_t")
-t("necrosis", "nécrose", "talent type")
+t("necrosis", "putréfaction", "talent type")
 t("Gain control over death, by unnaturally expanding your life.", "Prenez le contrôle sur la mort, en étendant votre vie de façon contre-nature.", "_t")
 t("Turn into a spectre to move around the battlefield.", "Transformez-vous en spectre pour vous déplacer sur le champ de bataille.", "_t")
 t("eldritch shield", "bouclier occulte", "talent type")
 t("Infuse arcane forces into your shield.", "Infusez des forces arcaniques dans votre bouclier.", "_t")
 t("eldritch stone", "pierre occulte", "talent type")
 t("Summon stony spikes imbued with various powers.", "Invoquez des pointes de pierre imprégnées de divers pouvoirs.", "_t")
-t("deeprock", "pierre profonde", "talent type")
-t("Harness the power of the world to turn into a Deeprock Form.", "Maîtrisez le pouvoir du monde pour prendre la Forme de Pierre Profonde.", "_t")
+t("deeprock", "roche profonde", "talent type")
+t("Harness the power of the world to turn into a Deeprock Form.", "Maîtrisez le pouvoir du monde pour prendre la Forme de Roche Profonde.", "_t")
 t("#GREY#%s can not be healed this way!", "#GREY#%s ne peut pas être soigné de cette façon !", "logSeen")
 t("Necrotic Minion", "Laquais Nécrotique", "_t")
 -- texte non traduit
@@ -28757,6 +28748,8 @@ t("You cannot use Death Dance without a two-handed weapon!", "Vous ne pouvez pas
 t("Warshout", "Cri de Guerre", "talent name")
 t("@Source@ uses Warsqueak.", "@Source@ utilise Couinement de Guerre.", "_t")
 t("@Source@ uses Warshout.", "@Source@ utilise Cri de Guerre.", "_t")
+t("%s feels the pain of the death blow!", "%s ressent la douleur du coup mortel !", "logSeen")
+t("%s resists the death blow!", "%s résiste au coup mortel !", "logSeen")
 t("Stunning Blow", "Coup Assommant", "talent name")
 t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 t("Sunder Armour", "Briseur d'Armure", "talent name")
@@ -28785,8 +28778,6 @@ t("You cannot use Warshout without a two-handed weapon!", "You cannot use Warsho
 t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (power %d%%) for %d turns.", "Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (power %d%%) for %d turns.", "tformat")
 t("Death Blow", "Death Blow", "talent name")
 t("You cannot use Death Blow without a two-handed weapon!", "You cannot use Death Blow without a two-handed weapon!", "logPlayer")
-t("%s feels the pain of the death blow!", "%s feels the pain of the death blow!", "logSeen")
-t("%s resists the death blow!", "%s resists the death blow!", "logSeen")
 t([[Tries to perform a killing blow, doing %d%% weapon damage and dealing an automatic critical hit. If the target ends up with low enough life (<20%%), it might be instantly killed.
 		At level 4, it drains half your remaining stamina, and uses it to increase the blow damage by 100%% of it.
 		The chance to instantly kill will increase with your Physical Power.]], [[Tries to perform a killing blow, doing %d%% weapon damage and dealing an automatic critical hit. If the target ends up with low enough life (<20%%), it might be instantly killed.
@@ -28813,12 +28804,12 @@ t([[Enter a blood frenzy, draining stamina quickly (-2 stamina/turn). Each time 
 section "mod-tome/data/talents/techniques/acrobatics.lua"
 
 t("Vault", "Saut", "talent name")
+t("You cannot move!", "Vous ne pouvez pas vous déplacer !", "logPlayer")
 t("Tumble", "Roulade", "talent name")
 t("Trained Reactions", "Réflexes Entraînés", "talent name")
 t("Superb Agility", "Agilité Remarquable", "talent name")
 -- texte non traduit
 --[==[
-t("You cannot move!", "You cannot move!", "logPlayer")
 t("You cannot land in that space.", "You cannot land in that space.", "logPlayer")
 t("You must vault over someone adjacent to you.", "You must vault over someone adjacent to you.", "logPlayer")
 t("#Source# #YELLOW#vaults#LAST# over #target#!", "#Source# #YELLOW#vaults#LAST# over #target#!", "logCombat")
@@ -29335,78 +29326,74 @@ t("Your great dexterity allows you to see incoming projectiles (spells, arrows, 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/finishing-moves.lua"
 
+t("@Source@ throws a finishing uppercut.", "@Source@ lance un uppercut de finition.", "_t")
 t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
+t([[A finishing uppercut that deals %d%% damage, and attempts to stun your target for %d to %d turns, depending on the amount of combo points you've accumulated.
+		The stun chance will improve with your Physical Power.
+		Using this talent removes your combo points.]], [[Un uppercut de finition qui inflige %d%% dégâts et tente d'assomer votre cible pendant %d à %d tours, selon le nombre de points de combinaison accumulés.
+		La chance d'étourdissement est proportionnel à votre Puissance physique.
+		L'utilisation de ce talent supprime vos points de combinaison.]], "tformat")
+t("Concussive Punch", "Coup de Poing Concussif", "talent name")
+t("@Source@ throws a concussive punch.", "@Source@ lance un coup de poing concussif.", "_t")
+t([[A powerful concussive punch that deals %d%% weapon damage to your target. If the punch hits, all targets in a radius of %d will take %0.2f to %0.2f damage, depending on the amount of combo points you've accumulated.
+		The area damage will scale with your Strength, and the radius will increase by 1 per combo point.
+		Using this talent removes your combo points.]], [[Un puissant coup de poing concussif qui inflige %d%% dégâts d'arme à votre cible. Si le coup touche, toutes les cibles dans un rayon de %d subissent entre %0.2f et %0.2f dégâts physiques, selon le nombre de points de combinaison accumulés.
+		Les dégâts de zone sont proportionnels à votre Force, et le rayon augmente de 1 par point de combinaison.
+		L'utilisation de ce talent supprime vos points de combinaison.]], "tformat")
+t("Butterfly Kick", "Coup de Pied Papillon", "talent name")
+t([[You spin into a flying leap and deliver a powerful kick dealing %d%% weapon damage to all enemies in a radius of 1 as you land. The range will increase by 1 per combo point and total damage will increase by 10%% per combo point.
+		Using this talent removes your combo points and you must have at least 1 combo point to use it.]], [[Vous tournoyez en un saut volant et délivrez un puissant coup de pied infligeant %d%% dégâts d'arme à tous les ennemis dans un rayon de 1 à l'atterrissage. Le rayon augmente de 1 par point de combinaison et les dégâts totaux augmentent de 10%% par point de combinaison.
+		L'utilisation de ce talent supprime vos points de combinaison et vous devez avoir au moins 1 point de combinaison pour l'utiliser.]], "tformat")
+t("Haymaker", "Coup du Maréchal", "talent name")
+t("@Source@ throws a wild haymaker!", "@Source@ balance un coup du maréchal sauvage !", "_t")
+t("%s feels the pain of the death blow!", "%s ressent la douleur du coup mortel !", "logSeen")
+t("%s resists the death blow!", "%s résiste au coup mortel !", "logSeen")
+t([[A vicious finishing strike that deals %d%% damage increased by 20%% per combo point you have up to a max of %d%%. If the target ends up with low enough life (<20%%), it might be instantly killed.
+		Killing a target with Haymaker will instantly restore %d%% to %d%% of your maximum stamina, depending on the amount of combo points you've accumulated.
+		Using this talent removes your combo points.]], [[Un coup final brutal qui inflige %d%% dégâts augmentés de 20%% par point de combinaison, jusqu'à un maximum de %d%%. Si la vie de la cible est suffisamment basse (<20%%), elle peut être tuée instantanément.
+		Tuer une cible avec Coup du Maréchal restaure instantanément entre %d%% et %d%% de votre Endurance maximale, selon le nombre de points de combinaison accumulés.
+		L'utilisation de ce talent supprime vos points de combinaison.]], "tformat")
 -- texte non traduit
 --[==[
 t("Uppercut", "Uppercut", "talent name")
-t("@Source@ throws a finishing uppercut.", "@Source@ throws a finishing uppercut.", "_t")
-t([[A finishing uppercut that deals %d%% damage, and attempts to stun your target for %d to %d turns, depending on the amount of combo points you've accumulated.
-		The stun chance will improve with your Physical Power.
-		Using this talent removes your combo points.]], [[A finishing uppercut that deals %d%% damage, and attempts to stun your target for %d to %d turns, depending on the amount of combo points you've accumulated.
-		The stun chance will improve with your Physical Power.
-		Using this talent removes your combo points.]], "tformat")
-t("Concussive Punch", "Concussive Punch", "talent name")
-t("@Source@ throws a concussive punch.", "@Source@ throws a concussive punch.", "_t")
-t([[A powerful concussive punch that deals %d%% weapon damage to your target. If the punch hits, all targets in a radius of %d will take %0.2f to %0.2f damage, depending on the amount of combo points you've accumulated.
-		The area damage will scale with your Strength, and the radius will increase by 1 per combo point.
-		Using this talent removes your combo points.]], [[A powerful concussive punch that deals %d%% weapon damage to your target. If the punch hits, all targets in a radius of %d will take %0.2f to %0.2f damage, depending on the amount of combo points you've accumulated.
-		The area damage will scale with your Strength, and the radius will increase by 1 per combo point.
-		Using this talent removes your combo points.]], "tformat")
-t("Butterfly Kick", "Butterfly Kick", "talent name")
-t([[You spin into a flying leap and deliver a powerful kick dealing %d%% weapon damage to all enemies in a radius of 1 as you land. The range will increase by 1 per combo point and total damage will increase by 10%% per combo point.
-		Using this talent removes your combo points and you must have at least 1 combo point to use it.]], [[You spin into a flying leap and deliver a powerful kick dealing %d%% weapon damage to all enemies in a radius of 1 as you land. The range will increase by 1 per combo point and total damage will increase by 10%% per combo point.
-		Using this talent removes your combo points and you must have at least 1 combo point to use it.]], "tformat")
-t("Haymaker", "Haymaker", "talent name")
-t("@Source@ throws a wild haymaker!", "@Source@ throws a wild haymaker!", "_t")
-t("%s feels the pain of the death blow!", "%s feels the pain of the death blow!", "logSeen")
-t("%s resists the death blow!", "%s resists the death blow!", "logSeen")
-t([[A vicious finishing strike that deals %d%% damage increased by 20%% per combo point you have up to a max of %d%%. If the target ends up with low enough life (<20%%), it might be instantly killed.
-		Killing a target with Haymaker will instantly restore %d%% to %d%% of your maximum stamina, depending on the amount of combo points you've accumulated.
-		Using this talent removes your combo points.]], [[A vicious finishing strike that deals %d%% damage increased by 20%% per combo point you have up to a max of %d%%. If the target ends up with low enough life (<20%%), it might be instantly killed.
-		Killing a target with Haymaker will instantly restore %d%% to %d%% of your maximum stamina, depending on the amount of combo points you've accumulated.
-		Using this talent removes your combo points.]], "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/grappling.lua"
 
-t("Crushing Hold", "Étreinte Broyante", "talent name")
--- texte non traduit
---[==[
-t("Grappling Stance", "Grappling Stance", "talent name")
+t("Grappling Stance", "Posture de Combat au Corps à Corps", "talent name")
 t([[Increases your Physical Save by %d and your Physical Power by %d.
-		The bonuses will scale with your Strength.]], [[Increases your Physical Save by %d and your Physical Power by %d.
-		The bonuses will scale with your Strength.]], "tformat")
-t("Clinch", "Clinch", "talent name")
+		The bonuses will scale with your Strength.]], [[Augmente votre sauvegarde physique de %d et votre Puissance physique de %d.
+		Les bonus sont proportionnels à votre Force.]], "tformat")
+t("Clinch", "Saisie", "talent name")
 t([[Make a melee attack for %d%% damage and then attempt to grapple a target up to one size category larger than yourself for %d turns. A grappled opponent will be unable to move, take %d damage each turn, and %d%% of the damage you receive from any source will be redirected to them as physical damage.
 		Any movement from the target or you will break the grapple. Maintaining a grapple drains %d stamina per turn.
-		You may only grapple a single target at a time, and using any targeted unarmed talent on a target that you're not grappling will break the grapple.]], [[Make a melee attack for %d%% damage and then attempt to grapple a target up to one size category larger than yourself for %d turns. A grappled opponent will be unable to move, take %d damage each turn, and %d%% of the damage you receive from any source will be redirected to them as physical damage.
-		Any movement from the target or you will break the grapple. Maintaining a grapple drains %d stamina per turn.
-		You may only grapple a single target at a time, and using any targeted unarmed talent on a target that you're not grappling will break the grapple.]], "tformat")
+		You may only grapple a single target at a time, and using any targeted unarmed talent on a target that you're not grappling will break the grapple.]], [[Effectuez une attaque de mêlée pour %d%% dégâts puis tentez de saisir une cible d'au plus une catégorie de taille supérieure à la vôtre pendant %d tours. Un adversaire saisi ne peut pas se déplacer, subit %d dégâts physiques à chaque tour, et %d%% des dégâts que vous recevez de toute source lui sont redirigés comme dégâts physiques.
+		Tout déplacement de la cible ou de vous-même brisera la saisie. Maintenir une saisie draine %d d'Endurance par tour.
+		Vous ne pouvez saisir qu'une seule cible à la fois, et l'utilisation de tout talent à mains nues ciblé sur une cible que vous ne saisissez pas brisera la saisie.]], "tformat")
+t("Crushing Hold", "Étreinte Broyante", "talent name")
 t([[Enhances your grapples with additional effects. All additional effects will apply to every grapple with no additional save or resist check.
 		#RED#Talent Level 1:  Reduces physical power by %d
 		Talent Level 3:  Silences
-		Talent Level 5:  Reduces global action speed by %d%%]], [[Enhances your grapples with additional effects. All additional effects will apply to every grapple with no additional save or resist check.
-		#RED#Talent Level 1:  Reduces physical power by %d
-		Talent Level 3:  Silences
-		Talent Level 5:  Reduces global action speed by %d%%]], "tformat")
-t("Take Down", "Take Down", "talent name")
-t("You cannot move!", "You cannot move!", "logPlayer")
+		Talent Level 5:  Reduces global action speed by %d%%]], [[Améliore vos saisies avec des effets supplémentaires. Tous les effets supplémentaires s'appliquent à chaque saisie sans vérification de sauvegarde ou de résistance supplémentaire.
+		#RED#Niveau 1: Réduit la Puissance physique de %d.
+		Niveau 3: Réduit au silence.
+		Niveau 5: Réduit la vitesse d'action globale de %d%%.]], "tformat")
+t("Take Down", "Mise au Sol", "talent name")
+t("You cannot move!", "Vous ne pouvez pas vous déplacer !", "logPlayer")
 t([[Rushes forward and attempts to take the target to the ground, making a melee attack for %d%% damage then attempting to grapple them. If you're already grappling the target you'll instead slam them into the ground creating a radius 5 shockwave for %d physical damage and breaking your grapple.
-		The grapple effects and duration will be based off your grapple talent, if you have it, and the damage will scale with your Physical Power.]], [[Rushes forward and attempts to take the target to the ground, making a melee attack for %d%% damage then attempting to grapple them. If you're already grappling the target you'll instead slam them into the ground creating a radius 5 shockwave for %d physical damage and breaking your grapple.
-		The grapple effects and duration will be based off your grapple talent, if you have it, and the damage will scale with your Physical Power.]], "tformat")
-t("Hurricane Throw", "Hurricane Throw", "talent name")
-t("You must be grappling something to use this talent.", "You must be grappling something to use this talent.", "logPlayer")
-t("Your grapple victim must be able to move to use this talent.", "Your grapple victim must be able to move to use this talent.", "logPlayer")
-t("#RED#%s is shaken by the collision and loses a turn!#LAST#", "#RED#%s is shaken by the collision and loses a turn!#LAST#", "logSeen")
+		The grapple effects and duration will be based off your grapple talent, if you have it, and the damage will scale with your Physical Power.]], [[Vous vous élancez vers la cible pour la mettre au sol, effectuant une attaque de mêlée pour %d%% dégâts puis tenter de la saisir. Si vous saisissez déjà la cible vous la projetez au sol à la place, créant une onde de choc de rayon 5 pour %d dégâts physiques et brisant votre saisie.
+		Les effets et la durée de la saisie sont proportionnels à votre talent Saisie si vous le possédez, et les dégâts à votre Puissance physique.]], "tformat")
+t("Hurricane Throw", "Lancer Ouragan", "talent name")
+t("You must be grappling something to use this talent.", "Vous devez saisir quelque chose pour utiliser ce talent.", "logPlayer")
+t("Your grapple victim must be able to move to use this talent.", "Votre victime de saisie doit pouvoir se déplacer pour utiliser ce talent.", "logPlayer")
+t("#RED#%s is shaken by the collision and loses a turn!#LAST#", "#RED#%s est ébranlé par la collision et perd un tour !#LAST#", "logSeen")
 t([[In a mighty show of strength you whirl your grappled victim around and throw them into the air causing %d%% damage to them and enemies in radius %d on landing.  
 			If at least 1 other enemy is hit the thrown enemy will be shaken by the impact losing a full turn.
-			You can only throw enemies that could move normally.]], [[In a mighty show of strength you whirl your grappled victim around and throw them into the air causing %d%% damage to them and enemies in radius %d on landing.  
-			If at least 1 other enemy is hit the thrown enemy will be shaken by the impact losing a full turn.
-			You can only throw enemies that could move normally.]], "tformat")
---]==]
-
+			You can only throw enemies that could move normally.]], [[Dans une puissante démonstration de force vous faites tournoyer votre victime saisie et la projetez dans les airs, infligeant %d%% dégâts à elle et aux ennemis dans un rayon de %d à l'atterrissage.
+			Si au moins 1 autre ennemi est touché, l'ennemi projeté sera ébranlé par l'impact et perdra un tour complet.
+			Vous ne pouvez projeter que des ennemis pouvant se déplacer normalement.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/magical-combat.lua"
@@ -29583,35 +29570,32 @@ The physical damage dealt, armor penetration and save reduction will increase wi
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/pugilism.lua"
 
-
--- texte non traduit
---[==[
-t("Striking Stance", "Striking Stance", "talent name")
+t("Striking Stance", "Posture de Combat", "talent name")
 t([[Increases your Accuracy by %d, the damage multiplier of your striking talents (Pugilism and Finishing Moves) by %d%%, and reduces all damage taken by %d.
-		The offensive bonuses scale with your Dexterity and the damage reduction with your Strength.]], [[Increases your Accuracy by %d, the damage multiplier of your striking talents (Pugilism and Finishing Moves) by %d%%, and reduces all damage taken by %d.
-		The offensive bonuses scale with your Dexterity and the damage reduction with your Strength.]], "tformat")
-t("Double Strike", "Double Strike", "talent name")
-t("@Source@ throws two quick punches.", "@Source@ throws two quick punches.", "_t")
+		The offensive bonuses scale with your Dexterity and the damage reduction with your Strength.]], [[Augmente votre Précision de %d, le multiplicateur de dégâts de vos talents de frappe (Pugilat et Finitions) de %d%%, et réduit tous les dégâts subis de %d.
+		Les bonus offensifs sont proportionnels à votre Dextérité et la réduction de dégâts à votre Force.]], "tformat")
+t("Double Strike", "Double Coup de Poing", "talent name")
+t("@Source@ throws two quick punches.", "@Source@ lance deux coups de poing rapides.", "_t")
 t([[Deliver two quick punches that deal %d%% damage each, and switch your stance to Striking Stance. If you already have Striking Stance active and Double Strike isn't on cooldown, this talent will automatically replace your normal attacks (and trigger the cooldown).
-		If either jab connects, you earn one combo point. At talent level 4 or greater, if both jabs connect, you'll earn two combo points.]], [[Deliver two quick punches that deal %d%% damage each, and switch your stance to Striking Stance. If you already have Striking Stance active and Double Strike isn't on cooldown, this talent will automatically replace your normal attacks (and trigger the cooldown).
-		If either jab connects, you earn one combo point. At talent level 4 or greater, if both jabs connect, you'll earn two combo points.]], "tformat")
-t("Spinning Backhand", "Spinning Backhand", "talent name")
-t("@Source@ lashes out with a spinning backhand.", "@Source@ lashes out with a spinning backhand.", "_t")
+		If either jab connects, you earn one combo point. At talent level 4 or greater, if both jabs connect, you'll earn two combo points.]], [[Délivrez deux coups de poing rapides infligeant chacun %d%% dégâts, et passez en Posture de Combat. Si vous avez déjà une Posture de Combat active et que Double Coup de Poing n'est pas en rechargement, ce talent remplacera automatiquement vos attaques normales (et déclenchera le rechargement).
+		Si l'un des coups touche, vous gagnez un point de combinaison.
+		Au niveau 4 ou supérieur, si les deux coups touchent, vous gagnez deux points de combinaison.]], "tformat")
+t("Spinning Backhand", "Revers Giratoire", "talent name")
+t("@Source@ lashes out with a spinning backhand.", "@Source@ attaque avec un revers giratoire.", "_t")
 t([[Attack your foes in a frontal arc with a spinning backhand, doing %d%% damage. If you're not adjacent to the target, you'll step forward as you spin, gaining up to %d%% bonus damage, which increases the farther you move.
-		This attack will remove any grapples you're maintaining, and earn one combo point (or one combo point per attack that connects, if the talent level is 4 or greater).]], [[Attack your foes in a frontal arc with a spinning backhand, doing %d%% damage. If you're not adjacent to the target, you'll step forward as you spin, gaining up to %d%% bonus damage, which increases the farther you move.
-		This attack will remove any grapples you're maintaining, and earn one combo point (or one combo point per attack that connects, if the talent level is 4 or greater).]], "tformat")
-t("Axe Kick", "Axe Kick", "talent name")
-t("@Source@ raises their leg and snaps it downward in a devastating axe kick.", "@Source@ raises their leg and snaps it downward in a devastating axe kick.", "_t")
+		This attack will remove any grapples you're maintaining, and earn one combo point (or one combo point per attack that connects, if the talent level is 4 or greater).]], [[Attaquez vos ennemis dans un arc frontal avec un revers giratoire, infligeant %d%% dégâts. Si vous n'êtes pas adjacent à la cible, vous avancerez en tournoyant, gagnant jusqu'à %d%% dégâts bonus, qui augmentent selon la distance parcourue.
+		Cette attaque supprime toute saisie que vous maintenez et vous rapporte un point de combinaison. Au niveau 4 ou supérieur, vous gagnez plutôt un point de combinaison par coup réussi.]], "tformat")
+t("Axe Kick", "Coup de Pied en Hache", "talent name")
+t("@Source@ raises their leg and snaps it downward in a devastating axe kick.", "@Source@ lève la jambe et la abat violemment dans un dévastateur coup de pied en hache.", "_t")
 t([[Deliver a devastating axe kick dealing %d%% damage. If the blow connects your target is brain damaged, causing all talents to fail for %d turns and earning 2 combo points.
-		This effect cannot be saved against, though it can be dodged and checks confusion immunity.]], [[Deliver a devastating axe kick dealing %d%% damage. If the blow connects your target is brain damaged, causing all talents to fail for %d turns and earning 2 combo points.
-		This effect cannot be saved against, though it can be dodged and checks confusion immunity.]], "tformat")
-t("Flurry of Fists", "Flurry of Fists", "talent name")
-t("@Source@ lashes out with a flurry of fists.", "@Source@ lashes out with a flurry of fists.", "_t")
+		This effect cannot be saved against, though it can be dodged and checks confusion immunity.]], [[Portez un dévastateur coup de pied en hache infligeant %d%% dégâts. Si le coup touche, la cible subit des dommages cérébraux, faisant échouer tous ses talents pendant %d tours et vous rapportant 2 points de combinaison.
+		Cet effet ne peut pas être résisté par une sauvegarde, mais peut être esquivé et vérifie l'immunité à la Confusion.]], "tformat")
+t("Flurry of Fists", "Rafale de Poings", "talent name")
+t("@Source@ lashes out with a flurry of fists.", "@Source@ attaque avec une rafale de poings.", "_t")
 t([[Lashes out at the target with three quick punches that each deal %d%% damage.
-		Earns one combo point. If your talent level is 4 or greater, this instead earns one combo point per blow that connects.]], [[Lashes out at the target with three quick punches that each deal %d%% damage.
-		Earns one combo point. If your talent level is 4 or greater, this instead earns one combo point per blow that connects.]], "tformat")
---]==]
-
+		Earns one combo point. If your talent level is 4 or greater, this instead earns one combo point per blow that connects.]], [[Déchaînez trois coups de poing rapides sur la cible, infligeant chacun %d%% dégâts.
+		Rapporte un point de combinaison.
+		Au niveau 4 ou supérieur, vous gagnez plutôt un point de combinaison par coup réussi.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/reflexes.lua"
@@ -29845,8 +29829,8 @@ t("Tireless Combatant", "combattant infatigable", "talent type")
 t("Your will carries you through the most difficult struggles, allowing you to fight on when others would have collapsed from exhaustion.", "Votre volonté vous porte à travers les épreuves les plus difficiles, vous permettant de continuer à combattre là où d'autres auraient succombé à l'épuisement.", "_t")
 t("pugilism", "pugilat", "talent type")
 t("Unarmed Boxing techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "Techniques de boxe à mains nues qui ne peuvent être pratiquées avec une armure massive ou lorsqu'une arme ou un bouclier est équipé.", "_t")
-t("finishing moves", "coups de grâce", "talent type")
-t("Finishing moves that use combo points and may not be practiced in massive armor or while a weapon or shield is equipped.", "Techniques de finition utilisant des points de combo, incompatibles avec une armure massive ou avec une arme ou un bouclier équipé.", "_t")
+t("finishing moves", "finitions", "talent type")
+t("Finishing moves that use combo points and may not be practiced in massive armor or while a weapon or shield is equipped.", "Techniques de finitions utilisant des points de combo, incompatibles avec une armure massive ou avec une arme ou un bouclier équipé.", "_t")
 t("grappling", "lutte", "talent type")
 t("Grappling techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "Techniques de lutte qui ne peuvent être pratiquées avec une armure massive ou lorsqu'une arme ou un bouclier est équipé.", "_t")
 t("unarmed discipline", "discipline à mains nues", "talent type")
@@ -29991,61 +29975,52 @@ t([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/unarmed-discipline.lua"
 
-t("Open Palm Block", "Blocage de la Paume Ouverte", "talent name")
-t("Touch of Death", "Toucher Mortel", "talent name")
--- texte non traduit
---[==[
-t("Combination Kick", "Combination Kick", "talent name")
-t("@Source@ unleashes a flurry of disrupting kicks.", "@Source@ unleashes a flurry of disrupting kicks.", "_t")
+t("Combination Kick", "Coup de Pied Combiné", "talent name")
+t("@Source@ unleashes a flurry of disrupting kicks.", "@Source@ déchaîne une rafale de coups de pied perturbateurs.", "_t")
 t([[Unleash a flurry of disruptive kicks at your target's vulnerable areas. For each combo point you attack for %d%% weapon damage and deactivate one physical sustain.
 			At talent level 3 #DARK_ORCHID#Magical#LAST# sustains will also be effected.
 			At talent level 5 #YELLOW#Mental#LAST# sustains will also be effected.
-			Using this talent removes your combo points.]], [[Unleash a flurry of disruptive kicks at your target's vulnerable areas. For each combo point you attack for %d%% weapon damage and deactivate one physical sustain.
-			At talent level 3 #DARK_ORCHID#Magical#LAST# sustains will also be effected.
-			At talent level 5 #YELLOW#Mental#LAST# sustains will also be effected.
-			Using this talent removes your combo points.]], "tformat")
-t("Relentless Strikes", "Relentless Strikes", "talent name")
-t("When gaining a combo point, you have a %d%% chance to gain an extra combo point. Additionally, every time you earn a combo point, you will regain %0.2f stamina, or %0.2f stamina if you would exceed 5 combo points.", "When gaining a combo point, you have a %d%% chance to gain an extra combo point. Additionally, every time you earn a combo point, you will regain %0.2f stamina, or %0.2f stamina if you would exceed 5 combo points.", "tformat")
-t("@Source@ prepares to block incoming attacks.", "@Source@ prepares to block incoming attacks.", "_t")
+			Using this talent removes your combo points.]], [[Déchaînez une rafale de coups de pied perturbateurs sur les zones vulnérables de votre cible. Pour chaque point de combinaison, vous attaquez pour %d%% dégâts d'arme et désactivez un talent physique soutenu.
+			Au niveau 3, les talents #DARK_ORCHID#magiques#LAST# soutenus seront également affectés.
+			Au niveau 5, les talents #YELLOW#mentaux#LAST# soutenus seront également affectés.
+			L'utilisation de ce talent supprime vos points de combinaison.]], "tformat")
+t("Relentless Strikes", "Frappes Implacables", "talent name")
+t("When gaining a combo point, you have a %d%% chance to gain an extra combo point. Additionally, every time you earn a combo point, you will regain %0.2f stamina, or %0.2f stamina if you would exceed 5 combo points.", "Lorsque vous gagnez un point de combinaison, vous avez %d%% de chance d'en gagner un supplémentaire. De plus, chaque fois que vous gagnez un point de combinaison, vous récupérez %0.2f d'Endurance, ou %0.2f d'Endurance si vous dépassiez 5 points de combinaison.", "tformat")
+t("Open Palm Block", "Blocage de la Paume Ouverte", "talent name")
+t("@Source@ prepares to block incoming attacks.", "@Source@ se prépare à bloquer les attaques entrantes.", "_t")
 t([[Toughen your body blocking up to %d damage per combo point (Max %d) across 2 turns.
 			Current block value: %d
 			Using this talent removes your combo points.
-			The damage absorbed scales with your Physical Power.]], [[Toughen your body blocking up to %d damage per combo point (Max %d) across 2 turns.
-			Current block value: %d
-			Using this talent removes your combo points.
-			The damage absorbed scales with your Physical Power.]], "tformat")
-t("@Source@ strikes a deadly pressure point on the target.", "@Source@ strikes a deadly pressure point on the target.", "_t")
-t("#Source# strikes at a vital spot on #target#!", "#Source# strikes at a vital spot on #target#!", "logCombat")
+			The damage absorbed scales with your Physical Power.]], [[Endurcissez votre corps, bloquant jusqu'à %d dégâts par point de combinaison (Maximum %d) sur 2 tours.
+			Valeur de blocage actuelle: %d
+			L'utilisation de ce talent supprime vos points de combinaison.
+			Les dégâts absorbés sont proportionnels à votre Puissance physique.]], "tformat")
+t("Touch of Death", "Toucher Mortel", "talent name")
+t("@Source@ strikes a deadly pressure point on the target.", "@Source@ frappe un point de pression mortel sur la cible.", "_t")
+t("#Source# strikes at a vital spot on #target#!", "#Source# frappe un point vital de #Target# !", "logCombat")
 t([[Using your deep knowledge of anatomy, you strike a target in a vital pressure point for %d%% weapon damage, bypassing their defense and evasion.
 		This strike inflicts terrible wounds inside the target's body, causing them to take physical damage equal to 100%% of any damage dealt during the attack each turn for 4 turns, increasing by %d%% each turn (so after 4 turns, they would have taken a total of %d%% damage).
-		If the target dies while under or from this effect their body will explode in a radius %d shower of bone and gore, inflicting physical damage equal to the current tick to all enemies and granting you 4 combo points.]], [[Using your deep knowledge of anatomy, you strike a target in a vital pressure point for %d%% weapon damage, bypassing their defense and evasion.
-		This strike inflicts terrible wounds inside the target's body, causing them to take physical damage equal to 100%% of any damage dealt during the attack each turn for 4 turns, increasing by %d%% each turn (so after 4 turns, they would have taken a total of %d%% damage).
-		If the target dies while under or from this effect their body will explode in a radius %d shower of bone and gore, inflicting physical damage equal to the current tick to all enemies and granting you 4 combo points.]], "tformat")
---]==]
-
+		If the target dies while under or from this effect their body will explode in a radius %d shower of bone and gore, inflicting physical damage equal to the current tick to all enemies and granting you 4 combo points.]], [[En utilisant votre connaissance approfondie de l'anatomie vous frappez une cible sur un point de pression vital pour %d%% dégâts d'arme, ignorant sa défense et son esquive.
+		Ce coup inflige de terribles blessures à l'intérieur du corps de la cible, lui faisant subir des dégâts physiques égaux à 100%% de tout dégât infligé pendant l'attaque à chaque tour pendant 4 tours, augmentant de %d%% à chaque tour (donc après 4 tours, elle aurait subi un total de %d%% dégâts).
+		Si la cible meurt sous cet effet ou à cause de lui son corps explosera dans une pluie d'os et de viscères de rayon %d, infligeant des dégâts physiques égaux au tick actuel à tous les ennemis et vous accordant 4 points de combinaison.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/unarmed-training.lua"
 
-
--- texte non traduit
---[==[
-t("Empty Hand", "Empty Hand", "talent name")
+t("Empty Hand", "Main Vide", "talent name")
 t([[Grants %d Physical Power when fighting unarmed (or with gloves or gauntlets).
-		This talent's effects will scale with your level.]], [[Grants %d Physical Power when fighting unarmed (or with gloves or gauntlets).
-		This talent's effects will scale with your level.]], "tformat")
-t("Unarmed Mastery", "Unarmed Mastery", "talent name")
+		This talent's effects will scale with your level.]], [[Accorde %d de Puissance physique lors des combats à mains nues (ou avec des gants ou des gantelets).
+		Les effets de ce talent sont proportionnels à votre niveau.]], "tformat")
+t("Unarmed Mastery", "Maîtrise à Mains Nues", "talent name")
 t([[Increases all unarmed damage by %d%% and physical power by 30 (including grapples and kicks).
-		Note that brawlers naturally gain 0.5 Physical Power per character level while unarmed (current brawler physical power bonus: %0.1f) and attack 20%% faster while unarmed.]], [[Increases all unarmed damage by %d%% and physical power by 30 (including grapples and kicks).
-		Note that brawlers naturally gain 0.5 Physical Power per character level while unarmed (current brawler physical power bonus: %0.1f) and attack 20%% faster while unarmed.]], "tformat")
-t("Unified Body", "Unified Body", "talent name")
-t("Your mastery of unarmed combat unifies your body. Increases your Strength by %d based on Cunning and your Constitution by %d based on Dexterity.", "Your mastery of unarmed combat unifies your body. Increases your Strength by %d based on Cunning and your Constitution by %d based on Dexterity.", "tformat")
-t("Heightened Reflexes", "Heightened Reflexes", "talent name")
-t("When you're targeted by a projectile, your global speed is increased by %d%% for 1 turn.  Taking any action other than movement will break the effect.", "When you're targeted by a projectile, your global speed is increased by %d%% for 1 turn.  Taking any action other than movement will break the effect.", "tformat")
-t("Reflex Defense", "Reflex Defense", "talent name")
-t("Your understanding of physiology allows you to apply your reflexes in new ways, increasing the flat damage reduction granted by Striking Stance by %d%% and causing direct critical hits (physical, mental, spells) against you to have a %d%% lower Critical multiplier (but always do at least normal damage).", "Your understanding of physiology allows you to apply your reflexes in new ways, increasing the flat damage reduction granted by Striking Stance by %d%% and causing direct critical hits (physical, mental, spells) against you to have a %d%% lower Critical multiplier (but always do at least normal damage).", "tformat")
---]==]
-
+		Note that brawlers naturally gain 0.5 Physical Power per character level while unarmed (current brawler physical power bonus: %0.1f) and attack 20%% faster while unarmed.]], [[Augmente tous les dégâts à mains nues de %d%% et la Puissance physique de 30 (y compris les saisies et les coups de pied).
+		Les Lutteurs gagnent naturellement 0,5 de Puissance physique par niveau de personnage lorsqu'ils sont à mains nues (bonus actuel de Puissance physique du Lutteur: %0.1f) et attaquent 20%% plus vite à mains nues.]], "tformat")
+t("Unified Body", "Corps Unifié", "talent name")
+t("Your mastery of unarmed combat unifies your body. Increases your Strength by %d based on Cunning and your Constitution by %d based on Dexterity.", "Votre maîtrise du combat à mains nues unifie votre corps. Augmente votre Force de %d basé sur la Ruse et votre Constitution de %d basé sur la Dextérité.", "tformat")
+t("Heightened Reflexes", "Réflexes Aiguisés", "talent name")
+t("When you're targeted by a projectile, your global speed is increased by %d%% for 1 turn.  Taking any action other than movement will break the effect.", "Lorsque vous êtes ciblé par un projectile, votre vitesse globale est augmentée de %d%% pendant 1 tour. Toute action autre que le déplacement brisera l'effet.", "tformat")
+t("Reflex Defense", "Défense Réflexe", "talent name")
+t("Your understanding of physiology allows you to apply your reflexes in new ways, increasing the flat damage reduction granted by Striking Stance by %d%% and causing direct critical hits (physical, mental, spells) against you to have a %d%% lower Critical multiplier (but always do at least normal damage).", "Votre compréhension de la physiologie vous permet d'appliquer vos réflexes de nouvelles façons, augmentant la réduction fixe de dégâts accordée par la Posture de Combat de %d%% et réduisant le multiplicateur de critique des coups critiques directs (physiques, mentaux, sorts) contre vous de %d%% (sans jamais descendre en dessous des dégâts normaux).", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/warcries.lua"
@@ -34759,8 +34734,8 @@ t("race", "race", "effect subtype")
 t("Illumination ", "Illumination ", "_t")
 t("+Illumination", "+Illumination", "_t")
 t("-Illumination", "-Illumination", "_t")
-t("focus", "cencentration", "effect subtype")
-t("%s(%d focus)#LAST#", "%s(%d concentration)#LAST#", "tformat")
+t("focus", "focus", "effect subtype")
+t("%s(%d focus)#LAST#", "%s(%d focus)#LAST#", "tformat")
 t("%d%%", "%d%%", "tformat")
 t("invulnerable", "invulnerable", "effect subtype")
 t("Invulnerable.", "Invulnerable.", "_t")
@@ -35279,7 +35254,7 @@ t("#Target# is free from their doom.", "#Target# est libéré de leur malédicti
 t("-Vampire Mark", "-Marque du Vampire", "_t")
 -- texte non traduit
 --[==[
-t("focus", "cencentration", "effect subtype")
+t("focus", "focus", "effect subtype")
 t("#ORANGE#", "#ORANGE#", "_t")
 t(", nature", ", nature", "_t")
 t(", arcane", ", arcane", "_t")
@@ -36182,12 +36157,12 @@ t("#Target# is moving defensively!", "#Target# adopte une attitude défensive!",
 t("+Defensive Maneuver", "+Manoeuvre Défensive", "_t")
 t("#Target# isn't moving as defensively anymore.", "#Target# n'est plus aussi défensif.", "_t")
 t("-Defensive Maneuver", "-Manoeuvre Défensive", "_t")
-t("Set Up", "Configuration", "_t")
+t("Set Up", "Mise en Place", "_t")
 t("The target is off balance and is %d%% more likely to be crit by the target that set it up.  In addition all its saves are reduced by %d.", "La cible est déséquilibrée et a %d%% plus de chances de subir un coup critique de la part de la cible qui l'a mise dans cet état. De plus, tous ses jets de sauvegarde sont réduits de %d.", "tformat")
 t("#Target# has been set up!", "#Target# a été configurationné!", "_t")
-t("+Set Up", "+Configuration", "_t")
-t("#Target# has survived the set up.", "#Target# a survécu à la configuration.", "_t")
-t("-Set Up", "-Configuration", "_t")
+t("+Set Up", "+Mise en Place", "_t")
+t("#Target# has survived the set up.", "#Target# a survécu à la mise en place.", "_t")
+t("-Set Up", "-Mise en Place", "_t")
 t("heal", "soin", "effect subtype")
 t("Recovery", "Récupération", "_t")
 t("The target has %d increased life regeneration.", "La cible bénéficie d'une augmentation de régénération de %d.", "tformat")

@@ -548,7 +548,7 @@ section "tome-orcs/data/chats/kruk-tinker-shop.lua"
 
 t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "chat_kruk-tinker-shop")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_kruk-tinker-shop")
 t("No thanks.", "Non merci.", "_t")
 -- texte non traduit
 --[==[
@@ -561,7 +561,7 @@ t("The tinker spends some time with you, teaching you the basics of therapeutics
 --]==]
 
 -- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller!", "_t")
+t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/metash.lua"
