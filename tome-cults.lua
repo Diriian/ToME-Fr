@@ -3328,7 +3328,7 @@ t([[Raise your Dark Whispers in radius %d to a deafening crescendo for %d turns,
 ------------------------------------------------
 section "tome-cults/data/talents/demented/nether.lua"
 
-
+t("Select a teleport location...", "Sélectionnez un lieu de téléportation...", "logPlayer")
 -- texte non traduit
 --[==[
 t("Netherblast", "Netherblast", "talent name")
@@ -3344,7 +3344,6 @@ t([[Fire a beam of energy that rakes across the ground, dealing %0.2f darkness d
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
 		The damage will increase with your Spellpower.]], "tformat")
 t("Spatial Distortion", "Spatial Distortion", "talent name")
-t("Select a teleport location...", "Select a teleport location...", "logPlayer")
 t("The spell fizzles on %s!", "The spell fizzles on %s!", "logSeen")
 t("#CRIMSON#%s is swallowed by a portal!", "#CRIMSON#%s is swallowed by a portal!", "logSeen")
 t("%s resists the warp!", "%s resists the warp!", "logSeen")

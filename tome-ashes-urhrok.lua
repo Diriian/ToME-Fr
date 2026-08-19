@@ -1029,6 +1029,7 @@ section "tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
 
 t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("Select a teleport location...", "Sélectionnez un lieu de téléportation...", "logPlayer")
 -- texte non traduit
 --[==[
 t("13%% chance to trigger a Blood Spray cast of level %d", "13%% chance to trigger a Blood Spray cast of level %d", "tformat")
@@ -1098,7 +1099,6 @@ t([[Your knowledge of demonic forces grows, allowing you to bind more seeds to y
 		At level 5 it lets you bind a seed to your main body armour.
 		]], "tformat")
 t("Twisted Portal", "Twisted Portal", "talent name")
-t("Select a teleport location...", "Select a teleport location...", "logPlayer")
 t("The targetted phase door fizzles and works randomly!", "The targetted phase door fizzles and works randomly!", "logPlayer")
 t([[Teleports you randomly within a small range of up to %d grids with %d precision.
 		In the spot you left you will summon a random demon from your seeds for %d turns.
@@ -1582,6 +1582,7 @@ t("cold", "froid", "effect subtype")
 t("vim", "vitae", "effect subtype")
 t("none", "aucun", "_t")
 t("Spellpower increased by %d.", "La puissance des sorts est augmentée de %d.", "tformat")
+t("death", "mort", "effect subtype")
 t("#Target# vanishes from sight.", "#Target# disparait de la vue.", "_t")
 t("#Target# is no longer invisible.", "#Target# n'est plus invisible.", "_t")
 t("demon", "démon", "effect subtype")
@@ -1743,7 +1744,6 @@ t("The target is surrounded by a fire haven, granting 40% fire damage affinity b
 t("Bleak Outcome", "Bleak Outcome", "_t")
 t("Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "tformat")
 t("Grim Future", "Grim Future", "_t")
-t("death", "death", "effect subtype")
 t("Blood Drinker", "Blood Drinker", "_t")
 t("Triggers Blood Drinker if this creature dies.", "Triggers Blood Drinker if this creature dies.", "_t")
 t("%d vim regen and %d%% evasion chance.", "%d vim regen and %d%% evasion chance.", "tformat")
