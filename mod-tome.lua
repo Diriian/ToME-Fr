@@ -423,7 +423,7 @@ t("Sun Paladin", "Paladin Solaire", "birth descriptor name")
 t("The sun rises in the east in full glory, but you must look for it first amidst the darkest places.", "Le soleil s'élève à l'est dans la gloire totale, mais vous devez le chercher dans les endroits les plus sombres.", "_t")
 t("Sun Paladins hail from the Gates of Morning, the last bastion of the free people in the Far East.", "Les paladins solaires viennent des Portes du Matin, le dernier bastion du peuple libre dans l'extrême orient.", "_t")
 t("Their way of life is well represented by their motto 'The Sun is our giver, our purity, our essence. We carry the light into dark places, and against our strength none shall pass.'", "Leur façon de vivre est bien représentée par leur devise \"Le soleil est notre bienfaiteur, notre pureté, notre essence. Nous portons la lumière dans les endroits obscurs, et contre notre force rien ne passera.\"", "_t")
-t("They can channel the power of the Sun to smite all who seek to destroy the Sunwall.", "Ils peuvent focaliser le pouvoir du soleil pour frapper tous ceux qui veulent détruire le Mur du soleil.", "_t")
+t("They can channel the power of the Sun to smite all who seek to destroy the Sunwall.", "Ils peuvent canaliser le pouvoir du soleil pour frapper tous ceux qui veulent détruire le Mur du soleil.", "_t")
 t("Competent in both weapon and shield combat and magic, they usually burn their foes from afar before bashing them in melee.", "Compétents à la fois dans le combat à l'arme et au bouclier et dans la magie, ils brûlent généralement leur ennemis à distance avant de les combattre au corps à corps.", "_t")
 t("Their most important stats are: Strength and Magic", "Leurs stats les plus importantes sont: Force et Magie", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
@@ -631,7 +631,7 @@ t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0"
 t("Arcane Blade", "Lame arcanique", "birth descriptor name")
 t("The Arcane Blade is a warrior who has been touched by the gift of magic.", "Une lame arcanique est un guerrier ayant été touché par le don de magie.", "_t")
 t("Their use of magic is innate and not really studied; as such they do not naturally regenerate mana and must use external means of recharging.", "Leur utilisation de la magie est innée et pas vraiment étudiée; à ce titre ils ne régénèrent pas leur magie naturellement et doivent utiliser des moyens extérieurs pour se recharger.", "_t")
-t("They can cast spells from a limited selection but have the unique capacity to 'channel' their attack spells through their melee attacks.", "Ils peuvent lancer des sorts à partir d'une sélection limitée mais ont la capacité unique de \"canaliser\" leur sorts d'attaque à travers leurs attaques au corps à corps.", "_t")
+t("They can cast spells from a limited selection but have the unique capacity to 'channel' their attack spells through their melee attacks.", "Ils peuvent lancer des sorts à partir d'une sélection limitée mais ont la capacité unique de 'canaliser' leur sorts d'attaque à travers leurs attaques au corps à corps.", "_t")
 t("They are adept with two-handed weapons, for the sheer destruction they can bring.", "Ils sont adeptes des armes à deux mains, pour la destruction pure qu'elles procurent.", "_t")
 t("Their most important stats are: Strength, Cunning and Magic", "Leurs stats les plus importantes sont: Force, Ruse et Magie", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 Force, +0 Dextérité, +0 Constitution", "_t")
@@ -696,7 +696,7 @@ La nature et les arcanes pourront combler leur division -
 et quand viendra ce moment, l'or ne prendra pas parti...]], "_t")
 t("Stone Wardens are dwarves trained in both the eldritch arts and the worship of nature.", "Les gardiens de pierre sont des nains entraînés à la fois dans les arts surnaturels et la voie de la nature.", "_t")
 t("While other races are stuck in their belief that arcane forces and natural forces are meant to oppose, dwarves have found a way to combine them in harmony.", "Pendant que les autres races sont coincés dans leurs dogmes visant à opposer les forces arcaniques aux forces de la nature, les nains ont trouvé le moyen de les unir en harmonie.", "_t")
-t("Stone Wardens are armoured fighters, dual wielding shields to channel many of their powers.", "Les gardiens de pierre sont des guerriers en armure, portant deux boucliers pour focaliser une grande partie de leurs pouvoirs.", "_t")
+t("Stone Wardens are armoured fighters, dual wielding shields to channel many of their powers.", "Les gardiens de pierre sont des guerriers en armure, portant deux boucliers pour canaliser une grande partie de leurs pouvoirs.", "_t")
 t("Their most important stats are: Strength, Magic and Willpower", "Leurs stats les plus importantes sont: Force, Magie et Volonté", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +2 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 Magie, +3 Volonté, +0 Ruse", "_t")
@@ -7373,7 +7373,7 @@ t("vial of yellow fluid", "fiole de liquide jaune", "_t")
 t("A vial of lively yellow fluid.", "Une fiole de liquide jaune vif.", "_t")
 t("permanently increase your luck by 5", "augmenter de façon permanente votre chance de 5 points", "_t")
 t("#00FF00#The elixir seems to have subtly repositioned your entire being within the fabric of reality!", "#00FF00#L'élixir semble avoir subtilement repositionné votre être dans le tissu de la réalité!", "logPlayer")
-t("Elixir of Focus", "Elixir de Concentration", "entity name")
+t("Elixir of Focus", "Elixir de Focus", "entity name")
 t("vial of clear fluid", "flacon de liquide transparent", "_t")
 t("A vial of clear, steaming fluid.", "Une fiole de fluide clair et fumant.", "_t")
 t("grant you two additional class talent points", "vous accorde deux points de talent de classe supplémentaires", "_t")
@@ -8198,8 +8198,7 @@ t(" of corpselight", " de lueur cadavérique", "entity name")
 t("corpselight", "lueur cadavérique", "entity keyword")
 t(" of the zealot", " du fanatique", "entity name")
 t("zealot", "fanatique", "entity keyword")
-t(" of focus", " de concentration", "entity name")
-t("focus", "cencentration", "entity keyword")
+t(" of focus", " de focus", "entity name")
 t("ethereal ", "de l'éthéré ", "entity name")
 t("ethereal", "éthéré", "entity keyword")
 t("watchleader's ", "du chef du guet ", "entity name")
@@ -8208,6 +8207,7 @@ t("watchleader", "chef du guet", "entity keyword")
 --[==[
 t("guide", "guide", "entity keyword")
 t("illusion", "illusion", "entity keyword")
+t("focus", "cencentration", "entity keyword")
 --]==]
 
 
@@ -8530,7 +8530,6 @@ t("mindwoven", "tissesprit", "entity keyword")
 t("tormentor's ", "de tourmenteur ", "entity name")
 t("tormentor", "tourmenteur", "entity keyword")
 t("focusing ", "de fixation ", "entity name")
-t("focus", "cencentration", "entity keyword")
 t("fearwoven ", "tissé ", "entity name")
 t("fearwoven", "tissé", "entity keyword")
 t("psion's ", "du psyon ", "entity name")
@@ -8542,6 +8541,7 @@ t("prot", "prot", "entity keyword")
 t("Linaniil", "Linaniil", "entity keyword")
 t("Angolwen", "Angolwen", "entity keyword")
 t("ancient", "ancient", "entity keyword")
+t("focus", "cencentration", "entity keyword")
 --]==]
 
 
@@ -9484,7 +9484,7 @@ t("weapon", "arme", "entity type")
 t("mindstar", "étoile d'âme", "entity subtype")
 t("mindstar", "étoile d'âme", "entity combat talented")
 t([[Mindstars are natural products. Natural gems covered in living matter, they are used to focus the mental powers of all nature defenders and psionics.
-Using mindstars in the offhand does not incur the normal offhand damage penalty.]], [[Les Etoiles d'âme sont des produits naturels. Gemmes naturelles recouvertes de matière vivante, elles sont utilisées pour concentrer les pouvoirs mentaux de tous les défenseurs de la nature et des psioniques.
+Using mindstars in the offhand does not incur the normal offhand damage penalty.]], [[Les Etoiles d'âme sont des produits naturels. Gemmes naturelles recouvertes de matière vivante, elles sont utilisées pour focus les pouvoirs mentaux de tous les défenseurs de la nature et des psioniques.
 L'utilisation des étoiles d'âme en main gauche n'entraîne pas la pénalité normale de dégâts en main gauche.]], "_t")
 t("mossy mindstar", "étoile d'âme moussue", "entity name")
 t("mossy", "moussue", "entity short_name")
@@ -17603,13 +17603,13 @@ Your disobedient son]], "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/spellhunt.lua"
 
+t("age of dusk", "ère du crépuscule", "newLore category")
 t("memories of archmage Varil", "mémoires de l'archimage Varil", "_t")
 t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts?", "_t")
 t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du Traque-sorts partie 2 : Comment combattre un utilisateur de magie?", "_t")
 t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts partie 3 : Comment tuer un utilisateur de magie?", "_t")
 -- texte non traduit
 --[==[
-t("age of dusk", "age of dusk", "newLore category")
 t([[From an objective viewpoint, you would think the Spellhunt futile, but it was not so. You couldn't imagine the barbarism of the magehunting mobs; they would abuse and persecute any they saw as eccentric, many of whom had no connection to magic at all.
 ...
 True mages would sometimes speak up in an act of altruism, just to stop the suffering of the innocent, but this only fuelled the horde's anger...
@@ -18285,7 +18285,7 @@ t("elixir of the savior", "élixir du sauveur", "_t")
 t("elixir of mastery", "élixir de maîtrise", "_t")
 t("elixir of explosive force", "élixir de force explosive", "_t")
 t("elixir of serendipity", "élixir de sérendipité", "_t")
-t("elixir of focus", "élixir de concentration", "_t")
+t("elixir of focus", "élixir de focus", "_t")
 t("elixir of brawn", "elixir de muscles", "_t")
 t("elixir of stoneskin", "elixir de peau de pierre", "_t")
 t("elixir of foundations", "elixir de foundations", "_t")
@@ -19116,7 +19116,7 @@ t("Chant the glory of the Moon.", "Chantez la gloire de la Lune.", "_t")
 t("circles", "cercles", "talent type")
 t("Bind the power of the Moon into circles at your feet.", "Liez le pouvoir de la Lune dans des cercles à vos pieds.", "_t")
 t("eclipse", "éclipse", "talent type")
-t("The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "Le moment de l'Éclipse est le moment de Vérité, quand le Soleil et la Lune sont de concert et que les énergies du monde sont en équilibre. Une concentration intense permet aux plus grands Anorithils d'exploiter ces énergies pour libérer des forces dévastatrices...", "_t")
+t("The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "Le moment de l'Éclipse est le moment de Vérité, quand le Soleil et la Lune sont de concert et que les énergies du monde sont en équilibre. Un focus intense permet aux plus grands Anorithils d'exploiter ces énergies pour libérer des forces dévastatrices...", "_t")
 t("other", "autre", "talent type")
 t("Other celestial powers.", "Autres pouvoirs célestes.", "_t")
 t("Various celestial talents.", "Talents célestes variés.", "_t")
@@ -19471,7 +19471,7 @@ t([[Destabilize your glyphs, triggering every glyph in radius 10 with an enemy s
 		#ffd700#Sunlight#LAST#:  %0.2f light damage.
 		#7f7f7f#Moonlight#LAST#:  %0.2f darkness damage.
 		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], [[Déstabilisez vos glyphes, déclenchant chaque glyphe dans un rayon de 10 avec un ennemi dessus.
-		Au niveau de talent 2, les glyphes déclenchés de cette manière laisseront un résidu sur le sol, infligeant des dégâts chaque tour pendant %d tours.
+		Au niveau 2, les glyphes déclenchés de cette manière laisseront un résidu sur le sol infligeant des dégâts chaque tour pendant %d tours.
 		#ffd700#Glyphe de Lumière Solaire#LAST#: %0.2f dégâts de lumière.
 		#7f7f7f#Glyphe de Clair de Lune#LAST#: %0.2f dégâts d'obscurité.
 		#9D9DC9#Glyphe de Crépuscule#LAST#: %0.2f dégâts de lumière et %0.2f dégâts d'obscurité]], "tformat")
@@ -19742,7 +19742,7 @@ t([[Invokes the Sun to cause a flare within radius %d, blinding your foes for %d
 		At talent level 3 you gain %d%% light, darkness, and fire resistance for %d turns.
 		The damage done and resistances will increase with your Spellpower.]], [[Invoque le Soleil pour causer une éruption dans un rayon de %d, aveuglant vos ennemis pendant %d tours et illuminant la zone.
 		Tous les ennemis affectés subiront %0.2f dégâts de lumière.
-		Au niveau de talent 3, vous gagnez %d%% de résistance à la lumière, aux ténèbres et au feu pendant %d tours.
+		Au niveau 3, vous gagnez %d%% de résistance à la lumière, aux ténèbres et au feu pendant %d tours.
 		Les dégâts infligés et les résistances sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Firebeam", "Rayon de Feu", "talent name")
 t([[Call forth the Sun to summon a fiery beam that pierces to the farthest enemy dealing %d fire damage to all enemies hit.
@@ -19771,7 +19771,7 @@ t([[Create a shadow jumpgate at your current location. As long as you sustain th
 		Note that any stairs underneath the jumpgate will be unusable while the spell is sustained, and you may need to cancel this sustain in order to leave certain locations.
 		At talent level 4, you learn to create and sustain a second jumpgate.]], [[Créez un portail de saut d'ombre à votre emplacement actuel. Tant que vous maintenez ce sort, vous pouvez utiliser 'Portail de Saut: Téléportation' pour voyager instantanément vers le portail de saut, tant que vous êtes à moins de %d cases de celui-ci.
 		Notez que tout escalier situé sous le portail de saut sera inutilisable tant que le sort est maintenu, et vous devrez peut-être annuler ce maintien pour quitter certains lieux.
-		Au niveau de talent 4, vous apprenez à créer et maintenir un second portail de saut.]], "tformat")
+		Au niveau 4, vous apprenez à créer et maintenir un second portail de saut.]], "tformat")
 t("Mind Blast", "Explosion Mentale", "talent name")
 t([[Let out a mental cry that shatters the will of your targets within radius %d, dealing %0.2f darkness damage and confusing (%d%% to act randomly) them for %d turns.
 		The damage will improve with your spellpower and the duration will improve with your Cunning.]], [[Poussez un cri mental qui brise la volonté de vos cibles dans un rayon de %d, infligeant %0.2f dégâts d'obscurité et les confusant (%d%% de chances d'agir au hasard) pendant %d tours.
@@ -19823,6 +19823,8 @@ t("trap", "piège", "_t")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
 t("human farmer", "fermier humain", "_t")
 t("halfling gardener", "jardinier halfelin", "_t")
+t("stone wall", "mur de pierre", "_t")
+t("a summoned wall of stone", "un mur de pierre invoqué", "_t")
 t("%s's %s is disrupted!", "%s's %s est perturbé!", "logSeen")
 t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
 -- texte non traduit
@@ -19897,8 +19899,6 @@ t("@Source@ turns matter to dust.", "@Source@ turns matter to dust.", "_t")
 t("Digs out all terrain in a radius %d ball.", "Digs out all terrain in a radius %d ball.", "tformat")
 t("Anomaly Entomb", "Anomaly Entomb", "talent name")
 t("@Source@ creates a stone wall.", "@Source@ creates a stone wall.", "_t")
-t("stone wall", "stone wall", "_t")
-t("a summoned wall of stone", "a summoned wall of stone", "_t")
 t("Entombs a single target in a wall of stone.", "Entombs a single target in a wall of stone.", "tformat")
 t("Anomaly Entropy", "Anomaly Entropy", "talent name")
 t("@Source@ increases local entropy.", "@Source@ increases local entropy.", "_t")
@@ -19963,11 +19963,11 @@ t("Time elementals have been attracted to the timeline.", "Time elementals have 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/blade-threading.lua"
 
+t("You require two weapons to use this talent.", "Vous avez besoin de deux armes pour ce talent.", "logPlayer")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 -- texte non traduit
 --[==[
 t("Warp Blade", "Warp Blade", "talent name")
-t("You require two weapons to use this talent.", "You require two weapons to use this talent.", "logPlayer")
 t([[Attack with your melee weapons for %d%% weapon damage as physical and temporal (warp) damage. If either attack hits you may stun, blind, pin, or confuse the target for %d turns.
 		
 		Blade Threading talents will freely swap to your dual-weapons when activated if you have them in your secondary slots.  Additionally you may use the Attack talent in a similar manner.]], [[Attack with your melee weapons for %d%% weapon damage as physical and temporal (warp) damage. If either attack hits you may stun, blind, pin, or confuse the target for %d turns.
@@ -20261,7 +20261,8 @@ section "mod-tome/data/talents/chronomancy/guardian.lua"
 t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d partagé)#LAST#", "tformat")
 t("Guardian", "Guardien", "_t")
 t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s s'est rétabli!#LAST#", "logSeen")
-t("Warden's Focus", "Concentration du Gardien", "talent name")
+t("Warden's Focus", "Focus du Gardien", "talent name")
+t("You require a weapon to use this talent.", "Vous avez besoin d'une arme pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Strength of Purpose", "Strength of Purpose", "talent name")
@@ -20282,7 +20283,6 @@ t("Vigilance", "Vigilance", "talent name")
 t([[Improves your capacity to see invisible foes by +%d and to see through stealth by +%d.  Additionally you have a %d%% chance to recover from a single negative status effect each turn.
 		Sense abilities will scale with your Magic stat.]], [[Improves your capacity to see invisible foes by +%d and to see through stealth by +%d.  Additionally you have a %d%% chance to recover from a single negative status effect each turn.
 		Sense abilities will scale with your Magic stat.]], "tformat")
-t("You require a weapon to use this talent.", "You require a weapon to use this talent.", "logPlayer")
 t("You must pick a focus target.", "You must pick a focus target.", "logPlayer")
 t([[Attack the target with either your ranged or melee weapons for %d%% weapon damage.  For the next %d turns random targeting, such as from Blink Blade and Warden's Call, will focus on this target.
 		Attacks against this target gain %d%% critical chance and critical strike power while you take %d%% less damage from all enemies whose rank is lower then that of your focus target.]], [[Attack the target with either your ranged or melee weapons for %d%% weapon damage.  For the next %d turns random targeting, such as from Blink Blade and Warden's Call, will focus on this target.
@@ -20330,7 +20330,7 @@ t([[While your cosmic cycle is expanding, creatures in its radius have a %d%% ch
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/matter.lua"
 
-
+t("a summoned wall of stone", "un mur de pierre invoqué", "_t")
 -- texte non traduit
 --[==[
 t("Dust to Dust", "Dust to Dust", "talent name")
@@ -20345,7 +20345,6 @@ t([[Weave matter into your flesh, becoming incredibly resilient to damage.  Whil
 		The bonus to armour will scale with your Magic.]], "tformat")
 t("Materialize Barrier", "Materialize Barrier", "talent name")
 t("materialize barrier", "materialize barrier", "_t")
-t("a summoned wall of stone", "a summoned wall of stone", "_t")
 t([[Create a tightly bound matter wall of up to a length of %d that lasts %d turns.
 		If any part of this wall is dug out it will explode, causing targets in a radius of %d to bleed for %0.2f physical damage over six turns.]], [[Create a tightly bound matter wall of up to a length of %d that lasts %d turns.
 		If any part of this wall is dug out it will explode, causing targets in a radius of %d to bleed for %0.2f physical damage over six turns.]], "tformat")
@@ -20706,6 +20705,7 @@ section "mod-tome/data/talents/chronomancy/temporal-combat.lua"
 t("Fold Fate", "Pli du Destin", "talent name")
 t("Invigorate", "Revigorer", "talent name")
 t("Breach", "Rupture", "talent name")
+t("You require a weapon to use this talent.", "Vous avez besoin d'une arme pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t([[When you hit with Weapon Folding you have a %d%% chance of dealing an additional %0.2f temporal damage to enemies in a radius of %d.
@@ -20748,7 +20748,6 @@ t([[You now have a %d%% chance to Fold Fate, Gravity, or Warp into your Weapon F
 		Fold Gravity: Deals %0.2f physical damage to enemies in a radius of %d.  Affected targets will be slowed (%d%%) for %d turns.
 		
 		Each Fold has an eight turn cooldown.  If an effect would be triggered while on cooldown it will reduce the cooldown of the other two Folds by one turn.]], "tformat")
-t("You require a weapon to use this talent.", "You require a weapon to use this talent.", "logPlayer")
 t([[Attack the target with either your ranged or melee weapons for %d%% damage.
 		If the attack hits you'll breach the target's immunities, reducing armor hardiness, stun, pin, blindness, and confusion immunity by 50%% for %d turns.
 		Breach chance scales with your Spellpower.]], [[Attack the target with either your ranged or melee weapons for %d%% damage.
@@ -20802,11 +20801,11 @@ t([[Command your Temporal Hounds to breathe time, dealing %0.2f temporal damage 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/threaded-combat.lua"
 
+t("You require a weapon to use this talent.", "Vous avez besoin d'une arme pour utiliser ce talent.", "logPlayer")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 -- texte non traduit
 --[==[
 t("Thread Walk", "Thread Walk", "talent name")
-t("You require a weapon to use this talent.", "You require a weapon to use this talent.", "logPlayer")
 t("range %d", "range %d", "logPlayer")
 t("You cannot use Thread Walk without an appropriate weapon!", "You cannot use Thread Walk without an appropriate weapon!", "logPlayer")
 t([[Attack with your bow or dual-weapons for %d%% damage.  If you shoot an arrow you'll teleport near the target location.  If you use your dual-weapons you'll teleport up to your bow's range away.
@@ -22915,12 +22914,12 @@ t([[Any direct damage that exceeds %d%% of your maximum life has the excess dama
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/shadows.lua"
 
+t("Phase Door", "Porte de phase", "talent name")
 t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
 t("Fade", "Fade", "talent name")
 t("You fade from sight, making you invulnerable until the beginning of your next turn.", "You fade from sight, making you invulnerable until the beginning of your next turn.", "tformat")
-t("Phase Door", "Phase Door", "talent name")
 t("Teleports you within a small range.", "Teleports you within a small range.", "tformat")
 t("Blindside", "Blindside", "talent name")
 t("With blinding speed you suddenly appear next to a target up to %d spaces away and attack for %d%% damage.", "With blinding speed you suddenly appear next to a target up to %d spaces away and attack for %d%% damage.", "tformat")
@@ -23221,14 +23220,14 @@ t([[Surround yourself with natural forces, ignoring %d%% acid resistance of your
 section "mod-tome/data/talents/gifts/dwarven-nature.lua"
 
 t("Earthen Missiles", "Missiles en Terre", "talent name")
+t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
+		At talent level 5, you can conjure one additional missile.
+		The damage will increase with your Spellpower.]], [[Conjure %d roches en forme de missile que vous ciblez individuellement sur toute cible ou cibles à portée. Chaque missile inflige %0.2f dégâts physiques et un Saignement supplémentaire de %0.2f dégâts physiques à chaque tour pendant 5 tours.
+		Au niveau 5, vous pouvez conjurer un missile supplémentaire.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 t("Stone Link", "Lien de Pierre", "talent name")
 -- texte non traduit
 --[==[
-t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
-		At talent level 5, you can conjure one additional missile.
-		The damage will increase with your Spellpower.]], [[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
-		At talent level 5, you can conjure one additional missile.
-		The damage will increase with your Spellpower.]], "tformat")
 t("Elemental Split", "Elemental Split", "talent name")
 t("Crystaline Half (%s)", "Crystaline Half (%s)", "tformat")
 t("A crystaline structure that has taken the form of %s.", "A crystaline structure that has taken the form of %s.", "tformat")
@@ -24795,11 +24794,13 @@ t("something", "quelque chose", "_t")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
 t("Sever Lifeline", "Ligne de Vie Rompue", "talent name")
 t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
+t("Phase Door", "Porte de phase", "talent name")
 t("Maim", "Mutiler", "talent name")
 t("Bloodrage", "Rage de Sang", "talent name")
 t("Martyrdom", "Supplice", "talent name")
 t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
 t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
+t("You require two weapons to use this talent.", "Vous avez besoin de deux armes pour ce talent.", "logPlayer")
 t("Empower Poisons", "Renforcement des Poisons", "talent name")
 t("Willful Combat", "Combat Délibéré", "talent name")
 t("Deadly Strikes", "Frappes Mortelles", "talent name")
@@ -25019,7 +25020,6 @@ t([[Calls forth a powerful beam of lightning doing %0.2f to %0.2f lightning dama
 		The damage will increase with your Mindpower.]], "tformat")
 t("Fade", "Fade", "talent name")
 t("You fade from sight, making you invulnerable until the beginning of your next turn.", "You fade from sight, making you invulnerable until the beginning of your next turn.", "tformat")
-t("Phase Door", "Phase Door", "talent name")
 t("Teleports you randomly within range 10.", "Teleports you randomly within range 10.", "tformat")
 t("Blindside", "Blindside", "talent name")
 t("With blinding speed you suddenly appear next to a target up to %d spaces away and attack for %d%% damage.", "With blinding speed you suddenly appear next to a target up to %d spaces away and attack for %d%% damage.", "tformat")
@@ -25086,7 +25086,6 @@ t([[Quickly reload your ammo by %d (depends on masteries and object bonuses).
 
 		Reloading does not break stealth.]], "tformat")
 t("Sweep", "Sweep", "talent name")
-t("You require two weapons to use this talent.", "You require two weapons to use this talent.", "logPlayer")
 t("You cannot use Sweep without dual wielding!", "You cannot use Sweep without dual wielding!", "logPlayer")
 t([[Attack your foes in a frontal arc, doing %d%% weapon damage and making your targets bleed for %d each turn for %d turns.
 		The bleed damage increases with your main hand weapon damage and Dexterity.]], [[Attack your foes in a frontal arc, doing %d%% weapon damage and making your targets bleed for %d each turn for %d turns.
@@ -25350,7 +25349,7 @@ t([[While Highers are not meant to rule other humans - and show no particular wi
 		At talent level 5, each time you hit a target you gain telepathy to all similar creatures in radius 15 for 5 turns.]], [[Bien que les Nobles ne soient pas destinés à gouverner les autres humains — et ne montrent aucune volonté particulière de le faire — ils sont fréquemment appelés à de plus hautes fonctions.
 		Leur nature leur confère de meilleurs sens que les autres humains.
 		Augmente l'immunité à l'aveuglement de %d%%, la portée de vue de %d, et augmente l'infravision existante ainsi que la portée des sens accrus de %d.
-		Au niveau de talent 5, chaque fois que vous touchez une cible, vous gagnez la télépathie envers toutes les créatures similaires dans un rayon de 15 cases pendant 5 tours.]], "tformat")
+		Au niveau 5, chaque fois que vous touchez une cible, vous gagnez la télépathie envers toutes les créatures similaires dans un rayon de 15 cases pendant 5 tours.]], "tformat")
 t("Born into Magic", "Né dans la Magie", "talent name")
 t([[Highers were originally created during the Age of Allure by the human Conclave. They are imbued with magic at the very core of their being.
 		Increase spell save by %d and arcane resistance by %d%%.
@@ -26287,7 +26286,7 @@ t([[The telekinetically-wielded weapon uses Willpower in place of Strength, and 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/projection.lua"
 
-t("Frenzied Focus", "Concentration Frénétique", "talent name")
+t("Frenzied Focus", "Focus Frénétique", "talent name")
 -- texte non traduit
 --[==[
 t("Kinetic Aura", "Kinetic Aura", "talent name")
@@ -26432,7 +26431,6 @@ t("You cannot do that without a weapon in your telekinetic slot.", "You cannot d
 section "mod-tome/data/talents/psionic/psionic.lua"
 
 t("psionic", "psyché", "talent category")
-t("focus", "cencentration", "talent type")
 t("other", "autre", "talent type")
 t("distortion", "distorsion", "talent type")
 t("nightmare", "cauchemard", "talent type")
@@ -26444,6 +26442,7 @@ t("projection", "projection", "talent type")
 t("Project energy to damage foes.", "Project energy to damage foes.", "_t")
 t("psi-fighting", "psi-fighting", "talent type")
 t("Wield melee weapons with mentally-manipulated forces.", "Wield melee weapons with mentally-manipulated forces.", "_t")
+t("focus", "cencentration", "talent type")
 t("Use gems to focus your energies.", "Use gems to focus your energies.", "_t")
 t("augmented mobility", "augmented mobility", "talent type")
 t("Use energy to move yourself and others.", "Use energy to move yourself and others.", "_t")
@@ -26851,41 +26850,36 @@ t([[Increases your golem's life, mana and stamina regeneration rates by %0.2f.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/aegis.lua"
 
-
--- texte non traduit
---[==[
-t("Arcane Reconstruction", "Arcane Reconstruction", "talent name")
+t("Arcane Reconstruction", "Reconstruction Arcanique", "talent name")
 t([[Imbues your body with arcane forces, reconstructing it to a default state, healing for %d life.
-		The life healed will increase with your Spellpower.]], [[Imbues your body with arcane forces, reconstructing it to a default state, healing for %d life.
-		The life healed will increase with your Spellpower.]], "tformat")
-t("Shielding", "Shielding", "talent name")
+		The life healed will increase with your Spellpower.]], [[Imprègne votre corps de forces arcaniques, le reconstruisant à son état normal, vous soignant de %d de vie.
+		Les soins sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Shielding", "Bouclinage", "talent name")
 t([[Surround yourself with strengthening arcane forces.
 		Every damage shield, time shield, displacement shield, and disruption shield affecting you has its power increased by %d%%.
 		At level 5, it also increases the duration of all shields by 1 turn.
-		The shield value will increase with your Spellpower.]], [[Surround yourself with strengthening arcane forces.
-		Every damage shield, time shield, displacement shield, and disruption shield affecting you has its power increased by %d%%.
-		At level 5, it also increases the duration of all shields by 1 turn.
-		The shield value will increase with your Spellpower.]], "tformat")
-t("Arcane Shield", "Arcane Shield", "talent name")
+		The shield value will increase with your Spellpower.]], [[Entourez-vous de forces arcaniques fortifiantes.
+		Chaque Bouclier de Dégâts, Bouclier Temporel, Bouclier de Déplacement et Bouclier de Disruption vous affectant voit leurs puissance augmentée de %d%%.
+		Au niveau 5, augmente également la durée de tous les boucliers de 1 tour.
+		La valeur des boucliers est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Arcane Shield", "Bouclier Arcanique", "talent name")
 t([[Surround yourself with protective arcane forces.
 		Each time you receive a direct heal (not a life regeneration effect), you automatically gain a damage shield equal to %d%% of the heal value for 3 turns.
 		This will replace an existing damage shield if the new shield value and duration would be greater than or equal to the old.
-		The shield value will increase with your Spellpower.]], [[Surround yourself with protective arcane forces.
-		Each time you receive a direct heal (not a life regeneration effect), you automatically gain a damage shield equal to %d%% of the heal value for 3 turns.
-		This will replace an existing damage shield if the new shield value and duration would be greater than or equal to the old.
-		The shield value will increase with your Spellpower.]], "tformat")
-t("Aegis", "Aegis", "talent name")
+		The shield value will increase with your Spellpower.]], [[Entourez-vous de forces arcaniques protectrices.
+		Chaque fois que vous recevez un soin direct (pas un effet de régénération de vie), vous gagnez automatiquement un bouclier de dégâts égal à %d%% de la valeur du soin pendant 3 tours.
+		Cela remplacera un bouclier de dégâts existant si la valeur et la durée du nouveau bouclier sont supérieures ou égales à l'ancien.
+		La valeur du bouclier est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Aegis", "Égide", "talent name")
 t([[Release arcane energies into most magical shields currently protecting you.
 		It will affect at most %d shield effects.
 		Damage Shield, Time Shield, Displacement Shield:  Increase the damage absorption value by %d%%.
 		Disruption Shield: Tap into the stored energies to restore the shield (at a rate of 2 energy per 1 shield power). Any leftover energy is converted back into mana at a rate of %0.2f energy per mana.
-		The charging will increase with your Spellpower.]], [[Release arcane energies into most magical shields currently protecting you.
-		It will affect at most %d shield effects.
-		Damage Shield, Time Shield, Displacement Shield:  Increase the damage absorption value by %d%%.
-		Disruption Shield: Tap into the stored energies to restore the shield (at a rate of 2 energy per 1 shield power). Any leftover energy is converted back into mana at a rate of %0.2f energy per mana.
-		The charging will increase with your Spellpower.]], "tformat")
---]==]
-
+		The charging will increase with your Spellpower.]], [[Libérez des énergies arcaniques dans la plupart des boucliers magiques vous protégeant actuellement.
+		Affecte au maximum %d effets de bouclier.
+		Bouclier de Dégâts, Bouclier Temporel, Bouclier de Déplacement: Augmente la valeur d'absorption de dégâts de %d%%.
+		Bouclier de Disruption: Puisez dans les énergies stockées pour restaurer le bouclier (à raison de 2 énergies par 1 puissance de bouclier). Toute énergie restante est reconvertie en mana à raison de %0.2f énergie par mana.
+		La recharge est proportionnel à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/aether.lua"
@@ -26980,33 +26974,29 @@ t([[You recall the age long gone where necromancers had free reign over the worl
 section "mod-tome/data/talents/spells/air.lua"
 
 t("Lightning", "Foudre", "talent name")
-t("Chain Lightning", "Chaine d'Eclaires", "talent name")
-t("Thunderstorm", "Orage", "talent name")
--- texte non traduit
---[==[
 t([[Conjures up mana into a powerful beam of lightning, doing %0.2f to %0.2f damage (%0.2f average)
-		The damage will increase with your Spellpower.]], [[Conjures up mana into a powerful beam of lightning, doing %0.2f to %0.2f damage (%0.2f average)
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Conjure de la mana en un puissant faisceau de foudre, infligeant de %0.2f à %0.2f dégâts (%0.2f en moyenne).
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Chain Lightning", "Chaine d'Eclaires", "talent name")
 t([[Invokes an arc of lightning doing %0.2f to %0.2f damage (%0.2f average) and chaining to another target.
 		The arc can jump to %d targets at most, up to 10 grids apart, and will never jump to the same target twice, or to the caster. The arc will also strike all creatures between each target.
-		The damage will increase with your Spellpower.]], [[Invokes an arc of lightning doing %0.2f to %0.2f damage (%0.2f average) and chaining to another target.
-		The arc can jump to %d targets at most, up to 10 grids apart, and will never jump to the same target twice, or to the caster. The arc will also strike all creatures between each target.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Feather Wind", "Feather Wind", "talent name")
+		The damage will increase with your Spellpower.]], [[Invoque un arc de foudre infligeant de %0.2f à %0.2f dégâts (%0.2f en moyenne) et bondissant vers une autre cible.
+		L'arc peut sauter sur %d cibles au maximum, jusqu'à 10 cases de distance, et ne sautera jamais deux fois sur la même cible ni sur le lanceur. L'arc frappera également toutes les créatures entre chaque cible.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Feather Wind", "Vent de Plume", "talent name")
 t([[A gentle wind circles around the caster, increasing carrying capacity by %d, defense against projectiles by %d, pin immunity by %d%% and stun immunity by %d%%.
 		At level 4 it also makes you levitate slightly above the ground, allowing you to ignore some traps.
-		At level 5 it also grants %d%% movement speed and removes %d fatigue.]], [[A gentle wind circles around the caster, increasing carrying capacity by %d, defense against projectiles by %d, pin immunity by %d%% and stun immunity by %d%%.
-		At level 4 it also makes you levitate slightly above the ground, allowing you to ignore some traps.
-		At level 5 it also grants %d%% movement speed and removes %d fatigue.]], "tformat")
-t("#0080FF#A furious lightning storm forms around %s!", "#0080FF#A furious lightning storm forms around %s!", "logSeen")
-t("#0080FF#The furious lightning storm around %s calms down and disappears.", "#0080FF#The furious lightning storm around %s calms down and disappears.", "logSeen")
+		At level 5 it also grants %d%% movement speed and removes %d fatigue.]], [[Un vent doux tourne autour du lanceur, augmentant la capacité de charge de %d, la défense contre les projectiles de %d, l'immunité à l'immobilisation de %d%% et l'immunité à l'assomement de %d%%.
+		Au niveau 4, il vous fait également léviter légèrement au-dessus du sol, vous permettant d'ignorer certains pièges.
+		Au niveau 5, il accorde également %d%% de vitesse de déplacement et supprime %d de Fatigue.]], "tformat")
+t("Thunderstorm", "Orage", "talent name")
+t("#0080FF#A furious lightning storm forms around %s!", "#0080FF#Un furieux orage se forme autour de %s!", "logSeen")
+t("#0080FF#The furious lightning storm around %s calms down and disappears.", "#0080FF#Le furieux orage autour de %s se calme et disparaît.", "logSeen")
 t([[Conjures a furious, raging lightning storm with a radius of 6 that follows you as long as this spell is active.
 		Each turn, a random lightning bolt will hit up to %d of your foes for 1.00 to %0.2f damage (%0.2f average) in a radius of 1.
-		The damage will increase with your Spellpower.]], [[Conjures a furious, raging lightning storm with a radius of 6 that follows you as long as this spell is active.
-		Each turn, a random lightning bolt will hit up to %d of your foes for 1.00 to %0.2f damage (%0.2f average) in a radius of 1.
-		The damage will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage will increase with your Spellpower.]], [[Conjure un orage furieux et déchaîné de rayon 6 qui vous suit tant que ce sort est actif.
+		À chaque tour, un éclair aléatoire frappera jusqu'à %d de vos ennemis pour 1,00 à %0.2f dégâts (%0.2f en moyenne) dans un rayon de 1.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/animus.lua"
@@ -27108,53 +27098,49 @@ t([[Surround yourself with arcane forces, disrupting any attempts to harm you by
 ------------------------------------------------
 section "mod-tome/data/talents/spells/conveyance.lua"
 
+t("Phase Door", "Porte de phase", "talent name")
+t("Select a target to teleport...", "Sélectionnez une cible à téléporter...", "logPlayer")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
-t("Teleport", "Téléportation", "talent name")
-t("Displacement Shield", "Bouclier de Déplacement", "talent name")
-t("Probability Travel", "Probabilité de Déplacement", "talent name")
--- texte non traduit
---[==[
-t("Phase Door", "Phase Door", "talent name")
-t("Select a target to teleport...", "Select a target to teleport...", "logPlayer")
-t("Select a teleport location...", "Select a teleport location...", "logPlayer")
-t("The targeted phase door fizzles and works randomly!", "The targeted phase door fizzles and works randomly!", "logPlayer")
+t("Select a teleport location...", "Sélectionnez un lieu de téléportation...", "logPlayer")
+t("The targeted phase door fizzles and works randomly!", "La porte de phase ciblée échoue et fonctionne de manière aléatoire !", "logPlayer")
 t([[Teleports you randomly within a small range of up to %d grids.
 		At level 4, it allows you to specify which creature to teleport.
 		At level 5, it allows you to choose the target area (radius %d).
 		If the target area is not in line of sight, there is a chance the spell will partially fail and teleport the target randomly.
-		The range will increase with your Spellpower.]], [[Teleports you randomly within a small range of up to %d grids.
-		At level 4, it allows you to specify which creature to teleport.
-		At level 5, it allows you to choose the target area (radius %d).
-		If the target area is not in line of sight, there is a chance the spell will partially fail and teleport the target randomly.
-		The range will increase with your Spellpower.]], "tformat")
-t("The targetted teleport fizzles and works randomly!", "The targetted teleport fizzles and works randomly!", "logPlayer")
+		The range will increase with your Spellpower.]], [[Vous téléporte aléatoirement dans un court rayon allant jusqu'à %d cases.
+		Au niveau 4, il vous permet de spécifier quelle créature téléporter.
+		Au niveau 5, il vous permet de choisir la zone cible (rayon %d).
+		Si la zone cible n'est pas dans la ligne de mire, le sort a une chance d'échouer partiellement et de téléporter la cible de manière aléatoire.
+		La portée est proportionnel à votre puissance magique.]], "tformat")
+t("Teleport", "Téléportation", "talent name")
+t("The targetted teleport fizzles and works randomly!", "La téléportation ciblée échoue et fonctionne de manière aléatoire!", "logPlayer")
 t([[Teleports you randomly within a large range (%d).
 		At level 4, it allows you to specify which creature to teleport.
 		At level 5, it allows you to choose the target area (radius %d).
 		If the target area is not in line of sight, there is a chance the spell will partially fail and teleport the target randomly.
 		Random teleports have a minimum range of %d.
-		The range will increase with your Spellpower.]], [[Teleports you randomly within a large range (%d).
-		At level 4, it allows you to specify which creature to teleport.
-		At level 5, it allows you to choose the target area (radius %d).
-		If the target area is not in line of sight, there is a chance the spell will partially fail and teleport the target randomly.
-		Random teleports have a minimum range of %d.
-		The range will increase with your Spellpower.]], "tformat")
+		The range will increase with your Spellpower.]], [[Vous téléporte aléatoirement dans un large rayon (%d).
+		Au niveau 4, il vous permet de spécifier quelle créature téléporter.
+		Au niveau 5, il vous permet de choisir la zone cible (rayon %d).
+		Si la zone cible n'est pas dans la ligne de mire, le sort a une chance d'échouer partiellement et de téléporter la cible de manière aléatoire.
+		Les téléportations aléatoires ont une portée minimale de %d cases.
+		La portée est proportionnel à votre puissance magique.]], "tformat")
+t("Displacement Shield", "Bouclier de Déplacement", "talent name")
 t([[This intricate spell erects a space distortion around the caster that is linked to another distortion, placed around a target.
 		Any time the caster should take damage, there is a %d%% chance that it will instead be warped by the shield and hit the designated target.
 		Once the maximum damage (%d) is absorbed, the time runs out (%d turns), or the target dies, the shield will crumble.
-		The max damage the shield can absorb will increase with your Spellpower.]], [[This intricate spell erects a space distortion around the caster that is linked to another distortion, placed around a target.
-		Any time the caster should take damage, there is a %d%% chance that it will instead be warped by the shield and hit the designated target.
-		Once the maximum damage (%d) is absorbed, the time runs out (%d turns), or the target dies, the shield will crumble.
-		The max damage the shield can absorb will increase with your Spellpower.]], "tformat")
+		The max damage the shield can absorb will increase with your Spellpower.]], [[Ce sort complexe érige une distorsion spatiale autour du lanceur, liée à une autre distorsion placée autour d'une cible.
+		Chaque fois que le lanceur doit subir des dégâts il y a %d%% de chances qu'ils soient déformés par le bouclier pour frapper la cible désignée à la place.
+		Le bouclier se brise une fois que les dégâts maximaux (%d) sont absorbés, que le temps est écoulé (%d tours), ou que la cible meurt.
+		Les dégâts maximaux que le bouclier peut absorber sont proportionnels à votre puissance magique.]], "tformat")
+t("Probability Travel", "Voyage Probabiliste", "talent name")
 t([[When you hit a solid surface, this spell tears down the laws of probability to make you instantly appear on the other side.
 		Teleports up to %d grids.
 		After a successful probability travel you are left unstable, unable to do it again for a number of turns equal to %d%% of the number of tiles you blinked through.
-		The range will improve with your Spellpower.]], [[When you hit a solid surface, this spell tears down the laws of probability to make you instantly appear on the other side.
-		Teleports up to %d grids.
-		After a successful probability travel you are left unstable, unable to do it again for a number of turns equal to %d%% of the number of tiles you blinked through.
-		The range will improve with your Spellpower.]], "tformat")
---]==]
-
+		The range will improve with your Spellpower.]], [[Lorsque vous heurtez une surface solide ce sort brise les lois de la probabilité pour vous faire apparaître instantanément de l'autre côté.
+		Téléporte jusqu'à %d cases.
+		Après un voyage probabiliste réussi, vous devenez instable et incapable de réutiliser ce sort pendant un nombre de tours égal à %d%% du nombre de cases traversées.
+		La portée est proportionnel à votre puissance magique.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/death.lua"
@@ -27320,37 +27306,33 @@ t([[You now summon a Dreadmaster instead of a Dread.
 section "mod-tome/data/talents/spells/earth.lua"
 
 t("Pulverizing Auger", "Foreuse Broyeuse", "talent name")
--- texte non traduit
---[==[
 t([[Fire a powerful beam of stone-shattering force, digging out any walls in its path up to %d range.
 		The beam continues to a range of %d, affecting any creatures in its path, dealing %0.2f physical damage to them.
 		If any walls are dug, you gain %d%% physical damage bonus for 6 turns.
-		The damage will increase with your Spellpower.]], [[Fire a powerful beam of stone-shattering force, digging out any walls in its path up to %d range.
-		The beam continues to a range of %d, affecting any creatures in its path, dealing %0.2f physical damage to them.
-		If any walls are dug, you gain %d%% physical damage bonus for 6 turns.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Stone Skin", "Stone Skin", "talent name")
+		The damage will increase with your Spellpower.]], [[Tirez un puissant faisceau de force brise-pierre, creusant tous les murs sur son passage jusqu'à une portée de %d.
+		Le faisceau continue jusqu'à une portée de %d, affectant toutes les créatures sur son passage et leur infligeant %0.2f dégâts physiques.
+		Si des murs sont creusés, vous gagnez un bonus de %d%% dégâts physiques pendant 6 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Stone Skin", "Peau de Pierre", "talent name")
 t([[The caster's skin grows as hard as stone, granting a %d bonus to Armour.
 		Each time you are hit in melee, you have a %d%% chance to reduce the cooldown of an Earth or Stone spell by 2 (this effect can only happen once per turn).
-		The bonus to Armour will increase with your Spellpower.]], [[The caster's skin grows as hard as stone, granting a %d bonus to Armour.
-		Each time you are hit in melee, you have a %d%% chance to reduce the cooldown of an Earth or Stone spell by 2 (this effect can only happen once per turn).
-		The bonus to Armour will increase with your Spellpower.]], "tformat")
-t("Mudslide", "Mudslide", "talent name")
+		The bonus to Armour will increase with your Spellpower.]], [[La peau du lanceur devient aussi dure que la pierre, accordant un bonus de %d à l'Armure.
+		Chaque fois que vous êtes touché en mêlée vous avez %d%% de chance de réduire le rechargement d'un sort de la catégorie Terre ou Pierre de 2 (cela ne peut se produire qu'une fois par tour).
+		Le bonus d'Armure est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Mudslide", "Glissement de Terrain", "talent name")
 t([[Conjures a mudslide, dealing %0.2f physical damage in a radius of %d. Any creatures caught inside will be knocked back 8 spaces.
-		The damage will increase with your Spellpower.]], [[Conjures a mudslide, dealing %0.2f physical damage in a radius of %d. Any creatures caught inside will be knocked back 8 spaces.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Stone Wall", "Stone Wall", "talent name")
-t("stone wall", "stone wall", "_t")
-t("a summoned wall of stone", "a summoned wall of stone", "_t")
+		The damage will increase with your Spellpower.]], [[Conjure un glissement de terrain, infligeant %0.2f dégâts physiques dans un rayon de %d. Toutes les créatures prises dedans seront repoussées de 8 cases.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Stone Wall", "Mur de Pierre", "talent name")
+t("stone wall", "mur de pierre", "_t")
+t("a summoned wall of stone", "un mur de pierre invoqué", "_t")
 t([[Entomb yourself in a wall of stone for %d turns.
 		At level 4, it becomes targetable.
 		Any hostile creature caught in the radius will also suffer %0.2f physical damage.
-		Duration and damage will improve with your Spellpower.]], [[Entomb yourself in a wall of stone for %d turns.
-		At level 4, it becomes targetable.
-		Any hostile creature caught in the radius will also suffer %0.2f physical damage.
-		Duration and damage will improve with your Spellpower.]], "tformat")
---]==]
-
+		Duration and damage will improve with your Spellpower.]], [[Entourez-vous d'un mur de pierre pendant %d tours.
+		Au niveau 4, il devient ciblable.
+		Toute créature hostile prise dans le rayon subira également %0.2f dégâts physiques.
+		La durée et les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/eldritch-shield.lua"
@@ -27467,36 +27449,31 @@ t([[Infuse your body with lightning energy, bolstering your movement speed by +%
 ------------------------------------------------
 section "mod-tome/data/talents/spells/enhancement.lua"
 
-
--- texte non traduit
---[==[
-t("Arcane Strike", "Arcane Strike", "talent name")
-t("You require a weapon to use this talent.", "You require a weapon to use this talent.", "logPlayer")
+t("Arcane Strike", "Frappe Arcanique", "talent name")
+t("You require a weapon to use this talent.", "Vous avez besoin d'une arme pour utiliser ce talent.", "logPlayer")
 t([[Strike twice with your mainhand weapon dealing %d%% Arcane damage.
 		If either of these attacks hit you gain %d mana.
-		The mana gain will increase with your Spellpower.]], [[Strike twice with your mainhand weapon dealing %d%% Arcane damage.
-		If either of these attacks hit you gain %d mana.
-		The mana gain will increase with your Spellpower.]], "tformat")
-t("Fiery Hands", "Fiery Hands", "talent name")
+		The mana gain will increase with your Spellpower.]], [[Frappez deux fois avec votre arme principale, infligeant %d%% dégâts arcaniques.
+		Si l'une de ces attaques touche, vous gagnez %d mana.
+		Le gain de mana est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Fiery Hands", "Mains Enflammées", "talent name")
 t([[Engulfs your hands (and weapons) in a sheath of fire, dealing %0.2f fire damage per melee attack and increasing all fire damage dealt by %d%%.
 		Each hit will also regenerate %0.2f stamina.
-		The effects will increase with your Spellpower.]], [[Engulfs your hands (and weapons) in a sheath of fire, dealing %0.2f fire damage per melee attack and increasing all fire damage dealt by %d%%.
-		Each hit will also regenerate %0.2f stamina.
-		The effects will increase with your Spellpower.]], "tformat")
-t("Shock Hands", "Shock Hands", "talent name")
+		The effects will increase with your Spellpower.]], [[Enveloppe vos mains (et armes) dans une gaine de feu, infligeant %0.2f dégâts de feu à chaque attaque de mêlée et augmentant tous les dégâts de feu infligés de %d%%.
+		Chaque coup régénère également %0.2f d'Endurance.
+		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Shock Hands", "Mains Foudroyantes", "talent name")
 t([[Engulfs your hands (and weapons) in a sheath of lightning, dealing %d lightning damage with a chance to daze (25%%) per melee attack and increasing all lightning damage dealt by %d%%.
 		Each hit will also regenerate %0.2f mana.
-		The effects will increase with your Spellpower.]], [[Engulfs your hands (and weapons) in a sheath of lightning, dealing %d lightning damage with a chance to daze (25%%) per melee attack and increasing all lightning damage dealt by %d%%.
-		Each hit will also regenerate %0.2f mana.
-		The effects will increase with your Spellpower.]], "tformat")
-t("Inner Power", "Inner Power", "talent name")
+		The effects will increase with your Spellpower.]], [[Enveloppe vos mains (et armes) dans une gaine de foudre, infligeant %d dégâts de foudre avec 25%% de chance d'étourdir légèrement à chaque attaque de mêlée et augmentant tous les dégâts de foudre infligés de %d%%.
+		Chaque coup régénère également %0.2f mana.
+		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Inner Power", "Puissance Intérieure", "talent name")
 t([[You concentrate on your inner self, increasing your Strength, Dexterity, Magic, and Cunning by %d.
 		Additionally, you gain a shield absorbing %d damage before you take damage every %d turns.
-		The stat increase and shield will improve with your Spellpower.]], [[You concentrate on your inner self, increasing your Strength, Dexterity, Magic, and Cunning by %d.
-		Additionally, you gain a shield absorbing %d damage before you take damage every %d turns.
-		The stat increase and shield will improve with your Spellpower.]], "tformat")
---]==]
-
+		The stat increase and shield will improve with your Spellpower.]], [[Vous vous concentrez sur votre vous intérieur, augmentant votre Force, Dextérité, Magie et Ruse de %d.
+		De plus, vous gagnez un bouclier absorbant %d dégâts avant que vous ne subissiez des dégâts toutes les %d tours.
+		L'augmentation des statistiques et le bouclier sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/eradication.lua"
@@ -27609,25 +27586,25 @@ t([[Turn your body into pure flame, increasing your fire resistance by %d%%, bur
 section "mod-tome/data/talents/spells/fire.lua"
 
 t("Flame", "Flamme", "talent name")
-t("Flameshock", "Choc de flammes", "talent name")
-t("Fireflash", "Eclat de feu", "talent name")
--- texte non traduit
---[==[
 t([[Conjures up a bolt of fire, setting the target ablaze and doing %0.2f fire damage over 3 turns.
 		At level 5, it will create a beam of flames.
-		The damage will increase with your Spellpower.]], [[Conjures up a bolt of fire, setting the target ablaze and doing %0.2f fire damage over 3 turns.
-		At level 5, it will create a beam of flames.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Conjure un projectile de feu, enflammant la cible et infligeant %0.2f dégâts de feu sur 3 tours.
+		Au niveau 5, cela créera un faisceau de flammes.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Flameshock", "Choc de flammes", "talent name")
 t([[Conjures up a cone of flame with radius %d. Any targets caught in the area will suffer Burning Shock, stunning them and dealing %0.2f fire damage over %d turns.
-		The damage will increase with your Spellpower.]], [[Conjures up a cone of flame with radius %d. Any targets caught in the area will suffer Burning Shock, stunning them and dealing %0.2f fire damage over %d turns.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Conjure un cône de flammes de rayon %d. Toutes les cibles prises dans la zone subiront un Choc Ardent, les assomants et infligeant %0.2f dégâts de feu sur %d tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Fireflash", "Éclat de feu", "talent name")
 t([[Conjures up a bolt of fire that moves toward the target and explodes into a flash of fire, doing %0.2f fire damage in a radius of %d.
-		The damage will increase with your Spellpower.]], [[Conjures up a bolt of fire that moves toward the target and explodes into a flash of fire, doing %0.2f fire damage in a radius of %d.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Inferno", "Inferno", "talent name")
+		The damage will increase with your Spellpower.]], [[Conjure un projectile de feu qui se déplace vers la cible et explose en un éclair de feu, infligeant %0.2f dégâts de feu dans un rayon de %d.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 t([[Raging flames burn foes and allies alike, doing %0.2f fire damage in a radius of %d each turn for %d turns.
-		The damage will increase with your Spellpower.]], [[Raging flames burn foes and allies alike, doing %0.2f fire damage in a radius of %d each turn for %d turns.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Des flammes déchaînées brûlent ennemis et alliés, infligeant %0.2f dégâts de feu dans un rayon de %d à chaque tour pendant %d tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+-- texte non traduit
+--[==[
+t("Inferno", "Inferno", "talent name")
 --]==]
 
 
@@ -28328,110 +28305,110 @@ t("On using Ghost Walk - Return, you create a portal that summons %d spirits aro
 section "mod-tome/data/talents/spells/spells.lua"
 
 t("spell", "sort", "talent category")
-t("arcane", "dégâts d'arcane", "talent type")
+t("arcane", "arcanique", "talent type")
+t("Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "Les études arcaniques manipulent les énergies magiques brutes pour les façonner en sorts offensifs et défensifs.", "_t")
 t("aether", "éther", "talent type")
+t("Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "Exploitez les forces arcaniques fondamentales de l'éther, déchaînant des effets dévastateurs sur vos ennemis.", "_t")
 t("fire", "feu", "talent type")
+t("Harness the power of fire to burn your foes to ashes.", "Maîtrisez le pouvoir du feu pour réduire vos ennemis en cendres.", "_t")
 t("wildfire", "feu de brousse", "talent type")
+t("Harness the power of wildfire to burn your foes to ashes.", "Maîtrisez le pouvoir du feu sauvage pour réduire vos ennemis en cendres.", "_t")
 t("earth", "terre", "talent type")
+t("Harness the power of the earth to protect and destroy.", "Maîtrisez le pouvoir de la terre pour protéger et détruire.", "_t")
 t("stone", "pierre", "talent type")
+t("Harness the power of the stone to protect and destroy.", "Maîtrisez le pouvoir de la pierre pour protéger et détruire.", "_t")
 t("water", "eau", "talent type")
+t("Harness the power of water to drown your foes.", "Maîtrisez le pouvoir de l'eau pour noyer vos ennemis.", "_t")
 t("ice", "glace", "talent type")
+t("Harness the power of ice to freeze and shatter your foes.", "Maîtrisez le pouvoir de la glace pour geler et fracasser vos ennemis.", "_t")
+t("Harness the power of the air to fry your foes.", "Maîtrisez le pouvoir de l'air pour griller vos ennemis.", "_t")
 t("storm", "orage", "talent type")
+t("Harness the power of the storm to incinerate your foes.", "Maîtrisez le pouvoir de la tempête pour incinérer vos ennemis.", "_t")
 t("meta", "méta", "talent type")
+t("Meta spells alter the working of magic itself.", "Les sorts méta altèrent le fonctionnement de la magie elle-même.", "_t")
 t("temporal", "temporel", "talent type")
+t("The school of time manipulation.", "L'école de manipulation du temps.", "_t")
 t("phantasm", "fantasme", "talent type")
+t("Control the power of tricks and illusions.", "Contrôlez le pouvoir des tours et des illusions.", "_t")
+t("enhancement", "amélioration", "talent type")
+t("Magical enhancement of your body.", "Amélioration magique de votre corps.", "_t")
 t("thaumaturgy", "thaumaturgie", "talent type")
+t("The pinacle of spellcasting.", "Le pinacle du lancement de sorts.", "_t")
+t("conveyance", "transmettance", "talent type")
+t("Conveyance is the school of travel. It allows you to travel faster and to track others.", "La transmettance est l'école du voyage. Elle vous permet de voyager plus vite et de traquer les autres.", "_t")
+t("Divination allows the caster to sense its surroundings, and find hidden things.", "La divination permet au lanceur de percevoir son environnement et de trouver des choses cachées.", "_t")
 t("aegis", "égide", "talent type")
+t("Command the arcane forces into healing and protection.", "Commandez les forces arcaniques vers le soin et la protection.", "_t")
+t("explosive admixtures", "mélanges explosifs", "talent type")
+t("Manipulate gems to turn them into explosive magical bombs.", "Manipulez des gemmes pour les transformer en bombes magiques explosives.", "_t")
 t("infusion", "essence", "talent type")
+t("Infusion your gem bombs with the powers of the elements.", "Infusez vos bombes de gemmes avec les pouvoirs des éléments.", "_t")
+t("golemancy", "golémancie", "talent type")
+t("Learn to craft and upgrade your golem.", "Apprenez à créer et améliorer votre golem.", "_t")
+t("advanced-golemancy", "golémancie avancée", "talent type")
+t("Advanced golem operations.", "Opérations avancées de golem.", "_t")
+t("fire alchemy", "alchimie du feu", "talent type")
+t("Alchemical spells designed to wage war.", "Sorts alchimiques conçus pour mener la guerre.", "_t")
+t("Alchemical control over fire.", "Contrôle alchimique sur le feu.", "_t")
+t("acid alchemy", "alchimie acide", "talent type")
+t("Alchemical control over acid.", "Contrôle alchimique sur l'acide.", "_t")
+t("frost alchemy", "alchimie du givre", "talent type")
+t("Alchemical control over frost.", "Contrôle alchimique sur le givre.", "_t")
+t("energy alchemy", "alchimie d'énergie", "talent type")
+t("Alchemical control over lightning energies.", "Contrôle alchimique sur les énergies de foudre.", "_t")
+t("stone alchemy", "alchimie de pierre", "talent type")
+t("Manipulate gems, and imbue their powers into other objects.", "Manipulez des gemmes et imprègnez leurs pouvoirs dans d'autres objets.", "_t")
+t("Alchemical control over stone and gems.", "Contrôle alchimique sur la pierre et les gemmes.", "_t")
+t("staff combat", "combat au bâtonnet", "talent type")
+t("Harness the power of magical staves.", "Maîtrisez le pouvoir des bâtonnets magiques.", "_t")
+t("fighting", "combat", "talent type")
+t("Golem melee capacity.", "Capacité de mêlée du golem.", "_t")
+t("Golem arcane capacity.", "Capacité arcanique du golem.", "_t")
+t("Golem basic capacity.", "Capacité de base du golem.", "_t")
+t("Drolem basic capacity.", "Capacité de base du drolem.", "_t")
+t("master of bones", "maître des os", "talent type")
+t("Become of the master of bones, creating skeletal minions to do your bidding.", "Devenez le maître des os, créant des laquais squelettes pour exécuter vos ordres.", "_t")
+t("master of flesh", "maître de la chair", "talent type")
+t("Become of the master of flesh, creating ghoul minions to do your bidding", "Devenez le maître de la chair, créant des laquais Goules pour exécuter vos ordres.", "_t")
+t("master necromancer", "nécromancien maître", "talent type")
+t("Full and total control over your undead army.", "Contrôle total et complet de votre armée de morts-vivants.", "_t")
 t("nightfall", "crépuscule", "talent type")
+t("Manipulate darkness itself to slaughter your foes.", "Manipulez l'obscurité elle-même pour massacrer vos ennemis.", "_t")
 t("dreadmaster", "maître hanteur", "talent type")
+t("Summon an undead minion of pure darkness to harass your foes.", "Invoquez un laquais mort-vivant de pure obscurité pour harceler vos ennemis.", "_t")
+t("age of dusk", "ère du crépuscule", "talent type")
+t("Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "Rappelez-vous les jours glorieux de l'Ère du Crépuscule quand les nécromanciens régnaient en maîtres.", "_t")
 t("grave", "tombe", "talent type")
+t("Use the rotting cold doom of the tomb to fell your foes.", "Utilisez le froid putride du tombeau pour abattre vos ennemis.", "_t")
+t("glacial waste", "désert glacial", "talent type")
+t("Wither the land into a cold, dead ground to protect yourself.", "Transformez la terre en un sol froid et mort pour vous protéger.", "_t")
+t("rime wraith", "spectre givré", "talent type")
+t("Summon an undead minion of pure cold to harass your foes.", "Invoquez un laquais mort-vivant de pur froid pour harceler vos ennemis.", "_t")
+t("Crush the souls of your foes to improve yourself.", "Écrasez les âmes de vos ennemis pour vous améliorer.", "_t")
+t("death", "mort", "talent type")
+t("Learn to fasten your foes way into the grave.", "Apprenez à précipiter vos ennemis vers la tombe.", "_t")
+t("eradication", "éradication", "talent type")
+t("Doom to all your foes. Crush them.", "Condamnez tous vos ennemis. Écrasez-les.", "_t")
+t("necrosis", "nécrose", "talent type")
+t("Gain control over death, by unnaturally expanding your life.", "Prenez le contrôle sur la mort, en étendant votre vie de façon contre-nature.", "_t")
+t("Turn into a spectre to move around the battlefield.", "Transformez-vous en spectre pour vous déplacer sur le champ de bataille.", "_t")
+t("eldritch shield", "bouclier occulte", "talent type")
+t("Infuse arcane forces into your shield.", "Infusez des forces arcaniques dans votre bouclier.", "_t")
+t("eldritch stone", "pierre occulte", "talent type")
+t("Summon stony spikes imbued with various powers.", "Invoquez des pointes de pierre imprégnées de divers pouvoirs.", "_t")
+t("deeprock", "pierre profonde", "talent type")
+t("Harness the power of the world to turn into a Deeprock Form.", "Maîtrisez le pouvoir du monde pour prendre la Forme de Pierre Profonde.", "_t")
+t("#GREY#%s can not be healed this way!", "#GREY#%s ne peut pas être soigné de cette façon !", "logSeen")
+t("Necrotic Minion", "Laquais Nécrotique", "_t")
 -- texte non traduit
 --[==[
-t("Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "_t")
-t("Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "_t")
-t("Harness the power of fire to burn your foes to ashes.", "Harness the power of fire to burn your foes to ashes.", "_t")
-t("Harness the power of wildfire to burn your foes to ashes.", "Harness the power of wildfire to burn your foes to ashes.", "_t")
-t("Harness the power of the earth to protect and destroy.", "Harness the power of the earth to protect and destroy.", "_t")
-t("Harness the power of the stone to protect and destroy.", "Harness the power of the stone to protect and destroy.", "_t")
-t("Harness the power of water to drown your foes.", "Harness the power of water to drown your foes.", "_t")
-t("Harness the power of ice to freeze and shatter your foes.", "Harness the power of ice to freeze and shatter your foes.", "_t")
 t("air", "air", "talent type")
-t("Harness the power of the air to fry your foes.", "Harness the power of the air to fry your foes.", "_t")
-t("Harness the power of the storm to incinerate your foes.", "Harness the power of the storm to incinerate your foes.", "_t")
-t("Meta spells alter the working of magic itself.", "Meta spells alter the working of magic itself.", "_t")
-t("The school of time manipulation.", "The school of time manipulation.", "_t")
-t("Control the power of tricks and illusions.", "Control the power of tricks and illusions.", "_t")
-t("enhancement", "enhancement", "talent type")
-t("Magical enhancement of your body.", "Magical enhancement of your body.", "_t")
-t("The pinacle of spellcasting.", "The pinacle of spellcasting.", "_t")
-t("conveyance", "conveyance", "talent type")
-t("Conveyance is the school of travel. It allows you to travel faster and to track others.", "Conveyance is the school of travel. It allows you to travel faster and to track others.", "_t")
 t("divination", "divination", "talent type")
-t("Divination allows the caster to sense its surroundings, and find hidden things.", "Divination allows the caster to sense its surroundings, and find hidden things.", "_t")
-t("Command the arcane forces into healing and protection.", "Command the arcane forces into healing and protection.", "_t")
-t("explosive admixtures", "explosive admixtures", "talent type")
-t("Manipulate gems to turn them into explosive magical bombs.", "Manipulate gems to turn them into explosive magical bombs.", "_t")
-t("Infusion your gem bombs with the powers of the elements.", "Infusion your gem bombs with the powers of the elements.", "_t")
-t("golemancy", "golemancy", "talent type")
-t("Learn to craft and upgrade your golem.", "Learn to craft and upgrade your golem.", "_t")
-t("advanced-golemancy", "advanced-golemancy", "talent type")
-t("Advanced golem operations.", "Advanced golem operations.", "_t")
-t("fire alchemy", "fire alchemy", "talent type")
-t("Alchemical spells designed to wage war.", "Alchemical spells designed to wage war.", "_t")
-t("Alchemical control over fire.", "Alchemical control over fire.", "_t")
-t("acid alchemy", "acid alchemy", "talent type")
-t("Alchemical control over acid.", "Alchemical control over acid.", "_t")
-t("frost alchemy", "frost alchemy", "talent type")
-t("Alchemical control over frost.", "Alchemical control over frost.", "_t")
-t("energy alchemy", "energy alchemy", "talent type")
-t("Alchemical control over lightning energies.", "Alchemical control over lightning energies.", "_t")
-t("stone alchemy", "stone alchemy", "talent type")
-t("Manipulate gems, and imbue their powers into other objects.", "Manipulate gems, and imbue their powers into other objects.", "_t")
-t("Alchemical control over stone and gems.", "Alchemical control over stone and gems.", "_t")
-t("staff combat", "staff combat", "talent type")
-t("Harness the power of magical staves.", "Harness the power of magical staves.", "_t")
 t("golem", "golem", "talent category")
-t("fighting", "fighting", "talent type")
-t("Golem melee capacity.", "Golem melee capacity.", "_t")
-t("Golem arcane capacity.", "Golem arcane capacity.", "_t")
 t("golem", "golem", "talent type")
-t("Golem basic capacity.", "Golem basic capacity.", "_t")
 t("drolem", "drolem", "talent type")
-t("Drolem basic capacity.", "Drolem basic capacity.", "_t")
-t("master of bones", "master of bones", "talent type")
-t("Become of the master of bones, creating skeletal minions to do your bidding.", "Become of the master of bones, creating skeletal minions to do your bidding.", "_t")
-t("master of flesh", "master of flesh", "talent type")
-t("Become of the master of flesh, creating ghoul minions to do your bidding", "Become of the master of flesh, creating ghoul minions to do your bidding", "_t")
-t("master necromancer", "master necromancer", "talent type")
-t("Full and total control over your undead army.", "Full and total control over your undead army.", "_t")
-t("Manipulate darkness itself to slaughter your foes.", "Manipulate darkness itself to slaughter your foes.", "_t")
-t("Summon an undead minion of pure darkness to harass your foes.", "Summon an undead minion of pure darkness to harass your foes.", "_t")
-t("age of dusk", "age of dusk", "talent type")
-t("Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "_t")
-t("Use the rotting cold doom of the tomb to fell your foes.", "Use the rotting cold doom of the tomb to fell your foes.", "_t")
-t("glacial waste", "glacial waste", "talent type")
-t("Wither the land into a cold, dead ground to protect yourself.", "Wither the land into a cold, dead ground to protect yourself.", "_t")
-t("rime wraith", "rime wraith", "talent type")
-t("Summon an undead minion of pure cold to harass your foes.", "Summon an undead minion of pure cold to harass your foes.", "_t")
 t("animus", "animus", "talent type")
-t("Crush the souls of your foes to improve yourself.", "Crush the souls of your foes to improve yourself.", "_t")
-t("death", "death", "talent type")
-t("Learn to fasten your foes way into the grave.", "Learn to fasten your foes way into the grave.", "_t")
-t("eradication", "eradication", "talent type")
-t("Doom to all your foes. Crush them.", "Doom to all your foes. Crush them.", "_t")
-t("necrosis", "necrosis", "talent type")
-t("Gain control over death, by unnaturally expanding your life.", "Gain control over death, by unnaturally expanding your life.", "_t")
 t("spectre", "spectre", "talent type")
-t("Turn into a spectre to move around the battlefield.", "Turn into a spectre to move around the battlefield.", "_t")
-t("eldritch shield", "eldritch shield", "talent type")
-t("Infuse arcane forces into your shield.", "Infuse arcane forces into your shield.", "_t")
-t("eldritch stone", "eldritch stone", "talent type")
-t("Summon stony spikes imbued with various powers.", "Summon stony spikes imbued with various powers.", "_t")
-t("deeprock", "deeprock", "talent type")
-t("Harness the power of the world to turn into a Deeprock Form.", "Harness the power of the world to turn into a Deeprock Form.", "_t")
-t("#GREY#%s can not be healed this way!", "#GREY#%s can not be healed this way!", "logSeen")
-t("Necrotic Minion", "Necrotic Minion", "_t")
 --]==]
 
 -- ancien texte traduit
@@ -28512,33 +28489,29 @@ t([[Touch your foe and turn it to stone for %d turns.
 section "mod-tome/data/talents/spells/stone.lua"
 
 t("Earthen Missiles", "Missiles en Terre", "talent name")
-t("Body of Stone", "Corps de Pierre", "talent name")
-t("Earthquake", "Tremblement de Terre", "talent name")
-t("Crystalline Focus", "Focus Cristallin", "talent name")
--- texte non traduit
---[==[
 t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
 		At talent level 5, you can conjure one additional missile.
-		The damage will increase with your Spellpower.]], [[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
-		At talent level 5, you can conjure one additional missile.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Conjure %d roches en forme de missile que vous ciblez individuellement sur toute cible ou cibles à portée. Chaque missile inflige %0.2f dégâts physiques et un Saignement supplémentaire de %0.2f dégâts physiques à chaque tour pendant 5 tours.
+		Au niveau 5, vous pouvez conjurer un missile supplémentaire.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Body of Stone", "Corps de Pierre", "talent name")
 t([[You root yourself into the earth, and transform your flesh into stone.  While this spell is sustained, you may not move, and any forced movement will end the effect.
 		Your stone form and your affinity with the earth while the spell is active has the following effects:
 		* Reduces the cooldown of Earthen Missiles, Pulverizing Auger, Earthquake, and Mudslide by %d%%.
 		* Grants %d%% Fire Resistance, %d%% Lightning Resistance, %d%% Acid Resistance, and %d%% Stun Resistance.
-		Resistances scale with your Spellpower.]], [[You root yourself into the earth, and transform your flesh into stone.  While this spell is sustained, you may not move, and any forced movement will end the effect.
-		Your stone form and your affinity with the earth while the spell is active has the following effects:
-		* Reduces the cooldown of Earthen Missiles, Pulverizing Auger, Earthquake, and Mudslide by %d%%.
-		* Grants %d%% Fire Resistance, %d%% Lightning Resistance, %d%% Acid Resistance, and %d%% Stun Resistance.
-		Resistances scale with your Spellpower.]], "tformat")
+		Resistances scale with your Spellpower.]], [[Vous vous enracinez dans la terre et transformez votre chair en pierre. Tant que ce sort est soutenu, vous ne pouvez pas vous déplacer et tout mouvement forcé mettra fin à l'effet.
+		Votre forme de pierre et votre affinité avec la terre tandis que le sort est actif ont les effets suivants:
+		* Réduit le rechargement de Missiles en Terre, Foreuse Broyeuse, Tremblement de Terre et Glissement de Terrain de %d%%.
+		* Accorde %d%% de résistance au feu, %d%% de résistance à la foudre, %d%% de résistance à l'acide et %d%% de résistance à l'assomement.
+		Les résistances sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Earthquake", "Tremblement de Terre", "talent name")
 t([[Causes a violent earthquake that deals %0.2f physical damage in a radius of %d each turn for %d turns, and potentially stuns any and all creatures it affects.
-		The damage will increase with your Spellpower.]], [[Causes a violent earthquake that deals %0.2f physical damage in a radius of %d each turn for %d turns, and potentially stuns any and all creatures it affects.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Provoque un violent tremblement de terre infligeant %0.2f dégâts physiques dans un rayon de %d à chaque tour pendant %d tours, assomant potentiellement toutes les créatures affectées.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Crystalline Focus", "Focus Cristallin", "talent name")
 t([[Concentrate on maintaining a Crystalline Focus, increasing all your physical damage by %0.1f%% and ignoring %d%% physical resistance of your targets.
-		Also raises your physical and magical saves by %d.]], [[Concentrate on maintaining a Crystalline Focus, increasing all your physical damage by %0.1f%% and ignoring %d%% physical resistance of your targets.
-		Also raises your physical and magical saves by %d.]], "tformat")
---]==]
-
+		Also raises your physical and magical saves by %d.]], [[Concentrez-vous sur le maintien d'un Focus Cristallin, augmentant tous vos dégâts physiques de %0.1f%% et ignorant %d%% de la résistance physique de vos cibles.
+		Augmente également vos sauvegardes physiques et magiques de %d.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/storm.lua"
@@ -28972,12 +28945,12 @@ t([[You fire a pinning shot, doing %d%% damage and pinning your target to the gr
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/assassination.lua"
 
+t("You require two weapons to use this talent.", "Vous avez besoin de deux armes pour ce talent.", "logPlayer")
 t("Garrote", "Étranglement", "talent name")
 t("Marked for Death", "Condamné Marqué", "talent name")
 -- texte non traduit
 --[==[
 t("Coup de Grace", "Coup de Grace", "talent name")
-t("You require two weapons to use this talent.", "You require two weapons to use this talent.", "logPlayer")
 t("You cannot use Coup de Grace without dual wielding!", "You cannot use Coup de Grace without dual wielding!", "logPlayer")
 t("#Source# delivers a Coup de Grace against #Target#!", "#Source# delivers a Coup de Grace against #Target#!", "logCombat")
 t("%s resists the Coup de Grace!", "%s resists the Coup de Grace!", "logSeen")
@@ -29010,7 +28983,7 @@ t([[You mark a target for death for 4 turns, causing them to take %d%% increased
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/battle-tactics.lua"
 
-t("Greater Weapon Focus", "Concentration Martiale Supérieure", "talent name")
+t("Greater Weapon Focus", "Focus Martiale Supérieure", "talent name")
 t([[Concentrate on your blows; for %d turns, each strike you land on your target in melee range has a %d%% chance to trigger another, similar strike.
 		This works for all blows, even those from other talents and from shield bashes, but you can gain no more than one extra blow with each weapon during a turn.
 		The chance increases with your Dexterity.]], [[Concentrez-vous sur vos coups; pour %d tours, chaque frappe en mêlée sur votre cible a %d%% de chance de déclencher une frappe supplémentaire similaire.
@@ -29134,14 +29107,14 @@ t([[You focus your strikes, reducing your attack speed by %d%% and increasing yo
 		The effects will increase with your Dexterity.]], [[Vous vous concentrez sur vos attaques, réduisant votre vitesse d'attaque de %d%% et augmentant votre précision de %d et vos chances de coup critique de %d%%.
 		Ces effets sont proportionnels à votre dextérité.]], "tformat")
 t("Perfect Strike", "Frappe Parfaite", "talent name")
-t("You have learned to focus your blows to hit your target, granting +%d accuracy and allowing you to attack creatures you cannot see without penalty for the next %d turns.", "Vous avez appris à vous concentrer sur vos coups pour atteindre votre cible, ce qui vous confère +%d précision et vous permet d'attaquer des créatures que vous ne pouvez pas voir sans pénalité pendant les %d prochains tours.", "tformat")
+t("You have learned to focus your blows to hit your target, granting +%d accuracy and allowing you to attack creatures you cannot see without penalty for the next %d turns.", "Vous avez appris à vous focus sur vos coups pour atteindre votre cible, ce qui vous confère +%d précision et vous permet d'attaquer des créatures que vous ne pouvez pas voir sans pénalité pendant les %d prochains tours.", "tformat")
 t("Blinding Speed", "Vitesse Aveuglante", "talent name")
-t("Through rigorous training, you have learned to focus your actions for a short while, increasing your speed by %d%% for 5 turns.", "Grâce à un entraînement rigoureux, vous avez appris à vous concentrer sur vos actions pendant un court instant, augmentant votre vitesse de %d%% pendant 5 tours.", "tformat")
+t("Through rigorous training, you have learned to focus your actions for a short while, increasing your speed by %d%% for 5 turns.", "Grâce à un entraînement rigoureux, vous avez appris à vous focus sur vos actions pendant un court instant, augmentant votre vitesse de %d%% pendant 5 tours.", "tformat")
 t("Quick Recovery", "Rétablissement Rapide", "talent name")
-t("Your combat focus allows you to keep your hatred burning (%0.1f hate refunded after spending hate on a talent)", "Votre concentration en combat vous permet de maintenir votre haine en ébullition (%0.1f haine remboursée après avoir dépensé de la haine pour un talent).", "tformat")
-t("Your combat focus allows you to regenerate stamina faster (+%0.1f stamina/turn).", "Votre concentration en combat vous permet de régénérer votre endurance plus rapidement (+%0.1f endurance/tour).", "tformat")
+t("Your combat focus allows you to keep your hatred burning (%0.1f hate refunded after spending hate on a talent)", "Votre focus en combat vous permet de maintenir votre haine en ébullition (%0.1f haine remboursée après avoir dépensé de la haine pour un talent).", "tformat")
+t("Your combat focus allows you to regenerate stamina faster (+%0.1f stamina/turn).", "Votre focus en combat vous permet de régénérer votre endurance plus rapidement (+%0.1f endurance/tour).", "tformat")
 t("Fast Metabolism", "Métabolisme Rapide", "talent name")
-t("Your combat focus allows you to regenerate life faster (+%0.1f life/turn).", "Votre concentration en combat vous permet de régénérer votre vie plus rapidement (+%0.1f vie/tour).", "tformat")
+t("Your combat focus allows you to regenerate life faster (+%0.1f life/turn).", "Votre focus en combat vous permet de régénérer votre vie plus rapidement (+%0.1f vie/tour).", "tformat")
 t("Spell Shield", "Écran Magique", "talent name")
 t("Rigorous training allows you to be more resistant to some spell effects (+%d spell save).", "Un entraînement rigoureux vous permet d'être plus résistant à certains effets de sorts (+%d sauvegarde contre les sorts).", "tformat")
 t("Unending Frenzy", "Frénésie sans Fin", "talent name")
@@ -29225,61 +29198,59 @@ t([[You release a surge of adrenaline that increases your Physical Power by %d f
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/dualweapon.lua"
 
-t("Dual Strike", "Frappe Double", "talent name")
--- texte non traduit
---[==[
-t("Dual Weapon Training", "Dual Weapon Training", "talent name")
-t("Increases the damage of your off-hand weapon to %d%%.", "Increases the damage of your off-hand weapon to %d%%.", "tformat")
-t("Dual Weapon Defense", "Dual Weapon Defense", "talent name")
+t("Dual Weapon Training", "Entraînement aux Armes Doubles", "talent name")
+t("Increases the damage of your off-hand weapon to %d%%.", "Augmente les dégâts de votre arme en main secondaire de %d%%.", "tformat")
+t("Dual Weapon Defense", "Défense à Deux Armes", "talent name")
 t([[You have learned to block incoming blows with your offhand weapon.
 		When dual wielding, your defense is increased by %d.
 		Up to %0.1f times a turn, you have a %d%% chance to parry up to %d damage (based on your your offhand weapon damage) from a melee attack.
 		A successful parry reduces damage like armour (before any attack multipliers) and prevents critical strikes.  Partial parries have a proportionally reduced chance to succeed.  It is difficult to parry attacks from unseen attackers and you cannot parry with a mindstar.
-		The defense and chance to parry improve with Dexterity.  The number of parries increases with Cunning.]], [[You have learned to block incoming blows with your offhand weapon.
-		When dual wielding, your defense is increased by %d.
-		Up to %0.1f times a turn, you have a %d%% chance to parry up to %d damage (based on your your offhand weapon damage) from a melee attack.
-		A successful parry reduces damage like armour (before any attack multipliers) and prevents critical strikes.  Partial parries have a proportionally reduced chance to succeed.  It is difficult to parry attacks from unseen attackers and you cannot parry with a mindstar.
-		The defense and chance to parry improve with Dexterity.  The number of parries increases with Cunning.]], "tformat")
-t("Close Combat Management", "Close Combat Management", "talent name")
-t("You must dual wield to use this talent.", "You must dual wield to use this talent.", "logPlayer")
-t("You must dual wield to manage contact with your target!", "You must dual wield to manage contact with your target!", "logPlayer")
+		The defense and chance to parry improve with Dexterity.  The number of parries increases with Cunning.]], [[Vous avez appris à bloquer les coups entrants avec votre arme en main secondaire.
+		En maniant deux armes votre défense est augmentée de %d.
+		Jusqu'à %0.1f fois par tour, vous avez %d%% de chance de parer jusqu'à %d dégâts (basé sur les dégâts de votre arme secondaire) d'une attaque de mêlée.
+		Une parade réussie réduit les dégâts comme une armure (avant tout multiplicateur d'attaque) et empêche les coups critiques. Les parades partielles ont une chance de succès proportionnellement réduite. Il est difficile de parer les attaques d'adversaires invisibles et vous ne pouvez pas parer avec une Étoile d'âme.
+		La défense et la chance de parer sont proportionnels à la Dextérité.
+		Le nombre de parades est proportionnel à la Ruse.]], "tformat")
+t("Close Combat Management", "Gestion du Combat Rapproché", "talent name")
+t("You must dual wield to use this talent.", "Vous devez manier deux armes pour utiliser ce talent.", "logPlayer")
+t("You must dual wield to manage contact with your target!", "Vous devez manier deux armes pour gérer le contact avec votre cible!", "logPlayer")
 t([[You have learned how to carefully manage contact between you and your opponent.
 		When striking in melee with your dual wielded weapons, you automatically avoid up to %d damage dealt to you from each of your target's on hit effects.  This improves with your Dexterity, but is not possible with mindstars.
-		In addition, while this talent is active, you redirect %d%% of the damage you avoid this way back to your target.]], [[You have learned how to carefully manage contact between you and your opponent.
-		When striking in melee with your dual wielded weapons, you automatically avoid up to %d damage dealt to you from each of your target's on hit effects.  This improves with your Dexterity, but is not possible with mindstars.
-		In addition, while this talent is active, you redirect %d%% of the damage you avoid this way back to your target.]], "tformat")
-t("Offhand Jab", "Offhand Jab", "talent name")
-t("You require two weapons to use this talent.", "You require two weapons to use this talent.", "logPlayer")
-t("You must dual wield to perform an Offhand Jab!", "You must dual wield to perform an Offhand Jab!", "logPlayer")
-t("%s resists the surprise strike!", "%s resists the surprise strike!", "logSeen")
+		In addition, while this talent is active, you redirect %d%% of the damage you avoid this way back to your target.]], [[Vous avez appris à gérer soigneusement le contact entre vous et votre adversaire.
+		En frappant en mêlée avec vos deux armes, vous évitez automatiquement jusqu'à %d dégâts qui vous seraient infligés par chacun des effets au contact de votre cible. Cela est proportionnel à votre Dextérité, mais n'est pas possible avec les Étoiles d'âme.
+		De plus, tant que ce talent est actif, vous redirigez %d%% des dégâts ainsi évités vers votre cible.]], "tformat")
+t("Offhand Jab", "Jab de la Main Secondaire", "talent name")
+t("You require two weapons to use this talent.", "Vous avez besoin de deux armes pour ce talent.", "logPlayer")
+t("You must dual wield to perform an Offhand Jab!", "Vous devez manier deux armes pour effectuer un Jab de la Main Secondaire !", "logPlayer")
+t("%s resists the surprise strike!", "%s résiste au coup surprise!", "logSeen")
 t([[With a quick shift of your momentum, you execute a surprise unarmed strike in place of your normal offhand attack.
 		This allows you to attack with your mainhand weapon for %d%% damage and unarmed for %d%% damage.  If the unarmed attack hits, the target is confused (%d%% power) for %d turns.
-		The chance to confuse increases with your Accuracy.]], [[With a quick shift of your momentum, you execute a surprise unarmed strike in place of your normal offhand attack.
-		This allows you to attack with your mainhand weapon for %d%% damage and unarmed for %d%% damage.  If the unarmed attack hits, the target is confused (%d%% power) for %d turns.
-		The chance to confuse increases with your Accuracy.]], "tformat")
-t("You cannot use Dual Strike without dual wielding!", "You cannot use Dual Strike without dual wielding!", "logPlayer")
-t("%s resists the stunning strike!", "%s resists the stunning strike!", "logSeen")
+		The chance to confuse increases with your Accuracy.]], [[D'un rapide changement d'élan, vous exécutez un coup à mains nues surprise à la place de votre attaque normale de main secondaire.
+		Cela vous permet d'attaquer avec votre arme principale pour %d%% dégâts et à mains nues pour %d%% dégâts. Si l'attaque à mains nues touche, la cible est confuse (%d%% de puissance) pendant %d tours.
+		La chance de confusion est proportionnel à votre Précision.]], "tformat")
+t("Dual Strike", "Frappe Duale", "talent name")
+t("You cannot use Dual Strike without dual wielding!", "Vous ne pouvez pas utiliser Frappe Duale sans manier deux armes !", "logPlayer")
+t("%s resists the stunning strike!", "%s résiste au coup assomant!", "logSeen")
 t([[Attack with your offhand weapon for %d%% damage. If the attack hits, the target is stunned for %d turns, and you hit it with your mainhand weapon doing %d%% damage.
-		The stun chance increases with your Accuracy.]], [[Attack with your offhand weapon for %d%% damage. If the attack hits, the target is stunned for %d turns, and you hit it with your mainhand weapon doing %d%% damage.
-		The stun chance increases with your Accuracy.]], "tformat")
-t("Flurry", "Flurry", "talent name")
-t("You cannot use Flurry without dual wielding!", "You cannot use Flurry without dual wielding!", "logPlayer")
-t("Lashes out with a flurry of blows, hitting your target three times with each weapon for %d%% damage.", "Lashes out with a flurry of blows, hitting your target three times with each weapon for %d%% damage.", "tformat")
-t("Heartseeker", "Heartseeker", "talent name")
-t("Swiftly leap to your target and strike at their vital points with both weapons, dealing %d%% weapon damage. This attack deals %d%% increased critical strike damage.", "Swiftly leap to your target and strike at their vital points with both weapons, dealing %d%% weapon damage. This attack deals %d%% increased critical strike damage.", "tformat")
-t("Whirlwind", "Whirlwind", "talent name")
-t("The target location must be within range and within view.", "The target location must be within range and within view.", "logPlayer")
-t("There is no open space in which to land near there.", "There is no open space in which to land near there.", "logPlayer")
-t("%s becomes a whirlwind of weapons!", "%s becomes a whirlwind of weapons!", "logSeen")
-t("You quickly move up to %d tiles to arrive adjacent to a target location you can see, leaping around or over anyone in your way.  During your movement, you attack all foes within one grid of your path with both weapons for %d%% weapon damage, causing those struck to bleed for 50%% of the damage dealt over 5 turns.", "You quickly move up to %d tiles to arrive adjacent to a target location you can see, leaping around or over anyone in your way.  During your movement, you attack all foes within one grid of your path with both weapons for %d%% weapon damage, causing those struck to bleed for 50%% of the damage dealt over 5 turns.", "tformat")
---]==]
-
+		The stun chance increases with your Accuracy.]], [[Attaquez avec votre arme secondaire pour %d%% dégâts. Si l'attaque touche, la cible est assomé pendant %d tours, et vous la frappez avec votre arme principale pour %d%% dégâts.
+		La chance d'assomement est proportionnel à votre Précision.]], "tformat")
+t("Flurry", "Rafale", "talent name")
+t("You cannot use Flurry without dual wielding!", "Vous ne pouvez pas utiliser Rafale sans manier deux armes !", "logPlayer")
+t("Lashes out with a flurry of blows, hitting your target three times with each weapon for %d%% damage.", "Déchaîne une rafale de coups frappant votre cible trois fois avec chaque arme pour %d%% dégâts.", "tformat")
+t("Heartseeker", "Cherche-Coeur", "talent name")
+t("Swiftly leap to your target and strike at their vital points with both weapons, dealing %d%% weapon damage. This attack deals %d%% increased critical strike damage.", "Bondissez rapidement vers votre cible et frappez ses points vitaux avec les deux armes, infligeant %d%% dégâts d'arme. Cette attaque inflige %d%% dégâts critiques supplémentaires.", "tformat")
+t("Whirlwind", "Tourbillon", "talent name")
+t("The target location must be within range and within view.", "L'emplacement cible doit être à portée et en vue.", "logPlayer")
+t("There is no open space in which to land near there.", "Il n'y a pas d'espace libre pour atterrir à proximité.", "logPlayer")
+t("%s becomes a whirlwind of weapons!", "%s devient un tourbillon d'armes!", "logSeen")
+t("You quickly move up to %d tiles to arrive adjacent to a target location you can see, leaping around or over anyone in your way.  During your movement, you attack all foes within one grid of your path with both weapons for %d%% weapon damage, causing those struck to bleed for 50%% of the damage dealt over 5 turns.", "Vous vous déplacez rapidement jusqu'à %d cases pour arriver adjacent à un emplacement cible que vous pouvez voir, en sautant autour ou par-dessus quiconque se trouve sur votre chemin. Pendant votre déplacement, vous attaquez tous les ennemis à une case de votre trajectoire avec les deux armes pour %d%% dégâts d'arme, faisant saigner les cibles touchées pour 50%% des dégâts infligés sur 5 tours.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/duelist.lua"
 
 t("Feint", "Feinte", "talent name")
 t("You must be able to move to use this talent.", "Vous devez être capable de vous déplacer pour utiliser ce talent.", "logPlayer")
+t("You require two weapons to use this talent.", "Vous avez besoin de deux armes pour ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Dual Weapon Mastery", "Dual Weapon Mastery", "talent name")
@@ -29304,7 +29275,6 @@ t([[Make a cunning feint that tricks your target into swapping places with you. 
 		Switching places distracts your foes and allows you to improve your defenses:  For %d turns, Dual Weapon Mastery yields one extra parry each turn and you are %d%% less likely to miss your parry opportunities.
 		The chance to pin and to daze increases with your Accuracy]], "tformat")
 t("Lunge", "Lunge", "talent name")
-t("You require two weapons to use this talent.", "You require two weapons to use this talent.", "logPlayer")
 t("You cannot use Lunge without dual wielding!", "You cannot use Lunge without dual wielding!", "logPlayer")
 t("%s resists the blow!", "%s resists the blow!", "logSeen")
 t([[Exploiting a gap in your target's defenses, you make a lethal strike with your offhand weapon for %d%% damage that causes them to drop their weapon, disarming them for %d turns.
@@ -29442,47 +29412,43 @@ t([[In a mighty show of strength you whirl your grappled victim around and throw
 section "mod-tome/data/talents/techniques/magical-combat.lua"
 
 t("Arcane Combat", "Combat Arcanique", "talent name")
--- texte non traduit
---[==[
 t([[				
 				Currently selected spell: %s]], [[				
-				Currently selected spell: %s]], "tformat")
+				Sort sélectionné : %s]], "tformat")
 t([[				
 				Currently selected spell: Random]], [[				
-				Currently selected spell: Random]], "_t")
+				Sort sélectionné : Aléatoire]], "_t")
 t([[Allows you to use melee weapons to focus your spells, granting a %d%% chance per melee attack to cast an offensive spell as a free action on the target.
 		Delivering the spell this way will not trigger a spell cooldown.
 		You may select an allowed spell to trigger this way, or choose to have one randomly selected for each attack.
 		While dual wielding or using a shield the chance is halved.
 		The chance increases with your Cunning.
 
-		Allowed spells: %s %s]], [[Allows you to use melee weapons to focus your spells, granting a %d%% chance per melee attack to cast an offensive spell as a free action on the target.
-		Delivering the spell this way will not trigger a spell cooldown.
-		You may select an allowed spell to trigger this way, or choose to have one randomly selected for each attack.
-		While dual wielding or using a shield the chance is halved.
-		The chance increases with your Cunning.
+		Allowed spells: %s %s]], [[Vous permet d'utiliser des armes de mêlée pour focus vos sorts, accordant %d%% de chances par attaque de mêlée de lancer un sort offensif comme action gratuite sur la cible.
+		Lancer le sort de cette façon ne déclenche pas son rechargement.
+		Vous pouvez sélectionner un sort autorisé à déclencher ainsi, ou choisir d'en sélectionner un aléatoirement pour chaque attaque.
+		En maniement de deux armes ou avec un bouclier, la chance est réduite de moitié.
+		La chance est proportionnel à votre Ruse.
 
-		Allowed spells: %s %s]], "tformat")
-t("Arcane Cunning", "Arcane Cunning", "talent name")
-t("The user gains a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "The user gains a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "tformat")
-t("Arcane Feed", "Arcane Feed", "talent name")
-t("Regenerates %0.2f mana per turn, and increases physical and spell critical chance by %d%% while active.", "Regenerates %0.2f mana per turn, and increases physical and spell critical chance by %d%% while active.", "tformat")
-t("Arcane Destruction", "Arcane Destruction", "talent name")
+		Sorts autorisés: %s %s]], "tformat")
+t("Arcane Cunning", "Ruse Arcanique", "talent name")
+t("The user gains a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "L'utilisateur gagne un bonus à la Puissance des sorts égal à %d%% de votre Ruse (Bonus actuel : %d).", "tformat")
+t("Arcane Feed", "Absorption Arcanique", "talent name")
+t("Regenerates %0.2f mana per turn, and increases physical and spell critical chance by %d%% while active.", "Régénère %0.2f mana par tour et augmente la chance de coup critique physique et magique de %d%% tant qu'actif.", "tformat")
+t("Arcane Destruction", "Destruction Arcanique", "talent name")
 t([[Raw magical damage channels through the caster's weapon, increasing raw Physical Power by %d%% of your Magic (current bonus: %d).
 		Each time you crit with a melee blow, you will unleash a radius %d ball of arcane damage, doing %0.2f.
 		The bonus scales with your Spellpower and talent level.
 		If you are using a shield this will only occur 50%% of the time.
 		If you are dual wielding this will only occur 50%% of the time.
 		At level 5 the ball becomes radius 2.
-		]], [[Raw magical damage channels through the caster's weapon, increasing raw Physical Power by %d%% of your Magic (current bonus: %d).
-		Each time you crit with a melee blow, you will unleash a radius %d ball of arcane damage, doing %0.2f.
-		The bonus scales with your Spellpower and talent level.
-		If you are using a shield this will only occur 50%% of the time.
-		If you are dual wielding this will only occur 50%% of the time.
-		At level 5 the ball becomes radius 2.
+		]], [[Des dégâts magiques bruts se canalisent à travers l'arme du lanceur, augmentant la Puissance physique brute de %d%% de votre Magie (bonus actuel: %d).
+		Chaque fois que vous effectuez un coup critique en mêlée vous déchaînez une boule de dégâts arcaniques de rayon %d, infligeant %0.2f dégâts.
+		Si vous utilisez un bouclier cela ne se produira que 50%% du temps.
+		Si vous maniez deux armes cela ne se produira que 50%% du temps.
+		Au niveau 5, la boule passe à un rayon de 2.
+		Les bonus est proportionnel àvotre Puissance des sorts et le niveau du talent.
 		]], "tformat")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/marksmanship.lua"
@@ -29502,7 +29468,7 @@ t([[Fire a shot at the target tile that blinds enemies for %d turns, marks them 
 		The status chance increases with your Accuracy, and the defense reduction with your Dexterity.]], [[Tirez un coup sur la case cible pour aveugler les ennemis pendant %d tours, les marque pendant 2 tours, et illumine la zone dans un rayon de %d pendant %d tours. Les ennemis dans la zone illuminée perdent %d défense et de furtivité et ne peuvent pas bénéficier de la dissimulation.
 		La chance d'appliquer les effets est proportionnel à votre Précision, et la réduction de défense à votre Dextérité.]], "tformat")
 t("Trueshot", "Essence du Tir", "talent name")
-t("Enter a state of heightened focus for %d turns. While in this state your ranged attack speed is increased by %d%%, your shots do not consume ammo, and all shots capable of marking have their chance to mark increased by %d%%.", "Entrez dans un état de concentration accrue pendant %d tours. Dans cet état, votre vitesse d'attaque à distance est augmentée de %d%%, vos tirs ne consomment pas de munitions, et tous les tirs capables de marquer voient leur chance de marquer augmentée de %d%%.", "tformat")
+t("Enter a state of heightened focus for %d turns. While in this state your ranged attack speed is increased by %d%%, your shots do not consume ammo, and all shots capable of marking have their chance to mark increased by %d%%.", "Entrez dans un état de focus accru pendant %d tours. Dans cet état, votre vitesse d'attaque à distance est augmentée de %d%%, vos tirs ne consomment pas de munitions, et tous les tirs capables de marquer voient leur chance de marquer augmentée de %d%%.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/mobility.lua"
@@ -29744,7 +29710,7 @@ t("Snipe", "Tir de Précision", "talent name")
 t([[Take aim for 1 turn, preparing a deadly shot. During the next turn, this talent will be replaced with the ability to fire a lethal shot dealing %d%% damage and marking the target.
 While aiming, your intense focus causes you to shrug off %d%% incoming damage and all negative effects.
 This requires a bow to use.]], [[Visez pendant 1 tour, préparant un tir mortel. Au tour suivant, ce talent sera remplacé par la possibilité de tirer un coup léthal infligeant %d%% dégâts et marquant la cible.
-Pendant la visée, votre concentration intense vous permet d'ignorer %d%% des dégâts entrants et tous les effets négatifs.
+Pendant la visée, votre focus intense vous permet d'ignorer %d%% des dégâts entrants et tous les effets négatifs.
 Nécessite un arc.]], "tformat")
 t("Fire a lethal shot. This shot will bypass other enemies between you and your target, and gains 100 increased accuracy.", "irez un coup léthal. Ce tir contourne les autres ennemis entre vous et votre cible, et gagne 100 de précision supplémentaire.", "tformat")
 
@@ -31734,7 +31700,7 @@ t([[Finally, suppose you're a rogue, and you use Dual Strike to attempt to knock
 As with the berserker example, first you must hit, so you compare your #LIGHT_GREEN#Accuracy#WHITE# to the target's #LIGHT_GREEN#Defense#WHITE#.
 
 We can guess now that the target will use their #LIGHT_GREEN#Physical save#WHITE# to attempt to shrug off the stun. But what will you use? You're not getting the job done with raw muscle, like a berserker. You're doing this with finesse, so we'll use your #LIGHT_GREEN#Accuracy#WHITE#.
-]], [[Enfin, supposons que vous soyez un voleur et que vous utilisiez Frappe double pour tenter d'assommer quelqu'un. 
+]], [[Enfin, supposons que vous soyez un voleur et que vous utilisiez Frappe Duale pour tenter d'assommer quelqu'un. 
 
 Comme dans l'exemple du berserker, vous devez d'abord toucher, donc vous comparez votre #LIGHT_GREEN#Précision#WHITE# à la #LIGHT_GREEN#Défense#WHITE# de la cible.
 
@@ -34452,10 +34418,10 @@ t("Wet", "Humide", "_t")
 t("Target is drenched with magical water, halving its stun resistance.", "La cible est aspergée d'eau magique, ce qui réduit de moitié sa résistance à l'assommement.", "tformat")
 t("+Wet", "+Humide", "_t")
 t("-Wet", "-Humide", "_t")
-t("Probability Travel", "Probabilité de Déplacement", "_t")
+t("Probability Travel", "Voyage Probabiliste", "_t")
 t("Target is out of phase and may move through walls.", "La cible est déphasée et peut traverser les murs.", "tformat")
-t("+Probability Travel", "+Probabilité de Déplacement", "_t")
-t("-Probability Travel", "-Probabilité de Déplacement", "_t")
+t("+Probability Travel", "+Voyage Probabiliste", "_t")
+t("-Probability Travel", "-Voyage Probabiliste", "_t")
 t("Blink", "Passage", "_t")
 t("Target is randomly teleporting every turn.", "La cible se téléporte au hasard à chaque tour.", "tformat")
 t("+Blink", "+Passage", "_t")
@@ -34485,7 +34451,6 @@ t("Displacing %d%% of all damage on to a random enemy.", "Déplace %d%% de tous 
 t("+Webs of Fate", "+Toiles du Destin", "_t")
 t("-Webs of Fate", "-Toiles du Destin", "_t")
 t("%s(%d webs of fate)#LAST#", "%s(%d toiles du destin)#LAST#", "tformat")
-t("focus", "cencentration", "effect subtype")
 t("Seal Fate", "Destin Scellé", "_t")
 t("The target has a %d%% chance of increasing the duration of one detrimental status effects on targets it damages by one.", "La cible a %d%% de chances d'augmenter de un la durée d'un effet d'état néfaste sur les cibles qu'elle endommage.", "tformat")
 t("+Seal Fate", "+Destin Scellé", "_t")
@@ -34543,11 +34508,10 @@ t("Each turn will fire an arrow at %s.", "A chaque tour, une flèche sera tirée
 t("+Arrow Echoes", "+Echos de Flèches", "_t")
 t("-Arrow Echoes", "-Echos de Flèches", "_t")
 t("tactic", "tactique", "effect subtype")
-t("Warden's Focus", "Concentration du Gardien", "_t")
+t("Warden's Focus", "Focus du Gardien", "_t")
 t("Focused on %s, +%d%% critical damage and +%d%% critical hit chance against this target.", "Concentré sur %s, +%d%% dégâts critiques et +%d%% chances de coup critique contre cette cible.", "tformat")
-t("+Warden's Focus", "+Concentration du Gardien", "_t")
-t("-Warden's Focus", "-Concentration du Gardien", "_t")
-t("%s(%d focus)#LAST#", "%s(%d concentration)#LAST#", "tformat")
+t("+Warden's Focus", "+Focus du Gardien", "_t")
+t("-Warden's Focus", "-Focus du Gardien", "_t")
 t("Fateweaver", "Tisseur de Destin", "_t")
 t("The target's accuracy and power have been increased by %d.", "La précision et la puissance de la cible ont été augmentées de %d.", "tformat")
 t("%d Fateweaver", "%d Tisseur de Destin", "tformat")
@@ -34795,6 +34759,8 @@ t("race", "race", "effect subtype")
 t("Illumination ", "Illumination ", "_t")
 t("+Illumination", "+Illumination", "_t")
 t("-Illumination", "-Illumination", "_t")
+t("focus", "cencentration", "effect subtype")
+t("%s(%d focus)#LAST#", "%s(%d concentration)#LAST#", "tformat")
 t("%d%%", "%d%%", "tformat")
 t("invulnerable", "invulnerable", "effect subtype")
 t("Invulnerable.", "Invulnerable.", "_t")
@@ -34824,7 +34790,6 @@ t("#Target# is silenced!", "#Target# est réduit au silence!", "_t")
 t("+Silenced", "+Muet", "_t")
 t("#Target# is not silenced anymore.", "#Target# peut a nouveau parler.", "_t")
 t("-Silenced", "-Muet", "_t")
-t("focus", "cencentration", "effect subtype")
 t("Pheromones", "Phéromones", "_t")
 t("The target has been marked as the focus for all nature summons within %d radius, receiving %d%% increased damage from nature summons.", "La cible devient le point de mire de toutes les invocations de la nature dans un rayon de %d, et reçoit %d%% dégâts supplémentaires de la part des invocations de la nature.", "tformat")
 t("Summons flock towards #Target#.", "Les invocations affluent vers #Target#.", "_t")
@@ -35019,7 +34984,7 @@ t("+Quick", "+Rapide", "_t")
 t("#Target# slows down.", "#Target# ralentis.", "_t")
 t("-Quick", "-Rapide", "_t")
 t("frenzy", "frénésie", "effect subtype")
-t("Frenzied Focus", "Concentration Frénétique", "_t")
+t("Frenzied Focus", "Focus Frénétique", "_t")
 t("This creatures psionic focus item is supercharged!", "L'objet de focalisation psionique de cette créature est surchargé.!", "_t")
 t("#Target# enters a frenzy!", "#Target# entre en frénésie!", "_t")
 t("+Frenzy", "+Frénésie", "_t")
@@ -35245,7 +35210,7 @@ t("Hidden Resources", "Ressources Cachées", "_t")
 t("The target does not consume any resources.", "La cible ne consomme aucune ressource.", "_t")
 t("#Target#'s focuses.", "#Target# se concentre.", "_t")
 t("+Hidden Ressources", "+Ressources Cachées", "_t")
-t("#Target#'s loses some focus.", "#Target# perd de sa concentration.", "_t")
+t("#Target#'s loses some focus.", "#Target# perd de sson focus.", "_t")
 t("-Hidden Ressources", "-Ressources Cachées", "_t")
 t("nature", "dégâts de nature", "effect subtype")
 t("Spell Feedback", "Sort Rétroactif", "_t")
@@ -35314,6 +35279,7 @@ t("#Target# is free from their doom.", "#Target# est libéré de leur malédicti
 t("-Vampire Mark", "-Marque du Vampire", "_t")
 -- texte non traduit
 --[==[
+t("focus", "cencentration", "effect subtype")
 t("#ORANGE#", "#ORANGE#", "_t")
 t(", nature", ", nature", "_t")
 t(", arcane", ", arcane", "_t")
@@ -35722,8 +35688,8 @@ t("-Twist Fate", "-Destin Tordu", "_t")
 t("tactic", "tactique", "effect subtype")
 t("Warden's Focus Target", "Cible Prioritaire du Gardien", "_t")
 t("%s is focusing on this target.", "%s se concentre sur cette cible.", "tformat")
-t("+Warden's Focus", "+Concentration du Gardien", "_t")
-t("-Warden's Focus", "-Concentration du Gardien", "_t")
+t("+Warden's Focus", "+Focus du Gardien", "_t")
+t("-Warden's Focus", "-Focus du Gardien", "_t")
 t("mind", "esprit", "effect subtype")
 t("Death in a Dream", "Mort dans un Rêve", "_t")
 t("The target had breathed in noxious sleep-induced fumes and is losing %d life per turn.", "La cible a inhalé des vapeurs toxiques qui l'ont endormie et perd %d vie par tour.", "tformat")
@@ -36156,7 +36122,7 @@ t("#Target#'s throat seems to be burning.", "#Target# semble avoir la gorge en f
 t("+Dragon's fire", "+Flammes de Dragon", "_t")
 t("#Target#'s throat seems to cool down.", "#Target# semble se calmer.", "_t")
 t("-Dragon's fire", "-Flammes de Dragon", "_t")
-t("Greater Weapon Focus", "Concentration Martiale Supérieure", "_t")
+t("Greater Weapon Focus", "Focus Martiale Supérieure", "_t")
 t("Each melee blow landed has a %d%% chance to trigger an additional melee blow (up to once per turn for each weapon).", "Chaque coup de mêlée porté a %d%% chances de déclencher un coup de mêlée supplémentaire (une fois par tour au maximum pour chaque arme).", "tformat")
 t("Grappling", "Prise", "_t")
 t("Engaged in a grapple draining %d stamina per turn and redirecting %d%% of damage taken to %s.  Any movement will break the effect as will some unarmed talents.", "Vous êtes pris dans une prise qui vous fait perdre %d points d'endurance par tour et redirige %d%% des dégâts subis vers %s. Tout déplacement mettra fin à cet effet, tout comme certains talents de combat à mains nues.", "tformat")
@@ -43191,7 +43157,7 @@ t("#LIGHT_BLUE#Unarmed", "#LIGHT_BLUE#Mains nue", "_t")
 t("#LIGHT_BLUE#Offhand%s", "#LIGHT_BLUE#Main secondaire%s", "tformat")
 t(" (disabled)", " (désactivé)", "_t")
 t("#LIGHT_BLUE#Offhand-Dual Weapon%s", "#LIGHT_BLUE#Main secondaire-Deux armes%s", "tformat")
-t("#LIGHT_BLUE#Psionic Focus", "#LIGHT_BLUE#Concentration Psionique", "_t")
+t("#LIGHT_BLUE#Psionic Focus", "#LIGHT_BLUE#Focus Psionique", "_t")
 t("#LIGHT_BLUE#Physical:", "#LIGHT_BLUE#Physique:", "_t")
 t("Phys. Power: #00ff00#%s", "Puiss physique    : #00ff00#%s", "tformat")
 t("Crit. chance: #00ff00#%s", "Chance crit      : #00ff00#%s", "tformat")
@@ -44960,7 +44926,7 @@ t("In main hand", "En main principale", "_t")
 t("Most weapons are wielded in the main hand.", "La plupart des amres sont porté dans la main principale.", "_t")
 t("In off hand", "En main secondaire", "_t")
 t("You can use shields or a second weapon in your off-hand, if you have the talents for it.", "Vous pouvez utiliser des boucliers ou une deuxième arme dans votre main secondaire, si vous en avez le talent.", "_t")
-t("Psionic focus", "Concentration psionique", "_t")
+t("Psionic focus", "Focus psionique", "_t")
 t("Object held in your telekinetic grasp. It can be a weapon or some other item to provide a benefit to your psionic powers.", "Objet tenu dans votre main télékinétique. Il peut s'agir d'une arme ou d'un autre objet qui vous permet de développer vos pouvoirs psychiques.", "_t")
 t("On fingers", "Aux doigts", "_t")
 t("Rings are worn on fingers.", "Les anneaux sont portés aux doigts.", "_t")
@@ -44990,7 +44956,7 @@ t("Second weapon set: In main hand", "Deuxième ensemble d'armes: dans la main p
 t("Weapon Set 2: Most weapons are wielded in the main hand. Press 'x' to switch weapon sets.", "Ensemble d'armes 2: la plupart des armes sont utilisées dans la main principale. Appuyez sur 'x' pour changer d'armement.", "_t")
 t("Second weapon set: In off hand", "Deuxième ensemble d'armes: en main secondaire", "_t")
 t("Weapon Set 2: You can use shields or a second weapon in your off-hand, if you have the talents for it. Press 'x' to switch weapon sets.", "Ensemble d'armes 2: vous pouvez utiliser des boucliers ou une deuxième arme dans votre main libre, si vous en avez le talent. Appuyez sur 'x' pour changer d'armement.", "_t")
-t("Second weapon set: psionic focus", "Deuxième ensemble d'armes: concentration psionique", "_t")
+t("Second weapon set: psionic focus", "Deuxième ensemble d'armes: focus psionique", "_t")
 t("Weapon Set 2: Object held in your telekinetic grasp. It can be a weapon or some other item to provide a benefit to your psionic powers. Press 'x' to switch weapon sets.", "Ensemble d'armes 2: Objet tenu sous votre emprise télékinésique. Cela peut être une arme ou un autre objet pour fournir un avantage à vos pouvoirs psioniques. Appuyez sur 'x' pour changer d'armement.", "_t")
 t("Second weapon set: Quiver", "Deuxième ensemble d'armes: Carquois", "_t")
 t("Weapon Set 2: Your readied ammo.", "Set d'armes 2: vos munitions préparées.", "_t")
