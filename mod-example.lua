@@ -27,9 +27,9 @@ t("NB: %d", "NB: %d", "log")
 section "mod-example/class/Player.lua"
 
 t("taken damage", "dégâts reçus", "_t")
-t("LOW HEALTH!", "VIE BASSE!", "_t")
+t("LOW HEALTH!", "VIE BASSE !", "_t")
 t("#00ff00#Talent %s is ready to use.", "#00ff00#Le talent %s est prêt a être utilisé.", "log")
-t("LEVEL UP!", "NIVEAU SUPERIEUR!", "_t")
+t("LEVEL UP!", "NIVEAU SUPERIEUR !", "_t")
 t("#00ffff#Welcome to level %d.", "#00ffff#Bienvenue au niveau %d.", "log")
 
 ------------------------------------------------
@@ -47,7 +47,7 @@ t("base", "base", "birth descriptor name")
 section "mod-example/data/damage_types.lua"
 
 t("%s hits %s for %s%0.2f %s damage#LAST#.", "%s touche %s pour %s%0.2f %s dégâts#LAST#.", "logSeen")
-t("Kill!", "Tue!", "_t")
+t("Kill!", "Tue !", "_t")
 
 ------------------------------------------------
 section "mod-example/data/general/grids/basic.lua"

@@ -318,16 +318,16 @@ section "engine/engine/Birther.lua"
 
 t("Enter your character's name", "Entrer le nom de votre personnage", "_t")
 t("Name", "Nom", "_t")
-t("Character Creation: %s", "Création du personnage: %s", "tformat")
+t("Character Creation: %s", "Création du personnage : %s", "tformat")
 t([[Keyboard: #00FF00#up key/down key#FFFFFF# to select an option; #00FF00#Enter#FFFFFF# to accept; #00FF00#Backspace#FFFFFF# to go back.
 Mouse: #00FF00#Left click#FFFFFF# to accept; #00FF00#right click#FFFFFF# to go back.
-]], [[Clavier： #00FF00#touche haut/touche bas#FFFFFF# pour séléctionner une option; #00FF00#Entrée#FFFFFF# pour accepter; #00FF00#Backspace#FFFFFF# pour revenir en arrière.
-Souris： #00FF00#Clic gauche#FFFFFF# pour accepter; #00FF00#clic droit#FFFFFF# pour revenir en arrière.
+]], [[Clavier： #00FF00#touche haut/touche bas#FFFFFF# pour séléctionner une option ; #00FF00#Entrée#FFFFFF# pour accepter ; #00FF00#Backspace#FFFFFF# pour revenir en arrière.
+Souris： #00FF00#Clic gauche#FFFFFF# pour accepter ; #00FF00#clic droit#FFFFFF# pour revenir en arrière.
 ]], "_t")
 t("Random", "Au hasard", "_t")
 t("Quick Birth", "Création rapide", "_t")
-t("Do you want to recreate the same character?", "Voulez-vous recréer le même personnage?", "_t")
-t("Recreate", "Recréer?", "_t")
+t("Do you want to recreate the same character?", "Voulez-vous recréer le même personnage ?", "_t")
+t("Recreate", "Recréer ?", "_t")
 t("New character", "Nouveau personnage", "_t")
 t("Randomly selected %s.", "Choisir au hasard %s.", "log")
 -- texte non traduit
@@ -360,22 +360,22 @@ t("No", "Non", "_t")
 ------------------------------------------------
 section "engine/engine/Game.lua"
 
-t("Screenshot taken!", "Capture d'écran réalisé!", "_t")
+t("Screenshot taken!", "Capture d'écran réalisé !", "_t")
 t([[Screenshot should appear in your Steam client's #LIGHT_GREEN#Screenshots Library#LAST#.
 Also available on disk: %s]], [[La capture d'écran devrait être disponible dans votre #LIGHT_GREEN#bibliothèque de capture d'écran Steam#LAST#.
-Disponible aussi sur votre disque: %s]], "tformat")
-t("File: %s", "Fichier: %s", "tformat")
+Disponible aussi sur votre disque : %s]], "tformat")
+t("File: %s", "Fichier : %s", "tformat")
 
 ------------------------------------------------
 section "engine/engine/HotkeysDisplay.lua"
 
-t("Missing!", "Manquant!", "_t")
+t("Missing!", "Manquant !", "_t")
 
 ------------------------------------------------
 section "engine/engine/HotkeysIconsDisplay.lua"
 
-t("Unknown!", "Inconnu!", "_t")
-t("Missing!", "Manquant!", "_t")
+t("Unknown!", "Inconnu !", "_t")
+t("Missing!", "Manquant !", "_t")
 
 ------------------------------------------------
 section "engine/engine/I18N.lua"
@@ -411,7 +411,7 @@ t([[This beta version is meant to be tested without addons, as such the followin
 #GREY#]], "_t")
 t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#Les développeurs d'addons peuvent continuer à tester leurs addons en activant le mode développeur.#{normal}#", "_t")
 t([[Total playtime of all registered players:%s
-]], [[Temps de jeu total des joueurs enregistré:%s
+]], [[Temps de jeu total des joueurs enregistré :%s
 ]], "tformat")
 t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# est l'une des cinq races les plus jouées", "tformat")
 t("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "#LIGHT_BLUE#%s#WHITE# est l'une des cinq classes les plus jouées", "tformat")
@@ -420,7 +420,7 @@ t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%
 t("There are currently %d people playing online", "Il y a acctuellement %d joueurs en ligne", "tformat")
 t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "Le coffre de personnages enregistre un totale de #RED#%d#WHITE# personnages morts", "tformat")
 t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "Le coffre de personnages enregistre un totale de #LIGHT_BLUE#%d#WHITE# gagnant pour la version actuelle", "tformat")
-t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "Le dernier donateur est #LIGHT_GREEN#%s#WHITE#. Un grand merci à tous les donateurs, vous gardez le jeu en vie!", "tformat")
+t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "Le dernier donateur est #LIGHT_GREEN#%s#WHITE#. Un grand merci à tous les donateurs, vous gardez le jeu en vie !", "tformat")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#Profil en ligne désactivé (passage au profil hors ligne) car %s.", "log")
 
 ------------------------------------------------
@@ -431,7 +431,7 @@ t("#LIGHT_RED#Mouse input temporarily disabled.", "#LIGHT_RED#Entrées souris te
 ------------------------------------------------
 section "engine/engine/Object.lua"
 
-t("Requires:", "Requis:", "_t")
+t("Requires:", "Requis :", "_t")
 t("%s (level %d)", "%s (niveau %d)", "tformat")
 t("Level %d", "Niveau %d", "tformat")
 t("Talent %s (level %d)", "Talent %s (Niveau %d)", "tformat")
@@ -500,7 +500,7 @@ t("Please wait while saving...", "Veuillez patienter pendant la sauvegarde s'il 
 ------------------------------------------------
 section "engine/engine/Store.lua"
 
-t("Store: %s", "Boutique: %s", "tformat")
+t("Store: %s", "Boutique : %s", "tformat")
 t("Buy", "Acheter", "_t")
 t("Buy %d %s", "Acheter %d %s", "tformat")
 t("Cancel", "Annuler", "_t")
@@ -512,7 +512,7 @@ section "engine/engine/Trap.lua"
 
 t("%s fails to disarm a trap (%s).", "%s échoue à désarmer le piège (%s).", "logSeen")
 t("%s disarms a trap (%s).", "%s désarme le piège (%s).", "logSeen")
-t("%s triggers a trap (%s)!", "%s déclenche le piège (%s)!", "logSeen")
+t("%s triggers a trap (%s)!", "%s déclenche le piège (%s) !", "logSeen")
 -- texte non traduit
 --[==[
 t("%s", "%s", "logSeen")
@@ -535,10 +535,10 @@ Again, thank you, and enjoy Eyal!
 Le montant total de vos dons s'élève actuellement à #LIGHT_GREEN#%0.2f euros#WHITE# ce qui est équivaut à #ROYAL_BLUE#%d pieces de voratun#WHITE# à utiliser sur te4.org.
 Votre coffre d'objets a #TEAL#%d emplacements#WHITE#.
 
-Encore une fois, merci, et profitez bien de Eyal!
+Encore une fois, merci, et profitez bien de Eyal !
 
 #{italic}#Votre dieu des ténèbres malveillant, #GOLD#DarkGod#{normal}#]], "tformat")
-t("Thank you!", "Merci!", "_t")
+t("Thank you!", "Merci !", "_t")
 t("#{italic}#Joined channel#{normal}#", "#{italic}#Canal rejoint#{normal}#", "_t")
 t("#{italic}#Left channel#{normal}#", "#{italic}#Canal quitté#{normal}#", "_t")
 t("#{italic}##FIREBRICK#has joined the channel#{normal}#", "#{italic}##FIREBRICK#a rejoint le canal#{normal}#", "_t")
@@ -560,17 +560,17 @@ t("Please wait while generating the level... ", "Patientez pendant la générati
 ------------------------------------------------
 section "engine/engine/ai/talented.lua"
 
-t("#ORCHID#__[%d]%s improved talented AI picked talent[att:%d, turn %s]: %s", "#ORCHID#__[%d]%s IA de talent amélioré a choisi un talent[att:%d, tour %s]: %s", "log")
-t("__[%d]%s#ORANGE# ACTION FAILED:  %s, %s", "__[%d]%s#ORANGE# ACTION RATÉE:  %s, %s", "log")
-t("#SLATE#__%s[%d] improved talented AI No talents available [att:%d, turn %s]", "#SLATE#__%s[%d] IA de talent amélioré Pas de talents disponibles [att:%d, tour %s]", "log")
+t("#ORCHID#__[%d]%s improved talented AI picked talent[att:%d, turn %s]: %s", "#ORCHID#__[%d]%s IA de talent amélioré a choisi un talent[att : %d, tour %s] : %s", "log")
+t("__[%d]%s#ORANGE# ACTION FAILED:  %s, %s", "__[%d]%s#ORANGE# ACTION RATÉE :  %s, %s", "log")
+t("#SLATE#__%s[%d] improved talented AI No talents available [att:%d, turn %s]", "#SLATE#__%s[%d] IA de talent amélioré Pas de talents disponibles [att : %d, tour %s]", "log")
 
 ------------------------------------------------
 section "engine/engine/dialogs/AudioOptions.lua"
 
 t("Audio Options", "Options audio", "_t")
 t("Enable audio", "Activer l'audio", "_t")
-t("Music: ", "Son: ", "_t")
-t("Effects: ", "Effets: ", "_t")
+t("Music: ", "Son : ", "_t")
+t("Effects: ", "Effets : ", "_t")
 
 ------------------------------------------------
 section "engine/engine/dialogs/ChatChannels.lua"
@@ -601,7 +601,7 @@ section "engine/engine/dialogs/ChatIgnores.lua"
 
 t("Chat ignore list", "Liste des utilisateurs ignorés", "_t")
 t("Stop ignoring", "Vous avez cessé de l'ignorer", "_t")
-t("Really stop ignoring: %s", "Voulez vous vraiment cesser d'ignorer %s?", "tformat")
+t("Really stop ignoring: %s", "Voulez vous vraiment cesser d'ignorer %s ?", "tformat")
 t("Click a user to stop ignoring her/his messages.", "Cliquez sur un utilisateur pour cesser d'ignorer ses messages.", "_t")
 
 ------------------------------------------------
@@ -612,10 +612,10 @@ t("Fullscreen", "Plein écran", "_t")
 t("Borderless", "Sans bordure", "_t")
 t("Windowed", "Fenêtré", "_t")
 t("Engine Restart Required", "Redémarrage du jeu requis", "_t")
-t("Continue? %s", "Continuer? %s", "tformat")
+t("Continue? %s", "Continuer ? %s", "tformat")
 t(" (progress will be saved)", " (La progression sera sauvegardée)", "_t")
-t("Reset Window Position?", "Réinitialiser la position de la fenêtre?", "_t")
-t("Simply restart or restart+reset window position?", "Seulement redémarrer, ou redémarrer et réinitialiser la position de la fenêtre?", "_t")
+t("Reset Window Position?", "Réinitialiser la position de la fenêtre ?", "_t")
+t("Simply restart or restart+reset window position?", "Seulement redémarrer, ou redémarrer et réinitialiser la position de la fenêtre ?", "_t")
 t("Restart", "Redémarrage", "_t")
 t("Restart with reset", "Redémarrage avec réinitialisation", "_t")
 t("Yes", "Oui", "_t")
@@ -624,7 +624,7 @@ t("No", "Non", "_t")
 ------------------------------------------------
 section "engine/engine/dialogs/Downloader.lua"
 
-t("Download: %s", "Téléchargement: %s", "tformat")
+t("Download: %s", "Téléchargement : %s", "tformat")
 t("Cancel", "Annuler", "_t")
 
 ------------------------------------------------
@@ -640,7 +640,7 @@ t("Show Achievements", "Afficher les succès", "_t")
 t("Audio Options", "Options audio", "_t")
 t("#GREY#Developer Mode", "#GREY#Mode développeur", "_t")
 t("Developer Mode", "Mode développeur", "_t")
-t("Disable developer mode?", "Désactiver le mode développeur?", "_t")
+t("Disable developer mode?", "Désactiver le mode développeur ?", "_t")
 t([[Enable developer mode?
 Developer Mode is a special game mode used to debug and create addons.
 Using it will #CRIMSON#invalidate#LAST# any savefiles loaded.
@@ -648,12 +648,12 @@ When activated you will have access to special commands:
 - CTRL+L: bring up a lua console that lets you explore and alter all the game objects, enter arbitrary lua commands, ...
 - CTRL+A: bring up a menu to easily do many tasks (create NPCs, teleport to zones, ...)
 - CTRL+left click: teleport to the clicked location
-]], [[Activer le mode développeur?
+]], [[Activer le mode développeur ?
 Le mode développeur est un mode de jeu spécial utilisé pour déboguer et créer des addons.
 Son utilisation #CRIMSON#invalidera#LAST# tout fichier de sauvegarde chargé.
-Lorsqu'il est activé, vous aurez accès à des commandes spéciales:
-- CTRL+L: fait apparaître une console Lua qui vous permet d'explorer et de modifier tous les objets du jeu, d'entrer des commandes Lua arbitraires,...
-- CTRL+Q: affiche un menu permettant de réaliser facilement de nombreuses tâches (créer des PNJs, se téléporter dans des zones,...)
+Lorsqu'il est activé, vous aurez accès à des commandes spéciales :
+- CTRL+L : fait apparaître une console Lua qui vous permet d'explorer et de modifier tous les objets du jeu, d'entrer des commandes Lua arbitraires,...
+- CTRL+Q : affiche un menu permettant de réaliser facilement de nombreuses tâches (créer des PNJs, se téléporter dans des zones,...)
 - CTRL+clic gauche : se téléporter à l'endroit cliqué.
 ]], "_t")
 t("No", "Non", "_t")
@@ -697,10 +697,10 @@ t("", "", "_t")
 section "engine/engine/dialogs/KeyBinder.lua"
 
 t("Key bindings", "Affectation des touches", "_t")
-t("      Press a key (escape to cancel, backspace to remove) for: %s", "      Appuyer sur une touche (escape pour annuler, backspace pour supprimer) pour: %s", "tformat")
+t("      Press a key (escape to cancel, backspace to remove) for: %s", "      Appuyer sur une touche (escape pour annuler, backspace pour supprimer) pour : %s", "tformat")
 t("Bind key", "Affecter une touche", "_t")
 t("Bind alternate key", "Affecter une touche alternative", "_t")
-t("Make gesture (using right mouse button) or type it (or escape) for: %s", "Faire un geste (en utilisant le bouton droit de la souris) ou tapez-le (ou appuyer sur escape) pour: %s", "tformat")
+t("Make gesture (using right mouse button) or type it (or escape) for: %s", "Faire un geste (en utilisant le bouton droit de la souris) ou tapez-le (ou appuyer sur escape) pour : %s", "tformat")
 t("Gesture", "Geste", "_t")
 
 ------------------------------------------------
@@ -725,11 +725,11 @@ t([[#GOLD#Also achieved by your current character#LAST#
 t([[#GOLD#Achieved on:#LAST# %s
 #GOLD#Achieved by:#LAST# %s
 %s
-#GOLD#Description:#LAST# %s]], [[#GOLD#Réalisé le:#LAST# %s
-#GOLD#Réalisé par:#LAST# %s
+#GOLD#Description:#LAST# %s]], [[#GOLD#Réalisé le :#LAST# %s
+#GOLD#Réalisé par :#LAST# %s
 %s
-#GOLD#Description:#LAST# %s]], "tformat")
-t("Progress: ", "Progression: ", "_t")
+#GOLD#Description :#LAST# %s]], "tformat")
+t("Progress: ", "Progression : ", "_t")
 t("-- Unknown --", "-- Inconnu --", "_t")
 -- texte non traduit
 --[==[
@@ -777,16 +777,16 @@ t([[#{bold}#Oh my! It seems there was an error!
 The game might still work but this is suspect, please type in your current situation and click on "Send" to send an error report to the game creator.
 If you are not currently connected to the internet, please report this bug when you can on the forums at http://forums.te4.org/
 
-]], [[#{bold}#Oh là là! Il semble qu'il y ait eu une erreur!
+]], [[#{bold}#Oh là là ! Il semble qu'il y ait eu une erreur !
 Le jeu peut encore fonctionner mais cela est suspect, veuillez saisir votre situation actuelle et cliquer sur "Envoyer" pour envoyer un rapport d'erreur au créateur du jeu.
 Si vous n'êtes pas actuellement connecté à Internet, veuillez signaler ce bug lorsque vous le pourrez sur les forums à l'adresse http://forums.te4.org/
 
 ]], "_t")
-t("What happened?: ", "Que s'est il passé?:", "_t")
+t("What happened?: ", "Que s'est il passé ? :", "_t")
 t("Send", "Envoyer", "_t")
 t("Close", "Fermer", "_t")
 t("Close All", "Tout fermer", "_t")
-t("Log saved to file (click to copy to clipboard):#LIGHT_BLUE#%s", "Log enregistré dans un fichier (cliquer pour copier dans le presse-papiers):#LIGHT_BLUE#%s", "tformat")
+t("Log saved to file (click to copy to clipboard):#LIGHT_BLUE#%s", "Log enregistré dans un fichier (cliquer pour copier dans le presse-papiers) :#LIGHT_BLUE#%s", "tformat")
 t("File location copied to clipboard.", "Emplacement du fichier copié dans le presse-papiers.", "log")
 t("#YELLOW#Error report sent, thank you.", "#YELLOW#Rapport d'erreur envoyé, merci.", "log")
 -- texte non traduit
@@ -863,7 +863,7 @@ This will remove all saves from the cloud cloud (but not your local copy). Only 
 Cela supprimera toutes les sauvegardes de Steam (mais pas votre copie locale). À n'utiliser que si vous rencontrez d'une manière ou d'une autre des problèmes de stockage sur celui-ci (ce qui ne devrait pas arriver, le jeu le gère automatiquement pour vous).#WHITE#]], "_t")
 t("#GOLD##{bold}#Purge Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#Purger les sauvergardes du cloud Steam#WHITE##{normal}#", "_t")
 t("Steam Cloud Purge", "Purge du cloud Steam", "_t")
-t("Confirm purge?", "Confirmer la purge?", "_t")
+t("Confirm purge?", "Confirmer la purge ?", "_t")
 t("All data purged from the cloud.", "Toutes les données ont été supprimées du cloud.", "_t")
 -- texte non traduit
 --[==[
@@ -874,13 +874,13 @@ t("", "", "_t")
 ------------------------------------------------
 section "engine/engine/dialogs/Talkbox.lua"
 
-t("Say: ", "Dire: ", "_t")
+t("Say: ", "Dire : ", "_t")
 t("Accept", "Accepter", "_t")
 t("Cancel", "Annuler", "_t")
-t("Target: ", "Cible: ", "_t")
-t("Channel: %s", "Canal: %s", "tformat")
-t("Friend: %s", "Ami: %s", "tformat")
-t("User: %s", "Utilisateur: %s", "tformat")
+t("Target: ", "Cible : ", "_t")
+t("Channel: %s", "Canal : %s", "tformat")
+t("Friend: %s", "Ami : %s", "tformat")
+t("User: %s", "Utilisateur : %s", "tformat")
 -- texte non traduit
 --[==[
 t("", "", "_t")
@@ -890,7 +890,7 @@ t("", "", "_t")
 ------------------------------------------------
 section "engine/engine/dialogs/UseTalents.lua"
 
-t("Use Talents: ", "Utiliser des talents: ", "tformat")
+t("Use Talents: ", "Utiliser des talents : ", "tformat")
 t([[You can bind a talent to a hotkey be pressing the corresponding hotkey while selecting a talent.
 Check out the keybinding screen in the game menu to bind hotkeys to a key (default is 1-0 plus control or shift).
 ]], [[Vous pouvez lier un talent à un raccourci en appuyant sur la touche correspondante tout en sélectionnant un talent.
@@ -909,10 +909,10 @@ t("Talent", "Talent", "_t")
 ------------------------------------------------
 section "engine/engine/dialogs/UserInfo.lua"
 
-t("User: %s", "Utilisateur: %s", "tformat")
-t("Currently playing: ", "Joue actuellement: ", "_t")
+t("User: %s", "Utilisateur : %s", "tformat")
+t("Currently playing: ", "Joue actuellement : ", "_t")
 t("unknown", "inconnu", "_t")
-t("Game: ", "Jeu: ", "_t")
+t("Game: ", "Jeu : ", "_t")
 t("Game has been validated by the server", "La partie a été validée par le serveur", "_t")
 t("Game is not validated by the server", "La partie n'est pas validée par le serveur", "_t")
 t("Go to online profile", "Aller sur le profil en ligne", "_t")
@@ -1041,7 +1041,7 @@ t("Enter the x-coordinate", "Entrer la coordonnée X", "_t")
 t("Window Origin: Y-Coordinate", "Origine Y de la fenêtre", "_t")
 t("Enter the y-coordinate", "Entrer la coordonnée Y", "_t")
 t("Position changed.", "Position modifiée", "_t")
-t("Save position?", "Sauvegarde de la position?", "_t")
+t("Save position?", "Sauvegarde de la position ?", "_t")
 t("Accept", "Accepter", "_t")
 t("Revert", "Revenir en arrière", "_t")
 -- texte non traduit
@@ -1075,34 +1075,34 @@ As for what kind of purchases are/will be available:
 - #GOLD#Community events#LAST#: A few online events are automatically and randomly triggered by the server. With those options you can force one of them to trigger; bonus point they trigger for the whole server so everybody online benefits from them each time!
 
 I hope I've convinced you of my non-evil intentions (ironic for a DarkGod I know ;)). I must say feel dirty doing microtransactions even as benign as those but I want to find all the ways I can to ensure the game's future.
-Thanks, and have fun!]], [[Bienvenue!
+Thanks, and have fun!]], [[Bienvenue !
 
 Je suis #{italic}##ANTIQUE_WHITE#DarkGod#LAST##{normal}#, le créateur du jeu et avant que vous ne continuiez votre joyeux chemin, je souhaite prendre quelques secondes de votre temps pour vous expliquer pourquoi il y a des microtransactions dans le jeu.
 
-Avant que vous ne vous enfuyez de terreur, laissez-moi vous expliquer clairement: Je suis très #{bold}#fermement #CRIMSON#contre#LAST# le pay2win#{normal}# alors soyez assuré que je n'ajouterai pas ce genre de choses.
+Avant que vous ne vous enfuyez de terreur, laissez-moi vous expliquer clairement : Je suis très #{bold}#fermement #CRIMSON#contre#LAST# le pay2win#{normal}# alors soyez assuré que je n'ajouterai pas ce genre de choses.
 
-Alors pourquoi intégrer des microtransactions? Tales of Maj'Eyal est un jeu bon marché/gratuit et ne nécessite pas d'abonnement pour y jouer. C'est mon bébé et je l'adore; je compte y travailler pendant encore de nombreuses années (comme je le fais depuis 2009!) mais pour qu'il soit viable, je dois m'assurer un flux de revenus régulier car c'est malheureusement l'état du monde dans lequel nous vivons.
+Alors pourquoi intégrer des microtransactions ? Tales of Maj'Eyal est un jeu bon marché/gratuit et ne nécessite pas d'abonnement pour y jouer. C'est mon bébé et je l'adore ; je compte y travailler pendant encore de nombreuses années (comme je le fais depuis 2009 !) mais pour qu'il soit viable, je dois m'assurer un flux de revenus régulier car c'est malheureusement l'état du monde dans lequel nous vivons.
 
-Quant à savoir quels types d'achats sont/seront disponibles:
-- #GOLD#Cosmetiques#LAST#: en plus des produits cosmétiques et chatoyants existants dans le jeu, vous pouvez obtenir de nouveaux packs d'articles et de peaux purement cosmétiques pour avoir l'air encore plus élégant!
-- #GOLD#Pay2DIE#LAST#: Vous en avez assez de votre personnage? Finissez-en avec style!
-- #GOLD#Espace de stockage du coffre-fort#LAST#: Pour ceux qui ont fait des dons, ils peuvent transformer tous ces dons "inutiles" en encore plus de places de stockage dans leur coffre-fort en ligne.
-- #GOLD#Evènements communautaires#LAST#: Quelques évènements en ligne sont automatiquement et aléatoirement déclenchés par le serveur. Avec ces options, vous pouvez forcer l'un d'entre eux à se déclencher; points bonus, ils se déclenchent pour l'ensemble du serveur afin que tous les joueurs en ligne en profitent à chaque fois!
+Quant à savoir quels types d'achats sont/seront disponibles :
+- #GOLD#Cosmetiques#LAST# : en plus des produits cosmétiques et chatoyants existants dans le jeu, vous pouvez obtenir de nouveaux packs d'articles et de peaux purement cosmétiques pour avoir l'air encore plus élégant !
+- #GOLD#Pay2DIE#LAST# : Vous en avez assez de votre personnage ? Finissez-en avec style !
+- #GOLD#Espace de stockage du coffre-fort#LAST# : Pour ceux qui ont fait des dons, ils peuvent transformer tous ces dons "inutiles" en encore plus de places de stockage dans leur coffre-fort en ligne.
+- #GOLD#Evènements communautaires#LAST# : Quelques évènements en ligne sont automatiquement et aléatoirement déclenchés par le serveur. Avec ces options, vous pouvez forcer l'un d'entre eux à se déclencher ; points bonus, ils se déclenchent pour l'ensemble du serveur afin que tous les joueurs en ligne en profitent à chaque fois !
 
 J'espère vous avoir convaincu de mes intentions non diaboliques (ironie pour un dieu des ténèbres que je suis ;)). Je dois dire que je me sens sale de faire des microtransactions même aussi bénignes que celles-ci mais je veux trouver tous les moyens possibles pour assurer l'avenir du jeu.
-Merci, et amusez-vous bien!]], "_t")
+Merci, et amusez-vous bien !]], "_t")
 
 ------------------------------------------------
 section "engine/engine/dialogs/microtxn/ShowPurchasable.lua"
 
-t("#{italic}##UMBER#Bonus vault slots from this order: #ROYAL_BLUE#%d#{normal}#", "#{italic}##UMBER#Emplacements de stockage du coffre-fort en bonus pour cette commande: #ROYAL_BLUE#%d#{normal}#", "_t")
+t("#{italic}##UMBER#Bonus vault slots from this order: #ROYAL_BLUE#%d#{normal}#", "#{italic}##UMBER#Emplacements de stockage du coffre-fort en bonus pour cette commande : #ROYAL_BLUE#%d#{normal}#", "_t")
 t([[For every purchase of #{italic}##GREY#%s#LAST##{normal}# you gain a permanent additional vault slot.
 #GOLD##{italic}#Because why not!#{normal}#]], [[Pour chaque achat de #{italic}##GREY#%s#LAST##{normal}# vous gagnez une place de stockage additionelle dans votre coffre-fort.
-#GOLD##{italic}#Parce que pourquoi pas!#{normal}#]], "_t")
-t("#{italic}##UMBER#Voratun Coins available from your donations: #ROYAL_BLUE#%d#{normal}#", "#{italic}##UMBER#Pièces de voratun disponible grâce a vos donations: #ROYAL_BLUE#%d#{normal}#", "_t")
+#GOLD##{italic}#Parce que pourquoi pas !#{normal}#]], "_t")
+t("#{italic}##UMBER#Voratun Coins available from your donations: #ROYAL_BLUE#%d#{normal}#", "#{italic}##UMBER#Pièces de voratun disponible grâce a vos donations : #ROYAL_BLUE#%d#{normal}#", "_t")
 t([[For every donations you've ever made you have earned voratun coins. These can be spent purchasing expansions or options on the online store. This is the amount you have left, if your purchase total is below this number you'll instantly get your purchase validated, if not you'll need to donate some more first.
 #GOLD##{italic}#Thanks for your support, every little bit helps the game survive for years on!#{normal}#]], [[Pour chaque don que vous avez fait, vous avez gagné des pièces de voratun. Vous pouvez les dépenser en achetant des extensions ou des options sur la boutique en ligne. C'est le montant qu'il vous reste. Si le total de vos achats est inférieur à ce chiffre, votre achat sera instantanément validé, sinon vous devrez d'abord faire un don supplémentaire.
-#GOLD##{italic}#Merci pour votre soutien, chaque don aide le jeu à survivre pour les années à venir!#{normal}#]], "_t")
+#GOLD##{italic}#Merci pour votre soutien, chaque don aide le jeu à survivre pour les années à venir !#{normal}#]], "_t")
 t("%s #GOLD#Online Store#LAST#", "%s #GOLD#Boutique en ligne#LAST#", "tformat")
 t("#YELLOW#-- connecting to server... --", "#YELLOW#-- connexion au serveur... --", "_t")
 t("Purchase", "Acheter", "_t")
@@ -1112,10 +1112,10 @@ t("Qty", "Qté", "_t")
 t("Online Store", "Boutique en ligne", "_t")
 t("You need to be logged in before using the store. Please go back to the main menu and login.", "Vous devez être connecté avant d'utiliser le magasin. S'il vous plaît, revenez au menu principal et connectez vous.", "_t")
 t("Steam users need to link their profiles to their steam account. This is very easy in just a few clicks. Once this is done, simply restart the game.", "Les utilisateurs de Steam doivent relier leur profil à leur compte Steam. C'est très simple, juste quelques clics. Une fois que cela est fait, il suffit de relancer le jeu.", "_t")
-t("Let's do it! (Opens in your browser)", "Allons y! (S'ouvre dans votre navigateur internet)", "_t")
+t("Let's do it! (Opens in your browser)", "Allons y ! (S'ouvre dans votre navigateur internet)", "_t")
 t("Not now", "Pas maintenant", "_t")
 t("The Online Store (and expansions) are only purchasable by players that bought the game. Plaese go have a look at the donation page for more explanations.", "La boutique en ligne (et les extensions) sont seulement achetables par les joueurs qui ont acheté le jeu. Allez voir la page des donations pour plus d'explications s'il vous plait.", "_t")
-t("Let's go! (Opens in your browser)", "Allons y! (S'ouvre dans votre navigateur internet)", "_t")
+t("Let's go! (Opens in your browser)", "Allons y ! (S'ouvre dans votre navigateur internet)", "_t")
 t("%d coins", "%d pièces", "tformat")
 t("  (%d items in cart, %s)", "  (%d objets dans le panier, %s)", "tformat")
 t("Cart", "Panier", "_t")
@@ -1123,14 +1123,14 @@ t("Cart is empty!", "Votre panier est vide", "_t")
 t([[In-game browser is inoperant or disabled, impossible to auto-install shimmer pack.
 Please go to https://te4.org/ to download it manually.]], [[Le navigateur en jeu est inopérant ou désactivé, impossible d'auto-installer le pack chatoyant.
 Allez sur https://te4.org pour le télécharger manuellement s'il vous plait.]], "_t")
-t("Shimmer pack installed!", "Pack chatoyant installé!", "_t")
+t("Shimmer pack installed!", "Pack chatoyant installé !", "_t")
 t([[Could not dynamically link addon to current character, maybe the installation weng wrong.
 You can fix that by manually downloading the addon from https://te4.org/ and placing it in game/addons/ folder.]], [[Impossible de lier dynamiquement l'addon au personnage actuel, peut-être que l'installation s'est mal déroulée.
 Vous pouvez remédier à cela en téléchargeant manuellement l'addon à partir de https://te4.org/ et en le plaçant dans le dossier game/addons/.]], "_t")
-t("Downloading cosmetic pack: #LIGHT_GREEN#%s", "Téléchargement du pack cosmetique: #LIGHT_GREEN#%s", "tformat")
-t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: The pack should be downloading or even finished by now.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: Le pack devrait être en téléchargement ou même déjà fini maintenant.", "tformat")
-t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: You can now trigger it whenever you are ready.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: Vous pouvez maintenant l'activer dès que vous êtes prêt.", "tformat")
-t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: Your available vault space has increased.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: L'espace de stockage de votre coffre-fort a augmenté.", "tformat")
+t("Downloading cosmetic pack: #LIGHT_GREEN#%s", "Téléchargement du pack cosmetique : #LIGHT_GREEN#%s", "tformat")
+t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: The pack should be downloading or even finished by now.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}# : Le pack devrait être en téléchargement ou même déjà fini maintenant.", "tformat")
+t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: You can now trigger it whenever you are ready.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}# : Vous pouvez maintenant l'activer dès que vous êtes prêt.", "tformat")
+t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: Your available vault space has increased.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}# : L'espace de stockage de votre coffre-fort a augmenté.", "tformat")
 t("Payment", "Paiement", "_t")
 t([[Payment accepted.
 %s]], [[Paiement accepté.
@@ -1141,24 +1141,24 @@ t("Finalizing transaction with Steam servers...", "Finalisation de la transactio
 t("Payment refused, you have not been billed.", "Paiement refusé, vous n'avez pas été facturé.", "_t")
 t("Connecting to server", "Connexion au serveur", "_t")
 t("Please wait...", "Patientez s'il vous plait...", "_t")
-t("You have enough coins to instantly purchase those options. Confirm?", "Vous avez suffisamment de pièces pour acheter instantanément ces options. Confirmer?", "_t")
+t("You have enough coins to instantly purchase those options. Confirm?", "Vous avez suffisamment de pièces pour acheter instantanément ces options. Confirmer ?", "_t")
 t("Cancel", "Annuler", "_t")
-t("You need %s more coins to purchase those options. Do you want to go to the donation page now?", "Vous avez besoin de %s pièces supplémentaires pour acheter ces options. Voulez vous aller sur la page de donations maintenant?", "tformat")
+t("You need %s more coins to purchase those options. Do you want to go to the donation page now?", "Vous avez besoin de %s pièces supplémentaires pour acheter ces options. Voulez vous aller sur la page de donations maintenant ?", "tformat")
 t([[#{bold}##GOLD#Community Online Event#WHITE##{normal}#: Once you have purchased a community event you will be able to trigger it at any later date, on whichever character you choose.
 Community events once triggered will activate for #{bold}#every player currently logged on#{normal}# including yourself. Every player receiving it will know you sent it and thus that you are to thank for it.
-To activate it you will need to have your online events option set to "all" (which is the default value).]], [[#{bold}##GOLD#Événement communautaire en ligne#WHITE##{normal}#: Une fois que vous avez acheté un événement communautaire, vous pouvez l'appliquer quand vous le souhaitez, sur le personnage que vous voulez.
+To activate it you will need to have your online events option set to "all" (which is the default value).]], [[#{bold}##GOLD#Événement communautaire en ligne#WHITE##{normal}# : Une fois que vous avez acheté un événement communautaire, vous pouvez l'appliquer quand vous le souhaitez, sur le personnage que vous voulez.
 Une fois un événement communautaire activé il le sera #{bold}#pour chaque joueur actuellement connecté#{normal}# vous inclus. Chaque joueur saura que vous l'avez activé et pourra vous remercier pour cela.
 Pour l'activer vous devrez avoir l'option des événements en ligne paramétré sur "tous" (ce qui est la valeur par défaut).]], "_t")
 t([[#{bold}##GOLD#Event#WHITE##{normal}#: Once you have purchased an event you will be able to trigger it at any later date, on whichever character you choose.
-To activate it you will need to have your online events option set to "all" (which is the default value).]], [[#{bold}##GOLD#Événement#WHITE##{normal}#: Une fois que vous avez acheté un événement, vous pouvez l'appliquer quand vous le souhaitez, sur le personnage que vous voulez.
+To activate it you will need to have your online events option set to "all" (which is the default value).]], [[#{bold}##GOLD#Événement#WHITE##{normal}# : Une fois que vous avez acheté un événement, vous pouvez l'appliquer quand vous le souhaitez, sur le personnage que vous voulez.
 Pour l'activer vous devrez avoir l'option des événements en ligne paramétré sur "tous" (ce qui est la valeur par défaut).]], "_t")
-t("#{bold}##GOLD#Non Immediate#WHITE##{normal}#: This events adds new content that you have to find by exploration. If you die before finding it, there can be no refunds.", "#{bold}##GOLD#Non Immédiat#WHITE##{normal}#: Cet événement ajoute du contenu que l'on doit trouver en explorant. Si vous mourrez avant de le trouver, il n'y aura pas de remboursement.", "_t")
-t("#{bold}##GOLD#Once per Character#WHITE##{normal}#: This event can only be received #{bold}#once per character#{normal}#. Usualy because it adds a new zone or effect to the game that would not make sense to duplicate.", "#{bold}##GOLD#Une fois par personnage#WHITE##{normal}#: Cet événement peut seulement être reçu #{bold}#une fois par personnage#{normal}#. Tout simplement car il ajoute une nouvelle zone au jeu et que cela n'aurait aucun sens de le dupliquer.", "_t")
+t("#{bold}##GOLD#Non Immediate#WHITE##{normal}#: This events adds new content that you have to find by exploration. If you die before finding it, there can be no refunds.", "#{bold}##GOLD#Non Immédiat#WHITE##{normal}# : Cet événement ajoute du contenu que l'on doit trouver en explorant. Si vous mourrez avant de le trouver, il n'y aura pas de remboursement.", "_t")
+t("#{bold}##GOLD#Once per Character#WHITE##{normal}#: This event can only be received #{bold}#once per character#{normal}#. Usualy because it adds a new zone or effect to the game that would not make sense to duplicate.", "#{bold}##GOLD#Une fois par personnage#WHITE##{normal}# : Cet événement peut seulement être reçu #{bold}#une fois par personnage#{normal}#. Tout simplement car il ajoute une nouvelle zone au jeu et que cela n'aurait aucun sens de le dupliquer.", "_t")
 t([[#{bold}##GOLD#Shimmer Pack#WHITE##{normal}#: Once purchased the game will automatically install the shimmer pack to your game and enable it for your current character too (you will still need to use the Mirror of Reflection to switch them on).
-#LIGHT_GREEN#Bonus perk:#LAST# purchasing any shimmer pack will also give your characters a portable Mirror of Reflection to be able to change your appearance anywhere, anytime!]], [[#{bold}##GOLD#Pack Chatoyant#WHITE##{normal}#: Une fois acheté le jeu installera automatiquement le pack chatoyant à votre jeu et l'activera pour tous vos personnages y compris l'actuel (vous aurez cependant toujours besoin d'utiliser le Miroir Réfléchissant pour l'utiliser).
-#LIGHT_GREEN#Cadeau bonus:#LAST# acheter un pack chatoyant donnera aussi a vos personnages un Miroir Réfléchissant portable et vous permettra de changer votre apparence n'importe où, n'importe quand!]], "_t")
-t("#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "#{bold}##GOLD#Pack IU#WHITE##{normal}#: Une fois acheté le jeu installera automatiquement le pack IU (Interface Utilisateur) à votre jeu.", "_t")
-t("#{bold}##GOLD#Vault Space#WHITE##{normal}#: Once purchased your vault space is permanently increased.", "#{bold}##GOLD#Espace de stockage du coffre-fort#WHITE##{normal}#: Une fois acheté, l'espace de stockage de votre coffre-fort augmente de façon permanente.", "_t")
+#LIGHT_GREEN#Bonus perk:#LAST# purchasing any shimmer pack will also give your characters a portable Mirror of Reflection to be able to change your appearance anywhere, anytime!]], [[#{bold}##GOLD#Pack Chatoyant#WHITE##{normal}# : Une fois acheté le jeu installera automatiquement le pack chatoyant à votre jeu et l'activera pour tous vos personnages y compris l'actuel (vous aurez cependant toujours besoin d'utiliser le Miroir Réfléchissant pour l'utiliser).
+#LIGHT_GREEN#Cadeau bonus :#LAST# acheter un pack chatoyant donnera aussi a vos personnages un Miroir Réfléchissant portable et vous permettra de changer votre apparence n'importe où, n'importe quand !]], "_t")
+t("#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "#{bold}##GOLD#Pack IU#WHITE##{normal}# : Une fois acheté le jeu installera automatiquement le pack IU (Interface Utilisateur) à votre jeu.", "_t")
+t("#{bold}##GOLD#Vault Space#WHITE##{normal}#: Once purchased your vault space is permanently increased.", "#{bold}##GOLD#Espace de stockage du coffre-fort#WHITE##{normal}# : Une fois acheté, l'espace de stockage de votre coffre-fort augmente de façon permanente.", "_t")
 -- texte non traduit
 --[==[
 t("%0.2f %s", "%0.2f %s", "tformat")
@@ -1186,10 +1186,10 @@ t("This pack is already installed and in use for your character.", "Ce pack est 
 t("You are about to use a charge of this option. You currently have %d charges remaining.", "Vous êtes sur le point d'utiliser une charge de cette option. Vous avez actuellement %d charges restantes.", "tformat")
 t("Please wait while contacting the server...", "S'il vous plaît, patientez pendant que nous contactons le serveur...", "_t")
 t("The option has been activated.", "Cette option a été activée", "_t")
-t("There was an error from the server: %s", "Il y a eu une erreur du serveur: %s", "tformat")
+t("There was an error from the server: %s", "Il y a eu une erreur du serveur : %s", "tformat")
 t("Online Store", "Boutique en ligne", "_t")
 t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#Installé", "_t")
-t("You have not purchased any usable options yet. Would you like to see the store?", "Vous n'avez actuellement acheté aucune option utilisable. Voulez-vous voir la boutique?", "_t")
+t("You have not purchased any usable options yet. Would you like to see the store?", "Vous n'avez actuellement acheté aucune option utilisable. Voulez-vous voir la boutique ?", "_t")
 -- texte non traduit
 --[==[
 t("#YELLOW#Installable", "#YELLOW#Installable", "_t")
@@ -1199,11 +1199,11 @@ t("#YELLOW#Installable", "#YELLOW#Installable", "_t")
 ------------------------------------------------
 section "engine/engine/interface/ActorInventory.lua"
 
-t("%s picks up (%s.): %s%s.", "%s ramasse (%s.): %s%s.", "logSeen")
-t("%s has no room for: %s.", "%s n'a pas de place pour: %s.", "logSeen")
+t("%s picks up (%s.): %s%s.", "%s ramasse (%s.) : %s%s.", "logSeen")
+t("%s has no room for: %s.", "%s n'a pas de place pour : %s.", "logSeen")
 t("There is nothing to pick up here.", "Il n'y a rien à ramasser ici.", "logSeen")
 t("There is nothing to drop.", "Il n'y a rien à jeter.", "logSeen")
-t("%s drops on the floor: %s.", "%s jette: %s au sol.", "logSeen")
+t("%s drops on the floor: %s.", "%s jette : %s au sol.", "logSeen")
 t("wrong equipment slot", "mauvais emplacement pour cet équipement", "_t")
 t("not enough stat", "stat insuffisantes", "_t")
 t("missing %s (level %s )", "manque %s (niveau %s )", "tformat")
@@ -1213,16 +1213,16 @@ t("missing dependency", "dépendance manquante", "_t")
 t("cannot use currently due to an other worn object", "ne peut pas être utilisé maintenant à cause d'un autre objet", "_t")
 t("%s is not wearable.", "%s ne peut être porté.", "logSeen")
 t("%s can not wear %s.", "%s ne peut pas porter %s.", "logSeen")
-t("%s can not wear (%s): %s (%s).", "%s ne peut pas porter (%s): %s (%s).", "logSeen")
-t("%s wears: %s.", "%s porte: %s.", "logSeen")
-t("%s wears (offslot): %s.", "%s porte (offslot): %s.", "logSeen")
-t("%s wears (replacing %s): %s.", "%s porte (remplace %s): %s.", "logSeen")
-t("%s can not wear: %s.", "%s ne peut pas porter: %s.", "logSeen")
+t("%s can not wear (%s): %s (%s).", "%s ne peut pas porter (%s) : %s (%s).", "logSeen")
+t("%s wears: %s.", "%s porte : %s.", "logSeen")
+t("%s wears (offslot): %s.", "%s porte (offslot) : %s.", "logSeen")
+t("%s wears (replacing %s): %s.", "%s porte (remplace %s) : %s.", "logSeen")
+t("%s can not wear: %s.", "%s ne peut pas porter : %s.", "logSeen")
 
 ------------------------------------------------
 section "engine/engine/interface/ActorLife.lua"
 
-t("#{bold}#%s killed %s!#{normal}#", "#{bold}#%s a tué %s!#{normal}#", "logSeen")
+t("#{bold}#%s killed %s!#{normal}#", "#{bold}#%s a tué %s !#{normal}#", "logSeen")
 t("something", "quelque chose", "_t")
 t("%s attacks %s.", "%s attaque %s.", "logSeen")
 
@@ -1231,21 +1231,21 @@ section "engine/engine/interface/ActorTalents.lua"
 
 t("%s is still on cooldown for %d turns.", "%s est encore en rechargement pour %d tours.", "logPlayer")
 t("Talent Use Confirmation", "Confirmation d'utilisation d'un Talent", "_t")
-t("Use %s?", "Utiliser %s?", "tformat")
+t("Use %s?", "Utiliser %s ?", "tformat")
 t("Cancel", "Annuler", "_t")
 t("Continue", "Continuer", "_t")
 t("unknown", "inconnu", "entity name")
 t("deactivates", "désactive", "_t")
 t("activates", "activé", "_t")
 t("%s uses %s.", "%s utilise %s.", "logSeen")
-t("not enough stat: %s", "pas assez de stat: %s", "tformat")
+t("not enough stat: %s", "pas assez de stat : %s", "tformat")
 t("not enough levels", "niveaux insuffisants", "_t")
 t("missing dependency", "dépendance manquante", "_t")
 t("is not %s", "n'est pas %s", "tformat")
 t("unknown talent type", "type de talent inconnu", "_t")
 t("not enough talents of this type known", "pas assez de talents de ce type connus", "_t")
 t("- Talent category known", "- Catégorie de talent connue", "_t")
-t("- Lower talents of the same category: %d", "- Talents inférieur de la même catégorie: %d", "tformat")
+t("- Lower talents of the same category: %d", "- Talents inférieur de la même catégorie : %d", "tformat")
 t("- Level %d", "- Niveau %d", "tformat")
 t("- Talent %s (not known)", "- Talent %s (non connu)", "tformat")
 t("- Is %s", "- est %s", "tformat")
@@ -1264,8 +1264,8 @@ t("unknown", "inconnu", "_t")
 section "engine/engine/interface/GameTargeting.lua"
 
 t("Tactical display disabled. Press shift+'t' to enable.", "Affichage tactique désactivé. Pressez Shift+'t' pour l'activer.", "_t")
-t("Target yourself?", "Se cibler?", "_t")
-t("Are you sure you want to target yourself?", "Êtes vous sûr de vouloir vous cibler?", "_t")
+t("Target yourself?", "Se cibler ?", "_t")
+t("Are you sure you want to target yourself?", "Êtes vous sûr de vouloir vous cibler ?", "_t")
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
 t("Tactical display enabled. Press shift+'t' to disable.", "Affichage tactique activé. Pressez Shift+'t' pour le désactiver.", "_t")
@@ -1275,8 +1275,8 @@ section "engine/engine/interface/ObjectActivable.lua"
 
 t("It can be used to %s, with %d charges out of %d.", "Peut être utilisé en %s, avec %d charges sur %d.", "tformat")
 t("It can be used to %s, costing %d power out of %d/%d.", "Peut être utilisé en %s, coutant %d de pouvoir sur %d/%d.", "tformat")
-t("It can be used to activate talent: %s (level %d).", "Peut être utilisé pour activer le talent: %s (niveau %d).", "tformat")
-t("It can be used to activate talent: %s (level %d), costing %d power out of %d/%d.", "Peut être utilisé pour activer le talent: %s (niveau %d), coutant %d de pouvoir sur %d/%d.", "tformat")
+t("It can be used to activate talent: %s (level %d).", "Peut être utilisé pour activer le talent : %s (niveau %d).", "tformat")
+t("It can be used to activate talent: %s (level %d), costing %d power out of %d/%d.", "Peut être utilisé pour activer le talent : %s (niveau %d), coutant %d de pouvoir sur %d/%d.", "tformat")
 t("%s is still recharging.", "%s est encore en rechagement.", "logPlayer")
 t("%s can not be used anymore.", "%s ne peut plus être utilisé", "logPlayer")
 
@@ -1307,7 +1307,7 @@ t("resting", "Le repos", "_t")
 t("rested", "s'est reposé", "_t")
 t("You are %s, press Enter to stop.", "Vous êtes %s, appuyez sur Entrée pour arrêter.", "tformat")
 t("%s starts...", "%s commence...", "log")
-t("%s for %d turns (stop reason: %s).", "%s durant %d tours (raison de l'arrêt: %s)", "log")
+t("%s for %d turns (stop reason: %s).", "%s durant %d tours (raison de l'arrêt : %s)", "log")
 t("%s for %d turns.", "%s durant %d tours.", "log")
 -- texte non traduit
 --[==[
@@ -1327,15 +1327,15 @@ t("trap spotted", "piège détecté", "_t")
 t("terrain change on the left", "le terrain a changé à gauche", "_t")
 t("terrain change on the right", "le terrain a changé à droite", "_t")
 t("at %s", "à %s", "tformat")
-t("Ran for %d turns (stop reason: %s).", "A couru durant %d tours (raison de l'arrêt: %s).", "log")
+t("Ran for %d turns (stop reason: %s).", "A couru durant %d tours (raison de l'arrêt : %s).", "log")
 
 ------------------------------------------------
 section "engine/engine/interface/WorldAchievements.lua"
 
-t("#%s#Personal New Achievement: %s!", "#%s#Nouveau Succès Personnel: %s!", "log")
-t("Personal New Achievement: #%s#%s", "Nouveau Succès Personnel: #%s#%s", "tformat")
-t("#%s#New Achievement: %s!", "#%s#Nouveau Succès: %s!", "log")
-t("New Achievement: #%s#%s", "Nouveau Succès: #%s#%s", "tformat")
+t("#%s#Personal New Achievement: %s!", "#%s#Nouveau Succès Personnel : %s !", "log")
+t("Personal New Achievement: #%s#%s", "Nouveau Succès Personnel : #%s#%s", "tformat")
+t("#%s#New Achievement: %s!", "#%s#Nouveau Succès : %s !", "log")
+t("New Achievement: #%s#%s", "Nouveau Succès : #%s#%s", "tformat")
 t("New Achievement", "Nouveau Succès", "_t")
 
 ------------------------------------------------
@@ -1363,15 +1363,15 @@ Gestures movements are color coded to better display which movement to do:
 #d6ed15##{italic}#yellow#{normal}##LAST#: moving right
 
 If you do not wish to see gestures anymore, you can hide them in the UI section of the Game Options.
-]], [[Vous avez commencé à dessiner un geste avec la souris pour la première fois!
+]], [[Vous avez commencé à dessiner un geste avec la souris pour la première fois !
 Les gestes vous permettent d'utiliser des talents ou des actions au clavier par un simple mouvement de souris. Pour en dessiner un, il vous suffit de #{bold}#maintenir le clic droit + déplacer#{normal}#.
-Par défaut, aucun raccourci n'est fait pour les gestes, donc si vous voulez les utiliser, allez dans les Raccourcis et ajoutez-en, c'est facile et amusant!
+Par défaut, aucun raccourci n'est fait pour les gestes, donc si vous voulez les utiliser, allez dans les Raccourcis et ajoutez-en, c'est facile et amusant !
 
-Les mouvements des gestes sont codés par couleur pour mieux afficher le mouvement à faire:
-#15ed2f##{italic}#vert#{normal}##LAST#: déplacement en haut
-#1576ed##{italic}#bleu#{normal}##LAST#: déplacement en bas
-#ed1515##{italic}#rouge#{normal}##LAST#: déplacement à gauche
-#d6ed15##{italic}#jaune#{normal}##LAST#: déplacement à droite
+Les mouvements des gestes sont codés par couleur pour mieux afficher le mouvement à faire :
+#15ed2f##{italic}#vert#{normal}##LAST# : déplacement en haut
+#1576ed##{italic}#bleu#{normal}##LAST# : déplacement en bas
+#ed1515##{italic}#rouge#{normal}##LAST# : déplacement à gauche
+#d6ed15##{italic}#jaune#{normal}##LAST# : déplacement à droite
 
 Si vous ne souhaitez plus voir les gestes, vous pouvez les cacher dans la section IU des options du jeu.
 ]], "_t")
@@ -1391,16 +1391,16 @@ t("", "", "_t")
 ------------------------------------------------
 section "engine/engine/ui/WebView.lua"
 
-t("Download: ", "Télécharger: ", "tformat")
+t("Download: ", "Télécharger : ", "tformat")
 t("Cancel", "Annuler", "_t")
 t("Confirm addon install/update", "Confirmer l'installation ou la mise à jour de l'addon", "_t")
-t("Are you sure you want to install this addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "Êtes vous sûr de vouloir installer cet addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "_t")
+t("Are you sure you want to install this addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "Êtes vous sûr de vouloir installer cet addon : #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "_t")
 t("Confirm module install/update", "Confirmer l'installation ou la mise à jour du module", "_t")
-t("Are you sure you want to install this module: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "Êtes vous sûr de vouloir installer ce module: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "tformat")
-t("Addon installed!", "Addon installé!", "_t")
+t("Are you sure you want to install this module: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "Êtes vous sûr de vouloir installer ce module : #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "tformat")
+t("Addon installed!", "Addon installé !", "_t")
 t("Addon installation successful. New addons are only active for new characters.", "Addon installé avec succès. Les nouveaux addons ne sont actifs que pour les nouveaux personnages.", "_t")
-t("Game installed!", "Jeu installé!", "_t")
-t("Game installation successful. Have fun!", "Jeu installé avec succès. Amusez vous bien!", "_t")
+t("Game installed!", "Jeu installé !", "_t")
+t("Game installation successful. Have fun!", "Jeu installé avec succès. Amusez vous bien !", "_t")
 
 ------------------------------------------------
 section "engine/engine/utils.lua"

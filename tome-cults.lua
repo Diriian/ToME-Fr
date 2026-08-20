@@ -290,10 +290,10 @@ t("That was weird...", "That was weird...", "_t")
 ------------------------------------------------
 section "tome-cults/data/damage_types.lua"
 
-t("#Source# drains life from #Target#!", "#Source# draine la vie de #Target#!", "logCombat")
-t("%s resists the blindness!", "%s résiste à l'aveuglement!", "logSeen")
-t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
-t("%s resists the confusion!", "%s résiste à la confusion!", "logSeen")
+t("#Source# drains life from #Target#!", "#Source# draine la vie de #Target# !", "logCombat")
+t("%s resists the blindness!", "%s résiste à l'aveuglement !", "logSeen")
+t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
+t("%s resists the confusion!", "%s résiste à la confusion !", "logSeen")
 -- texte non traduit
 --[==[
 t("unstable rift", "unstable rift", "damage type")
@@ -830,10 +830,10 @@ t("It's a head... but is it yours?", "It's a head... but is it yours?", "_t")
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
 
-t("%s resists the mental assault!", "%s résiste à l'assaut mental!", "logSeen")
+t("%s resists the mental assault!", "%s résiste à l'assaut mental !", "logSeen")
 t("misc", "divers", "entity type")
 t("charm", "breloque", "entity type")
-t("%s activates %s %s!", "%s active %s %s!", "logSeen")
+t("%s activates %s %s!", "%s active %s %s !", "logSeen")
 -- texte non traduit
 --[==[
 t("Spinal Cage", "Spinal Cage", "entity name")
@@ -2960,6 +2960,7 @@ t("A headless, round creature with stubby legs and arms.  Its body seems to be a
 t("Summon", "Invocation", "_t")
 t("bloated horror", "horreur bouffie", "_t")
 t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "Une forme humanoïde bulbeuse flotte ici. Sa tête chauve, semblable à celle d'un enfant, est disproportionnée par rapport à son corps, et sa peau est marquée de vilaines plaies rouges.", "_t")
+t("Call of Amakthel", "Appel d'Amakthel", "talent name")
 -- texte non traduit
 --[==[
 t("Decayed Devourers", "Decayed Devourers", "talent name")
@@ -2991,7 +2992,6 @@ This spell does not work on horrors.]], [[You forcefully try to turn a creature 
 If the target fails a magical save against your Spellpower, its appearance turns into that of a horror for %d turns, making all other creatures hostile to it.
 Enemies near the target will have their target cleared on application.
 This spell does not work on horrors.]], "tformat")
-t("Call of Amakthel", "Call of Amakthel", "talent name")
 t([[You attune your horrors to the dead god Amakthel, increasing your summoned horrors damage by %d%%.
 At talent level 3, your Decaying Devourers spell will summon 4 additional Devourers adjacent to random enemies nearby and your Bloated Horror will learn the Agony talent.
 At talent level 5, victims of your Horrific Display spell will pull enemies in radius 10 1 space towards them each turn.
@@ -3010,6 +3010,7 @@ t("void", "vide", "talent type")
 t("entropy", "l'entropie", "talent type")
 t("rift", "fissure", "talent type")
 t("other", "autre", "talent type")
+t("Talents of the various entities of the world.", "Talents des diverses entités du monde.", "_t")
 -- texte non traduit
 --[==[
 t("Insanity Pool", "Insanity Pool", "talent name")
@@ -3053,7 +3054,6 @@ t("calamity", "calamity", "talent type")
 t("Stack the odds in your favour.", "Stack the odds in your favour.", "_t")
 t("beyond sanity", "beyond sanity", "talent type")
 t("Let yourself walk in chaos!", "Let yourself walk in chaos!", "_t")
-t("Talents of the various entities of the world.", "Talents of the various entities of the world.", "_t")
 --]==]
 
 -- ancien texte traduit
@@ -3205,7 +3205,7 @@ t("You empower your spells with dangerous levels of entropic energy, increasing 
 section "tome-cults/data/talents/demented/friend-of-the-worm.lua"
 
 t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
-t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
+t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
 -- texte non traduit
 --[==[
 t("Worm that Walks Link", "Worm that Walks Link", "talent name")
@@ -3571,7 +3571,7 @@ t([[Instantly consume what remains of your victim, healing yourself for %d life 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/tentacles.lua"
 
-
+t("Constrict", "Constriction", "talent name")
 -- texte non traduit
 --[==[
 t("Mutated Hand", "Mutated Hand", "talent name")
@@ -3620,7 +3620,6 @@ t([[You plant your tentacle hand in the ground where it splits up and extends to
 		If at least one enemy is hit you gain %d insanity.
 
 		#YELLOW_GREEN#When constricting:#WHITE#The tendrils pummel your constricted target for %d%% tentacle damage and if adjacent you make an additional mainhand weapon attack.  Talent cooldown reduced to 10.]], "tformat")
-t("Constrict", "Constrict", "talent name")
 t("You require a mutated hand!", "You require a mutated hand!", "logPlayer")
 t("%s's tentacle fails to move %s!", "%s's tentacle fails to move %s!", "tformat")
 t("Your constrict target has disappeared!", "Your constrict target has disappeared!", "logPlayer")
@@ -3640,8 +3639,8 @@ t([[You extend your tentacle to grab a distant target, pulling it to you.
 ------------------------------------------------
 section "tome-cults/data/talents/demented/timethief.lua"
 
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
-t("%s resists!", "%s résiste!", "logSeen")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
+t("%s resists!", "%s résiste !", "logSeen")
 t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
@@ -3706,7 +3705,7 @@ t([[You rend the very essence of the target, drawing on their life and convertin
 ------------------------------------------------
 section "tome-cults/data/talents/demented/writhing-body.lua"
 
-
+t("%s resists the disease!", "%s résiste à la maladie !", "logSeen")
 -- texte non traduit
 --[==[
 t("Mutated Hereragegand", "Mutated Hereragegand", "talent name")
@@ -3730,7 +3729,6 @@ t([[You quickly extend your tentacle hand up to range %d, impaling all creatures
 		Impaled creatures take %d%% tentacle damage and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.]], "tformat")
 t("Tentaclesrsthrhrhrh Ground", "Tentaclesrsthrhrhrh Ground", "talent name")
 t("The diseases of %s spread!", "The diseases of %s spread!", "logSeen")
-t("%s resists the disease!", "%s resists the disease!", "logSeen")
 t([[Infects the target with a very contagious disease, doing %0.2f damage per turn for 6 turns.
 		If any blight damage from non-diseases hits the target, the epidemic may activate and spread a random disease to nearby targets within a radius 2 ball.
 		The chance to spread increases with the blight damage dealt and is 100%% if it is at least %d%% of the target's maximum life.
@@ -3748,7 +3746,10 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 ------------------------------------------------
 section "tome-cults/data/talents/misc/misc.lua"
 
-t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
+t("The spell fizzles...", "Le sort échoue...", "logPlayer")
+t("There are creatures that could be watching you; you cannot take the risk.", "Il y a des créatures qui pourraient vous observer ; vous ne pouvez pas prendre le risque.", "log")
+t("Call of Amakthel", "Appel d'Amakthel", "talent name")
+t("%s is pulled in!", "%s est attiré !", "logSeen")
 t("something", "quelque chose", "_t")
 -- texte non traduit
 --[==[
@@ -3757,8 +3758,6 @@ t("Self-destruction", "Self-destruction", "talent name")
 t("Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "tformat")
 t("Teleport: Kroshkkur", "Teleport: Kroshkkur", "talent name")
 t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "logPlayer")
-t("The spell fizzles...", "The spell fizzles...", "logPlayer")
-t("There are creatures that could be watching you; you cannot take the risk.", "There are creatures that could be watching you; you cannot take the risk.", "log")
 t([[Allows to teleport to Kroshkkur.
 	You have studied the forbidden secrets there and have been granted a special portal spell to teleport back.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
@@ -3766,7 +3765,6 @@ t([[Allows to teleport to Kroshkkur.
 	You have studied the forbidden secrets there and have been granted a special portal spell to teleport back.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
 	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], "_t")
-t("Call of Amakthel", "Call of Amakthel", "talent name")
 t("Pull all foes within radius 10 2 grids towards you.", "Pull all foes within radius 10 2 grids towards you.", "_t")
 t("Crumble", "Crumble", "talent name")
 t([[Fire a blast of darkness at an enemy dealing %0.2f damage and destroying any walls in radius 3 around them.
@@ -3815,9 +3813,9 @@ section "tome-cults/data/talents/misc/races.lua"
 
 t("The various racial bonuses a character can have.", "Les différents bonus raciaux qu'un personnage peut posséder.", "_t")
 t("Frenzy", "Frénésie", "talent name")
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
 t("Never mind", "Peu importe", "_t")
-t("%s resists!", "%s résiste!", "logSeen")
+t("%s resists!", "%s résiste !", "logSeen")
 -- texte non traduit
 --[==[
 t("race", "race", "talent category")
@@ -3952,34 +3950,34 @@ t("massive", "énormité", "effect subtype")
 t("slow", "ralentissement", "effect subtype")
 t("Reduces global action speed by %d%%.", "Réduit la vitesse d'action globale de %d%%.", "tformat")
 t("miscellaneous", "divers", "effect subtype")
-t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître; le contrôle direct est rompu!", "_t")
+t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître ; le contrôle direct est rompu !", "_t")
 t("+Out of sight", "+Hors de vue", "_t")
 t("damage", "dégât", "effect subtype")
 t("horror", "horreur", "effect subtype")
 t("blight", "fléau", "effect subtype")
 t("pain", "douleur", "effect subtype")
 t("#Target# is back to normal.", "#Target# est revenu à la normale.", "_t")
-t("%s is pulled in!", "%s est tiré vers l'intérieur!", "logSeen")
+t("%s is pulled in!", "%s est attiré !", "logSeen")
 t("darkness", "obscurité", "effect subtype")
 t("fear", "peur", "effect subtype")
 t("stone", "gardien de pierre", "effect subtype")
 t("temporal", "temporel", "effect subtype")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
-t("#Target# is wasting away!", "#Target# est en train de dépérir!", "_t")
+t("#Target# is wasting away!", "#Target# est en train de dépérir !", "_t")
 t("speed", "rapidité", "effect subtype")
 t("#Target# slows down.", "#Target# ralentis.", "_t")
-t("#Target# is removed from time!", "#Target# est retiré du temps!", "_t")
+t("#Target# is removed from time!", "#Target# est retiré du temps !", "_t")
 t("#Target# is returned to normal time.", "#Target# revient dans le temps normal.", "_t")
 t("disease", "maladie", "effect subtype")
 t("teleport", "téléportation", "effect subtype")
-t("You are yanked out of this place!", "Vous êtes expulsés de cet endroit!", "logPlayer")
+t("You are yanked out of this place!", "Vous êtes expulsés de cet endroit !", "logPlayer")
 t("Space restabilizes around you.", "L'espace se réorganise autour de vous.", "logPlayer")
 t("book", "livre", "effect subtype")
 t("entropy", "l'entropie", "effect subtype")
 t("blind", "aveuglement", "effect subtype")
 t("Blinded", "Aveuglé", "_t")
 t("The target is blinded, unable to see anything.", "La cible est aveuglée, incapable de voir quoi que ce soit.", "_t")
-t("#Target# loses sight!", "#Target# perd la vue!", "_t")
+t("#Target# loses sight!", "#Target# perd la vue !", "_t")
 t("+Blind", "+Aveuglé", "_t")
 t("#Target# recovers sight.", "#Target# retrouve la vue.", "_t")
 t("-Blind", "-Aveuglé", "_t")
@@ -4684,7 +4682,7 @@ t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
 t("book", "livre", "entity type")
 t("floor", "sol", "entity subtype")
-t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet tombe du coffre!", "logSeen")
+t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet tombe du coffre !", "logSeen")
 t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
 -- texte non traduit
@@ -4982,7 +4980,7 @@ t("The bottom part of Telos' broken staff.", "La partie inférieure du bâton br
 ------------------------------------------------
 section "tome-cults/data/zones/necromancers-ruins/zone.lua"
 
-t("The cultists are about to sacrifice the woman. Stop them!", "Les cultistes s'apprêtent à sacrifier une femme. Stoppez-les!", "_t")
+t("The cultists are about to sacrifice the woman. Stop them!", "Les cultistes s'apprêtent à sacrifier une femme. Stoppez-les !", "_t")
 -- texte non traduit
 --[==[
 t("Necromancers' Ruins", "Necromancers' Ruins", "_t")
@@ -5558,7 +5556,7 @@ t([[Powered by #CRIMSON#unknown forces#LAST#
 ]], [[Alimenté par #CRIMSON#une force inconnue#LAST#
 ]], "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
-t("Error!", "Erreur!", "_t")
+t("Error!", "Erreur !", "_t")
 -- texte non traduit
 --[==[
 t([[The font of sacrifice allows you to spend gold to reroll specific parts of a random artifact or rare item (you must first unequip it).

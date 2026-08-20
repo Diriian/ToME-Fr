@@ -12,7 +12,7 @@ t("base", "base", "birth descriptor name")
 ------------------------------------------------
 section "mod-boot/data/damage_types.lua"
 
-t("Kill!", "Tue!", "_t")
+t("Kill!", "Tue !", "_t")
 
 ------------------------------------------------
 section "mod-boot/data/general/grids/basic.lua"
@@ -115,7 +115,7 @@ t("Flameshock", "Choc de flammes", "talent name")
 section "mod-boot/data/timed_effects.lua"
 
 t("Burning from acid", "Brûle par l'acide", "_t")
-t("#Target# is covered in acid!", "#Target# est recouvert d'acide!", "_t")
+t("#Target# is covered in acid!", "#Target# est recouvert d'acide !", "_t")
 t("+Acid", "+Acide", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
 t("-Acid", "-Acide", "_t")
@@ -140,9 +140,9 @@ Now go and have some fun!]], [[#GOLD#"Tales of Maj'Eyal"#WHITE# est le jeu princ
 
 Lorsque vous vous trouvez dans un module, n'oubliez pas que vous pouvez appuyer sur la touche Echap pour faire apparaître un menu permettant de modifier les raccourcis clavier, la résolution et d'autres options spécifiques au module.
 
-N'oubliez pas que dans la plupart des roguelikes, la mort est généralement permanente, alors faites attention!
+N'oubliez pas que dans la plupart des roguelikes, la mort est généralement permanente, alors faites attention !
 
-Maintenant, partez et allez vous amuser!]], "_t")
+Maintenant, partez et allez vous amuser !]], "_t")
 t("Upgrade to 1.0.5", "Mise à jour vers la 1.0.5", "_t")
 t([[The way the engine manages saving has been reworked for v1.0.5.
 
@@ -160,7 +160,7 @@ t([[Oops! Either you activated safe mode manually or the game detected it did no
 Safe Mode disabled all graphical options and sets a low FPS. It is not advisable to play this way (as it will be very painful and ugly).
 
 Please go to the Video Options and try enabling/disabling options and then restarting until you do not get this message.
-A usual problem is shaders and thus should be your first target to disable.]], [[Oups! Soit vous avez activé le mode sans échec manuellement, soit le jeu a détecté qu'il ne démarrait pas correctement la dernière fois et vous êtes donc en #LIGHT_GREEN#mode sans échec#WHITE#.
+A usual problem is shaders and thus should be your first target to disable.]], [[Oups ! Soit vous avez activé le mode sans échec manuellement, soit le jeu a détecté qu'il ne démarrait pas correctement la dernière fois et vous êtes donc en #LIGHT_GREEN#mode sans échec#WHITE#.
 Le mode sans échec a désactivé toutes les options graphiques et fixe un taux de rafraichissement réduit. Il n'est pas conseillé de jouer de cette manière (car cela sera très douloureux et très laid).
 
 Veuillez vous rendre dans les options vidéo et essayer d'activer/désactiver les options, puis redémarrer jusqu'à ce que vous ne receviez plus ce message.
@@ -174,18 +174,18 @@ Addon name: #YELLOW#%s#LAST#
 Check out the following folder on your computer:
 %s
 %s
-]], [[Oups! Il semble que vous ayez le même addon/dlc installé deux fois.
+]], [[Oups ! Il semble que vous ayez le même addon/dlc installé deux fois.
 Ce n'est pas supporté et cela va faire planter beaucoup de choses. Veuillez supprimer l'une des copies.
 
-Nom de l'addon: #YELLOW#%s#LAST#
+Nom de l'addon : #YELLOW#%s#LAST#
 
-Consultez le dossier suivant sur votre ordinateur:
+Consultez le dossier suivant sur votre ordinateur :
 %s
 %s
 ]], "_t")
-t("Updating addon: #LIGHT_GREEN#%s", "Mise à jour de l'addon: #LIGHT_GREEN#%s", "tformat")
+t("Updating addon: #LIGHT_GREEN#%s", "Mise à jour de l'addon : #LIGHT_GREEN#%s", "tformat")
 t("Quit", "Quitter", "_t")
-t("Really exit T-Engine/ToME?", "Vraiment quitter T-Engine/ToME?", "_t")
+t("Really exit T-Engine/ToME?", "Vraiment quitter T-Engine/ToME ?", "_t")
 t("Continue", "Continuer", "_t")
 t([[Welcome to #LIGHT_GREEN#Tales of Maj'Eyal#LAST#!
 
@@ -201,11 +201,11 @@ This is a #{bold}#single player game#{normal}# but it also features many online 
 * Help the game developers balance and refine the game
 
 You will also have a user page on #LIGHT_BLUE#https://te4.org/#LAST# to show off to your friends.
-This is all optional, you are not forced to use this feature at all, but the developer would thank you if you did as it will make balancing easier.]], [[Bienvenue sur #LIGHT_GREEN#Tales of Maj'Eyal#LAST#!
+This is all optional, you are not forced to use this feature at all, but the developer would thank you if you did as it will make balancing easier.]], [[Bienvenue sur #LIGHT_GREEN#Tales of Maj'Eyal#LAST# !
 
 Avant que vous puissiez commencer à mourir de nombreuses façons incroyablement innovantes, nous devons vous interroger sur le jeu en ligne.
 
-Il s'agit d'un #{bold}#jeu solo#{normal}# mais il comporte également de nombreuses fonctionnalités en ligne pour améliorer votre gameplay et vous connecter à la communauté:
+Il s'agit d'un #{bold}#jeu solo#{normal}# mais il comporte également de nombreuses fonctionnalités en ligne pour améliorer votre gameplay et vous connecter à la communauté :
 * Jouer depuis plusieurs ordinateurs sans avoir à copier les choses déblocables et les succès.
 * Parler en jeu avec d'autres joueurs, demander des conseils, partager vos moments les plus mémorables...
 * Garder une trace de votre nombre de morts, des décès, des classes les plus jouées...
@@ -218,16 +218,16 @@ Vous aurez également une page utilisateur sur #LIGHT_BLUE#https://te4.org/#LAST
 Tout cela est facultatif, vous n'êtes pas du tout obligé d'utiliser cette fonctionnalité, mais le développeur vous en remerciera car cela facilitera l'équilibrage.]], "_t")
 t("Logging in...", "Connexion...", "_t")
 t("Please wait...", "Patientez s'il vous plait...", "_t")
-t("Profile logged in!", "Profil connecté!", "_t")
-t("Your online profile is now active. Have fun!", "Votre profil en ligne est maintenant activé. Amusez vous bien!", "_t")
-t("Login failed!", "Connexion échouée!", "_t")
+t("Profile logged in!", "Profil connecté !", "_t")
+t("Your online profile is now active. Have fun!", "Votre profil en ligne est maintenant activé. Amusez vous bien !", "_t")
+t("Login failed!", "Connexion échouée !", "_t")
 t("Check your login and password or try again in in a few moments.", "Vérifier vos identifiant et mot de passe et réessayer dans quelques instants.", "_t")
 t("Registering...", "Enregistrement...", "_t")
 t("Registering on https://te4.org/, please wait...", "Enregistrement sur https://te4.org/, attendez s'il vous plait...", "_t")
-t("Logged in!", "Connecté!", "_t")
-t("Profile created!", "Profil créé!", "_t")
-t("Profile creation failed!", "La création de profil a échouée!", "_t")
-t("Creation failed: %s (you may also register on https://te4.org/)", "La création a échouée: %s (vous pouvez aussi vous enregistrer sur https://te4.org/)", "tformat")
+t("Logged in!", "Connecté !", "_t")
+t("Profile created!", "Profil créé !", "_t")
+t("Profile creation failed!", "La création de profil a échouée !", "_t")
+t("Creation failed: %s (you may also register on https://te4.org/)", "La création a échouée : %s (vous pouvez aussi vous enregistrer sur https://te4.org/)", "tformat")
 t("Try again in in a few moments, or try online at https://te4.org/", "Essayez de nouveau dans quelques instants, ou essayez en ligne sur https://te4.org/", "_t")
 -- texte non traduit
 --[==[
@@ -242,25 +242,25 @@ section "mod-boot/mod/class/Player.lua"
 
 t("%s available", "%s disponible", "tformat")
 t("#00ff00#Talent %s is ready to use.", "#00ff00#Le talent %s est prêt a être utilisé.", "log")
-t("LEVEL UP!", "NIVEAU SUPERIEUR!", "_t")
+t("LEVEL UP!", "NIVEAU SUPERIEUR !", "_t")
 
 ------------------------------------------------
 section "mod-boot/mod/dialogs/Addons.lua"
 
 t("Configure Addons", "Configuration des Addons", "_t")
-t("You can get new addons at #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", "Vous pouvez obtenir de nouveaux addons sur: #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", "_t")
+t("You can get new addons at #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", "Vous pouvez obtenir de nouveaux addons sur : #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", "_t")
 t(" and #LIGHT_BLUE##{underline}#Te4.org DLCs#{normal}#", " et #LIGHT_BLUE##{underline}#Te4.org DLCs#{normal}#", "_t")
-t("You can get new addons on #LIGHT_BLUE##{underline}#Steam Workshop#{normal}#", "Vous pouvez obtenir de nouveaux addons sur: #LIGHT_BLUE##{underline}#Steam Workshop#{normal}#", "_t")
+t("You can get new addons on #LIGHT_BLUE##{underline}#Steam Workshop#{normal}#", "Vous pouvez obtenir de nouveaux addons sur : #LIGHT_BLUE##{underline}#Steam Workshop#{normal}#", "_t")
 t(", #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", ", #LIGHT_BLUE##{underline}#Addons de Te4.org#{normal}#", "_t")
 t("Show incompatible", "Montrer les incompatibles", "_t")
 t("Auto-update on start", "Mise à jour automatique au démarrage", "_t")
 t("Game Module", "Module de jeu", "_t")
 t("Active", "Actif", "_t")
 t("#GREY#Developer tool", "#GREY#Outil de développement", "_t")
-t("#LIGHT_RED#Donator Status: Disabled", "#LIGHT_RED#Statut de donateur: Désactivé", "_t")
-t("#LIGHT_GREEN#Manual: Active", "#LIGHT_GREEN#Manuel: Activé", "_t")
-t("#LIGHT_RED#Manual: Disabled", "#LIGHT_RED#Manuel: Désactivé", "_t")
-t("#LIGHT_GREEN#Auto: Active", "#LIGHT_GREEN#Auto: Activé", "_t")
+t("#LIGHT_RED#Donator Status: Disabled", "#LIGHT_RED#Statut de donateur : Désactivé", "_t")
+t("#LIGHT_GREEN#Manual: Active", "#LIGHT_GREEN#Manuel : Activé", "_t")
+t("#LIGHT_RED#Manual: Disabled", "#LIGHT_RED#Manuel : Désactivé", "_t")
+t("#LIGHT_GREEN#Auto: Active", "#LIGHT_GREEN#Auto : Activé", "_t")
 t("Addon Version", "Version de l'addon", "_t")
 t("Game Version", "Version du jeu", "_t")
 -- texte non traduit
@@ -298,7 +298,7 @@ t("Code Helpers", "Aides au code", "_t")
 section "mod-boot/mod/dialogs/FirstRun.lua"
 
 t("Welcome to Tales of Maj'Eyal", "Bienvenue sur Tales of Maj'Eyal", "_t")
-t("Register now!", "Enregistrez vous maintenant!", "_t")
+t("Register now!", "Enregistrez vous maintenant !", "_t")
 t("Login existing account", "Connexion à un compte existant", "_t")
 t("Maybe later", "Peut-être plus tard", "_t")
 t("#RED#Disable all online features", "#RED#Désactiver toutes les fonctions en ligne", "_t")
@@ -318,22 +318,22 @@ This includes, but is not limited to:
 #{bold}##CRIMSON#This is an extremely restrictive setting. It is recommended you only activate it if you have no other choice as it will remove many fun and acclaimed features.#{normal}#
 
 If you disable this option you can always re-activate it in the Online category of the Game Options menu later on.]], [[Vous êtes sur le point de désactiver toute connectivité au réseau.
-Cela inclut, mais n'est pas limité à:
-- Les profils de joueur: Vous ne pourrez pas vous connecter, vous inscrire
-- Chambre forte des personnages: Vous ne pourrez pas télécharger de personnage dans la chambre forte en ligne pour montrer votre gloire
-- Coffre-fort des objets: vous ne pourrez pas accéder au coffre-fort des objets en ligne, ce qui inclut le stockage et la récupération des objets.
-- Tchat en jeu: Le tchat en jeu nécessite de se connecter au serveur pour parler aux autres joueurs, ce qui ne sera pas possible.
-- Avantages d'acheteur / de donateur: Le jeu de base étant gratuit, la seule façon de donner aux donateurs leurs bonus de manière équitable est de vérifier leur profil en ligne. Ceux-ci seront donc désactivés.
-- Téléchargement et installation faciles des addons: Vous ne pourrez pas voir dans le jeu la liste des addons disponibles, ni les installer en un clic. Vous pouvez toujours le faire manuellement.
-- Vérification des versions: Les addons ne seront pas vérifiés si il y a de nouvelles versions.
-- Discord: Si vous êtes un utilisateur de Discord, la fonctionnalité Discord "Rich Presence" sera également désactivée par ce paramètre.
-- Nouvelles du jeu en jeu: Le menu principal cessera de vous montrer des informations sur les nouvelles mises à jour du jeu.
+Cela inclut, mais n'est pas limité à :
+- Les profils de joueur : Vous ne pourrez pas vous connecter, vous inscrire
+- Chambre forte des personnages : Vous ne pourrez pas télécharger de personnage dans la chambre forte en ligne pour montrer votre gloire
+- Coffre-fort des objets : vous ne pourrez pas accéder au coffre-fort des objets en ligne, ce qui inclut le stockage et la récupération des objets.
+- Tchat en jeu : Le tchat en jeu nécessite de se connecter au serveur pour parler aux autres joueurs, ce qui ne sera pas possible.
+- Avantages d'acheteur / de donateur : Le jeu de base étant gratuit, la seule façon de donner aux donateurs leurs bonus de manière équitable est de vérifier leur profil en ligne. Ceux-ci seront donc désactivés.
+- Téléchargement et installation faciles des addons : Vous ne pourrez pas voir dans le jeu la liste des addons disponibles, ni les installer en un clic. Vous pouvez toujours le faire manuellement.
+- Vérification des versions : Les addons ne seront pas vérifiés si il y a de nouvelles versions.
+- Discord : Si vous êtes un utilisateur de Discord, la fonctionnalité Discord "Rich Presence" sera également désactivée par ce paramètre.
+- Nouvelles du jeu en jeu : Le menu principal cessera de vous montrer des informations sur les nouvelles mises à jour du jeu.
 
 #{bold}##CRIMSON#Il s'agit d'un paramètre extrêmement restrictif. Il est recommandé de ne l'activer que si vous n'avez pas d'autre choix, car il supprimera de nombreuses fonctionnalités amusantes et très appréciées.#{normal}#
 
 Si vous désactivez cette option, vous pouvez toujours la réactiver plus tard dans la catégorie En ligne du menu Options du jeu.]], "_t")
 t("Cancel", "Annuler", "_t")
-t("#RED#Disable all!", "#RED#Tout désactiver!", "_t")
+t("#RED#Disable all!", "#RED#Tout désactiver !", "_t")
 
 ------------------------------------------------
 section "mod-boot/mod/dialogs/LoadGame.lua"
@@ -341,15 +341,15 @@ section "mod-boot/mod/dialogs/LoadGame.lua"
 t("Load Game", "Charger une partie", "_t")
 t("Show older versions", "Montrer les anciennes versions", "_t")
 t("Ignore unloadable addons", "Ignorer les addons non chargeable", "_t")
-t("  Play!  ", "  Jouer!  ", "_t")
+t("  Play!  ", "  Jouer !  ", "_t")
 t("Delete", "Supprimer", "_t")
 t([[#{bold}##GOLD#%s: %s#WHITE##{normal}#
 Game version: %d.%d.%d
 Requires addons: %s
 
-%s]], [[#{bold}##GOLD#%s: %s#WHITE##{normal}#
-Version du jeu: %d.%d.%d
-Addons requis: %s
+%s]], [[#{bold}##GOLD#%s : %s#WHITE##{normal}#
+Version du jeu : %d.%d.%d
+Addons requis : %s
 
 %s]], "tformat")
 t("You can simply grab an older version of the game from where you downloaded it.", "Vous pouvez simplement prendre une ancienne version du jeu là où vous l'avez téléchargée.", "_t")
@@ -361,13 +361,13 @@ t([[This savefile was created with game version %s. You can try loading it with 
 t("Cancel", "Annuler", "_t")
 t("Run with newer version", "Lancer avec la nouvelle version", "_t")
 t("Developer Mode", "Mode développeur", "_t")
-t("#LIGHT_RED#WARNING: #LAST#Loading a savefile while in developer mode will permanently invalidate it. Proceed?", "#LIGHT_RED#ATTENTION: #LAST#Charger une sauvegarde en mode développeur l'invalidera de façon permanente. Poursuivre?", "_t")
+t("#LIGHT_RED#WARNING: #LAST#Loading a savefile while in developer mode will permanently invalidate it. Proceed?", "#LIGHT_RED#ATTENTION : #LAST#Charger une sauvegarde en mode développeur l'invalidera de façon permanente. Poursuivre ?", "_t")
 t("Load anyway", "Charger quand même", "_t")
 t("Delete savefile", "Supprimer la sauvegarde", "_t")
 t("Really delete #{bold}##GOLD#%s#WHITE##{normal}#", "Vraiment supprimer #{bold}##GOLD#%s#WHITE##{normal}#", "tformat")
 t("Old game data", "Anciennes données du jeu", "_t")
 t("No data available for this game version.", "Pas de données disponibles pour cette version du jeu", "_t")
-t("Downloading old game data: #LIGHT_GREEN#", "Téléchargement d'anciennes données du jeu: #LIGHT_GREEN#", "_t")
+t("Downloading old game data: #LIGHT_GREEN#", "Téléchargement d'anciennes données du jeu : #LIGHT_GREEN#", "_t")
 t("Old game data for %s correctly installed. You can now play.", "Les anciennes données pour %s sont correctement installées. Maintenant vous pouvez jouer.", "tformat")
 t("Failed to install.", "Installation échouée", "_t")
 
@@ -395,11 +395,11 @@ t([[#{bold}##GOLD#Ashes of Urh'Rok - Expansion#LAST##{normal}#
 ]], [[#{bold}##GOLD#Ashes of Urh'Rok - Extension#LAST##{normal}#
 #{italic}##ANTIQUE_WHITE#Beaucoup de personnes dans Maj'Eyal ont entendu parler des "démons", des créatures sadiques qui apparaissent apparemment de nulle part, laissant une traînée de souffrance et de destruction partout où elles vont.#{normal}##DERNIER#
 
-#{bold}#Modifications#{normal}#:
-#LIGHT_UMBER#Nouvelle classe:#WHITE# Avatar de la ruine. Ces avatars de la destruction démoniaque se lancent dans la bataille avec de massives armes à deux mains, faisant des ravages par le feu en découpant des hordes d'adversaires. Armés de la magie des flammes et de leur force démoniaque, ils prennent plaisir à se battre contre des obstacles insurmontables
-#LIGHT_UMBER#Nouvelle classe:#WHITE# Démonologues. Utilisant un bouclier et la magie de la Brûlure magique elle-même, ces combattants au corps-à-corps peuvent faire pousser des graines démoniaques du cadavres de leurs ennemis. Incorporez ces graines à vos objets pour obtenir un large éventail de nouveaux talents et d'avantages passifs, et invoquez les démons qui s'y trouvent pour combattre!
-#LIGHT_UMBER#Nouvelle race:#WHITE# Elfes de la ruine. Des Shalore qui ont particulièrement bien pris les altérations démoniaques, corrompant leurs capacités typiques en une forme plus sombre.
-#LIGHT_UMBER#Nouveaux artefacts, histoires, zones, événements...#WHITE# Pour votre plaisir démoniaque!
+#{bold}#Modifications#{normal}# :
+#LIGHT_UMBER#Nouvelle classe :#WHITE# Avatar de la ruine. Ces avatars de la destruction démoniaque se lancent dans la bataille avec de massives armes à deux mains, faisant des ravages par le feu en découpant des hordes d'adversaires. Armés de la magie des flammes et de leur force démoniaque, ils prennent plaisir à se battre contre des obstacles insurmontables
+#LIGHT_UMBER#Nouvelle classe :#WHITE# Démonologues. Utilisant un bouclier et la magie de la Brûlure magique elle-même, ces combattants au corps-à-corps peuvent faire pousser des graines démoniaques du cadavres de leurs ennemis. Incorporez ces graines à vos objets pour obtenir un large éventail de nouveaux talents et d'avantages passifs, et invoquez les démons qui s'y trouvent pour combattre !
+#LIGHT_UMBER#Nouvelle race :#WHITE# Elfes de la ruine. Des Shalore qui ont particulièrement bien pris les altérations démoniaques, corrompant leurs capacités typiques en une forme plus sombre.
+#LIGHT_UMBER#Nouveaux artefacts, histoires, zones, événements...#WHITE# Pour votre plaisir démoniaque !
 
 ]], "_t")
 t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#Installé", "_t")
@@ -418,12 +418,12 @@ t([[#{bold}##GOLD#Embers of Rage - Expansion#LAST##{normal}#
 ]], [[#{bold}##GOLD#Embers of Rage - Extension#LAST##{normal}#
 #{italic}##ANTIQUE_WHITE#Une année s'est écoulée depuis que celui que les Orcs appellent le "Fléau de l'Ouest" est venu écraser à lui seul les Clans Orcs de Grushnak, Vor, Gorbat et Rak'Shor. Les royaumes alliés, désormais liés par un portail lointain à leurs alliés, depuis longtemps perdu, du Mur du Soleil, les ont aidés à conquérir la plus grande partie du Var'Eyal. Les quelques restes des Clans ravagées sont en cage... mais un Clan demeure.#{normal}##LAST#
 
-#{bold}#Modifications#{normal}#:
-#LIGHT_UMBER#Une toute nouvelle campagne:#WHITE# Se déroulant un an après les événements du jeu principal, le destin final des Clans Orcs dépend de vous. Découvrez l'Extrême Orient comme vous ne l'avez jamais connu. 
-#LIGHT_UMBER#Nouvelles classes:#WHITE# Démembreur, Flingueur, Tireur psychique, Annihilateurs et Technomanciens. Exploitez la puissance de la vapeur pour faire fonctionner des engins mortels afin de mettre à sac tous ceux qui s'opposent au Clan!  
-#LIGHT_UMBER#Nouvelles races:#WHITE# Orcs, Yétis, Sabots blancs. Découvrez les orcs et leurs improbables 'alliés' alors que vous essayez de sauver votre Clan des désastres causés par celui que vous appelez 'le fléau de l'Ouest'.
-#LIGHT_UMBER#Système de bricolage:#WHITE# Augmentez vos objets avec de puissantes améliorations. Attachez des fusées à vos bottes, des systèmes de préhension à vos gants et bien d'autres choses encore.
-#LIGHT_UMBER#Salves:#WHITE# Lié au système de bricolage, créez de puissantes pommades médicales à injecter sous votre peau, en remplacement du système d'infusion§runes.
+#{bold}#Modifications#{normal}# :
+#LIGHT_UMBER#Une toute nouvelle campagne :#WHITE# Se déroulant un an après les événements du jeu principal, le destin final des Clans Orcs dépend de vous. Découvrez l'Extrême Orient comme vous ne l'avez jamais connu. 
+#LIGHT_UMBER#Nouvelles classes :#WHITE# Démembreur, Flingueur, Tireur psychique, Annihilateurs et Technomanciens. Exploitez la puissance de la vapeur pour faire fonctionner des engins mortels afin de mettre à sac tous ceux qui s'opposent au Clan !  
+#LIGHT_UMBER#Nouvelles races :#WHITE# Orcs, Yétis, Sabots blancs. Découvrez les orcs et leurs improbables 'alliés' alors que vous essayez de sauver votre Clan des désastres causés par celui que vous appelez 'le fléau de l'Ouest'.
+#LIGHT_UMBER#Système de bricolage :#WHITE# Augmentez vos objets avec de puissantes améliorations. Attachez des fusées à vos bottes, des systèmes de préhension à vos gants et bien d'autres choses encore.
+#LIGHT_UMBER#Salves :#WHITE# Lié au système de bricolage, créez de puissantes pommades médicales à injecter sous votre peau, en remplacement du système d'infusion§runes.
 #LIGHT_UMBER#Une tonne#WHITE# d'artefacts, d'histoires, de zones, d'événements... 
 
 ]], "_t")
@@ -443,22 +443,22 @@ t([[#{bold}##GOLD#Forgotten Cults - Expansion#LAST##{normal}#
 ]], [[#{bold}##GOLD#Forgotten Cults - Extension#LAST##{normal}#
 #{italic}##ANTIQUE_WHITE#Tous les aventuriers ne cherchent pas la fortune, tous ceux qui défendent le monde n'ont pas de bonnes actions en tête. Ces derniers temps, le nombre d'horreurs observées a énormément augmenté. Les gens sortent des sentiers battus pour être retrouvés des années plus tard, horriblement mutés et en partie fous, si tant est qu'on les retrouve. Il devient évident que quelque chose bouge dans les profondeurs de Maj'Eyal. Ce quelque chose, c'est vous.#{normal}##LAST#
 
-#{bold}#Modifications#{normal}#:
-#LIGHT_UMBER#Nouvelle classe:#WHITE# Grouillants. Cédez aux forces corrompues et transformez-vous progressivement en une horreur, invoquez des horreurs pour faire votre travail, perdez votre peau et faites fondre votre visage pour agresser vos ennemis. Avec votre bras déjà transformé en tentacule, quelle créature peut vous arrêter?
-#LIGHT_UMBER#Nouvelle classe:#WHITE# Cultistes entropique. En utilisant sa folie et le contrôle des forces entropiques pour démêler les lois normales de la physique, cette classe de lanceur de sortilèges peut transformer les guérisons en attaques et faire appel aux forces du vide pour réduire ses ennemis en poussière.
-#LIGHT_UMBER#Nouvelle race:#WHITE# Drems. Une sous-race de nains corrompus, qui a réussi à garder une once de bon sens pour ne pas se transformer complètement en horreurs sans âme. Ils peuvent entrer dans une frénésie et même apprendre à invoquer des horreurs.
-#LIGHT_UMBER#Nouvelle race:#WHITE# Krogs. Des ogres transformés par la chose même qui devrait les tuer. Leurs puissantes attaques peuvent étourdir leurs ennemis et ils sont si forts qu'ils peuvent manier à deux mains n'importe quelle arme.
-#LIGHT_UMBER#Beaucoup de nouvelles zones:#WHITE# Explorez les fosses à fléaux, combattez pour sortir d'un ver géant (ne demandez pas comment vous y êtes entré), découvrez les merveilles de l'occulte Egress et bien d'autres zones étranges et remplies de tentacules!
-#LIGHT_UMBER#Nouvelles horreurs:#WHITE# Vous avez aimé les horreurs rayonnantes? Vous aimerez les horreurs brûlantes! Et les jeux d'en bas. Et les tessons entropiques. Et ... plus
-#LIGHT_UMBER#Lassé de votre propre tête:#WHITE# Remplacez-la par une autre bien plus horrible!
+#{bold}#Modifications#{normal}# :
+#LIGHT_UMBER#Nouvelle classe :#WHITE# Grouillants. Cédez aux forces corrompues et transformez-vous progressivement en une horreur, invoquez des horreurs pour faire votre travail, perdez votre peau et faites fondre votre visage pour agresser vos ennemis. Avec votre bras déjà transformé en tentacule, quelle créature peut vous arrêter ?
+#LIGHT_UMBER#Nouvelle classe :#WHITE# Cultistes entropique. En utilisant sa folie et le contrôle des forces entropiques pour démêler les lois normales de la physique, cette classe de lanceur de sortilèges peut transformer les guérisons en attaques et faire appel aux forces du vide pour réduire ses ennemis en poussière.
+#LIGHT_UMBER#Nouvelle race :#WHITE# Drems. Une sous-race de nains corrompus, qui a réussi à garder une once de bon sens pour ne pas se transformer complètement en horreurs sans âme. Ils peuvent entrer dans une frénésie et même apprendre à invoquer des horreurs.
+#LIGHT_UMBER#Nouvelle race :#WHITE# Krogs. Des ogres transformés par la chose même qui devrait les tuer. Leurs puissantes attaques peuvent étourdir leurs ennemis et ils sont si forts qu'ils peuvent manier à deux mains n'importe quelle arme.
+#LIGHT_UMBER#Beaucoup de nouvelles zones :#WHITE# Explorez les fosses à fléaux, combattez pour sortir d'un ver géant (ne demandez pas comment vous y êtes entré), découvrez les merveilles de l'occulte Egress et bien d'autres zones étranges et remplies de tentacules !
+#LIGHT_UMBER#Nouvelles horreurs :#WHITE# Vous avez aimé les horreurs rayonnantes ? Vous aimerez les horreurs brûlantes ! Et les jeux d'en bas. Et les tessons entropiques. Et ... plus
+#LIGHT_UMBER#Lassé de votre propre tête :#WHITE# Remplacez-la par une autre bien plus horrible !
 #LIGHT_UMBER#Une tonne#WHITE# d'artefacts, d'histoires, d'événements... 
 
 ]], "_t")
 t("#GOLD#Online Profile", "#GOLD#Profil en ligne", "_t")
 t("Login", "Connexion", "_t")
 t("Register", "Inscription", "_t")
-t("Username: ", "Pseudonyme: ", "_t")
-t("Password: ", "Mot de passe: ", "_t")
+t("Username: ", "Pseudonyme : ", "_t")
+t("Password: ", "Mot de passe : ", "_t")
 t("Login with Steam", "Connexion avec Steam", "_t")
 t("#GOLD#Online Profile#WHITE#", "#GOLD#Profil en ligne#WHITE#", "_t")
 t("#LIGHT_BLUE##{underline}#Logout", "#LIGHT_BLUE##{underline}#Déconnexion", "_t")
@@ -490,8 +490,8 @@ t([[You can get new games at
 #LIGHT_BLUE##{underline}#https://te4.org/games#{normal}#]], "_t")
 t("Game Module", "Module de jeu", "_t")
 t("Enter your character's name", "Entrer le nom de votre personnage", "_t")
-t("Overwrite character?", "Écraser un personnage?", "_t")
-t("There is already a character with this name, do you want to overwrite it?", "Il y a déjà un personnage avec ce nom, voulez-vous l'écraser?", "_t")
+t("Overwrite character?", "Écraser un personnage ?", "_t")
+t("There is already a character with this name, do you want to overwrite it?", "Il y a déjà un personnage avec ce nom, voulez-vous l'écraser ?", "_t")
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
 t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "Ce jeu n'est pas compatible avec votre version du T-Engine, vous pouvez quand même essayer mais ca peut planter.", "_t")
@@ -507,7 +507,7 @@ section "mod-boot/mod/dialogs/Profile.lua"
 t("Player Profile", "Profil du joueur", "_t")
 t("Logout", "Déconnexion", "_t")
 t("You are logged in", "Vous êtes connecté", "_t")
-t("Do you want to log out?", "Voulez-vous vous déconnecter?", "_t")
+t("Do you want to log out?", "Voulez-vous vous déconnecter ?", "_t")
 t("Log out", "Déconnexion", "_t")
 t("Cancel", "Annuler", "_t")
 t("Login", "Connexion", "_t")
@@ -517,17 +517,17 @@ t("Create Account", "Créer un compte", "_t")
 section "mod-boot/mod/dialogs/ProfileLogin.lua"
 
 t("Online profile ", "Profil en ligne ", "_t")
-t("Username: ", "Pseudonyme: ", "_t")
-t("Password: ", "Mot de passe: ", "_t")
+t("Username: ", "Pseudonyme : ", "_t")
+t("Password: ", "Mot de passe : ", "_t")
 t("Login", "Connexion", "_t")
 t("Cancel", "Annuler", "_t")
-t("Password again: ", "Mot de passe, encore: ", "_t")
+t("Password again: ", "Mot de passe, encore : ", "_t")
 t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "Accepter de recevoir #{bold}#rarement#{normal}# (quelques fois par an) des mails sur les événements que nous lançons.", "_t")
 t("You at least 16 years old, or have parental authorization to play the game.", "Vous devez avoir au moins 16 ans, ou une autorisation parental pour jouer au jeu.", "_t")
 t("Create", "Créer", "_t")
 t("Privacy Policy (opens in browser)", "Politique de confidentialité (s'ouvre dans votre navigateur)", "_t")
 t("Password", "Mot de passe", "_t")
-t("Password mismatch!", "Mot de passe incorrect!", "_t")
+t("Password mismatch!", "Mot de passe incorrect !", "_t")
 t("Username", "Pseudonyme", "_t")
 t("Your username is too short", "Votre pseudonyme est trop court", "_t")
 t("Your password is too short", "Votre mot de passe est trop court", "_t")
@@ -550,9 +550,9 @@ To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# r
 Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
 ]], [[Bienvenu sur #GOLD#Tales of Maj'Eyal#LAST#.
 Pour profiter de toutes les fonctionnalités du jeu, il est #{bold}#hautement#{normal}# recommandé d'enregistrer votre compte steam.
-Heureusement, c'est très facile à faire: vous n'avez besoin que d'un nom de profil et éventuellement d'un e-mail (nous envoyons très peu d'e-mails, peut-être deux par an tout au plus).
+Heureusement, c'est très facile à faire : vous n'avez besoin que d'un nom de profil et éventuellement d'un e-mail (nous envoyons très peu d'e-mails, peut-être deux par an tout au plus).
 ]], "_t")
-t("Username: ", "Pseudonyme: ", "_t")
+t("Username: ", "Pseudonyme : ", "_t")
 t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "Accepter de recevoir #{bold}#rarement#{normal}# (quelques fois par an) des mails sur les événements que nous lançons.", "_t")
 t("You at least 16 years old, or have parental authorization to play the game.", "Vous devez avoir au moins 16 ans, ou une autorisation parental pour jouer au jeu.", "_t")
 t("Register", "Inscription", "_t")
@@ -580,18 +580,18 @@ section "mod-boot/mod/dialogs/UpdateAll.lua"
 
 t("Update all game modules", "Mise à jour de tous les modules du jeu", "_t")
 t([[All those components will be updated:
-]], [[Tous ces composants vont être mis à jour:
+]], [[Tous ces composants vont être mis à jour :
 ]], "_t")
 t("Component", "Composant", "_t")
 t("Nothing to update", "Rien à mettre à jour", "_t")
 t("All your game modules are up to date.", "Tous vos modules sont à jour", "_t")
-t("Game: #{bold}##GOLD#", "Jeu: #{bold}##GOLD#", "_t")
-t("Engine: #{italic}##LIGHT_BLUE#", "Moteur: #{italic}##LIGHT_BLUE#", "_t")
-t("Error!", "Erreur!", "_t")
+t("Game: #{bold}##GOLD#", "Jeu : #{bold}##GOLD#", "_t")
+t("Engine: #{italic}##LIGHT_BLUE#", "Moteur : #{italic}##LIGHT_BLUE#", "_t")
+t("Error!", "Erreur !", "_t")
 t([[There was an error while downloading:
-]], [[Il y a eu une erreur pendant le téléchargement:
+]], [[Il y a eu une erreur pendant le téléchargement :
 ]], "_t")
-t("Downloading: ", "Téléchergement: ", "_t")
+t("Downloading: ", "Téléchergement : ", "_t")
 t("Update", "Mise à jour", "_t")
 t("All updates installed, the game will now restart", "Toutes les mises à jour sont installées, le jeu va maintenant redémarrer", "_t")
 -- texte non traduit
@@ -627,7 +627,7 @@ section "mod-boot/mod/init.lua"
 
 t("Tales of Maj'Eyal Main Menu", "Menu Principal de Tales of Maj'Eyal", "init.lua long_name")
 t([[Bootmenu!
-]], [[Menu de démarrage!
+]], [[Menu de démarrage !
 ]], "init.lua description")
 
 ------------------------------------------------
