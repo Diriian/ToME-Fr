@@ -439,7 +439,7 @@ As the secondary charges go off, the ongoing pyrotechnic display acts as a celeb
 ------------------------------------------------
 section "tome-orcs/data/chats/john-surrender.lua"
 
-t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
 -- texte non traduit
 --[==[
 t("HATE!", "HATE!", "_t")
@@ -687,9 +687,9 @@ t("Very well. We can increase one of your core stats by 4, which one?", "Very we
 ------------------------------------------------
 section "tome-orcs/data/damage_types.lua"
 
-t("%s is knocked back!", "%s est repoussé!", "logSeen")
-t("%s resists the knockback!", "%s résiste au recul!", "logSeen")
-t("%s resists!", "%s résiste!", "logSeen")
+t("%s is knocked back!", "%s est repoussé !", "logSeen")
+t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
+t("%s resists!", "%s résiste !", "logSeen")
 -- texte non traduit
 --[==[
 t("pulse detonator", "pulse detonator", "damage type")
@@ -1351,7 +1351,7 @@ t("overgrown", "overgrown", "entity keyword")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/generic-world-artifacts.lua"
 
-t("%s quaffs the %s!", "%s bois le %s!", "logSeen")
+t("%s quaffs the %s!", "%s bois le %s !", "logSeen")
 -- texte non traduit
 --[==[
 t("potion", "potion", "entity type")
@@ -1783,8 +1783,8 @@ t("something", "quelque chose", "_t")
 t("50% chance to reload 1 ammo", "50% chance de recharger 1 munition", "_t")
 t("scroll", "parchemin", "_t")
 t("This parchment contains some lore.", "Ce parchemin contient des histoires.", "_t")
-t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
-t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
+t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
 t("treant", "tréant", "_t")
 t("A very strong near-sentient tree, which has become hostile to other living things.", "Un arbre quasi intelligent, qui est devenu hostile aux autres êtres vivants.", "_t")
 t("Summon", "Invocation", "_t")
@@ -2126,7 +2126,7 @@ section "tome-orcs/data/general/traps/ritch.lua"
 t("natural", "naturaliste", "entity type")
 t("sand", "sable", "entity subtype")
 t("trap", "piège", "_t")
-t("%s resists!", "%s résiste!", "logSeen")
+t("%s resists!", "%s résiste !", "logSeen")
 -- texte non traduit
 --[==[
 t("sand pit", "sand pit", "entity name")
@@ -4495,9 +4495,9 @@ t("Summons the starscape in the surrounding area in a radius of %d. For %d turns
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/npcs.lua"
 
-t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
-t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer; vous êtes opprimé!", "logPlayer")
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan !", "logPlayer")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
 -- texte non traduit
 --[==[
 t("Petrifying Gaze", "Petrifying Gaze", "talent name")
@@ -4573,8 +4573,8 @@ t("Mind Controlled Yeti", "Mind Controlled Yeti", "talent name")
 section "tome-orcs/data/talents/misc/objects.lua"
 
 t("object techniques", "techniques d'objets", "talent type")
-t("%s resists!", "%s résiste!", "logSeen")
-t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
+t("%s resists!", "%s résiste !", "logSeen")
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan !", "logPlayer")
 -- texte non traduit
 --[==[
 t("steam", "steam", "talent category")
@@ -4793,7 +4793,7 @@ t([[While inside a psionic fog the quantum state of space is warped by your powe
 ------------------------------------------------
 section "tome-orcs/data/talents/psionic/psionic.lua"
 
-t("psionic", "psyché", "talent category")
+t("psionic", "psionique", "talent category")
 -- texte non traduit
 --[==[
 t("gestalt", "gestalt", "talent type")
@@ -5195,6 +5195,7 @@ t([[Trigger an array of small mirrors to appear all over your cloak.
 section "tome-orcs/data/talents/steam/battle-machinery.lua"
 
 t("trap", "piège", "_t")
+t("raging volcano", "volcan furieux", "_t")
 -- texte non traduit
 --[==[
 t("Explosive Steam Engine", "Explosive Steam Engine", "talent name")
@@ -5226,7 +5227,6 @@ t([[Throw a tremor engine on the battlefield that will trigger after 2 turns.
 		For 5 turns after triggering, it will constantly shake the ground and stun, pin, or disarm any creature in radius %d for %d turns.
 		#{italic}#The ground is mere paper to you!#{normal}#]], "tformat")
 t("Seismic Activity", "Seismic Activity", "talent name")
-t("raging volcano", "raging volcano", "_t")
 t([[On its last pulse, your Tremor Engine shakes violently, raising a volcano for %d turns.
 		Each turn, the volcano will send out fiery boulders that deal %0.2f fire and %0.2f physical damage.
 		Damage scales with your Steampower.
@@ -5673,7 +5673,7 @@ The healing and damage will increase with your Steampower.]], "tformat")
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/gunner-training.lua"
 
-t("%s resists!", "%s résiste!", "logSeen")
+t("%s resists!", "%s résiste !", "logSeen")
 -- texte non traduit
 --[==[
 t("Steamgun Mastery", "Steamgun Mastery", "talent name")
@@ -5746,9 +5746,9 @@ t([[Your cunning and dexterity allow you to fire incredible trick shots that can
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/heavy-weapons.lua"
 
-t("%s resists the disarm!", "%s résiste au désarmement!", "logSeen")
+t("%s resists the disarm!", "%s résiste au désarmement !", "logSeen")
 t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
-t("%s resists the stun!", "%s résiste à l'assomement!", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
 -- texte non traduit
 --[==[
 t("Heavy Weapons", "Heavy Weapons", "talent name")
@@ -5850,12 +5850,11 @@ t([[Push your heavy weapon beyond its normal limits to trigger a powerful effect
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/inscriptions.lua"
 
-
--- texte non traduit
---[==[
 t("\
 Its effects scale with your %s stat.", "\
-Its effects scale with your %s stat.", "tformat")
+Ses effets sont proportionnels à votre attribut %s.", "tformat")
+-- texte non traduit
+--[==[
 t("Implant: Steam Generator", "Implant: Steam Generator", "talent name")
 t([[Steam generator that permanently creates %0.1f steam per turn.
 		Can be activated for an instant burst of %d steam.]], [[Steam generator that permanently creates %0.1f steam per turn.
@@ -5906,7 +5905,7 @@ t([[Project a radius 3 electric field from your shield lasting %d turns. Enemies
 section "tome-orcs/data/talents/steam/mecharachnid.lua"
 
 t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
-t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation!", "logPlayer")
+t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
 t("Assault", "Assaut", "_t")
 -- texte non traduit
 --[==[
@@ -6040,12 +6039,12 @@ t("When you use a shoot class talent to hit a creature affected by bloodstar an 
 section "tome-orcs/data/talents/steam/other.lua"
 
 t("Summon", "Invocation", "_t")
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
-t("%s resists the pin!", "%s résiste à l'immobilisation!", "logSeen")
-t("%s resists the mental assault!", "%s résiste à l'assaut mental!", "logSeen")
-t("%s resists the blinding light!", "%s résiste à la lumière aveuglante!", "logSeen")
-t("%s is knocked back!", "%s est repoussé!", "logSeen")
-t("%s resists the knockback!", "%s résiste au recul!", "logSeen")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
+t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
+t("%s resists the mental assault!", "%s résiste à l'assaut mental !", "logSeen")
+t("%s resists the blinding light!", "%s résiste à la lumière aveuglante !", "logSeen")
+t("%s is knocked back!", "%s est repoussé !", "logSeen")
+t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
 -- texte non traduit
 --[==[
 t("Medical Injector", "Medical Injector", "talent name")
@@ -6550,7 +6549,7 @@ t("By using a direct psionic link to your body you can use even more therapeutic
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/turrets.lua"
 
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
 -- texte non traduit
 --[==[
 t("Deploy Turret", "Deploy Turret", "talent name")
@@ -6695,7 +6694,7 @@ t([[A small automatic detection system is always looking for incoming projectile
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/mag.lua"
 
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
 -- texte non traduit
 --[==[
 t("Arcane Amplification Drone Effect", "Arcane Amplification Drone Effect", "talent name")
@@ -6819,6 +6818,7 @@ t("light", "lumière", "effect subtype")
 t("slow", "ralentissement", "effect subtype")
 t("temporal", "temporel", "effect subtype")
 t("celestial", "Céleste", "effect subtype")
+t("chronomancy", "chronomancie", "effect subtype")
 t("undead", "mort-vivant", "effect subtype")
 t("spell", "sort", "effect subtype")
 -- texte non traduit
@@ -6846,7 +6846,6 @@ t("#Target# is overflowing with dark power!", "#Target# is overflowing with dark
 t("+Vamp Surge", "+Vamp Surge", "_t")
 t("#Target#'s dark aura fades.", "#Target#'s dark aura fades.", "_t")
 t("-Vamp Surge", "-Vamp Surge", "_t")
-t("chronomancy", "chronomancy", "effect subtype")
 t("Temporal Ripples", "Temporal Ripples", "_t")
 t("Attackers dealing damage will be healed for %d%% of the damage done.", "Attackers dealing damage will be healed for %d%% of the damage done.", "tformat")
 t("#Target# is fluctuating in time!", "#Target# is fluctuating in time!", "_t")
@@ -6880,7 +6879,7 @@ t("All resistances increased by %d%%.", "All resistances increased by %d%%.", "t
 ------------------------------------------------
 section "tome-orcs/data/timed_effects/mental.lua"
 
-t("psionic", "psyché", "effect subtype")
+t("psionic", "psionique", "effect subtype")
 t("physical", "physique", "effect subtype")
 t("confusion", "confus", "effect subtype")
 t("fear", "peur", "effect subtype")
@@ -6937,7 +6936,7 @@ t("speed", "rapidité", "effect subtype")
 t("spacetime", "espace-temps", "effect subtype")
 t("confusion", "confus", "effect subtype")
 t("The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "La cible est confuse, agit au hasard (chance %d%%) et est incapable d'effectuer des actions complexes.", "tformat")
-t("#Target# wanders around!", "#Target# Max erre dans tous les sens!", "_t")
+t("#Target# wanders around!", "#Target# Max erre dans tous les sens !", "_t")
 t("+Confused", "+Confus", "_t")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
 t("-Confused", "-Confus", "_t")
@@ -6947,7 +6946,7 @@ t("lightning", "foudre", "effect subtype")
 t("tactical", "tactique", "effect subtype")
 t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d partagé)#LAST#", "tformat")
 t("miscellaneous", "divers", "effect subtype")
-t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître; le contrôle direct est rompu!", "_t")
+t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître ; le contrôle direct est rompu !", "_t")
 t("+Out of sight", "+Hors de vue", "_t")
 t("acid", "dégâts d'acid", "effect subtype")
 t("healing", "soin", "effect subtype")
@@ -7049,7 +7048,7 @@ t("bleed", "saignement", "effect subtype")
 t("resistance", "résistance", "effect subtype")
 t("power", "pouvoir", "effect subtype")
 t("pin", "immobilisé", "effect subtype")
-t("psionic", "psyché", "effect subtype")
+t("psionic", "psionique", "effect subtype")
 t("Marked for Death", "Condamné Marqué", "_t")
 t("#Target# regains their concentration.", "#Target# retrouve sa concentration.", "_t")
 t("blood", "sang", "effect subtype")
@@ -7060,17 +7059,17 @@ t("#Target# stops bleeding.", "#Target# cesse de saigner.", "_t")
 t("-Bleeds", "-Saignements", "_t")
 t("poison", "dégâts de poison", "effect subtype")
 t("blight", "fléau", "effect subtype")
-t("#Target# is poisoned!", "#Target# est empoisonné!", "_t")
+t("#Target# is poisoned!", "#Target# est empoisonné !", "_t")
 t("#Target# is no longer poisoned.", "#Target# n'est plus empoisonné.", "_t")
 t("moss", "mousse", "effect subtype")
 t("maimed", "mutilé", "effect subtype")
 t("Damage reduced by %d%%.", "Dégâts reduits de %d%%.", "tformat")
 t("acid", "dégâts d'acid", "effect subtype")
 t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "La cible a été aspergée d'acide et subit %0.2f dégâts d'acide par tour.", "tformat")
-t("#Target# is covered in acid!", "#Target# est recouvert d'acide!", "_t")
+t("#Target# is covered in acid!", "#Target# est recouvert d'acide !", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
 t("lightning", "foudre", "effect subtype")
-t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s s'est rétabli!#LAST#", "logSeen")
+t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s s'est rétabli !#LAST#", "logSeen")
 t("shield", "bouclier", "effect subtype")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts !", "logPlayer")
@@ -7659,7 +7658,7 @@ t("#CRIMSON#You feel a great power nearby!", "#CRIMSON#You feel a great power ne
 ------------------------------------------------
 section "tome-orcs/data/zones/dominion-port/grids.lua"
 
-t("#Source# poisons #Target#!", "#Source# empoisonne #Target#!", "logCombat")
+t("#Source# poisons #Target#!", "#Source# empoisonne #Target# !", "logCombat")
 t("floor", "sol", "entity type")
 t("sand", "sable", "entity subtype")
 t("previous level", "niveau précédent", "entity name")
@@ -7973,7 +7972,7 @@ section "tome-orcs/data/zones/kaltor-shop/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
-t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet tombe du coffre!", "logSeen")
+t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet tombe du coffre !", "logSeen")
 t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
 -- texte non traduit
@@ -8110,7 +8109,7 @@ t("It is approaching...", "It is approaching...", "_t")
 ------------------------------------------------
 section "tome-orcs/data/zones/lost-city/objects.lua"
 
-t("%s resists!", "%s résiste!", "logSeen")
+t("%s resists!", "%s résiste !", "logSeen")
 -- texte non traduit
 --[==[
 t("schematic: Payload", "schematic: Payload", "entity name")
@@ -9329,7 +9328,7 @@ t("I've changed my mind.", "J'ai changé d'avis.", "_t")
 t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t([[Do you want to name your item?
-%s]], [[Vous voulez donner un nom à votre objet?
+%s]], [[Vous voulez donner un nom à votre objet ?
 %s]], "tformat")
 t("Yes, please.", "Oui, s'il vous plaît.", "_t")
 t("Name your item", "Nommez votre objet", "_t")
@@ -9397,7 +9396,7 @@ t("Search: ", "Chercher: ", "_t")
 t("Tinker", "Bricoleur", "_t")
 t("Status", "Statut", "_t")
 t("Create", "Créer", "_t")
-t("Requires:", "Requis:", "_t")
+t("Requires:", "Requis :", "_t")
 -- texte non traduit
 --[==[
 t("", "", "_t")
@@ -9482,7 +9481,7 @@ t("#PURPLE#Automated Reflex System activated!", "#PURPLE#Automated Reflex System
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/interface/Archery.lua"
 
-t("%s is knocked back!", "%s est repoussé!", "logSeen")
+t("%s is knocked back!", "%s est repoussé !", "logSeen")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/interface/Combat.lua"

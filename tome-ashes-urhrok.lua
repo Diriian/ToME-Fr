@@ -777,7 +777,7 @@ t([[By gorging yourself on up to %d stacks of Bleak Outcome from a creature, you
 section "tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
 
 t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
-t("%s resists the silence!", "%s résiste au silence!", "logSeen")
+t("%s resists the silence!", "%s résiste au silence !", "logSeen")
 -- texte non traduit
 --[==[
 t("Draining Assault", "Draining Assault", "talent name")
@@ -840,8 +840,15 @@ t("Demon", "Demon", "_t")
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
 
-t("%s is cured!", "%s est guéri!", "logSeen")
+t("%s is cured!", "%s est soigné !", "logSeen")
 t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
+t("Frost Grab", "Griffes Givrées", "talent name")
+t([[Grab a target and pull it next to you, covering it with frost while reducing its movement speed by 50%% for %d turns.
+		The ice will also deal %0.2f cold damage.
+		The damage and chance to slow will increase with your Spellpower.]], [[Saisit une cible et la tire près de vous, la couvrant de givre et réduisant sa vitesse de déplacement de 50%% pendant %d tours.
+		La glace inflige également %0.2f dégâts de froid.
+		Les dégâts et la chance de ralentir sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("raging volcano", "volcan furieux", "_t")
 -- texte non traduit
 --[==[
 t("Flame Bolts", "Flame Bolts", "talent name")
@@ -996,12 +1003,6 @@ t([[By seathing yourself in flames you phase to a distant location.
 		Any creature caught in the way is burnt for %0.2f fire damage which you use to regain %d vim.
 		The damage will increase with your Spellpower.
 		]], "tformat")
-t("Frost Grab", "Frost Grab", "talent name")
-t([[Grab a target and pull it next to you, covering it with frost while reducing its movement speed by 50%% for %d turns.
-		The ice will also deal %0.2f cold damage.
-		The damage and chance to slow will increase with your Spellpower.]], [[Grab a target and pull it next to you, covering it with frost while reducing its movement speed by 50%% for %d turns.
-		The ice will also deal %0.2f cold damage.
-		The damage and chance to slow will increase with your Spellpower.]], "tformat")
 t("Diseased Body", "Diseased Body", "talent name")
 t([[Whenever you take direct damage, there is a %d%% chance that your your diseased body erupts in blight, diseasing your attacker with a random disease for %d turns.
 		Each turn the disease deals %0.2f blight damage and reduce one random attribute (strength, dexterity, constitution) by %d.
@@ -1011,7 +1012,6 @@ t([[Whenever you take direct damage, there is a %d%% chance that your your disea
 		This may only happen once per turn.
 		The damage increases with your spellpower.]], "tformat")
 t("Volcanic Skin", "Volcanic Skin", "talent name")
-t("raging volcano", "raging volcano", "_t")
 t([[For every turn where you take damage you have a %d%% chance to store a seismic charge.
 		You can activate this spell to consume the charges, spawning a raging volcano that lasts for 2 turns per charges.
 		Each turn the volcano spews 2 flaming boulders that deal %0.2f fire and %0.2f physical damage.
@@ -1028,8 +1028,9 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 section "tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
 
 t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation!", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
 t("Select a teleport location...", "Sélectionnez un lieu de téléportation...", "logPlayer")
+t("The targetted phase door fizzles and works randomly!", "La porte de phase ciblée échoue et fonctionne aléatoirement !", "logPlayer")
 -- texte non traduit
 --[==[
 t("13%% chance to trigger a Blood Spray cast of level %d", "13%% chance to trigger a Blood Spray cast of level %d", "tformat")
@@ -1099,7 +1100,6 @@ t([[Your knowledge of demonic forces grows, allowing you to bind more seeds to y
 		At level 5 it lets you bind a seed to your main body armour.
 		]], "tformat")
 t("Twisted Portal", "Twisted Portal", "talent name")
-t("The targetted phase door fizzles and works randomly!", "The targetted phase door fizzles and works randomly!", "logPlayer")
 t([[Teleports you randomly within a small range of up to %d grids with %d precision.
 		In the spot you left you will summon a random demon from your seeds for %d turns.
 		If the target area is not in line of sight, there is a chance the spell will fizzle.
@@ -1158,7 +1158,7 @@ The damage will scale with your Spellpower.]], "tformat")
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua"
 
-
+t("raging volcano", "volcan furieux", "_t")
 -- texte non traduit
 --[==[
 t("Dark Reign", "Dark Reign", "talent name")
@@ -1190,7 +1190,6 @@ t([[Pay %d%% of your current life and gain 100%% darkness damage conversion for 
 			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], [[Pay %d%% of your current life and gain 100%% darkness damage conversion for 1 turns.
 			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], "tformat")
 t("Erupting Darkness", "Erupting Darkness", "talent name")
-t("raging volcano", "raging volcano", "_t")
 t([[When Dread End creates pools of darkness you can focus your raging thoughts on them to make them erupt into volcanos.
 		Up to %d pools in radius %d will erupt, producing a volcano for %d turns.
 		Each turn the volcano will send out fiery boulders that deal %0.2f fire and %0.2f physical damage.
@@ -1240,11 +1239,12 @@ t([[Your shield is infused with a powerful blight. Anytime you block and apply a
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/fearfire.lua"
 
+t("You can't move there.", "Vous ne pouvez pas vous déplacer là.", "logSeen")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
+t("Infernal Breath", "Souffle Infernal", "talent name")
 -- texte non traduit
 --[==[
 t("Fearscape Shift", "Fearscape Shift", "talent name")
-t("You can't move there.", "You can't move there.", "logSeen")
 t([[Open a gateway to the Fearscape, stepping through it to a nearby location. As you step out, a burst of fire will leave with you, dealing %0.2f demonfire damage to everyone within %d spaces and leaving flames which will deal an additional %0.2f demonfire damage over 4 turns.
 		Additionally, shifting through reality enhances your awareness, allowing you to see all enemies within %d spaces for the next 3 turns.
 		The damage will scale with your Spellpower and the range will increase with the talent level.]], [[Open a gateway to the Fearscape, stepping through it to a nearby location. As you step out, a burst of fire will leave with you, dealing %0.2f demonfire damage to everyone within %d spaces and leaving flames which will deal an additional %0.2f demonfire damage over 4 turns.
@@ -1256,7 +1256,6 @@ t([[Removes all detrimental effects but causes you to burn for %d%% of your max 
 		This does not take a turn.]], [[Removes all detrimental effects but causes you to burn for %d%% of your max health per effect, over 7 turns.
 		This ignores all resists, defenses, and affinities.
 		This does not take a turn.]], "tformat")
-t("Infernal Breath", "Infernal Breath", "talent name")
 t([[Exhale a wave of dark fire with radius %d, lasting 4 turns. Any non-demon caught in the area will take %0.2f fire damage, and flames will be left dealing a further %0.2f each turn. Demons will be healed for the same amount.
 		The damage will increase with your Strength Stat, but critically hit as a spell.]], [[Exhale a wave of dark fire with radius %d, lasting 4 turns. Any non-demon caught in the area will take %0.2f fire damage, and flames will be left dealing a further %0.2f each turn. Demons will be healed for the same amount.
 		The damage will increase with your Strength Stat, but critically hit as a spell.]], "tformat")
@@ -1296,7 +1295,7 @@ t("Restore yourself to full health, but take damage equal to the damage healed o
 section "tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua"
 
 t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
-t("%s resists the shield bash!", "%s résiste a la frappe au bouclier!", "logSeen")
+t("%s resists the shield bash!", "%s résiste a la frappe au bouclier !", "logSeen")
 -- texte non traduit
 --[==[
 t("Flame Leash", "Flame Leash", "talent name")
@@ -1458,7 +1457,8 @@ t([[Your strikes are imbued with a vile power that extends your victim's sufferi
 section "tome-ashes-urhrok/data/talents/corruptions/wrath.lua"
 
 t("You require a two handed weapon to use this talent.", "Vous avez besoin d'une arme à deux mains pour utiliser ce talent.", "logPlayer")
-t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan!", "logPlayer")
+t("You can not do that currently.", "Vous ne pouvez pas faire cela actuellement.", "logPlayer")
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan !", "logPlayer")
 t("Destroyer", "Destructeur", "talent name")
 -- texte non traduit
 --[==[
@@ -1470,7 +1470,6 @@ t([[Swing your weapon with incredible force, striking all enemies in a radius %d
 		This attack can not miss.]], "tformat")
 t("Detonating Charge", "Detonating Charge", "talent name")
 t("You require a two handed weapon and being able to move to use this talent.", "You require a two handed weapon and being able to move to use this talent.", "logPlayer")
-t("You can not do that currently.", "You can not do that currently.", "logPlayer")
 t([[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
 		If the attack hits you release a massive burst of fire in radius %d, knocking away all enemies except your target and dealing %d damage.
 		You must charge from at least 2 tiles away.]], [[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
@@ -1565,7 +1564,7 @@ t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts !", "logPlayer")
 t("heal", "soin", "effect subtype")
 t("resistance", "résistance", "effect subtype")
-t("#Target# is on fire!", "#Target# est en feu!", "_t")
+t("#Target# is on fire!", "#Target# est en feu !", "_t")
 t("+Burn", "+Brûler", "_t")
 t("#Target# stops burning.", "#Target# cesse de brûler.", "_t")
 t("-Burn", "-Brûler", "_t")

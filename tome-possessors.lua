@@ -314,7 +314,7 @@ t([[You point your ghastly finger at a foe affected by Ghastly Wail and send a p
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/psionic.lua"
 
-t("psionic", "psyché", "talent category")
+t("psionic", "psionique", "talent category")
 -- texte non traduit
 --[==[
 t("possession", "possession", "talent type")
@@ -411,16 +411,16 @@ t([[As long as you have at least a stack of Sadist you can mentally lash out at 
 ------------------------------------------------
 section "tome-possessors/data/timed_effects.lua"
 
-t("psionic", "psyché", "effect subtype")
+t("psionic", "psionique", "effect subtype")
 t("High Sun Paladin Aeryn", "Aeryn, Haute Paladine Solaire", "_t")
 t("stun", "assommé", "effect subtype")
-t("#Target# is stunned!", "#Target# est assommé!", "_t")
+t("#Target# is stunned!", "#Target# est assommé !", "_t")
 t("+Stunned", "+Assommé", "_t")
 t("#Target# is not stunned anymore.", "#Target# n'est plus assommé.", "_t")
 t("-Stunned", "-Assommé", "_t")
 t("mind", "esprit", "effect subtype")
 t("The target is dazed, rendering it unable to move, halving all damage done, defense, saves, accuracy, spell, mind and physical power. Any damage will remove the daze.", "La cible est étourdie, ce qui la rend incapable de bouger et réduit de moitié tous ses dégâts, sa défense, ses jets de sauvegarde, sa précision, ainsi que sa puissance magique, mentale et physique. Tout dégât subi mettra fin à cet état d'étourdissement.", "_t")
-t("#Target# is dazed!", "#Target# est étourdi!", "_t")
+t("#Target# is dazed!", "#Target# est étourdi !", "_t")
 t("+Dazed", "+Etourdissement", "_t")
 t("#Target# is not dazed anymore.", "#Target# n'est plus étourdi.", "_t")
 t("-Dazed", "-Etourdissement", "_t")
