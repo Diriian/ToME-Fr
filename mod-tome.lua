@@ -3689,7 +3689,7 @@ t("*#LIGHT_GREEN#As you gaze into the mirror you see an infinite number of sligh
 ------------------------------------------------
 section "mod-tome/data/chats/shertul-fortress-training-orb.lua"
 
-t("All resistances", "Toutes les résistances", "_t")
+t("All resistances", "Résistances globale", "_t")
 t("From 0 to 100", "De 0 à 100", "_t")
 t("Armour Hardiness", "Robustesse d'Armure", "_t")
 t("Armour", "Armure", "_t")
@@ -4619,7 +4619,7 @@ t("nature slow", "nature lente", "damage type")
 t("dig", "creuseage", "damage type")
 t("%s turns into %s.", "%s se transforme en %s.", "logSeen")
 t("slow", "ralentissement", "damage type")
-t("congeal time", "congélation temporel", "damage type")
+t("congeal time", "gel du temps", "damage type")
 t("time prison", "prison temporelle", "damage type")
 t("%s resists the time prison.", "%s résiste à la proison temporelle.", "logSeen")
 t("confusion", "confus", "damage type")
@@ -19997,6 +19997,7 @@ section "mod-tome/data/talents/chronomancy/bow-threading.lua"
 
 t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
 t("Arrow Echoes", "Echos de Flèches", "talent name")
+t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logSeen")
 -- texte non traduit
 --[==[
 t("Arrow Stitching", "Arrow Stitching", "talent name")
@@ -20016,7 +20017,6 @@ t([[Fire an arrow for %d%% weapon damage. When the arrow reaches its destination
 		Each target moved beyond the first increases the damage %0.2f (up to %0.2f bonus damage).
 		Targets take reduced damage the further they are from the epicenter (20%% less per tile).
 		The additional damage scales with your Spellpower.]], "tformat")
-t("You do not have line of sight.", "You do not have line of sight.", "logSeen")
 t([[Over the next %d turns you'll fire up to %d arrows at this target from this location, each dealing %d%% weapon damage to the target. 
 		These shots do not consume ammo.]], [[Over the next %d turns you'll fire up to %d arrows at this target from this location, each dealing %d%% weapon damage to the target. 
 		These shots do not consume ammo.]], "tformat")
@@ -20374,6 +20374,7 @@ t("Paradox Clone", "Clone Paradoxal", "_t")
 t("Damage Smearing", "Dégâts Barbouillés", "talent name")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 t("%s resists the swap!", "%s résiste à la permutation !", "logSeen")
+t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logSeen")
 t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
 -- texte non traduit
 --[==[
@@ -20464,7 +20465,6 @@ t([[You manipulate the spacetime continuum in such a way that you switch places 
 		The spell's hit chance will increase with your Spellpower.]], [[You manipulate the spacetime continuum in such a way that you switch places with another creature with in a range of %d.  The targeted creature will be confused (power %d%%) for %d turns.
 		The spell's hit chance will increase with your Spellpower.]], "tformat")
 t("Temporal Wake", "Temporal Wake", "talent name")
-t("You do not have line of sight.", "You do not have line of sight.", "logSeen")
 t([[Violently fold the space between yourself and another point within range.
 		You teleport to the target location, and leave a temporal wake behind that stuns for %d turns and deals %0.2f temporal and %0.2f physical warp damage to targets in the path.
 		The damage will scale with your Spellpower.]], [[Violently fold the space between yourself and another point within range.
@@ -20554,11 +20554,11 @@ t([[Create a radius three anti-teleport field for %d turns and daze all enemies 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/spacetime-weaving.lua"
 
+t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logPlayer")
 t("trap", "piège", "_t")
 -- texte non traduit
 --[==[
 t("Dimensional Step", "Dimensional Step", "talent name")
-t("You do not have line of sight.", "You do not have line of sight.", "logPlayer")
 t("#Source# folds space with with #target#!", "#Source# folds space with with #target#!", "logCombat")
 t("#Source#'s space-time folding with #target# fizzles!", "#Source#'s space-time folding with #target# fizzles!", "logCombat")
 t("#Source# resists #target#'s space-time folding!", "#Source# resists #target#'s space-time folding!", "logCombat")
@@ -20761,6 +20761,7 @@ t([[Attack the target with either your ranged or melee weapons for %d%% damage.
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/temporal-hounds.lua"
 
+t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logPlayer")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 -- texte non traduit
 --[==[
@@ -20774,7 +20775,6 @@ t([[Upon activation summon a Temporal Hound.  Every %d turns another hound will 
 		Hounds will get, %d Strength, %d Dexterity, %d Constitution, %d Magic, %d Willpower, and %d Cunning, based on your Magic stat.]], "tformat")
 t("Command Hounds: Blink", "Command Hounds: Blink", "talent name")
 t("Temporal Hounds must be sustained to cast this spell.", "Temporal Hounds must be sustained to cast this spell.", "logPlayer")
-t("You do not have line of sight.", "You do not have line of sight.", "logPlayer")
 t([[Command your Temporal Hounds to teleport to the targeted location.  If you target an enemy your hounds will set that enemy as their target.
 		When you learn this talent, your hounds gain %d defense and %d%% resist all after any teleport.
 		At talent level five, if you're not at your maximum number of hounds when you cast this spell a new one will be summoned.
@@ -21422,42 +21422,38 @@ t("Each time a creature affected by vimsense hurts you, you regain %0.2f vim and
 section "mod-tome/data/talents/cunning/ambush.lua"
 
 t("Shadowguard", "Garde des Ombres", "talent name")
+t([[Your Soothing Darkness talent effect now grants 25%% all damage resistance on exiting stealth.
+		When your life drops below 50%% you become immune to negative detrimental effects for %d turns and gain %d defense and %d spellpower for %d turns.]], [[L'effet de votre talent Obscurité Apaisante accorde maintenant 25%% de résistance à tous les dégâts lors de la sortie de furtivité.
+		Lorsque votre vie tombe en dessous de 50%%, vous devenez immunisé aux effets négatifs pendant %d tours et gagnez %d de défense et %d de Puissance des sorts pendant %d tours.]], "tformat")
+t("Shadow Grasp", "Emprise des Ombres", "talent name")
 t("%s resists the silence!", "%s résiste au silence !", "logSeen")
 t("%s resists the disarm!", "%s résiste au désarmement !", "logSeen")
-t("Shadow Veil", "Voile d'Ombre", "talent name")
--- texte non traduit
---[==[
-t([[Your Soothing Darkness talent effect now grants 25%% all damage resistance on exiting stealth.
-		When your life drops below 50%% you become immune to negative detrimental effects for %d turns and gain %d defense and %d spellpower for %d turns.]], [[Your Soothing Darkness talent effect now grants 25%% all damage resistance on exiting stealth.
-		When your life drops below 50%% you become immune to negative detrimental effects for %d turns and gain %d defense and %d spellpower for %d turns.]], "tformat")
-t("Shadow Grasp", "Shadow Grasp", "talent name")
 t([[You reach out with the shadows silencing and disarming your target for %d turns.
 		The shadows will deal %d darkness damage to the target and pull it to you.
-		The chance to apply debuffs improves with your Accuracy and the damage with your Spellpower.]], [[You reach out with the shadows silencing and disarming your target for %d turns.
-		The shadows will deal %d darkness damage to the target and pull it to you.
-		The chance to apply debuffs improves with your Accuracy and the damage with your Spellpower.]], "tformat")
-t("Umbral Agility", "Umbral Agility", "talent name")
+		The chance to apply debuffs improves with your Accuracy and the damage with your Spellpower.]], [[Vous étendez les ombres pour réduire au silence et désarmer votre cible pendant %d tours.
+		Les ombres infligent %d dégâts d'obscurité à la cible et la tirent vers vous.
+		La chance d'appliquer les malus sont proportionnels à votre Précision et les dégâts à votre Puissance des sorts.]], "tformat")
+t("Umbral Agility", "Agilité Ombrale", "talent name")
 t([[Your mastery of dark magic empowers you.
 		You gain %d Accuracy, %d Defense, and %d%% Darkness damage penetration.
-		The effects will increase with your Spellpower stat.]], [[Your mastery of dark magic empowers you.
-		You gain %d Accuracy, %d Defense, and %d%% Darkness damage penetration.
-		The effects will increase with your Spellpower stat.]], "tformat")
-t("No target nearby.", "No target nearby.", "logPlayer")
+		The effects will increase with your Spellpower stat.]], [[Votre maîtrise de la magie sombre vous renforce.
+		Vous gagnez %d de Précision, %d de Défense et %d%% de pénétration des dégâts d'obscurité.
+		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Shadow Veil", "Voile d'Ombre", "talent name")
+t("No target nearby.", "Aucune cible à proximité.", "logPlayer")
 t([[You veil yourself in shadows and let them control you.
 		Immediately after activation and each turn for %d turns, you blink to a nearby foe (within range %d of the location of the first target hit), hitting it for %d%% darkness weapon damage.
 		While veiled, you become immune to status effects and gain %d%% all resistance.
 		While this goes on, you cannot be stopped unless you are killed, and you cannot control your character.
 		If a target isn't found this effect ends.
 		The movement is not considered a teleport.
-		The resistance will increase with your Spellpower stat.]], [[You veil yourself in shadows and let them control you.
-		Immediately after activation and each turn for %d turns, you blink to a nearby foe (within range %d of the location of the first target hit), hitting it for %d%% darkness weapon damage.
-		While veiled, you become immune to status effects and gain %d%% all resistance.
-		While this goes on, you cannot be stopped unless you are killed, and you cannot control your character.
-		If a target isn't found this effect ends.
-		The movement is not considered a teleport.
-		The resistance will increase with your Spellpower stat.]], "tformat")
---]==]
-
+		The resistance will increase with your Spellpower stat.]], [[Vous vous enveloppez d'ombres et les laissez vous contrôler.
+		Immédiatement après l'activation et à chaque tour pendant %d tours, vous vous projetez vers un ennemi proche (dans un rayon de %d cases de la première cible touché), lui infligeant %d%% dégâts d'arme d'obscurité.
+		Tandis que vous êtes voilé, vous devenez immunisé aux effets de statut et gagnez %d%% de résistance globale.
+		Pendant cet effet, vous ne pouvez pas être arrêté (sauf si vous êtes tué), mais perdez le contrôle de votre personnage.
+		L'effet se termine si aucune cible n'est trouvée.
+		Ce déplacement n'est pas considéré comme une téléportation.
+		La résistance est proportionnel à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/artifice.lua"
@@ -21823,31 +21819,27 @@ t([[Your melee and ranged attacks leave your foes unable to focus on any complex
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/shadow-magic.lua"
 
-t("You cannot do that currently.", "Vous ne pouvez pas faire cela actuellement.", "logPlayer")
-t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
--- texte non traduit
---[==[
-t("Shadow Combat", "Shadow Combat", "talent name")
+t("Shadow Combat", "Combat des Ombres", "talent name")
 t([[Channel raw magical energy into your melee attacks; each blow you land will do an additional %.2f darkness damage.
-		The damage will improve with your Spellpower.]], [[Channel raw magical energy into your melee attacks; each blow you land will do an additional %.2f darkness damage.
-		The damage will improve with your Spellpower.]], "tformat")
-t("Shadow Cunning", "Shadow Cunning", "talent name")
-t("Your preparations give you greater magical capabilities. You gain a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "Your preparations give you greater magical capabilities. You gain a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "tformat")
-t("Shadow Feed", "Shadow Feed", "talent name")
+		The damage will improve with your Spellpower.]], [[Canalisez de l'énergie magique brute dans vos attaques de corps à corps ; chaque coup porté infligera %.2f dégâts d'obscurité supplémentaires.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Shadow Cunning", "Ruse des Ombres", "talent name")
+t("Your preparations give you greater magical capabilities. You gain a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "Vos préparatifs vous confèrent de plus grandes capacités magiques. Vous gagnez un bonus de Puissance des sorts égal à %d%% de votre Ruse (bonus actuel : %d).", "tformat")
+t("Shadow Feed", "Alimentation des Ombres", "talent name")
 t([[You draw energy from the depths of the shadows.
-		While sustained, you regenerate %0.2f mana per turn, and your physical and spell attack speed increases by %0.1f%%.]], [[You draw energy from the depths of the shadows.
-		While sustained, you regenerate %0.2f mana per turn, and your physical and spell attack speed increases by %0.1f%%.]], "tformat")
-t("Shadowstep", "Shadowstep", "talent name")
-t("You require to be able to move to use this talent.", "You require to be able to move to use this talent.", "logPlayer")
-t("You do not have line of sight.", "You do not have line of sight.", "logSeen")
-t("%s is not dazed!", "%s is not dazed!", "logSeen")
+		While sustained, you regenerate %0.2f mana per turn, and your physical and spell attack speed increases by %0.1f%%.]], [[Vous puisez de l'énergie dans les profondeurs des ombres.
+		Tant que ce talent est soutenu, vous régénérez %0.2f mana par tour, et votre vitesse d'attaque physique et des sorts augmente de %0.1f%%.]], "tformat")
+t("Shadowstep", "Pas de l'Ombre", "talent name")
+t("You require to be able to move to use this talent.", "Vous devez pouvoir vous déplacer pour utiliser ce talent.", "logPlayer")
+t("You cannot do that currently.", "Vous ne pouvez pas faire cela actuellement.", "logPlayer")
+t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logSeen")
+t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
+t("%s is not dazed!", "%s n'est pas étourdi !", "logSeen")
 t([[Step through the shadows to your target, dazing it for %d turns and hitting it with all your weapons for %d%% darkness weapon damage.
 		Dazed targets are significantly impaired, but any damage will free them.
-		To Shadowstep, you need to be able to see the target.]], [[Step through the shadows to your target, dazing it for %d turns and hitting it with all your weapons for %d%% darkness weapon damage.
-		Dazed targets are significantly impaired, but any damage will free them.
-		To Shadowstep, you need to be able to see the target.]], "tformat")
---]==]
-
+		To Shadowstep, you need to be able to see the target.]], [[Traversez les ombres jusqu'à votre cible, l'étourdissant pendant %d tours et la frappant avec toutes vos armes pour %d%% dégâts d'arme d'obscurité.
+		Les cibles étourdies sont considérablement affaiblies, mais tout dégât les libérera de cet état.
+		Pour utiliser Pas de l'Ombre, vous devez pouvoir voir la cible.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/stealth.lua"
@@ -24564,7 +24556,7 @@ t("range %d; phase %d; cd %d", "portée : %d ; phase : %d ; cd : %d", "tformat")
 t("Rune: Ethereal", "Rune : Éthérée", "talent name")
 t([[Activate the rune to become ethereal for %d turns.
 		While ethereal all damage you deal is reduced by %d%%, you gain %d%% all resistance, you move %d%% faster, and you are invisible (power %d).]], [[Active la rune pour devenir éthéré pendant %d tours.
-		Pendant que vous êtes éthéré, tous les dégâts que vous infligez sont réduits de %d%%, vous gagnez %d%% de résistance générale, vous vous déplacez %d%% plus vite, et êtes invisible (puissance %d).]], "tformat")
+		Pendant que vous êtes éthéré, tous les dégâts que vous infligez sont réduits de %d%%, vous gagnez %d%% de résistance globale, vous vous déplacez %d%% plus vite, et êtes invisible (puissance %d).]], "tformat")
 t("power %d; resist %d%%; move %d%%; dur %d; cd %d", "puissance : %d ; résistance : %d%% ; vitesse : %d%% ; durée : %d ; cd : %d", "tformat")
 t("Rune: Stormshield", "Rune : Bouclier Tempête", "talent name")
 t([[Activate the rune to summon a protective storm around you for %d turns.
@@ -25171,7 +25163,7 @@ t([[You take full control of your own shadow for %d turns.
 		Your shadow is permanently stealthed (%d power), and all melee damage it deals is converted to darkness damage.
 		The shadow cannot teleport.
 		If you release control early or if it leaves your sight for too long, your shadow will dissipate.]], [[Vous prenez le contrôle total de votre propre ombre pendant %d tours.
-		Votre ombre possède vos talents et attributs, a %d%% de vie et inflige %d%% dégâts, a -30%% de résistance générale, -100%% de résistance à la lumière et +100%% de résistance à l'obscurité.
+		Votre ombre possède vos talents et attributs, a %d%% de vie et inflige %d%% dégâts, a -30%% de résistance globale, -100%% de résistance à la lumière et +100%% de résistance à l'obscurité.
 		Votre ombre est en permanence en furtivité (puissance %d) et tous les dégâts de mêlée qu'elle inflige sont convertis en dégâts d'obscurité.
 		L'ombre ne peut pas se téléporter.
 		Si vous libérez le contrôle tôt ou si elle quitte votre vue trop longtemps, votre ombre se dissipera.]], "tformat")
@@ -25373,7 +25365,7 @@ t([[Thaloren have an affinity for natural elements, allowing them to heal for a 
 t("Guardian of the Wood", "Gardien de la Forêt", "talent name")
 t([[Thaloren are part of the wood; it shields them from corruption.
 		Increase disease immunity by %d%%, blight resistance by %0.1f%%, and all resistances by %0.1f%%.]], [[Les Thaloréens font partie de la forêt ; elle les protège de la corruption.
-		Augmente l'immunité aux maladies de %d%%, la résistance aux fléaux de %0.1f%% et à toutes les résistances de %0.1f%%.]], "tformat")
+		Augmente l'immunité aux maladies de %d%%, la résistance aux fléaux de %0.1f%% et %0.1f%% de résistance globale.]], "tformat")
 t("Nature's Pride", "Fierté de la Nature", "talent name")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
 t("treant", "tréant", "_t")
@@ -27212,38 +27204,38 @@ t([[While in deeprock form, you become indomitable, granting you %d%% resistance
 section "mod-tome/data/talents/spells/divination.lua"
 
 t("Arcane Eye", "Oeil Arcanique", "talent name")
--- texte non traduit
---[==[
 t([[Summons an ethereal magical eye at the designated location that lasts for %d turns.
 		The eye cannot be seen or attacked by other creatures, and possesses magical vision that allows it to see any creature in a %d range around it.
 		It does not require light to do so, but it cannot see through walls.
 		Casting the eye does not take a turn.
 		Only one arcane eye can exist at any given time.
 		At level 4, if cast on a creature it will follow it until it expires, or until the creature dies.
-		At level 5, it will place a magical marker on the creatures, negating invisibility and stealth effects.]], [[Summons an ethereal magical eye at the designated location that lasts for %d turns.
-		The eye cannot be seen or attacked by other creatures, and possesses magical vision that allows it to see any creature in a %d range around it.
-		It does not require light to do so, but it cannot see through walls.
-		Casting the eye does not take a turn.
-		Only one arcane eye can exist at any given time.
-		At level 4, if cast on a creature it will follow it until it expires, or until the creature dies.
-		At level 5, it will place a magical marker on the creatures, negating invisibility and stealth effects.]], "tformat")
-t("Keen Senses", "Keen Senses", "talent name")
+		At level 5, it will place a magical marker on the creatures, negating invisibility and stealth effects.]], [[Invoque un oeil magique éthéré à l'emplacement désigné qui dure %d tours.
+		L'oeil ne peut être vu ni attaqué par d'autres créatures, et possède une vision magique lui permettant de voir toute créature dans un rayon de %d autour de lui.
+		Il n'a pas besoin de lumière pour ce faire, mais ne peut pas voir à travers les murs.
+		L'invocation de l'oeil ne prend pas de tour.
+		Un seul oeil arcanique peut exister à tout moment.
+		Au niveau 4, s'il est lancé sur une créature, il la suivra jusqu'à expiration ou jusqu'à la mort de la créature.
+		Au niveau 5, il placera un marqueur magique sur les créatures, annulant les effets d'invisibilité et de furtivité.]], "tformat")
+t("Keen Senses", "Sens Aiguisés", "talent name")
 t([[You focus your senses, getting information from moments in the future.
 		Improves your capacity to see invisible foes by +%d, to see through stealth by +%d, and to perform a critical spell cast by +%d%%.
-		The effects will improve with your Spellpower.]], [[You focus your senses, getting information from moments in the future.
-		Improves your capacity to see invisible foes by +%d, to see through stealth by +%d, and to perform a critical spell cast by +%d%%.
-		The effects will improve with your Spellpower.]], "tformat")
-t("Vision", "Vision", "talent name")
-t("Form a map of your surroundings in your mind in a radius of %d", "Form a map of your surroundings in your mind in a radius of %d", "tformat")
-t("Premonition", "Premonition", "talent name")
-t("#OLIVE_DRAB#Your premonition allows you to raise a shield just in time!", "#OLIVE_DRAB#Your premonition allows you to raise a shield just in time!", "logPlayer")
+		The effects will improve with your Spellpower.]], [[Vous concentrez vos sens, obtenant des informations de moments futurs.
+		Améliore votre capacité à voir les ennemis invisibles de +%d, à voir à travers la furtivité de +%d et à effectuer un sort critique de +%d%%.
+		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Form a map of your surroundings in your mind in a radius of %d", "Formez une carte de vos environs dans votre esprit dans un rayon de %d.", "tformat")
+t("Premonition", "Prémonition", "talent name")
+t("#OLIVE_DRAB#Your premonition allows you to raise a shield just in time!", "#OLIVE_DRAB#Votre prémonition vous permet d'ériger un bouclier juste à temps !", "logPlayer")
 t([[Echoes of the future flash before your eyes, allowing you to sense some incoming attacks.
 		If the attack is not physical, you will erect a temporary shield that reduces all damage of this type by %d%% for 5 turns.
 		This effect can only happen once every 5 turns, and happens before damage is taken.
-		The bonus will increase with your Spellpower.]], [[Echoes of the future flash before your eyes, allowing you to sense some incoming attacks.
-		If the attack is not physical, you will erect a temporary shield that reduces all damage of this type by %d%% for 5 turns.
-		This effect can only happen once every 5 turns, and happens before damage is taken.
-		The bonus will increase with your Spellpower.]], "tformat")
+		The bonus will increase with your Spellpower.]], [[Des échos du futur défilent devant vos yeux, vous permettant de détecter certaines attaques imminentes.
+		Si l'attaque n'est pas physique, vous érigez un bouclier temporaire qui réduit tous les dégâts de ce type de %d%% pendant 5 tours.
+		Cet effet ne peut se produire qu'une fois toutes les 5 tours, et se produit avant de recevoir les dégâts.
+		Le bonus est proportionnel à votre Puissance des sorts.]], "tformat")
+-- texte non traduit
+--[==[
+t("Vision", "Vision", "talent name")
 --]==]
 
 
@@ -28173,45 +28165,40 @@ t([[You summon a river of tortured souls to launch an onslaught of darkness agai
 ------------------------------------------------
 section "mod-tome/data/talents/spells/phantasm.lua"
 
-t("Phantasmal Shield", "Bouclier Fantasmatique", "talent name")
-t("Invisibility", "invisibilité", "talent name")
-t("Mirror Image", "Image Miroir", "talent name")
-t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
-t("A blurred image.", "Une image floue.", "_t")
-t("Summon", "Invocation", "_t")
--- texte non traduit
---[==[
-t("Illuminate", "Illuminate", "talent name")
+t("Illuminate", "Illuminer", "talent name")
 t([[Creates a globe of pure light within a radius of %d that illuminates the area and deals %0.2f damage to all creatures.
-		At level 3, it also blinds all who see it (except the caster) for %d turns.]], [[Creates a globe of pure light within a radius of %d that illuminates the area and deals %0.2f damage to all creatures.
-		At level 3, it also blinds all who see it (except the caster) for %d turns.]], "tformat")
-t("#YELLOW#(%d ignored)#LAST#", "#YELLOW#(%d ignored)#LAST#", "tformat")
+		At level 3, it also blinds all who see it (except the caster) for %d turns.]], [[Crée un globe de lumière pure dans un rayon de %d qui illumine la zone et inflige %0.2f dégâts de lumière à toutes les créatures.
+		Au niveau 3, il aveugle également tous ceux qui le voient (sauf le lanceur) pendant %d tours.]], "tformat")
+t("Phantasmal Shield", "Bouclier Fantasmatique", "talent name")
+t("#YELLOW#(%d ignored)#LAST#", "#YELLOW#(%d ignoré)#LAST#", "tformat")
 t([[Surround yourself with a phantasmal shield of pure light.
 		Whenever you would take damage there is %d%% chance to become ethereal for an instant and fully ignore it.
 		If you do get hit, the shield glows brightly, sending triggering a flash of light on the attacker, dealing %0.2f light damage in radius %d around it and dazzling any affected creature (deal 10%% less damage) for 5 turns. This can only happen every %d turns.
-		The damage and ignore chance will increase with your Spellpower.]], [[Surround yourself with a phantasmal shield of pure light.
-		Whenever you would take damage there is %d%% chance to become ethereal for an instant and fully ignore it.
-		If you do get hit, the shield glows brightly, sending triggering a flash of light on the attacker, dealing %0.2f light damage in radius %d around it and dazzling any affected creature (deal 10%% less damage) for 5 turns. This can only happen every %d turns.
-		The damage and ignore chance will increase with your Spellpower.]], "tformat")
+		The damage and ignore chance will increase with your Spellpower.]], [[Entourez-vous d'un bouclier fantasmatique de lumière pure.
+		Chaque fois que vous subiriez des dégâts, il y a %d%% de chance de devenir éthéré un instant et de les ignorer complètement.
+		Si vous êtes touché, le bouclier brille intensément, déclenchant un éclair de lumière sur l'attaquant, infligeant %0.2f dégâts de lumière dans un rayon de %d autour de lui et éblouissant toute créature affectée (inflige 10%% de dégâts en moins) pendant 5 tours. Cela ne peut se produire que toutes les %d tours.
+		Les dégâts et la chance d'ignorer sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Invisibility", "Invisibilité", "talent name")
 t([[Weave a net of arcane disturbances around your body, removing yourself from the sight of all, granting %d bonus to invisibility for 7 turns.
 		While invisible all damage you deal against blinded or dazzled foes is increased by %d%% (additive with other damage increases).
-		The invisibility bonus will increase with your Spellpower.]], [[Weave a net of arcane disturbances around your body, removing yourself from the sight of all, granting %d bonus to invisibility for 7 turns.
-		While invisible all damage you deal against blinded or dazzled foes is increased by %d%% (additive with other damage increases).
-		The invisibility bonus will increase with your Spellpower.]], "tformat")
-t("Mirror Image (%s)", "Mirror Image (%s)", "tformat")
+		The invisibility bonus will increase with your Spellpower.]], [[Tissez un filet de perturbations arcaniques autour de votre corps, vous soustrayant à la vue de tous, accordant %d de bonus d'invisibilité pendant 7 tours.
+		Tandis que vous êtes invisible, tous les dégâts que vous infligez contre des ennemis aveuglés ou éblouis sont augmentés de %d%% (additif avec d'autres augmentations de dégâts).
+		Le bonus d'invisibilité est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Mirror Image", "Image Miroir", "talent name")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
+t("Mirror Image (%s)", "Image Miroir (%s)", "tformat")
+t("A blurred image.", "Une image floue.", "_t")
+t("Summon", "Invocation", "_t")
 t([[Create a perfect lookalike of your own form made out of pure light near a creature.
 		This image has %d life and can never take more than 1 damage per creature per turn and is immune to any non direct damage (ground effects, damage over time, ...).
 		Whenever you cast a spell your mirror image will try to duplicate it at the same target for 66%% less damage, if possible. If it can, it will lose 1 life, if not it will instead taunt a creature to focus its attention on itself.
 		While the image exists you receive the damage bonus from the Invisibility spell as if you were invisible.
 		This spell can not be cast while a Mirror Image already exists and only in combat. It will disappear after a few turn when outside of combat.
-		]], [[Create a perfect lookalike of your own form made out of pure light near a creature.
-		This image has %d life and can never take more than 1 damage per creature per turn and is immune to any non direct damage (ground effects, damage over time, ...).
-		Whenever you cast a spell your mirror image will try to duplicate it at the same target for 66%% less damage, if possible. If it can, it will lose 1 life, if not it will instead taunt a creature to focus its attention on itself.
-		While the image exists you receive the damage bonus from the Invisibility spell as if you were invisible.
-		This spell can not be cast while a Mirror Image already exists and only in combat. It will disappear after a few turn when outside of combat.
-		]], "tformat")
---]==]
-
+		]], [[Créez un sosie parfait de votre propre forme fait de lumière pure près d'une créature.
+		Cette image a %d de vie et ne peut jamais subir plus de 1 dégât par créature par tour et est immunisée à tout dégât non direct (effets au sol, dégâts dans le temps...).
+		Chaque fois que vous lancez un sort, votre image en miroir essaiera si possible de le dupliquer sur la même cible pour 66%% de dégâts en moins. Si elle peut, elle perdra 1 vie ; sinon elle provoquera plutôt une créature pour qu'elle concentre son attention sur elle.
+		Tant que l'image existe vous recevez le bonus de dégâts du sort d'Invisibilité comme si vous étiez invisible.
+		Ce sort ne peut pas être lancé tant qu'une Image en Miroir existe déjà et seulement en combat. Il disparaîtra après quelques tours hors combat.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/rime-wraith.lua"
@@ -28265,9 +28252,9 @@ t([[Hoarfrost now has additional effects:
 section "mod-tome/data/talents/spells/spectre.lua"
 
 t("Ghost Walk", "Marche Fantôme", "talent name")
+t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logPlayer")
 -- texte non traduit
 --[==[
-t("You do not have line of sight.", "You do not have line of sight.", "logPlayer")
 t("%s's ghost walk fizzles!", "%s's ghost walk fizzles!", "logSeen")
 t([[Taking on a spectral form, you teleport to the target tile within range %d. 
 		For 3 turns after using this spell, you gain the ability to instantly teleport back to your original tile as long as you are within range of it.]], [[Taking on a spectral form, you teleport to the target tile within range %d. 
@@ -28528,28 +28515,24 @@ t([[Surround yourself with a Tempest, increasing all your lightning damage by %d
 ------------------------------------------------
 section "mod-tome/data/talents/spells/temporal.lua"
 
-t("Congeal Time", "Congélation Temporelle", "talent name")
-t("Time Prison", "Prison Temporelle", "talent name")
--- texte non traduit
---[==[
-t("Project a bolt of time distortion, decreasing the target's global speed by %d%% and all projectiles it fires by %d%% for 7 turns.", "Project a bolt of time distortion, decreasing the target's global speed by %d%% and all projectiles it fires by %d%% for 7 turns.", "tformat")
-t("Temporal Shield", "Temporal Shield", "talent name")
+t("Congeal Time", "Gel du Temps", "talent name")
+t("Project a bolt of time distortion, decreasing the target's global speed by %d%% and all projectiles it fires by %d%% for 7 turns.", "Projetez un projectile de distorsion temporelle, diminuant la vitesse globale de la cible de %d%% et celle de tous les projectiles qu'elle tire de %d%% pendant 7 tours.", "tformat")
+t("Temporal Shield", "Bouclier Temporel", "talent name")
 t([[This intricate spell instantly erects a time shield around the caster, preventing any incoming damage and sending it forward in time.
 		Once either the maximum damage (%d) is absorbed, or the time runs out (%d turns), the stored damage will return as a temporal restoration field over time (5 turns).
 		Each turn the restoration field is active, you get healed for 10%% of the absorbed damage (Aegis Shielding talent affects the percentage).
-		The shield's max absorption will increase with your Spellpower.]], [[This intricate spell instantly erects a time shield around the caster, preventing any incoming damage and sending it forward in time.
-		Once either the maximum damage (%d) is absorbed, or the time runs out (%d turns), the stored damage will return as a temporal restoration field over time (5 turns).
-		Each turn the restoration field is active, you get healed for 10%% of the absorbed damage (Aegis Shielding talent affects the percentage).
-		The shield's max absorption will increase with your Spellpower.]], "tformat")
+		The shield's max absorption will increase with your Spellpower.]], [[Ce sort complexe érige instantanément un bouclier temporel autour du lanceur, empêchant tout dégât entrant et l'envoyant vers l'avenir.
+		Une fois que le dégât maximum (%d) est absorbé ou que le temps s'écoule (%d tours), les dégâts stockés retournent sous forme de champ de restauration temporel sur 5 tours.
+		À chaque tour où le champ de restauration est actif, vous êtes soigné de 10%% des dégâts absorbés (le talent Égide affecte le pourcentage).
+		L'absorption maximale du bouclier est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Time Prison", "Prison Temporelle", "talent name")
 t([[Removes the target from the flow of time for %d turns. In this state, the target can neither act nor be harmed.
 		Time does not pass at all for the target, no talents will cooldown, no resources will regen, and so forth.
-		The duration will increase with your Spellpower.]], [[Removes the target from the flow of time for %d turns. In this state, the target can neither act nor be harmed.
-		Time does not pass at all for the target, no talents will cooldown, no resources will regen, and so forth.
-		The duration will increase with your Spellpower.]], "tformat")
-t("Essence of Speed", "Essence of Speed", "talent name")
-t("Increases the caster's global speed by %d%%.", "Increases the caster's global speed by %d%%.", "tformat")
---]==]
-
+		The duration will increase with your Spellpower.]], [[Retire la cible du flux du temps pendant %d tours. Dans cet état, la cible ne peut ni agir ni être blessée.
+		Le temps ne passe pas du tout pour la cible, aucun talent ne recharge, aucune ressource ne se régénère, et ainsi de suite.
+		La durée est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Essence of Speed", "Essence de Vitesse", "talent name")
+t("Increases the caster's global speed by %d%%.", "Augmente la vitesse globale du lanceur de %d%%.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/thaumaturgy.lua"
@@ -28988,7 +28971,7 @@ t([[Take a defensive stance to resist the onslaught of your foes.
 		This consumes stamina rapidly the longer it is sustained (%0.1f stamina/turn, increasing by 0.3/turn).
 		The resist is recalculated each time you take damage.]], [[Adoptez une posture défensive pour résister à l'assaut de vos ennemis.
 		Lorsque vous êtes blessé, vous gagnez une résistance à tout les dégâts égale à %d%% de votre vie manquante.
-		(Ainsi si vous avez perdu 70%% de votre vie, vous gagnez %d%% de résistance.)
+		(Ainsi si vous avez perdu 70%% de votre vie, vous gagnez %d%% de résistance globale.)
 		De plus, votre plafond de résistance augmente de %0.1f%% vers 100%%.
 		Plus Cran Véritable est maintenu plus l'Endurance est consumé rapidement  (%0.1f Endurance/tour, augmentant de 0,3/tour).
 		La résistance est recalculée à chaque fois que vous subissez des dégâts.]], "tformat")
@@ -33771,11 +33754,11 @@ t("The target is near a protective aura, granting +%d armour and +%d physical sa
 t("Antimagic Bush", "Buisson anti-magie", "floorEffect desc")
 t("The target is near an antimagic bush, granting +20%% nature damage, +20%% nature resistance penetration and -%d spellpower.", "La cible se trouve près d'un buisson anti-magie, ce qui lui confère +20%% dégâts de nature, +20%% de pénétration de la résistance à la nature et -%d de puissance des sorts.", "tformat")
 t("Necrotic Air", "Air Nécrotique", "floorEffect desc")
-t("The target is in a zone of necrotic air, granting -40% healing mod. Undead creatures also get +15% to all resistances.", "La cible se trouve dans une zone d'air nécrotique, accordant -40% de modificateur à la guérison. Les créatures mortes-vivantes bénéficient également de +15% à toutes les résistances.", "_t")
+t("The target is in a zone of necrotic air, granting -40% healing mod. Undead creatures also get +15% to all resistances.", "La cible se trouve dans une zone d'air nécrotique, accordant -40% de modificateur à la guérison. Les créatures mortes-vivantes bénéficient également de +15% de résistances globale.", "_t")
 t("Whistling Vortex", "Vortex Sifflant", "floorEffect desc")
 t("The target is in a whistling vortex, granting +%d ranged defense, -%d ranged accuracy and incoming projectiles are 30%% slower.", "La cible se trouve dans un vortex sifflant, accordant +%d de défense à distance, -%d de précision à distance et les projectiles entrants sont 30%% plus lents.", "tformat")
 t("Fell Aura", "Aura Perdue", "floorEffect desc")
-t("The target is surrounded by a fell aura, granting 40% critical damage bonus but -20% to all resistances.", "La cible est entourée d'une aura perdue, accordant un bonus de 40% aux dégâts critiques mais -20% à toutes les résistances.", "_t")
+t("The target is surrounded by a fell aura, granting 40% critical damage bonus but -20% to all resistances.", "La cible est entourée d'une aura perdue, accordant un bonus de 40% aux dégâts critiques mais -20% de résistances globale.", "_t")
 t("Slimey Pool", "Piscine de Vase", "floorEffect desc")
 t("The target is walking on slime. Decreasing movement speed by 20% and dealing 20 slime damage to any creatures attacking it.", "La cible marche sur de la vase. Diminue la vitesse de déplacement de 20% et inflige 20 dégâts de vase à toutes les créatures qui l'attaquent.", "_t")
 
@@ -34245,10 +34228,10 @@ t("#Target# is blood locked.", "La vitalité de #Target# est verouillé.", "_t")
 t("+Blood Lock", "+Verrouillage de la Vitalité", "_t")
 t("#Target# is no longer blood locked.", "La vitalité de #Target# n'est plus verouillé.", "_t")
 t("-Blood Lock", "-Verrouillage de la Vitalité", "_t")
-t("Congeal Time", "Congélation Temporelle", "_t")
+t("Congeal Time", "Gel du Temps", "_t")
 t("Reduces global action speed by %d%% and all outgoing projectiles speed by %d%%.", "Réduit la vitesse d'action globale de %d%% et la vitesse de tous les projectiles de %d%%.", "tformat")
-t("+Congeal Time", "+Congélation Temporelle", "_t")
-t("-Congeal Time", "-Congélation Temporelle", "_t")
+t("+Congeal Time", "+Gel du Temps", "_t")
+t("-Congeal Time", "-Gel du Temps", "_t")
 t("Arcane Vortex", "Vortex Arcanique", "_t")
 t("An arcane vortex follows the target. Each turn a manathrust fires from it to a random foe in sight doing %0.2f arcane damage to all. If no foes are found the main target takes 50%% more arcane damage this turn. If the target dies the remaining damage is dealt as a radius 2 ball of arcane.", "Un vortex arcanique suit la cible. Chaque tour, une poussé de mana en sort et tire sur un ennemi aléatoire en vue, infligeant %0.2f dégâts arcanique à tous. Si aucun ennemi n'est trouvé, la cible principale subit 50%% dégâts arcaniques supplémentaires ce tour-ci. Si la cible meurt, les dégâts restants sont infligés sous la forme d'une boule arcanique de rayon 2.", "tformat")
 t("#Target# is focused by an arcane vortex!", "#Target# est pris dans un vortex arcanique !", "_t")
@@ -35816,7 +35799,7 @@ Défense :  %d
 Tous les Dégâts :  %d%%
 Régénération d'endurance :  %d
 %s]], "tformat")
-t("All Resistance:  20%", "Toutes les Résistances :  20%", "_t")
+t("All Resistance:  20%", "Résistances Globale :  20%", "_t")
 t("#Target# is gaining tempo.", "#Target# accélère le rythme.", "_t")
 t("+Tempo", "+Rythme", "_t")
 t("#Target# loses their tempo.", "#Target# perd le rythme.", "_t")
