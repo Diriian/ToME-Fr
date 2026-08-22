@@ -30,11 +30,11 @@ t("Walrog", "Walrog", "_t")
 ------------------------------------------------
 section "tome-ashes-urhrok/data/birth/corrupted.lua"
 
-t("Their most important stats are: Strength and Magic", "Leurs stats les plus importantes sont: Force et Magie", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#Vie par niveau:#LIGHT_BLUE# +3", "_t")
+t("Their most important stats are: Strength and Magic", "Leurs stats les plus importantes sont : Force et Magie", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#Vie par niveau :#LIGHT_BLUE# +3", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 Magie, +0 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau :#LIGHT_BLUE# +2", "_t")
 -- texte non traduit
 --[==[
 t("Doombringer", "Doombringer", "birth descriptor name")
@@ -55,9 +55,9 @@ t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +
 ------------------------------------------------
 section "tome-ashes-urhrok/data/birth/doomelf.lua"
 
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 9", "#GOLD#Vie par niveau:#LIGHT_BLUE# 9", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 9", "#GOLD#Vie par niveau :#LIGHT_BLUE# 9", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 12%", "_t")
 -- texte non traduit
 --[==[
 t("Doomelf", "Doomelf", "birth descriptor name")

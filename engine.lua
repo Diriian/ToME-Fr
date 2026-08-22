@@ -33,7 +33,7 @@ t("Temple of Creation", "Temple de la création", "nil")
 t("The Way", "La Voie", "nil")
 t([[Today is the %s %s of the %s year of the Age of Ascendancy of Maj'Eyal.
 The time is %02d:%02d.]], [[Aujourd'hui nous sommes le %s %s de la %s année de l'Ère de l'Ascension de Maj'Eyal.
-Il est %02d:%02d。]], "nil", {3,2,1,4,5})
+Il est %02d:%02d.]], "nil", {3,2,1,4,5})
 t("Undead", "Mort-vivant", "nil")
 t("Ungrol of Last Hope", "Ungrol de Dernier Espoir", "nil")
 t("Vargh Republic", "Republique de Vargh", "nil")
@@ -339,12 +339,7 @@ t("", "", "_t")
 ------------------------------------------------
 section "engine/engine/Chat.lua"
 
-
--- texte non traduit
---[==[
-t("???", "???", "_t")
---]==]
-
+t("???", " ???", "_t")
 
 ------------------------------------------------
 section "engine/engine/DebugConsole.lua"
@@ -411,7 +406,7 @@ t([[This beta version is meant to be tested without addons, as such the followin
 #GREY#]], "_t")
 t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#Les développeurs d'addons peuvent continuer à tester leurs addons en activant le mode développeur.#{normal}#", "_t")
 t([[Total playtime of all registered players:%s
-]], [[Temps de jeu total des joueurs enregistré :%s
+]], [[Temps de jeu total des joueurs enregistré : %s
 ]], "tformat")
 t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# est l'une des cinq races les plus jouées", "tformat")
 t("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "#LIGHT_BLUE#%s#WHITE# est l'une des cinq classes les plus jouées", "tformat")
@@ -431,7 +426,7 @@ t("#LIGHT_RED#Mouse input temporarily disabled.", "#LIGHT_RED#Entrées souris te
 ------------------------------------------------
 section "engine/engine/Object.lua"
 
-t("Requires:", "Requis :", "_t")
+t("Requires:", "Requis : ", "_t")
 t("%s (level %d)", "%s (niveau %d)", "tformat")
 t("Level %d", "Niveau %d", "tformat")
 t("Talent %s (level %d)", "Talent %s (Niveau %d)", "tformat")
@@ -730,11 +725,11 @@ t([[#GOLD#Achieved on:#LAST# %s
 %s
 #GOLD#Description :#LAST# %s]], "tformat")
 t("Progress: ", "Progression : ", "_t")
+t("???", " ???", "_t")
 t("-- Unknown --", "-- Inconnu --", "_t")
 -- texte non traduit
 --[==[
 t("", "", "_t")
-t("???", "???", "_t")
 --]==]
 
 

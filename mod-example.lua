@@ -64,7 +64,7 @@ t("open door", "porte ouverte", "entity name")
 section "mod-example/data/general/npcs/kobold.lua"
 
 t("humanoid", "humanoïde", "entity type")
-t("Ugly and green!", "Moche et vert!", "_t")
+t("Ugly and green!", "Moche et vert !", "_t")
 t("kobold warrior", "guerrier kobold", "entity name")
 t("armoured kobold warrior", "guerrier kobold en armure", "entity name")
 -- nouveau texte
@@ -88,13 +88,13 @@ t("Old ruins", "Vieilles ruines", "_t")
 ------------------------------------------------
 section "mod-example/dialogs/DeathDialog.lua"
 
-t("Death!", "Mort!", "_t")
-t("#LIGHT_BLUE#You resurrect! CHEATER !", "#LIGHT_BLUE#Vous ressuscitez! TRICHEUR !", "logPlayer")
+t("Death!", "Mort !", "_t")
+t("#LIGHT_BLUE#You resurrect! CHEATER !", "#LIGHT_BLUE#Vous ressuscitez ! TRICHEUR !", "logPlayer")
 
 ------------------------------------------------
 section "mod-example/dialogs/Quit.lua"
 
-t("Really exit Example Module?", "Vous voulez vraiment quitter le module d'exemple?", "_t")
+t("Really exit Example Module?", "Vous voulez vraiment quitter le module d'exemple ?", "_t")
 
 ------------------------------------------------
 section "mod-example/init.lua"
