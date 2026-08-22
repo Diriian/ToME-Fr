@@ -4431,7 +4431,7 @@ t("Fires out a bolt of pure energy, dealing %0.2f light and %0.2f darkness damag
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/reflection.lua"
 
-
+t("Mirror Image (%s)", "Image Miroir (%s)", "tformat")
 -- texte non traduit
 --[==[
 t("Diffraction Pulse", "Diffraction Pulse", "talent name")
@@ -4442,7 +4442,6 @@ t("Creates a wall %d units long for %d turns, reflecting all projectiles that hi
 t("Spatial Prism", "Spatial Prism", "talent name")
 t("Target a projectile in mid-flight to clone it and target that projectile independently. You gain ownership over the new projectile.", "Target a projectile in mid-flight to clone it and target that projectile independently. You gain ownership over the new projectile.", "_t")
 t("Mirror Self", "Mirror Self", "talent name")
-t("Mirror Image (%s)", "Mirror Image (%s)", "tformat")
 t("A cloned image of you.", "A cloned image of you.", "_t")
 t("Mirror Self", "Mirror Self", "_t")
 t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "tformat")

@@ -29893,32 +29893,26 @@ t("%d%% %s", "%d%% %s", "tformat")
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/thuggery.lua"
 
-
--- texte non traduit
---[==[
-t("Skullcracker", "Skullcracker", "talent name")
-t("%s resists the headblow!", "%s resists the headblow!", "logSeen")
+t("Skullcracker", "Brise-Crâne", "talent name")
+t("%s resists the headblow!", "%s résiste au coup de tête !", "logSeen")
 t([[You smack your forehead against your enemy's head (or whatever sensitive part you can find), causing %0.1f Physical damage.
 		If the attack hits, the target is confused (%d%% effect) for %d turns.
 		Damage done increases with the quality of your headgear, your Strength, and your physical damage bonuses.
-		Confusion power increases with your Dexterity, and chance increases with Accuracy.]], [[You smack your forehead against your enemy's head (or whatever sensitive part you can find), causing %0.1f Physical damage.
-		If the attack hits, the target is confused (%d%% effect) for %d turns.
-		Damage done increases with the quality of your headgear, your Strength, and your physical damage bonuses.
-		Confusion power increases with your Dexterity, and chance increases with Accuracy.]], "tformat")
-t("Riot-born", "Riot-born", "talent name")
-t("Your attunement to violence has given you %d%% resistance to stuns and confusion arising in battle.", "Your attunement to violence has given you %d%% resistance to stuns and confusion arising in battle.", "tformat")
-t("Vicious Strikes", "Vicious Strikes", "talent name")
-t("You know how to hit the right places, gaining +%d%% critical damage modifier and %d armour penetration.", "You know how to hit the right places, gaining +%d%% critical damage modifier and %d armour penetration.", "tformat")
-t("Total Thuggery", "Total Thuggery", "talent name")
+		Confusion power increases with your Dexterity, and chance increases with Accuracy.]], [[Vous frappez votre front contre la tête de votre ennemi (ou toute partie sensible que vous pouvez trouver), infligeant %0.1f dégâts physiques.
+		Si l'attaque touche, la cible est confuse (%d%% d'effet) pendant %d tours.
+		Les dégâts sont proportionnels à la qualité de votre couvre-chef, votre Force, et vos bonus de dégâts physiques.
+		La puissance de Confusion est proportionnel à votre Dextérité, et la chance avec votre Précision.]], "tformat")
+t("Riot-born", "Né de la Rue", "talent name")
+t("Your attunement to violence has given you %d%% resistance to stuns and confusion arising in battle.", "Votre accoutumance à la violence vous confère %d%% de résistance à l'assommement et à la Confusion.", "tformat")
+t("Vicious Strikes", "Frappes Vicieuses", "talent name")
+t("You know how to hit the right places, gaining +%d%% critical damage modifier and %d armour penetration.", "Vous savez comment frapper aux bons endroits, gagnant +%d%% de modificateur de dégâts critiques et %d de pénétration d'armure.", "tformat")
+t("Total Thuggery", "Brutalité Totale", "talent name")
 t([[You go all out, trying to burn down your foes as fast as possible.
 		You gain +%d%% attack speed, +%d%% critical chance and +%d%% physical resistance penetration, but this talent drains 6 stamina each turn.
 		This effect is disabled automatically on rest or run.
-		]], [[You go all out, trying to burn down your foes as fast as possible.
-		You gain +%d%% attack speed, +%d%% critical chance and +%d%% physical resistance penetration, but this talent drains 6 stamina each turn.
-		This effect is disabled automatically on rest or run.
-		]], "tformat")
---]==]
-
+		]], [[Vous donnez tout, essayant d'éliminer vos ennemis aussi vite que possible.
+		Vous gagnez +%d%% de vitesse d'attaque, +%d%% de chance de coup critique et +%d%% de pénétration de résistance physique, mais ce talent draine 6 d'Endurance à chaque tour.
+		Cet effet est désactivé automatiquement au repos ou en course.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/tireless-combatant.lua"
