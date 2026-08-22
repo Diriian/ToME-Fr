@@ -103,7 +103,7 @@ t("Got to level 500 of the infinite dungeon.", "Aller au niveau 500 du donjon in
 ------------------------------------------------
 section "mod-tome/data/achievements/items.lua"
 
-t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "Trouver le Sang de Vie et les quatre inscriptions uniques: l'Essence Primale, l'Essence de Croissance Sauvage, la Rune de Réflexion et la Rune de la Faille.", "_t")
+t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "Trouver le Sang de Vie et les quatre inscriptions uniques : l'Essence Primale, l'Essence de Croissance Sauvage, la Rune de Réflexion et la Rune de la Faille.", "_t")
 t("Treasure Hunter", "Chasseur de trésors", "achievement name")
 t("Amassed 1000 gold pieces.", "Amasser 1000 pièces d'or.", "_t")
 t("Treasure Hoarder", "Accapareurs de trésors", "achievement name")
@@ -213,7 +213,7 @@ t("Killed a boss while already dead.", "Tuer un boss alors qu'il était déjà m
 t("Look at me, I'm playing a roguelike!", "Regardez-moi, je joue à un roguelike !", "achievement name")
 t("Linked yourself in the in-game chat.", "Se connecter dans le chat du jeu.", "_t")
 t("Fear me not!", "Ne me craignez pas !", "achievement name")
-t("Survived the Fearscape!", "J'ai survécu au Plan de la peur !", "_t")
+t("Survived the Fearscape!", "J'ai survécu au Plan de la peur  !", "_t")
 -- texte non traduit
 --[==[
 t("Emancipation", "Emancipation", "achievement name")
@@ -356,7 +356,7 @@ t("Unlocked Archmage class and did over one million fire damage (with any item/t
 t("Cryomancer", "Cryomancien", "achievement name")
 t("Unlocked Archmage class and did over one million cold damage (with any item/talent/class).", "Débloquez la classe Archimage et infligez plus d'un million de dégâts de froid (avec n'importe quel objet/talent/classe).", "_t")
 t("Lichform", "Forme de Liche", "achievement name")
-t("Achieved your wild dreams of power and eternal life: you turned into a Lich!", "Réaliser ses rêves fous de pouvoir et de vie éternelle: tu es devenu une Liche !", "_t")
+t("Achieved your wild dreams of power and eternal life: you turned into a Lich!", "Réaliser ses rêves fous de pouvoir et de vie éternelle : tu es devenu une Liche !", "_t")
 t("Best album ever!", "Meilleur album de tous les temps !", "achievement name")
 t("Removed 89 beneficial effects from enemies via Disintegration.", "Supprimmer 89 effets bénéfiques des ennemis via la désintégration.", "_t")
 
@@ -367,10 +367,10 @@ t("Adventurer", "Aventurier", "birth descriptor name")
 t("Adventurers can learn to do a bit of everything, getting training in whatever they happen to find.", "Les aventuriers peuvent apprendre à faire un peu de tout, pouvant s'entrainer dans ce qu'ils arrivent à trouver.", "_t")
 t("#{bold}##GOLD#This is a bonus class for winning the game.  It is by no means balanced.#WHITE##{normal}#", "#{bold}##GOLD#C'est une classe bonus pour avoir gagné le jeu. Elle n'est en aucun cas équilibrée.#WHITE##{normal}#", "_t")
 t("Their most important stats depend on what they wish to do.", "Leurs stats les plus importantes dépendent de ce qu'ils veulent faire.", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +2 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +2 Force, +2 Dextérité, +2 Constitution", "_t")
 t("#LIGHT_BLUE# * +2 Magic, +2 Willpower, +2 Cunning", "#LIGHT_BLUE# * +2 Magie, +2 Volonté, +2 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau :#LIGHT_BLUE# +0", "_t")
 t("Wanderer seed", "Graine du Vagabond", "birth facial category")
 t("Wanderer", "Vagabond", "birth descriptor name")
 t("Wanderers are adventurers who embrace the chaotic nature of the world. They start the game with the Combat Training talent tree, 3 random class trees and 1 random generic tree.", "Les Vagabonds sont des aventuriers qui embrassent la nature chaotique du monde. Ils commencent le jeu avec l'arbre de talent Entraînement au combat, 3 arbres de classe aléatoires et 1 arbre générique aléatoire.", "_t")
@@ -378,8 +378,8 @@ t("#{bold}##PURPLE#Every 5 levels they gain a new unlocked class tree, at random
 t("#{bold}##PURPLE#Every 10 levels starting at level 2 they gain a new unlocked generic tree, at random.#{normal}##LAST#", "#{bold}##PURPLE#Tous les 10 niveaux, à partir du niveau 2, ils gagnent un nouvel arbre générique débloqué, au hasard.#{normal}##LAST#", "_t")
 t("#{bold}##GOLD#This is a bonus class for the chaotically inclined. It is by no means balanced, fun or winnable, it is most of all #{italic}#RANDOM#{bold}#.#WHITE##{normal}#", "#{bold}##GOLD#Il s'agit d'une classe bonus pour les personnes ayant un penchant chaotique. Elle n'est en aucun cas équilibrée, amusante ou gagnable, elle est avant tout #{italic}#ALEATOIRE#{bold}#.#WHITE##{normal}#", "_t")
 t("Their most important stats depend on what they get to do.", "Leurs statistiques les plus importantes dépendent de ce qu'ils ont à faire.", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
-t("#GOLD#As you level up you learn the talent tree: #LIGHT_BLUE#%s", "#GOLD#Au fur et à mesure que vous montez en grade, vous apprenez l'arbre de talent: #LIGHT_BLUE#%s", "say")
+t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau :#LIGHT_BLUE# +2", "_t")
+t("#GOLD#As you level up you learn the talent tree: #LIGHT_BLUE#%s", "#GOLD#Au fur et à mesure que vous montez en grade, vous apprenez l'arbre de talent : #LIGHT_BLUE#%s", "say")
 t("Wanderer Seed", "Graine du Vagabond", "_t")
 
 ------------------------------------------------
@@ -395,11 +395,11 @@ t("Through ignorance, greed or folly the Cursed served some dark design and are 
 t("Their only master now is the hatred they carry for every living thing.", "Leur seul maître maintenant est la haine qu'ils éprouvent pour toute chose vivante.", "_t")
 t("Drawing strength from the death of all they encounter, the Cursed become terrifying combatants.", "Tirant leur force de la mort de toutes leurs victimes, les maudits deviennent de terrifiants combattants.", "_t")
 t("Worse, any who approach the Cursed can be driven mad by their terrible aura.", "Pire, tous ceux qui approchent la terrible aura des maudits peuvent devenir fou.", "_t")
-t("Their most important stats are: Strength and Willpower", "Leurs stats les plus importantes sont: Force et Volonté", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("Their most important stats are: Strength and Willpower", "Leurs stats les plus importantes sont : Force et Volonté", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +5 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +4 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 Magie, +4 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau :#LIGHT_BLUE# +2", "_t")
 t("Doomed", "Condamné", "birth descriptor name")
 t("In shaded places in unknown lands thou must overcome thyself and see thy doom.", "Dans des lieux voilés, dans des terres inconnues vous devez vous dépasser et voir votre destinée.", "_t")
 t("The Doomed are fallen mages who once wielded powerful magic wrought by ambition and dark bargains.", "Les comdamnés sont des mages déchus qui jadis maniaient de puissantes magies forgées par l'ambition et des pactes obscurs.", "_t")
@@ -407,10 +407,10 @@ t("Stripped of their magic by the dark forces that once served them, they have l
 t("Only time will tell if they can choose a new path or are doomed forever.", "Seul le temps pourra dire si ils peuvent choisir un nouveau chemin ou si ils sont condamnés pour l'éternité.", "_t")
 t("The Doomed strike from behind a veil of darkness or a host of shadows.", "Les condamnés frappent à l'abris d'un voile d'obscurité ou d'un hôte d'ombres.", "_t")
 t("They feed upon their enemies as they unleash their minds on all who confront them.", "Ils se nourrissent de leurs ennemis quand ils relachent leur esprit sur tout ceux qui s'oppose à eux.", "_t")
-t("Their most important stats are: Willpower and Cunning", "Leurs stats les plus importantes sont: Volonté et Ruse", "_t")
+t("Their most important stats are: Willpower and Cunning", "Leurs stats les plus importantes sont : Volonté et Ruse", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +4 Willpower, +5 Cunning", "#LIGHT_BLUE# * +0 Magie, +4 Volonté, +5 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau :#LIGHT_BLUE# +0", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/classes/celestial.lua"
@@ -425,20 +425,20 @@ t("Sun Paladins hail from the Gates of Morning, the last bastion of the free peo
 t("Their way of life is well represented by their motto 'The Sun is our giver, our purity, our essence. We carry the light into dark places, and against our strength none shall pass.'", "Leur façon de vivre est bien représentée par leur devise \"Le soleil est notre bienfaiteur, notre pureté, notre essence. Nous portons la lumière dans les endroits obscurs, et contre notre force rien ne passera.\"", "_t")
 t("They can channel the power of the Sun to smite all who seek to destroy the Sunwall.", "Ils peuvent canaliser le pouvoir du soleil pour frapper tous ceux qui veulent détruire le Mur du soleil.", "_t")
 t("Competent in both weapon and shield combat and magic, they usually burn their foes from afar before bashing them in melee.", "Compétents à la fois dans le combat à l'arme et au bouclier et dans la magie, ils brûlent généralement leur ennemis à distance avant de les combattre au corps à corps.", "_t")
-t("Their most important stats are: Strength and Magic", "Leurs stats les plus importantes sont: Force et Magie", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("Their most important stats are: Strength and Magic", "Leurs stats les plus importantes sont : Force et Magie", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +5 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 Magie, +0 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau :#LIGHT_BLUE# +2", "_t")
 t("The balance of the heavens' powers is a daunting task. Mighty are those that stand in the twilight places, wielding both light and darkness in their mind.", "L'équilibre des puissances du paradis est une tâche hardue. Puissants sont ceux qui se tiennent dans les lieux crépusculaires, maniant à la fois la lumière et les ténèbres dans leur esprit.", "_t")
 t("Anorithils hail from the Gates of Morning, the last bastion of the free people in the Far East.", "Les Anorithils viennent des Portes du Matin, le dernier bastion du peuple libre dans l'extrême orient.", "_t")
 t("Their way of life is well represented by their motto 'We stand betwixt the Sun and Moon, where light and darkness meet. In the grey twilight we seek our destiny.'", "Leur façon de vivre est bien représentée par leur devise \"Nous nous tenons entre le soleil et la lune, là où la lumière et les ténèbres se rencontrent. Dans le gris crépusculaire nous recherchons notre destinée.\"", "_t")
 t("They can channel the power of the Sun and the Moons to burn and tear apart all who seek to destroy the Sunwall.", "Ils peuvent focaliser le pouvoir du soleil et des lunes pour brûler et disloquer tous ceux qui cherchent à détruire le Mur du soleil.", "_t")
 t("Masters of Sun and Moon magic, they usually burn their foes with Sun rays before calling the fury of the stars.", "Maîtres des magies du soleil et de la lune, ils brûlent généralement leurs ennemis avec des rayons solaires avant d'invoquer la fureur des étoiles.", "_t")
-t("Their most important stats are: Magic and Cunning", "Leurs stats les plus importantes sont: Magie et Ruse", "_t")
+t("Their most important stats are: Magic and Cunning", "Leurs stats les plus importantes sont : Magie et Ruse", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +6 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +6 Magie, +0 Volonté, +3 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau :#LIGHT_BLUE# +0", "_t")
 -- texte non traduit
 --[==[
 t("Anorithil", "Anorithil", "birth descriptor name")
@@ -458,19 +458,19 @@ t("A hand may clap alone if it returns to clap itself. Search for the power in t
 t("A Paradox Mage studies the very fabric of spacetime, learning not just to bend it but shape it and remake it.", "Un mage du paradoxe étudie la nature même du tissu spacio-temporel, n'apprenant pas seulement à le plier mais aussi à le façonner et à le recréer.", "_t")
 t("Most Paradox Mages lack basic skills that others take for granted (like general fighting sense), but they make up for it through control of cosmic forces.", "La plupart des mages du paradoxe ont des faiblesses sur des compétences que les autres concidèrent comme aquises (comme les bases du combat), mais ils compensent très bien en contrôlant les forces cosmiques.", "_t")
 t("Paradox Mages start off with knowledge of all but the most complex Chronomantic schools.", "Les mages du paradoxe ne commencent avec rien de plus que la connaissance des plus complexes des écoles de chronomancie.", "_t")
-t("Their most important stats are: Magic and Willpower", "Leurs stats les plus importantes sont: Magie et Volonté", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("Their most important stats are: Magic and Willpower", "Leurs stats les plus importantes sont : Magie et Volonté", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +2 Constitution", "_t")
 t("#LIGHT_BLUE# * +5 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * +5 Magie, +2 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau :#LIGHT_BLUE# +0", "_t")
 t("Temporal Warden", "Gardien du Temps", "birth descriptor name")
 t("We preserve the past to protect the future. The hands of time are guarded by the arms of war.", "Nous préservons le passé et protégeons le futur. Les mains du temps sont gardées par les bras de la guerre.", "_t")
 t("Their lifelines braided, Temporal Wardens have learned to work with their other selves across multiple timelines.", "Leurs lignes de vie entremêlées, les gardiens du temps ont appris à travailler avec leurs congénères à travers de multiples temporalités.", "_t")
 t("Through their study of chronomancy, they learn to blend archery and dual-weapon fighting, seamlessly switching from one to the other.", "A travers leur étude de la chronomancie, ils ont appris à mélanger l'archerie et le combat à deux armes, permutant sans problème de l'un à l'autre.", "_t")
-t("Their most important stats are: Magic, Dexterity, and Willpower", "Leurs stats les plus importantes sont: Magie, Dextérité, et Volonté", "_t")
+t("Their most important stats are: Magic, Dexterity, and Willpower", "Leurs stats les plus importantes sont : Magie, Dextérité, et Volonté", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +3 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 Magie, +2 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau :#LIGHT_BLUE# +2", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/classes/corrupted.lua"
@@ -482,20 +482,20 @@ t("Reaver", "Moissoneur", "birth descriptor name")
 t("Reap thee the souls of thine enemies, and the powers of darkness shall enter thy flesh.", "Fauche les âmes de tes ennemis, et le pouvoir des ténèbres pénétrera ta chair.", "_t")
 t("Reavers are terrible foes, charging their enemies with a weapon in each hand.", "Les moissoneurs sont de terribles adversaires, chargeant leurs ennemis avec une arme dans chaque main.", "_t")
 t("They can harness the blight of evil, infecting their foes with terrible contagious diseases while crushing their skulls with devastating combat techniques.", "Ils peuvent tirer parti du fléau du mal, infectant leurs ennemis avec des maladies terriblement contagieuses tout en écrasant leurs crânes avec des techniques de combat dévastatrices.", "_t")
-t("Their most important stats are: Strength and Magic", "Leurs stats les plus importantes sont: Force et Magie", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("Their most important stats are: Strength and Magic", "Leurs stats les plus importantes sont : Force et Magie", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +4 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +4 Force, +1 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 Magie, +0 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau :#LIGHT_BLUE# +2", "_t")
 t("Corruptor", "Corrupteur", "birth descriptor name")
 t("Blight and depravity hold the greatest powers. Accept temptation and become one with corruption.", "Le fléau et la dépravation détiennent les plus grandes des puissances. Acceptez la tentation et ne faite plus qu'un avec la corruption.", "_t")
 t("A corruptor is a terrible foe, wielding dark magics that can sap the very soul of her target.", "Un corrupteur est un terrible adversaire, maniant les magies obscures pouvant souiller l'âme même de leur cible.", "_t")
 t("They can harness the blight of evil, crushing souls, stealing life force to replenish themselves.", "Ils peuvent utiliser le fléau du mal, détruisant les âmes, volant la force vitale pour se régénérer eux-mêmes.", "_t")
 t("The most powerful corruptors can even take on some demonic aspects for themselves.", "Les corrupteurs les plus puissants peuvent même aller jusqu'à prendre quelques aspects démoniaques pour eux-mêmes.", "_t")
-t("Their most important stats are: Magic and Willpower", "Leurs stats les plus importantes sont: Magie et Volonté", "_t")
+t("Their most important stats are: Magic and Willpower", "Leurs stats les plus importantes sont : Magie et Volonté", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +2 Constitution", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 Magie, +3 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau :#LIGHT_BLUE# +0", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/classes/mage.lua"
@@ -506,11 +506,11 @@ t("An Alchemist is a manipulator of materials using magic.", "Un alchimiste mani
 t("They do not use the forbidden arcane arts practised by the mages of old - such perverters of nature have been shunned or actively hunted down since the Spellblaze.", "Ils n'utilisent pas les arts des arcanes interdits pratiqués par les anciens mages - de tels pervertisseurs de la nature ont été banni ou activement chassé depuis la Brûlure magique.", "_t")
 t("Alchemists can transmute gems to bring forth elemental effects, turning them into balls of fire, torrents of acid, and other effects.  They can also reinforce armour with magical effects using gems, and channel arcane staffs to produce bolts of energy.", "Les alchimistes peuvent transmuter des gemmes pour produire des effets élémentaires, les changeant en boule de feu, en torrents d'acide, et autres. Ils peuvent aussi renforcer les armures avec des effets magiques en utilisant les gemmes, et canaliser leur bâton arcanique pour produire des boules d'énergie.", "_t")
 t("Though normally physically weak, most alchemists are accompanied by magical golems which they construct and use as bodyguards.  These golems are enslaved to their master's will, and can grow in power as their master advances through the arts.", "Bien que normalement faible physiquement, la plupart des alchimistes sont accompagnés par des golems magiques qu'ils construisent et utilisent comme garde du corps. Ces golems sont asservis à la volonté de leur maître, plus leurs maîtres amélioreront leurs compétences et plus ils pourront développer leur puissance.", "_t")
-t("Their most important stats are: Magic and Constitution", "Leurs stats les plus importantes sont: Magie et Constitution", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("Their most important stats are: Magic and Constitution", "Leurs stats les plus importantes sont : Magie et Constitution", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +3 Constitution", "_t")
 t("#LIGHT_BLUE# * +5 Magic, +1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +5 Magie, +1 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# -1", "#GOLD#Vie par niveau:#LIGHT_BLUE# -1", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# -1", "#GOLD#Vie par niveau :#LIGHT_BLUE# -1", "_t")
 t("Golem becomes a Drolem", "Le Golem devient un Drolem", "_t")
 t("Archmage", "Archimage", "birth descriptor name")
 t("Hated, harrowed, hunted, hidden... Our ways are forbidden, but our cause is just. In our veiled valley we find solace from the world's wrath, free to study our arts. Only through charity and friendship can you earn our trust.", "Haïs, harcelés, chassés, cachés... notre voie est interdite, mais notre cause est juste. Dans notre vallée voilée nous avons trouvé le réconfort loin de la colère du monde, libre d'étudier nos arts. Seules la charité et l'amitié vous permettrons de gagner notre confiance.", "_t")
@@ -518,15 +518,15 @@ t("An Archmage devotes his whole life to the study of magic above anything else.
 t("Most Archmagi lack basic skills that others take for granted (like general fighting sense), but they make up for it by their raw magical power.", "La plupart des archimages ont des faiblesses sur des compétences que les autres concidèrent comme aquises (comme les bases du combat), mais ils compensent très bien avec leur puissance magique brute.", "_t")
 t("Archmagi start with knowledge of many schools of magic. However, they usually refuse to have anything to do with Necromancy.", "Les archimages commencent avec des connaissances dans plusieurs écoles de magie. Toutefois, ils refusent habituellement d'avoir quelques liens que se soit avec la nécromancie.", "_t")
 t("Most Archmagi have been trained in the secret town of Angolwen and possess a unique spell to teleport to it directly.", "La plupart des archimages ont été formés dans la ville secrête de Angolwen et possèdent un sort unique leur permettant de se téléporter là-bas directement.", "_t")
-t("Their most important stats are: Magic and Willpower", "Leurs stats les plus importantes sont: Magie et Volonté", "_t")
+t("Their most important stats are: Magic and Willpower", "Leurs stats les plus importantes sont : Magie et Volonté", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +5 Magic, +3 Willpower, +1 Cunning", "#LIGHT_BLUE# * +5 Magie, +3 Volonté, +1 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#Vie par niveau:#LIGHT_BLUE# -4", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#Vie par niveau :#LIGHT_BLUE# -4", "_t")
 t("Necromancer", "Nécromancien", "birth descriptor name")
 t("The road to necromancy is a macabre path indeed. Walk with the dead, and drink deeply of their black knowledge.", "Il est clair que la route vers la nécromancie est une voie macabre. Marcher avec les morts, et boire abondamment dans la noiceur de leur savoir.", "_t")
 t("While most magic is viewed with suspicion since the Spellblaze, the stigma surrounding the black art of Necromancy has been around since time immemorial.", "Bien que la magie soit généralement perçue avec suspicion depuis le Brûlure magique, les stigmates entourant l'art noir de la nécromancie perdurent depuis des temps immémoriaux.", "_t")
-t("These dark spellcasters extinguish life, twist death, and raise armies of undead monsters to sate their lust for power and pursue their ultimate goal: Eternal life.", "Ces mages noirs anéantissent des vies, déforment la mort, et lèvent des armées de monstres mort-vivants pour assouvir leur besoin de puissance et poursuivre leur but ultime: la vie éternelle.", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# -3", "#GOLD#Vie par niveau:#LIGHT_BLUE# -3", "_t")
+t("These dark spellcasters extinguish life, twist death, and raise armies of undead monsters to sate their lust for power and pursue their ultimate goal: Eternal life.", "Ces mages noirs anéantissent des vies, déforment la mort, et lèvent des armées de monstres mort-vivants pour assouvir leur besoin de puissance et poursuivre leur but ultime : la vie éternelle.", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# -3", "#GOLD#Vie par niveau :#LIGHT_BLUE# -3", "_t")
 -- texte non traduit
 --[==[
 t("Mage", "Mage", "birth descriptor name")
@@ -538,7 +538,7 @@ t("Golem", "Golem", "birth facial category")
 section "mod-tome/data/birth/classes/none.lua"
 
 t("None", "Aucune", "birth descriptor name")
-t("Your race cannot select a class; it has its own powers.", "Votre race ne peux pas sélectionner de classe; elle a ses propres pouvoirs.", "_t")
+t("Your race cannot select a class; it has its own powers.", "Votre race ne peux pas sélectionner de classe ; elle a ses propres pouvoirs.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/classes/psionic.lua"
@@ -547,14 +547,14 @@ t("Psionic", "Psionique", "birth descriptor name")
 t("Weakness of flesh can be overcome by mental prowess. Find the way and fight for the way to open the key to your mind.", "La faiblesse de la chair peut être surpassée par les prouesses mentales. Trouvez la voie et combattez pour trouver la clé de votre esprit.", "_t")
 t("Psionics find their power within themselves. Their highly trained minds can harness energy from many different sources and manipulate it to produce physical effects.", "Les psioniques trouvent leur pouvoir en eux-mêmes. Leur esprit hautement entrainé peux exploiter l'énergie de différentes sources et la manipuler pour produire des effets physiques.", "_t")
 t("Mindslayer", "Guerrier psionique", "birth descriptor name")
-t("A thought can inspire; a thought can kill. After centuries of oppression, years of imprisonment, a thought shall break us free and vengeance will strike from our darkest dreams.", "Une pensée peut inspirer; une pensée peut tuer. Après des siècles d'oppression, des années d'emprisonnement, une pensée peut nous libérer et la vengeance va frapper issue de nos rêves les plus noirs.", "_t")
+t("A thought can inspire; a thought can kill. After centuries of oppression, years of imprisonment, a thought shall break us free and vengeance will strike from our darkest dreams.", "Une pensée peut inspirer ; une pensée peut tuer. Après des siècles d'oppression, des années d'emprisonnement, une pensée peut nous libérer et la vengeance va frapper issue de nos rêves les plus noirs.", "_t")
 t("Mindslayers specialize in direct and brutal application of mental forces to their immediate surroundings.", "Les guerriers psioniques sont spécialisés dans l'application directe et brutale des forces mentales sur leur entourage immédiat.", "_t")
 t("When Mindslayers do battle, they will most often be found in the thick of the fighting, vast energies churning around them and telekinetically-wielded weapons hewing nearby foes at the speed of thought.", "Quand des guerriers psioniques se battent, ils se trouvent généralement au centre des combats, d'immenses énergies gravitant autour d'eux et armés télékinetiquement d'armes coupant les ennemis proches à la vitesse de la pensée.", "_t")
-t("Their most important stats are: Willpower and Cunning", "Leurs stats les plus importantes sont: Volonté et Ruse", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("Their most important stats are: Willpower and Cunning", "Leurs stats les plus importantes sont : Volonté et Ruse", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +1 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +1 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +4 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 Magie, +4 Volonté, +4 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# -2", "#GOLD#Vie par niveau:#LIGHT_BLUE# -2", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# -2", "#GOLD#Vie par niveau :#LIGHT_BLUE# -2", "_t")
 t("Solipsist", "Solipsiste", "birth descriptor name")
 t("Some believe that the world is the collective dream of those that live in it.  Find and wake the sleeper and you'll unlock the potential of your dreams.", "Certains prétendent que le monde est le rêve collectif de ceux qui y vivent. Trouvez et reveillez le dormeur et vous débloquerez le potentiel de vos rêves.", "_t")
 t("The Solipsist believes that reality is malleable and nothing more than the collective vision of those that experience it.", "Le solipsiste croit que la réalité est malléable et qu'elle n'est rien de plus que la vision collective de ceux qui la vivent.", "_t")
@@ -562,32 +562,32 @@ t("They wield this knowledge to both create and destroy, to invade the minds of 
 t("This knowledge comes with a heavy price and the Solipsist must guard his thoughts, lest he come to believe that the world exists only within his own mind.", "Ce savoir a un prix élevé et le solipsiste doit surveiller ses pensées, de peur d'en arriver à croire que le monde n'existe seulement qu'à l'intérieur de son propre esprit.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +5 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 Magie, +5 Volonté, +4 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# -4 (*special*)", "#GOLD#Vie par niveau:#LIGHT_BLUE# -4 (*spécial*)", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# -4 (*special*)", "#GOLD#Vie par niveau :#LIGHT_BLUE# -4 (*spécial*)", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/classes/rogue.lua"
 
 t("Rogue", "Brigand", "birth descriptor name")
-t("Rogues are masters of tricks; they can strike from the shadows, and lure monsters into deadly traps.", "Les brigands maîtrisent un grand nombre de combines; ils peuvent frapper depuis les ombres, et attirer des monstres dans des pièges mortels.", "_t")
+t("Rogues are masters of tricks; they can strike from the shadows, and lure monsters into deadly traps.", "Les brigands maîtrisent un grand nombre de combines ; ils peuvent frapper depuis les ombres, et attirer des monstres dans des pièges mortels.", "_t")
 t("Rogues are masters of tricks. A Rogue can get behind you unnoticed and stab you in the back for tremendous damage.", "Les brigands maîtrisent un grand nombre de combines. Un brigand peut se glisser derrière vous sans être vu et vous poignarder dans le dos pour provoquer d'énormes dégâts.", "_t")
 t("Rogues usually prefer to dual-wield daggers. They can also become trapping experts, detecting and disarming traps as well as setting them.", "Les brigands préfèrent habituellement manier les doubles dagues. Ils peuvent également devenir experts dans les pièges, détectant et désarmant les pièges aussi bien qu'ils les posent.", "_t")
-t("Their most important stats are: Dexterity and Cunning", "Leurs stats les plus importantes sont: Dextérité et Ruse", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("Their most important stats are: Dexterity and Cunning", "Leurs stats les plus importantes sont : Dextérité et Ruse", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +1 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +1 Force, +3 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +5 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +5 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau :#LIGHT_BLUE# +0", "_t")
 t("Shadowblade", "Lame ténébreuse", "birth descriptor name")
 t("Shadowblades are Rogues that are touched by the gift of magic, able to kill with their daggers under a veil of stealth while casting spells to enhance their performance and survival.", "Les lames ténébreuses sont des brigands ayant été touchés par le don de magie, capable de tuer avec leurs dagues sous un voile de furtivité tout en lançant des sorts pour améliorer leur performance et leur survie.", "_t")
-t("Their use of magic is innate and not really studied; as such they do not naturally regenerate mana and must use external means of recharging.", "Leur utilisation de la magie est innée et pas vraiment étudiée; à ce titre ils ne régénèrent pas leur magie naturellement et doivent utiliser des moyens extérieurs pour se recharger.", "_t")
+t("Their use of magic is innate and not really studied; as such they do not naturally regenerate mana and must use external means of recharging.", "Leur utilisation de la magie est innée et pas vraiment étudiée ; à ce titre ils ne régénèrent pas leur magie naturellement et doivent utiliser des moyens extérieurs pour se recharger.", "_t")
 t("They use the schools of Phantasm, Temporal, Divination and Conveyance magic to enhance their arts.", "Ils utilisent les écoles de magie du Fantasme, Temporelle, de la Divination, et du Transport pour améliorer leurs arts.", "_t")
-t("Their most important stats are: Dexterity, Cunning and Magic", "Leurs stats les plus importantes sont: Dextérité, Ruse et Magie", "_t")
+t("Their most important stats are: Dexterity, Cunning and Magic", "Leurs stats les plus importantes sont : Dextérité, Ruse et Magie", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +3 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +3 Magie, +0 Volonté, +3 Ruse", "_t")
 t("Marauder", "Maraudeur", "birth descriptor name")
 t("I will not hide and I will not sneak - come dance with my blades and we'll see who's weak. Snapping bone and cracking skull, it's the sounds of battle that make life full!", "Je ne vais pas me cacher ou me défiler - vient danser avec mes lames et nous verrons ta faiblesse. Os cassés et crâne fissuré, c'est le son de la bataille qui donne à la vie sa richesse !", "_t")
 t("The wilds of Maj'Eyal are not a safe place. Untamed beasts and wandering dragons may seem a great threat, but the true perils walk on two legs. Thieves and brigands, assassins and opportunistic adventurers, even mad wizards and magic-hating zealots all carry danger to those who venture beyond the safety of city walls.", "Les contrées sauvages de Maj'Eyal ne sont pas sûres. Des bêtes sauvages et des dragons errants peuvent sembler très menaçants, mais le vrai danger marche sur deux jambes. Voleurs et brigands, assassins et aventuriers opportunistes, sorciers fou et fanatiques haïssant la magie représentent tous un danger pour ceux qui s'aventurent hors de la sécurité des murs de la ville.", "_t")
 t("Amidst this chaos wanders one class of rogue that has learned to take by force rather than subterfuge. With refined techniques, agile feats and brawn-backed blades the Marauder seeks out his targets and removes them by the most direct methods. He uses dual weapons backed by advanced combat training to become highly effective in battle, and he is unafraid to use the dirtiest tactics when the odds are against him.", "Au beau milieu de ce chaos reste une classe de brigand qui a appris à prendre par la force plutôt qu'à base de subterfuges. Avec des techniques raffinées, le pied agile et des lames bien trempées le maraudeur traque ses cibles et les supprime par les méthodes les plus directes. Il utilise deux armes tout en comptant sur son entrainement au combat avancé pour devenir très efficace dans les batailles, et il n'a pas peur d'employer les méthodes les plus viles quand le sort est contre lui.", "_t")
-t("Their most important stats are: Strength, Dexterity and Cunning", "Leurs stats les plus importantes sont: Force, Dextérité et Ruse", "_t")
+t("Their most important stats are: Strength, Dexterity and Cunning", "Leurs stats les plus importantes sont : Force, Dextérité et Ruse", "_t")
 t("#LIGHT_BLUE# * +4 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +4 Force, +4 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +1 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +1 Ruse", "_t")
 t("Skirmisher", "Tirailleur", "birth descriptor name")
@@ -610,33 +610,33 @@ t("Warrior", "Guerrier", "birth descriptor name")
 t("Warriors train in all aspects of physical combat. They can be juggernauts of destruction wielding two-handed greatswords, or massive iron-clad protectors with gleaming shields.", "Les guerriers s'entraînent sur tous les aspects du combat physique. Ils peuvent être des mastodontes de la destruction maniant des épées à deux mains, ou des protecteurs cuirassés massifs aux boucliers étincelants.", "_t")
 t("A Berserker wields huge two-handed weapons of destruction, bringing pain and death to his foes as he cleaves them in two.", "Un berserker manie d'énormes armes à deux mains destructrices, apportant douleur et mort à ses ennemis en les tranchant en deux.", "_t")
 t("A Berserker usually forfeits all ideas of self-defense to concentrate on what he does best: killing things.", "Un berserker abandonne généralement toute idée de self-defense pour se concentrer sur ce qu'il sait faire de mieux : tuer des choses.", "_t")
-t("Their most important stats are: Strength and Constitution", "Leurs stats les plus importantes sont: Force et Constitution", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("Their most important stats are: Strength and Constitution", "Leurs stats les plus importantes sont : Force et Constitution", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +1 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +5 Force, +1 Dextérité, +3 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#Vie par niveau:#LIGHT_BLUE# +3", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#Vie par niveau :#LIGHT_BLUE# +3", "_t")
 t("Bulwark", "Bastion", "birth descriptor name")
 t("A Bulwark specializes in weapon and shield combat, rarely leaving the cover of her many protective techniques.", "Un bastion se spécialise dans le combat à l'arme et au bouclier, il ne sort que rarement de la couverture de ses techniques protectrices.", "_t")
 t("A good Bulwark is able to withstand terrible attacks from all sides, protected by her shield, and when the time comes lash out at her foes with incredible strength.", "Un bon bastion est capable de résister à de terribles attaques venant de toutes parts, protégé par son bouclier, et quand le moment est venu il peut se déchaîner sur ses ennemis avec une force incroyable.", "_t")
-t("Their most important stats are: Strength and Dexterity", "Leurs stats les plus importantes sont: Force et Dextérité", "_t")
+t("Their most important stats are: Strength and Dexterity", "Leurs stats les plus importantes sont : Force et Dextérité", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +2 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +5 Force, +2 Dextérité, +2 Constitution", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +6", "#GOLD#Vie par niveau:#LIGHT_BLUE# +6", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +6", "#GOLD#Vie par niveau :#LIGHT_BLUE# +6", "_t")
 t("Archers are dexterous ranged fighters, able to pin their foes to the ground and rain down a carpet of arrows on them.", "Les archers sont des guerriers à distance agiles, capable de clouer leurs ennemis au sol et de faire pleuvoir une volée de flêches sur eux.", "_t")
 t("Skilled archers can fire special shots that pierce, cripple or pin their foes.", "Les archers talentueux peuvent lancer des tirs spéciaux qui percent, paralysent ou clouent au sol leurs ennemis.", "_t")
 t("Archers can become good with either longbows or slings.", "Les archers peuvent devenir fort aussi bien avec des arcs qu'avec des frondes.", "_t")
-t("Their most important stats are: Dexterity and Strength (when using bows) or Cunning (when using slings)", "Leurs stats les plus importantes sont: Dextérité et Force (quand ils utilisent des arcs) ou Ruse (quand ils utilisent des frondes)", "_t")
+t("Their most important stats are: Dexterity and Strength (when using bows) or Cunning (when using slings)", "Leurs stats les plus importantes sont : Dextérité et Force (quand ils utilisent des arcs) ou Ruse (quand ils utilisent des frondes)", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +5 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +2 Force, +5 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +2 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +2 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau :#LIGHT_BLUE# +0", "_t")
 t("Arcane Blade", "Lame arcanique", "birth descriptor name")
 t("The Arcane Blade is a warrior who has been touched by the gift of magic.", "Une lame arcanique est un guerrier ayant été touché par le don de magie.", "_t")
-t("Their use of magic is innate and not really studied; as such they do not naturally regenerate mana and must use external means of recharging.", "Leur utilisation de la magie est innée et pas vraiment étudiée; à ce titre ils ne régénèrent pas leur magie naturellement et doivent utiliser des moyens extérieurs pour se recharger.", "_t")
+t("Their use of magic is innate and not really studied; as such they do not naturally regenerate mana and must use external means of recharging.", "Leur utilisation de la magie est innée et pas vraiment étudiée ; à ce titre ils ne régénèrent pas leur magie naturellement et doivent utiliser des moyens extérieurs pour se recharger.", "_t")
 t("They can cast spells from a limited selection but have the unique capacity to 'channel' their attack spells through their melee attacks.", "Ils peuvent lancer des sorts à partir d'une sélection limitée mais ont la capacité unique de 'canaliser' leur sorts d'attaque à travers leurs attaques au corps à corps.", "_t")
 t("They are adept with two-handed weapons, for the sheer destruction they can bring.", "Ils sont adeptes des armes à deux mains, pour la destruction pure qu'elles procurent.", "_t")
-t("Their most important stats are: Strength, Cunning and Magic", "Leurs stats les plus importantes sont: Force, Ruse et Magie", "_t")
+t("Their most important stats are: Strength, Cunning and Magic", "Leurs stats les plus importantes sont : Force, Ruse et Magie", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +3 Magie, +0 Volonté, +3 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau :#LIGHT_BLUE# +2", "_t")
 t("Brawler", "Lutteur", "birth descriptor name")
 t("Though you may fight alone against many, destined to fight till you die, still you do not relent. In a ring of blood you learn that a pair of fists can face the world.", "Bien que vous combattiez seul contre la multitude, destiné à vous battre jusqu'à la mort, vous continuez sans céder. Dans une arène de sang vous apprenez que vos poings peuvent faire face au monde entier.", "_t")
 t("The ravages of the Spellblaze stretched armies thin and left many unprotected. Not everyone could afford the luxury of a weapon.", "Les ravages de la Brûlure magique ont poussés les armées jusqu'à leurs limites et les ont laissées sans défenses. Tout le monde ne peut pas s'offrir le luxe d'avoir une arme.", "_t")
@@ -644,7 +644,7 @@ t("Without steel or iron, poor communities of all races turned to the strength o
 t("Whether a pit-fighter, a boxer, or just an amateur practitioner, the Brawler's skills are still handy today.", "Que ce soit pour un combattant des fosses, un boxeur, ou juste un pratiquant amateur, les aptitudes de lutteur restent utiles de nos jours.", "_t")
 t("Many of the Brawler's abilities will earn combo points which they can use on finishing moves that will have added effect.", "Plusieurs des aptitudes du lutteur vont générer des points de combo qui pourront être utilisés lors de coups finaux pour les renforcer d'un effet.", "_t")
 t("The unarmed fighting styles the Brawler uses rely on maneuverability and having both hands available. As such, they cannot make use of their training wearing massive armour or while a weapon or shield is equipped.", "Le style de combat sans armes que le lutteur utilise repose sur la maniabilité et le fait que les deux mains soient libres. A ce titre, ils ne peuvent pas utiliser leur entraînement s'ils portent des armures lourdes ou s'ils sont équipés d'une arme ou d'un bouclier.", "_t")
-t("Their most important stats are: Strength, Dexterity, and Cunning", "Leurs stats les plus importantes sont: Force, Dextérité, et Ruse", "_t")
+t("Their most important stats are: Strength, Dexterity, and Cunning", "Leurs stats les plus importantes sont : Force, Dextérité, et Ruse", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 Force, +3 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +3 Ruse", "_t")
 -- texte non traduit
@@ -665,27 +665,27 @@ t("Summoner", "Invocateur", "birth descriptor name")
 t("Not all might comes from within. Hear the invocations of nature, hear its calling power. See that from without we can find our true strengths.", "Tout ne peut pas venir de l'intérieur. Entendez l'appel de la nature, entendez sa puissante attraction. Réalisez que notre vrai force se trouve dans ce qui nous entoure.", "_t")
 t("Summoners never fight alone. They are always ready to summon one of their many minions to fight at their side.", "Les invocateurs ne combattent jamais seul. Ils sont toujours prêts à invoquer l'un de leurs serviteurs pour combattre à leur coté.", "_t")
 t("Summons can range from a combat hound to a fire drake.", "Les invocations peuvent aller du chien de combat au dragonnet de feu.", "_t")
-t("Their most important stats are: Willpower and Cunning", "Leurs stats les plus importantes sont: Volonté et Ruse", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("Their most important stats are: Willpower and Cunning", "Leurs stats les plus importantes sont : Volonté et Ruse", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +1 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +5 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 Magie, +5 Volonté, +3 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
-t("Max summons: %d", "Invocations max: %d", "tformat")
+t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau :#LIGHT_BLUE# +0", "_t")
+t("Max summons: %d", "Invocations max : %d", "tformat")
 t("Wyrmic", "Draconien", "birth descriptor name")
 t("Sleek, majestic, powerful... In the path of dragons we walk, and their breath is our breath. See their beating hearts with your eyes and taste their majesty between your teeth.", "Élégants, majestueux, puissants... Sur la voie des dragons nous marchons, et leur souffle est notre souffle. Voyez leurs cœurs battants de vos propres yeux et goûtez leur majesté entre vos dents.", "_t")
 t("Wyrmics are fighters who have learnt how to mimic some of the aspects of the dragons.", "Les draconiens sont des combattants qui ont appris comment immiter certains aspects des dragons.", "_t")
 t("They have access to talents normally belonging to the various kind of drakes.", "Ils ont accès à certains talents appartenant normalement à l'espèce très variée des dragonnets.", "_t")
-t("Their most important stats are: Strength and Willpower", "Leurs stats les plus importantes sont: Force et Volonté", "_t")
+t("Their most important stats are: Strength and Willpower", "Leurs stats les plus importantes sont : Force et Volonté", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +5 Force, +0 Dextérité, +1 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 Magie, +3 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau:#LIGHT_BLUE# +2", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau :#LIGHT_BLUE# +2", "_t")
 t("Oozemancer", "Boumancien", "birth descriptor name")
 t("Magic must fail, magic must lose, nothing arcane can face the ooze...", "La magie peut rater, la magie peut échouer, mais aucune arcane ne peut battre le slime...", "_t")
 t("Oozemancers separate themselves from normal civilisation so that they be more in harmony with Nature. Arcane force are reviled by them, and their natural attunement to the wilds lets them do battle with abusive magic-users on an equal footing.", "Les Boumanciens se séparent volontairement de la civilisation pour être plus en harmonie avec la nature. Ils abhorrent les forces des arcanes, et leur lien inné avec la nature les faits combattre les mages peu scrupuleux d'égal à égal.", "_t")
 t("They can spawn oozes to protect and attack from a distance while also being adept at harnessing the power of mindstars and psiblades.", "Ils peuvent invoquer des boueux pour se protéger et attaquer à distance bien qu'ils soient également adepte de l'exploitation de la puissance des étoiles d'âme ou des lames psi.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +5 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 Magie, +5 Volonté, +4 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# -3", "#GOLD#Vie par niveau:#LIGHT_BLUE# -3", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# -3", "#GOLD#Vie par niveau :#LIGHT_BLUE# -3", "_t")
 t("Stone Warden", "Gardien de pierre", "birth descriptor name")
 t([[The Spellblaze's scars may be starting to heal,
 but little can change how the partisans feel.
@@ -697,7 +697,7 @@ et quand viendra ce moment, l'or ne prendra pas parti...]], "_t")
 t("Stone Wardens are dwarves trained in both the eldritch arts and the worship of nature.", "Les gardiens de pierre sont des nains entraînés à la fois dans les arts surnaturels et la voie de la nature.", "_t")
 t("While other races are stuck in their belief that arcane forces and natural forces are meant to oppose, dwarves have found a way to combine them in harmony.", "Pendant que les autres races sont coincés dans leurs dogmes visant à opposer les forces arcaniques aux forces de la nature, les nains ont trouvé le moyen de les unir en harmonie.", "_t")
 t("Stone Wardens are armoured fighters, dual wielding shields to channel many of their powers.", "Les gardiens de pierre sont des guerriers en armure, portant deux boucliers pour canaliser une grande partie de leurs pouvoirs.", "_t")
-t("Their most important stats are: Strength, Magic and Willpower", "Leurs stats les plus importantes sont: Force, Magie et Volonté", "_t")
+t("Their most important stats are: Strength, Magic and Willpower", "Leurs stats les plus importantes sont : Force, Magie et Volonté", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +2 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 Magie, +3 Volonté, +0 Ruse", "_t")
 
@@ -753,7 +753,7 @@ t("Stairs can not be used for 9 turns after a kill.", "Les escaliers ne peuvent 
 t("Player starts with 100 more life and 500 gold, but trust us, you'll need it!", "Le joueur commence avec 100 points de vie en plus et 500 pièces d'or, mais croyez-nous, vous en aurez besoin !", "_t")
 t("Player is being hunted! Randomly all foes in a radius will get a feeling of where she/he is", "Le joueur est chassé ! Aléatoirement, tous les ennemis aux alentours vont avoir le sentiment de savoir où il/elle est", "_t")
 t("Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.", "Le joueur peut obtenir la version folie des succès si il joue également en mode Roguelike ou Aventure.", "_t")
-t("Exploration mode: Infinite lives (donator feature)", "Mode exploration: Vies infinis (Option de donateur)", "_t")
+t("Exploration mode: Infinite lives (donator feature)", "Mode exploration : Vies infinis (Option de donateur)", "_t")
 t("#GOLD##{bold}#Exploration mode#WHITE#", "#GOLD##{bold}#Mode exploration#WHITE#", "_t")
 t("Provides you with infinite lives.#{normal}#", "Vous procure une infinité de vies.#{normal}#", "_t")
 t("This is not the way the game is meant to be played, but it allows you to have a more forgiving experience.", "Ce n'est pas la façon dont le jeu est prévu d'être joué, mais cela vous permet d'avoir une expérience plus indulgente.", "_t")
@@ -767,7 +767,7 @@ t("Use it if you want normal playing conditions but do not feel ready for just o
 t("At level 1,2,5,7,14,24,35 get one more 'life' that allows you to resurrect at the start of the level.", "Vous obtenez une vie supplémentaire au niveau 1,2,5,7,14,24,35 qui vous permettra de ressusciter au début du niveau.", "_t")
 t("#GOLD##{bold}#Roguelike mode#WHITE#", "#GOLD##{bold}#Mode roguelike#WHITE#", "_t")
 t("Provides the closer experience to 'classic' roguelike games.", "Vous procure l'expérience la plus proche des jeux de type roguelike.", "_t")
-t("You will only have one life; you *ARE* your character.#{normal}#", "Vous n'aurez qu'une seule vie; vous *ÊTES* votre personnage.#{normal}#", "_t")
+t("You will only have one life; you *ARE* your character.#{normal}#", "Vous n'aurez qu'une seule vie ; vous *ÊTES* votre personnage.#{normal}#", "_t")
 t("Only one life, unless ways to self-resurrect are found in-game.", "Une seule vie, sauf si des moyens de vous auto-ressusciter sont trouvés en jeu.", "_t")
 -- texte non traduit
 --[==[
@@ -793,11 +793,11 @@ t("Special", "Spécial", "birth facial category")
 t("Runic Golem", "Golem runique", "birth descriptor name")
 t("Runic Golems are creatures made of solid rock and animated using arcane forces.", "Les golems runiques sont des créatures faites de roche et animées à l'aide des forces arcaniques.", "_t")
 t("They cannot be of any class, but they have many intrinsic abilities.", "Ils ne peuvent avoir de classe, mais ils ont beaucoup de capacités intrinsèques.", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -2 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +3 Force, -2 Dextérité, +3 Constitution", "_t")
 t("#LIGHT_BLUE# * +2 Magic, +2 Willpower, -5 Cunning", "#LIGHT_BLUE# * +2 Magie, +2 Volonté, -5 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#Vie par niveau:#LIGHT_BLUE# 13", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 25%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 25%", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#Vie par niveau :#LIGHT_BLUE# 13", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 25%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 25%", "_t")
 t("Skin Color 1", "Couleur de Peau 1", "_t")
 t("Skin Color 2", "Couleur de Peau 2", "_t")
 t("Skin Color 3", "Couleur de Peau 3", "_t")
@@ -841,11 +841,11 @@ t("Hairs", "Cheveux", "birth facial category")
 t("Facial features", "Modifications faciales", "birth facial category")
 t("Special", "Spécial", "birth facial category")
 t("They possess the #GOLD#Resilience of the Dwarves#WHITE# which allows them to increase their armour, physical and spell saves for a few turns.", "Ils possèdent la #GOLD#Résistance des nains#WHITE# qui leur permet d'augmenter leur armure et leurs jets de sauvegarde physique et contre les sorts pour quelques tours.", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +4 Strength, -2 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +4 Force, -2 Dextérité, +3 Constitution", "_t")
 t("#LIGHT_BLUE# * -2 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 Magie, +3 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 14", "#GOLD#Vie par niveau:#LIGHT_BLUE# 14", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 0%", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 14", "#GOLD#Vie par niveau :#LIGHT_BLUE# 14", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 0%", "_t")
 t("Dark Hair 1", "Cheveux Foncés 1", "_t")
 t("Dark Beard 2", "Barbe Noire 2", "_t")
 t("Skin Color 1", "Couleur de Peau 1", "_t")
@@ -971,19 +971,19 @@ t("Redhead Hair 5", "Cheveux Roux 5", "_t")
 t("Shaloren elves have close ties with the magic of the world, and produced in the past many great mages.", "Les elfes Shaloréens sont intimement liés à la magie du monde, et ont produit beaucoup de grands mages dans le passé.", "_t")
 t("Yet they remain quiet and try to hide their magic from the world, for they remember too well the Spellblaze - and the Spellhunt that followed.", "Maintenant ils restent tranquille et essaient de cacher leur magie au reste du monde, car ils se rappellent trop bien la Brûlure magique - et la Purge Arcanique qui a suivi.", "_t")
 t("They possess the #GOLD#Grace of the Eternals#WHITE# talent which allows them a boost of speed every once in a while.", "Ils possèdent le talent #GOLD#Grâce des éternels#WHITE# qui leur attribue une poussée de vitesse une fois de temps en temps.", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * -2 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * -2 Force, +1 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +2 Magic, +3 Willpower, +1 Cunning", "#LIGHT_BLUE# * +2 Magie, +3 Volonté, +1 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 9", "#GOLD#Vie par niveau:#LIGHT_BLUE# 9", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 9", "#GOLD#Vie par niveau :#LIGHT_BLUE# 9", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 12%", "_t")
 t("Thaloren elves have spent most of the ages hidden within their forests, seldom leaving them.", "Les elfes Thaloréens ont passés la plupart des ères cachés dans leurs forêts, en les quittant rarement.", "_t")
 t("The ages of the world passed by and yet they remained unchanged.", "Les ères du monde se sont succèdées et ils restent aujourd'hui inchangés.", "_t")
 t("Their affinity for nature and their reclusion have made them great protectors of the natural order, often opposing their Shaloren cousins.", "Leur affinité avec la nature et leur réclusion ont fait d'eux de grands protecteurs de l'ordre naturel, s'opposant souvent à leurs cousins Shaloréens.", "_t")
 t("They possess the #GOLD#Gift of the Woods#WHITE# talent, which allows them to regenerate life and increase healing once in a while.", "Ils possèdent le talent #GOLD#Don des Bois#WHITE#, qui leur permet de régénérer leur vie et d'augmenter leurs soins une fois de temps en temps.", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +3 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +2 Force, +3 Dextérité, +1 Constitution", "_t")
 t("#LIGHT_BLUE# * -2 Magic, +1 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 Magie, +1 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 11", "#GOLD#Vie par niveau:#LIGHT_BLUE# 11", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 0%", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 11", "#GOLD#Vie par niveau :#LIGHT_BLUE# 11", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 0%", "_t")
 -- texte non traduit
 --[==[
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
@@ -1012,17 +1012,17 @@ to start, look where halflings once tinkered with portals...]], [[Forgés dans l
 créés pour une guerre dans le but de la surpasser.
 Leur berceau oublié repose au fond des sousterrains,
 ses tunnels ruinés, impossible d'en voir la fin.
-Les voleurs du passé ont échoués, mais leurs écrits sont là;
+Les voleurs du passé ont échoués, mais leurs écrits sont là ;
 pour commencer, regardez où les halfelins ont portés leurs pas...]], "_t")
 t("Ogres are an altered form of Human, created in the Age of Allure as workers and warriors for the Conclave.", "Les ogres sont une forme altérée d'humain, créés durant l'Ère de la Séduction en tant que travailleurs et guerriers pour le Conclave.", "_t")
 t("Inscriptions have granted them magical and physical power far beyond their natural limits, but their dependence on runic magic made them a favored target during the Spellhunt, forcing them to take refuge among the Shalore.", "Les inscriptions leur ont octroyés une puissance magique et physique bien au delà de leurs limites naturelles, mais leur dépendance à la magie runique en a fait des cibles privilégiées pendant la Purge Arcanique, les forçant a trouver refuge parmi les Shalore.", "_t")
 t("Their preference for simple and direct solutions has given them an undeserved reputation as dumb brutes, despite their extraordinary talent with runes and their humble, dutiful nature.", "Leur préférence pour les solutions simples et directes leur a injustement prêté une réputation de brutes sans cervelle, malgré leur talent extraordinaire avec les runes et leur nature humble et respectueuse.", "_t")
 t("They possess the #GOLD#Ogric Wrath#WHITE# talent, which grants them critical chance and power, as well as resistance to confusion and stuns, when their attacks miss or are blocked.", "Ils possèdent le talent #GOLD#Colère Ogrique#WHITE#, qui leur donne une meilleure chance et puissance critique, ainsi que de la résistance à la confusion et à l'étourdissement, quand leurs attaques sont ratées ou bloquées.", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 Force, -1 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +2 Magic, -2 Willpower, +2 Cunning", "#LIGHT_BLUE# * +2 Magie, -2 Volonté, +2 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#Vie par niveau:#LIGHT_BLUE# 13", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 15%", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#Vie par niveau :#LIGHT_BLUE# 13", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 15%", "_t")
 t("Dark Hair 1", "Cheveux Foncés 1", "_t")
 t("Skin Color 1", "Couleur de Peau 1", "_t")
 t("Skin Color 2", "Couleur de Peau 2", "_t")
@@ -1110,12 +1110,12 @@ t("Redhead 2", "Cheveux Roux 2", "_t")
 t("Redhead 3", "Cheveux Roux 3", "_t")
 t("Redhead 4", "Cheveux Roux 4", "_t")
 t("They possess the #GOLD#Luck of the Little Folk#WHITE# which allows them to increase their critical strike chance and saves for a few turns.", "Ils possèdent la #GOLD#Chance des petites gens#WHITE# qui leur permet d'augmenter leurs coups critiques et leurs jets de sauvegarde pendant quelques tours.", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * -3 Strength, +3 Dexterity, +1 Constitution", "#LIGHT_BLUE# * -3 Force, +3 Dextérité, +1 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +3 Ruse", "_t")
 t("#LIGHT_BLUE# * +5 Luck", "#LIGHT_BLUE# * +5 Chance", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#Vie par niveau:#LIGHT_BLUE# 12", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 10%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 10%", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#Vie par niveau :#LIGHT_BLUE# 12", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 10%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 10%", "_t")
 -- texte non traduit
 --[==[
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
@@ -1132,7 +1132,7 @@ t("Special", "Spécial", "birth facial category")
 t("Human", "Humain", "birth descriptor name")
 t("The Humans are one of the main races on Maj'Eyal, along with the Halflings. For many thousands of years they fought each other until events, and great people, unified all the Human and Halfling nations under one rule.", "Les humains sont une des races principales sur Maj'Eyal, avec les halfelins. Pendant plusieurs milliers d'années ils ont combattu les uns contre les autres jusqu'aux évènements, et de grandes personnes ont unifiés toutes les nations humaines et halfelines sous les mêmes règles.", "_t")
 t("Humans of these Allied Kingdoms have known peace for over a century now.", "Les humains de ces royaumes alliés ont connu la paix durant plus d'un siècle maintenant.", "_t")
-t("Humans are split into two categories: the Highers, and the rest. Highers have latent magic in their blood which gives them higher attributes and senses along with a longer life.", "Les humains sont séparés en deux catégories: les nobles, et le reste. Les nobles ont une magie latente dans leur sang qui leur procure des attributs, des sens améliorés, et une vie plus longue.", "_t")
+t("Humans are split into two categories: the Highers, and the rest. Highers have latent magic in their blood which gives them higher attributes and senses along with a longer life.", "Les humains sont séparés en deux catégories : les nobles, et le reste. Les nobles ont une magie latente dans leur sang qui leur procure des attributs, des sens améliorés, et une vie plus longue.", "_t")
 t("The rest of Humanity is gifted with quick learning and mastery. They can do and become anything they desire.", "Le reste de l'humanité est doté de facilité d'apprentissage et de maîtrise. Ils peuvent faire et devenir tout ce qu'ils désirent.", "_t")
 t("Skin Color 1", "Couleur de Peau 1", "_t")
 t("Skin Color 2", "Couleur de Peau 2", "_t")
@@ -1186,16 +1186,16 @@ t("Higher", "Noble", "birth descriptor name")
 t("Highers are a special branch of Humans that have been imbued with latent magic since the Age of Allure.", "Les nobles sont une branche spéciale des humains qui a été imprégnée par une magie latente durant l'ère de la séduction.", "_t")
 t("They usually do not breed with other Humans, trying to keep their blood 'pure'.", "Ils ne se mélangent habituellement pas avec les autres humains, essayant de garder leur sang \"pur\".", "_t")
 t("They possess the #GOLD#Wrath of the Highborn#WHITE# which allows them to increase damage dealt and decrease damage taken once in a while.", "Ils possèdent la #GOLD#Courroux des Bien-Nés#WHITE# qui leur permet d'augmenter les dégâts infligés et de réduire les dégâts reçus une fois de temps en temps.", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +1 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +1 Force, +1 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +1 Magic, +1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +1 Magie, +1 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 11", "#GOLD#Vie par niveau:#LIGHT_BLUE# 11", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 0%", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 11", "#GOLD#Vie par niveau :#LIGHT_BLUE# 11", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 0%", "_t")
 t("Cornacs are Humans from the northern parts of the Allied Kingdoms.", "Les cornacs sont les humains des parties nord des royaumes alliés.", "_t")
 t("Humans are an inherently very adaptable race and as such they gain a #GOLD#talent category point#WHITE# at birth (others only gain one at levels 10, 20 and 34). They also gain #GOLD#a class and a generic talent point#WHITE# at birth and every 10 levels.", "Les humains sont une race intrinsèquement très adaptable et, à ce titre, gagnent un #GOLD#point de catégorie de talent#WHITE# à la naissance (les autres n'en gagnent un qu'aux niveaux 10, 20 et 34). Ils gagnent également #GOLD#un point de classe et de talent générique#WHITE# à la naissance et tous les 10 niveaux.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 10", "#GOLD#Vie par niveau:#LIGHT_BLUE# 10", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 10", "#GOLD#Vie par niveau :#LIGHT_BLUE# 10", "_t")
 -- texte non traduit
 --[==[
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
@@ -1227,19 +1227,19 @@ t("Tatoos", "Tatouages", "birth facial category")
 t("Ghoul", "Goule", "birth descriptor name")
 t("Slow to shuffle, quick to bite, learn from master, rule the night!", "Traîne ses guêtres, mords rapidement, apprends du maître, rêgne au soleil couchant !", "_t")
 t("Ghouls are dumb, but resilient, rotting undead creatures, making good fighters.", "Les goules sont stupides, mais résistantes, créatures morte-vivantes pourrissantes, elles font de bons guerriers.", "_t")
-t("They have access to #GOLD#special ghoul talents#WHITE# and a wide range of undead abilities:", "Elles ont accès à des #GOLD#talents spéciaux de goule#WHITE# et une large panoplie de capacité de mort-vivant:", "_t")
+t("They have access to #GOLD#special ghoul talents#WHITE# and a wide range of undead abilities:", "Elles ont accès à des #GOLD#talents spéciaux de goule#WHITE# et une large panoplie de capacité de mort-vivant :", "_t")
 t("- great poison resistance", "- grande résistance au poison", "_t")
 t("- bleeding immunity", "- immunité au saignement", "_t")
 t("- stun resistance", "- résistance à l'étourdissement", "_t")
 t("- fear immunity", "- immunité à la peur", "_t")
-t("- special ghoul talents: ghoulish leap, gnaw and retch", "- talents spéciaux de goule: Saut de goule, Ronge et Vomit", "_t")
+t("- special ghoul talents: ghoulish leap, gnaw and retch", "- talents spéciaux de goule : Saut de goule, Ronge et Vomit", "_t")
 t("The rotting bodies of ghouls also force them to act a bit more slowly than most creatures.", "Le corps pourrisant des goules les force aussi à agir un peu plus lentement que la plupart des créatures.", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +5 Constitution", "#LIGHT_BLUE# * +3 Force, +1 Dextérité, +5 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, -2 Willpower, -2 Cunning", "#LIGHT_BLUE# * +0 Magie, -2 Volonté, -2 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 14", "#GOLD#Vie par niveau:#LIGHT_BLUE# 14", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 12%", "_t")
-t("#GOLD#Speed penalty:#LIGHT_BLUE# -20%", "#GOLD#Pénalité de vitesse:#LIGHT_BLUE# -20%", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 14", "#GOLD#Vie par niveau :#LIGHT_BLUE# 14", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Speed penalty:#LIGHT_BLUE# -20%", "#GOLD#Pénalité de vitesse :#LIGHT_BLUE# -20%", "_t")
 t("Skin Color 1", "Couleur de Peau 1", "_t")
 t("Skin Color 2", "Couleur de Peau 2", "_t")
 t("Skin Color 3", "Couleur de Peau 3", "_t")
@@ -1271,16 +1271,16 @@ t("Bloodstains", "Taches de sang", "_t")
 t("Bones", "Os", "_t")
 t("Guts", "Intestins", "_t")
 t("Skeleton", "Squelette", "birth descriptor name")
-t("The marching bones, each step we rattle; but servants no more, we march to battle!", "Nos ossements se mouvants, à chaque pas nous cliquetons; mais n'étant plus servants, vers la bataille nous marchons !", "_t")
+t("The marching bones, each step we rattle; but servants no more, we march to battle!", "Nos ossements se mouvants, à chaque pas nous cliquetons ; mais n'étant plus servants, vers la bataille nous marchons !", "_t")
 t("Skeletons are animated bones, undead creatures both strong and dexterous.", "Les squelettes sont des os animés, des créatures morte-vivantes à la fois fortes et agiles.", "_t")
-t("They have access to #GOLD#special skeleton talents#WHITE# and a wide range of undead abilities:", "Ils ont accès à des #GOLD#talents spéciaux de squelette#WHITE# et une large panoplie de capacité de mort-vivant:", "_t")
+t("They have access to #GOLD#special skeleton talents#WHITE# and a wide range of undead abilities:", "Ils ont accès à des #GOLD#talents spéciaux de squelette#WHITE# et une large panoplie de capacité de mort-vivant :", "_t")
 t("- poison immunity", "- immunité au poison", "_t")
 t("- no need to breathe", "- pas besoin de respirer", "_t")
-t("- special skeleton talents: bone armour, resilient bones, re-assemble", "- talents spéciaux de squelette: Armure d'os, Os résistants, Réassemblage", "_t")
+t("- special skeleton talents: bone armour, resilient bones, re-assemble", "- talents spéciaux de squelette : Armure d'os, Os résistants, Réassemblage", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 Force, +4 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +0 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#Vie par niveau:#LIGHT_BLUE# 12", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 20%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 20%", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#Vie par niveau :#LIGHT_BLUE# 12", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 20%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 20%", "_t")
 t("Eyes 1", "Yeux 1", "_t")
 t("Eyes 2", "Yeux 2", "_t")
 t("Eyes 3", "Yeux 3", "_t")
@@ -1380,12 +1380,12 @@ t("Yeeks are a mysterious race native to the tropical island of Rel.", "Les yeek
 t("Although they are now nearly unheard of in Maj'Eyal, they spent many centuries as secret slaves to the Halfling nation of Nargol.", "Bien qu'on n'en entende plus trop parler maintenant à Maj'Eyal, ils ont passé plusieurs centaines d'années en tant qu'esclaves secrets de la nation halfeline de Nargol.", "_t")
 t("They possess the #GOLD#Dominant Will#WHITE# talent which allows them to temporarily subvert the mind of a lesser creature. When the effect ends, the creature dies.", "Ils possèdent le talent #GOLD#Volonté dominante#WHITE# qui leur permet de contrôler temporairement l'esprit des créatures inférieures. Quand l'effet prends fin, la créature meurt.", "_t")
 t("While Yeeks are not amphibians, they still have an affinity for water, allowing them to survive longer without breathing.", "Bien que les yeeks ne soient pas des amphibiens, ils ont néammoins une affinité avec l'eau qui leur permet de survivre plus longtemps sans respirer.", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * -3 Strength, -2 Dexterity, -5 Constitution", "#LIGHT_BLUE# * -3 Force, -2 Dextérité, -5 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +6 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 Magie, +6 Volonté, +4 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 7", "#GOLD#Vie par niveau:#LIGHT_BLUE# 7", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# -15%", "#GOLD#Pénalité d'experience:#LIGHT_BLUE# -15%", "_t")
-t("#GOLD#Confusion resistance:#LIGHT_BLUE# 35%", "#GOLD#Résistance à la confusion:#LIGHT_BLUE# 35%", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 7", "#GOLD#Vie par niveau :#LIGHT_BLUE# 7", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# -15%", "#GOLD#Pénalité d'experience :#LIGHT_BLUE# -15%", "_t")
+t("#GOLD#Confusion resistance:#LIGHT_BLUE# 35%", "#GOLD#Résistance à la confusion :#LIGHT_BLUE# 35%", "_t")
 -- texte non traduit
 --[==[
 t("Yeek", "Yeek", "birth descriptor name")
@@ -1405,19 +1405,19 @@ t("You are a male of the species.", "Vous êtes un male de votre race.", "_t")
 ------------------------------------------------
 section "mod-tome/data/birth/worlds.lua"
 
-t("Maj'Eyal: The Age of Ascendancy", "Maj'Eyal: L'ère de l'Ascendance", "_t")
-t("The people of Maj'Eyal: Humans, Halflings, Elves and Dwarves.", "Le peuple de Maj'Eyal: Humains, Halfelins, Elfes et Nains.", "_t")
+t("Maj'Eyal: The Age of Ascendancy", "Maj'Eyal : L'ère de l'Ascendance", "_t")
+t("The people of Maj'Eyal: Humans, Halflings, Elves and Dwarves.", "Le peuple de Maj'Eyal : Humains, Halfelins, Elfes et Nains.", "_t")
 t("The known world has been at relative peace for over one hundred years, and people are prospering again.", "Le monde connu a été en relative paix depuis plus de cent ans, et le peuple prospère à nouveau.", "_t")
 t("You are an adventurer, setting out to find lost treasure and glory.", "Vous êtes un aventurier, en quête de trésors perdus et de gloire.", "_t")
 t("But what lurks in the shadows of the world?", "Mais qu'est ce qui se cache dans les ombres du monde ?", "_t")
-t("Infinite Dungeon: The Neverending Descent", "Donjon Infini: La Descente sans Fin", "_t")
+t("Infinite Dungeon: The Neverending Descent", "Donjon Infini : La Descente sans Fin", "_t")
 t("Ever deeper, never ending, no reprieve, keep descending. In ruins old, through barred gate, once riddle solved, find thy fate.", "Toujours plus profond, sans fin, sans répit, continuez de descendre. Dans d'anciennes ruines, après la porte scellée, une fois l'énigme résolue, trouvez votre destinée.", "_t")
 t("Play as your favorite race and class and venture into the infinite dungeon.", "Jouez avec vos races et classes favorites et aventurez vous dans le donjon infini.", "_t")
 t("The only limit to how far you can go is your own skill!", "Seules vos capacités définiront la limite que vous pourrez atteindre !", "_t")
 t("Inside the infinite dungeon you will yourself be limitless. You can level up beyond level 50 and continue to gain stat and talent points (at a reduced rate).", "Dans le donjon infini vous serez vous-même sans limite. Vous pourrez gagner des niveaux au dessus du niveau 50 et continuer de gagner des points de statistique et de talent (à vitesse réduite).", "_t")
 t("Every level after level 50 the maximum of stats will increase by one.", "Pour chaque niveau au dessus du niveau 50 le maximum de vos statistiques sera augmenté de un.", "_t")
 t("Every 10 levels after level 50 the maximum points of each talent will increase by one.", "Pour chaque 10 niveaux au dessus du niveau 50 le maximum de vos points de talent sera augmenté de un.", "_t")
-t("The Arena: Challenge of the Master", "L'Arène: Le Défi des Maîtres", "_t")
+t("The Arena: Challenge of the Master", "L'Arène : Le Défi des Maîtres", "_t")
 t("Blood spilled on sand, only the strong survive. Prove yourself worthy to enter.", "Le sang coule sur le sable, seuls les forts survivent. Montrez-vous digne d'entrer.", "_t")
 t("Play as a lone warrior facing the Arena's challenge!", "Jouez un guerrier solitaire affrontant les défis de l'Arène !", "_t")
 t("You can use any class and race for it.", "Vous pouvez utiliser toutes les classes ou races pour cela.", "_t")
@@ -1475,10 +1475,10 @@ t("Good adventurer, I am an alchemist, and quite a good one. This year, for the 
 t("How can I help?", "Comment puis-je aider ?", "_t")
 t("I require ingredients for three potent mixtures. Obviously, since I seek your aid, none of them is to be found by simply strolling to the local herbalist's. No, they will need to be forcibly parted from their owners who will, just as obviously, put up a fight. I've yet to encounter a naga who would be persuaded to hand over his tongue! Ha! Oh, I am droll at times.", "J'ai besoin d'ingrédients pour trois puissant mélanges. Évidemment, puisque je sollicite votre aide, aucun d'entre eux ne se trouve en se promenant simplement chez l'herboriste local. Non, ils devront être séparés de force de leurs propriétaires qui, tout aussi évidemment, savent se battent. Je n'ai pas encore rencontré de naga qui pourrait être persuadé de remettre sa langue ! Ha ! Oh, je suis drôle parfois.", "_t")
 t("I specialize in separating vital body parts from monsters. What do you offer in return?", "Je me spécialise dans la séparation des parties vitales du corps des monstres. Que proposez-vous en retour ?", "_t")
-t("Why, I will let you share in the fruits of my labors! Each of the three mixtures I shall produce in a quantity sufficient to create three doses: one for me, one for the Brotherhood and their confounded trial... and one for you. I must tell you that time is of the essence. I am not the only one who the Brotherhood invited this year, yet they will accept only one applicant-- the first to complete their trials. I know of at least three others laboring furiously to take my rightful place. Should your aid see me through, then I will reward you beyond even the remarkable elixirs. I've an ancient Lifebinding Emerald that grants great powers of health and healing when used properly. What say you?", "Eh bien, je vous laisserai partager les fruits de mon travail ! Je produirai chacun des trois mélanges en quantité suffisante pour créer trois doses: une pour moi, une pour la Confrérie et son concours confus... et une pour vous. Je dois vous dire que le temps est compté. Je ne suis pas le seul que la Confrérie a invité cette année, mais ils n'accepteront qu'un seul candidat - le premier à terminer ses essais. Je connais au moins trois autres personnes qui travaillent d'arrache-pied pour prendre ma place. Si votre aide me permet de m'en sortir, alors je vous récompenserai au-delà des élixirs remarquables. J'ai une ancienne émeraude qui donne de grands pouvoirs de santé et de guérison lorsqu'elle est utilisée correctement. Qu'en dites-vous ?", "_t")
+t("Why, I will let you share in the fruits of my labors! Each of the three mixtures I shall produce in a quantity sufficient to create three doses: one for me, one for the Brotherhood and their confounded trial... and one for you. I must tell you that time is of the essence. I am not the only one who the Brotherhood invited this year, yet they will accept only one applicant-- the first to complete their trials. I know of at least three others laboring furiously to take my rightful place. Should your aid see me through, then I will reward you beyond even the remarkable elixirs. I've an ancient Lifebinding Emerald that grants great powers of health and healing when used properly. What say you?", "Eh bien, je vous laisserai partager les fruits de mon travail ! Je produirai chacun des trois mélanges en quantité suffisante pour créer trois doses : une pour moi, une pour la Confrérie et son concours confus... et une pour vous. Je dois vous dire que le temps est compté. Je ne suis pas le seul que la Confrérie a invité cette année, mais ils n'accepteront qu'un seul candidat - le premier à terminer ses essais. Je connais au moins trois autres personnes qui travaillent d'arrache-pied pour prendre ma place. Si votre aide me permet de m'en sortir, alors je vous récompenserai au-delà des élixirs remarquables. J'ai une ancienne émeraude qui donne de grands pouvoirs de santé et de guérison lorsqu'elle est utilisée correctement. Qu'en dites-vous ?", "_t")
 t("I accept.", "J'accepte.", "_t")
 t("I cannot aid you at this time.", "Je ne peux pas vous aider en ce moment.", "_t")
-t("Excellent. Now then, I've three elixirs I'm working on. I'll burden you with only one at a time, since I've learned the hard way about the hazards of overloading an adventurer's brain. Here are your options: the elixir of the fox, which makes you as nimble and cunning as a fox; the elixir of avoidance, which sharpens your natural inclinations to get out of the way of incoming harm; or the elixir of precision, which grants intuitive understanding of an enemy's most sensitive spots. Which would you like to aid me with?", "Excellent. Maintenant, j'ai trois élixirs sur lesquels je travaille. Je ne vous en donnerai qu'un à la fois, car j'ai appris à mes dépens les dangers de surcharger le cerveau d'un aventurier. Voici vos options: l'élixir du renard, qui vous rend aussi agile et rusé qu'un renard; l'élixir de l'évitement, qui aiguise vos tendances naturelles à vous écarter du danger; ou l'élixir de la précision, qui accorde une compréhension intuitive des points les plus sensibles d'un ennemi. Avec lequel voulez-vous m'aider ?", "_t")
+t("Excellent. Now then, I've three elixirs I'm working on. I'll burden you with only one at a time, since I've learned the hard way about the hazards of overloading an adventurer's brain. Here are your options: the elixir of the fox, which makes you as nimble and cunning as a fox; the elixir of avoidance, which sharpens your natural inclinations to get out of the way of incoming harm; or the elixir of precision, which grants intuitive understanding of an enemy's most sensitive spots. Which would you like to aid me with?", "Excellent. Maintenant, j'ai trois élixirs sur lesquels je travaille. Je ne vous en donnerai qu'un à la fois, car j'ai appris à mes dépens les dangers de surcharger le cerveau d'un aventurier. Voici vos options : l'élixir du renard, qui vous rend aussi agile et rusé qu'un renard ; l'élixir de l'évitement, qui aiguise vos tendances naturelles à vous écarter du danger ; ou l'élixir de la précision, qui accorde une compréhension intuitive des points les plus sensibles d'un ennemi. Avec lequel voulez-vous m'aider ?", "_t")
 t("The %s.", "L'%s.", "tformat")
 t("Here's a list of the ingredients I'm missing. Please attempt to not lose your life in their pursuit. I'll be most put out if I must wait another year. Oh, and I suppose I should tell you that I've already a handful of adventurers out scouring the unpleasant places of the world for these ingredients. Dally and one of them shall claim the prize while you're out.", "Voici la liste des ingrédients qui me manquent. S'il vous plaît, essayez de ne pas perdre votre vie en les cherchant. Je serai très déçu de devoir attendre encore un an. Oh, et je suppose que je devrais vous dire que j'ai déjà une poignée d'aventuriers qui parcourent les endroits désagréables du monde pour trouver ces ingrédients. Dally et l'un d'entre eux réclameront le prix pendant votre absence.", "_t")
 t("I'll be off.", "Je m'en vais.", "_t")
@@ -1591,7 +1591,7 @@ t("What's the good of immortality if you can't even speak? No archmage worth his
 t("Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "Changer mon nom ? Je suis assez content d'être 'Telos' merci. Même si cela ne me dérangerait pas d'être \"Telos le Grand et Puissant\" ». Faites ça en fait. Oui !", "_t")
 t([[I'm a golem. How droll!
 Oh, did you want something?]], [[Je suis un golem. Comme c'est drôle !
-Ah, tu voulais quelque chose?]], "_t")
+Ah, tu voulais quelque chose ?]], "_t")
 t([[#LIGHT_GREEN#*The golem talks in a monotonous voice*#WHITE#
 Yes master.]], [[#LIGHT_GREEN#*Le golem parle d'une voix monotone*#WHITE#
 Oui maître.]], "_t")
@@ -1601,20 +1601,20 @@ section "mod-tome/data/chats/alchemist-hermit.lua"
 
 t("SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "FILS DE PUTE ! VOUS VOUS MONTREZ DIX MINUTES APRÈS QUE J'AI REÇU LA NOUVELLE QUE CERTAINS CONNARDS ONT DÉJÀ TERMINÉ LEURS ÉLIXIRS ET SONT ACCEPTÉ PAR LA FRATERNITÉ. QU'EST-CE QUI VOUS A PRIS SI LONGTEMPS BORDEL ? PAR LES SEINS DE MIRVENIA, JE VAIS LES PRENDRE ET VOUS FAIRE VOTRE RÉCOMPENSE, MAIS SEULEMENT PARCE QU'UNE MALÉDICTION ME TUERA SI JE NE LE FAIS PAS. ET SI ÇA A GOUT DE PISSE, C'EST VOTRE IMAGINATION, J'EN SUIS SUR.", "_t")
 t([[#LIGHT_GREEN#*The halfling hands you a note that says, 'Heard %s managed to make a %s while you've been loafing. Hurry the hell up next time.*#WHITE#
-		I STILL CAN'T HEAR A DAMNED THING. FORTUNATELY, YOU DON'T LOOK LIKE THE SORT THAT MAKES INTERESTING CONVERSATION.]], [[#LIGHT_GREEN#*Le halfelin vous remet une note qui dit: J'ai \"entendu\" que %s a réussi à faire un %s pendant que vous traîniez. Dépêchez-vous la prochaine fois.*#WHITE#
+		I STILL CAN'T HEAR A DAMNED THING. FORTUNATELY, YOU DON'T LOOK LIKE THE SORT THAT MAKES INTERESTING CONVERSATION.]], [[#LIGHT_GREEN#*Le halfelin vous remet une note qui dit : J'ai \"entendu\" que %s a réussi à faire un %s pendant que vous traîniez. Dépêchez-vous la prochaine fois.*#WHITE#
 		JE NE PEUX TOUJOURS PAS ENTENDRE UNE PUTAIN DE CHOSE. HEUREUSEMENT, VOUS N'AVEZ PAS L'AIR DU GENRE A AVOIR UNE CONVERSATION INTÉRESSANTE.]], "tformat")
 t([[#LIGHT_GREEN#*After a great deal of pounding, a halfling wrapped in charred, smoking robes opens the door. He looks irritated.*#WHITE#
 IT'S NOT ENOUGH THAT I WORK ALL MORNING TO MAKE A POTION THAT ENDS UP NEARLY BLOWING MY ASS OFF, BUT NOW I'VE GOT IDIOTS BEATING DOWN MY DAMNED FRONT DOOR WITH WHAT SOUNDS LIKE A BATTERING RAM, AND YES, I HEARD IT, THOUGH I CAN HARDLY MAKE OUT A BLEEDING THING WITH THESE BLEEDING, CONCUSSED EARS. WHAT DO YOU WANT?]], [[#LIGHT_GREEN#*Après beaucoup de coups, un halfelin enveloppé dans des robes fumantes et carbonisées ouvre la porte. Il a l'air irrité.*#WHITE#
-IL NE SUFFIT PAS QUE JE TRAVAILLE TOUTE LA MATINNE POUR FAIRE UNE POTION QUI FINIT PRESQUE DE ME TUER EN EXPLOSANT, MAIS MAINTENANT J'AI DES IDIOTS QUI ENFONCENT MA MAUDITE PORTE D'ENTREE AVEC CE QUI REDDEMBLE A UN BELIER, ET OUI, J'AI ENTENDU, BIEN QUE JE PUISSE DIFFICILEMENT DISTINGUER UNE PUTAIN DE CHOSE CES OREILLES EN SANG ET COMMOTIONNÉES. QU'EST-CE QUE VOUS VOULEZ?]], "_t")
+IL NE SUFFIT PAS QUE JE TRAVAILLE TOUTE LA MATINNE POUR FAIRE UNE POTION QUI FINIT PRESQUE DE ME TUER EN EXPLOSANT, MAIS MAINTENANT J'AI DES IDIOTS QUI ENFONCENT MA MAUDITE PORTE D'ENTREE AVEC CE QUI REDDEMBLE A UN BELIER, ET OUI, J'AI ENTENDU, BIEN QUE JE PUISSE DIFFICILEMENT DISTINGUER UNE PUTAIN DE CHOSE CES OREILLES EN SANG ET COMMOTIONNÉES. QU'EST-CE QUE VOUS VOULEZ ?]], "_t")
 t("Perhaps there's something that I can help you with.", "Je peux peut-être vous aider.", "_t")
 t("[leave]", "[partir]", "_t")
 t("SPEAK UP, HAMBRAIN. I'VE JUST GOTTEN MY EARDRUMS BLOWN OUT BY YET ANOTHER BY-THE-PYRE POTION GONE SOUTH, REMEMBER? THRICE-DAMNED THING WAS GOING PERFECTLY, TOO. TOKNOR'S TACKLE!", "PARLEZ PLUS FORT CERVELLE DE MOINEAU. JE VIENS JUSTE DE ME FAIRE EXPLOSER LES TYMPANS PAR UNE AUTRE POTION DU PYRUS QUI A MAL TOURNÉ, VOUS VOUS SOUVENEZ ? CE TRIPLE TRUC MARCHAIT PARFAITEMENT, AUSSI. PAR LE TACLE DE TOKNOR !", "_t")
 t("I SAID, MAYBE THERE'S SOMETHING THAT I CAN HELP YOU WITH!", "J'AI DIT, PEUT-ÊTRE QU'IL Y A QUELQUE CHOSE POUR LAQUELLE JE PEUX VOUS AIDER !", "_t")
 t("STILL CAN'T HEAR YOU, BUT LISTEN UP. THE BROTHERHOOD OF ALCHEMISTS IS ACCEPTING THE FIRST NEW APPLICANT TO DEMONSTRATE, AMONG OTHER THINGS, THREE VERY COMPLICATED ELIXIRS. I WOULDN'T BOTHER TRYING TO JOIN SUCH A BUNCH OF ADDLE-BRAINED DEGENERATES, BUT IT SO HAPPENS THAT THE BROTHERHOOD OF ALCHEMISTS HOLDS THE SECRET CURE FOR THE COMMON BLOWN-OFF ASS, WHICH IT SO HAPPENS IS OF SOME INTEREST TO ME.", "JE NE PEUX TOUJOURS PAS VOUS ENTENDRE, MAIS ÉCOUTEZ BIEN. LA CONFRÉRIE DES ALCHIMISTES ACCEPTE LE PREMIER NOUVEAU CANDIDAT QUI PRÉSENTERA, ENTRE AUTRES, TROIS ÉLIXIRS TRÈS COMPLIQUÉS. JE NE ME DONNERAIS PAS LA PEINE D'ESSAYER DE REJOINDRE UNE TELLE BANDE DE DÉGÉNÉRÉS ÉCERVELÉS, MAIS IL SE TROUVE QUE LA CONFRÉRIE DES ALCHIMISTES DÉTIENT UN REMÈDE SECRET CONTRE LES CULS BÉNIS, CE QUI SE TROUVE ÊTRE D'UN CERTAIN INTÉRÊT POUR MOI.", "_t")
-t("HOW CAN I HELP?", "COMMENT PUIS JE VOUS AIDER?", "_t")
+t("HOW CAN I HELP?", "COMMENT PUIS JE VOUS AIDER ?", "_t")
 t("THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "LA CONFRÉRIE SAIT TRÈS BIEN CE QUE DES AVANCÉES DANS LE DOMAINE DE L'ALCHIMIE FERAIENT POUR TOUTES LES CIVILISATIONS EXISTANTES, MAIS ILS GARDENT LEURS QUELQUES SECRETS VALABLES COMME UN GRAND VER BRUN ASSIS SUR SON TAS DE MERDE. VOUS SAVEZ QUOI ? JE NE VEUX MÊME PAS DE LEUR REMÈDE CONTRE LES CULS BÉNIS POUR MOI. JE VAIS VOLER TOUS LEURS SECRETS, LES ÉCRIRE, EN FAIRE UNE CENTAINE DE COPIES, ET EN CLOUER UNE SUR UN ARBRE DANS CHAQUE VILLAGE DE MAJ'EYAL.", "_t")
 t("THAT'S NOT A VERY HERMIT-LIKE ATTITUDE.", "CE N'EST PAS VRAIMENT UNE ATTITUDE D'ERMITE.", "_t")
-t("AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "ET ENSUITE, QUE FERONT-ILS ? UNE FOIS QUE LEURS PRÉCIEUX SECRETS - QUI, SELON TOUTE PROBABILITÉ, SOIT N'EXISTENT PAS, SOIT SONT DES RECETTES POUR DES ÉLIXIRS D'ON-NE-SAIT-QUOI - SERONT RÉVÉLÉS AU GRAND JOUR, LA CONFRÉRIE DES LÈCHE-BOTTES N'AURA RIEN D'AUTRE POUR SE MAINTENIR QUE LES ÉLIXIRS DE LEURS LARMES ET LE MÉPRIS GÉNÉRALISÉ DU RESTE DU MONDE. PARLEZ, ALORS. VOUS EN ÊTES OU PAS?", "_t")
+t("AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "ET ENSUITE, QUE FERONT-ILS ? UNE FOIS QUE LEURS PRÉCIEUX SECRETS - QUI, SELON TOUTE PROBABILITÉ, SOIT N'EXISTENT PAS, SOIT SONT DES RECETTES POUR DES ÉLIXIRS D'ON-NE-SAIT-QUOI - SERONT RÉVÉLÉS AU GRAND JOUR, LA CONFRÉRIE DES LÈCHE-BOTTES N'AURA RIEN D'AUTRE POUR SE MAINTENIR QUE LES ÉLIXIRS DE LEURS LARMES ET LE MÉPRIS GÉNÉRALISÉ DU RESTE DU MONDE. PARLEZ, ALORS. VOUS EN ÊTES OU PAS ?", "_t")
 t("I'M IN.", "J'EN SUIS.", "_t")
 t("I CANNOT AID YOU AT THIS TIME.", "JE NE PEUX PAS VOUS AIDER POUR L'INSTANT.", "_t")
 t([[#LIGHT_GREEN#*He hands you a slip of paper with the names and properties of some elixirs on it.*#WHITE#
@@ -1645,7 +1645,7 @@ t("THANK YOU. I'LL BE OFF.", "MERCI. JE VAIS M'EN ALLER.", "_t")
 t([[#LIGHT_GREEN#*The halfling finally returns with a vial and a small pouch.*#WHITE#
 YOUR DOSE OF THE ELIXIR, AS WELL AS SOMETHING ELSE. THIS INFUSION IS RARE AS HELL, SO DON'T GO WASTING IT.]], [[#LIGHT_GREEN#*Le halfling revient finalement avec une fiole et une petite pochette.*#WHITE#
 TA DOSE D'ÉLIXIR, AINSI QUE QUELQUE CHOSE D'AUTRE. CETTE INFUSION EST TRES RARE, DONC NE LA GASPILLEZ PAS.]], "_t")
-t("WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "POUR QUEL ÉLIXIR VOULEZ-VOUS M'AIDER ? VOUS ÊTES ICI POUR CELA, N'EST-CE PAS ? VOUS N'ÊTES PAS UN IMBÉCILE À LA RECHERCHE D'UN PHILTRE D'AMOUR?", "_t")
+t("WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "POUR QUEL ÉLIXIR VOULEZ-VOUS M'AIDER ? VOUS ÊTES ICI POUR CELA, N'EST-CE PAS ? VOUS N'ÊTES PAS UN IMBÉCILE À LA RECHERCHE D'UN PHILTRE D'AMOUR ?", "_t")
 t("TAKE THIS LIST OF INGREDIENTS, AND HURRY THE HELL UP.", "PRENEZ CETTE LISTE D'INGRÉDIENTS, ET DÉPÊCHEZ-VOUS.", "_t")
 t("TOO SLOW, HAMBRAIN. ELIXIR'S MADE ALREADY, AND SOMEBODY ELSE WALKED OFF WITH THE REWARD. IF YOU'RE FEELING SORRY FOR YOURSELF, ASK WHETHER THIS IS MORE OR LESS PLEASANT THAN GETTING APPRECIABLE CHUNKS OF YOUR ANATOMY BLASTED CLEAN OFF YOUR BODY THIS MORNING. THAT'S RIGHT. BYE.", "TROP LENT, CERVELLE DE MOINEAU. L'ÉLIXIR EST DÉJÀ FAIT, ET QUELQU'UN D'AUTRE EST PARTI AVEC LA RÉCOMPENSE. SI VOUS VOUS SENTEZ DÉSOLÉ POUR VOUS-MÊME, DEMANDEZ VOUS SI C'EST PLUS OU MOINS AGRÉABLE QUE DE SE FAIRE EXPLOSER DES MORCEAUX APPRÉCIABLES DE VOTRE ANATOMIE LE MATIN. C'EST ÇA. AU REVOIR.", "_t")
 -- texte non traduit
@@ -1661,19 +1661,19 @@ t("Damn it all. You're too late. %s has already finished. But I suppose you did 
 t("Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "Beau travail ! Et vous êtes toujours en un seul morceau, je vois. C'est toujours agréable. Je ressens la même chose après avoir réussi à préparer un mélange particulièrement délicat. J'ai failli m'exploser le visage plusieurs fois. Pendant votre absence, un petit oiseau m'a dit que %s a réussi à créer un %s. Ne le laisse pas finir avant moi !", "tformat")
 t([[#LIGHT_GREEN#*A dwarf in stained, battered mail armor opens the door.*#WHITE#
 Say, you interested in dismembering stuff and getting paid?]], [[#LIGHT_GREEN#*Un nain en armure de mailles tachées et abîmées ouvre la porte.*#WHITE#
-Dis, ça t'intéresse de démembrer des trucs et d'être payé?]], "_t")
+Dis, ça t'intéresse de démembrer des trucs et d'être payé ?]], "_t")
 t("Always.", "Toujours.", "_t")
 t("[leave]", "[partir]", "_t")
 t("By the corpses of the gods, I love adventurers. Was about to become one myself when it suddenly hit me. And by \"it\" I mean \"my wife.\" Har!", "Par les cadavres des dieux, j'aime les aventuriers. J'étais sur le point d'en devenir un moi-même quand ça m'a frappé. Et par \"ça\", je veux dire \"ma femme\". Har !", "_t")
 t("What do you propose?", "Que proposez vous ?", "_t")
 t("I propose that I give you a list of monster parts to fetch, then you go and fetch them, then I make some blindingly amazing brews with said monster parts, then I get accepted into the Brotherhood of Alchemists.", "Je propose de te donner une liste de parties de monstre à récupérer, tu vas les récupérer, je fais des décoctions incroyables avec ces parties de monstre, et je suis accepté dans la confrérie des alchimistes.", "_t")
 t("Sounds like a plan.", "Ça ma l'air bon.", "_t")
-t("I make excellent plans. And brews, which the Brotherhood will no doubt make me call 'elixirs' once I'm in. And I'll obey, because they have ways of getting what they want. Now, where were we?", "Je fais d'excellents plans. Et des décoctions, que la Confrérie me fera sans doute appeler \"élixirs\" une fois que je serai dedans. Et j'obéirai, car ils ont les moyens d'obtenir ce qu'ils veulent. Bon, où en étions-nous?", "_t")
-t("Aiding you with getting into some Brotherhood. What's in it for me?", "Vous aider à entrer dans la Fraternité. Qu'est-ce que j'y gagne?", "_t")
-t("Oh, easy. You get a swig of each brew, of course. They'll put hair on your chest, and possibly your eyelids and fingernails. And, if your aid proves the deciding factor, then I've got a real treat for you: perhaps the last Taint of Purging left in Maj'Eyal.", "Oh, facile. Tu as droit à une gorgée de chaque breuvage, bien sûr. Ils vous mettront des poils sur la poitrine, et peut-être sur les paupières et les ongles. Et, si votre aide s'avère être le facteur décisif, alors j'ai un vrai cadeau pour vous: peut-être la derniere Purge d'Infections restante en Maj'Eyal.", "_t")
+t("I make excellent plans. And brews, which the Brotherhood will no doubt make me call 'elixirs' once I'm in. And I'll obey, because they have ways of getting what they want. Now, where were we?", "Je fais d'excellents plans. Et des décoctions, que la Confrérie me fera sans doute appeler \"élixirs\" une fois que je serai dedans. Et j'obéirai, car ils ont les moyens d'obtenir ce qu'ils veulent. Bon, où en étions-nous ?", "_t")
+t("Aiding you with getting into some Brotherhood. What's in it for me?", "Vous aider à entrer dans la Fraternité. Qu'est-ce que j'y gagne ?", "_t")
+t("Oh, easy. You get a swig of each brew, of course. They'll put hair on your chest, and possibly your eyelids and fingernails. And, if your aid proves the deciding factor, then I've got a real treat for you: perhaps the last Taint of Purging left in Maj'Eyal.", "Oh, facile. Tu as droit à une gorgée de chaque breuvage, bien sûr. Ils vous mettront des poils sur la poitrine, et peut-être sur les paupières et les ongles. Et, si votre aide s'avère être le facteur décisif, alors j'ai un vrai cadeau pour vous : peut-être la derniere Purge d'Infections restante en Maj'Eyal.", "_t")
 t("I accept.", "J'accepte.", "_t")
 t("I cannot aid you at this time.", "Je ne peux pas vous aider en ce moment.", "_t")
-t("One last thing. There's a few other fellows angling for the same slot in the Brotherhood that I am. They're not going to be sitting on their hands while we're at work here, so best move quick-like. Now, which of these do you want to help me with first: the Brew of Brawn, the Brew of Stoneskin, or the Brew of Foundations? Or Elixirs, rather. Not Brews. Best get in the habit now, I suppose.", "Une dernière chose. Il y a quelques autres gars qui veulent le même poste que moi dans la Confrérie. Ils ne vont pas rester les bras croisés pendant que nous travaillons ici, alors mieux vaut agir vite. Maintenant, avec laquelle de ces choses voulez-vous m'aider en premier: la décoction de muscles, la décoction de peau de pierre, ou la décoction de fondations ? Ou plutôt des Elixirs. Pas d'essences. Il vaut mieux en prendre l'habitude maintenant, je suppose.", "_t")
+t("One last thing. There's a few other fellows angling for the same slot in the Brotherhood that I am. They're not going to be sitting on their hands while we're at work here, so best move quick-like. Now, which of these do you want to help me with first: the Brew of Brawn, the Brew of Stoneskin, or the Brew of Foundations? Or Elixirs, rather. Not Brews. Best get in the habit now, I suppose.", "Une dernière chose. Il y a quelques autres gars qui veulent le même poste que moi dans la Confrérie. Ils ne vont pas rester les bras croisés pendant que nous travaillons ici, alors mieux vaut agir vite. Maintenant, avec laquelle de ces choses voulez-vous m'aider en premier : la décoction de muscles, la décoction de peau de pierre, ou la décoction de fondations ? Ou plutôt des Elixirs. Pas d'essences. Il vaut mieux en prendre l'habitude maintenant, je suppose.", "_t")
 t("The %s.", "L'%s.", "tformat")
 t("Right, here's the list. Oh, one more thing. Got me some fellas already out hunting for this stuff, and I'll not play favorites. One of them brings me those ingredients before you do, and you're out of luck. Hurry back.", "Bien, voici la liste. Oh, encore une chose. J'ai déjà quelques gars qui chassent pour ce genre de choses, et je ne vais pas faire de favoritisme. Si l'un d'eux m'apporte ces ingrédients avant toi, tu n'as pas de chance. Dépêche toi de revenir.", "_t")
 t("I'll be off.", "Je m'en vais.", "_t")
@@ -1683,7 +1683,7 @@ Oh, and one other last thing... if you have the time for another errand, though 
 
 Oh, et une dernière chose... si vous avez le temps pour une autre course, bien que je n'aie pas de récompense pour celle-là.]], "_t")
 t("Well, I'll see if I can help.", "Hé bien, je verrai si je peux aider.", "_t")
-t("I'm here for profit, not errands - I have the list and will work on it; sort your own sidejobs out.", "Je suis ici pour le profit, pas pour les courses - j'ai la liste et je vais travailler dessus; occupez-vous de vos propres petits boulots.", "_t")
+t("I'm here for profit, not errands - I have the list and will work on it; sort your own sidejobs out.", "Je suis ici pour le profit, pas pour les courses - j'ai la liste et je vais travailler dessus ; occupez-vous de vos propres petits boulots.", "_t")
 t("#LIGHT_GREEN#*The door is locked and nobody responds to your knocks*#WHITE#", "#LIGHT_GREEN#*La porte est verrouillée et personne ne répond à vos coups*#WHITE#", "_t")
 t("[Leave]", "[Partir]", "_t")
 t([[#LIGHT_GREEN#*The mailed dwarf opens his door.*#WHITE#
@@ -1716,7 +1716,7 @@ Oh, et une dernière chose... si vous avez le temps pour une autre course, bien 
 t("Er, it seems that while you were out, somebody else managed to bring me the ingredients. I've got no reward for you! Sorry about that, but when time is of the essence, 'first come, first served' is the only sensible policy.", "Euh, il semble que pendant que tu étais sorti, quelqu'un d'autre a réussi à m'apporter les ingrédients. Je n'ai pas de récompense pour toi ! Désolé, mais quand le temps est compté, \"premier arrivé, premier servi\" est la seule politique raisonnable.", "_t")
 t([[Well, it's like this, one of my wife's friends has gone missing. A young alchemist in training, called Celia. Thing is, her husband died recently, and the grief done drove her mad. She used to go out to his grave every day, until one day she didn't come back. Personally I don't think she was able to live without him; the two were inseparable. If you get a chance on your travels, could you pass by the mausoleum to the east and check... well, you get the idea.
 
-It's strange what death can do to people, how it can take over their minds. Sometimes they forget it's the living that matter... See she gets a proper burial - treated respectfully, eh?]], [[Eh bien, c'est comme ça, une des amies de ma femme a disparu. Une jeune alchimiste en formation, appelée Celia. Le problème est que son mari est mort récemment, et le chagrin l'a rendue folle. Elle avait l'habitude d'aller sur sa tombe tous les jours, jusqu'au jour où elle n'est pas revenue. Personnellement, je ne pense pas qu'elle ait été capable de vivre sans lui; les deux étaient inséparables. Si vous en avez l'occasion lors de vos voyages, pourriez-vous passer par le mausolée à l'est et vérifier... enfin, vous voyez l'idée.
+It's strange what death can do to people, how it can take over their minds. Sometimes they forget it's the living that matter... See she gets a proper burial - treated respectfully, eh?]], [[Eh bien, c'est comme ça, une des amies de ma femme a disparu. Une jeune alchimiste en formation, appelée Celia. Le problème est que son mari est mort récemment, et le chagrin l'a rendue folle. Elle avait l'habitude d'aller sur sa tombe tous les jours, jusqu'au jour où elle n'est pas revenue. Personnellement, je ne pense pas qu'elle ait été capable de vivre sans lui ; les deux étaient inséparables. Si vous en avez l'occasion lors de vos voyages, pourriez-vous passer par le mausolée à l'est et vérifier... enfin, vous voyez l'idée.
 
 C'est étrange ce que la mort peut faire aux gens, comment elle peut prendre le dessus sur leur esprit. Parfois, ils oublient que ce sont les vivants qui comptent... Je vois qu'elle a eu un enterrement correct - traitée avec respect, hein ?]], "_t")
 t("I'll do what I can.", "Je ferai ce que je peux.", "_t")
@@ -1732,7 +1732,7 @@ section "mod-tome/data/chats/angolwen-leader.lua"
 
 t([[#LIGHT_GREEN#*A tall woman stands before you. Her fair skin radiates incredible power through her white robe.*#WHITE#
 I am Linaniil of the Kar'Krul. Welcome to our city, @playerdescriptor.subclass@. What may I do for thee?]], [[#LIGHT_GREEN#*Une grande femme se tient devant vous. Sa peau claire dégage une puissance incroyable à travers sa robe blanche.*#WHITE#
-Je suis Linaniil des Kar'Krul. Bienvenue dans notre ville, @playerdescriptor.subclass@. Que puis-je faire pour vous?]], "_t")
+Je suis Linaniil des Kar'Krul. Bienvenue dans notre ville, @playerdescriptor.subclass@. Que puis-je faire pour vous ?]], "_t")
 t("I require all the help I can get, not for my sake but for the town of Derth, to the northeast of here.", "J'ai besoin de toute l'aide possible, pas pour moi mais pour la ville de Derth, au nord-est d'ici.", "_t")
 t("I am ready! Send me to Urkis!", "Je suis prêt ! Envoyez-moi à Urkis !", "_t")
 t("Urkis has been slain.", "Urkis a été tué.", "_t")
@@ -1745,7 +1745,7 @@ I will not lie to thee: we can send thee thence, but this could be a death trap,
 Celui qui a créé cette abomination est Urkis. C'est un Tempétueux, un puissant Archimage qui canalise les tempêtes.
 Il y a des années il s'est rebellé et a quitté d'Angolwen. Au début, il est resté silencieux, nous n'avons donc pas agi, mais il semble que nous n'ayons plus le choix.
 Nettoyer les cieux prendra beaucoup de temps. En attendant si tu le souhaites, nous pouvons t'envoyer dans la tanière d'Urkis pour l'affronter.
-Je ne vais pas te mentir: nous pouvons t'y envoyer, mais cela pourrait être un piège mortel, et nous n'avons aucun moyen de te ramener car il vit au sommet d'un grand pic dans les montagnes de Daikara.]], "_t")
+Je ne vais pas te mentir : nous pouvons t'y envoyer, mais cela pourrait être un piège mortel, et nous n'avons aucun moyen de te ramener car il vit au sommet d'un grand pic dans les montagnes de Daikara.]], "_t")
 t("I need to prepare myself. I will be back soon.", "Je dois me préparer. Je serai bientôt de retour.", "_t")
 t("I am ready. Send me. I will not let the good people of Derth down.", "Je suis prêt. Envoyez-moi. Je ne laisserai pas tomber le bon peuple de Derth.", "_t")
 t("Good luck to thee. Thou hast the blessings of Angolwen.", "Bonne chance. Les bénédictions d'Angolwen sont sur toi.", "_t")
@@ -1809,11 +1809,11 @@ section "mod-tome/data/chats/ardhungol-start.lua"
 
 t("Good day to you.", "Bonjour à vous.", "_t")
 t("Good day to you too.", "Bonjour à vous aussi.", "_t")
-t("I have heard you are a great hero of the west. Could you help me, please?", "J'ai entendu dire que vous étiez un grand héros de l'Ouest. Pouvez-vous m'aider, s'il vous plaît?", "_t")
+t("I have heard you are a great hero of the west. Could you help me, please?", "J'ai entendu dire que vous étiez un grand héros de l'Ouest. Pouvez-vous m'aider, s'il vous plaît ?", "_t")
 t("Maybe, what is it about?", "Peut-être, de quoi s'agit-il ?", "_t")
 t("I have got enough problems sorry.", "J'ai assez de problèmes, désolé.", "_t")
 t("Welcome back, @playername@.", "Re bonjour, @playername@.", "_t")
-t("I have found your husband. I take it he made it home safely?", "J'ai trouvé votre mari. Je suppose qu'il est bien rentré chez lui?", "_t")
+t("I have found your husband. I take it he made it home safely?", "J'ai trouvé votre mari. Je suppose qu'il est bien rentré chez lui ?", "_t")
 t("I've got to go. Bye.", "Je dois y aller. Au revoir.", "_t")
 t([[My husband, Rashim, is a Sun Paladin. He was sent to clear the spider lair of Ardhungol to the north of this town.
 It has been three days now. He should be back by now. I have a feeling something terrible has happened to him. Please find him!
@@ -1951,7 +1951,7 @@ Bonne chance dans vos aventures, et venez nous rendre visite lorsque vous aurez 
 ]], "_t")
 t("I will. Farewell for now.", "Je le ferai. Adieu pour l'instant.", "_t")
 t("exit to Derth", "partir pour Derth", "_t")
-t("Select the party member to receive the +2 generic talent points:", "Sélectionnez le membre du groupe qui recevra les +2 points de talent générique:", "_t")
+t("Select the party member to receive the +2 generic talent points:", "Sélectionnez le membre du groupe qui recevra les +2 points de talent générique :", "_t")
 t("#WHITE#I see. I will be waiting... #YELLOW#But not for long.", "#WHITE#Je vois. Je vous attendrais... #YELLOW#Mais pas très longtemps.", "_t")
 t([[#LIGHT_GREEN#*The Cornac rogue displays a welcoming smile*#WHITE#
 Welcome back, @playerdescriptor.race@. Have you reconsidered my generous offer?
@@ -2002,7 +2002,7 @@ t([[#LIGHT_GREEN#*After taking several hits, the undead giant finally succumbs
 #LIGHT_GREEN#*Ryal se tourne tranquillement vers la porte et part, apparemment indemne*
 ]], "_t")
 t("It was fun, bone giant!", "C'était fun, géant osseux !", "_t")
-t("...what? unharmed?", "...quoi ? indemne?", "_t")
+t("...what? unharmed?", "...quoi ? indemne ?", "_t")
 t([[#LIGHT_GREEN#*The wind chills as a young girl walks calmly through the gate.
 #LIGHT_GREEN#She looks surprisingly young, with extremely pale skin and contrasting
 #LIGHT_GREEN#long black hair. She examines you with eerie calmness*#WHITE#
@@ -2040,7 +2040,7 @@ So! I am Riala, the Crimson. I came directly from Angolwen. Despite, you know, t
 Fryjia told me about you, the poor thing, so I will not underestimate such a promising aspirant #LIGHT_GREEN#*She smiles warmly* #WHITE#So, let's make haste my dear!
 There is a battle to fight here!]], [[#LIGHT_GREEN#*La porte s'ouvre, révélant une femme mature en robe écarlate.
 #LIGHT_GREEN#Elle vous regarde avec un large sourire*
-#WHITE# Mon dieu, mon dieu, quel beau @playerdescriptor.race@ vous êtes. Quel était votre nom déjà, @playername@? Je suis si heureuse d'être votre rival aujourd'hui.
+#WHITE# Mon dieu, mon dieu, quel beau @playerdescriptor.race@ vous êtes. Quel était votre nom déjà, @playername@ ? Je suis si heureuse d'être votre rival aujourd'hui.
 #LIGHT_GREEN#*Elle parle doucement comme si elle confiait un secret* #WHITE#Vous savez, il y en a si peu qui passent le cap de la première année, c'est tellement ennuyeux.#LIGHT_GREEN#*Elle glousse.*#WHITE#
 Donc ! Je suis Riala, la Cramoisie. Je viens directement d'Angolwen. Malgré, vous savez, toute l'affaire de la Brûlure magique, les gens apprécient toujours quelques tours de magie !
 #LIGHT_GREEN#*Elle claque des doigts, et des flammes se mettent à danser autour d'elle !*#WHITE#
@@ -2064,8 +2064,8 @@ Fryjia avait raison à votre sujet, vous semblez être un champion en devenir !
 Oh, et s'il vous plaît, pardonnez son comportement. Vous comprendrez quand vous rencontrerez son père.
 Et, si vous continuez à vous battre comme ça, ce sera très bientôt.
 Alors, çe fut un plaisir, @playername@. #LIGHT_GREEN#*Elle disparaît dans une spirale de flammes*]], "_t")
-t("I am pumped up! What's next?", "Je suis chaud ! C'est quoi la suite?", "_t")
-t("Am I the only person with a name that can die here?", "Suis-je la seule personne avec un nom qui peut mourir ici?", "_t")
+t("I am pumped up! What's next?", "Je suis chaud ! C'est quoi la suite ?", "_t")
+t("Am I the only person with a name that can die here?", "Suis-je la seule personne avec un nom qui peut mourir ici ?", "_t")
 t([[#LIGHT_GREEN#*You suddenly realize everything has turned dark.
 #LIGHT_GREEN#You look around searching for your rival. And then you notice it. Standing
 #LIGHT_GREEN#right before you, a massive battle armor with an equally massive battle axe.
@@ -2205,7 +2205,7 @@ t("...", "...", "_t")
 section "mod-tome/data/chats/artifact-maker.lua"
 
 t("I've changed my mind.", "J'ai changé d'avis.", "_t")
-t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous?", "_t")
+t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous ?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t([[Do you want to name your item?
 %s]], [[Vous voulez donner un nom à votre objet ?
@@ -2213,7 +2213,7 @@ t([[Do you want to name your item?
 t("Yes, please.", "Oui, s'il vous plaît.", "_t")
 t("Name your item", "Nommez votre objet", "_t")
 t("Name", "Nom", "_t")
-t("#LIGHT_BLUE#You are given: %s", "#LIGHT_BLUE#On vous donne: %s", "log")
+t("#LIGHT_BLUE#You are given: %s", "#LIGHT_BLUE#On vous donne : %s", "log")
 t("No thanks.", "Non merci.", "_t")
 t("Oh I am sorry, it seems we could not make the item your require.", "Oh, je suis désolé, il semble que nous n'ayons pas pu répondre à votre demande.", "_t")
 t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
@@ -2225,7 +2225,7 @@ section "mod-tome/data/chats/artifice-mastery.lua"
 t("Cancel", "Annuler", "_t")
 t("#CADET_BLUE#%s already mastered.", "#CADET_BLUE#%s déjà maîtrisé.", "log")
 t("#LIGHT_BLUE# You enhance your preparation of %s.", "#LIGHT_BLUE# Vous améliorez votre préparation de %s.", "log")
-t("%s[%s -- mastery: %s]#LAST#", "%s[%s -- maîtrisé: %s]#LAST#", "tformat")
+t("%s[%s -- mastery: %s]#LAST#", "%s[%s -- maîtrisé : %s]#LAST#", "tformat")
 t("Master which tool?", "Maîtriser quel outil ?", "_t")
 -- texte non traduit
 --[==[
@@ -2243,7 +2243,7 @@ t("#CADET_BLUE#%s already equipped at level %d.", "#CADET_BLUE#%s déjà équip�
 t("#CADET_BLUE#Equipping %s with %s (level %d).", "#CADET_BLUE#Equippe %s avec %s (niveau %d).", "log")
 t("[%sEquip %s%s#LAST#]", "[%sEquippe %s%s#LAST#]", "tformat")
 t("[Equip %s]", "[Equippe %s]", "tformat")
-t("Equip which tool for #YELLOW#%s#LAST#?", "Equipper quel outil pour #YELLOW#%s#LAST#?", "tformat")
+t("Equip which tool for #YELLOW#%s#LAST#?", "Equipper quel outil pour #YELLOW#%s#LAST# ?", "tformat")
 -- texte non traduit
 --[==[
 t([[#GOLD#%s#LAST#
@@ -2265,14 +2265,14 @@ t("#LIGHT_GREEN#You and the Lord discuss your new relationship at some length, i
 t("As you depart the assassin lord says: 'And do not forget, I own you now.'", "En partant, le maître assassin dit : \"Et n'oublie pas, tu m'appartiens maintenant.\"", "log")
 t([[#LIGHT_GREEN#*Before you stands a menacing man clothed in black.*#WHITE#
 Ahh, the intruder at last... And what shall we do with you? Why did you kill my men?]], [[#LIGHT_GREEN#*Devant vous se tient un homme menaçant vêtu de noir.*#WHITE#
-Ahh, enfin l'intrus... Et qu'allons-nous faire de toi? Pourquoi avez-vous tué mes hommes?]], "_t")
-t("I heard some cries, and your men... they were in my way. What's going on here?", "J'ai entendu des cris, et vos hommes... ils étaient sur mon chemin. Qu'est-ce qui se passe ici?", "_t")
+Ahh, enfin l'intrus... Et qu'allons-nous faire de toi ? Pourquoi avez-vous tué mes hommes ?]], "_t")
+t("I heard some cries, and your men... they were in my way. What's going on here?", "J'ai entendu des cris, et vos hommes... ils étaient sur mon chemin. Qu'est-ce qui se passe ici ?", "_t")
 t("I thought there might be some treasure to be had around here.", "Je pensais qu'il y avait peut-être un trésor à trouver par ici.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_assassin-lord")
 t("Oh, you are not going anywhere, I'm afraid! KILL!", "Oh, vous n'allez nulle part, j'en ai peur ! TUER LE !", "_t")
 t("[attack]", "[attaquer]", "_t")
 t("Wait! Maybe we could work out some kind of arrangement; you seem to be a practical man.", "Attendez ! Peut-être que nous pourrions trouver un arrangement, vous semblez être un homme pragmatique.", "_t")
-t("Oh, so this is the part where I tell you my plan before you attack me? GET THIS INTRUDER!", "Oh, donc c'est la partie où je vous dis mon plan avant que vous m'attaquiez? ATTRAPEZ CET INTRUS !", "_t")
+t("Oh, so this is the part where I tell you my plan before you attack me? GET THIS INTRUDER!", "Oh, donc c'est la partie où je vous dis mon plan avant que vous m'attaquiez ? ATTRAPEZ CET INTRUS !", "_t")
 t("I am afraid this is not your lucky day then. The merchant is ours... and so are you! GET THIS INTRUDER!!", "Je crains que ce ne soit pas votre jour de chance alors. Le marchand est à nous... et vous aussi ! ATTRAPEZ CET INTRUS !", "_t")
 t([[Well, I need somebody to replace the men you killed. You look sturdy; maybe you could work for me.
 You will have to do some dirty work for me, though, and you will be bound to me.  Nevertheless, you may make quite a profit from this venture, if you are as good as you seem to be.
@@ -2288,7 +2288,7 @@ t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/avatar-distant-sun-unlock.chat"
 
-t("Uhh, okay. Sure. Mind showing me?", "Uhh, okay. Bien sûr. Vous pouvez me montrer?", "chat")
+t("Uhh, okay. Sure. Mind showing me?", "Uhh, okay. Bien sûr. Vous pouvez me montrer ?", "chat")
 t([[<<<You feel a gentle warmth in your mind. Something speaks directly to your mind!>>>
 #YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], [[<<<Vous ressentez une douce chaleur dans votre esprit. Quelque chose s'y adresse directement à votre esprit !>>>
 #YELLOW#BONJOUR, AMI. JE SUIS UNE ÉTOILE VENUE DE TRÈS LOIN. JE T'AI ENTENDU FAIRE L'ÉLOGE DE TON SOLEIL. POURQUOI NE PAS ME LOUER À LA PLACE ? JE SUIS UN BIEN MEILLEUR SOLEIL QUE CET ORBE GAZEUX TERNE ET SANS VIE DANS VOTRE VOISINAGE. S'IL VOUS PLAÎT, PERMETTEZ-MOI DE VOUS DÉMONTRER MES BONNES INTENTIONS.]], "chat")
@@ -2313,19 +2313,19 @@ t("Yes, give me your power!", "Oui, donnez-moi votre pouvoir !", "chat")
 t([[<<<You feel the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
 #YELLOW#I AM HERE. DO YOU DESIRE TO SMITE EVIL, DESTROY THE DARKNESS AND SCOUR THE EARTH? I SHALL AID YOU IN THIS QUEST. TOGETHER, WE WILL BE UNSTOPPABLE. ALL DARKNESS SHALL BE CONSUMED BY OUR LIGHT.
 #LAST#]], [[<<<Vous ressentez une douce chaleur dans votre esprit. Quelque chose s'y adresse directement à votre esprit !>>>
-#YELLOW#JE SUIS ICI. DÉSIREZ-VOUS FRAPPER LE MAL, DÉTRUIRE LES TÉNÈBRES ET PARCOURIR LA TERRE? JE VOUS AIDERAI DANS CETTE QUÊTE. ENSEMBLE, NOUS SERONS INARRÊTABLES. TOUTES LES TÉNÈBRES SERONT CONSUMÉES PAR NOTRE LUMIÈRE.
+#YELLOW#JE SUIS ICI. DÉSIREZ-VOUS FRAPPER LE MAL, DÉTRUIRE LES TÉNÈBRES ET PARCOURIR LA TERRE ? JE VOUS AIDERAI DANS CETTE QUÊTE. ENSEMBLE, NOUS SERONS INARRÊTABLES. TOUTES LES TÉNÈBRES SERONT CONSUMÉES PAR NOTRE LUMIÈRE.
 #LAST#]], "chat")
 t("Who... Who are you?", "Qui... Qui êtes-vous ?", "chat")
-t("But what are you getting out of this?", "Mais qu'est-ce que vous en retirez?", "chat")
+t("But what are you getting out of this?", "Mais qu'est-ce que vous en retirez ?", "chat")
 t("That doesn't tell me anything.", "Cela ne me dit rien du tout.", "chat")
-t("But how are you speaking to me?", "Mais comment me parlez-vous?", "chat")
-t("#YELLOW#I AM YOUR FRIEND. IT IS GOOD TO HAVE FRIENDS, ISN'T IT?", "#YELLOW#JE SUIS VOTRE AMI. C'EST BIEN D'AVOIR DES AMIS, N'EST-CE PAS?", "chat")
+t("But how are you speaking to me?", "Mais comment me parlez-vous ?", "chat")
+t("#YELLOW#I AM YOUR FRIEND. IT IS GOOD TO HAVE FRIENDS, ISN'T IT?", "#YELLOW#JE SUIS VOTRE AMI. C'EST BIEN D'AVOIR DES AMIS, N'EST-CE PAS ?", "chat")
 t("You still haven't told me who or what you are.", "Vous ne m'avez toujours pas dit qui ou ce que vous êtes.", "chat")
 t([[#YELLOW#YOU NEED NOT CONCERN YOURSELF WITH SUCH THINGS. I KNOW YOU CRAVE POWER. I KNOW THE WEIGHT OF THE WORLD IS ON YOUR SHOULDERS. SO, ACCEPT MY BOONS. ALLOW ME TO HELP YOU.
 ]], [[#YELLOW#VOUS NE DEVEZ PAS VOUS PRÉOCCUPER DE TELLES CHOSES. JE SAIS QUE VOUS AVEZ SOIF DE POUVOIR. JE SAIS QUE LE POIDS DU MONDE REPOSE SUR VOS ÉPAULES. ALORS, ACCEPTEZ MES BIENFAITS. PERMETTEZ-MOI DE VOUS AIDER.
 ]], "chat")
 t("#YELLOW#I AM GETTING PLENTY OUT OF THIS.", "#YELLOW#J'EN RETIRE BEAUCOUP.", "chat")
-t("#YELLOW#I TIRE OF YOUR NAGGING QUESTIONS. TALK, TALK, TALK. YOU HAVE A SIMPLE CHOICE BEFORE YOU. WILL YOU BECOME POWERFUL? OR WILL YOU BE WEAK AND ALONE?", "#YELLOW#JE SUIS FATIGUÉ DE TES QUESTIONS LANCINANTES. PARLEZ, PARLEZ, PARLEZ. VOUS AVEZ UN CHOIX SIMPLE À FAIRE. DEVIENDREZ-VOUS PUISSANTS? OU RESTERAS-TU FAIBLE ET SEUL?", "chat")
+t("#YELLOW#I TIRE OF YOUR NAGGING QUESTIONS. TALK, TALK, TALK. YOU HAVE A SIMPLE CHOICE BEFORE YOU. WILL YOU BECOME POWERFUL? OR WILL YOU BE WEAK AND ALONE?", "#YELLOW#JE SUIS FATIGUÉ DE TES QUESTIONS LANCINANTES. PARLEZ, PARLEZ, PARLEZ. VOUS AVEZ UN CHOIX SIMPLE À FAIRE. DEVIENDREZ-VOUS PUISSANTS ? OU RESTERAS-TU FAIBLE ET SEUL ?", "chat")
 t("I don't trust you. Please go away.", "Je n'ai pas confiance en vous. S'il vous plaît, partez.", "chat")
 t("#YELLOW#I HAVE LITTLE PATIENCE FOR TIME WASTERS. THIS SHALL BE THE LAST TIME WE SPEAK.", "#YELLOW#JE NE SUPPORTE PAS LES PERTES DE TEMPS. C'EST LA DERNIÈRE FOIS QUE NOUS NOUS PARLONS.", "chat")
 t("#GRAY#[prodigy point refunded]", "#GRAY#[point de prodige remboursé]", "chat")
@@ -2338,7 +2338,7 @@ t("[...]", "[...]", "chat")
 ------------------------------------------------
 section "mod-tome/data/chats/chronomancy-bias-weave.lua"
 
-t("What kind of anomaly do you prefer?", "Quel type d'anomalie préférez-vous?", "_t")
+t("What kind of anomaly do you prefer?", "Quel type d'anomalie préférez-vous ?", "_t")
 t("Physical", "Physique", "_t")
 t("Warp", "Déformation", "_t")
 t("Temporal", "Temporelle", "_t")
@@ -2364,20 +2364,20 @@ t("Make amends, magic-user, for the harm ye have wrought is beyond compare.", "F
 t("You really could have chosen a better home for me, you know. I was reasonably happy in my old crystal. This stick smells like armpit.", "Vous auriez vraiment pu choisir une meilleure maison pour moi, vous savez. J'étais raisonnablement heureux dans mon ancien cristal. Ce bâton sent les aisselles.", "_t")
 t("Tremble before the might of Telos!", "Tremblez devant la puissance de Telos !", "_t")
 t("It is not yet your place to command such a staff as this. To do so invites obliteration.", "Il n'est pas encore de votre ressort de commander un tel bâton. Le faire, c'est s'exposer à l'anéantissement.", "_t")
-t("Call on which aspect of the staff?", "Demander quel aspect sur le bâton?", "_t")
+t("Call on which aspect of the staff?", "Demander quel aspect sur le bâton ?", "_t")
 t("error!", "erreure !", "_t")
 t("Oh, I was once a mighty Eldritch Channeler. Mighty and absentminded, as it turns out. Had a bit of a mishap with an Inverted Kugala's Soul-infusion technique. Long story short, my soul is now stuck in this stick, and the soul I was working with... well, I don't rightly know where he got to. But I hope we never meet him.", "Oh, j'étais autrefois un puissant canalisateur occulte. Puissant et distrait, comme il s'avère. J'ai eu une petite mésaventure avec une technique d'essence d'âme de Kugala inversé. Pour faire court, mon âme est maintenant coincée dans ce bâton, et l'âme avec laquelle je travaillais... eh bien, je ne sais pas vraiment où elle est allée. Mais j'espère qu'on ne le rencontrera jamais.", "_t")
 t("Argh! Bollocksed up a tricky bit of soul magic and the fool that I was supposed to be imprisoning for all eternity flitted away. My body, like all the targets of my spells, intended or otherwise, got reduced to elementary particles. Fortunately, I had this soul-cage of a staff all prepped and ready for a stray soul, so I'm not completely gone. But enough chit-chat. Let's fry somebody.", "Argh ! J'ai raté un petit tour de magie de l'âme et le fou que j'étais censé emprisonner pour l'éternité s'est enfui. Mon corps, comme toutes les cibles de mes sorts, intentionnelles ou non, a été réduit en particules élémentaires. Heureusement, j'avais ce bâton-cage à âmes tout préparé et prêt pour une âme égarée, donc je ne suis pas complètement parti. Mais assez de bavardages. Allons griller quelqu'un.", "_t")
 t("My old master-- who, though a powerful enchanter, did not compare to you and your glory-- saw fit to imprison me in this fine staff to aid him in his work. Alas, he is long gone, but I despair not, for I have found a mighty new master.", "Mon ancien maître -- qui, bien qu'étant un puissant enchanteur, n'était pas comparable à vous et à votre gloire -- a jugé bon de m'emprisonner dans ce beau bâton pour l'aider dans son travail. Hélas, il est parti depuis longtemps, mais je ne désespère pas, car j'ai trouvé un puissant nouveau maître.", "_t")
 t("I am a portion of the very spirit of the world that was ripped free during the Spellblaze. I speak that I might enlighten those who bear me.", "Je suis une partie de l'esprit même du monde qui a été libéré pendant la Brûlure magique. Je parle pour éclairer ceux qui me portent.", "_t")
-t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Best study up if you don't want to die forgotten and incompetent.", "A quoi sert l'immortalité si on ne peut même pas parler? Aucun archimage digne de ce nom ne va concocter un plan immoral de vie après la mort sans inclure une sorte de capacité à faire connaître ses opinions. Et, au fait, vos techniques de manipulation de l'énergie sont du même niveau que celles de ma paire de chaussures moyenne. Vous feriez mieux d'étudier si vous ne voulez pas mourir oublié et incompétent.", "_t")
-t("Of course. Which aspect?", "Bien sûr. Quel aspect?", "_t")
+t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Best study up if you don't want to die forgotten and incompetent.", "A quoi sert l'immortalité si on ne peut même pas parler ? Aucun archimage digne de ce nom ne va concocter un plan immoral de vie après la mort sans inclure une sorte de capacité à faire connaître ses opinions. Et, au fait, vos techniques de manipulation de l'énergie sont du même niveau que celles de ma paire de chaussures moyenne. Vous feriez mieux d'étudier si vous ne voulez pas mourir oublié et incompétent.", "_t")
+t("Of course. Which aspect?", "Bien sûr. Quel aspect ?", "_t")
 t("I highly recommend the mage aspect and the fire element. You're not going to find anything better for turning a piece of meat into a cloud of vapor.", "Je recommande fortement l'aspect mage et l'élément feu. Vous ne trouverez rien de mieux pour transformer un morceau de viande en un nuage de vapeur.", "_t")
 t("I live to serve-- though my use of the word 'live' is perhaps loose here.", "Je vis pour servir -- bien que mon utilisation du mot \"vivre\" soit peut-être un peu vague ici.", "_t")
 t("Choose wisely. Powers beyond your comprehension will tolerate only so much interference in their carefully-laid natural order.", "Choisissez sagement. Les puissances qui dépassent votre entendement ne tolèrent qu'un certain nombre d'interférences dans leur ordre naturel soigneusement établi.", "_t")
 t("Back in my day, we didn't need to go changing our staves around willy-nilly. We picked an element and stuck with it, by the gods.", "De mon temps, on n'avait pas besoin de changer de bâton au gré de nos envies. On choisissait un élément et on s'y tenait, par les dieux.", "_t")
-t("Certainly. You should be impressed, by the way, that I can do such a thing. Most lesser practitioners of my art would have difficulties with this. What shall I change?", "Certainement. Vous devriez être impressionné, au passage, que je puisse faire une telle chose. La plupart des autres praticiens de mon art auraient des difficultés à le faire. Que dois-je changer?", "_t")
-t("Fine, as long as it leads to blasting something soon. What do you want me to change?", "Bien, tant que ça mène bientôt à l'explosion de quelque chose. Qu'est-ce que tu veux que je change?", "_t")
+t("Certainly. You should be impressed, by the way, that I can do such a thing. Most lesser practitioners of my art would have difficulties with this. What shall I change?", "Certainement. Vous devriez être impressionné, au passage, que je puisse faire une telle chose. La plupart des autres praticiens de mon art auraient des difficultés à le faire. Que dois-je changer ?", "_t")
+t("Fine, as long as it leads to blasting something soon. What do you want me to change?", "Bien, tant que ça mène bientôt à l'explosion de quelque chose. Qu'est-ce que tu veux que je change ?", "_t")
 t("Choose different aspect", "Choisissez un autre aspect", "_t")
 t("Never mind.", "Aucune importance.", "_t")
 t("Call forth which element?", "Faire appel à quel élément ?", "_t")
@@ -2392,22 +2392,22 @@ section "mod-tome/data/chats/conclave-vault-greeting.lua"
 
 t([[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
 YOU!  Name, rank, and identification.  NOW.
-]], [[#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et se mettent immédiatement au garde-à-vous. Celui de droite parle:*#WHITE#.
+]], [[#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et se mettent immédiatement au garde-à-vous. Celui de droite parle :*#WHITE#.
 VOUS !  Nom, grade et identification.  MAINTENANT.
 ]], "_t")
-t("My what?", "Mon quoi?", "_t")
+t("My what?", "Mon quoi ?", "_t")
 t("[attack]", "[attaquer]", "_t")
 t("#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately draw their weapons.", "#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et sortent immédiatement leurs armes.", "_t")
 t("#CRIMSON#NARGOL SCUM!  WE'RE UNDER ATTACK!", "#CRIMSON#ORDURE DE NARGOL !  NOUS SOMMES ATTAQUÉS !", "_t")
 t([[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
 Ah!  Reinforcements!  I don't know how long it's been, but I'll get Astelrid up here to--  wait a minute, where are the rest of them?  #LIGHT_GREEN#*He frowns.*#WHITE# What's your identification number?
-]], [[#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et se mettent immédiatement au garde-à-vous. Celui de droite parle:*#WHITE#
-Ah ! Des renforts !  Je ne sais pas combien de temps cela a duré, mais je vais faire venir Astelrid pour... Attendez une minute, où sont les autres?  #LIGHT_GREEN#*Il se renfrogne.*#WHITE# Quel est votre numéro d'identification?
+]], [[#LIGHT_GREEN#*En entrant dans la pièce, vous voyez deux ogres massifs qui montent la garde, clignant des yeux comme s'ils se réveillaient d'un long sommeil. Ils vous voient et se mettent immédiatement au garde-à-vous. Celui de droite parle :*#WHITE#
+Ah ! Des renforts !  Je ne sais pas combien de temps cela a duré, mais je vais faire venir Astelrid pour... Attendez une minute, où sont les autres ?  #LIGHT_GREEN#*Il se renfrogne.*#WHITE# Quel est votre numéro d'identification ?
 ]], "_t")
 t("Wait! The war's over! It's been thousands of years, the Conclave doesn't exist anymore!", "Attendez ! La guerre est finie ! Cela fait des milliers d'années, le Conclave n'existe plus !", "_t")
 t([[#LIGHT_GREEN#*They look at each other and scowl, drawing their weapons.  The one on the left growls:*#WHITE#
 LIES!  The Conclave could not have lost!  I don't know who you are, but we can't afford witnesses!
-]], [[#LIGHT_GREEN#*Ils se regardent l'un l'autre, se renfrognent et sortent leurs armes.  Celui de gauche rugit:*#WHITE#
+]], [[#LIGHT_GREEN#*Ils se regardent l'un l'autre, se renfrognent et sortent leurs armes.  Celui de gauche rugit :*#WHITE#
 MENSONGES !  Le Conclave n'a pas pu perdre !  Je ne sais pas qui vous êtes, mais nous ne pouvons pas nous permettre d'avoir des témoins !
 ]], "_t")
 
@@ -2419,7 +2419,7 @@ I see you are a worthy opponent, powerful indeed. I can see, and feel, your mast
 We are the same.]], [[Attendez, @playerdescriptor.subclass@ !
 Je vois que vous êtes un adversaire de taille, puissant en effet. Je peux voir, et sentir, votre maîtrise de l'artisanat eldritch.
 Nous sommes les mêmes.]], "_t")
-t("What do you mean 'the same'?", "Que voulez-vous dire par \"les mêmes\"?", "_t")
+t("What do you mean 'the same'?", "Que voulez-vous dire par \"les mêmes\" ?", "_t")
 t("I am nothing like you. Die!", "Je ne suis pas comme toi. Meurs !", "_t")
 t("So be it. Die, and give me your power!", "Ainsi soit-il. Meurs, et donne-moi tes pouvoirs !", "_t")
 t([[We both know the strength of the arcane; we both hunger for power. There is so much I have discovered, so much I could teach you.
@@ -2427,7 +2427,7 @@ This place is special. The veil of reality is thin here, forever shattered by th
 leeching from this place, to better ourselves, to bring forth the dominion of magic!]], [[Nous connaissons tous deux la force des arcanes, nous avons tous deux soif de pouvoir. Il y a tellement de choses que j'ai découverts, tellement de choses que je pourrais vous apprendre.
 Cet endroit est spécial. Le voile de la réalité est mince ici, brisé à jamais par la Brûlure magique. Nous en profitons, nous pouvons puiser dans ce pouvoir, qui s'échappe de cet endroit, pour nous améliorer, pour amener la domination de la magie !]], "_t")
 t("The world suffered from the Spellblaze enough. Magic must serve people, not enslave them. I will not listen to you!", "Le monde a assez souffert de la Brûlure magique. La magie doit servir les gens, pas les asservir. Je ne t'écouterai pas !", "_t")
-t("What do you propose, then?", "Que proposez-vous, alors?", "_t")
+t("What do you propose, then?", "Que proposez-vous, alors ?", "_t")
 t([[Let us end this meaningless fight. Have you ever heard of a group of people called the Ziguranth?
 These rambling madmen think magic should not be permitted to exist! They fear us; they fear our powers.
 Let us join forces and crush the fools!]], [[Mettons fin à ce combat inutile. Avez-vous déjà entendu parler d'un groupe de personnes appelé les Zigurantes ?
@@ -2439,7 +2439,7 @@ t("Then you must leave... THIS WORLD! DIE!", "Alors tu dois quitter... CE MONDE 
 t([[Good. Before your... untimely arrival we were preparing an attack on the Ziguranth main training camp, on the southern beach of the sea of Sash.
 Come with us; let's destroy them!
 I will open a portal to Zigur and the massacre shall begin!]], [[Bien. Avant votre... arrivée inopportune, nous préparions une attaque sur le camp d'entraînement principal des Zigurantes, sur la plage sud de la mer de Sash.
-Venez avec nous; détruisons-les !
+Venez avec nous ; détruisons-les !
 Je vais ouvrir un portail vers Zigur et le massacre va commencer !]], "_t")
 t("I am ready!", "Je suis prêt(e) !", "_t")
 
@@ -2448,8 +2448,8 @@ section "mod-tome/data/chats/derth-attack-over.lua"
 
 t([[#LIGHT_GREEN#*A Halfling comes forth from his hiding place.*#WHITE#
 You killed them all? Are we safe now? Oh, please tell me this was a bad dream!]], [[#LIGHT_GREEN#*Un Halfelin sort de sa cachette.*#WHITE#
-Vous les avez tous tués? On est en sécurité maintenant? Oh, s'il vous plaît dites-moi que c'était un mauvais rêve !]], "_t")
-t("Be at ease. I have dispatched those monstrosities. Do you know where they came from or what they wanted?", "Soyez tranquille. Je me suis débarrassé de ces monstruosités. Savez-vous d'où elles viennent ou ce qu'elles veulent?", "_t")
+Vous les avez tous tués ? On est en sécurité maintenant ? Oh, s'il vous plaît dites-moi que c'était un mauvais rêve !]], "_t")
+t("Be at ease. I have dispatched those monstrosities. Do you know where they came from or what they wanted?", "Soyez tranquille. Je me suis débarrassé de ces monstruosités. Savez-vous d'où elles viennent ou ce qu'elles veulent ?", "_t")
 t([[From nowhere! From the sky!
 I do not know. I was tending my crop just outside the town when I heard screaming. As I entered the town, I saw the dark cloud over here. Those... those... things were coming from it in blasts of lightning!]], [[De nulle part ! Du ciel !
 Je ne sais pas. Je m'occupais de ma récolte juste à l'extérieur de la ville quand j'ai entendu des cris. En entrant dans la ville, j'ai vu ce nuage sombre. Ces... ces... choses en sortaient sous forme d'éclairs !]], "_t")
@@ -2457,7 +2457,7 @@ t("It seems they have stopped coming for now. I will look for somebody who could
 t([[Thank you! You have saved many people today!
 I have heard of rumours of a reclusive town of wise and powerful men somewhere in the mountains. Maybe they could help? If they even exist...
 There are also those Zigur-something people that claim to fight magic. Why are they not here?!]], [[Merci ! Vous avez sauvé beaucoup de gens aujourd'hui !
-J'ai entendu des rumeurs sur une ville recluse d'hommes sages et puissants quelque part dans les montagnes. Peut-être qu'ils pourraient aider? S'ils existent vraiment...
+J'ai entendu des rumeurs sur une ville recluse d'hommes sages et puissants quelque part dans les montagnes. Peut-être qu'ils pourraient aider ? S'ils existent vraiment...
 Il y a aussi ces Zigur-quelque chose qui prétendent combattre la magie. Pourquoi ne sont-ils pas ici ?!]], "_t")
 t("You mean the Ziguranth. That would be me.", "Tu veux dire le Zigurante. C'est moi.", "_t")
 t("I will not let you down.", "Je ne vous laisserais pas tomber.", "_t")
@@ -2470,8 +2470,8 @@ section "mod-tome/data/chats/dreadfell-ambush.lua"
 t([[#VIOLET#*As you come out of the Dreadfell, you encounter a band of orcs*#LAST#
 You! Give us the staff NOW and we might offer you a quick death!]], [[#VIOLET#*En sortant de Tombeffroie, vous rencontrez une bande d'orcs.*#LAST#
 Toi ! Donne-nous le bâton MAINTENANT et nous pourrions t'offrir une mort rapide !]], "_t")
-t("What are you talking about?", "De quoi parlez vous?", "_t")
-t("Why would you want it?", "Pourquoi le voudrais tu?", "_t")
+t("What are you talking about?", "De quoi parlez vous ?", "_t")
+t("Why would you want it?", "Pourquoi le voudrais tu ?", "_t")
 t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaquer]", "_t")
 t("Do not play dumb with Ukruk! ATTACK!", "Ne faites pas l'idiot avec Ukruk ! À L'ATTAQUE !", "_t")
 t("That is not your concern! ATTACK!", "Cela ne te concerne pas ! À L'ATTAQUE !", "_t")
@@ -2517,7 +2517,7 @@ Mais n'abusez pas de mon aide. Je ne suis pas votre serviteur, et un jour, je po
 Quant à vos nombreuses questions, elles resteront probablement sans réponse. Je peux vous aider, mais je ne suis pas là pour vous expliquer pourquoi.]], "_t")
 t("Thank you. I will rest for a while.", "Je vous remercie. Je vais me reposer un peu.", "_t")
 t("Thank you. I am ready to go back!", "Je vous remercie. Je suis prêt à y retourner !", "_t")
-t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else please?", "Merci, mais je crains de ne pas survivre de toute façon. Pouvez-vous me renvoyer ailleurs, s'il vous plaît?", "_t")
+t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else please?", "Merci, mais je crains de ne pas survivre de toute façon. Pouvez-vous me renvoyer ailleurs, s'il vous plaît ?", "_t")
 t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else on the level please?", "Merci, mais je crains de ne pas survivre de toute façon, pouvez-vous me renvoyer ailleurs dans le niveau s'il vous plaît ?", "_t")
 t("Thank you, I am ready to go back!", "Merci, je suis prêt à y retourner !", "_t")
 t("Thank you, but I am weary of this life, I wish no more, please let me go.", "Merci, mais je suis fatigué de cette vie, je n'en peut plus, s'il vous plaît laissez-moi partir.", "_t")
@@ -2552,8 +2552,8 @@ t("[Images and knowledge flow in.]", "[Les images et le savoir affluent.]", "_t"
 t("[You do not gain any knowledge.]", "[Vous ne gagnez aucune compétence.]", "_t")
 t("You pause and recall past memories.", "Vous faites une pause et vous vous rappelez des événements passés.", "_t")
 t("[You do not recognize anything new.]", "[Vous ne reconnaissez rien de nouveau.]", "_t")
-t("Oh, hi @playername@, have you got something new to show me?", "Oh, salut @playername@, tu as quelque chose de nouveau à me montrer?", "_t")
-t("Yes, Elisa, could you have a look at these objects please? [show her the items the orb could not identify]", "Oui Elisa, pourriez-vous jeter un coup d'oeil à ces objets s'il vous plaît? [Lui montrer les objets que l'orbe n'a pas pu identifier]", "_t")
+t("Oh, hi @playername@, have you got something new to show me?", "Oh, salut @playername@, tu as quelque chose de nouveau à me montrer ?", "_t")
+t("Yes, Elisa, could you have a look at these objects please? [show her the items the orb could not identify]", "Oui Elisa, pourriez-vous jeter un coup d'oeil à ces objets s'il vous plaît ? [Lui montrer les objets que l'orbe n'a pas pu identifier]", "_t")
 t("Err, no... sorry, I just wanted to hear a friendly voice.", "Err, non... désolé, je voulais juste entendre une voix amicale.", "_t")
 t("Not yet sorry!", "Pas encore, malheureusement !", "_t")
 t([[#LIGHT_GREEN#*You hear something akin to a muffled giggle*#WHITE#
@@ -2572,8 +2572,8 @@ That is very nice, @playername@!]], [[Voyons voir ce que vous avez là...
 
 C'est très beau, @playername@ !]], "tformat")
 t("Thank you, Elisa!", "Merci, Elisa !", "_t")
-t("Hello friend, what can I do for you?", "Bonjour, que puis-je faire pour vous?", "_t")
-t("Could you have a look at these objects, please? [show her your unidentified items]", "Pourriez-vous jeter un coup d'oeil à ces objets, s'il vous plaît? [montrez-lui vos objets non identifiés]", "_t")
+t("Hello friend, what can I do for you?", "Bonjour, que puis-je faire pour vous ?", "_t")
+t("Could you have a look at these objects, please? [show her your unidentified items]", "Pourriez-vous jeter un coup d'oeil à ces objets, s'il vous plaît ? [montrez-lui vos objets non identifiés]", "_t")
 t("Nothing, goodbye.", "Rien, au revoir.", "_t")
 t([[Wait, @playername@, you seem to be quite the adventurer. Maybe we can help one another.
 You see, I #{bold}#LOOOVVVEEEE#{normal}# learning new lore and finding old artifacts of power, but I am not exactly an adventurer and I would surely get killed out there.
@@ -2582,7 +2582,7 @@ I get to see many interesting things, and you get to know what your items do. We
 Oh yes, the orb will also identify mundane items for you, as long as you carry it.]], [[Attends, @playername@, tu sembles être un grand aventurier. Peut-être pouvons-nous nous entraider.
 Tu vois, j' #{bold}#ADORERAIS#{normal}# apprendre de nouvelles choses et trouver de vieux artefacts de pouvoir, mais je ne suis pas exactement une aventurière et je me ferais sûrement tuer là-bas.
 Prenez donc cet orbe (#LIGHT_GREEN#*elle vous donne un orbe de scrutation*#WHITE#). Tu peux l'utiliser pour me parler de n'importe où dans le monde ! Ainsi, tu pourras me montrer tes nouvelles découvertes !
-Je verrai des choses intéressantes et tu sauras ce que font tes objets. Nous serons tous les deux gagnants ! N'est-ce pas génial?
+Je verrai des choses intéressantes et tu sauras ce que font tes objets. Nous serons tous les deux gagnants ! N'est-ce pas génial ?
 Ah oui, l'orbe peut aussi identifier les objets ordinaires, tant que vous la portez.]], "_t")
 t("Woah, thanks, Elisa. This is really nice!", "Woah, merci Elisa. C'est vraiment sympa !", "_t")
 
@@ -2591,14 +2591,14 @@ section "mod-tome/data/chats/escort-quest-start.lua"
 
 t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a Ziguranth technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
 Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique Ziguranthe pour saboter le portail. @npcname@ sera envoyé à Zigur pour être "traité" comme il se doit.]#WHITE#
-Montrez-moi le chemin; Je vous protégerai.]], "_t")
+Montrez-moi le chemin ; Je vous protégerai.]], "_t")
 t("Escort", "Escorte", "_t")
-t("Go away; I do not help filthy arcane users!", "Dégagez; Je n'aide pas les sales utilisateurs des arcanes !", "_t")
-t("Lead on; I will protect you.", "Montrez-moi le chemin; Je vous protégerai.", "_t")
+t("Go away; I do not help filthy arcane users!", "Dégagez ; Je n'aide pas les sales utilisateurs des arcanes !", "_t")
+t("Lead on; I will protect you.", "Montrez-moi le chemin ; Je vous protégerai.", "_t")
 t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
 Lead on; I will protect you.]], [[#LIGHT_GREEN#[Prédendre vouloir aider mais quand il sera temps vous utiliserez une technique pour saboter le portail. @npcname@ sera envoyé à Zigur pour être "traité" comme il se doit.]#WHITE#
-Montrez-moi le chemin; Je vous protégerai.]], "_t")
-t("Go away; I do not care for the weak.", "Dégagez; Je n'ai que faire des faibles.", "_t")
+Montrez-moi le chemin ; Je vous protégerai.]], "_t")
+t("Go away; I do not care for the weak.", "Dégagez ; Je n'ai que faire des faibles.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/escort-quest.lua"
@@ -2608,7 +2608,7 @@ You can feel Nature thanking you.]], [[Au dernier moment vous invoquez la puissa
 Vous sentez la nature vous remercier.]], "_t")
 t([[Thank you, my friend. I do not think I would have survived without you.
 Please let me reward you:]], [[Merci, mon ami. Je ne pense pas que j'aurais survécu sans vous.
-Laissez moi vous remercier s'il vous plait:]], "_t")
+Laissez moi vous remercier s'il vous plait :]], "_t")
 t("There you go. Farewell!", "Et voila. Adieu !", "_t")
 t("Thank you.", "Merci.", "_t")
 
@@ -2618,14 +2618,14 @@ section "mod-tome/data/chats/fallen-aeryn.lua"
 t("%s grabs her amulet and disappears in a whirl of arcane energies.", "%s saisit son amulette et disparaît dans un tourbillon d'énergies arcaniques.", "logPlayer")
 t([[#LIGHT_GREEN#*She lies nearly dead at your feet*#WHITE#
 So, now you will kill me and complete the cycle of destruction?]], [[#LIGHT_GREEN#*Elle gît presque morte à vos pieds*#WHITE#
-Donc, maintenant vous allez me tuer et compléter le cycle de destruction?]], "_t")
-t("What are you talking about? Why did you attack me?", "De quoi parlez-vous? Pourquoi m'avez-vous attaqué?", "_t")
-t("Speak and I might spare you. Why did you attack me?", "Parle et je t'épargnerai peut-être. Pourquoi m'avez-vous attaqué?", "_t")
+Donc, maintenant vous allez me tuer et compléter le cycle de destruction ?]], "_t")
+t("What are you talking about? Why did you attack me?", "De quoi parlez-vous ? Pourquoi m'avez-vous attaqué ?", "_t")
+t("Speak and I might spare you. Why did you attack me?", "Parle et je t'épargnerai peut-être. Pourquoi m'avez-vous attaqué ?", "_t")
 t("[kill her]", "[la tuer]", "_t")
 t([[You.. you do not know?
 A few hours after you entered this place a raid of orcs fell upon us. They were not alone -- demons walked among them. We were overwhelmed! Utterly destroyed!
 My land is no more! All because you could not stop them at the Charred Scar! You failed us! People died to protect you, and you failed!
-#LIGHT_GREEN#*She starts to weep...*#WHITE#]], [[Vous... vous ne savez pas?
+#LIGHT_GREEN#*She starts to weep...*#WHITE#]], [[Vous... vous ne savez pas ?
 Quelques heures après que vous soyez entrés dans cet endroit, un raid Orc nous est tombé dessus. Ils n'étaient pas seuls... des démons marchaient parmi eux. Nous avons été submergés ! Complètement anéantis !
 Ma terre n'est plus ! Tout ça parce que vous n'avez pas pu les arrêter à la Plaie craquelée ! Vous avez échoué ! Des gens sont morts pour vous protéger, et vous avez échoué !
 #LIGHT_GREEN#*Elle commence à pleurer...*#WHITE#]], "_t")
@@ -2634,10 +2634,10 @@ t("I know my mistakes and I intend to correct them. Please let me pass. I cannot
 ------------------------------------------------
 section "mod-tome/data/chats/gates-of-morning-main.lua"
 
-t("What may I do for you?", "Que puis-je faire pour vous?", "_t")
+t("What may I do for you?", "Que puis-je faire pour vous ?", "_t")
 t("Lady Aeryn, at last I am back home! [tell her your story]", "Dame Aeryn, enfin, je suis de retour chez moi ! [lui raconter votre histoire]", "_t")
 t("Tell me more about the Gates of Morning.", "Dites-m'en plus sur les Portes du Matin.", "_t")
-t("Before I came here, I happened upon members of the Sunwall in Maj'Eyal. Do you know of this?.", "Avant de venir ici, j'ai rencontré par hasard des membres du Mur Solaire en Maj'Eyal. Vous êtes au courant?", "_t")
+t("Before I came here, I happened upon members of the Sunwall in Maj'Eyal. Do you know of this?.", "Avant de venir ici, j'ai rencontré par hasard des membres du Mur Solaire en Maj'Eyal. Vous êtes au courant ?", "_t")
 t("I need help in my hunt for clues about the staff.", "J'ai besoin d'aide dans ma chasse aux informations sur le bâton.", "_t")
 t("I have destroyed the leaders of all the Orc Prides.", "J'ai anéanti les chefs de toutes les Fiertés Orcs.", "_t")
 t("I am back from the Charred Scar, where the orcs took the staff.", "Je suis de retour de la Plaie Craquelée, où les orcs ont pris le bâton.", "_t")
@@ -2655,7 +2655,7 @@ Les Humains sont arrivés ici à l'Ère du Bûcher. Nos ancêtres faisaient part
 Ils ont rencontré un groupe d'elfes, apparemment originaires de ces terres, et se sont liés d'amitié avec eux - fondant le Mur Solaire et les Portes du Matin.
 Puis les Fiertés Orcs sont arrivés et nous nous sommes battus pour notre survie depuis lors.]], "_t")
 t("Thank you, my lady.", "Merci, ma dame.", "_t")
-t("Ahh, so they survived? That is good news...", "Ahh, donc ils ont survécu? C'est une bonne nouvelle...", "_t")
+t("Ahh, so they survived? That is good news...", "Ahh, donc ils ont survécu ? C'est une bonne nouvelle...", "_t")
 t("Go on.", "Continuez.", "_t")
 t("Well, actually...", "Eh bien, en fait...", "_t")
 t([[The people you saw are likely the volunteers of Zemekkys' early experiments regarding the farportals.
@@ -2674,25 +2674,25 @@ While you were busy bringing an end to the orcs, we managed to discover some par
 He talked about the shield protecting the High Peak. It seems to be controlled by "orbs of command" which the masters of the Prides had in their possession.
 He also said the only way to enter the peak and de-activate the shield is through the "slime tunnels", located somewhere in one of the Prides, probably Grushnak.
 ]], [[La nouvelle m'est en effet parvenue. Je ne pouvais pas le croire, cela fait si longtemps que nous sommes en guerre contre les Fiertés.
-Et maintenant ils sont morts? Par la main d'un seul @playerdescriptor.race@? Je suis vraiment étonné par ta puissance.
+Et maintenant ils sont morts ? Par la main d'un seul @playerdescriptor.race@ ? Je suis vraiment étonné par ta puissance.
 Pendant que vous étiez occupés à mettre fin aux activités des orcs, nous avons réussi à découvrir une partie de la vérité grâce à un orc captif.
 Il a parlé du bouclier qui protège le Haut Pic. Il semble être contrôlé par des "orbes de commandes" que les maîtres des Pics avaient en leur possession.
 Il a également dit que le seul moyen d'accéder au pic et de désactiver le bouclier est de passer par les "tunnels de vases", situés quelque part dans l'une des Fiertés, probablement Grushnak.
 ]], "_t")
-t("Thanks, my lady. I have not been able to find all of the orbs of command in my travels; could you have some of your men search for me?", "Merci, ma dame. Je n'ai pas été en mesure de trouver toutes les orbes de commandes dans mes voyages; pourriez-vous demander à certains de vos hommes de chercher pour moi?", "_t")
+t("Thanks, my lady. I have not been able to find all of the orbs of command in my travels; could you have some of your men search for me?", "Merci, ma dame. Je n'ai pas été en mesure de trouver toutes les orbes de commandes dans mes voyages ; pourriez-vous demander à certains de vos hommes de chercher pour moi ?", "_t")
 t("Thanks, my lady. I will look for the tunnel and venture inside the Peak.", "Merci, ma dame. Je vais chercher le tunnel et m'aventurer à l'intérieur du Pic.", "_t")
 t([[I have already sent parties to clear out the remainder of the prides as you progressed, and have instructed to keep a sharp eye out for any orbs of command you may have missed.
 	Which do you not have? I can check with the parties if they found any. Our sources indicate that you should have four: one of Undeath, one of Destruction, one of Dragons, and one of Elemental might.]], [[J'ai déjà envoyé des équipes pour éliminer le reste des Fiertés au fur et à mesure de votre progression, et ai demandé de garder un oeil attentif sur les orbes de commandes que vous auriez pu manquer.
-	Lesquels n'avez-vous pas? Je peux vérifier avec les groupes s'ils en ont trouvé. Nos sources indiquent que vous devriez en avoir quatre: une de Non-Vie, une de Destruction, une Draconique, et une de Puissance Elémentaire.]], "_t")
+	Lesquels n'avez-vous pas ? Je peux vérifier avec les groupes s'ils en ont trouvé. Nos sources indiquent que vous devriez en avoir quatre : une de Non-Vie, une de Destruction, une Draconique, et une de Puissance Elémentaire.]], "_t")
 t("The orb of Undeath.", "L'orbe de Non-Vie.", "_t")
 t("The orb of Destruction.", "L'orbe de Destruction.", "_t")
 t("The orb of Dragons.", "L'orbe Draconique.", "_t")
 t("The orb of Elements.", "L'orbe de Puissance Elementaire.", "_t")
 t("Thanks, my lady, that is all of them. I will look for the tunnel and venture inside the Peak.", "Merci, ma dame, je els ai toutes. Je vais chercher le tunnel et m'aventurer à l'intérieur du Pic.", "_t")
-t("Ah yes, my men have found that in Rak'Shor Pride. Here: ", "Ah oui, mes hommes ont trouvé ça à la Fierté Rak'Shor. Voici: ", "_t")
-t("Ah yes, my men have found that in Vor Pride. Here: ", "Ah oui, mes hommes ont rouvé ça à la Fierté Vor. Voici: ", "_t")
-t("Ah yes, my men have found that in Grushnak Pride. Here: ", "Ah oui, mes hommes ont trouvé ça à la Fierté Grushnak. Voici: ", "_t")
-t("Ah yes, my men have found that in Gorbat Pride. Here: ", "Ah oui, mes hommes ont trouvé ça à la Fierté Gorbat. Voici: ", "_t")
+t("Ah yes, my men have found that in Rak'Shor Pride. Here: ", "Ah oui, mes hommes ont trouvé ça à la Fierté Rak'Shor. Voici : ", "_t")
+t("Ah yes, my men have found that in Vor Pride. Here: ", "Ah oui, mes hommes ont rouvé ça à la Fierté Vor. Voici : ", "_t")
+t("Ah yes, my men have found that in Grushnak Pride. Here: ", "Ah oui, mes hommes ont trouvé ça à la Fierté Grushnak. Voici : ", "_t")
+t("Ah yes, my men have found that in Gorbat Pride. Here: ", "Ah oui, mes hommes ont trouvé ça à la Fierté Gorbat. Voici : ", "_t")
 t([[As much as I would like to help, our forces are already spread too thin; we cannot provide you with direct assistance.
 But I might be able to help you by explaining how the Pride is organised.
 Recently we have heard the Pride speaking about a new master, or masters. They might be the ones behind that mysterious staff of yours.
@@ -2702,12 +2702,12 @@ The known bastions of the Pride are:
 - Rak'shor Pride, in the west of the southern desert
 - Gorbat Pride, in a mountain range in the southern desert
 - Vor Pride, in the northeast
-- Grushnak Pride, on the eastern slope of the High Peak]], [[Bien que j'aimerais vous aider, nos forces sont déjà trop dispersées; nous ne pouvons pas vous fournir une assistance directe.
+- Grushnak Pride, on the eastern slope of the High Peak]], [[Bien que j'aimerais vous aider, nos forces sont déjà trop dispersées ; nous ne pouvons pas vous fournir une assistance directe.
 Mais je peux peut-être vous aider en vous expliquant comment les Fiertés sont organisé.
 Récemment, nous avons entendu les Fiertés parler d'un nouveau maître, ou de nouveaux maîtres. Ils pourraient être ceux qui se cachent derrière votre mystérieux bâton.
 Nous pensons que le coeur de leur pouvoir est le Haut Pic, au centre du continent. Mais il est inaccessible et couvert par une sorte de bouclier.
 Vous devez enquêter sur les bastions des Fiertés. Vous trouverez peut-être plus d'informations sur le Haut Pic, et chaque orc que vous tuerez sera un de moins pour nous attaquer.
-Les bastions connus des Fiertés sont:
+Les bastions connus des Fiertés sont :
 - La fierté Rak'shor, à l'ouest du désert du sud.
 - La fierté Gorbat, dans une chaîne de montagnes du désert du sud.
 - La fierté Vor, au nord-est
@@ -2721,19 +2721,19 @@ t([[One more bit of aid I might give you before you go. Your tale has moved me, 
 	]], "_t")
 t("I'll leave not a single orc standing.", "Je ne laisserai pas un seul orc debout.", "_t")
 t("#VIOLET#You have learned the talent Relentless Pursuit.", "#VIOLET#Vous avez appris le talent Poursuite Sans Relâche.", "logPlayer")
-t("I have heard about that; good men lost their lives for this. I hope it was worth it.", "J'ai entendu parler de cela; de bons hommes ont perdu leur vie pour ça. J'espère que cela en valait la peine.", "_t")
+t("I have heard about that; good men lost their lives for this. I hope it was worth it.", "J'ai entendu parler de cela ; de bons hommes ont perdu leur vie pour ça. J'espère que cela en valait la peine.", "_t")
 t("Yes, my lady, they delayed the orcs so that I could get to the heart of the volcano. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "Oui, ma dame, ils ont retardé les orcs pour que je puisse atteindre le coeur du volcan. *#LIGHT_GREEN#lui dire ce qui s'est passé#WHITE#*", "_t")
 t("I am afraid I was too late, but I still have some valuable information. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "Je crains d'être arrivé trop tard, mais j'ai tout de même quelques précieuses informations. *#LIGHT_GREEN#lui dire ce qui s'est passé#WHITE#*", "_t")
 t([[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
-Thank you for everything. You must continue your hunt now that you know what to look for.]], [[Des sorciers? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Fiertés, mais il semble qu'ils en aient deux.
+Thank you for everything. You must continue your hunt now that you know what to look for.]], [[Des sorciers ? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Fiertés, mais il semble qu'ils en aient deux.
 Merci pour tout. Vous devez continuer votre chasse maintenant que vous savez quoi chercher.]], "_t")
 t("I will avenge your men.", "Je vengerai vos hommes.", "_t")
 t([[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
-I am afraid with the power they gained today they will be even harder to stop, but we do not have a choice.]], [[Des sorciers? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Fiertés, mais il semble qu'ils en aient deux.
+I am afraid with the power they gained today they will be even harder to stop, but we do not have a choice.]], [[Des sorciers ? Je n'ai jamais entendu parler d'eux. Il y avait des rumeurs sur un nouveau maître des Fiertés, mais il semble qu'ils en aient deux.
 Je crains qu'avec le pouvoir qu'ils ont acquis aujourd'hui, ils seront encore plus difficiles à arrêter, mais nous n'avons pas le choix.]], "_t")
 t("Ah! This is wonderful! Finally a ray of hope amidst the darkness. I will assign my best troops to this. Thank you, @playername@ - take this as a token of gratitude.", "Ah ! C'est merveilleux ! Enfin un rayon d'espoir au milieu de ces ténèbres. Je vais affecter mes meilleures troupes à cette tâche. Merci, @playername@, prenez ceci en gage de gratitude.", "_t")
 t("Good luck.", "Bonne chance.", "_t")
-t("Aeryn gives you: %s", "Aeryn vous donne: %s", "logPlayer")
+t("Aeryn gives you: %s", "Aeryn vous donne : %s", "logPlayer")
 -- ancien texte traduit
 t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
@@ -2742,14 +2742,14 @@ section "mod-tome/data/chats/gates-of-morning-welcome.lua"
 
 t([[#LIGHT_GREEN#*Before you stands a beautiful woman clad in shining golden armour*#WHITE#
 Stop! You are clearly a stranger! Where do you come from? The Gates of Morning are the last bastion of freedom in these lands, so who are you? A spy?]], [[#LIGHT_GREEN#*Devant vous se tient une femme magnifique, vêtue d'une splendide armure d'or.*#WHITE#
-Stop ! Vous êtes clairement un étranger ! D'où venez-vous? Les Portes du Matin sont le dernier bastion de liberté dans ces terres, alors qui êtes-vous? Un espion?]], "_t")
+Stop ! Vous êtes clairement un étranger ! D'où venez-vous ? Les Portes du Matin sont le dernier bastion de liberté dans ces terres, alors qui êtes-vous ? Un espion ?]], "_t")
 t("My lady, I am indeed a stranger in these lands. I come from the west, from Maj'Eyal.", "Ma dame, je suis en effet un étranger sur ces terres. Je viens de l'ouest, de Maj'Eyal.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_gates-of-morning-welcome")
 t([[Maj'Eyal! For many years have we tried to contact your people. We always failed.
 In any event, what is your purpose here?]], [[Maj'Eyal ! Pendant de nombreuses années, nous avons essayé de contacter votre peuple. Nous avons toujours échoué.
-Quoi qu'il en soit, quel sont vos intentions ici?]], "_t")
+Quoi qu'il en soit, quel sont vos intentions ici ?]], "_t")
 t("It seems that I am stranded in these unfamiliar lands. #LIGHT_GREEN#*Tell her about your hunt for orcs and your encounter with Fillarel.*#WHITE#", "Il semblerait que je sois bloqué dans ces terres inconnues. #LIGHT_GREEN#*Lui raconter ta chasse aux orcs et ta rencontre avec Fillarel.*#WHITE#", "_t")
-t("Sun Paladins? What do you mean? We know of no such thing where I come from.", "Les Paladins du Soleil? Que voulez-vous dire? Nous ne connaissons rien de tel d'où je viens.", "_t")
+t("Sun Paladins? What do you mean? We know of no such thing where I come from.", "Les Paladins du Soleil ? Que voulez-vous dire ? Nous ne connaissons rien de tel d'où je viens.", "_t")
 t([[We are the mighty warriors of the Sunwall, channeling the power of the Sun and merging it with martial training.
 For hundreds of years, we stood between the Orc Pride and the free people. Our numbers are diminishing, but we will stand firm until our last breath.]], [[Nous sommes les puissants guerriers du Mur Solaire, canalisant le pouvoir du soleil et le fusionnant avec l'entraînement martial.
 Pendant des centaines d'années, nous nous sommes dressés entre la Fierté Orc et le peuple libre. Nous sommes de moins en moins nombreux, mais nous resterons fermes jusqu'à notre dernier souffle.]], "_t")
@@ -2771,34 +2771,34 @@ t([[#VIOLET#*As you open the door you notice a huge orc in the distance, covered
 The Orc Pride will never yield to anybody! They have their precious and there is nothing you can do.]], [[#VIOLET#*En ouvrant la porte, vous remarquez un orc immense au loin, couvert à la fois de flammes et de glace.*#LAST#
 @playerdescriptor.race@ ! Vous n'auriez jamais dû venir ! Votre perdition vous attend !
 La Fierté Orc ne cédera jamais à personne ! Ils ont leur précieux et il n'y a rien que vous puissiez faire.]], "_t")
-t("The Orc Pride obeys a master? I see... 'pride' indeed!", "La Fierté Orc obéit à un maître? Je vois... de la fierté, en effet !", "_t")
+t("The Orc Pride obeys a master? I see... 'pride' indeed!", "La Fierté Orc obéit à un maître ? Je vois... de la fierté, en effet !", "_t")
 t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attaquer]", "_t")
 t("The Pride chooses its allies. It has no master! ATTACK!", "La Fierté choisit ses alliés. Il n'a pas de maître ! À L'ATTAQUE !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/jewelry-store.lua"
 
-t("Imbue which ring?", "Imprégner quelle anneau?", "_t")
-t("Use which gem?", "Utiliser quelle gemme?", "_t")
+t("Imbue which ring?", "Imprégner quelle anneau ?", "_t")
+t("Use which gem?", "Utiliser quelle gemme ?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("%s failed to craft with %s and %s!", "%s a échoue dans son travail avec %s and %s !", "logPlayer")
 t("Not enough money", "Pas assez d'argent", "_t")
 t("This costs %d gold, you need more gold.", "Cela coûte %d pièces d'or, vous avez besoin de plus d'or.", "tformat")
 t("Imbue cost", "Coût d'iprégnation", "_t")
-t("This will cost you %s gold, do you accept?", "Cela vous coûtera %s pièce d'or, accepter vous?", "tformat")
+t("This will cost you %s gold, do you accept?", "Cela vous coûtera %s pièce d'or, accepter vous ?", "tformat")
 t("%s %s ring", "%s %s anneau", "tformat")
 t("weird", "étrange", "_t")
-t("%s creates: %s", "%s créé: %s", "logPlayer")
-t("Imbue which amulet?", "Imprégner quelle amulette?", "_t")
-t("Use which first gem?", "Utiliser quelle gemme en premier?", "_t")
-t("Use which second gem?", "Utiliser quelle gemme en second?", "_t")
+t("%s creates: %s", "%s créé : %s", "logPlayer")
+t("Imbue which amulet?", "Imprégner quelle amulette ?", "_t")
+t("Use which first gem?", "Utiliser quelle gemme en premier ?", "_t")
+t("Use which second gem?", "Utiliser quelle gemme en second ?", "_t")
 t("Limmir needs more gold for the magical plating.", "Limmir a besoin de plus d'or pour le revêtement magique.", "_t")
-t("You need to use %s gold for the plating, do you accept?", "Vous devez utiliser %s d'or pour le revêtement, acceptez-vous?", "tformat")
+t("You need to use %s gold for the plating, do you accept?", "Vous devez utiliser %s d'or pour le revêtement, acceptez-vous ?", "tformat")
 t("Limmir's Amulet of the Moon", "Amulette de la Lune de Limmir", "_t")
 t("Welcome, @playername@, to my shop.", "Bienvenue, @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("I am looking for special jewelry.", "Je suis à la recherche de bijoux spéciaux.", "_t")
-t("So you can infuse amulets in this place?", "Donc vous pouvez infuser des amulettes dans cet endroit?", "_t")
+t("So you can infuse amulets in this place?", "Donc vous pouvez infuser des amulettes dans cet endroit ?", "_t")
 t("I have found this tome; it looked important.", "J'ai trouvé ce recueil, il semblait important.", "_t")
 t("Sorry I have to go!", "Désolé, je dois y aller !", "_t")
 t([[Then you are at the right place, for I am an expert jeweler.
@@ -2874,14 +2874,14 @@ t("The hunt for the staff took me to a continent far to the east, accessible onl
 t("Nothing, excuse me. Bye!", "Rien, excusez-moi. Au revoir !", "_t")
 t([[#LIGHT_GREEN#*He remains silent for a while*#WHITE# Indeed you were right to come here.
 The staff you describe reminds me of an artifact of great power from ancient times. May I see it?]], [[#LIGHT_GREEN#*Il se tait pendant un moment*#WHITE# En effet, vous avez eu raison de venir ici.
-Le bâton que vous décrivez me rappelle un artefact de grande puissance datant des temps anciens. Puis-je le voir?]], "_t")
+Le bâton que vous décrivez me rappelle un artefact de grande puissance datant des temps anciens. Puis-je le voir ?]], "_t")
 t("Here it is. #LIGHT_GREEN#*Tell him about the encounter with the orcs*#LAST# You should keep it. I can feel its power and it would be safer if it were guarded by the armies of the kingdom.", "Le voici. #LIGHT_GREEN#*Vous lui racontez la rencontre avec les orcs*#LAST# Vous devriez le garder. Je peux sentir sa puissance et il serait plus sûr s'il était gardé par les armées du royaume.", "_t")
 t("I am afraid I lost it. #LIGHT_GREEN#*Tell him about the encounter with the orcs*", "Je crains de l'avoir perdu. #LIGHT_GREEN#*Vous lui racontez la rencontre avec les orcs*", "_t")
 t("I had it briefly but have lost it somehow.  It could have been some orcs I encountered ...", "Je l'ai eu brièvement mais je l'ai perdu d'une manière ou d'une autre.  C'est peut-être à cause de certains orcs que j'ai rencontrés...", "_t")
 t([[I am truly astonished by your strength; surviving that encounter was an epic feat.
 As for the orcs, it is deeply troubling.  We have not seen any for eighty years... could they have come from the far east?
 Anyway, thank you again, @playername@, for your help.]], [[Je suis vraiment étonné par votre force ; survivre à cette rencontre a été un exploit épique.
-Quant aux orcs, c'est profondément troublant.  Nous n'en avons pas vu depuis quatre-vingts ans... pourraient-ils venir d'Extrême-Orient?
+Quant aux orcs, c'est profondément troublant.  Nous n'en avons pas vu depuis quatre-vingts ans... pourraient-ils venir d'Extrême-Orient ?
 Quoi qu'il en soit, merci encore, @playername@, pour votre aide.]], "_t")
 t("Thank you, my lord.", "Merci, mon seigneur.", "_t")
 t([[Orcs?! In the west?! This is deeply alarming! We have not seen any for nearly eighty years. They must have come from the far east...
@@ -2891,7 +2891,7 @@ t([[We have heard rumours from the Dwarves that there may still be an orc presen
 I know you have been through a lot, but we need somebody to investigate and determine if there is a connection with the staff.]], [[Nous avons entendu des rumeurs venant des Nains selon lesquelles il pourrait y avoir encore une présence orc au plus profond de l'ancien royaume de Reknor, dans le Trône de Fer.
 Je sais que vous avez traversé beaucoup d'épreuves, mais nous avons besoin de quelqu'un pour enquêter et déterminer s'il y a un lien avec le bâton.]], "_t")
 t("I will check the mines.", "Je vérifierai les mines.", "_t")
-t("That's extraordinary! I know a number of merchant princes who will salivate at the idea of new trade routes opening. But tell me, how fares your quest for the staff?", "C'est extraordinaire ! Je connais un certain nombre de princes marchands qui vont saliver à l'idée de l'ouverture de nouvelles routes commerciales. Mais dites-moi, comment se passe votre quête du bâton?", "_t")
+t("That's extraordinary! I know a number of merchant princes who will salivate at the idea of new trade routes opening. But tell me, how fares your quest for the staff?", "C'est extraordinaire ! Je connais un certain nombre de princes marchands qui vont saliver à l'idée de l'ouverture de nouvelles routes commerciales. Mais dites-moi, comment se passe votre quête du bâton ?", "_t")
 t("The staff is recovered and the culprits slain. They will trouble us no more. [tell him the whole story]", "Le bâton a été récupéré et les coupables sont morts. Ils ne nous dérangeront plus. [racontez-lui toute l'histoire]", "_t")
 t("The hunt continues. The construction of this portal will be of great assistance in the staff's recovery.", "La chasse se poursuit. La construction de ce portail sera d'une grande utilité pour la récupération du bâton.", "_t")
 t("Excellent! Well then, concerning this fascinating portal, I'm afraid that men have largely forgotten whatever they once knew about the great magics of old. I know of only one man in these lands who might be able to help you, a wise man and recent arrival to Last Hope named Tannen. He claims to hail from Angolwen, a supposed haven for practitioners of magic and mysticism. He arrived just months ago with fabulous wealth and has already constructed his own tower in the northern part of the city. I know little of him, but if he is to be believed, then he is your best hope.", "Excellent ! Eh bien, en ce qui concerne ce portail fascinant, je crains que les hommes aient largement oublié ce qu'ils savaient sur les grandes magies d'autrefois. Je ne connais qu'un seul homme dans ces terres qui pourrait vous aider, un sage et récent arrivé à Dernier Espoir nommé Tannen. Il prétend être originaire d'Angolwen, un prétendu havre pour les adeptes de la magie et du mysticisme. Il est arrivé il y a quelques mois avec une richesse fabuleuse et a déjà construit sa propre tour dans la partie nord de la ville. Je le connais peu, mais s'il faut l'en croire, il est votre meilleur espoir.", "_t")
@@ -2914,7 +2914,7 @@ t("while", "et", "_t")
 t(" organizing my inventory, I came across some #YELLOW#Smelly Toxin#LAST# that a colleague claimed could actually turn creatures to stone.  Truly exotic!", " en organisant mon inventaire, je suis tombé sur #YELLOW#une Toxine Puante#DERNIÈRE# qui, selon un collègue, pouvait en fait transformer des créatures en pierre.  Vraiment exotique !", "_t")
 t("\
 You would not happen to be interested, by any chance?", "\
-Vous ne seriez pas intéressé, par hasard?", "_t")
+Vous ne seriez pas intéressé, par hasard ?", "_t")
 t("\
 Oh my friend, good news! As I told you I can now request a truly #{italic}#unique#{normal}# object to be crafted just for you. For a truly unique price...", "\
 Oh mon ami, bonne nouvelle ! Comme je vous l'ai dit, je peux maintenant demander qu'un objet vraiment #{italic}#unique#{normal}# soit fabriqué juste pour vous. Pour un prix vraiment unique...", "_t")
@@ -2922,9 +2922,9 @@ t("\
 I eventually plan to arrange a truly unique service for the most discerning of customers. If you come back later when I'm fully set up I shall be able to order for you something quite marvellous. For a perfectly #{italic}#suitable#{normal}# price, of course.", "\
 J'ai l'intention d'organiser un service vraiment unique pour les clients les plus exigeants. Si vous revenez plus tard, lorsque je serai complètement installé, je pourrai commander pour vous quelque chose d'assez merveilleux. Pour un prix parfaitement #{italic}#adapté#{normal}#, bien sûr.", "_t")
 t("Yes please, let me see your wares.", "Oui, s'il vous plaît, laissez-moi voir vos marchandises.", "_t")
-t("What about the unique object?", "Qu'en est-il de l'objet unique?", "_t")
-t("Ambush Trap?  Sounds useful.", "Un Piège à Embuscade? Ca pourrait être utile.", "_t")
-t("Smelly Toxin?  What kind of smell?", "Une Toxine Puante? Quelle sorte de puanteur?", "_t")
+t("What about the unique object?", "Qu'en est-il de l'objet unique ?", "_t")
+t("Ambush Trap?  Sounds useful.", "Un Piège à Embuscade ? Ca pourrait être utile.", "_t")
+t("Smelly Toxin?  What kind of smell?", "Une Toxine Puante ? Quelle sorte de puanteur ?", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_last-hope-lost-merchant")
 t([[You know, I have asked here and there and it happens to be a very rare thing this contraption...
 But since you have saved me, I'm willing to part from it for only 3000 gold pieces, a real bargain!]], [[Vous savez, j'ai demandé ici et là et il se trouve que cet engin est très rare...
@@ -2938,7 +2938,7 @@ t([[Ungrol told me this substance contains some exceedingly rare components.
 t("Fairly pricey, but seems useful.  We have a deal!", "Assez cher, mais semble utile. Nous avons un accord !", "_t")
 t("That price ... er stuff really stinks ...", "Ce prix... euh, ce truc pue vraiment...", "_t")
 t("Here you are.  Just be sure not to get any on yourself!", "Voilà. Assurez-vous simplement de ne pas vous en mettre dessus !", "_t")
-t("I normally offer this service only for a truly deserved price, but for you my friend I am willing to offer a 20% discount - #{italic}#only#{normal}# 4000 gold to make an utterly unique item of your choice.  What do you say?", "Normalement, je n'offre ce service que pour un prix vraiment approprié, mais pour vous, mon ami, je suis prêt à vous offrir une réduction de 20% - #{italic}#seulement#{normal}# 4000 or pour réaliser un objet tout à fait unique de votre choix. Qu'en dites-vous?", "_t")
+t("I normally offer this service only for a truly deserved price, but for you my friend I am willing to offer a 20% discount - #{italic}#only#{normal}# 4000 gold to make an utterly unique item of your choice.  What do you say?", "Normalement, je n'offre ce service que pour un prix vraiment approprié, mais pour vous, mon ami, je suis prêt à vous offrir une réduction de 20% - #{italic}#seulement#{normal}# 4000 or pour réaliser un objet tout à fait unique de votre choix. Qu'en dites-vous ?", "_t")
 t("Why, 'tis a paltry sum - take my order, man, and be quick about it!", "C'est une somme dérisoire - prenez ma commande et faites vite !", "_t")
 t("Yes, please!", "Oui, s'il vous plaît !", "_t")
 t("HOW MUCH?! Please, excuse me, I- I need some fresh air...", "COMBIEN ?! S'il vous plaît, excusez-moi, j'ai besoin d'un peu d'air frais...", "_t")
@@ -2946,7 +2946,7 @@ t("Not now, thank you.", "Pas maintenant, merci.", "_t")
 t("dragonbone wand", "baguette en os de dragon", "_t")
 t("dragonbone totem", "totem en os de dragon", "_t")
 t("voratun torque", "torque en voratun", "_t")
-t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous?", "_t")
+t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous ?", "_t")
 t("*This store does not appear to be open yet*", "*Ce magasin ne semble pas encore ouvert*", "_t")
 t("[leave]", "[partir]", "_t")
 -- texte non traduit
@@ -2964,7 +2964,7 @@ t([[Do you want to name your item?
 t("Yes, please.", "Oui, s'il vous plaît.", "_t")
 t("Name your item", "Nommez votre objet", "_t")
 t("Name", "Nom", "_t")
-t("#LIGHT_BLUE#The merchant carefully hands you: %s", "#LIGHT_BLUE#Le commerçant vous remet avec soin: %s", "log")
+t("#LIGHT_BLUE#The merchant carefully hands you: %s", "#LIGHT_BLUE#Le commerçant vous remet avec soin : %s", "log")
 t("No thanks.", "Non merci.", "_t")
 t("Oh I am sorry, it seems we could not make the item your require.", "Oh, je suis désolé, il semble que nous n'ayons pas pu répondre à votre demande.", "_t")
 t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
@@ -2983,9 +2983,9 @@ t("@playername@! My daughter's savior!", "@playername@ ! Le sauveur de ma fille 
 t("Hi, I was just checking in to see if Melinda is all right.", "Bonjour, je venais juste voir si Melinda va bien.", "_t")
 t("Hi, I would like to talk to Melinda please.", "Bonjour, je voudrais parler à Melinda, s'il vous plaît.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_last-hope-melinda-father")
-t("Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "Veuillez prendre ceci. Ce n'est rien comparé à la vie de mon enfant. Oh, et elle voudrait vous remercier en personne; je vais l'appeller.", "_t")
+t("Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "Veuillez prendre ceci. Ce n'est rien comparé à la vie de mon enfant. Oh, et elle voudrait vous remercier en personne ; je vais l'appeller.", "_t")
 t("Thank you.", "Merci.", "_t")
-t("Melinda's father gives you: %s", "Le père de Melinda vous donne: %s", "logPlayer")
+t("Melinda's father gives you: %s", "Le père de Melinda vous donne : %s", "logPlayer")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("@playername@! #LIGHT_GREEN#*She jumps for joy and hugs you while her father returns to his shop.*#WHITE#", "@playername@ ! #LIGHT_GREEN#*Elle saute de joie et vous embrasse pendant que son père retourne à sa boutique.*#WHITE#", "_t")
 t("I am glad to see you are fine. It seems your scars are healing quite well.", "Je suis heureux de voir que vous allez bien. Il semble que vos cicatrices guérissent assez vite.", "_t")
@@ -2995,9 +2995,9 @@ Ah well, the bad dreams are still better than the fate you saved me from!]], [[O
 Cependant, les mauvais rêves sont toujours mieux que le sort dont vous m'avez sauvé !]], "_t")
 t("Should I come across a way to help you during my travels, I will try to help.", "Si je trouve un moyen de vous aider au cours de mes voyages, j'essaierai de vous aider.", "_t")
 t("Thank you, you are most welcome.", "Merci, vous êtes le bienvenu.", "_t")
-t("Most certainly, so what are your plans now?", "Très certainement, alors quels sont vos projets maintenant?", "_t")
+t("Most certainly, so what are your plans now?", "Très certainement, alors quels sont vos projets maintenant ?", "_t")
 t("Hi @playername@! I am feeling better now, even starting to grow restless...", "Bonjour @playername@ ! Je me sens mieux maintenant, je commence même à ne plus tenir en place...", "_t")
-t("So what are your plans now?", "Alors, quels sont vos projets maintenant?", "_t")
+t("So what are your plans now?", "Alors, quels sont vos projets maintenant ?", "_t")
 t("About that, I was thinking that maybe you'd like to go out with me sometime ...", "À ce propos, je pensais que tu aimerais peut-être sortir avec moi un jour...", "_t")
 t([[#LIGHT_GREEN#*Melinda appears at the door and kisses you*#WHITE#
 Hi my dear, I'm so happy to see you!]], [[#LIGHT_GREEN#*Melinda apparaît à la porte et vous embrasse*#WHITE#
@@ -3015,7 +3015,7 @@ I've learnt about a secret place, Angolwen, where I could learn it.]], [[Ou peut
 J'ai découvert un endroit secret, Angolwen, où je pourrais l'apprendre.]], "_t")
 t("Derth has its up and downs but I think they could do with a smart girl yes.", "Derth a ses hauts et ses bas, mais je pense qu'ils pourraient avoir besoin d'une fille intelligente, oui.", "_t")
 t("Thanks!", "Merci !", "_t")
-t("You wish to join our noble crusade against magic? Wonderful! I will talk to them for you.", "Vous souhaitez vous joindre à notre noble croisade contre la magie? Merveilleux ! Je vais leur parler de vous.", "_t")
+t("You wish to join our noble crusade against magic? Wonderful! I will talk to them for you.", "Vous souhaitez vous joindre à notre noble croisade contre la magie ? Merveilleux ! Je vais leur parler de vous.", "_t")
 t("That would be very nice!", "Ce serait très aimable !", "_t")
 t("I happen to be welcome among the people of Angolwen, I could say a word for you.", "Il se trouve que je suis le bienvenu parmi le peuple d'Angolwen, je pourrais leur parler de vous.", "_t")
 t("What?!? Just because you rescued me from a moderately-to-extremely gruesome death, you think that entitles you to take liberties?!", "Quoi ?!? Ce n'est pas parce que vous m'avez sauvé d'une mort modérément à extrêmement horrible que vous pensez que cela vous donne le droit de prendre des libertés !", "_t")
@@ -3043,7 +3043,7 @@ S'il vous plaît, dites-moi que vous pouvez nous aider !]], "_t")
 t("Yes, I think so. Some time ago I assumed ownership of a very special home... #LIGHT_GREEN#[tell her the Fortress story]#WHITE#", "Oui, je le pense. Il y a quelque temps, j'ai pris possession d'une maison très spéciale... #LIGHT_GREEN#[lui raconter l'histoire de la Forteresse]#WHITE#", "_t")
 t([[An ancient fortress of a mythical race?! How #{bold}#exciting#{normal}#!
 And you say it could cure me?]], [[Une ancienne forteresse d'une race mythique ! Comme c'est #{bold}#excitant#{normal}# !
-Et vous dites que ça pourrait me guérir?]], "_t")
+Et vous dites que ça pourrait me guérir ?]], "_t")
 t("The Fortress seems to think so. I know this might sound a bit .. inappropriate .. but you would need to come live there, at least for a while.", "La Forteresse semble le penser. Je sais que cela peut paraître un peu... inapproprié... mais il faudrait que vous veniez y vivre, au moins pour un temps.", "_t")
 t([[#LIGHT_GREEN#*She looks at you cheerfully*#WHITE#
 Ah the plan to sleep with me is finally revealed!
@@ -3130,9 +3130,9 @@ Ne me tuez pas, s'il vous plaît !]], "_t")
 t([[#LIGHT_GREEN#*Before you stands a young man, a novice mage by his looks*#WHITE#
 Good day to you, fellow traveler!]], [[#LIGHT_GREEN#*Devant vous se tient un jeune homme, un mage novice suivant son apparence.*#WHITE#
 Bonne journée à vous, cher voyageur !]], "_t")
-t("What brings an apprentice mage out into the wilds?", "Qu'est-ce qui amène un apprenti mage dans la nature?", "_t")
-t("I found this artefact; it looks powerful and arcane infused. Maybe it would be enough?", "J'ai trouvé cet artefact; il a l'air puissament enchanté par les arcanes. Peut-être que cela suffirait?", "_t")
-t("So you have enough magical items now?", "Vous avez donc assez d'objets magiques maintenant?", "_t")
+t("What brings an apprentice mage out into the wilds?", "Qu'est-ce qui amène un apprenti mage dans la nature ?", "_t")
+t("I found this artefact; it looks powerful and arcane infused. Maybe it would be enough?", "J'ai trouvé cet artefact ; il a l'air puissament enchanté par les arcanes. Peut-être que cela suffirait ?", "_t")
+t("So you have enough magical items now?", "Vous avez donc assez d'objets magiques maintenant ?", "_t")
 t("Sorry I have to go!", "Désolé, je dois y aller !", "_t")
 t("Ahh, my story is a sad one... I should not trouble you with it, my friend.", "Ahh, mon histoire est triste... Je ne devrais pas vous ennuyer avec ça, mon ami.", "_t")
 t("It is no trouble at all! Please tell me!", "Ce n'est pas du tout un problème ! Dites moi tout, s'il vous plaît !", "_t")
@@ -3140,7 +3140,7 @@ t("Ok, bye then!", "Ok, au revoir alors !", "_t")
 t([[Well, if you insist...
 I am a novice mage, as you might have noticed, and my goal is to be accepted by the people of Angolwen and be taught the secrets of the arcane.]], [[Eh bien, si vous insistez...
 Je suis un mage novice, comme vous l'avez peut-être remarqué, et mon but est d'être accepté par le peuple d'Angolwen et d'apprendre les secrets des arcanes.]], "_t")
-t("Who are the people of Angolwen?", "Qui sont les habitants d'Angolwen?", "_t")
+t("Who are the people of Angolwen?", "Qui sont les habitants d'Angolwen ?", "_t")
 t("Ah yes, Angolwen, I have called it home for many years...", "Ah oui, Angolwen, c'est ma patrie depuis de nombreuses années...", "_t")
 t("Well, good luck, bye!", "Eh bien, bonne chance, au revoir !", "_t")
 t([[The keepers of ar... err, I do not think I am supposed to talk about them... sorry, my friend...
@@ -3159,7 +3159,7 @@ t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, 
 During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kar'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
 So she set a secret plan into action and built a secret place where magic would be kept alive.
 Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
-Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui ! Je suis tellement content ! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire; vous le méritez pour m'avoir aidé.
+Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui ! Je suis tellement content ! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire ; vous le méritez pour m'avoir aidé.
 Pendant les années sombres de la Purge Arcanique, il y a plusieurs milliers d'années, Linaniil, la grande mage du Kor'Krul, s'inquiétait que la magie puisse disparaître avec sa génération et être perdue pour les mortels s'ils en avaient à nouveau besoin.
 Elle a donc mis en place un plan secret et a construit un lieu secret où la magie serait maintenue en vie.
 Son plan a fonctionné et le groupe a construit une ville appelée Angolwen dans les montagnes de l'ouest. #LIGHT_GREEN#*Il la marque sur votre carte, ainsi qu'un portail pour y accéder*#WHITE#
@@ -3191,7 +3191,7 @@ section "mod-tome/data/chats/magic-store.lua"
 t("Select the item to recharge", "Sélectionnez l'élément à recharger", "_t")
 t("Not enough money", "Pas assez d'argent", "_t")
 t("This costs %d gold.", "Cela coûte %d d'or", "tformat")
-t("Recharge?", "Recharger?", "_t")
+t("Recharge?", "Recharger ?", "_t")
 t("This will cost you %d gold.", "Cela vous coûtera %d d'or.", "tformat")
 t("Welcome, @playername@, to my shop.", "Bienvenue, @playername@, dans mon magasin.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
@@ -3244,18 +3244,18 @@ section "mod-tome/data/chats/melinda-fortress.lua"
 
 t("Hi, sweety!", "Salut, mon sucre !", "_t")
 t("#LIGHT_GREEN#[kiss her]#WHITE#", "#LIGHT_GREEN#[l'embrasser]#WHITE#", "_t")
-t("Are you settling in fine?", "Vous êtes bien installé?", "_t")
-t("I want to open my own little shop in Derth?", "Je veux ouvrir mon propre petit magasin à Derth?", "_t")
-t("I want to study magic at Angolwen?", "Je veux étudier la magie à Angolwen?", "_t")
-t("I want to train at Zigur?", "Je veux m'entraîner à Zigur?", "_t")
+t("Are you settling in fine?", "Vous êtes bien installé ?", "_t")
+t("I want to open my own little shop in Derth?", "Je veux ouvrir mon propre petit magasin à Derth ?", "_t")
+t("I want to study magic at Angolwen?", "Je veux étudier la magie à Angolwen ?", "_t")
+t("I want to train at Zigur?", "Je veux m'entraîner à Zigur ?", "_t")
 t([[Well let me say that tank is #{bold}#dreadful#{normal}#, but that weird butler says it is the only way.
 I do start to feel better too.
 However I must say I get bored around here a little.
 Do you remember, I once told you %s Maybe we could find a way to get me there during the day and return for my treatment during the night?]], [[Eh bien, laissez-moi vous dire que cette cuve est épouvantable, mais cet étrange majordome dit que c'est la seule solution.
 Je commence à me sentir mieux aussi.
 Cependant, je dois dire que je m'ennuie un peu.
-Vous vous souvenez, je vous ai dit un jour %s Peut-être pourrions-nous trouver un moyen de m'emmener là-bas pendant la journée et de revenir pour mon traitement pendant la nuit?]], "tformat")
-t("Oh yes, I think we could arrange that. Shadow, would it be possible to create a portal for her?", "Oh oui, je pense que nous pouvons arranger cela. Ombre, serait-il possible de créer un portail pour elle?", "_t")
+Vous vous souvenez, je vous ai dit un jour %s Peut-être pourrions-nous trouver un moyen de m'emmener là-bas pendant la journée et de revenir pour mon traitement pendant la nuit ?]], "tformat")
+t("Oh yes, I think we could arrange that. Shadow, would it be possible to create a portal for her?", "Oh oui, je pense que nous pouvons arranger cela. Ombre, serait-il possible de créer un portail pour elle ?", "_t")
 t([[Yes Master. I will arrange for that right now.
 She will be able to come and go unnoticed.]], [[Oui, Maître. Je vais m'en occuper tout de suite.
 Elle pourra aller et venir sans se faire remarquer.]], "_t")
@@ -3264,8 +3264,8 @@ t("Oh this is great, thank you! My own secret lair, my own life.", "Oh c'est sup
 t("I only wish your happiness, I am glad to provide.", "Je ne fais que souhaiter votre bonheur, je suis heureux d'y pourvoir.", "_t")
 t([[#LIGHT_GREEN#*Looking all glamorous she comes closer*#WHITE#
 Now my sweet one, where were we the last time?]], [[#LIGHT_GREEN#*Toute glamour, elle s'approche*#WHITE#
-Maintenant, trésor, où en étions-nous la dernière fois?]], "_t")
-t("My memory fails me, care to help me remember? #LIGHT_GREEN#[smile playfully at her]", "Ma mémoire me fait défaut, voulez-vous m'aider à me souvenir? #LIGHT_GREEN#[faire un sourir espiègle]", "_t")
+Maintenant, trésor, où en étions-nous la dernière fois ?]], "_t")
+t("My memory fails me, care to help me remember? #LIGHT_GREEN#[smile playfully at her]", "Ma mémoire me fait défaut, voulez-vous m'aider à me souvenir ? #LIGHT_GREEN#[faire un sourir espiègle]", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/message-last-hope.lua"
@@ -3275,7 +3275,7 @@ I followed the trail of bodies that you left - very impressive! We are lucky to 
 But enough talk; take this message. I must go now.
 #LIGHT_GREEN#He gives you a sealed scroll and vanishes into the shadows.#LAST#]], [[Bien joué, @playername@. J'ai reçu un message du roi Tolak de Dernier Espoir.
 J'ai suivi la piste des corps que vous avez laissés - très impressionnant ! Nous avons de la chance de vous avoir à nos côtés.
-Mais assez parlé; prenez ce message. Je dois y aller maintenant.
+Mais assez parlé ; prenez ce message. Je dois y aller maintenant.
 #LIGHT_GREEN#Il vous donne un parchemin scellé et disparaît dans l'ombre.#LAST#]], "_t")
 t("Thank you for your courage.", "Merci pour vos encouragement.", "_t")
 t("The herald gives you %s.", "Le héraut vous donne %s.", "logPlayer")
@@ -3327,7 +3327,7 @@ Help, Help me.
 ]], [[#LIGHT_GREEN#*Un rayon de lumière illumine la lueur de l'acier au milieu de l'herbe. En enquêtant, vous trouvez une paladin solaire solitaire gisant sur le sol. Ses blessures sont insignifiantes, mais ses traits pâles laissent présager un poison qui fait des ravages. Elle vous chuchote.*#WHITE#
 Au secours, aidez-moi.
 ]], "_t")
-t("What should I do?", "Que dois-je faire?", "_t")
+t("What should I do?", "Que dois-je faire ?", "_t")
 t([[I found it... the abomination Aeryn sent me to seek out. The breeding pits of the orcs... It is more vile than you can imagine... They have it hidden away from their encampments, out of sight of all their people. Their mothers, their young, all there - all vulnerable!
 #LIGHT_GREEN#*She pulls out a sketched map, and with some effort puts it in your palm.*#WHITE#
 
@@ -3341,7 +3341,7 @@ Ce pourrait être la solution finale, la fin de la guerre... pour toujours. Nous
 #LIGHT_GREEN#*Elle vous regarde fixement, déployant tous ses efforts dans un dernier regard suppliant.*#WHITE#]], "_t")
 t("I cannot do this myself... I will tell Aeryn about it, it is in her hands.", "Je ne peux pas le faire moi-même... Je vais en parler à Aeryn, c'est de sa responsabilité.", "_t")
 t("I will go myself and ensure this is thoroughly dealt with.", "J'irai moi-même et je veillerai à ce que cette question soit traitée de manière adéquate.", "_t")
-t("You want me to kill mothers and children? This is barbaric, I'll have nothing to do with it!", "Vous voulez que je tue des mères et des enfants? C'est de la barbarie, cela ne me concerne pas !", "_t")
+t("You want me to kill mothers and children? This is barbaric, I'll have nothing to do with it!", "Vous voulez que je tue des mères et des enfants ? C'est de la barbarie, cela ne me concerne pas !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/paradoxology.lua"
@@ -3383,14 +3383,14 @@ t([[#GOLD#%s#LAST#
 ------------------------------------------------
 section "mod-tome/data/chats/point-zero-zemekkys.lua"
 
-t("@playername@, nice to see you again! Or is this the first time that you have seen me?", "@playername@, ravi de vous revoir ! Ou est-ce la première fois que vous me voyez?", "_t")
+t("@playername@, nice to see you again! Or is this the first time that you have seen me?", "@playername@, ravi de vous revoir ! Ou est-ce la première fois que vous me voyez ?", "_t")
 t("Farewell, Grand Keeper.", "Adieu, Grand Gardien.", "_t")
 t("Yes, this is our first meeting.", "Oui, c'est notre première rencontre.", "_t")
 t([[Ah, for you perhaps, but not for me.
 Listen, someday you will encounter me again but it will not be me you see now. It will be younger me, if you will.
 This is very important: do not tell my previous me about me. Understood?]], [[Ah, pour vous peut-être, mais pas pour moi.
 Écoutez, un jour vous me rencontrerez à nouveau, mais ce ne sera pas moi que vous verrez maintenant. Ce sera moi plus jeune, si vous voulez.
-C'est très important: ne parlez pas de moi à mon ancien moi. Compris?]], "_t")
+C'est très important : ne parlez pas de moi à mon ancien moi. Compris ?]], "_t")
 t("I think so...", "Je pense que oui...", "_t")
 t("Yes, Grand Keeper.", "Oui, Grand Gardien.", "_t")
 
@@ -3413,7 +3413,7 @@ t([[*#LIGHT_GREEN#Suddenly a voice appears in your head.#WHITE#*
 @playername@, this is High Sun Paladin Aeryn of the Sunwall. I am communicating with you by the power of the Anorithil.
 I have some urgent information for you: the staff you were looking for has been located.]], [[*#LIGHT_GREEN#Soudain, une voix se fait entendre dans votre tête.#WHITE#*
 @playername@, ici la Haute Paladine Solaire Aeryn, du Mur Solaire. Je communique avec vous par le pouvoir de l'Anorithil.
-J'ai une information urgente à vous communiquer: le bâton que vous recherchez a été localisé.]], "_t")
+J'ai une information urgente à vous communiquer : le bâton que vous recherchez a été localisé.]], "_t")
 t("Where?!", "Où ça ?!", "_t")
 t([[One of our patrols noticed some strange orc movements around the southern part of the continent, in the desert of Erúan.
 A group of orcs were guarding something that looked like the staff you asked about.
@@ -3427,26 +3427,26 @@ section "mod-tome/data/chats/ring-of-blood-master.lua"
 
 t([[#LIGHT_GREEN#*Before you stands a small humanoid creature with a disproportionate head.*#WHITE#
 Ah, what have we here? @playerdescriptor.race@, I believe you have turned at the wrong corner.]], [[#LIGHT_GREEN#*Devant vous se tient une petite créature humanoïde avec une tête disproportionnée.*#WHITE#
-Ah, qu'avons-nous là? @playerdescriptor.race@, Je crois que vous avez pris le mauvais chemin.]], "_t")
-t("So it would seem. What is going on here?", "C'est ce qu'il semblerait. Que se passe-t-il ici?", "_t")
+Ah, qu'avons-nous là ? @playerdescriptor.race@, Je crois que vous avez pris le mauvais chemin.]], "_t")
+t("So it would seem. What is going on here?", "C'est ce qu'il semblerait. Que se passe-t-il ici ?", "_t")
 t([[This is my Ring of Blood! Listen, you have now two choices.
 Since you do not look like slave fodder to me I will offer to let you pay to play the game.
 If you feel you cannot take part in a slaver's game, I am afraid you will need to... disappear.]], [[Ceci est mon Cercle de Sang ! Ecoutez, vous avez maintenant deux choix.
 Puisque vous ne me semblez pas être de la chair à esclaves, je vous propose de vous laisser payer pour jouer le jeu.
 Si vous pensez que vous ne pouvez pas participer à un jeu d'esclavagiste, j'ai peur que vous deviez... disparaître.]], "_t")
-t("Slavers? This is so wrong! [attack]", "Des esclavagistes? Ce n'est pas acceptable ! [attaquer]", "_t")
-t("You think so? Die.", "Vous le croyez? Meurs.", "_t")
-t("Game? I like playing, what's this about?", "Un jeu? J'aime jouer, de quoi s'agit-il?", "_t")
+t("Slavers? This is so wrong! [attack]", "Des esclavagistes ? Ce n'est pas acceptable ! [attaquer]", "_t")
+t("You think so? Die.", "Vous le croyez ? Meurs.", "_t")
+t("Game? I like playing, what's this about?", "Un jeu ? J'aime jouer, de quoi s'agit-il ?", "_t")
 t([[Well, you see, it's quite simple. I will mentally take control of various wild creatures or slaves while you use the orb of command on the other side of this room to take control of a slave.
 Then we fight using our pawns for 10 rounds. If your slave survives you will win the Bloodcaller.]], [[Eh bien, vous voyez, c'est assez simple. Je vais prendre mentalement le contrôle de diverses créatures sauvages ou d'esclaves pendant que vous utilisez l'orbe de commande de l'autre côté de cette pièce pour prendre le contrôle d'un esclave.
 Ensuite, nous nous battrons en utilisant nos pions pendant 10 rounds. Si votre esclave survit, vous remporterez le Réclameur de Sang.]], "_t")
-t("What if I lose?", "Et si je perd?", "_t")
-t("Blood, death without self-harm risks? Great fun!", "Du sang, la mort sans risque d'automutilation? Quel plaisir !", "_t")
+t("What if I lose?", "Et si je perd ?", "_t")
+t("Blood, death without self-harm risks? Great fun!", "Du sang, la mort sans risque d'automutilation ? Quel plaisir !", "_t")
 t("Normally you would be taken as a slave, but you look like you would be more useful as a full-time player, so you can just try again.", "Normalement, vous seriez pris comme esclave, mais vous semblez être plus utile comme joueur à plein temps, donc vous pouvez simplement réessayer.", "_t")
 t([[Superb. Oh yes, before I forget, to use the orb you will need to pay the standard fee of 150 gold pieces.
 I'm sure this is small money to an adventurer of your class.]], [[Superbe. Oh oui, avant que j'oublie, pour utiliser le globe, vous devrez payer le tarif standard de 150 pièces d'or.
 Je suis sûr que c'est peu d'argent pour un aventurier comme vous.]], "_t")
-t("150 gold? Err... yes, sure.", "150 pièces d'or? Err... oui, bien sur.", "_t")
+t("150 gold? Err... yes, sure.", "150 pièces d'or ? Err... oui, bien sur.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/ring-of-blood-orb.lua"
@@ -3464,7 +3464,7 @@ section "mod-tome/data/chats/ring-of-blood-win.lua"
 
 t([[So, you tasted blood? Liked it? I am sure you did; you are just that kind of people.
 Anyway, I suppose you deserve your reward.
-You can always participate again for fun, if you've got the gold to spare.]], [[Alors, vous avez goûté au sang? Vous avez aimé? J'en ai la conviction, vous êtes exactement ce genre de personnage.
+You can always participate again for fun, if you've got the gold to spare.]], [[Alors, vous avez goûté au sang ? Vous avez aimé ? J'en ai la conviction, vous êtes exactement ce genre de personnage.
 Quoi qu'il en soit, je suppose que vous méritez votre récompense.
 Vous pouvez toujours participer à nouveau pour le plaisir, si vous avez de l'or en réserve.]], "_t")
 t("Thanks, it was fun!", "Merci, c'était amusant !", "_t")
@@ -3475,7 +3475,7 @@ section "mod-tome/data/chats/sage-kitty.lua"
 t([[#LIGHT_GREEN#*Before you stands a cute little orange cat. It looks hungry and looks at you.*#WHITE#
 Meowww?
 ]], [[#LIGHT_GREEN#*Devant vous se tient un mignon petit chat orange. Il a l'air affamé et vous regarde.*#WHITE#
-Miaouh?
+Miaouh ?
 ]], "_t")
 t("Oh kitty kitty!", "Oh, minou minou !", "_t")
 t("No time for cats!", "Pas de temps pour les chats !", "_t")
@@ -3484,7 +3484,7 @@ Rrrrrrrrrrrr.
 ]], [[#LIGHT_GREEN#*Il se frotte contre votre jambe et ronronne.*#WHITE#
 Rrrrrrrrrrrr.
 ]], "_t")
-t("Hey maybe you would like some of this delicious lookin troll intestines? #LIGHT_GREEN#[Feed him the intestines]#WHITE#", "Tu aimerais peut-être un peu de ces délicieux intestins de trolls? #LIGHT_GREEN#[Lui donner les intestins]#WHITE#", "_t")
+t("Hey maybe you would like some of this delicious lookin troll intestines? #LIGHT_GREEN#[Feed him the intestines]#WHITE#", "Tu aimerais peut-être un peu de ces délicieux intestins de trolls ? #LIGHT_GREEN#[Lui donner les intestins]#WHITE#", "_t")
 t("Sorry little fellow, I can't help you.", "Désolé petite boule de poils, je ne peux pas t'aider.", "_t")
 t("#LIGHT_GREEN#*It eats it all and looks happy. After a while it strolls away. Somehow you feel you have not seen the last of it.*#WHITE#", "#LIGHT_GREEN#*Il mange tout et a l'air heureux. Au bout d'un moment, il s'éloigne. D'une certaine manière, on a l'impression de ne pas l'avoir vu*#WHITE#", "_t")
 t("#LIGHT_GREEN#[Leave]", "#LIGHT_GREEN#[Partir]", "_t")
@@ -3498,7 +3498,7 @@ t("The foolish cultist that created me is no more. What am I to do now...", "Le 
 t("You are me, come with me!", "Tu es moi, viens avec moi !", "_t")
 t("You should head back to Irkkk.", "Vous devriez retourner à Irkkk.", "_t")
 t("I fear that would get confusing very fast. I think I will go back to Irkkk. Farewell my clone!", "Je crains que cela ne devienne très vite confus. Je pense que je vais retourner à Irkkk. Adieu mon clone !", "_t")
-t("Clone? No you are the clone.", "Clone? Non, vous êtes le clone.", "_t")
+t("Clone? No you are the clone.", "Clone ? Non, vous êtes le clone.", "_t")
 t("Farewell.", "Adieux.", "_t")
 t("Sure... if you prefer to think about it this way. We are all part of The Way anyway.", "Bien sûr... si vous préférez y penser de cette façon. Nous faisons tous partie de le Voie après tout.", "_t")
 t("I think so too, farewell my clone.", "e le pense aussi, adieu mon clone.", "_t")
@@ -3509,18 +3509,18 @@ section "mod-tome/data/chats/shertul-fortress-butler.lua"
 t([[*#LIGHT_GREEN#The creature slowly turns to you. You hear its terrible voice directly in your head.#WHITE#*
 Welcome, master.]], [[*#LIGHT_GREEN#La créature se tourne lentement vers vous. Vous entendez sa terrible voix directement dans votre tête.#WHITE#*
 Bienvenue, maître.]], "_t")
-t("What are you, and what is this place?", "Qu'est-ce que vous êtes, et quel est cet endroit?", "_t")
-t("Master? I am not your mas...", "Maître? Je ne suis pas votre maî...", "_t")
-t("Why do I understand you? The texts are unreadable to me.", "Pourquoi est-ce que je vous comprends? Ces textes sont illisibles pour moi.", "_t")
-t("What can I do here?", "Que puis-je faire ici?", "_t")
-t("What else can this place do?", "Que peut faire de plus cet endroit?", "_t")
-t("Would it be possible to improve my Cloak of Deception so I do not need to wear it to pass as a living being?", "Serait-il possible d'améliorer ma cape de supercherie afin que je n'aie pas besoin de la porter pour passer pour un être vivant?", "_t")
-t("You asked me to come, about a farportal?", "Vous m'avez demandé de venir, à propos d'un portail lointain?", "_t")
-t("You asked me to come, about the rod of recall?", "Vous m'avez demandé de venir, à propos du bâtonnet de rappel?", "_t")
-t("Would it be possible for my Transmogrification Chest to automatically extract gems?", "Serait-il possible pour mon coffre de transmogrification d'extraire automatiquement les pierres précieuses?", "_t")
-t("Are there any training facilities?", "Y a-t-il une salle d'entrainement?", "_t")
-t("Can you use your magic to alter the appearance of my gear?", "Pouvez-vous utiliser votre magie pour modifier l'apparence de mon équipement?", "_t")
-t("I find your appearance unsettling. Any way you can change it?", "Je trouve votre apparence dérangeante. Pouvez-vous la changer?", "_t")
+t("What are you, and what is this place?", "Qu'est-ce que vous êtes, et quel est cet endroit ?", "_t")
+t("Master? I am not your mas...", "Maître ? Je ne suis pas votre maî...", "_t")
+t("Why do I understand you? The texts are unreadable to me.", "Pourquoi est-ce que je vous comprends ? Ces textes sont illisibles pour moi.", "_t")
+t("What can I do here?", "Que puis-je faire ici ?", "_t")
+t("What else can this place do?", "Que peut faire de plus cet endroit ?", "_t")
+t("Would it be possible to improve my Cloak of Deception so I do not need to wear it to pass as a living being?", "Serait-il possible d'améliorer ma cape de supercherie afin que je n'aie pas besoin de la porter pour passer pour un être vivant ?", "_t")
+t("You asked me to come, about a farportal?", "Vous m'avez demandé de venir, à propos d'un portail lointain ?", "_t")
+t("You asked me to come, about the rod of recall?", "Vous m'avez demandé de venir, à propos du bâtonnet de rappel ?", "_t")
+t("Would it be possible for my Transmogrification Chest to automatically extract gems?", "Serait-il possible pour mon coffre de transmogrification d'extraire automatiquement les pierres précieuses ?", "_t")
+t("Are there any training facilities?", "Y a-t-il une salle d'entrainement ?", "_t")
+t("Can you use your magic to alter the appearance of my gear?", "Pouvez-vous utiliser votre magie pour modifier l'apparence de mon équipement ?", "_t")
+t("I find your appearance unsettling. Any way you can change it?", "Je trouve votre apparence dérangeante. Pouvez-vous la changer ?", "_t")
 t("I have come upon a strange thing indeed. #LIGHT_GREEN#[tell him about Melinda]", "Je suis en effet tombé sur une chose étrange. #LIGHT_GREEN#[lui parler de Melinda]", "_t")
 t("[leave]", "[partir]", "_t")
 t([[*#LIGHT_GREEN#The creature glares at you.#WHITE#*
@@ -3543,14 +3543,14 @@ Vous voyez des guerres titanesques d'une époque maintenant oubliée. Vous voyez
 Ils se battent avec des armes, de la magie et d'autres choses. Ils combattent des dieux. Ils les traquent, les tuent ou les bannissent.
 Vous voyez de grandes forteresses comme celle-ci, qui volent dans le ciel d'Eyal - des bastions de pouvoir étincelants qui scintillent dans le jeune soleil.
 Vous voyez les dieux battus, vaincus et morts. Tous, sauf un.
-Puis vous voyez les ténèbres; il semble que l'ombre ne sache pas ce qui a suivi ces événements.
+Puis vous voyez les ténèbres ; il semble que l'ombre ne sache pas ce qui a suivi ces événements.
 
 Vous secouez la tête alors que la vision se dissipe, et votre vue normale revient lentement.
 #WHITE#*
 ]], "_t")
 t("Those are Sher'Tuls? They fought the gods?!", "Ce sont des Sher'Tuls ? Ils ont combattu les dieux ?!", "_t")
 t("They had to. They forged terrible weapons of war. They won.", "Ils le devaient. Ils ont forgé des armes de guerre terribles. Ils ont gagné.", "_t")
-t("But then where are they now if they won?", "Mais alors, où sont-ils maintenant s'ils ont gagné?", "_t")
+t("But then where are they now if they won?", "Mais alors, où sont-ils maintenant s'ils ont gagné ?", "_t")
 t("They are gone now. I cannot tell you more.", "Ils sont partis maintenant. Je ne peux pas vous en dire plus.", "_t")
 t("But I am the master!", "Mais je suis le maître !", "_t")
 t("Fine.", "Bien.", "_t")
@@ -3565,12 +3565,12 @@ It is also equiped with various facilities: exploratory farportal, emergency con
 However, the Fortress is badly damaged and has lain dormant for too long. Its energies are nearly depleted.
 Take this Transmogrification Chest. It is linked by a permanent farportal to the Fortress. Any item you put inside will be sent to the power core and dismantled for energy.
 There are, however, unwanted byproducts to this operation: the generation of a metal known as gold. It is of no use to the Fortress and thus will be sent back to you.]], [[Cette forteresse est conçue comme une base mobile pour les tueurs de dieux - elle peut voler.
-Elle est également équipée de diverses installations: portail d'exploration, champ de confinement d'urgence, stockage distant, ...
+Elle est également équipée de diverses installations : portail d'exploration, champ de confinement d'urgence, stockage distant, ...
 Cependant, la Forteresse est très endommagée et est restée trop longtemps en sommeil. Son énergie est presque épuisé.
 Prenez ce Coffre de Transmogrification. Il est relié à la Forteresse par un portail permanent. Tout objet que vous y placerez sera envoyé au générateur principal et démantelé pour obtenir de l'énergie.
-Cependant, cette opération a un sous-produit indésirable: la génération d'un métal connu sous le nom d'or. Il n'est d'aucune utilité pour la Forteresse et vous sera donc renvoyé.]], "_t")
+Cependant, cette opération a un sous-produit indésirable : la génération d'un métal connu sous le nom d'or. Il n'est d'aucune utilité pour la Forteresse et vous sera donc renvoyé.]], "_t")
 t("I will, thanks.", "Je le ferai, merci.", "_t")
-t("I have already found such a chest in my travel. Will it work?", "J'ai déjà trouvé un tel coffre lors de mon voyage. Est-ce que ça va marcher?", "_t")
+t("I have already found such a chest in my travel. Will it work?", "J'ai déjà trouvé un tel coffre lors de mon voyage. Est-ce que ça va marcher ?", "_t")
 t([[Yes, it will. I will attune it to this fortress.
 Done.]], [[Oui, il le fera. Je vais l'adapter à cette forteresse.
 C'est fait.]], "_t")
@@ -3581,7 +3581,7 @@ Beware that the return portal may not be nearby your arrival point; you will nee
 You may use the farportal; however, beware - I sense a strange presence in the farportal room.]], [[Il y a longtemps, les Sher'tuls utilisaient les portails lointain non seulement pour se rendre dans des lieux connus, mais aussi pour explorer de nouvelles parties du monde, voire d'autres mondes.
 Cette Forteresse est équipée d'un portail d'exploration, et dispose maintenant de suffisamment d'énergie pour permettre une téléportation. Chaque téléportation vous emmènera dans une partie aléatoire de l'univers et utilisera 45 énergies.
 Attention, le portail de retour peut ne pas être à proximité de votre point d'arrivée ; vous devrez le trouver. Vous pouvez utiliser le bâtonnet de rappel pour tenter de forcer un rappel d'urgence, mais elle a de fortes chances de briser à jamais le portail d'exploration.
-Vous pouvez utiliser le portail d'exploration; cependant, prenez garde - je sens une présence étrange dans la salle du portail.]], "_t")
+Vous pouvez utiliser le portail d'exploration ; cependant, prenez garde - je sens une présence étrange dans la salle du portail.]], "_t")
 t("I will check it out, thanks.", "Je vais aller vérifier, merci.", "_t")
 t([[The rod of recall you possess is not a Sher'tul artifact, but it is based on Sher'tul design.
 The Fortress now has enough energy to upgrade it. It can be changed to recall you to the Fortress.]], [[Le bâtonnet de rappel que vous possédez n'est pas un artefact Sher'tul, mais il est basé sur une conception Sher'tul.
@@ -3604,8 +3604,8 @@ However, I will need to use 25 energy to do this.]], [[Ah oui, vous semblez maî
 Cependant, je devrai utiliser 25 énergies pour ce faire.]], "_t")
 t("Maybe sometime later.", "Peut-être un peu plus tard.", "_t")
 t("I can alter the Fortress holographic projection matrix to accomodate your racial tastes. This will require 60 energy, however.", "Je peux modifier la matrice de projection holographique de la Forteresse pour l'adapter à vos goûts raciaux. Cela nécessitera cependant 60 énergies.", "_t")
-t("Can you try for a human female appearance please?", "Pouvez-vous essayer d'avoir une apparence humaine féminine s'il vous plaît?", "_t")
-t("Can you try for a human male appearance please?", "Pouvez-vous essayer d'avoir une apparence humaine masculine, s'il vous plaît?", "_t")
+t("Can you try for a human female appearance please?", "Pouvez-vous essayer d'avoir une apparence humaine féminine s'il vous plaît ?", "_t")
+t("Can you try for a human male appearance please?", "Pouvez-vous essayer d'avoir une apparence humaine masculine, s'il vous plaît ?", "_t")
 t("Please revert to your default appearance.", "Veuillez revenir à votre apparence par défaut.", "_t")
 t("Well, you do not look so bad actually. Let it be for now.", "En fait, vous n'avez pas l'air si mal actuellement. Restez comme cela pour l'instant.", "_t")
 t([[Yes Master. I can use 10 energy to infuse your cloak. When you take it off the effect should still persist.
@@ -3709,34 +3709,34 @@ t("[Leave the orb alone]", "[Laisser l'orbe tranquille]", "_t")
 section "mod-tome/data/chats/slasul.lua"
 
 t([[What is this? Why have you entered my temple and slain my followers?
-Speak or die, for I am Slasul and you shall not disrupt my plans.]], [[Qu'est-ce que cela signifie? Pourquoi êtes-vous entré dans mon temple et avez-vous tué mes fidèles?
+Speak or die, for I am Slasul and you shall not disrupt my plans.]], [[Qu'est-ce que cela signifie ? Pourquoi êtes-vous entré dans mon temple et avez-vous tué mes fidèles ?
 Parlez ou mourez, car je suis Slasul et vous ne perturberez pas mes plans.]], "_t")
 t("[attack]", "[attaquer]", "_t")
 t("So be it... Die now!", "Ainsi soit-il... Mourrez maintenant !", "_t")
 t("I was sent by Ukllmswwik to stop your mad schemes to control all underwater life!", "J'ai été envoyé par Ukllmswwik pour mettre fin à vos plans insensés visant à contrôler toute la vie sous-marine !", "_t")
 t([[I see. So the dragon sent you. He told you I am insane, I assume?
 But which of us is truly evil? Myself, working to better my people, doing no harm to anyone, or you, who comes here to kill me, destroying my friends and planning to do the same to me?
-Who is the insane one?]], [[Je vois. Le dragon vous a donc envoyé. Il vous a dit que je suis fou, je suppose?
-Mais lequel d'entre nous est vraiment mauvais? Moi-même, qui travaille pour le bien mon peuple, qui ne fait de mal à personne, ou vous, qui venez ici pour me tuer, qui détruisez mes amis et qui prévoyez de me faire la même chose?
-Qui est le fou?]], "_t")
+Who is the insane one?]], [[Je vois. Le dragon vous a donc envoyé. Il vous a dit que je suis fou, je suppose ?
+Mais lequel d'entre nous est vraiment mauvais ? Moi-même, qui travaille pour le bien mon peuple, qui ne fait de mal à personne, ou vous, qui venez ici pour me tuer, qui détruisez mes amis et qui prévoyez de me faire la même chose ?
+Qui est le fou ?]], "_t")
 t("Your feeble attempt to sway me from the side of good will not work. Pay for you sins!", "Votre piètre tentative de me faire basculer du côté du bien ne fonctionne pas. Payez pour vos péchés !", "_t")
 t("If you refuse to see reason, you leave me no choice!", "Si vous refusez de voir la raison, vous ne me laissez pas le choix !", "_t")
-t("Your words are... disturbing. Why should I spare you?", "Vos paroles sont... troublantes. Pourquoi devrais-je vous épargner?", "_t")
+t("Your words are... disturbing. Why should I spare you?", "Vos paroles sont... troublantes. Pourquoi devrais-je vous épargner ?", "_t")
 t([[Spare me?#LIGHT_GREEN#*He laughs.*#WHITE#
 Do not be so hasty to assume YOU are in a position to offer mercy to ME!
 Yet I shall tell you my story. You surface dwellers do not know much about nagas, but let me tell you this: our current condition was not our choice.
 When Nalore sank, many of us died, so we resorted to using the magic of this temple. It worked, it saved us, and yet we are cursed. Cursed in this form by the terrible magic.
 If you do not believe anything else of what I say, please believe at least this: the Sher'Tul are hiding, not gone, and they are not benevolent entities.
-Recently, that water dragon that sent you here started sending "agents" to secure the temple. I can only imagine his goals, but they are clearly not peaceful.]], [[M'épargner?#LIGHT_GREEN#*Il rigole*#WHITE#
+Recently, that water dragon that sent you here started sending "agents" to secure the temple. I can only imagine his goals, but they are clearly not peaceful.]], [[M'épargner ?#LIGHT_GREEN#*Il rigole*#WHITE#
 Ne soyez pas si pressé de supposer que VOUS êtes en mesure de ME faire grâce !
-Mais je vais vous raconter mon histoire. Vous, les habitants de la surface, ne savez pas grand-chose des nagas, mais laissez-moi vous dire ceci: notre condition actuelle n'est pas le fruit de notre choix.
+Mais je vais vous raconter mon histoire. Vous, les habitants de la surface, ne savez pas grand-chose des nagas, mais laissez-moi vous dire ceci : notre condition actuelle n'est pas le fruit de notre choix.
 Quand Nalore a coulé, beaucoup d'entre nous sont morts, alors nous avons eu recours à la magie de ce temple. Elle a fonctionné, elle nous a sauvés, et pourtant nous sommes maudits. Maudits sous cette forme par la terrible magie.
 Si vous ne croyez rien d'autre à ce que je dis, croyez au moins ceci : les Sher'Tul se cachent, ils ne sont pas partis, et ce ne sont pas des entités bienveillantes.
 Récemment, le dragon d'eau qui vous a envoyé ici a commencé à envoyer des "agents" pour sécuriser le temple. Je ne peux qu'imaginer ses objectifs, mais ils ne sont clairement pas pacifiques.]], "_t")
-t("You do not sound mad to me... could Ukllmswwik have lied?", "Vous ne me semblez pas fou... Ukllmswwik aurait-il pu mentir?", "_t")
+t("You do not sound mad to me... could Ukllmswwik have lied?", "Vous ne me semblez pas fou... Ukllmswwik aurait-il pu mentir ?", "_t")
 t("I will not be deceived by your lies! I will make your pay for your victims!", "Je ne me laisserai pas tromper par vos mensonges ! Je vous ferai payer pour vos victimes !", "_t")
 t("As you wish. It did not have to come to this...", "Comme vous le souhaitez. Il n'était pas nécessaire d'en arriver là...", "_t")
-t("Use this portal. It will bring you back to his cave; ask him the truth.", "Utilisez ce portail. Il vous ramènera dans sa grotte; demandez-lui la vérité.", "_t")
+t("Use this portal. It will bring you back to his cave; ask him the truth.", "Utilisez ce portail. Il vous ramènera dans sa grotte ; demandez-lui la vérité.", "_t")
 t("I will make him pay for his treachery.", "Je lui ferai payer sa trahison.", "_t")
 t("Thank you for listening to me.", "Merci de m'avoir écouté.", "_t")
 t("The dragon was lying, I can feel it. I have decided to embrace your cause.", "Le dragon mentait, je le sens. J'ai décidé de me rallier à votre cause.", "_t")
@@ -3855,7 +3855,7 @@ Both Maj'Eyal and the Far East are safe from the dark schemes of the Sorcerers a
 #LIGHT_GREEN#*Leurs corps disparaissent dans une brume immatérielle.*#WHITE#
 Vous avez gagné la partie !
 Le Maj'Eyal et l'Extrême-Orient sont tous deux à l'abri des sombres desseins des Sorciers et de leur Dieu.]], "_t")
-t("Aeryn, are you well?", "Aeryn, vous allez bien?", "_t")
+t("Aeryn, are you well?", "Aeryn, vous allez bien ?", "_t")
 t("[leave]", "[partir]", "_t")
 t([[I cannot believe we succeeded. I was prepared to die and yet I live.
 I might have underestimated you. You did more than we could have hoped for!]], [[Je n'arrive pas à croire que nous ayons réussi. J'étais prêt à mourir et pourtant je vis.
@@ -3868,15 +3868,15 @@ section "mod-tome/data/chats/sorcerer-fight.lua"
 t("High Sun Paladin Aeryn appears next to you!", "Aeryn, la Haute Paladine Solaire, apparaît à côté de vous !", "logPlayer")
 t([[#LIGHT_GREEN#*The two Sorcerers stands before you, shining like the Sun.*#WHITE#
 Ah! Our guest is finally here. I take it you found the peak entertaining?]], [[#LIGHT_GREEN#*Les deux Sorciers se tiennent devant vous, rayonnants tel le Soleil.*#WHITE#
-Ah ! Notre invité est enfin là. Je suppose que vous avez trouvé le Pic divertissant?]], "_t")
+Ah ! Notre invité est enfin là. Je suppose que vous avez trouvé le Pic divertissant ?]], "_t")
 t("Spare me the small talk. I am here to stop you!", "Épargnez-moi vos bavardages. Je suis ici pour vous arrêter !", "_t")
-t("Why are you doing all that? You were supposed to help people!", "Pourquoi faites-vous tout cela? Vous étiez censé aider les gens !", "_t")
+t("Why are you doing all that? You were supposed to help people!", "Pourquoi faites-vous tout cela ? Vous étiez censé aider les gens !", "_t")
 t([[Oh, but all we want is to help people. We have come to the self-evident conclusion that common people are just unfit to govern themselves, always bickering, arguing...
 Since the last invasion of the orcs there has been no threat to unite them!]], [[Oh, mais tout ce que nous voulons, c'est aider les gens. Nous sommes arrivés à la conclusion évidente que le commun des mortels sont tout simplement inaptes à se gouverner eux-mêmes, toujours à se chamailler, à se disputer...
 Depuis la dernière invasion orc, il n'y a pas eu de menace pour les unir !]], "_t")
-t("So you have decided to become the threat yourselves?", "Vous avez donc décidé de devenir vous-mêmes la menace?", "_t")
-t("Us? Ah, no, we are merely instruments for the Master. We have planned for His return.", "Nous? Ah, non, nous ne sommes que les instruments du Maître. Nous avons prévu son retour.", "_t")
-t("And 'He' would be...?", "Et \"il\" serait...?", "_t")
+t("So you have decided to become the threat yourselves?", "Vous avez donc décidé de devenir vous-mêmes la menace ?", "_t")
+t("Us? Ah, no, we are merely instruments for the Master. We have planned for His return.", "Nous ? Ah, non, nous ne sommes que les instruments du Maître. Nous avons prévu son retour.", "_t")
+t("And 'He' would be...?", "Et \"il\" serait... ?", "_t")
 t([[The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.
 He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!
 The staff has allowed us to drain enough energy from this world to open the portal to the Void and summon Him through!
@@ -3904,18 +3904,18 @@ section "mod-tome/data/chats/tannen.lua"
 t("#LIGHT_GREEN#*Nobody answers.*#WHITE#", "#LIGHT_GREEN#*Personne ne répond.*#WHITE#", "_t")
 t("[leave]", "[partir]", "_t")
 t("#LIGHT_GREEN#*Nobody answers. Tannen is probably still busy studying the orb.*#WHITE#", "#LIGHT_GREEN#*Personne ne répond. Tannen est probablement encore occupé à étudier l'orbe.*#WHITE#", "_t")
-t("How may I be of service, good @playerdescriptor.race@?", "En quoi puis-je être utile, bon @playerdescriptor.race@?", "_t")
+t("How may I be of service, good @playerdescriptor.race@?", "En quoi puis-je être utile, bon @playerdescriptor.race@ ?", "_t")
 t("[Relate to him the story of the staff and the Orb of Many Ways and the portals.]", "[Racontez-lui l'histoire du bâton, de l'Orbe des Multiples Voies, et des portails.]", "_t")
 t("I have the diamond and the athame. [Hand over the Athame and Diamond]", "J'ai le diamant et l'athamé. [Remettre l'athamé et le diamant]", "_t")
 t("Thieving, murderous wretch. Prepare to die!", "Voleur, misérable meurtrier. Prépare-toi à mourir !", "_t")
-t("How fares your research? Are we ready to create the portal?", "Comment se déroule vos recherches? Sommes-nous prêts à créer le portail?", "_t")
+t("How fares your research? Are we ready to create the portal?", "Comment se déroule vos recherches ? Sommes-nous prêts à créer le portail ?", "_t")
 t("Nothing, excuse me. Bye!", "Rien, excusez-moi. Au revoir !", "_t")
-t("Astonishing! I have heard tell of this Orb in ancient texts and legends. Might I see it?", "Stupéfiant ! J'ai entendu parler de cette Orbe dans des textes et légendes anciennes. Puis-je la voir?", "_t")
+t("Astonishing! I have heard tell of this Orb in ancient texts and legends. Might I see it?", "Stupéfiant ! J'ai entendu parler de cette Orbe dans des textes et légendes anciennes. Puis-je la voir ?", "_t")
 t("[Show him the Orb of Many Ways]", "[Lui montrer l'Orbe des Multiples Voies]", "_t")
-t("Truly, it is the work of a great master. Perhaps Linaniil herself had a hand in its making. And you say you come bearing instructions in its usage?", "En vérité, c'est l'oeuvre d'un grand maître. Peut-être Linaniil elle-même a-t-elle contribué à sa réalisation. Et vous dites que vous venez avec des instructions pour son emploi?", "_t")
+t("Truly, it is the work of a great master. Perhaps Linaniil herself had a hand in its making. And you say you come bearing instructions in its usage?", "En vérité, c'est l'oeuvre d'un grand maître. Peut-être Linaniil elle-même a-t-elle contribué à sa réalisation. Et vous dites que vous venez avec des instructions pour son emploi ?", "_t")
 t("I do. [Show him Zemekkys's scribbled notes]", "En effet. [Lui montrer les notes griffonnées de Zemekkys]", "_t")
 t("#LIGHT_GREEN#*He spends a few minutes reading*#WHITE# Ah! I see. I did not at first grasp this Zemekkys's methods, but I see now that they are sound, and it is simply his penmanship that needs improvement. We can manage to reproduce his work here, but, as he says, we will need the Blood-Runed Athame and a Resonating Diamond.", "#LIGHT_GREEN#*Il passe quelques minutes à lire*#WHITE# Ah ! je vois. Je n'avais pas saisi les méthodes de ce Zemekkys au début, mais je vois maintenant qu'elles sont solides, et c'est simplement son écriture qui doit être améliorée. Nous pouvons réussir à reproduire son travail ici, mais, comme il le dit, nous aurons besoin de l'Athamé rune de sang et d'un Diamant Résonnant.", "_t")
-t("Have you any idea where they might be found?", "Avez-vous une idée de l'endroit où ils pourraient se trouver?", "_t")
+t("Have you any idea where they might be found?", "Avez-vous une idée de l'endroit où ils pourraient se trouver ?", "_t")
 t("If the orcs created a portal in the depths of Reknor, they must have had access to such items. And if these items cannot pass through the portal they created, then it stands to reason that they must still be in Maj'Eyal. I would search Reknor, starting near the portal itself. Perhaps they did not move the Athame and Diamond far after its creation.", "Si les orcs ont créé un portail dans les profondeurs de Reknor, ils doivent avoir eu accès à de tels objets. Et si ces objets ne peuvent pas passer par le portail qu'ils ont créé, alors il est logique qu'ils soient toujours en Maj'Eyal. Je chercherais dans Reknor, en commençant par le portail lui-même. Peut-être n'ont-ils pas déplacé l'Athamé et le Diamant bien après sa création.", "_t")
 t("I'll get searching. Thank you.", "Je vais chercher tout ca. Je vous remercie.", "_t")
 t("One last thing. I will need to hold onto the Orb of Many Ways while you search. I lack the expertise this Chronomancer Zemekkys possesses, and have much learning on the subject to do if I am to follow in his footsteps.", "Une dernière chose. Je devrai garder l'Orbe des Multiples Voies pendant que vous cherchez. Je n'ai pas l'expertise que possède ce Chronomancien Zemekkys, et j'ai beaucoup à apprendre sur le sujet si je veux suivre ses traces.", "_t")
@@ -3927,7 +3927,7 @@ t("Very well. There is no hurry. But I will need to spend a number of days study
 t("I understand. I'll return with the Athame and Diamond.", "Je comprends. Je reviendrai avec l'Athamé et le Diamant.", "_t")
 t("Excellent. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields,\" return with it and your odds of surviving our portal attempt will go up drastically.", "Excellent. Revenez dans quelques jours, et j'aurai tout préparé. Oh, prenez ça. #LIGHT_GREEN#*Il vous remet une clé*#WHITE#Elle ouvre les ruines de Telmur, que les hommes de Sholtar ont scellées il y a de nombreuses années.Si vous trouvez par hasard un texte dans les ruines intitulé \"Champs de probabilité inversés et renversés\", revenez avec ce texte et vos chances de survivre à notre tentative de portail augmenteront considérablement.", "_t")
 t("Thank you, and farewell.", "Merci et adieu.", "_t")
-t("Excellent. Are you yet willing to leave the Orb in my care for a time?", "Excellent. Êtes-vous prêt à me confier l'Orbe pour un temps?", "_t")
+t("Excellent. Are you yet willing to leave the Orb in my care for a time?", "Excellent. Êtes-vous prêt à me confier l'Orbe pour un temps ?", "_t")
 t("I dare not let it out of my sight. I'm sorry.", "Je n'ose pas le perdre de vue. Je suis désolé.", "_t")
 t("Here it is. Guard it carefully. I must return to the Far East soon.", "Le voici. Gardez-le précieusement. Je dois bientôt retourner en Extrême-Orient.", "_t")
 t("#LIGHT_GREEN#*The old man sighs*#WHITE# Very well. I suppose I must make do with a cursory examination under your supervision.", "#LIGHT_GREEN#*Le vieil homme soupire*#WHITE# Très bien. Je suppose que je dois me contenter d'un examen superficiel sous votre supervision.", "_t")
@@ -3949,24 +3949,24 @@ t([[I am ready. You are not. Look down.
 section "mod-tome/data/chats/tarelion-start-archmage.lua"
 
 t("Wait a minute!", "Attendez une minute !", "_t")
-t("Archmage Tarelion?", "Archimage Tarelion?", "_t")
+t("Archmage Tarelion?", "Archimage Tarelion ?", "_t")
 t([[Yes @playername@, I have heard you plan on going into the wild world, looking for some adventures of your own.
 This is good, more of us should get out of here once in a while and actually help people out there.
 Say, maybe you might want to get an adventure and help Angolwen?]], [[Oui, @playername@, j'ai entendu dire que vous aviez l'intention d'aller dans le monde sauvage, à la recherche de quelques aventures.
 C'est bien, nous devrions être plus nombreux à sortir d'ici de temps en temps et à aider les gens là-bas.
-Dites, peut-être voudriez-vous partir à l'aventure et aider Angolwen?]], "_t")
-t("Perhaps, what do you need?", "Peut-être, de quoi avez-vous besoin?", "_t")
+Dites, peut-être voudriez-vous partir à l'aventure et aider Angolwen ?]], "_t")
+t("Perhaps, what do you need?", "Peut-être, de quoi avez-vous besoin ?", "_t")
 t([[During the Spellblaze the world was torn apart - literally. A part of it, that we now call the Abashed Expanse, was ripped from the world and thrown into the void between the stars.
 We managed to stabilize it and it is now orbiting Eyal. Recently we have noticed a disturbance there; if we do nothing it will crash onto Eyal, bringing much destruction in its wake.
 Because it was once part of a land we know well we can teleport you there. You will need to stabilize three wormholes by firing any attack spells at them.
 The instability is also to your advantage there, your simple phase door spell will be fully controllable.
 
 So, you think you can help us ?]], [[Pendant la Brûlure magique, le monde a été déchiré - littéralement. Une partie de ce monde, que nous appelons aujourd'hui l'Étendue Ébranlée, a été arrachée au monde et jetée dans le vide entre les étoiles.
-Nous avons réussi à la stabiliser et elle orbite désormais autour d'Eyal. Récemment, nous avons remarqué une perturbation à cet endroit; si nous ne faisons rien, elle s'écrasera sur Eyal, entraînant beaucoup de destruction dans son sillage.
+Nous avons réussi à la stabiliser et elle orbite désormais autour d'Eyal. Récemment, nous avons remarqué une perturbation à cet endroit ; si nous ne faisons rien, elle s'écrasera sur Eyal, entraînant beaucoup de destruction dans son sillage.
 Comme elle faisait autrefois partie d'une terre que nous connaissons bien, nous pouvons vous y téléporter. Vous devrez stabiliser trois trous de ver en y lançant des sorts d'attaque.
 L'instabilité y est également à votre avantage, votre simple sort de porte de phase sera entièrement contrôlable.
 
-Alors, vous pensez pouvoir nous aider?]], "_t")
+Alors, vous pensez pouvoir nous aider ?]], "_t")
 t("Yes Archmage, send me there!", "Oui Archimage, envoyez-moi là-bas !", "_t")
 t("No sorry, I need to go.", "Non, désolé, je dois y aller.", "_t")
 t("Good luck!", "Bonne chance !", "_t")
@@ -3979,7 +3979,7 @@ section "mod-tome/data/chats/tarelion.lua"
 
 t([[I say, you there. Yes, you, young one!
 You seem like the adventuring fare, up to all sorts of doo-daddle in the outside world, I imagine. Well, don't forget to pay patronage to our good library here in the city. The riches of the world are all well and good, but where would we be without the gift of knowledge? And all proceeds go towards the funding of further research. No greater cause, yes?]], [[Dites, vous là-bas. Oui, vous, le jeune !
-Vous semblez être un aventurier, capable de faire toutes sortes de choses dans le monde extérieur, j'imagine. N'oubliez pas de soutenir notre bonne bibliothèque ici en ville. Les richesses du monde sont bien belles, mais où serions-nous sans le don de la connaissance? Et tous les bénéfices servent à financer davantage de recherches. Il n'y a pas de plus grande cause, n'est-ce pas?]], "_t")
+Vous semblez être un aventurier, capable de faire toutes sortes de choses dans le monde extérieur, j'imagine. N'oubliez pas de soutenir notre bonne bibliothèque ici en ville. Les richesses du monde sont bien belles, mais où serions-nous sans le don de la connaissance ? Et tous les bénéfices servent à financer davantage de recherches. Il n'y a pas de plus grande cause, n'est-ce pas ?]], "_t")
 t("Uh, yes, of course... I'll be moving on now.", "Euh, oui, bien sûr... Je vais poursuivre ma route maintenant.", "_t")
 t("Hold on! You... You're that apprentice mage I met in the wilds!", "Attendez ! Vous... Vous êtes cet apprenti mage que j'ai rencontré dans la nature !", "_t")
 t("Why, well-spotted, whippersnapper! Indeed, when the mood takes me I sometimes travel under the guise of an apprentice. It permits me to traverse the land unnoticed in my research, and if I meet any I deem worthy and sympathetic to Angolwen's cause, then so much the better. And it does provide the odd chortle, I tell you!", "Eh bien, quelle perspicacité, petit morveux ! En effet, quand l'envie me prend, je voyage parfois sous les traits d'un apprenti. Cela me permet de parcourir la terre sans me faire remarquer dans mes recherches, et si je rencontre quelqu'un que je juge digne et sympathique à la cause d'Angolwen, alors tant mieux. Et cela me donne un certain plaisir, je vous le dis !", "_t")
@@ -3991,10 +3991,10 @@ t([[#LIGHT_GREEN#*A tall man, glowing like a star, appears out of nowhere.*#WHIT
 You destroyed *it* both? I am sorry for my harsh tone when we first met, but repairing time threads is stressful.
 I cannot stay. I still have much to do. But take this-- it should help you.
 #LIGHT_GREEN#*He disappears again before you can even reply. A rift opens, to Maj'Eyal... you hope.*#WHITE#]], [[#LIGHT_GREEN#*Un homme grand, brillant comme une étoile, apparaît de nulle part.*#WHITE#
-Vous les avez détruits tous les 'deux'? Je suis désolé pour le ton sévère que j'ai adopté lors de notre première rencontre, mais réparer les fils du temps est stressant.
+Vous les avez détruits tous les 'deux' ? Je suis désolé pour le ton sévère que j'ai adopté lors de notre première rencontre, mais réparer les fils du temps est stressant.
 Je ne peux pas rester. J'ai encore beaucoup à faire. Mais prenez ça... ça devrait vous aider.
 #LIGHT_GREEN#*Il disparaît à nouveau avant même que vous puissiez répondre. Une brèche s'ouvre, en Maj'Eyal... du moins vous l'espérez.*#WHITE#]], "_t")
-t("The temporal warden gives you: %s.", "Le gardien du temps vous donne: %s.", "log")
+t("The temporal warden gives you: %s.", "Le gardien du temps vous donne : %s.", "log")
 -- texte non traduit
 --[==[
 t("Ok...", "Ok...", "_t")
@@ -4009,7 +4009,7 @@ Oh no, another *adventurer*! You should not mess with things beyond your compreh
 Do not meddle in the affairs of Time, for it passes swiftly and is easily disrupted!
 #LIGHT_GREEN#*He looks at you more closely.*#WHITE#
 You seem capable. Help me, fight the abominations while I repair the timeline. It is your only way out!]], [[#LIGHT_GREEN#*Un homme grand, rayonnant comme une étoile, apparaît de nulle part.*#WHITE#
-Oh non, un autre 'aventurier'! Vous ne devriez pas vous mêler de choses qui dépassent votre compréhension !
+Oh non, un autre 'aventurier' ! Vous ne devriez pas vous mêler de choses qui dépassent votre compréhension !
 Ne vous mêlez pas des affaires du Temps, car il passe vite et est facilement perturbé !
 #LIGHT_GREEN#*Il vous observe plus attentivement.*#WHITE#
 Vous semblez compétent. Aidez-moi, combattez les abominations pendant que je répare la ligne du temps. C'est votre seule issue !]], "_t")
@@ -4019,15 +4019,15 @@ t("But what is all th...", "Mais qu'est-ce que tout cela...", "_t")
 section "mod-tome/data/chats/the-master-resurrect.lua"
 
 t([[#LIGHT_GREEN#*The Master crumbles before you, vanquished. Yet in the blink of an eye you see his form recreating from dust; unharmed and ready to fight again!*#WHITE#
-Ahah you fool! See how even death has no meaning for me; for I am the Master and you are my toy, now and forever.]], [[#LIGHT_GREEN#*Le Maître s'effondre devant vous, vaincu. Pourtant, en un clin d'oeil, vous voyez sa forme se recréer à partir de la poussière; indemne et prêt à combattre à nouveau !*#WHITE#
-Ahah, espèce d'idiot ! Vois comme même la mort n'a aucune signification pour moi; car je suis le Maître et tu es mon jouet, maintenant et pour toujours.]], "_t")
+Ahah you fool! See how even death has no meaning for me; for I am the Master and you are my toy, now and forever.]], [[#LIGHT_GREEN#*Le Maître s'effondre devant vous, vaincu. Pourtant, en un clin d'oeil, vous voyez sa forme se recréer à partir de la poussière ; indemne et prêt à combattre à nouveau !*#WHITE#
+Ahah, espèce d'idiot ! Vois comme même la mort n'a aucune signification pour moi ; car je suis le Maître et tu es mon jouet, maintenant et pour toujours.]], "_t")
 t("Never! Die!", "Jamais ! Meurt !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/trap-priming.lua"
 
 t("[Cancel]", "[Annuler]", "_t")
-t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#Vous ne pouvez pas préparer ce piège: %s.", "logPlayer")
+t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#Vous ne pouvez pas préparer ce piège : %s.", "logPlayer")
 t("Not Prepared", "Non préparé", "_t")
 t("Primed Trigger", "Déclenchement amorcé", "_t")
 t("Not Usable", "Non utilisable", "_t")
@@ -4047,11 +4047,11 @@ t([[#GOLD#%s#LAST#
 ------------------------------------------------
 section "mod-tome/data/chats/tutorial-start.lua"
 
-t("Hello there. What subject interests you?", "Bonjour à tous. Quel sont les sujets qui vous intéressent?", "_t")
+t("Hello there. What subject interests you?", "Bonjour à tous. Quel sont les sujets qui vous intéressent ?", "_t")
 t("Basic gameplay", "Bases du jeu", "_t")
 t("Combat stat mechanics", "Combat et mécanique de jeu", "_t")
 t("Never mind.", "Aucune importance.", "_t")
-t("Is there nothing more for me to learn here?", "N'y a-t-il rien de plus à apprendre ici?", "_t")
+t("Is there nothing more for me to learn here?", "N'y a-t-il rien de plus à apprendre ici ?", "_t")
 t("\
 You have completed all the tutorials, and should now know the basics of ToME4. You are ready to step forward into the world to find glory, treasures and be mercilessly slaughtered by hordes of creatures you thought you could handle!\
 \
@@ -4071,7 +4071,7 @@ Si vous avez besoin de vous rappeler quelle touche fait quoi, vous pouvez accéd
 \
 Si c'est la première fois que vous utilisez le jeu, vous trouverez la sélection des races et des classes limitée. Ne vous inquiétez pas, beaucoup, beaucoup d'autres seront disponibles au fur et à mesure que vous les débloquerez au cours de vos aventures.\
 \
-Maintenant, allez-y courageusement et souvenez-vous: #GOLD#Amusez vous !#WHITE#\
+Maintenant, allez-y courageusement et souvenez-vous : #GOLD#Amusez vous !#WHITE#\
 Appuyez sur #GOLD#Escape#WHITE#, puis sélectionnez #GOLD#Save et Exit#WHITE#, et créez un nouveau personnage !", "_t")
 t("Thank you.", "Merci.", "_t")
 
@@ -4080,7 +4080,7 @@ section "mod-tome/data/chats/ukllmswwik.lua"
 
 t([[#LIGHT_GREEN#*@npcname@'s deep voice booms through the caverns.*#WHITE#
 This is my domain, and I do not take kindly to intruders. What is your purpose here?]], [[#LIGHT_GREEN#*La voix profonde de @npcname@ s'élève à travers les cavernes.*#WHITE#
-Ceci est mon domaine, et je n'aime pas les intrus. Quel sont vos intentions?]], "_t")
+Ceci est mon domaine, et je n'aime pas les intrus. Quel sont vos intentions ?]], "_t")
 t("I am here to kill you and take your treasures! Die, damned fish!", "Je suis ici pour vous tuer et prendre vos trésors ! Mourrez, satanés poissons !", "_t")
 t("DIE!", "MEURT !", "_t")
 t("I did not mean to intrude. I shall leave now.", "Je ne voulais pas vous déranger. Je vais partir immédiatement.", "_t")
@@ -4094,15 +4094,15 @@ But he has become mad and now looks upon all other intelligent water life as a t
 I cannot leave this sanctuary, but perhaps you could help me?
 After all, it would be an act of mercy to end his madness.]], [[Attendez ! Vous semblez en être digne, alors laissez-moi vous raconter une histoire.
 Pendant l'ère du bûcher, le monde a été brisé par les ultimes effets de la Brûlure magique. Une partie du plateau continental de Maj'Eyal a été déchirée et jetée à la mer.
-Les Elfes de Nalore ont péri... du moins c'est ce que le monde pense. Certains d'entre eux ont survécu; grâce à l'ancienne magie des Sher'Tul qu'ils avaient gardée pour eux, ils se sont transformés pour vivre sous l'eau.
+Les Elfes de Nalore ont péri... du moins c'est ce que le monde pense. Certains d'entre eux ont survécu ; grâce à l'ancienne magie des Sher'Tul qu'ils avaient gardée pour eux, ils se sont transformés pour vivre sous l'eau.
 On les appelle désormais les nagas. Ils vivent dans les profondeurs de l'océan entre Maj'Eyal et l'Extrême-Orient.
 L'un d'eux, Slasul, s'est rebellé contre son ordre et a décidé qu'il voulait le monde pour lui, sous l'eau et au-dessus. Il a trouvé un ancien temple, probablement un vestige des Sher'Tul, appelé le Temple de la Création.
 Il croit pouvoir l'utiliser pour #{italic}#améliorer#{normal}# les nagas.
 Mais il a sombré dans la folie et considère désormais toutes les autres formes de vie aquatique intelligente comme une menace, moi y compris.
-Je ne peux pas quitter ce sanctuaire, mais peut-être pourriez-vous m'aider?
+Je ne peux pas quitter ce sanctuaire, mais peut-être pourriez-vous m'aider ?
 Après tout, mettre fin à sa folie serait un acte de miséricorde.]], "_t")
 t("I would still rather kill you and take your treasure!", "Je préfère encore vous tuer et prendre votre trésor !", "_t")
-t("I shall do as you say, but how do I find him?", "Je ferai comme vous le dites, mais comment le trouver?", "_t")
+t("I shall do as you say, but how do I find him?", "Je ferai comme vous le dites, mais comment le trouver ?", "_t")
 t("That seems... unwise. My apologies, but I must refuse.", "Cela semble... peu raisonnable. Mes excuses, mais je dois refuser.", "_t")
 t("I can open a portal to his lair, far away in the western sea, but be warned: this is one-way only. I cannot bring you back. You will have to find your own way.", "Je peux ouvrir un portail vers sa tanière, loin dans la mer occidentale, mais attention : c'est à sens unique. Je ne peux pas vous ramener. Vous devrez trouver votre propre chemin.", "_t")
 t("I will.", "J'accepte.", "_t")
@@ -4111,7 +4111,7 @@ t("Yes?", "Oui ?", "_t")
 t("[attack]", "[attaquer]", "_t")
 t("TREACHERY!", "TRAHISON !", "_t")
 t("I want your treasures, water beast!", "Je veux tes trésors, monstre aquatique !", "_t")
-t("Oh, is that so? Well, COME GET THEM!", "Oh, vraiment? Eh bien, VIENS LES CHERCHER !", "_t")
+t("Oh, is that so? Well, COME GET THEM!", "Oh, vraiment ? Eh bien, VIENS LES CHERCHER !", "_t")
 t("I spoke with Slasul, and he did not seem hostile, or mad.", "J'ai parlé avec Slasul, et il ne semblait ni hostile, ni fou.", "_t")
 t("Farewell, dragon.", "Adieu, dragon.", "_t")
 t([[#LIGHT_GREEN#*@npcname@ roars!*#WHITE# You listen to the lies of this mad naga!
@@ -4154,7 +4154,7 @@ t("No!", "Non !", "_t")
 t([[But, but, you were my... you...
 You need me! What do you think you will do on the surface? Everything you will meet will try to destroy you.
 You are strong but you cannot resist them all!]], [[Mais, mais, tu étais mon... tu...
-Tu as besoin de moi ! Que penses-tu faire à la surface? Tout ce que tu rencontreras tentera de te détruire.
+Tu as besoin de moi ! Que penses-tu faire à la surface ? Tout ce que tu rencontreras tentera de te détruire.
 Tu es fort mais tu ne pourras pas leur résister à tous !]], "_t")
 t("So what do you propose?", "Alors, que proposes-tu ?", "_t")
 t("[kill him]", "[le tuer]", "_t")
@@ -4175,30 +4175,30 @@ Krogar: "Ha! It's only been one hour and you already look tired, my 'lady'."
 #LIGHT_GREEN#*As you enter the room they notice you.*#WHITE#
 Fillarel: "You! @playerdescriptor.race@! Help me defeat this monster or begone!"
 Krogar: "Ah, looking for help? Bah. @playerdescriptor.race@, kill this wench for me and I shall reward you!"]], [[#LIGHT_GREEN#*Une belle femme elfe en robe dorée se tient devant vous, face à un orc en cotte de mailles.*#WHITE#
-Fillarel : "Abandonnez ce combat, orc ! Vous ne pouvez pas gagner: je porte en moi le pouvoir du Soleil et les ombres des Lunes."
+Fillarel : "Abandonnez ce combat, orc ! Vous ne pouvez pas gagner : je porte en moi le pouvoir du Soleil et les ombres des Lunes."
 Krogar : "Ha ! Ça ne fait qu'une heure et vous avez déjà l'air fatigué, ma 'dame'."
 #LIGHT_GREEN#*Lorsque vous entrez dans la salle, ils vous remarquent.*#WHITE#
 Fillarel : "Vous ! @playerdescriptor.race@ ! Aidez-moi à vaincre ce monstre ou disparais !"
-Krogar : "Ah, vous cherchez de l'aide? Bah. @playerdescriptor.race@, tue cette donzelle pour moi et je te récompenserai !"]], "_t")
+Krogar : "Ah, vous cherchez de l'aide ? Bah. @playerdescriptor.race@, tue cette donzelle pour moi et je te récompenserai !"]], "_t")
 t("[attack Krogar]", "[attaquer Krogar]", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/unremarkable-cave-fillarel.lua"
 
 t("Thank you, @playername@. I hate to admit it, but you saved my life.", "Merci, @playername@. Je dois avouer que vous m'avez sauvé la vie.", "_t")
-t("At your service. But may I ask what you were doing in this dark place?", "A votre service. Mais puis-je vous demander ce que vous faisiez dans ce lieu obscure?", "_t")
+t("At your service. But may I ask what you were doing in this dark place?", "A votre service. Mais puis-je vous demander ce que vous faisiez dans ce lieu obscure ?", "_t")
 t("At your service. I have been gone for months, but I can feel it, at last this is my homeland!", "A votre service. Cela fait des mois que je suis parti, mais je le sens, enfin je suis enfin sur mes terres !", "_t")
 t([[I am an Anorithil, a mage of the Sun and Moons; we fight all that is evil. I was with a group of Sun Paladins; we came from the Gates of Morning to the east.
-My companions were... were slaughtered by orcs, and I nearly died as well. Thank you again for your help.]], [[Je suis une Anorithil, une mage du Soleil et des Lunes; nous combattons tout ce qui est maléfique. J'étais avec un groupe de Paladins du Soleil; nous sommes venus des Portes du Matin à l'est.
+My companions were... were slaughtered by orcs, and I nearly died as well. Thank you again for your help.]], [[Je suis une Anorithil, une mage du Soleil et des Lunes ; nous combattons tout ce qui est maléfique. J'étais avec un groupe de Paladins du Soleil ; nous sommes venus des Portes du Matin à l'est.
 Mes compagnons ont été... massacrés par des orcs, et j'ai failli mourir également. Merci encore pour votre aide.]], "_t")
-t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "Tout le plaisir était pour moi. Mais puis-je demander un service en retour? Je ne suis pas de ces terres. J'ai utilisé un portail lointain gardé par des orcs au plus profond du trône de fer qui m'a amené ici.", "_t")
+t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "Tout le plaisir était pour moi. Mais puis-je demander un service en retour ? Je ne suis pas de ces terres. J'ai utilisé un portail lointain gardé par des orcs au plus profond du trône de fer qui m'a amené ici.", "_t")
 t([[Yes, I noticed you were not from here. Your only hope is the Gates of Morning, the last bastion of freedom in this orc territory. When you leave the caves, head southeast; you cannot miss it.
-Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.]], [[Oui, j'ai remarqué que vous n'étiez pas d'ici. Votre seul espoir réside aux portes du matin, le dernier bastion de liberté dans ce territoire orc. Lorsque vous quitterez les cavernes, dirigez-vous vers le sud-est; vous ne pouvez pas les manquer.
+Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.]], [[Oui, j'ai remarqué que vous n'étiez pas d'ici. Votre seul espoir réside aux portes du matin, le dernier bastion de liberté dans ce territoire orc. Lorsque vous quitterez les cavernes, dirigez-vous vers le sud-est ; vous ne pouvez pas les manquer.
 Dites à la Haute Paladine Solaire Aeryn que vous m'avez rencontré. J'enverrai un mot pour vous laisser entrer.]], "_t")
 t("Thank you, I will talk with Aeryn.", "Merci, je parlerai à Aeryn.", "_t")
 t([[Gone? Wait, this face.. you are @playername@! We thought you died in the naga portal explosion!
 Thanks to your courage the Gates of Morning still stand.
-You should go there at once.]], [[Parti? Attendez, ce visage... vous êtes @playername@ ! On pensait que vous étiez mort dans l'explosion du portail naga !
+You should go there at once.]], [[Parti ? Attendez, ce visage... vous êtes @playername@ ! On pensait que vous étiez mort dans l'explosion du portail naga !
 Grâce à ton courage, les Portes du Matin sont toujours là.
 Vous devriez vous y rendre sur-le-champ.]], "_t")
 t("Sadly I am the bringer of bad news, the orcs are planning something. Good luck, my lady.", "Malheureusement, je suis porteur de mauvaises nouvelles, les orcs préparent quelque chose. Bonne chance, ma dame.", "_t")
@@ -4212,7 +4212,7 @@ t("I hate Elves anyway...", "De toute façon, je déteste les Elfes...", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/ward.lua"
 
-t("Call forth which ward?", "Appeler quel garde?", "_t")
+t("Call forth which ward?", "Appeler quel garde ?", "_t")
 t("Fire [%d]", "Feu [%d]", "tformat")
 t("Lightning [%d]", "Foudre [%d]", "tformat")
 t("Cold [%d]", "Froid [%d]", "tformat")
@@ -4235,7 +4235,7 @@ t("Nature [%d]", "Nature [%d]", "tformat")
 section "mod-tome/data/chats/worldly-knowledge.lua"
 
 t("[%s (at mastery %0.2f)]", "[%s (%0.2f en maîtrise)]", "tformat")
-t("Learn which category?", "Apprendre quelle catégorie?", "_t")
+t("Learn which category?", "Apprendre quelle catégorie ?", "_t")
 -- texte non traduit
 --[==[
 t([[#GOLD#%s / %s#LAST#
@@ -4251,15 +4251,15 @@ t([[#LIGHT_GREEN#*Before you stands a creature about as tall as a Halfling, cove
 You also notice he does not wield his greatsword. It seems to float in the air, bound to his will.*#WHITE#
 Why did you save me, stranger? You are not of the Way.]], [[#LIGHT_GREEN#*Devant vous se tient une créature à peu près aussi grande qu'un Halfelin, couverte d'une petite fourrure blanche et dotée d'une tête disproportionnée.
 Vous remarquez également qu'il ne manie pas sa grande épée. Elle semble flotter dans les airs, lié à sa volonté.*#WHITE#
-Pourquoi m'avez-vous sauvé, étranger? Vous n'êtes pas de la Voie.]], "_t")
+Pourquoi m'avez-vous sauvé, étranger ? Vous n'êtes pas de la Voie.]], "_t")
 t("Well, you seemed to need help.", "Eh bien, vous sembliez avoir besoin d'aide.", "_t")
 t("So I could rip your throat myself!", "Pour que je puisse te trancher la gorge moi-même !", "_t")
 t([[#LIGHT_GREEN#*The greatsword floats to a less aggressive stance. He seems surprised.*#WHITE#
 Then, on behalf of the Way, I thank you.]], [[#LIGHT_GREEN#*La grande épée flotte vers une position moins agressive. Il semble surpris.*#WHITE#
 Alors, au nom de la Voie, je vous remercie.]], "_t")
-t("What is the Way, and what are you?", "Qu'est-ce que la Voie, et qu'êtes-vous?", "_t")
+t("What is the Way, and what are you?", "Qu'est-ce que la Voie, et qu'êtes-vous ?", "_t")
 t("The Way is enlightenment, peace and protection. I am a Yeek. I came through this tunnel to explore this part of the world that was closed to us for centuries.", "La Voie est l'illumination, la paix et la protection. Je suis un Yeek. Je suis venu par ce tunnel pour explorer cette partie du monde qui nous a été fermée pendant des siècles.", "_t")
-t("Can you tell me more about the Way?", "Pouvez-vous m'en dire plus sur la Voie?", "_t")
+t("Can you tell me more about the Way?", "Pouvez-vous m'en dire plus sur la Voie ?", "_t")
 t("Select the party member to receive the mental shield:", "Sélectionnez le membre du groupe qui recevra le bouclier mental :", "_t")
 t("The contact with the Wayist mind has improved your mental shields. (+15 mental save, +10%% confusion resistance)", "Le contact avec l'esprit de la Voie a amélioré vos boucliers mentaux. (+15 boucliers mentaux, +10%% de résistance à la confusion)", "logPlayer")
 t("I am never alone. I have the Way.", "Je ne suis jamais seul. J'ai la Voie.", "_t")
@@ -4279,7 +4279,7 @@ t("Farewell. We are the Way, always.", "Adieu. Nous sommes la Voie, à jamais.",
 section "mod-tome/data/chats/zemekkys-done.lua"
 
 t([[What? Ah, it is you, @playername@.
-I take it you are satisfied with the portal.]], [[Quoi? Ah, c'est vous, @playername@.
+I take it you are satisfied with the portal.]], [[Quoi ? Ah, c'est vous, @playername@.
 Je suppose que vous êtes satisfait du portail.]], "_t")
 t("Yes, thank you.", "Oui, merci.", "_t")
 t("Whatever.", "Peu importe.", "chat_zemekkys-done")
@@ -4298,44 +4298,44 @@ section "mod-tome/data/chats/zemekkys.lua"
 
 t([[#LIGHT_GREEN#*A slot in the door opens and a pair of wild eyes peer out.*#WHITE#
 What do you want, @playerdescriptor.race@?]], [[#LIGHT_GREEN#*Une fente dans la porte s'ouvre et une paire d'yeux sauvages apparaissent.*#WHITE#
-Qu'est ce que vous voulez, @playerdescriptor.race@?]], "_t")
+Qu'est ce que vous voulez, @playerdescriptor.race@ ?]], "_t")
 t("Paladin Aeryn told me that you could help me. I need to get to Maj'Eyal.", "La paladine Aeryn m'a dit que vous pourriez m'aider. Je dois retourner en Maj'Eyal.", "_t")
 t("I found the Blood-Runed Athame, but there was no Resonating Diamond.", "J'ai trouvé l'Athamé rune de sang, mais il n'y avait pas de Diamant Résonnant.", "_t")
 t("I have a Resonating Diamond.", "J'ai le Diamant Résonnant.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_zemekkys")
 t([[Pfaugh! Her goal in life is to waste my time! Maj'Eyal? Why not Narnia or Chicago? Just as easy to send you someplace entirely fictional as Maj'Eyal. Go away.
-#LIGHT_GREEN#*Slot slams shut.*#WHITE#]], [[Pfeuht ! Son but dans la vie est de me faire perdre mon temps ! Maj'Eyal? Pourquoi pas Narnia ou Chicago? C'est aussi facile de t'envoyer dans un endroit complètement fictif qu'en Maj'Eyal. Va-t'en.
+#LIGHT_GREEN#*Slot slams shut.*#WHITE#]], [[Pfeuht ! Son but dans la vie est de me faire perdre mon temps ! Maj'Eyal ? Pourquoi pas Narnia ou Chicago ? C'est aussi facile de t'envoyer dans un endroit complètement fictif qu'en Maj'Eyal. Va-t'en.
 #LIGHT_GREEN#*La fente se referme brusquement.*#WHITE#]], "_t")
-t("I got here from Maj'Eyal, didn't I? I have this magic Orb I looted from a dead orc, see, and...", "Je suis venu de Maj'Eyal, n'est-ce pas? J'ai cette Orbe magique que j'ai volée à un orc mort, vous voyez, et...", "_t")
+t("I got here from Maj'Eyal, didn't I? I have this magic Orb I looted from a dead orc, see, and...", "Je suis venu de Maj'Eyal, n'est-ce pas ? J'ai cette Orbe magique que j'ai volée à un orc mort, vous voyez, et...", "_t")
 t([[#LIGHT_GREEN#*Slot opens.*#WHITE#
 Orb, you say? That you used to travel here from Maj'Eyal? Surely you don't possess the Orb of Many Ways! It's been lost for ages!]], [[#LIGHT_GREEN#*La fente s'ouvre.*#WHITE#
-Une orbe, vous dites? Que tu as utilisé pour voyager ici depuis Maj'Eyal? Vous ne possédez sûrement pas l'Orbe des Multiples Voies ! Elle est perdue depuis des lustres !]], "_t")
+Une orbe, vous dites ? Que tu as utilisé pour voyager ici depuis Maj'Eyal ? Vous ne possédez sûrement pas l'Orbe des Multiples Voies ! Elle est perdue depuis des lustres !]], "_t")
 t("[Hold up the orb]", "[Brandir l'orbe]", "_t")
 t([[#LIGHT_GREEN#*His eyes widen.*#WHITE#
 Great Socks of Aeryn! It IS the Orb! Maybe we can get you home after all. Or maybe we can get you embedded in magma a thousand leagues straight down.]], [[#LIGHT_GREEN#*Ses yeux s'écarquillent.*#WHITE#
 Par les grandes chaussettes d'Aeryn ! C'est bien l'Orbe ! Peut-être qu'on peut te ramener chez toi après tout. Ou peut-être qu'on peut te noyer dans le magma à des milliers de lieues d'ici.]], "_t")
-t("May I come in?", "Puis-je entrer?", "_t")
+t("May I come in?", "Puis-je entrer ?", "_t")
 t([[You think I'm letting some filthy @playerdescriptor.race@ in my house with the Orb of Many Ways?
 I blow myself up quite enough already without that thing in the house, thank you.
 Besides, I still can't help you unless you have a Blood-Runed Athame to etch a portal.
 Err, and that portal must be etched on a piece of prepared Resonating Marble.
 The Gates of the Morning has a slab of Marble that once could have served, but a number of, um, incidents have taken their toll.
-It'll require a Resonating Diamond to get it properly prepared. Oh, and I want 100 gold.]], [[Vous pensez que je vais laisser quelques sales @playerdescriptor.race@ entrer chez moi avec l'Orbe des Multiples Voies?
+It'll require a Resonating Diamond to get it properly prepared. Oh, and I want 100 gold.]], [[Vous pensez que je vais laisser quelques sales @playerdescriptor.race@ entrer chez moi avec l'Orbe des Multiples Voies ?
 Je me fais déjà assez exploser sans cette chose dans la maison, merci.
 De plus, je ne peux toujours pas t'aider à moins que tu n'aies une Athamé rune de sang pour graver un portail.
 Err, et ce portail doit être gravé sur un morceau de marbre résonnant préparé.
 Les Portes du Matin ont une dalle de marbre qui aurait pu servir autrefois, mais un certain nombre d'incidents a eu raison d'elle.
 Il faudra un Diamant Résonnant pour le préparer correctement. Oh, et je veux 100 pièces d'or.]], "_t")
-t("Where can I find all that?", "Où puis-je trouver tout cela?", "_t")
+t("Where can I find all that?", "Où puis-je trouver tout cela ?", "_t")
 t("Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I assume the orcs have some if they're cooking up portals to use that Orb on. Try the Vor Armory. It so happens that I know a back way in. Never mind why.", "Essayez votre porte-monnaie pour les 100 pièces d'or. Pour ce qui est de l'Athamé et du Diamant, je suppose que les orcs en ont s'ils préparent des portails pour utiliser l'Orbe. Essayez l'armurerie Vor. Il se trouve que je connais un moyen détourné d'y entrer. Peu importe pourquoi.", "_t")
 t("Thank you.", "Merci.", "_t")
-t("Of course there was no Resonating Diamond. What makes you think Briagh would let one loose for even a second?", "Bien sûr, il n'y avait pas de Diamant Résonnant. Qu'est-ce qui vous fait croire que Briagh en laisserait échapper un, même une seconde?", "_t")
+t("Of course there was no Resonating Diamond. What makes you think Briagh would let one loose for even a second?", "Bien sûr, il n'y avait pas de Diamant Résonnant. Qu'est-ce qui vous fait croire que Briagh en laisserait échapper un, même une seconde ?", "_t")
 t("Briagh?", "Briagh ?", "_t")
-t("Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "Briagh, le Grand Ver des sables. D'où pensez-vous que viennent les diamants résonnants? Ce sont des diamants ordinaires jusqu'à ce qu'ils restent coincés entre les écailles de Briagh pendant quelques siècles et s'imprègnent de son cycle de vie. Il dort sur un trésor de pierres et de métaux précieux, vous voyez.", "_t")
-t("Where might I find Briagh's lair??", "Où puis-je trouver le repaire de Briagh??", "_t")
+t("Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "Briagh, le Grand Ver des sables. D'où pensez-vous que viennent les diamants résonnants ? Ce sont des diamants ordinaires jusqu'à ce qu'ils restent coincés entre les écailles de Briagh pendant quelques siècles et s'imprègnent de son cycle de vie. Il dort sur un trésor de pierres et de métaux précieux, vous voyez.", "_t")
+t("Where might I find Briagh's lair??", "Où puis-je trouver le repaire de Briagh ??", "_t")
 t("Well south of the Sunwall. I'll mark it for you on your map.", "Bien au sud du Mur Solaire. Je vais le marquer sur votre carte.", "_t")
 t("I'll be back with a Resonating Diamond.", "Je reviendrai avec un Diamant Résonnant.", "_t")
-t("Yes? You got the Athame, the gem and 100 gold?", "Oui? Vous avez l'Athamé, la gemme et les 200 pièces d'or?", "_t")
+t("Yes? You got the Athame, the gem and 100 gold?", "Oui ? Vous avez l'Athamé, la gemme et les 200 pièces d'or ?", "_t")
 t("[Give him the gem, the athame and 100 gold]", "[Lui donner la gemme, l'athamé et 100 pièces d'or.]", "_t")
 t("Sorry, it seems I lack some stuff. I will be back.", "Désolé, il semble qu'il me manque des choses. Je reviendrai.", "_t")
 t([[#LIGHT_GREEN#*The door opens and a shabby Elf emerges.*#WHITE#
@@ -4404,11 +4404,11 @@ t([[Very well. Before you start, we will make sure no magic can help you:
 - You will not be able to use any spells or magical devices
 - Any worn objects that are powered by the arcane will be unequipped
 %s
-Are you ready, or do you wish to prepare first?]], [[Très bien. Avant de commencer, nous allons nous assurer qu'aucune magie ne peut vous aider:
+Are you ready, or do you wish to prepare first?]], [[Très bien. Avant de commencer, nous allons nous assurer qu'aucune magie ne peut vous aider :
 - Vous ne pourrez pas utiliser de sorts ou d'appareils magiques.
 - Tous les objets portés qui sont alimentés par l'arcane seront déséquipés.
 %s
-Êtes-vous prêt, ou souhaitez-vous vous préparer d'abord?]], "tformat")
+Êtes-vous prêt, ou souhaitez-vous vous préparer d'abord ?]], "tformat")
 t("I am ready", "Je suis prêt", "_t")
 t("I need to prepare.", "J'ai besoin de me préparer.", "_t")
 t([[#VIOLET#*You are grabbed by two olive-clad warriors and thrown into a crude arena!*
@@ -4425,7 +4425,7 @@ t([[#LIGHT_GREEN#*A naga steps through the portal, she seems to be a high ranked
 NO! You fool, the portal is breaking down!]], [[#LIGHT_GREEN#*Une naga traverse le portail, elle semble être de haut rang.*#WHITE#
 NON ! Espèce d'idiot, le portail est en train de s'effondrer !]], "_t")
 t("And thus my task is done, serpent!", "Et ainsi ma tâche est accomplie, serpent !", "_t")
-t("You do not understand: it will explode!", "Vous ne comprenez pas: ça va exploser !", "_t")
+t("You do not understand: it will explode!", "Vous ne comprenez pas : ça va exploser !", "_t")
 t([[The portal randomly teleported us before exploding.
 You fool! You have doomed us, we could be #{bold}#anywhere!#{normal}#
 DIE !]], [[Le portail nous a téléportés au hasard avant d'exploser.
@@ -4829,7 +4829,7 @@ t("adventurers party", "groupe d'aventuriers", "entity name")
 t("hostile", "hostil", "entity type")
 t("humanoid", "humanoïde", "entity subtype")
 t("ziguranth patrol", "patrouille du ziguranth", "entity name")
-t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "Vous n'avez rien à craindre si vous n'utilisez pas de la sale magie arcanique. Sinon: CRÈVE !", "_t")
+t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "Vous n'avez rien à craindre si vous n'utilisez pas de la sale magie arcanique. Sinon : CRÈVE !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/encounters/maj-eyal.lua"
@@ -4915,7 +4915,7 @@ t("Crown of Burning Pain", "Couronne de Douleur Ardente.", "_t")
 t("burning crown", "couronne ardente", "_t")
 t("This crown of pure flames possesses a myriad of small molten rocks floating wildly above it. Each can be removed to throw as a true meteor.", "Cette couronne de flammes pures possède une myriade de petits rochers en fusion flottant sauvagement au-dessus d'elle. chacun peut être retiré pour être lancé comme un véritable météore.", "_t")
 t([[A terrible shout thunders across the level: 'Come my darling, come, I will be ssssooo *nice* to you!'
-You should flee from this level!]], [[Un cri terrible retentit à travers tout le niveau: "Viens mon coeur, viens, je vais être tellement *gentille* avec toi !".
+You should flee from this level!]], [[Un cri terrible retentit à travers tout le niveau : "Viens mon coeur, viens, je vais être tellement *gentille* avec toi !".
 Vous devriez fuir ce niveau !]], "_t")
 t("%s pulls a dagger and opens his own chest, piercing his beating heart. The stone glows with malevolent colors.", "%s tire une dague et ouvre sa propre poitrine, perçant son coeur qui bat. La pierre brille de couleurs maléfiques.", "logSeen")
 
@@ -4944,7 +4944,7 @@ t("#VIOLET#The portal is broken!", "#VIOLET#Le portail est cassé !", "log")
 t("broken fearscape invasion portal", "portail cassé d'invasion du plan de la peur", "_t")
 t("#VIOLET#The portal is already broken!", "#VIOLET#Le portail est déjà cassé !", "log")
 t("Fearscape Portal", "Portail du Plan de la Peur", "_t")
-t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "Souhaitez-vous entrer dans le portail, le détruire, ou l'ignorer (appuyez sur Echap)?", "_t")
+t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "Souhaitez-vous entrer dans le portail, le détruire, ou l'ignorer (appuyez sur Echap) ?", "_t")
 t("Quit", "Quitter", "dialog_portal")
 t("#VIOLET#Ignoring the portal...", "#VIOLET#Ignorer le portail...", "log")
 t("Destroy", "Détruire", "_t")
@@ -4976,7 +4976,7 @@ section "mod-tome/data/general/events/glowing-chest.lua"
 
 t("glowing chest", "coffre rayonnant.", "_t")
 t("Glowing Chest", "Coffre Rayonnant", "_t")
-t("Open the chest?", "Ouvrir le coffre?", "_t")
+t("Open the chest?", "Ouvrir le coffre ?", "_t")
 t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet tombe du coffre !", "logSeen")
 t("#GOLD#But the chest was guarded!", "#GOLD#Mais le coffre était gardé !", "logSeen")
 t("glowing chest (opened)", "coffre rayonnant (ouvert)", "_t")
@@ -5001,7 +5001,7 @@ t("#VIOLET#The portal is broken!", "#VIOLET#Le portail est cassé !", "log")
 t("broken naga invasion coral portal", "portail d'invasion Naga cassé en corail", "_t")
 t("#VIOLET#The portal is already broken!", "#VIOLET#Le portail est déjà cassé !", "log")
 t("Coral Portal", "Portail en Corail", "_t")
-t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "Souhaitez-vous entrer dans le portail, le détruire, ou l'ignorer (appuyez sur Echap)?", "_t")
+t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "Souhaitez-vous entrer dans le portail, le détruire, ou l'ignorer (appuyez sur Echap) ?", "_t")
 t("Quit", "Quitter", "dialog_portal")
 t("#VIOLET#Ignoring the portal...", "#VIOLET#Ignorer le portail...", "log")
 t("Destroy", "Détruire", "_t")
@@ -5033,7 +5033,7 @@ t("Onslaught", "Assaut", "_t")
 t("You have survived the onslaught of undead. You notice a way to climb up you had not seen before in a wall nearby.", "Vous avez survécu à l'assaut des morts-vivants.  Dans un mur proche vous remarquez un moyen d'escalade que vous n'aviez pas vu auparavant.", "_t")
 t("grave", "tombe", "_t")
 t("Grave", "Tombe", "_t")
-t("Do you wish to disturb the grave?", "Voulez-vous déranger la tombe?", "_t")
+t("Do you wish to disturb the grave?", "Voulez-vous déranger la tombe ?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("opened grave", "tombe ouverte", "_t")
 t("Fall...", "La chute...", "_t")
@@ -5115,11 +5115,11 @@ section "mod-tome/data/general/events/tombstones.lua"
 
 t("grave", "tombe", "_t")
 t("Grave", "Tombe", "_t")
-t("Do you wish to disturb the grave?", "Voulez-vous déranger la tombe?", "_t")
+t("Do you wish to disturb the grave?", "Voulez-vous déranger la tombe ?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("grave (opened)", "tombe (ouverte)", "_t")
 t("There is nothing there.", "Il n'y a rien ici.", "log")
-t("You were not the first here: the corpse was turned into an undead.", "Vous n'étiez pas le premier à venir ici: le cadavre a été transformé en mort-vivant.", "log")
+t("You were not the first here: the corpse was turned into an undead.", "Vous n'étiez pas le premier à venir ici : le cadavre a été transformé en mort-vivant.", "log")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/weird-pedestals.lua"
@@ -5139,7 +5139,7 @@ t("Die intruder!", "Crève l'intrus !", "_t")
 t("weird pedestal (glowing)", "piédestal étrange (brillant)", "_t")
 t("%s's soul is absorbed by the pedestal. A glowing orb appears.", "L'âme de %s est absorbée par le piédestal. Un orbe phosphorescent apparaît.", "logSeen")
 t("#rng# the Bringer of Doom", "#rng# le Messager du Désastre.", "_t")
-t("You hear a terrible voice saying 'Their lives are mine! I am coming!'", "Vous entendez une voix terrible disant: \"Leurs vies sont miennes ! Me voilà !\"", "_t")
+t("You hear a terrible voice saying 'Their lives are mine! I am coming!'", "Vous entendez une voix terrible disant : \"Leurs vies sont miennes ! Me voilà !\"", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/whistling-vortex.lua"
@@ -6034,7 +6034,7 @@ t("parasitic horror", "horreur parasitaire", "entity name")
 t("You don't want to think about what sort of creature this lamprey-like horror was feeding on to grow so large.  Its skin pulsates and writhes, like things are moving underneath...", "Vous ne voulez pas penser à la sorte de créature dont cette horreur ressemblant à une lamproie s'est nourrie pour devenir si grande.  Sa peau palpite et se tortille, comme si des choses bougeaient en dessous...", "_t")
 t("%s's severed flesh starts crawling!", "La chair coupée de %s commence à ramper !", "logSeen")
 t("mass of parasitic leeches", "masse de sangsues parasites", "entity name")
-t("Dozens - hundreds maybe? - of blood-gorged worms, of varying shapes and sizes, making a writhing, ichor-soaked sea of tooth-lined maws and sickly green skin, ready to latch onto you and drink until they burst or your veins run dry.", "Des dizaines - des centaines peut-être? - de vers gorgés de sang, de formes et de tailles différentes, formant une mer de dents et de peau verte maladive, prête à s'accrocher à vous et à boire jusqu'à ce qu'ils éclatent ou que vos veines se tarissent.", "_t")
+t("Dozens - hundreds maybe? - of blood-gorged worms, of varying shapes and sizes, making a writhing, ichor-soaked sea of tooth-lined maws and sickly green skin, ready to latch onto you and drink until they burst or your veins run dry.", "Des dizaines - des centaines peut-être ? - de vers gorgés de sang, de formes et de tailles différentes, formant une mer de dents et de peau verte maladive, prête à s'accrocher à vous et à boire jusqu'à ce qu'ils éclatent ou que vos veines se tarissent.", "_t")
 t("Grgglck the Devouring Darkness", "Grgglck les Ténèbres Dévorantes", "entity name")
 t([[A horror from the deepest pits of the earth. It looks like a huge pile of tentacles all trying to reach for you.
 You can discern a huge round mouth covered in razor-sharp teeth.]], [[Une horreur venue du plus profond des puits de la terre. On dirait un énorme tas de tentacules qui essaient de vous atteindre.
@@ -6242,7 +6242,7 @@ t("green mold", "moisissure verte", "entity name")
 t("A strange sickly green growth on the dungeon floor.", "Une étrange excroissance verte et maladive sur le sol du donjon.", "_t")
 t("undead", "mort-vivant", "entity type")
 t("Z'quikzshl the skeletal mold", "Z'quikzshl la moisissure squelettique", "entity name")
-t("Steeped in fungal malevolence, this mold refused to die.  How a mold becomes a skeleton, though, is beyond you.  Are those its own bones, or the bones of hapless adventurers?", "Imprégnée de malveillance fongique, cette moisissure a refusé de mourir. Comment une moisissure peut-elle devenir un squelette, voilà qui vous échappe. Sont-ce ses propres os, ou ceux de malheureux aventuriers?", "_t")
+t("Steeped in fungal malevolence, this mold refused to die.  How a mold becomes a skeleton, though, is beyond you.  Are those its own bones, or the bones of hapless adventurers?", "Imprégnée de malveillance fongique, cette moisissure a refusé de mourir. Comment une moisissure peut-elle devenir un squelette, voilà qui vous échappe. Sont-ce ses propres os, ou ceux de malheureux aventuriers ?", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/multihued-drake.lua"
@@ -6276,7 +6276,7 @@ t("humanoid", "humanoïde", "entity type")
 t("naga myrmidon", "myrmidon naga", "entity name")
 t("Before you stands a tall figure -- a very tall figure, propped high by a thick serpent's tail in place of where his legs should rightly be. His torso is human-like, with bulging muscles beneath fitted armour, and large hands gripping a fiercely sharp trident. He glares at you with dark intensity, like a wolf about to pounce on unsuspecting prey.", "Devant vous se tient un grand personnage, un très grand personnage, soutenu en hauteur par une épaisse queue de serpent à la place de ses jambes. Son torse est semblable à celui d'un humain, avec des muscles saillants sous une armure ajustée, et de grandes mains qui tiennent un trident férocement aiguisé. Il vous regarde avec une intensité sombre, comme un loup prêt à bondir sur une proie sans méfiance.", "_t")
 t("naga tide huntress", "chasseur de marée naga", "entity name")
-t("Though the sharp point of an arrow pointed steadily at your head is of concern, more unnerving is the creature that wields it: a slim and lithe woman from the waist up, but a terrifying giant serpent beneath, her tail stretching for several feet behind her. Her eyes turn cold and ice seems to magically condense on the tip of her barbed arrow. Suddenly it is of concern again.", "Bien que la pointe acérée d'une flèche dirigée vers votre tête soit inquiétante, la créature qui la manie est encore plus troublante: une femme mince et légère à partir de la taille, mais un serpent géant terrifiant en dessous, sa queue s'étendant sur plusieurs pieds derrière elle. Ses yeux deviennent froids et de la glace semble se condenser comme par magie sur la pointe de sa flèche barbelée. Soudain, la situation redevient préoccupante.", "_t")
+t("Though the sharp point of an arrow pointed steadily at your head is of concern, more unnerving is the creature that wields it: a slim and lithe woman from the waist up, but a terrifying giant serpent beneath, her tail stretching for several feet behind her. Her eyes turn cold and ice seems to magically condense on the tip of her barbed arrow. Suddenly it is of concern again.", "Bien que la pointe acérée d'une flèche dirigée vers votre tête soit inquiétante, la créature qui la manie est encore plus troublante : une femme mince et légère à partir de la taille, mais un serpent géant terrifiant en dessous, sa queue s'étendant sur plusieurs pieds derrière elle. Ses yeux deviennent froids et de la glace semble se condenser comme par magie sur la pointe de sa flèche barbelée. Soudain, la situation redevient préoccupante.", "_t")
 t("naga psyren", "psyren naga", "entity name")
 t("Such a mix of enchanting beauty and revolting horror you have never before seen combined. Above, a beautiful, ethereal woman, of scant form and entrancing grace. Below, the thick, smooth scales of a snake, its stretched tail gently waving back and forth in the air behind her. The movement is eye-catching and hypnotic, and whilst you watch a mysterious smile plays across her seductive lips.", "Un mélange de beauté enchanteresse et d'horreur révoltante jamais vu auparavant. Au-dessus, une femme belle et éthérée, aux formes fluides et à la grâce envoûtante. En dessous, les écailles épaisses et lisses d'un serpent, dont la queue étirée ondule doucement dans l'air derrière elle. Le mouvement est saisissant et hypnotique, et tandis que vous regardez, un sourire mystérieux se dessine sur ses lèvres séduisantes.", "_t")
 -- texte non traduit
@@ -6479,7 +6479,7 @@ t("sandworm", "ver des sables", "entity subtype")
 t("sandworm", "ver des sables", "entity name")
 t("A huge worm coloured as the sand it inhabits. It seems quite unhappy about you being in its lair.", "Un énorme ver coloré comme le sable qu'il habite. Il semble mécontent que vous soyez dans son repaire.", "_t")
 t("sandworm destroyer", "ver des sables destructeur", "entity name")
-t("A huge worm coloured as the sand it inhabits. This particular sandworm seems to have been bred for one purpose only: the eradication of everything that is non-sandworm, such as... you.", "Un énorme ver aussi coloré que le sable dans lequel il vit. Ce ver de sable particulier semble avoir été élevé dans un seul but: l'éradication de tout ce qui n'est pas ver des sables, comme... vous.", "_t")
+t("A huge worm coloured as the sand it inhabits. This particular sandworm seems to have been bred for one purpose only: the eradication of everything that is non-sandworm, such as... you.", "Un énorme ver aussi coloré que le sable dans lequel il vit. Ce ver de sable particulier semble avoir été élevé dans un seul but : l'éradication de tout ce qui n'est pas ver des sables, comme... vous.", "_t")
 t("sand-drake", "dragonnet des sables", "entity name")
 t("sand", "sable", "entity subtype")
 t("This unholy creature looks like a wingless dragon in shape, but it is sand-colored, making it all the more dangerous for its prey.", "Cette créature impie a la forme d'un dragon sans ailes, mais elle est de couleur sable, ce qui la rend d'autant plus dangereuse pour ses proies.", "_t")
@@ -6549,7 +6549,7 @@ t("It feels no pain.  It moves with fluidity and strength that would tear natura
 t("skeleton master archer", "maître archer squelette", "entity name")
 t("This skeleton can fire arrows and nock new ones with blinding speed.  Arcane forces pull its bones with unnatural precision - its arms will never tremble or get tired.", "Ce squelette peut tirer des flèches et en encocher de nouvelles à une vitesse aveuglante.  Les forces arcaniques tiennent ses os avec une précision surnaturelle, ses bras ne trembleront jamais et ne se fatigueront pas.", "_t")
 t("skeleton assassin", "assassin squelette", "entity name")
-t("Most skeletons announce their presence with a chorus of rattling bones; this one's been charred black and has enough cartilage between its joints to muffle its approach.  The first you'll see of it will be the flash of its blade.", "La plupart des squelettes annoncent leur présence par un choeur de cliquetis d'os; celui-ci a été carbonisé en noir et a suffisamment de cartilage entre ses articulations pour assourdir son approche.  La première chose que vous verrez de lui sera l'éclair de sa lame.", "_t")
+t("Most skeletons announce their presence with a chorus of rattling bones; this one's been charred black and has enough cartilage between its joints to muffle its approach.  The first you'll see of it will be the flash of its blade.", "La plupart des squelettes annoncent leur présence par un choeur de cliquetis d'os ; celui-ci a été carbonisé en noir et a suffisamment de cartilage entre ses articulations pour assourdir son approche.  La première chose que vous verrez de lui sera l'éclair de sa lame.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/snake.lua"
@@ -6700,7 +6700,7 @@ t("The lowest of the thieves, this cutpurse is just learning the tricks of the t
 t("rogue", "voyou", "entity name")
 t("Stronger than a cutpurse, this thief has been promoted.", "Plus fort qu'une fripouille, ce voleur a été promu.", "_t")
 t("thief", "voleur", "entity name")
-t("He eyes you and your belongings, then suddenly vanishes... strange, why is your pack lighter?", "Il vous regarde, vous et vos affaires, puis disparaît soudainement... étrange, pourquoi votre sac est-il plus lége?", "_t")
+t("He eyes you and your belongings, then suddenly vanishes... strange, why is your pack lighter?", "Il vous regarde, vous et vos affaires, puis disparaît soudainement... étrange, pourquoi votre sac est-il plus lége ?", "_t")
 t("These ruffians often employ brute force over thievery, but they are capable of stealing as well.", "Ces ruffians privilégient souvent la force brute au larcin, mais ils savent aussi voler à l'occasion.", "_t")
 t("bandit lord", "seigneur bandit", "entity name")
 t("He is the leader of a gang of bandits. Watch out for his underlings.", "Il dirige une bande de bandits. Méfiez-vous de ses sous-fifres.", "_t")
@@ -6756,7 +6756,7 @@ t("Squeakkkkkkk??", "Squeakkkkkkk ??", "_t")
 t("spectral rat", "rat spectral", "entity name")
 t("An eerie haze surrounds this translucent rat.", "Une brume sinistre enveloppe ce rat translucide.", "_t")
 t("Eerie Squeak!", "Squeak Etrange !", "_t")
-t("Frightening Squeak??", "Squeak effrayant??", "_t")
+t("Frightening Squeak??", "Squeak effrayant ??", "_t")
 t("vampire rat", "rat vampire", "entity name")
 t("Looks much like a normal rat. That is, other than the very large fangs.", "Il ressemble fort à un rat ordinaire. Hormis ses très grands crocs.", "_t")
 t("Squeak! Blood!", "Squeak ! Sang !", "_t")
@@ -6773,7 +6773,7 @@ t("*s.q.u.e.a.k*", "*s.q.u.e.a.k*", "_t")
 t("*SQUEAK*", "*SQUEAK*", "_t")
 t("\
 The Rat Lich's true power has been unveiled! Swirling with arcane energy, it stalks towards you uttering warsqueaks at its minions!", "\
-La véritable puissance du Rat Liche a été dévoilée ! Tourbillonnant d'énergie arcanique, elle se dirige vers vous en lançant des cris de guerre à ses serviteurs!", "_t")
+The Rat Lich's true power has been unveiled! Swirling with arcane energy, it stalks towards you uttering warsqueaks at its minions!", "_t")
 --]==]
 
 -- ancien texte traduit
@@ -7095,7 +7095,7 @@ t([[The air seems to freeze around the blade of this sword, draining all heat fr
 It is said the Conclave created this weapon for their warmaster during the dark times of the first allure war.]], [[L'air semble givrer autour de la lame de cette épée, drainant toute la chaleur de la zone.
 On dit que le Conclave a créé cette arme pour son maître de guerre pendant les temps sombres de la première guerre de la Séduction.]], "_t")
 t("No Winter Storm Active", "Pas de tempête hivernale active", "_t")
-t("Winter Storm: ", "Tempête Hivernale: ", "_t")
+t("Winter Storm: ", "Tempête Hivernale : ", "_t")
 t("radius %d (%d turns remaining)", "rayon %d (%d tours restants)", "tformat")
 t("None", "Aucune", "_t")
 t("Create a Winter Storm that gradually expands (from radius %d to radius %d), dealing %0.2f cold damage (based on Strength) to your enemies each turn and slowing their ability to act by 20%%.  Subsequent melee strikes will relocate the storm on top of your target and increase its duration.", "Crée une Tempête Hivernale qui s'étend progressivement ( de rayon %d à rayon %d), infligeant %0.2f dégâts de froid (basés sur la Force) à vos ennemis par tour et ralentissant leur capacité d'action de 20%%.  Les frappes de mêlée suivantes déplacent la tempête sur votre cible et augmentent sa durée.", "tformat")
@@ -7182,21 +7182,21 @@ t("scintillating crystal", "cristal scintillant", "_t")
 t("This crystal radiates the power of the Spellblaze itself.", "Ce cristal irradie du pouvoir de la Brûlure Magique elle-même.", "_t")
 t("(The created item can be activated to recover the Focus.)", "(L'élément créé peut être activé pour rétablir le Focus.)", "_t")
 t("combine with a weapon (makes a non enchanted weapon into an artifact)", "le combiner avec une arme (transforme une arme non enchantée en un artefact)", "_t")
-t("Fuse with which weapon?", "Fusionner avec quelle arme?", "_t")
+t("Fuse with which weapon?", "Fusionner avec quelle arme ?", "_t")
 t("crystalline weapon", "arme cristalline", "_t")
 t("#GOLD#As the crystalline weapon and armour are brought together, they begin to emit a constant humming.", "#GOLD#Lorsque l'arme et l'armure cristallines sont réunies, elles commencent à émettre un bourdonnement constant.", "logPlayer")
 t("#GOLD#The humming from the crystalline artifacts fades as they are separated.", "#GOLD#Le bourdonnement des artefacts cristallins s'estompe lorsqu'ils sont séparés.", "logPlayer")
 t("Crystalline %s", "Cristallin %s", "tformat")
 t(" Transformed with the power of the Spellblaze.", " Transformé par le pouvoir de la Brûlure Magique.", "_t")
 t("recover the Crystal Focus (destroys this weapon)", "récupérer le Cristal de Focalisation (détruit cette arme)", "_t")
-t("You created: %s", "Vous avez crée: %s", "logPlayer")
+t("You created: %s", "Vous avez crée : %s", "logPlayer")
 t("You fix the crystal on the %s and create the %s.", "Vous fixez le cristal sur %s et créez %s.", "logPlayer")
 t("Crystal Heart", "Coeur de Cristal", "entity name")
 t("coruscating crystal", "cristal coruscant", "_t")
 t("This crystal is huge, easily the size of your head. It sparkles brilliantly almost of its own accord.", "Ce cristal est énorme, facilement de la taille de votre tête. Il brille brillamment presque de lui-même.", "_t")
 t("(The created item can be activated to recover the Heart.)", "(L'objet créé peut être activé pour récupérer le coeur.)", "_t")
 t("combine with a suit of body armor (makes a non enchanted armour into an artifact)", "le combiner avec une armure (transforme une armure non enchantée en artefact)", "_t")
-t("Fuse with which armor?", "Fusionner avec quelle armure?", "_t")
+t("Fuse with which armor?", "Fusionner avec quelle armure ?", "_t")
 t("crystalline armour", "armure cristalline", "_t")
 t("recover the Crystal Heart (destroys this armour)", "récupérer le Coeur de Cristal (détruit cette armure)", "_t")
 t("Rod of Annulment", "Bâtonnet d'annulation", "entity name")
@@ -7228,7 +7228,7 @@ t("Aletta's Diadem", "Diadème d'Aletta", "entity name")
 t("jeweled diadem", "diadème orné de joyaux.", "_t")
 t([[A filigree of silver set with many small jewels, this diadem seems radiant - ethereal almost. But its touch seems to freeze your skin and brings wild thoughts to your mind. You want to drop it, throw it away, and yet you cannot resist thinking of what powers it might bring you.
 Is this temptation a weak will on your part, or some domination from the artifact itself...?]], [[Filigrane d'argent serti de nombreux petits bijoux, ce diadème semble rayonnant, presque éthéré. Mais son contact semble vous glacer la peau et fait naître en vous de folles pensées. Vous avez envie de le laisser tomber, de le jeter, et pourtant vous ne pouvez vous empêcher de penser aux pouvoirs qu'il pourrait vous apporter.
-Cette tentation est-elle une faiblesse de votre part, ou une domination de l'artefact lui-même...?]], "_t")
+Cette tentation est-elle une faiblesse de votre part, ou une domination de l'artefact lui-même... ?]], "_t")
 t("Hare-Skin Sling", "Fronde en Peau de Lièvre", "entity name")
 t("hare-skin sling", "fronde en peau de lièvre", "_t")
 t([[This well-tended sling is made from the leather and sinews of a large hare. It feels smooth to the touch, yet very durable. Some say that the skin of a hare brings luck and fortune.
@@ -7242,7 +7242,7 @@ Il a été conservé intact grâce à des couches de sel et d'argile, mais malgr
 t([[Detects traps.
 Removes (25%% chance) up to three stuns, pins, or dazes each turn%s]], [[Détecte les pièges.
 Supprime (25%% de chances) jusqu'à trois assomements, immobilisation, ou étourdissements par tour%s.]], "tformat")
-t(" (cooling down: %d turns)", " (rechargement: %d tours)", "tformat")
+t(" (cooling down: %d turns)", " (rechargement : %d tours)", "tformat")
 t("#CRIMSON#%s twitches, alerting %s that a hidden trap is nearby.", "#CRIMSON#%s s'agite, avertissant %s qu'un piège caché est à proximité.", "logSeen")
 t("%s shrugs off some effects!", "%s atténue certains effets !", "logSeen")
 t("#LIGHT_RED#You feel uneasy carrying %s.", "#LIGHT_RED#Vous ne vous sentez pas à l'aise en portant %s.", "logPlayer")
@@ -8752,10 +8752,10 @@ Life:  %d
 Base Damage:  %d
 Armor:  %d
 All Resist:  %d]], [[(Tentacle Stats)
-Vie:  %d
-Dégâts de Base:  %d
-Armure:  %d
-Toutes Rés.:  %d]], "tformat")
+Vie :  %d
+Dégâts de Base :  %d
+Armure :  %d
+Toutes Rés. :  %d]], "tformat")
 t([[summon a resilient tentacle up to %d spaces away for %d turns.  Each turn the tentacle will strike a random enemy in range 3 dealing physical damage and attempting to pin them.
 
 %s]], [[invoquer un tentacule résilient jusqu'à %d de distance pendant %d tours.  À chaque tour, le tentacule frappe un ennemi aléatoire à une portée de 3 en lui infligeant des dégâts physiques et en tentant de l'immobiliser.
@@ -9377,11 +9377,11 @@ t("Made by the Dwarves, this lantern provides light in the darkest recesses of t
 section "mod-tome/data/general/objects/lore/fun.lua"
 
 t("trollish poem", "poème troll", "entity name")
-t("A poem written by a... troll?", "Un poème écrit par un... troll?", "_t")
+t("A poem written by a... troll?", "Un poème écrit par un... troll ?", "_t")
 t("necromancer poem", "poème de nécromancien", "entity name")
-t("A poem written by a... Necromancer?", "Un poème écrit par un... Nécromancien?", "_t")
+t("A poem written by a... Necromancer?", "Un poème écrit par un... Nécromancien ?", "_t")
 t("rogues do it from behind", "les bandits le font par derrière", "entity name")
-t("A poem written for a rogue?", "Un poème écrit pour un bandit?", "_t")
+t("A poem written for a rogue?", "Un poème écrit pour un bandit ?", "_t")
 t("how to become a necromancer, part %d", "comment devenir un nécromancien, partie %d", "tformat")
 t("How to become a powerful Necromancer!", "Comment devenir un puissant Nécromancien !", "_t")
 t("\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "\"De la poussière à la poussière\", un guide du chasseur de morts-vivants, par Aslabor Borys", "entity name")
@@ -9389,7 +9389,7 @@ t("An undead hunter's guide, by Aslabor Borys.", "Un guide du chasseur de morts-
 t("letter to %s (%d)", "lettre pour %s (%d)", "tformat")
 t("A part of the correspondence between two adventurers.", "Une partie de la correspondance entre deux aventuriers.", "_t")
 t("of halfling feet", "des pieds d'halfelin", "entity name")
-t("Notes about... Halfling feet??", "Des notes sur... les pieds des Halfelins??", "_t")
+t("Notes about... Halfling feet??", "Des notes sur... les pieds des Halfelins ??", "_t")
 -- texte non traduit
 --[==[
 t("Rolf", "Rolf", "_t")
@@ -9423,10 +9423,10 @@ section "mod-tome/data/general/objects/lore/spellhunt.lua"
 
 t("memories of archmage Varil", "mémoires de l'archimage Varil", "entity name")
 t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "Une collection de pensées et de souvenirs de l'archimage Varil, pendant l'Ere du Crépuscule.", "_t")
-t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts?", "entity name")
+t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts ?", "entity name")
 t("The definitive guide to hunting magic users.", "Le guide définitif de la chasse aux utilisateurs de magie.", "_t")
-t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du Traque-sorts partie 2 : Comment combattre un utilisateur de magie?", "entity name")
-t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts partie 3 : Comment tuer un utilisateur de magie?", "entity name")
+t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du Traque-sorts partie 2 : Comment combattre un utilisateur de magie ?", "entity name")
+t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts partie 3 : Comment tuer un utilisateur de magie ?", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/sunwall.lua"
@@ -9509,7 +9509,7 @@ section "mod-tome/data/general/objects/money.lua"
 
 t("money", "monnaie", "entity type")
 t("money", "monnaie", "entity subtype")
-t("All that glitters is not gold; all that is gold does not glitter.", "Tout ce qui brille n'est pas or; tout ce qui est en or ne brille pas.", "_t")
+t("All that glitters is not gold; all that is gold does not glitter.", "Tout ce qui brille n'est pas or ; tout ce qui est en or ne brille pas.", "_t")
 t("You pickup %0.2f gold pieces.", "Vous ramassez %0.2f pièces d'or.", "logPlayer")
 t("gold pieces", "pièces d'or", "entity name")
 t("huge pile of gold pieces", "un gros tas de pièces d'or", "entity name")
@@ -9566,7 +9566,7 @@ t([[Carved with runes of power, this staff seems to have been made long ago, yet
 Light around it seems to dim and you can feel its tremendous power simply by touching it.]], [[Sculpté de runes de pouvoir, ce bâton semble avoir été fabriqué il y a longtemps, mais il ne porte aucun signe de ternissement.
 La lumière qui l'entoure semble s'atténuer et vous pouvez ressentir son immense pouvoir simplement en le touchant.]], "_t")
 t("absorb energies", "absorber les énergies", "_t")
-t("This power seems too much to wield; you fear it might absorb YOU.", "Ce pouvoir semble trop lourd à gérer; vous craignez qu'il ne VOUS absorbe.", "logPlayer")
+t("This power seems too much to wield; you fear it might absorb YOU.", "Ce pouvoir semble trop lourd à gérer ; vous craignez qu'il ne VOUS absorbe.", "logPlayer")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 t("orb", "orbe", "entity type")
 t("orb", "orbe", "entity subtype")
@@ -9624,8 +9624,8 @@ t("transmogrify all the items in your chest at once (also done automatically whe
 t("Transmogrification Chest", "Coffre de Transmogrification", "_t")
 t("Make the Transmogrification Chest the default item's destroyer?", "Faire du Coffre de Transmogrification le destructeur d'objets par défaut ?", "_t")
 t("You do not have any items to transmogrify in your chest or on the floor.", "Vous n'avez pas d'objets à transmogrifier dans votre coffre ou sur le sol.", "_t")
-t("Transmogrify all %s item(s) on the floor?", "Transmogrifier tous les %s objets au sol?", "tformat")
-t("Transmogrify all %s item(s) in your chest?", "Transmogrifier tous les %s objets de votre coffre?", "tformat")
+t("Transmogrify all %s item(s) on the floor?", "Transmogrifier tous les %s objets au sol ?", "tformat")
+t("Transmogrify all %s item(s) in your chest?", "Transmogrifier tous les %s objets de votre coffre ?", "tformat")
 t([[This chest is an extension of old Sher'Tul places of power. Any items dropped inside is transported to an other place, processed and destroyed to extract energy.
 The byproduct of this effect is the creation of gold, which is useless to process, so it is sent back to you.
 
@@ -10141,8 +10141,8 @@ section "mod-tome/data/general/objects/special-artifacts.lua"
 
 t("Telos Spire of Power", "Flèche de pouvoir de Telos", "entity name")
 t("pulsing staff", "bâton pulsant", "_t")
-t("Telos was an extremely powerful mage during the Age of Dusk, hated by his peers and feared by the common folk; he was hunted for a long while. He finally fell from his place of power, Telmur, but his spirit still lingers.", "Telos était un mage extrêmement puissant pendant l'Ere du Crépuscule, détesté par ses pairs et craint par les gens du peuple; il a été chassé pendant longtemps. Il est finalement tombé de son lieu de pouvoir, Telmur, mais son esprit persiste.", "_t")
-t("turn into a corrupted losgoroth (poison, disease, cut and confusion immune; converts half damage into life drain; does not require breath) for 10 turns", "se transformer en un losgoroth corrompu (immunisé contre le poison, les maladies, les coupures et la confusion; convertit la moitié des dégâts drain de vie; ne nécessite pas de respiration) pendant 10 tours", "_t")
+t("Telos was an extremely powerful mage during the Age of Dusk, hated by his peers and feared by the common folk; he was hunted for a long while. He finally fell from his place of power, Telmur, but his spirit still lingers.", "Telos était un mage extrêmement puissant pendant l'Ere du Crépuscule, détesté par ses pairs et craint par les gens du peuple ; il a été chassé pendant longtemps. Il est finalement tombé de son lieu de pouvoir, Telmur, mais son esprit persiste.", "_t")
+t("turn into a corrupted losgoroth (poison, disease, cut and confusion immune; converts half damage into life drain; does not require breath) for 10 turns", "se transformer en un losgoroth corrompu (immunisé contre le poison, les maladies, les coupures et la confusion ; convertit la moitié des dégâts drain de vie ; ne nécessite pas de respiration) pendant 10 tours", "_t")
 t("%s brandishes %s %s, turning into a corrupted losgoroth!", "%s brandit %s %s, se transformant en un losgoroth corrompu !", "logSeen")
 
 ------------------------------------------------
@@ -10374,7 +10374,7 @@ Il semble que quelqu'un de bien versé dans l'anti-magie pourrait l'utiliser à 
 t("#LIGHT_BLUE#You feel a great hero guiding you!", "#LIGHT_BLUE#Vous sentez qu'un grand héros vous guide !", "logPlayer")
 t("Eldoral Last Resort", "Dernier Recours d'Eldoral", "entity name")
 t("well-made sling", "fronde de bonne facture", "_t")
-t("A sling with an inscription on its handle: 'May the wielder be granted cunning in his fight against the darkness'.", "Une fronde avec une inscription sur sa poignée: \"Que celui qui la manie soit doté de ruse dans sa lutte contre les ténèbres\".", "_t")
+t("A sling with an inscription on its handle: 'May the wielder be granted cunning in his fight against the darkness'.", "Une fronde avec une inscription sur sa poignée : \"Que celui qui la manie soit doté de ruse dans sa lutte contre les ténèbres\".", "_t")
 t("When dropping below 30% max HP, you gain 20% attack speed, lose 100% fatigue, and your shots don't consume ammo for 5 turns. 30 turns cd.", "Lorsque vous tombez en dessous de 30% des PV max, vous gagnez 20% de vitesse d'attaque, perdez 100% de fatigue, et vos tirs ne consomment pas de munitions pendant 5 tours. 30 tours de rechargement.", "_t")
 t("Orc Feller", "Abbateuse d'Orc", "entity name")
 t("shining dagger", "poignard brillant", "_t")
@@ -10410,7 +10410,7 @@ t("multi-hued", "multi-teintes", "entity subtype")
 t("scintillating white crystal", "cristal blanc étincelant", "_t")
 t("A closer look at this pure white crystal reveals that it is really a plethora of colors swirling and scintillating.", "Un regard plus attentif à ce cristal blanc pur révèle qu'il s'agit en réalité d'une pléthore de couleurs tourbillonnant et scintillant.", "_t")
 t("combine with a staff", "se combiner à un bâton", "_t")
-t("Fuse with which staff?", "Fusionner avec quel bâton?", "_t")
+t("Fuse with which staff?", "Fusionner avec quel bâton ?", "_t")
 t("You fix the crystal on the %s and create the %s.", "Vous fixez le cristal sur %s et créez %s.", "logPlayer")
 t("The fusing fails!", "La fusion échoue !", "logPlayer")
 t("#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "#CRIMSON#La gemme de Telos semble s'enflammer et briller d'une couleur surnaturelle.", "logSeen")
@@ -10649,7 +10649,7 @@ t("Vestments of the Conclave", "Vêtements du Conclave", "entity name")
 t("tattered robe", "robe en lambeaux", "_t")
 t([[An ancient set of robes that has survived from the Age of Allure. Primal magic forces inhabit it.
 It was made by Humans for Humans; only they can harness the true power of the robes.]], [[Un ancien ensemble de robes qui a survécu à l'Ere de la Séduction. Des forces magiques primitives l'habitent.
-Il a été fabriqué par des Humains pour des Humains; eux seuls peuvent exploiter le véritable pouvoir de ces robes.]], "_t")
+Il a été fabriqué par des Humains pour des Humains ; eux seuls peuvent exploiter le véritable pouvoir de ces robes.]], "_t")
 t("#LIGHT_BLUE#You feel as surge of power as you wear the vestments of the old Human Conclave!", "#LIGHT_BLUE#Vous ressentez une poussée de puissance en portant les habits de l'ancien Conclave humain !", "logPlayer")
 t("Firewalker", "Marcheur de Feu", "entity name")
 t("blazing robe", "robe enflammée", "_t")
@@ -10666,7 +10666,7 @@ t("Oddly it never produces a hat.", "Curieusement, elle ne produit jamais de cha
 t("Un'fezan's Cap", "Bonnet d'Un'fezan", "entity name")
 t("red stylish hat", "bonnet rouge élégant", "_t")
 t([[This fez once belonged to a traveler; it always seems to be found lying around in odd locations.
-#{italic}#Fezzes are cool.#{normal}#]], [[Ce fez a appartenu à un voyageur; on semble toujours le trouver dans des endroits bizarres.
+#{italic}#Fezzes are cool.#{normal}#]], [[Ce fez a appartenu à un voyageur ; on semble toujours le trouver dans des endroits bizarres.
 #{italic}#Les fezzes sont cool.#{normal}#]], "_t")
 t("Needs something equally stylish and cool to go with it.", "Il faut quelque chose d'aussi élégant et cool pour aller avec.", "_t")
 t("#STEEL_BLUE#A time vortex briefly appears in front of you.", "#STEEL_BLUE#Un vortex temporel apparaît brièvement devant vous.", "logPlayer")
@@ -10734,14 +10734,14 @@ It is said the wielder will slowly grow mad. This, however, has never been prove
 On dit que celui qui la manie devient lentement fou. Cependant, cela n'a jamais été prouvé, aucun possesseur connu de cet objet n'a survécu pour le raconter.]], "_t")
 t("Sword of Potential Futures", "Épée des Futurs Potentiels", "entity name")
 t("under-wrought blade", "lame sous-exploitée", "_t")
-t("Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the untapped potential of time.", "La légende veut que cette lame fasse partie d'une paire: des lames jumelles forgées dans les premiers jours des Gardiens. Pour un utilisateur non entraîné, elle est loin d'être parfaite; pour un gardien, elle représente le potentiel inexploité du temps.", "_t")
+t("Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the untapped potential of time.", "La légende veut que cette lame fasse partie d'une paire : des lames jumelles forgées dans les premiers jours des Gardiens. Pour un utilisateur non entraîné, elle est loin d'être parfaite ; pour un gardien, elle représente le potentiel inexploité du temps.", "_t")
 t("In the past there was a dagger with it.", "Dans le passé, il y avait une dague avec.", "_t")
 t("10% chance to reduce the target's resistances to all damage", "10% de chances de réduire les résistances de la cible à tous les dégâts.", "_t")
 t("#CRIMSON#The echoes of time resound as the blades are reunited once more.", "#CRIMSON#Les échos du temps résonnent alors que les lames sont réunies une fois de plus.", "logSeen")
 t("#CRIMSON#Time seems less perfect in your eyes as the blades are separated.", "#CRIMSON#Le temps semble moins parfait à vos yeux alors que les lames sont séparées.", "logPlayer")
 t("Dagger of the Past", "Dague du Passé", "entity name")
 t("rusted blade", "lame inoxydable", "_t")
-t("Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the opportunity to learn from the mistakes of the past.", "La légende veut que cette lame fasse partie d'une paire: des lames jumelles forgées dans les premiers jours des Gardiens. Pour un utilisateur non entraîné, elle est loin d'être parfaite; pour un gardien, elle représente l'opportunité d'apprendre des erreurs du passé.", "_t")
+t("Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the opportunity to learn from the mistakes of the past.", "La légende veut que cette lame fasse partie d'une paire : des lames jumelles forgées dans les premiers jours des Gardiens. Pour un utilisateur non entraîné, elle est loin d'être parfaite ; pour un gardien, elle représente l'opportunité d'apprendre des erreurs du passé.", "_t")
 t("Potentially it would go with a sword in the future.", "Potentiellement, elle pourrait aller avec une épée dans le futur.", "_t")
 t("10% chance to return the target to a much younger state", "10 % de chances de ramener la cible à un état beaucoup plus jeune.", "_t")
 t("Stone Gauntlets of Harkor'Zun", "Gantelets de Pierre d'Harkor'Zun", "entity name")
@@ -11146,9 +11146,9 @@ t("This impressive looking sword features two massive blades aligned in parallel
 t("25% chance to strike the target again.", "25% chance de frapper la cible à nouveau.", "_t")
 t("Butcher", "Boucherie", "entity name")
 t("blood drenched shortsword", "épée courte couverte de sang", "_t")
-t("Be it corruption, madness or eccentric boredom, the halfling butcher by the name of Caleb once took to eating his kin instead of cattle. His spree was never ended and nobody knows where he disappeared to. Only the blade remained, stuck fast in a bloodied block. Beneath, a carving said \"This was fun, let's do it again some time.\"", "Que ce soit à cause de la corruption, de la folie ou d'un ennui excentrique, le boucher halfelin du nom de Caleb a un jour commencé à manger ses proches plutôt que du bétail. Sa folie n'a jamais cessé et personne ne sait où il a disparu. Seule la lame est restée, coincée dans un bloc sanglant. En dessous, une gravure disait: \"C'était amusant, refaisons-le un jour.\"", "_t")
+t("Be it corruption, madness or eccentric boredom, the halfling butcher by the name of Caleb once took to eating his kin instead of cattle. His spree was never ended and nobody knows where he disappeared to. Only the blade remained, stuck fast in a bloodied block. Beneath, a carving said \"This was fun, let's do it again some time.\"", "Que ce soit à cause de la corruption, de la folie ou d'un ennui excentrique, le boucher halfelin du nom de Caleb a un jour commencé à manger ses proches plutôt que du bétail. Sa folie n'a jamais cessé et personne ne sait où il a disparu. Seule la lame est restée, coincée dans un bloc sanglant. En dessous, une gravure disait : \"C'était amusant, refaisons-le un jour.\"", "_t")
 t("Enter Rampage if health falls below 20%%%s", "Entrez en Déchaînement si la Vie tombe en dessous de 20%%%s.", "tformat")
-t(" (cooling down: %d turns)", " (rechargement: %d tours)", "tformat")
+t(" (cooling down: %d turns)", " (rechargement : %d tours)", "tformat")
 t("Attempt to devour a low HP enemy, striking again and possibly killing it instantly.", "Tentez de dévorer un ennemi à faible PV, en le frappant à nouveau et en le tuant éventuellement sur le champ.", "_t")
 t("Enter a Rampage (Shared cooldown).", "Entrez en Déchaînement (temps de recharge partagé).", "_t")
 t("Ethereal Embrace", "Etreinte Ethérée", "entity name")
@@ -11190,7 +11190,7 @@ t("thin blade", "lame fine", "_t")
 t("This very thin sword cuts through the air with ease, allowing remarkably quick movement.", "Cette épée très fine fend l'air avec facilité, permettant des mouvements remarquablement rapides.", "_t")
 t("Crimson Robe", "Robe Cramoisie", "entity name")
 t("blood-stained robe", "robe tachée de sang", "_t")
-t("This robe was formerly owned by Callister the Psion, a powerful Psionic that pioneered many Psionic abilities. After his wife was murdered, Callister became obsessed with finding her killer, using his own hatred as a fuel for new and disturbing arts. After forcing the killer to torture himself to death, Callister walked the land, forcing any he found to kill themselves - his way of releasing them from the world's horrors. One day, he simply disappeared. This robe, soaked in blood, was the only thing he left behind.", "Cette robe appartenait autrefois à Callister le Psion, un puissant psionique à l'origine de nombreuses capacités psioniques. Après le meurtre de sa femme Callister est devenu obsédé par la recherche de son assassin, utilisant sa propre haine comme un carburant pour de nouveaux et inquiétants arts. Après avoir forcé le tueur à se torturer à mort Callister a parcouru le pays, forçant tous ceux qu'il trouvait à se tuer; sa façon de les libérer des horreurs du monde. Un jour, il a tout simplement disparu. Cette robe, trempée dans le sang, est la seule chose qu'il a laissé derrière lui.", "_t")
+t("This robe was formerly owned by Callister the Psion, a powerful Psionic that pioneered many Psionic abilities. After his wife was murdered, Callister became obsessed with finding her killer, using his own hatred as a fuel for new and disturbing arts. After forcing the killer to torture himself to death, Callister walked the land, forcing any he found to kill themselves - his way of releasing them from the world's horrors. One day, he simply disappeared. This robe, soaked in blood, was the only thing he left behind.", "Cette robe appartenait autrefois à Callister le Psion, un puissant psionique à l'origine de nombreuses capacités psioniques. Après le meurtre de sa femme Callister est devenu obsédé par la recherche de son assassin, utilisant sa propre haine comme un carburant pour de nouveaux et inquiétants arts. Après avoir forcé le tueur à se torturer à mort Callister a parcouru le pays, forçant tous ceux qu'il trouvait à se tuer ; sa façon de les libérer des horreurs du monde. Un jour, il a tout simplement disparu. Cette robe, trempée dans le sang, est la seule chose qu'il a laissé derrière lui.", "_t")
 t("Increases your solipsism threshold by 20% (if you have one). If you do, also grants 15% global speed when worn.", "Augmente votre seuil de solipsisme de 20% (si vous en avez un). Si vous en avez un, il vous confère également 15% de vitesse globale lorsque vous le portez.", "_t")
 t("#RED#You feel yourself lost in the aura of the robe.", "#RED#Vous vous sentez perdu dans l'aura de la robe.", "logPlayer")
 t("#RED#The robe drapes comfortably over your doomed body.", "#RED#La robe se drape confortablement sur votre corps condamné.", "logPlayer")
@@ -11224,10 +11224,11 @@ t("Tirakai's Maul", "Maillet de Tirakai", "entity name")
 t("This massive hammer is formed from a thick mass of strange crystalline growths. In the side of the hammer itself you see an empty slot; it looks like a gem of your own could easily fit inside it.", "Ce marteau massif est formé d'une épaisse masse d'étranges excroissances cristallines. Sur le côté du marteau lui-même, vous voyez une fente vide, il semble qu'une pierre précieuse de votre choix pourrait facilement y entrer.", "_t")
 t("None", "Aucune", "_t")
 t("No gem", "Pas de gemme", "_t")
+t("%s: %s", "%s : %s", "tformat")
 t("Write a description for this gem's properties!", "Rédigez une description des propriétés de cette gemme !", "_t")
 t("Demonic", "Démoniaque", "_t")
 t("imbue the hammer with a gem of your choice", "imprégner le marteau d'une gemme de votre choix", "_t")
-t("Use which gem?", "Utiliser quelle gemme?", "_t")
+t("Use which gem?", "Utiliser quelle gemme ?", "_t")
 t("You remove your %s.", "Vous enlevez votre %s.", "logPlayer")
 t("something has gone wrong", "quelque chose s'est mal passé", "_t")
 t("You imbue your %s with %s.", "Vous imprégnez votre %s de %s.", "logPlayer")
@@ -11289,7 +11290,7 @@ t("black, spiked armor", "armure noire, à pointes", "_t")
 t("Worn by a villain long forgotten, this armor was powered by the blood of thousands of innocents. Decrepit and old, the dark lord died in solitude, his dominion crumbled, his subjects gone. Only this cuirass remained, dying to finally taste fresh blood again.", "Portée par un méchant oublié depuis longtemps, cette armure a été alimentée par le sang de milliers d'innocents. Décrépit et vieux, le seigneur des ténèbres est mort dans la solitude, sa domination s'est effondrée, ses sujets ont disparu. Seule cette cuirasse est restée, mourant d'envie de goûter à nouveau à du sang frais.", "_t")
 t("drain blood from all creatures within range 5, causing them to bleed for %0.2f physical damage over 4 turns (based on your Physicalpower). For each creature drained (up to 10), the armor gains strength, which fades over 10 turns if it is not fed", "drainer le sang de toutes les créatures situées dans un rayon de 5, les faisant saigner pour %0.2f dégâts physiques sur 4 tours (basé sur votre puissance physique). Pour chaque créature drainée (jusqu'à 10), l'armure gagne en force, qui s'estompe en 10 tours si elle n'est pas nourrie.", "tformat")
 t("%s revels in the bloodlust of %s %s!", "%s se délecte dans la soif de sang de %s %s !", "logSeen")
-t("Blood Charges: %d", "Charge de Sang: %d", "tformat")
+t("Blood Charges: %d", "Charge de Sang : %d", "tformat")
 t("Decayed Visage", "Visage Décomposé", "entity name")
 t("mask of mummified skin", "masque de peau momifiée", "_t")
 t("A desiccated mask of human skin, all that remains of a necromancer from the Age of Pyre who failed to achieve lichdom.  The transformative process partially succeeded, leaving him unable to die as his body slowly rotted from the inside out over several years.  Now his spirit resides within this last bit of mummified flesh, still hungering for eternal life.", "Un masque de peau humaine desséché, tout ce qui reste d'un nécromancien de l'Ere du Bûcher qui n'a pas réussi à obtenir sa forme de liche. Le processus de transformation a partiellement réussi, le laissant incapable de mourir alors que son corps pourrissait lentement de l'intérieur pendant plusieurs années. Son esprit réside désormais dans ce dernier morceau de chair momifiée, toujours avide de vie éternelle.", "_t")
@@ -11377,7 +11378,6 @@ t("torque", "torque", "entity subtype")
 t("Eclipse", "Eclipse", "entity name")
 t("Omniscience", "Omniscience", "entity name")
 t("Acera", "Acera", "entity name")
-t("%s: %s", "%s: %s", "tformat")
 t("Unique", "Unique", "_t")
 t("Yaldan Baoth", "Yaldan Baoth", "entity name")
 t("Tarrasca", "Tarrasca", "entity name")
@@ -11442,7 +11442,7 @@ t("Disrupts activated talents.", "Perturbe les talents activés.", "_t")
 t("burning curse trap", "piège de malédiction brûlante", "entity name")
 t("@Target@ triggers a burning curse!", "@Target@ déclenche une malédiction brûlante !", "_t")
 t("dark pentagram", "pentagramme obscur", "_t")
-t("Afflicts the target with a curse: talents inflict %d fire damage and have increased cooldowns.", "Afflige la cible d'une malédiction: les talents infligent %d dégâts de feu et ont des temps de recharge augmentés.", "_t")
+t("Afflicts the target with a curse: talents inflict %d fire damage and have increased cooldowns.", "Afflige la cible d'une malédiction : les talents infligent %d dégâts de feu et ont des temps de recharge augmentés.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/complex.lua"
@@ -11548,7 +11548,7 @@ t("annoy", "gênant", "entity type")
 t("teleport", "téléportation", "entity subtype")
 t("trap", "piège", "_t")
 t("teleport trap", "piège de téléportation", "entity name")
-t("Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "Téléporte la victime au loin.  Comment quelqu'un peut-il s'approcher assez près pour désarmer ce piège...?", "_t")
+t("Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "Téléporte la victime au loin.  Comment quelqu'un peut-il s'approcher assez près pour désarmer ce piège... ?", "_t")
 t("@Target@ shimmers briefly.", "@Target@ brille brièvement.", "_t")
 t("shimmering floor switch", "interrupteur de sol miroitant", "_t")
 t("%s is teleported away!", "%s est téléporté au loin !", "logSeen")
@@ -11632,7 +11632,7 @@ t("Diseased-looking and reeking. It seems to be decaying as you watch.", "L'air 
 t("Don't worry if it dissolves. Just don't get any on you.", "Ne vous inquiétez pas si ça se dissout. Mais n'en mettez pas sur vous.", "_t")
 t("electric eel tail", "queue d'anguille électrique", "entity name")
 t("Slimy, wriggling, and crackling with electricity.", "Frétillante, visqueuse, et crépitante d'électricité.", "_t")
-t("I know, I know. Where does the eel stop and the tail start? It doesn't much matter. The last ten inches or so should do nicely.", "Je sais, je sais. Où s'arrête l'anguille et où commence la queue? Ca n'a pas beaucoup d'importance. Les derniers 25 cm devraient faire l'affaire.", "_t")
+t("I know, I know. Where does the eel stop and the tail start? It doesn't much matter. The last ten inches or so should do nicely.", "Je sais, je sais. Où s'arrête l'anguille et où commence la queue ? Ca n'a pas beaucoup d'importance. Les derniers 25 cm devraient faire l'affaire.", "_t")
 t("vial of squid ink", "fiole d'encre de calmar", "entity name")
 t("Thick, black and opaque.", "Épais, noir et opaque.", "_t")
 t("However annoying this will be for you to gather, I promise that the reek it produces in my lab will prove even more annoying.", "Aussi ennuyeux que cela puisse être pour vous de le recueillir, je vous promets que la puanteur qu'il produit dans mon laboratoire sera encore plus ennuyeuse.", "_t")
@@ -18037,7 +18037,7 @@ section "mod-tome/data/maps/vaults/auto/greater/portal-vault.lua"
 
 t("#YELLOW#The Portal repels you briefly before becoming quiescent.  The other side seems to be blocked.", "#YELLOW#Le Portail vous repousse brièvement avant de se calmer. L'autre côté semble être bloqué.", "logPlayer")
 t("Malevolent Portal", "Portail Malveillant", "_t")
-t("An ominous aura emanates from this portal. Are you sure you want to go through?", "Une aura inquiétante émane de ce portail. Vous êtes sûr de vouloir le franchir?", "_t")
+t("An ominous aura emanates from this portal. Are you sure you want to go through?", "Une aura inquiétante émane de ce portail. Vous êtes sûr de vouloir le franchir ?", "_t")
 t("#YELLOW#You overcome intense #LIGHT_BLUE#REPULSIVE FORCES#LAST# as you traverse the Portal.", "#YELLOW#Vous surmontez d'intenses #LIGHT_BLUE#forces repulsives#LAST# en traversant le portail.", "logPlayer")
 t("Teleport", "Téléportation", "_t")
 t("Cancel", "Annuler", "_t")
@@ -18129,8 +18129,8 @@ t("#rng# the Caustic Terror", "#rng# la Terreur Caustique", "_t")
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/test.lua"
 
-t("#PINK# Test vault onplace function called: zone:%s, level:%s, map:%s", "#PINK# Fonction onplace du coffre de test appelée : zone:%s, niveau:%s, carte:%s", "log")
-t("#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "#PINK# Fonction roomCheck du coffre de test appelée : zone:%s, niveau:%s, carte:%s", "log")
+t("#PINK# Test vault onplace function called: zone:%s, level:%s, map:%s", "#PINK# Fonction onplace du coffre de test appelée : zone :%s, niveau :%s, carte :%s", "log")
+t("#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "#PINK# Fonction roomCheck du coffre de test appelée : zone :%s, niveau :%s, carte :%s", "log")
 
 ------------------------------------------------
 section "mod-tome/data/maps/vaults/trickvault.lua"
@@ -18221,7 +18221,7 @@ t("You decided to side with the Grand Corruptor and joined forces to assault the
 t("The Grand Corruptor died during the attack before he had time to teach you his ways.", "Le Grand Corrupteur est mort durant l'attaque avant d'avoir eu le temps de vous enseigner ses méthodes.", "_t")
 t("The defenders of Zigur were crushed, the Ziguranth scattered and weakened.", "Les défenseurs de Zigur ont été écrasés, les Ziguranth dispersés et affaiblis.", "_t")
 t("In the aftermath you turned against the Grand Corruptor and dispatched him.", "Par la suite, vous vous êtes retourné contre le Grand Corrupteur et l'avez éliminé.", "_t")
-t("Select the party member to receive the hexes generic talent tree:", "Sélectionnez le membre du groupe qui recevra l'arbre de Talents Générique des Malédictions:", "_t")
+t("Select the party member to receive the hexes generic talent tree:", "Sélectionnez le membre du groupe qui recevra l'arbre de Talents Générique des Malédictions :", "_t")
 t("Grand Corruptor", "Grand Corrupteur", "_t")
 t("#LIGHT_GREEN#The Grand Corruptor gazes upon you. You feel knowledge flowing in your mind. You can now train some corruption powers.", "#LIGHT_GREEN#Le Grand Corrupteur vous regarde. Vous sentez la connaissance couler dans votre esprit. Vous pouvez maintenant exercer des pouvoirs de corruption.", "_t")
 t("Victory is mine!", "La victoire est mienne !", "_t")
@@ -18250,9 +18250,9 @@ section "mod-tome/data/quests/arena.lua"
 
 t("The Arena", "L'Arène", "_t")
 t("Seeking wealth, glory, and a great fight, you challenge the Arena!", "En quête de richesse, de gloire et d'un grand combat, vous défiez l'arène !", "_t")
-t("Can you defeat your foes and become Master of Arena?", "Pourrez-vous vaincre vos ennemis et devenir le Maître de l'Arène?", "_t")
+t("Can you defeat your foes and become Master of Arena?", "Pourrez-vous vaincre vos ennemis et devenir le Maître de l'Arène ?", "_t")
 t("Winner", "Victoire", "_t")
-t("#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "#GOLD#Bravo ! Vous avez remporté l'Arène: Le Défi du Maître#WHITE#", "_t")
+t("#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "#GOLD#Bravo ! Vous avez remporté l'Arène : Le Défi du Maître#WHITE#", "_t")
 t("You valiantly fought every creature the arena could throw at you and you emerged victorious!", "Vous avez combattu vaillamment chaque créature que l'arène pouvait vous envoyer et vous en êtes sorti victorieux !", "_t")
 t("Glory to you, you are now the new master and your future characters will challenge you.", "Gloire à vous, vous êtes maintenant le nouveau maître et vos futurs personnages viendront vous défier.", "_t")
 -- texte non traduit
@@ -18271,12 +18271,12 @@ t("#LIGHT_BLUE#Various alchemists around Maj'Eyal are competing to gain entry in
 t("#GREEN#You have aided %s in creating an %s.#WHITE#", "#GREEN#Vous avez aidé %s à créer un %s.#WHITE#", "tformat")
 t("#RED#%s has completed an %s without your aid.#WHITE#", "#RED#%s a terminé un %s sans votre aide.#WHITE#", "tformat")
 t("#SLATE#Having failed to gain admittance to the Brotherhood of the Alchemists, %s no longer needs your help making the %s.", "#SLATE#N'ayant pas réussi à se faire admettre dans la confrérie des alchimistes, %s n'a plus besoin de votre aide pour fabriquer un %s.", "tformat")
-t("%s needs your help making an %s. He has given you some notes on the ingredients:", "%s a besoin de votre aide pour préparer un %s. Il vous a donné quelques notes sur les ingrédients:", "tformat")
-t("#SLATE#  * 'Needed: one %s. %s'#WHITE#", "#SLATE#  * 'Besoin de: un %s. %s'#WHITE#", "tformat")
+t("%s needs your help making an %s. He has given you some notes on the ingredients:", "%s a besoin de votre aide pour préparer un %s. Il vous a donné quelques notes sur les ingrédients :", "tformat")
+t("#SLATE#  * 'Needed: one %s. %s'#WHITE#", "#SLATE#  * 'Besoin de : un %s. %s'#WHITE#", "tformat")
 t("#LIGHT_GREEN#  * You've found the needed %s.#WHITE#", "#LIGHT_GREEN#  * Vous avez trouvé le %s nécessaire.#WHITE#", "tformat")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("#VIOLET#You can check the ingredients you possess by pressing Escape and selecting 'Show ingredients'.", "#VIOLET#Vous pouvez vérifier les ingrédients en votre possession en appuyant sur la touche Échap et en sélectionnant \"Afficher les ingrédients\".", "log")
-t("You receive: %s", "Vous recevez: %s", "logPlayer")
+t("You receive: %s", "Vous recevez : %s", "logPlayer")
 t("elixir of the fox", "élixir du renard", "_t")
 t("elixir of avoidance", "élixir d'évitement", "_t")
 t("elixir of precision", "élixir de précision", "_t")
@@ -18302,7 +18302,7 @@ t("Honor their sacrifice; do not let the orcs finish their work!", "Honorez leur
 t("You arrived too late. The place has been drained of its power and the sorcerers have left.", "Vous êtes arrivé trop tard. L'endroit a été vidé de son pouvoir et les sorciers sont partis.", "_t")
 t("Use the portal to go back to the Far East. You *MUST* stop them, no matter the cost.", "Utilisez le portail pour retourner en Extrême-Orient. Vous *DEVEZ* les arrêter, quel qu'en soit le prix.", "_t")
 t("You arrived in time and interrupted the ritual. The sorcerers have departed.", "Vous êtes arrivé à temps et avez interrompu le rituel. Les sorciers sont partis.", "_t")
-t("#VIOLET#A portal activates in the distance. You hear the orcs shout, 'The Sorcerers have departed! Follow them!'", "#VIOLET#Un portail s'active au loin. Vous entendez les orcs crier: \"Les sorciers sont partis ! Suivez-les !\"", "logPlayer")
+t("#VIOLET#A portal activates in the distance. You hear the orcs shout, 'The Sorcerers have departed! Follow them!'", "#VIOLET#Un portail s'active au loin. Vous entendez les orcs crier : \"Les sorciers sont partis ! Suivez-les !\"", "logPlayer")
 t("#VIOLET#The Sorcerers flee through a portal. As you prepare to follow them, a huge faeros appears to block the way.", "#VIOLET#Les Sorciers s'enfuient par un portail. Alors que vous vous apprêtez à les suivre, un énorme feuros apparaît pour bloquer le passage.", "logPlayer")
 -- texte non traduit
 --[==[
@@ -18346,7 +18346,7 @@ t("Meranas, Herald of Angolwen", "Meranas, Héraut d'Angolwen", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back in Last Hope.", "#VIOLET#Vous entrez dans le portail tourbillonnant et en un clin d'oeil vous êtes de retour à Dernier Espoir.", "logPlayer")
 -- texte non traduit
 --[==[
-t("Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "Tannen vous a trompé ! Il a échangé l'Orbe contre une fausse qui vous a conduit dans un plan démoniaque. Trouvez la sortie, et vengez-vous!", "_t")
+t("Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "_t")
 t("", "", "_t")
 --]==]
 
@@ -18359,17 +18359,17 @@ section "mod-tome/data/quests/escort-duty.lua"
 t("You successfully escorted the %s to the recall portal on level %s.", "Vous avez escorté avec succès %s jusqu'au portail du niveau %s.", "tformat")
 t("As a reward you %s.", "En récompense vous %s.", "tformat")
 t("You abandoned %s, to death.", "Vous avez abandonné %s à la mort.", "tformat")
-t("You failed to protect the %s from death by %s.", "Vous avez échoué a protéger %s de la mort. Coup fatal: %s.", "tformat")
+t("You failed to protect the %s from death by %s.", "Vous avez échoué a protéger %s de la mort. Coup fatal : %s.", "tformat")
+t("???", " ???", "_t")
 t("Escort the %s to the recall portal on level %s.", "Escortez %s jusqu'au portail de rappel du niveau %s.", "tformat")
 t("#LIGHT_RED#%s is dead, quest failed!", "#LIGHT_RED#%s est mort, quête échouée !", "logPlayer")
 t("something", "quelque chose", "_t")
 t("Recall Portal", "Portail de rappel", "_t")
 t("%s of %s", "%s de %s", "tformat")
-t("Escort: %s (level %s)", "Escorte: %s (niveau %s)", "tformat")
+t("Escort: %s (level %s)", "Escorte : %s (niveau %s)", "tformat")
 -- texte non traduit
 --[==[
 t("", "", "_t")
-t("???", "???", "_t")
 --]==]
 
 
@@ -18387,7 +18387,7 @@ t("You have laid Celia to rest, putting an end to her failed experiments. You ha
 section "mod-tome/data/quests/high-peak.lua"
 
 t("Falling Toward Apotheosis", "Vers l'apothéose", "_t")
-t("You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "Vous avez vaincu les maîtres des fiertés orcs. Vous devez maintenant vous aventurer dans le lieu le plus dangereux de ce monde: le Pic Supérieur.", "_t")
+t("You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "Vous avez vaincu les maîtres des fiertés orcs. Vous devez maintenant vous aventurer dans le lieu le plus dangereux de ce monde : le Pic Supérieur.", "_t")
 t("Seek the Sorcerers and stop them before they bend the world to their will.", "Traquez les sorciers et arrêtez-les avant qu'ils ne plient le monde à leur volonté.", "_t")
 t("To enter, you will need the four orbs of command to remove the shield over the peak.", "Pour entrer, vous aurez besoin des quatre orbes de commande afin de dissiper le bouclier qui protège le pic.", "_t")
 t("The entrance to the peak passes through a place called 'the slime tunnels', probably located inside or near Grushnak Pride.", "L'entrée du pic passe par un lieu appelé \"les tunnels de boue\", probablement situé à l'intérieur ou à proximité de La Fierté Grushnak.", "_t")
@@ -18400,11 +18400,11 @@ t("#LIGHT_GREEN#* You defeated the Sorcerers and Aeryn sacrificed herself to clo
 t("#LIGHT_GREEN#* You defeated the Sorcerers and sacrificed yourself to close the Void portal.#LAST#", "#LIGHT_GREEN#* Vous avez vaincu les Sorciers et vous vous êtes sacrifié pour fermer le portail du Néant.#LAST#", "_t")
 t("Endgame", "Fin de la Partie", "_t")
 t("#LIGHT_RED#As you enter the level you hear a familiar voice.", "#LIGHT_RED#En entrant dans le niveau, vous entendez une voix familière.", "logPlayer")
-t("#LIGHT_RED#Fallen Sun Paladin Aeryn: '%s YOU BROUGHT ONLY DESTRUCTION TO THE SUNWALL! YOU WILL PAY!'", "#LIGHT_RED#Paladine Solaire Déchu Aeryn: \"%s Tu n'as apporté que de la destruction au Mur Solaire ! TU VAS PAYER !\"", "logPlayer")
+t("#LIGHT_RED#Fallen Sun Paladin Aeryn: '%s YOU BROUGHT ONLY DESTRUCTION TO THE SUNWALL! YOU WILL PAY!'", "#LIGHT_RED#Paladine Solaire Déchu Aeryn : \"%s Tu n'as apporté que de la destruction au Mur Solaire ! TU VAS PAYER !\"", "logPlayer")
 t("Ruins of the Gates of Morning", "Ruines des Portes du Matin", "_t")
 t("The Sunwall was destroyed while you were trapped in the High Peak.", "Le Mur Solaire a été détruit pendant que vous étiez piégés dans le Pic.", "_t")
 t("Winner", "Victoire", "_t")
-t("#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "#GOLD#Bravo ! Vous avez gagné une partie de Tales of Maj'Eyal: L'Ère de l'ascendance#WHITE#", "_t")
+t("#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "#GOLD#Bravo ! Vous avez gagné une partie de Tales of Maj'Eyal : L'Ère de l'ascendance#WHITE#", "_t")
 t("The Sorcerers are dead, and the Orc Pride lies in ruins, thanks to your efforts.", "Les Sorciers sont morts, et les fiertés des Orcs sont en ruines, grâce à vos efforts.", "_t")
 t("Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "Le plan de ton patron a fonctionné. Alors que votre corps était écrasé par les forces brutes du portail du vide, il s'est ouvert en grand. En un instant, la connexion a été faite et des vagues de chaleur ont traversé.", "_t")
 t("The mad sun brought forth all its power through the portal, turning the High Peak into a giant searing needle!", "Le soleil fou a déployé toute sa puissance à travers le portail, transformant le Pic Supérieur en une aiguille incandescente !", "_t")
@@ -18416,14 +18416,14 @@ t("Through an incredible display of willpower you resisted for a few decisive se
 t("Though you succumbed to the fight, your mind was already gone, burnt to ashes by your mad patron sun. But the world was saved.", "Bien que vous ayez succombé au combat, votre esprit était déjà parti, réduit en cendres par votre patron, le soleil fou. Mais le monde a été sauvé.", "_t")
 t("Your sacrifice worked. Your mental energies were imbued with farportal energies. The Way radiated from the High Peak toward the rest of Eyal like a mental tidal wave.", "Votre sacrifice a fonctionné. Vos énergies mentales ont été imprégnées d'énergies de portails lointain. La Voie a rayonné du Pic Supérieur vers le reste d'Eyal comme un raz-de-marée mental.", "_t")
 t("Every sentient being in Eyal is now part of the Way. Peace and happiness are enforced for all.", "Chaque être sentient d'Eyal fait maintenant partie de la Voie. La paix et le bonheur sont imposés à tous.", "_t")
-t("Only the mages of Angolwen were able to withstand the mental shock and thus are the only unsafe people left. But what can they do against the might of the Way?", "Seuls les mages d'Angolwen ont pu résister au choc mental et sont donc les seules personnes encore en sécurité. Mais que peuvent-ils faire contre la puissance de la Voie?", "_t")
+t("Only the mages of Angolwen were able to withstand the mental shock and thus are the only unsafe people left. But what can they do against the might of the Way?", "Seuls les mages d'Angolwen ont pu résister au choc mental et sont donc les seules personnes encore en sécurité. Mais que peuvent-ils faire contre la puissance de la Voie ?", "_t")
 t("In the aftermath of the battle the Way tried to force you to act as a vessel to bring the Way to every sentient being.", "A la suite de la bataille, la Voie a essayé de vous forcer à agir comme vecteur pour apporter la Voie à chaque être doué d'une conscience.", "_t")
 t("You have prevented the portal to the Void from opening and thus stopped the Creator from bringing about the end of the world.", "Vous avez empêché l'ouverture du portail vers le Néant et donc empêché le Créateur de provoquer la fin du monde.", "_t")
 t("In a selfless act, High Sun Paladin Aeryn sacrificed herself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "Dans un acte désintéressé, la Haute Paladine Solaire Aeryn s'est sacrifiée pour fermer le portail du Néant et empêcher ainsi le Créateur de provoquer la fin du monde.", "_t")
 t("In a selfless act, you sacrificed yourself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "Dans un acte désintéressé, vous vous êtes sacrifié pour fermer le portail du Néant et empêcher ainsi le Créateur de provoquer la fin du monde.", "_t")
 t("The Gates of Morning have been destroyed and the Sunwall has fallen. The last remnants of the free people in the Far East will surely diminish, and soon only orcs will inhabit this land.", "Les Portes du Matin ont été détruites et le Mur du Soleil est tombé. Les derniers vestiges des peuples libres d'Extrême-Orient vont sûrement disparaitre, et bientôt seuls les orcs habiteront cette terre.", "_t")
 t("The orc presence in the Far East has greatly been diminished by the loss of their leaders and the destruction of the Sorcerers. The free people of the Sunwall will be able to prosper and thrive on this land.", "La présence orc en Extrême-Orient a été grandement diminuée par la perte de leurs chefs et la destruction des Sorciers. Le peuple libre du Mur Solaire pourra prospérer et s'épanouir sur cette terre.", "_t")
-t("Maj'Eyal will once more know peace. Most of its inhabitants will never know they even were on the verge of destruction, but then this is what being a true hero means: to do the right thing even though nobody will know about it.", "Maj'Eyal connaîtra à nouveau la paix. La plupart de ses habitants ne sauront jamais qu'ils ont frôlé l'annihilation, mais c'est ce que signifie être un véritable héros: faire ce qui est juste même si personne ne le sait.", "_t")
+t("Maj'Eyal will once more know peace. Most of its inhabitants will never know they even were on the verge of destruction, but then this is what being a true hero means: to do the right thing even though nobody will know about it.", "Maj'Eyal connaîtra à nouveau la paix. La plupart de ses habitants ne sauront jamais qu'ils ont frôlé l'annihilation, mais c'est ce que signifie être un véritable héros : faire ce qui est juste même si personne ne le sait.", "_t")
 t("You may continue playing and enjoy the rest of the world.", "Vous pouvez continuer à jouer et profiter du reste du monde.", "_t")
 -- texte non traduit
 --[==[
@@ -18492,9 +18492,9 @@ t("You failed to defeat the acolytes in time - the woman got torn apart by the d
 section "mod-tome/data/quests/lichform.lua"
 
 t("From Death, Life", "De la Mort, la Vie", "_t")
-t("The affairs of this mortal world are trifling compared to your true goal: To conquer death.", "Les affaires de ce monde mortel sont insignifiantes comparées à votre véritable objectif: vaincre la mort.", "_t")
+t("The affairs of this mortal world are trifling compared to your true goal: To conquer death.", "Les affaires de ce monde mortel sont insignifiantes comparées à votre véritable objectif : vaincre la mort.", "_t")
 t("Your studies have uncovered much surrounding this subject, but now you must prepare for your glorious rebirth.", "Vos études ont permis de découvrir de nombreuses facettes sur ce sujet, mais vous devez maintenant vous préparer à votre glorieuse renaissance.", "_t")
-t("You will need:", "Vous aurez besoin:", "_t")
+t("You will need:", "Vous aurez besoin :", "_t")
 t("#LIGHT_GREEN#* You are experienced enough.#WHITE#", "#LIGHT_GREEN#* Vous êtes assez expérimenté.#WHITE#", "_t")
 t("#SLATE#* The ceremony will require that you are worthy, experienced, and possessed of a certain amount of power (level 25, Magic over 50, Willpower over 25 and one prodigy point available).#WHITE#", "#SLATE#* La cérémonie exige que vous soyez digne, expérimenté et doté d'une certaine puissance (niveau 25, Magie et Volonté supérieure à 50, et un point de prodige disponible).#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have 'extracted' the heart of one of your fellow necromancers.#WHITE#", "#LIGHT_GREEN#* Vous avez \"extrait\" le coeur d'un de vos collègues nécromanciens.#WHITE#", "_t")
@@ -18546,7 +18546,7 @@ section "mod-tome/data/quests/lost-merchant.lua"
 t("Trapped!", "Pris au piège !", "_t")
 t("You heard a plea for help and decided to investigate...", "Vous avez entendu un appel à l'aide et avez décidé d'enquêter...", "_t")
 t("Only to find yourself trapped inside an unknown tunnel complex.", "Mais vous vous retrouvez piégé dans un complexe de tunnels inconnu.", "_t")
-t("A stairway out appears at your feet. The Lord says: 'And remember, you are MINE. I will call you.'", "Un escalier vers la sortie apparaît à vos pieds. Le Seigneur dit: \"Et souviens-toi, tu es à moi. Je t'appellerai.\"", "logPlayer")
+t("A stairway out appears at your feet. The Lord says: 'And remember, you are MINE. I will call you.'", "Un escalier vers la sortie apparaît à vos pieds. Le Seigneur dit : \"Et souviens-toi, tu es à moi. Je t'appellerai.\"", "logPlayer")
 t("#LIGHT_BLUE#The merchant thanks you for saving his life. He gives you 8 gold and asks you to meet him again in Last Hope.", "#LIGHT_BLUE#Le marchand vous remercie de lui avoir sauvé la vie. Il vous donne 8 pièces d'or et vous demande de le retrouver à Dernier Espoir.", "logPlayer")
 
 ------------------------------------------------
@@ -18592,10 +18592,10 @@ t("An apprentice task", "Une tâche d'apprenti", "_t")
 t("You met a novice mage who was tasked to collect an arcane powered artifact.", "Vous avez rencontré un mage novice chargé de recueillir un artefact arcanique.", "_t")
 t("He asked for your help, should you collect some that you do not need.", "Il a demandé votre aide, au cas où vous en collecteriez certains dont vous n'avez pas besoin.", "_t")
 t("#SLATE#* Collect an artifact arcane powered item.#WHITE#", "#SLATE#* Récupérez un artifact arcanique.#WHITE#", "_t")
-t("Offer which item?", "Offrir quel objet?", "_t")
+t("Offer which item?", "Offrir quel objet ?", "_t")
 t("#LIGHT_RED#As the apprentice touches the staff he begins to scream, flames bursting out of his mouth. Life seems to be drained away from him, and in an instant he collapses in a lifeless husk.", "#LIGHT_RED#Lorsque l'apprenti touche le bâton, il se met à hurler, des flammes jaillissant de sa bouche. La vie semble s'échapper de lui, et en un instant il s'effondre dans une enveloppe vide.", "logPlayer")
 t("You have no more %s", "Vous n'avez plus de %s", "log")
-t("You receive: %s", "Vous recevez: %s", "logPlayer")
+t("You receive: %s", "Vous recevez : %s", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/data/quests/master-jeweler.lua"
@@ -18676,7 +18676,7 @@ t([[You killed your future self. In the future, you might wish to avoid time-tra
 ]], [[Vous avez tué votre moi futur. Dans le futur, vous devriez éviter de voyager dans le temps jusqu'à ce moment...
 ]], "_t")
 t("%s the Paradox Mage", "%s le Mage du Paradoxe", "tformat")
-t("A later (less fortunate?) version of %s, possibly going mad.", "Une version ultérieure (moins chanceuse?) de %s, devenant éventuellement folle.", "tformat")
+t("A later (less fortunate?) version of %s, possibly going mad.", "Une version ultérieure (moins chanceuse ?) de %s, devenant éventuellement folle.", "tformat")
 t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pourquoi le #sexe# est soudainement devenu maléfique", "_t")
 t("#LIGHT_BLUE#Killing your own future self does feel weird, but you know that you can avoid this future. Just do not time travel.", "#LIGHT_BLUE#Tuer son propre soi du futur est étrange, mais vous savez que vous pouvez éviter ce futur. Il suffit de ne pas voyager dans le temps.", "logSeen")
 t("Meet the guardian!", "Rencontrez le gardien !", "_t")
@@ -18710,10 +18710,10 @@ t("You decided to join the slavers and take part in their game. You won the ring
 t("You decided you cannot let slavers continue their dirty work and destroyed them!", "Vous avez décidé que vous ne pouviez pas laisser les esclavagistes continuer leur sale boulot et vous les avez détruits !", "_t")
 t("The orb seems to fizzle without the Blood Master.", "L'orbe semble s'éteindre sans le Maître du Sang.", "log")
 t("%s's slave", "esclave de %s", "tformat")
-t("#CRIMSON#The crowd yells: 'LOSER!'", "#CRIMSON#La foule crie: \"T'ES NUL !\".", "log")
+t("#CRIMSON#The crowd yells: 'LOSER!'", "#CRIMSON#La foule crie : \"T'ES NUL !\".", "log")
 t("#LIGHT_GREEN#As you touch the orb your will fills the slave's body. You take full control of his actions!", "#LIGHT_GREEN#Lorsque vous touchez l'orbe, votre volonté remplit le corps de l'esclave. Vous prenez le contrôle total de ses actions !", "log")
 t("#CRIMSON#A new foe appears in the ring of blood!", "#CRIMSON#Un nouvel ennemi apparaît dans le cercle de sang !", "log")
-t("#CRIMSON#The crowd yells: 'BLOOOODDD!'", "#CRIMSON#La foule hurle: \"DU SAAAAAANG !\"", "log")
+t("#CRIMSON#The crowd yells: 'BLOOOODDD!'", "#CRIMSON#La foule hurle : \"DU SAAAAAANG !\"", "log")
 t("#LIGHT_BLUE#The Blood Master hands you the %s.", "#LIGHT_BLUE#Le Maître du Sang vous remet l'%s.", "logPlayer")
 -- texte non traduit
 --[==[
@@ -18729,7 +18729,7 @@ t("You found notes from an explorer inside the Old Forest. He spoke about Sher'T
 t("With one of the notes there was a small gem that looks like a key.", "Avec l'une des notes, il y avait une petite pierre précieuse ressemblant à une clé.", "_t")
 t("#LIGHT_GREEN#* You used the key inside the ruins of Nur and found a way into the fortress of old.#WHITE#", "#LIGHT_GREEN#* Vous avez utilisé la clé à l'intérieur des ruines de Nur et avez trouvé un moyen d'entrer dans la vieille forteresse.#WHITE#", "_t")
 t("#LIGHT_GREEN#* The Weirdling Beast is dead, freeing the way into the fortress itself.#WHITE#", "#LIGHT_GREEN#* La Bête Bizarre est morte, libérant le passage vers la forteresse elle-même.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have activated what seems to be a ... butler? with your rod of recall.#WHITE#", "#LIGHT_GREEN#* Vous avez activé ce qui semble être un ... majordome? avec votre bâtonnet de rappel.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have activated what seems to be a ... butler? with your rod of recall.#WHITE#", "#LIGHT_GREEN#* Vous avez activé ce qui semble être un ... majordome ? avec votre bâtonnet de rappel.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have bound the transmogrification chest to the Fortress power system.#WHITE#", "#LIGHT_GREEN#* Vous avez lié le coffre de transmogrification au système énergétique de la Forteresse.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have upgraded the transmogrification chest to automatically transmute metallic items into gems before transmogrifying them.#WHITE#", "#LIGHT_GREEN#* Vous avez amélioré le coffre de transmogrification pour transmuter automatiquement les objets métalliques en gemmes avant de les transmogrifier.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have unlocked the training room.#WHITE#", "#LIGHT_GREEN#* Vous avez débloqué la salle d'entraînement.#WHITE#", "_t")
@@ -18742,7 +18742,7 @@ t("#LIGHT_GREEN#* You have re-enabled the fortress flight systems. You can now f
 t("#SLATE#* The fortress shadow has asked that you find an Ancient Storm Sapphire, along with at least 250 energy, to re-enable the fortress flight systems.#WHITE#", "#SLATE#* L'ombre de la forteresse vous demande de trouver un Ancien Saphir de Tempête, ainsi qu'au moins 250 d'énergie, afin de réactiver les systèmes de vol de la forteresse.#WHITE#", "_t")
 t("\
 The fortress's current energy level is: #LIGHT_GREEN#%d#WHITE#.", "\
-Le niveau d'énergie actuel de la forteresse est: #LIGHT_GREEN#%d#WHITE#.", "tformat")
+Le niveau d'énergie actuel de la forteresse est : #LIGHT_GREEN#%d#WHITE#.", "tformat")
 t("Fortress Shadow", "Ombre de la Forteresse", "_t")
 t("Master, you have sent enough energy to improve your rod of recall. Please return to the fortress.", "Maître, vous avez envoyé assez d'énergie pour améliorer votre bâtonnet de rappel. Veuillez retourner à la forteresse.", "_t")
 t([[Master, you have sent enough energy to activate the exploratory farportal.
@@ -18956,7 +18956,7 @@ section "mod-tome/data/quests/temple-of-creation.lua"
 
 t("The Temple of Creation", "Le Temple de la Création", "_t")
 t("Ukllmswwik asked you to take his portal to the Temple of Creation and kill Slasul who has turned mad.", "Ukllmswwik vous a demandé de prendre son portail vers le Temple de la Création pour tuer Slasul qui est devenu fou.", "_t")
-t("Slasul told you his side of the story. Now you must decide: which of them is corrupt?", "Slasul vous a raconté sa version de l'histoire. Maintenant, vous devez décider: lequel des deux est corrompu?", "_t")
+t("Slasul told you his side of the story. Now you must decide: which of them is corrupt?", "Slasul vous a raconté sa version de l'histoire. Maintenant, vous devez décider : lequel des deux est corrompu ?", "_t")
 t("Slasul bound his lifeforce to yours and gave your a powerful trident in return.", "Slasul a lié sa force vitale à la vôtre et vous a donné un puissant trident en retour.", "_t")
 t("#LIGHT_GREEN#* You have killed both Ukllmswwik and Slasul, betraying them both.#WHITE#", "#LIGHT_GREEN#* Vous avez tué Ukllmswwik et Slasul, les trahissant tous les deux.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have sided with Ukllmswwik and killed Slasul.#WHITE#", "#LIGHT_GREEN#* Vous avez pris le parti d'Ukllmswwik et tué Slasul.#WHITE#", "_t")
@@ -18984,7 +18984,7 @@ t("It looks extremely dangerous, however - beware.", "Cependant, ça a l'air ext
 t("You have slain Bill. His treasure is yours for the taking.", "Vous avez tué Bill. Son trésor est à vous.", "_t")
 t("way to the hidden trollmire treasure", "chemin vers le trésor caché du bourbier troll", "_t")
 t("Beware!", "Attention !", "_t")
-t("This way leads to the lair of a mighty troll. Traces of blood are everywhere. Are you sure?", "Ce chemin mène à la tanière d'un puissant troll. Il y a des traces de sang partout. Etes vous sûr?", "_t")
+t("This way leads to the lair of a mighty troll. Traces of blood are everywhere. Are you sure?", "Ce chemin mène à la tanière d'un puissant troll. Il y a des traces de sang partout. Etes vous sûr ?", "_t")
 t("The way to the treasure is to the east. But beware, death probably awaits there.", "Le chemin vers le trésor est à l'est. Mais attention, la mort vous y attend probablement.", "_t")
 -- texte non traduit
 --[==[
@@ -18995,7 +18995,7 @@ t("Danger...", "Danger...", "_t")
 ------------------------------------------------
 section "mod-tome/data/quests/tutorial-combat-stats.lua"
 
-t("Tutorial: combat stats", "Tutoriel: stats de combat", "_t")
+t("Tutorial: combat stats", "Tutoriel : stats de combat", "_t")
 t("Explore the Dungeon of Adventurer Enlightenment to learn about ToME's combat mechanics.", "Explorez le Donjon de l'Eveil des Aventuriers pour découvrir les mécanismes de combat de ToME.", "_t")
 t("#LIGHT_GREEN#You have navigated the Dungeon of Adventurer Enlightenment!#WHITE#", "#LIGHT_GREEN#Vous avez parcouru le Donjon de l'Eveil des Aventuriers !#WHITE#", "_t")
 t("Tutorial Finished", "Tutoriel Terminé", "_t")
@@ -19005,13 +19005,13 @@ section "mod-tome/data/quests/tutorial.lua"
 
 t("Tutorial", "Tutoriel", "_t")
 t("You must venture in the heart of the forest and kill the Lone Wolf, who randomly attacks villagers.", "Vous devez vous aventurer dans le coeur de la forêt et tuer le \"Loup solitaire\", qui attaque aléatoirement des villagois.", "_t")
-t("Tutorial: Movement", "Tutoriel: Mouvements", "_t")
+t("Tutorial: Movement", "Tutoriel : Mouvements", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/void-gerlyk.lua"
 
 t("In the void, no one can hear you scream", "Dans le vide, personne ne vous entendra hurler", "_t")
-t("You have destroyed the sorcerers. Sadly, the portal to the Void remains open; the Creator is coming.", "Vous avez détruit les sorciers. Malheureusement, le portail vers le Vide reste ouvert; le Créateur arrive.", "_t")
+t("You have destroyed the sorcerers. Sadly, the portal to the Void remains open; the Creator is coming.", "Vous avez détruit les sorciers. Malheureusement, le portail vers le Vide reste ouvert ; le Créateur arrive.", "_t")
 t("This cannot be allowed to happen. After thousands of years trapped in the Void between the stars, Gerlyk is mad with rage.", "Cela ne doit pas se produire. Après des milliers d'années piégées dans le Vide entre les étoiles, Gerlyk est fou de rage.", "_t")
 t("You must now finish what the Sher'tuls started. Take the Staff of Absorption and become a Godslayer yourself.", "Vous devez maintenant finir ce que les Sher'tuls ont commencé. Prenez le Bâton d'Absorption et devenez vous-même un Tueur de Dieu.", "_t")
 
@@ -19029,7 +19029,7 @@ t("Zemekkys points to the location of Vor Armoury on your map.", "Zemekkys indiq
 t("Zemekkys points to the location of Briagh's lair on your map.", "Zemekkys indique l'emplacement du repaire de Briagh sur votre carte.", "logPlayer")
 t("#VIOLET#Zemekkys starts to draw runes on the floor using the athame and gem dust.", "#VIOLET#Zemekkys commence à tracer des runes au sol en utilisant l'athamé et la poussière de gemme.", "logPlayer")
 t("#VIOLET#The whole area starts to shake!", "#VIOLET#Toute la zone se met à trembler !", "logPlayer")
-t("#VIOLET#Zemekkys says: 'The portal is done!'", "#VIOLET#Zemekkys dit: \"Le portail est terminé !\"", "logPlayer")
+t("#VIOLET#Zemekkys says: 'The portal is done!'", "#VIOLET#Zemekkys dit : \"Le portail est terminé !\"", "logPlayer")
 t("High Chronomancer Zemekkys", "Grand Cronomancien Zemekkys", "_t")
 -- texte non traduit
 --[==[
@@ -19056,7 +19056,7 @@ t("Mana represents your reserve of magical energies. Most spells cast consume ma
 t("Equilibrium", "Equilibre", "_t")
 t("Equilibrium represents your standing in the grand balance of nature. The closer it is to 0 the more balanced you are. Being out of equilibrium will adversely affect your ability to use Wild Gifts.", "L'équilibre représente votre position dans le grand équilibre de la nature. Plus il est proche de 0, plus vous êtes équilibré. Être hors d'équilibre affectera négativement votre capacité à utiliser les dons sauvages.", "_t")
 t("%d (%d%%%% fail)", "%d (%d%%%% d'échec)", "tformat")
-t("%d(fail: %s)", "%d(échec: %s)", "tformat")
+t("%d(fail: %s)", "%d(échec : %s)", "tformat")
 t("Vim", "Vitae", "_t")
 t("Vim represents the amount of life energy/souls you have stolen. Each corruption talent requires some.", "La vitae représente la quantité d'énergie vitale/d'âmes que vous avez volées. Chaque talent de corruption en exige.", "_t")
 t("Positive energy", "Énergie positive", "_t")
@@ -19083,12 +19083,12 @@ t("Psi", "Psi", "_t")
 ------------------------------------------------
 section "mod-tome/data/rooms/greater_vault.lua"
 
-t("#GOLD#PLACED GREATER VAULT: %s", "#GOLD#A PLACE UNE GRANDE CHAMBRE FORTE: %s", "log")
+t("#GOLD#PLACED GREATER VAULT: %s", "#GOLD#A PLACE UNE GRANDE CHAMBRE FORTE : %s", "log")
 
 ------------------------------------------------
 section "mod-tome/data/rooms/lesser_vault.lua"
 
-t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#A PLACE UNE PETITE CHAMBRE FORTE: %s", "log")
+t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#A PLACE UNE PETITE CHAMBRE FORTE : %s", "log")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/celestial.lua"
@@ -19144,7 +19144,7 @@ section "mod-tome/data/talents/celestial/chants.lua"
 t("Chant of Fortitude", "Chant de Fortitude", "talent name")
 t([[You chant the glory of the Sun, granting you %d Mental Save and increasing your maximum life by %0.1f%% (Currently:  %d).
 		You may only have one Chant active at once.
-		The effects will increase with your Spellpower.]], [[Vous chantez la gloire du Soleil, ce qui vous confère %d de sauvegarde mentale et augmente vos points de vie maximum de %0.1f%% (Actuellement: %d).
+		The effects will increase with your Spellpower.]], [[Vous chantez la gloire du Soleil, ce qui vous confère %d de sauvegarde mentale et augmente vos points de vie maximum de %0.1f%% (Actuellement : %d).
 		Vous ne pouvez avoir qu'un seul chant actif à la fois.
 		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Chant of Fortress", "Chant de Forteresse", "talent name")
@@ -19175,9 +19175,9 @@ t([[You have learned to sing the praises of the Sun, in the form of three defens
 			Chant of Fortress: Increases your physical save by %d, your physical resistance by %d%%, your armour by %d and your armour hardiness by 15%%.
 			Chant of Resistance: Increases you spell save by %d, your fire/cold/lightning/acid resistances by %d%% and reduces all damage that comes from distant enemies (3 spaces or more) by %d%%.
 			You may only have one Chant active at a time.]], [[Vous avez appris à chanter les louanges du Soleil, sous la forme de trois Chants défensifs.
-			Chant de Fortitude: Augmente votre sauvegarde mentale de %d et vos points de vie maximum de %d%%.
-			Chant de Forteresse: Augmente votre sauvegarde physique de %d, votre résistance physique de %d%%, votre armure de %d et la robustesse d'armure de 15%%.
-			Chant de Résistance: Augmente votre sauvegarde contre les sorts de %d, vos résistances au feu, au froid, à la foudre et à l'acide de %d%% et réduit tous les dégâts infligés par les ennemis éloignés (à 3 cases ou plus) de %d%%.
+			Chant de Fortitude : Augmente votre sauvegarde mentale de %d et vos points de vie maximum de %d%%.
+			Chant de Forteresse : Augmente votre sauvegarde physique de %d, votre résistance physique de %d%%, votre armure de %d et la robustesse d'armure de 15%%.
+			Chant de Résistance : Augmente votre sauvegarde contre les sorts de %d, vos résistances au feu, au froid, à la foudre et à l'acide de %d%% et réduit tous les dégâts infligés par les ennemis éloignés (à 3 cases ou plus) de %d%%.
 			Vous ne pouvez avoir qu'un seul Chant actif à la fois.]], "tformat")
 t("Chant Illuminate", "Chant de Lumière", "talent name")
 t([[Your Chants now bathe you in a cloak of light, which increases your stamina and mana regenerations by %0.2f per turn and does %0.2f light damage to anyone who hits you in melee.
@@ -19210,13 +19210,13 @@ section "mod-tome/data/talents/celestial/circles.lua"
 
 t("Circle of Shifting Shadows", "Cercle des Ombres Changeantes", "talent name")
 t([[Creates a circle of radius %d at your feet; the circle increases your defense and all saves by %d while dealing %0.2f darkness damage per turn to everyone else within its radius. The circle lasts %d turns.
-		The damage will increase with your Spellpower.]], [[Crée un cercle de rayon %d à vos pieds; le cercle augmente votre défense et toutes vos sauvegardes de %d tout en infligeant %0.2f dégâts d'obscurité par tour à toutes les créatures dans son rayon. Le cercle dure %d tours.
+		The damage will increase with your Spellpower.]], [[Crée un cercle de rayon %d à vos pieds ; le cercle augmente votre défense et toutes vos sauvegardes de %d tout en infligeant %0.2f dégâts d'obscurité par tour à toutes les créatures dans son rayon. Le cercle dure %d tours.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Circle of Sanctity", "Cercle de Sainteté", "talent name")
-t("Creates a circle of radius %d at your feet; the circle protects you from silence effects while you remain in its radius while silencing and dealing %d light damage to everyone else who enters. The circle lasts %d turns.", "Crée un cercle de rayon %d à vos pieds; le cercle vous protège des effets de silence tant que vous restez dans son rayon tout en réduisant au silence et infligeant %d dégâts de lumière à toutes les créatures qui y entrent. Le cercle dure %d tours.", "tformat")
+t("Creates a circle of radius %d at your feet; the circle protects you from silence effects while you remain in its radius while silencing and dealing %d light damage to everyone else who enters. The circle lasts %d turns.", "Crée un cercle de rayon %d à vos pieds ; le cercle vous protège des effets de silence tant que vous restez dans son rayon tout en réduisant au silence et infligeant %d dégâts de lumière à toutes les créatures qui y entrent. Le cercle dure %d tours.", "tformat")
 t("Circle of Warding", "Cercle de Protection", "talent name")
 t([[Creates a circle of radius %d at your feet; the circle slows incoming projectiles by %d%% and attempts to push all creatures other than yourself out of its radius, inflicting %0.2f light damage and %0.2f darkness damage per turn as it does so.  The circle lasts %d turns.
-		The effects will increase with your Spellpower.]], [[Crée un cercle de rayon %d à vos pieds; le cercle ralentit les projectiles entrants de %d%% et tente de repousser toutes les créatures autres que vous hors de son rayon, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité par tour pendant ce temps. Le cercle dure %d tours.
+		The effects will increase with your Spellpower.]], [[Crée un cercle de rayon %d à vos pieds ; le cercle ralentit les projectiles entrants de %d%% et tente de repousser toutes les créatures autres que vous hors de son rayon, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité par tour pendant ce temps. Le cercle dure %d tours.
 		Les effets sont proportionnels à votre Puissances de Sorts.]], "tformat")
 t("Celestial Surge", "Surge Céleste", "talent name")
 t([[Conjure a surge of celestial power through your circles. Any foe standing within one of your circles will be slowed by %d%% for %d turns and take %d light and %d darkness damage.
@@ -19224,10 +19224,10 @@ t([[Conjure a surge of celestial power through your circles. Any foe standing wi
 		Shifting Shadows: +1 negative.
 		Sanctity: +1 postive.
 		Warding: +0.5 postive and negative.]], [[Convoquez une vague de puissance céleste à travers vos cercles. Tout ennemi se tenant dans l'un de vos cercles sera ralenti de %d%% pendant %d tours et subira %d dégâts de lumière et %d dégâts d'obscurité.
-		Le pouvoir résiduel de la vague émanera de vos cercles pendant %d tours; chaque cercle dans lequel vous vous tenez augmentera vos ressources célestes.
-		Ombres Changeantes: +1 négatif.
-		Sainteté: +1 positif.
-		Protection: +0.5 positif et négatif.]], "tformat")
+		Le pouvoir résiduel de la vague émanera de vos cercles pendant %d tours ; chaque cercle dans lequel vous vous tenez augmentera vos ressources célestes.
+		Ombres Changeantes : +1 négatif.
+		Sainteté : +1 positif.
+		Protection : +0.5 positif et négatif.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/combat.lua"
@@ -19252,7 +19252,7 @@ t([[In a pure display of power, you project a ranged melee attack, doing %d%% we
 t("Weapon of Wrath", "Arme de Colère", "talent name")
 t([[Your weapon attacks burn with righteous fury, dealing %d%% of your lost HP as additional Fire damage (up to %d, Current:  %d).
 		Targets struck are also afflicted with a Martyrdom effect that causes them to take %d%% of all damage they deal for 4 turns.
-		The bonus damage can only occur once per turn.]], [[Vos attaques d'arme brûlent de la fureur du juste, infligeant %d%% de vos PV perdus en tant que dégâts de feu supplémentaires (jusqu'à %d, actuellement: %d).
+		The bonus damage can only occur once per turn.]], [[Vos attaques d'arme brûlent de la fureur du juste, infligeant %d%% de vos PV perdus en tant que dégâts de feu supplémentaires (jusqu'à %d, actuellement : %d).
 		Les cibles touchées subissent également un effet de Supplice qui leur fait subir %d%% des dégâts qu'elles infligent pendant 4 tours.
 		Les dégâts supplémentaires ne peuvent se produire qu'une seule fois par tour.]], "tformat")
 t("Second Life", "Seconde Vie", "talent name")
@@ -19385,9 +19385,9 @@ t([[Even now, something compels you to sing.
 			Dirge of Conquest: Gives you part of a turn on critical (10%%) or kill (%d%%).
 			Dirge of Pestilence: Shields you for %d when an enemy inflicts a detrimental effect on you (5 turn cooldown).
 			You may only have one Dirge active at a time.]], [[Même maintenant, quelque chose vous pousse à chanter.
-			Réquiem de Famine: Augmente la régénération de vie de %d.
-			Réquiem de Conquête: Vous donne une partie d'un tour sur un critique (10%%) ou une mort (%d%%).
-			Réquiem de Pestilence: Vous protège d'un bouclier de %d lorsqu'un ennemi vous inflige un effet néfaste (5 tours de recharge).
+			Réquiem de Famine : Augmente la régénération de vie de %d.
+			Réquiem de Conquête : Vous donne une partie d'un tour sur un critique (10%%) ou une mort (%d%%).
+			Réquiem de Pestilence : Vous protège d'un bouclier de %d lorsqu'un ennemi vous inflige un effet néfaste (5 tours de recharge).
 			Vous ne pouvez avoir qu'un seul Réquiem actif à la fois.]], "tformat")
 t("Dirge Intoner", "Réquiem Intonneur", "talent name")
 t([[Your dirges carry the pain within you, which threatens to swallow those who come too close.  Anyone who hits you in melee suffers %0.2f mind damage.
@@ -19453,18 +19453,18 @@ t([[When one of your spells goes critical, you bind glyphs in radius 1 centered 
 		Les effets des glyphes sont proportionnels à votre Puissance des Sorts.
 
 		Les glyphes disponibles sont :
-		#ffd700#Glyphe de Lumière Solaire#LAST#: Liez la lumière solaire dans un glyphe. Lorsqu'il est déclenché, il libérera une lumière brillante, infligeant %0.2f dégâts de lumière et vous soignant de %d.
-		#7f7f7f#Glyphe de Clair de Lune#LAST#: Liez le clair de lune dans un glyphe. Lorsqu'il est déclenché, il libérera une obscurité fatigante, infligeant %0.2f dégâts d'obscurité et réduisant les dégâts infligés par l'ennemi de %d%% pendant %d tours.
-		#9D9DC9#Glyphe de Crépuscule#LAST#: Liez le crépuscule dans un glyphe. Lorsqu'il est déclenché, il libérera une explosion de crépuscule, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité et projetant l'ennemi de %d cases.
+		#ffd700#Glyphe de Lumière Solaire#LAST# : Liez la lumière solaire dans un glyphe. Lorsqu'il est déclenché, il libérera une lumière brillante, infligeant %0.2f dégâts de lumière et vous soignant de %d.
+		#7f7f7f#Glyphe de Clair de Lune#LAST# : Liez le clair de lune dans un glyphe. Lorsqu'il est déclenché, il libérera une obscurité fatigante, infligeant %0.2f dégâts d'obscurité et réduisant les dégâts infligés par l'ennemi de %d%% pendant %d tours.
+		#9D9DC9#Glyphe de Crépuscule#LAST# : Liez le crépuscule dans un glyphe. Lorsqu'il est déclenché, il libérera une explosion de crépuscule, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité et projetant l'ennemi de %d cases.
 		]], "tformat")
 t("Glyphs of Fury", "Glyphes de Furie", "talent name")
 t([[Your glyphs are imbued with celestial fury; they last %d turns longer and when triggered they will deal damage.
 		#ffd700#Glyph of Sunlight#LAST#:  Deals %0.2f light damage.
 		#7f7f7f#Glyph of Moonlight#LAST#:  Deals %0.2f darkness damage.
-		#9D9DC9#Glyph of Twilight#LAST#:  Deals %0.2f light and %0.2f darkness damage.]], [[Vos glyphes sont imprégnés d'une furie céleste; ils durent %d tours de plus et lorsqu'ils sont déclenchés, ils infligent des dégâts.
-		#ffd700#Glyphe de Lumière Solaire#LAST#: Inflige %0.2f dégâts de lumière.
-		#7f7f7f#Glyphe de Clair de Lune#LAST#: Inflige %0.2f dégâts d'obscurité.
-		#9D9DC9#Glyphe de Crépuscule#LAST#: Inflige %0.2f dégâts de lumière et %0.2f dégâts d'obscurité.]], "tformat")
+		#9D9DC9#Glyph of Twilight#LAST#:  Deals %0.2f light and %0.2f darkness damage.]], [[Vos glyphes sont imprégnés d'une furie céleste ; ils durent %d tours de plus et lorsqu'ils sont déclenchés, ils infligent des dégâts.
+		#ffd700#Glyphe de Lumière Solaire#LAST# : Inflige %0.2f dégâts de lumière.
+		#7f7f7f#Glyphe de Clair de Lune#LAST# : Inflige %0.2f dégâts d'obscurité.
+		#9D9DC9#Glyphe de Crépuscule#LAST# : Inflige %0.2f dégâts de lumière et %0.2f dégâts d'obscurité.]], "tformat")
 t("Empowered Glyphs", "Glyphes Renforcés", "talent name")
 t("Up to 3 times per turn when one of your glyphs triggers you feel a surge of celestial power, increasing your darkness and light resistance and affinity by 5%% for %d turns, stacking up to %d times.", "Jusqu'à 3 fois par tour, lorsqu'un de vos glyphes se déclenche, vous ressentez une poussée de puissance céleste augmentant votre résistance et affinité à l'obscurité et à la lumière de 5%% pendant %d tours, cumulable jusqu'à %d fois.", "tformat")
 t("Destabilize Glyphs", "Déstabiliser les Glyphes", "talent name")
@@ -19474,9 +19474,9 @@ t([[Destabilize your glyphs, triggering every glyph in radius 10 with an enemy s
 		#7f7f7f#Moonlight#LAST#:  %0.2f darkness damage.
 		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], [[Déstabilisez vos glyphes, déclenchant chaque glyphe dans un rayon de 10 avec un ennemi dessus.
 		Au niveau 2, les glyphes déclenchés de cette manière laisseront un résidu sur le sol infligeant des dégâts chaque tour pendant %d tours.
-		#ffd700#Glyphe de Lumière Solaire#LAST#: %0.2f dégâts de lumière.
-		#7f7f7f#Glyphe de Clair de Lune#LAST#: %0.2f dégâts d'obscurité.
-		#9D9DC9#Glyphe de Crépuscule#LAST#: %0.2f dégâts de lumière et %0.2f dégâts d'obscurité]], "tformat")
+		#ffd700#Glyphe de Lumière Solaire#LAST# : %0.2f dégâts de lumière.
+		#7f7f7f#Glyphe de Clair de Lune#LAST# : %0.2f dégâts d'obscurité.
+		#9D9DC9#Glyphe de Crépuscule#LAST# : %0.2f dégâts de lumière et %0.2f dégâts d'obscurité]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/guardian.lua"
@@ -19496,7 +19496,7 @@ t([[Hits the target with your weapon doing %d%% damage, and with a shield strike
 		Les dégâts de lumière sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Retribution", "Punition", "talent name")
 t("You cannot use Retribution without a shield!", "Vous ne pouvez pas utiliser Punition sans bouclier !", "logPlayer")
-t("#RED#Absorb Remaining: %d", "#RED#Absorbtion Restant: %d", "tformat")
+t("#RED#Absorb Remaining: %d", "#RED#Absorbtion Restant : %d", "tformat")
 t([[Retribution negates half of all damage you take while it is active. Once Retribution has negated %0.2f damage, your shield will explode in a burst of light, inflicting damage equal to the amount negated in a radius of %d and deactivating the talent.
 		The amount absorbed will increase with your Spellpower.
 		%s]], [[Punition annule la moitié des dégâts subis tant qu'elle est active. Une fois que Punition a annulé %0.2f dégâts, votre bouclier explose dans une gerbe de lumière, infligeant des dégâts égaux au montant annulé dans un rayon de %d et désactivant le talent.
@@ -19545,7 +19545,7 @@ t([[Chant the glory of the Moons, conjuring a shroud of dancing shadows that fol
 		You may only have one Hymn active at once.
 		The damage will increase with your Spellpower.]], [[Chantez la gloire des Lunes, conjurant un linceul d'ombres dansantes qui vous suit tant que ce sort est actif.
 		À chaque tour, un rayon ténébreux frappera jusqu'à %d de vos ennemis dans un rayon de 5 pour 1 à %0.2f dégâts.
-		Ce sort puissant drainera %0.1f énergie négative pour chaque rayon; aucun rayon ne sera tiré si votre énergie négative est trop faible.
+		Ce sort puissant drainera %0.1f énergie négative pour chaque rayon ; aucun rayon ne sera tiré si votre énergie négative est trop faible.
 		Vous ne pouvez avoir qu'un seul Hymne actif à la fois.
 		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Hymn Acolyte", "Hymne d'Acolyte", "talent name")
@@ -19557,10 +19557,10 @@ Hymn of Detection: Increases your ability to see stealthy creatures by %d and in
 
 Hymn of Perseverance: Increases your resistance to stun, confusion and blinding by %d%%.
 
-You may only have one Hymn active at a time.]], [[Vous avez appris à chanter les louanges des Lunes, sous la forme de trois Hymnes défensifs:
-Hymne des Ombres: Augmente votre vitesse de déplacement de %d%% et votre vitesse d'incantation de sort de %d%%.
-Hymne de Détection: Augmente votre capacité à voir les créatures furtives de %d et les créatures invisibles de %d, et augmente votre puissance critique de %d%%.
-Hymne de Persévérance: Augmente votre résistance à l'assomement, à la confusion et à l'aveuglement de %d%%.
+You may only have one Hymn active at a time.]], [[Vous avez appris à chanter les louanges des Lunes, sous la forme de trois Hymnes défensifs :
+Hymne des Ombres : Augmente votre vitesse de déplacement de %d%% et votre vitesse d'incantation de sort de %d%%.
+Hymne de Détection : Augmente votre capacité à voir les créatures furtives de %d et les créatures invisibles de %d, et augmente votre puissance critique de %d%%.
+Hymne de Persévérance : Augmente votre résistance à l'assomement, à la confusion et à l'aveuglement de %d%%.
 
 Vous ne pouvez avoir qu'un seul Hymne actif à la fois.]], "tformat")
 t("Hymn Incantor", "Hymne d'Incantateur", "talent name")
@@ -19583,7 +19583,7 @@ t([[Your passion for singing the praises of the Moons reaches its zenith.
 		This powerful effect will drain %0.1f negative energy each time it fires at at least 1 target; no beam will fire if your negative energy is too low.
 		These values scale with your Spellpower.]], [[Votre passion pour chanter les louanges des Lunes atteint son zénith.
 		Vos Hymnes tirent désormais des rayons ténébreux qui frapperont jusqu'à %d de vos ennemis dans un rayon de 5 pour %0.2f dégâts, avec 25%% de chances d'aveuglement.
-		Cet effet puissant drainera %0.1f énergie négative chaque fois qu'il tire sur au moins 1 cible; aucun rayon ne sera tiré si votre énergie négative est trop faible.
+		Cet effet puissant drainera %0.1f énergie négative chaque fois qu'il tire sur au moins 1 cible ; aucun rayon ne sera tiré si votre énergie négative est trop faible.
 		Ces valeurs sont proportionnels à votre Puissance de Sort.]], "tformat")
 
 ------------------------------------------------
@@ -19764,14 +19764,14 @@ t("Twilight", "Crépuscule", "talent name")
 t([[You stand between the darkness and the light, allowing you to convert 15 positive energy into %d negative energy.
 		The negative energy gain will increase with your Cunning.]], [[Vous vous tenez entre l'obscurité et la lumière, vous permettant de convertir 15 énergie positive en %d énergie négative.
 		Le gain d'énergie négative est proportionnel à votre Ruse.]], "tformat")
-t("Jumpgate: Teleport To", "Portail de Saut: Téléportation", "talent name")
+t("Jumpgate: Teleport To", "Portail de Saut : Téléportation", "talent name")
 t("You must sustain the Jumpgate spell to be able to teleport.", "Vous devez maintenir le sort Portail de Saut pour pouvoir vous téléporter.", "logPlayer")
 t("Instantly travel to your jumpgate, as long as you are within %d tiles of it.", "Voyagez instantanément vers votre portail de saut, tant que vous êtes à moins de %d cases de celui-ci.", "tformat")
 t("Jumpgate", "Portail de Saut", "talent name")
 t("jumpgate", "portail de saut", "_t")
 t([[Create a shadow jumpgate at your current location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within %d tiles of it.
 		Note that any stairs underneath the jumpgate will be unusable while the spell is sustained, and you may need to cancel this sustain in order to leave certain locations.
-		At talent level 4, you learn to create and sustain a second jumpgate.]], [[Créez un portail de saut d'ombre à votre emplacement actuel. Tant que vous maintenez ce sort, vous pouvez utiliser 'Portail de Saut: Téléportation' pour voyager instantanément vers le portail de saut, tant que vous êtes à moins de %d cases de celui-ci.
+		At talent level 4, you learn to create and sustain a second jumpgate.]], [[Créez un portail de saut d'ombre à votre emplacement actuel. Tant que vous maintenez ce sort, vous pouvez utiliser 'Portail de Saut : Téléportation' pour voyager instantanément vers le portail de saut, tant que vous êtes à moins de %d cases de celui-ci.
 		Notez que tout escalier situé sous le portail de saut sera inutilisable tant que le sort est maintenu, et vous devrez peut-être annuler ce maintien pour quitter certains lieux.
 		Au niveau 4, vous apprenez à créer et maintenir un second portail de saut.]], "tformat")
 t("Mind Blast", "Explosion Mentale", "talent name")
@@ -19790,8 +19790,8 @@ t([[Creates a shadowy copy of a hostile target. The copy will attack its progeni
 		Le duplicata a %d%% de la vie de la cible, +50%% de résistance aux ténèbres, -50%% de résistance à la lumière, et inflige 50%% de dégâts en moins.
 		La durée et la vie sont proportionnels à votre Ruse.]], "tformat")
 t("Jumpgate Two", "Portail de Saut Deux", "talent name")
-t("Create a second shadow jumpgate at your location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within %d tiles of it.", "Créez un second portail de saut d'ombre à votre emplacement. Tant que vous maintenez ce sort, vous pouvez utiliser 'Portail de Saut: Téléportation' pour voyager instantanément vers le portail de saut, tant que vous êtes à moins de %d cases de celui-ci.", "tformat")
-t("Jumpgate Two: Teleport To", "Portail de Saut Deux: Téléportation", "talent name")
+t("Create a second shadow jumpgate at your location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within %d tiles of it.", "Créez un second portail de saut d'ombre à votre emplacement. Tant que vous maintenez ce sort, vous pouvez utiliser 'Portail de Saut : Téléportation' pour voyager instantanément vers le portail de saut, tant que vous êtes à moins de %d cases de celui-ci.", "tformat")
+t("Jumpgate Two: Teleport To", "Portail de Saut Deux : Téléportation", "talent name")
 t("You must sustain the Jumpgate Two spell to be able to teleport.", "Vous devez maintenir le sort Portail de Saut Deux pour pouvoir vous téléporter.", "logPlayer")
 t("Instantly travel to your second jumpgate, as long as you are within %d tiles of it.", "Voyagez instantanément vers votre second portail de saut, tant que vous êtes à moins de %d cases de celui-ci.", "tformat")
 
@@ -21254,7 +21254,7 @@ t([[Feed on the pain you cause your foes.
 section "mod-tome/data/talents/corruptions/scourge.lua"
 
 t("Corrupting Strike", "Frappe de Corruption", "talent name")
-t("You cannot use Corrupting Strike without two weapons!", "Vous ne pouvez pas utiliser Frappe de Corruption sans avoir deux armes!", "logPlayer")
+t("You cannot use Corrupting Strike without two weapons!", "Vous ne pouvez pas utiliser Frappe de Corruption sans avoir deux armes !", "logPlayer")
 t("Corrupt the target reducing disease immunity by 100%% for 2 turns and stripping up to 2 nature sustains then strike with both your weapons dealing %d%% damage.", "Corrompt la cible réduisant l'immunité aux maladies de 100%% pendant 2 tours et enlevant jusqu'à 2 effets soutenus de la nature puis frappe avec vos deux armes infligeant %d%% dégâts.", "tformat")
 -- texte non traduit
 --[==[
@@ -21462,132 +21462,132 @@ t([[You veil yourself in shadows and let them control you.
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/artifice.lua"
 
-t("none", "aucun", "_t")
-t("#Source# strikes at a vital spot on #target#!", "#Source# frappe un point vital de #Target# !", "logCombat")
-t("Rogue's Brew", "Breuvage du Brigand", "talent name")
-t("%s is cured!", "%s est soigné !", "logSeen")
-t("You cannot move!", "Vous ne pouvez pas vous déplacer !", "logPlayer")
-t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
--- texte non traduit
---[==[
 t([[#YELLOW#%s (prepared, level %s)#LAST#:
-]], [[#YELLOW#%s (prepared, level %s)#LAST#:
+]], [[#YELLOW#%s (préparé, niveau %s)#LAST#:
 ]], "tformat")
 t([[#GREY#(see talent description)#LAST#
-]], [[#GREY#(see talent description)#LAST#
+]], [[#GREY#(voir la description du talent)#LAST#
 ]], "_t")
-t("#GREY#You notice %s has prepared: %s.", "#GREY#You notice %s has prepared: %s.", "logSeen")
-t("Rogue's Tools", "Rogue's Tools", "talent name")
+t("#GREY#You notice %s has prepared: %s.", "#GREY#Vous remarquez que %s a préparé : %s.", "logSeen")
+t("Rogue's Tools", "Outils du Voleur", "talent name")
 t([[With some advanced preparation, you learn to create and equip one of a number of useful tools (at #YELLOW#level %d#WHITE#):
 
 %s
 Preparing a tool sets its talent level and puts it on cooldown.
-]], [[With some advanced preparation, you learn to create and equip one of a number of useful tools (at #YELLOW#level %d#WHITE#):
+]], [[Avec une préparation avancée, vous apprenez à créer et équiper l'un des nombreux outils utiles (au #YELLOW#niveau %d#WHITE#) :
 
 %s
-Preparing a tool sets its talent level and puts it on cooldown.
+Préparer un outil définit son niveau de talent et le met en rechargement.
 ]], "tformat")
-t("Cunning Tools", "Cunning Tools", "talent name")
+t("Cunning Tools", "Outils Ingénieux", "talent name")
 t([[With some advanced preparation, you learn to create and equip a second tool (at #YELLOW#level %d#WHITE#):
 
 %s
 Preparing a tool sets its talent level and puts it on cooldown.
 Only one tool of each type can be equipped at a time.
-]], [[With some advanced preparation, you learn to create and equip a second tool (at #YELLOW#level %d#WHITE#):
+]], [[Avec une préparation avancée, vous apprenez à créer et équiper un second outil (au #YELLOW#niveau %d#WHITE#) :
 
 %s
-Preparing a tool sets its talent level and puts it on cooldown.
-Only one tool of each type can be equipped at a time.
+Préparer un outil définit son niveau de talent et le met en rechargement.
+Un seul outil de chaque type peut être équipé à la fois.
 ]], "tformat")
-t("Intricate Tools", "Intricate Tools", "talent name")
+t("Intricate Tools", "Outils Complexes", "talent name")
 t([[With some advanced preparation, you learn to create and equip a third tool (at #YELLOW#level %d#WHITE#):
 
 %s
 Preparing a tool sets its talent level and puts it on cooldown.
 Only one tool of each type can be equipped at a time.
-]], [[With some advanced preparation, you learn to create and equip a third tool (at #YELLOW#level %d#WHITE#):
+]], [[Avec une préparation avancée, vous apprenez à créer et équiper un troisième outil (au #YELLOW#niveau %d#WHITE#) :
 
 %s
-Preparing a tool sets its talent level and puts it on cooldown.
-Only one tool of each type can be equipped at a time.
+Préparer un outil définit son niveau de talent et le met en rechargement.
+Un seul outil de chaque type peut être équipé à la fois.
 ]], "tformat")
-t("Master Artificer", "Master Artificer", "talent name")
+t("Master Artificer", "Maître Artificier", "talent name")
+t("none", "aucun", "_t")
+t([[You become a master of your craft, allowing you to focus on a single tool (#YELLOW#currently %s#LAST#) to greatly improve its capabilities:
+
+%s
+The effects depend on this talent's level.
+Mastering a new tool places it (and its special effects, as appropriate) on cooldown.]], [[Vous devenez un maître dans votre art, vous permettant de vous concentrer sur un seul outil (#YELLOW#actuellement : %s#LAST#) pour en améliorer grandement les capacités :
+
+%s
+Les effets dépendent du niveau de ce talent.
+La maîtrise d'un nouvel outil le met en rechargement (ainsi que ses effets spéciaux, le cas échéant).]], "tformat")
+t("Hidden Blades", "Lames Cachées", "talent name")
+t("#Source# strikes #target# with hidden blades!", "#Source# frappe #Target# avec des lames cachées !", "logCombat")
+t("Melee criticals trigger an extra unarmed attack, inflicting %d%% damage. 4 turn cooldown.", "Les coups critiques de mêlée déclenchent une attaque à mains nues supplémentaire, infligeant %d%% dégâts. Rechargement de 4 tours.", "tformat")
+t("not prepared", "non préparé", "_t")
+t([[You conceal spring loaded blades within your equipment. On scoring a critical strike, you follow up with your blades for %d%% damage (as an unarmed attack).
+This talent has a cooldown.
+#YELLOW#Prepared with: %s#LAST#]], [[Vous dissimulez des lames à ressort dans votre équipement. En portant un coup critique, vous enchaînez avec vos lames pour %d%% dégâts (en tant qu'attaque à mains nues).
+Ce talent a un rechargement.
+#YELLOW#Préparé avec : %s#LAST#]], "tformat")
+t("Assassinate", "Assassiner", "talent name")
+t("You must have Hidden Blades prepared to use this talent.", "Vous devez avoir les Lames Cachées préparées pour utiliser ce talent.", "logPlayer")
+t("#Source# strikes at a vital spot on #target#!", "#Source# frappe un point vital de #Target# !", "logCombat")
+t("You prime your Hidden Blades to cause bleeding and facilitate the Assassinate ability, which allows you to strike twice for %d%% unarmed damage, hitting automatically while ignoring armor and resistance.", "Vous préparez vos Lames Cachées pour causer un saignement et faciliter la capacité Assassiner, vous permettant de frapper deux fois pour %d%% dégâts à mains nues par coup, en touchant automatiquement et en ignorant l'armure et la résistance physique.", "tformat")
+t([[You strike your target with your Hidden Blades twice in a vital spot for %d%% unarmed (physical) damage.  You must be able to see your target to use this attack, but it always hits and ignores all armor and physical resistance.
+In addition, your hidden blades now inflict a further %d%% of all damage dealt as bleeding over 5 turns.]], [[Vous frappez votre cible avec vos Lames Cachées deux fois en un point vital pour %d%% dégâts physiques à mains nues. Vous devez pouvoir voir votre cible pour utiliser cette attaque, mais elle touche toujours et ignore toute l'armure et la résistance physique.
+De plus, vos Lames Cachées infligent désormais %d%% de tous les dégâts infligés sous forme de saignement sur 5 tours.]], "tformat")
+t("Rogue's Brew", "Breuvage du Brigand", "talent name")
+t("%s is cured!", "%s est soigné !", "logSeen")
+t("Prepare a potion that restores %d life, %d stamina, and cures %d negative physical effects. 20 turn cooldown.", "Prépare une potion qui restaure %d points de vie, %d d'endurance, et soigne %d effet(s) physique(s) négatif(s). Rechargement de 20 tours.", "tformat")
+t([[Imbibe a potent mixture of energizing and restorative substances, restoring %d life, %d stamina and curing %d detrimental physical effects.  The restorative effects improve with your Cunning.
+	#YELLOW#Prepared with: %s#LAST#]], [[Ingérez un puissant mélange de substances énergisantes et restauratrices, restaurant %d points de vie, %d d'endurance, et soignant %d effet(s) physique(s) négatif(s). Les effets restaurateurs sont propotionnels à votre Ruse.
+	#YELLOW#Préparé avec : %s#LAST#]], "tformat")
+t("Rogue's Brew Mastery", "Maîtrise du Breuvage du Brigand", "talent name")
+t("Your Rogue's Brew fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "Votre Breuvage du Brigand vous fortifie pendant 8 tours, vous empêchant de mourir jusqu'à ce que vous atteigniez -%d points de vie.", "tformat")
+t("Adjust your Rogue's Brew formulation so that it fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "Ajustez la formule de votre Breuvage du Brigand pour qu'elle vous fortifie pendant 8 tours, vous empêchant de mourir jusqu'à ce que vous atteigniez -%d points de vie.", "tformat")
+t("Smokescreen", "Écran de Fumée", "talent name")
+t("Throw a smokebomb creating a radius 2 cloud of smoke, lasting %d turns, that blocks sight and reduces enemies' vision by %d. 15 turn cooldown.", "Lance une bombe fumigène créant un nuage de fumée de rayon 2 durant %d tours, bloquant la ligne de vue et réduisant la portée de vision des ennemis de %d. Rechargement de 15 tours.", "tformat")
+t([[Throw a vial of volatile liquid that explodes in a radius %d cloud of smoke lasting %d turns.  The smoke blocks line of sight, and enemies within will have their vision range reduced by %d.
+		Use of this talent will not break stealth, and creatures affected by the smokes can never prevent you from activating stealth, even if their proximity would normally forbid it.
+		#YELLOW#Prepared with: %s#LAST#]], [[Lancez un flacon de liquide volatil qui explose en un nuage de fumée dans un rayon de %d cases durant %d tours. La fumée bloque la ligne de vue et les ennemis à l'intérieur verront leur portée de vision réduite de %d.
+		L'utilisation de ce talent ne rompt pas la furtivité, et les créatures affectées par la fumée ne peuvent jamais vous empêcher d'activer la furtivité, même si leur proximité l'interdirait normalement.
+		#YELLOW#Préparé avec : %s#LAST#]], "tformat")
+t("Smokescreen Mastery", "Maîtrise de l'Écran de Fumée", "talent name")
+t("Your Smokescreen is infused with chokedust. Enemies in the smoke take %0.2f nature damage and may be silenced.", "Votre Écran de Fumée est infusé de poussière asphyxiante. Les ennemis dans la fumée subissent %0.2f de dégâts de nature et peuvent être réduits au silence.", "tformat")
+t("You infuse your smoke bomb with chokedust. Each turn, enemies in the smoke take %0.2f nature damage and are 50%% likely to be silenced.", "Vous infusez votre bombe fumigène avec de la poussière asphyxiante. À chaque tour, les ennemis dans la fumée subissent %0.2f de dégâts de nature et ont 50%% de chance d'être réduits au silence.", "tformat")
+t("Dart Launcher", "Lance-Dards", "talent name")
+t("%s resists the sedation!", "%s résiste à la sédation !", "logSeen")
+t("Fire a poisoned dart dealing %0.2f physical damage that puts the target to sleep for 4 turns. 10 turn cooldown.", "Tire un dard empoisonné infligeant %0.2f de dégâts physiques et endormant la cible pendant 4 tours. Rechargement de 10 tours.", "tformat")
+t([[Fire a poisoned dart from a silent, concealed launcher on your person that deals %0.2f physical damage and puts the target (living only) to sleep for 4 turns, rendering them unable to act. Every %d points of damage the target takes brings it closer to waking by 1 turn.
+This can be used without breaking stealth.
+#YELLOW#Prepared with: %s#LAST#]], [[Tirez un dard empoisonné depuis un lanceur silencieux et dissimulé, infligeant %0.2f dégâts physiques et endormant la cible (êtres vivants uniquement) pendant 4 tours, l'empêchant d'agir. Pour chaque %d dégâts reçus, la cible se réveille 1 tour plus tôt.
+Peut être utilisé sans rompre la furtivité.
+#YELLOW#Préparé avec : %s#LAST#]], "tformat")
+t("Dart Launcher Mastery", "Maîtrise du Lance-Dards", "talent name")
+t("Your darts ignore poison and sleep immunity and waking targets are slowed by %d%% for 4 turns.", "Vos dards ignorent les immunités au poison et au sommeil, et les cibles à leur réveil subissent %d%% de ralentissement pendant 4 tours.", "tformat")
+t("The sleeping poison of your Dart Launcher becomes potent enough to ignore immunity, and upon waking the target is slowed by %d%% for 4 turns.", "Le poison soporifique de votre Lance-Dards devient suffisamment puissant pour ignorer les immunités, et à son réveil, la cible subit %d%% de ralentissement pendant 4 tours.", "tformat")
+t("Grappling Hook", "Grappin", "talent name")
+t("You are too close to your target to swing your hook effectively!", "Vous êtes trop près de votre cible pour utiliser votre grappin efficacement !", "logPlayer")
+t("You cannot move!", "Vous ne pouvez pas vous déplacer !", "logPlayer")
+t("#Source# throws a grappling hook at #target#!", "#Source# lance un grappin sur #Target# !", "logCombat")
+t("#Source#'s grappling hook latches onto #target#!", "Le grappin de #Source# s'accroche à #Target# !", "logCombat")
+t("#Source# is dragged towards #target#!", "#Source# est traîné vers #Target# !", "logCombat")
+t("#Target# is dragged towards #source#!", "#Target# est traîné vers #Source# !", "logCombat")
+t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
+t("You need more room to swing your hook effectively.", "Vous avez besoin de plus d'espace pour utiliser votre grappin efficacement.", "logPlayer")
+t("%s uses a grappling hook to pull %s %s!", "%s utilise un grappin pour tirer %s vers %s !", "logSeen")
+t("You must anchor the hook to something solid.", "Vous devez ancrer le grappin à quelque chose de solide.", "logPlayer")
+t("Throw a grappling hook up to range %d that drags you towards the target or the target towards you. 8 turn cooldown.", "Lance un grappin jusqu'à %d cases de distance qui vous attire vers la cible ou attire la cible vers vous. Rechargement de 8 tours.", "tformat")
+t([[Toss out a grappling hook to a target within range %d.  If this strikes either a wall or a creature that is immovable or larger than you, you will pull yourself towards it, otherwise, you will drag the target towards you.  Creatures struck by the hook will be pinned for 2 turns.
+		Your grapple target must be at least 2 tiles from you.
+#YELLOW#Prepared with: %s#LAST#]], [[Lancez un grappin vers une cible dans un rayon de %d cases. S'il frappe un mur ou une créature inamovible ou plus grande que vous, vous vous lancerez vers elle ; sinon, vous attirerez la cible vers vous. Les créatures frappées par le grappin seront immobilisées pendant 2 tours.
+		La cible de votre grappin doit être à au moins 2 cases de vous.
+#YELLOW#Préparé avec : %s#LAST#]], "tformat")
+t("Grappling Hook Mastery", "Maîtrise du Grappin", "talent name")
+t("Your grappling hook deals %d%% unarmed damage when it hits, plus a further %0.2f physical and %0.2f nature damage over 4 turns.", "Votre grappin inflige %d%% dégâts à mains nues lorsqu'il touche, plus %0.2f dégâts physiques et %0.2f dégâts de nature supplémentaires sur 4 tours.", "tformat")
+t("Your grappling hook is tipped with vicious, venomous barbs. Creatures struck by it will be hit for %d%% unarmed damage, bleed for %0.2f physical damage and be poisoned for %0.2f nature damage over 4 turns.", "Votre grappin est muni de barbes cruelles et venimeuses. Les créatures frappées subissent %d%% dégâts à mains nues, saignent pour %0.2f dégâts physiques et sont empoisonnées pour %0.2f dégâts de nature sur 4 tours.", "tformat")
+-- texte non traduit
+--[==[
 t([[#YELLOW#%s (%s)#LAST#
 ]], [[#YELLOW#%s (%s)#LAST#
 ]], "tformat")
 t([[%s (%s)
 ]], [[%s (%s)
 ]], "tformat")
-t([[You become a master of your craft, allowing you to focus on a single tool (#YELLOW#currently %s#LAST#) to greatly improve its capabilities:
-
-%s
-The effects depend on this talent's level.
-Mastering a new tool places it (and its special effects, as appropriate) on cooldown.]], [[You become a master of your craft, allowing you to focus on a single tool (#YELLOW#currently %s#LAST#) to greatly improve its capabilities:
-
-%s
-The effects depend on this talent's level.
-Mastering a new tool places it (and its special effects, as appropriate) on cooldown.]], "tformat")
-t("Hidden Blades", "Hidden Blades", "talent name")
-t("#Source# strikes #target# with hidden blades!", "#Source# strikes #target# with hidden blades!", "logCombat")
-t("Melee criticals trigger an extra unarmed attack, inflicting %d%% damage. 4 turn cooldown.", "Melee criticals trigger an extra unarmed attack, inflicting %d%% damage. 4 turn cooldown.", "tformat")
-t("not prepared", "not prepared", "_t")
-t([[You conceal spring loaded blades within your equipment. On scoring a critical strike, you follow up with your blades for %d%% damage (as an unarmed attack).
-This talent has a cooldown.
-#YELLOW#Prepared with: %s#LAST#]], [[You conceal spring loaded blades within your equipment. On scoring a critical strike, you follow up with your blades for %d%% damage (as an unarmed attack).
-This talent has a cooldown.
-#YELLOW#Prepared with: %s#LAST#]], "tformat")
-t("Assassinate", "Assassinate", "talent name")
-t("You must have Hidden Blades prepared to use this talent.", "You must have Hidden Blades prepared to use this talent.", "logPlayer")
-t("You prime your Hidden Blades to cause bleeding and facilitate the Assassinate ability, which allows you to strike twice for %d%% unarmed damage, hitting automatically while ignoring armor and resistance.", "You prime your Hidden Blades to cause bleeding and facilitate the Assassinate ability, which allows you to strike twice for %d%% unarmed damage, hitting automatically while ignoring armor and resistance.", "tformat")
-t([[You strike your target with your Hidden Blades twice in a vital spot for %d%% unarmed (physical) damage.  You must be able to see your target to use this attack, but it always hits and ignores all armor and physical resistance.
-In addition, your hidden blades now inflict a further %d%% of all damage dealt as bleeding over 5 turns.]], [[You strike your target with your Hidden Blades twice in a vital spot for %d%% unarmed (physical) damage.  You must be able to see your target to use this attack, but it always hits and ignores all armor and physical resistance.
-In addition, your hidden blades now inflict a further %d%% of all damage dealt as bleeding over 5 turns.]], "tformat")
-t("Prepare a potion that restores %d life, %d stamina, and cures %d negative physical effects. 20 turn cooldown.", "Prepare a potion that restores %d life, %d stamina, and cures %d negative physical effects. 20 turn cooldown.", "tformat")
-t([[Imbibe a potent mixture of energizing and restorative substances, restoring %d life, %d stamina and curing %d detrimental physical effects.  The restorative effects improve with your Cunning.
-	#YELLOW#Prepared with: %s#LAST#]], [[Imbibe a potent mixture of energizing and restorative substances, restoring %d life, %d stamina and curing %d detrimental physical effects.  The restorative effects improve with your Cunning.
-	#YELLOW#Prepared with: %s#LAST#]], "tformat")
-t("Rogue's Brew Mastery", "Rogue's Brew Mastery", "talent name")
-t("Your Rogue's Brew fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "Your Rogue's Brew fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "tformat")
-t("Adjust your Rogue's Brew formulation so that it fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "Adjust your Rogue's Brew formulation so that it fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "tformat")
-t("Smokescreen", "Smokescreen", "talent name")
-t("Throw a smokebomb creating a radius 2 cloud of smoke, lasting %d turns, that blocks sight and reduces enemies' vision by %d. 15 turn cooldown.", "Throw a smokebomb creating a radius 2 cloud of smoke, lasting %d turns, that blocks sight and reduces enemies' vision by %d. 15 turn cooldown.", "tformat")
-t([[Throw a vial of volatile liquid that explodes in a radius %d cloud of smoke lasting %d turns.  The smoke blocks line of sight, and enemies within will have their vision range reduced by %d.
-		Use of this talent will not break stealth, and creatures affected by the smokes can never prevent you from activating stealth, even if their proximity would normally forbid it.
-		#YELLOW#Prepared with: %s#LAST#]], [[Throw a vial of volatile liquid that explodes in a radius %d cloud of smoke lasting %d turns.  The smoke blocks line of sight, and enemies within will have their vision range reduced by %d.
-		Use of this talent will not break stealth, and creatures affected by the smokes can never prevent you from activating stealth, even if their proximity would normally forbid it.
-		#YELLOW#Prepared with: %s#LAST#]], "tformat")
-t("Smokescreen Mastery", "Smokescreen Mastery", "talent name")
-t("Your Smokescreen is infused with chokedust. Enemies in the smoke take %0.2f nature damage and may be silenced.", "Your Smokescreen is infused with chokedust. Enemies in the smoke take %0.2f nature damage and may be silenced.", "tformat")
-t("You infuse your smoke bomb with chokedust. Each turn, enemies in the smoke take %0.2f nature damage and are 50%% likely to be silenced.", "You infuse your smoke bomb with chokedust. Each turn, enemies in the smoke take %0.2f nature damage and are 50%% likely to be silenced.", "tformat")
-t("Dart Launcher", "Dart Launcher", "talent name")
-t("%s resists the sedation!", "%s resists the sedation!", "logSeen")
-t("Fire a poisoned dart dealing %0.2f physical damage that puts the target to sleep for 4 turns. 10 turn cooldown.", "Fire a poisoned dart dealing %0.2f physical damage that puts the target to sleep for 4 turns. 10 turn cooldown.", "tformat")
-t([[Fire a poisoned dart from a silent, concealed launcher on your person that deals %0.2f physical damage and puts the target (living only) to sleep for 4 turns, rendering them unable to act. Every %d points of damage the target takes brings it closer to waking by 1 turn.
-This can be used without breaking stealth.
-#YELLOW#Prepared with: %s#LAST#]], [[Fire a poisoned dart from a silent, concealed launcher on your person that deals %0.2f physical damage and puts the target (living only) to sleep for 4 turns, rendering them unable to act. Every %d points of damage the target takes brings it closer to waking by 1 turn.
-This can be used without breaking stealth.
-#YELLOW#Prepared with: %s#LAST#]], "tformat")
-t("Dart Launcher Mastery", "Dart Launcher Mastery", "talent name")
-t("Your darts ignore poison and sleep immunity and waking targets are slowed by %d%% for 4 turns.", "Your darts ignore poison and sleep immunity and waking targets are slowed by %d%% for 4 turns.", "tformat")
-t("The sleeping poison of your Dart Launcher becomes potent enough to ignore immunity, and upon waking the target is slowed by %d%% for 4 turns.", "The sleeping poison of your Dart Launcher becomes potent enough to ignore immunity, and upon waking the target is slowed by %d%% for 4 turns.", "tformat")
-t("Grappling Hook", "Grappling Hook", "talent name")
-t("You are too close to your target to swing your hook effectively!", "You are too close to your target to swing your hook effectively!", "logPlayer")
-t("#Source# throws a grappling hook at #target#!", "#Source# throws a grappling hook at #target#!", "logCombat")
-t("#Source#'s grappling hook latches onto #target#!", "#Source#'s grappling hook latches onto #target#!", "logCombat")
-t("#Source# is dragged towards #target#!", "#Source# is dragged towards #target#!", "logCombat")
-t("#Target# is dragged towards #source#!", "#Target# is dragged towards #source#!", "logCombat")
-t("You need more room to swing your hook effectively.", "You need more room to swing your hook effectively.", "logPlayer")
-t("%s uses a grappling hook to pull %s %s!", "%s uses a grappling hook to pull %s %s!", "logSeen")
-t("You must anchor the hook to something solid.", "You must anchor the hook to something solid.", "logPlayer")
-t("Throw a grappling hook up to range %d that drags you towards the target or the target towards you. 8 turn cooldown.", "Throw a grappling hook up to range %d that drags you towards the target or the target towards you. 8 turn cooldown.", "tformat")
-t([[Toss out a grappling hook to a target within range %d.  If this strikes either a wall or a creature that is immovable or larger than you, you will pull yourself towards it, otherwise, you will drag the target towards you.  Creatures struck by the hook will be pinned for 2 turns.
-		Your grapple target must be at least 2 tiles from you.
-#YELLOW#Prepared with: %s#LAST#]], [[Toss out a grappling hook to a target within range %d.  If this strikes either a wall or a creature that is immovable or larger than you, you will pull yourself towards it, otherwise, you will drag the target towards you.  Creatures struck by the hook will be pinned for 2 turns.
-		Your grapple target must be at least 2 tiles from you.
-#YELLOW#Prepared with: %s#LAST#]], "tformat")
-t("Grappling Hook Mastery", "Grappling Hook Mastery", "talent name")
-t("Your grappling hook deals %d%% unarmed damage when it hits, plus a further %0.2f physical and %0.2f nature damage over 4 turns.", "Your grappling hook deals %d%% unarmed damage when it hits, plus a further %0.2f physical and %0.2f nature damage over 4 turns.", "tformat")
-t("Your grappling hook is tipped with vicious, venomous barbs. Creatures struck by it will be hit for %d%% unarmed damage, bleed for %0.2f physical damage and be poisoned for %0.2f nature damage over 4 turns.", "Your grappling hook is tipped with vicious, venomous barbs. Creatures struck by it will be hit for %d%% unarmed damage, bleed for %0.2f physical damage and be poisoned for %0.2f nature damage over 4 turns.", "tformat")
 --]==]
 
 
@@ -21671,19 +21671,19 @@ section "mod-tome/data/talents/cunning/dirty.lua"
 
 t("Dirty Fighting", "Coups Bas", "talent name")
 t([[You make a low blow against a sensitive point on the target, dealing %d%% unarmed damage. If your attack hits, the target is left reeling and vulnerable, reducing their physical save by %d and their stun, blind, confusion and pin immunities to 50%% of normal for %d turns.
-This effect bypasses saves.]], [[Vous portez un coup bas visant un point sensible de la cible, infligeant %d%% dégâts à mains nues. Si votre attaque porte, la cible se retrouve chancelante et vulnérable; son jet de sauvegarde physique est réduit de %d, et ses immunités à l'assomement, à la cécité, à la confusion et à l'immobilisation passent à 50%% de leur valeur normale pour %d tours.
+This effect bypasses saves.]], [[Vous portez un coup bas visant un point sensible de la cible, infligeant %d%% dégâts à mains nues. Si votre attaque porte, la cible se retrouve chancelante et vulnérable ; son jet de sauvegarde physique est réduit de %d, et ses immunités à l'assomement, à la cécité, à la confusion et à l'immobilisation passent à 50%% de leur valeur normale pour %d tours.
 Cet effet ignore les jets de sauvegarde.]], "tformat")
 t("Backstab", "Frappe dans le dos", "talent name")
 t([[Your quick wit gives you a big advantage against disabled targets, increasing your damage by %d%% for each disabling effect the target is under, to a maximum of %d%%.
 For this purpose, disabling effects are stun, blind, daze, confuse, pin, disarm, cripple and silence.
 In addition, for each disabling effect the target is under, your melee attacks have a %d%% (to a maximum of %d%%) chance to inflict a new effect on them (that they do not already have): either disarm, cripple (25%% power) or pin for 2 turns.
-The chance to further disable the target increases with your Accuracy.]], [[Votre vivacité d'esprit vous confère un avantage majeur face aux cibles affectées par des altérations incapacitantes: vos dégâts augmentent de %d%% pour chaque effet de ce type subi par la cible, jusqu'à un maximum de %d%%.
-À cet effet, les altérations incapacitantes incluent: assomement, aveuglement, étourdissement, confusion, immobilisation, désarmement, éstropiation, et silence.
-De plus, pour chaque altération incapacitante subie par la cible, vos attaques au corps à corps ont %d%% chances (jusqu'à un maximum de %d%%) de lui infliger un nouvel effet (qu'elle ne subit pas encore): désarmement, éstropiation (puissance de 25%%) ou immobilisation pendant 2 tours.
+The chance to further disable the target increases with your Accuracy.]], [[Votre vivacité d'esprit vous confère un avantage majeur face aux cibles affectées par des altérations incapacitantes : vos dégâts augmentent de %d%% pour chaque effet de ce type subi par la cible, jusqu'à un maximum de %d%%.
+À cet effet, les altérations incapacitantes incluent : assomement, aveuglement, étourdissement, confusion, immobilisation, désarmement, éstropiation, et silence.
+De plus, pour chaque altération incapacitante subie par la cible, vos attaques au corps à corps ont %d%% chances (jusqu'à un maximum de %d%%) de lui infliger un nouvel effet (qu'elle ne subit pas encore) : désarmement, éstropiation (puissance de 25%%) ou immobilisation pendant 2 tours.
 Les chances d'infliger une altération supplémentaire sont proportionnels à votre Précision.]], "tformat")
 t("Blinding Powder", "Poudre Aveuglante", "talent name")
 t([[Throw a cloud of blinding dust in a radius %d cone. Enemies within will be blinded, as well as having their accuracy reduced by %d and movement speed decreased by %d%% for %d turns.
-		The chance to inflict these effects increase with your Accuracy.]], [[Projetez un nuage de poussière aveuglante dans un cône d'une portée de %d. Les ennemis touchés seront aveuglés; leur précision sera réduite de %d et leur vitesse de déplacement diminuée de %d%% pour %d tours. 
+		The chance to inflict these effects increase with your Accuracy.]], [[Projetez un nuage de poussière aveuglante dans un cône d'une portée de %d. Les ennemis touchés seront aveuglés ; leur précision sera réduite de %d et leur vitesse de déplacement diminuée de %d%% pour %d tours. 
 Les chances d'infliger ces effets sont proportionnels à votre Précision.]], "tformat")
 t("Twist the Knife", "Remuer le couteau dans la plaie", "talent name")
 t("#CRIMSON#%s's %s was extended!#LAST#", "#CRIMSON#%s de %s a été prolongé !#LAST#", "logSeen")
@@ -21694,28 +21694,24 @@ t("Make a painful strike dealing %d%% weapon damage that increases the duration 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/lethality.lua"
 
-t("Expose Weakness", "Faiblesse Exposée", "talent name")
--- texte non traduit
---[==[
-t("Lethality", "Lethality", "talent name")
+t("Lethality", "Létalité", "talent name")
 t([[You have learned to find and hit weak spots. All your strikes have a %0.1f%% greater chance to be critical hits, and your critical hits do %0.1f%% more damage.
-		Also, when using knives and throwing knives, you now use your Cunning instead of your Strength for bonus damage.]], [[You have learned to find and hit weak spots. All your strikes have a %0.1f%% greater chance to be critical hits, and your critical hits do %0.1f%% more damage.
-		Also, when using knives and throwing knives, you now use your Cunning instead of your Strength for bonus damage.]], "tformat")
+		Also, when using knives and throwing knives, you now use your Cunning instead of your Strength for bonus damage.]], [[Vous avez appris à repérer et frapper les points faibles. Toutes vos attaques ont %0.1f%% de chances supplémentaires d'être des coups critiques, et vos coups critiques infligent %0.1f%% dégâts supplémentaires.
+		De plus, lorsque vous utilisez des dagues ou des couteaux de lancer, vous utilisez désormais votre Ruse au lieu de votre Force pour le bonus de dégâts.]], "tformat")
+t("Expose Weakness", "Faiblesse Exposée", "talent name")
 t([[Focus on a single target and perform a probing attack to find flaws in its defences, striking with your melee weapon(s) for %d%% damage.
 		For %d turns thereafter, you gain %d armor penetration, %d accuracy, and %d%% all damage peneration.
 		Learning this technique allows you to permanently gain %d armour penetration with all melee and archery attacks.
-		The temporary armor penetration and accuracy bonuses increase with Cunning.]], [[Focus on a single target and perform a probing attack to find flaws in its defences, striking with your melee weapon(s) for %d%% damage.
-		For %d turns thereafter, you gain %d armor penetration, %d accuracy, and %d%% all damage peneration.
-		Learning this technique allows you to permanently gain %d armour penetration with all melee and archery attacks.
-		The temporary armor penetration and accuracy bonuses increase with Cunning.]], "tformat")
-t("Blade Flurry", "Blade Flurry", "talent name")
+		The temporary armor penetration and accuracy bonuses increase with Cunning.]], [[Concentrez-vous sur une seule cible et effectuez une attaque exploratoire pour trouver les failles de sa défense, frappant avec votre/vos arme(s) de corps à corps pour %d%% dégâts.
+		Pendant les %d tours suivants, vous gagnez %d pénétration d'armure, %d précision, et %d%% de pénétration de dégâts.
+		Apprendre cette technique vous permet de gagner de façon permanente %d pénétration d'armure avec toutes vos attaques de corps à corps et de tir à l'arc.
+		Les bonus temporaires de pénétration d'armure et de précision sont proportionnels à la Ruse.]], "tformat")
+t("Blade Flurry", "Rafale de Lames", "talent name")
 t([[Become a whirling storm of blades, increasing attack speed by %d%% and causing melee attacks to strike an additional adjacent target other than your primary target for %d%% weapon damage. 
-This talent is exhausting to use, draining 4 stamina each turn.]], [[Become a whirling storm of blades, increasing attack speed by %d%% and causing melee attacks to strike an additional adjacent target other than your primary target for %d%% weapon damage. 
-This talent is exhausting to use, draining 4 stamina each turn.]], "tformat")
-t("Snap", "Snap", "talent name")
-t("Your quick wits allow you to reset the cooldown of up to %d of your combat talents (cunning or technique) of tier %d or less.", "Your quick wits allow you to reset the cooldown of up to %d of your combat talents (cunning or technique) of tier %d or less.", "tformat")
---]==]
-
+This talent is exhausting to use, draining 4 stamina each turn.]], [[Devenez une tempête tourbillonnante de lames, augmentant votre vitesse d'attaque de %d%% et faisant en sorte que vos attaques de corps à corps touchent également une cible adjacente supplémentaire (autre que votre cible principale) pour %d%% de dégâts d'arme.
+Ce talent est épuisant à utiliser, consommant 4 points d'endurance à chaque tour.]], "tformat")
+t("Snap", "Sursaut", "talent name")
+t("Your quick wits allow you to reset the cooldown of up to %d of your combat talents (cunning or technique) of tier %d or less.", "Votre esprit vif vous permet de réinitialiser le temps de rechargement d'un maximum de %d de vos talents de combat (Ruse ou Technique) de palier %d ou inférieur. La catégorie est déterminée par l'ordre du talent.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/poisons.lua"
@@ -21738,18 +21734,18 @@ t([[Learn how to enhance your Deadly Poison, adding additional effects. Each lev
 	New poison enhancements can also be learned from special teachers in the world.
 	Also increases the effectiveness of your poisons by %d%%. (The effect varies for each poison.)
 	Adjusting your weapon coating takes no time and does not break stealth.
-	You may only have two poison enhancements active at once; applying a third will randomly cause one of the existing ones to be cancelled.]], [[Découvrez comment améliorer votre Poison Mortel en y ajoutant des effets supplémentaires. À chaque niveau, vous apprendrez un nouveau type d'amélioration du poison:
+	You may only have two poison enhancements active at once; applying a third will randomly cause one of the existing ones to be cancelled.]], [[Découvrez comment améliorer votre Poison Mortel en y ajoutant des effets supplémentaires. À chaque niveau, vous apprendrez un nouveau type d'amélioration du poison :
 	
-	Level 1: Poison Engourdissant
-	Level 2: Poison Insidieux
-	Level 3: Poison Invalidant
-	Level 4: Poison Drainant
-	Level 5: Poison Volatile
+	Level 1 : Poison Engourdissant
+	Level 2 : Poison Insidieux
+	Level 3 : Poison Invalidant
+	Level 4 : Poison Drainant
+	Level 5 : Poison Volatile
 	
 	Vous pouvez également acquérir de nouvelles améliorations de poison auprès de professeurs spéciaux présents dans le monde.
 	Cela augmente également l'efficacité de vos poisons de %d%%. (L'effet varie selon chaque poison.)
 	L'ajustement du revêtement de votre arme ne prend pas de temps et ne rompt pas votre furtivité.
-	Vous ne pouvez avoir que deux améliorations de poison actives à la fois; l'application d'une troisième entraînera aléatoirement l'annulation de l'une des améliorations existantes.]], "tformat")
+	Vous ne pouvez avoir que deux améliorations de poison actives à la fois ; l'application d'une troisième entraînera aléatoirement l'annulation de l'une des améliorations existantes.]], "tformat")
 t("Venomous Strike", "Frappe Venimeuse", "talent name")
 t("#GREEN#%s's %s is disrupted by crippling poison!", "#GREEN#Le %s de %s est paralysé par un poison invalidant !", "logSeen")
 t([[Numbing Poison - Reduces global speed by %d%% for 5 turns.
@@ -21767,7 +21763,7 @@ t([[You strike your target with your melee or ranged weapon, doing %d%% weapon d
 		
 		%s
 		Learning this talent in addition to the Throwing Knives talent allows you to learn the Venomous Throw talent, which can be used to throw poisoned daggers at your foes, but is put on cooldown when this talent is used.
-		]], [[Vous touchez votre cible avec votre arme de mêlée ou à distance, lui infligeant %d%% dégâts d'arme de nature et lui infligeant des effets supplémentaires en fonction de vos vils poisons actifs:
+		]], [[Vous touchez votre cible avec votre arme de mêlée ou à distance, lui infligeant %d%% dégâts d'arme de nature et lui infligeant des effets supplémentaires en fonction de vos vils poisons actifs :
 		
 		%s
 		Apprendre ce talent en plus du talent Couteaux de lancer vous permet d'apprendre le talent Lancer Venimeux, qui peut être utilisé pour lancer des dagues empoisonnées sur vos adversaires, mais qui est soumis à un temps de recharge lorsque ce talent est utilisé.
@@ -21798,36 +21794,31 @@ t("Volatile Poison", "Volatile Poison", "talent name")
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/scoundrel.lua"
 
-t("Scoundrel's Strategies", "SStratégies de Scélérat", "talent name")
-t("Fumble", "Échec", "talent name")
--- texte non traduit
---[==[
-t("Lacerating Strikes", "Lacerating Strikes", "talent name")
-t("Your melee and ranged attacks have a %d%% chance to shred enemies inflicting an additional 100%% of the damage dealt as a bleed over 4 turns.", "Your melee and ranged attacks have a %d%% chance to shred enemies inflicting an additional 100%% of the damage dealt as a bleed over 4 turns.", "tformat")
-t("#CRIMSON#%s's %s is disrupted by %s wounds!#LAST#", "#CRIMSON#%s's %s is disrupted by %s wounds!#LAST#", "logSeen")
+t("Lacerating Strikes", "Frappes Lacérantes", "talent name")
+t("Your melee and ranged attacks have a %d%% chance to shred enemies inflicting an additional 100%% of the damage dealt as a bleed over 4 turns.", "Vos attaques de corps à corps et à distance ont %d%% de chance de lacérer les ennemis, infligeant 100%% supplémentaires des dégâts causés sous forme de saignement sur 4 tours.", "tformat")
+t("Scoundrel's Strategies", "Stratégies de Scélérat", "talent name")
+t("#CRIMSON#%s's %s is disrupted by %s wounds!#LAST#", "#CRIMSON#%s voit son talent « %s » interrompu par %sses blessures !#LAST#", "logSeen")
 t([[Your melee and ranged attacks inflict distracting wounds that reduce the target’s critical strike multiplier by %d%% for 5 turns. 
 In addition, your attacks have a %d%% chance to inflict a painful wound that causes them to forget a random talent for %d turns.  The last effect cannot occur more than once per turn per target.
-		]], [[Your melee and ranged attacks inflict distracting wounds that reduce the target’s critical strike multiplier by %d%% for 5 turns. 
-In addition, your attacks have a %d%% chance to inflict a painful wound that causes them to forget a random talent for %d turns.  The last effect cannot occur more than once per turn per target.
-		]], "tformat")
-t("Misdirection", "Misdirection", "talent name")
-t("#ORANGE#%s redirects the effect '%s'!#LAST#", "#ORANGE#%s redirects the effect '%s'!#LAST#", "logSeen")
+		]], [[Vos attaques de corps à corps et à distance infligent des blessures distrayantes qui réduisent le multiplicateur de coup critique de la cible de %d%% pendant 5 tours.
+		De plus, vos attaques ont %d%% de chance d'infliger une blessure douloureuse qui fait oublier un talent aléatoire à la cible pendant %d tours. Ce dernier effet ne peut se produire plus d'une fois par tour et par cible.]], "tformat")
+t("Misdirection", "Détournement", "talent name")
+t("#ORANGE#%s redirects the effect '%s'!#LAST#", "#ORANGE#%s redirige l'effet '%s' !#LAST#", "logSeen")
 t([[Your abilities in sowing confusion and chaos have reached their peak.  Whenever a foe attempts to apply a detrimental physical effect to you, they have a %d%% chance to fail. If there is an adjacent enemy to you, you misdirect your foe into applying it to them at %d%% duration.
 You gain %d defense.
-The chance to apply status effects increases with your Accuracy and the Defense with your Cunning.]], [[Your abilities in sowing confusion and chaos have reached their peak.  Whenever a foe attempts to apply a detrimental physical effect to you, they have a %d%% chance to fail. If there is an adjacent enemy to you, you misdirect your foe into applying it to them at %d%% duration.
-You gain %d defense.
-The chance to apply status effects increases with your Accuracy and the Defense with your Cunning.]], "tformat")
+The chance to apply status effects increases with your Accuracy and the Defense with your Cunning.]], [[Vos talents pour semer la confusion et le chaos ont atteint leur apogée. Chaque fois qu'un ennemi tente de vous appliquer un effet physique néfaste, il a %d%% de chance d'échouer. S'il y a un ennemi adjacent à vous, vous détournez l'effet sur lui, avec une durée de %d%%.
+Vous gagnez %d défense.
+La chance de rediriger les effets sont proportionnels à votre Précision, et la Défense avec votre Ruse.]], "tformat")
+t("Fumble", "Maladresse", "talent name")
 t([[Your melee and ranged attacks leave your foes unable to focus on any complex actions, giving them a stacking 3%% chance of failure the next time they try to use a talent (to a maximum of %d%%).
 		If any effect causes the target's turn to fail they fumble and injure themself, taking %0.2f physical damage.
 		If the turn loss was caused by this effect then Fumble is removed.
 		The damage dealt increases with your Cunning.
-		]], [[Your melee and ranged attacks leave your foes unable to focus on any complex actions, giving them a stacking 3%% chance of failure the next time they try to use a talent (to a maximum of %d%%).
-		If any effect causes the target's turn to fail they fumble and injure themself, taking %0.2f physical damage.
-		If the turn loss was caused by this effect then Fumble is removed.
-		The damage dealt increases with your Cunning.
+		]], [[Vos attaques de corps à corps et à distance laissent vos ennemis incapables de se concentrer sur des actions complexes, leur donnant une chance cumulative de 3%% d'échouer la prochaine fois qu'ils tenteront d'utiliser un talent (jusqu'à un maximum de %d%%).
+		Si un effet quelconque fait échouer le tour de la cible, elle perd l'équilibre et se blesse, subissant %0.2f dégâts physiques.
+		Si la perte de tour a été causée par cet effet, alors Maladresse est retiré.
+		Les dégâts infligés sont proportionnels à votre Ruse.
 		]], "tformat")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/shadow-magic.lua"
@@ -21861,15 +21852,10 @@ t([[Step through the shadows to your target, dazing it for %d turns and hitting 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/stealth.lua"
 
+t("Stealth", "Dissimulation", "talent name")
 t("You cannot be stealthy with such heavy armour on!", "Vous ne pouvez pas être furtif avec une armure aussi lourde !", "logPlayer")
-t("Shadowstrike", "Frappe d'Ombre", "talent name")
-t("Soothing Darkness", "Obscurité Apaisante", "talent name")
-t("Shadow Dance", "Danse de l'Ombres", "talent name")
--- texte non traduit
---[==[
-t("Stealth", "Stealth", "talent name")
-t("You are being observed too closely to enter Stealth!", "You are being observed too closely to enter Stealth!", "logPlayer")
-t(" (range %d in an unlit grid)", " (range %d in an unlit grid)", "tformat")
+t("You are being observed too closely to enter Stealth!", "Vous êtes observé de trop près pour entrer en Dissimulation !", "logPlayer")
+t(" (range %d in an unlit grid)", " (portée %d dans une case non éclairée)", "tformat")
 t([[Enters stealth mode (power %d, based on Cunning), making you harder to detect.
 		If successful (re-checked each turn), enemies will not know exactly where you are, or may not notice you at all.
 		Stealth reduces your light radius to 0, increases your infravision by 3, and will not work with heavy or massive armours.
@@ -21877,31 +21863,32 @@ t([[Enters stealth mode (power %d, based on Cunning), making you harder to detec
 		Any non-instant, non-movement action will break stealth if not otherwise specified.
 
 		Enemies uncertain of your location will still make educated guesses at it.
-		While stealthed, enemies cannot share information about your location with each other and will be delayed in telling their allies that you exist at all.]], [[Enters stealth mode (power %d, based on Cunning), making you harder to detect.
-		If successful (re-checked each turn), enemies will not know exactly where you are, or may not notice you at all.
-		Stealth reduces your light radius to 0, increases your infravision by 3, and will not work with heavy or massive armours.
-		You cannot enter stealth if there are foes in sight within range %d%s.
-		Any non-instant, non-movement action will break stealth if not otherwise specified.
+		While stealthed, enemies cannot share information about your location with each other and will be delayed in telling their allies that you exist at all.]], [[Entre en mode dissimulation (puissance %d, basée sur la Ruse), vous rendant plus difficile à détecter.
+		En cas de succès (revérifié chaque tour), les ennemis ne sauront pas exactement où vous êtes, ou pourraient même ne pas vous remarquer du tout.
+		La Dissimulation réduit votre rayon de lumière à 0, augmente votre infravision de 3, et ne fonctionne pas avec les armures lourdes ou massives.
+		Vous ne pouvez pas entrer en dissimulation s'il y a des ennemis en vue à portée %d%s.
+		Toute action non instantanée et non liée au mouvement rompra la dissimulation, sauf indication contraire.
 
-		Enemies uncertain of your location will still make educated guesses at it.
-		While stealthed, enemies cannot share information about your location with each other and will be delayed in telling their allies that you exist at all.]], "tformat")
+		Les ennemis incertains de votre position continueront tout de même de faire des suppositions éclairées.
+		Tant que vous êtes dissimulé, les ennemis ne peuvent pas partager d'informations sur votre position entre eux et mettront du temps à révéler votre existence à leurs alliés.]], "tformat")
+t("Shadowstrike", "Frappe d'Ombre", "talent name")
 t([[You know how to make the most out of being unseen.
 		When striking from stealth, your attacks are automatically critical if the target does not notice you just before you land it.  (Spell and mind attacks critically strike even if the target notices you.)
 		Your critical multiplier against targets that cannot see you is increased by up to %d%%. (You must be able to see your target and the bonus is reduced from its full value at range 3 to 0 at range 10.)
-		Also, after exiting stealth for any reason, the critical multiplier persists for %d turns (with no range limitation).]], [[You know how to make the most out of being unseen.
-		When striking from stealth, your attacks are automatically critical if the target does not notice you just before you land it.  (Spell and mind attacks critically strike even if the target notices you.)
-		Your critical multiplier against targets that cannot see you is increased by up to %d%%. (You must be able to see your target and the bonus is reduced from its full value at range 3 to 0 at range 10.)
-		Also, after exiting stealth for any reason, the critical multiplier persists for %d turns (with no range limitation).]], "tformat")
+		Also, after exiting stealth for any reason, the critical multiplier persists for %d turns (with no range limitation).]], [[Vous savez tirer le meilleur parti du fait de ne pas être vu.
+		Lorsque vous frappez depuis la dissimulation, vos attaques sont automatiquement critiques si la cible ne vous remarque pas juste avant que le coup ne porte. (Les attaques de sorts et mentales sont critiques même si la cible vous remarque.)
+		Votre multiplicateur de critique contre les cibles qui ne peuvent pas vous voir est augmenté jusqu'à %d%%. (Vous devez pouvoir voir votre cible ; le bonus diminue de sa valeur maximale à portée 3 jusqu'à 0 à portée 10.)
+		De plus, après être sorti de dissimulation pour quelque raison que ce soit le multiplicateur de critique persiste pendant %d tours (sans limitation de portée).]], "tformat")
+t("Soothing Darkness", "Obscurité Apaisante", "talent name")
 t([[You have a special affinity for darkness and shadows.
 		When standing in an unlit grid, the minimum range to your foes for activating stealth or for maintaining it after a Shadow Dance is reduced by %d.
-		While stealthed, your life regeneration is increased by %0.1f (based on your Cunning) and your stamina regeneration is increased by %0.1f.  The regeneration effects persist for %d turns after exiting stealth, with 5 times the normal rate.]], [[You have a special affinity for darkness and shadows.
-		When standing in an unlit grid, the minimum range to your foes for activating stealth or for maintaining it after a Shadow Dance is reduced by %d.
-		While stealthed, your life regeneration is increased by %0.1f (based on your Cunning) and your stamina regeneration is increased by %0.1f.  The regeneration effects persist for %d turns after exiting stealth, with 5 times the normal rate.]], "tformat")
+		While stealthed, your life regeneration is increased by %0.1f (based on your Cunning) and your stamina regeneration is increased by %0.1f.  The regeneration effects persist for %d turns after exiting stealth, with 5 times the normal rate.]], [[Vous avez une affinité particulière avec l'obscurité et les ombres.
+		Lorsque vous vous trouvez dans une case non éclairée, la portée minimale par rapport à vos ennemis pour activer la dissimulation, ou pour la maintenir après une Danse des Ombres, est réduite de %d.
+		Tant que vous êtes dissimulé, votre régénération de vie est augmentée de %0.1f (basée sur votre Ruse) et votre régénération d'endurance est augmentée de %0.1f. Ces effets de régénération persistent pendant %d tours après la sortie de dissimulation, à un taux 5 fois supérieur à la normale.]], "tformat")
+t("Shadow Dance", "Danse des Ombres", "talent name")
 t([[Your mastery of stealth allows you to vanish from sight at any time.
-		You automatically enter stealth and cause it to not break from unstealthy actions for %d turns.]], [[Your mastery of stealth allows you to vanish from sight at any time.
-		You automatically enter stealth and cause it to not break from unstealthy actions for %d turns.]], "tformat")
---]==]
-
+		You automatically enter stealth and cause it to not break from unstealthy actions for %d turns.]], [[Votre maîtrise de la dissimulation vous permet de disparaître de la vue à tout moment.
+		Vous entrez automatiquement en dissimulation, laquelle ne sera pas rompue par des actions non dissimulées pendant %d tours.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/survival.lua"
@@ -21933,7 +21920,7 @@ t([[You have an enhanced sense of self preservation, and your keen intuition all
 		Vous bénéficiez également d'une chance supplémentaire (à votre jet de sauvegarde normal %+d, effectif) de résister aux altérations d'état néfastes auxquelles il est possible de résister.
 		La détection et cette chance supplémentaire de sauvegarde sont améliorées par la Ruse.]], "tformat")
 t("Disarm Trap", "Désamorcer les Pièges", "talent name")
-t("#CADET_BLUE#Disarm A Trap: (direction keys to select where to disarm, shift+direction keys to move freely)", "#CADET_BLUE#Désamorcer UN piège: (touches directionnelles pour sélectionner l'endroit où désamorcer, Maj+touches directionnelles pour se déplacer librement)", "log")
+t("#CADET_BLUE#Disarm A Trap: (direction keys to select where to disarm, shift+direction keys to move freely)", "#CADET_BLUE#Désamorcer UN piège : (touches directionnelles pour sélectionner l'endroit où désamorcer, Maj+touches directionnelles pour se déplacer librement)", "log")
 t("#CADET_BLUE#You don't have the skill to disarm traps.", "#CADET_BLUE#Vous n'avez pas le niveau de compétence nécessaires pour désamorcer les pièges.", "logPlayer")
 t("#CADET_BLUE#You cannot disarm traps in grids you cannot enter.", "#CADET_BLUE#Vous ne pouvez pas désamorcer les pièges dans les cases auxquelles vous ne pouvez pas accéder.", "logPlayer")
 t("#CADET_BLUE#You don't see a trap there.", "#CADET_BLUE#Vous ne voyez pas de piège ici.", "logPlayer")
@@ -21983,10 +21970,10 @@ t("#PINK#A %s materializes from the shadows!", "#PINK#Un %s émerge des ombres !
 t("bladestorm construct", "créature artificielle tempête de lames", "_t")
 t("A lethal contraption of whirling blades.", "Un engin mortel aux lames tourbillonnantes.", "_t")
 t("Trap Mastery", "Maîtrise des Pièges", "talent name")
-t("Prepare which traps? (maximum: %d, up to tier %d)%s", "Préparer quel piège? (maximum: %d, jusqu'au palier %d)%s", "tformat")
+t("Prepare which traps? (maximum: %d, up to tier %d)%s", "Préparer quel piège ? (maximum : %d, jusqu'au palier %d)%s", "tformat")
 t("\
 Game Start: Newly prepared traps will NOT start on cooldown.", "\
-Début de la partie: les pièges nouvellement préparés ne seront PAS soumis à un temps de recharge.", "_t")
+Début de la partie : les pièges nouvellement préparés ne seront PAS soumis à un temps de recharge.", "_t")
 t("\
 #YELLOW#Newly prepared traps are put on cooldown.#LAST#", "\
 #YELLOW#Les pièges nouvellement préparés sont mis en rechargement.#LAST#", "_t")
@@ -21997,7 +21984,7 @@ t(" (normal trigger)", " (activation normale)", "_t")
 t("#LIGHT_BLUE#No changes to trap preparation.", "#LIGHT_BLUE#Aucun changement concernant la préparation des pièges.", "logPlayer")
 t("#GREY#(see trap description)#LAST#", "#GREY#(voir la description du piège)#LAST#", "_t")
 t([[%sTier %d: %s#LAST#
-%s]], [[%sPalier %d: %s#LAST#
+%s]], [[%sPalier %d : %s#LAST#
 %s]], "tformat")
 t([[This talent allows you to prepare up to %d different trap(s) of tier %d or less for later deployment. (Use this ability to select which to prepare.)
 		Designs known:
@@ -22007,7 +21994,7 @@ t([[This talent allows you to prepare up to %d different trap(s) of tier %d or l
 		You are immune to the damage and negative effects of your traps, and traps may critically strike based on your physical crit chance.
 		Most traps last %d turns if not triggered, and refund 80%% of their stamina cost on expiration.
 		More designs may be discovered via disarming or learned from special instructors in the world.]], [[Ce talent vous permet de préparer jusqu’à %d pièges différents de niveau %d ou inférieur en vue d’un déploiement ultérieur. (Utilisez cette capacité pour choisir ceux que vous souhaitez préparer.)
-		Modèles connus:
+		Modèles connus :
 %s
 
 		Les pièges ainsi préparés sont difficiles à détecter (%d de 'puissance' de détection) et à désamorcer (%d de 'puissance' de désamorçage) proportionnellement à votre Ruse. Ils gagnent %+d%% d’efficacité et peuvent être déployés sans rompre la furtivité %d%% du temps.
@@ -22041,11 +22028,11 @@ t([[You prepare an additional trap (up to tier %d) with a special primed trigger
 A trap with a primed trigger gains %+d%% effectiveness (replacing the normal bonus from Trap Mastery) and won't break stealth %d%% of the time.
 #YELLOW#Current primed trap: %s#LAST#]], [[Vous préparez un piège supplémentaire (jusqu'au niveau %d) doté d'un mécanisme spécial qui le fait se déclencher immédiatement dès son déploiement. (Utilisez cette capacité pour sélectionner le piège.)
 		Tous les pièges ne peuvent pas être préparés de cette manière et chaque piège ne peut avoir qu'un seul type de préparation.
-		Modèles pouvant être amorcés:
+		Modèles pouvant être amorcés :
 %s
 
 Un piège doté d’un déclencheur amorcé gagne %+d%% d’efficacité (en remplacement du bonus normal conféré par la maîtrise des pièges) et ne rompt pas la furtivité %d%% du temps.
-#YELLOW#Piège actuellement amorcé: %s#LAST#]], "tformat")
+#YELLOW#Piège actuellement amorcé : %s#LAST#]], "tformat")
 t("Springrazor Trap", "Piège à Rasoir du Printemps", "talent name")
 t("springrazor trap", "piège à rasoir du printemps", "_t")
 t("Shrapnel (radius 2) deals %0.2f physical damage, reduces accuracy, armour, and defence by %d.", "Les éclats (rayon 2) infligent %0.2f dégâts physiques et réduisent la précision, l'armure et la défense de %d.", "tformat")
@@ -22075,7 +22062,7 @@ t("%s emerges from a collapsed pit.", "%s émerge d'une fosse effondré.", "logS
 t("Deals %0.2f physical damage.  Target removed from combat or pinned 5 turns.", "Inflige %0.2f dégâts physiques. La cible est retirée du combat ou immobilisée pendant 5 tours.", "tformat")
 t([[Lay a pressure triggered trap that collapses the ground under the target, dealing %0.2f physical damage while burying them (removing from combat) for 5 turns.
 Victims may resist being buried, in which case they are pinned (ignores 50%% pin immunity) instead.]], [[Placez un piège déclenché par la pression qui fait s'effondrer le sol sous la cible, lui infligeant %0.2f dégâts physiques tout en l'ensevelissant (la retirant du combat) pendant 5 tours.
-Les victimes peuvent résister à l'ensevelissement; dans ce cas, elles sont immobilisées (cette effet ignore 50%% de l'immunité à l'immobilisation).]], "tformat")
+Les victimes peuvent résister à l'ensevelissement ; dans ce cas, elles sont immobilisées (cette effet ignore 50%% de l'immunité à l'immobilisation).]], "tformat")
 t("Flash Bang Trap", "Piège Flash Bang", "talent name")
 t("flash bang trap", "piège flash bang", "_t")
 t("Explodes (radius 2) for %0.2f physical damage, 50%% blind/daze for %d turns.", "Explose (rayon 2) et inflige %0.2f dégâts physiques, ainsi que 50%% de chance d'aveuglement/étourdissement pendant %d tours.", "tformat")
@@ -22105,7 +22092,7 @@ t([[Lay a trap that releases a radius 3 cloud of thick poisonous gas lasting 4 t
 		Ce piège peut utiliser un déclencheur amorcé et un leurre de haut niveau peut le déclencher.%s]], "tformat")
 t("Freezing Trap", "Piège Congelant", "talent name")
 t("freezing trap", "piège congelant", "_t")
-t("Explodes (radius 2):  Deals %0.2f cold damage and pins for 3 turns.  Area freezes (%0.2f cold damage, 25%% freeze chance) for 5 turns.", "Explosion (rayon 2): inflige %0.2f dégâts de froid et immobilise pendant 3 tours. La zone est gelée (%0.2f dégâts de froid, 25%% de chances de gel) pendant 5 tours.", "tformat")
+t("Explodes (radius 2):  Deals %0.2f cold damage and pins for 3 turns.  Area freezes (%0.2f cold damage, 25%% freeze chance) for 5 turns.", "Explosion (rayon 2) : inflige %0.2f dégâts de froid et immobilise pendant 3 tours. La zone est gelée (%0.2f dégâts de froid, 25%% de chances de gel) pendant 5 tours.", "tformat")
 t([[Lay a trap that explodes into a radius 2 cloud of freezing vapour when triggered.  Foes take %0.2f cold damage and are pinned for 3 turns.
 		The freezing vapour persists for 5 turns, dealing %0.2f cold damage each turn to foes with a 25%% chance to freeze.
 		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Placez un piège qui explose en un nuage de vapeur glaciale d'un rayon de 2 lorsqu'il est déclenché. Les ennemis subissent %0.2f dégâts de froid et sont immobilisés pendant 3 tours.
@@ -22113,7 +22100,7 @@ t([[Lay a trap that explodes into a radius 2 cloud of freezing vapour when trigg
 		Ce piège peut utiliser un déclencheur amorcé et peut être déclenché par un leurre de haut niveau.%s]], "tformat")
 t("Dragonsfire Trap", "Piège du Feu du Dragon", "talent name")
 t("dragonsfire trap", "piège du feu du dragon", "_t")
-t("Explodes (radius 2): stuns and combusts for %0.2f fire damage per turn for 3 turns.  Area deflagrates (%0.2f fire damage) for 5 turns.", "Explose (rayon 2): étourdit et inflige %0.2f dégâts de feu par tour pendant 3 tours. La zone subit une déflagration (%0.2f dégâts de feu) pendant 5 tours.", "tformat")
+t("Explodes (radius 2): stuns and combusts for %0.2f fire damage per turn for 3 turns.  Area deflagrates (%0.2f fire damage) for 5 turns.", "Explose (rayon 2) : étourdit et inflige %0.2f dégâts de feu par tour pendant 3 tours. La zone subit une déflagration (%0.2f dégâts de feu) pendant 5 tours.", "tformat")
 t([[Lay a pressure triggered trap that explodes in a radius 2 cloud of searing flames when triggered, stunning foes with the blast (%0.2f fire damage per turn) for 3 turns.
 		The deflagration persists in the area for 5 turns, burning foes for %0.2f fire damage each turn.
 		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Placez un piège à pression qui provoque un nuage de flammes brûlantes dans un rayon de 2 lorsqu'il est déclenché, assomant les ennemis avec l'explosion (%0.2f dégâts de feu par tour) pendant 3 tours.
@@ -22145,7 +22132,7 @@ Ils disparaissent après %d tours ou une fois leur mission accomplie.]], "tforma
 t("Purging Trap", "Piège à Purge", "talent name")
 t("purging trap", "piège à purge", "_t")
 t("%s resists the silence!", "%s résiste au silence !", "logSeen")
-t("Radius 2 antimagic: Drains up to %d mana, %d vim, %d positive/negative, deals up to %0.2f arcane damage.  Removes %d magical effects and silences for %d turns.", "Rayon 2 anti-magie: draine jusqu'à %d mana, %d vim, %d positif/négatif, inflige jusqu'à %0.2f dégâts arcaniques. Supprime %d effets magiques et inflige un silence pendant %d tours.", "tformat")
+t("Radius 2 antimagic: Drains up to %d mana, %d vim, %d positive/negative, deals up to %0.2f arcane damage.  Removes %d magical effects and silences for %d turns.", "Rayon 2 anti-magie : draine jusqu'à %d mana, %d vim, %d positif/négatif, inflige jusqu'à %0.2f dégâts arcaniques. Supprime %d effets magiques et inflige un silence pendant %d tours.", "tformat")
 t([[Lay a trap that releases a burst of antimagic energies (radius 2), draining up to %d mana, %d vim, %d positive and %d negative energies from affected targets, while inflicting up to %0.2f arcane damage based on the resources drained, silencing for %d turns, and removing up to %d beneficial magical effects or sustains.
 		The draining effect scales with your Willpower, and you must have 25 Willpower to prepare this trap.
 		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[Placez un piège qui libère une rafale d'énergies anti-magiques (rayon 2), drainant jusqu'à %d mana, %d vim, %d d'énergies positives et %d d'énergies négatives aux cibles touchées, tout en infligeant jusqu'à %0.2f dégâts arcaniques en fonction des ressources drainées, en imposant un silence pendant %d tours et en supprimant jusqu'à %d d'effets magiques bénéfiques ou de soutiens.
@@ -24496,7 +24483,7 @@ t("Activate the infusion to heal yourself for %d life over %d turns.", "Active l
 t("heal %d; %d cd", "soin : %d ; cd : %d", "tformat")
 t("Infusion: Healing", "Essence : Soin", "talent name")
 t("Activate the infusion to instantly heal yourself for %d then cleanse 1 wound, poison, and disease effect.", "Active l'essence pour vous soigner instantanément de %d puis supprimer 1 effet de blessure, poison et maladie.", "tformat")
-t("heal %d; cd %d", "soin : %d; cd : %d", "tformat")
+t("heal %d; cd %d", "soin : %d ; cd : %d", "tformat")
 t("Infusion: Wild", "Essence : Sauvage", "talent name")
 t("%s is cured!", "%s est soigné !", "logSeen")
 t(" and ", " et ", "_t")
@@ -24506,7 +24493,7 @@ Supprime également les effets trans-palier du type correspondant.]], "tformat")
 t("res %d%%; %s; dur %d; cd %d", "résistance : %d%% ; %s ; durée : %d ; cd : %d", "tformat")
 t("Infusion: Primal", "Essence : Primale", "talent name")
 t("Activate the infusion to heal for %d%% of all damage taken (calculated before resistances) and reduce the duration of a random debuff by %d each turn for %d turns.", "Active l'essence pour vous soigner de %d%% de tous les dégâts subis (calculé avant les résistances) et réduire la durée d'un malus aléatoire de %d à chaque tour pendant %d tours.", "tformat")
-t("affinity %d%%; reduction %d; dur %d; cd %d", "affinité : %d%% ; réduction : %d ; durée : %d; cd : %d", "tformat")
+t("affinity %d%%; reduction %d; dur %d; cd %d", "affinité : %d%% ; réduction : %d ; durée : %d ; cd : %d", "tformat")
 t("Infusion: Movement", "Essence : Mouvement", "talent name")
 t([[Activate the infusion to increase movement speed by %d%% for 1 game turn.
 		You gain 100%% stun, daze, and pin immunity during the effect.
@@ -24578,7 +24565,7 @@ t("Rune: Ethereal", "Rune : Éthérée", "talent name")
 t([[Activate the rune to become ethereal for %d turns.
 		While ethereal all damage you deal is reduced by %d%%, you gain %d%% all resistance, you move %d%% faster, and you are invisible (power %d).]], [[Active la rune pour devenir éthéré pendant %d tours.
 		Pendant que vous êtes éthéré, tous les dégâts que vous infligez sont réduits de %d%%, vous gagnez %d%% de résistance générale, vous vous déplacez %d%% plus vite, et êtes invisible (puissance %d).]], "tformat")
-t("power %d; resist %d%%; move %d%%; dur %d; cd %d", "puissance : %d; résistance : %d%%; vitesse : %d%%; durée : %d; cd : %d", "tformat")
+t("power %d; resist %d%%; move %d%%; dur %d; cd %d", "puissance : %d ; résistance : %d%% ; vitesse : %d%% ; durée : %d ; cd : %d", "tformat")
 t("Rune: Stormshield", "Rune : Bouclier Tempête", "talent name")
 t([[Activate the rune to summon a protective storm around you for %d turns.
 			While active the storm will completely block all damage over %d up to %d times.]], [[Active la rune pour invoquer une tempête protectrice autour de vous pendant %d tours.
@@ -25094,7 +25081,7 @@ t([[Throws a vial of sticky smoke that explodes in radius %d on your foes, reduc
 		Les créatures affectées par la bombe de fumée ne pourront jamais vous empêcher de vous camoufler, même si leur proximité l'interdirait normalement.
 		L'utilisation de cette capacité n'interrompt pas la furtivité.]], "tformat")
 t("Switch Place", "Changer de Place", "talent name")
-t("Terrain prevents #Source# from switching places with #Target#.", "Le terrain empêche #Source# de changer de place avec #Target#.", "logCombat")
+t("Terrain prevents #Source# from switching places with #Target#.", "Le terrain empêche #Source# d'échanger sa place avec #Target#.", "logCombat")
 t([[Using a series of tricks and maneuvers, you switch places with your target.
 		Switching places will confuse your foes, granting you Evasion (50%%) for %d turns.
 		While switching places, your weapon(s) will connect with the target; this will not do weapon damage, but on hit effects of the weapons can trigger.]], [[En utilisant une série de tours et de manoeuvres, vous échangez de place avec votre cible.
@@ -25260,7 +25247,7 @@ t("Ward", "Garde", "talent name")
 t("Ward", "Garde", "_t")
 t([[Bring a damage-type-specific ward into being. The ward will fully negate as many attacks of its element as it has charges.
 		You can activate the following wards: %s]], [[Matérialise une garde spécifique à un type de dégâts. La garde annule complètement autant d'attaques de cet élément qu'elle possède de charges.
-		Vous pouvez activer les gardes suivantes: %s]], "tformat")
+		Vous pouvez activer les gardes suivantes : %s]], "tformat")
 t("Teleport to the ground", "Se téléporter à la surface", "talent name")
 t("Use Yiilkgur's teleporter to teleport to the ground.", "Utilise le téléporteur de Yiilkgur pour rejoindre la surface.", "tformat")
 t("Block", "Bloquer", "talent name")
@@ -25280,7 +25267,7 @@ t([[Raise your shield into blocking position for 2 turns reducing all non-Mind d
 			Si des dégâts ont été bloqués avec succès, cet effet prend fin au début de votre tour.
 			Si le bouclier possède une résistance native au type de dégâts bloqué, la valeur de blocage est augmentée de 50%%.
 			
-			Bonus actuels:  %s%s%s%s]], "tformat")
+			Bonus actuels :  %s%s%s%s]], "tformat")
 t("Bloom Heal", "Floraison Curative", "talent name")
 t([[Call upon the power of nature to regenerate your body for %d life every turn for 6 turns.
 		The life healed will increase with the Willpower stat.]], [[Invoque la puissance de la nature pour régénérer votre corps de %d points de vie par tour pendant 6 tours.
@@ -25352,7 +25339,7 @@ t([[Highers were originally created during the Age of Allure by the human Concla
 		Increase spell save by %d and arcane resistance by %d%%.
 		Also, when you cast a spell dealing damage, you gain a 20%% bonus to the damage type for 5 turns. (This effect has a cooldown.)]], [[Les Nobles ont été créés à l'origine durant Ère de la Séduction par le Conclave humain. Ils sont imprégnés de magie au plus profond de leur être.
 		Augmente la sauvegarde magique de %d et la résistance arcanique de %d%%.
-		De plus, lorsque vous lancez un sort infligeant des dégâts, vous gagnez un bônus de 20%% pour ce type de dégâts pendant 5 tours. (Cet effet possède un temps de recharge.)]], "tformat")
+		De plus, lorsque vous lancez un sort infligeant des dégâts, vous gagnez un bonus de 20%% pour ce type de dégâts pendant 5 tours. (Cet effet possède un temps de recharge.)]], "tformat")
 t("Highborn's Bloom", "Floraison des Bien-Nés", "talent name")
 t([[Activate some of your inner magic, using it to power your abilities.  For the next %d turns all active talents will be used without resource cost.
 		Your resources must still be high enough to initially power the talent and failure rates (etc.) still apply.
@@ -25385,7 +25372,7 @@ t([[Thaloren have an affinity for natural elements, allowing them to heal for a 
 		Vous gagnez %d%% d'affinité aux dégâts de nature et d'acide.]], "tformat")
 t("Guardian of the Wood", "Gardien de la Forêt", "talent name")
 t([[Thaloren are part of the wood; it shields them from corruption.
-		Increase disease immunity by %d%%, blight resistance by %0.1f%%, and all resistances by %0.1f%%.]], [[Les Thaloréens font partie de la forêt; elle les protège de la corruption.
+		Increase disease immunity by %d%%, blight resistance by %0.1f%%, and all resistances by %0.1f%%.]], [[Les Thaloréens font partie de la forêt ; elle les protège de la corruption.
 		Augmente l'immunité aux maladies de %d%%, la résistance aux fléaux de %0.1f%% et à toutes les résistances de %0.1f%%.]], "tformat")
 t("Nature's Pride", "Fierté de la Nature", "talent name")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
@@ -25395,7 +25382,7 @@ t([[Nature is with the Thaloren; they can always feel the call of the woods.
 		Summons two elite Treants to your side for 8 turns.
 		The treants have a global resistance equal to your blight resistance and can stun, knockback, and taunt foes.
 		Your Willpower (%d) will be added to all of their non-Magic primary stats and their talent levels will increase with your Nature's Pride talent level.
-		Your increased damage, damage penetration, and many other stats will be inherited.]], [[La nature est avec les Thaloréens; ils ressentent en permanence l'appel de la forêt.
+		Your increased damage, damage penetration, and many other stats will be inherited.]], [[La nature est avec les Thaloréens ; ils ressentent en permanence l'appel de la forêt.
 		Invoque deux Tréants d'élite à vos côtés pendant 8 tours.
 		Les tréants possèdent une résistance globale égale à votre résistance aux fléaux et peuvent assommer, repousser et provoquer les ennemis.
 		Votre Volonté (%d) s'ajoute à toutes leurs statistiques principales non magiques, et leurs niveau de talents augmente avec votre niveau de talent de Fierté de la nature.
@@ -25404,13 +25391,13 @@ t("dwarf", "nain", "talent type")
 t("Stoneskin", "Peau de Pierre", "talent name")
 t([[Dwarf skin is a complex structure; it can automatically react to physical blows and harden itself.
 		When you are hit in melee, you have a 15%% chance to increase your armour total by %d for 5 turns and fully ignore the attack triggering it.
-		There is no cooldown to this effect; it can happen while already active.]], [[La peau des nains est une structure complexe; elle peut réagir automatiquement aux coups physiques et se durcir.
+		There is no cooldown to this effect; it can happen while already active.]], [[La peau des nains est une structure complexe ; elle peut réagir automatiquement aux coups physiques et se durcir.
 		Lorsque vous êtes touché au corps à corps, vous avez 15%% de chances d'augmenter votre armure totale de %d pendant 5 tours et d'ignorer complètement l'attaque qui a déclenché cet effet.
 		Cet effet n'a pas de temps de recharge et peut se déclencher à nouveau lorsqu'il est déjà actif.]], "tformat")
 t("Power is Money", "Le pouvoir de l'Argent", "talent name")
 t([[Money is the heart of the Dwarven Empire; it rules over all other considerations.
 		Increases Physical, Mental and Spell Saves based on the amount of gold you possess.
-		+1 save every %d gold, up to +%d. (currently +%d)]], [[L'argent est le coeur de l'Empire nain; il l'emporte sur toute autre considération.
+		+1 save every %d gold, up to +%d. (currently +%d)]], [[L'argent est le coeur de l'Empire nain ; il l'emporte sur toute autre considération.
 		Augmente vos sauvegardes physique, mentale et magique en fonction de la quantité d'or que vous possédez.
 		+1 à toutes les sauvegardes toutes les tranche de %d pièces d'or, jusqu'à un maximum de +%d. (Actuellement +%d)]], "tformat")
 t("Stone Walking", "Marche de Pierre", "talent name")
@@ -25430,7 +25417,7 @@ t([[Halfling's incredible luck always kicks in at just the right moment to save 
 		Chaque fois que vous perdez %d%% ou plus de votre vie en une seule attaque, vous gagnez %d%% d'Évasion et %d de défense supplémentaire pour les %d prochains tours. La défense augmente en fonction de votre chance et de vos autres statistiques défensives.]], "tformat")
 t("Militant Mind", "Esprit Militant", "talent name")
 t([[Halflings have always been a very organised and methodical race; the more foes they face, the more organised they are.
-		If two or more foes are in sight your Physical Power, Physical Save, Spellpower, Spell Save, Mental Save, and Mindpower are increased by %0.1f per foe (up to 5 foes).]], [[Le petit peuple a toujours été une race très organisée et méthodique; plus ils affrontent d'ennemis, plus ils sont organisés.
+		If two or more foes are in sight your Physical Power, Physical Save, Spellpower, Spell Save, Mental Save, and Mindpower are increased by %0.1f per foe (up to 5 foes).]], [[Le petit peuple a toujours été une race très organisée et méthodique ; plus ils affrontent d'ennemis, plus ils sont organisés.
 		Si deux ennemis ou plus sont en vue, votre puissance physique, sauvegarde physique, puissance des sorts, sauvegarde des sorts, sauvegarde mentale, et puissance mentale augmentent de %0.1f par ennemi (jusqu'à 5 ennemis).]], "tformat")
 t("Indomitable", "Indomptable", "talent name")
 t([[Halflings have one of the most powerful military forces in the known world and have been at war with most other races for thousands of years.
@@ -25497,7 +25484,7 @@ t([[Reach through the collective psionic gestalt of the yeeks, the Way, to call 
 		Ils héritent de vos bonus de dégâts, vos pénétrations de résistance et de bien d'autres caractéristiques.]], "tformat")
 t("Knowledge of the Way", "Savoir de la Voie", "talent name")
 t([[You merge your mind with the rest of the Way for a brief moment; the sum of all yeek knowledge gathers in your mind
-		and allows you to identify any item you could not recognize yourself.]], "Vous fusionnez un bref instant votre esprit avec le reste de la Voie; la somme de toutes les connaissances yeeks s'assemble dans votre esprit et vous permet d'identifier tout objet que vous ne pourriez reconnaître seul.", "tformat")
+		and allows you to identify any item you could not recognize yourself.]], "Vous fusionnez un bref instant votre esprit avec le reste de la Voie ; la somme de toutes les connaissances yeeks s'assemble dans votre esprit et vous permet d'identifier tout objet que vous ne pourriez reconnaître seul.", "tformat")
 t("Ogric Wrath", "Colère Ogrique", "talent name")
 t([[You enter an ogric wrath for %d turns, increasing your stun and pinning resistances by 20%% and all damage done by 10%%.
 		In addition, whenever you use an infusion or rune, miss a melee attack, or any damage you deal is reduced by a damage shield (or similar effect) you gain a charge of Ogre Fury (up to 5 charges total, each lasting 7 turns).
@@ -25515,7 +25502,7 @@ t([[An ogre's body is acclimated to spells and inscriptions.
 		When using a two handed weapon this way you suffer a 20%% accuracy, physical power, spellpower and mindpower penalty, decreasing by 5%% per size category above #{italic}#big#{normal}#; further, all damage procs from your weapons are reduced by 50%%.]], [[Le corps d'un ogre est habitué aux sorts et aux inscriptions.
 		Augmente la sauvegarde magique de %d et améliore l'influence des caractéristiques principales sur les essences et runes de %d%%.
 		Au niveau 5, votre corps est si fort que vous pouvez manier une arme à deux mains dans votre main principale tout en portant un objet en main secondaire.
-		En utilisant une arme à deux mains de la sorte, vous subissez une pénalité de 20%% en précision, puissance physique, puissance magique et puissance mentale, réduite de 5%% par catégorie de taille au-dessus de #{italic}#grand#{normal}#; de plus, tous les déclenchements de dégâts procs de vos armes sont réduits de 50%%.]], "tformat")
+		En utilisant une arme à deux mains de la sorte, vous subissez une pénalité de 20%% en précision, puissance physique, puissance magique et puissance mentale, réduite de 5%% par catégorie de taille au-dessus de #{italic}#grand#{normal}# ; de plus, tous les déclenchements de dégâts procs de vos armes sont réduits de 50%%.]], "tformat")
 t("Scar-Scripted Flesh", "Chair Gravée de Cicatrices", "talent name")
 t([[When you crit you have a %d%% chance to reduce by 1 the remaining cooldown of one of your inscriptions and of any saturations effects.
 		This effect can only happen once per turn.]], [[Lorsque vous infligez un coup critique, vous avez %d%% de chances de réduire de 1 le temps de recharge restant d'une de vos inscriptions et de tout effet de saturation.
@@ -25526,7 +25513,7 @@ t([[Instantly removes runic and infusion saturations.
 		For %d turns your inscriptions cool down twice as fast.
 		At level 5 your command over inscriptions is so good that you can use one more (you still need a category point to unlock it; you need to exit the levelup screen to validate it).]], [[Supprime instantanément les saturations de runes et d'essences.
 		Pendant %d tours, vos inscriptions se rechargent deux fois plus vite.
-		Au niveau 5, votre maîtrise des inscriptions est telle que vous pouvez en utiliser une de plus (vous aurez toujours besoin d'un point de catégorie pour la débloquer; vous devez quitter l'écran de montée de niveau pour valider).]], "tformat")
+		Au niveau 5, votre maîtrise des inscriptions est telle que vous pouvez en utiliser une de plus (vous aurez toujours besoin d'un point de catégorie pour la débloquer ; vous devez quitter l'écran de montée de niveau pour valider).]], "tformat")
 -- texte non traduit
 --[==[
 t("race", "race", "talent category")
@@ -25978,7 +25965,7 @@ t([[Use Feedback to replenish yourself.  This heals you for %d life, and restore
 section "mod-tome/data/talents/psionic/finer-energy-manipulations.lua"
 
 t("%s is cured!", "%s est soigné !", "logSeen")
-t("Use which gem?", "Utiliser quelle gemme?", "_t")
+t("Use which gem?", "Utiliser quelle gemme ?", "_t")
 -- texte non traduit
 --[==[
 t("Realign", "Realign", "talent name")
@@ -26874,8 +26861,8 @@ t([[Release arcane energies into most magical shields currently protecting you.
 		Disruption Shield: Tap into the stored energies to restore the shield (at a rate of 2 energy per 1 shield power). Any leftover energy is converted back into mana at a rate of %0.2f energy per mana.
 		The charging will increase with your Spellpower.]], [[Libérez des énergies arcaniques dans la plupart des boucliers magiques vous protégeant actuellement.
 		Affecte au maximum %d effets de bouclier.
-		Bouclier de Dégâts, Bouclier Temporel, Bouclier de Déplacement: Augmente la valeur d'absorption de dégâts de %d%%.
-		Bouclier de Disruption: Puisez dans les énergies stockées pour restaurer le bouclier (à raison de 2 énergies par 1 puissance de bouclier). Toute énergie restante est reconvertie en mana à raison de %0.2f énergie par mana.
+		Bouclier de Dégâts, Bouclier Temporel, Bouclier de Déplacement : Augmente la valeur d'absorption de dégâts de %d%%.
+		Bouclier de Disruption : Puisez dans les énergies stockées pour restaurer le bouclier (à raison de 2 énergies par 1 puissance de bouclier). Toute énergie restante est reconvertie en mana à raison de %0.2f énergie par mana.
 		La recharge est proportionnel à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
@@ -28443,7 +28430,7 @@ t([[Hit a target for %d%% melee damage and stun it for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/stone-alchemy.lua"
 
-t("Use which gem?", "Utiliser quelle gemme?", "_t")
+t("Use which gem?", "Utiliser quelle gemme ?", "_t")
 t("You extract %s from %s", "Vous extrayez %s de %s", "logPlayer")
 t("You imbue your %s with %s.", "Vous imprégnez votre %s de %s.", "logPlayer")
 -- texte non traduit
@@ -28497,7 +28484,7 @@ t([[You root yourself into the earth, and transform your flesh into stone.  Whil
 		* Reduces the cooldown of Earthen Missiles, Pulverizing Auger, Earthquake, and Mudslide by %d%%.
 		* Grants %d%% Fire Resistance, %d%% Lightning Resistance, %d%% Acid Resistance, and %d%% Stun Resistance.
 		Resistances scale with your Spellpower.]], [[Vous vous enracinez dans la terre et transformez votre chair en pierre. Tant que ce sort est soutenu, vous ne pouvez pas vous déplacer et tout mouvement forcé mettra fin à l'effet.
-		Votre forme de pierre et votre affinité avec la terre tandis que le sort est actif ont les effets suivants:
+		Votre forme de pierre et votre affinité avec la terre tandis que le sort est actif ont les effets suivants :
 		* Réduit le rechargement de Missiles en Terre, Foreuse Broyeuse, Tremblement de Terre et Glissement de Terrain de %d%%.
 		* Accorde %d%% de résistance au feu, %d%% de résistance à la foudre, %d%% de résistance à l'acide et %d%% de résistance à l'assomement.
 		Les résistances sont proportionnels à votre Puissance des sorts.]], "tformat")
@@ -28942,40 +28929,37 @@ t([[You fire a pinning shot, doing %d%% damage and pinning your target to the gr
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/assassination.lua"
 
+t("Coup de Grace", "Coup de Grâce", "talent name")
 t("You require two weapons to use this talent.", "Vous avez besoin de deux armes pour utiliser ce talent.", "logPlayer")
-t("Garrote", "Étranglement", "talent name")
-t("Marked for Death", "Condamné Marqué", "talent name")
--- texte non traduit
---[==[
-t("Coup de Grace", "Coup de Grace", "talent name")
-t("You cannot use Coup de Grace without dual wielding!", "You cannot use Coup de Grace without dual wielding!", "logPlayer")
-t("#Source# delivers a Coup de Grace against #Target#!", "#Source# delivers a Coup de Grace against #Target#!", "logCombat")
-t("%s resists the Coup de Grace!", "%s resists the Coup de Grace!", "logSeen")
-t("#GREY#%s slips into shadow.", "#GREY#%s slips into shadow.", "logSeen")
+t("You cannot use Coup de Grace without dual wielding!", "Vous ne pouvez pas utiliser Coup de Grâce sans manier deux armes !", "logPlayer")
+t("#Source# delivers a Coup de Grace against #Target#!", "#Source# porte un Coup de Grâce contre #Target# !", "logCombat")
+t("%s resists the Coup de Grace!", "%s résiste au Coup de Grâce !", "logSeen")
+t("#GREY#%s slips into shadow.", "#GREY#%s se fond dans l'ombre.", "logSeen")
 t([[Attempt to finish off a wounded enemy, striking them with both weapons for %d%% increased by 50%% if their life is below 30%%.  A target brought below 20%% of its maximum life must make a physical save against your Accuracy or be instantly slain.
-		You may take advantage of finishing your foe this way to activate stealth (if known).]], [[Attempt to finish off a wounded enemy, striking them with both weapons for %d%% increased by 50%% if their life is below 30%%.  A target brought below 20%% of its maximum life must make a physical save against your Accuracy or be instantly slain.
-		You may take advantage of finishing your foe this way to activate stealth (if known).]], "tformat")
-t("Terrorize", "Terrorize", "talent name")
+		You may take advantage of finishing your foe this way to activate stealth (if known).]], [[Tentez d'achever un ennemi blessé, le frappant avec les deux armes pour %d%% dégâts, augmentés de 50%% si sa vie est en dessous de 30%%.
+		Une cible réduite en dessous de 20%% de sa vie maximale doit réussir une sauvegarde physique contre votre Précision ou être tuée instantanément.
+		Vous pouvez profiter d'achever votre ennemi ainsi pour activer la Furtivité (si connue).]], "tformat")
+t("Terrorize", "Terroriser", "talent name")
 t([[When you exit stealth, you reveal yourself dramatically, intimidating foes around you. 
 		All foes within radius %d that witness you leaving stealth will be stricken with terror, which randomly inflicts stun, slow (40%% power), or confusion (50%% power) for %d turns.
-		The chance to terrorize improves with your combat accuracy.]], [[When you exit stealth, you reveal yourself dramatically, intimidating foes around you. 
-		All foes within radius %d that witness you leaving stealth will be stricken with terror, which randomly inflicts stun, slow (40%% power), or confusion (50%% power) for %d turns.
-		The chance to terrorize improves with your combat accuracy.]], "tformat")
-t("#Target# avoids a garrote from #Source#!", "#Target# avoids a garrote from #Source#!", "logCombat")
+		The chance to terrorize improves with your combat accuracy.]], [[Lorsque vous quittez la Furtivité, vous vous révélez de façon spectaculaire, intimidant les ennemis autour de vous.
+		Tous les ennemis dans un rayon de %d qui vous voient sortir de furtivité seront frappés de terreur, infligeant aléatoirement assommement, ralentissement (40%%) ou confusion (50%%) pendant %d tours.
+		La chance de terroriser est proportionnel à votre Précision.]], "tformat")
+t("Garrote", "Garrot", "talent name")
+t("#Target# avoids a garrote from #Source#!", "#Target# évite le garrot de #Source# !", "logCombat")
 t([[When attacking from stealth, you slip a garrote over the target’s neck (or other vulnerable part).  This strangles for %d turns and silences for %d turns.  Strangled targets are pinned and suffer an automatic unarmed attack for %d%% damage each turn. 
 		Your chance to apply the garrote increases with your Accuracy and you must stay adjacent to your target to maintain it.
-		This talent has a cooldown.]], [[When attacking from stealth, you slip a garrote over the target’s neck (or other vulnerable part).  This strangles for %d turns and silences for %d turns.  Strangled targets are pinned and suffer an automatic unarmed attack for %d%% damage each turn. 
-		Your chance to apply the garrote increases with your Accuracy and you must stay adjacent to your target to maintain it.
-		This talent has a cooldown.]], "tformat")
+		This talent has a cooldown.]], [[Lorsque vous attaquez depuis la Furtivité, vous passez un garrot autour du cou de la cible (ou d'une autre partie vulnérable). Cela étrangle pendant %d tours et réduit au silence pendant %d tours. Les cibles étranglées sont immobilisées et subissent une attaque à mains nues automatique infligeant %d%% dégâts à chaque tour.
+		Votre chance d'appliquer le garrot est proportionnel à votre Précision et vous devez rester adjacent à votre cible pour le maintenir.
+		Ce talent a un temps de rechargement.]], "tformat")
+t("Marked for Death", "Condamné Marqué", "talent name")
 t([[You mark a target for death for 4 turns, causing them to take %d%% increased damage from all sources. When this effect ends they will immediately take physical damage equal to %0.2f plus %d%% of all damage taken while marked.
 		If a target dies while marked, the cooldown of this ability is reset and the cost refunded.
 		This ability can be used without breaking stealth.
-		The base damage dealt will increase with your Dexterity.]], [[You mark a target for death for 4 turns, causing them to take %d%% increased damage from all sources. When this effect ends they will immediately take physical damage equal to %0.2f plus %d%% of all damage taken while marked.
-		If a target dies while marked, the cooldown of this ability is reset and the cost refunded.
-		This ability can be used without breaking stealth.
-		The base damage dealt will increase with your Dexterity.]], "tformat")
---]==]
-
+		The base damage dealt will increase with your Dexterity.]], [[Vous marquez une cible pour la mort pendant 4 tours, lui faisant subir %d%% dégâts supplémentaires de toutes sources. Lorsque cet effet prend fin, elle subira immédiatement des dégâts physiques égaux à %0.2f plus %d%% de tous les dégâts subis pendant la marque.
+		Si une cible meurt pendant qu'elle est marquée, le rechargement de cette capacité est réinitialisé et le coût remboursé.
+		Peut être utilisé sans briser la Furtivité.
+		Les dégâts de base sont proportionnels à votre Dextérité.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/battle-tactics.lua"
@@ -28983,7 +28967,7 @@ section "mod-tome/data/talents/techniques/battle-tactics.lua"
 t("Greater Weapon Focus", "Focus Martiale Supérieure", "talent name")
 t([[Concentrate on your blows; for %d turns, each strike you land on your target in melee range has a %d%% chance to trigger another, similar strike.
 		This works for all blows, even those from other talents and from shield bashes, but you can gain no more than one extra blow with each weapon during a turn.
-		The chance increases with your Dexterity.]], [[Concentrez-vous sur vos coups; pour %d tours, chaque frappe en mêlée sur votre cible a %d%% de chance de déclencher une frappe supplémentaire similaire.
+		The chance increases with your Dexterity.]], [[Concentrez-vous sur vos coups ; pour %d tours, chaque frappe en mêlée sur votre cible a %d%% de chance de déclencher une frappe supplémentaire similaire.
 		Cela fonctionne pour tous les coups, même ceux d'autres talents et des coups de bouclier, mais vous ne pouvez gagner qu'un seul coup supplémentaire par arme et par tour.
 		La chance est proportionnel à votre Dextérité.]], "tformat")
 t("Step Up", "Accélérer le Rythme", "talent name")
@@ -28991,7 +28975,7 @@ t([[After killing a foe, you have a %d%% chance to gain a 1000%% movement speed 
 		The bonus disappears as soon as any action other than moving is done.
 		Note: since you will be moving very fast, game turns will pass very slowly.]], [[Après avoir tué un ennemi, vous avez %d%% de chance de gagner un bonus de vitesse de déplacement de 1000%% pendant 1 tour de jeu.
 		Le bonus disparaît dès qu'une action autre que le déplacement est effectuée.
-		Note: comme vous vous déplacez très vite, les tours de jeu passeront très lentement.]], "tformat")
+		Note : comme vous vous déplacez très vite, les tours de jeu passeront très lentement.]], "tformat")
 t("Bleeding Edge", "Lame Saignante", "talent name")
 t([[Lashes at the target, doing %d%% weapon damage.
 		If the attack hits, the target will bleed for %d%% weapon damage over 7 turns, and all healing will be reduced by %d%%.]], [[Frappe la cible, infligeant %d%% dégâts d'arme.
@@ -29169,12 +29153,12 @@ t([[You've learned to recover quickly from effects that would disable you. Each 
 		At talent level 2 you may also recover from Blindness, at level 3 Confusion and Pins, and level 4 Disarms and Slows.
 		Effects will be cleansed with the priority order Stun > Blind > Confusion > Pin > Disarm > Slow.
 		Only one effect may be recovered from each turn, and the chance to recover from an effect scales with your Constitution.]], [[Vous avez appris à récupérer rapidement des effets incapacitants.
-		À chaque tour, vous avez %d%% de chance de vous remettre d'un effet négatif:
+		À chaque tour, vous avez %d%% de chance de vous remettre d'un effet négatif :
 		Au niveau 1, vous récupérez de l'Assomement.
 		Au niveau 2, vous récupérez également de l'Aveuglement.
 		Au niveau 3, vous récupérez également de la Confusion et de l'Immobilisation.
 		Au niveau 4, vous récupérez également du Désarmement et du Ralentissement.
-		Les effets sont supprimés dans l'ordre de priorité suivant: Assomement > Aveuglement > Confusion > Immobilisation > Désarmement > Ralentissement.
+		Les effets sont supprimés dans l'ordre de priorité suivant : Assomement > Aveuglement > Confusion > Immobilisation > Désarmement > Ralentissement.
 		Vous ne pouvez récupérer que d'un seul effet par tour.
 		La chance de récupération est proportionnel à votre Constitution.]], "tformat")
 t("Daunting Presence", "Présence Intimidante", "talent name")
@@ -29205,7 +29189,7 @@ t([[You have learned to block incoming blows with your offhand weapon.
 		The defense and chance to parry improve with Dexterity.  The number of parries increases with Cunning.]], [[Vous avez appris à bloquer les coups entrants avec votre arme en main secondaire.
 		En maniant deux armes votre défense est augmentée de %d.
 		Jusqu'à %0.1f fois par tour, vous avez %d%% de chance de parer jusqu'à %d dégâts (basé sur les dégâts de votre arme secondaire) d'une attaque de mêlée.
-		Une parade réussie réduit les dégâts comme une armure (avant tout multiplicateur d'attaque) et empêche les coups critiques. Les parades partielles ont une chance de succès proportionnellement réduite. Il est difficile de parer les attaques d'adversaires invisibles et vous ne pouvez pas parer avec une Étoile d'âme.
+		Une parade réussie réduit les dégâts comme une armure (avant tout multiplicateur d'attaque) et empêche les coups critiques. Les parades partielles ont une chance de succès proportionnellement réduite. Il est difficile de parer les attaques d'adversaires invisibles et vous ne pouvez pas parer avec une Étoile d'Âme.
 		La défense et la chance de parer sont proportionnels à la Dextérité.
 		Le nombre de parades est proportionnel à la Ruse.]], "tformat")
 t("Close Combat Management", "Gestion du Combat Rapproché", "talent name")
@@ -29245,40 +29229,40 @@ t("You quickly move up to %d tiles to arrive adjacent to a target location you c
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/duelist.lua"
 
-t("Feint", "Feinte", "talent name")
-t("You must be able to move to use this talent.", "Vous devez être capable de vous déplacer pour utiliser ce talent.", "logPlayer")
-t("Terrain prevents #Source# from switching places with #Target#.", "Le terrain empêche #Source# de changer de place avec #Target#.", "logCombat")
-t("You require two weapons to use this talent.", "Vous avez besoin de deux armes pour utiliser ce talent.", "logPlayer")
-t("%s resists the blow!", "%s résiste au coup !", "logSeen")
--- texte non traduit
---[==[
-t("Dual Weapon Mastery", "Dual Weapon Mastery", "talent name")
+t("Dual Weapon Mastery", "Maîtrise à Deux Armes", "talent name")
 t([[Your offhand weapon damage penalty is reduced to %d%%.
 		Up to %0.1f times a turn, you have a %d%% chance to parry up to %d damage (based on your offhand weapon damage) from a melee or ranged attack.  The number of parries increases with your Cunning.  (A fractional parry has a reduced chance to succeed.)
-		A successful parry reduces damage like armour (before any attack multipliers) and prevents critical strikes.  It is difficult to parry attacks from unseen attackers and you cannot parry with a mindstar.]], [[Your offhand weapon damage penalty is reduced to %d%%.
-		Up to %0.1f times a turn, you have a %d%% chance to parry up to %d damage (based on your offhand weapon damage) from a melee or ranged attack.  The number of parries increases with your Cunning.  (A fractional parry has a reduced chance to succeed.)
-		A successful parry reduces damage like armour (before any attack multipliers) and prevents critical strikes.  It is difficult to parry attacks from unseen attackers and you cannot parry with a mindstar.]], "tformat")
-t("Tempo", "Tempo", "talent name")
+		A successful parry reduces damage like armour (before any attack multipliers) and prevents critical strikes.  It is difficult to parry attacks from unseen attackers and you cannot parry with a mindstar.]], [[La pénalité de dégâts de votre arme secondaire est réduite à %d%%.
+		Jusqu'à %0.1f fois par tour, vous avez %d%% de chance de parer jusqu'à %d dégâts (basé sur les dégâts de votre arme secondaire) d'une attaque de mêlée ou à distance. Le nombre de parades est proportionel à votre Ruse. (Une parade partielle a une chance de succès réduite.)
+		Une parade réussie réduit les dégâts comme une armure (avant tout multiplicateur d'attaque) et empêche les coups critiques. Il est difficile de parer les attaques d'adversaires invisibles et vous ne pouvez pas parer avec une Étoile d'Âme.]], "tformat")
 t([[The flow of battle invigorates you, allowing you to press your advantage as the fight progresses.
 		Up to once each per turn, while dual wielding, you may:
 		Riposte -- If a melee or archery attack misses you or you parry it, you instantly restore %0.1f stamina and gain %d%% of a turn.
-		Recover -- On performing a critical strike with your offhand weapon, you instantly restore %0.1f stamina.]], [[The flow of battle invigorates you, allowing you to press your advantage as the fight progresses.
-		Up to once each per turn, while dual wielding, you may:
-		Riposte -- If a melee or archery attack misses you or you parry it, you instantly restore %0.1f stamina and gain %d%% of a turn.
-		Recover -- On performing a critical strike with your offhand weapon, you instantly restore %0.1f stamina.]], "tformat")
-t("%s cannot move!", "%s cannot move!", "logPlayer")
+		Recover -- On performing a critical strike with your offhand weapon, you instantly restore %0.1f stamina.]], [[Le flux de la bataille vous revigore, vous permettant de presser votre avantage au fil du combat.
+		Jusqu'à une fois par tour chacun, en maniant deux armes, vous pouvez :
+		Riposter — Si une attaque de mêlée ou d'archerie vous rate ou que vous la parez, vous restaurez instantanément %0.1f d'Endurance et gagnez %d%% d'un tour.
+		Récupération — En effectuant un coup critique avec votre arme secondaire, vous restaurez instantanément %0.1f d'Endurance.]], "tformat")
+t("Feint", "Feinte", "talent name")
+t("You must be able to move to use this talent.", "Vous devez être capable de vous déplacer pour utiliser ce talent.", "logPlayer")
+t("%s cannot move!", "%s ne peut pas se déplacer !", "logPlayer")
+t("Terrain prevents #Source# from switching places with #Target#.", "Le terrain empêche #Source# d'échanger sa place avec #Target#.", "logCombat")
 t([[Make a cunning feint that tricks your target into swapping places with you.  While moving, you take the opportunity to trip them, pinning and dazing them for 2 turns.
 		Switching places distracts your foes and allows you to improve your defenses:  For %d turns, Dual Weapon Mastery yields one extra parry each turn and you are %d%% less likely to miss your parry opportunities.
-		The chance to pin and to daze increases with your Accuracy]], [[Make a cunning feint that tricks your target into swapping places with you.  While moving, you take the opportunity to trip them, pinning and dazing them for 2 turns.
-		Switching places distracts your foes and allows you to improve your defenses:  For %d turns, Dual Weapon Mastery yields one extra parry each turn and you are %d%% less likely to miss your parry opportunities.
-		The chance to pin and to daze increases with your Accuracy]], "tformat")
-t("Lunge", "Lunge", "talent name")
-t("You cannot use Lunge without dual wielding!", "You cannot use Lunge without dual wielding!", "logPlayer")
+		The chance to pin and to daze increases with your Accuracy]], [[Effectuez une feinte astucieuse qui incite votre cible à échanger sa place avec vous. En vous déplaçant, vous en profitez pour la faire trébucher, l'immobilisant et l'étourdissant pendant 2 tours.
+		L'échange de place distrait vos ennemis et vous permet d'améliorer vos défenses : pendant %d tours, Maîtrise à Deux Armes accorde une parade supplémentaire chaque tour et vous avez %d%% moins de chances de rater vos opportunités de parade.
+		La chance d'immobiliser et d'étourdir est proportionnel à votre Précision.]], "tformat")
+t("Lunge", "Botte", "talent name")
+t("You require two weapons to use this talent.", "Vous avez besoin de deux armes pour utiliser ce talent.", "logPlayer")
+t("You cannot use Lunge without dual wielding!", "Vous ne pouvez pas utiliser Botte sans manier deux armes !", "logPlayer")
+t("%s resists the blow!", "%s résiste au coup !", "logSeen")
 t([[Exploiting a gap in your target's defenses, you make a lethal strike with your offhand weapon for %d%% damage that causes them to drop their weapon, disarming them for %d turns.
 		Tempo will reduce the cooldown of this talent by 1 turn each time it is triggered defensively.
-		The chance to disarm increases with your Accuracy.]], [[Exploiting a gap in your target's defenses, you make a lethal strike with your offhand weapon for %d%% damage that causes them to drop their weapon, disarming them for %d turns.
-		Tempo will reduce the cooldown of this talent by 1 turn each time it is triggered defensively.
-		The chance to disarm increases with your Accuracy.]], "tformat")
+		The chance to disarm increases with your Accuracy.]], [[En exploitant une faille dans les défenses de votre cible, vous portez un coup fatal avec votre arme secondaire pour %d%% dégâts, lui faisant lâcher son arme et la désarmant pendant %d tours.
+		Tempo réduira le rechargement de ce talent de 1 tour chaque fois qu'il est déclenché défensivement.
+		La chance de désarmer est proportionnel à avec votre Précision.]], "tformat")
+-- texte non traduit
+--[==[
+t("Tempo", "Tempo", "talent name")
 --]==]
 
 
@@ -29383,9 +29367,9 @@ t([[Enhances your grapples with additional effects. All additional effects will 
 		#RED#Talent Level 1:  Reduces physical power by %d
 		Talent Level 3:  Silences
 		Talent Level 5:  Reduces global action speed by %d%%]], [[Améliore vos saisies avec des effets supplémentaires. Tous les effets supplémentaires s'appliquent à chaque saisie sans vérification de sauvegarde ou de résistance supplémentaire.
-		#RED#Niveau 1: Réduit la Puissance physique de %d.
-		Niveau 3: Réduit au silence.
-		Niveau 5: Réduit la vitesse d'action globale de %d%%.]], "tformat")
+		#RED#Niveau 1 : Réduit la Puissance physique de %d.
+		Niveau 3 : Réduit au silence.
+		Niveau 5 : Réduit la vitesse d'action globale de %d%%.]], "tformat")
 t("Take Down", "Mise au Sol", "talent name")
 t("You cannot move!", "Vous ne pouvez pas vous déplacer !", "logPlayer")
 t([[Rushes forward and attempts to take the target to the ground, making a melee attack for %d%% damage then attempting to grapple them. If you're already grappling the target you'll instead slam them into the ground creating a radius 5 shockwave for %d physical damage and breaking your grapple.
@@ -29423,7 +29407,7 @@ t([[Allows you to use melee weapons to focus your spells, granting a %d%% chance
 		En maniement de deux armes ou avec un bouclier, la chance est réduite de moitié.
 		La chance est proportionnel à votre Ruse.
 
-		Sorts autorisés: %s %s]], "tformat")
+		Sorts autorisés : %s %s]], "tformat")
 t("Arcane Cunning", "Ruse Arcanique", "talent name")
 t("The user gains a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "L'utilisateur gagne un bonus à la Puissance des sorts égal à %d%% de votre Ruse (Bonus actuel : %d).", "tformat")
 t("Arcane Feed", "Absorption Arcanique", "talent name")
@@ -29435,7 +29419,7 @@ t([[Raw magical damage channels through the caster's weapon, increasing raw Phys
 		If you are using a shield this will only occur 50%% of the time.
 		If you are dual wielding this will only occur 50%% of the time.
 		At level 5 the ball becomes radius 2.
-		]], [[Des dégâts magiques bruts se canalisent à travers l'arme du lanceur, augmentant la Puissance physique brute de %d%% de votre Magie (bonus actuel: %d).
+		]], [[Des dégâts magiques bruts se canalisent à travers l'arme du lanceur, augmentant la Puissance physique brute de %d%% de votre Magie (bonus actuel : %d).
 		Chaque fois que vous effectuez un coup critique en mêlée vous déchaînez une boule de dégâts arcaniques de rayon %d, infligeant %0.2f dégâts.
 		Si vous utilisez un bouclier cela ne se produira que 50%% du temps.
 		Si vous maniez deux armes cela ne se produira que 50%% du temps.
@@ -29610,7 +29594,7 @@ t("Shoot Down", "Abattre", "talent name")
 t("#Source# shoots down '#Target#'!", "#Source# abat '#Target#' !", "logCombat")
 t([[Your reflexes are lightning-fast, if you spot a projectile (arrow, shot, spell, ...) you can instantly shoot at it without taking a turn to take it down.
 		You can shoot down up to %d projectiles.
-		In addition, your heightened senses also reduce the speed of incoming projectiles by %d%%, and prevents your own projectiles from striking you.]], [[Vos réflexes sont fulgurants; si vous repérez un projectile (flèche, tir, sort...), vous pouvez instantanément tirer dessus sans prendre de tour pour l'abattre.
+		In addition, your heightened senses also reduce the speed of incoming projectiles by %d%%, and prevents your own projectiles from striking you.]], [[Vos réflexes sont fulgurants ; si vous repérez un projectile (flèche, tir, sort...), vous pouvez instantanément tirer dessus sans prendre de tour pour l'abattre.
 		Vous pouvez abattre jusqu'à %d projectile(s).
 		De plus, vos sens aiguisés réduisent également la vitesse des projectiles ennemis de %d%% et empêchent vos propres projectiles de vous toucher.]], "tformat")
 t("Intuitive Shots", "Tirs Intuitifs", "talent name")
@@ -29827,11 +29811,11 @@ t("sniper", "tireur d'élite", "talent type")
 t("Stealth and specialised long range archery techniques.", "Techniques furtives et spécialisées d'archerie à longue portée.", "_t")
 t("Acrobatics", "acrobaties", "talent type")
 t("For light footed Rogues who prefer flight to fighting fair!", "Pour les roublards aux pieds légers qui préfèrent la fuite au combat loyal !", "_t")
-t("Buckler Training", "entraînement au bocle", "talent type")
+t("Buckler Training", "formation au bocle", "talent type")
 t("Mastery over their shields separates Skirmishers from Archers, and gives them an edge.", "La maîtrise du bouclier distingue les tirailleurs des archers et leur confère un avantage.", "_t")
 t("Skirmisher - Slings", "tirailleur - frondes", "talent type")
 t("Slings! Pow Pow!", "Des frondes ! Pan ! Pan !", "_t")
-t("Tireless Combatant", "combattant infatigable", "talent type")
+t("Tireless Combatant", "infatigable combattant", "talent type")
 t("Your will carries you through the most difficult struggles, allowing you to fight on when others would have collapsed from exhaustion.", "Votre volonté vous porte à travers les épreuves les plus difficiles, vous permettant de continuer à combattre là où d'autres auraient succombé à l'épuisement.", "_t")
 t("pugilism", "pugilat", "talent type")
 t("Unarmed Boxing techniques that may not be practiced in massive armor or while a weapon or shield is equipped.", "Techniques de boxe à mains nues qui ne peuvent être pratiquées avec une armure massive ou lorsqu'une arme ou un bouclier est équipé.", "_t")
@@ -29867,10 +29851,7 @@ t("munitions", "munitions", "talent type")
 section "mod-tome/data/talents/techniques/throwing-knives.lua"
 
 t("Throwing Knives", "Couteaux de Lancer", "talent name")
--- texte non traduit
---[==[
-t("Throwing Knife", "Throwing Knife", "_t")
-t("%d%% %s", "%d%% %s", "tformat")
+t("Throwing Knife", "Couteau de Lancer", "_t")
 t([[Range: %d
 Net Damage: %d - %d
 Accuracy: %d (%s)
@@ -29878,48 +29859,51 @@ APR: %d
 Crit Chance: %+d%%
 Crit mult: %d%%
 Uses Stats: %s
-]], [[Range: %d
-Net Damage: %d - %d
-Accuracy: %d (%s)
-APR: %d
-Crit Chance: %+d%%
-Crit mult: %d%%
-Uses Stats: %s
+]], [[Portée : %d
+Dégâts nets : %d - %d
+Précision : %d (%s)
+Pén : %d
+Chance de critique : %+d%%
+Multiplicateur critique : %d%%
+Attributs utilisés : %s
 ]], "tformat")
 t([[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
 		The base power, Armour penetration, and critical strike chance of your knives increase with talent level, accuracy increase with your accuracy, and damage is improved with Dagger Mastery.
 		Throwing Knives count as melee attacks for the purpose of on-hit effects.
 		Effective Throwing Knife Stats:
 
-%s]], [[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
-		The base power, Armour penetration, and critical strike chance of your knives increase with talent level, accuracy increase with your accuracy, and damage is improved with Dagger Mastery.
-		Throwing Knives count as melee attacks for the purpose of on-hit effects.
-		Effective Throwing Knife Stats:
+%s]], [[Équipe une bandoulière pouvant contenir jusqu'à %d couteaux de lancer, vous permettant d'attaquer à distance. Vous rechargez automatiquement %d couteaux par tour lorsque vous vous reposez, ou moitié moins lorsque vous êtes en mouvement.
+		La puissance de base, la pénétration d'armure et les chances de coup critique de vos couteaux sont proportionnels au niveau du talent, la précision augmente avec votre propre précision, et les dégâts sont proportionnel à la Maîtrise des Dagues.
+		Les Couteaux de lancer sont considérés comme des attaques de mêlée pour les effets à l'impact.
+		Caractéristiques effectives des Couteaux de lancer :
 
 %s]], "tformat")
-t("Fan of Knives", "Fan of Knives", "talent name")
-t("Fan of Knives", "Fan of Knives", "_t")
+t("Fan of Knives", "Éventail de Couteaux", "talent name")
+t("Fan of Knives", "Éventail de Couteaux", "_t")
 t([[You keep a special stash of %d throwing knives in your bandolier, which you can throw all at once at enemies within a radius %d cone, for %d%% damage each.
-		Each target can be hit up to 5 times, if the number of knives exceeds the number of enemies.  Creatures block knives from hitting targets behind them.]], [[You keep a special stash of %d throwing knives in your bandolier, which you can throw all at once at enemies within a radius %d cone, for %d%% damage each.
-		Each target can be hit up to 5 times, if the number of knives exceeds the number of enemies.  Creatures block knives from hitting targets behind them.]], "tformat")
-t("Precise Aim", "Precise Aim", "talent name")
+		Each target can be hit up to 5 times, if the number of knives exceeds the number of enemies.  Creatures block knives from hitting targets behind them.]], [[Vous conservez une réserve spéciale de %d couteaux de lancer dans votre bandoulière, que vous pouvez lancer simultanément sur les ennemis dans un cône de rayon %d, chacun infligeant %d%% dégâts.
+		Chaque cible peut être touchée jusqu'à 5 fois si le nombre de couteaux dépasse celui des ennemis. Les créatures bloquent les couteaux et empêchent d'atteindre les cibles situées derrière elles.]], "tformat")
+t("Precise Aim", "Visée Précise", "talent name")
 t([[You are able to target your throwing knives with pinpoint accuracy, increasing their critical strike chance by %d%% and critical strike damage by %d%%. 
-In addition, your critical strikes with throwing knives have a %d%% chance to randomly disable your target, possibly disarming, silencing or pinning them for 2 turns.]], [[You are able to target your throwing knives with pinpoint accuracy, increasing their critical strike chance by %d%% and critical strike damage by %d%%. 
-In addition, your critical strikes with throwing knives have a %d%% chance to randomly disable your target, possibly disarming, silencing or pinning them for 2 turns.]], "tformat")
-t("Quickdraw", "Quickdraw", "talent name")
-t("Quickdraw Knife", "Quickdraw Knife", "_t")
+In addition, your critical strikes with throwing knives have a %d%% chance to randomly disable your target, possibly disarming, silencing or pinning them for 2 turns.]], [[Vous êtes capable de lancer vos couteaux de lancer avec une précision chirurgicale, augmentant leur chance de coup critique de %d%% et leurs dégâts critiques de %d%%.
+De plus, vos coups critiques avec des couteaux de lancer ont %d%% de chances d'infliger aléatoirement un effet d'incapacité à la cible, pouvant la désarmer, la réduire au silence ou l'immobiliser pendant 2 tours.]], "tformat")
+t("Quickdraw", "Dégainage Rapide", "talent name")
+t("Quickdraw Knife", "Couteau de Dégainage Rapide", "_t")
 t([[You can throw knives with lightning speed, increasing your attack speed with them by %d%% and giving you a %d%% chance when striking a target in melee to throw a knife at a random foe within 7 tiles for 100%% damage. 
-		This bonus attack can only trigger once per turn, and does not trigger from throwing knife attacks.]], [[You can throw knives with lightning speed, increasing your attack speed with them by %d%% and giving you a %d%% chance when striking a target in melee to throw a knife at a random foe within 7 tiles for 100%% damage. 
-		This bonus attack can only trigger once per turn, and does not trigger from throwing knife attacks.]], "tformat")
-t("Venomous Throw", "Venomous Throw", "talent name")
-t("Venomous Throw", "Venomous Throw", "_t")
+		This bonus attack can only trigger once per turn, and does not trigger from throwing knife attacks.]], [[Vous pouvez lancer vos couteaux à la vitesse de l'éclair, augmentant votre vitesse d'attaque avec ceux-ci de %d%% et vous donnant %d%% de chances, lorsque vous frappez une cible au corps à corps, de lancer un couteau sur un ennemi aléatoire dans un rayon de 7 cases, infligeant 100%% des dégâts.
+		Cette attaque bonus ne peut se déclencher qu'une seule fois par tour et ne peut pas être déclenchée par des attaques de couteaux de lancer.]], "tformat")
+t("Venomous Throw", "Lancer Venimeux", "talent name")
+t("Venomous Throw", "Lancer Venimeux", "_t")
 t([[Throw a knife coated with venom, doing %d%% damage as nature and inflicting additional effects based on your active vile poisons (as per the Venomous Strike talent):
 		
 		%s
-		Using this talent puts your Venomous Strike talent on cooldown.]], [[Throw a knife coated with venom, doing %d%% damage as nature and inflicting additional effects based on your active vile poisons (as per the Venomous Strike talent):
+		Using this talent puts your Venomous Strike talent on cooldown.]], [[Lance un couteau enduit de venin, infligeant %d%% dégâts de nature et appliquant des effets supplémentaires selon vos poisons infâmes actifs (comme décrit dans le talent Frappe venimeuse) :
 		
 		%s
-		Using this talent puts your Venomous Strike talent on cooldown.]], "tformat")
+		L'utilisation de ce talent place votre talent Frappe Venimeuse en récupération.]], "tformat")
+-- texte non traduit
+--[==[
+t("%d%% %s", "%d%% %s", "tformat")
 --]==]
 
 
@@ -29998,7 +29982,7 @@ t([[Toughen your body blocking up to %d damage per combo point (Max %d) across 2
 			Current block value: %d
 			Using this talent removes your combo points.
 			The damage absorbed scales with your Physical Power.]], [[Endurcissez votre corps, bloquant jusqu'à %d dégâts par point de combinaison (Maximum %d) sur 2 tours.
-			Valeur de blocage actuelle: %d
+			Valeur de blocage actuelle : %d
 			L'utilisation de ce talent supprime vos points de combinaison.
 			Les dégâts absorbés sont proportionnels à votre Puissance physique.]], "tformat")
 t("Touch of Death", "Toucher Mortel", "talent name")
@@ -30020,7 +30004,7 @@ t([[Grants %d Physical Power when fighting unarmed (or with gloves or gauntlets)
 t("Unarmed Mastery", "Maîtrise à Mains Nues", "talent name")
 t([[Increases all unarmed damage by %d%% and physical power by 30 (including grapples and kicks).
 		Note that brawlers naturally gain 0.5 Physical Power per character level while unarmed (current brawler physical power bonus: %0.1f) and attack 20%% faster while unarmed.]], [[Augmente tous les dégâts à mains nues de %d%% et la Puissance physique de 30 (y compris les saisies et les coups de pied).
-		Les Lutteurs gagnent naturellement 0,5 de Puissance physique par niveau de personnage lorsqu'ils sont à mains nues (bonus actuel de Puissance physique du Lutteur: %0.1f) et attaquent 20%% plus vite à mains nues.]], "tformat")
+		Les Lutteurs gagnent naturellement 0,5 de Puissance physique par niveau de personnage lorsqu'ils sont à mains nues (bonus actuel de Puissance physique du Lutteur : %0.1f) et attaquent 20%% plus vite à mains nues.]], "tformat")
 t("Unified Body", "Corps Unifié", "talent name")
 t("Your mastery of unarmed combat unifies your body. Increases your Strength by %d based on Cunning and your Constitution by %d based on Dexterity.", "Votre maîtrise du combat à mains nues unifie votre corps. Augmente votre Force de %d basé sur la Ruse et votre Constitution de %d basé sur la Dextérité.", "tformat")
 t("Heightened Reflexes", "Réflexes Aiguisés", "talent name")
@@ -30061,10 +30045,11 @@ t("%s resists the shield bash!", "%s résiste a la frappe au bouclier !", "logSe
 t([[Hits the target with two shield strikes, doing %d%% and %d%% shield damage. If it hits a second time, it stuns the target for %d turns.
 		The stun chance increases with your Accuracy and your Strength.]], [[Touche la cible avec deux coups de bouclier, infligeant %d%% et %d%% dégâts de bouclier. S'il touche une seconde fois, il assomme la cible pendant %d tours.
 		Les chances d'assommement sont proportionnels à votre précision et votre force.]], "tformat")
+t("Riposte", "Riposter", "talent name")
 t([[Improves your ability to perform counterstrikes after blocks in the following ways:
 		Allows counterstrikes after incomplete blocks.
 		Increases the number of counterstrikes you can perform on a target while they're vulnerable by %d.
-		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], [[Améliore votre capacité à effectuer des contre-attaques après avoir bloqué selon ce qui suit:
+		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], [[Améliore votre capacité à effectuer des contre-attaques après avoir bloqué selon ce qui suit :
 		Permet des contre-attaques après des blocages incomplets.
 		Augmente le nombre de contre-attaques que vous pouvez effectuer sur une cible alors qu'elle est vulnérable de %d.
 		Augmente les chances de contre-attaques critique de %d%%. Cette augmentation est proportionnelle à votre Dextérité.]], "tformat")
@@ -30105,11 +30090,6 @@ t([[You brace yourself for the final stand, increasing Defense and Armor by %d, 
 		Si votre vie est inférieure à 0 à la fin de Dernier Rempart, elle sera remise à 1.
 		L'augmentation de la Défense et de l'Armure est proportionnel à votre Dextérité.
 		L'augmentation de la vie est proportionnel à votre Constitution et votre vie maximale normale.]], "tformat")
--- texte non traduit
---[==[
-t("Riposte", "Riposte", "talent name")
---]==]
-
 -- ancien texte traduit
 t("turns", "tours", "_t")
 t("turn", "tour", "_t")
@@ -30928,7 +30908,7 @@ Determined to win, you draw your weapons and advance defiantly.
 The public roars in anticipation....
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
 Tandis que vous avancez, les applaudissements à l'extérieur deviennent de plus en plus assourdissants. En entrant dans l'arène, le soleil brûlant vous aveugle un instant.
-Vous levez les yeux, et apercevez votre cible les yeux dans les yeux: Le Maître de l'Arène, qui observe attentivement le nouveau venu. Il sourit, et commence à regarder les autres combattants avec intérêt.
+Vous levez les yeux, et apercevez votre cible les yeux dans les yeux : Le Maître de l'Arène, qui observe attentivement le nouveau venu. Il sourit, et commence à regarder les autres combattants avec intérêt.
 Celui qui vaincra le Maître de l'Arène obtiendra la gloire suprême. 
 Avec une détermination farouche, vous dégainez vos armes et avancez sans crainte. La foule rugit d'impatience, impatiente d'assister au spectacle...
 ]], "_t")
@@ -30974,7 +30954,7 @@ Les humains sont la race la plus répandue dans ce pays, et vous êtes l'un d'en
 Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thalore, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
 À l'ouest se trouve un autre endroit dangereux, les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
 
-Après des jours de voyage, vous avez trouvé la forêt et y êtes entré. Qu'allez-vous y trouver...?
+Après des jours de voyage, vous avez trouvé la forêt et y êtes entré. Qu'allez-vous y trouver... ?
 ]], "_t")
 
 ------------------------------------------------
@@ -31013,7 +30993,7 @@ You have been raised in a place called the Blighted Scar, on the northern border
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
 Vous êtes mort il y a longtemps, mais ça ne vous a pas arrêté. Vous êtes devenu une ghoule, un mort-vivant.
 
-Votre maître Nécromancien a des projets pour vous, mais quelque chose ne va pas: vous semblez avoir gardé votre libre arbitre.
+Votre maître Nécromancien a des projets pour vous, mais quelque chose ne va pas : vous semblez avoir gardé votre libre arbitre.
 Débarrassez-vous de ce mage maléfique et essayez de trouver une place dans le monde.
 
 Vous êtes devenue une ghoule dans un endroit appelé la Cicatrice Flétrie, à la frontière nord des terres Shaloren. Fuyez cette fosse abandonnée et tentez votre chance dans de vieux lieux oubliés.
@@ -31036,14 +31016,14 @@ After days of travel, you have found the forest and entered it. What will you fi
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
 Vous êtes un Halfelin de Derth. La plupart des gens prennent les Halfelins pour de paisibles cultivateurs qui ne quittent jamais les limites de leurs jardins.
 Pourtant, l'histoire a montré que les Halfelins sont une force a ne pas sous-estimer. Ils maintiennent toujours une puissante armée.
-Vous avez choisi une voie singulière: la voie de l'aventure, dont la solitude ne convient généralement pas à votre peuple.
+Vous avez choisi une voie singulière : la voie de l'aventure, dont la solitude ne convient généralement pas à votre peuple.
 
 Inspiré par les histoires de dragons, d'or, et de trésors cachés dans d'anciennes ruines, vous avez décidé de vous aventurer dans les lieux anciens et sauvages du monde à la recherche de gloire et de richesses.
 
 Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thalore, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
-À l'ouest se trouve un autre endroit dangereux: les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
+À l'ouest se trouve un autre endroit dangereux : les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
 
-Après des jours de voyage, vous avez trouvé la forêt et y êtes entré. Qu'allez-vous y trouver...?
+Après des jours de voyage, vous avez trouvé la forêt et y êtes entré. Qu'allez-vous y trouver... ?
 ]], "_t")
 
 ------------------------------------------------
@@ -31061,7 +31041,7 @@ Vous faites partie des Nobles, la lignée humaine la plus puissante et la plus r
 Pas vous. Vous voulez plus. Vous voulez prouver votre valeur et vous faire votre propre place dans le monde. Vous avez décidé de vous aventurer dans les lieux anciens et sauvages du monde, à la recherche de trésors anciens et de gloire.
 
 Vous êtes venu dans un pays appelé les Domaines de Derth, à la frontière ouest de la forêt de Thalore, à la recherche du Bourbier Troll. C'est une vieille forêt infestée de trolls et de toutes sortes d'animaux sauvages.
-À l'ouest se trouve un autre endroit dangereux: les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
+À l'ouest se trouve un autre endroit dangereux : les vieilles ruines de Kor'Pul. Vous avez entendu dire que les grottes situées en dessous étaient infestées de vermine et de morts-vivants.
 
 ]], "_t")
 
@@ -31103,7 +31083,7 @@ Aujourd'hui, votre peuple commence à se défaire de sa vieille image, mais ce n
 Votre espèce est faite pour le combat et le travail, et Maj'Eyal a besoin de beaucoup des deux.  
 
 Vous avez voyagé vers le nord d'Elvala, la capitale des Shalorens, à la recherche des Grottes scintillantes. Elle est infestée de vermine et de cristaux apparemment vivants.
-A l'ouest se trouve un autre endroit dangereux: un camp de Rhalorens. Ce sont des Shalorens renégats qui ne veulent pas restreindre leur utilisation de la magie. Les arrêter serait bon pour le monde en général, mais surtout pour vos bienfaiteurs shalorens.
+A l'ouest se trouve un autre endroit dangereux : un camp de Rhalorens. Ce sont des Shalorens renégats qui ne veulent pas restreindre leur utilisation de la magie. Les arrêter serait bon pour le monde en général, mais surtout pour vos bienfaiteurs shalorens.
 
 Après des jours de voyage, vous avez trouvé les grottes et y êtes entré. Qu'allez-vous y trouver... ?
 ]], "_t")
@@ -31124,7 +31104,7 @@ BLAH BLAH BLAH
 
 Vous avez été envoyé sur une île isolée de la côte sud-ouest de l'Extrême-Orient pour écraser un avant-poste du Mur Solaire, le dernier bastion d'hommes, d'elfes, et de nains sur ce continent.
 
-Un peu plus au sud se trouve l'avant-poste. Votre tâche: le détruire et vous baigner dans le sang de vos ennemis !
+Un peu plus au sud se trouve l'avant-poste. Votre tâche : le détruire et vous baigner dans le sang de vos ennemis !
 ]], "_t")
 
 ------------------------------------------------
@@ -31147,9 +31127,9 @@ Bien que votre peuple soit en paix avec les autres royaumes, beaucoup n'ont pas 
 Vous avez décidé de vous aventurer dans les lieux anciens et sauvages à la recherche de trésors anciens et de gloire.
 
 Vous êtes venu au nord d'Elvala, la capitale des Shalorens, à la recherche des Grottes Scintillantes. Elle est infestée de vermine et de cristaux apparemment vivants.
-A l'ouest se trouve un autre endroit dangereux: un camp de Rhalorens. Ce sont des Shalorens renégats qui ne veulent pas restreindre leur utilisation de la magie. Les arrêter serait bon pour votre race et votre quête de trésors.
+A l'ouest se trouve un autre endroit dangereux : un camp de Rhalorens. Ce sont des Shalorens renégats qui ne veulent pas restreindre leur utilisation de la magie. Les arrêter serait bon pour votre race et votre quête de trésors.
 
-Après des jours de voyage, vous avez trouvé les grottes et y êtes entré. Qu'allez-vous y trouver...?
+Après des jours de voyage, vous avez trouvé les grottes et y êtes entré. Qu'allez-vous y trouver... ?
 ]], "_t")
 
 ------------------------------------------------
@@ -31165,7 +31145,7 @@ You have been raised in a place called the Blighted Scar, on the northern border
 ]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
 Vous êtes mort il y a longtemps, mais cela ne vous a pas arrêté. Vous êtes devenu un mort-vivant, un squelette.
 
-Votre maître nécromancien a des projets pour vous, mais quelque chose ne va pas: vous semblez avoir conservé votre libre arbitre.
+Votre maître nécromancien a des projets pour vous, mais quelque chose ne va pas : vous semblez avoir conservé votre libre arbitre.
 Débarrassez-vous de ce mage maléfique et essayez de te trouver une place dans le monde.
 
 Vous êtes devenue un squelette dans un endroit appelé la Cicatrice Flétrie, à la frontière nord des terres Shaloren. Fuyez cette fosse abandonnée et tentez votre chance dans de vieux lieux oubliés.
@@ -31212,7 +31192,7 @@ Vous avez décidé de vous aventurer dans des lieux anciens et sauvages à la re
 Vous etes arrivé à l'ouest de la forêt de Thalore, dans le repaire de Norgos. Norgos était un allié fidèle des Thaloren, protégeant la frontière occidentale. Mais dernièrement il est devenu corrompu et s'en prend même à ses anciens alliés.
 A l'est de Shatur, la capitale des Thaloréens, se trouve une partie sombre de la forêt. Depuis la Brûlure Magique, cette zone a été corrompue. La faune et la flore y ont été transformées.
 
-Après des jours de voyage, vous avez trouvé la tanière de Norgos et y êtes entré. Qu'allez-vous y trouver...?
+Après des jours de voyage, vous avez trouvé la tanière de Norgos et y êtes entré. Qu'allez-vous y trouver... ?
 ]], "_t")
 
 ------------------------------------------------
@@ -31348,7 +31328,7 @@ Si vous avez besoin d'un rappel pour savoir quelle touche fait quoi, vous pouvez
 
 Comme c'est probablement votre première fois avec le jeu vous allez trouver qu'il y a un nombre limité de race et de classe à jouer disponibles, il en existe bien plus mais vous les débloquerez en jouant.
 
-Maintenant allez-y audacieusement et rappelez vous: #GOLD#Prenez du bon temps !#WHITE#
+Maintenant allez-y audacieusement et rappelez vous : #GOLD#Prenez du bon temps !#WHITE#
 Appuyez sur Esc, Menu principal, Sauvegardez puis créez un nouveau personnage !
 ]], "_t")
 
@@ -31368,13 +31348,13 @@ Levels are gained when experience reaches 100%. You gain experience from killing
 To open the character levelup screen either press 'p' or right-click on yourself and choose 'Levelup'.
 
 Now open the levelup screen and assign your points.
-]], [[Dans Tales of Maj'Eyal la puissance d'un personnage dépend de son niveau: les joueurs peuvent monter jusqu'au niveau 50.
+]], [[Dans Tales of Maj'Eyal la puissance d'un personnage dépend de son niveau : les joueurs peuvent monter jusqu'au niveau 50.
 
-Chaque niveau apporte plus de vie et de ressources (comme l'endurance, la mana, etc) et différents types de points qui peuvent améliorer votre personnage:
-* #GOLD#Les points de stat#WHITE#: Ils vous permettent d'augmenter les six principales statistiques: Force, Dextérité, Magie, Volonté, Ruse et Constitution. Vous gagnez 3 points par niveau.
-* #GOLD#Les points de talent de classe#WHITE#: Les talents de classe définissent les fonctions principales de votre classe. Vous gagnez 1 point par niveau, plus 1 point supplémentaire à tous les niveaux multiples de 5.
-* #GOLD#Les points de talent générique#WHITE#: Les talents génériques fournissent des utilitaires et/ou plus de puissance, mais ne sont pas toujours spécifiques à votre classe. Vous gagnez 1 point à tous les niveaux qui ne sont pas multiples de 5.
-* #GOLD#Les points de catégorie de talent#WHITE#: Ils vous permettent d'améliorer la maîtrise d'une catégorie de talent (augmentant tous les talents associés) ou d'apprendre une nouvelle catégorie de talent.
+Chaque niveau apporte plus de vie et de ressources (comme l'endurance, la mana, etc) et différents types de points qui peuvent améliorer votre personnage :
+* #GOLD#Les points de stat#WHITE# : Ils vous permettent d'augmenter les six principales statistiques : Force, Dextérité, Magie, Volonté, Ruse et Constitution. Vous gagnez 3 points par niveau.
+* #GOLD#Les points de talent de classe#WHITE# : Les talents de classe définissent les fonctions principales de votre classe. Vous gagnez 1 point par niveau, plus 1 point supplémentaire à tous les niveaux multiples de 5.
+* #GOLD#Les points de talent générique#WHITE# : Les talents génériques fournissent des utilitaires et/ou plus de puissance, mais ne sont pas toujours spécifiques à votre classe. Vous gagnez 1 point à tous les niveaux qui ne sont pas multiples de 5.
+* #GOLD#Les points de catégorie de talent#WHITE# : Ils vous permettent d'améliorer la maîtrise d'une catégorie de talent (augmentant tous les talents associés) ou d'apprendre une nouvelle catégorie de talent.
 
 Les niveaux sont gagnés lorsque votre expérience atteint 100%. Vous gagnez de l'expérience en tuant une créature hostile dont le niveau est similaire au votre.
 
@@ -31404,12 +31384,12 @@ Attack them!
 ]], [[Les attaques de mélée fonctionnent comme pour les mouvements. Il suffit de se déplacer dans la direction de l'ennemi, ou de lui cliquer dessus, pour l'attaquer.
 Si il n'est pas hostile vous lui parlerez ou vous échangerez de place avec lui.
 
-Le combat de melée utilise principalement cinq stats:
-* #GOLD#Précision#WHITE#: Vos chance de toucher.
-* #GOLD#dégâts#WHITE#: Combien de dégâts vous infligez par coup.
-* #GOLD#Défense#WHITE#: Vos chances d'éviter les attaques.
-* #GOLD#Armure#WHITE#: Une réduction fixe des dégâts reçus.
-* #GOLD#Pénétration d'armure#WHITE#: En quelle mesure vous pouvez ignorer l'armure de la cible.
+Le combat de melée utilise principalement cinq stats :
+* #GOLD#Précision#WHITE# : Vos chance de toucher.
+* #GOLD#dégâts#WHITE# : Combien de dégâts vous infligez par coup.
+* #GOLD#Défense#WHITE# : Vos chances d'éviter les attaques.
+* #GOLD#Armure#WHITE# : Une réduction fixe des dégâts reçus.
+* #GOLD#Pénétration d'armure#WHITE# : En quelle mesure vous pouvez ignorer l'armure de la cible.
 
 Vous pouvez voir ces stats, et beaucoup d'autres, dans la fiche de personnage.
 Appuyez sur "C" ou clic-droit sur votre personnage et choisissez "Inspecter la créature" pour ouvrir la fiche de personnage.
@@ -31441,13 +31421,13 @@ You can scroll the map by pressing shift and click+dragging with your mouse, or 
 Now close this dialog and go west (left) until you arrive in a bigger area.
 ]], [[Il est simple de se déplacer. Vous pouvez utiliser le clavier, la souris, ou les deux.
 
-#GOLD#Clavier:#WHITE#
+#GOLD#Clavier :#WHITE#
 - Appuyez sur les touches flèche ou le pavé numérique pour vous déplacer dans la direction associée.
 - Appuyez sur shift + les touches flèche ou le pavé numérique pour courir dans la direction associée.
 - Appuyez sur "5" sur le pavé numérique pour vous reposer durant un tour (ne rien faire).
 - Appuyez sur "W" pour "auto explorer" jusqu'à ce que vous trouviez quelque chose de dangereux ou d'intéressant.
 
-#GOLD#Souris:#WHITE#
+#GOLD#Souris :#WHITE#
 - Cliquer sur une case de la carte pour vous déplacer dessus.
 - Si il n'y a pas de monstres et que le chemin est connu vous allez courir là-bas.
 - Si il y a des cases inconnues ou intéressantes sur le chemin vous pouvez être interrompu.
@@ -31476,11 +31456,11 @@ This infusion inscribes you with the power to regenerate your life at will. You 
 
 Now move on to the west.
 ]], [[Durant vos aventures vous trouverez des objets.
-Chaque objet a un poids. Votre Force détermine combien vous pouvez porter: c'est l'encombrement maximum.
+Chaque objet a un poids. Votre Force détermine combien vous pouvez porter : c'est l'encombrement maximum.
 Pour prendre un objet, appuyez sur "G" ou clic-droit sur vous-même et sélectionnez "Ramasser un objet" tout en étant sur lui.
 Pour voir votre inventaire, appuyez sur "I" ou clic-droit sur vous-même et sélectionnez "Inventaire".
 
-Votre inventaire est partagé en deux panneaux: vos objets équippés et votre sac à dos.
+Votre inventaire est partagé en deux panneaux : vos objets équippés et votre sac à dos.
 Pour sélectionner un objet, utilisez les touches de mouvement et appuyez sur "Entrée" ou cliquez lui dessus avec la souris.
 
 L'objet que vous avez trouvé est une essence. Les essences et les runes vous permettent de lier un pouvoir à votre corps, vous attribuant de nouvelles compétences.
@@ -31532,7 +31512,7 @@ On vous a donné un arc, que vous maniez à deux mains.
 Les flèches sont infinies mais nécessitent d'être rechargées de temps à autre, en attendant, se reposant ou en marchant. Vous pouvez ajouter des flèches spéciales à votre carquois pour ajouter des dégâts et/ou des effets.
 Pour lancer une flèche, utilisez le talent Tirer. L'interface de ciblage va apparaitre, comme pour les autres talents.
 
-Pour équiper votre arc et vos flèches:
+Pour équiper votre arc et vos flèches :
 * Ouvrez votre inventaire.
 * Cliquez sur le bouton d'ensemble secondaire pour changer les armes.
 * Selectionnez votre arc et vos flèches, équipez les.
@@ -31561,8 +31541,8 @@ When you try to stab somebody, your #LIGHT_GREEN#Accuracy#WHITE# score is measur
 ]], [[Les attributs de base d'un personnage tels que la force et la volonté sont importants, mais leur importance réside dans la façon dont ils affectent vos #GOLD#statistiques de combat#WHITE#, le sujet de ce tutoriel.
 Les deux premières de ces #GOLD#statistiques de combat#WHITE# sont :
 
-#LIGHT_GREEN#La Précision: #WHITE#Détermine si vos attaques physiques touchent votre cible.  
-#LIGHT_GREEN#La Défense: #WHITE#Votre capacité à éviter les attaques.
+#LIGHT_GREEN#La Précision : #WHITE#Détermine si vos attaques physiques touchent votre cible.  
+#LIGHT_GREEN#La Défense : #WHITE#Votre capacité à éviter les attaques.
 
 Lorsque vous essayez de poignarder quelqu'un, votre score de #LIGHT_GREEN#Précision#WHITE# est mesuré par rapport au score de #LIGHT_GREEN#Défense#WHITE# de votre cible, et un pourcentage de chance de réussite est déterminé. Nous verrons le calcul exact plus tard.
 
@@ -31577,11 +31557,11 @@ t([[The next three important #GOLD#combat stats#WHITE#:
 #LIGHT_GREEN#Spell save: #WHITE#Your ability to shrug off magical effects.
 #LIGHT_GREEN#Mental save: #WHITE#Your ability to shrug off mental effects.
 
-]], [[Les trois prochaines #GOLD#statistiques de combat#WHITE# importantes:
+]], [[Les trois prochaines #GOLD#statistiques de combat#WHITE# importantes :
 
-#LIGHT_GREEN#Sauvegarde physique: #WHITE#Votre capacité à résister aux effets physiques.
-#LIGHT_GREEN#Sauvegarde des sorts: #WHITE#Votre capacité à résister aux effets magiques.
-#LIGHT_GREEN#Sauvegarde mentale: #WHITE#Votre capacité à résister aux effets mentaux.
+#LIGHT_GREEN#Sauvegarde physique : #WHITE#Votre capacité à résister aux effets physiques.
+#LIGHT_GREEN#Sauvegarde des sorts : #WHITE#Votre capacité à résister aux effets magiques.
+#LIGHT_GREEN#Sauvegarde mentale : #WHITE#Votre capacité à résister aux effets mentaux.
 
 ]], "_t")
 
@@ -31594,11 +31574,11 @@ t([[The final three important #GOLD#combat stats#WHITE# of your character are th
 #LIGHT_GREEN#Spellpower: #WHITE#Your ability to inflict damage and effects with spells.
 #LIGHT_GREEN#Mindpower: #WHITE#Your ability to inflict damage and effects with your mind.
 
-]], [[Les trois dernières #GOLD#statistiques de combat#WHITE# importantes de votre personnage sont les suivantes:
+]], [[Les trois dernières #GOLD#statistiques de combat#WHITE# importantes de votre personnage sont les suivantes :
 
-#LIGHT_GREEN#Puissance physique: #WHITE#Votre capacité à infliger des dégâts et des effets avec des armes (y compris les poings).
-#LIGHT_GREEN#Puissance des sorts: #WHITE#Votre capacité à infliger des dégâts et des effets avec des sorts.
-#LIGHT_GREEN#Puissance mentale: #WHITE#Votre capacité à infliger des dégâts et des effets avec votre esprit.
+#LIGHT_GREEN#Puissance physique : #WHITE#Votre capacité à infliger des dégâts et des effets avec des armes (y compris les poings).
+#LIGHT_GREEN#Puissance des sorts : #WHITE#Votre capacité à infliger des dégâts et des effets avec des sorts.
+#LIGHT_GREEN#Puissance mentale : #WHITE#Votre capacité à infliger des dégâts et des effets avec votre esprit.
 
 ]], "_t")
 
@@ -31647,7 +31627,7 @@ What about the other #GOLD#combat stats#WHITE#?
 They're a little harder to pin down. #LIGHT_GREEN#Physical save#WHITE#,  #LIGHT_GREEN#Spell save#WHITE#,  and #LIGHT_GREEN#Mental save#WHITE# are generally used by a defender when there's some sort of unpleasant effect at stake-- say, getting pinned to the ground or blinded or knocked flying. The #GOLD#combat stat#WHITE# used by the attacker in such cases depends on the source of the attack. Let's consider a few examples...
 ]], [[Souvent, lorsque vous effectuez une attaque, ou que vous en subissez une, le succès de l'attaque est déterminé en comparant les scores de #GOLD#statistiques de combat#WHITE# de l'attaquant et du défenseur. Nous avons déjà vu que les attaques physiques, comme les coups de mêlée ou la flèche décochée d'un archer, impliquent de comparer la #LIGHT_GREEN#précision#WHITE# de l'attaquant et la #LIGHT_GREEN#défense#WHITE# du défenseur.
 
-Qu'en est-il des autres #GOLD#statistiques de combat#WHITE#?
+Qu'en est-il des autres #GOLD#statistiques de combat#WHITE# ?
 
 Elles sont un peu plus difficiles à cerner. La #LIGHT_GREEN#Sauvegarde physique#WHITE#, la #LIGHT_GREEN#Sauvegarde des sorts#WHITE# et la #LIGHT_GREEN#Sauvegarde mentale#WHITE# sont généralement utilisées par le défenseur lorsqu'il y a un effet désagréable en jeu - par exemple, être immobilisé, aveuglé ou repoussé. La #GOLD#statistique de combat#WHITE# utilisée par l'attaquant dans de tels cas dépend de la source de l'attaque. Prenons quelques exemples...
 ]], "_t")
@@ -31663,7 +31643,7 @@ Second, the stun must take effect. The source of the stun is you, a rampaging be
 A stun is a physical effect, so we use the target's #LIGHT_GREEN#Physical save#WHITE#. Thus we'll be comparing your #LIGHT_GREEN#Physical power#WHITE# to the target's #LIGHT_GREEN#Physical save#WHITE#.
 
 It seems quite natural to always compare #LIGHT_GREEN#Physical power#WHITE# with #LIGHT_GREEN#Physical save#WHITE#, but let's consider another example. 
-]], [[Supposons que vous êtes un berserker, et que vous tentez d'assomer un ennemi. Pour que vous réussissiez, deux choses doivent se produire:
+]], [[Supposons que vous êtes un berserker, et que vous tentez d'assomer un ennemi. Pour que vous réussissiez, deux choses doivent se produire :
 
 Tout d'abord, votre attaque doit faire mouche ! Cela signifie que vous devez comparer votre #LIGHT_GREEN#Précision#WHITE# à la #LIGHT_GREEN#Défense#WHITE# de la cible.
 
@@ -31685,7 +31665,7 @@ We can guess now that the target will use their #LIGHT_GREEN#Physical save#WHITE
 
 Comme dans l'exemple du berserker, vous devez d'abord toucher, donc vous comparez votre #LIGHT_GREEN#Précision#WHITE# à la #LIGHT_GREEN#Défense#WHITE# de la cible.
 
-Nous pouvons maintenant deviner que la cible utilisera sa #LIGHT_GREEN#Sauvegarde physique#WHITE# pour tenter d'éviter l'assommement. Mais qu'allez-vous utiliser? Vous n'allez pas faire le travail avec vos gros muscles, comme un berserker. Vous le faites avec finesse, donc nous allons utiliser votre #LIGHT_GREEN#Précision#WHITE#.
+Nous pouvons maintenant deviner que la cible utilisera sa #LIGHT_GREEN#Sauvegarde physique#WHITE# pour tenter d'éviter l'assommement. Mais qu'allez-vous utiliser ? Vous n'allez pas faire le travail avec vos gros muscles, comme un berserker. Vous le faites avec finesse, donc nous allons utiliser votre #LIGHT_GREEN#Précision#WHITE#.
 ]], "_t")
 
 ------------------------------------------------
@@ -31735,9 +31715,9 @@ But don't worry. It's usually easy to know what will get used for two reasons:
 #LIGHT_GREEN#Sauvegarde des sorts#WHITE#
 #LIGHT_GREEN#Sauvegarde mentale#WHITE#
 
-Mais ne vous inquiétez pas. Il est généralement facile de savoir ce qui sera utilisé pour deux raisons:
+Mais ne vous inquiétez pas. Il est généralement facile de savoir ce qui sera utilisé pour deux raisons :
 
-#GOLD#1)#WHITE# Les #GOLD#statistiques#WHITE# de combat défensives sont utilisées de manière assez cohérente; les effets physiques utilisent la #LIGHT_GREEN#Sauvegarde physique#WHITE#, quelle que soit leur source. Les effets magiques utilisent la #LIGHT_GREEN#Sauvegarde des sorts#WHITE#, quelle que soit leur source. Les effets mentaux utilisent la #LIGHT_GREEN#Sauvegarde mentale#WHITE#, quelle que soit leur source.
+#GOLD#1)#WHITE# Les #GOLD#statistiques#WHITE# de combat défensives sont utilisées de manière assez cohérente ; les effets physiques utilisent la #LIGHT_GREEN#Sauvegarde physique#WHITE#, quelle que soit leur source. Les effets magiques utilisent la #LIGHT_GREEN#Sauvegarde des sorts#WHITE#, quelle que soit leur source. Les effets mentaux utilisent la #LIGHT_GREEN#Sauvegarde mentale#WHITE#, quelle que soit leur source.
 
 #GOLD#2)#WHITE# La plupart du temps, une classe donnée utilise une seule #GOLD#statistique de combat#WHITE# offensif, il n'y a donc pas beaucoup de risque de confusion. Un berserker n'utilisera que la #LIGHT_GREEN#Puissance physique#WHITE# pour appliquer des effets. De même, un archimage n'utilisera que la #LIGHT_GREEN#Puissance des sorts#WHITE#. 
 ]], "_t")
@@ -31776,7 +31756,7 @@ What is your #LIGHT_GREEN#Accuracy#WHITE#, and what is his #LIGHT_GREEN#Defense#
 
 Comme vous le savez maintenant, le jeu comparait votre #LIGHT_GREEN#Précision#WHITE# à la #LIGHT_GREEN#Défense#WHITE# de l'orc pour déterminer si vos coups portaient. De toute évidence, la comparaison ne vous a pas réussi.
 
-Quelle est votre #LIGHT_GREEN#Précision#WHITE#, et quelle est sa #LIGHT_GREEN#Défense#WHITE#?
+Quelle est votre #LIGHT_GREEN#Précision#WHITE#, et quelle est sa #LIGHT_GREEN#Défense#WHITE# ?
 ]], "_t")
 
 ------------------------------------------------
@@ -31791,7 +31771,7 @@ t([[Congratulations! Hopefully this series of obstacles has led you to some conc
 For the purposes of this tutorial, the maximum success chance is 100%, which will mostly not be the case in the proper game-- but a difference of ten points is still what you're shooting for in order to hit the max, whatever it happens to be.
 
 You might also have concluded that this simple "win by ten points for best results" rule means that maximizing success becomes harder and harder when comparing higher-tier #GOLD#combat stat#WHITE# scores. True enough!
-]], [[Félicitations ! Nous espérons que cette série d'obstacles vous a permis d'arriver à quelques conclusions:
+]], [[Félicitations ! Nous espérons que cette série d'obstacles vous a permis d'arriver à quelques conclusions :
 
 1) Lorsque vous comparez des scores de #GOLD#statistiques de comba#WHITE#t, une différence de dix est le chiffre magique qui maximise le succès.
 
@@ -31847,7 +31827,7 @@ Does it seem reasonable that they were hitting you (or missing you) as much as t
 
 Comparez leur #LIGHT_GREEN#Précision#WHITE#, 14, à votre #LIGHT_GREEN#Défense#WHITE#.
 
-Vous semble-t-il raisonnable qu'ils vous touchent (ou vous manquent) autant qu'ils l'ont fait?
+Vous semble-t-il raisonnable qu'ils vous touchent (ou vous manquent) autant qu'ils l'ont fait ?
 ]], "_t")
 
 ------------------------------------------------
@@ -31863,9 +31843,9 @@ Do you expect it to be successful attacking you?
 ]], [[Il y a un orc devant vous avec une régénération de santé prodigieuse.
 Comparez votre #LIGHT_GREEN#Précision#WHITE# et votre #LIGHT_GREEN#Défense#WHITE# à sa #LIGHT_GREEN#Défense#WHITE# et à sa #LIGHT_GREEN#Précision#WHITE#.
 
-Vous attendez-vous à ce que vous arriviez à l'attaquer?
+Vous attendez-vous à ce que vous arriviez à l'attaquer ?
 
-Vous attendez-vous à ce qu'il réussisse à vous attaquer?
+Vous attendez-vous à ce qu'il réussisse à vous attaquer ?
 ]], "_t")
 
 ------------------------------------------------
@@ -31878,7 +31858,7 @@ Which #GOLD#combat stats#WHITE# will get compared when you attempt to Shove some
 Try to push your way into the next room!
 ]], [[Vous avez appris Poussé, un effet de recul faible.
 
-Quelles #GOLD#statistiques de combat#WHITE# seront comparées lorsque vous tenterez de pousser quelqu'un?
+Quelles #GOLD#statistiques de combat#WHITE# seront comparées lorsque vous tenterez de pousser quelqu'un ?
 
 Essayez de vous frayer un chemin jusqu'à la prochaine pièce !
 ]], "_t")
@@ -31891,9 +31871,9 @@ t([[Did you try shoving both the enemies blocking passage into this room?
 Can you say now which #GOLD#combat stats#WHITE# get compared when you Shove somebody?
 
 
-]], [[Avez-vous essayé de pousser les deux ennemis qui bloquent le passage dans cette pièce? 
+]], [[Avez-vous essayé de pousser les deux ennemis qui bloquent le passage dans cette pièce ? 
 
-Pouvez-vous dire maintenant quelles #GOLD#statistiques de combat#WHITE# sont comparées lorsque vous poussez quelqu'un?
+Pouvez-vous dire maintenant quelles #GOLD#statistiques de combat#WHITE# sont comparées lorsque vous poussez quelqu'un ?
 
 
 ]], "_t")
@@ -31950,7 +31930,7 @@ t([[How did you do this time? Your #LIGHT_GREEN#Mental Save#WHITE# score is #00F
 Can you explain what's going on?
 ]], [[Comment avez-vous fait cette fois-ci ? Votre score de #LIGHT_GREEN#Sauvegarde Mentale#WHITE# est de #00FF80#palier 3#WHITE#, et un objet qui vous accordait +6 de #LIGHT_GREEN#Sauvegarde Mentale#WHITE# n'a augmenté ce score que de 2.
 
-Pouvez-vous expliquer ce qui se passe?
+Pouvez-vous expliquer ce qui se passe ?
 ]], "_t")
 
 ------------------------------------------------
@@ -31967,13 +31947,13 @@ For each tier, here's the cost of increasing your score by one:
 #8d55ff#Tier 5#WHITE#: 5 points
 ]], [[Il est simplement plus coûteux d'augmenter les scores dans les paliers supérieurs.
 
-Pour chaque palier, voici ce qu'il en coûte d'augmenter votre score d'une unité:
+Pour chaque palier, voici ce qu'il en coûte d'augmenter votre score d'une unité :
 
-#B4B4B4#Palier 1#WHITE#: 1 point
-#FFFFFF#Palier 2#WHITE#: 2 points
-#00FF80#Palier 3#WHITE#: 3 points
-#0080FF#Palier 4#WHITE#: 4 points
-#8d55ff#Palier 5#WHITE#: 5 points
+#B4B4B4#Palier 1#WHITE# : 1 point
+#FFFFFF#Palier 2#WHITE# : 2 points
+#00FF80#Palier 3#WHITE# : 3 points
+#0080FF#Palier 4#WHITE# : 4 points
+#8d55ff#Palier 5#WHITE# : 5 points
 ]], "_t")
 
 ------------------------------------------------
@@ -31997,7 +31977,7 @@ t([[Some clues:
 2) There seems to be no overlap in positions. The 21 is entirely to the right of that 20, for example.
 
 3) Each display scale is ten characters long, and each score takes up two characters.
-]], [[Quelques indices:
+]], [[Quelques indices :
 
 1) La #LIGHT_GREEN#Défense#WHITE# est à 20 et la #LIGHT_GREEN#Sauvegarde physique#WHITE# à 21, mais elles ont des couleurs et des positions différentes.
 
@@ -32027,7 +32007,7 @@ t([[A summary of the #GOLD#combat stat#WHITE# tiers:
 #00FF80#Tier 3#WHITE# scores, those from forty-one to sixty, are displayed in #00FF80#green#WHITE#.
 #0080FF#Tier 4#WHITE# scores, those from sixty-one to eighty, are displayed in #0080FF#blue#WHITE#.
 #8d55ff#Tier 5#WHITE# scores, those from eighty-one to one-hundred, are displayed in #8d55ff#purple#WHITE#.
-]], [[Un résumé des paliers de #GOLD#statistiques de combat#WHITE#:
+]], [[Un résumé des paliers de #GOLD#statistiques de combat#WHITE# :
 
 #B4B4B4#Palier 1#WHITE# Les scores, ceux de un à vingt, sont affichés en #B4B4B4#gris#WHITE#.
 #FFFFFF#Palier 2#WHITE# les scores, ceux de vingt et un à quarante, sont affichés en #FFFFFF#blanc#WHITE#.
@@ -32055,9 +32035,9 @@ t([[By how much did the amulet increase your #B4B4B4#tier 1#WHITE# #LIGHT_GREEN#
 By how much did the boots increase your #FFFFFF#tier 2#WHITE# #LIGHT_GREEN#Physical save#WHITE# score?
 
 Take them off and put them back on if you didn't see their effects. One of the results might be surprising.
-]], [[De combien l'amulette a-t-elle augmenté votre score de #LIGHT_GREEN#Puissance Mentale#WHITE# de #B4B4B4#palier 1?
+]], [[De combien l'amulette a-t-elle augmenté votre score de #LIGHT_GREEN#Puissance Mentale#WHITE# de #B4B4B4#palier 1 ?
 
-De combien les bottes ont-elles augmenté votre score de #LIGHT_GREEN#Sauvegarde Physique#WHITE# de #FFFFFF#palier 2?
+De combien les bottes ont-elles augmenté votre score de #LIGHT_GREEN#Sauvegarde Physique#WHITE# de #FFFFFF#palier 2 ?
 
 Enlevez-les et remettez-les si vous n'avez pas vu leurs effets. L'un des résultats pourrait être surprenant.
 ]], "_t")
@@ -32070,7 +32050,7 @@ t([[Those boots appear to have only increased your #LIGHT_GREEN#Physical save#WH
 What do you suppose would be the effects of putting on a helmet with +6 #LIGHT_GREEN#Accuracy#WHITE#?
 ]], [[Ces bottes semblent avoir seulement augmenté votre #LIGHT_GREEN#Sauvegarde Physique#WHITE# de 5.
 
-A votre avis, quels seraient les effets d'un casque avec une #LIGHT_GREEN#Précision#WHITE# de +6?
+A votre avis, quels seraient les effets d'un casque avec une #LIGHT_GREEN#Précision#WHITE# de +6 ?
 ]], "_t")
 
 ------------------------------------------------
@@ -32086,9 +32066,9 @@ section "mod-tome/data/texts/tutorial/stats-scale/scale9.lua"
 t([[Did you accurately predict that +6 to a #FFFFFF#tier 2#WHITE# #GOLD#combat stat#WHITE# score would result in an increase of only 3?
 
 Let's try again in the next room. What do you suppose will happen when you put on an item that grants you +6 #LIGHT_GREEN#Mental save#WHITE#?
-]], [[Avez-vous prédit avec précision que +6 à un score de #GOLD#statistiques de combat#WHITE# de #FFFFFF#palier 2#WHITE# entraînerait une augmentation de seulement 3?
+]], [[Avez-vous prédit avec précision que +6 à un score de #GOLD#statistiques de combat#WHITE# de #FFFFFF#palier 2#WHITE# entraînerait une augmentation de seulement 3 ?
 
-Essayons à nouveau dans la pièce suivante. Que pensez-vous qu'il se passera quand vous mettrez un objet qui vous accorde +6 en #LIGHT_GREEN#Sauvegarde Mentale#WHITE#?
+Essayons à nouveau dans la pièce suivante. Que pensez-vous qu'il se passera quand vous mettrez un objet qui vous accorde +6 en #LIGHT_GREEN#Sauvegarde Mentale#WHITE# ?
 ]], "_t")
 
 ------------------------------------------------
@@ -32099,7 +32079,7 @@ t([[Until now, a certain game mechanic has been disabled. Go learn a new talent 
 Can you identify the new mechanic?
 ]], [[Jusqu'à présent, une certaine mécanique de jeu a été désactivée. Allez apprendre un nouveau talent à la Rune d'Illumination voisine et utilisez-le pour faire sauter chacun des ennemis dans la pièce suivante. 
 
-Pouvez-vous identifier le nouveau mécanisme?
+Pouvez-vous identifier le nouveau mécanisme ?
 ]], "_t")
 
 ------------------------------------------------
@@ -32137,7 +32117,7 @@ t([[#LIGHT_GREEN#For those who want to join the discussion on these new mechanic
 tome/data/texts/Transparency.rtf
 
 This is an essay, not code. Open it with something appropriate to avoid being overwhelmed by a dense wall of text.
-]], [[#LIGHT_GREEN#Pour ceux qui veulent se joindre à la discussion sur ces nouveaux mécanismes, veuillez d'abord lire le document \"Transparency.rtf\" qui se trouve ici:#WHITE#
+]], [[#LIGHT_GREEN#Pour ceux qui veulent se joindre à la discussion sur ces nouveaux mécanismes, veuillez d'abord lire le document \"Transparency.rtf\" qui se trouve ici :#WHITE#
 
 tome/data/texts/Transparency.rtf
 
@@ -32154,7 +32134,7 @@ Why is one of the spiders unaffected?
 Go learn the Blink spell just to the south, then go back and try it on the spiders.
 ]], [[Pouvez-vous expliquer la différence de durée de l'effet temporisé "Déséquilibre" que vous infligez ?
 
-Pourquoi l'une des araignées n'est-elle pas affectée?
+Pourquoi l'une des araignées n'est-elle pas affectée ?
 
 Va apprendre le sort Passage juste au sud, puis reviens et essaie-le sur les araignées.
 ]], "_t")
@@ -32171,13 +32151,13 @@ If not, then consider the following questions:
 2) What tiers are these #GOLD#combat stats#WHITE#?
 
 Feel free to go batter those spiders some more if you need further experimentation!
-]], [[Avez-vous déterminé ce qui est à l'origine de ces nouveaux effets temporaires?
+]], [[Avez-vous déterminé ce qui est à l'origine de ces nouveaux effets temporaires ?
 
-Si non, posez-vous les questions suivantes:
+Si non, posez-vous les questions suivantes :
 
-1) Quelle #GOLD#statistique de combat#WHITE# utilisez-vous en tant qu'attaquant, et quelle #GOLD#statistique de combat#WHITE# les araignées utilisent-elles en tant que défenseurs?
+1) Quelle #GOLD#statistique de combat#WHITE# utilisez-vous en tant qu'attaquant, et quelle #GOLD#statistique de combat#WHITE# les araignées utilisent-elles en tant que défenseurs ?
 
-2) À quels niveaux se situent ces #GOLD#statistiques de combat#WHITE#?
+2) À quels niveaux se situent ces #GOLD#statistiques de combat#WHITE# ?
 
 N'hésitez pas à frapper ces araignées un peu plus si vous avez besoin d'expérimentations supplémentaires !
 ]], "_t")
@@ -32248,7 +32228,7 @@ section "mod-tome/data/texts/tutorial/stats-tier/tier8.lua"
 t([[What about #LIGHT_GREEN#Defense?#WHITE# Is it safe to neglect that?
 
 Go see how your #B4B4B4#Tier 1#WHITE# #LIGHT_GREEN#Defense#WHITE# holds up against the orcs in the next room.
-]], [[Et la #LIGHT_GREEN#Défense#WHITE#? Peut-on la négliger?
+]], [[Et la #LIGHT_GREEN#Défense#WHITE# ? Peut-on la négliger ?
 
 Allez voir comment votre #LIGHT_GREEN#Défense#WHITE# de #B4B4B4#palier 1#WHITE# résiste aux orcs dans la pièce suivante.
 ]], "_t")
@@ -32261,7 +32241,7 @@ t([[Their melee attacks seem to sometimes apply the "Off-balance" effect, but no
 Can you figure out when it gets applied and when it doesn't?
 ]], [[Leurs attaques de mêlée semblent parfois appliquer l'effet "Déséquilibre", mais pas toujours.
 
-Pouvez-vous déterminer quand il est appliqué et quand il ne l'est pas?
+Pouvez-vous déterminer quand il est appliqué et quand il ne l'est pas ?
 ]], "_t")
 
 ------------------------------------------------
@@ -32270,7 +32250,7 @@ section "mod-tome/data/texts/tutorial/stats-timed/timed0.lua"
 t([[Detrimental #GOLD#timed effects#WHITE# are conditions which cause various short-term problems, such as blindness, confusion, stunning, poisoning, slowing, and much more. Much of what we've seen so far applies to them; the type of effect determines what defensive #GOLD#combat stat#WHITE# the defender uses, and the source of the effect determines what offensive #GOLD#combat stat#WHITE# the attacker uses.
 
 Let's experiment to find out more. Move on to learn a new talent. Be sure to read its description!
-]], [[Les #GOLD#effets temporaires#WHITE# néfastes sont des conditions qui causent divers problèmes à court terme, comme l'aveuglement, la confusion, l'étourdissement, l'empoisonnement, le ralentissement, et bien d'autres choses encore. Une grande partie de ce que nous avons vu jusqu'à présent s'applique à eux; le type d'effet détermine la #GOLD#statistique de combat#WHITE# défensive que le défenseur utilise, et la source de l'effet détermine la #GOLD#statistique de combat#WHITE# offensive que l'attaquant utilise.
+]], [[Les #GOLD#effets temporaires#WHITE# néfastes sont des conditions qui causent divers problèmes à court terme, comme l'aveuglement, la confusion, l'étourdissement, l'empoisonnement, le ralentissement, et bien d'autres choses encore. Une grande partie de ce que nous avons vu jusqu'à présent s'applique à eux ; le type d'effet détermine la #GOLD#statistique de combat#WHITE# défensive que le défenseur utilise, et la source de l'effet détermine la #GOLD#statistique de combat#WHITE# offensive que l'attaquant utilise.
 
 Faisons des expériences pour en savoir plus. Passez à l'apprentissage d'un nouveau talent. N'oubliez pas de lire sa description !
 ]], "_t")
@@ -32295,9 +32275,9 @@ t([[Under what circumstances do you appear to inflict the full-duration bleed ef
 
 For those targets that didn't receive the full duration, how did their applicable #GOLD#combat stat#WHITE# compare to yours?
 
-]], [[Dans quelles circonstances pensez-vous infliger l'effet de saignement à durée complète?
+]], [[Dans quelles circonstances pensez-vous infliger l'effet de saignement à durée complète ?
 
-Pour les cibles qui n'ont pas bénéficié de la durée totale de l'effet de saignement, quelle est la différence entre leur #GOLD#statistique de combat#WHITE# et la vôtre?
+Pour les cibles qui n'ont pas bénéficié de la durée totale de l'effet de saignement, quelle est la différence entre leur #GOLD#statistique de combat#WHITE# et la vôtre ?
 
 ]], "_t")
 
@@ -32411,7 +32391,7 @@ Now take cover and wait for the skeleton.
 ]], [[Un mage squelette viens juste de vous lancer un sort.
 Bien que l'effet pyrotechnique ait l'air beau, vous ne voudrez pas être touché trop souvent.
 Quand vous êtes sous le feu d'archers ou de lanceurs de sorts tentez toujours de briser leur ligne de vue, ils seront forcés de venir à vous (à moins d'être intelligent).
-#GOLD#Mettez-vous à couvert: Ne les laissez jamais agir librement !#WHITE#
+#GOLD#Mettez-vous à couvert : Ne les laissez jamais agir librement !#WHITE#
 
 Maintenant mettez-vous à couvert et attendez le squelette.
 ]], "_t")
@@ -32446,19 +32426,19 @@ Les raccourcis par défaut sont les touches 1 à 0, et ils peuvent aussi être a
 
 Vous pouvez utiliser un talent en appuyant sur son raccourci, en le sélectionant dans la liste des talents, en cliquant dessus dans le coin en bas à gauche, ou en cliquant-droit sur la carte.
 
-Les talents sont de trois types:
-* #GOLD#Actif#WHITE#: Un talent qui est activé quand vous l'utilisez et qui a un effet instantané.
-* #GOLD#Soutenu#WHITE#: Un talent qui doit être activé et qui dure jusqu'à ce qu'il soit désactivé. Habituellement cela va reduire le maximum des ressources disponibles (l'endurance dans ce cas).
-* #GOLD#Passif#WHITE#: Un talent qui fournit un bénéfice toujours présent.
+Les talents sont de trois types :
+* #GOLD#Actif#WHITE# : Un talent qui est activé quand vous l'utilisez et qui a un effet instantané.
+* #GOLD#Soutenu#WHITE# : Un talent qui doit être activé et qui dure jusqu'à ce qu'il soit désactivé. Habituellement cela va reduire le maximum des ressources disponibles (l'endurance dans ce cas).
+* #GOLD#Passif#WHITE# : Un talent qui fournit un bénéfice toujours présent.
 
-Certains talents requièrent une cible, quand vous les utiliserez l'interface changera pour vous permettre de la sélectionner:
-* #GOLD#En utilisant le clavier#WHITE#: Appuyer sur une touche directionnelle naviguera entre les cibles possibles. Appuyer sur shift+une touche directionnelle sélectionnera librement toutes les cases. Entrée ou Espace confirmera la cible.
-* #GOLD#En utilisant la souris#WHITE#: Bouger votre souris déplacera la cible. Un clic-gauche la confirmera.
+Certains talents requièrent une cible, quand vous les utiliserez l'interface changera pour vous permettre de la sélectionner :
+* #GOLD#En utilisant le clavier#WHITE# : Appuyer sur une touche directionnelle naviguera entre les cibles possibles. Appuyer sur shift+une touche directionnelle sélectionnera librement toutes les cases. Entrée ou Espace confirmera la cible.
+* #GOLD#En utilisant la souris#WHITE# : Bouger votre souris déplacera la cible. Un clic-gauche la confirmera.
 
-Maintenant allez plus loin et essayez vos talents:
-* #GOLD#Frappe de bouclier#WHITE#: Ce talent actif va attaquer la cible en essayant de l'étourdir, la rendant plus lente et moins apte à vous blesser pour quelques tours.
-* #GOLD#Mur de bouclier#WHITE#: Ce talent soutenu va augmenter votre valeur de blocage et votre armure.
-* #GOLD#Blocage#WHITE#: Ce talent actif est donné par votre bouclier, vous permettant de bloquer le prochain coup et déclencher une opportunité de contre-attaque mortelle.
+Maintenant allez plus loin et essayez vos talents :
+* #GOLD#Frappe de bouclier#WHITE# : Ce talent actif va attaquer la cible en essayant de l'étourdir, la rendant plus lente et moins apte à vous blesser pour quelques tours.
+* #GOLD#Mur de bouclier#WHITE# : Ce talent soutenu va augmenter votre valeur de blocage et votre armure.
+* #GOLD#Blocage#WHITE# : Ce talent actif est donné par votre bouclier, vous permettant de bloquer le prochain coup et déclencher une opportunité de contre-attaque mortelle.
 ]], "_t")
 
 ------------------------------------------------
@@ -32471,11 +32451,11 @@ Some of those terrains have innate penalties or tricks. You will have to learn t
 You are about to enter a pond of water; you will not be able to breath inside. When you are in an area where you cannot breathe, an "Air" counter will appear on the left side of the screen. Do not let it reach zero or you will die.
 
 Now go to the other side of the pond.
-]], [[Pendant vos aventures vous allez trouver une grande variété de terrains sur lesquels vous pouvez passer: herbe, sable, eau, lave, ...
+]], [[Pendant vos aventures vous allez trouver une grande variété de terrains sur lesquels vous pouvez passer : herbe, sable, eau, lave, ...
 
 Certains de ces terrains entrainent des pénalités ou des malus. Vous devrez les reconnaître afin de savoir comment les gérer.
 
-Vous êtes sur le point d'aborder une étendue d'eau; vous n'êtes pas capable de respirer dedans. Quand vous êtes sur une case où vous ne pouvez pas respirer, une jauge "Air" va apparaitre sur le coté gauche de l'écran. Ne la laissez pas descendre à zéro ou vous mourrez.
+Vous êtes sur le point d'aborder une étendue d'eau ; vous n'êtes pas capable de respirer dedans. Quand vous êtes sur une case où vous ne pouvez pas respirer, une jauge "Air" va apparaitre sur le coté gauche de l'écran. Ne la laissez pas descendre à zéro ou vous mourrez.
 
 Maintenant allez de l'autre coté de l'étendue d'eau.
 ]], "_t")
@@ -32483,7 +32463,7 @@ Maintenant allez de l'autre coté de l'étendue d'eau.
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-adventurer.lua"
 
-t("New Class: #LIGHT_GREEN#Adventurer", "Nouvelle classe: #LIGHT_GREEN#Aventurier", "_t")
+t("New Class: #LIGHT_GREEN#Adventurer", "Nouvelle classe : #LIGHT_GREEN#Aventurier", "_t")
 t([[Congratulations, you have won the game!
 You can now create new characters with the #LIGHT_GREEN#Adventurer class#WHITE#.
 
@@ -32499,7 +32479,7 @@ A utiliser à vos risques et périls, et amusez-vous bien.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-afflicted_cursed.lua"
 
-t("New Class: #LIGHT_GREEN#Cursed (Afflicted)", "Nouvelle classe: #LIGHT_GREEN#Maudit (Afflgé)", "_t")
+t("New Class: #LIGHT_GREEN#Cursed (Afflicted)", "Nouvelle classe : #LIGHT_GREEN#Maudit (Afflgé)", "_t")
 t([[Through ignorance, greed or folly, the Cursed served some dark design and are now doomed to pay for their sins.
 Their only master now is the hatred they carry for every living thing.
 Drawing strength from the death of all they encounter, the Cursed become terrifying combatants.
@@ -32525,7 +32505,7 @@ Certains d'entre eux, cependant, s'efforcent de racheter leurs fautes en utilisa
 Vous avez "levé" la malédiction de Ben Cruthdar. Vous pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Maudit#WHITE#.
 
 Les maudits sont des combattants violents en mêlée, concentrant toute leur haine dans leurs coups.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Engouffrez vos ennemis dans votre Gloom, les affaiblissant, les désorientant, les assommant et les endommageant.
 - Chassez vos proies, traquez-les et marquez-les pour la mort.
 - Puissant combattant de mêlée#WHITE#
@@ -32537,7 +32517,7 @@ La plupart de leurs talents sont plus efficaces lorsque la haine est élevée.
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-afflicted_doomed.lua"
 
-t("New Class: #LIGHT_GREEN#Doomed (Afflicted)", "Nouvelle classe: #LIGHT_GREEN#Condamné (Affligé)", "_t")
+t("New Class: #LIGHT_GREEN#Doomed (Afflicted)", "Nouvelle classe : #LIGHT_GREEN#Condamné (Affligé)", "_t")
 t([[Through ignorance, greed or folly, the Doomed served some dark design and must now pay for their sins.
 Their only master now is the hatred they carry for every living thing.
 Drawing strength from the death of all they encounter, the Doomed become terrifying foes.
@@ -32564,7 +32544,7 @@ Certains d'entre eux, cependant, s'efforcent de racheter leurs fautes en utilisa
 Vous avez détruit votre propre ombre condamnée. Vous pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Condamné#WHITE#.
 
 Les Condamnés sont des lanceurs de sorts à courte portée.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Plongez vos ennemis dans les ténèbres
 - Invoquez des ombres qui se battront pour vous
 - Libérez votre haine sous une forme brutale et physique
@@ -32577,7 +32557,7 @@ La plupart de leurs talents sont plus efficaces lorsque la haine est élevée.
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-birth_transmo_chest.lua"
 
-t("New birth equipment: #LIGHT_GREEN#Transmogrification Chest", "Nouvel équipement de voyage: #LIGHT_GREEN#Coffre de Ttransmogrification", "_t")
+t("New birth equipment: #LIGHT_GREEN#Transmogrification Chest", "Nouvel équipement de voyage : #LIGHT_GREEN#Coffre de Ttransmogrification", "_t")
 t([[You have discovered an old Fortress belonging to the mysterious Sher'tul race.
 The Fortress shadow gave you a transmogrification chest which shall make your dealing with storage and gold much easier.
 
@@ -32591,7 +32571,7 @@ Tous vos nouveaux personnages commenceront désormais avec un coffre de transmog
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-birth_zigur_sacrifice.lua"
 
-t("New birth power: #LIGHT_GREEN#Ziguranth Sacrifice", "Nouveau pouvoir de voyage: #LIGHT_GREEN#Sacrifice Ziguranth", "_t")
+t("New birth power: #LIGHT_GREEN#Ziguranth Sacrifice", "Nouveau pouvoir de voyage : #LIGHT_GREEN#Sacrifice Ziguranth", "_t")
 t([[You have discovered Zigur, the bastion of Nature fighting against all arcane magics.
 Magic has caused so much pain and suffering on the world, it needs to stop.
 
@@ -32605,7 +32585,7 @@ Tous vos nouveaux personnages pourront désormais trahir des quêtes d'escorte a
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-campaign_arena.lua"
 
-t("New game campaign: #LIGHT_GREEN#The Arena: Challenge of the Master", "Nouvelle Campagne: #LIGHT_GREEN#L'Arène: Le défi du Maître", "_t")
+t("New game campaign: #LIGHT_GREEN#The Arena: Challenge of the Master", "Nouvelle Campagne : #LIGHT_GREEN#L'Arène : Le défi du Maître", "_t")
 t([[The arena, a way of violent entertainment. 
 A delight for the audience, a source of wealth and glory. A place where aspiring fighters, former adventurers and those cursed to fight
 eternally gather to hack away at each other.
@@ -32621,11 +32601,11 @@ Campaign features:#YELLOW#
 ]], [[L'arène, un moyen de divertissement violent. 
 Un plaisir pour le public, une source de richesse et de gloire. Un lieu où les aspirants combattants, les anciens aventuriers et ceux condamnés à se battre se réunissent éternellement pour s'entretuer.
 
-Vous avez débloqué l'Arène et pouvez maintenant créer de nouveaux personnages dans une nouvelle campagne.: #LIGHT_GREEN#L'Arène#WHITE#.
+Vous avez débloqué l'Arène et pouvez maintenant créer de nouveaux personnages dans une nouvelle campagne. : #LIGHT_GREEN#L'Arène#WHITE#.
 
 L'arène vous oppose à de multiples ennemis dans un champ ouvert, ce qui rend vos tactiques de combat importantes pour votre survie.
-Caractéristiques de la Campagne:#YELLOW#
-- Pas de quêtes, d'intrigues, de créatures amicales ou d'échappatoires: seulement vous contre tous.
+Caractéristiques de la Campagne :#YELLOW#
+- Pas de quêtes, d'intrigues, de créatures amicales ou d'échappatoires : seulement vous contre tous.
 - Système de score exclusif où plus vous tuez vite, plus vous gagnez. Les scores sont conservés pour pouvoir se vanter !
 - Du pur hack et slash BORDELIQUE !
 - Votre champion devient le nouveau maître de l'arène, ce qui vous permet de défier vos propres champions !
@@ -32634,7 +32614,7 @@ Caractéristiques de la Campagne:#YELLOW#
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-campaign_infinite_dungeon.lua"
 
-t("New game campaign: #LIGHT_GREEN#Infinite Dungeon: The Neverending Descent", "Nouvelle Campagne: #LIGHT_GREEN#Donjon Infini : La Descente sans Fin", "_t")
+t("New game campaign: #LIGHT_GREEN#Infinite Dungeon: The Neverending Descent", "Nouvelle Campagne : #LIGHT_GREEN#Donjon Infini : La Descente sans Fin", "_t")
 t([[During the Age of Haze, the nine Godslayers set out to destroy the gods.
 The god Ralkur, while trying to escape one of the Godslayers, created the Infinite Dungeon.
 He retreated there, but the Godslayer followed, and each time he would reach the god, Ralkur would create a new level.
@@ -32652,11 +32632,11 @@ Le dieu Ralkur, en essayant d'échapper à l'un des Tueurs de Dieux, créa le Do
 Il s'y retira, mais le Tueur de Dieux le suivit, et chaque fois qu'il atteignait le dieu, Ralkur créait un nouveau niveau.
 On dit que la chasse se poursuit encore aujourd'hui, au plus profond du donjon.
 
-Vous avez percé le secret du Donjon Infini et pouvez maintenant créer de nouveaux personnages dans une nouvelle campagne: #LIGHT_GREEN#Donjon Infini#WHITE#.
+Vous avez percé le secret du Donjon Infini et pouvez maintenant créer de nouveaux personnages dans une nouvelle campagne : #LIGHT_GREEN#Donjon Infini#WHITE#.
 
 Le Donjon Infini est un ensemble de niveaux toujours plus grands remplis d'ennemis redoutables.
-Caractéristiques de la Campagne:#YELLOW#
-- Pas de quêtes, d'intrigues, de créatures amicales ou d'échappatoires: seulement vous contre tous.
+Caractéristiques de la Campagne :#YELLOW#
+- Pas de quêtes, d'intrigues, de créatures amicales ou d'échappatoires : seulement vous contre tous.
 - Pas de condition de victoire : vous DEVEZ mourir dans le donjon, mais vous pouvez prouver votre valeur en allant le plus loin possible.
 - Du pur hack et slash BORDELIQUE !#WHITE#
 ]], "_t")
@@ -32664,7 +32644,7 @@ Caractéristiques de la Campagne:#YELLOW#
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-chronomancer_paradox_mage.lua"
 
-t("New Class: #LIGHT_GREEN#Paradox Mage (Chronomancer)", "Nouvelle Classe: #LIGHT_GREEN#Mage du Paradoxe (Chronomancien)", "_t")
+t("New Class: #LIGHT_GREEN#Paradox Mage (Chronomancer)", "Nouvelle Classe : #LIGHT_GREEN#Mage du Paradoxe (Chronomancien)", "_t")
 t([[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
 Some seek to weave this fabric, to bend it and shape it to their own will.  Only the truly dedicated or the truly mad manage to unlock the secrets of time and space.
 
@@ -32685,7 +32665,7 @@ Certains cherchent à tisser ce tissu, à le plier et à le façonner selon leur
 Vous avez appris ces secrets et pouvez maintenant créer de nouveaux personnages avec la classe #LIGHT_GREEN#Mage du Paradoxe#WHITE#.
 
 Les Mages du Paradoxe sont des lanceurs de sorts non traditionnels qui utilisent la chronomancie pour remodeler l'univers.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Contrôlez l'écoulement du temps autour de vous
 - Déformer et manipuler le flux temporel ou même se sortir du futur.
 - Manipulez l'espace et la gravité pour réduire vos ennemis en pièces ou les maintenir en place.
@@ -32698,7 +32678,7 @@ Plus leur paradoxe est élevé, plus l'effet de leurs pouvoirs est grand, mais p
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-chronomancer_temporal_warden.lua"
 
-t("New Class: #LIGHT_GREEN#Temporal Warden (Chronomancer)", "Nouvelle Classe: #LIGHT_GREEN#Guardien du Temps (Chronomancien)", "_t")
+t("New Class: #LIGHT_GREEN#Temporal Warden (Chronomancer)", "Nouvelle Classe : #LIGHT_GREEN#Guardien du Temps (Chronomancien)", "_t")
 t([[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
 As with all great powers, there are those who seek to manipulate it and pervert it, but there are also those who seek to uphold rather than destroy.
 Those who have learned to bend, rather than break, the fabric can keep the balance against dark or power-hungry forces.
@@ -32720,7 +32700,7 @@ Ceux qui ont appris à plier, plutôt qu'à briser, le tissu peuvent maintenir l
 YUn Gardien du Temps vous a enseigné les voies de la chronomancie et vous pouvez maintenant créer de nouveaux personnages avec la classe de #LIGHT_GREEN#Gardien du Temps#WHITE#.
 
 Les Gardiens du Temps sont des guerriers compétents en combat à distance et en combat au corps à corps.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Maniez une arme de taille moyenne et une arme de petite taille ou attaquez à distance avec vos compétences en matière d'armes à distance
 - Manipulez l'espace et le temps pour vous accélérer, créer des trous de ver, ou même projeter un adversaire dans le futur
 - Voir dans le futur ou même voyager dans le passé#WHITE#
@@ -32732,7 +32712,7 @@ Plus leur paradoxe est élevé, plus l'effet de leurs pouvoirs est important, ma
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-corrupter_corruptor.lua"
 
-t("New Class: #LIGHT_GREEN#Corruptor (Defiler)", "Nouvelle Classe: #LIGHT_GREEN#Corrupteur (Profanateur)", "_t")
+t("New Class: #LIGHT_GREEN#Corruptor (Defiler)", "Nouvelle Classe : #LIGHT_GREEN#Corrupteur (Profanateur)", "_t")
 t([[Every power has a dark side, including the arcane forces.
 Corruptors are mages that deal in dark, blighted, demonic magic to attain their goals.
 Not all of them are evil, though; some are simply selfish and concerned only with their own power.
@@ -32750,12 +32730,12 @@ Corruptors use "vim" to power their special abilities.
 Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
 ]], [[Chaque pouvoir a un côté sombre, y compris les forces arcaniques.
 Les Corrupteurs sont des mages qui ont recours à la magie noire, maléfique et démoniaque pour atteindre leurs objectifs.
-Ils ne sont pas tous mauvais, cependant; certains sont simplement égoïstes et ne se préoccupent que de leur propre pouvoir.
+Ils ne sont pas tous mauvais, cependant ; certains sont simplement égoïstes et ne se préoccupent que de leur propre pouvoir.
 
 Le Grand Corrupteur vous a enseigné ses méthodes et vous pouvez désormais créer de nouveaux personnages avec la #LIGHT_GREEN#classe Corrupteur#WHITE#..
 
 Les corrupteurs sont des lanceurs de sorts, des attaquants à distance utilisant la magie.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Empoisonnez vos ennemis avec des maladies mortelles et contagieuses
 - Maudissez vos ennemis, entravez-les et faites-les dépérir
 - Prenez la vie de vos victimes pour vous guérir
@@ -32768,7 +32748,7 @@ La vitae est la force vitale de tous les êtres. Elle ne se régénère pas, et 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-corrupter_reaver.lua"
 
-t("New Class: #LIGHT_GREEN#Reaver (Defiler)", "Nouvelle Classe: #LIGHT_GREEN#Moissoneur (Profanateur)", "_t")
+t("New Class: #LIGHT_GREEN#Reaver (Defiler)", "Nouvelle Classe : #LIGHT_GREEN#Moissoneur (Profanateur)", "_t")
 t([[Under a veil of darkness and blight come the Reavers.
 The foot soldiers of evil forces, Reavers are found everywhere.
 Very rarely a Reaver will realise the wrongness of her way and use her powers to atone for her crimes.
@@ -32791,7 +32771,7 @@ Il est très rare qu'un Moissoneur se rende compte du mal qu'il fait et utilise 
 Vous avez tué de nombreux humanoïdes et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Moissoneur#WHITE#.
 
 Les Reavers sont des combattants de mêlée lourd et des lanceurs de sorts.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Empoisonnez vos ennemis avec des maladies mortelles et contagieuse
 - Maudissez vos ennemis, entravez-les et faites-les dépérir
 - Effectuez des mouvements de mêlée mortels de la plus grande méchanceté
@@ -32804,7 +32784,7 @@ La vitae est la force vitale de tous les êtres. Elle ne se régénère pas, et 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-cosmetic_bikini.lua"
 
-t("New Cosmetic Option: #LIGHT_GREEN#Bikini and Mankini", "Nouvelle Option Cosmétique: #LIGHT_GREEN#Bikini et Mankini", "_t")
+t("New Cosmetic Option: #LIGHT_GREEN#Bikini and Mankini", "Nouvelle Option Cosmétique : #LIGHT_GREEN#Bikini et Mankini", "_t")
 t([[You have saved Melinda again at the beach.
 
 You may now create characters that start equiped with either bikini or mankini.
@@ -32826,7 +32806,7 @@ Cela n'a aucun effet sur le gameplay mais c'est fun !
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-cosmetic_class_alchemist_drolem.lua"
 
-t("New Class Option: #LIGHT_GREEN#Drolem", "Nouvelle Classe: #LIGHT_GREEN#Drolem", "_t")
+t("New Class Option: #LIGHT_GREEN#Drolem", "Nouvelle Classe : #LIGHT_GREEN#Drolem", "_t")
 t([[You have defeated Tannen with your Alchemist and took some time to figure how he built a mighty Drolem.
 Drolems are dragon-shaped golems able to breath powerful poison at their foes.
 
@@ -32846,7 +32826,7 @@ Les Drolems sont superbes et peuvent éventuellement apprendre à souffler du po
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-cosmetic_race_dwarf_female_beard.lua"
 
-t("New Cosmetic Race Option: #LIGHT_GREEN#Facial Pilosity for Female Dwarves", "Nouvelle Option Cosmétique Raciale: #LIGHT_GREEN#Pilosité Faciale pour les Naines", "_t")
+t("New Cosmetic Race Option: #LIGHT_GREEN#Facial Pilosity for Female Dwarves", "Nouvelle Option Cosmétique Raciale : #LIGHT_GREEN#Pilosité Faciale pour les Naines", "_t")
 t([[You have saved the Iron Council from untold horrors from the deep.
 
 You may now create female dwarf characters sporting proudly facial pilosity as is the norm in the upper classes of dwarven society.
@@ -32866,7 +32846,7 @@ Cela n'a aucun effet sur le gameplay mais c'est fun !
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-cosmetic_race_human_redhead.lua"
 
-t("New Cosmetic Race Option: #LIGHT_GREEN#Redhead Characters", "Nouvelle Option Cosmétique Raciale: #LIGHT_GREEN#Personnages Roux", "_t")
+t("New Cosmetic Race Option: #LIGHT_GREEN#Redhead Characters", "Nouvelle Option Cosmétique Raciale : #LIGHT_GREEN#Personnages Roux", "_t")
 t([[You have saved Melinda from untold horrors and torments.
 
 You may now create human, elf, halfling and dwarf characters with red hair.
@@ -32884,7 +32864,7 @@ Cela n'a aucun effet sur le gameplay, mais c'est fun !
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-difficulty_insane.lua"
 
-t("New game difficulty mode: #LIGHT_GREEN#Insane", "Nouveau mode de Difficulté: #LIGHT_GREEN#Insensé", "_t")
+t("New game difficulty mode: #LIGHT_GREEN#Insane", "Nouveau mode de Difficulté : #LIGHT_GREEN#Insensé", "_t")
 t([[You won the game on Nightmare mode.  You are a big tough player!
 You thought you had seen it all, done it all...
 
@@ -32904,7 +32884,7 @@ Vous pensiez avoir tout vu, tout fait...
 
 Mais non ! Si le mode Cauchemar n'a pas pu vous abattre, le mode Insensé le fera !
 
-Caractéristiques Insensées:#YELLOW#
+Caractéristiques Insensées :#YELLOW#
 - Tous les niveaux de zone sont augmentés de 50% + 3
 - Tous les niveaux de talents des créatures sont augmentés de 50%
 - Les créatures rares sont beaucoup plus fréquentes et des boss aléatoires commencent à apparaître
@@ -32918,7 +32898,7 @@ Caractéristiques Insensées:#YELLOW#
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-difficulty_madness.lua"
 
-t("New game difficulty mode: #LIGHT_GREEN#Madness", "Nouveau mode de Difficulté: #LIGHT_GREEN#Folie", "_t")
+t("New game difficulty mode: #LIGHT_GREEN#Madness", "Nouveau mode de Difficulté : #LIGHT_GREEN#Folie", "_t")
 t([[You won the game on Insane mode.  You are one of the best players!
 But fear not because the game is just about to get even more unfair on you!
 
@@ -32938,7 +32918,7 @@ Mais n'ayez crainte car le jeu est sur le point de devenir encore plus injuste p
 
 Bienvenue dans le mode Folie !
 
-Caractéristiques de Folie:#YELLOW#
+Caractéristiques de Folie :#YELLOW#
 - Tous les niveaux de zone sont augmentés de 150% + 6
 - Tous les niveaux de talents des créatures sont augmentés de 170%
 - Les créatures rares sont beaucoup plus fréquentes et des boss aléatoires commencent à apparaître
@@ -32952,7 +32932,7 @@ Caractéristiques de Folie:#YELLOW#
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-divine_anorithil.lua"
 
-t("New Class: #LIGHT_GREEN#Anorithil (Celestial)", "Nouvelle Classe: #LIGHT_GREEN#Anorithil (Céleste)", "_t")
+t("New Class: #LIGHT_GREEN#Anorithil (Celestial)", "Nouvelle Classe : #LIGHT_GREEN#Anorithil (Céleste)", "_t")
 t([[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
 
 Anorithil are mages who are trained in special magic to focus the powers of the Sun and Moons.
@@ -32979,7 +32959,7 @@ Leur devise est : "Nous nous tenons entre le Soleil et les Lunes, là où la lum
 Vous avez aidé l'un d'entre eux et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Anorithil#WHITE#.
 
 Les Anorithil sont de purs lanceurs de sorts qui s'appuient sur les énergies positives et négatives.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Brûlez vos ennemis de loin avec la lumière et le feu du soleil
 - Partez au combat renforcé par vos puissants chants du soleil et vos hymnes de la lune
 - Engloutissez vos ennemis dans les ombres
@@ -32992,7 +32972,7 @@ Celles-ci sont remplies par certains de leurs sorts et épuisées par d'autres, 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-divine_sun_paladin.lua"
 
-t("New Class: #LIGHT_GREEN#Sun Paladin (Celestial)", "Nouvelle Classe: #LIGHT_GREEN#Paladin Solaire (Céleste)", "_t")
+t("New Class: #LIGHT_GREEN#Sun Paladin (Celestial)", "Nouvelle Classe : #LIGHT_GREEN#Paladin Solaire (Céleste)", "_t")
 t([[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
 
 Sun Paladins are warriors who are trained in special magic to focus the powers of the Sun.
@@ -33019,7 +32999,7 @@ Leur devise est : "Le Soleil est notre donateur, notre pureté, notre essence. N
 Vous avez découvert les Portes du Matin et pouvez maintenant créer de nouveaux personnages avec la classe #LIGHT_GREEN#Paladin Solaire#WHITE#.
 
 Les Paladins Solaires sont des combattants de mêlée lourd avec un support de lanceur de sorts.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Brûlez vos ennemis de loin avec la lumière et le feu du soleil
 - Partez au combat renforcé par de puissants chants
 - Canalisez la puissance du soleil à travers votre arme
@@ -33032,7 +33012,7 @@ Elle est remplie par certains de leurs sorts et épuisée par d'autres, ce qui l
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage.lua"
 
-t("New Class: #LIGHT_GREEN#Archmage", "Nouvelle Classe: #LIGHT_GREEN#Archimage", "_t")
+t("New Class: #LIGHT_GREEN#Archmage", "Nouvelle Classe : #LIGHT_GREEN#Archimage", "_t")
 t([[Magic has not disappeared from Maj'Eyal with the end of the Spellhunt.
 
 During the Age of Dusk, as the Spellhunt was nearing its end, a powerful mage of the Kar'Krul, Linaniil, created a safe haven for the few remaining mages of all races.
@@ -33057,7 +33037,7 @@ Ce lieu est Angolwen, la Cité de la Magie, et depuis plus de deux mille ans, il
 On vous a raconté cette histoire et vous pouvez maintenant créer de nouveaux personnages avec la classe #LIGHT_GREEN#Archimage#WHITE#.
 
 Les Archmagi sont le summum des lanceurs de sorts, en accord avec les propriétés magiques du monde.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Lancez des sorts élémentaires pour brûler vos ennemis ou les geler
 - Invoquez les pouvoirs de l'Espace et du Temps pour protéger et paralyser
 - S'adonner aux fantaisies et aux illusions
@@ -33070,7 +33050,7 @@ Il se reconstitue lentement avec le temps.
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_cryomancer.lua"
 
-t("New Talent Category: #LIGHT_GREEN#Ice", "Nouvelle Catégorie de Talent: #LIGHT_GREEN#Glace", "_t")
+t("New Talent Category: #LIGHT_GREEN#Ice", "Nouvelle Catégorie de Talent : #LIGHT_GREEN#Glace", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
 While most mages are content using the Water school, a few of them took their research deeper and created Ice magic.
 At its core lies the Uttercold, a cold so cold it can even damage creatures normally immune.
@@ -33088,17 +33068,17 @@ Au coeur de cette magie se trouve le Froid Absolu, un froid si froid qu'il peut 
 
 Vous avez maîtrisé la magie de glace et pouvez maintenant créer de nouveaux personnages Archimage et Nécromancien qui peuvent apprendre #LIGHT_GREEN#les talents de Glace#WHITE#.
 
-Talents:
-- #YELLOW#Gel: #WHITE#Condenser l'eau ambiante sur une cible, l'endommager et la geler
-- #YELLOW#Sol Gelé: #WHITE#Lance une nova de glace sur le sol, stoppant les mouvements de tout ce qui est pris dedans
-- #YELLOW#Eclatement: #WHITE#Éclatez toutes les créatures gelées dans votre champ de vision, en leur infligeant des dégâts accrus ou en les tuant
-- #YELLOW#Froid Absolu: #WHITE#Maîtriser le Froid Absolu et percez au travers des immunités au froid
+Talents :
+- #YELLOW#Gel : #WHITE#Condenser l'eau ambiante sur une cible, l'endommager et la geler
+- #YELLOW#Sol Gelé : #WHITE#Lance une nova de glace sur le sol, stoppant les mouvements de tout ce qui est pris dedans
+- #YELLOW#Eclatement : #WHITE#Éclatez toutes les créatures gelées dans votre champ de vision, en leur infligeant des dégâts accrus ou en les tuant
+- #YELLOW#Froid Absolu : #WHITE#Maîtriser le Froid Absolu et percez au travers des immunités au froid
 ]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_geomancer.lua"
 
-t("New Talent Category: #LIGHT_GREEN#Stone", "Nouvelle Catégorie de Talent: #LIGHT_GREEN#Pierre", "_t")
+t("New Talent Category: #LIGHT_GREEN#Stone", "Nouvelle Catégorie de Talent : #LIGHT_GREEN#Pierre", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
 While most mages are content using the Earth school, a few of them took their research deeper and created Stone magic.
 At its core lies the Crystalline Focus, which can create attacks so sharp they can cut through physical immunity.
@@ -33116,17 +33096,17 @@ Au coeur de celle-ci se trouve le Focus Cristallin, qui peut créer des attaques
 
 Vous avez maîtrisé la magie de pierre et pouvez maintenant créer de nouveaux personnages Archimage et Lame arcanique qui peuvent apprendre les #LIGHT_GREEN#talents de Pierre#WHITE#.
 
-Talents:
-- #YELLOW#Missiles en Terre: #WHITE#Tirez plusieurs missiles de pierre sur des cibles indépendantes
-- #YELLOW#Corps de Pierre: #WHITE#Se changer en pierre, réduisant le temps de recharge de nombreux talents de pierre/terre
-- #YELLOW#Tremblement de Terre: #WHITE#Créer un tremblement de terre localisé, assommant toute les cibles dans la zone
-- #YELLOW#Focus Cristallin: #WHITE#Maîtrisez la pierre et percez au travers des immunités physiques
+Talents :
+- #YELLOW#Missiles en Terre : #WHITE#Tirez plusieurs missiles de pierre sur des cibles indépendantes
+- #YELLOW#Corps de Pierre : #WHITE#Se changer en pierre, réduisant le temps de recharge de nombreux talents de pierre/terre
+- #YELLOW#Tremblement de Terre : #WHITE#Créer un tremblement de terre localisé, assommant toute les cibles dans la zone
+- #YELLOW#Focus Cristallin : #WHITE#Maîtrisez la pierre et percez au travers des immunités physiques
 ]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_necromancer.lua"
 
-t("New Class: #LIGHT_GREEN#Necromancer", "Nouvelle Classe: #LIGHT_GREEN#Nécromancien", "_t")
+t("New Class: #LIGHT_GREEN#Necromancer", "Nouvelle Classe : #LIGHT_GREEN#Nécromancien", "_t")
 t([[Necromancy, the forbidden art.
 Necromancy, the black art.
 
@@ -33150,18 +33130,18 @@ It slowly replenishes over time.
 La Nécromancie, l'art noir.
 
 Pendant l'Ere du Crépuscule et l'Ere du Bûcher, le monde a traversé une ère torturée. Des royaumes ont été brisés, des races entières ont été supprimées, et les maladies se sont répandues, tuant des millions de personnes.
-C'était une époque sombre et, au milieu du chaos, sont apparus les porteurs de la terreur: les nécromanciens.
+C'était une époque sombre et, au milieu du chaos, sont apparus les porteurs de la terreur : les nécromanciens.
 Bien qu'ils aient toujours existé, et qu'ils existeront toujours tant que nos âmes seront ouvertes à la tentation, ce fut leur véritable âge de gloire.
 Les archimages dits "nobles" considèrent les nécromanciens comme des frères déchus qui doivent être corrigés... ou éliminés. Mais les nécromanciens se considèrent comme des praticiens incompris d'un art que les autres ont trop peur ou sont trop faibles pour toucher. Et oh, quels grands pouvoirs ces arts apportent-ils....
 
 Vous avez appris les bases de la nécromancie, en avez tué un et pouvez maintenant créer de nouveaux personnages avec la classe #LIGHT_GREEN#Nécromancien#WHITE#.
 
 Les nécromanciens sont de sombres lanceurs de sorts, en accord avec la mort elle-même. Leur but ultime est leur propre vie éternelle, souvent sous la forme d'une liche.
-Caractéristiques de Classe:#YELLOW#
+Caractéristiques de Classe :#YELLOW#
 - Lancez des sorts infusés de ténèbres et de glace pour détruire vos ennemis
 - Invoquez une armée de serviteurs morts-vivants à votre service
 - Utilisez vos serviteurs comme des pions, en les sacrifiant de diverses manières cruelles et inhabituelles
-- Embarquez pour la quête de votre vie: La Transformation en Liche#WHITE#
+- Embarquez pour la quête de votre vie : La Transformation en Liche#WHITE#
 
 Tous les mages utilisent du mana pour lancer leurs sorts.
 Il se reconstitue lentement avec le temps.
@@ -33170,7 +33150,7 @@ Il se reconstitue lentement avec le temps.
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_pyromancer.lua"
 
-t("New Talent Category: #LIGHT_GREEN#Wildfire", "Nouvelle Catégorie de Talent: #LIGHT_GREEN#Feu de Brousse", "_t")
+t("New Talent Category: #LIGHT_GREEN#Wildfire", "Nouvelle Catégorie de Talent : #LIGHT_GREEN#Feu de Brousse", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
 While most mages are content using the Fire school, a few of them took their research deeper and created Wildfire magic.
 At its core lies the Wildfire, a fire so hot it can even damage creatures normally immune.
@@ -33188,17 +33168,17 @@ Au coeur de cette magie se trouve le Feu de Brousse, un feu si chaud qu'il peut 
 
 Vous avez maîtrisé la magie du Feu de Brousse et pouvez maintenant créer de nouveaux personnages Archimage qui peuvent apprendre les #LIGHT_GREEN#talents du Feu de Brousse#WHITE#.
 
-Talents:
-- #YELLOW#Déflagration: #WHITE#Déclenchez une nova de feu autour de vous, endommageant et repoussant tout ce qui est pris à l'intérieur
-- #YELLOW#Feux Dansants: #WHITE#Projetez votre feu intérieur sur toutes les créatures situées dans votre champ de vision et enflammez-les
-- #YELLOW#Feux Purificateurs: #WHITE#Immolez les ennemis ou vous même pour leur mettre ou vous enlever des effets
-- #YELLOW#Feu de Brousse: #WHITE#Maîtrisez le Feu de Brousse et percez au travers des immunités au feu.
+Talents :
+- #YELLOW#Déflagration : #WHITE#Déclenchez une nova de feu autour de vous, endommageant et repoussant tout ce qui est pris à l'intérieur
+- #YELLOW#Feux Dansants : #WHITE#Projetez votre feu intérieur sur toutes les créatures situées dans votre champ de vision et enflammez-les
+- #YELLOW#Feux Purificateurs : #WHITE#Immolez les ennemis ou vous même pour leur mettre ou vous enlever des effets
+- #YELLOW#Feu de Brousse : #WHITE#Maîtrisez le Feu de Brousse et percez au travers des immunités au feu.
 ]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_tempest.lua"
 
-t("New Talent Category: #LIGHT_GREEN#Storm", "Nouvelle Catégorie de Talent: #LIGHT_GREEN#Orage", "_t")
+t("New Talent Category: #LIGHT_GREEN#Storm", "Nouvelle Catégorie de Talent : #LIGHT_GREEN#Orage", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
 While most mages are content using the Air school, a few of them took their research deeper and created Storm magic.
 At its core lies the Tempest, a storm so powerful it can even damage creatures normally immune.
@@ -33216,17 +33196,17 @@ Au coeur de celle-ci se trouve l'Orage, un orage si puissant qu'il peut même en
 
 Vous avez maîtrisé la magie de l'orage et pouvez maintenant créer de nouveaux personnages Archimage qui peuvent apprendre les #LIGHT_GREEN#talents de l'Orage#WHITE#.
 
-Talents:
-- #YELLOW#Nova: #WHITE#Déclenchez une nova de foudre autour de vous, étourdissant et endommageant les créatures prises à l'intérieur
-- #YELLOW#Choc: #WHITE#Lancer une boule de foudre rapide qui étourdit la cible
-- #YELLOW#Ouragan: #WHITE#Déclenchez un ouragan sur toutes les créatures que vous étourdissez, créant une tempête de foudre autour d'elles
-- #YELLOW#Orage: #WHITE#Maîtrisez l'Orage et percez au travers des immunités à la foudre
+Talents :
+- #YELLOW#Nova : #WHITE#Déclenchez une nova de foudre autour de vous, étourdissant et endommageant les créatures prises à l'intérieur
+- #YELLOW#Choc : #WHITE#Lancer une boule de foudre rapide qui étourdit la cible
+- #YELLOW#Ouragan : #WHITE#Déclenchez un ouragan sur toutes les créatures que vous étourdissez, créant une tempête de foudre autour d'elles
+- #YELLOW#Orage : #WHITE#Maîtrisez l'Orage et percez au travers des immunités à la foudre
 ]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_thaumaturgist.lua"
 
-t("New Class Evolution: #LIGHT_GREEN#High Thaumaturgist (Archmage)", "Nouvelle Evolution de Classe: #LIGHT_GREEN#Grand Thaumaturge (Archimage)", "_t")
+t("New Class Evolution: #LIGHT_GREEN#High Thaumaturgist (Archmage)", "Nouvelle Evolution de Classe : #LIGHT_GREEN#Grand Thaumaturge (Archimage)", "_t")
 t([[You have killed a boss by only using beam spells and nothing else, showing a deeper understanding of this type of spells.
 
 You have unlocked the #LIGHT_GREEN#High Thaumaturgist class evolution#WHITE# for Archmages.
@@ -33245,13 +33225,13 @@ Class evolutions are selected as prodigies and grant new ways to build and expan
 
 Vous avez débloqué #LIGHT_GREEN#l'évolution de classe Grand Thaumaturge#WHITE# pour Archimage.
 
-Caractéristiques:
-- #YELLOW#Rayons Large#WHITE#: Flamme, Poussée de Mana, Foudre, Foreuse Broyeuse, et Eclats de Glace deviennent définitivement des rayons de largeurs 3.
-- Accès à la catégorie de sorts Thaumaturgie contenant les sorts suivants:
-  - #YELLOW#Orbe de Thaumaturgie#WHITE#: En plaçant un orbe de thaumaturgie sur le sol, vous pouvez dupliquer tous les sorts de rayon que vous lancez
-  - #YELLOW#Multilanceur#WHITE#: Lancer des rayons devient si facile pour vous que vous pouvez intégrer des sorts aléatoires sans rayon lorsque vous en lancez un
-  - #YELLOW#Passage en Douceur#WHITE#: Parcourez le champ de bataille avec aisance. Lorsque vous lancez un sort de rayon, vous pouvez vous déplacer d'une tuile gratuitement
-  - #YELLOW#Rafale de Rayons Elémentaires#WHITE#: Le sort ultime de rayon, le point culminant de votre profonde compréhension de la magie. Un rayon de largeurs 3 d'énergie thaumique pure auquel on ne peut résister
+Caractéristiques :
+- #YELLOW#Rayons Large#WHITE# : Flamme, Poussée de Mana, Foudre, Foreuse Broyeuse, et Eclats de Glace deviennent définitivement des rayons de largeurs 3.
+- Accès à la catégorie de sorts Thaumaturgie contenant les sorts suivants :
+  - #YELLOW#Orbe de Thaumaturgie#WHITE# : En plaçant un orbe de thaumaturgie sur le sol, vous pouvez dupliquer tous les sorts de rayon que vous lancez
+  - #YELLOW#Multilanceur#WHITE# : Lancer des rayons devient si facile pour vous que vous pouvez intégrer des sorts aléatoires sans rayon lorsque vous en lancez un
+  - #YELLOW#Passage en Douceur#WHITE# : Parcourez le champ de bataille avec aisance. Lorsque vous lancez un sort de rayon, vous pouvez vous déplacer d'une tuile gratuitement
+  - #YELLOW#Rafale de Rayons Elémentaires#WHITE# : Le sort ultime de rayon, le point culminant de votre profonde compréhension de la magie. Un rayon de largeurs 3 d'énergie thaumique pure auquel on ne peut résister
 
 
 Les évolutions de classe sont sélectionnées comme des prodiges et accordent de nouvelles façons de construire et d'étendre votre classe et ne sont visibles que pour la classe concernée.
@@ -33260,7 +33240,7 @@ Les évolutions de classe sont sélectionnées comme des prodiges et accordent d
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-paladin_avatar.lua"
 
-t("New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "Nouvelle Evolution de Classe: #LIGHT_GREEN#Avatar d'un Soleil Lointain (Paladin Solaire)", "_t")
+t("New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "Nouvelle Evolution de Classe : #LIGHT_GREEN#Avatar d'un Soleil Lointain (Paladin Solaire)", "_t")
 t([[You have been contacted by a sentient star, far away from Eyal. It wants to help you on your journey!
 
 You have unlocked the #LIGHT_GREEN#Avatar of a Distant Sun class evolution#WHITE# for Sun Paladins.
@@ -33278,10 +33258,10 @@ Class evolutions are selected as prodigies and grant new ways to build and expan
 
 Vous avez débloqué l'évolution de classe #LIGHT_GREEN#Avatar d'un Soleil Lointain#WHITE# pour Paladins Solaire.
 
-Caractéristiques:
+Caractéristiques :
 - #GOLD#Manier une arme à deux mains et un bouclier en même temps#LAST#
 - 50% de tous les dommages infligés sont convertis en #GOLD#dégâts de lumière#LAST#
-- #GOLD#Effluence Gravitique#LAST#: quand l'Arme de Lumière touche, les dégâts sont désormais répartis dans une sphère de rayon 2 et tous les ennemis à portée 5 sont attirés vers elle
+- #GOLD#Effluence Gravitique#LAST# : quand l'Arme de Lumière touche, les dégâts sont désormais répartis dans une sphère de rayon 2 et tous les ennemis à portée 5 sont attirés vers elle
 - Les dégâts et les chances de déclenchement de #GOLD#Présence Eblouissante#LAST# sont doublés
 - Lorsque #GOLD#Vengeance Solaire#LAST# se déclenche, le temps de recharge du Jugement est réduit de 6
 - Interagit avec #GOLD#Soleil Irrésistible#LAST#.
@@ -33292,7 +33272,7 @@ Les évolutions de classe sont sélectionnées comme des prodiges et accordent d
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-paladin_fallen.lua"
 
-t("New Class Evolution: #LIGHT_GREEN#Fallen (Sun Paladin)", "Nouvelle Evolution de Classe: #LIGHT_GREEN#Déchu (Paladin Solaire)", "_t")
+t("New Class Evolution: #LIGHT_GREEN#Fallen (Sun Paladin)", "Nouvelle Evolution de Classe : #LIGHT_GREEN#Déchu (Paladin Solaire)", "_t")
 t([[#{bold}##GOLD#You aren't so different...#LAST##{normal}#
 
 As a sun paladin, you follow a code.  But with the darkness you've seen in the world, you've started to doubt.
@@ -33318,16 +33298,16 @@ En tant que Paladin Solaire, vous suivez un code.  Mais avec l'obscurité que vo
 
 Vous avez débloqué l'évolution de classe #LIGHT_GREEN#Déchu#WHITE# pour Paladin Solaire.
 
-Apprenez de nouveaux Talents:#YELLOW#
-- Taches Sanglantes: Faites saigner vos ennemis !
-- Côté Obscur: Chaque lumière projette une ombre, la vôtre est puissante
-- Traîtrise: Manifestez votre traîtrise par des saignements
-- Chants Funèbre: Chantez la mort et le chagrin pour renforcer votre détermination#WHITE#
+Apprenez de nouveaux Talents :#YELLOW#
+- Taches Sanglantes : Faites saigner vos ennemis !
+- Côté Obscur : Chaque lumière projette une ombre, la vôtre est puissante
+- Traîtrise : Manifestez votre traîtrise par des saignements
+- Chants Funèbre : Chantez la mort et le chagrin pour renforcer votre détermination#WHITE#
 
-Echangez vos talents de Paladin:#YELLOW#
-- Rayonnement devient Angoisse: Projetez sur les autres votre propre haine, ce qui les empêche d'avancer
-- Croisé devient Soleil Noir: Faites appel aux énergies des soleils morts pour écraser vos ennemis
-- Guardien devient Templier Pourpre: Utilisez le pouvoir du sang pour contrôler et vaincre les fous qui s'opposent à vous
+Echangez vos talents de Paladin :#YELLOW#
+- Rayonnement devient Angoisse : Projetez sur les autres votre propre haine, ce qui les empêche d'avancer
+- Croisé devient Soleil Noir : Faites appel aux énergies des soleils morts pour écraser vos ennemis
+- Guardien devient Templier Pourpre : Utilisez le pouvoir du sang pour contrôler et vaincre les fous qui s'opposent à vous
 #WHITE#
 
 Les évolutions de classe sont sélectionnées comme des prodiges et accordent de nouvelles façons de construire et d'étendre votre classe. Elles ne sont visibles que pour la classe concernée.
@@ -33336,7 +33316,7 @@ Les évolutions de classe sont sélectionnées comme des prodiges et accordent d
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-psionic_mindslayer.lua"
 
-t("New Class: #LIGHT_GREEN#Mindslayer (Psionic)", "Nouvelle Classe: #LIGHT_GREEN#Guerrier Psionique (Psionique)", "_t")
+t("New Class: #LIGHT_GREEN#Mindslayer (Psionic)", "Nouvelle Classe : #LIGHT_GREEN#Guerrier Psionique (Psionique)", "_t")
 t([[Mindslayers are the frontline fighters of the Yeeks' Way. Absolutely devoted to serving the Way, and thus all Yeeks, they dive into battle with nothing but their own mind.
 Yeeks are natively psionic and thus most Mindslayers are Yeeks, but psionic powers do happen - rarely - in other races too.
 
@@ -33358,7 +33338,7 @@ Les Yeeks sont nativement psioniques et la plupart des Guerriers Psionique sont 
 Vous avez sauvé un compagnon Yeek Guerrier Psionique et pouvez maintenant créer des personnages avec la #LIGHT_GREEN#classe Guerrier Psionique#WHITE#.
 
 Les Guerriers Psionique utilisent leurs puissants pouvoirs psioniques pour compléter leur faible force physique et plonger dans la bataille.
-Caractéristiques de Classe:#YELLOW#
+Caractéristiques de Classe :#YELLOW#
 - Ériger des boucliers psioniques autour de vous pour vous protéger et absorber l'énergie
 - S'engouffrer dans des auras psioniques - déchaînant de la douleur sur tous ceux qui sont près de vous
 - Utilisez votre "troisième main" psionique pour tenir une deuxième arme, flottant devant vous
@@ -33372,7 +33352,7 @@ Tant que leurs boucliers sont en place, les dégâts entrants sont partiellement
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-psionic_solipsist.lua"
 
-t("New Class: #LIGHT_GREEN#Solipsist (Psionic)", "Nouvelle Classe: #LIGHT_GREEN#Solipsiste (Psionique)", "_t")
+t("New Class: #LIGHT_GREEN#Solipsist (Psionic)", "Nouvelle Classe : #LIGHT_GREEN#Solipsiste (Psionique)", "_t")
 t([[Solipsists are powerful psionicists that believe that the world is made up of nothing more than the thoughts and dreams of those that live in it.
 This power does not come without a price, however.  The Solipsist must constantly fight with their own ego in order to keep a clear view of reality, lest they fall into a state of solipsism, the belief that the world and those that live in it are nothing more than figments of their own mind.
 
@@ -33394,7 +33374,7 @@ Ce pouvoir n'est pas sans prix, cependant. Le Solipsiste doit constamment lutter
 Vous avez fait l'expérience du pouvoir des rêves et vous pouvez maintenant créer des personnages avec la #LIGHT_GREEN#classe Solipsiste#WHITE#.
 
 Les Solipsistes utilisent le pouvoir de la pensée et des rêves pour manipuler le monde qui les entoure.
-Caractéristiques de Classe:#YELLOW#
+Caractéristiques de Classe :#YELLOW#
 - Déformer le tissu de la réalité
 - Stocker et décharger les rétroactions psioniques
 - Invoquer de puissants guerriers nés de votre propre conscience
@@ -33408,7 +33388,7 @@ Pour ce faire, ils ont besoin d'énergie, qu'ils récupèrent naturellement avec
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-race_ogre.lua"
 
-t("New Race: #LIGHT_GREEN#Ogre", "Nouvelle Race: #LIGHT_GREEN#Ogre", "_t")
+t("New Race: #LIGHT_GREEN#Ogre", "Nouvelle Race : #LIGHT_GREEN#Ogre", "_t")
 t([[Ogres are magically-altered Humans, taking refuge in Elvala among the Shalore. 
 Their enormous bodies, bolstered by (and dependent on) an intricate web of glowing runes covering their skin, make them an intimidating sight that belies their conscientious and modest nature.
 Ogres were created (and subsequently abandoned) by the Conclave during the Allure Wars, to serve as their warriors and workers.  Their massive size and glowing runes made it impossible for them to hide during the Spellhunt, and only those who fled to Shalore lands survived extermination.
@@ -33428,7 +33408,7 @@ Leur talent pour les inscriptions est inégalé, car ils doivent être capables 
 
 Vous avez appris les détails du passé des Ogres et mit au repos leurs créateurs terrifiés, et avez techniquement amené les Guerres de la Séduction à leur conclusion tant attendue en éliminant les derniers vestiges du Conclave. Vous pouvez maintenant créer de nouveaux personnages #LIGHT_GREEN#Ogres#WHITE# pour voir leur force magique en action !
 
-Caractéristiques de Race:#YELLOW#
+Caractéristiques de Race :#YELLOW#
 - Fort mais pas stupide
 - Efficace dans l'utilisation de toutes sortes de runes et d'essences
 - Imprégné de forces arcaniques
@@ -33438,7 +33418,7 @@ Caractéristiques de Race:#YELLOW#
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-rogue_marauder.lua"
 
-t("New Class: #LIGHT_GREEN#Marauder (Rogue)", "Nouvelle Classe: #LIGHT_GREEN#Maraudeur (Brigand)", "_t")
+t("New Class: #LIGHT_GREEN#Marauder (Rogue)", "Nouvelle Classe : #LIGHT_GREEN#Maraudeur (Brigand)", "_t")
 t([[Some rogues live by strength rather than cunning, relying on vicious attacks instead of stealth and subterfuge. These bandits maraud the land, lightly armoured and wielding dual weapons, taking what they can by force.
 
 You have learned the value in causing sheer damage in combat and can now create characters with the #LIGHT_GREEN#Marauder class#WHITE#.
@@ -33454,7 +33434,7 @@ Marauders use stamina to fuel their techniques, which replenishes slowly over ti
 Vous avez appris l'intérêt de faire de gros dégâts en combat et vous pouvez désormais créer des personnages de la #LIGHT_GREEN#classe Maraudeur#WHITE#.
 
 Les Maraudeurs sont des brigands très mobiles qui disposent d'un éventail de techniques et de tactiques astucieuses.
-Caractéristiques de la classe:#YELLOW#
+Caractéristiques de la classe :#YELLOW#
 - Déplacez-vous avec aisance sur le champ de bataille, en dansant autour de vos ennemis et en évitant leurs attaques
 - Maniez des armes doubles et déchaînez des techniques dévastatrices sur vos adversaires
 - Faites appel à la brutalité pure pour paralyser vos ennemis avant de les abattre#WHITE#
@@ -33465,7 +33445,7 @@ Les maraudeurs utilisent l'endurance pour alimenter leurs techniques, qui se rec
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-rogue_poisons.lua"
 
-t("New Talent Category: #LIGHT_GREEN#Poisons", "Nouvelle Catégorie de Talent: #LIGHT_GREEN#Poisons", "_t")
+t("New Talent Category: #LIGHT_GREEN#Poisons", "Nouvelle Catégorie de Talent : #LIGHT_GREEN#Poisons", "_t")
 t([[Extracted from plants, wildlife or more exotic locations, poisons have always existed.
 Many creatures use them, along with some shady people.
 
@@ -33482,16 +33462,16 @@ De nombreuses créatures les utilisent, ainsi que certaines personnes louches.
 Tu as passé un accord avec une telle personne et tu peux maintenant créer de nouveaux personnages de Brigan ou d'Archer qui peuvent apprendre les #LIGHT_GREEN#talents de Poisons#WHITE#.
 
 Talents :
-- #YELLOW#Vils Poisons: #WHITE#Apprenez de nouveaux poisons dangereux et terribles dont vous pourrez enduire vos armes ou vos munitions pour infecter vos ennemis
-- #YELLOW#Frappe Venimeuse: #WHITE#Un coup terrible qui inflige des dégâts naturels accrus en fonction du nombre d'effets de poison
-- #YELLOW#Renforcement des poisons: #WHITE#Apprenez à rendre vos poisons encore plus mortels et rapides
-- #YELLOW#Mort Toxique: #WHITE#Répandez la joyeuse toxicité sur les amis de vos ennemis !
+- #YELLOW#Vils Poisons : #WHITE#Apprenez de nouveaux poisons dangereux et terribles dont vous pourrez enduire vos armes ou vos munitions pour infecter vos ennemis
+- #YELLOW#Frappe Venimeuse : #WHITE#Un coup terrible qui inflige des dégâts naturels accrus en fonction du nombre d'effets de poison
+- #YELLOW#Renforcement des poisons : #WHITE#Apprenez à rendre vos poisons encore plus mortels et rapides
+- #YELLOW#Mort Toxique : #WHITE#Répandez la joyeuse toxicité sur les amis de vos ennemis !
 ]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-rogue_skirmisher.lua"
 
-t("New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "Nouvelle Classe: #LIGHT_GREEN#Tirailleur (Brigand)", "_t")
+t("New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "Nouvelle Classe : #LIGHT_GREEN#Tirailleur (Brigand)", "_t")
 t([[In Maj'Eyal threats are everywhere when you walk the wildlands, some rogues prefer to forgo the use of stealth instead using their cunning skills to kill silently from afar with a sling well protected with a buckler.
 
 You have learned the power of counterstriking from afar and can now create characters with the #LIGHT_GREEN#Skirmisher class#WHITE#.
@@ -33511,7 +33491,7 @@ Vous avez appris le pouvoir de la contre-attaque à distance et vous pouvez main
 
 Les Tirailleurs sont des brigands très mobiles qui se spécialisent dans la course et le tir, utilisant des frondes pour harceler, affaiblir et épuiser les ennemis avant de les achever avec des attaques extrêmement rapides.
 
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Sautez et roulez autour de vos ennemis, en gardant une longueur d'avance tout en restant hors de portée
 - Estropiez vos adversaires et lâchez un torrent de balles de fronde
 - Bloquez les tirs ennemis avec votre maîtrise du bouclier et contre-attaquez#WHITE#
@@ -33522,7 +33502,7 @@ Les Tirailleurs utilisent l'endurance pour alimenter leurs techniques, qui se re
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-undead_ghoul.lua"
 
-t("New Race: #LIGHT_GREEN#Ghoul (Undead)", "Nouvelle Race: #LIGHT_GREEN#Goule (Mort-vivant)", "_t")
+t("New Race: #LIGHT_GREEN#Ghoul (Undead)", "Nouvelle Race : #LIGHT_GREEN#Goule (Mort-vivant)", "_t")
 t([[Ghouls are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
 You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Ghoul race#WHITE#.
 
@@ -33535,7 +33515,7 @@ Race features:#YELLOW#
 ]], [[Les goules sont de maléfiques créatures mortes-vivantes. Généralement élevées par des nécromanciens pour servir de serviteurs sans âme, certaines parviennent à garder leur conscience et errent dans le monde en se lançant dans la destruction.
 Vous avez tué le Maître, une créature morte-vivante malveillante. Vous pouvez maintenant créer un nouveau personnage de la #LIGHT_GREEN#race des Goules#WHITE#.
 
-Caractéristiques de race:#YELLOW#
+Caractéristiques de race :#YELLOW#
 - Grande résistance au poison
 - Immunité aux saignements
 - Résistance aux assommements
@@ -33546,7 +33526,7 @@ Caractéristiques de race:#YELLOW#
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-undead_skeleton.lua"
 
-t("New Race: #LIGHT_GREEN#Skeleton (Undead)", "Nouvelle Race: #LIGHT_GREEN#Squelette (Mort-vivant)", "_t")
+t("New Race: #LIGHT_GREEN#Skeleton (Undead)", "Nouvelle Race : #LIGHT_GREEN#Squelette (Mort-vivant)", "_t")
 t([[Skeletons are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
 You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Skeleton race#WHITE#.
 
@@ -33559,7 +33539,7 @@ Race features:#YELLOW#
 ]], [[Les Squelettes sont de maléfiques créatures mortes-vivantes. Généralement élevés par des nécromanciens pour servir de serviteurs sans âme, certains parviennent à garder leur conscience et errent dans le monde en se lançant dans la destruction.
 Vous avez tué le Maître, une créature morte-vivante malveillante. Vous pouvez maintenant créer un nouveau personnage de la #LIGHT_GREEN#race Squelette#WHITE#.
 
-Caractéristiques de race:#YELLOW#
+Caractéristiques de race :#YELLOW#
 - Immunité au poison
 - Immunité aux saignements
 - Immunité contre la peur
@@ -33570,7 +33550,7 @@ Caractéristiques de race:#YELLOW#
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wanderer.lua"
 
-t("New Class: #LIGHT_GREEN#Wanderer", "Nouvelle Classe: #LIGHT_GREEN#Vagabond", "_t")
+t("New Class: #LIGHT_GREEN#Wanderer", "Nouvelle Classe : #LIGHT_GREEN#Vagabond", "_t")
 t([[You have wanderer quite a lot since your birth!
 You can now create new characters with the #LIGHT_GREEN#Wanderer class#WHITE#.
 
@@ -33588,7 +33568,7 @@ Utilisez-la à vos risques et périls, et amusez-vous bien.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-warrior_brawler.lua"
 
-t("New Class: #LIGHT_GREEN#Brawler (Warrior)", "Nouvelle classe: #LIGHT_GREEN#Lutteur (Guerrier)", "_t")
+t("New Class: #LIGHT_GREEN#Brawler (Warrior)", "Nouvelle classe : #LIGHT_GREEN#Lutteur (Guerrier)", "_t")
 t([[The ravages of the Spellblaze stretched armies thin and left many unprotected. Not everyone could afford the luxury of a weapon.
 Without steel or iron, poor communities of all races turned to the strength of their own bodies for defense against the darkness.
 These unarmed techniques still exist today.
@@ -33610,7 +33590,7 @@ Ces techniques sans armes existent encore aujourd'hui.
 Vous avez appris ces techniques et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Lutteur#WHITE#.
 
 Les Lutteurs sont des guerriers qui se battent avec un peu plus que leur propre corps comme arme.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Construisez des attaques combinées mortelles avec vos coups
 - Portez des gants ou des gantelets pour augmenter vos dégâts
 - Surprenez vos ennemis et préparez-les à des contre-attaques mortelles
@@ -33622,7 +33602,7 @@ Les Lutteurs utilisent l'endurance et doivent rester au moins semi-mobiles. En t
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wilder_oozemancer.lua"
 
-t("New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "Nouvelle Classe: #LIGHT_GREEN#Boumancien (Naturaliste)", "_t")
+t("New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "Nouvelle Classe : #LIGHT_GREEN#Boumancien (Naturaliste)", "_t")
 t([[The long Nature's hatred of all arcane forces has managed to create Oozemancers as the ultimate answer to archmagi.
 You have met and destroyed a corrupted one and can now create new characters with the #LIGHT_GREEN#Oozemancer class#WHITE#.
 
@@ -33639,7 +33619,7 @@ The higher it gets the more off-balance they are with it. A high Equilibrium mak
 Vous avez rencontré et détruit un corrompu et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Boumancien#WHITE#.
 
 Les Boumanciens sont des Naturalites, qui se sentent chez eux dans les régions sauvages et tirent leur pouvoir de leur lien avec la nature.
-Caractéristiques de la classe:#YELLOW#
+Caractéristiques de la classe :#YELLOW#
 - Attaques offensives à longue portée de type nature et acide
 - Intrinsèquement anti-magique
 - Invoquez diverses sortes de gluants à vos côtés pour un court moment
@@ -33652,7 +33632,7 @@ Plus il est élevé, plus ils sont en déséquilibre avec elle. Un Equilibre él
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wilder_stone_warden.lua"
 
-t("New Class: #LIGHT_GREEN#Stone Warden (Wilder)", "Nouvelle Classe: #LIGHT_GREEN#Gardien de Pierre (Naturaliste)", "_t")
+t("New Class: #LIGHT_GREEN#Stone Warden (Wilder)", "Nouvelle Classe : #LIGHT_GREEN#Gardien de Pierre (Naturaliste)", "_t")
 t([[While most races of Eyal firmly believe that arcane and nature forces are opposites, Dwarves have found a way to bind them together and meld them into a power to be reckoned with.
 
 You have mastered some arcane and wild talents at a crude level can now create new dwarf characters with the #LIGHT_GREEN#Stone Warden class#WHITE#.
@@ -33673,7 +33653,7 @@ Stone Wardens also use Mana.
 Vous avez maîtrisé certains talents arcaniques et sauvages à un niveau rudimentaire et pouvez maintenant créer de nouveaux personnages nains avec la classe #LIGHT_GREEN#Gardien de Pierre#WHITE#.
 
 Les Gardiens de Pierre sont des Naturalistes, qui se sentent chez eux dans la nature et tirent leur pouvoir de leur connexion avec la nature et les arcanes.
-Caractéristiques de la classe:#YELLOW#
+Caractéristiques de la classe :#YELLOW#
 - Maniez deux boucliers et frappez vos ennemis avec des coups de bouclier améliorés par les arcanes.
 - Combinez les forces arcaniques et naturelles pour vous diviser en deux parties puissantes.
 - Utilisez des lianes de pierre pour saisir et assaillir vos ennemis.
@@ -33688,7 +33668,7 @@ Les Gardiens de pierre utilisent également le Mana.
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wilder_summoner.lua"
 
-t("New Class: #LIGHT_GREEN#Summoner (Wilder)", "Nouvelle Classe: #LIGHT_GREEN#Invocateur (Naturaliste)", "_t")
+t("New Class: #LIGHT_GREEN#Summoner (Wilder)", "Nouvelle Classe : #LIGHT_GREEN#Invocateur (Naturaliste)", "_t")
 t([[In the wilds, some people and creatures are able, by the sole force of their will, to call upon allies to help them in combat.
 You have witnessed such an act and can now create new characters with the #LIGHT_GREEN#Summoner class#WHITE#.
 
@@ -33704,7 +33684,7 @@ The higher it gets the more off-balance they are with it. A high Equilibrium mak
 Vous avez été témoin d'un tel acte et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Invocateur#WHITE#.
 
 Les Invocateurs sont des Naturalistes, qui sont à l'aise dans la nature et tirent leur pouvoir de leur connexion avec la nature.
-Caractéristiques de classe:#YELLOW#
+Caractéristiques de classe :#YELLOW#
 - Invoquez des alliés, allant du chien de guerre au puissant dragonnet de feu.
 - Prenez le contrôle direct de vos invocations
 - Augmentez vos invocations avec divers pouvoirs#WHITE#
@@ -33716,7 +33696,7 @@ Plus il est élevé, plus ils sont en déséquilibre avec elle. Un Equilibre él
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wilder_wyrmic.lua"
 
-t("New Class: #LIGHT_GREEN#Wyrmic (Wilder)", "Nouvelle Classe: #LIGHT_GREEN#Draconien (Naturaliste)", "_t")
+t("New Class: #LIGHT_GREEN#Wyrmic (Wilder)", "Nouvelle Classe : #LIGHT_GREEN#Draconien (Naturaliste)", "_t")
 t([[Some people, either through training or magic, can take on the defining aspects of the dragon-kin themselves.
 You have consumed a magic that allows you to gain such a power. You can now also create new characters with the #LIGHT_GREEN#Wyrmic class#WHITE#.
 
@@ -33733,9 +33713,9 @@ Wyrmics are also trained in the martial arts and use stamina for some techniques
 Vous avez consommé une magie qui vous permet d'acquérir un tel pouvoir. Vous pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Draconien#WHITE#.
 
 Les Draconiens sont des Naturalistes, qui sont à l'aise dans la nature et tirent leur pouvoir de leur lien avec les dragons.
-Caractéristiques de classe:#YELLOW#
-- Prend les aspects des dragons: feu, froid, sable, et plus encore.
-- Attacques de souffle: feu, glace, sable, etc.
+Caractéristiques de classe :#YELLOW#
+- Prend les aspects des dragons : feu, froid, sable, et plus encore.
+- Attacques de souffle : feu, glace, sable, etc.
 - Puissant combattant de mêlée#WHITE#
 
 Toutes les classes de Naturaliste utilisent l'Equilibre pour leurs pouvoirs. Il représente leur connexion avec la nature. 
@@ -33746,7 +33726,7 @@ Les Draconiens sont également formés aux arts martiaux et utilisent l'enduranc
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-yeek.lua"
 
-t("New Race: #LIGHT_GREEN#Yeek", "Nouvelle Race: #LIGHT_GREEN#Yeek", "_t")
+t("New Race: #LIGHT_GREEN#Yeek", "Nouvelle Race : #LIGHT_GREEN#Yeek", "_t")
 t([[Yeeks are a mysterious race of small humanoids native to the tropical island of Rel.
 Their body is covered with white fur and their disproportionate heads give them a ridiculous look, yet they are a cunning and willful race.
 Although they are now nearly unheard of in Maj'Eyal, they spent many centuries as secret slaves to the Halfling nation of Nargol.
@@ -33766,7 +33746,7 @@ Ils ont gagné leur liberté pendant l'Ere du Bûcher et ont depuis suivi "La Vo
 
 Tu as aidé un Yeek de la Voie et tu peux maintenant créer un nouveau personnage de la #LIGHT_GREEN#race Yeek#WHITE#.
 
-Caractéristiques de race:#YELLOW#
+Caractéristiques de race :#YELLOW#
 - Pouvoir racial de domination mentale
 - Résistance à la confusion
 - Passage de niveau rapide
@@ -33831,7 +33811,7 @@ t("earth", "terre", "effect subtype")
 t("stone", "gardien de pierre", "effect subtype")
 t("stun", "assommé", "effect subtype")
 t("Stoned", "Pétrifié", "_t")
-t("The target has been turned to stone: it is rooted in place, unable to act, and may be shattered by a single blow dealing more than 30% of its maximum life.  It's new form makes it immune to being poisoned or cut, and grants improved physical(+20%), fire(+80%) and lightning(+50%) resistances.", "La cible est transformée en pierre: elle est clouée sur place, incapable d'agir, et peut être brisée par un seul coup lui infligeant plus de 30% de sa vie maximale. Sa nouvelle forme l'immunise contre les empoisonnements et les entailles, et lui confère une meilleure résistance physique (+20%), au feu (+80%) et à la foudre (+50%).", "_t")
+t("The target has been turned to stone: it is rooted in place, unable to act, and may be shattered by a single blow dealing more than 30% of its maximum life.  It's new form makes it immune to being poisoned or cut, and grants improved physical(+20%), fire(+80%) and lightning(+50%) resistances.", "La cible est transformée en pierre : elle est clouée sur place, incapable d'agir, et peut être brisée par un seul coup lui infligeant plus de 30% de sa vie maximale. Sa nouvelle forme l'immunise contre les empoisonnements et les entailles, et lui confère une meilleure résistance physique (+20%), au feu (+80%) et à la foudre (+50%).", "_t")
 t("#Target# turns to #GREY#STONE#LAST#!", "#Target# est #GREY#PETRIFIE#LAST# !", "_t")
 t("+Stoned", "+Pétrifié", "_t")
 t("#Target# is no longer a #GREY#statue#LAST#.", "#Target# n'est plus une #GREY#statue#LAST#.", "_t")
@@ -34837,17 +34817,17 @@ t("-Dismayed", "-Désemparé", "_t")
 t("veil", "voile", "effect subtype")
 t("Stalking", "Traque", "_t")
 t("Stalking %d/%d +%d ", "Traque %d/%d +%d ", "tformat")
-t("Stalking %s. Bonus level %d: +%d accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit.", "Traque %s. Niveau bonus %d: +%d précision, +%d%% dégâts de mêlée, +%0.2f haine/tour par proie touchée.", "tformat")
-t("Prey damage modifier: %d%%.", "Modificateur de dégâts pour les proies: %d%%.", "tformat")
+t("Stalking %s. Bonus level %d: +%d accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit.", "Traque %s. Niveau bonus %d : +%d précision, +%d%% dégâts de mêlée, +%0.2f haine/tour par proie touchée.", "tformat")
+t("Prey damage modifier: %d%%.", "Modificateur de dégâts pour les proies : %d%%.", "tformat")
 t("#F53CBE##Target# is being stalked by #Source#!", "#F53CBE##Target# est traquée par #Source# !", "logCombat")
 t("#F53CBE##Target# is no longer being stalked by #Source#.", "#F53CBE##Target# n'est plus traquée par #Source#.", "logCombat")
 t("Stalked", "Traqué", "_t")
 t("Being stalked.", "Etre traqué.", "_t")
-t("Being stalked by %s. Stalker bonus level %d: +%d accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit.", "Traqué par %s. Niveau bonus du traqueur %d: +%d précision, +%d%% dégâts de mêlée, +%0.2f haine/tour par proie touchée.", "tformat")
-t(" Prey damage modifier: %d%%.", " Modificateur de dégâts pour les proies: %d%%.", "tformat")
+t("Being stalked by %s. Stalker bonus level %d: +%d accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit.", "Traqué par %s. Niveau bonus du traqueur %d : +%d précision, +%d%% dégâts de mêlée, +%0.2f haine/tour par proie touchée.", "tformat")
+t(" Prey damage modifier: %d%%.", " Modificateur de dégâts pour les proies : %d%%.", "tformat")
 t("Beckoned", "Interpellé", "_t")
 t("The target has been beckoned by %s and is heeding the call. There is a %d%% chance of moving towards the beckoner each turn.", "La cible a été interpellée par %s et répond à l'appel. Il y a %d%% de chances de se déplacer vers l'interpelleur par tour.", "tformat")
-t(" (spellpower: %d, mindpower: %d", " (puissance des sorts: %d, puissance mentale: %d", "tformat")
+t(" (spellpower: %d, mindpower: %d", " (puissance des sorts : %d, puissance mentale : %d", "tformat")
 t("#Target# has been beckoned.", "#Target# a été interpellé.", "_t")
 t("+Beckoned", "+Interpellé", "_t")
 t("#Target# is no longer beckoned.", "#Target# n'est plus interpellé.", "_t")
@@ -35185,7 +35165,7 @@ t("+Broken Dream", "+Rêve Brisé", "_t")
 t("#Target# regains hope.", "#Target# reprend espoir.", "_t")
 t("-Broken Dream", "-Rêve Brisé", "_t")
 t("Forge Shield", "Bouclier Forgé", "_t")
-t("Absorbs %d damage from the next blockable attack.  Currently Blocking: %s.", "Absorbe %d dégâts de la prochaine attaque bloquable. Bloque actuellement: %s.", "tformat")
+t("Absorbs %d damage from the next blockable attack.  Currently Blocking: %s.", "Absorbe %d dégâts de la prochaine attaque bloquable. Bloque actuellement : %s.", "tformat")
 t("willpower", "volonté", "effect subtype")
 t("Hidden Resources", "Ressources Cachées", "_t")
 t("The target does not consume any resources.", "La cible ne consomme aucune ressource.", "_t")
@@ -35275,19 +35255,19 @@ section "mod-tome/data/timed_effects/other.lua"
 t("Ethereal Form", "Forme Ethérée", "_t")
 t("Ethereal Form bonuses reduced by %d%%", "Bonus de Forme Ethérée réduits de %d%%", "tformat")
 t("elemental", "élémentaire", "effect subtype")
-t("Elemental Surge: Arcane", "Surcharge Elémentaire: Arcane", "_t")
+t("Elemental Surge: Arcane", "Surcharge Elémentaire : Arcane", "_t")
 t("Spell and mind speed increased by 30%", "Vitesse des sorts et de l'esprit augmentée de 30%", "_t")
-t("Elemental Surge: Physical", "Surcharge Elémentaire: Physique", "_t")
+t("Elemental Surge: Physical", "Surcharge Elémentaire : Physique", "_t")
 t("Immune to detrimental physical effects", "Immunité aux effets physiques néfastes", "_t")
-t("Elemental Surge: Nature", "Surcharge Elémentaire: Nature", "_t")
+t("Elemental Surge: Nature", "Surcharge Elémentaire : Nature", "_t")
 t("Immune to detrimental magical effects", "Immunité aux effets magiques néfastes", "_t")
-t("Elemental Surge: Fire", "Surcharge Elémentaire: Feu", "_t")
+t("Elemental Surge: Fire", "Surcharge Elémentaire : Feu", "_t")
 t("All damage increased by %d%%", "Tous les dégâts augmentent de %d%%", "tformat")
-t("Elemental Surge: Cold", "Surcharge Elémentaire: Froid", "_t")
+t("Elemental Surge: Cold", "Surcharge Elémentaire : Froid", "_t")
 t("Armor increased by %d, deals %d ice damage when hit in melee.", "Armure augmentée de %d, inflige %d dégâts de glace lorsque touché en mêlée.", "tformat")
-t("Elemental Surge: Lightning", "Elemental Surge: Foudre", "_t")
+t("Elemental Surge: Lightning", "Elemental Surge : Foudre", "_t")
 t("Movement speed increased by %d%%.", "La vitesse de déplacement est augmenté de %d%%.", "tformat")
-t("Elemental Surge: Light", "Surcharge Elémentaire: Lumière", "_t")
+t("Elemental Surge: Light", "Surcharge Elémentaire : Lumière", "_t")
 t("All talent cooldowns reduced by %d%%.", "Tous les temps de recharge de talent sont réduits de %d%%.", "tformat")
 t("circle", "cercle", "effect subtype")
 t("Circle Surge", "Surcharge Circulaire", "_t")
@@ -35295,9 +35275,9 @@ t([[Residual power from the surge is emanating from the circles.
 		Shifting Shadows: +1 negative.
 		Sanctity: +1 postive.
 		Warding: +0.5 postive and negative.]], [[La puissance résiduelle de la surcharge émane des cercles.
-		Ombres Changeantes: +1 négatif.
-		Sainteté: +1 positif.
-		Aide: +0.5 positif and negatife.]], "_t")
+		Ombres Changeantes : +1 négatif.
+		Sainteté : +1 positif.
+		Aide : +0.5 positif and negatife.]], "_t")
 t("Protected by the Sun", "Protégé par le Soleil", "_t")
 t("The Sun has granted a brief immunity to all damage.", "Le Soleil a accordé une brève immunité à tous les dégâts.", "_t")
 t("#Target# whirls around and a radiant shield surrounds them!", "#Target# tourne autour d'eux et un bouclier de lumière les entoure !", "_t")
@@ -35309,15 +35289,15 @@ t("#Target# is drained from light!", "#Target# est vidée de sa lumière !", "_t
 t("+Absorption Strike", "+Coup Absorbant", "_t")
 t("#Target#'s light is back.", "La lumière de #Target# est revenue.", "_t")
 t("-Absorption Strike", "-Coup Absorbant", "_t")
-t("Charm:  Piercing", "Breloque:  Perforation", "_t")
+t("Charm:  Piercing", "Breloque :  Perforation", "_t")
 t("All damage penetration increased by %d%%.", "La pénétration des dégâts est augmentée de %d%%.", "tformat")
-t("Charm:  Damage", "Breloque:  Dégâts", "_t")
+t("Charm:  Damage", "Breloque :  Dégâts", "_t")
 t("All damage increased by %d%%.", "Tous les dégâts sont augmententés de %d%%.", "tformat")
-t("Charm:  Saves", "Breloque:  Sauvegardes", "_t")
+t("Charm:  Saves", "Breloque :  Sauvegardes", "_t")
 t("All saves increased by %d.", "Toutes les sauvegardes sont augmentées de %d.", "tformat")
-t("Charm:  Evasion", "Breloque:  Evasion", "_t")
+t("Charm:  Evasion", "Breloque :  Evasion", "_t")
 t("%d%% chance to avoid weapon attacks", "%d%% chances d'éviter les attaques par arme", "tformat")
-t("Charm:  Innervating", "Breloque:  Innervant", "_t")
+t("Charm:  Innervating", "Breloque :  Innervant", "_t")
 t("Fatigue reduced by %d%%.", "Fatigue réduite de %d%%.", "tformat")
 t("nature", "dégâts de nature", "effect subtype")
 t("You have taken root!", "Vous avez pris racine !", "_t")
@@ -35358,13 +35338,13 @@ t("The fabric of time around #target# returns to normal.", "Le tissu temporel au
 t("-Temporal Restoration Field", "-Champ de Restauration Temporel", "_t")
 t("miscellaneous", "divers", "effect subtype")
 t("Golem out of sight", "Golem hors de vue", "_t")
-t("The golem is out of sight of the alchemist; direct control will be lost!", "Le golem est hors de vue de l'alchimiste; le contrôle direct est perdu !", "_t")
+t("The golem is out of sight of the alchemist; direct control will be lost!", "Le golem est hors de vue de l'alchimiste ; le contrôle direct est perdu !", "_t")
 t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître ; le contrôle direct est rompu !", "_t")
 t("+Out of sight", "+Hors de vue", "_t")
-t("#LIGHT_RED#You lost sight of your golem for too long; direct control is broken!", "#LIGHT_RED#Vous avez perdu de vue votre golem pendant trop longtemps; le contrôle direct est brisé !", "logPlayer")
+t("#LIGHT_RED#You lost sight of your golem for too long; direct control is broken!", "#LIGHT_RED#Vous avez perdu de vue votre golem pendant trop longtemps ; le contrôle direct est brisé !", "logPlayer")
 t("golem out of sight", "golem hors de vue", "_t")
 t("Shadow out of sight", "Ombre hors de vue", "_t")
-t("The shadow is out of sight of its host; direct control will be lost!", "L'ombre est hors de vue de son hôte; le contrôle direct est perdu !", "_t")
+t("The shadow is out of sight of its host; direct control will be lost!", "L'ombre est hors de vue de son hôte ; le contrôle direct est perdu !", "_t")
 t("#LIGHT_RED#You lost sight of your shadow for too long; it dissipates!", "#LIGHT_RED#Tu as perdu de vue ton ombre trop longtemps, elle se dissipe !", "logPlayer")
 t("shadow out of sight", "ombre hors de vue", "_t")
 t("Continuum Destabilization", "Déstabilisation du Continuum", "_t")
@@ -35383,7 +35363,7 @@ t("#Target# stops taking damage received in the past.", "#Target# cesse de prend
 t("-Smeared", "-Barbouillé", "_t")
 t("was smeared across all space and time", "a été répandu dans l'espace et le temps", "_t")
 t("See the Threads", "Voir les Fils", "_t")
-t("You walk three different timelines, choosing the one you prefer at the end (current timeline: %d).", "Vous parcourez trois lignes temporelles différentes, en choisissant celle que vous préférez à la fin (ligne temporelle actuelle: %d).", "tformat")
+t("You walk three different timelines, choosing the one you prefer at the end (current timeline: %d).", "Vous parcourez trois lignes temporelles différentes, en choisissant celle que vous préférez à la fin (ligne temporelle actuelle : %d).", "tformat")
 t("#LIGHT_RED#The see the threads spell fizzles and cancels, leaving you in this timeline.", "#LIGHT_RED#La vision des fils s'évanouit et s'annule, vous laissant dans cette ligne temporelle.", "logSeen")
 t("#LIGHT_BLUE#You unfold the space time continuum to the start of the time threads!", "#LIGHT_BLUE#Vous déployez le continuum espace-temps jusqu'au début des fils temporels !", "logPlayer")
 t("Imminent Paradox Clone", "Clone de Paradoxe Imminent", "_t")
@@ -35426,11 +35406,11 @@ t([[An aura of death surrounds you.
 #CRIMSON#Power 2+: %s%+d Luck, %+d Strength, %+d Magic
 #CRIMSON#Power 3+: %sLiving Death: Ghoulish retch heals you. Once every %d turns, retch (level %d) when you fall below %d%% health
 #CRIMSON#Power 4+: %sReprieve from Death: Humanoids you slay have a %d%% chance to rise to fight beside you as ghouls for 6 turns.]], [[Une aura de mort t'entoure.
-#CRIMSON#Malus       : #WHITE#Peur de la Mort: %+d%% de résistance aux dégâts infligés par les morts-vivants.
-#CRIMSON#Puissance 1+: %sPouvoir sur la Mort: %+d%% dégâts supplémentaires contre les morts-vivants.
-#CRIMSON#Puissance 2+: %s%+d Chance, %+d Force, %+d Magie
-#CRIMSON#Puissance 3+: %sMort Vivant: le Vomis de Ghoul vous soigne. Une fois tous les %d tours, vomissez (niveau %d) lorsque votre santé est en dessous de %d%%.
-#CRIMSON#Puissance 4+: %sSursis face à la Mort: les humanoïdes que vous tuez ont %d%% chances de se relever pour combattre à vos côtés en tant que Goules pendant 6 tours.]], "tformat")
+#CRIMSON#Malus       : #WHITE#Peur de la Mort : %+d%% de résistance aux dégâts infligés par les morts-vivants.
+#CRIMSON#Puissance 1+ : %sPouvoir sur la Mort : %+d%% dégâts supplémentaires contre les morts-vivants.
+#CRIMSON#Puissance 2+ : %s%+d Chance, %+d Force, %+d Magie
+#CRIMSON#Puissance 3+ : %sMort Vivant : le Vomis de Ghoul vous soigne. Une fois tous les %d tours, vomissez (niveau %d) lorsque votre santé est en dessous de %d%%.
+#CRIMSON#Puissance 4+ : %sSursis face à la Mort : les humanoïdes que vous tuez ont %d%% chances de se relever pour combattre à vos côtés en tant que Goules pendant 6 tours.]], "tformat")
 t("walking corpse", "cadavre ambulant", "_t")
 t("This corpse was recently alive but moves as though it is just learning to use its body.", "Ce cadavre était encore en vie il y a peu, mais il bouge comme s'il apprenait tout juste à se servir de son corps.", "_t")
 t("Summon", "Invocation", "_t")
@@ -35444,11 +35424,11 @@ t([[You feel your grip on reality slipping.
 #CRIMSON#Power 2+: %s%+d Luck, %+d Dexterity
 #CRIMSON#Power 3+: %sConspirator: Your madness is contagious. Every time you critically damage a foe there is a %d%% chance to spread one of your current detrimental mental effect to them.
 #CRIMSON#Power 4+: %sMania: Once per turn, when an attack does more than %0.1f%% of your life, the remaining cooldown of all your talents is reduced by 1.]], [[Vous sentez que vous perdez pied avec la réalité.
-#CRIMSON#Malus       : #WHITE#Sanité ébranlée: %+d%% résistance mentale, %+d%% d'immunité à la confusion
-#CRIMSON#Puissance 1+: %sDéchaîné: %+d%% dégâts critiques, %+d%% dégâts avec l'arme secondaire
-#CRIMSON#Puissance 2+: %s%+d Chance, %+d Dextérité
-#CRIMSON#Puissance 3+: %sConspirateur: Votre folie est contagieuse. Chaque fois que vous infligez des dégâts critiques à un ennemi, vous avez %d%% chances de lui transmettre l'un de vos effets mentaux négatifs actuels.
-#CRIMSON#Puissance 4+: %sMania: Une fois par tour, lorsqu'une attaque inflige plus de %0.1f%% de vos points de vie, le temps de recharge restant de tous vos talents est réduit de 1.]], "tformat")
+#CRIMSON#Malus       : #WHITE#Sanité ébranlée : %+d%% résistance mentale, %+d%% d'immunité à la confusion
+#CRIMSON#Puissance 1+ : %sDéchaîné : %+d%% dégâts critiques, %+d%% dégâts avec l'arme secondaire
+#CRIMSON#Puissance 2+ : %s%+d Chance, %+d Dextérité
+#CRIMSON#Puissance 3+ : %sConspirateur : Votre folie est contagieuse. Chaque fois que vous infligez des dégâts critiques à un ennemi, vous avez %d%% chances de lui transmettre l'un de vos effets mentaux négatifs actuels.
+#CRIMSON#Puissance 4+ : %sMania : Une fois par tour, lorsqu'une attaque inflige plus de %0.1f%% de vos points de vie, le temps de recharge restant de tous vos talents est réduit de 1.]], "tformat")
 t("#F53CBE#%s's mania hastens cooldowns.", "#F53CBE#La manie de %s accélère les temps de recharge.", "logSeen")
 t("#F53CBE##Source# spreads the madness to #Target#.", "#F53CBE##Source# propage la folie à #Target#.", "logCombat")
 t("Curse of Shrouds", "Malédiction des Voiles", "_t")
@@ -35460,11 +35440,11 @@ t([[A shroud of darkness seems to fall across your path.
 #CRIMSON#Power 2+: %s%+d Luck, %+d Constitution
 #CRIMSON#Power 3+: %sShroud of Passing: Your form seems to fade as you move, reducing all damage taken by %d%% for 1 turn after movement.
 #CRIMSON#Power 4+: %sShroud of Death: The power of every kill seems to envelop you like a shroud, reducing all damage taken by %d%% for 3 turns.]], [[Un voile d'obscurité semble s'abattre sur votre chemin.
-#CRIMSON#Malus       : #WHITE#Voile de Faiblesse: Faible chance d'être enveloppé d'un Voile de Faiblesse (réduit les dégâts infligés de %d%%) pendant 4 tours.
-#CRIMSON#Puissance 1+: %sMarcheur de la Nuit: %+d résistance à l'Obscurité, %+d%% résistance maximale à l'Obscurité, %+d vision de l'invisible
-#CRIMSON#Puissance 2+: %s%+d Chance, %+d Constitution
-#CRIMSON#Puissance 3+: %sVoile de Disparition: Votre silhouette semble s'estomper lorsque vous vous déplacez, réduisant tous les dégâts subis de %d%% pendant 1 tour après le déplacement.
-#CRIMSON#Puissance 4+: %sVoile de Mort: La puissance de chaque monstre tué semble vous envelopper comme un voile, réduisant tous les dégâts subis de %d%% pendant 3 tours.]], "tformat")
+#CRIMSON#Malus       : #WHITE#Voile de Faiblesse : Faible chance d'être enveloppé d'un Voile de Faiblesse (réduit les dégâts infligés de %d%%) pendant 4 tours.
+#CRIMSON#Puissance 1+ : %sMarcheur de la Nuit : %+d résistance à l'Obscurité, %+d%% résistance maximale à l'Obscurité, %+d vision de l'invisible
+#CRIMSON#Puissance 2+ : %s%+d Chance, %+d Constitution
+#CRIMSON#Puissance 3+ : %sVoile de Disparition : Votre silhouette semble s'estomper lorsque vous vous déplacez, réduisant tous les dégâts subis de %d%% pendant 1 tour après le déplacement.
+#CRIMSON#Puissance 4+ : %sVoile de Mort : La puissance de chaque monstre tué semble vous envelopper comme un voile, réduisant tous les dégâts subis de %d%% pendant 3 tours.]], "tformat")
 t("Shroud of Weakness", "Voile de Faiblesse", "_t")
 t("The target is enveloped in a shroud that seems to hang upon it like a heavy burden. (Reduces damage dealt by %d%%).", "La cible est enveloppée d'un voile qui semble peser sur elle comme un lourd fardeau. (Réduit les dégâts infligés de %d%%.)", "tformat")
 t("Shroud of Passing", "Voile de Disparition", "_t")
@@ -35472,7 +35452,7 @@ t("The target is enveloped in a shroud that seems to not only obscure it but als
 t("Shroud of Death", "Voile de Mort", "_t")
 t("Curse of Nightmares", "Malédiction de Cauchemars", "_t")
 t("Nightmares", "Cauchemars", "_t")
-t("Curse of Nightmares (power %0.1f): %d%%", "Malédiction de Cauchemars (puissance %0.1f): %d%%", "tformat")
+t("Curse of Nightmares (power %0.1f): %d%%", "Malédiction de Cauchemars (puissance %0.1f) : %d%%", "tformat")
 t("Curse of Nightmares (power %0.1f)", "Malédiction de Cauchemars (puissance %0.1f)", "tformat")
 t([[Horrible visions fill your mind.
 #CRIMSON#Penalty : #WHITE#Plagued by Visions: Your mental save has a 20%% chance to be reduced by %d%% when tested.
@@ -35480,11 +35460,11 @@ t([[Horrible visions fill your mind.
 #CRIMSON#Power 2+: %s%+d Luck, %+d Willpower
 #CRIMSON#Power 3+: %sHarrow: When a foe attempts to inflict a detrimental effect upon you, your harrowing aura retaliates against a random foe in range 10, dealing %d mind and %d darkness damage.
 #CRIMSON#Power 4+: %sNightmare: Each time you are damaged by a foe there is a chance (currently %d%%) of triggering a radius %d nightmare (summon Terrors and chances to slow, deal %d Mind damage, and deal %d Darkness damage) for 8 turns. The chance grows each time you are struck but fades over time.]], [[D'horribles visions envahissent votre esprit.
-#CRIMSON#Malus       : #WHITE#Rongé par le Doute: votre jet de sauvegarde mentale a 20%% de chances d'être réduit de %d%% lors d'un test.
-#CRIMSON#Puissance 1+: %sDéconnecté de la Réalité: %+d résistance physique, %+d résistance physique maximale
-#CRIMSON#Puissance 2+: %s%+d Chance, %+d Volonté
-#CRIMSON#Puissance 3+: %sTourment: lorsqu'un ennemi tente de vous infliger un effet négatif, votre aura tourmentante riposte contre un ennemi aléatoire dans un rayon de 10, infligeant %d dégâts mentaux et %d dégâts d'obscurités.
-#CRIMSON#Puissance 4+: %sCauchemar: Chaque fois que vous subissez des dégâts d'un ennemi, vous avez une chance (actuellement de %d%%) de déclencher un cauchemar d'un rayon de %d (invoque des Terreurs et offre des chances de ralentir, d'infliger %d dégâts mentaux et %d dégâts d'obscurité) pendant 8 tours. Cette chance augmente à chaque fois que vous êtes touché, mais diminue avec le temps.]], "tformat")
+#CRIMSON#Malus       : #WHITE#Rongé par le Doute : votre jet de sauvegarde mentale a 20%% de chances d'être réduit de %d%% lors d'un test.
+#CRIMSON#Puissance 1+ : %sDéconnecté de la Réalité : %+d résistance physique, %+d résistance physique maximale
+#CRIMSON#Puissance 2+ : %s%+d Chance, %+d Volonté
+#CRIMSON#Puissance 3+ : %sTourment : lorsqu'un ennemi tente de vous infliger un effet négatif, votre aura tourmentante riposte contre un ennemi aléatoire dans un rayon de 10, infligeant %d dégâts mentaux et %d dégâts d'obscurités.
+#CRIMSON#Puissance 4+ : %sCauchemar : Chaque fois que vous subissez des dégâts d'un ennemi, vous avez une chance (actuellement de %d%%) de déclencher un cauchemar d'un rayon de %d (invoque des Terreurs et offre des chances de ralentir, d'infliger %d dégâts mentaux et %d dégâts d'obscurité) pendant 8 tours. Cette chance augmente à chaque fois que vous êtes touché, mais diminue avec le temps.]], "tformat")
 t("#F53CBE#%s harrows %s!", "#F53CBE#%s tourmente %s !", "logSeen")
 t("A formless terror that seems to cut through the air, and its victims, like a knife.", "Une terreur informe qui semble fendre l'air et ses victimes comme un couteau.", "_t")
 t("Nightmare", "Cauchemar", "_t")
@@ -35498,11 +35478,11 @@ t([[Mayhem and destruction seem to follow you.
 #CRIMSON#Power 2+: %s%+d Luck, %+d Cunning
 #CRIMSON#Power 3+: %sMissed Opportunities: Opportunities are fleeting, and those close to you begin to miss them (+%d%% evasion).
 #CRIMSON#Power 4+: %sUnfortunate End: The damage you deal will increase by %d%% if the increase would be enough to kill your opponent.]], [[Le chaos et la destruction semblent vous suivre.
-#CRIMSON#Malus       : #WHITE#Chance perdue: vous semblez trouver moins d'or au cours de vos voyages.
-#CRIMSON#Puissance 1+: %sEfforts Vains: les efforts de ceux qui vous entourent commencent à échouer (+%d%% chances d'éviter les pièges).
-#CRIMSON#Puissance 2+: %s%+d Chance, %+d Volonté
-#CRIMSON#Puissance 3+: %sOccasions Manquées: Les occasions sont éphémères, et vos proches commencent à les manquer (+%d%% d'évasion).
-#CRIMSON#Puissance 4+: %sFin Tragique: Les dégâts que vous infligez augmentent de %d%% si cette augmentation suffit à tuer votre adversaire.]], "tformat")
+#CRIMSON#Malus       : #WHITE#Chance perdue : vous semblez trouver moins d'or au cours de vos voyages.
+#CRIMSON#Puissance 1+ : %sEfforts Vains : les efforts de ceux qui vous entourent commencent à échouer (+%d%% chances d'éviter les pièges).
+#CRIMSON#Puissance 2+ : %s%+d Chance, %+d Volonté
+#CRIMSON#Puissance 3+ : %sOccasions Manquées : Les occasions sont éphémères, et vos proches commencent à les manquer (+%d%% d'évasion).
+#CRIMSON#Puissance 4+ : %sFin Tragique : Les dégâts que vous infligez augmentent de %d%% si cette augmentation suffit à tuer votre adversaire.]], "tformat")
 t("#F53CBE#%s suffers an unfortunate end.", "#F53CBE#%s connaît une fin tragique.", "logSeen")
 t("#F53CBE#%s suffers an unfortunate blow.", "#F53CBE#%s subit un coup dur.", "logSeen")
 t("space", "espace", "effect subtype")
@@ -35514,10 +35494,10 @@ t(" All damage that the target inflicts is increased by %d%%.", " Tous les dég�
 t(" Strength and Willpower are increased by %d. Poisons and diseases have a %d%% chance of being neutralized each turn.", " La Force et la Volonté sont augmentées de %d. Les poisons et les maladies ont %d%% de chances d'être neutralisés par tour.", "tformat")
 t("predator", "prédateur", "effect subtype")
 t("Marked Prey", "Proie Marquée", "_t")
-t("Hunting:", "Chasse:", "_t")
+t("Hunting:", "Chasse :", "_t")
 t("\
 %d%% Received damage reduction against:", "\
-%d%% Réduction des dégâts subis contre:", "tformat")
+%d%% Réduction des dégâts subis contre :", "tformat")
 t("Faded", "Disparu", "_t")
 t("The target has faded and is no longer taking damage.", "La cible a disparu et ne subit plus de dégâts.", "_t")
 t("#Target# fades!", "#Target# disparait !", "_t")
@@ -35552,29 +35532,29 @@ t("While this effect holds you can decide recent history did not happen the way 
 t("#LIGHT_RED#The spell fizzles.", "#LIGHT_RED#Le sort échoue.", "logSeen")
 t("#LIGHT_BLUE#You go back in time to rewrite history!", "#LIGHT_BLUE#Vous remontez le temps pour réécrire l'histoire !", "logPlayer")
 t("Oil mist", "Brouillard huileux", "_t")
-t("Zone-wide effect: +10% fire damage, -10% fire resistance, -10% armour, -2 sight range.", "Effet de zone: +10% dégâts de feu, -10% de résistance au feu, -10% d'armure, -2 de portée de vue.", "_t")
+t("Zone-wide effect: +10% fire damage, -10% fire resistance, -10% armour, -2 sight range.", "Effet de zone : +10% dégâts de feu, -10% de résistance au feu, -10% d'armure, -2 de portée de vue.", "_t")
 t("Grave chill", "Froideur funèbre", "_t")
-t("Zone-wide effect: +10% cold damage, -10% cold resistance, -10% physical save, -20% confusion immunity.", "Effet de zone: +10% aux dégâts de froid, -10% à la résistance au froid, -10% au la sauvegarde physique, -20% à l'immunité à la confusion.", "_t")
+t("Zone-wide effect: +10% cold damage, -10% cold resistance, -10% physical save, -20% confusion immunity.", "Effet de zone : +10% aux dégâts de froid, -10% à la résistance au froid, -10% au la sauvegarde physique, -20% à l'immunité à la confusion.", "_t")
 t("Static discharge", "Décharge électrostatique", "_t")
-t("Zone-wide effect: +10% lightning damage, -10% lightning resistance, -10% physical power, -20% stun immunity.", "Effet de zone: +10% dégâts de foudre, -10% de résistance à la foudre, -10% de puissance physique, -20% d'immunité à l'assomement.", "_t")
+t("Zone-wide effect: +10% lightning damage, -10% lightning resistance, -10% physical power, -20% stun immunity.", "Effet de zone : +10% dégâts de foudre, -10% de résistance à la foudre, -10% de puissance physique, -20% d'immunité à l'assomement.", "_t")
 t("Noxious fumes", "Fumées toxiques", "_t")
-t("Zone-wide effect: +10% acid damage, -10% acid resistance, -10% defense, -20% disarm immunity.", "Effet de zone: +10% dégâts d'acide, -10% de résistance à l'acide, -10% de défense, -20% d'immunité au désarmement.", "_t")
+t("Zone-wide effect: +10% acid damage, -10% acid resistance, -10% defense, -20% disarm immunity.", "Effet de zone : +10% dégâts d'acide, -10% de résistance à l'acide, -10% de défense, -20% d'immunité au désarmement.", "_t")
 t("Echoes of the void", "Échos du vide", "_t")
-t("Zone-wide effect: +10% darkness damage, -10% darkness resistance, -10% mental save, -20% fear immunity.", "Effet de zone: +10% aux dégâts d'obscurité, -10% à la résistance à l'obscurité, -10% au jet de sauvegarde mentale, -20% à l'immunité à la peur.", "_t")
+t("Zone-wide effect: +10% darkness damage, -10% darkness resistance, -10% mental save, -20% fear immunity.", "Effet de zone : +10% aux dégâts d'obscurité, -10% à la résistance à l'obscurité, -10% au jet de sauvegarde mentale, -20% à l'immunité à la peur.", "_t")
 t("Eerie silence", "Silence inquiétant", "_t")
-t("Zone-wide effect: +10% mind damage, -10% mind resistance, -10% spellpower, -20% silence immunity.", "Effet de zone: +10% dégâts mentaux, -10% de résistance mentale, -10% de puissance des sorts, -20% d'immunité au silence.", "_t")
+t("Zone-wide effect: +10% mind damage, -10% mind resistance, -10% spellpower, -20% silence immunity.", "Effet de zone : +10% dégâts mentaux, -10% de résistance mentale, -10% de puissance des sorts, -20% d'immunité au silence.", "_t")
 t("Aura of light", "Aura de lumière", "_t")
-t("Zone-wide effect: +10% light damage, -10% light resistance, -10% accuracy, -20% blind immunity.", "Effet de zone: +10% dégâts de lumière, -10% de résistance à la lumière, -10% de précision, -20% d'immunité à l'aveuglement.", "_t")
+t("Zone-wide effect: +10% light damage, -10% light resistance, -10% accuracy, -20% blind immunity.", "Effet de zone : +10% dégâts de lumière, -10% de résistance à la lumière, -10% de précision, -20% d'immunité à l'aveuglement.", "_t")
 t("Aether residue", "Résidus d'éther", "_t")
-t("Zone-wide effect: +10% arcane damage, -10% arcane resistance, -10% armour hardiness, -20% stoning immunity.", "Effet de zone: +10% dégâts arcaniques, -10% de résistance à l'arcane, -10% de robustesse d'armure, -20% d'immunité à la pétrification.", "_t")
+t("Zone-wide effect: +10% arcane damage, -10% arcane resistance, -10% armour hardiness, -20% stoning immunity.", "Effet de zone : +10% dégâts arcaniques, -10% de résistance à l'arcane, -10% de robustesse d'armure, -20% d'immunité à la pétrification.", "_t")
 t("Impossible geometries", "Géométries impossibles", "_t")
-t("Zone-wide effect: +10% temporal damage, -10% temporal resistance, -10% spell save, -20% pinning immunity.", "Effet de zone: +10% aux dégâts temporels, -10% à la résistance temporelle, -10% au jet de sauvegarde des sorts, -20 % à l'immunité à l'immobilisation.", "_t")
+t("Zone-wide effect: +10% temporal damage, -10% temporal resistance, -10% spell save, -20% pinning immunity.", "Effet de zone : +10% aux dégâts temporels, -10% à la résistance temporelle, -10% au jet de sauvegarde des sorts, -20 % à l'immunité à l'immobilisation.", "_t")
 t("Uncontrolled anger", "Colère incontrôlée", "_t")
-t("Zone-wide effect: +10% physical damage, -10% physical resistance, -10% mindpower, -20% knockback immunity.", "Effet de zone: +10% dégâts physiques, -10% de résistance physique, -10% de puissance mentale, -20% d'immunité au recul.", "_t")
+t("Zone-wide effect: +10% physical damage, -10% physical resistance, -10% mindpower, -20% knockback immunity.", "Effet de zone : +10% dégâts physiques, -10% de résistance physique, -10% de puissance mentale, -20% d'immunité au recul.", "_t")
 t("Miasma", "Miasme", "_t")
-t("Zone-wide effect: +10% blight damage, -10% blight resistance, -20% healing mod, -20% disease immunity.", "Effet de zone: +10% aux dégâts de fléau, -10% à la résistance aux fléaux, -20% au bonus de soins, -20% à l'immunité aux maladies.", "_t")
+t("Zone-wide effect: +10% blight damage, -10% blight resistance, -20% healing mod, -20% disease immunity.", "Effet de zone : +10% aux dégâts de fléau, -10% à la résistance aux fléaux, -20% au bonus de soins, -20% à l'immunité aux maladies.", "_t")
 t("Slimy floor", "Sol visqueux", "_t")
-t("Zone-wide effect: +10% nature damage, -10% nature resistance, -10% ranged defense, -20% poison immunity.", "Effet de zone: +10% aux dégâts de nature, -10% à la résistance à la nature, -10% à la défense à distance, -20% à l'immunité au poison.", "_t")
+t("Zone-wide effect: +10% nature damage, -10% nature resistance, -10% ranged defense, -20% poison immunity.", "Effet de zone : +10% aux dégâts de nature, -10% à la résistance à la nature, -10% à la défense à distance, -20% à l'immunité au poison.", "_t")
 t("vault", "chambre forte", "effect subtype")
 t("In Vault", "Dans une Chambre Forte", "_t")
 t("The target is part of a vault and cannot act until it has been openend.", "La cible fait partie d'une chambre forte et ne peut agir tant qu'elle n'a pas été ouverte.", "_t")
@@ -35588,7 +35568,7 @@ t("-Cauterize", "-Cautérisation", "_t")
 t("burnt to death by cauterize", "cautérisation mortelle", "_t")
 t("Something", "Quelque chose", "_t")
 t("Protected by the Eidolon", "Protégé par l'Eidolon", "_t")
-t("The target is protected by the Eidolon, no creature may harm it (except self-harm).", "La cible est protégée par l'Eidolon; aucune créature ne peut lui faire de mal (à l'exception des blessures qu'elle s'inflige elle-même).", "_t")
+t("The target is protected by the Eidolon, no creature may harm it (except self-harm).", "La cible est protégée par l'Eidolon ; aucune créature ne peut lui faire de mal (à l'exception des blessures qu'elle s'inflige elle-même).", "_t")
 t("undead", "mort-vivant", "effect subtype")
 t("Cloak of Deception", "Cape de Supercherie", "_t")
 t("The target is under the effect of the cloak of deception, making it look human.", "La cible est sous l'effet de la cape de supercherie, ce qui lui donne une apparence humaine.", "_t")
@@ -35657,11 +35637,11 @@ t("Unstoppable", "Inarrêtable", "_t")
 t("The target is unstoppable! It refuses to die and cannot heal.  When the effect ends, it will heal %d Life (%d%% of maximum life per foe slain during the frenzy).", "La cible est inarrêtable ! Elle refuse de mourir et ne peut pas être soigné. À la fin de l'effet, elle regagnera %d points de vie (%d%% de ses points de vie maximums par ennemi tué pendant la frénésie).", "tformat")
 t("penalty", "pénalité", "effect subtype")
 t("Hit Penalty", "Pénalité pour Toucher", "_t")
-t("The target is using a two handed weapon in a single hand, reducing accuracy, physical power, spellpower and mindpower by %d%% (based on size); also all damage procs from your offhand are reduced by 50%%.", "La cible utilise une arme à deux mains d'une seule main, ce qui réduit la précision, la puissance physique, la puissance des sorts et la puissance mentale de %d%% (en fonction de la taille); de plus, tous les effets de dégâts déclenchés par votre main secondaire sont réduits de 50%%.", "tformat")
+t("The target is using a two handed weapon in a single hand, reducing accuracy, physical power, spellpower and mindpower by %d%% (based on size); also all damage procs from your offhand are reduced by 50%%.", "La cible utilise une arme à deux mains d'une seule main, ce qui réduit la précision, la puissance physique, la puissance des sorts et la puissance mentale de %d%% (en fonction de la taille) ; de plus, tous les effets de dégâts déclenchés par votre main secondaire sont réduits de 50%%.", "tformat")
 t("Twist Fate", "Destin Tordu", "_t")
 t([[Currently Twisted Anomaly: %s
 
-		%s]], [[Anomalie Actuellement Tordue: %s
+		%s]], [[Anomalie Actuellement Tordue : %s
 
 		%s]], "tformat")
 t("+Twist Fate", "+Destin Tordu", "_t")
@@ -35676,37 +35656,38 @@ t("Death in a Dream", "Mort dans un Rêve", "_t")
 t("The target had breathed in noxious sleep-induced fumes and is losing %d life per turn.", "La cible a inhalé des vapeurs toxiques qui l'ont endormie et perd %d vie par tour.", "tformat")
 t("killed in a dream", "tué dans un rêve", "_t")
 t("Natural Aura", "Aura Naturelle", "_t")
-t("Zone-wide effect: +20 mindpower, +2 life regen, -1 equilibrium per turn, -20% resistance penetration.", "Effet de zone:  +20 de puissance mentale, +1 de régénération de vie, -1 d'équilibre par tour, -20% de pénétration de résistance.", "_t")
+t("Zone-wide effect: +20 mindpower, +2 life regen, -1 equilibrium per turn, -20% resistance penetration.", "Effet de zone :  +20 de puissance mentale, +1 de régénération de vie, -1 d'équilibre par tour, -20% de pénétration de résistance.", "_t")
 t("Sorcerous Aura", "Aura de Sorcier", "_t")
-t("Zone-wide effect: +20 magic, +2 mana regen, -20 accuracy, -20 stealth power.", "Effet de zone: +20 de magie, +2 de régénération de mana, -20 de précision, -20 de puissance furtive.", "_t")
+t("Zone-wide effect: +20 magic, +2 mana regen, -20 accuracy, -20 stealth power.", "Effet de zone : +20 de magie, +2 de régénération de mana, -20 de précision, -20 de puissance furtive.", "_t")
 t("Disciplined Aura", "Aura de Discipline", "_t")
-t("Zone-wide effect: +20 defense, +20 all saves, -20 spell power.", "Effet de zone: +20 de défense, +20 à toutes les sauvegardes, -20 de puissance des sorts.", "_t")
+t("Zone-wide effect: +20 defense, +20 all saves, -20 spell power.", "Effet de zone : +20 de défense, +20 à toutes les sauvegardes, -20 de puissance des sorts.", "_t")
 t("Sinister Aura", "Aura Sinistre", "_t")
-t("Zone-wide effect: +10% critical chance, +20% critical damage, -20% nature and blight resistance.", "Effet de zone: +10% de chances de critique, +20% de dégâts critiques, -20% de résistance à la nature et au fléau.", "_t")
+t("Zone-wide effect: +10% critical chance, +20% critical damage, -20% nature and blight resistance.", "Effet de zone : +10% de chances de critique, +20% de dégâts critiques, -20% de résistance à la nature et au fléau.", "_t")
 t("Underwater Zone", "Zone Sous-Marine", "_t")
-t("Zone-wide effect: Air decreases over time. If you run out of air you will start losing life. Look for bubbles to recover air. The water also reduces stun resistance by 10% and fire damage is reduced by 10%, however cold damage is increased by 10%.", "Effet de zone: Le niveau d'oxygène diminue progressivement. Si vous venez à manquer d'oxygène, vous commencerez à perdre de la vie. Cherchez des bulles pour récupérer de l'oxygène. L'eau réduit également la résistance à l'assomement de 10% et les dégâts de feu de 10%, mais augmente les dégâts de froid de 10%.", "_t")
+t("Zone-wide effect: Air decreases over time. If you run out of air you will start losing life. Look for bubbles to recover air. The water also reduces stun resistance by 10% and fire damage is reduced by 10%, however cold damage is increased by 10%.", "Effet de zone : Le niveau d'oxygène diminue progressivement. Si vous venez à manquer d'oxygène, vous commencerez à perdre de la vie. Cherchez des bulles pour récupérer de l'oxygène. L'eau réduit également la résistance à l'assomement de 10% et les dégâts de feu de 10%, mais augmente les dégâts de froid de 10%.", "_t")
 t("Fearscape Zone", "Zone Effrayante", "_t")
-t("Zone-wide effect: The flames of the Fearscape increase all fire and blight damage by 10%, but the weird gravity reduces knockback resistance by 20%.", "Effet de zone: Les flammes du Plan de la Peur augmentent tous les dégâts de feu et de fléau de 10%, mais l'étrange gravité réduit la résistance au recul de 20%.", "_t")
+t("Zone-wide effect: The flames of the Fearscape increase all fire and blight damage by 10%, but the weird gravity reduces knockback resistance by 20%.", "Effet de zone : Les flammes du Plan de la Peur augmentent tous les dégâts de feu et de fléau de 10%, mais l'étrange gravité réduit la résistance au recul de 20%.", "_t")
 t("Out of Time Zone", "Zone Hors du Temps", "_t")
-t("Zone-wide effect: You seem to be outside the normal spacetime continuum. +10% physical resistance, -10% temporal resistance and -20% teleport resistance.", "Effet de zone: Vous semblez vous trouver en dehors du continuum spatio-temporel normal. +10% de résistance physique, -10% de résistance temporelle et -20% de résistance à la téléportation.", "_t")
+t("Zone-wide effect: You seem to be outside the normal spacetime continuum. +10% physical resistance, -10% temporal resistance and -20% teleport resistance.", "Effet de zone : Vous semblez vous trouver en dehors du continuum spatio-temporel normal. +10% de résistance physique, -10% de résistance temporelle et -20% de résistance à la téléportation.", "_t")
 t("Spellblaze Aura", "Aura de la Brûlure magique", "_t")
-t("Zone-wide effect: The power of the Spellblaze still burns here. -10% resistance to fire, arcane and blight damage, but +10% cold resistance. WARNING: The powerful magic here reflects teleportation magic!", "Effet de zone: La puissance de la Brûlure magique continue de se faire sentir ici. -10% de résistance aux feu, d'arcane, et de fléau, mais +10% de résistance au froid. AVERTISSEMENT: la puissante magie qui règne ici renvoie les sorts de téléportation !", "_t")
+t("Zone-wide effect: The power of the Spellblaze still burns here. -10% resistance to fire, arcane and blight damage, but +10% cold resistance. WARNING: The powerful magic here reflects teleportation magic!", "Effet de zone : La puissance de la Brûlure magique continue de se faire sentir ici. -10% de résistance aux feu, d'arcane, et de fléau, mais +10% de résistance au froid. AVERTISSEMENT : la puissante magie qui règne ici renvoie les sorts de téléportation !", "_t")
 t("Heady Scent", "Parfum Enivrant", "_t")
-t("Zone-wide effect: Strong scents fill the air and make you feel drowsy. If the timer reaches 0 you will fall into a dreaming sleep state. -10% mind resistance, -20% sleep resistance, +10% nature damage.", "Effet de zone: De puissantes odeurs envahissent l'air et vous plongent dans un état de somnolence. Si le compte à rebours atteint 0, vous tombez dans un état de sommeil profond. -10% de résistance mentale, -20% de résistance au sommeil, +10% de dégâts de nature.", "_t")
+t("Zone-wide effect: Strong scents fill the air and make you feel drowsy. If the timer reaches 0 you will fall into a dreaming sleep state. -10% mind resistance, -20% sleep resistance, +10% nature damage.", "Effet de zone : De puissantes odeurs envahissent l'air et vous plongent dans un état de somnolence. Si le compte à rebours atteint 0, vous tombez dans un état de sommeil profond. -10% de résistance mentale, -20% de résistance au sommeil, +10% de dégâts de nature.", "_t")
 t("Thunderstorm", "Orage", "_t")
-t("Zone-wide effect: A huge thunderstorm rages above you. +10 lightning damage, -10% stun resistance.", "Effet de zone: Un violent orage fait rage au-dessus de vous. +10 dégâts de foudre, -10% de résistance à l'assomement.", "_t")
+t("Zone-wide effect: A huge thunderstorm rages above you. +10 lightning damage, -10% stun resistance.", "Effet de zone : Un violent orage fait rage au-dessus de vous. +10 dégâts de foudre, -10% de résistance à l'assomement.", "_t")
 t("Abashed Expanse", "Étendue Ébranlée", "_t")
-t("Zone-wide effect: Your Phase Door spell is super easy to use here, allowing you to target it regardless of level. Any projectiles is slowed down by 80%.", "Effet de zone: Votre sort Porte de Phase est très facile à utiliser ici, car vous pouvez le lancer sans restriction de niveau. Tous les projectiles sont ralentis de 80%.", "_t")
+t("Zone-wide effect: Your Phase Door spell is super easy to use here, allowing you to target it regardless of level. Any projectiles is slowed down by 80%.", "Effet de zone : Votre sort Porte de Phase est très facile à utiliser ici, car vous pouvez le lancer sans restriction de niveau. Tous les projectiles sont ralentis de 80%.", "_t")
+t("???", " ???", "_t")
 t("Throwing Knives", "Couteaux de Lancer", "_t")
 t("%d Knives", "%d Couteaux", "tformat")
 t([[Has %d throwing knives prepared:
 
-%s]], [[%d couteaux de lancer sont prêts:
+%s]], [[%d couteaux de lancer sont prêts :
 
 %s]], "tformat")
 t("Scoundrel's Strategies", "Stratégies de Scélérat", "_t")
 t("The target is suffering from disabling wounds, reducing their critical strike damage by %d%%.", "La cible souffre de blessures invalidantes, ce qui réduit les dégâts de ses coups critiques de %d%%.", "tformat")
-t("Fumble", "Échec", "_t")
+t("Fumble", "Maladresse", "_t")
 t("The target is suffering from distracting wounds, and has a %d%% chance to fail to use a talent and injure itself for %d physical damage.", "La cible souffre de blessures qui la distraient et a %d%% de chances de rater l'utilisation d'un talent et de se blesser, subissant ainsi %d dégâts physiques.", "tformat")
 t("Touch of Death", "Toucher Mortel", "_t")
 t("The target is taking %0.2f physical damage each turn. If they die while under this effect, they will explode!", "La cible subit %0.2f dégâts physiques par tour. Si elle meurt alors qu'elle est sous l'effet de ce sort, elle explose !", "tformat")
@@ -35727,9 +35708,9 @@ t("cheat", "triche", "effect subtype")
 t("Weakdamage Mode", "Mode Dégâts Réduits", "_t")
 t("All damage reduced to -90%%.", "Tous les dégâts sont réduits de -90%%.", "tformat")
 t("Demigod Mode", "Mode Demi-Dieu", "_t")
-t("DEMI-GODMODE: Target has 10000 additional life and regenerates 2000 life per turn.  It deals +500%% damage, and has full ESP.", "MODE DEMI-DIEU: La cible dispose de 10000 points de vie supplémentaires et régénère 2000 points de vie par tour. Elle inflige +500%% dégâts et bénéficie d'une perception extrasensorielle totale.", "tformat")
+t("DEMI-GODMODE: Target has 10000 additional life and regenerates 2000 life per turn.  It deals +500%% damage, and has full ESP.", "MODE DEMI-DIEU : La cible dispose de 10000 points de vie supplémentaires et régénère 2000 points de vie par tour. Elle inflige +500%% dégâts et bénéficie d'une perception extrasensorielle totale.", "tformat")
 t("God Mode", "Mode Dieu", "_t")
-t("GODMODE: Target is invulnerable to damage, immune to bad status effects, deals +10000%% damage (100%% penetration), does not need to breathe, and has full ESP.", "MODE DIEU: La cible est invulnérable aux dégâts, immunisée aux effets négatifs, inflige +10000%% dégâts (100%% pénétration), n'a pas besoin de respirer et dispose d'une perception extrasensorielle totale.", "tformat")
+t("GODMODE: Target is invulnerable to damage, immune to bad status effects, deals +10000%% damage (100%% penetration), does not need to breathe, and has full ESP.", "MODE DIEU : La cible est invulnérable aux dégâts, immunisée aux effets négatifs, inflige +10000%% dégâts (100%% pénétration), n'a pas besoin de respirer et dispose d'une perception extrasensorielle totale.", "tformat")
 t("Slippery Ground", "Terrain Glissant", "_t")
 t("The target is having trouble keeping their balance. Each time it tries to use a talent there is %d%% chance of failure.", "La cible a du mal à garder son équilibre. Chaque fois qu'elle tente d'utiliser un talent, elle a %d%% de chances d'échouer.", "tformat")
 t("#Target# is struggling to keep his footing!", "#Target# a du mal à garder l'équilibre !", "_t")
@@ -35811,7 +35792,6 @@ t("aura", "aura", "effect subtype")
 t("eidolon", "eidolon", "effect subtype")
 t("combat", "combat", "effect subtype")
 t("Challenge", "Challenge", "_t")
-t("???", "???", "_t")
 t("+Illumination", "+Illumination", "_t")
 t("-Illumination", "-Illumination", "_t")
 --]==]
@@ -35832,11 +35812,11 @@ Defense:  %d
 All Damage:  %d%%
 Stamina Regeneration:  %d
 %s]], [[S'adapter au rythme du combat pour améliorer leurs stats.  
-Défense:  %d
-Tous les Dégâts:  %d%%
-Régénération d'endurance:  %d
+Défense :  %d
+Tous les Dégâts :  %d%%
+Régénération d'endurance :  %d
 %s]], "tformat")
-t("All Resistance:  20%", "Toutes les Résistances:  20%", "_t")
+t("All Resistance:  20%", "Toutes les Résistances :  20%", "_t")
 t("#Target# is gaining tempo.", "#Target# accélère le rythme.", "_t")
 t("+Tempo", "+Rythme", "_t")
 t("#Target# loses their tempo.", "#Target# perd le rythme.", "_t")
@@ -35878,13 +35858,13 @@ t("#Target# is poisoned!", "#Target# est empoisonné !", "_t")
 t("#Target# stops being poisoned.", "#Target# cesse d'être empoisonné.", "_t")
 t("pin", "immobilisé", "effect subtype")
 t("Spydric Poison", "Poison Spydrique", "_t")
-t("The target is poisoned, taking %0.2f nature damage per turn and unable to move (but can otherwise act freely).", "La cible est empoisonnée: elle subit %0.2f dégâts de nature par tour et ne peut pas se déplacer (mais peut agir librement par ailleurs).", "tformat")
+t("The target is poisoned, taking %0.2f nature damage per turn and unable to move (but can otherwise act freely).", "La cible est empoisonnée : elle subit %0.2f dégâts de nature par tour et ne peut pas se déplacer (mais peut agir librement par ailleurs).", "tformat")
 t("#Target# is poisoned and cannot move!", "#Target# est empoisonné et ne peut plus bouger !", "_t")
 t("+Spydric Poison", "+Poison Spydrique", "_t")
 t("#Target# is no longer poisoned.", "#Target# n'est plus empoisonné.", "_t")
 t("-Spydric Poison", "-Poison Spydrique", "_t")
 t("Insidious Poison", "Poison Insidieux", "_t")
-t("The target is poisoned, taking %0.2f nature damage per turn and decreasing all heals received by %d%%.", "La cible est empoisonnée: elle subit %0.2f dégâts de nature par tour et voit l'efficacité de tous les soins reçus réduite de %d%%.", "tformat")
+t("The target is poisoned, taking %0.2f nature damage per turn and decreasing all heals received by %d%%.", "La cible est empoisonnée : elle subit %0.2f dégâts de nature par tour et voit l'efficacité de tous les soins reçus réduite de %d%%.", "tformat")
 t("+Insidious Poison", "+Poison Insidieux", "_t")
 t("-Insidious Poison", "-Poison Insidieux", "_t")
 t("Crippling Poison", "Poison Invalidant", "_t")
@@ -35912,7 +35892,7 @@ t("#Target# stops burning.", "#Target# cesse de brûler.", "_t")
 t("-Burn", "-Brûler", "_t")
 t("stun", "assommé", "effect subtype")
 t("Burning Shock", "Choc Brûlant", "_t")
-t("The target is on fire, taking %0.2f fire damage per turn, reducing damage by 50%%, putting 4 random talents on cooldown and reducing movement speed by 50%%. While flameshocked talents cooldown twice as slow.", "La cible est en feu: Elle subit %0.2f dégâts de feu par tour, ses dégâts sont réduits de 50%%, 4 talents aléatoires sont mis en rechargement et sa vitesse de déplacement est réduite de 50%%. Pendant que l'on subis un choc brûlant les talents se rechargent deux fois plus lentement.", "tformat")
+t("The target is on fire, taking %0.2f fire damage per turn, reducing damage by 50%%, putting 4 random talents on cooldown and reducing movement speed by 50%%. While flameshocked talents cooldown twice as slow.", "La cible est en feu : Elle subit %0.2f dégâts de feu par tour, ses dégâts sont réduits de 50%%, 4 talents aléatoires sont mis en rechargement et sa vitesse de déplacement est réduite de 50%%. Pendant que l'on subis un choc brûlant les talents se rechargent deux fois plus lentement.", "tformat")
 t("#Target# is stunned by the burning flame!", "#Target# est assommé par la flamme ardente !", "_t")
 t("+Burning Shock", "+Choc Brûlant", "_t")
 t("#Target# is not stunned anymore.", "#Target# n'est plus assommé.", "_t")
@@ -35986,7 +35966,7 @@ t("+Frozen", "+Gelé", "_t")
 t("#Target# warms up.", "#Target# se réchauffe.", "_t")
 t("-Frozen", "-Gelé", "_t")
 t("Frozen", "Gelé", "_t")
-t("The target is encased in ice. All damage done to it will be split, 40%% absorbed by the ice and 60%% by the target. The target's defense is nullified while in the ice, and it may only attack the ice, but it is also immune to any new detrimental status effects (except Wet and Frozen Feet). The target cannot teleport or heal while frozen. %d HP on the iceblock remaining.", "La cible est emprisonnée dans la glace. Les dégâts qui lui sont infligés sont répartis: 40%% sont absorbés par la glace et 60%% par la cible. La défense de la cible est annulée tant qu'elle est emprisonnée dans la glace, et elle ne peut attaquer que la glace, mais elle est également immunisée contre tout nouvel effet d'état négatif (à l'exception de Humide et Pieds Gelés). La cible ne peut ni se téléporter ni se soigner tant qu'elle est gelée. Il reste %d PV sur le bloc de glace.", "tformat")
+t("The target is encased in ice. All damage done to it will be split, 40%% absorbed by the ice and 60%% by the target. The target's defense is nullified while in the ice, and it may only attack the ice, but it is also immune to any new detrimental status effects (except Wet and Frozen Feet). The target cannot teleport or heal while frozen. %d HP on the iceblock remaining.", "La cible est emprisonnée dans la glace. Les dégâts qui lui sont infligés sont répartis : 40%% sont absorbés par la glace et 60%% par la cible. La défense de la cible est annulée tant qu'elle est emprisonnée dans la glace, et elle ne peut attaquer que la glace, mais elle est également immunisée contre tout nouvel effet d'état négatif (à l'exception de Humide et Pieds Gelés). La cible ne peut ni se téléporter ni se soigner tant qu'elle est gelée. Il reste %d PV sur le bloc de glace.", "tformat")
 t("#Target# is encased in ice!", "#Target# est emprisonné dans la glace !", "_t")
 t("#Target# is free from the ice.", "#Target# est libéré de la glace.", "_t")
 t("Iceblock", "Bloc de Glace", "_t")
@@ -36002,7 +35982,7 @@ t("+Shell Shield", "+Carapace Protectrice", "_t")
 t("#Target# leaves the cover of its shell.", "#Target# sort de sa carapace.", "_t")
 t("-Shell Shield", "-Carapace Protectrice", "_t")
 t("Serpentine Nature", "Nature Serpentine", "_t")
-t("The target takes on the properties of the hydra, gaining %d%% affinity to lightning, acid, and nature damage and regenerating %d life per turn.", "La cible acquiert les propriétés de l'hydre: elle gagne %d%% d'affinité avec les dégâts de foudre, d'acide et de nature, et régénère %d points de vie par tour.", "tformat")
+t("The target takes on the properties of the hydra, gaining %d%% affinity to lightning, acid, and nature damage and regenerating %d life per turn.", "La cible acquiert les propriétés de l'hydre : elle gagne %d%% d'affinité avec les dégâts de foudre, d'acide et de nature, et régénère %d points de vie par tour.", "tformat")
 t("Pain Suppression", "Suppression de la Douleur", "_t")
 t("The target ignores pain, reducing all damage taken by %d%%.", "La cible ignore la douleur, ce qui réduit tous les dégâts subis de %d%%.", "tformat")
 t("#Target# lessens the pain.", "#Target# atténue sa douleur.", "_t")
@@ -36292,7 +36272,7 @@ t("+Leaves Cover", "+Couverture de Feuilles", "_t")
 t("#Target# cover of leaves falls apart.", "La couverture de feuilles de #Target# se désagrège.", "_t")
 t("-Leaves Cover", "-Couverture de Feuilles", "_t")
 t("Parrying", "Parade", "_t")
-t("Parrying melee attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).", "Parer les attaques au corps à corps: a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques.", "tformat")
+t("Parrying melee attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).", "Parer les attaques au corps à corps : a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques.", "tformat")
 t(" and ranged", "et à distance", "_t")
 t("Blocking", "Blocage", "_t")
 t("Reduces all damage taken by %d.", "Réduit tous les dégâts subis de %d.", "tformat")
@@ -36303,7 +36283,7 @@ t("Vulnerable to deadly counterstrikes. Next melee attack will inflict double da
 t("+Counter", "+Contre", "_t")
 t("-Counter", "-Contre", "_t")
 t("Counter Attacking", "Contre Attaque", "_t")
-t("Countering melee attacks: Has a %d%% chance to get an automatic counter attack when avoiding a melee attack. (%0.1f counters remaining)", "Contrer les attaques au corps à corps: a %d%% chances de lancer une contre-attaque automatique lors d'une esquive d'attaque au corps à corps. (%0.1f contre-attaques restantes)", "tformat")
+t("Countering melee attacks: Has a %d%% chance to get an automatic counter attack when avoiding a melee attack. (%0.1f counters remaining)", "Contrer les attaques au corps à corps : a %d%% chances de lancer une contre-attaque automatique lors d'une esquive d'attaque au corps à corps. (%0.1f contre-attaques restantes)", "tformat")
 t("Open Palm Block", "Blocage de la Paume Ouverte", "_t")
 t("Blocking up to %d total damage.", "Bloque jusqu'à %d points de dégâts au total.", "tformat")
 t("#STEEL_BLUE#(%d blocked)#LAST#", "#STEEL_BLUE#(%d bloqué)#LAST#", "tformat")
@@ -36425,20 +36405,20 @@ t("Target is caught in an anti-gravity field, halving its knockback resistance."
 t("+Anti-Gravity", "+Anti-Gravité", "_t")
 t("-Anti-Gravity", "-Anti-Gravité", "_t")
 t("Parasitic Leeches", "Sangsues Parasites", "_t")
-t("Parasitic Leeches: %d masses", "Sangsues Parasites: %d masses", "tformat")
+t("Parasitic Leeches: %d masses", "Sangsues Parasites : %d masses", "tformat")
 t("The target is being fed upon by %d masses of parasitic leeches for %0.2f physical and %0.2f acid damage each turn.  After a %d turn feeding period, one mass will drop off and multiply.", "La cible est dévorée par %d groupes de sangsues parasites, qui lui infligent %0.2f dégâts physiques et %0.2f dégâts acides par tour. Après une période de digestion de %d tours, un groupe se détache et se multiplie.", "tformat")
 t("#Target# is #GREEN#INFESTED#LAST# with parasitic leeches!", "#Target# est #GREEN#INFESTÉ#LAST# de sangsues parasites !", "_t")
 t("+Parasitic Leeches", "+Sangsues Parasites", "_t")
 t("Some leeches drop off %s!", "Certaines sangsues tombent de %s !", "logSeen")
-t("Garrote", "Étranglement", "_t")
+t("Garrote", "Garrot", "_t")
 t("  It is silenced for the next %d turn(s), preventing it from casting spells and using some vocal talents.", "  Il est réduit au silence pendant les %d prochains tours, ce l'empêchant de lancer des sorts et d'utiliser certaines capacités vocales.", "tformat")
 t("The target is being garrotted by %s, rendering it unable to move and subject to an automatic unarmed attack (at %d%% damage) each turn.%s", "La cible est étranglée par %s, la rendant incapable de bouger et la soumettant à une attaque à mains nues automatique (infligeant %d%% dégâts) par tour.%s", "tformat")
 t("something", "quelque chose", "_t")
-t("%s has garroted #Target#!", "%s a étranglé #Target# !", "tformat")
+t("%s has garroted #Target#!", "%s est garroté #Target# !", "tformat")
 t("Something", "Quelque chose", "_t")
-t("+Garrote", "+Étranglement", "_t")
+t("+Garrote", "+Garrot", "_t")
 t("#Target# is free from %s's garrote.", "#Target# s'est libéré de l'étreinte de %s.", "tformat")
-t("-Garrote", "-Étranglement", "_t")
+t("-Garrote", "-Garrot", "_t")
 t("#Source# #LIGHT_RED#strangles#LAST# #Target#!", "#Source# #LIGHT_RED#étrangle#LAST# #Target# !", "logCombat")
 t("Marked for Death", "Condamné Marqué", "_t")
 t("The target takes %d%% increased damage from all sources.  If this effect runs its full course, the target will take an additional %0.1f physical damage (increased by %d%% of all damage taken while this effect is active).", "La cible subit %d%% dégâts supplémentaires de toutes les sources. Si cet effet se poursuit jusqu'au bout, la cible subira %0.1f dégâts physiques supplémentaires (majorés de %d%% de tous les dégâts subis pendant la durée de cet effet).", "tformat")
@@ -36470,10 +36450,10 @@ t("The target is wreathed in shadows, increasing life regeneration by %0.1f", "L
 t(", stamina regeneration by %0.1f and all damage resistance by %d%%.", ", régénération d'endurance de %0.1f et toutes les résistances aux dégâts de %d%%.", "tformat")
 t(" and stamina regeneration by %0.1f.", " et la régénération d'endurance de %0.1f.", "tformat")
 t("tactical", "tactique", "effect subtype")
-t("Shadow Dance", "Danse de l'Ombres", "_t")
+t("Shadow Dance", "Danse des Ombres", "_t")
 t("The target is able to make actions and attacks while remaining stealthed.", "La cible peut effectuer des actions et lancer des attaques tout en restant furtive.", "tformat")
-t("#GREY#You begin your Shadow Dance.", "#GREY#Vous commencez votre Danse de l'Ombre.", "logPlayer")
-t("#GREY#You end your Shadow Dance.", "#GREY#Votre Danse de l'Ombre prend fin.", "logPlayer")
+t("#GREY#You begin your Shadow Dance.", "#GREY#Vous commencez votre Danse des Ombres.", "logPlayer")
+t("#GREY#You end your Shadow Dance.", "#GREY#Votre Danse des Ombres prend fin.", "logPlayer")
 t("sleep", "sommeil", "effect subtype")
 t("Sedated", "Sédaté", "_t")
 t("The target is in a deep sleep and unable to act.  Every %d damage it takes will reduce the duration of the effect by one turn.", "La cible est plongée dans un sommeil profond et est incapable d'agir. Chaque %d dégâts subis réduisent la durée de l'effet d'un tour.", "tformat")
@@ -36485,7 +36465,7 @@ t("The target will not die until falling below -%d life.", "La cible ne mourra p
 t("Bear Trap", "Piège à Ours", "_t")
 t("slowed (%d%%)", "ralenti (%d%%)", "tformat")
 t("taking %0.2f physical damage each turn", "subit %0.2f dégâts physiques par tour", "tformat")
-t("Caught in a bear trap: ", "Pris dans un piège à ours: ", "_t")
+t("Caught in a bear trap: ", "Pris dans un piège à ours : ", "_t")
 t("A bear trap snaps onto #Target#!", "Un piège à ours se referme sur #Target# !", "_t")
 t("+Bear Trap", "+Piège à Ours", "_t")
 t("#Target# is freed from a bear trap.", "#Target# est libéré d'un piège à ours.", "_t")
@@ -36638,7 +36618,7 @@ t("-Eldoral", "-Eldoral", "_t")
 --]==]
 
 -- ancien texte traduit
-t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit", "Parer les attaques au corps à corps %s: a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques. Les attaques parées ne peuvent pas infliger de coup critique.", "tformat")
+t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit", "Parer les attaques au corps à corps %s : a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques. Les attaques parées ne peuvent pas infliger de coup critique.", "tformat")
 t("shield", "bouclier", "effect subtype")
 
 ------------------------------------------------
@@ -36698,7 +36678,7 @@ t("and raised as a soulless shuffling mummy", "et élevé comme une momie sans �
 t("ancient elven mummy", "ancienne momie elfique", "entity name")
 t("An animated corpse in mummy wrappings.", "Un cadavre animé enveloppé dans des bandelettes de momie.", "_t")
 t("animated mummy wrappings", "bandelettes de momie animées", "entity name")
-t("An animated set of mummy wrappings, without a corpse inside; it seems like it cannot move.", "Un ensemble animé de bandelettes de momie, sans cadavre à l'intérieur; on dirait qu'il ne peut pas bouger.", "_t")
+t("An animated set of mummy wrappings, without a corpse inside; it seems like it cannot move.", "Un ensemble animé de bandelettes de momie, sans cadavre à l'intérieur ; on dirait qu'il ne peut pas bouger.", "_t")
 t("rotting mummy", "momie en décomposition", "entity name")
 t("A rotting animated corpse in mummy wrappings.", "Un cadavre animé en décomposition, enveloppé dans des bandelettes de momie.", "_t")
 t("greater mummy", "grande momie", "entity name")
@@ -36729,7 +36709,7 @@ t("Elven Ruins", "Ruines Elfiques", "_t")
 section "mod-tome/data/zones/ardhungol/grids.lua"
 
 t("unstable wormhole", "trou de ver instable", "entity name")
-t("#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "#VIOLET#Le trou de ver absorbe l'énergie du sort et téléporte %s au loin!", "logSeen")
+t("#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "#VIOLET#Le trou de ver absorbe l'énergie du sort et téléporte %s au loin !", "logSeen")
 t("#VIOLET#The wormhole absorbs the energy of the spell and explodes in a burst of nullmagic!", "#VIOLET#Le trou de ver absorbe l'énergie du sort et explose dans un élan de néant magique !", "logSeen")
 
 ------------------------------------------------
@@ -36891,7 +36871,7 @@ t("#GOLD#Miniboss round!", "#GOLD#Round de Mini-boss !", "log")
 t("#LIGHT_RED#Final round!!!", "#LIGHT_RED#Round Finale !!!", "log")
 t("Round Clear! +%s EXP!", "Round terminé ! +%s EXP !", "tformat")
 t("%sWave clear!", "%sVague terminé !", "log")
-t("%sClear bonus: %s%s%s! Score bonus: %s%s%s! Danger bonus: %s%s%s! Rank bonus: %s%s%s!", "%sBonus de complétion: %s%s%s ! Bonus de score: %s%s%s ! Bonus de danger: %s%s%s ! Bonus de rang: %s%s%s !", "log")
+t("%sClear bonus: %s%s%s! Score bonus: %s%s%s! Danger bonus: %s%s%s! Rank bonus: %s%s%s!", "%sBonus de complétion : %s%s%s ! Bonus de score : %s%s%s ! Bonus de danger : %s%s%s ! Bonus de rang : %s%s%s !", "log")
 t("%sYour experience increases by %s%d%s!", "%sVotre expérience augmente de %s%d%s !", "log")
 t("%sYou earn %s gold for your victory!", "%s Vous gagnez %s pièces d'or pour votre victoire !", "log")
 t("Arena mode", "Mode arène", "_t")
@@ -36943,7 +36923,7 @@ t("This pile of rotting flesh twitches and makes horrid noises.", "Ce tas de cha
 t("boney experiment", "expérience osseuse", "entity name")
 t("This pile of bones appears to move on its own, but it can't seem to organise itself into something dangerous.", "Ce tas d'os semble bouger tout seul, mais il ne parvient pas à se transformer en quelque chose de dangereux.", "_t")
 t("sanguine experiment", "expérience sanguine", "entity name")
-t("It looks like a giant blood clot. Is that what its creator intended?", "On dirait un caillot de sang géant. Est-ce là l'intention de son créateur?", "_t")
+t("It looks like a giant blood clot. Is that what its creator intended?", "On dirait un caillot de sang géant. Est-ce là l'intention de son créateur ?", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/blighted-ruins/objects.lua"
@@ -36988,7 +36968,7 @@ section "mod-tome/data/zones/charred-scar/grids.lua"
 
 t("floor", "sol", "entity type")
 t("lava", "lave", "entity subtype")
-t("Farportal: the Far East", "Portail Lointain: l'Extrême-Orient", "entity name")
+t("Farportal: the Far East", "Portail Lointain : l'Extrême-Orient", "entity name")
 t("A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe.", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to the far east.", "#VIOLET#Tu franchis le portail tourbillonnant et, en un clin d'oeil, tu te retrouves en Extrême-Orient.", "_t")
 
@@ -37213,7 +37193,7 @@ section "mod-tome/data/zones/demon-plane/grids.lua"
 t("Demonic Portal", "Portail Démoniaque", "entity name")
 t("This portal seems to be connected with Maj'Eyal; you could probably use it to go back.", "Ce portail semble être relié à Maj'Eyal. Vous pourriez probablement l'utiliser pour y retourner.", "_t")
 t("Back and there again", "Aller et Revenir", "_t")
-t("Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "Passez le portail pour retourner à Maj'Eyal? (Attention: pillez Draebor en premier)", "_t")
+t("Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "Passez le portail pour retourner à Maj'Eyal ? (Attention : pillez Draebor en premier)", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "#VIOLET#Vous franchissez le portail tourbillonnant et, en un clin d'oeil, vous vous retrouvez à Maj'Eyal, près de Daikara.", "logPlayer")
 t("Stay", "Rester", "_t")
 t("Enter", "Entrer", "_t")
@@ -37265,7 +37245,7 @@ t("undead", "mort-vivant", "entity type")
 t("The Master", "Le Maître", "entity name")
 t("A terrifying vampiric figure of power, with flowing robes and an intense aura of fright.  His cold, sinewy flesh seems to cling to this world through greed and malice, and his eyes betray a strength of mind beyond any puny mortal.  All nearby are utterly subservient to his will, though he stands aloof from them, as if to say he needs not the pathetic meddling of minions to help him overcome his foes.  Your eyes are drawn to a dark staff in his hands which seems to suck the very life from the air around it.  It looks ancient and dangerous and terrible, and the sight of it fills you with fervent desire.", "Une terrifiante figure vampirique empreinte de puissance, vêtue d'une robe flottante et dégageant une intense aura de terreur. Sa chair froide et nerveuse semble s'accrocher à ce monde par la cupidité et la malveillance, et ses yeux trahissent une force d'esprit qui dépasse celle de n'importe quel insignifiant mortel. Tous ceux qui l'entourent sont totalement soumis à sa volonté, bien qu'il se tienne à l'écart d'eux, comme pour dire qu'il n'a pas besoin de l'intervention de quelques serviteurs pathétique pour l'aider à vaincre ses ennemis. Ton regard est attiré par un bâton sombre qu'il tient entre ses mains et qui semble aspirer la vie même de l'air qui l'entoure. Il semble ancien, dangereux et terrible, et sa vue te remplit d'un désir ardent.", "_t")
 t("and raised as his tortured undead thrall", "et élevé comme son esclave mort-vivant torturé", "_t")
-t("It has been months since the hero cleansed the Dreadfell, yet rumours are growing: evil is back.", "Plusieurs mois se sont écoulés depuis que le héros a purifié Tombeffroie, et pourtant les rumeurs se multiplient: le mal est de retour.", "_t")
+t("It has been months since the hero cleansed the Dreadfell, yet rumours are growing: evil is back.", "Plusieurs mois se sont écoulés depuis que le héros a purifié Tombeffroie, et pourtant les rumeurs se multiplient : le mal est de retour.", "_t")
 t("skeleton", "squelette", "entity subtype")
 t("Pale Drake", "Dragonnet Blafard", "entity name")
 t("A malevolent skeleton archmage that has taken control of the Dreadfell since the Master's demise.", "Un maléfique squelette archimage qui a pris le contrôle de Tombeffroie depuis la disparition du Maître.", "_t")
@@ -37273,7 +37253,7 @@ t("ghoul", "goule", "entity subtype")
 t("Borfast the Broken", "Borfast le Brisé", "entity name")
 t([[Thick skin hangs loosely from this short, shambling form. Tufts of hair sticking out from its chin give evidence of a once magnificent dwarven beard. Half its face seems to have been seared in acid at some point, the flesh melted away from the skull and an eyeball drooping low from its socket. There is a unique sadness to its eyes, and a slump of resignation to its gait.
 What proud hero of renown was this before he was condemned to such a terrible fate?]], [[Une peau épaisse pend mollement de ce corps trapu et dégingandé. Des touffes de poils qui dépassent de son menton témoignent d'une magnifique barbe naine d'antan. La moitié de son visage semble avoir été brûlée à l'acide, la chair fondue et détachée du crâne, un oeil pend hors de son orbite. Ses yeux expriment une tristesse singulière, et sa démarche est empreinte d'une résignation abattue.
-Quel fier et célèbre héros était-ce donc avant d'être condamné à un si terrible destin?]], "_t")
+Quel fier et célèbre héros était-ce donc avant d'être condamné à un si terrible destin ?]], "_t")
 t("and offered to his dark Master", "et offerte à son sombre Maître", "_t")
 t("ghost", "fantôme", "entity subtype")
 t("Aletta Soultorn", "Aletta l'Âme Tordue", "entity name")
@@ -37347,11 +37327,11 @@ section "mod-tome/data/zones/dreams/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("yeek illusion", "illusion yeek", "entity name")
 t("What?!", "Quoi ?!", "_t")
-t("Who are you?", "Qui êtes vous?", "_t")
-t("What do you want?", "Que voulez vous?", "_t")
-t("Why are you here?", "Pourquoi êtes-vous ici?", "_t")
-t("Where are you going?", "Où allez vous?", "_t")
-t("Do you have anything worth living for?", "Avez vous quelque chose pour continuer a vivre?", "_t")
+t("Who are you?", "Qui êtes vous ?", "_t")
+t("What do you want?", "Que voulez vous ?", "_t")
+t("Why are you here?", "Pourquoi êtes-vous ici ?", "_t")
+t("Where are you going?", "Où allez vous ?", "_t")
+t("Do you have anything worth living for?", "Avez vous quelque chose pour continuer a vivre ?", "_t")
 t("GRrrrrrllllll!", "GRrrrrrllllll !", "_t")
 t("lost wife", "femme perdue", "entity name")
 t("bloated horror", "horreur bouffie", "entity subtype")
@@ -37431,7 +37411,7 @@ t("#LIGHT_RED#You are sent back to the material plane!", "#LIGHT_RED#Vous êtes 
 ------------------------------------------------
 section "mod-tome/data/zones/eruan/grids.lua"
 
-t("Farportal: Charred Scar", "Portail lointain: Plaie Craquelée", "entity name")
+t("Farportal: Charred Scar", "Portail lointain : Plaie Craquelée", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the west, to Charred Scar. A fiery volcano that can only spell death...]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
 Celui-ci semble mener à l'ouest, vers la Plaie Craquelée. Un volcan en éruption synonyme de mort...]], "_t")
@@ -37614,12 +37594,12 @@ section "mod-tome/data/zones/halfling-ruins/npcs.lua"
 t("Subject Z", "Sujet Z", "entity name")
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
-t("This seems to be the 'subject Z' the notes spoke about. He looks human, but this cannot be -- he would be about five thousand years old!", "Il semblerait que ce soit le 'sujet Z' dont parlaient les notes. Il a une apparence humaine, mais c'est impossible: il aurait environ cinq mille ans !", "_t")
+t("This seems to be the 'subject Z' the notes spoke about. He looks human, but this cannot be -- he would be about five thousand years old!", "Il semblerait que ce soit le 'sujet Z' dont parlaient les notes. Il a une apparence humaine, mais c'est impossible : il aurait environ cinq mille ans !", "_t")
 t("and bloodily smeared across the granite walls", "et maculés de sang sur les murs de granit", "_t")
 t("Sacrifice for the Way!", "Sacrifice pour la Voie !", "_t")
 t("#LIGHT_RED#Intense fight", "#LIGHT_RED#Combat intense", "_t")
 t([[As you approach you come upon an other Wayist and receive a very clear mental message:
-#{italic}##UMBER#RUN AWAY! I am done for but you can save yourself still!#{normal}#]], [[En vous approchant, vous rencontrez un autre adepte de la Voie et recevez un message mental très clair:
+#{italic}##UMBER#RUN AWAY! I am done for but you can save yourself still!#{normal}#]], [[En vous approchant, vous rencontrez un autre adepte de la Voie et recevez un message mental très clair :
 #{italic}##UMBER#FUYEZ ! Je suis perdu, mais vous pouvez encore vous sauver !#{normal}#]], "_t")
 t("#GOLD#You hastily activate your Rod of Recall, vowing to come back later!", "#GOLD#Vous activez précipitamment votre Bâtonnet de Rappel, jurant de revenir plus tard !", "say")
 t("Space around you starts to dissolve...", "L'espace autour de vous commence à se dissoudre...", "logPlayer")
@@ -37687,7 +37667,7 @@ t("Heart of the Gloom", "Coeur de l'Angoisse", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/high-peak/grids.lua"
 
-t("Farportal: the Far East", "Portail Lointain: l'Extrême-Orient", "entity name")
+t("Farportal: the Far East", "Portail Lointain : l'Extrême-Orient", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the Far East.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
 Celui-ci semble mener en Extrême-Orient.]], "_t")
@@ -37872,7 +37852,7 @@ t("temperate", "tempérée", "_t")
 t("\
 Encroaching terrain:\
 %s%s", "\
-Terrain empiétant:\
+Terrain empiétant :\
 %s%s", "tformat")
 t("continuation of the Infinite Dungeon", "suite du Donjon Infini", "_t")
 -- texte non traduit
@@ -38017,7 +37997,7 @@ section "mod-tome/data/zones/last-hope-graveyard/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("A tall woman stands before you in a stained robe. Her sallow skin is marked by pox and open sores, but her eyes are bright and keen. The bulge around her abdomen would indicate that she is several months pregnant.", "Une femme de grande taille se tient devant vous, vêtue d'une robe tachée. Son teint blafard est marqué par la variole et des plaies ouvertes, mais ses yeux sont vifs et perçants. Le renflement de son ventre indique qu'elle est enceinte de plusieurs mois.", "_t")
-t("You receive: %s.", "Vous recevez: %s.", "logPlayer")
+t("You receive: %s.", "Vous recevez : %s.", "logPlayer")
 t([[As you deal the last blow you quickly carve out Celia's heart for your Lichform ritual.
 Carefully weaving magic around it to keep it beating.]], [[Au moment de porter le coup fatal, vous arrachez rapidement le coeur de Celia pour votre rituel de Forme de Liche.
 Vous tissez soigneusement de la magie autour pour le maintenir en vie.]], "_t")
@@ -38046,11 +38026,11 @@ section "mod-tome/data/zones/last-hope-graveyard/zone.lua"
 
 t("Last Hope Graveyard", "Cimetière de Dernier Espoir", "_t")
 t("Mausoleum", "Mausolée", "_t")
-t("You were not the first here: the corpse was turned into an undead.", "Vous n'étiez pas le premier à venir ici: le cadavre a été transformé en mort-vivant.", "log")
+t("You were not the first here: the corpse was turned into an undead.", "Vous n'étiez pas le premier à venir ici : le cadavre a été transformé en mort-vivant.", "log")
 t("There is nothing there.", "Il n'y a rien ici.", "log")
 t("The corpse had a treasure!", "Le cadavre contenait un trésor !", "log")
 t("Open the coffin", "Ouvrez le cercueil", "_t")
-t("In rich families the dead are sometimes put to rest with some treasures. However they also sometime protect the coffins with powerful curses. Open?", "Dans les familles riches les défunts sont parfois inhumés avec des trésors. Cependant, il arrive aussi que les cercueils soient protégés par de puissantes malédictions. L'ouvrir?", "_t")
+t("In rich families the dead are sometimes put to rest with some treasures. However they also sometime protect the coffins with powerful curses. Open?", "Dans les familles riches les défunts sont parfois inhumés avec des trésors. Cependant, il arrive aussi que les cercueils soient protégés par de puissantes malédictions. L'ouvrir ?", "_t")
 t("#YELLOW#You hear all the doors being shattered into pieces.", "#YELLOW#On entend toutes les portes se briser en mille morceaux.", "log")
 t([[As you tread softly down the stairs a large stone slab slides into place behind you, blocking all retreat. The air is still and stuffy, and in this tight space you feel as if in a coffin, buried alive.
 
@@ -38122,7 +38102,7 @@ t("corrupted", "corrompu", "entity subtype")
 t("Horned Horror", "Horreur Cornue", "entity name")
 t("Some horrible power has twisted this brutish minotaur into something altogether more terrifying. Huge tentacles undulate from its back as it clenches and unclenches its powerful fists.", "Une force terrible a transformé ce minotaure brutal en une créature encore plus terrifiante. D'énormes tentacules ondulent dans son dos tandis qu'il serre et desserre ses poings puissants.", "_t")
 t("and revived as a mindless horror", "et ressuscité sous la forme d'une horreur dénuée d'esprit", "_t")
-t("Have you hard about the patrol that disappeared in the maze in the west?", "Avez-vous entendu parler de la patrouille qui a disparu dans le labyrinthe à l'ouest?", "_t")
+t("Have you hard about the patrol that disappeared in the maze in the west?", "Avez-vous entendu parler de la patrouille qui a disparu dans le labyrinthe à l'ouest ?", "_t")
 t("giant", "géant", "entity type")
 t("minotaur", "minotaure", "entity subtype")
 t("Minotaur of the Labyrinth", "Minotaure du Labyrinthe", "entity name")
@@ -38199,7 +38179,7 @@ t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
 t("altar of dreams", "autel des rêves", "entity name")
 t("Altar of Dreams", "Autel des rêves", "_t")
-t("Looking into the altar will let you experience a dream. Without the influence of Mindworm, it'll however have no power over your body. Do you wish to look?", "Regarder l'autel vous permettra de faire un rêve. Sans l'influence du veresprit, cependant, il n'aura aucun pouvoir sur votre corps. Souhaitez-vous regarder?", "_t")
+t("Looking into the altar will let you experience a dream. Without the influence of Mindworm, it'll however have no power over your body. Do you wish to look?", "Regarder l'autel vous permettra de faire un rêve. Sans l'influence du veresprit, cependant, il n'aura aucun pouvoir sur votre corps. Souhaitez-vous regarder ?", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/noxious-caldera/npcs.lua"
@@ -38250,7 +38230,7 @@ t("crystal", "cristal", "entity subtype")
 t("Shardskin", "Cuir Fragmenté", "entity name")
 t("This crystalline structure seems to be filled with a malevolent aura. Through the crystal surface you can still see the remains of what once was a huge tree.", "Cette structure cristalline semble imprégnée d'une aura maléfique. À travers sa surface on distingue encore les vestiges de ce qui fut jadis un arbre immense.", "_t")
 t("and integrated into the crystaline structure", "et intégrée à la structure cristalline", "_t")
-t("Have you heard, the old forest seems to have been claimed by a new evil!", "Avez-vous entendu? La vieille forêt semble avoir été envahie par un nouveau mal !", "_t")
+t("Have you heard, the old forest seems to have been claimed by a new evil!", "Avez-vous entendu ? La vieille forêt semble avoir été envahie par un nouveau mal !", "_t")
 t("treant", "tréant", "entity subtype")
 t("Wrathroot", "Racine Courroucée", "entity name")
 t("The ancient grey willow tree, ruler of the Old Forest. He despises trespassers in his territory.", "Le vieux saule gris, maître de la Vieille Forêt. Il déteste les intrus passant sur son territoire.", "_t")
@@ -38375,7 +38355,7 @@ t("Rak'shor Pride", "Fierté de Rak'shor", "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/reknor/grids.lua"
 
-t("Farportal: the Far East", "Portail Lointain: l'Extrême-Orient", "entity name")
+t("Farportal: the Far East", "Portail Lointain : l'Extrême-Orient", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go to the Far East, a continent of which only rumours are known...]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
 Celui-ci semble se diriger vers l'Extrême-Orient, un continent dont on n'entend que des rumeurs...]], "_t")
@@ -38535,7 +38515,7 @@ t("You won the Ring of Blood trial, and this is your reward.", "Vous avez rempor
 t("bloody ring", "anneau sanglant", "_t")
 t([[You heal for 2.5%% of the damage you deal.
 Healing during current combat:  #GREEN#%0.2f#LAST#]], [[Vous récupérez 2.5%% des dégâts que vous infligez.
-Soins lors du combat actuel:  #GREEN#%0.2f#LAST#]], "tformat")
+Soins lors du combat actuel :  #GREEN#%0.2f#LAST#]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/zones/ring-of-blood/zone.lua"
@@ -38592,7 +38572,7 @@ t("Your mind is filled with strange thoughts as you approach the orb.", "Votre e
 t("The orb seems to corrupt all it touches.", "L'orbe semble corrompre tout ce qu'elle touche.", "_t")
 t("\
 Do you touch it?", "\
-Vous la touchez?", "_t")
+Vous la touchez ?", "_t")
 -- texte non traduit
 --[==[
 t("inscription", "inscription", "entity name")
@@ -38658,7 +38638,7 @@ t("Before you stands the queen of the sandworms. Massive and bloated, she slithe
 t("and swallowed whole", "et avalé tout entier", "_t")
 t("Rumbling...", "Grondement...", "_t")
 t("The ground shakes.  Something very large is stirring in the distance.", "Le sol tremble. Quelque chose de très grand s'agite au loin.", "_t")
-t("Did you hear? Something seems to have devoured all the last sandworms!", "Vous avez entendu? Il semblerait que quelque chose ait dévoré tous les derniers vers des sables !", "_t")
+t("Did you hear? Something seems to have devoured all the last sandworms!", "Vous avez entendu ? Il semblerait que quelque chose ait dévoré tous les derniers vers des sables !", "_t")
 t("sand", "sable", "entity subtype")
 t("Corrupted Sand Wyrm", "Ver des sables corrompu", "entity name")
 t("The sandworms are gone, devoured by this shrieking, warped horror.", "Les vers des sables ont disparu, dévorés par cette horreur hurlante et difforme.", "_t")
@@ -38690,7 +38670,7 @@ t("#00FF00#You gain an affinity for nature. You can now learn new Harmony talent
 t("blood", "sang", "entity subtype")
 t("Wyrm Bile", "Bile de Ver", "entity name")
 t("putrescent potion", "potion putride", "_t")
-t("A vial of thick, lumpy fluid. Who knows what this will do to you if you drink it?", "Une fiole contenant un liquide épais et grumeleux. Qui sait quels effets cela aura sur vous si vous la buvez?", "_t")
+t("A vial of thick, lumpy fluid. Who knows what this will do to you if you drink it?", "Une fiole contenant un liquide épais et grumeleux. Qui sait quels effets cela aura sur vous si vous la buvez ?", "_t")
 t("drink the vile fluid", "boire le liquide immonde", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t("#00FFFF#You drink the wyrm bile and feel forever transformed!", "#00FFFF#Vous buvez la bile du Ver et vous vous sentez transformé à jamais !", "logPlayer")
@@ -38776,7 +38756,7 @@ t("Exploratory Farportal", "Portail Lointain Exploratoire", "_t")
 t("The farportal seems to be inactive", "Le portail lointain semble inactif", "_t")
 t("The farportal is broken and will not be usable anymore.", "Le portail lointain est hors service et ne sera plus utilisable.", "_t")
 t("The fortress does not have enough energy to power a trip through the portal.", "La forteresse ne dispose pas d'assez d'énergie pour alimenter un voyage à travers le portail.", "_t")
-t("Do you want to travel in the farportal? You cannot know where you will end up.", "Voulez vous voyager avec le portail lointain? Impossible de savoir où vous atterrirez.", "_t")
+t("Do you want to travel in the farportal? You cannot know where you will end up.", "Voulez vous voyager avec le portail lointain ? Impossible de savoir où vous atterrirez.", "_t")
 t("Exploratory Farportal exit", "Sortie du Portail Lointain Exploratoire", "_t")
 t("#VIOLET#As %s falls you notice a portal appearing.", "#VIOLET#Au moment où %s tombe, vous remarquez l'apparition d'un portail.", "logSeen")
 t("#VIOLET#Your rod of recall shakes, a portal appears beneath you.", "#VIOLET#Votre Bâtonnet de Rappel tremble, un portail apparaît sous vos pieds.", "logSeen")
@@ -38790,9 +38770,9 @@ t("mural painting", "peinture murale", "entity name")
 t("Training Control Orb", "Orbe de Contrôle d'Entraînement", "entity name")
 t([[Turns: %d
 Total Damage: %d
-Damage/turns: %d]], [[Tours: %d
-Dégâts totaux: %d
-Dégâts/tours: %d]], "tformat")
+Damage/turns: %d]], [[Tours : %d
+Dégâts totaux : %d
+Dégâts/tours : %d]], "tformat")
 t("Training Monitor Orb", "Orbe de Surveillance d'Entraînement", "entity name")
 t("Mirror of Reflection", "Miroir de Réflexion", "entity name")
 
@@ -38925,7 +38905,7 @@ t("Strange Pedestal", "Étrange Piédestal", "_t")
 t("This pedestal looks old, you can see the shape of an orb carved on it.", "Ce piédestal semble ancien, on peut y voir la forme d'un globe sculptée.", "_t")
 t([[The pedestal seems to react to something in your bag. After some tests you notice it is the %s.
 Do you wish to use the orb on the pedestal?]], [[Le piédestal semble réagir à quelque chose dans votre sac. Après quelques essais, vous remarquez qu'il s'agit de %s.
-Souhaitez-vous utiliser l'orbe sur le piédestal ?]], "tformat")
+Souhaitez-vous utiliser l'orbe sur le piédestal  ?]], "tformat")
 t("orb pedestal (dragon)", "piédestal d'orbe (dragon)", "entity name")
 t("#rng# the Fearsome", "#rng# le Redoutable", "_t")
 t("orb pedestal (undeath)", "piédestal d'orbe (non-vie)", "entity name")
@@ -38941,7 +38921,7 @@ t("High Peak", "Pic Supérieur", "_t")
 t("The way forward is blocked. There must be some way around here to unlock those doors.", "Le passage est bloqué. Il doit y avoir un moyen pour déverrouiller ces portes.", "_t")
 t([[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
 Enter?]], [[Alors que vous vous tenez sur les escaliers vous sentez que c'est un voyage sans retour, une question de vie ou de mort. Si vouv vous y engagez, il n'y aura pas de retour.
-Entrer?]], "_t")
+Entrer ?]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/slime-tunnels/zone.lua"
@@ -38955,7 +38935,7 @@ t("Strange Pedestal", "Étrange Piédestal", "_t")
 t("This pedestal looks old, you can see the shape of an orb carved on it.", "Ce piédestal semble ancien, on peut y voir la forme d'un globe sculptée.", "_t")
 t([[The pedestal seems to react to something in your bag. After some tests you notice it is the %s.
 Do you wish to use the orb on the pedestal?]], [[Le piédestal semble réagir à quelque chose dans votre sac. Après quelques essais, vous remarquez qu'il s'agit de %s.
-Souhaitez-vous utiliser l'orbe sur le piédestal ?]], "tformat")
+Souhaitez-vous utiliser l'orbe sur le piédestal  ?]], "tformat")
 t("orb pedestal (dragon)", "piédestal d'orbe (dragon)", "entity name")
 t("#rng# the Fearsome", "#rng# le Redoutable", "_t")
 t("orb pedestal (undeath)", "piédestal d'orbe (non-vie)", "entity name")
@@ -38969,7 +38949,7 @@ t("Entrance to the High Peak", "Entrée du Pic Supérieur", "entity name")
 t("High Peak", "Pic Supérieur", "_t")
 t([[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
 Enter?]], [[Alors que vous vous tenez sur les escaliers vous sentez que c'est un voyage sans retour, une question de vie ou de mort. Si vouv vous y engagez, il n'y aura pas de retour.
-Entrer?]], "_t")
+Entrer ?]], "_t")
 t("exit to Grushnak Pride", "sortie vers la Fierté Grushnak", "entity name")
 
 ------------------------------------------------
@@ -39009,7 +38989,7 @@ section "mod-tome/data/zones/south-beach/npcs.lua"
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("Enjoying a lovely day at the beach.", "Profitez d'une belle journée à la plage.", "_t")
-t("What..! Please lets run!", "Quoi...! Allons-y, courons !", "_t")
+t("What..! Please lets run!", "Quoi... ! Allons-y, courons !", "_t")
 t("#DARK_GREEN#As Melinda is about to die a powerful wave of blight emanates from her!", "#DARK_GREEN#Alors que Melinda est sur le point de mourir, une puissante vague de fléau émane d'elle !", "say")
 -- texte non traduit
 --[==[
@@ -39046,7 +39026,7 @@ t("Ponx (Gaz Planet)", "Ponx (Planète gazeuse)", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/stellar-system-shandral/zone.lua"
 
-t("Stellar System: Shandral", "Système Stellaire: Shandral", "_t")
+t("Stellar System: Shandral", "Système Stellaire : Shandral", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/tannen-tower/grids.lua"
@@ -39054,7 +39034,7 @@ section "mod-tome/data/zones/tannen-tower/grids.lua"
 t("Portal to Last Hope", "Portail vers Dernier Espoir", "entity name")
 t("This portal seems to be connected with Last Hope; you could probably use it to go back.", "Ce portail semble connecté à Dernier Espoir. Vous pourriez probablement l'utiliser pour fuir.", "_t")
 t("Back and there again", "Aller et Revenir", "_t")
-t("Enter the portal back to Last Hope?", "Emprunter le portail pour retourner à Dernier Espoir?", "_t")
+t("Enter the portal back to Last Hope?", "Emprunter le portail pour retourner à Dernier Espoir ?", "_t")
 t("Stay", "Rester", "_t")
 t("Enter", "Entrer", "_t")
 
@@ -39231,9 +39211,9 @@ t("Rune of the Rift", "Rune de la Faille", "entity name")
 section "mod-tome/data/zones/temporal-rift/zone.lua"
 
 t("Temporal Rift", "Faille Temporelle", "_t")
-t("Temporal Rift: Lumberjack village", "Faille Temporelle: Petit Village de Bûcherons", "_t")
-t("Temporal Rift: Daikara", "Faille Temporelle: Daikara", "_t")
-t("Temporal Rift: Lake of Nur", "Faille Temporelle: Lac de Nur", "_t")
+t("Temporal Rift: Lumberjack village", "Faille Temporelle : Petit Village de Bûcherons", "_t")
+t("Temporal Rift: Daikara", "Faille Temporelle : Daikara", "_t")
+t("Temporal Rift: Lake of Nur", "Faille Temporelle : Lac de Nur", "_t")
 t("Space and time distort and lose meaning as you pass through the rift. This place is alien.", "L'espace et le temps se distordent et perdent leur sens lorsqu'on traverse la faille. C'est un endroit alien.", "_t")
 t("This looks like Maj'Eyal's forest but it looks strangely distorted, beware...", "Cela ressemble à la forêt de Maj'Eyal, mais elle semble étrangement déformée. Vous devriez vous méfier.", "_t")
 t("As you pass the rift you see what seems to be the Daikara mountains, yet they are not.", "En passant la faille, vous voyez ce qui semble être les montagnes Daikara, mais ce n'est pas le cas.", "_t")
@@ -39313,7 +39293,7 @@ t("lecture on humility", "conférence sur l'humilité", "entity subtype")
 t("Lecture on Humility by Archmage Linaniil", "Conférence sur l'Humilité par l'Archimage Linaniil", "entity name")
 t("Lecture on Humility by Archmage Linaniil. A tale of the first ages and the Spellblaze.", "Conférence sur l'Humilité par l'Archimage Linaniil. Un récit des premiers âges et de la Brûlure Magique.", "_t")
 t("magic teaching", "enseignement de la magie", "entity subtype")
-t("'What is Magic' by Archmage Tarelion", "'Qu'est-ce que la Magie?' par l'Archimage Tarelion", "entity name")
+t("'What is Magic' by Archmage Tarelion", "'Qu'est-ce que la Magie ?' par l'Archimage Tarelion", "entity name")
 t("Lecture on the nature of magic by Archmage Tarelion.", "Conférence sur la nature de la magie par l'Archimage Tarelion.", "_t")
 t("Rune of Dissipation", "Rune de Dissipation", "entity name")
 
@@ -39357,7 +39337,7 @@ t("A weather-worn Human farmer.", "Un fermier humain usé par le temps.", "_t")
 t("halfling gardener", "jardinier halfelin", "entity name")
 t("A Halfling, he seems to be looking for plants.", "Un Halfelin qui semble être à la recherche de plantes.", "_t")
 t("Shady cornac man", "Homme Cornac louche", "entity name")
-t("Hey you. Come here.", "Hé, toi! Viens ici !", "_t")
+t("Hey you. Come here.", "Hé, toi ! Viens ici !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-derth/traps.lua"
@@ -39433,7 +39413,7 @@ section "mod-tome/data/zones/town-gates-of-morning/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("old road", "vieille route", "entity name")
-t("Farportal: Last Hope", "Portail Lointain: Dernier Espoir", "entity name")
+t("Farportal: Last Hope", "Portail Lointain : Dernier Espoir", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go near the town of Last Hope in Maj'Eyal.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
 Celui-ci semble mener près de la ville de Dernier Espoir en Maj'Eyal.]], "_t")
@@ -39572,7 +39552,7 @@ section "mod-tome/data/zones/town-last-hope/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("old road", "vieille route", "entity name")
-t("Farportal: Gates of Morning", "Portail Lointain: Portes du Matin", "entity name")
+t("Farportal: Gates of Morning", "Portail Lointain : Portes du Matin", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go near the Gates of Morning in the Far East.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
 Celui-ci semble mener près des Portes du Matin, en Extrême-Orient.]], "_t")
@@ -39872,7 +39852,7 @@ He looks hurt.]], [[Colosse humanoïde a la peau verte et a l'aspect repoussant 
 Il a l'air blessé.]], "_t")
 t("Lone Wolf", "Loup Solitaire", "entity name")
 t("It is a large wolf with eyes full of cunning, only 3 times bigger than a normal wolf. It looks hungry. You look tasty!", "C'est un grand loup aux yeux rusés, trois fois plus gros qu'un loup normal. Il a l'air affamé. Tu as l'air appétissant !", "_t")
-t("Tutorial: Finish", "Tutoriel: Terminé", "_t")
+t("Tutorial: Finish", "Tutoriel : Terminé", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/tutorial/traps.lua"
@@ -39881,14 +39861,14 @@ t("tutorial", "tutoriel", "entity type")
 t("tutorial", "tutoriel", "entity subtype")
 t("tutorial", "tutoriel", "_t")
 t("A tutorial", "Un tutoriel", "_t")
-t("Tutorial: %s", "Tutoriel: %s", "tformat")
+t("Tutorial: %s", "Tutoriel : %s", "tformat")
 t("Movement", "Mouvement", "entity name")
 t("Melee Combat", "Combat de mélée", "entity name")
 t("Objects", "Objets", "entity name")
 t("Experience and Levels", "Expérience et Niveaux", "entity name")
 t("Different terrains", "Les différents terrains", "entity name")
-t("Basic tactic: Do not get surrounded", "Tactique basique: Ne pas se laisser encercler", "entity name")
-t("Basic tactic: Take cover", "Tactique basique: Se mettre à couvert", "entity name")
+t("Basic tactic: Do not get surrounded", "Tactique basique : Ne pas se laisser encercler", "entity name")
+t("Basic tactic: Take cover", "Tactique basique : Se mettre à couvert", "entity name")
 t("Ranged Combat", "Combat à distance", "entity name")
 t("Quests", "Quêtes", "entity name")
 -- texte non traduit
@@ -39908,7 +39888,7 @@ section "mod-tome/data/zones/tutorial-combat-stats/grids.lua"
 t("Lobby Portal", "Portail du Lobby", "entity name")
 t("This portal will bring you back to the Tutorial Lobby.", "Ce portail vous ramènera au Lobby du tutoriel.", "_t")
 t("Tutorial Lobby Portal", "Portail du Lobby du tutoriel", "_t")
-t("Enter the portal back to the lobby?", "Entrez dans le portail pour retourner dans le lobby?", "_t")
+t("Enter the portal back to the lobby?", "Entrez dans le portail pour retourner dans le lobby ?", "_t")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back in the lobby.", "#VIOLET#Vous pénétrez dans le portail tourbillonnant et, en un clin d'œil, vous voilà de retour dans le lobby.", "logPlayer")
 t("Stay", "Rester", "_t")
 t("Enter", "Entrer", "_t")
@@ -39917,29 +39897,29 @@ t("grass", "herbe", "entity subtype")
 t("grass", "herbe", "entity name")
 t("Sign", "Signe", "entity name")
 t("Contains a snippet of ToME wisdom.", "Contient un extrait de la sagesse de ToME.", "_t")
-t("Rune of Enlightenment: Summer Vacation", "Rune de l'Éveil: Vacances d'Été", "entity name")
+t("Rune of Enlightenment: Summer Vacation", "Rune de l'Éveil : Vacances d'Été", "entity name")
 t("Causes the player's brain to jettison all recently-acquired knowledge.", "Provoque l'effacement du cerveau du joueur de toutes les connaissances récemment acquises.", "_t")
 t("#VIOLET#You feel unenlightened.", "#VIOLET#Vous vous sentez ignorant.", "logPlayer")
-t("Rune of Enlightenment: Shove", "Rune de l'Éveil: Poussée", "entity name")
+t("Rune of Enlightenment: Shove", "Rune de l'Éveil : Poussée", "entity name")
 t("Teaches the player 'Shove'.", "Apprend au joueur 'Poussée'.", "_t")
 t("#VIOLET#You have learned the talent Shove.", "#VIOLET#Vous avez appris le talent Poussée.", "logPlayer")
 t("#VIOLET#The sound of an ancient door grinding open echoes down the tunnel!", "#VIOLET#Le grincement d'une vieille porte résonne dans le tunnel !", "logPlayer")
-t("Rune of Enlightenment: Mana Gale", "Rune de l'Éveil: Coup de vent de Mana", "entity name")
+t("Rune of Enlightenment: Mana Gale", "Rune de l'Éveil : Coup de vent de Mana", "entity name")
 t("Teaches the player 'Mana Gale'.", "Apprend au joueur \"Coup de vent de Mana\".", "_t")
 t("#VIOLET#You have learned the talent Mana Gale.", "#VIOLET#Vous avez apprit le talent Coup de vent de Mana.", "logPlayer")
-t("Rune of Enlightenment: Telekinetic Punt", "Rune de l'Éveil: Coup de pied Télékinétique", "entity name")
+t("Rune of Enlightenment: Telekinetic Punt", "Rune de l'Éveil : Coup de pied Télékinétique", "entity name")
 t("Teaches the player 'Telekinetic Punt'.", "Apprend au joueur 'Coup de pied Télékinétique'.", "_t")
 t("#VIOLET#You have learned the talent Telekinetic Punt.", "#VIOLET#Vous avez appris le talent Coup de pied Télékinétique.", "logPlayer")
-t("Rune of Enlightenment: Blink", "Rune de l'Éveil: Passage", "entity name")
+t("Rune of Enlightenment: Blink", "Rune de l'Éveil : Passage", "entity name")
 t("Teaches the player 'Blink'.", "Apprend au joueur 'Passage'.", "_t")
 t("#VIOLET#You have learned the talent Blink.", "#VIOLET#Vous avez appris le talent Passage.", "logPlayer")
-t("Rune of Enlightenment: Fear", "Rune de l'Éveil: Peur", "entity name")
+t("Rune of Enlightenment: Fear", "Rune de l'Éveil : Peur", "entity name")
 t("Teaches the player 'Fear'.", "Apprend au joueur 'Peur'.", "_t")
 t("#VIOLET#You have learned the talent Fear.", "#VIOLET#Tu as appris le talent Peur.", "logPlayer")
-t("Rune of Enlightenment: Bleed", "Rune de l'Éveil: Saignement", "entity name")
+t("Rune of Enlightenment: Bleed", "Rune de l'Éveil : Saignement", "entity name")
 t("Teaches the player 'Bleed'.", "Apprend au joueur 'Saignement'.", "_t")
 t("#VIOLET#You have learned the talent Bleed.", "#VIOLET#Vous avez appris le talent Saignement.", "logPlayer")
-t("Rune of Enlightenment: Confusion", "Rune de l'Éveil: Confusion", "entity name")
+t("Rune of Enlightenment: Confusion", "Rune de l'Éveil : Confusion", "entity name")
 t("Teaches the player 'Confusion'.", "Apprend au joueur 'Confusion'.", "_t")
 t("#VIOLET#You have learned the talent Confusion.", "#VIOLET#Vous avez appris le talent Confusion.", "logPlayer")
 t("wall", "mur", "entity type")
@@ -40020,7 +40000,7 @@ t("tutorial", "tutoriel", "entity type")
 t("tutorial", "tutoriel", "entity subtype")
 t("tutorial", "tutoriel", "_t")
 t("A tutorial", "Un tutoriel", "_t")
-t("Tutorial: %s", "Tutoriel: %s", "tformat")
+t("Tutorial: %s", "Tutoriel : %s", "tformat")
 t("tutorial2", "tutoriel2", "entity subtype")
 t("tutorial3", "tutoriel3", "entity subtype")
 t("tutorial4", "tutoriel4", "entity subtype")
@@ -40031,8 +40011,8 @@ t("Melee Combat", "Combat de mélée", "entity name")
 t("Objects", "Objets", "entity name")
 t("Experience and Levels", "Expérience et Niveaux", "entity name")
 t("Different terrains", "Les différents terrains", "entity name")
-t("Basic tactic: Do not get surrounded", "Tactique basique: Ne pas se laisser encercler", "entity name")
-t("Basic tactic: Take cover", "Tactique basique: Se mettre à couvert", "entity name")
+t("Basic tactic: Do not get surrounded", "Tactique basique : Ne pas se laisser encercler", "entity name")
+t("Basic tactic: Take cover", "Tactique basique : Se mettre à couvert", "entity name")
 t("Ranged Combat", "Combat à distance", "entity name")
 t("Quests", "Quêtes", "entity name")
 t("Mechanics tutorial", "Tutoriel des mécaniques", "entity name")
@@ -40373,13 +40353,13 @@ t("Something", "Quelque chose", "_t")
 ------------------------------------------------
 section "mod-tome/mod/ai/improved_tactical.lua"
 
-t("#ORCHID#%s wants escape(move) %0.2f (air: %s = %0.2f) on %s (%d, %d, air:%s = %s turns)", "#ORCHID#%s veut s'enfuire(mouvement) %0.2f (air: %s = %0.2f) sur %s (%d, %d, air:%s = %s tours)", "log")
+t("#ORCHID#%s wants escape(move) %0.2f (air: %s = %0.2f) on %s (%d, %d, air:%s = %s turns)", "#ORCHID#%s veut s'enfuire(mouvement) %0.2f (air : %s = %0.2f) sur %s (%d, %d, air :%s = %s tours)", "log")
 t("#ORCHID#%s wants escape(move) %0.2f (heal) in %s at(%d, %d) dam %d vs %d avail life)", "#ORCHID#%s veut s'enfuire(mouvement) %0.2f (soin) dans %s à(%d, %d) dégâts %d contre %d vie dispo)", "log")
-t("#GREY#__%s[%d] tactical AI: NO USEFUL ACTIONS", "#GREY#__%s[%d] IA tactique: PAS D'ACTION UTILE", "log")
-t("#GREY#__[%d]%s ACTION SUCCEEDED:  %s, tacs: %s, FT:%s", "#GREY#__[%d]%s ACTION REUSSI:  %s, tacs: %s, FT:%s", "log")
-t("__[%d]%s #ORANGE# ACTION FAILED:  %s, FT:%s", "__[%d]%s #ORANGE# ACTION ECHOUE:  %s, FT:%s", "log")
-t("__[%d]%s #SLATE# tactical AI: NO ACTION, best: %s, %s", "__[%d]%s #SLATE# IA tactique: AUCUNE ACTION, battre: %s, %s", "log")
-t("%s__turn %d: Invoking improved tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: Invoquer l'amélioration de l'IA tactique pour [%s]%s(%d,%d) cible:[%s]%s %s", "log")
+t("#GREY#__%s[%d] tactical AI: NO USEFUL ACTIONS", "#GREY#__%s[%d] IA tactique : PAS D'ACTION UTILE", "log")
+t("#GREY#__[%d]%s ACTION SUCCEEDED:  %s, tacs: %s, FT:%s", "#GREY#__[%d]%s ACTION REUSSI : %s, tacs : %s, FT : %s", "log")
+t("__[%d]%s #ORANGE# ACTION FAILED:  %s, FT:%s", "__[%d]%s #ORANGE# ACTION ECHOUE :  %s, FT : %s", "log")
+t("__[%d]%s #SLATE# tactical AI: NO ACTION, best: %s, %s", "__[%d]%s #SLATE# IA tactique : AUCUNE ACTION, battre : %s, %s", "log")
+t("%s__turn %d: Invoking improved tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d : Invoquer l'amélioration de l'IA tactique pour [%s]%s(%d,%d) cible :[%s]%s %s", "log")
 t("#ROYAL_BLUE#---talents disabled---", "#ROYAL_BLUE#---talents désactivé---", "log")
 -- texte non traduit
 --[==[
@@ -40391,13 +40371,13 @@ t("%s__%s[%d] tactical AI picked action[att:%d, turn %s]: (%s)%s {%-+4.2f [%s]}"
 ------------------------------------------------
 section "mod-tome/mod/ai/improved_talented.lua"
 
-t("%s__turn %d: Invoking improved_talented_simple AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: invoque l'IA improved_talented_simple pour [%s]%s(%d,%d) cible:[%s]%s %s", "log")
+t("%s__turn %d: Invoking improved_talented_simple AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d : invoque l'IA improved_talented_simple pour [%s]%s(%d,%d) cible : [%s]%s %s", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/ai/maintenance.lua"
 
-t("#ORCHID#__%s[%d]maintenance AI picked action: %s (%s)", "#ORCHID#__%s[%d]maintenance IA a choisi l'action: %s (%s)", "log")
-t("__%s[%d] #ORANGE# maintenance ACTION FAILED:  %s", "__%s[%d] #ORANGE# maintenance ACTION ECHOUE:  %s", "log")
+t("#ORCHID#__%s[%d]maintenance AI picked action: %s (%s)", "#ORCHID#__%s[%d]maintenance IA a choisi l'action : %s (%s)", "log")
+t("__%s[%d] #ORANGE# maintenance ACTION FAILED:  %s", "__%s[%d] #ORANGE# maintenance ACTION ECHOUE :  %s", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/ai/quests.lua"
@@ -40426,12 +40406,12 @@ t("__%s #GREY# (%d, %d) trying to flee_dmap_keep_los to (%d, %d)", "__%s #GREY# 
 ------------------------------------------------
 section "mod-tome/mod/ai/tactical.lua"
 
-t("%s__turn %d: Invoking old tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d: Invoque la vielle IA tactique pour [%s]%s(%d,%d) cible:[%s]%s %s", "log")
+t("%s__turn %d: Invoking old tactical AI for [%s]%s(%d,%d) target:[%s]%s %s", "%s__tours %d : Invoque la vielle IA tactique pour [%s]%s(%d,%d) cible : [%s]%s %s", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/ai/target.lua"
 
-t("#RED# [%s]%s #ORANGE#CLEARING OLD TARGET#LAST#: [%s]%s", "#RED# [%s]%s #ORANGE#SUPPRIMER LA VIEILLE CIBLE#LAST#: [%s]%s", "log")
+t("#RED# [%s]%s #ORANGE#CLEARING OLD TARGET#LAST#: [%s]%s", "#RED# [%s]%s #ORANGE#SUPPRIMER LA VIEILLE CIBLE#LAST# : [%s]%s", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Actor.lua"
@@ -40439,9 +40419,9 @@ section "mod-tome/mod/class/Actor.lua"
 t("drowned to death", "s'est noyé", "_t")
 t("%s has been disrupted by #ORCHID#anti-magic forces#LAST#!", "%s a été déchiré par des #ORCHID#forces anti-magie#LAST# !", "logSeen")
 t("%s temporarily fights the paralyzation.", "%s combat temporairement la paralysie.", "logSeen")
-t("#VIOLET#Following build order %s; increasing %s by 1.", "#VIOLET#L'ordre de build %s; augmente %s par 1.", "log")
-t("#VIOLET#Following build order %s; learning talent category %s.", "#VIOLET#L'ordre de build %s; apprendre la catégorie de talent %s.", "log")
-t("#VIOLET#Following build order %s; learning talent %s.", "#VIOLET#L'ordre de build %s; apprendre le talent %s.", "log")
+t("#VIOLET#Following build order %s; increasing %s by 1.", "#VIOLET#L'ordre de build %s ; augmente %s par 1.", "log")
+t("#VIOLET#Following build order %s; learning talent category %s.", "#VIOLET#L'ordre de build %s ; apprendre la catégorie de talent %s.", "log")
+t("#VIOLET#Following build order %s; learning talent %s.", "#VIOLET#L'ordre de build %s ; apprendre le talent %s.", "log")
 t("You are asleep and unable to move!", "Vous êtes endormis et ne pouvez pas bouger !", "logPlayer")
 t("You are unable to move!", "Vous êtes incapable de bouger !", "logPlayer")
 t("#F53CBE#Your movements fuel your rampage! (+1 duration)", "#F53CBE#Vos mouvements alimentent votre déchaînement ! (+1 durée)", "logPlayer")
@@ -40467,43 +40447,43 @@ t("female", "femme", "_t")
 t("male", "homme", "_t")
 t("Rank: ", "Rang : ", "_t")
 t("Level: unknown", "Niveau : inconnu", "_t")
-t("Level: %d", "Niveau: %d", "tformat")
+t("Level: %d", "Niveau : %d", "tformat")
 t("INVULNERABLE!", "INVULNERABLE !", "_t")
-t("HP: %d (%d%%) #GREEN#+%0.2f#LAST#", "PV: %d (%d%%) #GREEN#+%0.2f#LAST#", "tformat")
+t("HP: %d (%d%%) #GREEN#+%0.2f#LAST#", "PV : %d (%d%%) #GREEN#+%0.2f#LAST#", "tformat")
 t("\
 Vim:  %s%d / %d#LAST#", "\
-Vitae:  %s%d / %d#LAST#", "tformat")
+Vitae :  %s%d / %d#LAST#", "tformat")
 t("\
 Positive:  %s%d / %d#LAST#", "\
-Positif:  %s%d / %d#LAST#", "tformat")
+Positif :  %s%d / %d#LAST#", "tformat")
 t("\
 Negative:  %s%d / %d#LAST#", "\
-Négative:  %s%d / %d#LAST#", "tformat")
-t("Iceblock: %d", "Bloc de glace: %d", "tformat")
-t("%sVim Value: %d#LAST#", "%sValeur de Vitae: %d#LAST#", "tformat")
+Négative :  %s%d / %d#LAST#", "tformat")
+t("Iceblock: %d", "Bloc de glace : %d", "tformat")
+t("%sVim Value: %d#LAST#", "%sValeur de Vitae : %d#LAST#", "tformat")
 t("#ffa0ff#Predator: +%d acc, +%d apr#LAST#", "#ffa0ff#Prédateur : +%d acc, +%d pen#LAST#", "tformat")
-t("Resists: ", "Résistances: ", "_t")
-t("Hardiness/Armour: ", "Robustesse/Armure: ", "_t")
-t("Size: ", "Taille: ", "_t")
-t("#FFD700#Accuracy#FFFFFF#: ", "#FFD700#Précision#FFFFFF#: ", "_t")
-t("#0080FF#Defense#FFFFFF#:  ", "#0080FF#Défense#FFFFFF#:  ", "_t")
-t("#FFD700#P. power#FFFFFF#: ", "#FFD700#Puiss P.#FFFFFF#: ", "_t")
-t("#0080FF#P. save#FFFFFF#:  ", "#0080FF#Sauv P.#FFFFFF#:  ", "_t")
-t("#FFD700#S. power#FFFFFF#: ", "#FFD700#Puiss S.#FFFFFF#: ", "_t")
-t("#0080FF#S. save#FFFFFF#:  ", "#0080FF#Sauv S.#FFFFFF#:  ", "_t")
-t("#FFD700#M. power#FFFFFF#: ", "#FFD700#Puiss M.#FFFFFF#: ", "_t")
-t("#0080FF#M. save#FFFFFF#:  ", "#0080FF#Sauv M.#FFFFFF#:  ", "_t")
-t("Critical Mult: ", "Crit Mult: ", "_t")
-t("Time left: ", "Temps restant: ", "_t")
-t("#LIGHT_BLUE#Main:#LAST#%s", "#LIGHT_BLUE#Main principale:#LAST#%s", "tformat")
-t("#LIGHT_BLUE#Off :#LAST#%s", "#LIGHT_BLUE#Main secondaire:#LAST#%s", "tformat")
-t("#LIGHT_BLUE#Ammo:#LAST#%s", "#LIGHT_BLUE#Munition:#LAST#%s", "tformat")
-t("#LIGHT_BLUE#Unarmed:#LAST#%s", "#LIGHT_BLUE#Main nue:#LAST#%s", "tformat")
-t("#LIGHT_BLUE#Unarmed:#LAST#", "#LIGHT_BLUE#Main nue:#LAST#", "_t")
-t("Melee Retaliation: ", "Représailles de mêlée: ", "_t")
-t("Personal reaction: ", "Réaction personnelle: ", "_t")
-t("Sustained Talents: ", "Talents Soutenus: ", "_t")
-t("Temporary Status Effects: ", "Effets de statut temporaires: ", "_t")
+t("Resists: ", "Résistances : ", "_t")
+t("Hardiness/Armour: ", "Robustesse/Armure : ", "_t")
+t("Size: ", "Taille : ", "_t")
+t("#FFD700#Accuracy#FFFFFF#: ", "#FFD700#Précision#FFFFFF# : ", "_t")
+t("#0080FF#Defense#FFFFFF#:  ", "#0080FF#Défense#FFFFFF# : ", "_t")
+t("#FFD700#P. power#FFFFFF#: ", "#FFD700#Puiss P#FFFFFF# : ", "_t")
+t("#0080FF#P. save#FFFFFF#:  ", "#0080FF#Sauv P#FFFFFF# : ", "_t")
+t("#FFD700#S. power#FFFFFF#: ", "#FFD700#Puiss S#FFFFFF# : ", "_t")
+t("#0080FF#S. save#FFFFFF#:  ", "#0080FF#Sauv S#FFFFFF# : ", "_t")
+t("#FFD700#M. power#FFFFFF#: ", "#FFD700#Puiss M#FFFFFF# : ", "_t")
+t("#0080FF#M. save#FFFFFF#:  ", "#0080FF#Sauv M#FFFFFF# : ", "_t")
+t("Critical Mult: ", "Crit Mult : ", "_t")
+t("Time left: ", "Temps restant : ", "_t")
+t("#LIGHT_BLUE#Main:#LAST#%s", "#LIGHT_BLUE#Main principale :#LAST#%s", "tformat")
+t("#LIGHT_BLUE#Off :#LAST#%s", "#LIGHT_BLUE#Main secondaire :#LAST#%s", "tformat")
+t("#LIGHT_BLUE#Ammo:#LAST#%s", "#LIGHT_BLUE#Munition :#LAST#%s", "tformat")
+t("#LIGHT_BLUE#Unarmed:#LAST#%s", "#LIGHT_BLUE#Main nue :#LAST#%s", "tformat")
+t("#LIGHT_BLUE#Unarmed:#LAST#", "#LIGHT_BLUE#Main nue :#LAST#", "_t")
+t("Melee Retaliation: ", "Représailles de mêlée : ", "_t")
+t("Personal reaction: ", "Réaction personnelle : ", "_t")
+t("Sustained Talents: ", "Talents Soutenus : ", "_t")
+t("Temporary Status Effects: ", "Effets de statut temporaires : ", "_t")
 t("#LIGHT_GREEN#%d healing #LAST##AQUAMARINE#(%d psi heal)#LAST#", "#LIGHT_GREEN#%d soins #LAST##AQUAMARINE#(%d soins psi)#LAST#", "tformat")
 t("#LIGHT_GREEN#%d healing#LAST#", "#LIGHT_GREEN#%d soins#LAST#", "tformat")
 t("#STEEL_BLUE#(%d shifted)#LAST#", "#STEEL_BLUE#(%d modifié)#LAST#", "tformat")
@@ -40580,8 +40560,8 @@ t("#00FF00#You are no longer encumbered.", "#00FF00#Vous n'êtes plus encombré.
 t("-ENCUMBERED!", "-ENCOMBRE !", "_t")
 t("You cannot switch equipment while sleeping!", "Vous ne pouvez pas changer d'équipement en dormant", "logPlayer")
 t("unarmed", "désarmé", "_t")
-t("%s warps space-time to equip: %s.", "%s déforme l'espace temps pour équiper: %s.", "logSeen")
-t("%s switches %s weapons to: %s.", "%s change %s d'arme pour: %s.", "logSeen")
+t("%s warps space-time to equip: %s.", "%s déforme l'espace temps pour équiper : %s.", "logSeen")
+t("%s switches %s weapons to: %s.", "%s change %s d'arme pour : %s.", "logSeen")
 t("%s wears %s%s.", "%s porte %s%s.", "logSeen")
 t("antimagic", "anti-magie", "_t")
 t("%s #LIGHT_STEEL_BLUE#Triggers an Anomaly! (%s).", "%s #LIGHT_STEEL_BLUE#Déclenche une anomalie ! (%s).", "logSeen")
@@ -40622,38 +40602,38 @@ t("activates", "activé", "_t")
 t("%s casts #{bold}#%s%s.#{normal}##LAST#", "%s lance #{bold}#%s%s.#{normal}##LAST#", "logSeen")
 t("%s uses #{bold}#%s%s.#{normal}##LAST#", "%s utilise #{bold}#%s%s.#{normal}##LAST#", "logSeen")
 t("%s talent '%s%s' is disrupted by the mind parasite.", "%s talent '%s%s' est déchiré par un parasite mentale.", "logSeen")
-t("Effective talent level: ", "Niveau de talent effectif: ", "_t")
-t("Use mode: ", "Mode d'utilisation: ", "_t")
+t("Effective talent level: ", "Niveau de talent effectif : ", "_t")
+t("Use mode: ", "Mode d'utilisation : ", "_t")
 t("Passive", "Passif", "_t")
 t("Sustained", "Soutenu", "_t")
 t("Activated", "Activé", "_t")
-t("Feedback cost: ", "Coût de Rétroaction: ", "_t")
-t("Fortress Energy cost: ", "Coût d'Energie de Forteresse: ", "_t")
-t("Sustain feedback cost: ", "Coût de rétroaction soutenu: ", "_t")
-t("%s %s: ", "%s: %s ", "tformat", {2,1})
+t("Feedback cost: ", "Coût de Rétroaction : ", "_t")
+t("Fortress Energy cost: ", "Coût d'Energie de Forteresse : ", "_t")
+t("Sustain feedback cost: ", "Coût de rétroaction soutenu : ", "_t")
+t("%s %s: ", "%s : %s ", "tformat", {2,1})
 t("cost", "Coût", "_t")
 t("gain", "Gain", "_t")
-t("Sustain %s cost: ", "Coût soutenu en %s: ", "tformat")
+t("Sustain %s cost: ", "Coût soutenu en %s : ", "tformat")
 t("Generates", "Produits", "_t")
 t("Removes", "Supprime", "_t")
 t("Drains", "Vole", "_t")
 t("Replenishes", "Remplis", "_t")
-t("Range: ", "Portée: ", "_t")
+t("Range: ", "Portée : ", "_t")
 t("melee/personal", "melée/personnelle", "_t")
-t("%sCooldown: ", "%sTemps de recharge: ", "tformat")
+t("%sCooldown: ", "%sTemps de recharge : ", "tformat")
 t("Fixed ", "Fixé ", "_t")
-t("Travel Speed: ", "Vitesse de Mouvement: ", "_t")
+t("Travel Speed: ", "Vitesse de Mouvement : ", "_t")
 t("%d%% of base", "%d%% de base", "tformat")
 t("instantaneous", "instantané", "_t")
 t("Full Turn", "Tours Complet", "_t")
 t("Instant (#LIGHT_GREEN#0%#LAST# of a turn)", "Instantané (#LIGHT_GREEN#0%#LAST# d'un tour)", "_t")
 t("Special", "Spécial", "_t")
 t("%s (#LIGHT_GREEN#%d%%#LAST# of a turn)", "%s (#LIGHT_GREEN#%d%%#LAST# d'un tour)", "tformat")
-t("Usage Speed: ", "Vitesse d'Utilisation: ", "_t")
-t("Won't Break Stealth:  ", "Ne brise pas la Furtivité:  ", "_t")
-t("Is: ", "Est: ", "_t")
+t("Usage Speed: ", "Vitesse d'Utilisation : ", "_t")
+t("Won't Break Stealth:  ", "Ne brise pas la Furtivité :  ", "_t")
+t("Is: ", "Est : ", "_t")
 t(" and ", " et ", "_t")
-t("Will Deactivate: ", "Désactivera: ", "_t")
+t("Will Deactivate: ", "Désactivera : ", "_t")
 t("can only learn one evolution", "ne peut apprendre qu'une seule évolution", "_t")
 t("- Not other class or race evolution", "- Pas d'autre évolution de classe ou de race", "_t")
 t("Automatic use enabled", "Utilisation automatique activée", "_t")
@@ -40668,9 +40648,9 @@ t("- will only trigger if you are not in combat", "- ne se déclenchera que si v
 t("Automatic use", "Utilisation automatique", "_t")
 t([[%s:
 %s
- Are you sure?]], [[%s:
+ Are you sure?]], [[%s :
 %s
- Êtes-vous sûr?]], "tformat")
+ Êtes-vous sûr ?]], "tformat")
 t("Automatic use disabled", "Utilisation automatique désactivée", "_t")
 t("%s will not be automatically used.", "%s ne sera pas utilisé automatiquement.", "tformat")
 t("%s resists the dispelling of %s!", "%s résiste à la dissipation de %s !", "logSeen")
@@ -40708,7 +40688,7 @@ t("When you close the inventory window, all items in the chest will be transmogr
 t("transmogrify", "transmogrifier", "_t")
 t("You detach %s from your %s.", "Vous détachez %s de votre %s.", "logPlayer")
 t("You can not use a tinker without the corresponding item.", "Vous ne pouvez pas utiliser une bricole sans l'élément correspondant.", "logPlayer")
-t("This item is not usable: %s.", "Cet objet n'est pas utilisable: %s.", "logPlayer")
+t("This item is not usable: %s.", "Cet objet n'est pas utilisable : %s.", "logPlayer")
 t("This tinker can not be applied to this item.", "Cette bricolle ne peut pas être appliqué à cet objet.", "logPlayer")
 t("You already have a tinker on this item.", "Vous avez dèjà une bricolle sur cet objet.", "logPlayer")
 t("You attach %s to your %s.", "Vous attachez %s à votre %s.", "logPlayer")
@@ -40735,10 +40715,10 @@ t("Description: ", "Description: ", "_t")
 ------------------------------------------------
 section "mod-tome/mod/class/EscortRewards.lua"
 
-t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Aidez-moi, s'il vous plaît ! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'il y a un portail de rappel laissé par un ami, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider?", "_t")
+t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Aidez-moi, s'il vous plaît ! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'il y a un portail de rappel laissé par un ami, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider ?", "_t")
 t("%s, the lost warrior", "%s, le guerrier perdu", "_t")
 t("He looks tired and wounded.", "Il a l'air blessé et fatigué.", "_t")
-t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "Aidez-moi, s'il vous plaît ! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail de rappel par ici, mais je ne pourrai pas continuer la route seul. Pourriez-vous m'aider?", "_t")
+t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "Aidez-moi, s'il vous plaît ! J'ai bien peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail de rappel par ici, mais je ne pourrai pas continuer la route seul. Pourriez-vous m'aider ?", "_t")
 t("%s, the injured seer", "%s, le devin blessé", "_t")
 t("She looks tired and wounded.", "Elle a l'air blessé et fatigué.", "_t")
 t("%s, the repented thief", "%s, le voleur repenti", "_t")
@@ -40750,14 +40730,14 @@ t([[Oh but you are ... are you ?! ME?!
 		So I was right, this is not my original time-thread!
 		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh, mais c'est vous… êtes vous ?! MOI ?!
 	J'avais donc raison, ce n'est pas mon fil temporel d'origine !
-	Aidez-moi, je vous en prie ! J'ai peur de m'être perdue ici. Je sais qu'un ami a laissé un portail temporel dans les environs, mais j'ai livré trop de combats et je crains de ne pas y arriver. Pourriez-vous m'aider? Pourriez-vous vous aider… vous-même?]], "_t")
+	Aidez-moi, je vous en prie ! J'ai peur de m'être perdue ici. Je sais qu'un ami a laissé un portail temporel dans les environs, mais j'ai livré trop de combats et je crains de ne pas y arriver. Pourriez-vous m'aider ? Pourriez-vous vous aider… vous-même ?]], "_t")
 t("%s, temporal explorer", "%s, explorateur temporel", "_t")
 t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "Elle a l'air blessé et fatigué. Elle vous ressemble tellement et pourtant elle est complètement différente. Bizarre.", "_t")
 t("%s, the worried loremaster", "%s, le Chroniqueur soucieux", "_t")
 t("mental", "mentale", "save name")
 t("spell", "sort", "save name")
 t("physical", "physique", "save name")
-t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense:", "_t")
+t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense :", "_t")
 t("improved %s by +%d", "amélioré la %s de +%d", "tformat")
 t("[Improve %s by +%d]", "[Améliore %s par +%d]", "tformat")
 t("improved %s save by +%d", "amélioré la sauvegarde %s de +%d", "tformat")
@@ -40788,7 +40768,7 @@ t([[Oh but you are ... are you ?! ME?!
 So I was right, this is not my original time-thread!
 Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh mais vous êtes ... êtes-vous ?! MOI ?!
 Donc j'avais raison, ce n'est pas mon temps originel !
-S'il vous plaît, aidez-moi ! J'ai peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail temporel par ici, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider? Voulez-vous vous aider... vous-même?]], "_t")
+S'il vous plaît, aidez-moi ! J'ai peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail temporel par ici, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider ? Voulez-vous vous aider... vous-même ?]], "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/FortressPC.lua"
@@ -40796,7 +40776,7 @@ section "mod-tome/mod/class/FortressPC.lua"
 t("Yiilkgur, the Sher'Tul Fortress", "Yiilkgur, la Forteresse Sher'Tul", "_t")
 t("You are unable to move!", "Vous êtes incapable de bouger !", "logPlayer")
 t("You have found a trap (%s)!", "Vous avez découvert un piège (%s) !", "logPlayer")
-t("Do you wish to teleport to the fortress?", "Souhaitez-vous vous téléporter à la forteresse?", "_t")
+t("Do you wish to teleport to the fortress?", "Souhaitez-vous vous téléporter à la forteresse ?", "_t")
 t("The teleport fizzles!", "La téléportation foire !", "_t")
 
 ------------------------------------------------
@@ -40809,27 +40789,27 @@ t("Welcome to #LIGHT_BLUE#Tales of Maj'Eyal", "Bienvenu dans #LIGHT_BLUE#Tales o
 t([[%s the level %d %s %s.
 Difficulty: %s / %s
 Campaign: %s
-Exploring level %s of %s.]], [[%s (Niveau: %d), %s %s.
-Difficulté: %s / %s
-Campagne: %s
+Exploring level %s of %s.]], [[%s (Niveau : %d), %s %s.
+Difficulté : %s / %s
+Campagne : %s
 Explore le niveau %s de %s.]], "tformat")
 t("%s the %s %s", "%s, %s %s", "tformat")
 t([[%s the %s %s.
 Difficulty: %s / %s
 Campaign: %s]], [[%s, %s %s.
-Difficulté: %s / %s
-Campagne: %s]], "tformat")
+Difficulté : %s / %s
+Campagne : %s]], "tformat")
 t("#LIGHT_RED#You may not change level so soon after a kill (%d game turns left to wait)!", "#LIGHT_RED#Vous ne pouvez pas changer de niveau si tôt après avoir tué (%d tours restants à attendre) !", "logPlayer")
 t("#LIGHT_RED#You may not change level without your own body!", "#LIGHT_RED#Vous ne pouvez pas changer de niveau avant d'avoir récupérer votre propre corps !", "logPlayer")
 t("#LIGHT_RED#You may not leave the zone with this character!", "#LIGHT_RED#Vous ne pouvez pas quitter la zone avec ce personnage !", "logPlayer")
 t("#LIGHT_RED#You cannot escape your fate by leaving the level!", "#LIGHT_RED#Vous ne pouvez pas éviter votre destinée en quittant ce niveau !", "logPlayer")
-t("Stay: level %s of %s", "Rester: niveau %s de %s", "tformat")
-t("Keep Trying: level %s of %s", "Continuer d'essayer: niveau %s de %s", "tformat")
-t("Log the problem, Stay: level %s of %s", "Consigner le problème, Rester: niveau %s de %s", "tformat")
+t("Stay: level %s of %s", "Rester : niveau %s de %s", "tformat")
+t("Keep Trying: level %s of %s", "Continuer d'essayer : niveau %s de %s", "tformat")
+t("Log the problem, Stay: level %s of %s", "Consigner le problème, Rester : niveau %s de %s", "tformat")
 t("Debug the problem (move to the failed zone/level)", "Deboguer le problème (bouger vers la zone/le niveau en échec)", "_t")
 t("Information logged", "Information enregistrée", "_t")
 t("Information on the failed zone and level dumped to the log file.", "Les informations sur la zone/le niveau qui a planté ont été enregistrées dans le fichier de log.", "_t")
-t("The game could not generate level %s of %s after %s attempts. What do you want to do?", "Le jeu ne peux pas générer le niveau %s de %s après %s tentatives. Que voulez-vous faire?", "tformat")
+t("The game could not generate level %s of %s after %s attempts. What do you want to do?", "Le jeu ne peux pas générer le niveau %s de %s après %s tentatives. Que voulez-vous faire ?", "tformat")
 t("Level Generation Failure", "Échec de la génération du niveau", "_t")
 t("Loading level", "Chargement du niveau", "_t")
 t("Please wait while loading the level...", "Veuillez patienter pendant le chargement du niveau s'il vous plait...", "_t")
@@ -40860,19 +40840,19 @@ t("Showing no tactical information.", "N'afficher aucune information tactique.",
 t("Showing small healthbars and tactical borders.", "Afficher de petites barres de vie et des bordures tactiques.", "log")
 t("You cannot do that on the world map.", "Vous ne pouvez pas faire cela sur la carte du monde.", "logPlayer")
 t("Imperium courrier", "Courrier de l'Imperium", "_t")
-t("Run in which direction?", "Courir dans quelle direction?", "log")
+t("Run in which direction?", "Courir dans quelle direction ?", "log")
 t("You may not auto-explore this level.", "Vous ne pouvez pas auto-explorer ce niveau.", "log")
 t("You may not auto-explore with enemies in sight (%s to the %s%s)!", "Vous ne pouvez pas auto-explorer avec des ennemis en vue (%s direction %s%s) !", "log")
 t("There is nowhere left to explore.", "Il n'y a plus rien à explorer.", "log")
 t("Hotkey page %d is now displayed.", "La page de raccourci %d est maintenant affichée.", "log")
 t("You cannot currently leave the level.", "Vous ne pouvez actuellement pas quitter ce niveau.", "log")
-t("You cannot go into the wilds with the following effects: %s", "Vous ne pouvez pas aller dans la nature avec les effets suivants: %s", "log")
+t("You cannot go into the wilds with the following effects: %s", "Vous ne pouvez pas aller dans la nature avec les effets suivants : %s", "log")
 t("There is no way out of this level here.", "Il n'y a pas de moyen de sortir de ce niveau.", "log")
 t("Inventory", "Inventaire", "_t")
-t("#GOLD#Automatic talent usage: %s", "#GOLD#Utilisation automatique des talents: %s", "log")
+t("#GOLD#Automatic talent usage: %s", "#GOLD#Utilisation automatique des talents : %s", "log")
 t("#LIGHT_GREEN#enabled", "#LIGHT_GREEN#activé", "_t")
 t("#LIGHT_RED#disabled", "#LIGHT_RED#désactivé", "_t")
-t("#GOLD#Automatic accept target mode: %s", "#GOLD#Mode d'acceptation automatique des cibles: %s", "log")
+t("#GOLD#Automatic accept target mode: %s", "#GOLD#Mode d'acceptation automatique des cibles : %s", "log")
 t("Message Log", "Journal des messages", "_t")
 t("Displaying creatures.", "Affichage des créatures.", "log")
 t("Displaying talents.", "Affichage des talents.", "log")
@@ -40885,15 +40865,15 @@ t("Show ingredients", "Afficher les ingrédients", "_t")
 t("Character Sheet", "Fiche de personnage", "_t")
 t("Game Options", "Options de jeu", "_t")
 t("Looking around... (direction keys to select interesting things, shift+direction keys to move freely)", "Observation des environs... (touches directionnelles pour sélectionner des éléments intéressants, shift+touches directionnelles pour se déplacer librement)", "log")
-t("Movement Mode: #LIGHT_GREEN#Default#LAST#.", "Mode de déplacement: #LIGHT_GREEN#Par défaut#LAST#.", "log")
-t("Movement Mode: #LIGHT_RED#Passive#LAST#.", "Mode de déplacement: #LIGHT_RED#Passif#LAST#.", "log")
-t("#GOLD#CHEAT MOVE ACTOR %s: ctrl+shift+alt+right click on an empty map spot to move it", "#GOLD#TRICHE DÉPLACEMENT D'ACTEUR %s: Ctrl+Maj+Alt+clic droit sur une case libre de la carte pour le déplacer", "log")
+t("Movement Mode: #LIGHT_GREEN#Default#LAST#.", "Mode de déplacement : #LIGHT_GREEN#Par défaut#LAST#.", "log")
+t("Movement Mode: #LIGHT_RED#Passive#LAST#.", "Mode de déplacement : #LIGHT_RED#Passif#LAST#.", "log")
+t("#GOLD#CHEAT MOVE ACTOR %s: ctrl+shift+alt+right click on an empty map spot to move it", "#GOLD#TRICHE DÉPLACEMENT D'ACTEUR %s : Ctrl+Maj+Alt+clic droit sur une case libre de la carte pour le déplacer", "log")
 t("quitting", "quitter", "_t")
-t("Save and go back to main menu?", "Sauvegarder et retourner au menu principal?", "_t")
-t("Save and exit game?", "Sauvegarder et quitter le jeu?", "_t")
+t("Save and go back to main menu?", "Sauvegarder et retourner au menu principal ?", "_t")
+t("Save and exit game?", "Sauvegarder et quitter le jeu ?", "_t")
 t("saving", "sauvegarde", "_t")
 t("Saving game...", "Sauvegarde du jeu...", "log")
-t("#ANTIQUE_WHITE#Splash screen unlocked: #GOLD#%s", "#ANTIQUE_WHITE#Écran d'accueil débloqué: #GOLD#%s", "log")
+t("#ANTIQUE_WHITE#Splash screen unlocked: #GOLD#%s", "#ANTIQUE_WHITE#Écran d'accueil débloqué : #GOLD#%s", "log")
 -- texte non traduit
 --[==[
 t("#TEAL#%s", "#TEAL#%s", "log")
@@ -40929,22 +40909,22 @@ t("laminated", "feuilleté", "_t")
 t("%s the %s", "%s le %s", "tformat")
 t("Ambush!", "Embuscade !", "_t")
 t("You have been ambushed!", "Vous êtes tombé dans une embuscade !", "_t")
-t("Infinite Dungeon Challenge (Level %s): %s", "Défi du donjon infini (Niveau %s): %s", "tformat")
+t("Infinite Dungeon Challenge (Level %s): %s", "Défi du donjon infini (Niveau %s) : %s", "tformat")
 t("Pacifist", "Pacifiste", "_t")
 t("Leave the level (to the next level) without killing a single creature. You will get #{italic}#two#{normal}# rewards.", "Quittez le niveau (au niveau suivant) sans tuer une seule créature. Vous recevrez #{italic}#deux#{normal}# Récompenses.", "_t")
 t("Exterminator", "Extermination", "_t")
 t("Exterminate every foe on the level.", "Exterminez tous les ennemis du niveau.", "_t")
-t("Foes left: #LIGHT_RED#%s", "Ennemis restant: #LIGHT_RED#%s", "tformat")
+t("Foes left: #LIGHT_RED#%s", "Ennemis restant : #LIGHT_RED#%s", "tformat")
 t([[#LIGHT_RED#EXTERMINATE THIS FOE#LAST#
 %s]], [[#LIGHT_RED#EXTERMINEZ CET ENNEMIS#LAST#
 %s]], "tformat")
 t("Rush Hour (%d)", "Course contre la montre (%d)", "tformat")
 t("Proceed directly to the next Infinite Dungeon level in less than %d turns (an exit is revealed on your map).", "Passez directement au prochain niveau du Donjon Infini en moins de %d tours (une sortie est révélée sur votre carte).", "tformat")
-t("Turns left: #LIGHT_GREEN#%d", "Tours restant: #LIGHT_GREEN#%d", "tformat")
+t("Turns left: #LIGHT_GREEN#%d", "Tours restant : #LIGHT_GREEN#%d", "tformat")
 t("\
 #ORCHID# Rush Hour: %s turns left!\
 ", "\
-#ORCHID# Course contre la montre: %s tours restant !\
+#ORCHID# Course contre la montre : %s tours restant !\
 ", "log")
 t("Proceed to the next Infinite Dungeon level! An exit has been marked on your map.", "Passez au prochain niveau du Donjon Infini ! Une sortie a été marquée sur votre carte.", "_t")
 t("Dream Hunter", "Chasseur de rêve", "_t")
@@ -40955,30 +40935,30 @@ t("An evil twin of %s%s", "Un double maléfique de %s%s", "tformat")
 t("Mirror Challenge of %s", "Le défie du miroir de %s", "tformat")
 t("but nobody knew why they suddenly became evil", "mais personne ne savait pourquoi ils étaient soudainement devenus maléfiques", "_t")
 t("#ORCHID#%s does not recognize you.", "#ORCHID#%s ne vous reconnaît pas.", "logPlayer")
-t("Challenge: #PURPLE#Mirror Match", "Défi: #PURPLE#Match Miroir", "_t")
+t("Challenge: #PURPLE#Mirror Match", "Défi : #PURPLE#Match Miroir", "_t")
 t("Challenge your mirror clone and triumph!", "Défiez votre clone et triomphez !", "_t")
 t("#CRIMSON#The Fight Is Joined!", "#CRIMSON#Le combat commence !", "say")
 t("Refuse", "Refuser", "_t")
 t("Accept", "Accepter", "_t")
-t("Challenge: #PURPLE#Near Sighted", "Défi: #PURPLE#Vue diminué", "_t")
+t("Challenge: #PURPLE#Near Sighted", "Défi : #PURPLE#Vue diminué", "_t")
 t("Proceed to the next Infinite Dungeon level with -7 sight range for a reward.", "Passez au prochain niveau du Donjon Infini avec une portée de vue de -7 pour une récompense.", "_t")
 t("Near Sighted", "Vue diminué", "_t")
 t("Proceed to the next Infinite Dungeon level with -7 sight range.", "Passez au prochain niveau du donjon infini avec une portée de vue -7.", "_t")
-t("Challenge: #PURPLE#Multiplicity", "Défi: #PURPLE#Multiplicité", "_t")
+t("Challenge: #PURPLE#Multiplicity", "Défi : #PURPLE#Multiplicité", "_t")
 t("All foes (including bosses) gain the ability to multiply up to 3 times.  You must survive for at least %d turns before exiting.", "Tous les ennemis (y compris les boss) ont la possibilité de se multiplier jusqu'à 3 fois. Vous devez survivre pendant au moins %d tours avant de quitter le niveau.", "tformat")
 t("Multiplicity", "Multiplicité", "_t")
 t("All foes have the multiply talent!", "Tous les ennemis ont le talent multiple !", "_t")
-t("#LIGHT_GREEN#Multiplicity: You have survived so far. Exit for your reward!", "#LIGHT_GREEN#Multiplicité: vous avez survécu jusqu'à présent. Quittez le niveau pour recevoir votre récompense !", "say")
+t("#LIGHT_GREEN#Multiplicity: You have survived so far. Exit for your reward!", "#LIGHT_GREEN#Multiplicité : vous avez survécu jusqu'à présent. Quittez le niveau pour recevoir votre récompense !", "say")
 t("Survive the multiplicative madness!", "Survivez à la folie multiplicative !", "_t")
 t("#rng# the Spawn of Urh'Rok", "#rng# le Rejeton d'Urh'Rok", "_t")
-t("Challenge: #PURPLE#Headhunter", "Défi: #PURPLE#Chasseur de têtes", "_t")
+t("Challenge: #PURPLE#Headhunter", "Défi : #PURPLE#Chasseur de têtes", "_t")
 t("Kill %d spawns of Urh'Rok on the level before killing any other elite (or higher rank) creatures, for an uncommon reward.", "Tuez %d rejetons d'Urh'Rok avant de tuer une quelconque créature d'élite (ou de rang supérieur), pour une récompense inhabituelle.", "tformat")
 t("Headhunter", "Chasseur de têtes", "_t")
 t("Kill %d spawns of Urh'Rok on the level before killing any elite creatures.", "Tuez %d des engeances d'Urh'Rok dans le niveau avant de tuer des créatures d'élite.", "tformat")
 t("%d / %d demon spawn killed.", "%d / %d engeance de démon tués.", "tformat")
 t("#ORCHID#You claim the head of %s, giving pause to all foes on the level.", "#ORCHID#Vous revendiquez la tête de %s, donnant une pause à tous les ennemis du niveau.", "say")
 t("Random Artifact", "Artefact Aléatoire", "_t")
-t("Random Artifact: %s", "Artefact Aléatoire: %s", "tformat")
+t("Random Artifact: %s", "Artefact Aléatoire : %s", "tformat")
 t("+3 Stat Points", "+3 Points de Statistiques", "_t")
 t("+1 Class Point", "+1 Point de Classe", "_t")
 t("+1 Generic Point", "+1 Point Générique", "_t")
@@ -40987,8 +40967,8 @@ t("+1 Prodigy Point", "+1 Point de Prodige", "_t")
 t(" and ", " et ", "_t")
 t("Rewards", "Récompenses", "_t")
 t("Reward", "Récompense", "_t")
-t("#LIGHT_BLUE#%s has received: %s.", "#LIGHT_BLUE#%s a reçu: %s.", "log")
-t("You have unlocked a new talent: %s!", "Vous avez débloqué un nouveau talent: %s !", "tformat")
+t("#LIGHT_BLUE#%s has received: %s.", "#LIGHT_BLUE#%s a reçu : %s.", "log")
+t("You have unlocked a new talent: %s!", "Vous avez débloqué un nouveau talent : %s !", "tformat")
 -- texte non traduit
 --[==[
 t("%s '%s'", "%s '%s'", "tformat")
@@ -41006,9 +40986,9 @@ t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
 t("spot", "location", "_t")
 t("%s's %s", "%s de %s", "tformat", {2,1})
-t(" (range: ", " (portée: ", "_t")
-t("Min.level: ", "Niv.Min: ", "_t")
-t("Max.level: ", "Niv.max: ", "_t")
+t(" (range: ", " (portée : ", "_t")
+t("Min.level: ", "Niv.Min : ", "_t")
+t("Max.level: ", "Niv.max : ", "_t")
 t("Never visited yet", "Pas encore visité", "_t")
 t("In sight", "En vue", "_t")
 t("Lit", "Eclairé", "_t")
@@ -41039,7 +41019,7 @@ section "mod-tome/mod/class/NPC.lua"
 t("#PINK#Your summoned %s disappears.", "#PINK#Votre invocation (%s) disparaît.", "logPlayer")
 t("her", "elle", "_t")
 t("him", "lui", "_t")
-t("Killed by you: %s", "Tué par vous: %s", "tformat")
+t("Killed by you: %s", "Tué par vous : %s", "tformat")
 t("Target: ", "Cible : ", "_t")
 t("none", "aucun", "_t")
 t(" looking %s", "  regarde dans la direction de %s", "tformat")
@@ -41089,50 +41069,50 @@ t(" (%d/%d cooldown)", " (%d/%d en rechargement)", "tformat")
 t(" (%d cooldown)", " (%d rechargement)", "tformat")
 t("object", "objet", "_t")
 t("%s, %sspecial#LAST#", "%s, %sspécial#LAST#", "tformat")
-t("Accuracy bonus: ", "Bonus de précision: ", "_t")
+t("Accuracy bonus: ", "Bonus de précision : ", "_t")
 t(" crit chance (max 25%)", " chance de crit (max 25%)", "_t")
 t(" base dam (max 20%)", " dégâts de base (max 20%)", "_t")
 t(" proc dam (max 200%)", " dégâts bonus (max 200%)", "_t")
 t(" APR (max 50%)", " PEN (max 50%)", "_t")
-t("Power: %3d%% (%s)  Range: %.1fx (%s)", "Puissance: %3d%% (%s)  Portée: %.1fx (%s)", "tformat")
-t("Power: %3d%%  Range: %.1fx", "Puissance: %3d%%  Portée: %.1fx", "tformat")
-t("Base power: %.1f - %.1f", "Puissance de base: %.1f - %.1f", "tformat")
-t("Uses %s: %s", "Utilise %s: %s", "tformat")
-t("Damage type: ", "Type de dégâts: ", "_t")
-t("Mastery: ", "Maîtrise: ", "_t")
+t("Power: %3d%% (%s)  Range: %.1fx (%s)", "Puissance : %3d%% (%s)  Portée : %.1fx (%s)", "tformat")
+t("Power: %3d%%  Range: %.1fx", "Puissance : %3d%%  Portée : %.1fx", "tformat")
+t("Base power: %.1f - %.1f", "Puissance de base : %.1f - %.1f", "tformat")
+t("Uses %s: %s", "Utilise %s : %s", "tformat")
+t("Damage type: ", "Type de dégâts : ", "_t")
+t("Mastery: ", "Maîtrise : ", "_t")
 t("Accuracy is based on willpower for this weapon.", "Précision de l'arme basée sur la Volonté.", "_t")
-t("Accuracy: ", "Précision: ", "_t")
-t("Armour Penetration: ", "Péné d'Armure: ", "_t")
-t("Crit. chance: ", "Chance de crit: ", "_t")
-t("Crit. power: ", "Puiss Crit: ", "_t")
-t("Attack speed: ", "Vitesse d'attaque: ", "_t")
-t("Block value: ", "Valeur de blocage: ", "_t")
-t("Dam. multiplier: ", "Mult de dégâts: ", "_t")
-t("Firing range: ", "Portée de tir: ", "_t")
-t("Capacity: ", "Capacité: ", "_t")
-t("Reload speed: ", "Temps de rechargement: ", "_t")
-t("Turns elapse between self-loadings: ", "Les tours s'écoulent entre les rechargements manuels: ", "_t")
-t("When this weapon hits: %s (%d%% chance level %d).", "Quand cette arme touche: %s (%d%% chance niveau %d).", "tformat")
-t("When this weapon crits: %s (%d%% chance level %d).", "Quand cette arme crit: %s (%d%% chance niveau %d).", "tformat")
-t("#YELLOW#On weapon hit:#LAST#", "#YELLOW#Quand l'arme touche:#LAST#", "_t")
-t("#YELLOW#On weapon crit:#LAST#", "#YELLOW#Quand l'arme crit:#LAST#", "_t")
-t("#YELLOW#On weapon kill:#LAST#", "#YELLOW#Quand l'arme tue:#LAST#", "_t")
+t("Accuracy: ", "Précision : ", "_t")
+t("Armour Penetration: ", "Péné d'Armure : ", "_t")
+t("Crit. chance: ", "Chance de crit : ", "_t")
+t("Crit. power: ", "Puiss Crit : ", "_t")
+t("Attack speed: ", "Vitesse d'attaque : ", "_t")
+t("Block value: ", "Valeur de blocage : ", "_t")
+t("Dam. multiplier: ", "Mult de dégâts : ", "_t")
+t("Firing range: ", "Portée de tir : ", "_t")
+t("Capacity: ", "Capacité : ", "_t")
+t("Reload speed: ", "Temps de rechargement : ", "_t")
+t("Turns elapse between self-loadings: ", "Les tours s'écoulent entre les rechargements manuels : ", "_t")
+t("When this weapon hits: %s (%d%% chance level %d).", "Quand cette arme touche : %s (%d%% chance niveau %d).", "tformat")
+t("When this weapon crits: %s (%d%% chance level %d).", "Quand cette arme crit : %s (%d%% chance niveau %d).", "tformat")
+t("#YELLOW#On weapon hit:#LAST#", "#YELLOW#Quand l'arme touche :#LAST#", "_t")
+t("#YELLOW#On weapon crit:#LAST#", "#YELLOW#Quand l'arme crit :#LAST#", "_t")
+t("#YELLOW#On weapon kill:#LAST#", "#YELLOW#Quand l'arme tue :#LAST#", "_t")
 t("When used from stealth a simple attack with it will not break stealth.", "Quand utilisée depuis le mode furtif, une simple attaque ne brisera pas la furtivité.", "_t")
-t("Crushing Blows: ", "Coup Dévastateur: ", "_t")
+t("Crushing Blows: ", "Coup Dévastateur : ", "_t")
 t("Damage dealt by this weapon is increased by half your critical multiplier, if doing so would kill the target.", "Les dégâts infligés par cette arme sont augmentés de la moitié de votre multiplicateur critique dans le cas où cela tue la cible.", "_t")
-t("Travel speed: ", "Vitesse de Mouvement: ", "_t")
-t("Damage Shield penetration (this weapon only): ", "Péné de bouclier protecteur (seulement cette arme): ", "_t")
-t("Lifesteal (this weapon only): ", "Vol de vie (cette arme uniquement): ", "_t")
-t("Multiple attacks: ", "Attaques multiples: ", "_t")
-t("Multiple attacks procs power reduction: ", "Réduction de la puissance des bonus d'attaques multiples: ", "_t")
+t("Travel speed: ", "Vitesse de Mouvement : ", "_t")
+t("Damage Shield penetration (this weapon only): ", "Péné de bouclier protecteur (seulement cette arme) : ", "_t")
+t("Lifesteal (this weapon only): ", "Vol de vie (cette arme uniquement) : ", "_t")
+t("Multiple attacks: ", "Attaques multiples : ", "_t")
+t("Multiple attacks procs power reduction: ", "Réduction de la puissance des bonus d'attaques multiples : ", "_t")
 t("Shots beam through all targets.", "Les tirs traversent toutes les cibles", "_t")
-t("Damage (Melee): ", "Dégâts (Mélée): ", "_t")
-t("Damage (Ranged): ", "Dégâts (Distance): ", "_t")
-t("Damage (radius 1) on hit: ", "Dégâts (rayon 1) sur une touche: ", "_t")
-t("Damage (radius 2) on crit: ", "Dégâts (rayon 2) sur une touche: ", "_t")
-t("Damage conversion: ", "Conversion des dégâts: ", "_t")
-t("Damage against: ", "Dégâts contre: ", "_t")
-t("#ORANGE#Attacks use: #LAST#", "#ORANGE#Attaque utilisé: #LAST#", "_t")
+t("Damage (Melee): ", "Dégâts (Mélée) : ", "_t")
+t("Damage (Ranged): ", "Dégâts (Distance) : ", "_t")
+t("Damage (radius 1) on hit: ", "Dégâts (rayon 1) sur une touche : ", "_t")
+t("Damage (radius 2) on crit: ", "Dégâts (rayon 2) sur une touche : ", "_t")
+t("Damage conversion: ", "Conversion des dégâts : ", "_t")
+t("Damage against: ", "Dégâts contre : ", "_t")
+t("#ORANGE#Attacks use: #LAST#", "#ORANGE#Attaque utilisé : #LAST#", "_t")
 t("[Plot Item]", "[Objet de quête]", "_t")
 t("[Cosmetic Item]", "[Objet cosmétique]", "_t")
 t("[Legendary]", "[Légendaire]", "_t")
@@ -41142,7 +41122,7 @@ t("unknown", "inconnu", "_t")
 t(" ; tier ", " ; palier ", "_t")
 t("It must be held with both hands.", "Doit être tenu à deux mains", "_t")
 t("It can be used as a weapon and offhand.", "Peut être utilisé comme une arme principale ou secondaire", "_t")
-t("Weapon Damage: ", "Dégâts d'Arme: ", "_t")
+t("Weapon Damage: ", "Dégâts d'Arme : ", "_t")
 t("#YELLOW#It can cause special effects when it strikes in combat.#LAST#", "#YELLOW#Peut provoquer des effets spéciaux lors d'une frappe en combat.#LAST#", "_t")
 t("#ORCHID#It can cause special effects when a melee attack is blocked.#LAST#", "#ORCHID#Peut provoquer des effets spéciaux lorsqu'une attaque de mêlée est bloquée.#LAST#", "_t")
 t("It %s ambient light (%+d radius).", "%s de lumière ambiante (%+d rayon).", "tformat")
@@ -41151,173 +41131,173 @@ t("dims", "assombrissement", "_t")
 t("#ORANGE#It has an activatable power.#LAST#", "#ORANGE#A un pouvoir activable.#LAST#", "_t")
 t("It is part of a set of items.", "Fait partie d'un ensemble d'objets.", "_t")
 t("The set is complete.", "L'ensemble est complet.", "_t")
-t("Armour penetration: ", "Péné d'armure: ", "_t")
-t("Physical crit. chance: ", "Chance crit phys: ", "_t")
-t("Physical power: ", "Puissance physique: ", "_t")
-t("Armour: ", "Armure: ", "_t")
-t("Armour Hardiness: ", "Robustesse d'Armure: ", "_t")
-t("Defense: ", "Défense: ", "_t")
-t("Ranged Defense: ", "Défense à Distance: ", "_t")
-t("Ammo reloads per turn: ", "Munitions rechargées par tours: ", "_t")
-t("Effects on melee hit: ", "Effets sur les touches de mêlée: ", "_t")
-t("Effects on ranged hit: ", "Effets sur les touches à distance: ", "_t")
-t("Effects when hit in melee: ", "Effets quand touché en mêlée: ", "_t")
-t("Damage when hit (Melee): ", "Dégâts quand touché (Mêlée): ", "_t")
+t("Armour penetration: ", "Péné d'armure : ", "_t")
+t("Physical crit. chance: ", "Chance crit phys : ", "_t")
+t("Physical power: ", "Puissance physique : ", "_t")
+t("Armour: ", "Armure : ", "_t")
+t("Armour Hardiness: ", "Robustesse d'Armure : ", "_t")
+t("Defense: ", "Défense : ", "_t")
+t("Ranged Defense: ", "Défense à Distance : ", "_t")
+t("Ammo reloads per turn: ", "Munitions rechargées par tours : ", "_t")
+t("Effects on melee hit: ", "Effets sur les touches de mêlée : ", "_t")
+t("Effects on ranged hit: ", "Effets sur les touches à distance : ", "_t")
+t("Effects when hit in melee: ", "Effets quand touché en mêlée : ", "_t")
+t("Damage when hit (Melee): ", "Dégâts quand touché (Mêlée) : ", "_t")
 t("No left", "Main gauche vide", "log")
 t("No right", "Main droite vide", "log")
-t("#YELLOW#On shield block:#LAST#", "#YELLOW#Sur blocage au bouclier:#LAST#", "_t")
-t("Changes stats: ", "Stats: ", "_t")
-t("Changes resistances: ", "Résistances: ", "_t")
+t("#YELLOW#On shield block:#LAST#", "#YELLOW#Sur blocage au bouclier :#LAST#", "_t")
+t("Changes stats: ", "Stats : ", "_t")
+t("Changes resistances: ", "Résistances : ", "_t")
 t("all", "tous", "_t")
-t("Changes resistances cap: ", "Caps de rés: ", "_t")
-t("Reduce damage by fixed amount: ", "Réduc de dégâts par montant fixe: ", "_t")
-t("Maximum wards: ", "Protections max: ", "_t")
-t("Changes resistances penetration: ", "Pén des rés: ", "_t")
-t("Changes damage: ", "Dégâts: ", "_t")
-t("Reduced damage from: ", "Réduc de dégâts: ", "_t")
-t("Talent category bonus: ", "Talent de catégorie bonus: ", "_t")
-t("Damage affinity(heal): ", "Affinité de dégât(soin): ", "_t")
+t("Changes resistances cap: ", "Caps de rés : ", "_t")
+t("Reduce damage by fixed amount: ", "Réduc de dégâts par montant fixe : ", "_t")
+t("Maximum wards: ", "Protections max : ", "_t")
+t("Changes resistances penetration: ", "Pén des rés : ", "_t")
+t("Changes damage: ", "Dégâts : ", "_t")
+t("Reduced damage from: ", "Réduc de dégâts : ", "_t")
+t("Talent category bonus: ", "Talent de catégorie bonus : ", "_t")
+t("Damage affinity(heal): ", "Affinité de dégât(soin) : ", "_t")
 t("Change telepathy range by : ", "Portée de télépathie par : ", "_t")
 t("All", "Tout", "_t")
-t("Grants telepathy: ", "Octroie la télépathie: ", "_t")
+t("Grants telepathy: ", "Octroie la télépathie : ", "_t")
 t("masteries", "maîtrises", "_t")
 t("mastery", "maîtrise", "_t")
-t("%s cooldown:", "%s rechargement:", "tformat")
+t("%s cooldown:", "%s rechargement :", "tformat")
 t("turns", "tours", "_t")
 t("turn", "tour", "_t")
-t("%s granted: ", "%s octroyé: ", "tformat")
-t("Allows you to breathe in: ", "Vous permet de respirer: ", "_t")
-t("Critical mult.: ", "Crit mult: ", "_t")
-t("Reduces incoming crit damage: ", "Réduc de dégâts critiques reçu: ", "_t")
-t("Reduces opponents crit chance: ", "Réduc de chances de critique adverses: ", "_t")
-t("Trap disarming bonus: ", "Bonus de désarmement des pièges: ", "_t")
-t("Stealth bonus: ", "Bonus de furtivité: ", "_t")
-t("Maximum encumbrance: ", "Encombrement maximum: ", "_t")
-t("Physical save: ", "Sauvegarde physique: ", "_t")
-t("Spell save: ", "Sauvegarde des sorts: ", "_t")
-t("Mental save: ", "Sauvegarde mentale: ", "_t")
-t("Blindness immunity: ", "Immunité à l'Aveuglement: ", "_t")
-t("Poison immunity: ", "Immunité au Poison: ", "_t")
-t("Disease immunity: ", "Immunité aux Maladies: ", "_t")
-t("Cut immunity: ", "Immunité à la Lacération: ", "_t")
-t("Silence immunity: ", "Immunité au Silence: ", "_t")
-t("Disarm immunity: ", "Immunité au Désarmement: ", "_t")
-t("Confusion immunity: ", "Immunité à la Confusion: ", "_t")
-t("Sleep immunity: ", "Immunité au Sommeil: ", "_t")
-t("Pinning immunity: ", "Immunité à l'Immobilisation: ", "_t")
-t("Stun/Freeze immunity: ", "Immunité au Gel/Etourd: ", "_t")
-t("Fear immunity: ", "Immunité à la Peur: ", "_t")
-t("Knockback immunity: ", "Immunité au Recul: ", "_t")
-t("Instant-death immunity: ", "Immunité à la Mort: ", "_t")
-t("Teleport immunity: ", "Immunité à la Téléportation: ", "_t")
-t("Life regen: ", "Régen de vie: ", "_t")
-t("Stamina each turn: ", "Endurance par tour: ", "_t")
-t("Mana each turn: ", "Mana par tour: ", "_t")
-t("Hate each turn: ", "Haine par tour: ", "_t")
-t("Psi each turn: ", "Psi par tour: ", "_t")
-t("Equilibrium each turn: ", "Equilibre par tour: ", "_t")
-t("Vim each turn: ", "Vitae par tour: ", "_t")
-t("P.Energy each turn: ", "P.Energie par tour: ", "_t")
-t("N.Energy each turn: ", "N.Energie par tour: ", "_t")
-t("Stamina when hit: ", "Endurance quand touché: ", "_t")
-t("Mana when hit: ", "Mana quand touché: ", "_t")
-t("Equilibrium when hit: ", "Equilibre quand touché: ", "_t")
-t("Psi when hit: ", "Psi quand touché: ", "_t")
-t("Hate when hit: ", "Haine quand touché: ", "_t")
-t("Vim when hit: ", "Vitae quand touché: ", "_t")
-t("Vim when hitting in melee: ", "Vitae lors d'une touche en mélée: ", "_t")
-t("Mana when firing critical spell: ", "Mana sur un coup critique magique: ", "_t")
-t("Vim when firing critical spell: ", "Vitae sur un coup critique magique: ", "_t")
-t("Spellpower on spell critical (stacks up to 3 times): ", "Puissance des sorts sur un critique magique (cumulable jusqu'a 3 fois): ", "_t")
-t("Hate when firing a critical mind attack: ", "Haine sur un critique mental: ", "_t")
-t("Psi when firing a critical mind attack: ", "Psi sur un critique mental: ", "_t")
-t("Equilibrium when firing a critical mind attack: ", "Équilibre sur un critique mental: ", "_t")
-t("Hate per kill: ", "Haine par monstre tué: ", "_t")
-t("Psi per kill: ", "Psi par monstre tué: ", "_t")
-t("Vim per kill: ", "Vitae par monstre tué: ", "_t")
+t("%s granted: ", "%s octroyé : ", "tformat")
+t("Allows you to breathe in: ", "Vous permet de respirer : ", "_t")
+t("Critical mult.: ", "Crit mult : ", "_t")
+t("Reduces incoming crit damage: ", "Réduc de dégâts critiques reçu : ", "_t")
+t("Reduces opponents crit chance: ", "Réduc de chances de critique adverses : ", "_t")
+t("Trap disarming bonus: ", "Bonus de désarmement des pièges : ", "_t")
+t("Stealth bonus: ", "Bonus de furtivité : ", "_t")
+t("Maximum encumbrance: ", "Encombrement maximum : ", "_t")
+t("Physical save: ", "Sauvegarde physique : ", "_t")
+t("Spell save: ", "Sauvegarde des sorts : ", "_t")
+t("Mental save: ", "Sauvegarde mentale : ", "_t")
+t("Blindness immunity: ", "Immunité à l'Aveuglement : ", "_t")
+t("Poison immunity: ", "Immunité au Poison : ", "_t")
+t("Disease immunity: ", "Immunité aux Maladies : ", "_t")
+t("Cut immunity: ", "Immunité à la Lacération : ", "_t")
+t("Silence immunity: ", "Immunité au Silence : ", "_t")
+t("Disarm immunity: ", "Immunité au Désarmement : ", "_t")
+t("Confusion immunity: ", "Immunité à la Confusion : ", "_t")
+t("Sleep immunity: ", "Immunité au Sommeil : ", "_t")
+t("Pinning immunity: ", "Immunité à l'Immobilisation : ", "_t")
+t("Stun/Freeze immunity: ", "Immunité au Gel/Etourd : ", "_t")
+t("Fear immunity: ", "Immunité à la Peur : ", "_t")
+t("Knockback immunity: ", "Immunité au Recul : ", "_t")
+t("Instant-death immunity: ", "Immunité à la Mort : ", "_t")
+t("Teleport immunity: ", "Immunité à la Téléportation : ", "_t")
+t("Life regen: ", "Régen de vie : ", "_t")
+t("Stamina each turn: ", "Endurance par tour : ", "_t")
+t("Mana each turn: ", "Mana par tour : ", "_t")
+t("Hate each turn: ", "Haine par tour : ", "_t")
+t("Psi each turn: ", "Psi par tour : ", "_t")
+t("Equilibrium each turn: ", "Equilibre par tour : ", "_t")
+t("Vim each turn: ", "Vitae par tour : ", "_t")
+t("P.Energy each turn: ", "P.Energie par tour : ", "_t")
+t("N.Energy each turn: ", "N.Energie par tour : ", "_t")
+t("Stamina when hit: ", "Endurance quand touché : ", "_t")
+t("Mana when hit: ", "Mana quand touché : ", "_t")
+t("Equilibrium when hit: ", "Equilibre quand touché : ", "_t")
+t("Psi when hit: ", "Psi quand touché : ", "_t")
+t("Hate when hit: ", "Haine quand touché : ", "_t")
+t("Vim when hit: ", "Vitae quand touché : ", "_t")
+t("Vim when hitting in melee: ", "Vitae lors d'une touche en mélée : ", "_t")
+t("Mana when firing critical spell: ", "Mana sur un coup critique magique : ", "_t")
+t("Vim when firing critical spell: ", "Vitae sur un coup critique magique : ", "_t")
+t("Spellpower on spell critical (stacks up to 3 times): ", "Puissance des sorts sur un critique magique (cumulable jusqu'a 3 fois) : ", "_t")
+t("Hate when firing a critical mind attack: ", "Haine sur un critique mental : ", "_t")
+t("Psi when firing a critical mind attack: ", "Psi sur un critique mental : ", "_t")
+t("Equilibrium when firing a critical mind attack: ", "Équilibre sur un critique mental : ", "_t")
+t("Hate per kill: ", "Haine par monstre tué : ", "_t")
+t("Psi per kill: ", "Psi par monstre tué : ", "_t")
+t("Vim per kill: ", "Vitae par monstre tué : ", "_t")
 t("%+.2f life", "%+.2f vie", "_t")
-t("Only die when reaching: ", "Mourir uniquement lorsqu'on atteint: ", "_t")
-t("Maximum life: ", "Vie maximum: ", "_t")
-t("Maximum mana: ", "Mana maximum: ", "_t")
-t("Maximum souls: ", "Âmes maximum: ", "_t")
-t("Maximum stamina: ", "Endurance maximun: ", "_t")
-t("Maximum hate: ", "Haine maximum: ", "_t")
-t("Maximum psi: ", "Psi maximum: ", "_t")
-t("Maximum vim: ", "Vitae maximum: ", "_t")
-t("Maximum pos.energy: ", "Pos.energie maximum: ", "_t")
-t("Maximum neg.energy: ", "Neg.energie maximum: ", "_t")
-t("Maximum air capacity: ", "Capacité d'air maximale: ", "_t")
-t("Spellpower: ", "Puissance des sorts: ", "_t")
-t("Spell crit. chance: ", "Chance crit des sorts: ", "_t")
-t("Lowers spell cool-downs by: ", "Réduit les temps de récupération des sorts de: ", "_t")
-t("Mindpower: ", "Puissance mentale: ", "_t")
-t("Mental crit. chance: ", "Chance crit mental: ", "_t")
-t("Light radius: ", "Portée lumineuse: ", "_t")
-t("Infravision radius: ", "Portée d'infravision: ", "_t")
-t("Heightened senses radius: ", "Rayon des sens accrus: ", "_t")
-t("Sight radius: ", "Distance de vision: ", "_t")
-t("See stealth: ", "Voir la furtivité: ", "_t")
-t("See invisible: ", "Voir l'invisible: ", "_t")
-t("Invisibility: ", "Invisibilité: ", "_t")
-t("Global speed: ", "Vitesse globale: ", "_t")
-t("Movement speed: ", "Vitesse de déplacement: ", "_t")
-t("Combat speed: ", "Vitesse de combat: ", "_t")
-t("Casting speed: ", "Vitesse d'incantation: ", "_t")
-t("Mental speed: ", "Vitesse mental: ", "_t")
-t("Healing mod.: ", "Modif de soins: ", "_t")
-t("Heals friendly targets nearby when you use a nature summon: ", "Soigne les alliés proches lorsque vous utilisez une invocation de type nature: ", "_t")
-t("Life leech chance: ", "Chance de vol de vie: ", "_t")
-t("Life leech: ", "Vol de vie: ", "_t")
-t("Resource leech chance: ", "Chance de vol de ressource: ", "_t")
-t("Resource leech: ", "Vol de ressource: ", "_t")
-t("Damage Shield penetration: ", "Péné de bouclier protecteur: ", "_t")
-t("Deflect projectiles away: ", "Déviation des projectiles: ", "_t")
-t("Chance to avoid attacks: ", "Chance d'éviter les attaques: ", "_t")
-t("Chance to avoid any damage: ", "Chance d'éviter tout dégâts: ", "_t")
-t("Defense after a teleport: ", "Défense après une téléportation: ", "_t")
-t("Resist all after a teleport: ", "Résistance globale après une téléportation: ", "_t")
-t("New effects duration reduction after a teleport: ", "Réduction de la durée des nouveaux effets après téléportation: ", "_t")
-t("Damage Resonance (when hit): ", "Résonnance de dégâts (quand touché): ", "_t")
-t("Size category: ", "Catégorie de taille: ", "_t")
-t("Max wilder summons: ", "Max d'invocation des naturalistes: ", "_t")
-t("Life regen bonus (wilder-summons): ", "Regen de vie bonus (invocations de naturaliste): ", "_t")
-t("Damage Shield Duration: ", "Durée de bouclier protecteur: ", "_t")
-t("Damage Shield Power: ", "Puissance de bouclier protecteur: ", "_t")
-t("Ice block penetration: ", "Péné de bloc de glace: ", "_t")
-t("Slows Projectiles: ", "Ralentissement des projectiles: ", "_t")
-t("Bonus block near projectiles: ", "Bonus de blocage des projectiles proche: ", "_t")
-t("Reduces paradox anomalies(equivalent to willpower): ", "Réduc des anomalies de paradoxe(équivalent à la volonté): ", "_t")
-t("Damage Backlash: ", "Dégâts de Contrecoup: ", "_t")
-t("Reduce all damage from unseen attackers: ", "Réduc de dégâts causés par des monstres invisibles: ", "_t")
+t("Only die when reaching: ", "Mourir uniquement lorsqu'on atteint : ", "_t")
+t("Maximum life: ", "Vie maximum : ", "_t")
+t("Maximum mana: ", "Mana maximum : ", "_t")
+t("Maximum souls: ", "Âmes maximum : ", "_t")
+t("Maximum stamina: ", "Endurance maximun : ", "_t")
+t("Maximum hate: ", "Haine maximum : ", "_t")
+t("Maximum psi: ", "Psi maximum : ", "_t")
+t("Maximum vim: ", "Vitae maximum : ", "_t")
+t("Maximum pos.energy: ", "Pos.energie maximum : ", "_t")
+t("Maximum neg.energy: ", "Neg.energie maximum : ", "_t")
+t("Maximum air capacity: ", "Capacité d'air maximale : ", "_t")
+t("Spellpower: ", "Puissance des sorts : ", "_t")
+t("Spell crit. chance: ", "Chance crit des sorts : ", "_t")
+t("Lowers spell cool-downs by: ", "Réduit les temps de récupération des sorts de : ", "_t")
+t("Mindpower: ", "Puissance mentale : ", "_t")
+t("Mental crit. chance: ", "Chance crit mental : ", "_t")
+t("Light radius: ", "Portée lumineuse : ", "_t")
+t("Infravision radius: ", "Portée d'infravision : ", "_t")
+t("Heightened senses radius: ", "Rayon des sens accrus : ", "_t")
+t("Sight radius: ", "Distance de vision : ", "_t")
+t("See stealth: ", "Voir la furtivité : ", "_t")
+t("See invisible: ", "Voir l'invisible : ", "_t")
+t("Invisibility: ", "Invisibilité : ", "_t")
+t("Global speed: ", "Vitesse globale : ", "_t")
+t("Movement speed: ", "Vitesse de déplacement : ", "_t")
+t("Combat speed: ", "Vitesse de combat : ", "_t")
+t("Casting speed: ", "Vitesse d'incantation : ", "_t")
+t("Mental speed: ", "Vitesse mental : ", "_t")
+t("Healing mod.: ", "Modif de soins : ", "_t")
+t("Heals friendly targets nearby when you use a nature summon: ", "Soigne les alliés proches lorsque vous utilisez une invocation de type nature : ", "_t")
+t("Life leech chance: ", "Chance de vol de vie : ", "_t")
+t("Life leech: ", "Vol de vie : ", "_t")
+t("Resource leech chance: ", "Chance de vol de ressource : ", "_t")
+t("Resource leech: ", "Vol de ressource : ", "_t")
+t("Damage Shield penetration: ", "Péné de bouclier protecteur : ", "_t")
+t("Deflect projectiles away: ", "Déviation des projectiles : ", "_t")
+t("Chance to avoid attacks: ", "Chance d'éviter les attaques : ", "_t")
+t("Chance to avoid any damage: ", "Chance d'éviter tout dégâts : ", "_t")
+t("Defense after a teleport: ", "Défense après une téléportation : ", "_t")
+t("Resist all after a teleport: ", "Résistance globale après une téléportation : ", "_t")
+t("New effects duration reduction after a teleport: ", "Réduction de la durée des nouveaux effets après téléportation : ", "_t")
+t("Damage Resonance (when hit): ", "Résonnance de dégâts (quand touché) : ", "_t")
+t("Size category: ", "Catégorie de taille : ", "_t")
+t("Max wilder summons: ", "Max d'invocation des naturalistes : ", "_t")
+t("Life regen bonus (wilder-summons): ", "Regen de vie bonus (invocations de naturaliste) : ", "_t")
+t("Damage Shield Duration: ", "Durée de bouclier protecteur : ", "_t")
+t("Damage Shield Power: ", "Puissance de bouclier protecteur : ", "_t")
+t("Ice block penetration: ", "Péné de bloc de glace : ", "_t")
+t("Slows Projectiles: ", "Ralentissement des projectiles : ", "_t")
+t("Bonus block near projectiles: ", "Bonus de blocage des projectiles proche : ", "_t")
+t("Reduces paradox anomalies(equivalent to willpower): ", "Réduc des anomalies de paradoxe(équivalent à la volonté) : ", "_t")
+t("Damage Backlash: ", "Dégâts de Contrecoup : ", "_t")
+t("Reduce all damage from unseen attackers: ", "Réduc de dégâts causés par des monstres invisibles : ", "_t")
 t("The wearer is treated as an undead.", "Le porteur est considéré comme un mort-vivant.", "_t")
 t("The wearer is treated as a demon.", "Le porteur est considéré comme un démon.", "_t")
 t("The wearer is blinded.", "Le porteur est aveuglé.", "_t")
 t("The wearer is asleep.", "Le porteur est endormi.", "_t")
-t("Blind-Fight: ", "Combat en aveugle: ", "_t")
+t("Blind-Fight: ", "Combat en aveugle : ", "_t")
 t("This item allows the wearer to attack unseen targets without any penalties.", "Cet objet permet à celui qui le porte d'attaquer des cibles invisibles sans pénalité.", "_t")
-t("Lucid Dreamer: ", "Rêveur lucide: ", "_t")
+t("Lucid Dreamer: ", "Rêveur lucide : ", "_t")
 t("This item allows the wearer to act while sleeping.", "Cet objet permet au porteur d'agir durant son sommeil.", "_t")
 t("The wearer no longer has to breathe.", "Le porteur n'a plus à respirer.", "_t")
-t("Quick Weapon Swap:", "Changement d'arme rapide:", "_t")
+t("Quick Weapon Swap:", "Changement d'arme rapide :", "_t")
 t("This item allows the wearer to swap to their secondary weapon without spending a turn.", "Cet objet permet au porteur de passer à son arme secondaire sans passer son tour.", "_t")
-t("Avoid Pressure Traps: ", "Évitez les pièges à pression: ", "_t")
+t("Avoid Pressure Traps: ", "Évitez les pièges à pression : ", "_t")
 t("The wearer never triggers traps that require pressure.", "Le porteur ne déclenche jamais de pièges nécessitant une pression.", "_t")
 t("Allows you to speak and read the old Sher'Tul language.", "Vous permet de parler et de lire l'ancienne langue des Sher'Tul.", "_t")
-t("When used to modify unarmed attacks:", "Lorsque utilisé pour modifier les attaques à mains nue:", "_t")
+t("When used to modify unarmed attacks:", "Lorsque utilisé pour modifier les attaques à mains nue :", "_t")
 t("Learn an unarmed attack talent or enable 'Always show glove combat' to see combat stats.", "Apprenez un talent d'attaque à mains nues ou activez \"Toujours afficher le combat avec des gants\" pour voir les statistiques de combat.", "_t")
-t("When used to attack (with talents):", "Quand utilisé pour attaquer (avec un talent):", "_t")
+t("When used to attack (with talents):", "Quand utilisé pour attaquer (avec un talent) :", "_t")
 t("Learn shield attack talent or enable 'Always show shield combat' to see combat stats.", "Apprenez un talent d'attaque au bouclier ou activez la fonction \"Toujours montrer le combat au bouclier\" pour voir les statistiques de combat.", "_t")
 t("It is immune to teleportation, if you teleport it will fall on the ground.", "Il est immunisé contre la téléportation, si vous vous téléportez, il tombera au sol.", "_t")
-t("When wielded/worn:", "Quand manié/porté:", "_t")
-t("Skullcracker multiplicator: ", "Multiplicateur à Casse-Tête: ", "_t")
-t("When carried:", "Quand porté:", "_t")
+t("When wielded/worn:", "Quand manié/porté :", "_t")
+t("Skullcracker multiplicator: ", "Multiplicateur à Casse-Tête : ", "_t")
+t("When carried:", "Quand porté :", "_t")
 t("Attach on item of type '#ORANGE#%s / %s#LAST#'", "S'attache sur un objet de type '#ORANGE#%s / %s#LAST#'", "tformat")
 t("Attach on item of type '#ORANGE#%s#LAST#'", "S'attache sur un objet de type '#ORANGE#%s#LAST#'", "tformat")
 t("Attach on item worn on slot '#ORANGE#%s#LAST#'", "Attacher sur l'objet porté dans l'emplacement '#ORANGE#%s#LAST#'", "tformat")
-t("When attach to an other item:", "Quand attaché à un autre objet:", "_t")
-t("Special effect on block: ", "Effet spécial sur un blocage: ", "_t")
-t("When used to imbue an object:", "Quand utilisé pour imprégner un objet:", "_t")
-t("When used as an alchemist bomb:", "Quand utilisé comme une bombe alchimique:", "_t")
+t("When attach to an other item:", "Quand attaché à un autre objet :", "_t")
+t("Special effect on block: ", "Effet spécial sur un blocage : ", "_t")
+t("When used to imbue an object:", "Quand utilisé pour imprégner un objet :", "_t")
+t("When used as an alchemist bomb:", "Quand utilisé comme une bombe alchimique :", "_t")
 t("Bomb damage +%d%%", "Dégâts de bombe +%d%%", "tformat")
 t("Bomb thrown range +%d", "Portée du lancer de bombe +%d", "tformat")
 t("Mana regain %d", "Récupération du mana %d", "tformat")
@@ -41325,13 +41305,13 @@ t("%d%% chance to daze for %d turns", "%d%% chance d'étourdir pendant %d tours"
 t("%d%% chance to stun for %d turns", "%d%% chance d'assommer pendant %d tours", "tformat")
 t("Additional %d %s damage", "Dégâts %d %s supplémentaires", "tformat")
 t("Life regen %d%% of max life", "Régen de vie %d%% de la vie max", "tformat")
-t("Latent Damage Type: ", "Type de dégât latent: ", "_t")
-t("When inscribed on your body:", "Quand inscrit sur votre corps:", "_t")
-t("Talent level: %+d %s.", "Niveau de talent: %+d %s.", "tformat")
-t("Talent level: %s.", "Niveau de talent: %s.", "tformat")
-t("Talent on hit(spell): %s (%d%% chance level %d).", "Talent au toucher(sort): %s (%d%% chance niveau %d).", "tformat")
-t("Talent on hit(nature): %s (%d%% chance level %d).", "Talent au toucher(nature): %s (%d%% chance niveau %d).", "tformat")
-t("Talent on hit(mindpower): %s (%d%% chance level %d).", "Talent au toucher(mental): %s (%d%% chance niveau %d).", "tformat")
+t("Latent Damage Type: ", "Type de dégât latent : ", "_t")
+t("When inscribed on your body:", "Quand inscrit sur votre corps :", "_t")
+t("Talent level: %+d %s.", "Niveau de talent : %+d %s.", "tformat")
+t("Talent level: %s.", "Niveau de talent : %s.", "tformat")
+t("Talent on hit(spell): %s (%d%% chance level %d).", "Talent au toucher(sort) : %s (%d%% chance niveau %d).", "tformat")
+t("Talent on hit(nature): %s (%d%% chance level %d).", "Talent au toucher(nature) : %s (%d%% chance niveau %d).", "tformat")
+t("Talent on hit(mindpower): %s (%d%% chance level %d).", "Talent au toucher(mental) : %s (%d%% chance niveau %d).", "tformat")
 t("Activating this item is instant.", "L'activation de cet objet est instantanné", "_t")
 t("It can be used to %s, with %d charges out of %d.", "Peut être utilisé en %s, avec %d charges sur %d.", "tformat")
 t("all charms", "toutes les breloques", "_t")
@@ -41346,11 +41326,11 @@ Activation costs %d power out of %d/%d.]], [[Peut être utilisé pour %s
 
 L'activation coûte %d d'énergie sur %d/%d.]], "tformat")
 t("It can be used to %s.", "Peut être utilisé pour %s.", "tformat")
-t("Power cost: ", "Coût en énergie: ", "_t")
+t("Power cost: ", "Coût en énergie : ", "_t")
 t("%d out of %d/%d.", "%d sur %d/%d.", "tformat")
-t("It can be used to activate talent %s, placing all other charms into a %s cooldown :", "Peut être utilisé pour activer le talent %s, plaçant toutes les autres breloques en rechargement pour %s:", "tformat")
+t("It can be used to activate talent %s, placing all other charms into a %s cooldown :", "Peut être utilisé pour activer le talent %s, plaçant toutes les autres breloques en rechargement pour %s :", "tformat")
 t("It can be used to activate talent %s (costing %s power out of %s/%s) :", "Peut être utilisé pour activer le talent %s (coûtant %s d'énergie sur %s/%s) :", "tformat")
-t("When used:", "Quand utilisé:", "_t")
+t("When used:", "Quand utilisé :", "_t")
 t("%s%% chance to %s", "%s%% chance sur %s", "tformat")
 t("Newly picked up", "Récemment ramassé", "_t")
 t("This item will automatically be transmogrified when you leave the level.", "Cet objet sera automatiquement transmogrifié lorsque vous quitterez le niveau.", "_t")
@@ -41372,7 +41352,7 @@ t([[Infused by #YELLOW#psionic forces#LAST#
 t([[Powered by #CRIMSON#unknown forces#LAST#
 ]], [[Alimenté par #CRIMSON#une force inconnue#LAST#
 ]], "_t")
-t("%0.2f Encumbrance.", "Encombrement: %0.2f", "tformat")
+t("%0.2f Encumbrance.", "Encombrement : %0.2f", "tformat")
 t("This object's appearance was changed to %s", "L'apparence de cet objet a été modifiée en %s", "tformat")
 t("Press <control> to compare", "Appuyez sur <Ctrl> pour comparer", "_t")
 -- texte non traduit
@@ -41401,9 +41381,9 @@ t(".", ".", "_t")
 --]==]
 
 -- ancien texte traduit
-t("Physical crit chance: ", "Chance de crit physique: ", "_t")
-t("Spell crit chance: ", "Chance de crit des sorts: ", "_t")
-t("Mental crit chance: ", "Crit chance mental: ", "_t")
+t("Physical crit chance: ", "Chance de crit physique : ", "_t")
+t("Spell crit chance: ", "Chance de crit des sorts : ", "_t")
+t("Mental crit chance: ", "Crit chance mental : ", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Party.lua"
@@ -41413,13 +41393,13 @@ t("Can not switch control to this creature.", "Impossible de contrôler cette cr
 t("Switching control", "Prendre le contrôle", "_t")
 t("#MOCCASIN#Character control switched to %s.", "#MOCCASIN#Le contrôle du presonnage est passé à %s.", "logPlayer")
 t("Can not give orders to this creature.", "Impossible de donner des ordres à cette créature.", "logPlayer")
-t("Set action radius: %s", "Définir le rayon d'action: %s", "tformat")
+t("Set action radius: %s", "Définir le rayon d'action : %s", "tformat")
 t("Set the maximum distance this creature can go from the party master", "Définit la distance maximale que cette créature peut parcourir par rapport au chef du groupe", "_t")
 t("%s maximum action radius set to %d.", "Le rayon d'action maximal de %s est défini sur %d.", "logPlayer")
 t("that location", "cet endroit", "_t")
 t("%s will stay near %s.", "%s restera près de %s.", "logPlayer")
 t("%s targets #Target#.", "%s cibles #Target#.", "logCombat")
-t("Change name of: %s", "Changer le nom de: %s", "tformat")
+t("Change name of: %s", "Changer le nom de : %s", "tformat")
 t("Name", "Nom", "_t")
 t("%s is dismissed!", "%s est renvoyé !", "log")
 t("No, we must hurry!", "Non, il faut se dépêcher !", "_t")
@@ -41430,7 +41410,7 @@ t("still far away", "encore loin", "_t")
 t("The portal is %s, to the %s.", "Le portail est %s, %s.", "tformat")
 -- texte non traduit
 --[==[
-t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "#LIGHT_GREEN#Vous caressez votre chien! Il remue joyeusement sa queue d'avant en arrière dans le temps!", "log")
+t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "log")
 --]==]
 
 -- ancien texte traduit
@@ -41439,14 +41419,14 @@ t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in t
 ------------------------------------------------
 section "mod-tome/mod/class/PartyMember.lua"
 
-t("Behavior: %s", "Comportement: %s", "tformat")
+t("Behavior: %s", "Comportement : %s", "tformat")
 t("default", "défaut", "_t")
-t("Action radius: %d", "Rayon d'action: %d", "tformat")
+t("Action radius: %d", "Rayon d'action : %d", "tformat")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Player.lua"
 
-t("There is an item here: %s", "Il y a un objet ici: %s", "logSeen")
+t("There is an item here: %s", "Il y a un objet ici : %s", "logSeen")
 t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#Il y a %s ici (appuyez sur '<', '>' ou clic-droit pour l'utiliser).", "logPlayer")
 t("Level change (%s)!", "Changement de niveau (%s) !", "tformat")
 t("#FF0000#You carry too much--you are encumbered!", "#FF0000#Vous portez trop de choses -- Vous êtes encombré !", "logPlayer")
@@ -41462,7 +41442,7 @@ t("suffocating", "suffoque", "_t")
 t("chat started", "tchat ouvert", "_t")
 t("%s available", "%s disponible", "tformat")
 t("#00ff00#%sTalent %s is ready to use.", "#00ff00#%sLe talent %s est prêt.", "log")
-t("Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", "Utilisation automatique du talent %s #DARK_RED#ignoré#LAST#: rechargement en cours (%d).", "logPlayer")
+t("Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", "Utilisation automatique du talent %s #DARK_RED#ignoré#LAST# : rechargement en cours (%d).", "logPlayer")
 t("dialog is displayed", "le dialogue est affiché", "_t")
 t("hostile spotted to the %s (%s%s)", "ennemi détecté %s (%s%s)", "tformat")
 t(" - offscreen", " - en dehors de l'écran", "_t")
@@ -41514,12 +41494,12 @@ t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", 
 ------------------------------------------------
 section "mod-tome/mod/class/Projectile.lua"
 
-t("Origin: ", "Origine: ", "_t")
-t("Speed: %d%% %s", "Vitesse: %d%% %s", "tformat")
-t("Affect origin chance: ", "Chance d'affecter le départ: ", "_t")
-t("Affect origin's friends chance: ", "Chance d'affecter les amis de départ: ", "_t")
-t(" homing: %s(%s, %s)", " à tête chercheuse: %s(%s, %s)", "tformat")
-t(" range: ", " portée: ", "_t")
+t("Origin: ", "Origine : ", "_t")
+t("Speed: %d%% %s", "Vitesse : %d%% %s", "tformat")
+t("Affect origin chance: ", "Chance d'affecter le départ : ", "_t")
+t("Affect origin's friends chance: ", "Chance d'affecter les amis de départ : ", "_t")
+t(" homing: %s(%s, %s)", " à tête chercheuse : %s(%s, %s)", "tformat")
+t(" range: ", " portée : ", "_t")
 t("%s's %s", "%s de %s", "tformat", {2,1})
 -- texte non traduit
 --[==[
@@ -41538,14 +41518,14 @@ t("Not enough gold", "Pas assez d'or", "_t")
 t("You do not have the %0.2f gold needed!", "Vous n'avez pas les %0.2f d'or dont vous avez besoin !", "tformat")
 t(" (%0.2f each)", " (%0.2f chacun)", "tformat")
 t("Buy", "Acheter", "_t")
-t("Buy %d %s for %0.2f gold%s?", "Acheter %d %s pour %0.2f or%s?", "tformat")
-t("Bought: %s %s for %0.2f gold.", "Acheté: %s %s pour %0.2f d'or.", "log")
+t("Buy %d %s for %0.2f gold%s?", "Acheter %d %s pour %0.2f or%s ?", "tformat")
+t("Bought: %s %s for %0.2f gold.", "Acheté : %s %s pour %0.2f d'or.", "log")
 t("Cancel", "Annuler", "_t")
 t("Sell", "Vendre", "_t")
-t("Sell %d %s for %0.2f gold%s?", "Vendre %d %s pour %0.2f d'or%s?", "tformat")
-t("Sold: %s %s for %0.2f gold.", "Vendu: %s %s pour %0.2f d'or.", "log")
-t("Buy for: %0.2f gold (You have %0.2f gold)", "Acheter pour: %0.2f d'or (Vous avez %0.2f d'or)", "tformat")
-t("Sell for: %0.2f gold (You have %0.2f gold)", "Vendre pour: %0.2f d'or (Vous avez %0.2f d'or)", "tformat")
+t("Sell %d %s for %0.2f gold%s?", "Vendre %d %s pour %0.2f d'or%s ?", "tformat")
+t("Sold: %s %s for %0.2f gold.", "Vendu : %s %s pour %0.2f d'or.", "log")
+t("Buy for: %0.2f gold (You have %0.2f gold)", "Acheter pour : %0.2f d'or (Vous avez %0.2f d'or)", "tformat")
+t("Sell for: %0.2f gold (You have %0.2f gold)", "Vendre pour : %0.2f d'or (Vous avez %0.2f d'or)", "tformat")
 t("This entity can not access inventories.", "Cette entité ne peut pas accéder aux inventaires.", "logPlayer")
 t("You must be level %d to access this shop.", "Vous devez être niveau %d pour accéder à cette boutique.", "logPlayer")
 
@@ -41563,8 +41543,8 @@ t("(beneficial)", "(bénéfique)", "_t")
 t("(beneficial to enemies)", "(bénéfique aux ennemis)", "_t")
 t("(safe)", "(sans danger)", "_t")
 t("pressure_trigger", "déclencheur à pression", "_t")
-t("#YELLOW#Detect: %d#WHITE#", "#YELLOW#Détection: %d#WHITE#", "tformat")
-t("#YELLOW# Disarm: %d#WHITE#", "#YELLOW# Désamorçage: %d#WHITE#", "tformat")
+t("#YELLOW#Detect: %d#WHITE#", "#YELLOW#Détection : %d#WHITE#", "tformat")
+t("#YELLOW# Disarm: %d#WHITE#", "#YELLOW# Désamorçage : %d#WHITE#", "tformat")
 t("Dismantling", "Démantèlement", "_t")
 t("dismantled", "démantelé", "_t")
 t("Your level of skill was not enough to understand the workings of this trap.", "Votre niveau de compétence n'était pas suffisant pour comprendre le fonctionnement de ce piège.", "_t")
@@ -41574,14 +41554,14 @@ t("Failure", "Échec", "_t")
 t("\
 #LIGHT_BLUE#Trap Description:#WHITE#\
 ", "\
-#LIGHT_BLUE#Description du piège:#WHITE#\
+#LIGHT_BLUE#Description du piège :#WHITE#\
 ", "_t")
-t("Disarming a trap: %s", "Désarmer un piège: %s", "tformat")
+t("Disarming a trap: %s", "Désarmer un piège : %s", "tformat")
 t([[As you begin disarming the trap, you think you may be able to learn how it works by carefully dismantling it.  You estimate this will take up to #YELLOW#%d#LAST# uninterrupted turns.
 	What do you want to do?
 %s
 ]], [[Lorsque vous commencez à désarmer le piège, vous pensez pouvoir apprendre comment il fonctionne en le démantelant soigneusement. Vous estimez que cela prendra jusqu'à #YELLOW#%d#LAST# tours ininterrompus.
-	Que voulez vous faire?
+	Que voulez vous faire ?
 %s
 ]], "tformat")
 t("not resting", "ne pas se reposer", "_t")
@@ -41610,7 +41590,7 @@ t("#CADET_BLUE#%s %ss %s.", "#CADET_BLUE#%s %ss %s.", "logSeen")
 section "mod-tome/mod/class/UserChatExtension.lua"
 
 t("#ANTIQUE_WHITE#has linked an item: #WHITE# %s", "#ANTIQUE_WHITE#a fait un lien avec un objet : #WHITE# %s", "tformat")
-t("#ANTIQUE_WHITE#has linked a creature: #WHITE# %s", "#ANTIQUE_WHITE#a fait un lien avec une créature: #WHITE# %s", "tformat")
+t("#ANTIQUE_WHITE#has linked a creature: #WHITE# %s", "#ANTIQUE_WHITE#a fait un lien avec une créature : #WHITE# %s", "tformat")
 t("#ANTIQUE_WHITE#has linked a talent: #WHITE# %s", "#ANTIQUE_WHITE#a fait un lien avec un talent : #WHITE# %s", "tformat")
 t("SHAKING", "TREMBLEMENT", "log")
 -- texte non traduit
@@ -41634,7 +41614,7 @@ t("neutral", "neutre", "_t")
 t("hostile", "hostil", "_t")
 t("friendly", "amical", "_t")
 t("Rank: ", "Rang : ", "_t")
-t("Killed by you: ", "Tué par vous: ", "tformat")
+t("Killed by you: ", "Tué par vous : ", "tformat")
 t("Target: ", "Cible : ", "_t")
 t("none", "aucun", "_t")
 -- texte non traduit
@@ -41699,11 +41679,11 @@ section "mod-tome/mod/class/interface/ActorAI.lua"
 
 t("#Source# shoves #Target# aside.", "#Source# repousse #Target# sur le côté.", "logCombat")
 t("%s #PINK#searching for safer grids [radius %s from (%s, %s), val = %s], dam_wt=%s, air_wt=%s, dist_weight=%s, want_closer=%s", "%s #PINK#cherche des cases plus sûr [rayon %s de (%s, %s), val = %s], dam_wt=%s, air_wt=%s, dist_weight=%s, want_closer=%s", "log")
-t("#PINK# --best reachable grid: (%d, %d) (dist: %s, val: %s(%s))", "#PINK# --case la plus accessible: (%d, %d) (dist: %s, val: %s(%s))", "log")
-t("_[%d]%s %s%s tactical weight CACHE MISMATCH (%s) vs %s[%d]{%s}: %s vs %s(cache)", "_[%d]%s %s%s INCOMPATIBILITÉ DE CACHE du poids tactique (%s) vs %s[%d]{%s}: %s vs %s(cache)", "log")
+t("#PINK# --best reachable grid: (%d, %d) (dist: %s, val: %s(%s))", "#PINK# --case la plus accessible : (%d, %d) (dist : %s, val : %s(%s))", "log")
+t("_[%d]%s %s%s tactical weight CACHE MISMATCH (%s) vs %s[%d]{%s}: %s vs %s(cache)", "_[%d]%s %s%s INCOMPATIBILITÉ DE CACHE du poids tactique (%s) vs %s[%d]{%s} : %s vs %s(cache)", "log")
 t("_[%d]%s #YELLOW# TACTICAL turn_procs CACHE MISMATCH for %s", "_[%d]%s #YELLOW# INCOMPATIBILITÉ DE CACHE des procédures de tour TACTIQUE pour %s", "log")
-t("#YELLOW_GREEN#____Cached tactics: %s", "#YELLOW_GREEN#____tactiques mises en cache: %s", "log")
-t("#YELLOW_GREEN#__Computed tactics: %s", "#YELLOW_GREEN#__Tactiques calculées: %s", "log")
+t("#YELLOW_GREEN#____Cached tactics: %s", "#YELLOW_GREEN#____tactiques mises en cache : %s", "log")
+t("#YELLOW_GREEN#__Computed tactics: %s", "#YELLOW_GREEN#__Tactiques calculées : %s", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/ActorInscriptions.lua"
@@ -41718,13 +41698,13 @@ t("Your %s is depleted!", "Votre est épuisé !", "logPlayer")
 section "mod-tome/mod/class/interface/ActorObjectUse.lua"
 
 t("Activate an object", "Active un objet", "_t")
-t("Activate: %s", "Active: %s", "tformat")
+t("Activate: %s", "Active : %s", "tformat")
 t("%s activates %s %s!", "%s active %s %s !", "logSeen")
 t("Activate an object.", "Active un objet.", "_t")
 t("(unknown object)", "(objet inconnu)", "_t")
 t([[Use %s:
 
-%s]], [[Utilise %s:
+%s]], [[Utilise %s :
 
 %s]], "tformat")
 t("Activate %s", "Active %s", "tformat")
@@ -41740,10 +41720,10 @@ section "mod-tome/mod/class/interface/Archery.lua"
 
 t("You need a missile launcher (%s)!", "Il vous faut un lanceur de projectiles (%s) !", "logPlayer")
 t("You do not have enough ammo left!", "Vous n'avez plus assez de munitions !", "logPlayer")
-t("#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", "#ORCHID#Votre %s NE PEUT PAS TIRER (Ressource: %s%s#LAST#).", "logPlayer")
+t("#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", "#ORCHID#Votre %s NE PEUT PAS TIRER (Ressource : %s%s#LAST#).", "logPlayer")
 t("#ORCHID#Target out of range.  Hold <ctrl> to force all weapons to fire at targets out of ranges (%d - %d).", "#ORCHID#Cible hors de portée. Maintenez <ctrl> enfoncé pour forcer toutes les armes à tirer sur les cibles hors de portée (%d - %d).", "logPlayer")
 t("#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at targets beyond its range (%d).", "#ORCHID#Cible hors de portée. Maintenez <ctrl> enfoncé pour forcer votre arme à tirer sur des cibles hors de portée (%d).", "logPlayer")
-t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#Vous ne POUVIEZ PAS TIRER sur votre %s (Ressource: %s%s#LAST#).", "logPlayer")
+t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#Vous ne POUVIEZ PAS TIRER sur votre %s (Ressource : %s%s#LAST#).", "logPlayer")
 t("%s(%d parried#LAST#)", "%s(%d parée#LAST#)", "tformat")
 t("#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "#{bold}##Source# effectue une frappe critique à distance contre #Target# !#{normal}#", "logCombat")
 t("#Source# misses #target#.", "#Source# rate #target#.", "logCombat")
@@ -41807,13 +41787,13 @@ t("unknown", "inconnu", "_t")
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PartyIngredients.lua"
 
-t("You collect a new ingredient: #LIGHT_GREEN#%s%s#WHITE#.", "Vous collectez un nouvel ingrédient: #LIGHT_GREEN#%s%s#WHITE#.", "log")
-t("You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "Vous collectez un nouvel ingrédient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "log")
+t("You collect a new ingredient: #LIGHT_GREEN#%s%s#WHITE#.", "Vous collectez un nouvel ingrédient : #LIGHT_GREEN#%s%s#WHITE#.", "log")
+t("You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "Vous collectez un nouvel ingrédient : #LIGHT_GREEN#%s%s (%d)#WHITE#.", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PartyLore.lua"
 
-t("Lore found: #0080FF#%s", "Chronique trouvé: #0080FF#%s", "logPlayer")
+t("Lore found: #0080FF#%s", "Chronique trouvé : #0080FF#%s", "logPlayer")
 t("You can read all your collected lore in the game menu, by pressing Escape.", "Vous pouvez consulter tout le lore collectées dans le menu du jeu, en appuyant sur Échap.", "logPlayer")
 t("learnt lore", "lore appris", "_t")
 
@@ -42034,7 +42014,7 @@ Each object you carry has an encumbrance value. Your maximum carrying capacity i
 You cannot move while encumbered; drop some items.
 ]], [[#GOLD#Encombrement#LAST#
 Chaque objet que vous transportez possède une valeur d'encombrement. Votre capacité de transport maximale est déterminée par votre force.
-Vous ne pouvez pas vous déplacer lorsque vous êtes encombré; déposez certains objets.
+Vous ne pouvez pas vous déplacer lorsque vous êtes encombré ; déposez certains objets.
 ]], "_t")
 t([[#GOLD#Inscriptions#LAST#
 The people of Eyal have found a way to create herbal infusions and runes that can be inscribed on the skin of a creature.  More exotic types of inscriptions also exist.
@@ -42135,7 +42115,7 @@ Minimum : 40%
 t([[#GOLD#Stats#LAST#
 Your character's primary attributes.  Base: the value inherent to your character, which may be increased by applying stat points (limited by character level). Current: the base value plus any bonuses from equipment, effects, certain talents, etc. that is used to determine the overall effectiveness of the stat.
 ]], [[#GOLD#Stats#LAST#
-Les attributs principaux de votre personnage. Base: valeur inhérente à votre personnage, qui peut être augmentée en répartissant les points de statistiques (dans la limite du niveau du personnage). Valeur actuelle: valeur de base plus bonus (équipement, effets, talents, etc.) servant à déterminer l'efficacité globale de la stat.
+Les attributs principaux de votre personnage. Base : valeur inhérente à votre personnage, qui peut être augmentée en répartissant les points de statistiques (dans la limite du niveau du personnage). Valeur actuelle : valeur de base plus bonus (équipement, effets, talents, etc.) servant à déterminer l'efficacité globale de la stat.
 ]], "_t")
 t([[#GOLD#Strength#LAST#
 Strength defines your character's ability to apply physical force. It increases Physical Power, damage done with heavy weapons, Physical Save, and carrying capacity.
@@ -42380,18 +42360,18 @@ Plus elle est élevée, plus vous êtes rapide.
 t([[#GOLD#Damage increase: all#LAST#
 All damage you deal, through any means, is increased by this percentage.
 This stacks with individual damage type increases.
-]], [[#GOLD#Augmentation des dégâts: tous#LAST#
+]], [[#GOLD#Augmentation des dégâts : tous#LAST#
 Tous les dégâts que vous infligez, par quelque moyen que ce soit, sont augmentés de ce pourcentage.
 Cela se cumule avec les augmentations de types de dégâts individuels.
 ]], "_t")
 t([[#GOLD#Damage increase: specific#LAST#
 All damage of this type that you deal, through any means, is increased by this percentage.
-]], [[#GOLD#Augmentation des dégâts: spécifique#LAST#
+]], [[#GOLD#Augmentation des dégâts : spécifique#LAST#
 Tous les dégâts de ce type que vous infligez, par quelque moyen que ce soit, sont augmentés de ce pourcentage.
 ]], "_t")
 t([[#GOLD#Damage increase: creature type#LAST#
 All damage you deal to creatures of this type, through any means, is increased by this percentage.  This is applied in addition to (stacks with) other damage modifiers.
-]], [[#GOLD#Augmentation des dégâts: type de créature#LAST#
+]], [[#GOLD#Augmentation des dégâts : type de créature#LAST#
 Tous les dégâts que vous infligez aux créatures de ce type, par quelque moyen que ce soit, sont augmentés de ce pourcentage. Ceci est appliqué en plus (se cumule avec) des autres modificateurs de dégâts.
 ]], "_t")
 t([[#GOLD#Critical multiplier#LAST#
@@ -42410,40 +42390,40 @@ t([[#GOLD#Damage resistance: all#LAST#
 All damage you receive, through any means, is decreased by this percentage.
 This stacks (multiplicatively) with individual damage type resistances up to their respective caps.
 (So 20% resistance: All + 50% resistance: Fire = 60% total resistance to Fire.)
-]], [[#GOLD#Résistance aux dégâts: tous#LAST#
+]], [[#GOLD#Résistance aux dégâts : tous#LAST#
 Tous les dégâts que vous subissez, quelle qu'en soit la source, sont réduits de ce pourcentage.
 Cet effet s'ajoute (de manière multiplicative) aux résistances individuelles à chaque type de dégâts, dans la limite de leurs plafonds respectifs.
-(Exemple: 20% résistance: Tous + 50% résistance: Feu = 60% résistance totale au feu.)
+(Exemple : 20% résistance : Tous + 50% résistance : Feu = 60% résistance totale au feu.)
 ]], "_t")
 t([[#GOLD#Damage resistance: absolute#LAST#
 All damage you receive, through any means, is decreased by this percentage.
 This is applied after normal damage resistance and is not affected by resistance penetration.
-]], [[#GOLD#Résistance aux dégâts: absolu#LAST#
+]], [[#GOLD#Résistance aux dégâts : absolu#LAST#
 Tous les dégâts que vous subissez, quelle qu'en soit la cause, sont réduits de ce pourcentage.
 Cette réduction s'applique après la résistance aux dégâts normaux et n'est pas affectée par la pénétration de résistance.
 ]], "_t")
 t([[#GOLD#Damage resistance: specific#LAST#
 All damage of this type that you receive, through any means, is reduced by this percentage.
-]], [[#GOLD#Résistance aux dégâts: spécifique#LAST#
+]], [[#GOLD#Résistance aux dégâts : spécifique#LAST#
 Tous les dégâts de ce type que vous subissez, quelle qu'en soit la cause, sont réduits de ce pourcentage.
 ]], "_t")
 t([[#GOLD#Damage resistance: by speed#LAST#
 All damage you receive, through any means, is decreased by this percentage, which increases as your total movement speed (global times movement) decreases.
 This is applied after normal damage type resistances.
-]], [[#GOLD#Résistance aux dégâts: par vitesse#LAST#
+]], [[#GOLD#Résistance aux dégâts : par vitesse#LAST#
 Tous les dégâts que vous subissez, quelle qu'en soit la source, sont réduits de ce pourcentage, qui augmente à mesure que votre vitesse de déplacement totale (vitesse de déplacement globale) diminue.
 Cet effet s'applique après les résistances normales aux types de dégâts.
 ]], "_t")
 t([[#GOLD#Damage resistance: creature type#LAST#
 All damage you receive from creatures of this type, through any means, is decreased by this percentage.  This is applied separately to (stacks with) normal resistances.
-]], [[#GOLD#Résistance aux dégâts: type de créature#LAST#
+]], [[#GOLD#Résistance aux dégâts : type de créature#LAST#
 Tous les dégâts que vous recevez des créatures de ce type, par quelque moyen que ce soit, sont réduits de ce pourcentage. Ceci est appliqué séparément (se cumule) aux résistances normales.
 ]], "_t")
 t([[#GOLD#Damage affinity: all#LAST#
 All damage you receive, through any means, also heals you for this percentage of the damage.
 This stacks with individual damage type affinities.
 Important: Affinity healing happens after damage has been taken, it can not prevent death.
-]], [[#GOLD#Affinité de dégâts: tous#LAST#
+]], [[#GOLD#Affinité de dégâts : tous#LAST#
 Tous les dégâts que vous recevez, par quelque moyen que ce soit, vous soignent également pour ce pourcentage des dégâts.
 Cela se cumule avec les affinités individuelles des types de dégâts.
 Important : les soins d'affinité se produisent une fois les dégâts subis, ils ne peuvent pas empêcher la mort.
@@ -42451,9 +42431,9 @@ Important : les soins d'affinité se produisent une fois les dégâts subis, il
 t([[#GOLD#Damage affinity: specific#LAST#
 All damage of this type that you receive, through any means, also heals you for this percentage of the damage.
 Important: Affinity healing happens after damage has been taken, it can not prevent death.
-]], [[#GOLD#Affinité de dégâts: spécifique#LAST#
+]], [[#GOLD#Affinité de dégâts : spécifique#LAST#
 Tous les dégâts de ce type que vous recevez, par quelque moyen que ce soit, vous soignent également pour ce pourcentage de dégâts.
-Important: les soins d'affinité se produisent une fois les dégâts subis, ils ne peuvent pas empêcher la mort.
+Important : les soins d'affinité se produisent une fois les dégâts subis, ils ne peuvent pas empêcher la mort.
 ]], "_t")
 t([[#GOLD#Status resistance#LAST#
 Most bad status effects can be avoided by having an appropriate immunity, represented by a percent chance to completely avoid the effect in question.  This chance is applied in addition to any saving throws or other checks that may apply.
@@ -42526,7 +42506,7 @@ Reduces the amount of effective resistance of your foes to any damage you deal b
 If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
 This stacks with individual damage type penetrations.
 You can never have more than 70% penetration.
-]], [[#GOLD#Péné des résistances: globale#LAST#
+]], [[#GOLD#Péné des résistances : globale#LAST#
 Réduit la résistance effective de vos ennemis aux dégâts que vous infligez, de ce pourcentage.
 Si vous avez 50% de pénétration contre une créature ayant 50% de résistance, sa résistance effective sera de 25%.
 Cet effet se cumule avec les pénétrations de chaque type de dégâts.
@@ -42536,7 +42516,7 @@ t([[#GOLD#Damage penetration: specific#LAST#
 Reduces the effective resistance of your foes to all damage of this type you deal by this percent.
 If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
 You can never have more than 70% penetration.
-]], [[#GOLD#Péné des résistances: spécifique#LAST#
+]], [[#GOLD#Péné des résistances : spécifique#LAST#
 Réduit la résistance effective de vos ennemis à tous les dégâts de ce type que vous infligez, de ce pourcentage.
 Si vous avez 50% de pénétration contre une créature ayant 50% de résistance, sa résistance effective sera de 25%.
 Votre pénétration ne peut jamais dépasser 70%.
@@ -42666,24 +42646,24 @@ t("Character Sheet (#{bold}##GOLD#%s#LAST##{normal}#)", "Fiche de personnage (#{
 t("Main menu (#{bold}##GOLD#%s#LAST##{normal}#)", "Menu principal (#{bold}##GOLD#%s#LAST##{normal}#)", "tformat")
 t("Show message/chat log (#{bold}##GOLD#%s#LAST##{normal}#)", "Afficher le journal des messages/tchat (#{bold}##GOLD#%s#LAST##{normal}#)", "tformat")
 t([[Movement: #LIGHT_GREEN#Default#LAST# (#{bold}##GOLD#%s#LAST##{normal}#)
-Toggle for passive mode]], [[Déplacement: #LIGHT_GREEN#Défaut#LAST# (#{bold}##GOLD#%s#LAST##{normal}#)
+Toggle for passive mode]], [[Déplacement : #LIGHT_GREEN#Défaut#LAST# (#{bold}##GOLD#%s#LAST##{normal}#)
 Basculer en mode passif]], "tformat")
 t([[Movement: #LIGHT_RED#Passive#LAST# (#{bold}##GOLD#%s#LAST##{normal}#)
-Toggle for default mode]], [[Déplacement: #LIGHT_RED#Passif#LAST# (#{bold}##GOLD#%s#LAST##{normal}#)
+Toggle for default mode]], [[Déplacement : #LIGHT_RED#Passif#LAST# (#{bold}##GOLD#%s#LAST##{normal}#)
 Basculer en mode par défaut]], "tformat")
 t("Cosmetics & Events shop (#{bold}##GOLD#%s#LAST##{normal}#, #{bold}##GOLD#%s#LAST##{normal}#)", "Boutique de Cosmétiques et d'Événements (#{bold}##GOLD#%s#LAST##{normal}#, #{bold}##GOLD#%s#LAST##{normal}#)", "tformat")
 t("Left click to use", "Clic gauche pour utiliser", "_t")
 t("Right click to configure", "Clic droit pour configurer", "_t")
 t("Press 'm' to setup", "Appuyez sur 'm' pour configurer", "_t")
 t("Unbind %s", "Désassigner %s", "tformat")
-t("Remove this object from your hotkeys?", "Retirer cet objet de vos raccourcis?", "_t")
+t("Remove this object from your hotkeys?", "Retirer cet objet de vos raccourcis ?", "_t")
 t("Donator", "Donateur", "_t")
 t("Developer", "Développeur", "_t")
 t("Moderator / Helper", "Modération / Aide", "_t")
 t("Recurring Donator", "Donateur Régulier", "_t")
-t("Playing: ", "Joue à: ", "_t")
+t("Playing: ", "Joue à : ", "_t")
 t("Game: ", "Jeu : ", "_t")
-t("Linked by: ", "Lié par: ", "_t")
+t("Linked by: ", "Lié par : ", "_t")
 t("Show chat user", "Afficher les utilisateurs du tchat", "_t")
 
 ------------------------------------------------
@@ -42693,43 +42673,43 @@ t([[#GOLD##{bold}#%s
 #WHITE##{normal}#Life: %d%%
 Level: %d
 %s]], [[#GOLD##{bold}#%s
-#WHITE##{normal}#Vie: %d%%
-Niveau: %d
+#WHITE##{normal}#Vie : %d%%
+Niveau : %d
 %s]], "tformat")
 t("%s reduced the duration of this effect by %d turns, from %d to %d.", "%s a réduit la durée de cet effet de %d tours, de %d à %d.", "tformat")
-t("Really cancel %s?", "Vraiment annuler %s?", "tformat")
+t("Really cancel %s?", "Vraiment annuler %s ?", "tformat")
 t([[#GOLD##{bold}#%s
 #WHITE##{normal}#Unused stats: %d
 Unused class talents: %d
 Unused generic talents: %d
 Unused categories: %d]], [[#GOLD##{bold}#%s
-#WHITE##{normal}#Stats inutilisée: %d
-Talents de classe inutilisé: %d
-Talents générique inutilisé: %d
-Catégories inutilisée: %d]], "tformat")
-t("Level / Exp: #00ff00#%s / %2d%%", "Niveau / Exp: #00ff00#%s / %2d%%", "tformat")
-t("Gold: #00ff00#%0.2f", "Or: #00ff00#%0.2f", "tformat")
-t("Accuracy:", "Précision:", "_t")
-t("P. power:", "Puiss P:", "_t")
-t("S. power:", "Puiss S:", "_t")
-t("M. power:", "Puiss M:", "_t")
-t("Defense:", "Défense:", "_t")
-t("P. save:", "Sauv P:", "_t")
-t("S. save:", "Sauv S:", "_t")
-t("M. save:", "Sauv M:", "_t")
-t("Turns remaining: %d", "Tours restants: %d", "tformat")
-t("Air level: %d/%d", "Niveau d'air: %d/%d", "tformat")
+#WHITE##{normal}#Stats inutilisée : %d
+Talents de classe inutilisé : %d
+Talents générique inutilisé : %d
+Catégories inutilisée : %d]], "tformat")
+t("Level / Exp: #00ff00#%s / %2d%%", "Niveau / Exp : #00ff00#%s / %2d%%", "tformat")
+t("Gold: #00ff00#%0.2f", "Or : #00ff00#%0.2f", "tformat")
+t("Accuracy:", "Précision :", "_t")
+t("P. power:", "Puiss P :", "_t")
+t("S. power:", "Puiss S :", "_t")
+t("M. power:", "Puiss M :", "_t")
+t("Defense:", "Défense :", "_t")
+t("P. save:", "Sauv P :", "_t")
+t("S. save:", "Sauv S :", "_t")
+t("M. save:", "Sauv M :", "_t")
+t("Turns remaining: %d", "Tours restants : %d", "tformat")
+t("Air level: %d/%d", "Niveau d'air : %d/%d", "tformat")
 t("Encumbered! (%d/%d)", "Encombré ! (%d/%d)", "tformat")
-t("Mag/Wil/Cun: #00ff00#%3d/%3d/%3d", "Mag/Vol/Rus: #00ff00#%3d/%3d/%3d", "tformat")
+t("Mag/Wil/Cun: #00ff00#%3d/%3d/%3d", "Mag/Vol/Rus : #00ff00#%3d/%3d/%3d", "tformat")
 t("#c00000#Life    :", "#c00000#Vie    :", "_t")
-t("#WHITE#Shield:", "#WHITE#Bouclier:", "_t")
+t("#WHITE#Shield:", "#WHITE#Bouclier :", "_t")
 t("no description", "aucune description", "_t")
-t("#7fffd4#Feedback:", "#7fffd4#Rétroaction:", "_t")
+t("#7fffd4#Feedback:", "#7fffd4#Rétroaction :", "_t")
 t("%0.1f (%0.1f/turn)", "%0.1f (%0.1f/tours)", "tformat")
-t("#LIGHT_GREEN#Fortress:", "#LIGHT_GREEN#Forteresse:", "_t")
+t("#LIGHT_GREEN#Fortress:", "#LIGHT_GREEN#Forteresse :", "_t")
 t("#ANTIQUE_WHITE#Ammo    :       #ffffff#%d", "#ANTIQUE_WHITE#Munition    :       #ffffff#%d", "tformat")
 t("#ANTIQUE_WHITE#Ammo    :       #ffffff#%d/%d", "#ANTIQUE_WHITE#Munition    :       #ffffff#%d/%d", "tformat")
-t("Saving:", "Sauvegarde:", "_t")
+t("Saving:", "Sauvegarde :", "_t")
 t("Wave(TOP) %d", "Vague(TOP) %d", "tformat")
 t("Wave %d", "Vague %d", "tformat")
 t("Rank: %s", "Rang : %s", "tformat")
@@ -42779,20 +42759,20 @@ t("#CRIMSON#Interface locked, mouse enabled on the map", "#CRIMSON#Interface ver
 t("#CRIMSON#Interface unlocked, mouse disabled on the map", "#CRIMSON#Interface déverrouillée, souris désactivée sur la carte", "say")
 t("Reset interface positions", "Réinitialiser les positions de l'interface", "_t")
 t("Reset UI", "Réinitialiser l'IU", "_t")
-t("Reset all the interface?", "Réinitialiser toute l'interface?", "_t")
+t("Reset all the interface?", "Réinitialiser toute l'interface ?", "_t")
 t([[%s
 ---
 Left mouse drag&drop to move the frame
 Right mouse drag&drop to scale up/down
 Middle click to reset to default scale%s]], [[%s
 ---
-Clic gauche: glisser-déposer pour déplacer le cadre
-Clic droit: glisser-déposer pour redimensionner
-Clic milieu: réinitialiser à l'échelle par défaut%s]], "tformat")
+Clic gauche : glisser-déposer pour déplacer le cadre
+Clic droit : glisser-déposer pour redimensionner
+Clic milieu : réinitialiser à l'échelle par défaut%s]], "tformat")
 t("Feedback", "Rétroaction", "_t")
 t("Fortress Energy", "Énergie de Forteresse", "_t")
 t("Display/Hide resources", "Afficher/Masquer les ressources", "_t")
-t("Toggle:", "Basculer:", "_t")
+t("Toggle:", "Basculer :", "_t")
 t("\
 Right click to toggle resources bars visibility", "\
 Clic droit pour afficher ou masquer les barres de ressources", "_t")
@@ -42806,22 +42786,22 @@ t("\
 Right click to cancel early.", "\
 ---\
 Clic droit pour annuler prématurément.", "_t")
-t("Really cancel %s?", "Vraiment annuler %s?", "tformat")
+t("Really cancel %s?", "Vraiment annuler %s ?", "tformat")
 t([[#GOLD##{bold}#%s
 #WHITE##{normal}#Life: %d%%
 Level: %d
 %s]], [[#GOLD##{bold}#%s
-#WHITE##{normal}#Vie: %d%%
-Niveau: %d
+#WHITE##{normal}#Vie : %d%%
+Niveau : %d
 %s]], "tformat")
 t("\
 Turns remaining: %s", "\
-Tours restants: %s", "tformat")
+Tours restants : %s", "tformat")
 t("Lvl %d", "Niv %d", "tformat")
 t([[Toggle for movement mode.
 Default: when trying to move onto a creature it will attack if hostile.
 Passive: when trying to move onto a creature it will not attack (use ctrl+direction, or right click to attack manually)]], [[Basculer de mode de déplacement.
-Par défaut: tenter de se déplacer sur une créature l'attaque si elle est hostile.
+Par défaut : tenter de se déplacer sur une créature l'attaque si elle est hostile.
 Passif : tenter de se déplacer sur une créature ne l'attaque pas (utilisez Ctrl+direction ou un clic droit pour attaquer manuellement).]], "_t")
 t("Show character infos", "Afficher les infos du personnage", "_t")
 t("Click to assign stats and talents!", "Cliquez pour attribuer stats et talents !", "_t")
@@ -42835,7 +42815,7 @@ t("Left click to use", "Clic gauche pour utiliser", "_t")
 t("Right click to configure", "Clic droit pour configurer", "_t")
 t("Press 'm' to setup", "Appuyez sur 'm' pour configurer", "_t")
 t("Unbind %s", "Désassigner %s", "tformat")
-t("Remove this object from your hotkeys?", "Retirer cet objet de vos raccourcis?", "_t")
+t("Remove this object from your hotkeys?", "Retirer cet objet de vos raccourcis ?", "_t")
 t([[Left mouse to show inventory
 Right mouse to show ingredients]], [[Clic gauche pour afficher l'inventaire
 Clic droit pour afficher les ingrédients]], "_t")
@@ -42853,21 +42833,21 @@ t("Donator", "Donateur", "_t")
 t("Developer", "Développeur", "_t")
 t("Moderator / Helper", "Modération / Aide", "_t")
 t("Recurring Donator", "Donateur Régulier", "_t")
-t("Playing: ", "Joue à: ", "_t")
+t("Playing: ", "Joue à : ", "_t")
 t("Game: ", "Jeu : ", "_t")
 t("Clicking will open ", "Cliquer ouvrira ", "_t")
 t("Show chat user", "Afficher les utilisateurs du tchat", "_t")
 t("Whisper", "Murmure", "_t")
 t("Ignore", "Ignorer", "_t")
 t("Ignore user", "Ignorer l'utilisateur", "_t")
-t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de: %s", "tformat")
+t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de : %s", "tformat")
 t("Report user for bad behavior", "Signaler l'utilisateur pour mauvais comportement", "_t")
-t("Reason to report: %s", "Motif du signalement: %s", "tformat")
+t("Reason to report: %s", "Motif du signalement : %s", "tformat")
 t("Reason", "Motif", "_t")
 t("Remove Friend", "Supprimer un ami", "_t")
-t("Really remove %s from your friends?", "Vraiment supprimer %s de vos amis?", "tformat")
+t("Really remove %s from your friends?", "Vraiment supprimer %s de vos amis ?", "tformat")
 t("Add Friend", "Ajouter un ami", "_t")
-t("Really add %s to your friends?", "Vraiment ajouter %s à vos amis?", "tformat")
+t("Really add %s to your friends?", "Vraiment ajouter %s à vos amis ?", "tformat")
 -- texte non traduit
 --[==[
 t([[#GOLD#%s#LAST#
@@ -42895,7 +42875,7 @@ section "mod-tome/mod/dialogs/ArenaFinish.lua"
 t("#LIGHT_GREEN#No high scores. This should not happen.", "#LIGHT_GREEN#Aucun score. Cela ne devrait pas se produire.", "_t")
 t([[%s (%s %s %s)
  Score %d[%s]) - Wave: %d]], [[%s (%s %s %s)
- Score %d[%s]) - Vague: %d]], "tformat")
+ Score %d[%s]) - Vague : %d]], "tformat")
 t("unknown", "inconnu", "_t")
 
 ------------------------------------------------
@@ -42921,7 +42901,7 @@ t("There is already a character with this name, do you want to overwrite it?", "
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
 t("Antimagic Magic combo", "Combo anti-magie Magie", "_t")
-t("The selected race/class has both magic and antimagic, this is unlikely to work. Continue?", "La race/classe sélectionnée a en même temps des capacités magiques et anti-magiques, il est peu probable que cela fonctionne. Continuer?", "_t")
+t("The selected race/class has both magic and antimagic, this is unlikely to work. Continue?", "La race/classe sélectionnée a en même temps des capacités magiques et anti-magiques, il est peu probable que cela fonctionne. Continuer ?", "_t")
 t("Yes I'm sure", "Oui, je suis sûr", "_t")
 t("Tutorials", "Tutoriels", "_t")
 t("Basic Gameplay (recommended)", "Gameplay basique (recommandé)", "_t")
@@ -42990,7 +42970,7 @@ For the game to use them you must simply respect a few rules:
 - you must place them in folder #LIGHT_BLUE#%s#WHITE#
 
 Once you have done so, simply restart the game and the tiles will be listed at the bottom of the list.]], [[Vous pouvez créer vos propres avatars personnalisés si vous êtes donateur.
-Pour que le jeu les utilise vous devez respecter certaines règles:
+Pour que le jeu les utilise vous devez respecter certaines règles :
 - ils doivent être de taille 64x64 ou 64x128
 - ils doivent être au format PNG
 - ils doivent être stockés dans le répertoire #LIGHT_BLUE#%s#WHITE#
@@ -43004,20 +42984,20 @@ t("I want to help!", "Je veux aider !", "_t")
 t("Dismiss", "Renvoyer", "_t")
 t("Birth Options", "Options de naissance", "_t")
 t("Confirm", "Confirmer", "_t")
-t("Apply the selected cosmetics to %s?", "Appliquer le cosmétique sélectionné à %s?", "tformat")
+t("Apply the selected cosmetics to %s?", "Appliquer le cosmétique sélectionné à %s ?", "tformat")
 -- ancien texte traduit
 t("Select custom tile", "Avatar personnalisé", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/CharacterSheet.lua"
 
-t("Character Sheet: %s", "Fiche de Personnage: %s", "tformat")
+t("Character Sheet: %s", "Fiche de Personnage : %s", "tformat")
 t("[G]eneral", "[G]énéral", "_t")
 t("[A]ttack", "[A]ttaque", "_t")
 t("[D]efense", "[D]éfense", "_t")
 t("off", "main secondaire", "_t")
 t("main", "main principale", "_t")
-t("[E]quipment: %s set", "[E]quipement: %s ensemble", "tformat")
+t("[E]quipment: %s set", "[E]quipement : %s ensemble", "tformat")
 t("#RED#Displaying %s set for %s (equipment NOT switched)", "#RED#Affiche %s l'ensemble pour %s (équipment NON changé)", "logPlayer")
 t("Sort: %s", "Sort : %s", "tformat")
 t("Groups", "Groupes", "_t")
@@ -43029,8 +43009,8 @@ t([[Values #00FF00#in brackets ( )#LAST# show changes made from last character s
 Keyboard: #00FF00#'u'#LAST# to save character dump. #00FF00#TAB key#LAST# to switch between tabs.
 Mouse: Hover over stat for info
 ]], [[Les valeurs #00FF00#entre parenthèses ( )#LAST# montrent les derniers changements de la fiche de personnage.
-Clavier: #00FF00#'u'#LAST# pour générer un fichier du personnage. #00FF00#TAB#LAST# pour naviguer entre les onglets.
-Souris: Passez sur les stats pour avoir des infos
+Clavier : #00FF00#'u'#LAST# pour générer un fichier du personnage. #00FF00#TAB#LAST# pour naviguer entre les onglets.
+Souris : Passez sur les stats pour avoir des infos
 ]], "_t")
 t("days", "jours", "_t")
 t("day", "jour", "_t")
@@ -43042,10 +43022,10 @@ t([[#GOLD#Days adventuring / current month:#LAST# %d / %s
 #GOLD#Time playing:#LAST# %s
 #GOLD#Creatures killed:           #ANTIQUE_WHITE#%d
 #GOLD#Elites/Rares/Bosses killed: #YELLOW#%d/#SALMON#%d/#ORANGE#%d
-]], [[#GOLD#Jours d'aventures / mois courant:#LAST# %d / %s
-#GOLD#Temps de jeu:#LAST# %s
-#GOLD#Créatures tuées:           #ANTIQUE_WHITE#%d
-#GOLD#Elites/Rares/Boss tués: #YELLOW#%d/#SALMON#%d/#ORANGE#%d
+]], [[#GOLD#Jours d'aventures / mois courant :#LAST# %d / %s
+#GOLD#Temps de jeu :#LAST# %s
+#GOLD#Créatures tuées :           #ANTIQUE_WHITE#%d
+#GOLD#Elites/Rares/Boss tués : #YELLOW#%d/#SALMON#%d/#ORANGE#%d
 ]], "tformat")
 t("Disease", "Maladie", "_t")
 t("Bleed", "Saignement", "_t")
@@ -43064,7 +43044,7 @@ t("#ORANGE#Mental Status  ", "#ORANGE#Statue Mental  ", "_t")
 t("#ORANGE#Physical Status", "#ORANGE#Statue Physique", "_t")
 t("#ORANGE#Magical Status ", "#ORANGE#Statue Magique ", "_t")
 t("Inventory", "Inventaire", "_t")
-t("Online URL: #LIGHT_BLUE##{underline}#%s#{normal}#", "URL en ligne: #LIGHT_BLUE##{underline}#%s#{normal}#", "tformat")
+t("Online URL: #LIGHT_BLUE##{underline}#%s#{normal}#", "URL en ligne : #LIGHT_BLUE##{underline}#%s#{normal}#", "tformat")
 t("You can find your character sheet online", "Vous pouvez trouver votre fiche de personnage en ligne", "_t")
 t("Sex  : ", "Sexe   : ", "_t")
 t("Female", "Femme", "_t")
@@ -43075,14 +43055,14 @@ t("Class: ", "Classe : ", "_t")
 t("Stype: ", "Stype  : ", "_t")
 t("Zigur follower", "Adepte de Zigur", "_t")
 t("Antimagic adherent", "Adhérent à l'anti-magie", "_t")
-t("- Seed: #LIGHT_STEEL_BLUE#%s", "- Graine: #LIGHT_STEEL_BLUE#%s", "tformat")
+t("- Seed: #LIGHT_STEEL_BLUE#%s", "- Graine : #LIGHT_STEEL_BLUE#%s", "tformat")
 t("Click to copy to clipboard. You can share the wanderer seed with your friends, this way they can play with the same set of talents.", "Cliquez pour copier dans le presse-papiers. Vous pouvez partager la graine du Vagabond avec vos amis. Ainsi, ils pourront jouer avec les mêmes talents.", "_t")
 t("Size : ", "Taille : ", "_t")
-t("Level: #00ff00#%d", "Niveau: #00ff00#%d", "tformat")
+t("Level: #00ff00#%d", "Niveau : #00ff00#%d", "tformat")
 t("Exp  : #00ff00#%2d%%", "Exp   : #00ff00#%2d%%", "tformat")
 t("Gold : #00ff00#%0.2f", "Or    : #00ff00#%0.2f", "tformat")
-t("#LIGHT_BLUE#Resources:", "#LIGHT_BLUE#Ressources:", "_t")
-t("die:%+d", "mort:%+d", "_t")
+t("#LIGHT_BLUE#Resources:", "#LIGHT_BLUE#Ressources :", "_t")
+t("die:%+d", "mort : %+d", "_t")
 t("#c00000#Life    : #00ff00#%d/%s", "#c00000#Vie     : #00ff00#%d/%s", "tformat")
 t("No Description", "Aucune Description", "_t")
 t("%s%-8.8s: #00ff00#%s ", "%s%-8.8s : #00ff00#%s ", "tformat")
@@ -43090,8 +43070,8 @@ t([[#GOLD#%s Recovery/Depletion#LAST#
 The amount of %s automatically gained or lost each turn.]], [[#GOLD#%s Récupération/Déperdition#LAST#
 Cette valeur de %s est automatiquement gagné ou perdu chaque tour.]], "tformat")
 t("Current Feedback gain is %0.1f%% of damage taken.", "Gain de Rétroaction actuel %0.1f%% des dégâts reçus.", "tformat")
-t("#7fffd4#Feedback: #00ff00#%d/%s", "#7fffd4#Rétroaction: #00ff00#%d/%s", "tformat")
-t("#LIGHT_BLUE#Speeds:", "#LIGHT_BLUE#Vitesses:", "_t")
+t("#7fffd4#Feedback: #00ff00#%d/%s", "#7fffd4#Rétroaction : #00ff00#%d/%s", "tformat")
+t("#LIGHT_BLUE#Speeds:", "#LIGHT_BLUE#Vitesses :", "_t")
 t("Global speed  : #00ff00#%s", "Vit globale         : #00ff00#%s", "tformat")
 t("Movement speed: #00ff00#%s", "Vit de déplacement  : #00ff00#%s", "tformat")
 t("Spell speed   : #00ff00#%s", "Vit de sort         : #00ff00#%s", "tformat")
@@ -43112,11 +43092,11 @@ t("Stealth        : #00ff00#%s", "Furtivité          : #00ff00#%s", "tformat")
 t("See stealth    : #00ff00#%s", "Voir furtivité     : #00ff00#%s", "tformat")
 t("Invisibility   : #00ff00#%s", "Invisibilité       : #00ff00#%s", "tformat")
 t("See invisible  : #00ff00#%s", "Voir l'invisible   : #00ff00#%s", "tformat")
-t("Telepathy range: #00ff00#%s", "Portée télépathique: #00ff00#%s", "tformat")
-t("#LIGHT_BLUE#Stats:        Base/Current", "#LIGHT_BLUE#Stats:        Base/Actuelle", "_t")
-t("Telepathy of: ", "Télépathie: ", "_t")
+t("Telepathy range: #00ff00#%s", "Portée télépathique : #00ff00#%s", "tformat")
+t("#LIGHT_BLUE#Stats:        Base/Current", "#LIGHT_BLUE#Stats :        Base/Actuelle", "_t")
+t("Telepathy of: ", "Télépathie : ", "_t")
 t("%sAll ", "%sTout ", "tformat")
-t("#LIGHT_BLUE#Current effects:", "#LIGHT_BLUE#Effets actuels:", "_t")
+t("#LIGHT_BLUE#Current effects:", "#LIGHT_BLUE#Effets actuels :", "_t")
 t("Two-Handed, ", "Deux Mains, ", "_t")
 t("Weapon", "Arme", "_t")
 t("Accuracy     : #00ff00#%s", "Précision        : #00ff00#%s", "tformat")
@@ -43135,26 +43115,26 @@ t("#LIGHT_BLUE#Offhand%s", "#LIGHT_BLUE#Main secondaire%s", "tformat")
 t(" (disabled)", " (désactivé)", "_t")
 t("#LIGHT_BLUE#Offhand-Dual Weapon%s", "#LIGHT_BLUE#Main secondaire-Deux armes%s", "tformat")
 t("#LIGHT_BLUE#Psionic Focus", "#LIGHT_BLUE#Focus Psionique", "_t")
-t("#LIGHT_BLUE#Physical:", "#LIGHT_BLUE#Physique:", "_t")
+t("#LIGHT_BLUE#Physical:", "#LIGHT_BLUE#Physique :", "_t")
 t("Phys. Power: #00ff00#%s", "Puiss physique    : #00ff00#%s", "tformat")
 t("Crit. chance: #00ff00#%s", "Chance crit      : #00ff00#%s", "tformat")
-t("#LIGHT_BLUE#Magical:", "#LIGHT_BLUE#Magique:", "_t")
+t("#LIGHT_BLUE#Magical:", "#LIGHT_BLUE#Magique :", "_t")
 t("Spellpower  : #00ff00#%s", "Puiss de sort    : #00ff00#%s", "tformat")
 t("Spell speed : #00ff00#%s", "Vit de sort      : #00ff00#%s", "tformat")
 t("Spell cooldown: #00ff00#%s", "Recharg de sort : #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Mental:", "#LIGHT_BLUE#Mental :", "_t")
 t("Mindpower: #00ff00#%s", "Puiss mentale       : #00ff00#%s", "tformat")
 t("Mind speed : #00ff00#%s", "Vit mentale       : #00ff00#%s", "tformat")
-t("#LIGHT_BLUE#Damage Modifiers:", "#LIGHT_BLUE#Modificateurs de dégâts:", "_t")
+t("#LIGHT_BLUE#Damage Modifiers:", "#LIGHT_BLUE#Modificateurs de dégâts :", "_t")
 t("Critical mult.: #00ff00#%s", "Mult crit      : #00ff00#%s", "tformat")
 t("All damage    : #00ff00#%s", "Tous            : #00ff00#%s", "tformat")
 t("vs ", "contre ", "_t")
 t([[#GOLD#Restance Penetration#LAST#
 Ability to reduce opponent resistances to your damage]], [[#GOLD#Péné des résistances#LAST#
 Capacité à réduire les résistances ennemis à vos dégâts]], "_t")
-t("#LIGHT_BLUE#Damage penetration:", "#LIGHT_BLUE#Péné des résistances:", "_t")
-t("#LIGHT_BLUE#Additional Melee Damage:", "#LIGHT_BLUE#Dégâts de mélée en plus:", "_t")
-t("#LIGHT_BLUE#Additional Ranged Damage:", "#LIGHT_BLUE#Dégâts à distance en plus:", "_t")
+t("#LIGHT_BLUE#Damage penetration:", "#LIGHT_BLUE#Péné des résistances :", "_t")
+t("#LIGHT_BLUE#Additional Melee Damage:", "#LIGHT_BLUE#Dégâts de mélée en plus :", "_t")
+t("#LIGHT_BLUE#Additional Ranged Damage:", "#LIGHT_BLUE#Dégâts à distance en plus :", "_t")
 t("Heavy armor", "Armure lourde", "_t")
 t("Massive armor", "Armure massive", "_t")
 t("Light armor", "Armure légère", "_t")
@@ -43164,20 +43144,20 @@ t("Armor           : #00ff00#%s", "Armure              : #00ff00#%s", "tformat")
 t("Defense         : #00ff00#%s", "Défense             : #00ff00#%s", "tformat")
 t("Ranged Defense  : #00ff00#%s", "Défense à distance  : #00ff00#%s", "tformat")
 t("Crit. Reduction : #00ff00#%s", "Réduction des crit  : #00ff00#%s", "tformat")
-t("Crit. Shrug Off : #00ff00#%s", "Bonus de crit ignoré: #00ff00#%s", "tformat")
-t("#LIGHT_BLUE#Saves:", "#LIGHT_BLUE#Sauvegardes:", "_t")
-t("Physical: #00ff00#%s", "Physique: #00ff00#%s", "tformat")
+t("Crit. Shrug Off : #00ff00#%s", "Bonus de crit ignoré : #00ff00#%s", "tformat")
+t("#LIGHT_BLUE#Saves:", "#LIGHT_BLUE#Sauvegardes :", "_t")
+t("Physical: #00ff00#%s", "Physique : #00ff00#%s", "tformat")
 t("Spell   : #00ff00#%s", "Sorts   : #00ff00#%s", "tformat")
 t("Mental  : #00ff00#%s", "Mentale : #00ff00#%s", "tformat")
-t("#LIGHT_BLUE#Resistances   : base / cap:", "#LIGHT_BLUE#Résistances   : base / cap:", "_t")
+t("#LIGHT_BLUE#Resistances   : base / cap:", "#LIGHT_BLUE#Résistances   : base / cap :", "_t")
 t("All", "Tout", "_t")
 t("Absolute", "Absolu", "_t")
 t("Speed Res", "Vitesse de Res", "_t")
-t("#ORANGE#vs %-11s#LAST#: #00ff00#%3s %s", "#ORANGE#contre %-11s#LAST#: #00ff00#%3s %s", "tformat")
-t("#LIGHT_BLUE#Damage affinities:", "#LIGHT_BLUE#Affinités aux dégâts:", "_t")
-t("#LIGHT_BLUE#Flat resistances:", "#LIGHT_BLUE#Résistances fixe:", "_t")
-t("#LIGHT_BLUE#Effect resistances:", "#LIGHT_BLUE#Effets des résistances:", "_t")
-t("#LIGHT_BLUE#Damage when hit:", "#LIGHT_BLUE#Dégâts quand touché:", "_t")
+t("#ORANGE#vs %-11s#LAST#: #00ff00#%3s %s", "#ORANGE#contre %-11s#LAST# : #00ff00#%3s %s", "tformat")
+t("#LIGHT_BLUE#Damage affinities:", "#LIGHT_BLUE#Affinités aux dégâts :", "_t")
+t("#LIGHT_BLUE#Flat resistances:", "#LIGHT_BLUE#Résistances fixe :", "_t")
+t("#LIGHT_BLUE#Effect resistances:", "#LIGHT_BLUE#Effets des résistances :", "_t")
+t("#LIGHT_BLUE#Damage when hit:", "#LIGHT_BLUE#Dégâts quand touché :", "_t")
 t("Prodigies", "Prodiges", "_t")
 t("Item_Talents", "Talents d'Objet", "_t")
 t("Instant", "Instantané", "_t")
@@ -43213,7 +43193,7 @@ t("Talents", "Talents", "_t")
 section "mod-tome/mod/dialogs/CursedAuraSelect.lua"
 
 t("Cursed Aura Selection", "Sélection d'Aura Maudite", "_t")
-t("A malevolent aura begins to form around you. Choose your curse:", "Une aura malveillante commence à se former autour de vous. Choisissez votre malédiction:", "_t")
+t("A malevolent aura begins to form around you. Choose your curse:", "Une aura malveillante commence à se former autour de vous. Choisissez votre malédiction :", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/DeathDialog.lua"
@@ -43225,7 +43205,7 @@ You can dump your character data to a file to remember her/him forever, or you c
 Vous pouvez exporter les données de votre personnage vers un fichier pour vous souvenir de lui pour toujours, ou quitter et tenter une nouvelle fois de survivre dans ces terres sauvages !
 ]], "_t")
 t([[#LIGHT_GREEN#During your game you#WHITE#:
-* %s]], [[#LIGHT_GREEN#Durant votre partie#WHITE#:
+* %s]], [[#LIGHT_GREEN#Durant votre partie#WHITE# :
 * %s]], "tformat")
 t("#LIGHT_RED#You have %d life(s) left.", "#LIGHT_RED#Vous avez %d vie(s) restante(s).", "tformat")
 t("#LIGHT_RED#You have no more lives left.", "#LIGHT_RED#Vous n'avez plus de vies.", "tformat")
@@ -43266,14 +43246,14 @@ J'espère sincèrement que vous trouverez mon jeu agréable et que vous continue
 ToME est gratuit, open-source, et le restera. Cependant, comme je ne peux pas vivre d'amour et d'eau fraîche, je viens vous déranger pour solliciter votre générosité.
 Si vous estimez que les (nombreuses) heures que vous avez passées à vous amuser en valaient la peine, pensez à faire un don pour assurer l'avenir du jeu.
 
-Les donateurs bénéficient également de quelques avantages particuliers: %s.]], "tformat")
+Les donateurs bénéficient également de quelques avantages particuliers : %s.]], "tformat")
 t(" and ", " et ", "_t")
 t([[Thank you for supporting ToME, your donation was greatly appreciated.
 If you want to continue supporting ToME you are welcome to make a new donation or even a reccuring one which helps ensure the future of the game.
 Thank you for your kindness!]], [[Merci de soutenir ToME, votre don a été très apprécié.
 Si vous souhaitez continuer à soutenir ToME, vous pouvez faire un nouveau don ou même un don récurrent qui contribuera à assurer l'avenir du jeu.
 Merci pour votre bienveillance !]], "_t")
-t("Donation amount: ", "Montant du don: ", "_t")
+t("Donation amount: ", "Montant du don : ", "_t")
 t("Monthly donation", "Don mensuel", "_t")
 t("Cancel", "Annuler", "_t")
 t("You can also make a pledge on Patreon if you prefer.", "Vous pouvez également payer sur Patreon si vous préférez.", "_t")
@@ -43397,7 +43377,7 @@ t([[Toggles between various tactical information display:
 - Only healthbar
 - No tactical information at all
 
-#{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]], [[Basculer entre différents affichages d'informations tactiques:
+#{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]], [[Basculer entre différents affichages d'informations tactiques :
 - Barre de santé combinée et petit cadre tactique
 - Barre de santé combinée à un grand cadre tactique
 - Barre de santé uniquement
@@ -43474,7 +43454,7 @@ Default target is always either one of:
  - The closest creature]], [[Auto-validation des cibles. Si vous tirez une flèche/talent... cela utilisera automatiquement la cible par défaut sans rien demander.
 #LIGHT_RED#Ceci est dangereux. Ne l'activez pas si vous ne savez pas exactement ce que vous faites.#WHITE#
 
-La cible par défaut est toujours l'un des cas suivants:
+La cible par défaut est toujours l'un des cas suivants :
  - La dernière créature survolée à la souris
  - La dernière créature attaquée
  - La créature la plus proche]], "_t")
@@ -43511,9 +43491,9 @@ t([[Allow various events that are pushed by the server when playing online
 #{bold}#Technical help only#{normal}#: Allow administrator to help in case of bugs or weirdness and allows website services (data reset, steam achievements push, ...) to work.
 #{bold}#Disabled#{normal}#: Disallow all.
 #WHITE#]], [[Permettre divers événements envoyés par le serveur lorsqu'on joue en ligne
-#{bold}#Tous#{normal}#: Autoriser tous les événements du serveur (zones bonus, événements aléatoires, ...)
-#{bold}#Aide technique uniquement#{normal}#: Permet aux administrateurs d'aider en cas de bugs ou de bizarreries et permettre aux services du site web (réinitialisation des données, récupérations des Succès Steam, ...) de fonctionner.
-#{bold}#Désactiver#{normal}#: Tout désactiver.
+#{bold}#Tous#{normal}# : Autoriser tous les événements du serveur (zones bonus, événements aléatoires, ...)
+#{bold}#Aide technique uniquement#{normal}# : Permet aux administrateurs d'aider en cas de bugs ou de bizarreries et permettre aux services du site web (réinitialisation des données, récupérations des Succès Steam, ...) de fonctionner.
+#{bold}#Désactiver#{normal}# : Tout désactiver.
 #WHITE#]], "_t")
 t("#GOLD##{bold}#Allow online events#WHITE##{normal}#", "#GOLD##{bold}#Permettre les événements en ligne#WHITE##{normal}#", "_t")
 t("all", "tous", "_t")
@@ -43535,19 +43515,19 @@ If you do not want that, simply run the game directly: the #{bold}#only#{normal}
 
 #{bold}##CRIMSON#This is an extremely restrictive setting. It is recommended you only activate it if you have no other choice as it will remove many fun and acclaimed features.
 A full exit and restart of the game is neccessary to apply this setting.#{normal}#]], [[Désactive toute connectivité réseau.
-Cela inclut, mais n'est pas limité à:
-- Les profils des joueurs: Vous ne pourrez pas vous connecter, vous inscrire
-- Coffre de personnages: vous ne pourrez pas télécharger de personnage dans le coffre en ligne pour montrer votre gloire
-- Chambre forte: vous ne pourrez pas accéder à la chambre forte des objets en ligne, ce qui inclut le stockage et la récupération des objets.
-- Chat en jeu: Le chat en jeu nécessite de se connecter au serveur pour parler aux autres joueurs, ce qui n'est pas possible.
-- Avantages pour acheteur/donateur: Le jeu de base étant gratuit, la seule façon de donner aux donateurs leurs bonus de manière équitable est de vérifier leur profil en ligne. Celui-ci sera donc désactivé.
-- Téléchargement et installation faciles des addons: Vous ne pourrez pas voir dans le jeu la liste des addons disponibles, ni les installer en un clic. Vous pouvez toujours le faire manuellement.
-- Vérification des versions: Les addons ne seront pas vérifiés pour les nouvelles versions.
-- Discord: Si vous utilisez l'intégration Discord Rich Presence, cette option sera également désactivée par ce paramètre.
-- Nouvelles du jeu en jeu: Le menu principal ne vous donnera plus d'informations sur les nouvelles mises à jour du jeu.
+Cela inclut, mais n'est pas limité à :
+- Les profils des joueurs : Vous ne pourrez pas vous connecter, vous inscrire
+- Coffre de personnages : vous ne pourrez pas télécharger de personnage dans le coffre en ligne pour montrer votre gloire
+- Chambre forte : vous ne pourrez pas accéder à la chambre forte des objets en ligne, ce qui inclut le stockage et la récupération des objets.
+- Chat en jeu : Le chat en jeu nécessite de se connecter au serveur pour parler aux autres joueurs, ce qui n'est pas possible.
+- Avantages pour acheteur/donateur : Le jeu de base étant gratuit, la seule façon de donner aux donateurs leurs bonus de manière équitable est de vérifier leur profil en ligne. Celui-ci sera donc désactivé.
+- Téléchargement et installation faciles des addons : Vous ne pourrez pas voir dans le jeu la liste des addons disponibles, ni les installer en un clic. Vous pouvez toujours le faire manuellement.
+- Vérification des versions : Les addons ne seront pas vérifiés pour les nouvelles versions.
+- Discord : Si vous utilisez l'intégration Discord Rich Presence, cette option sera également désactivée par ce paramètre.
+- Nouvelles du jeu en jeu : Le menu principal ne vous donnera plus d'informations sur les nouvelles mises à jour du jeu.
 
 Notez que ce paramètre n'affecte que le jeu lui-même. Si vous utilisez le lanceur de jeu, dont le seul but est de s'assurer que le jeu est à jour, il le fera toujours.
-Si vous ne le souhaitez pas, il vous suffit de lancer directement le jeu: la seule #{bold}#utilité#{normal}# du lanceur est de à mettre à jour le jeu.
+Si vous ne le souhaitez pas, il vous suffit de lancer directement le jeu : la seule #{bold}#utilité#{normal}# du lanceur est de à mettre à jour le jeu.
 
 #{bold}##CRIMSON# C'est un réglage extrêmement restrictif. Il est recommandé de ne l'activer que si vous n'avez pas d'autre choix car il supprimera de nombreuses fonctionnalités amusantes et acclamées.
 Un redémarrage complet du jeu est nécessaire. pour appliquer ce paramètre.#{normal}#]], "_t")
@@ -43600,15 +43580,15 @@ You must place all files of your tileset in a subfolder of the modules's data/gf
 Each tile must be correctly named according to the existing tilesets.]], [[Vous pouvez configurer le jeu pour utiliser un jeu de tuiles personnalisé.
 Vous devez placer tous les fichiers de votre jeu de tuiles dans un sous-dossier du dossier data/gfx/ de modules, tout comme le jeu de tuiles existant.
 Chaque tuile doit être correctement nommée en fonction des jeus de tuiles existants.]], "_t")
-t("Folder: ", "Répertoire: ", "_t")
+t("Folder: ", "Répertoire : ", "_t")
 t("Use moddable tiles (equipment showing on player)", "Utiliser un jeu de tuiles modifiable (l'équipement est affiché sur le joueur)", "_t")
 t("Use advanced tiles (transitions, wide tiles, ...)", "Utiliser un jeu de tuiles avancé (transitions, tuiles larges, ...)", "_t")
 t("Use custom tileset", "Utiliser un jeu de tuiles personnalisé", "_t")
 t("Cancel", "Annuler", "_t")
 t("Tile size", "Taille", "_t")
 t("From 10 to 128", "De 10 à 128", "_t")
-t("Select style [current: %s]", "Sélection du style [actuel: %s]", "tformat")
-t("Select tiles size [current: %s]", "Taille de tuile [actuel: %s]", "tformat")
+t("Select style [current: %s]", "Sélection du style [actuel : %s]", "tformat")
+t("Select tiles size [current: %s]", "Taille de tuile [actuel : %s]", "tformat")
 t("Custom", "Personnalisé", "_t")
 -- texte non traduit
 --[==[
@@ -43624,12 +43604,12 @@ t("16x16", "16x16", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/LevelupDialog.lua"
 
-t("Levelup: %s, level %s", "Niveau supérieur: %s, Niveau %s", "tformat")
+t("Levelup: %s, level %s", "Niveau supérieur : %s, Niveau %s", "tformat")
 t("Finish", "Terminé", "_t")
-t("Do you accept changes?", "Acceptez vous ces changements?", "_t")
-t("You cannot learn this talent(s): ", "Vous ne pouvez pas apprendre ce talent: ", "_t")
+t("Do you accept changes?", "Acceptez vous ces changements ?", "_t")
+t("You cannot learn this talent(s): ", "Vous ne pouvez pas apprendre ce talent : ", "_t")
 t([[#LIGHT_BLUE#Warning: You have increased some of your statistics or talent. Talent(s) actually sustained: 
- %s If these are dependent on one of the stats you changed, you need to re-use them for the changes to take effect.]], [[#LIGHT_BLUE#Attention: vous avez augmenté certaines de vos statistiques ou de vos talents. Talent(s) actuellement soutenu:
+ %s If these are dependent on one of the stats you changed, you need to re-use them for the changes to take effect.]], [[#LIGHT_BLUE#Attention : vous avez augmenté certaines de vos statistiques ou de vos talents. Talent(s) actuellement soutenu :
  %s Si ceux-ci dépendent de l'une des statistiques que vous avez modifiées, vous devez les réutiliser pour que les modifications prennent effet.]], "_t")
 t("#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "#LIGHT_RED#Conditions requises pour %s non satisfaites, prodige non appris.", "log")
 t("Not enough stat points", "Pas assez de points de stats", "_t")
@@ -43653,7 +43633,7 @@ t("You do not know this talent!", "Vous ne connaissez pas ce talent !", "_t")
 t("Impossible here", "Impossible ici", "_t")
 t("You must be out of combat or in a quiet place like a #{bold}#town#{normal}# to unlearn this talent.", "Vous devez être hors de combat ou dans un endroit calme comme une #{bold}#ville#{normal}# pour désapprendre ce talent.", "_t")
 t("You cannot unlearn this talent!", "Vous ne pouvez pas désapprendre ce talent !", "_t")
-t("You cannot unlearn this talent because of talent(s): ", "Vous ne pouvez pas désapprendre ce talent à cause du talent: ", "_t")
+t("You cannot unlearn this talent because of talent(s): ", "Vous ne pouvez pas désapprendre ce talent à cause du talent : ", "_t")
 t("You can only improve a category mastery once!", "Vous ne pouvez améliorer la maîtrise d'une catégorie qu'une seule fois !", "_t")
 t("Not enough talent category points", "Pas assez de points de catégorie de talent", "_t")
 t("You have no category points left!", "Vous n'avez plus de points de catégorie !", "_t")
@@ -43661,14 +43641,14 @@ t("Too low level", "Niveau trop bas", "_t")
 t("This talent tree only provides talents starting at level %d. Learning it now would be useless.", "Cet arbre de talents ne fournit que les talents commençant au niveau %d. L'apprendre maintenant serait inutile.", "tformat")
 t("You cannot unlearn this category!", "Vous ne pouvez pas désapprendre cette catégorie !", "_t")
 t("You do not know this category!", "Vous ne connaissez pas cette catégorie !", "_t")
-t("You cannot unlearn this category because of: %s", "Vous ne pouvez pas désapprendre cette catégorie à cause de: %s", "tformat")
+t("You cannot unlearn this category because of: %s", "Vous ne pouvez pas désapprendre cette catégorie à cause de : %s", "tformat")
 t([[Stats points left: #00FF00#%d#LAST#
 Category points left: #00FF00#%d#LAST#
 Class talent points left: #00FF00#%d#LAST#
-Generic talent points left: #00FF00#%d#LAST#]], [[Points de statistiques restant: #00FF00#%d#LAST#
-Points de catégorie restant: #00FF00#%d#LAST#
-Points de talent de classe restants: #00FF00#%d#LAST#
-Points de talent génériques restants: #00FF00#%d#LAST#]], "_t")
+Generic talent points left: #00FF00#%d#LAST#]], [[Points de statistiques restant : #00FF00#%d#LAST#
+Points de catégorie restant : #00FF00#%d#LAST#
+Points de talent de classe restants : #00FF00#%d#LAST#
+Points de talent génériques restants : #00FF00#%d#LAST#]], "_t")
 t([[Stat points allow you to increase your core stats.
 Each level you gain 3 new stat points to use.
 
@@ -43704,7 +43684,7 @@ t([[Talent category points allow you to either:
 - learn a new inscription slot (up to a maximum of 5, learning it is automatic when using an inscription)
 
 You gain a new point at level 10, 20 and 34.
-Some races or items may increase them as well.]], [[Les points de catégorie de talent vous permettent soit:
+Some races or items may increase them as well.]], [[Les points de catégorie de talent vous permettent soit :
 - d'apprendre une nouvelle catégorie de talent (classe ou générique)
 - d'améliorer l'efficacité d'une catégorie de talents connue de 0,2
 - d'apprendre un nouvel emplacement d'inscription (jusqu'à un maximum de 5, l'apprentissage est automatique lors de l'utilisation d'une inscription)
@@ -43717,33 +43697,33 @@ Tous nécessitent au moins 50 dans une statistique de base et beaucoup ont égal
 t("You can use a category point to unlock a new inscription slot (up to 5 slots).", "Vous pouvez utiliser un point de catégorie pour débloquer un nouvel emplacement d'inscription (jusqu'à 5 emplacements).", "_t")
 t("Prodigies", "Prodiges", "_t")
 t("You have learnt all the inscription slots you could.", "Vous avez appris tous les emplacements d'inscription possibles.", "_t")
-t("You can learn %d new slot(s). Do you wish to buy one with one category point?", "Vous pouvez débloquer %d nouveau(x) emplacement(s). Souhaitez-vous en acheter un avec un point de catégorie?", "tformat")
-t("Category points: %s", "Points de catégorie: %s", "tformat")
+t("You can learn %d new slot(s). Do you wish to buy one with one category point?", "Vous pouvez débloquer %d nouveau(x) emplacement(s). Souhaitez-vous en acheter un avec un point de catégorie ?", "tformat")
+t("Category points: %s", "Points de catégorie : %s", "tformat")
 t("You can still learn %d new slot(s) but you need a category point.", "Vous pouvez toujours débloquer %d nouveau(x) emplacement(s), mais vous avez besoin d'un point de catégorie.", "tformat")
-t("Class points: %s", "Points de classe: %s", "tformat")
-t("Generic points: %s", "Points génériques: %s", "tformat")
+t("Class points: %s", "Points de classe : %s", "tformat")
+t("Generic points: %s", "Points génériques : %s", "tformat")
 t("Hide unlearnt categories", "Masquer les catégories non apprises", "_t")
-t("Current value: ", "Valeur actuelle: ", "_t")
-t("Base value: ", "Valeur de base: ", "_t")
-t("Stat gives:", "Stat donne:", "_t")
-t("Max life: ", "Vie max: ", "_t")
-t("Physical save: ", "Sauvegarde physique: ", "_t")
-t("Healing mod: ", "Modif de soins: ", "_t")
-t("Max mana: ", "Mana max: ", "_t")
-t("Max stamina: ", "Endurance max: ", "_t")
-t("Max psi: ", "Psi max: ", "_t")
-t("Mindpower: ", "Puissance mentale: ", "_t")
-t("Mental save: ", "Sauvegarde mentale: ", "_t")
-t("Spell save: ", "Sauvegarde des sorts: ", "_t")
-t("Physical power: ", "Puissance physique: ", "_t")
-t("Max encumbrance: ", "Encombrement max: ", "_t")
-t("Crit. chance: ", "Chance de crit: ", "_t")
-t("Accuracy: ", "Précision: ", "_t")
-t("Spellpower: ", "Puissance des sorts: ", "_t")
-t("Defense: ", "Défense: ", "_t")
-t("Ranged defense: ", "Défense à distance: ", "_t")
-t("Shrug off criticals chance: ", "Bonus de critique ignoré: ", "_t")
-t("Class powers:", "Pouvoirs de classe:", "_t")
+t("Current value: ", "Valeur actuelle : ", "_t")
+t("Base value: ", "Valeur de base : ", "_t")
+t("Stat gives:", "Stat donne :", "_t")
+t("Max life: ", "Vie max : ", "_t")
+t("Physical save: ", "Sauvegarde physique : ", "_t")
+t("Healing mod: ", "Modif de soins : ", "_t")
+t("Max mana: ", "Mana max : ", "_t")
+t("Max stamina: ", "Endurance max : ", "_t")
+t("Max psi: ", "Psi max : ", "_t")
+t("Mindpower: ", "Puissance mentale : ", "_t")
+t("Mental save: ", "Sauvegarde mentale : ", "_t")
+t("Spell save: ", "Sauvegarde des sorts : ", "_t")
+t("Physical power: ", "Puissance physique : ", "_t")
+t("Max encumbrance: ", "Encombrement max : ", "_t")
+t("Crit. chance: ", "Chance de crit : ", "_t")
+t("Accuracy: ", "Précision : ", "_t")
+t("Spellpower: ", "Puissance des sorts : ", "_t")
+t("Defense: ", "Défense : ", "_t")
+t("Ranged defense: ", "Défense à distance : ", "_t")
+t("Shrug off criticals chance: ", "Bonus de critique ignoré : ", "_t")
+t("Class powers:", "Pouvoirs de classe :", "_t")
 t("Talent Category", "Catégorie de talent", "_t")
 t([[A talent category contains talents you may learn. You gain a talent category point at level 10, 20 and 34. You may also find trainers or artifacts that allow you to learn more.
 A talent category point can be used either to learn a new category or increase the mastery of a known one.]], [[Une catégorie de talents contient des talents que vous pouvez apprendre. Vous gagnez un point de catégorie de talent aux niveaux 10, 20 et 34. Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettent d'en avoir plus.
@@ -43752,16 +43732,16 @@ t("Generic talent tree", "Arbres de talents générique", "_t")
 t("A generic talent allows you to perform various utility actions and improve your character. It represents a skill anybody can learn (should you find a trainer for it). You gain one point every level (except every 5th level). You may also find trainers or artifacts that allow you to learn more.", "Un talent générique vous permet d'effectuer diverses actions utilitaires et d'améliorer votre personnage. Cela représente une compétence que tout le monde peut apprendre (si vous trouvez un formateur pour cela). Vous gagnez un point à chaque niveau (sauf tous les 5 niveaux). Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettront d'en avoir plus.", "_t")
 t("Class talent tree", "Arbres de talents de classe", "_t")
 t("A class talent allows you to perform new combat moves, cast spells, and improve your character. It represents the core function of your class. You gain one point every level and two every 5th level. You may also find trainers or artifacts that allow you to learn more.", "Un talent de classe vous permet d'effectuer de nouveaux mouvements de combat, de lancer des sorts et d'améliorer votre personnage. Il représente la fonction principale de votre classe. Vous gagnez un point à chaque niveau et deux tous les cinq niveaux. Vous pouvez également trouver des entraîneurs ou des artefacts qui vous permettront d'en avoir plus.", "_t")
-t("This talent was recently learnt; you can still unlearn it.", "Ce talent a été récemment appris; vous pouvez toujours le désapprendre.", "_t")
+t("This talent was recently learnt; you can still unlearn it.", "Ce talent a été récemment appris ; vous pouvez toujours le désapprendre.", "_t")
 t("The last %d %s talents you learnt are always unlearnable.", "Les derniers %d talents %s que vous avez appris peuvent toujours être désappris.", "tformat")
 t(" generic", "générique", "_t")
 t(" class", " classe", "_t")
-t("This talent can alter the world in a permanent way; as such, you can never unlearn it once known.", "Ce talent peut changer le monde de manière permanente; en tant que tel, vous ne pourrez jamais le désapprendre une fois connu.", "_t")
-t("This talent was recently learnt; you can still unlearn it if you are out of combat or in a quiet area like a #{bold}#town#{normal}#.", "Ce talent a été récemment appris; vous pouvez toujours le désapprendre si vous êtes hors combat ou dans un endroit calme comme une #{bold}#ville#{normal}#.", "_t")
-t("Current talent level: ", "Niveau de talent actuel: ", "_t")
+t("This talent can alter the world in a permanent way; as such, you can never unlearn it once known.", "Ce talent peut changer le monde de manière permanente ; en tant que tel, vous ne pourrez jamais le désapprendre une fois connu.", "_t")
+t("This talent was recently learnt; you can still unlearn it if you are out of combat or in a quiet area like a #{bold}#town#{normal}#.", "Ce talent a été récemment appris ; vous pouvez toujours le désapprendre si vous êtes hors combat ou dans un endroit calme comme une #{bold}#ville#{normal}#.", "_t")
+t("Current talent level: ", "Niveau de talent actuel : ", "_t")
 t(" (%+0.1f bonus level)", " (%+0.1f niveau bonus)", "tformat")
 t("<Press 'x' to swap to simple display>", "<Appuyez sur 'x' pour passer à un affichage simple>", "_t")
-t("First talent level: ", "Premier niveau de talent: ", "_t")
+t("First talent level: ", "Premier niveau de talent : ", "_t")
 t("Next talent level", "Niveau de talent suivant", "_t")
 t("<Press 'x' to swap to advanced display>", "<Appuyez sur 'x' pour passer à l'affichage avancé>", "_t")
 -- texte non traduit
@@ -43775,12 +43755,12 @@ t("Stats: %s", "Stats: %s", "tformat")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/LorePopup.lua"
 
-t("Lore found: #0080FF#%s", "Chronique trouvé: #0080FF#%s", "tformat")
+t("Lore found: #0080FF#%s", "Chronique trouvé : #0080FF#%s", "tformat")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/MapMenu.lua"
 
-t("%s: Inventory", "%s: Inventaire", "tformat")
+t("%s: Inventory", "%s : Inventaire", "tformat")
 t("Change level", "Changer de niveau", "_t")
 t("Pickup item", "Ramasser un objet", "_t")
 t("Move to", "Bouger vers", "_t")
@@ -43810,23 +43790,23 @@ t(" ", " ", "_t")
 section "mod-tome/mod/dialogs/PartyOrder.lua"
 
 t("Wait a few turns", "Attendre quelques tours", "_t")
-t("Where is the portal?", "Où est le portail?", "_t")
-t("Set the target [current: %s]", "Séléctionner la cible [actuelle: %s]", "tformat")
+t("Where is the portal?", "Où est le portail ?", "_t")
+t("Set the target [current: %s]", "Séléctionner la cible [actuelle : %s]", "tformat")
 t("none", "aucun", "_t")
-t("Set behavior [current: %s]", "Définir le comportement [actuel: %s]", "tformat")
+t("Set behavior [current: %s]", "Définir le comportement [actuel : %s]", "tformat")
 t("default", "défaut", "_t")
-t("Set the leash anchor [current: %s]", "Définir l'ancre de laisse [actuelle: %s]", "tformat")
-t("Set the leash distance [current: %d]", "Définir la distance de la laisse [actuelle: %d]", "tformat")
+t("Set the leash anchor [current: %s]", "Définir l'ancre de laisse [actuelle : %s]", "tformat")
+t("Set the leash distance [current: %d]", "Définir la distance de la laisse [actuelle : %d]", "tformat")
 t("Define tactical talents usage", "Définir l'utilisation tactique des talents", "_t")
 t("Rename", "Renommer", "_t")
 t("Dismiss", "Renvoyer", "_t")
 t("Pet the hound", "Caresser le chien", "_t")
-t("Order: %s", "Ordre: %s", "tformat")
+t("Order: %s", "Ordre : %s", "tformat")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/PartySelect.lua"
 
-t("Switch to which character?", "Passer à quel personnage?", "_t")
+t("Switch to which character?", "Passer à quel personnage ?", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/PartySendItem.lua"
@@ -43846,17 +43826,17 @@ t("Quest #AQUAMARINE#Updated!", "Quête #AQUAMARINE#mise à jour !", "_t")
 t("Quest #LIGHT_GREEN#Completed!", "Quête #LIGHT_GREEN#terminée !", "_t")
 t("Quest #LIGHT_GREEN#Done!", "Quête #LIGHT_GREEN#accomplie !", "_t")
 t("Quest #CIMSON#Failed!", "Quête #CIMSON#échouée !", "_t")
-t("#ANTIQUE_WHITE#Quest: #AQUAMARINE#%s", "#ANTIQUE_WHITE#Quête: #AQUAMARINE#%s", "tformat")
+t("#ANTIQUE_WHITE#Quest: #AQUAMARINE#%s", "#ANTIQUE_WHITE#Quête : #AQUAMARINE#%s", "tformat")
 t("#ANTIQUE_WHITE#(See your Journal for further details or click here)", "#ANTIQUE_WHITE#(Regardez votre journal pour plus de détails ou cliquez ici)", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/SentientWeapon.lua"
 
-t("Points left: #00FF00#%d#WHITE#", "Points restant: #00FF00#%d#WHITE#", "_t")
+t("Points left: #00FF00#%d#WHITE#", "Points restant : #00FF00#%d#WHITE#", "_t")
 t([[Keyboard: #00FF00#up key/down key#FFFFFF# to select a stat; #00FF00#right key#FFFFFF# to increase stat; #00FF00#left key#FFFFFF# to decrease a stat.
 Mouse: #00FF00#Left click#FFFFFF# to increase a stat; #00FF00#right click#FFFFFF# to decrease a stat.
-]], [[Clavier: #00FF00#touche haut/bas#FFFFFF# pour séléctionner une stat; #00FF00#touche droite#FFFFFF# pour augmenter la stat; #00FF00#touche gauche#FFFFFF# pour diminuer la stat.
-Souris: #00FF00#clic gauche#FFFFFF# pour augmenter la stat; #00FF00#clic droit#FFFFFF# pour diminuer la stat.
+]], [[Clavier : #00FF00#touche haut/bas#FFFFFF# pour séléctionner une stat ; #00FF00#touche droite#FFFFFF# pour augmenter la stat ; #00FF00#touche gauche#FFFFFF# pour diminuer la stat.
+Souris : #00FF00#clic gauche#FFFFFF# pour augmenter la stat ; #00FF00#clic droit#FFFFFF# pour diminuer la stat.
 ]], "_t")
 t("Value", "Valeur", "_t")
 t("Spellpower", "Puissance des sorts", "_t")
@@ -43866,7 +43846,7 @@ t("You have no stat points left!", "Vous n'avez plus de points de stats !", "_t"
 t("Stat is at the maximum", "La stat est au maximum", "_t")
 t("You can not increase this stat further!", "Vous ne pouvez plus augmenter davantage cette stat !", "_t")
 t("You cannot take out more points!", "Vous ne pouvez pas retirer plus de points !", "_t")
-t("Stats points left: #00FF00#%s", "Point de stat restant: #00FF00#%s", "tformat")
+t("Stats points left: #00FF00#%s", "Point de stat restant : #00FF00#%s", "tformat")
 t("Strength", "Force", "_t")
 t("Dexterity", "Dextérité", "_t")
 t("Magic", "Magie", "_t")
@@ -43896,10 +43876,10 @@ t("Ignore", "Ignorer", "_t")
 t("Open profile(in browser)", "Ouvrir le profil (navigateur)", "_t")
 t("Report for bad behavior", "Signaler un mauvais comportement", "_t")
 t("Open charsheet(in browser)", "Ouvrir la fiche de personnage (dans le navigateur)", "_t")
-t("User: ", "Utilisateur: ", "tformat")
+t("User: ", "Utilisateur : ", "tformat")
 t("Ignore user", "Ignorer l'utilisateur", "_t")
-t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de: %s", "tformat")
-t("Reason to report: %s", "Motif du signalement: %s", "tformat")
+t("Really ignore all messages from: %s", "Vraiment ignorer tous les messages de : %s", "tformat")
+t("Reason to report: %s", "Motif du signalement : %s", "tformat")
 t("Reason", "Motif", "_t")
 -- texte non traduit
 --[==[
@@ -43939,10 +43919,10 @@ t("Quantity", "Quantité", "_t")
 t([[#GOLD#Category:#AQUAMARINE# %s
 #GOLD#Ingredient:#0080FF# %s
 #GOLD#Quantity:#0080FF# %s
-#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Catégorie:#AQUAMARINE# %s
-#GOLD#Ingrédient:#0080FF# %s
-#GOLD#Quantité:#0080FF# %s
-#GOLD#Texte:#ANTIQUE_WHITE# %s]], "tformat")
+#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Catégorie :#AQUAMARINE# %s
+#GOLD#Ingrédient :#0080FF# %s
+#GOLD#Quantité :#0080FF# %s
+#GOLD#Texte :#ANTIQUE_WHITE# %s]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowInventory.lua"
@@ -43953,13 +43933,13 @@ t("Inventory", "Inventaire", "_t")
 section "mod-tome/mod/dialogs/ShowLore.lua"
 
 t("Lore", "Chronique", "_t")
-t("Search: ", "Chercher: ", "_t")
+t("Search: ", "Chercher : ", "_t")
 t("Category", "Catégorie", "_t")
 t([[#GOLD#Category:#AQUAMARINE# %s
 #GOLD#Found as:#0080FF# %s
-#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Catégorie:#AQUAMARINE# %s
-#GOLD#Trouvé comme:#0080FF# %s
-#GOLD#Texte:#ANTIQUE_WHITE# %s]], "tformat")
+#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#Catégorie :#AQUAMARINE# %s
+#GOLD#Trouvé comme :#0080FF# %s
+#GOLD#Texte :#ANTIQUE_WHITE# %s]], "tformat")
 -- texte non traduit
 --[==[
 t("", "", "_t")
@@ -43969,7 +43949,7 @@ t("", "", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowMap.lua"
 
-t("Map: #0080FF#%s", "Carte: #0080FF#%s", "tformat")
+t("Map: #0080FF#%s", "Carte : #0080FF#%s", "tformat")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/ShowStore.lua"
@@ -43978,7 +43958,7 @@ t("Inventory", "Inventaire", "_t")
 t("Category", "Catégorie", "_t")
 t("Price", "Prix", "_t")
 t("Store", "Magasin", "_t")
-t(" (pays up to %0.2f gold, Your Gold: %0.2f)", " (payez jusqu'à %0.2f d'or, votre or: %0.2f)", "tformat")
+t(" (pays up to %0.2f gold, Your Gold: %0.2f)", " (payez jusqu'à %0.2f d'or, votre or : %0.2f)", "tformat")
 -- texte non traduit
 --[==[
 t("", "", "_t")
@@ -44016,7 +43996,7 @@ t("#RED#%d/%d", "#RED#%d/%d", "tformat")
 section "mod-tome/mod/dialogs/TrapsSelect.lua"
 
 t("Select Traps", "Sélection des pièges", "_t")
-t("Select traps to prepare:", "Séléctionnez les pièges à préparer:", "_t")
+t("Select traps to prepare:", "Séléctionnez les pièges à préparer :", "_t")
 t("starting trap selection dialog", "démarrage de la sélection des pièges", "log")
 t(" (replacing instant trigger)", " (remplace le déclenchement instantané)", "_t")
 t(" (primed trigger)", " (déclencheur amorcé)", "_t")
@@ -44024,8 +44004,8 @@ t(" (prepared)", " (préparé)", "_t")
 t(" (preparing)", " (préparation)", "_t")
 t(" (dismantling)", " (démantèlement)", "_t")
 t(" (need more skill)", " (compétence insuffisante)", "_t")
-t("%s) Tier %d: %s%s", "%s) Palier %d: %s%s", "tformat")
-t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#Vous ne pouvez pas préparer ce piège: %s.", "logPlayer")
+t("%s) Tier %d: %s%s", "%s) Palier %d : %s%s", "tformat")
+t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#Vous ne pouvez pas préparer ce piège : %s.", "logPlayer")
 t("#LIGHT_BLUE#You need more skill to prepare this trap.", "#LIGHT_BLUE#Vous avez besoin de plus de talent pour préparer ce piège.", "logPlayer")
 t("#LIGHT_BLUE#Preparing trap with normal trigger.", "#LIGHT_BLUE#Préparation du piège avec un déclanchement normale.", "logPlayer")
 t("Accept these selections", "Acceptez ces sélections", "_t")
@@ -44042,10 +44022,10 @@ t(" (%s)", " (%s)", "tformat")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UberTalent.lua"
 
-t("Prodigies: %s", "Prodiges: %s", "tformat")
+t("Prodigies: %s", "Prodiges : %s", "tformat")
 t([[#LIGHT_GREEN#Number available: %d#LAST#
 Prodigies are special talents that only the most powerful of characters can attain.%s
-All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], [[#LIGHT_GREEN#Nombre disponible: %d#LAST#
+All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], [[#LIGHT_GREEN#Nombre disponible : %d#LAST#
 Les prodiges sont des talents spéciaux que seuls les personnages les plus puissants peuvent atteindre.%s
 Tous nécessitent au moins 50 dans une statistique de base et beaucoup ont également des exigences plus spéciales. Vous pouvez apprendre un nouveau prodige aux niveaux 25 et 42.]], "_t")
 t("\
@@ -44061,21 +44041,21 @@ t("#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", "#{bold}##LIGHT_STEEL_BLUE#E
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UnlockDialog.lua"
 
-t("#VIOLET#Option unlocked: %s", "#VIOLET#Option déverrouillée: %s", "logPlayer")
-t("Option unlocked: %s", "Option déverrouillée: %s", "tformat")
+t("#VIOLET#Option unlocked: %s", "#VIOLET#Option déverrouillée : %s", "logPlayer")
+t("Option unlocked: %s", "Option déverrouillée : %s", "tformat")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/UseItemDialog.lua"
 
 t("You must wear this object to use it!", "Vous devez porter cet objet pour l'utiliser !", "_t")
-t("Drop how many?", "Combien en lâcher?", "_t")
+t("Drop how many?", "Combien en lâcher ?", "_t")
 t("1 to %d", "1 à %d", "tformat")
 t("Attach to item", "Attacher à l'objet", "_t")
 t("You do not have any equipped items that it can be attached to.", "Vous ne disposez d'aucun objet équipé auquel cela peut être attaché.", "_t")
-t("Select which item to attach it to:", "Sélectionnez l'objet auquel l'attacher:", "_t")
+t("Select which item to attach it to:", "Sélectionnez l'objet auquel l'attacher :", "_t")
 t("Really %s %s", "Vraiment %s %s", "tformat")
 t("Tag object (tagged objects can not be destroyed or dropped)", "Étiqueter l'objet (les objets étiquetés ne peuvent pas être détruits ou abandonnés)", "_t")
-t("Tag:", "Étiquette:", "_t")
+t("Tag:", "Étiquette :", "_t")
 t("Identify", "Identifier", "_t")
 t("Move to normal inventory", "Déplacer vers l'inventaire normal", "_t")
 t("Use", "Utiliser", "_t")
@@ -44106,7 +44086,7 @@ t("Object", "Objet", "_t")
 t("Sustaining", "Soutenir", "_t")
 t("Sustain", "Soutenu", "_t")
 t("Passive", "Passif", "_t")
-t("Use Talents: %s", "Talents Utilisé: %s", "tformat")
+t("Use Talents: %s", "Talents Utilisé : %s", "tformat")
 t([[You can bind a non-passive talent to a hotkey by pressing the corresponding hotkey while selecting a talent or by right-clicking on the talent.
 Check out the keybinding screen in the game menu to bind hotkeys to a key (default is 1-0 plus control, shift, or alt).
 Right click or press '~' to configure talent confirmation and automatic use.
@@ -44132,8 +44112,8 @@ t("Auto-use when enemies are visible", "Auto-utiliser quand des ennemis sont vis
 t("Auto-use when enemies are visible and adjacent", "Auto-utiliser quand des ennemis sont visibles et adjacents", "_t")
 t("Auto-use when out of combat", "Auto-utiliser hors combat", "_t")
 t("Hotkey ", "Raccourci ", "_t")
-t("Bind talent: %s", "Assigner le talent: %s", "tformat")
-t("How do you want to bind this talent?", "Comment voulez-vous assigner ce talent?", "_t")
+t("Bind talent: %s", "Assigner le talent : %s", "tformat")
+t("How do you want to bind this talent?", "Comment voulez-vous assigner ce talent ?", "_t")
 t("Middle mouse click assigned", "Clic milieu de la souris assigné", "_t")
 t("%s assigned to middle mouse click on an hostile target.", "%s assigné au clic milieu de la souris sur une cible hostile.", "tformat")
 t("Left mouse click assigned", "Clic gauche de la souris assigné", "_t")
@@ -44165,7 +44145,7 @@ section "mod-tome/mod/dialogs/WandererSeed.lua"
 t("Wanderer Options", "Options du Vagabond", "_t")
 t([[Welcome, wandering one! The Wanderer class uses a randomly selected set of talent trees.
 You can now choose how this set is selected:]], [[Bienvenue, voyageur ! La classe Vagabond utilise un ensemble d'arbres de talents sélectionné aléatoirement.
-Vous pouvez désormais choisir comment cet ensemble est sélectionné:]], "_t")
+Vous pouvez désormais choisir comment cet ensemble est sélectionné :]], "_t")
 t("Simply make a random set of trees, this is the default option. If you want to share it with friends, you will find the seed in the character's sheet later on.", "Créez simplement un ensemble d'arbres aléatoires. c'est l'option par défaut. Si vous souhaitez le partager avec des amis, vous trouverez la graine plus loin dans la fiche de personnage.", "_t")
 t("If an other player gave you a seed to play, you can enter it here. Do note that while a seed will always work, you will only get the same talents set if you use the same DLC/addons.", "Si un autre joueur vous a donné une graine pour jouer, vous pouvez la saisir ici. Veuillez noter que même si une graine fonctionne toujours, vous n'obtiendrez le même ensemble de talents que si vous utilisez les mêmes DLC et extensions.", "_t")
 t("Play!", "Jouer !", "_t")
@@ -44177,7 +44157,7 @@ t("The wanderer seed you used was generated for a different set of DLC/addons. Y
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/AdvanceActor.lua"
 
-t("DEBUG -- Levelup Actor: [%s] %s", "DEBUG -- Monter le niveau de l'acteur: [%s] %s", "tformat")
+t("DEBUG -- Levelup Actor: [%s] %s", "DEBUG -- Monter le niveau de l'acteur : [%s] %s", "tformat")
 t([[Levelup an actor.
 Optionally set Stat levels, learn all talents possible, and gain points to spend on Levelup. 
 The actor is backed up before changes are made.  (Use the "Restore" button to recover.)
@@ -44185,23 +44165,23 @@ The actor is backed up before changes are made.  (Use the "Restore" button to re
 Vous pouvez optionnellement définir les niveaux de statistiques, apprendre tous les talents possibles et gagner des points à dépenser lors de la montée de niveau.
 L'acteur est sauvegardé avant que les changements ne soient appliqués. (Utilisez le bouton 'Restaurer' pour récupérer.)
 ]], "_t")
-t(" Advance to Level: ", " Agmentez au niveau: ", "_t")
-t("Restore: %s (v%d)", "Restaurer: %s (v%d)", "tformat")
-t("Restore: none", "Restaurer: aucun", "_t")
+t(" Advance to Level: ", " Agmentez au niveau : ", "_t")
+t("Restore: %s (v%d)", "Restaurer : %s (v%d)", "tformat")
+t("Restore: none", "Restaurer : aucun", "_t")
 t("#LIGHT_BLUE#Restoring [%s]%s from backup version %d", "#LIGHT_BLUE#Restauration [%s]%s de la version de sauvegarde %d", "log")
 t("Gain points for stats, talents, and prodigies (unlimited respec)", "Gagner des points de stats, talents et prodiges (respec illimité)", "_t")
-t(" Force all BASE stats to: ", " Forcer toutes les stats de BASE à: ", "_t")
-t(" Force all BONUS stats to: ", " Forcer toutes les stats BONUS à: ", "_t")
+t(" Force all BASE stats to: ", " Forcer toutes les stats de BASE à : ", "_t")
+t(" Force all BONUS stats to: ", " Forcer toutes les stats BONUS à : ", "_t")
 t("Learn Talents ", "Apprendre les talents ", "_t")
-t("Unlock & Learn all available talents to level: ", "Débloquer et Apprendre tous les talents disponibles au niveau: ", "_t")
+t("Unlock & Learn all available talents to level: ", "Débloquer et Apprendre tous les talents disponibles au niveau : ", "_t")
 t("maximum allowed", "maximum autorisé", "_t")
 t("Ignore requirements", "Ignorer les prérequis", "_t")
-t("Force all talent mastery levels to (0.1-5.0): ", "Forcer tous les niveaux de maîtrise de talents à (0.1-5.0): ", "_t")
+t("Force all talent mastery levels to (0.1-5.0): ", "Forcer tous les niveaux de maîtrise de talents à (0.1-5.0) : ", "_t")
 t("no change", "aucun changement", "_t")
 t("Unlock all talent types (slow)", "Débloquer tous les types de talents (lent)", "_t")
 t("Accept", "Accepter", "_t")
 t("Cancel", "Annuler", "_t")
-t("#LIGHT_BLUE#AdvanceActor inputs: %s", "#LIGHT_BLUE#Entrées AdvanceActor: %s", "log")
+t("#LIGHT_BLUE#AdvanceActor inputs: %s", "#LIGHT_BLUE#Entrées AdvanceActor : %s", "log")
 t("%s #GOLD#Forcing all Base Stats to %s", "%s #GOLD#Forcer toutes les stats de base à %s", "log")
 t("%s #GOLD#Resetting all talents_types_mastery to %s", "%s #GOLD#Réinitialiser tous les talents_types_mastery à %s", "log")
 t("%s #GOLD#Unlocking All Talent Types", "%s #GOLD#Débloquer tous les types de talents", "log")
@@ -44227,7 +44207,7 @@ section "mod-tome/mod/dialogs/debug/AdvanceZones.lua"
 
 t("Advance Through Zones", "Avancer dans les zones", "_t")
 t("Enter a comma delimited list of zones or zone tiers to clear", "Entrez une liste délimitée par des virgules des zones ou paliers de zone à nettoyer (nom du fichier de la zone)", "_t")
-t("%s:  Level %0.2f to %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "%s:  Niveau %0.2f à %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "tformat")
+t("%s:  Level %0.2f to %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "%s :  Niveau %0.2f à %0.2f (#LIGHT_STEEL_BLUE#+%0.2f#LAST#)", "tformat")
 t("#RED#Low value items have been dropped on the ground.#LAST#", "#RED#Les objets de faible valeur ont été déposés sur le sol.#LAST#", "log")
 t("Unable to level change to floor 1 of %s", "Impossible de changer le niveau à l'étage 1 de %s", "log")
 t("%s is not valid for autoclear", "%s n'est pas valide pour l'autonettoyage", "log")
@@ -44237,8 +44217,8 @@ t("Unable to level change to floor %d of %s", "Impossible de modifier le niveau 
 section "mod-tome/mod/dialogs/debug/AlterFaction.lua"
 
 t("DEBUG -- Alter Faction", "DEBUG -- Modifier une faction", "_t")
-t("Alter: %s", "Modifier: %s", "tformat")
-t("Alter to which state:", "Modifier vers quel état:", "_t")
+t("Alter: %s", "Modifier : %s", "tformat")
+t("Alter to which state:", "Modifier vers quel état :", "_t")
 t("friendly", "amical", "_t")
 t("neutral", "neutre", "_t")
 t("hostile", "hostil", "_t")
@@ -44247,7 +44227,7 @@ t("hostile", "hostil", "_t")
 section "mod-tome/mod/dialogs/debug/ChangeZone.lua"
 
 t("DEBUG -- Change Zone", "DEBUG -- Changer de Zone", "_t")
-t("Zone: %s", "Secteur: %s", "tformat")
+t("Zone: %s", "Secteur : %s", "tformat")
 t("Level %s-%s", "Niveau %s-%s", "tformat")
 
 ------------------------------------------------
@@ -44256,37 +44236,37 @@ section "mod-tome/mod/dialogs/debug/CreateItem.lua"
 t("DEBUG -- Create Object", "DEBUG -- Création d'objet", "_t")
 t("Load from other zones ", "Charger à partir d'autres zones ", "_t")
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
- %s]], [[#ORANGE# Création d'objet: Impossible de charger tous les objets du fichier %s:#GREY#
+ %s]], [[#ORANGE# Création d'objet : Impossible de charger tous les objets du fichier %s :#GREY#
  %s]], "log")
 t("Generate examples (right-click refreshes) ", "Générer des exemples (clic droit pour rafraîchir) ", "_t")
 t("#CRIMSON#==Resolved Example==#LAST#", "#CRIMSON#==Exemple résolu==#LAST#", "_t")
 t([[#LIGHT_BLUE#Object %s could not be generated or identified. Error:
-%s]], [[#LIGHT_BLUE#L'objet %s n'a pas pu être généré ou identifié. Erreur:
+%s]], [[#LIGHT_BLUE#L'objet %s n'a pas pu être généré ou identifié. Erreur :
 %s]], "log")
 t("Object could not be resolved/identified.", "L'objet n'a pas pu être résolu/identifié.", "_t")
 t([[Error:
-%s]], [[Erreur:
+%s]], [[Erreur :
 %s]], "tformat")
 t("#LIGHT_BLUE#Could not add object to %s at (%d, %d)", "#LIGHT_BLUE#Impossible d'ajouter un objet à %s à (%d, %d)", "log")
 t("#LIGHT_BLUE#No creature to add object to at (%d, %d)", "#LIGHT_BLUE#Aucune créature où ajouter l'objet en (%d, %d)", "log")
 t("#LIGHT_BLUE#No object to create", "#LIGHT_BLUE#Aucun objet à créer", "log")
 t("Place Object", "Placer un objet", "_t")
-t("Place the object where?", "Où placer l'objet?", "_t")
+t("Place the object where?", "Où placer l'objet ?", "_t")
 t("Inventory of %s%s", "Inventaire de %s%s", "tformat")
 t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(joueur)#LAST#", "_t")
 t("Drop @ (%s, %s)%s", "Lâcher @ (%s, %s)%s", "tformat")
 t("#LIGHT_BLUE#Dropped %s at (%d, %d)", "#LIGHT_BLUE#Lâcher %s à (%d, %d)", "log")
 t("NPC Inventory", "Inventaire du PNJ", "tformat")
 t("Cancel", "Annuler", "tformat")
-t("#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "#LIGHT_BLUE#OBJET:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, emplacement %s} en (%s, %s)#LAST#", "log")
+t("#LIGHT_BLUE#OBJECT:#LAST# %s%s: #LIGHT_BLUE#[%s] %s {%s, slot %s} at (%s, %s)#LAST#", "#LIGHT_BLUE#OBJET :#LAST# %s%s : #LIGHT_BLUE#[%s] %s {%s, emplacement %s} en (%s, %s)#LAST#", "log")
 t("Number of items to make", "Nombre d'objets à créer", "_t")
 t("Enter 1-100%s", "De 1-100%s", "tformat")
 t(", or 0 for the example item", ", ou 0 pour créer un exemple", "_t")
-t("#LIGHT_BLUE# Creating %d items:", "#LIGHT_BLUE# Créeation de %d objets:", "log")
-t("Add an ego enhancement if possible?", "Ajouter un ego si possible?", "_t")
+t("#LIGHT_BLUE# Creating %d items:", "#LIGHT_BLUE# Créeation de %d objets :", "log")
+t("Add an ego enhancement if possible?", "Ajouter un ego si possible ?", "_t")
 t("#LIGHT_BLUE#Created %s", "#LIGHT_BLUE#Crée %s", "log")
 t("Greater Ego", "Grand Ego", "_t")
-t("Add a greater ego enhancement if possible?", "Ajouter un grand ego si possible?", "_t")
+t("Add a greater ego enhancement if possible?", "Ajouter un grand ego si possible ?", "_t")
 t(" #GOLD#All Artifacts#LAST#", " #GOLD#Tous les Artefacts#LAST#", "_t")
 t("#LIGHT_BLUE#Creating All Artifacts.", "#LIGHT_BLUE#Création de tous les artefacts.", "log")
 t("#LIGHT_BLUE#%d artifacts created.", "#LIGHT_BLUE#%d artefacts créés.", "log")
@@ -44316,10 +44296,10 @@ t("#LIGHT_BLUE#Demi-God mode ON", "#LIGHT_BLUE#Mode Demi-Dieu ON", "log")
 t("#LIGHT_BLUE#Weakdamage mode OFF", "#LIGHT_BLUE#Mode Dégâts Faibles OFF", "log")
 t("#LIGHT_BLUE#Weakdamage mode ON", "#LIGHT_BLUE#Mode Dégâts Faibles ON", "log")
 t("#LIGHT_BLUE#Revealing Map.", "#LIGHT_BLUE#Révéler la carte.", "log")
-t("Zone: %s", "Secteur: %s", "tformat")
+t("Zone: %s", "Secteur : %s", "tformat")
 t("Level 1-%s", "Niveau 1-%s", "tformat")
 t("Kill or Remove", "Tuer ou Supprimer", "_t")
-t("Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "Tuer toutes les créatures (hors membres du groupe), ou les tuer pour le joueur(donne de l'expérience et du butin)?", "_t")
+t("Remove all (non-party) creatures or kill them for the player (awards experience and drops loot)?", "Tuer toutes les créatures (hors membres du groupe), ou les tuer pour le joueur(donne de l'expérience et du butin) ?", "_t")
 t("#GREY#Removing [%s] %s at (%s, %s)", "#GREY#Enlever [%s] %s at (%s, %s)", "log")
 t("#GREY#Killing [%s] %s at (%s, %s)", "#GREY#Tuer [%s] %s at (%s, %s)", "log")
 t("#LIGHT_BLUE#%s %d creatures.", "#LIGHT_BLUE#%s %d créatures.", "log")
@@ -44352,7 +44332,7 @@ t("Automatically Clear Zones", "Nettoyer les zones automatiquement", "_t")
 section "mod-tome/mod/dialogs/debug/Endgamify.lua"
 
 t([[#ORANGE# Create Object: Unable to load all objects from file %s:#GREY#
- %s]], [[#ORANGE# Création d'objet: Impossible de charger tous les objets du fichier %s:#GREY#
+ %s]], [[#ORANGE# Création d'objet : Impossible de charger tous les objets du fichier %s :#GREY#
  %s]], "log")
 t("Failed to generate %s", "Échec de la génération %s", "log")
 
@@ -44364,13 +44344,13 @@ t("Debug -- Grant/Alter Quest", "Debug -- Donner/Modifier une quête", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/PlotTalent.lua"
 
-t("Values plot for: %s (mastery %0.1f)", "Graphique des valeurs pour: %s (maîtrise %0.1f)", "tformat")
-t("TL: ", "NT: ", "_t")
+t("Values plot for: %s (mastery %0.1f)", "Graphique des valeurs pour : %s (maîtrise %0.1f)", "tformat")
+t("TL: ", "NT : ", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/RandomActor.lua"
 
-t("#LIGHT_GREEN#(From %s, line %s):#LAST#", "#LIGHT_GREEN#(Depuis %s, ligne %s):#LAST#", "tformat")
+t("#LIGHT_GREEN#(From %s, line %s):#LAST#", "#LIGHT_GREEN#(Depuis %s, ligne %s) : #LAST#", "tformat")
 t("DEBUG -- Create Random Actor", "DEBUG -- Créer un acteur aléatoire", "_t")
 t([[Randomly generate actors subject to a filter and/or create random bosses according to a data table.
 Filters are interpreted by game.zone:checkFilter.
@@ -44382,7 +44362,7 @@ Mouse over controls for an actor preview (which may be further adjusted when pla
 
 The #LIGHT_BLUE#Base Filter#LAST# is used to filter the actor randomly generated.]], [[Générer aléatoirement des acteurs soumis à un filtre et/ou créer des boss aléatoires selon une table de données.
 Les filtres sont interprétés par game.zone:checkFilter.
-#ORANGE#Données de Boss:#LAST# est interprété par game.state: createRandomBoss, game.state:applyRandomClass et Actor.levelupClass.
+#ORANGE#Données de Boss : #LAST# est interprété par game.state: createRandomBoss, game.state:applyRandomClass et Actor.levelupClass.
 La génération est effectuée dans l'environnement _G (utilisé par la console Lua) en utilisant la #LIGHT_GREEN#npc_list#LAST# de la zone actuelle.
 Appuyez sur #GOLD#'F1'#LAST# pour obtenir de l'aide.
 Passez la souris sur les commandes pour une prévisualisation de l'acteur (qui pourra être ajustée lors de son placement sur le niveau).
@@ -44390,41 +44370,41 @@ Passez la souris sur les commandes pour une prévisualisation de l'acteur (qui p
 
 Le #LIGHT_BLUE#Filtre de base#LAST# est utilisé pour filtrer l'acteur généré aléatoirement.]], "_t")
 t("#GREY#None#LAST#", "#GREY#Aucun#LAST#", "_t")
-t("Current Base Actor: %s", "Acteur de base actuel: %s", "tformat")
+t("Current Base Actor: %s", "Acteur de base actuel : %s", "tformat")
 t("Generate", "Générer", "_t")
-t("#LIGHT_BLUE# Current base actor: %s", "#LIGHT_BLUE# Acteur de base actuel: %s", "log")
+t("#LIGHT_BLUE# Current base actor: %s", "#LIGHT_BLUE# Acteur de base actuel : %s", "log")
 t("Place", "Placer", "_t")
 t("Default Filter", "Filtre par défaut", "_t")
 t("#LIGHT_BLUE# Reset base filter", "#LIGHT_BLUE# Réinitialiser le filtre de base", "log")
 t("Clear", "Effacer", "_t")
-t("#LIGHT_BLUE# Clear base actor: %s", "#LIGHT_BLUE# Effacer l'acteur de base: %s", "log")
-t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base:#LAST# ", "_t")
+t("#LIGHT_BLUE# Clear base actor: %s", "#LIGHT_BLUE# Effacer l'acteur de base : %s", "log")
+t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base :#LAST# ", "_t")
 t("The #ORANGE#Boss Data#LAST# is used to transform the base actor into a random boss (which will use a random actor if needed).", "Les #ORANGE#Données des boss#LAST# sont utilisées pour transformer l'acteur de base en un boss aléatoire (qui utilisera un acteur aléatoire si nécessaire).", "_t")
-t("Current Boss Actor: %s", "Acteur de boss actuel: %s", "tformat")
+t("Current Boss Actor: %s", "Acteur de boss actuel : %s", "tformat")
 t("Default Data", "Données par défaut", "_t")
 t("#LIGHT_BLUE# Reset Randboss Data", "#LIGHT_BLUE# Réinitialiser les données de boss aléatoire", "log")
-t("#ORANGE#Boss Data:#LAST# ", "#ORANGE#Données de boss:#LAST# ", "_t")
+t("#ORANGE#Boss Data:#LAST# ", "#ORANGE#Données de boss :#LAST# ", "_t")
 t("Filter and Data Help", "Aide sur les filtres et les données", "_t")
 t("#GREY#No Actor to Display#LAST#", "#GREY#Aucun acteur à afficher#LAST#", "_t")
 t("#LIGHT_BLUE#Inspect [%s]%s", "#LIGHT_BLUE#Inspecter [%s]%s", "log")
 t("#LIGHT_BLUE#No actor to inspect", "#LIGHT_BLUE#Aucun acteur à inspecter", "log")
 t("#LIGHT_BLUE#Lua Inspect [%s]%s", "#LIGHT_BLUE#Inspecter Lua [%s]%s", "log")
 t("#LIGHT_BLUE#No actor to Lua inspect", "#LIGHT_BLUE#Aucun acteur à inspecter via Lua", "log")
-t("#LIGHT_BLUE#Bad filter for base actor: %s", "#LIGHT_BLUE#Mauvais filtre pour l'acteur de base: %s", "log")
-t("#LIGHT_BLUE#Could not generate a base actor with filter: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec le filtre: %s", "log")
+t("#LIGHT_BLUE#Bad filter for base actor: %s", "#LIGHT_BLUE#Mauvais filtre pour l'acteur de base : %s", "log")
+t("#LIGHT_BLUE#Could not generate a base actor with filter: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec le filtre : %s", "log")
 t([[#LIGHT_BLUE#Base actor could not be generated with filter [%s].
  Error:%s]], [[#LIGHT_BLUE#L'acteur de base n'a pas pu être généré avec le filtre [%s].
- Erreur:%s]], "log")
-t("#LIGHT_BLUE#Bad data for random boss actor: %s", "#LIGHT_BLUE#Mauvaises données pour l'acteur boss aléatoire: %s", "log")
-t("#LIGHT_BLUE#Could not generate a base actor with data: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec ces données: %s", "log")
+ Erreur : %s]], "log")
+t("#LIGHT_BLUE#Bad data for random boss actor: %s", "#LIGHT_BLUE#Mauvaises données pour l'acteur boss aléatoire : %s", "log")
+t("#LIGHT_BLUE#Could not generate a base actor with data: %s", "#LIGHT_BLUE#Impossible de générer un acteur de base avec ces données : %s", "log")
 t([[#LIGHT_BLUE#ERROR: Random Boss could not be generated with data [%s].
- Error:%s]], [[#LIGHT_BLUE#ERREUR: Le boss aléatoire n'a pas pu être généré avec les données [%s].
- Erreur:%s]], "log")
+ Error:%s]], [[#LIGHT_BLUE#ERREUR : Le boss aléatoire n'a pas pu être généré avec les données [%s].
+ Erreur : %s]], "log")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/RandomObject.lua"
 
-t("#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "#LIGHT_GREEN#(De %-10.60s, ligne: %s):#LAST#", "tformat")
+t("#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "#LIGHT_GREEN#(De %-10.60s, ligne : %s) :#LAST#", "tformat")
 t("unknown", "inconnu", "_t")
 t("None", "Aucune", "_t")
 t("Don't apply a resolver", "Ne pas appliquer de résolveur.", "_t")
@@ -44458,21 +44438,22 @@ Survolez les contrôles pour une prévisualisation de l'objet généré/acteur a
 Ils utilisent le #LIGHT_GREEN#Filtre aléatoire#LAST# comme entrée, sauf indication contraire, et contrôlent la destination de l'objet.
 Les filtres sont interprétés par les fonctions de génération d'entités/objets de ToME et du moteur (game.zone:checkFilter, etc.).
 L'interprétation des tables est effectuée dans l'environnement _G (utilisé par la console Lua) en utilisant la #YELLOW_GREEN#object_list#LAST# de la zone actuelle.
-Raccourcis: #GOLD#'F1'#LAST# :: aide contextuelle, #GOLD#'C'#LAST# :: Fiche de personnage, #GOLD#'I'#LAST# :: Inventaire.
+Raccourcis : #GOLD#'F1'#LAST# :: aide contextuelle, #GOLD#'C'#LAST# :: Fiche de personnage, #GOLD#'I'#LAST# :: Inventaire.
 ]], "_t")
 t("The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "Le #LIGHT_GREEN#Filtre aléatoire#LAST# contrôle la génération aléatoire d'un objet normal.", "tformat")
 t("#GREY#None#LAST#", "#GREY#Aucun#LAST#", "_t")
+t("%s: %s", "%s : %s", "tformat")
 t("Object", "Objet", "_t")
 t("Generate", "Générer", "_t")
 t("Add Object", "Ajouter un objet", "_t")
 t("Default Filter", "Filtre par défaut", "_t")
 t("Clear Object", "Effacer l'objet", "_t")
 t("#LIGHT_GREEN#Random Object#LAST#", "#LIGHT_GREEN#Objet aléatoire#LAST#", "_t")
-t("#LIGHT_GREEN#Random Filter:#LAST# ", "#LIGHT_GREEN#Filtre aléatoire:#LAST# ", "_t")
+t("#LIGHT_GREEN#Random Filter:#LAST# ", "#LIGHT_GREEN#Filtre aléatoire :#LAST# ", "_t")
 t("The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "Le #LIGHT_BLUE#Filtre de base#LAST# sert à générer un objet de base pour construire un artefact aléatoire.", "tformat")
 t("#LIGHT_BLUE#Base Object#LAST#", "#LIGHT_BLUE#Objet de base#LAST#", "_t")
-t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base:#LAST# ", "_t")
-t("#SALMON#Resolver selected:#LAST# ", "#SALMON#Résolveur sélectionné:#LAST# ", "tformat")
+t("#LIGHT_BLUE#Base Filter:#LAST# ", "#LIGHT_BLUE#Filtre de base :#LAST# ", "_t")
+t("#SALMON#Resolver selected:#LAST# ", "#SALMON#Résolveur sélectionné :#LAST# ", "tformat")
 t("An object resolver interprets additional filter fields to generate an object and determine where it will go.", "Un résolveur d'objets interprète des champs de filtre supplémentaires pour générer un objet et déterminer sa destination.", "_t")
 t("Dropdown text", "Texte du menu déroulant", "_t")
 t("No Tooltip", "Aucune infobulle", "_t")
@@ -44481,44 +44462,39 @@ t([[#ORANGE#Randart Data#LAST# contains parameters used to generate a Randart (i
 The #LIGHT_BLUE#Base Object#LAST# will be used if possible.]], [[#ORANGE#Les données d'artefact aléatoire#LAST# contiennent les paramètres utilisés pour générer un artefact aléatoire (interprété par game.state:generateRandart).
 L'#LIGHT_BLUE#Objet de base#LAST# sera utilisé si possible.]], "tformat")
 t("Default Data", "Données par défaut", "_t")
-t("#ORANGE#Randart Data:#LAST# ", "#ORANGE#Données d'artefact aléatoire:#LAST# ", "_t")
+t("#ORANGE#Randart Data:#LAST# ", "#ORANGE#Données d'artefact aléatoire : #LAST# ", "_t")
 t("#ORANGE#Randart#LAST#", "#ORANGE#Artefact aléatoire#LAST#", "_t")
 t("Show #GOLD#I#LAST#nventory", "Voir l'#GOLD#'I'#LAST#nventaire", "_t")
 t("Show #GOLD#C#LAST#haracter Sheet", "Voir la #GOLD#'C'#LAST# Feuille de personnage", "_t")
-t("Set working actor: [%s] %s", "Définir l'acteur de travail: [%s] %s", "tformat")
-t("Set working actor: [%s] %s%s", "Définir l'acteur de travail:[%s] %s%s", "tformat")
+t("Set working actor: [%s] %s", "Définir l'acteur de travail : [%s] %s", "tformat")
+t("Set working actor: [%s] %s%s", "Définir l'acteur de travail : [%s] %s%s", "tformat")
 t(" #LIGHT_GREEN#(player)#LAST#", " #LIGHT_GREEN#(joueur)#LAST#", "_t")
 t("#GREY#No Tooltip to Display#LAST#", "#GREY#Aucune infobulle à afficher#LAST#", "_t")
 t("Filter/Data/Resolver Reference", "Référence de Filtre/Données/Résolveur", "_t")
 t("#LIGHT_BLUE#Lua Inspect [%s] %s", "#LIGHT_BLUE#Inspecteur Lua [%s] %s", "log")
 t("#LIGHT_BLUE#Nothing to Lua inspect", "#LIGHT_BLUE#Rien à inspecter via Lua", "log")
-t("#LIGHT_BLUE#Bad %s: %s", "#LIGHT_BLUE#Mauvais %s: %s", "log")
+t("#LIGHT_BLUE#Bad %s: %s", "#LIGHT_BLUE#Mauvais %s : %s", "log")
 t("table definition", "définition de table", "_t")
-t("#LIGHT_BLUE# Generate Random object using resolver: %s", "#LIGHT_BLUE# Générer un objet aléatoire avec le résolveur: %s", "log")
-t("#LIGHT_BLUE# New random%s object: %s", "#LIGHT_BLUE# Nouvel objet aléatoire %s: %s", "log")
-t(" (resolver: %s)", " (résolveur: %s)", "tformat")
-t("#LIGHT_BLUE#Could not generate a random object with filter: %s", "#LIGHT_BLUE#Impossible de générer un objet aléatoire avec le filtre: %s", "log")
+t("#LIGHT_BLUE# Generate Random object using resolver: %s", "#LIGHT_BLUE# Générer un objet aléatoire avec le résolveur : %s", "log")
+t("#LIGHT_BLUE# New random%s object: %s", "#LIGHT_BLUE# Nouvel objet aléatoire %s : %s", "log")
+t(" (resolver: %s)", " (résolveur : %s)", "tformat")
+t("#LIGHT_BLUE#Could not generate a random object with filter: %s", "#LIGHT_BLUE#Impossible de générer un objet aléatoire avec le filtre : %s", "log")
 t([[#LIGHT_BLUE#ERROR generating random object with filter [%s].
  Error: %s]], [[#LIGHT_BLUE#ERREUR lors de la génération de l'objet aléatoire avec le filtre [%s].
- Erreur: %s]], "log")
-t("#LIGHT_BLUE#Could not generate a base object with filter: %s", "#LIGHT_BLUE#Impossible de générer un objet de base avec le filtre: %s", "log")
+ Erreur : %s]], "log")
+t("#LIGHT_BLUE#Could not generate a base object with filter: %s", "#LIGHT_BLUE#Impossible de générer un objet de base avec le filtre : %s", "log")
 t([[#LIGHT_BLUE#ERROR generating base object with filter [%s].
  Error:%s]], [[#LIGHT_BLUE#ERREUR lors de la génération de l'objet de base avec le filtre [%s].
- Erreur:%s]], "log")
-t("#LIGHT_BLUE#Could not generate a Randart with data: %s", "#LIGHT_BLUE#Impossible de générer un artefact aléatoire avec ces données: %s", "log")
+ Erreur : %s]], "log")
+t("#LIGHT_BLUE#Could not generate a Randart with data: %s", "#LIGHT_BLUE#Impossible de générer un artefact aléatoire avec ces données : %s", "log")
 t([[#LIGHT_BLUE#ERROR generating Randart with data [%s].
  Error:%s]], [[#LIGHT_BLUE#ERREUR lors de la génération de l'artefact aléatoire avec les données [%s].
- Erreur:%s]], "log")
+ Erreur : %s]], "log")
 t("#LIGHT_BLUE#No object to add", "#LIGHT_BLUE#Aucun objet à ajouter", "log")
 t([[#LIGHT_BLUE#ERROR accepting object with resolver %s.
  Error:%s]], [[#LIGHT_BLUE#ERREUR lors de l'acceptation de l'objet avec le résolveur %s.
- Erreur:%s]], "log")
+ Erreur : %s]], "log")
 t("#LIGHT_BLUE#Working Actor set to [%s]%s at (%d, %d)", "#LIGHT_BLUE#Acteur actif défini sur [%s]%s en (%d, %d)", "log")
--- texte non traduit
---[==[
-t("%s: %s", "%s: %s", "tformat")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/debug/SpawnEvent.lua"
@@ -44540,17 +44516,12 @@ t("Test dummy.", "Mannequin d'Entraînement.", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/elements/ChatPortrait.lua"
 
-
--- texte non traduit
---[==[
-t("???", "???", "_t")
---]==]
-
+t("???", " ???", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/orders/Behavior.lua"
 
-t("Set behavior: %s", "Définir le comportement: %s", "tformat")
+t("Set behavior: %s", "Définir le comportement : %s", "tformat")
 t("%s behavior set to %s.", "Comportement de %s défini sur %s.", "logPlayer")
 t("Default", "Défaut", "_t")
 t("Melee", "Mêlée", "_t")
@@ -44600,8 +44571,8 @@ t("#GREY#Invisible#LAST#", "#GREY#Invisible#LAST#", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/Shimmer.lua"
 
-t("Shimmer object: %s", "Objet chatoyant: %s", "tformat")
-t("Search: ", "Chercher: ", "_t")
+t("Shimmer object: %s", "Objet chatoyant : %s", "tformat")
+t("Search: ", "Chercher : ", "_t")
 t("Name", "Nom", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
@@ -44633,8 +44604,8 @@ t("#GREY#[Invisible]", "#GREY#[Invisible]", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/ShimmerOther.lua"
 
-t("Shimmer: %s", "Chatoyer: %s", "tformat")
-t("Search: ", "Chercher: ", "_t")
+t("Shimmer: %s", "Chatoyer : %s", "tformat")
+t("Search: ", "Chercher : ", "_t")
 t("Name", "Nom", "_t")
 t("\
 #{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
@@ -44652,14 +44623,14 @@ t("#GREY#[Default]", "#GREY#[Défaut]", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/ShimmerOutfits.lua"
 
-t("Shimmer Sets: %s", "Ensembles chatoyant: %s", "tformat")
-t("Search: ", "Chercher: ", "_t")
+t("Shimmer Sets: %s", "Ensembles chatoyant : %s", "tformat")
+t("Search: ", "Chercher : ", "_t")
 t("Name", "Nom", "_t")
 t([[You can switch your appearance to a saved set of shimmers.
 #{bold}#This is a purely cosmetic change.#{normal}#]], [[Vous pouvez changer votre apparence en un ensemble enregistré de chatoiements.
 #{bold}#Il s'agit d'un changement purement cosmétique.#{normal}#]], "_t")
 t("Save Outfit", "Enregistrer la tenue", "_t")
-t("Outfit name?", "Nom de la tenue?", "_t")
+t("Outfit name?", "Nom de la tenue ?", "_t")
 t("Donator Cosmetic Feature", "Elément cosmétique de donateur", "_t")
 t("This cosmetic feature is only available to donators/buyers.", "Cette fonctionnalité cosmétique n'est disponible que pour les acheteurs/donateurs.", "_t")
 t("shimmer ingame", "chatoyance en jeu", "_t")
@@ -44670,7 +44641,7 @@ t("#GOLD#[save current outfit]", "#GOLD#[enregistrer la tenue actuelle]", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/shimmer/ShimmerRemoveSustains.lua"
 
-t("Shimmer: Remove Sustains Effects", "Chatoyance: supprimer les effets soutenus", "_t")
+t("Shimmer: Remove Sustains Effects", "Chatoyance : supprimer les effets soutenus", "_t")
 t("Name", "Nom", "_t")
 t("Active", "Actif", "_t")
 t("\
@@ -44679,7 +44650,7 @@ t("\
 t([[#{bold}##CRIMSON#WARNING: this is an EXPERIMENTAL feature. It may explode!#LAST##{normal}#
 Sustains auras with name in #YELLOW#yellow#LAST# can not be automatically turned back on if disabled. After turning them on here, you need to unsustain and resustain them manually.
 
-#{bold}#This is a purely cosmetic change.#{normal}#]], [[#{bold}##CRIMSON#AVERTISSEMENT: il s'agit d'une fonctionnalité EXPÉRIMENTALE. Elle peut exploser !#LAST##{normal}#
+#{bold}#This is a purely cosmetic change.#{normal}#]], [[#{bold}##CRIMSON#AVERTISSEMENT : il s'agit d'une fonctionnalité EXPÉRIMENTALE. Elle peut exploser !#LAST##{normal}#
 Les auras soutenus dont le nom est #YELLOW#jaune#LAST# ne peut pas être automatiquement réactivé si elles sont désactivées. Après les avoir activés ici, vous devez les annuler et les réactiver manuellement.
 
 #{bold}#Il s'agit d'un changement purement cosmétique.#{normal}#]], "_t")
@@ -44792,7 +44763,7 @@ t("Talent", "Talent", "_t")
 ------------------------------------------------
 section "mod-tome/mod/init.lua"
 
-t("Tales of Maj'Eyal: Age of Ascendancy", "Tales of Maj'Eyal: L'Ère de l'Ascendance", "init.lua long_name")
+t("Tales of Maj'Eyal: Age of Ascendancy", "Tales of Maj'Eyal : L'Ère de l'Ascendance", "init.lua long_name")
 t([[Welcome to Maj'Eyal.
 
 This is the Age of Ascendancy. After over ten thousand years of strife, pain and chaos the known world is at last at relative peace.
@@ -44925,14 +44896,14 @@ t("Quiver", "Carquois", "_t")
 t("Your readied ammo.", "Vos munitions préparées.", "_t")
 t("Socketed Gems", "Gemmes en poche", "_t")
 t("Gems worn in/on the body, providing their worn bonuses.", "Pierres précieuses portées dans/sur le corps, fournissant leurs bonus portés.", "_t")
-t("Second weapon set: In main hand", "Deuxième ensemble d'armes: dans la main principale", "_t")
-t("Weapon Set 2: Most weapons are wielded in the main hand. Press 'x' to switch weapon sets.", "Ensemble d'armes 2: la plupart des armes sont utilisées dans la main principale. Appuyez sur 'x' pour changer d'armement.", "_t")
-t("Second weapon set: In off hand", "Deuxième ensemble d'armes: en main secondaire", "_t")
-t("Weapon Set 2: You can use shields or a second weapon in your off-hand, if you have the talents for it. Press 'x' to switch weapon sets.", "Ensemble d'armes 2: vous pouvez utiliser des boucliers ou une deuxième arme dans votre main libre, si vous en avez le talent. Appuyez sur 'x' pour changer d'armement.", "_t")
-t("Second weapon set: psionic focus", "Deuxième ensemble d'armes: focus psionique", "_t")
-t("Weapon Set 2: Object held in your telekinetic grasp. It can be a weapon or some other item to provide a benefit to your psionic powers. Press 'x' to switch weapon sets.", "Ensemble d'armes 2: Objet tenu sous votre emprise télékinésique. Cela peut être une arme ou un autre objet pour fournir un avantage à vos pouvoirs psioniques. Appuyez sur 'x' pour changer d'armement.", "_t")
-t("Second weapon set: Quiver", "Deuxième ensemble d'armes: Carquois", "_t")
-t("Weapon Set 2: Your readied ammo.", "Set d'armes 2: vos munitions préparées.", "_t")
+t("Second weapon set: In main hand", "Deuxième ensemble d'armes : dans la main principale", "_t")
+t("Weapon Set 2: Most weapons are wielded in the main hand. Press 'x' to switch weapon sets.", "Ensemble d'armes 2 : la plupart des armes sont utilisées dans la main principale. Appuyez sur 'x' pour changer d'armement.", "_t")
+t("Second weapon set: In off hand", "Deuxième ensemble d'armes : en main secondaire", "_t")
+t("Weapon Set 2: You can use shields or a second weapon in your off-hand, if you have the talents for it. Press 'x' to switch weapon sets.", "Ensemble d'armes 2 : vous pouvez utiliser des boucliers ou une deuxième arme dans votre main libre, si vous en avez le talent. Appuyez sur 'x' pour changer d'armement.", "_t")
+t("Second weapon set: psionic focus", "Deuxième ensemble d'armes : focus psionique", "_t")
+t("Weapon Set 2: Object held in your telekinetic grasp. It can be a weapon or some other item to provide a benefit to your psionic powers. Press 'x' to switch weapon sets.", "Ensemble d'armes 2 : Objet tenu sous votre emprise télékinésique. Cela peut être une arme ou un autre objet pour fournir un avantage à vos pouvoirs psioniques. Appuyez sur 'x' pour changer d'armement.", "_t")
+t("Second weapon set: Quiver", "Deuxième ensemble d'armes : Carquois", "_t")
+t("Weapon Set 2: Your readied ammo.", "Set d'armes 2 : vos munitions préparées.", "_t")
 t("Swift Hands", "Mains rapides", "_t")
 t("List of items that can be instantly used by swift hands.", "Liste des articles qui peuvent être utilisés instantanément par des mains rapides.", "_t")
 t("Strength", "Force", "stat name")

@@ -73,10 +73,10 @@ t("You have spared the last remnants of the Atmos Tribe, showing mercy where oth
 ------------------------------------------------
 section "tome-orcs/data/birth/classes/empyreal.lua"
 
-t("Their most important stats are: Magic and Constitution", "Leurs stats les plus importantes sont: Magie et Constitution", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("Their most important stats are: Magic and Constitution", "Leurs stats les plus importantes sont : Magie et Constitution", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +3 Constitution", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau:#LIGHT_BLUE# +0", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau :#LIGHT_BLUE# +0", "_t")
 -- texte non traduit
 --[==[
 t("Empyreal", "Empyreal", "birth descriptor name")
@@ -88,10 +88,10 @@ t("#LIGHT_BLUE# * +6 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +6 Magic,
 section "tome-orcs/data/birth/classes/tinker.lua"
 
 t("Tinker", "Bricoleur", "birth descriptor name")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +5 Force, +0 Dextérité, +1 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +3 Ruse", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# -1", "#GOLD#Vie par niveau:#LIGHT_BLUE# -1", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# -1", "#GOLD#Vie par niveau :#LIGHT_BLUE# -1", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +3 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +4 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +5 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +5 Ruse", "_t")
@@ -140,9 +140,9 @@ t("Skin Color 5", "Couleur de Peau 5", "_t")
 t("Tatoos 1", "Tatouages 1", "_t")
 t("Tatoos 2", "Tatouages 2", "_t")
 t("Tatoos 3", "Tatouages 3", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#Vie par niveau:#LIGHT_BLUE# 12", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#Vie par niveau :#LIGHT_BLUE# 12", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 12%", "_t")
 -- texte non traduit
 --[==[
 t("Horns", "Horns", "birth facial category")
@@ -208,9 +208,9 @@ t("Redhead Hair 2", "Cheveux Roux 2", "_t")
 t("- bleeding immunity", "- immunité au saignement", "_t")
 t("- fear immunity", "- immunité à la peur", "_t")
 t("- no need to breathe", "- pas besoin de respirer", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 14", "#GOLD#Vie par niveau:#LIGHT_BLUE# 14", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 15%", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 14", "#GOLD#Vie par niveau :#LIGHT_BLUE# 14", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 15%", "_t")
 -- texte non traduit
 --[==[
 t("Horns", "Horns", "birth facial category")
@@ -262,9 +262,9 @@ t("Beard 1", "Barbe 1", "_t")
 t("Beard 2", "Barbe 2", "_t")
 t("Beard 3", "Barbe 3", "_t")
 t("Mustache", "Moustache", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat:", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#Vie par niveau:#LIGHT_BLUE# 13", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience:#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#Vie par niveau :#LIGHT_BLUE# 13", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 12%", "_t")
 -- texte non traduit
 --[==[
 t("Horns", "Horns", "birth facial category")
@@ -633,7 +633,7 @@ section "tome-orcs/data/chats/weissi-machine.lua"
 
 t("[leave]", "[partir]", "_t")
 t("You cannot use your %s anymore; it is tainted by magic.", "Vous ne pouvez plus utiliser votre %s, la magie l'a contaminé.", "logPlayer")
-t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense:", "_t")
+t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense :", "_t")
 t("[Allow training of talent category %s (at mastery %0.2f)]", "[Autoriser l'apprentissage de la catégorie de talents %s (à la maîtrise %0.2f)]", "tformat")
 t("[%s talent %s (+%d level(s))]", "[%s le talent %s (+%d niveau(s))]", "tformat")
 t("Improve", "Améliore", "_t")
@@ -7739,7 +7739,7 @@ t("old road", "vieille route", "entity name")
 t("rockwall", "mur de roche", "entity type")
 t("grass", "herbe", "entity subtype")
 t("Sunwall mountain", "Montagnes du Mur Solaire", "entity name")
-t("Farportal: Last Hope", "Portail Lointain: Dernier Espoir", "entity name")
+t("Farportal: Last Hope", "Portail Lointain : Dernier Espoir", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go near the town of Last Hope in Maj'Eyal.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
 Celui-ci semble mener près de la ville de Dernier Espoir en Maj'Eyal.]], "_t")
@@ -9325,7 +9325,7 @@ section "tome-orcs/overload/mod/class/OrcCampaign.lua"
 t("Crit. chance: #00ff00#%s", "Chance crit      : #00ff00#%s", "tformat")
 t("She looks tired and wounded.", "Elle a l'air blessé et fatigué.", "_t")
 t("I've changed my mind.", "J'ai changé d'avis.", "_t")
-t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous?", "_t")
+t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous ?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
 t([[Do you want to name your item?
 %s]], [[Vous voulez donner un nom à votre objet ?
@@ -9333,7 +9333,7 @@ t([[Do you want to name your item?
 t("Yes, please.", "Oui, s'il vous plaît.", "_t")
 t("Name your item", "Nommez votre objet", "_t")
 t("Name", "Nom", "_t")
-t("#LIGHT_BLUE#The merchant carefully hands you: %s", "#LIGHT_BLUE#Le commerçant vous remet avec soin: %s", "log")
+t("#LIGHT_BLUE#The merchant carefully hands you: %s", "#LIGHT_BLUE#Le commerçant vous remet avec soin : %s", "log")
 t("No thanks.", "Non merci.", "_t")
 t("Oh I am sorry, it seems we could not make the item your require.", "Oh, je suis désolé, il semble que nous n'ayons pas pu répondre à votre demande.", "_t")
 t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
@@ -9392,11 +9392,11 @@ t("Learnt new tinker schematic: #LIGHT_GREEN#%s", "Learnt new tinker schematic: 
 section "tome-orcs/overload/mod/dialogs/CreateTinker.lua"
 
 t("Tinkers", "Babioles", "_t")
-t("Search: ", "Chercher: ", "_t")
+t("Search: ", "Chercher : ", "_t")
 t("Tinker", "Bricoleur", "_t")
 t("Status", "Statut", "_t")
 t("Create", "Créer", "_t")
-t("Requires:", "Requis :", "_t")
+t("Requires:", "Requis : ", "_t")
 -- texte non traduit
 --[==[
 t("", "", "_t")
