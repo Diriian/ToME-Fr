@@ -3443,6 +3443,7 @@ t([[At last you unlock the true power of your mutated body!
 ------------------------------------------------
 section "tome-cults/data/talents/demented/rift.lua"
 
+t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logPlayer")
 t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
@@ -3457,7 +3458,6 @@ On casting a Demented spell you have a 30%% chance of creating a void rift lasti
 
 You may activate this talent to forcibly destabilize spacetime, spawning %d void rifts around you.]], "tformat")
 t("Quantum Tunnelling", "Quantum Tunnelling", "talent name")
-t("You do not have line of sight.", "You do not have line of sight.", "logPlayer")
 t("You must target a void rift.", "You must target a void rift.", "logPlayer")
 t("%s's space-time folding fizzles!", "%s's space-time folding fizzles!", "logSeen")
 t("%s emerges from a space-time rift!", "%s emerges from a space-time rift!", "logSeen")
