@@ -28607,7 +28607,7 @@ t([[Turn part of your target into fire, burning the rest for %0.2f fire damage o
 ------------------------------------------------
 section "mod-tome/data/talents/spells/water.lua"
 
-t("Ice Shards", "Eclats de Glace", "talent name")
+t("Ice Shards", "Éclats de Glace", "talent name")
 t("Shivgoroth Form", "Forme de Shivgoroth", "talent name")
 t("You are already a Shivgoroth!", "Vous êtes déjà sous forme de Shivgoroth !", "logPlayer")
 -- texte non traduit
@@ -30056,80 +30056,74 @@ t("turn", "tour", "_t")
 ------------------------------------------------
 section "mod-tome/data/talents/uber/const.lua"
 
-t("Spine of the World", "Épine Dorsale du Monde", "talent name")
-t("Fungal Blood", "Sang Fongique", "talent name")
--- texte non traduit
---[==[
-t("Draconic Body", "Draconic Body", "talent name")
-t("Be close to the draconic world", "Be close to the draconic world", "_t")
-t("%s's draconic body hardens and heals!", "%s's draconic body hardens and heals!", "logSeen")
-t("Your body hardens and recovers quickly. When pushed below 30%% life, you instantly restore 40%% of your total life.", "Your body hardens and recovers quickly. When pushed below 30%% life, you instantly restore 40%% of your total life.", "tformat")
-t("Bloodspring", "Bloodspring", "talent name")
-t("Have let Melinda be sacrificed", "Have let Melinda be sacrificed", "_t")
+t("Draconic Body", "Corps Draconique", "talent name")
+t("Be close to the draconic world", "Être proche du monde draconique", "_t")
+t("%s's draconic body hardens and heals!", "Le corps draconique de %s se durcit et se régénère !", "logSeen")
+t("Your body hardens and recovers quickly. When pushed below 30%% life, you instantly restore 40%% of your total life.", "Votre corps se durcit et récupère rapidement. Lorsque vos points de vie tombent sous 30%%, vous récupérez instantanément 40%% de votre vie maximale.", "tformat")
+t("Bloodspring", "Source de Sang", "talent name")
+t("Have let Melinda be sacrificed", "A laissé Melinda être sacrifiée", "_t")
 t([[When a single blow deals more than 15%% of your total life, a torrent of blood gushes from your body, creating a bloody tidal wave for 4 turns that deals %0.2f blight damage, heals you for 50%% of the damage done, and knocks foes back.
-		The damage increases with your Constitution.]], [[When a single blow deals more than 15%% of your total life, a torrent of blood gushes from your body, creating a bloody tidal wave for 4 turns that deals %0.2f blight damage, heals you for 50%% of the damage done, and knocks foes back.
-		The damage increases with your Constitution.]], "tformat")
-t("Eternal Guard", "Eternal Guard", "talent name")
-t("Know the Block talent", "Know the Block talent", "_t")
-t("Your Block talent now lasts for 2 game turns and you can apply Counterstrike to any number of enemies.", "Your Block talent now lasts for 2 game turns and you can apply Counterstrike to any number of enemies.", "tformat")
-t("Never Stop Running", "Never Stop Running", "talent name")
-t("Know at least 20 levels of stamina-using talents", "Know at least 20 levels of stamina-using talents", "_t")
-t("While this talent is active, you dig deep into your stamina reserves, allowing you to move without taking a turn. However, this costs 12 stamina for each tile that you cross.", "While this talent is active, you dig deep into your stamina reserves, allowing you to move without taking a turn. However, this costs 12 stamina for each tile that you cross.", "tformat")
-t("Armour of Shadows", "Armour of Shadows", "talent name")
-t("Have dealt over 50000 darkness damage", "Have dealt over 50000 darkness damage", "_t")
+		The damage increases with your Constitution.]], [[Lorsqu'un seul coup inflige plus de 15%% de votre vie maximale, un torrent de sang jaillit de votre corps, créant pendant 4 tours une vague de sang qui inflige %0.2f dégâts de fléau, vous soigne à hauteur de 50%% des dégâts infligés et repousse les ennemis.
+		Les dégâts sont proportionnels à votre Constitution.]], "tformat")
+t("Eternal Guard", "Garde Éternelle", "talent name")
+t("Know the Block talent", "Connaître le talent Blocage", "_t")
+t("Your Block talent now lasts for 2 game turns and you can apply Counterstrike to any number of enemies.", "Votre talent Blocage dure désormais 2 tours de jeu et vous pouvez appliquer Contre-Attaque à n'importe quel nombre d'ennemis.", "tformat")
+t("Never Stop Running", "Ne Jamais Cesser de Courir", "talent name")
+t("Know at least 20 levels of stamina-using talents", "Connaître au moins 20 niveaux de talents utilisant de l'endurance", "_t")
+t("While this talent is active, you dig deep into your stamina reserves, allowing you to move without taking a turn. However, this costs 12 stamina for each tile that you cross.", "Tant que ce talent est actif, vous puisez profondément dans vos réserves d'endurance, ce qui vous permet de vous déplacer sans consommer de tour. Cependant, cela coûte 12 points d'endurance par case parcourue.", "tformat")
+t("Armour of Shadows", "Armure des Ombres", "talent name")
+t("Have dealt over 50000 darkness damage", "A infligé plus de 50 000 dégâts d'obscurité", "_t")
 t([[You know how to protect yourself with the deepest shadows. As long as you stand on an unlit tile you gain %d armour, 50%% armour hardiness, and 20%% evasion.
 		Any time you deal darkness damage, you will unlight both the target tile and yours.
 		Passively increases your stealth rating by %d.
-		The armor bonus scales with your Constitution.]], [[You know how to protect yourself with the deepest shadows. As long as you stand on an unlit tile you gain %d armour, 50%% armour hardiness, and 20%% evasion.
-		Any time you deal darkness damage, you will unlight both the target tile and yours.
-		Passively increases your stealth rating by %d.
-		The armor bonus scales with your Constitution.]], "tformat")
-t("Your back is as hard as stone. Each time that you are affected by a physical effect, your body hardens, making you immune to all other physical effects for 5 turns.", "Your back is as hard as stone. Each time that you are affected by a physical effect, your body hardens, making you immune to all other physical effects for 5 turns.", "tformat")
-t("Be able to use infusions", "Be able to use infusions", "_t")
+		The armor bonus scales with your Constitution.]], [[Vous savez vous protéger grâce aux ombres les plus profondes. Tant que vous vous tenez sur une case non éclairée, vous gagnez %d d'armure, 50%% de robustesse d'armure et 20%% d'esquive.
+		Chaque fois que vous infligez des dégâts d'obscurité, votre case et celle de la cible deviennent non éclairées.
+		Augmente passivement votre score de furtivité de %d.
+		Le bonus d'armure est proportionnel à votre Constitution.]], "tformat")
+t("Spine of the World", "Épine Dorsale du Monde", "talent name")
+t("Your back is as hard as stone. Each time that you are affected by a physical effect, your body hardens, making you immune to all other physical effects for 5 turns.", "Votre dos est dur comme la pierre. Chaque fois que vous subissez un effet physique votre corps se durcit, vous rendant immunisé à tous les autres effets physiques pendant 5 tours.", "tformat")
+t("Fungal Blood", "Sang Fongique", "talent name")
+t("Be able to use infusions", "Être capable d'utiliser des essences", "_t")
 t([[Fungal spores have colonized your blood, so that each time you use an infusion you store %d fungal power.
 		You may use this prodigy to release the power as a heal (never more than %d life) and remove up to 10 detrimental magical effects.
 		Fungal power lasts for up to 6 turns, losing the greater of 10 potency or 10%% of its power each turn.
-		The amount of fungal power produced and the maximum heal possible increase with your Constitution and maximum life.]], [[Fungal spores have colonized your blood, so that each time you use an infusion you store %d fungal power.
-		You may use this prodigy to release the power as a heal (never more than %d life) and remove up to 10 detrimental magical effects.
-		Fungal power lasts for up to 6 turns, losing the greater of 10 potency or 10%% of its power each turn.
-		The amount of fungal power produced and the maximum heal possible increase with your Constitution and maximum life.]], "tformat")
-t("Corrupted Shell", "Corrupted Shell", "talent name")
-t("Have received at least 3500 blight damage and destroyed Zigur with the Grand Corruptor.", "Have received at least 3500 blight damage and destroyed Zigur with the Grand Corruptor.", "_t")
+		The amount of fungal power produced and the maximum heal possible increase with your Constitution and maximum life.]], [[Des spores fongiques ont colonisé votre sang, de sorte que chaque fois que vous utilisez une essence vous accumulez %d points de puissance fongique.
+		Vous pouvez utiliser ce prodige pour libérer cette énergie sous forme de soin (sans jamais dépasser %d points de vie) et supprimer jusqu'à 10 effets magiques néfastes.
+		La puissance fongique dure jusqu'à 6 tours et perd à chaque tour la plus élevée des deux valeurs suivantes : 10 points de puissance ou 10%% de sa puissance actuelle.
+		La quantité de puissance fongique générée ainsi que le soin maximal sont proportionnels à votre Constitution et votre vie maximale.]], "tformat")
+t("Corrupted Shell", "Carapace Corrompue", "talent name")
+t("Have received at least 3500 blight damage and destroyed Zigur with the Grand Corruptor.", "A subi au moins 3500 dégâts de fléau et détruit Zigur avec le Grand Corrupteur.", "_t")
 t([[Thanks to your newfound knowledge of corruption, you've learned some tricks for toughening your body... but only if you are healthy enough to withstand the strain from the changes.
 		Improves your life by 500, your defense by %d, your armour by %d, your armour hardiness by 20%% and your saves by %d as your natural toughness and reflexes are pushed beyond their normal limits.
-		Your saves armour and defense will improve with your Constitution.]], [[Thanks to your newfound knowledge of corruption, you've learned some tricks for toughening your body... but only if you are healthy enough to withstand the strain from the changes.
-		Improves your life by 500, your defense by %d, your armour by %d, your armour hardiness by 20%% and your saves by %d as your natural toughness and reflexes are pushed beyond their normal limits.
-		Your saves armour and defense will improve with your Constitution.]], "tformat")
---]==]
-
+		Your saves armour and defense will improve with your Constitution.]], [[Grâce à votre nouvelle compréhension de la corruption, vous avez appris quelques techniques pour renforcer votre corps... mais seulement si vous êtes assez robuste pour supporter ces transformations.
+		Augmente votre vie de 500, votre défense de %d, votre armure de %d, votre robustesse d'armure de 20%%, et vos sauvegardes de %d, tandis que votre endurance naturelle et vos réflexes sont poussés au-delà de leurs limites habituelles.
+		Vos sauvegardes, votre armure et votre défense sont proportionnels à votre Constitution.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/uber/cun.lua"
 
 t("Fast As Lightning", "Rapide Comme l'Éclair", "talent name")
-t("Antimagic", "Anti-magie", "_t")
--- texte non traduit
---[==[
-t("#LIGHT_BLUE#%s slows from critical velocity!", "#LIGHT_BLUE#%s slows from critical velocity!", "logSeen")
-t("#LIGHT_BLUE#%s reaches critical velocity!", "#LIGHT_BLUE#%s reaches critical velocity!", "logSeen")
+t("#LIGHT_BLUE#%s slows from critical velocity!", "#LIGHT_BLUE#%s ralentit depuis la vitesse critique !", "logSeen")
+t("#LIGHT_BLUE#%s reaches critical velocity!", "#LIGHT_BLUE#%s atteint la vitesse critique !", "logSeen")
 t([[When moving over 800%% speed for at least 3 steps in the same direction, you become so fast you can blink through obstacles as if they were not there.
 		While moving this fast you have 50%% chances to fully ignore an attack by displacing yourself (this may only happen once per turn).
-		Changing direction will break the effect.]], [[When moving over 800%% speed for at least 3 steps in the same direction, you become so fast you can blink through obstacles as if they were not there.
-		While moving this fast you have 50%% chances to fully ignore an attack by displacing yourself (this may only happen once per turn).
-		Changing direction will break the effect.]], "tformat")
-t("Tricky Defenses", "Tricky Defenses", "talent name")
+		Changing direction will break the effect.]], [[En vous déplaçant à plus de 800%% de vitesse pendant au moins 3 pas dans la même direction, vous devenez si rapide que vous pouvez traverser les obstacles comme s'ils n'existaient pas.
+		En vous déplaçant aussi vite, vous avez 50%% de chance d'ignorer complètement une attaque en vous déplaçant (cela ne peut se produire qu'une fois par tour).
+		Changer de direction brisera l'effet.]], "tformat")
+t("Tricky Defenses", "Défenses Astucieuses", "talent name")
+t("Antimagic", "Anti-magie", "_t")
 t([[You are full of tricks and surprises; your Antimagic Shield can absorb %d%% more damage.
-		The increase scales with your Cunning.]], [[You are full of tricks and surprises; your Antimagic Shield can absorb %d%% more damage.
-		The increase scales with your Cunning.]], "tformat")
-t("Endless Woes", "Endless Woes", "talent name")
-t("Have dealt over 10000 acid, blight, darkness, mind or temporal damage", "Have dealt over 10000 acid, blight, darkness, mind or temporal damage", "_t")
-t("You unleash a blast of #LIGHT_STEEL_BLUE#temporal#LAST# energy!", "You unleash a blast of #LIGHT_STEEL_BLUE#temporal#LAST# energy!", "logSeen")
-t("You unleash a blast of #DARK_GREEN#virulent blight!#LAST#!", "You unleash a blast of #DARK_GREEN#virulent blight!#LAST#!", "logSeen")
-t("You unleash a blast of #GREEN#acid#LAST#!", "You unleash a blast of #GREEN#acid#LAST#!", "logSeen")
-t("You unleash a blast of numbing #GREY#darkness#LAST#!", "You unleash a blast of numbing #GREY#darkness#LAST#!", "logSeen")
-t("You unleash a confusing blast of #YELLOW#mental#LAST# energy!", "You unleash a confusing blast of #YELLOW#mental#LAST# energy!", "logSeen")
-t("You unleash a crippling blast of earthen energy!", "You unleash a crippling blast of earthen energy!", "logSeen")
-t("(Cooldowns)", "(Cooldowns)", "_t")
+		The increase scales with your Cunning.]], [[Vous êtes plein de tours et de surprises ; votre Bouclier Anti-magie peut absorber %d%% dégâts supplémentaires.
+		L'augmentation est proportionnelle à votre Ruse.]], "tformat")
+t("Endless Woes", "Afflictions Sans Fin", "talent name")
+t("Have dealt over 10000 acid, blight, darkness, mind or temporal damage", "A infligé plus de 10000 dégâts d'acide, de fléau, d'obscurité, mentaux, ou temporels", "_t")
+t("You unleash a blast of #LIGHT_STEEL_BLUE#temporal#LAST# energy!", "Vous déchaînez une explosion d'énergie #LIGHT_STEEL_BLUE#temporelle#LAST# !", "logSeen")
+t("You unleash a blast of #DARK_GREEN#virulent blight!#LAST#!", "Vous déchaînez une explosion de #DARK_GREEN#fléau virulent#LAST# !", "logSeen")
+t("You unleash a blast of #GREEN#acid#LAST#!", "Vous déchaînez une explosion d'#GREEN#acide#LAST# !", "logSeen")
+t("You unleash a blast of numbing #GREY#darkness#LAST#!", "Vous déchaînez une explosion d'#GREY#obscurité#LAST# engourdissante !", "logSeen")
+t("You unleash a confusing blast of #YELLOW#mental#LAST# energy!", "Vous déchaînez une explosion d'énergie #YELLOW#mentale#LAST# désorientante !", "logSeen")
+t("You unleash a crippling blast of earthen energy!", "Vous déchaînez une explosion d'énergie terrienne handicapante !", "logSeen")
+t("(Cooldowns)", "(Rechargements)", "_t")
 t([[Surround yourself with a malevolent aura that stores damage you deal.
 		Whenever you have stored %d damage of one type you unleash a powerful blast at a random enemy dealing %d damage of that type in radius %d and applying one of the following effects:
 
@@ -30142,32 +30136,32 @@ t([[Surround yourself with a malevolent aura that stores damage you deal.
 
 		Each effect can only happen once per 10 player turns.  This does not count as a typical cooldown.
 		The damage and effect power increase with your Cunning, the threshold with your level, and the apply power is the highest of your mind or spell power.
-		%s]], [[Surround yourself with a malevolent aura that stores damage you deal.
-		Whenever you have stored %d damage of one type you unleash a powerful blast at a random enemy dealing %d damage of that type in radius %d and applying one of the following effects:
+		%s]], [[Entourez-vous d'une aura malveillante qui stocke les dégâts que vous infligez.
+		Chaque fois que vous avez accumulé %d dégâts d'un type, vous déchaînez une puissante explosion sur un ennemi aléatoire, infligeant %d dégâts de ce type dans un rayon de %d et appliquant l'un des effets suivants :
 
-		Physical:		Slows combat, mind, and spell speed by 20%%.
-		#GREEN#Acid:#LAST#  Deals %d acid damage each turn for 5 turns (%d total).
-		#DARK_GREEN#Blight:#LAST#  Deals %d blight damage each turn for 5 turns and reduces strength, constitution, and dexterity by %d.
-		#GREY#Darkness:#LAST#  Reduces damage dealt by %d%% for 5 turns.
-		#LIGHT_STEEL_BLUE#Temporal:#LAST#  Slows global action speed by %d%% for 5 turns.
-		#ORANGE#Mind:#LAST#  Confuses (power %d%%) for 5 turns.
+		* Physique : Réduit la vitesse de combat, mentale, et magique de 20%%.
+		* #GREEN#Acide :#LAST# Inflige %d dégâts d'acide à chaque tour pendant 5 tours (%d au total).
+		* #DARK_GREEN#Désolation :#LAST# Inflige %d dégâts de fléau à chaque tour pendant 5 tours et réduit la Force, la Constitution, et la Dextérité de %d.
+		* #GREY#Obscurité :#LAST# Réduit les dégâts infligés de %d%% pendant 5 tours.
+		* #LIGHT_STEEL_BLUE#Temporel :#LAST# Réduit la vitesse d'action globale de %d%% pendant 5 tours.
+		* #ORANGE#Mental :#LAST# Provoque la Confusion (%d%% de puissance) pendant 5 tours.
 
-		Each effect can only happen once per 10 player turns.  This does not count as a typical cooldown.
-		The damage and effect power increase with your Cunning, the threshold with your level, and the apply power is the highest of your mind or spell power.
+		Chaque effet ne peut se produire qu'une fois toutes les 10 tours du joueur. Cela ne compte pas comme un rechargement normal.
+		Les dégâts et la puissance des effets sont proportionnels à votre Ruse, le seuil avec votre niveau, et la puissance d'application est la plus élevée entre votre Puissance mentale et votre Puissance des sorts.
 		%s]], "tformat")
-t("Secrets of Telos", "Secrets of Telos", "talent name")
-t("Possess Telos Top Half, Telos Bottom Half, and Telos Staff Crystal", "Possess Telos Top Half, Telos Bottom Half, and Telos Staff Crystal", "_t")
-t("#VIOLET#%s assembles %s!", "#VIOLET#%s assembles %s!", "logSeen")
-t("You have obtained the three parts of the Staff of Telos and studied them carefully. You believe that you can merge them back into a single highly potent staff.", "You have obtained the three parts of the Staff of Telos and studied them carefully. You believe that you can merge them back into a single highly potent staff.", "tformat")
-t("Elemental Surge", "Elemental Surge", "talent name")
-t("Have dealt over 10000 arcane, fire, cold, lightning, light or nature damage", "Have dealt over 10000 arcane, fire, cold, lightning, light or nature damage", "_t")
-t("%s surges with earthen power!", "%s surges with earthen power!", "logSeen")
-t("%s surges with #PURPLE#arcane#LAST# power!", "%s surges with #PURPLE#arcane#LAST# power!", "logSeen")
-t("%s surges with #LIGHT_RED#fiery#LAST# power!", "%s surges with #LIGHT_RED#fiery#LAST# power!", "logSeen")
-t("%s surges with #1133F3#icy#LAST# power!", "%s surges with #1133F3#icy#LAST# power!", "logSeen")
-t("%s surges with #ROYAL_BLUE#lightning#LAST# power!", "%s surges with #ROYAL_BLUE#lightning#LAST# power!", "logSeen")
-t("%s surges with #YELLOW#light#LAST# power!", "%s surges with #YELLOW#light#LAST# power!", "logSeen")
-t("%s surges with #LIGHT_GREEN#natural#LAST# power!", "%s surges with #LIGHT_GREEN#natural#LAST# power!", "logSeen")
+t("Secrets of Telos", "Secrets de Telos", "talent name")
+t("Possess Telos Top Half, Telos Bottom Half, and Telos Staff Crystal", "Possède la Moitié Supérieure, la Moitié Inférieure et le Cristal du Bâton de Telos", "_t")
+t("#VIOLET#%s assembles %s!", "#VIOLET#%s reconstitue %s !", "logSeen")
+t("You have obtained the three parts of the Staff of Telos and studied them carefully. You believe that you can merge them back into a single highly potent staff.", "Vous avez obtenu les trois parties du Bâton de Telos et les avez étudiées soigneusement. Vous pensez pouvoir les fusionner à nouveau en un unique bâton extrêmement puissant.", "tformat")
+t("Elemental Surge", "Sursaut Élémentaire", "talent name")
+t("Have dealt over 10000 arcane, fire, cold, lightning, light or nature damage", "A infligé plus de 10000 dégâts arcaniques, de feu, de froid, de foudre, de lumière, ou de nature", "_t")
+t("%s surges with earthen power!", "%s déborde de puissance terrienne !", "logSeen")
+t("%s surges with #PURPLE#arcane#LAST# power!", "%s déborde de puissance #PURPLE#arcanique#LAST# !", "logSeen")
+t("%s surges with #LIGHT_RED#fiery#LAST# power!", "%s déborde de puissance de #LIGHT_RED#feu#LAST# !", "logSeen")
+t("%s surges with #1133F3#icy#LAST# power!", "%s déborde de puissance de #1133F3#froid#LAST# !", "logSeen")
+t("%s surges with #ROYAL_BLUE#lightning#LAST# power!", "%s déborde de puissance de #ROYAL_BLUE#foudre#LAST# !", "logSeen")
+t("%s surges with #YELLOW#light#LAST# power!", "%s déborde de puissance de #YELLOW#lumière#LAST# !", "logSeen")
+t("%s surges with #LIGHT_GREEN#natural#LAST# power!", "%s déborde de puissance #LIGHT_GREEN#naturelle#LAST# !", "logSeen")
 t([[Surround yourself with an elemental aura that stores damage you deal.
 		Whenever you have stored %d damage of one type you unleash a powerful blast at a random enemy dealing %d damage of that type in radius %d and granting you one of the following effects:
 
@@ -30181,130 +30175,178 @@ t([[Surround yourself with an elemental aura that stores damage you deal.
 
 		Each effect can only happen once per 10 player turns.  This does not count as a typical cooldown.
 		The damage and some effect powers increase with your Cunning and the threshold with your level.
-		%s]], [[Surround yourself with an elemental aura that stores damage you deal.
-		Whenever you have stored %d damage of one type you unleash a powerful blast at a random enemy dealing %d damage of that type in radius %d and granting you one of the following effects:
+		%s]], [[Entourez-vous d'une aura élémentaire qui stocke les dégâts que vous infligez.
+		Chaque fois que vous avez accumulé %d dégâts d'un type, vous déchaînez une puissante explosion sur un ennemi aléatoire, infligeant %d dégâts de ce type dans un rayon de %d et vous accordant l'un des effets suivants :
 
-		Physical:		Cleanses 1 physical debuff and grant immunity to physical debuffs for 2 turns.
-		#PURPLE#Arcane:#LAST#		Increases your mind and spell action speeds by 30%% for 3 turns.
-		#LIGHT_RED#Fire:#LAST#		Increases all damage dealt by %d%% for 3 turns.
-		#1133F3#Cold:#LAST#		Turns your skin into ice for 3 turns increasing armor by %d and dealing %d ice damage to attackers.
-		#ROYAL_BLUE#Lightning:#LAST#	Increases your movement speed by %d%% for 2 turns.
-		#YELLOW#Light:#LAST#		Reduces all cooldowns by 20%% for 3 turns.
-		#LIGHT_GREEN#Nature:#LAST#		Cleanses 1 magical debuff and grant immunity to magical debuffs for 2 turns.
+		* Physique : Supprime 1 Malus physique et accorde une immunité aux Malus physiques pendant 2 tours.
+		* #PURPLE#Arcanique :#LAST# Augmente vos vitesses d'action mentale et magique de 30%% pendant 3 tours.
+		* #LIGHT_RED#Feu :#LAST# Augmente tous les dégâts infligés de %d%% pendant 3 tours.
+		* #1133F3#Froid :#LAST# Transforme votre peau en glace pendant 3 tours, augmentant l'armure de %d et infligeant %d dégâts de froid aux attaquants.
+		* #ROYAL_BLUE#Foudre :#LAST# Augmente votre vitesse de déplacement de %d%% pendant 2 tours.
+		* #YELLOW#Lumière :#LAST# Réduit tous les rechargements de 20%% pendant 3 tours.
+		* #LIGHT_GREEN#Nature :#LAST# Supprime 1 Malus magique et accorde une immunité aux Malus magiques pendant 2 tours.
 
-		Each effect can only happen once per 10 player turns.  This does not count as a typical cooldown.
-		The damage and some effect powers increase with your Cunning and the threshold with your level.
+		Chaque effet ne peut se produire qu'une fois toutes les 10 tours du joueur. Cela ne compte pas comme un rechargement normal.
+		Les dégâts et certaines puissances d'effet sont proportionnels à votre Ruse et le seuil avec votre niveau.
 		%s]], "tformat")
-t("All physical criticals reduce the remaining cooldown of a random technique or cunning talent by 2.", "All physical criticals reduce the remaining cooldown of a random technique or cunning talent by 2.", "_t")
-t("All spell criticals reduce the remaining cooldown of a random spell/corruption/celestial/chronomancy talent by 2.", "All spell criticals reduce the remaining cooldown of a random spell/corruption/celestial/chronomancy talent by 2.", "_t")
-t("All mind criticals reduce the remaining cooldown of a random wild gift/psionic/afflicted talent by 2.", "All mind criticals reduce the remaining cooldown of a random wild gift/psionic/afflicted talent by 2.", "_t")
-t("Eye of the Tiger", "Eye of the Tiger", "talent name")
+t("All physical criticals reduce the remaining cooldown of a random technique or cunning talent by 2.", "Tous les coups critiques physiques réduisent le rechargement restant d'une technique ou d'un talent de Ruse aléatoire de 2.", "_t")
+t("All spell criticals reduce the remaining cooldown of a random spell/corruption/celestial/chronomancy talent by 2.", "Tous les coups critiques magiques réduisent le rechargement restant d'un talent de sort/corruption/céleste/chronomancie aléatoire de 2.", "_t")
+t("All mind criticals reduce the remaining cooldown of a random wild gift/psionic/afflicted talent by 2.", "Tous les coups critiques mentaux réduisent le rechargement restant d'un talent de don sauvage/psionique/affligé aléatoire de 2.", "_t")
+t("Eye of the Tiger", "Oeil du Tigre", "talent name")
 t([[%s		
 		This can only happen once per turn per type, and cannot affect the talent that triggers it.]], [[%s		
-		This can only happen once per turn per type, and cannot affect the talent that triggers it.]], "tformat")
-t("Worldly Knowledge", "Worldly Knowledge", "talent name")
-t("Worldly Knowledge", "Worldly Knowledge", "_t")
-t([[- %s
-]], [[- %s
-]], "tformat")
+		Cela ne peut se produire qu'une fois par tour et par type, et ne peut pas affecter le talent qui le déclenche.]], "tformat")
+t("Worldly Knowledge", "Savoir Universel", "talent name")
+t("Worldly Knowledge", "Savoir Universel", "_t")
 t([[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are not available to magic users, and Group 3 are not available to antimagic characters.
 		GROUP 1:
 %s
 		GROUP 2:
 %s
 		GROUP 3:
-%s]], [[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are not available to magic users, and Group 3 are not available to antimagic characters.
-		GROUP 1:
+%s]], [[Gagnez 5 points de talent génériques et apprenez une nouvelle catégorie de talent parmi celles ci-dessous avec une maîtrise de 1.0, déverrouillée. Les catégories du Groupe 1 sont disponibles pour tous ; celles du Groupe 2 ne sont pas disponibles pour les utilisateurs de magie, et celles du Groupe 3 ne sont pas disponibles pour les personnages anti-magie.
+		GROUPE 1 :
 %s
-		GROUP 2:
+		GROUPE 2 :
 %s
-		GROUP 3:
+		GROUPE 3 :
 %s]], "tformat")
-t("Adept", "Adept", "talent name")
+t("Adept", "Adepte", "talent name")
 t([[You are adept at many different skills, granting you +1.5 to all known talent levels.
-		This works on already known talents and those that you will learn afterwards.]], [[You are adept at many different skills, granting you +1.5 to all known talent levels.
-		This works on already known talents and those that you will learn afterwards.]], "tformat")
-t("Tricks of the Trade", "Tricks of the Trade", "talent name")
-t("Have sided with the Assassin Lord", "Have sided with the Assassin Lord", "_t")
+		This works on already known talents and those that you will learn afterwards.]], [[Vous êtes adepte de nombreuses compétences différentes, vous accordant +1,5 à tous les niveaux de talents connus.
+		Cela fonctionne sur les talents déjà connus et ceux que vous apprendrez par la suite.]], "tformat")
+t("Tricks of the Trade", "Ficelles du Métier", "talent name")
+t("Have sided with the Assassin Lord", "S'est allié au Seigneur Assassin", "_t")
 t([[You have friends in low places and have learned some underhanded tricks.
 		Gain 0.2 Category Mastery to the Cunning/Stealth Category (or unlock it, if you have the tree and it is locked), and either gain +0.1 to the Cunning/Scoundrel category or learn and unlock the category at 0.9 if you lack it.
-		Additionally, all of your damage penalties from invisibility are permanently halved.]], [[You have friends in low places and have learned some underhanded tricks.
-		Gain 0.2 Category Mastery to the Cunning/Stealth Category (or unlock it, if you have the tree and it is locked), and either gain +0.1 to the Cunning/Scoundrel category or learn and unlock the category at 0.9 if you lack it.
-		Additionally, all of your damage penalties from invisibility are permanently halved.]], "tformat")
+		Additionally, all of your damage penalties from invisibility are permanently halved.]], [[Vous avez des amis dans des endroits peu recommandables et avez appris quelques tours dissimulés.
+		Gagnez 0,2 de maîtrise dans la catégorie Ruse/Furtivité (ou déverrouillez-la si vous avez l'arbre mais qu'elle est verrouillée), et gagnez +0,1 dans la catégorie Ruse/Crapule ou apprenez-la et déverrouillez-la à 0,9 si vous ne la possédez pas.
+		De plus, toutes vos pénalités de dégâts liées à l'invisibilité sont définitivement réduites de moitié.]], "tformat")
+-- texte non traduit
+--[==[
+t([[- %s
+]], [[- %s
+]], "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/talents/uber/dex.lua"
 
-t("Through The Crowd", "À travers la foule", "talent name")
-t("Swift Hands", "Mains rapides", "talent name")
--- texte non traduit
---[==[
-t("Flexible Combat", "Flexible Combat", "talent name")
-t("Each time that you make a melee attack you have a 50%% chance to execute an additional unarmed strike.", "Each time that you make a melee attack you have a 50%% chance to execute an additional unarmed strike.", "tformat")
-t("Have had at least 6 party members at the same time", "Have had at least 6 party members at the same time", "_t")
+t("Flexible Combat", "Combat Flexible", "talent name")
+t("Each time that you make a melee attack you have a 50%% chance to execute an additional unarmed strike.", "Chaque fois que vous effectuez une attaque de mêlée, vous avez 50%% de chance d'exécuter une frappe à mains nues supplémentaire.", "tformat")
+t("Through The Crowd", "À Travers la Foule", "talent name")
+t("Have had at least 6 party members at the same time", "A eu au moins 6 membres dans le groupe simultanément", "_t")
 t([[You are used to a crowded party:
 		- you can swap places with friendly creatures in just one tenth of a turn as a passive effect.
 		- you can never damage your friends or neutral creatures while this talent is active.
 		- you love being surrounded by friends; for each friendly creature in sight you gain +10 to all saves and +3%% to global speed (max 15%%)
-		- every party member is also automatically granted Through The Crowd]], [[You are used to a crowded party:
-		- you can swap places with friendly creatures in just one tenth of a turn as a passive effect.
-		- you can never damage your friends or neutral creatures while this talent is active.
-		- you love being surrounded by friends; for each friendly creature in sight you gain +10 to all saves and +3%% to global speed (max 15%%)
-		- every party member is also automatically granted Through The Crowd]], "tformat")
-t("Manage Swift Hands", "Manage Swift Hands", "talent name")
-t("You can only prepare your swift hands tools outside of combat.", "You can only prepare your swift hands tools outside of combat.", "logPlayer")
-t("Manage your swift hands readied tools.", "Manage your swift hands readied tools.", "_t")
-t("Use tool", "Use tool", "_t")
+		- every party member is also automatically granted Through The Crowd]], [[Vous êtes habitué à un groupe chargé :
+		* Vous pouvez échanger votre place avec des créatures amies en seulement un dixième de tour comme effet passif.
+		* Vous ne pouvez jamais blesser vos amis ou des créatures neutres tant que ce talent est actif.
+		* Vous adorez être entouré d'amis ; pour chaque créature amie en vue, vous gagnez +10 à toutes les sauvegardes et +3%% à la vitesse globale (maximum 15%%).
+		* Chaque membre du groupe reçoit également automatiquement À Travers la Foule.]], "tformat")
+t("Manage Swift Hands", "Gérer les Mains Agiles", "talent name")
+t("You can only prepare your swift hands tools outside of combat.", "Vous ne pouvez préparer vos outils de mains agiles qu'en dehors du combat.", "logPlayer")
+t("Manage your swift hands readied tools.", "Gérez vos outils préparés avec Mains Agiles.", "_t")
+t("Swift Hands", "Mains Agiles", "talent name")
+t("Use tool", "Utiliser l'outil", "_t")
 t([[You like to keep your most precious tools always at hand. This talent lets you prepare up to 4 items in advance (outside of combat).
 		Then at a moment's notice you can use any of them as if they were worn.
-		In addition swapping equipment sets (default q key) takes no time.]], [[You like to keep your most precious tools always at hand. This talent lets you prepare up to 4 items in advance (outside of combat).
-		Then at a moment's notice you can use any of them as if they were worn.
-		In addition swapping equipment sets (default q key) takes no time.]], "tformat")
-t("Windblade", "Windblade", "talent name")
-t("Have dealt over 50000 damage with dual wielded weapons", "Have dealt over 50000 damage with dual wielded weapons", "_t")
-t("You spin madly, generating a sharp gust of wind with your weapons that deals 320%% weapon damage to all targets within radius 4 and disarms them for 4 turns.", "You spin madly, generating a sharp gust of wind with your weapons that deals 320%% weapon damage to all targets within radius 4 and disarms them for 4 turns.", "tformat")
-t("Windtouched Speed", "Windtouched Speed", "talent name")
-t("Know at least 10 talent levels of equilibrium-using talents", "Know at least 10 talent levels of equilibrium-using talents", "_t")
+		In addition swapping equipment sets (default q key) takes no time.]], [[Vous aimez garder vos outils les plus précieux toujours à portée de main. Ce talent vous permet de préparer jusqu'à 4 objets à l'avance (hors combat).
+		Vous pouvez alors les utiliser à tout moment comme s'ils étaient équipés.
+		De plus, le changement de set d'équipement (touche q par défaut) est instantané.]], "tformat")
+t("Windblade", "Lame du Vent", "talent name")
+t("Have dealt over 50000 damage with dual wielded weapons", "A infligé plus de 50000 dégâts en maniement de deux armes", "_t")
+t("You spin madly, generating a sharp gust of wind with your weapons that deals 320%% weapon damage to all targets within radius 4 and disarms them for 4 turns.", "Vous tournoyez frénétiquement, générant une violente rafale de vent avec vos armes qui inflige 320%% dégâts d'arme à toutes les cibles dans un rayon de 4 et les désarme pendant 4 tours.", "tformat")
+t("Windtouched Speed", "Vitesse du Vent", "talent name")
+t("Know at least 10 talent levels of equilibrium-using talents", "Connaît au moins 10 niveaux de talents utilisant l'équilibre", "_t")
 t([[You are attuned with Nature, and she helps you in your fight against the arcane forces.
-		You gain 20%% permanent global speed, 10%% cooldowns reduction and do not trigger pressure traps.]], [[You are attuned with Nature, and she helps you in your fight against the arcane forces.
-		You gain 20%% permanent global speed, 10%% cooldowns reduction and do not trigger pressure traps.]], "tformat")
-t("Crafty Hands", "Crafty Hands", "talent name")
-t("Know Imbue Item to level 5", "Know Imbue Item to level 5", "_t")
-t("You are very crafty. You can now also embed gems into helms and belts.", "You are very crafty. You can now also embed gems into helms and belts.", "tformat")
-t("Roll With It", "Roll With It", "talent name")
-t("Have been knocked around at least 50 times", "Have been knocked around at least 50 times", "_t")
+		You gain 20%% permanent global speed, 10%% cooldowns reduction and do not trigger pressure traps.]], [[Vous êtes en harmonie avec la Nature, et elle vous aide dans votre combat contre les forces arcaniques.
+		Vous gagnez 20%% de vitesse globale permanente, 10%% de réduction des rechargements et ne déclenchez pas les pièges à pression.]], "tformat")
+t("Crafty Hands", "Mains Habiles", "talent name")
+t("Know Imbue Item to level 5", "Connaît Imprégner un Objet au niveau 5", "_t")
+t("You are very crafty. You can now also embed gems into helms and belts.", "Vous êtes très habile. Vous pouvez désormais également incruster des gemmes dans les heaumes et les ceintures.", "tformat")
+t("Roll With It", "Roule avec", "talent name")
+t("Have been knocked around at least 50 times", "A subi l'effet de Recule au moins 50 fois", "_t")
 t([[You have learned to take a few hits when needed and can flow with the tide of battle.
 		So long as you can move, you find a way to dodge, evade, deflect or otherwise reduce physical damage against you by %d%%.
 		Once per turn, when you get hit by a melee or archery attack you move back one tile for free and gain 200%% movement speed for a turn.
-		The damage avoidance scales with your Dexterity and applies after resistances.]], [[You have learned to take a few hits when needed and can flow with the tide of battle.
-		So long as you can move, you find a way to dodge, evade, deflect or otherwise reduce physical damage against you by %d%%.
-		Once per turn, when you get hit by a melee or archery attack you move back one tile for free and gain 200%% movement speed for a turn.
-		The damage avoidance scales with your Dexterity and applies after resistances.]], "tformat")
-t("Vital Shot", "Vital Shot", "talent name")
-t("Have dealt over 50000 damage with ranged weapons", "Have dealt over 50000 damage with ranged weapons", "_t")
+		The damage avoidance scales with your Dexterity and applies after resistances.]], [[Vous avez appris à encaisser quelques coups quand c'est nécessaire et pouvez suivre le flux de la bataille.
+		Tant que vous pouvez vous déplacer, vous trouvez un moyen d'esquiver, d'éviter, de dévier ou autrement de réduire les dégâts physiques contre vous de %d%%.
+		Une fois par tour, lorsque vous êtes touché par une attaque de mêlée ou d'archerie, vous reculez d'une case gratuitement et gagnez 200%% de vitesse de déplacement pendant un tour.
+		L'évitement des dégâts est proportionnel à votre Dextérité et s'applique après les résistances.]], "tformat")
+t("Vital Shot", "Tir Vital", "talent name")
+t("Have dealt over 50000 damage with ranged weapons", "A infligé plus de 50000 dégâts avec des armes à distance", "_t")
 t([[You fire a shot straight at your enemy's vital areas, wounding them terribly.
 		Enemies hit by this shot will take 450%% weapon damage and will be stunned and crippled (losing 50%% physical, magical and mental attack speeds) for five turns due to the devastating impact of the shot.
-		The stun and cripple chances increase with your Accuracy.]], [[You fire a shot straight at your enemy's vital areas, wounding them terribly.
-		Enemies hit by this shot will take 450%% weapon damage and will be stunned and crippled (losing 50%% physical, magical and mental attack speeds) for five turns due to the devastating impact of the shot.
-		The stun and cripple chances increase with your Accuracy.]], "tformat")
---]==]
-
+		The stun and cripple chances increase with your Accuracy.]], [[Vous tirez un coup droit sur les zones vitales de votre ennemi, le blessant terriblement.
+		Les ennemis touchés par ce tir subissent 450%% de dégâts d'arme et sont assommés et estropiés (perdant 50%% de vitesses d'attaque physique, magique et mentale) pendant cinq tours en raison de l'impact dévastateur du tir.
+		Les chances d'assommement et d'estropiation sont proportionnels à votre Précision.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/uber/mag.lua"
 
-t("Ethereal Form", "Forme Ethérée", "talent name")
+t("Spectral Shield", "Bouclier Spectral", "talent name")
+t("Know the Block talent, have cast 100 spells, and have a block value over 200", "Connaît le talent Bloquer, a lancé 100 sorts et possède une valeur de blocage supérieure à 200", "_t")
+t("By infusing your shield with raw magic, your block can now block any damage type.", "En infusant votre bouclier de magie brute, votre blocage peut désormais bloquer tout type de dégâts.", "tformat")
+t("Ethereal Form", "Forme Éthérée", "talent name")
+t("Have an effective defense of at least 40", "Possède une défense effective d'au moins 40", "_t")
+t([[You gain 25%% absolute damage resistance and 25%% all damage penetration.  Each time you are struck by a weapon these bonuses are reduced by 5%% but fully recovered after 8 turns.
+			Additionally, you gain 70%% of the highest of your Magic or Dexterity stat as defense (%d)]], [[Vous gagnez 25%% de résistance absolue aux dégâts et 25%% de pénétration globale. Chaque fois que vous êtes frappé par une arme, ces bonus sont réduits de 5%%, mais entièrement récupérés après 8 tours.
+			De plus, vous gagnez 70%% de votre statistique Magie ou Dextérité (la plus élevée) en défense (%d).]], "tformat")
 t("Aether Permeation", "Paroie d'Éther", "talent name")
+t("Have been exposed to the void of space", "A été exposé au vide de l'espace", "_t")
 t("#ORCHID#Aether Permeation protects %s from a dispel!", "#ORCHID#Paroie d'Éther protège %s contre la dissipation !", "logSeen")
-t("Temporal Form", "Forme temporelle", "talent name")
-t("Revisionist History", "Histoire Révisionniste", "talent name")
-t("Cauterize", "Cautérisation", "talent name")
-t("Lich", "Liche", "talent name")
-t("Lichform", "Forme de Liche", "_t")
--- nouveau texte
---[==[
+t([[You manifest a thin layer of aether all around you. 
+		Any time you are the target of a dispel effect the aether strengthens around you, protecting you from the dispel and any further ones for 6 turns and unsustaining this spell.
+		While undisturbed the layer of aether provides you with 40 raw spellpower.]], [[Vous manifestez une fine couche d'éther autour de vous.
+		Chaque fois que vous êtes la cible d'un effet de dissipation, l'éther se renforce autour de vous, vous protégeant de la dissipation et de toute autre pendant 6 tours, désactivant ce sort.
+		Tant qu'elle n'est pas perturbée, la couche d'éther vous confère 40 de Puissance de sorts brute.]], "tformat")
+t("Mystical Cunning", "Ruse Mystique", "talent name")
+t("Know how to either prepare traps or apply poisons", "Sait comment préparer des pièges ou appliquer des poisons", "_t")
+t([[Your study of arcane forces has let you develop a new way of applying your aptitude for trapping and poisons.
+
+		You gain 1.0 mastery in the Cunning/Poisons and Cunning/Trapping talent trees.
+		Your Venomous Strike talent cooldown is reduced by 3.
+		Your Lure talent cooldown is reduced by 5.
+
+		You learn the following talents:
+%s]], [[Votre étude des forces arcaniques vous a permis de développer une nouvelle façon d'appliquer votre aptitude aux pièges et aux poisons.
+		* Vous gagnez 1,0 de maîtrise dans les arbres de talents Ruse/Poisons et Ruse/Piégeage.
+		* Le rechargement de votre talent Frappe Venimeuse est réduit de 3 tours.
+		* Le rechargement de votre talent Leurre est réduit de 5 tours.
+
+		Vous apprenez également les talents suivants :
+%s]], "tformat")
+t("Arcane Might", "Puissance Arcanique", "talent name")
+t([[You have learned to harness your latent arcane powers, channeling them through your weapon.
+		This has the following effects:
+		Equipped weapons are treated as having an additional 50%% Magic modifier;
+		Your raw Physical Power is increased by 100%% of your raw Spellpower;
+		Your physical critical chance is increased by 25%% of your bonus spell critical chance.]], [[Vous avez appris à exploiter vos pouvoirs arcaniques latents en les canalisant à travers votre arme, produisant les effets suivants :
+		* Les armes équipées bénéficient d'un modificateur de Magie supplémentaire de 50%%.
+		* Votre Puissance physique brute est augmentée de 100%% de votre Puissance de sorts brute.
+		* Votre chance de coup critique physique est augmentée de 25%% de votre chance de critique magique bonus.]], "tformat")
+t("Temporal Form", "Forme Temporelle", "talent name")
+t("Have cast over 1000 spells and visited a zone outside of time", "A lancé plus de 1000 sorts et visité une zone hors du temps", "_t")
+t([[You can wrap temporal threads around you, assuming the form of a telugoroth for 10 turns.
+		While in this form you gain pinning, bleeding, blindness and stun immunity, 30%% temporal resistance, your temporal damage bonus is set to your current highest damage bonus + 30%%, 50%% of the damage you deal becomes temporal, and you gain 20%% temporal resistance penetration.
+		You also are able to cast anomalies: Anomaly Rearrange, Anomaly Temporal Storm, Anomaly Flawed Design, Anomaly Gravity Pull and Anomaly Wormhole.]], [[Vous pouvez enrouler des fils temporels autour de vous, prenant la forme d'un telugoroth pendant 10 tours.
+		Dans cette forme, vous gagnez :
+		- Immunité à l'immobilisation, au saignement, à l'aveuglement et à l'assommement.
+		- 30%% de résistance temporelle.
+		- Votre bonus de dégâts temporels est fixé à votre bonus de dégâts le plus élevé actuel + 30%%.
+		- 50%% des dégâts que vous infligez deviennent temporels.
+		- 20%% de pénétration de résistance temporelle.
+		Vous pouvez également lancer les anomalies suivantes :
+		- Anomalie : Réorganisation
+		- Anomalie : Tempête Temporelle
+		- Anomalie : Conception Défectueuse
+		- Anomalie : Attraction Gravitationnelle
+		- Anomalie : Trou de Ver.]], "tformat")
+t("Blighted Summoning", "Invocation Maculée", "talent name")
+t("Have summoned at least 100 creatures. More permanent summons may count as more than 1.", "A invoqué au moins 100 créatures. Les invocations plus permanentes peuvent compter pour plus de 1.", "_t")
 t([[You infuse blighted energies into all of your summons, granting them Bone Shield (level 3) and a bonus to Spellpower equal to your Magic.
 		Your Wilder Summons and Necrotic Minions will gain special corrupted talents (level 3), other summons will gain 10%% Blight damage conversion and Virulent Disease (level 3).
 		#GREEN#Wilder Summons:#LAST#
@@ -30326,116 +30368,61 @@ t([[You infuse blighted energies into all of your summons, granting them Bone Sh
 		- Ghouls: Virulent Disease
 		- Dread: Slumber
 		%s
-		]], [[You infuse blighted energies into all of your summons, granting them Bone Shield (level 3) and a bonus to Spellpower equal to your Magic.
-		Your Wilder Summons and Necrotic Minions will gain special corrupted talents (level 3), other summons will gain 10%% Blight damage conversion and Virulent Disease (level 3).
-		#GREEN#Wilder Summons:#LAST#
-		- War Hound: Gnaw
-		- Jelly: Curse of Defencelessness
-		- Minotaur: Ruin
-		- Golem: Acid Blood
-		- Ritch: Life Tap
-		- Hydra: Blood Spray
-		- Rimebark: Poison Storm
-		- Fire Drake: Flame of Urh’Rok
-		- Turtle: Elemental Discord
-		- Spider: Blood Grasp
-		#GREY#Necrotic Minions:#LAST#
-		- Skeleton Mages: Bone Spear
-		- Skeleton Archers: Bone Spike
-		- Skeleton Warriors: Ruin
-		- Bone Giants: Bone Spike and Ruin
-		- Ghouls: Virulent Disease
-		- Dread: Slumber
+		]], [[Vous infusez des énergies de fléau dans toutes vos invocations, leur accordant Bouclier d'Os (niveau 3) et un bonus de Puissance des Sorts égal à votre Magie.
+		Vos Invocations de Naturalistes et vos Laquais Nécrotiques gagneront des talents corrompus spéciaux (niveau 3), les autres invocations gagneront 10%% de conversion de dégâts de fléau et Maladie Virulente (niveau 3).
+		#GREEN#Invocations de Naturalistes :#LAST#
+		* Chien de Guerre : Morsure
+		* Gelée : Malédiction de Vulnérabilité
+		* Minotaure : Ruine
+		* Golem : Sang Acide
+		* Ritch : Ponction de Vie
+		* Hydre : Jet de Sang
+		* Givrécorce : Tempête de Poison
+		* Dragonnet de Feu : Flamme d'Urh'Rok
+		* Tortue : Discorde Élémentaire
+		* Araignée : Étreinte de Sang
+		#GREY#Laquais Nécrotiques :#LAST#
+		* Mages Squelettes : Lance d'Os
+		* Archers Squelettes : Pointe d'Os
+		* Guerriers Squelettes : Ruine
+		* Géants d'Os : Pointe d'Os et Ruine
+		* Ghouls : Maladie Virulente
+		* Terreur : Sommeil
 		%s
 		]], "tformat")
---]==]
-
--- texte non traduit
---[==[
-t("Spectral Shield", "Spectral Shield", "talent name")
-t("Know the Block talent, have cast 100 spells, and have a block value over 200", "Know the Block talent, have cast 100 spells, and have a block value over 200", "_t")
-t("By infusing your shield with raw magic, your block can now block any damage type.", "By infusing your shield with raw magic, your block can now block any damage type.", "tformat")
-t("Have an effective defense of at least 40", "Have an effective defense of at least 40", "_t")
-t([[You gain 25%% absolute damage resistance and 25%% all damage penetration.  Each time you are struck by a weapon these bonuses are reduced by 5%% but fully recovered after 8 turns.
-			Additionally, you gain 70%% of the highest of your Magic or Dexterity stat as defense (%d)]], [[You gain 25%% absolute damage resistance and 25%% all damage penetration.  Each time you are struck by a weapon these bonuses are reduced by 5%% but fully recovered after 8 turns.
-			Additionally, you gain 70%% of the highest of your Magic or Dexterity stat as defense (%d)]], "tformat")
-t("Have been exposed to the void of space", "Have been exposed to the void of space", "_t")
-t([[You manifest a thin layer of aether all around you. 
-		Any time you are the target of a dispel effect the aether strengthens around you, protecting you from the dispel and any further ones for 6 turns and unsustaining this spell.
-		While undisturbed the layer of aether provides you with 40 raw spellpower.]], [[You manifest a thin layer of aether all around you. 
-		Any time you are the target of a dispel effect the aether strengthens around you, protecting you from the dispel and any further ones for 6 turns and unsustaining this spell.
-		While undisturbed the layer of aether provides you with 40 raw spellpower.]], "tformat")
-t("Mystical Cunning", "Mystical Cunning", "talent name")
-t("Know how to either prepare traps or apply poisons", "Know how to either prepare traps or apply poisons", "_t")
-t([[%s
-#YELLOW#%s#LAST#
-%s
-]], [[%s
-#YELLOW#%s#LAST#
-%s
-]], "tformat")
-t([[Your study of arcane forces has let you develop a new way of applying your aptitude for trapping and poisons.
-
-		You gain 1.0 mastery in the Cunning/Poisons and Cunning/Trapping talent trees.
-		Your Venomous Strike talent cooldown is reduced by 3.
-		Your Lure talent cooldown is reduced by 5.
-
-		You learn the following talents:
-%s]], [[Your study of arcane forces has let you develop a new way of applying your aptitude for trapping and poisons.
-
-		You gain 1.0 mastery in the Cunning/Poisons and Cunning/Trapping talent trees.
-		Your Venomous Strike talent cooldown is reduced by 3.
-		Your Lure talent cooldown is reduced by 5.
-
-		You learn the following talents:
-%s]], "tformat")
-t("Arcane Might", "Arcane Might", "talent name")
-t([[You have learned to harness your latent arcane powers, channeling them through your weapon.
-		This has the following effects:
-		Equipped weapons are treated as having an additional 50%% Magic modifier;
-		Your raw Physical Power is increased by 100%% of your raw Spellpower;
-		Your physical critical chance is increased by 25%% of your bonus spell critical chance.]], [[You have learned to harness your latent arcane powers, channeling them through your weapon.
-		This has the following effects:
-		Equipped weapons are treated as having an additional 50%% Magic modifier;
-		Your raw Physical Power is increased by 100%% of your raw Spellpower;
-		Your physical critical chance is increased by 25%% of your bonus spell critical chance.]], "tformat")
-t("Have cast over 1000 spells and visited a zone outside of time", "Have cast over 1000 spells and visited a zone outside of time", "_t")
-t([[You can wrap temporal threads around you, assuming the form of a telugoroth for 10 turns.
-		While in this form you gain pinning, bleeding, blindness and stun immunity, 30%% temporal resistance, your temporal damage bonus is set to your current highest damage bonus + 30%%, 50%% of the damage you deal becomes temporal, and you gain 20%% temporal resistance penetration.
-		You also are able to cast anomalies: Anomaly Rearrange, Anomaly Temporal Storm, Anomaly Flawed Design, Anomaly Gravity Pull and Anomaly Wormhole.]], [[You can wrap temporal threads around you, assuming the form of a telugoroth for 10 turns.
-		While in this form you gain pinning, bleeding, blindness and stun immunity, 30%% temporal resistance, your temporal damage bonus is set to your current highest damage bonus + 30%%, 50%% of the damage you deal becomes temporal, and you gain 20%% temporal resistance penetration.
-		You also are able to cast anomalies: Anomaly Rearrange, Anomaly Temporal Storm, Anomaly Flawed Design, Anomaly Gravity Pull and Anomaly Wormhole.]], "tformat")
-t("Blighted Summoning", "Blighted Summoning", "talent name")
-t("Have summoned at least 100 creatures. More permanent summons may count as more than 1.", "Have summoned at least 100 creatures. More permanent summons may count as more than 1.", "_t")
-t("Have time-travelled at least once", "Have time-travelled at least once", "_t")
+t("Revisionist History", "Histoire Révisionniste", "talent name")
+t("Have time-travelled at least once", "A voyagé dans le temps au moins une fois", "_t")
 t([[You can now control the recent past. Upon using this prodigy you gain a temporal effect for 20 turns.
 		While this effect holds you can use the prodigy again to rewrite history.
-		This prodigy splits the timeline. Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.]], [[You can now control the recent past. Upon using this prodigy you gain a temporal effect for 20 turns.
-		While this effect holds you can use the prodigy again to rewrite history.
-		This prodigy splits the timeline. Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.]], "tformat")
-t("Unfold History", "Unfold History", "talent name")
-t("Rewrite the recent past to go back to when you cast Revisionist History.", "Rewrite the recent past to go back to when you cast Revisionist History.", "tformat")
-t("Have received at least 3500 fire damage and have cast at least 1000 spells", "Have received at least 3500 fire damage and have cast at least 1000 spells", "_t")
+		This prodigy splits the timeline. Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.]], [[Vous pouvez désormais contrôler le passé récent. En utilisant ce prodige, vous gagnez un effet temporel pendant 20 tours.
+		Tant que cet effet est actif, vous pouvez utiliser à nouveau le prodige pour réécrire l'histoire.
+		Ce prodige divise la chronologie. Tenter d'utiliser un autre sort qui divise également la chronologie pendant que cet effet est actif échouera.]], "tformat")
+t("Unfold History", "Dérouler l'Histoire", "talent name")
+t("Rewrite the recent past to go back to when you cast Revisionist History.", "Réécrivez le passé récent pour revenir au moment où vous avez lancé Histoire Révisionniste.", "tformat")
+t("Cauterize", "Cautérisation", "talent name")
+t("Have received at least 3500 fire damage and have cast at least 1000 spells", "A reçu au moins 3500 dégâts de feu et lancé au moins 1000 sorts", "_t")
 t([[Your inner flame is strong. Each time that you receive a blow that would kill you, your body is wreathed in flames.
 		The flames will cauterize the wound, fully absorbing all damage done this turn, but they will continue to burn for 8 turns.
 		Each turn 10%% of the damage absorbed will be dealt by the flames. This will bypass resistance and affinity.
-		Warning: this has a cooldown.]], [[Your inner flame is strong. Each time that you receive a blow that would kill you, your body is wreathed in flames.
-		The flames will cauterize the wound, fully absorbing all damage done this turn, but they will continue to burn for 8 turns.
-		Each turn 10%% of the damage absorbed will be dealt by the flames. This will bypass resistance and affinity.
-		Warning: this has a cooldown.]], "tformat")
-t("Is a living creature that knows necromancy", "Is a living creature that knows necromancy", "_t")
-t("Have completed the ritual", "Have completed the ritual", "_t")
-t("#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.", "#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.", "log")
+		Warning: this has a cooldown.]], [[Votre flamme intérieure est puissante. Chaque fois que vous recevez un coup qui vous tuerait, votre corps est enveloppé de flammes.
+		Les flammes cautériseront la blessure, absorbant entièrement tous les dégâts infligés ce tour, mais continueront à brûler pendant 8 tours.
+		À chaque tour, 10%% des dégâts absorbés seront infligés par les flammes, ignorant les résistances et les affinités.
+		Attention : cet effet a un rechargement.]], "tformat")
+t("Lich", "Liche", "talent name")
+t("Is a living creature that knows necromancy", "Est une créature vivante qui connaît la nécomancie", "_t")
+t("Have completed the ritual", "A accompli le rituel", "_t")
+t("#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.", "#GREY#En vous transformant en un puissant mort-vivant, vous sentez votre corps rejeter violemment le Sang de Vie.", "log")
+t("Lichform", "Forme de Liche", "_t")
 t([[#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!
 
-#{italic}#You may now choose to customize the appearance of your Lich, this can not be changed afterwards.]], [[#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!
+#{italic}#You may now choose to customize the appearance of your Lich, this can not be changed afterwards.]], [[#GREY#Vous sentez votre vie vous quitter, remplacée par de pures forces arcaniques ! Votre chair commence à pourrir sur vos os, et vos yeux se décomposent tandis que vous renaissez en Liche !
 
-#{italic}#You may now choose to customize the appearance of your Lich, this can not be changed afterwards.]], "_t")
-t("Lich Cosmetic Options", "Lich Cosmetic Options", "_t")
-t("Customize Appearance", "Customize Appearance", "_t")
-t("Use Default", "Use Default", "_t")
-t("#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!", "#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!", "_t")
-t("#DARK_ORCHID#You are on your way to Lichdom. #{bold}#Your next death will finish the ritual.#{normal}#", "#DARK_ORCHID#You are on your way to Lichdom. #{bold}#Your next death will finish the ritual.#{normal}#", "say")
+#{italic}#Vous pouvez maintenant personnaliser l'apparence de votre Liche, ce choix ne pourra pas être modifié par la suite.#{normal}#]], "_t")
+t("Lich Cosmetic Options", "Options Cosmétiques de Liche", "_t")
+t("Customize Appearance", "Personnaliser l'Apparence", "_t")
+t("Use Default", "Utiliser le Modèle par Défaut", "_t")
+t("#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!", "#GREY#Vous sentez votre vie vous quitter, remplacée par de pures forces arcaniques ! Votre chair commence à pourrir sur vos os, et vos yeux se décomposent tandis que vous renaissez en Liche !", "_t")
+t("#DARK_ORCHID#You are on your way to Lichdom. #{bold}#Your next death will finish the ritual.#{normal}#", "#DARK_ORCHID#Vous êtes en chemin vers la Forme de Liche. #{bold}#Votre prochaine mort achèvera le rituel.#{normal}#", "say")
 t([[This is your true goal and the purpose of all necromancy - to become a powerful and everliving Lich!
 		Once learnt, the next time you are killed, the arcane forces you unleash will be able to rebuild your body into the desired Lichform.
 		Liches are immune to poisons, diseases, fear, cuts, stuns, do not need to breath and are 20%% resistant to cold and darkness.
@@ -30446,20 +30433,19 @@ t([[This is your true goal and the purpose of all necromancy - to become a power
 		- Frightening Presence: Your mere presence is enough to shatter the resolve of most, reducing their saves, damage and movement speed.
 		- Doomed for Eternity: As a creature of doom and despair you now constantly spawn undead shadows around you.
 		- Commander of the Dead: You are able to infuse all undead party members (including yourself) with un-natural power, increasing your physical and spellpower.
-		]], [[This is your true goal and the purpose of all necromancy - to become a powerful and everliving Lich!
-		Once learnt, the next time you are killed, the arcane forces you unleash will be able to rebuild your body into the desired Lichform.
-		Liches are immune to poisons, diseases, fear, cuts, stuns, do not need to breath and are 20%% resistant to cold and darkness.
-		Liches also gain +12 Magic, Willpower and Cunning, 60%% chance to ignore critical hits, +4 life rating (not retroactive), +35 spell and mental saves and 7 mana regeneration.
+		]], [[Tel est votre véritable objectif et la raison d'être de toute nécromancie : devenir une puissante et éternelle Liche !
+		Une fois appris, la prochaine fois que vous mourrez, les forces arcaniques que vous libérez pourront reconstruire votre corps dans la Forme de Liche désirée.
+		Les Liches sont immunisées aux poisons, maladies, peur, Entailles, assommements, n'ont pas besoin de respirer et ont 20%% de résistance au froid et à l'obscurité.
+		Les Liches gagnent également +12 en Magie, Volonté et Ruse, 60%% de chance d'ignorer les coups critiques, +4 de valorisation de vie (non rétroactif), +35 de sauvegardes magique et mentale et +7 de régénération de mana.
 
-		Liches gain a new racial tree with the following talents:
-		- Neverending Unlife: A Lich body is extremely resilient, being able to go into negative life and when destroyed it can regenerate itself.
-		- Frightening Presence: Your mere presence is enough to shatter the resolve of most, reducing their saves, damage and movement speed.
-		- Doomed for Eternity: As a creature of doom and despair you now constantly spawn undead shadows around you.
-		- Commander of the Dead: You are able to infuse all undead party members (including yourself) with un-natural power, increasing your physical and spellpower.
-		]], "tformat")
-t("High Thaumaturgist", "High Thaumaturgist", "talent name")
-t("Unlocked the High Thaumaturgist evolution", "Unlocked the High Thaumaturgist evolution", "_t")
-t("High Thaumaturgist", "High Thaumaturgist", "_t")
+		Les Liches gagnent un nouvel arbre racial avec les talents suivants :
+		* Mort-Vive Infinie : Le corps d'une Liche est extrêmement résistant, pouvant passer en vie négative et, lorsqu'il est détruit, il peut se régénérer.
+		* Présence Effrayante : Votre simple présence suffit à briser la volonté de la plupart, réduisant leurs sauvegardes, dégâts et vitesse de déplacement.
+		* Condamné pour l'Éternité : En tant que créature de la perdition et du désespoir, vous faites désormais constamment apparaître des ombres mortes-vivantes autour de vous.
+		* Commandant des Morts : Vous pouvez infuser tous les membres morts-vivants du groupe (y compris vous-même) d'une puissance surnaturelle, augmentant leur puissance physique et magique.]], "tformat")
+t("High Thaumaturgist", "Haut Thaumaturge", "talent name")
+t("Unlocked the High Thaumaturgist evolution", "A déverrouillé l'évolution Haut Thaumaturge", "_t")
+t("High Thaumaturgist", "Haut Thaumaturge", "_t")
 t([[Thaumaturgists have unlocked a deeper understanding of their spells, allowing them to combine the elements into new ways and to empower them.
 		The spells Flame, Manathrust, Lightning, Pulverizing Auger and Ice Shards are permanently turned into 3-wide beams spells.
 		In addition they have access to the unique Thaumaturgy class tree:
@@ -30467,78 +30453,85 @@ t([[Thaumaturgists have unlocked a deeper understanding of their spells, allowin
 		- Multicaster: When casting a beam spell adds a chance to also cast an other archmage spell
 		- Slipstream: Allows movement when casting beams
 		- Elemental Array Burst: a powerful, multi-elemental beam spell that can inflict all elemental ailments and can not be resisted
-		#CRIMSON#The fine spellcasting required for wide beams and all thaumaturgy spells can only happen while wearing cloth. Anything heavier will hinder the casting too much.]], [[Thaumaturgists have unlocked a deeper understanding of their spells, allowing them to combine the elements into new ways and to empower them.
-		The spells Flame, Manathrust, Lightning, Pulverizing Auger and Ice Shards are permanently turned into 3-wide beams spells.
-		In addition they have access to the unique Thaumaturgy class tree:
-		- Orb of Thaumaturgy: a temporary orb that duplicates any beam spells that you cast
-		- Multicaster: When casting a beam spell adds a chance to also cast an other archmage spell
-		- Slipstream: Allows movement when casting beams
-		- Elemental Array Burst: a powerful, multi-elemental beam spell that can inflict all elemental ailments and can not be resisted
-		#CRIMSON#The fine spellcasting required for wide beams and all thaumaturgy spells can only happen while wearing cloth. Anything heavier will hinder the casting too much.]], "tformat")
+		#CRIMSON#The fine spellcasting required for wide beams and all thaumaturgy spells can only happen while wearing cloth. Anything heavier will hinder the casting too much.]], [[Les Thaumaturges ont débloqué une compréhension plus profonde de leurs sorts, leur permettant de combiner les éléments de nouvelles façons et de les renforcer.
+		Les sorts Flamme, Poussée de Mana, Foudre, Foreuse Broyeuse, et Éclats de Glace sont définitivement transformés en sorts de faisceau de 3 de large.
+		De plus, ils ont accès à l'arbre de classe unique Thaumaturgie :
+		* Orbe de Thaumaturgie : un orbe temporaire qui duplique tout sort de faisceau que vous lancez.
+		* Multilanceur : En lançant un sort de faisceau, ajoute une chance de lancer également un autre sort d'archimage.
+		* Flux d'Évasion : Permet le déplacement lors du lancement de faisceaux.
+		* Explosion du Réseau Élémentaire : un puissant sort de faisceau multi-élémentaire pouvant infliger tous les maux élémentaires et ne pouvant pas être résisté.
+		#CRIMSON#La précision d'incantation requise pour les faisceaux larges et tous les sorts de thaumaturgie ne peut se produire qu'en portant des vêtements en tissu. Tout ce qui est plus lourd entravera trop le lancement.#LAST#]], "tformat")
+-- texte non traduit
+--[==[
+t([[%s
+#YELLOW#%s#LAST#
+%s
+]], [[%s
+#YELLOW#%s#LAST#
+%s
+]], "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/talents/uber/str.lua"
 
-t("Steamroller", "Rouleau Compresseur", "talent name")
-t("Irresistible Sun", "Soleil Irrésistible", "talent name")
-t("Legacy of the Naloren", "L'Héritage des Nalores", "talent name")
-t("Legacy of the Naloren", "L'Héritage des Nalores", "_t")
--- texte non traduit
---[==[
-t("Giant Leap", "Giant Leap", "talent name")
-t("Have dealt over 50000 damage with any weapon or unarmed", "Have dealt over 50000 damage with any weapon or unarmed", "_t")
+t("Giant Leap", "Bond du Géant", "talent name")
+t("Have dealt over 50000 damage with any weapon or unarmed", "A infligé plus de 50000 dégâts avec n'importe quelle arme ou à mains nues", "_t")
 t([[You accurately jump to the target and deal 200%% weapon damage to all foes within radius 1 on impact as well as dazing them for 3 turns.
-		When you jump you free yourself from any stun, daze and pinning effects.]], [[You accurately jump to the target and deal 200%% weapon damage to all foes within radius 1 on impact as well as dazing them for 3 turns.
-		When you jump you free yourself from any stun, daze and pinning effects.]], "tformat")
-t("You Shall Be My Weapon!", "You Shall Be My Weapon!", "talent name")
-t("Be of size category 'big' or larger. This is also required to use it.", "Be of size category 'big' or larger. This is also required to use it.", "_t")
+		When you jump you free yourself from any stun, daze and pinning effects.]], [[Vous sautez précisément vers la cible et infligez 200%% de dégâts d'arme à tous les ennemis dans un rayon de 1 à l'impact, les étourdissant légèrement pendant 3 tours.
+		En sautant, vous vous libérez de tout effet d'assommement, d'étourdissement léger, et d'immobilisation.]], "tformat")
+t("You Shall Be My Weapon!", "Tu Seras Mon Arme !", "talent name")
+t("Be of size category 'big' or larger. This is also required to use it.", "Être de catégorie de taille 'grand' ou plus grand. Cela est également requis pour l'utiliser.", "_t")
 t([[You deal a massive blow to your foe, smashing it for 350%% weapon damage, knocking it back 5 tiles, and knocking aside all foes in its path.
 		All targets affected are stunned for 3 turns.
-		For each size category over 'big' you gain an additional +80%% weapon damage.]], [[You deal a massive blow to your foe, smashing it for 350%% weapon damage, knocking it back 5 tiles, and knocking aside all foes in its path.
-		All targets affected are stunned for 3 turns.
-		For each size category over 'big' you gain an additional +80%% weapon damage.]], "tformat")
-t("Massive Blow", "Massive Blow", "talent name")
-t("Have dug at least 30 walls/trees/etc. and have dealt over 50000 damage with two-handed weapons", "Have dug at least 30 walls/trees/etc. and have dealt over 50000 damage with two-handed weapons", "_t")
+		For each size category over 'big' you gain an additional +80%% weapon damage.]], [[Vous portez un coup massif à votre ennemi, l'écrasant pour 350%% de dégâts d'arme, le repoussant de 5 cases et écartant tous les ennemis sur son chemin.
+		Toutes les cibles affectées sont assommé pendant 3 tours.
+		Pour chaque catégorie de taille au-dessus de 'grand', vous gagnez +80%% de dégâts d'arme supplémentaires.]], "tformat")
+t("Massive Blow", "Coup Massif", "talent name")
+t("Have dug at least 30 walls/trees/etc. and have dealt over 50000 damage with two-handed weapons", "A creusé au moins 30 murs/arbres/etc. et infligé plus de 50000 dégâts avec des armes à deux mains", "_t")
 t([[You deal a massive blow to your foe, smashing it for 150%% weapon damage and knocking it back 4 tiles (ignoring knockback resistance or physical save).
-		If the knockback makes it hit a wall, it will smash down the wall, deal an additional 350%% weapon damage and apply the Counterstrike effect.]], [[You deal a massive blow to your foe, smashing it for 150%% weapon damage and knocking it back 4 tiles (ignoring knockback resistance or physical save).
-		If the knockback makes it hit a wall, it will smash down the wall, deal an additional 350%% weapon damage and apply the Counterstrike effect.]], "tformat")
-t("Know the Rush talent", "Know the Rush talent", "_t")
+		If the knockback makes it hit a wall, it will smash down the wall, deal an additional 350%% weapon damage and apply the Counterstrike effect.]], [[Vous portez un coup massif à votre ennemi, l'écrasant pour 150%% de dégâts d'arme et le repoussant de 4 cases (en ignorant la résistance au Recul et la sauvegarde physique).
+		Si le Recul le fait heurter un mur, il enfoncera ce mur, subira 350%% de dégâts d'arme supplémentaires et recevra l'effet de Contre-attaque.]], "tformat")
+t("Steamroller", "Rouleau Compresseur", "talent name")
+t("Know the Rush talent", "Connaît le talent Charge", "_t")
 t([[When you rush, the creature you rush to is marked. If you kill it in the next two turns then your rush cooldown is reset.
 		Each time that this effect triggers you gain a stacking +20%% damage buff, up to 100%%.
-		Rush now only costs 2 stamina.]], [[When you rush, the creature you rush to is marked. If you kill it in the next two turns then your rush cooldown is reset.
-		Each time that this effect triggers you gain a stacking +20%% damage buff, up to 100%%.
-		Rush now only costs 2 stamina.]], "tformat")
-t("Have dealt over 50000 light or fire damage", "Have dealt over 50000 light or fire damage", "_t")
+		Rush now only costs 2 stamina.]], [[Lorsque vous effectuez une Charge, la créature ciblée est marquée. Si vous la tuez dans les deux prochains tours, le rechargement de Charge est réinitialisé.
+		Chaque fois que cet effet se déclenche, vous gagnez un Bonus de dégâts cumulable de +20%%, jusqu'à 100%%.
+		Charge ne coûte désormais que 2 d'Endurance.]], "tformat")
+t("Irresistible Sun", "Soleil Irrésistible", "talent name")
+t("Have dealt over 50000 light or fire damage", "A infligé plus de 50000 dégâts de lumière ou de feu", "_t")
 t([[For 8 turns you gain the mass and power of a star, drawing all creatures within radius 5 toward you and dealing %0.2f fire, %0.2f light and %0.2f physical damage to all foes and reducing their damage dealt by 30%%.
 		Foes closer to you take up to 150%% damage.
-		The damage will increase with your Strength.]], [[For 8 turns you gain the mass and power of a star, drawing all creatures within radius 5 toward you and dealing %0.2f fire, %0.2f light and %0.2f physical damage to all foes and reducing their damage dealt by 30%%.
-		Foes closer to you take up to 150%% damage.
-		The damage will increase with your Strength.]], "tformat")
-t("I Can Carry The World!", "I Can Carry The World!", "talent name")
-t("Be able to use massive armours", "Be able to use massive armours", "_t")
+		The damage will increase with your Strength.]], [[Pendant 8 tours, vous gagnez la masse et la puissance d'une étoile, attirant toutes les créatures dans un rayon de 5 vers vous et infligeant %0.2f dégâts de feu, %0.2f dégâts de lumière et %0.2f dégâts physiques à tous les ennemis, tout en réduisant leurs dégâts infligés de 30%%.
+		Les ennemis plus proches de vous subissent jusqu'à 150%% de dégâts.
+		Les dégâts sont proportionnels à votre Force.]], "tformat")
+t("I Can Carry The World!", "Je Peux Porter le Monde !", "talent name")
+t("Be able to use massive armours", "Être capable d'utiliser des armures massives", "_t")
 t([[Your strength is legendary; fatigue and physical exertion mean nothing to you.
-		Your fatigue is permanently set to 0, carrying capacity increased by 500, and strength increased by 50 and you gain a size category.]], [[Your strength is legendary; fatigue and physical exertion mean nothing to you.
-		Your fatigue is permanently set to 0, carrying capacity increased by 500, and strength increased by 50 and you gain a size category.]], "tformat")
-t("Have sided with Slasul and killed Ukllmswwik", "Have sided with Slasul and killed Ukllmswwik", "_t")
-t("Slasul will be happy to know your faith in his cause. You should return to speak to him.", "Slasul will be happy to know your faith in his cause. You should return to speak to him.", "_t")
+		Your fatigue is permanently set to 0, carrying capacity increased by 500, and strength increased by 50 and you gain a size category.]], [[Votre force est légendaire ; la fatigue et l'effort physique ne signifient rien pour vous.
+		Votre fatigue est définitivement fixée à 0, votre capacité de charge augmente de 500, votre Force augmente de 50, et vous gagnez une catégorie de taille.]], "tformat")
+t("Legacy of the Naloren", "Héritage des Nalores", "talent name")
+t("Have sided with Slasul and killed Ukllmswwik", "S'est allié à Slasul et a tué Ukllmswwik", "_t")
+t("Legacy of the Naloren", "Héritage des Nalores", "_t")
+t("Slasul will be happy to know your faith in his cause. You should return to speak to him.", "Slasul sera heureux d'apprendre votre fidélité à sa cause. Retournez lui parler.", "_t")
 t([[You have sided with Slasul and helped him vanquish Ukllmswwik. You are now able to breathe underwater with ease.
 		You have also learned to use tridents and other exotic weapons easily (talent level %d of Exotic Weapon Mastery), and can Spit Poison (talent level %d) as nagas do. These are bonus talent levels that increase with your character level.
-		In addition, should Slasul still live, he may have a further reward for you as thanks...]], [[You have sided with Slasul and helped him vanquish Ukllmswwik. You are now able to breathe underwater with ease.
-		You have also learned to use tridents and other exotic weapons easily (talent level %d of Exotic Weapon Mastery), and can Spit Poison (talent level %d) as nagas do. These are bonus talent levels that increase with your character level.
-		In addition, should Slasul still live, he may have a further reward for you as thanks...]], "tformat")
-t("Superpower", "Superpower", "talent name")
+		In addition, should Slasul still live, he may have a further reward for you as thanks...]], [[Vous vous êtes allié à Slasul et l'avez aidé à vaincre Ukllmswwik. Vous pouvez désormais respirer sous l'eau avec aisance.
+		Vous avez également appris à manier les tridents et autres armes exotiques facilement (Maîtrise des Armes Exotiques niveau %d) et pouvez Cracher du Poison (niveau %d) comme le font les nagas. Ce sont des niveaux de talent bonus qui augmentent avec le niveau de votre personnage.
+		De plus, si Slasul est encore en vie, il pourrait avoir une récompense supplémentaire pour vous en guise de remerciement...]], "tformat")
+t("Superpower", "Super Pouvoir", "talent name")
 t([[A strong body is key to a strong mind, and a strong mind can be powerful enough to make a strong body.
 		This prodigy grants a Mindpower bonus equal to 60%% of your Strength.
-		Additionally, you treat all weapons as having an additional 40%% Willpower modifier.]], [[A strong body is key to a strong mind, and a strong mind can be powerful enough to make a strong body.
-		This prodigy grants a Mindpower bonus equal to 60%% of your Strength.
-		Additionally, you treat all weapons as having an additional 40%% Willpower modifier.]], "tformat")
-t("Avatar of a Distant Sun", "Avatar of a Distant Sun", "talent name")
-t("Unlocked the evolution", "Unlocked the evolution", "_t")
-t("Found a distant patron", "Found a distant patron", "_t")
-t("Avatar of a Distant Sun", "Avatar of a Distant Sun", "_t")
-t("Distant Sun", "Distant Sun", "_t")
+		Additionally, you treat all weapons as having an additional 40%% Willpower modifier.]], [[Un corps fort est la clé d'un esprit fort, et un esprit fort peut être assez puissant pour forger un corps fort :
+		* Les armes équipées bénéficient d'un modificateur de Volonté supplémentaire de 40%%.
+		* Votre Puissance mentale brute est augmentée de 60%% de votre Force.]], "tformat")
+t("Avatar of a Distant Sun", "Avatar d'un Soleil Lointain", "talent name")
+t("Unlocked the evolution", "A déverrouillé l'évolution", "_t")
+t("Found a distant patron", "A trouvé un patron lointain", "_t")
+t("Avatar of a Distant Sun", "Avatar d'un Soleil Lointain", "_t")
+t("Distant Sun", "Soleil Lointain", "_t")
 t([[During your studies of celestial forces you came in contact with an entity far beyond Eyal: the living incarnation of a Star!
 		By allying yourself with it you can gain its power!
 
@@ -30551,26 +30544,25 @@ t([[During your studies of celestial forces you came in contact with an entity f
 		- If you also know #GOLD#Irresistible Sun#LAST#, it will set the fire and light resistances of those affected to 0%%
 
 		#{italic}##GOLD#Will you bind yourself to the Distant Sun?#{normal}#
-		]], [[During your studies of celestial forces you came in contact with an entity far beyond Eyal: the living incarnation of a Star!
-		By allying yourself with it you can gain its power!
+		]], [[Durant vos études des forces célestes, vous êtes entré en contact avec une entité bien au-delà d'Eyal : l'incarnation vivante d'une Étoile ! En vous alliant à elle, vous pouvez canaliser son pouvoir incommensurable.
 
-		Grants multiple benefits:
-		- The strength of your bond is so strong that you can now #GOLD#wield a two-handed weapon and a shield together#LAST#
-		- 50%% of all damage you deal is converted to #GOLD#light damage#LAST#
-		- #GOLD#Gravitic Effulgence#LAST#: whenever your Weapon of Light hits the damage is now a radius 2 sphere and all foes in range 5 are drawn to it. (You can toggle this effect)
-		- The damage and chance to trigger of #GOLD#Searing Sight#LAST# is doubled
-		- Whenever #GOLD#Sun's Vengeance#LAST# triggers the remaining cooldown of Judgement is reduced by 6.
-		- If you also know #GOLD#Irresistible Sun#LAST#, it will set the fire and light resistances of those affected to 0%%
+		Accorde de multiples avantages :
+		* La force de votre lien est si puissante que vous pouvez désormais #GOLD#manier une arme à deux mains et un bouclier simultanément#LAST#.
+		* 50%% de tous les dégâts que vous infligez sont convertis en #GOLD#dégâts de lumière#LAST#.
+		* #GOLD#Effluence Gravitique#LAST# : chaque fois que votre Arme de Lumière frappe, les dégâts se manifestent dans une sphère de rayon 2, attirant tous les ennemis dans un rayon de 5 vers elle (cet effet peut être activé ou désactivé).
+		* Les dégâts et la chance de déclenchement de #GOLD#Présence Éblouissante#LAST# sont doublés.
+		* Chaque fois que #GOLD#Vengeance Solaire#LAST# se déclenche, le rechargement restant de Jugement est réduit de 6 tours.
+		* Si vous connaissez également #GOLD#Soleil Irrésistible#LAST#, les résistances au feu et à la lumière des ennemis affectés seront réduites à 0%%.
 
-		#{italic}##GOLD#Will you bind yourself to the Distant Sun?#{normal}#
+		#{italic}##GOLD#Êtes-vous prêt à vous lier au Soleil Lointain ?#{normal}#
 		]], "tformat")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/talents/uber/uber.lua"
 
+t("uber", "suprême", "talent category")
 t("strength", "force", "talent type")
+t("Ultimate talents you may only know one.", "Talents suprêmes dont vous ne pouvez en connaître qu'un.", "_t")
 t("dexterity", "dextérité", "talent type")
 t("magic", "magie", "talent type")
 t("willpower", "volonté", "talent type")
@@ -30578,78 +30570,72 @@ t("cunning", "ruse", "talent type")
 t("other", "autre", "talent type")
 -- texte non traduit
 --[==[
-t("uber", "uber", "talent category")
-t("Ultimate talents you may only know one.", "Ultimate talents you may only know one.", "_t")
 t("constitution", "constitution", "talent type")
 --]==]
 
--- ancien texte traduit
-t("other", "autre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/uber/wil.lua"
 
 t("Draconic Will", "Volonté Draconique", "talent name")
-t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
-t("Hidden Resources", "Ressources Cachées", "talent name")
-t("Spell Feedback", "Sort Rétroactif", "talent name")
-t("Antimagic", "Anti-magie", "_t")
--- texte non traduit
---[==[
-t("Be close to the draconic world", "Be close to the draconic world", "_t")
+t("Be close to the draconic world", "Être proche du monde draconique", "_t")
 t([[Your body is like that of a drake, easily resisting detrimental effects.
-		For 5 turns, no detrimental effects may target you.]], [[Your body is like that of a drake, easily resisting detrimental effects.
-		For 5 turns, no detrimental effects may target you.]], "tformat")
-t("Meteoric Crash", "Meteoric Crash", "talent name")
-t("Have witnessed a meteoric crash", "Have witnessed a meteoric crash", "_t")
+		For 5 turns, no detrimental effects may target you.]], [[Votre corps ressemble à celui d'un dragonnet, résistant facilement aux effets négatifs.
+		Pendant 5 tours, aucun effet négatif ne peut vous cibler.]], "tformat")
+t("Meteoric Crash", "Impact Météorique", "talent name")
+t("Have witnessed a meteoric crash", "A été témoin d'une chute de météore", "_t")
+t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
 t([[When casting damaging spells or mind attacks, the release of your willpower can call forth a meteor to crash down near your foes.
 		The meteor deals %0.2f fire and %0.2f physical damage in radius 2 and stuns enemies for 3 turns.
 		Lava is created in radius 3 around the impact dealing %0.2f fire damage per turn for 8 turns.  This will overwrite tiles that already have modified terrain.
 		You and your allies take no damage from either effect.
 
 		Additionally, your fire damage bonus and resistance penetration is set to your current highest damage bonus and resistance penetration. This applies to all fire damage you deal.
-		The damage scales with your Spellpower or Mindpower.]], [[When casting damaging spells or mind attacks, the release of your willpower can call forth a meteor to crash down near your foes.
-		The meteor deals %0.2f fire and %0.2f physical damage in radius 2 and stuns enemies for 3 turns.
-		Lava is created in radius 3 around the impact dealing %0.2f fire damage per turn for 8 turns.  This will overwrite tiles that already have modified terrain.
-		You and your allies take no damage from either effect.
+		The damage scales with your Spellpower or Mindpower.]], [[Lors du lancement de sorts dommageables ou d'attaques mentales, le déferlement de votre volonté peut faire tomber un météore près de vos ennemis.
+		Le météore inflige %0.2f dégâts de feu et %0.2f dégâts physiques dans un rayon de 2 et étourdit les ennemis pendant 3 tours.
+		De la lave est créée dans un rayon de 3 autour de l'impact, infligeant %0.2f dégâts de feu par tour pendant 8 tours, écrasant les modifications de terrain existantes.
+		Vous et vos alliés ne subissez aucun dégât de l'un ou l'autre effet.
 
-		Additionally, your fire damage bonus and resistance penetration is set to your current highest damage bonus and resistance penetration. This applies to all fire damage you deal.
-		The damage scales with your Spellpower or Mindpower.]], "tformat")
-t("Garkul's Revenge", "Garkul's Revenge", "talent name")
-t("Possess and wear two of Garkul's artifacts and know all about Garkul's life", "Possess and wear two of Garkul's artifacts and know all about Garkul's life", "_t")
-t("Garkul's spirit is with you. You now deal 1000%% more damage to constructs and 20%% more damage to humanoids and giants.", "Garkul's spirit is with you. You now deal 1000%% more damage to constructs and 20%% more damage to humanoids and giants.", "tformat")
-t("Have been close to death(killed a foe while below 1 HP)", "Have been close to death(killed a foe while below 1 HP)", "_t")
+		De plus, votre bonus de dégâts de feu et votre pénétration de résistance sont fixés à votre bonus de dégâts et pénétration de résistance les plus élevés actuels. Cela s'applique à tous les dégâts de feu que vous infligez.
+		Les dégâts sont proportionnels à votre Puissance des sorts ou Puissance mentale.]], "tformat")
+t("Garkul's Revenge", "Vengeance de Garkul", "talent name")
+t("Possess and wear two of Garkul's artifacts and know all about Garkul's life", "Possède et porte deux des artefacts de Garkul et connaît tout de la vie de Garkul", "_t")
+t("Garkul's spirit is with you. You now deal 1000%% more damage to constructs and 20%% more damage to humanoids and giants.", "L'esprit de Garkul est avec vous. Vous infligez désormais 1000%% de dégâts supplémentaires aux Créatures artificielles et 20%% de dégâts supplémentaires aux humanoïdes et aux géants.", "tformat")
+t("Hidden Resources", "Ressources Cachées", "talent name")
+t("Have been close to death(killed a foe while below 1 HP)", "A frôlé la mort (a tué un ennemi avec moins de 1 PV)", "_t")
 t([[You focus your mind on the task at hand, regardless of how dire the situation is.
-		For 5 turns, none of your talents use any resources.]], [[You focus your mind on the task at hand, regardless of how dire the situation is.
-		For 5 turns, none of your talents use any resources.]], "tformat")
-t("Lucky Day", "Lucky Day", "talent name")
-t("Be lucky already (at least +5 luck)", "Be lucky already (at least +5 luck)", "_t")
-t("Every day is your lucky day! You gain a permanent +40 luck bonus and 10%% to move out of the way of every attack.", "Every day is your lucky day! You gain a permanent +40 luck bonus and 10%% to move out of the way of every attack.", "tformat")
-t("Unbreakable Will", "Unbreakable Will", "talent name")
-t("#LIGHT_BLUE#%s's unbreakable will shrugs off the effect!", "#LIGHT_BLUE#%s's unbreakable will shrugs off the effect!", "logSeen")
+		For 5 turns, none of your talents use any resources.]], [[Vous concentrez votre esprit sur la tâche à accomplir, quelle que soit la gravité de la situation.
+		Pendant 5 tours, aucun de vos talents ne consomme de ressources.]], "tformat")
+t("Lucky Day", "Jour de Chance", "talent name")
+t("Be lucky already (at least +5 luck)", "Être déjà chanceux (au moins +5 de Chance)", "_t")
+t("Every day is your lucky day! You gain a permanent +40 luck bonus and 10%% to move out of the way of every attack.", "Chaque jour est votre jour de chance ! Vous gagnez un bonus de Chance permanent de +40 et 10%% de chance d'esquiver chaque attaque.", "tformat")
+t("Unbreakable Will", "Volonté Inébranlable", "talent name")
+t("#LIGHT_BLUE#%s's unbreakable will shrugs off the effect!", "#LIGHT_BLUE#La volonté inébranlable de %s repousse l'effet !", "logSeen")
 t([[Your will is so strong that you simply ignore mental effects used against you.
-		This effect can only occur once every 5 turns.]], [[Your will is so strong that you simply ignore mental effects used against you.
-		This effect can only occur once every 5 turns.]], "tformat")
-t("#LIGHT_BLUE##Source# punishes #Target# for casting a spell!", "#LIGHT_BLUE##Source# punishes #Target# for casting a spell!", "logCombat")
+		This effect can only occur once every 5 turns.]], [[Votre volonté est si forte que vous ignorez simplement les effets mentaux utilisés contre vous.
+		Cet effet ne peut se produire qu'une fois toutes les 5 tours.]], "tformat")
+t("Spell Feedback", "Sort Rétroactif", "talent name")
+t("Antimagic", "Anti-magie", "_t")
+t("#LIGHT_BLUE##Source# punishes #Target# for casting a spell!", "#LIGHT_BLUE##Source# punit #Target# pour avoir lancé un sort !", "logCombat")
 t([[Your will is a shield against assaults from crazed arcane users.
 		Each time that you take damage from a spell, you punish the spellcaster with %0.2f mind damage.
 		Also, they will suffer a 35%% spell failure chance (with duration equal to the cooldown of the spell they used on you).
-		Note: this talent has a cooldown.]], [[Your will is a shield against assaults from crazed arcane users.
-		Each time that you take damage from a spell, you punish the spellcaster with %0.2f mind damage.
-		Also, they will suffer a 35%% spell failure chance (with duration equal to the cooldown of the spell they used on you).
-		Note: this talent has a cooldown.]], "tformat")
-t("Mental Tyranny", "Mental Tyranny", "talent name")
-t("Have dealt over 50000 mind damage", "Have dealt over 50000 mind damage", "_t")
+		Note: this talent has a cooldown.]], [[Votre volonté est un bouclier contre les assauts des utilisateurs arcaniques frénétiques.
+		Chaque fois que vous subissez des dégâts d'un sort, vous punissez le lanceur avec %0.2f dégâts mentaux.
+		De plus, il subira une chance d'échec de sort de 35%% (d'une durée égale au rechargement du sort utilisé contre vous).
+		Note : ce talent a un rechargement.]], "tformat")
+t("Mental Tyranny", "Tyrannie Mentale", "talent name")
+t("Have dealt over 50000 mind damage", "A infligé plus de 50000 dégâts mentaux", "_t")
 t([[Transcend the physical and rule over all with an iron will!
 		While this sustain is active, 33%% of your damage is converted into mind damage.
-		Additionally, you gain +30%% mind resistance penetration, and +10%% mind damage.]], [[Transcend the physical and rule over all with an iron will!
-		While this sustain is active, 33%% of your damage is converted into mind damage.
-		Additionally, you gain +30%% mind resistance penetration, and +10%% mind damage.]], "tformat")
-t("Fallen", "Fallen", "talent name")
-t("Unlocked the Fallen evolution", "Unlocked the Fallen evolution", "_t")
-t("Committed a heinous act", "Committed a heinous act", "_t")
-t("Fallen", "Fallen", "_t")
-t("#CRIMSON#You give in to the darkness. You have fallen!", "#CRIMSON#You give in to the darkness. You have fallen!", "say")
+		Additionally, you gain +30%% mind resistance penetration, and +10%% mind damage.]], [[Transcendez le physique et dominez tout avec une volonté de fer !
+		Tant que ce talent soutenu est actif, 33%% de vos dégâts sont convertis en dégâts mentaux.
+		De plus, vous gagnez +30%% de pénétration de résistance mentale et +10%% de dégâts mentaux.]], "tformat")
+t("Fallen", "Déchu", "talent name")
+t("Unlocked the Fallen evolution", "A déverrouillé l'évolution Déchu", "_t")
+t("Committed a heinous act", "A commis un acte odieux", "_t")
+t("Fallen", "Déchu", "_t")
+t("#CRIMSON#You give in to the darkness. You have fallen!", "#CRIMSON#Vous cédez à l'obscurité. Vous avez chuté !", "say")
 t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
 		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
 		
@@ -30670,29 +30656,26 @@ t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to le
 
 		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
 		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
-		]], [[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
-		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
-		
-		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
+		]], [[Le code des Paladins Solaire peut être un lourd fardeau. Ne voudriez-vous pas vous en défaire ?
+		#{italic}##GREY#Céder à l'obscurité ?#LAST##{normal}#
 
-		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
+		#CRIMSON#Cette évolution altère fondamentalement votre classe et votre personnage de manière significative. Ne la prenez pas à la légère.#LAST#
 
-		The following talent trees are swapped:
-		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
-		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
-		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
+		Toutes les techniques de combat offensives ou arbres de talents célestes déverrouillables que vous connaissez seront échangés contre des versions maudites, vous permettant de tracer un sillage sanglant parmi les ennemis, transformant votre Rayonnement en Angoisse, et bien plus encore, tout en gagnant de nouveaux styles de combat et défenses.
 
-		You will learn the following talents trees:
-		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
-		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
-		- #CRIMSON#Hatred#LAST#: Manifest your hatred through bleeding
-		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strengthen your resolve
+		Les arbres de talents suivants sont remplacés :
+		* #GOLD#Rayonnement#LAST# se transforme en #CRIMSON#Angoisse#LAST# : Projetez votre propre haine sur les autres, les entravant.
+		* #GOLD#Gardien#LAST# se transforme en #CRIMSON#Templier Pourpre#LAST# : Utilisez le pouvoir du sang pour contrôler et défaire les insensés qui s'opposent à vous.
+		* #GOLD#Croisé#LAST# se transforme en #CRIMSON#Soleil Noir#LAST# : Invoquez les énergies de soleils morts pour écraser vos ennemis.
 
-		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
-		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
-		]], "tformat")
---]==]
+		Vous apprendrez les arbres de talents suivants :
+		* #CRIMSON#Taches Sanglantes#LAST# : Faites saigner vos ennemis !
+		* #CRIMSON#Face Cachée#LAST# : Toute lumière projette une ombre, la vôtre est vraiment puissante.
+		* #CRIMSON#Haine#LAST# : Manifestez votre haine à travers le sang.
+		* #CRIMSON#Chants Funèbre#LAST# : Chantez la mort et la tristesse pour renforcer votre détermination.
 
+		Vous oublierez les arbres de talents suivants, récupérant tous les points de talent : Attaque au Bouclier, Assaut à Deux Mains.
+		De plus, le coût de tout talent de l'arbre Techniques de Combat sera converti en Haine plutôt qu'en Endurance.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/undeads/ghoul.lua"
@@ -34245,12 +34228,12 @@ t("#Target# can barely stand!", "#Target# peut à peine tenir debout !", "_t")
 t("+Weight of the Sun", "+Poids du Soleil", "_t")
 t("#Target# can move freely once more.", "#Target# peut à nouveau se déplacer librement.", "_t")
 t("-Weight of the Sun", "-Poids du Soleil", "_t")
-t("Temporal Form", "Forme temporelle", "_t")
+t("Temporal Form", "Forme Temporelle", "_t")
 t("The target assumes the form of a telugoroth.", "La cible prend la forme d'un telugoroth.", "tformat")
 t("#Target# threads time as a shell!", "#Target# file le temps comme une carapace !", "_t")
-t("+Temporal Form", "+Forme temporelle", "_t")
+t("+Temporal Form", "+Forme Temporelle", "_t")
 t("#Target# is no longer embeded in time.", "#Target# Didier n'est plus figé dans le temps.", "_t")
-t("-Temporal Form", "-Forme temporelle", "_t")
+t("-Temporal Form", "-Forme Temporelle", "_t")
 t("Corrupted Losgoroth Form", "Forme de Losgoroth Corrompue", "_t")
 t("The target has assumed the form of a corrupted losgoroth, gaining immunity to poison, disease, bleeding, and confusion.  It does not need to breathe, and converts half of all damage to life draining blight.", "La cible a pris la forme d'un losgoroth corrompu, gagnant une immunité au poison, à la maladie, au saignement et à la confusion.  Elle n'a pas besoin de respirer et convertit la moitié des dégâts en fléau qui draine la vie.", "tformat")
 t("#Target# turns into a losgoroth!", "#Target# se transforme en losgoroth !", "_t")
@@ -35211,8 +35194,8 @@ t("%s", "%s", "tformat")
 ------------------------------------------------
 section "mod-tome/data/timed_effects/other.lua"
 
-t("Ethereal Form", "Forme Ethérée", "_t")
-t("Ethereal Form bonuses reduced by %d%%", "Bonus de Forme Ethérée réduits de %d%%", "tformat")
+t("Ethereal Form", "Forme Éthérée", "_t")
+t("Ethereal Form bonuses reduced by %d%%", "Bonus de Forme Éthérée réduits de %d%%", "tformat")
 t("elemental", "élémentaire", "effect subtype")
 t("Elemental Surge: Arcane", "Surcharge Elémentaire : Arcane", "_t")
 t("Spell and mind speed increased by 30%", "Vitesse des sorts et de l'esprit augmentée de 30%", "_t")
@@ -35547,12 +35530,12 @@ t("antimagic", "anti-magie", "effect subtype")
 t("Antimagic Disruption", "Disruption Anti-magique", "_t")
 t("Your arcane powers are disrupted by your antimagic equipment.  Arcane talents fail %d%% of the time and arcane sustains have a %0.1f%% chance to deactivate each turn.", "Vos pouvoirs arcaniques sont perturbés par votre équipement anti-magie. Vos talents arcaniques échouent %d%% du temps et vos effets arcaniques soutenus ont %0.1f%% chances de se désactiver par tour.", "tformat")
 t("prodigy", "prodige", "effect subtype")
-t("Swift Hands", "Mains rapides", "_t")
+t("Swift Hands", "Mains Agiles", "_t")
 t("You swaped an item without taking time this turn.", "Tu as permuté un objet sans utiliser de temps lors de ce tour.", "_t")
 t("madness", "folie", "effect subtype")
 t("Hunter!", "Chasseur !", "_t")
 t("Knows where you are!", "Connaît votre position !", "_t")
-t("Through The Crowd", "À travers la foule", "_t")
+t("Through The Crowd", "À Travers la Foule", "_t")
 t("Increases physical save, spell save, and mental save by %d. Global speed increased by %d%%.", "Augmente les jets de sauvegarde physiques, magiques et mentaux de %d. La vitesse globale est augmentée de %d %%.", "tformat")
 t("disarm", "désarmement", "effect subtype")
 t("Reloading", "Rechargement", "_t")
@@ -39110,7 +39093,7 @@ t("Thousands of years spent inside the temple of creation have infused this pear
 t("tract", "traité", "entity name")
 t("A tract revealing the history of the Nagas.", "Un traité révélant l'histoire des Nagas.", "_t")
 t("A note.", "Une note", "_t")
-t("Legacy of the Naloren", "L'Héritage des Nalores", "entity name")
+t("Legacy of the Naloren", "Héritage des Nalores", "entity name")
 t("ornate orichalcum trident", "trident en orichalque orné", "_t")
 t([[This incredibly beautiful -- and powerful -- trident is made of the rare metal orichalcum. An amazing pearl is seated in head of the trident, as it spreads into three razor sharp prongs.
 It is imbued with the greatest strengths of all of the most powerful Naga warriors.
@@ -44863,8 +44846,8 @@ t("Second weapon set: psionic focus", "Deuxième ensemble d'armes : focus psioni
 t("Weapon Set 2: Object held in your telekinetic grasp. It can be a weapon or some other item to provide a benefit to your psionic powers. Press 'x' to switch weapon sets.", "Ensemble d'armes 2 : Objet tenu sous votre emprise télékinésique. Cela peut être une arme ou un autre objet pour fournir un avantage à vos pouvoirs psioniques. Appuyez sur 'x' pour changer d'armement.", "_t")
 t("Second weapon set: Quiver", "Deuxième ensemble d'armes : Carquois", "_t")
 t("Weapon Set 2: Your readied ammo.", "Set d'armes 2 : vos munitions préparées.", "_t")
-t("Swift Hands", "Mains rapides", "_t")
-t("List of items that can be instantly used by swift hands.", "Liste des articles qui peuvent être utilisés instantanément par des mains rapides.", "_t")
+t("Swift Hands", "Mains Agiles", "_t")
+t("List of items that can be instantly used by swift hands.", "Liste des articles qui peuvent être utilisés instantanément par des mains agiles.", "_t")
 t("Strength", "Force", "stat name")
 t("str", "for", "stat short_name")
 t("Strength defines your character's ability to apply physical force. It increases your melee damage, damage done with heavy weapons, your chance to resist physical effects, and carrying capacity.", "La force définit la capacité de votre personnage à appliquer une force physique. Elle augmente vos dégâts en mêlée, les dégâts d'armes lourdes, vos chances de résister aux effets physiques et votre capacité de transport.", "_t")

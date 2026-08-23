@@ -6639,6 +6639,8 @@ t([[When your life dips below 50%% of your total life an automated process turns
 section "tome-orcs/data/talents/uber/cun.lua"
 
 t("Cosmetic Options", "Options cosmétiques", "_t")
+t("Customize Appearance", "Personnaliser l'Apparence", "_t")
+t("Use Default", "Utiliser le Modèle par Défaut", "_t")
 -- texte non traduit
 --[==[
 t("Master of Disasters", "Master of Disasters", "talent name")
@@ -6659,8 +6661,6 @@ t([[#GREY#Applying you cunning plans, you escape death by turning to undeath in 
 #{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#Applying you cunning plans, you escape death by turning to undeath in an instant!
 
 #{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], "_t")
-t("Customize Appearance", "Customize Appearance", "_t")
-t("Use Default", "Use Default", "_t")
 t("Rak'Shor's Cunning (Skeleton)", "Rak'Shor's Cunning (Skeleton)", "_t")
 t("Rak'Shor's Cunning (Ghoul)", "Rak'Shor's Cunning (Ghoul)", "_t")
 t([[Set up some cunning contingency plans in case of death.
