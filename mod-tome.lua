@@ -21590,44 +21590,42 @@ t([[%s (%s)
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/called-shots.lua"
 
-
--- texte non traduit
---[==[
-t("Kneecapper", "Kneecapper", "talent name")
-t("%s resists being knocked down.", "%s resists being knocked down.", "logSeen")
+t("Kneecapper", "Brise-Rotule", "talent name")
+t("%s resists being knocked down.", "%s résiste au renversement.", "logSeen")
 t([[Strike your opponent in the knee (or other critical point in an ambulatory appendage) for %d%% weapon damage, knocking them down (%d turn pin) and slowing their movement by %d%% for %d turns afterwards.
 		This shot will bypass other enemies between you and your target.
-		The slow effect becomes more powerful with your Cunning.]], [[Strike your opponent in the knee (or other critical point in an ambulatory appendage) for %d%% weapon damage, knocking them down (%d turn pin) and slowing their movement by %d%% for %d turns afterwards.
-		This shot will bypass other enemies between you and your target.
-		The slow effect becomes more powerful with your Cunning.]], "tformat")
-t("Kill Shot", "Kill Shot", "talent name")
-t("#DARK_ORCHID##Source# snipes #Target# (%+d%%%%%%%% weapon bonus for range)!#LAST#", "#DARK_ORCHID##Source# snipes #Target# (%+d%%%%%%%% weapon bonus for range)!#LAST#", "delayedLogMessage")
+		The slow effect becomes more powerful with your Cunning.]], [[Frappez votre adversaire au genou (ou autre point critique d'un membre locomoteur) pour %d%% dégâts d'arme, le renversant (%d tour(s) d'immobilisation) et ralentissant son mouvement de %d%% pendant %d tours.
+		Ce tir traverse tous les ennemis entre vous et votre cible.
+		L'effet de ralentissement est proportinnel à votre Ruse.]], "tformat")
+t("Kill Shot", "Tir Fatal", "talent name")
+t("#DARK_ORCHID##Source# snipes #Target# (%+d%%%%%%%% weapon bonus for range)!#LAST#", "#DARK_ORCHID##Source# tire en précision sur #Target# (%+d%%%%%%%% de bonus d'arme selon la distance) !#LAST#", "delayedLogMessage")
 t([[Employ a specialized sniping shot at a target.
 		This shot is focused on precision at long range and deals base %d%% ranged damage with a bonus that increases with distance.
 		The ranged bonus is %d%% (penalty) at point blank range, while at your maximum range of %d it is %d%%.
-		This shot will bypass other enemies between you and your target.]], [[Employ a specialized sniping shot at a target.
-		This shot is focused on precision at long range and deals base %d%% ranged damage with a bonus that increases with distance.
-		The ranged bonus is %d%% (penalty) at point blank range, while at your maximum range of %d it is %d%%.
-		This shot will bypass other enemies between you and your target.]], "tformat")
-t("Noggin Knocker", "Noggin Knocker", "talent name")
-t("%s resists the stunning shot!", "%s resists the stunning shot!", "logSeen")
+		This shot will bypass other enemies between you and your target.]], [[Effectuez un tir de précision spécialisé sur une cible.
+		Ce tir est axé sur la précision à longue portée et inflige %d%% dégâts de base à distance, avec un bonus qui augmente avec la distance.
+		Le bonus de portée est de %d%% (pénalité) à bout portant, tandis qu'à votre portée maximale de %d il est de %d%%.
+		Ce tir traverse tous les ennemis entre vous et votre cible.]], "tformat")
+t("Noggin Knocker", "Cogneur de Crâne", "talent name")
+t("%s resists the stunning shot!", "%s résiste au tir assommant !", "logSeen")
 t([[Fire three shots in quick succession at a vulnerable point on the target (usually the head).
 		Each shot deals %d%% Ranged damage and will try to stun or increase the target's stun duration by 1.
 		These shots will bypass other enemies between you and your target.
-		The chance to stun increases with your Accuracy.]], [[Fire three shots in quick succession at a vulnerable point on the target (usually the head).
-		Each shot deals %d%% Ranged damage and will try to stun or increase the target's stun duration by 1.
-		These shots will bypass other enemies between you and your target.
-		The chance to stun increases with your Accuracy.]], "tformat")
-t("Sling Sniper", "Sling Sniper", "talent name")
-t("Your mastery of called shots is unparalleled. and you gain %d%% bonus critical chance and %d%% critical damage with your Called Shots Talents. At rank 3 the cooldowns of all of your Called Shots Talents are reduced by 2 each. At rank 5 you gain %d%% Physical resistance penetration with all Called Shot attacks.", "Your mastery of called shots is unparalleled. and you gain %d%% bonus critical chance and %d%% critical damage with your Called Shots Talents. At rank 3 the cooldowns of all of your Called Shots Talents are reduced by 2 each. At rank 5 you gain %d%% Physical resistance penetration with all Called Shot attacks.", "tformat")
---]==]
-
+		The chance to stun increases with your Accuracy.]], [[Tirez trois coups en rapide succession sur un point vulnérable de la cible (généralement la tête).
+		Chaque tir inflige %d%% dégâts à distance et tente d'étourdir la cible ou d'augmenter sa durée d'étourdissement de 1 tour.
+		Ces tirs traversent tous les ennemis entre vous et votre cible.
+		La chance d'étourdir est proportionnel à votre Précision.]], "tformat")
+t("Sling Sniper", "Franc-Tireur à la Fronde", "talent name")
+t("Your mastery of called shots is unparalleled. and you gain %d%% bonus critical chance and %d%% critical damage with your Called Shots Talents. At rank 3 the cooldowns of all of your Called Shots Talents are reduced by 2 each. At rank 5 you gain %d%% Physical resistance penetration with all Called Shot attacks.", [[Votre maîtrise des tirs ciblés est sans pareille et vous gagnez +%d%% de chance de coup critique et +%d%% de dégâts critiques avec vos talents de Tirs Ciblés.
+Au rang 3, le rechargement de tous vos talents de Tirs Ciblés est réduit de 2 tours chacun.
+Au rang 5, vous gagnez %d%% de pénétration de résistance physique avec tous vos attaques de Tirs Ciblés.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/cunning.lua"
 
 t("cunning", "ruse", "talent category")
 t("stealth", "furtivité", "talent type")
+t("Allows the user to enter stealth.", "Permet à l'utilisateur de passer en mode furtif.", "_t")
 t("trapping", "piégeage", "talent type")
 t("The knowledge of trap laying and assorted trickeries.", "La connaissance de la pose de pièges et de diverses ruses. ", "_t")
 t("traps", "pièges", "talent type")
@@ -21656,7 +21654,6 @@ t("Inflict maximum pain to specific places on your enemies.", "Infligez un maxim
 t("Talent not unlocked", "Talent non débloqué", "_t")
 -- texte non traduit
 --[==[
-t("Allows the user to enter stealth.", "Allows the user to enter stealth.", "_t")
 t("poisons", "poisons", "talent type")
 t("artifice", "artifice", "talent type")
 --]==]
@@ -29008,53 +29005,46 @@ t([[You enter a battle frenzy for %d turns. During that time, you can not use it
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/bow.lua"
 
-
--- texte non traduit
---[==[
-t("Bow Mastery", "Bow Mastery", "talent name")
+t("Bow Mastery", "Maîtrise de l'Arc", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using bows.
-		Also, increases your reload rate by %d.]], [[Increases weapon damage by %d%% and physical power by 30 when using bows.
-		Also, increases your reload rate by %d.]], "tformat")
-t("Piercing Arrow", "Piercing Arrow", "talent name")
-t("You must wield a bow!", "You must wield a bow!", "logPlayer")
-t("You fire an arrow that cuts right through anything, piercing multiple targets if possible with nigh infinite armor penetration, doing %d%% damage.", "You fire an arrow that cuts right through anything, piercing multiple targets if possible with nigh infinite armor penetration, doing %d%% damage.", "tformat")
-t("Dual Arrows", "Dual Arrows", "talent name")
+		Also, increases your reload rate by %d.]], [[Augmente les dégâts d'arme de %d%% et la Puissance physique de 30 lors de l'utilisation d'arcs.
+		Augmente également votre vitesse de rechargement de %d.]], "tformat")
+t("Piercing Arrow", "Flèche Perforante", "talent name")
+t("You must wield a bow!", "Vous devez manier un arc !", "logPlayer")
+t("You fire an arrow that cuts right through anything, piercing multiple targets if possible with nigh infinite armor penetration, doing %d%% damage.", "Vous tirez une flèche qui traverse absolument tout, perçant plusieurs cibles si possible avec une pénétration d'armure quasi infinie, infligeant %d%% dégâts.", "tformat")
+t("Dual Arrows", "Double Flèche", "talent name")
 t([[You fire two arrows at your target, hitting it and a nearby foe if possible, doing %d%% damage
-		This talent does not use any stamina.]], [[You fire two arrows at your target, hitting it and a nearby foe if possible, doing %d%% damage
-		This talent does not use any stamina.]], "tformat")
-t("Volley of Arrows", "Volley of Arrows", "talent name")
-t("You fire multiple arrows at an area of %d radius, doing %d%% damage with each arrow.", "You fire multiple arrows at an area of %d radius, doing %d%% damage with each arrow.", "tformat")
---]==]
-
+		This talent does not use any stamina.]], [[Vous tirez deux flèches sur votre cible, la touchant ainsi qu'un ennemi proche si possible, infligeant %d%% dégâts.
+		Ce talent ne consomme pas d'Endurance.]], "tformat")
+t("Volley of Arrows", "Salve de Flèches", "talent name")
+t("You fire multiple arrows at an area of %d radius, doing %d%% damage with each arrow.", "Vous tirez plusieurs flèches dans une zone de rayon %d, infligeant %d%% dégâts avec chaque flèche.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/buckler-training.lua"
 
-t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
--- texte non traduit
---[==[
-t("Buckler Expertise", "Buckler Expertise", "talent name")
+t("Buckler Expertise", "Expertise au Bocle", "talent name")
 t([[Allows shields to be equipped, using Cunning instead of strength as a requirement.
 			When you are attacked in melee, you have a %d%% chance to deflect the attack with your shield, completely evading it.
 			In addition, as long as you are wearing armour no heavier than leather, you gain %d Armour and %d%% Armour hardiness.
-			The chance to deflect increases with your Cunning.]], [[Allows shields to be equipped, using Cunning instead of strength as a requirement.
-			When you are attacked in melee, you have a %d%% chance to deflect the attack with your shield, completely evading it.
-			In addition, as long as you are wearing armour no heavier than leather, you gain %d Armour and %d%% Armour hardiness.
-			The chance to deflect increases with your Cunning.]], "tformat")
-t("Bash and Smash", "Bash and Smash", "talent name")
-t("You require a ranged weapon and a shield to use this talent.", "You require a ranged weapon and a shield to use this talent.", "logPlayer")
-t("Bash an enemy in melee range with your shield (twice for talent level 5 or more), doing %d%% damage and knocking them back %d squares. You may then follow with a deadly short-range sling attack, dealing %d%% damage. The shield bash will use Dexterity instead of Strength for the shield's bonus damage.", "Bash an enemy in melee range with your shield (twice for talent level 5 or more), doing %d%% damage and knocking them back %d squares. You may then follow with a deadly short-range sling attack, dealing %d%% damage. The shield bash will use Dexterity instead of Strength for the shield's bonus damage.", "tformat")
-t("Buckler Mastery", "Buckler Mastery", "talent name")
-t(" At talent level 5, your Bash and Smash shield hits are guaranteed criticals.", " At talent level 5, your Bash and Smash shield hits are guaranteed criticals.", "_t")
-t(" At talent level 5, your Bash and Smash shield hit is a guaranteed critical.", " At talent level 5, your Bash and Smash shield hit is a guaranteed critical.", "_t")
-t("When you are hit by a projectile, physical or otherwise, you have a %d%% chance to deflect it up to %d squares away.%s", "When you are hit by a projectile, physical or otherwise, you have a %d%% chance to deflect it up to %d squares away.%s", "tformat")
-t("Counter Shot", "Counter Shot", "talent name")
-t("#ORCHID##Source# follows up with a countershot.#LAST#", "#ORCHID##Source# follows up with a countershot.#LAST#", "logCombat")
+			The chance to deflect increases with your Cunning.]], [[Permet d'équiper des boucliers, en utilisant la Ruse plutôt que la Force comme prérequis.
+			Lorsque vous êtes attaqué en mêlée, vous avez %d%% de chance de dévier l'attaque avec votre bouclier, en l'esquivant complètement.
+			De plus, tant que vous portez une armure pas plus lourde que du cuir, vous gagnez %d d'Armure et %d%% de Robustesse d'Armure.
+			La chance de dévier est proportionnel à votre Ruse.]], "tformat")
+t("Bash and Smash", "Cogner et Écraser", "talent name")
+t("You require a ranged weapon and a shield to use this talent.", "Vous avez besoin d'une arme à distance et d'un bouclier pour ce talent.", "logPlayer")
+t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
+t("Bash an enemy in melee range with your shield (twice for talent level 5 or more), doing %d%% damage and knocking them back %d squares. You may then follow with a deadly short-range sling attack, dealing %d%% damage. The shield bash will use Dexterity instead of Strength for the shield's bonus damage.", [[Frappez un ennemi à portée de mêlée avec votre bouclier (deux fois au niveau 5 ou plus), infligeant %d%% dégâts et le repoussant de %d cases. Vous pouvez ensuite enchaîner avec une attaque de fronde mortelle à courte portée, infligeant %d%% dégâts.
+Le coup de bouclier utilisera la Dextérité plutôt que la Force pour les dégâts bonus.]], "tformat")
+t("Buckler Mastery", "Maîtrise du Bocle", "talent name")
+t(" At talent level 5, your Bash and Smash shield hits are guaranteed criticals.", " Au niveau 5, vos coups de bouclier avec Cogner et Écraser sont des critiques garantis.", "_t")
+t(" At talent level 5, your Bash and Smash shield hit is a guaranteed critical.", " Au niveau 5, votre coup de bouclier avec Cogner et Écraser est un critique garanti.", "_t")
+t("When you are hit by a projectile, physical or otherwise, you have a %d%% chance to deflect it up to %d squares away.%s", [[Lorsque vous êtes touché par un projectile, physique ou autre, vous avez %d%% de chance de le dévier jusqu'à %d cases de distance.
+%s]], "tformat")
+t("Counter Shot", "Contre-Tir", "talent name")
+t("#ORCHID##Source# follows up with a countershot.#LAST#", "#ORCHID##Source# enchaîne avec un contre-tir.#LAST#", "logCombat")
 t([[Any time you block an attack with Buckler Expertise or Buckler Mastery you instantly counterattack with your sling for %d%% damage  This can only occur up to %d time(s) per turn.
-			]], [[Any time you block an attack with Buckler Expertise or Buckler Mastery you instantly counterattack with your sling for %d%% damage  This can only occur up to %d time(s) per turn.
-			]], "tformat")
---]==]
-
+			]], [[Chaque fois que vous bloquez une attaque avec Expertise au Bocle ou Maîtrise du Bocle, vous contre-attaquez instantanément avec votre fronde pour %d%% dégâts.
+			Cela ne peut se produire que %d fois par tour.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/combat-techniques.lua"
@@ -29597,49 +29587,43 @@ Toute action autre que le déplacement annulera cet effet.]], "tformat")
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/skirmisher-slings.lua"
 
-t("Swift Shot", "Tir Rapide", "talent name")
--- texte non traduit
---[==[
-t("Sling Supremacy", "Sling Supremacy", "talent name")
+t("Sling Supremacy", "Suprématie à la Fronde", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using slings.
-		Also, increases your reload rate by %d.]], [[Increases weapon damage by %d%% and physical power by 30 when using slings.
-		Also, increases your reload rate by %d.]], "tformat")
-t("Double Archery (#LIGHT_GREEN#%d%%#LAST# of a turn)", "Double Archery (#LIGHT_GREEN#%d%%#LAST# of a turn)", "tformat")
+		Also, increases your reload rate by %d.]], [[Augmente les dégâts d'arme de %d%% et la Puissance physique de 30 lors de l'utilisation de frondes.
+		Augmente également votre vitesse de rechargement de %d.]], "tformat")
+t("Swift Shot", "Tir Rapide", "talent name")
+t("Double Archery (#LIGHT_GREEN#%d%%#LAST# of a turn)", "Double Archerie (#LIGHT_GREEN#%d%%#LAST# d'un tour)", "tformat")
 t([[Fire off a quick sling bullet for %d%% damage at double your normal attack speed, as well as increasing your attack speed by %d%% for 5 turns.
-		Each time you move, the cooldown of this talent is reduced by 1.]], [[Fire off a quick sling bullet for %d%% damage at double your normal attack speed, as well as increasing your attack speed by %d%% for 5 turns.
-		Each time you move, the cooldown of this talent is reduced by 1.]], "tformat")
-t("Hurricane Shot", "Hurricane Shot", "talent name")
-t("Take aim and unload up to %d shots for %d%% weapon damage each against random enemies inside a cone. Each enemy can only be hit once (twice for talent level 3 and higher). Using Swift Shot lowers the cooldown by 1.", "Take aim and unload up to %d shots for %d%% weapon damage each against random enemies inside a cone. Each enemy can only be hit once (twice for talent level 3 and higher). Using Swift Shot lowers the cooldown by 1.", "tformat")
-t("Bombardment", "Bombardment", "talent name")
-t("Your Shoot talent now costs %d stamina but fires %d times for %d%% damage per shot.", "Your Shoot talent now costs %d stamina but fires %d times for %d%% damage per shot.", "tformat")
---]==]
-
+		Each time you move, the cooldown of this talent is reduced by 1.]], [[Tirez rapidement un projectile de fronde pour %d%% dégâts à deux fois votre vitesse d'attaque normale, et augmentez votre vitesse d'attaque de %d%% pendant 5 tours.
+		Chaque fois que vous vous déplacez, le rechargement de ce talent est réduit de 1.]], "tformat")
+t("Hurricane Shot", "Tir Ouragan", "talent name")
+t("Take aim and unload up to %d shots for %d%% weapon damage each against random enemies inside a cone. Each enemy can only be hit once (twice for talent level 3 and higher). Using Swift Shot lowers the cooldown by 1.", [[Visez et tirez jusqu'à %d tirs infligeant chacun %d%% dégâts d'arme contre des ennemis aléatoires dans un cône. Chaque ennemi ne peut être touché qu'une fois.
+Au niveau 3, chaque ennemi peut être touché deux fois.
+Utiliser Tir Rapide réduit le rechargement de 1.]], "tformat")
+t("Bombardment", "Bombardement", "talent name")
+t("Your Shoot talent now costs %d stamina but fires %d times for %d%% damage per shot.", "Votre talent Tirer coûte désormais %d d'Endurance mais tire %d fois pour %d%% dégâts par tir.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/sling.lua"
 
-t("%s resists!", "%s résiste !", "logSeen")
-t("%s is knocked back!", "%s est repoussé !", "logSeen")
--- texte non traduit
---[==[
-t("Sling Mastery", "Sling Mastery", "talent name")
+t("Sling Mastery", "Maîtrise de la Fronde", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using slings.
-		Also, increases your reload rate by %d.]], [[Increases weapon damage by %d%% and physical power by 30 when using slings.
-		Also, increases your reload rate by %d.]], "tformat")
-t("Eye Shot", "Eye Shot", "talent name")
-t("You must wield a sling!", "You must wield a sling!", "logPlayer")
+		Also, increases your reload rate by %d.]], [[Augmente les dégâts d'arme de %d%% et la Puissance physique de 30 lors de l'utilisation de frondes.
+		Augmente également votre vitesse de rechargement de %d.]], "tformat")
+t("Eye Shot", "Tir dans l'Oeil", "talent name")
+t("%s resists!", "%s résiste !", "logSeen")
+t("You must wield a sling!", "Vous devez manier une fronde !", "logPlayer")
 t([[You fire a shot into your target's eyes, blinding it for %d turns and doing %d%% damage.
-		The blind chance increases with your Accuracy.]], [[You fire a shot into your target's eyes, blinding it for %d turns and doing %d%% damage.
-		The blind chance increases with your Accuracy.]], "tformat")
-t("Inertial Shot", "Inertial Shot", "talent name")
-t("%s stands firm!", "%s stands firm!", "logSeen")
+		The blind chance increases with your Accuracy.]], [[Vous tirez dans les yeux de votre cible, l'aveuglant pendant %d tours et infligeant %d%% dégâts.
+		La chance d'aveuglement est proportionnel à votre Précision.]], "tformat")
+t("Inertial Shot", "Tir Inertiel", "talent name")
+t("%s is knocked back!", "%s est repoussé !", "logSeen")
+t("%s stands firm!", "%s tient bon !", "logSeen")
 t([[You fire a mighty shot at your target, doing %d%% damage and knocking it back.
-		The knockback chance increases with your Accuracy.]], [[You fire a mighty shot at your target, doing %d%% damage and knocking it back.
-		The knockback chance increases with your Accuracy.]], "tformat")
-t("Multishot", "Multishot", "talent name")
-t("You fire an average of %0.1f shots at your target, doing %d%% damage with each shot.", "You fire an average of %0.1f shots at your target, doing %d%% damage with each shot.", "tformat")
---]==]
-
+		The knockback chance increases with your Accuracy.]], [[Vous tirez un coup puissant sur votre cible, infligeant %d%% dégâts et la repoussant.
+		La chance de Repoussage est proportionnel à votre Précision.]], "tformat")
+t("Multishot", "Tir Multiple", "talent name")
+t("You fire an average of %0.1f shots at your target, doing %d%% damage with each shot.", "Vous tirez en moyenne %0.1f tirs sur votre cible, infligeant %d%% dégâts par tir.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/sniper.lua"
@@ -29917,27 +29901,25 @@ t([[You go all out, trying to burn down your foes as fast as possible.
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/tireless-combatant.lua"
 
-
--- texte non traduit
---[==[
-t("Breathing Room", "Breathing Room", "talent name")
-t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "tformat")
-t("Pace Yourself", "Pace Yourself", "talent name")
+t("Breathing Room", "Espace de Respiration", "talent name")
+t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", [[Chaque fois que vous n'avez pas d'adversaire dans une case adjacente, vous gagnez %0.1f de régénération d'Endurance.
+Au niveau 3 ou supérieur, vous gagnez également une quantité égale de régénération de vie tant qu'Espace de Respiration est actif.]], "tformat")
+t("Pace Yourself", "À Votre Rythme", "talent name")
 t([[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
 		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
 		If you have a shield equipped and Block is not on cooldown, any blockable damage that is greater than 33%% of your block value (before resistances) will have a %d%% chance to instantly activate Block.
-		The flat damage reduction will increase with your defense.]], [[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
-		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
-		If you have a shield equipped and Block is not on cooldown, any blockable damage that is greater than 33%% of your block value (before resistances) will have a %d%% chance to instantly activate Block.
-		The flat damage reduction will increase with your defense.]], "tformat")
-t("Dauntless Challenger", "Dauntless Challenger", "talent name")
-t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "tformat")
-t("The Eternal Warrior", "The Eternal Warrior", "talent name")
+		The flat damage reduction will increase with your defense.]], [[Contrôlez vos mouvements pour améliorer vos défenses. Cela vous permet d'encaisser les dégâts mineurs et, si vous avez un bouclier équipé, de Bloquer préventivement en réaction aux dégâts entrants.
+		Tant que ce talent est activé, vous êtes ralenti globalement de %0.1f%% et tous les dégâts que vous subissez sont réduits d'un montant fixe de %0.1f.
+		Si vous avez un bouclier équipé et que Bloquer n'est pas en rechargement, tout dégât bloquable supérieur à 33%% de votre valeur de blocage (avant résistances) a %d%% de chance d'activer instantanément Bloquer.
+		La réduction fixe de dégâts est proportionnel à votre défense.]], "tformat")
+t("Dauntless Challenger", "Challenger Intrépide", "talent name")
+t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", [[Quand la situation se complique, vous devenez plus résistant.
+Vous gagnez %0.1f de régénération d'Endurance par ennemi en vue et, à partir du niveau 3, vous gagnez également %0.1f de régénération de vie par ennemi.
+Les bonus sont plafonnés à 4 ennemis.]], "tformat")
+t("The Eternal Warrior", "Le Guerrier Éternel", "talent name")
 t([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
-		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
-		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], "tformat")
---]==]
-
+		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[Pour chaque tour où vous dépensez de l'Endurance, vous gagnez %0.1f%% de résistance globale et %0.1f%% de plafond à toutes les résistance pendant %d tours. Le bonus s'accumule jusqu'à %d fois, et chaque nouvelle application renouvelle la durée.
+		De plus, au niveau 5 et supérieur, Espace de Respiration et Challenger Intrépide sont %d%% plus efficaces.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/unarmed-discipline.lua"
