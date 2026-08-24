@@ -842,6 +842,12 @@ section "tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
 
 t("%s is cured!", "%s est soigné !", "logSeen")
 t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
+t("firestorm", "tempête de feu", "_t")
+t([[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
+		You closely control the firestorm, preventing it from harming your party members.
+		The damage and duration will increase with your Spellpower.]], [[Une furieuse tempête de feu fait rage autour du lanceur, infligeant %0.2f dégâts de feu dans un rayon de 3 à chaque tour pendant %d tours.
+		Vous contrôlez étroitement la tempête de feu, l'empêchant de blesser vos membres du groupe.
+		Les dégâts et la durée sont proportionnels à votre Puissance des sorts.]], "tformat")
 t("Frost Grab", "Griffes Givrées", "talent name")
 t([[Grab a target and pull it next to you, covering it with frost while reducing its movement speed by 50%% for %d turns.
 		The ice will also deal %0.2f cold damage.
@@ -962,12 +968,6 @@ t([[Whenever make a melee attack, you have a %d%% chance to randomly curse the t
 		This may only happen once per turn.]], [[Whenever make a melee attack, you have a %d%% chance to randomly curse the target with one of the curses: Defenselessness, Impotence, Death or Vulnerability as if cast at talent level %d.
 		This may only happen once per turn.]], "tformat")
 t("Doom Storm", "Doom Storm", "talent name")
-t("firestorm", "firestorm", "_t")
-t([[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
-		You closely control the firestorm, preventing it from harming your party members.
-		The damage and duration will increase with your Spellpower.]], [[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
-		You closely control the firestorm, preventing it from harming your party members.
-		The damage and duration will increase with your Spellpower.]], "tformat")
 t("Frostfire Nova", "Frostfire Nova", "talent name")
 t([[Fire a blast of frostfire in radius %d, doing %0.2f fire damage and freezing creatures in ice blocks for 4 turns.
 		For each frozen creature you regenerate %d vim.
