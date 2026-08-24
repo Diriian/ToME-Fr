@@ -790,8 +790,8 @@ t("Hairs", "Cheveux", "birth facial category")
 t("Facial features", "Modifications faciales", "birth facial category")
 t("Tatoos", "Tatouages", "birth facial category")
 t("Special", "Spécial", "birth facial category")
-t("Runic Golem", "Golem runique", "birth descriptor name")
-t("Runic Golems are creatures made of solid rock and animated using arcane forces.", "Les golems runiques sont des créatures faites de roche et animées à l'aide des forces arcaniques.", "_t")
+t("Runic Golem", "Golem Runique", "birth descriptor name")
+t("Runic Golems are creatures made of solid rock and animated using arcane forces.", "Les Golems Runiques sont des créatures faites de roche et animées à l'aide des forces arcaniques.", "_t")
 t("They cannot be of any class, but they have many intrinsic abilities.", "Ils ne peuvent avoir de classe, mais ils ont beaucoup de capacités intrinsèques.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -2 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +3 Force, -2 Dextérité, +3 Constitution", "_t")
@@ -21228,7 +21228,7 @@ The damage dealt will increase with your Spellpower.]], "tformat")
 section "mod-tome/data/talents/corruptions/sanguisuge.lua"
 
 t("Bloodcasting", "Lancement Sanguinolant", "talent name")
-t("Life Tap", "Exploitation Vital", "talent name")
+t("Life Tap", "Ponction de Vie", "talent name")
 -- texte non traduit
 --[==[
 t("Drain", "Drain", "talent name")
@@ -26760,65 +26760,57 @@ t("Increases your maximum energy by %d. You also gain %0.1f Psi for each kill an
 ------------------------------------------------
 section "mod-tome/data/talents/spells/acid-alchemy.lua"
 
-t("Caustic Golem", "Golem Corrosif", "talent name")
--- texte non traduit
---[==[
-t("Acid Infusion", "Acid Infusion", "talent name")
+t("Acid Infusion", "Infusion Acide", "talent name")
 t([[When you throw your alchemist bombs, you infuse them with explosive acid that can blind.
 		In addition all acid damage you do is increased by %d%%.
-		You cannot have more than one alchemist infusion sustain active at once.]], [[When you throw your alchemist bombs, you infuse them with explosive acid that can blind.
-		In addition all acid damage you do is increased by %d%%.
-		You cannot have more than one alchemist infusion sustain active at once.]], "tformat")
+		You cannot have more than one alchemist infusion sustain active at once.]], [[Lorsque vous lancez vos bombes d'alchimiste, vous les infusez d'acide explosif pouvant aveugler.
+		De plus, tous les dégâts d'acide que vous infligez sont augmentés de %d%%.
+		Vous ne pouvez pas avoir plus d'une infusion d'alchimiste soutenue active à la fois.]], "tformat")
+t("Caustic Golem", "Golem Caustique", "talent name")
 t([[While Acid Infusion is active, your bombs coat your golem in acid for %d turns when they hit it.
 		While coated, any melee hit against your golem has a %d%% chance to trigger a radius 4 cone of acid towards the attacker that does %0.1f Acid damage to all caught inside. (This can only happen once per turn.)
-		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], [[While Acid Infusion is active, your bombs coat your golem in acid for %d turns when they hit it.
-		While coated, any melee hit against your golem has a %d%% chance to trigger a radius 4 cone of acid towards the attacker that does %0.1f Acid damage to all caught inside. (This can only happen once per turn.)
-		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], "tformat")
-t("Caustic Mire", "Caustic Mire", "talent name")
+		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], [[Tant qu'Infusion Acide est active, vos bombes recouvrent votre golem d'acide pendant %d tours lorsqu'elles le touchent.
+		Tant qu'il est recouvert, tout coup de mêlée contre votre golem a %d%% de chance de déclencher un cône d'acide de rayon 4 vers l'attaquant, infligeant %0.1f dégâts d'acide à toutes les créatures prises dedans. (Cela ne peut se produire qu'une fois par tour.)
+		Les effets sont proportionnels à votre niveau de talent, la Puissance des sorts, et les modificateurs de dégâts de votre golem.]], "tformat")
+t("Caustic Mire", "Bourbier Caustique", "talent name")
 t([[A radius %d pool of acid spawns at the target location, doing %0.1f Acid damage each turn for %d turns.
 		All creatures caught in the mire will also suffer a %d%% slowness effect.
-		The damage will increase with your Spellpower.]], [[A radius %d pool of acid spawns at the target location, doing %0.1f Acid damage each turn for %d turns.
-		All creatures caught in the mire will also suffer a %d%% slowness effect.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Dissolving Acid", "Dissolving Acid", "talent name")
+		The damage will increase with your Spellpower.]], [[Une flaque d'acide de rayon %d apparaît à l'emplacement cible, infligeant %0.1f dégâts d'acide à chaque tour pendant %d tours.
+		Toutes les créatures prises dans le bourbier subiront également un effet de Ralentissement de %d%%.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Dissolving Acid", "Acide Dissolvant", "talent name")
 t([[Acid erupts all around your target, dealing %0.1f acid damage.
 		The acid attack is extremely distracting, and may remove up to %d physical or mental temporary effects or mental sustains (depending on the Spell Save of the target).
-		The damage and chance to remove effects will increase with your Spellpower.]], [[Acid erupts all around your target, dealing %0.1f acid damage.
-		The acid attack is extremely distracting, and may remove up to %d physical or mental temporary effects or mental sustains (depending on the Spell Save of the target).
-		The damage and chance to remove effects will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage and chance to remove effects will increase with your Spellpower.]], [[De l'acide jaillit tout autour de votre cible, infligeant %0.1f dégâts d'acide.
+		L'attaque acide est extrêmement perturbatrice et peut supprimer jusqu'à %d effets temporaires physiques ou mentaux ou talents mentaux soutenus (selon la sauvegarde magique de la cible).
+		Les dégâts et la chance de supprimer des effets sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/advanced-golemancy.lua"
 
-t("Life Tap", "Exploitation Vital", "talent name")
-t("Supercharge Golem", "Golem Superchargé", "talent name")
-t("Runic Golem", "Golem runique", "talent name")
--- texte non traduit
---[==[
-t("Having an Alchemist Golem", "Having an Alchemist Golem", "_t")
-t("Your golem is currently inactive.", "Your golem is currently inactive.", "logPlayer")
-t("You tap into your golem's life energies to replenish your own. Drains %d life.", "You tap into your golem's life energies to replenish your own. Drains %d life.", "tformat")
-t("Gem Golem", "Gem Golem", "talent name")
+t("Life Tap", "Ponction de Vie", "talent name")
+t("Having an Alchemist Golem", "Avoir un Golem d'Alchimiste", "_t")
+t("Your golem is currently inactive.", "Votre golem est actuellement inactif.", "logPlayer")
+t("You tap into your golem's life energies to replenish your own. Drains %d life.", "Vous puisez dans les énergies vitales de votre golem pour reconstituer les vôtres. Draine %d de vie.", "tformat")
+t("Gem Golem", "Golem de Gemmes", "talent name")
 t([[Insert a pair of gems into your golem, providing it with the gem bonuses and changing its melee attack damage type. You may remove the gems and insert different ones; this does not destroy the gems you remove.
 		Gem level usable: %d
-		Gem changing is done in the golem's inventory.]], [[Insert a pair of gems into your golem, providing it with the gem bonuses and changing its melee attack damage type. You may remove the gems and insert different ones; this does not destroy the gems you remove.
-		Gem level usable: %d
-		Gem changing is done in the golem's inventory.]], "tformat")
-t("Not enough space to supercharge!", "Not enough space to supercharge!", "logPlayer")
+		Gem changing is done in the golem's inventory.]], [[Insérez une paire de gemmes dans votre golem, lui accordant les bonus des gemmes et changeant le type de dégâts de son attaque de mêlée. Vous pouvez retirer les gemmes et en insérer de différentes ; cela ne détruit pas les gemmes retirées.
+		Niveau de gemme utilisable : %d
+		Le changement de gemmes se fait dans l'inventaire du golem.]], "tformat")
+t("Supercharge Golem", "Surcharger le Golem", "talent name")
+t("Not enough space to supercharge!", "Pas assez d'espace pour effectuer une surcharge !", "logPlayer")
 t([[You activate a special mode of your golem, boosting its regeneration rate by %0.2f life per turn for %d turns.
 		If your golem was dead, it is instantly brought back to life with %d%% life.
-		While supercharged, your golem is enraged and deals 25%% more damage.]], [[You activate a special mode of your golem, boosting its regeneration rate by %0.2f life per turn for %d turns.
-		If your golem was dead, it is instantly brought back to life with %d%% life.
-		While supercharged, your golem is enraged and deals 25%% more damage.]], "tformat")
+		While supercharged, your golem is enraged and deals 25%% more damage.]], [[Vous activez un mode spécial de votre golem, augmentant son taux de régénération de %0.2f vie par tour pendant %d tours.
+		Si votre golem était mort, il revient instantanément à la vie avec %d%% de vie.
+		Pendant la surcharge, votre golem est enragé et inflige 25%% de dégâts supplémentaires.]], "tformat")
+t("Runic Golem", "Golem Runique", "talent name")
 t([[Increases your golem's life, mana and stamina regeneration rates by %0.2f.
 		At level 1, 3 and 5, the golem also gains a new rune slot.
-		Even without this talent, Golems start with three rune slots.]], [[Increases your golem's life, mana and stamina regeneration rates by %0.2f.
-		At level 1, 3 and 5, the golem also gains a new rune slot.
-		Even without this talent, Golems start with three rune slots.]], "tformat")
---]==]
-
+		Even without this talent, Golems start with three rune slots.]], [[Augmente les taux de régénération de vie, de mana, et d'endurance de votre golem de %0.2f.
+		Aux niveaux 1, 3 et 5, le golem gagne également un nouvel emplacement de rune.
+		Même sans ce talent, les golems commencent avec trois emplacements de rune.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/aegis.lua"
@@ -27384,40 +27376,36 @@ t([[Your stone spikes grow in length, instantly dealing %0.1f Physical damage an
 ------------------------------------------------
 section "mod-tome/data/talents/spells/energy-alchemy.lua"
 
-t("%s's %s", "%s de %s", "tformat", {2,1})
--- texte non traduit
---[==[
-t("Lightning Infusion", "Lightning Infusion", "talent name")
+t("Lightning Infusion", "Infusion de Foudre", "talent name")
 t([[When you throw your alchemist bombs, you infuse them with lightning damage that can daze your foes.
 		In addition all lightning damage you do is increased by %d%%.
-		You cannot have more than one alchemist infusion sustain active at once.]], [[When you throw your alchemist bombs, you infuse them with lightning damage that can daze your foes.
-		In addition all lightning damage you do is increased by %d%%.
-		You cannot have more than one alchemist infusion sustain active at once.]], "tformat")
-t("Dynamic Recharge", "Dynamic Recharge", "talent name")
-t("%s is energized by the attack, reducing some talent cooldowns!", "%s is energized by the attack, reducing some talent cooldowns!", "logSeen")
+		You cannot have more than one alchemist infusion sustain active at once.]], [[Lorsque vous lancez vos bombes d'alchimiste, vous les infusez de dégâts de foudre pouvant étourdir légèrement vos ennemis.
+		De plus, tous les dégâts de foudre que vous infligez sont augmentés de %d%%.
+		Vous ne pouvez pas avoir plus d'une infusion d'alchimiste soutenue active à la fois.]], "tformat")
+t("Dynamic Recharge", "Recharge Dynamique", "talent name")
+t("%s is energized by the attack, reducing some talent cooldowns!", "%s est énergisé par l'attaque, réduisant le rechargement de certains talents !", "logSeen")
 t([[While Lightning Infusion is active, your bombs energize your golem.
-		All talents on cooldown on your golem have %d%% chance to be reduced by %d.]], [[While Lightning Infusion is active, your bombs energize your golem.
-		All talents on cooldown on your golem have %d%% chance to be reduced by %d.]], "tformat")
-t("Thunderclap", "Thunderclap", "talent name")
-t("You need to ready alchemist gems in your quiver.", "You need to ready alchemist gems in your quiver.", "logPlayer")
+		All talents on cooldown on your golem have %d%% chance to be reduced by %d.]], [[Tant qu'Infusion de Foudre est active, vos bombes énergisent votre golem.
+		Tous les talents en rechargement de votre golem ont %d%% de chance d'être réduits de %d.]], "tformat")
+t("Thunderclap", "Coup de Tonnerre", "talent name")
+t("You need to ready alchemist gems in your quiver.", "Vous devez avoir des gemmes d'alchimiste prêtes dans votre carquois.", "logPlayer")
 t([[By crushing an alchemist gem you generate a thunderclap in a cone of radius %d dealing %0.2f physical damage and %0.2f lightning damage.
 		All creatures caught inside are knocked back and disarmed for %d turns.
-		The duration and damage will increase with your Spellpower.]], [[By crushing an alchemist gem you generate a thunderclap in a cone of radius %d dealing %0.2f physical damage and %0.2f lightning damage.
-		All creatures caught inside are knocked back and disarmed for %d turns.
-		The duration and damage will increase with your Spellpower.]], "tformat")
-t("Living Lightning", "Living Lightning", "talent name")
-t("#LIGHT_STEEL_BLUE#%s is energized by all the damage taken!", "#LIGHT_STEEL_BLUE#%s is energized by all the damage taken!", "logSeen")
+		The duration and damage will increase with your Spellpower.]], [[En écrasant une gemme d'alchimiste, vous générez un coup de tonnerre en cône de rayon %d infligeant %0.2f dégâts physiques et %0.2f dégâts de foudre.
+		Toutes les créatures prises dedans sont repoussées et Désarmées pendant %d tours.
+		La durée et les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Living Lightning", "Foudre Vivante", "talent name")
+t("#LIGHT_STEEL_BLUE#%s is energized by all the damage taken!", "#LIGHT_STEEL_BLUE#%s est énergisé par tous les dégâts subis !", "logSeen")
+t("%s's %s", "%s de %s", "tformat", {2,1})
 t([[Infuse your body with lightning energy, bolstering your movement speed by +%d%%.
 		Each turn, a foe within range %d will be struck by lightning and be dealt %0.1f Lightning damage.
 		In addition, damage to your health will energize you.
 		At the start of each turn in which you have lost at least %d life (20%% of your maximum life) since your last turn, you will gain %d%% of a turn.
-		The effects increase with your Spellpower.]], [[Infuse your body with lightning energy, bolstering your movement speed by +%d%%.
-		Each turn, a foe within range %d will be struck by lightning and be dealt %0.1f Lightning damage.
-		In addition, damage to your health will energize you.
-		At the start of each turn in which you have lost at least %d life (20%% of your maximum life) since your last turn, you will gain %d%% of a turn.
-		The effects increase with your Spellpower.]], "tformat")
---]==]
-
+		The effects increase with your Spellpower.]], [[Infusez votre corps d'énergie de foudre, augmentant votre vitesse de déplacement de +%d%%.
+		À chaque tour, un ennemi dans un rayon de %d sera frappé par la foudre et subira %0.1f dégâts de foudre.
+		De plus, les dégâts à votre vie vous énergisent.
+		Au début de chaque tour où vous avez perdu au moins %d de vie (20%% de votre vie maximale) depuis votre dernier tour, vous gagnez %d%% d'un tour.
+		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/enhancement.lua"
@@ -27487,73 +27475,63 @@ t([[Surround yourself with Frostdusk, increasing all your darkness and cold dama
 ------------------------------------------------
 section "mod-tome/data/talents/spells/explosives.lua"
 
-
--- texte non traduit
---[==[
-t("Throw Bomb", "Throw Bomb", "talent name")
-t("You need to ready alchemist gems in your quiver.", "You need to ready alchemist gems in your quiver.", "logPlayer")
+t("Throw Bomb", "Lancer une Bombe", "talent name")
+t("You need to ready alchemist gems in your quiver.", "Vous devez avoir des gemmes d'alchimiste prêtes dans votre carquois.", "logPlayer")
 t([[Imbue an alchemist gem with an explosive charge of mana and throw it.
 		The gem will explode for %0.1f %s damage.
 		Each kind of gem will also provide a specific effect.
-		The damage will improve with better gems and with your Spellpower.]], [[Imbue an alchemist gem with an explosive charge of mana and throw it.
-		The gem will explode for %0.1f %s damage.
-		Each kind of gem will also provide a specific effect.
-		The damage will improve with better gems and with your Spellpower.]], "tformat")
-t("Alchemist Protection", "Alchemist Protection", "talent name")
+		The damage will improve with better gems and with your Spellpower.]], [[Imprègnez une gemme d'alchimiste d'une charge de mana explosive et lancez-la.
+		La gemme explosera pour %0.1f dégâts de type %s.
+		Chaque type de gemme fournit également un effet spécifique.
+		Les dégâts sont proportionnels à de meilleures gemmes et à votre Puissance des sorts.]], "tformat")
+t("Alchemist Protection", "Protection d'Alchimiste", "talent name")
 t([[Grants %d%% protection to you, your golem and other friendly creatures against the elemental damage of your own bombs, and against external elemental damage (fire, cold, lightning and acid) by %d%%.
-		At talent level 5 it also protects against all side effects of your bombs.]], [[Grants %d%% protection to you, your golem and other friendly creatures against the elemental damage of your own bombs, and against external elemental damage (fire, cold, lightning and acid) by %d%%.
-		At talent level 5 it also protects against all side effects of your bombs.]], "tformat")
-t("Explosion Expert", "Explosion Expert", "talent name")
+		At talent level 5 it also protects against all side effects of your bombs.]], [[Accorde %d%% de protection à vous, votre golem et autres créatures amies contre les dégâts élémentaires de vos propres bombes, et contre les dégâts élémentaires externes (feu, froid, foudre et acide) de %d%%.
+		Au niveau 5, protège également contre tous les effets secondaires de vos bombes.]], "tformat")
+t("Explosion Expert", "Expert en Explosions", "talent name")
 t([[Your alchemist bombs now affect a radius of %d around them.
-		Explosion damage may increase by %d%% (if the explosion is not contained) to %d%% if the area of effect is confined.]], [[Your alchemist bombs now affect a radius of %d around them.
-		Explosion damage may increase by %d%% (if the explosion is not contained) to %d%% if the area of effect is confined.]], "tformat")
-t("Shockwave Bomb", "Shockwave Bomb", "talent name")
-t("You need to ready at least two alchemist gems in your quiver.", "You need to ready at least two alchemist gems in your quiver.", "logPlayer")
+		Explosion damage may increase by %d%% (if the explosion is not contained) to %d%% if the area of effect is confined.]], [[Vos bombes d'alchimiste affectent désormais un rayon de %d autour d'elles.
+		Les dégâts d'explosion peuvent augmenter de %d%% (si la zone d'effet est large) à %d%% si la zone d'effet est confinée.]], "tformat")
+t("Shockwave Bomb", "Bombe à Onde de Choc", "talent name")
+t("You need to ready at least two alchemist gems in your quiver.", "Vous devez avoir au moins deux gemmes d'alchimiste prêtes dans votre carquois.", "logPlayer")
 t([[Crush together two alchemist gems, making them extremely unstable.
 		You then throw them to a target area, where they explode on impact, dealing %0.2f physical damage and knocking back any creatures in the blast radius.
 		Each kind of gem will also provide a specific effect.
-		The damage will improve with better gems and with your Spellpower.]], [[Crush together two alchemist gems, making them extremely unstable.
-		You then throw them to a target area, where they explode on impact, dealing %0.2f physical damage and knocking back any creatures in the blast radius.
-		Each kind of gem will also provide a specific effect.
-		The damage will improve with better gems and with your Spellpower.]], "tformat")
---]==]
-
+		The damage will improve with better gems and with your Spellpower.]], [[Écrasez deux gemmes d'alchimiste ensemble, les rendant extrêmement instables.
+		Vous les lancez ensuite vers une zone cible, où elles explosent à l'impact, infligeant %0.2f dégâts physiques et repoussant toutes les créatures dans le rayon de l'explosion.
+		Chaque type de gemme fournit également un effet spécifique.
+		Les dégâts sont proportionnels à de meilleures gemmes et à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/fire-alchemy.lua"
 
-
--- texte non traduit
---[==[
-t("Flame Infusion", "Flame Infusion", "talent name")
+t("Flame Infusion", "Infusion de Flamme", "talent name")
 t([[When you throw your alchemist bombs, you infuse them with flames that burn for a few turns.
 		In addition all fire damage you do is increased by %d%%.
-		You cannot have more than one alchemist infusion sustain active at once.]], [[When you throw your alchemist bombs, you infuse them with flames that burn for a few turns.
-		In addition all fire damage you do is increased by %d%%.
-		You cannot have more than one alchemist infusion sustain active at once.]], "tformat")
-t("Smoke Bomb", "Smoke Bomb", "talent name")
+		You cannot have more than one alchemist infusion sustain active at once.]], [[Lorsque vous lancez vos bombes d'alchimiste, vous les infusez de flammes qui brûlent pendant quelques tours.
+		De plus, tous les dégâts de feu que vous infligez sont augmentés de %d%%.
+		Vous ne pouvez pas avoir plus d'une infusion d'alchimiste soutenue active à la fois.]], "tformat")
+t("Smoke Bomb", "Bombe Fumigène", "talent name")
 t([[Throw a smoke bomb, blocking everyone's line of sight. The smoke dissipates after %d turns.
 		If a creature inside is victim of fire burns the smoke will consume instantly, replicating the burns on all foes and increasing its duration by %d turns.
-		Duration will increase with your Spellpower.]], [[Throw a smoke bomb, blocking everyone's line of sight. The smoke dissipates after %d turns.
-		If a creature inside is victim of fire burns the smoke will consume instantly, replicating the burns on all foes and increasing its duration by %d turns.
-		Duration will increase with your Spellpower.]], "tformat")
-t("Fire Storm", "Fire Storm", "talent name")
-t("firestorm", "firestorm", "_t")
+		Duration will increase with your Spellpower.]], [[Lancez une bombe fumigène, bloquant la ligne de vue de tous. La fumée se dissipe après %d tours.
+		Si une créature à l'intérieur est victime de brûlures de feu, la fumée sera instantanément consumée, répliquant les brûlures sur tous les ennemis et augmentant sa durée de %d tours.
+		La durée est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Fire Storm", "Tempête de Feu", "talent name")
+t("firestorm", "tempête de feu", "_t")
 t([[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
 		You closely control the firestorm, preventing it from harming your party members.
-		The damage and duration will increase with your Spellpower.]], [[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
-		You closely control the firestorm, preventing it from harming your party members.
-		The damage and duration will increase with your Spellpower.]], "tformat")
-t("Body of Fire", "Body of Fire", "talent name")
-t("#FF8000#%s turns into pure flame!", "#FF8000#%s turns into pure flame!", "logSeen")
-t("#FF8000#The raging fire around %s calms down and disappears.", "#FF8000#The raging fire around %s calms down and disappears.", "logSeen")
+		The damage and duration will increase with your Spellpower.]], [[Une furieuse tempête de feu fait rage autour du lanceur, infligeant %0.2f dégâts de feu dans un rayon de 3 à chaque tour pendant %d tours.
+		Vous contrôlez étroitement la tempête de feu, l'empêchant de blesser vos membres du groupe.
+		Les dégâts et la durée sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Body of Fire", "Corps de Feu", "talent name")
+t("#FF8000#%s turns into pure flame!", "#FF8000#%s se transforme en flamme pure !", "logSeen")
+t("#FF8000#The raging fire around %s calms down and disappears.", "#FF8000#Le feu déchaîné autour de %s se calme et disparaît.", "logSeen")
 t([[Turn your body into pure flame, increasing your fire resistance by %d%%, burning any creatures striking you in melee for %0.2f fire damage, and randomly launching up to %d slow-moving fire bolt(s) per turn at targets in sight, each dealing %0.2f fire damage.
 		The projectiles safely go through your friends without harming them.
-		The damage and resistance will increase with your Spellpower.]], [[Turn your body into pure flame, increasing your fire resistance by %d%%, burning any creatures striking you in melee for %0.2f fire damage, and randomly launching up to %d slow-moving fire bolt(s) per turn at targets in sight, each dealing %0.2f fire damage.
-		The projectiles safely go through your friends without harming them.
-		The damage and resistance will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage and resistance will increase with your Spellpower.]], [[Transformez votre corps en flamme pure, augmentant votre résistance au feu de %d%%, brûlant toute créature vous frappant en mêlée pour %0.2f dégâts de feu. Et lançant aléatoirement, par tour, jusqu'à %d projectile(s) de feu à déplacement lent sur des cibles en vue infligeant chacun %0.2f dégâts de feu.
+		Les projectiles traversent vos amis en toute sécurité sans les blesser.
+		Les dégâts et la résistance sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/fire.lua"
@@ -27584,34 +27562,30 @@ t("Inferno", "Inferno", "talent name")
 ------------------------------------------------
 section "mod-tome/data/talents/spells/frost-alchemy.lua"
 
-t("Ice Armour", "Armure de Glace", "talent name")
--- texte non traduit
---[==[
-t("Frost Infusion", "Frost Infusion", "talent name")
+t("Frost Infusion", "Infusion de Givre", "talent name")
 t([[When you throw your alchemist bombs, you infuse them with cold damage that can freeze your foes.
 		In addition all cold damage you do is increased by %d%%.
-		You cannot have more than one alchemist infusion sustain active at once.]], [[When you throw your alchemist bombs, you infuse them with cold damage that can freeze your foes.
-		In addition all cold damage you do is increased by %d%%.
-		You cannot have more than one alchemist infusion sustain active at once.]], "tformat")
+		You cannot have more than one alchemist infusion sustain active at once.]], [[Lorsque vous lancez vos bombes d'alchimiste, vous les infusez de dégâts de froid pouvant geler vos ennemis.
+		De plus, tous les dégâts de froid que vous infligez sont augmentés de %d%%.
+		Vous ne pouvez pas avoir plus d'une infusion d'alchimiste soutenue active à la fois.]], "tformat")
+t("Ice Armour", "Armure de Glace", "talent name")
 t([[While Frost Infusion is active, your bombs deposit a layer of ice on your golem for %d turns when they hit it.
 		This ice provides your golem with %d additional armour, melee attacks against it deal %0.1f Cold damage to the attacker, and 50%% of its damage is converted to Cold.
-		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], [[While Frost Infusion is active, your bombs deposit a layer of ice on your golem for %d turns when they hit it.
-		This ice provides your golem with %d additional armour, melee attacks against it deal %0.1f Cold damage to the attacker, and 50%% of its damage is converted to Cold.
-		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], "tformat")
-t("Flash Freeze", "Flash Freeze", "talent name")
+		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], [[Tant qu'Infusion de Givre est active, vos bombes déposent une couche de glace sur votre golem pendant %d tours lorsqu'elles le touchent.
+		Cette glace fournit à votre golem %d d'armure supplémentaire, les attaques de mêlée contre lui infligent %0.1f dégâts de froid à l'attaquant et 50%% de ses dégâts sont convertis en froid.
+		Les effets sont proportionnels à votre niveau de talent, à la Puissance des sorts, et les modificateurs de dégâts de votre golem.]], "tformat")
+t("Flash Freeze", "Gel Instantané", "talent name")
 t([[Invoke a blast of cold all around you with a radius of %d, doing %0.1f Cold damage and freezing creatures to the ground for %d turns.
 		Affected creatures can still act, but cannot move.
-		The duration will increase with your Spellpower.]], [[Invoke a blast of cold all around you with a radius of %d, doing %0.1f Cold damage and freezing creatures to the ground for %d turns.
-		Affected creatures can still act, but cannot move.
-		The duration will increase with your Spellpower.]], "tformat")
-t("Ice Core", "Ice Core", "talent name")
+		The duration will increase with your Spellpower.]], [[Invoquez une explosion de froid autour de vous dans un rayon de %d, infligeant %0.1f dégâts de froid et gelant les créatures au sol pendant %d tours.
+		Les créatures affectées peuvent toujours agir, mais ne peuvent pas se déplacer.
+		La durée sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Ice Core", "Noyau de Glace", "talent name")
 t([[Turn your body into pure ice, increasing your Cold damage affinity by %d%% and your physical resistance by %d%%.
 		You have a %d%% chance to shrug off all direct critical hits (physical, mental, spell).
-		The effects increase with your Spellpower.]], [[Turn your body into pure ice, increasing your Cold damage affinity by %d%% and your physical resistance by %d%%.
-		You have a %d%% chance to shrug off all direct critical hits (physical, mental, spell).
-		The effects increase with your Spellpower.]], "tformat")
---]==]
-
+		The effects increase with your Spellpower.]], [[Transformez votre corps en glace pure, augmentant votre affinité aux dégâts de froid de %d%% et votre résistance physique de %d%%.
+		Vous avez %d%% de chance d'ignorer tous les coups critiques directs (physiques, mentaux, sorts).
+		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/glacial-waste.lua"
@@ -27732,49 +27706,50 @@ t([[Breathe poison on your foes, doing %d damage over a few turns.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/golemancy.lua"
 
-t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
-t("You have been interrupted!", "Vous avez été interrompu !", "logPlayer")
-t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
--- texte non traduit
---[==[
-t("Golem has no master", "Golem has no master", "_t")
-t("Master must know the Gem Golem talent", "Master must know the Gem Golem talent", "_t")
-t("impossible to use this gem", "impossible to use this gem", "_t")
-t("Master's Gem Golem talent too low for this gem", "Master's Gem Golem talent too low for this gem", "_t")
-t("Your golem is out of sight; you cannot establish direct control.", "Your golem is out of sight; you cannot establish direct control.", "logPlayer")
-t("drolem", "drolem", "_t")
-t("Interact with the Golem", "Interact with the Golem", "talent name")
+t("Golem has no master", "Le golem n'a pas de maître", "_t")
+t("Master must know the Gem Golem talent", "Le maître doit connaître le talent Golem de Gemmes", "_t")
+t("impossible to use this gem", "impossible d'utiliser cette gemme", "_t")
+t("Master's Gem Golem talent too low for this gem", "Le talent Golem de Gemmes du maître est trop bas pour cette gemme", "_t")
+t("Your golem is out of sight; you cannot establish direct control.", "Votre golem est hors de vue ; vous ne pouvez pas établir de contrôle direct.", "logPlayer")
+t("Interact with the Golem", "Interagir avec le Golem", "talent name")
 t([[Interact with your golem to check its inventory, talents, ...
-		Note: You can also do that while taking direct control of the golem.]], [[Interact with your golem to check its inventory, talents, ...
-		Note: You can also do that while taking direct control of the golem.]], "tformat")
-t("Refit Golem", "Refit Golem", "talent name")
-t("Golem", "Golem", "_t")
-t("Not enough space to refit!", "Not enough space to refit!", "logPlayer")
-t("refitting", "refitting", "_t")
-t("refitted", "refitted", "_t")
-t("You need to ready 2 alchemist gems in your quiver to heal your golem.", "You need to ready 2 alchemist gems in your quiver to heal your golem.", "logPlayer")
-t("You need to ready 15 alchemist gems in your quiver to heal your golem.", "You need to ready 15 alchemist gems in your quiver to heal your golem.", "logPlayer")
+		Note: You can also do that while taking direct control of the golem.]], [[Interagissez avec votre golem pour vérifier son inventaire, ses talents...
+		Note : Vous pouvez également le faire en prenant le contrôle direct du golem.]], "tformat")
+t("Refit Golem", "Reconfigurer le Golem", "talent name")
+t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
+t("Not enough space to refit!", "Pas assez d'espace pour reconfigurer !", "logPlayer")
+t("refitting", "reconfiguration", "_t")
+t("refitted", "reconfiguré", "_t")
+t("You have been interrupted!", "Vous avez été interrompu !", "logPlayer")
+t("You need to ready 2 alchemist gems in your quiver to heal your golem.", "Vous devez avoir 2 gemmes d'alchimiste dans votre carquois pour soigner votre golem.", "logPlayer")
+t("You need to ready 15 alchemist gems in your quiver to heal your golem.", "Vous devez avoir 15 gemmes d'alchimiste dans votre carquois pour soigner votre golem.", "logPlayer")
 t([[Take care of your golem:
 		- If it is destroyed, you will take some time to reconstruct it (this takes 15 alchemist gems and 20 turns).
-		- If it is alive but hurt, you will be able to repair it for %d (takes 2 alchemist gems). Spellpower, alchemist gem and Golem Power talent all influence the healing done.]], [[Take care of your golem:
-		- If it is destroyed, you will take some time to reconstruct it (this takes 15 alchemist gems and 20 turns).
-		- If it is alive but hurt, you will be able to repair it for %d (takes 2 alchemist gems). Spellpower, alchemist gem and Golem Power talent all influence the healing done.]], "tformat")
-t("Golem Power", "Golem Power", "talent name")
-t("Improves your golem's proficiency with weapons, increasing its attack and damage.", "Improves your golem's proficiency with weapons, increasing its attack and damage.", "_t")
-t("Improves your golem's proficiency with weapons, increasing its Accuracy by %d, Physical Power by %d and damage by %d%%.", "Improves your golem's proficiency with weapons, increasing its Accuracy by %d, Physical Power by %d and damage by %d%%.", "tformat")
-t("Golem Resilience", "Golem Resilience", "talent name")
-t("Improves your golem's armour training, damage resistance, and healing efficiency.", "Improves your golem's armour training, damage resistance, and healing efficiency.", "_t")
+		- If it is alive but hurt, you will be able to repair it for %d (takes 2 alchemist gems). Spellpower, alchemist gem and Golem Power talent all influence the healing done.]], [[Prenez soin de votre golem :
+		- S'il est détruit, vous prendrez du temps pour le reconstruire (nécessite 15 gemmes d'alchimiste et 20 tours).
+		- S'il est vivant mais blessé, vous pourrez le réparer pour %d de vie (nécessite 2 gemmes d'alchimiste).
+		La Puissance des sorts, la gemme d'alchimiste et le talent Pouvoir du Golem influencent tous les soins effectués.]], "tformat")
+t("Golem Power", "Pouvoir du Golem", "talent name")
+t("Improves your golem's proficiency with weapons, increasing its attack and damage.", "Améliore la maîtrise des armes de votre golem, augmentant son attaque et ses dégâts.", "_t")
+t("Improves your golem's proficiency with weapons, increasing its Accuracy by %d, Physical Power by %d and damage by %d%%.", "Améliore la maîtrise des armes de votre golem, augmentant sa Précision de %d, sa Puissance physique de %d et ses dégâts de %d%%.", "tformat")
+t("Golem Resilience", "Résilience du Golem", "talent name")
+t("Improves your golem's armour training, damage resistance, and healing efficiency.", "Améliore l'entraînement en armure, la résistance aux dégâts et l'efficacité de soin de votre golem.", "_t")
 t([[Improves your golem's armour training, damage resistance, and healing efficiency.
 		Increases all damage resistance by %d%%; increases Armour value by %d, Armour hardiness by %d%%, reduces chance to be critically hit by %d%% when wearing heavy mail or massive plate armour, and increases healing factor by %d%%.
-		The golem can always use any kind of armour, including massive armours.]], [[Improves your golem's armour training, damage resistance, and healing efficiency.
-		Increases all damage resistance by %d%%; increases Armour value by %d, Armour hardiness by %d%%, reduces chance to be critically hit by %d%% when wearing heavy mail or massive plate armour, and increases healing factor by %d%%.
-		The golem can always use any kind of armour, including massive armours.]], "tformat")
-t("Invoke Golem", "Invoke Golem", "talent name")
-t("Your golem is currently inactive.", "Your golem is currently inactive.", "logPlayer")
-t("You invoke your golem to your side, granting it a temporary melee power increase of %d for 5 turns.", "You invoke your golem to your side, granting it a temporary melee power increase of %d for 5 turns.", "tformat")
-t("Golem Portal", "Golem Portal", "talent name")
-t("#Target# focuses on #Source#.", "#Target# focuses on #Source#.", "logCombat")
-t("Teleport to your golem, while your golem teleports to your location. Your foes will be confused, and those that were attacking you will have a %d%% chance to target your golem instead.", "Teleport to your golem, while your golem teleports to your location. Your foes will be confused, and those that were attacking you will have a %d%% chance to target your golem instead.", "tformat")
+		The golem can always use any kind of armour, including massive armours.]], [[Améliore l'entraînement en armure, la résistance aux dégâts et l'efficacité de soin de votre golem.
+		Augmente la résistance générale de %d%% ; augmente la valeur d'armure de %d, la robustesse d'armure de %d%%, réduit la chance d'être touché par un coup critique de %d%% en portant une cotte de mailles lourde ou une armure de plaques massive, et augmente le facteur de soin de %d%%.
+		Le golem peut toujours utiliser n'importe quel type d'armure, y compris les armures massives.]], "tformat")
+t("Invoke Golem", "Invoquer un Golem", "talent name")
+t("Your golem is currently inactive.", "Votre golem est actuellement inactif.", "logPlayer")
+t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
+t("You invoke your golem to your side, granting it a temporary melee power increase of %d for 5 turns.", "Vous invoquez votre golem à vos côtés, lui accordant une augmentation temporaire de Puissance physique de %d pendant 5 tours.", "tformat")
+t("Golem Portal", "Portail du Golem", "talent name")
+t("#Target# focuses on #Source#.", "#Target# se concentre sur #Source#.", "logCombat")
+t("Teleport to your golem, while your golem teleports to your location. Your foes will be confused, and those that were attacking you will have a %d%% chance to target your golem instead.", "Téléportez-vous vers votre golem, tandis que votre golem se téléporte à votre emplacement. Vos ennemis seront confus, et ceux qui vous attaquaient auront %d%% de chance de cibler votre golem à la place.", "tformat")
+-- texte non traduit
+--[==[
+t("drolem", "drolem", "_t")
+t("Golem", "Golem", "_t")
 --]==]
 
 
@@ -28385,73 +28360,66 @@ t("water", "eau", "_t")
 ------------------------------------------------
 section "mod-tome/data/talents/spells/staff-combat.lua"
 
-t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
--- texte non traduit
---[==[
-t("Channel Staff", "Channel Staff", "talent name")
-t("You need a staff to use this spell.", "You need a staff to use this spell.", "logPlayer")
+t("Channel Staff", "Canaliser le Baton", "talent name")
+t("You need a staff to use this spell.", "Vous avez besoin d'un baton pour utiliser ce sort.", "logPlayer")
 t([[Channel raw mana through your staff, projecting a bolt of your staff's damage type, doing %d%% staff damage.
 		The bolt will only hurt hostile targets, and pass safely through friendly ones.
 		This attack always has a 100%% chance to hit, and ignores the target's Armour.
-		When projecting a bolt with your staff its damage modifier is increased by 20%%.]], [[Channel raw mana through your staff, projecting a bolt of your staff's damage type, doing %d%% staff damage.
-		The bolt will only hurt hostile targets, and pass safely through friendly ones.
-		This attack always has a 100%% chance to hit, and ignores the target's Armour.
-		When projecting a bolt with your staff its damage modifier is increased by 20%%.]], "tformat")
-t("Staff Mastery", "Staff Mastery", "talent name")
-t("Increases weapon damage by %d%% and physical power by 30 when using staves.", "Increases weapon damage by %d%% and physical power by 30 when using staves.", "tformat")
-t("Defensive Posture", "Defensive Posture", "talent name")
-t("Adopt a defensive posture, increasing your Defense and Armour by %d.", "Adopt a defensive posture, increasing your Defense and Armour by %d.", "tformat")
-t("Blunt Thrust", "Blunt Thrust", "talent name")
-t("You cannot use Blunt Thrust without a staff weapon!", "You cannot use Blunt Thrust without a staff weapon!", "logPlayer")
+		When projecting a bolt with your staff its damage modifier is increased by 20%%.]], [[Canalisez de la mana brute à travers votre baton, projetant un projectile du type de dégâts de votre baton, infligeant %d%% de dégâts de baton.
+		Le projectile ne blessera que les cibles hostiles et passera inoffensivement à travers les cibles amies.
+		Cette attaque a toujours 100%% de chance de toucher et ignore l'armure de la cible.
+		Lors de la projection d'un projectile avec votre baton, son modificateur de dégâts est augmenté de 20%%.]], "tformat")
+t("Staff Mastery", "Maîtrise du Baton", "talent name")
+t("Increases weapon damage by %d%% and physical power by 30 when using staves.", "Augmente les dégâts d'arme de %d%% et la Puissance physique de 30 lors de l'utilisation de batons.", "tformat")
+t("Defensive Posture", "Posture Défensive", "talent name")
+t("Adopt a defensive posture, increasing your Defense and Armour by %d.", [[Adoptez une posture défensive, augmentant votre Défense et votre Armure de %d.
+Les bonus sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Blunt Thrust", "Coup Contondant", "talent name")
+t("You cannot use Blunt Thrust without a staff weapon!", "Vous ne pouvez pas utiliser Coup Contondant sans un baton !", "logPlayer")
+t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 t([[Hit a target for %d%% melee damage and stun it for %d turns.
 		Stun chance will improve with Spellpower.
-		At level 5, this attack cannot miss.]], [[Hit a target for %d%% melee damage and stun it for %d turns.
-		Stun chance will improve with Spellpower.
-		At level 5, this attack cannot miss.]], "tformat")
---]==]
-
+		At level 5, this attack cannot miss.]], [[Frappez une cible pour %d%% dégâts de mêlée et étourdissez-la pendant %d tours.
+		La chance d'étourdissement est proportionnel à la Puissance des Sorts.
+		Au niveau 5, cette attaque ne peut pas rater.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/stone-alchemy.lua"
 
+t("Create Alchemist Gems", "Créer des Gemmes d'Alchimiste", "talent name")
 t("Use which gem?", "Utiliser quelle gemme ?", "_t")
-t("You extract %s from %s", "Vous extrayez %s de %s", "logPlayer")
-t("You imbue your %s with %s.", "Vous imprégnez votre %s de %s.", "logPlayer")
--- texte non traduit
---[==[
-t("Create Alchemist Gems", "Create Alchemist Gems", "talent name")
-t("You create: %s", "You create: %s", "logPlayer")
+t("You create: %s", "Vous créez : %s", "logPlayer")
 t([[Carve 40 to 80 alchemist gems out of a natural gemstone.
-		Alchemist gems are used for many other spells, and each gem type creates a different effect.]], [[Carve 40 to 80 alchemist gems out of a natural gemstone.
-		Alchemist gems are used for many other spells, and each gem type creates a different effect.]], "tformat")
-t("Extract Gems", "Extract Gems", "talent name")
-t("Try to extract gems from which metallic item?", "Try to extract gems from which metallic item?", "_t")
-t("Extract magical gems from metal weapons and armours. At this skill level you can work with metals of at maximum tier %d.", "Extract magical gems from metal weapons and armours. At this skill level you can work with metals of at maximum tier %d.", "tformat")
-t("Imbue Item", "Imbue Item", "talent name")
-t("Imbue which armour?", "Imbue which armour?", "_t")
-t("imbue %s", "imbue %s", "tformat")
+		Alchemist gems are used for many other spells, and each gem type creates a different effect.]], [[Taillez 40 à 80 gemmes d'alchimiste dans une pierre précieuse naturelle.
+		Les gemmes d'alchimiste sont utilisées pour de nombreux autres sorts, et chaque type de gemme crée un effet différent.]], "tformat")
+t("Extract Gems", "Extraire des Gemmes", "talent name")
+t("You extract %s from %s", "Vous extrayez %s de %s", "logPlayer")
+t("Try to extract gems from which metallic item?", "Essayer d'extraire des gemmes de quel objet métallique ?", "_t")
+t("Extract magical gems from metal weapons and armours. At this skill level you can work with metals of at maximum tier %d.", "Extrayez des gemmes magiques des armes et armures en métal. À ce niveau de compétence, vous pouvez travailler avec des métaux de rang maximum %d.", "tformat")
+t("Imbue Item", "Imprégner un Objet", "talent name")
+t("Imbue which armour?", "Imprégner quelle armure ?", "_t")
+t("imbue %s", "imprègne %s", "tformat")
+t("You imbue your %s with %s.", "Vous imprégnez votre %s de %s.", "logPlayer")
 t([[Imbue %s with a gem (up to tier %d), granting it additional powers.
-		You can only imbue items once, and it is permanent.]], [[Imbue %s with a gem (up to tier %d), granting it additional powers.
-		You can only imbue items once, and it is permanent.]], "tformat")
-t("body armour, a belt, or a head piece", "body armour, a belt, or a head piece", "_t")
-t("a body armour", "a body armour", "_t")
-t("Gem Portal", "Gem Portal", "talent name")
-t("You need to ready 5 alchemist gems in your quiver.", "You need to ready 5 alchemist gems in your quiver.", "logPlayer")
-t("Crush 5 alchemist gems into dust to mark impassable terrain next to you. You immediately enter it and appear on the other side of the obstacle, up to %d grids away.", "Crush 5 alchemist gems into dust to mark impassable terrain next to you. You immediately enter it and appear on the other side of the obstacle, up to %d grids away.", "tformat")
-t("Stone Touch", "Stone Touch", "talent name")
+		You can only imbue items once, and it is permanent.]], [[Imprégnez %s avec une gemme (jusqu'au rang %d), lui accordant des pouvoirs supplémentaires.
+		Vous ne pouvez imprégner les objets qu'une seule fois, et c'est permanent.]], "tformat")
+t("body armour, a belt, or a head piece", "une armure corporelle, une ceinture, ou un couvre-chef", "_t")
+t("a body armour", "une armure corporelle", "_t")
+t("Gem Portal", "Portail de Gemme", "talent name")
+t("You need to ready 5 alchemist gems in your quiver.", "Vous devez avoir 5 gemmes d'alchimiste prêtes dans votre carquois.", "logPlayer")
+t("Crush 5 alchemist gems into dust to mark impassable terrain next to you. You immediately enter it and appear on the other side of the obstacle, up to %d grids away.", "Réduisez 5 gemmes d'alchimiste en poussière pour marquer un terrain infranchissable près de vous. Vous y entrez immédiatement et apparaissez de l'autre côté de l'obstacle, jusqu'à %d cases de distance.", "tformat")
+t("Stone Touch", "Toucher de Pierre", "talent name")
 t([[Touch your foe and turn it to stone for %d turns.
 		Stoned creatures are unable to act or regen life, and are very brittle.
 		If a stoned creature is hit by an attack that deals more than 30%% of its life, it will shatter and be destroyed.
 		Stoned creatures are highly resistant to fire and lightning, and somewhat resistant to physical attacks.
 		At level 3 the touch will become a beam.
-		This spell may fail against creatures resistant to being stunned, that are specifically immune to stoning, or certain bosses.]], [[Touch your foe and turn it to stone for %d turns.
-		Stoned creatures are unable to act or regen life, and are very brittle.
-		If a stoned creature is hit by an attack that deals more than 30%% of its life, it will shatter and be destroyed.
-		Stoned creatures are highly resistant to fire and lightning, and somewhat resistant to physical attacks.
-		At level 3 the touch will become a beam.
-		This spell may fail against creatures resistant to being stunned, that are specifically immune to stoning, or certain bosses.]], "tformat")
---]==]
-
+		This spell may fail against creatures resistant to being stunned, that are specifically immune to stoning, or certain bosses.]], [[Touchez votre ennemi et transformez-le en pierre pendant %d tours.
+		Les créatures pétrifiées ne peuvent pas agir ni régénérer de vie et sont très fragiles.
+		Si une créature pétrifiée est frappée par une attaque infligeant plus de 30%% de sa vie, elle se fracassera et sera détruite.
+		Les créatures pétrifiées sont très résistantes au feu et à la foudre, et quelque peu résistantes aux attaques physiques.
+		Au niveau 3, le toucher deviendra un faisceau.
+		Ce sort peut échouer contre des créatures résistantes à l'assommement, spécifiquement immunisées à la pétrification, ou certains boss.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/stone.lua"
@@ -33838,7 +33806,7 @@ t("#Target# wanders around!", "#Target# Max erre dans tous les sens !", "_t")
 t("+Confused", "+Confus", "_t")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
 t("-Confused", "-Confus", "_t")
-t("Supercharge Golem", "Golem Superchargé", "_t")
+t("Supercharge Golem", "Surcharger le Golem", "_t")
 t("The target is supercharged, increasing life regen by %0.2f and damage done by 20%%.", "La cible est surchargée, ce qui augmente la régénération de vie de %0.2f et les dégâts infligés de 20%%.", "tformat")
 t("#Target# is overloaded with power.", "#Target# est surchargé d'énergie.", "_t")
 t("+Supercharge", "+Superchargé", "_t")
@@ -33848,12 +33816,12 @@ t("Power Overload", "Surcharge de Puissance", "_t")
 t("The target radiates incredible power, increasing all damage done by %d%%.", "La cible rayonne d'une puissance incroyable, augmentant tous les dégâts infligés de %d%%.", "tformat")
 t("+Overload", "+Puissance", "_t")
 t("-Overload", "-Puissance", "_t")
-t("Life Tap", "Exploitation Vital", "_t")
+t("Life Tap", "Ponction de Vie", "_t")
 t("The target taps its blood's hidden power, healing for %d%% of all damage they deal.", "La cible puise dans le pouvoir caché de son sang, ce qui la soigne pour %d%% de tous les dégâts infligés.", "tformat")
 t("#Target# looks healthier as he deals damage.", "#Target# semble en meilleure santé lorsqu'il inflige des dégâts.", "_t")
-t("+Life Tap", "+Exploitation Vital", "_t")
+t("+Life Tap", "+Ponction de Vie", "_t")
 t("#Target# stops leeching life.", "#Target# cesse d'aspirer la vie.", "_t")
-t("-Life Tap", "-Exploitation Vital", "_t")
+t("-Life Tap", "-Ponction de Vie", "_t")
 t("Arcane Eye", "Oeil Arcanique", "_t")
 t("You have an arcane eye observing for you in a radius of %d.", "Un oeil arcanique observe pour vous dans un rayon de %d.", "tformat")
 t("Seen by Arcane Eye", "Vu par l'oeil arcanique", "_t")
@@ -34261,7 +34229,7 @@ t("The target is covered in a layer of ice. Its armour is increased by %d, it de
 t("#Target# is covered in icy armor!", "#Target# est recouvert d'une armure de glace !", "_t")
 t("#Target#'s ice coating crumbles away.", "Le revêtement de glace de #Target# se désagrège.", "_t")
 t("coating", "revêtement", "effect subtype")
-t("Caustic Golem", "Golem Corrosif", "_t")
+t("Caustic Golem", "Golem Caustique", "_t")
 t("The target is coated with acid. When struck in melee, it has a %d%% chance to spray a cone of acid towards the attacker doing %0.1f damage.", "La cible est recouverte d'acide. Lorsqu'elle est touchée en mêlée, elle a %d%% de chances de projeter un cône d'acide vers l'attaquant en lui infligeant %0.1f dégâts.", "tformat")
 t("#Target# is coated in acid!", "#Target# est recouvert d'acide !", "_t")
 t("#Target#'s acid coating is diluted.", "Le revêtement acide de #Target# s'est dilué.", "_t")
