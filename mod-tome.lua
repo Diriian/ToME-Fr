@@ -203,7 +203,7 @@ t("Level 50", "Niveau 50", "achievement name")
 t("Got a character to level 50.", "Avoir un personnage au niveau 50.", "_t")
 t("Unstoppable", "Inarrêtable", "achievement name")
 t("Returned from the dead.", "Revenir d'entre les morts.", "_t")
-t("Utterly Destroyed", "Complètement détruit", "achievement name")
+t("Utterly Destroyed", "Complètement Détruit", "achievement name")
 t("Died on the Eidolon Plane.", "Mourir dans le plan de l'Eidolon.", "_t")
 t("Fool of a Took!", "Espèce de crétin !", "achievement name")
 t("Killed oneself as a halfling.", "Se suicider en tant que halfelin.", "_t")
@@ -4765,9 +4765,9 @@ t("dark light", "lumière sombre", "damage type")
 t("meteor", "météore", "damage type")
 t("fetid", "fétide", "damage type")
 t("frostdusk", "crépuscule givré", "damage type")
-t("chill of the tomb", "froid de la tombe", "damage type")
+t("chill of the tomb", "froid du tombeau", "damage type")
 t("putrescent liquefaction", "liquéfaction putrescente", "damage type")
-t("boneyard", "cimetière", "damage type")
+t("boneyard", "ossuaire", "damage type")
 t("desolate waste", "friche désolée", "damage type")
 t("thaumic energy", "énergie thaumique", "damage type")
 t("utterly vaporized", "complètement vaporisé", "_t")
@@ -26892,44 +26892,38 @@ t([[Surround yourself with Pure Aether, increasing all your arcane damage by %0.
 section "mod-tome/data/talents/spells/age-of-dusk.lua"
 
 t("Dire Plague", "Peste Noire", "talent name")
-t("Crepuscule", "Crépuscule", "talent name")
-t("Golden Age of Necromancy", "Âge d'or de la Nécromancie", "talent name")
--- texte non traduit
---[==[
 t([[You unleash the glorious vision of the past when the continent was filled with death and plagues.
 		All foes in range %d catch a dire plague for 5 turns, dealing %0.2f darkness damage each turn.
 		The Dire Plague is considered a disease but is not prevented by disease immunity.
 		Every turn there is a %d%% chance of a piece of the soul to be ripped away, increasing your souls by 1.
-		]], [[You unleash the glorious vision of the past when the continent was filled with death and plagues.
-		All foes in range %d catch a dire plague for 5 turns, dealing %0.2f darkness damage each turn.
-		The Dire Plague is considered a disease but is not prevented by disease immunity.
-		Every turn there is a %d%% chance of a piece of the soul to be ripped away, increasing your souls by 1.
-		]], "tformat")
-t("%s resists the crepuscule!", "%s resists the crepuscule!", "logSeen")
+		]], [[Vous libérez la vision glorieuse du passé, lorsque le continent était rempli de morts et de pestilences.
+		Tous les ennemis dans un rayon de %d contractent une peste noire pendant 5 tours, subissant %0.2f dégâts d'obscurité à chaque tour.
+		La Peste Noire est considérée comme une maladie mais n'est pas contrée par l'immunité aux maladies.
+		À chaque tour, il y a %d%% de chance qu'un fragment d'âme soit arraché, augmentant votre réserve d'âmes de 1.]], "tformat")
+t("Crepuscule", "Crépuscule", "talent name")
+t("%s resists the crepuscule!", "%s résiste au crépuscule !", "logSeen")
 t([[You call upon an eerie night to aid you for %d turns.
 		Each turn you automatically fire a beam of darkness towards a random foe (prioritizing the ones further away) that deals %0.2f darkness damage and has 25%% chance to blind any foes caught inside for 4 turns.
-		The damage will increase with your Spellpower.]], [[You call upon an eerie night to aid you for %d turns.
-		Each turn you automatically fire a beam of darkness towards a random foe (prioritizing the ones further away) that deals %0.2f darkness damage and has 25%% chance to blind any foes caught inside for 4 turns.
-		The damage will increase with your Spellpower.]], "tformat")
-t("The End of All Hope", "The End of All Hope", "talent name")
+		The damage will increase with your Spellpower.]], [[Vous invoquez une nuit sinistre pour vous aider pendant %d tours.
+		À chaque tour, vous tirez automatiquement un faisceau d'obscurité vers un ennemi aléatoire (en priorisant les plus éloignés), infligeant %0.2f dégâts d'obscurité avec 25%% de chance d'aveugler tout ennemi touché pendant 4 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("The End of All Hope", "La Fin de Tout Espoir", "talent name")
 t([[Whenever one of your Dire Plague rips a soul it feels the inescapable coming of the end.
 		When this happens the darkness damage of the plague is a critical hit and all Dire Plagues in radius %d around it (including itself) have their durations increased by %d turns.
 		The duration increase may happen only once per turn.
 		If Crepuscule is currently active it fires an additional free beam at the target.
 		In addition the chance to rip a soul by Dire Plague increases by %d%%.
-		]], [[Whenever one of your Dire Plague rips a soul it feels the inescapable coming of the end.
-		When this happens the darkness damage of the plague is a critical hit and all Dire Plagues in radius %d around it (including itself) have their durations increased by %d turns.
-		The duration increase may happen only once per turn.
-		If Crepuscule is currently active it fires an additional free beam at the target.
-		In addition the chance to rip a soul by Dire Plague increases by %d%%.
-		]], "tformat")
+		]], [[Chaque fois que l'une de vos Pestes Noire arrache une âme, elle ressent l'arrivée inévitable de la fin.
+		Quand cela se produit, les dégâts d'obscurité de la peste deviennent un coup critique et toutes les Pestes Noire dans un rayon de %d autour d'elle (y compris elle-même) voient leur durée augmentée de %d tours.
+		L'augmentation de durée ne peut se produire qu'une fois par tour.
+		Si Crépuscule est actuellement actif, il tire un faisceau supplémentaire gratuit sur la cible.
+		De plus, la chance d'arracher une âme par Peste Noire augmente de %d%%.]], "tformat")
+t("Golden Age of Necromancy", "Âge d'or de la Nécromancie", "talent name")
 t([[You recall the age long gone where necromancers had free reign over the world.
 		Increases all saves by %d, confusion and teleport resistances by %d%%.
-		At level 5 any time you cross the 1 life threshold you become invulnerable for 1 turns.]], [[You recall the age long gone where necromancers had free reign over the world.
-		Increases all saves by %d, confusion and teleport resistances by %d%%.
-		At level 5 any time you cross the 1 life threshold you become invulnerable for 1 turns.]], "tformat")
---]==]
-
+		At level 5 any time you cross the 1 life threshold you become invulnerable for 1 turns.]], [[Vous vous souvenez de l'ère révolue où les nécromanciens régnaient librement sur le monde.
+		Augmente toutes les sauvegardes de %d et les résistances à la Confusion et à la téléportation de %d%%.
+		Au niveau 5, chaque fois que vous franchissez le seuil de 1 de vie, vous devenez invulnérable pendant 1 tour.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/air.lua"
@@ -26963,9 +26957,6 @@ t([[Conjures a furious, raging lightning storm with a radius of 6 that follows y
 section "mod-tome/data/talents/spells/animus.lua"
 
 t("Soul Leech", "Sangsue d'Ame", "talent name")
-t("Consume Soul", "Consommation de l'Ame", "talent name")
--- texte non traduit
---[==[
 t([[Each time you or your undead minions deal damage to a creature you apply Soul Leech to them.
 		If a creature dies with this effect active, you steal its soul.
 		Strong creatures and bosses are so overflowing with soul power that you steal a fragment of their soul every few turns:
@@ -26975,37 +26966,35 @@ t([[Each time you or your undead minions deal damage to a creature you apply Sou
 		%s- elite boss: at most every %d turns#WHITE#
 
 		Also increases your maximum souls capacity by %d .
-		]], [[Each time you or your undead minions deal damage to a creature you apply Soul Leech to them.
-		If a creature dies with this effect active, you steal its soul.
-		Strong creatures and bosses are so overflowing with soul power that you steal a fragment of their soul every few turns:
-		%s- rare: at most every %d turns
-		%s- unique: at most every %d turns
-		%s- boss: at most every %d turns
-		%s- elite boss: at most every %d turns#WHITE#
+		]], [[Chaque fois que vous ou vos laquais morts-vivants infligez des dégâts à une créature, vous lui appliquez Sangsue d'Ame.
+		Si une créature meurt avec cet effet actif, vous volez son âme.
+		Les créatures puissantes et les boss sont tellement débordants de puissance d'âme que vous volez un fragment de leur âme toutes les quelques tours :
+		%s* rare : au plus toutes les %d tours
+		%s* unique : au plus toutes les %d tours
+		%s* boss : au plus toutes les %d tours
+		%s* boss d'élite : au plus toutes les %d tours#WHITE#
 
-		Also increases your maximum souls capacity by %d .
-		]], "tformat")
+		Augmente également votre capacité maximale d'âmes de %d.]], "tformat")
+t("Consume Soul", "Consommation de l'Âme", "talent name")
 t([[Consume a soul whole to rebuild your body, healing you for %d and generating %d mana.
 		If used below 1 life the surge increases your spellpower by %d for 10 turns.
-		The heal and mana increases with your Spellpower.]], [[Consume a soul whole to rebuild your body, healing you for %d and generating %d mana.
-		If used below 1 life the surge increases your spellpower by %d for 10 turns.
-		The heal and mana increases with your Spellpower.]], "tformat")
-t("Torture Souls", "Torture Souls", "talent name")
+		The heal and mana increases with your Spellpower.]], [[Consommez une âme entière pour reconstruire votre corps, vous soignant de %d et générant %d mana.
+		Si utilisé en dessous de 1 de vie, le sursaut augmente votre Puissance des sorts de %d pendant 10 tours.
+		Les soins et la mana sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Torture Souls", "Torturer les Âmes", "talent name")
 t([[Unleash dark forces to all foes in sight that are afflicted by Soul Leech, dealing %0.2f frostdusk damage to them and tearing apart their souls.
 		This returns up to %d souls to you (one for each foe hit).
-		The damage increases with your Spellpower.]], [[Unleash dark forces to all foes in sight that are afflicted by Soul Leech, dealing %0.2f frostdusk damage to them and tearing apart their souls.
-		This returns up to %d souls to you (one for each foe hit).
-		The damage increases with your Spellpower.]], "tformat")
-t("Reaping", "Reaping", "talent name")
+		The damage increases with your Spellpower.]], [[Déchaînez des forces obscures sur tous les ennemis en vue affectés par Sangsue d'Ame, leur infligeant %0.2f dégâts de crépuscule givré et déchirant leurs âmes.
+		Cela vous rapporte jusqu'à %d âme(s) (une pour chaque ennemi touché).
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Reaping", "Moisson", "talent name")
 t([[You draw constant power from the souls you hold within your grasp.
 		If you hold at least 2, your mana regeneration is increased by %0.1f per turn.
 		If you hold at least 5, your spellpower is increased by %d.
-		If you hold at least 8, all your resistances are increased by %d.]], [[You draw constant power from the souls you hold within your grasp.
-		If you hold at least 2, your mana regeneration is increased by %0.1f per turn.
-		If you hold at least 5, your spellpower is increased by %d.
-		If you hold at least 8, all your resistances are increased by %d.]], "tformat")
---]==]
-
+		If you hold at least 8, all your resistances are increased by %d.]], [[Vous tirez un pouvoir constant des âmes que vous tenez en votre possession.
+		Si vous en possédez au moins 2, votre régénération de mana est augmentée de %0.1f par tour.
+		Si vous en possédez au moins 5, votre Puissance des sorts est augmentée de %d.
+		Si vous en possédez au moins 8, toutes vos résistances sont augmentées de %d%%.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/arcane.lua"
@@ -27107,10 +27096,7 @@ t([[When you hit a solid surface, this spell tears down the laws of probability 
 section "mod-tome/data/talents/spells/death.lua"
 
 t("Rigor Mortis", "Rigidité Cadavérique", "talent name")
-t("Utterly Destroyed", "Complètement détruit", "talent name")
--- texte non traduit
---[==[
-t("%s resists the Rigor Mortis!", "%s resists the Rigor Mortis!", "logSeen")
+t("%s resists the Rigor Mortis!", "%s résiste à la Rigidité Cadavérique !", "logSeen")
 t([[Press your advantage when your foes are starting to crumble.
 		For every detrimental effect on the target you deals %0.2f frostdusk damage (with diminishing returns) and reduce its global speed by 25%% for one turn per effect (up to a maximum of %d).
 		The diminishing returns on damage bonus works this way:
@@ -27120,36 +27106,33 @@ t([[Press your advantage when your foes are starting to crumble.
 		- 15 effects: %0.2f
 		And so on...
 		Damage increases with your Spellpower.
-		]], [[Press your advantage when your foes are starting to crumble.
-		For every detrimental effect on the target you deals %0.2f frostdusk damage (with diminishing returns) and reduce its global speed by 25%% for one turn per effect (up to a maximum of %d).
-		The diminishing returns on damage bonus works this way:
-		- 2 effects: %0.2f
-		- 5 effects: %0.2f
-		- 10 effects: %0.2f
-		- 15 effects: %0.2f
-		And so on...
-		Damage increases with your Spellpower.
-		]], "tformat")
-t("Drawn To Death", "Drawn To Death", "talent name")
+		]], [[Profitez de votre avantage lorsque vos ennemis commencent à s'effondrer.
+		Pour chaque effet négatif sur la cible, vous infligez %0.2f dégâts de crépuscule givré (avec des retours décroissants) et réduisez sa vitesse globale de 25%% pendant un tour par effet (jusqu'à un maximum de %d).
+		Les retours décroissants sur le bonus de dégâts fonctionnent ainsi :
+		- 2 effets : %0.2f
+		- 5 effets : %0.2f
+		- 10 effets : %0.2f
+		- 15 effets : %0.2f
+		Et ainsi de suite...
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Drawn To Death", "Attiré par la Mort", "talent name")
 t([[Every time you or one of your minions kill a creature you create a temporary link to the place of death.
 		For %d turns afterwards you can instantly and accurately teleport to it (if it is in sight).
-		]], [[Every time you or one of your minions kill a creature you create a temporary link to the place of death.
-		For %d turns afterwards you can instantly and accurately teleport to it (if it is in sight).
-		]], "tformat")
-t("Grim Shadow", "Grim Shadow", "talent name")
-t("#GREY#Darkness pulsates around %s!", "#GREY#Darkness pulsates around %s!", "logSeen")
+		]], [[Chaque fois que vous ou l'un de vos laquais tuez une créature, vous créez un lien temporaire avec le lieu de la mort.
+		Pendant %d tours ensuite, vous pouvez vous y téléporter instantanément et avec précision (s'il est en vue).]], "tformat")
+t("Grim Shadow", "Ombre Funeste", "talent name")
+t("#GREY#Darkness pulsates around %s!", "#GREY#L'obscurité pulse autour de %s !", "logSeen")
 t([[Your body starts to radiate shadows, increasing your darkness resistance by %d%%, armour by %d and defence by %d.
 		Any time you absorb a soul the shadows pulse outward, dealing %0.2f frostdusk damage to all foes in range %d and knocking them back 3 tiles.
 		This can only happen once per turn.
-		The damage increases with your Spellpower.]], [[Your body starts to radiate shadows, increasing your darkness resistance by %d%%, armour by %d and defence by %d.
-		Any time you absorb a soul the shadows pulse outward, dealing %0.2f frostdusk damage to all foes in range %d and knocking them back 3 tiles.
-		This can only happen once per turn.
-		The damage increases with your Spellpower.]], "tformat")
+		The damage increases with your Spellpower.]], [[Votre corps commence à irradier des ombres, augmentant votre résistance à l'obscurité de %d%%, votre armure de %d et votre défense de %d.
+		Chaque fois que vous absorbez une âme les ombres pulsent vers l'extérieur, infligeant %0.2f dégâts de crépuscule givré à tous les ennemis dans un rayon de %d et les repoussant de 3 cases.
+		Cela ne peut se produire qu'une fois par tour.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Utterly Destroyed", "Complètement Détruit", "talent name")
 t([[Whenever a creature is killed by yourself or a minion you feast on its essence, gaining %0.1f mana.
-		At level 3 the thrill of the death invigorates you, granting a movement speed bonus of 50%% for %d turns.]], [[Whenever a creature is killed by yourself or a minion you feast on its essence, gaining %0.1f mana.
-		At level 3 the thrill of the death invigorates you, granting a movement speed bonus of 50%% for %d turns.]], "tformat")
---]==]
-
+		At level 3 the thrill of the death invigorates you, granting a movement speed bonus of 50%% for %d turns.]], [[Chaque fois qu'une créature est tuée par vous ou un laquais, vous vous repaissez de son essence, gagnant %0.1f mana.
+		Au niveau 3, le frisson de la mort vous revigore, accordant un bonus de vitesse de déplacement de 50%% pendant %d tours.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/deeprock.lua"
@@ -27227,10 +27210,7 @@ t("Vision", "Vision", "talent name")
 ------------------------------------------------
 section "mod-tome/data/talents/spells/dreadmaster.lua"
 
-t("Neverending Peril", "Péril sans Fin", "talent name")
--- texte non traduit
---[==[
-t("Dread", "Dread", "talent name")
+t("Dread", "Terreur", "talent name")
 t([[Summon a Dread of level %d that will annoyingly blink around, hexing your foes.
 		It knows the following spells:
 		- Burning Hex at level %d
@@ -27238,30 +27218,28 @@ t([[Summon a Dread of level %d that will annoyingly blink around, hexing your fo
 		- Pacification Hex at level %d
 		- Blur Sight at level %d
 		- Phase Door at level %d
-		]], [[Summon a Dread of level %d that will annoyingly blink around, hexing your foes.
-		It knows the following spells:
-		- Burning Hex at level %d
-		- Empathic Hex at level %d
-		- Pacification Hex at level %d
-		- Blur Sight at level %d
-		- Phase Door at level %d
-		]], "tformat")
-t("Souleater", "Souleater", "talent name")
-t("#GREY#%s has fed on enough minions and starts to randomly hex foes!", "#GREY#%s has fed on enough minions and starts to randomly hex foes!", "logSeen")
+		]], [[Invoquez une Terreur de niveau %d qui se téléportera de façon agaçante, ensorcelant vos ennemis.
+		Elle connaît les sorts suivants :
+		- Ensorcellement Brûlant au niveau %d.
+		- Ensorcellement Empathique au niveau %d.
+		- Ensorcellement Pacificateur au niveau %d.
+		- Vue Floue au niveau %d.
+		- Porte de Phase au niveau %d.]], "tformat")
+t("Souleater", "Dévoreur d'Âmes", "talent name")
+t("#GREY#%s has fed on enough minions and starts to randomly hex foes!", "#GREY#%s s'est suffisamment nourrie de laquais et commence à ensorcel les ennemis aléatoirement !", "logSeen")
 t([[Any time one of your minions dies or expires, and even if it is resurrected by a boneyard, the dread feeds on it.
 		Each time it feeds it gets healed for %d and reduces remaining cooldown of its spells by %d.
-		Every 10 minion deaths it casts a random hex on up to %d foes at once, instantly and without triggering a cooldown.]], [[Any time one of your minions dies or expires, and even if it is resurrected by a boneyard, the dread feeds on it.
-		Each time it feeds it gets healed for %d and reduces remaining cooldown of its spells by %d.
-		Every 10 minion deaths it casts a random hex on up to %d foes at once, instantly and without triggering a cooldown.]], "tformat")
-t("In an effort to make your dread more annoying you focus a shell of darkness around it, rendering it fully invincible for %d turns.", "In an effort to make your dread more annoying you focus a shell of darkness around it, rendering it fully invincible for %d turns.", "tformat")
-t("Dreadmaster", "Dreadmaster", "talent name")
+		Every 10 minion deaths it casts a random hex on up to %d foes at once, instantly and without triggering a cooldown.]], [[Chaque fois que l'un de vos laquais meurt ou expire, et même s'il est ressuscité par un ossuaire, la Terreur s'en nourrit.
+		À chaque repas, elle est soignée de %d et réduit le rechargement restant de ses sorts de %d.
+		Tous les 10 décès de laquais, elle lance un Ensorcellement aléatoire sur jusqu'à %d ennemis à la fois, instantanément et sans déclencher de rechargement.]], "tformat")
+t("Neverending Peril", "Péril Sans Fin", "talent name")
+t("In an effort to make your dread more annoying you focus a shell of darkness around it, rendering it fully invincible for %d turns.", "Dans un effort pour rendre votre Terreur encore plus agaçante, vous concentrez une coque d'obscurité autour d'elle, la rendant totalement invincible pendant %d tours.", "tformat")
+t("Dreadmaster", "Maître de la Terreur", "talent name")
 t([[You now summon a Dreadmaster instead of a Dread.
 		Dreadmasters learn to cast silence, disperse magic and mind disruption, making them the ultimate annoyance tool.
-		It learns them at talent level %d.]], [[You now summon a Dreadmaster instead of a Dread.
-		Dreadmasters learn to cast silence, disperse magic and mind disruption, making them the ultimate annoyance tool.
-		It learns them at talent level %d.]], "tformat")
---]==]
-
+		It learns them at talent level %d.]], [[Vous invoquez désormais un Maître de la Terreur plutôt qu'une Terreur ordinaire.
+		Les Maîtres de la Terreur apprennent à lancer Silence, Dissiper la Magie, et Perturbation Mentale ce qui en fait l'outil d'agacement ultime.
+		Il les apprend au niveau de talent %d.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/earth.lua"
@@ -27435,38 +27413,33 @@ t([[You concentrate on your inner self, increasing your Strength, Dexterity, Mag
 ------------------------------------------------
 section "mod-tome/data/talents/spells/eradication.lua"
 
-t("Boneyard", "Cimetière", "talent name")
-t("Impending Doom", "Condamnation Imminente", "talent name")
--- texte non traduit
---[==[
-t("#GREY#%s is resurrected by the boneyard!", "#GREY#%s is resurrected by the boneyard!", "logSeen")
+t("Boneyard", "Ossuaire", "talent name")
+t("#GREY#%s is resurrected by the boneyard!", "#GREY#%s est ressuscité par l'ossuaire !", "logSeen")
 t([[Spawn a boneyard of radius %d around you that lasts for 8 turns.
 		Any foes inside gain the brittle bones effect, reducing their physical resistance by %d%% and making all cooldowns %d%% longer.
 		When one of your minions stands in the boneyard they gain %d more physical and spell power.
 		At level 5 when a minion dies inside the boneyard it has a %d%% chance to resurrect instantly. This effect may only happen once per minion.
-		]], [[Spawn a boneyard of radius %d around you that lasts for 8 turns.
-		Any foes inside gain the brittle bones effect, reducing their physical resistance by %d%% and making all cooldowns %d%% longer.
-		When one of your minions stands in the boneyard they gain %d more physical and spell power.
-		At level 5 when a minion dies inside the boneyard it has a %d%% chance to resurrect instantly. This effect may only happen once per minion.
-		]], "tformat")
-t("To The Grave", "To The Grave", "talent name")
-t("%s resists the call of the boneyard!", "%s resists the call of the boneyard!", "logSeen")
+		]], [[Faites apparaître un ossuaire de rayon %d autour de vous qui dure 8 tours.
+		Tout ennemi à l'intérieur reçoit l'effet os fragiles, réduisant leur résistance physique de %d%% et rallongeant tous les rechargements de %d%%.
+		Lorsque l'un de vos laquais se trouve dans l'ossuaire, il gagne %d de Puissance physique et de Puissance des sorts supplémentaires.
+		Au niveau 5, lorsqu'un laquais meurt dans l'ossuaire, il a %d%% de chance de ressusciter instantanément. Cet effet ne peut se produire qu'une fois par laquais.]], "tformat")
+t("To The Grave", "Vers la Tombe", "talent name")
+t("%s resists the call of the boneyard!", "%s résiste à l'appel de l'ossuaire !", "logSeen")
 t([[Teleport all foes in radius %d to your boneyard, as close to its center as possible.
 		Up to %d ghouls or skeletons are created around them by the boneyard, without any additional soul cost, but they only last 5 turns.
-		]], [[Teleport all foes in radius %d to your boneyard, as close to its center as possible.
-		Up to %d ghouls or skeletons are created around them by the boneyard, without any additional soul cost, but they only last 5 turns.
-		]], "tformat")
+		]], [[Téléportez tous les ennemis dans un rayon de %d vers votre ossuaire, aussi près que possible de son centre.
+		Jusqu'à %d Goule(s) ou Squelette(s) sont créés autour d'eux par l'ossuaire, sans coût d'âme supplémentaire, mais ils ne durent que 5 tours.]], "tformat")
+t("Impending Doom", "Condamnation Imminente", "talent name")
 t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and it will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
 		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
-		The damage will increase with your Spellpower.]], [[Your target's doom draws near. Its healing factor is reduced by 80%%, and it will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
-		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Eternal Night", "Eternal Night", "talent name")
+		The damage will increase with your Spellpower.]], [[La condamnation de votre cible approche.
+		Son facteur de soin est réduit de 80%% et elle subira %d%% de sa vie restante (ou %0.2f, selon ce qui est inférieur) sur 10 tours comme dégâts de crépuscule givré.
+		Ce sort est si puissant que toutes les 3 tours, il arrache une partie de l'âme de la cible, vous générant une âme.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Eternal Night", "Nuit Éternelle", "talent name")
 t([[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
-		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], [[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
-		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], "tformat")
---]==]
-
+		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], [[Entourez-vous de crépuscule givré, augmentant tous vos dégâts d'obscurité et de froid de %0.1f%% et ignorant %d%% de la résistance à l'obscurité et au froid de vos cibles.
+		À la fin de chaque tour, si vous êtes en dessous de 1 de vie, vous êtes soigné de %d%% de tous les dégâts que vous avez infligés.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/explosives.lua"
@@ -27586,43 +27559,39 @@ t([[Turn your body into pure ice, increasing your Cold damage affinity by %d%% a
 ------------------------------------------------
 section "mod-tome/data/talents/spells/glacial-waste.lua"
 
+t("Hiemal Shield", "Bouclier Hiémal", "talent name")
+t("#GREY#Your hiemal shield does not have enough resources!", "#GREY#Votre bouclier hiémal n'a pas assez de ressources !", "logPlayer")
+t("#GREY#Your hiemal shield regenerates to full!", "#GREY#Votre bouclier hiémal se régénère complètement !", "logPlayer")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
--- texte non traduit
---[==[
-t("Hiemal Shield", "Hiemal Shield", "talent name")
-t("#GREY#Your hiemal shield does not have enough resources!", "#GREY#Your hiemal shield does not have enough resources!", "logPlayer")
-t("#GREY#Your hiemal shield regenerates to full!", "#GREY#Your hiemal shield regenerates to full!", "logPlayer")
 t([[Conjure a shield of ice around you that can absorb a total of %d damage.
 		Anytime it does it retaliates by sending a bolt of ice at the attacker, dealing %0.2f cold damage (this can only happen once per turn per creature).
 		When you are above 1 life it only affects 66.6%% of the damage, letting through the rest.
 		When you are under 1 life it affects 100%% of the damage and also reduces the damage of critical hits by %d%%.
 		10 turns after leaving combat the shield will consume its mana and soul cost again to fully regenerate if needed. if that cost can not be matched, it unsustains.
-		The shield strength will increase with your Spellpower.]], [[Conjure a shield of ice around you that can absorb a total of %d damage.
-		Anytime it does it retaliates by sending a bolt of ice at the attacker, dealing %0.2f cold damage (this can only happen once per turn per creature).
-		When you are above 1 life it only affects 66.6%% of the damage, letting through the rest.
-		When you are under 1 life it affects 100%% of the damage and also reduces the damage of critical hits by %d%%.
-		10 turns after leaving combat the shield will consume its mana and soul cost again to fully regenerate if needed. if that cost can not be matched, it unsustains.
-		The shield strength will increase with your Spellpower.]], "tformat")
-t("Desolate Waste", "Desolate Waste", "talent name")
+		The shield strength will increase with your Spellpower.]], [[Conjurez un bouclier de glace autour de vous pouvant absorber un total de %d dégâts.
+		Chaque fois qu'il le fait, il riposte en envoyant un projectile de glace sur l'attaquant, infligeant %0.2f dégâts de froid (ne peut se produire qu'une fois par tour par créature).
+		Lorsque vous êtes au-dessus de 1 de vie, il n'affecte que 66,6%% des dégâts, laissant passer le reste.
+		Lorsque vous êtes en dessous de 1 de vie, il affecte 100%% des dégâts et réduit également les dégâts des coups critiques de %d%%.
+		10 tours après avoir quitté le combat, le bouclier consommera à nouveau son coût en mana et en âmes pour se régénérer complètement si nécessaire. Si ce coût ne peut être couvert, il se désactive.
+		La puissance du bouclier est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Desolate Waste", "Désert Désolé", "talent name")
 t([[Every time your shield loses %d%% of its original value a circle of desolate waste will spawn under you, lasting 6 turns, and dealing %0.2f cold damage per turn to foes within radius %d.
 		If a creature is hit by your hiemal shield's retribution bolt while on the waste, the shield feeds of the wasteland to regenerate %0.1f%% of its original value.
 		No more than %d desolate wastes can trigger per shield activation.
-		The damage will increase with your Spellpower.]], [[Every time your shield loses %d%% of its original value a circle of desolate waste will spawn under you, lasting 6 turns, and dealing %0.2f cold damage per turn to foes within radius %d.
-		If a creature is hit by your hiemal shield's retribution bolt while on the waste, the shield feeds of the wasteland to regenerate %0.1f%% of its original value.
-		No more than %d desolate wastes can trigger per shield activation.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Crumbling Earth", "Crumbling Earth", "talent name")
+		The damage will increase with your Spellpower.]], [[Chaque fois que votre bouclier perd %d%% de sa valeur d'origine, un cercle de désert désolé apparaît sous vous, durant 6 tours et infligeant %0.2f dégâts de froid par tour aux ennemis dans un rayon de %d.
+		Si une créature est touchée par le projectile de représailles de votre bouclier hiémal alors qu'elle se trouve sur le désert, le bouclier se nourrit des terres désolées pour régénérer %0.1f%% de sa valeur d'origine.
+		Pas plus de %d déserts désolés peuvent se déclencher par activation du bouclier.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Crumbling Earth", "Terre en Ruine", "talent name")
 t([[Your desolate wastes are now rapidly crumbling.
 		Any foe moving through them is likely to get cut, taking %0.2f cold damage and bleeding over 4 turns (stacking) while reducing its movement speed by 15%%.
-		The damage will increase with your Spellpower.]], [[Your desolate wastes are now rapidly crumbling.
-		Any foe moving through them is likely to get cut, taking %0.2f cold damage and bleeding over 4 turns (stacking) while reducing its movement speed by 15%%.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Bleak Guard", "Bleak Guard", "talent name")
+		The damage will increase with your Spellpower.]], [[Vos déserts désolés s'effritent rapidement.
+		Tout ennemi se déplaçant à travers eux risque d'être entaillé, subissant %0.2f dégâts de froid et saignant sur 4 tours (cumulable) tout en voyant sa vitesse de déplacement réduite de 15%%.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Bleak Guard", "Garde Lugubre", "talent name")
 t([[Your hiemal shield is stronger, taking %d%% less damage from all attacks.
-		When under 1 life this effect is increased to %d%%.]], [[Your hiemal shield is stronger, taking %d%% less damage from all attacks.
-		When under 1 life this effect is increased to %d%%.]], "tformat")
---]==]
-
+		When under 1 life this effect is increased to %d%%.]], [[Votre bouclier hiémal est plus solide, subissant %d%% de dégâts en moins de toutes les attaques.
+		Lorsque vous êtes en dessous de 1 de vie, cet effet est augmenté à %d%%.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/golem.lua"
@@ -27753,46 +27722,42 @@ t("Golem", "Golem", "_t")
 section "mod-tome/data/talents/spells/grave.lua"
 
 t("Black Ice", "Glace Noire", "talent name")
-t("Chill of the Tomb", "Froid de la Tombe", "talent name")
-t("Corpselight", "Fluorescence", "talent name")
--- texte non traduit
---[==[
 t([[Summon an icy spike directly on a foe, impaling it for %0.2f cold damage.
 		At level 5 it hits all foes in range 1 around the target.
 		Any creature hit will take %d%% more damage from your necrotic minions for 3 turns.
-		The damage will increase with your Spellpower.]], [[Summon an icy spike directly on a foe, impaling it for %0.2f cold damage.
-		At level 5 it hits all foes in range 1 around the target.
-		Any creature hit will take %d%% more damage from your necrotic minions for 3 turns.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Invoquez un pic de glace directement sur un ennemi, l'empalant pour %0.2f dégâts de froid.
+		Au niveau 5, il touche tous les ennemis à portée 1 autour de la cible.
+		Toute créature touchée subira %d%% dégâts supplémentaires de vos laquais nécrotiques pendant 3 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Chill of the Tomb", "Froid du Tombeau", "talent name")
 t([[Conjures up a bolt of cold that moves toward the target and explodes into a chilly circle of death, doing %0.2f cold damage in a radius of %d.
 		Necrotic minions caught in the blast do not take damage but are instead coated with a thin layer of ice, reducing all damage they take by %d for 4 turns.
-		The damage will increase with your Spellpower.]], [[Conjures up a bolt of cold that moves toward the target and explodes into a chilly circle of death, doing %0.2f cold damage in a radius of %d.
-		Necrotic minions caught in the blast do not take damage but are instead coated with a thin layer of ice, reducing all damage they take by %d for 4 turns.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Conjure un projectile de froid qui se déplace vers la cible et explose en un cercle glacé de mort, infligeant %0.2f dégâts de froid dans un rayon de %d.
+		Les laquais nécrotiques pris dans l'explosion ne subissent pas de dégâts mais sont recouverts d'une fine couche de glace, réduisant tous les dégâts qu'ils subissent de %d pendant 4 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Corpselight", "Lueur Cadavérique", "talent name")
 t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
 		Every turn all foes inside take %0.2f cold damage.
 		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
 		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
 		If cast while under 1 life it spawns with 3 stacks.
-		The damage will increase with your Spellpower.]], [[You summon a corpselight that radiates cold for 7 turns in radius %d.
-		Every turn all foes inside take %0.2f cold damage.
-		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
-		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
-		If cast while under 1 life it spawns with 3 stacks.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Grave Mistake", "Grave Mistake", "talent name")
-t("#STEEL_BLUE#The corpselight implodes!", "#STEEL_BLUE#The corpselight implodes!", "logSeen")
+		The damage will increase with your Spellpower.]], [[Vous invoquez une lueur cadavérique qui irradie de froid pendant 7 tours dans un rayon de %d.
+		À chaque tour, tous les ennemis à l'intérieur subissent %0.2f dégâts de froid.
+		Chaque fois que vous lancez un sort en vous tenant dans la zone de votre lueur cadavérique, elle gagne une charge, chaque charge accordant +1 de rayon et +10%% de dégâts.
+		La lueur cadavérique peut gagner au maximum %d charge et le rayon ne s'étendra jamais au-delà de 10.
+		Si elle est lancée alors que vous êtes en dessous de 1 de vie, elle apparaît avec 3 charges.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Grave Mistake", "Erreur Fatale", "talent name")
+t("#STEEL_BLUE#The corpselight implodes!", "#STEEL_BLUE#La lueur cadavérique implose !", "logSeen")
 t([[Upon expiring the corpselight implodes, pulling in all foes towards its center and dealing %0.2f cold damage.
 		The damage is increased by +10%% per stack.
 		The damage will increase with your Spellpower.
 
-		#PURPLE#Learning this spell will make Corpselight cost two souls to use instead of one.]], [[Upon expiring the corpselight implodes, pulling in all foes towards its center and dealing %0.2f cold damage.
-		The damage is increased by +10%% per stack.
-		The damage will increase with your Spellpower.
+		#PURPLE#Learning this spell will make Corpselight cost two souls to use instead of one.]], [[À expiration, la lueur cadavérique implose, attirant tous les ennemis vers son centre et infligeant %0.2f dégâts de froid.
+		Les dégâts sont augmentés de +10%% par charge.
+		Les dégâts sont proportionnels à votre Puissance des sorts.
 
-		#PURPLE#Learning this spell will make Corpselight cost two souls to use instead of one.]], "tformat")
---]==]
-
+		#PURPLE#Apprendre ce sort fera coûter deux âmes à Lueur Cadavérique au lieu d'une.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/ice.lua"
@@ -27838,95 +27803,81 @@ t([[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%%
 ------------------------------------------------
 section "mod-tome/data/talents/spells/master-necromancer.lua"
 
-t("Surge of Undeath", "Déferlement de Mort", "talent name")
--- nouveau texte
---[==[
+t("Aura of Undeath", "Aura de Mort-Vivant", "talent name")
 t([[Your mastery of necromancy becomes so total that an aura of undeath radiates around you in radius %d.
 		Any undead minion standing inside of it is protected, increasing all their resistances by %d%%.
 		In addition when you create new minions they inherit %d%% of your spellpower (applied to any powers), spell crit chance (applied to any crit chances), saves, resists, and highest damage increase (applied to all elements).
-		]], [[Your mastery of necromancy becomes so total that an aura of undeath radiates around you in radius %d.
-		Any undead minion standing inside of it is protected, increasing all their resistances by %d%%.
-		In addition when you create new minions they inherit %d%% of your spellpower (applied to any powers), spell crit chance (applied to any crit chances), saves, resists, and highest damage increase (applied to all elements).
-		]], "tformat")
---]==]
-
--- texte non traduit
---[==[
-t("Aura of Undeath", "Aura of Undeath", "talent name")
+		]], [[Votre maîtrise de la nécromancie devient si totale qu'une aura de mort-vivant irradie autour de vous dans un rayon de %d.
+		Tout laquais mort-vivant se trouvant à l'intérieur est protégé, augmentant toutes ses résistances de %d%%.
+		De plus, lorsque vous créez de nouveaux laquais, ils héritent de %d%% de votre Puissance des sorts (appliquée à tous les pouvoirs), chance de critique magique (appliquée à toutes les chances de critique), sauvegardes, résistances, et augmentation de dégâts la plus élevée (appliquée à tous les éléments).]], "tformat")
+t("Surge of Undeath", "Déferlement de Mort", "talent name")
 t([[Sends out a surge of undeath energies into your aura.
 		All minions inside gain 25%% speed for %d turns
 		All non-ghoul minions are healed by %d%%.
 		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
 		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
 		All non-undead foes caught inside are dazed for %d turns.
-		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], [[Sends out a surge of undeath energies into your aura.
-		All minions inside gain 25%% speed for %d turns
-		All non-ghoul minions are healed by %d%%.
-		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
-		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
-		All non-undead foes caught inside are dazed for %d turns.
-		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], "tformat")
-t("Recall Minions", "Recall Minions", "talent name")
+		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], [[Envoie une vague d'énergies de mort-vivant dans votre aura.
+		Tous les laquais à l'intérieur gagnent 25%% de vitesse globale pendant %d tours.
+		Tous les laquais non-Goule sont soignés de %d%% de vie.
+		Si vous connaissez Appel du Mausolée, le temps restant avant la prochaine Goule gratuite est réduit de %d.
+		Si vous connaissez Explosion de Cadavre ou Liquéfaction Putrescente, la durée de ces effets est augmentée de %d.
+		Tous les ennemis non-morts-vivants pris à l'intérieur sont étourdis légèrement pendant %d tours.
+		De plus, tous vos laquais (créés après avoir appris ce sort) ont une régénération de vie passive.]], "tformat")
+t("Recall Minions", "Rappel de Laquais", "talent name")
 t([[Tighten the ethereal leash to some of your minions currently within your aura of undeath, pulling them to you and swapping place with any eventual foes in the way.
 		Up to %d minions are affected.
-		When recalling a minion the spell tries to prioritize a spot where there is already a foe, to push it away.]], [[Tighten the ethereal leash to some of your minions currently within your aura of undeath, pulling them to you and swapping place with any eventual foes in the way.
-		Up to %d minions are affected.
-		When recalling a minion the spell tries to prioritize a spot where there is already a foe, to push it away.]], "tformat")
-t("Suffer For Me", "Suffer For Me", "talent name")
-t("#GREY#(%d to minion: %s)#LAST#", "#GREY#(%d to minion: %s)#LAST#", "tformat")
+		When recalling a minion the spell tries to prioritize a spot where there is already a foe, to push it away.]], [[Resserrez la laisse éthérée de certains de vos laquais se trouvant dans votre aura de mort-vivant, les attirant vers vous et échangeant leur place avec tout ennemi éventuel sur le chemin.
+		Jusqu'à %d laquais sont affectés.
+		Lors du rappel d'un laquais, le sort tente de prioriser un endroit où se trouve déjà un ennemi, pour le repousser.]], "tformat")
+t("Suffer For Me", "Souffrez Pour Moi", "talent name")
+t("#GREY#(%d to minion: %s)#LAST#", "#GREY#(%d au laquais : %s)#LAST#", "tformat")
 t([[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
 		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
 		The minion takes 300%% damage from that effect.
-		The damage redirected percent depends on your Spellpower.]], [[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
-		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
-		The minion takes 300%% damage from that effect.
-		The damage redirected percent depends on your Spellpower.]], "tformat")
---]==]
-
+		The damage redirected percent depends on your Spellpower.]], [[En créant un lien arcanique avec votre armée de laquais, vous pouvez rediriger une partie de tout dégât vous affectant vers eux.
+		Chaque fois que vous subissez des dégâts, %d%% d'entre eux sont redirigés vers un laquais aléatoire dans votre aura de mort-vivant.
+		Le laquais subit 300%% des dégâts de cet effet.
+		Le pourcentage de dégâts redirigés est proportionnel à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/master-of-bones.lua"
 
-t("Shattered Remains", "Restes Brisés", "talent name")
-t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "Une créature imposante, faite d'ossements de dizaines de cadavres. Elle est entourée d'une aura impie.", "_t")
-t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "Une créature imposante, faite des os de centaines de cadavres. Elle est entourée d'une aura impie.", "_t")
-t("Lord of Skulls", "Seigneur des Crânes", "talent name")
--- texte non traduit
---[==[
-t("Call of the Crypt", "Call of the Crypt", "talent name")
+t("Call of the Crypt", "Appel de la Crypte", "talent name")
 t([[Call upon the battlefields of old, collecting bones, fusing them with souls, and forging them into skeletal minions.
 		Up to %d skeleton warriors of level %d are summoned, and up to %d skeletons can be controlled at once.
 		At level 3 the summons become armoured skeletons warriors.
 		At level 5, for every 3 skeleton warriors, a skeleton mage or archer will also be created without costing any souls. If this makes you go over your skeleton limit, a normal skeleton will be removed and its soul refunded.
 
 		#GREY##{italic}#Skeleton minions come in fewer numbers than ghoul minions but are generally more durable.#{normal}#
-		]], [[Call upon the battlefields of old, collecting bones, fusing them with souls, and forging them into skeletal minions.
-		Up to %d skeleton warriors of level %d are summoned, and up to %d skeletons can be controlled at once.
-		At level 3 the summons become armoured skeletons warriors.
-		At level 5, for every 3 skeleton warriors, a skeleton mage or archer will also be created without costing any souls. If this makes you go over your skeleton limit, a normal skeleton will be removed and its soul refunded.
+		]], [[Appelez les champs de bataille d'antan, collectant des os, les fusionnant avec des âmes et les forgeant en laquais squelettes.
+		Jusqu'à %d guerrier(s) squelette(s) de niveau %d sont invoqués, et jusqu'à %d squelette(s) peuvent être contrôlés à la fois.
+		Au niveau 3, les invocations deviennent des guerriers squelettes en armure.
+		Au niveau 5, pour chaque 3 guerriers squelettes, un mage ou archer squelette sera également créé sans coût d'âme. Si cela vous fait dépasser votre limite de squelettes, un squelette normal sera supprimé et son âme remboursée.
 
-		#GREY##{italic}#Skeleton minions come in fewer numbers than ghoul minions but are generally more durable.#{normal}#
-		]], "tformat")
-t("#GREY#%s shatters!", "#GREY#%s shatters!", "logSeen")
+		#GREY##{italic}#Les laquais squelettes sont moins nombreux que les laquais Goules mais sont généralement plus durables.#{normal}#]], "tformat")
+t("Shattered Remains", "Restes Brisés", "talent name")
+t("#GREY#%s shatters!", "#GREY#%s se fracasse !", "logSeen")
 t([[Any time one of your skeleton or bone giant dies, it shatters in radius %d, making any foe bleed for %0.2f physical damage over 5 turns.
 		If any other skeleton or bone giant minion is in the radius it will pickup some of the bones to enhance itself, increasing maximum and current life by %d, armour by %d and gain %0.2f physical melee retaliation for 20 turns.
 		This talent never works when you kill your own minions.
-		]], [[Any time one of your skeleton or bone giant dies, it shatters in radius %d, making any foe bleed for %0.2f physical damage over 5 turns.
-		If any other skeleton or bone giant minion is in the radius it will pickup some of the bones to enhance itself, increasing maximum and current life by %d, armour by %d and gain %0.2f physical melee retaliation for 20 turns.
-		This talent never works when you kill your own minions.
-		]], "tformat")
-t("Assemble", "Assemble", "talent name")
+		]], [[Chaque fois que l'un de vos squelettes ou géants d'os meurt, il se fracasse en un rayon de %d, faisant saigner tout ennemi pour %0.2f dégâts physiques sur 5 tours.
+		Si un autre laquais squelette ou géant d'os se trouve dans le rayon, il ramassera quelques os pour se renforcer, augmentant sa vie maximale et actuelle de %d, son armure de %d, et gagnant %0.2f de représailles au corps à corps physiques pendant 20 tours.
+		Ce talent ne fonctionne jamais lorsque vous tuez vos propres laquais.]], "tformat")
+t("Assemble", "Assemblage", "talent name")
+t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "Une créature imposante, faite d'ossements de dizaines de cadavres. Elle est entourée d'une aura impie.", "_t")
+t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "Une créature imposante, faite des os de centaines de cadavres. Elle est entourée d'une aura impie.", "_t")
 t([[Every army of undead minions needs its spearhead. To that end you combine 3 skeleton minions into a bone giant of level %d.
 		The minions used are selected from the weakest first, and a Lord of Skulls will never be used. 
 		At level 3 an eternal bone giant is created instead.
 		At level 6 a heavy bone giant is created instead.
 		Only one bone giant may be active, and casting this spell while one already exists will destroy it and create a new one.
-		]], [[Every army of undead minions needs its spearhead. To that end you combine 3 skeleton minions into a bone giant of level %d.
-		The minions used are selected from the weakest first, and a Lord of Skulls will never be used. 
-		At level 3 an eternal bone giant is created instead.
-		At level 6 a heavy bone giant is created instead.
-		Only one bone giant may be active, and casting this spell while one already exists will destroy it and create a new one.
-		]], "tformat")
+		]], [[Toute armée de laquais morts-vivants a besoin d'un fer de lance. À cette fin, vous combinez 3 laquais squelettes en un géant d'os de niveau %d.
+		Les laquais utilisés sont sélectionnés en commençant par les plus faibles, et un Seigneur des Crânes ne sera jamais utilisé.
+		Au niveau 3, un géant d'os éternel est créé à la place.
+		Au niveau 6, un géant d'os lourd est créé à la place.
+		Un seul géant d'os peut être actif, et lancer ce sort alors qu'il en existe déjà un le détruira et en créera un nouveau.]], "tformat")
+t("Lord of Skulls", "Seigneur des Crânes", "talent name")
 t([[Consume a soul to empower one of your skeleton, making it into a Lord of Skulls.
 		The Lord of Skulls gains %d more life and is instantly healed to full.
 		There can be only one active Lord of Skulls, casting this spell on another skeleton removes the effect from the current one.
@@ -27935,24 +27886,24 @@ t([[Consume a soul to empower one of your skeleton, making it into a Lord of Sku
 		At level 3 Archers learn Vital Shot, a devastating attack that can stun and cripple their foes
 		At level 5 Mages learn Meteoric Crash, a destructive spell that crushes and burns foes in a big radius for multiple turns and stuns them
 		At level 6 Bone Giants learn You Shall Be My Weapon!, a massive attack that deals high damage, knockbacks foes and stuns them
-		]], [[Consume a soul to empower one of your skeleton, making it into a Lord of Skulls.
-		The Lord of Skulls gains %d more life and is instantly healed to full.
-		There can be only one active Lord of Skulls, casting this spell on another skeleton removes the effect from the current one.
-		It also gains a new talent if high enough:
-		At level 2 Warriors learn Giant Leap, a powerful jump attack that deals damage and dazes on impact and frees the skeleton from any stun, daze and pin effects they may have
-		At level 3 Archers learn Vital Shot, a devastating attack that can stun and cripple their foes
-		At level 5 Mages learn Meteoric Crash, a destructive spell that crushes and burns foes in a big radius for multiple turns and stuns them
-		At level 6 Bone Giants learn You Shall Be My Weapon!, a massive attack that deals high damage, knockbacks foes and stuns them
-		]], "tformat")
---]==]
-
+		]], [[Consommez une âme pour renforcer l'un de vos squelettes, en faisant un Seigneur des Crânes.
+		Le Seigneur des Crânes gagne %d de vie supplémentaire et est instantanément intégralement soigné.
+		Il ne peut y avoir qu'un seul Seigneur des Crânes actif ; lancer ce sort sur un autre squelette supprime l'effet du squelette actuel.
+		Il gagne également un nouveau talent selon sa classe :
+		Au niveau 2, les Guerriers apprennent Bond du Géant, une puissante attaque sautée infligeant des dégâts et étourdissant légèrement à l'impact tout en libérant le squelette de tout assommement, étourdissement, et immobilisation.
+		Au niveau 3, les Archers apprennent Tir Vital, une attaque dévastatrice pouvant assommer et estropier leurs ennemis.
+		Au niveau 5, les Mages apprennent Impact Météorique, un sort destructeur écrasant et brûlant les ennemis dans un grand rayon pendant plusieurs tours et les assommant.
+		Au niveau 6, les Géants d'Os apprennent Tu Seras Mon Arme !, une attaque massive infligeant de lourds dégâts, repoussant et assommant les ennemis.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/master-of-flesh.lua"
 
-t("Corpse Explosion", "Explosion de Cadavre", "talent name")
--- nouveau texte
---[==[
+t("Call of the Mausoleum", "Appel du Mausolée", "talent name")
+t("\
+#DARK_SEA_GREEN#Next free ghoul in %d turn(s).\
+#LAST#", "\
+#DARK_SEA_GREEN#Prochaine Goule gratuite dans %d tour(s).\
+#LAST#", "tformat")
 t([[You control dead matter around you, lying in the ground, decaying.
 		When you enter combat and every %d turns thereafter a ghoul of level %d automatically raises to fight for you.
 		At level 3 you can forcefully activate this spell to summon up to %d ghasts around you.
@@ -27960,59 +27911,45 @@ t([[You control dead matter around you, lying in the ground, decaying.
 		Ghouls, ghasts and ghoulkings last for %d turns.
 		%s
 		#GREY##{italic}#Ghoul minions come in larger numbers than skeleton minions but are generally more frail and disposable.#{normal}#
-		]], [[You control dead matter around you, lying in the ground, decaying.
-		When you enter combat and every %d turns thereafter a ghoul of level %d automatically raises to fight for you.
-		At level 3 you can forcefully activate this spell to summon up to %d ghasts around you.
-		At level 5 every 4 summoned ghouls or ghasts a ghoulking is summoned for free.
-		Ghouls, ghasts and ghoulkings last for %d turns.
+		]], [[Vous contrôlez la matière morte autour de vous, gisant dans le sol en décomposition.
+		Lorsque vous entrez en combat et touts les %d tours suivants, une Goule de niveau %d se lève automatiquement pour combattre pour vous.
+		Au niveau 3, vous pouvez activer ce sort pour convoquer jusqu'à %d spectres autour de vous.
+		Au niveau 5, pour chaque 4 Goules ou spectres invoqués, un roi-goule est invoqué gratuitement.
+		Goules, spectres et rois-goules durent %d tours.
 		%s
-		#GREY##{italic}#Ghoul minions come in larger numbers than skeleton minions but are generally more frail and disposable.#{normal}#
-		]], "tformat")
---]==]
-
--- texte non traduit
---[==[
-t("Call of the Mausoleum", "Call of the Mausoleum", "talent name")
-t("\
-#DARK_SEA_GREEN#Next free ghoul in %d turn(s).\
-#LAST#", "\
-#DARK_SEA_GREEN#Next free ghoul in %d turn(s).\
-#LAST#", "tformat")
+		#GREY##{italic}#Les laquais Goules sont plus nombreux que les laquais squelettes mais sont généralement plus fragiles et jetables.#{normal}#]], "tformat")
+t("Corpse Explosion", "Explosion de Cadavre", "talent name")
 t([[Ghouls are nothing but mere tools to you, for %d turns you render them bloated with dark forces.
 		Anytime a ghoul or ghast is hit it will explode in a messy splash of gore, dealing %0.2f frostdusk damage to all foes in radius %d of it.
 		Any creature caught in the blast also receives a random disease that deals %0.2f blight damage over 6 turns and reduces one attribute by %d.
 		Only one ghoul may explode per turn. The one with the least time left to live is always the first to do so.
 		The damage and disease power is increased by your Spellpower.
-		]], [[Ghouls are nothing but mere tools to you, for %d turns you render them bloated with dark forces.
-		Anytime a ghoul or ghast is hit it will explode in a messy splash of gore, dealing %0.2f frostdusk damage to all foes in radius %d of it.
-		Any creature caught in the blast also receives a random disease that deals %0.2f blight damage over 6 turns and reduces one attribute by %d.
-		Only one ghoul may explode per turn. The one with the least time left to live is always the first to do so.
-		The damage and disease power is increased by your Spellpower.
-		]], "tformat")
-t("Putrescent Liquefaction", "Putrescent Liquefaction", "talent name")
-t("#GREY#%s dissolves into the cloud of gore.", "#GREY#%s dissolves into the cloud of gore.", "logSeen")
+		]], [[Les Goules ne sont que de simples outils pour vous ; pendant %d tours, vous les rendez gonflées de forces obscures.
+		Chaque fois qu'une Goule ou un spectre est touché, il explose en une éclaboussure de sang et viscères, infligeant %0.2f dégâts de crépuscule givré à tous les ennemis dans un rayon de %d.
+		Toute créature prise dans l'explosion reçoit également une maladie aléatoire infligeant %0.2f dégâts de Fléau sur 6 tours et réduisant un attribut de %d.
+		Une seule Goule peut exploser par tour. Celle avec le moins de temps restant à vivre est toujours la première à le faire.
+		Les dégâts et la puissance de la maladie sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Putrescent Liquefaction", "Liquéfaction Putrescente", "talent name")
+t("#GREY#%s dissolves into the cloud of gore.", "#GREY#%s se dissout dans le nuage de sang et viscères.", "logSeen")
 t([[Shattering up to %d ghouls or ghasts you create a putrescent swirling cloud of radius %d that follows you around for 3 turns per dead ghoul plus one turn. Oldest ghouls are prioritized for destruction.
 		Any ghoul or ghast dying or expiring within this cloud increases its duration by %d turn and every two absorbed ghoul/ghast your gain back one soul.
 		The cloud deals %0.2f frostdusk damage to any foes caught inside.
 		The damage will increase with your Spellpower.
-		]], [[Shattering up to %d ghouls or ghasts you create a putrescent swirling cloud of radius %d that follows you around for 3 turns per dead ghoul plus one turn. Oldest ghouls are prioritized for destruction.
-		Any ghoul or ghast dying or expiring within this cloud increases its duration by %d turn and every two absorbed ghoul/ghast your gain back one soul.
-		The cloud deals %0.2f frostdusk damage to any foes caught inside.
-		The damage will increase with your Spellpower.
-		]], "tformat")
-t("Discarded Refuse", "Discarded Refuse", "talent name")
-t("%s sacrifices a ghoul to avoid being affected by %s!", "%s sacrifices a ghoul to avoid being affected by %s!", "logSeen")
+		]], [[En fracassant jusqu'à %d Goule(s) ou spectre(s), vous créez un nuage putrescente tourbillonnant de rayon %d qui vous suit pendant 3 tours par Goule morte plus un tour. Les Goules les plus anciennes sont prioritaires pour la destruction.
+		Toute Goule ou spectre mourant ou expirant dans ce nuage augmente sa durée de %d tour(s) et pour chaque deux Goule/spectre absorbés, vous récupérez une âme.
+		Le nuage inflige %0.2f dégâts de crépuscule givré à tout ennemi pris à l'intérieur.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Discarded Refuse", "Rebuts Sacrifiés", "talent name")
+t("%s sacrifices a ghoul to avoid being affected by %s!", "%s sacrifie une Goule pour éviter d'être affecté par %s !", "logSeen")
 t([[Whenever you would be affected by a detrimental physical effect you instead transfer it instantly to one of your ghouls.
 		The ghoul dies from the process.
 		While under 1 life it also affects magical and mental effects.
 		At most %d effects can be affected per turn.
-		Cross-tier effects are never affected.]], [[Whenever you would be affected by a detrimental physical effect you instead transfer it instantly to one of your ghouls.
-		The ghoul dies from the process.
-		While under 1 life it also affects magical and mental effects.
-		At most %d effects can be affected per turn.
-		Cross-tier effects are never affected.]], "tformat")
---]==]
-
+		Cross-tier effects are never affected.]], [[Chaque fois que vous seriez affecté par un effet physique négatif, vous le transférez instantanément à l'une de vos Goules.
+		La Goule meurt du processus.
+		Lorsque vous êtes en dessous de 1 de vie, cela affecte également les effets magiques et mentaux.
+		Au maximum, %d effet(s) peut(vent) être affecté(s) par tour.
+		Les Effets trans-palier ne sont jamais affectés.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/meta.lua"
@@ -28042,84 +27979,74 @@ t([[Your mastery of arcane flows allow you to reset the cooldown of up to %d of 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/necrosis.lua"
 
-
--- texte non traduit
---[==[
-t("Blurred Mortality", "Blurred Mortality", "talent name")
+t("Blurred Mortality", "Mortalité Floue", "talent name")
 t([[The line between life and death blurs for you.
 		You can only die when you reach -%d life but your maximum life is reduced by %d.
 		When you are below 1 life you gain %d%% to all resistances.
-		The life amount is based on your Constitution attribute.]], [[The line between life and death blurs for you.
-		You can only die when you reach -%d life but your maximum life is reduced by %d.
-		When you are below 1 life you gain %d%% to all resistances.
-		The life amount is based on your Constitution attribute.]], "tformat")
-t("Across the Veil", "Across the Veil", "talent name")
-t("#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", "#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", "logSeen")
+		The life amount is based on your Constitution attribute.]], [[La frontière entre la vie et la mort devient floue pour vous.
+		Vous ne pouvez mourir que lorsque vous atteignez -%d de vie, mais votre vie maximale est réduite de %d.
+		Lorsque vous êtes en dessous de 1 de vie, vous gagnez %d%% de résistance générale.
+		La quantité de vie est basée sur votre Constitution.]], "tformat")
+t("Across the Veil", "À Travers le Voile", "talent name")
+t("#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", "#GREY#%s déchaîne une explosion de crépuscule givré alors que %s traverse le voile !", "logSeen")
 t([[As you learn to tiptoe across the veil of death you learn to master the dark forces.
 		Each time you cross the 1 life threshold you automatically unleash a blast of %0.2f frostdusk damage in radius %d.
 		For each creature that takes damage from the blast one of your talent's cooldown is reduced by %d turns.
-		The damage will increase with your Spellpower.]], [[As you learn to tiptoe across the veil of death you learn to master the dark forces.
-		Each time you cross the 1 life threshold you automatically unleash a blast of %0.2f frostdusk damage in radius %d.
-		For each creature that takes damage from the blast one of your talent's cooldown is reduced by %d turns.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Runeskin", "Runeskin", "talent name")
-t("effects disabled because of an infusion", "effects disabled because of an infusion", "_t")
-t("effects disabled because of no rune", "effects disabled because of no rune", "_t")
-t("%d runes active", "%d runes active", "tformat")
+		The damage will increase with your Spellpower.]], [[À mesure que vous apprenez à traverser le voile de la mort sur la pointe des pieds, vous apprenez à maîtriser les forces obscures.
+		Chaque fois que vous franchissez le seuil de 1 de vie, vous déchaînez automatiquement une explosion de %0.2f dégâts de crépuscule givré dans un rayon de %d.
+		Pour chaque créature subissant des dégâts de l'explosion, le rechargement de l'un de vos talents est réduit de %d tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Runeskin", "Peau Runique", "talent name")
+t("effects disabled because of an infusion", "effets désactivés en raison d'une essence.", "_t")
+t("effects disabled because of no rune", "effets désactivés en raison de l'absence de rune.", "_t")
+t("%d runes active", "%d rune(s) active(s).", "tformat")
 t([[As you continue to attune your body to undeath you reject nature as a whole.
 		As long as you have no natural infusion on your skin, each rune on it increases your minimum negative life by -%d and your spells critical chance by %0.1f%%.
 
-		Currently: %s]], [[As you continue to attune your body to undeath you reject nature as a whole.
-		As long as you have no natural infusion on your skin, each rune on it increases your minimum negative life by -%d and your spells critical chance by %0.1f%%.
+		Currently: %s]], [[En continuant à accorder votre corps à la mort-vive, vous rejetez la nature dans son ensemble.
+		Tant que vous n'avez pas d'essence naturelle sur votre peau, chaque rune augmente votre vie négative minimale de -%d et votre chance de critique magique de %0.1f%%.
 
-		Currently: %s]], "tformat")
-t("Spikes of Decrepitude", "Spikes of Decrepitude", "talent name")
+		Actuellement : %s]], "tformat")
+t("Spikes of Decrepitude", "Pointes de Décrépitude", "talent name")
 t([[Each turn you unleash dark powers through your runeskin.
 		For each rune you have a random foe in sight will be hit by a spike of decrepitude, dealing %0.2f frostdusk damage.
 		A foe can only be hit by one spike per turn.
-		If your life is below 1, the spikes also reduce all damage done by the targets by %d%%.]], [[Each turn you unleash dark powers through your runeskin.
-		For each rune you have a random foe in sight will be hit by a spike of decrepitude, dealing %0.2f frostdusk damage.
-		A foe can only be hit by one spike per turn.
-		If your life is below 1, the spikes also reduce all damage done by the targets by %d%%.]], "tformat")
---]==]
-
+		If your life is below 1, the spikes also reduce all damage done by the targets by %d%%.]], [[À chaque tour, vous déchaînez des pouvoirs obscurs à travers votre peau runique.
+		Pour chaque rune que vous avez, un ennemi aléatoire en vue sera touché par une pointe de décrépitude, infligeant %0.2f dégâts de crépuscule givré.
+		Un ennemi ne peut être touché que par une seule pointe par tour.
+		Si votre vie est en dessous de 1, les pointes réduisent également tous les dégâts infligés par les cibles de %d%%.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/nightfall.lua"
 
-
--- texte non traduit
---[==[
-t("Invoke Darkness", "Invoke Darkness", "talent name")
+t("Invoke Darkness", "Invoquer l'Obscurité", "talent name")
 t([[Conjures up a beam of darkness, doing %0.2f darkness damage.
 		At level 5, the beam widens to hit foes on each side.
-		The damage will increase with your Spellpower.]], [[Conjures up a beam of darkness, doing %0.2f darkness damage.
-		At level 5, the beam widens to hit foes on each side.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Night Sphere", "Night Sphere", "talent name")
+		The damage will increase with your Spellpower.]], [[Conjure un faisceau d'obscurité, infligeant %0.2f dégâts d'obscurité.
+		Au niveau 5, le faisceau s'élargit pour toucher les ennemis de chaque côté.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Night Sphere", "Sphère Nocturne", "talent name")
 t([[Dark fumes erupt from the ground in radius %d for 5 turns. Any creature entering the circle will receive either a bane of confusion or a bane of blindness.
 		Only one bane can affect a creature.
 		Banes last for %d turns, and also deal %0.2f darkness damage.
-		The damage will increase with your Spellpower.]], [[Dark fumes erupt from the ground in radius %d for 5 turns. Any creature entering the circle will receive either a bane of confusion or a bane of blindness.
-		Only one bane can affect a creature.
-		Banes last for %d turns, and also deal %0.2f darkness damage.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Erupting Shadows", "Erupting Shadows", "talent name")
+		The damage will increase with your Spellpower.]], [[Des vapeurs obscures jaillissent du sol dans un rayon de %d pendant 5 tours. Toute créature entrant dans le cercle recevra soit un Fléau de la Confusion soit un Fléau de l'Aveuglement.
+		Une seule malédiction peut affecter une créature.
+		Les fléaux durent %d tours et infligent également %0.2f dégâts d'obscurité.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Erupting Shadows", "Ombres Éruptives", "talent name")
 t([[Shadows engulf your foes, anytime you deal darkness damage to a creature affected by a bane, the bane's duration is increased by 1 turn and the shadows erupt, dealing an additional %0.2f darkness damage.
 		The damage can only happen once per turn per creature, the turn increase however always happens.
-		The damage will increase with your Spellpower.]], [[Shadows engulf your foes, anytime you deal darkness damage to a creature affected by a bane, the bane's duration is increased by 1 turn and the shadows erupt, dealing an additional %0.2f darkness damage.
-		The damage can only happen once per turn per creature, the turn increase however always happens.
-		The damage will increase with your Spellpower.]], "tformat")
-t("River of Souls", "River of Souls", "talent name")
+		The damage will increase with your Spellpower.]], [[Les ombres enveloppent vos ennemis ; chaque fois que vous infligez des dégâts d'obscurité à une créature affectée par un fléau la durée du fléau est augmentée de 1 tour et les ombres jaillissent, infligeant %0.2f dégâts d'obscurité supplémentaires.
+		Les dégâts ne peuvent se produire qu'une fois par tour et par créature, mais l'augmentation de tour se produit toujours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("River of Souls", "Rivière d'Âmes", "talent name")
 t([[You summon a river of tortured souls to launch an onslaught of darkness against your foes.
 		Every turn for 5 turns you launch a projectile towards the designated area that explodes in radius %d, dealing %0.2f darkness damage.
 		Each projectile consumes a soul and the spell ends when it has sent 5 projectiles or when you have no more souls to use.
-		The damage will increase with your Spellpower.]], [[You summon a river of tortured souls to launch an onslaught of darkness against your foes.
-		Every turn for 5 turns you launch a projectile towards the designated area that explodes in radius %d, dealing %0.2f darkness damage.
-		Each projectile consumes a soul and the spell ends when it has sent 5 projectiles or when you have no more souls to use.
-		The damage will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage will increase with your Spellpower.]], [[Vous invoquez une rivière d'âmes torturées pour lancer un assaut d'obscurité contre vos ennemis.
+		À chaque tour pendant 5 tours, vous lancez un projectile vers la zone désignée qui explose dans un rayon de %d, infligeant %0.2f dégâts d'obscurité.
+		Chaque projectile consomme une âme et le sort se termine lorsqu'il a envoyé 5 projectiles ou lorsque vous n'avez plus d'âmes à utiliser.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/phantasm.lua"
@@ -28162,48 +28089,46 @@ t([[Create a perfect lookalike of your own form made out of pure light near a cr
 ------------------------------------------------
 section "mod-tome/data/talents/spells/rime-wraith.lua"
 
-t("Rime Wraith", "Rime de Spectre Gelé", "talent name")
--- texte non traduit
---[==[
+t("Rime Wraith", "Spectre Glacial", "talent name")
 t([[You summon a Rime Wraith inside of you, an intangible creature, that haunts both foes and allies for %d turns.
 		Every turn the wraith will select a new target and jump to it.
 		When the wraith enters a creature they are covered in hoarfrost for 3 turns:
 		- if friendly: increases cold resistance by %d%%, converts all damage done to cold and increases cold damage by %d%%.
 		- if hostile: reduces cold resistance by %d%% and move %d%% slower
 		When selecting a target the wraith prefers one that is not affected by hoarfrost if possible.
-		]], [[You summon a Rime Wraith inside of you, an intangible creature, that haunts both foes and allies for %d turns.
-		Every turn the wraith will select a new target and jump to it.
-		When the wraith enters a creature they are covered in hoarfrost for 3 turns:
-		- if friendly: increases cold resistance by %d%%, converts all damage done to cold and increases cold damage by %d%%.
-		- if hostile: reduces cold resistance by %d%% and move %d%% slower
-		When selecting a target the wraith prefers one that is not affected by hoarfrost if possible.
-		]], "tformat")
-t("Frigid Plunge", "Frigid Plunge", "talent name")
+		]], [[Vous invoquez un Spectre Glacial en vous, une créature intangible, qui hante ennemis et alliés pendant %d tours.
+		À chaque tour, le spectre sélectionne une nouvelle cible et y bondit.
+		Lorsque le spectre entre dans une créature, elle est couverte de givre pendant 3 tours :
+		* Si amie : augmente la résistance au froid de %d%%, convertit tous les dégâts infligés en froid et augmente les dégâts de froid de %d%%.
+		* Si hostile : réduit la résistance au froid de %d%% et se déplace %d%% plus lentement.
+		Lors de la sélection d'une cible, le spectre préfère une qui n'est pas affectée par le givre si possible.]], "tformat")
+t("Frigid Plunge", "Plongeon Frigide", "talent name")
 t([[When switching targets your rime wraith now always prefers the one farther away if possible.
 		Any creatures on the path of the wraith while it travels are affected:
 		- if friendly: they are healed for %d
 		- if hostile: they take %0.2f cold damage, because the wraith is inside the creature the damage fully ignores any damage shield
-		The damage and healing will increase with your Spellpower.]], [[When switching targets your rime wraith now always prefers the one farther away if possible.
-		Any creatures on the path of the wraith while it travels are affected:
-		- if friendly: they are healed for %d
-		- if hostile: they take %0.2f cold damage, because the wraith is inside the creature the damage fully ignores any damage shield
-		The damage and healing will increase with your Spellpower.]], "tformat")
-t("Gelid Host", "Gelid Host", "talent name")
+		The damage and healing will increase with your Spellpower.]], [[En changeant de cible, votre spectre glacial préfère désormais toujours la plus éloignée si possible.
+		Toutes les créatures sur le chemin du spectre pendant son déplacement sont affectées :
+		* Si amie : elles sont soignées de %d.
+		* Si hostile : elles subissent %0.2f dégâts de froid ; comme le spectre est à l'intérieur de la créature, les dégâts ignorent totalement tout bouclier de dégâts.
+		Les dégâts et les soins sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Gelid Host", "Hôte Gélide", "talent name")
 t([[By crushing one more soul you reinforce your existing rime wraith, duplicating it out of its current host.
 		The new wraith will exist for %d turns and cannot be used for another cast of Gelid Host.
 		When it is created the current host and all foes in radius %d are blasted for %0.2f cold damage.
-		The damage will increase with your Spellpower.]], [[By crushing one more soul you reinforce your existing rime wraith, duplicating it out of its current host.
-		The new wraith will exist for %d turns and cannot be used for another cast of Gelid Host.
-		When it is created the current host and all foes in radius %d are blasted for %0.2f cold damage.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Permafrost", "Permafrost", "talent name")
+		The damage will increase with your Spellpower.]], [[En écrasant une âme supplémentaire, vous renforcez votre spectre glacial existant, le dupliquant hors de son hôte actuel.
+		Le nouveau spectre existera pendant %d tours et ne pourra pas être utilisé pour un autre lancement d'Hôte Gélide.
+		Lorsqu'il est créé, l'hôte actuel et tous les ennemis dans un rayon de %d subissent %0.2f dégâts de froid.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 t([[Hoarfrost now has additional effects:
 		- if friendly: magical and physical saves increased by %d, at level 5 healing factor is also increased by 15%%.
 		- if hostile: magical and physical saves reduced by %d, at level 5 all talents cool down 15%% slower.
-		]], [[Hoarfrost now has additional effects:
-		- if friendly: magical and physical saves increased by %d, at level 5 healing factor is also increased by 15%%.
-		- if hostile: magical and physical saves reduced by %d, at level 5 all talents cool down 15%% slower.
-		]], "tformat")
+		]], [[Le givre a désormais des effets supplémentaires :
+		* Si ami : sauvegardes magiques et physiques augmentées de %d ; au niveau 5, le facteur de soin est également augmenté de 15%%.
+		* Si hostile : sauvegardes magiques et physiques réduites de %d ; au niveau 5, tous les talents rechargent 15%% plus lentement.]], "tformat")
+-- texte non traduit
+--[==[
+t("Permafrost", "Permafrost", "talent name")
 --]==]
 
 
@@ -28212,24 +28137,20 @@ section "mod-tome/data/talents/spells/spectre.lua"
 
 t("Ghost Walk", "Marche Fantôme", "talent name")
 t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logPlayer")
--- texte non traduit
---[==[
-t("%s's ghost walk fizzles!", "%s's ghost walk fizzles!", "logSeen")
+t("%s's ghost walk fizzles!", "La marche fantôme de %s échoue !", "logSeen")
 t([[Taking on a spectral form, you teleport to the target tile within range %d. 
-		For 3 turns after using this spell, you gain the ability to instantly teleport back to your original tile as long as you are within range of it.]], [[Taking on a spectral form, you teleport to the target tile within range %d. 
-		For 3 turns after using this spell, you gain the ability to instantly teleport back to your original tile as long as you are within range of it.]], "tformat")
-t("Ghost Walk - Return", "Ghost Walk - Return", "talent name")
-t("Return to the location you used Ghost Walk from.", "Return to the location you used Ghost Walk from.", "tformat")
-t("Spectral Sight", "Spectral Sight", "talent name")
+		For 3 turns after using this spell, you gain the ability to instantly teleport back to your original tile as long as you are within range of it.]], [[En prenant une forme spectrale, vous vous téléportez vers la case ciblé dans un rayon de %d.
+		Pendant 3 tours après avoir utilisé ce sort, vous gagnez la capacité de vous téléporter instantanément vers votre case d'origine tant que vous êtes à portée.]], "tformat")
+t("Ghost Walk - Return", "Marche Fantôme : Retour", "talent name")
+t("Return to the location you used Ghost Walk from.", "Retournez à l'emplacement depuis lequel vous avez utilisé Marche Fantôme.", "tformat")
+t("Spectral Sight", "Vue Spectrale", "talent name")
 t([[While in your spectral form from Ghost Walk and for %d turns afterwards, you gain vision of all enemies within radius %d.
-In addition, at all times you gain the ability to sense undead within %d tiles, and can perceive any foe within %d tiles of your necrotic minions.]], [[While in your spectral form from Ghost Walk and for %d turns afterwards, you gain vision of all enemies within radius %d.
-In addition, at all times you gain the ability to sense undead within %d tiles, and can perceive any foe within %d tiles of your necrotic minions.]], "tformat")
-t("Intangibility", "Intangibility", "talent name")
-t("While in your spectral form from Ghost Walk and for %d turns afterwards, damage and detrimental effects have a %d%% chance to harmlessly pass through you.", "While in your spectral form from Ghost Walk and for %d turns afterwards, damage and detrimental effects have a %d%% chance to harmlessly pass through you.", "tformat")
-t("Path to Beyond", "Path to Beyond", "talent name")
-t("On using Ghost Walk - Return, you create a portal that summons %d spirits around you for %d turns. The spirits do very little damage, but taunt all enemies in radius 3 into attacking them.", "On using Ghost Walk - Return, you create a portal that summons %d spirits around you for %d turns. The spirits do very little damage, but taunt all enemies in radius 3 into attacking them.", "tformat")
---]==]
-
+In addition, at all times you gain the ability to sense undead within %d tiles, and can perceive any foe within %d tiles of your necrotic minions.]], [[Tant que vous êtes dans votre forme spectrale de Marche Fantôme et pendant %d tours ensuite, vous gagnez la vision de tous les ennemis dans un rayon de %d.
+De plus, vous gagnez en tout temps la capacité de détecter les morts-vivants dans un rayon de %d cases, et pouvez percevoir tout ennemi dans un rayon de %d cases de vos laquais nécrotiques.]], "tformat")
+t("Intangibility", "Intangibilité", "talent name")
+t("While in your spectral form from Ghost Walk and for %d turns afterwards, damage and detrimental effects have a %d%% chance to harmlessly pass through you.", "Tant que vous êtes dans votre forme spectrale de Marche Fantôme et pendant %d tours ensuite, les dégâts et effets négatifs ont %d%% de chance de vous traverser inoffensivement.", "tformat")
+t("Path to Beyond", "Chemin vers l'Au-delà", "talent name")
+t("On using Ghost Walk - Return, you create a portal that summons %d spirits around you for %d turns. The spirits do very little damage, but taunt all enemies in radius 3 into attacking them.", "En utilisant Marche Fantôme - Retour, vous créez un portail qui invoque %d esprits autour de vous pendant %d tours. Les esprits infligent très peu de dégâts, mais provoquent tous les ennemis dans un rayon de 3 pour qu'ils les attaquent.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/spells.lua"
@@ -34497,7 +34418,7 @@ t("The mere sight of a Lich sent you into a frightened state, reducing all saves
 t("power", "pouvoir", "effect subtype")
 t("Commander of the Dead", "Commandant des Morts", "_t")
 t("Physical power, spellpower and all saves increased by %d.", "La puissance physique, la puissance des sorts et toutes les sauvegardes sont augmentées de %d.", "tformat")
-t("Consume Soul", "Consommation de l'Ame", "_t")
+t("Consume Soul", "Consommation de l'Âme", "_t")
 t("Spellpower increased by %d.", "La puissance des sorts est augmentée de %d.", "tformat")
 t("Necrotic Aura", "Aura Nécrotique", "_t")
 t("All resistances increased by %d.", "Toutes les résistances augmentent de %d.", "tformat")
@@ -34521,18 +34442,18 @@ t("resistance", "résistance", "effect subtype")
 t("cooldown", "rechargement", "effect subtype")
 t("Brittle Bones", "Os Fragiles", "_t")
 t("Physical resistance reduced by %d%% and talents cooldowns increased by %d%%.", "Résistance physique réduite de %d%% et temps de recharge des talents augmentés de %d%%.", "tformat")
-t("Boneyard", "Cimetière", "_t")
+t("Boneyard", "Ossuaire", "_t")
 t("Spellpower and physical power increased by %d.", "Puissance des sorts et puissance physique augmentées de %d.", "tformat")
-t("Neverending Peril", "Péril sans Fin", "_t")
+t("Neverending Peril", "Péril Sans Fin", "_t")
 t("Golden Age of Necromancy", "Âge d'or de la Nécromancie", "_t")
 t("flat", "plat", "effect subtype")
-t("Chill of the Tomb", "Froid de la Tombe", "_t")
+t("Chill of the Tomb", "Froid du Tombeau", "_t")
 t("Reduces all damage by %d.", "Réduit tous les dégâts de %d.", "tformat")
 t("Black Ice", "Glace Noire", "_t")
 t("Damage from necrotic minions increased by %d%%.", "Les dégâts infligés par les serviteurs nécrotiques sont augmentés de %d%%.", "tformat")
-t("Corpselight", "Fluorescence", "_t")
-t("Sustains a corpselight of radius %d that deals %0.2f cold damage per turn.", "Entretient une fluorescence d'un rayon de %d qui inflige %0.2f dégâts de froid par tour.", "tformat")
-t("#Target# summons a corpselight!", "#Target# invoque une fluorescence !", "_t")
+t("Corpselight", "Lueur Cadavérique", "_t")
+t("Sustains a corpselight of radius %d that deals %0.2f cold damage per turn.", "Entretient une lueur cadavérique d'un rayon de %d qui inflige %0.2f dégâts de froid par tour.", "tformat")
+t("#Target# summons a corpselight!", "#Target# invoque une lueur cadavérique !", "_t")
 t("Crepuscule", "Crépuscule", "_t")
 t("Bring the night!", "Apportez la nuit !", "_t")
 t("#Target# calls the night!", "#Target# appelle la nuit !", "_t")
@@ -34554,10 +34475,10 @@ t("Shattered Remains", "Restes Brisés", "_t")
 t("health increased by %d, armour by %d and melee retaliation by %d.", "santé augmentée de %d, armure de %d et représailles de mêlée de %d.", "tformat")
 t("#Target# picks up the remains of its fallen comrade.", "#Target# ramasse les restes de son camarade tombé au combat.", "_t")
 t("#Target# drops its additional bones.", "#Target# laisse tomber les os en trop.", "_t")
-t("Rime Wraith", "Rime de Spectre Gelé", "_t")
-t("Host of a Rime Wraith!", "Hôte d'un Spectre Gelé !", "_t")
-t("Rime Wraith (Gelid Host)", "Rime de Spectre Gelé (Hôte Gélatineux)", "_t")
-t("Host of a Rime Wraith (Gelid Host)!", "Hôte d'un Spectre Gelé (Hôte Gélatineux) !", "_t")
+t("Rime Wraith", "Spectre Glacial", "_t")
+t("Host of a Rime Wraith!", "Hôte d'un Spectre Glacial !", "_t")
+t("Rime Wraith (Gelid Host)", "Spectre Glacial (Hôte Gélatineux)", "_t")
+t("Host of a Rime Wraith (Gelid Host)!", "Hôte d'un Spectre Glacial (Hôte Gélatineux) !", "_t")
 t("Hoarfrost", "Givre Blanc", "_t")
 t("All damage converted to cold, cold damage increased by %d%%, cold resistance increased by %d%%.", "Tous les dégâts sont convertis en froid, les dégâts de froid sont augmentés de %d%%, la résistance au froid est augmentée de %d%%.", "tformat")
 t("Cold resistance reduced by %d%%, movement speed reduced by %d%%.", "Résistance au froid réduite de %d%%, vitesse de déplacement réduite de %d%%.", "tformat")
