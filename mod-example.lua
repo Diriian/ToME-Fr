@@ -77,8 +77,8 @@ t("kobold", "kobold", "entity subtype")
 section "mod-example/data/talents.lua"
 
 t("role", "rôle", "talent category")
-t("Kick", "Coup de pied", "talent name")
-t("Acid Spray", "Vaporisation d'acide", "talent name")
+t("Kick", "Coup de Pied", "talent name")
+t("Acid Spray", "Vaporisation d'Acide", "talent name")
 
 ------------------------------------------------
 section "mod-example/data/zones/dungeon/zone.lua"

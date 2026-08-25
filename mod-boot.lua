@@ -102,14 +102,14 @@ t("troll", "troll", "entity subtype")
 section "mod-boot/data/talents.lua"
 
 t("misc", "divers", "talent category")
-t("Kick", "Coup de pied", "talent name")
-t("Acid Spray", "Vaporisation d'acide", "talent name")
-t("Manathrust", "Poussée de mana", "talent name")
+t("Kick", "Coup de Pied", "talent name")
+t("Acid Spray", "Vaporisation d'Acide", "talent name")
+t("Manathrust", "Poussée de Mana", "talent name")
 t("Flame", "Flamme", "talent name")
-t("Fireflash", "Éclat de feu", "talent name")
+t("Fireflash", "Éclat de Feu", "talent name")
 t("Lightning", "Foudre", "talent name")
-t("Sunshield", "Bouclier étincelant", "talent name")
-t("Flameshock", "Choc de flammes", "talent name")
+t("Sunshield", "Bouclier Étincelant", "talent name")
+t("Flameshock", "Choc de Flammes", "talent name")
 
 ------------------------------------------------
 section "mod-boot/data/timed_effects.lua"
