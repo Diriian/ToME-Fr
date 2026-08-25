@@ -25280,7 +25280,7 @@ t([[Dig/cut a tree/...
 		Digging takes %d turns (based on your currently best digger available).]], [[Creuse la roche / abat un arbre / ...
 		L'excavation prend %d tours (calculé selon le meilleur outil disponible dans votre inventaire).]], "tformat")
 t("Shivgoroth Form", "Forme de Shivgoroth", "talent name")
-t("You are already a Shivgoroth!", "Vous êtes déjà sous forme de Shivgoroth !", "logPlayer")
+t("You are already a Shivgoroth!", "Vous êtes déjà un Shivgoroth !", "logPlayer")
 t([[You absorb latent cold around you, turning into an ice elemental - a shivgoroth - for %d turns.
 		While transformed, you do not need to breathe, gain access to the Ice Storm talent at level %d, gain %d%% resistance to cuts and stuns, gain %d%% cold resistance, and all cold damage heals you for %d%% of the damage done.
 		The power will increase with your Spellpower.]], [[Vous absorbez le froid latent environnant pour vous métamorphoser en élémentaire de glace — un shivgoroth — pendant %d tours.
@@ -26850,47 +26850,43 @@ t([[Release arcane energies into most magical shields currently protecting you.
 section "mod-tome/data/talents/spells/aether.lua"
 
 t("trap", "piège", "_t")
-t("Aether Breach", "Brèche d'Ether", "talent name")
-t("Aether Avatar", "Avatar d'Ether", "talent name")
--- texte non traduit
---[==[
-t("Aether Beam", "Aether Beam", "talent name")
-t("You somehow fail to set the aether beam.", "You somehow fail to set the aether beam.", "logPlayer")
-t("aether beam", "aether beam", "_t")
+t("Aether Beam", "Faisceau Éthéré", "talent name")
+t("You somehow fail to set the aether beam.", "D'une façon ou d'une autre, vous n'arrivez pas à lancer le faisceau éthéré.", "logPlayer")
+t("aether beam", "faisceau éthéré", "_t")
 t([[You focus the aether into a spinning beam of arcane energies, doing %0.2f arcane damage and having 25%% chance to silence the creatures it pierces.
 		The beam will also damage its epicenter each turn for 10%% of the damage (but it will not silence).
 		The beam spins with incredible speed (1600%%) and can only hit the same target up to 3 times inbetween their turns.
-		The damage will increase with your Spellpower.]], [[You focus the aether into a spinning beam of arcane energies, doing %0.2f arcane damage and having 25%% chance to silence the creatures it pierces.
-		The beam will also damage its epicenter each turn for 10%% of the damage (but it will not silence).
-		The beam spins with incredible speed (1600%%) and can only hit the same target up to 3 times inbetween their turns.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Vous concentrez l'éther en un faisceau tournoyant d'énergies arcaniques, infligeant %0.2f dégâts arcaniques avec 25%% de chance de réduire au silence les créatures qu'il transperce.
+		Le faisceau inflige également des dégâts à son épicentre à chaque tour pour 10%% des dégâts (mais ne réduit pas au silence).
+		Le faisceau tourne à une vitesse incroyable (1600%%) et ne peut toucher la même cible que jusqu'à 3 fois entre ses tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Aether Breach", "Brèche d'Ether", "talent name")
 t([[Rupture reality to temporarily open a passage to the aether, triggering %d random arcane explosions in the target area.
 		Each explosion does %0.2f arcane damage in radius 2, and will each trigger at one turn intervals.
 		Subsequent casts will stack but the explosions will still only occur once per turn and will be centered at the last area targeted.
-		The damage will increase with your Spellpower.]], [[Rupture reality to temporarily open a passage to the aether, triggering %d random arcane explosions in the target area.
-		Each explosion does %0.2f arcane damage in radius 2, and will each trigger at one turn intervals.
-		Subsequent casts will stack but the explosions will still only occur once per turn and will be centered at the last area targeted.
-		The damage will increase with your Spellpower.]], "tformat")
-t("#VIOLET#%s loses 50 mana from using a non-Arcane talent!#LAST#", "#VIOLET#%s loses 50 mana from using a non-Arcane talent!#LAST#", "logSeen")
-t("At level %d: #AQUAMARINE#%s#LAST#", "At level %d: #AQUAMARINE#%s#LAST#", "tformat")
-t("#LAST# and #AQUAMARINE#", "#LAST# and #AQUAMARINE#", "_t")
+		The damage will increase with your Spellpower.]], [[Rompez la réalité pour ouvrir temporairement un passage vers l'éther, déclenchant %d explosions arcaniques aléatoires dans la zone cible.
+		Chaque explosion inflige %0.2f dégâts arcaniques dans un rayon de 2, et chacune se déclenche à des intervalles d'un tour.
+		Les lancers successifs s'accumulent, mais les explosions ne se produiront qu'une fois par tour et seront centrées sur la dernière zone ciblée.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Aether Avatar", "Avatar d'Ether", "talent name")
+t("#VIOLET#%s loses 50 mana from using a non-Arcane talent!#LAST#", "#VIOLET#%s perd 50 mana en utilisant un talent non-Arcanique !#LAST#", "logSeen")
+t("At level %d: #AQUAMARINE#%s#LAST#", "Au niveau %d : #AQUAMARINE#%s#LAST#", "tformat")
+t("#LAST# and #AQUAMARINE#", "#LAST# et #AQUAMARINE#", "_t")
 t([[Infuse your body with untethered aether forces for %d turns.
 		While active, the cooldown for Arcane and Aether spells is divided by 3, your arcane damage and penetration is increased by 25%%, your Disruption Shield radius is increased to 10, and your maximum mana is increased by 33%%.
 		Using non arcane based spells in this state is hard and makes you lose 50 mana each time (up to once per turn).
 		
 		Spells considered arcane for the purpose of not-losing mana are:
-		%s]], [[Infuse your body with untethered aether forces for %d turns.
-		While active, the cooldown for Arcane and Aether spells is divided by 3, your arcane damage and penetration is increased by 25%%, your Disruption Shield radius is increased to 10, and your maximum mana is increased by 33%%.
-		Using non arcane based spells in this state is hard and makes you lose 50 mana each time (up to once per turn).
+		%s]], [[Infusez votre corps de libres forces éthérées pendant %d tours.
+		Tant qu'actif, le rechargement des sorts Arcaniques et Éthérés est divisé par 3, vos dégâts et pénétration arcaniques augmentent de 25%%, le rayon de votre Bouclier de Disruption est porté à 10, et votre mana maximum est augmenté de 33%%.
+		Utiliser des sorts non arcaniques dans cet état est difficile et vous fait perdre 50 mana à chaque fois (au plus une fois par tour).
 		
-		Spells considered arcane for the purpose of not-losing mana are:
+		Les sorts considérés comme arcaniques pour ne pas perdre de mana sont :
 		%s]], "tformat")
-t("Pure Aether", "Pure Aether", "talent name")
+t("Pure Aether", "Éther Pur", "talent name")
 t([[Surround yourself with Pure Aether, increasing all your arcane damage by %0.1f%% and ignoring %d%% arcane resistance of your targets.
-		At level 5 casting Aether Avatar removes up to %d magical or physical detrimental effects.]], [[Surround yourself with Pure Aether, increasing all your arcane damage by %0.1f%% and ignoring %d%% arcane resistance of your targets.
-		At level 5 casting Aether Avatar removes up to %d magical or physical detrimental effects.]], "tformat")
---]==]
-
+		At level 5 casting Aether Avatar removes up to %d magical or physical detrimental effects.]], [[Entourez-vous d'Éther Pur, augmentant tous vos dégâts arcaniques de %0.1f%% et ignorant %d%% de la résistance arcanique de vos cibles.
+		Au niveau 5, lancer Avatar Éthéré supprime jusqu'à %d effets négatifs magiques ou physiques.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/age-of-dusk.lua"
@@ -27014,30 +27010,27 @@ t([[You draw constant power from the souls you hold within your grasp.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/arcane.lua"
 
-t("Manathrust", "Poussée de mana", "talent name")
-t("Arcane Vortex", "Vortex Arcanique", "talent name")
-t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
--- texte non traduit
---[==[
+t("Manathrust", "Poussée de Mana", "talent name")
 t([[Conjures up mana into a powerful bolt doing %0.2f arcane damage.
 		At level 3, it becomes a beam.
-		The damage will increase with your Spellpower.]], [[Conjures up mana into a powerful bolt doing %0.2f arcane damage.
-		At level 3, it becomes a beam.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Arcane Power", "Arcane Power", "talent name")
-t("Your mastery of magic allows you to enter a state of deep concentration, increasing your Spellpower by %d and arcane resistance by %d%%.", "Your mastery of magic allows you to enter a state of deep concentration, increasing your Spellpower by %d and arcane resistance by %d%%.", "tformat")
+		The damage will increase with your Spellpower.]], [[Conjure de la mana en un puissant projectile infligeant %0.2f dégâts arcaniques.
+		Au niveau 3, il devient un faisceau.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Arcane Power", "Puissance Arcanique", "talent name")
+t("Your mastery of magic allows you to enter a state of deep concentration, increasing your Spellpower by %d and arcane resistance by %d%%.", "Votre maîtrise de la magie vous permet d'entrer dans un état de concentration profonde, augmentant votre Puissance des sorts de %d et votre résistance arcanique de %d%%.", "tformat")
+t("Arcane Vortex", "Vortex Arcanique", "talent name")
 t([[Creates a vortex of arcane energies on the target for 6 turns. Each turn the vortex will look for another foe in sight and fire a manathrust doing %0.2f arcane damage to all foes in line.
 		If no foes are found, the target will take 50%% more arcane damage.
 		If the target dies, the vortex explodes, releasing all remaining damage in a radius 2 ball of arcane force.
-		The damage will increase with your Spellpower.]], [[Creates a vortex of arcane energies on the target for 6 turns. Each turn the vortex will look for another foe in sight and fire a manathrust doing %0.2f arcane damage to all foes in line.
-		If no foes are found, the target will take 50%% more arcane damage.
-		If the target dies, the vortex explodes, releasing all remaining damage in a radius 2 ball of arcane force.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Disruption Shield", "Disruption Shield", "talent name")
-t("#VIOLET#%s's disruption shield collapses and then explodes in a powerful manastorm!", "#VIOLET#%s's disruption shield collapses and then explodes in a powerful manastorm!", "logSeen")
-t("#PURPLE#(%d mana)#LAST#", "#PURPLE#(%d mana)#LAST#", "tformat")
-t("%s restores Disruption Shield (+%d) and gains %d mana with Aegis!", "%s restores Disruption Shield (+%d) and gains %d mana with Aegis!", "logSeen")
-t("%s restores Disruption Shield (+%d) with Aegis!", "%s restores Disruption Shield (+%d) with Aegis!", "logSeen")
+		The damage will increase with your Spellpower.]], [[Crée un vortex d'énergies arcaniques sur la cible pendant 6 tours. À chaque tour, le vortex cherche un autre ennemi en vue et tire une Poussée de Mana infligeant %0.2f dégâts arcaniques à tous les ennemis en ligne.
+		Si aucun ennemi n'est trouvé, la cible subira 50%% de dégâts arcaniques supplémentaires.
+		Si la cible meurt, le vortex explose, libérant tous les dégâts restants dans une sphère de force arcanique de rayon 2.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Disruption Shield", "Bouclier de Disruption", "talent name")
+t("#VIOLET#%s's disruption shield collapses and then explodes in a powerful manastorm!", "#VIOLET#Le Bouclier de Disruption de %s s'effondre puis explose en une puissante tempête de mana !", "logSeen")
+t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
+t("%s restores Disruption Shield (+%d) and gains %d mana with Aegis!", "%s restaure le Bouclier de Disruption (+%d) et gagne %d mana avec Égide !", "logSeen")
+t("%s restores Disruption Shield (+%d) with Aegis!", "%s restaure le Bouclier de Disruption (+%d) avec Égide !", "logSeen")
 t([[Surround yourself with arcane forces, disrupting any attempts to harm you by creating a shield of pure aether which can absorb %d damage.
 		In combat, the mental focus required to maintain and monitor the shield is too much and you let it run on its own. In this state once the shield power is depleted it will start using your mana to absorb hits, at a ratio of %0.2f mana per damage.
 		Whenever mana is used by the shield it stores a remnant of this energy (up to %d max). When the shield is deactivated any stored energy is released in a radius %d arcane storm that lasts 5 turns, dealing 20%% of the total stored damage each turn.
@@ -27047,16 +27040,19 @@ t([[Surround yourself with arcane forces, disrupting any attempts to harm you by
 		The maximum energy storage is based on your total mana (ignoring sustained spells), with a limit at %d effective mana.
 
 		Current shield power: %d
-		Current stored energy: %d]], [[Surround yourself with arcane forces, disrupting any attempts to harm you by creating a shield of pure aether which can absorb %d damage.
-		In combat, the mental focus required to maintain and monitor the shield is too much and you let it run on its own. In this state once the shield power is depleted it will start using your mana to absorb hits, at a ratio of %0.2f mana per damage.
-		Whenever mana is used by the shield it stores a remnant of this energy (up to %d max). When the shield is deactivated any stored energy is released in a radius %d arcane storm that lasts 5 turns, dealing 20%% of the total stored damage each turn.
-		Outside of combat the shield regenerates 10%% of its power each turn and stored energy quickly dissipates.
-		Dropping below 50%% mana or reaching max energy storage will automatically deactivate this talent.
-		The shield power improves with your Spellpower.
-		The maximum energy storage is based on your total mana (ignoring sustained spells), with a limit at %d effective mana.
+		Current stored energy: %d]], [[Entourez-vous de forces arcaniques, perturbant toute tentative de vous blesser en créant un bouclier d'éther pur pouvant absorber %d dégâts.
+		En combat, la concentration mentale requise pour maintenir et surveiller le bouclier est trop grande et vous le laissez fonctionner seul. Dans cet état, une fois la puissance du bouclier épuisée, il commencera à utiliser votre mana pour absorber les coups, à raison de %0.2f mana par dégât.
+		Chaque fois que le bouclier utilise de la mana, il stocke un résidu de cette énergie (jusqu'à %d au maximum). Lorsque le bouclier est désactivé, toute énergie stockée est libérée dans une tempête arcanique de rayon %d qui dure 5 tours, infligeant 20%% du total des dégâts stockés à chaque tour.
+		Hors combat, le bouclier régénère 10%% de sa puissance à chaque tour et l'énergie stockée se dissipe rapidement.
+		Tomber sous 50%% de mana ou atteindre le stockage d'énergie maximum désactivera automatiquement ce talent.
+		La puissance du bouclier s'améliore avec votre Puissance des sorts.
+		Le stockage d'énergie maximum est basé sur votre mana totale (en ignorant les sorts soutenus actifs), avec une limite à %d mana effective.
 
-		Current shield power: %d
-		Current stored energy: %d]], "tformat")
+		Puissance actuelle du bouclier : %d
+		Énergie actuellement stockée : %d]], "tformat")
+-- texte non traduit
+--[==[
+t("#PURPLE#(%d mana)#LAST#", "#PURPLE#(%d mana)#LAST#", "tformat")
 --]==]
 
 
@@ -27542,11 +27538,11 @@ t([[Conjures up a bolt of fire, setting the target ablaze and doing %0.2f fire d
 		The damage will increase with your Spellpower.]], [[Conjure un projectile de feu, enflammant la cible et infligeant %0.2f dégâts de feu sur 3 tours.
 		Au niveau 5, cela créera un faisceau de flammes.
 		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
-t("Flameshock", "Choc de flammes", "talent name")
+t("Flameshock", "Choc de Flammes", "talent name")
 t([[Conjures up a cone of flame with radius %d. Any targets caught in the area will suffer Burning Shock, stunning them and dealing %0.2f fire damage over %d turns.
 		The damage will increase with your Spellpower.]], [[Conjure un cône de flammes de rayon %d. Toutes les cibles prises dans la zone subiront un Choc Ardent, les assomants et infligeant %0.2f dégâts de feu sur %d tours.
 		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
-t("Fireflash", "Éclat de feu", "talent name")
+t("Fireflash", "Éclat de Feu", "talent name")
 t([[Conjures up a bolt of fire that moves toward the target and explodes into a flash of fire, doing %0.2f fire damage in a radius of %d.
 		The damage will increase with your Spellpower.]], [[Conjure un projectile de feu qui se déplace vers la cible et explose en un éclair de feu, infligeant %0.2f dégâts de feu dans un rayon de %d.
 		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
@@ -27802,24 +27798,21 @@ t([[Upon expiring the corpselight implodes, pulling in all foes towards its cent
 section "mod-tome/data/talents/spells/ice.lua"
 
 t("Freeze", "Gel", "talent name")
-t("Frozen Ground", "Sol Gelé", "talent name")
-t("Shatter", "Eclatement", "talent name")
-t("Uttercold", "Froid Absolu", "talent name")
--- texte non traduit
---[==[
 t([[Condenses ambient water on a target, freezing it for %d turns and damaging it for %0.2f.
 		If this is used on a friendly target the cooldown is reduced by 33%%.
-		The damage will increase with your Spellpower.]], [[Condenses ambient water on a target, freezing it for %d turns and damaging it for %0.2f.
-		If this is used on a friendly target the cooldown is reduced by 33%%.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Condense l'eau ambiante sur une cible, la gelant pendant %d tours et lui infligeant %0.2f dégâts de froid.
+		Si utilisé sur une cible amie, le rechargement est réduit de 33%%.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Frozen Ground", "Sol Gelé", "talent name")
 t([[Blast a wave of cold all around you with a radius of %d, doing %0.2f cold damage and freezing creatures to the ground for 4 turns.
 		Affected creatures can still act, but cannot move.
 		For each affected creature that is also wet the cooldown of Shatter decreases by 2.
-		The damage will increase with your Spellpower.]], [[Blast a wave of cold all around you with a radius of %d, doing %0.2f cold damage and freezing creatures to the ground for 4 turns.
-		Affected creatures can still act, but cannot move.
-		For each affected creature that is also wet the cooldown of Shatter decreases by 2.
-		The damage will increase with your Spellpower.]], "tformat")
-t("%s shatters!", "%s shatters!", "logSeen")
+		The damage will increase with your Spellpower.]], [[Déchaînez une vague de froid autour de vous dans un rayon de %d, infligeant %0.2f dégâts de froid et gelant les pieds des créatures pendant 4 tours.
+		Les créatures affectées peuvent toujours agir, mais ne peuvent pas se déplacer.
+		Pour chaque créature affectée qui est également mouillée, le rechargement de Fracasser diminue de 2 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Shatter", "Fracasser", "talent name")
+t("%s shatters!", "%s se fracasse !", "logSeen")
 t([[Shatter all frozen targets in your line of sight, doing %0.2f cold damage.
 		Depending on the target's rank, there will also be an additional effect:
 		* Critters will be instantly killed
@@ -27828,20 +27821,19 @@ t([[Shatter all frozen targets in your line of sight, doing %0.2f cold damage.
 		All affected foes will get the wet effect.
 		At most, it will affect %d foes.
 		If you are yourself Frozen, it will instantly be destroyed.
-		The damage will increase with your Spellpower.]], [[Shatter all frozen targets in your line of sight, doing %0.2f cold damage.
-		Depending on the target's rank, there will also be an additional effect:
-		* Critters will be instantly killed
-		* +50%% critical chance against Normal rank
-		* +25%% critical chance against Elites or Bosses
-		All affected foes will get the wet effect.
-		At most, it will affect %d foes.
-		If you are yourself Frozen, it will instantly be destroyed.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Fracassez toutes les cibles gelées dans votre ligne de vue, infligeant %0.2f dégâts de froid.
+		Selon le rang de la cible, il y aura également un effet supplémentaire :
+		* Les petites créatures seront tuées instantanément.
+		* +50%% de chance de critique contre le rang Normal.
+		* +25%% de chance de critique contre les Élites ou les Boss.
+		Tous les ennemis affectés recevront l'effet mouillé.
+		Au maximum, cela affectera %d ennemis.
+		Si vous êtes vous-même Gelé, il sera instantanément détruit.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Uttercold", "Froid Absolu", "talent name")
 t([[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%% and ignoring %d%% cold resistance of your targets
-		In addition you pierce through iceblocks easily, reducing damage absorbed from your attacks by iceblocks by %d%%.]], [[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%% and ignoring %d%% cold resistance of your targets
-		In addition you pierce through iceblocks easily, reducing damage absorbed from your attacks by iceblocks by %d%%.]], "tformat")
---]==]
-
+		In addition you pierce through iceblocks easily, reducing damage absorbed from your attacks by iceblocks by %d%%.]], [[Entourez-vous de Froid Absolu, augmentant tous vos dégâts de froid de %0.1f%% et ignorant %d%% de la résistance au froid de vos cibles.
+		De plus, vous percez facilement les blocs de glace, réduisant les dégâts absorbés de vos attaques par les blocs de glace de %d%%.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/master-necromancer.lua"
@@ -28025,32 +28017,27 @@ t([[Whenever you would be affected by a detrimental physical effect you instead 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/meta.lua"
 
-t("Metaflow", "Métaflux", "talent name")
--- texte non traduit
---[==[
-t("Disperse Magic", "Disperse Magic", "talent name")
+t("Disperse Magic", "Dissiper la Magie", "talent name")
 t([[Removes up to %d magical effects (good effects from foes, and bad effects from friends) from the target.
 		At level 3, it can be targeted.
-		]], [[Removes up to %d magical effects (good effects from foes, and bad effects from friends) from the target.
-		At level 3, it can be targeted.
-		]], "tformat")
-t("Spellcraft", "Spellcraft", "talent name")
+		]], [[Supprime jusqu'à %d effets magiques (bons effets des ennemis et mauvais effets des alliés) de la cible.
+		Au niveau 3, il peut être ciblé.]], "tformat")
+t("Spellcraft", "Arcanisme", "talent name")
 t([[You learn to finely craft and tune your spells, reducing all their cooldowns by %d%%.
 		In doing so you can also carve a hole in spells that affect an area to avoid damaging yourself.  The chance of success is %d%%.
-		In addition, you hone your damaging spells to spellshock their targets. Whenever you deal damage with a spell you attempt to spellshock them with %d more Spellpower than normal. Spellshocked targets suffer a temporary 20%% penalty to damage resistances.]], [[You learn to finely craft and tune your spells, reducing all their cooldowns by %d%%.
-		In doing so you can also carve a hole in spells that affect an area to avoid damaging yourself.  The chance of success is %d%%.
-		In addition, you hone your damaging spells to spellshock their targets. Whenever you deal damage with a spell you attempt to spellshock them with %d more Spellpower than normal. Spellshocked targets suffer a temporary 20%% penalty to damage resistances.]], "tformat")
-t("Energy Alteration", "Energy Alteration", "talent name")
+		In addition, you hone your damaging spells to spellshock their targets. Whenever you deal damage with a spell you attempt to spellshock them with %d more Spellpower than normal. Spellshocked targets suffer a temporary 20%% penalty to damage resistances.]], [[Vous apprenez à affiner et ajuster vos sorts, réduisant tous leurs rechargements de %d%%.
+		Ce faisant, vous pouvez également creuser un trou dans les sorts affectant une zone pour éviter de vous blesser. La chance de succès est de %d%%.
+		De plus, vous affûtez vos sorts offensifs pour provoquer un choc de sort sur leurs cibles. Chaque fois que vous infligez des dégâts avec un sort, vous tentez de provoquer un choc de sort avec %d de Puissance des sorts en plus que la normale. Les cibles sous choc de sort subissent une pénalité temporaire de 20%% à leurs résistances aux dégâts.]], "tformat")
+t("Energy Alteration", "Altération d'Énergie", "talent name")
 t([[Your mastery over magic is so great that you can alter the energy of all damaging spells to suit your needs.
 		Whenever you deal damage with a spell you attune to the element of that spell for 6 turns, converting %d%% of any damage you deal into that element.
-		This effect will not override itself and will only trigger from spells directly cast by you, not from damage over time or ground damage effects.]], [[Your mastery over magic is so great that you can alter the energy of all damaging spells to suit your needs.
-		Whenever you deal damage with a spell you attune to the element of that spell for 6 turns, converting %d%% of any damage you deal into that element.
-		This effect will not override itself and will only trigger from spells directly cast by you, not from damage over time or ground damage effects.]], "tformat")
+		This effect will not override itself and will only trigger from spells directly cast by you, not from damage over time or ground damage effects.]], [[Votre maîtrise de la magie est si grande que vous pouvez altérer l'énergie de tous les sorts offensifs selon vos besoins.
+		Chaque fois que vous infligez des dégâts avec un sort, vous vous accordez à l'élément de ce sort pendant 6 tours, convertissant %d%% de tous les dégâts que vous infligez en cet élément.
+		Cet effet ne se remplace pas lui-même et ne se déclenche que depuis des sorts directement lancés par vous, pas depuis des effets de dégâts dans le temps ou au sol.]], "tformat")
+t("Metaflow", "Métaflux", "talent name")
 t([[Your mastery of arcane flows allow you to reset the cooldown of up to %d of your spells (that don't have a fixed cooldown) of tier %d or less.
-		In addition for %d turns you are overflowing with energy; all known spells are considered one talent level higher when casting them.]], [[Your mastery of arcane flows allow you to reset the cooldown of up to %d of your spells (that don't have a fixed cooldown) of tier %d or less.
-		In addition for %d turns you are overflowing with energy; all known spells are considered one talent level higher when casting them.]], "tformat")
---]==]
-
+		In addition for %d turns you are overflowing with energy; all known spells are considered one talent level higher when casting them.]], [[Votre maîtrise des flux arcaniques vous permet de réinitialiser le rechargement de jusqu'à %d de vos sorts (sans rechargement fixe) de rang %d ou inférieur.
+		De plus, pendant %d tours, vous débordez d'énergie ; tous les sorts connus sont considérés comme ayant un niveau de talent supérieur lors de leur lancement.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/necrosis.lua"
@@ -28452,28 +28439,28 @@ t([[Concentrate on maintaining a Crystalline Focus, increasing all your physical
 ------------------------------------------------
 section "mod-tome/data/talents/spells/storm.lua"
 
+t([[Lightning emanates from you in a circular wave with radius %d, doing %0.2f to %0.2f lightning damage (%0.2f average) and possibly dazing anyone affected (75%% chance).
+		The damage will increase with your Spellpower.]], [[De la foudre émane de vous en une vague circulaire de rayon %d, infligeant de %0.2f à %0.2f dégâts de foudre (%0.2f en moyenne) et étourdissant légèrement toute personne affectée (75%% de chance).
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 t("Shock", "Choc", "talent name")
+t([[Conjures up a bolt of lightning, doing %0.2f to %0.2f damage (%0.2f average) and dazing the target for 3 turns.
+		If the target resists the daze effect it is instead shocked, which halves stun/daze/pin resistance, for 5 turns.
+		The damage will increase with your Spellpower.]], [[Conjure un projectile de foudre, infligeant de %0.2f à %0.2f dégâts de foudre (%0.2f en moyenne) et étourdissant légèrement la cible pendant 3 tours.
+		Si la cible résiste à l'effet d'étourdissement léger, elle est à la place sous Choc de sort, réduisant de moitié la résistance à l'étourdissement/étourdissement léger/immobilisation pendant 5 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 t("Hurricane", "Ouragan", "talent name")
-t("Tempest", "Orage", "talent name")
+t([[Each time one of your lightning spells dazes a target, it has a %d%% chance to creates a chain reaction that summons a mighty Hurricane that lasts for 10 turns around the target with a radius of %d.
+		Each turn, the afflicted creature and all creatures around it will take %0.2f to %0.2f lightning damage (%0.2f average).
+		The damage will increase with your Spellpower.]], [[Chaque fois que l'un de vos sorts de foudre étourdit légèrement une cible, il y a %d%% de chance de créer une réaction en chaîne qui invoque un puissant Ouragan durant 10 tours autour de la cible avec un rayon de %d.
+		À chaque tour, la créature affectée et toutes les créatures autour d'elle subissent de %0.2f à %0.2f dégâts de foudre (%0.2f en moyenne).
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Tempest", "Tempête", "talent name")
+t([[Surround yourself with a Tempest, increasing all your lightning damage by %d%% and ignoring %d%% lightning resistance of your targets.
+		Your Lightning and Chain Lightning spells also gain a %d%% chance to daze, and your Thunderstorm spell gains a %d%% chance to daze.]], [[Entourez-vous d'une Tempête, augmentant tous vos dégâts de foudre de %d%% et ignorant %d%% de la résistance à la foudre de vos cibles.
+		Vos sorts Foudre et Foudre en Chaîne gagnent également %d%% de chance d'étourdir légèrement, et votre sort Orage gagne %d%% de chance d'étourdir légèrement.]], "tformat")
 -- texte non traduit
 --[==[
 t("Nova", "Nova", "talent name")
-t([[Lightning emanates from you in a circular wave with radius %d, doing %0.2f to %0.2f lightning damage (%0.2f average) and possibly dazing anyone affected (75%% chance).
-		The damage will increase with your Spellpower.]], [[Lightning emanates from you in a circular wave with radius %d, doing %0.2f to %0.2f lightning damage (%0.2f average) and possibly dazing anyone affected (75%% chance).
-		The damage will increase with your Spellpower.]], "tformat")
-t([[Conjures up a bolt of lightning, doing %0.2f to %0.2f damage (%0.2f average) and dazing the target for 3 turns.
-		If the target resists the daze effect it is instead shocked, which halves stun/daze/pin resistance, for 5 turns.
-		The damage will increase with your Spellpower.]], [[Conjures up a bolt of lightning, doing %0.2f to %0.2f damage (%0.2f average) and dazing the target for 3 turns.
-		If the target resists the daze effect it is instead shocked, which halves stun/daze/pin resistance, for 5 turns.
-		The damage will increase with your Spellpower.]], "tformat")
-t([[Each time one of your lightning spells dazes a target, it has a %d%% chance to creates a chain reaction that summons a mighty Hurricane that lasts for 10 turns around the target with a radius of %d.
-		Each turn, the afflicted creature and all creatures around it will take %0.2f to %0.2f lightning damage (%0.2f average).
-		The damage will increase with your Spellpower.]], [[Each time one of your lightning spells dazes a target, it has a %d%% chance to creates a chain reaction that summons a mighty Hurricane that lasts for 10 turns around the target with a radius of %d.
-		Each turn, the afflicted creature and all creatures around it will take %0.2f to %0.2f lightning damage (%0.2f average).
-		The damage will increase with your Spellpower.]], "tformat")
-t([[Surround yourself with a Tempest, increasing all your lightning damage by %d%% and ignoring %d%% lightning resistance of your targets.
-		Your Lightning and Chain Lightning spells also gain a %d%% chance to daze, and your Thunderstorm spell gains a %d%% chance to daze.]], [[Surround yourself with a Tempest, increasing all your lightning damage by %d%% and ignoring %d%% lightning resistance of your targets.
-		Your Lightning and Chain Lightning spells also gain a %d%% chance to daze, and your Thunderstorm spell gains a %d%% chance to daze.]], "tformat")
 --]==]
 
 
@@ -28576,83 +28563,75 @@ t([[Turn part of your target into fire, burning the rest for %0.2f fire damage o
 section "mod-tome/data/talents/spells/water.lua"
 
 t("Ice Shards", "Éclats de Glace", "talent name")
-t("Shivgoroth Form", "Forme de Shivgoroth", "talent name")
-t("You are already a Shivgoroth!", "Vous êtes déjà sous forme de Shivgoroth !", "logPlayer")
--- texte non traduit
---[==[
 t([[Hurl ice shards at the targets in the selected area. Each shard travels slowly and does %0.2f ice damage, hitting all adjacent targets on impact with 25%% chance to freeze them.
 		If the target resists being frozen, it instead get wet.
 		If the target is wet the damage increases by 30%% and the ice freeze chance increases to 50%%.
 		This spell will never hit the caster.
-		The damage will increase with your Spellpower.]], [[Hurl ice shards at the targets in the selected area. Each shard travels slowly and does %0.2f ice damage, hitting all adjacent targets on impact with 25%% chance to freeze them.
-		If the target resists being frozen, it instead get wet.
-		If the target is wet the damage increases by 30%% and the ice freeze chance increases to 50%%.
-		This spell will never hit the caster.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Glacial Vapour", "Glacial Vapour", "talent name")
+		The damage will increase with your Spellpower.]], [[Lancez des éclats de glace sur les cibles dans la zone sélectionnée. Chaque éclat se déplace lentement et inflige %0.2f dégâts de glace, touchant toutes les cibles adjacentes à l'impact avec 25%% de chance de les geler.
+		Si la cible résiste au gel, elle est à la place mouillée.
+		Si la cible est mouillée, les dégâts augmentent de 30%% et la chance de gel augmente à 50%%.
+		Ce sort ne touchera jamais le lanceur.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Glacial Vapour", "Vapeur Glaciale", "talent name")
 t([[Glacial fumes rise from the ground, doing %0.2f cold damage in a radius of 3 each turn for %d turns.
 		Creatures that are wet will take 30%% more damage and have 15%% chance to get frozen.
-		The damage will increase with your Spellpower.]], [[Glacial fumes rise from the ground, doing %0.2f cold damage in a radius of 3 each turn for %d turns.
-		Creatures that are wet will take 30%% more damage and have 15%% chance to get frozen.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Tidal Wave", "Tidal Wave", "talent name")
-t("A #LIGHT_BLUE#wave of icy water#LAST# erupts from the ground!", "A #LIGHT_BLUE#wave of icy water#LAST# erupts from the ground!", "logSeen")
+		The damage will increase with your Spellpower.]], [[Des vapeurs glaciales s'élèvent du sol, infligeant %0.2f dégâts de froid dans un rayon de 3 à chaque tour pendant %d tours.
+		Les créatures mouillées subissent 30%% de dégâts supplémentaires et ont 15%% de chance d'être gelées.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Tidal Wave", "Raz-de-marée", "talent name")
+t("A #LIGHT_BLUE#wave of icy water#LAST# erupts from the ground!", "Une #LIGHT_BLUE#vague d'eau glacée#LAST# jaillit du sol !", "logSeen")
 t([[A wall of water rushes out from the caster with an initial radius of 1, increasing by 1 per turn to a maximum radius of %d, doing %0.2f cold damage and %0.2f physical damage to all inside, as well as knocking back targets each turn.
 		The tidal wave lasts for %d turns.
 		All creatures hit gain the wet effect, which reduces their stun/freeze immunity by half and interacts with other cold spells.
-		The damage and duration will increase with your Spellpower.]], [[A wall of water rushes out from the caster with an initial radius of 1, increasing by 1 per turn to a maximum radius of %d, doing %0.2f cold damage and %0.2f physical damage to all inside, as well as knocking back targets each turn.
-		The tidal wave lasts for %d turns.
-		All creatures hit gain the wet effect, which reduces their stun/freeze immunity by half and interacts with other cold spells.
-		The damage and duration will increase with your Spellpower.]], "tformat")
+		The damage and duration will increase with your Spellpower.]], [[Un mur d'eau se précipite depuis le lanceur avec un rayon initial de 1, augmentant de 1 par tour jusqu'à un rayon maximum de %d, infligeant %0.2f dégâts de froid et %0.2f dégâts physiques à tous à l'intérieur, et repoussant les cibles à chaque tour.
+		Le raz-de-marée dure %d tours.
+		Toutes les créatures touchées reçoivent l'effet mouillé, qui réduit leur immunité à l'étourdissement/gel de moitié et interagit avec d'autres sorts de froid.
+		Les dégâts et la durée sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Shivgoroth Form", "Forme de Shivgoroth", "talent name")
+t("You are already a Shivgoroth!", "Vous êtes déjà un Shivgoroth !", "logPlayer")
 t([[You absorb latent cold around you, turning into an ice elemental - a shivgoroth - for %d turns.
 		While transformed, you do not need to breathe, gain access to the Ice Storm talent at level %d, gain %d%% resistance to cuts and stuns, gain %d%% cold resistance, and all cold damage heals you for %d%% of the damage done.
 		The power will increase with your Spellpower.
 
 		#AQUAMARINE#Ice storm:#LAST#
-		%s]], [[You absorb latent cold around you, turning into an ice elemental - a shivgoroth - for %d turns.
-		While transformed, you do not need to breathe, gain access to the Ice Storm talent at level %d, gain %d%% resistance to cuts and stuns, gain %d%% cold resistance, and all cold damage heals you for %d%% of the damage done.
-		The power will increase with your Spellpower.
+		%s]], [[Vous absorbez le froid latent autour de vous, vous transformant en élémentaire de glace - un shivgoroth - pendant %d tours.
+		Transformé, vous n'avez pas besoin de respirer, accédez au talent Tempête de Glace au niveau %d, gagnez %d%% de résistance aux Entailles et aux assommements, gagnez %d%% de résistance au froid, et tous les dégâts de froid vous soignent de %d%% des dégâts infligés.
+		La puissance est proportionnel à votre Puissance des sorts.
 
-		#AQUAMARINE#Ice storm:#LAST#
+		#AQUAMARINE#Tempête de glace :#LAST#
 		%s]], "tformat")
-t("Ice Storm", "Ice Storm", "talent name")
+t("Ice Storm", "Tempête de Glace", "talent name")
 t([[A furious ice storm rages around the caster, doing %0.2f cold damage in a radius of 3 each turn for %d turns.
 		It has a 25%% chance to freeze damaged targets.
 		If the target is wet the damage increases by 30%% and the freeze chance increases to 50%%.
-		The damage and duration will increase with your Spellpower.]], [[A furious ice storm rages around the caster, doing %0.2f cold damage in a radius of 3 each turn for %d turns.
-		It has a 25%% chance to freeze damaged targets.
-		If the target is wet the damage increases by 30%% and the freeze chance increases to 50%%.
-		The damage and duration will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage and duration will increase with your Spellpower.]], [[Une furieuse tempête de glace fait rage autour du lanceur, infligeant %0.2f dégâts de froid dans un rayon de 3 à chaque tour pendant %d tours.
+		Elle a 25%% de chance de geler les cibles endommagées.
+		Si la cible est mouillée, les dégâts augmentent de 30%% et la chance de gel augmente à 50%%.
+		Les dégâts et la durée sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/wildfire.lua"
 
 t("Blastwave", "Déflagration", "talent name")
-t("Burning Wake", "Feux Dansants", "talent name")
-t("Cleansing Flames", "Feux Purificateurs", "talent name")
-t("Wildfire", "Feu de Brousse", "talent name")
--- texte non traduit
---[==[
 t([[A wave of fire emanates from you with a radius of %d, knocking back anything caught inside and setting them ablaze, doing %0.2f fire damage over 3 turns.
-		The damage will increase with your Spellpower.]], [[A wave of fire emanates from you with a radius of %d, knocking back anything caught inside and setting them ablaze, doing %0.2f fire damage over 3 turns.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Une vague de feu émane de vous dans un rayon de %d, repoussant tout ce qui est pris à l'intérieur et l'enflammant, infligeant %0.2f dégâts de feu sur 3 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Burning Wake", "Feux Dansants", "talent name")
 t([[Your Flame, Flameshock, Fireflash and Blastwave spells leave a burning wake on the ground, burning all within for %0.2f fire damage for 4 turns.
-		The damage will increase with your Spellpower.]], [[Your Flame, Flameshock, Fireflash and Blastwave spells leave a burning wake on the ground, burning all within for %0.2f fire damage for 4 turns.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Vos sorts Flamme, Choc Enflammé, Éclair de Feu et Déflagration laissent un sillage ardent sur le sol, brûlant tout à l'intérieur pour %0.2f dégâts de feu pendant 4 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Cleansing Flames", "Feux Purificateurs", "talent name")
 t([[When you stand in your Burning Wake or Inferno ground effect, you can self immolate to trigger Cleansing Flames for %d turns.
 		While the effect lasts you will take %0.2f fire damage per turn.
 		Each turn there is a %d%% chance for any creature taking damage from Burning Wake, Inferno or Cleansing Flames to remove a status effect (physical or magical).
 		If the target is hostile, it will remove a beneficial effect.
-		If the target is friendly, it will remove a detrimental effect.]], [[When you stand in your Burning Wake or Inferno ground effect, you can self immolate to trigger Cleansing Flames for %d turns.
-		While the effect lasts you will take %0.2f fire damage per turn.
-		Each turn there is a %d%% chance for any creature taking damage from Burning Wake, Inferno or Cleansing Flames to remove a status effect (physical or magical).
-		If the target is hostile, it will remove a beneficial effect.
-		If the target is friendly, it will remove a detrimental effect.]], "tformat")
-t("Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, ignoring %d%% fire resistance of your targets and reducing self-inflicted fire damage by %d%%.", "Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, ignoring %d%% fire resistance of your targets and reducing self-inflicted fire damage by %d%%.", "tformat")
---]==]
-
+		If the target is friendly, it will remove a detrimental effect.]], [[Lorsque vous vous tenez dans vos Feux Dansants ou l'effet au sol d'Inferno, vous pouvez vous immoler pour déclencher les Feux Purificateurs pendant %d tours.
+		Tant que l'effet dure, vous subirez %0.2f dégâts de feu par tour.
+		À chaque tour, il y a %d%% de chance que toute créature subissant des dégâts de Sillage Ardent, d'Inferno ou de Flammes Purificatrices supprime un effet de statut (physique ou magique).
+		Si la cible est hostile, elle supprimera un effet bénéfique.
+		Si la cible est amie, elle supprimera un effet négatif.]], "tformat")
+t("Wildfire", "Feu Sauvage", "talent name")
+t("Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, ignoring %d%% fire resistance of your targets and reducing self-inflicted fire damage by %d%%.", "Entourez-vous de Feu Sauvage, augmentant tous vos dégâts de feu de %0.1f%%, ignorant %d%% de la résistance au feu de vos cibles et réduisant les dégâts de feu auto-infligés de %d%%.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/2h-assault.lua"
@@ -31586,7 +31565,7 @@ t([[Suppose you're an archmage, and you blast somebody with the Flameshock spell
 This spell does fire damage, which is determined by your #LIGHT_GREEN#Spellpower#WHITE#. #GOLD#Combat stats#WHITE# are not used to mitigate damage, so the defender is going to take the full force of the spell, barring fire resistance (which is a subject for another tutorial).
 
 The spell will also attempt to stun the target. Stunning, you recall, is a physical effect, so the target defends with their #LIGHT_GREEN#Physical save#WHITE#. However, unlike the previous example, the source of this stun is a spell. You will thus compare your #LIGHT_GREEN#Spellpower#WHITE# to the target's #LIGHT_GREEN#Physical save#WHITE# to determine the success of the stun.
-]], [[Supposons que vous êtes un archimage et que vous attaquiez quelqu'un avec le sort Choc de flammes. 
+]], [[Supposons que vous êtes un archimage et que vous attaquiez quelqu'un avec le sort Choc de Flammes. 
 
 Ce sort inflige des dégâts de feu, qui sont déterminés par votre #LIGHT_GREEN#Puissance des sort#WHITE#. Les statistiques de combat ne sont pas utilisées pour atténuer les dégâts, donc le défenseur va subir toute la force du sort, sauf résistance au feu (qui est un sujet pour un autre tutoriel).
 
@@ -33060,7 +33039,7 @@ Il se reconstitue lentement avec le temps.
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-mage_pyromancer.lua"
 
-t("New Talent Category: #LIGHT_GREEN#Wildfire", "Nouvelle Catégorie de Talent : #LIGHT_GREEN#Feu de Brousse", "_t")
+t("New Talent Category: #LIGHT_GREEN#Wildfire", "Nouvelle Catégorie de Talent : #LIGHT_GREEN#Feu Sauvage", "_t")
 t([[Since the dawn of time mages have experimented with the elements.
 While most mages are content using the Fire school, a few of them took their research deeper and created Wildfire magic.
 At its core lies the Wildfire, a fire so hot it can even damage creatures normally immune.
@@ -33073,16 +33052,16 @@ Talents:
 - #YELLOW#Combust: #WHITE#Disrupt normal burning effects and make them combust at once
 - #YELLOW#Wildfire: #WHITE#Master the Wildfire and pierce even through fire immunities
 ]], [[Depuis l'aube des temps, les mages ont expérimenté avec les éléments.
-Si la plupart des mages se contentent d'utiliser l'école du Feu, certains d'entre eux ont approfondi leurs recherches et ont créé la magie du Feu de Brousse.
-Au coeur de cette magie se trouve le Feu de Brousse, un feu si chaud qu'il peut même endommager des créatures normalement immunisées.
+Si la plupart des mages se contentent d'utiliser l'école du Feu, certains d'entre eux ont approfondi leurs recherches et ont créé la magie du Feu Sauvage.
+Au coeur de cette magie se trouve le Feu Sauvage, un feu si chaud qu'il peut même endommager des créatures normalement immunisées.
 
-Vous avez maîtrisé la magie du Feu de Brousse et pouvez maintenant créer de nouveaux personnages Archimage qui peuvent apprendre les #LIGHT_GREEN#talents du Feu de Brousse#WHITE#.
+Vous avez maîtrisé la magie du Feu Sauvage et pouvez maintenant créer de nouveaux personnages Archimage qui peuvent apprendre les #LIGHT_GREEN#talents du Feu Sauvage#WHITE#.
 
 Talents :
 - #YELLOW#Déflagration : #WHITE#Déclenchez une nova de feu autour de vous, endommageant et repoussant tout ce qui est pris à l'intérieur
 - #YELLOW#Feux Dansants : #WHITE#Projetez votre feu intérieur sur toutes les créatures situées dans votre champ de vision et enflammez-les
 - #YELLOW#Feux Purificateurs : #WHITE#Immolez les ennemis ou vous même pour leur mettre ou vous enlever des effets
-- #YELLOW#Feu de Brousse : #WHITE#Maîtrisez le Feu de Brousse et percez au travers des immunités au feu.
+- #YELLOW#Feu Sauvage : #WHITE#Maîtrisez le Feu Sauvage et percez au travers des immunités au feu.
 ]], "_t")
 
 ------------------------------------------------
@@ -40119,7 +40098,7 @@ t("and used as target practice for initiate mages", "et utilisé comme cible d'e
 section "mod-tome/data/zones/vor-pride/objects.lua"
 
 t("tome", "grimoire", "entity subtype")
-t("Tome of Wildfire", "Grimoire du Feu de Brousse", "entity name")
+t("Tome of Wildfire", "Grimoire du Feu Sauvage", "entity name")
 t("burning book", "livre en feu", "_t")
 t("This huge book is covered in searing flames. Yet they do not harm you.", "Cet énorme livre est couvert de flammes brûlantes. Pourtant, elles ne vous font pas de mal.", "_t")
 t("learn the ancient secrets", "découvrez les secrets ancestraux", "_t")
