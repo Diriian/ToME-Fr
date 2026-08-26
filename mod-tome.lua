@@ -1588,7 +1588,7 @@ t("How is it that you speak?", "Comment faites vous pour parler ?", "_t")
 t("I want to change your appearance (one-time only).", "Je veux changer son apparence (une seule fois).", "_t")
 t("Nothing, let's go.", "Rien, allons y.", "_t")
 t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Though I guess you are making up for it with your golem crafting skills.", "A quoi bon l'immortalité si tu ne peux même pas parler ? Aucun archimage digne de ce nom ne concoctera un plan immoral de vie après la mort sans inclure une sorte de capacité pour faire connaître ses opinions. Et, soit dit en passant, vos techniques de manipulation de l'énergie sont au même niveau que celles de ma paire de chaussures moyenne. Bien que je suppose que vous vous rattrapez avec vos compétences en fabrication de golems.", "_t")
-t("Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "Changer mon nom ? Je suis assez content d'être 'Telos' merci. Même si cela ne me dérangerait pas d'être \"Telos le Grand et Puissant\" ». Faites ça en fait. Oui !", "_t")
+t("Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "Changer mon nom ? Je suis assez content d'être 'Telos' merci. Même si cela ne me dérangerait pas d'être \"Telos le Grand et Puissant\". Faites ça en fait. Oui !", "_t")
 t([[I'm a golem. How droll!
 Oh, did you want something?]], [[Je suis un golem. Comme c'est drôle !
 Ah, tu voulais quelque chose ?]], "_t")
@@ -9376,20 +9376,20 @@ t("Made by the Dwarves, this lantern provides light in the darkest recesses of t
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/fun.lua"
 
-t("trollish poem", "poème troll", "entity name")
+t("trollish poem", "poème trollesque", "entity name")
 t("A poem written by a... troll?", "Un poème écrit par un... troll ?", "_t")
-t("necromancer poem", "poème de nécromancien", "entity name")
+t("necromancer poem", "poème du nécromancien", "entity name")
 t("A poem written by a... Necromancer?", "Un poème écrit par un... Nécromancien ?", "_t")
-t("rogues do it from behind", "les bandits le font par derrière", "entity name")
-t("A poem written for a rogue?", "Un poème écrit pour un bandit ?", "_t")
-t("how to become a necromancer, part %d", "comment devenir un nécromancien, partie %d", "tformat")
+t("rogues do it from behind", "les brigands le font par derrière", "entity name")
+t("A poem written for a rogue?", "Un poème écrit pour un brigand ?", "_t")
+t("how to become a necromancer, part %d", "Comment devenir nécromancien, partie %d", "tformat")
 t("How to become a powerful Necromancer!", "Comment devenir un puissant Nécromancien !", "_t")
-t("\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "\"De la poussière à la poussière\", un guide du chasseur de morts-vivants, par Aslabor Borys", "entity name")
+t("\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "\"De la Poussière à la Poussière\", un guide du chasseur de morts-vivants, par Aslabor Borys", "entity name")
 t("An undead hunter's guide, by Aslabor Borys.", "Un guide du chasseur de morts-vivants, par Aslabor Borys.", "_t")
-t("letter to %s (%d)", "lettre pour %s (%d)", "tformat")
+t("letter to %s (%d)", "lettre à %s (%d)", "tformat")
 t("A part of the correspondence between two adventurers.", "Une partie de la correspondance entre deux aventuriers.", "_t")
-t("of halfling feet", "des pieds d'halfelin", "entity name")
-t("Notes about... Halfling feet??", "Des notes sur... les pieds des Halfelins ??", "_t")
+t("of halfling feet", "de pieds de halfelin", "entity name")
+t("Notes about... Halfling feet??", "Des notes sur... des pieds de halfelin ?", "_t")
 -- texte non traduit
 --[==[
 t("Rolf", "Rolf", "_t")
@@ -9407,22 +9407,22 @@ section "mod-tome/data/general/objects/lore/misc.lua"
 
 t("The story of my salvation", "L'histoire de mon salut", "entity name")
 t("An old tale about the fear of magic.", "Un vieux conte sur la peur de la magie.", "_t")
-t("On Adventuring", "A l'aventure", "entity name")
+t("On Adventuring", "Sur l'Aventure", "entity name")
 t("Fragments of a fabled traveler.", "Fragments d'un voyageur légendaire.", "_t")
-t("memories of Artelia Firstborn", "mémoires d'Artelia Firstborn", "entity name")
-t("The memories of the first elf ever to awaken.", "Les souvenirs du premier elfe à s'être réveillé.", "_t")
+t("memories of Artelia Firstborn", "mémoires d'Artelia la Première-Née", "entity name")
+t("The memories of the first elf ever to awaken.", "Les mémoires du premier elfe à s'être éveillé.", "_t")
 t("human myth of creation", "mythe de la création humaine", "entity name")
 t("Myth of creation of the humans.", "Mythe de la création des humains.", "_t")
 t("a logical analysis of creation, by philosopher Smythen", "une analyse logique de la création, par le philosophe Smythen", "entity name")
 t("Myth of creation of the halflings.", "Mythe de la création des halfelins.", "_t")
-t("Tale of the Moonsisters", "L'histoire des Soeurs Lunes", "entity name")
+t("Tale of the Moonsisters", "Légende des Soeurs de Lunes", "entity name")
 t("The creation of Eyal's moons.", "La création des lunes d'Eyal.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/spellhunt.lua"
 
 t("memories of archmage Varil", "mémoires de l'archimage Varil", "entity name")
-t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "Une collection de pensées et de souvenirs de l'archimage Varil, pendant l'Ere du Crépuscule.", "_t")
+t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "Une collection de pensées et de souvenirs de l'archimage Varil, durant l'Ere du Crépuscule.", "_t")
 t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts ?", "entity name")
 t("The definitive guide to hunting magic users.", "Le guide définitif de la chasse aux utilisateurs de magie.", "_t")
 t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du Traque-sorts partie 2 : Comment combattre un utilisateur de magie ?", "entity name")
@@ -9431,8 +9431,8 @@ t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/sunwall.lua"
 
-t("Loremaster Verutir's note", "Note du Chroniqueur Verutir", "entity name")
-t("A paper scrap containing some lore.", "Un bout de papier contenant des traditions.", "_t")
+t("Loremaster Verutir's note", "note du Gardien du Savoir Verutir", "entity name")
+t("A paper scrap containing some lore.", "Un bout de papier contenant quelques connaissances.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/maces.lua"
@@ -10608,7 +10608,7 @@ t("A huge greatmaul of incredible weight. Wielding it, you feel utterly unstoppa
 t("Crooked Club", "Gourdin Tortueux", "entity name")
 t("weird club", "gourdin étrange", "_t")
 t("An oddly twisted club with a hefty weight on the end. There's something very strange about it.", "Un gourdin étrangement tordu avec un poids lourd à l'extrémité. Il y a quelque chose de très étrange à propos de ça.", "_t")
-t("Reduce targets accuracy and powers by 5 (stacks 5 times)", "Réduit la précision et la puissance des cibles de 5 (empilable 5 fois).", "_t")
+t("Reduce targets accuracy and powers by 5 (stacks 5 times)", "Réduit la précision et la puissance des cibles de 5 (cumulable 5 fois).", "_t")
 t("Spider-Silk Robe of Spydrë", "Robe en Soie d'Araignée de Spydrë", "entity name")
 t("spider-silk robe", "robe en soir d'araignée", "_t")
 t("This set of robes is made wholly of spider silk. It looks outlandish and some sages think it came from another world, probably through a farportal.", "Cet ensemble de robes est entièrement fait de soie d'araignée. Il a l'air excentrique et certains sages pensent qu'il vient d'un autre monde, probablement par le biais d'un Portail Lointain.", "_t")
@@ -11257,7 +11257,7 @@ t("With a better grip it would be the destroyer of your enemies.", "Avec une mei
 t("Obliterator", "Oblitérateur", "entity name")
 t("titanic maul", "masse titanesque", "_t")
 t("This massive hammer strikes with deadly force. Bones crunch, splinter and grind to dust under its impact.", "Cette masse massive frappe avec une force mortelle. Les os se brisent, se fendent et se réduisent en poussière sous son impact.", "_t")
-t("Sends a tremor through the ground which causes jagged rocks to erupt in a beam of length 5, dealing %d Physical damage (equal to your Strength, up to 150) and causing targets hit to bleed for an additional 50 damage over 5 turns. Bleeding can stack.", "Envoie une secousse dans le sol qui fait jaillir des rochers déchiquetés en un faisceau de longueur 5, infligeant %d dégâts physiques (égal à votre Force, jusqu'à 150) et faisant saigner les cibles touchées pour 50 dégâts supplémentaires sur 5 tours. Les saignements peuvent s'empiler.", "tformat")
+t("Sends a tremor through the ground which causes jagged rocks to erupt in a beam of length 5, dealing %d Physical damage (equal to your Strength, up to 150) and causing targets hit to bleed for an additional 50 damage over 5 turns. Bleeding can stack.", "Envoie une secousse dans le sol qui fait jaillir des rochers déchiquetés en un faisceau de longueur 5, infligeant %d dégâts physiques (égal à votre Force, jusqu'à 150) et faisant saigner les cibles touchées pour 50 dégâts supplémentaires sur 5 tours. Les saignements peuvent se cumuler.", "tformat")
 t("obscuring helm", "casque obscurcissant", "_t")
 t("The golden bascinet crown, affiliated with Veluca of Yaldan. King of the mythical city of Yaldan, that was struck from the face of Eyal by the arrogance of its people. Lone survivor of his kin, he spent his last years wandering the early world, teaching man to stand against the darkness. With his dying words, \"Fear no evil\", the crown was passed onto his successor.", "La couronne en or, affiliée à Veluca de Yaldan. Roi de la cité mythique de Yaldan, qui fut rayée de la surface d'Eyal par l'arrogance de son peuple. Seul survivant de sa famille, il a passé ses dernières années à errer dans le monde primitif, apprenant aux hommes à résister aux ténèbres. Avec ses derniers mots, \"Ne craignez aucun mal\", la couronne a été transmise à son successeur.", "_t")
 t("lower the helmet's visor, blinding yourself (and protecting from other blinds) for 6 turns. If the helmet is taken off, the effect will end early.", "abaisser la visière du casque, vous aveuglant(et vous protégeant des autres aveuglements) pendant 6 tours. Si le casque est enlevé, l'effet se termine prématurément.", "tformat")
@@ -15603,69 +15603,50 @@ No, NO! I have - I --- acci--- pain, such pa--______
 ------------------------------------------------
 section "mod-tome/data/lore/misc.lua"
 
-t("letter to Rolf (3)", "lettre à Rolf (3)", "_t")
-t("letter to Weisman (4)", "lettre à Weisman (4)", "_t")
-t("Last Will of Rolf", "Testament de Rolf", "_t")
-t("memories of Artelia Firstborn", "mémoires d'Artelia Firstborn", "_t")
-t("human myth of creation", "mythe de la création humaine", "_t")
-t("a logical analysis of creation, by philosopher Smythen", "une analyse logique de la création, par le philosophe Smythen", "_t")
-t("eyal", "Eyal", "newLore category")
-t("Tale of the Moonsisters", "L'histoire des Soeurs Lunes", "_t")
-t("ancient papyrus scroll", "ancien rouleau de papyrus", "_t")
-t("vault", "chambre forte", "newLore category")
-t("Mocking Note", "Note Moqueuse", "_t")
-t("Guard's Journal", "Journal d'un garde", "_t")
-t("Boss's Journal", "Journal du Chef", "_t")
-t("How to Summon a Phoenix", "Comment Invoquer un Phénix", "_t")
-t("magic", "magie", "newLore category")
-t("On Adventuring", "A l'aventure", "_t")
--- texte non traduit
---[==[
-t("temple of creation", "temple of creation", "newLore category")
-t("tract of destruction", "tract of destruction", "_t")
+t("temple of creation", "temple de la création", "newLore category")
+t("tract of destruction", "traité de destruction", "_t")
 t([[#{bold}#Tract of Destruction#{normal}#
 
 Though armies would fall before the Spellblaze's might, though forests were razed and the skies bled red with fire, they always felt that the earth would endure. It seemed eternal, unmoving. Not even the fury of the Spellblaze could hope to destroy it.
 
 How wrong they were. The Nalorën people, long secluded, were prepared to fend off any attacks on their land, but how could they hope to stop the land itself crumbling? Seeing their home literally tearing itself apart, plains and forests tumbling into the seas... For one brief, terrible moment, they beheld the true extent of the Spellblaze's power. Not only was it destroying the people of the world, but the world itself.
 
-The lands of the Nalorën had sunk beneath the waves.]], [[#{bold}#Tract of Destruction#{normal}#
+The lands of the Nalorën had sunk beneath the waves.]], [[#{bold}#Traité de Destruction#{normal}#
 
-Though armies would fall before the Spellblaze's might, though forests were razed and the skies bled red with fire, they always felt that the earth would endure. It seemed eternal, unmoving. Not even the fury of the Spellblaze could hope to destroy it.
+Bien que des armées entières aient succombé à la puissance de la Brûlure Magique, que des forêts entières aient été consumées et que le ciel se soit teinté d'un rouge profond sous l'effet des flammes, ils ont toujours cru que leur terre survivrait. Elle semblait éternelle, immuable. Même la fureur de la Brûlure Magique ne pouvait la détruire.
 
-How wrong they were. The Nalorën people, long secluded, were prepared to fend off any attacks on their land, but how could they hope to stop the land itself crumbling? Seeing their home literally tearing itself apart, plains and forests tumbling into the seas... For one brief, terrible moment, they beheld the true extent of the Spellblaze's power. Not only was it destroying the people of the world, but the world itself.
+Comme ils se trompaient ! Le peuple Nalorën, longtemps isolé, s'était préparé à se défendre contre toute attaque mais comment empêcher la terre elle-même de s'effondrer ? Voyant leur foyer se briser littéralement, les plaines et les forêts s'enfonçant dans les mers, ils prirent conscience l'espace d'un instant de la véritable étendue du pouvoir de la Brûlure Magique. Elle n'exterminait pas seulement les habitants du monde, mais dévastait le monde lui-même.
 
-The lands of the Nalorën had sunk beneath the waves.]], "_t")
-t("tract of anarchy", "tract of anarchy", "_t")
+Les terres de Nalorën sombrèrent sous les flots.]], "_t")
+t("tract of anarchy", "traité d'anarchie", "_t")
 t([[#{bold}#Tract of Anarchy#{normal}#
 
 For the years following the cataclysm, chaos reigned. Their culture, their way of life, it was as broken and fractured as the land itself. Nalorë civilisation was reduced to a few isolated and feeble settlements, scratching out meagre existences as land, mind and body was warped in both shape and spirit.
 
 Faced with the idea of their great race failing – another victim of the Spellblaze, a footnote in the annals of history – impassioned pleas were sent to their elven brothers: The Shalorën, the Thalorën. Aid was even requested from human and halfling, embroiled in their own petty squabbles as they were.
 
-The Nalorën received no answer.]], [[#{bold}#Tract of Anarchy#{normal}#
+The Nalorën received no answer.]], [[#{bold}#Traité d'Anarchie#{normal}#
 
-For the years following the cataclysm, chaos reigned. Their culture, their way of life, it was as broken and fractured as the land itself. Nalorë civilisation was reduced to a few isolated and feeble settlements, scratching out meagre existences as land, mind and body was warped in both shape and spirit.
+Durant les années qui suivirent le cataclysme, le chaos régna en maître. Leur culture, leur mode de vie, étaient aussi fragmentés et fracturés que la terre elle-même. La civilisation de Nalorë se réduisit à quelques fragiles et isolés villages survivant à peine, tandis que la terre l'esprit et le corps étaient déformés tant physiquement que spirituellement.
 
-Faced with the idea of their great race failing – another victim of the Spellblaze, a footnote in the annals of history – impassioned pleas were sent to their elven brothers: The Shalorën, the Thalorën. Aid was even requested from human and halfling, embroiled in their own petty squabbles as they were.
+Face à la possibilité que leur grand peuple succombe – une victime de plus de la Brûlure Magique, une simple note de bas de page dans les annales de l'histoire – des appels passionnés furent adressés à leurs frères elfes : les Shalorën et les Thalorën. Même les humains et les hobbits, englués dans leurs propres querelles mesquines, furent sollicités.
 
-The Nalorën received no answer.]], "_t")
-t("tract of acceptance", "tract of acceptance", "_t")
+Cependant, les Nalorën ne reçurent aucune réponse.]], "_t")
+t("tract of acceptance", "Traité de l'acceptation", "_t")
 t([[#{bold}#Tract of Acceptance#{normal}#
 
 Betrayed by the Shalorën, wilful and destructive, and the Thalorën, aloof and suspicious, a long, seething silence fell over the remaining Nalorën people. It was during this period of grim introspection that salvation was suddenly and unexpectedly granted. The ancient Sher'Tul magicks, long pondered over by the land's mystics, would bear fruit at last.
 
-The same force that destroyed the Nalorën would save them. Through the Sher'Tul's magic, the Nalorën became able to breathe water as if it was air. Their bodies became adapted for existence under the waves, their legs becoming long, snake-like tails. Such drastic metamorphosis would naturally cause horror, you may expect. However, the Nalorën saw the possibilities their new forms provided: Their sunken lands were their own once again. Their homes would be rebuilt, their civilisation reborn. Nalorën no more, the denizens of the sunken kingdom would come to be known as 'nagas'...]], [[#{bold}#Tract of Acceptance#{normal}#
+The same force that destroyed the Nalorën would save them. Through the Sher'Tul's magic, the Nalorën became able to breathe water as if it was air. Their bodies became adapted for existence under the waves, their legs becoming long, snake-like tails. Such drastic metamorphosis would naturally cause horror, you may expect. However, the Nalorën saw the possibilities their new forms provided: Their sunken lands were their own once again. Their homes would be rebuilt, their civilisation reborn. Nalorën no more, the denizens of the sunken kingdom would come to be known as 'nagas'...]], [[#{bold}#Traité de l'acceptation#{normal}#
 
-Betrayed by the Shalorën, wilful and destructive, and the Thalorën, aloof and suspicious, a long, seething silence fell over the remaining Nalorën people. It was during this period of grim introspection that salvation was suddenly and unexpectedly granted. The ancient Sher'Tul magicks, long pondered over by the land's mystics, would bear fruit at last.
+Trahis par les Shalorën, obstinés et destructeurs, et les Thalorën, indifférents et méfiants, un long et pesant silence s'abattit sur le peuple Nalorën survivant. C'est durant cette sombre période d'introspection que le salut survint soudainement et inopinément. Les magies ancestrales des Sher'Tul, longtemps contemplées par les mystiques de ces terres, allaient enfin porter leurs fruits.
 
-The same force that destroyed the Nalorën would save them. Through the Sher'Tul's magic, the Nalorën became able to breathe water as if it was air. Their bodies became adapted for existence under the waves, their legs becoming long, snake-like tails. Such drastic metamorphosis would naturally cause horror, you may expect. However, the Nalorën saw the possibilities their new forms provided: Their sunken lands were their own once again. Their homes would be rebuilt, their civilisation reborn. Nalorën no more, the denizens of the sunken kingdom would come to be known as 'nagas'...]], "_t")
-t("personal note (Slasul)", "personal note (Slasul)", "_t")
+La même force qui avait anéanti les Nalorën allait désormais les sauver. Grâce à la magie des Sher'Tul, les Nalorën apprirent à respirer sous l'eau comme s'il s'agissait d'air. Leurs corps s'adaptèrent à la vie sous les flots et leurs jambes se transformèrent en longues queues serpentines. Bien que cette métamorphose radicale ait naturellement suscité la terreur, les Nalorën entrevoyèrent les possibilités offertes par leur nouvelle forme : leurs terres submergées leur appartiendraient à nouveau. Leurs foyers seraient reconstruits et leur civilisation renaîtrait. N'étant plus Nalorën, les habitants du royaume englouti furent désormais connus sous le nom de "nagas"...]], "_t")
+t("personal note (Slasul)", "note personnelle (Slasul)", "_t")
 t([[At long last, the temple finally reveals its secrets to me, and my plans can be set in motion. Lithe in form, faultless in combat, unmatched in speed both above the waves and beneath... nature couldn't have hoped to create such a race as nagas. With the Temple of Creation now open to me however, we may become so much more. With my guidance, my careful shaping of the Sher'Tul's magicks, under my expert hand our great race shall soon reach its zenith. A new tract shall soon be written: The Tract of the Devourer.
-]], [[At long last, the temple finally reveals its secrets to me, and my plans can be set in motion. Lithe in form, faultless in combat, unmatched in speed both above the waves and beneath... nature couldn't have hoped to create such a race as nagas. With the Temple of Creation now open to me however, we may become so much more. With my guidance, my careful shaping of the Sher'Tul's magicks, under my expert hand our great race shall soon reach its zenith. A new tract shall soon be written: The Tract of the Devourer.
-]], "_t")
-t("adventures", "adventures", "newLore category")
-t("letter to Rolf (1)", "letter to Rolf (1)", "_t")
+]], "Enfin, le temple me dévoile ses secrets et mes plans peuvent se mettre à exécution. Silhouette élancée, armes de combat irréprochables, vitesse inégalée aussi bien à la surface que sous l'eau... la nature n'aurait pu imaginer une race comme les nagas. À présent, le Temple de la Création m'étant ouvert, nous pouvons atteindre une grandeur encore plus grande. Sous ma direction et grâce à la maîtrise de la magie des Sher'Tul, notre race atteindra bientôt son apogée. Une nouvelle voie s'ouvrira : la Voie du Dévoreur.", "_t")
+t("adventures", "aventures", "newLore category")
+t("letter to Rolf (1)", "lettre à Rolf (1)", "_t")
 t([[Dear Rolf,
 
 I hope this letter finds you well. I must apologise for this recent dry spell in our communication; my adventures across Maj'Eyal have taken many exciting and perilous turns as of late. What turns do I speak of, you ask? I know how you delight in reading the accounts of my exploits, so I shall waste no further time on this pre-amble.
@@ -15675,17 +15656,15 @@ Imagine, if you will, a wolf. Imagine a beastly wolf, a wolf with strength, fero
 And indeed, would there have been much glory in killing such a creature? True, I would have had enough to fur to line each and every boot and hat in Derth, but legends must live on. They are what give this world its very spirit!
 
 With eager anticipation for your reply,
-Weisman]], [[Dear Rolf,
+Weisman]], [[Cher Rolf,
 
-I hope this letter finds you well. I must apologise for this recent dry spell in our communication; my adventures across Maj'Eyal have taken many exciting and perilous turns as of late. What turns do I speak of, you ask? I know how you delight in reading the accounts of my exploits, so I shall waste no further time on this pre-amble.
+J'espère que cette lettre vous parviendra. Je dois m'excuser pour le manque de nouvelles ces derniers temps ; mes aventures à Maj'Eyal ont pris des tournures palpitantes et périlleuses. Vous vous demandez sans doute de quels rebondissements il s'agit. Puisque vous prenez plaisir à lire le récit de mes exploits, je ne m'attarderai pas davantage sur ce préambule.
 
-Imagine, if you will, a wolf. Imagine a beastly wolf, a wolf with strength, ferocity and a lust for flesh matching that of an entire pack of its lesser kind. You too may have some small experience with these "wargs" as the locals are wont to call them. Now... imagine one the size of a bear. Truly, as I travelled the lands surrounding Derth did I come across such a monstrous, awe-inspiring, lupine adversary. With fangs of a length to match my own blade, I entered combat against this lupine lord and its skulking brood. To my regret I failed in slaying the beast, but I assure you - simply surviving against such feral rage is an honour worthy of recognition and renown.
+Imaginez, si vous le pouvez, un loup. Un loup bestial, doté d'une force, d'une férocité et d'une envie de viande équivalentes à celles d'une meute entière de son espèce inférieure. Vous avez peut-être déjà croisé ces "wargs", comme les appellent souvent les habitants. Maintenant... imaginez-en un de la taille d'un ours. En effet, lors de mon voyage à travers les terres autour de Derth, j'ai rencontré un adversaire lupin si monstrueux et si impressionnant. Avec des crocs aussi longs que ma propre lame, j'ai affronté ce seigneur lupin et sa sournoise progéniture. À mon grand regret je n'ai pas réussi à terrasser la bête, mais je vous assure que le simple fait d'avoir survécu à cette fureur féroce est un honneur digne de reconnaissance et de renommée. Et en effet y aurait-il de la gloire à éliminer une telle créature ? Certes j'aurais assez de peaux pour garnir toutes les bottes et tous les chapeaux de Derth, mais les légendes doivent perdurer. Elles sont ce qui donne à ce monde son âme !
 
-And indeed, would there have been much glory in killing such a creature? True, I would have had enough to fur to line each and every boot and hat in Derth, but legends must live on. They are what give this world its very spirit!
-
-With eager anticipation for your reply,
+J'attends votre réponse avec impatience.
 Weisman]], "_t")
-t("letter to Weisman (1)", "letter to Weisman (1)", "_t")
+t("letter to Weisman (1)", "lettre à Weisman (1)", "_t")
 t([[Dear Weisman,
 
 Ah! What feelings your last letters inspired within me... primarily mirth, with a good amount of scorn! Must you continuously assail me with tale after tale of your waving of wooden swords and pestering of toothless mongrels? Allow me to recount your "legends" in a much more succinct manner: One day, I failed to kill a dog. Such bravery! Such pluck and derring-do!
@@ -15694,16 +15673,16 @@ Your petty escapades are made ever more insignificant by the trials I myself hav
 
 And yet I live. Weisman, I sincerely hope that my letter has revealed to you your folly. Only when you have faced true danger can you call yourself an adventurer. Bore me with your tales no longer.
 
-Rolf]], [[Dear Weisman,
+Rolf]], [[Cher Weisman,
 
-Ah! What feelings your last letters inspired within me... primarily mirth, with a good amount of scorn! Must you continuously assail me with tale after tale of your waving of wooden swords and pestering of toothless mongrels? Allow me to recount your "legends" in a much more succinct manner: One day, I failed to kill a dog. Such bravery! Such pluck and derring-do!
+Ah ! Que de sentiments vos dernières lettres ont suscités en moi... surtout de la jubilation, mêlée d'un bon soupçon de mépris ! Avez-vous vraiment besoin de me harceler sans cesse avec vos histoires d'épées de bois et de vos chiens édentés ? Permettez-moi de vous raconter vos "légendes" de façon bien plus concise : un jour, je n'ai pas réussi à tuer un chien. Quel courage ! Quelle audace !
 
-Your petty escapades are made ever more insignificant by the trials I myself have recently overcome. Mere days ago I was trekking through the Old Forest (that's outside Derth, Weisman! Terror must already grip you!) when, by unfortunate happenstance, I came across a most hideous, bloated, oozing and chittering horror! No less than the giant ants' repulsive progenitor! Such hordes of frenzied chitinous young it had at its command, it was as though the ground itself was swarming forward to devour me!
+Vos petites escapades paraissent bien insignifiantes face aux épreuves que je viens de surmonter. Il y a quelques jours, alors que je me promenais dans la Vieille Forêt (c'est aux abords de Derth, Weisman ! La terreur doit déjà vous gagner !), j'ai fait la rencontre, par un malheureux hasard, d'une créature hideuse, boursouflée, visqueuse, et croassante ! Nul autre que l'ancêtre répugnant des fourmis géantes ! Avec des hordes de descendants chitineux enragés à ses ordres, j'avais l'impression que la terre elle-même se rassemblait pour me dévorer !
 
-And yet I live. Weisman, I sincerely hope that my letter has revealed to you your folly. Only when you have faced true danger can you call yourself an adventurer. Bore me with your tales no longer.
+Et pourtant, je suis vivant. Weisman, j'espère sincèrement que cette lettre a mis en lumière votre stupidité. Ce n'est qu'en affrontant un véritable danger que l'on peut se prétendre aventurier. Ne me dérangez plus avec vos histoires.
 
 Rolf]], "_t")
-t("letter to Rolf (2)", "letter to Rolf (2)", "_t")
+t("letter to Rolf (2)", "lettre à Rolf (2)", "_t")
 t([[Dear Rolf the Antslayer,
 
 Ha! Such trials you have overcome! Forget dragons and demons, here we have a hero who has survived against ants! I shall deliver this joyous news to Last Hope with all haste - perhaps there shall be a parade in your honour!
@@ -15713,17 +15692,17 @@ I hope you registered the sarcasm in my previous words, but I obviously cannot e
 Such a magnificent sight! With wings of fire, leaving the air itself hissing and smouldering in its wake, I could only watch with rapt amazement as it alighted on a rocky outcrop mere yards away from me, the stone beneath its talons warping from its tremendous heat. It was at that moment, Rolf, that I realised that this was what being an adventurer was about - there is always more in this world of ours to amaze and astonish us.
 
 Learn from my experiences,
-Weisman]], [[Dear Rolf the Antslayer,
+Weisman]], [[Cher Rolf destructeur des fourmis,
 
-Ha! Such trials you have overcome! Forget dragons and demons, here we have a hero who has survived against ants! I shall deliver this joyous news to Last Hope with all haste - perhaps there shall be a parade in your honour!
+Ah ! Quelles épreuves vous avez surmontées ! Oubliez les dragons et les démons ; voici un héros qui a survécu aux fourmis ! Sans aucun doute, je porterai cette joyeuse nouvelle à Dernier Espoir sans délai – peut-être même qu'un défilé sera organisé en votre honneur !
 
-I hope you registered the sarcasm in my previous words, but I obviously cannot expect much from one who struggles with insects. Allow me to share with you knowledge of a beast rather more fitting for a true adventurer to behold. My travels had taken me south, and as I walked one night along an abandoned mountain pass, imagining what treasures and trials the next day may bring, a brilliant light filled my vision! I stood in its radiance, the land around me illuminated so that it almost appeared to be in broad daylight, and that was when I saw it.
+J'espère que vous avez saisi le sarcasme dans mes propos précédents, mais je ne peux pas attendre grand-chose de quelqu'un qui combat des insectes. Permettez-moi de vous faire part de la connaissance d'une créature plus digne d'un véritable aventurier. Mes voyages m'ont mené vers le sud, et alors que je traversais un col de montagne désert par une nuit paisible, imaginant les trésors et les épreuves que le lendemain me réservait, une lumière éclatante a illuminé mon champ de vision ! Je me suis tenu devant son éclat, la terre autour de moi illuminée comme en plein jour, et c'est alors que je l'ai vue.
 
-Such a magnificent sight! With wings of fire, leaving the air itself hissing and smouldering in its wake, I could only watch with rapt amazement as it alighted on a rocky outcrop mere yards away from me, the stone beneath its talons warping from its tremendous heat. It was at that moment, Rolf, that I realised that this was what being an adventurer was about - there is always more in this world of ours to amaze and astonish us.
+Quel spectacle magnifique ! Avec ses ailes de feu, laissant derrière lui un sifflement et une fumée épaisse, je contemplais, fasciné et extatique, l'engin se poser sur un affleurement rocheux à quelques mètres de moi. La pierre sous ses griffes se déformait sous l'effet de sa chaleur intense. C'est à cet instant, Rolf, que j'ai compris qu'être aventurier, c'est précisément cela : être toujours surpris et émerveillé par ce monde qui nous réserve encore bien des surprises.
 
-Learn from my experiences,
+Tire les leçons de mon expérience.
 Weisman]], "_t")
-t("letter to Weisman (2)", "letter to Weisman (2)", "_t")
+t("letter to Weisman (2)", "lettre à Weisman (2)", "_t")
 t([[Dearest Weisman,
 
 Sorry to cut your birdwatching session short, but I must bring this badinage to an end. I have tolerated your ridiculous pomposity and false heroics long enough. At first, I took your over-inflated tales of bothering local wildlife with good humour but now I realise, with dread, that you are sincere; you believe your pathetic wanderings to be the stuff of legend.
@@ -15731,15 +15710,15 @@ Sorry to cut your birdwatching session short, but I must bring this badinage to 
 Well, no more. We shall meet seven days from now in Derth's town square. Come prepared for travel. The number of rumours claiming that a monster has taken up residence within the ruins just north of town have grown to the point where they cannot be considered rumours anymore. You shall come with me, face this creature alongside me, and experience intimately the vast difference between your skills and my own. If we're lucky, you will learn this lesson unscathed, but I fear that such a trial may cost you a limb or two.
 
 Prepare yourself, if you've the courage,
-Rolf]], [[Dearest Weisman,
+Rolf]], [[Mon très cher Weisman,
 
-Sorry to cut your birdwatching session short, but I must bring this badinage to an end. I have tolerated your ridiculous pomposity and false heroics long enough. At first, I took your over-inflated tales of bothering local wildlife with good humour but now I realise, with dread, that you are sincere; you believe your pathetic wanderings to be the stuff of legend.
+Excusez-moi de vous interrompre dans votre observation des oiseaux, mais il est temps d'en finir avec ces bavardages inutiles. J'ai toléré votre ridicule suffisance et votre faux héroïsme bien trop longtemps. Au début, j'acceptais avec amusement vos récits exagérés des difficultés de la faune locale, mais je réalise maintenant, avec effroi, que vous êtes sincère ; vous croyez vraiment que vos pitoyables aventures sont dignes de légende.
 
-Well, no more. We shall meet seven days from now in Derth's town square. Come prepared for travel. The number of rumours claiming that a monster has taken up residence within the ruins just north of town have grown to the point where they cannot be considered rumours anymore. You shall come with me, face this creature alongside me, and experience intimately the vast difference between your skills and my own. If we're lucky, you will learn this lesson unscathed, but I fear that such a trial may cost you a limb or two.
+Eh bien, c'est terminé. Nous nous retrouverons dans sept jours sur la place de Derth. Préparez-vous pour le voyage. Les rumeurs concernant un monstre qui a élu domicile dans les ruines au nord de la ville sont devenues si nombreuses qu'on ne peut plus les ignorer. Vous viendrez avec moi, affronterez cette créature à mes côtés et constaterez par vous-même l'immense différence entre vos capacités et les miennes. Si nous avons de la chance vous en sortirez indemne, mais je crains que cette épreuve ne vous coûte un membre ou deux.
 
-Prepare yourself, if you've the courage,
+Préparez-vous, si vous l'osez.
 Rolf]], "_t")
-t("letter to Weisman (3)", "letter to Weisman (3)", "_t")
+t("letter to Weisman (3)", "lettre à Weisman (3)", "_t")
 t([[Weisman,
 
 The tentacles. I still remember them. They have lashed into my mind as they lashed into my flesh. How can nature abide such a... a... being in her realm? What dark plane of existence could it have been born from? How can creation itself tolerate such an aberration?!
@@ -15751,14 +15730,14 @@ Rest easy, brother. It may have taken your eye, but think of what else it could 
 Make sure you write the words on your next letter nice and big,
 Rolf]], [[Weisman,
 
-The tentacles. I still remember them. They have lashed into my mind as they lashed into my flesh. How can nature abide such a... a... being in her realm? What dark plane of existence could it have been born from? How can creation itself tolerate such an aberration?!
+Les tentacules. Leur souvenir hante encore mon esprit, le pénétrant comme ils ont pénétré ma chair. Comment la nature peut-elle tolérer un tel être en son sein ? De quel plan d'existence obscur a-t-il pu naître ? Comment la création elle-même peut-elle tolérer une telle abomination ?
 
-How did we survive? I have no clue. All I can remember is pain, and panic, and fear. All I could think of was getting away, fleeing... to my shame, all other thoughts left me. Thoughts of you, home, the world... all I could do was keep hacking away at the... things between myself and freedom. Perhaps that is why it didn't... no. I shall not think on it. The beast is certain to fill my nightmares tonight, I won't allow it to fill my waking thoughts.
+Comment avons-nous réussi à survivre ? Je n'en ai pas la moindre idée. Je ne me souviens que de la douleur, de la panique et de la peur. La seule chose qui occupait mes pensées était l'envie de m'échapper, de fuir... À ma honte, toutes les autres pensées m'ont abandonné. Pensées à toi, à notre foyer, au monde... Tout ce que je pouvais faire, c'était continuer à trancher les obstacles qui me séparaient de la liberté. C'est peut-être pour cela que je ne... Non, je ne peux pas me laisser emporter par lui. La bête hantera sûrement mes cauchemars cette nuit, mais je ne la laisserai pas consumer mes pensées à mon réveil.
 
-Rest easy, brother. It may have taken your eye, but think of what else it could have taken. Anyway, I shall be leaving for the tavern soon. Maybe I can drown the images of that monster in a sea of ale.
+Rassure-toi, mon frère. Elle t'a peut-être pris un oeil, mais pense à tout ce qu'elle aurait pu te prendre d'autre. En tout cas, j'irai bientôt à la taverne. Peut-être pourrai-je noyer les souvenirs de ce monstre dans un océan de bière.
 
-Make sure you write the words on your next letter nice and big,
-Rolf]], "_t")
+N'oublie pas d'écrire les mots de ta prochaine lettre en grands et beaux caractères.Rolf]], "_t")
+t("letter to Rolf (3)", "lettre à Rolf (3)", "_t")
 t([[Rolf,
 
 I can't remember anything from the fight save the sheer terror at being near something so horrid and powerful. There is no shame in running from a foe you cannot possibly hope to defeat, is there? Maybe ale from the tavern is a good idea, but maybe it is better to conquer your fear once and for all... I hope you can forgive me, but I must defeat this monster, if it takes me the rest of my life.
@@ -15767,11 +15746,12 @@ Wishing you and your ale a hearty good-bye,
 
 Weisman.]], [[Rolf,
 
-I can't remember anything from the fight save the sheer terror at being near something so horrid and powerful. There is no shame in running from a foe you cannot possibly hope to defeat, is there? Maybe ale from the tavern is a good idea, but maybe it is better to conquer your fear once and for all... I hope you can forgive me, but I must defeat this monster, if it takes me the rest of my life.
+Je ne me souviens de rien du combat, si ce n'est de la terreur absolue d'être si près d'une créature si horrible et si puissante. Il n'y a pas de honte à fuir un ennemi qu'on ne peut vaincre, n'est-ce pas ? Une bière à la taverne est peut-être une bonne idée, mais affronter sa peur une bonne fois pour toutes serait sans doute encore mieux... J'espère que vous pourrez me pardonner, mais je dois vaincre ce monstre, même si cela doit me consumer pour le restant de mes jours.
 
-Wishing you and your ale a hearty good-bye,
+Je vous souhaite, à vous et à votre bière, une bonne continuation.
 
 Weisman.]], "_t")
+t("letter to Weisman (4)", "lettre à Weisman (4)", "_t")
 t([[Weisman,
 
 By my ancestors' profits I hope you receive this message in good health and spirits. Please, old friend - there is no need to impress upon me your valour, I know full well how courageous you are. Please, do not go after that... that thing! If I must drag you away physically, that is what I shall do, but I beg of you, please, consider another foe to fight!
@@ -15780,19 +15760,21 @@ Your friend,
 
 Rolf.]], [[Weisman,
 
-By my ancestors' profits I hope you receive this message in good health and spirits. Please, old friend - there is no need to impress upon me your valour, I know full well how courageous you are. Please, do not go after that... that thing! If I must drag you away physically, that is what I shall do, but I beg of you, please, consider another foe to fight!
+Pour le bien de mes ancêtres, j'espère que vous recevrez ce message en pleine forme. Mon vieil ami, inutile de m'impressionner par votre courage ; je sais déjà combien vous êtes brave. Ne poursuivez pas cette... chose ! S'il faut que je vous y emmène de force, je le ferai, mais je vous en prie pensez à combattre un autre ennemi !
 
-Your friend,
+Votre ami,
 
 Rolf.]], "_t")
+t("Last Will of Rolf", "Testament de Rolf", "_t")
 t([[Last Will and Testament of Rolf Two-Axes
 
 I have failed. Oh by the great wyrm's maw, I have failed! The beast Weisman set out to slay was dead already by another's hand, but its corruption remained still. When I arrived in its chamber, Weisman was already half-gone; he was hacking away at foes only he could see. When I tried to stop him, he turned his axe on me... I am beaten and broken, hiding in some crevasse away from... from my own friend, who through the corruption in this place has been perverted into a monstrosity my axes were unable to fell. I hold no doubt that this is the last time I shall put quill to parchment, as even now I can hear my old friend's perverted voice.. calling to me. I bequeathe my belongings to any who slay ...
-#{italic}#(the ink blotch seems to indicate Weisman had caught up to his old friend, one-half of that abomination)#{normal}#]], [[Last Will and Testament of Rolf Two-Axes
+#{italic}#(the ink blotch seems to indicate Weisman had caught up to his old friend, one-half of that abomination)#{normal}#]], [[Utilme testament de Rolf les deux-haches
 
-I have failed. Oh by the great wyrm's maw, I have failed! The beast Weisman set out to slay was dead already by another's hand, but its corruption remained still. When I arrived in its chamber, Weisman was already half-gone; he was hacking away at foes only he could see. When I tried to stop him, he turned his axe on me... I am beaten and broken, hiding in some crevasse away from... from my own friend, who through the corruption in this place has been perverted into a monstrosity my axes were unable to fell. I hold no doubt that this is the last time I shall put quill to parchment, as even now I can hear my old friend's perverted voice.. calling to me. I bequeathe my belongings to any who slay ...
-#{italic}#(the ink blotch seems to indicate Weisman had caught up to his old friend, one-half of that abomination)#{normal}#]], "_t")
-t("myths of creation", "myths of creation", "newLore category")
+J'ai échoué. Oh, par la gueule du grand serpent, j'ai échoué ! La créature que Weisman s'était donné pour mission d'éliminer était déjà morte, entre les mains d'un autre, mais sa corruption demeurait intacte. Quand je suis arrivé dans la chambre, Weisman était déjà à l'agonie ; il luttait contre des ennemis invisibles à ses yeux. Quand j'ai tenté de l'arrêter, il a retourné sa hache contre moi... Je suis brisé et vaincu, caché dans une crevasse, loin de... de mon ami, qui, sous l'emprise de la corruption de ce lieu, s'est transformé en une monstruosité que mes haches n'ont pu abattre. Je n'ai aucun doute : c'est la dernière fois que j'écris, car même maintenant j'entends la voix déformée de mon vieil ami... qui m'appelle. Je lègue mes biens à celui qui parviendra à me tuer...
+#{italic}# (La tache d'encre semble indiquer que Weisman a rattrapé son vieil ami, la moitié de cette abomination.)#{normal}#]], "_t")
+t("myths of creation", "Les mythes de la création", "newLore category")
+t("memories of Artelia Firstborn", "mémoires d'Artelia la Première-Née", "_t")
 t([[#{italic}#This scroll looks ancient, possibly going back millennia, but has been incredibly well-preserved.#{normal}#
 
 I remember when I first woke, and I drew my first breath, and the fresh young air of the world filled me with vitality. I opened my eyes, and above me stood a figure of outstanding radiance. She was tall and slim, crowned in silver hair that fell to the ground in silken tresses. Her skin was pale to the point of luminance, and her eyes were brighter than the stars.
@@ -15805,19 +15787,20 @@ As she finished speaking I instantly fell into a trance, and when I awoke I saw 
 
 Times passed and changed, and other creatures were found, and oft they were fell and vile and we did war with them. Then we found the Sher'Tul, and they delighted in our beauty, and taught us the ways of the Arts. And then the War came, and some of us helped them in their battles, but soon we saw we had no place beside such masters, and we retreated to the woods as the War raged to its catastrophic conclusion.
 
-In all those centuries I still searched for the woman and found no trace. I know that the gods were all hunted down, and I remember the thorough searches of the Sher'Tul in their holy war. I grow old now, and some of those who first woke with me have passed away, and each passing night seem ever colder and lonelier. But still at times when I lie asleep I see her face or I hear her voice, and I know that one day, somehow, I will see her again.]], [[#{italic}#This scroll looks ancient, possibly going back millennia, but has been incredibly well-preserved.#{normal}#
+In all those centuries I still searched for the woman and found no trace. I know that the gods were all hunted down, and I remember the thorough searches of the Sher'Tul in their holy war. I grow old now, and some of those who first woke with me have passed away, and each passing night seem ever colder and lonelier. But still at times when I lie asleep I see her face or I hear her voice, and I know that one day, somehow, I will see her again.]], [[#{italic}#Ce rouleau semble très ancien, datant peut-être de plusieurs millénaires, mais il a été incroyablement bien conservé.#{normal}#
 
-I remember when I first woke, and I drew my first breath, and the fresh young air of the world filled me with vitality. I opened my eyes, and above me stood a figure of outstanding radiance. She was tall and slim, crowned in silver hair that fell to the ground in silken tresses. Her skin was pale to the point of luminance, and her eyes were brighter than the stars.
+Je me souviens de mon réveil, de ma première inspiration, de cette sensation d'air frais et vivifiant qui m'emplissait de vitalité. J'ouvris les yeux et, au-dessus de moi se tenait une silhouette d'une beauté extraordinaire. Grande et élancée, elle était coiffée de cheveux argentés qui tombaient doucement jusqu'au sol. Sa peau était si pâle qu'elle semblait presque lumineuse, et ses yeux brillaient plus fort que les étoiles.
 
-I watched her for what felt like a century, and she watched me, and I saw tears form in her eyes. I did not have a voice yet, but I thought, "Why does she look so sad?" And I felt then her reply in my thoughts, "For you are beautiful, and far more beautiful than all else in the world. But this is a world of pain and sorrow, and I cannot bear to think of my creation come to harm. I will give you strength to endure many years, and a voice to express all desires, but the burden of sadness will follow you forever. At that thought I weep..."
+Je la contemplai pendant ce qui me parut une éternité, et elle me regarda en retour les larmes aux yeux. Bien que je n'aie pas encore de voix, je me demandai : "Pourquoi a-t-elle l'air si triste ?" Alors, j'ai senti sa réponse en moi : "Parce que tu es belle, bien plus belle que tout au monde. Mais ce monde est plein de douleur et de chagrin, et je ne peux supporter l'idée que ma création puisse souffrir. Je te donnerai la force d'endurer de longues années et une voix pour exprimer tous tes désirs, mais le fardeau du chagrin t'accompagnera à jamais. À cette pensée, je pleure..."
 
-I felt then strength come into my limbs, and a voice rise in my throat. I rose to the ground and I looked around, and in awe of the world around me and the stars above me I sang loudly for joy. And the woman smiled as she heard my voice, and her tears stopped, so I continued to sing for a while to entertain her. But then I said, "Am I alone?" She nodded, and said, "There are no others like you." At this I felt sad, and she could see the loneliness in my heart. She seemed to hesitate a moment, and said, "Though it pains me, I cannot deny your desires. You will sleep now, and when you awaken you will be among people like yourself, and you will walk out into this broken world and try to mend it."
+J'ai senti la force me parcourir et une voix monter de ma gorge. Je me suis levée, émerveillée par le monde qui m'entourait et les étoiles au-dessus de moi, et j'ai chanté avec une immense joie. La femme a souri à ma voix et ses larmes ont cessé. J'ai continué à chanter un moment, voulant la divertir. Puis j'ai demandé : "Suis-je seule ?" Elle a hoché la tête et a répondu : "Il n'y a personne d'autre comme toi." Sa réponse a empli mon coeur de tristesse, et elle a perçu la solitude qui me consumait. Elle hésita un instant, puis dit : "Bien que cela me peine, je ne peux pas refuser tes souhaits. Tu vas dormir maintenant, et à ton réveil, tu seras parmi des gens comme toi. Tu parcourras ce monde brisé et tenteras de le réparer."
 
-As she finished speaking I instantly fell into a trance, and when I awoke I saw the world had changed, and there was now a blazing light in the sky - it was the new-born Sun. And I saw all around dozens more people like me, and others similar in appearance but varying in traits and abilities. I woke them up, and gathered them together, and we all expressed delight in each other's being, and named ourselves Alor?. But the woman was gone, and no others knew anything about her, and my searches for any trace of her were in vain.
+Dès qu'elle eut fini de parler, je tombai instantanément en transe. À mon réveil, je constatai que le monde avait changé. Une lumière éclatante emplissait le ciel : c'était le Soleil naissant. Autour de moi, je vis des dizaines d'autres personnes comme moi mais avec des caractéristiques et des capacités différentes. Je les réveillai et les rassemblai, et nous exprimâmes tous notre joie de nous retrouver. Nous nous appelâmes Alor. Cependant la femme avait disparu, et personne ne savait où elle se trouvait. Mes recherches pour retrouver sa trace furent vaines.
 
-Times passed and changed, and other creatures were found, and oft they were fell and vile and we did war with them. Then we found the Sher'Tul, and they delighted in our beauty, and taught us the ways of the Arts. And then the War came, and some of us helped them in their battles, but soon we saw we had no place beside such masters, and we retreated to the woods as the War raged to its catastrophic conclusion.
+Le temps passa et le monde changea. De nouvelles créatures apparurent, souvent viles et cruelles, nous entraînant dans la guerre. C'est alors que nous rencontrâmes les Sher'Tul, qui, subjugués par notre beauté, nous enseignèrent les arts. Nous participâmes à quelques batailles à leurs côtés, mais comprîmes vite que nous n'avions pas notre place parmi de tels maîtres. Aussi, nous nous retirâmes dans la forêt tandis que la guerre s'achevait sur une fin catastrophique.
 
-In all those centuries I still searched for the woman and found no trace. I know that the gods were all hunted down, and I remember the thorough searches of the Sher'Tul in their holy war. I grow old now, and some of those who first woke with me have passed away, and each passing night seem ever colder and lonelier. But still at times when I lie asleep I see her face or I hear her voice, and I know that one day, somehow, I will see her again.]], "_t")
+Durant tous ces siècles, j'ai poursuivi ma quête de la femme, mais je n'ai trouvé aucune trace d'elle. Je me souviens des chasses acharnées menées par les Sher'Tul durant leur guerre sainte, et je sais que tous les dieux furent traqués. À présent, je vieillis et certains de ceux qui se sont éveillés avec moi sont déjà décédés. Chaque nuit qui passe me paraît plus froide et plus solitaire. Pourtant, parfois, en dormant, je vois son visage ou j'entends sa voix, et je sais que, d'une manière ou d'une autre, un jour je la reverrai.]], "_t")
+t("human myth of creation", "mythe de la création humaine", "_t")
 t([[At the start of time Sun was born, and Moons, and Eyal raised from the Darkness.
 And Gerlyk walked Eyal with his three brothers.
 But one day Gerlyk walked alone and realised he was alone, and he desired company.
@@ -15831,20 +15814,22 @@ And the brother with the water made a thin creature, and called it Elf.
 But Gerlyk's brothers grew jealous of each others creatures, and they fought, and they all were killed. And Elf cried and Dwarf cried and Halfling cried to see their creators fall.
 And Gerlyk was sad, and looked at Human and said, "I am sorry, but this is not a time for creators any more. I must go."
 And Gerlyk walked into the Darkness.
-But Human did not cry, for the coal in his heart burned hot, and he knew he was not truly alone.]], [[At the start of time Sun was born, and Moons, and Eyal raised from the Darkness.
-And Gerlyk walked Eyal with his three brothers.
-But one day Gerlyk walked alone and realised he was alone, and he desired company.
-So Gerlyk took a burning coal, and put stones around it, and wrapped it in earth, and bathed it in water and breathed his breath into it, and it became alive. And Gerlyk named it Human.
-Now Gerlyk brought Human back to his brothers to see.
-But Gerlyk's brothers were jealous and tore Human apart. One brother grabbed the stone, and one brother grabbed the earth, and one brother grabbed the water.
-Gerlyk was sad, but took the burning coal that was left and made a new Human.
-Then the brother with the earth copied him, but made a short creature, and called it Halfling.
-And the brother with the stone made a thick creature, and called it Dwarf.
-And the brother with the water made a thin creature, and called it Elf.
-But Gerlyk's brothers grew jealous of each others creatures, and they fought, and they all were killed. And Elf cried and Dwarf cried and Halfling cried to see their creators fall.
-And Gerlyk was sad, and looked at Human and said, "I am sorry, but this is not a time for creators any more. I must go."
-And Gerlyk walked into the Darkness.
-But Human did not cry, for the coal in his heart burned hot, and he knew he was not truly alone.]], "_t")
+But Human did not cry, for the coal in his heart burned hot, and he knew he was not truly alone.]], [[Au commencement des temps le Soleil et les Lunes naquirent, et Eyal surgit des Ténèbres.
+Gerlyk parcourait Eyal en compagnie de ses trois frères.
+Un jour, cependant, Gerlyk se rendit compte qu'il était seul et aspira à la compagnie.
+Alors il prit un charbon ardent, façonna une structure de pierres autour, l'enveloppa de terre, la baigna d'eau, et souffla sur sa création. Et ainsi, elle prit vie. Gerlyk la nomma Humain.
+Gerlyk présenta ensuite l'Humain à ses frères.
+Mais les frères de Gerlyk, rongés par l'envie, détruisirent la création. L'un d'eux s'empara de la pierre, un autre de la terre, et le troisième de l'eau.
+Gerlyk, attristé par la perte du premier Humain, prit le charbon ardent restant et créa un nouvel Humain.
+Ses frères tentèrent alors d'imiter la création de Gerlyk.
+Celui qui avait pris la terre façonna une petite créature qu'il appela Halfelin.
+Le frère qui contrôlait la pierre créa une créature corpulente qu'il appela Nain.
+Enfin, le frère qui possédait l'eau créa une créature élancée qu'il appela Elfe.
+Les frères de Gerlyk, rongés par l'envie, se battirent entre eux et périrent tous. L'Elfe, le Nain et le Halfelin pleurèrent en assistant à la chute de leurs créateurs.
+Gerlyk, accablé de chagrin, regarda l'Humain et déclara : "Je suis désolé, mais ce n'est plus le temps des créateurs. Je dois partir."
+Et Gerlyk s'éloigna dans les ténèbres.
+L'Humain, lui, ne pleura pas. La braise brûlant encore dans son coeur, il savait qu'il n'était pas vraiment seul.]], "_t")
+t("a logical analysis of creation, by philosopher Smythen", "une analyse logique de la création, par le philosophe Smythen", "_t")
 t([[Many are the tales of how our world was made, from the absurd to the romantic to the horrific. But they are all mere myths, with no more than seeds of truth to even the most reliable. The history of our race goes back far, but it is tantalisingly scant in details from before we met the other races. Indeed, it is only through our battles with the others that we halflings have any ancient records at all.
 
 The elves one would suspect of having the greatest knowledge of elder times, but they are aloof and silent. One must judge from this that either they do not know, or that the truth ashames them. The latter would certainly not surprise me.
@@ -15861,23 +15846,24 @@ Now that this has been clearly analysed in logical terms, one must consider the 
 
 However there remains the matter of the Sher'Tul. Clearly these were of greater power than us, and yet they disappeared. One must presume that our god made this race before us, but was somehow unhappy with them, and so removed them and made us instead. We are not as powerful as the Sher'Tul - not yet at least - but we have our own gifts that evidently give us a greater place in our creator's heart. This would explain why we were the first race to unlock the powers of the Sher'Tul farportals. We had a natural affinity to the works of our elder brethren.
 
-So what happened to these gods after they had made the races which we see today? One must presume strife between them, and that they killed themselves, or took their battle away from the world. Our creator, seeing the other gods killed or left, must have then entrusted the world to us halflings, knowing that we would rule over it in his stead. This is why at every point in history we have played a pivotal role in the shaping of our world. It is our rightful inheritance, and it is our duty to rule it well.]], [[Many are the tales of how our world was made, from the absurd to the romantic to the horrific. But they are all mere myths, with no more than seeds of truth to even the most reliable. The history of our race goes back far, but it is tantalisingly scant in details from before we met the other races. Indeed, it is only through our battles with the others that we halflings have any ancient records at all.
+So what happened to these gods after they had made the races which we see today? One must presume strife between them, and that they killed themselves, or took their battle away from the world. Our creator, seeing the other gods killed or left, must have then entrusted the world to us halflings, knowing that we would rule over it in his stead. This is why at every point in history we have played a pivotal role in the shaping of our world. It is our rightful inheritance, and it is our duty to rule it well.]], [[Il existe de nombreuses histoires sur la création de notre monde, des plus absurdes aux plus romantiques en passant par les plus terrifiantes. Pourtant toutes ne sont que des mythes ne recelant qu'une part de vérité, même les plus crédibles. L'histoire de notre espèce remonte à un passé lointain, mais elle est étonnamment avare de détails sur la période antérieure à notre rencontre avec les autres races. En réalité, c'est uniquement grâce à nos batailles contre ces races que nous, le petit peuple, avons pu accéder à des archives anciennes.
 
-The elves one would suspect of having the greatest knowledge of elder times, but they are aloof and silent. One must judge from this that either they do not know, or that the truth ashames them. The latter would certainly not surprise me.
+Les elfes, que l'on soupçonne de détenir le savoir le plus profond des temps anciens, restent indifférents et silencieux. On peut donc en conclure que soit ils ignorent tout, soit la vérité les effraie. Cette dernière hypothèse, sans aucun doute, ne me surprendrait pas.
 
-The humans have more myths than they have brain cells. It seems that each village has several versions of their own local tales, usually passed down orally over the ages. It is clear that not a single element of any of their myths can be construed to contain any essence of the truth.
+Les humains semblent avoir plus de mythes que de neurones. Chaque village possède plusieurs versions de ses propres légendes locales, généralement transmises oralement au fil du temps. Il est évident qu'aucun aspect de leurs mythes ne peut être interprété comme contenant la moindre once de vérité.
 
-The dwarves are reticent about the subject of how they were made. They say that such talk is "not profitable". However upon further pressing (and bribing) they will open up a little further. They as a race are of the most fervent belief that they were the last people to be made in Maj'Eyal. They say they are the "final product". Their word for all other races in fact translates directly to "prototype". This mostly singular outlook does of course seem absurd, but one need only look at the rest of dwarven society to see that they are an absurd race with ridiculous ideals. If they are what they consider perfection then I thank whatever god made me that I am flawed!
+Les nains, quant à eux, rechignent à parler de leur création. Ils prétendent que ce sujet "n'est pas profitable". Cependant, si on les pousse à bout (et qu'on les corrompt), ils se confient un peu plus. En tant que peuple, ils croient fermement être les derniers à avoir été créés à Maj'Eyal, se considérant comme le "produit final". Leur terme pour désigner toutes les autres races se traduit d'ailleurs littéralement par "prototype". Cette vision singulière est sans aucun doute absurde, et il suffit d'observer le reste de la société naine pour se rendre compte qu'il s'agit d'un peuple ridicule plein d'idéaux démesurés. Si c'est là la perfection à laquelle ils aspirent, je remercie le dieu qui m'a créé d'être imparfait !
 
-The subject of gods is of course a difficult one. Clearly there are no divine forces at work in the world today. But the world as we know it did not come from nothing, and even the great Sher'Tul clearly did naught more than manipulate the world - they did not make it.
+La question des dieux est incontestablement complexe. Il est évident qu'aucune force divine n'est à l'oeuvre dans le monde actuel. Cependant le monde tel que nous le connaissons n'est pas apparu ex nihilo, et même le grand Sher'Tul ne l'a manifestement pas créé mais seulement façonné.
 
-By logical conjecture one can only presume that some great being made the world. This must have been a benevolent being, for it is clear that "He" created creatures separate from himself to walk the earth. Clearly this is we halflings. We are the only race that truly appreciates the world. We do not warp it with magic experiments like the Shaloren, nor hide from it like the Thaloren. We do not bring destruction like the orcs, or petty greed like the dwarves. And our understanding and knowledge is so far advanced than the humans that it is hard to understand why we share the same world with them at all. We were quite clearly the first of the current races to be created, and our natural feelings of entitlement to all there is in Maj'Eyal must stem from this.
+Par déduction logique, on peut supposer qu'un être supérieur a créé le monde. Cet être devait être bienveillant, car il est évident qu'"Il" a créé des créatures distinctes de Lui-même pour peupler la Terre. Et nous sommes les plus petits. Nous sommes la seule race qui apprécie véritablement le monde. Nous ne déformons pas la réalité par des expériences magiques, comme les Shaloren, et nous ne la fuyons pas, comme les Thaloren. Nous ne semons pas la destruction, comme les orcs, et nous n'agissons pas avec une mesquine cupidité, comme les nains. Notre compréhension et notre savoir sont si supérieurs à ceux des humains qu'il est difficile de comprendre pourquoi nous partageons le même monde qu'eux. Nous avons sans aucun doute été la première des races actuelles à être créée, et notre sentiment naturel de droit à tout ce qui existe à Maj'Eyal trouve probablement son origine en nous.
 
-Now that this has been clearly analysed in logical terms, one must consider the source of the other races. It is impossible that they were made by the same god - truly impossible. What strange being could create our race, so gifted and rounded, and yet make such warped and twisted creatures as the dwarves and humans? No, clearly other gods were responsible, lesser gods than our own which copied his grand design. But with fudging fingers and inelegant touches the works of their design were clearly far inferior to the subtleties and perfection which crafted us.
+Maintenant que cette analyse logique a été effectuée, il convient de considérer l'origine des autres races. Il est impossible qu'elles aient toutes été créées par le même dieu – ce serait véritablement inconcevable. Quel être étrange aurait pu créer une race aussi talentueuse et accomplie que la nôtre, et pourtant donner vie à des créatures aussi difformes et difformes que les nains et les humains ? Non, il est évident que d’autres dieux en sont responsables, des dieux moindres que les nôtres, qui ont tenté de copier le grand dessein originel. Cependant, avec leurs doigts maladroits et leurs gestes imparfaits, leurs créations sont manifestement bien inférieures aux subtilités et à la perfection qui nous ont façonnés.
+Cependant, la question des Sher'Tul demeure. Il est évident qu'ils étaient plus puissants que nous, et pourtant ils ont disparu. Il faut supposer que notre dieu a créé cette race avant nous, mais qu'il en a été insatisfait et a décidé de l'éliminer, nous offrant ainsi la possibilité d'exister. Nous ne sommes pas aussi puissants que les Sher'Tul – du moins pas encore – mais nous possédons nos propres dons, qui nous confèrent une place particulière dans le coeur de notre créateur. Cela explique pourquoi nous avons été la première race à accéder aux pouvoirs des portails des Sher'Tul. Nous avions une affinité naturelle avec les oeuvres de nos aînés.
 
-However there remains the matter of the Sher'Tul. Clearly these were of greater power than us, and yet they disappeared. One must presume that our god made this race before us, but was somehow unhappy with them, and so removed them and made us instead. We are not as powerful as the Sher'Tul - not yet at least - but we have our own gifts that evidently give us a greater place in our creator's heart. This would explain why we were the first race to unlock the powers of the Sher'Tul farportals. We had a natural affinity to the works of our elder brethren.
-
-So what happened to these gods after they had made the races which we see today? One must presume strife between them, and that they killed themselves, or took their battle away from the world. Our creator, seeing the other gods killed or left, must have then entrusted the world to us halflings, knowing that we would rule over it in his stead. This is why at every point in history we have played a pivotal role in the shaping of our world. It is our rightful inheritance, and it is our duty to rule it well.]], "_t")
+Alors, qu'est-il arrivé à ces dieux après qu'ils ont créé les races que nous connaissons aujourd'hui ? Il est raisonnable de supposer que des conflits ont éclaté entre eux, engendrant des batailles qui ont conduit à leur extinction ou à leur départ du monde. Témoin de la mort ou de l'abandon des autres dieux notre créateur nous a confié le monde, à nous, les plus jeunes, persuadé que nous serions capables de le gouverner à leur place. C’est pourquoi, tout au long de l’histoire, nous avons joué un rôle fondamental dans la construction de notre monde. Il est notre héritage légitime, et il est de notre devoir de le gérer avec justice et sagesse.]], "_t")
+t("eyal", "Eyal", "newLore category")
+t("Tale of the Moonsisters", "Légende des Soeurs de Lunes", "_t")
 t([[Eyal was raised from Darkness,
 And One came who made a blinding light called Sun,
 But Eyal flinched and said, "It is too bright!"
@@ -15905,97 +15891,76 @@ Glaring at each other from behind their brother's belly,
 Then the world goes still, and the winds hold their breath, and the oceans lie flat.
 For this is the Time of Balance, when the Darkness rises deepest, and all life is in peril.
 Aye, and Gerlyk did say, "Let no man walk abroad this night, lest Darkness catch him and take him forever."
-Aye, and Gerlyk did walk abroad that night, into Darkness beyond, and has ne'er since been seen.]], [[Eyal was raised from Darkness,
-And One came who made a blinding light called Sun,
-But Eyal flinched and said, "It is too bright!"
-So Gerlyk spun Eyal around; thus his face was half-time in light and half-time in shadow,
-But in shadow Eyal became lonely and cried.
+Aye, and Gerlyk did walk abroad that night, into Darkness beyond, and has ne'er since been seen.]], [[Eyal fut créé dans les ténèbres,
+Puis vint Celui qui créa une lumière aveuglante appelée le Soleil,
+Mais Eyal recula et dit : "C'est trop lumineux !"
+Alors Gerlyk fit tourner Eyal, son visage mi-lumière, mi-ombre,
+Mais dans l'ombre, Eyal se sentit seul et pleura.
 
-And so Gerlyk made him two younger sisters who danced around Eyal
-And kept him in good spirits.
-But the moonsisters became jealous of their brother's affection,
-Threatening to fight and scream.
-Thus Gerlyk separated them so that Eyal would only ever dance with one at a time.
+Alors Gerlyk lui créa deux soeurs cadettes qui dansèrent autour d'Eyal
+Et le réconfortèrent.
+Mais les soeurs de la lune devinrent jalouses de l'affection de leur frère,
+Elles menacèrent de se battre et de crier.
+Alors Gerlyk les sépara afin qu'Eyal ne danse qu'avec l'une à la fois.
 
-In the summer Eyal dances with the moonsister Altia.
-She sings songs of joy and laughter,
-And brings friends and family together,
-And she glows yellow with mirth.
-In the winter Eyal dances with the moonsister Felia.
-She tells tales of times begone,
-And makes men walk alone in thought,
-And she glows blue with solemness.
+En été, Eyal danse avec Altia, sa soeur lunaire.
+Elle chante des chansons de joie et de rire,
+Et rassemble amis et famille,
+Et elle rayonne d'un jaune éclatant de joie.
+En hiver, Eyal danse avec Felia, sa soeur lunaire.
+Elle raconte des histoires d'antan,
+Et plonge les hommes dans leurs pensées,
+Et elle brille d'un bleu solennel.
 
-But in the time between,
-When both sisters are slimly seen on each side of Eyal,
-Glaring at each other from behind their brother's belly,
-Then the world goes still, and the winds hold their breath, and the oceans lie flat.
-For this is the Time of Balance, when the Darkness rises deepest, and all life is in peril.
-Aye, and Gerlyk did say, "Let no man walk abroad this night, lest Darkness catch him and take him forever."
-Aye, and Gerlyk did walk abroad that night, into Darkness beyond, and has ne'er since been seen.]], "_t")
-t("ancient elven ruins", "ancient elven ruins", "newLore category")
+Mais durant cet intervalle,
+Quand on aperçoit les deux soeurs de part et d'autre d'Eyal,
+Se regardant derrière le ventre de leur frère,
+Alors le monde s'apaise, les vents retiennent leur souffle et les océans s'immobilisent.
+Car c'est le Temps de l'Équilibre, où les Ténèbres s'élèvent au plus profond et où toute vie est en danger.
+Oui, et Gerlyk dit : "Que nul ne s'aventure dehors cette nuit, de peur que les Ténèbres ne le saisissent et ne l'emportent à jamais."
+Oui, et Gerlyk partit cette nuit-là pour les Ténèbres d'au-delà et on ne le revit jamais.]], "_t")
+t("ancient elven ruins", "ruines elfiques anciennes", "newLore category")
+t("ancient papyrus scroll", "ancien rouleau de papyrus", "_t")
 t([[Death is nearing. I can feel her chilling breath down the back of my neck. So many of us firstborn have passed on already. I cannot allow it... I will not let myself rot into dirt like the others. I am the mightiest of the Shaloren - I have a right to life!
-]], [[Death is nearing. I can feel her chilling breath down the back of my neck. So many of us firstborn have passed on already. I cannot allow it... I will not let myself rot into dirt like the others. I am the mightiest of the Shaloren - I have a right to life!
+]], [[La mort approche. Je sens son souffle glacé dans ma nuque. Tant d'entre nous, les premiers-nés, sont déjà partis. Je ne peux me le permettre... Je ne me laisserai pas pourrir dans la terre comme les autres. Je suis le plus puissant des Shalore — j'ai droit à la vie !
 ]], "_t")
 t([[Death mocks my experiments. I can preserve the flesh of my servants, tightly wrapped and salted, treated with the correct chemicals. I can animate them, make them shuffle about the empty halls of my mausoleum. But they are but empty shells, devoid of any soul. Is this how my majesty is to end? I demand a greater fate...
 
-My days are numbered. Each night that passes saps strength from me. I must find the way to preserve my soul within my flesh. My greatness cannot be allowed to fade.]], [[Death mocks my experiments. I can preserve the flesh of my servants, tightly wrapped and salted, treated with the correct chemicals. I can animate them, make them shuffle about the empty halls of my mausoleum. But they are but empty shells, devoid of any soul. Is this how my majesty is to end? I demand a greater fate...
+My days are numbered. Each night that passes saps strength from me. I must find the way to preserve my soul within my flesh. My greatness cannot be allowed to fade.]], [[La mort se moque de mes expériences. Je peux préserver la chair de mes serviteurs, soigneusement enveloppée et salée, traitée avec les produits chimiques adéquats. Je peux les animer, les faire traîner dans les couloirs vides de mon mausolée. Mais ce ne sont que des enveloppes vides, dépourvues de toute âme. Est-ce ainsi que ma majesté doit s'achever ? J'exige un destin plus grand...
 
-My days are numbered. Each night that passes saps strength from me. I must find the way to preserve my soul within my flesh. My greatness cannot be allowed to fade.]], "_t")
+Mes jours sont comptés. Chaque nuit qui passe me vole un peu de ma force. Je dois trouver le moyen de préserver mon âme dans ma chair. Je ne peux laisser ma grandeur s'éteindre.]], "_t")
 t([[Death has met her match. My results are complete, and I am ready to step to the Beyond. I have my sword by my side, and its icy edge will freeze even the dark one in her tracks. My powers cannot be denied...
 
-Come, Death, try to lay your bony fingers on me! I will vanish before your very eyes and slice you apart! You and your agents are no threat to me. I am immortal!]], [[Death has met her match. My results are complete, and I am ready to step to the Beyond. I have my sword by my side, and its icy edge will freeze even the dark one in her tracks. My powers cannot be denied...
+Come, Death, try to lay your bony fingers on me! I will vanish before your very eyes and slice you apart! You and your agents are no threat to me. I am immortal!]], [[La mort a trouvé son maître. Mes résultats sont complets, et je suis prêt à franchir le seuil de l'Au-delà. Mon épée est à mes côtés, et son tranchant glacé figera même la sombre sur sa route. Mes pouvoirs ne sauraient être niés...
 
-Come, Death, try to lay your bony fingers on me! I will vanish before your very eyes and slice you apart! You and your agents are no threat to me. I am immortal!]], "_t")
-t("valley of the moon", "valley of the moon", "newLore category")
-t("Rassir's journal part 1", "Rassir's journal part 1", "_t")
+Viens, Mort, essaie donc de poser tes doigts osseux sur moi ! Je disparaîtrai sous tes yeux et te taillerai en pièces ! Toi et tes agents ne me faites aucune peur. Je suis immortel !]], "_t")
+t("valley of the moon", "vallée de la lune", "newLore category")
+t("Rassir's journal part 1", "journal de Rassir, partie 1", "_t")
 t([[I have come to see the moonstone again. My younger brother Limmir understands a little of my obsession with it, yet the others do not care. I have tried to explain how it is of importance to Aeryn, but she simply asked if she could make a sword from it. Bah! Such stupidity from that grunt fighter.
 
 Our ancestors found their powers from the intense study of the stars, yet the people these days seem only to care about their applications in battle. I know our position with the orcs is grim, but we must not forget our roots in the celestial sphere! Only by sun, moons and stars do we find knowledge and power in life.
 
 Ah well, I shall at least be able to study here in peace. The ring of invisibility I have crafted affords me cover from any orc patrols, and the caves around the moonstone are quiet enough. I have set up my telescope in the open air of the Valley of the Moon itself.
 
-Last night I spotted a red star in the early dawn. How very peculiar... Could this be a new celestial body to study?]], [[I have come to see the moonstone again. My younger brother Limmir understands a little of my obsession with it, yet the others do not care. I have tried to explain how it is of importance to Aeryn, but she simply asked if she could make a sword from it. Bah! Such stupidity from that grunt fighter.
+Last night I spotted a red star in the early dawn. How very peculiar... Could this be a new celestial body to study?]], [[Je suis revenu voir la pierre de lune. Mon jeune frère Limmir comprend un peu mon obsession pour elle, mais les autres s'en moquent. J'ai essayé d'expliquer à Aeryn son importance, mais elle m'a simplement demandé si elle pouvait en forger une épée. Bah ! Quelle stupidité de la part de cette guerrière fruste.
 
-Our ancestors found their powers from the intense study of the stars, yet the people these days seem only to care about their applications in battle. I know our position with the orcs is grim, but we must not forget our roots in the celestial sphere! Only by sun, moons and stars do we find knowledge and power in life.
+Nos ancêtres ont puisé leurs pouvoirs dans l'étude intensive des étoiles, pourtant les gens d'aujourd'hui ne semblent se soucier que de leurs applications au combat. Je sais que notre situation face aux Orcs est critique, mais nous ne devons pas oublier nos racines dans la sphère céleste ! C'est uniquement par le soleil, les lunes, et les étoiles que nous trouvons connaissance et puissance dans la vie.
 
-Ah well, I shall at least be able to study here in peace. The ring of invisibility I have crafted affords me cover from any orc patrols, and the caves around the moonstone are quiet enough. I have set up my telescope in the open air of the Valley of the Moon itself.
+Ah, du moins pourrai-je étudier ici en paix. L'anneau d'invisibilité que j'ai fabriqué me protège de toute patrouille orc, et les cavernes autour de la pierre de lune sont suffisamment calmes. J'ai installé mon télescope à l'air libre, dans la Vallée de la Lune elle-même.
 
-Last night I spotted a red star in the early dawn. How very peculiar... Could this be a new celestial body to study?]], "_t")
-t("Rassir's journal part 2", "Rassir's journal part 2", "_t")
+La nuit dernière, j'ai repéré une étoile rouge à l'aube naissante. Bien étrange... Serait-ce un nouveau corps céleste à étudier ?]], "_t")
+t("Rassir's journal part 2", "journal de Rassir, partie 2", "_t")
 t([[Oh, what terrible horrors! Demons, clawed creatures, dark smog, clouds of acid, skins of lava! Where did they all come from?!
 
 It was when I was studying the moonstone, and as the red star was rising again before the dawn. The stone glowed blood-red and suddenly portals awakened in the rock of the valley. From them poured forth all manner of demonic creatures! I put my ring of invisibility on and fled into the caves. But now the creatures are everywhere! The caves are infested with them, prowling about like hungry animals.
 
-And there is something... something terrible. In the shadows, in the darkness, I can sense it looking for me. It stalks me, an invisible hunter after invisible prey. Now and then I hear the cracking of a terrible whip. I must stay hidden...]], [[Oh, what terrible horrors! Demons, clawed creatures, dark smog, clouds of acid, skins of lava! Where did they all come from?!
+And there is something... something terrible. In the shadows, in the darkness, I can sense it looking for me. It stalks me, an invisible hunter after invisible prey. Now and then I hear the cracking of a terrible whip. I must stay hidden...]], [[Oh, quels horribles tourments ! Des démons, des créatures à griffes, une fumée noire, des nuages d'acide, des peaux de lave ! D'où viennent-ils tous ?!
 
-It was when I was studying the moonstone, and as the red star was rising again before the dawn. The stone glowed blood-red and suddenly portals awakened in the rock of the valley. From them poured forth all manner of demonic creatures! I put my ring of invisibility on and fled into the caves. But now the creatures are everywhere! The caves are infested with them, prowling about like hungry animals.
+C'est lors de mon étude de la pierre de lune, alors que l'étoile rouge se levait à nouveau avant l'aube. La pierre s'illumina d'un rouge sang et, soudain, des portails s'éveillèrent dans la roche de la vallée. De toutes sortes de créatures démoniaques en jaillirent ! J'enfilai mon anneau d'invisibilité et m'enfuis dans les cavernes. Mais à présent, ces créatures sont partout ! Les cavernes en sont infestées, elles rôdent comme des bêtes affamées.
 
-And there is something... something terrible. In the shadows, in the darkness, I can sense it looking for me. It stalks me, an invisible hunter after invisible prey. Now and then I hear the cracking of a terrible whip. I must stay hidden...]], "_t")
-t("Rassir's journal part 3", "Rassir's journal part 3", "_t")
-t([[I fell asleep in a dark hollow, but my sleep was troubled by terrible dreams. The dreams are so vivid in my mind!
-
-I saw the red star, and it became a land of fire floating in the night sky, full of black creatures with yellow eyes and hungry red mouths. And beyond the red star, far beyond was a dim world, but fractured and split all about its surface. As the world spun the split continents crushed against each other, and lava spilled up, and lands sunk into the ground. Demonic mouths screamed up as they disappeared into fiery death. It was if the world was tearing itself apart, but some force of will was desperately trying to keep it held together.
-
-And I saw then in the centre of the world, as it spun and crumpled and crunched, a vast figure with a horned head and outstretched limbs and shining white eyes. It held tight to the innards of the world, holding it together against forces threatening to pull the whole planet apart. The giant face contorted and screamed in pain and fury.
-
-“Urh'Rok,” a deep voice spoke within my head. “Our god, our saviour, holder of our world. In the name of Urh'Rok we seek vengeance against Amakthel and the Sher'Tul. The petty world of Eyal shall fall!” And then I woke up, and I felt sure something was nearby, looking for me. I fled instantly.
-
-Am I going mad? The name “Urh'Rok” still rebounds through my skull and my vision is dimmed. Perhaps I have been wearing this ring too long...
-
-Yes, yes, this is all clearly an illusion! A strange nightmare that I shall wake up from. I shall take the ring off, and go visit the lovely moonstone again. Once I see the stars all shall be well...]], [[I fell asleep in a dark hollow, but my sleep was troubled by terrible dreams. The dreams are so vivid in my mind!
-
-I saw the red star, and it became a land of fire floating in the night sky, full of black creatures with yellow eyes and hungry red mouths. And beyond the red star, far beyond was a dim world, but fractured and split all about its surface. As the world spun the split continents crushed against each other, and lava spilled up, and lands sunk into the ground. Demonic mouths screamed up as they disappeared into fiery death. It was if the world was tearing itself apart, but some force of will was desperately trying to keep it held together.
-
-And I saw then in the centre of the world, as it spun and crumpled and crunched, a vast figure with a horned head and outstretched limbs and shining white eyes. It held tight to the innards of the world, holding it together against forces threatening to pull the whole planet apart. The giant face contorted and screamed in pain and fury.
-
-“Urh'Rok,” a deep voice spoke within my head. “Our god, our saviour, holder of our world. In the name of Urh'Rok we seek vengeance against Amakthel and the Sher'Tul. The petty world of Eyal shall fall!” And then I woke up, and I felt sure something was nearby, looking for me. I fled instantly.
-
-Am I going mad? The name “Urh'Rok” still rebounds through my skull and my vision is dimmed. Perhaps I have been wearing this ring too long...
-
-Yes, yes, this is all clearly an illusion! A strange nightmare that I shall wake up from. I shall take the ring off, and go visit the lovely moonstone again. Once I see the stars all shall be well...]], "_t")
-t("races", "races", "newLore category")
-t("Loremaster Greynot's Analysis of the Races - Introduction", "Loremaster Greynot's Analysis of the Races - Introduction", "_t")
+Et il y a quelque chose... quelque chose de terrible. Dans les ombres, dans l'obscurité, je sens qu'il me cherche. Il me traque, chasseur invisible derrière sa proie invisible. Par moments, j'entends le claquement d'un fouet horrible. Je dois rester caché...]], "_t")
+t("Rassir's journal part 3", "journal de Rassir, partie 3", "_t")
+t("Loremaster Greynot's Analysis of the Races - Introduction", "Analyse des Races par le Chroniqueur Greynot - Introduction", "_t")
 t([[I set out here to give a full and complete analysis of all the intelligent races in Maj'Eyal. This is an ambitious project to say the least, but it is put together from a great many years labour, including travels across all the kingdoms and direct meetings with many of the highest rulers and most learned sages. I have drawn my findings from common knowledge, exclusive interviews, and studies of many thousands of pages of texts and histories, some going back dozens of centuries.
 
 I myself am a Higher human, in the employ of the court of King Tolak the Fair, but I have done my best to write all accounts from a purely neutral standpoint. I leave it to my peers to judge my success.
@@ -16012,24 +15977,24 @@ Chapter 8 - Orcs (extinct)
 Chapter 9 - Sher'Tul (extinct)
 Chapter 10 - Monstrous Races
 Chapter 11 - Dragons
-]], [[I set out here to give a full and complete analysis of all the intelligent races in Maj'Eyal. This is an ambitious project to say the least, but it is put together from a great many years labour, including travels across all the kingdoms and direct meetings with many of the highest rulers and most learned sages. I have drawn my findings from common knowledge, exclusive interviews, and studies of many thousands of pages of texts and histories, some going back dozens of centuries.
+]], [[Je m'attelle ici à offrir une analyse complète et exhaustive de toutes les races intelligentes de Maj'Eyal. C'est un projet ambitieux, pour le moins, mais il est le fruit de nombreuses années de travail, comprenant des voyages à travers tous les royaumes et des rencontres directes avec bon nombre des plus hauts dirigeants et des sages les plus érudits. Mes conclusions sont tirées de la connaissance commune, d'entretiens exclusifs, et d'études de plusieurs milliers de pages de textes et d'histoires, dont certains remontent à des dizaines de siècles.
 
-I myself am a Higher human, in the employ of the court of King Tolak the Fair, but I have done my best to write all accounts from a purely neutral standpoint. I leave it to my peers to judge my success.
+Je suis moi-même un Noble humain, au service de la cour du Roi Tolak le Juste, mais j'ai fait de mon mieux pour rédiger tous les comptes rendus depuis un point de vue purement neutre. Je laisse à mes pairs le soin de juger ma réussite.
 
-Index:
-Chapter 1 - Humans
-Chapter 2 - Halflings
-Chapter 3 - Dwarves
-Chapter 4 - Shaloren
-Chapter 5 - Thaloren
-Chapter 6 - Naloren (extinct)
-Chapter 7 - Ogres
-Chapter 8 - Orcs (extinct)
-Chapter 9 - Sher'Tul (extinct)
-Chapter 10 - Monstrous Races
-Chapter 11 - Dragons
+Index :
+Chapitre 1 - Humains
+Chapitre 2 - Halfelins
+Chapitre 3 - Nains
+Chapitre 4 - Shalore
+Chapitre 5 - Thalore
+Chapitre 6 - Nalore (éteint)
+Chapitre 7 - Ogres
+Chapitre 8 - Orcs (éteint)
+Chapitre 9 - Sher'Tul (éteint)
+Chapitre 10 - Races Monstrueuses
+Chapitre 11 - Dragons
 ]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 1 - Humans", "Loremaster Greynot's Analysis of the Races - Chapter 1 - Humans", "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 1 - Humans", "Analyse des Races par le Chroniqueur Greynot - Chapitre 1 - Humains", "_t")
 t([[I begin my writings with a study of the humans, currently the most populous of the races in Maj'Eyal. The greatest kingdom in number are by far the Cornacs, but mention should also be made of the Sholtar and Mardrop kingdoms, and the Higher bloodline. The biggest human population centre is around the citadel of Last Hope, though many other settlements exist across all corners of Maj'Eyal.
 
 Cornacs are normally around 5'9", with generally dark hair, brown eyes and ruddy features. Most Cornacs take up roles as tradesmen, farmers, or other manual labour jobs. It is a sad fact that the majority of bandit groups tend to be dominated by Cornacs. Cornac families tend to be large, and since the Age of Dusk their population has expanded rapidly, especially in the farming lands in the west and around Last Hope in the south.
@@ -16040,18 +16005,18 @@ Mardrop humans are all but extinct, after the Spellhunt and the plagues during t
 
 Highers are on average 6'0", with fair hair and skin and blue or grey eyes. The majority of scholarly roles are taken up by Highers, and they tend to fill most of the noble classes. Some say this is due to discrimination and elitism, though these may simply be jealous sentiments. There are also rumours that the superior intellects of Highers are due to arcane experiments instigated by the ancient Conclave during the Age of Allure, but I have found no records to support this idea and must consider it to be baseless. The Higher bloodline is renowned as a mark of excellence, and mixing with lower bloods is strongly frowned upon.
 
-All human kingdoms were united by King Toknor the Brave in the Age of Pyre, and remain under the rule of his son King Tolak the Fair. A full discussion of the long human history would require a far more detailed document.]], [[I begin my writings with a study of the humans, currently the most populous of the races in Maj'Eyal. The greatest kingdom in number are by far the Cornacs, but mention should also be made of the Sholtar and Mardrop kingdoms, and the Higher bloodline. The biggest human population centre is around the citadel of Last Hope, though many other settlements exist across all corners of Maj'Eyal.
+All human kingdoms were united by King Toknor the Brave in the Age of Pyre, and remain under the rule of his son King Tolak the Fair. A full discussion of the long human history would require a far more detailed document.]], [[Je commence mes écrits par une étude des humains, actuellement la race la plus peuplée de Maj'Eyal. Le royaume le plus nombreux est de loin celui des Cornacs, mais il convient également de mentionner les royaumes de Sholtar et de Mardrop, ainsi que la lignée Noble. Le plus grand centre de population humaine se trouve autour de la citadelle de Dernier Espoir, bien que de nombreux autres établissements existent dans tous les coins de Maj'Eyal.
 
-Cornacs are normally around 5'9", with generally dark hair, brown eyes and ruddy features. Most Cornacs take up roles as tradesmen, farmers, or other manual labour jobs. It is a sad fact that the majority of bandit groups tend to be dominated by Cornacs. Cornac families tend to be large, and since the Age of Dusk their population has expanded rapidly, especially in the farming lands in the west and around Last Hope in the south.
+Les Cornacs mesurent normalement environ 1,75 m, avec des cheveux généralement sombres, des yeux marron, et des traits rougeauds. La plupart des Cornacs occupent des fonctions de commerçants, de paysans ou d'autres travailleurs manuels. Il est regrettable de constater que la majorité des groupes de bandits tend à être dominée par des Cornacs. Les familles Cornacs ont tendance à être nombreuses, et depuis l'Ère du Crépuscule leur population s'est développée rapidement, notamment dans les terres agricoles de l'ouest et autour de Dernier Espoir au sud.
 
-Sholtar are generally 5'11", with dark skin, hair and eyes. They originate from the south-east of Maj'Eyal, and are few in number since the Cataclysm tore much of their land into the sea. Their affinity with nature is renowned, and they are often found employed as healers, infusion crafters or wyrmic huntsmen.
+Les Sholtar mesurent généralement 1,80 m, avec la peau, les cheveux et les yeux sombres. Ils sont originaires du sud-est de Maj'Eyal, et peu nombreux depuis que le Cataclysme a englouti une grande partie de leurs terres dans la mer. Leur affinité avec la nature est renommée, et on les trouve souvent employés comme guérisseurs, fabricants d'essences ou chasseurs draconiens.
 
-Mardrop humans are all but extinct, after the Spellhunt and the plagues during the Age of Dusk. They were known to be powerful spellcasters, and as such were prime targets by the spellhunters. However some trace of them can still be found, as their fiery hair and freckled skin oft can appear in those of distant descent. A few are rumoured to still possess citadels and towers in remote locations.
+Les humains Mardrop sont quasiment éteints, après la Purge Arcanique et les épidémies de l'Ère du Crépuscule. Ils étaient connus pour être de puissants lanceurs de sorts, et furent à ce titre des cibles de choix pour les chasseurs de mages. Cependant, quelques traces subsistent encore, car leurs cheveux flamboyants et leur peau parsemée de taches de rousseur peuvent parfois apparaître chez des individus de lointaine ascendance. On dit que quelques-uns posséderaient encore des citadelles et des tours dans des endroits reculés.
 
-Highers are on average 6'0", with fair hair and skin and blue or grey eyes. The majority of scholarly roles are taken up by Highers, and they tend to fill most of the noble classes. Some say this is due to discrimination and elitism, though these may simply be jealous sentiments. There are also rumours that the superior intellects of Highers are due to arcane experiments instigated by the ancient Conclave during the Age of Allure, but I have found no records to support this idea and must consider it to be baseless. The Higher bloodline is renowned as a mark of excellence, and mixing with lower bloods is strongly frowned upon.
+Les Nobles mesurent en moyenne 1,83 m, avec des cheveux et une peau clairs, et des yeux bleus ou gris. La majorité des rôles académiques est occupée par des Nobles, et ils tendent à remplir la plupart des classes aristocratiques. Certains disent que cela est dû à la discrimination et à l'élitisme, bien que ces propos ne soient peut-être que des sentiments jaloux. Il existe également des rumeurs selon lesquelles la supériorité intellectuelle des Nobles serait due à des expériences arcaniques initiées par l'ancien Conclave durant l'Ère de la Séduction, mais je n'ai trouvé aucun document pour étayer cette idée et dois la considérer comme sans fondement. La lignée Noble est réputée comme une marque d'excellence, et le mélange avec des sangs considérés inférieurs est fortement réprouvé.
 
-All human kingdoms were united by King Toknor the Brave in the Age of Pyre, and remain under the rule of his son King Tolak the Fair. A full discussion of the long human history would require a far more detailed document.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 2 - Halflings", "Loremaster Greynot's Analysis of the Races - Chapter 2 - Halflings", "_t")
+Tous les royaumes humains ont été unifiés par le Roi Toknor le Brave lors de l'Ère du Bûcher, et restent sous la gouvernance de son fils, le Roi Tolak le Juste. Une discussion complète sur la longue histoire humaine nécessiterait un document bien plus détaillé.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 2 - Halflings", "Analyse des Races par le Chroniqueur Greynot - Chapitre 2 - Halfelins", "_t")
 t([[There are two main kingdoms of halflings, the Eldoral and the Nargol, though both mix often. All halflings are just under 4' tall, and are generally noted for their large feet and curly hair. Eldoral are usually fair-haired and blue-eyed. Nargol tend to be darker in hair and complexion, with hazel eyes, and oft slightly shorter than their cousins. Halflings are known for their intelligence and quick wit, but also their arrogance in dealing with other races - something they do not deny, for they say it is well-deserved.
 
 Halflings used to be the most dominant race in Maj'Eyal, with control of many strategic Sher'Tul ruins and rule over great swathes of land. The recorded wars between humans and halflings are numerous, and the halflings were the most often victors. However the Age of Pyre brought them great ruin, for the orcs seemed to target them more fiercely than any other race, and many of their communities were wiped out. This has forced them to rely more on trade with other races in modern times, especially with the humans.
@@ -16061,17 +16026,17 @@ The Eldorals used to have a kingdom in the north of the continent, but most of i
 The Nargols once had many strong fortifications in the south of Maj'Eyal, but though they suffered less than the Eldoral in the Age of Pyre they still lost great numbers, and much of their centres of population dwindled. The rise of Last Hope has accelerated this process, as many communities are subsumed into the city's suburbs. Nargols are known as great jewellers, alchemists and rune-crafters, and possess some of the best tactical minds of all the races. Many generals and military advisers are employed from their kingdom.
 
 The most famous of all halflings is Queen Mirvenia, most famed for her saving of King Toknor in Last Hope from a siege of orcs. Mystery still surrounds how she managed to bypass the winter's icy floes with her army to reach the citadel in time to rescue Toknor. Some have hypothesised that she enlisted the aid of sorcerers, but none of her troops would talk about the journey afterwards. She wed King Toknor in the second year of the Age of Ascendancy, and gave birth to the first known mixed race child - Tolak the Fair.
-]], [[There are two main kingdoms of halflings, the Eldoral and the Nargol, though both mix often. All halflings are just under 4' tall, and are generally noted for their large feet and curly hair. Eldoral are usually fair-haired and blue-eyed. Nargol tend to be darker in hair and complexion, with hazel eyes, and oft slightly shorter than their cousins. Halflings are known for their intelligence and quick wit, but also their arrogance in dealing with other races - something they do not deny, for they say it is well-deserved.
+]], [[Il existe deux royaumes principaux de halfelins : les Eldoral et les Nargol, bien que les deux se mélangent souvent. Tous les halfelins mesurent un peu moins de 1,20 m, et se distinguent généralement par leurs grands pieds et leurs cheveux bouclés. Les Eldoral ont habituellement les cheveux clairs et les yeux bleus. Les Nargol ont tendance à avoir les cheveux et le teint plus sombres, avec des yeux noisette, et sont souvent légèrement moins grands que leurs cousins. Les halfelins sont connus pour leur intelligence et leur vivacité d'esprit, mais aussi pour leur arrogance dans leurs rapports avec les autres races — ce qu'ils ne nient pas, affirmant que c'est pleinement mérité.
 
-Halflings used to be the most dominant race in Maj'Eyal, with control of many strategic Sher'Tul ruins and rule over great swathes of land. The recorded wars between humans and halflings are numerous, and the halflings were the most often victors. However the Age of Pyre brought them great ruin, for the orcs seemed to target them more fiercely than any other race, and many of their communities were wiped out. This has forced them to rely more on trade with other races in modern times, especially with the humans.
+Les halfelins étaient autrefois la race la plus dominante de Maj'Eyal, contrôlant de nombreuses ruines stratégiques des Sher'Tul et régnant sur de vastes étendues de terres. Les guerres enregistrées entre humains et halfelins sont nombreuses, et les halfelins en furent le plus souvent les vainqueurs. Cependant, l'Ère du Bûcher leur apporta une grande ruine, car les Orcs semblaient les cibler plus férocement que toute autre race, et nombre de leurs communautés furent anéanties. Cela les a contraints à s'appuyer davantage sur le commerce avec les autres races à l'époque moderne, notamment avec les humains.
 
-The Eldorals used to have a kingdom in the north of the continent, but most of it was destroyed during the wars with the orcs, and not much has been rebuilt. However they do still have many agricultural settlements such as Derth, albeit shared with other races. The Eldoral are known for their great healers and farmers, and their slingers are considered the best in all the lands.
+Les Eldorals possédaient autrefois un royaume dans le nord du continent, mais la majeure partie en fut détruite lors des guerres contre les Orcs, et peu a été reconstruit depuis. Ils possèdent cependant encore de nombreux établissements agricoles tels que Derth, bien que partagés avec d'autres races. Les Eldoral sont connus pour leurs grands guérisseurs et cultivateurs, et leurs frondeurs sont considérés comme les meilleurs de toutes les terres.
 
-The Nargols once had many strong fortifications in the south of Maj'Eyal, but though they suffered less than the Eldoral in the Age of Pyre they still lost great numbers, and much of their centres of population dwindled. The rise of Last Hope has accelerated this process, as many communities are subsumed into the city's suburbs. Nargols are known as great jewellers, alchemists and rune-crafters, and possess some of the best tactical minds of all the races. Many generals and military advisers are employed from their kingdom.
+Les Nargols possédaient jadis de nombreuses fortifications dans le sud de Maj'Eyal, mais bien qu'ils aient moins souffert que les Eldoral lors de l'Ère du Bûcher, ils perdirent tout de même un grand nombre des leurs et une grande partie de leurs centres de population se réduisit. L'essor de Dernier Espoir a accéléré ce processus, de nombreuses communautés étant absorbées par les faubourgs de la cité. Les Nargols sont renommés comme grands joailliers, alchimistes et fabricants de runes, et possèdent certains des meilleurs esprits tactiques de toutes les races. De nombreux généraux et conseillers militaires sont recrutés dans leur royaume.
 
-The most famous of all halflings is Queen Mirvenia, most famed for her saving of King Toknor in Last Hope from a siege of orcs. Mystery still surrounds how she managed to bypass the winter's icy floes with her army to reach the citadel in time to rescue Toknor. Some have hypothesised that she enlisted the aid of sorcerers, but none of her troops would talk about the journey afterwards. She wed King Toknor in the second year of the Age of Ascendancy, and gave birth to the first known mixed race child - Tolak the Fair.
+La plus célèbre de tous les halfelins est la Reine Mirvenia, principalement connue pour avoir sauvé le Roi Toknor au Dernier Espoir lors d'un siège d'Orcs. Le mystère entoure encore la façon dont elle réussit à contourner les glaces hivernales avec son armée pour atteindre la citadelle à temps pour secourir Toknor. Certains ont émis l'hypothèse qu'elle avait sollicité l'aide de sorciers, mais aucun de ses soldats ne voulut parler du voyage par la suite. Elle épousa le Roi Toknor en la deuxième année de l'Ère de l'Ascendance, et donna naissance au premier enfant métis connu — Tolak le Juste.
 ]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 3 - Dwarves", "Loremaster Greynot's Analysis of the Races - Chapter 3 - Dwarves", "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 3 - Dwarves", "Analyse des Races par le Chroniqueur Greynot - Chapitre 3 - Nains", "_t")
 t([[The dwarves are an exceptionally secretive and quiet race, reluctant to talk about themselves to outsiders unless hefty bribes are paid. Many times in their history they have cut off all contact with the other races for no known reason, shutting tight the great iron doors that cover the trade passages to their mines and their cavernous cities. However of late they have become more open with the outside world, and I have even had the pleasure of receiving the unique distinction of being allowed to enter their main city, the Iron Throne, and speaking with several of their guild leaders.
 
 Dwarves are around 5' tall, with generally brown or grey hair. They are usually stocky and muscular, and known to be very resistant to any physical suffering. Their females can be hard to distinguish from their males, but can usually be identified by the beads braided into their beards. All dwarves are highly proud of their beards, and take immaculate care of them. The greatest insult to a dwarf is to belittle his beard, and the greatest sign of suffering in a dwarf is for him to tear at his beard.
@@ -16080,80 +16045,20 @@ Dwarves are known especially for their smithwork and artificing, which is unriva
 
 Their skill with metal is renowned above all else. Dwarven steel is considered the most durable material for use in construction, and dwarves are the finest workers with stralite and voratun, precious metals of immense value. They trade heavily in their crafts from their capital the Iron Throne, but allow no outsiders in - instead they send innumerable merchant caravans out to all the cities to ply their wares.
 
-As well as the many merchant dwarves one may meet there are also a great deal of young dwarves who venture beyond their halls of stone. These are generally of adventuring fare, and it is encouraged in dwarven society to experience something of the wider world in one's younger years. This is known to them as being "smithed upon the anvil of the world". In private though some senior dwarves admit that this activity is promoted to help with their "market research strategy".]], [[The dwarves are an exceptionally secretive and quiet race, reluctant to talk about themselves to outsiders unless hefty bribes are paid. Many times in their history they have cut off all contact with the other races for no known reason, shutting tight the great iron doors that cover the trade passages to their mines and their cavernous cities. However of late they have become more open with the outside world, and I have even had the pleasure of receiving the unique distinction of being allowed to enter their main city, the Iron Throne, and speaking with several of their guild leaders.
+As well as the many merchant dwarves one may meet there are also a great deal of young dwarves who venture beyond their halls of stone. These are generally of adventuring fare, and it is encouraged in dwarven society to experience something of the wider world in one's younger years. This is known to them as being "smithed upon the anvil of the world". In private though some senior dwarves admit that this activity is promoted to help with their "market research strategy".]], [[Les nains sont une race exceptionnellement secrète et discrète, peu enclins à parler d'eux-mêmes à des étrangers à moins que de généreuses pots-de-vin ne soient offerts. À maintes reprises dans leur histoire ils ont coupé tout contact avec les autres races sans raison apparente, fermant hermétiquement les grandes portes de fer qui couvrent les passages commerciaux menant à leurs mines et à leurs cités souterraines. Cependant, ces derniers temps, ils sont devenus plus ouverts au monde extérieur et j'ai même eu le plaisir de recevoir la distinction unique d'être autorisé à entrer dans leur principale cité, le Trône de Fer, et à m'entretenir avec plusieurs de leurs chefs de guildes.
 
-Dwarves are around 5' tall, with generally brown or grey hair. They are usually stocky and muscular, and known to be very resistant to any physical suffering. Their females can be hard to distinguish from their males, but can usually be identified by the beads braided into their beards. All dwarves are highly proud of their beards, and take immaculate care of them. The greatest insult to a dwarf is to belittle his beard, and the greatest sign of suffering in a dwarf is for him to tear at his beard.
+Les nains mesurent environ 1,52 m, avec des cheveux généralement bruns ou gris. Ils sont habituellement trapus et musclés, et connus pour leur grande résistance à toute souffrance physique. Leurs femelles peuvent être difficiles à distinguer des mâles, mais on peut généralement les identifier aux perles tressées dans leur barbe. Tous les nains sont extrêmement fiers de leurs barbes et en prennent un soin impeccable. La plus grande insulte faite à un nain est de dénigrer sa barbe, et le plus grand signe de souffrance chez un nain est de s'arracher la barbe.
 
-Dwarves are known especially for their smithwork and artificing, which is unrivalled amongst all the other races. They also make cunning merchants, known to drive a hard bargain. Their society consists of a fairly strict caste system, with families belonging to guilds of miners, smelters, craftsmen, and so on, and deviance into work outside of one's guild of birth is almost unheard of. However there is no perceived inequality between guilds, with each having equal representation on their ruling Committee of Guilds. Who actually acts as figurehead is unknown to outsiders though, and no amount of bribing will encourage any dwarf to speak on the subject. When it is mentioned in passing their allusions to a leader are normally marked by an almost religious reverence.
+Les nains sont particulièrement renommés pour leur travail de forge et leur artisanat, qui n'a d'égal parmi aucune autre race. Ils sont également d'habiles marchands, connus pour négocier âprement. Leur société est constituée d'un système de castes assez strict dans lequel les familles appartiennent à des guildes de mineurs, de fondeurs, d'artisans, et ainsi de suite ; s'écarter du travail de sa guilde de naissance est pratiquement inouï. Il n'y a cependant pas d'inégalité perçue entre les guildes, chacune ayant une représentation égale au sein de leur Comité des Guildes qui les gouverne. Qui joue réellement le rôle de figure de proue reste inconnu des étrangers, et aucun pot-de-vin ne poussera un nain à parler sur le sujet. Lorsqu'il est évoqué en passant, leurs allusions à un chef sont généralement empreintes d'une révérence quasi religieuse.
 
-Their skill with metal is renowned above all else. Dwarven steel is considered the most durable material for use in construction, and dwarves are the finest workers with stralite and voratun, precious metals of immense value. They trade heavily in their crafts from their capital the Iron Throne, but allow no outsiders in - instead they send innumerable merchant caravans out to all the cities to ply their wares.
+Leur maîtrise du métal est renommée par-dessus tout. L'acier nain est considéré comme le matériau le plus durable pour la construction. Et les nains sont les meilleurs artisans pour travailler la stralite et le voratun, des métaux précieux d'une immense valeur. Ils commercent abondamment leurs artisanats depuis leur capitale, le Trône de Fer, mais n'admettent aucun étranger — ils envoient à la place d'innombrables caravanes marchandes dans toutes les cités pour proposer leurs marchandises.
 
-As well as the many merchant dwarves one may meet there are also a great deal of young dwarves who venture beyond their halls of stone. These are generally of adventuring fare, and it is encouraged in dwarven society to experience something of the wider world in one's younger years. This is known to them as being "smithed upon the anvil of the world". In private though some senior dwarves admit that this activity is promoted to help with their "market research strategy".]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 4 - Shaloren", "Loremaster Greynot's Analysis of the Races - Chapter 4 - Shaloren", "_t")
-t([[Though the elven races look very similar in appearance, they are extremely distinct in history, culture, mindset and many subtle physical traits, so I shall write of each of them separately. All elves are marked by their long, pointed ears and high cheek-bones, but other features can vary greatly. It should be noted that they call themselves as a whole "Elore", which means "siblings", yet the interactions between these brothers and sisters are oft strained.
-
-Shaloren (or Shalore - lit "siblings of grace") are on average 6'2", with bright hair and blue or purple eyes. They are usually slim and lightly built, more marked for their mental prowess than their physical strengths. They are however known to be extremely swift of movement and light of foot. But of particular note is their magical affinity, which is far stronger than any other race, and their intense powers of will.
-
-The Shaloren have a long history of magic-use which continues to this day. Though other races shun the dangers of magic to a large degree, the Shaloren embrace it, and it is still widely used throughout their society. However they are careful to hide this in their dealings with other races. The Shaloren were the ones that began the Spellblaze, though they would soon have it forgotten, and the memories of blame run deep amongst many. During the Spellhunt in the Age of Dusk they locked their city doors and shrouded the whole region in mist, only coming out in secrecy. It took many centuries before they were accepted again in wider society, and still they are treated with intense distrust.
-
-Their capital city is Elvala, in the south-west peninsula, and they have very few settlements outside of this. They have naturally long lives, and their mastery of the arcane arts has allowed them to extend their lives indefinitely. The eldest immortals make up their Council of Elders, which is headed by their King Aranion Gayaeil. Death is a particular fascination amongst the Shaloren, and early kings of their race were said to build great tombs for themselves whilst experimenting in flesh preservation and necromancy. The Shaloren of course deny this.
-
-They deal with other races seldom, preferring to keep a low profile, and most of their trade is done through halfling intermediaries. A few rune-crafters and enchanters sometimes travel to other major cities to do business, and some brash youths are known to explore further afield.]], [[Though the elven races look very similar in appearance, they are extremely distinct in history, culture, mindset and many subtle physical traits, so I shall write of each of them separately. All elves are marked by their long, pointed ears and high cheek-bones, but other features can vary greatly. It should be noted that they call themselves as a whole "Elore", which means "siblings", yet the interactions between these brothers and sisters are oft strained.
-
-Shaloren (or Shalore - lit "siblings of grace") are on average 6'2", with bright hair and blue or purple eyes. They are usually slim and lightly built, more marked for their mental prowess than their physical strengths. They are however known to be extremely swift of movement and light of foot. But of particular note is their magical affinity, which is far stronger than any other race, and their intense powers of will.
-
-The Shaloren have a long history of magic-use which continues to this day. Though other races shun the dangers of magic to a large degree, the Shaloren embrace it, and it is still widely used throughout their society. However they are careful to hide this in their dealings with other races. The Shaloren were the ones that began the Spellblaze, though they would soon have it forgotten, and the memories of blame run deep amongst many. During the Spellhunt in the Age of Dusk they locked their city doors and shrouded the whole region in mist, only coming out in secrecy. It took many centuries before they were accepted again in wider society, and still they are treated with intense distrust.
-
-Their capital city is Elvala, in the south-west peninsula, and they have very few settlements outside of this. They have naturally long lives, and their mastery of the arcane arts has allowed them to extend their lives indefinitely. The eldest immortals make up their Council of Elders, which is headed by their King Aranion Gayaeil. Death is a particular fascination amongst the Shaloren, and early kings of their race were said to build great tombs for themselves whilst experimenting in flesh preservation and necromancy. The Shaloren of course deny this.
-
-They deal with other races seldom, preferring to keep a low profile, and most of their trade is done through halfling intermediaries. A few rune-crafters and enchanters sometimes travel to other major cities to do business, and some brash youths are known to explore further afield.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 5 - Thaloren", "Loremaster Greynot's Analysis of the Races - Chapter 5 - Thaloren", "_t")
-t([[The Thaloren (or Thalore - lit "siblings of wrath") are on average 6'4", with dark brown hair and hazel or green eyes. They are generally of muscular build, and known for their physical prowess. They are renowned to be of a fey mindset - as quick to furious violence as they are to joyous song. Their relations with the Shaloren are particularly strained, as they strongly oppose their brethren's use of magic.
-
-Their capital city is Shatur, hidden deep within the northern woods, and they are loathe to let any outsiders even approach the surrounding forest. Archers and fighters carefully patrol their borders, ready to rain down death from the trees on any who encroach. Their leader is Queen Nessilla Tantaelen, and they are said to live in extensive dwellings carved into giant trees, but little else is known about their society.
-
-Those who choose to leave the fastness of the forest tend to be of unique disposition with unusual attitudes and traits. Oft they are musicians, bowmasters or skilled warriors. However they are sometimes mistrusted heavily, as rumour has it that many of those who leave Shatur are actually criminals expelled for the very worst crimes. In any case they tend to be natural loners who wander the world on their own personal quests.
-
-The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], [[The Thaloren (or Thalore - lit "siblings of wrath") are on average 6'4", with dark brown hair and hazel or green eyes. They are generally of muscular build, and known for their physical prowess. They are renowned to be of a fey mindset - as quick to furious violence as they are to joyous song. Their relations with the Shaloren are particularly strained, as they strongly oppose their brethren's use of magic.
-
-Their capital city is Shatur, hidden deep within the northern woods, and they are loathe to let any outsiders even approach the surrounding forest. Archers and fighters carefully patrol their borders, ready to rain down death from the trees on any who encroach. Their leader is Queen Nessilla Tantaelen, and they are said to live in extensive dwellings carved into giant trees, but little else is known about their society.
-
-Those who choose to leave the fastness of the forest tend to be of unique disposition with unusual attitudes and traits. Oft they are musicians, bowmasters or skilled warriors. However they are sometimes mistrusted heavily, as rumour has it that many of those who leave Shatur are actually criminals expelled for the very worst crimes. In any case they tend to be natural loners who wander the world on their own personal quests.
-
-The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 6 - Naloren (extinct)", "Loremaster Greynot's Analysis of the Races - Chapter 6 - Naloren (extinct)", "_t")
-t([[The Naloren (or Nalore - lit "siblings of spirit") are now an extinct race, as their homeland was swept into the sea by the Cataclysm. However as a separate elf race they are worth studying, scant though the records be. Much of what is now said about the Naloren is traced with myth, but one can deduce certain facts.
-
-Naloren elves were around 5'10", with blonde hair and green eyes. They were incredibly thin, but known for their swift and dextrous capabilities. Their kingdom was located on the eastern side of Maj'Eyal, and all of their towns were on the sea or straddling major rivers. They employed themselves as fishermen, sponge-divers, sailors and musicians. They were renowned for being able to stay underwater for hours at a time, and those with arcane abilities were said to be able to stay submerged indefinitely.
-
-They traded little with the other races, and were very protective of their coastal lands. They most especially guarded jealously an ancient Sher'Tul ruin that lay in the centre of their territories. The Shaloren were in particular keen to study this relic, but the Naloren always refused them access, though they were too afraid to touch it themselves. The orcs were said to encroach on their lands often, but were always fought back by their mail-clad warriors wielding vicious tridents.
-
-Alas their love of the sea was to be their undoing. When the Cataclysm came the whole of the coastal kingdom was shorn away and fell into the sea, annihilating almost the entire race. What small numbers survived committed suicide soon after by leaping from the eastern cliffs into the ocean, following their fallen brothers and sisters. Almost no evidence of their civilisation remains.]], [[The Naloren (or Nalore - lit "siblings of spirit") are now an extinct race, as their homeland was swept into the sea by the Cataclysm. However as a separate elf race they are worth studying, scant though the records be. Much of what is now said about the Naloren is traced with myth, but one can deduce certain facts.
-
-Naloren elves were around 5'10", with blonde hair and green eyes. They were incredibly thin, but known for their swift and dextrous capabilities. Their kingdom was located on the eastern side of Maj'Eyal, and all of their towns were on the sea or straddling major rivers. They employed themselves as fishermen, sponge-divers, sailors and musicians. They were renowned for being able to stay underwater for hours at a time, and those with arcane abilities were said to be able to stay submerged indefinitely.
-
-They traded little with the other races, and were very protective of their coastal lands. They most especially guarded jealously an ancient Sher'Tul ruin that lay in the centre of their territories. The Shaloren were in particular keen to study this relic, but the Naloren always refused them access, though they were too afraid to touch it themselves. The orcs were said to encroach on their lands often, but were always fought back by their mail-clad warriors wielding vicious tridents.
-
-Alas their love of the sea was to be their undoing. When the Cataclysm came the whole of the coastal kingdom was shorn away and fell into the sea, annihilating almost the entire race. What small numbers survived committed suicide soon after by leaping from the eastern cliffs into the ocean, following their fallen brothers and sisters. Almost no evidence of their civilisation remains.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 7 - Ogres", "Loremaster Greynot's Analysis of the Races - Chapter 7 - Ogres", "_t")
-t([[Ogres have never been a thriving race, starting from their abrupt appearance as soldiers and laborers for the Conclave during the Allure Wars (unexplained aside from a highly implausible story from the Conclave's Overseers about a lost mountain tribe).  Left without homes or proper runic training after the war's end, they were forced to found their own tribes and rediscover the fields of rune and infusion creation for themselves, and though their numbers dropped rapidly, they enjoyed a brief period of relative success as nomadic rune-traders, virtually unaffected by the Spellblaze.  The Spellhunt nearly proved to be their undoing, as their monstrous size and rune-covered skin made them popular targets; they were thought to be extinct, and only in recent years has the city of Elvala revealed that some Ogres took refuge there during this time.  Their descendants still live today, fearful of persecution but gradually beginning to explore outside Elvala for the first time in ages.
-
-Ogres' most striking feature is their size, by far the largest of any intelligent race; they average at roughly 8'4" tall, and most are nearly half as wide with muscle.  They have a similar range of skin tones to humans, although slightly grayer on the whole; their hair tends to be dark brown or black, and their eyes run the gamut from black to bright blue to purple, presumably a side-effect of runic mis-transcription.  Their angular facial features invite some impolite comparisons to Orcs, with strong jawlines, disproportionately large mouths and teeth, and squarish heads, but otherwise resemble those of humans.  It would be remiss of me to describe Ogres' appearance without mentioning the intricate, glowing pattern of runes covering their skin from head to toe, although the exact patterns and colors vary.  
-
-Although they excel at physical tasks for obvious reasons, and the necessity of careful inscription has made their finger dexterity (and penmanship) rather impressive, their limb movements tend to be slow and clumsy due to their size, and they tire quickly if they over-exert themselves during strenuous labor.  Their slow speech, incredible appetites, and lack of interest in arts or most scholarly concerns has led to a misconception that they are dim-witted; however, Ogres forced into studious tasks have performed admirably, and one needs only look at their runic patterns to know the patient study and artistic vision they are capable of, if properly motivated.  This may tie into the humble, duty-bound mindset that seems to be an inherent property of the species - most Ogres show absolutely no interest in leadership or impressing others, only completing tasks in the most reliable manner possible, and such strategies tend to be rather simple.
-
-While Shalore use of magic is (arguably) a choice, Ogres have no such luxury.  Their inscriptions are as crucial to their well-being and structural integrity as any internal organ, and attempts by Ziguranth to "cleanse" captured Ogres of their runes invariably lead to them first collapsing under their own weight, then their organs shutting down one by one; one can assume that their natural infusions are just as vital.  As such, Ogre reproduction is a careful task; a newborn can live for a few months unaltered, but after this the parents must give their child a thorough regimen of runic inscription and herbal infusions.  The parents typically perform this task together, using each others' runes as a reference, and any mistakes made in the transcription will affect the child's health and development (usually adversely, though it is believed that transcription errors are responsible for mitigating Ogres' once-uncontrollable tempers).  As such, the inscribed patterns are as much of an influence on the child's development as the physical and mental traits of his or her parents.	
-
-Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], [[Ogres have never been a thriving race, starting from their abrupt appearance as soldiers and laborers for the Conclave during the Allure Wars (unexplained aside from a highly implausible story from the Conclave's Overseers about a lost mountain tribe).  Left without homes or proper runic training after the war's end, they were forced to found their own tribes and rediscover the fields of rune and infusion creation for themselves, and though their numbers dropped rapidly, they enjoyed a brief period of relative success as nomadic rune-traders, virtually unaffected by the Spellblaze.  The Spellhunt nearly proved to be their undoing, as their monstrous size and rune-covered skin made them popular targets; they were thought to be extinct, and only in recent years has the city of Elvala revealed that some Ogres took refuge there during this time.  Their descendants still live today, fearful of persecution but gradually beginning to explore outside Elvala for the first time in ages.
-
-Ogres' most striking feature is their size, by far the largest of any intelligent race; they average at roughly 8'4" tall, and most are nearly half as wide with muscle.  They have a similar range of skin tones to humans, although slightly grayer on the whole; their hair tends to be dark brown or black, and their eyes run the gamut from black to bright blue to purple, presumably a side-effect of runic mis-transcription.  Their angular facial features invite some impolite comparisons to Orcs, with strong jawlines, disproportionately large mouths and teeth, and squarish heads, but otherwise resemble those of humans.  It would be remiss of me to describe Ogres' appearance without mentioning the intricate, glowing pattern of runes covering their skin from head to toe, although the exact patterns and colors vary.  
-
-Although they excel at physical tasks for obvious reasons, and the necessity of careful inscription has made their finger dexterity (and penmanship) rather impressive, their limb movements tend to be slow and clumsy due to their size, and they tire quickly if they over-exert themselves during strenuous labor.  Their slow speech, incredible appetites, and lack of interest in arts or most scholarly concerns has led to a misconception that they are dim-witted; however, Ogres forced into studious tasks have performed admirably, and one needs only look at their runic patterns to know the patient study and artistic vision they are capable of, if properly motivated.  This may tie into the humble, duty-bound mindset that seems to be an inherent property of the species - most Ogres show absolutely no interest in leadership or impressing others, only completing tasks in the most reliable manner possible, and such strategies tend to be rather simple.
-
-While Shalore use of magic is (arguably) a choice, Ogres have no such luxury.  Their inscriptions are as crucial to their well-being and structural integrity as any internal organ, and attempts by Ziguranth to "cleanse" captured Ogres of their runes invariably lead to them first collapsing under their own weight, then their organs shutting down one by one; one can assume that their natural infusions are just as vital.  As such, Ogre reproduction is a careful task; a newborn can live for a few months unaltered, but after this the parents must give their child a thorough regimen of runic inscription and herbal infusions.  The parents typically perform this task together, using each others' runes as a reference, and any mistakes made in the transcription will affect the child's health and development (usually adversely, though it is believed that transcription errors are responsible for mitigating Ogres' once-uncontrollable tempers).  As such, the inscribed patterns are as much of an influence on the child's development as the physical and mental traits of his or her parents.	
-
-Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 8 - Orcs (extinct)", "Loremaster Greynot's Analysis of the Races - Chapter 8 - Orcs (extinct)", "_t")
+Outre les nombreux nains marchands que l'on peut rencontrer, il existe également un grand nombre de jeunes nains qui s'aventurent au-delà de leurs halls de pierre. Ceux-ci sont généralement d'humeur aventurière, et il est encouragé dans la société naine de faire l'expérience du monde plus large dans sa jeunesse. On appelle cela chez eux être "forgé sur l'enclume du monde". En privé, cependant, certains nains seniors admettent que cette activité est aussi encouragée pour servir leur "stratégie d'étude de marché".]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 4 - Shaloren", "Analyse des Races par le Chroniqueur Greynot - Chapitre 4 - Shalore", "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 5 - Thaloren", "Analyse des Races par le Chroniqueur Greynot - Chapitre 5 - Thalore", "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 6 - Naloren (extinct)", "Analyse des Races par le Chroniqueur Greynot - Chapitre 6 - Nalore (éteint)", "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 7 - Ogres", "Analyse des Races par le Chroniqueur Greynot - Chapitre 7 - Ogres", "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 8 - Orcs (extinct)", "Analyse des Races, par le Chroniqueur Greynot - Chapitre 8 - Orcs (éteints)", "_t")
 t([[The orcs are, joyfully, extinct from Maj'Eyal, following the purge instigated by King Toknor the Brave at the start of the Age of Ascendancy. But an academic study of their previous culture and civilisation is still of interest, primitive though it may have been.
 
 Orcs were generally around 6'1", with green or black skin. They varied greatly in physical appearance and build, most likely due to their exceptionally fast breeding rates. The majority of orcs were thick-built and heavily muscled, well remembered as the stock grunts of their terrible armies. However in the Age of Pyre a greater number of thinner, stringier orcs appeared, oft versed in destructive magics.
@@ -16162,16 +16067,16 @@ The orcs were first encountered by the Eldoral halflings, who tried to use the s
 
 Recent investigations of orcish ruins have revealed a surprising amount of cultural material, and even crude artworks based around fertility and battle. Some evidence has also been found of strong community elements to their culture, with much focus on sporting activities and racial pride events. However these are still clearly lacking in the subtleties and aesthetics of our more advanced cultures, and any attempt to compare them with us must be overshadowed by their brutality, territorial violence, and obsession with war.
 
-There have been no substantiated reports of orcs for over 100 years. What reported sightings there are tend to be from such unreliable sources as adventurers and hermits, and have never been verified. We should be thankful that these horrible creatures have been banished to the annals of history, surviving only as stories to be told to misbehaving children.]], [[The orcs are, joyfully, extinct from Maj'Eyal, following the purge instigated by King Toknor the Brave at the start of the Age of Ascendancy. But an academic study of their previous culture and civilisation is still of interest, primitive though it may have been.
+There have been no substantiated reports of orcs for over 100 years. What reported sightings there are tend to be from such unreliable sources as adventurers and hermits, and have never been verified. We should be thankful that these horrible creatures have been banished to the annals of history, surviving only as stories to be told to misbehaving children.]], [[Les orcs sont, fort heureusement, éteints de Maj'Eyal, suite à la purge instaurée par le Roi Toknor le Brave au début de l'Ère de l’Ascendance. Mais une étude académique de leur culture et civilisation passées présente toujours un intérêt, aussi primitives fussent-elles.
 
-Orcs were generally around 6'1", with green or black skin. They varied greatly in physical appearance and build, most likely due to their exceptionally fast breeding rates. The majority of orcs were thick-built and heavily muscled, well remembered as the stock grunts of their terrible armies. However in the Age of Pyre a greater number of thinner, stringier orcs appeared, oft versed in destructive magics.
+Les orcs mesuraient généralement environ 1m85, avec une peau verte ou noire. Ils variaient grandement en apparence physique et en carrure, très probablement en raison de leurs taux de reproduction exceptionnellement rapides. La majorité des orcs étaient bâtis en force et lourdement musclés, bien connus comme la chair à canon de leurs terribles armées. Cependant, durant l'Ère du Bûcher, un plus grand nombre d'orcs plus minces et nerveux apparurent, souvent versés dans les magies destructrices.
 
-The orcs were first encountered by the Eldoral halflings, who tried to use the simple creatures as servants, but gave up after finding them to be too violent. In the many centuries since wars and battles have been almost continuously fought with the brutes. Their oft superior numbers have at times threatened to overwhelm all of civilisation, even leading to such drastic defensive measures as the Spellblaze. The most terrifying time though was during the Age of Pyre, when the orcs developed arcane abilities, and under the leadership of Garkul the Devourer they swept through the continent, mercilessly slaying all before them. In the end 10,000 halflings gave up their lives in the Battle of Nargol to defeat their demonic leader and stem their army's advance. Gradually the civilised races began to recover, and finally King Toknor and Queen Mirvenia succeeded in uniting the human and halfling kingdoms, putting together a force to push back the orcs and ultimately extinguishing them entirely.
+Les orcs furent rencontrés pour la première fois par les Halfelins d'Eldoral, qui tentèrent d'utiliser ces créatures simples comme serviteurs, mais abandonnèrent après avoir découvert qu'ils étaient trop violents. Depuis, pendant plusieurs siècles, des guerres et des batailles ont été menées presque continuellement contre ces brutes. Leurs nombres souvent supérieurs ont parfois menacé de submerger toute la civilisation, menant même à des mesures défensives aussi drastiques que la Brûlure Magique. L'époque la plus terrifiante fut cependant durant l'Ère du Bûcher, lorsque les orcs développèrent des capacités arcaniques et que, sous la direction de Garkul le Dévoreur, ils balayèrent le continent, massacrant impitoyablement tout sur leur passage. Finalement, 10 000 Halfelins donnèrent leur vie lors de la Bataille de Nargol pour vaincre leur chef démoniaque et endiguer l'avancée de leur armée. Graduellement, les races civilisées commencèrent à se rétablir, et finalement le Roi Toknor et la Reine Mirvenia réussirent à unir les royaumes humain et halfling, formant une force pour repousser les orcs et, en fin de compte, les éteindre entièrement.
 
-Recent investigations of orcish ruins have revealed a surprising amount of cultural material, and even crude artworks based around fertility and battle. Some evidence has also been found of strong community elements to their culture, with much focus on sporting activities and racial pride events. However these are still clearly lacking in the subtleties and aesthetics of our more advanced cultures, and any attempt to compare them with us must be overshadowed by their brutality, territorial violence, and obsession with war.
+Des enquêtes récentes sur les ruines orques ont révélé une quantité surprenante de matériel culturel, et même des oeuvres d'art rudimentaires basées sur la fertilité et la bataille. Quelques preuves ont également été trouvées concernant de forts éléments communautaires dans leur culture, avec un accent mis sur les activités sportives et les événements de fierté raciale. Cependant, ils manquent clairement de la subtilité et de l'esthétique de nos cultures plus avancées, et toute tentative de les comparer à nous doit être occultée par leur brutalité, leur violence territoriale et leur obsession de la guerre.
 
-There have been no substantiated reports of orcs for over 100 years. What reported sightings there are tend to be from such unreliable sources as adventurers and hermits, and have never been verified. We should be thankful that these horrible creatures have been banished to the annals of history, surviving only as stories to be told to misbehaving children.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 9 - Sher'Tul (extinct)", "Loremaster Greynot's Analysis of the Races - Chapter 9 - Sher'Tul (extinct)", "_t")
+Il n'y a eu aucun rapport fondé sur des orcs depuis plus de 100 ans. Les quelques signalements sont généralement issus de sources aussi peu fiables que des aventuriers et des ermites, et n'ont jamais été vérifiés. Nous devrions être reconnaissants que ces créatures horribles aient été bannies dans les annales de l'histoire, ne survivant que comme des histoires à raconter aux enfants désobéissants.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 9 - Sher'Tul (extinct)", "Analyse des Races, par le Chroniqueur Greynot - Chapitre 9 - Sher'Tul (éteints)", "_t")
 t([[Ah, the legendary Sher'Tul! How any scholar does love to write about them. Indeed, the texts are many, but the facts are few, as so little is known about this crucible race. The most learned and factual academic on the subject is the renowned explorer and archaeologist Darwood Oakton, but he has alas been missing for several months at the time of writing. I will attempt to summarise here some of his key discoveries.
 
 The Sher'Tul lived over ten thousand years ago, during what is referred to as the Age of Haze. The name of the race we know from the elves, who speak of the ancient beings with awe and reverence, yet know little else about them. Ruins of fantastical Sher'Tul structures have been found all across Maj'Eyal, and some have been observed in sunken lands off the coasts, implying that in their time the Sher'Tul must have ruled unopposed all across the world.
@@ -16180,53 +16085,16 @@ The farportals were first discovered by the halflings during the Age of Allure, 
 
 Of their physical appearance we know almost nothing, as there is no surviving artwork or records which depict themselves. However they must have been of similar form to other common races, as their ruins contain stairs, doorways and rooms not unfit for humans. Oakton estimates from his studies of their tools and artifacts that they would have stood around 5'4" tall, with uncommonly long limbs and fingers.
 
-What caused them to become extinct is unknown, though many theories abound. The most popular in academic circles at the moment is that their mighty magics were their undoing, turned upon their own people during some great civil strife. Other theories hold weight though - Archiman Garybald, Professor of Demonic Studies, believes that the extensive uses of arcane energies by the Sher'Tul may have attracted twisted forces from other worlds which wiped out the ancient race. Some even believe that they are not truly extinct, but are in hiding, or have left this world for elsewhere. I fear the truth may never be fully known, but the ongoing study and examination of the relics they have left behind continues to provide immense value and inspiration.]], [[Ah, the legendary Sher'Tul! How any scholar does love to write about them. Indeed, the texts are many, but the facts are few, as so little is known about this crucible race. The most learned and factual academic on the subject is the renowned explorer and archaeologist Darwood Oakton, but he has alas been missing for several months at the time of writing. I will attempt to summarise here some of his key discoveries.
+What caused them to become extinct is unknown, though many theories abound. The most popular in academic circles at the moment is that their mighty magics were their undoing, turned upon their own people during some great civil strife. Other theories hold weight though - Archiman Garybald, Professor of Demonic Studies, believes that the extensive uses of arcane energies by the Sher'Tul may have attracted twisted forces from other worlds which wiped out the ancient race. Some even believe that they are not truly extinct, but are in hiding, or have left this world for elsewhere. I fear the truth may never be fully known, but the ongoing study and examination of the relics they have left behind continues to provide immense value and inspiration.]], [[Ah, les légendaires Sher'Tul ! Comme tout érudit aime écrire à leur sujet. En effet, les textes sont nombreux, mais les faits sont rares, car on sait si peu de choses sur cette race fondatrice. L'académicien le plus instruit et factuel sur le sujet est le célèbre explorateur et archéologue Darwood Oakton, mais il est hélas porté disparu depuis plusieurs mois au moment où j'écris ces lignes. Je vais tenter de résumer ici quelques-unes de ses découvertes clés.
 
-The Sher'Tul lived over ten thousand years ago, during what is referred to as the Age of Haze. The name of the race we know from the elves, who speak of the ancient beings with awe and reverence, yet know little else about them. Ruins of fantastical Sher'Tul structures have been found all across Maj'Eyal, and some have been observed in sunken lands off the coasts, implying that in their time the Sher'Tul must have ruled unopposed all across the world.
+Les Sher'Tul vécurent il y a plus de dix mille ans, durant ce qu'on appelle l'Ère de la Brume. Le nom de la race nous vient des elfes, qui parlent de ces êtres anciens avec admiration et révérence, mais n'en savent guère plus. Les ruines de structures fantastiques des Sher'Tul ont été trouvées dans tout Maj'Eyal, et certaines ont été observées dans des terres englouties au large des côtes, impliquant qu'à leur époque, les Sher'Tul devaient régner sans opposition sur tout le monde.
 
-The farportals were first discovered by the halflings during the Age of Allure, and after much experimentation they were found to be able to transport items and creatures over vast distances. The arcane powers behind these incredible artifacts are still far beyond the understanding of the greatest minds of our time. The one attempt to truly tap into these powers ended in disaster - the Shaloren moved all known farportals to a remote spot near their capital, and their most powerful mages were overwhelmed as they unleashed the Spellblaze, killing them instantly and tearing apart the continent. What remains of farportals are left in the world have since been left untouched.
+Les portails lointain furent découverts pour la première fois par les Halfelins durant l'Ère de la Séduction, et après maintes expérimentations, on découvrit qu'ils pouvaient transporter des objets et des créatures sur de vastes distances. Les pouvoirs arcaniques derrière ces artefacts incroyables sont encore bien au-delà de la compréhension des plus grands esprits de notre époque. La seule tentative de vraiment puiser dans ces pouvoirs se termina en désastre - les Shaloren déplacèrent tous les portails lointain connus vers un endroit isolé près de leur capitale, et leurs mages les plus puissants furent submergés alors qu'ils déclenchaient la Brûlure Magique, les tuant instantanément et déchirant le continent. Ce qui reste des portails lointain dans le monde est depuis resté intact.
 
-Of their physical appearance we know almost nothing, as there is no surviving artwork or records which depict themselves. However they must have been of similar form to other common races, as their ruins contain stairs, doorways and rooms not unfit for humans. Oakton estimates from his studies of their tools and artifacts that they would have stood around 5'4" tall, with uncommonly long limbs and fingers.
+De leur apparence physique, nous ne savons presque rien, car aucune oeuvre d'art ni aucun registre ne les dépeint. Cependant, ils devaient être de forme similaire aux autres races communes, car leurs ruines contiennent des escaliers, des portes et des pièces non inadaptées aux humains. Oakton estime, d'après ses études de leurs outils et artefacts, qu'ils devaient mesurer environ 1m62, avec des membres et des doigts anormalement longs.
 
-What caused them to become extinct is unknown, though many theories abound. The most popular in academic circles at the moment is that their mighty magics were their undoing, turned upon their own people during some great civil strife. Other theories hold weight though - Archiman Garybald, Professor of Demonic Studies, believes that the extensive uses of arcane energies by the Sher'Tul may have attracted twisted forces from other worlds which wiped out the ancient race. Some even believe that they are not truly extinct, but are in hiding, or have left this world for elsewhere. I fear the truth may never be fully known, but the ongoing study and examination of the relics they have left behind continues to provide immense value and inspiration.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 10 - Monstrous Races", "Loremaster Greynot's Analysis of the Races - Chapter 10 - Monstrous Races", "_t")
-t([[No text would be complete without at least a brief note of some of the more brutish races which infest our world. These do not hold any civilised society of note, nor in general do they seem capable of any form of higher thought or culture, but they are still of interest to study for any who take delight in analysing beings of more primitive intellect.
-
-Trolls come in two main types - Kezrak and Moltep, or stone and forest trolls as they are colloquially known. Stone trolls infest many mountain chains to the north-east, and some have been known to wander further afield in search of food or to spread violence. They are generally over 8' high, with extremely pronounced muscular strength and a thick, solid hide which bears the appearance of coal or granite. Forest trolls are generally found in dense woods or swamps, with the Trollmire east of Derth being especially infamous. They have a more advanced form of speech than their mountain-dwelling cousins, and are known to move faster and wield more elaborate weapons, though their greenish hide is not as thick and their musculature less developed. All trolls have intensely fast metabolisms, capable of healing from grievous wounds within a matter of hours. At birth they measure just eight inches long, but within two years grow to full maturity, and rarely live beyond ten years old. They used to be considered little more than beasts, but towards the end of the Age of Pyre many were trained as fighters by the orcs, and were even taught the basics of language and certain battle tactics, making them much more dangerous. Though the orcs are gone their servants remain, and their remote breeding areas and intense birth rates have so far scampered attempts to eradicate them completely.
-
-Giants live mostly around the mountainous peaks surrounding the Daikara Pass. They vary greatly in size, but are normally at least 10' tall. They look somewhat like large, deformed humans, with swollen or distended facial features and much longer, swinging limbs. They live in nomadic tribes, moving from peak to peak with the seasons, feeding on wild deer and goats. They are usually peaceful creatures, only turning violent when their territory is encroached or their young are threatened. There are sometimes reports of giants coming to lowlands and stealing farm animals or attacking communities, but these are rare and normally isolated to particularly harsh winters. Giants seem to have no developed culture or language worth mentioning, but have been noted to show interactions of limited intelligence and to commune well in groups.
-
-Nagas were once believed to be mere myth, but reliable reports and even the capturing of dead physical samples has shown them to be real creatures. The upper half of their body is humanoid in form, with blonde hair and an extremely thin build, but the lower half is like that of a giant snake's tail. They stand around 6' tall on land, though their tails extend several feet further. They have been encountered off the eastern and south-eastern coasts of Maj'Eyal, which seems to indicate some exotic civilisation beneath the waves. Records of them exist only from the last few hundred years, and only more recently have they been interpreted as more than just the wild fantasies of inebriated sailors. They can breathe in air and underwater, possessing both lungs and gills, and have been reported to move with surprising speed on the ground. One might think them simply odd monsters, but they decorate themselves in jewellry and craft weapons and armour from materials found on the sea-bed, such as supple mail formed from layers of thick shark-hide. This would suggest an advanced culture, but communication with them so far has proved impossible. It is not known if they are capable of complex speech, but to date their only response to those who encounter them has been extreme violence, and fishermen in the east are always wary of coming across these vicious creatures.
-
-The origin of Demons is not wholly known, but it is clear that they are capable of intelligence and so I feel the need to describe them somewhat here. It is known that they can be summoned by certain magical rites, and minor demons were oft in the employ of evil sorcerers during the Age of Dusk. The main theory, which is supported by certain studies by Shaloren archmages, seems to indicate that they come from another world than our own, with connections formed through intense arcane energies. It must be a truly terrifying place to host such foul denizens. Demons vary immensely in appearance and power, as much as the creatures of our own world vary. They generally have blueish blood and metallic flesh and skin, which can oft react oddly with our atmosphere - some become wreathed in flames, others release hideous acids or belching clouds of darkness. All seem versed in magical abilities to some degree, and the strongest of them possess truly terrifying powers. Luckily they are exceptionally rare, and seem to be much less common in modern times since magic has fallen out of use.]], [[No text would be complete without at least a brief note of some of the more brutish races which infest our world. These do not hold any civilised society of note, nor in general do they seem capable of any form of higher thought or culture, but they are still of interest to study for any who take delight in analysing beings of more primitive intellect.
-
-Trolls come in two main types - Kezrak and Moltep, or stone and forest trolls as they are colloquially known. Stone trolls infest many mountain chains to the north-east, and some have been known to wander further afield in search of food or to spread violence. They are generally over 8' high, with extremely pronounced muscular strength and a thick, solid hide which bears the appearance of coal or granite. Forest trolls are generally found in dense woods or swamps, with the Trollmire east of Derth being especially infamous. They have a more advanced form of speech than their mountain-dwelling cousins, and are known to move faster and wield more elaborate weapons, though their greenish hide is not as thick and their musculature less developed. All trolls have intensely fast metabolisms, capable of healing from grievous wounds within a matter of hours. At birth they measure just eight inches long, but within two years grow to full maturity, and rarely live beyond ten years old. They used to be considered little more than beasts, but towards the end of the Age of Pyre many were trained as fighters by the orcs, and were even taught the basics of language and certain battle tactics, making them much more dangerous. Though the orcs are gone their servants remain, and their remote breeding areas and intense birth rates have so far scampered attempts to eradicate them completely.
-
-Giants live mostly around the mountainous peaks surrounding the Daikara Pass. They vary greatly in size, but are normally at least 10' tall. They look somewhat like large, deformed humans, with swollen or distended facial features and much longer, swinging limbs. They live in nomadic tribes, moving from peak to peak with the seasons, feeding on wild deer and goats. They are usually peaceful creatures, only turning violent when their territory is encroached or their young are threatened. There are sometimes reports of giants coming to lowlands and stealing farm animals or attacking communities, but these are rare and normally isolated to particularly harsh winters. Giants seem to have no developed culture or language worth mentioning, but have been noted to show interactions of limited intelligence and to commune well in groups.
-
-Nagas were once believed to be mere myth, but reliable reports and even the capturing of dead physical samples has shown them to be real creatures. The upper half of their body is humanoid in form, with blonde hair and an extremely thin build, but the lower half is like that of a giant snake's tail. They stand around 6' tall on land, though their tails extend several feet further. They have been encountered off the eastern and south-eastern coasts of Maj'Eyal, which seems to indicate some exotic civilisation beneath the waves. Records of them exist only from the last few hundred years, and only more recently have they been interpreted as more than just the wild fantasies of inebriated sailors. They can breathe in air and underwater, possessing both lungs and gills, and have been reported to move with surprising speed on the ground. One might think them simply odd monsters, but they decorate themselves in jewellry and craft weapons and armour from materials found on the sea-bed, such as supple mail formed from layers of thick shark-hide. This would suggest an advanced culture, but communication with them so far has proved impossible. It is not known if they are capable of complex speech, but to date their only response to those who encounter them has been extreme violence, and fishermen in the east are always wary of coming across these vicious creatures.
-
-The origin of Demons is not wholly known, but it is clear that they are capable of intelligence and so I feel the need to describe them somewhat here. It is known that they can be summoned by certain magical rites, and minor demons were oft in the employ of evil sorcerers during the Age of Dusk. The main theory, which is supported by certain studies by Shaloren archmages, seems to indicate that they come from another world than our own, with connections formed through intense arcane energies. It must be a truly terrifying place to host such foul denizens. Demons vary immensely in appearance and power, as much as the creatures of our own world vary. They generally have blueish blood and metallic flesh and skin, which can oft react oddly with our atmosphere - some become wreathed in flames, others release hideous acids or belching clouds of darkness. All seem versed in magical abilities to some degree, and the strongest of them possess truly terrifying powers. Luckily they are exceptionally rare, and seem to be much less common in modern times since magic has fallen out of use.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 11 - Dragons", "Loremaster Greynot's Analysis of the Races - Chapter 11 - Dragons", "_t")
-t([[The common man may scoff at the idea of classifying dragons as an intelligent race, but experienced wyrmics know otherwise. Dragons are incredibly long-lived creatures, with some known to survive for thousands of years. Though in their early life they are of a bestial nature, as they advance through the centuries they gain an ever keener and more developed intellect. The eldest of wyrms are sometimes considered the most subtle and intelligent of creatures in Maj'Eyal, capable of telepathic communication and advanced mental abilities, and wyrmics speak of them with the highest reverence.
-
-Dragons come in many shapes and sizes, normally growing from 5' long hatchlings to 20' long mature drakes, with some of the greatest wyrms growing to over 40' in length. They are generally winged, with large lizard-like maws and sharp talons on both their fore and hind legs. They are often noted for the lustrous colour of their scales, normally representing an attunement to one of the key Elements of Eyal. This attunement is unseen in any other race, and some philosophers believe that dragons predate all other races, being formed as raw representations of the elements of nature at the beginning of the world. However this theory may be borne purely from the fanatical delusions of certain wyrmics who have studied the creatures for too long.
-
-All corners of Maj'Eyal show some trace of different types of dragons. The Daikara Pass and surrounding mountain chains are home to a great number of ice and storm dragons. Numerous sand and red dragons can be found in the western desert and hills, and many have been the reports of gigantic sea dragons in the deepest oceans, especially to the south.
-
-Attacks from dragons on humans and halfling settlements are fairly rare, but when they occur they can be truly devastating. Usually they are to feed on livestock, but now and then come attacks from newly matured drakes, seeking out precious metals and gemstones to build up a hoard. Dragon hoards have become a thing of legend, with the greatest wyrms rumoured to protect literal mountains of gold, but in modern times truly sizeable hoards are rare. The dwarves farmed hoarding dragons almost to extinction in the Age of Allure, and most dragons these days retain only modest treasures in their lairs.
-
-Dragons are regularly hunted for their thick scales and their elementally imbued bones. Dragonskin leather is prized amongst armour-workers, as when properly treated it is both light and tough, and oft retains some inkling of the original wyrm's power. Dragon-bone is highly favoured by staff-crafters for its natural attunement to elemental forces, and is sometimes used by fletchers in the crafting of the most delicate yet resilient bows and arrows. However the hunting of dragons for their skin and bones is greatly opposed by many wyrmics, and there is an increasing market for "naturally harvested" drake materials - those taken from dragons which have died of natural causes. Still, demand for all dragon materials is strong with exceptionally high prices paid, and many are the greedy souls that lose their lives each year at the fangs and claws of these magnificent creatures.]], [[The common man may scoff at the idea of classifying dragons as an intelligent race, but experienced wyrmics know otherwise. Dragons are incredibly long-lived creatures, with some known to survive for thousands of years. Though in their early life they are of a bestial nature, as they advance through the centuries they gain an ever keener and more developed intellect. The eldest of wyrms are sometimes considered the most subtle and intelligent of creatures in Maj'Eyal, capable of telepathic communication and advanced mental abilities, and wyrmics speak of them with the highest reverence.
-
-Dragons come in many shapes and sizes, normally growing from 5' long hatchlings to 20' long mature drakes, with some of the greatest wyrms growing to over 40' in length. They are generally winged, with large lizard-like maws and sharp talons on both their fore and hind legs. They are often noted for the lustrous colour of their scales, normally representing an attunement to one of the key Elements of Eyal. This attunement is unseen in any other race, and some philosophers believe that dragons predate all other races, being formed as raw representations of the elements of nature at the beginning of the world. However this theory may be borne purely from the fanatical delusions of certain wyrmics who have studied the creatures for too long.
-
-All corners of Maj'Eyal show some trace of different types of dragons. The Daikara Pass and surrounding mountain chains are home to a great number of ice and storm dragons. Numerous sand and red dragons can be found in the western desert and hills, and many have been the reports of gigantic sea dragons in the deepest oceans, especially to the south.
-
-Attacks from dragons on humans and halfling settlements are fairly rare, but when they occur they can be truly devastating. Usually they are to feed on livestock, but now and then come attacks from newly matured drakes, seeking out precious metals and gemstones to build up a hoard. Dragon hoards have become a thing of legend, with the greatest wyrms rumoured to protect literal mountains of gold, but in modern times truly sizeable hoards are rare. The dwarves farmed hoarding dragons almost to extinction in the Age of Allure, and most dragons these days retain only modest treasures in their lairs.
-
-Dragons are regularly hunted for their thick scales and their elementally imbued bones. Dragonskin leather is prized amongst armour-workers, as when properly treated it is both light and tough, and oft retains some inkling of the original wyrm's power. Dragon-bone is highly favoured by staff-crafters for its natural attunement to elemental forces, and is sometimes used by fletchers in the crafting of the most delicate yet resilient bows and arrows. However the hunting of dragons for their skin and bones is greatly opposed by many wyrmics, and there is an increasing market for "naturally harvested" drake materials - those taken from dragons which have died of natural causes. Still, demand for all dragon materials is strong with exceptionally high prices paid, and many are the greedy souls that lose their lives each year at the fangs and claws of these magnificent creatures.]], "_t")
-t("shatur", "shatur", "newLore category")
-t("Lament for Lands now Lost", "Lament for Lands now Lost", "_t")
+Ce qui a causé leur extinction est inconnu, bien que de nombreuses théories abondent. La plus populaire dans les cercles académiques est que leurs puissantes magies furent leur perte, retournées contre leur propre peuple lors d'un grand conflit civil. D'autres théories ont cependant du poids - l'Archimage Garybald, Professeur d'Études Démoniaques, pense que l'utilisation intensive des énergies arcaniques par les Sher'Tul pourrait avoir attiré des forces tordues d'autres mondes qui auraient anéanti cette ancienne race. Certains pensent même qu'ils ne sont pas vraiment éteints, mais qu'ils sont cachés, ou qu'ils ont quitté ce monde pour un autre. Je crains que la vérité ne soit jamais totalement connue, mais l'étude et l'examen en cours des reliques qu'ils ont laissées derrière eux continuent de fournir une valeur et une inspiration immenses.]], "_t")
+t("Lament for Lands now Lost", "Lamentations pour nos Terres à présent Perdues", "_t")
 t([[You see a moss covered statue of a Thalore reciting a poem, over and over.
 #{italic}#"Where bright and berried yews did stand,
 Where the eldest oaks grew so grand,
@@ -16242,24 +16110,24 @@ Oaths from Shaloren mages sworn,
 Yet spells of fiery rages born,
 Our lands of bygone ages torn,
 Gone is trust, wrath is red.#{normal}#
-]], [[You see a moss covered statue of a Thalore reciting a poem, over and over.
-#{italic}#"Where bright and berried yews did stand,
-Where the eldest oaks grew so grand,
-Where singing birds once flew to land,
-All is dust, all is dead.
+]], [[Vous voyez une statue de Thalore couverte de mousse récitant un poème, encore et encore.
+#{italic}#"Là où se dressaient des ifs brillants et chargés de baies,
+Là où les chênes les plus anciens poussaient si grandioses,
+Là où les oiseaux chanteurs volaient autrefois pour se poser,
+Tout n'est que poussière, tout est mort.
 
-Once flowers rose to reach the sky,
-Once blossoms fell from beech on high,
-Once thrush and owl did screech and cry,
-Now all lost, now all fled.
+Autrefois les fleurs s'élevaient pour atteindre le ciel,
+Autrefois les bourgeons tombaient des hêtres en hauteur,
+Autrefois grives et chouettes criaient et piaillaient,
+Maintenant tout est perdu, maintenant tout a fui.
 
-Oaths from Shaloren mages sworn,
-Yet spells of fiery rages born,
-Our lands of bygone ages torn,
-Gone is trust, wrath is red.#{normal}#
+Serments prêtés par les mages Shaloren,
+Pourtant sorts de rages ardentes nés,
+Nos terres d'ères révolues déchirées,
+La confiance est partie, rouge est notre courroux.#{normal}#
 ]], "_t")
-t("artifacts", "artifacts", "newLore category")
-t("Running man", "Running man", "_t")
+t("artifacts", "artefacts", "newLore category")
+t("Running man", "Fugitif", "_t")
 t([[Running man, running man
 Your time is ending soon
 Running man, running man
@@ -16273,21 +16141,21 @@ You know your fate is grim
 Running man, running man
 Now's the time to choose
 Running man, running man
-Your honour or your shoes!]], [[Running man, running man
-Your time is ending soon
-Running man, running man
-Will not save sun nor moons
+Your honour or your shoes!]], [[Fugitif, fugitif
+Ton temps touche bientôt à sa fin
+Fugitif, fugitif
+Ni soleil ni lunes ne te sauveront en vain
 
-Running man, running man
-Survival growing slim
-Running man, running man
-You know your fate is grim
+Fugitif, fugitif
+La survie devient bien mince
+Fugitif, fugitif
+Tu sais que ton destin est sinistre
 
-Running man, running man
-Now's the time to choose
-Running man, running man
-Your honour or your shoes!]], "_t")
-t("Gifts of Nature", "Gifts of Nature", "_t")
+Fugitif, fugitif
+C'est maintenant l'heure de choisir
+Fugitif, fugitif
+Ton honneur ou tes chaussures à saisir !]], "_t")
+t("Gifts of Nature", "Dons de la Nature", "_t")
 t([[In Age of Allure rose an archmage high
 With power beyond compare
 And the people poor would not come nigh
@@ -16336,93 +16204,368 @@ The blood that freely ran
 "Fool warlock dead, you were too vain
 To gifts of Nature trust
 Your faith instead in tools arcane
-Now to Nature you are dust"]], [[In Age of Allure rose an archmage high
-With power beyond compare
-And the people poor would not come nigh
-His dark and terrible lair
+Now to Nature you are dust"]], [[À l'Ère de l'Allure s'éleva un archimage hautain
+Au pouvoir sans égal
+Et les pauvres gens n'approchaient point
+Son antre sombre et terrible
 
-Whilst crops fell dead in drought and blight
-And children grew diseased
-The wizard dread stole in the night
-To pillage what he pleased
+Tandis que les récoltes mouraient de sécheresse et de fléau
+Et que les enfants tombaient malades
+Le sorcier redouté volait dans la nuit
+Pour piller ce qui lui plaisait
 
-But a hero came with shining sword
-And a will of solid steel
-Not seeking fame or high reward
-He followed but his zeal
+Mais un héros vint avec une épée brillante
+Et une volonté d'acier trempé
+Ne cherchant ni gloire ni haute récompense
+Il ne suivait que son zèle
 
-"From Zigur I come on righteous quest
-To battle foes arcane
-I will not succumb to magic detest
-I will end this evil reign"
+"De Zigur je viens en quête juste
+Pour combattre les ennemis arcaniques
+Je ne succomberai pas à la magie détestable
+Je mettrai fin à ce règne maléfique"
 
-And so he rode on pure-white steed
-To the warlock's hold
-That dank abode of dark misdeed
-He entered brave and bold
+Et ainsi il chevaucha un destrier blanc pur
+Jusqu'à la demeure du démoniste
+Cet abode humide de sombres méfaits
+Il entra brave et audacieux
 
-There battle blazed beyond all sight
-Sword clashed with spell
-Blood was razed in fearsome fight
-Scream followed yell
+Là, la bataille flamboya au-delà de toute vue
+L'épée s'entrechoqua avec le sort
+Le sang fut rasé dans un combat effroyable
+Le cri suivit le hurlement
 
-A beam was cast of arcane pure
-Piercing mail and shield
-But still steadfast with flesh secure
-The hero did not yield
+Un rayon fut lancé d'arcane pur
+Perçant cotte de mailles et bouclier
+Mais toujours inébranlable avec une chair intacte
+Le héros ne céda pas
 
-A slash tore through the wizard's cloth
-His hat dropped to the ground
-From loose grip flew his staff so wroth
-Thus fell the mage renowned
+Une entaille déchira les vêtements du magicien
+Son chapeau tomba au sol
+De sa prise lâche s'envola son bâton si courroucé
+Ainsi tomba le mage renommé
 
-Now bare of skin and weaponless
-Here lay but a man
-No arcane sin could now redress
-The blood that freely ran
+Maintenant nu de peau et sans arme
+Ici ne gisait qu'un homme
+Aucun péché arcanique ne pouvait plus réparer
+Le sang qui coulait librement
 
-"Fool warlock dead, you were too vain
-To gifts of Nature trust
-Your faith instead in tools arcane
-Now to Nature you are dust"]], "_t")
-t("dreamscape", "dreamscape", "newLore category")
-t("If I Should Die Before I Wake", "If I Should Die Before I Wake", "_t")
+"Sorcier fou et mort, tu étais trop vain
+Pour faire confiance aux dons de la Nature
+Ta foi en revanche dans des outils arcaniques
+Maintenant à la Nature tu es poussière"]], "_t")
+t("dreamscape", "rêverie", "newLore category")
+t("If I Should Die Before I Wake", "Si je devais mourir avant de m'éveiller", "_t")
 t([[You wake suddenly from your unexpected slumber and attempt to quickly regain your bearings. However, you are not prepared for the bizarre vision that greets you: instead of land and sky you see only amorphous shapes and varying degrees of light. A strange psychedelic haze permeates the air and otherworldly colors and shadows flicker in and out of your peripheral vision. 
 As you begin to come to grips with this strange environment, you realize with horror that you cannot move! Your body feels as if it is completely without weight and try as you may you cannot budge an inch. You experience a sense of Déjà Vu as you recall past nightmares of being paralyzed. That's when it strikes you: you never woke up at all, you're still asleep! This epiphany is only reinforced when you notice a strange phenomenon: mirror copies of yourself are being slowly projected from where you stand and are moving about of their own volition.
 They all seem to be focused on something in particular, but what? Just as soon as you set your mind to discerning what your dreamselves are focusing on, you feel it. With horror, you realize that you are not alone here. 
 Somehow, your foe has invaded your very subconcious and is attacking you in your dreams. Still unable to move, your lucid mind races on how to handle such an insane and horrible situation. On a whim you concentrate on one of your projections and you find that you can control it. 
-Free now to face this nightmare, you turn to find your foe. While you have a sense that having one of your dreamselves destroyed may not by itself be catastrophic, what would happen if several or many are cut down? Unwilling to find out, you resolve yourself to end this offensive intrustion into your mind.]], [[You wake suddenly from your unexpected slumber and attempt to quickly regain your bearings. However, you are not prepared for the bizarre vision that greets you: instead of land and sky you see only amorphous shapes and varying degrees of light. A strange psychedelic haze permeates the air and otherworldly colors and shadows flicker in and out of your peripheral vision. 
-As you begin to come to grips with this strange environment, you realize with horror that you cannot move! Your body feels as if it is completely without weight and try as you may you cannot budge an inch. You experience a sense of Déjà Vu as you recall past nightmares of being paralyzed. That's when it strikes you: you never woke up at all, you're still asleep! This epiphany is only reinforced when you notice a strange phenomenon: mirror copies of yourself are being slowly projected from where you stand and are moving about of their own volition.
-They all seem to be focused on something in particular, but what? Just as soon as you set your mind to discerning what your dreamselves are focusing on, you feel it. With horror, you realize that you are not alone here. 
-Somehow, your foe has invaded your very subconcious and is attacking you in your dreams. Still unable to move, your lucid mind races on how to handle such an insane and horrible situation. On a whim you concentrate on one of your projections and you find that you can control it. 
-Free now to face this nightmare, you turn to find your foe. While you have a sense that having one of your dreamselves destroyed may not by itself be catastrophic, what would happen if several or many are cut down? Unwilling to find out, you resolve yourself to end this offensive intrustion into your mind.]], "_t")
+Free now to face this nightmare, you turn to find your foe. While you have a sense that having one of your dreamselves destroyed may not by itself be catastrophic, what would happen if several or many are cut down? Unwilling to find out, you resolve yourself to end this offensive intrustion into your mind.]], [[Vous vous réveillez soudainement de votre sommeil inattendu et tentez de reprendre rapidement vos esprits. Cependant, vous n'êtes pas préparé à la vision bizarre qui vous accueille : au lieu de la terre et du ciel, vous ne voyez que des formes amorphes et des degrés variables de lumière. Une étrange brume psychédélique imprègne l'air et des couleurs et ombres d'un autre monde vacillent dans et hors de votre vision périphérique.
+Alors que vous commencez à appréhender cet environnement étrange, vous réalisez avec horreur que vous ne pouvez pas bouger ! Votre corps semble être complètement sans poids et vous avez beau essayer, vous ne pouvez pas bouger d'un pouce. Vous ressentez un sentiment de Déjà Vu en vous rappelant des cauchemars passés où vous étiez paralysé. C'est alors que cela vous frappe : vous ne vous êtes jamais réveillé du tout, vous êtes toujours endormi ! Cette épiphanie n'est renforcée que lorsque vous remarquez un phénomène étrange : des copies miroirs de vous-même sont lentement projetées depuis l'endroit où vous vous tenez et se déplacent de leur propre volonté.
+Elles semblent toutes se concentrer sur quelque chose en particulier, mais quoi ? Dès que vous vous efforcez de discerner ce sur quoi vos doubles oniriques se concentrent, vous le ressentez. Avec horreur, vous réalisez que vous n'êtes pas seul ici.
+D'une manière ou d'une autre, votre ennemi a envahi votre subconscient même et vous attaque dans vos rêves. Toujours incapable de bouger, votre esprit lucide se demande comment gérer une situation aussi insensée et horrible. Sur un coup de tête, vous vous concentrez sur l'une de vos projections et découvrez que vous pouvez la contrôler.
+Libre maintenant d'affronter ce cauchemar, vous vous tournez pour trouver votre ennemi. Bien que vous ayez le sentiment que la destruction de l'un de vos doubles oniriques ne soit peut-être pas en soi catastrophique, que se passerait-il si plusieurs ou beaucoup d'entre eux étaient abattus ? Ne voulant pas le découvrir, vous vous résolvez à mettre fin à cette intrusion offensive dans votre esprit.]], "_t")
+t("vault", "chambre forte", "newLore category")
+t("Mocking Note", "Note Moqueuse", "_t")
 t([[Dear graverobber,
 
 Try to be a little faster next time.
 
-Love, #{italic}#Eden#{normal}#]], [[Dear graverobber,
+Love, #{italic}#Eden#{normal}#]], [[Cher pilleur de tombes,
 
-Try to be a little faster next time.
+Essayez d'être un peu plus rapide la prochaine fois.
 
-Love, #{italic}#Eden#{normal}#]], "_t")
+Avec amour, #{italic}#Eden#{normal}#]], "_t")
+t("Guard's Journal", "Journal du Garde", "_t")
 t([[Sixth time this week stuck guarding at the stash. And for what? Just a little fun! 
 
-Almost miss being at the farm sometimes. At least there I wasn't able to screw anything up. Wonder if they would take me back knowing what I've been doing with my life...]], [[Sixth time this week stuck guarding at the stash. And for what? Just a little fun! 
+Almost miss being at the farm sometimes. At least there I wasn't able to screw anything up. Wonder if they would take me back knowing what I've been doing with my life...]], [[Sixième fois cette semaine que je suis coincé à garder la réserve. Et pour quoi ? Juste un peu de plaisir !
 
-Almost miss being at the farm sometimes. At least there I wasn't able to screw anything up. Wonder if they would take me back knowing what I've been doing with my life...]], "_t")
+Ça me manque presque d'être à la ferme parfois. Au moins là-bas, je ne pouvais rien gâcher. Je me demande s'ils me reprendraient en sachant ce que j'ai fait de ma vie...]], "_t")
+t("Boss's Journal", "Journal du Chef", "_t")
 t([[The best haul we ever got, gone. We could have been set for life, the most legendary outlaws in all the lands! Villages would tremble at the thought of us roaming the woods.
 
 Only a matter of time until that nobleman catches wind and comes after us. We were about to get more gold than we could count for his lassie back, and that dirt farmer set her on fire. Of all the skullbrained things to do for fun!
 
 Ordered my men to kill any who pass by and been running triple guard. We need all the time we can get before they come for us, can't let any word out. Once we find somewhere new, I'll leave that idiot burnt on a stake as tribute and hope we don't catch chase. 
 
-I'm going to enjoy hearing his screams, a log on the pyre a gold he cost us. Nice and slow, need to make sure he doesn't die easy.]], [[The best haul we ever got, gone. We could have been set for life, the most legendary outlaws in all the lands! Villages would tremble at the thought of us roaming the woods.
+I'm going to enjoy hearing his screams, a log on the pyre a gold he cost us. Nice and slow, need to make sure he doesn't die easy.]], [[Le meilleur butin que nous ayons jamais eu, envolé. Nous aurions pu être à l'abri pour le restant de nos jours, les hors-la-loi les plus légendaires de toutes les contrées ! Les villages trembleraient à la seule idée de nous voir rôder dans les bois.
 
-Only a matter of time until that nobleman catches wind and comes after us. We were about to get more gold than we could count for his lassie back, and that dirt farmer set her on fire. Of all the skullbrained things to do for fun!
+Ce n'est qu'une question de temps avant que ce noble ne l'apprenne et ne se lance à nos trousses. Nous étions sur le point d'obtenir plus d'or que nous ne pourrions en compter pour le retour de sa gamine, et ce fermier crasseux y a mis le feu. De toutes les idioties que l'on peut faire par amusement !
 
-Ordered my men to kill any who pass by and been running triple guard. We need all the time we can get before they come for us, can't let any word out. Once we find somewhere new, I'll leave that idiot burnt on a stake as tribute and hope we don't catch chase. 
+J'ai ordonné à mes hommes de tuer quiconque passerait par là et j'ai triplé la garde. Nous avons besoin de tout le temps possible avant qu'ils ne viennent nous chercher, aucun mot ne doit filtrer. Une fois que nous aurons trouvé un nouvel endroit, je laisserai cet idiot brûler sur un bûcher en guise de tribut et j'espère que nous ne serons pas poursuivis.
 
-I'm going to enjoy hearing his screams, a log on the pyre a gold he cost us. Nice and slow, need to make sure he doesn't die easy.]], "_t")
+Je vais prendre plaisir à entendre ses cris, un bûcher pour tout l'or qu'il nous a coûté. Bien lentement, je dois m'assurer qu'il ne meure pas facilement.]], "_t")
+t("How to Summon a Phoenix", "Comment Invoquer un Phénix", "_t")
+t("magic", "magie", "newLore category")
+t("Nature vs Magic", "Nature contre Magie", "_t")
+t([[Your arcane abilities have been interfered with!
+
+Eyal is a torn world, and the forces of nature can react strongly to the arcane energies that seek to manipulate them. Some items and areas are imbued with anti-magic, a natural energy that disrupts magical abilities and effects. There are even those who have learned to harness anti-magic into their own wild abilities, and who use them to hunt down and destroy those who practise magic. So beware, caster! It is a hostile world ye wander in.]], [[Vos capacités arcanes ont subi des interférences !
+
+Eyal est un monde déchiré, et les forces de la nature peuvent réagir violemment aux énergies arcanes qui cherchent à les manipuler. Certains objets et zones sont imprégnés d'antimagie, une énergie naturelle qui perturbe les capacités et les effets magiques. Il existe même ceux qui ont appris à exploiter l'antimagie dans leurs propres capacités sauvages, et qui les utilisent pour traquer et détruire ceux qui pratiquent la magie. Alors prenez garde, lanceur de sorts ! C'est un monde hostile dans lequel vous errez.]], "_t")
+t("On Adventuring", "Sur l'Aventure", "_t")
+t([[I must say, as time grows, I feel so do I grow more and more inclined to distance myself from the calling of an 'adventurer', like so many you can find roaming the countryside. I feel like the myth of a wandering hero has blinded too many with promise of easy fame and riches, with no eye for the other kind of fortune.
+
+Hear me out on this.
+
+Nowadays most don't really recognize how fascinating the world we live in truly is. It is vast, more than you can imagine. I can safely promise, any wild thought you can muster up, dear reader, will not come close to the truth. Such is the breadth of wonders, I would probably dismiss most of what I have seen as myth, be I not there myself. And even then sometimes, I had to wonder whether I could trust my eyes.
+
+Perhaps I'm being too vague, or maybe these promises leave much to be desired. After all, adventuring is not all fun and exotics, it is before all danger and a constant threat of death, or worse. So then if you wish me to be more concrete, think of derelict, crumbling crypts, cults and demons, hungry forests full of monsters and forces beyond time and place. True, there is overwhelming awe, thrill even, but the reason that so little detail reaches you, is because so little live to tell.
+
+What does reach us then, are not people, but objects. Artifacts of great power, legacy of the past. Surely, any drunkard might like to tell tales after a pint or two, but a magical sword is a proof of its own and it keeps quiet of what it has seen. So, a great hero is usually easy to recognize, being practically a walking history book. Clad in half the age of important events which he probably has no idea about.
+
+It is important to remember, that every artifact has a meaning, beings of great power and importance behind them. Stories, that now slowly wane into nothing. This is why it is not artifacts that make an adventurer. It is his great deeds, the will to dare where nobody did before. It is not important if you get known in the process or not, after all, if you were truly great, maybe you will leave behind a legacy of your own.
+
+-#{italic}#Kestin Highfin#{normal}#]], [[Je dois dire qu'à mesure que le temps passe, je me sens de plus en plus enclin à m'éloigner de la vocation d'"aventurier", comme tant d'autres que l'on peut trouver errant dans la campagne. J'ai l'impression que le mythe du héros errant en a aveuglé trop avec la promesse d'une gloire et de richesses faciles, sans égard pour l'autre type de fortune.
+
+Écoutez-moi là-dessus.
+
+De nos jours, la plupart des gens ne reconnaissent pas vraiment à quel point le monde dans lequel nous vivons est fascinant. Il est vaste, plus que vous ne pouvez l'imaginer. Je peux promettre sans risque que toute pensée sauvage que vous pouvez rassembler, cher lecteur, ne s'approchera pas de la vérité. Telle est l'étendue des merveilles, que je rejetterais probablement la plupart de ce que j'ai vu comme un mythe, si je n'avais pas été là moi-même. Et même alors, parfois, je devais me demander si je pouvais faire confiance à mes yeux.
+
+Peut-être suis-je trop vague, ou peut-être ces promesses laissent-elles à désirer. Après tout, l'aventure n'est pas que plaisir et exotisme, c'est avant tout un danger et une menace constante de mort, ou pire. Donc, si vous souhaitez que je sois plus concret, pensez aux cryptes délaissées et en ruines, aux cultes et aux démons, aux forêts affamées pleines de monstres et de forces au-delà du temps et du lieu. Certes, il y a une crainte écrasante, voire un frisson, mais la raison pour laquelle si peu de détails vous parviennent, c'est parce que si peu survivent pour le raconter.
+
+Ce qui nous parvient alors, ce ne sont pas des gens, mais des objets. Des artefacts d'une grande puissance, héritages du passé. Certes, n'importe quel ivrogne pourrait aimer raconter des histoires après une pinte ou deux, mais une épée magique est une preuve en soi et elle garde le silence sur ce qu'elle a vu. Ainsi, un grand héros est généralement facile à reconnaître, étant pratiquement un livre d'histoire vivant. Vêtu de la moitié de l'âge d'événements importants dont il n'a probablement aucune idée.
+
+Il est important de se rappeler que chaque artefact a une signification, des êtres d'une grande puissance et importance derrière eux. Des histoires qui, maintenant, s'effacent lentement dans le néant. C'est pourquoi ce ne sont pas les artefacts qui font un aventurier. Ce sont ses grands actes, la volonté d'oser là où personne n'est allé auparavant. Il n'est pas important que vous soyez connu dans le processus ou non, après tout, si vous étiez vraiment grand, peut-être laisserez-vous derrière vous votre propre héritage.
+
+-#{italic}#Kestin Highfin#{normal}#]], "_t")
+t("point zero", "Point Zéro", "newLore category")
+t("Warden-Master Galsamae's Orientation Notes", "Notes d'orientation du Gardien-Maître Galsamae", "_t")
+t([[Congratulations, sir and/or madam. Whether by invitation, discovering it on your own, or simply being enough of a thorn in our side to recruit rather than dispose of, you have gained the secrets of chronomancy. The ultimate power of time - the ability to reset and try again if you fail, the ability to save time by seeing the results of investigations before they happen. Though our powers are bound to post-Spellblaze Eyal, they are those of nigh-omnipotence with enough patience.
+
+But trust me - "enough patience" is one nasty limiting reagent. You're going to be running out of that fast when you've spent the last week trying to dismantle an Age of Dusk-era house-of-cards system of causally interdependent tyrannies without causing dwarven extinction, and a plague just broke out right when you had things almost perfect, for the sixth time--
+
+Look. The point is, there's a reason the person who writes the invitations and the mission statements isn't someone out in the field - and you're lucky enough to be working for someone who understands that you need more flexibility than idealism allows. Our squad knows that to stay sane, we have to know when "time flows forward at a rate of one second per second" isn't the only rule we have to break. That it's generally okay to skip the trial and just deal with a temporally hazardous jackass as you see fit, if you've foreseen a guilty verdict - as long as your investigations are solid when you actually conduct them (and you do have to do the work once in a while, or you'll only be capable of seeing yourself procrastinating). And if you just need to not be watched, you should know that there are a few decades in the Age of Dusk we and a few other squads recognize as "fair game" - whatever experiments you've wondered about or horrors you want to inflict, just keep it to the time period of infinite forgotten evils and it doesn't hurt anything in the grand scheme. Trust me, we've checked - nothing in that time period matters unless you've got another Spellblaze to set off.
+
+But most importantly, you should know: Zemekkys is even lazier than I am, but he has status to maintain. If you continually violate his will, there will come a point at which you will be informed that you have been caught and should stop resisting. Accept whatever fate he doles out for you. If you do not stop, there will come a point where he will be forced to make an example of you so severe that the entire cosmos will notice your non-existence. Obviously we can't be sure how many of us he's done this to (if any) or how it works, but we're pretty sure that the result looks like something starting with a W.
+
+Everyone here wants the same thing - keep spacetime stable, have fun with your powers, cheat at a few lotteries - but we've got cover to maintain and, in theory, an actual job to do if something ever cracks that Sher'Tul shield or the Greigu find a way to bypass a portal-filter. Scratch backs when yours gets scratched, don't make so much noise that the system comes crashing down on your head, and you'll enjoy your stay in eternity.
+
+Welcome to Point Zero, agent. Enclosed are timespace coordinates to what is, quite literally, the best roast-yeti restaurant that could possibly exist - I'll have the squad meet you there and then. Thank me later.
+
+[i]-Galsamae[/i]
+
+PS: You might encounter a... benefactor of sorts in your travels. You'll know it when you see it, ham-fistedly yanking its puppets back from the brink of death; if you see it for yourself, we regret to inform you that you've taken a one-way trip off prime Timeline-E4-RL territory for a doomed offshoot unless "he" feels like weaving you back in - and it tends to only do that to people who narrowly avert its engineered apocalypses through incredible power or luck. If you have been chosen by its schemes, play along and you might get brought back from the temporal graveyard that is the Timeline-E4-EXPADV subnetwork. We do not know what it is - a runaway creation of our own, a competing culture's weapon, or something far above ourselves - but if it has hostile intent, it has already won. So far it's been... mostly cooperative. Just make a point not to remind it that we're its competition.]], [[Félicitations, monsieur et/ou madame. Que ce soit par invitation, par découverte personnelle, ou simplement en étant suffisamment une épine dans notre pied pour mériter un recrutement plutôt qu'une élimination, vous avez percé les secrets de la chronomancie. Le pouvoir ultime du temps — la capacité de réinitialiser et de réessayer en cas d'échec, la faculté de gagner du temps en voyant les résultats des enquêtes avant qu'elles ne se produisent. Bien que nos pouvoirs soient liés à l'Eyal post-Brûlure Magique, ils s'apparentent à une quasi-omnipotence, avec suffisamment de patience.
+
+Mais croyez-moi, la "patience suffisante" est un réactif limitant bien désagréable. Vous allez en manquer rapidement quand vous aurez passé la dernière semaine à essayer de démanteler un château de cartes de tyrannies causalement interdépendantes de l'Ère du Crépuscule sans provoquer l'extinction des nains, et qu'une peste vient d'éclater juste au moment où vous aviez presque atteint la perfection, pour la sixième fois...
+
+Écoutez. Le fait est qu'il y a une raison pour laquelle la personne qui rédige les invitations et les déclarations de mission n'est pas sur le terrain — et vous avez la chance de travailler pour quelqu'un qui comprend qu'il faut plus de souplesse que ce que l'idéalisme permet. Notre escouade sait que pour rester sain d'esprit, nous devons savoir quand "le temps s'écoule à une vitesse d'une seconde par seconde" n'est pas la seule règle que nous devons briser. Qu'il est généralement acceptable de sauter le procès et de s'occuper d'un imbécile temporellement dangereux comme bon vous semble, si vous avez prévu un verdict de culpabilité — tant que vos enquêtes sont solides lorsque vous les menez réellement (et vous devez faire le travail de temps en temps, sinon vous ne serez capable que de vous voir procrastiner). Et si vous avez juste besoin de ne pas être surveillé, sachez qu'il y a quelques décennies dans l'Ère du Crépuscule que nous et quelques autres escouades considérons comme "zone libre" — quelles que soient les expériences dont vous vous demandez ou les horreurs que vous voulez infliger, gardez-les simplement dans cette période de maux oubliés infinis et cela ne nuit à rien dans le grand schéma. Croyez-moi, nous avons vérifié — rien dans cette période n'a d'importance à moins que vous n'ayez une autre Brûlure Magique à déclencher.
+
+Mais surtout, sachez ceci : Zemekkys est encore plus paresseux que moi, mais il a un statut à maintenir. Si vous violez continuellement sa volonté, viendra un moment où vous serez informé que vous avez été pris et que vous devriez cesser de résister. Acceptez le sort qu'il vous réserve. Si vous ne vous arrêtez pas, viendra un point où il sera forcé de faire de vous un exemple si sévère que tout le cosmos remarquera votre non-existence. Évidemment, nous ne pouvons pas être sûrs à combien d'entre nous il a fait subir cela (si tant est qu'il y en ait) ou comment cela fonctionne, mais nous sommes assez sûrs que le résultat ressemble à quelque chose commençant par un W.
+
+Tout le monde ici veut la même chose — garder l'espace-temps stable, s'amuser avec ses pouvoirs, tricher à quelques loteries — mais nous avons une couverture à maintenir et, en théorie, un vrai travail à faire si jamais quelque chose fissure ce bouclier Sher'Tul ou si les Greigu trouvent un moyen de contourner un filtre de portail. Grattez le dos des autres quand le vôtre démange, ne faites pas tant de bruit que le système vous tombe sur la tête, et vous apprécierez votre séjour dans l'éternité.
+
+Bienvenue au Ponto Zero, agent. Ci-joint les coordonnées spatio-temporelles de ce qui est, littéralement, le meilleur restaurant de yeti rôti qui puisse exister — je demanderai à l'escouade de vous y rejoindre. Remerciez-moi plus tard.
+
+[i]-Galsamae[/i]
+
+PS : Vous pourriez rencontrer un... bienfaiteur de quelque sorte dans vos voyages. Vous le reconnaîtrez quand vous le verrez, tirant maladroitement ses marionnettes du bord de la mort ; si vous le voyez par vous-même, nous avons le regret de vous informer que vous avez effectué un voyage sans retour hors du territoire de la Ligne Temporelle-E4-RL principale vers une ramification condamnée, à moins qu'"il" ne se sente d'humeur à vous retisser dedans — et il a tendance à ne le faire qu'aux personnes qui évitent de justesse ses apocalypses conçues grâce à une puissance ou une chance incroyable. Si vous avez été choisi par ses manigances, jouez le jeu et vous pourriez être ramené du cimetière temporel qu'est le sous-réseau Ligne Temporelle-E4-EXPADV. Nous ne savons pas ce que c'est — une création incontrôlée de notre cru, l'arme d'une culture rivale, ou quelque chose de bien au-dessus de nous — mais s'il a une intention hostile, il a déjà gagné. Jusqu'ici, il a été... principalement coopératif. Faites juste en sorte de ne pas lui rappeler que nous sommes sa concurrence.]], "_t")
+t("Mantra of a Shiiak", "Mantra d'un Shiiak", "_t")
+t([[Each morning I wake, happy I'm alive;
+the traps of this tomb won't claim me today.
+Though its curse of hunger eats at my insides,
+I curse it one better by having outstayed.
+
+Say a curse for the goblins' tortures that remained,
+and a curse for the gods who stole half the world.
+Say a curse for the chill that leaves magic drained,
+and a curse for the star that grew dark as it swirled
+
+But most important of all is to note,
+in spite of fate's bias, only we survived.
+Curse the dead all you want, but we've stayed afloat;
+we're the only ones blessed with the skillset to thrive.
+
+Our wit, strength, and teamwork outweigh cosmic powers;
+they've done what they could but Spydrë is [b]ours.[/b] ]], [[Chaque matin je m'éveille, heureux d'être en vie ;
+les pièges de ce tombeau ne m'auront pas aujourd'hui.
+Bien que sa malédiction de faim dévore mes entrailles,
+Je la maudis mieux en ayant bravé ses entrailles.
+
+Lancez une malédiction sur les tortures des gobelins restées,
+et une malédiction sur les dieux qui ont volé la moitié du monde.
+Lancez une malédiction sur le froid qui laisse la magie drainée,
+et une malédiction sur l'étoile devenue sombre dans sa ronde.
+
+Mais le plus important est de noter,
+qu'en dépit du parti pris du destin, seuls nous avons survécu.
+Maudissez les morts tant que vous voulez, nous sommes restés à flot ;
+nous sommes les seuls bénis avec le talent pour prospérer.
+
+Notre esprit, notre force et notre travail d'équipe surpassent les pouvoirs cosmiques ;
+ils ont fait ce qu'ils ont pu mais Spydrë est [b]nôtre.[/b] ]], "_t")
+t("boss", "patron", "newLore category")
+t([[#{italic}#(The handwriting of this diary entry is poor at best. Whoever wrote this was in poor health.)
+
+#{bold}#53rd Allure, Year 603 of the Age of Pyre#{normal}#
+
+I have done it! My fool of a master said I was not ready for the rites of lichdom, that I would attract undue attention... what utter idiocy. Already I can feel the transformation taking place, and I am certain that this weakness will only be momentary. My master was foolish to leave the Grimoire of Mortality Transcended open and unattended! All I needed was a bone from a magical creature, and as luck would have it, I had found a skeletal corpse of a dragon not far from our tower. The other ingredients were trivial and in possession of my master... surely he will be astounded that I, Zilquick the Eternal, will have transcended mortality!
+
+(Another entry is written beneath this one, in a much more elegant and controlled script.)
+
+Zilquick the Eternal, hah! What an unbearable buffoon, and I am glad his pride was his undoing. The young fool used up the Ruby of Eldoral in creating his phylactery, however; I must acquire a new phylactery for myself. On the bright side, my incompetent apprentice did illustrate why a bone from a creature slain by my own hand is important: the dragon bone he chose had left to fester a mold infection, and the mold somehow infused itself with the bone's inherent magical properties, altering the magical composition of the spell. I do hope whoever finds this note shall kill this "lich" using the most painful means available, and shall deposit him someplace where he is sure to be found.
+Oh, look. He is trying to harm me with spells, but all he can manage is a corruption of his own name: Z'quikzshl.]], [[#{italic}#(L'écriture de cette entrée de journal est médiocre au mieux. Quiconque a écrit ceci était en mauvaise santé.)
+
+#{bold}#53 Allure, Année 603 de l'Ère du Bûcher#{normal}#
+
+J'ai réussi ! Mon maître d'imbécile disait que je n'étais pas prêt pour les rites de la liche, que j'attirerais une attention indue... quelle idiotie totale. Je sens déjà la transformation s'opérer, et je suis certain que cette faiblesse ne sera que momentanée. Mon maître a été assez fou pour laisser le Grimoire de la Mortalité Transcendée ouvert et sans surveillance ! Tout ce dont j'avais besoin était un os d'une créature magique, et par chance, j'avais trouvé le cadavre squelettique d'un dragon non loin de notre tour. Les autres ingrédients étaient triviaux et en possession de mon maître... il sera sûrement stupéfait que moi, Zilquick l'Éternel, aie transcendé la mortalité !
+
+#{italic}#(Une autre entrée est écrite sous celle-ci, dans une écriture beaucoup plus élégante et contrôlée.)#{normal}#
+
+Zilquick l'Éternel, ha ! Quel bouffon insupportable, et je suis heureux que son orgueil ait causé sa perte. Le jeune fou a cependant épuisé le Rubis d'Eldoral pour créer son phylactère ; je dois acquérir un nouveau phylactère pour moi-même. Du côté positif, mon apprenti incompétent a illustré pourquoi un os provenant d'une créature tuée par ma propre main est important : l'os de dragon qu'il a choisi avait laissé pourrir une infection fongique, et le champignon s'est en quelque sorte infusé avec les propriétés magiques inhérentes à l'os, altérant la composition magique du sort. J'espère vraiment que quiconque trouvera cette note tuera cette "liche" en utilisant les moyens les plus douloureux disponibles, et le déposera à un endroit où il est sûr d'être trouvé.
+Oh, regardez. Il essaie de me nuire avec des sorts, mais tout ce qu'il parvient à faire est une corruption de son propre nom : Z'quikzshl.]], "_t")
+t([[Dirge of the Naloren
+
+There once was a village
+the Nalore held dear,
+but when Ol' Walrog came t'pillage,
+they cowered in fear.
+
+He trampled their men
+and their babes newly born,
+and seeing it finished,
+he summoned a storm.
+
+So remember old Shellsea
+as she was in the past,
+for Ol' Walrog sent the gale
+that drowned her at last.]], [[Chant funèbre des Naloren
+
+Il y avait autrefois un village
+que les Naloren chérissaient,
+mais quand le vieux Walrog vint pour le pillage,
+ils tremblèrent, pétrifiés.
+
+Il piétina leurs hommes
+et leurs nouveau-nés,
+puis, voyant le carnage,
+il invoqua une tempête déchaînée.
+
+Alors souvenez-vous de la vieille Shellsea
+telle qu'elle était autrefois,
+car le vieux Walrog envoya la bourrasque
+qui l'a noyée, enfin, sous son poids.]], "_t")
+-- texte non traduit
+--[==[
+t([[I fell asleep in a dark hollow, but my sleep was troubled by terrible dreams. The dreams are so vivid in my mind!
+
+I saw the red star, and it became a land of fire floating in the night sky, full of black creatures with yellow eyes and hungry red mouths. And beyond the red star, far beyond was a dim world, but fractured and split all about its surface. As the world spun the split continents crushed against each other, and lava spilled up, and lands sunk into the ground. Demonic mouths screamed up as they disappeared into fiery death. It was if the world was tearing itself apart, but some force of will was desperately trying to keep it held together.
+
+And I saw then in the centre of the world, as it spun and crumpled and crunched, a vast figure with a horned head and outstretched limbs and shining white eyes. It held tight to the innards of the world, holding it together against forces threatening to pull the whole planet apart. The giant face contorted and screamed in pain and fury.
+
+“Urh'Rok,” a deep voice spoke within my head. “Our god, our saviour, holder of our world. In the name of Urh'Rok we seek vengeance against Amakthel and the Sher'Tul. The petty world of Eyal shall fall!” And then I woke up, and I felt sure something was nearby, looking for me. I fled instantly.
+
+Am I going mad? The name “Urh'Rok” still rebounds through my skull and my vision is dimmed. Perhaps I have been wearing this ring too long...
+
+Yes, yes, this is all clearly an illusion! A strange nightmare that I shall wake up from. I shall take the ring off, and go visit the lovely moonstone again. Once I see the stars all shall be well...]], [[I fell asleep in a dark hollow, but my sleep was troubled by terrible dreams. The dreams are so vivid in my mind!
+
+I saw the red star, and it became a land of fire floating in the night sky, full of black creatures with yellow eyes and hungry red mouths. And beyond the red star, far beyond was a dim world, but fractured and split all about its surface. As the world spun the split continents crushed against each other, and lava spilled up, and lands sunk into the ground. Demonic mouths screamed up as they disappeared into fiery death. It was if the world was tearing itself apart, but some force of will was desperately trying to keep it held together.
+
+And I saw then in the centre of the world, as it spun and crumpled and crunched, a vast figure with a horned head and outstretched limbs and shining white eyes. It held tight to the innards of the world, holding it together against forces threatening to pull the whole planet apart. The giant face contorted and screamed in pain and fury.
+
+“Urh'Rok,” a deep voice spoke within my head. “Our god, our saviour, holder of our world. In the name of Urh'Rok we seek vengeance against Amakthel and the Sher'Tul. The petty world of Eyal shall fall!” And then I woke up, and I felt sure something was nearby, looking for me. I fled instantly.
+
+Am I going mad? The name “Urh'Rok” still rebounds through my skull and my vision is dimmed. Perhaps I have been wearing this ring too long...
+
+Yes, yes, this is all clearly an illusion! A strange nightmare that I shall wake up from. I shall take the ring off, and go visit the lovely moonstone again. Once I see the stars all shall be well...]], "_t")
+t("races", "races", "newLore category")
+t([[Though the elven races look very similar in appearance, they are extremely distinct in history, culture, mindset and many subtle physical traits, so I shall write of each of them separately. All elves are marked by their long, pointed ears and high cheek-bones, but other features can vary greatly. It should be noted that they call themselves as a whole "Elore", which means "siblings", yet the interactions between these brothers and sisters are oft strained.
+
+Shaloren (or Shalore - lit "siblings of grace") are on average 6'2", with bright hair and blue or purple eyes. They are usually slim and lightly built, more marked for their mental prowess than their physical strengths. They are however known to be extremely swift of movement and light of foot. But of particular note is their magical affinity, which is far stronger than any other race, and their intense powers of will.
+
+The Shaloren have a long history of magic-use which continues to this day. Though other races shun the dangers of magic to a large degree, the Shaloren embrace it, and it is still widely used throughout their society. However they are careful to hide this in their dealings with other races. The Shaloren were the ones that began the Spellblaze, though they would soon have it forgotten, and the memories of blame run deep amongst many. During the Spellhunt in the Age of Dusk they locked their city doors and shrouded the whole region in mist, only coming out in secrecy. It took many centuries before they were accepted again in wider society, and still they are treated with intense distrust.
+
+Their capital city is Elvala, in the south-west peninsula, and they have very few settlements outside of this. They have naturally long lives, and their mastery of the arcane arts has allowed them to extend their lives indefinitely. The eldest immortals make up their Council of Elders, which is headed by their King Aranion Gayaeil. Death is a particular fascination amongst the Shaloren, and early kings of their race were said to build great tombs for themselves whilst experimenting in flesh preservation and necromancy. The Shaloren of course deny this.
+
+They deal with other races seldom, preferring to keep a low profile, and most of their trade is done through halfling intermediaries. A few rune-crafters and enchanters sometimes travel to other major cities to do business, and some brash youths are known to explore further afield.]], [[Though the elven races look very similar in appearance, they are extremely distinct in history, culture, mindset and many subtle physical traits, so I shall write of each of them separately. All elves are marked by their long, pointed ears and high cheek-bones, but other features can vary greatly. It should be noted that they call themselves as a whole "Elore", which means "siblings", yet the interactions between these brothers and sisters are oft strained.
+
+Shaloren (or Shalore - lit "siblings of grace") are on average 6'2", with bright hair and blue or purple eyes. They are usually slim and lightly built, more marked for their mental prowess than their physical strengths. They are however known to be extremely swift of movement and light of foot. But of particular note is their magical affinity, which is far stronger than any other race, and their intense powers of will.
+
+The Shaloren have a long history of magic-use which continues to this day. Though other races shun the dangers of magic to a large degree, the Shaloren embrace it, and it is still widely used throughout their society. However they are careful to hide this in their dealings with other races. The Shaloren were the ones that began the Spellblaze, though they would soon have it forgotten, and the memories of blame run deep amongst many. During the Spellhunt in the Age of Dusk they locked their city doors and shrouded the whole region in mist, only coming out in secrecy. It took many centuries before they were accepted again in wider society, and still they are treated with intense distrust.
+
+Their capital city is Elvala, in the south-west peninsula, and they have very few settlements outside of this. They have naturally long lives, and their mastery of the arcane arts has allowed them to extend their lives indefinitely. The eldest immortals make up their Council of Elders, which is headed by their King Aranion Gayaeil. Death is a particular fascination amongst the Shaloren, and early kings of their race were said to build great tombs for themselves whilst experimenting in flesh preservation and necromancy. The Shaloren of course deny this.
+
+They deal with other races seldom, preferring to keep a low profile, and most of their trade is done through halfling intermediaries. A few rune-crafters and enchanters sometimes travel to other major cities to do business, and some brash youths are known to explore further afield.]], "_t")
+t([[The Thaloren (or Thalore - lit "siblings of wrath") are on average 6'4", with dark brown hair and hazel or green eyes. They are generally of muscular build, and known for their physical prowess. They are renowned to be of a fey mindset - as quick to furious violence as they are to joyous song. Their relations with the Shaloren are particularly strained, as they strongly oppose their brethren's use of magic.
+
+Their capital city is Shatur, hidden deep within the northern woods, and they are loathe to let any outsiders even approach the surrounding forest. Archers and fighters carefully patrol their borders, ready to rain down death from the trees on any who encroach. Their leader is Queen Nessilla Tantaelen, and they are said to live in extensive dwellings carved into giant trees, but little else is known about their society.
+
+Those who choose to leave the fastness of the forest tend to be of unique disposition with unusual attitudes and traits. Oft they are musicians, bowmasters or skilled warriors. However they are sometimes mistrusted heavily, as rumour has it that many of those who leave Shatur are actually criminals expelled for the very worst crimes. In any case they tend to be natural loners who wander the world on their own personal quests.
+
+The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], [[The Thaloren (or Thalore - lit "siblings of wrath") are on average 6'4", with dark brown hair and hazel or green eyes. They are generally of muscular build, and known for their physical prowess. They are renowned to be of a fey mindset - as quick to furious violence as they are to joyous song. Their relations with the Shaloren are particularly strained, as they strongly oppose their brethren's use of magic.
+
+Their capital city is Shatur, hidden deep within the northern woods, and they are loathe to let any outsiders even approach the surrounding forest. Archers and fighters carefully patrol their borders, ready to rain down death from the trees on any who encroach. Their leader is Queen Nessilla Tantaelen, and they are said to live in extensive dwellings carved into giant trees, but little else is known about their society.
+
+Those who choose to leave the fastness of the forest tend to be of unique disposition with unusual attitudes and traits. Oft they are musicians, bowmasters or skilled warriors. However they are sometimes mistrusted heavily, as rumour has it that many of those who leave Shatur are actually criminals expelled for the very worst crimes. In any case they tend to be natural loners who wander the world on their own personal quests.
+
+The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], "_t")
+t([[The Naloren (or Nalore - lit "siblings of spirit") are now an extinct race, as their homeland was swept into the sea by the Cataclysm. However as a separate elf race they are worth studying, scant though the records be. Much of what is now said about the Naloren is traced with myth, but one can deduce certain facts.
+
+Naloren elves were around 5'10", with blonde hair and green eyes. They were incredibly thin, but known for their swift and dextrous capabilities. Their kingdom was located on the eastern side of Maj'Eyal, and all of their towns were on the sea or straddling major rivers. They employed themselves as fishermen, sponge-divers, sailors and musicians. They were renowned for being able to stay underwater for hours at a time, and those with arcane abilities were said to be able to stay submerged indefinitely.
+
+They traded little with the other races, and were very protective of their coastal lands. They most especially guarded jealously an ancient Sher'Tul ruin that lay in the centre of their territories. The Shaloren were in particular keen to study this relic, but the Naloren always refused them access, though they were too afraid to touch it themselves. The orcs were said to encroach on their lands often, but were always fought back by their mail-clad warriors wielding vicious tridents.
+
+Alas their love of the sea was to be their undoing. When the Cataclysm came the whole of the coastal kingdom was shorn away and fell into the sea, annihilating almost the entire race. What small numbers survived committed suicide soon after by leaping from the eastern cliffs into the ocean, following their fallen brothers and sisters. Almost no evidence of their civilisation remains.]], [[The Naloren (or Nalore - lit "siblings of spirit") are now an extinct race, as their homeland was swept into the sea by the Cataclysm. However as a separate elf race they are worth studying, scant though the records be. Much of what is now said about the Naloren is traced with myth, but one can deduce certain facts.
+
+Naloren elves were around 5'10", with blonde hair and green eyes. They were incredibly thin, but known for their swift and dextrous capabilities. Their kingdom was located on the eastern side of Maj'Eyal, and all of their towns were on the sea or straddling major rivers. They employed themselves as fishermen, sponge-divers, sailors and musicians. They were renowned for being able to stay underwater for hours at a time, and those with arcane abilities were said to be able to stay submerged indefinitely.
+
+They traded little with the other races, and were very protective of their coastal lands. They most especially guarded jealously an ancient Sher'Tul ruin that lay in the centre of their territories. The Shaloren were in particular keen to study this relic, but the Naloren always refused them access, though they were too afraid to touch it themselves. The orcs were said to encroach on their lands often, but were always fought back by their mail-clad warriors wielding vicious tridents.
+
+Alas their love of the sea was to be their undoing. When the Cataclysm came the whole of the coastal kingdom was shorn away and fell into the sea, annihilating almost the entire race. What small numbers survived committed suicide soon after by leaping from the eastern cliffs into the ocean, following their fallen brothers and sisters. Almost no evidence of their civilisation remains.]], "_t")
+t([[Ogres have never been a thriving race, starting from their abrupt appearance as soldiers and laborers for the Conclave during the Allure Wars (unexplained aside from a highly implausible story from the Conclave's Overseers about a lost mountain tribe).  Left without homes or proper runic training after the war's end, they were forced to found their own tribes and rediscover the fields of rune and infusion creation for themselves, and though their numbers dropped rapidly, they enjoyed a brief period of relative success as nomadic rune-traders, virtually unaffected by the Spellblaze.  The Spellhunt nearly proved to be their undoing, as their monstrous size and rune-covered skin made them popular targets; they were thought to be extinct, and only in recent years has the city of Elvala revealed that some Ogres took refuge there during this time.  Their descendants still live today, fearful of persecution but gradually beginning to explore outside Elvala for the first time in ages.
+
+Ogres' most striking feature is their size, by far the largest of any intelligent race; they average at roughly 8'4" tall, and most are nearly half as wide with muscle.  They have a similar range of skin tones to humans, although slightly grayer on the whole; their hair tends to be dark brown or black, and their eyes run the gamut from black to bright blue to purple, presumably a side-effect of runic mis-transcription.  Their angular facial features invite some impolite comparisons to Orcs, with strong jawlines, disproportionately large mouths and teeth, and squarish heads, but otherwise resemble those of humans.  It would be remiss of me to describe Ogres' appearance without mentioning the intricate, glowing pattern of runes covering their skin from head to toe, although the exact patterns and colors vary.  
+
+Although they excel at physical tasks for obvious reasons, and the necessity of careful inscription has made their finger dexterity (and penmanship) rather impressive, their limb movements tend to be slow and clumsy due to their size, and they tire quickly if they over-exert themselves during strenuous labor.  Their slow speech, incredible appetites, and lack of interest in arts or most scholarly concerns has led to a misconception that they are dim-witted; however, Ogres forced into studious tasks have performed admirably, and one needs only look at their runic patterns to know the patient study and artistic vision they are capable of, if properly motivated.  This may tie into the humble, duty-bound mindset that seems to be an inherent property of the species - most Ogres show absolutely no interest in leadership or impressing others, only completing tasks in the most reliable manner possible, and such strategies tend to be rather simple.
+
+While Shalore use of magic is (arguably) a choice, Ogres have no such luxury.  Their inscriptions are as crucial to their well-being and structural integrity as any internal organ, and attempts by Ziguranth to "cleanse" captured Ogres of their runes invariably lead to them first collapsing under their own weight, then their organs shutting down one by one; one can assume that their natural infusions are just as vital.  As such, Ogre reproduction is a careful task; a newborn can live for a few months unaltered, but after this the parents must give their child a thorough regimen of runic inscription and herbal infusions.  The parents typically perform this task together, using each others' runes as a reference, and any mistakes made in the transcription will affect the child's health and development (usually adversely, though it is believed that transcription errors are responsible for mitigating Ogres' once-uncontrollable tempers).  As such, the inscribed patterns are as much of an influence on the child's development as the physical and mental traits of his or her parents.	
+
+Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], [[Ogres have never been a thriving race, starting from their abrupt appearance as soldiers and laborers for the Conclave during the Allure Wars (unexplained aside from a highly implausible story from the Conclave's Overseers about a lost mountain tribe).  Left without homes or proper runic training after the war's end, they were forced to found their own tribes and rediscover the fields of rune and infusion creation for themselves, and though their numbers dropped rapidly, they enjoyed a brief period of relative success as nomadic rune-traders, virtually unaffected by the Spellblaze.  The Spellhunt nearly proved to be their undoing, as their monstrous size and rune-covered skin made them popular targets; they were thought to be extinct, and only in recent years has the city of Elvala revealed that some Ogres took refuge there during this time.  Their descendants still live today, fearful of persecution but gradually beginning to explore outside Elvala for the first time in ages.
+
+Ogres' most striking feature is their size, by far the largest of any intelligent race; they average at roughly 8'4" tall, and most are nearly half as wide with muscle.  They have a similar range of skin tones to humans, although slightly grayer on the whole; their hair tends to be dark brown or black, and their eyes run the gamut from black to bright blue to purple, presumably a side-effect of runic mis-transcription.  Their angular facial features invite some impolite comparisons to Orcs, with strong jawlines, disproportionately large mouths and teeth, and squarish heads, but otherwise resemble those of humans.  It would be remiss of me to describe Ogres' appearance without mentioning the intricate, glowing pattern of runes covering their skin from head to toe, although the exact patterns and colors vary.  
+
+Although they excel at physical tasks for obvious reasons, and the necessity of careful inscription has made their finger dexterity (and penmanship) rather impressive, their limb movements tend to be slow and clumsy due to their size, and they tire quickly if they over-exert themselves during strenuous labor.  Their slow speech, incredible appetites, and lack of interest in arts or most scholarly concerns has led to a misconception that they are dim-witted; however, Ogres forced into studious tasks have performed admirably, and one needs only look at their runic patterns to know the patient study and artistic vision they are capable of, if properly motivated.  This may tie into the humble, duty-bound mindset that seems to be an inherent property of the species - most Ogres show absolutely no interest in leadership or impressing others, only completing tasks in the most reliable manner possible, and such strategies tend to be rather simple.
+
+While Shalore use of magic is (arguably) a choice, Ogres have no such luxury.  Their inscriptions are as crucial to their well-being and structural integrity as any internal organ, and attempts by Ziguranth to "cleanse" captured Ogres of their runes invariably lead to them first collapsing under their own weight, then their organs shutting down one by one; one can assume that their natural infusions are just as vital.  As such, Ogre reproduction is a careful task; a newborn can live for a few months unaltered, but after this the parents must give their child a thorough regimen of runic inscription and herbal infusions.  The parents typically perform this task together, using each others' runes as a reference, and any mistakes made in the transcription will affect the child's health and development (usually adversely, though it is believed that transcription errors are responsible for mitigating Ogres' once-uncontrollable tempers).  As such, the inscribed patterns are as much of an influence on the child's development as the physical and mental traits of his or her parents.	
+
+Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 10 - Monstrous Races", "Loremaster Greynot's Analysis of the Races - Chapter 10 - Monstrous Races", "_t")
+t([[No text would be complete without at least a brief note of some of the more brutish races which infest our world. These do not hold any civilised society of note, nor in general do they seem capable of any form of higher thought or culture, but they are still of interest to study for any who take delight in analysing beings of more primitive intellect.
+
+Trolls come in two main types - Kezrak and Moltep, or stone and forest trolls as they are colloquially known. Stone trolls infest many mountain chains to the north-east, and some have been known to wander further afield in search of food or to spread violence. They are generally over 8' high, with extremely pronounced muscular strength and a thick, solid hide which bears the appearance of coal or granite. Forest trolls are generally found in dense woods or swamps, with the Trollmire east of Derth being especially infamous. They have a more advanced form of speech than their mountain-dwelling cousins, and are known to move faster and wield more elaborate weapons, though their greenish hide is not as thick and their musculature less developed. All trolls have intensely fast metabolisms, capable of healing from grievous wounds within a matter of hours. At birth they measure just eight inches long, but within two years grow to full maturity, and rarely live beyond ten years old. They used to be considered little more than beasts, but towards the end of the Age of Pyre many were trained as fighters by the orcs, and were even taught the basics of language and certain battle tactics, making them much more dangerous. Though the orcs are gone their servants remain, and their remote breeding areas and intense birth rates have so far scampered attempts to eradicate them completely.
+
+Giants live mostly around the mountainous peaks surrounding the Daikara Pass. They vary greatly in size, but are normally at least 10' tall. They look somewhat like large, deformed humans, with swollen or distended facial features and much longer, swinging limbs. They live in nomadic tribes, moving from peak to peak with the seasons, feeding on wild deer and goats. They are usually peaceful creatures, only turning violent when their territory is encroached or their young are threatened. There are sometimes reports of giants coming to lowlands and stealing farm animals or attacking communities, but these are rare and normally isolated to particularly harsh winters. Giants seem to have no developed culture or language worth mentioning, but have been noted to show interactions of limited intelligence and to commune well in groups.
+
+Nagas were once believed to be mere myth, but reliable reports and even the capturing of dead physical samples has shown them to be real creatures. The upper half of their body is humanoid in form, with blonde hair and an extremely thin build, but the lower half is like that of a giant snake's tail. They stand around 6' tall on land, though their tails extend several feet further. They have been encountered off the eastern and south-eastern coasts of Maj'Eyal, which seems to indicate some exotic civilisation beneath the waves. Records of them exist only from the last few hundred years, and only more recently have they been interpreted as more than just the wild fantasies of inebriated sailors. They can breathe in air and underwater, possessing both lungs and gills, and have been reported to move with surprising speed on the ground. One might think them simply odd monsters, but they decorate themselves in jewellry and craft weapons and armour from materials found on the sea-bed, such as supple mail formed from layers of thick shark-hide. This would suggest an advanced culture, but communication with them so far has proved impossible. It is not known if they are capable of complex speech, but to date their only response to those who encounter them has been extreme violence, and fishermen in the east are always wary of coming across these vicious creatures.
+
+The origin of Demons is not wholly known, but it is clear that they are capable of intelligence and so I feel the need to describe them somewhat here. It is known that they can be summoned by certain magical rites, and minor demons were oft in the employ of evil sorcerers during the Age of Dusk. The main theory, which is supported by certain studies by Shaloren archmages, seems to indicate that they come from another world than our own, with connections formed through intense arcane energies. It must be a truly terrifying place to host such foul denizens. Demons vary immensely in appearance and power, as much as the creatures of our own world vary. They generally have blueish blood and metallic flesh and skin, which can oft react oddly with our atmosphere - some become wreathed in flames, others release hideous acids or belching clouds of darkness. All seem versed in magical abilities to some degree, and the strongest of them possess truly terrifying powers. Luckily they are exceptionally rare, and seem to be much less common in modern times since magic has fallen out of use.]], [[No text would be complete without at least a brief note of some of the more brutish races which infest our world. These do not hold any civilised society of note, nor in general do they seem capable of any form of higher thought or culture, but they are still of interest to study for any who take delight in analysing beings of more primitive intellect.
+
+Trolls come in two main types - Kezrak and Moltep, or stone and forest trolls as they are colloquially known. Stone trolls infest many mountain chains to the north-east, and some have been known to wander further afield in search of food or to spread violence. They are generally over 8' high, with extremely pronounced muscular strength and a thick, solid hide which bears the appearance of coal or granite. Forest trolls are generally found in dense woods or swamps, with the Trollmire east of Derth being especially infamous. They have a more advanced form of speech than their mountain-dwelling cousins, and are known to move faster and wield more elaborate weapons, though their greenish hide is not as thick and their musculature less developed. All trolls have intensely fast metabolisms, capable of healing from grievous wounds within a matter of hours. At birth they measure just eight inches long, but within two years grow to full maturity, and rarely live beyond ten years old. They used to be considered little more than beasts, but towards the end of the Age of Pyre many were trained as fighters by the orcs, and were even taught the basics of language and certain battle tactics, making them much more dangerous. Though the orcs are gone their servants remain, and their remote breeding areas and intense birth rates have so far scampered attempts to eradicate them completely.
+
+Giants live mostly around the mountainous peaks surrounding the Daikara Pass. They vary greatly in size, but are normally at least 10' tall. They look somewhat like large, deformed humans, with swollen or distended facial features and much longer, swinging limbs. They live in nomadic tribes, moving from peak to peak with the seasons, feeding on wild deer and goats. They are usually peaceful creatures, only turning violent when their territory is encroached or their young are threatened. There are sometimes reports of giants coming to lowlands and stealing farm animals or attacking communities, but these are rare and normally isolated to particularly harsh winters. Giants seem to have no developed culture or language worth mentioning, but have been noted to show interactions of limited intelligence and to commune well in groups.
+
+Nagas were once believed to be mere myth, but reliable reports and even the capturing of dead physical samples has shown them to be real creatures. The upper half of their body is humanoid in form, with blonde hair and an extremely thin build, but the lower half is like that of a giant snake's tail. They stand around 6' tall on land, though their tails extend several feet further. They have been encountered off the eastern and south-eastern coasts of Maj'Eyal, which seems to indicate some exotic civilisation beneath the waves. Records of them exist only from the last few hundred years, and only more recently have they been interpreted as more than just the wild fantasies of inebriated sailors. They can breathe in air and underwater, possessing both lungs and gills, and have been reported to move with surprising speed on the ground. One might think them simply odd monsters, but they decorate themselves in jewellry and craft weapons and armour from materials found on the sea-bed, such as supple mail formed from layers of thick shark-hide. This would suggest an advanced culture, but communication with them so far has proved impossible. It is not known if they are capable of complex speech, but to date their only response to those who encounter them has been extreme violence, and fishermen in the east are always wary of coming across these vicious creatures.
+
+The origin of Demons is not wholly known, but it is clear that they are capable of intelligence and so I feel the need to describe them somewhat here. It is known that they can be summoned by certain magical rites, and minor demons were oft in the employ of evil sorcerers during the Age of Dusk. The main theory, which is supported by certain studies by Shaloren archmages, seems to indicate that they come from another world than our own, with connections formed through intense arcane energies. It must be a truly terrifying place to host such foul denizens. Demons vary immensely in appearance and power, as much as the creatures of our own world vary. They generally have blueish blood and metallic flesh and skin, which can oft react oddly with our atmosphere - some become wreathed in flames, others release hideous acids or belching clouds of darkness. All seem versed in magical abilities to some degree, and the strongest of them possess truly terrifying powers. Luckily they are exceptionally rare, and seem to be much less common in modern times since magic has fallen out of use.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 11 - Dragons", "Loremaster Greynot's Analysis of the Races - Chapter 11 - Dragons", "_t")
+t([[The common man may scoff at the idea of classifying dragons as an intelligent race, but experienced wyrmics know otherwise. Dragons are incredibly long-lived creatures, with some known to survive for thousands of years. Though in their early life they are of a bestial nature, as they advance through the centuries they gain an ever keener and more developed intellect. The eldest of wyrms are sometimes considered the most subtle and intelligent of creatures in Maj'Eyal, capable of telepathic communication and advanced mental abilities, and wyrmics speak of them with the highest reverence.
+
+Dragons come in many shapes and sizes, normally growing from 5' long hatchlings to 20' long mature drakes, with some of the greatest wyrms growing to over 40' in length. They are generally winged, with large lizard-like maws and sharp talons on both their fore and hind legs. They are often noted for the lustrous colour of their scales, normally representing an attunement to one of the key Elements of Eyal. This attunement is unseen in any other race, and some philosophers believe that dragons predate all other races, being formed as raw representations of the elements of nature at the beginning of the world. However this theory may be borne purely from the fanatical delusions of certain wyrmics who have studied the creatures for too long.
+
+All corners of Maj'Eyal show some trace of different types of dragons. The Daikara Pass and surrounding mountain chains are home to a great number of ice and storm dragons. Numerous sand and red dragons can be found in the western desert and hills, and many have been the reports of gigantic sea dragons in the deepest oceans, especially to the south.
+
+Attacks from dragons on humans and halfling settlements are fairly rare, but when they occur they can be truly devastating. Usually they are to feed on livestock, but now and then come attacks from newly matured drakes, seeking out precious metals and gemstones to build up a hoard. Dragon hoards have become a thing of legend, with the greatest wyrms rumoured to protect literal mountains of gold, but in modern times truly sizeable hoards are rare. The dwarves farmed hoarding dragons almost to extinction in the Age of Allure, and most dragons these days retain only modest treasures in their lairs.
+
+Dragons are regularly hunted for their thick scales and their elementally imbued bones. Dragonskin leather is prized amongst armour-workers, as when properly treated it is both light and tough, and oft retains some inkling of the original wyrm's power. Dragon-bone is highly favoured by staff-crafters for its natural attunement to elemental forces, and is sometimes used by fletchers in the crafting of the most delicate yet resilient bows and arrows. However the hunting of dragons for their skin and bones is greatly opposed by many wyrmics, and there is an increasing market for "naturally harvested" drake materials - those taken from dragons which have died of natural causes. Still, demand for all dragon materials is strong with exceptionally high prices paid, and many are the greedy souls that lose their lives each year at the fangs and claws of these magnificent creatures.]], [[The common man may scoff at the idea of classifying dragons as an intelligent race, but experienced wyrmics know otherwise. Dragons are incredibly long-lived creatures, with some known to survive for thousands of years. Though in their early life they are of a bestial nature, as they advance through the centuries they gain an ever keener and more developed intellect. The eldest of wyrms are sometimes considered the most subtle and intelligent of creatures in Maj'Eyal, capable of telepathic communication and advanced mental abilities, and wyrmics speak of them with the highest reverence.
+
+Dragons come in many shapes and sizes, normally growing from 5' long hatchlings to 20' long mature drakes, with some of the greatest wyrms growing to over 40' in length. They are generally winged, with large lizard-like maws and sharp talons on both their fore and hind legs. They are often noted for the lustrous colour of their scales, normally representing an attunement to one of the key Elements of Eyal. This attunement is unseen in any other race, and some philosophers believe that dragons predate all other races, being formed as raw representations of the elements of nature at the beginning of the world. However this theory may be borne purely from the fanatical delusions of certain wyrmics who have studied the creatures for too long.
+
+All corners of Maj'Eyal show some trace of different types of dragons. The Daikara Pass and surrounding mountain chains are home to a great number of ice and storm dragons. Numerous sand and red dragons can be found in the western desert and hills, and many have been the reports of gigantic sea dragons in the deepest oceans, especially to the south.
+
+Attacks from dragons on humans and halfling settlements are fairly rare, but when they occur they can be truly devastating. Usually they are to feed on livestock, but now and then come attacks from newly matured drakes, seeking out precious metals and gemstones to build up a hoard. Dragon hoards have become a thing of legend, with the greatest wyrms rumoured to protect literal mountains of gold, but in modern times truly sizeable hoards are rare. The dwarves farmed hoarding dragons almost to extinction in the Age of Allure, and most dragons these days retain only modest treasures in their lairs.
+
+Dragons are regularly hunted for their thick scales and their elementally imbued bones. Dragonskin leather is prized amongst armour-workers, as when properly treated it is both light and tough, and oft retains some inkling of the original wyrm's power. Dragon-bone is highly favoured by staff-crafters for its natural attunement to elemental forces, and is sometimes used by fletchers in the crafting of the most delicate yet resilient bows and arrows. However the hunting of dragons for their skin and bones is greatly opposed by many wyrmics, and there is an increasing market for "naturally harvested" drake materials - those taken from dragons which have died of natural causes. Still, demand for all dragon materials is strong with exceptionally high prices paid, and many are the greedy souls that lose their lives each year at the fangs and claws of these magnificent creatures.]], "_t")
+t("shatur", "shatur", "newLore category")
 t([[#{bold}#How to Summon a Phoenix#{normal}#
 	  10 pouches faeros ash
 	  5 vials fire wyrm saliva
@@ -16456,159 +16599,99 @@ Take 2 vials fire wyrm saliva and dissolve 2 pouches faeros ash in each. Be sure
 
 #{italic}#The remainder of the scroll has been singed into a pile of char, illegible and scattering into a cloud of ash as you grasp it#{normal}#
 	]], "_t")
-t("Nature vs Magic", "Nature vs Magic", "_t")
-t([[Your arcane abilities have been interfered with!
-
-Eyal is a torn world, and the forces of nature can react strongly to the arcane energies that seek to manipulate them. Some items and areas are imbued with anti-magic, a natural energy that disrupts magical abilities and effects. There are even those who have learned to harness anti-magic into their own wild abilities, and who use them to hunt down and destroy those who practise magic. So beware, caster! It is a hostile world ye wander in.]], [[Your arcane abilities have been interfered with!
-
-Eyal is a torn world, and the forces of nature can react strongly to the arcane energies that seek to manipulate them. Some items and areas are imbued with anti-magic, a natural energy that disrupts magical abilities and effects. There are even those who have learned to harness anti-magic into their own wild abilities, and who use them to hunt down and destroy those who practise magic. So beware, caster! It is a hostile world ye wander in.]], "_t")
 t("highfin", "highfin", "newLore category")
-t([[I must say, as time grows, I feel so do I grow more and more inclined to distance myself from the calling of an 'adventurer', like so many you can find roaming the countryside. I feel like the myth of a wandering hero has blinded too many with promise of easy fame and riches, with no eye for the other kind of fortune.
-
-Hear me out on this.
-
-Nowadays most don't really recognize how fascinating the world we live in truly is. It is vast, more than you can imagine. I can safely promise, any wild thought you can muster up, dear reader, will not come close to the truth. Such is the breadth of wonders, I would probably dismiss most of what I have seen as myth, be I not there myself. And even then sometimes, I had to wonder whether I could trust my eyes.
-
-Perhaps I'm being too vague, or maybe these promises leave much to be desired. After all, adventuring is not all fun and exotics, it is before all danger and a constant threat of death, or worse. So then if you wish me to be more concrete, think of derelict, crumbling crypts, cults and demons, hungry forests full of monsters and forces beyond time and place. True, there is overwhelming awe, thrill even, but the reason that so little detail reaches you, is because so little live to tell.
-
-What does reach us then, are not people, but objects. Artifacts of great power, legacy of the past. Surely, any drunkard might like to tell tales after a pint or two, but a magical sword is a proof of its own and it keeps quiet of what it has seen. So, a great hero is usually easy to recognize, being practically a walking history book. Clad in half the age of important events which he probably has no idea about.
-
-It is important to remember, that every artifact has a meaning, beings of great power and importance behind them. Stories, that now slowly wane into nothing. This is why it is not artifacts that make an adventurer. It is his great deeds, the will to dare where nobody did before. It is not important if you get known in the process or not, after all, if you were truly great, maybe you will leave behind a legacy of your own.
-
--#{italic}#Kestin Highfin#{normal}#]], [[I must say, as time grows, I feel so do I grow more and more inclined to distance myself from the calling of an 'adventurer', like so many you can find roaming the countryside. I feel like the myth of a wandering hero has blinded too many with promise of easy fame and riches, with no eye for the other kind of fortune.
-
-Hear me out on this.
-
-Nowadays most don't really recognize how fascinating the world we live in truly is. It is vast, more than you can imagine. I can safely promise, any wild thought you can muster up, dear reader, will not come close to the truth. Such is the breadth of wonders, I would probably dismiss most of what I have seen as myth, be I not there myself. And even then sometimes, I had to wonder whether I could trust my eyes.
-
-Perhaps I'm being too vague, or maybe these promises leave much to be desired. After all, adventuring is not all fun and exotics, it is before all danger and a constant threat of death, or worse. So then if you wish me to be more concrete, think of derelict, crumbling crypts, cults and demons, hungry forests full of monsters and forces beyond time and place. True, there is overwhelming awe, thrill even, but the reason that so little detail reaches you, is because so little live to tell.
-
-What does reach us then, are not people, but objects. Artifacts of great power, legacy of the past. Surely, any drunkard might like to tell tales after a pint or two, but a magical sword is a proof of its own and it keeps quiet of what it has seen. So, a great hero is usually easy to recognize, being practically a walking history book. Clad in half the age of important events which he probably has no idea about.
-
-It is important to remember, that every artifact has a meaning, beings of great power and importance behind them. Stories, that now slowly wane into nothing. This is why it is not artifacts that make an adventurer. It is his great deeds, the will to dare where nobody did before. It is not important if you get known in the process or not, after all, if you were truly great, maybe you will leave behind a legacy of your own.
-
--#{italic}#Kestin Highfin#{normal}#]], "_t")
-t("point zero", "point zero", "newLore category")
-t("Warden-Master Galsamae's Orientation Notes", "Warden-Master Galsamae's Orientation Notes", "_t")
-t([[Congratulations, sir and/or madam. Whether by invitation, discovering it on your own, or simply being enough of a thorn in our side to recruit rather than dispose of, you have gained the secrets of chronomancy. The ultimate power of time - the ability to reset and try again if you fail, the ability to save time by seeing the results of investigations before they happen. Though our powers are bound to post-Spellblaze Eyal, they are those of nigh-omnipotence with enough patience.
-
-But trust me - "enough patience" is one nasty limiting reagent. You're going to be running out of that fast when you've spent the last week trying to dismantle an Age of Dusk-era house-of-cards system of causally interdependent tyrannies without causing dwarven extinction, and a plague just broke out right when you had things almost perfect, for the sixth time--
-
-Look. The point is, there's a reason the person who writes the invitations and the mission statements isn't someone out in the field - and you're lucky enough to be working for someone who understands that you need more flexibility than idealism allows. Our squad knows that to stay sane, we have to know when "time flows forward at a rate of one second per second" isn't the only rule we have to break. That it's generally okay to skip the trial and just deal with a temporally hazardous jackass as you see fit, if you've foreseen a guilty verdict - as long as your investigations are solid when you actually conduct them (and you do have to do the work once in a while, or you'll only be capable of seeing yourself procrastinating). And if you just need to not be watched, you should know that there are a few decades in the Age of Dusk we and a few other squads recognize as "fair game" - whatever experiments you've wondered about or horrors you want to inflict, just keep it to the time period of infinite forgotten evils and it doesn't hurt anything in the grand scheme. Trust me, we've checked - nothing in that time period matters unless you've got another Spellblaze to set off.
-
-But most importantly, you should know: Zemekkys is even lazier than I am, but he has status to maintain. If you continually violate his will, there will come a point at which you will be informed that you have been caught and should stop resisting. Accept whatever fate he doles out for you. If you do not stop, there will come a point where he will be forced to make an example of you so severe that the entire cosmos will notice your non-existence. Obviously we can't be sure how many of us he's done this to (if any) or how it works, but we're pretty sure that the result looks like something starting with a W.
-
-Everyone here wants the same thing - keep spacetime stable, have fun with your powers, cheat at a few lotteries - but we've got cover to maintain and, in theory, an actual job to do if something ever cracks that Sher'Tul shield or the Greigu find a way to bypass a portal-filter. Scratch backs when yours gets scratched, don't make so much noise that the system comes crashing down on your head, and you'll enjoy your stay in eternity.
-
-Welcome to Point Zero, agent. Enclosed are timespace coordinates to what is, quite literally, the best roast-yeti restaurant that could possibly exist - I'll have the squad meet you there and then. Thank me later.
-
-[i]-Galsamae[/i]
-
-PS: You might encounter a... benefactor of sorts in your travels. You'll know it when you see it, ham-fistedly yanking its puppets back from the brink of death; if you see it for yourself, we regret to inform you that you've taken a one-way trip off prime Timeline-E4-RL territory for a doomed offshoot unless "he" feels like weaving you back in - and it tends to only do that to people who narrowly avert its engineered apocalypses through incredible power or luck. If you have been chosen by its schemes, play along and you might get brought back from the temporal graveyard that is the Timeline-E4-EXPADV subnetwork. We do not know what it is - a runaway creation of our own, a competing culture's weapon, or something far above ourselves - but if it has hostile intent, it has already won. So far it's been... mostly cooperative. Just make a point not to remind it that we're its competition.]], [[Congratulations, sir and/or madam. Whether by invitation, discovering it on your own, or simply being enough of a thorn in our side to recruit rather than dispose of, you have gained the secrets of chronomancy. The ultimate power of time - the ability to reset and try again if you fail, the ability to save time by seeing the results of investigations before they happen. Though our powers are bound to post-Spellblaze Eyal, they are those of nigh-omnipotence with enough patience.
-
-But trust me - "enough patience" is one nasty limiting reagent. You're going to be running out of that fast when you've spent the last week trying to dismantle an Age of Dusk-era house-of-cards system of causally interdependent tyrannies without causing dwarven extinction, and a plague just broke out right when you had things almost perfect, for the sixth time--
-
-Look. The point is, there's a reason the person who writes the invitations and the mission statements isn't someone out in the field - and you're lucky enough to be working for someone who understands that you need more flexibility than idealism allows. Our squad knows that to stay sane, we have to know when "time flows forward at a rate of one second per second" isn't the only rule we have to break. That it's generally okay to skip the trial and just deal with a temporally hazardous jackass as you see fit, if you've foreseen a guilty verdict - as long as your investigations are solid when you actually conduct them (and you do have to do the work once in a while, or you'll only be capable of seeing yourself procrastinating). And if you just need to not be watched, you should know that there are a few decades in the Age of Dusk we and a few other squads recognize as "fair game" - whatever experiments you've wondered about or horrors you want to inflict, just keep it to the time period of infinite forgotten evils and it doesn't hurt anything in the grand scheme. Trust me, we've checked - nothing in that time period matters unless you've got another Spellblaze to set off.
-
-But most importantly, you should know: Zemekkys is even lazier than I am, but he has status to maintain. If you continually violate his will, there will come a point at which you will be informed that you have been caught and should stop resisting. Accept whatever fate he doles out for you. If you do not stop, there will come a point where he will be forced to make an example of you so severe that the entire cosmos will notice your non-existence. Obviously we can't be sure how many of us he's done this to (if any) or how it works, but we're pretty sure that the result looks like something starting with a W.
-
-Everyone here wants the same thing - keep spacetime stable, have fun with your powers, cheat at a few lotteries - but we've got cover to maintain and, in theory, an actual job to do if something ever cracks that Sher'Tul shield or the Greigu find a way to bypass a portal-filter. Scratch backs when yours gets scratched, don't make so much noise that the system comes crashing down on your head, and you'll enjoy your stay in eternity.
-
-Welcome to Point Zero, agent. Enclosed are timespace coordinates to what is, quite literally, the best roast-yeti restaurant that could possibly exist - I'll have the squad meet you there and then. Thank me later.
-
-[i]-Galsamae[/i]
-
-PS: You might encounter a... benefactor of sorts in your travels. You'll know it when you see it, ham-fistedly yanking its puppets back from the brink of death; if you see it for yourself, we regret to inform you that you've taken a one-way trip off prime Timeline-E4-RL territory for a doomed offshoot unless "he" feels like weaving you back in - and it tends to only do that to people who narrowly avert its engineered apocalypses through incredible power or luck. If you have been chosen by its schemes, play along and you might get brought back from the temporal graveyard that is the Timeline-E4-EXPADV subnetwork. We do not know what it is - a runaway creation of our own, a competing culture's weapon, or something far above ourselves - but if it has hostile intent, it has already won. So far it's been... mostly cooperative. Just make a point not to remind it that we're its competition.]], "_t")
 t("spydrë", "spydrë", "newLore category")
-t("Mantra of a Shiiak", "Mantra of a Shiiak", "_t")
-t([[Each morning I wake, happy I'm alive;
-the traps of this tomb won't claim me today.
-Though its curse of hunger eats at my insides,
-I curse it one better by having outstayed.
-
-Say a curse for the goblins' tortures that remained,
-and a curse for the gods who stole half the world.
-Say a curse for the chill that leaves magic drained,
-and a curse for the star that grew dark as it swirled
-
-But most important of all is to note,
-in spite of fate's bias, only we survived.
-Curse the dead all you want, but we've stayed afloat;
-we're the only ones blessed with the skillset to thrive.
-
-Our wit, strength, and teamwork outweigh cosmic powers;
-they've done what they could but Spydrë is [b]ours.[/b] ]], [[Each morning I wake, happy I'm alive;
-the traps of this tomb won't claim me today.
-Though its curse of hunger eats at my insides,
-I curse it one better by having outstayed.
-
-Say a curse for the goblins' tortures that remained,
-and a curse for the gods who stole half the world.
-Say a curse for the chill that leaves magic drained,
-and a curse for the star that grew dark as it swirled
-
-But most important of all is to note,
-in spite of fate's bias, only we survived.
-Curse the dead all you want, but we've stayed afloat;
-we're the only ones blessed with the skillset to thrive.
-
-Our wit, strength, and teamwork outweigh cosmic powers;
-they've done what they could but Spydrë is [b]ours.[/b] ]], "_t")
-t("boss", "boss", "newLore category")
 t("Z'quikzshl", "Z'quikzshl", "_t")
-t([[#{italic}#(The handwriting of this diary entry is poor at best. Whoever wrote this was in poor health.)
-
-#{bold}#53rd Allure, Year 603 of the Age of Pyre#{normal}#
-
-I have done it! My fool of a master said I was not ready for the rites of lichdom, that I would attract undue attention... what utter idiocy. Already I can feel the transformation taking place, and I am certain that this weakness will only be momentary. My master was foolish to leave the Grimoire of Mortality Transcended open and unattended! All I needed was a bone from a magical creature, and as luck would have it, I had found a skeletal corpse of a dragon not far from our tower. The other ingredients were trivial and in possession of my master... surely he will be astounded that I, Zilquick the Eternal, will have transcended mortality!
-
-(Another entry is written beneath this one, in a much more elegant and controlled script.)
-
-Zilquick the Eternal, hah! What an unbearable buffoon, and I am glad his pride was his undoing. The young fool used up the Ruby of Eldoral in creating his phylactery, however; I must acquire a new phylactery for myself. On the bright side, my incompetent apprentice did illustrate why a bone from a creature slain by my own hand is important: the dragon bone he chose had left to fester a mold infection, and the mold somehow infused itself with the bone's inherent magical properties, altering the magical composition of the spell. I do hope whoever finds this note shall kill this "lich" using the most painful means available, and shall deposit him someplace where he is sure to be found.
-Oh, look. He is trying to harm me with spells, but all he can manage is a corruption of his own name: Z'quikzshl.]], [[#{italic}#(The handwriting of this diary entry is poor at best. Whoever wrote this was in poor health.)
-
-#{bold}#53rd Allure, Year 603 of the Age of Pyre#{normal}#
-
-I have done it! My fool of a master said I was not ready for the rites of lichdom, that I would attract undue attention... what utter idiocy. Already I can feel the transformation taking place, and I am certain that this weakness will only be momentary. My master was foolish to leave the Grimoire of Mortality Transcended open and unattended! All I needed was a bone from a magical creature, and as luck would have it, I had found a skeletal corpse of a dragon not far from our tower. The other ingredients were trivial and in possession of my master... surely he will be astounded that I, Zilquick the Eternal, will have transcended mortality!
-
-(Another entry is written beneath this one, in a much more elegant and controlled script.)
-
-Zilquick the Eternal, hah! What an unbearable buffoon, and I am glad his pride was his undoing. The young fool used up the Ruby of Eldoral in creating his phylactery, however; I must acquire a new phylactery for myself. On the bright side, my incompetent apprentice did illustrate why a bone from a creature slain by my own hand is important: the dragon bone he chose had left to fester a mold infection, and the mold somehow infused itself with the bone's inherent magical properties, altering the magical composition of the spell. I do hope whoever finds this note shall kill this "lich" using the most painful means available, and shall deposit him someplace where he is sure to be found.
-Oh, look. He is trying to harm me with spells, but all he can manage is a corruption of his own name: Z'quikzshl.]], "_t")
 t("Walrog", "Walrog", "_t")
-t([[Dirge of the Naloren
-
-There once was a village
-the Nalore held dear,
-but when Ol' Walrog came t'pillage,
-they cowered in fear.
-
-He trampled their men
-and their babes newly born,
-and seeing it finished,
-he summoned a storm.
-
-So remember old Shellsea
-as she was in the past,
-for Ol' Walrog sent the gale
-that drowned her at last.]], [[Dirge of the Naloren
-
-There once was a village
-the Nalore held dear,
-but when Ol' Walrog came t'pillage,
-they cowered in fear.
-
-He trampled their men
-and their babes newly born,
-and seeing it finished,
-he summoned a storm.
-
-So remember old Shellsea
-as she was in the past,
-for Ol' Walrog sent the gale
-that drowned her at last.]], "_t")
 --]==]
 
+-- ancien texte traduit
+t([[I fell asleep in a dark hollow, but my sleep was troubled by terrible dreams. The dreams are so vivid in my mind!
+
+I saw the red star, and it became a land of fire floating in the night sky, full of black creatures with yellow eyes and hungry red mouths. And beyond the red star, far beyond was a dim world, but fractured and split all about its surface. As the world spun the split continents crushed against each other, and lava spilled up, and lands sunk into the ground. Demonic mouths screamed up as they disappeared into fiery death. It was if the world was tearing itself apart, but some force of will was desperately trying to keep it held together.
+
+And I saw then in the centre of the world, as it spun and crumpled and crunched, a vast figure with a horned head and outstretched limbs and shining white eyes. It held tight to the innards of the world, holding it together against forces threatening to pull the whole planet apart. The giant face contorted and screamed in pain and fury.
+
+"Urh'Rok," a deep voice spoke within my head. "Our god, our saviour, holder of our world. In the name of Urh'Rok we seek vengeance against Amakthel and the Sher'Tul. The petty world of Eyal shall fall!" And then I woke up, and I felt sure something was nearby, looking for me. I fled instantly.
+
+Am I going mad? The name "Urh'Rok" still rebounds through my skull and my vision is dimmed. Perhaps I have been wearing this ring too long...
+
+Yes, yes, this is all clearly an illusion! A strange nightmare that I shall wake up from. I shall take the ring off, and go visit the lovely moonstone again. Once I see the stars all shall be well...]], [[Je me suis endormi dans un creux sombre, mais mon sommeil fut troublé par d'effroyables rêves. Ces images restent si vivaces dans mon esprit !
+
+J'ai vu l'étoile rouge, et elle devint une terre de feu flottant dans le ciel nocturne peuplée de créatures noires aux yeux jaunes et aux bouches rouges, toujours affamées. Et au-delà de l'étoile rouge, bien plus loin, se trouvait un monde obscur fracturé et déchiré sur toute sa surface. Tandis que le monde tournait, les continents brisés se heurtaient les uns aux autres, la lave jaillissait, et des terres s'enfonçaient dans le sol. Des bouches démoniaques hurlaient en disparaissant dans une mort de feu. C'était comme si le monde se déchirait lui-même, mais une force de volonté désespérée tentait de le maintenir uni.
+
+Et je vis alors au centre de ce monde qui tournoyait, se froissait et craquait, une vaste silhouette à la tête cornue, aux membres étendus, et aux yeux d'un blanc lumineux. Elle s'accrochait fermement aux entrailles du monde, le maintenant ensemble contre des forces menaçant d'arracher toute la planète. Le visage de ce géant se tordit et hurla de douleur et de fureur.
+
+"Urh'Rok", une voix grave résonna dans mon esprit. "Notre dieu, notre sauveur, gardien de notre monde. Au nom d'Urh'Rok, nous cherchons vengeance contre Amakthel et les Sher'Tul. Le médiocre monde d'Eyal tombera !" Puis je me réveillai, persuadé que quelque chose se trouvait tout près, à ma recherche. Je m'enfuis immédiatement.
+
+Suis-je en train de perdre la raison ? Le nom "Urh'Rok" résonne encore dans mon crâne et ma vision est trouble. Peut-être que je porte cet anneau depuis trop longtemps...
+
+Oui, oui, tout ceci n'est qu'une illusion ! Un étrange cauchemar dont je vais me réveiller. Je vais enlever l'anneau et retourner voir la belle pierre de lune. Une fois que je verrai les étoiles, tout ira bien...]], "_t")
+t([[Though the elven races look very similar in appearance, they are extremely distinct in history, culture, mindset and many subtle physical traits, so I shall write of each of them separately. All elves are marked by their long, pointed ears and high cheek-bones, but other features can vary greatly. It should be noted that they call themselves as a whole "Elore", which means "siblings", yet the interactions between these brothers and sisters are oft strained.
+Shaloren (or Shalore - lit "siblings of grace") are on average 6'2", with bright hair and blue or purple eyes. They are usually slim and lightly built, more marked for their mental prowess than their physical strengths. They are however known to be extremely swift of movement and light of foot. But of particular note is their magical affinity, which is far stronger than any other race, and their intense powers of will.
+The Shaloren have a long history of magic-use which continues to this day. Though other races shun the dangers of magic to a large degree, the Shaloren embrace it, and it is still widely used throughout their society. However they are careful to hide this in their dealings with other races. The Shaloren were the ones that began the Spellblaze, though they would soon have it forgotten, and the memories of blame run deep amongst many. During the Spellhunt in the Age of Dusk they locked their city doors and shrouded the whole region in mist, only coming out in secrecy. It took many centuries before they were accepted again in wider society, and still they are treated with intense distrust.
+Their capital city is Elvala, in the south-west peninsula, and they have very few settlements outside of this. They have naturally long lives, and their mastery of the arcane arts has allowed them to extend their lives indefinitely. The eldest immortals make up their Council of Elders, which is headed by their King Aranion Gayaeil. Death is a particular fascination amongst the Shaloren, and early kings of their race were said to build great tombs for themselves whilst experimenting in flesh preservation and necromancy. The Shaloren of course deny this.
+They deal with other races seldom, preferring to keep a low profile, and most of their trade is done through halfling intermediaries. A few rune-crafters and enchanters sometimes travel to other major cities to do business, and some brash youths are known to explore further afield.]], [[Bien que les races elfiques se ressemblent beaucoup en apparence, elles se distinguent de façon extrême par leur histoire, leur culture, leur mentalité et de nombreux traits physiques subtils ; je traiterai donc de chacune d'elles séparément. Tous les elfes se reconnaissent à leurs longues oreilles pointues et à leurs pommettes saillantes, mais les autres traits peuvent varier considérablement. Il convient de noter qu'ils se désignent collectivement sous le nom d'"Elore", qui signifie "frères et soeurs", pourtant les relations entre ces frères et soeurs sont bien souvent tendues.
+Les Shaloren (ou Shalore - litt. "frères de la grâce") mesurent en moyenne 1,88 m, avec des cheveux clairs et des yeux bleus ou violets. Ils sont généralement minces et de constitution légère, plus remarquables par leurs aptitudes mentales que par leur force physique. On les sait cependant d'une rapidité de mouvement et d'une légèreté de pas extraordinaires. Mais ce qui les distingue avant tout, c'est leur affinité magique, bien plus puissante que celle de toute autre race, ainsi qu'une force de volonté d'une intensité rare.
+Les Shalore possèdent une longue histoire d'utilisation de la magie, qui se perpétue jusqu'à nos jours. Alors que les autres races évitent largement les dangers de la magie, les Shalore l'embrassent pleinement, et elle est encore largement pratiquée dans toute leur société. Ils prennent cependant soin de le dissimuler dans leurs rapports avec les autres races. Les Shalore furent à l'origine de la Brûlure Magique, bien qu'ils s'empressèrent de la faire oublier ; les souvenirs de cette culpabilité demeurent pourtant profondément ancrés chez beaucoup. Lors de la Purge Arcanique, à l'Ère du Crépuscule, ils barricadèrent leurs cités et enveloppèrent toute la région de brume, ne sortant que dans le plus grand secret. Il fallut de nombreux siècles avant qu'ils fussent à nouveau acceptés dans la société au sens large, et ils sont encore aujourd'hui traités avec une profonde méfiance.
+Leur capitale est Elvala, dans la péninsule sud-ouest, et ils ne possèdent que très peu d'établissements en dehors de celle-ci. Ils jouissent naturellement d'une longue existence, et leur maîtrise des arts arcaniques leur a permis de prolonger leur vie indéfiniment. Les immortels les plus anciens forment leur Conseil des Anciens, présidé par leur roi Aranion Gayaeil. La mort est une fascination particulière pour les Shalore, et les premiers rois de leur race auraient construit de grands tombeaux pour eux-mêmes tout en expérimentant la préservation de la chair et la nécromancie. Les Shalore nient bien entendu ces allégations.
+Ils traitent rarement avec les autres races, préférant garder un profil discret, et la majeure partie de leur commerce se fait par l'intermédiaire de halfelins. Quelques fabricants de runes et enchanteurs se rendent parfois dans d'autres grandes cités pour affaires, et certains jeunes impétueux sont connus pour explorer des contrées plus lointaines.]], "_t")
+t([[The Thaloren (or Thalore - lit "siblings of wrath") are on average 6'4", with dark brown hair and hazel or green eyes. They are generally of muscular build, and known for their physical prowess. They are renowned to be of a fey mindset - as quick to furious violence as they are to joyous song. Their relations with the Shaloren are particularly strained, as they strongly oppose their brethren's use of magic.
+Their capital city is Shatur, hidden deep within the northern woods, and they are loathe to let any outsiders even approach the surrounding forest. Archers and fighters carefully patrol their borders, ready to rain down death from the trees on any who encroach. Their leader is Queen Nessilla Tantaelen, and they are said to live in extensive dwellings carved into giant trees, but little else is known about their society.
+Those who choose to leave the fastness of the forest tend to be of unique disposition with unusual attitudes and traits. Oft they are musicians, bowmasters or skilled warriors. However they are sometimes mistrusted heavily, as rumour has it that many of those who leave Shatur are actually criminals expelled for the very worst crimes. In any case they tend to be natural loners who wander the world on their own personal quests.
+The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], [[Les Thaloren (ou Thalore - litt. "frères de la colère") mesurent en moyenne 1,93 m, avec des cheveux châtain foncé et des yeux noisette ou verts. Ils sont généralement de constitution musclée et renommés pour leurs prouesses physiques. On dit d'eux qu'ils ont l'esprit fée - aussi prompts à la violence furieuse qu'au chant joyeux. Leurs relations avec les Shalore sont particulièrement tendues, car ils s'opposent fermement à l'utilisation de la magie par leurs frères.
+Leur capitale est Shatur, dissimulée au coeur des forêts du nord, et ils refusent catégoriquement de laisser le moindre étranger s'approcher de la forêt environnante. Des archers et des guerriers patrouillent attentivement leurs frontières, prêts à semer la mort depuis les arbres sur tout intrus. Leur chef est la Reine Nessilla Tantaelen, et l'on dit qu'ils vivent dans de vastes demeures sculptées dans de gigantesques arbres, mais on sait peu de chose de leur société au-delà de cela.
+Ceux qui choisissent de quitter l'inaccessibilité de la forêt ont tendance à présenter une personnalité singulière, aux attitudes et aux traits inhabituels. Ce sont souvent des musiciens, des maîtres à l'arc ou de valeureux guerriers. Ils suscitent parfois une forte méfiance, car la rumeur veut que nombre de ceux qui quittent Shatur soient en réalité des criminels bannis pour les pires forfaits. En tout état de cause, ils ont tendance à être des solitaires-nés qui errent dans le monde à la poursuite de leurs quêtes personnelles.
+Les Thalore font très rarement des affaires avec le monde extérieur, mais lorsqu'ils le font, c'est généralement pour se procurer des métaux et certaines denrées alimentaires qu'ils ne peuvent obtenir par eux-mêmes. Ils vendent habituellement de l'artisanat en bois et de belles soies. C'est la seule source légale de bois elfique, une denrée rare très recherchée pour la fabrication de flèches. Les marchés noirs dépendent de braconniers pour couper des arbres dans la forêt de Shatur - une activité extrêmement risquée, mais aussi très lucrative, en raison des prix élevés que paient les mages Shalore pour un bâton en bois elfique.]], "_t")
+t([[The Naloren (or Nalore - lit "siblings of spirit") are now an extinct race, as their homeland was swept into the sea by the Cataclysm. However as a separate elf race they are worth studying, scant though the records be. Much of what is now said about the Naloren is traced with myth, but one can deduce certain facts.
+Naloren elves were around 5'10", with blonde hair and green eyes. They were incredibly thin, but known for their swift and dextrous capabilities. Their kingdom was located on the eastern side of Maj'Eyal, and all of their towns were on the sea or straddling major rivers. They employed themselves as fishermen, sponge-divers, sailors and musicians. They were renowned for being able to stay underwater for hours at a time, and those with arcane abilities were said to be able to stay submerged indefinitely.
+They traded little with the other races, and were very protective of their coastal lands. They most especially guarded jealously an ancient Sher'Tul ruin that lay in the centre of their territories. The Shaloren were in particular keen to study this relic, but the Naloren always refused them access, though they were too afraid to touch it themselves. The orcs were said to encroach on their lands often, but were always fought back by their mail-clad warriors wielding vicious tridents.
+Alas their love of the sea was to be their undoing. When the Cataclysm came the whole of the coastal kingdom was shorn away and fell into the sea, annihilating almost the entire race. What small numbers survived committed suicide soon after by leaping from the eastern cliffs into the ocean, following their fallen brothers and sisters. Almost no evidence of their civilisation remains.]], [[Les Naloren (ou Nalore - litt. "frères de l'esprit") sont désormais une race éteinte, leur patrie ayant été engloutie par la mer lors du Cataclysme. Pourtant, en tant que race elfique distincte, ils méritent d'être étudiés, bien que les archives soient rares. Une grande partie de ce que l'on dit aujourd'hui sur les Naloren est teintée de mythes, mais on peut en déduire certains faits.
+Les elfes Naloren mesuraient environ 1,78 m, avec des cheveux blonds et des yeux verts. D'une minceur remarquable, ils étaient néanmoins connus pour leur rapidité et leur dextérité. Leur royaume se trouvait sur la côte est de Maj'Eyal, et toutes leurs cités étaient situées en bord de mer ou le long de grands fleuves. Ils exerçaient comme pêcheurs, plongeurs d'éponges, marins et musiciens. Ils étaient réputés pour leur capacité à rester sous l'eau pendant des heures, et ceux dotés de capacités arcaniques pouvaient, dit-on, demeurer submergés indéfiniment.
+Ils commerçaient peu avec les autres races et protégeaient jalousement leurs terres côtières. Ils gardaient tout particulièrement avec un soin ombrageux une ancienne ruine Sher'Tul qui se trouvait au coeur de leurs territoires. Les Shalore étaient notamment avides d'étudier cette relique, mais les Naloren leur en refusaient systématiquement l'accès, bien qu'ils fussent eux-mêmes trop effrayés pour la toucher. Les Orcs envahissaient fréquemment leurs terres, dit-on, mais étaient toujours repoussés par leurs guerriers en cotte de mailles brandissant de redoutables tridents.
+Hélas, leur amour de la mer causa leur perte. Quand le Cataclysme survint, l'intégralité du royaume côtier fut arrachée et sombra dans les flots, anéantissant presque toute la race. Le petit nombre de survivants se donna la mort peu après en se jetant des falaises orientales dans l'océan, rejoignant ainsi leurs frères et soeurs disparus. Il ne reste presque aucune trace de leur civilisation.]], "_t")
+t([[Ogres have never been a thriving race, starting from their abrupt appearance as soldiers and laborers for the Conclave during the Allure Wars (unexplained aside from a highly implausible story from the Conclave's Overseers about a lost mountain tribe).  Left without homes or proper runic training after the war's end, they were forced to found their own tribes and rediscover the fields of rune and infusion creation for themselves, and though their numbers dropped rapidly, they enjoyed a brief period of relative success as nomadic rune-traders, virtually unaffected by the Spellblaze.  The Spellhunt nearly proved to be their undoing, as their monstrous size and rune-covered skin made them popular targets; they were thought to be extinct, and only in recent years has the city of Elvala revealed that some Ogres took refuge there during this time.  Their descendants still live today, fearful of persecution but gradually beginning to explore outside Elvala for the first time in ages.
+Ogres' most striking feature is their size, by far the largest of any intelligent race; they average at roughly 8'4" tall, and most are nearly half as wide with muscle.  They have a similar range of skin tones to humans, although slightly grayer on the whole; their hair tends to be dark brown or black, and their eyes run the gamut from black to bright blue to purple, presumably a side-effect of runic mis-transcription.  Their angular facial features invite some impolite comparisons to Orcs, with strong jawlines, disproportionately large mouths and teeth, and squarish heads, but otherwise resemble those of humans.  It would be remiss of me to describe Ogres' appearance without mentioning the intricate, glowing pattern of runes covering their skin from head to toe, although the exact patterns and colors vary.  
+Although they excel at physical tasks for obvious reasons, and the necessity of careful inscription has made their finger dexterity (and penmanship) rather impressive, their limb movements tend to be slow and clumsy due to their size, and they tire quickly if they over-exert themselves during strenuous labor.  Their slow speech, incredible appetites, and lack of interest in arts or most scholarly concerns has led to a misconception that they are dim-witted; however, Ogres forced into studious tasks have performed admirably, and one needs only look at their runic patterns to know the patient study and artistic vision they are capable of, if properly motivated.  This may tie into the humble, duty-bound mindset that seems to be an inherent property of the species - most Ogres show absolutely no interest in leadership or impressing others, only completing tasks in the most reliable manner possible, and such strategies tend to be rather simple.
+While Shalore use of magic is (arguably) a choice, Ogres have no such luxury.  Their inscriptions are as crucial to their well-being and structural integrity as any internal organ, and attempts by Ziguranth to "cleanse" captured Ogres of their runes invariably lead to them first collapsing under their own weight, then their organs shutting down one by one; one can assume that their natural infusions are just as vital.  As such, Ogre reproduction is a careful task; a newborn can live for a few months unaltered, but after this the parents must give their child a thorough regimen of runic inscription and herbal infusions.  The parents typically perform this task together, using each others' runes as a reference, and any mistakes made in the transcription will affect the child's health and development (usually adversely, though it is believed that transcription errors are responsible for mitigating Ogres' once-uncontrollable tempers).  As such, the inscribed patterns are as much of an influence on the child's development as the physical and mental traits of his or her parents.
+Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], [[Les Ogres n'ont jamais été une race prospère, depuis leur apparition soudaine en tant que soldats et ouvriers au service du Conclave lors des Guerres de la Séduction (phénomène inexpliqué, hormis l'histoire fort invraisemblable rapportée par les superviseurs du Conclave à propos d'une tribu montagnarde perdue). Privés de foyers et d'une formation runique adéquate après la fin de la guerre, ils furent contraints de fonder leurs propres tribus et de redécouvrir par eux-mêmes les pratiques de création de runes et d'essences. Bien que leur nombre ait rapidement diminué, ils connurent une brève période de succès relatif en tant que marchands nomades de runes, pratiquement épargnés par la Brûlure Magique. La Purge Arcanique manqua de leur être fatale : leur taille monstrueuse et leur peau couverte de runes en faisaient des cibles de choix ; on les croyait éteints, et c'est seulement ces dernières années que la cité d'Elvala a révélé que quelques Ogres y avaient trouvé refuge durant cette période sombre. Leurs descendants vivent encore aujourd'hui, craignant la persécution mais commençant peu à peu à s'aventurer hors d'Elvala pour la première fois depuis des siècles.
+La caractéristique la plus frappante des Ogres est leur taille, de loin la plus imposante de toutes les races intelligentes ; ils mesurent en moyenne environ 2,55 m de haut, et la plupart sont presque aussi larges que hauts, tant leur musculature est développée. Leur teint présente une gamme de nuances similaire à celle des humains, bien que légèrement plus grisâtre dans l'ensemble ; leurs cheveux ont tendance à être châtain foncé ou noirs, et leurs yeux vont du noir au bleu vif en passant par le violet, vraisemblablement à titre d'effet secondaire d'erreurs de transcription runique. Les traits anguleux de leur visage invitent à d'impolis parallèles avec les Orcs, avec des mâchoires prononcées, des bouches et des dents disproportionnément grandes et des têtes carrées, mais ils ressemblent par ailleurs à ceux des humains. Il serait négligent de ma part de décrire l'apparence des Ogres sans mentionner les motifs complexes et lumineux de runes qui couvrent leur peau de la tête aux pieds, bien que les dessins et les couleurs exacts varient d'un individu à l'autre.
+Bien qu'ils excellent dans les tâches physiques pour des raisons évidentes, et que la nécessité d'inscriptions soigneuses ait rendu leur dextérité digitale (et leur calligraphie) fort impressionnante, leurs mouvements tendent à être lents et maladroits en raison de leur taille, et ils se fatiguent rapidement s'ils se surmènent lors de travaux éreintants. Leur élocution lente, leur appétit prodigieux et leur manque d'intérêt pour les arts ou la plupart des préoccupations intellectuelles ont engendré l'idée fausse qu'ils seraient simplets ; cependant, des Ogres contraints à des tâches studieuses ont fait preuve de performances admirables, et il suffit d'observer leurs motifs runiques pour mesurer l'étude patiente et la vision artistique dont ils sont capables, lorsqu'ils sont dûment motivés. Cela est peut-être lié à la mentalité humble et au sens du devoir qui semblent être des traits inhérents à l'espèce - la plupart des Ogres ne montrent absolument aucun intérêt pour le commandement ni pour impressionner les autres, ne cherchant qu'à accomplir leurs tâches de la manière la plus fiable possible, et de telles stratégies tendent à être assez simples.
+Alors que l'utilisation de la magie par les Shalore est (on pourrait en discuter) un choix, les Ogres n'ont pas ce luxe. Leurs inscriptions sont aussi indispensables à leur bien-être et à leur intégrité structurelle que n'importe quel organe interne, et les tentatives des Zigurantes de "purifier" les Ogres capturés de leurs runes les conduisent invariablement à s'effondrer d'abord sous leur propre poids, puis à voir leurs organes défaillir un à un ; on peut supposer que leurs essences naturelles sont tout aussi vitales. Ainsi, la reproduction des Ogres est une tâche délicate ; un nouveau-né peut vivre quelques mois sans modifications, mais passé ce délai, les parents doivent lui administrer un régime complet d'inscriptions runiques et d'essences d'herbes. Les parents accomplissent généralement cette tâche ensemble, utilisant mutuellement leurs propres runes comme référence, et toute erreur de transcription affectera la santé et le développement de l'enfant (généralement de manière défavorable, bien que l'on suppose que ces erreurs de transcription soient responsables de l'apaisement des tempéraments autrefois incontrôlables des Ogres). Ainsi, les motifs inscrits influencent le développement de l'enfant tout autant que les traits physiques et mentaux de ses parents.
+En raison de la sécurité et du confort d'Elvala, et de leur méfiance envers une grande partie du monde extérieur, la plupart des Ogres qui quittent leur foyer le font à des fins commerciales ; n'ayant plus recours aux Shalore comme messagers, certains ont commencé à s'intégrer au marché croissant des runes et des essences, et se sont révélés très performants grâce à leur talent naturel dans ce domaine. Les rares Ogres que l'on pourrait qualifier d'"aventuriers" ont tendance à rassembler leurs affaires et à partir brusquement, non pas pour la gloire ou les richesses, mais parce qu'ils voient une source récurrente de misère dans le monde et souhaitent y remédier eux-mêmes à titre de service public. Il n'est pas rare qu'un Ogre soupire de frustration en entendant parler d'une cargaison de grain détournée, parte en mission, revienne quelques jours plus tard avec le sang d'un clan de bandits jadis tenaces collé sur sa massue, et retourne aussitôt s'occuper de ses cultures.]], "_t")
+t([[#{bold}#How to Summon a Phoenix#{normal}#
+	  10 pouches faeros ash
+	  5 vials fire wyrm saliva
+	  3 red crystal shards
+	  3 pouches bone giant dust
+	  1 vial greater demon bile
+	  1 skeleton mage skull
+	  pinch of luminous horror dust
+
+This is a long and complex ceremony, and all steps must be followed precisely if you wish to succeed. Heed well that for the errant fool who takes on what they cannot finish, there will be consequences. To play with fire and assert your dominance over the flames comes with risks if you overestimate your power. 
+	
+The ritual begins with a vessel; any man will do. Bind them in place with flame secure bindings, and give a sound gag. The gag isn't strictly necessary, but the screams of agony tend to be quite distracting and inspirit mistakes after a few days.
+
+Take 2 vials fire wyrm saliva and dissolve 2 pouches faeros ash in each. Be sure to dissolve completely. A few fireballs at the vial can do the trick if they're stubborn. Using one of the prepared vials, begin to etch the saliva in the skin of the vessel, heating it so that it brands the shape of --- 
+
+#{italic}#The remainder of the scroll has been singed into a pile of char, illegible and scattering into a cloud of ash as you grasp it#{normal}#
+	  ]], [[#{bold}#Comment invoquer un Phénix#{normal}#
+	  10 sachets de cendres de faeros
+	  5 fioles de salive de ver de feu
+	  3 éclats de cristal rouge
+	  3 sachets de poussière de géant d'os
+	  1 fiole de bile de démon majeur
+	  1 crâne de squelette mage
+	  une pincée de poussière d'horreur lumineuse
+
+Ceci est une cérémonie longue et complexe, et toutes les étapes doivent être suivies précisément si vous souhaitez réussir. Prenez garde : pour l'imbécile errant qui entreprend ce qu'il ne peut terminer, il y aura des conséquences. Jouer avec le feu et affirmer votre domination sur les flammes comporte des risques si vous surestimez votre pouvoir.
+	
+Le rituel commence par un récipient ; n'importe quel homme fera l'affaire. Attachez-le en place avec des liens ignifugés et bâillonnez-le solidement. Le bâillon n'est pas strictement nécessaire, mais les cris d'agonie ont tendance à être assez distrayants et provoquent des erreurs après quelques jours.
+
+Prenez 2 fioles de salive de ver de feu et dissolvez 2 sachets de cendres de faeros dans chacune. Assurez-vous que la dissolution soit complète. Quelques boules de feu sur la fiole peuvent faire l'affaire s'ils sont récalcitrants. En utilisant l'une des fioles préparées, commencez à graver la salive sur la peau du récipient, en la chauffant de sorte qu'elle marque la forme de --- 
+
+#{italic}#Le reste du parchemin a été brûlé en un tas de charbon, illisible et se dispersant en un nuage de cendres lorsque vous le saisissez#{normal}#
+	  ]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/noxious-caldera.lua"
@@ -18068,7 +18151,7 @@ t("bandit fortress", "forteresse de bandits", "_t")
 t("stairs back to %s", "escaliers vers %s", "_t")
 t("#rng# the Guard", "#rng# le Garde", "_t")
 t("scroll", "parchemin", "_t")
-t("Guard's Journal", "Journal d'un garde", "_t")
+t("Guard's Journal", "Journal du Garde", "_t")
 t("A messily scrawled pile of loose papers.", "Un tas de papiers gribouillés en désordre.", "_t")
 
 ------------------------------------------------
@@ -19030,7 +19113,7 @@ t("Zemekkys points to the location of Briagh's lair on your map.", "Zemekkys ind
 t("#VIOLET#Zemekkys starts to draw runes on the floor using the athame and gem dust.", "#VIOLET#Zemekkys commence à tracer des runes au sol en utilisant l'athamé et la poussière de gemme.", "logPlayer")
 t("#VIOLET#The whole area starts to shake!", "#VIOLET#Toute la zone se met à trembler !", "logPlayer")
 t("#VIOLET#Zemekkys says: 'The portal is done!'", "#VIOLET#Zemekkys dit : \"Le portail est terminé !\"", "logPlayer")
-t("High Chronomancer Zemekkys", "Grand Cronomancien Zemekkys", "_t")
+t("High Chronomancer Zemekkys", "Grand Chronomancien Zemekkys", "_t")
 -- texte non traduit
 --[==[
 t("", "", "_t")
@@ -21712,7 +21795,7 @@ section "mod-tome/data/talents/cunning/poisons.lua"
 t("Apply Poison", "Appliquer un Poison", "talent name")
 t("%s resists the vile poison!", "%s résiste au vil poison !", "logSeen")
 t([[Learn how to coat your melee weapons, throwing knives, sling and bow ammo with poison, giving your attacks a %d%% chance to poison the target for %d nature damage per turn for %d turns. Every application of the poison stacks, up to a maximum of %d nature damage per turn.
-		The damage scales with your Cunning.]], [[Apprenez à enduire de poison vos armes de mêlée, vos couteaux de lancer, votre fronde et vos flèches, ce qui confère à vos attaques une chance d'empoisonner la cible de %d%%, lui infligeant %d dégâts de nature par tour pendant %d tours. Chaque application de poison s'accumule, jusqu'à un maximum de %d dégâts de nature par tour.
+		The damage scales with your Cunning.]], [[Apprenez à enduire de poison vos armes de mêlée, vos couteaux de lancer, votre fronde et vos flèches, ce qui confère à vos attaques une chance d'empoisonner la cible de %d%%, lui infligeant %d dégâts de nature par tour pendant %d tours. Chaque application de poison se cumule jusqu'à un maximum de %d dégâts de nature par tour.
 		Les dégâts sont proportionnel à votre ruse.]], "tformat")
 t("Toxic Death", "Mort Toxique", "talent name")
 t("#GREEN#Poison bursts out of %s's corpse!", "#GREEN#Du poison jaillit du cadavre de %s !", "logSeen")
@@ -21790,7 +21873,7 @@ section "mod-tome/data/talents/cunning/scoundrel.lua"
 t("Lacerating Strikes", "Frappes Lacérantes", "talent name")
 t("Your melee and ranged attacks have a %d%% chance to shred enemies inflicting an additional 100%% of the damage dealt as a bleed over 4 turns.", "Vos attaques de corps à corps et à distance ont %d%% de chance de lacérer les ennemis, infligeant 100%% supplémentaires des dégâts causés sous forme de saignement sur 4 tours.", "tformat")
 t("Scoundrel's Strategies", "Stratégies de Scélérat", "talent name")
-t("#CRIMSON#%s's %s is disrupted by %s wounds!#LAST#", "#CRIMSON#%s voit son talent « %s » interrompu par %sses blessures !#LAST#", "logSeen")
+t("#CRIMSON#%s's %s is disrupted by %s wounds!#LAST#", "#CRIMSON#%s voit son talent %s interrompu par %sses blessures !#LAST#", "logSeen")
 t([[Your melee and ranged attacks inflict distracting wounds that reduce the target’s critical strike multiplier by %d%% for 5 turns. 
 In addition, your attacks have a %d%% chance to inflict a painful wound that causes them to forget a random talent for %d turns.  The last effect cannot occur more than once per turn per target.
 		]], [[Vos attaques de corps à corps et à distance infligent des blessures distrayantes qui réduisent le multiplicateur de coup critique de la cible de %d%% pendant 5 tours.
@@ -25006,7 +25089,7 @@ t([[Grapples the target and inflicts %0.2f physical damage. If the target is alr
 		The grapple effects will be based off your grapple talent, if you have it, and the damage will scale with your Physical Power.]], [[Saisit la cible et lui inflige %0.2f dégâts physiques. Si la cible est déjà saisie, elle sera également mutilée, réduisant les dégâts de %d et la vitesse globale de 30%% pendant %d tours.
 		Les effets de saisie sont basés sur votre talent Saisie et les dégâts sont proportionnels à votre Puissance physique.]], "tformat")
 t("Bloodrage", "Rage de Sang", "talent name")
-t("Each time one of your foes bites the dust, you feel a surge of power, increasing your strength by 2 (stacking up to a maximum of %d) for %d turns.", "Chaque fois que l'un de vos ennemis mord la poussière, vous ressentez une montée de puissance, augmentant votre Force de 2 (s'accumulant jusqu'à un maximum de %d) pendant %d tours.", "tformat")
+t("Each time one of your foes bites the dust, you feel a surge of power, increasing your strength by 2 (stacking up to a maximum of %d) for %d turns.", "Chaque fois que l'un de vos ennemis mord la poussière, vous ressentez une montée de puissance, augmentant votre Force de 2 (se cumule jusqu'à un maximum de %d) pendant %d tours.", "tformat")
 t("Martyrdom", "Supplice", "talent name")
 t("Designate a target as a martyr for 10 turns. When the martyr deals damage, it also damages itself for %d%% of the damage dealt.", "Désigne une cible comme supplicié pendant 10 tours. Lorsque le supplice inflige des dégâts, il s'inflige également %d%% des dégâts infligés.", "tformat")
 t("Overpower", "Dominer", "talent name")
@@ -25287,7 +25370,7 @@ t([[You absorb latent cold around you, turning into an ice elemental - a shivgor
 		Sous cette forme vous n'avez plus besoin de respirer, accédez au talent Tempête de Glace au niveau %d, obtenez %d%% de résistance aux blessures profondes et aux assomements, ainsi que %d%% de résistance au froid. De plus, tous les dégâts de froid subis vous soignent à hauteur de %d%% des dégâts initiaux.
 		La puissance de cet effet est proportionnel à votre puissance magique.]], "tformat")
 t("Mental Refresh", "Rafraichissement Mentale", "talent name")
-t("Reset up to 3 wild gift, psionic or cursed talents.", "Réinitialise le temps de recharge de jusqu'à 3 talents de dons sauvage, psiôniques, ou maudits.", "tformat")
+t("Reset up to 3 wild gift, psionic or cursed talents.", "Réinitialise le temps de recharge de jusqu'à 3 talents de dons sauvage, psioniques, ou maudits.", "tformat")
 t("Dagger Block", "Blocage à la Dague", "talent name")
 t([[Raise your dagger into blocking position for one turn, reducing the damage of all physical melee attacks against you by %d. If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (a normal attack will instead deal 200%% damage) for one turn and be left disarmed for 3 turns.
 		The blocking value will increase with your Dexterity and Cunning.]], [[Levez votre dague en position de blocage pendant un tour, réduisant les dégâts de toutes les attaques physiques au corps à corps de %d. Si vous bloquez l'intégralité des dégâts d'une attaque, l'assaillant devient vulnérable à une contre-attaque mortelle (une attaque normale infligera 200%% de dégâts) pendant un tour et se retrouve désarmé pendant 3 tours.
@@ -25296,7 +25379,7 @@ t("Shieldsmaiden Aura", "Aura de la Vierge au Bouclier", "talent name")
 t("#CRIMSON#%s's shield deflects the blow!", "#CRIMSON#Le bouclier de %s dévie le coup !", "logSeen")
 t("Can block up to 1 hit per 10 turns.", "Peut bloquer jusqu'à 1 coup tous les 10 tours.", "tformat")
 t("Psionic Maelstrom", "Maelström Psionique", "talent name")
-t("For the next 8 turns, powerful blasts of psionic energies will erupt from you, doing %d damage.", "Pendant les 8 prochains tours, de puissantes vagues d'énergie psiônique émanent de vous, infligeant %d dégâts mentaux.", "tformat")
+t("For the next 8 turns, powerful blasts of psionic energies will erupt from you, doing %d damage.", "Pendant les 8 prochains tours, de puissantes vagues d'énergie psionique émanent de vous, infligeant %d dégâts mentaux.", "tformat")
 t("Melee retaliation", "Représailles au Corps à Corps", "talent name")
 t("Intermediary for melee retaliation.", "Intermédiaire pour les représailles au corps à corps.", "tformat")
 -- texte non traduit
@@ -25377,6 +25460,10 @@ t([[Nature is with the Thaloren; they can always feel the call of the woods.
 		Votre Volonté (%d) s'ajoute à toutes leurs statistiques principales non magiques, et leurs niveau de talents augmente avec votre niveau de talent de Fierté de la nature.
 		Ils héritent de vos bonus de dégâts, de votre pénétration de dégâts et de bien d'autres caractéristiques.]], "tformat")
 t("dwarf", "nain", "talent type")
+t("Resilience of the Dwarves", "Resilience des Nains", "talent name")
+t([[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
+		The bonuses will increase with your Constitution.]], [[Invoque la résilience légendaire de la race naine pour augmenter l'armure de +%d, l'efficacité de l'armure de +%d%%, et les sauvegardes magique (+%d) et physique (+%d) pendant 8 tours.
+		Les bonus sont proportionnels à votre Constitution.]], "tformat")
 t("Stoneskin", "Peau de Pierre", "talent name")
 t([[Dwarf skin is a complex structure; it can automatically react to physical blows and harden itself.
 		When you are hit in melee, you have a 15%% chance to increase your armour total by %d for 5 turns and fully ignore the attack triggering it.
@@ -25467,7 +25554,7 @@ t("A wayist that came to help.", "Un adepte de la Voie venu prêter main-forte."
 t([[Reach through the collective psionic gestalt of the yeeks, the Way, to call for immediate help.
 		Summons up to 3 yeek mindslayers to your side for 6 turns.
 		All their primary stats will be set to %d (based on your Willpower and Talent Level).
-		Your increased damage, damage penetration, and many other stats will be inherited.]], [[Puise dans la gestalt psiônica collective des yeeks, la Voie, pour appeler une aide immédiate.
+		Your increased damage, damage penetration, and many other stats will be inherited.]], [[Puise dans la gestalt psionique collective des yeeks, la Voie, pour appeler une aide immédiate.
 		Invoque jusqu'à 3 tueurs psionique yeeks à vos côtés pour 6 tours.
 		Toutes leurs caractéristiques principales seront fixées à %d (selon votre Volonté et le niveau du Talent).
 		Ils héritent de vos bonus de dégâts, vos pénétrations de résistance et de bien d'autres caractéristiques.]], "tformat")
@@ -25508,10 +25595,6 @@ t([[Instantly removes runic and infusion saturations.
 t("race", "race", "talent category")
 t("shalore", "shalore", "talent type")
 t("thalore", "thalore", "talent type")
-t("Resilience of the Dwarves", "Resilience of the Dwarves", "talent name")
-t([[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
-		The bonuses will increase with your Constitution.]], [[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
-		The bonuses will increase with your Constitution.]], "tformat")
 t("orc", "orc", "talent type")
 t("yeek", "yeek", "talent type")
 t("ogre", "ogre", "talent type")
@@ -26866,7 +26949,7 @@ t([[Rupture reality to temporarily open a passage to the aether, triggering %d r
 		Subsequent casts will stack but the explosions will still only occur once per turn and will be centered at the last area targeted.
 		The damage will increase with your Spellpower.]], [[Rompez la réalité pour ouvrir temporairement un passage vers l'éther, déclenchant %d explosions arcaniques aléatoires dans la zone cible.
 		Chaque explosion inflige %0.2f dégâts arcaniques dans un rayon de 2, et chacune se déclenche à des intervalles d'un tour.
-		Les lancers successifs s'accumulent, mais les explosions ne se produiront qu'une fois par tour et seront centrées sur la dernière zone ciblée.
+		Les lancers successifs se cumulent, mais les explosions ne se produiront qu'une fois par tour et seront centrées sur la dernière zone ciblée.
 		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 t("Aether Avatar", "Avatar d'Ether", "talent name")
 t("#VIOLET#%s loses 50 mana from using a non-Arcane talent!#LAST#", "#VIOLET#%s perd 50 mana en utilisant un talent non-Arcanique !#LAST#", "logSeen")
@@ -27743,9 +27826,9 @@ t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
 		If cast while under 1 life it spawns with 3 stacks.
 		The damage will increase with your Spellpower.]], [[Vous invoquez une lueur cadavérique qui irradie de froid pendant 7 tours dans un rayon de %d.
 		À chaque tour, tous les ennemis à l'intérieur subissent %0.2f dégâts de froid.
-		Chaque fois que vous lancez un sort en vous tenant dans la zone de votre lueur cadavérique, elle gagne une charge, chaque charge accordant +1 de rayon et +10%% de dégâts.
-		La lueur cadavérique peut gagner au maximum %d charge et le rayon ne s'étendra jamais au-delà de 10.
-		Si elle est lancée alors que vous êtes en dessous de 1 de vie, elle apparaît avec 3 charges.
+		Chaque fois que vous lancez un sort en vous tenant dans la zone de votre lueur cadavérique, elle gagne un cumul, chaque cumul accordant +1 de rayon et +10%% de dégâts.
+		La lueur cadavérique peut gagner au maximum %d cumul et le rayon ne s'étendra jamais au-delà de 10.
+		Si elle est lancée alors que vous êtes en dessous de 1 de vie, elle apparaît avec 3 cumul.
 		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 t("Grave Mistake", "Erreur Fatale", "talent name")
 t("#STEEL_BLUE#The corpselight implodes!", "#STEEL_BLUE#La lueur cadavérique implose !", "logSeen")
@@ -27754,7 +27837,7 @@ t([[Upon expiring the corpselight implodes, pulling in all foes towards its cent
 		The damage will increase with your Spellpower.
 
 		#PURPLE#Learning this spell will make Corpselight cost two souls to use instead of one.]], [[À expiration, la lueur cadavérique implose, attirant tous les ennemis vers son centre et infligeant %0.2f dégâts de froid.
-		Les dégâts sont augmentés de +10%% par charge.
+		Les dégâts sont augmentés de +10%% par cumul.
 		Les dégâts sont proportionnels à votre Puissance des sorts.
 
 		#PURPLE#Apprendre ce sort fera coûter deux âmes à Lueur Cadavérique au lieu d'une.]], "tformat")
@@ -28856,7 +28939,7 @@ t("Bloodbath", "Bain de Sang", "talent name")
 t([[Delight in spilling the blood of your foes.  After scoring a critical hit, your maximum hit points will be increased by %d%%, your life regeneration by %0.2f per turn, and your stamina regeneration by %0.2f per turn for %d turns.
 		The life and stamina regeneration will stack up to five times, for a maximum of %0.2f and %0.2f each turn, respectively.]], [[Délectez-vous en répandant le sang de vos ennemis.
 		Après un coup critique, votre vie maximale augmente de %d%%, votre régénération de vie de %0.2f par tour et votre régénération d'Endurance de %0.2f par tour pour %d tours.
-		Peut s'accumuler jusqu'à cinq fois, pour un maximum de %0.2f de régénération de vie et %0.2f de régénération d'Endurance par tour.]], "tformat")
+		Peut se cumuler jusqu'à cinq fois, pour un maximum de %0.2f de régénération de vie et %0.2f de régénération d'Endurance par tour.]], "tformat")
 t("Bloody Butcher", "Boucher Sanguinaire", "talent name")
 t([[You delight in the inflicting of wounds, providing %d physical power.
 		In addition when you make a creature bleed its physical damage resistance is reduced by %d%% (but never below 0%%).
@@ -29786,7 +29869,7 @@ Vous gagnez %0.1f de régénération d'Endurance par ennemi en vue et, à partir
 Les bonus sont plafonnés à 4 ennemis.]], "tformat")
 t("The Eternal Warrior", "Le Guerrier Éternel", "talent name")
 t([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
-		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[Pour chaque tour où vous dépensez de l'Endurance, vous gagnez %0.1f%% de résistance globale et %0.1f%% de plafond à toutes les résistance pendant %d tours. Le bonus s'accumule jusqu'à %d fois, et chaque nouvelle application renouvelle la durée.
+		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[Pour chaque tour où vous dépensez de l'Endurance, vous gagnez %0.1f%% de résistance globale et %0.1f%% de plafond à toutes les résistance pendant %d tours. Le bonus se cumule jusqu'à %d fois, et chaque nouvelle application renouvelle la durée.
 		De plus, au niveau 5 et supérieur, Espace de Respiration et Challenger Intrépide sont %d%% plus efficaces.]], "tformat")
 
 ------------------------------------------------
@@ -40240,6 +40323,7 @@ t("teleported", "téléporté", "_t")
 t("#CADET_BLUE#You notice a trap (%s)!", "#CADET_BLUE#Vous remarquez un piège (%s) !", "logPlayer")
 t("critter", "bestiole", "_t")
 t("elite", "élite", "_t")
+t("boss", "patron", "_t")
 t("elite boss", "boss élite", "_t")
 t("godslayer", "tueur de dieux", "_t")
 t("god", "dieu", "_t")
@@ -40508,7 +40592,6 @@ t("You fail to attach %s to %s.", "Vous n'arrivez pas à attacher %s à %s.", "l
 t("normal", "normal", "_t")
 t("rare", "rare", "_t")
 t("unique", "unique", "_t")
-t("boss", "boss", "_t")
 t("\
 Mana:  %s%d / %d#LAST#", "\
 Mana:  %s%d / %d#LAST#", "tformat")
@@ -40538,9 +40621,9 @@ t("%s, the lost defiler", "%s, le profanateur perdu", "_t")
 t("temporal portal", "portail temporel", "_t")
 t([[Oh but you are ... are you ?! ME?!
 		So I was right, this is not my original time-thread!
-		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh, mais c'est vous… êtes vous ?! MOI ?!
+		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh, mais c'est vous... êtes vous ?! MOI ?!
 	J'avais donc raison, ce n'est pas mon fil temporel d'origine !
-	Aidez-moi, je vous en prie ! J'ai peur de m'être perdue ici. Je sais qu'un ami a laissé un portail temporel dans les environs, mais j'ai livré trop de combats et je crains de ne pas y arriver. Pourriez-vous m'aider ? Pourriez-vous vous aider… vous-même ?]], "_t")
+	Aidez-moi, je vous en prie ! J'ai peur de m'être perdue ici. Je sais qu'un ami a laissé un portail temporel dans les environs, mais j'ai livré trop de combats et je crains de ne pas y arriver. Pourriez-vous m'aider ? Pourriez-vous vous aider... vous-même ?]], "_t")
 t("%s, temporal explorer", "%s, explorateur temporel", "_t")
 t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "Elle a l'air blessé et fatigué. Elle vous ressemble tellement et pourtant elle est complètement différente. Bizarre.", "_t")
 t("%s, the worried loremaster", "%s, le Chroniqueur soucieux", "_t")
@@ -42202,7 +42285,7 @@ This stacks (multiplicatively) with individual damage type resistances up to the
 (So 20% resistance: All + 50% resistance: Fire = 60% total resistance to Fire.)
 ]], [[#GOLD#Résistance aux dégâts : tous#LAST#
 Tous les dégâts que vous subissez, quelle qu'en soit la source, sont réduits de ce pourcentage.
-Cet effet s'ajoute (de manière multiplicative) aux résistances individuelles à chaque type de dégâts, dans la limite de leurs plafonds respectifs.
+Cet effet se cumulme (de manière multiplicative) aux résistances individuelles à chaque type de dégâts, dans la limite de leurs plafonds respectifs.
 (Exemple : 20% résistance : Tous + 50% résistance : Feu = 60% résistance totale au feu.)
 ]], "_t")
 t([[#GOLD#Damage resistance: absolute#LAST#
