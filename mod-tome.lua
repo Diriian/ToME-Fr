@@ -23152,33 +23152,28 @@ t("Your Mana Clash talent also removes 4 magical sustains from the target.", "Yo
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/call.lua"
 
-
--- texte non traduit
---[==[
-t("Meditation", "Meditation", "talent name")
-t("@Source@ interrupts @hisher@ #GREEN#meditation#LAST#.", "@Source@ interrupts @hisher@ #GREEN#meditation#LAST#.", "_t")
-t("@Source@ #GREEN#meditates#LAST# on nature.", "@Source@ #GREEN#meditates#LAST# on nature.", "_t")
+t("Meditation", "Méditation", "talent name")
+t("@Source@ interrupts @hisher@ #GREEN#meditation#LAST#.", "@Source@ interrompt sa #GREEN#méditation#LAST#.", "_t")
+t("@Source@ #GREEN#meditates#LAST# on nature.", "@Source@ #GREEN#médite#LAST# sur la nature.", "_t")
 t([[Meditate on your link with Nature.
 		While meditating, your equilibrium decreases by %0.2f per turn, your Mental Save is increased by %d, and your healing factor increases by %d%%.
 		Your deep meditation does not let you deal damage correctly, reducing the damage you and your summons deal by 50%%.
 		Also, any time you are resting (even with Meditation not sustained) you enter a simple meditative state that decreases your equilibrium by %0.2f per turn.
-		The activated effects increase with your Mindpower.]], [[Meditate on your link with Nature.
-		While meditating, your equilibrium decreases by %0.2f per turn, your Mental Save is increased by %d, and your healing factor increases by %d%%.
-		Your deep meditation does not let you deal damage correctly, reducing the damage you and your summons deal by 50%%.
-		Also, any time you are resting (even with Meditation not sustained) you enter a simple meditative state that decreases your equilibrium by %0.2f per turn.
-		The activated effects increase with your Mindpower.]], "tformat")
-t("Nature's Touch", "Nature's Touch", "talent name")
+		The activated effects increase with your Mindpower.]], [[Méditez sur votre lien avec la Nature.
+		Pendant la méditation, votre équilibre diminue de %0.2f par tour, votre Sauvegarde mentale augmente de %d et votre facteur de soin augmente de %d%%.
+		Votre méditation profonde ne vous permet pas de causer des dégâts correctement, réduisant les dégâts que vous et vos invocations infligez de 50%%.
+		De plus, chaque fois que vous vous reposez (même sans la Méditation soutenue), vous entrez dans un état méditatif simple qui diminue votre équilibre de %0.2f par tour.
+		Les effets activés sont proportionnels à votre Puissance mentale.]], "tformat")
+t("Nature's Touch", "Toucher de la Nature", "talent name")
 t([[Touch a target (or yourself) to infuse it with Nature, healing it for %d (this heal does not work on undead).
-		The amount healed will increase with your Mindpower.]], [[Touch a target (or yourself) to infuse it with Nature, healing it for %d (this heal does not work on undead).
-		The amount healed will increase with your Mindpower.]], "tformat")
-t("Earth's Eyes", "Earth's Eyes", "talent name")
+		The amount healed will increase with your Mindpower.]], [[Touche une cible (ou vous-même) pour l'imprégner de la Nature, la soignant pour %d (ce soin ne fonctionne pas sur les morts-vivants).
+		La quantité soignée est proportionnel à votre Puissance mentale.]], "tformat")
+t("Earth's Eyes", "Yeux de la Terre", "talent name")
 t([[Using your connection to Nature, you can see your surrounding area in a radius of %d.
-		Also, while meditating, you are able to detect the presence of creatures around you in a radius of %d.]], [[Using your connection to Nature, you can see your surrounding area in a radius of %d.
-		Also, while meditating, you are able to detect the presence of creatures around you in a radius of %d.]], "tformat")
-t("Nature's Balance", "Nature's Balance", "talent name")
-t("Your deep link with Nature allows you to reset the cooldown of %d of your wild gifts of tier %d or less.", "Your deep link with Nature allows you to reset the cooldown of %d of your wild gifts of tier %d or less.", "tformat")
---]==]
-
+		Also, while meditating, you are able to detect the presence of creatures around you in a radius of %d.]], [[En utilisant votre connexion à la Nature, vous pouvez voir la zone qui vous entoure dans un rayon de %d.
+		De plus, pendant la méditation, vous êtes capable de détecter la présence de créatures autour de vous dans un rayon de %d.]], "tformat")
+t("Nature's Balance", "Équilibre de la Nature", "talent name")
+t("Your deep link with Nature allows you to reset the cooldown of %d of your wild gifts of tier %d or less.", "Votre lien profond avec la Nature vous permet de réinitialiser le rechargement de %d de vos Dons Sauvages de palier %d ou inférieur.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/cold-drake.lua"
@@ -23506,106 +23501,100 @@ t("A wave of energy passes through your fungus, making it release immediate heal
 section "mod-tome/data/talents/gifts/gifts.lua"
 
 t("wild-gift", "don sauvage", "talent category")
+t("call of the wild", "appel de la nature", "talent type")
+t("Be at one with nature.", "Faites corps avec la nature.", "_t")
+t("harmony", "harmonie", "talent type")
+t("Nature heals and cleans you.", "La nature vous guérit et vous purifie.", "_t")
 t("antimagic", "anti-magie", "talent type")
+t("The way to combat magic, or even nullify it.", "La voie pour combattre la magie, ou même l'annuler.", "_t")
+t("summoning (melee)", "invocation (mêlée)", "talent type")
+t("The art of calling creatures adept in melee combat to your aid.", "L'art d'appeler à votre aide des créatures expertes en combat au corps à corps.", "_t")
+t("summoning (distance)", "invocation (distance)", "talent type")
+t("The art of calling creatures adept in elemental destruction to your aid.", "L'art d'appeler à votre aide des créatures expertes en destruction élémentaire.", "_t")
+t("summoning (utility)", "invocation (utilitaire)", "talent type")
+t("The art of calling versatile creatures to your aid.", "L'art d'appeler à votre aide des créatures polyvalentes.", "_t")
+t("summoning (augmentation)", "invocation (augmentation)", "talent type")
+t("The art of manipulating the lifespan and location of your summons.", "L'art de manipuler la durée de vie et l'emplacement de vos invocations.", "_t")
+t("summoning (advanced)", "invocation (avancé)", "talent type")
+t("The art of improving the quality of your summons.", "L'art d'améliorer la qualité de vos invocations.", "_t")
 t("slime", "vase", "talent type")
+t("Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "À force de consommer du jus de moisissure de slime, vous avez développé une affinité avec les vasaards.", "_t")
+t("fungus", "Champignons", "talent type")
+t("By covering yourself in fungus, you better your healing.", "En vous couvrant de champignons, vous améliorez vos capacités de guérison.", "_t")
+t("sand drake aspect", "aspect du dragon de sable", "talent type")
+t("Take on the defining aspects of a Sand Drake.", "Adoptez les traits caractéristiques d'un dragon de sable.", "_t")
+t("fire drake aspect", "aspect du dragon de feu", "talent type")
+t("Take on the defining aspects of a Fire Drake.", "Adoptez les traits caractéristiques d'un dragon de feu.", "_t")
+t("cold drake aspect", "aspect du dragon de glace", "talent type")
+t("Take on the defining aspects of a Cold Drake.", "Adoptez les traits caractéristiques d'un dragon de glace.", "_t")
+t("storm drake aspect", "aspect du dragon de l'orage", "talent type")
+t("Take on the defining aspects of a Storm Drake.", "Adoptez les traits caractéristiques d'un dragon d'orage.", "_t")
+t("venom drake aspect", "aspect du dragon de venin", "talent type")
+t("Take on the defining aspects of a Venom Drake.", "Adoptez les traits caractéristiques d'un dragon venimeux.", "_t")
+t("higher draconic abilities", "capacités draconiques supérieures", "talent type")
+t("Take on the aspects of aged and powerful dragons.", "Adoptez les caractéristiques de dragons anciens et puissants.", "_t")
+t("mindstar mastery", "maîtrise des étoiles d'âme", "talent type")
+t("Learn to channel your mental power through mindstars, forming powerful psionic blades.", "Apprenez à canaliser votre puissance mentale à travers les étoiles d'âme, formant ainsi de redoutables lames psioniques.", "_t")
+t("Cover the floor with natural mucus.", "Couvrez le sol de mucus naturel.", "_t")
+t("ooze", "gluant", "talent type")
+t("Your body and internal organs are becoming more ooze-like in nature, allowing you to spawn more of you.", "Votre corps et vos organes internes adoptent une nature de plus en plus gélatineuse, vous permettant de générer des répliques de vous-même.", "_t")
 t("moss", "mousse", "talent type")
+t("You learn to control moss, making it grow at will to help you on the battlefield.", "Vous apprenez à contrôler la mousse, la faisant croître à volonté pour vous aider sur le champ de bataille.", "_t")
+t("malleable body", "corps malléable", "talent type")
+t("Your body's anatomy is starting to blur.", "L'anatomie de votre corps commence à perdre de sa consistance.", "_t")
+t("oozing blades", "lames de gluant", "talent type")
+t("You channel ooze through your psiblades.", "Vous canalisez du gluant à travers vos lames psychiques.", "_t")
+t("corrosive blades", "lames corrosives", "talent type")
+t("You channel acid through your psiblades.", "Vous canalisez l'acide à travers vos lames psychiques.", "_t")
+t("eyal's fury", "fureur d'Eyal", "talent type")
+t("Unleash nature's fury against foes around you.", "Déchaînez la fureur de la nature contre les ennemis qui vous entourent.", "_t")
+t("earthen power", "puissance tellurique", "talent type")
+t("Dwarves have learned to imbue their shields with the power of stone itself.", "Les nains ont appris à imprégner leurs boucliers de la puissance de la pierre elle-même.", "_t")
+t("earthen vines", "vignes telluriques", "talent type")
+t("Control the stone itself and bring it alive in the form of dreadful vines.", "Contrôlez la roche elle-même pour lui donner vie sous la forme de redoutables vignes.", "_t")
+t("dwarven nature", "nature naine", "talent type")
+t("Learn to harness the innate power of your race.", "Apprenez à exploiter le pouvoir inné de votre race.", "_t")
+t("#PINK#You can manage a maximum of %d summons at any time. You need %d Cunning to increase your limit.", "#PINK#Vous ne pouvez gérer qu'un maximum de %d invocation(s) simultanément. Il vous faut %d en Ruse pour augmenter cette limite.", "logPlayer")
 t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
-t("call of the wild", "call of the wild", "talent type")
-t("Be at one with nature.", "Be at one with nature.", "_t")
-t("harmony", "harmony", "talent type")
-t("Nature heals and cleans you.", "Nature heals and cleans you.", "_t")
-t("The way to combat magic, or even nullify it.", "The way to combat magic, or even nullify it.", "_t")
-t("summoning (melee)", "summoning (melee)", "talent type")
-t("The art of calling creatures adept in melee combat to your aid.", "The art of calling creatures adept in melee combat to your aid.", "_t")
-t("summoning (distance)", "summoning (distance)", "talent type")
-t("The art of calling creatures adept in elemental destruction to your aid.", "The art of calling creatures adept in elemental destruction to your aid.", "_t")
-t("summoning (utility)", "summoning (utility)", "talent type")
-t("The art of calling versatile creatures to your aid.", "The art of calling versatile creatures to your aid.", "_t")
-t("summoning (augmentation)", "summoning (augmentation)", "talent type")
-t("The art of manipulating the lifespan and location of your summons.", "The art of manipulating the lifespan and location of your summons.", "_t")
-t("summoning (advanced)", "summoning (advanced)", "talent type")
-t("The art of improving the quality of your summons.", "The art of improving the quality of your summons.", "_t")
-t("Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "_t")
-t("fungus", "fungus", "talent type")
-t("By covering yourself in fungus, you better your healing.", "By covering yourself in fungus, you better your healing.", "_t")
-t("sand drake aspect", "sand drake aspect", "talent type")
-t("Take on the defining aspects of a Sand Drake.", "Take on the defining aspects of a Sand Drake.", "_t")
-t("fire drake aspect", "fire drake aspect", "talent type")
-t("Take on the defining aspects of a Fire Drake.", "Take on the defining aspects of a Fire Drake.", "_t")
-t("cold drake aspect", "cold drake aspect", "talent type")
-t("Take on the defining aspects of a Cold Drake.", "Take on the defining aspects of a Cold Drake.", "_t")
-t("storm drake aspect", "storm drake aspect", "talent type")
-t("Take on the defining aspects of a Storm Drake.", "Take on the defining aspects of a Storm Drake.", "_t")
-t("venom drake aspect", "venom drake aspect", "talent type")
-t("Take on the defining aspects of a Venom Drake.", "Take on the defining aspects of a Venom Drake.", "_t")
-t("higher draconic abilities", "higher draconic abilities", "talent type")
-t("Take on the aspects of aged and powerful dragons.", "Take on the aspects of aged and powerful dragons.", "_t")
-t("mindstar mastery", "mindstar mastery", "talent type")
-t("Learn to channel your mental power through mindstars, forming powerful psionic blades.", "Learn to channel your mental power through mindstars, forming powerful psionic blades.", "_t")
 t("mucus", "mucus", "talent type")
-t("Cover the floor with natural mucus.", "Cover the floor with natural mucus.", "_t")
-t("ooze", "ooze", "talent type")
-t("Your body and internal organs are becoming more ooze-like in nature, allowing you to spawn more of you.", "Your body and internal organs are becoming more ooze-like in nature, allowing you to spawn more of you.", "_t")
-t("You learn to control moss, making it grow at will to help you on the battlefield.", "You learn to control moss, making it grow at will to help you on the battlefield.", "_t")
-t("malleable body", "malleable body", "talent type")
-t("Your body's anatomy is starting to blur.", "Your body's anatomy is starting to blur.", "_t")
-t("oozing blades", "oozing blades", "talent type")
-t("You channel ooze through your psiblades.", "You channel ooze through your psiblades.", "_t")
-t("corrosive blades", "corrosive blades", "talent type")
-t("You channel acid through your psiblades.", "You channel acid through your psiblades.", "_t")
-t("eyal's fury", "eyal's fury", "talent type")
-t("Unleash nature's fury against foes around you.", "Unleash nature's fury against foes around you.", "_t")
-t("earthen power", "earthen power", "talent type")
-t("Dwarves have learned to imbue their shields with the power of stone itself.", "Dwarves have learned to imbue their shields with the power of stone itself.", "_t")
-t("earthen vines", "earthen vines", "talent type")
-t("Control the stone itself and bring it alive in the form of dreadful vines.", "Control the stone itself and bring it alive in the form of dreadful vines.", "_t")
-t("dwarven nature", "dwarven nature", "talent type")
-t("Learn to harness the innate power of your race.", "Learn to harness the innate power of your race.", "_t")
-t("#PINK#You can manage a maximum of %d summons at any time. You need %d Cunning to increase your limit.", "#PINK#You can manage a maximum of %d summons at any time. You need %d Cunning to increase your limit.", "logPlayer")
 --]==]
 
--- ancien texte traduit
-t("antimagic", "anti-magie", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/harmony.lua"
 
 t("Waters of Life", "Eaux de Vie", "talent name")
-t("Elemental Harmony", "Harmonie Élémentaire", "talent name")
-t("Healing Nexus", "Nexus de Guérison", "talent name")
--- texte non traduit
---[==[
 t([[The waters of life flow through you, purifying any poisons or diseases currently affecting you.
 		For %d turns, all poisons and diseases will heal you instead of damaging you.
 		When activated, it also heals you for %d life for each disease or poison you have.
-		The healing per disease/poison will increase with your Willpower.]], [[The waters of life flow through you, purifying any poisons or diseases currently affecting you.
-		For %d turns, all poisons and diseases will heal you instead of damaging you.
-		When activated, it also heals you for %d life for each disease or poison you have.
-		The healing per disease/poison will increase with your Willpower.]], "tformat")
+		The healing per disease/poison will increase with your Willpower.]], [[Les eaux de la vie coulent en vous, purifiant tout poison ou maladie vous affectant actuellement.
+		Pendant %d tours, tous les poisons et maladies vous soigneront au lieu de vous blesser.
+		Lorsqu'il est activé, il vous soigne également pour %d vie pour chaque maladie ou poison que vous avez.
+		Le soin par maladie/poison est proportionnel à votre Volonté.]], "tformat")
+t("Elemental Harmony", "Harmonie Élémentaire", "talent name")
 t([[Befriend the natural elements that constitute nature. Each time you are hit by one of the elements, you gain a special effect for %d turns. This can only happen every %d turns.
 		Fire: +%d%% global speed
 		Cold: +%d Armour
 		Lightning: +%d to all stats
 		Acid: +%0.2f life regen
-		Nature: +%d%% to all resists]], [[Befriend the natural elements that constitute nature. Each time you are hit by one of the elements, you gain a special effect for %d turns. This can only happen every %d turns.
-		Fire: +%d%% global speed
-		Cold: +%d Armour
-		Lightning: +%d to all stats
-		Acid: +%0.2f life regen
-		Nature: +%d%% to all resists]], "tformat")
-t("One with Nature", "One with Nature", "talent name")
-t("Commune with nature, removing the infusion saturation effect and reducing the cooldown of %d infusions by %d turns.", "Commune with nature, removing the infusion saturation effect and reducing the cooldown of %d infusions by %d turns.", "tformat")
+		Nature: +%d%% to all resists]], [[Vous vous liez d'amitié avec les éléments naturels qui constituent la nature. Chaque fois que vous êtes touché par l'un des éléments, vous gagnez un effet spécial pendant %d tours. Cela ne peut se produire que tous les %d tours.
+		* #LIGHT_RED#Feu#LAST# : +%d%% vitesse globale.
+		* #1133F3#Froid#LAST# : +%d Armure.
+		* #ROYAL_BLUE#Foudre#LAST# : +%d à tous les attributs.
+		* #GREEN#Acide#LAST# : +%0.2f régénération de vie.
+		* #LIGHT_GREEN#Nature#LAST# : +%d%% résistance générale.]], "tformat")
+t("One with Nature", "Un avec la Nature", "talent name")
+t("Commune with nature, removing the infusion saturation effect and reducing the cooldown of %d infusions by %d turns.", "Communiez avec la nature, supprimant l'effet de saturation des essences et réduisant le rechargement de %d essence(s) de %d tours.", "tformat")
+t("Healing Nexus", "Nexus de Guérison", "talent name")
 t([[A wave of natural energies flow around you in a radius of %d.  All creatures in the area will be affected by the Healing Nexus effect for %d turns.
 		On you, this effect causes each heal received to restore %d equilibrium and be %d%% effective.
 		On other creatures, all healing is intercepted and redirected to you at %d%% efficiency.
-		Only direct healing (not normal regeneration) is affected.]], [[A wave of natural energies flow around you in a radius of %d.  All creatures in the area will be affected by the Healing Nexus effect for %d turns.
-		On you, this effect causes each heal received to restore %d equilibrium and be %d%% effective.
-		On other creatures, all healing is intercepted and redirected to you at %d%% efficiency.
-		Only direct healing (not normal regeneration) is affected.]], "tformat")
---]==]
-
+		Only direct healing (not normal regeneration) is affected.]], [[Une vague d'énergies naturelles afflue autour de vous dans un rayon de %d. Toutes les créatures dans la zone seront affectées par l'effet du Nexus de Soin pendant %d tours.
+		Sur vous, cet effet fait que chaque soin reçu restaure %d d'équilibre et est efficace à %d%%.
+		Sur les autres créatures, tous les soins sont interceptés et redirigés vers vous avec %d%% d'efficacité.
+		Seul le soin direct (pas la régénération normale) est affecté.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/higher-draconic.lua"
@@ -23689,38 +23678,34 @@ t([[Your body's internal organs are melted together, making it much harder to su
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/mindstar-mastery.lua"
 
-t("Thorn Grab", "Saisie Épineuse", "talent name")
--- texte non traduit
---[==[
-t("Psiblades", "Psiblades", "talent name")
+t("Psiblades", "Lames Psi", "talent name")
 t([[Channel your mental power through your wielded mindstars, generating psionic blades.
 		Mindstar psiblades have their damage modifiers (how much damage they gain from stats) multiplied by %0.2f, their armour penetration by %0.2f and mindpower, willpower and cunning by %0.2f.
-		Also passively increases weapon damage by %d%% and physical power by 30 when using mindstars.]], [[Channel your mental power through your wielded mindstars, generating psionic blades.
-		Mindstar psiblades have their damage modifiers (how much damage they gain from stats) multiplied by %0.2f, their armour penetration by %0.2f and mindpower, willpower and cunning by %0.2f.
-		Also passively increases weapon damage by %d%% and physical power by 30 when using mindstars.]], "tformat")
-t("You require a psiblade in your mainhand to use this talent.", "You require a psiblade in your mainhand to use this talent.", "logPlayer")
+		Also passively increases weapon damage by %d%% and physical power by 30 when using mindstars.]], [[Canalise votre puissance mentale à travers vos Étoiles d'âme équipées, générant des lames psi.
+		Les lames psi des Étoiles d'Âme ont leurs modificateurs de dégâts (la quantité de dégâts qu'elles gagnent des attributs) multipliés par %0.2f, leur pénétration d'armure par %0.2f et la puissance mentale, la Volonté et la Ruse par %0.2f.
+		Augmente également passivement les dégâts d'arme de %d%% et la puissance physique de 30 lors de l'utilisation d'une étoiles d'âme.]], "tformat")
+t("Thorn Grab", "Vigne Épineuse", "talent name")
+t("You require a psiblade in your mainhand to use this talent.", "Vous avez besoin d'une lame psi dans votre main principale pour utiliser ce talent.", "logPlayer")
 t([[You touch the target with your psiblade, bringing the forces of nature to bear on your foe.
 		Thorny vines will grab the target, slowing it by %d%% and dealing %0.2f nature damage each turn for 10 turns.
-		Damage will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %2.f).]], [[You touch the target with your psiblade, bringing the forces of nature to bear on your foe.
-		Thorny vines will grab the target, slowing it by %d%% and dealing %0.2f nature damage each turn for 10 turns.
-		Damage will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %2.f).]], "tformat")
-t("Leaves Tide", "Leaves Tide", "talent name")
-t("You require two psiblades in your hands to use this talent.", "You require two psiblades in your hands to use this talent.", "logPlayer")
+		Damage will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %2.f).]], [[Vous touchez la cible avec votre lame psi, faisant agir les forces de la nature sur votre ennemi.
+		Des vignes épineuses saisiront la cible, la ralentissant de %d%% et lui infligeant %0.2f dégâts de Nature à chaque tour pendant 10 tours.
+		Les dégâts sont proportionnels à votre Puissance mentale et la puissance de votre Étoile d'Âme (nécessite deux Étoiles d'Âme, multiplicateur %2.f).]], "tformat")
+t("Leaves Tide", "Marée de Feuilles", "talent name")
+t("You require two psiblades in your hands to use this talent.", "Vous avez besoin de deux lames psi équipées pour utiliser ce talent.", "logPlayer")
 t([[Smash your psiblades into the ground, creating a tide of crystallized leaves circling you in a radius of 3 for 7 turns.
 		All foes hit by the leaves will start bleeding for %0.2f per turn (cumulative).
 		All allies hit will be covered in leaves, granting them %d%% chance to completely avoid any damaging attack.
-		Damage and avoidance will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %0.2f).]], [[Smash your psiblades into the ground, creating a tide of crystallized leaves circling you in a radius of 3 for 7 turns.
-		All foes hit by the leaves will start bleeding for %0.2f per turn (cumulative).
-		All allies hit will be covered in leaves, granting them %d%% chance to completely avoid any damaging attack.
-		Damage and avoidance will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %0.2f).]], "tformat")
-t("Nature's Equilibrium", "Nature's Equilibrium", "talent name")
+		Damage and avoidance will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %0.2f).]], [[Fracasse vos lames psi dans le sol, créant une marée de feuilles cristallisées qui tournent autour de vous dans un rayon de 3 pendant 7 tours.
+		Tous les ennemis touchés par les feuilles commencent à saigner pour %0.2f par tour (cumulatif).
+		Tous les alliés touchés seront couverts de feuilles, leur accordant %d%% de chance d'esquiver complètement toute attaque causant des dégâts.
+		Les dégâts et l'esquive sont proportionnels à votre Puissance mentale et la puissance de votre Étoile d'âme (nécessite deux Étoiles d'âme, multiplicateur : %0.2f).]], "tformat")
+t("Nature's Equilibrium", "Équilibre de la Nature", "talent name")
 t([[You hit a foe with your mainhand psiblade doing %d%% weapon damage, channeling all the damage done through your offhand psiblade with which you touch a friendly creature to heal it.
 		The maximum heal possible is %d. Equilibrium of the healed target will also decrease by 10%% of the heal power.
-		Max heal will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %2.f).]], [[You hit a foe with your mainhand psiblade doing %d%% weapon damage, channeling all the damage done through your offhand psiblade with which you touch a friendly creature to heal it.
-		The maximum heal possible is %d. Equilibrium of the healed target will also decrease by 10%% of the heal power.
-		Max heal will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %2.f).]], "tformat")
---]==]
-
+		Max heal will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %2.f).]], [[Vous frappez un ennemi avec votre lame psi principale infligeant %d%% de dégâts, et canalisez tous les dégâts infligés à travers votre lame psi secondaire avec laquelle vous touchez une créature alliée pour la soigner.
+		Le soin maximum possible est de %d. L'équilibre de la cible soignée diminuera également de 10%% de la puissance de soin.
+		Le soin maximum est proportionnel à votre Puissance mentale et la puissance de votre Étoile d'âme (nécessite deux Étoiles d'âme, multiplicateur : %2.f).]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/moss.lua"
@@ -24012,6 +23997,8 @@ section "mod-tome/data/talents/gifts/storm-drake.lua"
 t("Lightning Speed", "Vitesse Fulgurante", "talent name")
 t("%s is knocked back!", "%s est repoussé !", "logSeen")
 t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
+t("Lightning Breath", "Souffle de foudre", "talent name")
+t("@Source@ breathes lightning!", "@Source@ crache de la foudre !", "_t")
 t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
 -- texte non traduit
 --[==[
@@ -24050,8 +24037,6 @@ t([[Summon a tornado that moves very slowly towards the target, following it if 
 		The tornado will move a maximum of 20 times.
 		Damage will increase with your Mindpower.
 		Each point in storm drake talents also increases your lightning resistance by 1%%.]], "tformat")
-t("Lightning Breath", "Lightning Breath", "talent name")
-t("@Source@ breathes lightning!", "@Source@ breathes lightning!", "_t")
 t([[You breathe lightning in a frontal cone of radius %d. Any target caught in the area will take %0.2f to %0.2f lightning damage (%0.2f average) and be stunned for 3 turns.
 		The damage will increase with your Strength, and the critical chance is based on your Mental crit rate, and the Stun apply power is based on your Mindpower.
 		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[You breathe lightning in a frontal cone of radius %d. Any target caught in the area will take %0.2f to %0.2f lightning damage (%0.2f average) and be stunned for 3 turns.
@@ -24063,12 +24048,9 @@ t([[You breathe lightning in a frontal cone of radius %d. Any target caught in t
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-advanced.lua"
 
-t("Wild Summon", "Invocation Sauvage", "talent name")
--- texte non traduit
---[==[
-t("Master Summoner", "Master Summoner", "talent name")
-t("Reduces the cooldown of all summons by %d%%.", "Reduces the cooldown of all summons by %d%%.", "tformat")
-t("Grand Arrival", "Grand Arrival", "talent name")
+t("Master Summoner", "Maître Invocateur", "talent name")
+t("Reduces the cooldown of all summons by %d%%.", "Réduit le rechargement de toutes les invocations de %d%%.", "tformat")
+t("Grand Arrival", "Grande Arrivée", "talent name")
 t([[While Master Summoner is active, when a creature you summon appears in the world, it will trigger a wild effect:
 		- Ritch Flamespitter: Reduce fire resistance of all foes in the radius by %d%%
 		- Hydra: Generates a cloud of lingering poison, poisoning all foes caught within for %0.1f nature damage per turn (cumulative)
@@ -24081,23 +24063,23 @@ t([[While Master Summoner is active, when a creature you summon appears in the w
 		- Turtle: Heals all friendly targets in the radius %d HP
 		- Spider: Pins all foes in the radius
 		Radius for effects is %d, and the duration of each lasting effect is %d turns.
-		The effects improve with your mindpower.]], [[While Master Summoner is active, when a creature you summon appears in the world, it will trigger a wild effect:
-		- Ritch Flamespitter: Reduce fire resistance of all foes in the radius by %d%%
-		- Hydra: Generates a cloud of lingering poison, poisoning all foes caught within for %0.1f nature damage per turn (cumulative)
-		- Rimebark: Reduce cold resistance of all foes in the radius by %d%%
-		- Fire Drake: Appears with %d fire drake hatchling(s)
-		- War Hound: Reduce physical resistance of all foes in the radius by %d%%
-		- Jelly: Reduce nature resistance of all foes in the radius by %d%%
-		- Minotaur: Reduces movement speed of all foes in the radius by %0.1f%%
-		- Stone Golem: Dazes all foes in the radius
-		- Turtle: Heals all friendly targets in the radius %d HP
-		- Spider: Pins all foes in the radius
-		Radius for effects is %d, and the duration of each lasting effect is %d turns.
-		The effects improve with your mindpower.]], "tformat")
-t("Nature's Cycle", "Nature's Cycle", "talent name")
+		The effects improve with your mindpower.]], [[Pendant que Maître Invocateur est actif et que vous invoquez une créature, elle déclenchera un effet sauvage :
+		- Ritch Crache-Feu : Réduit la résistance au feu de tous les ennemis dans le rayon de %d%%.
+		- Hydre : Génère un nuage de poison persistant, empoisonnant tous les ennemis pour %0.1f dégâts de Nature par tour (cumulatif).
+		- Givrécorce : Réduit la résistance au froid de tous les ennemis dans le rayon de %d%%.
+		- Dragon de Feu : Apparaît avec %d draconnet(s) de feu.
+		- Chien de Guerre : Réduit la résistance physique de tous les ennemis dans le rayon de %d%%.
+		- Gelée : Réduit la résistance à la Nature de tous les ennemis dans le rayon de %d%%.
+		- Minotaure : Réduit la vitesse de déplacement de tous les ennemis dans le rayon de %0.1f%%.
+		- Golem de Pierre : Étourdit tous les ennemis.
+		- Tortue : Soigne tous les cibles alliées de %d PV.
+		- Araignée : Immobilise tous les ennemis.
+		Le rayon des effets est de %d, et la durée de chaque effet durable est de %d tours.
+		Les effets s'améliorent avec votre puissance mentale.]], "tformat")
+t("Nature's Cycle", "Cycle de la Nature", "talent name")
 t([[While Master Summoner is active, each new summon will reduce the remaining cooldown of Pheromones, Detonate and Wild Summon.
-		%d%% chance to reduce them by %d.]], [[While Master Summoner is active, each new summon will reduce the remaining cooldown of Pheromones, Detonate and Wild Summon.
-		%d%% chance to reduce them by %d.]], "tformat")
+		%d%% chance to reduce them by %d.]], "Pendant que Maître Invocateur est actif, chaque nouvelle invocation aura %d%% de chance de réduire le rechargement restant de Phéromones, Détoner et Invocation Sauvage de %d.", "tformat")
+t("Wild Summon", "Invocation Sauvage", "talent name")
 t([[For %d turn(s), you have 100%% chance that your summons appear as a wild version.
 		Each turn the chance disminishes.
 		Wild creatures have one more talent/power than the base versions:
@@ -24112,35 +24094,29 @@ t([[For %d turn(s), you have 100%% chance that your summons appear as a wild ver
 		- Turtle: Can force all foes in a radius into melee range
 		- Spider: Can project an insidious poison at its foes, reducing their healing
 		This talent requires Master Summoner to be active to be used.
-		Effects scale with levels in summon talents.]], [[For %d turn(s), you have 100%% chance that your summons appear as a wild version.
-		Each turn the chance disminishes.
-		Wild creatures have one more talent/power than the base versions:
-		- Ritch Flamespitter: Can fly in the air, spitting its Flamespit past creatures in the path of its target
-		- Hydra: Can concentrate its breath into spits when allies would be caught in a breath, instead spitting a bolt
-		- Rimebark: Can grab foes, pulling them into range of its ice storm
-		- Fire Drake: Can emit a powerful roar to silence its foes
-		- War Hound: Can rage, inreasing its critical chance and gaining armour penetration
-		- Jelly: Can split into an additional jelly upon taking a large hit (jellies formed by splitting do not count against your summon cap)
-		- Minotaur: Can rush toward its target
-		- Stone Golem: Can disarm its foes
-		- Turtle: Can force all foes in a radius into melee range
-		- Spider: Can project an insidious poison at its foes, reducing their healing
-		This talent requires Master Summoner to be active to be used.
-		Effects scale with levels in summon talents.]], "tformat")
---]==]
-
+		Effects scale with levels in summon talents.]], [[Pendant %d tour(s), vous avez 100%% de chance que vos invocations apparaissent en version sauvage.
+		À chaque tour, la chance diminue.
+		Les créatures sauvages ont un talent/pouvoir de plus que les versions de base :
+		- Ritch Crache-Feu : Peut voler dans les airs, crachant son Crache-Feu sur les créatures sur le chemin de sa cible.
+		- Hydre : Peut concentrer son souffle en crachats pour éviter de toucher les alliés.
+		- Givrécorce : Peut saisir les ennemis, les tirant vers la portée de sa Tempête de Glace.
+		- Dragon de Feu : Peut émettre un rugissement puissant pour faire taire ses ennemis.
+		- Chien de Guerre : Peut enrager, augmentant sa chance critique et gagnant de la pénétration d'armure.
+		- Gelée : Peut se diviser en une gelée supplémentaire en recevant un coup puissant (les gelées formées par division ne comptent pas dans votre limite d'invocation).
+		- Minotaure : Peut se ruer vers sa cible.
+		- Golem de Pierre : Peut désarmer ses ennemis.
+		- Tortue : Peut forcer tous les ennemis dans un rayon à portée au corps à corps.
+		- Araignée : Peut projeter un Venin Insidieux sur ses ennemis, réduisant leur soin.
+		Ce talent nécessite que Maître Invocateur soit actif pour être utilisé.
+		Les effets sont proportionnels à les niveaux de talent d'invocation.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-augmentation.lua"
 
-
--- texte non traduit
---[==[
-t("Rage", "Rage", "talent name")
 t([[Induces a killing rage in all your summons within a radius of 5 when a summon is killed, increasing all their stats by %d for 5 turns. 
-		The bonus will increase with your mindpower.]], [[Induces a killing rage in all your summons within a radius of 5 when a summon is killed, increasing all their stats by %d for 5 turns. 
-		The bonus will increase with your mindpower.]], "tformat")
-t("Detonate", "Detonate", "talent name")
+		The bonus will increase with your mindpower.]], [[Induit une rage meurtrière dans toutes vos invocations dans un rayon de 5 lorsqu'une invocation est tuée, augmentant tous leurs attributs de %d pendant 5 tours.
+		Le bonus est proportionnel à votre puissance mentale.]], "tformat")
+t("Detonate", "Détoner", "talent name")
 t([[Destroys one of your summons, making it detonate in radius of %d.
 		- Ritch Flamespitter: Explodes into a fireball dealing %d damage, flameshocking damaged foes
 		- Hydra: Grants %d%% lightning, acid, and nature affinity as well as %d life regen per turn to all friendly creatures for 7 turns
@@ -24154,239 +24130,282 @@ t([[Destroys one of your summons, making it detonate in radius of %d.
 		- Spider: Knocks back all foes %d tiles
 		In addition, a random summon will come off cooldown.
 		Hostile effects will not hit you or your other summons.
-		The effects improve with your mindpower, and some can crit.]], [[Destroys one of your summons, making it detonate in radius of %d.
-		- Ritch Flamespitter: Explodes into a fireball dealing %d damage, flameshocking damaged foes
-		- Hydra: Grants %d%% lightning, acid, and nature affinity as well as %d life regen per turn to all friendly creatures for 7 turns
-		- Rimebark: Explodes into an iceball dealing %d ice damage, possibly freezing damaged foes
-		- Fire Drake: Explodes into a cloud of lingering fire, dealing %d damage per turn
-		- War Hound: Explodes into a sharp ball, cutting all creatures for %0.1f bleeding damage per turn for 6 turns
-		- Jelly: Explodes into a ball of slowing slime, dealing %d nature damage and slowing foes by %0.1f%%
-		- Minotaur: Confuses foes at %d%% power for 5 turns
-		- Stone Golem: Grants %d armour and %d%% armour hardiness to all friendly creatures for 5 turns
-		- Turtle: Grants a small shell shield to all friendly creatures, granting %d%% all resist for 5 turns
-		- Spider: Knocks back all foes %d tiles
-		In addition, a random summon will come off cooldown.
-		Hostile effects will not hit you or your other summons.
-		The effects improve with your mindpower, and some can crit.]], "tformat")
-t("Resilience", "Resilience", "talent name")
-t("Increases all your summons' max life by %0.1f%% and extends your summons' maximum lifetime by %d turns.", "Increases all your summons' max life by %0.1f%% and extends your summons' maximum lifetime by %d turns.", "tformat")
-t("Phase Summon", "Phase Summon", "talent name")
-t("Switches places with one of your summons. This disorients your foes, granting both you and your summon 50%% evasion for %d turns.", "Switches places with one of your summons. This disorients your foes, granting both you and your summon 50%% evasion for %d turns.", "tformat")
+		The effects improve with your mindpower, and some can crit.]], [[Détruit l'une de vos invocations, la faisant exploser dans un rayon de %d.
+		- Ritch Crache-Feu : Explose en une boule de feu, infligeant %d dégâts de choc flamme aux ennemis.
+		- Hydre : Accorde %d%% d'affinité aux dégâts de foudre, d'acide et de nature, ainsi que %d régénération de vie par tour à toutes les créatures alliées pendant 7 tours.
+		- Givrécorce : Explose en une boule de glace, infligeant %d dégâts de glace et gelant potentiellement les ennemis.
+		- Dragon de Feu : Explose en un nuage de feu persistant, infligeant %d dégâts par tour.
+		- Chien de Guerre : Explose en une balle tranchante, saignant toutes les créatures pour %0.1f dégâts de saignement par tour pendant 6 tours.
+		- Gelée : Explose en une balle de bave, infligeant %d dégâts de Nature et %0.1f%% de lenteur aux ennemis.
+		- Minotaure : Confond les ennemis à %d%% de puissance pendant 5 tours.
+		- Golem de Pierre : Accorde %d d'armure et %d%% de solidité d'armure à toutes les créatures alliées pendant 5 tours.
+		- Tortue : Accorde un petit bouclier de carapace à toutes les créatures alliées, accordant %d%% de résistance générale pendant 5 tours.
+		- Araignée : Repousse tous les ennemis de %d cases.
+		De plus, une invocation aléatoire sortira du rechargement.
+		Les effets hostiles ne vous toucheront pas, ni vos autres invocations.
+		Les effets sont proportionnels à votre puissance mentale, et certains peuvent avoir un coup critique.]], "tformat")
+t("Resilience", "Résilience", "talent name")
+t("Increases all your summons' max life by %0.1f%% and extends your summons' maximum lifetime by %d turns.", "Augmente la vie maximale de toutes vos invocations de %0.1f%% et prolonge la durée de vie maximale de vos invocations de %d tours.", "tformat")
+t("Phase Summon", "Invocation de Phase", "talent name")
+t("Switches places with one of your summons. This disorients your foes, granting both you and your summon 50%% evasion for %d turns.", "Échange de place avec l'une de vos invocations. Cela désoriente vos ennemis, accordant à vous et à votre invocation 50%% d'évasion pendant %d tours.", "tformat")
+-- texte non traduit
+--[==[
+t("Rage", "Rage", "talent name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-distance.lua"
 
-t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
--- texte non traduit
---[==[
-t("Flamespit", "Flamespit", "talent name")
-t("@Source@ spits flames!", "@Source@ spits flames!", "_t")
+t("Flamespit", "Crachat de feu", "talent name")
+t("@Source@ spits flames!", "@Source@ crache des flammes !", "_t")
 t([[Spits a bolt of fire, doing %0.2f fire damage.
-		The damage will increase with your Mindpower.]], [[Spits a bolt of fire, doing %0.2f fire damage.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Flame Fury", "Flame Fury", "talent name")
+		The damage will increase with your Mindpower.]], [[Crache un jet de feu, infligeant %0.2f dégâts de feu.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Flame Fury", "Fureur des flammes", "talent name")
 t([[A wave of fire emanates from you with radius %d, knocking back anything caught inside and setting them ablaze and doing %0.2f fire damage over 3 turns.
-		The damage will increase with your Mindpower.]], [[A wave of fire emanates from you with radius %d, knocking back anything caught inside and setting them ablaze and doing %0.2f fire damage over 3 turns.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Acid Breath", "Acid Breath", "talent name")
-t("@Source@ breathes acid!", "@Source@ breathes acid!", "_t")
+		The damage will increase with your Mindpower.]], [[Une vague de feu émane de vous dans un rayon de %d, repoussant tout ce qu'elle touche, enflammant les cibles et infligeant %0.2f dégâts de feu sur 3 tours.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Acid Breath", "Souffle acide", "talent name")
+t("@Source@ breathes acid!", "@Source@ crache de l'acide !", "_t")
 t([[Breathe acid on your foes, doing %0.2f damage.
-		The damage will increase with your Willpower.]], [[Breathe acid on your foes, doing %0.2f damage.
-		The damage will increase with your Willpower.]], "tformat")
-t("Acid Spit", "Acid Spit", "talent name")
-t("@Source@ spits acid!", "@Source@ spits acid!", "_t")
+		The damage will increase with your Willpower.]], [[Souffle de l'acide sur vos ennemis, infligeant %0.2f dégâts.
+		Les dégâts sont proportionnels à votre Volonté.]], "tformat")
+t("Acid Spit", "Crachat acide", "talent name")
+t("@Source@ spits acid!", "@Source@ crache de l'acide !", "_t")
 t([[Spit acid on a foe, doing %0.2f damage.
-		The damage will increase with your Willpower.]], [[Spit acid on a foe, doing %0.2f damage.
-		The damage will increase with your Willpower.]], "tformat")
-t("Lightning Breath", "Lightning Breath", "talent name")
-t("@Source@ breathes lightning!", "@Source@ breathes lightning!", "_t")
+		The damage will increase with your Willpower.]], [[Crache de l'acide sur un ennemi, infligeant %0.2f dégâts.
+		Les dégâts sont proportionnels à votre Volonté.]], "tformat")
+t("Lightning Breath", "Souffle de foudre", "talent name")
+t("@Source@ breathes lightning!", "@Source@ crache de la foudre !", "_t")
 t([[Breathe lightning on your foes, doing %d to %d damage.
-		The damage will increase with your Willpower.]], [[Breathe lightning on your foes, doing %d to %d damage.
-		The damage will increase with your Willpower.]], "tformat")
-t("Lightning Spit", "Lightning Spit", "talent name")
-t("@Source@ spits lightning!", "@Source@ spits lightning!", "_t")
+		The damage will increase with your Willpower.]], [[Souffle de la foudre sur vos ennemis, infligeant %d à %d dégâts.
+		Les dégâts sont proportionnels à votre Volonté.]], "tformat")
+t("Lightning Spit", "Crachat de foudre", "talent name")
+t("@Source@ spits lightning!", "@Source@ crache de la foudre !", "_t")
 t([[Spit lightning on your foe, doing %d to %d damage.
-		The damage will increase with your Willpower.]], [[Spit lightning on your foe, doing %d to %d damage.
-		The damage will increase with your Willpower.]], "tformat")
-t("Poison Breath", "Poison Breath", "talent name")
-t("@Source@ breathes poison!", "@Source@ breathes poison!", "_t")
+		The damage will increase with your Willpower.]], [[Crache de la foudre sur votre ennemi, infligeant %d à %d dégâts.
+		Les dégâts sont proportionnels à votre Volonté.]], "tformat")
+t("Poison Breath", "Souffle empoisonné", "talent name")
+t("@Source@ breathes poison!", "@Source@ crache du poison !", "_t")
 t([[Breathe poison on your foes, doing %d damage over a few turns.
-		The damage will increase with your Willpower.]], [[Breathe poison on your foes, doing %d damage over a few turns.
-		The damage will increase with your Willpower.]], "tformat")
-t("Poison Spit", "Poison Spit", "talent name")
-t("@Source@ spits poison!", "@Source@ spits poison!", "_t")
+		The damage will increase with your Willpower.]], [[Souffle du poison sur vos ennemis, infligeant %d dégâts sur quelques tours.
+		Les dégâts sont proportionnels à votre Volonté.]], "tformat")
+t("Poison Spit", "Crachat empoisonné", "talent name")
+t("@Source@ spits poison!", "@Source@ crache du poison !", "_t")
 t([[Spit poison on your foes, doing %d damage over a few turns.
-		The damage will increase with your Willpower.]], [[Spit poison on your foes, doing %d damage over a few turns.
-		The damage will increase with your Willpower.]], "tformat")
-t("Winter's Fury", "Winter's Fury", "talent name")
+		The damage will increase with your Willpower.]], [[Crache du poison sur vos ennemis, infligeant %d dégâts sur quelques tours.
+		Les dégâts sont proportionnels à votre Volonté.]], "tformat")
+t("Winter's Fury", "Fureur de l'hiver", "talent name")
 t([[A furious ice storm rages around the user doing %0.2f cold damage in a radius of 3 each turn for %d turns.
 		It has 25%% chance to freeze damaged targets.
-		The damage and duration will increase with your Willpower.]], [[A furious ice storm rages around the user doing %0.2f cold damage in a radius of 3 each turn for %d turns.
-		It has 25%% chance to freeze damaged targets.
-		The damage and duration will increase with your Willpower.]], "tformat")
-t("Winter's Grasp", "Winter's Grasp", "talent name")
+		The damage and duration will increase with your Willpower.]], [[Une tempête de glace furieuse fait rage autour de l'utilisateur, infligeant %0.2f dégâts de froid dans un rayon de 3 à chaque tour pendant %d tours.
+		Elle a 25%% de chances de geler les cibles touchées.
+		Les dégâts et la durée sont proportionnels à votre Volonté.]], "tformat")
+t("Winter's Grasp", "Emprise de l'hiver", "talent name")
 t([[Grab a target and pull it next to you, covering it with frost while reducing its movement speed by 50%% for %d turns.
 		The ice will also deal %0.2f cold damage.
-		The damage and chance to slow will increase with your Mindpower.]], [[Grab a target and pull it next to you, covering it with frost while reducing its movement speed by 50%% for %d turns.
-		The ice will also deal %0.2f cold damage.
-		The damage and chance to slow will increase with your Mindpower.]], "tformat")
-t("Ritch Flamespitter", "Ritch Flamespitter", "talent name")
-t("@Source@ summons a Ritch Flamespitter!", "@Source@ summons a Ritch Flamespitter!", "_t")
-t("", "", "_t")
-t("%s (wild summon)", "%s (wild summon)", "tformat")
+		The damage and chance to slow will increase with your Mindpower.]], [[Attrape une cible et attirez-la près de vous, la couvrant de givre tout en réduisant sa vitesse de déplacement de 50%% pendant %d tours.
+		La glace inflige également %0.2f dégâts de froid.
+		Les dégâts et les chances de ralentissement sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Ritch Flamespitter", "Ritch Crache-Feu", "talent name")
+t("@Source@ summons a Ritch Flamespitter!", "@Source@ invoque un Ritch Crache-Feu !", "_t")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
+t("%s (wild summon)", "%s (invocation sauvage)", "tformat")
 t([[Summon a Ritch Flamespitter for %d turns to burn your foes to death. Flamespitters are weak in melee and die easily, but they can burn your foes from afar.
 		It will get %d Willpower, %d Cunning and %d Constitution.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Willpower and Cunning will increase with your Mindpower.]], [[Summon a Ritch Flamespitter for %d turns to burn your foes to death. Flamespitters are weak in melee and die easily, but they can burn your foes from afar.
-		It will get %d Willpower, %d Cunning and %d Constitution.
-		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Willpower and Cunning will increase with your Mindpower.]], "tformat")
-t("Hydra", "Hydra", "talent name")
-t("@Source@ summons a 3-headed hydra!", "@Source@ summons a 3-headed hydra!", "_t")
-t("A strange reptilian creature with three smouldering heads.", "A strange reptilian creature with three smouldering heads.", "_t")
+		Their Willpower and Cunning will increase with your Mindpower.]], [[Invoque un Ritch Crache-Feu pendant %d tours pour brûler vos ennemis jusqu'à la mort. Les Cracheurs de feu sont faibles au corps à corps et meurent facilement, mais ils peuvent brûler vos ennemis à distance.
+		Il aura %d Volonté, %d Ruse et %d Constitution.
+		Sa Volonté et sa Ruse sont proportionnels à votre Puissance Mentale.
+
+		Vos invocations héritent de certaines de vos statistiques :
+		- augmentation de %% dégâts
+		- pénétration de %% résistances
+		- résistance aux assommements/immobilisations/confusions/aveuglements
+		- pénétration d'armure
+		]], "tformat")
+t("Hydra", "Hydre", "talent name")
+t("@Source@ summons a 3-headed hydra!", "@Source@ invoque une hydre à 3 têtes !", "_t")
+t("A strange reptilian creature with three smouldering heads.", "Une étrange créature reptilienne dotée de trois têtes fumantes.", "_t")
 t([[Summon a 3-headed Hydra for %d turns to destroy your foes. 3-headed hydras are able to breathe poison, acid and lightning.
 		It will get %d Willpower, %d Constitution and 18 Strength.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Willpower will increase with your Mindpower.]], [[Summon a 3-headed Hydra for %d turns to destroy your foes. 3-headed hydras are able to breathe poison, acid and lightning.
-		It will get %d Willpower, %d Constitution and 18 Strength.
-		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Willpower will increase with your Mindpower.]], "tformat")
-t("Rimebark", "Rimebark", "talent name")
-t("@Source@ summons a Rimebark!", "@Source@ summons a Rimebark!", "_t")
-t("This huge treant-like being is embedded with the fury of winter itself.", "This huge treant-like being is embedded with the fury of winter itself.", "_t")
+		Their Willpower will increase with your Mindpower.]], [[Invoque une Hydre à 3 têtes pendant %d tours pour détruire vos ennemis. Les hydres à 3 têtes sont capables de cracher du poison, de l'acide et de la foudre.
+		Elle aura %d Volonté, %d Constitution et 18 Force.
+		Sa Volonté est proportionnel à votre Puissance Mentale.
+
+		Vos invocations héritent de certaines de vos statistiques :
+		- augmentation de %% dégâts
+		- pénétration de %% résistances
+		- résistance aux assommements/immobilisations/confusions/aveuglements
+		- pénétration d'armure
+		]], "tformat")
+t("Rimebark", "Givrécorce", "talent name")
+t("@Source@ summons a Rimebark!", "@Source@ invoque une Givrécorce !", "_t")
+t("This huge treant-like being is embedded with the fury of winter itself.", "Cet être immense, semblable à un ent, est imprégné de la fureur de l'hiver lui-même.", "_t")
 t([[Summon a Rimebark for %d turns to harass your foes. Rimebarks cannot move, but they have a permanent ice storm around them, damaging and freezing anything coming close in a radius of 3.
 		It will get %d Willpower, %d Cunning and %d Constitution.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Willpower and Cunning will increase with your Mindpower.]], [[Summon a Rimebark for %d turns to harass your foes. Rimebarks cannot move, but they have a permanent ice storm around them, damaging and freezing anything coming close in a radius of 3.
-		It will get %d Willpower, %d Cunning and %d Constitution.
-		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Willpower and Cunning will increase with your Mindpower.]], "tformat")
-t("Fire Drake", "Fire Drake", "talent name")
-t("@Source@ summons a Fire Drake!", "@Source@ summons a Fire Drake!", "_t")
-t("A mighty fire drake.", "A mighty fire drake.", "_t")
+		Their Willpower and Cunning will increase with your Mindpower.]], [[Invoque une Givrécorce pendant %d tours pour harceler vos ennemis. Les Givrécorces ne peuvent pas bouger, mais elles maintiennent une tempête de glace permanente autour d'elles, infligeant des dégâts et gelant tout ce qui s'approche dans un rayon de 3.
+		Elle aura %d Volonté, %d Ruse et %d Constitution.
+		Sa Volonté et sa Ruse sont proportionnels à votre Puissance Mentale.
+
+		Vos invocations héritent de certaines de vos statistiques :
+		- augmentation de %% dégâts
+		- pénétration de %% résistances
+		- résistance aux assommements/immobilisations/confusions/aveuglements
+		- pénétration d'armure
+		]], "tformat")
+t("Fire Drake", "Dragon de feu", "talent name")
+t("@Source@ summons a Fire Drake!", "@Source@ invoque un dragon de feu !", "_t")
+t("A mighty fire drake.", "Un puissant dragon de feu.", "_t")
 t([[Summon a Fire Drake for %d turns to burn and crush your foes to death. Fire Drakes are behemoths that can burn foes from afar with their fiery breath.
 		It will get %d Strength, %d Constitution and 38 Willpower.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Strength and Constitution will increase with your Mindpower.]], [[Summon a Fire Drake for %d turns to burn and crush your foes to death. Fire Drakes are behemoths that can burn foes from afar with their fiery breath.
-		It will get %d Strength, %d Constitution and 38 Willpower.
-		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Strength and Constitution will increase with your Mindpower.]], "tformat")
---]==]
-
+		Their Strength and Constitution will increase with your Mindpower.]], [[Invoque un Dragon de feu pendant %d tours pour brûler et écraser vos ennemis jusqu'à la mort. Les Dragons de feu sont des mastodontes qui peuvent brûler leurs ennemis à distance avec leur souffle ardent.
+		Il aura %d Force, %d Constitution et 38 Volonté.
+		Vos invocations héritent de certaines de vos statistiques : augmentation des dégâts%%, pénétration des résistances %%, résistance aux assommements/immobilisations/confusions/aveuglements, pénétration d'armure.
+		Sa Force et sa Constitution sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-melee.lua"
 
+t("Jelly Spread", "Propagation gélatineuse", "talent name")
+t("@source@ oozes over the ground!!", "@source@ suinte sur le sol !!", "_t")
+t("Ooze over the floor, spreading caustic jelly in a radius of 1 lasting %d turns and dealing %d nature damage per turn to hostile creatures caught within.", "Suinte sur le sol, répandant une gelée caustique dans un rayon de 1 pendant %d tours et infligeant %d dégâts de nature par tour aux créatures hostiles prises dedans.", "tformat")
+t("Mitotic Split", "Division mitotique", "talent name")
+t("%d%% chance to split upon taking a single hit dealing at least %d%% of your maximum life.", "%d%% de chances de se diviser après avoir reçu un coup infligeant au moins %d%% de votre vie maximale.", "tformat")
+t("War Hound", "Chien de guerre", "talent name")
+t("@Source@ summons a War Hound!", "@Source@ invoque un Chien de Guerre !", "_t")
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
-t("A strange blob on the dungeon floor.", "Un étrange blob sur le sol du donjon.", "_t")
-t("It is a cross between a human and a bull.", "C'est un croisement entre un humain et un taureau.", "_t")
--- texte non traduit
---[==[
-t("Jelly Spread", "Jelly Spread", "talent name")
-t("@source@ oozes over the ground!!", "@source@ oozes over the ground!!", "_t")
-t("Ooze over the floor, spreading caustic jelly in a radius of 1 lasting %d turns and dealing %d nature damage per turn to hostile creatures caught within.", "Ooze over the floor, spreading caustic jelly in a radius of 1 lasting %d turns and dealing %d nature damage per turn to hostile creatures caught within.", "tformat")
-t("Mitotic Split", "Mitotic Split", "talent name")
-t("%d%% chance to split upon taking a single hit dealing at least %d%% of your maximum life.", "%d%% chance to split upon taking a single hit dealing at least %d%% of your maximum life.", "tformat")
-t("War Hound", "War Hound", "talent name")
-t("@Source@ summons a War Hound!", "@Source@ summons a War Hound!", "_t")
-t("", "", "_t")
-t("%s (wild summon)", "%s (wild summon)", "tformat")
+t("%s (wild summon)", "%s (invocation sauvage)", "tformat")
 t([[Summon a War Hound for %d turns to attack your foes. War hounds are good basic melee attackers.
 		It will get %d Strength, %d Dexterity and %d Constitution.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		The hound's Strength and Dexterity will increase with your Mindpower.]], [[Summon a War Hound for %d turns to attack your foes. War hounds are good basic melee attackers.
-		It will get %d Strength, %d Dexterity and %d Constitution.
-		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		The hound's Strength and Dexterity will increase with your Mindpower.]], "tformat")
-t("Jelly", "Jelly", "talent name")
-t("@Source@ summons a Jelly!", "@Source@ summons a Jelly!", "_t")
-t("#GREEN##Target# absorbs some damage. #Source# is closer to nature.", "#GREEN##Target# absorbs some damage. #Source# is closer to nature.", "delayedLogMessage")
+		The hound's Strength and Dexterity will increase with your Mindpower.]], [[Invoque un Chien de Guerre pendant %d tours pour attaquer vos ennemis. Les chiens de guerre sont de bons attaquants basiques au corps à corps.
+		Il aura %d Force, %d Dextérité et %d Constitution.
+		La Force et la Dextérité du chien sont proportionnels à votre Puissance Mentale.
+		
+		Vos invocations héritent de certaines de vos statistiques :
+		- augmentation de %% dégâts
+		- pénétration de %% résistances
+		- résistance aux assommements/immobilisations/confusions/aveuglements
+		- pénétration d'armure
+		]], "tformat")
+t("Jelly", "Gelée", "talent name")
+t("@Source@ summons a Jelly!", "@Source@ invoque une Gelée !", "_t")
+t("A strange blob on the dungeon floor.", "Un étrange blob sur le sol du donjon.", "_t")
+t("#GREEN##Target# absorbs some damage. #Source# is closer to nature.", "#GREEN##Target# absorbe quelques dégâts. #Source# est plus proche de la nature.", "delayedLogMessage")
 t([[Summon a Jelly for %d turns to attack your foes. Jellies do not move, but your equilibrium will be reduced by 10%% of all damage received by the jelly.
 		It will get %d Constitution and %d Strength.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		The jelly's Constitution will increase with your Mindpower.]], [[Summon a Jelly for %d turns to attack your foes. Jellies do not move, but your equilibrium will be reduced by 10%% of all damage received by the jelly.
-		It will get %d Constitution and %d Strength.
-		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		The jelly's Constitution will increase with your Mindpower.]], "tformat")
-t("Minotaur", "Minotaur", "talent name")
-t("@Source@ summons a Minotaur!", "@Source@ summons a Minotaur!", "_t")
+		The jelly's Constitution will increase with your Mindpower.]], [[Invoque une Gelée pendant %d tours pour attaquer vos ennemis. Les gelées ne bougent pas, mais votre équilibre sera réduit de 10%% de tous les dégâts reçus par la gelée.
+		Elle aura %d Constitution et %d Force.
+		La Constitution de la gelée est proportionnel à votre Puissance Mentale
+		
+		Vos invocations héritent de certaines de vos statistiques :
+		- augmentation de %% dégâts
+		- pénétration de %% résistances
+		- résistance aux assommements/immobilisations/confusions/aveuglements
+		- pénétration d'armure
+		]], "tformat")
+t("Minotaur", "Minotaure", "talent name")
+t("@Source@ summons a Minotaur!", "@Source@ invoque un Minotaure !", "_t")
+t("It is a cross between a human and a bull.", "C'est un croisement entre un humain et un taureau.", "_t")
 t([[Summon a Minotaur for %d turns to attack your foes. Minotaurs cannot stay summoned for long, but they deal high damage.
 		It will get %d Strength, %d Constitution and %d Dexterity.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		The minotaur's Strength and Dexterity will increase with your Mindpower.]], [[Summon a Minotaur for %d turns to attack your foes. Minotaurs cannot stay summoned for long, but they deal high damage.
-		It will get %d Strength, %d Constitution and %d Dexterity.
-		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		The minotaur's Strength and Dexterity will increase with your Mindpower.]], "tformat")
-t("Stone Golem", "Stone Golem", "talent name")
-t("@Source@ summons a Stone Golem!", "@Source@ summons a Stone Golem!", "_t")
-t("It is a massive animated statue.", "It is a massive animated statue.", "_t")
+		The minotaur's Strength and Dexterity will increase with your Mindpower.]], [[Invoque un Minotaure pendant %d tours pour attaquer vos ennemis. Les minotaures ne peuvent pas rester invoqués longtemps, mais ils infligent des dégâts élevés.
+		Il aura %d Force, %d Constitution et %d Dextérité.
+		La Force et la Dextérité du minotaure sont proportionnels à votre Puissance Mentale.
+		
+		Vos invocations héritent de certaines de vos statistiques :
+		- augmentation de %% dégâts
+		- pénétration de %% résistances
+		- résistance aux assommements/immobilisations/confusions/aveuglements
+		- pénétration d'armure
+		]], "tformat")
+t("Stone Golem", "Golem de Pierre", "talent name")
+t("@Source@ summons a Stone Golem!", "@Source@ invoque un Golem de Pierre !", "_t")
+t("It is a massive animated statue.", "C'est une statue animée massive.", "_t")
 t([[Summon a Stone Golem for %d turns to attack your foes. Stone golems are formidable foes that can become unstoppable.
 		It will get %d Strength, %d Constitution and %d Dexterity.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		The golem's Strength and Dexterity will increase with your Mindpower.]], [[Summon a Stone Golem for %d turns to attack your foes. Stone golems are formidable foes that can become unstoppable.
-		It will get %d Strength, %d Constitution and %d Dexterity.
-		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		The golem's Strength and Dexterity will increase with your Mindpower.]], "tformat")
---]==]
-
+		The golem's Strength and Dexterity will increase with your Mindpower.]], [[Invoque un Golem de pierre pendant %d tours pour attaquer vos ennemis. Les golems de pierre sont des ennemis formidables qui peuvent devenir inarrêtables.
+		Il aura %d Force, %d Constitution et %d Dextérité.
+		La Force et la Dextérité du golem sont proportionnels à votre Puissance Mentale.
+		
+		Vos invocations héritent de certaines de vos statistiques :
+		- augmentation de %% dégâts
+		- pénétration de %% résistances
+		- résistance aux assommements/immobilisations/confusions/aveuglements
+		- pénétration d'armure
+		]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-utility.lua"
 
+t("Taunt", "Provocation", "talent name")
+t("Forces all hostile foes in radius %d to attack you.", "Force tous les ennemis hostiles dans un rayon de %d à vous attaquer.", "tformat")
 t("Shell Shield", "Carapace Protectrice", "talent name")
+t("Under the cover of your shell, gain %d%% all resistance for %d turns", "Sous la protection de votre carapace, gagnez %d%% de résistance globale pendant %d tours.", "tformat")
+t("Web", "Toile", "talent name")
+t("Spread a web and throw it toward your target. If caught, it won't be able to move for %d turns.", "Répandez une toile et lancez-la sur votre cible. Si elle est capturée, elle ne pourra pas bouger pendant %d tours.", "tformat")
+t("Turtle", "Tortue", "talent name")
+t("@Source@ summons a Turtle!", "@Source@ invoque une Tortue !", "_t")
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
-t("Frantic Summoning", "Invocation Frénétique", "talent name")
-t("Pheromones", "Phéromones", "talent name")
--- texte non traduit
---[==[
-t("Taunt", "Taunt", "talent name")
-t("Forces all hostile foes in radius %d to attack you.", "Forces all hostile foes in radius %d to attack you.", "tformat")
-t("Under the cover of your shell, gain %d%% all resistance for %d turns", "Under the cover of your shell, gain %d%% all resistance for %d turns", "tformat")
-t("Web", "Web", "talent name")
-t("Spread a web and throw it toward your target. If caught, it won't be able to move for %d turns.", "Spread a web and throw it toward your target. If caught, it won't be able to move for %d turns.", "tformat")
-t("Turtle", "Turtle", "talent name")
-t("@Source@ summons a Turtle!", "@Source@ summons a Turtle!", "_t")
-t("%s (wild summon)", "%s (wild summon)", "tformat")
+t("%s (wild summon)", "%s (invocation sauvage)", "tformat")
 t([[Summon a Turtle for %d turns to distract your foes. Turtles are resilient, but not very powerful. However, they will periodically force any foes to attack them, and can protect themselves with their shell.
 		It will get %d Constitution, %d Dexterity and 18 willpower.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Constitution will increase with your Mindpower.]], [[Summon a Turtle for %d turns to distract your foes. Turtles are resilient, but not very powerful. However, they will periodically force any foes to attack them, and can protect themselves with their shell.
-		It will get %d Constitution, %d Dexterity and 18 willpower.
-		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Constitution will increase with your Mindpower.]], "tformat")
-t("Spider", "Spider", "talent name")
-t("@Source@ summons a Spider!", "@Source@ summons a Spider!", "_t")
+		Their Constitution will increase with your Mindpower.]], [[Invoque une Tortue pendant %d tours pour distraire vos ennemis. Les tortues sont résistantes, mais pas très puissantes. Cependant, elles forceront périodiquement les ennemis à les attaquer et peuvent se protéger avec leur carapace.
+		Elle aura %d Constitution, %d Dextérité et 18 Volonté.
+		Sa Constitution est proportionnel à votre Puissance Mentale.
+		
+		Vos invocations héritent de certaines de vos statistiques :
+		- augmentation de %% dégâts
+		- pénétration de %% résistances
+		- résistance aux assommements/immobilisations/confusions/aveuglements
+		- pénétration d'armure
+		]], "tformat")
+t("Spider", "Araignée", "talent name")
+t("@Source@ summons a Spider!", "@Source@ invoque une Araignée !", "_t")
 t([[Summon a Spider for %d turns to harass your foes. Spiders can poison your foes and throw webs to pin them to the ground.
 		It will get %d Dexterity, %d Strength, 18 Willpower and %d Constitution.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Dexterity will increase with your Mindpower.]], [[Summon a Spider for %d turns to harass your foes. Spiders can poison your foes and throw webs to pin them to the ground.
-		It will get %d Dexterity, %d Strength, 18 Willpower and %d Constitution.
-		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Dexterity will increase with your Mindpower.]], "tformat")
+		Their Dexterity will increase with your Mindpower.]], [[Invoque une Araignée pendant %d tours pour harceler vos ennemis. Les araignées peuvent empoisonner vos ennemis et lancer des toiles pour les immobiliser au sol.
+		Elle aura %d Dextérité, %d Force, 18 Volonté et %d Constitution.
+		Sa Dextérité est proportionnel à votre Puissance Mentale.
+		
+		Vos invocations héritent de certaines de vos statistiques :
+		- augmentation de %% dégâts
+		- pénétration de %% résistances
+		- résistance aux assommements/immobilisations/confusions/aveuglements
+		- pénétration d'armure
+		]], "tformat")
+t("Frantic Summoning", "Invocation Frénétique", "talent name")
 t([[You focus yourself on nature, allowing you to summon natural creatures much faster (%d%% of a normal summon time) and with no chance to fail from high equilibrium for %d turns.
 		When activating this power, a random summoning talent will come off cooldown.
-		Each time you summon, the duration of the frantic summoning effect will reduce by 1.]], [[You focus yourself on nature, allowing you to summon natural creatures much faster (%d%% of a normal summon time) and with no chance to fail from high equilibrium for %d turns.
-		When activating this power, a random summoning talent will come off cooldown.
-		Each time you summon, the duration of the frantic summoning effect will reduce by 1.]], "tformat")
+		Each time you summon, the duration of the frantic summoning effect will reduce by 1.]], [[Vous vous concentrez sur la nature, vous permettant d'invoquer des créatures naturelles beaucoup plus rapidement (%d%% du temps d'invocation normal) et sans risque d'échec dû à un équilibre élevé pendant %d tours.
+		En activant ce pouvoir, un talent d'invocation aléatoire sort de son temps de recharge.
+		Chaque fois que vous invoquez, la durée de l'effet d'Invocations Frénétiques est réduite de 1.]], "tformat")
+t("Pheromones", "Phéromones", "talent name")
 t([[Mark a creature with pheromones, signalling to all of your summons within %d tiles to shift aggression towards the marked creature for %d turns. Marked targets will receive %d%% increased damage from your summons and your summons will change target to it.
-		The increased damage from your summons will increase with your Mindpower]], [[Mark a creature with pheromones, signalling to all of your summons within %d tiles to shift aggression towards the marked creature for %d turns. Marked targets will receive %d%% increased damage from your summons and your summons will change target to it.
-		The increased damage from your summons will increase with your Mindpower]], "tformat")
---]==]
-
+		The increased damage from your summons will increase with your Mindpower]], [[Marquez une créature avec des phéromones, signalant à toutes vos invocations dans un rayon de %d d'orienter leur agressivité vers la créature marquée pendant %d tours. Les cibles marquées subiront %d%% de dégâts supplémentaires de la part de vos invocations et ces dernières changeront de cible pour elle.
+		Les dégâts supplémentaires de vos invocations sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/venom-drake.lua"
 
-
+t("@Source@ spits acid!", "@Source@ crache de l'acide !", "_t")
+t("@Source@ breathes acid!", "@Source@ crache de l'acide !", "_t")
 -- texte non traduit
 --[==[
 t("Acidic Spray", "Acidic Spray", "talent name")
-t("@Source@ spits acid!", "@Source@ spits acid!", "_t")
 t([[Spray forth a glob of acidic moisture at your enemy.
 		The target will take %0.2f Mindpower-based acid damage.
 		Enemies struck have a 25%% chance to be Disarmed for three turns, as their weapon is rendered useless by an acid coating.
@@ -24417,7 +24436,6 @@ t([[You strike the enemy with a rain of fast, acidic blows. You strike four time
 
 		This talent will also attack with your shield, if you have one equipped.]], "tformat")
 t("Corrosive Breath", "Corrosive Breath", "talent name")
-t("@Source@ breathes acid!", "@Source@ breathes acid!", "_t")
 t([[You breathe acid in a frontal cone of radius %d. Any target caught in the area will take %0.2f acid damage.
 		Enemies caught in the acid are disarmed for 3 turns.
 		The damage will increase with your Strength, the critical chance is based on your Mental crit rate, and the Disarm apply power is based on your Mindpower.
@@ -27667,10 +27685,13 @@ section "mod-tome/data/talents/spells/golem.lua"
 
 t("Knockback", "Recul", "talent name")
 t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
+t("Taunt", "Provocation", "talent name")
 t("Crush", "Écrasement", "talent name")
 t("%s resists the crushing!", "%s résiste à l'écrasement !", "logSeen")
 t("Reflective Skin", "Peau Réfléchissante", "talent name")
 t("Molten Skin", "Peau Fondue", "talent name")
+t("Poison Breath", "Souffle empoisonné", "talent name")
+t("@Source@ breathes poison!", "@Source@ crache du poison !", "_t")
 -- texte non traduit
 --[==[
 t("Your golem cannot do that currently.", "Your golem cannot do that currently.", "logPlayer")
@@ -27679,7 +27700,6 @@ t([[Your golem rushes to the target, dealing %d%% damage and knocking it back.
 		While rushing the golem becomes ethereal, passing harmlessly through creatures on the path to its target.]], [[Your golem rushes to the target, dealing %d%% damage and knocking it back.
 		Knockback chance will increase with talent level.
 		While rushing the golem becomes ethereal, passing harmlessly through creatures on the path to its target.]], "tformat")
-t("Taunt", "Taunt", "talent name")
 t("#Source# provokes #Target# to attack it.", "#Source# provokes #Target# to attack it.", "logCombat")
 t("The golem taunts targets in a radius of %d, forcing them to attack it.", "The golem taunts targets in a radius of %d, forcing them to attack it.", "tformat")
 t([[Your golem rushes to the target, crushing it into the ground for %d turns and doing %d%% damage.
@@ -27729,8 +27749,6 @@ t("Decreases", "Decreases", "_t")
 t([[The golem automatically reconfigures heavy mail and massive armours designed for living creatures to protect its own vital areas.
 	%s armour value by %d, armour hardiness by %d%%, and provides %d%% critical hit reduction when wearing heavy mail or massive armour.]], [[The golem automatically reconfigures heavy mail and massive armours designed for living creatures to protect its own vital areas.
 	%s armour value by %d, armour hardiness by %d%%, and provides %d%% critical hit reduction when wearing heavy mail or massive armour.]], "tformat")
-t("Poison Breath", "Poison Breath", "talent name")
-t("@Source@ breathes poison!", "@Source@ breathes poison!", "_t")
 t([[Breathe poison on your foes, doing %d damage over a few turns.
 		The damage will increase with your Magic.]], [[Breathe poison on your foes, doing %d damage over a few turns.
 		The damage will increase with your Magic.]], "tformat")
@@ -36142,8 +36160,8 @@ t("#Target# resonates with the damage.", "#Target# résonne avec les dégâts.",
 t("+Resonance", "+Résonance", "_t")
 t("#Target# is no longer resonating.", "#Target# ne trouve plus de résonance.", "_t")
 t("-Resonance", "-Résonance", "_t")
-t("Thorn Grab", "Saisie Épineuse", "_t")
-t("The target is encased in thorny vines, dealing %d nature damage each turn and reducing its speed by %d%%.", "La cible est enveloppée de lianes épineuses qui lui infligent %d dégâts de nature chaque tour et réduisent sa vitesse de %d%%.", "tformat")
+t("Thorn Grab", "Vigne Épineuse", "_t")
+t("The target is encased in thorny vines, dealing %d nature damage each turn and reducing its speed by %d%%.", "La cible est enveloppée de vignes épineuses qui lui infligent %d dégâts de nature chaque tour et réduisent sa vitesse de %d%%.", "tformat")
 t("Leaves Cover", "Couverture de Feuilles", "_t")
 t("%d%% chance to fully absorb any damaging actions.", "%d%% chance d'absorber entièrement tout dégât subi.", "tformat")
 t("#Target# is protected by a layer of thick leaves.", "#Target# est protégé par une épaisse couche de feuilles.", "_t")
