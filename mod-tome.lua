@@ -19897,6 +19897,7 @@ t("halfling gardener", "jardinier halfelin", "_t")
 t("stone wall", "mur de pierre", "_t")
 t("a summoned wall of stone", "un mur de pierre invoqué", "_t")
 t("%s's %s is disrupted!", "%s's %s est perturbé !", "logSeen")
+t("Tornado", "Tornade", "_t")
 t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
 -- texte non traduit
 --[==[
@@ -20014,7 +20015,6 @@ t("Sphere of Destruction", "Sphere of Destruction", "_t")
 t("Summons a sphere of destruction.", "Summons a sphere of destruction.", "tformat")
 t("Anomaly Tornado", "Anomaly Tornado", "talent name")
 t("@Source@ causes a tornado storm.", "@Source@ causes a tornado storm.", "_t")
-t("Tornado", "Tornado", "_t")
 t("%s resists the tornado!", "%s resists the tornado!", "logSeen")
 t("Summons three to six tornados.", "Summons three to six tornados.", "tformat")
 t("Anomaly Meteor", "Anomaly Meteor", "talent name")
@@ -23178,45 +23178,40 @@ t("Your deep link with Nature allows you to reset the cooldown of %d of your wil
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/cold-drake.lua"
 
-
--- texte non traduit
---[==[
-t("Ice Claw", "Ice Claw", "talent name")
+t("Ice Claw", "Griffe de Glace", "talent name")
 t([[You call upon the mighty claw of a cold drake and rake a wave of freezing cold in front of you, doing %d%% weapon damage as Ice damage in a cone of radius %d. Ice damage gives a chance of freezing the target.
 		Every level in Ice Claw additionally raises your Physical Save by 2.
 		Each point in cold drake talents also increases your cold resistance by 1%%.
 
-		This talent will also attack with your shield, if you have one equipped.]], [[You call upon the mighty claw of a cold drake and rake a wave of freezing cold in front of you, doing %d%% weapon damage as Ice damage in a cone of radius %d. Ice damage gives a chance of freezing the target.
-		Every level in Ice Claw additionally raises your Physical Save by 2.
-		Each point in cold drake talents also increases your cold resistance by 1%%.
-
-		This talent will also attack with your shield, if you have one equipped.]], "tformat")
-t("Icy Skin", "Icy Skin", "talent name")
+		This talent will also attack with your shield, if you have one equipped.]], [[Invoque la puissante griffe d'un dragon de glace et balaie une vague de froid glacial devant vous, infligeant %d%% dégâts d'arme en Glace dans un cône de rayon %d.
+		Les dégâts de glace ont une chance de geler la cible.
+		Chaque niveau de Griffe de Glace augmente également votre Sauvegarde physique de 2.
+		Chaque point dans les talents de draconien de glace augmente également votre résistance au froid de 1%%.
+		Ce talent attaquera également avec votre bouclier, si vous en avez un équipé.]], "tformat")
+t("Icy Skin", "Peau Glacée", "talent name")
 t([[Your skin forms icy scales and your flesh toughens, increasing your Maximum Life by %d%% and your Armour by %d.
 		You also deal %0.2f cold damage to any enemies that physically strike you.
 		Each point in cold drake talents also increases your cold resistance by 1%%.
-		The life increase will scale with your Talent Level, and your Armour and retaliation cold damage will scale with Mindpower.]], [[Your skin forms icy scales and your flesh toughens, increasing your Maximum Life by %d%% and your Armour by %d.
-		You also deal %0.2f cold damage to any enemies that physically strike you.
-		Each point in cold drake talents also increases your cold resistance by 1%%.
-		The life increase will scale with your Talent Level, and your Armour and retaliation cold damage will scale with Mindpower.]], "tformat")
-t("Ice Wall", "Ice Wall", "talent name")
-t("ice wall", "ice wall", "_t")
-t("a summoned, transparent wall of ice", "a summoned, transparent wall of ice", "_t")
+		The life increase will scale with your Talent Level, and your Armour and retaliation cold damage will scale with Mindpower.]], [[Votre peau forme des écailles glacées et votre chair se durcit, augmentant votre Vie maximale de %d%% et votre Armure de %d.
+		Vous infligez également %0.2f dégâts de froid à tout ennemi qui vous frappe physiquement.
+		Chaque point dans les talents de draconien de glace augmente également votre résistance au froid de 1%%.
+		L'augmentation de vie est proportionnel à votre Niveau de talent, et votre Armure et vos dégâts de froid de représailles sont proportionnels à la Puissance Mentale.]], "tformat")
+t("Ice Wall", "Mur de Glace", "talent name")
+t("ice wall", "mur de glace", "_t")
+t("a summoned, transparent wall of ice", "Un mur de glace transparent invoqué.", "_t")
 t([[Summons an icy wall of %d length for %d turns. Ice walls are transparent, but block projectiles and enemies.
 		Ice walls also emit freezing cold, dealing %0.2f damage for each ice wall within radius %d of an enemy, and with each wall giving a 25%% chance to freeze an enemy. This cold cannot hurt the talent user or their allies.
-		Each point in cold drake talents also increases your cold resistance by 1%%.]], [[Summons an icy wall of %d length for %d turns. Ice walls are transparent, but block projectiles and enemies.
-		Ice walls also emit freezing cold, dealing %0.2f damage for each ice wall within radius %d of an enemy, and with each wall giving a 25%% chance to freeze an enemy. This cold cannot hurt the talent user or their allies.
-		Each point in cold drake talents also increases your cold resistance by 1%%.]], "tformat")
-t("Ice Breath", "Ice Breath", "talent name")
-t("@Source@ breathes ice!", "@Source@ breathes ice!", "_t")
-t("%s resists the freeze!", "%s resists the freeze!", "logSeen")
+		Each point in cold drake talents also increases your cold resistance by 1%%.]], [[Invoque un mur de glace de %d de longueur pendant %d tours. Les murs de glace sont transparents, mais bloquent les projectiles et les ennemis.
+		Les murs de glace émettent également un froid glacial, infligeant %0.2f dégâts pour chaque mur de glace dans un rayon de %d d'un ennemi, et chaque mur ayant 25%% de chance de geler un ennemi. Ce froid ne peut pas blesser l'utilisateur du talent ou ses alliés.
+		Chaque point dans les talents de draconien de glace augmente également votre résistance au froid de 1%%.]], "tformat")
+t("Ice Breath", "Souffle de Glace", "talent name")
+t("@Source@ breathes ice!", "@Source@ souffle de la glace !", "_t")
+t("%s resists the freeze!", "%s résiste au gel !", "logSeen")
 t([[You breathe ice in a frontal cone of radius %d. Any target caught in the area will take %0.2f cold damage and be frozen for 3 turns.
 		The damage will increase with your Strength, the critical chance is based on your Mental crit rate, and the Freeze apply power is based on your Mindpower.
-		Each point in cold drake talents also increases your cold resistance by 1%%.]], [[You breathe ice in a frontal cone of radius %d. Any target caught in the area will take %0.2f cold damage and be frozen for 3 turns.
-		The damage will increase with your Strength, the critical chance is based on your Mental crit rate, and the Freeze apply power is based on your Mindpower.
-		Each point in cold drake talents also increases your cold resistance by 1%%.]], "tformat")
---]==]
-
+		Each point in cold drake talents also increases your cold resistance by 1%%.]], [[Souffle de la glace dans un cône frontal de rayon %d. Toute cible prise dans la zone subira %0.2f dégâts de froid et sera gelée pendant 3 tours.
+		Les dégâts sont proportionnels à votre Force, la chance de critique est basée sur votre chance de Critique Mental et la puissance d'application du gel est basée sur votre Puissance Mentale.
+		Chaque point dans les talents de draconien de glace augmente également votre résistance au froid de 1%%.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/corrosive-blades.lua"
@@ -23425,45 +23420,39 @@ t([[You draw deeply from your connection with nature to create a radius %d storm
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/fire-drake.lua"
 
-
--- texte non traduit
---[==[
-t("Wing Buffet", "Wing Buffet", "talent name")
+t("Wing Buffet", "Battement d'Ailes", "talent name")
 t([[You summon a powerful gust of wind, knocking back your foes within a radius of %d up to 3 tiles away and hitting them for %d%% weapon damage.
 		Every level in Wing Buffet additionally raises your Physical Power and Accuracy by 2, passively.
 		Each point in fire drake talents also increases your fire resistance by 1%%.
 
-		This talent will also attack with your shield, if you have one equipped.]], [[You summon a powerful gust of wind, knocking back your foes within a radius of %d up to 3 tiles away and hitting them for %d%% weapon damage.
-		Every level in Wing Buffet additionally raises your Physical Power and Accuracy by 2, passively.
-		Each point in fire drake talents also increases your fire resistance by 1%%.
-
-		This talent will also attack with your shield, if you have one equipped.]], "tformat")
-t("Bellowing Roar", "Bellowing Roar", "talent name")
-t("@Source@ roars!", "@Source@ roars!", "_t")
+		This talent will also attack with your shield, if you have one equipped.]], [[Vous invoquez une puissante rafale de vent qui repousse vos ennemis dans un rayon de %d jusqu'à 3 cases et leur inflige %d%% dégâts d'arme.
+		Chaque niveau de Battement d'Ailes augmente passivement votre puissance physique et votre précision de 2.
+		Chaque point investi dans les talents du dragon de feu augmente également votre résistance au feu de 1%%.
+		Ce talent déclenche aussi une attaque avec votre bouclier si vous en avez un d'équipé.]], "tformat")
+t("Bellowing Roar", "Rugissement retentissant", "talent name")
+t("@Source@ roars!", "@Source@ rugit !", "_t")
 t([[You let out a powerful roar that sends your foes in radius %d into utter confusion (power: %d%%) for 3 turns.
 		The sound wave is so strong, your foes also take %0.2f physical damage.
 		The damage improves with your Strength.
-		Each point in fire drake talents also increases your fire resistance by 1%%.]], [[You let out a powerful roar that sends your foes in radius %d into utter confusion (power: %d%%) for 3 turns.
-		The sound wave is so strong, your foes also take %0.2f physical damage.
-		The damage improves with your Strength.
-		Each point in fire drake talents also increases your fire resistance by 1%%.]], "tformat")
-t("Devouring Flame", "Devouring Flame", "talent name")
+		Each point in fire drake talents also increases your fire resistance by 1%%.]], [[Vous poussez un puissant rugissement qui plonge vos ennemis dans un rayon de %d dans une confusion totale (puissance : %d%%) pendant 3 tours.
+		L'onde sonore est si forte qu'elle inflige également %0.2f points de dégâts physiques à vos adversaires.
+		Les dégâts sont proportionnels à votre Force.
+		Chaque point investi dans les talents du dragon de feu augmente également votre résistance au feu de 1%%.]], "tformat")
+t("Devouring Flame", "Flamme dévorante", "talent name")
 t([[Spit a cloud of flames, doing %0.2f fire damage in a radius of %d each turn for %d turns.
 		The flames will ignore the caster, and will drain 10%% of the damage dealt as the flames consume enemies life force and transfer it to the user.
 		The damage will increase with your Mindpower, and can critical.
-		Each point in fire drake talents also increases your fire resistance by 1%%.]], [[Spit a cloud of flames, doing %0.2f fire damage in a radius of %d each turn for %d turns.
-		The flames will ignore the caster, and will drain 10%% of the damage dealt as the flames consume enemies life force and transfer it to the user.
-		The damage will increase with your Mindpower, and can critical.
-		Each point in fire drake talents also increases your fire resistance by 1%%.]], "tformat")
-t("Fire Breath", "Fire Breath", "talent name")
-t("@Source@ breathes fire!", "@Source@ breathes fire!", "_t")
+		Each point in fire drake talents also increases your fire resistance by 1%%.]], [[Vous crachez un nuage de flammes qui inflige %0.2f points de dégâts de feu dans un rayon de %d à chaque tour pendant %d tours.
+		Les flammes ignorent le lanceur et absorbent 10%% des dégâts infligés pour transférer la force vitale consumée des ennemis vers l'utilisateur.
+		Les dégâts sont proportionnels à votre Puissance Mentale et peuvent infliger des coups critiques.
+		Chaque point investi dans les talents du dragon de feu augmente également votre résistance au feu de 1%%.]], "tformat")
+t("Fire Breath", "Souffle de feu", "talent name")
+t("@Source@ breathes fire!", "@Source@ crache du feu !", "_t")
 t([[You breathe fire in a frontal cone of radius %d. Any target caught in the area will take %0.2f fire damage over 3 turns.
 		The damage will increase with your Strength and the critical chance is based on your Mental crit rate.
-		Each point in fire drake talents also increases your fire resistance by 1%%.]], [[You breathe fire in a frontal cone of radius %d. Any target caught in the area will take %0.2f fire damage over 3 turns.
-		The damage will increase with your Strength and the critical chance is based on your Mental crit rate.
-		Each point in fire drake talents also increases your fire resistance by 1%%.]], "tformat")
---]==]
-
+		Each point in fire drake talents also increases your fire resistance by 1%%.]], [[Vous crachez du feu dans un cône frontal d'un rayon de %d. Toute cible prise dans la zone subira %0.2f points de dégâts de feu répartis sur 3 tours.
+		Les dégâts sont proportionnels à votre Force et les chances de coup critique dépendent de votre taux de Critique Mental.
+		Chaque point investi dans les talents du dragon de feu augmente également votre résistance au feu de 1%%.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/fungus.lua"
@@ -23599,44 +23588,37 @@ t([[A wave of natural energies flow around you in a radius of %d.  All creatures
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/higher-draconic.lua"
 
-
--- texte non traduit
---[==[
-t("Prismatic Slash", "Prismatic Slash", "talent name")
+t("Prismatic Slash", "Taillade Prismatique", "talent name")
 t([[Unleash raw, chaotic elemental damage upon your enemy.
 		You strike your enemy for %d%% weapon damage in one of blinding sand, disarming acid, freezing and slowing ice, dazing lightning or stunning flames, with equal odds.
 		Additionally, you will cause a burst that deals %0.2f of that damage to creatures in radius %d, regardless of if you hit with the blow.
 		Levels in Prismatic Slash increase your Physical and Mental attack speeds by %d%%.
 
-		This talent will also attack with your shield, if you have one equipped.]], [[Unleash raw, chaotic elemental damage upon your enemy.
-		You strike your enemy for %d%% weapon damage in one of blinding sand, disarming acid, freezing and slowing ice, dazing lightning or stunning flames, with equal odds.
-		Additionally, you will cause a burst that deals %0.2f of that damage to creatures in radius %d, regardless of if you hit with the blow.
-		Levels in Prismatic Slash increase your Physical and Mental attack speeds by %d%%.
-
-		This talent will also attack with your shield, if you have one equipped.]], "tformat")
-t("Venomous Breath", "Venomous Breath", "talent name")
-t("@Source@ breathes venom!", "@Source@ breathes venom!", "_t")
+		This talent will also attack with your shield, if you have one equipped.]], [[Déchaîne des dégâts élémentaires chaotiques et bruts sur votre ennemi.
+		Vous frappez votre ennemi pour %d%% dégâts d'arme sous l'une des formes suivantes (à chances égales) : sable aveuglant, acide désarmant, glace gelante et ralentissante, foudre étourdissante, ou flammes assommantes.
+		De plus, vous créez une explosion qui inflige %0.2f de ces dégâts aux créatures dans un rayon de %d, que vous ayez touché avec ou non.
+		Chaque niveau de Taillade Prismatique augmente vos vitesses d'attaque physique et mentale de %d%%.
+		Ce talent attaquera également avec votre bouclier, si vous en avez un équipé.]], "tformat")
+t("Venomous Breath", "Souffle Venimeux", "talent name")
+t("@Source@ breathes venom!", "@Source@ souffle du venin !", "_t")
 t([[You breathe crippling poison in a frontal cone of radius %d. Any target caught in the area will take %0.2f nature damage each turn for 6 turns.
 		The poison also gives enemies a %d%% chance to fail actions more complicated than basic attacks and movement, while it is in effect.
 		The damage will increase with your Strength, and the critical chance is based on your Mental crit rate.
-		Each point in Venomous Breath also increases your nature resistance by 3%%, and your nature damage by 4%%.]], [[You breathe crippling poison in a frontal cone of radius %d. Any target caught in the area will take %0.2f nature damage each turn for 6 turns.
-		The poison also gives enemies a %d%% chance to fail actions more complicated than basic attacks and movement, while it is in effect.
-		The damage will increase with your Strength, and the critical chance is based on your Mental crit rate.
-		Each point in Venomous Breath also increases your nature resistance by 3%%, and your nature damage by 4%%.]], "tformat")
-t("Wyrmic Guile", "Wyrmic Guile", "talent name")
+		Each point in Venomous Breath also increases your nature resistance by 3%%, and your nature damage by 4%%.]], [[Exhale un venin paralysant dans un cône frontal de rayon %d. Toute cible prise dans la zone subira %0.2f dégâts de Nature par tour pendant 6 tours.
+		Le venin donne également aux ennemis une chance de %d%% d'échouer dans des actions plus complexes que les attaques de base et les déplacements, pendant qu'il est actif.
+		Les dégâts sont proportionnels à votre Force, et la chance de critique est basée sur votre chance de Critique Mental.
+		Chaque point de Souffle Venimeux augmente également votre résistance à la nature de 3%%, et vos dégâts de nature de 4%%.]], "tformat")
+t("Wyrmic Guile", "Astuce Dracônique", "talent name")
 t([[You have mastered your draconic nature.
-		You gain %d%% knockback resistance, and your blindness and stun resistances are increased by %d%%.]], [[You have mastered your draconic nature.
-		You gain %d%% knockback resistance, and your blindness and stun resistances are increased by %d%%.]], "tformat")
-t("Chromatic Fury", "Chromatic Fury", "talent name")
+		You gain %d%% knockback resistance, and your blindness and stun resistances are increased by %d%%.]], [[Vous avez maîtrisé votre nature dracônique.
+		Vous gagnez %d%% de résistance au recul, et vos résistances à la cécité et à l'assommement sont augmentées de %d%%.]], "tformat")
+t("Chromatic Fury", "Fureur Chromatique", "talent name")
 t([[You have gained the full power of the various drakes throughout the world, and have become both resistant and attuned to physical, fire, cold, lightning, acid, nature, blight, and darkness damage.
 		Your resistance to these elements is increased by %0.1f%% and all damage you deal with them is increased by %0.1f%% with %0.1f%% resistance penetration.
 
-		Learning this talent will add a Willpower bonus to your breath talent damage with the same scaling as Strength, effectively doubling it when the stats are equal.]], [[You have gained the full power of the various drakes throughout the world, and have become both resistant and attuned to physical, fire, cold, lightning, acid, nature, blight, and darkness damage.
-		Your resistance to these elements is increased by %0.1f%% and all damage you deal with them is increased by %0.1f%% with %0.1f%% resistance penetration.
-
-		Learning this talent will add a Willpower bonus to your breath talent damage with the same scaling as Strength, effectively doubling it when the stats are equal.]], "tformat")
---]==]
-
+		Learning this talent will add a Willpower bonus to your breath talent damage with the same scaling as Strength, effectively doubling it when the stats are equal.]], [[Vous avez acquis toute la puissance des différents draconiens à travers le monde, et êtes devenu résistant et en harmonie aux dégâts physiques, de feu, de froid, de foudre, d'acide, de nature, de fléau, et d'obscurité.
+		Votre résistance à ces éléments est augmentée de %0.1f%% et tous les dégâts que vous infligez avec eux sont augmentés de %0.1f%% avec %0.1f%% de pénétration de résistance.
+		L'apprentissage de ce talent ajoutera un bonus de Volonté à vos dégâts de talent de souffle avec le même facteur d'échelle que la Force, doublant effectivement les dégâts lorsque les attributs sont égaux.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/malleable-body.lua"
@@ -23900,12 +23882,9 @@ t([[Surround yourself with natural forces, ignoring %d%% nature resistance of yo
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/sand-drake.lua"
 
+t("Swallow", "Avaler", "talent name")
+t("#Source# tries to swallow #Target#!", "#Source# essaie d'avaler #Target# !", "logCombat")
 t("%s resists!", "%s résiste !", "logSeen")
-t("Burrow", "Creuser", "talent name")
--- texte non traduit
---[==[
-t("Swallow", "Swallow", "talent name")
-t("#Source# tries to swallow #Target#!", "#Source# tries to swallow #Target#!", "logCombat")
 t([[Attack the target for %d%% Nature weapon damage.
 		If the attack brings your target below a percent of its max life (based on talent level and relative size) or kills it, you attempt to swallow it, killing it automatically and regaining life and equilibrium depending on its level.
 		The target may save against your physical power to prevent this attempt.
@@ -23919,45 +23898,44 @@ t([[Attack the target for %d%% Nature weapon damage.
 		Medium:  %d%%
 		Big:  %d%%
 		Huge:  %d%%
-		Gargantuan:  %d%%]], [[Attack the target for %d%% Nature weapon damage.
-		If the attack brings your target below a percent of its max life (based on talent level and relative size) or kills it, you attempt to swallow it, killing it automatically and regaining life and equilibrium depending on its level.
-		The target may save against your physical power to prevent this attempt.
-		Levels in Swallow raise your Physical and Mental critical rate by %d%%.
-		Each point in sand drake talents increase your physical resistance by 0.5%%.
-		This talent will also attack with your shield, if you have one equipped.
+		Gargantuan:  %d%%]], [[Attaque la cible, infligeant %d%% dégâts d'arme de Nature.
+		Si l'attaque réduit la vie de la cible en dessous d'un seuil (voir ci-dessous) ou la tue, vous tentez de l'avaler, la tuant automatiquement et récupérant vie et équilibre selon son niveau.
+		La cible peut faire une sauvegarde contre votre puissance physique pour éviter cette tentative.
+		Chaque niveau de Avaler augmente votre chance de coup critique physique et mental de %d%%.
+		Chaque point dans les talents de l'Aspect de Dragon de Sable augmente votre résistance physique de 0.5%%.
+		Ce talent attaquera également avec votre bouclier, si vous en avez un équipé.
 		
-		Max life threshold at your current size:
-		Tiny:  %d%%
-		Small:  %d%%
-		Medium:  %d%%
-		Big:  %d%%
-		Huge:  %d%%
-		Gargantuan:  %d%%]], "tformat")
-t("Quake", "Quake", "talent name")
-t("@Source@ shakes the ground!", "@Source@ shakes the ground!", "_t")
+		Seuil de vie maximale (basé sur votre taille actuelle) :
+		Minuscule : %d%%
+		Petit : %d%%
+		Moyen : %d%%
+		Grand : %d%%
+		Énorme : %d%%
+		Gargantuesque : %d%%]], "tformat")
+t("Quake", "Tremblement ", "talent name")
+t("@Source@ shakes the ground!", "@Source@ fait trembler le sol !", "_t")
 t([[You slam the ground, shaking the area around you in a radius of %d.
 		Creatures caught by the quake will be damaged for %d%% weapon damage, and knocked back up to 3 tiles away.
 		The terrain will also be moved around within the radius, and the user will be shifted to a random square within the radius.
-		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], [[You slam the ground, shaking the area around you in a radius of %d.
-		Creatures caught by the quake will be damaged for %d%% weapon damage, and knocked back up to 3 tiles away.
-		The terrain will also be moved around within the radius, and the user will be shifted to a random square within the radius.
-		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], "tformat")
+		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], [[Vous frappez le sol, faisant trembler la zone autour de vous dans un rayon de %d.
+		Les créatures prises dans le tremblement subissent %d%% dégâts d'arme et sont repoussées jusqu'à 3 cases.
+		Le terrain sera également déplacé dans le rayon, et l'utilisateur sera déplacé vers une case aléatoire dans le rayon.
+		Chaque point dans les talents de draconien des sables augmente également votre résistance physique de 0.5%%.]], "tformat")
+t("Burrow", "Creuser", "talent name")
 t([[Allows you to burrow into earthen walls for %d turns.
 		Your powerful digging abilities also allow you to exploit and smash through enemy defensive weaknesses; You ignore %d of target armor and %d%% of enemy physical damage resistance while this is in effect.
 		At Talent Level 5, this talent can be used instantly, and the cooldown will reduce with levels.
-		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], [[Allows you to burrow into earthen walls for %d turns.
-		Your powerful digging abilities also allow you to exploit and smash through enemy defensive weaknesses; You ignore %d of target armor and %d%% of enemy physical damage resistance while this is in effect.
-		At Talent Level 5, this talent can be used instantly, and the cooldown will reduce with levels.
-		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], "tformat")
-t("Sand Breath", "Sand Breath", "talent name")
-t("@Source@ breathes sand!", "@Source@ breathes sand!", "_t")
+		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], [[Vous permet de creuser dans les murs de terre pendant %d tours.
+		Vos puissantes capacités de creusement vous permettent également d'exploiter et de briser les faiblesses défensives des ennemis ; vous ignorez %d d'armure de la cible et %d%% de résistance aux dégâts physiques ennemis pendant que cet effet est actif.
+		Au niveau 5, ce talent peut être utilisé instantanément, et le rechargement diminue avec les niveaux.
+		Chaque point dans les talents de draconien des sables augmente également votre résistance physique de 0.5%%.]], "tformat")
+t("Sand Breath", "Souffle de Sable", "talent name")
+t("@Source@ breathes sand!", "@Source@ souffle du sable !", "_t")
 t([[You breathe sand in a frontal cone of radius %d. Any target caught in the area will take %0.2f physical damage, and will be blinded for %d turns.
 		The damage will increase with your Strength, the critical chance is based on your Mental crit rate, and the Blind apply power is based on your Mindpower.
-		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], [[You breathe sand in a frontal cone of radius %d. Any target caught in the area will take %0.2f physical damage, and will be blinded for %d turns.
-		The damage will increase with your Strength, the critical chance is based on your Mental crit rate, and the Blind apply power is based on your Mindpower.
-		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], "tformat")
---]==]
-
+		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], [[Vous soufflez du sable dans un cône frontal de rayon %d. Toute cible prise dans la zone subira %0.2f dégâts physiques et sera aveuglée pendant %d tours.
+		Les dégâts sont proportionnels à votre Force, la chance de critique est basée sur votre chance de Critique Mental et la puissance d'application de la cécité est basée sur votre Puissance Mentale.
+		Chaque point dans les talents de draconien des sables augmente également votre résistance physique de 0.5%%.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/slime.lua"
@@ -23995,55 +23973,51 @@ t([[You extend slimy roots into the ground, follow them, and re-appear somewhere
 section "mod-tome/data/talents/gifts/storm-drake.lua"
 
 t("Lightning Speed", "Vitesse Fulgurante", "talent name")
-t("%s is knocked back!", "%s est repoussé !", "logSeen")
-t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
-t("Lightning Breath", "Souffle de foudre", "talent name")
-t("@Source@ breathes lightning!", "@Source@ crache de la foudre !", "_t")
-t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
--- texte non traduit
---[==[
 t([[You transform into pure lightning, moving %d%% faster for %d game turns.
 		Also provides 30%% physical damage resistance and 100%% lightning resistance.
 		Any actions other than moving will stop this effect.
 		Note: since you will be moving very fast, game turns will pass very slowly.
 		Levels in Lightning Speed additionally raises your Movement Speed by %d%%, passively.
-		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[You transform into pure lightning, moving %d%% faster for %d game turns.
-		Also provides 30%% physical damage resistance and 100%% lightning resistance.
-		Any actions other than moving will stop this effect.
-		Note: since you will be moving very fast, game turns will pass very slowly.
-		Levels in Lightning Speed additionally raises your Movement Speed by %d%%, passively.
-		Each point in storm drake talents also increases your lightning resistance by 1%%.]], "tformat")
-t("Static Field", "Static Field", "talent name")
-t("%s resists the static field!", "%s resists the static field!", "logSeen")
-t("%s is caught in the static field!", "%s is caught in the static field!", "logSeen")
-t("#PURPLE#%d STATIC#LAST#", "#PURPLE#%d STATIC#LAST#", "tformat")
+		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[Vous vous transformez en foudre pure, vous déplaçant %d%% plus vite pendant %d tours de jeu.
+		Accorde également 30%% de résistance aux dégâts physiques et 100%% de résistance à la foudre.
+		Toute action autre que se déplacer arrêtera cet effet.
+		Note : comme vous vous déplacerez très vite, les tours de jeu passeront très lentement.
+		Chaque niveau de Vitesse Fulgurante augmente également votre Vitesse de Déplacement de %d%%, passivement.
+		Chaque point dans les talents de l'Aspect de Dragon de l'Orage augmente également votre résistance à la foudre de 1%%.]], "tformat")
+t("Static Field", "Champ Statique", "talent name")
+t("%s resists the static field!", "%s résiste au champ statique !", "logSeen")
+t("%s is caught in the static field!", "%s est pris dans le champ statique !", "logSeen")
+t("#PURPLE#%d STATIC#LAST#", "#PURPLE#%d statique#LAST#", "tformat")
 t([[Generate an electrical field around you in a radius of %d. Any creature caught inside will lose up to %0.1f%% of its current life (%0.1f%% if the target is Elite or Rare, %0.1f%% if the target is a Unique or Boss, and %0.1f%% if they are an Elite Boss.). This life drain is irresistable, but can be saved against with physical save.
 		Additionally, it will deal %0.2f lightning damage afterwards, regardless of target rank.
 		Current life loss and lightning damage will increase with your Mindpower, and the lightning damage element can critically hit with mental critical chances.
-		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[Generate an electrical field around you in a radius of %d. Any creature caught inside will lose up to %0.1f%% of its current life (%0.1f%% if the target is Elite or Rare, %0.1f%% if the target is a Unique or Boss, and %0.1f%% if they are an Elite Boss.). This life drain is irresistable, but can be saved against with physical save.
-		Additionally, it will deal %0.2f lightning damage afterwards, regardless of target rank.
-		Current life loss and lightning damage will increase with your Mindpower, and the lightning damage element can critically hit with mental critical chances.
-		Each point in storm drake talents also increases your lightning resistance by 1%%.]], "tformat")
-t("Tornado", "Tornado", "talent name")
-t("Tornado", "Tornado", "_t")
+		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[Génère un champ électrique autour de vous dans un rayon de %d. Toute créature prise à l'intérieur perdra jusqu'à %0.1f%% de sa vie actuelle (%0.1f%% si la cible est Élite ou Rare, %0.1f%% si la cible est Unique ou Boss, et %0.1f%% si c'est un Boss Élite). Cette perte de vie est irrésistible, mais peut être évitée avec une sauvegarde physique.
+		De plus, il infligera %0.2f dégâts de foudre ensuite, quelle que soit le rang de la cible.
+		La perte de vie actuelle et les dégâts de foudre sont proportionnels à votre Puissance Mentale, et les dégâts de foudre peuvent être critique avec les chances de Critique Mental.
+		Chaque point dans les talents de l'Aspect de Dragon de l'Orage augmente également votre résistance à la foudre de 1%%.]], "tformat")
+t("Tornado", "Tornade", "talent name")
+t("Tornado", "Tornade", "_t")
+t("%s is knocked back!", "%s est repoussé !", "logSeen")
+t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
 t([[Summon a tornado that moves very slowly towards the target, following it if it changes position.
 		Each time it moves every foes within radius 2 takes %0.2f lightning damage and is knocked back 2 spaces.
 		When it reaches the target it explodes in a radius of %d, knocking back targets and dealing %0.2f lightning and %0.2f physical damage.
 		The tornado will move a maximum of 20 times.
 		Damage will increase with your Mindpower.
-		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[Summon a tornado that moves very slowly towards the target, following it if it changes position.
-		Each time it moves every foes within radius 2 takes %0.2f lightning damage and is knocked back 2 spaces.
-		When it reaches the target it explodes in a radius of %d, knocking back targets and dealing %0.2f lightning and %0.2f physical damage.
-		The tornado will move a maximum of 20 times.
-		Damage will increase with your Mindpower.
-		Each point in storm drake talents also increases your lightning resistance by 1%%.]], "tformat")
+		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[Invoque une tornade qui se déplace très lentement vers la cible, la suivant si elle change de position.
+		Chaque fois qu'elle se déplace, tous les ennemis dans un rayon de 2 subissent %0.2f dégâts de foudre et sont repoussés de 2 cases.
+		Lorsqu'elle atteint la cible, elle explose dans un rayon de %d, repoussant les cibles et infligeant %0.2f dégâts de foudre et %0.2f dégâts physiques.
+		La tornade se déplacera au maximum 20 fois.
+		Les dégâts sont proportionnels à votre Puissance Mentale.
+		Chaque point dans les talents de l'Aspect de Dragon de l'Orage augmente également votre résistance à la foudre de 1%%.]], "tformat")
+t("Lightning Breath", "Souffle de Foudre", "talent name")
+t("@Source@ breathes lightning!", "@Source@ souffle de la foudre !", "_t")
+t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
 t([[You breathe lightning in a frontal cone of radius %d. Any target caught in the area will take %0.2f to %0.2f lightning damage (%0.2f average) and be stunned for 3 turns.
 		The damage will increase with your Strength, and the critical chance is based on your Mental crit rate, and the Stun apply power is based on your Mindpower.
-		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[You breathe lightning in a frontal cone of radius %d. Any target caught in the area will take %0.2f to %0.2f lightning damage (%0.2f average) and be stunned for 3 turns.
-		The damage will increase with your Strength, and the critical chance is based on your Mental crit rate, and the Stun apply power is based on your Mindpower.
-		Each point in storm drake talents also increases your lightning resistance by 1%%.]], "tformat")
---]==]
-
+		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[Souffle de la foudre dans un cône frontal de rayon %d. Toute cible prise dans la zone subira entre %0.2f et %0.2f dégâts de foudre (%0.2f en moyenne) et sera étourdissante pendant 3 tours.
+		Les dégâts sont proportionnels à votre Force, la chance de critique est basée sur votre chance de Critique Mental, et la puissance d'application de l'assommement est basée sur votre Puissance Mentale.
+		Chaque point dans les talents de l'Aspect de Dragon de l'Orage augmente également votre résistance à la foudre de 1%%]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-advanced.lua"
@@ -24167,7 +24141,7 @@ t([[A wave of fire emanates from you with radius %d, knocking back anything caug
 		The damage will increase with your Mindpower.]], [[Une vague de feu émane de vous dans un rayon de %d, repoussant tout ce qu'elle touche, enflammant les cibles et infligeant %0.2f dégâts de feu sur 3 tours.
 		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 t("Acid Breath", "Souffle acide", "talent name")
-t("@Source@ breathes acid!", "@Source@ crache de l'acide !", "_t")
+t("@Source@ breathes acid!", "@Source@ souffle de l'acide !", "_t")
 t([[Breathe acid on your foes, doing %0.2f damage.
 		The damage will increase with your Willpower.]], [[Souffle de l'acide sur vos ennemis, infligeant %0.2f dégâts.
 		Les dégâts sont proportionnels à votre Volonté.]], "tformat")
@@ -24176,8 +24150,8 @@ t("@Source@ spits acid!", "@Source@ crache de l'acide !", "_t")
 t([[Spit acid on a foe, doing %0.2f damage.
 		The damage will increase with your Willpower.]], [[Crache de l'acide sur un ennemi, infligeant %0.2f dégâts.
 		Les dégâts sont proportionnels à votre Volonté.]], "tformat")
-t("Lightning Breath", "Souffle de foudre", "talent name")
-t("@Source@ breathes lightning!", "@Source@ crache de la foudre !", "_t")
+t("Lightning Breath", "Souffle de Foudre", "talent name")
+t("@Source@ breathes lightning!", "@Source@ souffle de la foudre !", "_t")
 t([[Breathe lightning on your foes, doing %d to %d damage.
 		The damage will increase with your Willpower.]], [[Souffle de la foudre sur vos ennemis, infligeant %d à %d dégâts.
 		Les dégâts sont proportionnels à votre Volonté.]], "tformat")
@@ -24268,6 +24242,11 @@ t([[Summon a Fire Drake for %d turns to burn and crush your foes to death. Fire 
 		Il aura %d Force, %d Constitution et 38 Volonté.
 		Vos invocations héritent de certaines de vos statistiques : augmentation des dégâts%%, pénétration des résistances %%, résistance aux assommements/immobilisations/confusions/aveuglements, pénétration d'armure.
 		Sa Force et sa Constitution sont proportionnels à votre Puissance Mentale.]], "tformat")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-melee.lua"
@@ -24344,6 +24323,11 @@ t([[Summon a Stone Golem for %d turns to attack your foes. Stone golems are form
 		- résistance aux assommements/immobilisations/confusions/aveuglements
 		- pénétration d'armure
 		]], "tformat")
+-- texte non traduit
+--[==[
+t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-utility.lua"
@@ -24401,50 +24385,45 @@ t([[Mark a creature with pheromones, signalling to all of your summons within %d
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/venom-drake.lua"
 
+t("Acidic Spray", "Jet d'Acide", "talent name")
 t("@Source@ spits acid!", "@Source@ crache de l'acide !", "_t")
-t("@Source@ breathes acid!", "@Source@ crache de l'acide !", "_t")
--- texte non traduit
---[==[
-t("Acidic Spray", "Acidic Spray", "talent name")
 t([[Spray forth a glob of acidic moisture at your enemy.
 		The target will take %0.2f Mindpower-based acid damage.
 		Enemies struck have a 25%% chance to be Disarmed for three turns, as their weapon is rendered useless by an acid coating.
 		At Talent Level 5, this becomes a piercing line of acid.
 		Every level in Acidic Spray additionally raises your Mindpower by 4, passively.
-		Each point in acid drake talents also increases your acid resistance by 1%%.]], [[Spray forth a glob of acidic moisture at your enemy.
-		The target will take %0.2f Mindpower-based acid damage.
-		Enemies struck have a 25%% chance to be Disarmed for three turns, as their weapon is rendered useless by an acid coating.
-		At Talent Level 5, this becomes a piercing line of acid.
-		Every level in Acidic Spray additionally raises your Mindpower by 4, passively.
-		Each point in acid drake talents also increases your acid resistance by 1%%.]], "tformat")
-t("Corrosive Mist", "Corrosive Mist", "talent name")
+		Each point in acid drake talents also increases your acid resistance by 1%%.]], [[Projette un globule d'acide sur votre ennemi.
+		La cible subira %0.2f dégâts d'acide basés sur votre Puissance Mentale.
+		Les ennemis touchés ont 25%% de chances d'être Désarmés pendant trois tours, leur arme étant rendue inutilisable par une couche d'acide.
+		Au niveau de talent 5, cela devient un jet d'acide perçant.
+		Chaque niveau de Jet d'Acide augmente passivement votre Puissance Mentale de 4.
+		Chaque point dans les talents de l'Aspect de Dragon de Venin augmente également votre résistance à l'acide de 1%%.]], "tformat")
+t("Corrosive Mist", "Brume Corrosive", "talent name")
 t([[Exhale a mist of lingering acid, dealing %0.2f acid damage that can critical in a radius of %d each turn for %d turns.
 		Enemies in this mist will be corroded for %d turns, lowering their Accuracy, their Armour and their Defense by %d.
 		The damage and duration will increase with your Mindpower, and the radius will increase with talent level.
-		Each point in acid drake talents also increases your acid resistance by 1%%.]], [[Exhale a mist of lingering acid, dealing %0.2f acid damage that can critical in a radius of %d each turn for %d turns.
-		Enemies in this mist will be corroded for %d turns, lowering their Accuracy, their Armour and their Defense by %d.
-		The damage and duration will increase with your Mindpower, and the radius will increase with talent level.
-		Each point in acid drake talents also increases your acid resistance by 1%%.]], "tformat")
-t("Dissolve", "Dissolve", "talent name")
+		Each point in acid drake talents also increases your acid resistance by 1%%.]], [[Exhale une brume d'acide persistant, infligeant %0.2f dégâts d'acide pouvant être critiques dans un rayon de %d chaque tour pendant %d tours.
+		Les ennemis dans cette brume seront corrodés pendant %d tours, réduisant leur Précision, leur Armure et leur Défense de %d.
+		Les dégâts et la durée sont proportionnels à votre Puissance Mentale, et le rayon est proportionnel à le niveau du talent.
+		Chaque point dans les talents de l'Aspect de Dragon de Venin augmente également votre résistance à l'acide de 1%%.]], "tformat")
+t("Dissolve", "Dissoudre", "talent name")
 t([[You strike the enemy with a rain of fast, acidic blows. You strike four times for pure acid damage. Every blow does %d%% damage.
 		Every two talent levels, one of your strikes becomes blinding acid instead of normal acid, blinding the target 25%% of the time if it hits.
 		Each point in acid drake talents also increases your acid resistance by 1%%.
 
-		This talent will also attack with your shield, if you have one equipped.]], [[You strike the enemy with a rain of fast, acidic blows. You strike four times for pure acid damage. Every blow does %d%% damage.
-		Every two talent levels, one of your strikes becomes blinding acid instead of normal acid, blinding the target 25%% of the time if it hits.
-		Each point in acid drake talents also increases your acid resistance by 1%%.
-
-		This talent will also attack with your shield, if you have one equipped.]], "tformat")
-t("Corrosive Breath", "Corrosive Breath", "talent name")
+		This talent will also attack with your shield, if you have one equipped.]], [[Vous frappez l'ennemi avec une pluie de coups rapides et acides. Vous frappez quatre fois pour des dégâts d'acide pur. Chaque coup inflige %d%% dégâts.
+		Tous les deux niveaux de talent, l'un de vos coups devient de l'acide aveuglant au lieu de l'acide normal, aveuglant la cible 25%% du temps au toucher.
+		Chaque point dans les talents de l'Aspect de Dragon de Venin augmente également votre résistance à l'acide de 1%%.
+		Ce talent attaquera également avec votre bouclier, si vous en avez un équipé.]], "tformat")
+t("Corrosive Breath", "Souffle Corrosif", "talent name")
+t("@Source@ breathes acid!", "@Source@ souffle de l'acide !", "_t")
 t([[You breathe acid in a frontal cone of radius %d. Any target caught in the area will take %0.2f acid damage.
 		Enemies caught in the acid are disarmed for 3 turns.
 		The damage will increase with your Strength, the critical chance is based on your Mental crit rate, and the Disarm apply power is based on your Mindpower.
-		Each point in acid drake talents also increases your acid resistance by 1%%.]], [[You breathe acid in a frontal cone of radius %d. Any target caught in the area will take %0.2f acid damage.
-		Enemies caught in the acid are disarmed for 3 turns.
-		The damage will increase with your Strength, the critical chance is based on your Mental crit rate, and the Disarm apply power is based on your Mindpower.
-		Each point in acid drake talents also increases your acid resistance by 1%%.]], "tformat")
---]==]
-
+		Each point in acid drake talents also increases your acid resistance by 1%%.]], [[Vous crachez de l'acide dans un cône frontal de rayon %d. Toute cible prise dans la zone subira %0.2f dégâts d'acide.
+		Les ennemis pris dans l'acide sont désarmés pendant 3 tours.
+		Les dégâts sont proportionnels à votre Force, les chances de critique sont basées sur votre taux de Critique Mental, et la puissance d'application du Désarmement est basée sur votre Puissance Mentale.
+		Chaque point dans les talents de l'Aspect de Dragon de Venin augmente également votre résistance à l'acide de 1%%.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/misc/horrors.lua"
@@ -25723,6 +25702,8 @@ t("You perform a precise, telekinetically-enhanced leap, landing up to %d square
 section "mod-tome/data/talents/psionic/augmented-striking.lua"
 
 t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
+t("ice wall", "mur de glace", "_t")
+t("a summoned, transparent wall of ice", "Un mur de glace transparent invoqué.", "_t")
 -- texte non traduit
 --[==[
 t("Kinetic Strike", "Kinetic Strike", "talent name")
@@ -25735,8 +25716,6 @@ t([[Focus kinetic energy and strike an enemy for %d%% weapon damage as physical.
 		Any frozen creature hit by this attack will take an extra %0.2f physical damage.
 		The extra damage will scale with your Mindpower.]], "tformat")
 t("Thermal Strike", "Thermal Strike", "talent name")
-t("ice wall", "ice wall", "_t")
-t("a summoned, transparent wall of ice", "a summoned, transparent wall of ice", "_t")
 t([[Focus thermal energy and strike an enemy for %d%% weapon damage as cold.
 		A burst of cold will then engulf them, doing an extra %0.1f Cold damage and also freeze them for %d turns.
 		If the attack freezes a pinned creature a burst of ice is summoned, circling the caster and the creature with a wall of ice for 3 turns.
