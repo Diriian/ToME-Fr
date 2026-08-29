@@ -23250,132 +23250,119 @@ t([[Surround yourself with natural forces, ignoring %d%% acid resistance of your
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/dwarven-nature.lua"
 
-t("Earthen Missiles", "Missiles en Terre", "talent name")
+t("Earthen Missiles", "Projectiles Telluriques", "talent name")
 t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
 		At talent level 5, you can conjure one additional missile.
 		The damage will increase with your Spellpower.]], [[Conjure %d roches en forme de missile que vous ciblez individuellement sur toute cible ou cibles à portée. Chaque missile inflige %0.2f dégâts physiques et un Saignement supplémentaire de %0.2f dégâts physiques à chaque tour pendant 5 tours.
 		Au niveau 5, vous pouvez conjurer un missile supplémentaire.
 		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
-t("Stone Link", "Lien de Pierre", "talent name")
--- texte non traduit
---[==[
-t("Elemental Split", "Elemental Split", "talent name")
-t("Crystaline Half (%s)", "Crystaline Half (%s)", "tformat")
-t("A crystaline structure that has taken the form of %s.", "A crystaline structure that has taken the form of %s.", "tformat")
-t("Crystaline Half", "Crystaline Half", "_t")
-t("Stone Half (%s)", "Stone Half (%s)", "tformat")
-t("A stone structure that has taken the form of %s.", "A stone structure that has taken the form of %s.", "tformat")
-t("Stone Half", "Stone Half", "_t")
+t("Elemental Split", "Scission Élémentaire", "talent name")
+t("Crystaline Half (%s)", "Moitié Cristalline (%s)", "tformat")
+t("A crystaline structure that has taken the form of %s.", "Une structure cristalline qui a pris la forme de %s.", "tformat")
+t("Crystaline Half", "Moitié Cristalline", "_t")
+t("Stone Half (%s)", "Moitié de Pierre (%s)", "tformat")
+t("A stone structure that has taken the form of %s.", "Une structure de pierre qui a pris la forme de %s.", "tformat")
+t("Stone Half", "Moitié de Pierre", "_t")
 t([[Reach inside your dwarven core and summon your stone and crystaline halves to fight alongside you for %d turns.
 		Your Crystaline Half will attack your foes with earthen missiles.
 		Your Stone Half will taunt your foes to protect you.
 		This power can not be called upon while under the effect of Deeprock Form.
-		]], [[Reach inside your dwarven core and summon your stone and crystaline halves to fight alongside you for %d turns.
-		Your Crystaline Half will attack your foes with earthen missiles.
-		Your Stone Half will taunt your foes to protect you.
-		This power can not be called upon while under the effect of Deeprock Form.
+		]], [[Puisez dans votre noyau nain pour invoquer vos moitiés de pierre et cristalline afin qu'elles combattent à vos côtés pendant %d tours.
+		Votre moitié cristalline attaquera vos ennemis avec des projectiles telluriques.
+		Votre moitié de pierre provoquera vos ennemis pour vous protéger.
+		Ce pouvoir ne peut pas être invoqué sous l'effet de Forme de la Roche Mère.
 		]], "tformat")
-t("Power Core", "Power Core", "talent name")
+t("Power Core", "Noyau d'Énergie", "talent name")
 t([[Your halves learn new talents.
 		Crystaline Half: Rain of Spikes - A massive effect that makes all nearby foes bleed.
 		Stone Half: Stone Link - A protective shield that will redirect all damage against nearby allies to your Stone Half.
-		The level of those talents is %d.]], [[Your halves learn new talents.
-		Crystaline Half: Rain of Spikes - A massive effect that makes all nearby foes bleed.
-		Stone Half: Stone Link - A protective shield that will redirect all damage against nearby allies to your Stone Half.
-		The level of those talents is %d.]], "tformat")
-t("Dwarven Unity", "Dwarven Unity", "talent name")
+		The level of those talents is %d.]], [[Vos moitiés apprennent de nouveaux talents.
+		Moitié Cristalline : Pluie d'Épines - Un effet de zone massif qui fait saigner tous les ennemis proches.
+		Moitié de Pierre : Lien de Pierre - Un bouclier protecteur qui redirige tous les dégâts subis par les alliés proches vers votre moitié de pierre.
+		Le niveau de ces talents est de %d.]], "tformat")
+t("Dwarven Unity", "Unité Naine", "talent name")
 t([[You call upon the immediate help of your Halves.
 		Your Stone Half will trade places (if in sight) with you and all creatures currently targetting you in a radius of %d will target it instead.
 		Your Crystaline Half will instantly fire a volley of level %d earthen missiles at all foes near the stone half (or you if the stone half is dead) in radius %d.
-		In addition, as passive effect, your halves now also learn your level of Combat Accuracy.]], [[You call upon the immediate help of your Halves.
-		Your Stone Half will trade places (if in sight) with you and all creatures currently targetting you in a radius of %d will target it instead.
-		Your Crystaline Half will instantly fire a volley of level %d earthen missiles at all foes near the stone half (or you if the stone half is dead) in radius %d.
-		In addition, as passive effect, your halves now also learn your level of Combat Accuracy.]], "tformat")
-t("Mergeback", "Mergeback", "talent name")
+		In addition, as passive effect, your halves now also learn your level of Combat Accuracy.]], [[Vous appelez vos moitiés à l'aide de toute urgence.
+		Votre moitié de pierre échange sa place avec vous (si elle est en vue) et toutes les créatures vous ciblant actuellement dans un rayon de %d se mettent à la cibler à la place.
+		Votre moitié cristalline tire instantanément une volée de projectiles telluriques de niveau %d sur tous les ennemis proches de la moitié de pierre (ou de vous-même si elle est morte) dans un rayon de %d.
+		De plus, en effet passif, vos moitiés héritent désormais de votre niveau de Précision de Combat.]], "tformat")
+t("Mergeback", "Fusion", "talent name")
 t([[Merges your halves back into you, cleansing your body of %d detrimental magical, mental or physical effects.
-		Each half also heals you for %d and releases a shockwave dealing %0.2f Nature damage in a radius 3.]], [[Merges your halves back into you, cleansing your body of %d detrimental magical, mental or physical effects.
-		Each half also heals you for %d and releases a shockwave dealing %0.2f Nature damage in a radius 3.]], "tformat")
-t("Creates a shield of radius %d that redirects all damage done to friends inside it to you for 5 turns.", "Creates a shield of radius %d that redirects all damage done to friends inside it to you for 5 turns.", "tformat")
-t("Rain of Spikes", "Rain of Spikes", "talent name")
+		Each half also heals you for %d and releases a shockwave dealing %0.2f Nature damage in a radius 3.]], [[Fusionne à nouveau vos moitiés en vous, ce qui purifie votre corps de %d effets néfastes magiques, mentaux, ou physiques.
+		Chaque moitié vous soigne également de %d points de vie et libère une onde de choc infligeant %0.2f dégâts de nature dans un rayon de 3.]], "tformat")
+t("Stone Link", "Lien de Pierre", "talent name")
+t("Creates a shield of radius %d that redirects all damage done to friends inside it to you for 5 turns.", "Crée un bouclier d'un rayon de %d qui redirige vers vous tous les dégâts infligés aux alliés situés à l'intérieur pendant 5 tours.", "tformat")
+t("Rain of Spikes", "Pluie d'Épines", "talent name")
 t([[Fires spikes all around you, making your foes within radius %d bleed for %0.2f damage over 6 turns.
-		Damage and chance to apply the effect increase with Willpower.]], [[Fires spikes all around you, making your foes within radius %d bleed for %0.2f damage over 6 turns.
-		Damage and chance to apply the effect increase with Willpower.]], "tformat")
---]==]
-
+		Damage and chance to apply the effect increase with Willpower.]], [[Projette des épines tout autour de vous, faisant saigner vos ennemis dans un rayon de %d pour %0.2f dégâts répartis sur 6 tours.
+		Les dégâts et les chances d'appliquer l'effet sont proportionnels à votre Volonté.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/earthen-power.lua"
 
-
--- texte non traduit
---[==[
-t("Stoneshield", "Stoneshield", "talent name")
+t("Stoneshield", "Bouclier de Pierre", "talent name")
 t([[The first time you take damage each turn, you regenerate %d%% of the damage dealt as mana (up to a maximum of %0.2f) and %d%% as equilibrium (up to %0.2f).
 		Increases Physical Power by %d, increases damage done with shields by %d%%, and allows you to dual-wield shields.
-		Also, all of your melee attacks will perform a shield bash in addition to their normal effects.]], [[The first time you take damage each turn, you regenerate %d%% of the damage dealt as mana (up to a maximum of %0.2f) and %d%% as equilibrium (up to %0.2f).
-		Increases Physical Power by %d, increases damage done with shields by %d%%, and allows you to dual-wield shields.
-		Also, all of your melee attacks will perform a shield bash in addition to their normal effects.]], "tformat")
-t("Stone Fortress", "Stone Fortress", "talent name")
+		Also, all of your melee attacks will perform a shield bash in addition to their normal effects.]], [[La première fois que vous subissez des dégâts à chaque tour, vous régénérez %d%% des dégâts reçus sous forme de mana (jusqu'à un maximum de %0.2f) et %d%% sous forme d'équilibre (jusqu'à %0.2f).
+		Augmente la puissance physique de %d, augmente les dégâts infligés avec les boucliers de %d%%, et vous permet de manier un bouclier dans chaque main.
+		De plus, toutes vos attaques au corps à corps déclenchent un coup de bouclier en plus de leurs effets normaux.]], "tformat")
+t("Stone Fortress", "Forteresse de Pierre", "talent name")
 t([[When you use your Resilience of the Dwarves racial power your skin becomes so tough that it even absorbs damage from non-physical attacks.
 		Non-physical damage is reduced by %d%% of your total armour value (ignoring hardiness).
-		While this effect is not active, half of it is still applied against foes entangled by your stone vines.]], [[When you use your Resilience of the Dwarves racial power your skin becomes so tough that it even absorbs damage from non-physical attacks.
-		Non-physical damage is reduced by %d%% of your total armour value (ignoring hardiness).
-		While this effect is not active, half of it is still applied against foes entangled by your stone vines.]], "tformat")
-t("Shards", "Shards", "talent name")
+		While this effect is not active, half of it is still applied against foes entangled by your stone vines.]], [[Lorsque vous activez votre pouvoir racial Resilience des Nains, votre peau devient si rigide qu'elle absorbe même les dégâts des attaques non physiques.
+		Les dégâts non physiques sont réduits de %d%% de la valeur totale de votre armure (en ignorant sa robustesse).
+		Lorsque cet effet n'est pas actif, la moitié de cette réduction s'applique tout de même contre les ennemis enchevêtrés par vos lianes de pierre.]], "tformat")
+t("Shards", "Éclats Rocheux", "talent name")
 t([[Sharp shards of stone grow from your shields.
 		When you are hit in melee, you will get a free attack against the attacker with the shards doing %d%% shield damage (as Nature).
-		This effect can only happen once per turn and is not affected by counterstrike.]], [[Sharp shards of stone grow from your shields.
-		When you are hit in melee, you will get a free attack against the attacker with the shards doing %d%% shield damage (as Nature).
-		This effect can only happen once per turn and is not affected by counterstrike.]], "tformat")
-t("Eldritch Stone", "Eldritch Stone", "talent name")
+		This effect can only happen once per turn and is not affected by counterstrike.]], [[Des éclats de pierre acérés poussent sur vos boucliers.
+		Lorsque vous êtes touché au corps à corps, vous obtenez une attaque gratuite contre l'agresseur, les éclats infligeant %d%% dégâts du bouclier (sous forme de Nature).
+		Cet effet ne peut se produire qu'une fois par tour et n'est pas affecté par les contre-attaques.]], "tformat")
+t("Eldritch Stone", "Pierre ésotérique", "talent name")
 t([[Creates a shield of impenetrable stone around you for %d turns, absorbing up to %d damage.
 		Your equilibrium will increase by twice the damage absorbed.
 		When the effect ends, all equilibrium above minimum will be converted to mana in a storm of arcane energy and the cooldown of your Block is reset.
 		The storm inflicts Arcane damage equal to the converted equilibrium (maximum %d) against everyone around you in a radius %d.
 		Also while resting you will passively regenerate %0.2f mana each turn.
-		The shield strength will increase with Willpower]], [[Creates a shield of impenetrable stone around you for %d turns, absorbing up to %d damage.
-		Your equilibrium will increase by twice the damage absorbed.
-		When the effect ends, all equilibrium above minimum will be converted to mana in a storm of arcane energy and the cooldown of your Block is reset.
-		The storm inflicts Arcane damage equal to the converted equilibrium (maximum %d) against everyone around you in a radius %d.
-		Also while resting you will passively regenerate %0.2f mana each turn.
-		The shield strength will increase with Willpower]], "tformat")
---]==]
-
+		The shield strength will increase with Willpower]], [[Crée un bouclier de pierre impénétrable autour de vous pendant %d tours, absorbant jusqu'à %d dégâts.
+		Votre équilibre augmente de deux fois la quantité de dégâts absorbés.
+		Lorsque l'effet prend fin, tout l'équilibre au-dessus de son niveau minimum est converti en mana dans une tempête d'énergie arcanique, et le temps de recharge de Bloquer est réinitialisé.
+		La tempête inflige des dégâts arcanique égaux à l'équilibre converti (maximum %d) à toutes les cibles dans un rayon de %d.
+		De plus, lorsque vous vous reposez, vous régénérez passivement %0.2f de mana par tour.
+		La puissance du bouclier est proportionnel à la Volonté.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/earthen-vines.lua"
 
+t("Stone Vines", "Lianes de Pierre", "talent name")
 t(" and %0.1f Arcane", " et %0.1f d'Arcane", "tformat")
--- texte non traduit
---[==[
-t("Stone Vines", "Stone Vines", "talent name")
 t([[From the ground around you, you form living stone vines extending from your feet.
 		Each turn, the vines will attempt to seize a random target within radius %d.
 		Affected creatures are pinned to the ground and take %0.1f nature%s damage each turn for %d turns.
 		A creature entangled by the vines will have a chance to break free each turn, and will automatically succeed if it is more than %d grids away from you.
-		The chance to affect targets and damage increase with talent level and Willpower.]], [[From the ground around you, you form living stone vines extending from your feet.
-		Each turn, the vines will attempt to seize a random target within radius %d.
-		Affected creatures are pinned to the ground and take %0.1f nature%s damage each turn for %d turns.
-		A creature entangled by the vines will have a chance to break free each turn, and will automatically succeed if it is more than %d grids away from you.
-		The chance to affect targets and damage increase with talent level and Willpower.]], "tformat")
-t("Eldritch Vines", "Eldritch Vines", "talent name")
+		The chance to affect targets and damage increase with talent level and Willpower.]], [[À partir du sol qui vous entoure, vous donnez forme à des lianes de pierre vivante qui se déploient depuis vos pieds. Chaque tour, les lianes tentent de saisir une cible aléatoire dans un rayon de %d.
+		Les créatures affectées sont immobilisé et subissent %0.1f dégâts de nature%s à chaque tour pendant %d tours.
+		Une créature enchevêtrée dans les lianes a une chance de se libérer à chaque tour, et y parviendra automatiquement si elle s'éloigne de plus de %d cases de vous.
+		Les chances d'affecter les cibles et les dégâts sont proportionnels au niveau du talent et votre Volonté.]], "tformat")
+t("Eldritch Vines", "Lianes ésotériques", "talent name")
 t([[Each time one of your stone vines deals damage to a creature it will restore %0.1f equilibrium and %0.1f mana.
-		Your vines also become infused with eldritch energies, dealing an additional %0.1f arcane damage.]], [[Each time one of your stone vines deals damage to a creature it will restore %0.1f equilibrium and %0.1f mana.
-		Your vines also become infused with eldritch energies, dealing an additional %0.1f arcane damage.]], "tformat")
-t("Rockwalk", "Rockwalk", "talent name")
+		Your vines also become infused with eldritch energies, dealing an additional %0.1f arcane damage.]], [[Chaque fois que l'une de vos lianes de pierre inflige des dégâts à une créature, elle vous restitue %0.1f d'équilibre et %0.1f de mana.
+		Vos lianes sont également imprégnées d'énergies occultes, infligeant %0.1f dégâts arcanique supplémentaires.]], "tformat")
+t("Rockwalk", "Passe-Roche", "talent name")
 t([[Merge with one of your stone vines, traversing it to emerge near an entangled creature (maximum range %d).
 		Merging with the stone is beneficial for you, healing %0.2f life (increases with Willpower).
-		This will not break Body of Stone.]], [[Merge with one of your stone vines, traversing it to emerge near an entangled creature (maximum range %d).
-		Merging with the stone is beneficial for you, healing %0.2f life (increases with Willpower).
-		This will not break Body of Stone.]], "tformat")
-t("Rockswallow", "Rockswallow", "talent name")
+		This will not break Body of Stone.]], [[Vous fusionnez avec l'une de vos lianes de pierre, la traversant pour émerger près d'une créature enchevêtrée (portée maximale de %d).
+		Fusionner avec la pierre vous est bénéfique et vous rend %0.2f points de vie.
+		Le soin est proportionnel à votre Volonté.
+		Cette action n'interrompt pas Corps de Pierre.]], "tformat")
+t("Rockswallow", "Engloutissement Rocheux", "talent name")
 t([[Merge your target (within range %d) with one of your stone vines that has seized it, forcing it to traverse the vine and reappear near you.
 		Merging with the stone is detrimental for the target, dealing %0.1f nature damage.
-		The damage will increases with your Willpower.]], [[Merge your target (within range %d) with one of your stone vines that has seized it, forcing it to traverse the vine and reappear near you.
-		Merging with the stone is detrimental for the target, dealing %0.1f nature damage.
-		The damage will increases with your Willpower.]], "tformat")
---]==]
-
+		The damage will increases with your Willpower.]], [[Vous fusionnez votre cible (à une portée maximale de %d) avec une liane de pierre qui l'a capturée, la forçant à traverser la liane pour réapparaître près de vous.
+		Fusionner avec la pierre est néfaste pour la cible et lui inflige %0.1f dégâts de nature.
+		Les dégâts sont proportionnels à votre Volonté.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/eyals-fury.lua"
@@ -27204,35 +27191,31 @@ t([[Whenever a creature is killed by yourself or a minion you feast on its essen
 section "mod-tome/data/talents/spells/deeprock.lua"
 
 t("Deeprock Form", "Forme de la Roche Mère", "talent name")
--- texte non traduit
---[==[
-t(", Arcane damage by %0.1f%% and Arcane damage penetration by %0.1f%%", ", Arcane damage by %0.1f%% and Arcane damage penetration by %0.1f%%", "tformat")
-t(", Nature damage by %0.1f%% and Nature damage penetration by %0.1f%%", ", Nature damage by %0.1f%% and Nature damage penetration by %0.1f%%", "tformat")
-t(" and %d%% bleeding, poison, disease, and stun immunity", " and %d%% bleeding, poison, disease, and stun immunity", "tformat")
+t(", Arcane damage by %0.1f%% and Arcane damage penetration by %0.1f%%", ", dégâts arcaniques de %0.1f%% et pénétration de résistance arcanique de %0.1f%%", "tformat")
+t(", Nature damage by %0.1f%% and Nature damage penetration by %0.1f%%", ", dégâts de nature de %0.1f%% et pénétration de résistance à la nature de %0.1f%%", "tformat")
+t(" and %d%% bleeding, poison, disease, and stun immunity", " et %d%% d'immunité au Saignement, poison, maladie et assommement", "tformat")
 t([[You call upon the very core of the world, harnessing its power to transform your body.
 		For %d turns you become a Deeprock Elemental, gaining two size categories%s.
 		This increases your Physical damage by %0.1f%% and Physical damage penetration by %0.1f%%%s, and armour by %d.%s
-		The effects increase with spellpower.]], [[You call upon the very core of the world, harnessing its power to transform your body.
-		For %d turns you become a Deeprock Elemental, gaining two size categories%s.
-		This increases your Physical damage by %0.1f%% and Physical damage penetration by %0.1f%%%s, and armour by %d.%s
-		The effects increase with spellpower.]], "tformat")
+		The effects increase with spellpower.]], [[Vous invoquez le coeur même du monde, exploitant son pouvoir pour transformer votre corps.
+		Pendant %d tours, vous devenez un Élémentaire de la Roche Mère, gagnant deux catégories de taille%s.
+		Cela augmente vos dégâts physiques de %0.1f%% et votre pénétration de résistance physique de %0.1f%%%s, et votre armure de %d.%s
+		Les effets sont proportionnels à la Puissance des Sorts.]], "tformat")
 t("\
 In addition, you use your physical resistance versus all damage against you.", "\
-In addition, you use your physical resistance versus all damage against you.", "_t")
-t("Volcanic Rock", "Volcanic Rock", "talent name")
+De plus, tous les dégâts que vous subissez sont réduits par votre résistance physique plutôt que par le type de résistance normal.", "_t")
+t("Volcanic Rock", "Roche Volcanique", "talent name")
 t([[When you turn into a Deeprock elemental your Arcane damage is increased by %0.1f%%, Arcane damage penetration by %0.1f%% and you gain the power to invoke volcanos:
-		%s]], [[When you turn into a Deeprock elemental your Arcane damage is increased by %0.1f%%, Arcane damage penetration by %0.1f%% and you gain the power to invoke volcanos:
+		%s]], [[Lorsque vous vous transformez en Élémentaire de la Roche Mère, vos dégâts arcaniques sont augmentés de %0.1f%%, la pénétration de résistance arcanique de %0.1f%% et vous gagnez le pouvoir d'invoquer des volcans :
 		%s]], "tformat")
-t("Boulder Rock", "Boulder Rock", "talent name")
+t("Boulder Rock", "Roche en Bloc", "talent name")
 t([[When you turn into a Deeprock elemental your Nature damage is increased by %0.1f%%, Nature damage penetration by %0.1f%% and you gain the power to throw boulders:
-		%s]], [[When you turn into a Deeprock elemental your Nature damage is increased by %0.1f%%, Nature damage penetration by %0.1f%% and you gain the power to throw boulders:
+		%s]], [[Lorsque vous vous transformez en Élémentaire de la Roche Mère, vos dégâts de nature sont augmentés de %0.1f%%, la pénétration de résistance à la nature de %0.1f%% et vous gagnez le pouvoir de lancer des rochers :
 		%s]], "tformat")
-t("Mountainhewn", "Mountainhewn", "talent name")
+t("Mountainhewn", "Taillé dans la Roche", "talent name")
 t([[While in deeprock form, you become indomitable, granting you %d%% resistance to cuts, poisons, diseases and stuns.
-		At level 5 and higher, while Deeprock Form is active, all incoming damage is applied against physical resistance instead of the normal resistance type.]], [[While in deeprock form, you become indomitable, granting you %d%% resistance to cuts, poisons, diseases and stuns.
-		At level 5 and higher, while Deeprock Form is active, all incoming damage is applied against physical resistance instead of the normal resistance type.]], "tformat")
---]==]
-
+		At level 5 and higher, while Deeprock Form is active, all incoming damage is applied against physical resistance instead of the normal resistance type.]], [[Sous la Forme de la Roche Mère, vous devenez indomptable, gagnant %d%% de résistance aux Entailles, poisons, maladies et assommement.
+		Au niveau 5 et supérieur, tant que la Forme de la Roche Mère est active, tous les dégâts entrants sont appliqués contre la résistance physique plutôt que le type de résistance normal.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/divination.lua"
@@ -27342,76 +27325,68 @@ t([[Entomb yourself in a wall of stone for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/eldritch-shield.lua"
 
+t("Eldritch Blow", "Coup Occulte", "talent name")
+t("You cannot use Eldritch Blow without a shield!", "Vous ne pouvez pas utiliser Coup Occulte sans un bouclier !", "logPlayer")
 t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
-t("You require a shield to use this talent.", "Vous avez besoin d'un bouclier pour utiliser ce talent.", "logPlayer")
--- texte non traduit
---[==[
-t("Eldritch Blow", "Eldritch Blow", "talent name")
-t("You cannot use Eldritch Blow without a shield!", "You cannot use Eldritch Blow without a shield!", "logPlayer")
 t([[Channel eldritch forces into a melee attack, hitting the target with your weapon and shield for %d%% arcane damage.
 		If either attack hits, the target will be stunned for %d turns and you automatically Block.
 		The chance for the attack to stun increases with your Physical Power, but it is considered a magical attack and thus is resisted with spell save, rather than physical save.
-		Damage increases with Spellpower.]], [[Channel eldritch forces into a melee attack, hitting the target with your weapon and shield for %d%% arcane damage.
-		If either attack hits, the target will be stunned for %d turns and you automatically Block.
-		The chance for the attack to stun increases with your Physical Power, but it is considered a magical attack and thus is resisted with spell save, rather than physical save.
-		Damage increases with Spellpower.]], "tformat")
-t("Eldritch Infusion", "Eldritch Infusion", "talent name")
+		Damage increases with Spellpower.]], [[Canalisez des forces occultes dans une attaque de mêlée, frappant la cible avec votre arme et votre bouclier pour %d%% dégâts arcaniques.
+		Si l'une ou l'autre attaque touche, la cible sera assommé pendant %d tours et vous Bloquez automatiquement.
+		La chance d'assommer est proportionnel à votre Puissance Physique, mais l'attaque est considérée comme magique et est donc résistée par la sauvegarde magique plutôt que physique.
+		Les dégâts sont proportionnels à la Puissance des Sorts.]], "tformat")
+t("Eldritch Infusion", "Infusion Occulte", "talent name")
+t("You require a shield to use this talent.", "Vous avez besoin d'un bouclier pour utiliser ce talent.", "logPlayer")
 t([[Imbues your shields with arcane power, dealing %0.2f arcane damage with each melee strike and %0.2f arcane damage when hit.
 		Your shields radiate with eldritch forces, imbuing you back with %d spellpower and mindpower per tier of your shields (offhand counts for half). Current bonus is %d.
 		Allows counterstrikes after incomplete blocks and the cooldown of Block is reduced by %d turns.
-		The damage will increase with Spellpower.]], [[Imbues your shields with arcane power, dealing %0.2f arcane damage with each melee strike and %0.2f arcane damage when hit.
-		Your shields radiate with eldritch forces, imbuing you back with %d spellpower and mindpower per tier of your shields (offhand counts for half). Current bonus is %d.
-		Allows counterstrikes after incomplete blocks and the cooldown of Block is reduced by %d turns.
-		The damage will increase with Spellpower.]], "tformat")
-t("Eldritch Fury", "Eldritch Fury", "talent name")
-t("You cannot use Eldricth Fury without a shield!", "You cannot use Eldricth Fury without a shield!", "logPlayer")
-t("%s resists the dazing blows!", "%s resists the dazing blows!", "logSeen")
+		The damage will increase with Spellpower.]], [[Imprègne vos boucliers de puissance arcanique, infligeant %0.2f dégâts arcaniques à chaque frappe de mêlée et %0.2f dégâts arcaniques lorsque vous êtes touché.
+		Vos boucliers irradient de forces occultes, vous imbuant de %d de Puissance des Sorts et de Puissance Mentale par rang de vos boucliers (la main secondaire compte pour moitié). Bonus actuel : %d.
+		Permet les contre-attaques après des blocages incomplets et le rechargement de Bloquer est réduit de %d tours.
+		Les dégâts sont proportionnels à la Puissance des Sorts.]], "tformat")
+t("Eldritch Fury", "Furie Occulte", "talent name")
+t("You cannot use Eldricth Fury without a shield!", "Vous ne pouvez pas utiliser Furie Occulte sans un bouclier !", "logPlayer")
+t("%s resists the dazing blows!", "%s résiste aux coups étourdissants !", "logSeen")
 t([[Channel eldritch forces into a ferocious melee attack, hitting the target three times with your shields doing %d%% Nature damage.
 		If any of the attacks hit, the target will be dazed for %d turns and your Block cooldown is reset.
-		The chance for the attack to daze increases with you Physical Power, but it is considered a magical attack and thus is resisted with spell save, rather than physical save.]], [[Channel eldritch forces into a ferocious melee attack, hitting the target three times with your shields doing %d%% Nature damage.
-		If any of the attacks hit, the target will be dazed for %d turns and your Block cooldown is reset.
-		The chance for the attack to daze increases with you Physical Power, but it is considered a magical attack and thus is resisted with spell save, rather than physical save.]], "tformat")
-t("Eldritch Slam", "Eldritch Slam", "talent name")
-t("You cannot use Eldritch Slam without a shield!", "You cannot use Eldritch Slam without a shield!", "logPlayer")
+		The chance for the attack to daze increases with you Physical Power, but it is considered a magical attack and thus is resisted with spell save, rather than physical save.]], [[Canalisez des forces occultes dans une attaque de mêlée féroce, frappant la cible trois fois avec vos boucliers pour %d%% dégâts de nature.
+		Si l'une des attaques touche, la cible sera étourdit légèrement pendant %d tours et le rechargement de Bloquer est réinitialisé.
+		La chance d'étourdir légèrement est proportionnel à votre Puissance Physique, mais l'attaque est considérée comme magique et est donc résistée par la sauvegarde magique plutôt que physique.]], "tformat")
+t("Eldritch Slam", "Fracas Occulte", "talent name")
+t("You cannot use Eldritch Slam without a shield!", "Vous ne pouvez pas utiliser Fracas Occulte sans un bouclier !", "logPlayer")
 t([[Slam your shield on the ground creating a shockwave.
 		You perform a melee attack for %d%% arcane damage against everyone within radius %d.
 		Any creature hit by the attack will be submitted to a Counterstrike effect for 3 turns, as if you had blocked against them.
-		At level 5 your Block cooldown is reset.]], [[Slam your shield on the ground creating a shockwave.
-		You perform a melee attack for %d%% arcane damage against everyone within radius %d.
-		Any creature hit by the attack will be submitted to a Counterstrike effect for 3 turns, as if you had blocked against them.
-		At level 5 your Block cooldown is reset.]], "tformat")
---]==]
-
+		At level 5 your Block cooldown is reset.]], [[Frappez votre bouclier sur le sol, créant une onde de choc.
+		Vous effectuez une attaque de mêlée infligeant %d%% dégâts arcaniques à toutes les créatures dans un rayon de %d.
+		Toute créature touchée par l'attaque sera soumise à un effet de Contre-attaque pendant 3 tours, comme si vous aviez bloqué contre elle.
+		Au niveau 5, le rechargement de Bloquer est réinitialisé.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/eldritch-stone.lua"
 
-t(" and ", " et ", "_t")
--- texte non traduit
---[==[
-t("Stone Spikes", "Stone Spikes", "talent name")
-t("poisoned for %0.1f Nature damage over 6 turns (%d%% healing reduction)", "poisoned for %0.1f Nature damage over 6 turns (%d%% healing reduction)", "tformat")
-t(", blasted for %0.1f Arcane damage (and silenced for %d turns),", ", blasted for %0.1f Arcane damage (and silenced for %d turns),", "tformat")
-t(" impaled for %0.1f Physical damage (and disarmed for %d turns),", " impaled for %0.1f Physical damage (and disarmed for %d turns),", "tformat")
+t("Stone Spikes", "Pointes de Pierre", "talent name")
+t("poisoned for %0.1f Nature damage over 6 turns (%d%% healing reduction)", "empoisonné pour %0.1f dégâts de nature sur 6 tours (%d%% de réduction de soins)", "tformat")
+t(", blasted for %0.1f Arcane damage (and silenced for %d turns),", ", soufflé pour %0.1f dégâts arcaniques (et réduit au silence pendant %d tours),", "tformat")
+t(" impaled for %0.1f Physical damage (and disarmed for %d turns),", " empalé pour %0.1f dégâts physiques (et désarmé pendant %d tours),", "tformat")
 t([[Stony spikes erupt from the ground in a radius %d cone.
 		Creatures caught in the area will be %scut for %0.1f Physical damage dealt over 6 turns.
-		The damage increases with your Spellpower, and the chance to apply the detrimental effect(s) improves with Spellpower or Physical Power, whichever is greater.]], [[Stony spikes erupt from the ground in a radius %d cone.
-		Creatures caught in the area will be %scut for %0.1f Physical damage dealt over 6 turns.
-		The damage increases with your Spellpower, and the chance to apply the detrimental effect(s) improves with Spellpower or Physical Power, whichever is greater.]], "tformat")
-t("Poisoned Spikes", "Poisoned Spikes", "talent name")
+		The damage increases with your Spellpower, and the chance to apply the detrimental effect(s) improves with Spellpower or Physical Power, whichever is greater.]], [[Des pointes de pierre jaillissent du sol en cône de rayon %d.
+		Les créatures prises dans la zone seront %sentaillées pour %0.1f dégâts physiques sur 6 tours.
+		Les dégâts sont proportionnels à votre Puissance des Sorts, et la chance d'appliquer les effets négatifs s'améliore avec la Puissance des Sorts ou la Puissance Physique, selon ce qui est le plus élevé.]], "tformat")
+t(" and ", " et ", "_t")
+t("Poisoned Spikes", "Pointes Empoisonnées", "talent name")
 t([[Coats your stone spikes with insidious poison, dealing %0.1f total nature damage over 6 turns while reducing all healing by %d%%.
-		The damage increases with Spellpower and the chance to poison and healing reduction increases with either Spellpower or Physical Power, whichever is greater.]], [[Coats your stone spikes with insidious poison, dealing %0.1f total nature damage over 6 turns while reducing all healing by %d%%.
-		The damage increases with Spellpower and the chance to poison and healing reduction increases with either Spellpower or Physical Power, whichever is greater.]], "tformat")
-t("Eldritch Spikes", "Eldritch Spikes", "talent name")
+		The damage increases with Spellpower and the chance to poison and healing reduction increases with either Spellpower or Physical Power, whichever is greater.]], [[Enduisez vos pointes de pierre de poison insidieux, infligeant %0.1f dégâts de nature totaux sur 6 tours tout en réduisant tous les soins de %d%%.
+		Les dégâts sont proportionnels à la Puissance des Sorts et la chance d'empoisonner ainsi que la réduction de soins sont proportionnels à la Puissance des Sorts ou la Puissance physique, selon ce qui est le plus élevé.]], "tformat")
+t("Eldritch Spikes", "Pointes Occultes", "talent name")
 t([[Imbues your stone spikes with arcane forces, dealing %0.1f Arcane damage and silencing each target hit for %d turns.
-		The damage increases with Spellpower and the chance to silence increases with either Spellpower or Physical Power, whichever is greater.]], [[Imbues your stone spikes with arcane forces, dealing %0.1f Arcane damage and silencing each target hit for %d turns.
-		The damage increases with Spellpower and the chance to silence increases with either Spellpower or Physical Power, whichever is greater.]], "tformat")
-t("Impaling Spikes", "Impaling Spikes", "talent name")
+		The damage increases with Spellpower and the chance to silence increases with either Spellpower or Physical Power, whichever is greater.]], [[Imprègnez vos pointes de pierre de forces occultes, infligeant %0.1f dégâts arcaniques et réduisant au silence chaque cible touchée pendant %d tours.
+		Les dégâts sont proportionnels à la Puissance des Sorts et la chance de réduire au silence est proportionnel à la Puissance des Sorts ou la Puissance Physique, selon ce qui est le plus élevé.]], "tformat")
+t("Impaling Spikes", "Pointes Empalantes", "talent name")
 t([[Your stone spikes grow in length, instantly dealing %0.1f Physical damage and disarming targets hit for %d turns.
-		The damage increases with Spellpower and the chance to disarm increases with either Spellpower or Physical Power, whichever is greater.]], [[Your stone spikes grow in length, instantly dealing %0.1f Physical damage and disarming targets hit for %d turns.
-		The damage increases with Spellpower and the chance to disarm increases with either Spellpower or Physical Power, whichever is greater.]], "tformat")
---]==]
-
+		The damage increases with Spellpower and the chance to disarm increases with either Spellpower or Physical Power, whichever is greater.]], [[Vos pointes de pierre s'allongent, infligeant instantanément %0.1f dégâts physiques et Désarmant les cibles touchées pendant %d tours.
+		Les dégâts sont proportionnels à la Puissance des Sorts et la chance de Désarmer est proportionnel à la Puissance des Sorts ou la Puissance Physique, selon ce qui est le plus élevé.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/energy-alchemy.lua"
@@ -28398,7 +28373,7 @@ t([[Touch your foe and turn it to stone for %d turns.
 ------------------------------------------------
 section "mod-tome/data/talents/spells/stone.lua"
 
-t("Earthen Missiles", "Missiles en Terre", "talent name")
+t("Earthen Missiles", "Projectiles Telluriques", "talent name")
 t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
 		At talent level 5, you can conjure one additional missile.
 		The damage will increase with your Spellpower.]], [[Conjure %d roches en forme de missile que vous ciblez individuellement sur toute cible ou cibles à portée. Chaque missile inflige %0.2f dégâts physiques et un Saignement supplémentaire de %0.2f dégâts physiques à chaque tour pendant 5 tours.
