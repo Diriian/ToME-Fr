@@ -5019,30 +5019,25 @@ t([[You call back up to %d spiderbots to you to create protective barrier for %d
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/undead-drake.lua"
 
-
--- texte non traduit
---[==[
-t("Raze", "Raze", "talent name")
+t("Raze", "Dévastation", "talent name")
 t([[You revel in death, devouring the souls of your victims. Whenever you inflict damage to a target, you deal an additional %0.2f darkness damage.
 		Additionally, you gain %d souls whenever you score a kill.
-		The damage will scale with the highest of your spell or mind power and can only occur up to 25 times per turn.]], [[You revel in death, devouring the souls of your victims. Whenever you inflict damage to a target, you deal an additional %0.2f darkness damage.
-		Additionally, you gain %d souls whenever you score a kill.
-		The damage will scale with the highest of your spell or mind power and can only occur up to 25 times per turn.]], "tformat")
-t("Infectious Miasma", "Infectious Miasma", "talent name")
+		The damage will scale with the highest of your spell or mind power and can only occur up to 25 times per turn.]], [[Vous vous délectez de la mort, dévorant les âmes de vos victimes. Chaque fois que vous infligez des dégâts à une cible, vous infligez %0.2f dégâts d'obscurité supplémentaires.
+		De plus, vous gagnez %d âme(s) à chaque mise à mort.
+		Les dégâts sont proportionnels à votre Puissance des sorts ou Puissance mentale (la plus élevée) et ne peuvent se produire que jusqu'à 25 fois par tour.]], "tformat")
+t("Infectious Miasma", "Miasme Infectieux", "talent name")
 t([[Release a cloud of deadly miasma over a targeted area, dealing %0.2f darkness damage to all units inside it with a 20%% chance of inflicting a disease that will do blight damage and weaken either Constitution, Strength or Dexterity for %d turns.
-		The damage will scale with the highest of your spell or mind power.]], [[Release a cloud of deadly miasma over a targeted area, dealing %0.2f darkness damage to all units inside it with a 20%% chance of inflicting a disease that will do blight damage and weaken either Constitution, Strength or Dexterity for %d turns.
-		The damage will scale with the highest of your spell or mind power.]], "tformat")
-t("Vampiric Surge", "Vampiric Surge", "talent name")
+		The damage will scale with the highest of your spell or mind power.]], [[Libérez un nuage de miasme mortel sur une zone ciblée, infligeant %0.2f dégâts d'obscurité à toutes les unités à l'intérieur avec 20%% de chance d'infliger une maladie qui causera des dégâts de désolation et affaiblira la Constitution, la Force ou la Dextérité pendant %d tours.
+		Les dégâts sont proportionnels à votre Puissance des Sorts ou Puissance Mentale (la plus élevée).]], "tformat")
+t("Vampiric Surge", "Sursaut Vampirique", "talent name")
 t([[You surge with a life draining energy for %d turns.
-		While the effect lasts, you heal yourself for %d%% of all damage you deal.]], [[You surge with a life draining energy for %d turns.
-		While the effect lasts, you heal yourself for %d%% of all damage you deal.]], "tformat")
-t("Necrotic Breath", "Necrotic Breath", "talent name")
-t("@Source@ breathes a wave of darkness!", "@Source@ breathes a wave of darkness!", "_t")
+		While the effect lasts, you heal yourself for %d%% of all damage you deal.]], [[Vous êtes submergé d'une énergie drainant la vie pendant %d tours.
+		Pendant la durée de l'effet, vous vous soignez de %d%% de tous les dégâts que vous infligez.]], "tformat")
+t("Necrotic Breath", "Souffle Nécrotique", "talent name")
+t("@Source@ breathes a wave of darkness!", "@Source@ exhale une vague d'obscurité !", "_t")
 t([[You breathe a wave of deathly miasma in a cone of radius %d. Any target caught in the area will take %0.2f darkness damage over 4 turns and receive either a bane of confusion or a bane of blindness for 4 turns.
-		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], [[You breathe a wave of deathly miasma in a cone of radius %d. Any target caught in the area will take %0.2f darkness damage over 4 turns and receive either a bane of confusion or a bane of blindness for 4 turns.
-		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], "tformat")
---]==]
-
+		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], [[Vous expirez une vague de miasme mortel en cône de rayon %d. Toute cible prise dans la zone subira %0.2f dégâts d'obscurité sur 4 tours et recevra soit un fléau de confusion soit un fléau d'aveuglement pendant 4 tours.
+		Les dégâts sont proportionnels à votre Magie et la chance de critique est basée sur votre taux de Critique de Sorts.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/artillery.lua"
@@ -6816,6 +6811,7 @@ t("light", "lumière", "effect subtype")
 t("slow", "ralentissement", "effect subtype")
 t("temporal", "temporel", "effect subtype")
 t("celestial", "Céleste", "effect subtype")
+t("Vampiric Surge", "Sursaut Vampirique", "_t")
 t("chronomancy", "chronomancie", "effect subtype")
 t("undead", "mort-vivant", "effect subtype")
 t("spell", "sort", "effect subtype")
@@ -6838,7 +6834,6 @@ t("That space is occupied!", "That space is occupied!", "logPlayer")
 t("Starscape", "Starscape", "_t")
 t("Has summoned the starscape, slowing all creatures 67%.", "Has summoned the starscape, slowing all creatures 67%.", "_t")
 t("corruption", "corruption", "effect subtype")
-t("Vampiric Surge", "Vampiric Surge", "_t")
 t("This unit is recovering %d%% of all damage it deals as health.", "This unit is recovering %d%% of all damage it deals as health.", "tformat")
 t("#Target# is overflowing with dark power!", "#Target# is overflowing with dark power!", "_t")
 t("+Vamp Surge", "+Vamp Surge", "_t")
