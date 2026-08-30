@@ -51,13 +51,13 @@ t("Killed a Bringer of Doom.", "Tuer un Avatar de la Ruine.", "_t")
 t("A living one!", "Un vivant !", "achievement name")
 t("Was teleported into Caldizar's Fortress, far into the void between the stars.", "A été téléporté dans la forteresse de Caldizar, loin dans le vide entre les étoiles.", "_t")
 t("Have 100 walls on the sludgenest turn into hostile creatures.", "Avoir 100 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
-t("Slime killer party", "Foire au massacre de vaseux", "achievement name")
+t("Slime killer party", "Foire au massacre de visqueux", "achievement name")
 t("Have 200 walls on the sludgenest turn into hostile creatures.", "Avoir 200 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
-t("Mad slime dash", "Anéantissement dingue de vaseux", "achievement name")
+t("Mad slime dash", "Anéantissement dingue de visqueux", "achievement name")
 t("Have 300 walls on the sludgenest turn into hostile creatures.", "Avoir 300 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
 t("Don't mind the slimy smell", "Ne faites pas attention a l'odeur de vase", "achievement name")
 t("Have 400 walls on the sludgenest turn into hostile creatures.", "Avoir 400 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
-t("In the company of slimes", "En compagnie des vaseux", "achievement name")
+t("In the company of slimes", "En compagnie des visqueux", "achievement name")
 t("Have 500 walls on the sludgenest turn into hostile creatures.", "Avoir 500 murs dans le Nid de Vaseux transformé en créatures hostiles.", "_t")
 -- texte non traduit
 --[==[
@@ -167,7 +167,7 @@ t("Killed Myssil, causing her to drop the Rod of Recall.", "Tuer Myssil, lui fai
 t("Now, this is impressive!", "Maintenant, c'est impressionnant !", "achievement name")
 t("Killed Linaniil, the Supreme Archmage of Angolwen.", "Tuer Linaniil, l'archimage suprême d'Angolwen.", "_t")
 t("Fear of Fours", "Peur des quatre", "achievement name")
-t("Killed all four bosses of the Slime Tunnels.", "Tuer les quatre boss des tunnels de Slime.", "_t")
+t("Killed all four bosses of the Slime Tunnels.", "Tuer les quatre boss des Tunnels Visqueux.", "_t")
 t("Well trained", "Bien entraîné", "achievement name")
 t("Deal one million damage to training dummies in a single training session.", "Infligez un million de dégâts aux mannequins d'entraînement en une seule séance d'entraînement.", "_t")
 t("I meant to do that...", "Je voulais faire ça...", "achievement name")
@@ -337,8 +337,8 @@ t("Lost in translation", "Perdu dans le transfert", "achievement name")
 t("Destroyed the naga portal in the slazish fens and got caught in the after-effect.", "Détruire le portail naga dans le marais de Slazish et s'est fait prendre dans la répercussion.", "_t")
 t("Dreaming my dreams", "Rêver mes rêves", "achievement name")
 t("Experienced and completed all the dreams in the Dogroth Caldera.", "Expérimenter et réaliser tous les rêves dans le Chaudron de Dogroth.", "_t")
-t("Oozemancer", "Boumancien", "achievement name")
-t("Destroyed the corrupted oozemancer.", "Vous avez détruit le boumancien corrompu.", "_t")
+t("Oozemancer", "Vasomancien", "achievement name")
+t("Destroyed the corrupted oozemancer.", "Vous avez détruit le vasomancien corrompu.", "_t")
 t("Lucky Girl", "Femme chanceuse", "achievement name")
 t("Saved Melinda again and invited her to the Fortress to cure her.", "Sauver encore Melinda et l'inviter à la Forteresse pour la guérir.", "_t")
 -- texte non traduit
@@ -679,10 +679,10 @@ t("Their most important stats are: Strength and Willpower", "Leurs stats les plu
 t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +5 Force, +0 Dextérité, +1 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 Magie, +3 Volonté, +0 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#Vie par niveau :#LIGHT_BLUE# +2", "_t")
-t("Oozemancer", "Boumancien", "birth descriptor name")
-t("Magic must fail, magic must lose, nothing arcane can face the ooze...", "La magie peut rater, la magie peut échouer, mais aucune arcane ne peut battre le slime...", "_t")
-t("Oozemancers separate themselves from normal civilisation so that they be more in harmony with Nature. Arcane force are reviled by them, and their natural attunement to the wilds lets them do battle with abusive magic-users on an equal footing.", "Les Boumanciens se séparent volontairement de la civilisation pour être plus en harmonie avec la nature. Ils abhorrent les forces des arcanes, et leur lien inné avec la nature les faits combattre les mages peu scrupuleux d'égal à égal.", "_t")
-t("They can spawn oozes to protect and attack from a distance while also being adept at harnessing the power of mindstars and psiblades.", "Ils peuvent invoquer des boueux pour se protéger et attaquer à distance bien qu'ils soient également adepte de l'exploitation de la puissance des étoiles d'âme ou des lames psi.", "_t")
+t("Oozemancer", "Vasomancien", "birth descriptor name")
+t("Magic must fail, magic must lose, nothing arcane can face the ooze...", "La magie peut rater, la magie peut échouer, mais aucune arcane ne peut battre les vaseux...", "_t")
+t("Oozemancers separate themselves from normal civilisation so that they be more in harmony with Nature. Arcane force are reviled by them, and their natural attunement to the wilds lets them do battle with abusive magic-users on an equal footing.", "Les Vasomanciens se séparent volontairement de la civilisation pour être plus en harmonie avec la nature. Ils abhorrent les forces des arcanes, et leur lien inné avec la nature les faits combattre les mages peu scrupuleux d'égal à égal.", "_t")
+t("They can spawn oozes to protect and attack from a distance while also being adept at harnessing the power of mindstars and psiblades.", "Ils peuvent invoquer des vaseux pour se protéger et attaquer à distance bien qu'ils soient également adepte de l'exploitation de la puissance des étoiles d'âme ou des lames psi.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +5 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 Magie, +5 Volonté, +4 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# -3", "#GOLD#Vie par niveau :#LIGHT_BLUE# -3", "_t")
@@ -2677,7 +2677,7 @@ He also said the only way to enter the peak and de-activate the shield is throug
 Et maintenant ils sont morts ? Par la main d'un seul @playerdescriptor.race@ ? Je suis vraiment étonné par ta puissance.
 Pendant que vous étiez occupés à mettre fin aux activités des orcs, nous avons réussi à découvrir une partie de la vérité grâce à un orc captif.
 Il a parlé du bouclier qui protège le Haut Pic. Il semble être contrôlé par des "orbes de commandes" que les maîtres des Pics avaient en leur possession.
-Il a également dit que le seul moyen d'accéder au pic et de désactiver le bouclier est de passer par les "tunnels de vases", situés quelque part dans l'une des Fiertés, probablement Grushnak.
+Il a également dit que le seul moyen d'accéder au pic et de désactiver le bouclier est de passer par les "tunnels visqueux", situés quelque part dans l'une des Fiertés, probablement Grushnak.
 ]], "_t")
 t("Thanks, my lady. I have not been able to find all of the orbs of command in my travels; could you have some of your men search for me?", "Merci, ma dame. Je n'ai pas été en mesure de trouver toutes les orbes de commandes dans mes voyages ; pourriez-vous demander à certains de vos hommes de chercher pour moi ?", "_t")
 t("Thanks, my lady. I will look for the tunnel and venture inside the Peak.", "Merci, ma dame. Je vais chercher le tunnel et m'aventurer à l'intérieur du Pic.", "_t")
@@ -4729,7 +4729,7 @@ t("natural mucus", "mucus naturel", "damage type")
 t("disarming acid", "acide désarmant", "damage type")
 t("%s resists disarming!", "%s résiste au désarmement !", "logSeen")
 t("corrosive acid", "acide corrosif", "damage type")
-t("bouncing slime", "vase rebondissante", "damage type")
+t("bouncing slime", "visqueux rebondissant", "damage type")
 t("caustic mire", "bourbier caustique", "damage type")
 t("sun path", "chemin solaire", "damage type")
 t("telekinetic shove", "poussée télékinétique", "damage type")
@@ -5067,7 +5067,7 @@ t("Stairs lead downwards into rubble.", "Les escaliers mènent plus bas dans des
 section "mod-tome/data/general/events/slimey-pool.lua"
 
 t("slimey pool", "piscine de vase", "_t")
-t("%s (slimey)", "%s (vaseux)", "tformat")
+t("%s (slimey)", "%s (visqueux)", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/sludgenest.lua"
@@ -5483,14 +5483,14 @@ t("dune", "dune", "entity type")
 section "mod-tome/data/general/grids/slime.lua"
 
 t("floor", "sol", "entity type")
-t("slime", "vase", "entity subtype")
-t("slime floor", "sol de vase", "entity name")
+t("slime", "gelée visqueuse", "entity subtype")
+t("slime floor", "sol de gelée visqueuse", "entity name")
 t("wall", "mur", "entity type")
-t("slime wall", "mur de vase", "entity name")
+t("slime wall", "mur de gelée visqueuse", "entity name")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
-t("slime door", "porte en vase", "entity name")
-t("open slime door", "porte en vase ouverte", "entity name")
+t("slime door", "porte en gelée visqueuse", "entity name")
+t("open slime door", "porte en gelée visqueuse ouverte", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/slimy_walls.lua"
@@ -6011,8 +6011,8 @@ t("devourer", "dévoreur", "entity name")
 t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "Une créature ronde, sans tête, avec des jambes et des bras trapus.  Son corps semble être composé uniquement de dents.", "_t")
 t("blade horror", "horreur tranchante", "entity name")
 t("Blades whirl in the air around this thin, floating figure. The air around it swirls with force, threatening to tear apart anything that approches, if the blades don't do it first.", "Des lames tourbillonnent dans l'air autour de cette mince silhouette flottante. L'air qui l'entoure tourbillonne avec force, menaçant de déchirer tout ce qui s'approche, si les lames ne le font pas avant.", "_t")
-t("oozing horror", "horreur gluante", "entity name")
-t("A massive, amorphous blob of green slime crawls on the ground towards you. Eyes drift through the viscous mass, scanning for potential prey.", "Une masse amorphe et massive de vase verte rampe vers vous. Les yeux dérivent à travers la masse visqueuse, cherchant une proie potentielle.", "_t")
+t("oozing horror", "horreur vaseuse", "entity name")
+t("A massive, amorphous blob of green slime crawls on the ground towards you. Eyes drift through the viscous mass, scanning for potential prey.", "Une masse amorphe et massive de visqueux verte rampe vers vous. Les yeux dérivent à travers la masse visqueuse, cherchant une proie potentielle.", "_t")
 t("umbral horror", "horreur ombrale", "entity name")
 t("A dark shifting shape stalks through the shadows, blending in seamlessly.", "Une forme sombre et changeante se faufile dans l'ombre, se fondant dans la masse.", "_t")
 t("dreaming horror", "horreur onirique", "entity name")
@@ -6309,31 +6309,31 @@ t("ogre", "ogre", "entity subtype")
 section "mod-tome/data/general/npcs/ooze.lua"
 
 t("vermin", "vermine", "entity type")
-t("oozes", "gluants", "entity subtype")
-t("It's colorful and it's oozing.", "C'est coloré, et c'est gluant.", "_t")
-t("green ooze", "gluant vert", "entity name")
-t("It's green and it's oozing.", "C'est vert, et c'est gluant", "_t")
-t("red ooze", "gluant rouge", "entity name")
-t("It's red and it's oozing.", "C'est rouge, et c'est gluant.", "_t")
-t("blue ooze", "gluant bleu", "entity name")
-t("It's blue and it's oozing.", "C'est bleu, et c'est gluant.", "_t")
-t("white ooze", "gluant blanc", "entity name")
-t("It's white and it's oozing.", "C'est blanc, et c'est gluant.", "_t")
-t("yellow ooze", "gluant jaune", "entity name")
-t("It's yellow and it's oozing.", "C'est jaune, et c'est gluant.", "_t")
-t("black ooze", "gluant noir", "entity name")
-t("It's black and it's oozing.", "C'est noir, et c'est gluant.", "_t")
+t("oozes", "vaseux", "entity subtype")
+t("It's colorful and it's oozing.", "C'est coloré, et c'est vaseux.", "_t")
+t("green ooze", "vaseux vert", "entity name")
+t("It's green and it's oozing.", "C'est vert, et c'est vaseux", "_t")
+t("red ooze", "vaseux rouge", "entity name")
+t("It's red and it's oozing.", "C'est rouge, et c'est vaseux.", "_t")
+t("blue ooze", "vaseux bleu", "entity name")
+t("It's blue and it's oozing.", "C'est bleu, et c'est vaseux.", "_t")
+t("white ooze", "vaseux blanc", "entity name")
+t("It's white and it's oozing.", "C'est blanc, et c'est vaseux.", "_t")
+t("yellow ooze", "vaseux jaune", "entity name")
+t("It's yellow and it's oozing.", "C'est jaune, et c'est vaseux.", "_t")
+t("black ooze", "vaseux noir", "entity name")
+t("It's black and it's oozing.", "C'est noir, et c'est vaseux.", "_t")
 t("gelatinous cube", "cube gélatineux", "entity name")
 t([[It is a strange, vast gelatinous structure that assumes cubic proportions as it lines all four walls of the corridors it patrols.
 Through its transparent jelly structure you can see treasures it has engulfed, and a few corpses as well.]], [[C'est une étrange et vaste structure gélatineuse qui prend des proportions cubiques en tapissant les quatre murs des couloirs qu'elle patrouille.
 À travers sa structure gélatineuse transparente, vous pouvez voir les trésors qu'elle a engloutis, ainsi que quelques cadavres.]], "_t")
-t("crimson ooze", "gluant cramoisi", "entity name")
-t("It's reddish and it's oozing.", "C'est rougeâtre, et c'est gluant.", "_t")
-t("brittle clear ooze", "gluant fragile et transparent", "entity name")
-t("It's translucent and it's oozing.", "C'est translucide, et c'est gluant.", "_t")
+t("crimson ooze", "vaseux cramoisi", "entity name")
+t("It's reddish and it's oozing.", "C'est rougeâtre, et c'est vaseux.", "_t")
+t("brittle clear ooze", "vaseux fragile et transparent", "entity name")
+t("It's translucent and it's oozing.", "C'est translucide, et c'est vaseux.", "_t")
 t("slimy ooze", "gluant vaseux", "entity name")
-t("It's very slimy and it's oozing.", "C'est très vaseux, et c'est gluant.", "_t")
-t("poison ooze", "gluant poisoneux", "entity name")
+t("It's very slimy and it's oozing.", "C'est très vaseux, et c'est vaseux.", "_t")
+t("poison ooze", "vaseux poisoneux", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/orc-gorbat.lua"
@@ -7520,8 +7520,8 @@ t("#LIGHT_GREEN#20%%#LAST# chance to create vines that bind the target to the gr
 t("%s resists the grasping vines!", "%s résiste aux vignes qui l'enserrent !", "logSeen")
 t("manaburning ", " de brûlure de mana", "entity name")
 t("manaburning", "brûlure de mana", "entity keyword")
-t("slimey ", "de vase ", "entity name")
-t("slime", "vase", "entity keyword")
+t("slimey ", "de visqueux ", "entity name")
+t("slime", "visqueux", "entity keyword")
 t(" of persecution", " de persécution", "entity name")
 t("persecution", "persécution", "entity keyword")
 t("inquisitor's ", "de l'inquisiteur ", "entity name")
@@ -8864,8 +8864,8 @@ t(" of enduring", " du durable", "entity name")
 t("enduring", "durable", "entity keyword")
 t("manaburning ", " de brûlure de mana", "entity name")
 t("manaburning", "brûlure de mana", "entity keyword")
-t("slime-covered ", "recouvert de vase ", "entity name")
-t("slime", "vase", "entity keyword")
+t("slime-covered ", "recouvert de visqueux ", "entity name")
+t("slime", "visqueux", "entity keyword")
 t(" of persecution", " de persécution", "entity name")
 t("persecution", "persécution", "entity keyword")
 t("inquisitor's ", "de l'inquisiteur ", "entity name")
@@ -9768,7 +9768,7 @@ t("generic acid corrode melee", "corrosion en mêlée d'acide générique", "ent
 t("generic mind expose melee", "exposition mentale en mêlée générique", "entity name")
 t("generic manaburn melee", "brûlure de mana en mêlée générique", "entity name")
 t("generic temporal energize melee", "énergie temporelle en mêlée générique", "entity name")
-t("generic slime melee", "vaseu en mêlée générique", "entity name")
+t("generic slime melee", "visqueux en mêlée générique", "entity name")
 t("generic dark numbing melee", "mêlée sombre et engourdissante générique", "entity name")
 t("generic die at", "mort générique à", "entity name")
 t("generic ignore crit", "ignorer crit générique", "entity name")
@@ -9799,7 +9799,7 @@ t("acid corrode melee", "mêlée d'acide corrosif", "entity name")
 t("light blind melee", "mêlée de lumière aveuglante", "entity name")
 t("lightning daze melee", "mêlée de foudre étourdissante", "entity name")
 t("manaburn melee", "mêlée de brûlure de mana", "entity name")
-t("slime melee", "mêlée de vase", "entity name")
+t("slime melee", "mêlée de visqueux", "entity name")
 t("dark numbing melee", "mêlée sombre et engourdissante", "entity name")
 t("physical burst", "explosion physique", "entity name")
 t("mind burst", "explosion mentale", "entity name")
@@ -9854,7 +9854,7 @@ t("temporal energize melee", "mêlée d'énergie temporelle", "entity name")
 t("expose mind melee", "mêlée d'exposition mentale", "entity name")
 t("acid corrode melee", "mêlée d'acide corrosif", "entity name")
 t("manaburn melee", "mêlée de brûlure de mana", "entity name")
-t("slime melee", "mêlée de vase", "entity name")
+t("slime melee", "mêlée de visqueux", "entity name")
 t("dark numbing melee", "mêlée sombre et engourdissante", "entity name")
 t("physical burst", "explosion physique", "entity name")
 t("mind burst", "explosion mentale", "entity name")
@@ -10786,7 +10786,7 @@ t("bone carved sceptre", "sceptre en os sculpté", "_t")
 t("This sceptre, carved of ancient, blackened bone, holds a single gem of deep obsidian. You feel a dark power from deep within, looking to get out.", "Ce sceptre, sculpté dans un os ancien et noirci, contient une seule pierre précieuse en obsidienne profonde. Vous ressentez une puissance sombre qui vient du plus profond de vous et qui cherche à sortir.", "_t")
 t("#LIGHT_BLUE#You feel the power of the sceptre flow over your undead form!", "#LIGHT_BLUE#Vous sentez le pouvoir du sceptre couler sur ta forme de mort-vivant !", "logPlayer")
 t("It desires to be surrounded by undeath.", "Il désire être entouré par la mort.", "_t")
-t("Oozing Heart", "Coeur gluant", "entity name")
+t("Oozing Heart", "Coeur Vaseux", "entity name")
 t("slimy mindstar", "étoile d'âme suintante", "_t")
 t("This mindstar oozes a thick, caustic liquid. Magic seems to die around it.", "Cette étoile d'âme suinte un liquide épais et caustique. La magie semble mourir autour d'elle.", "_t")
 t("#DARK_GREEN#The Heart pulses with antimagic forces as you grasp it.", "#DARK_GREEN#Le coeur pulse de forces anti-magiques lorsque vous le saisissez.", "logPlayer")
@@ -10853,7 +10853,7 @@ t("grows dramatically in power", "développe considérablement sa puissance", "_
 t("grows in power", "développe sa puissance", "_t")
 t("Corpathus bursts open, unleashing a horrific mass!", "Corpathus éclate, libérant une masse horrible !", "logSeen")
 t("Vilespawn", "Progéniture Infecte", "_t")
-t("This mass of putrid slime burst from Corpathus, and seems quite hungry.", "Cette masse de bave putride a éclaté de Corpathus, et semble très affamée.", "_t")
+t("This mass of putrid slime burst from Corpathus, and seems quite hungry.", "Cette masse de gelée visqueuse et putride a éclaté de Corpathus, et semble très affamée.", "_t")
 t("twisted blade", "lame torsadée", "_t")
 t("The eye on the hilt of this blade seems to glare at you, piercing your soul and mind. Tentacles surround the hilt, latching onto your hand.", "L'oeil sur la poignée de cette lame semble vous fixer, transperçant votre âme et votre esprit. Des tentacules entourent la poignée et s'accrochent à votre main.", "_t")
 t("torments the target with many mental effects", "tourmente la cible avec de nombreux effets mentaux", "_t")
@@ -10951,8 +10951,8 @@ t("Summon", "Invocation", "_t")
 t("charm", "breloque", "entity type")
 t("The Guardian's Totem", "Le Totem du Gardien", "entity name")
 t("a cracked stone totem", "un totem en pierre fissurée", "_t")
-t("This totem of ancient stone oozes a thick slime from myriad cracks. Nonetheless, you sense great power within it.", "Ce totem de pierre ancienne suinte une épaisse bave par des myriades de fissures. Néanmoins, vous sentez une grande puissance en lui.", "_t")
-t("call forth an immobile antimagic pillar for 10 turns.  (It spits slime, pulls in, stuns, and burns the arcane resources of your foes, while emitting an aura of silence against them within range 5, and will silence you for 5 turns when first summoned.)", "invoquer un pilier anti-magique immobile pour 10 tours.  (Il crache de la bave, attire, étourdit et brûle les ressources arcaniques de vos ennemis, tout en émettant une aura de silence contre eux dans un rayon de 5, et vous rendra silencieux pendant 5 tours lors de la première invocation).", "_t")
+t("This totem of ancient stone oozes a thick slime from myriad cracks. Nonetheless, you sense great power within it.", "Ce totem de pierre ancienne suinte une épaisse gelée visqueuse par des myriades de fissures. Néanmoins, vous sentez une grande puissance en lui.", "_t")
+t("call forth an immobile antimagic pillar for 10 turns.  (It spits slime, pulls in, stuns, and burns the arcane resources of your foes, while emitting an aura of silence against them within range 5, and will silence you for 5 turns when first summoned.)", "invoquer un pilier anti-magique immobile pour 10 tours. (Il crache de la gelée visqueuse, attire, étourdit et brûle les ressources arcaniques de vos ennemis, tout en émettant une aura de silence contre eux dans un rayon de 5, et vous rendra silencieux pendant 5 tours lors de la première invocation).", "_t")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
 t("Stone Guardian", "Gardien de Pierre", "_t")
 t("This massive stone pillar drips with a viscous slime. Nature's power flows through it, obliterating magic all around it...", "Cet énorme pilier de pierre dégouline d'une bave visqueuse. Le pouvoir de la nature coule à travers lui, oblitérant la magie tout autour de lui...", "_t")
@@ -11050,10 +11050,10 @@ His last known words were "Somehow this feels like an ending, yet I know there i
 Ses derniers mots connus étaient : "D'une certaine manière, cela ressemble à une fin, mais je sais qu'il y a tellement plus à découvrir."]], "_t")
 t("Eye of the Forest", "Oeil de la forêt", "entity name")
 t("overgrown leather cap", "chapeau de cuir envahissant", "_t")
-t("This leather cap is overgrown with a thick moss, except for around the very front, where an eye, carved of wood, rests. A thick green slime slowly pours from the corners of the eye, like tears.", "Ce chapeau en cuir est recouverte d'une épaisse mousse, à l'exception de la partie avant, où repose un oeil sculpté dans le bois. Une épaisse bave verte s'écoule lentement des coins de l'oeil, comme des larmes.", "_t")
+t("This leather cap is overgrown with a thick moss, except for around the very front, where an eye, carved of wood, rests. A thick green slime slowly pours from the corners of the eye, like tears.", "Ce chapeau en cuir est recouverte d'une épaisse gelée visqueuse, à l'exception de la partie avant, où repose un oeil sculpté dans le bois. Une épaisse bave verte s'écoule lentement des coins de l'oeil, comme des larmes.", "_t")
 t("Eyal's Will", "Volonté d'Eyal", "entity name")
 t("pale green mindstar", "étoile d'âme verte pâle", "_t")
-t("This smooth green crystal flows with a light green slime in its core. Droplets occasionally form on its surface, tufts of grass growing quickly on the ground where they fall.", "Ce cristal vert lisse se répend en une bave vert clair en son coeur. Des gouttelettes se forment occasionnellement à sa surface, des touffes d'herbe poussant rapidement sur le sol où elles tombent.", "_t")
+t("This smooth green crystal flows with a light green slime in its core. Droplets occasionally form on its surface, tufts of grass growing quickly on the ground where they fall.", "Ce cristal vert lisse se répend en une gelée visqueuse vert clair en son coeur. Des gouttelettes se forment occasionnellement à sa surface, des touffes d'herbe poussant rapidement sur le sol où elles tombent.", "_t")
 t("Evermoss Robe", "Robe Moussue", "entity name")
 t("fuzzy green robe", "robe verte pelucheuse", "_t")
 t("This thick robe is woven from a dark green moss, firmly bound and cool to the touch. It is said to have rejuvenating properties.", "Cette robe épaisse est tissée à partir d'une mousse vert foncé, solidement liée et fraîche au toucher. On lui attribue des propriétés rajeunissantes.", "_t")
@@ -18459,7 +18459,7 @@ t("Falling Toward Apotheosis", "Vers l'apothéose", "_t")
 t("You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "Vous avez vaincu les maîtres des fiertés orcs. Vous devez maintenant vous aventurer dans le lieu le plus dangereux de ce monde : le Pic Supérieur.", "_t")
 t("Seek the Sorcerers and stop them before they bend the world to their will.", "Traquez les sorciers et arrêtez-les avant qu'ils ne plient le monde à leur volonté.", "_t")
 t("To enter, you will need the four orbs of command to remove the shield over the peak.", "Pour entrer, vous aurez besoin des quatre orbes de commande afin de dissiper le bouclier qui protège le pic.", "_t")
-t("The entrance to the peak passes through a place called 'the slime tunnels', probably located inside or near Grushnak Pride.", "L'entrée du pic passe par un lieu appelé \"les tunnels de boue\", probablement situé à l'intérieur ou à proximité de La Fierté Grushnak.", "_t")
+t("The entrance to the peak passes through a place called 'the slime tunnels', probably located inside or near Grushnak Pride.", "L'entrée du pic passe par un lieu appelé \"les tunnels visqueux\", probablement situé à l'intérieur ou à proximité de La Fierté Grushnak.", "_t")
 t("You have reached the summit of the High Peak, entered the sanctum of the Sorcerers and destroyed them, freeing the world from the threat of evil.", "Vous avez atteint le sommet du Pic Supérieur, pénétré dans le sanctuaire des sorciers et les avez détruits, libérant ainsi le monde de la menace du mal.", "_t")
 t("You have won the game!", "Vous avez gagné la partie !", "_t")
 t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall. You were forced to kill her.#LAST#", "#LIGHT_GREEN#* Vous avez rencontré Aeryn, la Paladine Solaire, qui vous reprochait la perte du Mur Solaire. Vous avez été obligé de la tuer.#LAST#", "_t")
@@ -23102,52 +23102,48 @@ t("You have become a keen observer in your travels. Each kill gives you %d%% mor
 section "mod-tome/data/talents/gifts/antimagic.lua"
 
 t("Resolve", "Détermination", "talent name")
-t("%s resists the silence!", "%s résiste au silence !", "logSeen")
-t("Mana Clash", "Choc de Mana", "talent name")
--- texte non traduit
---[==[
 t([[You stand in the way of magical damage. That which does not kill you will make you stronger.
 		When you are hit by hostile non-physical, non-mind damage you gain %d%% resistance to that element for 7 turns.
 		At talent level 3, the bonus resistance may apply to 3 elements, refreshing the duration with each element added.
 		Additionally, each time you take non-physical, non-mind damage, your equilibrium will decrease and stamina increase by %0.2f.
-		The effects will increase with the greater of your Mindpower or Physical power and the bonus resistance can be a mental crit.]], [[You stand in the way of magical damage. That which does not kill you will make you stronger.
-		When you are hit by hostile non-physical, non-mind damage you gain %d%% resistance to that element for 7 turns.
-		At talent level 3, the bonus resistance may apply to 3 elements, refreshing the duration with each element added.
-		Additionally, each time you take non-physical, non-mind damage, your equilibrium will decrease and stamina increase by %0.2f.
-		The effects will increase with the greater of your Mindpower or Physical power and the bonus resistance can be a mental crit.]], "tformat")
-t("Antimagic Zone", "Antimagic Zone", "talent name")
+		The effects will increase with the greater of your Mindpower or Physical power and the bonus resistance can be a mental crit.]], [[Vous vous dressez face aux dégâts magiques. Ce qui ne vous tue pas vous rend plus fort.
+		Lorsque vous êtes touché par des dégâts hostiles non physiques et non mentaux, vous gagnez %d%% de résistance à cet élément pendant 7 tours.
+		Au niveau de talent 3, ce bonus de résistance peut s'appliquer à 3 éléments simultanément, la durée se réinitialisant à chaque nouvel élément ajouté.
+		De plus, chaque fois que vous subissez des dégâts non physiques et non mentaux, votre équilibre diminue et votre endurance augmente de %0.2f.
+		Les effets augmentent selon la valeur la plus élevée entre votre Puissances Mentale et votre Puissance Physique, et le bonus de résistance peut infliger un coup critique mental.]], "tformat")
+t("Antimagic Zone", "Zone anti-magique", "talent name")
+t("%s resists the silence!", "%s résiste au silence !", "logSeen")
 t([[Let out a burst of sound that silences for %d turns all those affected in a radius of %d.
 		Each turn for %d turns the effected area will cause %0.2f manaburn damage to all creatures inside.
 		For each creature silenced your equilibrium is reduced by %d (up to 5 times).
 		The damage and apply power will increase with the greater of your Mindpower or Physical power.
 
-		Learning this talent will let your Nature damage and penetration bonuses apply to all Manaburn damage regardless of source.]], [[Let out a burst of sound that silences for %d turns all those affected in a radius of %d.
-		Each turn for %d turns the effected area will cause %0.2f manaburn damage to all creatures inside.
-		For each creature silenced your equilibrium is reduced by %d (up to 5 times).
-		The damage and apply power will increase with the greater of your Mindpower or Physical power.
+		Learning this talent will let your Nature damage and penetration bonuses apply to all Manaburn damage regardless of source.]], [[Vous libérez une déflagration sonore qui réduit au silence pendant %d tours toutes les cibles touchées dans un rayon de %d.
+		À chaque tour pendant %d tours, la zone affectée inflige %0.2f dégâts de brûlure de mana à toutes les créatures qui s'y trouvent.
+		Pour chaque créature réduite au silence, votre équilibre est réduit de %d (jusqu'à 5 fois).
+		Les dégâts et la puissance d'application augmentent selon la valeur la plus élevée entre votre Puissances Mentale et votre Puissance Physique.
 
-		Learning this talent will let your Nature damage and penetration bonuses apply to all Manaburn damage regardless of source.]], "tformat")
-t("Antimagic Shield", "Antimagic Shield", "talent name")
-t("#GREEN#The antimagic shield of %s crumbles.", "#GREEN#The antimagic shield of %s crumbles.", "logSeen")
+		Apprendre ce talent permet à vos bonus de dégâts et de pénétration de nature de s'appliquer à tous les dégâts de brûlure de mana, quelle qu'en soit la source.]], "tformat")
+t("Antimagic Shield", "Bouclier Anti-Magie", "talent name")
+t("#GREEN#The antimagic shield of %s crumbles.", "#GREEN#Le bouclier anti-magie de %s se désintègre.", "logSeen")
 t([[Surround yourself with a shield that will absorb at most %d non-physical, non-mind element damage per attack.
 		Each time damage is absorbed by the shield, your equilibrium increases by 1 for every 30 points of damage and a standard Equilibrium check is made. If the check fails, the shield will crumble and Antimagic Shield will go on cooldown.
-		The damage the shield can absorb will increase with your Mindpower or Physical power (whichever is greater).]], [[Surround yourself with a shield that will absorb at most %d non-physical, non-mind element damage per attack.
-		Each time damage is absorbed by the shield, your equilibrium increases by 1 for every 30 points of damage and a standard Equilibrium check is made. If the check fails, the shield will crumble and Antimagic Shield will go on cooldown.
-		The damage the shield can absorb will increase with your Mindpower or Physical power (whichever is greater).]], "tformat")
+		The damage the shield can absorb will increase with your Mindpower or Physical power (whichever is greater).]], [[Vous vous entourez d'un bouclier qui absorbe au maximum %d dégâts élémentaires non physiques et non mentaux par attaque.
+		Chaque fois que des dégâts sont absorbés par le bouclier, votre équilibre augmente de 1 tous les 30 points de dégâts subis et un test d'équilibre standard est effectué. En cas d'échec, le bouclier se désintègre et Bouclier Anti-Magie entre en temps de recharge.
+		Les dégâts que le bouclier peut absorber augmentent selon la valeur la plus élevée entre votre Puissances Mentale et votre Puissance Physique.]], "tformat")
+t("Mana Clash", "Choc de Mana", "talent name")
 t("\
 #GREEN#Antimagic Adept:  #LAST#4 magical sustains from the target will be removed.", "\
-#GREEN#Antimagic Adept:  #LAST#4 magical sustains from the target will be removed.", "_t")
+#GREEN#Adepte de l'Anti-Magie : #LAST#4 talents magiques soutenus de la cible seront supprimés.", "_t")
 t([[Drain %d mana, %d vim, %d positive and negative energies from your target, triggering a chain reaction that explodes in a burst of arcane damage.
 		The damage done is equal to 100%% of the mana drained, 200%% of the vim drained, or 400%% of the positive or negative energy drained, whichever is higher. This effect is called a manaburn.
 		The effect will increase with your Mindpower or Physical power (whichever is greater).
-		%s]], [[Drain %d mana, %d vim, %d positive and negative energies from your target, triggering a chain reaction that explodes in a burst of arcane damage.
-		The damage done is equal to 100%% of the mana drained, 200%% of the vim drained, or 400%% of the positive or negative energy drained, whichever is higher. This effect is called a manaburn.
-		The effect will increase with your Mindpower or Physical power (whichever is greater).
+		%s]], [[Vous drainez %d mana, %d force vitale, %d énergie positive et négative à votre cible, déclenchant une réaction en chaîne qui explose en une décharge de dégâts profanes.
+		Les dégâts infligés sont égaux à 100%% du mana drainé, 200%% de la force vitale drainée, ou 400%% de l'énergie positive ou négative drainée (la valeur la plus élevée étant retenue). Cet effet est appelé une brûlure de mana.
+		L'effet augmente selon la valeur la plus élevée entre votre Puissances Mentale et votre Puissance Physique.
 		%s]], "tformat")
-t("Antimagic Adept", "Antimagic Adept", "talent name")
-t("Your Mana Clash talent also removes 4 magical sustains from the target.", "Your Mana Clash talent also removes 4 magical sustains from the target.", "tformat")
---]==]
-
+t("Antimagic Adept", "Adepte de l'Anti-Magie", "talent name")
+t("Your Mana Clash talent also removes 4 magical sustains from the target.", "Votre talent Choc de Mana supprime également 4 talents magiques soutenus de la cible.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/call.lua"
@@ -23216,36 +23212,32 @@ t([[You breathe ice in a frontal cone of radius %d. Any target caught in the are
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/corrosive-blades.lua"
 
-t("Corrosive Nature", "Nature Corrosive", "talent name")
-t("trap", "piège", "_t")
-t("You somehow fail to set the corrosive seed.", "Vous échouez d'une manière ou d'une autre à poser la graine corrosive.", "logPlayer")
--- texte non traduit
---[==[
-t("Acidbeam", "Acidbeam", "talent name")
+t("Acidbeam", "Rayon Acide", "talent name")
 t([[Channel acid through your psiblades, extending their reach to create a beam doing %0.1f Acid damage (which can disarm them).
-		The damage increases with your Mindpower.]], [[Channel acid through your psiblades, extending their reach to create a beam doing %0.1f Acid damage (which can disarm them).
-		The damage increases with your Mindpower.]], "tformat")
+		The damage increases with your Mindpower.]], [[Canalise de l'acide à travers vos Lames psi, étendant leur portée pour créer un rayon infligeant %0.1f dégâts d'Acide (pouvant les désarmer).
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Corrosive Nature", "Nature Corrosive", "talent name")
 t([[You gain %d%% Acid resistance.
 		When you deal Nature damage to a creature, you gain a %0.1f%% bonus to Acid damage for %d turns.
 		This damage bonus will improve up to 4 times (no more than once each turn) with later Nature damage you do, up to a maximum of %0.1f%%.
-		The resistance and damage increase improve with your Mindpower.]], [[You gain %d%% Acid resistance.
-		When you deal Nature damage to a creature, you gain a %0.1f%% bonus to Acid damage for %d turns.
-		This damage bonus will improve up to 4 times (no more than once each turn) with later Nature damage you do, up to a maximum of %0.1f%%.
-		The resistance and damage increase improve with your Mindpower.]], "tformat")
-t("Corrosive Seeds", "Corrosive Seeds", "talent name")
+		The resistance and damage increase improve with your Mindpower.]], [[Vous gagnez %d%% de résistance à l'Acide.
+		Lorsque vous infligez des dégâts de nature à une créature, vous gagnez un bonus de %0.1f%% dégâts d'Acide pendant %d tours.
+		Ce bonus de dégâts s'améliore jusqu'à 4 fois (pas plus d'une fois par tour) avec les dégâts de nature ultérieurs que vous infligez, jusqu'à un maximum de %0.1f%%.
+		La résistance et l'augmentation des dégâts s'améliorent avec votre Puissance Mentale.]], "tformat")
+t("trap", "piège", "_t")
+t("Corrosive Seeds", "Graines Corrosives", "talent name")
+t("You somehow fail to set the corrosive seed.", "Vous échouez d'une manière ou d'une autre à poser la graine corrosive.", "logPlayer")
 t([[You focus on a target zone of radius 2 to make up to %d corrosive seeds appear.
 		The first seed will appear at the center of the target zone, while others will appear at random spots.
 		Each seed lasts %d turns and will explode when a hostile creature walks over it, knocking the creature back and dealing %0.1f Acid damage within radius 1.
-		The damage will increase with your Mindpower.]], [[You focus on a target zone of radius 2 to make up to %d corrosive seeds appear.
-		The first seed will appear at the center of the target zone, while others will appear at random spots.
-		Each seed lasts %d turns and will explode when a hostile creature walks over it, knocking the creature back and dealing %0.1f Acid damage within radius 1.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Acidic Soil", "Acidic Soil", "talent name")
+		The damage will increase with your Mindpower.]], [[Vous vous concentrez sur une zone cible de rayon 2 pour faire apparaître jusqu'à %d graines corrosives.
+		La première graine apparaîtra au centre de la zone cible, tandis que les autres apparaîtront à des endroits aléatoires.
+		Chaque graine dure %d tours et explosera lorsqu'une créature hostile marchera dessus, repoussant la créature et infligeant %0.1f dégâts d'Acide dans un rayon de 1.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Acidic Soil", "Sol Acide", "talent name")
 t([[Surround yourself with natural forces, ignoring %d%% acid resistance of your targets.
-		In addition, the acid will nourish your bloated oozes, giving them an additional %0.1f life regeneration per turn.]], [[Surround yourself with natural forces, ignoring %d%% acid resistance of your targets.
-		In addition, the acid will nourish your bloated oozes, giving them an additional %0.1f life regeneration per turn.]], "tformat")
---]==]
-
+		In addition, the acid will nourish your bloated oozes, giving them an additional %0.1f life regeneration per turn.]], [[Vous vous entourez de forces naturelles, ignorant %d%% de résistance à l'acide de vos cibles.
+		De plus, l'acide nourrira vos vases gonflées, leur accordant %0.1f de régénération de vie supplémentaire par tour.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/dwarven-nature.lua"
@@ -23367,42 +23359,37 @@ t([[Merge your target (within range %d) with one of your stone vines that has se
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/eyals-fury.lua"
 
-
--- texte non traduit
---[==[
-t("Reclaim", "Reclaim", "talent name")
+t("Reclaim", "Réclamation", "talent name")
 t([[You focus the inexorable pull of nature against a single creature, eroding it and allowing it to be reclaimed by the cycle of life.
 		This deals %0.1f Nature and %0.1f Acid damage to the target, and is particularly devastating against undead and constructs, dealing %d%% more damage to them.
-		The damage increases with your Mindpower.]], [[You focus the inexorable pull of nature against a single creature, eroding it and allowing it to be reclaimed by the cycle of life.
-		This deals %0.1f Nature and %0.1f Acid damage to the target, and is particularly devastating against undead and constructs, dealing %d%% more damage to them.
-		The damage increases with your Mindpower.]], "tformat")
-t("Nature's Defiance", "Nature's Defiance", "talent name")
+		The damage increases with your Mindpower.]], [[Vous concentrez l'attraction inexorable de la nature contre une seule créature, l'érodant pour la forcer à être réintégrée dans le cycle de la vie.
+		Cela inflige %0.1f dégâts de nature et %0.1f dégâts d'acide à la cible, et s'avère particulièrement dévastateur contre les morts-vivants et les créations magiques, leur infligeant %d%% dégâts supplémentaires.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Nature's Defiance", "Défiance de la Nature", "talent name")
 t([[Your devotion to nature has made your body more attuned to the natural world and resistant to unnatural energies.
 		You gain %d Spell save, %0.1f%% Arcane resistance, and %0.1f%% Nature damage affinity.
 		You defy arcane forces, so that any time you take damage from a spell, you restore %0.1f Equilibrium each turn for %d turns.
-		The effects increase with your Mindpower.]], [[Your devotion to nature has made your body more attuned to the natural world and resistant to unnatural energies.
-		You gain %d Spell save, %0.1f%% Arcane resistance, and %0.1f%% Nature damage affinity.
-		You defy arcane forces, so that any time you take damage from a spell, you restore %0.1f Equilibrium each turn for %d turns.
-		The effects increase with your Mindpower.]], "tformat")
-t("Acidfire", "Acidfire", "talent name")
-t("Acidfire cloud", "Acidfire cloud", "_t")
+		The effects increase with your Mindpower.]], [[Votre dévotion envers la nature a harmonisé votre corps avec le monde naturel, le rendant résistant aux énergies impies.
+		Vous gagnez %d en sauvegarde magique, %0.1f%% de résistance aux arcanes, et %0.1f%% d'affinité aux dégâts de nature.
+		Vous défiez les forces arcaniques : chaque fois que vous subissez les dégâts d'un sort, vous récupérez %0.1f d'équilibre à chaque tour pendant %d tours.
+		Les effets sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Acidfire", "Feu acide", "talent name")
+t("Acidfire cloud", "Nuage de feu acide", "_t")
 t([[You call upon the earth to create a blinding, corrosive cloud in an area of radius %d for %d turns.
 		Each turn, this cloud deals %0.1f acid damage to each foe with a 25%% chance to blind and a %d%% chance of burning away one magical sustain or beneficial magical effect.
-		The damage increases with your Mindpower.]], [[You call upon the earth to create a blinding, corrosive cloud in an area of radius %d for %d turns.
-		Each turn, this cloud deals %0.1f acid damage to each foe with a 25%% chance to blind and a %d%% chance of burning away one magical sustain or beneficial magical effect.
-		The damage increases with your Mindpower.]], "tformat")
-t("Eyal's Wrath", "Eyal's Wrath", "talent name")
-t("#CRIMSON#%s drains magical energy!", "#CRIMSON#%s drains magical energy!", "tformat")
-t("Eyal's Wrath", "Eyal's Wrath", "_t")
+		The damage increases with your Mindpower.]], [[Vous invoquez la terre pour créer un nuage aveuglant et corrosif dans un rayon de %d pendant %d tours.
+		À chaque tour, ce nuage inflige %0.1f dégâts d'acide à chaque ennemi, avec 25%% de chances de l'aveugler et %d%% de chances de consumer un talent magique soutenu ou un effet magique bénéfique.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Eyal's Wrath", "Furie d'Eyal", "talent name")
+t("#CRIMSON#%s drains magical energy!", "#CRIMSON#%s draine l'énergie magique !", "tformat")
+t("Eyal's Wrath", "Furie d'Eyal", "_t")
 t([[You draw deeply from your connection with nature to create a radius %d storm of natural forces around you for %d turns.
 		This storm moves with you and deals %0.1f Nature damage each turn to all foes it hits.
 		In addtion, it will drain up to %d Mana, %d Vim, %d Positive, and %d Negative energy from each enemy within it's area every turn, while you restore Equilibrium equal to 10%% of the amount drained.
-		The damage and drain increase with your Mindpower.]], [[You draw deeply from your connection with nature to create a radius %d storm of natural forces around you for %d turns.
-		This storm moves with you and deals %0.1f Nature damage each turn to all foes it hits.
-		In addtion, it will drain up to %d Mana, %d Vim, %d Positive, and %d Negative energy from each enemy within it's area every turn, while you restore Equilibrium equal to 10%% of the amount drained.
-		The damage and drain increase with your Mindpower.]], "tformat")
---]==]
-
+		The damage and drain increase with your Mindpower.]], [[Vous puisez au plus profond de votre lien avec la nature pour générer une tempête de forces naturelles d'un rayon de %d autour de vous pendant %d tours.
+		Cette tempête se déplace avec vous et inflige %0.1f dégâts de nature à chaque tour à tous les ennemis touchés.
+		De plus, elle draine jusqu'à %d de mana, %d de souillure, %d d'énergie positive, et %d d'énergie négative de chaque ennemi situé dans la zone à chaque tour, tout en restaurant votre équilibre à hauteur de 10%% de la quantité drainée.
+		Les dégâts et le drainage sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/fire-drake.lua"
@@ -23444,34 +23431,29 @@ t([[You breathe fire in a frontal cone of radius %d. Any target caught in the ar
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/fungus.lua"
 
-
--- texte non traduit
---[==[
-t("Wild Growth", "Wild Growth", "talent name")
+t("Wild Growth", "Croissance Sauvage", "talent name")
 t([[Surround yourself with a myriad of tiny, nearly invisible, reinforcing fungi.
 		You gain %d maximum life and %d life regeneration.
-		The effects will increase with your Willpower.]], [[Surround yourself with a myriad of tiny, nearly invisible, reinforcing fungi.
-		You gain %d maximum life and %d life regeneration.
-		The effects will increase with your Willpower.]], "tformat")
-t("Fungal Growth", "Fungal Growth", "talent name")
+		The effects will increase with your Willpower.]], [[Vous vous entourez d'une myriade de champignons microscopiques, presque invisibles, qui renforcent votre constitution.
+		Vous gagnez %d points de vie maximaux et %d de régénération de vie.
+		Les effets sont proportionnels à votre Volonté.]], "tformat")
+t("Fungal Growth", "Croissance Fongique", "talent name")
 t([[The fungus on your body allows regeneration effects to last longer.
 		Each time you gain a beneficial effect with the regeneration subtype you increase its duration by %d%% + 1 rounded up.
-		The effect will increase with your Mindpower.]], [[The fungus on your body allows regeneration effects to last longer.
-		Each time you gain a beneficial effect with the regeneration subtype you increase its duration by %d%% + 1 rounded up.
-		The effect will increase with your Mindpower.]], "tformat")
-t("Ancestral Life", "Ancestral Life", "talent name")
-t("#LIGHT_GREEN##Source# gains %d%%%% of a turn from Ancestral Life.#LAST#", "#LIGHT_GREEN##Source# gains %d%%%% of a turn from Ancestral Life.#LAST#", "logCombat")
+		The effect will increase with your Mindpower.]], [[Les champignons qui recouvrent votre corps permettent aux effets de régénération de durer plus longtemps.
+		Chaque fois que vous bénéficiez d'un effet positif de type régénération, sa durée est augmentée de %d%% + 1 (arrondi au supérieur).
+		L'effet est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Ancestral Life", "Vie Ancestrale", "talent name")
+t("#LIGHT_GREEN##Source# gains %d%%%% of a turn from Ancestral Life.#LAST#", "#LIGHT_GREEN##Source# gagne %d%%%% d'un tour grâce à Vie Ancestrale.#LAST#", "logCombat")
 t([[Your fungus reaches into the primordial ages of the world, granting you ancient instincts.
 		Each time you receive non-regeneration healing you gain %0.1f%% of a turn per 100 life healed.  This effect can't add energy past 2 stored turns and overhealing is not counted.
 		Also, regeneration effects on you will decrease your equilibrium by %0.1f each turn.
-		The turn gain increases with your Mindpower.]], [[Your fungus reaches into the primordial ages of the world, granting you ancient instincts.
-		Each time you receive non-regeneration healing you gain %0.1f%% of a turn per 100 life healed.  This effect can't add energy past 2 stored turns and overhealing is not counted.
-		Also, regeneration effects on you will decrease your equilibrium by %0.1f each turn.
-		The turn gain increases with your Mindpower.]], "tformat")
-t("Sudden Growth", "Sudden Growth", "talent name")
-t("A wave of energy passes through your fungus, making it release immediate healing energies on you, healing you for %d%% of your current life regeneration rate (#GREEN#%d#LAST#).", "A wave of energy passes through your fungus, making it release immediate healing energies on you, healing you for %d%% of your current life regeneration rate (#GREEN#%d#LAST#).", "tformat")
---]==]
-
+		The turn gain increases with your Mindpower.]], [[Vos champignons puisent dans les âges primordiaux du monde, vous octroyant des instincts anciens.
+		Chaque fois que vous recevez un soin direct (hors régénération), vous gagnez %0.1f%% d'un tour par tranche de 100 points de vie récupérés. Cet effet ne peut pas accumuler plus de 2 tours d'avance et l'excès de soin (overheal) n'est pas comptabilisé.
+		De plus, les effets de régénération actifs sur vous diminuent votre équilibre de %0.1f par tour.
+		Le gain de tour est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Sudden Growth", "Croissance soudaine", "talent name")
+t("A wave of energy passes through your fungus, making it release immediate healing energies on you, healing you for %d%% of your current life regeneration rate (#GREEN#%d#LAST#).", "Une vague d'énergie traverse vos champignons, leur faisant libérer des forces curatives immédiates qui vous soignent à hauteur de %d%% de votre taux de régénération de vie actuel (#GREEN#%d#LAST#).", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/gifts.lua"
@@ -23493,8 +23475,8 @@ t("summoning (augmentation)", "invocation (augmentation)", "talent type")
 t("The art of manipulating the lifespan and location of your summons.", "L'art de manipuler la durée de vie et l'emplacement de vos invocations.", "_t")
 t("summoning (advanced)", "invocation (avancé)", "talent type")
 t("The art of improving the quality of your summons.", "L'art d'améliorer la qualité de vos invocations.", "_t")
-t("slime", "vase", "talent type")
-t("Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "À force de consommer du jus de moisissure de slime, vous avez développé une affinité avec les vasaards.", "_t")
+t("slime", "visqueux", "talent type")
+t("Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "À force de consommer du jus de moisissure de visqueux, vous avez développé une affinité avec les vasaards.", "_t")
 t("fungus", "Champignons", "talent type")
 t("By covering yourself in fungus, you better your healing.", "En vous couvrant de champignons, vous améliorez vos capacités de guérison.", "_t")
 t("sand drake aspect", "aspect du dragon de sable", "talent type")
@@ -23512,14 +23494,14 @@ t("Take on the aspects of aged and powerful dragons.", "Adoptez les caractérist
 t("mindstar mastery", "maîtrise des étoiles d'âme", "talent type")
 t("Learn to channel your mental power through mindstars, forming powerful psionic blades.", "Apprenez à canaliser votre puissance mentale à travers les étoiles d'âme, formant ainsi de redoutables lames psioniques.", "_t")
 t("Cover the floor with natural mucus.", "Couvrez le sol de mucus naturel.", "_t")
-t("ooze", "gluant", "talent type")
-t("Your body and internal organs are becoming more ooze-like in nature, allowing you to spawn more of you.", "Votre corps et vos organes internes adoptent une nature de plus en plus gélatineuse, vous permettant de générer des répliques de vous-même.", "_t")
+t("ooze", "vaseux", "talent type")
+t("Your body and internal organs are becoming more ooze-like in nature, allowing you to spawn more of you.", "Votre corps et vos organes internes adoptent une nature de plus en plus vaseuse, vous permettant de générer des répliques de vous-même.", "_t")
 t("moss", "mousse", "talent type")
 t("You learn to control moss, making it grow at will to help you on the battlefield.", "Vous apprenez à contrôler la mousse, la faisant croître à volonté pour vous aider sur le champ de bataille.", "_t")
 t("malleable body", "corps malléable", "talent type")
 t("Your body's anatomy is starting to blur.", "L'anatomie de votre corps commence à perdre de sa consistance.", "_t")
-t("oozing blades", "lames de gluant", "talent type")
-t("You channel ooze through your psiblades.", "Vous canalisez du gluant à travers vos lames psychiques.", "_t")
+t("oozing blades", "lames de vaseux", "talent type")
+t("You channel ooze through your psiblades.", "Vous canalisez de la vase à travers vos lames psychiques.", "_t")
 t("corrosive blades", "lames corrosives", "talent type")
 t("You channel acid through your psiblades.", "Vous canalisez l'acide à travers vos lames psychiques.", "_t")
 t("eyal's fury", "fureur d'Eyal", "talent type")
@@ -23610,37 +23592,36 @@ t([[You have gained the full power of the various drakes throughout the world, a
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/malleable-body.lua"
 
-
--- texte non traduit
---[==[
-t("azdadazdazdazd", "azdadazdazdazd", "talent name")
 t([[Your body is more like that of an ooze, you can split into two for %d turns.
 		Your original self has the original ooze aspect while your mitosis gains the acid aspect.
 		If you know the Oozing Blades tree all the talents inside are exchanged for those of the Corrosive Blades tree.
 		Your two selves share the same healthpool.
 		While you are split both of you gain %d%% all resistances.
-		Resistances will increase with Mindpower.]], [[Your body is more like that of an ooze, you can split into two for %d turns.
-		Your original self has the original ooze aspect while your mitosis gains the acid aspect.
-		If you know the Oozing Blades tree all the talents inside are exchanged for those of the Corrosive Blades tree.
-		Your two selves share the same healthpool.
-		While you are split both of you gain %d%% all resistances.
-		Resistances will increase with Mindpower.]], "tformat")
-t("ervevev", "ervevev", "talent name")
+		Resistances will increase with Mindpower.]], [[Votre corps ressemble davantage à celui d'une substance vaseuse : vous pouvez vous diviser en deux pendant %d tours.
+		Votre forme d'origine conserve un aspect vase, tandis que votre double issu de la mitose acquiert un aspect acide.
+        Si vous maîtrisez l'arbre Lames de Vaseux alors tous les talents qu'il contient sont remplacés par ceux de l'arbre Lames Corrosives.
+        Vos deux formes partagent le même total de points de vie.
+        Tant que vous êtes divisé, vous bénéficiez tous les deux d'un bonus de %d%% à toutes les résistances.
+        Les résistances sont proportionnels à votre Puissance Mentale.]], "tformat")
 t([[Improve your fungus to allow it to take a part of any healing you receive and improve it.
 		Each time you are healed you get a regeneration effect for 6 turns that heals you of %d%% of the direct heal you received.
-		The effect will increase with your Mindpower.]], [[Improve your fungus to allow it to take a part of any healing you receive and improve it.
-		Each time you are healed you get a regeneration effect for 6 turns that heals you of %d%% of the direct heal you received.
-		The effect will increase with your Mindpower.]], "tformat")
-t("zeczczeczec", "zeczczeczec", "talent name")
+		The effect will increase with your Mindpower.]], [[Améliorez vos champignons pour leur permettre de tirer parti de tout soin que vous recevez et de le renforcer.
+        Chaque fois que vous êtes soigné, vous bénéficiez d’un effet de régénération pendant 6 tours qui vous soigne à hauteur de %d%% des soins directs que vous avez reçus.
+        Cet effet est proportionnel à votre Puissance Mentale.]], "tformat")
 t([[Both of you swap place in an instant, creatures attacking one will target the other.
 		While swaping you briefly merge together, boosting all your nature and acid damage by %d%% for 6 turns and healing you for %d.
-		Damage and healing increase with Mindpower.]], [[Both of you swap place in an instant, creatures attacking one will target the other.
-		While swaping you briefly merge together, boosting all your nature and acid damage by %d%% for 6 turns and healing you for %d.
-		Damage and healing increase with Mindpower.]], "tformat")
-t("Indiscernible Anatomyblabla", "Indiscernible Anatomyblabla", "talent name")
+		Damage and healing increase with Mindpower.]], [[Vous échangez vos places en un instant : les créatures qui attaquent l'un d'entre vous prendront l'autre pour cible.
+        Lors de cet échange, vous ne faites plus qu'un l'espace d'un instant, ce qui augmente tous vos dégâts de nature et d'acide de %d%% pendant 6 tours et vous soigne de %d.
+        Les dégâts et les soins sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Indiscernible Anatomyblabla", "Anatomyblabla Incompréhensible", "talent name")
 t([[Your body's internal organs are melted together, making it much harder to suffer critical hits.
-		All direct critical hits (physical, mental, spells) against you have a %d%% chance to instead do their normal damage.]], [[Your body's internal organs are melted together, making it much harder to suffer critical hits.
-		All direct critical hits (physical, mental, spells) against you have a %d%% chance to instead do their normal damage.]], "tformat")
+		All direct critical hits (physical, mental, spells) against you have a %d%% chance to instead do their normal damage.]], [[Les organes internes de votre corps sont fusionnés, ce qui rend beaucoup plus difficile de subir des coups critiques.
+        Tous les coups critiques directs (physiques, mentaux, sorts) qui te sont infligés ont %d%% de chances d'infliger à la place leurs dégâts normaux.]], "tformat")
+-- texte non traduit
+--[==[
+t("azdadazdazdazd", "azdadazdazdazd", "talent name")
+t("ervevev", "ervevev", "talent name")
+t("zeczczeczec", "zeczczeczec", "talent name")
 --]==]
 
 
@@ -23679,122 +23660,115 @@ t([[You hit a foe with your mainhand psiblade doing %d%% weapon damage, channeli
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/moss.lua"
 
+t("Grasping Moss", "Mousse Paralysante", "talent name")
+t([[Instantly grow a moss circle of radius %d at your feet.
+		Each turn the moss deals %0.2f nature damage to each foe within its radius.
+		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.
+		The moss lasts %d turns.
+		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
+		The damage will increase with your Mindpower.]], [[Fait instantanément pousser un cercle de mousse de rayon %d à vos pieds.
+		À chaque tour, la mousse inflige %0.2f dégâts de nature à chaque ennemi dans son rayon.
+		Cette mousse est très épaisse et collante, faisant que tous les ennemis qui la traversent voient leur vitesse de déplacement réduite de %d%% et ont %d%% de chance d'être immobilisés au sol pendant 4 tours.
+		La mousse dure %d tours.
+		Les talents de mousse sont instantanés mais mettent tous les autres talents de mousse en rechargement pendant 3 tours.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Nourishing Moss", "Mousse Nutritive", "talent name")
+t([[Instantly grow a moss circle of radius %d at your feet.
+		Each turn the moss deals %0.2f nature damage to each foe within its radius.
+		This moss has vampiric properties and heals the user for %d%% of the damage done.
+		The moss lasts %d turns.
+		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
+		The damage will increase with your Mindpower.]], [[Fait instantanément pousser un cercle de mousse de rayon %d à vos pieds.
+		À chaque tour, la mousse inflige %0.2f dégâts de nature à chaque ennemi dans son rayon.
+		Cette mousse a des propriétés vampiriques et soigne l'utilisateur de %d%% des dégâts infligés.
+		La mousse dure %d tours.
+		Les talents de mousse sont instantanés mais mettent tous les autres talents de mousse en rechargement pendant 3 tours.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 t("Slippery Moss", "Mousse Glissante", "talent name")
--- texte non traduit
---[==[
-t("Grasping Moss", "Grasping Moss", "talent name")
-t([[Instantly grow a moss circle of radius %d at your feet.
-		Each turn the moss deals %0.2f nature damage to each foe within its radius.
-		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.
-		The moss lasts %d turns.
-		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage will increase with your Mindpower.]], [[Instantly grow a moss circle of radius %d at your feet.
-		Each turn the moss deals %0.2f nature damage to each foe within its radius.
-		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.
-		The moss lasts %d turns.
-		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Nourishing Moss", "Nourishing Moss", "talent name")
-t([[Instantly grow a moss circle of radius %d at your feet.
-		Each turn the moss deals %0.2f nature damage to each foe within its radius.
-		This moss has vampiric properties and heals the user for %d%% of the damage done.
-		The moss lasts %d turns.
-		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage will increase with your Mindpower.]], [[Instantly grow a moss circle of radius %d at your feet.
-		Each turn the moss deals %0.2f nature damage to each foe within its radius.
-		This moss has vampiric properties and heals the user for %d%% of the damage done.
-		The moss lasts %d turns.
-		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage will increase with your Mindpower.]], "tformat")
 t([[Instantly grow a moss circle of radius %d at your feet.
 		Each turn the moss deals %0.2f nature damage to each foe within its radius.
 		This moss is very slippery and causes affected foes to have a %d%% chance of failing to perform complex actions.
 		The moss lasts %d turns.
 		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage and the chance to apply the slippery effect increase with your Mindpower.]], [[Instantly grow a moss circle of radius %d at your feet.
-		Each turn the moss deals %0.2f nature damage to each foe within its radius.
-		This moss is very slippery and causes affected foes to have a %d%% chance of failing to perform complex actions.
-		The moss lasts %d turns.
-		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage and the chance to apply the slippery effect increase with your Mindpower.]], "tformat")
-t("Hallucinogenic Moss", "Hallucinogenic Moss", "talent name")
+		The damage and the chance to apply the slippery effect increase with your Mindpower.]], [[Fait instantanément pousser un cercle de mousse de rayon %d à vos pieds.
+		À chaque tour, la mousse inflige %0.2f dégâts de nature à chaque ennemi dans son rayon.
+		Cette mousse est très glissante et fait que les ennemis affectés ont %d%% de chance d'échouer dans des actions complexes.
+		La mousse dure %d tours.
+		Les talents de mousse sont instantanés mais mettent tous les autres talents de mousse en rechargement pendant 3 tours.
+		Les dégâts et la chance d'appliquer l'effet glissant sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Hallucinogenic Moss", "Mousse Hallucinogène", "talent name")
 t([[Instantly grow a moss circle of radius %d at your feet.
 		Each turn the moss deals %0.2f nature damage to each foe within its radius.
 		This moss is coated with strange fluids and has a %d%% chance to confuse (power %d%%) foes passing through it for 2 turns.
 		The moss lasts %d turns.
 		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage will increase with your Mindpower.]], [[Instantly grow a moss circle of radius %d at your feet.
-		Each turn the moss deals %0.2f nature damage to each foe within its radius.
-		This moss is coated with strange fluids and has a %d%% chance to confuse (power %d%%) foes passing through it for 2 turns.
-		The moss lasts %d turns.
-		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage will increase with your Mindpower.]], "tformat")
---]==]
-
+		The damage will increase with your Mindpower.]], [[Fait instantanément pousser un cercle de mousse de rayon %d à vos pieds.
+		À chaque tour, la mousse inflige %0.2f dégâts de nature à chaque ennemi dans son rayon.
+		Cette mousse est recouverte de fluides étranges et a %d%% de chance de confondre (puissance %d%%) les ennemis qui la traversent pendant 2 tours.
+		La mousse dure %d tours.
+		Les talents de mousse sont instantanés mais mettent tous les autres talents de mousse en rechargement pendant 3 tours.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/mucus.lua"
 
-t("Acid Splash", "Éclaboussure d'Acide", "talent name")
--- texte non traduit
---[==[
-t("Mucus", "Mucus", "talent name")
 t([[For %d turns, you lay down mucus where you walk or stand.
 		The mucus is placed automatically every turn and lasts %d turns.
 		At talent level 4 or greater, the mucus will expand to a radius 1 area from where it is placed.
 		Your mucus will poison all foes crossing it, dealing %0.1f nature damage every turn for 5 turns (stacking).
 		In addition, each turn, you will restore %0.1f Equilibrium while in your own mucus, and other friendly creatures in your mucus will restore 1 Equilibrium both for you and for themselves.
-		The Poison damage and Equilibrium regeneration increase with your Mindpower, and laying down more mucus in the same spot will intensify its effects and refresh its duration.]], [[For %d turns, you lay down mucus where you walk or stand.
-		The mucus is placed automatically every turn and lasts %d turns.
-		At talent level 4 or greater, the mucus will expand to a radius 1 area from where it is placed.
-		Your mucus will poison all foes crossing it, dealing %0.1f nature damage every turn for 5 turns (stacking).
-		In addition, each turn, you will restore %0.1f Equilibrium while in your own mucus, and other friendly creatures in your mucus will restore 1 Equilibrium both for you and for themselves.
-		The Poison damage and Equilibrium regeneration increase with your Mindpower, and laying down more mucus in the same spot will intensify its effects and refresh its duration.]], "tformat")
+		The Poison damage and Equilibrium regeneration increase with your Mindpower, and laying down more mucus in the same spot will intensify its effects and refresh its duration.]], [[Pendant %d tours, vous déposez du mucus sur votre passage.
+		Le mucus est déposé automatiquement à chaque tour et dure %d tours.
+		Au niveau 4 ou supérieur, le mucus s'étendra sur une zone de rayon 1 depuis l'endroit où il est déposé.
+		Votre mucus empoisonnera tous les ennemis qui le traversent, infligeant %0.1f dégâts de nature par tour pendant 5 tours (cumulatif).
+		De plus, à chaque tour, vous restaurerez %0.1f d'Équilibre en étant dans votre propre mucus, et les autres créatures amies dans votre mucus restaureront 1 d'Équilibre pour vous et pour elles-mêmes.
+		Les dégâts de poison et la régénération d'Équilibre sont proportionnels à votre Puissance Mentale, et le dépôt de plus de mucus au même endroit intensifiera ses effets et rafraîchira sa durée.]], "tformat")
+t("Acid Splash", "Éclaboussure Acide", "talent name")
 t([[Calling upon nature, you cause the ground to erupt in an radius %d acidic explosion, dealing %0.1f acid damage to all creatures and creating mucus in the area.
 		Any Mucus Oozes you have active will, if in line of sight, instantly spit slime (at reduced power) at one of the targets hit by the splash.
-		The damage increases with your Mindpower.]], [[Calling upon nature, you cause the ground to erupt in an radius %d acidic explosion, dealing %0.1f acid damage to all creatures and creating mucus in the area.
-		Any Mucus Oozes you have active will, if in line of sight, instantly spit slime (at reduced power) at one of the targets hit by the splash.
-		The damage increases with your Mindpower.]], "tformat")
-t("Slime Spit", "Slime Spit", "talent name")
+		The damage increases with your Mindpower.]], [[En invoquant la nature, vous faites éclater le sol en une explosion acide de rayon %d, infligeant %0.1f dégâts d'acide à toutes les créatures et créant du mucus dans la zone.
+		Tout Mucus Visqueux actif, s'il est dans la ligne de vue, crachera instantanément de la gelée visqueuse (à puissance réduite) sur l'une des cibles touchées par l'éclaboussure.
+		Les dégâts sont proportionnels à votre Puissance mentale.]], "tformat")
+t("Slime Spit", "Crachats Visqueux", "talent name")
 t([[Spits a beam of slime doing %0.2f slime damage.
-		The damage will increase with mindpower.]], [[Spits a beam of slime doing %0.2f slime damage.
-		The damage will increase with mindpower.]], "tformat")
-t("Living Mucus", "Living Mucus", "talent name")
-t("%s's mucus ooze", "%s's mucus ooze", "tformat")
-t("It's made from mucus and it's oozing.", "It's made from mucus and it's oozing.", "_t")
+		The damage will increase with mindpower.]], [[Crache un rayon de gelée visqueuse infligeant %0.2f dégâts visqueux.
+		Les dégâts sont proportionnels à la Puissance Mentale.]], "tformat")
+t("Living Mucus", "Mucus Vivant", "talent name")
+t("%s's mucus ooze", "mucus visqueux de %s", "tformat")
+t("It's made from mucus and it's oozing.", "C'est fait de mucus et ça suinte.", "_t")
 t([[Your mucus is brought to near sentience.
 		Each turn, there is a %d%% chance that a random spot of your mucus will spawn a Mucus Ooze.
 		Mucus Oozes last %d turns and will attack any of your foes by spitting slime at them.
 		You may have up to %d Mucus Oozes active at any time (based on your Cunning).
 		Any time you deal a mental critical, the remaining time on all of your Mucus Oozes will increase by 2.
-		The spawn chance increases with your Mindpower.]], [[Your mucus is brought to near sentience.
-		Each turn, there is a %d%% chance that a random spot of your mucus will spawn a Mucus Ooze.
-		Mucus Oozes last %d turns and will attack any of your foes by spitting slime at them.
-		You may have up to %d Mucus Oozes active at any time (based on your Cunning).
-		Any time you deal a mental critical, the remaining time on all of your Mucus Oozes will increase by 2.
-		The spawn chance increases with your Mindpower.]], "tformat")
-t("Oozewalk", "Oozewalk", "talent name")
-t("You can only Oozewalk from one area of mucus to another.", "You can only Oozewalk from one area of mucus to another.", "logPlayer")
+		The spawn chance increases with your Mindpower.]], [[Votre mucus atteint presque la sentience.
+		À chaque tour, il y a %d%% de chance qu'un point aléatoire de votre mucus génère un Mucus Visqueux.
+		Les Mucus Visqueux durent %d tours et attaquent vos ennemis en leur crachant de la bave.
+		Vous pouvez avoir jusqu'à %d Mucus Visqueux actifs à la fois (basé sur votre Ruse).
+		Chaque fois que vous réalisez un critique mental, le temps restant de tous vos Mucus Visqueux augmente de 2.
+		La chance d'apparition est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Oozewalk", "Marche Visqueuse", "talent name")
+t("You can only Oozewalk from one area of mucus to another.", "Vous ne pouvez faire la Marche Visqueuse que d'une zone de mucus à une autre.", "logPlayer")
 t([[You temporarily merge with your mucus, cleansing yourself of %d physical or magical detrimental effects.
 		You can then reemerge on any tile within sight and range that is also covered by mucus.
-		This is quick, performed in only %d%% of the normal time, but you must be in contact with your mucus.]], [[You temporarily merge with your mucus, cleansing yourself of %d physical or magical detrimental effects.
-		You can then reemerge on any tile within sight and range that is also covered by mucus.
-		This is quick, performed in only %d%% of the normal time, but you must be in contact with your mucus.]], "tformat")
+		This is quick, performed in only %d%% of the normal time, but you must be in contact with your mucus.]], [[Vous fusionnez temporairement avec votre mucus, vous débarrassant de %d effets physiques ou magiques négatifs.
+		Vous pouvez ensuite réapparaître sur n'importe quelle case à vue et à portée qui est également couverte de mucus.
+		C'est rapide, effectué en seulement %d%% du temps normal, mais vous devez être en contact avec votre mucus.]], "tformat")
+-- texte non traduit
+--[==[
+t("Mucus", "Mucus", "talent name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/ooze.lua"
 
-
--- texte non traduit
---[==[
-t("Mitosis", "Mitosis", "talent name")
-t("You try to split, but there is no free space close enough to summon!", "You try to split, but there is no free space close enough to summon!", "logPlayer")
-t("bloated ooze", "bloated ooze", "_t")
-t("It's made from your own flesh and it's oozing.", "It's made from your own flesh and it's oozing.", "_t")
+t("Mitosis", "Mitose", "talent name")
+t("You try to split, but there is no free space close enough to summon!", "Vous essayez de vous diviser, mais il n'y a pas d'espace libre suffisamment proche pour invoquer !", "logPlayer")
+t("bloated ooze", "vaseux gonflée", "_t")
+t("It's made from your own flesh and it's oozing.", "C'est fait de votre propre chair et ça suinte.", "_t")
 t([[In addition, you restore %0.1f Equilibrium per turn while this talent is active.
-		]], [[In addition, you restore %0.1f Equilibrium per turn while this talent is active.
+		]], [[De plus, vous restaurez %0.1f d'Équilibre par tour pendant que ce talent est actif.
 		]], "tformat")
 t([[Your body is more like that of an ooze.
 		When you take damage, you may split and create a Bloated Ooze nearby within your line of sight.
@@ -23802,69 +23776,63 @@ t([[Your body is more like that of an ooze.
 		The chance to split equals the percent of your health lost times %0.2f.
 		You may have up to %d Bloated Oozes active at any time (limited by talent level and the summoning limit), and all damage you take will be split equally between you and them so long as this talent is active.
 		Bloated Oozes last for %d turns, are very resilient (%d%% all damage resistance to damage not coming through your shared link), and regenerate life quickly.
-		%sThe chance to split increases with your Cunning.]], [[Your body is more like that of an ooze.
-		When you take damage, you may split and create a Bloated Ooze nearby within your line of sight.
-		This ooze has as much health as twice the damage you took (up to a maximum of %d, based on your Mindpower and maximum life).
-		The chance to split equals the percent of your health lost times %0.2f.
-		You may have up to %d Bloated Oozes active at any time (limited by talent level and the summoning limit), and all damage you take will be split equally between you and them so long as this talent is active.
-		Bloated Oozes last for %d turns, are very resilient (%d%% all damage resistance to damage not coming through your shared link), and regenerate life quickly.
-		%sThe chance to split increases with your Cunning.]], "tformat")
-t("Reabsorb", "Reabsorb", "talent name")
+		%sThe chance to split increases with your Cunning.]], [[Votre corps ressemble davantage à celui d'une vase.
+		Lorsque vous subissez des dégâts, vous pouvez vous diviser et créer une Vase Gonflée à proximité dans votre ligne de vue.
+		Cette vase a autant de points de vie que le double des dégâts que vous avez subis (jusqu'à un maximum de %d, basé sur votre Puissance mentale et votre vie maximale).
+		La chance de se diviser est égale au pourcentage de votre vie perdue multiplié par %0.2f.
+		Vous pouvez avoir jusqu'à %d Vases Gonflées actives à la fois (limitées par le niveau du talent et la limite d'invocation), et tous les dégâts que vous subissez seront répartis équitablement entre vous et elles tant que ce talent est actif.
+		Les Vases Gonflées durent %d tours, sont très résistantes (%d%% de résistance générale à tout dégât ne provenant pas du lien partagé) et régénèrent rapidement.
+		%sLa chance de se diviser est proportionnel à votre Ruse.]], "tformat")
+t("Reabsorb", "Réabsorber", "talent name")
 t([[You randomly merge with an adjacent bloated ooze, granting you 40%% all damage resistance for %d turns.
 		This process releases a burst of antimagic, dealing %0.1f Manaburn damage in radius %d.
 		This talent allows you to restore %0.1f Equilibrium per turn while Mitosis is active.
-		The damage, duration and Equilibrium restoration increase with your Mindpower.]], [[You randomly merge with an adjacent bloated ooze, granting you 40%% all damage resistance for %d turns.
-		This process releases a burst of antimagic, dealing %0.1f Manaburn damage in radius %d.
-		This talent allows you to restore %0.1f Equilibrium per turn while Mitosis is active.
-		The damage, duration and Equilibrium restoration increase with your Mindpower.]], "tformat")
-t("Call of the Ooze", "Call of the Ooze", "talent name")
+		The damage, duration and Equilibrium restoration increase with your Mindpower.]], [[Vous fusionnez aléatoirement avec une Vase Gonflée adjacente, ce qui vous accorde 40%% de résistance globale pendant %d tours.
+		Ce processus libère une explosion d'antimagie, infligeant %0.1f dégâts de brûlure de mana dans un rayon de %d.
+		Ce talent vous permet de restaurer %0.1f d'Équilibre par tour pendant que la Mitose est active.
+		Les dégâts, la durée, et la restauration d'Équilibre sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Call of the Ooze", "Appel de la Vase", "talent name")
 t([[Instantly call all of your bloated oozes to your aid.
 		If you have less than the maximum number of oozes allowed by the Mitosis talent, up to %d will be created with %d life (%d%% of the maximum life allowed by Mitosis).
 		Each ooze created will form near a random foe in sight (no more than one ooze per target) and grab its attention.
-		This will then allow you to channel a melee attack through your ooze to its target, doing %d%% weapon damage (as Acid).]], [[Instantly call all of your bloated oozes to your aid.
-		If you have less than the maximum number of oozes allowed by the Mitosis talent, up to %d will be created with %d life (%d%% of the maximum life allowed by Mitosis).
-		Each ooze created will form near a random foe in sight (no more than one ooze per target) and grab its attention.
-		This will then allow you to channel a melee attack through your ooze to its target, doing %d%% weapon damage (as Acid).]], "tformat")
-t("Indiscernible Anatomy", "Indiscernible Anatomy", "talent name")
+		This will then allow you to channel a melee attack through your ooze to its target, doing %d%% weapon damage (as Acid).]], [[Invoque instantanément toutes vos Vases Gonflées à votre secours.
+		Si vous avez moins que le nombre maximum de vases autorisées par le talent Mitose, jusqu'à %d seront créées avec %d de vie (%d%% de la vie maximale autorisée par Mitose).
+		Chaque vase créée se formera près d'un ennemi aléatoire à vue (pas plus d'une vase par cible) et attirera son attention.
+		Cela vous permettra alors de canaliser une attaque au corps à corps à travers votre vase jusqu'à sa cible, infligeant %d%% dégâts d'arme (en Acide).]], "tformat")
+t("Indiscernible Anatomy", "Anatomie Indiscernable", "talent name")
 t([[Your body's internal organs are indistinct, disguising your vital areas.
 		You have a %d%% chance to shrug off all direct critical hits (physical, mental, spell).
-		In addition you gain %d%% resistance to disease, poison, wounds and blindness.]], [[Your body's internal organs are indistinct, disguising your vital areas.
-		You have a %d%% chance to shrug off all direct critical hits (physical, mental, spell).
-		In addition you gain %d%% resistance to disease, poison, wounds and blindness.]], "tformat")
---]==]
-
+		In addition you gain %d%% resistance to disease, poison, wounds and blindness.]], [[Les organes internes de votre corps sont indistincts, dissimulant vos zones vitales.
+		Vous avez %d%% de chance d'annuler tous les coups critiques directs (physiques, mentaux, sorts).
+		De plus, vous gagnez %d%% de résistance aux maladies, poisons, blessures, et cécité.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/oozing-blades.lua"
 
-t("Natural Acid", "Acide Naturel", "talent name")
-t("Mind Parasite", "Parasite Mental", "talent name")
--- texte non traduit
---[==[
-t("Oozebeam", "Oozebeam", "talent name")
+t("Oozebeam", "Rayon de Vase", "talent name")
 t([[Channel slime through your psiblades, extending their reach to create a beam doing %0.1f Slime damage.
-		The damage increases with your Mindpower.]], [[Channel slime through your psiblades, extending their reach to create a beam doing %0.1f Slime damage.
-		The damage increases with your Mindpower.]], "tformat")
+		The damage increases with your Mindpower.]], [[Canalise de la gelée visqueuse à travers vos lames psi, étendant leur portée pour créer un rayon infligeant %0.1f dégâts de lenteur naturelle.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Natural Acid", "Acide Naturel", "talent name")
 t([[You gain %d%% Nature resistance.
 		When you deal Acid damage to a creature, you gain a %0.1f%% bonus to Nature damage for %d turns. 
 		This damage bonus will improve up to 4 times (no more than once each turn) with later Acid damage you do, up to a maximum of %0.1f%%.
-		The resistance and damage increase improve with your Mindpower.]], [[You gain %d%% Nature resistance.
-		When you deal Acid damage to a creature, you gain a %0.1f%% bonus to Nature damage for %d turns. 
-		This damage bonus will improve up to 4 times (no more than once each turn) with later Acid damage you do, up to a maximum of %0.1f%%.
-		The resistance and damage increase improve with your Mindpower.]], "tformat")
+		The resistance and damage increase improve with your Mindpower.]], [[Vous gagnez %d%% de résistance à la nature.
+		Lorsque vous infligez des dégâts d'Acide à une créature, vous gagnez un bonus de %0.1f%% aux dégâts de nature pendant %d tours.
+		Ce bonus de dégâts s'améliore jusqu'à 4 fois (pas plus d'une fois par tour) avec les dégâts d'Acide ultérieurs que vous infligez, jusqu'à un maximum de %0.1f%%.
+		La résistance et l'augmentation des dégâts s'améliorent avec votre Puissance Mentale.]], "tformat")
+t("Mind Parasite", "Parasite Mental", "talent name")
 t([[You use your psiblades to fire a small worm at a foe.
 		When it hits, it will burrow into the target's brain and stay there for 6 turns, interfering with its ability to use talents.
 		Each time a talent is used there is %d%% chance that %d talent(s) are placed on a %d turn(s) cooldown.
-		The chance will increase with your Mindpower.]], [[You use your psiblades to fire a small worm at a foe.
-		When it hits, it will burrow into the target's brain and stay there for 6 turns, interfering with its ability to use talents.
-		Each time a talent is used there is %d%% chance that %d talent(s) are placed on a %d turn(s) cooldown.
-		The chance will increase with your Mindpower.]], "tformat")
-t("Unstoppable Nature", "Unstoppable Nature", "talent name")
+		The chance will increase with your Mindpower.]], [[Vous utilisez vos lames psi pour tirer un petit ver sur un ennemi.
+		Lorsqu'il touche, il se creuse dans le cerveau de la cible et y reste pendant 6 tours, perturbant sa capacité à utiliser des talents.
+		Chaque fois qu'un talent est utilisé, il y a %d%% de chance que %d talent(s) soi(en)t mis en rechargement pendant %d tours.
+		La chance est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Unstoppable Nature", "Nature Imparable", "talent name")
 t([[Surround yourself with natural forces, ignoring %d%% nature resistance of your targets.
-		In addition, any time you deal damage with a wild gift there is a %d%% chance that one of your mucus oozes will spit at the target as a free action.]], [[Surround yourself with natural forces, ignoring %d%% nature resistance of your targets.
-		In addition, any time you deal damage with a wild gift there is a %d%% chance that one of your mucus oozes will spit at the target as a free action.]], "tformat")
---]==]
-
+		In addition, any time you deal damage with a wild gift there is a %d%% chance that one of your mucus oozes will spit at the target as a free action.]], [[Vous vous entourez de forces naturelles, ignorant %d%% de résistance à la nature de vos cibles.
+		De plus, chaque fois que vous infligez des dégâts avec un Don Sauvage, il y a %d%% de chance que l'un de vos mucus visqueux crache sur la cible sans utiliser de tour.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/sand-drake.lua"
@@ -23927,34 +23895,30 @@ t([[You breathe sand in a frontal cone of radius %d. Any target caught in the ar
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/slime.lua"
 
-t("Poisonous Spores", "Spores Vénéneux", "talent name")
-t("@Source@ releases poisonous spores at @target@.", "@Source@ libère des spores vénéneux sur @Target@.", "_t")
-t("Slime Roots", "Racines de limon", "talent name")
--- texte non traduit
---[==[
-t("Slime Spit", "Slime Spit", "talent name")
+t("Slime Spit", "Crachats Visqueux", "talent name")
 t([[Spit slime at your target doing %0.1f nature damage and slowing it down by 30%% for 3 turns.
 		The slime can bounce from foe to foe, hitting up to a total of %d target(s).
 		Additional targets must be within 6 tiles of each other and the slime loses %0.1f%% damage per bounce.
-		The damage will increase with your Mindpower]], [[Spit slime at your target doing %0.1f nature damage and slowing it down by 30%% for 3 turns.
-		The slime can bounce from foe to foe, hitting up to a total of %d target(s).
-		Additional targets must be within 6 tiles of each other and the slime loses %0.1f%% damage per bounce.
-		The damage will increase with your Mindpower]], "tformat")
+		The damage will increase with your Mindpower]], [[Crache une gelée visqueuse sur votre cible, infligeant %0.1f dégâts de nature et la ralentissant de 30%% pendant 3 tours.
+		La gelée visqueuse peut rebondir d'un ennemi à l'autre, touchant jusqu'à un total de %d cible(s).
+		Les cibles supplémentaires doivent être dans un rayon de 6 cases les unes des autres et la gelée visqueuse perd %0.1f%% dégâts par rebond.
+		Les dégâts sont proportionnels à votre Puissance mentale]], "tformat")
+t("Poisonous Spores", "Spores Vénéneux", "talent name")
+t("@Source@ releases poisonous spores at @target@.", "@Source@ libère des spores vénéneux sur @Target@.", "_t")
 t([[Releases poisonous spores at an area of radius %d, infecting the foes inside with a random poison doing %0.1f Nature damage over 10 turns.
 		This attack can crit and deals %d%% additional critical damage.
-		The damage and critical bonus increase with your Mindpower.]], [[Releases poisonous spores at an area of radius %d, infecting the foes inside with a random poison doing %0.1f Nature damage over 10 turns.
-		This attack can crit and deals %d%% additional critical damage.
-		The damage and critical bonus increase with your Mindpower.]], "tformat")
-t("Acidic Skin", "Acidic Skin", "talent name")
-t("The skin of @Source@ starts dripping acid.", "The skin of @Source@ starts dripping acid.", "_t")
+		The damage and critical bonus increase with your Mindpower.]], [[Libère des spores vénéneux dans une zone de rayon %d, infectant les ennemis à l'intérieur avec un poison aléatoire infligeant %0.1f dégâts de nature sur 10 tours.
+		Cette attaque peut être critique et inflige %d%% dégâts critiques supplémentaires.
+		Les dégâts et le bonus critique sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Acidic Skin", "Peau Acide", "talent name")
+t("The skin of @Source@ starts dripping acid.", "La peau de @Source@ commence à goutter de l'acide.", "_t")
 t([[Your skin drips with acid, damaging all that hit you for %0.1f disarming acid damage.
-		The damage increases with your Mindpower.]], [[Your skin drips with acid, damaging all that hit you for %0.1f disarming acid damage.
-		The damage increases with your Mindpower.]], "tformat")
+		The damage increases with your Mindpower.]], [[Votre peau goute d'acide, infligeant %0.1f dégâts d'acide désarmant à tous ceux qui vous frappent.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Slime Roots", "Racines Visqueuses", "talent name")
 t([[You extend slimy roots into the ground, follow them, and re-appear somewhere else in a range of %d with error margin of %d.
-		Doing so changes your internal structure slightly, taking %d random talent(s) off cooldown.]], [[You extend slimy roots into the ground, follow them, and re-appear somewhere else in a range of %d with error margin of %d.
-		Doing so changes your internal structure slightly, taking %d random talent(s) off cooldown.]], "tformat")
---]==]
-
+		Doing so changes your internal structure slightly, taking %d random talent(s) off cooldown.]], [[Vous étendez des racines visqueuses dans le sol, les suivez, et réapparaissez ailleurs dans un rayon de %d avec une marge d'erreur de %d.
+		Ce faisant, votre structure interne est légèrement altérée, retirant %d talent(s) aléatoire(s) du rechargement.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/storm-drake.lua"
@@ -24097,7 +24061,7 @@ t([[Destroys one of your summons, making it detonate in radius of %d.
 		- Givrécorce : Explose en une boule de glace, infligeant %d dégâts de glace et gelant potentiellement les ennemis.
 		- Dragon de Feu : Explose en un nuage de feu persistant, infligeant %d dégâts par tour.
 		- Chien de Guerre : Explose en une balle tranchante, saignant toutes les créatures pour %0.1f dégâts de saignement par tour pendant 6 tours.
-		- Gelée : Explose en une balle de bave, infligeant %d dégâts de Nature et %0.1f%% de lenteur aux ennemis.
+		- Gelée : Explose en une balle de gelée visqueuse, infligeant %d dégâts de Nature et %0.1f%% de lenteur aux ennemis.
 		- Minotaure : Confond les ennemis à %d%% de puissance pendant 5 tours.
 		- Golem de Pierre : Accorde %d d'armure et %d%% de solidité d'armure à toutes les créatures alliées pendant 5 tours.
 		- Tortue : Accorde un petit bouclier de carapace à toutes les créatures alliées, accordant %d%% de résistance générale pendant 5 tours.
@@ -24238,7 +24202,7 @@ t("", "", "_t")
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-melee.lua"
 
-t("Jelly Spread", "Propagation gélatineuse", "talent name")
+t("Jelly Spread", "Propagation Gélatineuse", "talent name")
 t("@source@ oozes over the ground!!", "@source@ suinte sur le sol !!", "_t")
 t("Ooze over the floor, spreading caustic jelly in a radius of 1 lasting %d turns and dealing %d nature damage per turn to hostile creatures caught within.", "Suinte sur le sol, répandant une gelée caustique dans un rayon de 1 pendant %d tours et infligeant %d dégâts de nature par tour aux créatures hostiles prises dedans.", "tformat")
 t("Mitotic Split", "Division mitotique", "talent name")
@@ -24466,24 +24430,24 @@ t("Razor Knife", "Couteau-rasoir", "talent name")
 t([[Launches a knife with intense power doing %0.2f physical damage to all targets in line.
 		The damage will increase with Mindpower]], [[Lance un couteau avec une intensité extrême infligeant %0.2f dégâts physiques à toutes les cibles en ligne.
 		Les dégâts sont proportionnels à votre Puissance Mentale]], "tformat")
-t("Slime Wave", "Vague de limon", "talent name")
+t("Slime Wave", "Vague de Visqeux", "talent name")
 t([[A wall of slime oozes out from the caster with radius 1, increasing once every two turns to a maximum eventual radius of %d, doing %0.2f slime damage for %d turns.
-		The damage and duration will increase with your Mindpower.]], [[Un mur de limon suinte du lanceur avec un rayon de 1, augmentant une fois tous les deux tours jusqu'à un rayon maximum de %d, infligeant %0.2f dégâts de limon pendant %d tours.
+		The damage and duration will increase with your Mindpower.]], [[Un mur de vase suinte du lanceur avec un rayon de 1, augmentant une fois tous les deux tours jusqu'à un rayon maximum de %d, infligeant %0.2f dégâts de limon pendant %d tours.
 		Les dégâts et la durée sont proportionnels à votre Puissance Mentale.]], "tformat")
-t("Tentacle Grab", "Saisie tentaculaire", "talent name")
+t("Tentacle Grab", "Saisie Tentaculaire", "talent name")
 t("%s resists the grab!", "%s résiste à la saisie !", "logSeen")
 t([[Grab a target and drag it to your side, holding it in place and silencing non-undead and creatures that need to breathe for %d turns.
 		The grab will also deal %0.2f slime damage per turn.
 		The damage will increase with your Mindpower.]], [[Attrape une cible et la traîne à vos côtés, la maintenant en place et réduisant au silence les non-morts-vivants et les créatures ayant besoin de respirer pendant %d tours.
 		La saisie inflige également %0.2f dégâts de limon par tour.
 		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
-t("Ooze Spit", "Crachat de vase", "talent name")
+t("Ooze Spit", "Crachat de Vase", "talent name")
 t([[Spit slime at your target doing %0.2f nature damage and slowing it down by 30%% for 3 turns.
-		The damage will increase with the Dexterity stat]], [[Crache de la vase sur votre cible, infligeant %0.2f dégâts de nature et la ralentissant de 30%% pendant 3 tours.
+		The damage will increase with the Dexterity stat]], [[Crache de la gelée visqueuse sur votre cible, infligeant %0.2f dégâts de nature et la ralentissant de 30%% pendant 3 tours.
 		Les dégâts sont proportionnels à la statistique Dextérité]], "tformat")
-t("Slime Roots", "Racines de limon", "talent name")
+t("Slime Roots", "Racines Visqueuses", "talent name")
 t("You extend slimy roots into the ground, follow them, and re-appear somewhere else in a range of %d with error margin of %d.", "Vous étendez des racines visqueuses dans le sol, les suivez, et réapparaissez ailleurs dans une portée de %d avec une marge d'erreur de %d.", "tformat")
-t("Animate Blade", "Lame animée", "talent name")
+t("Animate Blade", "Lame Animée", "talent name")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
 t("Open a hole in space, summoning an animated blade for 15 turns.", "Ouvre un trou dans l'espace, invoquant une lame animée pendant 15 tours.", "tformat")
 t("Drench", "Tremper", "talent name")
@@ -31245,7 +31209,7 @@ Le combat de melée utilise principalement cinq stats :
 Vous pouvez voir ces stats, et beaucoup d'autres, dans la fiche de personnage.
 Appuyez sur "C" ou clic-droit sur votre personnage et choisissez "Inspecter la créature" pour ouvrir la fiche de personnage.
 
-Vous avez identifié quelques slimes hostiles gardant un objet.
+Vous avez identifié quelques visqueux hostiles gardant un objet.
 Attaquez les !
 ]], "_t")
 
@@ -33453,7 +33417,7 @@ Les Lutteurs utilisent l'endurance et doivent rester au moins semi-mobiles. En t
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-wilder_oozemancer.lua"
 
-t("New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "Nouvelle Classe : #LIGHT_GREEN#Boumancien (Naturaliste)", "_t")
+t("New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "Nouvelle Classe : #LIGHT_GREEN#Vasomancien (Naturaliste)", "_t")
 t([[The long Nature's hatred of all arcane forces has managed to create Oozemancers as the ultimate answer to archmagi.
 You have met and destroyed a corrupted one and can now create new characters with the #LIGHT_GREEN#Oozemancer class#WHITE#.
 
@@ -33466,15 +33430,15 @@ Class features:#YELLOW#
 
 All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
 The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
-]], [[La grande haine de la Nature envers toutes les forces arcaniques a réussi à créer les Boumanciens comme la réponse ultime aux archimages.
-Vous avez rencontré et détruit un corrompu et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Boumancien#WHITE#.
+]], [[La grande haine de la Nature envers toutes les forces arcaniques a réussi à créer les Vasomanciens comme la réponse ultime aux archimages.
+Vous avez rencontré et détruit un corrompu et pouvez maintenant créer de nouveaux personnages avec la #LIGHT_GREEN#classe Vasomancien#WHITE#.
 
-Les Boumanciens sont des Naturalites, qui se sentent chez eux dans les régions sauvages et tirent leur pouvoir de leur lien avec la nature.
+Les Vasomanciens sont des Naturalites, qui se sentent chez eux dans les régions sauvages et tirent leur pouvoir de leur lien avec la nature.
 Caractéristiques de la classe :#YELLOW#
 - Attaques offensives à longue portée de type nature et acide
 - Intrinsèquement anti-magique
-- Invoquez diverses sortes de gluants à vos côtés pour un court moment
-- Utilisez les gluants, les vaseux, les mucus et les mousses contre les ennemis de la nature.#WHITE#
+- Invoquez diverses sortes de vaseux à vos côtés pour un court moment
+- Utilisez les vaseux, visqueux, mucus, et mousses contre les ennemis de la nature.#WHITE#
 
 Toutes les classes de Naturaliste utilisent l'Equilibre pour leurs pouvoirs. Il représente leur connexion avec la nature. 
 Plus il est élevé, plus ils sont en déséquilibre avec elle. Un Equilibre élevé donne une chance d'échouer à utiliser un pouvoir et ainsi perdre un tour.
@@ -33627,8 +33591,8 @@ t("Whistling Vortex", "Vortex Sifflant", "floorEffect desc")
 t("The target is in a whistling vortex, granting +%d ranged defense, -%d ranged accuracy and incoming projectiles are 30%% slower.", "La cible se trouve dans un vortex sifflant, accordant +%d de défense à distance, -%d de précision à distance et les projectiles entrants sont 30%% plus lents.", "tformat")
 t("Fell Aura", "Aura Perdue", "floorEffect desc")
 t("The target is surrounded by a fell aura, granting 40% critical damage bonus but -20% to all resistances.", "La cible est entourée d'une aura perdue, accordant un bonus de 40% aux dégâts critiques mais -20% de résistances globale.", "_t")
-t("Slimey Pool", "Piscine de Vase", "floorEffect desc")
-t("The target is walking on slime. Decreasing movement speed by 20% and dealing 20 slime damage to any creatures attacking it.", "La cible marche sur de la vase. Diminue la vitesse de déplacement de 20% et inflige 20 dégâts de vase à toutes les créatures qui l'attaquent.", "_t")
+t("Slimey Pool", "Piscine de Gelée Visqueuse", "floorEffect desc")
+t("The target is walking on slime. Decreasing movement speed by 20% and dealing 20 slime damage to any creatures attacking it.", "La cible marche sur de la gelée visqueuse. Diminue la vitesse de déplacement de 20% et inflige 20 dégâts de vase à toutes les créatures qui l'attaquent.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/timed_effects/magical.lua"
@@ -33821,7 +33785,7 @@ t("#Target# no longer vulnerable to disease.", "#Target# n'est plus vulnérable 
 t("frenzy", "frénésie", "effect subtype")
 t("Bloodlust", "Soif de Sang", "_t")
 t("The target is in a magical frenzy, improving spellpower by %d.", "La cible est en proie à une frénésie magique, améliorant sa puissance des sorts de %d.", "tformat")
-t("Acid Splash", "Éclaboussure d'Acide", "_t")
+t("Acid Splash", "Éclaboussure Acide", "_t")
 t("The target has been splashed with acid, taking %0.2f acid damage per turn, reducing armour by %d and attack by %d.", "La cible a été éclaboussée d'acide, subissant %0.2f dégâts d'acide par tour, réduisant son armure de %d et son attaque de %d.", "tformat")
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide !", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
@@ -37186,7 +37150,7 @@ t("Do you have anything worth living for?", "Avez vous quelque chose pour contin
 t("GRrrrrrllllll!", "GRrrrrrllllll !", "_t")
 t("lost wife", "femme perdue", "entity name")
 t("bloated horror", "horreur bouffie", "entity subtype")
-t("Your wife has been turned into a giant, bloated form that towers above you. Mucus and slime ooze from every orifice, dripping onto the floor. The sight and the smell make you retch.", "Votre femme s'est transformée en une forme géante et boursouflée qui vous domine de toute sa hauteur. Du mucus et de la bave suintent de tous ses orifices et dégoulinent sur le sol. La vue et l'odeur de cette chose vous donnent la nausée.", "_t")
+t("Your wife has been turned into a giant, bloated form that towers above you. Mucus and slime ooze from every orifice, dripping onto the floor. The sight and the smell make you retch.", "Votre femme s'est transformée en une forme géante et boursouflée qui vous domine de toute sa hauteur. Du mucus et de la gelée visqueuse suintent de tous ses orifices et dégoulinent sur le sol. La vue et l'odeur de cette chose vous donnent la nausée.", "_t")
 -- texte non traduit
 --[==[
 t("yeek", "yeek", "entity subtype")
@@ -38108,7 +38072,7 @@ section "mod-tome/data/zones/orc-breeding-pit/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
 t("orc baby", "bébé orc", "entity name")
-t("Crawling on all fours, this green-skinned creature is far from cute, with vicious little sharp teeth and nails, and slime still sticking to its skin.", "Rampant à quatre pattes, cette créature à la peau verte est loin d'être mignonne avec ses vicieuses petites dents, ses ongles pointus, et de la bave toujours collée à sa peau.", "_t")
+t("Crawling on all fours, this green-skinned creature is far from cute, with vicious little sharp teeth and nails, and slime still sticking to its skin.", "Rampant à quatre pattes, cette créature à la peau verte est loin d'être mignonne avec ses vicieuses petites dents, ses ongles pointus, et de la gelée visqueuse toujours collée à sa peau.", "_t")
 t("orc child", "enfant orc", "entity name")
 t("This small orc has a malicious and greedy look in its eyes. Its veins pulse with new life and it moves with surprising speed. Though not fully developed you can still see the muscles forming on its long limbs, leading to clawed fingers and toes.", "Ce petit orc a un regard malveillant et gourmand. Ses veines palpitent d'une nouvelle vie et il se déplace à une vitesse surprenante. Bien qu'il ne soit pas complètement développé vous pouvez encore voir les muscles se former sur ses membres conduisant à des doigts et des orteils griffus.", "_t")
 t("young orc", "jeune orc", "entity name")
@@ -38777,7 +38741,7 @@ Entrer ?]], "_t")
 ------------------------------------------------
 section "mod-tome/data/zones/slime-tunnels/zone.lua"
 
-t("Slime Tunnels", "Tunnels de Vases", "_t")
+t("Slime Tunnels", "Tunnels Visqueux", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/sludgenest/grids.lua"
@@ -38807,9 +38771,9 @@ t("exit to Grushnak Pride", "sortie vers la Fierté Grushnak", "entity name")
 section "mod-tome/data/zones/sludgenest/npcs.lua"
 
 t("giant", "géant", "entity type")
-t("Corrupted Oozemancer", "Boumancien Corrompu", "entity name")
+t("Corrupted Oozemancer", "Vasomancien Corrompu", "entity name")
 t("This blight-ridden troll was once a proud defender of Nature. His corruption is spreading, eating away at the forest around him.", "Ce troll rongé par le fléau était jadis un fier défenseur de la nature. Sa perversion se propage, rongeant la forêt qui l'entoure.", "_t")
-t("and dissolved into acidic ooze", "et dissous dans une boue acide", "_t")
+t("and dissolved into acidic ooze", "et dissous dans une vase acide", "_t")
 -- texte non traduit
 --[==[
 t("troll", "troll", "entity subtype")
@@ -40341,7 +40305,7 @@ t("#LIGHT_GREEN#%d healing#LAST#", "#LIGHT_GREEN#%d soins#LAST#", "tformat")
 t("#STEEL_BLUE#(%d shifted)#LAST#", "#STEEL_BLUE#(%d modifié)#LAST#", "tformat")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
 t("%s unleashes the stored damage in retribution!", "%s libère les dégâts stockés en rétribution !", "logSeen")
-t("#DARK_GREEN##Source# shares damage with %s oozes!", "#DARK_GREEN##Source# partage les dégâts avec %s limons !", "delayedLogMessage")
+t("#DARK_GREEN##Source# shares damage with %s oozes!", "#DARK_GREEN##Source# partage les dégâts avec %s vaseux !", "delayedLogMessage")
 t("#CRIMSON##Source# teleports some damage to #Target#!", "#CRIMSON##Source# téléporte des dégâts à #Target# !", "delayedLogMessage")
 t("#CRIMSON#(%d teleported)#LAST#", "#CRIMSON#(%d teleporté)#LAST#", "tformat")
 t("#CRIMSON#%d teleported#LAST#", "#CRIMSON#%d s'est téléporté#LAST#", "tformat")
