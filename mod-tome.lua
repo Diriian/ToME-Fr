@@ -6828,7 +6828,7 @@ t("worms", "vers", "entity subtype")
 t("white worm mass", "masse de vers blancs", "entity name")
 t("green worm mass", "masse de vers verts", "entity name")
 t("carrion worm mass", "masse de vers charognards", "entity name")
-t("%s exudes a corrupted gas as it dies.", "la %s dégage un gaz corrompu lorsqu'elle meurt.", "logSeen")
+t("%s exudes a corrupted gas as it dies.", "%s dégage un gaz corrompu en mourant.", "logSeen")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/wight.lua"
@@ -21009,70 +21009,66 @@ t([[Concentrate on the corruption you bring, increasing your spell critical chan
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/bone.lua"
 
-t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
-t("Bone Shield", "Bouclier d'Os", "talent name")
--- texte non traduit
---[==[
-t("Bone Spear", "Bone Spear", "talent name")
+t("Bone Spear", "Lance d'Os", "talent name")
 t([[Conjures up a spear of bones, doing %0.2f physical damage to all targets in a line.  Each target takes an additional %d%% damage for each magical debuff they are afflicted with up to a max of %d%% (%d).
-		The damage will increase with your Spellpower.]], [[Conjures up a spear of bones, doing %0.2f physical damage to all targets in a line.  Each target takes an additional %d%% damage for each magical debuff they are afflicted with up to a max of %d%% (%d).
-		The damage will increase with your Spellpower.]], "tformat")
-t("Bone Grab", "Bone Grab", "talent name")
-t("%s resists being teleported by Bone Grab!", "%s resists being teleported by Bone Grab!", "logSeen")
+		The damage will increase with your Spellpower.]], [[Conjure une lance d'os, infligeant %0.2f dégâts physiques à toutes les cibles dans une ligne. Chaque cible subit %d%% de dégâts supplémentaires par malus magique dont elle est affligée, jusqu'à un maximum de %d%% (%d).
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Bone Grab", "Griffe d'Os", "talent name")
+t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
+t("%s resists being teleported by Bone Grab!", "%s résiste à la téléportation par Griffe d'Os !", "logSeen")
 t([[Grab a target and teleport it to your side or if adjacent up to 6 spaces away from you, pinning it there with a bone rising from the ground for %d turns.
 		The bone will also deal %0.2f physical damage.
-		The damage will increase with your Spellpower.]], [[Grab a target and teleport it to your side or if adjacent up to 6 spaces away from you, pinning it there with a bone rising from the ground for %d turns.
-		The bone will also deal %0.2f physical damage.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Bone Spike", "Bone Spike", "talent name")
+		The damage will increase with your Spellpower.]], [[Agrippe une cible et la téléporte à vos côtés, ou si elle est adjacente, jusqu'à 6 cases de vous, l'immobilisant avec un os surgissant du sol pendant %d tours.
+		L'os inflige également %0.2f dégâts physiques.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Bone Spike", "Pointe d'Os", "talent name")
 t([[Whenever you use a non-instant talent you launch a spear of bone at all enemies afflicted by 3 or more magical detrimental effects dealing %d physical damage to all enemies it passes through.
-		The damage will increase with your Spellpower.]], [[Whenever you use a non-instant talent you launch a spear of bone at all enemies afflicted by 3 or more magical detrimental effects dealing %d physical damage to all enemies it passes through.
-		The damage will increase with your Spellpower.]], "tformat")
-t("#SLATE#(%d to bones)#LAST#", "#SLATE#(%d to bones)#LAST#", "tformat")
+		The damage will increase with your Spellpower.]], [[Chaque fois que vous utilisez un talent non instantané, vous lancez une lance d'os sur tous les ennemis affligés de 3 effets magiques négatifs ou plus, infligeant %d dégâts physiques à tous les ennemis qu'elle traverse.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Bone Shield", "Bouclier d'Os", "talent name")
+t("#SLATE#(%d to bones)#LAST#", "#SLATE#(%d au bouclier d'os)#LAST#", "tformat")
 t([[Bone shields start circling around you. They will each fully absorb one instance of damage.
 		%d shield(s) will be generated when first activated.
 		Then every %d turns a new one will be created if not full.
-		This will only trigger on hits over %d damage based on Spellpower.]], [[Bone shields start circling around you. They will each fully absorb one instance of damage.
-		%d shield(s) will be generated when first activated.
-		Then every %d turns a new one will be created if not full.
-		This will only trigger on hits over %d damage based on Spellpower.]], "tformat")
---]==]
-
+		This will only trigger on hits over %d damage based on Spellpower.]], [[Des boucliers d'os commencent à tournoyer autour de vous. Chacun absorbera entièrement une instance de dégâts.
+		%d bouclier(s) sera(seront) généré(s) lors de la première activation.
+		Ensuite, tous les %d tours, un nouveau sera créé s'il n'est pas au maximum.
+		Cela ne se déclenchera que sur des coups supérieurs à %d dégâts en fonction de votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/corruptions.lua"
 
+t("Manipulate life force to feed your own dark powers.", "Manipulez la force vitale pour alimenter vos propres sombres pouvoirs.", "_t")
 t("torment", "tourment", "talent type")
+t("All the tools to torment your foes.", "Tous les outils nécessaires pour tourmenter vos ennemis.", "_t")
 t("vim", "vitae", "talent type")
+t("Touch the very essence of your victims.", "Touchez la véritable essence de vos victimes.", "_t")
 t("bone", "os", "talent type")
+t("Harness the power of bones.", "Maîtrisez le pouvoir des os.", "_t")
+t("hexes", "sortilèges", "talent type")
+t("Hex your foes, hindering and crippling them.", "Ensorcelez vos ennemis, les entravant et les handicapant.", "_t")
+t("curses", "malédictions", "talent type")
+t("Curse your foes, hindering and crippling them.", "Maudissez vos ennemis, les entravant et les handicapant.", "_t")
 t("vile life", "vie infecte", "talent type")
+t("Manipulate life for your vile needs.", "Manipulez la vie pour vos vils besoins.", "_t")
 t("plague", "peste", "talent type")
+t("Spread diseases to your foes.", "Répandez des maladies sur vos ennemis.", "_t")
+t("scourge", "fléau", "talent type")
+t("Bring pain and destruction to the world.", "Apportez douleur et destruction au monde.", "_t")
+t("reaving combat", "éveil du combat", "talent type")
+t("Enhanced melee combat through the dark arts.", "Combat de mêlée amélioré par les arts des ténèbres.", "_t")
 t("blood", "sang", "talent type")
+t("Harness the power of blood, both your own and your foes'.", "Maîtrisez le pouvoir du sang, le vôtre comme celui de vos ennemis.", "_t")
 t("blight", "fléau", "talent type")
+t("Bring corruption and decay to all who oppose you.", "Apportez corruption et décadence à tous ceux qui vous s'opposent.", "_t")
+t("Shadowflame", "flamme ténébreuse", "talent type")
+t("Harness the power of the demonic shadowflame.", "Maîtrisez le pouvoir de la flamme ténébreuse démoniaque.", "_t")
+t("rot", "putréfaction", "talent type")
+t("Become one with rot and decay.", "Devenez un avec la pourriture et la décadence.", "_t")
 -- texte non traduit
 --[==[
 t("corruption", "corruption", "talent category")
 t("sanguisuge", "sanguisuge", "talent type")
-t("Manipulate life force to feed your own dark powers.", "Manipulate life force to feed your own dark powers.", "_t")
-t("All the tools to torment your foes.", "All the tools to torment your foes.", "_t")
-t("Touch the very essence of your victims.", "Touch the very essence of your victims.", "_t")
-t("Harness the power of bones.", "Harness the power of bones.", "_t")
-t("hexes", "hexes", "talent type")
-t("Hex your foes, hindering and crippling them.", "Hex your foes, hindering and crippling them.", "_t")
-t("curses", "curses", "talent type")
-t("Curse your foes, hindering and crippling them.", "Curse your foes, hindering and crippling them.", "_t")
-t("Manipulate life for your vile needs.", "Manipulate life for your vile needs.", "_t")
-t("Spread diseases to your foes.", "Spread diseases to your foes.", "_t")
-t("scourge", "scourge", "talent type")
-t("Bring pain and destruction to the world.", "Bring pain and destruction to the world.", "_t")
-t("reaving combat", "reaving combat", "talent type")
-t("Enhanced melee combat through the dark arts.", "Enhanced melee combat through the dark arts.", "_t")
-t("Harness the power of blood, both your own and your foes'.", "Harness the power of blood, both your own and your foes'.", "_t")
-t("Bring corruption and decay to all who oppose you.", "Bring corruption and decay to all who oppose you.", "_t")
-t("Shadowflame", "Shadowflame", "talent type")
-t("Harness the power of the demonic shadowflame.", "Harness the power of the demonic shadowflame.", "_t")
-t("rot", "rot", "talent type")
-t("Become one with rot and decay.", "Become one with rot and decay.", "_t")
 --]==]
 
 
@@ -21080,223 +21076,200 @@ t("Become one with rot and decay.", "Become one with rot and decay.", "_t")
 section "mod-tome/data/talents/corruptions/curses.lua"
 
 t("Curse of Defenselessness", "Malédiction du Sans Défense", "talent name")
-t("Curse of Impotence", "Malédiction de l'Impuissance", "talent name")
-t("Curse of Death", "Malédiction de Mort", "talent name")
-t("Curse of Vulnerability", "Malédiction de Vulnérabilité", "talent name")
--- texte non traduit
---[==[
 t([[Curses your target, decreasing its Defense and all saves by %d for 5 turns.  This cannot be saved against.
-		The effects will improve with your Spellpower.]], [[Curses your target, decreasing its Defense and all saves by %d for 5 turns.  This cannot be saved against.
-		The effects will improve with your Spellpower.]], "tformat")
+		The effects will improve with your Spellpower.]], [[Maudit votre cible, réduisant sa Défense et toutes ses sauvegardes de %d pendant 5 tours. Impossible de résister à cet effet.
+		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Curse of Impotence", "Malédiction de l'Impuissance", "talent name")
 t([[Curses your target, decreasing all damage it does by %d%% for 10 turns.
-		The effects will improve with your Spellpower.]], [[Curses your target, decreasing all damage it does by %d%% for 10 turns.
-		The effects will improve with your Spellpower.]], "tformat")
+		The effects will improve with your Spellpower.]], [[Maudit votre cible, réduisant tous les dégâts qu'elle inflige de %d%% pendant 10 tours.
+		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Curse of Death", "Malédiction de Mort", "talent name")
 t([[Curses your target, preventing normal life regeneration and dealing %0.2f darkness damage over 10 turns.
-		The damage will increase with your Spellpower.]], [[Curses your target, preventing normal life regeneration and dealing %0.2f darkness damage over 10 turns.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Maudit votre cible, empêchant la régénération normale de la vie et infligeant %0.2f dégâts d'obscurité sur 10 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Curse of Vulnerability", "Malédiction de Vulnérabilité", "talent name")
 t([[Curses your target, decreasing all its resistances by %d%% for 7 turns.
-		The effect will improve with your Spellpower.]], [[Curses your target, decreasing all its resistances by %d%% for 7 turns.
-		The effect will improve with your Spellpower.]], "tformat")
---]==]
-
+		The effect will improve with your Spellpower.]], [[Maudit votre cible, réduisant toutes ses résistances de %d%% pendant 7 tours.
+		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/hexes.lua"
 
 t("Pacification Hex", "Ensorcellement Pacificateur", "talent name")
-t("Burning Hex", "Ensorcellement Brûlant", "talent name")
-t("Empathic Hex", "Ensorcellement Empathique", "talent name")
-t("Domination Hex", "Ensorcellement Dominateur", "talent name")
--- texte non traduit
---[==[
 t([[Hexes your target, dazing it and everything in a 2 radius ball around it for 3 turns and giving a %d%% chance to daze affected targets again each turn for 20 turns.
-		The chance will increase with your Spellpower.]], [[Hexes your target, dazing it and everything in a 2 radius ball around it for 3 turns and giving a %d%% chance to daze affected targets again each turn for 20 turns.
-		The chance will increase with your Spellpower.]], "tformat")
+		The chance will increase with your Spellpower.]], [[Ensorcelle votre cible, l'étourdissant ainsi que tout ce qui l'entoure dans un rayon de 2 cases pendant 3 tours, avec %d%% de chance d'étourdir à nouveau les cibles affectées à chaque tour pendant 20 tours.
+		La chance est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Burning Hex", "Ensorcellement Brûlant", "talent name")
 t([[Hexes your target and everything within a radius 2 ball around it for 20 turns. Each time an affected target uses a resource (stamina, mana, vim, ...), it takes %0.2f fire damage.
 		In addition, the cooldown of any talent used while so hexed is increased by %d%% + 1 turn.
-		The damage will increase with your Spellpower.]], [[Hexes your target and everything within a radius 2 ball around it for 20 turns. Each time an affected target uses a resource (stamina, mana, vim, ...), it takes %0.2f fire damage.
-		In addition, the cooldown of any talent used while so hexed is increased by %d%% + 1 turn.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Ensorcelle votre cible et tout ce qui l'entoure dans un rayon de 2 cases pendant 20 tours. Chaque fois qu'une cible affectée utilise une ressource (endurance, mana, vitae...), elle subit %0.2f dégâts de feu.
+		De plus, le rechargement de tout talent utilisé sous l'effet de l'ensorcellement est augmenté de %d%% + 1 tour.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Empathic Hex", "Ensorcellement Empathique", "talent name")
 t([[Hexes your target and everything within a radius 2 ball around it. Each time they do damage, they take %d%% of the same damage for 20 turns.
-		The damage will increase with your Spellpower.]], [[Hexes your target and everything within a radius 2 ball around it. Each time they do damage, they take %d%% of the same damage for 20 turns.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Ensorcelle votre cible et tout ce qui l'entoure dans un rayon de 2 cases. Chaque fois qu'elles infligent des dégâts, elles subissent %d%% des mêmes dégâts pendant 20 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Domination Hex", "Ensorcellement Dominateur", "talent name")
 t([[Hexes your target, forcing it to be your thrall for %d turns.
-		If you damage the target, it will be freed from the hex.]], [[Hexes your target, forcing it to be your thrall for %d turns.
-		If you damage the target, it will be freed from the hex.]], "tformat")
---]==]
-
+		If you damage the target, it will be freed from the hex.]], [[Ensorcelle votre cible, la forçant à être votre serviteur pendant %d tours.
+		Si vous causez des dégâts à la cible, elle sera libérée de l'ensorcellement.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/plague.lua"
 
+t("Virulent Disease", "Maladie Virulente", "talent name")
 t("%s resists the disease!", "%s résiste à la maladie !", "logSeen")
-t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
-t("Epidemic", "Épidémie", "talent name")
--- texte non traduit
---[==[
-t("Virulent Disease", "Virulent Disease", "talent name")
 t([[Whenever you deal non-disease blight damage you apply a disease dealing %0.2f blight damage per turn for 6 turns and reducing one of its physical stats (strength, constitution, dexterity) by %d. The three diseases can stack.
 		Virulent Disease will always try to apply a disease the target does not currently have, and also one that will have the most debilitating effect for the target.
 		This disease will try to prioritize being applied to an enemy with a high disease count near the target.
-		The effect will increase with your Spellpower.]], [[Whenever you deal non-disease blight damage you apply a disease dealing %0.2f blight damage per turn for 6 turns and reducing one of its physical stats (strength, constitution, dexterity) by %d. The three diseases can stack.
-		Virulent Disease will always try to apply a disease the target does not currently have, and also one that will have the most debilitating effect for the target.
-		This disease will try to prioritize being applied to an enemy with a high disease count near the target.
-		The effect will increase with your Spellpower.]], "tformat")
-t("Cyst Burst", "Cyst Burst", "talent name")
+		The effect will increase with your Spellpower.]], [[Chaque fois que vous infligez des dégâts de fléau (hors maladies), vous appliquez une maladie qui inflige %0.2f dégâts de fléau par tour pendant 6 tours et réduit un de ses attributs physiques (force, constitution, dextérité) de %d. Les trois maladies peuvent se cumuler.
+		Maladie Virulente tentera toujours d'appliquer une maladie que la cible n'a pas actuellement, et aussi celle qui aura l'effet le plus débilitant pour la cible.
+		Cette maladie tentera de prioriser son application sur un ennemi avec un grand nombre de maladies près de la cible.
+		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Cyst Burst", "Éclatement de Kyste", "talent name")
 t([[Make your target's diseases burst, doing %0.2f blight damage for each disease it is infected with.
 		This will also spread any diseases to any nearby foes in a radius of %d with a minimum duration of 6.
-		The damage will increase with your Spellpower.]], [[Make your target's diseases burst, doing %0.2f blight damage for each disease it is infected with.
-		This will also spread any diseases to any nearby foes in a radius of %d with a minimum duration of 6.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Catalepsy", "Catalepsy", "talent name")
-t("Diseases #DARK_GREEN#BURN THROUGH#LAST# %s!", "Diseases #DARK_GREEN#BURN THROUGH#LAST# %s!", "logSeen")
-t("All your foes within a radius %d ball infected with a disease enter a cataleptic state, stunning them for %d turns and dealing %d%% of all remaining disease damage instantly.", "All your foes within a radius %d ball infected with a disease enter a cataleptic state, stunning them for %d turns and dealing %d%% of all remaining disease damage instantly.", "tformat")
-t("The diseases of %s spread!", "The diseases of %s spread!", "logSeen")
+		The damage will increase with your Spellpower.]], [[Faites éclater les maladies de votre cible, infligeant %0.2f dégâts de maladie par maladie dont elle est infectée.
+		Cela répandra également toutes les maladies aux ennemis proches dans un rayon de %d cases avec une durée minimale de 6 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Catalepsy", "Catalepsie", "talent name")
+t("Diseases #DARK_GREEN#BURN THROUGH#LAST# %s!", "Les maladies #DARK_GREEN#CONSUMENT#LAST# %s !", "logSeen")
+t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
+t("All your foes within a radius %d ball infected with a disease enter a cataleptic state, stunning them for %d turns and dealing %d%% of all remaining disease damage instantly.", "Tous vos ennemis dans un rayon de %d cases infectés par une maladie entrent dans un état cataleptique, les étourdissant pendant %d tours et infligeant immédiatement %d%% des dégâts restants de toutes les maladies. Les maladies sont ensuite supprimées.", "tformat")
+t("Epidemic", "Épidémie", "talent name")
+t("The diseases of %s spread!", "Les maladies de %s se répandent !", "logSeen")
 t([[Infects the target with a very contagious disease, doing %0.2f damage per turn for 6 turns.
 		If any blight damage from non-diseases hits the target, the epidemic may activate and spread a random disease to nearby targets within a radius 2 ball.
 		The chance to spread increases with the blight damage dealt and is 100%% if it is at least %d%% of the target's maximum life.
 		Creatures suffering from that disease will also suffer healing reduction (%d%%) and diseases immunity reduction (%d%%).
 		Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.
-		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], [[Infects the target with a very contagious disease, doing %0.2f damage per turn for 6 turns.
-		If any blight damage from non-diseases hits the target, the epidemic may activate and spread a random disease to nearby targets within a radius 2 ball.
-		The chance to spread increases with the blight damage dealt and is 100%% if it is at least %d%% of the target's maximum life.
-		Creatures suffering from that disease will also suffer healing reduction (%d%%) and diseases immunity reduction (%d%%).
-		Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.
-		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], "tformat")
---]==]
-
+		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], [[Infecte la cible avec une maladie très contagieuse, infligeant %0.2f dégâts par tour pendant 6 tours.
+		Chaque fois que des dégâts de fléau (hors maladies) touchent la cible, l'épidémie peut s'activer et répandre une maladie aléatoire aux cibles proches dans un rayon de 2 cases.
+		La chance de propagation est proportionnel aux dégâts de fléau infligés et devient 100%% si ces dégâts représentent au moins %d%% de la vie maximale de la cible.
+		Les créatures souffrant de cette maladie subiront également une réduction des soins de %d%% et une réduction de l'immunité aux maladies de %d%%.
+		L'Épidémie est une maladie extrêmement puissante ; à ce titre, elle ignore totalement l'immunité aux maladies de la cible.
+		Les dégâts sont proportionnels à votre Puissance des sorts, et la chance de propagation est proportionnel à la quantité de dégâts de fléau infligés.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/reaving-combat.lua"
 
-t("Bloodlust", "Soif de Sang", "talent name")
--- texte non traduit
---[==[
-t("Corrupted Strength", "Corrupted Strength", "talent name")
+t("Corrupted Strength", "Force Corrompue", "talent name")
 t([[Allows you to dual wield any type of one handed weapons, and increases the damage of the off-hand weapon to %d%%.
-		Also, casting a spell (which uses a turn) will give a free melee attack at a random target in melee range for %d%% blight damage.]], [[Allows you to dual wield any type of one handed weapons, and increases the damage of the off-hand weapon to %d%%.
-		Also, casting a spell (which uses a turn) will give a free melee attack at a random target in melee range for %d%% blight damage.]], "tformat")
+		Also, casting a spell (which uses a turn) will give a free melee attack at a random target in melee range for %d%% blight damage.]], [[Vous permet de manier deux armes à une main et augmente les dégâts de l'arme en main secondaire de %d%%.
+		De plus, lancer un sort (qui utilise un tour) donne une attaque de mêlée gratuite sur une cible aléatoire à portée de mêlée pour %d%% dégâts de fléau par coup.]], "tformat")
+t("Bloodlust", "Soif de Sang", "talent name")
 t([[Each time you hit an enemy with a melee weapon you enter a bloodlust-infused frenzy, increasing your Spellpower by %0.1f.
 		This effect stacks up to 10 times for a total Spellpower gain of %d.
-		The frenzy lasts 3 turns.]], [[Each time you hit an enemy with a melee weapon you enter a bloodlust-infused frenzy, increasing your Spellpower by %0.1f.
-		This effect stacks up to 10 times for a total Spellpower gain of %d.
-		The frenzy lasts 3 turns.]], "tformat")
-t("Carrier", "Carrier", "talent name")
+		The frenzy lasts 3 turns.]], [[Chaque fois que vous touchez un ennemi avec une arme de mêlée, vous entrez dans une frénésie assoiffée de sang, augmentant votre Puissance des sorts de %0.1f.
+		Cet effet se cumule jusqu'à 10 fois pour un gain total de %d de Puissance des Sorts.
+		La frénésie dure 3 tours.]], "tformat")
+t("Carrier", "Porteur", "talent name")
 t([[You gain a %d%% resistance to diseases, and each of your melee attacks have a %d%% chance to spread any diseases on your target.
-		(As the Epidemic talent with the melee attack treated like blight damage.)]], [[You gain a %d%% resistance to diseases, and each of your melee attacks have a %d%% chance to spread any diseases on your target.
-		(As the Epidemic talent with the melee attack treated like blight damage.)]], "tformat")
-t("Acid Blood", "Acid Blood", "talent name")
+		(As the Epidemic talent with the melee attack treated like blight damage.)]], [[Vous gagnez %d%% de résistance aux maladies et chacune de vos attaques de mêlée a %d%% de chance de répandre une maladie aléatoire aux cibles proches dans un rayon de 2 cases.
+		(La maladie se répand comme avec le talent Épidémie, en traitant votre attaque de mêlée comme des dégâts de fléau).]], "tformat")
+t("Acid Blood", "Sang Acide", "talent name")
 t([[Your blood turns into an acidic mixture. When you get hit, the attacker is splashed with acid.
 		This deals %0.2f acid damage each turn for 5 turns, and reduces the attacker's Accuracy by %d.
 		At level 3, it will also reduce Armour by %d for 5 turns.
-		The damage will increase with your Spellpower.]], [[Your blood turns into an acidic mixture. When you get hit, the attacker is splashed with acid.
-		This deals %0.2f acid damage each turn for 5 turns, and reduces the attacker's Accuracy by %d.
-		At level 3, it will also reduce Armour by %d for 5 turns.
-		The damage will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage will increase with your Spellpower.]], [[Votre sang se transforme en un mélange acide. Lorsque vous êtes touché, l'attaquant est aspergé d'acide.
+		Cela inflige %0.2f dégâts d'acide par tour pendant 5 tours et réduit la Précision de l'attaquant de %d.
+		Au niveau 3, cela réduit également l'Armure de %d pendant 5 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/rot.lua"
 
-t("%s exudes a corrupted gas as it dies.", "la %s dégage un gaz corrompu lorsqu'elle meurt.", "logSeen")
-t("Summon", "Invocation", "_t")
-t("Worm Rot", "Ver de Pourriture", "talent name")
--- texte non traduit
---[==[
-t("Infectious Bite", "Infectious Bite", "talent name")
-t("@Source@ bites blight poison into @target@.", "@Source@ bites blight poison into @target@.", "_t")
+t("Infectious Bite", "Morsure Infectieuse", "talent name")
+t("@Source@ bites blight poison into @target@.", "@Source@ injecte du poison de fléau dans @Target@.", "_t")
 t([[Bite the target, dealing %d%% melee damage  
 		If the attack hits you'll inject blight poison into the target, dealing %0.2f blight damage and a further %0.2f blight damage over 4 turns.
-		The bonus damage improves with your Spellpower.]], [[Bite the target, dealing %d%% melee damage  
-		If the attack hits you'll inject blight poison into the target, dealing %0.2f blight damage and a further %0.2f blight damage over 4 turns.
-		The bonus damage improves with your Spellpower.]], "tformat")
-t("A worm spawned from a damaged horror.  Destroying it may have consequences.", "A worm spawned from a damaged horror.  Destroying it may have consequences.", "_t")
-t("Infestation", "Infestation", "talent name")
+		The bonus damage improves with your Spellpower.]], [[Mordez la cible, infligeant %d%% dégâts de mêlée.
+		Si l'attaque touche, vous injectez du poison de fléau dans la cible, infligeant %0.2f dégâts de fléau et %0.2f dégâts de fléau supplémentaires sur 4 tours.
+		Le bonus de dégâts est proportionnel à votre Puissance des sorts.]], "tformat")
+t("A worm spawned from a damaged horror.  Destroying it may have consequences.", "Un ver engendré par une horreur blessée. Le détruire pourrait avoir des conséquences.", "_t")
+t("%s exudes a corrupted gas as it dies.", "%s dégage un gaz corrompu en mourant.", "logSeen")
+t("Summon", "Invocation", "_t")
 t([[Your body has become a mass of living corruption, increasing your blight and acid resistance by %d%% and blight affinity by %d%%.
 On taking damage greater than 15%% of your maximum health, the damage will be reduced by %d%% and a carrion worm mass will burst forth onto a nearby tile, attacking your foes for 5 turns.
 You can never have more than 5 worms active from any source at a time.
-When a carrion worm dies it will explode into a radius 2 pool of blight for 5 turns, dealing %0.2f blight damage each turn and healing you for 33%% of that amount.]], [[Your body has become a mass of living corruption, increasing your blight and acid resistance by %d%% and blight affinity by %d%%.
-On taking damage greater than 15%% of your maximum health, the damage will be reduced by %d%% and a carrion worm mass will burst forth onto a nearby tile, attacking your foes for 5 turns.
-You can never have more than 5 worms active from any source at a time.
-When a carrion worm dies it will explode into a radius 2 pool of blight for 5 turns, dealing %0.2f blight damage each turn and healing you for 33%% of that amount.]], "tformat")
-t("Worm Walk", "Worm Walk", "talent name")
-t("You do not have line of sight to this location.", "You do not have line of sight to this location.", "logPlayer")
-t("The worm walk fizzles!", "The worm walk fizzles!", "logSeen")
+When a carrion worm dies it will explode into a radius 2 pool of blight for 5 turns, dealing %0.2f blight damage each turn and healing you for 33%% of that amount.]], [[Votre corps est devenu une masse de corruption vivante, augmentant votre résistance au fléau et à l'acide de %d%% et votre affinité à la fléau de %d%%.
+En subissant des dégâts supérieurs à 15%% de votre vie maximale, les dégâts seront réduits de %d%% et une masse de vers charognards surgira sur une case voisine, attaquant vos ennemis pendant 5 tours.
+Vous ne pouvez jamais avoir plus de 5 vers actifs simultanément, quelle que soit la source.
+Lorsqu'un ver charognard meurt, il explose en une mare de maladie dans un rayon de 2 cases pendant 5 tours, infligeant %0.2f dégâts de fléau par tour et vous soignant de 33%% de cette quantité.]], "tformat")
+t("Worm Walk", "Saut Vermineux", "talent name")
+t("You do not have line of sight to this location.", "Vous n'avez pas de ligne de vue vers cet emplacement.", "logPlayer")
+t("The worm walk fizzles!", "Le saut vermineux échoue !", "logSeen")
 t([[You disperse into a mass of carrion worms, reforming near the target location (%d teleport accuracy).
-If used on a worm mass, you merge with it, moving to it's location, healing you for %d, restoring %d vim, and destroying the mass.]], [[You disperse into a mass of carrion worms, reforming near the target location (%d teleport accuracy).
-If used on a worm mass, you merge with it, moving to it's location, healing you for %d, restoring %d vim, and destroying the mass.]], "tformat")
-t("Pestilent Blight", "Pestilent Blight", "talent name")
+If used on a worm mass, you merge with it, moving to it's location, healing you for %d, restoring %d vim, and destroying the mass.]], [[Vous vous dispersez en une masse de vers charognards, vous reformant près de l'emplacement cible (%d case(s) de précision).
+Si utilisé sur une masse de vers, vous fusionnez avec elle, vous déplaçant à son emplacement, vous soignant de %d points de vie, restaurant %d de Vitae et détruisant la masse.]], "tformat")
+t("Pestilent Blight", "Maladie Pestilentielle", "talent name")
 t([[You have a %d%% chance on dealing blight damage to cause the target to rot away, silencing, disarming, blinding or pinning them for %d turns. This effect has a cooldown.
 At talent level 4, this affects targets in a radius 1 ball.
 Your worms also have a %d%% chance to blind, silence, disarm or pin with their melee attacks, lasting 2 turns.
-The chance to apply this effect will increase with your Spellpower.]], [[You have a %d%% chance on dealing blight damage to cause the target to rot away, silencing, disarming, blinding or pinning them for %d turns. This effect has a cooldown.
-At talent level 4, this affects targets in a radius 1 ball.
-Your worms also have a %d%% chance to blind, silence, disarm or pin with their melee attacks, lasting 2 turns.
-The chance to apply this effect will increase with your Spellpower.]], "tformat")
-t("%s resists the worm rot!", "%s resists the worm rot!", "logSeen")
+The chance to apply this effect will increase with your Spellpower.]], [[Lorsque vous infligez des dégâts de fléau, vous avez %d%% de chance de faire pourrir la cible, la réduisant au silence, la désarmant, l'aveuglant ou l'immobilisant pendant %d tours. Cet effet a un rechargement.
+Au niveau 4, affecte les cibles dans un rayon de 1 case.
+Vos vers ont également %d%% de chance d'aveugler, de réduire au silence, de désarmer ou d'immobiliser avec leurs attaques de mêlée, durant 2 tours.
+La chance d'appliquer cet effet est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Worm Rot", "Pourriture Vermeuse", "talent name")
+t("%s resists the worm rot!", "%s résiste à la pourriture vermeuse !", "logSeen")
 t([[Infects the target with parasitic carrion worm larvae for 5 turns.  Each turn the disease will remove a beneficial physical effect and deal %0.2f acid and %0.2f blight damage.
 If not cleared after five turns it will inflict %0.2f blight damage as the larvae hatch, removing the effect but spawning a full grown carrion worm mass near the target's location.
 Even if this disease is removed early, there is still a %d%% chance for the larvae to hatch.
 You can never have more than 5 worms active from any source at a time.
-The damage dealt will increase with your Spellpower.]], [[Infects the target with parasitic carrion worm larvae for 5 turns.  Each turn the disease will remove a beneficial physical effect and deal %0.2f acid and %0.2f blight damage.
-If not cleared after five turns it will inflict %0.2f blight damage as the larvae hatch, removing the effect but spawning a full grown carrion worm mass near the target's location.
-Even if this disease is removed early, there is still a %d%% chance for the larvae to hatch.
-You can never have more than 5 worms active from any source at a time.
-The damage dealt will increase with your Spellpower.]], "tformat")
+The damage dealt will increase with your Spellpower.]], [[Infecte la cible avec des larves de vers charognards parasites pendant 5 tours. À chaque tour, la maladie supprimera un effet physique positif et infligera %0.2f dégâts d'acide et %0.2f dégâts de fléau.
+Si non éliminée après 5 tours, elle infligera %0.2f dégâts de fléau lorsque les larves écloront, supprimant l'effet mais engendrant une masse de vers charognards adultes près de la cible.
+Même si cette maladie est supprimée tôt, il y a toujours %d%% de chance que les larves éclosent.
+Vous ne pouvez jamais avoir plus de 5 vers actifs simultanément, quelle que soit la source.
+Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+-- texte non traduit
+--[==[
+t("Infestation", "Infestation", "talent name")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/sanguisuge.lua"
 
-t("Bloodcasting", "Lancement Sanguinolant", "talent name")
-t("Life Tap", "Ponction de Vie", "talent name")
--- texte non traduit
---[==[
-t("Drain", "Drain", "talent name")
+t("Drain", "Drainage", "talent name")
 t([[Fires a bolt of blight, doing %0.2f blight damage and replenishing 20%% of it as vim energy.
 		The amount of vim regained depends on the target's rank (higher ranks give more vim).
-		The effect will increase with your Spellpower.]], [[Fires a bolt of blight, doing %0.2f blight damage and replenishing 20%% of it as vim energy.
-		The amount of vim regained depends on the target's rank (higher ranks give more vim).
-		The effect will increase with your Spellpower.]], "tformat")
-t("The cost of using life instead of vim for talents is reduced to %d%%.", "The cost of using life instead of vim for talents is reduced to %d%%.", "tformat")
-t("Absorb Life", "Absorb Life", "talent name")
+		The effect will increase with your Spellpower.]], [[Tire un rayon de fléau, infligeant %0.2f de dégâts de fléau et reconstituant 20%% de ces dégâts en Vitae.
+		La quantité de Vitae récupérée dépend du rang de la cible (les rangs plus élevés donnent plus de Vitae).
+		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Bloodcasting", "Lancement Sanguinolant", "talent name")
+t("The cost of using life instead of vim for talents is reduced to %d%%.", "Lorsqu'il n'y a pas assez de Vitae pour utiliser vos talents, de la vie est consommée à la place. Ce coût en vie est réduit à %d%%.", "tformat")
+t("Absorb Life", "Absorption de Vie", "talent name")
 t([[Absorbs the life force of your foes as you kill them.
-		As long as this talent is active, vim will decrease by 0.5 per turn and increase by %0.1f for each kill of a non-undead creature (in addition to the usual increase based on Willpower).]], [[Absorbs the life force of your foes as you kill them.
-		As long as this talent is active, vim will decrease by 0.5 per turn and increase by %0.1f for each kill of a non-undead creature (in addition to the usual increase based on Willpower).]], "tformat")
+		As long as this talent is active, vim will decrease by 0.5 per turn and increase by %0.1f for each kill of a non-undead creature (in addition to the usual increase based on Willpower).]], [[Absorbe la force vitale de vos ennemis lorsque vous les tuez.
+		Tant que ce talent est actif, la Vitae diminuera de 0.5 par tour et augmentera de %0.1f pour chaque mort d'une créature non-morte (en plus de l'augmentation habituelle basée sur la Volonté).]], "tformat")
+t("Life Tap", "Ponction de Vie", "talent name")
 t([[Feed on the pain you cause your foes.
 			For 2 turns you gain %d%% lifesteal on all damage dealt.
-			The lifesteal will increase with your Spellpower.]], [[Feed on the pain you cause your foes.
-			For 2 turns you gain %d%% lifesteal on all damage dealt.
-			The lifesteal will increase with your Spellpower.]], "tformat")
---]==]
-
+			The lifesteal will increase with your Spellpower.]], [[Vous vous nourrissez de la douleur que vous causez à vos ennemis.
+		Pendant 2 tours, vous gagnez %d%% de vol de vie sur tous les dégâts infligés.
+		Le vol de vie est proportionnel à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/scourge.lua"
 
-t("Corrupting Strike", "Frappe de Corruption", "talent name")
-t("You cannot use Corrupting Strike without two weapons!", "Vous ne pouvez pas utiliser Frappe de Corruption sans avoir deux armes !", "logPlayer")
-t("Corrupt the target reducing disease immunity by 100%% for 2 turns and stripping up to 2 nature sustains then strike with both your weapons dealing %d%% damage.", "Corrompt la cible réduisant l'immunité aux maladies de 100%% pendant 2 tours et enlevant jusqu'à 2 effets soutenus de la nature puis frappe avec vos deux armes infligeant %d%% dégâts.", "tformat")
--- texte non traduit
---[==[
-t("Virulent Strike", "Virulent Strike", "talent name")
-t("You cannot use Virulent Strike without two weapons!", "You cannot use Virulent Strike without two weapons!", "logPlayer")
-t("Strike the target with both weapons dealing %d%% damage with each hit.  Each strike that hits will increase the duration of the lowest duration disease effect by %d.", "Strike the target with both weapons dealing %d%% damage with each hit.  Each strike that hits will increase the duration of the lowest duration disease effect by %d.", "tformat")
-t("Ruin", "Ruin", "talent name")
+t("Virulent Strike", "Frappe de Corruption", "talent name")
+t("You cannot use Virulent Strike without two weapons!", "Vous ne pouvez pas utiliser Frappe de Corruption sans avoir deux armes !", "logPlayer")
+t("Strike the target with both weapons dealing %d%% damage with each hit.  Each strike that hits will increase the duration of the lowest duration disease effect by %d.", [[Frappez la cible avec les deux armes, infligeant %d%% dégâts par coup.
+Chaque coup réussi augmentera la durée de l'effet de maladie de plus courte durée de %d tour(s).]], "tformat")
+t("Ruin", "Ruine", "talent name")
 t([[Concentrate on the corruption you bring, enhancing each of your melee strikes with %0.2f blight damage (which also heals you for %0.2f each hit).
-		The damage will increase with your Spellpower.]], [[Concentrate on the corruption you bring, enhancing each of your melee strikes with %0.2f blight damage (which also heals you for %0.2f each hit).
-		The damage will increase with your Spellpower.]], "tformat")
-t("Acid Strike", "Acid Strike", "talent name")
-t("You cannot use Acid Strike without two weapons!", "You cannot use Acid Strike without two weapons!", "logPlayer")
+		The damage will increase with your Spellpower.]], [[Concentrez-vous sur la corruption que vous apportez, améliorant chacune de vos frappes de mêlée de %0.2f dégâts de fléau (qui vous soigne également de %0.2f par coup).
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Acid Strike", "Frappe Acide", "talent name")
+t("You cannot use Acid Strike without two weapons!", "Vous ne pouvez pas utiliser Frappe Acide sans avoir deux armes !", "logPlayer")
 t([[Strike with each of your weapons, doing %d%% acid weapon damage with each hit.
 		If at least one of the strikes hits, an acid splash is generated, doing %0.2f acid damage to all enemies in radius %d around the foe you struck.
-		The splash damage will increase with your Spellpower.]], [[Strike with each of your weapons, doing %d%% acid weapon damage with each hit.
-		If at least one of the strikes hits, an acid splash is generated, doing %0.2f acid damage to all enemies in radius %d around the foe you struck.
-		The splash damage will increase with your Spellpower.]], "tformat")
---]==]
-
+		The splash damage will increase with your Spellpower.]], [[Frappez avec chacune de vos armes, infligeant %d%% dégâts d'arme acide par coup.
+		Si au moins un des coups touche, une éclaboussure d'acide est générée, infligeant %0.2f dégâts d'acide à tous les ennemis dans un rayon de %d cases autour de l'ennemi frappé.
+		Les dégâts d'éclaboussure sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Corrupting Strike", "Frappe Corruptrice", "talent name")
+t("You cannot use Corrupting Strike without two weapons!", "Vous ne pouvez pas utiliser Frappe Corruptrice sans avoir deux armes !", "logPlayer")
+t("Corrupt the target reducing disease immunity by 100%% for 2 turns and stripping up to 2 nature sustains then strike with both your weapons dealing %d%% damage.", "Corrompt la cible réduisant l'immunité aux maladies de 100%% pendant 2 tours et enlevant jusqu'à 2 effets soutenus de nature puis frappe avec vos deux armes infligeant %d%% dégâts.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/shadowflame.lua"
@@ -21348,41 +21321,33 @@ t([[Summon a part of the Fearscape to intersect with the current level.
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/torment.lua"
 
-t("Blood Lock", "Verrouillage de la Vitalité", "talent name")
--- texte non traduit
---[==[
-t("Willful Tormenter", "Willful Tormenter", "talent name")
+t("Willful Tormenter", "Tourmenteur Obstiné", "talent name")
 t([[You set your mind toward a single goal: the destruction of all your foes.
-		Increases the maximum amount of vim you can store by %d.]], [[You set your mind toward a single goal: the destruction of all your foes.
-		Increases the maximum amount of vim you can store by %d.]], "tformat")
-t("Reach out and touch the blood and health of your foes. Any creatures caught in the radius 2 ball will be unable to heal above their current life value (at the time of the casting) for %d turns.", "Reach out and touch the blood and health of your foes. Any creatures caught in the radius 2 ball will be unable to heal above their current life value (at the time of the casting) for %d turns.", "tformat")
-t("Overkill", "Overkill", "talent name")
+		Increases the maximum amount of vim you can store by %d.]], "Vous vous concentrez sur un seul objectif : la destruction de tous vos ennemis. Augmente la quantité maximale de Vitae que vous pouvez stocker de %d.", "tformat")
+t("Blood Lock", "Verrou de Sang", "talent name")
+t("Reach out and touch the blood and health of your foes. Any creatures caught in the radius 2 ball will be unable to heal above their current life value (at the time of the casting) for %d turns.", "Étendez votre main et touchez le sang et la santé de vos ennemis. Toutes les créatures touchées dans un rayon de 2 cases ne pourront pas se soigner au-delà de leur valeur de vie actuelle (au moment de l'incantation) pendant %d tours.", "tformat")
+t("Overkill", "Massacre", "talent name")
 t([[When you kill a creature, the remainder of the damage done will not be lost. Instead, %d%% of it will splash in a radius 2 as blight damage.
-		The splash damage will increase with your Spellpower.]], [[When you kill a creature, the remainder of the damage done will not be lost. Instead, %d%% of it will splash in a radius 2 as blight damage.
-		The splash damage will increase with your Spellpower.]], "tformat")
-t("Blood Vengeance", "Blood Vengeance", "talent name")
-t("#RED#The powerful blow energizes %s reducing their cooldowns!#LAST#", "#RED#The powerful blow energizes %s reducing their cooldowns!#LAST#", "logSeen")
+		The splash damage will increase with your Spellpower.]], [[Lorsque vous tuez une créature, le dommage excédentaire ne sera pas perdu. À la place, %d%% de ce dommage éclabousse dans un rayon de 2 cases sous forme de dégâts de fléau.
+		Les dégâts d'éclaboussure sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Blood Vengeance", "Vengeance de Sang", "talent name")
+t("#RED#The powerful blow energizes %s reducing their cooldowns!#LAST#", "#RED#Le puissant coup énergise %s, réduisant ses rechargements !#LAST#", "logSeen")
 t([[When you are dealt a blow that reduces your life by at least %d%%, you have a %d%% chance to reduce the remaining cooldown of all your talents by 1.
 		Temporary life from Sanguine Infusion will not count against the damage threshold.
-		The chance will increase with your Spellpower.]], [[When you are dealt a blow that reduces your life by at least %d%%, you have a %d%% chance to reduce the remaining cooldown of all your talents by 1.
-		Temporary life from Sanguine Infusion will not count against the damage threshold.
-		The chance will increase with your Spellpower.]], "tformat")
---]==]
-
+		The chance will increase with your Spellpower.]], [[Lorsque vous recevez un coup qui réduit votre vie d'au moins %d%%, vous avez %d%% de chance de réduire de 1 tour le rechargement restant de tous vos talents.
+		La vie temporaire de l'Infusion Sanguine ne compte pas dans le seuil de dégâts.
+		La chance est proportionnel à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/vile-life.lua"
 
-t("Healing Inversion", "Soins Inversé", "talent name")
--- texte non traduit
---[==[
-t("Blood Splash", "Blood Splash", "talent name")
+t("Blood Splash", "Éclaboussure de Sang", "talent name")
 t([[Inflicting pain and death invigorates you.
 		Each time you deal a critical strike you gain %d life (this effect can only happen once per turn).
-		Each time you kill a creature you gain %d life (this effect can only happen once per turn).]], [[Inflicting pain and death invigorates you.
-		Each time you deal a critical strike you gain %d life (this effect can only happen once per turn).
-		Each time you kill a creature you gain %d life (this effect can only happen once per turn).]], "tformat")
-t("Elemental Discord", "Elemental Discord", "talent name")
+		Each time you kill a creature you gain %d life (this effect can only happen once per turn).]], [[Infliger douleur et mort vous revigorise.
+		Chaque fois que vous portez un coup critique, vous gagnez %d points de vie (cet effet ne peut se produire qu'une fois par tour).
+		Chaque fois que vous tuez une créature, vous gagnez %d points de vie (cet effet ne peut se produire qu'une fois par tour).]], "tformat")
+t("Elemental Discord", "Discorde Élémentaire", "talent name")
 t([[Use elemental damage dealt to you to trigger terrible effects on the source:
 		- Fire: burn for %0.2f fire damage over 5 turns
 		- Cold: freeze for 3 turns with %d iceblock power
@@ -21390,56 +21355,50 @@ t([[Use elemental damage dealt to you to trigger terrible effects on the source:
 		- Lightning: daze for %d turns
 		- Nature: %d%% slow for 4 turns
 		This effect can only happen once every 10 turns per damage type.
-		The damage will increase with your Spellpower.]], [[Use elemental damage dealt to you to trigger terrible effects on the source:
-		- Fire: burn for %0.2f fire damage over 5 turns
-		- Cold: freeze for 3 turns with %d iceblock power
-		- Acid: blind for %d turns
-		- Lightning: daze for %d turns
-		- Nature: %d%% slow for 4 turns
-		This effect can only happen once every 10 turns per damage type.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Utilisez les dégâts élémentaires que vous recevez pour déclencher des effets terribles sur leur source :
+		* #LIGHT_RED#Feu#LAST# : brûle pour %0.2f dégâts de feu sur 5 tours.
+		* #1133F3#Froid#LAST# : gèle pendant 3 tours, avec %d de puissance de bloc de glace.
+		* #GREEN#Acide#LAST# : aveugle pendant %d tours.
+		* #ROYAL_BLUE#Foudre#LAST# : étourdit pendant %d tours.
+		* #LIGHT_GREEN#Nature#LAST# : ralentit de %d%% pendant 4 tours.
+		Cet effet ne peut se produire qu'une fois toutes les 10 tours par type de dégâts.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Healing Inversion", "Soins Inversé", "talent name")
 t([[You manipulate the vim of enemies in radius %d to temporarily invert all healing done to them (but not natural regeneration).
 		For 5 turns all healing will instead damage them for %d%% of the healing done as blight.
-		The effect will increase with your Spellpower.]], [[You manipulate the vim of enemies in radius %d to temporarily invert all healing done to them (but not natural regeneration).
-		For 5 turns all healing will instead damage them for %d%% of the healing done as blight.
-		The effect will increase with your Spellpower.]], "tformat")
-t("Vile Transplant", "Vile Transplant", "talent name")
-t("#CRIMSON##Source# transfers an effect (%s) to #Target#!", "#CRIMSON##Source# transfers an effect (%s) to #Target#!", "tformat")
+		The effect will increase with your Spellpower.]], [[Vous manipulez la Vitae des ennemis dans un rayon de %d cases pour inverser temporairement tous les soins qui leur sont prodigués (mais pas la régénération naturelle).
+		Pendant 5 tours, tous les soins infligent à la place des dégâts égaux à %d%% des soins sous forme de fléau.
+		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Vile Transplant", "Vile Transplantation", "talent name")
+t("#CRIMSON##Source# transfers an effect (%s) to #Target#!", "#CRIMSON##Source# transfère un effet (%s) à #Target# !", "tformat")
 t([[You transfer up to %d physical or magical detrimental effects currently affecting you to a nearby creature at a cost of %d vim per effect.
 		Specific effect immunities will not prevent the transfer.
-		The chance to transfer each effect increases with your Spellpower.]], [[You transfer up to %d physical or magical detrimental effects currently affecting you to a nearby creature at a cost of %d vim per effect.
-		Specific effect immunities will not prevent the transfer.
-		The chance to transfer each effect increases with your Spellpower.]], "tformat")
---]==]
-
+		The chance to transfer each effect increases with your Spellpower.]], [[Vous transférez jusqu'à %d effets physiques ou magiques négatifs qui vous affectent actuellement vers une créature proche, au coût de %d Vitae par effet.
+		Les immunités à des effets spécifiques n'empêcheront pas le transfert.
+		La chance de transférer chaque effet est proportionnel à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/vim.lua"
 
+t("Soul Rot", "Pourriture d'Âme", "talent name")
 t([[Projects a bolt of pure blight, doing %0.2f blight damage.
 		This spell has an improved critical strike chance of +%0.2f%%.
 		The damage will increase with your Spellpower.]], [[Projette un rayon de fléau pure, infligeant %0.2f dégâts de fléau.
 		Ce sort a une chance de coup critique améliorée de +%0.2f%%.
 		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
-t("Vimsense", "Détection Vigoureuse", "talent name")
--- texte non traduit
---[==[
-t("Soul Rot", "Soul Rot", "talent name")
-t("Dark Portal", "Dark Portal", "talent name")
+t("Dark Portal", "Portail Sombre", "talent name")
 t([[Open a dark portal (radius 3) to the target zone. All creatures caught inside will be teleported to your location, and you to theirs.
 		All creatures (except you) traversing the portal will catch a random disease, doing %0.2f blight damage per turn for 6 turns and reducing one of its physical stats (strength, constitution, dexterity) by %d.
-		The damage will increase with your Spellpower.]], [[Open a dark portal (radius 3) to the target zone. All creatures caught inside will be teleported to your location, and you to theirs.
-		All creatures (except you) traversing the portal will catch a random disease, doing %0.2f blight damage per turn for 6 turns and reducing one of its physical stats (strength, constitution, dexterity) by %d.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Ouvrez un portail sombre (rayon 3) vers la zone cible. Toutes les créatures capturées à l'intérieur seront téléportées à votre emplacement, et vous au leur.
+		Toutes les créatures (sauf vous) traversant le portail contracteront une maladie aléatoire, recevant %0.2f dégâts de fléau par tour pendant 6 tours et réduisant un de leurs attributs physiques (force, constitution, dextérité) de %d.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Vimsense", "Sens de la Vitae", "talent name")
 t([[Feel the very existence of creatures around you for %d turns, in a radius of 10.
 		The evil touch will reduce their blight resistance by %d%% and all saves by %d, but also make them aware of you.
-		The resistance and save reduction will improve with your Spellpower.]], [[Feel the very existence of creatures around you for %d turns, in a radius of 10.
-		The evil touch will reduce their blight resistance by %d%% and all saves by %d, but also make them aware of you.
-		The resistance and save reduction will improve with your Spellpower.]], "tformat")
-t("Leech", "Leech", "talent name")
-t("Each time a creature affected by vimsense hurts you, you regain %0.2f vim and %0.2f health.", "Each time a creature affected by vimsense hurts you, you regain %0.2f vim and %0.2f health.", "tformat")
---]==]
-
+		The resistance and save reduction will improve with your Spellpower.]], [[Sentez la véritable existence des créatures autour de vous pendant %d tours dans un rayon de 10 cases. Le contact maléfique réduira leur résistance au fléau de %d%% et toutes leurs sauvegardes de %d, mais les rendra également conscientes de votre position.
+		La résistance et la réduction des sauvegardes sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Leech", "Succion", "talent name")
+t("Each time a creature affected by vimsense hurts you, you regain %0.2f vim and %0.2f health.", "Chaque fois qu'une créature affectée par le Sens de la Vitae vous blesse, vous récupérez %0.2f de Vitae et %0.2f de vie.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/ambush.lua"
@@ -22395,6 +22354,7 @@ t("gloom", "angoisse", "talent type")
 t("predator", "prédateur", "talent type")
 t("darkness", "obscurité", "talent type")
 t("cursed form", "forme maudite", "talent type")
+t("curses", "malédictions", "talent type")
 t("Bloodstained", "Taches Sanglantes", "talent type")
 t("Crimson Templar", "Templier Pourpre", "talent type")
 t("Hatred", "Traîtrise", "talent type")
@@ -22428,7 +22388,6 @@ t("Enhance the power of your mind with gestures.", "Enhance the power of your mi
 t("You are wracked with the dark energies of the curse.", "You are wracked with the dark energies of the curse.", "_t")
 t("cursed aura", "cursed aura", "talent type")
 t("The things you surround yourself with soon wither away.", "The things you surround yourself with soon wither away.", "_t")
-t("curses", "curses", "talent type")
 t("The effects of cursed objects.", "The effects of cursed objects.", "_t")
 t("fears", "fears", "talent type")
 t("Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "_t")
@@ -33604,7 +33563,7 @@ t("Magically returns %d%% of any damage done to the attacker.", "Renvoie magique
 t("#Target#'s skin starts to shimmer.", "La peau de #Target# se met à miroiter.", "_t")
 t("+Reflective Skin", "+Peau Réfléchissante", "_t")
 t("-Reflective Skin", "-Peau Réfléchissante", "_t")
-t("Vimsense", "Détection Vigoureuse", "_t")
+t("Vimsense", "Sens de la Vitae", "_t")
 t("Reduces blight resistance by %d%% and all saves by %d.", "Réduit la résistance au fléau de %d%% et toutes les sauvegardes de %d.", "tformat")
 t("phantasm", "fantasme", "effect subtype")
 t("invisibility", "invisibilité", "effect subtype")
@@ -33732,7 +33691,7 @@ t("Curse of Death", "Malédiction de Mort", "_t")
 t("The target is cursed, taking %0.2f darkness damage per turn and preventing natural life regeneration.", "La cible est maudite, subissant %0.2f dégâts d'obscurité par tour et empêchant la régénération naturelle de la vie.", "tformat")
 t("Curse of Hate", "Malédiction de Haine", "_t")
 t("The target is cursed, force all foes in a radius of 5 to attack it.", "La cible est maudite, obligeant tous les ennemis dans un rayon de 5 à l'attaquer.", "_t")
-t("Corrupting Strike", "Frappe de Corruption", "_t")
+t("Corrupting Strike", "Frappe Corruptrice", "_t")
 t("The targets natural essence in corrupted reducing disease resistance by 100%%.", "L'essence naturelle de la cible est corrompue, réduisant sa résistance aux maladies de 100%%.", "tformat")
 t("#Target# is completely vulnerable to disease!", "#Target# est totalement vulnérable aux maladies !", "_t")
 t("#Target# no longer vulnerable to disease.", "#Target# n'est plus vulnérable aux maladies.", "_t")
@@ -33962,7 +33921,7 @@ Each non-disease blight damage done to it will spread the disease.]], [[La cible
 Pour chaque dégâts autre que fléau infligé à la cible, la maladie se propage.]], "tformat")
 t("#Target# is afflicted by an epidemic!", "#Target# est affecté par une épidémie !", "_t")
 t("#Target# is free from the epidemic.", "#Target# est libéré d'une épidémie.", "_t")
-t("Worm Rot", "Ver de Pourriture", "_t")
+t("Worm Rot", "Pourriture Vermeuse", "_t")
 t([[The target is infected with carrion worm larvae.  Each turn it will lose one beneficial physical effect and %0.2f blight and acid damage will be inflicted.
 After five turns the disease will inflict %0.2f blight damage and spawn a carrion worm mass.]], [[La cible est infectée par les larves du ver de la charogne.  Chaque tour, elle perd un effet physique bénéfique et subit %0.2f dégâts de fléau et d'acide.
 Au bout de cinq tours, la maladie inflige %0.2f dégâts de fléau et engendre une masse de vers charognards.]], "tformat")
@@ -34008,7 +33967,7 @@ t("+Phased", "+En phase", "_t")
 t("#Target# is no longer out of phase.", "#Target# n'est plus déphasé.", "_t")
 t("-Phased", "-En phase", "_t")
 t("blood", "sang", "effect subtype")
-t("Blood Lock", "Verrouillage de la Vitalité", "_t")
+t("Blood Lock", "Verrou de Sang", "_t")
 t("Cannot heal higher than %d life.", "Soins impossibles au-delà de %d de vie.", "tformat")
 t("#Target# is blood locked.", "La vitalité de #Target# est verouillé.", "_t")
 t("+Blood Lock", "+Verrouillage de la Vitalité", "_t")
