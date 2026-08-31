@@ -9423,10 +9423,10 @@ section "mod-tome/data/general/objects/lore/spellhunt.lua"
 
 t("memories of archmage Varil", "mémoires de l'archimage Varil", "entity name")
 t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "Une collection de pensées et de souvenirs de l'archimage Varil, durant l'Ere du Crépuscule.", "_t")
-t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts ?", "entity name")
+t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts", "entity name")
 t("The definitive guide to hunting magic users.", "Le guide définitif de la chasse aux utilisateurs de magie.", "_t")
-t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du Traque-sorts partie 2 : Comment combattre un utilisateur de magie ?", "entity name")
-t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts partie 3 : Comment tuer un utilisateur de magie ?", "entity name")
+t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du Traque-sorts partie 2 : Comment combattre un utilisateur de magie", "entity name")
+t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts partie 3 : Comment tuer un utilisateur de magie", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/sunwall.lua"
@@ -17255,21 +17255,17 @@ En temps voulu ! Bah ! Ce sera ma ruine si ça arrive à ce point. S'il y a la m
 ------------------------------------------------
 section "mod-tome/data/lore/rhaloren.lua"
 
-
--- texte non traduit
---[==[
-t("rhaloren", "rhaloren", "newLore category")
-t("letter (rhaloren camp)", "letter (rhaloren camp)", "_t")
+t("letter (rhaloren camp)", "lettre (camp rhaloren)", "_t")
 t([[We must be on guard. The Council of Elders is desperate to find us, to hunt us down and suppress us. But we will not be suppressed. We have our rights! Their scouts try to track us down, and their spies try to infiltrate our numbers. They cannot accept any others having power, or any voice but their own being heard.
 
 We have split away from our people, and we follow our own path now. We are outcasts. They call us renegades, anarchists; they think of us as nothing but vermin to be crushed underfoot. But we will not endure their cruel suppression. Our voice will be heard across the world and they shall recognise a new race of power - the mighty Rhaloren!
 
 -- The Inquisitor
-]], [[We must be on guard. The Council of Elders is desperate to find us, to hunt us down and suppress us. But we will not be suppressed. We have our rights! Their scouts try to track us down, and their spies try to infiltrate our numbers. They cannot accept any others having power, or any voice but their own being heard.
+]], [[Nous devons rester sur nos gardes. Le Conseil des Anciens est désespéré de nous trouver, de nous traquer, et de nous supprimer. Mais nous ne serons pas supprimés. Nous avons nos droits ! Leurs éclaireurs tentent de nous retrouver, et leurs espions essaient d'infiltrer nos rangs. Ils ne peuvent accepter que d'autres détiennent le pouvoir, ou qu'une autre voix que la leur soit entendue.
 
-We have split away from our people, and we follow our own path now. We are outcasts. They call us renegades, anarchists; they think of us as nothing but vermin to be crushed underfoot. But we will not endure their cruel suppression. Our voice will be heard across the world and they shall recognise a new race of power - the mighty Rhaloren!
+Nous nous sommes séparés de notre peuple, et nous suivons maintenant notre propre voie. Nous sommes des parias. Ils nous appellent renégats, anarchistes ; ils ne nous voient que comme de la vermine à écraser sous leurs pieds. Mais nous ne supporterons pas leur cruelle suppression. Notre voix sera entendue à travers le monde et ils reconnaîtront une nouvelle race de pouvoir - les puissants Rhaloren !
 
--- The Inquisitor
+-- L'Inquisitrice
 ]], "_t")
 t([[The Scintillating Caverns must be protected. Our great leader has ordered it so, and his word is more binding than any law. Our numbers are few, and we must move in secrecy, but a quiet watch will be made on the caverns. Any who are seen to interfere in them must be lured here to our place of strength, and brought before me for inquisition.
 
@@ -17277,13 +17273,13 @@ More have joined our cause. Their eyes have been opened to the injustice our peo
 
 Trust in his power, for he shall bring us all to glory.
 
--- The Inquisitor]], [[The Scintillating Caverns must be protected. Our great leader has ordered it so, and his word is more binding than any law. Our numbers are few, and we must move in secrecy, but a quiet watch will be made on the caverns. Any who are seen to interfere in them must be lured here to our place of strength, and brought before me for inquisition.
+-- The Inquisitor]], [[Les Grottes scintillantes doivent être protégées. Notre grand chef l'a ordonné, et sa parole est plus contraignante que n'importe quelle loi. Nous sommes peu nombreux, et nous devons agir dans le secret, mais une surveillance discrète sera effectuée sur les grottes. Quiconque est vu en train d'interférer avec elles doit être attiré ici dans notre lieu de force, et amené devant moi pour enquête.
 
-More have joined our cause. Their eyes have been opened to the injustice our people have suffered, blamed by the other races for the Spellblaze and its effects. They are sick of the cowardice of the Council, who sit in silence as we are scorned and hated across the world. But most of all they are inspired by our great leader, and the powers he has gained from studying the Spellblaze. He alone realizes our full potential, he alone can see in our hearts what we are truly capable of. He has blessed me, rescued me from a tortured life and touched me with his power. Only he can lead our people! With his mastery the world will see our strength and recognise us as a true force to be reckoned with.
+D'autres ont rejoint notre cause. Leurs yeux se sont dessillés face à l'injustice que notre peuple a subie, blâmé par les autres races pour la Brûlure Magique et ses effets. Ils sont écoeurés par la lâcheté du Conseil, qui reste silencieux alors que nous sommes méprisés et haïs à travers le monde. Mais surtout, ils sont inspirés par notre grand chef, et les pouvoirs qu'il a gagnés en étudiant la Brûlure Magique. Lui seul réalise notre plein potentiel, lui seul peut voir dans nos coeurs ce dont nous sommes vraiment capables. Il m'a bénie, sauvée d'une vie torturée et m'a touchée de son pouvoir. Lui seul peut mener notre peuple ! Avec sa maîtrise, le monde verra notre force et nous reconnaîtra comme une véritable force avec laquelle il faudra compter.
 
-Trust in his power, for he shall bring us all to glory.
+Ayez foi en son pouvoir, car il nous mènera tous à la gloire.
 
--- The Inquisitor]], "_t")
+-- L'Inquisitrice]], "_t")
 t([[For too long we have been taught that the Spellblaze was a tragedy, that we are responsible for the deaths of millions and for suffering across the world. These are lies! Lies spread to defame us, to prevent our people from using magic to its rightful degree. The lesser races are jealous of our powers, of our amazing potential, and so they think to keep us underfoot, to stop us from ascending to our rightful place in the world. They fear us.
 
 The truth is that the Spellblaze was an experiment that went wrong. Many of our greatest mages died from the resulting energies, and some lands nearby were set ablaze. But there was no loss of life amongst the other races - it is their own wars that caused that, and their own squalid societies that brought about the plagues that followed. Many centuries later a great natural earthquake occurred that tore the lands apart, and the other races had the audacity to blame that on us.
@@ -17293,28 +17289,27 @@ mercilessly, and even those with no affinity to magic were brutally slaughtered 
 
 But no more! The time will come when the truth shall be known, and retribution will fall on any that deny us our rights.
 
--- The Inquisitor]], [[For too long we have been taught that the Spellblaze was a tragedy, that we are responsible for the deaths of millions and for suffering across the world. These are lies! Lies spread to defame us, to prevent our people from using magic to its rightful degree. The lesser races are jealous of our powers, of our amazing potential, and so they think to keep us underfoot, to stop us from ascending to our rightful place in the world. They fear us.
+-- The Inquisitor]], [[Pendant trop longtemps, on nous a enseigné que la Brûlure Magique était une tragédie, que nous étions responsables de la mort de millions de personnes et des souffrances à travers le monde. Ce sont des mensonges ! Des mensonges répandus pour nous diffamer, pour empêcher notre peuple d'utiliser la magie à son juste degré. Les races inférieures sont jalouses de nos pouvoirs, de notre incroyable potentiel, et donc elles pensent nous maintenir sous leurs pieds, pour nous empêcher d'accéder à notre place légitime dans le monde. Elles nous craignent.
 
-The truth is that the Spellblaze was an experiment that went wrong. Many of our greatest mages died from the resulting energies, and some lands nearby were set ablaze. But there was no loss of life amongst the other races - it is their own wars that caused that, and their own squalid societies that brought about the plagues that followed. Many centuries later a great natural earthquake occurred that tore the lands apart, and the other races had the audacity to blame that on us.
+La vérité est que la Brûlure Magique était une expérience qui a mal tourné. Beaucoup de nos plus grands mages sont morts à cause des énergies résultantes, et certaines terres proches ont été incendiées. Mais il n'y a eu aucune perte de vie parmi les autres races - ce sont leurs propres guerres qui ont causé cela, et leurs propres sociétés sordides qui ont entraîné les fléaux qui ont suivi. Plusieurs siècles plus tard, un grand tremblement de terre naturel s'est produit et a déchiré les terres, et les autres races ont eu l'audace de nous en blâmer.
 
-For this reason they persecuted us during the Spellhunt. Many of our mages were killed
-mercilessly, and even those with no affinity to magic were brutally slaughtered in the terrible crusade. Even today we suffer discrimination and persecution, and tales still spread of innocent Shaloren burned at the stake or chopped to pieces. And what does the Council do? It sits in silence and hopes people will just forget.
+Pour cette raison, ils nous ont persécutés pendant la Purge Arcanique. Beaucoup de nos mages ont été tués sans pitié, et même ceux qui n'avaient aucune affinité avec la magie ont été brutalement massacrés lors de cette terrible croisade. Aujourd'hui encore, nous souffrons de discrimination et de persécution, et des récits circulent encore sur des Shalorens innocents brûlés sur le bûcher ou découpés en morceaux. Et que fait le Conseil ? Il reste assis en silence et espère que les gens finiront par oublier.
 
-But no more! The time will come when the truth shall be known, and retribution will fall on any that deny us our rights.
+Mais c'est fini ! Le temps viendra où la vérité sera connue, et la rétribution s'abattra sur quiconque nous refusera nos droits.
 
--- The Inquisitor]], "_t")
+-- L'Inquisitrice]], "_t")
 t([[I have great news! Our glorious leader has written to me, telling me of his travels. He is on a great pilgrimage, a holy quest to discover more about the Spellblaze and its powers, so that we may show the truth about it to the world. It is a quest fraught with peril, for we have many enemies in the world. But by his powers he cannot fail. He cannot! He cannot...
 
 One day soon he will return to us, and bring us to our proper glory. Look forward to that great time, when he is amongst us once more. Be ready for that moment when he stands tall before us and looks at us with his deep eyes... Work hard now and be attentive in your duties, so that we may make him proud. We fight for him, we struggle for him, and if needs be we will die for him. He is our hope and our glory, and the only joy we have in this dispassionate world.
 
 -- The Inquisitor
-]], [[I have great news! Our glorious leader has written to me, telling me of his travels. He is on a great pilgrimage, a holy quest to discover more about the Spellblaze and its powers, so that we may show the truth about it to the world. It is a quest fraught with peril, for we have many enemies in the world. But by his powers he cannot fail. He cannot! He cannot...
+]], [[J'ai une grande nouvelle ! Notre glorieux chef m'a écrit, me parlant de ses voyages. Il est en grand pèlerinage, une quête sacrée pour en découvrir davantage sur la Brûlure Magique et ses pouvoirs, afin que nous puissions montrer la vérité à ce sujet au monde. C'est une quête pleine de périls, car nous avons de nombreux ennemis dans le monde. Mais grâce à ses pouvoirs, il ne peut échouer. Il ne peut pas ! Il ne peut pas...
 
-One day soon he will return to us, and bring us to our proper glory. Look forward to that great time, when he is amongst us once more. Be ready for that moment when he stands tall before us and looks at us with his deep eyes... Work hard now and be attentive in your duties, so that we may make him proud. We fight for him, we struggle for him, and if needs be we will die for him. He is our hope and our glory, and the only joy we have in this dispassionate world.
+Bientôt, il reviendra vers nous et nous mènera à notre véritable gloire. Attendez avec impatience ce grand moment, où il sera de nouveau parmi nous. Soyez prêts pour ce moment où il se tiendra droit devant nous et nous regardera avec ses yeux profonds... Travaillez dur maintenant et soyez attentifs à vos devoirs, afin que nous puissions le rendre fier. Nous nous battons pour lui, nous luttons pour lui, et si nécessaire, nous mourrons pour lui. Il est notre espoir et notre gloire, et la seule joie que nous ayons dans ce monde sans passion.
 
--- The Inquisitor
+-- L'Inquisitrice
 ]], "_t")
-t("carefully preserved letter (rhaloren camp)", "carefully preserved letter (rhaloren camp)", "_t")
+t("carefully preserved letter (rhaloren camp)", "lettre soigneusement préservée (camp rhaloren)", "_t")
 t([[My dearest,
 
 I hope this letter finds you well. I worry for you, so close to the city, so vulnerable should they find our base... But I trust in your strength, and I know you will be safe. Yet should anything happen...
@@ -17326,29 +17321,29 @@ Ah, but there is something more exciting even than that! Near the Charred Scar I
 Look after our people well, and keep strong our base for when I return. It shall be soon, I hope, and it shall be in glory.
 
 With passion abound,
-Your dearest love]], [[My dearest,
+Your dearest love]], [[Ma très chère,
 
-I hope this letter finds you well. I worry for you, so close to the city, so vulnerable should they find our base... But I trust in your strength, and I know you will be safe. Yet should anything happen...
+J'espère que cette lettre te trouvera en bonne santé. Je m'inquiète pour toi, si près de la ville, si vulnérable s'ils venaient à trouver notre base... Mais j'ai confiance en ta force, et je sais que tu seras en sécurité. Pourtant, si jamais quelque chose devait arriver...
 
-I wish you were here with me, able to share in the wonders I have seen. Yet this journey has far more perils. The Ziguranth have been on to us, tracking us relentlessly, spoiling many of my plans. They are truly a force to be reckoned with. But luck is with me - I have managed to capture one and find out the location of their base. Soon we shall prepare an attack that shall put an end to their threat forever.
+J'aimerais que tu sois ici avec moi, capable de partager les merveilles que j'ai vues. Pourtant, ce voyage comporte bien plus de périls. Les Ziguranth sont à nos trousses, nous traquant sans relâche, gâchant beaucoup de mes plans. Ils sont vraiment une force avec laquelle il faut compter. Mais la chance est avec moi - j'ai réussi à en capturer un et à trouver l'emplacement de leur base. Bientôt, nous préparerons une attaque qui mettra fin à leur menace pour toujours.
 
-Ah, but there is something more exciting even than that! Near the Charred Scar I have uncovered a truly amazing thing - a mark of the Spellblaze. Oh, how I long for you to be here with me to see its wonders! You of all people know my passions so well, and what delight you would find in what I have discovered here. Here is where our future lies. Here is where we shall gain the power to truly strike out on our own!
+Ah, mais il y a quelque chose d'encore plus excitant que cela ! Près de la Plaie Craquelée, j'ai découvert une chose vraiment étonnante - une marque de la Brûlure Magique. Oh, comme j'aimerais que tu sois ici avec moi pour voir ses merveilles ! Toi plus que quiconque, tu connais si bien mes passions, et quel plaisir tu trouverais dans ce que j'ai découvert ici. C'est ici que réside notre avenir. C'est ici que nous gagnerons le pouvoir de vraiment prendre notre envol par nous-mêmes !
 
-Look after our people well, and keep strong our base for when I return. It shall be soon, I hope, and it shall be in glory.
+Prends bien soin de notre peuple, et garde notre base forte pour mon retour. Ce sera bientôt, je l'espère, et ce sera dans la gloire.
 
-With passion abound,
-Your dearest love]], "_t")
+Avec passion,
+Ton amour le plus cher]], "_t")
+-- texte non traduit
+--[==[
+t("rhaloren", "rhaloren", "newLore category")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/lore/sandworm.lua"
 
-
--- texte non traduit
---[==[
-t("sandworm lair", "sandworm lair", "newLore category")
-t("song of the sands", "song of the sands", "_t")
+t("sandworm lair", "repaire des vers des sables", "newLore category")
+t("song of the sands", "chant des sables", "_t")
 t([[I have stared in the mouths of crimson wyrms
 And felt the claws of drakes so sleek
 But through deserts dry and sandy storms
@@ -17357,15 +17352,15 @@ There is something else I seek
 In the trail of giant worms I walk
 Through tunnels of sand below
 Of arcane tools let there be no talk
-It's on the wyrmic path I go!]], [[I have stared in the mouths of crimson wyrms
-And felt the claws of drakes so sleek
-But through deserts dry and sandy storms
-There is something else I seek
+It's on the wyrmic path I go!]], [[J'ai fixé les gueules des wyrms pourpres
+Et senti les griffes de drakes si élégants
+Mais à travers les déserts secs et les tempêtes de sable
+Il y a autre chose que je cherche
 
-In the trail of giant worms I walk
-Through tunnels of sand below
-Of arcane tools let there be no talk
-It's on the wyrmic path I go!]], "_t")
+Sur la piste des vers géants je marche
+À travers les tunnels de sable en dessous
+Ne parlons pas d'outils arcaniques
+C'est sur la voie wyrmique que je vais !]], "_t")
 t([[The dragon's breath corrodes my eyes
 It tears flesh from my skin
 But onward I search to see what lies
@@ -17374,15 +17369,15 @@ Amidst the sandy depths within
 The piles of sand fall past my head
 Nearly crushing me alive
 But I hurry on bereft of dread
-For my quest I must survive!]], [[The dragon's breath corrodes my eyes
-It tears flesh from my skin
-But onward I search to see what lies
-Amidst the sandy depths within
+For my quest I must survive!]], [[Le souffle du dragon corrode mes yeux
+Il arrache la chair de ma peau
+Mais je continue ma recherche pour voir ce qui se cache
+Au milieu des profondeurs sablonneuses
 
-The piles of sand fall past my head
-Nearly crushing me alive
-But I hurry on bereft of dread
-For my quest I must survive!]], "_t")
+Les piles de sable tombent au-dessus de ma tête
+Me broyant presque vivant
+Mais je me dépêche, dépourvu de crainte
+Car pour ma quête, je dois survivre !]], "_t")
 t([[The sandworms go from strength to strength
 Ever greater do they seem
 Of towering height and massive length
@@ -17391,33 +17386,28 @@ It is all as if a dream...
 To the darkest depths I now depart
 In search of my one fate
 How I long to taste the beating heart
-Of the legendary worm so great!]], [[The sandworms go from strength to strength
-Ever greater do they seem
-Of towering height and massive length
-It is all as if a dream...
+Of the legendary worm so great!]], [[Les vers des sables deviennent de plus en plus forts
+Ils semblent toujours plus grands
+D'une hauteur imposante et d'une longueur massive
+Tout cela est comme un rêve...
 
-To the darkest depths I now depart
-In search of my one fate
-How I long to taste the beating heart
-Of the legendary worm so great!]], "_t")
+Vers les profondeurs les plus sombres je pars maintenant
+À la recherche de mon seul destin
+Comme j'ai hâte de goûter le coeur battant
+Du légendaire ver si grand !]], "_t")
 t([[I have seen the Queen in glory true
 And she has moved me to my soul
 Oh Queen! Let me be a part of you!
-Please devour me! Swallow me whole!!]], [[I have seen the Queen in glory true
-And she has moved me to my soul
-Oh Queen! Let me be a part of you!
-Please devour me! Swallow me whole!!]], "_t")
---]==]
-
+Please devour me! Swallow me whole!!]], [[J'ai vu la Reine dans sa gloire véritable
+Et elle a ému mon âme
+Ô Reine ! Laisse-moi faire partie de toi !
+S'il te plaît, dévore-moi ! Avales-moi tout entier !!]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/scintillating-caves.lua"
 
-
--- texte non traduit
---[==[
-t("scintillating caves", "scintillating caves", "newLore category")
-t("research journal part 1", "research journal part 1", "_t")
+t("scintillating caves", "grottes scintillantes", "newLore category")
+t("research journal part 1", "journal de recherche, partie 1", "_t")
 t([[I have been given permission to explore the scintillating caves to the east. Normally they are sealed off, but having a father on the council has its uses, even if he is normally a dumb buffoon...
 
 These caves are the site of where the Spellblaze began. An ancient Sher'Tul farportal lay buried here, and our ancestors tapped into that power to their destruction. Many of the greatest Shaloren mages stood here, and when the energies beyond comprehension erupted they were all annihilated instantly. It was a terrible loss to our people - such knowledge and power lost forever!
@@ -17425,57 +17415,56 @@ These caves are the site of where the Spellblaze began. An ancient Sher'Tul farp
 Now the ancient ruins have become overgrown by crystals. Reports say that they grow each year. Could they be alive..?
 
 I must admit that stepping into the starting place of the Spellblaze fills me with immense trepidation. This was where the great destruction began, that tore through our world, wiping out cities, tearing the world apart. And yet look at the beauty here!
-]], [[I have been given permission to explore the scintillating caves to the east. Normally they are sealed off, but having a father on the council has its uses, even if he is normally a dumb buffoon...
+]], [[J'ai obtenu la permission d'explorer les grottes scintillantes à l'est. Normalement, elles sont scellées, mais avoir un père au conseil a ses avantages, même s'il est habituellement un bouffon stupide...
 
-These caves are the site of where the Spellblaze began. An ancient Sher'Tul farportal lay buried here, and our ancestors tapped into that power to their destruction. Many of the greatest Shaloren mages stood here, and when the energies beyond comprehension erupted they were all annihilated instantly. It was a terrible loss to our people - such knowledge and power lost forever!
+Ces grottes sont le lieu où la Brûlure Magique a commencé. Un ancien portail lointain Sher'Tul gisait enterré ici, et nos ancêtres ont puisé dans ce pouvoir jusqu'à leur destruction. Beaucoup des plus grands mages Shaloren se trouvaient ici, et lorsque les énergies incompréhensibles ont jailli, ils furent tous anéantis instantanément. Ce fut une perte terrible pour notre peuple - un tel savoir et une telle puissance perdus à jamais !
 
-Now the ancient ruins have become overgrown by crystals. Reports say that they grow each year. Could they be alive..?
+Maintenant, les ruines antiques ont été envahies par des cristaux. Les rapports disent qu'ils grandissent chaque année. Pourraient-ils être vivants.. ?
 
-I must admit that stepping into the starting place of the Spellblaze fills me with immense trepidation. This was where the great destruction began, that tore through our world, wiping out cities, tearing the world apart. And yet look at the beauty here!
-]], "_t")
-t("research journal part 2", "research journal part 2", "_t")
+Je dois admettre que fouler le point de départ de la Brûlure Magique me remplit d'une immense appréhension. C'est ici qu'a commencé la grande destruction qui a déchiré notre monde, anéanti des cités et mis le monde en pièces. Et pourtant, regardez la beauté qui règne ici !]], "_t")
+t("research journal part 2", "journal de recherche, partie 2", "_t")
 t([[I have definitely seen crystals move of their own volition here, and some even seem capable of producing magical effects in self-defence. They are no threat to me whatsoever - my arcane powers are far beyond whatever latent magic seems to possess these things.
 
 Possession... is what it almost seems like. These crystals are not natural. I have broken some down and studied them, and the very structure of the material seems vastly distinct from any other I have seen. I have even studied Sher'Tul relics in the Academy and this is most certainly something different. Truly fascinating!
-]], [[I have definitely seen crystals move of their own volition here, and some even seem capable of producing magical effects in self-defence. They are no threat to me whatsoever - my arcane powers are far beyond whatever latent magic seems to possess these things.
+]], [[J'ai assurément vu des cristaux se déplacer de leur propre volonté ici, et certains semblent même capables de produire des effets magiques pour se défendre. Ils ne constituent aucune menace pour moi - mes pouvoirs arcaniques sont bien au-delà de toute magie latente qui semble habiter ces choses.
 
-Possession... is what it almost seems like. These crystals are not natural. I have broken some down and studied them, and the very structure of the material seems vastly distinct from any other I have seen. I have even studied Sher'Tul relics in the Academy and this is most certainly something different. Truly fascinating!
+Possession... c'est ce à quoi cela ressemble presque. Ces cristaux ne sont pas naturels. J'en ai brisé quelques-uns pour les étudier, et la structure même du matériau semble très distincte de tout ce que j'ai vu auparavant. J'ai même étudié les reliques Sher'Tul à l'Académie et ceci est certainement quelque chose de différent. Vraiment fascinant !
 ]], "_t")
-t("research journal part 3", "research journal part 3", "_t")
+t("research journal part 3", "journal de recherche, partie 3", "_t")
 t([[Earth, water, fire, air - these are the elements we forge our magic with, and all of these I have seen manifested in the crystals here. But there is something else, something different... There are dark crystals here which seem to posses some new, destructive element - a very twisting of the nature of the other elements, warping them into malign designs.
 
 Why have I never seen this before?! I must study it, I must understand it - I must comprehend its very nature and hold its power in my own hands... The thirst for knowledge is all-consuming!
 
-I shall name this new element "blight".]], [[Earth, water, fire, air - these are the elements we forge our magic with, and all of these I have seen manifested in the crystals here. But there is something else, something different... There are dark crystals here which seem to posses some new, destructive element - a very twisting of the nature of the other elements, warping them into malign designs.
+I shall name this new element "blight".]], [[Terre, eau, feu, air - ce sont les éléments avec lesquels nous forgeons notre magie, et tous, je les ai vus se manifester dans les cristaux ici. Mais il y a autre chose, quelque chose de différent... Il y a ici des cristaux sombres qui semblent posséder un nouvel élément destructeur - une véritable torsion de la nature des autres éléments, les déformant en desseins malins.
 
-Why have I never seen this before?! I must study it, I must understand it - I must comprehend its very nature and hold its power in my own hands... The thirst for knowledge is all-consuming!
+Pourquoi n'ai-je jamais vu cela auparavant ?! Je dois l'étudier, je dois le comprendre - je dois appréhender sa nature même et tenir son pouvoir entre mes propres mains... La soif de connaissance est dévorante !
 
-I shall name this new element "blight".]], "_t")
-t("research journal part 4", "research journal part 4", "_t")
+Je nommerai ce nouvel élément "fléau".]], "_t")
+t("research journal part 4", "journal de recherche, partie 4", "_t")
 t([[I can see it now, I can see so clearly... The forces at work here are not of this world. They are a result of the Spellblaze, from the tearing of the fabric of our world. And from outside that fabric... something else, something truly powerful, trying to force its way in. I feel I can almost reach out and touch it! Such awesome power it is... could this even rival the renowned powers of the Sher'Tul?
 
 The crystals are a corruption of the elements of Maj'Eyal. These outside forces are changing the very make-up of the matter of our world. This cavern is truly a garden of delights, a font of growth and energy. Who knows how far this garden of wonders could spread if we encourage it more? Perhaps the whole of our world could be enveloped in this scintillating glory, a grand corruption for all Eyal!
 
-I have begun to train myself in controlling this "blight". It takes much energy, draining my very vim, but I can feel the tremendous power behind it. I must tap into it more...]], [[I can see it now, I can see so clearly... The forces at work here are not of this world. They are a result of the Spellblaze, from the tearing of the fabric of our world. And from outside that fabric... something else, something truly powerful, trying to force its way in. I feel I can almost reach out and touch it! Such awesome power it is... could this even rival the renowned powers of the Sher'Tul?
+I have begun to train myself in controlling this "blight". It takes much energy, draining my very vim, but I can feel the tremendous power behind it. I must tap into it more...]], [[Je peux le voir maintenant, je vois si clairement... Les forces à l'oeuvre ici ne sont pas de ce monde. Elles sont le résultat de la Brûlure Magique, de la déchirure du tissu de notre monde. Et de l'extérieur de ce tissu... quelque chose d'autre, quelque chose de vraiment puissant, essaie de se frayer un chemin. Je sens que je peux presque tendre la main et le toucher ! Quel pouvoir impressionnant... cela pourrait-il même rivaliser avec les pouvoirs renommés des Sher'Tul ?
 
-The crystals are a corruption of the elements of Maj'Eyal. These outside forces are changing the very make-up of the matter of our world. This cavern is truly a garden of delights, a font of growth and energy. Who knows how far this garden of wonders could spread if we encourage it more? Perhaps the whole of our world could be enveloped in this scintillating glory, a grand corruption for all Eyal!
+Les cristaux sont une corruption des éléments de Maj'Eyal. Ces forces extérieures changent la composition même de la matière de notre monde. Cette grotte est vraiment un jardin de délices, une source de croissance et d'énergie. Qui sait jusqu'où ce jardin de merveilles pourrait s'étendre si nous l'encourageons davantage ? Peut-être que le monde entier pourrait être enveloppé dans cette gloire scintillante, une grande corruption pour toute Eyal !
 
-I have begun to train myself in controlling this "blight". It takes much energy, draining my very vim, but I can feel the tremendous power behind it. I must tap into it more...]], "_t")
-t("research journal part 5", "research journal part 5", "_t")
+J'ai commencé à m'entraîner à contrôler ce "fléau". Cela demande beaucoup d'énergie, drainant ma propre vitae, mais je peux sentir l'immense puissance qui se cache derrière. Je dois y puiser davantage...]], "_t")
+t("research journal part 5", "journal de recherche, partie 5", "_t")
 t([[I sought to reach out and touch the abyss, but I found it touched me first... I have been blessed, I have been fully awoken!
 
 There is a wonder here, a wonder beyond all else I have ever seen. A crystal of amazing intricacy and beauty, with a halo of power that echoes of the original energies of the Spellblaze. All the power that our ancestors unlocked, mixed with the glorious corruption that it triggered. What beauty - what tremendous beauty!
 
 I felt it touch me, I felt it reach into my heart and imbue me with its strength. I stood entranced as its energy flowed into me. Oh how the blood now courses through my veins! Blood corrupted with true power!
 
-I see now the path that lies before me. The Spellblaze was not a curse, it was a blessing. I must open our people's eyes to the glory that our race has unlocked! I shall bring the wonders of this corruption to the whole world!]], [[I sought to reach out and touch the abyss, but I found it touched me first... I have been blessed, I have been fully awoken!
+I see now the path that lies before me. The Spellblaze was not a curse, it was a blessing. I must open our people's eyes to the glory that our race has unlocked! I shall bring the wonders of this corruption to the whole world!]], [[J'ai cherché à tendre la main et à toucher l'abîme, mais j'ai découvert qu'il m'avait touché en premier... J'ai été béni, j'ai été pleinement éveillé !
 
-There is a wonder here, a wonder beyond all else I have ever seen. A crystal of amazing intricacy and beauty, with a halo of power that echoes of the original energies of the Spellblaze. All the power that our ancestors unlocked, mixed with the glorious corruption that it triggered. What beauty - what tremendous beauty!
+Il y a ici une merveille, une merveille au-delà de tout ce que j'ai jamais vu. Un cristal d'une complexité et d'une beauté étonnantes, avec un halo de puissance qui fait écho aux énergies originales de la Brûlure Magique. Tout le pouvoir que nos ancêtres ont libéré, mêlé à la glorieuse corruption qu'il a déclenchée. Quelle beauté - quelle beauté immense !
 
-I felt it touch me, I felt it reach into my heart and imbue me with its strength. I stood entranced as its energy flowed into me. Oh how the blood now courses through my veins! Blood corrupted with true power!
+Je l'ai senti me toucher, je l'ai senti atteindre mon coeur et m'imprégner de sa force. Je suis resté en transe tandis que son énergie coulait en moi. Oh, comme le sang coule maintenant dans mes veines ! Du sang corrompu par un véritable pouvoir !
 
-I see now the path that lies before me. The Spellblaze was not a curse, it was a blessing. I must open our people's eyes to the glory that our race has unlocked! I shall bring the wonders of this corruption to the whole world!]], "_t")
-t("exploration journal", "exploration journal", "_t")
+Je vois maintenant le chemin qui s'ouvre devant moi. La Brûlure Magique n'était pas une malédiction, c'était une bénédiction. Je dois ouvrir les yeux de notre peuple sur la gloire que notre race a débloquée ! J'apporterai les merveilles de cette corruption au monde entier !]], "_t")
+t("exploration journal", "journal d'exploration", "_t")
 t([[#{italic}#10th Mirth, Year 122 of the Age of Ascendancy#{normal}#
 The council has seen fit to allow me to investigate the scintillating caverns after that Rhaloren madman started raving on the streets about how someone had "befouled" them... I do not see any such befoulment, but neither do I see the moving crystals this place was rumoured to have. There are oddly misplaced crystal shards, which seem to have sheared off of something larger, but hardly anything spectacular.
 
@@ -17483,91 +17472,85 @@ The council has seen fit to allow me to investigate the scintillating caverns af
 It's strange, really.. from the fragments I've been able to find, they seem to adhere to the ethereal geometry of magics - the red fragments seem to be pieces of fire magic from their geometry; the blue adheres to water, etc... there also seem to be pieces of deformed crystal, as though some terrible power warped whatever colour some of these crystals used to be into something they were never intended to be - is this the "befoulment" the madman raved about?
 
 #{italic}#3rd Summertide, Year 122 of the Age of Ascendancy#{normal}#
-Well... that was certainly unexpected. There may be some truth to the rumours that these crystals can move about, or at least that they have some will of their own - I was just about to finish my investigation of the caves, when in the very last part of the cave I hadn't yet explored, I saw what appeared to be two giant... legs, growing from the cavern. I was immediately overcome by feelings of fear and malice, and not my own - that crystal sent them to me, that I was unwelcome here, that it was not yet finished. I dare not tell the council of my cowardice, so I shall... invent a more fitting report in a much safer place. If some wayward adventurer finds these notes, it is my surmise that whomever destroyed the original crystals left such a strong impression of strength and will that the rudimentary intelligence governing them decided the form of its destroyer was stronger than the original, crystalline shapes.]], [[#{italic}#10th Mirth, Year 122 of the Age of Ascendancy#{normal}#
-The council has seen fit to allow me to investigate the scintillating caverns after that Rhaloren madman started raving on the streets about how someone had "befouled" them... I do not see any such befoulment, but neither do I see the moving crystals this place was rumoured to have. There are oddly misplaced crystal shards, which seem to have sheared off of something larger, but hardly anything spectacular.
+Well... that was certainly unexpected. There may be some truth to the rumours that these crystals can move about, or at least that they have some will of their own - I was just about to finish my investigation of the caves, when in the very last part of the cave I hadn't yet explored, I saw what appeared to be two giant... legs, growing from the cavern. I was immediately overcome by feelings of fear and malice, and not my own - that crystal sent them to me, that I was unwelcome here, that it was not yet finished. I dare not tell the council of my cowardice, so I shall... invent a more fitting report in a much safer place. If some wayward adventurer finds these notes, it is my surmise that whomever destroyed the original crystals left such a strong impression of strength and will that the rudimentary intelligence governing them decided the form of its destroyer was stronger than the original, crystalline shapes.]], [[#{italic}#10 Gaieté, An 122 de l'Ère de l'Ascendance#{normal}#
+Le conseil a jugé bon de m'autoriser à enquêter sur les grottes scintillantes après que ce fou Rhaloren a commencé à délirer dans les rues sur la façon dont quelqu'un les avait "souillées"... Je ne vois aucune souillure de ce genre, mais je ne vois pas non plus les cristaux mouvants dont cet endroit était censé disposer. Il y a des éclats de cristal étrangement déplacés, qui semblent s'être détachés de quelque chose de plus gros, mais rien de vraiment spectaculaire.
 
-#{italic}#2nd Summertide, Year 122 of the Age of Ascendancy#{normal}#
-It's strange, really.. from the fragments I've been able to find, they seem to adhere to the ethereal geometry of magics - the red fragments seem to be pieces of fire magic from their geometry; the blue adheres to water, etc... there also seem to be pieces of deformed crystal, as though some terrible power warped whatever colour some of these crystals used to be into something they were never intended to be - is this the "befoulment" the madman raved about?
+#{italic}#2 Estival, An 122 de l'Ère de l'Ascendance#{normal}#
+C'est étrange, vraiment... d'après les fragments que j'ai pu trouver, ils semblent adhérer à la géométrie éthérée de la magie - les fragments rouges semblent être des morceaux de magie du feu de par leur géométrie ; le bleu adhère à l'eau, etc... il semble aussi y avoir des morceaux de cristal déformé, comme si une puissance terrible avait déformé la couleur que certains de ces cristaux étaient censés avoir en quelque chose qu'ils n'étaient jamais destinés à être - est-ce là la "souillure" dont le fou délirait ?
 
-#{italic}#3rd Summertide, Year 122 of the Age of Ascendancy#{normal}#
-Well... that was certainly unexpected. There may be some truth to the rumours that these crystals can move about, or at least that they have some will of their own - I was just about to finish my investigation of the caves, when in the very last part of the cave I hadn't yet explored, I saw what appeared to be two giant... legs, growing from the cavern. I was immediately overcome by feelings of fear and malice, and not my own - that crystal sent them to me, that I was unwelcome here, that it was not yet finished. I dare not tell the council of my cowardice, so I shall... invent a more fitting report in a much safer place. If some wayward adventurer finds these notes, it is my surmise that whomever destroyed the original crystals left such a strong impression of strength and will that the rudimentary intelligence governing them decided the form of its destroyer was stronger than the original, crystalline shapes.]], "_t")
---]==]
-
+#{italic}#3 Estival, An 122 de l'Ère de l'Ascendance#{normal}#
+Eh bien... c'était certainement inattendu. Il peut y avoir une part de vérité dans les rumeurs selon lesquelles ces cristaux peuvent se déplacer, ou du moins qu'ils ont une volonté propre - j'étais sur le point de terminer mon enquête des grottes, quand dans la toute dernière partie de la grotte que je n'avais pas encore explorée, j'ai vu ce qui semblait être deux... jambes géantes, poussant de la grotte. J'ai été immédiatement submergé par des sentiments de peur et de malice, et non les miens - ce cristal me les a envoyés, indiquant que je n'étais pas le bienvenu ici, que ce n'était pas encore terminé. Je n'ose pas dire au conseil ma lâcheté, alors je vais... inventer un rapport plus approprié dans un endroit beaucoup plus sûr. Si un aventurier égaré trouve ces notes, je suppose que quiconque a détruit les cristaux originaux a laissé une telle impression de force et de volonté que l'intelligence rudimentaire qui les gouverne a décidé que la forme de son destructeur était plus forte que les formes cristallines originales.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/shertul.lua"
 
-
+t("first mural painting", "première peinture murale", "_t")
+t([[You see here a mural showing a dark and tortured world. Large, god-like figures with powerful auras fight each other, and the earth is torn beneath their feet.
+There is some text underneath ]], [[Vous voyez ici une peinture murale montrant un monde sombre et torturé. De grandes figures divines aux auras puissantes se battent entre elles, et la terre est déchirée sous leurs pieds.
+Il y a du texte en dessous ]], "_t")
+t("which you do not understand: #{italic}#'Sho ch'zun Eyal mor donuth, ik ranaheli donoth trun ze.'#{normal}#", "que vous ne comprenez pas : #{italic}#'Sho ch'zun Eyal mor donuth, ik ranaheli donoth trun ze.'#{normal}#", "_t")
+t("#{italic}#'In the beginning the world was dark, and the petty gods fought over their broken lands.'#{normal}#", "#{italic}#'Au commencement, le monde était sombre, et les dieux mesquins se battaient pour leurs terres brisées.'#{normal}#", "_t")
+t("second mural painting", "deuxième peinture murale", "_t")
+t([[In this picture a huge god with glowing eyes towers above the land, and in his right hand he holds high the sun. The other gods are running from him, wincing from the light.
+There is some text underneath ]], [[Sur cette image, un dieu immense aux yeux brillants domine la terre, et dans sa main droite, il porte haut le soleil. Les autres dieux fuient devant lui, grimaçant face à la lumière.
+Il y a du texte en dessous ]], "_t")
+t("which you do not understand: #{italic}#'Fa AMAKTHEL tabak, ik koru bazan tro yu, ik ranaheli tobol don schek ruun. Ik blana dem Soli as banafel ik goriz uf Eyal ik blod, \"Tro fasa goru domus asam, ik goru domit tro Eyal.\"'#{normal}#", "que vous ne comprenez pas : #{italic}#'Fa AMAKTHEL tabak, ik koru bazan tro yu, ik ranaheli tobol don schek ruun. Ik blana dem Soli as banafel ik goriz uf Eyal ik blod, \"Tro fasa goru domus asam, ik goru domit tro Eyal.\"'#{normal}#", "_t")
+t("#{italic}#'But AMAKTHEL came, and his might surpassed all else, and the petty gods fled before his glory. And he made the Sun from his breath and held it above the world and said, \"All that this light touches shall be mine, and this light shall touch all the world.'#{normal}#", "#{italic}#'Mais AMAKTHEL est venu, sa puissance a surpassé tout le reste, et les dieux mesquins ont fui devant sa gloire. Il a créé le Soleil à partir de son souffle, l'a tenu au-dessus du monde et a dit : \"Tout ce que cette lumière touche sera à moi, et cette lumière touchera le monde entier.\"'#{normal}#", "_t")
+t("third mural painting", "troisième peinture murale", "_t")
+t([[This picture shows the huge god holding some smaller figures in his hands and pointing out at the lands beyond. You imagine these figures must be the Sher'Tul.
+There is some text beneath ]], [[Cette image montre l'immense dieu tenant quelques petites figures dans ses mains et pointant vers les terres au-delà. Vous imaginez que ces figures doivent être les Sher'Tul.
+Il y a du texte en dessous ]], "_t")
+t("which you do not understand: #{italic}#'Ik AMAKTHEL cosio SHER'TUL, ik baladath peris furko masa bren doth benna zi, ik blod is \"Fen makel ath goru domus ik denz tro ala fron.\"'#{normal}#", "que vous ne comprenez pas : #{italic}#'Ik AMAKTHEL cosio SHER'TUL, ik baladath peris furko masa bren doth benna zi, ik blod is \"Fen makel ath goru domus ik denz tro ala fron.\"'#{normal}#", "_t")
+t("#{italic}#'And AMAKTHEL made the SHER'TUL, and gave unto us the powers to achieve all that we set our will to, and said to us \"Go forth to where the light touches and take all for your own.\"'#{normal}#", "#{italic}#'Et AMAKTHEL a créé les SHER'TUL, nous a donné les pouvoirs pour accomplir tout ce à quoi nous destinions notre volonté, et nous a dit : \"Allez là où la lumière touche et prenez tout pour vous.\"'#{normal}#", "_t")
+t("fourth mural painting", "quatrième peinture murale", "_t")
+t([[You see a mural showing a huge metropolis made of crystal, with small islands of stone floating in the air behind it. In the foreground is sitting a Sher'Tul, with a hand stretched up to the sky.
+There is some text beneath ]], [[Vous voyez une peinture murale montrant une immense métropole faite de cristal, avec de petites îles de pierre flottant dans les airs derrière elle. Au premier plan est assis un Sher'Tul, une main tendue vers le ciel.
+Il y a du texte en dessous ]], "_t")
+t("which you do not understand: #{italic}#'Batialatoth ro Eyal, ik rinsi akan fronseth sumit kurameth ik linnet pora gasios aeren. Ach nen beswar goreg.'#{normal}#", "que vous ne comprenez pas : #{italic}#'Batialatoth ro Eyal, ik rinsi akan fronseth sumit kurameth ik linnet pora gasios aeren. Ach nen beswar goreg.'#{normal}#", "_t")
+t("#{italic}#'We conquered the world, and built for ourselves towering cities of crystal and fortresses that travelled the skies. But some were not content...'#{normal}#", "#{italic}#'Nous avons conquis le monde et construit pour nous-mêmes des cités de cristal imposantes et des forteresses qui voyageaient dans les cieux. Mais certains n'étaient pas satisfaits... '#{normal}#", "_t")
+t("fifth mural painting", "cinquième peinture murale", "_t")
+t([[This mural shows nine Sher'Tul standing side by side, each holding aloft a dark weapon. Your eyes are drawn to a runed staff held by the red-robed figure in the centre. It seems familiar somehow...
+There is some text beneath ]], [[Cette peinture murale montre neuf Sher'Tul côte à côte, chacun brandissant une arme sombre. Vos yeux sont attirés par un bâton runique tenu par la figure vêtue de rouge au centre. Il semble familier, d'une certaine manière...
+Il y a du texte en dessous ]], "_t")
+t("which you do not understand: #{italic}#'Zubadon koref noch hesen, ik dorudon koref noch pasor. Cosief maro dondreth karatu - Ranaduzil - ik jein belsan ovrienis.'#{normal}#", "que vous ne comprenez pas : #{italic}#'Zubadon koref noch hesen, ik dorudon koref noch pasor. Cosief maro dondreth karatu - Ranaduzil - ik jein belsan ovrienis.'#{normal}#", "_t")
+t("#{italic}#'Of pride we accepted no equals, and of greed we accepted no servitude. We made for ourselves terrible weapons - the Godslayers - and nine were chosen to wield them.'#{normal}#", "#{italic}#'Par fierté, nous n'avons accepté aucun égal, et par avidité, nous n'avons accepté aucune servitude. Nous avons fabriqué pour nous-mêmes des armes terribles - les Tueuses de Dieux - et neuf ont été choisis pour les manier.'#{normal}#", "_t")
+t("sixth mural painting", "sixième peinture murale", "_t")
+t([[You see images of epic battles, with Sher'Tul warriors fighting and slaying god-like figures over ten times their size.
+There is some text underneath ]], [[Vous voyez des images de batailles épiques, avec des guerriers Sher'Tul combattant et tuant des figures divines dix fois plus grandes qu'eux.
+Il y a du texte en dessous ]], "_t")
+t("which you do not understand: #{italic}#'Ranaheli meth dondruil ik duzin, ik leisif konru as neremin. Eyal matath bre sun. Ach unu rana soriton...'#{normal}#", "que vous ne comprenez pas : #{italic}#'Ranaheli meth dondruil ik duzin, ik leisif konru as neremin. Eyal matath bre sun. Ach unu rana soriton...'#{normal}#", "_t")
+t("#{italic}#'The petty gods were hunted down and slain, and their spirits rent to nothing. The land became our own. But one god remained...'#{normal}#", "#{italic}#'Les dieux mesquins furent traqués et tués, et leurs esprits réduits à néant. La terre devint la nôtre. Mais un dieu restait...'#{normal}#", "_t")
+t("seventh mural painting", "septième peinture murale", "_t")
+t([[You see the red-robed Sher'Tul striking the huge god with the dark, runed staff. Bodies litter the floor around them, and the golden throne behind is bathed in blood. The light in the god's eyes seems faded.
+There is some text underneath ]], [[Vous voyez le Sher'Tul vêtu de rouge frapper l'immense dieu avec un sombre bâton runique. Des corps jonchent le sol autour d'eux, et le trône doré derrière est baigné de sang. La lumière dans les yeux du dieu semble s'être éteinte.
+Il y a du texte en dessous ]], "_t")
+t("which you do not understand: #{italic}#'Trobazan AMAKTHEL konruata as va aurin leas, ik mab peli zort akan hun, penetar dondeberoth.'#{normal}#", "que vous ne comprenez pas : #{italic}#'Trobazan AMAKTHEL konruata as va aurin leas, ik mab peli zort akan hun, penetar dondeberoth.'#{normal}#", "_t")
+t("#{italic}#'The almighty AMAKTHEL was assaulted on his golden throne, and though many died before his feet, he was finally felled.'#{normal}#", "#{italic}#'Le tout-puissant AMAKTHEL fut attaqué sur son trône doré et, bien que beaucoup moururent à ses pieds, il fut finalement terrassé.'#{normal}#", "_t")
+t("eighth mural painting", "huitième peinture murale", "_t")
+t([[The large mural shows the great god spread on the ground, with the dark staff held against his chest. Sher'Tul surround him, some hacking off his limbs, cutting out his tongue, and binding him with chains. A burst of light flares up from where a tall Sher'Tul warrior is gouging his eye with a black-bladed halberd. In the background a Sher'Tul mage beckons to a huge chasm in the ground.
+The text beneath says simply ]], [[La grande peinture murale montre le grand dieu étalé au sol, avec le bâton sombre tenu contre sa poitrine. Des Sher'Tul l'entourent, certains lui coupant les membres, lui arrachant la langue et l'enchaînant. Une explosion de lumière jaillit de l'endroit où un grand guerrier Sher'Tul lui crève l'oeil avec une hallebarde à lame noire. En arrière-plan, un mage Sher'Tul fait signe vers un gouffre immense dans le sol.
+Le texte en dessous dit simplement ]], "_t")
+t("#{italic}#'The Great Sin.'#{normal}#", "#{italic}#'Le Grand Péché.'#{normal}#", "_t")
+t("ninth mural painting", "neuvième peinture murale", "_t")
+t("This final mural has been ruined, with deep scores and scratches etched across its surface. All you can see of the original appears to be flames.", "Cette peinture murale finale a été ruinée, avec des entailles et des éraflures profondes gravées sur sa surface. Tout ce que vous pouvez voir de l'original semble être des flammes.", "_t")
+t("Yiilkgur raising toward the sky", "Yiilkgur s'élevant vers le ciel", "_t")
+t("Yiilkgur, the Sher'Tul Fortress is re-activated and raises from the depths of Nur toward the sky.", "Yiilkgur, la Forteresse Sher'Tul est réactivée et s'élève des profondeurs de Nur vers le ciel.", "_t")
+t("a living Sher'Tul?!", "un Sher'Tul vivant ?!", "_t")
+t("You somehow got teleported to an other Sher'Tul Fortress, in a very alien location. There you saw a living Sher'Tul.", "D'une manière ou d'une autre, vous avez été téléporté dans une autre Forteresse Sher'Tul, dans un lieu très étranger. Là, vous avez vu un Sher'Tul vivant.", "_t")
+t("lost farportal", "portail lointain perdu", "_t")
+t("%s boldly entering a Sher'Tul farportal.", "%s entre audacieusement dans un portail lointain Sher'Tul.", "tformat")
 -- texte non traduit
 --[==[
 t("sher'tul", "sher'tul", "newLore category")
-t("first mural painting", "first mural painting", "_t")
-t([[You see here a mural showing a dark and tortured world. Large, god-like figures with powerful auras fight each other, and the earth is torn beneath their feet.
-There is some text underneath ]], [[You see here a mural showing a dark and tortured world. Large, god-like figures with powerful auras fight each other, and the earth is torn beneath their feet.
-There is some text underneath ]], "_t")
-t("which you do not understand: #{italic}#'Sho ch'zun Eyal mor donuth, ik ranaheli donoth trun ze.'#{normal}#", "which you do not understand: #{italic}#'Sho ch'zun Eyal mor donuth, ik ranaheli donoth trun ze.'#{normal}#", "_t")
-t("#{italic}#'In the beginning the world was dark, and the petty gods fought over their broken lands.'#{normal}#", "#{italic}#'In the beginning the world was dark, and the petty gods fought over their broken lands.'#{normal}#", "_t")
-t("second mural painting", "second mural painting", "_t")
-t([[In this picture a huge god with glowing eyes towers above the land, and in his right hand he holds high the sun. The other gods are running from him, wincing from the light.
-There is some text underneath ]], [[In this picture a huge god with glowing eyes towers above the land, and in his right hand he holds high the sun. The other gods are running from him, wincing from the light.
-There is some text underneath ]], "_t")
-t("which you do not understand: #{italic}#'Fa AMAKTHEL tabak, ik koru bazan tro yu, ik ranaheli tobol don schek ruun. Ik blana dem Soli as banafel ik goriz uf Eyal ik blod, \"Tro fasa goru domus asam, ik goru domit tro Eyal.\"'#{normal}#", "which you do not understand: #{italic}#'Fa AMAKTHEL tabak, ik koru bazan tro yu, ik ranaheli tobol don schek ruun. Ik blana dem Soli as banafel ik goriz uf Eyal ik blod, \"Tro fasa goru domus asam, ik goru domit tro Eyal.\"'#{normal}#", "_t")
-t("#{italic}#'But AMAKTHEL came, and his might surpassed all else, and the petty gods fled before his glory. And he made the Sun from his breath and held it above the world and said, \"All that this light touches shall be mine, and this light shall touch all the world.'#{normal}#", "#{italic}#'But AMAKTHEL came, and his might surpassed all else, and the petty gods fled before his glory. And he made the Sun from his breath and held it above the world and said, \"All that this light touches shall be mine, and this light shall touch all the world.'#{normal}#", "_t")
-t("third mural painting", "third mural painting", "_t")
-t([[This picture shows the huge god holding some smaller figures in his hands and pointing out at the lands beyond. You imagine these figures must be the Sher'Tul.
-There is some text beneath ]], [[This picture shows the huge god holding some smaller figures in his hands and pointing out at the lands beyond. You imagine these figures must be the Sher'Tul.
-There is some text beneath ]], "_t")
-t("which you do not understand: #{italic}#'Ik AMAKTHEL cosio SHER'TUL, ik baladath peris furko masa bren doth benna zi, ik blod is \"Fen makel ath goru domus ik denz tro ala fron.\"'#{normal}#", "which you do not understand: #{italic}#'Ik AMAKTHEL cosio SHER'TUL, ik baladath peris furko masa bren doth benna zi, ik blod is \"Fen makel ath goru domus ik denz tro ala fron.\"'#{normal}#", "_t")
-t("#{italic}#'And AMAKTHEL made the SHER'TUL, and gave unto us the powers to achieve all that we set our will to, and said to us \"Go forth to where the light touches and take all for your own.\"'#{normal}#", "#{italic}#'And AMAKTHEL made the SHER'TUL, and gave unto us the powers to achieve all that we set our will to, and said to us \"Go forth to where the light touches and take all for your own.\"'#{normal}#", "_t")
-t("fourth mural painting", "fourth mural painting", "_t")
-t([[You see a mural showing a huge metropolis made of crystal, with small islands of stone floating in the air behind it. In the foreground is sitting a Sher'Tul, with a hand stretched up to the sky.
-There is some text beneath ]], [[You see a mural showing a huge metropolis made of crystal, with small islands of stone floating in the air behind it. In the foreground is sitting a Sher'Tul, with a hand stretched up to the sky.
-There is some text beneath ]], "_t")
-t("which you do not understand: #{italic}#'Batialatoth ro Eyal, ik rinsi akan fronseth sumit kurameth ik linnet pora gasios aeren. Ach nen beswar goreg.'#{normal}#", "which you do not understand: #{italic}#'Batialatoth ro Eyal, ik rinsi akan fronseth sumit kurameth ik linnet pora gasios aeren. Ach nen beswar goreg.'#{normal}#", "_t")
-t("#{italic}#'We conquered the world, and built for ourselves towering cities of crystal and fortresses that travelled the skies. But some were not content...'#{normal}#", "#{italic}#'We conquered the world, and built for ourselves towering cities of crystal and fortresses that travelled the skies. But some were not content...'#{normal}#", "_t")
-t("fifth mural painting", "fifth mural painting", "_t")
-t([[This mural shows nine Sher'Tul standing side by side, each holding aloft a dark weapon. Your eyes are drawn to a runed staff held by the red-robed figure in the centre. It seems familiar somehow...
-There is some text beneath ]], [[This mural shows nine Sher'Tul standing side by side, each holding aloft a dark weapon. Your eyes are drawn to a runed staff held by the red-robed figure in the centre. It seems familiar somehow...
-There is some text beneath ]], "_t")
-t("which you do not understand: #{italic}#'Zubadon koref noch hesen, ik dorudon koref noch pasor. Cosief maro dondreth karatu - Ranaduzil - ik jein belsan ovrienis.'#{normal}#", "which you do not understand: #{italic}#'Zubadon koref noch hesen, ik dorudon koref noch pasor. Cosief maro dondreth karatu - Ranaduzil - ik jein belsan ovrienis.'#{normal}#", "_t")
-t("#{italic}#'Of pride we accepted no equals, and of greed we accepted no servitude. We made for ourselves terrible weapons - the Godslayers - and nine were chosen to wield them.'#{normal}#", "#{italic}#'Of pride we accepted no equals, and of greed we accepted no servitude. We made for ourselves terrible weapons - the Godslayers - and nine were chosen to wield them.'#{normal}#", "_t")
-t("sixth mural painting", "sixth mural painting", "_t")
-t([[You see images of epic battles, with Sher'Tul warriors fighting and slaying god-like figures over ten times their size.
-There is some text underneath ]], [[You see images of epic battles, with Sher'Tul warriors fighting and slaying god-like figures over ten times their size.
-There is some text underneath ]], "_t")
-t("which you do not understand: #{italic}#'Ranaheli meth dondruil ik duzin, ik leisif konru as neremin. Eyal matath bre sun. Ach unu rana soriton...'#{normal}#", "which you do not understand: #{italic}#'Ranaheli meth dondruil ik duzin, ik leisif konru as neremin. Eyal matath bre sun. Ach unu rana soriton...'#{normal}#", "_t")
-t("#{italic}#'The petty gods were hunted down and slain, and their spirits rent to nothing. The land became our own. But one god remained...'#{normal}#", "#{italic}#'The petty gods were hunted down and slain, and their spirits rent to nothing. The land became our own. But one god remained...'#{normal}#", "_t")
-t("seventh mural painting", "seventh mural painting", "_t")
-t([[You see the red-robed Sher'Tul striking the huge god with the dark, runed staff. Bodies litter the floor around them, and the golden throne behind is bathed in blood. The light in the god's eyes seems faded.
-There is some text underneath ]], [[You see the red-robed Sher'Tul striking the huge god with the dark, runed staff. Bodies litter the floor around them, and the golden throne behind is bathed in blood. The light in the god's eyes seems faded.
-There is some text underneath ]], "_t")
-t("which you do not understand: #{italic}#'Trobazan AMAKTHEL konruata as va aurin leas, ik mab peli zort akan hun, penetar dondeberoth.'#{normal}#", "which you do not understand: #{italic}#'Trobazan AMAKTHEL konruata as va aurin leas, ik mab peli zort akan hun, penetar dondeberoth.'#{normal}#", "_t")
-t("#{italic}#'The almighty AMAKTHEL was assaulted on his golden throne, and though many died before his feet, he was finally felled.'#{normal}#", "#{italic}#'The almighty AMAKTHEL was assaulted on his golden throne, and though many died before his feet, he was finally felled.'#{normal}#", "_t")
-t("eighth mural painting", "eighth mural painting", "_t")
-t([[The large mural shows the great god spread on the ground, with the dark staff held against his chest. Sher'Tul surround him, some hacking off his limbs, cutting out his tongue, and binding him with chains. A burst of light flares up from where a tall Sher'Tul warrior is gouging his eye with a black-bladed halberd. In the background a Sher'Tul mage beckons to a huge chasm in the ground.
-The text beneath says simply ]], [[The large mural shows the great god spread on the ground, with the dark staff held against his chest. Sher'Tul surround him, some hacking off his limbs, cutting out his tongue, and binding him with chains. A burst of light flares up from where a tall Sher'Tul warrior is gouging his eye with a black-bladed halberd. In the background a Sher'Tul mage beckons to a huge chasm in the ground.
-The text beneath says simply ]], "_t")
 t("#{italic}#'Meas Abar.'#{normal}#", "#{italic}#'Meas Abar.'#{normal}#", "_t")
-t("#{italic}#'The Great Sin.'#{normal}#", "#{italic}#'The Great Sin.'#{normal}#", "_t")
-t("ninth mural painting", "ninth mural painting", "_t")
-t("This final mural has been ruined, with deep scores and scratches etched across its surface. All you can see of the original appears to be flames.", "This final mural has been ruined, with deep scores and scratches etched across its surface. All you can see of the original appears to be flames.", "_t")
-t("Yiilkgur raising toward the sky", "Yiilkgur raising toward the sky", "_t")
-t("Yiilkgur, the Sher'Tul Fortress is re-activated and raises from the depths of Nur toward the sky.", "Yiilkgur, the Sher'Tul Fortress is re-activated and raises from the depths of Nur toward the sky.", "_t")
-t("a living Sher'Tul?!", "a living Sher'Tul?!", "_t")
-t("You somehow got teleported to an other Sher'Tul Fortress, in a very alien location. There you saw a living Sher'Tul.", "You somehow got teleported to an other Sher'Tul Fortress, in a very alien location. There you saw a living Sher'Tul.", "_t")
-t("lost farportal", "lost farportal", "_t")
-t("%s boldly entering a Sher'Tul farportal.", "%s boldly entering a Sher'Tul farportal.", "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/lore/slazish.lua"
 
-
--- texte non traduit
---[==[
-t("slazish fens", "slazish fens", "newLore category")
-t("conch (1)", "conch (1)", "_t")
+t("slazish fens", "marais des slazish", "newLore category")
+t("conch (1)", "conque (1)", "_t")
 t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ear you hear a lyrical voice emanating from within:#{normal}#
 
 "Report from Tidewarden Isimon to Tidebringer Zoisla. Alucia and I have, um, begun scouting the outer perimeter. The, uh, the terrain is proving difficult to navigate, but I'm sure we'll make, uh, quick progress. We shall, uh, we'll continue now... in the name of the Saviour!
@@ -17584,34 +17567,34 @@ t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ea
 
 "Oh, who would catch us out here? Come on!"
 
-"I, uh, well, I suppose... I should stop this recording."]], [[#{italic}#Touching the conch makes it emit a sound. As you put it to your ear you hear a lyrical voice emanating from within:#{normal}#
+"I, uh, well, I suppose... I should stop this recording."]], [[#{italic}#En touchant la conque, un son se fait entendre. En la portant à votre oreille, vous entendez une voix lyrique émanant de l'intérieur :#{normal}#
 
-"Report from Tidewarden Isimon to Tidebringer Zoisla. Alucia and I have, um, begun scouting the outer perimeter. The, uh, the terrain is proving difficult to navigate, but I'm sure we'll make, uh, quick progress. We shall, uh, we'll continue now... in the name of the Saviour!
+"Rapport du Gardien des Marées Isimon à la Porteuse de Marées Zoisla. Alucia et moi avons, euh, commencé à explorer le périmètre extérieur. Le, euh, le terrain s'avère difficile à parcourir, mais je suis sûr que nous ferons, euh, des progrès rapides. Nous allons, euh, nous allons continuer maintenant... au nom du Sauveur !
 
-"...Um, you think that was okay?"
+"...Euh, tu penses que c'était correct ?"
 
-#{italic}#A second, lighter voice joins in.#{normal}# "Yeah, that was fine, Isimon. We'll make a Myrmidon of you yet!"
+#{italic}#Une seconde voix, plus légère, se joint à la première.#{normal}# "Oui, c'était très bien, Isimon. On finira bien par faire de toi un Myrmidon !"
 
-"Heh, I wouldn't be so sure of that... Guess I'll turn this off and we'll get going."
+"Hé, je ne serais pas si sûr de ça... Je suppose que je vais éteindre ça et qu'on va y aller."
 
-"Hey, what's the rush? This is the first time we've been alone from the others all week. Maybe we could..."
+"Hé, pourquoi cette précipitation ? C'est la première fois qu'on est seuls, loin des autres, de toute la semaine. Peut-être qu'on pourrait..."
 
-"What? Surely you don't mean-? What if someone comes along?"
+"Quoi ? Tu ne veux sûrement pas dire... ? Et si quelqu'un arrivait ?"
 
-"Oh, who would catch us out here? Come on!"
+"Oh, qui nous surprendrait ici ? Allez !"
 
-"I, uh, well, I suppose... I should stop this recording."]], "_t")
-t("conch (2)", "conch (2)", "_t")
+"Je, euh, eh bien, je suppose que... je devrais arrêter cet enregistrement."]], "_t")
+t("conch (2)", "conque (2)", "_t")
 t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ear you hear a deep voice emanating from within:#{normal}#
 
 "Waverider Tiamel reporting. Immediate perimeter is secure, though I have sent some members to scout the surrounding areas. I will feel better when we have mapped the land and are ready to sustain a larger team. Still, we should be perfectly safe as long as the landdwellers do not know of our presence. And even if they dare come here the magics of Zoisla will put their puny star worship to shame.
 
-"I fear that some of the team are not taking our mission seriously. Do they not know the responsibility the Saviour has laid on us? We are his arms and tails in this far land, and it is our duty to protect the farportal which will help bring us to greater strengths. We are his first line of attack against the blood relatives of those who doomed our race so long ago. And with our efforts we shall push forward our race to new boundaries, laying the path for the bright future our great Saviour has planned for us. Long live Slasul! Long live the legend of the Devourer!"]], [[#{italic}#Touching the conch makes it emit a sound. As you put it to your ear you hear a deep voice emanating from within:#{normal}#
+"I fear that some of the team are not taking our mission seriously. Do they not know the responsibility the Saviour has laid on us? We are his arms and tails in this far land, and it is our duty to protect the farportal which will help bring us to greater strengths. We are his first line of attack against the blood relatives of those who doomed our race so long ago. And with our efforts we shall push forward our race to new boundaries, laying the path for the bright future our great Saviour has planned for us. Long live Slasul! Long live the legend of the Devourer!"]], [[#{italic}#En touchant la conque, un son se fait entendre. En la portant à votre oreille, vous entendez une voix profonde émanant de l'intérieur :#{normal}#
 
-"Waverider Tiamel reporting. Immediate perimeter is secure, though I have sent some members to scout the surrounding areas. I will feel better when we have mapped the land and are ready to sustain a larger team. Still, we should be perfectly safe as long as the landdwellers do not know of our presence. And even if they dare come here the magics of Zoisla will put their puny star worship to shame.
+"Rapport du Chevaucheur de vagues Tiamel. Le périmètre immédiat est sécurisé, bien que j'aie envoyé quelques membres explorer les zones environnantes. Je me sentirai mieux quand nous aurons cartographié le terrain et que nous serons prêts à accueillir une équipe plus importante. Pourtant, nous devrions être parfaitement en sécurité tant que les habitants de la terre ignorent notre présence. Et même s'ils osent venir ici, les magies de Zoisla feront passer leur misérable culte de l'étoile pour une honte.
 
-"I fear that some of the team are not taking our mission seriously. Do they not know the responsibility the Saviour has laid on us? We are his arms and tails in this far land, and it is our duty to protect the farportal which will help bring us to greater strengths. We are his first line of attack against the blood relatives of those who doomed our race so long ago. And with our efforts we shall push forward our race to new boundaries, laying the path for the bright future our great Saviour has planned for us. Long live Slasul! Long live the legend of the Devourer!"]], "_t")
-t("conch (3)", "conch (3)", "_t")
+"Je crains que certains membres de l'équipe ne prennent pas notre mission au sérieux. Ne connaissent-ils pas la responsabilité que le Sauveur a placée sur nous ? Nous sommes ses bras et ses queues dans cette terre lointaine, et il est de notre devoir de protéger le portail lointain qui nous aidera à atteindre une plus grande puissance. Nous sommes sa première ligne d'attaque contre les parents de sang de ceux qui ont condamné notre race il y a si longtemps. Et grâce à nos efforts, nous ferons avancer notre race vers de nouvelles frontières, ouvrant la voie à l'avenir brillant que notre grand Sauveur a prévu pour nous. Longue vie à Slasul ! Longue vie à la légende du Dévoreur !"]], "_t")
+t("conch (3)", "conque (3)", "_t")
 t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ear you hear a charismatic and commanding voice emanating from within:#{normal}#
 
 "My fellow nagas! I do not envy you on your journey so far from our great Temple. But you have been chosen for a glorious mission, to establish a new outpost for invasion against the landwalkers. These are the cousins and descendants of those who abandoned us and left our race for dead. Whilst we have hidden beneath the waves for centuries, they prance about worshipping the sun! Well, their nightfall comes soon, and the dawn will rise with us as rulers of land and sea.
@@ -17620,25 +17603,19 @@ t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ea
 
 "Your immediate mission is clear, my friends. Ensure the farportal is correctly set up and secured, but take care, as the Sher'Tul magics used are still experimental. Then scout out the area and begin to fortify the surroundings, but do so in secret. When your job is done well I, your humble leader Slasul, shall be honoured to join you on the front line. Until then, swim safely my brothers and sisters, and do not forget our glory."
 
-]], [[#{italic}#Touching the conch makes it emit a sound. As you put it to your ear you hear a charismatic and commanding voice emanating from within:#{normal}#
+]], [[#{italic}#En touchant la conque, un son se fait entendre. En la portant à votre oreille, vous entendez une voix charismatique et autoritaire émanant de l'intérieur :#{normal}#
 
-"My fellow nagas! I do not envy you on your journey so far from our great Temple. But you have been chosen for a glorious mission, to establish a new outpost for invasion against the landwalkers. These are the cousins and descendants of those who abandoned us and left our race for dead. Whilst we have hidden beneath the waves for centuries, they prance about worshipping the sun! Well, their nightfall comes soon, and the dawn will rise with us as rulers of land and sea.
+"Mes chers nagas ! Je ne vous envie pas dans votre voyage si loin de notre grand Temple. Mais vous avez été choisis pour une mission glorieuse : établir un nouvel avant-poste pour l'invasion contre les marcheurs terrestres. Ce sont les cousins et descendants de ceux qui nous ont abandonnés et ont laissé notre race pour morte. Tandis que nous nous cachions sous les vagues pendant des siècles, ils gambadent en adorant le soleil ! Eh bien, leur crépuscule approche, et l'aube se lèvera avec nous en tant que maîtres de la terre et de la mer.
 
-"Do not despair that we are attacking this outpost instead of the orcs. My stratagem is carefully planned, and the Sunwall is too great a threat to my designs to be allowed to stand any longer. The orcs... will have their uses in the short term. But be assured, when our time comes there shall be none who can stand as equals against us. Our greatness cannot be quelled or submerged! Our long history of suffering will finally bring forth redemption!
+"Ne soyez pas désespérés parce que nous attaquons cet avant-poste au lieu des orcs. Mon stratagème est soigneusement planifié, et le Mur Solaire est une trop grande menace pour mes desseins pour qu'on le laisse tenir plus longtemps. Les orcs... auront leur utilité à court terme. Mais soyez assurés que lorsque notre heure viendra, personne ne pourra se tenir en égaux face à nous. Notre grandeur ne peut être réprimée ou submergée ! Notre longue histoire de souffrance apportera enfin la rédemption !
 
-"Your immediate mission is clear, my friends. Ensure the farportal is correctly set up and secured, but take care, as the Sher'Tul magics used are still experimental. Then scout out the area and begin to fortify the surroundings, but do so in secret. When your job is done well I, your humble leader Slasul, shall be honoured to join you on the front line. Until then, swim safely my brothers and sisters, and do not forget our glory."
-
-]], "_t")
---]==]
-
+"Votre mission immédiate est claire, mes amis. Assurez-vous que le portail lointain est correctement installé et sécurisé, mais soyez prudents, car les magies Sher'Tul utilisées sont encore expérimentales. Ensuite, explorez la zone et commencez à fortifier les alentours, mais faites-le en secret. Une fois votre travail accompli, moi, votre humble chef Slasul, serai honoré de vous rejoindre en première ligne. D'ici là, nagez prudemment mes frères et soeurs, et n'oubliez pas notre gloire."]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/spellblaze.lua"
 
 t("spellblaze", "brûlure magique", "newLore category")
--- texte non traduit
---[==[
-t("draft letter (mark of the spellblaze)", "draft letter (mark of the spellblaze)", "_t")
+t("draft letter (mark of the spellblaze)", "brouillon de lettre (marque de la Brûlure Magique)", "_t")
 t([[Dear Father,
 
 How glad you must be to hear from your "renegade" son. Do not worry overmuch; I keep myself and my group well hidden from your petty Council. I know how you fret about your status amongst those fools.
@@ -17652,33 +17629,26 @@ My Rhaloren have come far in the world, and we have learned many things. Oft we 
 As I write to you our final plans are in motion. Sleep well when you read this, for it may well be your last night before the Great Torment begins.
 
 With passionate detest,
-Your disobedient son]], [[Dear Father,
+Your disobedient son]], [[Cher Père,
 
-How glad you must be to hear from your "renegade" son. Do not worry overmuch; I keep myself and my group well hidden from your petty Council. I know how you fret about your status amongst those fools.
+Comme tu dois être heureux d'avoir des nouvelles de ton fils "renégat". Ne t'en fais pas trop ; je garde mon groupe et moi-même bien cachés de ton mesquin Conseil. Je sais à quel point tu te soucies de ton statut parmi ces imbéciles.
 
-I write to you to tell you that I have discovered something wonderful. In all my travels I could not have imagined a place so perfect as this. It is a remnant of the Great Spellblaze, a scar in the very fabric of Eyal. How beautiful it is! Ah, and what strength lies here too! You cannot possibly imagine, sitting idly in your little hall of stone.
+Je t'écris pour te dire que j'ai découvert quelque chose de merveilleux. Dans tous mes voyages, je n'aurais pu imaginer un endroit aussi parfait que celui-ci. C'est un vestige de la Grande Brûlure Magique, une cicatrice dans le tissu même d'Eyal. Comme c'est beau ! Ah, et quelle force réside ici aussi ! Tu ne peux absolument pas imaginer, assis oisivement dans ta petite salle de pierre.
 
-You are wrong about the Spellblaze, of this I am certain. Seeing this has opened my eyes fully. The success of our ancestors cannot be denied! The power unleashed was tremendous, and still it lasts, 2646 years later. So much power still remains, untapped! You ramble on about the destruction it caused, but I cannot help but think you are exaggerating about the deaths. And were not the orcs also defeated? The grand purpose was achieved. Oh, you prattle about the plagues and blights, but I have seen how those dirty humans live, and those halflings in their grimy holes. Pestilence is rife amongst them. Besides, it seems clear to me that a little help from natural selection can only serve to improve the lesser races. Indeed, I have done some experiments which show just that. But alas, I think with your short vision you would only be disgusted by my advances.
+Tu as tort au sujet de la Brûlure Magique, j'en suis certain. Voir cela m'a ouvert les yeux totalement. Le succès de nos ancêtres ne peut être nié ! Le pouvoir libéré fut immense, et il persiste encore, 2646 ans plus tard. Tant de pouvoir reste encore, inexploité ! Tu divagues sur la destruction qu'elle a causée, mais je ne peux m'empêcher de penser que tu exagères concernant les morts. Et les orcs n'ont-ils pas été vaincus aussi ? Le grand dessein a été accompli. Oh, tu jacasses à propos des pestes et des maladies, mais j'ai vu comment vivent ces sales humains, et ces halfelins dans leurs trous crasseux. La peste est endémique parmi eux. D'ailleurs, il me semble clair qu'un petit coup de pouce de la sélection naturelle ne peut servir qu'à améliorer les races inférieures. En effet, j'ai mené quelques expériences qui montrent exactement cela. Mais hélas, je pense qu'avec ta courte vue, tu ne serais qu'écoeuré par mes avancées.
 
-My Rhaloren have come far in the world, and we have learned many things. Oft we have had to flee the terrible Ziguranth and their Death Wilders, but we have pulled through by force of will and grown stronger every day. Here our pilgrimage ends, for here is where we shall truly come into being. You should hear the voices here, screaming from the other side. You should hear their glorious cacophony! The Spellblaze is almost complete; it only needs our gentle push to bring everything to full fruition. The walls between worlds have been worn thin here, and with my strength we can break through to realms of power beyond belief. Such power I shall have! And with it I shall rend forces through this broken world that shall make the Spellblaze seem a happy memory. Eyal will be put to right, and our mighty place restored at the head of all other races! For the Rhaloren this shall truly be the Age of Ascendancy. For the lesser races, herewith comes their Age of Torment.
+Mes Rhaloren sont allés loin dans le monde, et nous avons appris beaucoup de choses. Souvent, nous avons dû fuir les terribles Zigurantes et leurs Naturalistes de la Mort, mais nous nous en sommes sortis par la force de notre volonté et sommes devenus plus forts chaque jour. Ici s'achève notre pèlerinage, car c'est ici que nous allons véritablement voir le jour. Tu devrais entendre les voix ici, hurlant de l'autre côté. Tu devrais entendre leur glorieuse cacophonie ! La Brûlure Magique est presque terminée ; elle n'a besoin que de notre doux coup de pouce pour que tout atteigne sa pleine réalisation. Les murs entre les mondes ont été usés jusqu'à la trame ici, et avec ma force, nous pouvons percer vers des royaumes de pouvoir au-delà de toute croyance. Quel pouvoir je détiendrai ! Et avec lui, je déchirerai des forces à travers ce monde brisé qui feront passer la Brûlure Magique pour un joyeux souvenir. Eyal sera redressée, et notre place glorieuse restaurée à la tête de toutes les autres races ! Pour les Rhaloren, ce sera véritablement l'Ère de l'Ascendance. Pour les races inférieures, voici venir leur Ère du Tourment.
 
-As I write to you our final plans are in motion. Sleep well when you read this, for it may well be your last night before the Great Torment begins.
+Alors que je t'écris, nos plans finaux sont en marche. Dors bien quand tu liras ceci, car cela pourrait bien être ta dernière nuit avant que le Grand Tourment ne commence.
 
-With passionate detest,
-Your disobedient son]], "_t")
---]==]
-
+Avec une détestation passionnée,
+Ton fils désobéissant]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/spellhunt.lua"
 
 t("age of dusk", "ère du crépuscule", "newLore category")
 t("memories of archmage Varil", "mémoires de l'archimage Varil", "_t")
-t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts ?", "_t")
-t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du Traque-sorts partie 2 : Comment combattre un utilisateur de magie ?", "_t")
-t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts partie 3 : Comment tuer un utilisateur de magie ?", "_t")
--- texte non traduit
---[==[
 t([[From an objective viewpoint, you would think the Spellhunt futile, but it was not so. You couldn't imagine the barbarism of the magehunting mobs; they would abuse and persecute any they saw as eccentric, many of whom had no connection to magic at all.
 ...
 True mages would sometimes speak up in an act of altruism, just to stop the suffering of the innocent, but this only fuelled the horde's anger...
@@ -17687,15 +17657,16 @@ Other mages, those less forgiving and more given to action, would attack the rov
 ...
 Ones I saw were set upon by dozens, their conjured flames and bolts of energy failing against the maddened crowds... they would often literally rip the mage limb from limb. It was horrific.
 ...
-Angolwen, Linaniil calls it. I have known Linaniil for many years, and I know she has lost many loved ones to the Spellhunt, but she still holds true to her belief that one day we will be accepted once again. If this is the course of action she desires, I will follow her without question.]], [[From an objective viewpoint, you would think the Spellhunt futile, but it was not so. You couldn't imagine the barbarism of the magehunting mobs; they would abuse and persecute any they saw as eccentric, many of whom had no connection to magic at all.
+Angolwen, Linaniil calls it. I have known Linaniil for many years, and I know she has lost many loved ones to the Spellhunt, but she still holds true to her belief that one day we will be accepted once again. If this is the course of action she desires, I will follow her without question.]], [[D'un point de vue objectif, on pourrait penser que la Purge Arcanique était futile, mais il n'en était rien. Vous ne pouvez imaginer la barbarie des foules de chasseurs de mages ; ils abusaient et persécutaient quiconque semblait excentrique, dont beaucoup n'avaient aucun lien avec la magie.
 ...
-True mages would sometimes speak up in an act of altruism, just to stop the suffering of the innocent, but this only fuelled the horde's anger...
+Les vrais mages prenaient parfois la parole par altruisme, juste pour mettre fin à la souffrance des innocents, mais cela ne faisait qu'attiser la colère de la horde...
 ...
-Other mages, those less forgiving and more given to action, would attack the roving mobs, but they soon learnt that against sufficient numbers magic is not omnipotent...
+D'autres mages, moins indulgents et plus portés sur l'action, attaquaient les foules errantes, mais ils apprirent vite que face à un nombre suffisant d'adversaires, la magie n'est pas omnipotente...
 ...
-Ones I saw were set upon by dozens, their conjured flames and bolts of energy failing against the maddened crowds... they would often literally rip the mage limb from limb. It was horrific.
+Ceux que j'ai vus étaient assaillis par des dizaines de personnes, leurs flammes conjurées et leurs décharges d'énergie échouant contre les foules enragées... ils déchiquetaient souvent littéralement le mage, membre par membre. C'était horrible.
 ...
-Angolwen, Linaniil calls it. I have known Linaniil for many years, and I know she has lost many loved ones to the Spellhunt, but she still holds true to her belief that one day we will be accepted once again. If this is the course of action she desires, I will follow her without question.]], "_t")
+Angolwen, comme Linaniil l'appelle. Je connais Linaniil depuis de nombreuses années, et je sais qu'elle a perdu de nombreux êtres chers à cause de la Purge Arcanique, mais elle reste fidèle à sa conviction qu'un jour nous serons à nouveau acceptés. Si c'est la ligne de conduite qu'elle souhaite, je la suivrai sans poser de questions.]], "_t")
+t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts", "_t")
 t([[Those who partake in the profane sorcery can oft be marked by their appearance, their mannerisms, their personal keeping and their effect on the environment around them. Keep close watch on all you meet, for they are deceptive creatures that can take on many guises. Even women, children and cripples may be clever disguises of demon-communers and necromancers.
 
 In their appearance you should be wary of the following:
@@ -17721,32 +17692,33 @@ In their effect on their environment you should be wary of the following:
 * Women's moontide flow becomes more effluent
 * Apparitions and unexplained events occur in their surroundings
 
-Note that a spellweaver will doubtless deny any accusation against them, and will show great emotion when evidence is laid before them. But one should not delay in bringing swift judgement, lest they try to cast a hex or escape by arcane means.]], [[Those who partake in the profane sorcery can oft be marked by their appearance, their mannerisms, their personal keeping and their effect on the environment around them. Keep close watch on all you meet, for they are deceptive creatures that can take on many guises. Even women, children and cripples may be clever disguises of demon-communers and necromancers.
+Note that a spellweaver will doubtless deny any accusation against them, and will show great emotion when evidence is laid before them. But one should not delay in bringing swift judgement, lest they try to cast a hex or escape by arcane means.]], [[Ceux qui s'adonnent à la sorcellerie profane peuvent souvent être identifiés par leur apparence, leurs manières, leur tenue personnelle, et l'effet qu'ils produisent sur l'environnement qui les entoure. Surveillez de près tous ceux que vous rencontrez, car ce sont des créatures trompeuses qui peuvent prendre de nombreuses formes. Même les femmes, les enfants et les estropiés peuvent être des déguisements astucieux pour des invocateurs de démons et des nécromanciens.
 
-In their appearance you should be wary of the following:
-* Particular grossness in complexion
-* Unnatural or "elven" beauty
-* Extreme thinness, with prominent bones
-* Pointed or sharp-tipped ears - beware indeed of those with long hair or hats covering their ears
-* Hunched backs and distorting limps
-* Peculiar eye colour
+En ce qui concerne leur apparence, méfiez-vous des points suivants :
+* Une grossièreté particulière du teint
+* Une beauté surnaturelle ou "elfique"
+* Une maigreur extrême, avec des os saillants
+* Des oreilles pointues ou aux pointes acérées - méfiez-vous particulièrement de ceux qui portent des cheveux longs ou des chapeaux couvrant leurs oreilles
+* Dos voûtés et membres déformés
+* Couleur des yeux particulière
 
-In their behaviour you should be wary of the following:
-* Tiredness during daylight hours and heavy activity at night
-* Social aversion and fear of crowded places
-* A questioning and probing attitude, in particular if challenging the precepts and set morals of society
-* Quick-wittedness, especially where used for guile
-* Furtiveness or a secretive attitude
+En ce qui concerne leur comportement, méfiez-vous des points suivants :
+* Fatigue pendant la journée et activité intense la nuit
+* Aversion sociale et peur des lieux bondés
+* Une attitude interrogatrice et inquisitrice, en particulier si elle remet en question les préceptes et la morale établie de la société
+* Esprit vif, surtout s'il est utilisé pour la tromperie
+* Furtivité ou attitude secrète
 
-In their effect on their environment you should be wary of the following:
-* Causing grass to wilt and flowers to close as they pass
-* Animals are alarmed by their presence, particularly dogs
-* Crops wilt and cows' milk turns sour
-* Arguments are stirred within their presence
-* Women's moontide flow becomes more effluent
-* Apparitions and unexplained events occur in their surroundings
+En ce qui concerne leur effet sur leur environnement, méfiez-vous des points suivants :
+* L'herbe se fane et les fleurs se ferment sur leur passage
+* Les animaux sont alarmés par leur présence, en particulier les chiens
+* Les récoltes se fanent et le lait des vaches tourne
+* Les disputes sont provoquées en leur présence
+* Le flux mensuel des femmes devient plus abondant
+* Des apparitions et des événements inexpliqués se produisent dans leur entourage
 
-Note that a spellweaver will doubtless deny any accusation against them, and will show great emotion when evidence is laid before them. But one should not delay in bringing swift judgement, lest they try to cast a hex or escape by arcane means.]], "_t")
+Notez qu'un tisseur de sorts niera sans aucun doute toute accusation portée contre lui, et montrera une grande émotion lorsque des preuves lui seront présentées. Mais il ne faut pas tarder à porter un jugement rapide, de peur qu'ils n'essaient de lancer un ensorcellement ou de s'échapper par des moyens arcaniques.]], "_t")
+t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Guide du Traque-sorts partie 2 : Comment combattre un utilisateur de magie", "_t")
 t([[Those who rape the forces of nature with their malign wills doubtless unlock great powers to their advantage. We of noble cause, with our abilities aligned to nature's threads, can struggle to equal the terrible might of these unholy mages. But we must persist, for our cause is just, and the threat to this world from the terrors of the arcane evils cannot be under-stated. Too long has Eyal suffered the torture of their presence, and so we must fight with all the powers that nature can give us.
 
 Mobility is key against spell-slinging warlocks and witches. One must rush with full speed towards them and hack them down, not giving them time to utter a spell of attack or defence. Against multiple opponents this could be difficult, and retreat to less open space is often vital. Do not consider this cowardice, for you play the weaker hand and must take all advantage you can acquire. Get into a tighter environment, and keep behind a concealed corner until they are right upon you, before unleashing all of your strength against them without warning.
@@ -17755,15 +17727,16 @@ Necromancers and fell conjurers can present a great threat when they summon thei
 
 Hexes and curses can wreak terror upon you, and you would do well to have an infusion that removes these and other blighted magic effects when facing dread occultists. Infusions to augment your natural healing are also a must for difficult battles.
 
-Remember to show no mercy, for they will give you none.]], [[Those who rape the forces of nature with their malign wills doubtless unlock great powers to their advantage. We of noble cause, with our abilities aligned to nature's threads, can struggle to equal the terrible might of these unholy mages. But we must persist, for our cause is just, and the threat to this world from the terrors of the arcane evils cannot be under-stated. Too long has Eyal suffered the torture of their presence, and so we must fight with all the powers that nature can give us.
+Remember to show no mercy, for they will give you none.]], [[Ceux qui violent les forces de la nature avec leurs volontés maléfiques débloquent sans aucun doute de grands pouvoirs à leur avantage. Nous, de cause noble, avec nos capacités alignées sur les fils de la nature, pouvons lutter pour égaler la terrible puissance de ces mages impies. Mais nous devons persister, car notre cause est juste, et la menace pour ce monde que représentent les terreurs des maux arcaniques ne peut être sous-estimée. Eyal a trop longtemps souffert de la torture de leur présence, et nous devons donc combattre avec tous les pouvoirs que la nature peut nous donner.
 
-Mobility is key against spell-slinging warlocks and witches. One must rush with full speed towards them and hack them down, not giving them time to utter a spell of attack or defence. Against multiple opponents this could be difficult, and retreat to less open space is often vital. Do not consider this cowardice, for you play the weaker hand and must take all advantage you can acquire. Get into a tighter environment, and keep behind a concealed corner until they are right upon you, before unleashing all of your strength against them without warning.
+La mobilité est la clé contre les sorciers et sorcières lanceurs de sorts. Il faut se précipiter à pleine vitesse vers eux et les abattre, sans leur laisser le temps de prononcer un sort d'attaque ou de défense. Contre des adversaires multiples, cela pourrait être difficile, et la retraite vers un espace moins ouvert est souvent vitale. Ne considérez pas cela comme de la lâcheté, car vous jouez une main plus faible et devez prendre tous les avantages que vous pouvez acquérir. Allez dans un environnement plus étroit, et restez derrière un coin dissimulé jusqu'à ce qu'ils soient sur vous, avant de déchaîner toute votre force contre eux sans avertissement.
 
-Necromancers and fell conjurers can present a great threat when they summon their dark minions to overwhelm you. Oft it is best to take out the wizard first, though it presents risk. You must raise your will and suppress all pain until you come right upon him, and then strike him down quickly before retreating to a safer area. Stunning or dazing the caster before they have a chance to summon aid can also help immensely.
+Les nécromanciens et les invocateurs maléfiques peuvent représenter une grande menace lorsqu'ils invoquent leurs sombres sbires pour vous submerger. Il est souvent préférable d'éliminer le sorcier en premier, bien que cela présente des risques. Vous devez élever votre volonté et supprimer toute douleur jusqu'à ce que vous arriviez sur lui, puis l'abattre rapidement avant de vous retirer vers une zone plus sûre. Étourdir ou assommer le lanceur avant qu'il n'ait une chance d'invoquer de l'aide peut aussi aider immensément.
 
-Hexes and curses can wreak terror upon you, and you would do well to have an infusion that removes these and other blighted magic effects when facing dread occultists. Infusions to augment your natural healing are also a must for difficult battles.
+Les ensorcellements et les malédictions peuvent semer la terreur sur vous, et vous feriez bien d'avoir une essence qui supprime ces effets magiques et autres effets de maladie lorsque vous affrontez des occultistes redoutables. Les essences pour augmenter votre guérison naturelle sont également un must pour les batailles difficiles.
 
-Remember to show no mercy, for they will give you none.]], "_t")
+Rappelez-vous de ne montrer aucune pitié, car ils ne vous en montreront aucune.]], "_t")
+t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts partie 3 : Comment tuer un utilisateur de magie", "_t")
 t([[When a magic-user is captured, they must be slain, and slain fast. Captivity is too great a risk. Preferably they should be killed in a way that utterly removes any means for the body to recover through arcane force. Remember that coming back from the dead is no alien feat to these abominations.
 
 Beheading is simple and effective, especially in a hurry, but ideally their other limbs should be removed too and sealed in separate metal cases wrapped in willow-bark.
@@ -17776,56 +17749,45 @@ Burning is popular amongst the less educated towns, but typically no witch or wi
 
 The best method, if time and situation allows, is to very slowly slice the caster to death. One should have them securely bound in a sealed room, with willow-bark or beech-wood around their wrists and cranium. One should start by slowly slicing off the toes, fingers and other extremities, before slicing through all the limbs and finally the torso. Do not cut open the skull, in case resident demons escape. The head should be put into a metal box and incinerated for 24 hours with the rest of the remains. Extremely sharp instruments are needed for the job, and do not be surprised if they need re-sharpening several times during the process, as it is a typical warlock's trick to harden their bones before the procedure as a final act of spite.
 
-]], [[When a magic-user is captured, they must be slain, and slain fast. Captivity is too great a risk. Preferably they should be killed in a way that utterly removes any means for the body to recover through arcane force. Remember that coming back from the dead is no alien feat to these abominations.
+]], [[Lorsqu'un utilisateur de magie est capturé, il doit être tué, et tué rapidement. La captivité est un risque trop grand. De préférence, il doit être tué d'une manière qui supprime totalement tout moyen pour le corps de récupérer par une force arcanique. Rappelez-vous que revenir d'entre les morts n'est pas un exploit étranger à ces abominations.
 
-Beheading is simple and effective, especially in a hurry, but ideally their other limbs should be removed too and sealed in separate metal cases wrapped in willow-bark.
+La décapitation est simple et efficace, surtout dans l'urgence, mais idéalement leurs autres membres devraient être retirés aussi et scellés dans des caisses métalliques séparées enveloppées dans de l'écorce de saule.
 
-Devouring by animals is sometimes used, but is not advised, as it can at the very least can cause severe diarrhoea in the animals, and at the worst can leave you facing a pack of fire-breathing hell hounds corrupted by the mana-wielder's aura.
+La dévoration par des animaux est parfois utilisée, mais n'est pas conseillée, car elle peut au minimum causer une diarrhée sévère aux animaux, et au pire vous laisser face à une meute de chiens de l'enfer cracheurs de feu corrompus par l'aura du manieur de mana.
 
-Freezing is ineffective, and no magic-user can ever be frozen to death, in spite of what rumours you may have heard. Anyone you have heard of that was frozen to death was either not a mage or was pretending.
+Le gel est inefficace, et aucun utilisateur de magie ne peut jamais être gelé à mort, malgré les rumeurs que vous avez pu entendre. Quiconque dont vous avez entendu parler qui a été gelé à mort n'était soit pas un mage, soit faisait semblant.
 
-Burning is popular amongst the less educated towns, but typically no witch or wizard of power would ever allow themselves to be caught, bound and put to stake without finding means of escape. Simply putting together the necessary firewood takes too long, even if stocked in advance. Usually those executed in this manner are magic-sympathisers rather than true magic users. Whilst strictly speaking this does not carry the penalty of death it does well to set an example for others and to warn arcane users to stay well away from the community.
+Brûler est populaire parmi les villes moins éduquées, mais généralement aucune sorcière ou sorcier puissant ne se laisserait jamais attraper, lier et mettre au bûcher sans trouver des moyens d'évasion. Simplement rassembler le bois de chauffage nécessaire prend trop de temps, même s'il est stocké à l'avance. Habituellement, ceux exécutés de cette manière sont des sympathisants de la magie plutôt que de vrais utilisateurs de magie. Bien que strictement parlant, cela n'entraîne pas la peine de mort, cela fait bien pour montrer l'exemple aux autres et pour avertir les utilisateurs arcaniques de rester bien loin de la communauté.
 
-The best method, if time and situation allows, is to very slowly slice the caster to death. One should have them securely bound in a sealed room, with willow-bark or beech-wood around their wrists and cranium. One should start by slowly slicing off the toes, fingers and other extremities, before slicing through all the limbs and finally the torso. Do not cut open the skull, in case resident demons escape. The head should be put into a metal box and incinerated for 24 hours with the rest of the remains. Extremely sharp instruments are needed for the job, and do not be surprised if they need re-sharpening several times during the process, as it is a typical warlock's trick to harden their bones before the procedure as a final act of spite.
-
-]], "_t")
---]==]
-
+La meilleure méthode, si le temps et la situation le permettent, est de découper très lentement le lanceur jusqu'à la mort. On doit les avoir solidement liés dans une pièce scellée, avec de l'écorce de saule ou du bois de hêtre autour de leurs poignets et de leur crâne. On devrait commencer par couper lentement les orteils, les doigts et d'autres extrémités, avant de trancher à travers tous les membres et enfin le torse. Ne coupez pas le crâne ouvert, au cas où des démons résidents s'échapperaient. La tête devrait être mise dans une boîte métallique et incinérée pendant 24 heures avec le reste des restes. Des instruments extrêmement tranchants sont nécessaires pour le travail, et ne soyez pas surpris s'ils ont besoin d'être réaffûtés plusieurs fois pendant le processus, car c'est une astuce typique de sorcier de durcir leurs os avant la procédure comme un acte final de rancoeur.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/sunwall.lua"
 
+t("history of the Sunwall", "Histoire du Mur Solaire", "newLore category")
 t("Loremaster Verutir's note", "Note du Chroniqueur Verutir", "_t")
--- texte non traduit
---[==[
-t("history of the Sunwall", "history of the Sunwall", "newLore category")
 t([[Loremaster Verutir here. I have been assigned to write an official chronicle of the history of the Sunwall. This will be my notebook as I interview people and travel from place to place. If you are reading this, you are either my patron (thanks again, sir!), a sneak (get out of my journal!), or the finder of my corpse. If the last, please take this to Lord Forosyth of the town of the Sunwall for a reward, tell my wife how I died, and tell the kids that I love them.
 With that said I shall be starting this project by investigating the Elves and their connection to the Sunwall. They should be one of the easier races to interview considering their life expectancy and their penchant for remembering their own history. Of course, there aren't as many of them around as there used to be.
 ...
-Unfortunately though, our local Elves are also unwilling to talk to me about their history, saying they do not have records of the earlier times. However, there is a fellow Thanchir who I hear would be happy to help. The only problem is that he lies on the other side of a huge encampment of orcs, so I will need an escort to help me. We will see how that goes. I have heard things about those adventurer escorts ...]], [[Loremaster Verutir here. I have been assigned to write an official chronicle of the history of the Sunwall. This will be my notebook as I interview people and travel from place to place. If you are reading this, you are either my patron (thanks again, sir!), a sneak (get out of my journal!), or the finder of my corpse. If the last, please take this to Lord Forosyth of the town of the Sunwall for a reward, tell my wife how I died, and tell the kids that I love them.
-With that said I shall be starting this project by investigating the Elves and their connection to the Sunwall. They should be one of the easier races to interview considering their life expectancy and their penchant for remembering their own history. Of course, there aren't as many of them around as there used to be.
+Unfortunately though, our local Elves are also unwilling to talk to me about their history, saying they do not have records of the earlier times. However, there is a fellow Thanchir who I hear would be happy to help. The only problem is that he lies on the other side of a huge encampment of orcs, so I will need an escort to help me. We will see how that goes. I have heard things about those adventurer escorts ...]], [[Ici le chroniqueur Verutir. J'ai été chargé de rédiger une chronique officielle de l'histoire du Mur Solaire. Ceci sera mon carnet de notes tandis que j'interviewe les gens et voyage d'un lieu à l'autre. Si vous lisez ceci, vous êtes soit mon mécène (merci encore, monsieur !), un fouineur (sortez de mon journal !), ou celui qui a trouvé mon cadavre. Si c'est le cas, veuillez apporter ceci au Seigneur Forosyth de la ville du Mur Solaire pour obtenir une récompense, dites à ma femme comment je suis mort, et dites à mes enfants que je les aime.
+Ceci étant dit, je vais commencer ce projet en enquêtant sur les Elfes et leur lien avec le Mur Solaire. Ils devraient être l'une des races les plus faciles à interviewer compte tenu de leur espérance de vie et de leur penchant à se souvenir de leur propre histoire. Bien sûr, il n'y en a plus autant qu'autrefois.
 ...
-Unfortunately though, our local Elves are also unwilling to talk to me about their history, saying they do not have records of the earlier times. However, there is a fellow Thanchir who I hear would be happy to help. The only problem is that he lies on the other side of a huge encampment of orcs, so I will need an escort to help me. We will see how that goes. I have heard things about those adventurer escorts ...]], "_t")
+Malheureusement, nos Elfes locaux ne sont pas non plus disposés à me parler de leur histoire, affirmant qu'ils n'ont pas d'archives des époques reculées. Cependant, il y a un certain Thanchir qui, m'a-t-on dit, serait heureux d'aider. Le seul problème est qu'il se trouve de l'autre côté d'un immense campement d'orcs, donc j'aurai besoin d'une escorte pour m'aider. Nous verrons comment cela se passe. J'ai entendu des choses sur ces escortes d'aventuriers...]], "_t")
 t([[And boy were all the rumors about unreliable adventurers true. I'd heard that many, many escorted people die when their adventurer flees and protects himself. It is TRUE. Once I got an escort, I headed off in the right direction immediately. However, for some reason, he did not immediately follow, let alone lead. Didn't he know the way to go? Foolish man. Why am I offering my special trainings to someone who doesn't even know where the local portals are! Fortunately I survived, but no thanks to him. I won't even mention his snoring...
-This Thanchir guy really, really needs to find a more urban spot with accessible public transportation (no adventurers please!). However, once I could get him to talk, he did know quite a bit. Apparently, he claims some distant kinship to the first Elf in these parts. They arrived by boat from some legendary land called "Maj'Eyal". He says that it definitely exists, but could provide no real evidence. This should be investigated further]], [[And boy were all the rumors about unreliable adventurers true. I'd heard that many, many escorted people die when their adventurer flees and protects himself. It is TRUE. Once I got an escort, I headed off in the right direction immediately. However, for some reason, he did not immediately follow, let alone lead. Didn't he know the way to go? Foolish man. Why am I offering my special trainings to someone who doesn't even know where the local portals are! Fortunately I survived, but no thanks to him. I won't even mention his snoring...
-This Thanchir guy really, really needs to find a more urban spot with accessible public transportation (no adventurers please!). However, once I could get him to talk, he did know quite a bit. Apparently, he claims some distant kinship to the first Elf in these parts. They arrived by boat from some legendary land called "Maj'Eyal". He says that it definitely exists, but could provide no real evidence. This should be investigated further]], "_t")
+This Thanchir guy really, really needs to find a more urban spot with accessible public transportation (no adventurers please!). However, once I could get him to talk, he did know quite a bit. Apparently, he claims some distant kinship to the first Elf in these parts. They arrived by boat from some legendary land called "Maj'Eyal". He says that it definitely exists, but could provide no real evidence. This should be investigated further]], [[Et mon dieu, toutes les rumeurs sur les aventuriers peu fiables étaient vraies. J'avais entendu dire que beaucoup, beaucoup de personnes escortées meurent quand leur aventurier s'enfuit et se protège lui-même. C'est VRAI. Une fois que j'ai eu une escorte, je me suis dirigé dans la bonne direction immédiatement. Cependant, pour une raison quelconque, il n'a pas suivi immédiatement, et encore moins guidé. Ne connaissait-il pas le chemin ? Homme stupide. Pourquoi est-ce que j'offre mes entraînements spéciaux à quelqu'un qui ne sait même pas où se trouvent les portails locaux ! Heureusement, j'ai survécu, mais sans aucune aide de sa part. Je ne mentionnerai même pas ses ronflements...
+Ce type, Thanchir, a vraiment, vraiment besoin de trouver un endroit plus urbain avec des transports publics accessibles (pas d'aventuriers s'il vous plaît !). Cependant, une fois que j'ai pu le faire parler, il en savait pas mal. Apparemment, il revendique un parent éloigné du premier Elfe dans ces contrées. Ils sont arrivés en bateau d'une terre légendaire appelée "Maj'Eyal". Il dit qu'elle existe vraiment, mais n'a pu fournir aucune preuve réelle. Cela mérite une enquête plus approfondie.]], "_t")
 t([[However, I have been repeatedly told by the powers that be, that I need to get on with this and turn in another report on how a different race got here. So, I will temporarily pause my researches on whether or not Maj'Eyal is real or just an Elf legend. (Can't trust everything they say despite their long memories.) Instead, I am on to meet the keeper of the Eastern Historical Society who has the best collection of lore about how Humans got here. As such, I will be travelling to northern Vor to use their archives.
-And yes, unfortunately I will be travelling by adventurer again. By all the gods, why don't I get a better budget? This is absolutely terrible. It has been a particularly long walk. Longer than I thought it would be, truthfully, so I have run out of food. Foolish, I know, but I figured I could ask the escort for some of his. The snobby piece of troll-liver says he doesn't eat! Now talk about a terrible lie. Did he really think that would fool me? This Eastern Historical Society had better be good...]], [[However, I have been repeatedly told by the powers that be, that I need to get on with this and turn in another report on how a different race got here. So, I will temporarily pause my researches on whether or not Maj'Eyal is real or just an Elf legend. (Can't trust everything they say despite their long memories.) Instead, I am on to meet the keeper of the Eastern Historical Society who has the best collection of lore about how Humans got here. As such, I will be travelling to northern Vor to use their archives.
-And yes, unfortunately I will be travelling by adventurer again. By all the gods, why don't I get a better budget? This is absolutely terrible. It has been a particularly long walk. Longer than I thought it would be, truthfully, so I have run out of food. Foolish, I know, but I figured I could ask the escort for some of his. The snobby piece of troll-liver says he doesn't eat! Now talk about a terrible lie. Did he really think that would fool me? This Eastern Historical Society had better be good...]], "_t")
+And yes, unfortunately I will be travelling by adventurer again. By all the gods, why don't I get a better budget? This is absolutely terrible. It has been a particularly long walk. Longer than I thought it would be, truthfully, so I have run out of food. Foolish, I know, but I figured I could ask the escort for some of his. The snobby piece of troll-liver says he doesn't eat! Now talk about a terrible lie. Did he really think that would fool me? This Eastern Historical Society had better be good...]], [[Cependant, on m'a répété à plusieurs reprises que je devais avancer et rendre un autre rapport sur la façon dont une race différente est arrivée ici. Donc, je vais mettre en pause temporairement mes recherches sur le fait que Maj'Eyal est réelle ou juste une légende Elfique. (On ne peut pas tout croire malgré leur longue mémoire.) À la place, je suis en route pour rencontrer le gardien de la Société Historique Orientale qui possède la meilleure collection de savoir sur la façon dont les Humains sont arrivés ici. En tant que tel, je vais voyager vers le nord de Vor pour utiliser leurs archives.
+Et oui, malheureusement je voyagerai encore avec un aventurier. Par tous les dieux, pourquoi n'ai-je pas un meilleur budget ? C'est absolument terrible. Cela a été une marche particulièrement longue. Plus longue que je ne le pensais, honnêtement, donc je n'ai plus de nourriture. Stupide, je sais, mais je me suis dit que je pourrais demander à mon escorte un peu de la sienne. Ce snob de morceau de foie de troll dit qu'il ne mange pas ! Parlons d'un mensonge terrible. Pensait-il vraiment que cela m'abuserait ? Cette Société Historique Orientale a intérêt à être à la hauteur...]], "_t")
 t([[Finally arrived in Vor safe and mostly sound. (Though I do have some burns on my stomach from mage fire and my coat is a complete wreck. I wonder if I can expense a new coat.) However, the Eastern Historical Society is everything I could have hoped. Who can doubt that Humans are the superior race! You'd never see an Elf or an orc keep neat paper records like this!
-In short: Aethidry was the first Human to map out these shores. EHS has his map preserved in good crackly yellow parchment. However, he travelled on and later died on distant shores, so he was neither the first Human to arrive here, nor the one who organized the first settlement. Some historians guess that the first Human to arrive in the east was one Vaeryn Gorthol. At the least, many of the first explorers mention him as a precursor, so he may well have been. A few of the important first settlers were Oweodry Arandur, Aethor (or perhaps Aethur) the Wronged, and Bloran the Black.]], [[Finally arrived in Vor safe and mostly sound. (Though I do have some burns on my stomach from mage fire and my coat is a complete wreck. I wonder if I can expense a new coat.) However, the Eastern Historical Society is everything I could have hoped. Who can doubt that Humans are the superior race! You'd never see an Elf or an orc keep neat paper records like this!
-In short: Aethidry was the first Human to map out these shores. EHS has his map preserved in good crackly yellow parchment. However, he travelled on and later died on distant shores, so he was neither the first Human to arrive here, nor the one who organized the first settlement. Some historians guess that the first Human to arrive in the east was one Vaeryn Gorthol. At the least, many of the first explorers mention him as a precursor, so he may well have been. A few of the important first settlers were Oweodry Arandur, Aethor (or perhaps Aethur) the Wronged, and Bloran the Black.]], "_t")
---]==]
-
+In short: Aethidry was the first Human to map out these shores. EHS has his map preserved in good crackly yellow parchment. However, he travelled on and later died on distant shores, so he was neither the first Human to arrive here, nor the one who organized the first settlement. Some historians guess that the first Human to arrive in the east was one Vaeryn Gorthol. At the least, many of the first explorers mention him as a precursor, so he may well have been. A few of the important first settlers were Oweodry Arandur, Aethor (or perhaps Aethur) the Wronged, and Bloran the Black.]], [[Enfin arrivé à Vor, sain et sauf pour la plupart. (Bien que j'aie quelques brûlures sur l'estomac dues au feu des mages et que mon manteau soit en piteux état. Je me demande si je peux me faire rembourser un nouveau manteau.) Cependant, la Société Historique Orientale est tout ce que j'aurais pu espérer. Qui peut douter que les Humains sont la race supérieure ! Vous ne verriez jamais un Elfe ou un orc tenir des registres papier aussi bien rangés !
+En bref : Aethidry fut le premier Humain à cartographier ces côtes. La SHO a conservé sa carte sur un bon vieux parchemin jaune craquant. Cependant, il a poursuivi son voyage et est mort plus tard sur des côtes lointaines, donc il n'était ni le premier Humain à arriver ici, ni celui qui a organisé la première colonie. Certains historiens supposent que le premier Humain à arriver à l'est était un certain Vaeryn Gorthol. À tout le moins, beaucoup des premiers explorateurs le mentionnent comme un précurseur, donc il se pourrait bien que ce soit lui. Quelques-uns des importants premiers colons étaient Oweodry Arandur, Aethor (ou peut-être Aethur) l'Injusticé, et Bloran le Noir.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/tannen.lua"
 
-
--- texte non traduit
---[==[
-t("tannen's tower", "tannen's tower", "newLore category")
-t("Welcome to your cell", "Welcome to your cell", "_t")
+t("tannen's tower", "Tour de Tannen", "newLore category")
+t("Welcome to your cell", "Bienvenue dans votre cellule", "_t")
 t([[A Note to the Adventurer:
 
 I am truly sorry about this; had circumstances been different, we could've been allies, my weapons and magic letting you fight the hordes of threats to Maj'Eyal.  As it stands, however, your continued existence is highly inconvenient to me.
@@ -17838,32 +17800,31 @@ Worry not, though - you can still help the world, by devoting yourself to my que
 
 Oh, and I can't risk this note getting into anyone else's hands, can I?  It's going to catch fire a few seconds after you're done reading.  Please drop it before it does - you having burnt hands isn't part of the experiment.
 
-#{italic}#You throw the paper away.  After about fifteen seconds, it fizzles, then bursts into flame, not even leaving ashes behind.#{normal}#]], [[A Note to the Adventurer:
+#{italic}#You throw the paper away.  After about fifteen seconds, it fizzles, then bursts into flame, not even leaving ashes behind.#{normal}#]], [[Une note à l'Aventurier :
 
-I am truly sorry about this; had circumstances been different, we could've been allies, my weapons and magic letting you fight the hordes of threats to Maj'Eyal.  As it stands, however, your continued existence is highly inconvenient to me.
+Je suis vraiment désolé pour cela ; si les circonstances avaient été différentes, nous aurions pu être alliés, mes armes et ma magie vous laissant combattre les hordes de menaces pesant sur Maj'Eyal. En l'état actuel des choses, cependant, votre existence continue est très gênante pour moi.
 
-See, my funding comes from the merchants of Last Hope, who want a functioning portal and will stop paying once they have one; furthermore, my portal research has proved to be a very useful cover story for the other experiments I'm conducting here.  Now that you've gotten a portal working, and will want to use it in full view of the city, I'm out of a job - and there is so much more knowledge for me to find!  The medical applications of necromancy, for one - the only other source of data on this subject went missing shortly after her husband's death, and everyone else has a Ziguranth-like fervor against the idea of using that magic baseline in any way whatsoever.  Also, selective drake breeding programs, experiments on zealots to shatter their anti-magic barriers, studying demons to learn more about their altered biologies and steal that magic for our own militaries...  I could go on, but I'd rather not waste enchanted ink.  The point is, you using the portal without further injury would mean an end to my experiments.  Ideally, you need to disappear, but if you were to emerge from my basement, wounded and raving with wild eyes about impossible beasts in the basement of my humble tower...  well, that'd just further my case that portals need more research to be used safely, wouldn't it?
+Voyez-vous, mon financement provient des marchands de Dernier Espoir, qui veulent un portail fonctionnel et cesseront de payer une fois qu'ils en auront un ; de plus, mes recherches sur les portails se sont avérées être une couverture très utile pour les autres expériences que je mène ici. Maintenant que vous avez fait fonctionner un portail, et que vous voudrez l'utiliser à la vue de tous dans la ville, je me retrouve au chômage - et il y a tellement plus de connaissances à découvrir pour moi ! Les applications médicales de la Nécromancie, par exemple - la seule autre source de données sur ce sujet a disparu peu après la mort de son mari, et tous les autres ont une ferveur semblable à celle des Zigurantes contre l'idée d'utiliser cette base magique de quelque manière que ce soit. Aussi, les programmes de sélection de Draconien, les expériences sur les fanatiques pour briser leurs barrières anti-magie, l'étude des démons pour en apprendre plus sur leurs biologies altérées et voler cette magie pour nos propres armées... Je pourrais continuer, mais je préférerais ne pas gaspiller d'encre enchantée. Le fait est que si vous utilisez le portail sans subir d'autres dommages, cela signifierait la fin de mes expériences. Idéalement, vous devez disparaître, mais si vous deviez émerger de mon sous-sol, blessé et délirant avec des yeux sauvages à propos de bêtes impossibles dans le sous-sol de mon humble tour... eh bien, cela renforcerait mon argument selon lequel les portails ont besoin de plus de recherche pour être utilisés en toute sécurité, n'est-ce pas ?
 
-#{italic}#As you move on to the next paragraph, you notice that everything above it has faded away, and the scroll is beginning to grow warm in your hands.#{normal}#
+#{italic}#Alors que vous passez au paragraphe suivant, vous remarquez que tout ce qui se trouve au-dessus s'est effacé, et le parchemin commence à devenir chaud dans vos mains.#{normal}#
 
-Worry not, though - you can still help the world, by devoting yourself to my quest for knowledge!  My sources have told me that you've grown exponentially more powerful since you first started making a name for yourself, and you continue to cause prodigious amounts of destruction.  The modified portal I used on you had about a 33% chance of draining some of the power you've accumulated; if you're feeling exhausted, simply lay down and wait for my imp servants to collect you for further testing.  If you aren't, however: I've sealed the way up, and placed the switches in each of the subject holding pens on this floor.  You can fight your way through them, and I'll be watching to see how a creature of your power fares against different types of foes.  I'm sure you'll want to get to the top floor and kill me in revenge, and I encourage you to try!  You may die, but the data you provide will be immortal - and if I can have my drolem subdue you non-lethally, I'll send you back to the bottom and repeat the experiment with tweaked parameters.  We can keep repeating this until I find your breaking point, or figure out what makes you so special, at which point you'll be held until I can work on a reliable method of controlling your mind.  And on the off chance that you do actually manage to kill me...  try not to do too much damage to my notes, please?  Knowledge and progress are bigger matters than either of us; don't let your spite doom thousands of lives that could rely on my research in the future.
+Ne vous inquiétez pas, cependant - vous pouvez encore aider le monde, en vous consacrant à ma quête de connaissances ! Mes sources m'ont dit que vous êtes devenu exponentiellement plus puissant depuis que vous avez commencé à vous faire un nom, et vous continuez à causer des quantités prodigieuses de destruction. Le portail modifié que j'ai utilisé sur vous avait environ 33% de chance de drainer une partie du pouvoir que vous avez accumulé ; si vous vous sentez épuisé, allongez-vous simplement et attendez que mes serviteurs diablotins viennent vous chercher pour des tests supplémentaires. Si vous ne l'êtes pas, cependant : j'ai scellé le chemin vers le haut, et placé les interrupteurs dans chacune des cellules de détention des sujets à cet étage. Vous pouvez vous frayer un chemin à travers eux, et je regarderai comment une créature de votre puissance se débrouille contre différents types d'ennemis. Je suis sûr que vous voudrez atteindre le dernier étage et me tuer par vengeance, et je vous encourage à essayer ! Vous pourriez mourir, mais les données que vous fournirez seront immortelles - et si je peux faire en sorte que mon Golem vous soumette de manière non létale, je vous renverrai au bas et répéterai l'expérience avec des paramètres ajustés. Nous pouvons continuer à répéter cela jusqu'à ce que je trouve votre point de rupture, ou que je comprenne ce qui vous rend si spécial, moment auquel vous serez retenu jusqu'à ce que je puisse travailler sur une méthode fiable de contrôle de votre esprit. Et au cas improbable où vous parviendriez réellement à me tuer... essayez de ne pas trop endommager mes notes, s'il vous plaît ? La connaissance et le progrès sont des choses plus grandes que nous deux ; ne laissez pas votre rancoeur condamner des milliers de vies qui pourraient dépendre de mes recherches à l'avenir.
 
-Oh, and I can't risk this note getting into anyone else's hands, can I?  It's going to catch fire a few seconds after you're done reading.  Please drop it before it does - you having burnt hands isn't part of the experiment.
+Oh, et je ne peux pas risquer que cette note tombe entre d'autres mains, n'est-ce pas ? Elle va prendre feu quelques secondes après que vous ayez fini de lire. Veuillez la lâcher avant qu'elle ne le fasse - le fait que vous ayez les mains brûlées ne fait pas partie de l'expérience.
 
-#{italic}#You throw the paper away.  After about fifteen seconds, it fizzles, then bursts into flame, not even leaving ashes behind.#{normal}#]], "_t")
-t("Personal note (1)", "Personal note (1)", "_t")
+#{italic}#Vous jetez le papier. Après environ quinze secondes, il grésille, puis s'enflamme, ne laissant même pas de cendres derrière lui.#{normal}#]], "_t")
+t("Personal note (1)", "Note personnelle (1)", "_t")
 t([[Angolwen is too timid.  Too paranoid about repeating the mistakes of the past.  Too cautious and infuriatingly non-pragmatic.  Too prone to avoiding the "little sins," ignoring the big picture.  I've told them again and again that our ancestors' mistake wasn't trying to use the Sher'Tul portals, it was trying to weaponize them before we understood how they worked - couldn't we have plundered the Nargol facility for more data, or started kidnapping orc scouting parties as experimental subjects?  Couldn't we have tried to learn more about the Sher'Tul _before_ desperation pushed us into blowing up half of the world?  No, that was "forbidden" magic, "too powerful for mortals to tamper with," right up until we realized we needed all that power after all.  Like a pacifist finally picking up a flail to defend himself, only to bash himself in the head with it, our lack of familiarity led to catastrophe.
 
 My arguments have just gotten me blank stares and an increasing amount of whispering behind my back (aside from a young couple whose abrupt departure might've been inspired by a particularly passionate rant in response to a lecture on "ethics").  Some of them have even resorted to deflecting my arguments, blaming them on my lack of magical power and saying I've spent too much time working on my drolem!  They think they can inspire the world and protect it from danger without getting their hands dirty; the orc invasions proved that, no, they can't, and I fear that if the demons ever start arriving in full force, we'll be even more woefully unprepared for it.  We even cower from the Ziguranth, no matter how many people die from diseases our healers could cure if they could roam freely, and no matter how easily we could find a way around their defenses if we started capturing a few of their agents.
 
 Well, I won't have it.  I've been selling potions and inscriptions on the side for a couple of years now, in spite of Angolwen's regulations, and managed to amass enough money to set up a laboratory far away from Angolwen.  There, I intend to do the experiments my cowardly, squeamish peers won't.  I'm sure they won't approve, but I'm beyond caring - there are certain things we need to know before it's too late, and if a few zealots or criminals die in the process, it won't matter when my data saves countless lives in the long run.  Construction begins tomorrow - I've got three separate sets of contractors lined up to work on it, so none know the tower's full layout, and I've made arrangements with powerful merchants in Last Hope so I can conduct some of my experiments publicly (they want working portals for trade, and I convinced them I won't cause another Spellblaze trying to make one), providing a convenient cover story for the more...  controversial experiments.  I can have my drolem carry in sensitive equipment so I don't have to answer any problematic questions.  I will NOT escape one band of stuck-up fools just to have another confiscate bone-giants which I spent a fortune on.
-]], [[Angolwen is too timid.  Too paranoid about repeating the mistakes of the past.  Too cautious and infuriatingly non-pragmatic.  Too prone to avoiding the "little sins," ignoring the big picture.  I've told them again and again that our ancestors' mistake wasn't trying to use the Sher'Tul portals, it was trying to weaponize them before we understood how they worked - couldn't we have plundered the Nargol facility for more data, or started kidnapping orc scouting parties as experimental subjects?  Couldn't we have tried to learn more about the Sher'Tul _before_ desperation pushed us into blowing up half of the world?  No, that was "forbidden" magic, "too powerful for mortals to tamper with," right up until we realized we needed all that power after all.  Like a pacifist finally picking up a flail to defend himself, only to bash himself in the head with it, our lack of familiarity led to catastrophe.
+]], [[Angolwen est trop timide. Trop paranoïaque à l'idée de répéter les erreurs du passé. Trop prudent et exaspérant de non-pragmatisme. Trop enclin à éviter les "petits péchés", ignorant la situation dans son ensemble. Je leur ai répété maintes et maintes fois que l'erreur de nos ancêtres n'était pas d'essayer d'utiliser les portails Sher'Tul, c'était d'essayer d'en faire des armes avant de comprendre comment ils fonctionnaient - n'aurions-nous pas pu piller l'installation de Nargol pour obtenir plus de données, ou commencer à kidnapper des groupes d'éclaireurs orcs comme sujets expérimentaux ? N'aurions-nous pas pu essayer d'en apprendre plus sur les Sher'Tul AVANT que le désespoir ne nous pousse à faire sauter la moitié du monde ? Non, c'était de la magie "interdite", "trop puissante pour que les mortels puissent s'en mêler", jusqu'à ce que nous réalisions que nous avions besoin de toute cette puissance après tout. Comme un pacifiste qui finit par ramasser un fléau pour se défendre, pour finir par se fracasser le crâne avec, notre manque de familiarité a conduit à la catastrophe.
 
-My arguments have just gotten me blank stares and an increasing amount of whispering behind my back (aside from a young couple whose abrupt departure might've been inspired by a particularly passionate rant in response to a lecture on "ethics").  Some of them have even resorted to deflecting my arguments, blaming them on my lack of magical power and saying I've spent too much time working on my drolem!  They think they can inspire the world and protect it from danger without getting their hands dirty; the orc invasions proved that, no, they can't, and I fear that if the demons ever start arriving in full force, we'll be even more woefully unprepared for it.  We even cower from the Ziguranth, no matter how many people die from diseases our healers could cure if they could roam freely, and no matter how easily we could find a way around their defenses if we started capturing a few of their agents.
+Mes arguments ne m'ont valu que des regards vides et un nombre croissant de chuchotements dans mon dos (mis à part un jeune couple dont le départ abrupt pourrait avoir été inspiré par une tirade particulièrement passionnée en réponse à une conférence sur "l'éthique"). Certains d'entre eux ont même eu recours à détourner mes arguments, les imputant à mon manque de puissance magique et disant que j'ai passé trop de temps à travailler sur mon Golem ! Ils pensent qu'ils peuvent inspirer le monde et le protéger du danger sans se salir les mains ; les invasions orcs ont prouvé que, non, ils ne le peuvent pas, et je crains que si les démons arrivent un jour en pleine force, nous serons encore plus douloureusement mal préparés. Nous nous recroquevillons même devant les Zigurantes, peu importe combien de personnes meurent de maladies que nos guérisseurs pourraient guérir s'ils pouvaient errer librement, et peu importe la facilité avec laquelle nous pourrions trouver un moyen de contourner leurs défenses si nous commencions à capturer quelques-uns de leurs agents.
 
-Well, I won't have it.  I've been selling potions and inscriptions on the side for a couple of years now, in spite of Angolwen's regulations, and managed to amass enough money to set up a laboratory far away from Angolwen.  There, I intend to do the experiments my cowardly, squeamish peers won't.  I'm sure they won't approve, but I'm beyond caring - there are certain things we need to know before it's too late, and if a few zealots or criminals die in the process, it won't matter when my data saves countless lives in the long run.  Construction begins tomorrow - I've got three separate sets of contractors lined up to work on it, so none know the tower's full layout, and I've made arrangements with powerful merchants in Last Hope so I can conduct some of my experiments publicly (they want working portals for trade, and I convinced them I won't cause another Spellblaze trying to make one), providing a convenient cover story for the more...  controversial experiments.  I can have my drolem carry in sensitive equipment so I don't have to answer any problematic questions.  I will NOT escape one band of stuck-up fools just to have another confiscate bone-giants which I spent a fortune on.
-]], "_t")
-t("Personal note (2)", "Personal note (2)", "_t")
+Eh bien, je ne le supporterai pas. Je vends des potions et des inscriptions sur le côté depuis quelques années maintenant, malgré les règlements d'Angolwen, et j'ai réussi à accumuler assez d'argent pour installer un laboratoire loin d'Angolwen. Là, j'ai l'intention de faire les expériences que mes pairs lâches et effrayés ne feront pas. Je suis sûr qu'ils n'approuveront pas, mais je m'en fiche - il y a certaines choses que nous devons savoir avant qu'il ne soit trop tard, et si quelques fanatiques ou criminels meurent dans le processus, cela n'aura pas d'importance quand mes données sauveront d'innombrables vies à long terme. La construction commence demain - j'ai trois groupes d'entrepreneurs distincts alignés pour y travailler, donc aucun ne connaît la disposition complète de la tour, et j'ai pris des dispositions avec des marchands puissants à Dernier Espoir afin que je puisse mener certaines de mes expériences publiquement (ils veulent des portails fonctionnels pour le commerce, et je les ai convaincus que je ne causerais pas une autre Brûlure Magique en essayant d'en faire un), fournissant une histoire de couverture pratique pour les expériences les plus... controversées. Je peux demander à mon Golem de transporter du matériel sensible pour ne pas avoir à répondre à des questions problématiques. Je ne vais PAS échapper à un groupe d'idiots prétentieux juste pour en avoir un autre qui confisque des squelettes de géants sur lesquels j'ai dépensé une fortune.]], "_t")
+t("Personal note (2)", "Nota personnelle (2)", "_t")
 t([[Well...  that was interesting.
 
 Setting up a portal took surprisingly little effort - conjured replicas of a Blood-Runed Athame and a Resonating Diamond work perfectly for setting up a portal, as it turns out, even if it burns them out after making just one.  This solution wouldn't work for the Orb of Many Ways, given that if it shorts out after one use, that means you're trapped on the other side of the portal, so I started working on a more tangible replica.  I noticed that most of them were disrupted by some form of interference, maybe echoes from the Spellblaze; my latest attempt at a more permanent orb was more of a curiosity than anything, an attempt to use those waves as constructive interference to lock onto their source.  I tossed a bandit through (my drolem's flight and relative silence have proven to be very convenient for securing test subjects!) with it tied to him, expecting him to pop into some magical maelstrom, quickly teleport back, and promptly die of terrible burn wounds (like the last four).
@@ -17874,80 +17835,67 @@ My drolem grabbed it with its jaws, as usual, but I told it to back off on seein
 
 I've "officially" agreed to their deal - they'll supply me with materials, subjects, and what little progress they've made, and in return I've developed a modified orb that'll give them readings when it's used in a portal.  Needless to say, the readings are all bogus, and if they actually try to use those readings to make a second portal of their own, it'll blow them to bits.  The data they've given me has been VERY useful!  I've used it to construct a second altar from scratch - it still has some links to the demonic realm, but a single teleport with a genuine Orb of Many Ways will recalibrate it and cut those off completely, letting me get away scot-free with my knowledge and treasures, and preventing the demons from reaching me again.
 
-Now, I just need to get a genuine orb before the demons catch on...]], [[Well...  that was interesting.
+Now, I just need to get a genuine orb before the demons catch on...]], [[Eh bien... c'était intéressant.
 
-Setting up a portal took surprisingly little effort - conjured replicas of a Blood-Runed Athame and a Resonating Diamond work perfectly for setting up a portal, as it turns out, even if it burns them out after making just one.  This solution wouldn't work for the Orb of Many Ways, given that if it shorts out after one use, that means you're trapped on the other side of the portal, so I started working on a more tangible replica.  I noticed that most of them were disrupted by some form of interference, maybe echoes from the Spellblaze; my latest attempt at a more permanent orb was more of a curiosity than anything, an attempt to use those waves as constructive interference to lock onto their source.  I tossed a bandit through (my drolem's flight and relative silence have proven to be very convenient for securing test subjects!) with it tied to him, expecting him to pop into some magical maelstrom, quickly teleport back, and promptly die of terrible burn wounds (like the last four).
+Mettre en place un portail a pris étonnamment peu d'effort - des répliques conjurées d'un Athamé rune de sang et d'un Diamant Résonnant fonctionnent parfaitement pour mettre en place un portail, s'avère-t-il, même si cela les consume après en avoir fait un seul. Cette solution ne fonctionnerait pas pour l'Orbe des Multiples Voies, étant donné que s'il court-circuite après une utilisation, cela signifie que vous êtes piégé de l'autre côté du portail, donc j'ai commencé à travailler sur une réplique plus tangible. J'ai remarqué que la plupart d'entre eux étaient perturbés par une certaine forme d'interférence, peut-être des échos de la Brûlure Magique ; ma dernière tentative pour un orbe plus permanent était plus une curiosité qu'autre chose, une tentative d'utiliser ces ondes comme une interférence constructive pour se verrouiller sur leur source. J'ai jeté un bandit à travers (le vol et le silence relatif de mon Golem se sont avérés très pratiques pour sécuriser les sujets de test !) avec celui-ci attaché à lui, m'attendant à ce qu'il apparaisse dans un certain maelström magique, se téléporte rapidement en retour, et meure promptement de terribles brûlures (comme les quatre derniers).
 
-I didn't get a bandit back.  I got an imp.
+Je n'ai pas récupéré un bandit. J'ai récupéré un diablotin.
 
-My drolem grabbed it with its jaws, as usual, but I told it to back off on seeing the imp wasn't armed and wasn't even trying to cast any spells.  I apologized, treated its wounds, then asked it to explain what happened to my test subject.  Apparently, the demons have been running their own portal experiments!  The test subject was unharmed when he popped up in their laboratory; after the demons "questioned" him (boiling tar was involved), they realized that another inquisitive mind was on the other side, and hoped to communicate and possibly trade data with that person.  I've managed to make more progress than the demons have - either I'm a genius, or I've severely overestimated the threat the demons pose!
+Mon Golem l'a attrapé avec ses mâchoires, comme d'habitude, mais je lui ai dit de reculer en voyant que le diablotin n'était pas armé et n'essayait même pas de lancer de sorts. Je me suis excusé, ai traité ses blessures, puis lui ai demandé d'expliquer ce qui était arrivé à mon sujet de test. Apparemment, les démons ont mené leurs propres expériences de portail ! Le sujet de test était indemne quand il est apparu dans leur laboratoire ; après que les démons l'aient "interrogé" (du goudron bouillant était impliqué), ils ont réalisé qu'une autre esprit curieux était de l'autre côté, et espéraient communiquer et éventuellement échanger des données avec cette personne. J'ai réussi à faire plus de progrès que les démons - soit je suis un génie, soit j'ai sévèrement surestimé la menace que posent les démons !
 
-I've "officially" agreed to their deal - they'll supply me with materials, subjects, and what little progress they've made, and in return I've developed a modified orb that'll give them readings when it's used in a portal.  Needless to say, the readings are all bogus, and if they actually try to use those readings to make a second portal of their own, it'll blow them to bits.  The data they've given me has been VERY useful!  I've used it to construct a second altar from scratch - it still has some links to the demonic realm, but a single teleport with a genuine Orb of Many Ways will recalibrate it and cut those off completely, letting me get away scot-free with my knowledge and treasures, and preventing the demons from reaching me again.
+J'ai "officiellement" accepté leur accord - ils me fourniront des matériaux, des sujets, et le peu de progrès qu'ils ont fait, et en retour j'ai développé un orbe modifié qui leur donnera des lectures quand il est utilisé dans un portail. Inutile de dire que les lectures sont toutes bidon, et s'ils essaient réellement d'utiliser ces lectures pour faire un deuxième portail, cela les fera exploser. Les données qu'ils m'ont données ont été TRÈS utiles ! Je les ai utilisées pour construire un deuxième autel à partir de rien - il a toujours quelques liens avec le royaume démoniaque, mais une seule téléportation avec un véritable Orbe des Multiples Voies le recalibrera et les coupera complètement, me laissant m'échapper sans encombre avec mes connaissances et mes trésors, et empêchant les démons de m'atteindre à nouveau.
 
-Now, I just need to get a genuine orb before the demons catch on...]], "_t")
-t("Demon Orders", "Demon Orders", "_t")
+Maintenant, j'ai juste besoin d'obtenir un véritable orbe avant que les démons ne se rendent compte de la supercherie...]], "_t")
+t("Demon Orders", "Ordres démoniaques", "_t")
 t([[Order to the Portal Excursion Team:
 
 This egotistical human has proven to be very valuable.  We gave him only a very limited amount of data, and yet he still thinks he has the upper hand, thinking he could trick us by giving us faulty information.  No matter - the plans we gave him for a portal altar are feeding their measurements straight to us every time he uses them.  Every time he runs an experiment, we get much closer to devising a way to penetrate Eyal's shield; even the data we already have is enough to take us through one at a time, with the prohibitive limitation of creating a new Orb of Many Ways for each prospective invader.
 
-Your orders are to play along.  Keep giving him what he says he wants - more components, more captured Eyalites, more assistants.  Above all, let him think he's got the upper hand - feign ineptitude, and never let on that we know the data he's giving us is false.  Compared to what we're getting in return, it's a bargain.]], [[Order to the Portal Excursion Team:
+Your orders are to play along.  Keep giving him what he says he wants - more components, more captured Eyalites, more assistants.  Above all, let him think he's got the upper hand - feign ineptitude, and never let on that we know the data he's giving us is false.  Compared to what we're getting in return, it's a bargain.]], [[Ordre à l'Équipe d'Excursion du Portail :
 
-This egotistical human has proven to be very valuable.  We gave him only a very limited amount of data, and yet he still thinks he has the upper hand, thinking he could trick us by giving us faulty information.  No matter - the plans we gave him for a portal altar are feeding their measurements straight to us every time he uses them.  Every time he runs an experiment, we get much closer to devising a way to penetrate Eyal's shield; even the data we already have is enough to take us through one at a time, with the prohibitive limitation of creating a new Orb of Many Ways for each prospective invader.
+Cet humain égotique s'est avéré très précieux. Nous lui avons donné seulement une quantité très limitée de données, et pourtant il pense toujours avoir le dessus, pensant qu'il pourrait nous tromper en nous donnant des informations erronées. Peu importe - les plans que nous lui avons donnés pour un autel de portail nous envoient leurs mesures directement à chaque fois qu'il les utilise. Chaque fois qu'il mène une expérience, nous nous rapprochons beaucoup plus de trouver un moyen de pénétrer le bouclier d'Eyal ; même les données que nous avons déjà sont suffisantes pour nous faire passer un par un, avec la limitation prohibitive de créer un nouvel Orbe des Multiples Voies pour chaque envahisseur potentiel.
 
-Your orders are to play along.  Keep giving him what he says he wants - more components, more captured Eyalites, more assistants.  Above all, let him think he's got the upper hand - feign ineptitude, and never let on that we know the data he's giving us is false.  Compared to what we're getting in return, it's a bargain.]], "_t")
---]==]
-
+Vos ordres sont de jouer le jeu. Continuez à lui donner ce qu'il dit vouloir - plus de composants, plus d'Eyalites capturés, plus d'assistants. Par-dessus tout, laissez-le penser qu'il a le dessus - feignez l'incompétence, et ne laissez jamais paraître que nous savons que les données qu'il nous donne sont fausses. Comparé à ce que nous obtenons en retour, c'est une bonne affaire.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/trollmire.lua"
 
-
--- texte non traduit
---[==[
-t("trollmire", "trollmire", "newLore category")
-t("tattered paper scrap (trollmire)", "tattered paper scrap (trollmire)", "_t")
+t("trollmire", "bourbier troll", "newLore category")
+t("tattered paper scrap (trollmire)", "morceau de papier en lambeaux (bourbier troll)", "_t")
 t([[You find a tattered page scrap. Perhaps this is part of a diary entry.
 "...is a gorgeous glade, but I could swear that looked like a part of a human femur.
 
 ...
 
-Saw an absolutely gigantic troll, but fortunately I threw him off my scent."]], [[You find a tattered page scrap. Perhaps this is part of a diary entry.
-"...is a gorgeous glade, but I could swear that looked like a part of a human femur.
+Saw an absolutely gigantic troll, but fortunately I threw him off my scent."]], [[Vous trouvez un morceau de papier en lambeaux. Peut-être est-ce une page de journal intime.
+"...est une clairière magnifique, mais je pourrais jurer que cela ressemblait à une partie d'un fémur humain.
 
 ...
 
-Saw an absolutely gigantic troll, but fortunately I threw him off my scent."]], "_t")
+J'ai vu un troll absolument gigantesque, mais heureusement, je l'ai semé."]], "_t")
 t([[You find a tattered page scrap. Perhaps this is part of a diary entry.
 "...ack again, but he's just a stupid old troll. It'll be easy to not let him get wind of me.
 
 ...
 
-...initely found his treasure stash further on, but had to turn back. If you get this, HELP!"]], [[You find a tattered page scrap. Perhaps this is part of a diary entry.
-"...ack again, but he's just a stupid old troll. It'll be easy to not let him get wind of me.
+...initely found his treasure stash further on, but had to turn back. If you get this, HELP!"]], [[Vous trouvez un morceau de papier en lambeaux. Peut-être est-ce une page de journal intime.
+"...encore, mais ce n'est qu'un vieux troll stupide. Il sera facile de ne pas me faire repérer par lui.
 
 ...
 
-...initely found his treasure stash further on, but had to turn back. If you get this, HELP!"]], "_t")
+...définitivement trouvé sa cache de trésor plus loin, mais j'ai dû faire demi-tour. Si vous lisez ceci, À L'AIDE !"]], "_t")
 t([[You find a tattered page scrap. Perhaps this is part of a diary entry.
 "...writing this in a tree and he's at the bottom of it. Waiting. His club is the size of a tall dwarf. Don't think I'm going to make it..."
 
-Alongside the note is a part of a plan of the region.]], [[You find a tattered page scrap. Perhaps this is part of a diary entry.
-"...writing this in a tree and he's at the bottom of it. Waiting. His club is the size of a tall dwarf. Don't think I'm going to make it..."
+Alongside the note is a part of a plan of the region.]], [[Vous trouvez un morceau de papier en lambeaux. Peut-être est-ce une page de journal intime.
+"...écris ceci depuis un arbre et il est à son pied. Il attend. Sa massue a la taille d'un grand nain. Je ne pense pas que je vais m'en sortir..."
 
-Alongside the note is a part of a plan of the region.]], "_t")
---]==]
-
+À côté de la note se trouve une partie d'un plan de la région.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/zigur.lua"
 
-t("The Great Evil", "Le Grand Mal", "_t")
-t("The story of my salvation", "L'histoire de mon salut", "_t")
-t("Purging Trap", "Piège à Purge", "_t")
--- texte non traduit
---[==[
-t("zigur", "zigur", "newLore category")
-t("Rules of the Ziguranth", "Rules of the Ziguranth", "_t")
+t("Rules of the Ziguranth", "Règles des Ziguriens", "_t")
 t([[1. You will not talk about Zigur to the wider world, lest evil ears be listening.
 2. You will shun the use of all spells and witchcraft.
 3. You will shun the use of magic-cursed items.
@@ -17957,16 +17905,17 @@ t([[1. You will not talk about Zigur to the wider world, lest evil ears be liste
 7. You will actively hunt down and bring suffering upon any you suspect of using magic, communing with spirits, demon worship, or any you suspect of aiding others in these acts.
 8. You will report to the elders all activity you deem suspicious, especially evidence of cults or secret societies.
 
-These are the rules we live by, these are the rules by which we will save our world. All who fail in these rules will be purged with flame.]], [[1. You will not talk about Zigur to the wider world, lest evil ears be listening.
-2. You will shun the use of all spells and witchcraft.
-3. You will shun the use of magic-cursed items.
-4. You will shun the baneful influence of arcane runes and burn any skin that comes in contact with them.
-5. You will not aid or abet any you suspect of wizardry or conjuration.
-6. You will take note of any you suspect of spellweaving and report their name and address to the elders.
-7. You will actively hunt down and bring suffering upon any you suspect of using magic, communing with spirits, demon worship, or any you suspect of aiding others in these acts.
-8. You will report to the elders all activity you deem suspicious, especially evidence of cults or secret societies.
+These are the rules we live by, these are the rules by which we will save our world. All who fail in these rules will be purged with flame.]], [[1. Tu ne parleras pas de Zigur au reste du monde, de peur que des oreilles mal intentionnées ne l'entendent.
+2. Tu t'abstiendras de tout sortilège et de toute sorcellerie.
+3. Tu t'abstiendras d'utiliser des objets maudits.
+4. Tu éviteras l'influence maléfique des runes arcaniques et brûleras toute peau qui entre en contact avec elles.
+5. Tu n'aideras ni ne seras complice de quiconque est soupçonné de sorcellerie ou de magie.
+6. Tu noteras le nom et l'adresse de toute personne soupçonnée de jeter des sorts et tu les signaleras aux anciens.
+7. Tu poursuivras activement et infligeras des souffrances à quiconque est soupçonné d'utiliser la magie, de communiquer avec les esprits, de vénérer des démons ou d'aider autrui à commettre ces actes.
+8. Tu signaleras aux anciens toutes les activités que tu jugeras suspectes, en particulier les indices de cultes ou de sociétés secrètes.
 
-These are the rules we live by, these are the rules by which we will save our world. All who fail in these rules will be purged with flame.]], "_t")
+Telles sont les règles qui guident notre vie, les règles qui nous permettront de sauver notre monde. Quiconque ne respectera pas ces règles sera consumé par les flammes.]], "_t")
+t("The Great Evil", "Le Grand Mal", "_t")
 t([[We live in a world of wonders. All around us are natural energies and wild powers that are a marvel to see and experience. Soaring birds, mighty bears and ice-breathing dragons all abound in towering mountains, deep oceans and luscious forests. And we are part of this glorious environment, with our thoughts and strengths and all our wondrous capabilities. Truly we live in a fantastic world, and we should be glad to have a place amongst the wonders of Maj'Eyal.
 
 But some are not content. Some seek to pervert the wonders of the world with unnatural powers. With arcane forces they rip the threads of nature apart and sew it back however they see fit, uncaring of the damage they cause. Sometimes it is out of curiosity or a misplaced desire to do good, but normally it is out of greed and malice and a perverse obsession with power. Even those who enter into the banes of magic with good intentions inevitably end up doing harm and becoming themselves corrupted by the gross forces they tamper in.
@@ -17985,25 +17934,26 @@ But we are not clear of danger yet. Magic still exists, though oft it lies secre
 
 We must never forget the terrors of the Great Evil, and the suffering brought upon us by those who choose to corrupt nature with arcane powers. Be wary in your travels, and be thorough in your duties. Our fight is difficult, but it is just and true, and not until all Maj'Eyal is cleansed of the impurities of magic can we ever know peace. We are the protectors of the world, and by our strength and our union with nature we shall be its saviours.
 
--- Protector Myssil]], [[We live in a world of wonders. All around us are natural energies and wild powers that are a marvel to see and experience. Soaring birds, mighty bears and ice-breathing dragons all abound in towering mountains, deep oceans and luscious forests. And we are part of this glorious environment, with our thoughts and strengths and all our wondrous capabilities. Truly we live in a fantastic world, and we should be glad to have a place amongst the wonders of Maj'Eyal.
+-- Protector Myssil]], [[Nous vivons dans un monde débordant de merveilles. Tout autour de nous, les énergies naturelles et les forces sauvages se déploient dans un spectacle splendide. Oiseaux planant dans les cieux, ours gigantesques et dragons cracheurs de glace côtoient aisément les montagnes majestueuses, les océans profonds et les forêts luxuriantes. Nous faisons partie intégrante de cet environnement glorieux, dotés de pensées, de forces et de capacités exceptionnelles. Nous habitons véritablement un monde fantastique et devrions nous réjouir d'avoir notre place parmi les merveilles de Maj'Eyal.
 
-But some are not content. Some seek to pervert the wonders of the world with unnatural powers. With arcane forces they rip the threads of nature apart and sew it back however they see fit, uncaring of the damage they cause. Sometimes it is out of curiosity or a misplaced desire to do good, but normally it is out of greed and malice and a perverse obsession with power. Even those who enter into the banes of magic with good intentions inevitably end up doing harm and becoming themselves corrupted by the gross forces they tamper in.
+Cependant, certains ne s'en contentent pas. Certains cherchent à pervertir les merveilles du monde par des pouvoirs surnaturels. Recourant à des forces arcaniques, ils déchirent le tissu de la nature et le recousent à leur guise, indifférents aux dégâts qu'ils causent. Parfois, ils agissent par curiosité ou par un désir malavisé de bien faire, mais souvent, c'est par cupidité, par malice et par une obsession perverse du pouvoir. Même ceux qui s'engagent dans la pratique de la magie, animés de bonnes intentions, finissent par nuire et se laisser corrompre par les forces brutes qu'ils manipulent.
 
-History teaches us well the dangers of these forces. First were the Sher'Tul, of which we know little, but we do know that they manipulated magic to strengths beyond the dreams of current mages. And they led themselves to their own utter destruction. Alas that the lesson was not learnt by the younger races. The first recorded war in our history is between the humans and halflings for control of Sher'Tul ruins. Magic was used in those wars and the battles only stopped after two thousand years of slaughter left both sides too crippled to carry on fighting. It was in this time that our order was formed, and we tried to stop the insanity and the bloodshed. Alas that we failed.
+L'histoire nous enseigne les dangers que représentent ces forces. Les premiers furent les Sher'Tul, dont nous savons peu de choses, si ce n'est qu'ils manipulaient la magie avec des pouvoirs dépassant l'imagination des mages modernes, ce qui causa leur propre perte. Malheureusement, les races plus jeunes ne tirèrent pas les leçons de cette expérience. La première guerre recensée dans notre histoire opposa les humains aux petits êtres pour le contrôle des ruines Sher'Tul. La magie fut utilisée dans ces conflits, et les batailles ne cessèrent qu'après deux mille ans de massacres, laissant les deux camps mutilés au point de ne plus pouvoir se battre. C'est durant cette période que notre ordre fut formé, cherchant à mettre fin à la folie et à l'effusion de sang. Cependant, nous avons échoué.
 
-The weakening of our peoples by the magic-fuelled fighting left us then open to attacks by the orcs, whose surging numbers nearly overwhelmed us. But instead of relying on our own strengths and our natural defences, the foolish elves decided that only the arcane forces could save us. How very wrong they were... Their insidious mages tapped the vile powers of the Sher'Tul ruins and unleashed catastrophic waves of energy that burned half the world to a cinder. Mountains crumbled, lakes were boiled, and raging fires stripped the land of all life. The devastation can truly never be fully stated. But it is unforgettable and utterly unforgiveable. The Shaloren try to deny responsibility, but the blood of millions is on their hands.
+L'affaiblissement de nos peuples, dû aux guerres magiques, nous rendit vulnérables aux attaques des orcs, dont le nombre croissant faillit nous submerger. Mais, au lieu de compter sur notre propre force et nos défenses naturelles, les elfes, dans leur folie, crurent que seules les forces arcaniques pouvaient nous sauver. Quelle erreur colossale... Leurs mages insidieux exploitèrent les pouvoirs maléfiques des ruines de Sher’Tul, déchaînant des vagues d’énergie cataclysmiques qui réduisirent la moitié du monde en cendres. Les montagnes s’effondrèrent, les lacs se mirent à bouillir et des incendies dévastateurs consumèrent toute vie sur Terre. Cette dévastation est inexplicable, mais inoubliable et absolument impardonnable. Les Shaloréens tentent de se dédouaner, mais le sang de millions d’innocents pèse sur leurs mains.
 
-The suffering that followed the unfortunate survivors lasted centuries, as the unnatural forces created black plagues that wiped out kingdoms and made huge swathes of land uninhabitable. Dread warlocks and necromancers took advantage of the chaos to raise armies and gain power. Kor'Pul was the deadliest of these, and our order fought long and hard to kill him time and time again. We fought viciously to protect the people of Maj'Eyal from all the terrible pains of this time.
+Les souffrances des malheureux survivants durèrent des siècles, tandis que des forces surnaturelles engendraient de sombres fléaux qui ravagèrent des royaumes et rendirent de vastes étendues inhabitables. Les terribles mages et nécromanciens profitèrent du chaos pour lever des armées et accroître leur pouvoir. Kor’Pul était le plus redoutable d’entre eux, et notre ordre lutta sans relâche pour l’exterminer. Nous avons combattu avec bravoure pour protéger le peuple de Maj'Eyal des terribles souffrances de cette époque.
 
-But our efforts could not prevent the ultimate tragedy that followed. The plagues were mere echoes of the Spellblaze as its horrible effects rebounded across the land. One dark and terrible day those echoes rose in resonance, and a cataclysmic force tore through the heart of our world. The land was rent in two, earthquakes spouted forth magma from the ground, and the eastern edge of our land was torn away and sunk into the deepest oceans. It was a tragedy beyond comparison.
+Cependant, nos efforts ne purent empêcher la tragédie finale qui suivit. Les fléaux n'étaient que les prémices de la Brûlure Magique, dont les effets dévastateurs se répandaient sur le pays. Un jour sombre et terrible, ces prémices s'amplifièrent et une force cataclysmique déchira le coeur de notre monde. La terre fut coupée en deux, des tremblements de terre firent jaillir du magma du sol et la frontière orientale de nos terres fut arrachée, engloutie par les profondeurs des océans. Une tragédie sans précédent.
 
-As our civilisations slowly recovered the orcs began to increase in numbers, and it became clear then that they too had learned the dark arts. For centuries we suffered their attacks, and only by a unification of the races did we manage to finally contain them and wipe them out. Our order was vital in suppressing their pyromancers and blood mages, and many of our people bravely gave up their lives to protect the western armies and towns from destruction.
+Tandis que nos civilisations se relevaient lentement, les orcs se multiplièrent, révélant qu'eux aussi maîtrisaient les arts obscurs. Pendant des siècles, nous avons subi leurs attaques, et ce n'est qu'avec l'unification des races que nous avons finalement pu les contenir et les exterminer. Notre ordre fut essentiel pour réprimer leurs pyromanciens et leurs mages de sang, et nombre de nos braves membres sacrifièrent leur vie pour protéger les armées et les cités de l'ouest de la destruction.
 
-But we are not clear of danger yet. Magic still exists, though oft it lies secret and hidden. Memories of the dark days have waned, and one can even see alchemists and enchanters walking openly in the streets, unheeding of the pain their ilk have brought to our world. But worse exists... Secret societies hide themselves in unknown places, plotting and scheming to bring further destruction on Maj'Eyal. Dark cults exist in quiet isolation, kidnapping innocents and performing vile ceremonies. We try our best to hunt these monsters down, to root them out from their fell dens and bring an end to their depraved plans. Yet we must try harder, for our world is in mortal peril if these fiends are allowed to act unhindered.
+Mais le danger n'est pas encore écarté. La magie persiste, bien que souvent cachée et dissimulée. Les souvenirs des jours sombres s'estompent, et même les alchimistes et les enchanteurs arpentent les rues au grand jour, indifférents à la souffrance que leurs semblables ont infligée à notre monde. Cependant, quelque chose de plus sinistre encore existe... Des sociétés secrètes se tapissent dans des lieux inconnus, conspirant et complotant pour semer davantage la destruction sur Maj'Eyal. Des cultes obscurs opèrent dans le silence, kidnappant des innocents et se livrant à d'abominables cérémonies. Nous mettons tout en oeuvre pour traquer ces monstres, les débusquer de leurs repaires et contrecarrer leurs plans pervers. Cependant, nous devons redoubler d'efforts, car notre monde sera en danger de mort si ces démons agissent sans retenue.
 
-We must never forget the terrors of the Great Evil, and the suffering brought upon us by those who choose to corrupt nature with arcane powers. Be wary in your travels, and be thorough in your duties. Our fight is difficult, but it is just and true, and not until all Maj'Eyal is cleansed of the impurities of magic can we ever know peace. We are the protectors of the world, and by our strength and our union with nature we shall be its saviours.
+Nous ne devons jamais oublier les terreurs du Grand Mal et les souffrances causées par ceux qui corrompent la nature par des pouvoirs occultes. Soyez prudents dans vos voyages et méticuleux dans vos devoirs. Notre combat est difficile, mais juste et légitime, et ce n'est que lorsque Maj'Eyal sera libérée des impuretés de la magie que nous trouverons la paix. Nous sommes les protecteurs du monde, et par notre force et notre union avec la nature, nous en serons les sauveurs.
 
--- Protector Myssil]], "_t")
+-- Protecteur Myssil]], "_t")
+t("The story of my salvation", "L'histoire de mon salut", "_t")
 t([[I used to be a potion merchant in Derth. I brewed alchemical tonics and elixirs for locals and travellers. My trade was good, and I lived very happily from the gold I earned. For a young woman to have such a business I was very proud.
 
 One day however several people in the town fell ill from a mystery disease. Rumours spread that my potions were to blame, and people stopped coming to my shop. My business was in ruins, and I soon ran the risk of becoming destitute. Then one of the elders died, and though he had been ill for some time, I was blamed for his death. People said I had laid a hex on him, and murmurs arose of witchcraft.
@@ -18019,31 +17969,35 @@ When I awoke I was in another village in a soft bed. There were wrappings round 
 She explained how she and her friends were helping to save the world, to rid our lands of all magic. And she has saved me. Not just from a terrible death, but also from the evil influences of the arcane. Even if I still had a tongue I could not find words to express my thanks to her, and my joy at the new life I lead, free from the abominations of magic. Thanks to her help I can now walk again with the aid of a crutch, and I can find true happiness in my rightful place in nature.
 
 I have no voice now to tell my story to others, and so I write it down instead, and I spread it to the winds. I have suffered from my contact with magic, and others will suffer too. Do not trust in the terrible powers of these devious arts. They will only betray you and bring you to harm. Turn your back on magic, and make others repent too. Find your own salvation in nature's joys before it is too late.
-]], [[I used to be a potion merchant in Derth. I brewed alchemical tonics and elixirs for locals and travellers. My trade was good, and I lived very happily from the gold I earned. For a young woman to have such a business I was very proud.
+]], [[J'étais marchande de potions à Derth, préparant des toniques et des élixirs alchimiques pour les habitants et les voyageurs. Mon commerce prospérait et je vivais heureuse de l'or que je gagnais, fière d'être une jeune femme entreprenante.
 
-One day however several people in the town fell ill from a mystery disease. Rumours spread that my potions were to blame, and people stopped coming to my shop. My business was in ruins, and I soon ran the risk of becoming destitute. Then one of the elders died, and though he had been ill for some time, I was blamed for his death. People said I had laid a hex on him, and murmurs arose of witchcraft.
+Un jour, une mystérieuse maladie commença à frapper plusieurs personnes en ville. Des rumeurs accusant mes potions d'en être la cause se répandirent et les clients désertèrent ma boutique. Mon commerce s'effondra et je me retrouvai bientôt au bord de la ruine. Lorsqu'un ancien mourut, bien qu'il fût malade depuis longtemps, on me tint pour responsable de sa mort. On crut que je l'avais maudit et des rumeurs de sorcellerie commencèrent à circuler.
 
-I still remember how peaceful the evening had seemed when the townsfolk came for me. I was looking up at the brightness of the stars and the clear crescent Summertide moon, thinking of how I should restart my business, when I heard shouts from the distance. I saw the crowd appear from round the corner, advancing with their torches. I screamed for help, but they broke through my door, smashed through my windows and grabbed me. They dragged me outside and set their torches to my house. I was stripped to my skin and beaten heavily whilst they cursed and jeered, and even the man who had been my fiancé spat on my face and cursed me.
+Je me souviens du calme de la nuit où les habitants vinrent me chercher. J'admirais la lumière des étoiles et le croissant de lune de Véranil, songeant à la manière de relancer mon commerce, lorsque j'entendis des cris au loin. La foule apparut au coin de la rue, avançant avec des torches allumées. J'ai crié à l'aide, mais ils ont défoncé ma porte, brisé mes fenêtres et m'ont attrapée. Ils m'ont traînée dehors et ont incendié ma maison. Ils m'ont déshabillée et battue en m'insultant et en se moquant de moi. Même mon fiancé m'a craché au visage et m'a insultée.
 
-They pulled me over grass and stone to the town square, and though half-blinded by the tears and my swollen flesh I could still make out the wooden stake they were erecting. I tried to cry out, I tried to beg for mercy, but their response was to hold me down by my throat and pull out my tongue with the blacksmith's tongs. As I coughed up blood they put me against the wooden pole and used barbed cords to tie my wrists to it above my head. The pain was unbearable and I passed out, and did not wake until I could feel the burning at my feet. The crowd were cheering as the smoke began to wrap around me, and they cheered louder with every pained scream I released from my lungs.
+Ils m'ont traînée à travers l'herbe et les pierres jusqu'à la place du village. Malgré mes yeux à moitié voilés par les larmes et mon corps tuméfié, je voyais le pieu qu'ils dressaient. J'ai essayé de crier, de les supplier, mais ils m'ont saisie à la gorge et m'ont arraché la langue avec des pinces de forgeron. Alors que je crachais du sang, ils m'ont plaquée contre le poteau et m'ont ligoté les poignets au-dessus de la tête avec des cordes barbelées. La douleur était insupportable et j'ai perdu connaissance. Je ne me suis réveillée qu'en sentant la chaleur sur mes pieds. La foule a applaudi tandis que la fumée commençait à m'envelopper, et ses applaudissements redoublaient à chaque cri de douleur qui s'échappait de mes poumons.
 
-I was choking from the smoke, barely able to breathe, and I could no longer feel my legs. Just when I felt my consciousness slipping away again I heard a commotion and a woman's voice shouted out, "She is no witch!" Then I saw some people coming towards me, and at the front was a halfling woman in dark armour. She rushed towards me, unheeding of the flames, and with a swift flick from her long sword she cut my bonds. She caught me as I fell and pulled me away from the fire, laying me down on the ground. I saw her soft face above mine as she whispered to me, "Tell me child, do you reject magic in all its forms?" I nodded my head - I could not say no to those bright eyes. She wiped the tears streaming down my face and kissed my forehead. "Then you will be safe - rest now." At once I passed out.
+Suffoquant sous la fumée, je respirais à peine et ne sentais plus mes jambes. Alors que ma conscience s'estompait à nouveau, j'entendis un tumulte et une voix féminine crier : "Ce n'est pas une sorcière !" Plusieurs personnes s'approchèrent, et en tête se tenait une petite femme vêtue d'une armure sombre. Elle se précipita vers moi, sans se soucier des flammes, et d'un coup rapide de sa longue épée, elle trancha mes liens. Elle me rattrapa dans ma chute et m'éloigna du feu, me déposant au sol. Je vis son doux visage au-dessus du mien tandis qu'elle murmurait : "Dis-moi, enfant, rejettes-tu la magie sous toutes ses formes ?" J'acquiesçai – je ne pouvais résister à ce regard si lumineux. Elle essuya mes larmes et m'embrassa le front. "Alors tu seras en sécurité – repose-toi maintenant." Aussitôt, je m'évanouis.
 
-When I awoke I was in another village in a soft bed. There were wrappings round my legs and bandages covering the cuts and bruises over the rest of my body. Healers tended to me, using natural remedies and herbal balms. The halfling woman would come and see me every day to check up on me. I longed for her every visit. She would speak to me sometimes. She explained how the townsfolk weren't to blame for their actions. It was all the mages' fault. They were corrupting the world, spreading chaos, and turning people against each other. I realised I was wrong for ever brewing potions - they were infested with arcane energies and could only bring harm to the world.
+À mon réveil, je me trouvais dans un autre village, sur un lit moelleux. Mes jambes étaient bandées et des pansements recouvraient mes coupures et mes contusions. Des guérisseurs me soignaient avec des remèdes naturels et des baumes à base de plantes. La petite femme me rendait visite chaque jour, et ses visites me manquaient terriblement. Parfois, elle me parlait, m'expliquant que les habitants de la ville n'étaient pas responsables de leurs actes. La faute en incombait aux mages, qui avaient corrompu le monde, semant le chaos et incitant aux conflits. Je compris que j'avais eu tort de préparer des potions, car elles étaient imprégnées d'énergies arcaniques, ne apportant que du mal au monde.
 
-She explained how she and her friends were helping to save the world, to rid our lands of all magic. And she has saved me. Not just from a terrible death, but also from the evil influences of the arcane. Even if I still had a tongue I could not find words to express my thanks to her, and my joy at the new life I lead, free from the abominations of magic. Thanks to her help I can now walk again with the aid of a crutch, and I can find true happiness in my rightful place in nature.
+Elle me raconta comment elle et ses amis avaient combattu pour sauver le monde, débarrassant nos terres de toute magie. Elle m'a sauvée non seulement d'une mort terrible, mais aussi des influences maléfiques de la magie. Même si j'avais encore une langue, je n'aurais pas trouvé les mots pour exprimer ma gratitude envers elle et ma joie pour cette nouvelle vie que je menais, libérée des abominations de la magie. Grâce à elle, je marche à nouveau avec une béquille et je trouve le vrai bonheur au contact de la nature.
 
-I have no voice now to tell my story to others, and so I write it down instead, and I spread it to the winds. I have suffered from my contact with magic, and others will suffer too. Do not trust in the terrible powers of these devious arts. They will only betray you and bring you to harm. Turn your back on magic, and make others repent too. Find your own salvation in nature's joys before it is too late.
+À présent, je n'ai plus de voix pour raconter mon histoire, alors je l'écris et la laisse s'envoler au gré du vent. J'ai souffert à cause de mon contact avec la magie, et d'autres souffriront aussi. Ne vous fiez pas aux terribles pouvoirs de ces arts malhonnêtes. Ils n'apporteront que trahison et souffrance. Tournez le dos à la magie et faites en sorte que les autres le regrettent aussi. Trouvez votre propre salut dans les joies de la nature avant qu'il ne soit trop tard.
 ]], "_t")
+t("Purging Trap", "Piège à Purge", "_t")
 t([[[As you begin to leave, Protector Myssil stops you.]
 
 Actually...  You fight in a more subtle way than most, do you not?  It is a point of pride for many of us that we stand tall in the face of arcane aggression and give warlocks one chance to repent before purging them, and much of our training reflects that, but I won't deny that less...  #{italic}#traditionally glorious#{normal}# methods can be extremely effective.  Decorum's no reason to let a necromancer get away alive when you could've planted a trap in their escape route.
 
-(She hands you a scroll.) Here - some of us have come up with a pre-prepared device which will sap magic from whoever or whatever sets it off.  All we ask is that you use discretion with these devices; no matter what our #{italic}#last#{normal}# assassin thought, planting them in some lesser rune-scribe's shop would be more likely to do us harm than good in the long run.]], [[[As you begin to leave, Protector Myssil stops you.]
+(She hands you a scroll.) Here - some of us have come up with a pre-prepared device which will sap magic from whoever or whatever sets it off.  All we ask is that you use discretion with these devices; no matter what our #{italic}#last#{normal}# assassin thought, planting them in some lesser rune-scribe's shop would be more likely to do us harm than good in the long run.]], [[[Alors que vous vous apprêtez à partir, le Protecteur Myssil vous barre le chemin.
 
-Actually...  You fight in a more subtle way than most, do you not?  It is a point of pride for many of us that we stand tall in the face of arcane aggression and give warlocks one chance to repent before purging them, and much of our training reflects that, but I won't deny that less...  #{italic}#traditionally glorious#{normal}# methods can be extremely effective.  Decorum's no reason to let a necromancer get away alive when you could've planted a trap in their escape route.
+En fait... Vous adoptez une approche plus subtile que la plupart, n'est-ce pas ? Pour beaucoup d'entre nous, c'est une question de fierté de tenir bon face à l'agression arcanique, d'offrir aux mages une chance de se repentir avant de les bannir. Une grande partie de notre entraînement reflète cette philosophie, mais je ne peux nier que... de #{italic}#traditionnellement glorieuse#{normal}# méthodes peuvent être extrêmement efficaces. La bienséance ne devrait pas vous empêcher de vous enfuir alors que vous pourriez, en réalité, lui tendre un piège.
 
-(She hands you a scroll.) Here - some of us have come up with a pre-prepared device which will sap magic from whoever or whatever sets it off.  All we ask is that you use discretion with these devices; no matter what our #{italic}#last#{normal}# assassin thought, planting them in some lesser rune-scribe's shop would be more likely to do us harm than good in the long run.]], "_t")
+[Elle vous tend un parchemin] Certains d'entre nous ont créé un dispositif qui absorbera la magie de quiconque l'active. Nous vous demandons simplement de l'utiliser avec discrétion. Quoi qu’en ait pensé notre #{italic}#dernier#{normal}# assassin, les cacher dans la boutique d’un scribe runique de second ordre risquerait davantage de nous nuire que de nous servir à long terme.]], "_t")
+-- texte non traduit
+--[==[
+t("zigur", "zigur", "newLore category")
 --]==]
 
 
