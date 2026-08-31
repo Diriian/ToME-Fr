@@ -13592,10 +13592,9 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 ------------------------------------------------
 section "mod-tome/data/lore/fearscape.lua"
 
-
+t("fearscape", "plan de la peur", "newLore category")
 -- texte non traduit
 --[==[
-t("fearscape", "fearscape", "newLore category")
 t("a fearsome sight", "a fearsome sight", "_t")
 t([[You stand in a field of fire, the flames dancing back and forth like blaze-spawned corn waving in the wind. It licks your feet, your skin, your face, and writhes around in tiny shapes which tear across your flesh and crawl down your throat. It burns and blazes through your body, and crazed thoughts fill your mind. This is Goedalath they tell you, the Fearscape, and you have no rightful place here.
 
@@ -20938,73 +20937,65 @@ t([[Creates a temporal echo in a radius of %d around you.  Affected targets take
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/blight.lua"
 
-t("Corrosive Worm", "Ver Corrosif", "talent name")
--- texte non traduit
---[==[
-t("Dark Ritual", "Dark Ritual", "talent name")
+t("Dark Ritual", "Rituel Sombre", "talent name")
 t([[Increases your critical damage multiplier by %d%%.
-		The multiplier will increase with your Spellpower.]], [[Increases your critical damage multiplier by %d%%.
-		The multiplier will increase with your Spellpower.]], "tformat")
-t("Corrupted Negation", "Corrupted Negation", "talent name")
+		The multiplier will increase with your Spellpower.]], [[Augmente votre multiplicateur de dégâts critiques de %d%%.
+		Le multiplicateur est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Corrupted Negation", "Négation Corrompue", "talent name")
 t([[Project a corrupted blast of power that removes up to %d magical or physical effects or any type of sustain and deals %0.2f blight damage to any creatures caught in the radius 3 ball.
 		For each effect, the creature has a chance to resist based on its spell save.
-		The damage will increase with your Spellpower.]], [[Project a corrupted blast of power that removes up to %d magical or physical effects or any type of sustain and deals %0.2f blight damage to any creatures caught in the radius 3 ball.
-		For each effect, the creature has a chance to resist based on its spell save.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Projette une explosion de pouvoir corrompue qui supprime jusqu'à %d effet(s) magique(s) ou physique(s), ou tout type d'effet soutenu, et inflige %0.2f dégâts de fléau à toutes les créatures touchées dans un rayon de 3 cases.
+		Pour chaque effet, la créature a une chance de résister en fonction de sa sauvegarde magique.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Corrosive Worm", "Ver Corrosif", "talent name")
 t([[Infects the target with a corrosive worm for 6 turns that reduces blight and acid resistance by %d%% and feeds off damage taken.
 		When this effect ends or the target dies the worm will explode, dealing %d acid damage in a 4 radius ball. This damage will increase by %d%% of all damage taken while infected.
-		The damage dealt by the effect will increase with spellpower.]], [[Infects the target with a corrosive worm for 6 turns that reduces blight and acid resistance by %d%% and feeds off damage taken.
-		When this effect ends or the target dies the worm will explode, dealing %d acid damage in a 4 radius ball. This damage will increase by %d%% of all damage taken while infected.
-		The damage dealt by the effect will increase with spellpower.]], "tformat")
-t("Poison Storm", "Poison Storm", "talent name")
+		The damage dealt by the effect will increase with spellpower.]], [[Infecte la cible avec un ver corrosif pendant 6 tours qui réduit la résistance au fléau et à l'acide de %d%% et se nourrit des dégâts reçus.
+		Lorsque l'effet se termine ou que la cible meurt, le ver explose, infligeant %d dégâts d'acide dans un rayon de 4 cases. Ces dégâts augmentent de %d%% de tous les dégâts reçus pendant l'infection.
+		Les dégâts causés par l'effet sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Poison Storm", "Tempête de Poison", "talent name")
 t([[A furious storm of blighted poison rages around the caster in a radius of %d for %d turns.  Each creature hit by the storm takes %0.2f blight damage and is poisoned for %0.2f blight damage over 4 turns.
 		At talent level 2 you have a chance to inflict Insidious Blight, which reduces healing by %d%%.
 		At talent level 4 you have a chance to inflict Numbing Blight, which reduces all damage dealt by %d%%.
 		At talent level 6 you have a chance to inflict Crippling Blight, which causes talents to have a %d%% chance of failure.
 		Each possible effect is equally likely.
 		The poison damage dealt is capable of a critical strike.
-		The damage will increase with your Spellpower.]], [[A furious storm of blighted poison rages around the caster in a radius of %d for %d turns.  Each creature hit by the storm takes %0.2f blight damage and is poisoned for %0.2f blight damage over 4 turns.
-		At talent level 2 you have a chance to inflict Insidious Blight, which reduces healing by %d%%.
-		At talent level 4 you have a chance to inflict Numbing Blight, which reduces all damage dealt by %d%%.
-		At talent level 6 you have a chance to inflict Crippling Blight, which causes talents to have a %d%% chance of failure.
-		Each possible effect is equally likely.
-		The poison damage dealt is capable of a critical strike.
-		The damage will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage will increase with your Spellpower.]], [[Une tempête furieuse de fléau poisonneux se déchaîne autour du lanceur dans un rayon de %d cases pendant %d tours.
+		Chaque créature touchée par la tempête subit %0.2f dégâts de fléau et est empoisonnée pour %0.2f dégâts de fléau sur 4 tours.
+		Au niveau 2, vous avez une chance d'infliger Fléau Insidieuse qui réduit les soins de %d%%.
+		Au niveau 4, vous avez une chance d'infliger Fléau Engourdissant, qui réduit tous les dégâts infligés de %d%%.
+		Au niveau 6, vous avez une chance d'infliger Fléau Estropiant, qui fait que les talents ont %d%% de chance d'échouer.
+		Chaque effet possible a la même probabilité de se produire.
+		Les dégâts de poison peuvent être des coups critiques.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/blood.lua"
 
-
--- texte non traduit
---[==[
-t("Blood Spray", "Blood Spray", "talent name")
+t("Blood Spray", "Jet de Sang", "talent name")
 t([[You extract corrupted blood from your own body, hitting everything in a frontal cone of radius %d for %0.2f blight damage.
 		Each creature hit has a %d%% chance of being infected by a random disease, doing %0.2f blight damage and weakening either Constitution, Strength or Dexterity for 6 turns.
-		The damage will increase with your Spellpower.]], [[You extract corrupted blood from your own body, hitting everything in a frontal cone of radius %d for %0.2f blight damage.
-		Each creature hit has a %d%% chance of being infected by a random disease, doing %0.2f blight damage and weakening either Constitution, Strength or Dexterity for 6 turns.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Blood Grasp", "Blood Grasp", "talent name")
+		The damage will increase with your Spellpower.]], [[Extrayez du sang corrompu de votre propre corps, frappant tout dans un cône frontal de rayon %d pour %0.2f dégâts de fléau.
+		Chaque créature touchée a %d%% de chance d'être infectée par une maladie aléatoire, infligeant %0.2f dégâts de fléau et affaiblissant sa Constitution, Force ou Dextérité pendant 6 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Blood Grasp", "Emprise de Sang", "talent name")
 t([[Project a bolt of corrupted blood, doing %0.2f blight damage and healing you for 20%% the damage dealt.
 			50%% of the damage dealt will be gained as maximum life for 7 turns (before the healing).
-		The damage will increase with your Spellpower.]], [[Project a bolt of corrupted blood, doing %0.2f blight damage and healing you for 20%% the damage dealt.
-			50%% of the damage dealt will be gained as maximum life for 7 turns (before the healing).
-		The damage will increase with your Spellpower.]], "tformat")
-t("Blood Boil", "Blood Boil", "talent name")
+		The damage will increase with your Spellpower.]], [[Projette un rayon de sang corrompu, infligeant %0.2f dégâts de fléau et vous soignant de 20%% des dégâts infligés.
+		50%% des dégâts infligés sont convertis en vie maximale pendant 7 tours (avant les soins).
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Blood Boil", "Ébullition de Sang", "talent name")
 t([[Make the impure blood of all creatures around you in radius %d boil.
 				Each enemy afflicted by a disease, poison, or wound will have one removed at random dealing %0.2f blight damage, healing you for %d, and slowing them by %d%% for 5 turns.
-			The damage will increase with your Spellpower.]], [[Make the impure blood of all creatures around you in radius %d boil.
-				Each enemy afflicted by a disease, poison, or wound will have one removed at random dealing %0.2f blight damage, healing you for %d, and slowing them by %d%% for 5 turns.
-			The damage will increase with your Spellpower.]], "tformat")
-t("Blood Fury", "Blood Fury", "talent name")
+			The damage will increase with your Spellpower.]], [[Faites bouillir le sang impur de toutes les créatures autour de vous dans un rayon de %d cases.
+		Chaque ennemi affligé d'une maladie, d'un poison ou d'une blessure se verra supprimer un effet aléatoirement, infligeant %0.2f dégâts de fléau, vous soignant de %d points de vie et les ralentissant de %d%% pendant 5 tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Blood Fury", "Furie de Sang", "talent name")
 t([[Concentrate on the corruption you bring, increasing your spell critical chance by %d%%.
 		Each time your spells go critical, you enter a blood rage for 5 turns, increasing your blight and acid damage by %d%%.
-		The critical chance and damage increase will improve with your Spellpower.]], [[Concentrate on the corruption you bring, increasing your spell critical chance by %d%%.
-		Each time your spells go critical, you enter a blood rage for 5 turns, increasing your blight and acid damage by %d%%.
-		The critical chance and damage increase will improve with your Spellpower.]], "tformat")
---]==]
-
+		The critical chance and damage increase will improve with your Spellpower.]], [[Concentrez-vous sur la corruption que vous apportez, augmentant votre chance de critique magique de %d%%.
+		Chaque fois que vos sorts font un critique, vous entrez dans une rage de sang pendant 5 tours, augmentant vos dégâts de fléau et d'acide de %d%%.
+		La chance de critique et l'augmentation des dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/bone.lua"
@@ -21274,49 +21265,44 @@ t("Corrupt the target reducing disease immunity by 100%% for 2 turns and strippi
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/shadowflame.lua"
 
-t("Wraithform", "Forme d'Âme en Peine", "talent name")
-t("Fearscape", "Plan de la peur", "talent name")
-t("The spell fizzles...", "Le sort échoue...", "logPlayer")
--- texte non traduit
---[==[
+t("Wraithform", "Forme Spectrale", "talent name")
 t([[Turn into a wraith, allowing you to walk through walls and removing the need to breath for %d turns.
 		Also increases your defense and armour by %d and %d, respectively.
 		If you are still in a wall when the effect ends you will randomly teleport.
-		]], [[Turn into a wraith, allowing you to walk through walls and removing the need to breath for %d turns.
-		Also increases your defense and armour by %d and %d, respectively.
-		If you are still in a wall when the effect ends you will randomly teleport.
-		]], "tformat")
-t("Darkfire", "Darkfire", "talent name")
+		]], [[Transformez-vous en spectre, vous permettant de traverser les murs et éliminant le besoin de respirer pendant %d tours.
+		Augmente également votre défense de %d et votre armure de %d.
+		Si vous êtes encore dans un mur lorsque l'effet se termine, vous vous téléporterez aléatoirement.]], "tformat")
+t("Darkfire", "Feu Sombre", "talent name")
 t([[Conjures up a bolt of shadowflame that moves toward the target and explodes into a flash of darkness and fire, doing %0.2f fire damage and %0.2f darkness damage in a radius of %d.
-		The damage will increase with your Spellpower.]], [[Conjures up a bolt of shadowflame that moves toward the target and explodes into a flash of darkness and fire, doing %0.2f fire damage and %0.2f darkness damage in a radius of %d.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Flame of Urh'Rok", "Flame of Urh'Rok", "talent name")
+		The damage will increase with your Spellpower.]], [[Conjure un rayon de flamme ténébreuse qui se dirige vers la cible et explose en un éclair de ténèbres et de feu, infligeant %0.2f dégâts de feu et %0.2f dégâts d'obscurité dans un rayon de %d cases.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Flame of Urh'Rok", "Flamme d'Urh'Rok", "talent name")
 t([[Call upon the essence of the supreme demon overlord Urh'Rok to turn into a demon.
 		While in demon form, you gain %d%% fire resistance, %d%% darkness resistance, and your global speed is increased by %d%%.
 		The flames of the Fearscape will heal you while in demon form.
-		The resistances and heal will increase with your Spellpower.]], [[Call upon the essence of the supreme demon overlord Urh'Rok to turn into a demon.
-		While in demon form, you gain %d%% fire resistance, %d%% darkness resistance, and your global speed is increased by %d%%.
-		The flames of the Fearscape will heal you while in demon form.
-		The resistances and heal will increase with your Spellpower.]], "tformat")
-t("This spell cannot be used from within the Fearscape.", "This spell cannot be used from within the Fearscape.", "logPlayer")
-t("This spell cannot be cast here.", "This spell cannot be cast here.", "logPlayer")
-t("#LIGHT_RED#You are taken to the Fearscape!", "#LIGHT_RED#You are taken to the Fearscape!", "logPlayer")
-t("#LIGHT_RED#You are brought back from the Fearscape!", "#LIGHT_RED#You are brought back from the Fearscape!", "logPlayer")
+		The resistances and heal will increase with your Spellpower.]], [[Invoquez l'essence du suprême seigneur des démons Urh'Rok pour vous transformer en démon.
+		Sous forme de démon, vous gagnez %d%% de résistance au feu, %d%% de résistance à l'obscurité et votre vitesse globale augmente de %d%%.
+		Les flammes du Plan de la Peur vous soigneront sous forme de démon.
+		Les résistances et les soins sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Fearscape", "Plan de la Peur", "talent name")
+t("This spell cannot be used from within the Fearscape.", "Ce sort ne peut pas être utilisé depuis l'intérieur du Plan de la Peur.", "logPlayer")
+t("This spell cannot be cast here.", "Ce sort ne peut pas être lancé ici.", "logPlayer")
+t("The spell fizzles...", "Le sort échoue...", "logPlayer")
+t("#LIGHT_RED#You are taken to the Fearscape!", "#LIGHT_RED#Vous êtes emmené dans le Plan de la Peur !", "logPlayer")
+t("#LIGHT_RED#You are brought back from the Fearscape!", "#LIGHT_RED#Vous êtes ramené du Plan de la Peur !", "logPlayer")
 t([[Summon a part of the Fearscape to intersect with the current level.
 		You and your target are taken to the Fearscape, trapped there until you end the spell or until your target dies.
 		While inside, a constant aura of flames will burn both of you for %0.2f fire damage (demons are healed instead) each turn.
 		When the spell ends, only you and the target (if still alive) plus any loose objects are taken back to your home plane; all summons are left in the Fearscape.
 		This powerful spell drains 5 vim per turn initially, increasing by +1 for each turn it has been active, and ends when your vim is depleted.
 		It has no effect if cast from within the Fearscape.
-		The damage will increase with your Spellpower.]], [[Summon a part of the Fearscape to intersect with the current level.
-		You and your target are taken to the Fearscape, trapped there until you end the spell or until your target dies.
-		While inside, a constant aura of flames will burn both of you for %0.2f fire damage (demons are healed instead) each turn.
-		When the spell ends, only you and the target (if still alive) plus any loose objects are taken back to your home plane; all summons are left in the Fearscape.
-		This powerful spell drains 5 vim per turn initially, increasing by +1 for each turn it has been active, and ends when your vim is depleted.
-		It has no effect if cast from within the Fearscape.
-		The damage will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage will increase with your Spellpower.]], [[Invoque une partie du Plan de la Peur pour l'intersecter avec le niveau actuel.
+		Vous et votre cible êtes emmenés dans le Plan de la Peur, piégés là jusqu'à ce que vous mettiez fin au sort ou que votre cible meure.
+		À l'intérieur, une aura constante de flammes vous brûlera tous les deux pour %0.2f dégâts de feu (les démons sont soignés à la place) par tour.
+		Quand le sort prend fin, seulement vous et la cible (si encore en vie), ainsi que tous les objets au sol, êtes ramenés à votre plan d'origine ; toutes les invocations restent dans le Plan de la Peur.
+		Ce puissant sort draine 5 Vitae par tour initialement, augmentant de +1 pour chaque tour d'activité, et se termine lorsque votre Vitae est épuisée.
+		N'a aucun effet si lancé depuis l'intérieur du Plan de la Peur.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/torment.lua"
@@ -33739,7 +33725,7 @@ t("#Target# is infected by a corrosive worm.", "#Target# est infecté par un ver
 t("+Corrosive Worm", "+Ver Corrosif", "_t")
 t("#Target# is free from the corrosive worm.", "#Target# est débarrassé du ver corrosif.", "_t")
 t("-Corrosive Worm", "-Ver Corrosif", "_t")
-t("Wraithform", "Forme d'Âme en Peine", "_t")
+t("Wraithform", "Forme Spectrale", "_t")
 t("Turn into a wraith, passing through walls (but not natural obstacles), granting %d defense and %d armour.", "Se transforme en Âme en Peine, traverse les murs (mais pas les obstacles naturels), accorde %d de défense et %d d'armure.", "tformat")
 t("#Target# turns into a wraith.", "#Target# se tranforme en Âme en Peine.", "_t")
 t("+Wraithform", "+Forme d'Âme en Peine", "_t")
@@ -36948,7 +36934,7 @@ t("%s taps %s %s together!", "%s tape %s %s ensemble !", "logSeen")
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane/zone.lua"
 
-t("Fearscape", "Plan de la peur", "_t")
+t("Fearscape", "Plan de la Peur", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane-spell/grids.lua"
@@ -36959,7 +36945,7 @@ t("#Source# heals #Target#!", "#Source# soigne #Target# !", "logCombat")
 ------------------------------------------------
 section "mod-tome/data/zones/demon-plane-spell/zone.lua"
 
-t("Fearscape", "Plan de la peur", "_t")
+t("Fearscape", "Plan de la Peur", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/dreadfell/grids.lua"
