@@ -547,6 +547,7 @@ t("open maggot door", "open maggot door", "entity name")
 section "tome-cults/data/general/grids/scourge.lua"
 
 t("floor", "sol", "entity type")
+t("scourge", "fléau", "entity subtype")
 t("floor", "sol", "entity name")
 t("creep", "rampant", "entity subtype")
 t("creep", "rampant", "entity name")
@@ -558,7 +559,6 @@ t("ladder to the previous level", "échelle vers le niveau précédent", "entity
 t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
 -- texte non traduit
 --[==[
-t("scourge", "scourge", "entity subtype")
 t("tentacle 'tree'", "tentacle 'tree'", "entity name")
 --]==]
 
@@ -751,11 +751,11 @@ t("krog", "krog", "entity subtype")
 ------------------------------------------------
 section "tome-cults/data/general/npcs/scourge-drake.lua"
 
+t("scourge", "fléau", "entity subtype")
 t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("scourge", "scourge", "entity subtype")
 t("scourge drake hatchling", "scourge drake hatchling", "entity name")
 t("scourge drake", "scourge drake", "entity name")
 t("A mature scourge drake, armed with deadly breath and nasty claws.", "A mature scourge drake, armed with deadly breath and nasty claws.", "_t")
@@ -3705,7 +3705,19 @@ t([[You rend the very essence of the target, drawing on their life and convertin
 ------------------------------------------------
 section "tome-cults/data/talents/demented/writhing-body.lua"
 
+t("The diseases of %s spread!", "Les maladies de %s se répandent !", "logSeen")
 t("%s resists the disease!", "%s résiste à la maladie !", "logSeen")
+t([[Infects the target with a very contagious disease, doing %0.2f damage per turn for 6 turns.
+		If any blight damage from non-diseases hits the target, the epidemic may activate and spread a random disease to nearby targets within a radius 2 ball.
+		The chance to spread increases with the blight damage dealt and is 100%% if it is at least %d%% of the target's maximum life.
+		Creatures suffering from that disease will also suffer healing reduction (%d%%) and diseases immunity reduction (%d%%).
+		Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.
+		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], [[Infecte la cible avec une maladie très contagieuse, infligeant %0.2f dégâts par tour pendant 6 tours.
+		Chaque fois que des dégâts de fléau (hors maladies) touchent la cible, l'épidémie peut s'activer et répandre une maladie aléatoire aux cibles proches dans un rayon de 2 cases.
+		La chance de propagation est proportionnel aux dégâts de fléau infligés et devient 100%% si ces dégâts représentent au moins %d%% de la vie maximale de la cible.
+		Les créatures souffrant de cette maladie subiront également une réduction des soins de %d%% et une réduction de l'immunité aux maladies de %d%%.
+		L'Épidémie est une maladie extrêmement puissante ; à ce titre, elle ignore totalement l'immunité aux maladies de la cible.
+		Les dégâts sont proportionnels à votre Puissance des sorts, et la chance de propagation est proportionnel à la quantité de dégâts de fléau infligés.]], "tformat")
 -- texte non traduit
 --[==[
 t("Mutated Hereragegand", "Mutated Hereragegand", "talent name")
@@ -3728,18 +3740,6 @@ t([[You quickly extend your tentacle hand up to range %d, impaling all creatures
 		Impaled creatures take %d%% tentacle damage and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.]], [[You quickly extend your tentacle hand up to range %d, impaling all creatures in the way.
 		Impaled creatures take %d%% tentacle damage and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.]], "tformat")
 t("Tentaclesrsthrhrhrh Ground", "Tentaclesrsthrhrhrh Ground", "talent name")
-t("The diseases of %s spread!", "The diseases of %s spread!", "logSeen")
-t([[Infects the target with a very contagious disease, doing %0.2f damage per turn for 6 turns.
-		If any blight damage from non-diseases hits the target, the epidemic may activate and spread a random disease to nearby targets within a radius 2 ball.
-		The chance to spread increases with the blight damage dealt and is 100%% if it is at least %d%% of the target's maximum life.
-		Creatures suffering from that disease will also suffer healing reduction (%d%%) and diseases immunity reduction (%d%%).
-		Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.
-		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], [[Infects the target with a very contagious disease, doing %0.2f damage per turn for 6 turns.
-		If any blight damage from non-diseases hits the target, the epidemic may activate and spread a random disease to nearby targets within a radius 2 ball.
-		The chance to spread increases with the blight damage dealt and is 100%% if it is at least %d%% of the target's maximum life.
-		Creatures suffering from that disease will also suffer healing reduction (%d%%) and diseases immunity reduction (%d%%).
-		Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.
-		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], "tformat")
 --]==]
 
 
@@ -5028,13 +5028,12 @@ t("#CRIMSON#The ground shakes as you finish the glyph sequence %s%s%s%s!", "#CRI
 ------------------------------------------------
 section "tome-cults/data/zones/scourged-pits/npcs.lua"
 
-
+t("scourge", "fléau", "entity subtype")
 -- texte non traduit
 --[==[
 t("awoken tentacle tree", "awoken tentacle tree", "entity name")
 t("One of the tentacle tree has awakened!", "One of the tentacle tree has awakened!", "_t")
 t("dragon", "dragon", "entity type")
-t("scourge", "scourge", "entity subtype")
 t("Kroltar the Scourge", "Kroltar the Scourge", "entity name")
 t("Kroltar, the mightiest fire wyrm to have ever walked Eyal. It was said that a group of dwarves had slain him, but something has taken up residence in the once proud creature's body, reanimating it into a twisted new lifeform.", "Kroltar, the mightiest fire wyrm to have ever walked Eyal. It was said that a group of dwarves had slain him, but something has taken up residence in the once proud creature's body, reanimating it into a twisted new lifeform.", "_t")
 t("and fed to the corrupt writhing tentacles", "and fed to the corrupt writhing tentacles", "_t")
