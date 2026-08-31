@@ -4469,7 +4469,7 @@ t("Instantly gain %d%% percent of a turn.", "Instantly gain %d%% percent of a tu
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/void.lua"
 
-
+t("This spell cannot be cast here.", "Ce sort ne peut pas être lancé ici.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Nebula Spear", "Nebula Spear", "talent name")
@@ -4485,7 +4485,6 @@ Dark damage creates an effect at the tile for %d turns which deals %d%% of the d
 Light damage slows the target by %0.2f%% per point of damage dealt for %d turns, up to a maximum of %d%% at %d damage.
 Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], "tformat")
 t("Starscape", "Starscape", "talent name")
-t("This spell cannot be cast here.", "This spell cannot be cast here.", "logPlayer")
 t("Summons the starscape in the surrounding area in a radius of %d. For %d turns, this area exists outside normal time, and in zero gravity. In addition to the effects of zero gravity, Movement of projectiles and other creatures is three times as slow. Spells and attacks cannot escape the radius until the effect ends.", "Summons the starscape in the surrounding area in a radius of %d. For %d turns, this area exists outside normal time, and in zero gravity. In addition to the effects of zero gravity, Movement of projectiles and other creatures is three times as slow. Spells and attacks cannot escape the radius until the effect ends.", "tformat")
 --]==]
 
