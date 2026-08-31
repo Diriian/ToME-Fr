@@ -295,7 +295,12 @@ t("deal darkness damage equal to your 350%% of your spellpower to a target, and,
 ------------------------------------------------
 section "tome-ashes-urhrok/data/lore/demon.lua"
 
-
+t("first mural painting", "première peinture murale", "_t")
+t("second mural painting", "deuxième peinture murale", "_t")
+t("third mural painting", "troisième peinture murale", "_t")
+t("fourth mural painting", "quatrième peinture murale", "_t")
+t("fifth mural painting", "cinquième peinture murale", "_t")
+t("sixth mural painting", "sixième peinture murale", "_t")
 -- texte non traduit
 --[==[
 t("Ashes of Urh'Rok", "Ashes of Urh'Rok", "newLore category")
@@ -547,13 +552,7 @@ Operation to secure <?=player.name?> failure.  Primary defense force routed by t
 
 #{italic}#The last O trails off, a line leading from it to the end of the page like the pen was rapidly jerked away, then leads to a doodle depicting you, wielding a double-bladed katana and fighting a giant construct labelled "Ninja Atamathon."  Your badassery must have interrupted this demon's writing.#{normal}#
 ]], "_t")
-t("first mural painting", "first mural painting", "_t")
 t("#{italic}#\"To honor the Masters\" - A thrall#{normal}#", "#{italic}#\"To honor the Masters\" - A thrall#{normal}#", "_t")
-t("second mural painting", "second mural painting", "_t")
-t("third mural painting", "third mural painting", "_t")
-t("fourth mural painting", "fourth mural painting", "_t")
-t("fifth mural painting", "fifth mural painting", "_t")
-t("sixth mural painting", "sixth mural painting", "_t")
 t("demon statue: wretchling", "demon statue: wretchling", "_t")
 t("Behold, the humble wretchling, a testament to our devotion to our Father!  These children of emerald were among the first to alter themselves for our quest for vengeance, and managed an astounding degree of success.  With their bursts of blinding speed, overwhelming numbers, and skin that can release prodigious amounts of corrosive fluid, wretchlings can storm onto the battlefield and pounce on our foes one-by-one, dissolving the ground they walk on while leaving them helpless against our onslaught.  Wretchlings will readily give their lives in combat, serving as obstructions and shields while their acid and our casters do their work, and still remain the most populous of our species thanks to their incredible birth rates.  It is rare to see a wretchling survive to maturity, but make no mistake - every wretchling that fights does an incredible service to our cause.", "Behold, the humble wretchling, a testament to our devotion to our Father!  These children of emerald were among the first to alter themselves for our quest for vengeance, and managed an astounding degree of success.  With their bursts of blinding speed, overwhelming numbers, and skin that can release prodigious amounts of corrosive fluid, wretchlings can storm onto the battlefield and pounce on our foes one-by-one, dissolving the ground they walk on while leaving them helpless against our onslaught.  Wretchlings will readily give their lives in combat, serving as obstructions and shields while their acid and our casters do their work, and still remain the most populous of our species thanks to their incredible birth rates.  It is rare to see a wretchling survive to maturity, but make no mistake - every wretchling that fights does an incredible service to our cause.", "_t")
 t("demon statue: fire imp", "demon statue: fire imp", "_t")
