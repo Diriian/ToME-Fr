@@ -11737,11 +11737,8 @@ t("Toggle automatic accept target option", "Basculer l'option d'acceptation auto
 ------------------------------------------------
 section "mod-tome/data/lore/age-allure.lua"
 
+t("age of allure", "ère de la séduction", "newLore category")
 t("research log of halfling mage Hompalan", "journal de recherche du mage halfelin Hompalan", "_t")
-t("investigator Churrack note", "Note de l'enquêteur Churrack", "_t")
--- texte non traduit
---[==[
-t("age of allure", "age of allure", "newLore category")
 t([[#{bold}#Hompalan's Log Entry1#{normal}#
 #{italic}#Age of Allure Year 4537#{normal}#
 
@@ -11759,23 +11756,23 @@ Testing of live yeeks has not gone well. Thankfully I can leave the clean-up to 
 #{italic}#Age of Allure 4542#{normal}#
 
 Third test confirms it - the orb allows transition between portal gates. This is the greatest discovery of my life. We are the first research team to ever unlock such powers from a Sher'Tul ruin! Just a shame about all the yeeks we sent through before. I'm really starting to suspect that pronged instrument was some sort of eating device... Oh well, plenty more dumb yeeks available.
-]], [[#{bold}#Hompalan's Log Entry1#{normal}#
-#{italic}#Age of Allure Year 4537#{normal}#
+]], [[#{bold}#Entrée 1 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, Année 4537#{normal}#
 
-Excavation of Sher'Tul ruins almost complete. Markings seem to match previous ruins in the south.
-Current theory: Possibly a portal of some kind? We have only rumours and myths of the Sher'Tul, and all say they could travel Eyal in the blink of an eye. Mana readings of the place are beyond anything we can even begin to comprehend. Last diviner I sent down there is still in a coma. Must continue studies.
-
-
-#{bold}#Hompalan's Log Entry 2#{normal}#
-#{italic}#Age of Allure Year 4541#{normal}#
-
-Testing of live yeeks has not gone well. Thankfully I can leave the clean-up to my technicians... Four years and it feels like we have not even begun to understand these ruins. I'm worried our research grant will soon be cut. But I have hope that some of the items we've recently uncovered may provide some sort of key to the portals. Or perhaps they were just used for Sher'Tul sports? We shall see.
+L'excavation des ruines Sher'Tul est presque terminée. Les inscriptions semblent correspondre à celles des ruines précédentes découvertes au sud.
+Théorie actuelle : peut-être une sorte de portail ? Nous n'avons que des rumeurs et des mythes sur les Sher'Tul, mais tous s'accordent à dire qu'ils pouvaient voyager à travers Eyal en un clin d'oeil. Les relevés de mana sur ce site dépassent tout ce que nous pouvons ne serait-ce que commencer à comprendre. Le dernier devin que j'y ai envoyé est toujours dans le coma. Je dois poursuivre les études.
 
 
-#{bold}#Hompalan's Log Entry 3#{normal}#
-#{italic}#Age of Allure 4542#{normal}#
+#{bold}#Entrée 2 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, Année 4541#{normal}#
 
-Third test confirms it - the orb allows transition between portal gates. This is the greatest discovery of my life. We are the first research team to ever unlock such powers from a Sher'Tul ruin! Just a shame about all the yeeks we sent through before. I'm really starting to suspect that pronged instrument was some sort of eating device... Oh well, plenty more dumb yeeks available.
+Les tests sur des yeeks vivants ne se sont pas bien passés. Heureusement, je peux laisser le nettoyage à mes techniciens... Quatre ans ont passé et j'ai l'impression que nous n'avons même pas commencé à comprendre ces ruines. Je crains que notre subvention de recherche ne soit bientôt coupée. Mais j'ai bon espoir que certains des objets récemment mis au jour puissent fournir une sorte de clé pour les portails. Ou peut-être n'étaient-ils utilisés que pour des jeux Sher'Tul ? Nous verrons bien.
+
+
+#{bold}#Entrée 3 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, 4542#{normal}#
+
+Le troisième test le confirme : l'orbe permet la transition entre les portails. C'est la plus grande découverte de ma vie. Nous sommes la première équipe de recherche à jamais avoir libéré de tels pouvoirs d'une ruine Sher'Tul ! Dommage pour tous les yeeks que nous y avons envoyés auparavant. Je commence sérieusement à soupçonner que cet instrument à dents était une sorte de dispositif pour manger... Enfin, il reste bien d'autres yeeks stupides disponibles.
 ]], "_t")
 t([[#{bold}#Hompalan's Log Entry 4#{normal}#
 #{italic}#Age of Allure 4544#{normal}#
@@ -11804,33 +11801,33 @@ Test subject M: Survived first transition. Imploded 2 seconds after. Progress!
 Test subject N: Survived first transition, but in coma. Died after 4 days.
 
 We're really getting somewhere here... Just a shame humans are such messy creatures! Honestly, how much intestines do they need?! Will start on the next set of subjects early in the new year.
-]], [[#{bold}#Hompalan's Log Entry 4#{normal}#
-#{italic}#Age of Allure 4544#{normal}#
+]], [[#{bold}#Entrée 4 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, 4544#{normal}#
 
-Just when I was getting somewhere the military decide to barge in and take over. Don't they realise what a serious scientific project this is? All they care about is the little stripes on their helmets. Some tell rumours of humans threatening to attack the facility, but I really care not for such trivial politics. Besides, what threat could those stupid lanklegs really be? I suppose I shall have to persevere though, and try to work around these insane security restrictions.
-
-
-#{bold}#Hompalan's Log Entry 5#{normal}#
-#{italic}#Age of Allure 4545#{normal}#
-
-Well, I suppose this whole war thing wasn't just hot wind after all. Apparently there's lots of people dying outside. What a nuisance - I just want to get on with my work without my supplies being cut off. There is one upside though - human test subjects! We're going to get started on them in the coming months.
-I must say I'll be glad to get rid of these disgusting yeeks. They disturb me somehow with their oversized heads. Why we ever decided to use these useless creatures as servants is beyond me... At least the human subjects will be able to talk, lacking though they be in true mental capacity.
+Juste au moment où j'arrivais enfin à quelque chose, les militaires ont décidé de débarquer et de tout reprendre en main. Ne réalisent-ils pas à quel point ce projet scientifique est sérieux ? Tout ce qui les intéresse, ce sont les petits galons sur leurs casques. Certains parlent de rumeurs d'humains menaçant d'attaquer l'installation, mais je n'accorde franchement aucune importance à ces politiques triviales. D'ailleurs, quelle menace ces stupides jambes-longues pourraient-ils bien représenter ? Je suppose que je devrai persévérer et tenter de contourner ces restrictions de sécurité insensées.
 
 
-#{bold}#Hompalan's Log Entry 6#{normal}#
-#{italic}#Age of Allure 4546#{normal}#
+#{bold}#Entrée 5 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, 4545#{normal}#
 
-Test subject A-C: Imploded during transition.
-Test subject D: Exploded during transition.
-Test subject E: Half transitioned, half remained. Partial success?
-Test subject F: Imploded during transition.
-Test subject G: Turned to goo during transition.
-Test subject H-K: Imploded during transition.
-Test subject L: Frozen during transition.
-Test subject M: Survived first transition. Imploded 2 seconds after. Progress!
-Test subject N: Survived first transition, but in coma. Died after 4 days.
+Eh bien, je suppose que toute cette histoire de guerre n'était finalement pas qu'un vent chaud. Apparemment, beaucoup de gens meurent au dehors. Quelle nuisance - je veux simplement poursuivre mon travail sans que mes fournitures ne soient coupées. Il y a tout de même un avantage : des sujets de test humains ! Nous allons commencer à travailler sur eux dans les prochains mois.
+Je dois dire que je serai heureux de me débarrasser de ces répugnants yeeks. Leurs têtes surdimensionnées me troublent d'une certaine façon. Pourquoi avons-nous jamais décidé d'utiliser ces créatures inutiles comme serviteurs, cela me dépasse... Au moins, les sujets humains pourront parler, malgré leur manque de véritable capacité mentale.
 
-We're really getting somewhere here... Just a shame humans are such messy creatures! Honestly, how much intestines do they need?! Will start on the next set of subjects early in the new year.
+
+#{bold}#Entrée 6 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, 4546#{normal}#
+
+Sujet de test A-C : a implosé durant la transition.
+Sujet de test D : a explosé durant la transition.
+Sujet de test E : moitié transitée, moitié restée. Succès partiel ?
+Sujet de test F : a implosé durant la transition.
+Sujet de test G : s'est transformé en gelée durant la transition.
+Sujet de test H-K : a implosé durant la transition.
+Sujet de test L : a gelé durant la transition.
+Sujet de test M : a survécu à la première transition. A implosé 2 secondes après. Progrès !
+Sujet de test N : a survécu à la première transition, mais dans le coma. Mort après 4 jours.
+
+Nous progressons vraiment ici... Dommage que les humains soient des créatures aussi salissantes ! Honnêtement, combien d'intestins leur faut-il ?! Nous commencerons le prochain lot de sujets au début de la nouvelle année.
 ]], "_t")
 t([[#{bold}#Hompalan's Log Entry 7#{normal}#
 #{italic}#Age of Allure 4547#{normal}#
@@ -11855,29 +11852,29 @@ Test subject Y: Disappeared during transition.
 Test subject Z: Survived both transitions. Remarkable!
 
 Subject Z currently raving, but I believe this is due to stressful conditions, not a direct corrosion of mental faculties from the portal use. Will have to study further.
-]], [[#{bold}#Hompalan's Log Entry 7#{normal}#
-#{italic}#Age of Allure 4547#{normal}#
+]], [[#{bold}#Entrée 7 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, 4547#{normal}#
 
-Test subject O: Imploded during transition.
-Test subject P: Survived first transition, but turned mad - had to be put down.
-Test subject Q: Survived first transition. Imploded on return transition.
-Test subject R: Died during first transition.
-Test subject S-T: Imploded on return transition.
-Test subject U: Survived return transition. Muttered something about hearing a voice before jumping back into portal - imploded. What a nuisance!
-Test subject V: Died on return transition.
+Sujet de test O : a implosé durant la transition.
+Sujet de test P : a survécu à la première transition, mais est devenu fou - a dû être abattu.
+Sujet de test Q : a survécu à la première transition. A implosé lors de la transition de retour.
+Sujet de test R : mort durant la première transition.
+Sujet de test S-T : a implosé lors de la transition de retour.
+Sujet de test U : a survécu à la transition de retour. A marmonné quelque chose au sujet d'une voix entendue avant de sauter à nouveau dans le portail - a implosé. Quelle nuisance !
+Sujet de test V : mort lors de la transition de retour.
 
-Running out of letters soon. Also out of subjects for now. Will have to wait for the soldiers to fetch me more.
+Je vais bientôt manquer de lettres. Je manque aussi de sujets pour l'instant. Je devrai attendre que les soldats m'en ramènent d'autres.
 
 
-#{bold}#Hompalan's Log Entry 8#{normal}#
-#{italic}#Age of Allure 4548#{normal}#
+#{bold}#Entrée 8 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, 4548#{normal}#
 
-Test subject W: Shrunk during first transition, before exploding. (error in calibration?)
-Test subject X: Returned from second transition missing head. How bizarre.
-Test subject Y: Disappeared during transition.
-Test subject Z: Survived both transitions. Remarkable!
+Sujet de test W : a rétréci durant la première transition, avant d'exploser. (erreur de calibrage ?)
+Sujet de test X : est revenu de la deuxième transition sans tête. Quelle bizarrerie.
+Sujet de test Y : a disparu durant la transition.
+Sujet de test Z : a survécu aux deux transitions. Remarquable !
 
-Subject Z currently raving, but I believe this is due to stressful conditions, not a direct corrosion of mental faculties from the portal use. Will have to study further.
+Le sujet Z délire actuellement, mais je pense que cela est dû à des conditions stressantes, et non à une corrosion directe des facultés mentales causée par l'usage du portail. Il faudra étudier cela plus avant.
 ]], "_t")
 t([[#{bold}#Hompalan's Log Entry 9#{normal}#
 #{italic}#Age of Allure 4549#{normal}#
@@ -11897,26 +11894,26 @@ Beginning to suspect subject Z has latent magical powers. Have seen him move muc
 Subject Z has vanished! This is terrible! It was not even during a portal transit. It looked like he simply stepped into his own shadow and disappeared. My research is ruined!! There will never be another subject like him!
 
 The military are annoying me to no end. I told them to find me more test subjects immediately, but they gave some excuses about enemy patrols in the area. Do they think I care about such trivial things?! And now I hear them practising their fighting in the corridors. They are even grunting and screaming in fake battle noises like stupid children. Do they not realise what an important facility this is? Can they not understand how my genius is disturbed by---
-]], [[#{bold}#Hompalan's Log Entry 9#{normal}#
-#{italic}#Age of Allure 4549#{normal}#
+]], [[#{bold}#Entrée 9 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, 4549#{normal}#
 
-Subject Z is still doing well. Have completed numerous further transitions with him. Is capable of intelligent dialogue at times, though his species is fairly limited in intellect. Seems to have little real clue as to what is going on, and is always asking what time it is. What a fool... I must conjecture that humans are far too tall to have blood pumped all the way to their brain. Still, I dare not risk sending any halflings through the portal yet, and what humans I have sent through since have all died.
-
-
-#{bold}#Hompalan's Log Entry 10#{normal}#
-#{italic}#Age of Allure 4550#{normal}#
-
-Beginning to suspect subject Z has latent magical powers. Have seen him move much faster than I thought his species capable, and mend broken objects without any obvious means of repair. These are small things, but I believe the portals may be somehow enhancing a basic ability. Will need to test more. He still seems quite dumb though. Said his last journey took three days, when clearly it took but seconds. He began to eat ravenously afterwards. I suspect he is just greedy. I saw him staring for a long time at the farportal earlier, but I had my assistants pull him away before he did any damage.
+Le sujet Z continue de bien se porter. J'ai effectué de nombreuses transitions supplémentaires avec lui. Il est parfois capable d'un dialogue intelligent, bien que son espèce soit plutôt limitée sur le plan intellectuel. Il semble n'avoir qu'une vague idée de ce qui se passe et demande sans cesse quelle heure il est. Quel imbécile... Je dois en conjecturer que les humains sont bien trop grands pour que le sang parvienne jusqu'à leur cerveau. Je n'ose cependant pas encore risquer d'envoyer un halfelin à travers le portail, et tous les humains que j'y ai envoyés depuis sont morts.
 
 
-#{bold}#Hompalan's Log Entry 11#{normal}#
-#{italic}#Age of Allure 4551#{normal}#
+#{bold}#Entrée 10 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, 4550#{normal}#
 
-Subject Z has vanished! This is terrible! It was not even during a portal transit. It looked like he simply stepped into his own shadow and disappeared. My research is ruined!! There will never be another subject like him!
+Je commence à soupçonner que le sujet Z possède des pouvoirs magiques latents. Je l'ai vu se déplacer bien plus vite que je ne le croyais possible pour son espèce, et réparer des objets brisés sans aucun moyen apparent de réparation. Ce sont là de petites choses, mais je crois que les portails pourraient, d'une manière ou d'une autre, amplifier une capacité de base. Il faudra tester davantage. Il semble tout de même encore bien stupide. Il a affirmé que son dernier voyage avait duré trois jours, alors qu'il n'avait clairement duré que quelques secondes. Il s'est ensuite mis à manger voracement. Je le soupçonne d'être simplement gourmand. Je l'ai vu fixer longuement le portail lointain plus tôt, mais j'ai demandé à mes assistants de l'éloigner avant qu'il ne cause des dégâts.
 
-The military are annoying me to no end. I told them to find me more test subjects immediately, but they gave some excuses about enemy patrols in the area. Do they think I care about such trivial things?! And now I hear them practising their fighting in the corridors. They are even grunting and screaming in fake battle noises like stupid children. Do they not realise what an important facility this is? Can they not understand how my genius is disturbed by---
+
+#{bold}#Entrée 11 du Journal de Hompalan#{normal}#
+#{italic}#Ère de la Séduction, 4551#{normal}#
+
+Le sujet Z a disparu ! C'est terrible ! Ce n'était même pas pendant un transit de portail. On aurait dit qu'il avait simplement mis un pied dans sa propre ombre et s'était volatilisé. Ma recherche est ruinée !! Il n'y aura jamais un autre sujet comme lui !
+
+Les militaires m'agacent au plus haut point. Je leur ai dit de me trouver immédiatement d'autres sujets de test, mais ils m'ont donné des excuses au sujet de patrouilles ennemies dans la zone. Croient-ils que je me soucie de choses aussi triviales ?! Et voilà qu'à présent je les entends s'entraîner au combat dans les couloirs. Ils grognent même et poussent de faux cris de bataille comme des enfants stupides. Ne réalisent-ils pas l'importance de cette installation ? Ne peuvent-ils comprendre à quel point mon génie est perturbé par---
 ]], "_t")
-t("order for director Hompalan", "order for director Hompalan", "_t")
+t("order for director Hompalan", "ordre pour le directeur Hompalan", "_t")
 t([[#{italic}#To: Research Director Hompalan - #{bold}#TOP PRIORITY#{normal}#
 
 Thanks to one of our scouting parties catching a Conclave lieutenant's squad off-guard, we have found directions to a noteworthy laboratory hidden underground, in what's newly Nargol territory.  Unfortunately, the long-legs scuttled the entrances before we could arrive, and it'd take us years to dig ourselves in, even if we could afford recalling our geomancers from the front lines to work on it - which we can't.  
@@ -11928,22 +11925,22 @@ I know you think yourself "above" such "petty politics" like how vital this faci
 -General Martolep
 
 #{italic}#(Some coordinates are enclosed, along with a large, magic-infused key.  You think you can figure out, roughly, where this sealed Conclave facility is.)#{normal}#
-]], [[#{italic}#To: Research Director Hompalan - #{bold}#TOP PRIORITY#{normal}#
+]], [[#{italic}#À : Directeur de Recherche Hompalan - #{bold}#PRIORITÉ ABSOLUE#{normal}#
 
-Thanks to one of our scouting parties catching a Conclave lieutenant's squad off-guard, we have found directions to a noteworthy laboratory hidden underground, in what's newly Nargol territory.  Unfortunately, the long-legs scuttled the entrances before we could arrive, and it'd take us years to dig ourselves in, even if we could afford recalling our geomancers from the front lines to work on it - which we can't.  
+Grâce à l'une de nos patrouilles de reconnaissance ayant surpris l'escouade d'un lieutenant du Conclave nous avons trouvé la direction d'un laboratoire remarquable dissimulé sous terre, sur ce qui est devenu récemment un territoire Nargol. Malheureusement, les jambes-longues ont sabordé les entrées avant que nous ne puissions y parvenir, et il nous faudrait des années pour nous y frayer un chemin en creusant même si nous pouvions nous permettre de rappeler nos géomanciens des lignes de front pour ce travail - ce que nous ne pouvons pas.
 
-Your new objective is to find a way to warp a recovery team inside to scavenge it, then get them back safely with their data in tow.  It's possible that they've figured out a way to ward it against teleportation; enclosed is a key, in case it's necessary to target a point between the obstruction and the entrance.  I don't want to hear any of your nonsense about it being "impossible" without a linked portal near the destination; thirty years ago, you would've told me that almost everything you're now doing on a daily basis is impossible.
+Votre nouvel objectif est de trouver un moyen de téléporter une équipe de récupération à l'intérieur pour le fouiller, puis de les ramener sains et saufs avec leurs données. Il est possible qu'ils aient trouvé un moyen de le protéger contre la téléportation ; une clé est jointe, au cas où il serait nécessaire de cibler un point entre l'obstruction et l'entrée. Je ne veux entendre aucune de vos absurdités sur le fait que ce soit "impossible" sans un portail lié à proximité de la destination ; il y a trente ans, vous m'auriez dit que presque tout ce que vous faites aujourd'hui quotidiennement était impossible.
 
-I know you think yourself "above" such "petty politics" like how vital this facility would be to our survival, so I won't bore you with stressing how important this is to us.  Accordingly, let me put this in terms you can relate to: This is an order, and your usual excuses won't cut it.  Your job is on the line.  #{bold}#Make.  It.  Work.#{normal}#
+Je sais que vous vous considérez "au-dessus" de ces "politiques mesquines", telle l'importance vitale que cette installation aurait pour notre survie, aussi ne vous ennuierai-je pas en insistant sur son importance pour nous. En conséquence, permettez-moi de formuler ceci en des termes auxquels vous pourrez vous identifier : ceci est un ordre, et vos excuses habituelles ne suffiront pas. Votre poste est en jeu. #{bold}#Faites. Que. Ça. Marche.#{normal}#
 
--General Martolep
+-Général Martolep
 
-#{italic}#(Some coordinates are enclosed, along with a large, magic-infused key.  You think you can figure out, roughly, where this sealed Conclave facility is.)#{normal}#
+#{italic}#(Quelques coordonnées sont jointes, ainsi qu'une grande clé infusée de magie. Vous pensez pouvoir déterminer, approximativement, où se trouve cette installation scellée du Conclave.)#{normal}#
 ]], "_t")
-t("Door to an old Conclave vault", "Door to an old Conclave vault", "_t")
-t("Conclave Vault", "Conclave Vault", "_t")
-t("Arriving at the location given by the coordinates, you see an enormous crack in the ground; peering down, the gleam of exposed metal catches your eye, and you recognize it as a massive door.  It would seem that the Cataclysm's tectonic upheaval has carved a path right to one of its entrances, bypassing the ruined tunnels entirely. You climb down, just outside the door.", "Arriving at the location given by the coordinates, you see an enormous crack in the ground; peering down, the gleam of exposed metal catches your eye, and you recognize it as a massive door.  It would seem that the Cataclysm's tectonic upheaval has carved a path right to one of its entrances, bypassing the ruined tunnels entirely. You climb down, just outside the door.", "_t")
-t("healer Astelrid log 1", "healer Astelrid log 1", "_t")
+t("Door to an old Conclave vault", "Porte vers une ancienne chambre forte du Conclave", "_t")
+t("Conclave Vault", "Chambre Forte du Conclave", "_t")
+t("Arriving at the location given by the coordinates, you see an enormous crack in the ground; peering down, the gleam of exposed metal catches your eye, and you recognize it as a massive door.  It would seem that the Cataclysm's tectonic upheaval has carved a path right to one of its entrances, bypassing the ruined tunnels entirely. You climb down, just outside the door.", "En arrivant au lieu indiqué par les coordonnées, vous apercevez une fissure immense dans le sol ; en scrutant vers le bas l'éclat d'un métal à découvert attire votre regard, et vous reconnaissez une porte massive. Il semblerait que le bouleversement tectonique du Cataclysme ait creusé un chemin directement jusqu'à l'une de ses entrées, contournant entièrement les tunnels en ruine. Vous descendez, juste devant la porte.", "_t")
+t("healer Astelrid log 1", "journal 1 du guérisseur Astelrid", "_t")
 t([[Work in a hospital like this is more draining than I thought it'd be.  I thought I'd have no trouble with motivation, helping our wounded get back to health again, but seeing so many of them, and knowing there are some I cannot help...  it weighs heavily on my mind.  It would be difficult to go on, if I did not keep a few things in mind: 
 
 One, that I am truly doing the best I can to minimize the world's suffering, both directly by healing, and indirectly by ensuring that the world will be united under the wise, thoughtful rule of the Conclave.  Ready access to regeneration infusions ensures that even the most dire of wounds can be healed in a matter of days, and the soldiers can return to the battlefield; furthermore, the Overseers have granted us access to their amnesia-inducing spells, allowing us to properly treat those who have been traumatized by the horrors of battle.  May the eyes of the Higher watch over this world for thousands of years to come.
@@ -11954,18 +11951,18 @@ And three, that the war will soon be over, and with it we shall no longer have t
 
 "This is your last chance to back down.  A great tragedy will ensue if you continue to push further, and do not accept our previously-stated terms of peaceful resolution.  Do not force us to do this."
 
-After waging a war of trickery and deceit, those halflings think they can bluff us!  Once their military is broken, we can bring their citizens into our fold and enlighten them, and then the true healing can begin.]], [[Work in a hospital like this is more draining than I thought it'd be.  I thought I'd have no trouble with motivation, helping our wounded get back to health again, but seeing so many of them, and knowing there are some I cannot help...  it weighs heavily on my mind.  It would be difficult to go on, if I did not keep a few things in mind: 
+After waging a war of trickery and deceit, those halflings think they can bluff us!  Once their military is broken, we can bring their citizens into our fold and enlighten them, and then the true healing can begin.]], [[Travailler dans un hôpital comme celui-ci est plus épuisant que je ne le pensais. Je croyais que la motivation ne me poserait aucun problème, en aidant nos blessés à recouvrer la santé, mais en voir tant, et savoir qu'il en est que je ne peux aider... cela pèse lourdement sur mon esprit. Il serait difficile de continuer si je ne gardais pas certaines choses à l'esprit :
 
-One, that I am truly doing the best I can to minimize the world's suffering, both directly by healing, and indirectly by ensuring that the world will be united under the wise, thoughtful rule of the Conclave.  Ready access to regeneration infusions ensures that even the most dire of wounds can be healed in a matter of days, and the soldiers can return to the battlefield; furthermore, the Overseers have granted us access to their amnesia-inducing spells, allowing us to properly treat those who have been traumatized by the horrors of battle.  May the eyes of the Higher watch over this world for thousands of years to come.
+Premièrement, que je fais réellement de mon mieux pour minimiser la souffrance du monde, tant directement en soignant, qu'indirectement en veillant à ce que le monde soit uni sous le règne sage et réfléchi du Conclave. Un accès immédiat aux essences de régénération garantit que même les blessures les plus graves peuvent être soignées en quelques jours, et les soldats peuvent retourner au champ de bataille ; de plus, les Superviseurs nous ont accordé l'accès à leurs sorts induisant l'amnésie, nous permettant de traiter correctement ceux traumatisés par les horreurs du combat. Que les yeux des Nobles veillent sur ce monde pour des milliers d'années à venir.
 
-Two, that the "side project" the Overseers have assigned me to is working out very well.  Those wounded who have consented to our trial treatments, consisting of a unique combination of experimental variations on heroism infusions and shielding runes, have experienced slightly increased physical strength and endurance, with no sign of the effects wearing off.  There is one mild side effect which has given me cause to worry, though I dare not speak of my misgivings to anyone else; some of those treated have needed to be disciplined for getting too "enthusiastic" in battle.  The Overseers have assured me that this is actually having a net positive effect on morale, and thus I can wait to cure these aggressive tendencies until the war is over.  In the meantime, I am proud of my work, and although it's nothing so glorious as the creation of the Higher race, it will be a tremendous boon to our society in the long term.
+Deuxièmement, que le "projet parallèle" que les Superviseurs m'ont confié se déroule très bien. Les blessés ayant consenti à nos traitements expérimentaux, constitués d'une combinaison unique de variations expérimentales sur les essences d'héroïsme et les runes de protection, ont connu une légère augmentation de leur force physique et de leur endurance, sans aucun signe d'atténuation des effets. Il existe un effet secondaire léger qui m'a donné matière à m'inquiéter, bien que je n'ose en parler de mes doutes à personne d'autre ; certains des traités ont dû être disciplinés pour être devenus trop "enthousiastes" au combat. Les Superviseurs m'ont assuré que cela a en réalité un effet net positif sur le moral, et je peux donc attendre la fin de la guerre pour soigner ces tendances agressives. En attendant je suis fier de mon travail, et bien que rien de tout cela ne soit aussi glorieux que la création de la race Noble, ce sera un formidable atout pour notre société sur le long terme.
 
-And three, that the war will soon be over, and with it we shall no longer have to bear the maiming of our proud soldiers and the impudence of the Nargol.  We have made impressive gains in territory in the last few days, thwarting numerous ambushes and keeping our momentum as we expand further into Nargol lands.  Granted, one cannot be sure of how much of what we're hearing has been "cleaned up" by the Overseers, but one recent statement from the Nargol leads me to believe it is the truth:
+Et troisièmement, que la guerre sera bientôt terminée, et qu'avec elle nous n'aurons plus à supporter la mutilation de nos fiers soldats ni l'impudence des Nargol. Nous avons réalisé des gains territoriaux impressionnants ces derniers jours, déjouant de nombreuses embuscades et maintenant notre élan tandis que nous nous étendons plus avant en territoire Nargol. Certes, on ne peut être certain de la part de ce que nous entendons qui a été "nettoyée" par les Superviseurs, mais une déclaration récente des Nargol me porte à croire qu'il s'agit de la vérité :
 
-"This is your last chance to back down.  A great tragedy will ensue if you continue to push further, and do not accept our previously-stated terms of peaceful resolution.  Do not force us to do this."
+"C'est votre dernière chance de reculer. Une grande tragédie s'ensuivra si vous continuez à pousser plus avant, et n'acceptez pas nos conditions de résolution pacifique précédemment énoncées. Ne nous forcez pas à en arriver là."
 
-After waging a war of trickery and deceit, those halflings think they can bluff us!  Once their military is broken, we can bring their citizens into our fold and enlighten them, and then the true healing can begin.]], "_t")
-t("healer Astelrid log 2", "healer Astelrid log 2", "_t")
+Après avoir mené une guerre de ruse et de tromperie, ces halfelins pensent pouvoir nous bluffer ! Une fois leur armée brisée, nous pourrons accueillir leurs citoyens en notre sein et les éclairer, et alors la véritable guérison pourra commencer.]], "_t")
+t("healer Astelrid log 2", "journal 2 du guérisseur Astelrid", "_t")
 t([[The Nargol were not bluffing, and what they did was worse than anything we could've imagined.  The details coming from the survivors - of which there are both far too many and far too few - are conflicting at times, but from what I can tell...
 
 As our forces began their final push, the ground began to rumble and give way behind them, and the bones of the war's fallen (halflings and Conclave alike) began to rise up, then draw their once-discarded weapons and rush at our soldiers in a frenzy.  There were so many...  those who were on higher ground when it happened said it was like a sea of bones and rotting flesh.  Outnumbered, our forces broke ranks and tried to retreat, but with the halflings in front of them and the abominations behind them, we took tremendous losses...  and our humble medical center is overflowing with the gravely wounded.  Many come to us with a terrible sickness passed on by the Nargol's ghouls; there is no cure for this, and I have already had to "mercifully" end the lives of over a dozen men and women to save them from a long, drawn-out death, ending in their transfiguration into one of those horrid creatures...  including--
@@ -11974,16 +11971,16 @@ As our forces began their final push, the ground began to rumble and give way be
 
 No...  the real horrid creatures here are the halflings.  We've seen necromancy before, but mostly as a parlor trick by deranged cults; we never dreamed that any large organization would tolerate it, let alone hide necromantic charms on every one of its ranking officers.  They've been planning to do this since the start of the war, and only sprung the trap now...  Any misgivings I had about the aggression associated with our new treatment are gone forever; we cannot be ferocious enough in purging these fiends from Maj'Eyal.  I have requested an audience with the Overseers to broaden the scope of our experiments, setting our sights higher so we may crush this evil empire as swiftly as possible.  
 
-May the Conclave prevail, and may the Empire's fate serve as a warning to all who would defy our wisdom.]], [[The Nargol were not bluffing, and what they did was worse than anything we could've imagined.  The details coming from the survivors - of which there are both far too many and far too few - are conflicting at times, but from what I can tell...
+May the Conclave prevail, and may the Empire's fate serve as a warning to all who would defy our wisdom.]], [[Les Nargol ne bluffaient pas, et ce qu'ils ont fait était pire que tout ce que nous aurions pu imaginer. Les détails provenant des survivants - dont il y a à la fois bien trop et bien trop peu - sont parfois contradictoires, mais d'après ce que je peux en dire...
 
-As our forces began their final push, the ground began to rumble and give way behind them, and the bones of the war's fallen (halflings and Conclave alike) began to rise up, then draw their once-discarded weapons and rush at our soldiers in a frenzy.  There were so many...  those who were on higher ground when it happened said it was like a sea of bones and rotting flesh.  Outnumbered, our forces broke ranks and tried to retreat, but with the halflings in front of them and the abominations behind them, we took tremendous losses...  and our humble medical center is overflowing with the gravely wounded.  Many come to us with a terrible sickness passed on by the Nargol's ghouls; there is no cure for this, and I have already had to "mercifully" end the lives of over a dozen men and women to save them from a long, drawn-out death, ending in their transfiguration into one of those horrid creatures...  including--
+Alors que nos forces entamaient leur poussée finale le sol s'est mis à gronder et à s'effondrer derrière elles, et les os des morts tombés durant la guerre (halfelins comme membres du Conclave) ont commencé à se lever, puis à saisir leurs armes autrefois jetées et à se ruer sur nos soldats dans un état frénétique. Ils étaient si nombreux... ceux qui se trouvaient en hauteur au moment des faits ont dit que c'était comme une mer d'os et de chair en putréfaction. En infériorité numérique nos forces ont rompu les rangs et tenté de battre en retraite, mais avec les halfelins devant elles et les abominations derrière, nous avons subi des pertes considérables... et notre humble centre médical déborde de blessés graves. Beaucoup nous arrivent avec une terrible maladie transmise par les goules Nargol ; il n'existe aucun remède et j'ai déjà dû mettre fin, "par pitié", à la vie de plus d'une douzaine d'hommes et de femmes pour leur épargner une mort longue et douloureuse s'achevant par leur transfiguration en l'une de ces créatures horribles... y compris--
 
-[The end of the preceding paragraph, several lines' worth of text, has been furiously scribbled out.]
+[La fin du paragraphe précédent, plusieurs lignes de texte, a été furieusement raturée.]
 
-No...  the real horrid creatures here are the halflings.  We've seen necromancy before, but mostly as a parlor trick by deranged cults; we never dreamed that any large organization would tolerate it, let alone hide necromantic charms on every one of its ranking officers.  They've been planning to do this since the start of the war, and only sprung the trap now...  Any misgivings I had about the aggression associated with our new treatment are gone forever; we cannot be ferocious enough in purging these fiends from Maj'Eyal.  I have requested an audience with the Overseers to broaden the scope of our experiments, setting our sights higher so we may crush this evil empire as swiftly as possible.  
+Non... les véritables créatures horribles ici sont les halfelins. Nous avions déjà vu de la nécromancie auparavant, mais surtout comme un tour de charlatan pratiqué par des cultes dérangés ; jamais nous n'aurions imaginé qu'une organisation d'une telle envergure la tolérerait, et encore moins qu'elle dissimulerait des amulettes nécromantiques sur chacun de ses officiers gradés. Ils avaient prévu cela depuis le début de la guerre, et n'ont déclenché le piège que maintenant... Tous les doutes que j'avais concernant l'agressivité liée à notre nouveau traitement se sont dissipés à jamais ; nous ne pouvons être assez féroces pour purger ces démons de Maj'Eyal. J'ai demandé une audience auprès des Superviseurs afin d'élargir la portée de nos expériences, en visant plus haut afin que nous puissions écraser cet empire maléfique aussi rapidement que possible.
 
-May the Conclave prevail, and may the Empire's fate serve as a warning to all who would defy our wisdom.]], "_t")
-t("healer Astelrid log 3", "healer Astelrid log 3", "_t")
+Que le Conclave l'emporte, et que le destin de l'Empire serve d'avertissement à tous ceux qui oseraient défier notre sagesse.]], "_t")
+t("healer Astelrid log 3", "journal 3 du guérisseur Astelrid", "_t")
 t([[The Overseers were ecstatic about my ideas!  Our staff have been relocated to a more secure location, deep underground with several extensive tunnels leading in from different locations.  Although this means we can no longer leave to harvest herbs for our infusions, the increased budget the Overseers have given us does more than enough to compensate.  Many wounded are still brought to me through the tunnels, but now our goal is not simply to make them as strong and healthy as they were before, but far stronger and far healthier than they could've dreamed.  They are brought to us unconscious, with amnesia spells already applied to ensure they do not resist our experiments; although they are not told they will be test subjects before being brought here, we are sure they would consent to these experiments, if they knew how valuable they were to help the Conclave.  As such, although this process violates several oaths we have taken as healers, I ultimately do not see any moral problem with this, and nobody else at this facility has expressed any concerns to me.  After all, those who join the Conclave as soldiers have already volunteered to give their lives in service to the Overseers' enlightened rule, and this is surely a much more productive way to do so than dying to a Nargol sling-bullet.
 
 With access to better components, we can make the same basic improvements to their strength as we could before, but the changes do not stop there!  With so many subjects to work with, and the Overseers' encouragement to take risks, we've made them much larger (with associated multiplying effects on their effectiveness in combat), and reinforced their constitution to be capable of bearing more inscriptions without collapsing under the stress.  A fellow researcher had the brilliant idea to use this runic affinity to both enhance their connection to magic's weave, and make them biologically and structurally dependent on it; now, our front-line soldiers can conjure devastating fireballs with little training, and should those hairy-footed vermin attempt to raise one of these soldiers from the dead, they will collapse, having lost the magic that kept them intact when they still lived.  
@@ -11993,17 +11990,17 @@ The Overseers have been working with us personally to make psychological changes
 These Ogres are integrating into our military very well!  The rank-and-file soldiers know better than to attract attention from the Overseers by asking too many questions about where their new, giant allies came from, and thus acceptance came rather swiftly once they saw these creations in action.  We received one report that an Ogre sergeant was seen eating a particularly insolent halfling alive, after he feigned surrender and attempted to cast a lightning spell; this spectacle was both highly motivating to our troops and demoralized the remnants of that halfling's squad into surrendering, so I shall be enhancing their digestive capabilities as well.  
 
 For the most part, though, our research work is done.  All that's left to do is get a response from the Overseers as to whether to increase their birth rate or not (currently set very low as a precaution against future overpopulation), and improve the training we give freshly-created Ogres for runic magic, given that regular maintenance of their runes is necessary to keep them alive.  This is not to say we have idle staff, however!  Some of us have made a project for after the war ends - a modification to our experimental growth-tanks, rendering them capable of holding a person of Ogric biology indefinitely in a "sleeping" state where they do not age or starve.  We can install tanks filled with these "sleeping" Ogres stationed near bridges that may need regular maintenance, stashed in reserve armories, or any other place where you'd need a batch of dependable workers or guards, without having to incur all the other costs associated with keeping extra citizens around.
-]], [[The Overseers were ecstatic about my ideas!  Our staff have been relocated to a more secure location, deep underground with several extensive tunnels leading in from different locations.  Although this means we can no longer leave to harvest herbs for our infusions, the increased budget the Overseers have given us does more than enough to compensate.  Many wounded are still brought to me through the tunnels, but now our goal is not simply to make them as strong and healthy as they were before, but far stronger and far healthier than they could've dreamed.  They are brought to us unconscious, with amnesia spells already applied to ensure they do not resist our experiments; although they are not told they will be test subjects before being brought here, we are sure they would consent to these experiments, if they knew how valuable they were to help the Conclave.  As such, although this process violates several oaths we have taken as healers, I ultimately do not see any moral problem with this, and nobody else at this facility has expressed any concerns to me.  After all, those who join the Conclave as soldiers have already volunteered to give their lives in service to the Overseers' enlightened rule, and this is surely a much more productive way to do so than dying to a Nargol sling-bullet.
+]], [[Les Superviseurs étaient enchantés par mes idées ! Notre personnel a été relocalisé vers un site plus sûr, profondément sous terre, avec plusieurs vastes tunnels menant depuis différents endroits. Bien que cela signifie que nous ne pouvons plus sortir récolter des herbes pour nos essences, le budget accru que nous ont accordé les Superviseurs compense largement. De nombreux blessés continuent de m'être amenés par les tunnels, mais notre but n'est désormais plus simplement de les rendre aussi forts et sains qu'auparavant mais bien plus forts et bien plus sains qu'ils n'auraient jamais pu l'imaginer. Ils nous sont amenés inconscients, des sorts d'amnésie déjà appliqués pour garantir qu'ils ne résistent pas à nos expériences ; bien qu'on ne leur dise pas qu'ils seront des sujets de test avant d'être amenés ici, nous sommes certains qu'ils consentiraient à ces expériences s'ils savaient à quel point ils sont précieux pour aider le Conclave. Ainsi, bien que ce processus viole plusieurs des serments que nous avons prêtés en tant que guérisseurs, je ne vois finalement là aucun problème moral et personne d'autre dans cette installation ne m'a fait part de la moindre inquiétude à ce sujet. Après tout, ceux qui rejoignent le Conclave en tant que soldats se sont déjà portés volontaires pour donner leur vie au service du règne éclairé des Superviseurs, et c'est là sûrement une manière bien plus productive de le faire que de mourir sous une bille de fronde Nargol.
 
-With access to better components, we can make the same basic improvements to their strength as we could before, but the changes do not stop there!  With so many subjects to work with, and the Overseers' encouragement to take risks, we've made them much larger (with associated multiplying effects on their effectiveness in combat), and reinforced their constitution to be capable of bearing more inscriptions without collapsing under the stress.  A fellow researcher had the brilliant idea to use this runic affinity to both enhance their connection to magic's weave, and make them biologically and structurally dependent on it; now, our front-line soldiers can conjure devastating fireballs with little training, and should those hairy-footed vermin attempt to raise one of these soldiers from the dead, they will collapse, having lost the magic that kept them intact when they still lived.  
+Avec l'accès à de meilleurs composants, nous pouvons apporter les mêmes améliorations de base à leur force qu'auparavant, mais les changements ne s'arrêtent pas là ! Avec tant de sujets à disposition, et l'encouragement des Superviseurs à prendre des risques, nous les avons rendus beaucoup plus grands (avec les effets multiplicateurs associés sur leur efficacité au combat), et avons renforcé leur constitution afin qu'ils puissent porter davantage d'inscriptions sans s'effondrer sous la contrainte. Un collègue chercheur a eu l'idée brillante d'utiliser cette affinité runique à la fois pour renforcer leur connexion à la trame de la magie, et pour les rendre biologiquement et structurellement dépendants d'elle ; désormais, nos soldats de première ligne peuvent invoquer des boules de feu dévastatrices avec peu d'entraînement, et si ces vermines aux pieds poilus tentaient de relever un de ces soldats d'entre les morts, ils s'effondreraient ayant perdu la magie qui les maintenait intacts de leur vivant.
 
-The Overseers have been working with us personally to make psychological changes as well; with the blank slate provided by the amnesia spell, we've managed to give them a mindset that will serve them well both during the war and for our glorious reign that shall follow.  Extraordinarily dutiful, helpful and striving for excellence in their daily lives without lusting for power or personal glory, wise about their place in the world, and slow to anger...  but utterly ferocious when needed.  Just as the Higher were created to be scholars and policy-makers, and have proven successful in this role beyond the Conclave's wildest dreams, these new "Ogres" (as the staff has taken to nicknaming them) shall be our laborers and soldiers, a solid foundation of hard work and dutiful enforcement on which our society shall be built.  There will still be a place for the unaltered races, of course; their natural adaptability will make them perfect to fill in the gaps, as the glue that holds everything else together.
+Les Superviseurs ont également travaillé personnellement avec nous pour apporter des changements psychologiques ; avec la table rase offerte par le sort d'amnésie, nous sommes parvenus à leur donner un état d'esprit qui les servira bien tant durant la guerre que pour notre glorieux règne à venir. Extraordinairement consciencieux, serviables et recherchant l'excellence dans leur vie quotidienne sans convoiter le pouvoir ou la gloire personnelle, sages quant à leur place dans le monde, et lents à la colère... mais absolument féroces quand il le faut. Tout comme les Nobles ont été créés pour être érudits et décideurs, et se sont révélés couronnés de succès dans ce rôle au-delà des rêves les plus fous du Conclave, ces nouveaux "Ogres" (comme le personnel a pris l'habitude de les surnommer) seront nos travailleurs et nos soldats, un socle solide de labeur acharné et d'application consciencieuse sur lequel notre société sera bâtie. Il restera bien entendu une place pour les races non modifiées ; leur adaptabilité naturelle en fera les parfaits combleurs de lacunes, la colle qui maintient tout le reste ensemble.
 
-These Ogres are integrating into our military very well!  The rank-and-file soldiers know better than to attract attention from the Overseers by asking too many questions about where their new, giant allies came from, and thus acceptance came rather swiftly once they saw these creations in action.  We received one report that an Ogre sergeant was seen eating a particularly insolent halfling alive, after he feigned surrender and attempted to cast a lightning spell; this spectacle was both highly motivating to our troops and demoralized the remnants of that halfling's squad into surrendering, so I shall be enhancing their digestive capabilities as well.  
+Ces Ogres s'intègrent très bien à notre armée ! Les soldats de rang savent qu'il vaut mieux ne pas attirer l'attention des Superviseurs en posant trop de questions sur l'origine de leurs nouveaux alliés géants, et l'acceptation est donc venue assez rapidement une fois qu'ils ont vu ces créations à l'oeuvre. Nous avons reçu un rapport selon lequel un sergent Ogre aurait été vu en train de dévorer vivant un halfelin particulièrement insolent, après que celui-ci eut feint de se rendre et tenté de lancer un sort de foudre ; ce spectacle a été à la fois hautement motivant pour nos troupes et a démoralisé les restes de cette escouade de halfelins au point de les pousser à se rendre, aussi vais-je également améliorer leurs capacités digestives.
 
-For the most part, though, our research work is done.  All that's left to do is get a response from the Overseers as to whether to increase their birth rate or not (currently set very low as a precaution against future overpopulation), and improve the training we give freshly-created Ogres for runic magic, given that regular maintenance of their runes is necessary to keep them alive.  This is not to say we have idle staff, however!  Some of us have made a project for after the war ends - a modification to our experimental growth-tanks, rendering them capable of holding a person of Ogric biology indefinitely in a "sleeping" state where they do not age or starve.  We can install tanks filled with these "sleeping" Ogres stationed near bridges that may need regular maintenance, stashed in reserve armories, or any other place where you'd need a batch of dependable workers or guards, without having to incur all the other costs associated with keeping extra citizens around.
+Pour l'essentiel, cependant, notre travail de recherche est achevé. Il ne reste plus qu'à obtenir une réponse des Superviseurs quant à savoir s'il faut augmenter leur taux de natalité ou non (actuellement fixé très bas par précaution contre une surpopulation future), et à améliorer l'entraînement que nous donnons aux Ogres nouvellement créés pour la magie runique, étant donné qu'un entretien régulier de leurs runes est nécessaire pour les maintenir en vie. Cela ne signifie pas pour autant que notre personnel soit oisif ! Certains d'entre nous ont conçu un projet pour l'après-guerre - une modification de nos cuves de croissance expérimentales, les rendant capables de maintenir indéfiniment une personne de biologie ogrique dans un état "endormi" où elle ne vieillit ni ne meurt de faim. Nous pourrions installer des cuves remplies de ces Ogres "endormis" stationnées près de ponts nécessitant un entretien régulier, entreposées dans des arsenaux de réserve, ou tout autre lieu où l'on aurait besoin d'un lot de travailleurs ou de gardes fiables, sans avoir à supporter tous les autres coûts associés à l'entretien de citoyens supplémentaires.
 ]], "_t")
-t("healer Astelrid log 4", "healer Astelrid log 4", "_t")
+t("healer Astelrid log 4", "journal 4 du guérisseur Astelrid", "_t")
 t([[Announcement to All Staff:
 
 I'm sure you've all heard the rumors about what our scryers saw, and why we've been on lockdown the past few days; it is with a heavy heart that I must confirm that they are true.  The Nargol have taken the land above our facility, and are combing the area with golems to find the entrances.  We've already lost one entrance to the failsafe explosive-rune traps set in place to collapse it, and now they'll be looking to defuse those as well.  In short, we have no means of escape, and if allowed the time, they will find the way in, kill us, and steal our precious work for themselves.  The Empire has been enough of a problem without Ogres; we CANNOT take the risk of them finding us and tipping the balance in their favor.
@@ -12017,20 +12014,21 @@ This is my last order: I have prepared our surgical golems to apply the Ogric in
 It has been an honor working with such talented individuals, and an honor doing everything I can for a noble cause.  Perhaps we still had some progress to make, but overall I'm proud of what we've accomplished, and the contributions the Ogre race will make to all of Maj'Eyal.  
 
 Long live the Conclave!
-Healer Astelrid]], [[Announcement to All Staff:
+Healer Astelrid]], [[Annonce à tout le personnel :
 
-I'm sure you've all heard the rumors about what our scryers saw, and why we've been on lockdown the past few days; it is with a heavy heart that I must confirm that they are true.  The Nargol have taken the land above our facility, and are combing the area with golems to find the entrances.  We've already lost one entrance to the failsafe explosive-rune traps set in place to collapse it, and now they'll be looking to defuse those as well.  In short, we have no means of escape, and if allowed the time, they will find the way in, kill us, and steal our precious work for themselves.  The Empire has been enough of a problem without Ogres; we CANNOT take the risk of them finding us and tipping the balance in their favor.
+Je suis certain que vous avez tous entendu les rumeurs sur ce que nos devins ont vu, et sur les raisons de notre confinement ces derniers jours ; c'est le coeur lourd que je dois confirmer qu'elles sont vraies. Les Nargol se sont emparés du terrain au-dessus de notre installation, et ratissent la zone avec des golems à la recherche des entrées. Nous avons déjà perdu une entrée à cause des pièges de sécurité à runes explosives destinés à la faire s'effondrer, et ils vont maintenant chercher à désamorcer les autres également. En bref, nous n'avons aucun moyen de fuir, et si on leur en laisse le temps, ils trouveront le chemin, nous tueront, et voleront notre précieux travail pour eux-mêmes. L'Empire posait déjà bien assez de problèmes sans les Ogres ; nous NE POUVONS PAS prendre le risque qu'ils nous découvrent et fassent basculer la balance en leur faveur.
 
-We are doomed, no matter what happens.  My orders from the Overseers in such a situation would be to destroy our findings, then put an alchemical vial they gave me in the ventilation system, painlessly suffocating us.  I have no intention of throwing away our rightfully-earned place in the history books by doing this.  Instead, I have prematurely detonated all the remaining explosive traps, thoroughly sealing the way in.  We are very, very deep underground, and without any tunnels to follow, it could be decades before a Nargol excavation team reached us.  In other words, we are completely sealed off from the Nargol...  and the rest of the Conclave.
+Nous sommes condamnés, quoi qu'il arrive. Mes ordres des Superviseurs, dans une telle situation, seraient de détruire nos découvertes puis de verser dans le système de ventilation une fiole alchimique qu'ils m'ont confiée, nous suffoquant sans douleur. Je n'ai nullement l'intention de gâcher, par ce moyen, notre place légitimement méritée dans les livres d'histoire. J'ai plutôt fait détoner prématurément tous les pièges explosifs restants, scellant complètement le passage. Nous sommes très très profondément sous terre, et sans aucun tunnel à suivre, il pourrait s'écouler des décennies avant qu'une équipe d'excavation Nargol ne nous atteigne. En d'autres termes, nous sommes complètement coupés des Nargol... et du reste du Conclave.
 
-We have a small supply of emergency rations, but it would last us a couple of months at the longest, and we cannot assume the Conclave will reclaim this territory in that time.  We could try to repurpose the infusion herb-garden for making edible crops, but that would only buy us a month after that before the grow-lights lost their magic.  Without drastic steps, we will surely die of starvation; fortunately, we have drastic steps available to us.
+Nous disposons d'une petite réserve de rations d'urgence, mais elle ne durerait au plus que quelques mois, et nous ne pouvons présumer que le Conclave reprendra ce territoire dans ce délai. Nous pourrions essayer de reconvertir le jardin d'herbes à essence pour cultiver des récoltes comestibles, mais cela ne nous accorderait qu'un mois de plus avant que les lampes de croissance ne perdent leur magie. Sans mesures drastiques, nous mourrons certainement de faim ; heureusement, de telles mesures nous sont accessibles.
 
-This is my last order: I have prepared our surgical golems to apply the Ogric inscriptions to us, and updated all of our records to reflect our best current knowledge of their effects and effectiveness.  I have also had the golems upgrade all of our growth vats (ones in use included) to our newest "stasis tank" design, and furthermore freed up enough space for each of us to use one by...  disposing of some of the test subjects who had low chances of survival (an action I am already beginning to regret).  By the time you find this note, I will have already undergone this process myself, and will be hibernating in a tank I've had moved to my office.  If you do not wish to die, you should acquire a weapon from the armory, then follow my lead.  When we are dormant, we will be immune to the ravages of time, and prepared to greet whoever finally digs their way down and finds us.  Hopefully, it will be Conclave reinforcements, in which case we will stand down, give them our notes, and await further orders.  And if it isn't the Conclave...  make them regret it.  Send a message stronger than any NO TRESPASSING sign ever could, then resume your slumber.
+Voici mon dernier ordre : j'ai préparé nos golems chirurgicaux pour nous appliquer les inscriptions ogriques, et mis à jour tous nos dossiers pour refléter nos meilleures connaissances actuelles de leurs effets et de leur efficacité. J'ai également fait mettre à niveau par les golems toutes nos cuves de croissance (y compris celles en cours d'utilisation) vers notre nouveau modèle de "cuve de stase", et j'ai en outre libéré assez d'espace pour que chacun d'entre nous puisse en utiliser une, en... me débarrassant de certains sujets de test ayant de faibles chances de survie (une action que je commence déjà à regretter). Au moment où vous trouverez cette note, j'aurai déjà subi ce processus moi-même, et hibernerai dans une cuve que j'ai fait transporter dans mon bureau. Si vous ne souhaitez pas mourir, vous devriez vous procurer une arme à l'arsenal, puis suivre mon exemple. Une fois dormants, nous serons immunisés contre les ravages du temps, et prêts à accueillir quiconque finira par creuser jusqu'à nous. Espérons qu'il s'agisse de renforts du Conclave, auquel cas nous nous rendrons, leur donnerons nos notes, et attendrons de nouveaux ordres. Et si ce n'est pas le Conclave... faites-leur regretter. Envoyez un message plus fort que ne le pourrait jamais aucun panneau "DÉFENSE D'ENTRER", puis reprenez votre sommeil.
 
-It has been an honor working with such talented individuals, and an honor doing everything I can for a noble cause.  Perhaps we still had some progress to make, but overall I'm proud of what we've accomplished, and the contributions the Ogre race will make to all of Maj'Eyal.  
+Ce fut un honneur de travailler avec des individus aussi talentueux, et un honneur de faire tout ce que je pouvais pour une noble cause. Peut-être avions-nous encore des progrès à accomplir, mais dans l'ensemble je suis fier de ce que nous avons accompli, et des contributions que la race Ogre apportera à tout Maj'Eyal.
 
-Long live the Conclave!
-Healer Astelrid]], "_t")
+Longue vie au Conclave !
+Guérisseur Astelrid]], "_t")
+t("investigator Churrack note", "Note de l'enquêteur Churrack", "_t")
 t([[FROM: Investigator Churrack
 TO: Whoever holds the position of High Overseer of Loyalty when we're let out
 
@@ -12100,102 +12098,92 @@ But we won't age sleeping in these ruins
 They won't work on normal humans
 But we won't age sleeping in these ruins#{normal}#
 
-...Everyone reacts to grief differently, I guess. #{bold}#-Churrack#{normal}#]], [[FROM: Investigator Churrack
-TO: Whoever holds the position of High Overseer of Loyalty when we're let out
+...Everyone reacts to grief differently, I guess. #{bold}#-Churrack#{normal}#]], [[DE : Investigateur Churrack
+À : Quiconque occupera le poste de Haut Superviseur de la Loyauté quand nous serons libérés
 
-Though I'm trapped in here with these healers, I haven't stopped prying to determine if their loyalties lie with us or with themselves. This case has more layers than a damn onion; while Astelrid did disobey a direct order (and several more by revealing the existence of that order), her alternative seems to fit our goals nonetheless. Response from staff has been mixed.  While most are reluctantly going along with her plan for lack of other options, some seem to follow her lead enthusiastically, and have been singing this song as they wait in line for their treatment:
+Bien que je sois piégé ici avec ces guérisseurs, je n'ai cessé de fouiner afin de déterminer si leur loyauté nous appartient ou s'ils ne servent que leurs propres intérêts. Cette affaire a plus de couches qu'un fichu oignon ; bien qu'Astelrid ait effectivement désobéi à un ordre direct (et à plusieurs autres en révélant l'existence de cet ordre), son alternative semble néanmoins correspondre à nos objectifs. La réaction du personnel a été mitigée. Alors que la plupart suivent son plan à contrecoeur, faute d'autres options, certains semblent adhérer à sa décision avec enthousiasme, et chantent cette chanson en attendant en file leur traitement :
 
-#{italic}#Some Nargol once told me their Empire's gonna roll me
-We ain't as strong as all their undead
-They looked kind of silly with giant feet so furry
-And an ogre's club smashing their foreheads
+#{italic}#Un Nargol m'a dit un jour que leur Empire allait me rouler
+On n'est pas aussi forts que tous leurs morts-vivants debout
+Ils avaient l'air bien bêtes avec leurs pieds géants tout poilus
+Et la massue d'un ogre leur fracassant le front, à genoux
 
-Well, the Empire's coming and they won't stop coming
-So you'd better be ready to hit the ground running
-Didn't make sense to kill everyone
-Praise the Overseers, but that plan was dumb
+Eh bien, l'Empire arrive et il ne s'arrêtera pas d'arriver
+Alors tu ferais mieux d'être prêt à courir sans traîner
+Ça n'avait aucun sens de tous les tuer
+Louez les Superviseurs, mais quel plan raté
 
-So much to do, so much to see
-So what's wrong with waiting in stasis?
-We'll never know if we don't try
-We'll never shine if we just die
+Tant à faire, tant à voir
+Alors qu'y a-t-il de mal à attendre en stase, ce soir ?
+On ne saura jamais si on n'essaie pas
+On ne brillera jamais si on ne fait que trépas
 
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
+Hé, maintenant, tu es guérisseur, deviens un ogre, va patienter
+Hé, maintenant, tu es un garde, veille auprès des cuves postées
+Ça ne marche pas sur les humains ordinaires
+Mais on ne vieillira pas en dormant dans ces ruines millénaires
 
-It's a safe place, even as it gets older
-'cause this war's not over until we say it's ogre
-But the golems outside beg to differ
-Judging by the sights in the scrying-orb's picture
+C'est un endroit sûr, même s'il prend de l'âge
+Car cette guerre n'est pas finie tant qu'on n'a pas dit "ograge"
+Mais les golems dehors sont d'un tout autre avis
+À en juger par les images que l'orbe de divination nous a soumis
 
-The ground we're under was getting pretty thin
-Their scouts are onto us, and they've got us all pinned
-We blew the tunnels - no way out,
-until the Conclave finds us, give trespassers a rout!
+Le sol sous lequel nous sommes devenait bien mince
+Leurs éclaireurs sont sur nous, ils nous ont tous coincés depuis
+On a fait sauter les tunnels - plus aucune sortie,
+jusqu'à ce que le Conclave nous trouve, chassez les intrus sans répit !
 
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
+Hé, maintenant, tu es guérisseur, deviens un ogre, va patienter
+Hé, maintenant, tu es un garde, veille auprès des cuves postées
+Ça ne marche pas sur les humains ordinaires
+Mais on ne vieillira pas en dormant dans ces ruines millénaires
 
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
+Hé, maintenant, tu es guérisseur, deviens un ogre, va patienter
+Hé, maintenant, tu es un garde, veille auprès des cuves postées
+Ça ne marche pas sur les humains ordinaires
+Mais on ne vieillira pas en dormant dans ces ruines millénaires
 
-Somebody once asked if we'd finished, but alas
-While I'm proud of what we've done in this place
-We weren't done yet with this project,
-but we're close enough where this isn't neglect
-Eyal will appreciate our new race!
+Quelqu'un a demandé un jour si on avait fini, hélas
+Je suis fier de ce qu'on a accompli dans ce lieu-là
+On n'avait pas encore achevé ce projet,
+mais on en est assez près pour que ça ne soit pas du laisser-aller
+Eyal saura apprécier notre nouvelle race, ça c'est sûr !
 
-Well, the years'll start coming and they won't stop coming
-So you'd better be ready to hit the ground running
-Didn't make sense to kill everyone
-Praise the Overseers, but that plan was dumb
+Eh bien, les années vont commencer et elles ne s'arrêteront pas d'arriver
+Alors tu ferais mieux d'être prêt à courir sans traîner
+Ça n'avait aucun sens de tous les tuer
+Louez les Superviseurs, mais quel plan raté
 
-So much to do, so much to see
-So what's wrong with waiting in stasis?
-We'll never know if we don't try
-We'll never shine if we just die
+Tant à faire, tant à voir
+Alors qu'y a-t-il de mal à attendre en stase, ce soir ?
+On ne saura jamais si on n'essaie pas
+On ne brillera jamais si on ne fait que trépas
 
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
+Hé, maintenant, tu es guérisseur, deviens un ogre, va patienter
+Hé, maintenant, tu es un garde, veille auprès des cuves postées
+Ça ne marche pas sur les humains ordinaires
+Mais on ne vieillira pas en dormant dans ces ruines millénaires
 
-They won't work on normal humans
-But we won't age sleeping in these ruins#{normal}#
+Ça ne marche pas sur les humains ordinaires
+Mais on ne vieillira pas en dormant dans ces ruines millénaires#{normal}#
 
-...Everyone reacts to grief differently, I guess. #{bold}#-Churrack#{normal}#]], "_t")
---]==]
-
+...Chacun réagit au deuil à sa manière, je suppose. #{bold}#-Churrack#{normal}#]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/age-pyre.lua"
 
-
--- texte non traduit
---[==[
-t("age of pyre", "age of pyre", "newLore category")
-t("Atamathon, the giant golem", "Atamathon, the giant golem", "_t")
+t("age of pyre", "ère du bûcher", "newLore category")
+t("Atamathon, the giant golem", "Atamathon, le golem géant", "_t")
 t([[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
 Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. One of its eyes seems to be missing. At over 40 feet high it towers above you.
-Someone foolish has tried to reconstruct it, but it seems like it misses an eye to be completed.]], [[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
-Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. One of its eyes seems to be missing. At over 40 feet high it towers above you.
-Someone foolish has tried to reconstruct it, but it seems like it misses an eye to be completed.]], "_t")
---]==]
-
+Someone foolish has tried to reconstruct it, but it seems like it misses an eye to be completed.]], [[Ce golem géant fut construit par les Halfelins durant les Guerres du Bûcher pour combattre les orcs, mais fut abattu par Garkul le Dévoreur.
+Son corps est fait de marbre, ses articulations de voratun massif, et ses yeux du plus pur rubis. L'un de ses yeux semble manquer. Culminant à plus de 40 pieds de haut, il vous surplombe.
+Quelqu'un d'imprudent a tenté de le reconstruire, mais il semble qu'il lui manque un oeil pour être achevé.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/angolwen.lua"
 
 t("Lecture on Humility by Archmage Linaniil", "Conférence sur l'Humilité par l'Archimage Linaniil", "_t")
--- texte non traduit
---[==[
-t("angolwen", "angolwen", "newLore category")
 t([[It were some years now since twain of our brightest students left Angolwen, sullied by our veil of secrecy and our silent duty. It still lies heavy on mine heart to think of what they could accomplish within our private circle. I but hope that one day they whilst return, and they whilst understand the reasons behind our solemn mission.
 
 But I must think of the future, for too many are the regrets of mine long past, and to hold their burdens overlong is to be crushed. I must think of ye, young acolytes, who start now in the learning of our lores. I must explain to ye our mission, our purpose, our justification, so that ye understand all what we do and why. In secrecy we operate, trying to heal the harms of our past, trying to build a better future. For our penance is great, and never should it be forgotten in all Eyal the terrors of the Spellblaze.
@@ -12212,24 +12200,24 @@ Ah, how much hope was in me then. But foolish were I to think it could be so eas
 
 Aye, and humility is what I teach to ye now. Know ye well that there are forces out there which dwarf ye into insignificance. Know as well that they have no glory, no pride, for they are forces of ultimate destruction which bring only terror and pain.
 
-Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], [[It were some years now since twain of our brightest students left Angolwen, sullied by our veil of secrecy and our silent duty. It still lies heavy on mine heart to think of what they could accomplish within our private circle. I but hope that one day they whilst return, and they whilst understand the reasons behind our solemn mission.
+Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], [[Voici quelques années déjà que deux de nos plus brillants élèves ont quitté Angolwen, souillés par notre voile de secret et notre devoir silencieux. Il pèse encore lourd sur mon coeur de songer à ce qu'ils eussent pu accomplir en notre cercle privé. Je ne puis qu'espérer qu'un jour ils reviendront, et qu'ils comprendront les raisons de notre solennelle mission.
 
-But I must think of the future, for too many are the regrets of mine long past, and to hold their burdens overlong is to be crushed. I must think of ye, young acolytes, who start now in the learning of our lores. I must explain to ye our mission, our purpose, our justification, so that ye understand all what we do and why. In secrecy we operate, trying to heal the harms of our past, trying to build a better future. For our penance is great, and never should it be forgotten in all Eyal the terrors of the Spellblaze.
+Mais il me faut songer à l'avenir car trop nombreux sont les regrets de mon lointain passé, et porter ces fardeaux trop longtemps c'est se laisser écraser. Je dois penser à vous, jeunes acolytes, qui commencez à présent l'apprentissage de nos savoirs. Il me faut vous expliquer notre mission, notre but, notre justification, afin que vous compreniez tout ce que nous faisons et pourquoi. C'est dans le secret que nous oeuvrons, tâchant de guérir les blessures de notre passé, tâchant de bâtir un avenir meilleur. Car notre pénitence est grande, et jamais ne devraient être oubliées, en tout Eyal, les terreurs de la Brûlure Magique.
 
-I should know well, for I were there. But a young mage was I, though not without promise. I knew of the Shaloren mages' experiments on the Sher'Tul ruins. Aye, and I were jealous of the powers they sought to unlock. No fear or caution had I in my arrogant youth, thinking only of opportunities and glory. Heed well that thought...
+Je le sais bien, car j'y étais. Jeune mage j'étais alors, non sans quelque promesse. J'avais connaissance des expériences des mages Shaloren sur les ruines Sher'Tul. Et oui, j'enviais les pouvoirs qu'ils cherchaient à libérer. Nulle crainte ni prudence n'habitait ma jeunesse arrogante, qui ne songeait qu'aux opportunités et à la gloire. Retenez bien cette pensée...
 
-Two thousand six hundred cycles of the Sun have passed above my head, and yet still I cannot shake the memory of the day the sky turned to flame and the earth was torn to shreds. I felt the magic in the air, the sudden unleashing of arcane energies beyond anyone's control. I knew in an instant that the Shaloren had unlocked the power of the farportals, but the forces were far beyond their expectations. I saw within seconds the streams of blazing energy tear through the sky above our heads, and then rain down in crimson plumes of destruction. It was all I could to put a shield about myself, and the burns I suffered were terrible, such that scars remain to this day. No one about me survived. Still I remember mine sister Neira's shortened scream as she stood beside me, her skin flayed off by the terrible energies, her body consumed by a pyre of flames, her ashes strewn by a great tumult in the earth. Twenty-six centuries have passed and still I do wake to the sound of that scream...
+Deux mille six cents cycles du Soleil ont passé au-dessus de ma tête, et pourtant je ne puis me défaire du souvenir de ce jour où le ciel se changea en flammes et où la terre fut mise en pièces. Je sentis la magie dans l'air, le déchaînement soudain d'énergies arcaniques par-delà tout contrôle. Je sus en un instant que les Shaloren avaient libéré le pouvoir des portails lointains, mais les forces dépassaient de loin leurs attentes. Je vis en quelques secondes des flots d'énergie embrasée déchirer le ciel au-dessus de nos têtes, puis retomber en pluies de destruction pourpre. Je ne pus que dresser un bouclier autour de moi, et les brûlures que je subis furent terribles, au point que les cicatrices en demeurent à ce jour. Nul autour de moi ne survécut. Je me souviens encore du cri écourté de ma soeur Neira, qui se tenait à mes côtés, sa peau arrachée par ces terribles énergies, son corps consumé par un bûcher de flammes, ses cendres dispersées par un grand tumulte de la terre. Vingt-six siècles ont passé, et je me réveille encore au son de ce cri...
 
-Many were the loved ones I lost that day, and I were not alone. Countless perished across the lands, and countless more died in the chaos which followed. Then the Spellhunt began, and the people rose against the arrogance of the mages and began slaughtering us mercilessly. After the Spellblaze our abilities were in disarray, our mana channels sundered. We were nigh defenceless, and it took great effort to gather many of us together and found the hidden city of Angolwen. A great many mages were killed in the riots that followed, aye and many innocents too, for distrust was rife and the thirst for blood all-consuming. But alas, the suffering did not end there.
+Nombreux furent les êtres chers que je perdis ce jour-là, et je ne fus pas seule. D'innombrables âmes périrent à travers les terres, et d'innombrables autres moururent dans le chaos qui suivit. Alors commença la Purge Arcanique, et le peuple se souleva contre l'arrogance des mages, se mettant à nous massacrer sans pitié. Après la Brûlure Magique, nos pouvoirs étaient en déroute, nos canaux de mana rompus. Nous étions presque sans défense, et il fallut un effort immense pour rassembler bon nombre d'entre nous et fonder la cité cachée d'Angolwen. Un grand nombre de mages furent tués dans les émeutes qui suivirent, ainsi que bien des innocents, car la méfiance était partout et la soif de sang, dévorante. Mais hélas, la souffrance ne s'arrêta point là.
 
-The effects of the Spellblaze can still be seen today, in tortured lands and blighted earths. In the Age of Dusk it were much worse. New diseases arose, plagues swept across all cities, civilisations brought to nothing. All our races came close to extinction, and an age of darkness came upon all learning and enlightenment. Feudal lords and bandit gangs fought amongst what little healthy lands were left, whilst the blights continued to ravage what free people remained. That was when I did begin our secret missions to repair the world, to make right the errors of our actions. In silent operation we visited the broken lands and used our powers to heal, not to destroy. Many centuries it took, but at last the aftereffects of the Spellblaze began to diminish, and the people began to rebuild.
+Les effets de la Brûlure Magique sont encore visibles aujourd'hui, dans des terres torturées et des sols flétris. À l'Ère du Crépuscule, ce fut bien pire encore. De nouvelles maladies apparurent, des pestes balayèrent toutes les cités, des civilisations furent réduites à néant. Toutes nos races frôlèrent l'extinction, et un âge de ténèbres s'abattit sur tout savoir et tout apprentissage. Seigneurs féodaux et bandes de brigands se disputèrent le peu de terres saines qui restaient, tandis que les fléaux continuaient de ravager les rares peuples libres survivants. Ce fut alors que je commençai nos missions secrètes pour réparer le monde, pour redresser les erreurs de nos actes. Dans une opération silencieuse, nous visitâmes les terres brisées et usâmes de nos pouvoirs pour guérir, non pour détruire. Il fallut bien des siècles, mais enfin les séquelles de la Brûlure Magique commencèrent à s'estomper, et le peuple recommença à se reconstruire.
 
-Ah, how much hope was in me then. But foolish were I to think it could be so easy. The wounds of Eyal struck deeper than mere diseases on the surface. The poison went down much further, and the cracks tore through the very roots of our world. One dark and stormy day a great cataclysm swept forth from the east, and the land rose 500 leagues into the sky. We could do naught but gasp in horror as whole cities, whole races were swept into the sea. The continents were sheared apart and all of Eyal forever changed. It was a sight to humble even the greatest archmage.
+Ah, combien d'espoir habitait alors mon coeur. Mais folle je fus de croire que cela pût être si aisé. Les blessures d'Eyal frappaient bien plus profondément que de simples maladies de surface. Le poison s'enfonçait bien plus loin, et les fissures déchirèrent jusqu'aux racines mêmes de notre monde. Un jour sombre et orageux, un grand cataclysme surgit de l'est, et la terre s'éleva de 500 lieues dans le ciel. Nous ne pûmes que suffoquer d'horreur tandis que des cités entières, des races entières furent emportées dans la mer. Les continents furent déchirés, et tout Eyal en fut à jamais changé. C'était là un spectacle à faire ployer même le plus grand des archimages.
 
-Aye, and humility is what I teach to ye now. Know ye well that there are forces out there which dwarf ye into insignificance. Know as well that they have no glory, no pride, for they are forces of ultimate destruction which bring only terror and pain.
+Oui, et l'humilité est ce que je vous enseigne à présent. Sachez bien qu'il existe là-dehors des forces qui vous réduisent à l'insignifiance. Sachez aussi qu'elles n'ont ni gloire ni fierté, car ce ne sont que des forces de destruction absolue, qui n'apportent que terreur et douleur.
 
-Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], "_t")
-t("Lecture on the nature of magic by Archmage Tarelion", "Lecture on the nature of magic by Archmage Tarelion", "_t")
+Notre mission est d'aider le monde. Notre pénitence est d'agir dans le secret. D'anciennes blessures demeurent et de nouvelles menaces surgissent, mais toutes doivent être traitées derrière notre manteau de silence. La méfiance envers les nôtres demeure profondément ancrée dans l'esprit des gens, et il en est même qui nous haïssent d'une passion violente. Mais le monde change, et peut-être qu'un jour nous serons de nouveau acceptés dans la société. D'ici là, souvenez-vous bien de cette leçon d'humilité, et dans le vaste monde, gardez votre secret, et gardez-vous en sûreté.]], "_t")
+t("Lecture on the nature of magic by Archmage Tarelion", "Sermon sur la nature de la magie, par l'Archimage Tarelion", "_t")
 t([[#{bold}#"What is Magic?"
 #{italic}#A study by Archmage Tazimar Tarelion#{normal}#
 
@@ -12246,36 +12234,37 @@ The tapping of threads can be a draining task, requiring much effort of will to 
 Magical runes and items are imbued with an attachment to certain elemental threads. This requires delicate work by experienced and gifted enchanters. The most intricate of magical artifacts demand many years of work, using intense mental effort to permanently attune the core materials to the right elemental energies. Gemstones are especially easy to work with in this craft, and alchemists use them often to bring about elemental effects.
 
 Some believe that magic is inherently wrong, that the so-called twisting of the elements with one's will can only lead to terrible things. As students of Angolwen I assume you disagree! Magic is simply an extension of the forces of nature, and are we not natural creatures that use it? But remember that magic is still a powerful force that can be used for good or ill. Magic is indeed a tool of immense value - use it wisely.
-]], [[#{bold}#"What is Magic?"
-#{italic}#A study by Archmage Tazimar Tarelion#{normal}#
+]], [[#{bold}#"Qu'est-ce que la Magie ?"
+#{italic}#Une étude de l'Archimage Tazimar Tarelion#{normal}#
 
-How uncouth and common a question it must seem, and yet it is the one I am asked most often, even by some of our most learned students. Too often we teach The Art by practice and imitation and concentration on the end effects, without teaching in greater detail of the underlying principles. Just as a musician may merrily play on his harp without knowing how the sound arises from the vibration of the strings, so a mage may make use of magic without realising the true forces at work. In this document I hope to give learning on the nature of magic, and how the underlying effects give rise to all the wondrous fruits we can produce.
+Question bien commune et fruste elle doit paraître, et pourtant c'est celle qu'on me pose le plus souvent, même parmi nos élèves les plus savants. Trop souvent enseignons-nous l'Art par la pratique, l'imitation et la seule attention portée aux effets finaux, sans en approfondir les principes sous-jacents. Tout comme un musicien peut allègrement jouer de sa harpe sans savoir comment le son naît de la vibration des cordes, un mage peut se servir de la magie sans jamais percevoir les véritables forces à l'oeuvre. Dans ce document, j'espère apporter un enseignement sur la nature de la magie, et sur la manière dont ces effets sous-jacents donnent naissance à tous les merveilleux fruits que nous pouvons produire.
 
-Alchemists will tell you that the world is made up of many base materials - lead, copper, iron, gold and so on. They are fixated on splitting things down into these components and investigating how they react with each other. However there is more to the world than this. Certainly they represent the physical make-up of things, but they do not show the forces and energy that bring everything into motion. The forces of fire, cold, lightning and life itself are all very real effects, and these we call the Elements of Eyal. The true archmage is interested in the interactions of the elemental forces of the world, and manipulating them to his or her need.
+Les alchimistes vous diront que le monde est constitué de nombreux matériaux de base - plomb, cuivre, fer, or, et ainsi de suite. Ils s'attachent à décomposer les choses en ces éléments et à étudier comment ils réagissent entre eux. Pourtant, le monde renferme davantage que cela. Certes, ces matériaux représentent la composition physique des choses, mais ils ne montrent point les forces et l'énergie qui mettent tout en mouvement. Les forces du feu, du froid, de la foudre et de la vie elle-même sont autant d'effets bien réels, et nous les nommons les Éléments d'Eyal. Le véritable archimage s'intéresse aux interactions des forces élémentaires du monde, et à la manière de les manipuler selon son besoin.
 
-The elemental forces exist naturally in the world, and are weaved around all things in an all-encompassing canvas. They move, vibrate and resonate with the materials of the world, and the effects of each play heavily on one another. All creatures naturally make use of these elements, and some are more attuned to these threads than others. With great training and practice we can become more attuned to these wild forces ourselves, and in so doing some can match the speed of wolves, the strength of bears, the tenacity of treants and even the immense natural powers of dragons.
+Les forces élémentaires existent naturellement dans le monde, et sont tissées autour de toute chose en une trame qui embrasse tout. Elles se meuvent, vibrent et résonnent avec les matériaux du monde, et les effets de chacune pèsent lourdement sur les autres. Toutes les créatures se servent naturellement de ces éléments, et certaines sont plus accordées à ces fils que d'autres. Par un grand entraînement et une grande pratique, nous pouvons nous-mêmes nous accorder davantage à ces forces sauvages, et ce faisant, certains peuvent égaler la vitesse des loups, la force des ours, la ténacité des tréants, et même les immenses pouvoirs naturels des dragons.
 
-But there is another way of gaining access to these elemental forces - a more direct way, though some would call it unnatural. Long ago people discovered with much training how to concentrate their wills to pluck the elemental threads directly. This can release great energies, and these can be shaped to produce real effects in the world. Plumes of fire, bolts of lightning and blasts of ice can all be called forth by those suitably trained. The true masters of magic can go much further, combining many resonant forces to create complex physical effects.
+Mais il existe une autre voie pour accéder à ces forces élémentaires - une voie plus directe, que certains qualifieraient de contre-nature. Il y a bien longtemps, des hommes découvrirent, au prix d'un long entraînement, comment concentrer leur volonté pour puiser directement dans les fils élémentaires. Cela peut libérer de grandes énergies, lesquelles peuvent être façonnées pour produire des effets bien réels dans le monde. Des gerbes de feu, des éclairs de foudre et des rafales de glace peuvent tous être invoqués par ceux dûment formés. Les véritables maîtres de la magie peuvent aller bien plus loin encore, combinant de nombreuses forces résonnantes pour créer des effets physiques complexes.
 
-The tapping of threads can be a draining task, requiring much effort of will to sustain. This is what we versed in the arcane call "mana", that mental stamina dedicated to the interaction with the elements of the world. Continual use of magic is like the constant lifting and holding of heavy weights, and eventually one will find one's capacity drained. Practice allows one to build up greater pools of mana, and certain runes and spells can gradually build extra reserves to be called upon as needed.
+Puiser dans ces fils peut être une tâche épuisante, exigeant un grand effort de volonté pour être soutenue. C'est ce que nous, versés dans l'arcane, appelons le "mana", cette endurance mentale consacrée à l'interaction avec les éléments du monde. L'usage continuel de la magie s'apparente au fait de soulever et de maintenir constamment de lourds poids, et l'on finit toujours par trouver ses capacités épuisées. La pratique permet de bâtir des réserves de mana plus importantes, et certaines runes et certains sorts peuvent progressivement constituer des réserves supplémentaires à invoquer au besoin.
 
-Magical runes and items are imbued with an attachment to certain elemental threads. This requires delicate work by experienced and gifted enchanters. The most intricate of magical artifacts demand many years of work, using intense mental effort to permanently attune the core materials to the right elemental energies. Gemstones are especially easy to work with in this craft, and alchemists use them often to bring about elemental effects.
+Les runes et objets magiques sont imprégnés d'un lien avec certains fils élémentaires. Cela exige un travail délicat de la part d'enchanteurs expérimentés et doués. Les plus complexes des artefacts magiques exigent de nombreuses années de labeur, usant d'un intense effort mental pour accorder de façon permanente les matériaux fondamentaux aux bonnes énergies élémentaires. Les pierres précieuses se prêtent particulièrement bien à ce travail, et les alchimistes les emploient souvent pour produire des effets élémentaires.
 
-Some believe that magic is inherently wrong, that the so-called twisting of the elements with one's will can only lead to terrible things. As students of Angolwen I assume you disagree! Magic is simply an extension of the forces of nature, and are we not natural creatures that use it? But remember that magic is still a powerful force that can be used for good or ill. Magic is indeed a tool of immense value - use it wisely.
+D'aucuns croient que la magie est intrinsèquement mauvaise, que cette prétendue altération des éléments par la volonté ne peut mener qu'à des choses terribles. En tant qu'élèves d'Angolwen, je présume que vous n'en croyez rien ! La magie n'est qu'une extension des forces de la nature, et ne sommes-nous point des créatures naturelles qui l'emploient ? Mais souvenez-vous que la magie demeure une force puissante, pouvant servir le bien comme le mal. La magie est en vérité un outil d'une immense valeur - usez-en avec sagesse.
 ]], "_t")
-t("The spellblade", "The spellblade", "_t")
+t("The spellblade", "La Lame Arcanique", "_t")
 t([[From the desk of Archmage Varil,
 Another day dawns on Angolwen. I hesitate to write this, but it almost feels as if peace is once again returning to Eyal. Saying this, I almost expect war and destruction to erupt immediately - fate is anything if not spiteful. Regardless, my sleep grows less disturbed by my memories of the Spellhunt day by day, and I can now devote myself wholly to the betterment of our cloistered community here in the mountains.
 
 This is not to say that life has been without conflict at all. An agent of the Ziguranth infiltrated Angolwen under the guise of a travelling alchemist a few days ago; an unhappy first, I'm afraid. Having used choking powder to incapacitate the guards and rob the surrounding mages of their voices, things may have turned ugly if Linaniil hadn't been passing by on one of her walks. Little was left of that man... or the tree he hid behind... or many of the surrounding buildings, to be honest.
 
-In a way, the incident lit a fire under me to pursue my studies and develop my powers, but I must admit that my interest in staff practice has waned as of late. My fencing, on the other hand, improves by the day. Hmm... I wonder if I can get some of the enchanters to help me "augment" my old sword. After all, what is a blade but a sharpened metal staff?]], [[From the desk of Archmage Varil,
-Another day dawns on Angolwen. I hesitate to write this, but it almost feels as if peace is once again returning to Eyal. Saying this, I almost expect war and destruction to erupt immediately - fate is anything if not spiteful. Regardless, my sleep grows less disturbed by my memories of the Spellhunt day by day, and I can now devote myself wholly to the betterment of our cloistered community here in the mountains.
+In a way, the incident lit a fire under me to pursue my studies and develop my powers, but I must admit that my interest in staff practice has waned as of late. My fencing, on the other hand, improves by the day. Hmm... I wonder if I can get some of the enchanters to help me "augment" my old sword. After all, what is a blade but a sharpened metal staff?]], [[Du bureau de l'Archimage Varil,
 
-This is not to say that life has been without conflict at all. An agent of the Ziguranth infiltrated Angolwen under the guise of a travelling alchemist a few days ago; an unhappy first, I'm afraid. Having used choking powder to incapacitate the guards and rob the surrounding mages of their voices, things may have turned ugly if Linaniil hadn't been passing by on one of her walks. Little was left of that man... or the tree he hid behind... or many of the surrounding buildings, to be honest.
+Un nouveau jour se lève sur Angolwen. J'hésite à l'écrire, mais j'ai presque l'impression que la paix revient une fois de plus sur Eyal. En disant cela, je m'attends presque à voir la guerre et la destruction éclater aussitôt - le destin n'est rien s'il n'est pas malveillant. Quoi qu'il en soit, mon sommeil est chaque jour un peu moins troublé par mes souvenirs de la Purge Arcanique, et je peux désormais me consacrer entièrement à l'amélioration de notre communauté recluse, ici dans les montagnes.
 
-In a way, the incident lit a fire under me to pursue my studies and develop my powers, but I must admit that my interest in staff practice has waned as of late. My fencing, on the other hand, improves by the day. Hmm... I wonder if I can get some of the enchanters to help me "augment" my old sword. After all, what is a blade but a sharpened metal staff?]], "_t")
-t("Angolwen Fountain", "Angolwen Fountain", "_t")
+Cela ne veut pas dire que la vie a été exempte de tout conflit. Un agent des Zigurantes s'est infiltré à Angolwen sous les traits d'un alchimiste itinérant, il y a quelques jours ; une première malheureuse, je le crains. Après avoir usé d'une poudre suffocante pour neutraliser les gardes et priver de voix les mages alentour, les choses auraient pu très mal tourner si Linaniil n'était pas passée par là lors d'une de ses promenades. Il ne resta que peu de choses de cet homme... ni de l'arbre derrière lequel il se cachait... ni de bien des bâtiments environnants, à vrai dire.
+
+D'une certaine manière, cet incident a ravivé mon ardeur à poursuivre mes études et développer mes pouvoirs, mais je dois avouer que mon intérêt pour la pratique du bâton s'est quelque peu émoussé ces derniers temps. Mon escrime, en revanche, s'améliore de jour en jour. Hmm... Je me demande si je pourrais convaincre quelques enchanteurs de m'aider à "renforcer" ma vieille épée. Après tout, qu'est-ce qu'une lame, sinon un bâton de métal aiguisé ?]], "_t")
+t("Angolwen Fountain", "Fontaine d'Angolwen", "_t")
 t([[#{italic}#(You see here a large, elaborate fountain.  A statue of Linaniil stands in the center, her arms outstretched to welcome all; around the outside of the fountain stand statues of a dwarf manipulating earthen runes, a human with a simple healer's crosier, an elf with a tall, elaborate staff, and a halfling with a scepter in one hand and a fireball hovering over the other.  The runes and the fireball are not connected to anything, and float in a fixed position in the air.  You see a carving repeating along the border of the fountain, in small print.)#{normal}#
 
 ALL ARE WELCOME WHO LEARN FROM THE MISTAKES OF THE PAST
@@ -12288,30 +12277,29 @@ MAY WE HAVE THE WISDOM TO ONE DAY REUNITE THE WORLD IN SAFETY AND ENLIGHTENMENT
 
 ALL ARE WELCOME WHO PREVENT THE THREATS OF THE FUTURE
 
-GATHER HERE IN PEACE TO DISCOVER AND PERFECT THE KNOWLEDGE OF HOW, AND WHEN, TO WEAVE THE WORLD'S FABRIC]], [[#{italic}#(You see here a large, elaborate fountain.  A statue of Linaniil stands in the center, her arms outstretched to welcome all; around the outside of the fountain stand statues of a dwarf manipulating earthen runes, a human with a simple healer's crosier, an elf with a tall, elaborate staff, and a halfling with a scepter in one hand and a fireball hovering over the other.  The runes and the fireball are not connected to anything, and float in a fixed position in the air.  You see a carving repeating along the border of the fountain, in small print.)#{normal}#
+GATHER HERE IN PEACE TO DISCOVER AND PERFECT THE KNOWLEDGE OF HOW, AND WHEN, TO WEAVE THE WORLD'S FABRIC]], [[#{italic}#(Vous voyez ici une fontaine vaste et ornée. Une statue de Linaniil se dresse en son centre, les bras tendus en signe d'accueil pour tous ; tout autour de la fontaine se dressent des statues représentant un nain manipulant des runes terrestres, un humain portant une simple crosse de guérisseur, un elfe muni d'un long bâton richement orné, et un halfelin tenant un sceptre d'une main tandis qu'une boule de feu flotte au-dessus de l'autre. Les runes et la boule de feu ne sont reliées à rien, et flottent, immobiles, dans les airs. Vous distinguez une inscription gravée, répétée le long du pourtour de la fontaine, en petits caractères.)#{normal}#
 
-ALL ARE WELCOME WHO LEARN FROM THE MISTAKES OF THE PAST
+BIENVENUE À TOUS CEUX QUI TIRENT LEÇON DES ERREURS DU PASSÉ
 
-LET THE ARCANE ONCE MORE BE A BOON AND NOT A BANE TO MAJ'EYAL
+QUE L'ARCANE REDEVIENNE UNE BÉNÉDICTION ET NON UN FLÉAU POUR MAJ'EYAL
 
-ALL ARE WELCOME WHO EASE THE SUFFERING OF THE PRESENT
+BIENVENUE À TOUS CEUX QUI APAISENT LES SOUFFRANCES DU PRÉSENT
 
-MAY WE HAVE THE WISDOM TO ONE DAY REUNITE THE WORLD IN SAFETY AND ENLIGHTENMENT
+PUISSIONS-NOUS AVOIR LA SAGESSE DE RÉUNIR UN JOUR LE MONDE DANS LA SÛRETÉ ET LA LUMIÈRE
 
-ALL ARE WELCOME WHO PREVENT THE THREATS OF THE FUTURE
+BIENVENUE À TOUS CEUX QUI PRÉVIENNENT LES MENACES DE L'AVENIR
 
-GATHER HERE IN PEACE TO DISCOVER AND PERFECT THE KNOWLEDGE OF HOW, AND WHEN, TO WEAVE THE WORLD'S FABRIC]], "_t")
+RASSEMBLEZ-VOUS ICI EN PAIX POUR DÉCOUVRIR ET PARFAIRE LE SAVOIR DE COMMENT, ET QUAND, TISSER LA TRAME DU MONDE]], "_t")
+-- texte non traduit
+--[==[
+t("angolwen", "angolwen", "newLore category")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/lore/ardhungol.lua"
 
-t("scrap of paper", "morceau de papier", "_t")
--- texte non traduit
---[==[
-t("ardhungol", "ardhungol", "newLore category")
-t("Rashim Journal (1)", "Rashim Journal (1)", "_t")
+t("Rashim Journal (1)", "Journal de Rashim (1)", "_t")
 t([[#{bold}#Journal Entry I#{normal}#
 
 It's been some time since High Sun Paladin Aeryn sent me out on an assignment. According to recent intelligence, it would seem that a cavern has mysteriously emerged near our outpost, the Gates of Morning. They have bestowed the name "Ardhungol" on the newly discovered cavern. The elder warriors seem anxious in regards to the origin of this new subterranean area; they're likely concerned that the orcs are using Ardhungol as a staging point for further aggression against the Gates of Morning. I'll have to make sure I'm well equipped for this journey; the fate of us all could hang in the balance.
@@ -12319,15 +12307,15 @@ It's been some time since High Sun Paladin Aeryn sent me out on an assignment. A
 #{bold}#Journal Entry II#{normal}#
 
 I spoke with the border patrols tonight. There seem to have been several sightings of orcs and other wild beasts roaming throughout the wilderness, yet strangely enough, none seem to have been anywhere near Ardhungol. Perhaps the subterranean cavern was simply a natural phenomenon with unfortunate timing. It's either that, or an unknown force powerful enough to alter the very foundation of the land upon its arrival. I shudder at the latter thought, but for now this is all merely speculation. If all goes well, I'll be ready to depart by dawn.
-]], [[#{bold}#Journal Entry I#{normal}#
+]], [[#{bold}#Entrée I du Journal#{normal}#
 
-It's been some time since High Sun Paladin Aeryn sent me out on an assignment. According to recent intelligence, it would seem that a cavern has mysteriously emerged near our outpost, the Gates of Morning. They have bestowed the name "Ardhungol" on the newly discovered cavern. The elder warriors seem anxious in regards to the origin of this new subterranean area; they're likely concerned that the orcs are using Ardhungol as a staging point for further aggression against the Gates of Morning. I'll have to make sure I'm well equipped for this journey; the fate of us all could hang in the balance.
+Cela fait un moment que la Haute Paladine Solaire Aeryn m'a envoyé en mission. Selon des renseignements récents, il semblerait qu'une caverne ait mystérieusement émergé près de notre avant-poste, les Portes du Matin. On a donné à cette nouvelle caverne le nom d'"Ardhungol". Les guerriers les plus anciens semblent inquiets quant à l'origine de cette nouvelle zone souterraine ; ils craignent sans doute que les orcs n'utilisent Ardhungol comme point de rassemblement pour de nouvelles agressions contre les Portes du Matin. Je devrai m'assurer d'être bien équipé pour ce voyage ; le sort de tous pourrait en dépendre.
 
-#{bold}#Journal Entry II#{normal}#
+#{bold}#Entrée II du Journal#{normal}#
 
-I spoke with the border patrols tonight. There seem to have been several sightings of orcs and other wild beasts roaming throughout the wilderness, yet strangely enough, none seem to have been anywhere near Ardhungol. Perhaps the subterranean cavern was simply a natural phenomenon with unfortunate timing. It's either that, or an unknown force powerful enough to alter the very foundation of the land upon its arrival. I shudder at the latter thought, but for now this is all merely speculation. If all goes well, I'll be ready to depart by dawn.
+J'ai parlé avec les patrouilles frontalières ce soir. Il semble y avoir eu plusieurs observations d'orcs et d'autres bêtes sauvages errant à travers la nature, pourtant, chose étrange, aucune ne semble s'être approchée d'Ardhungol. Peut-être la caverne souterraine n'était-elle qu'un simple phénomène naturel survenu à un moment malheureux. C'est là une possibilité, ou alors il s'agit d'une force inconnue assez puissante pour altérer les fondations mêmes de la terre à son arrivée. Cette seconde pensée me fait frissonner, mais pour l'instant tout ceci n'est que spéculation. Si tout se passe bien, je serai prêt à partir dès l'aube.
 ]], "_t")
-t("Rashim Journal (2)", "Rashim Journal (2)", "_t")
+t("Rashim Journal (2)", "Journal de Rashim (2)", "_t")
 t([[#{bold}#Journal Entry III#{normal}#
 
 It was a half days journey from the Gates of Morning to Ardhungol, but I've finally arrived. I've decided to rest beneath the shade of a great oak tree and enjoy one of the sweet rolls my wife Melnela prepared for me. I'm unsure why, but the closer I've come to Ardhungol, the thicker the atmosphere has become, almost as if there is a foreign energy infecting the very air I breathe. I've been to many places in this vast world, but I've never felt an aura quite like this; I will have to uncover the source of this energy before I can bring a full report back to Aeryn.
@@ -12339,19 +12327,19 @@ A thick green veil of mist permeates the air within this cavern; I'm uncertain i
 #{bold}#Journal Entry V#{normal}#
 
 Impossible; how could spiders have grown to such an immense size? Not only that, but the markings and physical traits are unlike any arachnid I have previously encountered. The first one I encountered nearly took my left arm during its initial assault, if my reflexes had been a split second slower, I fear the worst may have transpired. If the Gates of Morning are assaulted by not only the orcs, but also this new –found species of arachnids, I fear all hope will be lost. For the sake of all Eyal, I must venture further into this spider infested cavern and destroy the source of this incursion.
-]], [[#{bold}#Journal Entry III#{normal}#
+]], [[#{bold}#Entrée III du Journal#{normal}#
 
-It was a half days journey from the Gates of Morning to Ardhungol, but I've finally arrived. I've decided to rest beneath the shade of a great oak tree and enjoy one of the sweet rolls my wife Melnela prepared for me. I'm unsure why, but the closer I've come to Ardhungol, the thicker the atmosphere has become, almost as if there is a foreign energy infecting the very air I breathe. I've been to many places in this vast world, but I've never felt an aura quite like this; I will have to uncover the source of this energy before I can bring a full report back to Aeryn.
+Il m'a fallu une demi-journée de voyage depuis les Portes du Matin jusqu'à Ardhungol, mais je suis enfin arrivé. J'ai décidé de me reposer à l'ombre d'un grand chêne et de savourer l'un des petits pains sucrés que mon épouse Melnela a préparés pour moi. Je ne sais pourquoi, mais plus je me suis approché d'Ardhungol, plus l'atmosphère est devenue dense, presque comme si une énergie étrangère infectait l'air même que je respire. J'ai visité bien des lieux dans ce vaste monde, mais jamais je n'ai ressenti une aura semblable à celle-ci ; je devrai découvrir la source de cette énergie avant de pouvoir présenter un rapport complet à Aeryn.
 
-#{bold}#Journal Entry IV#{normal}#
+#{bold}#Entrée IV du Journal#{normal}#
 
-A thick green veil of mist permeates the air within this cavern; I'm uncertain if this is a byproduct of whatever creatures now inhabit this place, or if it's coming directly from another source. There also seem to be arcane rifts appearing in different locations throughout the cavern, though I dare not approach them; I will leave them for our anorithils to assess after I have secured the area. I must admit, I'm not looking forward to encountering the origin of a threat this grave, yet it is my sworn duty as a Sun Paladin to face what lies ahead; even should it be my own doom.
+Un épais voile de brume verte imprègne l'air à l'intérieur de cette caverne ; je ne sais pas si c'est un sous-produit des créatures qui habitent désormais ce lieu, ou si cela provient directement d'une autre source. Il semble également apparaître des failles arcaniques en différents endroits de la caverne, bien que je n'ose m'en approcher ; je les laisserai à nos anorithils, qui les évalueront une fois que j'aurai sécurisé la zone. Je dois avouer que je n'ai guère hâte de rencontrer l'origine d'une menace aussi grave, et pourtant il est de mon devoir sacré, en tant que Paladin Solaire, d'affronter ce qui m'attend ; même si cela devait être ma propre perte.
 
-#{bold}#Journal Entry V#{normal}#
+#{bold}#Entrée V du Journal#{normal}#
 
-Impossible; how could spiders have grown to such an immense size? Not only that, but the markings and physical traits are unlike any arachnid I have previously encountered. The first one I encountered nearly took my left arm during its initial assault, if my reflexes had been a split second slower, I fear the worst may have transpired. If the Gates of Morning are assaulted by not only the orcs, but also this new –found species of arachnids, I fear all hope will be lost. For the sake of all Eyal, I must venture further into this spider infested cavern and destroy the source of this incursion.
+Impossible ; comment des araignées ont-elles pu atteindre une taille aussi immense ? Non seulement cela, mais leurs marques et leurs traits physiques ne ressemblent à aucun arachnide que j'aie rencontré auparavant. La première que j'ai affrontée a bien failli m'arracher le bras gauche lors de son premier assaut ; si mes réflexes avaient été ne serait-ce qu'une fraction de seconde plus lents, je crains que le pire ne se soit produit. Si les Portes du Matin sont assaillies non seulement par les orcs, mais aussi par cette nouvelle espèce d'arachnides, je crains que tout espoir ne soit perdu. Pour le salut de tout Eyal, je dois m'aventurer plus avant dans cette caverne infestée d'araignées et détruire la source de cette incursion.
 ]], "_t")
-t("Rashim Journal (3)", "Rashim Journal (3)", "_t")
+t("Rashim Journal (3)", "Journal de Rashim (3)", "_t")
 t([[#{bold}#Journal Entry VI#{normal}#
 
 It took some time, but my muscles have started to adapt and react to the unique movements of these arachnid. The way they fight, it's almost as if they possess a higher level of thought, elevating them far beyond the base intelligence of lesser arachnid... is it possible that they could be sentient? Do they act individually, or are they perhaps manipulated by a greater arachnid? Let us pray that this species is not connected through a hive mind, for this threat could become even greater than I had imagined.
@@ -12362,21 +12350,25 @@ I have slain dozens of these arachnids, each one seemingly more difficult than t
 
 #{bold}#Journal Entry VIII#{normal}#
 
-Incredible, the size of that arachnid is unimaginable; there is no doubt about it, that spider is the matriarch here. I am heavily wounded, but there is no turning back now; I must finish what I started for the sake of all those awaiting my return. If I don't make it back, whoever is now reading this journal, please make High Sun Paladin Aeryn at the Gates of Morning aware of the grave situation... and tell Melnela that I'm sorry.]], [[#{bold}#Journal Entry VI#{normal}#
+Incredible, the size of that arachnid is unimaginable; there is no doubt about it, that spider is the matriarch here. I am heavily wounded, but there is no turning back now; I must finish what I started for the sake of all those awaiting my return. If I don't make it back, whoever is now reading this journal, please make High Sun Paladin Aeryn at the Gates of Morning aware of the grave situation... and tell Melnela that I'm sorry.]], [[#{bold}#Entrée VI du Journal#{normal}#
 
-It took some time, but my muscles have started to adapt and react to the unique movements of these arachnid. The way they fight, it's almost as if they possess a higher level of thought, elevating them far beyond the base intelligence of lesser arachnid... is it possible that they could be sentient? Do they act individually, or are they perhaps manipulated by a greater arachnid? Let us pray that this species is not connected through a hive mind, for this threat could become even greater than I had imagined.
+Il m'a fallu du temps, mais mes muscles ont commencé à s'adapter et à réagir aux mouvements particuliers de ces arachnides. Leur manière de combattre laisse presque penser qu'ils possèdent une forme de pensée supérieure, les élevant bien au-delà de l'intelligence rudimentaire des arachnides ordinaires... se pourrait-il qu'ils soient sentients ? Agissent-ils de façon individuelle, ou sont-ils peut-être manipulés par un arachnide plus grand encore ? Prions pour que cette espèce ne soit pas reliée par un esprit de ruche, car cette menace pourrait devenir plus grande encore que je ne l'imaginais.
 
-#{bold}#Journal Entry VII#{normal}#
+#{bold}#Entrée VII du Journal#{normal}#
 
-I have slain dozens of these arachnids, each one seemingly more difficult than the last. I am unsure if this is a result of my weariness, or if they are also adapting to my movements and battle techniques. I don't see how that could be possible however, a mere spider couldn't possibly adapt to the battle techniques of a veteran Sun Paladin, it's simply not feasible. Furthermore, the origin of these spiders worries me. So far I have not found any other entrances to this cavern, meaning they were transported here via other means. Those arcane rifts I found earlier are starting to worry me, and I fear for us all when I think of what may be waiting for us beyond them. I must put these thoughts out of my mind; distractions will only serve to weaken my resolve.
+J'ai abattu des dizaines de ces arachnides, chacun semblant plus difficile à vaincre que le précédent. Je ne sais si cela résulte de ma fatigue, ou s'ils s'adaptent eux aussi à mes mouvements et à mes techniques de combat. Je ne vois pourtant pas comment cela serait possible ; une simple araignée ne saurait s'adapter aux techniques de combat d'un Paladin Solaire chevronné, cela n'a tout simplement aucun sens. De plus, l'origine de ces araignées m'inquiète. Je n'ai jusqu'ici trouvé aucune autre entrée à cette caverne, ce qui signifie qu'elles y ont été transportées par d'autres moyens. Ces failles arcaniques que j'avais découvertes plus tôt commencent à m'inquiéter sérieusement, et je crains pour nous tous en songeant à ce qui pourrait nous attendre au-delà. Je dois chasser ces pensées de mon esprit ; les distractions ne feront qu'affaiblir ma détermination.
 
-#{bold}#Journal Entry VIII#{normal}#
+#{bold}#Entrée VIII du Journal#{normal}#
 
-Incredible, the size of that arachnid is unimaginable; there is no doubt about it, that spider is the matriarch here. I am heavily wounded, but there is no turning back now; I must finish what I started for the sake of all those awaiting my return. If I don't make it back, whoever is now reading this journal, please make High Sun Paladin Aeryn at the Gates of Morning aware of the grave situation... and tell Melnela that I'm sorry.]], "_t")
+Incroyable, la taille de cet arachnide est inimaginable ; nul doute que cette araignée est la matriarche des lieux. Je suis gravement blessé, mais il n'est plus question de reculer désormais ; je dois achever ce que j'ai commencé, pour le salut de tous ceux qui attendent mon retour. Si je ne reviens pas, quiconque lira ce journal, je vous en prie, informez la Haute Paladine Solaire Aeryn, aux Portes du Matin, de la gravité de la situation... et dites à Melnela que je suis désolé.]], "_t")
+t("scrap of paper", "morceau de papier", "_t")
 t([[#{italic}#A few tattered scraps of paper lie on the ground, ruined from your fight with the creature carrying it.  It's almost completely illegible, but you can piece some of it together to read:#{normal}#
-"...pheromone signals effective on much Eyalite wildlife ineffective on species 'sun paladin.'  at current planetary core cooling rates, passive study would lead to great loss - next step of emigration program should be cleaning of local 'sun paladin' nest and establishment of..."]], [[#{italic}#A few tattered scraps of paper lie on the ground, ruined from your fight with the creature carrying it.  It's almost completely illegible, but you can piece some of it together to read:#{normal}#
-"...pheromone signals effective on much Eyalite wildlife ineffective on species 'sun paladin.'  at current planetary core cooling rates, passive study would lead to great loss - next step of emigration program should be cleaning of local 'sun paladin' nest and establishment of..."]], "_t")
-t("#{italic}#This pile of tattered paper could theoretically be assembled into something legible, but without more text to draw back on, it'd still be in a language you could never interpret.  If only you had more Spydric text to help translate this...#{normal}#", "#{italic}#This pile of tattered paper could theoretically be assembled into something legible, but without more text to draw back on, it'd still be in a language you could never interpret.  If only you had more Spydric text to help translate this...#{normal}#", "_t")
+"...pheromone signals effective on much Eyalite wildlife ineffective on species 'sun paladin.'  at current planetary core cooling rates, passive study would lead to great loss - next step of emigration program should be cleaning of local 'sun paladin' nest and establishment of..."]], [[#{italic}#Quelques morceaux de papier déchirés gisent au sol, abîmés par votre combat contre la créature qui les portait. Ils sont presque totalement illisibles, mais vous parvenez à en reconstituer une partie et à lire :#{normal}#
+"...signaux phéromonaux efficaces sur la majeure partie de la faune eyalite, inefficaces sur l'espèce 'paladin solaire'. Aux taux actuels de refroidissement du noyau planétaire, une étude passive entraînerait de lourdes pertes - la prochaine étape du programme d'émigration devrait être le nettoyage du nid local de 'paladin solaire' et l'établissement de..."]], "_t")
+t("#{italic}#This pile of tattered paper could theoretically be assembled into something legible, but without more text to draw back on, it'd still be in a language you could never interpret.  If only you had more Spydric text to help translate this...#{normal}#", "#{italic}#Cette pile de papier déchiré pourrait théoriquement être reconstituée en un texte lisible, mais sans davantage de matière sur laquelle vous appuyer, il resterait rédigé dans une langue que vous ne pourriez jamais interpréter. Si seulement vous aviez davantage de texte Spydric pour vous aider à le traduire...#{normal}#", "_t")
+-- texte non traduit
+--[==[
+t("ardhungol", "ardhungol", "newLore category")
 --]==]
 
 
@@ -12384,9 +12376,6 @@ t("#{italic}#This pile of tattered paper could theoretically be assembled into s
 section "mod-tome/data/lore/arena.lua"
 
 t("Arena for dummies", "L'arène pour les nuls", "_t")
--- texte non traduit
---[==[
-t("arena", "arena", "newLore category")
 t([[#{italic}#You find a note with some highlighted words...
 #{bold}#SCORING IN THE ARENA
 
@@ -12403,40 +12392,37 @@ Every few rounds, a miniboss round will come. After two miniboss rounds, one out
 #YELLOW#Kill enemies fast to get better scores!
 #YELLOW#Take advantage of the trap at the center of the arena!
 Good luck!
-]], [[#{italic}#You find a note with some highlighted words...
-#{bold}#SCORING IN THE ARENA
+]], [[#{italic}#Vous trouvez une note avec quelques mots surlignés...
+#{bold}#SCORE DANS L'ARÈNE
 
-#{normal}#The rules of the arena are simple.
-Every wave, the gates will open, releasing enemies. When the gates close, you will be given a bonus score.
-The bonus will #YELLOW#decrease every turn #LAST#, but #YELLOW#enemies you kill at this point#LAST#, will
-raise your bonus. When you defeat all enemies, you will be granted your bonus score, multiplied by
-your bonus multiplier.
+#{normal}#Les règles de l'arène sont simples.
+À chaque vague, les portes s'ouvriront, libérant des ennemis. Lorsque les portes se refermeront, vous recevrez un score bonus.
+Le bonus #YELLOW#diminuera à chaque tour#LAST#, mais #YELLOW#les ennemis que vous tuerez à ce moment-là#LAST# augmenteront votre bonus.
+Lorsque vous vaincrez tous les ennemis, vous recevrez votre score bonus, multiplié par votre multiplicateur de bonus.
 
-Every few rounds, a miniboss round will come. After two miniboss rounds, one out of four bosses will appear.
-#YELLOW#Kill enemies before the gates close #LAST#to raise your score multiplier!.
-#YELLOW#Kill several enemies at once or very strong enemies #LAST#to please the audience and increase your rank!.
-#YELLOW#Collect gold #LAST#to increase your score and resources at the end of each round.
-#YELLOW#Kill enemies fast to get better scores!
-#YELLOW#Take advantage of the trap at the center of the arena!
-Good luck!
+Toutes les quelques rondes, une ronde de mini-boss surviendra. Après deux rondes de mini-boss, l'un des quatre boss apparaîtra.
+#YELLOW#Tuez les ennemis avant que les portes ne se referment #LAST#pour augmenter votre multiplicateur de score !
+#YELLOW#Tuez plusieurs ennemis à la fois ou des ennemis très puissants #LAST#pour plaire au public et augmenter votre rang !
+#YELLOW#Récoltez de l'or #LAST#pour augmenter votre score et vos ressources à la fin de chaque ronde.
+#YELLOW#Tuez les ennemis rapidement pour obtenir de meilleurs scores !
+#YELLOW#Profitez du piège au centre de l'arène !
+Bonne chance !
 ]], "_t")
+-- texte non traduit
+--[==[
+t("arena", "arena", "newLore category")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/lore/blighted-ruins.lua"
 
-
--- texte non traduit
---[==[
-t("blighted ruins", "blighted ruins", "newLore category")
-t("note from the Necromancer", "note from the Necromancer", "_t")
-t("Work on my glorious project has been delayed. This displeases me. The fools from the nearby village are starting to suspect my presence, and have begun guarding their graveyards and cemeteries closely. Whatever meagre remains I can steal away are often too rotted or insubstantial to use for my project, so I have no choice but to use them as sub-par minions instead. Perhaps they will sow enough conflict and discord so that new, fresher remains will become available...", "Work on my glorious project has been delayed. This displeases me. The fools from the nearby village are starting to suspect my presence, and have begun guarding their graveyards and cemeteries closely. Whatever meagre remains I can steal away are often too rotted or insubstantial to use for my project, so I have no choice but to use them as sub-par minions instead. Perhaps they will sow enough conflict and discord so that new, fresher remains will become available...", "_t")
-t("The cloak of deception is complete! Truly my finest work, not counting my project of course, it allows my minions to walk amongst the living without arousing their suspicions at all. Already I have taken a stroll to a nearby town alongside a ghoulish thrall, wrapped in the cloak... hah! The fools didn't even bat an eyelid! With this item, acquisition of components for my project shall be all the more simple.", "The cloak of deception is complete! Truly my finest work, not counting my project of course, it allows my minions to walk amongst the living without arousing their suspicions at all. Already I have taken a stroll to a nearby town alongside a ghoulish thrall, wrapped in the cloak... hah! The fools didn't even bat an eyelid! With this item, acquisition of components for my project shall be all the more simple.", "_t")
-t("Fate smiles upon me. What did I come across today but the body of an unfortunate %s? Unfortunate indeed, but rather fortunate for me. The body displays next to no decomposition... it shall be perfect! With this new minion and the cloak of deception, the completion of my project is all but assured. I must prepare for the ritual... my dark menagerie shall soon have a new member.", "Fate smiles upon me. What did I come across today but the body of an unfortunate %s? Unfortunate indeed, but rather fortunate for me. The body displays next to no decomposition... it shall be perfect! With this new minion and the cloak of deception, the completion of my project is all but assured. I must prepare for the ritual... my dark menagerie shall soon have a new member.", "tformat")
-t("My masterpiece walks! It is glorious, beautiful. While it remains unfinished, it is finished enough to serve in its purpose of protecting my lair. No would-be hero will be able to defeat it, and once it is complete it will be nigh invulnerable! Now all that remains is to animate my newest minion and bend it to my will... then they'll see. They'll ALL see. What can possibly stop me now, I ask? What?!", "My masterpiece walks! It is glorious, beautiful. While it remains unfinished, it is finished enough to serve in its purpose of protecting my lair. No would-be hero will be able to defeat it, and once it is complete it will be nigh invulnerable! Now all that remains is to animate my newest minion and bend it to my will... then they'll see. They'll ALL see. What can possibly stop me now, I ask? What?!", "_t")
---]==]
-
+t("blighted ruins", "ruines fléautées", "newLore category")
+t("note from the Necromancer", "note du Nécromancien", "_t")
+t("Work on my glorious project has been delayed. This displeases me. The fools from the nearby village are starting to suspect my presence, and have begun guarding their graveyards and cemeteries closely. Whatever meagre remains I can steal away are often too rotted or insubstantial to use for my project, so I have no choice but to use them as sub-par minions instead. Perhaps they will sow enough conflict and discord so that new, fresher remains will become available...", "Le travail sur mon glorieux projet a pris du retard. Cela me déplaît. Les imbéciles du village voisin commencent à soupçonner ma présence, et se sont mis à surveiller étroitement leurs nécropoles et cimetières. Les maigres restes que je parviens à dérober sont bien souvent trop putréfiés ou trop insubstantiels pour servir à mon projet, aussi n'ai-je d'autre choix que de les employer comme sbires de second ordre. Peut-être sèmeront-ils assez de conflit et de discorde pour que de nouveaux restes, plus frais, deviennent disponibles...", "_t")
+t("The cloak of deception is complete! Truly my finest work, not counting my project of course, it allows my minions to walk amongst the living without arousing their suspicions at all. Already I have taken a stroll to a nearby town alongside a ghoulish thrall, wrapped in the cloak... hah! The fools didn't even bat an eyelid! With this item, acquisition of components for my project shall be all the more simple.", "La cape de supercherie est achevée ! Assurément mon plus bel ouvrage, mon grand projet mis à part, elle permet à mes sbires de marcher parmi les vivants sans éveiller le moindre soupçon. Je me suis déjà rendu dans une ville voisine, accompagné d'un thrall goule enveloppé dans la cape... hah ! Ces imbéciles n'ont même pas cillé ! Grâce à cet objet, l'acquisition des composants pour mon projet n'en sera que plus aisée.", "_t")
+t("Fate smiles upon me. What did I come across today but the body of an unfortunate %s? Unfortunate indeed, but rather fortunate for me. The body displays next to no decomposition... it shall be perfect! With this new minion and the cloak of deception, the completion of my project is all but assured. I must prepare for the ritual... my dark menagerie shall soon have a new member.", "Le destin me sourit. Que n'ai-je découvert aujourd'hui, sinon le corps d'un malheureux %s ? Malheureux, certes, mais fort chanceux pour moi. Le corps ne présente presque aucune décomposition... il sera parfait ! Avec ce nouveau sbire et la cape de supercherie, l'achèvement de mon projet est quasiment assuré. Je dois me préparer pour le rituel... ma sombre ménagerie comptera bientôt un nouveau membre.", "tformat")
+t("My masterpiece walks! It is glorious, beautiful. While it remains unfinished, it is finished enough to serve in its purpose of protecting my lair. No would-be hero will be able to defeat it, and once it is complete it will be nigh invulnerable! Now all that remains is to animate my newest minion and bend it to my will... then they'll see. They'll ALL see. What can possibly stop me now, I ask? What?!", "Mon chef-d'oeuvre marche ! Il est glorieux, magnifique. Bien qu'inachevé, il l'est suffisamment pour remplir son rôle de protection de mon antre. Nul prétendu héros ne saura le vaincre, et une fois achevé, il sera pratiquement invulnérable ! Il ne me reste plus qu'à animer mon tout nouveau sbire et à le plier à ma volonté... alors ils verront. Ils verront TOUS. Qu'est-ce qui pourrait bien m'arrêter à présent, je vous le demande ? Quoi donc ?!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/daikara.lua"
@@ -15538,11 +15524,8 @@ The joke was over
 ------------------------------------------------
 section "mod-tome/data/lore/maze.lua"
 
-t("the perfect killing device", "le parfait dispositif pour tuer", "_t")
--- texte non traduit
---[==[
-t("maze", "maze", "newLore category")
-t("diary (the maze)", "diary (the maze)", "_t")
+t("maze", "labyrinthe", "newLore category")
+t("diary (the maze)", "journal (le labyrinthe)", "_t")
 t([[Dear diary,
 
 Lessons are off this week as my tutor has fallen ill, so I've decided to sneak out and have a wander round the old mazed ruins nearby. I know I'll get in trouble if I'm caught, but as long as I'm back in a couple of days no one will notice... Besides, I get so bored cooped up in those mountains! I want some fun!
@@ -15550,27 +15533,27 @@ Lessons are off this week as my tutor has fallen ill, so I've decided to sneak o
 This is rather a dirty place though. I've come across a few bandits and snakes in here, but nothing to threaten a grade 3 mage like me.
 
 I remember hearing that this labyrinth used to be a prison used by the halfling king Roupar during the Age of Dusk, and that with the lawlessness of the time captives were simply sent here to rot. Some say a magical curse infected the place and turned them into bull-like monsters that patrol the halls to this day. How exciting!!
-]], [[Dear diary,
+]], [[Cher journal,
 
-Lessons are off this week as my tutor has fallen ill, so I've decided to sneak out and have a wander round the old mazed ruins nearby. I know I'll get in trouble if I'm caught, but as long as I'm back in a couple of days no one will notice... Besides, I get so bored cooped up in those mountains! I want some fun!
+Les cours sont suspendus cette semaine car mon tuteur est tombé malade. J'ai donc décidé de m'éclipser pour explorer les vieilles ruines labyrinthiques des environs. Je sais que j'aurai des ennuis si on me surprend, mais tant que je rentre dans quelques jours personne ne s'en apercevra... De plus je m'ennuie tellement, coincée dans ces montagnes ! J'ai besoin de m'amuser un peu !
 
-This is rather a dirty place though. I've come across a few bandits and snakes in here, but nothing to threaten a grade 3 mage like me.
+Cet endroit est plutôt sale, cela dit. J'ai croisé quelques bandits et serpents ici, mais rien qui ne menace une mage de 3e rang comme moi.
 
-I remember hearing that this labyrinth used to be a prison used by the halfling king Roupar during the Age of Dusk, and that with the lawlessness of the time captives were simply sent here to rot. Some say a magical curse infected the place and turned them into bull-like monsters that patrol the halls to this day. How exciting!!
-]], "_t")
+Je me souviens avoir entendu dire que ce labyrinthe servait autrefois de prison au roi halfelin Roupar, durant l'Âge du Crépuscule, et que dans l'anarchie de cette époque les prisonniers étaient simplement envoyés ici pour y pourrir. Certains disent qu'une malédiction magique a infecté les lieux, transformant ces prisonniers en monstres semblables à des taureaux qui patrouillent encore les couloirs aujourd'hui. Comme c'est excitant !!]], "_t")
 t([[I'm having so much fun! Probability Travel is making this little trip a breeze. And you should have seen the look on that bandit's face when I came out one wall, disappeared through another, and came around behind him! Hee hee hee...
 
 I still remember Archmage Tarelion's lecture about the spell - "Probability effects can be employed for ease of use, but beware thee of relying on them. With ease of use comes ease of mind and a weakening of one's will and concentration. Soon one will find oneself in a situation of risk, bereft of normal judgement of danger, and low on the mental resources to save onself. Heed thee well." Bah, what tosh!!! How dumb does he really think I am?!
 
 Besides, I'm enjoying myself - I'm having an adventure!!
 
-I saw something! I don't know what it was... but it was big and shadowy! But when I tried chasing it I got lost... Um, maybe I just imagined it? No, I'm sure it must be something cool and exciting, I just have to keep exploring!]], [[I'm having so much fun! Probability Travel is making this little trip a breeze. And you should have seen the look on that bandit's face when I came out one wall, disappeared through another, and came around behind him! Hee hee hee...
+I saw something! I don't know what it was... but it was big and shadowy! But when I tried chasing it I got lost... Um, maybe I just imagined it? No, I'm sure it must be something cool and exciting, I just have to keep exploring!]], [[Je m'amuse tellement ! Le sort de Voyage Probabiliste rend ce petit périple d'une facilité incroyable. Et vous auriez dû voir le visage de ce bandit quand je suis sortie d'un mur, que j'ai disparu dans un autre, et que je suis réapparue juste derrière lui ! Hi hi hi...
 
-I still remember Archmage Tarelion's lecture about the spell - "Probability effects can be employed for ease of use, but beware thee of relying on them. With ease of use comes ease of mind and a weakening of one's will and concentration. Soon one will find oneself in a situation of risk, bereft of normal judgement of danger, and low on the mental resources to save onself. Heed thee well." Bah, what tosh!!! How dumb does he really think I am?!
+Je me souviens encore du discours de l'Archimage Tarelion sur ce sort : "Les effets de probabilité peuvent être employés pour faciliter les déplacements, mais prenez garde à ne pas trop en dépendre. Avec la facilité vient la complaisance, et un affaiblissement de la volonté et de la concentration. On se retrouvera bientôt dans une situation à risque, dépourvu du jugement normal face au danger, et avec trop peu de ressources mentales pour se sauver soi-même. Sois sur tes gardes." Pff, quelle bêtise ! Me croit-il donc si sotte ?
 
-Besides, I'm enjoying myself - I'm having an adventure!!
+De toute façon, je m'amuse — je vis une aventure !!
 
-I saw something! I don't know what it was... but it was big and shadowy! But when I tried chasing it I got lost... Um, maybe I just imagined it? No, I'm sure it must be something cool and exciting, I just have to keep exploring!]], "_t")
+J'ai vu quelque chose ! Je ne sais pas ce que c'était... mais c'était grand et ténébreux ! Mais en essayant de le poursuivre, je me suis perdue... Hum, peut-être l'ai-je simplement imaginé ? Non, je suis sûre que c'est quelque chose de génial et d'excitant, il faut juste que je continue à explorer !]], "_t")
+t("the perfect killing device", "le parfait dispositif pour tuer", "_t")
 t([[I have now devised the perfect trap for the horned beast that walks these halls! Truly he cannot avoid this amazing contraption - the perfect blend of technical mastery and nature's lethal gifts. Ah, how I look forward to having that monster's head mounted on my walls - it shall be the pride of my collection!
 
 The contraption is elegant and simple, though many months I have spent getting the formula perfect. There are two vials attached together - one containing finely ground hemlock, the other containing a carefully prepared zinc compound. When the vials are broken the materials react with the air and pump out an amazing cloud of poisonous vapour! The poison is supremely effective, killing within minutes. All I have to do is carefully hide the vials beneath a thin piece of slate and wait for my prey to step upon the trap - then POOF, it's dead!
@@ -15583,21 +15566,19 @@ I seem to have misplaced one though... I'm sure it must be close by.
 No, NO! I have - I --- acci--- pain, such pa--______
 
 
-#{italic}#You find a dusty case filled with many small vials of powder. They seem serviceable.#{normal}#]], [[I have now devised the perfect trap for the horned beast that walks these halls! Truly he cannot avoid this amazing contraption - the perfect blend of technical mastery and nature's lethal gifts. Ah, how I look forward to having that monster's head mounted on my walls - it shall be the pride of my collection!
+#{italic}#You find a dusty case filled with many small vials of powder. They seem serviceable.#{normal}#]], [[J'ai désormais conçu le piège parfait pour la bête cornue qui hante ces couloirs ! En vérité, elle ne pourra échapper à cette ingénieuse machination — le mélange idéal entre maîtrise technique et les dons mortels de la nature. Ah, comme j'attends avec impatience le jour où la tête de ce monstre ornera mes murs — elle sera la fierté de ma collection !
 
-The contraption is elegant and simple, though many months I have spent getting the formula perfect. There are two vials attached together - one containing finely ground hemlock, the other containing a carefully prepared zinc compound. When the vials are broken the materials react with the air and pump out an amazing cloud of poisonous vapour! The poison is supremely effective, killing within minutes. All I have to do is carefully hide the vials beneath a thin piece of slate and wait for my prey to step upon the trap - then POOF, it's dead!
+Le dispositif est élégant et simple, bien que j'aie passé de nombreux mois à en perfectionner la formule. Il se compose de deux fioles reliées entre elles : l'une contenant de la ciguë finement broyée, l'autre un composé de zinc soigneusement préparé. Lorsque les fioles se brisent, les substances réagissent à l'air et libèrent un impressionnant nuage de vapeur empoisonnée ! Le poison est extrêmement efficace et tue en quelques minutes. Il me suffit de cacher soigneusement les fioles sous une fine plaque d'ardoise et d'attendre que ma proie marche sur le piège — et alors, POUF, elle est morte !
 
-I have prepared a great many vials to last me throughout the hunting season. By this time next year I will have a trophy collection to match the kings!
+J'ai préparé un grand nombre de fioles pour toute la saison de chasse. À cette époque l'année prochaine, j'aurai une collection de trophées digne des rois !
 
-I seem to have misplaced one though... I'm sure it must be close by.
-
-
-No, NO! I have - I --- acci--- pain, such pa--______
+Il semblerait toutefois que j'en aie égaré une... Elle doit certainement être tout près.
 
 
-#{italic}#You find a dusty case filled with many small vials of powder. They seem serviceable.#{normal}#]], "_t")
---]==]
+Non, NON ! J'ai - J' --- accide--- douleur, tant de doul--______
 
+
+#{italic}#Vous trouvez une caisse poussiéreuse remplie de plusieurs petites fioles de poudre. Elles semblent utilisables.#{normal}#]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/misc.lua"
@@ -37834,7 +37815,7 @@ section "mod-tome/data/zones/maze/objects.lua"
 
 t("torn diary page", "page de journal déchirée", "entity name")
 t("A diary, left by an adventurer.", "Un journal laissé par un aventurier.", "_t")
-t("the perfect killing device", "le dispositif parfait pour tuer", "entity name")
+t("the perfect killing device", "le parfait dispositif pour tuer", "entity name")
 t("Some notes describing how to create poison gas traps, left by an unfortunate rogue.", "Quelques notes décrivant comment fabriquer des pièges à gaz toxique, laissées par un brigant malchanceux.", "_t")
 
 ------------------------------------------------
