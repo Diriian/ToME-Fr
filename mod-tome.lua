@@ -3242,7 +3242,7 @@ t("#LIGHT_GREEN#[Continue...]#WHITE#", "#LIGHT_GREEN#[à suivre...]#WHITE#", "_t
 ------------------------------------------------
 section "mod-tome/data/chats/melinda-fortress.lua"
 
-t("Hi, sweety!", "Salut, mon sucre !", "_t")
+t("Hi, sweety!", "Salut, mon sucre d'orge !", "_t")
 t("#LIGHT_GREEN#[kiss her]#WHITE#", "#LIGHT_GREEN#[l'embrasser]#WHITE#", "_t")
 t("Are you settling in fine?", "Vous êtes bien installé ?", "_t")
 t("I want to open my own little shop in Derth?", "Je veux ouvrir mon propre petit magasin à Derth ?", "_t")
@@ -22229,16 +22229,14 @@ t([[Draw on the wounds of enemies within range 10, healing yourself and putting 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/cursed-aura.lua"
 
+t("Defiling Touch", "Toucher Profanateur", "talent name")
 t("curse", "malédiction", "_t")
--- texte non traduit
---[==[
-t("Defiling Touch", "Defiling Touch", "talent name")
-t("Cursed Fate", "Cursed Fate", "_t")
-t("The %s lying nearby catches your attention. What draws you to it is not the thing itself, but something burning inside you. You feel contempt for it and all worldly things. This feeling is not new but the power of it overwhelms you. You reach out to touch the object, to curse it, to defile it. And you notice it begin to change. The colors of it begin to fade and are replaced with an insatiable hate. For a moment you hesitate. You know you must choose to resist this manifestation of your curse now and forever, or fall further into your madness.", "The %s lying nearby catches your attention. What draws you to it is not the thing itself, but something burning inside you. You feel contempt for it and all worldly things. This feeling is not new but the power of it overwhelms you. You reach out to touch the object, to curse it, to defile it. And you notice it begin to change. The colors of it begin to fade and are replaced with an insatiable hate. For a moment you hesitate. You know you must choose to resist this manifestation of your curse now and forever, or fall further into your madness.", "tformat")
-t("The %s lies defiled at your feet. An aura of hatred surrounds you and you now feel truly cursed. You have gained the Cursed Aura talent tree and 1 point in Defiling Touch, but at the cost of 2 Willpower.", "The %s lies defiled at your feet. An aura of hatred surrounds you and you now feel truly cursed. You have gained the Cursed Aura talent tree and 1 point in Defiling Touch, but at the cost of 2 Willpower.", "tformat")
-t("The %s returns to normal and your hate subsides.", "The %s returns to normal and your hate subsides.", "tformat")
-t("Release your hate upon the object", "Release your hate upon the object", "_t")
-t("Suppress your affliction", "Suppress your affliction", "_t")
+t("Cursed Fate", "Destin Maudit", "_t")
+t("The %s lying nearby catches your attention. What draws you to it is not the thing itself, but something burning inside you. You feel contempt for it and all worldly things. This feeling is not new but the power of it overwhelms you. You reach out to touch the object, to curse it, to defile it. And you notice it begin to change. The colors of it begin to fade and are replaced with an insatiable hate. For a moment you hesitate. You know you must choose to resist this manifestation of your curse now and forever, or fall further into your madness.", "L'objet %s situé à proximité attire votre attention. Ce qui vous attire n'est pas l'objet en lui-même, mais quelque chose qui brûle en vous. Vous éprouvez du mépris pour lui et pour toutes les choses de ce monde. Ce sentiment n'est pas nouveau, mais sa puissance vous submerge. Vous tendez la main pour toucher l'objet, pour le maudire, pour le profaner. Et vous remarquez qu'il commence à changer. Ses couleurs s'estompent, remplacées par une haine insatiable. Un instant, vous hésitez. Vous savez que vous devez choisir de résister à cette manifestation de votre malédiction dès maintenant et pour toujours, ou sombrer plus profondément dans la folie.", "tformat")
+t("The %s lies defiled at your feet. An aura of hatred surrounds you and you now feel truly cursed. You have gained the Cursed Aura talent tree and 1 point in Defiling Touch, but at the cost of 2 Willpower.", "L'%s gît profané à vos pieds. Une aura de haine vous enveloppe et vous vous sentez désormais véritablement maudit. Vous avez obtenu l'arbre de talents Aura Maudite et 1 point dans Toucher Profanateur, mais au prix de -2 en Volonté.", "tformat")
+t("The %s returns to normal and your hate subsides.", "L'%s retourne à la normale et votre haine s'apaise.", "tformat")
+t("Release your hate upon the object", "Libérer votre haine sur l'objet", "_t")
+t("Suppress your affliction", "Réprimer votre affliction", "_t")
 t([[Your defiling touch permeates everything around you, permanently imparting a random curse on each item you find. When you equip a cursed item, you gain the effects of that curse (shown as a beneficial effect). Each item with the same curse that is equipped increases the curse's power.  Initially curses are harmful, but powerful benefits accumulate as the power of the curse increases.
 		The Dark Gifts talent unlocks higher level curse effects and increases their power.
 		Your aura permeates your equipment more thoroughly with talent level and can affect items as follows:
@@ -22252,118 +22250,110 @@ t([[Your defiling touch permeates everything around you, permanently imparting a
 		Level 9  -- tools/totems/torques/wands
 		level 10 -- ammunition
 		At level 5, you can activate this talent to surround yourself with an aura that adds 2 levels to a curse of your choosing. (%s chosen)
-		Also, talent levels above 5 reduce the negative effects of your curses (currently %d%% reduction).]], [[Your defiling touch permeates everything around you, permanently imparting a random curse on each item you find. When you equip a cursed item, you gain the effects of that curse (shown as a beneficial effect). Each item with the same curse that is equipped increases the curse's power.  Initially curses are harmful, but powerful benefits accumulate as the power of the curse increases.
-		The Dark Gifts talent unlocks higher level curse effects and increases their power.
-		Your aura permeates your equipment more thoroughly with talent level and can affect items as follows:
-		Level 1  -- weapons
-		Level 2  -- body armor and cloaks
-		Level 3  -- shields and helmets
-		Level 4  -- gloves, boots and belts
-		Level 6  -- rings
-		Level 7  -- amulets/necklaces
-		Level 8  -- lites
-		Level 9  -- tools/totems/torques/wands
-		level 10 -- ammunition
-		At level 5, you can activate this talent to surround yourself with an aura that adds 2 levels to a curse of your choosing. (%s chosen)
-		Also, talent levels above 5 reduce the negative effects of your curses (currently %d%% reduction).]], "tformat")
-t("Dark Gifts", "Dark Gifts", "talent name")
+		Also, talent levels above 5 reduce the negative effects of your curses (currently %d%% reduction).]], [[Votre Toucher Profanateur imprègne tout ce qui vous entoure, conférant de manière permanente une malédiction aléatoire à chaque objet que vous trouvez. Lorsque vous équipez un objet maudit, vous bénéficiez des effets de cette malédiction (affichés comme un effet bénéfique). Chaque objet équipé de la même malédiction augmente la puissance de celle-ci. Initialement, les malédictions sont néfastes, mais de puissants avantages s'accumulent à mesure que la puissance de la malédiction augmente.
+		Le talent Sombres Dons débloque des effets de malédiction de niveau supérieur et augmente leur puissance.
+		Votre aura imprègne votre équipement plus profondément selon le niveau du talent et peut affecter les objets comme suit :
+		Niveau 1 -- armes
+		Niveau 2 -- armures, capes
+		Niveau 3 -- boucliers, casques
+		Niveau 4 -- gants, bottes, ceintures
+		Niveau 6 -- anneaux
+		Niveau 7 -- amulettes, colliers
+		Niveau 8 -- sources de lumière
+		Niveau 9 -- outils, totems, torques, baguettes
+		Niveau 10 -- munitions
+		Au niveau 5, vous pouvez activer ce talent pour vous entourer d'une aura qui ajoute 2 niveaux à la malédiction de votre choix. (%s sélectionné)
+		De plus, les niveaux de talent supérieurs à 5 réduisent les effets négatifs de vos malédictions (réduction actuelle : %d%%).]], "tformat")
+t("Dark Gifts", "Sombres Dons", "talent name")
 t([[Your curses bring you dark gifts. Unlocks bonus level %d effects on all of your curses, allowing you to gain that effect when the power level of your curse reaches that level. At talent level 5, the luck penalty of cursed effects is reduced to 1.
-		Talent levels above 5 add bonus power levels to your curses, increasing their effects (currently %0.1f).]], [[Your curses bring you dark gifts. Unlocks bonus level %d effects on all of your curses, allowing you to gain that effect when the power level of your curse reaches that level. At talent level 5, the luck penalty of cursed effects is reduced to 1.
-		Talent levels above 5 add bonus power levels to your curses, increasing their effects (currently %0.1f).]], "tformat")
-t("Ruined Earth", "Ruined Earth", "talent name")
-t("Curse the earth around you in a radius of %d for %d turns. Any who stand upon it are weakened, reducing the damage they inflict by %d%%", "Curse the earth around you in a radius of %d for %d turns. Any who stand upon it are weakened, reducing the damage they inflict by %d%%", "tformat")
-t("Choose Cursed Sentry", "Choose Cursed Sentry", "talent name")
-t("Which weapon will be your sentry?", "Which weapon will be your sentry?", "_t")
-t("Choose a sentry to instill your affliction into.", "Choose a sentry to instill your affliction into.", "_t")
-t("Cursed Sentry", "Cursed Sentry", "talent name")
-t("You cannot use %s without a weapon in your inventory!", "You cannot use %s without a weapon in your inventory!", "logPlayer")
-t("animated %s", "animated %s", "tformat")
-t("A weapon imbued with a living curse. It seems to be searching for its next victim.", "A weapon imbued with a living curse. It seems to be searching for its next victim.", "_t")
-t("#ffa0ff#%s returns to your bags!", "#ffa0ff#%s returns to your bags!", "logPlayer")
-t("Your animated sentry struggles for a moment and then returns to your inventory inexplicably.", "Your animated sentry struggles for a moment and then returns to your inventory inexplicably.", "logPlayer")
-t("Cursed Sentry", "Cursed Sentry", "_t")
+		Talent levels above 5 add bonus power levels to your curses, increasing their effects (currently %0.1f).]], [[Vos malédictions vous apportent de sombres dons. Débloque les effets bonus de niveau %d sur toutes vos malédictions, vous permettant de bénéficier de cet effet lorsque le niveau de puissance de votre malédiction atteint ce palier. Au niveau de talent 5, la pénalité de chance des effets maudits est réduite à 1.
+		Les niveaux de talent supérieurs à 5 ajoutent des niveaux de puissance bonus à vos malédictions, augmentant leurs effets (actuellement %0.1f).]], "tformat")
+t("Ruined Earth", "Terre Ruinée", "talent name")
+t("Curse the earth around you in a radius of %d for %d turns. Any who stand upon it are weakened, reducing the damage they inflict by %d%%", "Maudit la terre autour de vous dans un rayon de %d pendant %d tours. Quiconque s'y tient est affaibli, ce qui réduit les dégâts qu'il inflige de %d%%.", "tformat")
+t("Choose Cursed Sentry", "Choisir la Sentinelle Maudite", "talent name")
+t("Which weapon will be your sentry?", "Quelle arme sera votre sentinele ?", "_t")
+t("Choose a sentry to instill your affliction into.", "Choisissez une sentinelle dans laquelle instiller votre affliction.", "_t")
+t("Cursed Sentry", "Sentinelle Maudite", "talent name")
+t("You cannot use %s without a weapon in your inventory!", "Vous ne pouvez pas utiliser %s sans une arme dans votre inventaire !", "logPlayer")
+t("animated %s", "%s (animée)", "tformat")
+t("A weapon imbued with a living curse. It seems to be searching for its next victim.", "Une arme imprégnée d'une malédiction vivante. Elle semble chercher sa prochaine victime.", "_t")
+t("#ffa0ff#%s returns to your bags!", "#ffa0ff#%s retourne dans vos sacs !", "logPlayer")
+t("Your animated sentry struggles for a moment and then returns to your inventory inexplicably.", "Votre sentinelle animée se débat un instant puis retourne inexplicablement dans votre inventaire.", "logPlayer")
+t("Cursed Sentry", "Sentinelle Maudite", "_t")
 t([[Instill a part of your living curse into a weapon in your inventory, and toss it nearby. This nearly impervious sentry will attack all nearby enemies for %d turns. When the curse ends, the weapon will drop to the ground.
 			Cursed Sentry attack speed (currently %d%%) will improve with talent level.
 			When you first select a weapon, it will be remembered and used as long as it's in your inventory. Use Choose Cursed Sentry talent to alter your selection.
 			At talent level 3, you get the ability to afflict powerful mundane objects (greater egos).
-			At talent level 5, you can corrupt artifacts.]], [[Instill a part of your living curse into a weapon in your inventory, and toss it nearby. This nearly impervious sentry will attack all nearby enemies for %d turns. When the curse ends, the weapon will drop to the ground.
-			Cursed Sentry attack speed (currently %d%%) will improve with talent level.
-			When you first select a weapon, it will be remembered and used as long as it's in your inventory. Use Choose Cursed Sentry talent to alter your selection.
-			At talent level 3, you get the ability to afflict powerful mundane objects (greater egos).
-			At talent level 5, you can corrupt artifacts.]], "tformat")
---]==]
-
+			At talent level 5, you can corrupt artifacts.]], [[Instille une partie de votre malédiction vivante dans une arme de votre inventaire et la lance à proximité. Cette sentinelle presque invulnérable attaquera tous les ennemis proches pendant %d tours. Lorsque la malédiction prend fin, l'arme tombe au sol.
+			La vitesse d'attaque de la sentinelle maudite (actuellement %d%%) est proportionnel à votre niveau du talent.
+			La première arme sélectionnée est mémorisée et utilisée tant qu'elle se trouve dans votre inventaire. Utilisez le talent Choisir la Sentinelle Maudite pour modifier votre sélection.
+			Au niveau de talent 3, vous obtenez la capacité d'affliger de puissants objets profanes (egos majeurs).
+			Au niveau de talent 5, vous pouvez corrompre les artefacts.]], "tformat")
+-- ancien texte traduit
+t("Cursed Sentry", "Sentinelle Maudite", "__t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/cursed-form.lua"
 
 t("Unnatural Body", "Corps Surnaturel", "talent name")
--- texte non traduit
---[==[
 t([[Your body's strength is fed by your hatred. This causes most forms of healing to be between 50%% effective (at 0 Hate) to 100%% effective (at 100+ Hate). In addition, after each kill, you store the waning life force to invigorate yourself, restoring %d life (limited by the foe's maximum life, up to a maximum of %d at any time).  You can heal no more than %0.1f life per turn this way, and it is not affected by your hatred level or other effects.
-		Healing from kills improves with your Willpower.]], [[Your body's strength is fed by your hatred. This causes most forms of healing to be between 50%% effective (at 0 Hate) to 100%% effective (at 100+ Hate). In addition, after each kill, you store the waning life force to invigorate yourself, restoring %d life (limited by the foe's maximum life, up to a maximum of %d at any time).  You can heal no more than %0.1f life per turn this way, and it is not affected by your hatred level or other effects.
-		Healing from kills improves with your Willpower.]], "tformat")
-t("Relentless", "Relentless", "talent name")
-t("Your thirst for blood drives your movements. You gain +%d%% confusion, fear, knockback and stun immunity.", "Your thirst for blood drives your movements. You gain +%d%% confusion, fear, knockback and stun immunity.", "tformat")
-t("Seethe", "Seethe", "talent name")
-t("You have learned to hold onto your hate and use your suffering to fuel your body's rage. Every turn you take damage, the damage you inflict increases, until it reaches a maximum of +%d%% after 5 turns. Any turn in which you do not take damage will reduce the bonus.", "You have learned to hold onto your hate and use your suffering to fuel your body's rage. Every turn you take damage, the damage you inflict increases, until it reaches a maximum of +%d%% after 5 turns. Any turn in which you do not take damage will reduce the bonus.", "tformat")
-t("Grim Resolve", "Grim Resolve", "talent name")
-t("You rise to meet the pain that others would inflict on you. Every turn you take damage, your Strength and Willpower increase until they reach a maximum of +%d after 5 turns. Any turn in which you do not take damage will reduce the bonus. While in effect, your body also has a %d%% chance to overcome poisons and diseases each turn.", "You rise to meet the pain that others would inflict on you. Every turn you take damage, your Strength and Willpower increase until they reach a maximum of +%d after 5 turns. Any turn in which you do not take damage will reduce the bonus. While in effect, your body also has a %d%% chance to overcome poisons and diseases each turn.", "tformat")
---]==]
-
+		Healing from kills improves with your Willpower.]], [[La force de votre corps est alimentée par votre haine. De ce fait, la plupart des formes de soin voient leur efficacité varier entre 50%% (de 0 Haine) et 100%% (à 100+ Haine). De plus, après chaque victime, vous emmagasinez sa force vitale déclinante pour vous revigorer, ce qui vous rend %d points de vie (limité par les points de vie maximaux de la cible, jusqu'à un maximum cumulé de %d). Vous ne pouvez pas récupérer plus de %0.1f points de vie par tour de cette manière, et cet effet n'est pas affecté par votre niveau de haine ou d'autres modificateurs.
+		Les soins prodigués par les victimes sont proportionnels à votre Volonté.]], "tformat")
+t("Relentless", "Implacable", "talent name")
+t("Your thirst for blood drives your movements. You gain +%d%% confusion, fear, knockback and stun immunity.", "Votre soif de sang guide vos mouvements. Vous gagnez +%d%% d'immunité à la confusion, à la peur, au recul, et à l'assommement.", "tformat")
+t("Seethe", "Bouillonnement", "talent name")
+t("You have learned to hold onto your hate and use your suffering to fuel your body's rage. Every turn you take damage, the damage you inflict increases, until it reaches a maximum of +%d%% after 5 turns. Any turn in which you do not take damage will reduce the bonus.", "Vous avez appris à retenir votre haine et à utiliser votre souffrance pour alimenter la rage de votre corps. À chaque tour où vous subissez des dégâts, les dégâts que vous infligez augmentent, jusqu'à atteindre un maximum de +%d%% après 5 tours. Tout tour sans subir de dégâts réduit ce bonus.", "tformat")
+t("Grim Resolve", "Sombre résolution", "talent name")
+t("You rise to meet the pain that others would inflict on you. Every turn you take damage, your Strength and Willpower increase until they reach a maximum of +%d after 5 turns. Any turn in which you do not take damage will reduce the bonus. While in effect, your body also has a %d%% chance to overcome poisons and diseases each turn.", "Vous vous dressez pour affronter la douleur que l'on tente de vous infliger. À chaque tour où vous subissez des dégâts, votre Force et votre Volonté augmentent jusqu'à atteindre un maximum de +%d après 5 tours. Tout tour sans subir de dégâts réduit ce bonus. Tant qu'il est actif, votre corps a également %d%% de chances de surmonter les poisons et les maladies à chaque tour.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/cursed.lua"
 
 t("cursed", "maudit", "talent category")
+t("slaughter", "massacre", "talent type")
+t("Your weapon yearns for its next victim.", "Votre arme réclame sa prochaine victime.", "_t")
+t("endless hunt", "traque sans fin", "talent type")
+t("Each day, you lift your weary body and begin the unending hunt.", "Chaque jour, vous traînez votre corps las et reprenez la traque sans fin.", "_t")
 t("strife", "conflit", "talent type")
+t("The battlefield is your home; death and confusion, your comfort.", "Le champ de bataille est votre foyer ; la mort et la confusion, votre réconfort.", "_t")
 t("gloom", "angoisse", "talent type")
+t("All those in your sight must share your despair.", "Tous ceux qui croisent votre regard doivent partager votre angoisse.", "_t")
+t("rampage", "déchaînement", "talent type")
+t("Let loose the hate that has grown within.", "Libérez la haine qui a grandi en vous.", "_t")
 t("predator", "prédateur", "talent type")
+t("Track and kill your prey with single-minded focus.", "Traquez et abattez votre proie avec une obsession absolue.", "_t")
+t("dark sustenance", "sombre subsistance", "talent type")
+t("The powers of your foes feed your dark will.", "La puissance de vos ennemis alimente votre sombre volonté.", "_t")
+t("force of will", "force de volonté", "talent type")
+t("Invoke the powerful force of your will.", "Invoquez la puissance de votre volonté.", "_t")
 t("darkness", "obscurité", "talent type")
+t("Harness the power of darkness to envelop your foes.", "Canalisez le pouvoir de l'obscurité pour envelopper vos ennemis.", "_t")
+t("shadows", "ombres", "talent type")
+t("Summon shadows from the darkness to aid you.", "Invoquez des ombres depuis les ténèbres pour vous aider.", "_t")
+t("punishments", "sanctions", "talent type")
+t("Your hate becomes punishment in the minds of your foes.", "Votre haine devient une sanction dans l'esprit de vos ennemis.", "_t")
+t("one with shadows", "lié aux ombres", "talent type")
+t("Harness your shadows to their full potential.", "Exploitez vos ombres à leur plein potentiel.", "_t")
+t("advanced shadowmancy", "ombremancie avancée", "talent type")
+t("Gain more direct control over your shadows with physical damage talents.", "Obtenez un contrôle plus direct sur vos ombres grâce à des talents de dégâts physiques.", "_t")
+t("gestures", "signes", "talent type")
+t("Enhance the power of your mind with gestures.", "Améliorez la puissance de votre esprit par des signes.", "_t")
 t("cursed form", "forme maudite", "talent type")
+t("You are wracked with the dark energies of the curse.", "Vous êtes tourmenté par les sombres énergies de la malédiction.", "_t")
+t("cursed aura", "aura maudite", "talent type")
+t("The things you surround yourself with soon wither away.", "Ce qui vous entoure ne tarde pas à dépérir.", "_t")
 t("curses", "malédictions", "talent type")
-t("Bloodstained", "Taches Sanglantes", "talent type")
-t("Crimson Templar", "Templier Pourpre", "talent type")
-t("Hatred", "Traîtrise", "talent type")
+t("The effects of cursed objects.", "Les effets des objets maudits.", "_t")
+t("fears", "peurs", "talent type")
+t("Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "Utilisez la peur tapie au coeur de votre malédiction pour attaquer l'esprit de vos ennemis.", "_t")
+t("Bloodstained", "Marqué par le Sang", "talent type")
+t("You, like your weapons, are tainted forever.", "Tout comme vos armes, vous êtes souillé à jamais.", "_t")
+t("Crimson Templar", "Templier Souillé", "talent type")
+t("Blood is power. Let the rivers run red.", "Le sang est une force. Que les fleuves coulent rouges.", "_t")
+t("Hatred", "Haine", "talent type")
+t("All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "Chaque chose en ce monde sombre est méprisable. Cédez à la haine pour y puiser votre puissance.", "_t")
 t("Cursed", "Maudit", "talent type")
--- texte non traduit
---[==[
-t("slaughter", "slaughter", "talent type")
-t("Your weapon yearns for its next victim.", "Your weapon yearns for its next victim.", "_t")
-t("endless hunt", "endless hunt", "talent type")
-t("Each day, you lift your weary body and begin the unending hunt.", "Each day, you lift your weary body and begin the unending hunt.", "_t")
-t("The battlefield is your home; death and confusion, your comfort.", "The battlefield is your home; death and confusion, your comfort.", "_t")
-t("All those in your sight must share your despair.", "All those in your sight must share your despair.", "_t")
-t("rampage", "rampage", "talent type")
-t("Let loose the hate that has grown within.", "Let loose the hate that has grown within.", "_t")
-t("Track and kill your prey with single-minded focus.", "Track and kill your prey with single-minded focus.", "_t")
-t("dark sustenance", "dark sustenance", "talent type")
-t("The powers of your foes feed your dark will.", "The powers of your foes feed your dark will.", "_t")
-t("force of will", "force of will", "talent type")
-t("Invoke the powerful force of your will.", "Invoke the powerful force of your will.", "_t")
-t("Harness the power of darkness to envelop your foes.", "Harness the power of darkness to envelop your foes.", "_t")
-t("shadows", "shadows", "talent type")
-t("Summon shadows from the darkness to aid you.", "Summon shadows from the darkness to aid you.", "_t")
-t("punishments", "punishments", "talent type")
-t("Your hate becomes punishment in the minds of your foes.", "Your hate becomes punishment in the minds of your foes.", "_t")
-t("one with shadows", "one with shadows", "talent type")
-t("Harness your shadows to their full potential.", "Harness your shadows to their full potential.", "_t")
-t("advanced shadowmancy", "advanced shadowmancy", "talent type")
-t("Gain more direct control over your shadows with physical damage talents.", "Gain more direct control over your shadows with physical damage talents.", "_t")
-t("gestures", "gestures", "talent type")
-t("Enhance the power of your mind with gestures.", "Enhance the power of your mind with gestures.", "_t")
-t("You are wracked with the dark energies of the curse.", "You are wracked with the dark energies of the curse.", "_t")
-t("cursed aura", "cursed aura", "talent type")
-t("The things you surround yourself with soon wither away.", "The things you surround yourself with soon wither away.", "_t")
-t("The effects of cursed objects.", "The effects of cursed objects.", "_t")
-t("fears", "fears", "talent type")
-t("Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "_t")
-t("You, like your weapons, are tainted forever.", "You, like your weapons, are tainted forever.", "_t")
-t("Blood is power. Let the rivers run red.", "Blood is power. Let the rivers run red.", "_t")
-t("All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "_t")
-t("Hate-powered abilities that don't belong anywhere else.", "Hate-powered abilities that don't belong anywhere else.", "_t")
---]==]
-
+t("Hate-powered abilities that don't belong anywhere else.", "Des capacités mues par la haine qui n'ont leur place nulle part ailleurs.", "_t")
 -- ancien texte traduit
 t("Cursed", "Maudit", "_t")
 
@@ -22447,52 +22437,43 @@ t([[Spawn tendrils of darkness to pursue a single target for up to 12 turns, lea
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/endless-hunt.lua"
 
-
--- texte non traduit
---[==[
-t("Stalk", "Stalk", "talent name")
-t("#F53CBE#You are having trouble focusing on your prey!", "#F53CBE#You are having trouble focusing on your prey!", "logPlayer")
+t("Stalk", "Traquer", "talent name")
+t("#F53CBE#You are having trouble focusing on your prey!", "#F53CBE#Vous avez du mal à vous concentrer sur votre proie !", "logPlayer")
 t([[When you focus your attacks on a single foe and strike them in melee for two consecutive turns, your hatred of them overcomes you and you begin to stalk them with single-minded purpose. The effect will last for %d turns, or until your prey is dead. Stalking gives you bonuses against your foe that grow each turn you hit them, and diminish each turn you don't.
 		Bonus level 1: +%d Accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit
 		Bonus level 2: +%d Accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit
 		Bonus level 3: +%d Accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit
-		The accuracy bonus improves with your Willpower, and the melee damage bonus with your Strength.]], [[When you focus your attacks on a single foe and strike them in melee for two consecutive turns, your hatred of them overcomes you and you begin to stalk them with single-minded purpose. The effect will last for %d turns, or until your prey is dead. Stalking gives you bonuses against your foe that grow each turn you hit them, and diminish each turn you don't.
-		Bonus level 1: +%d Accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit
-		Bonus level 2: +%d Accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit
-		Bonus level 3: +%d Accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit
-		The accuracy bonus improves with your Willpower, and the melee damage bonus with your Strength.]], "tformat")
-t("Harass Prey", "Harass Prey", "talent name")
-t("#F53CBE#%s's %s is disrupted!", "#F53CBE#%s's %s is disrupted!", "logSeen")
+		The accuracy bonus improves with your Willpower, and the melee damage bonus with your Strength.]], [[Lorsque vous concentrez vos attaques sur un seul ennemi et le frappez au corps à corps pendant deux tours consécutifs, votre haine le submerge et vous commencez à le traquer avec une détermination absolue. L'effet dure %d tours, ou jusqu'à ce que votre proie soit morte. La traque vous accorde des bonus contre votre adversaire qui augmentent à chaque tour où vous le touchez, et diminuent à chaque tour où vous ne le touchez pas.
+		Bonus niveau 1 : +%d Précision, +%d%% dégâts de mêlée, +%0.2f haine/tour où la proie est touchée
+		Bonus niveau 2 : +%d Précision, +%d%% dégâts de mêlée, +%0.2f haine/tour où la proie est touchée
+		Bonus niveau 3 : +%d Précision, +%d%% dégâts de mêlée, +%0.2f haine/tour où la proie est touchée
+		Le bonus de Précision est proportionel à votre Volonté, et le bonus de dégâts de mêlée à votre Force.]], "tformat")
+t("Harass Prey", "Harceler la Proie", "talent name")
+t("#F53CBE#%s's %s is disrupted!", "#F53CBE#%s voit son talent %s perturbé !", "logSeen")
 t([[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
 
-		This talent will also attack with your shield, if you have one equipped.]], [[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
+		This talent will also attack with your shield, if you have one equipped.]], [[Harcèle votre victime traquée avec deux attaques rapides infligeant chacune entre %d%% (de 0 Haine) et %d%% (à 100+ Haine) dégâts. Chaque attaque qui touche perturbe un talent, une rune ou une essence pendant %d tours. Votre adversaire sera déconcerté par les attaques, réduisant les dégâts qu'il inflige de %d%% pendant %d tours.
 
-		This talent will also attack with your shield, if you have one equipped.]], "tformat")
-t("Beckon", "Beckon", "talent name")
+		Ce talent attaquera également avec votre bouclier, si vous en avez un équipé.]], "tformat")
+t("Beckon", "Attirer", "talent name")
 t([[The connection between predator and prey allows you to speak to the mind of your target and beckon them closer. For %d turns, they will try to come to you, even pushing others aside to do so. They will move towards you instead of acting %d%% of the time, but can save verses Mindpower to slow the effect. If they take significant damage, the beckoning may be overcome altogether. The effect makes concentration difficult for your target, reducing Spellpower and Mindpower by %d until they reach you.
-		The Spellpower and Mindpower reduction increases with your Willpower.]], [[The connection between predator and prey allows you to speak to the mind of your target and beckon them closer. For %d turns, they will try to come to you, even pushing others aside to do so. They will move towards you instead of acting %d%% of the time, but can save verses Mindpower to slow the effect. If they take significant damage, the beckoning may be overcome altogether. The effect makes concentration difficult for your target, reducing Spellpower and Mindpower by %d until they reach you.
-		The Spellpower and Mindpower reduction increases with your Willpower.]], "tformat")
-t("Surge", "Surge", "talent name")
+		The Spellpower and Mindpower reduction increases with your Willpower.]], [[La connexion entre prédateur et proie vous permet de parler à l'esprit de votre cible et de l'attirer plus près. Pendant %d tours, elle essaiera de venir vers vous, n'hésitant pas à bousculer les autres pour y parvenir. Elle se déplacera vers vous au lieu d'agir %d%% du temps, mais peut résister contre votre Puissance Mentale pour ralentir l'effet. Si elle subit des dégâts importants, l'attraction peut être complètement surmontée. L'effet rend la concentration difficile pour votre cible, réduisant sa Puissance des Sorts et sa Puissance Mentale de %d jusqu'à ce qu'elle vous rejoigne.
+		La réduction de Puissance des Sorts et de Puissance Mentale est proportionnel à votre Volonté.]], "tformat")
+t("Surge", "Élan", "talent name")
 t([[Let hate fuel your movements. While active, you gain %d%% movement speed. The recklessness of your movement brings you bad luck (Luck -3).
 		Cleave, Repel and Surge cannot be active simultaneously, and activating one will place the others in cooldown.
 		Sustaining Surge while Dual Wielding grants %d additional Defense.
-		Movement speed and dual-wielding Defense both increase with the Willpower stat.]], [[Let hate fuel your movements. While active, you gain %d%% movement speed. The recklessness of your movement brings you bad luck (Luck -3).
-		Cleave, Repel and Surge cannot be active simultaneously, and activating one will place the others in cooldown.
-		Sustaining Surge while Dual Wielding grants %d additional Defense.
-		Movement speed and dual-wielding Defense both increase with the Willpower stat.]], "tformat")
---]==]
-
+		Movement speed and dual-wielding Defense both increase with the Willpower stat.]], [[Laissez la haine alimenter vos mouvements. Lorsque Élan est actif, vous gagnez %d%% de vitesse de déplacement. L'imprudence de vos mouvements vous porte malchance (Chance -3).
+		Si vous maniez deux armes, vous recevez %d de Défense supplémentaire.
+		La vitesse de déplacement et la Défense sont proportionnels à votre Volonté.
+		Fendre, Repousser et Élan ne peuvent pas être actifs simultanément ; l'activation de l'un mettra les autres en rechargement.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/fears.lua"
 
+t("Instill Fear", "Instiller la Peur", "talent name")
 t("%s resists the fear!", "%s résiste à la peur !", "logSeen")
-t("Heighten Fear", "Intensification de la Peur", "talent name")
-t("Tyrant", "Tyran", "talent name")
--- texte non traduit
---[==[
-t("Instill Fear", "Instill Fear", "talent name")
-t("#F53CBE#%s resists the fear!", "#F53CBE#%s resists the fear!", "logSeen")
+t("#F53CBE#%s resists the fear!", "#F53CBE#%s résiste à la peur !", "logSeen")
 t([[Instill fear in your foes within %d radius of a target location dealing %0.2f mind and %0.2f darkness damage and causing one of 4 possible fears that last for %d turns.
 		The targets can save vs your Mindpower to resist the effect.
 		Fear effects improve with your Mindpower.
@@ -22502,28 +22483,28 @@ t([[Instill fear in your foes within %d radius of a target location dealing %0.2
 		#ORANGE#Despair:#LAST# Reduces mind resist, mindsave, armour and defence by %d.
 		#ORANGE#Terrified:#LAST# Deals %0.2f mind and %0.2f darkness damage per turn and increases cooldowns by %d%%.
 		#ORANGE#Haunted:#LAST# Causes the target to suffer %0.2f mind and %0.2f darkness damage for each detrimental mental effect every turn.
-		]], [[Instill fear in your foes within %d radius of a target location dealing %0.2f mind and %0.2f darkness damage and causing one of 4 possible fears that last for %d turns.
-		The targets can save vs your Mindpower to resist the effect.
-		Fear effects improve with your Mindpower.
+		]], [[Instille la peur dans vos ennemis dans un rayon de %d d'un emplacement cible, infligeant %0.2f dégâts Mentaux et %0.2f dégâts d'Obscurité et causant l'une des 4 peurs possibles qui durent %d tours.
+		Les cibles peuvent résister contre votre Puissance Mentale pour résister à l'effet.
+		Les effets de peur s'améliorent avec votre Puissance Mentale.
 
-		Possible fears are:
-		#ORANGE#Paranoid:#LAST# Gives the target an %d%% chance to physically attack a nearby creature, friend or foe. If hit, their target will be afflicted with Paranoia as well.
-		#ORANGE#Despair:#LAST# Reduces mind resist, mindsave, armour and defence by %d.
-		#ORANGE#Terrified:#LAST# Deals %0.2f mind and %0.2f darkness damage per turn and increases cooldowns by %d%%.
-		#ORANGE#Haunted:#LAST# Causes the target to suffer %0.2f mind and %0.2f darkness damage for each detrimental mental effect every turn.
+		Les peurs possibles sont :
+		#ORANGE#Paranoïa :#LAST# Donne à la cible une chance de %d%% d'attaquer physiquement une créature proche, amie ou ennemie. Si elle est touchée, sa cible sera également affectée par la Paranoïa.
+		#ORANGE#Désespoir :#LAST# Réduit la résistance mentale, la sauvegarde mentale, l'armure et la défense de %d.
+		#ORANGE#Terreur :#LAST# Inflige %0.2f dégâts Mentaux et %0.2f dégâts d'Obscurité par tour et augmente les rechargements de %d%%.
+		#ORANGE#Hantise :#LAST# Fait subir à la cible %0.2f dégâts Mentaux et %0.2f dégâts d'Obscurité pour chaque effet mental négatif à chaque tour.
 		]], "tformat")
+t("Heighten Fear", "Intensification de la Peur", "talent name")
 t([[Heighten the fears of those near to you. Any foe you attempt to inflict a fear upon and who remains in a radius of %d and in sight of you for %d (non-consecutive) turns, will take %0.2f mind and %0.2f darkness damage and gain a new fear that lasts for %d turns.
-			This effect completely ignores fear resistance, but can be saved against.]], [[Heighten the fears of those near to you. Any foe you attempt to inflict a fear upon and who remains in a radius of %d and in sight of you for %d (non-consecutive) turns, will take %0.2f mind and %0.2f darkness damage and gain a new fear that lasts for %d turns.
-			This effect completely ignores fear resistance, but can be saved against.]], "tformat")
+			This effect completely ignores fear resistance, but can be saved against.]], [[Amplifie la peur de ceux qui vous sont proches. Tout ennemi sur lequel vous tentez d'infliger une peur et qui reste dans un rayon de %d et à votre vue pendant %d tours (non consécutifs) subira %0.2f dégâts Mentaux et %0.2f dégâts d'Obscurité et gagnera une nouvelle peur qui dure %d tours.
+			Cet effet ignore complètement l'immunité à la peur, mais peut être évité par la sauvegarde.]], "tformat")
+t("Tyrant", "Tyran", "talent name")
 t([[Impose your tyranny on the minds of those who fear you. When a foe gains a new fear, you have a %d%% chance to increase the duration of their heightened fear and one random existing fear effect by %d turns, to a maximum of 8 turns.
-		Additionally, you gain %d Mindpower and Physical power for 5 turns every time you apply a fear, stacking up to %d times.]], [[Impose your tyranny on the minds of those who fear you. When a foe gains a new fear, you have a %d%% chance to increase the duration of their heightened fear and one random existing fear effect by %d turns, to a maximum of 8 turns.
-		Additionally, you gain %d Mindpower and Physical power for 5 turns every time you apply a fear, stacking up to %d times.]], "tformat")
-t("Panic", "Panic", "talent name")
-t("#F53CBE#%s ignores the panic!", "#F53CBE#%s ignores the panic!", "logSeen")
-t("#F53CBE#%s resists the panic!", "#F53CBE#%s resists the panic!", "logSeen")
-t("Panic your enemies within a range of %d for %d turns. Anyone who fails to make a mental save against your Mindpower has a %d%% chance each turn of trying to run away from you.", "Panic your enemies within a range of %d for %d turns. Anyone who fails to make a mental save against your Mindpower has a %d%% chance each turn of trying to run away from you.", "tformat")
---]==]
-
+		Additionally, you gain %d Mindpower and Physical power for 5 turns every time you apply a fear, stacking up to %d times.]], [[Impose votre tyrannie dans l'esprit de ceux qui vous craignent. Lorsqu'un ennemi gagne une nouvelle peur, vous avez %d%% chance d'augmenter la durée de sa peur amplifiée et d'une peur existante aléatoire de %d tours, jusqu'à un maximum de 8 tours.
+		De plus, vous gagnez %d de Puissance Mentale et de Puissance Physique pendant 5 tours chaque fois que vous appliquez une peur, s'accumulant jusqu'à %d fois.]], "tformat")
+t("Panic", "Panique", "talent name")
+t("#F53CBE#%s ignores the panic!", "#F53CBE#%s ignore la panique !", "logSeen")
+t("#F53CBE#%s resists the panic!", "#F53CBE#%s résiste à la panique !", "logSeen")
+t("Panic your enemies within a range of %d for %d turns. Anyone who fails to make a mental save against your Mindpower has a %d%% chance each turn of trying to run away from you.", "Provoque la panique chez vos ennemis dans un rayon de %d pendant %d tours. Quiconque échoue à une sauvegarde mentale contre votre Puissance Mentale a %d%% chance à chaque tour d'essayer de vous fuir.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/force-of-will.lua"
@@ -22602,36 +22583,32 @@ t([[You guard against melee damage with a sweep of your hand. So long as you can
 section "mod-tome/data/talents/cursed/gloom.lua"
 
 t("Gloom", "Angoisse", "talent name")
--- texte non traduit
---[==[
-t("#F53CBE#Your heart hardens as a powerful foe enters your gloom! (+%d hate)", "#F53CBE#Your heart hardens as a powerful foe enters your gloom! (+%d hate)", "logPlayer")
+t("#F53CBE#Your heart hardens as a powerful foe enters your gloom! (+%d hate)", "#F53CBE#Votre coeur se durcit lorsqu'un puissant ennemi entre dans votre angoisse ! (+%d haine)", "logPlayer")
 t([[A terrible gloom surrounds you, affecting all those who approach to within radius 3. At the end of each game turn, those caught in your gloom must save against your Mindpower, or have a %d%% chance to suffer from slowness (30%%), stun or confusion (30%%) for %d turns.
 		The chance increases with your mind speed.
 		This ability is innate, and carries no cost to activate or deactivate.
-		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[A terrible gloom surrounds you, affecting all those who approach to within radius 3. At the end of each game turn, those caught in your gloom must save against your Mindpower, or have a %d%% chance to suffer from slowness (30%%), stun or confusion (30%%) for %d turns.
-		The chance increases with your mind speed.
-		This ability is innate, and carries no cost to activate or deactivate.
-		Each point in Gloom talents increases your Mindpower (current total: %d).]], "tformat")
-t("Weakness", "Weakness", "talent name")
+		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[Une terrible angoisse vous entoure, affectant tous ceux qui s'approchent à moins de 3 cases. À la fin de chaque tour de jeu, ceux pris dans votre angoisse doivent résister contre votre Puissance Mentale, ou auront %d%% chance de souffrir de lenteur (30%%), d'assommement, ou de confusion (30%%) pendant %d tours.
+		La chance est proportionnel à votre vitesse mentale.
+		Cette capacité est innée et n'a aucun coût pour être activée ou désactivée.
+		Chaque point dans les talents d'Angoisse augmente votre Puissance Mentale (total actuel : %d).]], "tformat")
+t("Weakness", "Faiblesse", "talent name")
 t([[Each turn, those caught in your gloom must save against your Mindpower, or have a %d%% chance to be crippled by fear for %d turns, reducing damage they inflict by %d%%. The first time you melee strike a foe after they have been weakened will give you %d hate.
 		The chance increases with your mind speed.
-		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[Each turn, those caught in your gloom must save against your Mindpower, or have a %d%% chance to be crippled by fear for %d turns, reducing damage they inflict by %d%%. The first time you melee strike a foe after they have been weakened will give you %d hate.
-		The chance increases with your mind speed.
-		Each point in Gloom talents increases your Mindpower (current total: %d).]], "tformat")
-t("Mindrot", "Mindrot", "talent name")
+		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[À chaque tour, ceux qui sont pris dans votre angoisse doivent effectuer une sauvegarde contre votre Puissance Mentale, ou auront %d%% chance d'être estropié par la peur pendant %d tours, réduisant les dégâts qu'ils infligent de %d%%. La première fois que vous frappez un ennemi au corps à corps après qu'il a été affaibli vous donnera %d haine.
+		La chance est proportionnel à votre vitesse mentale.
+		Chaque point dans les talents d'Angoisse augmente votre Puissance Mentale (total actuel : %d).]], "tformat")
+t("Mindrot", "Pourriture Mentale", "talent name")
 t([[Every turn, all enemies in your gloom take %0.2f mind damage and %0.2f darkness damage.
 		This damage is increased by your global speed but only happens ever game turn.
 		The damage scales with your Mindpower.
-		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[Every turn, all enemies in your gloom take %0.2f mind damage and %0.2f darkness damage.
-		This damage is increased by your global speed but only happens ever game turn.
-		The damage scales with your Mindpower.
-		Each point in Gloom talents increases your Mindpower (current total: %d).]], "tformat")
-t("Sanctuary", "Sanctuary", "talent name")
+		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[À chaque tour, tous les ennemis dans votre angoisse subissent %0.2f dégâts mentaux et %0.2f dégâts d'obscurité.
+		Ces dégâts sont augmentés par votre vitesse globale mais ne se produisent qu'à chaque tour de jeu.
+		Les dégâts sont proportionnels à votre Puissance Mentale.
+		Chaque point dans les talents d'Angoisse augmente votre Puissance Mentale (total actuel : %d).]], "tformat")
+t("Sanctuary", "Sanctuaire", "talent name")
 t([[Your gloom has become a sanctuary from the outside world. Damage from any attack that originates beyond the boundary of your gloom is reduced by %d%%.
-		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[Your gloom has become a sanctuary from the outside world. Damage from any attack that originates beyond the boundary of your gloom is reduced by %d%%.
-		Each point in Gloom talents increases your Mindpower (current total: %d).]], "tformat")
---]==]
-
+		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[Votre angoisse est devenue un sanctuaire au monde extérieur. Les dégâts de toute attaque qui provient au-delà des limites de votre angoisse sont réduits de %d%%.
+		Chaque point dans les talents d'Angoisse augmente votre Puissance Mentale (total actuel : %d).]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/one-with-shadows.lua"
@@ -22669,26 +22646,22 @@ t([[Your shadows guard you with their lives.
 section "mod-tome/data/talents/cursed/predator.lua"
 
 t("Predator", "Prédateur", "talent name")
--- texte non traduit
---[==[
-t("Improve your predation by learning from past hunts. You gain %0.2f accuracy and %0.2f armor penetration against foes for each foe of that type you have previously slain, to a maximum of %d accuracy and %d apr.", "Improve your predation by learning from past hunts. You gain %0.2f accuracy and %0.2f armor penetration against foes for each foe of that type you have previously slain, to a maximum of %d accuracy and %d apr.", "tformat")
-t("Savage Hunter", "Savage Hunter", "talent name")
-t("%s's cursed miasma", "%s's cursed miasma", "tformat")
+t("Improve your predation by learning from past hunts. You gain %0.2f accuracy and %0.2f armor penetration against foes for each foe of that type you have previously slain, to a maximum of %d accuracy and %d apr.", "Améliore votre prédation en tirant des leçons de vos chasses passées. Vous gagnez %0.2f précision et %0.2f pénétration d'armure contre les ennemis pour chaque ennemi de ce type que vous avez précédemment tué, jusqu'à un maximum de %d précision et %d pénétration d'armure.", "tformat")
+t("Savage Hunter", "Chasseur Sauvage", "talent name")
+t("%s's cursed miasma", "miasme maudit de %s", "tformat")
 t([[Upon making a critical melee attack the savagery of your predation causes a Cursed Miasma to begin permeating your hunting grounds.
 		The miasma will seep from %d locations, including your own, within radius %d, deals %0.2f damage split between Darkness and Mind and blocks sight.
 		Prey lost within your miasma have a %d%% chance to lose track of you and may mistake friends for foe.
-		Savage Hunter costs #ffa0ff#8 Hate#LAST# on trigger and does not trigger when you're in Cursed Miasma.]], [[Upon making a critical melee attack the savagery of your predation causes a Cursed Miasma to begin permeating your hunting grounds.
-		The miasma will seep from %d locations, including your own, within radius %d, deals %0.2f damage split between Darkness and Mind and blocks sight.
-		Prey lost within your miasma have a %d%% chance to lose track of you and may mistake friends for foe.
-		Savage Hunter costs #ffa0ff#8 Hate#LAST# on trigger and does not trigger when you're in Cursed Miasma.]], "tformat")
-t("Shrouded Hunter", "Shrouded Hunter", "talent name")
+		Savage Hunter costs #ffa0ff#8 Hate#LAST# on trigger and does not trigger when you're in Cursed Miasma.]], [[Lorsque vous portez un coup critique au corps à corps, la sauvagerie de votre prédation libère un Miasme Maudit qui imprègne votre territoire de chasse.
+		La brume se répand depuis %d emplacements, y compris le vôtre, dans un rayon de %d unités, infligeant %0.2f dégâts répartis entre Obscurité et Mental, et bloque la vue.
+		Les proies perdues dans votre miasme ont %d%% chance de perdre votre trace et peuvent confondre alliés et ennemis.
+		Chasseur Sauvage coûte #ffa0ff#8 de Haine#LAST# à son déclenchement et ne se déclenche pas lorsque vous êtes déjà dans le Miasme Maudit.]], "tformat")
+t("Shrouded Hunter", "Chasseur Voilé", "talent name")
 t([[While shrouded in cursed miasma you gain stealth (%d power) and %d physical power.
-		The stealth power and physical power will increase with your mindpower.]], [[While shrouded in cursed miasma you gain stealth (%d power) and %d physical power.
-		The stealth power and physical power will increase with your mindpower.]], "tformat")
-t("Mark Prey", "Mark Prey", "talent name")
-t("Focus your predation on the most worthy prey. Upon entering a level for the first time, up to %d foes are marked as your prey. You gain vision of them, wherever they are. Additionally, all damage you receive from their subtype is reduced by %d%%.", "Focus your predation on the most worthy prey. Upon entering a level for the first time, up to %d foes are marked as your prey. You gain vision of them, wherever they are. Additionally, all damage you receive from their subtype is reduced by %d%%.", "tformat")
---]==]
-
+		The stealth power and physical power will increase with your mindpower.]], [[Tant que vous êtes enveloppé dans le miasme maudit, vous gagnez en furtivité (%d de puissance) et %d de puissance physique.
+		La puissance de la furtivité et la puissance physique sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Mark Prey", "Marqueur de Proie", "talent name")
+t("Focus your predation on the most worthy prey. Upon entering a level for the first time, up to %d foes are marked as your prey. You gain vision of them, wherever they are. Additionally, all damage you receive from their subtype is reduced by %d%%.", "Concentrez votre fureur prédatrice sur les proies les plus dignes en entrant pour la première fois dans une zone, marquant automatiquement jusqu'à %d ennemi(s). Vous obtenez une vision partagée de ces proies, quelle que soit la distance ou les obstacles, vous permettant de les suivre constamment où qu'elles se trouvent. De plus, tous les dégâts reçus de créatures du même sous-type que vos proies sont réduits de %d%%.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/primal-magic.lua"
@@ -22751,85 +22724,81 @@ t("Your hateful will splinters into the minds of those you torture, breaking the
 section "mod-tome/data/talents/cursed/rampage.lua"
 
 t("Rampage", "Déchaînement", "talent name")
--- texte non traduit
---[==[
-t("You are already rampaging!", "You are already rampaging!", "logPlayer")
+t("You are already rampaging!", "Vous êtes déjà en état de déchaînement !", "logPlayer")
 t([[You enter a terrible rampage for %d turns (up to a maximum of %d turns), destroying everything in your path. Starting a rampage is instantaneous. You may also enter a rampage (50%% chance) when you are hit for more than 8%% of your max life. 
 		Any talent, rune or infusion you use while rampaging becomes a distraction, and reduces the duration of the rampage by 1. Your first movement while rampaging increases the rampage duration by 1.
 		Rampage Bonus: +%d%% movement speed.
 		Rampage Bonus: +%d%% attack speed.
-		Rampage Bonus: +%d%% mind speed.]], [[You enter a terrible rampage for %d turns (up to a maximum of %d turns), destroying everything in your path. Starting a rampage is instantaneous. You may also enter a rampage (50%% chance) when you are hit for more than 8%% of your max life. 
-		Any talent, rune or infusion you use while rampaging becomes a distraction, and reduces the duration of the rampage by 1. Your first movement while rampaging increases the rampage duration by 1.
-		Rampage Bonus: +%d%% movement speed.
-		Rampage Bonus: +%d%% attack speed.
-		Rampage Bonus: +%d%% mind speed.]], "tformat")
-t("Brutality", "Brutality", "talent name")
+		Rampage Bonus: +%d%% mind speed.]], [[Vous entrez dans un terrible déchaînement pendant %d tours (jusqu'à un maximum de %d tours), détruisant tout sur votre passage. Activer le déchaînement est instantané. Vous avez également une chance (50%%) de vous déchaîner lorsque vous subissez des dégâts supérieurs à 8%% de vos PV max.
+		Tout talent, rune, ou essence utilisé en état de déchaînement devient une distraction et réduit sa durée de 1 tour. Votre premier déplacement sous déchaînement augmente sa durée de 1 tour.
+		Bonus de déchaînement : +%d%% de vitesse de déplacement.
+		Bonus de déchaînement : +%d%% de vitesse d'attaque.
+		Bonus de déchaînement : +%d%% de vitesse mentale.]], "tformat")
+t("Brutality", "Brutalité", "talent name")
 t([[You attack with mindless brutality. The first critical hit inflicted while rampaging increases the rampage duration by 1.
 		Rampage Bonus: Your physical damage increases by %d%%.
-		Rampage Bonus: Your Physical Save increases by %d and Mental Save increases by %d.]], [[You attack with mindless brutality. The first critical hit inflicted while rampaging increases the rampage duration by 1.
-		Rampage Bonus: Your physical damage increases by %d%%.
-		Rampage Bonus: Your Physical Save increases by %d and Mental Save increases by %d.]], "tformat")
-t("Tenacity", "Tenacity", "talent name")
+		Rampage Bonus: Your Physical Save increases by %d and Mental Save increases by %d.]], [[Vous attaquez avec une brutalité aveugle. Le premier coup critique infligé sous déchaînement augmente sa durée de 1 tour.
+		Bonus de déchaînement : vos dégâts Physiques augmentent de %d%%.
+		Bonus de déchaînement : votre Ssauvegarde Physique augmente de %d et votre Sauvegarde Mentale de %d.]], "tformat")
+t("Tenacity", "Ténacité", "talent name")
 t([[Nothing will stop your rampage.
 		Rampage Bonus: You shrug off up to %d damage each turn during your rampage. If you shrug off more than %d damage, the rampage duration increases by 1.
-		The amount of damage you can shrug off improves with your Strength.]], [[Nothing will stop your rampage.
-		Rampage Bonus: You shrug off up to %d damage each turn during your rampage. If you shrug off more than %d damage, the rampage duration increases by 1.
-		The amount of damage you can shrug off improves with your Strength.]], "tformat")
-t("Slam", "Slam", "talent name")
-t("You must be rampaging to use this talant.", "You must be rampaging to use this talant.", "logPlayer")
-t("#F53CBE#%s slams %s!", "#F53CBE#%s slams %s!", "logSeen")
-t("#F53CBE#%s resists the stunning blow!", "#F53CBE#%s resists the stunning blow!", "logSeen")
-t("#F53CBE#Your rampage is invigorated by the collosal slam! (+1 duration)", "#F53CBE#Your rampage is invigorated by the collosal slam! (+1 duration)", "logPlayer")
+		The amount of damage you can shrug off improves with your Strength.]], [[Rien ne saurait stopper votre déchaînement.
+		Bonus de déchaînement : vous ignorez jusqu'à %d points de dégâts à chaque tour pendant votre déchaînement. Si vous ignorez plus de %d points de dégâts, la durée du déchaînement augmente de 1 tour.
+		La quantité de dégâts ignorés est proportionnel à votre Force.]], "tformat")
+t("Slam", "Fracas", "talent name")
+t("You must be rampaging to use this talant.", "Vous devez être en état de déchaînement pour utiliser ce talent.", "logPlayer")
+t("#F53CBE#%s slams %s!", "#F53CBE#%s fracasse %s !", "logSeen")
+t("#F53CBE#%s resists the stunning blow!", "#F53CBE#%s résiste au coup assommant !", "logSeen")
+t("#F53CBE#Your rampage is invigorated by the collosal slam! (+1 duration)", "#F53CBE#Votre déchaînement est ravivée par ce fracas colossal ! (+1 tour)", "logPlayer")
 t([[While rampaging, you slam up to %d adjacent opponents, stunning them for %d turns and damaging them for between %d and %d physical damage. Your first slam of at least two opponents increases the rampage duration by 1.
-		Damage increases with your Physical Power.]], [[While rampaging, you slam up to %d adjacent opponents, stunning them for %d turns and damaging them for between %d and %d physical damage. Your first slam of at least two opponents increases the rampage duration by 1.
-		Damage increases with your Physical Power.]], "tformat")
---]==]
-
+		Damage increases with your Physical Power.]], [[Sous déchaînement, vous fracassez jusqu'à %d adversaires adjacents, les assommants pendant %d tours et leur infligeant entre %d et %d dégâts physiques. Votre premier fracas touchant au moins deux adversaires augmente la durée du déchaînement de 1 tour.
+		Les dégâts sont proportionnels à votre puissance physique.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/self-hatred.lua"
 
-t("Self-Judgement", "Autocritique", "talent name")
-t("an attack", "une attaque", "_t")
-t("damage", "dégâts", "_t")
--- texte non traduit
---[==[
-t("Self-Sacrifice", "Self-Sacrifice", "talent name")
-t("You can only use this while in combat", "You can only use this while in combat", "logPlayer")
+t("Self-Sacrifice", "Abnégation", "talent name")
+t("You can only use this while in combat", "Vous ne pouvez utiliser ceci qu'en combat.", "logPlayer")
 t([[At the start of each turn, if you're bleeding, you gain %d hate.
 
-You can activate this talent to use your own life for power, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.]], [[At the start of each turn, if you're bleeding, you gain %d hate.
+You can activate this talent to use your own life for power, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.]], [[Au début de chaque tour, si vous saignez, vous gagnez %d de haine.
 
-You can activate this talent to use your own life for power, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.]], "tformat")
-t("Self-Loathing", "Self-Loathing", "talent name")
+Vous pouvez activer ce talent pour puiser votre puissance dans votre propre vie, ce qui vous inflige un saignement équivalent à une petite partie de vos points de vie maximaux (%0.2f dégâts) au cours des 5 prochains tours. Ce saignement ne peut être ni résisté ni retiré, mais peut être réduit par Marqué par le Sang.]], "tformat")
+t("Self-Loathing", "Aversion de Soi", "talent name")
 t([[Increases critical chance by %d%% (at all times) and critical strike power by up to %d%% (based on hate).
 
-#{italic}#Anger makes you strong. And you're always angry.#{normal}#]], [[Increases critical chance by %d%% (at all times) and critical strike power by up to %d%% (based on hate).
+#{italic}#Anger makes you strong. And you're always angry.#{normal}#]], [[Augmente les chances de coup critique de %d%% (en permanence) et la puissance des coups critiques jusqu'à %d%% (selon la haine).
 
-#{italic}#Anger makes you strong. And you're always angry.#{normal}#]], "tformat")
-t("Self-Destruction", "Self-Destruction", "talent name")
-t("#CRIMSON#%d#LAST#", "#CRIMSON#%d#LAST#", "tformat")
-t("tore themself apart", "tore themself apart", "_t")
+#{italic}#La colère vous rend fort. Et vous êtes toujours en colère.#{normal}#]], "tformat")
+t("Self-Destruction", "Autodestruction", "talent name")
+t("tore themself apart", "s'est mis en pièces", "_t")
 t([[Call upon your deepest reserves of strength to win no matter the cost. 
 Immediately upon activation and every turn while this talent is active, your detrimental effects expire and your talents cool down as if an extra turn had passed. 
 This bonus cooldown occurs even if your talents would not normally cool down.
 This talent deactivates automatically upon rest.
 This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
 
-#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], [[Call upon your deepest reserves of strength to win no matter the cost. 
-Immediately upon activation and every turn while this talent is active, your detrimental effects expire and your talents cool down as if an extra turn had passed. 
-This bonus cooldown occurs even if your talents would not normally cool down.
-This talent deactivates automatically upon rest.
-This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
+#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], [[Vous puisez dans vos réserves de force les plus profondes pour vaincre, quel qu'en soit le coût.
+Immédiatement après l'activation, puis à chaque tour tant que ce talent est actif, vos effets néfastes expirent et vos talents récupèrent comme si un tour supplémentaire s'était écoulé.
+Ce bonus de récupération s'applique même si vos talents ne devraient normalement pas récupérer.
+Ce talent se désactive automatiquement lors du repos.
+Cette force a un prix : vous perdez %d%% de vos points de vie maximaux à chaque tour. Cela peut vous tuer.
 
-#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], "tformat")
-t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "logCombat")
-t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d bled out#LAST#%s)#LAST#", "tformat")
+#{italic}#Avec un peu de chance, cela vous prendra tout ce que vous avez.#{normal}#]], "tformat")
+t("Self-Judgement", "Autocritique", "talent name")
+t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target# souffre de %s de la part de #Source#, atténuant le coup !#LAST#.", "logCombat")
+t("an attack", "une attaque", "_t")
+t("damage", "dégâts", "_t")
+t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d saigné#LAST#%s)#LAST#", "tformat")
 t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
 
-#{italic}#You can't just die. That would be too easy.#{normal}#]], [[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
+#{italic}#You can't just die. That would be too easy.#{normal}#]], [[Tout dégât direct qui excède %d%% de vos points de vie maximaux voit son excédent converti en une blessure superficielle qui saigne au cours des %d prochains tours. Ce saignement ne peut être ni résisté ni retiré, mais peut être réduit par Marqué par le Sang. Les coups extrêmement puissants (plus de %d%% de vos points de vie max) ne sont pas totalement convertis.
 
-#{italic}#You can't just die. That would be too easy.#{normal}#]], "tformat")
+#{italic}#Vous ne pouvez pas juste mourir. Ce serait trop facile.#{normal}#]], "tformat")
+-- texte non traduit
+--[==[
+t("#CRIMSON#%d#LAST#", "#CRIMSON#%d#LAST#", "tformat")
 --]==]
 
 
@@ -22886,80 +22855,72 @@ t([[Focus your shadows on a single target. Friendly targets will be defended for
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/slaughter.lua"
 
-t("Frenzy", "Frénésie", "talent name")
-t("Big", "Grande", "_t")
-t("Small", "Petite", "_t")
--- texte non traduit
---[==[
-t("Slash", "Slash", "talent name")
-t("You require a mainhand weapon to use this talent.", "You require a mainhand weapon to use this talent.", "logPlayer")
+t("Slash", "Entaille", "talent name")
+t("You require a mainhand weapon to use this talent.", "Vous devez équiper une arme dans votre main principale pour utiliser ce talent.", "logPlayer")
 t([[You slash wildly at your target for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage.
 		At level 3, any wound you inflict with this carries a part of your curse, reducing the effectiveness of healing by %d%% for %d turns. The effect will stack.
 		The damage multiplier increases with your Strength.
 
-		This talent will also attack with your shield, if you have one equipped.]], [[You slash wildly at your target for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage.
-		At level 3, any wound you inflict with this carries a part of your curse, reducing the effectiveness of healing by %d%% for %d turns. The effect will stack.
-		The damage multiplier increases with your Strength.
+		This talent will also attack with your shield, if you have one equipped.]], [[Vous entaillez sauvagement votre cible pour lui infliger de %d%% (de 0 Haine) à %d%% (à 100+ Haine) dégâts d'arme.
+		Au niveau 3, toute blessure infligée propage une partie de votre malédiction, réduisant l'efficacité des soins de %d%% pendant %d tours. Cet effet est cumulable.
+		Le multiplicateur de dégâts est proportionnel à votre Force.
 
-		This talent will also attack with your shield, if you have one equipped.]], "tformat")
+		Ce talent déclenche aussi une attaque avec votre bouclier si vous en avez un d'équipé.]], "tformat")
+t("Frenzy", "Frénésie", "talent name")
 t([[Assault nearby foes with 4 fast attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Stalked prey are always targeted if nearby.
 		At level 3 the intensity of your assault overwhelms anyone who is struck, reducing their Defense by %d for 4 turns.
 		The damage multiplier and Defense reduction increase with your Strength.
 
-		This talent will also attack with your shield, if you have one equipped.]], [[Assault nearby foes with 4 fast attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Stalked prey are always targeted if nearby.
-		At level 3 the intensity of your assault overwhelms anyone who is struck, reducing their Defense by %d for 4 turns.
-		The damage multiplier and Defense reduction increase with your Strength.
+		This talent will also attack with your shield, if you have one equipped.]], [[Vous agressez les ennemis proches avec 4 attaques rapides infligeant chacune de %d%% (de 0 Haine) à %d%% (à 100+ Haine) dégâts d'arme. Les proies traquées sont ciblées en priorité si elles sont à portée.
+		Au niveau 3, l'intensité de votre assaut submerge les cibles touchées, réduisant leur Défense de %d pendant 4 tours.
+		Le multiplicateur de dégâts et la réduction de Défense sont proportionnels à votre Force.
 
-		This talent will also attack with your shield, if you have one equipped.]], "tformat")
-t("Reckless Charge", "Reckless Charge", "talent name")
-t("#Source# knocks back #Target#!", "#Source# knocks back #Target#!", "logCombat")
-t("#Target# blocks #Source#!", "#Target# blocks #Source#!", "logCombat")
-t("Medium-sized", "Medium-sized", "_t")
-t("Charge through your opponents, attacking anyone near your path for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. %s opponents may be knocked away from your path. You can attack a maximum of %d times, and can hit targets along your path more than once.", "Charge through your opponents, attacking anyone near your path for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. %s opponents may be knocked away from your path. You can attack a maximum of %d times, and can hit targets along your path more than once.", "tformat")
-t("Cleave", "Cleave", "talent name")
-t("#Source# cleaves through #Target#!", "#Source# cleaves through #Target#!", "logCombat")
+		Ce talent déclenche aussi une attaque avec votre bouclier si vous en avez un d'équipé.]], "tformat")
+t("Reckless Charge", "Charge Téméraire", "talent name")
+t("#Source# knocks back #Target#!", "#Source# repousse #Target# !", "logCombat")
+t("#Target# blocks #Source#!", "#Target# bloque #Source# !", "logCombat")
+t("Big", "Grande", "_t")
+t("Medium-sized", "Moyenne", "_t")
+t("Small", "Petite", "_t")
+t("Charge through your opponents, attacking anyone near your path for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. %s opponents may be knocked away from your path. You can attack a maximum of %d times, and can hit targets along your path more than once.", "Vous chargez à travers vos adversaires, attaquant quiconque se trouve près de votre trajectoire pour infliger de %d%% (de 0 Haine) à %d%% (à 100+ Haine) dégâts d'arme. Les cibles de taille %s peuvent être repoussées hors de votre chemin. Vous pouvez attaquer un maximum de %d fois et frapper la même cible plusieurs fois si elle reste sur votre trajectoire.", "tformat")
+t("Cleave", "Fendre", "talent name")
+t("#Source# cleaves through #Target#!", "#Source# fend #Target# !", "logCombat")
 t([[While active, every swing of your weapon strikes strikes other adjacent enemies for %d%% (at 0 hate) to %d%% (at 100 hate) physical damage. The recklessness of your attacks brings you bad luck (luck -3).
 		Cleave, Repel and Surge cannot be active simultaneously, and activating one will place the others in cooldown.
 		Cleave will deal 25%% additional damage while using a two-handed weapon.
-		The Cleave damage increases with your Strength.]], [[While active, every swing of your weapon strikes strikes other adjacent enemies for %d%% (at 0 hate) to %d%% (at 100 hate) physical damage. The recklessness of your attacks brings you bad luck (luck -3).
-		Cleave, Repel and Surge cannot be active simultaneously, and activating one will place the others in cooldown.
-		Cleave will deal 25%% additional damage while using a two-handed weapon.
-		The Cleave damage increases with your Strength.]], "tformat")
---]==]
-
+		The Cleave damage increases with your Strength.]], [[Tant que ce talent est actif, chaque coup de votre arme frappe également les autres ennemis adjacents pour infliger de %d%% (de 0 Haine) à %d%% (à 100+ Haine) de dégâts physiques. L'imprudence de vos attaques vous porte malchance (Chance -3).
+		Fendre, Repousser et Élan ne peuvent pas être actifs simultanément ; l'activation de l'un mettra les autres en rechargement.
+		Fendre inflige 25%% de dégâts supplémentaires si vous maniez une arme à deux mains.
+		Les dégâts de Fendre sont proportionnels à votre Force.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/strife.lua"
 
-t("Blindside", "Angle Mort", "talent name")
--- texte non traduit
---[==[
-t("Dominate", "Dominate", "talent name")
+t("Dominate", "Domination", "talent name")
 t([[Turn your attention to a nearby foe, and dominate them with your overwhelming presence. If the target fails to save versus your Mindpower, it will be unable to move for %d turns and vulnerable to attacks. They will lose %d Armour, %d Defense and your attacks will gain %d%% resistance penetration. If the target is adjacent to you, your domination will include a melee attack.
 		Effects will improve with your Willpower.
 
-		This talent will also attack with your shield, if you have one equipped.]], [[Turn your attention to a nearby foe, and dominate them with your overwhelming presence. If the target fails to save versus your Mindpower, it will be unable to move for %d turns and vulnerable to attacks. They will lose %d Armour, %d Defense and your attacks will gain %d%% resistance penetration. If the target is adjacent to you, your domination will include a melee attack.
-		Effects will improve with your Willpower.
+		This talent will also attack with your shield, if you have one equipped.]], [[Vous tournez votre attention vers un ennemi proche et le dominez par votre présence écrasante. Si la cible échoue à sa sauvegarde contre votre Puissance Mentale, elle sera incapable de se déplacer pendant %d tours et vulnérable aux attaques. Elle perdra %d d'armure, %d de défense, et vos attaques gagneront %d%% de pénétration de résistance. Si la cible est adjacente, votre domination inclut une attaque au corps à corps.
+		Les effets sont proportionnels à votre Volonté.
 
-		This talent will also attack with your shield, if you have one equipped.]], "tformat")
-t("Preternatural Senses", "Preternatural Senses", "talent name")
+		Ce talent déclenche aussi une attaque avec votre bouclier si vous en avez un d'équipé.]], "tformat")
+t("Preternatural Senses", "Sens surnaturels", "talent name")
 t([[Your preternatural senses aid you in your hunt for the next victim. You sense foes in a radius of %0.1f. You will always sense a stalked victim in a radius of 10.
 		Also increases stealth detection by %d and invisibility detection by %d.
-		Stealth and invisibility detection improves with your Willpower]], [[Your preternatural senses aid you in your hunt for the next victim. You sense foes in a radius of %0.1f. You will always sense a stalked victim in a radius of 10.
-		Also increases stealth detection by %d and invisibility detection by %d.
-		Stealth and invisibility detection improves with your Willpower]], "tformat")
-t("The blindside fizzles!", "The blindside fizzles!", "logSeen")
+		Stealth and invisibility detection improves with your Willpower]], [[Vos sens surnaturels vous guident dans la traque de votre prochaine victime. Vous détectez les ennemis dans un rayon de %0.1f. Vous repérerez toujours une victime traquée dans un rayon de 10.
+		Augmente également la détection de la furtivité de %d et de l'invisibilité de %d.
+		La détection de la furtivité et de l'invisibilité est proportionnel à votre Volonté.]], "tformat")
+t("Blindside", "Angle Mort", "talent name")
+t("The blindside fizzles!", "L'angle mort échoue !", "logSeen")
 t([[With blinding speed, you suddenly appear next to a target up to %d spaces away and attack for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. Your sudden appearance catches everyone off-guard, giving you %d extra Defense for 1 turn.
-		The Defense boost improves with your Strength.]], [[With blinding speed, you suddenly appear next to a target up to %d spaces away and attack for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. Your sudden appearance catches everyone off-guard, giving you %d extra Defense for 1 turn.
-		The Defense boost improves with your Strength.]], "tformat")
-t("Repel", "Repel", "talent name")
+		The Defense boost improves with your Strength.]], [[Avec une vitesse fulgurante, vous apparaissez soudainement aux côtés d'une cible située jusqu'à %d cases de distance et l'attaquez pour infliger de %d%% (de 0 Haine) à %d%% (à 100+ Haine) dégâts d'arme. Votre apparition soudaine prend vos adversaires au dépourvu, vous octroyant %d de défense supplémentaire pendant 1 tour.
+		Le bonus de défense est proportionnel à votre Force.]], "tformat")
+t("Repel", "Repousser", "talent name")
 t([[Rather than hide from the onslaught, you face down every threat. While active you have a %d%% chance of repelling a melee attack. The recklessness of your defense brings you bad luck (Luck -3).
 		Cleave, Repel and Surge cannot be active simultaneously, and activating one will place the others in cooldown.
-		Repel chance increases with your Strength and by 20%% when equipped with a shield.]], [[Rather than hide from the onslaught, you face down every threat. While active you have a %d%% chance of repelling a melee attack. The recklessness of your defense brings you bad luck (Luck -3).
-		Cleave, Repel and Surge cannot be active simultaneously, and activating one will place the others in cooldown.
-		Repel chance increases with your Strength and by 20%% when equipped with a shield.]], "tformat")
---]==]
-
+		Repel chance increases with your Strength and by 20%% when equipped with a shield.]], [[Plutôt que de fuir l'assaut, vous affrontez chaque menace de face. Tant que ce talent est actif, vous avez %d%% chances de repousser une attaque au corps à corps. L'imprudence de votre posture défensive vous porte malheur (Chance -3).
+		Fendre, Repousser et Élan ne peuvent pas être actifs simultanément ; l'activation de l'un mettra les autres en rechargement.
+		Les chances de repousser sont proportionnels à votre Force, et de 20%% si vous êtes équipé d'un bouclier.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/traveler.lua"
