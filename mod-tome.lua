@@ -11309,8 +11309,8 @@ Any lightning damage you do that is more than 10% of the victim's maximum life w
 Upon taking lightning damage >10% of your max life, your mind fires back, dealing 30% of the original damage as mind and trying to brainlock the target.
 Upon taking mind damage >10% of your max life, you reflexively trigger the jolt, sending an arc of dazing lightning toward the target (damage based on mindpower).
 This item can have up to 2 charges, with each charge having 4 turn cooldown.]], [[Votre esprit est en accord avec l'électricité.
-Tous les dégâts de foudre que vous infligez et qui représentent plus de 10% de la vie maximale de la victime tentent de bloquer le cerveau de la cible.
-Si vous subissez des dégâts de foudre >10% de votre vie maximale, votre esprit riposte, infligeant 30% des dégâts initiaux en mentaux et tentant de paralyser mentalement la cible.
+Tous les dégâts de foudre que vous infligez et qui représentent plus de 10% de la vie maximale de la victime tentent une Paralysie Mentale de la cible.
+Si vous subissez des dégâts de foudre >10% de votre vie maximale, votre esprit riposte, infligeant 30% des dégâts initiaux en mentaux et tentant une Paralysie Mentale sur la cible.
 Si vous subissez des dégâts d'esprit >10% de votre vie maximale, vous déclenchez par réflexe la secousse, envoyant un arc de foudre étourdissant vers la cible (dégâts basés sur la puissance de l'esprit).
 Cet objet peut avoir jusqu'à 2 charges, chaque charge ayant un temps de recharge de 4 tours.]], "_t")
 t("Stormfront", "Front Tempêtueux", "entity name")
@@ -22110,35 +22110,31 @@ t(" (%s)", " (%s)", "tformat")
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/advanced-shadowmancy.lua"
 
-t("Stone", "Pierre", "talent name")
--- texte non traduit
---[==[
-t("Merge", "Merge", "talent name")
+t("Merge", "Fusion", "talent name")
 t([[Target a nearby shadow, and command it to merge into a nearby enemy, reducing their damage by %d%% for 5 turns.
-		Killing your shadow releases some of your inner hatred, restoring 8 Hate to yourself.]], [[Target a nearby shadow, and command it to merge into a nearby enemy, reducing their damage by %d%% for 5 turns.
-		Killing your shadow releases some of your inner hatred, restoring 8 Hate to yourself.]], "tformat")
+		Killing your shadow releases some of your inner hatred, restoring 8 Hate to yourself.]], [[Ordonne à une ombre proche de fusionner dans un ennemi proche, réduisant ses dégâts de %d%% pendant 5 tours.
+		Tuer votre ombre libère une partie de votre haine intérieure, vous restaurant 8 points de Haine.]], "tformat")
+t("Stone", "Pierre", "talent name")
 t([[Target a nearby shadow, and force it to slam into a nearby enemy, dealing %0.1f Physical damage.
 		Your shadow will then set them as their target, and they will target your shadow.
-		Damage increases with your Mindpower.]], [[Target a nearby shadow, and force it to slam into a nearby enemy, dealing %0.1f Physical damage.
-		Your shadow will then set them as their target, and they will target your shadow.
-		Damage increases with your Mindpower.]], "tformat")
-t("Shadow's Path", "Shadow's Path", "talent name")
-t("You need a shadow in sight range!", "You need a shadow in sight range!", "logPlayer")
+		Damage increases with your Mindpower.]], [[Ordonne à une ombre proche de se précipiter sur un ennemi proche, lui infligeant %0.1f dégâts Physiques.
+		Votre ombre ciblera alors l'ennemi, et l'ennemi ciblera votre ombre.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Shadow's Path", "Chemin des Ombres", "talent name")
+t("You need a shadow in sight range!", "Vous avez besoin d'une ombre à portée de vue !", "logPlayer")
 t([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
 		Each successive shadow deal 40%% less damage.
 		For the purpose of this talent, you force your shadows through any walls in their way.
-		Damage increases with your Mindpower.]], [[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
-		Each successive shadow deal 40%% less damage.
-		For the purpose of this talent, you force your shadows through any walls in their way.
-		Damage increases with your Mindpower.]], "tformat")
-t("Cursed Bolt", "Cursed Bolt", "talent name")
+		Damage increases with your Mindpower.]], [[Ordonne à toutes les Ombres à vue de se téléporter vers un emplacement cible, infligeant %0.1f dégâts Physiques à tous les ennemis qu'elles traversent.
+		Chaque ombre successive inflige 40%% de dégâts en moins.
+		Pour ce talent, vous forcez vos ombres à traverser tous les murs sur leur chemin.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Cursed Bolt", "Rayon Maudit", "talent name")
 t([[Share your hatred with all shadows within sight range, gaining temporary full control. You then fire a blast of pure hatred from all affected shadows, dealing %0.1f Mind damage per blast.
 		You cannot cancel this talent once the first bolt is cast.
-		Damage increases with your Mindpower.]], [[Share your hatred with all shadows within sight range, gaining temporary full control. You then fire a blast of pure hatred from all affected shadows, dealing %0.1f Mind damage per blast.
-		You cannot cancel this talent once the first bolt is cast.
-		Damage increases with your Mindpower.]], "tformat")
---]==]
-
+		Damage increases with your Mindpower.]], [[Partage votre haine avec toutes les ombres à portée de vue, prenant temporairement le contrôle total. Vous tirez ensuite un rayon de haine pure depuis toutes les ombres affectées, infligeant %0.1f dégâts Mentaux par rayon.
+		Vous ne pouvez pas annuler ce talent une fois le premier rayon lancé.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/bloodstained.lua"
@@ -22378,61 +22374,54 @@ t("You hide your terrible nature behind a pitiful figure. Those that see you fro
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/dark-sustenance.lua"
 
-
--- texte non traduit
---[==[
-t("Feed", "Feed", "talent name")
-t("You can only gain sustenance from your foes!", "You can only gain sustenance from your foes!", "logPlayer")
+t("Feed", "Dévorer", "talent name")
+t("You can only gain sustenance from your foes!", "Vous ne pouvez obtenir de sustentance de vos ennemis !", "logPlayer")
 t([[Feed from the essence of your enemy. Draws %0.1f hate per turn from a targeted foe, as long as they remain in your line of sight.
 			If you aren't already feeding this will be automatically applied to the nearest enemy.
-		Hate gain improves with your Mindpower.]], [[Feed from the essence of your enemy. Draws %0.1f hate per turn from a targeted foe, as long as they remain in your line of sight.
-			If you aren't already feeding this will be automatically applied to the nearest enemy.
-		Hate gain improves with your Mindpower.]], "tformat")
-t("Devour Life", "Devour Life", "talent name")
+		Hate gain improves with your Mindpower.]], [[Se nourrit de l'essence de votre ennemi. Draine %0.1f haine par tour à un ennemi ciblé, tant qu'il reste dans votre ligne de vue.
+		Si vous ne vous nourrissez pas déjà, cela s'appliquera automatiquement à l'ennemi le plus proche.
+		Le gain de haine est proportionel à votre Puissance Mentale.]], "tformat")
+t("Devour Life", "Dévorer la Vie", "talent name")
 t([[Devours life from the target of your feeding reducing their life regeneration by %d and adding half of that to yours.
-		Improves with your Mindpower.]], [[Devours life from the target of your feeding reducing their life regeneration by %d and adding half of that to yours.
-		Improves with your Mindpower.]], "tformat")
-t("Feed Power", "Feed Power", "talent name")
+		Improves with your Mindpower.]], [[Améliore votre alimentation en réduisant la régénération de vie de l'ennemi de %d et en ajoutant la moitié de cette valeur à la vôtre.
+		Est proportionel à votre Puissance Mentale.]], "tformat")
+t("Feed Power", "Dévorer la Puissance", "talent name")
 t([[Enhances your feeding by reducing your targeted foe's damage by %d%%, and increasing yours by the same amount.
-		Improves with your Mindpower.]], [[Enhances your feeding by reducing your targeted foe's damage by %d%%, and increasing yours by the same amount.
-		Improves with your Mindpower.]], "tformat")
-t("Feed Strengths", "Feed Strengths", "talent name")
+		Improves with your Mindpower.]], [[Améliore votre alimentation en réduisant les dégâts de l'ennemi ciblé de %d%%, et en augmentant les vôtres de la même proportion.
+		Est proportionel à votre Puissance Mentale.]], "tformat")
+t("Feed Strengths", "Dévorer les Forces", "talent name")
 t([[Enhances your feeding by reducing your targeted foe's resistances, multiplying them by %0.2f and increasing your resistances by the amount drained. Resistance to "all" is not affected.
-		Improves with your Mindpower.]], [[Enhances your feeding by reducing your targeted foe's resistances, multiplying them by %0.2f and increasing your resistances by the amount drained. Resistance to "all" is not affected.
-		Improves with your Mindpower.]], "tformat")
---]==]
-
+		Improves with your Mindpower.]], [[Améliore votre alimentation en réduisant les résistances de l'ennemi ciblé, les multipliant par %0.2f et en augmentant vos résistances du montant drainé. La résistance "globale" n'est pas affectée.
+		Est proportionel à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/darkness.lua"
 
-
--- texte non traduit
---[==[
-t("dark tendril", "dark tendril", "_t")
-t("The dark tendrils dissipate.", "The dark tendrils dissipate.", "logSeen")
-t("The dark tendrils lash at %s.", "The dark tendrils lash at %s.", "logSeen")
-t("Creeping Darkness", "Creeping Darkness", "talent name")
-t("%s's creeping dark", "%s's creeping dark", "tformat")
+t("dark tendril", "vrille sombre", "_t")
+t("The dark tendrils dissipate.", "Les vrilles sombres se dissipent.", "logSeen")
+t("The dark tendrils lash at %s.", "Les vrilles sombres s'élancent sur %s.", "logSeen")
+t("Creeping Darkness", "Obscurité Rampante", "talent name")
+t("%s's creeping dark", "obscurité rampante de %s", "tformat")
 t([[Creeping dark slowly spreads from the target location and %d spots in a radius of %d around the targeted location. The dark deals %0.2f darkness damage each turn to anything in its area, and blocks the sight of any who do not possess Dark Vision or some other magical means of seeing. The darkness seeps into adjacent tiles at random and slowly dissipates over time.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Creeping dark slowly spreads from the target location and %d spots in a radius of %d around the targeted location. The dark deals %0.2f darkness damage each turn to anything in its area, and blocks the sight of any who do not possess Dark Vision or some other magical means of seeing. The darkness seeps into adjacent tiles at random and slowly dissipates over time.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
-t("Dark Vision", "Dark Vision", "talent name")
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[L'obscurité rampante se répand lentement depuis l'emplacement ciblé et %d autres endroits dans un rayon de %d autour de l'emplacement ciblé. L'obscurité inflige %0.2f dégâts d'obscurité à chaque tour à tout ce qui se trouve dans sa zone, et bloque la vue de quiconque ne possède pas de Vision dans l'Obscurité ou d'autre moyen magique de voir. L'obscurité s'infiltre dans les cases adjacentes aléatoirement et se dissipe lentement avec le temps.
+		Vous infligez +%d%% de dégâts à tout ce qui est entré dans votre obscurité rampante.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Dark Vision", "Vision dans l'Obscurité", "talent name")
 t([[Your eyes penetrate the darkness to find anyone that may be hiding there. This allows you to see through creeping darkness out to a radius of %d. You can also find your way through the darkness with greater speed (+%d%% movement into creeping darkness).
-		You do +%d%% damage to anything that has entered your creeping dark.]], [[Your eyes penetrate the darkness to find anyone that may be hiding there. This allows you to see through creeping darkness out to a radius of %d. You can also find your way through the darkness with greater speed (+%d%% movement into creeping darkness).
-		You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
-t("Dark Torrent", "Dark Torrent", "talent name")
+		You do +%d%% damage to anything that has entered your creeping dark.]], [[Vos yeux pénètrent l'obscurité pour trouver quiconque pourrait s'y cacher. Cela vous permet de voir à travers l'obscurité rampante dans un rayon de %d. Vous pouvez également vous frayer un chemin dans l'obscurité avec une plus grande vitesse (+%d%% de mouvement dans l'obscurité rampante).
+		Vous infligez +%d%% de dégâts à tout ce qui est entré dans votre obscurité rampante.]], "tformat")
+t("Dark Torrent", "Torrent Sombre", "talent name")
 t([[Sends a torrent of searing darkness through your foes, doing %d darkness damage. There is a 25%% chance the rushing darkness will blind them for 3 turns and cause them to lose track of their target.
 		If you know the Creeping Darkness talent, a short-lived trail of darkness is left in the beam's wake. Its damage is identical to that of Creeping Darkness's.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Sends a torrent of searing darkness through your foes, doing %d darkness damage. There is a 25%% chance the rushing darkness will blind them for 3 turns and cause them to lose track of their target.
-		If you know the Creeping Darkness talent, a short-lived trail of darkness is left in the beam's wake. Its damage is identical to that of Creeping Darkness's.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
-t("Dark Tendrils", "Dark Tendrils", "talent name")
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Envoie un torrent d'obscurité ardente à travers vos ennemis, infligeant %d dégâts d'obscurité. Il y a 25%% de chance que l'obscurité les aveugle pendant 3 tours et leur fasse perdre la trace de leur cible.
+		Si vous connaissez le talent Obscurité Rampante, un court sillage d'obscurité est laissé dans le sillage du faisceau. Ses dégâts sont identiques à ceux de l'Obscurité Rampante.
+		Vous infligez +%d%% de dégâts à tout ce qui est entré dans votre obscurité rampante.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Dark Tendrils", "Vrilles Sombres", "talent name")
 t([[Spawn tendrils of darkness to pursue a single target for up to 12 turns, leaving behind a trail of creeping darkness as they move. Targets seized by the tendrils are pinned for %d turns and shrouded in darkness. The darkness deals %0.2f damage per turn to those within.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Spawn tendrils of darkness to pursue a single target for up to 12 turns, leaving behind a trail of creeping darkness as they move. Targets seized by the tendrils are pinned for %d turns and shrouded in darkness. The darkness deals %0.2f damage per turn to those within.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], "tformat")
---]==]
-
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[Fait surgir des vrilles d'obscurité pour poursuivre une seule cible pendant jusqu'à 12 tours, laissant derrière elles un sillage d'obscurité rampante à mesure qu'elles se déplacent. Les cibles saisies par les vrilles sont immobilisées pendant %d tours et enveloppées d'obscurité. L'obscurité inflige %0.2f dégâts par tour à ceux qui se trouvent à l'intérieur.
+		Vous infligez +%d%% de dégâts à tout ce qui est entré dans votre obscurité rampante.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/endless-hunt.lua"
@@ -22509,75 +22498,67 @@ t("Panic your enemies within a range of %d for %d turns. Anyone who fails to mak
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/force-of-will.lua"
 
-t("Unseen Force", "Force Invisible", "talent name")
--- texte non traduit
---[==[
-t("Willful Strike", "Willful Strike", "talent name")
-t("#Source# was blasted %d spaces into #Target#!", "#Source# was blasted %d spaces into #Target#!", "logCombat")
-t("#Source# was blasted into #Target#!", "#Source# was blasted into #Target#!", "logCombat")
-t("%s was smashed back %d spaces!", "%s was smashed back %d spaces!", "logSeen")
-t("%s was smashed!", "%s was smashed!", "logSeen")
-t("%s was blasted back %d spaces!", "%s was blasted back %d spaces!", "logSeen")
+t("Willful Strike", "Frappe Volontaire", "talent name")
+t("#Source# was blasted %d spaces into #Target#!", "#Source# a été projeté de %d cases sur #Target# !", "logCombat")
+t("#Source# was blasted into #Target#!", "#Source# a été projeté sur #Target# !", "logCombat")
+t("%s was smashed back %d spaces!", "%s a été violemment repoussé de %d cases !", "logSeen")
+t("%s was smashed!", "%s a été fracassé !", "logSeen")
+t("%s was blasted back %d spaces!", "%s a été projeté de %d cases en arrière !", "logSeen")
 t([[Focusing your hate, you strike your foe with unseen force for %d damage and %d knockback.
 		In addition, your ability to channel force with this talent increases all critical damage by %d%% (currently: %d%%)
-		Damage increases with your Mindpower.]], [[Focusing your hate, you strike your foe with unseen force for %d damage and %d knockback.
-		In addition, your ability to channel force with this talent increases all critical damage by %d%% (currently: %d%%)
-		Damage increases with your Mindpower.]], "tformat")
-t("Deflection", "Deflection", "talent name")
-t("Deflection (%d)", "Deflection (%d)", "tformat")
-t("You have deflected %d incoming damage!", "You have deflected %d incoming damage!", "logPlayer")
+		Damage increases with your Mindpower.]], [[En concentrant votre haine, vous frappez votre ennemi d'une force invisible pour lui infliger %d dégâts et provoque un recul de %d cases.
+		De plus, votre capacité à canaliser la force avec ce talent augmente tous vos dégâts critiques de %d%% (actuellement : %d%%).
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Deflection", "Déviation", "talent name")
+t("Deflection (%d)", "Déviation (%d)", "tformat")
+t("You have deflected %d incoming damage!", "Vous avez dévié %d points de dégâts subis !", "logPlayer")
 t([[Create a barrier that siphons hate from you at the rate of 0.2 a turn. The barrier will deflect 50%% of incoming damage with the force of your will, up to %d damage. The barrier charges at a rate of 1/%d of its maximum charge per turn.
 		In addition, your ability to channel force with this talent increases all critical damage by %d%% (currently: %d%%)
-		The maximum damage deflected increases with your Mindpower.]], [[Create a barrier that siphons hate from you at the rate of 0.2 a turn. The barrier will deflect 50%% of incoming damage with the force of your will, up to %d damage. The barrier charges at a rate of 1/%d of its maximum charge per turn.
-		In addition, your ability to channel force with this talent increases all critical damage by %d%% (currently: %d%%)
-		The maximum damage deflected increases with your Mindpower.]], "tformat")
-t("Blast", "Blast", "talent name")
+		The maximum damage deflected increases with your Mindpower.]], [[Crée une barrière qui siphonne votre haine au rythme de 0,2 par tour. La barrière dévie 50%% des dégâts subis grâce à la force de votre volonté, jusqu'à un maximum de %d dégâts. La barrière se recharge à un rythme de 1/%d de sa charge maximale par tour.
+		De plus, votre capacité à canaliser la force avec ce talent augmente tous vos dégâts critiques de %d%% (actuellement : %d%%).
+		Les dégâts maximaux déviés sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Blast", "Déflagration", "talent name")
 t([[You rage coalesces at a single point, and then explodes outward, blasting enemies within a radius of %d in all directions. The blast causes %d damage and %d knockback at the center, that decreases with distance. Anyone caught in the explosion will also be dazed for 3 turns.
 		In addition, your ability to channel force with this talent increases all critical damage by %d%% (currently: %d%%)
-		Damage increases with your Mindpower.]], [[You rage coalesces at a single point, and then explodes outward, blasting enemies within a radius of %d in all directions. The blast causes %d damage and %d knockback at the center, that decreases with distance. Anyone caught in the explosion will also be dazed for 3 turns.
-		In addition, your ability to channel force with this talent increases all critical damage by %d%% (currently: %d%%)
-		Damage increases with your Mindpower.]], "tformat")
+		Damage increases with your Mindpower.]], [[Votre rage se focalise en un point unique avant d'exploser vers l'extérieur, projetant les ennemis dans un rayon de %d dans toutes les directions. La déflagration inflige %d dégâts et provoque un recul de %d cases au centre, effets qui diminuent avec la distance. Quiconque est pris dans l'explosion sera également étourdis pendant 3 tours.
+		De plus, votre capacité à canaliser la force avec ce talent augmente tous vos dégâts critiques de %d%% (actuellement : %d%%).
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Unseen Force", "Force Invisible", "talent name")
 t([[Your fury becomes an unseen force that randomly lashes out at foes around you. For %d turns you strike %d (%d%% chance for %d) nearby target(s) within range %d doing %d damage and %d knockback. The number of extra strikes increases at higher talent levels.
 		In addition, your ability to channel force with this talent increases all critical damage by %d%% (currently: %d%%)
-		Damage increases with your Mindpower.]], [[Your fury becomes an unseen force that randomly lashes out at foes around you. For %d turns you strike %d (%d%% chance for %d) nearby target(s) within range %d doing %d damage and %d knockback. The number of extra strikes increases at higher talent levels.
-		In addition, your ability to channel force with this talent increases all critical damage by %d%% (currently: %d%%)
-		Damage increases with your Mindpower.]], "tformat")
---]==]
-
+		Damage increases with your Mindpower.]], [[Votre fureur se transforme en une force invisible qui s'acharne au hasard sur les ennemis autour de vous. Pendant %d tours, vous frappez %d (%d%% de chances pour %d) cible(s) proche(s) à une portée de %d, infligeant %d dégâts et provoque un recul de %d cases. Le nombre de frappes supplémentaires est proportionnel au niveau du talent.
+		De plus, votre capacité à canaliser la force avec ce talent augmente tous vos dégâts critiques de %d%% (actuellement : %d%%).
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/gestures.lua"
 
+t("Gesture of Pain", "Signe de Douleur", "talent name")
+t("You require two free or mindstar-equipped hands to use Gesture of Pain.", "Vous devez avoir les deux mains libres ou être équipées d'étoiles d'âme pour utiliser Signe de Douleur.", "logPlayer")
+t("%s resists the Gesture of Pain.", "%s résiste au Signe de Douleur.", "logSeen")
 t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#Vous prenez plaisir à attaquer un ennemi affaibli ! (+%d haine)", "logPlayer")
--- texte non traduit
---[==[
-t("Gesture of Pain", "Gesture of Pain", "talent name")
-t("You require two free or mindstar-equipped hands to use Gesture of Pain.", "You require two free or mindstar-equipped hands to use Gesture of Pain.", "logPlayer")
-t("%s resists the Gesture of Pain.", "%s resists the Gesture of Pain.", "logSeen")
 t([[Use a gesture of pain in place of a normal attack to assault the minds of your enemies, inflicting between %0.1f and %0.1f mind damage. If the attack succeeds, there is a %d%% chance to stun your opponent for 3 turns.
 		This strike replaces your melee physical and checks your Mindpower against your opponent's Mental Save, and is thus not affected by your Accuracy or the enemy's Defense. The base damage (doubled) and the critical chance of any Mindstars equipped are added in when this attack is performed.
 		This talent requires two free or mindstar-equipped hands and has a 25%% chance to inflict brainlock, which can critically hit. The damage will increase with your Mindpower.
 		If attacking with two mindstars the attack will trigger their proc effects, if any.
-		Mindstars bonuses from damage and physical criticals: (+%d damage, +%d critical chance)]], [[Use a gesture of pain in place of a normal attack to assault the minds of your enemies, inflicting between %0.1f and %0.1f mind damage. If the attack succeeds, there is a %d%% chance to stun your opponent for 3 turns.
-		This strike replaces your melee physical and checks your Mindpower against your opponent's Mental Save, and is thus not affected by your Accuracy or the enemy's Defense. The base damage (doubled) and the critical chance of any Mindstars equipped are added in when this attack is performed.
-		This talent requires two free or mindstar-equipped hands and has a 25%% chance to inflict brainlock, which can critically hit. The damage will increase with your Mindpower.
-		If attacking with two mindstars the attack will trigger their proc effects, if any.
-		Mindstars bonuses from damage and physical criticals: (+%d damage, +%d critical chance)]], "tformat")
-t("Gesture of Malice", "Gesture of Malice", "talent name")
+		Mindstars bonuses from damage and physical criticals: (+%d damage, +%d critical chance)]], [[Vous utilisez un Signe de Douleur à la place d'une attaque normale pour assaillir l'esprit de vos ennemis, infligeant entre %0.1f et %0.1f dégâts mentaux. Si l'attaque réussit, elle a %d%% de chances d'assommer votre adversaire pendant 3 tours.
+		Cette frappe remplace votre attaque physique au corps à corps et confronte votre puissance mentale à la sauvegarde mentale de votre adversaire ; elle n'est donc pas affectée par votre Précision ni par la Défense ennemie. Les dégâts de base (doublé) et les chances de coup critique de toutes les étoiles d'âme équipées sont pris en compte lors de cette attaque.
+		Ce talent nécessite d'avoir les deux mains libres ou équipées d'étoiles d'âme, et possède 25%% de chances d'infliger une Paralysie Mentale, qui peut être un coup critique.
+		Si vous attaquez avec deux étoiles d'âme, l'attaque déclenchera leurs effets appliqués à l'impact (procs), s'il y en a.
+		Bonus des étoiles d'âme via les dégâts et critiques physiques : (+%d dégâts, +%d de chances de critique)
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Gesture of Malice", "Signe de Malice", "talent name")
 t([[Enhance your Gesture of Pain with a malicious curse that causes any victim that is struck to have all resistances lowered by %d%% for %d turns.
-		]], [[Enhance your Gesture of Pain with a malicious curse that causes any victim that is struck to have all resistances lowered by %d%% for %d turns.
-		]], "tformat")
-t("Gesture of Power", "Gesture of Power", "talent name")
+		]], "Améliore votre Signe de Douleur avec une malédiction malveillante qui réduit toutes les résistances de toute victime touchée de %d%% pendant %d tours.", "tformat")
+t("Gesture of Power", "Signe de Puissance", "talent name")
 t([[Enhance your mental attacks with a single gesture. You gain +%d mindpower and +%d%% chance to inflict critical damage with mind-based attacks (current chance is %d%%).
-		Requires two free or mindstar-equipped hands; does not require Gesture of Pain to be sustained.]], [[Enhance your mental attacks with a single gesture. You gain +%d mindpower and +%d%% chance to inflict critical damage with mind-based attacks (current chance is %d%%).
-		Requires two free or mindstar-equipped hands; does not require Gesture of Pain to be sustained.]], "tformat")
-t("Gesture of Guarding", "Gesture of Guarding", "talent name")
-t("#F53CBE##Source# lashes back at #Target#!", "#F53CBE##Source# lashes back at #Target#!", "logCombat")
+		Requires two free or mindstar-equipped hands; does not require Gesture of Pain to be sustained.]], [[Améliore votre attaque mentale avec un signe unique. Vous gagnez +%d de puissance mentale et +%d%% de chances d'infliger des dégâts critiques avec vos attaques mentales (chances actuelles : %d%%).
+		Nécessite d'avoir les deux mains libres ou être équipées d'étoiles d'âme ; ne requiert pas que Signe de Douleur soit actif.]], "tformat")
+t("Gesture of Guarding", "Signe de Protection", "talent name")
+t("#F53CBE##Source# lashes back at #Target#!", "#F53CBE##Source# réplique contre #Target# !", "logCombat")
 t([[You guard against melee damage with a sweep of your hand. So long as you can use Gestures (Requires two free or mindstar-equipped hands), you deflect up to %d damage (%0.1f%% of your best free hand melee damage) from up to %0.1f melee attack(s) each turn (based on your cunning). Deflected attacks cannot be crits.
-		If Gesture of Pain is active, you also have a %0.1f%% chance to counterattack.]], [[You guard against melee damage with a sweep of your hand. So long as you can use Gestures (Requires two free or mindstar-equipped hands), you deflect up to %d damage (%0.1f%% of your best free hand melee damage) from up to %0.1f melee attack(s) each turn (based on your cunning). Deflected attacks cannot be crits.
-		If Gesture of Pain is active, you also have a %0.1f%% chance to counterattack.]], "tformat")
---]==]
-
+		If Gesture of Pain is active, you also have a %0.1f%% chance to counterattack.]], [[D'un revers de main, vous vous protégez contre les dégâts au corps à corps. Tant que vous pouvez utiliser les Signes (requiert deux mains libres ou être équipées d'étoiles d'âme), vous déviez jusqu'à %d dégâts (%0.1f%% des dégâts au corps à corps de votre meilleure main libre) pour un maximum de %0.1f attaque(s) au corps à corps par tour (selon votre Ruse). Les attaques déviées ne peuvent pas être des coups critiques.
+		Si Signe de Douleur est actif, vous avez également %0.1f%% de chances de contre-attaquer.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/gloom.lua"
@@ -22613,34 +22594,30 @@ t([[Your gloom has become a sanctuary from the outside world. Damage from any at
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/one-with-shadows.lua"
 
-t("Shadow Decoy", "Leurre d'Ombre", "talent name")
--- texte non traduit
---[==[
-t("Shadow Senses", "Shadow Senses", "talent name")
+t("Shadow Senses", "Sens des Ombres", "talent name")
 t([[Your awareness extends to your shadows.
-		You always know exactly where your shadows are and can perceive any foe within %d tiles of their vision.]], [[Your awareness extends to your shadows.
-		You always know exactly where your shadows are and can perceive any foe within %d tiles of their vision.]], "tformat")
-t("Shadows Empathy", "Shadows Empathy", "talent name")
+		You always know exactly where your shadows are and can perceive any foe within %d tiles of their vision.]], [[Votre conscience s'étend à vos ombres.
+		Vous savez toujours exactement où se trouvent vos ombres et pouvez percevoir tout ennemi dans un rayon de %d de leur vision.]], "tformat")
+t("Shadows Empathy", "Empathie des Ombres", "talent name")
 t([[You empathy with your shadows causes the line between you and your shadows to blur.
-		You lose %d%% light resistance, but gain %d%% darkness resistance and affinity. You also gain %0.2f%% all resistance for each shadow in your party.]], [[You empathy with your shadows causes the line between you and your shadows to blur.
-		You lose %d%% light resistance, but gain %d%% darkness resistance and affinity. You also gain %0.2f%% all resistance for each shadow in your party.]], "tformat")
-t("Shadow Transposition", "Shadow Transposition", "talent name")
+		You lose %d%% light resistance, but gain %d%% darkness resistance and affinity. You also gain %0.2f%% all resistance for each shadow in your party.]], [[Votre empathie avec vos ombres fait que la frontière entre vous et vos ombres s'estompe.
+		Vous perdez %d%% de résistance à la lumière, mais gagnez %d%% d'affinité et de résistance à l'obscurité. Vous gagnez également %0.2f%% de résistance générale pour chaque ombre dans votre groupe.]], "tformat")
+t("Shadow Transposition", "Transposition des Ombres", "talent name")
 t([[Observers find it difficult to tell you and your shadows apart.
 		You can target a shadow in radius %d and instantly trade places with it.
-		%d random negative physical or magical effects are transferred from you to the chosen shadow in the process.]], [[Observers find it difficult to tell you and your shadows apart.
-		You can target a shadow in radius %d and instantly trade places with it.
-		%d random negative physical or magical effects are transferred from you to the chosen shadow in the process.]], "tformat")
-t("#GOLD#(%d decoy)#LAST#", "#GOLD#(%d decoy)#LAST#", "tformat")
-t("#GOLD#%d decoy#LAST#", "#GOLD#%d decoy#LAST#", "tformat")
+		%d random negative physical or magical effects are transferred from you to the chosen shadow in the process.]], [[Les observateurs ont du mal à vous distinguer de vos ombres.
+		Vous pouvez cibler une ombre dans un rayon de %d et échanger instantanément votre position avec elle.
+		%d effet(s) négatif(s) physique(s) ou magique(s) aléatoire(s) sont transférés de vous à l'ombre choisie dans le processus.]], "tformat")
+t("Shadow Decoy", "Leurre d'Ombre", "talent name")
+t("#GOLD#(%d decoy)#LAST#", "#GOLD#(%d leurre)#LAST#", "tformat")
+t("#GOLD#%d decoy#LAST#", "#GOLD#%d leurre#LAST#", "tformat")
 t([[Your shadows guard you with their lives.
 		When you would receive a fatal blow, you instantly transpose with a random shadow that takes the blow instead, putting this talent on cooldown.
 		For the next 4 turns you only die if you reach -%d life.
-		Effect increases with Mindpower.]], [[Your shadows guard you with their lives.
-		When you would receive a fatal blow, you instantly transpose with a random shadow that takes the blow instead, putting this talent on cooldown.
-		For the next 4 turns you only die if you reach -%d life.
-		Effect increases with Mindpower.]], "tformat")
---]==]
-
+		Effect increases with Mindpower.]], [[Vos ombres vous protègent au péril de leur vie.
+		Lorsque vous recevriez un coup fatal, vous vous transposez instantanément avec une ombre aléatoire qui reçoit le coup à votre place, mettant ce talent en rechargement.
+		Pendant les 4 prochains tours, vous mourrez seulement si vous atteignez -%d de vie.
+		L'effet est proportionnel à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/predator.lua"
@@ -22691,34 +22668,31 @@ t([[Bathes the target in raw magic inflicting %d damage. Such wild magic is diff
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/punishments.lua"
 
-t("Hateful Whisper", "Chuchotement Pernicieux", "talent name")
-t("Agony", "Agonie", "talent name")
-t("Madness", "Folie", "talent name")
--- texte non traduit
---[==[
-t("Reproach", "Reproach", "talent name")
+t("Reproach", "Reproche", "talent name")
 t([[Utter a terrible curse against any who dare approach you, inflicting %d mind damage to targets in radius %d. Each affected target (ordered at random) takes %d%% less damage than the last, and has a 25%% chance of suffering Brainlock.
 
-The damage increases with your Mindpower.]], [[Utter a terrible curse against any who dare approach you, inflicting %d mind damage to targets in radius %d. Each affected target (ordered at random) takes %d%% less damage than the last, and has a 25%% chance of suffering Brainlock.
+The damage increases with your Mindpower.]], [[Vous proférez une terrible malédiction contre quiconque ose s'approcher de vous, infligeant %d dégâts mentaux aux cibles dans un rayon de %d. Chaque cible affectée (déterminée aléatoirement) subit %d%% dégâts de moins que la précédente, et a 25%% de chances de subir une Paralysie Mentale.
 
-The damage increases with your Mindpower.]], "tformat")
+Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Hateful Whisper", "Chuchotement Pernicieux", "talent name")
 t([[Infect a target's mind with a virulent whisper that deals %d Mind damage and spreads amongst your foes, dealing damage and feeding you %0.1f Hate for each new victim. Each turn for %d turns, the initial victim will spread the whisper to a new target within %d tiles if one is available; beyond this, all affected targets have a %d%% chance of spreading the effect each turn for 4 turns.
 
 Targets damaged by this ability have a 25%% chance of suffering Brainlock.
 
-The damage increases with your Mindpower.]], [[Infect a target's mind with a virulent whisper that deals %d Mind damage and spreads amongst your foes, dealing damage and feeding you %0.1f Hate for each new victim. Each turn for %d turns, the initial victim will spread the whisper to a new target within %d tiles if one is available; beyond this, all affected targets have a %d%% chance of spreading the effect each turn for 4 turns.
+The damage increases with your Mindpower.]], [[Vous infectez l'esprit d'une cible avec un chuchotement virulent qui inflige %d dégâts mentaux et se propage parmi vos ennemis, infligeant des dégâts et vous octroyant %0.1f Haine pour chaque nouvelle victime. À chaque tour pendant %d tours, la victime initiale propage le chuchotement à une nouvelle cible située à moins de %d cases si disponible ; au-delà de cela, toutes les cibles affectées ont %d%% de chances de propager l'effet à chaque tour pendant 4 tours.
 
-Targets damaged by this ability have a 25%% chance of suffering Brainlock.
+Les cibles blessées par cette capacité ont 25%% de chances de subir une Paralysie Mentale.
 
-The damage increases with your Mindpower.]], "tformat")
+Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Agony", "Agonie", "talent name")
 t([[Sear your hatred into the mind of a target, dealing escalating Mind damage each turn over %d turns. The victim will suffer %0.1f damage on the first turn, slowly increasing up to %0.1f damage on the last, dealing %d Mind damage in total. Re-applying the effect resets the damage escalation. The victim has a 25%% chance of suffering Brainlock each turn from the unbearable pain.
 
-The damage increases with your Mindpower.]], [[Sear your hatred into the mind of a target, dealing escalating Mind damage each turn over %d turns. The victim will suffer %0.1f damage on the first turn, slowly increasing up to %0.1f damage on the last, dealing %d Mind damage in total. Re-applying the effect resets the damage escalation. The victim has a 25%% chance of suffering Brainlock each turn from the unbearable pain.
+The damage increases with your Mindpower.]], [[Vous gravez votre haine dans l'esprit d'une cible, lui infligeant des dégâts mentaux croissants à chaque tour pendant %d tours. La victime subit %0.1f dégâts au premier tour, augmentant lentement jusqu'à %0.1f au dernier, pour un total de %d dégâts mentaux.
+Réappliquer l'effet réinitialise la progression des dégâts. La victime a 25%% de chances de subir une Paralysie Mentale à chaque tour en raison de l'insoutenable douleur.
 
-The damage increases with your Mindpower.]], "tformat")
-t("Your hateful will splinters into the minds of those you torture, breaking them down. Each time you inflict Mind damage, the victim has a %0.1f%% chance of going mad for 3 turns unless they save against your Mindpower. The madness will lower the victim's Mind resistance by %0.1f%% and cause them to become confused (50%% power), slowed (30%% power), or stunned for the duration.", "Your hateful will splinters into the minds of those you torture, breaking them down. Each time you inflict Mind damage, the victim has a %0.1f%% chance of going mad for 3 turns unless they save against your Mindpower. The madness will lower the victim's Mind resistance by %0.1f%% and cause them to become confused (50%% power), slowed (30%% power), or stunned for the duration.", "tformat")
---]==]
-
+Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Madness", "Folie", "talent name")
+t("Your hateful will splinters into the minds of those you torture, breaking them down. Each time you inflict Mind damage, the victim has a %0.1f%% chance of going mad for 3 turns unless they save against your Mindpower. The madness will lower the victim's Mind resistance by %0.1f%% and cause them to become confused (50%% power), slowed (30%% power), or stunned for the duration.", "Votre volonté haineuse se fragmente dans l'esprit de ceux que vous torturez, les brisant de l'intérieur. Chaque fois que vous infligez des dégâts mentaux, la victime a %0.1f%% de chances de sombrer dans la folie pendant 3 tours, à moins d'échouer à sa sauvegarde contre votre Puissance Mentale. La folie réduit la résistance mentale de la victime de %0.1f%% et la rend confuse (puissance 50%%), ralentie (puissance 30%%) ou étourdie pendant toute la durée.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/rampage.lua"
@@ -22805,52 +22779,48 @@ t("#CRIMSON#%d#LAST#", "#CRIMSON#%d#LAST#", "tformat")
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/shadows.lua"
 
-t("Fade", "Se Dissiper", "talent name")
+t("Fade", "Évanouissement", "talent name")
 t("You fade from sight, making you invulnerable until the beginning of your next turn.", "Vous disparaissez, vous rendant invulnérable jusqu'au début de votre prochain tour.", "tformat")
 t("Phase Door", "Porte de Phase", "talent name")
+t("Teleports you within a small range.", "Vous téléporte à courte distance.", "tformat")
 t("Blindside", "Angle Mort", "talent name")
 t("With blinding speed you suddenly appear next to a target up to %d spaces away and attack for %d%% damage.", "Avec une vitesse aveuglante, vous apparaissez soudainement à côté d'une cible jusqu'à %d cases de distance et attaquez pour %d%% dégâts.", "tformat")
-t("Summon", "Invocation", "_t")
--- texte non traduit
---[==[
-t("Teleports you within a small range.", "Teleports you within a small range.", "tformat")
-t("Shadow Lightning", "Shadow Lightning", "talent name")
+t("Shadow Lightning", "Éclair d'ombre", "talent name")
 t([[Strikes the target with a spark of lightning doing %0.2f to %0.2f damage (%0.2f average).
-		The damage will increase with the Magic stat]], [[Strikes the target with a spark of lightning doing %0.2f to %0.2f damage (%0.2f average).
-		The damage will increase with the Magic stat]], "tformat")
-t("Shadow Flames", "Shadow Flames", "talent name")
+		The damage will increase with the Magic stat]], [[Frappe la cible avec une étincelle de foudre, infligeant de %0.2f à %0.2f dégâts (moyenne de %0.2f).
+		Les dégâts sont proportionnels à votre Magie.]], "tformat")
+t("Shadow Flames", "Flammes d'Ombre", "talent name")
 t([[Bathes the target in flames doing %0.2f damage
-		The damage will increase with the Magic stat]], [[Bathes the target in flames doing %0.2f damage
-		The damage will increase with the Magic stat]], "tformat")
-t("Reform", "Reform", "talent name")
-t("When a shadow is hit and killed, there is a %d%% chance it will reform unhurt.", "When a shadow is hit and killed, there is a %d%% chance it will reform unhurt.", "tformat")
-t("Call Shadows", "Call Shadows", "talent name")
-t("Your hate is too low to call another shadow!", "Your hate is too low to call another shadow!", "logPlayer")
+		The damage will increase with the Magic stat]], [[Baigne la cible dans les flammes, lui infligeant %0.2f dégâts.
+		Les dégâts sont proportionnels à votre Magie.]], "tformat")
+t("Reform", "Reconstitution", "talent name")
+t("When a shadow is hit and killed, there is a %d%% chance it will reform unhurt.", "Quand une ombre est touchée et tuée, elle a %d%% de chances de se reconstituer indemne.", "tformat")
+t("Call Shadows", "Appel des Ombres", "talent name")
+t("Your hate is too low to call another shadow!", "Votre haine est trop faible pour invoquer une autre ombre !", "logPlayer")
+t("Summon", "Invocation", "_t")
 t([[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Each shadow costs 5 hate to summon. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
-		Shadows ignore %d%% of the damage dealt to them by their master.]], [[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Each shadow costs 5 hate to summon. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
-		Shadows ignore %d%% of the damage dealt to them by their master.]], "tformat")
-t("Shadow Warriors", "Shadow Warriors", "talent name")
-t("Instill hate in your shadows, strengthening their attacks. They gain %d%% extra Accuracy and %d%% extra damage. The fury of their attacks gives them the ability to try to Dominate their foes, increasing all damage taken by that foe for 4 turns (level %d, %d%% chance at range 1). They also gain the ability to Fade when hit, avoiding all damage until their next turn (%d turn cooldown).", "Instill hate in your shadows, strengthening their attacks. They gain %d%% extra Accuracy and %d%% extra damage. The fury of their attacks gives them the ability to try to Dominate their foes, increasing all damage taken by that foe for 4 turns (level %d, %d%% chance at range 1). They also gain the ability to Fade when hit, avoiding all damage until their next turn (%d turn cooldown).", "tformat")
-t("Shadow Mages", "Shadow Mages", "talent name")
+		Shadows ignore %d%% of the damage dealt to them by their master.]], [[Tant que cette capacité est active, vous invoquez continuellement jusqu'à %d ombre(s) de niveau %d pour vous aider au combat. Chaque ombre coûte 5 haine à invoquer. Les ombres sont de faibles combattants capables d'utiliser Reconstruction Arcanique pour se soigner (niveau %d), Angle Mort contre leurs adversaires (niveau %d) et Porte de Phase pour se déplacer d'un endroit à un autre.
+		Les ombres ignorent %d%% des dégâts que leur inflige leur maître.]], "tformat")
+t("Shadow Warriors", "Guerriers d'Ombre", "talent name")
+t("Instill hate in your shadows, strengthening their attacks. They gain %d%% extra Accuracy and %d%% extra damage. The fury of their attacks gives them the ability to try to Dominate their foes, increasing all damage taken by that foe for 4 turns (level %d, %d%% chance at range 1). They also gain the ability to Fade when hit, avoiding all damage until their next turn (%d turn cooldown).", "Vous distillez de la haine dans vos ombres, ce qui renforce leurs attaques. Elles gagnent %d%% de Précision supplémentaire et %d%% de dégâts supplémentaires. La fureur de leurs attaques leur donne la capacité de tenter Domination sur leurs ennemis, augmentant tous les dégâts subis par la cible pendant 4 tours (niveau %d, %d%% de chances à une portée de 1). Elles gagnent également la capacité Se Dissiper lorsqu'elles sont touchées, évitant ainsi tous les dégâts jusqu'à leur prochain tour (temps de recharge de %d tours).", "tformat")
+t("Shadow Mages", "Mages d'Ombre", "talent name")
 t([[Infuse magic into your shadows to give them fearsome spells. Your shadows receive a bonus of %d to their Spellpower.
 		Your shadows can strike adjacent foes with Lightning (level %d, %d%% chance at range 1).
 		At level 3 your shadows can sear their enemies from a distance with Flames (level %d, %d%% chance at range 2 to 6).
-		At level 5 when your shadows are struck down they will attempt to Reform, becoming whole again (50%% chance).]], [[Infuse magic into your shadows to give them fearsome spells. Your shadows receive a bonus of %d to their Spellpower.
-		Your shadows can strike adjacent foes with Lightning (level %d, %d%% chance at range 1).
-		At level 3 your shadows can sear their enemies from a distance with Flames (level %d, %d%% chance at range 2 to 6).
-		At level 5 when your shadows are struck down they will attempt to Reform, becoming whole again (50%% chance).]], "tformat")
-t("Focus Shadows", "Focus Shadows", "talent name")
-t("#PINK#The shadows converge on #Target#!", "#PINK#The shadows converge on #Target#!", "logCombat")
-t("There are no shadows to heed the call!", "There are no shadows to heed the call!", "logPlayer")
-t("#PINK#The shadows form around #Target#!", "#PINK#The shadows form around #Target#!", "logCombat")
-t("Their are no shadows to heed the call!", "Their are no shadows to heed the call!", "logPlayer")
+		At level 5 when your shadows are struck down they will attempt to Reform, becoming whole again (50%% chance).]], [[Vous infusez de la magie dans vos ombres pour leur conférer de redoutables sorts. Vos ombres reçoivent un bonus de %d à leur Puissance Magique.
+		Vos ombres peuvent frapper les ennemis adjacents avec Foudre (niveau %d, %d%% de chances à une portée de 1).
+		Au niveau 3, vos ombres peuvent brûler leurs ennemis à distance avec Flammes (niveau %d, %d%% de chances à une portée de 2 à 6).
+		Au niveau 5, lorsque vos ombres sont terrassées, elles tentent de se Reconstituer pour retrouver l'intégralité de leurs forces (50%% de chances).]], "tformat")
+t("Focus Shadows", "Focalisation des Ombres", "talent name")
+t("#PINK#The shadows converge on #Target#!", "#PINK#Les ombres convergent vers #Target# !", "logCombat")
+t("There are no shadows to heed the call!", "Il n'y a aucune ombre pour répondre à l'appel !", "logPlayer")
+t("#PINK#The shadows form around #Target#!", "#PINK#Les ombres se forment autour de #Target# !", "logCombat")
+t("Their are no shadows to heed the call!", "Il n'y a aucune ombre pour répondre à l'appel !", "logPlayer")
 t([[Focus your shadows on a single target. Friendly targets will be defended for %d turns. Hostile targets will be attacked, with a %d%% chance the shadows will blindside the target.
 		If you have less than maximum shadows available, they will automatically be summoned before focusing.
-		This talent has no cost.]], [[Focus your shadows on a single target. Friendly targets will be defended for %d turns. Hostile targets will be attacked, with a %d%% chance the shadows will blindside the target.
-		If you have less than maximum shadows available, they will automatically be summoned before focusing.
-		This talent has no cost.]], "tformat")
---]==]
-
+		This talent has no cost.]], [[Vous focalisez vos ombres sur une seule cible. Les cibles alliées seront défendues pendant %d tours. Les cibles hostiles seront attaquées avec %d%% de chances que les ombres lancent une attaque aveuglante sur elles.
+		Si vous n'avez pas atteint le nombre maximum d'ombres disponibles, elles seront automatiquement invoquées avant la focalisation.
+		Ce talent n'a aucun coût.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/slaughter.lua"
@@ -24829,7 +24799,7 @@ t("@Source@ hurls lightning at @target@!", "@Source@ lance de la foudre sur @tar
 t([[Calls forth a powerful beam of lightning doing %0.2f to %0.2f lightning damage (%0.2f average).
 		The damage will increase with your Mindpower.]], [[Appelle un puissant rayon de foudre infligeant %0.2f à %0.2f dégâts de foudre (%0.2f en moyenne).
 		Les dégâts sont proportionnels à votre Puissance mentale.]], "tformat")
-t("Fade", "Se Dissiper", "talent name")
+t("Fade", "Évanouissement", "talent name")
 t("You fade from sight, making you invulnerable until the beginning of your next turn.", "Vous disparaissez, vous rendant invulnérable jusqu'au début de votre prochain tour.", "tformat")
 t("Phase Door", "Porte de Phase", "talent name")
 t("Teleports you randomly within range 10.", "Vous téléporte aléatoirement dans un rayon de 10.", "tformat")
