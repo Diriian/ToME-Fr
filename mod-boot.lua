@@ -234,8 +234,6 @@ t("Try again in in a few moments, or try online at https://te4.org/", "Essayez d
 t("Message", "Message", "_t")
 --]==]
 
--- ancien texte traduit
-t("Login in...", "Connexion...", "_t")
 
 ------------------------------------------------
 section "mod-boot/mod/class/Player.lua"
@@ -291,8 +289,6 @@ t("Korean Translation", "Traduction Coréenne", "_t")
 t("Japanese Translation", "Traduction Japonaise", "_t")
 t("The Community", "La Communauté", "_t")
 t("Others", "Autres", "_t")
--- ancien texte traduit
-t("Code Helpers", "Aides au code", "_t")
 
 ------------------------------------------------
 section "mod-boot/mod/dialogs/FirstRun.lua"
@@ -476,8 +472,6 @@ t("Options", "Options", "_t")
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
 --]==]
 
--- ancien texte traduit
-t("Login in your account, please wait...", "Connexion à votre compte, attendez s'il vous plaît...", "_t")
 
 ------------------------------------------------
 section "mod-boot/mod/dialogs/NewGame.lua"

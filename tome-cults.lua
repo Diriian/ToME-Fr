@@ -3056,8 +3056,6 @@ t("beyond sanity", "beyond sanity", "talent type")
 t("Let yourself walk in chaos!", "Let yourself walk in chaos!", "_t")
 --]==]
 
--- ancien texte traduit
-t("other", "autre", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/disfigured-face.lua"
@@ -5060,19 +5058,6 @@ t("Scourged Pits", "Scourged Pits", "_t")
 t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "logSeen")
 --]==]
 
-
-------------------------------------------------
-section "tome-cults/data/zones/test/grids.lua"
-
-
--- ancien texte traduit
-t("wall", "mur", "entity name")
-t("next level", "niveau suivant", "entity name")
-t("previous level", "niveau précédent", "entity name")
-t("floor", "sol", "entity name")
-t("floor", "sol", "entity type")
-t("door", "porte", "entity name")
-t("wall", "mur", "entity type")
 
 ------------------------------------------------
 section "tome-cults/data/zones/test/npcs.lua"

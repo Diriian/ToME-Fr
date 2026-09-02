@@ -1252,8 +1252,6 @@ t("- Talent %s (%d)", "- Talent %s (%d)", "tformat")
 t("- Talent %s", "- Talent %s", "tformat")
 --]==]
 
--- ancien texte traduit
-t("unknown", "inconnu", "_t")
 
 ------------------------------------------------
 section "engine/engine/interface/GameTargeting.lua"
