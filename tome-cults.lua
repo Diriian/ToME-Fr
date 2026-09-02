@@ -2931,11 +2931,10 @@ t([[You form a link between yourself and the chosen target for %d turns, tying y
 ------------------------------------------------
 section "tome-cults/data/talents/demented/chronophage.lua"
 
-
+t("%s has been cut from the timeline!", "%s a été coupé de la ligne temporelle !", "logSeen")
 -- texte non traduit
 --[==[
 t("Atrophy", "Atrophy", "talent name")
-t("%s has been cut from the timeline!", "%s has been cut from the timeline!", "logSeen")
 t([[You are surrounded by a vortex of entropic energy that feeds on the timelines of others. Each time you cast a spell random targets in radius 10 begin rapidly aging and decaying, reducing all stats by %d for 8 turns, stacking up to %d times.
 			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], [[You are surrounded by a vortex of entropic energy that feeds on the timelines of others. Each time you cast a spell random targets in radius 10 begin rapidly aging and decaying, reducing all stats by %d for 8 turns, stacking up to %d times.
 			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], "tformat")
