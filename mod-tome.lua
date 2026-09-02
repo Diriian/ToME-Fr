@@ -776,8 +776,6 @@ t("Exploration", "Exploration", "birth descriptor name")
 t("Roguelike", "Roguelike", "birth descriptor name")
 --]==]
 
--- ancien texte traduit
-t("Easier", "Très facile", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/birth/races/construct.lua"
@@ -1770,8 +1768,6 @@ t("I'm already proficient, but I want to be an expert (improves talent mastery b
 t("The staff carver spends a great deal of time going over the finer details of staff combat with you%s.", "Le sculpteur de bâton passe beaucoup de temps à étudier les détails du combat avec le bâton avec vous %s.", "tformat")
 t(", including some esoteric techniques", ", y compris certaines techniques ésotériques", "_t")
 t("No thanks.", "Non merci.", "_t")
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/antimagic-end.lua"
@@ -2282,8 +2278,6 @@ Et ne pensez pas à me doubler.  Ce serait... imprudent.]], "_t")
 t("Well, I suppose it is better than dying.", "Eh bien, je suppose que c'est mieux que de mourir.", "_t")
 t("Money? I'm in!", "De l'argent ? J'en suis !", "_t")
 t("Just let me and the merchant get out of here and you may live!", "Laissez-moi sortir d'ici avec le marchand et vous pourrez vivre !", "_t")
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/avatar-distant-sun-unlock.chat"
@@ -2541,8 +2535,6 @@ t("No actually, perhaps life is still worth it!", "Non, en fait, peut-être que 
 t("...", "...", "_t")
 --]==]
 
--- ancien texte traduit
-t("Thanks.", "Merci.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/elisa-orb-scrying.lua"
@@ -2734,8 +2726,6 @@ Je crains qu'avec le pouvoir qu'ils ont acquis aujourd'hui, ils seront encore pl
 t("Ah! This is wonderful! Finally a ray of hope amidst the darkness. I will assign my best troops to this. Thank you, @playername@ - take this as a token of gratitude.", "Ah ! C'est merveilleux ! Enfin un rayon d'espoir au milieu de ces ténèbres. Je vais affecter mes meilleures troupes à cette tâche. Merci, @playername@, prenez ceci en gage de gratitude.", "_t")
 t("Good luck.", "Bonne chance.", "_t")
 t("Aeryn gives you: %s", "Aeryn vous donne : %s", "logPlayer")
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/gates-of-morning-welcome.lua"
@@ -2760,8 +2750,6 @@ They roam the lands freely, ever assaulting us.
 Ils parcourent les terres librement, sans jamais nous attaquer.
 @playername@, tu as aidé l'un des nôtres. Je t'accorde l'accès aux Portes du Matin et te nomme ami du Mur Solaire.]], "_t")
 t("Thank you, my lady.", "Merci, ma dame.", "_t")
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/golbug-explains.lua"
@@ -2955,22 +2943,6 @@ t(".", ".", "_t")
 t("...", "...", "_t")
 --]==]
 
--- ancien texte traduit
-t("I've changed my mind.", "J'ai changé d'avis.", "_t")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
-t([[Do you want to name your item?
-%s]], [[Vous voulez donner un nom à votre objet ?
-%s]], "tformat")
-t("Yes, please.", "Oui, s'il vous plaît.", "_t")
-t("Name your item", "Nommez votre objet", "_t")
-t("Name", "Nom", "_t")
-t("#LIGHT_BLUE#The merchant carefully hands you: %s", "#LIGHT_BLUE#Le commerçant vous remet avec soin : %s", "log")
-t("No thanks.", "Non merci.", "_t")
-t("Oh I am sorry, it seems we could not make the item your require.", "Oh, je suis désolé, il semble que nous n'ayons pas pu répondre à votre demande.", "_t")
-t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
-t("Oh well, maybe later then.", "Eh bien, peut-être plus tard alors.", "_t")
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
-t("Thanks.", "Merci.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/last-hope-melinda-father.lua"
@@ -3058,8 +3030,6 @@ t("Then my lady, if you will follow me. #LIGHT_GREEN#[take her to the Fortress]"
 t("Melinda", "Melinda", "_t")
 --]==]
 
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/last-hope-weapon-store.lua"
@@ -3074,8 +3044,6 @@ t("The smith spends some time with you, teaching you the basics of armour and we
 t("Please train me in the basic usage of bows and slings.", "Formez moi à l'utilisation de base des arcs et frondes s'il vous plait.", "_t")
 t("The smith spends some time with you, teaching you the basics of bows and slings.", "Le forgeron passe un peu de temps avec vous, vous apprenant les bases des arcs et frondes.", "logPlayer")
 t("No thanks.", "Non merci.", "_t")
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/limmir-valley-moon.lua"
@@ -3093,8 +3061,6 @@ t([[Please save me! I will make it worth your whi..
 t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_lost-merchant")
 t("Please get me out of here!", "S'il vous plaît, sortez-moi de là !", "_t")
 t("Come, there is a way out!", "Venez, il y a une sortie !", "_t")
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/lumberjack-quest-done.lua"
@@ -3174,16 +3140,6 @@ t("Thanks, and best luck in your studies!", "Merci, et bonne chance dans vos ét
 t("...", "...", "_t")
 --]==]
 
--- ancien texte traduit
-t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, I guess I can tell you; you deserve it for helping me.
-During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kor'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
-So she set a secret plan into action and built a secret place where magic would be kept alive.
-Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
-Not many people are accepted there but I will arrange for you to be allowed inside.]], [[Ah oui ! Je suis tellement content ! Je vais pouvoir retourner à Angolw...euh... Oh bien, je suppose que je peux vous le dire vous le méritez pour m'avoir aidé.
-Pendant les années sombres de la Purge Arcanique, il y a plusieurs milliers d'années, Linaniil, la grande mage du Kor'Krul, s'inquiétait que la magie puisse disparaître avec sa génération et être perdue pour les mortels s'ils en avaient à nouveau besoin.
-Elle a donc mis en place un plan secret et a construit un lieu secret où la magie serait maintenue en vie.
-Son plan a fonctionné et le groupe a construit une ville appelée Angolwen dans les montagnes de l'ouest. #LIGHT_GREEN#*Il la marque sur votre carte, ainsi qu'un portail pour y accéder*#WHITE#
-Peu de gens y sont acceptés, mais je m'arrangerai pour que vous soyez admis à l'intérieur.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/magic-store.lua"
@@ -3197,8 +3153,6 @@ t("Welcome, @playername@, to my shop.", "Bienvenue, @playername@, dans mon magas
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("I want to recharge some of my equipment.", "Je veux recharger une partie de mon équipement.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_magic-store")
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/melinda-beach-end.lua"
@@ -4342,8 +4296,6 @@ t([[#LIGHT_GREEN#*The door opens and a shabby Elf emerges.*#WHITE#
 Off we go to prepare the portal!]], [[#LIGHT_GREEN#*La porte s'ouvre et un Elfe miteux en sort.*#WHITE#
 On va préparer le portail !]], "_t")
 t("[follow him]", "[le suivre]", "_t")
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/zigur-mindstar-store.lua"
@@ -4363,8 +4315,6 @@ t("I'm already proficient, but I want to be an expert (improves talent mastery b
 t("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you%s.", "Le commerçant passe beaucoup de temps à examiner avec vous les détails les plus fins de la canalisation de l'énergie par les étoiles d'âme%s.", "tformat")
 t(", and teaches you enhanced mental discipline needed to maintain powerful energy fields", ", et vous enseigne une discipline mentale accrue, nécessaire pour maintenir de puissants champs d'énergie", "_t")
 t("No thanks.", "Non merci.", "_t")
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/zigur-trainer.lua"
@@ -4783,9 +4733,6 @@ t("implosion", "implosion", "damage type")
 t("stop", "stop", "damage type")
 --]==]
 
--- ancien texte traduit
-t("cosmetic", "cosmétique", "_t")
-t("physical", "physique", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/factions.lua"
@@ -4950,8 +4897,6 @@ t("#VIOLET#Ignoring the portal...", "#VIOLET#Ignorer le portail...", "log")
 t("Destroy", "Détruire", "_t")
 t("Enter", "Entrer", "_t")
 t("#VIOLET#A demon steps out of the %s!", "#VIOLET#Un démon sors du %s !", "logSeen")
--- ancien texte traduit
-t("Quit", "Quitter", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/fell-aura.lua"
@@ -5007,8 +4952,6 @@ t("#VIOLET#Ignoring the portal...", "#VIOLET#Ignorer le portail...", "log")
 t("Destroy", "Détruire", "_t")
 t("Enter", "Entrer", "_t")
 t("#VIOLET#A naga steps out of the %s!", "#VIOLET#Un Naga fait un pas en dehors du %s !", "logSeen")
--- ancien texte traduit
-t("Quit", "Quitter", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/necrotic-air.lua"
@@ -5075,8 +5018,6 @@ section "mod-tome/data/general/events/sludgenest.lua"
 t("Way into a strange lush forest", "Un chemin vers une étrange forêt luxuriante", "_t")
 t("Lush forest", "Forêt Luxuriante", "_t")
 t("Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest... If only you could remember where!", "Soudain, cela vous revient. Vous vous souvenez qu'il y a longtemps, quelqu'un vous avait parlé d'une étrange forêt luxuriante... Si seulement vous pouviez vous rappeler où !", "_t")
--- ancien texte traduit
-t("Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest in the cold icy wastes of the northland.", "Soudain, ça vous revient. Vous vous rappelez qu'il y a longtemps, quelqu'un vous a parlé d'une étrange forêt luxuriante dans les étendues froides et glacées au nord du pays.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/events/snowstorm.lua"
@@ -6776,10 +6717,6 @@ The Rat Lich's true power has been unveiled! Swirling with arcane energy, it sta
 The Rat Lich's true power has been unveiled! Swirling with arcane energy, it stalks towards you uttering warsqueaks at its minions!", "_t")
 --]==]
 
--- ancien texte traduit
-t("\
-The Rat Lich's true power has been unveiled! Swirling with arcane energy, it stalks towards you uttering warsqueaks at its minions !", "\
-La véritable puissance du Rat Liche a été dévoilée ! Tourbillonnant d'énergie arcanique, elle se dirige vers vous en lançant des cris de guerre à ses serviteurs !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/vampire.lua"
@@ -12427,45 +12364,45 @@ t("My masterpiece walks! It is glorious, beautiful. While it remains unfinished,
 ------------------------------------------------
 section "mod-tome/data/lore/daikara.lua"
 
-t("Dragonsfire Trap", "Piège du Feu du Dragon", "_t")
-t("Freezing Trap", "Piège Congelant", "_t")
--- texte non traduit
---[==[
-t("daikara", "daikara", "newLore category")
-t("expedition journal entry (daikara)", "expedition journal entry (daikara)", "_t")
+t("expedition journal entry (daikara)", "entrée de journal d'expédition (daikara)", "_t")
 t([[#{bold}#Relle, Cornac Fighter & Expedition Captain#{normal}#
-Nothing but hatchlings so far. Honestly, if this keeps up we won't have enough dragonhide to cover a dragon, let alone cover our losses. I've really spared no expense this time as well: Gorran is one of the finest rangers I know, and Sodelost... his prices are exorbitant, but then what else would you expect from those money-grubbing dwarven Thronesmen? I must admit I don't know much about Xann. The locals say there's no finer wyrmic in the area, and I admit she is something special in combat. Now, if only she could turn her draconic talents to FINDING some dragons!]], [[#{bold}#Relle, Cornac Fighter & Expedition Captain#{normal}#
-Nothing but hatchlings so far. Honestly, if this keeps up we won't have enough dragonhide to cover a dragon, let alone cover our losses. I've really spared no expense this time as well: Gorran is one of the finest rangers I know, and Sodelost... his prices are exorbitant, but then what else would you expect from those money-grubbing dwarven Thronesmen? I must admit I don't know much about Xann. The locals say there's no finer wyrmic in the area, and I admit she is something special in combat. Now, if only she could turn her draconic talents to FINDING some dragons!]], "_t")
+Nothing but hatchlings so far. Honestly, if this keeps up we won't have enough dragonhide to cover a dragon, let alone cover our losses. I've really spared no expense this time as well: Gorran is one of the finest rangers I know, and Sodelost... his prices are exorbitant, but then what else would you expect from those money-grubbing dwarven Thronesmen? I must admit I don't know much about Xann. The locals say there's no finer wyrmic in the area, and I admit she is something special in combat. Now, if only she could turn her draconic talents to FINDING some dragons!]], [[#{bold}#Relle, Capitaine d'Expédition & Guerrière Cornac#{normal}#
+Rien que des nouveau-nés jusqu'à présent. Honnêtement, si cela continue ainsi, nous n'aurons pas assez de peau de dragonnets pour couvrir un seul dragon, encore moins pour couvrir nos pertes. Je n'ai vraiment lésiné sur rien cette fois non plus : Gorran est l'un des meilleurs rôdeurs que je connaisse, et Sodelost... ses tarifs sont exorbitants, mais que peut-on attendre d'autre de ces nains cupides du Trône de Fer ? Je dois avouer que je ne connais pas grand-chose de Xann. Les gens du coin disent qu'il n'y a pas meilleure draconienne dans la région, et je reconnais qu'elle est exceptionnelle au combat. Maintenant, si seulement elle pouvait tourner ses talents draconiques vers la découverte de quelques dragons !]], "_t")
 t([[#{bold}#Sodelost, Dwarf Rogue#{normal}#
-Can't believe I agreed to this expedition. I suppose it's because I've known Relle for a while. We've crossed paths many times at Derth's trading post. I even gave her a special rate for my services. Sentimental fool! All it's got me is boots filled with snow and a light coinpurse. I still don't understand why these Kingdom types are so enamoured with drakeskin... makes superior armour they say. Pah! If you can't handle metal armour, what business do you have even wearing armour? Leather has about as much use as a halfling tied to a... noises up ahead, must stop writing.]], [[#{bold}#Sodelost, Dwarf Rogue#{normal}#
-Can't believe I agreed to this expedition. I suppose it's because I've known Relle for a while. We've crossed paths many times at Derth's trading post. I even gave her a special rate for my services. Sentimental fool! All it's got me is boots filled with snow and a light coinpurse. I still don't understand why these Kingdom types are so enamoured with drakeskin... makes superior armour they say. Pah! If you can't handle metal armour, what business do you have even wearing armour? Leather has about as much use as a halfling tied to a... noises up ahead, must stop writing.]], "_t")
+Can't believe I agreed to this expedition. I suppose it's because I've known Relle for a while. We've crossed paths many times at Derth's trading post. I even gave her a special rate for my services. Sentimental fool! All it's got me is boots filled with snow and a light coinpurse. I still don't understand why these Kingdom types are so enamoured with drakeskin... makes superior armour they say. Pah! If you can't handle metal armour, what business do you have even wearing armour? Leather has about as much use as a halfling tied to a... noises up ahead, must stop writing.]], [[#{bold}#Sodelost, Brigand Nain#{normal}#
+Je n'arrive pas à croire que j'aie accepté cette expédition. Je suppose que c'est parce que je connais Relle depuis un moment. Nos chemins se sont croisés bien des fois au comptoir marchand de Derth. Je lui ai même consenti un tarif spécial pour mes services. Quel imbécile sentimental je fais ! Tout ce que j'y ai gagné, ce sont des bottes pleines de neige et une bourse légère. Je ne comprends toujours pas pourquoi ces gens du Royaume sont si épris de peau de dragonnet... ça fait, disent-ils, une armure supérieure. Pff ! Si l'on ne peut supporter une armure de métal, qu'a-t-on à faire à porter une armure pour commencer ? Le cuir a autant d'utilité qu'un halfelin attaché à un... des bruits devant, je dois arrêter d'écrire.]], "_t")
 t([[#{bold}#Gorran, Cornac Archer#{normal}#
-That snake. That addlepated beardling. That coin-hounding, blackhearted, stump-kneed dwarf! A scout he calls himself! The finest eyes of the Iron Throne, able to read the sign of the tavern in Last Hope from the tavern in Derth! Surely someone with such grandiose praise for his own eyesight would have spotted that cold drake waiting in ambush for us! Damnable thing, I'll be lucky if I can ever use my left arm again. I can't use my bow now ... I'm effectively dead wood to the team. I'm beginning to think that Sodelost has ulterior motives... I wouldn't put it past a dwarf to lead us up this forsaken mountain to die just so he could rifle through our pockets! I keep telling Relle, but she won't listen. The fool...]], [[#{bold}#Gorran, Cornac Archer#{normal}#
-That snake. That addlepated beardling. That coin-hounding, blackhearted, stump-kneed dwarf! A scout he calls himself! The finest eyes of the Iron Throne, able to read the sign of the tavern in Last Hope from the tavern in Derth! Surely someone with such grandiose praise for his own eyesight would have spotted that cold drake waiting in ambush for us! Damnable thing, I'll be lucky if I can ever use my left arm again. I can't use my bow now ... I'm effectively dead wood to the team. I'm beginning to think that Sodelost has ulterior motives... I wouldn't put it past a dwarf to lead us up this forsaken mountain to die just so he could rifle through our pockets! I keep telling Relle, but she won't listen. The fool...]], "_t")
+That snake. That addlepated beardling. That coin-hounding, blackhearted, stump-kneed dwarf! A scout he calls himself! The finest eyes of the Iron Throne, able to read the sign of the tavern in Last Hope from the tavern in Derth! Surely someone with such grandiose praise for his own eyesight would have spotted that cold drake waiting in ambush for us! Damnable thing, I'll be lucky if I can ever use my left arm again. I can't use my bow now ... I'm effectively dead wood to the team. I'm beginning to think that Sodelost has ulterior motives... I wouldn't put it past a dwarf to lead us up this forsaken mountain to die just so he could rifle through our pockets! I keep telling Relle, but she won't listen. The fool...]], [[#{bold}#Gorran, Archer Cornac#{normal}#
+Ce serpent. Ce nabot écervelé et barbu. Ce nain cupide, au coeur noir, aux genoux tordus ! Il se prétend éclaireur ! Les meilleurs yeux du Trône de Fer, capable de lire l'enseigne de la taverne de Dernier Espoir depuis celle de Derth ! Sûrement quelqu'un se vantant avec autant de grandiloquence de sa propre vue aurait repéré ce dragonnet des glaces qui nous attendait en embuscade ! Maudite bête, j'aurai de la chance si je peux un jour me servir à nouveau de mon bras gauche. Je ne peux plus utiliser mon arc... je suis désormais un poids mort pour l'équipe. Je commence à penser que Sodelost a des motifs cachés... je ne serais pas surpris qu'un nain nous mène jusqu'à cette montagne maudite pour y mourir, rien que pour pouvoir fouiller nos poches ! Je n'arrête pas de le dire à Relle, mais elle ne veut pas m'écouter. Quelle sotte...]], "_t")
 t([[#{bold}#Relle, Cornac Fighter & Expedition Captain#{normal}#
-Sodelost is dead, and so is Gorran. The former by Gorran's hand, the latter by my hand. Even in these wastes I cannot abide such an act of mutiny. I was aware of Gorran's anger ever since the drake attack, but I never dreamed he would turn on Sodelost like he did. He had taken my longsword as I slept the previous night, strode up to Sodelost, unheeding of I and Xann watching him, ran him through and laughed. Simply laughed. There was nothing for it; I wrenched my sword from his hand and brought it down on his neck. The commotion seems to have stirred up a nearby drake's nest, and now I fear we don't have the strength to repel a concentrated attack. We may have to abandon this expedition.]], [[#{bold}#Relle, Cornac Fighter & Expedition Captain#{normal}#
-Sodelost is dead, and so is Gorran. The former by Gorran's hand, the latter by my hand. Even in these wastes I cannot abide such an act of mutiny. I was aware of Gorran's anger ever since the drake attack, but I never dreamed he would turn on Sodelost like he did. He had taken my longsword as I slept the previous night, strode up to Sodelost, unheeding of I and Xann watching him, ran him through and laughed. Simply laughed. There was nothing for it; I wrenched my sword from his hand and brought it down on his neck. The commotion seems to have stirred up a nearby drake's nest, and now I fear we don't have the strength to repel a concentrated attack. We may have to abandon this expedition.]], "_t")
+Sodelost is dead, and so is Gorran. The former by Gorran's hand, the latter by my hand. Even in these wastes I cannot abide such an act of mutiny. I was aware of Gorran's anger ever since the drake attack, but I never dreamed he would turn on Sodelost like he did. He had taken my longsword as I slept the previous night, strode up to Sodelost, unheeding of I and Xann watching him, ran him through and laughed. Simply laughed. There was nothing for it; I wrenched my sword from his hand and brought it down on his neck. The commotion seems to have stirred up a nearby drake's nest, and now I fear we don't have the strength to repel a concentrated attack. We may have to abandon this expedition.]], [[#{bold}#Relle, Capitaine d'Expédition & Guerrière Cornac#{normal}#
+Sodelost est mort, tout comme Gorran. Le premier, de la main de Gorran ; le second, de la mienne. Même dans ces terres désolées, je ne saurais tolérer un tel acte de mutinerie. Je connaissais la colère de Gorran depuis l'attaque du dragonnet, mais jamais je n'aurais imaginé qu'il se retournerait ainsi contre Sodelost. Il avait pris mon épée longue pendant que je dormais la nuit précédente, s'est avancé vers Sodelost, sans se soucier que Xann et moi le regardions, l'a transpercé, et a ri. Simplement ri. Il n'y avait rien d'autre à faire ; j'ai arraché mon épée de sa main et l'ai abattue sur son cou. Le tumulte semble avoir réveillé un nid de dragonnet voisin, et je crains à présent que nous n'ayons pas la force de repousser une attaque concentrée. Nous devrons peut-être abandonner cette expédition.]], "_t")
 t([[#{bold}#Xann, Shaloren Wyrmic#{normal}# (This entry was scrawled by an unsteady hand)
 #{italic}#impudent fools treading upon dragon's ground. slaying my dear kin just for their skin they will pay they will pay. i called the drake, told it to be cunning, avoid the dwarf's gaze. i laughed as it bit into that ranger's arm ahaahaa. they're killing each other now, simple creatures, simple soft skinned creatures. not like dragons, so perfect, symbols of power, perfection... their captain still lives, but not for long. i will bring her to you to feast.
 
-rantha i will see you soon#{normal}#]], [[#{bold}#Xann, Shaloren Wyrmic#{normal}# (This entry was scrawled by an unsteady hand)
-#{italic}#impudent fools treading upon dragon's ground. slaying my dear kin just for their skin they will pay they will pay. i called the drake, told it to be cunning, avoid the dwarf's gaze. i laughed as it bit into that ranger's arm ahaahaa. they're killing each other now, simple creatures, simple soft skinned creatures. not like dragons, so perfect, symbols of power, perfection... their captain still lives, but not for long. i will bring her to you to feast.
+rantha i will see you soon#{normal}#]], [[#{bold}#Xann, Draconienne Shaloréenne#{normal}# (Ce passage a été griffonné d'une main tremblante)
+#{italic}#Fous impudents foulant le sol des dragons. Massacrant mes chers semblables pour leur seule peau ils paieront ils paieront. J'ai appelé le dragonnet, lui ai dit d'être rusé, d'éviter le regard du nain. J'ai ri quand il a mordu le bras de ce rôdeur ahahaha. Ils s'entretuent maintenant, créatures simples, créatures simples à la peau tendre. Pas comme les dragons, si parfaits, symboles de puissance, de perfection... leur capitaine vit encore, mais plus pour longtemps. Je te l'amènerai en festin.
 
-rantha i will see you soon#{normal}#]], "_t")
+Rantha je te reverrai bientôt#{normal}#]], "_t")
+t("Dragonsfire Trap", "Piège du Feu de Dragon", "_t")
 t([[#{bold}#Relle, Cornac Fighter and Expedition Leader#{normal}#
 It knows we're here.  Xann's gone, and I have to assume the worst.  Too late to run.  One option left, a contraption Sodelost ensured us he'd be able to use to get the kill...  shame he didn't leave instructions behind with it, it's unclear how to arm it, and I don't want to add "being charred to a crisp" to my list of troubles today.
 I might not know a great deal about artifice, but I know how wild animals work, and for all the praise they get, dragons are no better.  I don't need to know how to rig this device so it goes off when the beast steps on it - I just need to put it inside something it'll eat whole...
-#{italic}#Judging from this note's intact state and delicate placement next to a sack covered in assorted animal viscera, the dragon not only avoided setting off the trap, but has kept it as a trophy.  Inside the sack is a disarmed trap featuring a few recognizable alchemical flasks, and a means of mixing them in the right proportion when a pressure plate is triggered to produce a blast of dragonsfire. Figuring out how to arm it is almost as easy as figuring out how to make more traps like it.#{normal}#]], [[#{bold}#Relle, Cornac Fighter and Expedition Leader#{normal}#
-It knows we're here.  Xann's gone, and I have to assume the worst.  Too late to run.  One option left, a contraption Sodelost ensured us he'd be able to use to get the kill...  shame he didn't leave instructions behind with it, it's unclear how to arm it, and I don't want to add "being charred to a crisp" to my list of troubles today.
-I might not know a great deal about artifice, but I know how wild animals work, and for all the praise they get, dragons are no better.  I don't need to know how to rig this device so it goes off when the beast steps on it - I just need to put it inside something it'll eat whole...
-#{italic}#Judging from this note's intact state and delicate placement next to a sack covered in assorted animal viscera, the dragon not only avoided setting off the trap, but has kept it as a trophy.  Inside the sack is a disarmed trap featuring a few recognizable alchemical flasks, and a means of mixing them in the right proportion when a pressure plate is triggered to produce a blast of dragonsfire. Figuring out how to arm it is almost as easy as figuring out how to make more traps like it.#{normal}#]], "_t")
+#{italic}#Judging from this note's intact state and delicate placement next to a sack covered in assorted animal viscera, the dragon not only avoided setting off the trap, but has kept it as a trophy.  Inside the sack is a disarmed trap featuring a few recognizable alchemical flasks, and a means of mixing them in the right proportion when a pressure plate is triggered to produce a blast of dragonsfire. Figuring out how to arm it is almost as easy as figuring out how to make more traps like it.#{normal}#]], [[#{bold}#Relle, Capitaine d'Expédition & Guerrière Cornac#{normal}#
+Il sait que nous sommes ici. Xann a disparu, et je dois craindre le pire. Trop tard pour fuir. Il ne reste qu'une option, une engeance que Sodelost nous avait assuré pouvoir utiliser pour porter le coup fatal... dommage qu'il n'ait laissé aucune instruction, on ne sait pas clairement comment l'armer, et je ne tiens pas à ajouter "être carbonisée jusqu'à l'os" à ma liste de soucis du jour.
+Je ne connais peut-être pas grand-chose aux artifices, mais je sais comment fonctionnent les bêtes sauvages, et malgré tous les éloges qu'on leur fait, les dragons ne valent pas mieux. Je n'ai pas besoin de savoir monter ce dispositif pour qu'il se déclenche quand la bête marchera dessus - il me suffit de le placer dans quelque chose qu'elle avalera tout entier...
+#{italic}#À en juger par l'état intact de cette note et son emplacement soigné près d'un sac couvert de viscères animales variées, le dragon a non seulement évité de déclencher le piège, mais l'a conservé comme trophée. À l'intérieur du sac se trouve un piège désarmé, comprenant quelques flacons alchimiques reconnaissables, et un moyen de les mélanger dans les bonnes proportions lorsqu'une plaque de pression est déclenchée, afin de produire une explosion de feu de dragon. Comprendre comment l'armer est presque aussi facile que d'apprendre à en fabriquer d'autres semblables.#{normal}#]], "_t")
+t("Freezing Trap", "Piège Congelant", "_t")
 t([[#{bold}#Relle, Cornac Fighter and Expedition Leader#{normal}#
 It knows we're here.  Xann's gone, and I have to assume the worst.  Too late to run.  One option left, a contraption Sodelost ensured us he'd be able to use to get the kill...  shame he didn't leave instructions behind with it, it's unclear how to arm it, and I don't want to add "being frozen solid" to my list of troubles today.
 I might not know a great deal about artifice, but I know how wild animals work, and for all the praise they get, dragons are no better.  I don't need to know how to rig this device so it goes off when the beast steps on it - I just need to put it inside something it'll eat whole...
-#{italic}#Judging from this note's intact state and delicate placement next to a sack covered in assorted animal viscera, the dragon not only avoided setting off the trap, but has kept it as a trophy.  Inside the sack is a disarmed trap featuring a few recognizable alchemical flasks, and a means of mixing them in the right proportion when a pressure plate is triggered to produce a blast of ice. Figuring out how to arm it is almost as easy as figuring out how to make more traps like it.#{normal}#]], [[#{bold}#Relle, Cornac Fighter and Expedition Leader#{normal}#
-It knows we're here.  Xann's gone, and I have to assume the worst.  Too late to run.  One option left, a contraption Sodelost ensured us he'd be able to use to get the kill...  shame he didn't leave instructions behind with it, it's unclear how to arm it, and I don't want to add "being frozen solid" to my list of troubles today.
-I might not know a great deal about artifice, but I know how wild animals work, and for all the praise they get, dragons are no better.  I don't need to know how to rig this device so it goes off when the beast steps on it - I just need to put it inside something it'll eat whole...
-#{italic}#Judging from this note's intact state and delicate placement next to a sack covered in assorted animal viscera, the dragon not only avoided setting off the trap, but has kept it as a trophy.  Inside the sack is a disarmed trap featuring a few recognizable alchemical flasks, and a means of mixing them in the right proportion when a pressure plate is triggered to produce a blast of ice. Figuring out how to arm it is almost as easy as figuring out how to make more traps like it.#{normal}#]], "_t")
+#{italic}#Judging from this note's intact state and delicate placement next to a sack covered in assorted animal viscera, the dragon not only avoided setting off the trap, but has kept it as a trophy.  Inside the sack is a disarmed trap featuring a few recognizable alchemical flasks, and a means of mixing them in the right proportion when a pressure plate is triggered to produce a blast of ice. Figuring out how to arm it is almost as easy as figuring out how to make more traps like it.#{normal}#]], [[#{bold}#Relle, Capitaine d'Expédition & Guerrière Cornac#{normal}#
+Il sait que nous sommes ici. Xann a disparu, et je dois craindre le pire. Trop tard pour fuir. Il ne reste qu'une option, une engeance que Sodelost nous avait assuré pouvoir utiliser pour porter le coup fatal... dommage qu'il n'ait laissé aucune instruction, on ne sait pas clairement comment l'armer, et je ne tiens pas à ajouter "être entièrement gelée" à ma liste de soucis du jour.
+Je ne connais peut-être pas grand-chose aux artifices, mais je sais comment fonctionnent les bêtes sauvages, et malgré tous les éloges qu'on leur fait, les dragons ne valent pas mieux. Je n'ai pas besoin de savoir monter ce dispositif pour qu'il se déclenche quand la bête marchera dessus - il me suffit de le placer dans quelque chose qu'elle avalera tout entier...
+#{italic}#À en juger par l'état intact de cette note et son emplacement soigné près d'un sac couvert de viscères animales variées, le dragon a non seulement évité de déclencher le piège, mais l'a conservé comme trophée. À l'intérieur du sac se trouve un piège désarmé, comprenant quelques flacons alchimiques reconnaissables, et un moyen de les mélanger dans les bonnes proportions lorsqu'une plaque de pression est déclenchée, afin de produire une explosion de glace. Comprendre comment l'armer est presque aussi facile que d'apprendre à en fabriquer d'autres semblables.#{normal}#]], "_t")
+-- texte non traduit
+--[==[
+t("daikara", "daikara", "newLore category")
 --]==]
 
 
@@ -12473,58 +12410,54 @@ I might not know a great deal about artifice, but I know how wild animals work, 
 section "mod-tome/data/lore/derth.lua"
 
 t("Beam Trap", "Piège à Rayon", "_t")
--- texte non traduit
---[==[
-t("derth", "derth", "newLore category")
 t([[#{italic}#A villager runs up to you, carrying a hefty looking sack.#{normal}#
 You've saved us from the storms!  We can't ever repay you enough, but, well...  Shortly after you stopped them, a witch approached us and offered us some...  magical #{italic}#things#{normal}# and said they would protect our town if anything like that happened again.
 It's not that I don't trust her, not after you and they - mostly you! - saved us, but...  I just don't feel comfortable having all this arcane stuff around us all the time.  None of us do.  If you've got a use for these, you're more than welcome to them.
-#{italic}#He hands you a sack, containing a few dozen of the same strange magical object; included is a guide to using them and producing more, written for users completely inexperienced with magic.  Apparently, they're designed to be mounted on walls and rooftops, and will try to non-lethally incapacitate outside invaders while sending a message of distress to Angolwen.  With a few tweaks, you can make them deadly instead (and avoid harassing Angolwen while you're at it).#{normal}#]], [[#{italic}#A villager runs up to you, carrying a hefty looking sack.#{normal}#
-You've saved us from the storms!  We can't ever repay you enough, but, well...  Shortly after you stopped them, a witch approached us and offered us some...  magical #{italic}#things#{normal}# and said they would protect our town if anything like that happened again.
-It's not that I don't trust her, not after you and they - mostly you! - saved us, but...  I just don't feel comfortable having all this arcane stuff around us all the time.  None of us do.  If you've got a use for these, you're more than welcome to them.
-#{italic}#He hands you a sack, containing a few dozen of the same strange magical object; included is a guide to using them and producing more, written for users completely inexperienced with magic.  Apparently, they're designed to be mounted on walls and rooftops, and will try to non-lethally incapacitate outside invaders while sending a message of distress to Angolwen.  With a few tweaks, you can make them deadly instead (and avoid harassing Angolwen while you're at it).#{normal}#]], "_t")
+#{italic}#He hands you a sack, containing a few dozen of the same strange magical object; included is a guide to using them and producing more, written for users completely inexperienced with magic.  Apparently, they're designed to be mounted on walls and rooftops, and will try to non-lethally incapacitate outside invaders while sending a message of distress to Angolwen.  With a few tweaks, you can make them deadly instead (and avoid harassing Angolwen while you're at it).#{normal}#]], [[#{italic}#Un villageois accourt vers vous, portant un sac d'aspect lourd.#{normal}#
+Vous nous avez sauvés des tempêtes ! Nous ne pourrons jamais assez vous en remercier, mais, eh bien... Peu après que vous les ayez arrêtées, une sorcière est venue nous voir et nous a offert quelques... #{italic}#choses#{normal}# magiques, en disant qu'elles protégeraient notre ville si pareil événement se reproduisait.
+Ce n'est pas que je ne lui fais pas confiance, surtout après que vous et eux - vous surtout ! - nous ayez sauvés, mais... je ne me sens tout simplement pas à l'aise d'avoir tout ce matériel arcanique autour de nous en permanence. Aucun de nous ne l'est. Si vous en avez l'usage, elles sont volontiers à vous.
+#{italic}#Il vous tend un sac contenant plusieurs dizaines de ce même étrange objet magique ; y est joint un guide expliquant comment les utiliser et en fabriquer d'autres, rédigé pour des utilisateurs totalement néophytes en magie. Apparemment, ils sont conçus pour être montés sur les murs et les toits, et tenteront de neutraliser sans tuer les envahisseurs extérieurs tout en envoyant un signal de détresse à Angolwen. Avec quelques ajustements, vous pourriez les rendre mortels à la place (et éviter au passage d'importuner Angolwen).#{normal}#]], "_t")
+-- texte non traduit
+--[==[
+t("derth", "derth", "newLore category")
 --]==]
 
 
 ------------------------------------------------
 section "mod-tome/data/lore/dreadfell.lua"
 
-t("A smudged poem chalked on a dark piece of slate", "Un poème illisible, tracé à la craie sur une ardoise.", "_t")
-t("A poem written in scribbled, child-like writing", "Un poème griffonnée, écrit de façon enfantine", "_t")
-t("A poem written in an elegant Gothic script", "Un poème écrit d'une élégante manière gothique", "_t")
--- texte non traduit
---[==[
-t("dreadfell", "dreadfell", "newLore category")
-t("note from the Master", "note from the Master", "_t")
+t("dreadfell", "tombeffroie", "newLore category")
+t("note from the Master", "note du Maître", "_t")
 t([[MINIONS: Perhaps you feel your Master has been lax or absent? Well, I shall amend that. I have been studying an object of great import. It is of much greater interest than your foolish unlives. But do not think that I will let you get away with things because of this.
 
-Skeletons, you have been getting noticeably behind in your adventurer slaughtering quotas. The next skeleton archer I see drinking coffee and chatting with the wights shall be rent limb from limb and fed to the orcs. Also, as a punishment for your general laxness, 1,000 skeletons shall be remanded down to Kor'Pul as punishment. A further 250 shall be slaughtered. These orders to be carried out by myself tomorrow at 3am.]], [[MINIONS: Perhaps you feel your Master has been lax or absent? Well, I shall amend that. I have been studying an object of great import. It is of much greater interest than your foolish unlives. But do not think that I will let you get away with things because of this.
+Skeletons, you have been getting noticeably behind in your adventurer slaughtering quotas. The next skeleton archer I see drinking coffee and chatting with the wights shall be rent limb from limb and fed to the orcs. Also, as a punishment for your general laxness, 1,000 skeletons shall be remanded down to Kor'Pul as punishment. A further 250 shall be slaughtered. These orders to be carried out by myself tomorrow at 3am.]], [[SBIRES : Peut-être avez-vous le sentiment que votre Maître a été négligent ou absent ? Eh bien, j'y remédierai. J'ai étudié un objet de grande importance, bien plus digne d'intérêt que vos stupides existences mortes-vivantes. Mais ne croyez pas que je vous laisserai vous en tirer pour autant.
 
-Skeletons, you have been getting noticeably behind in your adventurer slaughtering quotas. The next skeleton archer I see drinking coffee and chatting with the wights shall be rent limb from limb and fed to the orcs. Also, as a punishment for your general laxness, 1,000 skeletons shall be remanded down to Kor'Pul as punishment. A further 250 shall be slaughtered. These orders to be carried out by myself tomorrow at 3am.]], "_t")
+Squelettes, vous avez pris un retard notable dans vos quotas de massacre d'aventuriers. Le prochain archer squelette que je verrai boire du café et bavarder avec les spectres sera démembré et donné en pâture aux orcs. De plus, en punition de votre laxisme général, 1 000 squelettes seront renvoyés à Kor'Pul en guise de sanction. 250 de plus seront exécutés. Ces ordres seront exécutés par mes soins demain à 3 heures du matin.]], "_t")
 t([[MINIONS: Be aware, I your great Master have found an item. It is of extreme power, but not yet complete, at least for my purposes.
 
 All hail your brilliant Master. Would you like to walk in the sun? Would you like to be free to roam green meadows and crush innocent children? Such are my wishes also. The reward to anyone who brings me any item that will help me bend this sta... item to my will shall be stupendous.
 
-Also, any new minions who have magical research skills are wanted. Recruit them and you shall be rewarded. Though if they steal my secrets, your blood will be my wine and your heart my appetizer.]], [[MINIONS: Be aware, I your great Master have found an item. It is of extreme power, but not yet complete, at least for my purposes.
+Also, any new minions who have magical research skills are wanted. Recruit them and you shall be rewarded. Though if they steal my secrets, your blood will be my wine and your heart my appetizer.]], [[SBIRES : Sachez que moi, votre grand Maître, ai trouvé un objet d'un pouvoir extrême, mais qui n'est pas encore complet, du moins pour mes desseins.
 
-All hail your brilliant Master. Would you like to walk in the sun? Would you like to be free to roam green meadows and crush innocent children? Such are my wishes also. The reward to anyone who brings me any item that will help me bend this sta... item to my will shall be stupendous.
+Que tous saluent leur brillant Maître. Aimeriez-vous marcher au soleil ? Aimeriez-vous être libres d'errer dans de verts pâturages et d'écraser des enfants innocents ? Tels sont aussi mes voeux. La récompense pour quiconque m'apporterait un objet susceptible de m'aider à plier ce sta... cet objet à ma volonté sera extraordinaire.
 
-Also, any new minions who have magical research skills are wanted. Recruit them and you shall be rewarded. Though if they steal my secrets, your blood will be my wine and your heart my appetizer.]], "_t")
+De plus, tout nouveau sbire possédant des compétences en recherche magique est le bienvenu. Recrutez-les et vous serez récompensés. Cependant, s'ils volent mes secrets, votre sang sera mon vin et votre coeur mon amuse-gueule.]], "_t")
 t([[MINIONS: Perhaps you are minor dens of foulness because you have nothing to aspire to? Perhaps you could be greater if you had a worse example before you? Consider Me! I began my long unlife as a foolish pipsqueak such as yourself. Why, there was a time before I had conquered even a pit let alone a level or a dungeon. Now, behold all that is Mine.
 
-You must have aspirations. I am not content with just the rule of Dreadfell. No, soon I shall have more. Much more. My boots shall tread the surface of the earth! I shall explore and destroy the most beautiful mountains. All shall be mine once I can walk in the sun once more. Where will you be? Do you wish to be more than the wight I stepped on yesterday? I shall need great leaders to guide my armies across the land.]], [[MINIONS: Perhaps you are minor dens of foulness because you have nothing to aspire to? Perhaps you could be greater if you had a worse example before you? Consider Me! I began my long unlife as a foolish pipsqueak such as yourself. Why, there was a time before I had conquered even a pit let alone a level or a dungeon. Now, behold all that is Mine.
+You must have aspirations. I am not content with just the rule of Dreadfell. No, soon I shall have more. Much more. My boots shall tread the surface of the earth! I shall explore and destroy the most beautiful mountains. All shall be mine once I can walk in the sun once more. Where will you be? Do you wish to be more than the wight I stepped on yesterday? I shall need great leaders to guide my armies across the land.]], [[SBIRES : Peut-être n'êtes-vous que d'insignifiants antres d'immondice parce que vous n'avez rien à quoi aspirer ? Peut-être seriez-vous plus grands si vous aviez devant vous un pire exemple ? Songez à Moi ! J'ai commencé ma longue non-vie comme un stupide gringalet tel que vous. Que dis-je, il fut un temps où je n'avais même pas conquis une fosse, encore moins un niveau ou un donjon. Contemplez maintenant tout ce qui M'Appartient.
 
-You must have aspirations. I am not content with just the rule of Dreadfell. No, soon I shall have more. Much more. My boots shall tread the surface of the earth! I shall explore and destroy the most beautiful mountains. All shall be mine once I can walk in the sun once more. Where will you be? Do you wish to be more than the wight I stepped on yesterday? I shall need great leaders to guide my armies across the land.]], "_t")
+Vous devez avoir des aspirations. Je ne me contente pas du seul règne sur Tombeffroie. Non, bientôt j'aurai davantage. Bien davantage. Mes bottes fouleront la surface de la terre ! J'explorerai et détruirai les plus belles montagnes. Tout sera mien dès que je pourrai marcher au soleil une fois de plus. Où serez-vous alors ? Souhaitez-vous être davantage que le spectre sur lequel j'ai marché hier ? J'aurai besoin de grands chefs pour guider mes armées à travers les terres.]], "_t")
 t([[MINIONS: You are foolish sods. Have you heard of the great Kor'Pul? Perhaps not, because you know very little and he died long before you were so stupid as to be born. However, he was great and had the chance to be greater still. He let himself be cooped into a small hellhole and was destroyed when the right hero invaded it and destroyed his plaything. Now he is but a mere shade of his former glory.
 
-I shall not make this mistake. Be ready, for soon we shall march out upon the lands. Soon we shall conquer as even he could not. Pity the fool who thinks he can keep me stuck in even the grandest of pits, Dreadfell.]], [[MINIONS: You are foolish sods. Have you heard of the great Kor'Pul? Perhaps not, because you know very little and he died long before you were so stupid as to be born. However, he was great and had the chance to be greater still. He let himself be cooped into a small hellhole and was destroyed when the right hero invaded it and destroyed his plaything. Now he is but a mere shade of his former glory.
+I shall not make this mistake. Be ready, for soon we shall march out upon the lands. Soon we shall conquer as even he could not. Pity the fool who thinks he can keep me stuck in even the grandest of pits, Dreadfell.]], [[SBIRES : Vous êtes de stupides imbéciles. Avez-vous entendu parler du grand Kor'Pul ? Sans doute pas, car vous en savez bien peu et il est mort bien avant que vous ne soyez assez stupides pour naître. Pourtant, il fut grand, et eut la chance de le devenir plus encore. Il se laissa enfermer dans un petit trou infernal et fut détruit lorsque le héros idoine l'envahit et détruisit son jouet. À présent, il n'est plus qu'une pâle ombre de son ancienne gloire.
 
-I shall not make this mistake. Be ready, for soon we shall march out upon the lands. Soon we shall conquer as even he could not. Pity the fool who thinks he can keep me stuck in even the grandest of pits, Dreadfell.]], "_t")
+Je ne commettrai pas cette erreur. Soyez prêts, car bientôt nous marcherons sur les terres. Bientôt nous conquerrons là où même lui ne le put. Plaignez l'imbécile qui pense pouvoir m'enfermer, même dans la plus grandiose des fosses, Tombeffroie.]], "_t")
 t([[MINIONS: To my newest vampire: burn, foolish adventurer, burn! I bet you are sorry for that flame spell now, aren't you? Suffer as I revisit it upon you.
 
-To the rest of you, there will be punishment. An adventurer got down to my bedroom and surprised me. I, Myself, was hurt and almost had to use My special power. All is well now and I am as dangerous as ever, but you shall suffer for letting him get so low. The next minion I see shall be toasted with my marshmallows. Where then were the special pits of doom I organized? Where were the poisons of my wights or the diseases of my ghouls? Indeed, I should slaughter all of you, and I would, but those who were most foully remiss were already slaughtered by the adventurer. The rest of you? Beware My wrath.]], [[MINIONS: To my newest vampire: burn, foolish adventurer, burn! I bet you are sorry for that flame spell now, aren't you? Suffer as I revisit it upon you.
+To the rest of you, there will be punishment. An adventurer got down to my bedroom and surprised me. I, Myself, was hurt and almost had to use My special power. All is well now and I am as dangerous as ever, but you shall suffer for letting him get so low. The next minion I see shall be toasted with my marshmallows. Where then were the special pits of doom I organized? Where were the poisons of my wights or the diseases of my ghouls? Indeed, I should slaughter all of you, and I would, but those who were most foully remiss were already slaughtered by the adventurer. The rest of you? Beware My wrath.]], [[SBIRES : À mon plus récent vampire : brûle, aventurier stupide, brûle ! Je parie que tu regrettes maintenant ce sort de flammes, n'est-ce pas ? Souffre, tandis que je te le rends.
 
-To the rest of you, there will be punishment. An adventurer got down to my bedroom and surprised me. I, Myself, was hurt and almost had to use My special power. All is well now and I am as dangerous as ever, but you shall suffer for letting him get so low. The next minion I see shall be toasted with my marshmallows. Where then were the special pits of doom I organized? Where were the poisons of my wights or the diseases of my ghouls? Indeed, I should slaughter all of you, and I would, but those who were most foully remiss were already slaughtered by the adventurer. The rest of you? Beware My wrath.]], "_t")
+Quant au reste d'entre vous, il y aura punition. Un aventurier est descendu jusqu'à ma chambre et m'a surpris. Moi-même j'ai été blessé et ai bien failli devoir user de Mon pouvoir spécial. Tout va bien à présent, et je suis aussi dangereux que jamais, mais vous souffrirez de l'avoir laissé descendre si bas. Le prochain sbire que je verrai sera grillé avec mes chamallows. Où donc étaient les fosses de perdition spéciales que j'avais organisées ? Où étaient les poisons de mes spectres ou les maladies de mes goules ? En vérité, je devrais tous vous massacrer, et je le ferais, mais ceux qui furent les plus vilement négligents ont déjà été massacrés par l'aventurier. Quant aux autres ? Prenez garde à Ma colère.]], "_t")
+t("A smudged poem chalked on a dark piece of slate", "Un poème illisible, tracé à la craie sur une ardoise", "_t")
 t([[Master of life, Master of death,
 All fall to a word
 From his dreaded breath!
@@ -12542,24 +12475,25 @@ Dare not oppose him
 Or your blood will spill!
 
 Master of shadows beyond mortal thought,
-Against undying death all are as naught.]], [[Master of life, Master of death,
-All fall to a word
-From his dreaded breath!
+Against undying death all are as naught.]], [[Maître de la vie, Maître de la mort,
+D'un seul mot
+Tous succombent au sort !
 
-Master of staff, Master of steel,
-None can withstand
-His ruthless zeal!
+Maître du bâton, Maître de l'acier,
+Nul ne résiste
+À son zèle sans pitié !
 
-Master of magic, Master of fire,
-Pity the fool
-That stirs his great ire!
+Maître de la magie, Maître du feu,
+Malheur au sot
+Qui réveille son courroux !
 
-Master of strength, Master of will,
-Dare not oppose him
-Or your blood will spill!
+Maître de la force, Maître de la volonté,
+N'ose s'opposer à lui
+Ou ton sang sera versé !
 
-Master of shadows beyond mortal thought,
-Against undying death all are as naught.]], "_t")
+Maître des ombres, par-delà la pensée des mortels,
+Contre la mort éternelle, tous ne sont que néant.]], "_t")
+t("A poem written in scribbled, child-like writing", "Un poème griffonnée, écrit de façon enfantine", "_t")
 t([[Me like Master,
 He's a real laster,
 He is faster
@@ -12568,25 +12502,26 @@ Can bring disaster,
 Need more'n a plaster
 After his attackaster...
 
-Alabaster... raster... pastor? Grr, need more brains...]], [[Me like Master,
-He's a real laster,
-He is faster
-than a caster,
-Can bring disaster,
-Need more'n a plaster
-After his attackaster...
+Alabaster... raster... pastor? Grr, need more brains...]], [[Moi aime Maître,
+Il dure vraiment,
+Il est plus rapide
+qu'un envoûtant,
+Peut faire des ravages,
+Faut plus qu'un pansage
+Après son coup-ravage...
 
-Alabaster... raster... pastor? Grr, need more brains...]], "_t")
+Balustrage... ravage... virage ? Grr, faut plus de cervelle...]], "_t")
+t("A poem written in an elegant Gothic script", "Un poème écrit d'une élégante manière gothique", "_t")
 t([[No staff will save thee
 Against the blindness of pride
-Death will catch thee up]], [[No staff will save thee
-Against the blindness of pride
-Death will catch thee up]], "_t")
-t("a note about undead poetry from the Master", "a note about undead poetry from the Master", "_t")
-t("As an aside, I notice one of my skeletons has amused himself by writing a poem about me. Whilst my first reaction was to have his bones crunched into dust and what remained of his undead soul sent to the darkest depths of the abyss, I do now realise that there is some merit to this. Every great leader needs tales penned of his brilliant conquest. Therefore I now command you all to write more poetry in my honour, praising my amazing powers, unrivalled leadership, unconquerable strength, etc etc. Any that fail to produce works of sufficient standard shall be annihilated.", "As an aside, I notice one of my skeletons has amused himself by writing a poem about me. Whilst my first reaction was to have his bones crunched into dust and what remained of his undead soul sent to the darkest depths of the abyss, I do now realise that there is some merit to this. Every great leader needs tales penned of his brilliant conquest. Therefore I now command you all to write more poetry in my honour, praising my amazing powers, unrivalled leadership, unconquerable strength, etc etc. Any that fail to produce works of sufficient standard shall be annihilated.", "_t")
-t("slain master", "slain master", "_t")
-t("A powerful staff is grabbed from the Master's dead hands.", "A powerful staff is grabbed from the Master's dead hands.", "_t")
-t("a letter to Borfast from the Master", "a letter to Borfast from the Master", "_t")
+Death will catch thee up]], [[Nul bâton ne te sauvera
+Contre l'aveuglement de l'orgueil
+La mort te rattrapera]], "_t")
+t("a note about undead poetry from the Master", "une note du Maître sur la poésie morte-vivante", "_t")
+t("As an aside, I notice one of my skeletons has amused himself by writing a poem about me. Whilst my first reaction was to have his bones crunched into dust and what remained of his undead soul sent to the darkest depths of the abyss, I do now realise that there is some merit to this. Every great leader needs tales penned of his brilliant conquest. Therefore I now command you all to write more poetry in my honour, praising my amazing powers, unrivalled leadership, unconquerable strength, etc etc. Any that fail to produce works of sufficient standard shall be annihilated.", "Soit dit en passant, je remarque qu'un de mes squelettes s'est amusé à écrire un poème sur moi. Bien que ma première réaction ait été de faire broyer ses os en poussière et d'envoyer ce qui restait de son âme morte-vivante dans les plus sombres profondeurs de l'abîme, je réalise à présent qu'il y a là quelque mérite. Tout grand chef a besoin de récits vantant sa brillante conquête. Je vous ordonne donc désormais à tous d'écrire davantage de poèmes en mon honneur, louant mes pouvoirs stupéfiants, mon sens du commandement sans égal, ma force inconquérable, etc., etc. Quiconque manquera de produire des oeuvres d'un niveau insuffisant sera anéanti.", "_t")
+t("slain master", "maître tué", "_t")
+t("A powerful staff is grabbed from the Master's dead hands.", "Un puissant bâton est arraché des mains mortes du Maître.", "_t")
+t("a letter to Borfast from the Master", "une lettre du Maître à Borfast", "_t")
 t([[Ah, my dear Borfast, welcome to your glorious undeath! Your armour a cage, your hopes despair, your axe enslaved to my will, your soul mine to feast upon. How does it feel? Rather lovely I like to imagine! You were a valiant opponent, and though you were little threat to me I do like to honour you with this special treatment. And you do like honour, don't you? I know you wished to honour your people by defeating me and destroying my tower, but I'm sure you realise now that it was a rather vain endeavour.
 
 I apologise for what happened to that lovely suit of plate. I know it got a little... worn... during the treatment. But I'm afraid I really did need to find out the locations of your companion, and certain pressures had to be applied. You weren't very talkative, now were you? But I soon made you sing, oh yes. Of course, I could have just used a little divination magic to find out what I wanted, but I do so enjoy a good torture... And my, how joyous your screams were whenever the acid splashed against your beard! Hoh, we did chortle, did we not? But no matter, I've had my best skeletal smiths work on fixing your armour, fit to be worn by my new champion.
@@ -12595,16 +12530,16 @@ I hope you enjoy your new work. Approach it with gusto, that sort of thing. I kn
 
 Until then, do enjoy the work, try to keep the place clean, and remember - I own you forever.
 
-- The Master]], [[Ah, my dear Borfast, welcome to your glorious undeath! Your armour a cage, your hopes despair, your axe enslaved to my will, your soul mine to feast upon. How does it feel? Rather lovely I like to imagine! You were a valiant opponent, and though you were little threat to me I do like to honour you with this special treatment. And you do like honour, don't you? I know you wished to honour your people by defeating me and destroying my tower, but I'm sure you realise now that it was a rather vain endeavour.
+- The Master]], [[Ah, mon cher Borfast, bienvenue dans ta glorieuse non-mort ! Ton armure une cage, tes espoirs un désespoir, ta hache asservie à ma volonté, ton âme mienne à dévorer. Quelle sensation cela te fait-il ? Plutôt délicieuse, j'imagine ! Tu fus un valeureux adversaire, et bien que tu ne représentasses guère de menace pour moi, j'aime t'honorer de ce traitement spécial. Et tu aimes l'honneur, n'est-ce pas ? Je sais que tu souhaitais honorer ton peuple en me vainquant et en détruisant ma tour, mais je suis certain que tu réalises à présent que ce fut là une entreprise bien vaine.
 
-I apologise for what happened to that lovely suit of plate. I know it got a little... worn... during the treatment. But I'm afraid I really did need to find out the locations of your companion, and certain pressures had to be applied. You weren't very talkative, now were you? But I soon made you sing, oh yes. Of course, I could have just used a little divination magic to find out what I wanted, but I do so enjoy a good torture... And my, how joyous your screams were whenever the acid splashed against your beard! Hoh, we did chortle, did we not? But no matter, I've had my best skeletal smiths work on fixing your armour, fit to be worn by my new champion.
+Je te présente mes excuses pour ce qui est arrivé à ta charmante armure de plates. Je sais qu'elle s'est un peu... abîmée... durant le traitement. Mais je crains d'avoir réellement eu besoin de découvrir l'emplacement de ton compagnon, et certaines pressions ont dû être appliquées. Tu n'étais guère bavard, n'est-ce pas ? Mais je t'ai bientôt fait chanter, oh oui. Bien sûr, j'aurais pu simplement recourir à un peu de magie de divination pour découvrir ce que je voulais, mais j'apprécie tant une bonne torture... Et mon Dieu, comme tes cris étaient joyeux chaque fois que l'acide éclaboussait ta barbe ! Ho, comme nous avons ri, n'est-ce pas ? Mais peu importe, j'ai fait travailler mes meilleurs forgerons squelettiques pour réparer ton armure, digne d'être portée par mon nouveau champion.
 
-I hope you enjoy your new work. Approach it with gusto, that sort of thing. I know in life you always dreamed of being a mighty hero of legend. But, well, what can be more glorious than this? You will live forever as my servant, destined to defend my throne for all time! You will be the envy of all the lesser ghouls that shamble about my halls. Well, until you get slain by some dumb intruding adventurer, of course... But that's the beauty of you heroes - one comes in, makes a mess, and then I get a new plaything to toy with. I wonder who shall replace you, eh?
+J'espère que tu apprécieras ton nouveau travail. Aborde-le avec entrain, ce genre de chose. Je sais qu'en vie tu as toujours rêvé d'être un puissant héros de légende. Mais, eh bien, qu'y a-t-il de plus glorieux que ceci ? Tu vivras à jamais comme mon serviteur, destiné à défendre mon trône pour l'éternité ! Tu seras l'envie de toutes les goules inférieures qui traînent dans mes couloirs. Enfin, jusqu'à ce que tu sois tué par quelque stupide aventurier intrus, bien sûr... Mais c'est là la beauté de vous autres héros - l'un entre, fait des dégâts, et j'obtiens alors un nouveau jouet avec lequel m'amuser. Je me demande qui te remplacera, hein ?
 
-Until then, do enjoy the work, try to keep the place clean, and remember - I own you forever.
+D'ici là, profite bien du travail, tâche de garder les lieux propres, et souviens-toi - je te possède pour toujours.
 
-- The Master]], "_t")
-t("a letter to Aletta from the Master", "a letter to Aletta from the Master", "_t")
+- Le Maître]], "_t")
+t("a letter to Aletta from the Master", "une lettre du Maître à Aletta", "_t")
 t([[Ah, sweet Aletta! How rich your blood tasted on my lips! I know it's not quite what you were expecting from the next step in our relationship, but aren't surprises the true joy of any romance?
 
 I don't blame you for falling for me, you know, even to the point of betraying all your companions just for me. Women have always had a weakness for my brooding personality and sparkling wit. Even in life I was quite the charmer, and death only improves things, I assure you. I really do have the reputation as a heartbreaker, in more ways than one... Your heart shall now sit in a special place, next to the rest of the offal in my pits.
@@ -12613,40 +12548,45 @@ Thank you for telling me of Borfast's weaknesses - it shall make overcoming the 
 
 You must feel a little betrayed of course. I promised you power beyond your imaginings, and instead I drained your blood, fed your flesh to my servants, and enthralled your soul to my bidding. Well, we all struggle to manage expectations sometimes, eh? At least be glad I let your tortured essence roam the cold fastness of my fortress, haunting anyone foolish enough to invade. And some power I will impart to you, and it is indeed beyond your imaginings, for your mind could never reach the dark places I can. But open your eyes now, for such dark places shall be with you till the end of time... Welcome, indeed, to the dark place of my heart.
 
-- The Master]], [[Ah, sweet Aletta! How rich your blood tasted on my lips! I know it's not quite what you were expecting from the next step in our relationship, but aren't surprises the true joy of any romance?
+- The Master]], [[Ah, douce Aletta ! Comme ton sang avait un goût délicieux sur mes lèvres ! Je sais que ce n'est pas tout à fait ce à quoi tu t'attendais pour la prochaine étape de notre relation, mais les surprises ne sont-elles pas la véritable joie de toute romance ?
 
-I don't blame you for falling for me, you know, even to the point of betraying all your companions just for me. Women have always had a weakness for my brooding personality and sparkling wit. Even in life I was quite the charmer, and death only improves things, I assure you. I really do have the reputation as a heartbreaker, in more ways than one... Your heart shall now sit in a special place, next to the rest of the offal in my pits.
+Je ne te blâme pas d'être tombée sous mon charme, tu sais, au point même de trahir tous tes compagnons rien que pour moi. Les femmes ont toujours eu un faible pour ma personnalité ténébreuse et mon esprit étincelant. Même de mon vivant, j'étais déjà bien charmeur, et la mort n'a fait qu'améliorer les choses, je te l'assure. J'ai vraiment la réputation d'un briseur de coeurs, à plus d'un titre... Ton coeur trônera désormais en un lieu spécial, aux côtés du reste des abats dans mes fosses.
 
-Thank you for telling me of Borfast's weaknesses - it shall make overcoming the dwarven grunt all the simpler. Your rogue friend remains more elusive, but he will be found and destroyed. You see I have a sort of persistent bloody-mindedness about this sort of thing. There is not a cockroach in this tower that does not obey my every whim and will, and I shall see to it that it remains that way.
+Merci de m'avoir révélé les faiblesses de Borfast - cela rendra la défaite de ce rustre nain d'autant plus aisée. Ton ami brigand demeure plus insaisissable, mais on le trouvera et on le détruira. Vois-tu, j'ai une sorte de ténacité obstinée pour ce genre de choses. Il n'y a pas un seul cafard dans cette tour qui n'obéisse à mon moindre caprice et à ma volonté, et je veillerai à ce qu'il en reste ainsi.
 
-You must feel a little betrayed of course. I promised you power beyond your imaginings, and instead I drained your blood, fed your flesh to my servants, and enthralled your soul to my bidding. Well, we all struggle to manage expectations sometimes, eh? At least be glad I let your tortured essence roam the cold fastness of my fortress, haunting anyone foolish enough to invade. And some power I will impart to you, and it is indeed beyond your imaginings, for your mind could never reach the dark places I can. But open your eyes now, for such dark places shall be with you till the end of time... Welcome, indeed, to the dark place of my heart.
+Tu dois te sentir un peu trahie, bien sûr. Je t'avais promis un pouvoir au-delà de ton imagination, et à la place, j'ai drainé ton sang, nourri mes serviteurs de ta chair, et asservi ton âme à mes ordres. Eh bien, nous avons tous parfois du mal à gérer nos attentes, n'est-ce pas ? Sois au moins heureuse que j'aie laissé ton essence torturée errer dans les froides forteresses de mon repaire, hantant quiconque serait assez sot pour l'envahir. Et je te transmettrai un peu de pouvoir, et il est en effet au-delà de ton imagination, car ton esprit ne pourrait jamais atteindre les lieux sombres où je peux, moi, aller. Mais ouvre les yeux à présent, car de tels lieux sombres t'accompagneront jusqu'à la fin des temps... Bienvenue, en effet, dans le lieu sombre de mon coeur.
 
-- The Master]], "_t")
-t("a letter to Filio from the Master", "a letter to Filio from the Master", "_t")
+- Le Maître]], "_t")
+t("a letter to Filio from the Master", "une lettre du Maître à Filio", "_t")
 t([[Oh Filio, what a fun game we have had of cat and mouse! Well, perhaps to you it was a life and death struggle, but for me this past three weeks of patiently hunting you through my halls has been the most entertaining of past-times. I have enjoyed extending the game so, letting you escape my clutches when I felt it most prudent, watching as you got ever more desperate. Alas, you have now degraded too much, and it was simply too embarrassing watching you eat your own faeces to survive. I had to put an end to it - I'm sure you understand.
 
 But ah, it's not truly an end, for you get to experience the wonder of undead enslavement! Is it not most exciting? Do your bones not quiver with delight? It is just your bones now, since I have a certain fondness for skeletal servants, but I have been nice enough to pad your heels with leather so you can still sneak about quietly. How you did love to sneak! Now you may spend an eternity doing so, ensuring any future trespassers get quite the surprise wandering through my great keep.
 
 I have let you keep your little sling, since I know you like to play with it. Such a quaint weapon... But this staff I found in your possession - my, what a treasure you have brought me! I do not know whence you stole this artifact, but you clearly were completely unaware of its value or power. It has a history beyond your very comprehension, and in my hands it shall change the future! Thank you kindly, my servant; already you have served your Master well. I'm sure we shall enjoy a great friendship over the many years to come. Well, not friendship exactly - it more involves eternal agony on your part, and a rise to ultimate power and majesty for me. Such is the fate of the weak and the strong, a lesson you have already learned well. What a great teacher I make...
 
-- The Master]], [[Oh Filio, what a fun game we have had of cat and mouse! Well, perhaps to you it was a life and death struggle, but for me this past three weeks of patiently hunting you through my halls has been the most entertaining of past-times. I have enjoyed extending the game so, letting you escape my clutches when I felt it most prudent, watching as you got ever more desperate. Alas, you have now degraded too much, and it was simply too embarrassing watching you eat your own faeces to survive. I had to put an end to it - I'm sure you understand.
+- The Master]], [[Oh Filio, quel jeu amusant du chat et de la souris nous avons eu ! Eh bien, peut-être était-ce pour toi une lutte à la vie à la mort, mais pour moi, ces trois dernières semaines à te traquer patiemment à travers mes couloirs ont été le plus divertissant des passe-temps. J'ai tant aimé prolonger ce jeu, te laissant échapper à mes griffes quand cela me semblait le plus prudent, observant ton désespoir grandir sans cesse. Hélas, tu t'es maintenant trop dégradé, et il devenait simplement trop gênant de te voir manger tes propres excréments pour survivre. J'ai dû y mettre un terme - je suis sûr que tu comprends.
 
-But ah, it's not truly an end, for you get to experience the wonder of undead enslavement! Is it not most exciting? Do your bones not quiver with delight? It is just your bones now, since I have a certain fondness for skeletal servants, but I have been nice enough to pad your heels with leather so you can still sneak about quietly. How you did love to sneak! Now you may spend an eternity doing so, ensuring any future trespassers get quite the surprise wandering through my great keep.
+Mais ah, ce n'est pas vraiment une fin, car tu vas maintenant connaître la merveille de l'asservissement mort-vivant ! N'est-ce pas des plus exaltants ? Tes os ne frémissent-ils pas de plaisir ? Ce ne sont plus que tes os désormais, car j'ai une certaine tendresse pour les serviteurs squelettiques, mais j'ai eu la gentillesse de rembourrer tes talons de cuir afin que tu puisses toujours te faufiler silencieusement. Comme tu aimais te faufiler ! Tu pourras désormais passer une éternité à le faire, garantissant que tout futur intrus aura droit à une belle surprise en errant à travers mon grand donjon.
 
-I have let you keep your little sling, since I know you like to play with it. Such a quaint weapon... But this staff I found in your possession - my, what a treasure you have brought me! I do not know whence you stole this artifact, but you clearly were completely unaware of its value or power. It has a history beyond your very comprehension, and in my hands it shall change the future! Thank you kindly, my servant; already you have served your Master well. I'm sure we shall enjoy a great friendship over the many years to come. Well, not friendship exactly - it more involves eternal agony on your part, and a rise to ultimate power and majesty for me. Such is the fate of the weak and the strong, a lesson you have already learned well. What a great teacher I make...
+Je t'ai laissé garder ta petite fronde, car je sais que tu aimes t'en amuser. Une arme si pittoresque... Mais ce bâton que j'ai trouvé en ta possession - mon Dieu, quel trésor tu m'as apporté ! J'ignore où tu as volé cet artefact, mais tu ignorais manifestement tout de sa valeur ou de son pouvoir. Il a une histoire qui dépasse ton entendement, et entre mes mains il changera l'avenir ! Merci bien, mon serviteur ; tu as déjà bien servi ton Maître. Je suis certain que nous nous réjouirons d'une grande amitié pour de nombreuses années à venir. Enfin, pas exactement une amitié - il s'agit plutôt d'une agonie éternelle de ton côté, et d'une ascension vers le pouvoir et la majesté ultimes de mon côté. Tel est le destin des faibles et des forts, une leçon que tu as déjà bien apprise. Quel excellent professeur je fais...
 
-- The Master]], "_t")
-t("#0080FF#On the back of the letter you can just make out a coarsely scrawled and badly faded diagram.#LAST#", "#0080FF#On the back of the letter you can just make out a coarsely scrawled and badly faded diagram.#LAST#", "log")
---]==]
-
+- Le Maître]], "_t")
+t("#0080FF#On the back of the letter you can just make out a coarsely scrawled and badly faded diagram.#LAST#", "#0080FF#Au dos de la lettre, vous distinguez à peine un diagramme grossièrement griffonné et fortement délavé.#LAST#", "log")
 
 ------------------------------------------------
 section "mod-tome/data/lore/elvala.lua"
 
 t("spellblaze", "brûlure magique", "newLore category")
+t("The Spellblaze Chronicles(1): A Fateful Meeting", "Les Chroniques de la Brûlure Magique (1) : Une Rencontre Fatidique", "_t")
+t("The Spellblaze Chronicles(2): A Night to Remember", "Les Chroniques de la Brûlure Magique (2) : Une Nuit Inoubliable", "_t")
+t("The Spellblaze Chronicles(3): The Farportal", "Les Chroniques de la Brûlure Magique (3) : Le Portail Lointain", "_t")
+t("The Spellblaze Chronicles(4): Before the Dawn", "Les Chroniques de la Brûlure Magique (4) : Avant l'Aube", "_t")
+t("The Spellblaze Chronicles(5): The Day of the Spellblaze", "Les Chroniques de la Brûlure Magique (5) : Le Jour de la Brûlure Magique", "_t")
+t("The Spellblaze Chronicles(6): A Changed Eyal", "Les Chroniques de la Brûlure Magique (6) : Un Eyal Transformé", "_t")
+t("The Spellblaze Chronicles(7): Into Darkness", "Les Chroniques de la Brûlure Magique (7) : Dans les Ténèbres", "_t")
+t("The Spellblaze Chronicles(8): Forbidden", "Les Chroniques de la Brûlure Magique (8) : Interdit", "_t")
 -- texte non traduit
 --[==[
-t("The Spellblaze Chronicles(1): A Fateful Meeting", "The Spellblaze Chronicles(1): A Fateful Meeting", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter One: A Fateful Meeting#{normal}#
@@ -12736,7 +12676,6 @@ Neira was the first to respond, and there was colour in her cheeks and emotion i
 The room went quiet, and I could see Ephinias was silently fuming.  He was not accustomed to such open criticism.  Then Linaniil began to speak, and her voice was low and cool, yet all ears hung on her words.  “Many have been the works of pride over the years that have arisen in splendour.  Whence have come our great artworks, our grand cities, or the arcane weavings that shape our societies?  No meekness be found in their crafting.  There be no shame in acting out of pride, and we gain nothing from misplaced humility.  Too long have the powers of the Sher’Tul been left untapped by fearful and timid hearts.”  I could see then her eyes light up with excitement.  “Think of the glories we could unlock!  This war with the orcs would be but the beginning.  Great benefit could be brought to us all.  To leave these powers buried would be a crime, I say.”
 
 Turthel paused reflectively before nodding his head slowly, and it was clear that Linaniil’s words aligned better with his own thoughts.  “Very well,” he slowly announced, looking directly at Ephinias.  “We are with you.”  Neira stayed silent with brooding concern, but a flash of satisfaction crossed her sister’s eyes.]], "_t")
-t("The Spellblaze Chronicles(2): A Night to Remember", "The Spellblaze Chronicles(2): A Night to Remember", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Two: A Night to Remember#{normal}#
@@ -12826,7 +12765,6 @@ Seeing their numbers quickly dwindling the orcs began to flee, but I phased to b
 Linaniil and I stood facing each other, panting with sudden exhaustion as the adrenaline of the fight left us.  “I lost count,” I said between breaths, “of who slew more…”  She grinned coyly at me, sweat trickling down her face.  Minor cuts and burns left her robe in tatters, with one shoulder strap hanging loose.  Her glistening chest heaved up and down with each breath, and her deep eyes looked at me with naked intensity.
  
 She strode forward then, and grabbing me roughly by my hauberk she pulled my lips to hers.  The kiss was hot and fierce, and as she bit my lower lip the course of blood in battle came back to me afresh.  I kissed her again and grabbed her body, pulling her tight to me, our lips locked.  She tore lustfully at my remaining armour, flinging it to the ground, and I slid off her silken clothes, till we were left bare beneath the stars.  Then against a rocky outcrop we pressed against each other, still gasping and sweating from the fight.  There with blazing passion flesh met flesh and our hot moans rose into the cold night sky.]], "_t")
-t("The Spellblaze Chronicles(3): The Farportal", "The Spellblaze Chronicles(3): The Farportal", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Three: The Farportal#{normal}#
@@ -13000,7 +12938,6 @@ Then the chanting stopped and the image disappeared, and I could hear beside me 
 I had no words to respond, and only nodded softly, still in awe of what I had seen.  Neira seemed the same, and I could see her now staring at the farportal with the same eager eyes as her sister.  She was converted.
  
 Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured with unease.]], "_t")
-t("The Spellblaze Chronicles(4): Before the Dawn", "The Spellblaze Chronicles(4): Before the Dawn", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Four: Before the Dawn#{normal}#
@@ -13106,7 +13043,6 @@ She drew close then, a sudden flush of worry in her face.  “It were just a dre
 We parted then, and I began the lonely ride back to my own troops.  My heart was now pounding like a deafening war drum, whilst the words of Neira still echoed round my head.  They stirred up a memory in me of a dream I myself had that morning, but that had laid dormant in my mind till then.  I was lying in my bed, and floating above me was a shape of light and air, like the figure of a creature I had never seen before.  It had long tentacles for arms, and billowing robes fluttered about it slowly.  Where it should have a head there was only a small bump, but I could tell it was focused on me.  It stretched out a long tentacle towards me, as if it were warding against a dark and dangerous threat.  A feeling came over me of terrible foreboding, the looming portent of a doom like no other the world had ever seen.  As the tip of the tentacle neared my brow everything went black.
 
 Was it a dream?  Some strange foretelling?  Or could it have been a true apparition, something trying to give me a direct warning?  But I had no time for such thoughts.  The time of the Spellblaze was nearly upon us, and there could be no room for doubt.  I spurred my horse on to my fate.]], "_t")
-t("The Spellblaze Chronicles(5): The Day of the Spellblaze", "The Spellblaze Chronicles(5): The Day of the Spellblaze", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Five: The Day of the Spellblaze#{normal}#
@@ -13180,7 +13116,6 @@ Her clothes had been mostly burned off, her hair half turned to ash, and blood w
 I began to cast what healing spells I could on Linaniil, but I could tell it was not enough, and my weakened powers could not hope to save her.  I began to cry openly, thinking of all I had lost this day, all that had gone so terribly wrong.  Hope had turned to crisis, and the cruelty of fate was far too much for me to bear.  Cradling my dying love’s head in my lap I turned my face to the sky and screamed.  Torment was in my cracked voice, and I raged against all the injustice of life and the futility of war, surrounded on all sides by blood and bones and ashes.  They had once been souls and lives with hopes and dreams, now all cast away like dust in the wind, and I lamented their deaths and my despair.
 
 But mine was just one voice, one torment, a single note in the great cacophony that spread across the continent.  Millions of lives lost and shattered, millions of voices raised in anguish and torture and suffering, as the devastation continued over all Maj’Eyal from the ultimate force of destruction, the Spellblaze.]], "_t")
-t("The Spellblaze Chronicles(6): A Changed Eyal", "The Spellblaze Chronicles(6): A Changed Eyal", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Six: A Changed Eyal#{normal}#
@@ -13312,7 +13247,6 @@ The first waves of the storm of hate came the next day.  Human peasants and farm
 
 The Shroud of Elvala was begun, as our whole city was wreathed in cloud and smoke.  Our shield, our mask, our hiding.  It would last for centuries, the only dealings with the outside world being in furtive secrecy.
 ]], "_t")
-t("The Spellblaze Chronicles(7): Into Darkness", "The Spellblaze Chronicles(7): Into Darkness", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Seven: Into Darkness#{normal}#
@@ -13378,7 +13312,6 @@ Linaniil stood for a while staring at the black cave.  Fear radiated from her fa
 She marched forwards and I followed, until we came right up to the shadowed opening.  Linaniil hesitated a moment, staring into the blackness, before finally stepping inside and being swallowed from sight.  I could feel it then, the sensation that something ancient lay in this place.  My skin tingled and my arcane attunement felt on fire.  This dark cave held some mysterious force, secluded from all knowledge since the oldest days of Eyal.  There was something here that could change the destiny of the world.
 
 I took a deep breath and stepped forwards.]], "_t")
-t("The Spellblaze Chronicles(8): Forbidden", "The Spellblaze Chronicles(8): Forbidden", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Eight: Forbidden#{normal}#
@@ -16585,93 +16518,6 @@ t("Z'quikzshl", "Z'quikzshl", "_t")
 t("Walrog", "Walrog", "_t")
 --]==]
 
--- ancien texte traduit
-t([[I fell asleep in a dark hollow, but my sleep was troubled by terrible dreams. The dreams are so vivid in my mind!
-
-I saw the red star, and it became a land of fire floating in the night sky, full of black creatures with yellow eyes and hungry red mouths. And beyond the red star, far beyond was a dim world, but fractured and split all about its surface. As the world spun the split continents crushed against each other, and lava spilled up, and lands sunk into the ground. Demonic mouths screamed up as they disappeared into fiery death. It was if the world was tearing itself apart, but some force of will was desperately trying to keep it held together.
-
-And I saw then in the centre of the world, as it spun and crumpled and crunched, a vast figure with a horned head and outstretched limbs and shining white eyes. It held tight to the innards of the world, holding it together against forces threatening to pull the whole planet apart. The giant face contorted and screamed in pain and fury.
-
-"Urh'Rok," a deep voice spoke within my head. "Our god, our saviour, holder of our world. In the name of Urh'Rok we seek vengeance against Amakthel and the Sher'Tul. The petty world of Eyal shall fall!" And then I woke up, and I felt sure something was nearby, looking for me. I fled instantly.
-
-Am I going mad? The name "Urh'Rok" still rebounds through my skull and my vision is dimmed. Perhaps I have been wearing this ring too long...
-
-Yes, yes, this is all clearly an illusion! A strange nightmare that I shall wake up from. I shall take the ring off, and go visit the lovely moonstone again. Once I see the stars all shall be well...]], [[Je me suis endormi dans un creux sombre, mais mon sommeil fut troublé par d'effroyables rêves. Ces images restent si vivaces dans mon esprit !
-
-J'ai vu l'étoile rouge, et elle devint une terre de feu flottant dans le ciel nocturne peuplée de créatures noires aux yeux jaunes et aux bouches rouges, toujours affamées. Et au-delà de l'étoile rouge, bien plus loin, se trouvait un monde obscur fracturé et déchiré sur toute sa surface. Tandis que le monde tournait, les continents brisés se heurtaient les uns aux autres, la lave jaillissait, et des terres s'enfonçaient dans le sol. Des bouches démoniaques hurlaient en disparaissant dans une mort de feu. C'était comme si le monde se déchirait lui-même, mais une force de volonté désespérée tentait de le maintenir uni.
-
-Et je vis alors au centre de ce monde qui tournoyait, se froissait et craquait, une vaste silhouette à la tête cornue, aux membres étendus, et aux yeux d'un blanc lumineux. Elle s'accrochait fermement aux entrailles du monde, le maintenant ensemble contre des forces menaçant d'arracher toute la planète. Le visage de ce géant se tordit et hurla de douleur et de fureur.
-
-"Urh'Rok", une voix grave résonna dans mon esprit. "Notre dieu, notre sauveur, gardien de notre monde. Au nom d'Urh'Rok, nous cherchons vengeance contre Amakthel et les Sher'Tul. Le médiocre monde d'Eyal tombera !" Puis je me réveillai, persuadé que quelque chose se trouvait tout près, à ma recherche. Je m'enfuis immédiatement.
-
-Suis-je en train de perdre la raison ? Le nom "Urh'Rok" résonne encore dans mon crâne et ma vision est trouble. Peut-être que je porte cet anneau depuis trop longtemps...
-
-Oui, oui, tout ceci n'est qu'une illusion ! Un étrange cauchemar dont je vais me réveiller. Je vais enlever l'anneau et retourner voir la belle pierre de lune. Une fois que je verrai les étoiles, tout ira bien...]], "_t")
-t([[Though the elven races look very similar in appearance, they are extremely distinct in history, culture, mindset and many subtle physical traits, so I shall write of each of them separately. All elves are marked by their long, pointed ears and high cheek-bones, but other features can vary greatly. It should be noted that they call themselves as a whole "Elore", which means "siblings", yet the interactions between these brothers and sisters are oft strained.
-Shaloren (or Shalore - lit "siblings of grace") are on average 6'2", with bright hair and blue or purple eyes. They are usually slim and lightly built, more marked for their mental prowess than their physical strengths. They are however known to be extremely swift of movement and light of foot. But of particular note is their magical affinity, which is far stronger than any other race, and their intense powers of will.
-The Shaloren have a long history of magic-use which continues to this day. Though other races shun the dangers of magic to a large degree, the Shaloren embrace it, and it is still widely used throughout their society. However they are careful to hide this in their dealings with other races. The Shaloren were the ones that began the Spellblaze, though they would soon have it forgotten, and the memories of blame run deep amongst many. During the Spellhunt in the Age of Dusk they locked their city doors and shrouded the whole region in mist, only coming out in secrecy. It took many centuries before they were accepted again in wider society, and still they are treated with intense distrust.
-Their capital city is Elvala, in the south-west peninsula, and they have very few settlements outside of this. They have naturally long lives, and their mastery of the arcane arts has allowed them to extend their lives indefinitely. The eldest immortals make up their Council of Elders, which is headed by their King Aranion Gayaeil. Death is a particular fascination amongst the Shaloren, and early kings of their race were said to build great tombs for themselves whilst experimenting in flesh preservation and necromancy. The Shaloren of course deny this.
-They deal with other races seldom, preferring to keep a low profile, and most of their trade is done through halfling intermediaries. A few rune-crafters and enchanters sometimes travel to other major cities to do business, and some brash youths are known to explore further afield.]], [[Bien que les races elfiques se ressemblent beaucoup en apparence, elles se distinguent de façon extrême par leur histoire, leur culture, leur mentalité et de nombreux traits physiques subtils ; je traiterai donc de chacune d'elles séparément. Tous les elfes se reconnaissent à leurs longues oreilles pointues et à leurs pommettes saillantes, mais les autres traits peuvent varier considérablement. Il convient de noter qu'ils se désignent collectivement sous le nom d'"Elore", qui signifie "frères et soeurs", pourtant les relations entre ces frères et soeurs sont bien souvent tendues.
-Les Shaloren (ou Shalore - litt. "frères de la grâce") mesurent en moyenne 1,88 m, avec des cheveux clairs et des yeux bleus ou violets. Ils sont généralement minces et de constitution légère, plus remarquables par leurs aptitudes mentales que par leur force physique. On les sait cependant d'une rapidité de mouvement et d'une légèreté de pas extraordinaires. Mais ce qui les distingue avant tout, c'est leur affinité magique, bien plus puissante que celle de toute autre race, ainsi qu'une force de volonté d'une intensité rare.
-Les Shalore possèdent une longue histoire d'utilisation de la magie, qui se perpétue jusqu'à nos jours. Alors que les autres races évitent largement les dangers de la magie, les Shalore l'embrassent pleinement, et elle est encore largement pratiquée dans toute leur société. Ils prennent cependant soin de le dissimuler dans leurs rapports avec les autres races. Les Shalore furent à l'origine de la Brûlure Magique, bien qu'ils s'empressèrent de la faire oublier ; les souvenirs de cette culpabilité demeurent pourtant profondément ancrés chez beaucoup. Lors de la Purge Arcanique, à l'Ère du Crépuscule, ils barricadèrent leurs cités et enveloppèrent toute la région de brume, ne sortant que dans le plus grand secret. Il fallut de nombreux siècles avant qu'ils fussent à nouveau acceptés dans la société au sens large, et ils sont encore aujourd'hui traités avec une profonde méfiance.
-Leur capitale est Elvala, dans la péninsule sud-ouest, et ils ne possèdent que très peu d'établissements en dehors de celle-ci. Ils jouissent naturellement d'une longue existence, et leur maîtrise des arts arcaniques leur a permis de prolonger leur vie indéfiniment. Les immortels les plus anciens forment leur Conseil des Anciens, présidé par leur roi Aranion Gayaeil. La mort est une fascination particulière pour les Shalore, et les premiers rois de leur race auraient construit de grands tombeaux pour eux-mêmes tout en expérimentant la préservation de la chair et la nécromancie. Les Shalore nient bien entendu ces allégations.
-Ils traitent rarement avec les autres races, préférant garder un profil discret, et la majeure partie de leur commerce se fait par l'intermédiaire de halfelins. Quelques fabricants de runes et enchanteurs se rendent parfois dans d'autres grandes cités pour affaires, et certains jeunes impétueux sont connus pour explorer des contrées plus lointaines.]], "_t")
-t([[The Thaloren (or Thalore - lit "siblings of wrath") are on average 6'4", with dark brown hair and hazel or green eyes. They are generally of muscular build, and known for their physical prowess. They are renowned to be of a fey mindset - as quick to furious violence as they are to joyous song. Their relations with the Shaloren are particularly strained, as they strongly oppose their brethren's use of magic.
-Their capital city is Shatur, hidden deep within the northern woods, and they are loathe to let any outsiders even approach the surrounding forest. Archers and fighters carefully patrol their borders, ready to rain down death from the trees on any who encroach. Their leader is Queen Nessilla Tantaelen, and they are said to live in extensive dwellings carved into giant trees, but little else is known about their society.
-Those who choose to leave the fastness of the forest tend to be of unique disposition with unusual attitudes and traits. Oft they are musicians, bowmasters or skilled warriors. However they are sometimes mistrusted heavily, as rumour has it that many of those who leave Shatur are actually criminals expelled for the very worst crimes. In any case they tend to be natural loners who wander the world on their own personal quests.
-The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], [[Les Thaloren (ou Thalore - litt. "frères de la colère") mesurent en moyenne 1,93 m, avec des cheveux châtain foncé et des yeux noisette ou verts. Ils sont généralement de constitution musclée et renommés pour leurs prouesses physiques. On dit d'eux qu'ils ont l'esprit fée - aussi prompts à la violence furieuse qu'au chant joyeux. Leurs relations avec les Shalore sont particulièrement tendues, car ils s'opposent fermement à l'utilisation de la magie par leurs frères.
-Leur capitale est Shatur, dissimulée au coeur des forêts du nord, et ils refusent catégoriquement de laisser le moindre étranger s'approcher de la forêt environnante. Des archers et des guerriers patrouillent attentivement leurs frontières, prêts à semer la mort depuis les arbres sur tout intrus. Leur chef est la Reine Nessilla Tantaelen, et l'on dit qu'ils vivent dans de vastes demeures sculptées dans de gigantesques arbres, mais on sait peu de chose de leur société au-delà de cela.
-Ceux qui choisissent de quitter l'inaccessibilité de la forêt ont tendance à présenter une personnalité singulière, aux attitudes et aux traits inhabituels. Ce sont souvent des musiciens, des maîtres à l'arc ou de valeureux guerriers. Ils suscitent parfois une forte méfiance, car la rumeur veut que nombre de ceux qui quittent Shatur soient en réalité des criminels bannis pour les pires forfaits. En tout état de cause, ils ont tendance à être des solitaires-nés qui errent dans le monde à la poursuite de leurs quêtes personnelles.
-Les Thalore font très rarement des affaires avec le monde extérieur, mais lorsqu'ils le font, c'est généralement pour se procurer des métaux et certaines denrées alimentaires qu'ils ne peuvent obtenir par eux-mêmes. Ils vendent habituellement de l'artisanat en bois et de belles soies. C'est la seule source légale de bois elfique, une denrée rare très recherchée pour la fabrication de flèches. Les marchés noirs dépendent de braconniers pour couper des arbres dans la forêt de Shatur - une activité extrêmement risquée, mais aussi très lucrative, en raison des prix élevés que paient les mages Shalore pour un bâton en bois elfique.]], "_t")
-t([[The Naloren (or Nalore - lit "siblings of spirit") are now an extinct race, as their homeland was swept into the sea by the Cataclysm. However as a separate elf race they are worth studying, scant though the records be. Much of what is now said about the Naloren is traced with myth, but one can deduce certain facts.
-Naloren elves were around 5'10", with blonde hair and green eyes. They were incredibly thin, but known for their swift and dextrous capabilities. Their kingdom was located on the eastern side of Maj'Eyal, and all of their towns were on the sea or straddling major rivers. They employed themselves as fishermen, sponge-divers, sailors and musicians. They were renowned for being able to stay underwater for hours at a time, and those with arcane abilities were said to be able to stay submerged indefinitely.
-They traded little with the other races, and were very protective of their coastal lands. They most especially guarded jealously an ancient Sher'Tul ruin that lay in the centre of their territories. The Shaloren were in particular keen to study this relic, but the Naloren always refused them access, though they were too afraid to touch it themselves. The orcs were said to encroach on their lands often, but were always fought back by their mail-clad warriors wielding vicious tridents.
-Alas their love of the sea was to be their undoing. When the Cataclysm came the whole of the coastal kingdom was shorn away and fell into the sea, annihilating almost the entire race. What small numbers survived committed suicide soon after by leaping from the eastern cliffs into the ocean, following their fallen brothers and sisters. Almost no evidence of their civilisation remains.]], [[Les Naloren (ou Nalore - litt. "frères de l'esprit") sont désormais une race éteinte, leur patrie ayant été engloutie par la mer lors du Cataclysme. Pourtant, en tant que race elfique distincte, ils méritent d'être étudiés, bien que les archives soient rares. Une grande partie de ce que l'on dit aujourd'hui sur les Naloren est teintée de mythes, mais on peut en déduire certains faits.
-Les elfes Naloren mesuraient environ 1,78 m, avec des cheveux blonds et des yeux verts. D'une minceur remarquable, ils étaient néanmoins connus pour leur rapidité et leur dextérité. Leur royaume se trouvait sur la côte est de Maj'Eyal, et toutes leurs cités étaient situées en bord de mer ou le long de grands fleuves. Ils exerçaient comme pêcheurs, plongeurs d'éponges, marins et musiciens. Ils étaient réputés pour leur capacité à rester sous l'eau pendant des heures, et ceux dotés de capacités arcaniques pouvaient, dit-on, demeurer submergés indéfiniment.
-Ils commerçaient peu avec les autres races et protégeaient jalousement leurs terres côtières. Ils gardaient tout particulièrement avec un soin ombrageux une ancienne ruine Sher'Tul qui se trouvait au coeur de leurs territoires. Les Shalore étaient notamment avides d'étudier cette relique, mais les Naloren leur en refusaient systématiquement l'accès, bien qu'ils fussent eux-mêmes trop effrayés pour la toucher. Les Orcs envahissaient fréquemment leurs terres, dit-on, mais étaient toujours repoussés par leurs guerriers en cotte de mailles brandissant de redoutables tridents.
-Hélas, leur amour de la mer causa leur perte. Quand le Cataclysme survint, l'intégralité du royaume côtier fut arrachée et sombra dans les flots, anéantissant presque toute la race. Le petit nombre de survivants se donna la mort peu après en se jetant des falaises orientales dans l'océan, rejoignant ainsi leurs frères et soeurs disparus. Il ne reste presque aucune trace de leur civilisation.]], "_t")
-t([[Ogres have never been a thriving race, starting from their abrupt appearance as soldiers and laborers for the Conclave during the Allure Wars (unexplained aside from a highly implausible story from the Conclave's Overseers about a lost mountain tribe).  Left without homes or proper runic training after the war's end, they were forced to found their own tribes and rediscover the fields of rune and infusion creation for themselves, and though their numbers dropped rapidly, they enjoyed a brief period of relative success as nomadic rune-traders, virtually unaffected by the Spellblaze.  The Spellhunt nearly proved to be their undoing, as their monstrous size and rune-covered skin made them popular targets; they were thought to be extinct, and only in recent years has the city of Elvala revealed that some Ogres took refuge there during this time.  Their descendants still live today, fearful of persecution but gradually beginning to explore outside Elvala for the first time in ages.
-Ogres' most striking feature is their size, by far the largest of any intelligent race; they average at roughly 8'4" tall, and most are nearly half as wide with muscle.  They have a similar range of skin tones to humans, although slightly grayer on the whole; their hair tends to be dark brown or black, and their eyes run the gamut from black to bright blue to purple, presumably a side-effect of runic mis-transcription.  Their angular facial features invite some impolite comparisons to Orcs, with strong jawlines, disproportionately large mouths and teeth, and squarish heads, but otherwise resemble those of humans.  It would be remiss of me to describe Ogres' appearance without mentioning the intricate, glowing pattern of runes covering their skin from head to toe, although the exact patterns and colors vary.  
-Although they excel at physical tasks for obvious reasons, and the necessity of careful inscription has made their finger dexterity (and penmanship) rather impressive, their limb movements tend to be slow and clumsy due to their size, and they tire quickly if they over-exert themselves during strenuous labor.  Their slow speech, incredible appetites, and lack of interest in arts or most scholarly concerns has led to a misconception that they are dim-witted; however, Ogres forced into studious tasks have performed admirably, and one needs only look at their runic patterns to know the patient study and artistic vision they are capable of, if properly motivated.  This may tie into the humble, duty-bound mindset that seems to be an inherent property of the species - most Ogres show absolutely no interest in leadership or impressing others, only completing tasks in the most reliable manner possible, and such strategies tend to be rather simple.
-While Shalore use of magic is (arguably) a choice, Ogres have no such luxury.  Their inscriptions are as crucial to their well-being and structural integrity as any internal organ, and attempts by Ziguranth to "cleanse" captured Ogres of their runes invariably lead to them first collapsing under their own weight, then their organs shutting down one by one; one can assume that their natural infusions are just as vital.  As such, Ogre reproduction is a careful task; a newborn can live for a few months unaltered, but after this the parents must give their child a thorough regimen of runic inscription and herbal infusions.  The parents typically perform this task together, using each others' runes as a reference, and any mistakes made in the transcription will affect the child's health and development (usually adversely, though it is believed that transcription errors are responsible for mitigating Ogres' once-uncontrollable tempers).  As such, the inscribed patterns are as much of an influence on the child's development as the physical and mental traits of his or her parents.
-Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], [[Les Ogres n'ont jamais été une race prospère, depuis leur apparition soudaine en tant que soldats et ouvriers au service du Conclave lors des Guerres de la Séduction (phénomène inexpliqué, hormis l'histoire fort invraisemblable rapportée par les superviseurs du Conclave à propos d'une tribu montagnarde perdue). Privés de foyers et d'une formation runique adéquate après la fin de la guerre, ils furent contraints de fonder leurs propres tribus et de redécouvrir par eux-mêmes les pratiques de création de runes et d'essences. Bien que leur nombre ait rapidement diminué, ils connurent une brève période de succès relatif en tant que marchands nomades de runes, pratiquement épargnés par la Brûlure Magique. La Purge Arcanique manqua de leur être fatale : leur taille monstrueuse et leur peau couverte de runes en faisaient des cibles de choix ; on les croyait éteints, et c'est seulement ces dernières années que la cité d'Elvala a révélé que quelques Ogres y avaient trouvé refuge durant cette période sombre. Leurs descendants vivent encore aujourd'hui, craignant la persécution mais commençant peu à peu à s'aventurer hors d'Elvala pour la première fois depuis des siècles.
-La caractéristique la plus frappante des Ogres est leur taille, de loin la plus imposante de toutes les races intelligentes ; ils mesurent en moyenne environ 2,55 m de haut, et la plupart sont presque aussi larges que hauts, tant leur musculature est développée. Leur teint présente une gamme de nuances similaire à celle des humains, bien que légèrement plus grisâtre dans l'ensemble ; leurs cheveux ont tendance à être châtain foncé ou noirs, et leurs yeux vont du noir au bleu vif en passant par le violet, vraisemblablement à titre d'effet secondaire d'erreurs de transcription runique. Les traits anguleux de leur visage invitent à d'impolis parallèles avec les Orcs, avec des mâchoires prononcées, des bouches et des dents disproportionnément grandes et des têtes carrées, mais ils ressemblent par ailleurs à ceux des humains. Il serait négligent de ma part de décrire l'apparence des Ogres sans mentionner les motifs complexes et lumineux de runes qui couvrent leur peau de la tête aux pieds, bien que les dessins et les couleurs exacts varient d'un individu à l'autre.
-Bien qu'ils excellent dans les tâches physiques pour des raisons évidentes, et que la nécessité d'inscriptions soigneuses ait rendu leur dextérité digitale (et leur calligraphie) fort impressionnante, leurs mouvements tendent à être lents et maladroits en raison de leur taille, et ils se fatiguent rapidement s'ils se surmènent lors de travaux éreintants. Leur élocution lente, leur appétit prodigieux et leur manque d'intérêt pour les arts ou la plupart des préoccupations intellectuelles ont engendré l'idée fausse qu'ils seraient simplets ; cependant, des Ogres contraints à des tâches studieuses ont fait preuve de performances admirables, et il suffit d'observer leurs motifs runiques pour mesurer l'étude patiente et la vision artistique dont ils sont capables, lorsqu'ils sont dûment motivés. Cela est peut-être lié à la mentalité humble et au sens du devoir qui semblent être des traits inhérents à l'espèce - la plupart des Ogres ne montrent absolument aucun intérêt pour le commandement ni pour impressionner les autres, ne cherchant qu'à accomplir leurs tâches de la manière la plus fiable possible, et de telles stratégies tendent à être assez simples.
-Alors que l'utilisation de la magie par les Shalore est (on pourrait en discuter) un choix, les Ogres n'ont pas ce luxe. Leurs inscriptions sont aussi indispensables à leur bien-être et à leur intégrité structurelle que n'importe quel organe interne, et les tentatives des Zigurantes de "purifier" les Ogres capturés de leurs runes les conduisent invariablement à s'effondrer d'abord sous leur propre poids, puis à voir leurs organes défaillir un à un ; on peut supposer que leurs essences naturelles sont tout aussi vitales. Ainsi, la reproduction des Ogres est une tâche délicate ; un nouveau-né peut vivre quelques mois sans modifications, mais passé ce délai, les parents doivent lui administrer un régime complet d'inscriptions runiques et d'essences d'herbes. Les parents accomplissent généralement cette tâche ensemble, utilisant mutuellement leurs propres runes comme référence, et toute erreur de transcription affectera la santé et le développement de l'enfant (généralement de manière défavorable, bien que l'on suppose que ces erreurs de transcription soient responsables de l'apaisement des tempéraments autrefois incontrôlables des Ogres). Ainsi, les motifs inscrits influencent le développement de l'enfant tout autant que les traits physiques et mentaux de ses parents.
-En raison de la sécurité et du confort d'Elvala, et de leur méfiance envers une grande partie du monde extérieur, la plupart des Ogres qui quittent leur foyer le font à des fins commerciales ; n'ayant plus recours aux Shalore comme messagers, certains ont commencé à s'intégrer au marché croissant des runes et des essences, et se sont révélés très performants grâce à leur talent naturel dans ce domaine. Les rares Ogres que l'on pourrait qualifier d'"aventuriers" ont tendance à rassembler leurs affaires et à partir brusquement, non pas pour la gloire ou les richesses, mais parce qu'ils voient une source récurrente de misère dans le monde et souhaitent y remédier eux-mêmes à titre de service public. Il n'est pas rare qu'un Ogre soupire de frustration en entendant parler d'une cargaison de grain détournée, parte en mission, revienne quelques jours plus tard avec le sang d'un clan de bandits jadis tenaces collé sur sa massue, et retourne aussitôt s'occuper de ses cultures.]], "_t")
-t([[#{bold}#How to Summon a Phoenix#{normal}#
-	  10 pouches faeros ash
-	  5 vials fire wyrm saliva
-	  3 red crystal shards
-	  3 pouches bone giant dust
-	  1 vial greater demon bile
-	  1 skeleton mage skull
-	  pinch of luminous horror dust
-
-This is a long and complex ceremony, and all steps must be followed precisely if you wish to succeed. Heed well that for the errant fool who takes on what they cannot finish, there will be consequences. To play with fire and assert your dominance over the flames comes with risks if you overestimate your power. 
-	
-The ritual begins with a vessel; any man will do. Bind them in place with flame secure bindings, and give a sound gag. The gag isn't strictly necessary, but the screams of agony tend to be quite distracting and inspirit mistakes after a few days.
-
-Take 2 vials fire wyrm saliva and dissolve 2 pouches faeros ash in each. Be sure to dissolve completely. A few fireballs at the vial can do the trick if they're stubborn. Using one of the prepared vials, begin to etch the saliva in the skin of the vessel, heating it so that it brands the shape of --- 
-
-#{italic}#The remainder of the scroll has been singed into a pile of char, illegible and scattering into a cloud of ash as you grasp it#{normal}#
-	  ]], [[#{bold}#Comment invoquer un Phénix#{normal}#
-	  10 sachets de cendres de faeros
-	  5 fioles de salive de ver de feu
-	  3 éclats de cristal rouge
-	  3 sachets de poussière de géant d'os
-	  1 fiole de bile de démon majeur
-	  1 crâne de squelette mage
-	  une pincée de poussière d'horreur lumineuse
-
-Ceci est une cérémonie longue et complexe, et toutes les étapes doivent être suivies précisément si vous souhaitez réussir. Prenez garde : pour l'imbécile errant qui entreprend ce qu'il ne peut terminer, il y aura des conséquences. Jouer avec le feu et affirmer votre domination sur les flammes comporte des risques si vous surestimez votre pouvoir.
-	
-Le rituel commence par un récipient ; n'importe quel homme fera l'affaire. Attachez-le en place avec des liens ignifugés et bâillonnez-le solidement. Le bâillon n'est pas strictement nécessaire, mais les cris d'agonie ont tendance à être assez distrayants et provoquent des erreurs après quelques jours.
-
-Prenez 2 fioles de salive de ver de feu et dissolvez 2 sachets de cendres de faeros dans chacune. Assurez-vous que la dissolution soit complète. Quelques boules de feu sur la fiole peuvent faire l'affaire s'ils sont récalcitrants. En utilisant l'une des fioles préparées, commencez à graver la salive sur la peau du récipient, en la chauffant de sorte qu'elle marque la forme de --- 
-
-#{italic}#Le reste du parchemin a été brûlé en un tas de charbon, illisible et se dispersant en un nuage de cendres lorsque vous le saisissez#{normal}#
-	  ]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/noxious-caldera.lua"
@@ -18353,8 +18199,6 @@ t("Tannen has tricked you! He swapped the orb for a false one that brought you t
 t("", "", "_t")
 --]==]
 
--- ancien texte traduit
-t("Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge !", "Tannen vous a trompé ! Il a échangé l'Orbe contre une fausse qui vous a conduit dans un plan démoniaque. Trouvez la sortie, et vengez-vous !", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/escort-duty.lua"
@@ -18585,8 +18429,6 @@ t("You saved %s of us, please take this as a reward. (They give you %s)", "Vous 
 t("all", "tous", "quest_lumberjack")
 t("most", "la plupart", "_t")
 t("#LIGHT_RED#A lumberjack falls to the ground, dead.", "#LIGHT_RED#Un bûcheron tombe sur le sol, mort.", "logSeen")
--- ancien texte traduit
-t("all", "tous", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/mage-apprentice.lua"
@@ -19039,9 +18881,6 @@ t("High Chronomancer Zemekkys", "Grand Chronomancien Zemekkys", "_t")
 t("", "", "_t")
 --]==]
 
--- ancien texte traduit
-t("Zemekkys in the Gates of Morning can build a portal back to Maj'Eyal for you.", "Zemekkys dans les Portes du Matin peut vous construire un portail pour retourner à Maj'Eyal.", "_t")
-t("#LIGHT_GREEN#* The portal to Maj'Eyal is now functional and can be used to go back, although, like all portals, it is one-way only.#WHITE#", "#LIGHT_GREEN#* Le portail vers Maj'Eyal est maintenant fonctionnel et peut être utilisé pour y retourner, bien que, comme tous les portails, il soit à sens unique.#WHITE#", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/quests/wild-wild-east.lua"
@@ -19138,8 +18977,6 @@ t("chants", "chants", "talent type")
 t("combat", "combat", "talent type")
 --]==]
 
--- ancien texte traduit
-t("other", "autre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/chants.lua"
@@ -19313,10 +19150,6 @@ The damage will increase with your Spellpower.]], [[Attune yourself to the endle
 The damage will increase with your Spellpower.]], "tformat")
 --]==]
 
--- ancien texte traduit
-t([[Attune yourself to the endless hunger of distant dead suns. For the next %d turns, your attacks will inflict an additional %0.2f gravity damage and attempt to pull enemies closer. After three turns, you will recover half of all damage taken during this effect.
-The damage will increase with your Spellpower.]], [[Mettez-vous en harmonie avec la faim sans fin des soleils morts lointains. Pour les %d prochains tours, vos attaques infligeront %0.2f dégâts de gravité supplémentaires et tenteront d'attirer les ennemis plus près. Après trois tours, vous récupérerez de la moitié de tous les dégâts subis pendant cet effet.
-Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/darkside.lua"
@@ -20087,8 +19920,6 @@ t("%s's temporal clone", "%s's temporal clone", "tformat")
 t("A creature from another timeline.", "A creature from another timeline.", "_t")
 --]==]
 
--- ancien texte traduit
-t("Chronomancy", "Chronomancie", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/chronomancy.lua"
@@ -22285,8 +22116,6 @@ t([[Instill a part of your living curse into a weapon in your inventory, and tos
 			La première arme sélectionnée est mémorisée et utilisée tant qu'elle se trouve dans votre inventaire. Utilisez le talent Choisir la Sentinelle Maudite pour modifier votre sélection.
 			Au niveau de talent 3, vous obtenez la capacité d'affliger de puissants objets profanes (egos majeurs).
 			Au niveau de talent 5, vous pouvez corrompre les artefacts.]], "tformat")
--- ancien texte traduit
-t("Cursed Sentry", "Sentinelle Maudite", "__t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/cursed-form.lua"
@@ -22350,8 +22179,6 @@ t("Hatred", "Haine", "talent type")
 t("All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "Chaque chose en ce monde sombre est méprisable. Cédez à la haine pour y puiser votre puissance.", "_t")
 t("Cursed", "Maudit", "talent type")
 t("Hate-powered abilities that don't belong anywhere else.", "Des capacités mues par la haine qui n'ont leur place nulle part ailleurs.", "_t")
--- ancien texte traduit
-t("Cursed", "Maudit", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/dark-figure.lua"
@@ -24283,10 +24110,6 @@ t("Shows the target the madness of the void.  Each turn for 6 turns the target m
 t("Summons %d void shards.  The void shards come into being destabilized and will suffer %0.2f temporal damage each turn for five turns.  If they die while destabilized they'll explode for %0.2f temporal and %0.2f physical damage in a radius of 4.", "Summons %d void shards.  The void shards come into being destabilized and will suffer %0.2f temporal damage each turn for five turns.  If they die while destabilized they'll explode for %0.2f temporal and %0.2f physical damage in a radius of 4.", "tformat")
 --]==]
 
--- ancien texte traduit
-t("Creates a shroud of darkness over a radius 3 area that lasts %d turns. The shroud causes %0.2f darkness damage each turn, reduces light radius by %d, and darkness resistance by %d%% of those within.", "Crée un linceul d'obscurité sur une zone de rayon 3 qui dure %d tours. Le linceul inflige %0.2f dégâts d'obscurité par tour, réduit le rayon de lumière de %d et la résistance à l'obscurité de %d%% pour ceux qui s'y trouvent.", "tformat")
-t("Shows the target the madness of the void. Each turn for 6 turns the target must make a mental save or suffer %0.2f mind damage as well as resource damage (based off the mind damage and nature of the resource).", "Montre à la cible la folie du vide. Chaque tour pendant 6 tours, la cible doit réussir une sauvegarde mentale sous peine de subir %0.2f dégâts mentaux ainsi que des dégâts sur ses ressources (basés sur les dégâts mentaux et la nature de la ressource).", "tformat")
-t("Summons %d void shards. The void shards come into being destabilized and will suffer %0.2f temporal damage each turn for five turns. If they die while destabilized they'll explode for %0.2f temporal and %0.2f physical damage in a radius of 4.", "Invoque %d éclats du vide. Les éclats du vide apparaissent déstabilisés et subiront %0.2f dégâts temporels par tour pendant cinq tours. S'ils meurent alors qu'ils sont déstabilisés, ils exploseront pour %0.2f dégâts temporels et %0.2f dégâts physiques dans un rayon de 4.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/misc/inscriptions.lua"
@@ -24564,8 +24387,6 @@ t("inscriptions", "inscriptions", "talent category")
 t("runes", "runes", "talent type")
 --]==]
 
--- ancien texte traduit
-t("class", "classe", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/misc/npcs.lua"
@@ -25026,9 +24847,6 @@ t("Silence", "Silence", "talent name")
 t("", "", "log")
 --]==]
 
--- ancien texte traduit
-t("misc", "divers", "_t")
-t("other", "autre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/misc/objects.lua"
@@ -25379,8 +25197,6 @@ t("Use your mental powers to confuse the target for five turns.", "Utilise tes p
 t("Confusion", "Confusion", "talent name")
 --]==]
 
--- ancien texte traduit
-t("tutorial", "tutoriel", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/absorption.lua"
@@ -26286,8 +26102,6 @@ t("trance", "trance", "talent type")
 t("Put your mind into a deep trance.", "Put your mind into a deep trance.", "_t")
 --]==]
 
--- ancien texte traduit
-t("other", "autre", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/psychic-assault.lua"
@@ -28078,8 +27892,6 @@ t("animus", "animus", "talent type")
 t("spectre", "spectre", "talent type")
 --]==]
 
--- ancien texte traduit
-t("water", "eau", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/staff-combat.lua"
@@ -28393,8 +28205,6 @@ t([[Takes advantage of a wounded foe to perform a killing strike.  This attack i
 		If an enemy dies from this attack then two of your talent cooldowns are reduced by 2 turns and Execution's cooldown is reset.]], [[Profitez qu'un ennemi soit blessé pour porter le coup fatal. Cette attaque est automatiquement un coup critique infligeant %0.1f%% dégâts d'arme supplémentaires par %% de vie inférieurs au maximum de la cible.
 		(Une victime avec 30%% de vie restants (70%% dégâts) subirait %0.1f%% dégâts d'arme.)
 		Si un ennemi meurt de cette attaque, le temps de recharge de deux de vos talents sont réduit de 2 tours et le temps de recharge d'Exécution est réinitialisé.]], "tformat")
--- ancien texte traduit
-t("Death DanceDeath Dance", "Danse de la Mort", "talent name")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/2hweapon.lua"
@@ -29733,9 +29543,6 @@ t([[You brace yourself for the final stand, increasing Defense and Armor by %d, 
 		Si votre vie est inférieure à 0 à la fin de Dernier Rempart, elle sera remise à 1.
 		L'augmentation de la Défense et de l'Armure est proportionnel à votre Dextérité.
 		L'augmentation de la vie est proportionnel à votre Constitution et votre vie maximale normale.]], "tformat")
--- ancien texte traduit
-t("turns", "tours", "_t")
-t("turn", "tour", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents/uber/const.lua"
@@ -30484,8 +30291,6 @@ t("Knowledge of the Past", "Knowledge of the Past", "talent name")
 t("You concentrate for a moment to recall some of your memories as a living being and look for knowledge to identify rare objects.", "You concentrate for a moment to recall some of your memories as a living being and look for knowledge to identify rare objects.", "tformat")
 --]==]
 
--- ancien texte traduit
-t("skeleton", "squelette", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/talents.lua"
@@ -34353,8 +34158,6 @@ t("invulnerable", "invulnerable", "effect subtype")
 t("Invulnerable.", "Invulnerable.", "_t")
 --]==]
 
--- ancien texte traduit
-t("#BLUE##Target#'s stormshield is out of charges and disspitates!#LAST#.", "Le bouclier tempête de #BLUE##Target# n'a plus de charges et se dissipe !#LAST#.", "logCombat")
 
 ------------------------------------------------
 section "mod-tome/data/timed_effects/mental.lua"
@@ -36243,9 +36046,6 @@ t("+Eldoral", "+Eldoral", "_t")
 t("-Eldoral", "-Eldoral", "_t")
 --]==]
 
--- ancien texte traduit
-t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit", "Parer les attaques au corps à corps %s : a %d%% chances de dévier jusqu'à %d dégâts lors des %0.1f prochaines attaques. Les attaques parées ne peuvent pas infliger de coup critique.", "tformat")
-t("shield", "bouclier", "effect subtype")
 
 ------------------------------------------------
 section "mod-tome/data/timed_effects.lua"
@@ -36901,7 +36701,7 @@ t("vampire", "vampire", "entity subtype")
 section "mod-tome/data/zones/dreadfell/objects.lua"
 
 t("paper scrap", "bouts de papier", "entity name")
-t("A smudged poem chalked on a dark piece of slate", "Un poème illisible, tracé à la craie sur une ardoise.", "_t")
+t("A smudged poem chalked on a dark piece of slate", "Un poème illisible, tracé à la craie sur une ardoise", "_t")
 t("A poem written in scribbled, child-like writing", "Un poème griffonnée, écrit de façon enfantine", "_t")
 t("A poem written in an elegant Gothic script", "Un poème écrit d'une élégante manière gothique", "_t")
 t("a letter from the Master", "une lettre du Maître", "entity name")
@@ -38354,8 +38154,6 @@ t("#GREY#The #Source# looks deep into your eyes. You feel torn apart!", "#GREY#L
 t("Ra'kk kor merk ZUR!!!", "Ra'kk kor merk ZUR !!!", "_t")
 t("FOR THE WAY! Die cultist!", "POUR LA VOIE ! Meurt cultiste !", "_t")
 t("#PURPLE#The #Source# looks afraid, he did not plan on his creation turning against him!", "#PURPLE#Le #Source# a l'air effrayé, il n'avait pas prévu que sa création se retourne contre lui !", "logCombat")
--- ancien texte traduit
-t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pourquoi le #sexe# est soudainement devenu maléfique", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/shadow-crypt/zone.lua"
@@ -40386,15 +40184,6 @@ t([[#GOLD#%s / %s#LAST#
 %s]], "tformat")
 --]==]
 
--- ancien texte traduit
-t("mental", "mentale", "_t")
-t("spell", "sort", "_t")
-t("physical", "physique", "_t")
-t([[Oh but you are ... are you ?! ME?!
-So I was right, this is not my original time-thread!
-Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh mais vous êtes ... êtes-vous ?! MOI ?!
-Donc j'avais raison, ce n'est pas mon temps originel !
-S'il vous plaît, aidez-moi ! J'ai peur de m'être perdu dans cet endroit. Je sais qu'un ami a laissé un portail temporel par ici, mais j'ai livré trop de batailles et je crains de ne pas y arriver. Pourriez-vous m'aider ? Voulez-vous vous aider... vous-même ?]], "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/FortressPC.lua"
@@ -40506,8 +40295,6 @@ t("#TEAL#%s", "#TEAL#%s", "log")
 t("%s", "%s", "log")
 --]==]
 
--- ancien texte traduit
-t("unknown", "inconnu", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/GameState.lua"
@@ -40602,8 +40389,6 @@ t("#OLIVE_DRAB#%s: %s", "#OLIVE_DRAB#%s: %s", "tformat")
 t("#LIGHT_GREEN#%s", "#LIGHT_GREEN#%s", "logPlayer")
 --]==]
 
--- ancien texte traduit
-t("but nobody knew why #sex# suddenly became evil", "mais personne ne savait pourquoi le #sexe# est soudainement devenu maléfique", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Grid.lua"
@@ -41006,10 +40791,6 @@ t("Talent %s", "Talent %s", "tformat")
 t(".", ".", "_t")
 --]==]
 
--- ancien texte traduit
-t("Physical crit chance: ", "Chance de crit physique : ", "_t")
-t("Spell crit chance: ", "Chance de crit des sorts : ", "_t")
-t("Mental crit chance: ", "Crit chance mental : ", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Party.lua"
@@ -41039,8 +40820,6 @@ t("The portal is %s, to the %s.", "Le portail est %s, %s.", "tformat")
 t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "log")
 --]==]
 
--- ancien texte traduit
-t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time !", "#LIGHT_GREEN#Vous caressez votre chien ! Il remue joyeusement sa queue d'avant en arrière dans le temps !", "log")
 
 ------------------------------------------------
 section "mod-tome/mod/class/PartyMember.lua"
@@ -41104,18 +40883,6 @@ t("#LIGHT_RED#You sense that Something has taken notice of you ...", "#LIGHT_RED
 t("", "", "log")
 --]==]
 
--- ancien texte traduit
-t("Your antimagic disrupts %s.", "Votre anti-magie perturbe %s.", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête acceptée '%s' ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#Quête acceptée '%s' !", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#Quête '%s' mise à jour !", "saySimple")
-t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#Quête '%s' a échouée !", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est finie ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#Quête '%s' finie !", "saySimple")
-t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#Quête '%s' a échouée ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#Quête '%s' terminée !", "saySimple")
-t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' mise à jour ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
-t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#Quête '%s' est terminée ! #WHITE#(Appuyez sur 'j' pour voir le journal de quête)", "logPlayer")
 
 ------------------------------------------------
 section "mod-tome/mod/class/Projectile.lua"
@@ -41407,8 +41174,6 @@ t("%s(%d %s %s) %s on %s %s.", "%s(%d %s %s) %s sur %s %s.", "tformat")
 t("#{bold}#", "#{bold}#", "_t")
 --]==]
 
--- ancien texte traduit
-t("unknown", "inconnu", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/PartyIngredients.lua"
@@ -42611,8 +42376,6 @@ t("Dismiss", "Renvoyer", "_t")
 t("Birth Options", "Options de naissance", "_t")
 t("Confirm", "Confirmer", "_t")
 t("Apply the selected cosmetics to %s?", "Appliquer le cosmétique sélectionné à %s ?", "tformat")
--- ancien texte traduit
-t("Select custom tile", "Avatar personnalisé", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/CharacterSheet.lua"
@@ -43185,13 +42948,6 @@ t("#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "#GOLD##{bold}#Montrer les 
 t("Simple", "Simple", "_t")
 --]==]
 
--- ancien texte traduit
-t("If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "Si vous perdez plus que ce pourcentage de vie dans un tour, un avertissement s'affiche et toutes les entrées clavier/souris sont ignorées pendant 2 secondes pour éviter les erreurs.#WHITE#", "_t")
-t([[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], [[Activer l'attaque automatique rapide ciblé en mêlée.
-Les talents qui nécessitent une cible de mêlée cibleront automatiquement et confirmeront s'il n'y a qu'une seule créature hostile dans les environs.#WHITE#]], "_t")
-t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", "Si désactivés, les objets activables ne seront pas ajoutés automatiquement à vos raccourcis clavier, vous devrez les faire glisser manuellement depuis l'écran d'inventaire.#WHITE#", "_t")
-t("When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "Lorsque vous échangez un objet avec une babiole, la babiole est automatiquement rattachér à l'objet nouvellement porté.#WHITE#", "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/dialogs/GraphicMode.lua"

@@ -487,8 +487,6 @@ t("She left me no choice; I had to protect #{bold}#my#{normal}# people.", "She l
 t("What?", "What?", "_t")
 --]==]
 
--- ancien texte traduit
-t("Whatever.", "Peu importe.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/kaltor-entry.lua"
@@ -560,8 +558,6 @@ t("Please train me in chemistry.", "Please train me in chemistry.", "_t")
 t("The tinker spends some time with you, teaching you the basics of therapeutics.", "The tinker spends some time with you, teaching you the basics of therapeutics.", "logPlayer")
 --]==]
 
--- ancien texte traduit
-t("Sorry, I have to go!", "Désolé, je dois y aller !", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/metash.lua"
@@ -597,9 +593,6 @@ Ultimately, though, the choice is yours; it is more important that he is no long
 t("To you too, Metash.", "To you too, Metash.", "_t")
 --]==]
 
--- ancien texte traduit
-t("Thanks.", "Merci.", "_t")
-t("I will!", "Je le ferai !", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/phonograph.lua"
@@ -2166,8 +2159,6 @@ t("primal core", "primal core", "entity name")
 t("The core wood of a great tree.", "The core wood of a great tree.", "_t")
 --]==]
 
--- ancien texte traduit
-t("misc", "divers", "ingredient type")
 
 ------------------------------------------------
 section "tome-orcs/data/lore/destructicus.lua"
@@ -6504,8 +6495,6 @@ t(" #LIGHT_BLUE#(known)#LAST#", " #LIGHT_BLUE#(known)#LAST#", "_t")
 t("#{italic}#* ...perhaps more to discover...#{normal}#", "#{italic}#* ...perhaps more to discover...#{normal}#", "_t")
 --]==]
 
--- ancien texte traduit
-t("other", "autre", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/thoughts-of-iron.lua"
