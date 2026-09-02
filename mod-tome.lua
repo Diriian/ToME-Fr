@@ -8542,7 +8542,7 @@ t("scouring ", "de récurage ", "entity name")
 t("scouring", "récurage", "entity keyword")
 t("warded ", "d'asile ", "entity name")
 t("ward", "asile", "entity keyword")
-t("reduce the cooldown of your ward talent by 1", "Réduire de 1 le temps de recharge de votre talent de garde.", "_t")
+t("reduce the cooldown of your ward talent by 1", "Réduire de 1 le temps de rechargement de votre talent de garde.", "_t")
 t("wrathful ", "de courroux ", "entity name")
 t("wrathful", "courroux", "entity keyword")
 t("Deals #VIOLET#%d#LAST# light and fire damage to each enemy blocked", "Inflige #VIOLET#%d#LAST# des dégâts de feu et de lumière à chaque ennemi bloqué.", "tformat")
@@ -11074,7 +11074,7 @@ t("release a burst of light and dark damage (scales with Magic)", "libèrer une 
 t("Mnemonic", "Mnémonique", "entity name")
 t("As long as you wear this ring, you will never forget who you are.", "Tant que vous porterez cet anneau, vous n'oublierez jamais qui vous êtes.", "_t")
 t("familiar ring", "anneau familier", "_t")
-t("When using a mental talent, gives a 10% chance to lower the current cooldowns of up to three of your wild gift, psionic, or cursed talents by three turns.", "Lorsque vous utilisez un talent mental, vous avez 10% de chances de réduire de trois tours le temps de recharge de jusqu'à trois de vos talents Maudits, Naturalistes, ou Psioniques.", "_t")
+t("When using a mental talent, gives a 10% chance to lower the current cooldowns of up to three of your wild gift, psionic, or cursed talents by three turns.", "Lorsque vous utilisez un talent mental, vous avez 10% de chances de réduire de trois tours le rechargement de jusqu'à trois de vos talents Maudits, Naturalistes, ou Psioniques.", "_t")
 t("corroded sword", "épée corrodée", "_t")
 t("This warped, blackened sword drips acid from its countless pores.", "Cette épée déformée, noircie, dégouline d'acide par ses innombrables pores.", "_t")
 t("Borosk's Hate", "Haine de Borosk", "entity name")
@@ -11087,7 +11087,7 @@ t("Be it corruption, madness or eccentric boredom, the halfling butcher by the n
 t("Enter Rampage if health falls below 20%%%s", "Entrez en Déchaînement si la Vie tombe en dessous de 20%%%s.", "tformat")
 t(" (cooling down: %d turns)", " (rechargement : %d tours)", "tformat")
 t("Attempt to devour a low HP enemy, striking again and possibly killing it instantly.", "Tentez de dévorer un ennemi à faible PV, en le frappant à nouveau et en le tuant éventuellement sur le champ.", "_t")
-t("Enter a Rampage (Shared cooldown).", "Entrez en Déchaînement (temps de recharge partagé).", "_t")
+t("Enter a Rampage (Shared cooldown).", "Entrez en Déchaînement (rechargement partagé).", "_t")
 t("Ethereal Embrace", "Etreinte Ethérée", "entity name")
 t("wispy purple cloak", "cape violette vaporeuse", "_t")
 t("This cloak waves and bends with shimmering light, reflecting the depths of space and the heart of the Aether.", "Cette cape ondule et se plie à la lumière chatoyante, reflétant les profondeurs de l'espace et le coeur de l'éther.", "_t")
@@ -11249,7 +11249,7 @@ This item can have up to 2 charges, with each charge having 4 turn cooldown.]], 
 Tous les dégâts de foudre que vous infligez et qui représentent plus de 10% de la vie maximale de la victime tentent une Paralysie Mentale de la cible.
 Si vous subissez des dégâts de foudre >10% de votre vie maximale, votre esprit riposte, infligeant 30% des dégâts initiaux en mentaux et tentant une Paralysie Mentale sur la cible.
 Si vous subissez des dégâts d'esprit >10% de votre vie maximale, vous déclenchez par réflexe la secousse, envoyant un arc de foudre étourdissant vers la cible (dégâts basés sur la puissance de l'esprit).
-Cet objet peut avoir jusqu'à 2 charges, chaque charge ayant un temps de recharge de 4 tours.]], "_t")
+Cet objet peut avoir jusqu'à 2 charges, chaque charge ayant un rechargement de 4 tours.]], "_t")
 t("Stormfront", "Front Tempêtueux", "entity name")
 t("damp steel battle axe", "hache de combat en acier trempé", "_t")
 t("The blade glows faintly blue, and reflects a sky full of stormy clouds.", "La lame brille d'un bleu pâle, et reflète un ciel plein de nuages orageux.", "_t")
@@ -11379,7 +11379,7 @@ t("Disrupts activated talents.", "Perturbe les talents activés.", "_t")
 t("burning curse trap", "piège de malédiction brûlante", "entity name")
 t("@Target@ triggers a burning curse!", "@Target@ déclenche une malédiction brûlante !", "_t")
 t("dark pentagram", "pentagramme obscur", "_t")
-t("Afflicts the target with a curse: talents inflict %d fire damage and have increased cooldowns.", "Afflige la cible d'une malédiction : les talents infligent %d dégâts de feu et ont des temps de recharge augmentés.", "_t")
+t("Afflicts the target with a curse: talents inflict %d fire damage and have increased cooldowns.", "Afflige la cible d'une malédiction : les talents infligent %d dégâts de feu et ont des temps de rechargement augmentés.", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/complex.lua"
@@ -13538,6 +13538,7 @@ t("misc", "divers", "newLore category")
 t("trollish poem", "poème troll", "_t")
 t("necromancer poem", "poème de nécromancien", "_t")
 t("of halfling feet", "des pieds d'halfelin", "_t")
+t("Dust to Dust", "De la Poussière à la Poussière", "_t")
 -- texte non traduit
 --[==[
 t([[#{bold}#"Me Likes to Club"
@@ -13827,7 +13828,6 @@ The rogue is unknown to this day
 Though rumours persist still
 Rogues aren't known by name or deed
 But by the names they kill]], "_t")
-t("Dust to Dust", "Dust to Dust", "_t")
 t([[#{italic}#An undead hunter's guide, by Aslabor Borys#{normal}#
 
 So, apparently I'm a legend now. Hah, knock a vampire's head off with a greatmaul and suddenly you're up there with Toknor and Mirvenia apparently. More and more often these days I get novice adventurers coming up to me, asking me for advice when it comes to battling the undead. My first instinct was to tell them to get back home and become bakers or gardeners or something. If they need crib notes for combat they obviously aren't cut out for it.
@@ -19248,7 +19248,7 @@ t("Blood Red Moon", "Lune Rouge Sang", "talent name")
 t("Increases your spell critical chance by %d%%.", "Augmente vos chances de coup critique magique de %d%%.", "tformat")
 t("Totality", "Totalité", "talent name")
 t([[Increases your light and darkness resistance penetration by %d%% for %d turns, and reduces the cooldown of all Celestial skills by %d.
-		The resistance penetration will increase with your Cunning.]], [[Augmente votre pénétration de résistance à la lumière et aux ténèbres de %d%% pour %d tours, et réduit le temps de recharge de toutes les compétences Célestes de %d.
+		The resistance penetration will increase with your Cunning.]], [[Augmente votre pénétration de résistance à la lumière et aux ténèbres de %d%% pour %d tours, et réduit le rechargement de toutes les compétences Célestes de %d.
 		La pénétration de résistance est proportionnels à votre Ruse.]], "tformat")
 t("Corona", "Couronne", "talent name")
 t([[Each time one of your spells criticals, you project a bolt of light or shadow at up to %d targets within radius %d, doing %0.2f light damage or %0.2f darkness damage per bolt.
@@ -19285,7 +19285,7 @@ t([[When one of your spells goes critical, you bind glyphs in radius 1 centered 
 		]], [[Lorsqu'un de vos sorts fait un coup critique, vous liez des glyphes dans un rayon de 1 centré sur une cible aléatoire à portée %d au coût de 5 énergies positive et négative.
 		Les glyphes durent %d tours et causent divers effets lorsqu'un ennemi entre dans leur case.
 		Les glyphes n'apparaîtront que sur les ennemis non adjacents à un glyphe existant.
-		Cela ne peut arriver que tous les %d tours de jeu.
+		Cela ne peut arriver que tous les %d tours.
 		Les effets des glyphes sont proportionnels à votre Puissance des Sorts.
 
 		Les glyphes disponibles sont :
@@ -19343,7 +19343,7 @@ t("You cannot use Crusade without a shield!", "Vous ne pouvez pas utiliser Crois
 t([[You demonstrate your dedication to the light with a measured attack striking once with your weapon for %d%% Light damage and once with your shield for %d%% Light damage.
 			If the first strike connects %d random talent cooldowns are reduced by 1.
 			If the second strike connects you are cleansed of %d debuffs.]], [[Vous démontrez votre dévouement à la lumière par une attaque mesurée en frappant avec votre arme en infligeant %d%% dégâts de lumière, suivi d'un coup de bouclier infligeant %d%% dégâts de lumière.
-			Si le premier coup atteint sa cible, %d talents aléatoires ont leur temps de recharge réduits de 1.
+			Si le premier coup atteint sa cible, %d talents aléatoires ont leur rechargement réduits de 1.
 			Si le second coup atteint sa cible, vous êtes dissipé de %d malus.]], "tformat")
 t("Avatar Distant Sun Unlock Checker", "Vérificateur de Déverrouillage d'Avatar d'un Soleil Lointain", "talent name")
 t("#CRIMSON#As your \"talk\" with the star ends, you feel its power, the whole area around you erupts in flames, burning your foes to cinders!", "#CRIMSON#Alors que votre 'conversation' avec l'étoile s'achève, vous ressentez sa puissance, toute la zone autour de vous s'embrase en réduisant vos ennemis en cendres !", "log")
@@ -19558,13 +19558,13 @@ t([[Infuse yourself with the raging fury of the Sun, increasing your physical an
 		This effect can only happen once per turn.]], [[Imprégnez-vous de la fureur déchaînée du Soleil, augmentant vos chances de critique physique et des sorts de %d%%.
 		À chaque coup critique (physique ou des sorts), vous avez %d%% de chances d'obtenir Vengeance Solaire pendant 2 tours.
 		Sous l'effet de Vengeance Solaire, votre Rayon Solaire s'utilise instantanément et inflige 25%% de dégâts supplémentaires.
-		Si Rayon Solaire est en recharge, le temps de recharge est réduit de 1.
+		Si Rayon Solaire est en recharge, le rechargement est réduit de 1.
 		Cet effet ne peut se produire qu'une fois par tour.]], "tformat")
 t("Suncloak", "Manteau Solaire", "talent name")
 t([[You wrap yourself in a cloak of sunlight that empowers your magic and protects you for 6 turns.
 		While the cloak is active, your spell casting speed is increased by %d%%, your spell cooldowns are reduced by %d%%, and you cannot take more than %d%% of your maximum life from a single blow.
 		The effects will increase with your Spellpower.]], [[Vous vous enveloppez d'un manteau de lumière solaire qui renforce votre magie et vous protège pendant 6 tours.
-		Tant que le manteau est actif, votre vitesse d'incantation est augmentée de %d%%, le temps de recharge de vos sorts est réduit de %d%%, et vous ne pouvez pas subir plus de %d%% de vos points de vie maximum en un seul coup.
+		Tant que le manteau est actif, votre vitesse d'incantation est augmentée de %d%%, le rechargement de vos sorts est réduit de %d%%, et vous ne pouvez pas subir plus de %d%% de vos points de vie maximum en un seul coup.
 		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
@@ -19657,7 +19657,12 @@ t([[You revert your body to a previous state, healing yourself for %0.2f life an
 section "mod-tome/data/talents/chronomancy/anomalies.lua"
 
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
+t("wormhole", "trou de ver", "_t")
 t("trap", "piège", "_t")
+t("@Target@ moves onto the wormhole.", "@Target@ se déplace sur le trou de ver.", "_t")
+t("%s tries to enter the wormhole but a violent force pushes it back.", "%s tente d'entrer dans le trou de ver, mais une force violente le repousse.", "logSeen")
+t("%s ignores the wormhole.", "%s ignore le trou de ver.", "logSeen")
+t("Reality asserts itself and forces the wormhole shut.", "La réalité s'impose et force le trou de ver à se fermer.", "logSeen")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
 t("human farmer", "fermier humain", "_t")
 t("halfling gardener", "jardinier halfelin", "_t")
@@ -19684,11 +19689,6 @@ t([[50%% chance that damage the caster takes will be warped to a set target.
 		Once the maximum damage (%d) is absorbed, the time runs out, or the target dies, the shield will crumble.]], "tformat")
 t("Anomaly Wormhole", "Anomaly Wormhole", "talent name")
 t("@Source@ folds the space between two points.", "@Source@ folds the space between two points.", "_t")
-t("wormhole", "wormhole", "_t")
-t("@Target@ moves onto the wormhole.", "@Target@ moves onto the wormhole.", "_t")
-t("%s tries to enter the wormhole but a violent force pushes it back.", "%s tries to enter the wormhole but a violent force pushes it back.", "logSeen")
-t("%s ignores the wormhole.", "%s ignores the wormhole.", "logSeen")
-t("Reality asserts itself and forces the wormhole shut.", "Reality asserts itself and forces the wormhole shut.", "logSeen")
 t("Creates a wormhole nearby and a second wormhole up to ten tiles away.", "Creates a wormhole nearby and a second wormhole up to ten tiles away.", "tformat")
 t("Anomaly Probability Travel", "Anomaly Probability Travel", "talent name")
 t("@Source@ places several targets out of phase.", "@Source@ places several targets out of phase.", "_t")
@@ -19832,6 +19832,7 @@ t("While dual-wielding you have a %d%% chance of completely parrying melee attac
 section "mod-tome/data/talents/chronomancy/bow-threading.lua"
 
 t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
+t("%s is drawn in by the singularity!", "%s est attiré par la singularité !", "logSeen")
 t("Arrow Echoes", "Echos de Flèches", "talent name")
 t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logSeen")
 -- texte non traduit
@@ -19845,7 +19846,6 @@ t([[Fire an arrow for %d%% weapon damage and call up to 2 wardens, depending on 
 		
 		Bow Threading talents will freely swap to your bow when activated if you have one in your secondary slot. You may use the Shoot talent in a similar manner.]], "tformat")
 t("Singularity Arrow", "Singularity Arrow", "talent name")
-t("%s is drawn in by the singularity!", "%s is drawn in by the singularity!", "logSeen")
 t([[Fire an arrow for %d%% weapon damage. When the arrow reaches its destination or hits a target it will draw in all other targets in a radius of %d and inflict %0.2f physical damage.
 		Each target moved beyond the first increases the damage %0.2f (up to %0.2f bonus damage).
 		Targets take reduced damage the further they are from the epicenter (20%% less per tile).
@@ -19865,59 +19865,59 @@ t("Your arrows now tune your Paradox %0.2f points towards your preferred Paradox
 section "mod-tome/data/talents/chronomancy/chronomancer.lua"
 
 t("chronomancy", "chronomancie", "talent category")
+t("Blade Threading", "Déphasage de Lame", "talent type")
+t("A blend of chronomancy and dual-weapon combat.", "Un mélange de chronomancie et de combat à deux armes.", "_t")
+t("Bow Threading", "Déphasage d'Arc", "talent type")
+t("A blend of chronomancy and ranged combat.", "Un mélange de chronomancie et de combat à distance.", "_t")
+t("Temporal Combat", "Combat Temporel", "talent type")
+t("A blend of chronomancy and physical combat.", "Un mélange de chronomancie et de combat physique.", "_t")
+t("Temporal Guardian", "Gardien Temporel", "talent type")
+t("Warden combat training and techniques.", "Entraînement et techniques de combat de Gardien.", "_t")
+t("Threaded Combat", "Tissage du Combat", "talent type")
+t("A blend of ranged and dual-weapon combat.", "Un mélange de combat à distance et à deux armes.", "_t")
+t("Temporal Hounds", "Chien de Chasse Temporel", "talent type")
+t("Call temporal hounds to aid you in combat.", "Appelez des chiens de chasse temporels pour vous aider au combat.", "_t")
+t("Fluctuate spacetime.", "Faites fluctuer l'espace-temps.", "_t")
 t("gravity", "gravité", "talent type")
+t("Call upon the force of gravity to crush, push, and pull your foes.", "Faites appel à la force de gravité pour écraser, pousser et tirer vos ennemis.", "_t")
+t("matter", "matière", "talent type")
+t("Change and shape matter itself.", "Changez et façonnez la matière elle-même.", "_t")
+t("Spacetime Folding", "Pliage d'Espace-Temps", "talent type")
+t("Mastery of folding points in space.", "Maîtrise du repli des points dans l'espace.", "_t")
+t("Speed Control", "Contrôle de Vitesse", "talent type")
+t("Control how fast objects and creatures move through spacetime.", "Contrôlez la vitesse à laquelle les objets et créatures se déplacent dans l'espace-temps.", "_t")
+t("stasis", "stase", "talent type")
+t("Stabilize spacetime.", "Stabilisez l'espace-temps.", "_t")
+t("Timeline Threading", "Tissage de Chronologie", "talent type")
+t("Examine and alter the timelines that make up the spacetime continuum.", "Examinez et modifiez les lignes temporelles qui composent le continuum espace-temps.", "_t")
+t("timetravel", "Voyage dans le Temps", "talent type")
+t("Directly manipulate the flow of time", "Manipulez directement le flux du temps", "_t")
+t("Spellbinding", "Enchantement", "talent type")
+t("Manipulate chronomantic spells.", "Manipulez les sorts cronomantiques.", "_t")
 t("Chronomancy", "Chronomancie", "talent type")
+t("Allows you to glimpse the future, or become more aware of the present.", "Vous permet d'entrevoir le futur, ou de devenir plus conscient du présent.", "_t")
+t("energy", "énergie", "talent type")
+t("Manipulate raw energy by addition or subtraction.", "Manipulez l'énergie brute par addition ou soustraction.", "_t")
+t("Fate Weaving", "Tissage du Destin", "talent type")
+t("Weave the threads of fate.", "Tissez les fils du destin.", "_t")
+t("Spacetime Weaving", "Tissage d'Espace-Temps", "talent type")
+t("Weave the threads of spacetime.", "Tissez les fils de l'espace-temps.", "_t")
+t("Manifold", "Multiplicité", "talent type")
+t("Passive effects that Weapon Folding can trigger.", "Effets passifs que le Repli d'Arme peut déclencher.", "_t")
+t("Other", "autre", "talent type")
+t("Miscellaneous Chronomancy effects.", "Effets de chronomancie divers.", "_t")
+t("Age Manipulation", "Manipulation de l'Âge", "talent type")
+t("Manipulate the age of creatures you encounter.", "Manipulez l'âge des créatures que vous rencontrez.", "_t")
+t("Temporal Archery", "Archerie Temporelle", "talent type")
 t("paradox", "paradoxe", "talent type")
+t("Break the laws of spacetime.", "Brisez les lois de l'espace-temps.", "_t")
+t("Spacetime anomalies that can randomly occur when paradox is to high.", "Anomalies spatio-temporelles qui peuvent survenir aléatoirement lorsque le paradoxe est trop élevé.", "_t")
+t("%s's temporal clone", "clone temporel de %s", "tformat")
+t("A creature from another timeline.", "Une créature d'une autre ligne temporelle.", "_t")
 -- texte non traduit
 --[==[
-t("Blade Threading", "Blade Threading", "talent type")
-t("A blend of chronomancy and dual-weapon combat.", "A blend of chronomancy and dual-weapon combat.", "_t")
-t("Bow Threading", "Bow Threading", "talent type")
-t("A blend of chronomancy and ranged combat.", "A blend of chronomancy and ranged combat.", "_t")
-t("Temporal Combat", "Temporal Combat", "talent type")
-t("A blend of chronomancy and physical combat.", "A blend of chronomancy and physical combat.", "_t")
-t("Temporal Guardian", "Temporal Guardian", "talent type")
-t("Warden combat training and techniques.", "Warden combat training and techniques.", "_t")
-t("Threaded Combat", "Threaded Combat", "talent type")
-t("A blend of ranged and dual-weapon combat.", "A blend of ranged and dual-weapon combat.", "_t")
-t("Temporal Hounds", "Temporal Hounds", "talent type")
-t("Call temporal hounds to aid you in combat.", "Call temporal hounds to aid you in combat.", "_t")
 t("flux", "flux", "talent type")
-t("Fluctuate spacetime.", "Fluctuate spacetime.", "_t")
-t("Call upon the force of gravity to crush, push, and pull your foes.", "Call upon the force of gravity to crush, push, and pull your foes.", "_t")
-t("matter", "matter", "talent type")
-t("Change and shape matter itself.", "Change and shape matter itself.", "_t")
-t("Spacetime Folding", "Spacetime Folding", "talent type")
-t("Mastery of folding points in space.", "Mastery of folding points in space.", "_t")
-t("Speed Control", "Speed Control", "talent type")
-t("Control how fast objects and creatures move through spacetime.", "Control how fast objects and creatures move through spacetime.", "_t")
-t("stasis", "stasis", "talent type")
-t("Stabilize spacetime.", "Stabilize spacetime.", "_t")
-t("Timeline Threading", "Timeline Threading", "talent type")
-t("Examine and alter the timelines that make up the spacetime continuum.", "Examine and alter the timelines that make up the spacetime continuum.", "_t")
-t("timetravel", "timetravel", "talent type")
-t("Directly manipulate the flow of time", "Directly manipulate the flow of time", "_t")
-t("Spellbinding", "Spellbinding", "talent type")
-t("Manipulate chronomantic spells.", "Manipulate chronomantic spells.", "_t")
-t("Allows you to glimpse the future, or become more aware of the present.", "Allows you to glimpse the future, or become more aware of the present.", "_t")
-t("energy", "energy", "talent type")
-t("Manipulate raw energy by addition or subtraction.", "Manipulate raw energy by addition or subtraction.", "_t")
-t("Fate Weaving", "Fate Weaving", "talent type")
-t("Weave the threads of fate.", "Weave the threads of fate.", "_t")
-t("Spacetime Weaving", "Spacetime Weaving", "talent type")
-t("Weave the threads of spacetime.", "Weave the threads of spacetime.", "_t")
-t("Manifold", "Manifold", "talent type")
-t("Passive effects that Weapon Folding can trigger.", "Passive effects that Weapon Folding can trigger.", "_t")
-t("Other", "Other", "talent type")
-t("Miscellaneous Chronomancy effects.", "Miscellaneous Chronomancy effects.", "_t")
-t("Age Manipulation", "Age Manipulation", "talent type")
-t("Manipulate the age of creatures you encounter.", "Manipulate the age of creatures you encounter.", "_t")
-t("Temporal Archery", "Temporal Archery", "talent type")
-t("Break the laws of spacetime.", "Break the laws of spacetime.", "_t")
 t("anomalies", "anomalies", "talent type")
-t("Spacetime anomalies that can randomly occur when paradox is to high.", "Spacetime anomalies that can randomly occur when paradox is to high.", "_t")
-t("%s's temporal clone", "%s's temporal clone", "tformat")
-t("A creature from another timeline.", "A creature from another timeline.", "_t")
 --]==]
 
 
@@ -19925,67 +19925,62 @@ t("A creature from another timeline.", "A creature from another timeline.", "_t"
 section "mod-tome/data/talents/chronomancy/chronomancy.lua"
 
 t("Precognition", "Précognition", "talent name")
-t("Contingency", "Contingence", "talent name")
-t("None", "Aucune", "_t")
-t("See the Threads", "Voir les Fils", "talent name")
--- texte non traduit
---[==[
 t([[You peer into the future, sensing creatures and traps in a radius of %d for %d turns.
-		If you know Foresight you'll gain additional defense and chance to shrug off critical hits (equal to your Foresight bonuses) while Precognition is active.]], [[You peer into the future, sensing creatures and traps in a radius of %d for %d turns.
-		If you know Foresight you'll gain additional defense and chance to shrug off critical hits (equal to your Foresight bonuses) while Precognition is active.]], "tformat")
-t("Foresight", "Foresight", "talent name")
+		If you know Foresight you'll gain additional defense and chance to shrug off critical hits (equal to your Foresight bonuses) while Precognition is active.]], [[Vous regardez dans le futur, détectant les créatures et les pièges dans un rayon de %d pour %d tours.
+		Si vous connaissez Prévoyance, vous gagnerez de la défense supplémentaire et des chances d'ignorer les coups critiques (égales à vos bonus de Prévoyance) pendant que Précognition est actif.]], "tformat")
+t("Foresight", "Prévoyance", "talent name")
 t([[Gain %d defense and %d%% chance to shrug off critical hits.
 		If you have Precognition or See the Threads active these bonuses will be added to those effects, granting additional defense and chance to shrug off critical hits.
-		These bonuses scale with your Magic stat.]], [[Gain %d defense and %d%% chance to shrug off critical hits.
-		If you have Precognition or See the Threads active these bonuses will be added to those effects, granting additional defense and chance to shrug off critical hits.
-		These bonuses scale with your Magic stat.]], "tformat")
-t("#LIGHT_RED#Your Contingency has failed to cast %s!", "#LIGHT_RED#Your Contingency has failed to cast %s!", "logPlayer")
-t("#STEEL_BLUE#Your Contingency triggered %s!", "#STEEL_BLUE#Your Contingency triggered %s!", "logPlayer")
+		These bonuses scale with your Magic stat.]], [[Gagnez %d de défense et %d%% de chances d'ignorer les coups critiques.
+		Si vous avez Précognition ou Voir les Fils actifs, ces bonus seront ajoutés à ces effets, accordant de la défense supplémentaire et des chances d'ignorer les coups critiques.
+		Ces bonus sont proportionnels à votre Magie.]], "tformat")
+t("Contingency", "Contingence", "talent name")
+t("#LIGHT_RED#Your Contingency has failed to cast %s!", "#LIGHT_RED#Votre Contingence a échoué à lancer %s !", "logPlayer")
+t("#STEEL_BLUE#Your Contingency triggered %s!", "#STEEL_BLUE#Votre Contingence a déclenché %s !", "logPlayer")
+t("None", "Aucune", "_t")
 t([[Choose an activatable spell that affects only you, does not require a target, and does not have a fixed cooldown.  When you take damage that reduces your life below %d%% the spell will automatically cast.
 		This spell will cast even if it is currently on cooldown, will not consume a turn or resources, and uses the talent level of Contingency or its own, whichever is lower.
 		This effect can only occur once every %d turns and takes place after the damage is resolved.
 
-		Current Contingency Spell: %s]], [[Choose an activatable spell that affects only you, does not require a target, and does not have a fixed cooldown.  When you take damage that reduces your life below %d%% the spell will automatically cast.
-		This spell will cast even if it is currently on cooldown, will not consume a turn or resources, and uses the talent level of Contingency or its own, whichever is lower.
-		This effect can only occur once every %d turns and takes place after the damage is resolved.
+		Current Contingency Spell: %s]], [[Choisissez un sort activable qui ne vous affecte que vous, ne nécessite pas de cible et n'a pas de temps de rechargement fixe. Lorsque vous subissez des dégâts qui réduisent votre vie en dessous de %d%%, le sort se lancera automatiquement.
+		Ce sort se lancera même s'il est actuellement en rechargement, ne consommera pas de tour ni de ressources, et utilisera le niveau de talent de Contingence ou le sien, selon le plus bas.
+		Cet effet ne peut se produire qu'une fois tous les %d tours et a lieu après la résolution des dégâts.
 
-		Current Contingency Spell: %s]], "tformat")
-t("The timeline is too fractured to do this now.", "The timeline is too fractured to do this now.", "logPlayer")
-t("You've seen as much as you can here.", "You've seen as much as you can here.", "logPlayer")
+		Sort de Contingence actuel : %s]], "tformat")
+t("See the Threads", "Voir les Fils", "talent name")
+t("The timeline is too fractured to do this now.", "La ligne du temps est trop fragmentée pour faire cela maintenant.", "logPlayer")
+t("You've seen as much as you can here.", "Vous avez vu tout ce que vous pouviez ici.", "logPlayer")
 t([[You peer into three possible futures, allowing you to explore each for %d turns.  When the effect expires, you'll choose which of the three futures becomes your present.
 		If you know Foresight you'll gain additional defense and chance to shrug off critical hits (equal to your Foresight values) while See the Threads is active.
 		This spell splits the timeline.  Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.
 		If you die in any thread you'll revert the timeline to the point when you first cast the spell and the effect will end.
-		This spell may only be used once per zone level.]], [[You peer into three possible futures, allowing you to explore each for %d turns.  When the effect expires, you'll choose which of the three futures becomes your present.
-		If you know Foresight you'll gain additional defense and chance to shrug off critical hits (equal to your Foresight values) while See the Threads is active.
-		This spell splits the timeline.  Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.
-		If you die in any thread you'll revert the timeline to the point when you first cast the spell and the effect will end.
-		This spell may only be used once per zone level.]], "tformat")
---]==]
-
+		This spell may only be used once per zone level.]], [[Vous examinez trois futurs possibles, vous permettant d'explorer chacun pendant %d tours. Lorsque l'effet expire, vous choisirez lequel des trois futurs devient votre présent.
+		Si vous connaissez Prévoyance, vous gagnerez de la défense supplémentaire et des chances d'ignorer les coups critiques (égales à vos valeurs de Prévoyance) pendant que Voir les Fils est actif.
+		Ce sort divise la ligne temporelle. Tenter d'utiliser un autre sort qui divise également la ligne temporelle pendant que cet effet est actif sera infructueux.
+		Si vous mourez dans n'importe quel fil, vous reviendrez à la ligne temporelle au point où vous avez lancé le sort pour la première fois et l'effet se terminera.
+		Ce sort ne peut être utilisé qu'une fois par niveau de zone.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/energy.lua"
 
+t("Energy Decomposition", "Décomposition d'Énergie", "talent name")
+t("%s(%d dissipated)#LAST#", "%s(%d dissipés)#LAST#", "tformat")
+t([[Partially dissipates all incoming damage, reducing it by 30%%, up to a maximum of %d.
+		The maximum damage reduction will scale with your Spellpower.]], [[Dissipe partiellement tous les dégâts entrants, les réduisant de 30%%, jusqu'à un maximum de %d.
+		La réduction maximale des dégâts est proportionnel à votre Puissance de Sort.]], "tformat")
+t("Energy Absorption", "Absorption d'Énergie", "talent name")
 t("%s resists!", "%s résiste !", "logSeen")
+t("%s's %s is disrupted by the Energy Absorption!", "Le %s de %s est interrompu par l'Absorption d'Énergie !", "logSeen")
+t([[You sap the target's energy and add it to your own, placing up to %d random talents on cooldown for %d turns.
+		For each talent put on cooldown, you reduce the cooldown of one of your talents currently on cooldown by %d turns.]], "Vous drainez l'énergie de la cible pour renforcer la vôtre, plaçant jusqu'à %d talents aléatoires en rechargement pour %d tours. Pour chaque talent affecté, vous réduisez le rechargement de l'un de vos propres talents de %d tours.", "tformat")
+t([[The next talent you cast with a cooldown of %d or less will not go on cooldown.
+		Once a talent is effected by this spell or %d turns pass the effect is lost.]], [[Le prochain talent que vous lancez avec un temps de rechargement de %d ou moins ne sera pas mis en rechargement.
+		Une fois qu'un talent est affecté par ce sort ou que %d tours se sont écoulés, l'effet est perdu.]], "tformat")
 t("Entropy", "Entropie", "talent name")
+t("Each turn, for the next %d turns, one of the target's sustained talents will be deactivated.", "À chaque tour pour les %d prochains tours, l'un des talents soutenus de la cible sera désactivé.", "tformat")
 -- texte non traduit
 --[==[
-t("Energy Decomposition", "Energy Decomposition", "talent name")
-t("%s(%d dissipated)#LAST#", "%s(%d dissipated)#LAST#", "tformat")
-t([[Partially dissipates all incoming damage, reducing it by 30%%, up to a maximum of %d.
-		The maximum damage reduction will scale with your Spellpower.]], [[Partially dissipates all incoming damage, reducing it by 30%%, up to a maximum of %d.
-		The maximum damage reduction will scale with your Spellpower.]], "tformat")
-t("Energy Absorption", "Energy Absorption", "talent name")
-t("%s's %s is disrupted by the Energy Absorption!", "%s's %s is disrupted by the Energy Absorption!", "logSeen")
-t([[You sap the target's energy and add it to your own, placing up to %d random talents on cooldown for %d turns.
-		For each talent put on cooldown, you reduce the cooldown of one of your talents currently on cooldown by %d turns.]], [[You sap the target's energy and add it to your own, placing up to %d random talents on cooldown for %d turns.
-		For each talent put on cooldown, you reduce the cooldown of one of your talents currently on cooldown by %d turns.]], "tformat")
 t("Redux", "Redux", "talent name")
-t([[The next talent you cast with a cooldown of %d or less will not go on cooldown.
-		Once a talent is effected by this spell or %d turns pass the effect is lost.]], [[The next talent you cast with a cooldown of %d or less will not go on cooldown.
-		Once a talent is effected by this spell or %d turns pass the effect is lost.]], "tformat")
-t("Each turn, for the next %d turns, one of the target's sustained talents will be deactivated.", "Each turn, for the next %d turns, one of the target's sustained talents will be deactivated.", "tformat")
 --]==]
 
 
@@ -19993,103 +19988,91 @@ t("Each turn, for the next %d turns, one of the target's sustained talents will 
 section "mod-tome/data/talents/chronomancy/fate-weaving.lua"
 
 t("Spin Fate", "Roue du Destin", "talent name")
-t("Seal Fate", "Destin Scellé", "talent name")
-t("Fateweaver", "Tisseur de Destin", "talent name")
-t("Webs of Fate", "Toiles du Destin", "talent name")
--- texte non traduit
---[==[
 t([[Each time you would take damage from someone else you gain one Spin, increasing your defense and saves by %d for three turns.
-		This effect may occur once per turn and stacks up to three Spin (for a maximum bonus of %d).]], [[Each time you would take damage from someone else you gain one Spin, increasing your defense and saves by %d for three turns.
-		This effect may occur once per turn and stacks up to three Spin (for a maximum bonus of %d).]], "tformat")
+		This effect may occur once per turn and stacks up to three Spin (for a maximum bonus of %d).]], [[Chaque fois que vous subissez des dégâts d'un adversaire, vous gagnez un Fil, augmentant votre défense et vos sauvegardes de %d pendant 3 tours.
+		Cet effet peut se produire une fois par tour et se cumule jusqu'à trois Fils (pour un bonus maximal de %d).]], "tformat")
+t("Seal Fate", "Destin Scellé", "talent name")
 t([[Activate to Seal Fate for %d turns.  When you damage a target while Seal Fate is active you gain Spin and have a %d%% chance to increase the duration of one detrimental status effect on it by one turn.
 		If you have Spin Fate active the chance will be increased by 33%% per Spin (for %d%% at three Spin.)
-		The duration increase can occur up to %d times per turn and the bonus Spin once per turn.]], [[Activate to Seal Fate for %d turns.  When you damage a target while Seal Fate is active you gain Spin and have a %d%% chance to increase the duration of one detrimental status effect on it by one turn.
-		If you have Spin Fate active the chance will be increased by 33%% per Spin (for %d%% at three Spin.)
-		The duration increase can occur up to %d times per turn and the bonus Spin once per turn.]], "tformat")
-t("You now gain %d combat accuracy, physical power, spellpower, and mindpower per Spin.", "You now gain %d combat accuracy, physical power, spellpower, and mindpower per Spin.", "tformat")
+		The duration increase can occur up to %d times per turn and the bonus Spin once per turn.]], [[Active le Destin Scellé pendant %d tours. Lorsque vous infligez des dégâts à une cible pendant que Destin Scellé est actif, vous gagnez un Fil et avez %d%% de chances d'augmenter d'un tour la durée d'un effet négatif sur celle-ci.
+		Si Roue du Destin est actif, cette chance augmente de 33%% par Fil (soit %d%% avec trois Fils).
+		L'augmentation de durée peut se produire jusqu'à %d fois par tour et le gain de Fil une seule fois par tour.]], "tformat")
+t("Fateweaver", "Tisseur de Destin", "talent name")
+t("You now gain %d combat accuracy, physical power, spellpower, and mindpower per Spin.", "Vous gagnez %d en précision, puissance physique, puissance magique et puissance mentale par Fil.", "tformat")
+t("Webs of Fate", "Toiles du destin", "talent name")
 t([[For the next %d turns you displace %d%% of any damage you receive onto a random enemy.
-		While Webs of Fate is active you may gain one additional Spin per turn and your maximum Spin is doubled.]], [[For the next %d turns you displace %d%% of any damage you receive onto a random enemy.
-		While Webs of Fate is active you may gain one additional Spin per turn and your maximum Spin is doubled.]], "tformat")
---]==]
-
+		While Webs of Fate is active you may gain one additional Spin per turn and your maximum Spin is doubled.]], [[Pendant les %d prochains tours, vous redirigez %d%% des dégâts que vous subissez vers un ennemi aléatoire.
+		Tant que Toiles du destin est actif, vous pouvez gagner un Fil supplémentaire par tour et votre maximum de Fils est doublé.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/flux.lua"
 
-t("Reality Smearing", "Dénaturation du Réel", "talent name")
-t("Attenuate", "Atténuer", "talent name")
-t("Twist Fate", "Destin Tordu", "talent name")
-t("#STEEL_BLUE#Targeting %s", "#STEEL_BLUE#Cible %s", "saySimple")
--- texte non traduit
---[==[
-t("Induce Anomaly", "Induce Anomaly", "talent name")
+t("Induce Anomaly", "Anomalies Induite", "talent name")
 t([[Create an anomaly, reducing your Paradox by %d.  This spell will never produce a major anomaly.
 		Induced Anomalies may not be held by Twist Fate, nor do they cause held anomalies to trigger.  However upon learning Twist Fate you may target Induced Anomalies.
-		The Paradox reduction will increase with your Spellpower.]], [[Create an anomaly, reducing your Paradox by %d.  This spell will never produce a major anomaly.
-		Induced Anomalies may not be held by Twist Fate, nor do they cause held anomalies to trigger.  However upon learning Twist Fate you may target Induced Anomalies.
-		The Paradox reduction will increase with your Spellpower.]], "tformat")
-t("#LIGHT_BLUE##Source# converts damage to paradox!", "#LIGHT_BLUE##Source# converts damage to paradox!", "delayedLogMessage")
-t("#LIGHT_BLUE#(%d converted)#LAST#", "#LIGHT_BLUE#(%d converted)#LAST#", "tformat")
+		The Paradox reduction will increase with your Spellpower.]], [[Crée une anomalie, réduisant votre Paradoxe de %d. Ce sort ne produira jamais une anomalie majeure.
+		Les anomalies induites ne peuvent pas être retenues par Distorsion du Destin, et ne déclenchent pas les anomalies retenues. Cependant, après avoir appris Distorsion du Destin, vous pouvez cibler les Anomalies Induites.
+		La réduction de Paradoxe est proportionnel à votre Puissance de Sort.]], "tformat")
+t("Reality Smearing", "Dénaturation du Réel", "talent name")
+t("#LIGHT_BLUE##Source# converts damage to paradox!", "#LIGHT_BLUE##Source# convertit les dégâts en paradoxe !", "delayedLogMessage")
+t("#LIGHT_BLUE#(%d converted)#LAST#", "#LIGHT_BLUE#(%d convertis)#LAST#", "tformat")
 t([[While active 30%% of all damage you take is converted into %0.2f Paradox per point.
-		The Paradox is gained over three turns.]], [[While active 30%% of all damage you take is converted into %0.2f Paradox per point.
-		The Paradox is gained over three turns.]], "tformat")
+		The Paradox is gained over three turns.]], [[Tant qu'il est actif, 30%% de tous les dégâts que vous subissez sont convertis en %0.2f Paradoxe par point.
+		Le Paradoxe est gagné sur trois tours.]], "tformat")
+t("Attenuate", "Atténuer", "talent name")
 t([[Deals %0.2f temporal damage over %d turns to all targets in a radius of %d.  Targets with Reality Smearing active will instead recover %d life over four turns.
 		If a target is reduced below 20%% life while Attenuate is active it may be instantly slain.
-		The damage will scale with your Spellpower.]], [[Deals %0.2f temporal damage over %d turns to all targets in a radius of %d.  Targets with Reality Smearing active will instead recover %d life over four turns.
-		If a target is reduced below 20%% life while Attenuate is active it may be instantly slain.
-		The damage will scale with your Spellpower.]], "tformat")
-t("You must have a twisted anomaly to cast this spell.", "You must have a twisted anomaly to cast this spell.", "logPlayer")
-t("#STEEL_BLUE#Casts %s.", "#STEEL_BLUE#Casts %s.", "logPlayer")
-t("#STEEL_BLUE#You take control of %s.", "#STEEL_BLUE#You take control of %s.", "logPlayer")
+		The damage will scale with your Spellpower.]], [[Inflige %0.2f dégâts temporels sur %d tours à toutes les cibles dans un rayon de %d. Les cibles ayant Dénaturation du Réel actif récupéreront au contraire %d points de vie sur quatre tours.
+		Si une cible est réduite en dessous de 20%% de vie pendant qu'Atténuer est actif, elle peut être instantanément tuée.
+		Les dégâts sont proportionnels à votre Puissance de Sort.]], "tformat")
+t("Twist Fate", "Destin Tordu", "talent name")
+t("You must have a twisted anomaly to cast this spell.", "Vous devez avoir une anomalie distordue pour lancer ce sort.", "logPlayer")
+t("#STEEL_BLUE#Casts %s.", "#STEEL_BLUE#Lance %s.", "logPlayer")
+t("#STEEL_BLUE#Targeting %s", "#STEEL_BLUE#Cible %s", "saySimple")
+t("#STEEL_BLUE#You take control of %s.", "#STEEL_BLUE#Vous prenez le contrôle de %s.", "logPlayer")
 t([[If Twist Fate is not on cooldown minor anomalies will be held for %d turns, allowing your spell to cast as normal.  While held you may cast Twist Fate in order to trigger the anomaly and may choose the target area.
 		If a second anomaly occurs while a prior one is held or the timed effect expires the first anomaly will trigger immediately, interrupting your current turn or action.
 		Paradox reductions from held anomalies occur when triggered.
 				
 		Current Anomaly: %s
 		
-		%s]], [[If Twist Fate is not on cooldown minor anomalies will be held for %d turns, allowing your spell to cast as normal.  While held you may cast Twist Fate in order to trigger the anomaly and may choose the target area.
-		If a second anomaly occurs while a prior one is held or the timed effect expires the first anomaly will trigger immediately, interrupting your current turn or action.
-		Paradox reductions from held anomalies occur when triggered.
+		%s]], [[Si Destin Tordu n'est pas rechargement, les anomalies mineures seront retenues pendant %d tours, permettant à votre sort de se lancer normalement. Pendant qu'elles sont retenues, vous pouvez lancer Destin Tordu pour déclencher l'anomalie et choisir la zone cible.
+		Si une seconde anomalie survient alors qu'une précédente est retenue ou que l'effet temporel expire, la première anomalie se déclenchera immédiatement, interrompant votre tour ou action en cours.
+		Les réductions de Paradoxe des anomalies retenues se produisent au déclenchement.
 				
-		Current Anomaly: %s
+		Anomalie actuelle : %s
 		
 		%s]], "tformat")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/gravity.lua"
 
+t("Repulsion Blast", "Explosion de Répulsion", "talent name")
+t("%s slams into something solid!", "%s s'écrase contre quelque chose de solide !", "logSeen")
 t("%s is knocked back!", "%s est repoussé !", "logSeen")
 t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
--- texte non traduit
---[==[
-t("Repulsion Blast", "Repulsion Blast", "talent name")
-t("%s slams into something solid!", "%s slams into something solid!", "logSeen")
 t([[Sends out a blast wave of gravity in a radius %d cone, dealing %0.2f base physical (gravity) damage and knocking back targets caught in the area.
 		Targets knocked into walls or other targets take 25%% additional damage and deal 25%% damage to targets they're knocked into.
-		Closer targets will be knocked back further and the damage will scale with your Spellpower.]], [[Sends out a blast wave of gravity in a radius %d cone, dealing %0.2f base physical (gravity) damage and knocking back targets caught in the area.
-		Targets knocked into walls or other targets take 25%% additional damage and deal 25%% damage to targets they're knocked into.
-		Closer targets will be knocked back further and the damage will scale with your Spellpower.]], "tformat")
-t("Gravity Spike", "Gravity Spike", "talent name")
-t("%s is drawn in by the singularity!", "%s is drawn in by the singularity!", "logSeen")
+		Closer targets will be knocked back further and the damage will scale with your Spellpower.]], [[Envoie une onde de choc gravitationnelle dans un cône de rayon %d, infligeant %0.2f dégâts physiques (gravité) de base et repoussant les cibles prises dans la zone.
+		Les cibles repoussées contre des murs ou d'autres cibles subissent 25%% de dégâts supplémentaires et infligent 25%% de dégâts aux cibles qu'elles percutent.
+		Les cibles plus proches seront repoussées plus loin et les dégâts sont proportionnels à votre Puissance de Sort.]], "tformat")
+t("Gravity Spike", "Pic Gravitationnel", "talent name")
+t("%s is drawn in by the singularity!", "%s est attiré par la singularité !", "logSeen")
 t([[Creates a gravity spike in a radius of %d that moves all targets towards the spell's center and inflicts %0.2f physical (gravity) damage.
 		Each target moved beyond the first increases the damage by %0.2f (up to a maximum of %0.2f bonus damage).
 		Targets take reduced damage the further they are from the epicenter (20%% less per tile).
-		The damage dealt will scale with your Spellpower.]], [[Creates a gravity spike in a radius of %d that moves all targets towards the spell's center and inflicts %0.2f physical (gravity) damage.
-		Each target moved beyond the first increases the damage by %0.2f (up to a maximum of %0.2f bonus damage).
-		Targets take reduced damage the further they are from the epicenter (20%% less per tile).
-		The damage dealt will scale with your Spellpower.]], "tformat")
-t("Gravity Locus", "Gravity Locus", "talent name")
+		The damage dealt will scale with your Spellpower.]], [[Crée un pic gravitationnel dans un rayon de %d qui déplace toutes les cibles vers le centre du sort et inflige %0.2f dégâts physiques (gravité).
+		Chaque cible déplacée au-delà de la première augmente les dégâts de %0.2f (jusqu'à un maximum de %0.2f dégâts bonus).
+		Les cibles subissent des dégâts réduits plus elles sont éloignées de l'épicentre (20%% de moins par case).
+		Les dégâts sont proportionnels à votre Puissance de Sort.]], "tformat")
+t("Gravity Locus", "Locus Gravitationnel", "talent name")
 t([[Create a gravity field around you that converts %d%% all damage you deal into physical damage, slows incoming projectiles by %d%%, and protects you from all gravity damage and effects.
-		Additionally, damage dealt by Repulsion Blast has a %d%% chance to reduce the target's knockback resistance by half for two turns.]], [[Create a gravity field around you that converts %d%% all damage you deal into physical damage, slows incoming projectiles by %d%%, and protects you from all gravity damage and effects.
-		Additionally, damage dealt by Repulsion Blast has a %d%% chance to reduce the target's knockback resistance by half for two turns.]], "tformat")
-t("Gravity Well", "Gravity Well", "talent name")
+		Additionally, damage dealt by Repulsion Blast has a %d%% chance to reduce the target's knockback resistance by half for two turns.]], [[Crée un champ gravitationnel autour de vous qui convertit %d%% de tous les dégâts que vous infligez en dégâts physiques, ralentit les projectiles entrants de %d%% et vous protège de tous les dégâts et effets gravitationnels.
+		De plus, les dégâts infligés par Explosion de Répulsion ont %d%% de chances de réduire la résistance au recul de la cible de moitié pendant deux tours.]], "tformat")
+t("Gravity Well", "Puits Gravitationnel", "talent name")
 t([[Increases local gravity in a radius of %d for %d turns, dealing %0.2f physical (gravity) damage as well as decreasing the global speed of all affected targets by %d%%.
-		The damage done will scale with your Spellpower.]], [[Increases local gravity in a radius of %d for %d turns, dealing %0.2f physical (gravity) damage as well as decreasing the global speed of all affected targets by %d%%.
-		The damage done will scale with your Spellpower.]], "tformat")
---]==]
-
+		The damage done will scale with your Spellpower.]], [[Augmente la gravité locale dans un rayon de %d pour %d tours, infligeant %0.2f dégâts physiques (gravité) ainsi qu'une diminution de la vitesse globale de toutes les cibles affectées de %d%%.
+		Les dégâts sont proportionnels à votre Puissance de Sort.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/guardian.lua"
@@ -20166,33 +20149,29 @@ t([[While your cosmic cycle is expanding, creatures in its radius have a %d%% ch
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/matter.lua"
 
-t("a summoned wall of stone", "un mur de pierre invoqué", "_t")
--- texte non traduit
---[==[
-t("Dust to Dust", "Dust to Dust", "talent name")
+t("Dust to Dust", "De la Poussière à la Poussière", "talent name")
 t([[Fires a beam that turns matter into dust, inflicting %0.2f temporal damage and %0.2f physical (warp) damage.
 		Alternatively you may target yourself, creating a field of radius %d around you that will inflict the damage over three turns.
-		The damage will scale with your Spellpower.]], [[Fires a beam that turns matter into dust, inflicting %0.2f temporal damage and %0.2f physical (warp) damage.
-		Alternatively you may target yourself, creating a field of radius %d around you that will inflict the damage over three turns.
-		The damage will scale with your Spellpower.]], "tformat")
-t("Matter Weaving", "Matter Weaving", "talent name")
+		The damage will scale with your Spellpower.]], [[Projette un rayon qui réduit la matière en poussière, infligeant %0.2f dégâts temporels et %0.2f dégâts physiques (distorsion).
+		Vous pouvez également vous cibler vous-même afin de créer autour de vous une zone d'un rayon de %d qui infligera ces dégâts pendant trois tours.
+		Les dégâts sont proportionnels à votre Puissance Magique.]], "tformat")
+t("Matter Weaving", "Tissage de la Matière", "talent name")
 t([[Weave matter into your flesh, becoming incredibly resilient to damage.  While active you gain %d armour, %d%% resistance to stunning, and %d%% resistance to cuts.
-		The bonus to armour will scale with your Magic.]], [[Weave matter into your flesh, becoming incredibly resilient to damage.  While active you gain %d armour, %d%% resistance to stunning, and %d%% resistance to cuts.
-		The bonus to armour will scale with your Magic.]], "tformat")
-t("Materialize Barrier", "Materialize Barrier", "talent name")
-t("materialize barrier", "materialize barrier", "_t")
+		The bonus to armour will scale with your Magic.]], [[Tissez la matière dans votre chair afin de devenir extraordinairement résistant aux dégâts. Tant que cet effet est actif, vous gagnez %d d'armure, %d%% de résistance à l'assommement et %d%% de résistance aux entailles.
+		Le bonus d'armure est proportionnel à votre Magie.]], "tformat")
+t("Materialize Barrier", "Matérialiser une Barrière", "talent name")
+t("materialize barrier", "matérialiser une barrière", "_t")
+t("a summoned wall of stone", "un mur de pierre invoqué", "_t")
 t([[Create a tightly bound matter wall of up to a length of %d that lasts %d turns.
-		If any part of this wall is dug out it will explode, causing targets in a radius of %d to bleed for %0.2f physical damage over six turns.]], [[Create a tightly bound matter wall of up to a length of %d that lasts %d turns.
-		If any part of this wall is dug out it will explode, causing targets in a radius of %d to bleed for %0.2f physical damage over six turns.]], "tformat")
-t("Disintegration", "Disintegration", "talent name")
-t("#CRIMSON#%s's beneficial effect was stripped!#LAST#", "#CRIMSON#%s's beneficial effect was stripped!#LAST#", "logSeen")
+		If any part of this wall is dug out it will explode, causing targets in a radius of %d to bleed for %0.2f physical damage over six turns.]], [[Crée un mur de matière solidement condensée pouvant atteindre une longueur de %d et durant %d tours.
+		Si une partie quelconque de ce mur est creusée ou détruite, elle explose et fait saigner les cibles dans un rayon de %d, leur infligeant %0.2f dégâts physiques sur six tours.]], "tformat")
+t("Disintegration", "Désintégration", "talent name")
+t("#CRIMSON#%s's beneficial effect was stripped!#LAST#", "#CRIMSON#Un effet bénéfique de %s a été dissipé !#LAST#", "logSeen")
 t([[While active your physical and temporal damage has a %d%% chance to remove one beneficial physical or magical temporary effect (respectively) from targets you hit.
 		Only one physical and one magical effect may be removed per turn from each target.
-		Additionally your Dust to Dust spell now digs up to %d tiles into walls.]], [[While active your physical and temporal damage has a %d%% chance to remove one beneficial physical or magical temporary effect (respectively) from targets you hit.
-		Only one physical and one magical effect may be removed per turn from each target.
-		Additionally your Dust to Dust spell now digs up to %d tiles into walls.]], "tformat")
---]==]
-
+		Additionally your Dust to Dust spell now digs up to %d tiles into walls.]], [[Tant que cet effet est actif, vos dégâts physiques et temporels ont %d%% de chances de dissiper un effet temporaire bénéfique physique ou magique sur les cibles touchées.
+		Un seul effet physique et un seul effet magique peuvent être retirés par tour et par cible.
+		De plus, votre sort De la Poussière à la Poussière peut désormais creuser jusqu'à %d cases dans les murs.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/other.lua"
@@ -20204,6 +20183,7 @@ t("Gather the Threads", "Rassembler les Fils", "talent name")
 t("Fade From Time", "Évanouissement Temporel", "talent name")
 t("Paradox Clone", "Clone Paradoxal", "talent name")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
+t("The real %s... or so %s says.", "%s est le vrai, pas le clone... ou c'est ce que %s prétend.", "tformat")
 t("Paradox Clone", "Clone Paradoxal", "_t")
 t("Damage Smearing", "Dégâts Barbouillés", "talent name")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
@@ -20266,7 +20246,6 @@ t([[You partially remove yourself from the timeline for 10 turns.
 		The resistance bonus, effect reduction, and damage penalty will gradually lose power over the duration of the spell.
 		The effects scale with your Spellpower.]], "tformat")
 t("%s's Paradox Clone", "%s's Paradox Clone", "tformat")
-t("The real %s... or so %s says.", "The real %s... or so %s says.", "tformat")
 t([[You summon your future self to fight alongside you for %d turns.  At some point in the future, you'll be pulled into the past to fight alongside your past self after the initial effect ends.
 		This spell splits the timeline.  Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.]], [[You summon your future self to fight alongside you for %d turns.  At some point in the future, you'll be pulled into the past to fight alongside your past self after the initial effect ends.
 		This spell splits the timeline.  Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.]], "tformat")
@@ -20330,189 +20309,170 @@ t([[Attempts to pull the target apart at a molecular level, inflicting %0.2f tem
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/spacetime-folding.lua"
 
+t("warp mine: %s", "mine de distorsion : %s", "tformat")
+t("toward", "vers vous", "_t")
+t("away", "loin de vous", "_t")
 t("trap", "piège", "_t")
 t("The teleport fizzles!", "La téléportation foire !", "logSeen")
-t("Spatial Tether", "Attache Spatiale", "talent name")
-t("Dimensional Anchor", "Ancrage Dimensionnel", "talent name")
--- texte non traduit
---[==[
-t("warp mine: %s", "warp mine: %s", "tformat")
-t("toward", "toward", "_t")
-t("away", "away", "_t")
-t("%s resists the teleport!", "%s resists the teleport!", "logSeen")
-t("Warp Mine Toward", "Warp Mine Toward", "talent name")
+t("%s resists the teleport!", "%s résiste à la téléportation !", "logSeen")
+t("Warp Mine Toward", "Mine de Distorsion Rapprochante", "talent name")
 t([[Lay Warp Mines in a radius of 1 that teleport enemies to you and inflict %0.2f physical and %0.2f temporal (warp) damage.
 		The mines are hidden traps (%d detection and %d disarm power based on your Magic) and last for %d turns.
-		The damage caused by your Warp Mines will improve with your Spellpower.]], [[Lay Warp Mines in a radius of 1 that teleport enemies to you and inflict %0.2f physical and %0.2f temporal (warp) damage.
-		The mines are hidden traps (%d detection and %d disarm power based on your Magic) and last for %d turns.
-		The damage caused by your Warp Mines will improve with your Spellpower.]], "tformat")
-t("Warp Mine Away", "Warp Mine Away", "talent name")
+		The damage caused by your Warp Mines will improve with your Spellpower.]], [[Place des Mines de Distorsion dans un rayon de 1 case qui téléportent les ennemis vers vous et infligent %0.2f dégâts physiques et %0.2f dégâts temporels (distorsion).
+		Les mines sont des pièges cachés (%d de détection et %d de pouvoir de désamorçage, basé sur votre Magie) et durent %d tours.
+		Les dégâts causés par vos Mines de Distorsion sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Warp Mine Away", "Mine de Distorsion Repoussante", "talent name")
 t([[Lay Warp Mines in a radius of 1 that teleport enemies away from you and inflict %0.2f physical and %0.2f temporal (warp) damage.
 		The mines are hidden traps (%d detection and %d disarm power based on your Magic) and last for %d turns.
-		The damage caused by your Warp Mines will improve with your Spellpower.]], [[Lay Warp Mines in a radius of 1 that teleport enemies away from you and inflict %0.2f physical and %0.2f temporal (warp) damage.
-		The mines are hidden traps (%d detection and %d disarm power based on your Magic) and last for %d turns.
-		The damage caused by your Warp Mines will improve with your Spellpower.]], "tformat")
-t("Warp Mines", "Warp Mines", "talent name")
+		The damage caused by your Warp Mines will improve with your Spellpower.]], [[Place des Mines de Distorsion dans un rayon de 1 case qui téléportent les ennemis loin de vous et infligent %0.2f dégâts physiques et %0.2f dégâts temporels (distorsion).
+		Les mines sont des pièges cachés (%d de détection et %d de pouvoir de désamorçage, basé sur votre Magie) et durent %d tours.
+		Les dégâts causés par vos Mines de Distorsion sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Warp Mines", "Mines de Distorsion", "talent name")
 t([[Learn to lay Warp Mines in a radius of 1.  Warp Mines teleport targets that trigger them either toward you or away from you depending on the type of mine used and inflict %0.2f physical and %0.2f temporal (warp) damage.
 		The mines are hidden traps (%d detection and %d disarm power based on your Magic), last for %d turns, and each have a ten turn cooldown.
 		Investing in this talent improves the range of all Spacetime Folding talents and the damage caused by your Warp Mines will improve with your Spellpower.
 		
-		Current Spacetime Folding Range: %d]], [[Learn to lay Warp Mines in a radius of 1.  Warp Mines teleport targets that trigger them either toward you or away from you depending on the type of mine used and inflict %0.2f physical and %0.2f temporal (warp) damage.
-		The mines are hidden traps (%d detection and %d disarm power based on your Magic), last for %d turns, and each have a ten turn cooldown.
-		Investing in this talent improves the range of all Spacetime Folding talents and the damage caused by your Warp Mines will improve with your Spellpower.
+		Current Spacetime Folding Range: %d]], [[Apprend à placer des Mines de Distorsion dans un rayon de 1 case. Les Mines de Distorsion téléportent les cibles qui les déclenchent vers vous ou loin de vous selon le type de mine utilisé, et infligent %0.2f dégâts physiques et %0.2f dégâts temporels (distorsion).
+		Les mines sont des pièges cachés (%d de détection et %d de pouvoir de désamorçage, basé sur votre Magie), durent %d tours et ont chacune un rechargement de 10 tours.
+		Investir dans ce talent améliore la portée de tous les talents de Pliage d'Espace-Temps.
+		Les dégâts causés par vos Mines de Distorsion sont proportionnels à votre Puissance des Sorts.
 		
-		Current Spacetime Folding Range: %d]], "tformat")
-t("You can't place a tether here", "You can't place a tether here", "logPlayer")
-t("%s's spatial tether", "%s's spatial tether", "tformat")
-t("#CRIMSON#%s has been yanked back to the tether!", "#CRIMSON#%s has been yanked back to the tether!", "logSeen")
+		Portée actuelle du Pliage d'Espace-Temps : %d]], "tformat")
+t("Spatial Tether", "Attache Spatiale", "talent name")
+t("You can't place a tether here", "Vous ne pouvez pas placer une attache ici", "logPlayer")
+t("%s's spatial tether", "attache spatiale de %s", "tformat")
+t("#CRIMSON#%s has been yanked back to the tether!", "#CRIMSON#%s a été ramené à l'attache !", "logSeen")
 t([[Tether the target to the location for %d turns.  
 		Each turn the target has a %d%% chance per tile it's travelled away from the tether to be teleported back, inflicting %0.2f physical and %0.2f temporal (warp) damage to all enemies in a radius of %d at both the entrance and exit locations.
-		The damage will scale with your Spellpower.]], [[Tether the target to the location for %d turns.  
-		Each turn the target has a %d%% chance per tile it's travelled away from the tether to be teleported back, inflicting %0.2f physical and %0.2f temporal (warp) damage to all enemies in a radius of %d at both the entrance and exit locations.
-		The damage will scale with your Spellpower.]], "tformat")
-t("Banish", "Banish", "talent name")
-t("The spell fizzles on %s!", "The spell fizzles on %s!", "logSeen")
-t("#CRIMSON#%s has been banished!", "#CRIMSON#%s has been banished!", "logSeen")
-t("%s resists the banishment!", "%s resists the banishment!", "logSeen")
+		The damage will scale with your Spellpower.]], [[Attache la cible à l'emplacement ciblé pendant %d tours.
+		À chaque tour, il y a %d%% de chance par case de distance parcourue depuis l'attache que la cible y soit téléportée, infligeant %0.2f dégâts physiques et %0.2f dégâts temporels (distorsion) à tous les ennemis dans un rayon de %d cases aux points d'entrée et de sortie.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Banish", "Bannissement", "talent name")
+t("The spell fizzles on %s!", "Le sort échoue sur %s !", "logSeen")
+t("#CRIMSON#%s has been banished!", "#CRIMSON#%s a été banni !", "logSeen")
+t("%s resists the banishment!", "%s résiste au bannissement !", "logSeen")
 t([[Randomly teleports all enemies within a radius of three.  Enemies will be teleported between %d and %d tiles from you and may be stunned, blinded, confused, or pinned for %d turns.
-		The chance of teleportion will scale with your Spellpower.]], [[Randomly teleports all enemies within a radius of three.  Enemies will be teleported between %d and %d tiles from you and may be stunned, blinded, confused, or pinned for %d turns.
-		The chance of teleportion will scale with your Spellpower.]], "tformat")
+		The chance of teleportion will scale with your Spellpower.]], [[Téléporte aléatoirement tous les ennemis dans un rayon de 3 cases.
+		Les ennemis seront téléportés entre %d et %d cases de vous et peuvent être assommés, aveuglés, confus, ou immobilisés pendant %d tours.
+		La chance de téléportation est proportionnel à votre Puissance des Sorts.]], "tformat")
+t("Dimensional Anchor", "Ancrage Dimensionnel", "talent name")
 t([[Create a radius three anti-teleport field for %d turns and daze all enemies in the area of effect for two turns.
 		Enemies attempting to teleport while anchored take %0.2f physical and %0.2f temporal (warp) damage.
-		The damage will scale with your Spellpower.]], [[Create a radius three anti-teleport field for %d turns and daze all enemies in the area of effect for two turns.
-		Enemies attempting to teleport while anchored take %0.2f physical and %0.2f temporal (warp) damage.
-		The damage will scale with your Spellpower.]], "tformat")
---]==]
-
+		The damage will scale with your Spellpower.]], [[Crée un champ anti-téléportation dans un rayon de 3 cases pendant %d tours et étourdit tous les ennemis dans la zone d'effet pendant 2 tours.
+		Les ennemis qui tentent de se téléporter lorsqu'ils sont ancrés subissent %0.2f dégâts physiques et %0.2f dégâts temporels (distorsion).
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/spacetime-weaving.lua"
 
+t("Dimensional Step", "Pas Dimensionnel", "talent name")
 t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logPlayer")
-t("trap", "piège", "_t")
--- texte non traduit
---[==[
-t("Dimensional Step", "Dimensional Step", "talent name")
-t("#Source# folds space with with #target#!", "#Source# folds space with with #target#!", "logCombat")
-t("#Source#'s space-time folding with #target# fizzles!", "#Source#'s space-time folding with #target# fizzles!", "logCombat")
-t("#Source# resists #target#'s space-time folding!", "#Source# resists #target#'s space-time folding!", "logCombat")
-t("%s's space-time folding fizzles!", "%s's space-time folding fizzles!", "logSeen")
-t("%s emerges from a space-time rift!", "%s emerges from a space-time rift!", "logSeen")
+t("#Source# folds space with with #target#!", "#Source# plie l'espace-temps avec #Target# !", "logCombat")
+t("#Source#'s space-time folding with #target# fizzles!", "Le pliage d'espace-temps de #Source# avec #Target# échoue !", "logCombat")
+t("#Source# resists #target#'s space-time folding!", "#Source# résiste au pliage d'espace-temps de #Target# !", "logCombat")
+t("%s's space-time folding fizzles!", "Le pliage d'espace-temps de %s échoue !", "logSeen")
+t("%s emerges from a space-time rift!", "%s émerge d'une faille spatio-temporelle !", "logSeen")
 t([[Teleports you to up to %d tiles away, to a targeted location in line of sight.
-		At talent level 5 you may swap positions with a target creature.]], [[Teleports you to up to %d tiles away, to a targeted location in line of sight.
-		At talent level 5 you may swap positions with a target creature.]], "tformat")
-t("Dimensional Shift", "Dimensional Shift", "talent name")
-t("When you teleport you reduce the duration of a single detrimental effect by %d turns.", "When you teleport you reduce the duration of a single detrimental effect by %d turns.", "tformat")
-t("Wormhole", "Wormhole", "talent name")
-t("You can't place a wormhole entrance here.", "You can't place a wormhole entrance here.", "logPlayer")
-t("You can't place a wormhole exit here.", "You can't place a wormhole exit here.", "logPlayer")
-t("wormhole", "wormhole", "_t")
-t("@Target@ moves onto the wormhole.", "@Target@ moves onto the wormhole.", "_t")
-t("%s tries to enter the wormhole but a violent force pushes it back.", "%s tries to enter the wormhole but a violent force pushes it back.", "logSeen")
-t("%s ignores the wormhole.", "%s ignores the wormhole.", "logSeen")
-t("Reality asserts itself and forces the wormhole shut.", "Reality asserts itself and forces the wormhole shut.", "logSeen")
-t("%s folds the space between two points.", "%s folds the space between two points.", "logSeen")
+		At talent level 5 you may swap positions with a target creature.]], [[Vous téléporte jusqu'à %d cases vers un emplacement ciblé dans votre ligne de vue.
+		Au niveau 5, vous pouvez permuter votre position avec une créature ciblée.]], "tformat")
+t("Dimensional Shift", "Décalage Dimensionnel", "talent name")
+t("When you teleport you reduce the duration of a single detrimental effect by %d turns.", "Lorsque vous vous téléportez, vous réduisez la durée d'un seul effet négatif de %d tours.", "tformat")
+t("Wormhole", "Trou de Ver", "talent name")
+t("You can't place a wormhole entrance here.", "Vous ne pouvez pas placer une entrée de trou de ver ici.", "logPlayer")
+t("You can't place a wormhole exit here.", "Vous ne pouvez pas placer une sortie de trou de ver ici.", "logPlayer")
+t("wormhole", "trou de ver", "_t")
+t("trap", "piège", "_t")
+t("@Target@ moves onto the wormhole.", "@Target@ se déplace sur le trou de ver.", "_t")
+t("%s tries to enter the wormhole but a violent force pushes it back.", "%s tente d'entrer dans le trou de ver, mais une force violente le repousse.", "logSeen")
+t("%s ignores the wormhole.", "%s ignore le trou de ver.", "logSeen")
+t("Reality asserts itself and forces the wormhole shut.", "La réalité s'impose et force le trou de ver à se fermer.", "logSeen")
+t("%s folds the space between two points.", "%s plie l'espace entre deux points.", "logSeen")
 t([[You fold the space between yourself and a second point within a range of %d, creating a pair of wormholes.  Any creature stepping on either wormhole will be teleported near the other (radius %d accuracy).  
 		The wormholes will last %d turns and must be placed at least two tiles apart.
-		The chance of teleporting enemies will scale with your Spellpower.]], [[You fold the space between yourself and a second point within a range of %d, creating a pair of wormholes.  Any creature stepping on either wormhole will be teleported near the other (radius %d accuracy).  
-		The wormholes will last %d turns and must be placed at least two tiles apart.
-		The chance of teleporting enemies will scale with your Spellpower.]], "tformat")
-t("Phase Pulse", "Phase Pulse", "talent name")
+		The chance of teleporting enemies will scale with your Spellpower.]], [[Plie l'espace entre vous et un second point dans un rayon de %d cases, créant une paire de trous de ver reliés. Toute créature qui marchera sur l'un d'eux sera téléportée près de l'autre (%d case(s) de précision).
+		Les trous de ver durent %d tours et doivent être placés à au moins deux cases de distance l'un de l'autre.
+		La chance de téléporter les ennemis est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Phase Pulse", "Impulsion de Phase", "talent name")
 t([[When you teleport you fire a pulse that jolts enemies out of phase in a radius of %d around both the start and the destination point. 
-		Each target has a %d%% chance per tile you travelled to be stunned, blinded, confused, or pinned for %d turns.]], [[When you teleport you fire a pulse that jolts enemies out of phase in a radius of %d around both the start and the destination point. 
-		Each target has a %d%% chance per tile you travelled to be stunned, blinded, confused, or pinned for %d turns.]], "tformat")
---]==]
-
+		Each target has a %d%% chance per tile you travelled to be stunned, blinded, confused, or pinned for %d turns.]], [[Lorsque vous vous téléportez, vous émettez une impulsion qui met les ennemis hors de phase dans un rayon de %d case(s) autour des points de départ et d'arrivée.
+		Chaque cible a %d%% de chance par case parcourue d'être assommé, aveuglée, confus, ou immobilisée pendant %d tours.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/speed-control.lua"
 
 t("Celerity", "Célérité", "talent name")
+t("When you move you gain %d%% movement speed for %d turns.  This effect stacks up to three times but can only occur once per turn.", "En vous déplaçant, vous gagnez %d%% de vitesse de déplacement pendant %d tour(s). Cet effet se cumule jusqu'à trois fois, mais ne peut se produire qu'une fois par tour.", "tformat")
 t("Time Dilation", "Dilatation Temporelle", "talent name")
-t("Haste", "Hâte", "talent name")
-t("Time Stop", "Arrêt du Temps", "talent name")
--- texte non traduit
---[==[
-t("When you move you gain %d%% movement speed for %d turns.  This effect stacks up to three times but can only occur once per turn.", "When you move you gain %d%% movement speed for %d turns.  This effect stacks up to three times but can only occur once per turn.", "tformat")
 t([[When you use a non-instant chronomancy spell you gain %d%% attack, spell, and mind speed for %d turns.  This effect stacks up to three times but can only occur once per turn.
-		]], [[When you use a non-instant chronomancy spell you gain %d%% attack, spell, and mind speed for %d turns.  This effect stacks up to three times but can only occur once per turn.
-		]], "tformat")
-t("Increases your global speed by %d%% for %d game turns.", "Increases your global speed by %d%% for %d game turns.", "tformat")
-t("#STEEL_BLUE#%s has stopped time!#LAST#", "#STEEL_BLUE#%s has stopped time!#LAST#", "logSeen")
-t("Gain %d turns.  During this time your damage will be reduced by %d%%.", "Gain %d turns.  During this time your damage will be reduced by %d%%.", "tformat")
---]==]
-
+		]], "En lançant un sort de Chronomancie non instantané, vous gagnez %d%% de vitesse d'attaque, de vitesse magique, et de vitesse mentale pendant %d tour(s). Cet effet se cumule jusqu'à 3 fois, mais ne peut être activé qu'une fois par tour.", "tformat")
+t("Haste", "Hâte", "talent name")
+t("Increases your global speed by %d%% for %d game turns.", "Augmente votre vitesse globale de %d%% pendant %d tours.", "tformat")
+t("Time Stop", "Arrêt du Temps", "talent name")
+t("#STEEL_BLUE#%s has stopped time!#LAST#", "#STEEL_BLUE#%s a arrêté le temps !#LAST#", "logSeen")
+t("Gain %d turns.  During this time your damage will be reduced by %d%%.", "Gagnez %d tour(s). Pendant ce temps, vos dégâts sont réduits de %d%%.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/spellbinding.lua"
 
-t("Empower", "Amélioration", "talent name")
+t("Empower", "Potentialiser", "talent name")
 t("None", "Aucune", "_t")
-t("Extension", "Prolongation", "talent name")
-t("Matrix", "Matrice", "talent name")
-t("Quicken", "Accélération", "talent name")
--- texte non traduit
---[==[
 t([[Empowers the selected chronomancy spell, increasing spellpower when casting it by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
-		Current Empowered Spell: %s]], [[Empowers the selected chronomancy spell, increasing spellpower when casting it by %d%%.
-		Each spell can only be spellbound in one way at a time.
+		Current Empowered Spell: %s]], [[Renforce le sort de Chronomancie sélectionné, augmentant la Puissance des Sorts lors de son lancement de %d%%.
+		Chaque sort ne peut être lié que d'une seule façon à la fois.
 		
-		Current Empowered Spell: %s]], "tformat")
+		Sort Potentialisé Actuel : %s]], "tformat")
+t("Extension", "Prolongation", "talent name")
 t([[Extends the duration of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
-		Current Extended Spell: %s]], [[Extends the duration of the selected chronomancy spell by %d%%.
-		Each spell can only be spellbound in one way at a time.
+		Current Extended Spell: %s]], [[Augmente la durée du sort de Chronomancie sélectionné de %d%%.
+		Chaque sort ne peut être lié que d'une seule façon à la fois.
 		
-		Current Extended Spell: %s]], "tformat")
+		Sort Prolongé Actuel : %s]], "tformat")
+t("Matrix", "Matrice", "talent name")
 t([[Reduces the cooldown of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
-		Current Matrix Spell: %s]], [[Reduces the cooldown of the selected chronomancy spell by %d%%.
-		Each spell can only be spellbound in one way at a time.
+		Current Matrix Spell: %s]], [[Réduit le rechargement du sort de Chronomancie sélectionné de %d%%.
+		Chaque sort ne peut être lié que d'une seule façon à la fois.
 		
-		Current Matrix Spell: %s]], "tformat")
+		Sort Matrice Actuel : %s]], "tformat")
+t("Quicken", "Accélération", "talent name")
 t([[Reduces the casting speed of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
-		Current Quickened Spell: %s]], [[Reduces the casting speed of the selected chronomancy spell by %d%%.
-		Each spell can only be spellbound in one way at a time.
+		Current Quickened Spell: %s]], [[Réduit la vitesse d'incantation du sort de Chronomancie sélectionné de %d%%.
+		Chaque sort ne peut être lié que d'une seule façon à la fois.
 		
-		Current Quickened Spell: %s]], "tformat")
---]==]
-
+		Sort Accéléré Actuel : %s]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/stasis.lua"
 
-t("Time Shield", "Bouclier Temporel", "talent name")
-t("Static History", "Histoire Stable", "talent name")
--- texte non traduit
---[==[
-t("Spacetime Stability", "Spacetime Stability", "talent name")
+t("Spacetime Stability", "Stabilité de l'Espace-Temps", "talent name")
 t([[You automatically adjust your Paradox %0.2f points towards your preferred Paradox each turn.
-		While using Spacetime Tuning twice this value will instead be added to the amount you would normally tune.]], [[You automatically adjust your Paradox %0.2f points towards your preferred Paradox each turn.
-		While using Spacetime Tuning twice this value will instead be added to the amount you would normally tune.]], "tformat")
+		While using Spacetime Tuning twice this value will instead be added to the amount you would normally tune.]], [[Vous ajustez automatiquement votre Paradoxe de %0.2f points vers le Paradoxe souhaité à chaque tour.
+		Lors d'une double utilisation de Réglage Spatio-Temporel, cette valeur s'ajoute à la quantité que vous ajusteriez normalement.]], "tformat")
+t("Time Shield", "Bouclier Temporel", "talent name")
 t([[This intricate spell instantly erects a time shield around the caster, preventing any incoming damage and sending it forward in time.
 		Once either the maximum damage (%d) is absorbed, or the time runs out (%d turns), the stored damage will return as a temporal restoration field over time (5 turns).
 		Each turn the restoration field is active, you get healed for 10%% of the absorbed damage.
 		While under the effect of Time Shield, all newly applied magical, physical and mental effects will have their durations reduced by %d%%.
-		The shield's max absorption will increase with your Spellpower.]], [[This intricate spell instantly erects a time shield around the caster, preventing any incoming damage and sending it forward in time.
-		Once either the maximum damage (%d) is absorbed, or the time runs out (%d turns), the stored damage will return as a temporal restoration field over time (5 turns).
-		Each turn the restoration field is active, you get healed for 10%% of the absorbed damage.
-		While under the effect of Time Shield, all newly applied magical, physical and mental effects will have their durations reduced by %d%%.
-		The shield's max absorption will increase with your Spellpower.]], "tformat")
-t("Stop", "Stop", "talent name")
+		The shield's max absorption will increase with your Spellpower.]], [[Ce sort complexe érige instantanément un bouclier du temps autour du lanceur, empêchant tout dégât entrant et le projetant dans le futur.
+		Lorsque les %d dégâts maximum sont absorbés ou que la durée de %d tours est écoulée, les dégâts stockés reviennent sous forme d'un champ de restauration temporelle sur 5 tours.
+		À chaque tour où le champ de restauration est actif, vous êtes soigné de 10%% des dégâts absorbés.
+		Sous l'effet du Bouclier du Temps, tous les effets magiques, physiques et mentaux nouvellement appliqués verront leur durée réduite de %d%%.
+		L'absorption maximale du bouclier est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Stop", "Arrêt", "talent name")
 t([[Inflicts %0.2f temporal damage, and attempts to stun all targets in a radius %d ball for %d turns.
-		The damage will scale with your Spellpower.]], [[Inflicts %0.2f temporal damage, and attempts to stun all targets in a radius %d ball for %d turns.
-		The damage will scale with your Spellpower.]], "tformat")
+		The damage will scale with your Spellpower.]], [[Inflige %0.2f dégâts temporels et tente d'assommer toutes les cibles dans un rayon de %d case(s) pendant %d tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Static History", "Histoire Stable", "talent name")
 t([[For the next %d turns you may not create minor anomalies.  You do not regain Paradox or lose the spell you're casting if a random anomaly would normally occur.
-		This spell has no effect on major anomalies.]], [[For the next %d turns you may not create minor anomalies.  You do not regain Paradox or lose the spell you're casting if a random anomaly would normally occur.
-		This spell has no effect on major anomalies.]], "tformat")
---]==]
-
+		This spell has no effect on major anomalies.]], [[Pendant les %d prochains tours, vous ne pouvez pas créer d'anomalies mineures. Vous ne regagnez pas de Paradoxe et ne perdez pas le sort en cours d'incantation si une anomalie aléatoire se produirait normalement.
+		Ce sort n'a aucun effet sur les anomalies majeures.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/temporal-archery.lua"
@@ -20595,13 +20555,13 @@ t([[Attack the target with either your ranged or melee weapons for %d%% damage.
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/temporal-hounds.lua"
 
+t("Temporal Hounds", "Chien de Chasse Temporel", "talent name")
 t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logPlayer")
 t("The spell fizzles!", "Le sort s'évanouit !", "logSeen")
 -- texte non traduit
 --[==[
 t("A trained hound that appears to be all at once a little puppy and a toothless old dog.", "A trained hound that appears to be all at once a little puppy and a toothless old dog.", "_t")
 t("temporal-hound", "temporal-hound", "_t")
-t("Temporal Hounds", "Temporal Hounds", "talent name")
 t([[Upon activation summon a Temporal Hound.  Every %d turns another hound will be summoned, up to a maximum of three hounds. If a hound dies you'll summon a new hound in %d turns.  
 		Your hounds inherit your increased damage percent, have %d%% physical resistance and %d%% temporal resistance, and are immune to teleportation effects.
 		Hounds will get, %d Strength, %d Dexterity, %d Constitution, %d Magic, %d Willpower, and %d Cunning, based on your Magic stat.]], [[Upon activation summon a Temporal Hound.  Every %d turns another hound will be summoned, up to a maximum of three hounds. If a hound dies you'll summon a new hound in %d turns.  
@@ -20673,78 +20633,71 @@ t([[When you hit with a melee or arrow attack, there is a %d%% chance that a war
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/timeline-threading.lua"
 
-t("Temporal Fugue", "Fugue Temporelle", "talent name")
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
-t("Cease to Exist", "Cessation de l'existence", "talent name")
-t("%s resists!", "%s résiste !", "logSeen")
--- texte non traduit
---[==[
-t("Rethread", "Rethread", "talent name")
+t("Rethread", "Retramer", "talent name")
 t([[Rethread the timeline, dealing %0.2f temporal damage to the target before moving on to a second target.
 		Rethread can hit up to %d targets up to 10 grids apart, and will never hit the same one twice; nor will it hit the caster.
-		The damage will increase with your Spellpower.]], [[Rethread the timeline, dealing %0.2f temporal damage to the target before moving on to a second target.
-		Rethread can hit up to %d targets up to 10 grids apart, and will never hit the same one twice; nor will it hit the caster.
-		The damage will increase with your Spellpower.]], "tformat")
-t("%s's Fugue Clone", "%s's Fugue Clone", "tformat")
-t("The real %s... or so %s says.", "The real %s... or so %s says.", "tformat")
-t("Fugue Clone", "Fugue Clone", "_t")
+		The damage will increase with your Spellpower.]], [[Retrame la ligne du temps, infligeant %0.2f dégâts temporels à la cible avant de passer à une seconde cible.
+		Retramer peut toucher jusqu'à %d cibles séparées de 10 cases au maximum, et ne touchera jamais la même cible deux fois, ni le lanceur.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Temporal Fugue", "Fugue Temporelle", "talent name")
+t("%s's Fugue Clone", "clone de fugue de %s", "tformat")
+t("The real %s... or so %s says.", "%s est le vrai, pas le clone... ou c'est ce que %s prétend.", "tformat")
+t("Fugue Clone", "Clone de Fugue", "_t")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
 t([[For the next %d turns two alternate versions of you enter your timeline.  While the effect is active all damage done by you or your copies is reduced by two thirds and all damage received is split between the three of you.
 		Temporal Fugue does not normally cooldown while active.  You may take direct control of your clones, give them orders, and set their talent usage.
-		Damage you deal to Fugue Clones or that they deal to you or each other is reduced to zero.]], [[For the next %d turns two alternate versions of you enter your timeline.  While the effect is active all damage done by you or your copies is reduced by two thirds and all damage received is split between the three of you.
-		Temporal Fugue does not normally cooldown while active.  You may take direct control of your clones, give them orders, and set their talent usage.
-		Damage you deal to Fugue Clones or that they deal to you or each other is reduced to zero.]], "tformat")
-t("Braid Lifelines", "Braid Lifelines", "talent name")
+		Damage you deal to Fugue Clones or that they deal to you or each other is reduced to zero.]], [[Pendant les %d prochains tours, deux versions alternatives de vous entrent dans votre ligne du temps. Pendant que l'effet est actif, tous les dégâts causés par vous ou vos copies sont réduits des deux tiers et tous les dégâts reçus sont partagés équitablement entre les trois.
+		Le rechargement de Fugue Temporelle ne progresse pas tant que l'effet est actif. Vous pouvez prendre le contrôle direct des copies, leur donner des ordres et définir leur utilisation des talents.
+		Les dégâts que vous infligez aux Clones de Fugue ou qu'ils vous infligent mutuellement sont réduits à zéro.]], "tformat")
+t("Braid Lifelines", "Entrelacement de Lignes de Vie", "talent name")
 t([[Your Rethread now braids the lifelines of all targets it hits for %d turns.  Braided targets take %d%% of all damage dealt to other braided targets.
-		The amount of damage shared will scale with your Spellpower.]], [[Your Rethread now braids the lifelines of all targets it hits for %d turns.  Braided targets take %d%% of all damage dealt to other braided targets.
-		The amount of damage shared will scale with your Spellpower.]], "tformat")
-t("The timeline is too fractured to do this now.", "The timeline is too fractured to do this now.", "logPlayer")
-t("#LIGHT_BLUE#%s never existed, this never happened!", "#LIGHT_BLUE#%s never existed, this never happened!", "logSeen")
-t("#LIGHT_STEEL_BLUE#%s tries to remove %sself from existance!", "#LIGHT_STEEL_BLUE#%s tries to remove %sself from existance!", "logSeen")
+		The amount of damage shared will scale with your Spellpower.]], [[Votre Retramage entrelace maintenant les lignes de vie de toutes les cibles touchées pendant %d tours.
+		Les cibles entrelacées subissent %d%% de tous les dégâts infligés aux autres cibles entrelacées.
+		La quantité de dégâts partagés est proportionnel à votre Puissance des sorts.]], "tformat")
+t("Cease to Exist", "Cessation de l'Existence", "talent name")
+t("The timeline is too fractured to do this now.", "La ligne du temps est trop fragmentée pour faire cela maintenant.", "logPlayer")
+t("#LIGHT_BLUE#%s never existed, this never happened!", "#LIGHT_BLUE#%s n'a jamais existé, cela ne s'est jamais produit !", "logSeen")
+t("#LIGHT_STEEL_BLUE#%s tries to remove %sself from existance!", "#LIGHT_STEEL_BLUE#%s tente de se supprimer %sde l'existence !", "logSeen")
+t("%s resists!", "%s résiste !", "logSeen")
 t([[Over the next %d turns, you attempt to remove the target from the timeline, lowering its resistance to physical and temporal damage by %d%%.
 		If you manage to kill the target while the spell is in effect, you'll be returned to the point in time you cast this spell and the target will be slain.
 		This spell splits the timeline.  Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.
-		The resistance penalty will scale with your Spellpower.]], [[Over the next %d turns, you attempt to remove the target from the timeline, lowering its resistance to physical and temporal damage by %d%%.
-		If you manage to kill the target while the spell is in effect, you'll be returned to the point in time you cast this spell and the target will be slain.
-		This spell splits the timeline.  Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.
-		The resistance penalty will scale with your Spellpower.]], "tformat")
---]==]
-
+		The resistance penalty will scale with your Spellpower.]], [[Pendant les %d prochains tours, vous tentez de supprimer la cible de la ligne du temps, réduisant sa résistance aux dégâts physiques et temporels de %d%%.
+		Si vous parvenez à tuer la cible pendant que le sort est actif, vous serez ramené au moment exact où vous avez lancé ce sort et la cible sera éliminée.
+		Ce sort divise la ligne du temps ; pendant qu'il dure, les autres sorts qui divisent le temps ne fonctionneront pas.
+		La pénalité de résistance est proportionnel à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/timetravel.lua"
 
+t("Temporal Bolt", "Rayon Temporel", "talent name")
+t("Temporal Bolt", "Rayon Temporel", "_t")
+t([[Pull a bolt of temporal energy back through time.  The bolt will home in on your location, dealing %0.2f temporal damage to targets, and reducing the cooldown of one chronomancy talent on cooldown by one turn per enemy hit.
+		The bolt gains 5%% damage each time it moves and the damage will scale with your Spellpower.
+		At talent level five cooldowns are reduced by two.]], [[Évoque un rayon d'énergie temporelle vers votre position depuis le futur, infligeant %0.2f dégâts temporels aux cibles. Pour chaque ennemi touché, le rechargement d'un talent de Chronomancie en attente est réduit d'un tour.
+		Les dégâts du rayon augmentent de 5%% à chaque case parcourue et sont proportionnels à votre Puissance des sorts.
+		Au niveau 5, la réduction de rechargement passe à 2 tours par cible touchée.]], "tformat")
+t("Time Skip", "Saut Temporel", "talent name")
 t("%s is immune!", "%s est immunisé !", "logSeen")
 t("%s resists!", "%s résiste !", "logSeen")
 t("Something has prevented the timetravel.", "Quelque chose a empêché le voyage dans le temps.", "logPlayer")
 t("temporal instability", "instabilité temporelle", "_t")
 t("%s has moved forward in time!", "%s a avancé dans le temps !", "logSeen")
-t("Temporal Reprieve", "Sursis Temporel", "talent name")
-t("The spell fizzles...", "Le sort échoue...", "logPlayer")
--- texte non traduit
---[==[
-t("Temporal Bolt", "Temporal Bolt", "talent name")
-t("Temporal Bolt", "Temporal Bolt", "_t")
-t([[Pull a bolt of temporal energy back through time.  The bolt will home in on your location, dealing %0.2f temporal damage to targets, and reducing the cooldown of one chronomancy talent on cooldown by one turn per enemy hit.
-		The bolt gains 5%% damage each time it moves and the damage will scale with your Spellpower.
-		At talent level five cooldowns are reduced by two.]], [[Pull a bolt of temporal energy back through time.  The bolt will home in on your location, dealing %0.2f temporal damage to targets, and reducing the cooldown of one chronomancy talent on cooldown by one turn per enemy hit.
-		The bolt gains 5%% damage each time it moves and the damage will scale with your Spellpower.
-		At talent level five cooldowns are reduced by two.]], "tformat")
-t("Time Skip", "Time Skip", "talent name")
 t([[Inflicts %0.2f temporal damage.  If your target survives, it may be removed from time for %d turns.
-		The damage will scale with your Spellpower.]], [[Inflicts %0.2f temporal damage.  If your target survives, it may be removed from time for %d turns.
-		The damage will scale with your Spellpower.]], "tformat")
-t("This talent cannot be used from within the reprieve.", "This talent cannot be used from within the reprieve.", "logPlayer")
-t("This talent cannot be used here.", "This talent cannot be used here.", "logPlayer")
-t("#STEEL_BLUE#You time travel to a quiet place.", "#STEEL_BLUE#You time travel to a quiet place.", "logPlayer")
-t("What the... ugh.", "What the... ugh.", "_t")
-t("Some rookie paradox mage is about to find out that the standard-issue Temporal Reprieve takes you to a random safe-zone, not a fixed one, and left the contents of their pack strewn about the place. Nearly all of it is equipment that your transmutation chest won't process and is unusable by anything with less than twelve limbs, so you kick most of it into the void, but a crumpled note catches your eye...", "Some rookie paradox mage is about to find out that the standard-issue Temporal Reprieve takes you to a random safe-zone, not a fixed one, and left the contents of their pack strewn about the place. Nearly all of it is equipment that your transmutation chest won't process and is unusable by anything with less than twelve limbs, so you kick most of it into the void, but a crumpled note catches your eye...", "_t")
-t("Transport yourself to a safe place for %d turns.", "Transport yourself to a safe place for %d turns.", "tformat")
-t("Echoes From The Past", "Echoes From The Past", "talent name")
+		The damage will scale with your Spellpower.]], [[Inflige %0.2f dégâts temporels. Si la cible survit, elle peut être retirée du temps pendant %d tours.
+		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+t("Temporal Reprieve", "Sursis Temporel", "talent name")
+t("This talent cannot be used from within the reprieve.", "Ce talent ne peut pas être utilisé depuis l'intérieur du sursis.", "logPlayer")
+t("This talent cannot be used here.", "Ce talent ne peut pas être utilisé ici.", "logPlayer")
+t("The spell fizzles...", "Le sort échoue...", "logPlayer")
+t("#STEEL_BLUE#You time travel to a quiet place.", "#STEEL_BLUE#Vous voyagez dans le temps vers un endroit tranquille.", "logPlayer")
+t("What the... ugh.", "Mais quoi... beurk.", "_t")
+t("Some rookie paradox mage is about to find out that the standard-issue Temporal Reprieve takes you to a random safe-zone, not a fixed one, and left the contents of their pack strewn about the place. Nearly all of it is equipment that your transmutation chest won't process and is unusable by anything with less than twelve limbs, so you kick most of it into the void, but a crumpled note catches your eye...", "Un mage du paradoxe débutant va bientôt découvrir que le Sursis Temporel standard vous emmène dans une zone sûre aléatoire et non fixe, laissant le contenu de son sac éparpillé partout. Presque tout est du matériel que votre coffre de transmogrification ne peut traiter et qui est inutilisable par quiconque a moins de douze membres. Vous jetez la plupart dans le vide, mais un billet froissé attire votre regard...", "_t")
+t("Transport yourself to a safe place for %d turns.", "Vous transportez dans un endroit sûr pendant %d tours.", "tformat")
+t("Echoes From The Past", "Échos du Passé", "talent name")
 t([[Creates a temporal echo in a radius of %d around you.  Affected targets take %0.2f temporal damage, as well as up to %d%% of the difference between their current life and max life as additional temporal damage.
-		The additional damage will be divided by the target's rank and the damage scales with your Spellpower.]], [[Creates a temporal echo in a radius of %d around you.  Affected targets take %0.2f temporal damage, as well as up to %d%% of the difference between their current life and max life as additional temporal damage.
-		The additional damage will be divided by the target's rank and the damage scales with your Spellpower.]], "tformat")
---]==]
-
+		The additional damage will be divided by the target's rank and the damage scales with your Spellpower.]], [[Crée un écho temporel dans un rayon de %d cases autour de vous. Inflige %0.2f dégâts temporels et des dégâts supplémentaires pouvant atteindre %d%% des points de vie perdus des cibles.
+		Les dégâts supplémentaires sont divisés par le rang de la cible et les dégâts totaux sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/blight.lua"
@@ -21539,7 +21492,7 @@ t([[You strike your target with your melee or ranged weapon, doing %d%% weapon d
 		]], [[Vous touchez votre cible avec votre arme de mêlée ou à distance, lui infligeant %d%% dégâts d'arme de nature et lui infligeant des effets supplémentaires en fonction de vos vils poisons actifs :
 		
 		%s
-		Apprendre ce talent en plus du talent Couteaux de lancer vous permet d'apprendre le talent Lancer Venimeux, qui peut être utilisé pour lancer des dagues empoisonnées sur vos adversaires, mais qui est soumis à un temps de recharge lorsque ce talent est utilisé.
+		Apprendre ce talent en plus du talent Couteaux de lancer vous permet d'apprendre le talent Lancer Venimeux, qui peut être utilisé pour lancer des dagues empoisonnées sur vos adversaires, mais qui est soumis à un rechargement lorsque ce talent est utilisé.
 		]], "tformat")
 t("Numbing Poison", "Poison Engourdissant", "talent name")
 t("Enhances your Deadly Poison with a numbing agent, causing the poison to reduce all damage the target deals by %d%%.", "Ajoute un agent anesthésiant à votre Poison Mortel, ce qui fait que le poison réduit de %d%% tous les dégâts infligés par la cible.", "tformat")
@@ -21672,7 +21625,7 @@ t([[You notice the small things others do not notice, allowing you to "see" crea
 		Vos capacités de détection s'améliorent avec la Ruse.]], "tformat")
 t("Device Mastery", "Maîtrise des Breloques", "talent name")
 t([[Your cunning manipulations allow you to use charms (wands, totems and torques) more efficiently, reducing their cooldowns and the power cost of all usable items by %d%%.
-		In addition your knowledge of devices allows you to disarm known traps (%d disarm 'power', improves with Cunning).]], [[Vos manipulations astucieuses vous permettent d'utiliser les breloques (baguettes, totems et torques) plus efficacement, réduisant leurs temps de recharge et le Coût en énergie de tous les objets utilisables de %d%%.
+		In addition your knowledge of devices allows you to disarm known traps (%d disarm 'power', improves with Cunning).]], [[Vos manipulations astucieuses vous permettent d'utiliser les breloques (baguettes, totems et torques) plus efficacement, réduisant leurs rechargement et le Coût en énergie de tous les objets utilisables de %d%%.
 		De plus, votre connaissance des mécanismes vous permet de désamorcer les pièges connus ('puissance' de désamorçage %d, amélioré par la Ruse).]], "tformat")
 t("Track", "Pistage", "talent name")
 t([[Sense foes around you in a radius of %d for %d turns.
@@ -21742,7 +21695,7 @@ t("Trap Mastery", "Maîtrise des Pièges", "talent name")
 t("Prepare which traps? (maximum: %d, up to tier %d)%s", "Préparer quel piège ? (maximum : %d, jusqu'au palier %d)%s", "tformat")
 t("\
 Game Start: Newly prepared traps will NOT start on cooldown.", "\
-Début de la partie : les pièges nouvellement préparés ne seront PAS soumis à un temps de recharge.", "_t")
+Début de la partie : les pièges nouvellement préparés ne seront PAS soumis à un rechargement.", "_t")
 t("\
 #YELLOW#Newly prepared traps are put on cooldown.#LAST#", "\
 #YELLOW#Les pièges nouvellement préparés sont mis en rechargement.#LAST#", "_t")
@@ -22629,7 +22582,7 @@ t([[While this ability is active, you will continually call up to %d level %d sh
 		Shadows ignore %d%% of the damage dealt to them by their master.]], [[Tant que cette capacité est active, vous invoquez continuellement jusqu'à %d ombre(s) de niveau %d pour vous aider au combat. Chaque ombre coûte 5 haine à invoquer. Les ombres sont de faibles combattants capables d'utiliser Reconstruction Arcanique pour se soigner (niveau %d), Angle Mort contre leurs adversaires (niveau %d) et Porte de Phase pour se déplacer d'un endroit à un autre.
 		Les ombres ignorent %d%% des dégâts que leur inflige leur maître.]], "tformat")
 t("Shadow Warriors", "Guerriers d'Ombre", "talent name")
-t("Instill hate in your shadows, strengthening their attacks. They gain %d%% extra Accuracy and %d%% extra damage. The fury of their attacks gives them the ability to try to Dominate their foes, increasing all damage taken by that foe for 4 turns (level %d, %d%% chance at range 1). They also gain the ability to Fade when hit, avoiding all damage until their next turn (%d turn cooldown).", "Vous distillez de la haine dans vos ombres, ce qui renforce leurs attaques. Elles gagnent %d%% de Précision supplémentaire et %d%% de dégâts supplémentaires. La fureur de leurs attaques leur donne la capacité de tenter Domination sur leurs ennemis, augmentant tous les dégâts subis par la cible pendant 4 tours (niveau %d, %d%% de chances à une portée de 1). Elles gagnent également la capacité Se Dissiper lorsqu'elles sont touchées, évitant ainsi tous les dégâts jusqu'à leur prochain tour (temps de recharge de %d tours).", "tformat")
+t("Instill hate in your shadows, strengthening their attacks. They gain %d%% extra Accuracy and %d%% extra damage. The fury of their attacks gives them the ability to try to Dominate their foes, increasing all damage taken by that foe for 4 turns (level %d, %d%% chance at range 1). They also gain the ability to Fade when hit, avoiding all damage until their next turn (%d turn cooldown).", "Vous distillez de la haine dans vos ombres, ce qui renforce leurs attaques. Elles gagnent %d%% de Précision supplémentaire et %d%% de dégâts supplémentaires. La fureur de leurs attaques leur donne la capacité de tenter Domination sur leurs ennemis, augmentant tous les dégâts subis par la cible pendant 4 tours (niveau %d, %d%% de chances à une portée de 1). Elles gagnent également la capacité Se Dissiper lorsqu'elles sont touchées, évitant ainsi tous les dégâts jusqu'à leur prochain tour (rechargement de %d tours).", "tformat")
 t("Shadow Mages", "Mages d'Ombre", "talent name")
 t([[Infuse magic into your shadows to give them fearsome spells. Your shadows receive a bonus of %d to their Spellpower.
 		Your shadows can strike adjacent foes with Lightning (level %d, %d%% chance at range 1).
@@ -22767,7 +22720,7 @@ t("#GREEN#The antimagic shield of %s crumbles.", "#GREEN#Le bouclier anti-magie 
 t([[Surround yourself with a shield that will absorb at most %d non-physical, non-mind element damage per attack.
 		Each time damage is absorbed by the shield, your equilibrium increases by 1 for every 30 points of damage and a standard Equilibrium check is made. If the check fails, the shield will crumble and Antimagic Shield will go on cooldown.
 		The damage the shield can absorb will increase with your Mindpower or Physical power (whichever is greater).]], [[Vous vous entourez d'un bouclier qui absorbe au maximum %d dégâts élémentaires non physiques et non mentaux par attaque.
-		Chaque fois que des dégâts sont absorbés par le bouclier, votre équilibre augmente de 1 tous les 30 points de dégâts subis et un test d'équilibre standard est effectué. En cas d'échec, le bouclier se désintègre et Bouclier Anti-Magie entre en temps de recharge.
+		Chaque fois que des dégâts sont absorbés par le bouclier, votre équilibre augmente de 1 tous les 30 points de dégâts subis et un test d'équilibre standard est effectué. En cas d'échec, le bouclier se désintègre et Bouclier Anti-Magie entre en rechargement.
 		Les dégâts que le bouclier peut absorber augmentent selon la valeur la plus élevée entre votre Puissances Mentale et votre Puissance Physique.]], "tformat")
 t("Mana Clash", "Choc de Mana", "talent name")
 t("\
@@ -22958,7 +22911,7 @@ t([[Creates a shield of impenetrable stone around you for %d turns, absorbing up
 		Also while resting you will passively regenerate %0.2f mana each turn.
 		The shield strength will increase with Willpower]], [[Crée un bouclier de pierre impénétrable autour de vous pendant %d tours, absorbant jusqu'à %d dégâts.
 		Votre équilibre augmente de deux fois la quantité de dégâts absorbés.
-		Lorsque l'effet prend fin, tout l'équilibre au-dessus de son niveau minimum est converti en mana dans une tempête d'énergie arcanique, et le temps de recharge de Bloquer est réinitialisé.
+		Lorsque l'effet prend fin, tout l'équilibre au-dessus de son niveau minimum est converti en mana dans une tempête d'énergie arcanique, et le rechargement de Bloquer est réinitialisé.
 		La tempête inflige des dégâts arcanique égaux à l'équilibre converti (maximum %d) à toutes les cibles dans un rayon de %d.
 		De plus, lorsque vous vous reposez, vous régénérez passivement %0.2f de mana par tour.
 		La puissance du bouclier est proportionnel à la Volonté.]], "tformat")
@@ -23567,10 +23520,10 @@ t([[You transform into pure lightning, moving %d%% faster for %d game turns.
 		Any actions other than moving will stop this effect.
 		Note: since you will be moving very fast, game turns will pass very slowly.
 		Levels in Lightning Speed additionally raises your Movement Speed by %d%%, passively.
-		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[Vous vous transformez en foudre pure, vous déplaçant %d%% plus vite pendant %d tours de jeu.
+		Each point in storm drake talents also increases your lightning resistance by 1%%.]], [[Vous vous transformez en foudre pure, vous déplaçant %d%% plus vite pendant %d tours.
 		Accorde également 30%% de résistance aux dégâts physiques et 100%% de résistance à la foudre.
 		Toute action autre que se déplacer arrêtera cet effet.
-		Note : comme vous vous déplacerez très vite, les tours de jeu passeront très lentement.
+		Note : comme vous vous déplacerez très vite, les tours passeront très lentement.
 		Chaque niveau de Vitesse Fulgurante augmente également votre Vitesse de Déplacement de %d%%, passivement.
 		Chaque point dans les talents de l'Aspect de Dragon de l'Orage augmente également votre résistance à la foudre de 1%%.]], "tformat")
 t("Static Field", "Champ Statique", "talent name")
@@ -23964,7 +23917,7 @@ t("Frantic Summoning", "Invocation Frénétique", "talent name")
 t([[You focus yourself on nature, allowing you to summon natural creatures much faster (%d%% of a normal summon time) and with no chance to fail from high equilibrium for %d turns.
 		When activating this power, a random summoning talent will come off cooldown.
 		Each time you summon, the duration of the frantic summoning effect will reduce by 1.]], [[Vous vous concentrez sur la nature, vous permettant d'invoquer des créatures naturelles beaucoup plus rapidement (%d%% du temps d'invocation normal) et sans risque d'échec dû à un équilibre élevé pendant %d tours.
-		En activant ce pouvoir, un talent d'invocation aléatoire sort de son temps de recharge.
+		En activant ce pouvoir, un talent d'invocation aléatoire sort de son rechargement.
 		Chaque fois que vous invoquez, la durée de l'effet d'Invocations Frénétiques est réduite de 1.]], "tformat")
 t("Pheromones", "Phéromones", "talent name")
 t([[Mark a creature with pheromones, signalling to all of your summons within %d tiles to shift aggression towards the marked creature for %d turns. Marked targets will receive %d%% increased damage from your summons and your summons will change target to it.
@@ -24141,7 +24094,7 @@ t([[Activate the infusion to increase movement speed by %d%% for 1 game turn.
 		Note: since you will be moving very fast, game turns will pass very slowly.]], [[Active l'essence pour augmenter la vitesse de déplacement de %d%% pendant 1 tour de jeu.
 		Vous gagnez 100%% d'immunité à l'assommement, à l'étourdissement, et à l'immobilisation pendant l'effet.
 		Toute action autre que le déplacement annulera l'effet.
-		Note : comme vous vous déplacerez très vite les tours de jeu passeront très lentement.]], "tformat")
+		Note : comme vous vous déplacerez très vite les tours passeront très lentement.]], "tformat")
 t("speed %d%%; cd %d", "vitesse : %d%% ; cd : %d", "tformat")
 t("Infusion: Heroism", "Essence : Héroïsme", "talent name")
 t([[Activate the infusion to endure even the most grievous of wounds for %d turns.
@@ -24933,7 +24886,7 @@ t([[You absorb latent cold around you, turning into an ice elemental - a shivgor
 		Sous cette forme vous n'avez plus besoin de respirer, accédez au talent Tempête de Glace au niveau %d, obtenez %d%% de résistance aux blessures profondes et aux assomements, ainsi que %d%% de résistance au froid. De plus, tous les dégâts de froid subis vous soignent à hauteur de %d%% des dégâts initiaux.
 		La puissance de cet effet est proportionnel à votre puissance magique.]], "tformat")
 t("Mental Refresh", "Rafraichissement Mentale", "talent name")
-t("Reset up to 3 wild gift, psionic or cursed talents.", "Réinitialise le temps de recharge de jusqu'à 3 talents de dons sauvage, psioniques, ou maudits.", "tformat")
+t("Reset up to 3 wild gift, psionic or cursed talents.", "Réinitialise le rechargement de jusqu'à 3 talents de dons sauvage, psioniques, ou maudits.", "tformat")
 t("Dagger Block", "Blocage à la Dague", "talent name")
 t([[Raise your dagger into blocking position for one turn, reducing the damage of all physical melee attacks against you by %d. If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (a normal attack will instead deal 200%% damage) for one turn and be left disarmed for 3 turns.
 		The blocking value will increase with your Dexterity and Cunning.]], [[Levez votre dague en position de blocage pendant un tour, réduisant les dégâts de toutes les attaques physiques au corps à corps de %d. Si vous bloquez l'intégralité des dégâts d'une attaque, l'assaillant devient vulnérable à une contre-attaque mortelle (une attaque normale infligera 200%% de dégâts) pendant un tour et se retrouve désarmé pendant 3 tours.
@@ -24974,7 +24927,7 @@ t([[Highers were originally created during the Age of Allure by the human Concla
 		Increase spell save by %d and arcane resistance by %d%%.
 		Also, when you cast a spell dealing damage, you gain a 20%% bonus to the damage type for 5 turns. (This effect has a cooldown.)]], [[Les Nobles ont été créés à l'origine durant Ère de la Séduction par le Conclave humain. Ils sont imprégnés de magie au plus profond de leur être.
 		Augmente la sauvegarde magique de %d et la résistance arcanique de %d%%.
-		De plus, lorsque vous lancez un sort infligeant des dégâts, vous gagnez un bonus de 20%% pour ce type de dégâts pendant 5 tours. (Cet effet possède un temps de recharge.)]], "tformat")
+		De plus, lorsque vous lancez un sort infligeant des dégâts, vous gagnez un bonus de 20%% pour ce type de dégâts pendant 5 tours. (Cet effet possède un temps de rechargement.)]], "tformat")
 t("Highborn's Bloom", "Floraison des Bien-Nés", "talent name")
 t([[Activate some of your inner magic, using it to power your abilities.  For the next %d turns all active talents will be used without resource cost.
 		Your resources must still be high enough to initially power the talent and failure rates (etc.) still apply.
@@ -24996,7 +24949,7 @@ t([[As the only immortal race of Eyal, Shaloren have learnt over the long years 
 t("Timeless", "Hors du temps", "talent name")
 t([[The world grows old as you stand through the ages. To you, time is different.
 		Reduces the time remaining on detrimental effects by %d, most cooling down talents by %d, and increases the time remaining on beneficial effects by %d (up to 2 times the current duration).]], [[Le monde vieillit alors que vous traversez les âges. Pour vous, le temps est différent.
-		Réduit la durée restante des effets néfastes de %d tours, réduit le temps de recharge de la plupart des talents de %d tours, et augmente la durée restante des effets bénéfiques de %d tours (jusqu'à un maximum de 2 fois la durée actuelle).]], "tformat")
+		Réduit la durée restante des effets néfastes de %d tours, réduit le rechargement de la plupart des talents de %d tours, et augmente la durée restante des effets bénéfiques de %d tours (jusqu'à un maximum de 2 fois la durée actuelle).]], "tformat")
 t("Gift of the Woods", "Don des Bois", "talent name")
 t([[Call upon nature to regenerate your body for %d life every turn and increase healing mod by %d%% for 8 turns.
 		The life healed will increase with your Willpower or Constitution (whichever is higher).]], [[Invoque la nature pour régénérer votre corps à raison de %d points de vie par tour et augmente le modificateur de soin de %d%% pendant 8 tours.
@@ -25032,7 +24985,7 @@ t([[Dwarf skin is a complex structure; it can automatically react to physical bl
 		When you are hit in melee, you have a 15%% chance to increase your armour total by %d for 5 turns and fully ignore the attack triggering it.
 		There is no cooldown to this effect; it can happen while already active.]], [[La peau des nains est une structure complexe ; elle peut réagir automatiquement aux coups physiques et se durcir.
 		Lorsque vous êtes touché au corps à corps, vous avez 15%% de chances d'augmenter votre armure totale de %d pendant 5 tours et d'ignorer complètement l'attaque qui a déclenché cet effet.
-		Cet effet n'a pas de temps de recharge et peut se déclencher à nouveau lorsqu'il est déjà actif.]], "tformat")
+		Cet effet n'a pas de temps de rechargement et peut se déclencher à nouveau lorsqu'il est déjà actif.]], "tformat")
 t("Power is Money", "Le pouvoir de l'Argent", "talent name")
 t([[Money is the heart of the Dwarven Empire; it rules over all other considerations.
 		Increases Physical, Mental and Spell Saves based on the amount of gold you possess.
@@ -25144,7 +25097,7 @@ t([[An ogre's body is acclimated to spells and inscriptions.
 		En utilisant une arme à deux mains de la sorte, vous subissez une pénalité de 20%% en précision, puissance physique, puissance magique et puissance mentale, réduite de 5%% par catégorie de taille au-dessus de #{italic}#grand#{normal}# ; de plus, tous les déclenchements de dégâts procs de vos armes sont réduits de 50%%.]], "tformat")
 t("Scar-Scripted Flesh", "Chair Gravée de Cicatrices", "talent name")
 t([[When you crit you have a %d%% chance to reduce by 1 the remaining cooldown of one of your inscriptions and of any saturations effects.
-		This effect can only happen once per turn.]], [[Lorsque vous infligez un coup critique, vous avez %d%% de chances de réduire de 1 le temps de recharge restant d'une de vos inscriptions et de tout effet de saturation.
+		This effect can only happen once per turn.]], [[Lorsque vous infligez un coup critique, vous avez %d%% de chances de réduire de 1 le rechargement restant d'une de vos inscriptions et de tout effet de saturation.
 		Cet effet ne peut se produire qu'une fois par tour.]], "tformat")
 t("Writ Large", "Écrire Gros", "talent name")
 t("#PURPLE#Your mastery over inscriptions is unmatched! One more inscriptions slot available to buy.", "#PURPLE#Votre maîtrise des inscriptions est inégalée ! Un emplacement d'inscription supplémentaire est disponible à l'achat.", "logPlayer")
@@ -26137,6 +26090,7 @@ section "mod-tome/data/talents/psionic/slumber.lua"
 t("Slumber", "Torpeur", "talent name")
 t("Restless Night", "Nuit Agitée", "talent name")
 t("Dreamscape", "Monde Onirique", "talent name")
+t("This talent cannot be used here.", "Ce talent ne peut pas être utilisé ici.", "logPlayer")
 t("The spell fizzles...", "Le sort échoue...", "logPlayer")
 -- texte non traduit
 --[==[
@@ -26157,7 +26111,6 @@ t([[Increases the amount of damage you can deal to sleeping targets before reduc
 		The damage threshold bonus will scale with your Mindpower.]], "tformat")
 t("You feel it unwise to travel to the dreamscape in such a fragile form.", "You feel it unwise to travel to the dreamscape in such a fragile form.", "logPlayer")
 t("This talent cannot be used from within the Dreamscape.", "This talent cannot be used from within the Dreamscape.", "logPlayer")
-t("This talent cannot be used here.", "This talent cannot be used here.", "logPlayer")
 t("Your target must be sleeping in order to enter its dreamscape.", "Your target must be sleeping in order to enter its dreamscape.", "logPlayer")
 t("You can't cast this on friendly targets.", "You can't cast this on friendly targets.", "logPlayer")
 t("#LIGHT_BLUE#You are taken to the Dreamscape!", "#LIGHT_BLUE#You are taken to the Dreamscape!", "logPlayer")
@@ -28204,7 +28157,7 @@ t([[Takes advantage of a wounded foe to perform a killing strike.  This attack i
 		(A victim with 30%% remaining life (70%% damaged) would take %0.1f%% weapon damage.)
 		If an enemy dies from this attack then two of your talent cooldowns are reduced by 2 turns and Execution's cooldown is reset.]], [[Profitez qu'un ennemi soit blessé pour porter le coup fatal. Cette attaque est automatiquement un coup critique infligeant %0.1f%% dégâts d'arme supplémentaires par %% de vie inférieurs au maximum de la cible.
 		(Une victime avec 30%% de vie restants (70%% dégâts) subirait %0.1f%% dégâts d'arme.)
-		Si un ennemi meurt de cette attaque, le temps de recharge de deux de vos talents sont réduit de 2 tours et le temps de recharge d'Exécution est réinitialisé.]], "tformat")
+		Si un ennemi meurt de cette attaque, le rechargement de deux de vos talents sont réduit de 2 tours et le rechargement d'Exécution est réinitialisé.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/2hweapon.lua"
@@ -28449,7 +28402,7 @@ t([[After killing a foe, you have a %d%% chance to gain a 1000%% movement speed 
 		The bonus disappears as soon as any action other than moving is done.
 		Note: since you will be moving very fast, game turns will pass very slowly.]], [[Après avoir tué un ennemi, vous avez %d%% de chance de gagner un bonus de vitesse de déplacement de 1000%% pendant 1 tour de jeu.
 		Le bonus disparaît dès qu'une action autre que le déplacement est effectuée.
-		Note : comme vous vous déplacez très vite, les tours de jeu passeront très lentement.]], "tformat")
+		Note : comme vous vous déplacez très vite, les tours passeront très lentement.]], "tformat")
 t("Bleeding Edge", "Lame Saignante", "talent name")
 t([[Lashes at the target, doing %d%% weapon damage.
 		If the attack hits, the target will bleed for %d%% weapon damage over 7 turns, and all healing will be reduced by %d%%.]], [[Frappe la cible, infligeant %d%% dégâts d'arme.
@@ -29508,7 +29461,7 @@ t([[Improves your ability to perform counterstrikes after blocks in the followin
 		Augmente les chances de contre-attaques critique de %d%%. Cette augmentation est proportionnelle à votre Dextérité.]], "tformat")
 t("Shield Slam", "Grand Coup de bouclier", "talent name")
 t("You cannot use Shield Slam without a shield!", "Vous ne pouvez pas utiliser Coup de Bouclier sans bouclier !", "logPlayer")
-t("Hit your target with your shield 3 times for %d%% damage then quickly return to a blocking position.  The bonus block will not check or trigger Block cooldown.", "Frappez votre cible avec votre bouclier 3 fois pour %d%% dégâts puis revenez rapidement en position de blocage. Le blocage bonus ne vérifiera ni ne déclenchera le temps de recharge du blocage.", "tformat")
+t("Hit your target with your shield 3 times for %d%% damage then quickly return to a blocking position.  The bonus block will not check or trigger Block cooldown.", "Frappez votre cible avec votre bouclier 3 fois pour %d%% dégâts puis revenez rapidement en position de blocage. Le blocage bonus ne vérifiera ni ne déclenchera le rechargement du blocage.", "tformat")
 t("Assault", "Assaut", "talent name")
 t("You cannot use Assault without a mainhand weapon and shield!", "Vous ne pouvez pas utiliser Assaut sans une arme principale et un bouclier !", "logPlayer")
 t("Hits the target with your shield, doing %d%% damage. If it hits, you follow up with two automatic critical hits with your weapon, doing %d%% base damage each.", "Touche la cible avec votre bouclier, infligeant %d%% dégâts. S'il touche, vous enchaînez avec deux coups critiques automatiques avec votre arme, infligeant chacun %d%% dégâts de base.", "tformat")
@@ -29518,7 +29471,7 @@ t([[Enter a protective battle stance allowing you to defend yourself more profic
 		Increases Armour by %d, Block value by %d, and reduces Block cooldown by 2.
 		Increases stun and knockback resistance by %d%%.
 		The Armor and Block bonuses increase equally with your Dexterity and Strength.]], [[Adoptez une position de combat protectrice vous permettant de vous défendre plus efficacement tout en utilisant un bouclier.
-		Augmente l'Armure de %d, la Valeur de blocage de %d et réduit le temps de recharge du Blocage de 2.
+		Augmente l'Armure de %d, la Valeur de blocage de %d et réduit le rechargement du Blocage de 2.
 		Augmente la résistance à l'assomement et au recul de %d%%.
 		Les bonus d'armure et de blocage sont proportionnels de manière égale avec votre dextérité et votre force.]], "tformat")
 t("Repulsion", "Répulsion", "talent name")
@@ -29529,7 +29482,7 @@ t([[Smash your shield into the face of all adjacent foes dealing %d%% shield dam
 		If known, activating this talent will refresh your Rush cooldown if the attack hits.
 		The distance increases with your talent level, and the Daze duration with your Strength.]], [[Écrasez votre bouclier au visage de tous les ennemis adjacents en infligeant %d%% dégâts de bouclier et en les repoussant de %d cases.
 		De plus, toutes les créatures repoussées seront également étourdies pendant %d tours.
-		Si connu et si l'attaque réussit, l'activation de ce talent actualisera le temps de recharge de Charge.
+		Si connu et si l'attaque réussit, l'activation de ce talent actualisera le rechargement de Charge.
 		La distance est propotionnel à votre niveau de talent et la durée de l'Étourdissement à votre Force.]], "tformat")
 t("Shield Expertise", "Expertise en Bouclier", "talent name")
 t("Improves your damage with shield-based skills, and increases your Spell (+%d) and Physical (+%d) Saves.", "Améliore vos dégâts avec les compétences basées sur le bouclier et augmente vos Sauvegardes Magiques (+%d) et Physiques (+%d).", "tformat")
@@ -29558,7 +29511,7 @@ t([[When a single blow deals more than 15%% of your total life, a torrent of blo
 		Les dégâts sont proportionnels à votre Constitution.]], "tformat")
 t("Eternal Guard", "Garde Éternelle", "talent name")
 t("Know the Block talent", "Connaître le talent Blocage", "_t")
-t("Your Block talent now lasts for 2 game turns and you can apply Counterstrike to any number of enemies.", "Votre talent Blocage dure désormais 2 tours de jeu et vous pouvez appliquer Contre-Attaque à n'importe quel nombre d'ennemis.", "tformat")
+t("Your Block talent now lasts for 2 game turns and you can apply Counterstrike to any number of enemies.", "Votre talent Blocage dure désormais 2 tours et vous pouvez appliquer Contre-Attaque à n'importe quel nombre d'ennemis.", "tformat")
 t("Never Stop Running", "Ne Jamais Cesser de Courir", "talent name")
 t("Know at least 20 levels of stamina-using talents", "Connaître au moins 20 niveaux de talents utilisant de l'endurance", "_t")
 t("While this talent is active, you dig deep into your stamina reserves, allowing you to move without taking a turn. However, this costs 12 stamina for each tile that you cross.", "Tant que ce talent est actif, vous puisez profondément dans vos réserves d'endurance, ce qui vous permet de vous déplacer sans consommer de tour. Cependant, cela coûte 12 points d'endurance par case parcourue.", "tformat")
@@ -32529,7 +32482,7 @@ Vous avez maîtrisé la magie de pierre et pouvez maintenant créer de nouveaux 
 
 Talents :
 - #YELLOW#Missiles en Terre : #WHITE#Tirez plusieurs missiles de pierre sur des cibles indépendantes
-- #YELLOW#Corps de Pierre : #WHITE#Se changer en pierre, réduisant le temps de recharge de nombreux talents de pierre/terre
+- #YELLOW#Corps de Pierre : #WHITE#Se changer en pierre, réduisant le rechargement de nombreux talents de pierre/terre
 - #YELLOW#Tremblement de Terre : #WHITE#Créer un tremblement de terre localisé, assommant toute les cibles dans la zone
 - #YELLOW#Focus Cristallin : #WHITE#Maîtrisez la pierre et percez au travers des immunités physiques
 ]], "_t")
@@ -32694,7 +32647,7 @@ Caractéristiques :
 - 50% de tous les dommages infligés sont convertis en #GOLD#dégâts de lumière#LAST#
 - #GOLD#Effluence Gravitique#LAST# : quand l'Arme de Lumière touche, les dégâts sont désormais répartis dans une sphère de rayon 2 et tous les ennemis à portée 5 sont attirés vers elle
 - Les dégâts et les chances de déclenchement de #GOLD#Présence Eblouissante#LAST# sont doublés
-- Lorsque #GOLD#Vengeance Solaire#LAST# se déclenche, le temps de recharge du Jugement est réduit de 6
+- Lorsque #GOLD#Vengeance Solaire#LAST# se déclenche, le rechargement du Jugement est réduit de 6
 - Interagit avec #GOLD#Soleil Irrésistible#LAST#.
 
 Les évolutions de classe sont sélectionnées comme des prodiges et accordent de nouvelles façons de construire et d'étendre votre classe et ne sont visibles que pour la classe concernée.
@@ -33458,7 +33411,7 @@ t("The target's light and darkness spell penetration has been increased by %d%%.
 t("Empowered Glyphs", "Glyphes Renforcés", "_t")
 t("A divine glyph recently triggered, providing %d%% light and darkness affinity and resistence.", "Un glyphe divin s'est récemment déclenché, conférant %d%% d'affinité et de résistance à la lumière et à l'obscurité.", "tformat")
 t("Fatiguing Starlight", "Lumière Etoilée Fatigante", "_t")
-t("Inflicted with a fatiguing starlight, taking %d darkness damage and increasing the cooldown of a cooling-down talent by 1 whenever they act", "Inflige une lumière étoilée fatiguante, infligeant %d dégâts d'obscurité et augmentant le temps de recharge d'un talent de rechargement de 1 à chaque fois qu'il agit.", "tformat")
+t("Inflicted with a fatiguing starlight, taking %d darkness damage and increasing the cooldown of a cooling-down talent by 1 whenever they act", "Inflige une lumière étoilée fatiguante, infligeant %d dégâts d'obscurité et augmentant le rechargement d'un talent de rechargement de 1 à chaque fois qu'il agit.", "tformat")
 t("Sunburst", "Éclat Solaire", "_t")
 t("Light damage has been increased by %d%% to +%d%%.", "Les dégâts de lumière sont augmentés de %d%% à +%d%%.", "tformat")
 t("Shrouded in Darklight", "Enveloppé de Lumière Noire", "_t")
@@ -33528,7 +33481,7 @@ t("#Target# protected by flying bones.", "#Target# est protégé par des os vola
 t("+Bone Shield", "+Bouclier d'Os", "_t")
 t("#Target# flying bones crumble.", "Les os volants de #Target# s'écroulent.", "_t")
 t("-Bone Shield", "-Bouclier d'Os", "_t")
-t("Chronomancy spells with cooldown less than %d will not go on cooldown when cast.", "Les sorts de chronomancie dont le temps de recharge est inférieur à %d ne passent pas en temps de recharge lorsqu'ils sont lancés.", "tformat")
+t("Chronomancy spells with cooldown less than %d will not go on cooldown when cast.", "Les sorts de chronomancie dont le temps de rechargement est inférieur à %d ne passent pas en rechargement lorsqu'ils sont lancés.", "tformat")
 t("Temporal Destabilization", "Déstabilisation Temporelle", "_t")
 t("Target is destabilized and in %d turns will start suffering %0.2f temporal damage per turn.  If it dies with this effect active after the damage starts it will explode.", "La cible est déstabilisée et, dans %d tours, commencera à subir %0.2f dégâts temporels par tour.  Si elle meurt avec cet effet actif après le début des dégâts, elle explosera.", "tformat")
 t("#Target# is unstable.", "#Target# est instable.", "_t")
@@ -33549,7 +33502,7 @@ t("#Target# speeds up.", "#Target# accélère.", "_t")
 t("+Haste", "+Hâte", "_t")
 t("#Target# slows down.", "#Target# ralentis.", "_t")
 t("-Haste", "-Hâte", "_t")
-t("Cease to Exist", "Cessation de l'existence", "_t")
+t("Cease to Exist", "Cessation de l'Existence", "_t")
 t("The target is being removed from the timeline, its resistance to physical and temporal damage have been reduced by %d%%.", "La cible est en train d'être retirée de la ligne temporelle, sa résistance aux dégâts physiques et temporels a été réduite de %d%%.", "tformat")
 t("#Target# is being removed from the timeline.", "#Target# est supprimée de la ligne de temps.", "_t")
 t("+Cease to Exist", "+Cessation de l'existence", "_t")
@@ -33761,7 +33714,7 @@ t("+Sun's Vengeance", "+Vengeance Solaire", "_t")
 t("#Target#'s solar fury subsides.", "La fureur solaire de #Target# s'atténue.", "_t")
 t("-Sun's Vengeance", "-Vengeance Solaire", "_t")
 t("Suncloak", "Manteau Solaire", "_t")
-t("The target is protected by the sun, increasing their spell casting speed by %d%%, reducing spell cooldowns by %d%%, and preventing damage over %d%% of your maximum life from a single hit.", "La cible est protégée par le soleil, ce qui augmente sa vitesse d'incantation de %d%%, réduit les temps de recharge des sorts de %d%% et empêche les dégâts supérieurs à %d%% de votre vie maximale en un coup.", "tformat")
+t("The target is protected by the sun, increasing their spell casting speed by %d%%, reducing spell cooldowns by %d%%, and preventing damage over %d%% of your maximum life from a single hit.", "La cible est protégée par le soleil, ce qui augmente sa vitesse d'incantation de %d%%, réduit les rechargement des sorts de %d%% et empêche les dégâts supérieurs à %d%% de votre vie maximale en un coup.", "tformat")
 t("#Target# is energized and protected by the Sun!", "#Target# est dynamisé et protégé par le soleil !", "_t")
 t("+Suncloak", "+Manteau Solaire", "_t")
 t("-Suncloak", "-Manteau Solaire", "_t")
@@ -33838,7 +33791,7 @@ t("#CRIMSON##Source# damages #Target# through the Braid!", "#CRIMSON##Source# d�
 t("#PINK#%d braided #LAST#", "#PINK#%d entremelement #LAST#", "tformat")
 t("Precognition", "Précognition", "_t")
 t("Peer into the future, detecting enemies, increasing defense by %d, and granting a %d%% chance to ignore critical hits.", "Regarder dans le futur, détecter les ennemis, augmenter la défense de %d, et accorder %d%% de chances d'ignorer les coups critiques.", "tformat")
-t("Webs of Fate", "Toiles du Destin", "_t")
+t("Webs of Fate", "Toiles du destin", "_t")
 t("Displacing %d%% of all damage on to a random enemy.", "Déplace %d%% de tous les dégâts sur un ennemi aléatoire.", "tformat")
 t("+Webs of Fate", "+Toiles du Destin", "_t")
 t("-Webs of Fate", "-Toiles du Destin", "_t")
@@ -33886,7 +33839,7 @@ t("-Ogric Wrath", "-Colère Ogrique", "_t")
 t("Ogre Fury", "Furie Ogrique", "_t")
 t("Increases crit chance by %d%% and critical power by %d%%. %d charge(s).", "Augmente les chances de critique de %d%% et la puissance critique de %d%%. %d charge(s).", "tformat")
 t("Writ Large", "Écrire Gros", "_t")
-t("Inscriptions cooldown twice as fast.", "Le temps de recharge des inscriptions est deux fois plus rapide.", "tformat")
+t("Inscriptions cooldown twice as fast.", "Le rechargement des inscriptions est deux fois plus rapide.", "tformat")
 t("+Writ Large", "+Écrire Gros", "_t")
 t("-Writ Large", "-Écrire Gros", "_t")
 t("Static History", "Histoire Stable", "_t")
@@ -33979,7 +33932,7 @@ t("+Pacification Hex", "+Ensorcellement Pacificateur", "_t")
 t("#Target# is free from the hex.", "#Target# est libéré de l'ensorcellement.", "_t")
 t("-Pacification Hex", "-Ensorcellement Pacificateur", "_t")
 t("Burning Hex", "Ensorcellement Brûlant", "_t")
-t("The target is hexed.  Each time it uses an ability it takes %0.2f fire damage, and talent cooldowns are increased by %s plus 1 turn.", "La cible est ensorcelé. Chaque fois qu'elle utilise une capacité, elle subit %0.2f dégâts de feu et les temps de recharge des talents sont augmentés de %s plus 1 tour.", "tformat")
+t("The target is hexed.  Each time it uses an ability it takes %0.2f fire damage, and talent cooldowns are increased by %s plus 1 turn.", "La cible est ensorcelé. Chaque fois qu'elle utilise une capacité, elle subit %0.2f dégâts de feu et les rechargement des talents sont augmentés de %s plus 1 tour.", "tformat")
 t("+Burning Hex", "+Ensorcellement Brûlant", "_t")
 t("-Burning Hex", "-Ensorcellement Brûlant", "_t")
 t("Empathic Hex", "Ensorcellement Empathique", "_t")
@@ -34062,7 +34015,7 @@ t("#GREY#%s explodes in a blast of gore!", "#GREY#%s explose dans une explosion 
 t("resistance", "résistance", "effect subtype")
 t("cooldown", "rechargement", "effect subtype")
 t("Brittle Bones", "Os Fragiles", "_t")
-t("Physical resistance reduced by %d%% and talents cooldowns increased by %d%%.", "Résistance physique réduite de %d%% et temps de recharge des talents augmentés de %d%%.", "tformat")
+t("Physical resistance reduced by %d%% and talents cooldowns increased by %d%%.", "Résistance physique réduite de %d%% et rechargement des talents augmentés de %d%%.", "tformat")
 t("Boneyard", "Ossuaire", "_t")
 t("Spellpower and physical power increased by %d.", "Puissance des sorts et puissance physique augmentées de %d.", "tformat")
 t("Neverending Peril", "Péril Sans Fin", "_t")
@@ -34229,7 +34182,7 @@ t("#Target# overcomes the gloom.", "#Target# surmonte l'angoisse.", "_t")
 t("-Slow", "-Lenteur", "_t")
 t("stun", "assommé", "effect subtype")
 t("Stunned by the gloom", "Assomé par l'angoisse", "_t")
-t("The gloom has stunned the target, reducing damage by 50%%, putting 4 random talents on cooldown and reducing movement speed by 50%%.  While stunned talents cooldown twice as slow.", "L'obscurité a assommé la cible, réduisant ses dégâts de 50%%, mettant 4 talents aléatoires en recharge et réduisant sa vitesse de déplacement de 50%%. Pendant que la cible est assommée, le temps de recharge des talents est deux fois plus lent.", "tformat")
+t("The gloom has stunned the target, reducing damage by 50%%, putting 4 random talents on cooldown and reducing movement speed by 50%%.  While stunned talents cooldown twice as slow.", "L'obscurité a assommé la cible, réduisant ses dégâts de 50%%, mettant 4 talents aléatoires en recharge et réduisant sa vitesse de déplacement de 50%%. Pendant que la cible est assommée, le rechargement des talents est deux fois plus lent.", "tformat")
 t("#F53CBE##Target# is stunned with fear!", "#F53CBE##Target# est assommé par la peur !", "_t")
 t("+Stunned", "+Assommé", "_t")
 t("#Target# overcomes the gloom", "#Target# surmonte l'angoisse.", "_t")
@@ -34308,7 +34261,7 @@ t("Madness reduces the target's global speed by %d%% and lowers mind resistance 
 t("#F53CBE##Target# slows in the grip of madness!", "#F53CBE##Target# ralentit sous l'emprise de la folie !", "_t")
 t("#Target# overcomes the madness.", "#Target# surmonte la folie.", "_t")
 t("Stunned by madness", "Assommé par la folie", "_t")
-t("Madness has stunned the target, reducing damage by 50%%, lowering mind resistance by %d%%, putting 4 random talents on cooldown and reducing movement speed by 50%%.  While stunned talents cooldown twice as slow.", "La folie a assommé la cible, réduisant ses dégâts de 50%%, diminuant la résistance à l'esprit de %d%%, mettant 4 talents aléatoires en recharge et réduisant sa vitesse de déplacement de 50%%. Pendant que la cible est assommée, le temps de recharge des talents est deux fois plus lent.", "tformat")
+t("Madness has stunned the target, reducing damage by 50%%, lowering mind resistance by %d%%, putting 4 random talents on cooldown and reducing movement speed by 50%%.  While stunned talents cooldown twice as slow.", "La folie a assommé la cible, réduisant ses dégâts de 50%%, diminuant la résistance à l'esprit de %d%%, mettant 4 talents aléatoires en recharge et réduisant sa vitesse de déplacement de 50%%. Pendant que la cible est assommée, le rechargement des talents est deux fois plus lent.", "tformat")
 t("#F53CBE##Target# is stunned by madness!", "#F53CBE##Target# est assommés par la folie !", "_t")
 t("#Target# overcomes the madness", "#Target# surmonte la folie", "_t")
 t("power", "pouvoir", "effect subtype")
@@ -34345,7 +34298,7 @@ t("+Despair", "+Désespoir", "_t")
 t("#Target# is no longer in despair", "#Target# n'est plus désespéré", "_t")
 t("-Despair", "-Désespoir", "_t")
 t("Terrified", "Terrifié", "_t")
-t("The target is terrified taking %d mind and darkness damage per turn and increasing all their cooldowns by %d%%.", "La cible est terrifiée, subissant %d dégâts d'esprit et de ténèbres par tour et augmentant tous ses temps de recharge de %d%%.", "tformat")
+t("The target is terrified taking %d mind and darkness damage per turn and increasing all their cooldowns by %d%%.", "La cible est terrifiée, subissant %d dégâts d'esprit et de ténèbres par tour et augmentant tous ses rechargement de %d%%.", "tformat")
 t("#F53CBE##Target# becomes terrified!", "#F53CBE##Target# devient terrifié !", "_t")
 t("+Terrified", "+Terrifié", "_t")
 t("#Target# is no longer terrified", "#Target# n'est plus terrifié", "_t")
@@ -34502,7 +34455,7 @@ t("#Target# roars triumphantly.", "#Target# rugit triomphalement.", "_t")
 t("#Target# is no longer inspired.", "#Target# n'est plus inspirée.", "_t")
 t("cross tier", "trans-palier", "effect subtype")
 t("Brainlocked", "Paralysie Mentale", "_t")
-t("Renders a random talent unavailable. Talent cooldown is halved until the effect has worn off.", "Rend un talent aléatoire indisponible. Le temps de recharge du talent est réduit de moitié jusqu'à ce que l'effet disparaisse.", "tformat")
+t("Renders a random talent unavailable. Talent cooldown is halved until the effect has worn off.", "Rend un talent aléatoire indisponible. Le rechargement du talent est réduit de moitié jusqu'à ce que l'effet disparaisse.", "tformat")
 t("+Brainlocked", "+Paralysie Mentale", "_t")
 t("-Brainlocked", "-Paralysie Mentale", "_t")
 t("summon", "invocation", "effect subtype")
@@ -34697,7 +34650,7 @@ t("Armor increased by %d, deals %d ice damage when hit in melee.", "Armure augme
 t("Elemental Surge: Lightning", "Elemental Surge : Foudre", "_t")
 t("Movement speed increased by %d%%.", "La vitesse de déplacement est augmenté de %d%%.", "tformat")
 t("Elemental Surge: Light", "Surcharge Elémentaire : Lumière", "_t")
-t("All talent cooldowns reduced by %d%%.", "Tous les temps de recharge de talent sont réduits de %d%%.", "tformat")
+t("All talent cooldowns reduced by %d%%.", "Tous les rechargement de talent sont réduits de %d%%.", "tformat")
 t("circle", "cercle", "effect subtype")
 t("Circle Surge", "Surcharge Circulaire", "_t")
 t([[Residual power from the surge is emanating from the circles.
@@ -34737,12 +34690,12 @@ t("#LIGHT_BLUE##Target# is no longer a badass tree.", "#LIGHT_BLUE##Target# n'es
 t("-Pinned", "-Immobilisé", "_t")
 t("infusion", "essence", "effect subtype")
 t("Infusion Saturation", "Essences à Saturation", "_t")
-t("The more you use infusions, the longer they will take to recharge (+%d cooldowns).", "Plus vous utilisez d'essences, plus elles mettent de temps à se recharger (+%d temps de recharge).", "tformat")
+t("The more you use infusions, the longer they will take to recharge (+%d cooldowns).", "Plus vous utilisez d'essences, plus elles mettent de temps à se recharger (+%d rechargement).", "tformat")
 t("Runic Saturation", "Runes à Saturation", "_t")
-t("The more you use runes, the longer they will take to recharge (+%d cooldowns).", "Plus vous utilisez de runes, plus elles mettent de temps à se recharger (+%d temps de recharge).", "tformat")
+t("The more you use runes, the longer they will take to recharge (+%d cooldowns).", "Plus vous utilisez de runes, plus elles mettent de temps à se recharger (+%d rechargement).", "tformat")
 t("taint", "tache", "effect subtype")
 t("Tainted", "corrompu", "_t")
-t("The more you use taints, the longer they will take to recharge (+%d cooldowns).", "Plus vous utilisez de taches, plus elles mettent de temps à se recharger (+%d de temps de recharge).", "tformat")
+t("The more you use taints, the longer they will take to recharge (+%d cooldowns).", "Plus vous utilisez de taches, plus elles mettent de temps à se recharger (+%d de rechargement).", "tformat")
 t("Path of the Sun", "Sentier Solaire", "_t")
 t("The target is able to instantly travel alongside Sun Paths.", "La cible est capable de voyager instantanément le long des sentiers solaires.", "tformat")
 t("time", "temps", "effect subtype")
@@ -34857,8 +34810,8 @@ t([[You feel your grip on reality slipping.
 #CRIMSON#Puissance 1+ : %sDéchaîné : %+d%% dégâts critiques, %+d%% dégâts avec l'arme secondaire
 #CRIMSON#Puissance 2+ : %s%+d Chance, %+d Dextérité
 #CRIMSON#Puissance 3+ : %sConspirateur : Votre folie est contagieuse. Chaque fois que vous infligez des dégâts critiques à un ennemi, vous avez %d%% chances de lui transmettre l'un de vos effets mentaux négatifs actuels.
-#CRIMSON#Puissance 4+ : %sMania : Une fois par tour, lorsqu'une attaque inflige plus de %0.1f%% de vos points de vie, le temps de recharge restant de tous vos talents est réduit de 1.]], "tformat")
-t("#F53CBE#%s's mania hastens cooldowns.", "#F53CBE#La manie de %s accélère les temps de recharge.", "logSeen")
+#CRIMSON#Puissance 4+ : %sMania : Une fois par tour, lorsqu'une attaque inflige plus de %0.1f%% de vos points de vie, le rechargement restant de tous vos talents est réduit de 1.]], "tformat")
+t("#F53CBE#%s's mania hastens cooldowns.", "#F53CBE#La manie de %s accélère les rechargement.", "logSeen")
 t("#F53CBE##Source# spreads the madness to #Target#.", "#F53CBE##Source# propage la folie à #Target#.", "logCombat")
 t("Curse of Shrouds", "Malédiction des Voiles", "_t")
 t("Shrouds", "Voiles", "_t")
@@ -35191,7 +35144,7 @@ t("Target is protected from dispels", "La cible est protégée contre les effets
 t("#ORCHID#Aether Permeation protects %s from a dispel!", "#ORCHID#Paroie d'Éther protège %s contre la dissipation !", "logSeen")
 t("status", "statut", "effect subtype")
 t("Marked for Death", "Condamné Marqué", "_t")
-t("Reduces Blood Rush cooldown if killed", "Réduit le temps de recharge d'Afflux Sanguin si la cible est tué", "tformat")
+t("Reduces Blood Rush cooldown if killed", "Réduit le rechargement d'Afflux Sanguin si la cible est tué", "tformat")
 t("magic", "magie", "effect subtype")
 t("Lights Out", "Extinction des Feux", "_t")
 t("The target is cut off from the sun", "La cible est privée de soleil", "_t")
@@ -35748,7 +35701,7 @@ t("#Target# is slowing down.", "#Target# ralentit.", "_t")
 t("-Fast As Lightning", "-Rapide Comme l'Éclair", "_t")
 t("status", "statut", "effect subtype")
 t("Steamroller", "Rouleau Compresseur", "_t")
-t("Resets Rush cooldown if killed.", "Réinitialise le temps de recharge de Charge si la cible marquée est tué.", "_t")
+t("Resets Rush cooldown if killed.", "Réinitialise le rechargement de Charge si la cible marquée est tué.", "_t")
 t("Grants a +%d%% damage bonus.", "Confère un bonus de dégâts de +%d%%.", "tformat")
 t("Spine of the World", "Épine Dorsale du Monde", "_t")
 t("Immune to physical effects.", "Immunisé aux effets physiques.", "_t")
@@ -35821,7 +35774,7 @@ t("Defensive Roll", "Roulade Défensive", "_t")
 t("#Target# assumes an extreme defensive posture, avoiding some damage!", "#Target# adopte une posture extrêmement défensive, évitant ainsi certains dégâts !", "_t")
 t("The target is in an extreme defensive posture, avoiding %d%% of all incoming damage.", "La cible adopte une posture défensive extrême, évitant %d%% de tous les dégâts subis.", "tformat")
 t("cooldown", "rechargement", "effect subtype")
-t("Trained Reactions Cooldown", "Temps de Recharge des Réactions Conditionnées", "_t")
+t("Trained Reactions Cooldown", "Rechargement des Réactions Conditionnées", "_t")
 t("#LIGHT_BLUE##Target# may dodge again.", "#LIGHT_BLUE##Target# peut esquiver à nouveau.", "_t")
 t("+Trained Reactions", "+Réactions Conditionnées", "_t")
 t("Trained Reactions may not trigger.", "Les réactions conditionnées peuvent ne pas se déclencher.", "_t")
@@ -41438,7 +41391,7 @@ Some activated talents take no time to use, being activated with but a thought.
 Unlike most talents, instant talents are never put on cooldown from being stunned, and may be usable when most other talents are not.
 Specific information on each talent appears its tooltip.]], [[#GOLD#Talents Instantanés#LAST#
 Certains talents sont instantanés, une simple pensée suffit.
-Contrairement à la plupart des talents, les talents instantanés ne subissent aucun temps de recharge après un étourdissement et peuvent être utilisés lorsque la plupart des autres talents sont indisponibles.
+Contrairement à la plupart des talents, les talents instantanés ne subissent aucun rechargement après un étourdissement et peuvent être utilisés lorsque la plupart des autres talents sont indisponibles.
 Des informations spécifiques à chaque talent apparaissent dans leur infobulle.]], "_t")
 t([[#GOLD#Passive Talents#LAST#
 When learned, passive talents permanently alter the user in some way.
@@ -41454,7 +41407,7 @@ Deactivating a sustained talent causes it to go on cooldown.
 Specific information on each talent appears its tooltip.]], [[#GOLD#Talents Soutenus#LAST#
 Les talents soutenus sont activés et restent actifs.
 Lorsqu'il est actif, un talent soutenu produit des effets sur l'utilisateur qui persistent jusqu'à sa désactivation. L'activation de la plupart des talents soutenus requiert des ressources, qui deviennent indisponibles jusqu'à la désactivation du talent.
-La désactivation d'un talent soutenu entraîne son temps de recharge.
+La désactivation d'un talent soutenu entraîne son rechargement.
 Des informations spécifiques à chaque talent apparaissent dans leur infobulle.]], "_t")
 t([[#GOLD#Global Speed#LAST#
 Global speed represents how fast you are and affects everything you do.
@@ -41721,8 +41674,8 @@ Plus elle est élevée, plus c'est rapide, 200% signifie que vous lancez des so
 t([[#GOLD#Spellcooldown#LAST#
 Spell cooldown represents how fast your spells will come off of cooldown.
 The lower it is, the more often you'll be able to use your spell talents and runes.
-]], [[#GOLD#Temps de recharge des sorts#LAST#
-Le temps de recharge des sorts indique la vitesse à laquelle vos sorts sont de nouveau disponibles.
+]], [[#GOLD#Temps de rechargement des sorts#LAST#
+Le temps de rechargement des sorts indique la vitesse à laquelle vos sorts sont de nouveau disponibles.
 Plus ce temps est court, plus vous pouvez utiliser vos talents de sorts et vos runes fréquemment.
 ]], "_t")
 t([[#GOLD#Mindpower#LAST#
@@ -43503,7 +43456,7 @@ t("%s assigned to left mouse click on an hostile target.", "%s assigné au clic 
 t("#{bold}#Activable talents#{normal}#", "#{bold}#Talents activables#{normal}#", "_t")
 t("All activable talents you can currently use.", "Tous les talents activables que vous pouvez actuellement utiliser.", "_t")
 t("#{bold}#Object powers#{normal}#", "#{bold}#Pouvoirs d'objet#{normal}#", "_t")
-t("Object powers that can be activated automatically.  Most usable objects will appear here unless they are on cooldown or have ai restrictions.", "Pouvoirs d'objets qui peuvent être activés automatiquement. La plupart des objets utilisables apparaîtront ici sauf s'ils sont en temps de recharge ou soumis à des restrictions d'IA.", "_t")
+t("Object powers that can be activated automatically.  Most usable objects will appear here unless they are on cooldown or have ai restrictions.", "Pouvoirs d'objets qui peuvent être activés automatiquement. La plupart des objets utilisables apparaîtront ici sauf s'ils sont en rechargement ou soumis à des restrictions d'IA.", "_t")
 t("#{bold}#Sustainable talents#{normal}#", "#{bold}#Talents soutenables#{normal}#", "_t")
 t("All sustainable talents you can currently use.", "Tous les talents soutenables que vous pouvez actuellement utiliser.", "_t")
 t("#{bold}#Sustained talents#{normal}#", "#{bold}#Talents soutenus#{normal}#", "_t")
@@ -44063,7 +44016,7 @@ t("Talent", "Talent", "_t")
 ------------------------------------------------
 section "mod-tome/mod/dialogs/talents/ChronomancyEmpower.lua"
 
-t("Empower", "Amélioration", "_t")
+t("Empower", "Potentialiser", "_t")
 t([[You may select a chronomancy spell to Empower, increasing your effective spellpower when casting that spell.
 ]], [[Vous pouvez sélectionner un sort de chronomancie à améliorer, augmentant votre puissance de sort effective lors du lancement de ce sort.
 ]], "_t")
@@ -44097,7 +44050,7 @@ section "mod-tome/mod/dialogs/talents/ChronomancyMatrix.lua"
 
 t("Matrix", "Matrice", "_t")
 t([[You may select a chronomancy spell to Matrix, reducing the cooldown of that spell.
-]], [[Vous pouvez sélectionner un sort de chronomancie pour Matrice, réduisant le temps de recharge de ce sort.
+]], [[Vous pouvez sélectionner un sort de chronomancie pour Matrice, réduisant le rechargement de ce sort.
 ]], "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
 t("All talents that can be used with Matrix.", "Tous les talents pouvant être utilisés avec Matrice.", "_t")
