@@ -3327,6 +3327,7 @@ t([[Raise your Dark Whispers in radius %d to a deafening crescendo for %d turns,
 section "tome-cults/data/talents/demented/nether.lua"
 
 t("Select a teleport location...", "Sélectionnez un lieu de téléportation...", "logPlayer")
+t("The spell fizzles on %s!", "Le sort échoue sur %s !", "logSeen")
 -- texte non traduit
 --[==[
 t("Netherblast", "Netherblast", "talent name")
@@ -3342,7 +3343,6 @@ t([[Fire a beam of energy that rakes across the ground, dealing %0.2f darkness d
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
 		The damage will increase with your Spellpower.]], "tformat")
 t("Spatial Distortion", "Spatial Distortion", "talent name")
-t("The spell fizzles on %s!", "The spell fizzles on %s!", "logSeen")
 t("#CRIMSON#%s is swallowed by a portal!", "#CRIMSON#%s is swallowed by a portal!", "logSeen")
 t("%s resists the warp!", "%s resists the warp!", "logSeen")
 t("entropic maw", "entropic maw", "_t")
@@ -3442,6 +3442,8 @@ t([[At last you unlock the true power of your mutated body!
 section "tome-cults/data/talents/demented/rift.lua"
 
 t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logPlayer")
+t("%s's space-time folding fizzles!", "Le pliage d'espace-temps de %s échoue !", "logSeen")
+t("%s emerges from a space-time rift!", "%s émerge d'une faille spatio-temporelle !", "logSeen")
 t("Summon", "Invocation", "_t")
 -- texte non traduit
 --[==[
@@ -3457,8 +3459,6 @@ On casting a Demented spell you have a 30%% chance of creating a void rift lasti
 You may activate this talent to forcibly destabilize spacetime, spawning %d void rifts around you.]], "tformat")
 t("Quantum Tunnelling", "Quantum Tunnelling", "talent name")
 t("You must target a void rift.", "You must target a void rift.", "logPlayer")
-t("%s's space-time folding fizzles!", "%s's space-time folding fizzles!", "logSeen")
-t("%s emerges from a space-time rift!", "%s emerges from a space-time rift!", "logSeen")
 t([[You briefly open a tunnel through spacetime, teleporting to a void rift in range %d. This destroys the rift, granting you a shield for %d turns absorbing %d damage.
 		The damage absorbed will scale with your Spellpower]], [[You briefly open a tunnel through spacetime, teleporting to a void rift in range %d. This destroys the rift, granting you a shield for %d turns absorbing %d damage.
 		The damage absorbed will scale with your Spellpower]], "tformat")
