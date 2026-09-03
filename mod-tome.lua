@@ -546,7 +546,7 @@ section "mod-tome/data/birth/classes/psionic.lua"
 t("Psionic", "Psionique", "birth descriptor name")
 t("Weakness of flesh can be overcome by mental prowess. Find the way and fight for the way to open the key to your mind.", "La faiblesse de la chair peut être surpassée par les prouesses mentales. Trouvez la voie et combattez pour trouver la clé de votre esprit.", "_t")
 t("Psionics find their power within themselves. Their highly trained minds can harness energy from many different sources and manipulate it to produce physical effects.", "Les psioniques trouvent leur pouvoir en eux-mêmes. Leur esprit hautement entrainé peux exploiter l'énergie de différentes sources et la manipuler pour produire des effets physiques.", "_t")
-t("Mindslayer", "Guerrier psionique", "birth descriptor name")
+t("Mindslayer", "Guerrier Psionique", "birth descriptor name")
 t("A thought can inspire; a thought can kill. After centuries of oppression, years of imprisonment, a thought shall break us free and vengeance will strike from our darkest dreams.", "Une pensée peut inspirer ; une pensée peut tuer. Après des siècles d'oppression, des années d'emprisonnement, une pensée peut nous libérer et la vengeance va frapper issue de nos rêves les plus noirs.", "_t")
 t("Mindslayers specialize in direct and brutal application of mental forces to their immediate surroundings.", "Les guerriers psioniques sont spécialisés dans l'application directe et brutale des forces mentales sur leur entourage immédiat.", "_t")
 t("When Mindslayers do battle, they will most often be found in the thick of the fighting, vast energies churning around them and telekinetically-wielded weapons hewing nearby foes at the speed of thought.", "Quand des guerriers psioniques se battent, ils se trouvent généralement au centre des combats, d'immenses énergies gravitant autour d'eux et armés télékinetiquement d'armes coupant les ennemis proches à la vitesse de la pensée.", "_t")
@@ -4665,7 +4665,7 @@ t("%s<orc summon>#LAST#", "%s<orc invoquén>#LAST#", "tformat")
 t("orc spirit", "esprit orc", "_t")
 t("An orc clad in massive armour, wielding a huge axe.", "Un orc vêtu d'une armure massive, brandissant une énorme hache.", "_t")
 t("Garkul Spirit", "Esprit de Garkul", "_t")
-t("nightmare", "cauchemard", "damage type")
+t("nightmare", "cauchemar", "damage type")
 t("cursed miasma", "miasme maudit", "damage type")
 t("weakness", "faiblesse", "damage type")
 t("special effect", "effet spécial", "damage type")
@@ -8136,6 +8136,7 @@ t("corpselight", "lueur cadavérique", "entity keyword")
 t(" of the zealot", " du fanatique", "entity name")
 t("zealot", "fanatique", "entity keyword")
 t(" of focus", " de focus", "entity name")
+t("focus", "concentration", "entity keyword")
 t("ethereal ", "de l'éthéré ", "entity name")
 t("ethereal", "éthéré", "entity keyword")
 t("watchleader's ", "du chef du guet ", "entity name")
@@ -8144,7 +8145,6 @@ t("watchleader", "chef du guet", "entity keyword")
 --[==[
 t("guide", "guide", "entity keyword")
 t("illusion", "illusion", "entity keyword")
-t("focus", "focus", "entity keyword")
 --]==]
 
 
@@ -8467,6 +8467,7 @@ t("mindwoven", "tissesprit", "entity keyword")
 t("tormentor's ", "de tourmenteur ", "entity name")
 t("tormentor", "tourmenteur", "entity keyword")
 t("focusing ", "de fixation ", "entity name")
+t("focus", "concentration", "entity keyword")
 t("fearwoven ", "tissé ", "entity name")
 t("fearwoven", "tissé", "entity keyword")
 t("psion's ", "du psyon ", "entity name")
@@ -8478,7 +8479,6 @@ t("prot", "prot", "entity keyword")
 t("Linaniil", "Linaniil", "entity keyword")
 t("Angolwen", "Angolwen", "entity keyword")
 t("ancient", "ancient", "entity keyword")
-t("focus", "focus", "entity keyword")
 --]==]
 
 
@@ -20881,7 +20881,7 @@ section "mod-tome/data/talents/corruptions/reaving-combat.lua"
 t("Corrupted Strength", "Force Corrompue", "talent name")
 t([[Allows you to dual wield any type of one handed weapons, and increases the damage of the off-hand weapon to %d%%.
 		Also, casting a spell (which uses a turn) will give a free melee attack at a random target in melee range for %d%% blight damage.]], [[Vous permet de manier deux armes à une main et augmente les dégâts de l'arme en main secondaire de %d%%.
-		De plus, lancer un sort (qui utilise un tour) donne une attaque de mêlée gratuite sur une cible aléatoire à portée de mêlée pour %d%% dégâts de fléau par coup.]], "tformat")
+		De plus, lancer un sort (qui utilise un tour) donne une attaque de mêlée gratuite sur une cible aléatoire à portée de mêlée pour %d%% dégâts de fléau.]], "tformat")
 t("Bloodlust", "Soif de Sang", "talent name")
 t([[Each time you hit an enemy with a melee weapon you enter a bloodlust-infused frenzy, increasing your Spellpower by %0.1f.
 		This effect stacks up to 10 times for a total Spellpower gain of %d.
@@ -20979,17 +20979,17 @@ section "mod-tome/data/talents/corruptions/scourge.lua"
 
 t("Virulent Strike", "Frappe de Corruption", "talent name")
 t("You cannot use Virulent Strike without two weapons!", "Vous ne pouvez pas utiliser Frappe de Corruption sans avoir deux armes !", "logPlayer")
-t("Strike the target with both weapons dealing %d%% damage with each hit.  Each strike that hits will increase the duration of the lowest duration disease effect by %d.", [[Frappez la cible avec les deux armes, infligeant %d%% dégâts par coup.
-Chaque coup réussi augmentera la durée de l'effet de maladie de plus courte durée de %d tour(s).]], "tformat")
+t("Strike the target with both weapons dealing %d%% damage with each hit.  Each strike that hits will increase the duration of the lowest duration disease effect by %d.", [[Frappez la cible avec les deux armes, infligeant %d%% dégâts par toucher.
+Chaque toucher réussi augmentera la durée de l'effet de maladie de plus courte durée de %d tour(s).]], "tformat")
 t("Ruin", "Ruine", "talent name")
 t([[Concentrate on the corruption you bring, enhancing each of your melee strikes with %0.2f blight damage (which also heals you for %0.2f each hit).
-		The damage will increase with your Spellpower.]], [[Concentrez-vous sur la corruption que vous apportez, améliorant chacune de vos frappes de mêlée de %0.2f dégâts de fléau (qui vous soigne également de %0.2f par coup).
+		The damage will increase with your Spellpower.]], [[Concentrez-vous sur la corruption que vous apportez, améliorant chacune de vos frappes de mêlée de %0.2f dégâts de fléau (qui vous soigne également de %0.2f par toucher).
 		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
 t("Acid Strike", "Frappe Acide", "talent name")
 t("You cannot use Acid Strike without two weapons!", "Vous ne pouvez pas utiliser Frappe Acide sans avoir deux armes !", "logPlayer")
 t([[Strike with each of your weapons, doing %d%% acid weapon damage with each hit.
 		If at least one of the strikes hits, an acid splash is generated, doing %0.2f acid damage to all enemies in radius %d around the foe you struck.
-		The splash damage will increase with your Spellpower.]], [[Frappez avec chacune de vos armes, infligeant %d%% dégâts d'arme acide par coup.
+		The splash damage will increase with your Spellpower.]], [[Frappez avec chacune de vos armes, infligeant %d%% dégâts d'arme acide par toucher.
 		Si au moins un des coups touche, une éclaboussure d'acide est générée, infligeant %0.2f dégâts d'acide à tous les ennemis dans un rayon de %d cases autour de l'ennemi frappé.
 		Les dégâts d'éclaboussure sont proportionnels à votre Puissance des sorts.]], "tformat")
 t("Corrupting Strike", "Frappe Corruptrice", "talent name")
@@ -21224,7 +21224,7 @@ Ce talent a un rechargement.
 t("Assassinate", "Assassiner", "talent name")
 t("You must have Hidden Blades prepared to use this talent.", "Vous devez avoir les Lames Cachées préparées pour utiliser ce talent.", "logPlayer")
 t("#Source# strikes at a vital spot on #target#!", "#Source# frappe un point vital de #Target# !", "logCombat")
-t("You prime your Hidden Blades to cause bleeding and facilitate the Assassinate ability, which allows you to strike twice for %d%% unarmed damage, hitting automatically while ignoring armor and resistance.", "Vous préparez vos Lames Cachées pour causer un saignement et faciliter la capacité Assassiner, vous permettant de frapper deux fois pour %d%% dégâts à mains nues par coup, en touchant automatiquement et en ignorant l'armure et la résistance physique.", "tformat")
+t("You prime your Hidden Blades to cause bleeding and facilitate the Assassinate ability, which allows you to strike twice for %d%% unarmed damage, hitting automatically while ignoring armor and resistance.", "Vous préparez vos Lames Cachées pour causer un saignement et faciliter la capacité Assassiner, vous permettant de frapper deux fois pour %d%% dégâts à mains nues, en touchant automatiquement et en ignorant l'armure et la résistance physique.", "tformat")
 t([[You strike your target with your Hidden Blades twice in a vital spot for %d%% unarmed (physical) damage.  You must be able to see your target to use this attack, but it always hits and ignores all armor and physical resistance.
 In addition, your hidden blades now inflict a further %d%% of all damage dealt as bleeding over 5 turns.]], [[Vous frappez votre cible avec vos Lames Cachées deux fois en un point vital pour %d%% dégâts physiques à mains nues. Vous devez pouvoir voir votre cible pour utiliser cette attaque, mais elle touche toujours et ignore toute l'armure et la résistance physique.
 De plus, vos Lames Cachées infligent désormais %d%% de tous les dégâts infligés sous forme de saignement sur 5 tours.]], "tformat")
@@ -21934,6 +21934,7 @@ Each point in Bloodstained talents reduces the amount of damage you take from bl
 section "mod-tome/data/talents/cursed/crimson-templar.lua"
 
 t("Mark of the Vampire", "Marque du Vampire", "talent name")
+t("%s resists the sleep!", "%s résiste au sommeil !", "logSeen")
 -- texte non traduit
 --[==[
 t("Shared Agony", "Shared Agony", "talent name")
@@ -21962,7 +21963,6 @@ t([[Dooms all enemies within a radius 2 ball for 20 turns. Each time an affected
 							The damage will increase with your Spellpower.
 							The chance to apply will increase with your Spellpower.]], "tformat")
 t("Rosebloom", "Rosebloom", "talent name")
-t("%s resists the sleep!", "%s resists the sleep!", "logSeen")
 t([[Draw on the wounds of enemies within range 10, healing yourself and putting them into a merciful sleep.
 							The sleep chance increases with your Spellpower.
 							You are healed for %d%% of the remaining damage of bleed effects on enemies in range (minimum %d per bleed). Enemies fall asleep for %d turns longer than their longest-lasting bleed, rendering them unable to act. The strength of the sleep effect is based on the strength of the bleed. Excess damage will reduce their sleep duration.
@@ -25123,128 +25123,109 @@ t("Confusion", "Confusion", "talent name")
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/absorption.lua"
 
-
--- texte non traduit
---[==[
-t("Kinetic Shield", "Kinetic Shield", "talent name")
-t("You may only sustain two shields at once. Shield activation cancelled.", "You may only sustain two shields at once. Shield activation cancelled.", "logSeen")
+t("Kinetic Shield", "Bouclier Cinétique", "talent name")
+t("You may only sustain two shields at once. Shield activation cancelled.", "Vous ne pouvez maintenir que deux boucliers à la fois. Activation du bouclier annulée.", "logSeen")
 t([[Surround yourself with a shield that will absorb %d%% of any physical/acid/nature/temporal attack, up to a maximum of %d damage per attack.
 		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
 		At talent level 3, when you de-activate the shield twice the absorbed damage (if any) in the last 3 turns is released as a full psionic shield (absorbing all damage).
 		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
-		You can only have two of these shields active at once.]], [[Surround yourself with a shield that will absorb %d%% of any physical/acid/nature/temporal attack, up to a maximum of %d damage per attack.
-		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
-		At talent level 3, when you de-activate the shield twice the absorbed damage (if any) in the last 3 turns is released as a full psionic shield (absorbing all damage).
-		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
-		You can only have two of these shields active at once.]], "tformat")
-t("Thermal Shield", "Thermal Shield", "talent name")
+		You can only have two of these shields active at once.]], [[Enveloppe-vous dans un bouclier qui absorbe %d%% dégât physique, acide, nature, ou temporel, jusqu'au maximum de %d par attaque.
+		Chaque fois que le bouclier absorbe des dégâts, vous gagnez 1 point de Psi, plus 1 point supplémentaire par %0.1f points de dégâts absorbés, jusqu'à %0.1f points par tour.
+		Au niveau 3, en désactivant le bouclier, le double des dégâts absorbés dans les 3 derniers tours devient un bouclier psionique qui absorbe tout dégât.
+		L'absorption maximale et le gain de Psi sont proportionnels à votre Puissance Mentale.
+		Vous ne pouvez avoir que deux de ces boucliers actifs à la fois.]], "tformat")
+t("Thermal Shield", "Bouclier Thermique", "talent name")
 t([[Surround yourself with a shield that will absorb %d%% of any fire/cold/light/arcane attack, up to a maximum of %d damage per attack.
 		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
 		At talent level 3, when you de-activate the shield twice the absorbed damage (if any) in the last 3 turns is released as a full psionic shield (absorbing all damage).
 		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
-		You can only have two of these shields active at once.]], [[Surround yourself with a shield that will absorb %d%% of any fire/cold/light/arcane attack, up to a maximum of %d damage per attack.
-		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
-		At talent level 3, when you de-activate the shield twice the absorbed damage (if any) in the last 3 turns is released as a full psionic shield (absorbing all damage).
-		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
-		You can only have two of these shields active at once.]], "tformat")
-t("Charged Shield", "Charged Shield", "talent name")
+		You can only have two of these shields active at once.]], [[Enveloppe-vous dans un bouclier qui absorbe %d%% dégât de feu, froid, lumière, ou arcane, jusqu'au maximum de %d par attaque.
+		Chaque fois que le bouclier absorbe des dégâts, vous gagnez 1 point de Psi, plus 1 point supplémentaire par %0.1f points de dégâts absorbés, jusqu'à %0.1f points par tour.
+		Au niveau 3, en désactivant le bouclier, le double des dégâts absorbés dans les 3 derniers tours devient un bouclier psionique qui absorbe tout dégât.
+		L'absorption maximale et le gain de Psi sont proportionnels à votre Puissance Mentale.
+		Vous ne pouvez avoir que deux de ces boucliers actifs à la fois.]], "tformat")
+t("Charged Shield", "Bouclier Chargé", "talent name")
 t([[Surround yourself with a shield that will absorb %d%% of any lightning/blight/darkness/mind attack, up to a maximum of %d damage per attack.
 		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
 		At talent level 3, when you de-activate the shield twice the absorbed damage (if any) in the last 3 turns is released as a full psionic shield (absorbing all damage).
 		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
-		You can only have two of these shields active at once.]], [[Surround yourself with a shield that will absorb %d%% of any lightning/blight/darkness/mind attack, up to a maximum of %d damage per attack.
-		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
-		At talent level 3, when you de-activate the shield twice the absorbed damage (if any) in the last 3 turns is released as a full psionic shield (absorbing all damage).
-		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
-		You can only have two of these shields active at once.]], "tformat")
-t("Forcefield", "Forcefield", "talent name")
+		You can only have two of these shields active at once.]], [[Enveloppe-vous dans un bouclier qui absorbe %d%% de tout dégât de foudre, fléau, obscurité, ou mental, jusqu'au maximum de %d par attaque.
+		Chaque fois que le bouclier absorbe des dégâts, vous gagnez 1 point de Psi, plus 1 point supplémentaire par %0.1f points de dégâts absorbés, jusqu'à %0.1f points par tour.
+		Au niveau 3, en désactivant le bouclier, le double des dégâts absorbés dans les 3 derniers tours devient un bouclier psionique qui absorbe tout dégât.
+		L'absorption maximale et le gain de Psi sont proportionnels à votre Puissance Mentale.
+		Vous ne pouvez avoir que deux de ces boucliers actifs à la fois.]], "tformat")
+t("Forcefield", "Champ de Force", "talent name")
 t([[Surround yourself with a forcefield, reducing all incoming damage by %d%%.
 		Such a shield is very expensive to maintain, draining 5%% of your maximum psi per turn initially plus an addition 5%% for each turn it has been maintained. For example, on turn 2 it will drain 10%%.
-		Current drain rate: %0.1f psi/turn]], [[Surround yourself with a forcefield, reducing all incoming damage by %d%%.
-		Such a shield is very expensive to maintain, draining 5%% of your maximum psi per turn initially plus an addition 5%% for each turn it has been maintained. For example, on turn 2 it will drain 10%%.
-		Current drain rate: %0.1f psi/turn]], "tformat")
---]==]
-
+		Current drain rate: %0.1f psi/turn]], [[Crée un champ de force autour de vous, réduisant tout dégât entrant de %d%%.
+		Maintenir ce bouclier est très coûteux : il draine initialement 5%% de votre Psi maximum, et ce coût augmente de 5%% à chaque tour qu'il reste actif. Par exemple, au deuxième tour, le drain sera de 10%%.
+		
+		Taux de drain actuel : %0.1f Psi par tour.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/augmented-mobility.lua"
 
-
--- texte non traduit
---[==[
-t("Skate", "Skate", "talent name")
+t("Skate", "Patiner", "talent name")
 t([[You telekinetically float just off the ground.
 		This allows you to slide around the battle quickly, increasing your movement speed by %d%%.
-		It also makes you more vulnerable to being pushed around (-%d%% knockback resistance).]], [[You telekinetically float just off the ground.
-		This allows you to slide around the battle quickly, increasing your movement speed by %d%%.
-		It also makes you more vulnerable to being pushed around (-%d%% knockback resistance).]], "tformat")
-t("Quick as Thought", "Quick as Thought", "talent name")
+		It also makes you more vulnerable to being pushed around (-%d%% knockback resistance).]], "Vous lévitez légèrement au-dessus du sol grâce à votre volonté télékinétique et glissez avec agilité sur le champ de bataille. Cet état augmente votre vitesse de déplacement de %d%%, mais l'absence de friction rend votre position instable et réduit votre immunité au recul de %d%%.", "tformat")
+t("Quick as Thought", "Rapide comme la Pensée", "talent name")
 t([[Encase your body in a sheath of thought-quick forces, allowing you to control your body's movements directly without the inefficiency of dealing with crude mechanisms like nerves and muscles.
 		Increases Accuracy by %d, your critical strike chance by %0.1f%% and your global speed by %d%% for %d turns.
-		The duration improves with your Mindpower.]], [[Encase your body in a sheath of thought-quick forces, allowing you to control your body's movements directly without the inefficiency of dealing with crude mechanisms like nerves and muscles.
-		Increases Accuracy by %d, your critical strike chance by %0.1f%% and your global speed by %d%% for %d turns.
-		The duration improves with your Mindpower.]], "tformat")
-t("Mindhook", "Mindhook", "talent name")
-t("The target is out of range", "The target is out of range", "logPlayer")
+		The duration improves with your Mindpower.]], [[Enveloppez votre corps d'une gaine de forces à la réactivité fulgurante, qui vous permettra de contrôler directement ses mouvements sans passer par des mécanismes rudimentaires tels que les nerfs et les muscles, source d'inefficacité.
+		Augmente la Précision de %d, la chance de coup critique de %0.1f%% et la vitesse globale de %d%% pendant %d tours.
+		La durée est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Mindhook", "Crochet Mental", "talent name")
+t("The target is out of range", "La cible est hors de portée.", "logPlayer")
 t([[Briefly extend your telekinetic reach to grab an enemy, haul them towards you and daze them for 1 turn.
 		Works on enemies up to %d squares away.
-		The cooldown decreases, and the range increases, with additional talent points spent.]], [[Briefly extend your telekinetic reach to grab an enemy, haul them towards you and daze them for 1 turn.
-		Works on enemies up to %d squares away.
-		The cooldown decreases, and the range increases, with additional talent points spent.]], "tformat")
-t("Telekinetic Leap", "Telekinetic Leap", "talent name")
-t("@Source@ performs a telekinetically enhanced leap!", "@Source@ performs a telekinetically enhanced leap!", "_t")
-t("You can not jump onto a creature.", "You can not jump onto a creature.", "logPlayer")
-t("You perform a precise, telekinetically-enhanced leap, landing up to %d squares from your starting point.", "You perform a precise, telekinetically-enhanced leap, landing up to %d squares from your starting point.", "tformat")
---]==]
-
+		The cooldown decreases, and the range increases, with additional talent points spent.]], [[Étend brièvement votre portée télékinétique pour saisir un ennemi, le tirer vers vous et l'étourdir pendant 1 tour.
+		Fonctionne sur les ennemis jusqu'à %d cases de distance.]], "tformat")
+t("Telekinetic Leap", "Saut Télékinétique", "talent name")
+t("@Source@ performs a telekinetically enhanced leap!", "@Source@ effectue un saut télékinétiquement amélioré !", "_t")
+t("You can not jump onto a creature.", "Vous ne pouvez pas sauter sur une créature.", "logPlayer")
+t("You perform a precise, telekinetically-enhanced leap, landing up to %d squares from your starting point.", "Vous effectuez un saut précis et télékinétiquement amélioré, atterrissant jusqu'à %d cases de votre point de départ.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/augmented-striking.lua"
 
+t("Kinetic Strike", "Frappe Cinétique", "talent name")
+t("You cannot do that without a weapon in your hands.", "Vous ne pouvez pas faire cela sans une arme en main.", "logPlayer")
 t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
-t("ice wall", "mur de glace", "_t")
-t("a summoned, transparent wall of ice", "Un mur de glace transparent invoqué.", "_t")
--- texte non traduit
---[==[
-t("Kinetic Strike", "Kinetic Strike", "talent name")
-t("You cannot do that without a weapon in your hands.", "You cannot do that without a weapon in your hands.", "logPlayer")
 t([[Focus kinetic energy and strike an enemy for %d%% weapon damage as physical.
 		They will be pinned to the ground for %d turns by the force of this attack.
 		Any frozen creature hit by this attack will take an extra %0.2f physical damage.
-		The extra damage will scale with your Mindpower.]], [[Focus kinetic energy and strike an enemy for %d%% weapon damage as physical.
-		They will be pinned to the ground for %d turns by the force of this attack.
-		Any frozen creature hit by this attack will take an extra %0.2f physical damage.
-		The extra damage will scale with your Mindpower.]], "tformat")
-t("Thermal Strike", "Thermal Strike", "talent name")
+		The extra damage will scale with your Mindpower.]], [[Concentre de l'énergie cinétique pour frapper un ennemi, lui infligeant %d%% dégâts physiques.
+		L'impact immobilise la cible pendant %d tours en raison de la force de cette attaque.
+		Les ennemis gelés touchés par cette attaque subissent %0.2f dégâts physiques supplémentaires.
+		Les dégâts supplémentaires sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Thermal Strike", "Frappe Thermique", "talent name")
+t("ice wall", "mur de glace", "_t")
+t("a summoned, transparent wall of ice", "Un mur de glace transparent invoqué.", "_t")
 t([[Focus thermal energy and strike an enemy for %d%% weapon damage as cold.
 		A burst of cold will then engulf them, doing an extra %0.1f Cold damage and also freeze them for %d turns.
 		If the attack freezes a pinned creature a burst of ice is summoned, circling the caster and the creature with a wall of ice for 3 turns.
-		The cold burst damage will scale with your Mindpower.]], [[Focus thermal energy and strike an enemy for %d%% weapon damage as cold.
-		A burst of cold will then engulf them, doing an extra %0.1f Cold damage and also freeze them for %d turns.
-		If the attack freezes a pinned creature a burst of ice is summoned, circling the caster and the creature with a wall of ice for 3 turns.
-		The cold burst damage will scale with your Mindpower.]], "tformat")
-t("Charged Strike", "Charged Strike", "talent name")
+		The cold burst damage will scale with your Mindpower.]], [[Concentre de l'énergie thermique pour frapper un ennemi, lui infligeant %d%% dégâts de froid.
+		Ensuite, une explosion de froid enveloppe la cible, lui infligeant %0.1f dégâts de froid supplémentaires et la gelant pendant %d tours.
+		Si l'attaque gèle une créature déjà immobilisée, un mur de glace se forme autour du lanceur et de la créature pendant 3 tours.
+		Les dégâts de l'explosion de froid sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Charged Strike", "Frappe Chargée", "talent name")
 t([[Focus charged energy and strike an enemy for %d%% weapon damage as lightning.
 		Energy will then discharge from your weapon, doing an extra %0.2f lightning damage and halving their stun/daze/freeze/pin resistance for %d turns.
 		If the target is pinned and Charged Shield is sustained, its absorb value will be increased by %0.2f.
 		If the target is frozen, the ice will melt in a flash of vapour, knocking back all creatures around it in radius 2.
-		The discharge damage will scale with your Mindpower.]], [[Focus charged energy and strike an enemy for %d%% weapon damage as lightning.
-		Energy will then discharge from your weapon, doing an extra %0.2f lightning damage and halving their stun/daze/freeze/pin resistance for %d turns.
-		If the target is pinned and Charged Shield is sustained, its absorb value will be increased by %0.2f.
-		If the target is frozen, the ice will melt in a flash of vapour, knocking back all creatures around it in radius 2.
-		The discharge damage will scale with your Mindpower.]], "tformat")
-t("Psi Tap", "Psi Tap", "talent name")
-t("Wrap a psionic energy field around your weapons, increasing their armour penentration by %d and allowing you to siphon excess energy from each weapon hit you land, gaining %0.1f psi per hit.", "Wrap a psionic energy field around your weapons, increasing their armour penentration by %d and allowing you to siphon excess energy from each weapon hit you land, gaining %0.1f psi per hit.", "tformat")
---]==]
-
+		The discharge damage will scale with your Mindpower.]], [[Concentre de l'énergie chargée pour frapper un ennemi, lui infligeant %d%% dégâts de foudre.
+		La décharge de votre arme inflige %0.2f dégâts de foudre supplémentaires et réduit de moitié l'immunité de l'ennemi à l'assommement, l'étourdissement, le gel, et l'immobilisation pendant %d tours.
+		Si la cible est immobilisée et que le Bouclier Chargé est actif, sa valeur d'absorption augmente de %0.2f.
+		Si la cible est gelée, la glace fond en une explosion de vapeur qui repousse les créatures alentour dans un rayon de 2.
+		Les dégâts de décharge sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Psi Tap", "Conversion de Psi", "talent name")
+t("Wrap a psionic energy field around your weapons, increasing their armour penentration by %d and allowing you to siphon excess energy from each weapon hit you land, gaining %0.1f psi per hit.", "Enveloppe vos armes dans un champ d'énergie psionique, augmentant leur pénétration d'armure de %d. Vous absorbez également l'excès d'énergie de chaque coup réussi, gagnant %0.1f Psi par touche.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/charged-mastery.lua"
 
 t("Transcendent Electrokinesis", "Électrokinésie Transcendante", "talent name")
-t("Thought Sense", "Détection des Pensées", "talent name")
--- texte non traduit
---[==[
 t([[For %d turns your electrokinesis transcends your normal limits, increasing your Lightning damage by %d%% and your Lightning resistance penetration by %d%%.
 		In addition:
 		The cooldowns of Charged Shield, Charged Leech, Charged Aura, Charged Strike and Brainstorm are reset.
@@ -25254,37 +25235,35 @@ t([[For %d turns your electrokinesis transcends your normal limits, increasing y
 		Charge Leech will also inflict confusion (%d%% effect).
 		Charged Strike will have its secondary lightning burst chain to up to 3 targets in a radius of 3.
 		The damage bonus and resistance penetration scale with your Mindpower.
-		Only one Transcendent talent may be in effect at a time.]], [[For %d turns your electrokinesis transcends your normal limits, increasing your Lightning damage by %d%% and your Lightning resistance penetration by %d%%.
-		In addition:
-		The cooldowns of Charged Shield, Charged Leech, Charged Aura, Charged Strike and Brainstorm are reset.
-		Charged Aura effects will have their radius increased by 1.
-		Your Charged Shield will have 100%% absorption efficiency and will absorb twice the normal amount of damage.
-		Brainstorm will also inflict blindness.
-		Charge Leech will also inflict confusion (%d%% effect).
-		Charged Strike will have its secondary lightning burst chain to up to 3 targets in a radius of 3.
-		The damage bonus and resistance penetration scale with your Mindpower.
-		Only one Transcendent talent may be in effect at a time.]], "tformat")
+		Only one Transcendent talent may be in effect at a time.]], [[Pendant %d tours, votre électrokinèse transcende vos limites normales, augmentant vos dégâts de foudre de %d%% et votre pénétration de résistance à la foudre de %d%%.
+		De plus :
+		- Bouclier Chargé, Extraction Chargée, Aura Chargée, Frappe Chargée et Tempête Cérébrale voient leurs rechargements réinitialisés.
+		- L'Aura Chargée voit le rayon de ses effets augmenter de 1.
+		- Le Bouclier Chargé a 100%% d'efficacité d'absorption et absorbe le double de la quantité normale de dégâts.
+		- La Tempête Cérébrale causera également la cécité.
+		- L'Extraction Chargée causera également la confusion (%d%% de puissance).
+		- La Frappe Chargée fera enchaîner sa décharge de foudre secondaire sur jusqu'à 3 cibles dans un rayon de 3.
+		Le bonus de dégâts et la pénétration de résistance sont proportionnels à votre Puissance Mentale.
+		Un seul talent Transcendant peut être actif à la fois.]], "tformat")
+t("Thought Sense", "Détection des Pensées", "talent name")
 t([[Detect the mental activity of creatures in a radius of %d for %d turns.
 		This reveals their location and boosts your defense by %d.
-		The defense scales with you Mindpower and the range with your Willpower.]], [[Detect the mental activity of creatures in a radius of %d for %d turns.
-		This reveals their location and boosts your defense by %d.
-		The defense scales with you Mindpower and the range with your Willpower.]], "tformat")
-t("Static Net", "Static Net", "talent name")
+		The defense scales with you Mindpower and the range with your Willpower.]], [[Détecte l'activité mentale des créatures dans un rayon de %d pendant %d tours. Cela révèle leur emplacement et augmente votre défense de %d.
+		La défense augmente avec votre Puissance Mentale et la portée avec votre Volonté.]], "tformat")
+t("Static Net", "Filet Statique", "talent name")
 t([[Cast a net of static electricity in a radius of %d for %d turns.
 		Enemies standing in the net will take %0.1f Lightning damage and be slowed by %d%%.
 		When you move through the net, a static charge will accumulate on your weapon which will add %0.1f additional Lightning damage to your next attack for each turn you spend within its area.
-		These effects scale with your Mindpower.]], [[Cast a net of static electricity in a radius of %d for %d turns.
-		Enemies standing in the net will take %0.1f Lightning damage and be slowed by %d%%.
-		When you move through the net, a static charge will accumulate on your weapon which will add %0.1f additional Lightning damage to your next attack for each turn you spend within its area.
-		These effects scale with your Mindpower.]], "tformat")
-t("Heartstart", "Heartstart", "talent name")
+		These effects scale with your Mindpower.]], [[Lance un filet d'électricité statique dans un rayon de %d pendant %d tours.
+		Les ennemis dans la zone subissent %0.1f dégâts de foudre et %d%% de lenteur.
+		Chaque fois que vous vous déplacez dans le filet, une charge s'accumule sur votre arme et ajoute %0.1f dégâts de foudre à votre prochaine attaque pour chaque tour passé dans la zone.
+		Ces effets sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Heartstart", "Réanimation", "talent name")
 t([[Store an electric charge for saving your life at a later time.
 		If you are reduced to less than zero life while this is active, it will deactivate, cure you of all stun/daze/freeze effects and allow you to survive with up to %d negative health for %d turns.
-		The negative health limit scales with your Mindpower and maxium life.]], [[Store an electric charge for saving your life at a later time.
-		If you are reduced to less than zero life while this is active, it will deactivate, cure you of all stun/daze/freeze effects and allow you to survive with up to %d negative health for %d turns.
-		The negative health limit scales with your Mindpower and maxium life.]], "tformat")
---]==]
-
+		The negative health limit scales with your Mindpower and maxium life.]], [[Stocke une charge électrique pour sauver votre vie ultérieurement.
+		Si votre vie tombe en dessous de zéro pendant que l'effet est actif, le talent se désactive et supprime tous les effets d'assommement, étourdissement, et gel. Cela vous permet de survivre avec jusqu'à -%d de vie pendant %d tour(s).
+		Le seuil de vie négative est proportionnel à votre Puissance Mentale et votre vie maximale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/discharge.lua"
@@ -25458,9 +25437,9 @@ t([[Strike an adjacent target with a mighty blow from the forge, inflicting %d%%
 section "mod-tome/data/talents/psionic/dreaming.lua"
 
 t("Sleep", "Sommeil", "talent name")
+t("%s resists the sleep!", "%s résiste au sommeil !", "logSeen")
 -- texte non traduit
 --[==[
-t("%s resists the sleep!", "%s resists the sleep!", "logSeen")
 t([[Puts targets in a radius of %d to sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
 		When Sleep ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
 		At talent level 5 Sleep will become contagious and has a 25%% chance to spread to nearby targets each turn.
@@ -25519,63 +25498,56 @@ t([[Use Feedback to replenish yourself.  This heals you for %d life, and restore
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/finer-energy-manipulations.lua"
 
+t("Realign", "Réaligner", "talent name")
 t("%s is cured!", "%s est soigné !", "logSeen")
-t("Use which gem?", "Utiliser quelle gemme ?", "_t")
--- texte non traduit
---[==[
-t("Realign", "Realign", "talent name")
 t([[Realign and readjust your body with the power of your mind, curing up to %d detrimental physical effects and healing you for %d life.
-		The life healed increases with your Mindpower.]], [[Realign and readjust your body with the power of your mind, curing up to %d detrimental physical effects and healing you for %d life.
-		The life healed increases with your Mindpower.]], "tformat")
-t("Form and Function", "Form and Function", "talent name")
+		The life healed increases with your Mindpower.]], [[Réaligne et réajuste votre corps avec la puissance de votre esprit, supprimant jusqu'à %d effet(s) physique(s) négatif(s) et vous soignant de %d vie.
+		La vie soignée est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Form and Function", "Forme et Fonction", "talent name")
 t([[Manipulate forces on the molecular level to realign, rebalance, and synergize equipment you wear to your form and function.
 		The accuracy and damage of any weapon will act as if it were %d higher. (Mindstars cannot be manipulated in this way because they are already in an ideal natural state.)
 		Your total armour will increase by %d and your fatigue will decrease by %d for each body armour and shield worn.
-		The effects increase with your Mindpower.]], [[Manipulate forces on the molecular level to realign, rebalance, and synergize equipment you wear to your form and function.
-		The accuracy and damage of any weapon will act as if it were %d higher. (Mindstars cannot be manipulated in this way because they are already in an ideal natural state.)
-		Your total armour will increase by %d and your fatigue will decrease by %d for each body armour and shield worn.
-		The effects increase with your Mindpower.]], "tformat")
-t("Matter is Energy", "Matter is Energy", "talent name")
+		The effects increase with your Mindpower.]], [[Manipule les forces au niveau moléculaire pour réaligner, rééquilibrer et synergiser les équipements que vous portez selon votre forme et fonction.
+		La précision et les dégâts de base de toutes les armes sont augmentés de %d. (Les étoiles d'âme ne peuvent pas être manipulées de cette façon car elles sont déjà dans un état naturel idéal).
+		Votre armure totale augmente de %d et votre fatigue diminue de %d pour chaque armure et bouclier équipé.
+		Les effets sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Matter is Energy", "La Matière est Énergie", "talent name")
+t("Use which gem?", "Utiliser quelle gemme ?", "_t")
 t([[Matter is energy, as any good Mindslayer knows. Unfortunately, the various bonds and particles involved are just too numerous and complex to make the conversion feasible in most cases. The ordered, crystalline structure of a gem, however, make it possible to transform a small percentage of its matter into usable energy.
 		This talent consumes one gem and grants %d psi per turn for between 5 and 13 turns, depending on the quality of the gem used.
-		This process also creates a resonance field that provides the (imbued) effects of the gem to you while this effect lasts.]], [[Matter is energy, as any good Mindslayer knows. Unfortunately, the various bonds and particles involved are just too numerous and complex to make the conversion feasible in most cases. The ordered, crystalline structure of a gem, however, make it possible to transform a small percentage of its matter into usable energy.
-		This talent consumes one gem and grants %d psi per turn for between 5 and 13 turns, depending on the quality of the gem used.
-		This process also creates a resonance field that provides the (imbued) effects of the gem to you while this effect lasts.]], "tformat")
-t("Resonant Focus", "Resonant Focus", "talent name")
+		This process also creates a resonance field that provides the (imbued) effects of the gem to you while this effect lasts.]], [[La matière n'est qu'une manifestation de l'énergie, une vérité connue de tout Guerrier Psionique expérimenté. Bien que la complexité des particules empêche la conversion dans la plupart des objets, la pureté cristalline d'une gemme permet de transmuter sa substance en énergie utilisable.
+		Ce talent consomme une gemme pour accorder %d Psi par tour pendant 5 à 13 tours, selon la qualité de la gemme.
+		Le processus manifeste également un champ de résonance qui vous accorde les effets imbués de la gemme pendant la durée de l'effet.]], "tformat")
+t("Resonant Focus", "Focalisation Résonnante", "talent name")
 t([[By carefully synchronizing your mind to the resonant frequencies of your psionic focus, you strengthen its effects.
 		For conventional weapons, this increases the percentage of your willpower and cunning that is used in place of strength and dexterity for all weapon attacks, from 60%% to %d%%.
 		For mindstars, this increases the chance to pull enemies to you by +%d%%.
-		For gems, this increases the bonus stats by %d.]], [[By carefully synchronizing your mind to the resonant frequencies of your psionic focus, you strengthen its effects.
-		For conventional weapons, this increases the percentage of your willpower and cunning that is used in place of strength and dexterity for all weapon attacks, from 60%% to %d%%.
-		For mindstars, this increases the chance to pull enemies to you by +%d%%.
-		For gems, this increases the bonus stats by %d.]], "tformat")
---]==]
-
+		For gems, this increases the bonus stats by %d.]], [[Vous synchronisez votre esprit avec les fréquences résonnantes de votre focalisation psionique pour en renforcer les effets.
+		Pour les armes conventionnelles, l'influence de votre Volonté et Ruse sur les frappes passe de 60%% à %d%%.
+		Pour les étoiles d'âme, la chance d'attirer des adversaires augmente de %d%%.
+		Pour les gemmes, les attributs bonus accordés augmentent de %d.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/focus.lua"
 
-t("Mindlash", "Coup de Fouet Mental", "talent name")
--- texte non traduit
---[==[
+t("Mindlash", "Fouet Mental", "talent name")
 t([[Focus energies into a beam to lash all creatures in a line with physical force, doing %d Physical damage and knocking them off balance (-15%% damage penalty) for 2 turns.
-		The damage will scale with your Mindpower.]], [[Focus energies into a beam to lash all creatures in a line with physical force, doing %d Physical damage and knocking them off balance (-15%% damage penalty) for 2 turns.
-		The damage will scale with your Mindpower.]], "tformat")
-t("Pyrokinesis", "Pyrokinesis", "talent name")
-t("Telekinetically energize the matter of all foes within %d squares at the molecular level, setting them ablaze. This does %0.1f fire damage over six turns.", "Telekinetically energize the matter of all foes within %d squares at the molecular level, setting them ablaze. This does %0.1f fire damage over six turns.", "tformat")
-t("Brain Storm", "Brain Storm", "talent name")
+		The damage will scale with your Mindpower.]], [[Concentre des énergies en un faisceau pour frapper toutes les créatures sur une ligne, infligeant %d dégâts physiques et déséquilibre (-15%% de pénalité de dégâts) pendant 2 tours.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Pyrokinesis", "Pyrokinèse", "talent name")
+t("Telekinetically energize the matter of all foes within %d squares at the molecular level, setting them ablaze. This does %0.1f fire damage over six turns.", [[Énergise télékinétiquement la matière de tous les ennemis dans un rayon de %d au niveau moléculaire, les enflammant.
+Inflige %0.1f dégâts de feu sur 6 tours.]], "tformat")
+t("Brain Storm", "Tempête Cérébrale", "talent name")
 t([[Mentally focus electricity into a ball of plasma and hurl it at the target.
 		The plasma will explode on impact, dealing %0.1f Lightning damage within radius %d.
 		This talent will apply cross tier Brainlock.
-		The damage will increase with your Mindpower.]], [[Mentally focus electricity into a ball of plasma and hurl it at the target.
-		The plasma will explode on impact, dealing %0.1f Lightning damage within radius %d.
-		This talent will apply cross tier Brainlock.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Iron Will", "Iron Will", "talent name")
-t("#ORCHID#%s has recovered!", "#ORCHID#%s has recovered!", "logSeen")
-t("Your Iron Will improves your stun immunity by %d%% and gives you a %d%% chance of recovering from a random mental effect each turn.", "Your Iron Will improves your stun immunity by %d%% and gives you a %d%% chance of recovering from a random mental effect each turn.", "tformat")
---]==]
-
+		The damage will increase with your Mindpower.]], [[Concentre mentalement l'électricité en une boule de plasma et la lance sur la cible.
+		Le plasma explosera à l'impact, infligeant %0.1f dégâts de foudre dans une zone de %d.
+		Ce talent appliquera l'effet trans-palier de paralysie cérébrale.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Iron Will", "Volonté de Fer", "talent name")
+t("#ORCHID#%s has recovered!", "#ORCHID#%s s'est rétabli !", "logSeen")
+t("Your Iron Will improves your stun immunity by %d%% and gives you a %d%% chance of recovering from a random mental effect each turn.", "Votre Volonté de Fer améliore votre immunité à l'assommement de %d%% et vous donne %d%% de chance de vous remettre d'un effet mental aléatoire à chaque tour.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/grip.lua"
@@ -25604,10 +25576,6 @@ t([[Use finely controlled forces to augment both your flesh-and-blood grip, and 
 section "mod-tome/data/talents/psionic/kinetic-mastery.lua"
 
 t("Transcendent Telekinesis", "Télékinésie Transcendante", "talent name")
-t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
-t("#YELLOW##Source# resists #Target#'s throw!", "#YELLOW##Source# résiste au lancer de #Target# !", "logCombat")
--- texte non traduit
---[==[
 t([[For %d turns your telekinesis transcends your normal limits, increasing your Physical damage by %d%% and your Physical resistance penetration by %d%%.
 		In addition:
 		The cooldowns of Kinetic Shield, Kinetic Leech, Kinetic Aura, Kinetic Strike and Mindlash are reset.
@@ -25617,17 +25585,19 @@ t([[For %d turns your telekinesis transcends your normal limits, increasing your
 		Kinetic Leech will put enemies to sleep.
 		Kinetic Strike will hit 2 adjacent enemies in a sweeping attack.
 		The damage bonus and resistance penetration scale with your Mindpower.
-		Only one Transcendent talent may be in effect at a time.]], [[For %d turns your telekinesis transcends your normal limits, increasing your Physical damage by %d%% and your Physical resistance penetration by %d%%.
-		In addition:
-		The cooldowns of Kinetic Shield, Kinetic Leech, Kinetic Aura, Kinetic Strike and Mindlash are reset.
-		Kinetic Aura effects will have their radius increased by 1.
-		Your Kinetic Shield will have 100%% absorption efficiency and will absorb twice the normal amount of damage.
-		Mindlash will also inflict stun.
-		Kinetic Leech will put enemies to sleep.
-		Kinetic Strike will hit 2 adjacent enemies in a sweeping attack.
-		The damage bonus and resistance penetration scale with your Mindpower.
-		Only one Transcendent talent may be in effect at a time.]], "tformat")
-t("Kinetic Surge", "Kinetic Surge", "talent name")
+		Only one Transcendent talent may be in effect at a time.]], [[Pendant %d tours, votre télékinèse transcende vos limites normales, augmentant vos dégâts physiques de %d%% et votre pénétration de résistance physique de %d%%.
+		De plus :
+		- Bouclier Cinétique, Extraction Cinétique, Aura Cinétique, Frappe Cinétique et Fouet Mental voient leurs rechargements réinitialisés.
+		- L'Aura Cinétique voit le rayon de ses effets augmenter de 1.
+		- Le Bouclier Cinétique a 100%% d'efficacité d'absorption et absorbe le double de la quantité normale de dégâts.
+		- Le Fouet Mental causera également l'assommement.
+		- L'Extraction Cinétique mettra les ennemis en sommeil.
+		- La Frappe Cinétique touchera 2 ennemis adjacents dans une attaque balayante.
+		Le bonus de dégâts et la pénétration de résistance sont proportionnels à votre Puissance Mentale.
+		Un seul talent Transcendant peut être actif à la fois.]], "tformat")
+t("Kinetic Surge", "Élan Cinétique", "talent name")
+t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
+t("#YELLOW##Source# resists #Target#'s throw!", "#YELLOW##Source# résiste au lancer de #Target# !", "logCombat")
 t([[Build telekinetic power and dump it into an adjacent creature or yourself.
 		This will launch them to a targeted location in radius %d.
 
@@ -25637,35 +25607,28 @@ t([[Build telekinetic power and dump it into an adjacent creature or yourself.
 
 		When used on yourself, you will launch in a straight line, knocking enemies flying and doing %0.1f Physical damage to each.
 		You can break through %d walls while doing this.
-		The damage and range increases with Mindpower.]], [[Build telekinetic power and dump it into an adjacent creature or yourself.
-		This will launch them to a targeted location in radius %d.
-
-		Launched enemies take %0.1f Physical damage and are stunned for %d turns upon landing.
-		When the target lands, creatures within radius 2 take %0.1f Physical damage and are knocked away from you.
-		This talent ignores %d%% of the knockback resistance of the thrown target, which takes half damage if it resists being thrown.
-
-		When used on yourself, you will launch in a straight line, knocking enemies flying and doing %0.1f Physical damage to each.
-		You can break through %d walls while doing this.
-		The damage and range increases with Mindpower.]], "tformat")
-t("Deflect Projectiles", "Deflect Projectiles", "talent name")
+		The damage and range increases with Mindpower.]], [[Canalise du pouvoir télékinétique dans une créature adjacente ou en vous-même pour la lancer vers un emplacement dans un rayon de %d.
+		Les ennemis lancés subissent %0.1f dégâts physiques et sont étourdis pendant %d tours à l'atterrissage.
+		Au moment de l'impact, les créatures dans un rayon de 2 subissent %0.1f dégâts physiques et sont repoussées. Le talent ignore %d%% de l'immunité au recul et la cible subit la moitié des dégâts si elle résiste au lancer.
+		En l'utilisant sur vous-même, vous êtes lancé en ligne droite et repoussez les ennemis, infligeant %0.1f dégâts physiques à chacun.
+		Il est possible de traverser %d murs pendant le trajet.
+		Les dégâts et la portée sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Deflect Projectiles", "Déflecteur de Projectiles", "talent name")
 t([[You learn to devote a portion of your attention to mentally swatting, grabbing, or otherwise deflecting incoming projectiles.
 		All projectiles targeting you have a %d%% chance to instead target another spot within radius %d and move %d%% slower.
 		If you choose, you can use your mind to grab all projectiles within radius 10 of you and hurl them toward any location within range %d of you, but this will break your concentration.
-		To do this, deactivate this sustained talent.]], [[You learn to devote a portion of your attention to mentally swatting, grabbing, or otherwise deflecting incoming projectiles.
-		All projectiles targeting you have a %d%% chance to instead target another spot within radius %d and move %d%% slower.
-		If you choose, you can use your mind to grab all projectiles within radius 10 of you and hurl them toward any location within range %d of you, but this will break your concentration.
-		To do this, deactivate this sustained talent.]], "tformat")
-t("Implode", "Implode", "talent name")
+		To do this, deactivate this sustained talent.]], [[Vous consacrez une partie de votre attention à dévier ou saisir les projectiles avec votre esprit.
+		Tout projectile lancé contre vous a %d%% de chance d'être dévié vers un point aléatoire dans un rayon de %d et de se déplacer %d%% plus lentement.
+		De plus, vous pouvez saisir tous les projectiles dans un rayon de 10 et les lancer vers n'importe quel emplacement dans un rayon de %d. Cela exige que vous désactiviez ce talent.]], "tformat")
+t("Implode", "Imploser", "talent name")
 t([[Bind the target mercilessly with constant, bone-shattering pressure, pinning and slowing it by 50%% for %d turns and dealing %0.1f Physical damage each turn.
-		The duration and damage improve with Mindpower.]], [[Bind the target mercilessly with constant, bone-shattering pressure, pinning and slowing it by 50%% for %d turns and dealing %0.1f Physical damage each turn.
-		The duration and damage improve with Mindpower.]], "tformat")
---]==]
-
+		The duration and damage improve with Mindpower.]], [[Immobilise la cible sans pitié grâce à une pression constante et écrasante, la clouant sur place et réduisant sa vitesse de 50%% pendant %d tours. Le poids de cette pression inflige %0.1f dégâts physiques par tour.
+		La durée et les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/mental-discipline.lua"
 
-
+t("Iron Will", "Volonté de Fer", "talent name")
 -- texte non traduit
 --[==[
 t("Aura Discipline", "Aura Discipline", "talent name")
@@ -25674,7 +25637,6 @@ t([[Your expertise in the art of energy projection grows.
 		Aura cooldowns are all reduced by %d turns. Aura damage drains energy more slowly (+%0.2f damage required to lose a point of energy).]], "tformat")
 t("Shield Discipline", "Shield Discipline", "talent name")
 t("Your expertise in the art of energy absorption grows. Shield cooldowns are all reduced by %d turns, the amount of damage absorption required to gain a point of energy is reduced by %0.1f, and the maximum energy you can gain from each shield is increased by %0.1f per turn.", "Your expertise in the art of energy absorption grows. Shield cooldowns are all reduced by %d turns, the amount of damage absorption required to gain a point of energy is reduced by %0.1f, and the maximum energy you can gain from each shield is increased by %0.1f per turn.", "tformat")
-t("Iron Will", "Iron Will", "talent name")
 t("Improves Mental Saves by %d, and stun immunity by %d%%.", "Improves Mental Saves by %d, and stun immunity by %d%%.", "tformat")
 t("Highly Trained Mind", "Highly Trained Mind", "talent name")
 t([[A life of the mind has had predictably good effects on your Willpower and Cunning.
@@ -25761,19 +25723,17 @@ t([[Increases your damage and resistance penetration on sleeping targets by %d%%
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/other.lua"
 
-t("%s's %s", "%s de %s", "tformat", {2,1})
--- texte non traduit
---[==[
-t("Telekinetic Grasp", "Telekinetic Grasp", "talent name")
-t("Telekinetically grasp which item?", "Telekinetically grasp which item?", "_t")
-t("%s telekinetically seizes: %s.", "%s telekinetically seizes: %s.", "logSeen")
+t("Telekinetic Grasp", "Emprise Télékinétique", "talent name")
+t("Telekinetically grasp which item?", "Saisir télékinétiquement quel objet ?", "_t")
+t("%s telekinetically seizes: %s.", "%s saisit télékinétiquement : %s.", "logSeen")
 t([[Telekinetically grasp a weapon or gem using mentally-directed forces, holding it aloft and bringing it to bear with the power of your mind alone.
-		Note: The normal restrictions on worn equipment do not apply to this item.]], [[Telekinetically grasp a weapon or gem using mentally-directed forces, holding it aloft and bringing it to bear with the power of your mind alone.
-		Note: The normal restrictions on worn equipment do not apply to this item.]], "tformat")
-t("Beyond the Flesh", "Beyond the Flesh", "talent name")
-t("#Source#'s mindstar telekinetically grabs #target#!", "#Source#'s mindstar telekinetically grabs #target#!", "logCombat")
-t("%s telekinetically grabs %s!", "%s telekinetically grabs %s!", "logSeen")
-t("You require a telekinetically wielded weapon or gem for your psionic focus.", "You require a telekinetically wielded weapon or gem for your psionic focus.", "logPlayer")
+		Note: The normal restrictions on worn equipment do not apply to this item.]], [[Saisit télékinétiquement une arme ou une gemme en utilisant des forces dirigées mentalement, la maintenant en l'air et la faisant agir par la seule puissance de votre esprit.
+		Note : Les restrictions normales sur les équipements portés ne s'appliquent pas à cet objet.]], "tformat")
+t("Beyond the Flesh", "Au-delà de la Chair", "talent name")
+t("#Source#'s mindstar telekinetically grabs #target#!", "#Source# saisit télékinétiquement #Target# avec son étoile d'âme !", "logCombat")
+t("%s telekinetically grabs %s!", "%s saisit télékinétiquement %s !", "logSeen")
+t("You require a telekinetically wielded weapon or gem for your psionic focus.", "Vous avez besoin d'une arme ou d'une gemme maniée télékinétiquement pour votre focalisation psionique.", "logPlayer")
+t("%s's %s", "%s de %s", "tformat", {2,1})
 t([[Allows you to wield a physical melee or ranged weapon, a mindstar or a gem telekinetically, gaining a special effect for each.
 		A gem will provide a +3 bonus to all primary stats per tier of the gem.
 		A mindstar will randomly try to telekinetically grab a far away foe (10% chance and range 3 for a tier 1 mindstar, +1 range and +5% chance for each tier above 1) and pull it into melee range.
@@ -25781,16 +25741,13 @@ t([[Allows you to wield a physical melee or ranged weapon, a mindstar or a gem t
 		While this talent is active, all melee and ranged attacks use 60% of your Cunning and Willpower in place of Dexterity and Strength for accuracy and damage calculations respectively.
 		
 
-		]], [[Allows you to wield a physical melee or ranged weapon, a mindstar or a gem telekinetically, gaining a special effect for each.
-		A gem will provide a +3 bonus to all primary stats per tier of the gem.
-		A mindstar will randomly try to telekinetically grab a far away foe (10% chance and range 3 for a tier 1 mindstar, +1 range and +5% chance for each tier above 1) and pull it into melee range.
-		A physical melee weapon will act as a semi independant entity, automatically attacking adjacent foes each turn, while a ranged weapon will fire at your target whenever you perform a ranged attack.
-		While this talent is active, all melee and ranged attacks use 60% of your Cunning and Willpower in place of Dexterity and Strength for accuracy and damage calculations respectively.
-		
-
-		]], "_t")
-t("The telekinetically-wielded gem grants you +%d stats.", "The telekinetically-wielded gem grants you +%d stats.", "tformat")
-t("The telekinetically-wielded mindstar has a %d%% chance to grab a foe up to %d range away.", "The telekinetically-wielded mindstar has a %d%% chance to grab a foe up to %d range away.", "tformat")
+		]], [[Permet de manier une arme de corps à corps ou à distance, une étoile d'âme ou une gemme télékinétiquement pour obtenir un effet spécial selon l'objet choisi.
+		Une gemme accorde +3 à tous les attributs primaires par catégorie de gemme.
+		Une étoile d'âme tente d'attraper des ennemis distants de façon aléatoire avec 10%% de chance et 3 de portée au niveau 1, gagnant +5%% de chance et +1 de portée par catégorie supplémentaire.
+		Une arme de corps à corps agit de façon semi-autonome et attaque les ennemis adjacents chaque tour, tandis qu'une arme à distance tire chaque fois que vous effectuez une attaque à distance.
+		Pendant que le talent est actif, tous vos coups utilisent 60%% de votre Volonté pour les dégâts et 60%% de votre Ruse pour la précision, substituant Force et Dextérité respectivement.]], "_t")
+t("The telekinetically-wielded gem grants you +%d stats.", "La gemme maniée télékinétiquement vous accorde +%d à tous les attributs.", "tformat")
+t("The telekinetically-wielded mindstar has a %d%% chance to grab a foe up to %d range away.", "L'étoile d'âme maniée télékinétiquement a %d%% de chance de saisir un ennemi jusqu'à %d de portée.", "tformat")
 t([[The telekinetically-wielded ranged weapon uses Willpower in place of Strength, and Cunning in place of Dexterity, to determine Accuracy and damage respectively.
 			Combat stats:
 			Range: %d
@@ -25798,89 +25755,90 @@ t([[The telekinetically-wielded ranged weapon uses Willpower in place of Strengt
 			Damage: %d
 			APR: %d
 			Crit: %0.1f%%
-			Speed: %0.1f%%]], [[The telekinetically-wielded ranged weapon uses Willpower in place of Strength, and Cunning in place of Dexterity, to determine Accuracy and damage respectively.
-			Combat stats:
-			Range: %d
-			Accuracy: %d
-			Damage: %d
-			APR: %d
-			Crit: %0.1f%%
-			Speed: %0.1f%%]], "tformat")
+			Speed: %0.1f%%]], [[L'arme à distance maniée télékinétiquement utilise la Volonté pour déterminer les dégâts (au lieu de la Force) et la Ruse pour la précision (au lieu de la Dextérité).
+			
+			Attributs de combat :
+			Portée :          %d
+			Précision :       %d
+			Dégâts :          %d
+			Pén. d'armure :   %d
+			Coup critique :   %0.1f%%
+			Vitesse :         %0.1f%%]], "tformat")
 t([[The telekinetically-wielded weapon uses Willpower in place of Strength, and Cunning in place of Dexterity, to determine damage and Accuracy respectively.
 			Combat stats:
 			Accuracy: %d
 			Damage: %d
 			APR: %d
 			Crit: %0.2f
-			Speed: %0.2f]], [[The telekinetically-wielded weapon uses Willpower in place of Strength, and Cunning in place of Dexterity, to determine damage and Accuracy respectively.
-			Combat stats:
-			Accuracy: %d
-			Damage: %d
-			APR: %d
-			Crit: %0.2f
-			Speed: %0.2f]], "tformat")
---]==]
+			Speed: %0.2f]], [[L'arme maniée télékinétiquement utilise la Volonté pour déterminer les dégâts (au lieu de la Force) et la Ruse pour la précision (au lieu de la Dextérité).
 
+			Attributs de combat :
+			Précision :       %d
+			Dégâts :          %d
+			Pén. d'armure :   %d
+			Coup critique :   %0.2f%%
+			Vitesse :         %0.2f%%]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/projection.lua"
 
-t("Frenzied Focus", "Focus Frénétique", "talent name")
--- texte non traduit
---[==[
-t("Kinetic Aura", "Kinetic Aura", "talent name")
-t("You may only sustain two auras at once. Aura activation cancelled.", "You may only sustain two auras at once. Aura activation cancelled.", "logSeen")
-t("The aura dissipates without producing a spike.", "The aura dissipates without producing a spike.", "logPlayer")
+t("Kinetic Aura", "Aura Cinétique", "talent name")
+t("You may only sustain two auras at once. Aura activation cancelled.", "Vous ne pouvez maintenir que deux auras à la fois. Activation de l'aura annulée.", "logSeen")
+t("The aura dissipates without producing a spike.", "L'aura se dissipe sans produire de pic.", "logPlayer")
 t([[Fills the air around you with reactive currents of force.
 		If you have a gem or mindstar in your psionically wielded slot, this will do %0.1f Physical damage to all adjacent enemies, costing %0.1f energy per creature. 
 		If you have a conventional weapon in your psionically wielded slot, this will add %0.1f Physical damage to all your weapon hits, costing %0.1f energy per hit.
 		When deactivated, if you have at least %d energy, a massive spike of kinetic energy is released as a range %d beam, smashing targets for up to %d physical damage and sending them flying.
 		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
 		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
-		You can only have two of these auras active at once.]], [[Fills the air around you with reactive currents of force.
-		If you have a gem or mindstar in your psionically wielded slot, this will do %0.1f Physical damage to all adjacent enemies, costing %0.1f energy per creature. 
-		If you have a conventional weapon in your psionically wielded slot, this will add %0.1f Physical damage to all your weapon hits, costing %0.1f energy per hit.
-		When deactivated, if you have at least %d energy, a massive spike of kinetic energy is released as a range %d beam, smashing targets for up to %d physical damage and sending them flying.
-		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
-		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
-		You can only have two of these auras active at once.]], "tformat")
-t("Thermal Aura", "Thermal Aura", "talent name")
+		You can only have two of these auras active at once.]], [[Remplit l'air autour de vous de courants de force réactifs.
+		Si vous portez une gemme ou une étoile d'âme dans votre emplacement manié par télékinésie, cela inflige %0.1f dégâts physiques à tous les ennemis adjacents, pour un coût de %0.1f énergie par créature.
+		Si vous portez une arme conventionnelle dans votre emplacement manié par télékinésie, cela ajoute %0.1f dégâts physiques à toutes vos attaques avec l'arme, pour un coût de %0.1f énergie par toucher.
+		À la désactivation, si vous avez au moins %d énergie, un pic massif d'énergie cinétique est libéré sous la forme d'un rayon de portée %d, fracassant les cibles pour un maximum de %d dégâts physiques et les projetant au loin.
+		#{bold}#Activer l'aura ne prend pas de temps, mais la désactiver en prend.#{normal}#
+		Pour couper une aura sans libérer de pic, désactivez-la et ciblez-vous vous-même.
+		Les dégâts sont proportionnels à votre Puissance Mentale.
+		Vous ne pouvez avoir que deux de ces auras actives à la fois.]], "tformat")
+t("Thermal Aura", "Aura Thermique", "talent name")
 t([[Fills the air around you with reactive currents of furnace-like heat.
 		If you have a gem or mindstar in your psionically wielded slot, this will do %0.1f Fire damage to all adjacent enemies, costing %0.1f energy per creature. 
 		If you have a conventional weapon in your psionically wielded slot, this will add %0.1f Fire damage to all your weapon hits, costing %0.1f energy per hit.
 		When deactivated, if you have at least %d energy, a massive spike of thermal energy is released as a conical blast (radius %d) of superheated air. Anybody caught in it will suffer up to %d fire damage over several turns.
 		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
 		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
-		You can only have two of these auras active at once.]], [[Fills the air around you with reactive currents of furnace-like heat.
-		If you have a gem or mindstar in your psionically wielded slot, this will do %0.1f Fire damage to all adjacent enemies, costing %0.1f energy per creature. 
-		If you have a conventional weapon in your psionically wielded slot, this will add %0.1f Fire damage to all your weapon hits, costing %0.1f energy per hit.
-		When deactivated, if you have at least %d energy, a massive spike of thermal energy is released as a conical blast (radius %d) of superheated air. Anybody caught in it will suffer up to %d fire damage over several turns.
-		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
-		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
-		You can only have two of these auras active at once.]], "tformat")
-t("Charged Aura", "Charged Aura", "talent name")
+		You can only have two of these auras active at once.]], [[Remplit l'air autour de vous de courants réactifs d'une chaleur de fournaise.
+		Si vous portez une gemme ou une étoile d'âme dans votre emplacement manié par télékinésie, cela inflige %0.1f dégâts de feu à tous les ennemis adjacents, pour un coût de %0.1f énergie par créature.
+		Si vous portez une arme conventionnelle dans votre emplacement manié par télékinésie, cela ajoute %0.1f dégâts de feu à toutes vos attaques avec l'arme, pour un coût de %0.1f énergie par toucher.
+		À la désactivation, si vous avez au moins %d énergie, un pic massif d'énergie thermique est libéré sous la forme d'une décharge conique (rayon %d) d'air surchauffé. Quiconque est pris dedans subira jusqu'à %d dégâts de feu sur plusieurs tours.
+		#{bold}#Activer l'aura ne prend pas de temps, mais la désactiver en prend.#{normal}#
+		Pour couper une aura sans libérer de pic, désactivez-la et ciblez-vous vous-même.
+		Les dégâts sont proportionnels à votre Puissance Mentale.
+		Vous ne pouvez avoir que deux de ces auras actives à la fois.]], "tformat")
+t("Charged Aura", "Aura Chargée", "talent name")
 t([[Fills the air around you with crackling energy.
 		If you have a gem or mindstar in your psionically wielded slot, this will do %0.1f Lightning damage to all adjacent enemies, costing %0.1f energy per creature. 
 		If you have a conventional weapon in your psionically wielded slot, this will add %0.1f Lightning damage to all your weapon hits, costing %0.1f energy per hit.
 		When deactivated, if you have at least %d energy, a massive spike of electrical energy jumps between up to %d nearby targets, doing up to %0.1f Lightning damage to each with a 50%% chance of dazing them.
 		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
 		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
-		You can only have two of these auras active at once.]], [[Fills the air around you with crackling energy.
-		If you have a gem or mindstar in your psionically wielded slot, this will do %0.1f Lightning damage to all adjacent enemies, costing %0.1f energy per creature. 
-		If you have a conventional weapon in your psionically wielded slot, this will add %0.1f Lightning damage to all your weapon hits, costing %0.1f energy per hit.
-		When deactivated, if you have at least %d energy, a massive spike of electrical energy jumps between up to %d nearby targets, doing up to %0.1f Lightning damage to each with a 50%% chance of dazing them.
-		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
-		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
-		You can only have two of these auras active at once.]], "tformat")
+		You can only have two of these auras active at once.]], [[Remplit l'air autour de vous d'une énergie crépitante.
+		Si vous portez une gemme ou une étoile d'âme dans votre emplacement manié par télékinésie, cela inflige %0.1f dégâts de foudre à tous les ennemis adjacents, pour un coût de %0.1f énergie par créature.
+		Si vous portez une arme conventionnelle dans votre emplacement manié par télékinésie, cela ajoute %0.1f dégâts de foudre à toutes vos attaques avec l'arme, pour un coût de %0.1f énergie par toucher.
+		À la désactivation, si vous avez au moins %d énergie, un pic massif d'énergie électrique saute entre un maximum de %d cibles proches, infligeant jusqu'à %0.1f dégâts de foudre à chacune avec 50%% de chances de les hébéter.
+		#{bold}#Activer l'aura ne prend pas de temps, mais la désactiver en prend.#{normal}#
+		Pour couper une aura sans libérer de pic, désactivez-la et ciblez-vous vous-même.
+		Les dégâts sont proportionnels à votre Puissance Mentale.
+		Vous ne pouvez avoir que deux de ces auras actives à la fois.]], "tformat")
+t("Frenzied Focus", "Focus Frénétique", "talent name")
 t([[Overcharge your psionic focus with energy for %d turns, producing a different effect depending on what it is.
 		A telekinetically wielded melee weapon enters a frenzy, striking up to %d enemies per turn, also increases the radius by %d.
 		A mindstar will attempt to pull in all enemies within its normal range.
-		A gem will fire an energy bolt at a random enemy in range 6, each turn for %0.1f damage. The type is determined by the colour of the gem. Damage scales with Mindpower.]], [[Overcharge your psionic focus with energy for %d turns, producing a different effect depending on what it is.
-		A telekinetically wielded melee weapon enters a frenzy, striking up to %d enemies per turn, also increases the radius by %d.
-		A mindstar will attempt to pull in all enemies within its normal range.
-		A gem will fire an energy bolt at a random enemy in range 6, each turn for %0.1f damage. The type is determined by the colour of the gem. Damage scales with Mindpower.]], "tformat")
---]==]
-
+		A gem will fire an energy bolt at a random enemy in range 6, each turn for %0.1f damage. The type is determined by the colour of the gem. Damage scales with Mindpower.]], [[Surcharge votre foyer psionique d'énergie pendant %d tours, produisant un effet différent selon l'objet équipé.
+		Une arme de corps à corps maniée par télékinésie entre en frénésie, frappant jusqu'à %d ennemis par tour, et voit son rayon augmenter de %d.
+		Une étoile d'âme tentera d'attirer à elle tous les ennemis situés à sa portée normale.
+		Une gemme tirera chaque tour un projectile d'énergie sur un ennemi aléatoire à une portée de 6 cases, infligeant %0.1f dégâts.
+		Le type de dégâts est déterminé par la couleur de la gemme.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/psi-archery.lua"
@@ -25922,47 +25880,43 @@ t([[You temporarily set aside a part of you mind to direct your telekinetically-
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/psi-fighting.lua"
 
-t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s fracasse le bouclier de %s !", "logSeen")
--- nouveau texte
---[==[
-t([[Focus your will into a powerful thrust of your telekinetically-wielded weapon to impale your target and then viciously rip it free.
-		This deals %d%% weapon damage and then causes the victim to bleed for %0.1f Physical damage over four turns.
-		At level 3 the thrust is so powerful that it has %d%% chance to shatter a random temporary magical or psionic damage absorbing shield if one exists.
-		The bleeding damage increases with your Mindpower.]], [[Focus your will into a powerful thrust of your telekinetically-wielded weapon to impale your target and then viciously rip it free.
-		This deals %d%% weapon damage and then causes the victim to bleed for %0.1f Physical damage over four turns.
-		At level 3 the thrust is so powerful that it has %d%% chance to shatter a random temporary magical or psionic damage absorbing shield if one exists.
-		The bleeding damage increases with your Mindpower.]], "tformat")
---]==]
-
--- texte non traduit
---[==[
-t("Telekinetic Smash", "Telekinetic Smash", "talent name")
-t("You cannot do that without a weapon in your hands.", "You cannot do that without a weapon in your hands.", "logPlayer")
+t("Telekinetic Smash", "Fracas Télékinétique", "talent name")
+t("You cannot do that without a weapon in your hands.", "Vous ne pouvez pas faire cela sans une arme en main.", "logPlayer")
 t([[Gather your will, and brutally smash the target with your mainhand weapon and then your telekinetically wielded weapon, doing %d%% weapon damage.
 		If your mainhand weapon hits, you will also stun the target for %d turns.
 		This attack uses 60%% of your Willpower and Cunning instead of Strength and Dexterity to determine weapon damage and accuracy, for both attacks.
-		Any active Aura damage bonusses will extend to the weapons used for this attack.]], [[Gather your will, and brutally smash the target with your mainhand weapon and then your telekinetically wielded weapon, doing %d%% weapon damage.
-		If your mainhand weapon hits, you will also stun the target for %d turns.
-		This attack uses 60%% of your Willpower and Cunning instead of Strength and Dexterity to determine weapon damage and accuracy, for both attacks.
-		Any active Aura damage bonusses will extend to the weapons used for this attack.]], "tformat")
-t("Augmentation", "Augmentation", "talent name")
+		Any active Aura damage bonusses will extend to the weapons used for this attack.]], [[Rassemble votre volonté et fracasse brutalement la cible avec votre arme principale puis avec l'arme maniée télékinétiquement, infligeant %d%% dégâts d'arme.
+		Si votre arme principale touche, vous étourdissez également la cible pendant %d tours.
+		Cette attaque utilise 60%% de votre Volonté et Ruse au lieu de la Force et Dextérité pour déterminer les dégâts et la précision, pour les deux attaques.
+		Tout bonus de dégâts d'Aura actif sera étendu aux armes utilisées dans cette attaque.]], "tformat")
 t([[While active, you give your flesh and blood body a boost in the form of precisely applied mental forces. Increases Strength and Dexterity by %d%% of your Willpower and Cunning, respectively.
 		Strength increased by %d
-		Dexterity increased by %d]], [[While active, you give your flesh and blood body a boost in the form of precisely applied mental forces. Increases Strength and Dexterity by %d%% of your Willpower and Cunning, respectively.
-		Strength increased by %d
-		Dexterity increased by %d]], "tformat")
-t("Warding Weapon", "Warding Weapon", "talent name")
+		Dexterity increased by %d]], [[Pendant que le talent est actif, vous renforcez votre corps de chair et d'os avec des forces mentales appliquées avec précision. Augmente la Force et la Dextérité de %d%% de votre Volonté et Ruse, respectivement.
+		Force augmentée de %d.
+		Dextérité augmentée de %d.]], "tformat")
+t("Warding Weapon", "Arme de Protection", "talent name")
 t([[Assume a defensive mental state.
 		For one turn, you will fully block the next melee attack used against you with your telekinetically-wielded weapon and then strike the attacker with it for %d%% weapon damage.
 		At talent level 3 you will also disarm the attacker for 3 turns.
 		At talent level 5 you will be able to reflexively block up to one attack per turn with a %d%% chance, based on your cunning. Each trigger requires and uses 10 Psi.
-		This requires a telekinetically-wielded weapon.]], [[Assume a defensive mental state.
-		For one turn, you will fully block the next melee attack used against you with your telekinetically-wielded weapon and then strike the attacker with it for %d%% weapon damage.
-		At talent level 3 you will also disarm the attacker for 3 turns.
-		At talent level 5 you will be able to reflexively block up to one attack per turn with a %d%% chance, based on your cunning. Each trigger requires and uses 10 Psi.
-		This requires a telekinetically-wielded weapon.]], "tformat")
-t("Impale", "Impale", "talent name")
-t("You cannot do that without a weapon in your telekinetic slot.", "You cannot do that without a weapon in your telekinetic slot.", "logPlayer")
+		This requires a telekinetically-wielded weapon.]], [[Adopte un état mental défensif.
+		Pendant 1 tour, vous bloquerez entièrement la prochaine attaque au corps à corps utilisée contre vous avec votre arme maniée télécinétiquement, puis frapperez l'agresseur avec elle, infligeant %d%% dégâts.
+		Au niveau 3, vous désarmerez également l'attaquant pendant 3 tours.
+		Au niveau 5, vous aurez %d%% de chance de bloquer réflexivement 1 attaque par tour, selon votre Ruse. Chaque déclenchement nécessite et utilise 10 Psi.
+		Nécessite une arme maniée télékinétiquement.]], "tformat")
+t("Impale", "Empaler", "talent name")
+t("You cannot do that without a weapon in your telekinetic slot.", "Vous ne pouvez pas faire cela sans une arme dans votre emplacement télékinétique.", "logPlayer")
+t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s fracasse le bouclier de %s !", "logSeen")
+t([[Focus your will into a powerful thrust of your telekinetically-wielded weapon to impale your target and then viciously rip it free.
+		This deals %d%% weapon damage and then causes the victim to bleed for %0.1f Physical damage over four turns.
+		At level 3 the thrust is so powerful that it has %d%% chance to shatter a random temporary magical or psionic damage absorbing shield if one exists.
+		The bleeding damage increases with your Mindpower.]], [[Concentre votre volonté en une puissante poussée de votre arme télékinétique pour empaler la cible, puis l'arracher violemment.
+		Inflige %d%% dégâts et fait saigner la victime pour %0.1f dégâts physiques sur 4 tours.
+		Au niveau 3, la poussée est si puissante qu'elle a %d%% de chance de briser un bouclier magique ou psionique temporaire aléatoire, s'il en existe un.
+		Les dégâts de saignement sont proportionnels à votre Puissance Mentale.]], "tformat")
+-- texte non traduit
+--[==[
+t("Augmentation", "Augmentation", "talent name")
 --]==]
 
 
@@ -25970,58 +25924,58 @@ t("You cannot do that without a weapon in your telekinetic slot.", "You cannot d
 section "mod-tome/data/talents/psionic/psionic.lua"
 
 t("psionic", "psionique", "talent category")
+t("Absorb damage and gain energy.", "Absorbez des dégâts et gagnez de l'énergie.", "_t")
+t("Project energy to damage foes.", "Projetez de l'énergie pour blesser les ennemis.", "_t")
+t("psi-fighting", "combat psionique", "talent type")
+t("Wield melee weapons with mentally-manipulated forces.", "Maniez des armes de corps à corps avec des forces manipulées mentalement.", "_t")
+t("focus", "concentration", "talent type")
+t("Use gems to focus your energies.", "Utilisez des gemmes pour concentrer vos énergies.", "_t")
+t("augmented mobility", "mobilité augmentée", "talent type")
+t("Use energy to move yourself and others.", "Utilisez l'énergie pour vous déplacer et déplacer les autres.", "_t")
+t("augmented striking", "frappe augmentée", "talent type")
+t("Augment melee attacks with psionic enegies.", "Augmentez vos attaques de corps à corps avec des énergies psioniques.", "_t")
+t("voracity", "voracité", "talent type")
+t("Pull energy from your surroundings.", "Extrayez de l'énergie de votre environnement.", "_t")
+t("finer energy manipulations", "manipulations énergétiques précise", "talent type")
+t("Subtle applications of the psionic arts.", "Applications subtiles des arts psioniques.", "_t")
 t("other", "autre", "talent type")
+t("Various psionic talents.", "Divers talents psioniques.", "_t")
+t("kinetic mastery", "maîtrise cinétique", "talent type")
+t("Mastery of telekinetic forces.", "Maîtrise des forces télécinétiques.", "_t")
+t("thermal mastery", "maîtrise thermique", "talent type")
+t("Mastery of pyrokinetic forces.", "Maîtrise des forces pyrokinétiques.", "_t")
+t("charged mastery", "maîtrise des charges", "talent type")
+t("Mastery of electrokinetic forces.", "Maîtrise des forces électrokinétiques.", "_t")
+t("discharge", "décharge", "talent type")
+t("Project feedback on the world around you.", "Projetez de la Rétroaction sur le monde qui vous entoure.", "_t")
 t("distortion", "distorsion", "talent type")
-t("nightmare", "cauchemard", "talent type")
+t("Distort reality with your mental energy.", "Distordez la réalité avec votre énergie mentale.", "_t")
+t("Dream Smith", "forgeron des rêves", "talent type")
+t("Call the dream-forge hammer to smite your foes.", "Invoquez le marteau de la forge des rêves pour frapper vos ennemis.", "_t")
+t("nightmare", "cauchemar", "talent type")
+t("Manifest your enemies nightmares.", "Manifestez les cauchemars de vos ennemis.", "_t")
+t("Psychic Assault", "assaut psychique", "talent type")
+t("Directly attack your opponents minds.", "Attaquez directement l'esprit de vos adversaires.", "_t")
+t("slumber", "sommeil", "talent type")
+t("Force enemies into a deep sleep.", "Forcez les ennemis dans un sommeil profond.", "_t")
+t("solipsism", "solipsisme", "talent type")
+t("Nothing exists outside the minds ability to perceive it.", "Rien n'existe en dehors de la capacité de l'esprit à le percevoir.", "_t")
+t("Thought-Forms", "formes de pensée", "talent type")
+t("Manifest your thoughts as psionic summons.", "Manifestez vos pensées comme invocations psioniques.", "_t")
+t("Dream Forge", "forge des rêves", "talent type")
+t("Master the dream forge to create powerful armor and effects.", "Maîtrisez la forge des rêves pour créer des armures et effets puissants.", "_t")
+t("dreaming", "rêve", "talent type")
+t("Manipulate the sleep cycles of yourself and your enemies.", "Manipulez le cycle de sommeil de vous-même et de vos ennemis.", "_t")
+t("mentalism", "mentalisme", "talent type")
+t("Various mind based effects.", "Divers effets basés sur l'esprit.", "_t")
+t("feedback", "rétroaction", "talent type")
+t("Store feedback as you get damaged and use it to protect and heal your body.", "Stockez de la Rétroaction en subissant des dégâts et utilisez-la pour protéger et soigner votre corps.", "_t")
+t("trance", "transe", "talent type")
+t("Put your mind into a deep trance.", "Plongez votre esprit dans une transe profonde.", "_t")
 -- texte non traduit
 --[==[
 t("absorption", "absorption", "talent type")
-t("Absorb damage and gain energy.", "Absorb damage and gain energy.", "_t")
 t("projection", "projection", "talent type")
-t("Project energy to damage foes.", "Project energy to damage foes.", "_t")
-t("psi-fighting", "psi-fighting", "talent type")
-t("Wield melee weapons with mentally-manipulated forces.", "Wield melee weapons with mentally-manipulated forces.", "_t")
-t("focus", "focus", "talent type")
-t("Use gems to focus your energies.", "Use gems to focus your energies.", "_t")
-t("augmented mobility", "augmented mobility", "talent type")
-t("Use energy to move yourself and others.", "Use energy to move yourself and others.", "_t")
-t("augmented striking", "augmented striking", "talent type")
-t("Augment melee attacks with psionic enegies.", "Augment melee attacks with psionic enegies.", "_t")
-t("voracity", "voracity", "talent type")
-t("Pull energy from your surroundings.", "Pull energy from your surroundings.", "_t")
-t("finer energy manipulations", "finer energy manipulations", "talent type")
-t("Subtle applications of the psionic arts.", "Subtle applications of the psionic arts.", "_t")
-t("Various psionic talents.", "Various psionic talents.", "_t")
-t("kinetic mastery", "kinetic mastery", "talent type")
-t("Mastery of telekinetic forces.", "Mastery of telekinetic forces.", "_t")
-t("thermal mastery", "thermal mastery", "talent type")
-t("Mastery of pyrokinetic forces.", "Mastery of pyrokinetic forces.", "_t")
-t("charged mastery", "charged mastery", "talent type")
-t("Mastery of electrokinetic forces.", "Mastery of electrokinetic forces.", "_t")
-t("discharge", "discharge", "talent type")
-t("Project feedback on the world around you.", "Project feedback on the world around you.", "_t")
-t("Distort reality with your mental energy.", "Distort reality with your mental energy.", "_t")
-t("Dream Smith", "Dream Smith", "talent type")
-t("Call the dream-forge hammer to smite your foes.", "Call the dream-forge hammer to smite your foes.", "_t")
-t("Manifest your enemies nightmares.", "Manifest your enemies nightmares.", "_t")
-t("Psychic Assault", "Psychic Assault", "talent type")
-t("Directly attack your opponents minds.", "Directly attack your opponents minds.", "_t")
-t("slumber", "slumber", "talent type")
-t("Force enemies into a deep sleep.", "Force enemies into a deep sleep.", "_t")
-t("solipsism", "solipsism", "talent type")
-t("Nothing exists outside the minds ability to perceive it.", "Nothing exists outside the minds ability to perceive it.", "_t")
-t("Thought-Forms", "Thought-Forms", "talent type")
-t("Manifest your thoughts as psionic summons.", "Manifest your thoughts as psionic summons.", "_t")
-t("Dream Forge", "Dream Forge", "talent type")
-t("Master the dream forge to create powerful armor and effects.", "Master the dream forge to create powerful armor and effects.", "_t")
-t("dreaming", "dreaming", "talent type")
-t("Manipulate the sleep cycles of yourself and your enemies.", "Manipulate the sleep cycles of yourself and your enemies.", "_t")
-t("mentalism", "mentalism", "talent type")
-t("Various mind based effects.", "Various mind based effects.", "_t")
-t("feedback", "feedback", "talent type")
-t("Store feedback as you get damaged and use it to protect and heal your body.", "Store feedback as you get damaged and use it to protect and heal your body.", "_t")
-t("trance", "trance", "talent type")
-t("Put your mind into a deep trance.", "Put your mind into a deep trance.", "_t")
 --]==]
 
 
@@ -26057,13 +26011,13 @@ t([[Cripples the target's mind, inflicting %0.2f mind damage and reducing its Me
 section "mod-tome/data/talents/psionic/slumber.lua"
 
 t("Slumber", "Torpeur", "talent name")
+t("%s resists the sleep!", "%s résiste au sommeil !", "logSeen")
 t("Restless Night", "Nuit Agitée", "talent name")
 t("Dreamscape", "Monde Onirique", "talent name")
 t("This talent cannot be used here.", "Ce talent ne peut pas être utilisé ici.", "logPlayer")
 t("The spell fizzles...", "Le sort échoue...", "logPlayer")
 -- texte non traduit
 --[==[
-t("%s resists the sleep!", "%s resists the sleep!", "logSeen")
 t([[Puts the target into a deep sleep for %d turns, rendering it unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
 		When Slumber ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
 		The damage threshold will scale with your Mindpower.]], [[Puts the target into a deep sleep for %d turns, rendering it unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
@@ -26134,11 +26088,10 @@ t([[Each time you take damage, you roll %d%% of your mental save against it.  A 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/telekinetic-combat.lua"
 
-
+t("You cannot do that without a weapon in your hands.", "Vous ne pouvez pas faire cela sans une arme en main.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Telekinetic Assault", "Telekinetic Assault", "talent name")
-t("You cannot do that without a weapon in your hands.", "You cannot do that without a weapon in your hands.", "logPlayer")
 t([[Assault your target with all weapons, dealing two strikes with your telekinetically-wielded weapon for %d%% damage followed by an attack with your physical weapon for %d%% damage.
 		This physical weapon attack uses your Willpower and Cunning instead of Strength and Dexterity to determine Accuracy and damage.
 		Any active Aura damage bonusses will extend to your main weapons for this attack.]], [[Assault your target with all weapons, dealing two strikes with your telekinetically-wielded weapon for %d%% damage followed by an attack with your physical weapon for %d%% damage.
@@ -26151,8 +26104,6 @@ t([[Assault your target with all weapons, dealing two strikes with your telekine
 section "mod-tome/data/talents/psionic/thermal-mastery.lua"
 
 t("Transcendent Pyrokinesis", "Pyrokinésie Transcendante", "talent name")
--- texte non traduit
---[==[
 t([[For %d turns your pyrokinesis transcends your normal limits, increasing your Fire and Cold damage by %d%% and your Fire and Cold resistance penetration by %d%%.
 		In addition:
 		The cooldowns of Thermal Shield, Thermal Leech, Thermal Aura, Thermal Strike and Pyrokinesis are reset.
@@ -26162,45 +26113,44 @@ t([[For %d turns your pyrokinesis transcends your normal limits, increasing your
 		Thermal Leech will reduce enemy damage by %d%%.
 		Thermal Strike will have its secondary cold/freeze explode in radius 1.
 		The damage bonus and resistance penetration scale with your Mindpower.
-		Only one Transcendent talent may be in effect at a time.]], [[For %d turns your pyrokinesis transcends your normal limits, increasing your Fire and Cold damage by %d%% and your Fire and Cold resistance penetration by %d%%.
-		In addition:
-		The cooldowns of Thermal Shield, Thermal Leech, Thermal Aura, Thermal Strike and Pyrokinesis are reset.
-		Thermal Aura effects will have their radius increased by 1.
-		Your Thermal Shield will have 100%% absorption efficiency and will absorb twice the normal amount of damage.
-		Pyrokinesis will inflict Flameshock.
-		Thermal Leech will reduce enemy damage by %d%%.
-		Thermal Strike will have its secondary cold/freeze explode in radius 1.
-		The damage bonus and resistance penetration scale with your Mindpower.
-		Only one Transcendent talent may be in effect at a time.]], "tformat")
-t("Brainfreeze", "Brainfreeze", "talent name")
+		Only one Transcendent talent may be in effect at a time.]], [[Pendant %d tours, votre pyrokinèse transcende vos limites normales, augmentant vos dégâts de feu et froid de %d%% et votre pénétration de résistance au feu et froid de %d%%.
+		De plus :
+		- Bouclier Thermique, Extraction Thermique, Aura Thermique, Frappe Thermique et Pyrocinèse voient leurs rechargements réinitialisés.
+		- L'Aura Thermique voit le rayon de ses effets augmenter de 1.
+		- Le Bouclier Thermique a 100%% d'efficacité d'absorption et absorbe le double de la quantité normale de dégâts.
+		- La Pyrocinèse causera un Choc de Flammes.
+		- L'Extraction Thermique réduira les dégâts de l'ennemi de %d%%.
+		- La Frappe Thermique fera exploser son gel/froid secondaire dans un rayon de 1.
+		Le bonus de dégâts et la pénétration de résistance sont proportionnels à votre Puissance Mentale.
+		Un seul talent Transcendant peut être actif à la fois.]], "tformat")
+t("Brainfreeze", "Gel Cérébral", "talent name")
 t([[Quickly drain the heat from your target's brain, dealing %0.1f Cold damage.
 		Affected creatures will also be brainlocked for 4 turns, putting a random talent on cooldown, and freezing cooldowns.
-		The damage and chance to brainlock increase with your Mindpower.]], [[Quickly drain the heat from your target's brain, dealing %0.1f Cold damage.
-		Affected creatures will also be brainlocked for 4 turns, putting a random talent on cooldown, and freezing cooldowns.
-		The damage and chance to brainlock increase with your Mindpower.]], "tformat")
-t("Heat Shift", "Heat Shift", "talent name")
+		The damage and chance to brainlock increase with your Mindpower.]], [[Draine rapidement la chaleur du cerveau de votre cible, infligeant %0.1f dégâts de froid.
+		Les créatures affectées souffriront également d'une Paralysie Mentale pendant 4 tours, mettant un talent aléatoire en rechargement et gelant les rechargements.
+		Les dégâts et la chance de Paralysie Mentale sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Heat Shift", "Transfert de Chaleur", "talent name")
 t([[Within radius %d, transfer heat from a group of enemies bodies to their equipment, freezing them to the floor while the excess heat disables their weapons and armor.
 		Those afflicted will be dealt %0.1f Cold and %0.1f Fire damage, and be pinned (Frozen Feet) and disarmed for %d turns.
 		Targets suffering both types of damage will also have have their Armour and saves reduced by %d.
-		The chance to apply the effects and the duration increase with your Mindpower.]], [[Within radius %d, transfer heat from a group of enemies bodies to their equipment, freezing them to the floor while the excess heat disables their weapons and armor.
-		Those afflicted will be dealt %0.1f Cold and %0.1f Fire damage, and be pinned (Frozen Feet) and disarmed for %d turns.
-		Targets suffering both types of damage will also have have their Armour and saves reduced by %d.
-		The chance to apply the effects and the duration increase with your Mindpower.]], "tformat")
-t("Thermal Balance", "Thermal Balance", "talent name")
+		The chance to apply the effects and the duration increase with your Mindpower.]], [[Dans un rayon de %d, vous drainez la chaleur vitale des ennemis et la projetez sur leurs équipements pour geler les corps des cibles pendant que la chaleur excédentaire neutralise leurs armes et armures.
+		Les cibles subissent %0.1f dégâts de froid et %0.1f dégâts de feu, et restent immobilisées (pieds gelés) et désarmées pendant %d tours.
+		Si elles subissent les deux types de dégâts, leur armure et leurs sauvegardes sont également réduites de %d.
+		La chance d'appliquer les effets et la durée sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Thermal Balance", "Équilibre Thermique", "talent name")
 t([[You seek balance between fire and cold based on your current Psi level.
 		You blast your foes with %0.1f Fire damage based on your current Psi, %0.1f Cold damage based on your max Psi minus your current Psi, in a radius %d ball.
 		This sets your current Psi to half of your maximum Psi.
-		The damage scales with your Mindpower.]], [[You seek balance between fire and cold based on your current Psi level.
-		You blast your foes with %0.1f Fire damage based on your current Psi, %0.1f Cold damage based on your max Psi minus your current Psi, in a radius %d ball.
-		This sets your current Psi to half of your maximum Psi.
-		The damage scales with your Mindpower.]], "tformat")
---]==]
-
+		The damage scales with your Mindpower.]], [[Vous cherchez l'équilibre parfait entre le feu et le froid basé sur votre niveau de Psi actuel.
+		Les ennemis subissent %0.1f dégâts de feu proportionnels à votre Psi actuel et %0.1f dégâts de froid basés sur la différence entre votre Psi actuel et le maximum dans une zone de rayon %d.
+		Cet acte stabilise votre esprit et définit votre Psi actuel à la moitié de votre maximum.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/thought-forms.lua"
 
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
+t("Thought-Forms", "formes de pensée", "talent name")
 -- texte non traduit
 --[==[
 t("thought-form", "thought-form", "_t")
@@ -26228,7 +26178,6 @@ t([[Forge a defender wielding a sword and shield from your thoughts.  The solide
 		The stat bonuses will improve with your Mindpower.]], [[Forge a defender wielding a sword and shield from your thoughts.  The solider learns Armor Training, Weapon Mastery, Combat Accuracy, Shield Pummel, and Shield Wall as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
 		Activating this talent will put all other thought-forms on cooldown.
 		The stat bonuses will improve with your Mindpower.]], "tformat")
-t("Thought-Forms", "Thought-Forms", "talent name")
 t([[Forge a guardian from your thoughts alone.  Your guardian's primary stat will be improved by %d, its two secondary stats by %d, and it will have Magic, Cunning, and Willpower equal to your own.
 		At talent level one, you may forge a mighty bowman clad in leather armor; at level three a powerful warrior wielding a two-handed weapon; and at level five a strong defender using a sword and shield.
 		Thought forms can only be maintained up to a range of %d, and will rematerialize next to you if this range is exceeded.
@@ -26288,36 +26237,35 @@ t([[When you wield or wear an item infused by psionic, nature, or arcane-disrupt
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/voracity.lua"
 
-
--- texte non traduit
---[==[
-t("Kinetic Leech", "Kinetic Leech", "talent name")
-t("%s resists the sleep!", "%s resists the sleep!", "logSeen")
+t("Kinetic Leech", "Extraction Cinétique", "talent name")
+t("%s resists the sleep!", "%s résiste au sommeil !", "logSeen")
 t([[You draw kinetic energy from your surroundings to replenish your Psi.
 		This will slow all targets within radius %d by %d%% (max %d%%) for four turns, draining %0.1f (max %0.1f) stamina from each.
 		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
-		The strength of these effects increases as your Psi depletes and with your Mindpower.]], [[You draw kinetic energy from your surroundings to replenish your Psi.
-		This will slow all targets within radius %d by %d%% (max %d%%) for four turns, draining %0.1f (max %0.1f) stamina from each.
-		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
-		The strength of these effects increases as your Psi depletes and with your Mindpower.]], "tformat")
-t("Thermal Leech", "Thermal Leech", "talent name")
+		The strength of these effects increases as your Psi depletes and with your Mindpower.]], [[Vous extrayez l'énergie cinétique de votre environnement pour restaurer votre Psi.
+		Ce processus ralentit tous les cibles dans un rayon de %d de %d%% (maximum de %d%%) pendant 4 tours et draine %0.1f (maximum de %0.1f) d'endurance de chacun.
+		Vous récupérez %d (maximum de %d) de Psi du premier ennemi et chaque ennemi supplémentaire en restaure 20%% de moins que le précédent.
+		La force de ce talent est proportionnel à mesure que votre Psi ainsi qu'à votre Puissance Mentale.]], "tformat")
+t("Thermal Leech", "Extraction Thermique", "talent name")
 t([[You draw thermal energy from your surroundings to replenish your Psi.
 		This will freeze all targets within radius %d for %d (max %d) turns, and deal %0.1f (max %0.1f) Cold damage.
 		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
-		The damage and the strength of these effects increases as your Psi depletes and with your Mindpower.]], [[You draw thermal energy from your surroundings to replenish your Psi.
-		This will freeze all targets within radius %d for %d (max %d) turns, and deal %0.1f (max %0.1f) Cold damage.
-		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
-		The damage and the strength of these effects increases as your Psi depletes and with your Mindpower.]], "tformat")
-t("Charge Leech", "Charge Leech", "talent name")
+		The damage and the strength of these effects increases as your Psi depletes and with your Mindpower.]], [[Vous extrayez l'énergie thermique de votre environnement pour restaurer votre Psi.
+		Ce processus gèle tous les cibles dans un rayon de %d pendant %d (maximum de %d) tours et inflige %0.1f (maximum de %0.1f) dégâts de froid.
+		Vous récupérez %d (maximum de %d) de Psi du premier ennemi et chaque ennemi supplémentaire en restaure 20%% de moins que le précédent.
+		La force de ce talent est proportionnel à mesure que votre Psi ainsi qu'à votre Puissance Mentale.]], "tformat")
+t("Charge Leech", "Extraction Chargée", "talent name")
 t([[You draw electical potential energy from your surroundings to replenish your Psi.
 		This deals %0.1f (max %0.1f) Lightning damage to all targets around you within radius %d, and has a %d%% (max %d%%) chance to daze them for 3 turns.
 		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
-		The strength of these effects increases as your Psi depletes and with your Mindpower.]], [[You draw electical potential energy from your surroundings to replenish your Psi.
-		This deals %0.1f (max %0.1f) Lightning damage to all targets around you within radius %d, and has a %d%% (max %d%%) chance to daze them for 3 turns.
-		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
-		The strength of these effects increases as your Psi depletes and with your Mindpower.]], "tformat")
+		The strength of these effects increases as your Psi depletes and with your Mindpower.]], [[Vous extrayez l'énergie électrique potentielle de votre environnement pour restaurer votre Psi.
+		Ce processus inflige %0.1f (maximum de %0.1f) dégâts de foudre à tous les cibles dans un rayon de %d et offre %d%% de chance (maximum de %d%%) de les étourdir pendant 3 tours.
+		Vous récupérez %d (maximum de %d) de Psi du premier ennemi et chaque ennemi supplémentaire en restaure 20%% de moins que le précédent.
+		La force de ce talent est proportionnel à mesure que votre Psi ainsi qu'à votre Puissance Mentale.]], "tformat")
+t("Increases your maximum energy by %d. You also gain %0.1f Psi for each kill and %0.1f Psi for each mind critical.", "Augmente votre énergie maximale de %d. Vous gagnez également %0.1f Psi pour chaque ennemis abattu et %0.1f Psi pour chaque coup critique mental.", "tformat")
+-- texte non traduit
+--[==[
 t("Insatiable", "Insatiable", "talent name")
-t("Increases your maximum energy by %d. You also gain %0.1f Psi for each kill and %0.1f Psi for each mind critical.", "Increases your maximum energy by %d. You also gain %0.1f Psi for each kill and %0.1f Psi for each mind critical.", "tformat")
 --]==]
 
 
@@ -28963,7 +28911,7 @@ t("Spinning Backhand", "Revers Giratoire", "talent name")
 t("@Source@ lashes out with a spinning backhand.", "@Source@ attaque avec un revers giratoire.", "_t")
 t([[Attack your foes in a frontal arc with a spinning backhand, doing %d%% damage. If you're not adjacent to the target, you'll step forward as you spin, gaining up to %d%% bonus damage, which increases the farther you move.
 		This attack will remove any grapples you're maintaining, and earn one combo point (or one combo point per attack that connects, if the talent level is 4 or greater).]], [[Attaquez vos ennemis dans un arc frontal avec un revers giratoire, infligeant %d%% dégâts. Si vous n'êtes pas adjacent à la cible, vous avancerez en tournoyant, gagnant jusqu'à %d%% dégâts bonus, qui augmentent selon la distance parcourue.
-		Cette attaque supprime toute saisie que vous maintenez et vous rapporte un point de combinaison. Au niveau 4 ou supérieur, vous gagnez plutôt un point de combinaison par coup réussi.]], "tformat")
+		Cette attaque supprime toute saisie que vous maintenez et vous rapporte un point de combinaison. Au niveau 4 ou supérieur, vous gagnez plutôt un point de combinaison par toucher réussi.]], "tformat")
 t("Axe Kick", "Coup de Pied en Hache", "talent name")
 t("@Source@ raises their leg and snaps it downward in a devastating axe kick.", "@Source@ lève la jambe et la abat violemment dans un dévastateur coup de pied en hache.", "_t")
 t([[Deliver a devastating axe kick dealing %d%% damage. If the blow connects your target is brain damaged, causing all talents to fail for %d turns and earning 2 combo points.
@@ -28974,7 +28922,7 @@ t("@Source@ lashes out with a flurry of fists.", "@Source@ attaque avec une rafa
 t([[Lashes out at the target with three quick punches that each deal %d%% damage.
 		Earns one combo point. If your talent level is 4 or greater, this instead earns one combo point per blow that connects.]], [[Déchaînez trois coups de poing rapides sur la cible, infligeant chacun %d%% dégâts.
 		Rapporte un point de combinaison.
-		Au niveau 4 ou supérieur, vous gagnez plutôt un point de combinaison par coup réussi.]], "tformat")
+		Au niveau 4 ou supérieur, vous gagnez plutôt un point de combinaison par toucher réussi.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/reflexes.lua"
@@ -30739,7 +30687,7 @@ Si il n'est pas hostile vous lui parlerez ou vous échangerez de place avec lui.
 
 Le combat de melée utilise principalement cinq stats :
 * #GOLD#Précision#WHITE# : Vos chance de toucher.
-* #GOLD#dégâts#WHITE# : Combien de dégâts vous infligez par coup.
+* #GOLD#dégâts#WHITE# : Combien de dégâts vous infligez par toucher.
 * #GOLD#Défense#WHITE# : Vos chances d'éviter les attaques.
 * #GOLD#Armure#WHITE# : Une réduction fixe des dégâts reçus.
 * #GOLD#Pénétration d'armure#WHITE# : En quelle mesure vous pouvez ignorer l'armure de la cible.
@@ -33765,6 +33713,7 @@ t("Displacing %d%% of all damage on to a random enemy.", "Déplace %d%% de tous 
 t("+Webs of Fate", "+Toiles du Destin", "_t")
 t("-Webs of Fate", "-Toiles du Destin", "_t")
 t("%s(%d webs of fate)#LAST#", "%s(%d toiles du destin)#LAST#", "tformat")
+t("focus", "concentration", "effect subtype")
 t("Seal Fate", "Destin Scellé", "_t")
 t("The target has a %d%% chance of increasing the duration of one detrimental status effects on targets it damages by one.", "La cible a %d%% de chances d'augmenter de un la durée d'un effet d'état néfaste sur les cibles qu'elle endommage.", "tformat")
 t("+Seal Fate", "+Destin Scellé", "_t")
@@ -34073,7 +34022,6 @@ t("race", "race", "effect subtype")
 t("Illumination ", "Illumination ", "_t")
 t("+Illumination", "+Illumination", "_t")
 t("-Illumination", "-Illumination", "_t")
-t("focus", "focus", "effect subtype")
 t("%s(%d focus)#LAST#", "%s(%d focus)#LAST#", "tformat")
 t("%d%%", "%d%%", "tformat")
 t("invulnerable", "invulnerable", "effect subtype")
@@ -34102,6 +34050,7 @@ t("#Target# is silenced!", "#Target# est réduit au silence !", "_t")
 t("+Silenced", "+Muet", "_t")
 t("#Target# is not silenced anymore.", "#Target# peut a nouveau parler.", "_t")
 t("-Silenced", "-Muet", "_t")
+t("focus", "concentration", "effect subtype")
 t("Pheromones", "Phéromones", "_t")
 t("The target has been marked as the focus for all nature summons within %d radius, receiving %d%% increased damage from nature summons.", "La cible devient le point de mire de toutes les invocations de la nature dans un rayon de %d, et reçoit %d%% dégâts supplémentaires de la part des invocations de la nature.", "tformat")
 t("Summons flock towards #Target#.", "Les invocations affluent vers #Target#.", "_t")
@@ -34344,7 +34293,7 @@ t("#Target# is being driven mad by the void.", "#Target# est rendu fou par le vi
 t("+Void Echoes", "+Echos du Vide", "_t")
 t("#Target# has survived the void madness.", "#Target# a survécu à la folie du vide.", "_t")
 t("-Void Echoes", "-Echos du Vide", "_t")
-t("nightmare", "cauchemard", "effect subtype")
+t("nightmare", "cauchemar", "effect subtype")
 t("Waking Nightmare", "Cauchemar Eveillé", "_t")
 t("The target is lost in a nightmare that deals %0.2f darkness damage each turn and has a %d%% chance to cause a random detrimental effect.", "La cible est perdue dans un cauchemar qui inflige %0.2f dégâts d'obscurité par tour et a %d%% chances de provoquer un effet néfaste aléatoire.", "tformat")
 t("#F53CBE##Target# is lost in a nightmare.", "#F53CBE##Target# se perd dans un cauchemar.", "_t")
@@ -34538,7 +34487,7 @@ t("#Target# is infected with a mind parasite.", "#Target# est infecté par un pa
 t("+Mind Parasite", "+Parasite Mental", "_t")
 t("#Target# is free from the mind parasite.", "#Target# est libéré du parasite mental.", "_t")
 t("-Mind Parasite", "-Parasite Mental", "_t")
-t("Mindlash", "Coup de Fouet Mental", "_t")
+t("Mindlash", "Fouet Mental", "_t")
 t("Repeated mindlash usage is very taxing increasing the psi cost each time (currently %d%%)", "L'utilisation répétée de coup de fouet mental est très éprouvante et augmente le coût en psi à chaque fois. (actuellement %d%%)", "tformat")
 t("Shadow Empathy", "Empathie de l'Ombre", "_t")
 t("%d%% of all damage is redirected to a random shadow.", "%d%% de tous les dégâts sont redirigés vers une ombre aléatoire.", "tformat")
@@ -34591,7 +34540,6 @@ t("#Target# is free from their doom.", "#Target# est libéré de leur malédicti
 t("-Vampire Mark", "-Marque du Vampire", "_t")
 -- texte non traduit
 --[==[
-t("focus", "focus", "effect subtype")
 t("#ORANGE#", "#ORANGE#", "_t")
 t(", nature", ", nature", "_t")
 t(", arcane", ", arcane", "_t")
